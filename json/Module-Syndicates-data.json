@@ -1,0 +1,202 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Syndicates/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:43:06.824Z"
+  },
+  "_comments": "",
+  "Global": {
+    "Tiers": {
+      "Normal": {
+        "0": {
+          "StandingMin": -5000,
+          "StandingMax": 5000
+        },
+        "1": {
+          "StandingMin": 0,
+          "StandingMax": 22000
+        },
+        "2": {
+          "StandingMin": 0,
+          "StandingMax": 44000
+        },
+        "3": {
+          "StandingMin": 0,
+          "StandingMax": 70000
+        },
+        "4": {
+          "StandingMin": 0,
+          "StandingMax": 99000
+        },
+        "5": {
+          "StandingMin": 0,
+          "StandingMax": 132000
+        },
+        "-2": {
+          "StandingMin": -44000,
+          "StandingMax": 0
+        },
+        "-1": {
+          "StandingMin": -22000,
+          "StandingMax": 0
+        }
+      }
+    }
+  },
+  "Syndicates": {
+    "Arbiters of Hexis": {
+      "Type": "Normal",
+      "Name": "Arbiters of Hexis",
+      "KillSquad": "Eximus Corrupted Lancer",
+      "Initiation": {
+        "Item": {
+          "Type": "Resource",
+          "Name": "Nano Spores",
+          "Count": 500
+        },
+        "Credits": 10000
+      },
+      "Ranks": {
+        "0": {
+          "Title": "Neutral",
+          "Cost": {
+            "Item": {
+              "Name": "Forma",
+              "Type": "Item"
+            },
+            "Credits": 50000
+          }
+        },
+        "1": {
+          "Title": "Principled",
+          "Cost": {
+            "Item": {
+              "Type": "Resource",
+              "Name": "Neural Sensors",
+              "Count": 2
+            },
+            "Credits": 30000
+          }
+        },
+        "2": {
+          "Title": "Authentic",
+          "Cost": {
+            "Item": {
+              "Name": "Forma",
+              "Type": "Item"
+            },
+            "Credits": 50000
+          }
+        },
+        "3": {
+          "Title": "Lawful",
+          "Cost": {
+            "Item": {
+              "Name": "Orokin Reactor",
+              "Type": "Item"
+            },
+            "Credits": 100000
+          }
+        },
+        "4": {
+          "Title": "Crusader",
+          "Cost": {
+            "Item": {
+              "Name": "Cernos Prime Lower Limb",
+              "Type": "PrimePart"
+            },
+            "Credits": 250000
+          }
+        },
+        "5": {
+          "Title": "Maxim",
+          "Cost": {
+            "Item": {
+              "Name": "Nekros Prime Neuroptics",
+              "Type": "PrimePart"
+            },
+            "Credits": 500000
+          }
+        },
+        "-2": {
+          "Title": "Fraud"
+        },
+        "-1": {
+          "Title": "Deceiver",
+          "Cost": {
+            "Item": {
+              "Name": "Orokin Reactor",
+              "Type": "Item"
+            },
+            "Credits": 100000
+          }
+        }
+      }
+    },
+    "Offerings": [
+      {
+        "Type": "Item",
+        "Name": "Corrupted Lancer Specter",
+        "Cost": 2500,
+        "Count": 5,
+        "Rank": 1
+      },
+      {
+        "Cost": 2500,
+        "Type": "Sigil",
+        "Name": "Guiding Path Sigil",
+        "Rank": 1
+      },
+      {
+        "Cost": 5000,
+        "Type": "Sigil",
+        "Name": "Bending Will Sigil",
+        "Rank": 1
+      },
+      {
+        "Cost": 7500,
+        "Type": "Sigil",
+        "Name": "Discipline Sigil",
+        "Rank": 1
+      },
+      {
+        "Cost": 25000,
+        "Type": "Relic",
+        "Name": "Syndicate Relic Pack",
+        "Rank": 2
+      },
+      {
+        "Cost": 20000,
+        "Type": "Blueprint",
+        "Name": "Dual Decurion Barrel",
+        "Rank": 2
+      },
+      {
+        "Cost": 20000,
+        "Type": "Blueprint",
+        "Name": "Phaedra Barrel",
+        "Rank": 2
+      },
+      {
+        "Cost": 20000,
+        "Type": "Blueprint",
+        "Name": "Corvas Barrel",
+        "Rank": 2
+      },
+      {
+        "Cost": 10000,
+        "Type": "Sigil",
+        "Name": "Will Sigil",
+        "Rank": 2
+      },
+      {
+        "Cost": 15000,
+        "Type": "Sigil",
+        "Name": "Choice Sigil",
+        "Rank": 2
+      }
+    ]
+  }
+}

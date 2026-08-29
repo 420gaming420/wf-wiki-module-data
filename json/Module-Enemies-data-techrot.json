@@ -1,0 +1,455 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Enemies/data/techrot",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:36:31.573Z"
+  },
+  "_comments": "\t\t\t-- EximusDefault = false,\n\t\t\t-- SteelPathDefault = false,\n\t\t\t-- EmpoweredDefault = false,\n\t\t\t--Multis = { \"Head: 4.5x\", \"Tendril bulbs: 4.5x\"}, -- confirm\n\t\t\t--SpawnLevel = ?,\n\t\t\t--Scans = ?,\n\t\t\t--Multis = { \"Head: ?x\" },",
+  "Techrot Volatile Galliflex": {
+    "General": {
+      "Actor": "",
+      "Description": "This self-sacrificing unit ignites its subsumed propane tank and then charges its prey, for the survival of the Hive.",
+      "Missions": {},
+      "Introduced": "38",
+      "Type": "",
+      "Scans": 40,
+      "Link": "Techrot Volatile Galliflex",
+      "Name": "Techrot Volatile Galliflex",
+      "Image": "InfestedVolatileRunner.png",
+      "Abilities": {},
+      "Faction": "Techrot",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": {},
+      "InternalName": "/Lotus/Types/Enemies/WF1999Infested/InfestedVolatileRunner/InfestedVolatileRunner1999Agent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Multis": [
+        "Propane tank: 1.5x"
+      ],
+      "ProcResists": {},
+      "Health": 80,
+      "BaseLevel": 1,
+      "Shield": 50,
+      "Affinity": 25
+    }
+  },
+  "H-09 Apex (Techrot)": {
+    "General": {
+      "Description": "",
+      "Missions": [
+        "Assassination",
+        "Victory Plaza"
+      ],
+      "SteelPathDefault": true,
+      "Image": "TechrotH-09ApexTank.png",
+      "Introduced": "38",
+      "InternalName": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianTank/LasrianTankHardModeInfestedAgent",
+      "Actor": "",
+      "Link": "H-09 Apex",
+      "Scans": 3,
+      "EmpoweredDefault": true,
+      "Type": "Secret Boss",
+      "Abilities": {},
+      "Faction": "Techrot",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": {},
+      "Name": "H-09 Apex",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "ProcResists": {},
+      "Health": 30000,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "FactionScaling": "Corpus",
+      "SpawnLevel": 375,
+      "Affinity": 1000
+    }
+  },
+  "Techrot Babau (Temporal Archimedea Survival)": {
+    "General": {
+      "Name": "Techrot Babau (Temporal Archimedea Survival)",
+      "Actor": "",
+      "Description": "The rapid decay of human ingenuity produces daemons. Often found growing on neglected Hell-Scrubbers.",
+      "Missions": {},
+      "Introduced": "38",
+      "Type": "",
+      "Scans": 5,
+      "Link": "Techrot Babau",
+      "EmpoweredDefault": true,
+      "Image": "InfestedBabau.png",
+      "Abilities": {},
+      "Faction": "Techrot",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": {},
+      "InternalName": "/Lotus/Types/Enemies/WF1999Infested/InfestedBabau/DeviationInfestedBabau1999Agent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.5x",
+        "Tendril Bulbs: 1.5x"
+      ],
+      "ProcResists": {},
+      "Health": 9000,
+      "BaseLevel": 1,
+      "Shield": 500,
+      "Affinity": 500
+    }
+  },
+  "Techrot Babau": {
+    "General": {
+      "Actor": "",
+      "Description": "The rapid decay of human ingenuity produces daemons. Often found growing on neglected Hell-Scrubbers.",
+      "Missions": {},
+      "Introduced": "38",
+      "Type": "",
+      "Scans": 3,
+      "Link": "Techrot Babau",
+      "Name": "Techrot Babau",
+      "Image": "InfestedBabau.png",
+      "Abilities": {},
+      "Faction": "Techrot",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": {},
+      "InternalName": "/Lotus/Types/Enemies/WF1999Infested/InfestedBabau/InfestedBabau1999Agent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.5x",
+        "Tendril Bulbs: 1.5x"
+      ],
+      "ProcResists": {},
+      "Health": 10000,
+      "BaseLevel": 1,
+      "Shield": 500,
+      "EximusHealth": 10000,
+      "EximusShield": 500,
+      "Affinity": 500
+    }
+  },
+  "Legacyte": {
+    "General": {
+      "Actor": "",
+      "Description": "With each generation, this Techrot predator becomes stronger, evolving new powers and attacks. Evolving these powerful creatures is metabolically costly for the Techrot, could this be exploited to weaken the Infestation?",
+      "Missions": [
+        "Legacyte Harvest",
+        "Köbinn West"
+      ],
+      "Introduced": "38",
+      "Type": "Boss",
+      "Scans": "",
+      "Link": "Legacyte",
+      "Name": "Legacyte",
+      "Image": "Legacyte.png",
+      "Abilities": {},
+      "Faction": "Techrot",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": {},
+      "InternalName": "/Lotus/Types/Enemies/WF1999Infested/InfestedWarframeCapture/InfestedCaptureWeaveMutalist",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "TotalDamage": 15,
+          "AttackName": "Thrown Glaive Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "TotalDamage": 80,
+          "AttackName": "Thrown Glaive AoE Damage"
+        }
+      ],
+      "ArchimedeaHealthBonus": 7500,
+      "Health": 7500,
+      "BaseLevel": 1,
+      "SpawnLevel": 65,
+      "ProcResists": {},
+      "SteelPathHealthBonus": 7500,
+      "Affinity": 1500
+    }
+  },
+  "Techrot Galliflex": {
+    "General": {
+      "Actor": "",
+      "Description": "This aggressive melee unit dashes at enemies, lashing out with frenzied strikes.",
+      "Missions": {},
+      "Introduced": "38",
+      "Type": "",
+      "Scans": 40,
+      "Link": "Techrot Galliflex",
+      "Name": "Techrot Galliflex",
+      "Image": "TechrotRunner.png",
+      "Abilities": {},
+      "Faction": "Techrot",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": {},
+      "InternalName": "/Lotus/Types/Enemies/WF1999Infested/InfestedRunner/InfestedRunner1999Agent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Multis": [
+        "CRT Screens: 1.5x"
+      ],
+      "ProcResists": {},
+      "Health": 100,
+      "BaseLevel": 1,
+      "Shield": 100,
+      "EximusHealth": 100,
+      "EximusShield": 100,
+      "Affinity": 25
+    }
+  },
+  "H-09 Efervon Tank (Techrot)": {
+    "General": {
+      "Actor": "",
+      "Description": "",
+      "Missions": [
+        "Assassination",
+        "Victory Plaza"
+      ],
+      "Introduced": "38",
+      "Type": "Boss",
+      "Scans": 3,
+      "Link": "H-09 Efervon Tank",
+      "Name": "H-09 Efervon Tank",
+      "Image": "TechrotH-09EfervonTank.png",
+      "Abilities": {},
+      "Faction": "Techrot",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": {},
+      "InternalName": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianTank/LasrianTankInfestedAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "ProcResists": {},
+      "Health": 30000,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "FactionScaling": "Corpus",
+      "Affinity": 1000
+    }
+  },
+  "Techrot Obsolyte": {
+    "General": {
+      "Actor": "",
+      "Description": "Even redundant technology is given new life through the Technocyte Virus.",
+      "Missions": {},
+      "Introduced": "38",
+      "Type": "Heavy",
+      "Scans": 5,
+      "Link": "Techrot Obsolyte",
+      "Name": "Techrot Obsolyte",
+      "Image": "InfestedAncient.png",
+      "Abilities": {},
+      "Faction": "Techrot",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": {},
+      "InternalName": "/Lotus/Types/Enemies/WF1999Infested/InfestedAncient/InfestedAncient1999Agent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Multis": [
+        "CRT Screens: 1.5x"
+      ],
+      "ProcResists": {},
+      "Health": 400,
+      "BaseLevel": 1,
+      "Shield": 200,
+      "EximusHealth": 400,
+      "EximusShield": 200,
+      "Affinity": 250
+    }
+  },
+  "Techrot Scaart": {
+    "General": {
+      "Actor": "",
+      "Description": "",
+      "Missions": [
+        "Faceoff",
+        "Lower Vehrvod",
+        "Vehrvod District"
+      ],
+      "Introduced": "38",
+      "Type": "Heavy",
+      "Link": "Techrot Scaart",
+      "Name": "Techrot Scaart",
+      "Image": "TechrotScaart.png",
+      "Abilities": {},
+      "Faction": "Techrot",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": {},
+      "InternalName": "/Lotus/Types/Enemies/WF1999Infested/InfestedJugulus/TechrotBoneBladeAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Multis": {},
+      "ProcResists": {},
+      "Health": 1200,
+      "BaseLevel": 1,
+      "Armor": 300,
+      "EximusHealth": 1200,
+      "Affinity": 750
+    }
+  },
+  "Techrot Ramsled": {
+    "General": {
+      "Actor": "",
+      "Description": "",
+      "Missions": [
+        "Technocyte Coda Concert"
+      ],
+      "Introduced": "38.5",
+      "Type": "Boarding Capsule",
+      "Scans": 5,
+      "Link": "Techrot Ramsled",
+      "Name": "Techrot Ramsled",
+      "Image": "InfestedRamsled.png",
+      "Abilities": {},
+      "Faction": "Techrot",
+      "Planets": [
+        "Earth Proxima"
+      ],
+      "Weapons": {},
+      "InternalName": "/Lotus/Types/Enemies/WF1999Infested/InfestedRamSled/InfestedRamSledAgent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Multis": {},
+      "ProcResists": {},
+      "Health": 15000,
+      "BaseLevel": 1,
+      "Armor": 2500,
+      "Shield": 0,
+      "Affinity": 1
+    }
+  },
+  "Techrot Skuzzi": {
+    "General": {
+      "Actor": "",
+      "Description": "Once a simple workstation, the servant has turned against its former masters.",
+      "Missions": {},
+      "Introduced": "38",
+      "Type": "",
+      "Scans": 20,
+      "Link": "Techrot Skuzzi",
+      "Name": "Techrot Skuzzi",
+      "Image": "InfestedMutalist.png",
+      "Abilities": {},
+      "Faction": "Techrot",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": {},
+      "InternalName": "/Lotus/Types/Enemies/WF1999Infested/InfestedMutalist/InfestedMutalist1999Agent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Multis": [
+        "CRT Screen: 4.5x",
+        "Speakers: 1.5x",
+        "Tail: 0.5x"
+      ],
+      "ProcResists": {},
+      "Health": 225,
+      "BaseLevel": 8,
+      "Shield": 125,
+      "EximusHealth": 275,
+      "EximusShield": 125,
+      "Affinity": 50
+    }
+  },
+  "Techrot Matmas": {
+    "General": {
+      "Actor": "",
+      "Description": "This tottering, bulbous Techrot creation can inflate bladders to become airborne, raining down destruction on those below.",
+      "Missions": {},
+      "Introduced": "38",
+      "Type": "",
+      "Scans": 20,
+      "Link": "Techrot Matmas",
+      "Name": "Techrot Matmas",
+      "Image": "InfestedUnadoza.png",
+      "Abilities": {},
+      "Faction": "Techrot",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": {},
+      "InternalName": "/Lotus/Types/Enemies/WF1999Infested/InfestedUndazoa/InfestedUndazoa1999Agent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.875x",
+        "Gas sac: 1.5x",
+        "Gas sac connector: 1.25x",
+        "Tail: 1.25x"
+      ],
+      "ProcResists": {},
+      "Health": 300,
+      "BaseLevel": 1,
+      "Shield": 150,
+      "EximusHealth": 300,
+      "EximusShield": 150,
+      "Affinity": 50
+    }
+  },
+  "Techrot Miasmite": {
+    "General": {
+      "Actor": "",
+      "Description": "These tiny nodules of Techrot are the diabolic union of an arc welder and a gas can. Usually attacking in groups, they explode as soon as they near their target.",
+      "Missions": {},
+      "Introduced": "38",
+      "Type": "",
+      "Scans": 40,
+      "Link": "Techrot Miasmite",
+      "Name": "Techrot Miasmite",
+      "Image": "InfestedMaggot.png",
+      "Abilities": {},
+      "Faction": "Techrot",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": {},
+      "InternalName": "/Lotus/Types/Enemies/WF1999Infested/InfestedMaggot/InfestedMaggot1999Agent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Multis": {},
+      "ProcResists": {},
+      "Health": 20,
+      "BaseLevel": 1,
+      "Shield": 5,
+      "Affinity": 25
+    }
+  }
+}

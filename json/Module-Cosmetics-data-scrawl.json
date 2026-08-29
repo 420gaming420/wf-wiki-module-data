@@ -1,0 +1,250 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/scrawl",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:33:12.064Z"
+  },
+  "_comments": "",
+  "Ancient": {
+    "Type": "Scrawl",
+    "Image": "Ancient.png",
+    "Description": "Scrawl art designed by the Ventkids to customize your K-Drive.",
+    "Link": "Ancient (Scrawl)",
+    "Name": "Ancient",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerInfested",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Kill": {
+    "Type": "Scrawl",
+    "Image": "Kill.png",
+    "Description": "Scrawl art designed by the Ventkids to customize your K-Drive.",
+    "Link": "Kill",
+    "Name": "Kill",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerE",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Zanuka?!": {
+    "Type": "Scrawl",
+    "Image": "Zanuka?!.png",
+    "Description": "Scrawl art designed by the Ventkids to customize your K-Drive.",
+    "Link": "Zanuka?!",
+    "Name": "Zanuka?!",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerB",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Worm!": {
+    "Type": "Scrawl",
+    "Image": "Worm!.png",
+    "Description": "Scrawl art designed by the Ventkids to customize your K-Drive.",
+    "Link": "Worm!",
+    "Name": "Worm!",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerG",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Slippery": {
+    "Type": "Scrawl",
+    "Image": "Slippery.png",
+    "Description": "Scrawl art designed by the Ventkids to customize your K-Drive.",
+    "Link": "Slippery",
+    "Name": "Slippery",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerO",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Error!": {
+    "Type": "Scrawl",
+    "Image": "Error!.png",
+    "Description": "Scrawl art designed by the Ventkids to customize your K-Drive.",
+    "Link": "Error!",
+    "Name": "Error!",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerD",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Cicero": {
+    "Type": "Scrawl",
+    "Image": "Cicero.png",
+    "Description": "Scrawl art designed by the Ventkids to customize your K-Drive.",
+    "Link": "Cicero",
+    "Name": "Cicero",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerH",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Exterminate": {
+    "Type": "Scrawl",
+    "Image": "Exterminate.png",
+    "Description": "Scrawl art designed by the Ventkids to customize your K-Drive.",
+    "Link": "Exterminate (Scrawl)",
+    "Name": "Exterminate",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerM",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Wolf": {
+    "Type": "Scrawl",
+    "Image": "Wolf.png",
+    "Description": "Scrawl art designed by the Ventkids to customize your K-Drive.",
+    "Link": "Wolf",
+    "Name": "Wolf",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerWolf",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Kill It!": {
+    "Type": "Scrawl",
+    "Image": "KillIt!.png",
+    "Description": "Scrawl art designed by the Ventkids to customize your K-Drive.",
+    "Link": "Kill It!",
+    "Name": "Kill It!",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerI",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "What The...?": {
+    "Type": "Scrawl",
+    "Image": "WhatThe...?.png",
+    "Description": "Scrawl art designed by the Ventkids to customize your K-Drive.",
+    "Link": "What The...?",
+    "Name": "What The...?",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerN",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Blue Ki'Teer Safari": {
+    "Type": "Scrawl",
+    "Image": "BlueKi'TeerSafari.png",
+    "Description": "Officially-licensed Baro Ki'Teer K-Drive Scrawl! Get yours today, kids!",
+    "Link": "Blue Ki'Teer Safari",
+    "Name": "Blue Ki'Teer Safari",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerBaroA",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Get Them!": {
+    "Type": "Scrawl",
+    "Image": "GetThem!.png",
+    "Description": "Scrawl art designed by the Ventkids to customize your K-Drive.",
+    "Link": "Get Them!",
+    "Name": "Get Them!",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerJ",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Silence!": {
+    "Type": "Scrawl",
+    "Image": "Silence!.png",
+    "Description": "Scrawl art designed by the Ventkids to customize your K-Drive.",
+    "Link": "Silence!",
+    "Name": "Silence!",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Puppeteer": {
+    "Type": "Scrawl",
+    "Image": "Puppeteer.png",
+    "Description": "Scrawl art designed by the Ventkids to customize your K-Drive.",
+    "Link": "Puppeteer",
+    "Name": "Puppeteer",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerPromoD",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Pop!": {
+    "Type": "Scrawl",
+    "Image": "Pop!.png",
+    "Description": "Scrawl art designed by the Ventkids to customize your K-Drive.",
+    "Link": "Pop!",
+    "Name": "Pop!",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerPromoA",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Hang Tenno": {
+    "Type": "Scrawl",
+    "Image": "HangTenno.png",
+    "Description": "Scrawl art designed by the Ventkids to customize your K-Drive.",
+    "Link": "Hang Tenno",
+    "Name": "Hang Tenno",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerPromoC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Let's Go": {
+    "Type": "Scrawl",
+    "Image": "Let'sGo.png",
+    "Description": "Scrawl art designed by the Ventkids to customize your K-Drive.",
+    "Link": "Let's Go",
+    "Name": "Let's Go",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerA",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Justice": {
+    "Type": "Scrawl",
+    "Image": "Justice.png",
+    "Description": "Scrawl art designed by the Ventkids to customize your K-Drive.",
+    "Link": "Justice (Scrawl)",
+    "Name": "Justice",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerF",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Destroy All!": {
+    "Type": "Scrawl",
+    "Image": "DestroyAll!.png",
+    "Description": "Scrawl art designed by the Ventkids to customize your K-Drive.",
+    "Link": "Destroy All!",
+    "Name": "Destroy All!",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerL",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Greedy Milk": {
+    "Type": "Scrawl",
+    "Image": "GreedyMilk.png",
+    "Description": "Scrawl art designed by the Ventkids to customize your K-Drive.",
+    "Link": "Greedy Milk",
+    "Name": "Greedy Milk",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerPromoB",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Get Rekt": {
+    "Type": "Scrawl",
+    "Image": "GetRekt.png",
+    "Description": "Scrawl art designed by the Ventkids to customize your K-Drive.",
+    "Link": "Get Rekt",
+    "Name": "Get Rekt",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerK",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Green Ki'Teer Safari": {
+    "Type": "Scrawl",
+    "Image": "GreenKi'TeerSafari.png",
+    "Description": "Officially-licensed Baro Ki'Teer K-Drive Scrawl! Get yours today, kids!",
+    "Link": "Green Ki'Teer Safari",
+    "Name": "Green Ki'Teer Safari",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerBaroB",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Sssick!!!!": {
+    "Type": "Scrawl",
+    "Image": "Sssick!!!!.png",
+    "Description": "Scrawl art designed by the Ventkids to customize your K-Drive.",
+    "Link": "Sssick!!!!",
+    "Name": "Sssick!!!!",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoverboard/HoverboardStickerP",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Enemies/data/scaldra",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:36:23.616Z"
+  },
+  "_comments": "\t\t\t--SpawnLevel = ?,\n\t\t\t--Multis = { \"Head: ?x\" },\n\t\t\t-- TODO\n\t\t\t-- EximusDefault = false,",
+  "Scaldra Dedicant": {
+    "General": {
+      "Actor": "",
+      "Description": "This heavily armored, slow moving unit lays down the law with dual Efervon cannons.",
+      "Missions": {},
+      "Introduced": "38",
+      "Type": "Ranged Heavy",
+      "Scans": 5,
+      "Link": "Scaldra Dedicant",
+      "Name": "Scaldra Dedicant",
+      "Image": "LasrianNox.png",
+      "Abilities": {},
+      "Faction": "Scaldra",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": [
+        "Purgator 1"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianChemStrikeNox/LasrianChemStrikeNox1999Agent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "EximusOverguard": 24,
+      "Overguard": 22,
+      "ProcResists": {},
+      "Health": 2000,
+      "BaseLevel": 1,
+      "Armor": 500,
+      "EximusHealth": 2000,
+      "Multis": [
+        "Efervon mat: 2x",
+        "Ampule (intact): 1x",
+        "Backpack (intact): 1x",
+        "Backpack (damaged): 1.5x"
+      ],
+      "Affinity": 250
+    }
+  },
+  "Scaldra Screamer": {
+    "General": {
+      "Actor": "Jake Bowen",
+      "Description": "Specialized Scaldra demoltions unit, with an impressive vocal range.",
+      "Missions": [
+        "Stage Defense"
+      ],
+      "Introduced": "38.5",
+      "Type": "Ranged Heavy",
+      "Scans": 5,
+      "Link": "Scaldra Screamer",
+      "Name": "Scaldra Screamer",
+      "Image": "ScaldraScreamer.png",
+      "Abilities": {},
+      "Faction": "Scaldra",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": [
+        "Purgator 1"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/WF1999Lasrian/Disruption/1999DisruptionNox/1999DisruptionNoxAgent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Multis": [
+        "Efervon mat: 2x",
+        "Ampule (intact): 1x",
+        "Backpack (intact): 1x",
+        "Backpack (damaged): 1.5x"
+      ],
+      "ProcResists": {},
+      "Health": 2150,
+      "BaseLevel": 1,
+      "Armor": 500,
+      "SpawnLevel": 65,
+      "Affinity": 250
+    }
+  },
+  "Scaldra Flayer": {
+    "General": {
+      "Actor": "",
+      "Description": "Quick and lethal. This Scaldra unit has been trained to rush the target and inflict maximum damage with their curved blades.",
+      "Missions": {},
+      "Introduced": "38",
+      "Type": "Melee",
+      "Scans": 20,
+      "Link": "Scaldra Flayer",
+      "Name": "Scaldra Flayer",
+      "Image": "LasrianButcher.png",
+      "Abilities": {},
+      "Faction": "Scaldra",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": [
+        "Dual Viciss"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianButcher/LasrianButcher1999Agent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3x"
+      ],
+      "ProcResists": {},
+      "Health": 50,
+      "BaseLevel": 1,
+      "Armor": 10,
+      "EximusHealth": 50,
+      "Affinity": 50
+    }
+  },
+  "Scaldra TI-92": {
+    "General": {
+      "Actor": "",
+      "Description": "This armored personnel carrier is designed to move Scaldra forces quickly and easily around Höllvania. Its roof mounted turret provides lethal defense.",
+      "Missions": {},
+      "Introduced": "38",
+      "Type": "Transport, Emplacement",
+      "Scans": 3,
+      "Link": "Scaldra TI-92",
+      "Name": "Scaldra TI-92",
+      "Image": "LasrianAPC.png",
+      "Abilities": {},
+      "Faction": "Scaldra",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": {},
+      "InternalName": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianDropship/LasrianSedanAgent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "ProcResists": {},
+      "Health": 3000,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "Affinity": 50
+    }
+  },
+  "Scaldra Harbinger": {
+    "General": {
+      "Actor": "",
+      "Description": "This automated aerial unit tracks and triangulates its target with lasers and then fires a high caliber rifle shot.",
+      "Missions": {},
+      "Introduced": "38",
+      "Type": "Ranged",
+      "Scans": 20,
+      "Link": "Scaldra Harbinger",
+      "Name": "Scaldra Harbinger",
+      "Image": "LasrianDrone.png",
+      "Abilities": {},
+      "Faction": "Scaldra",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": {},
+      "InternalName": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianDrone/LasrianDroneAgent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Multis": [
+        "Balloon: 1x"
+      ],
+      "ProcResists": [
+        "Impact",
+        "Magnetic",
+        "Viral",
+        "Corrosive",
+        "Void"
+      ],
+      "Health": 250,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "EximusHealth": 250,
+      "Affinity": 50
+    }
+  },
+  "H-09 Efervon Tank": {
+    "General": {
+      "Actor": "",
+      "Description": "",
+      "Missions": [
+        "Assassination",
+        "Victory Plaza"
+      ],
+      "Introduced": "38",
+      "Type": "Boss",
+      "Scans": 3,
+      "Link": "H-09 Efervon Tank",
+      "Name": "H-09 Efervon Tank",
+      "Image": "LasrianTank.png",
+      "Abilities": {},
+      "Faction": "Scaldra",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": {},
+      "InternalName": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianTank/LasrianTankAgent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "ProcResists": {},
+      "Health": 18000,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "Affinity": 1000
+    }
+  },
+  "Scaldra Barbican": {
+    "General": {
+      "Actor": "",
+      "Description": "Sporting a ballistic shield, this heavy unit closes the distance while laying down pistol fire. Carries an Efervon gel cannon.",
+      "Missions": {},
+      "Introduced": "38",
+      "Type": "Ranged",
+      "Scans": 20,
+      "Link": "Scaldra Barbican",
+      "Name": "Scaldra Barbican",
+      "Image": "LasrianShieldLancer.png",
+      "Abilities": {},
+      "Faction": "Scaldra",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": [
+        "EFV-8 Mars"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianShieldLancer/LasrianShieldLancer1999Agent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3x",
+        "Backpack: 3x"
+      ],
+      "ProcResists": {},
+      "Health": 125,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "EximusHealth": 125,
+      "Affinity": 50
+    }
+  },
+  "H-09 Apex": {
+    "General": {
+      "Description": "",
+      "Missions": [
+        "Assassination",
+        "Victory Plaza"
+      ],
+      "SteelPathDefault": true,
+      "Image": "H-09ApexTank.png",
+      "Introduced": "38",
+      "InternalName": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianTank/LasrianTankHardModeAgent",
+      "Actor": "",
+      "Link": "H-09 Apex",
+      "Scans": 3,
+      "EmpoweredDefault": true,
+      "Type": "Secret Boss",
+      "Abilities": {},
+      "Faction": "Scaldra",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": {},
+      "Name": "H-09 Apex",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "ProcResists": {},
+      "Health": 18000,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "SpawnLevel": 375,
+      "Affinity": 1000
+    }
+  },
+  "Scaldra Eradicator": {
+    "General": {
+      "Actor": "",
+      "Description": "This support unit smokes out its target with gas grenades and finishes the job with blows from his massive club.",
+      "Missions": {},
+      "Introduced": "38",
+      "Type": "Heavy, Deployer",
+      "Scans": 5,
+      "Link": "Scaldra Eradicator",
+      "Name": "Scaldra Eradicator",
+      "Image": "LasrianGoonadier.png",
+      "Abilities": {},
+      "Faction": "Scaldra",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": {},
+      "InternalName": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianGoonadier/LasrianGoonadier1999Agent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3x"
+      ],
+      "ProcResists": {},
+      "Health": 325,
+      "BaseLevel": 1,
+      "Armor": 500,
+      "EximusHealth": 325,
+      "Affinity": 250
+    }
+  },
+  "H-04 Efervon Tank": {
+    "General": {
+      "Image": "LasrianTank.png",
+      "Faction": "Scaldra"
+    },
+    "Stats": {}
+  },
+  "Scaldra Jaeger": {
+    "General": {
+      "Actor": "",
+      "Description": "This rifle unit has been trained to suppress the enemy with volley after volley of machine gun fire.",
+      "Missions": {},
+      "Introduced": "38",
+      "Type": "Ranged",
+      "Scans": 20,
+      "Link": "Scaldra Jaeger",
+      "Name": "Scaldra Jaeger",
+      "Image": "LasrianLancer.png",
+      "Abilities": {},
+      "Faction": "Scaldra",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": [
+        "EFV-5 Jupiter"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianRifleLancer/LasrianLancer1999Agent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3x",
+        "Backpack: 3x"
+      ],
+      "ProcResists": {},
+      "Health": 125,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "EximusHealth": 125,
+      "Affinity": 50
+    }
+  }
+}

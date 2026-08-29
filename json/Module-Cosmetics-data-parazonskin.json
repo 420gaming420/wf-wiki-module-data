@@ -1,0 +1,30 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/parazonskin",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:33:03.950Z"
+  },
+  "_comments": "",
+  "Phelonyx Parazon Skin": {
+    "Type": "Parazon Skin",
+    "Image": "PhelonyxParazonSkin.png",
+    "Description": "The parazon, reimagined as a dagger of the Duviri Dax by the surreal creative power of the land itself.",
+    "Link": "Phelonyx Parazon Skin",
+    "Name": "Phelonyx Parazon Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Parazon/DaxDuviriParazonSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Sigma Series Parazon Skin": {
+    "Type": "Parazon Skin",
+    "Image": "SigmaSeriesParazonSkin.png",
+    "Description": "This Parazon model was gifted to the first Warframe Railjack crews.",
+    "Link": "Sigma Series Parazon Skin",
+    "Name": "Sigma Series Parazon Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Parazon/TnRailjackDataKnife",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  }
+}

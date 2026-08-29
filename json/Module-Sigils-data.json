@@ -1,0 +1,1674 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Sigils/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:42:36.912Z"
+  },
+  "_comments": "",
+  "Hemocyte Sigil": {
+    "Image": "HemocyteSigil.png",
+    "Name": "Hemocyte Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Holdfasts Guardian Sigil": {
+    "Description": "A sigil representing prestige gained with the Holdfasts.",
+    "Image": "HoldfastsGuardianSigil.png",
+    "Name": "Holdfasts Guardian Sigil",
+    "Link": "Sigils#The Holdfasts"
+  },
+  "Ventkids Proper Felon Sigil": {
+    "Description": "A sigil representing prestige gained with the Ventkids.",
+    "Image": "VentkidsProperFelonSigil.png",
+    "Name": "Ventkids Proper Felon Sigil",
+    "Link": "Sigils#Ventkids"
+  },
+  "Day of the Dead Sigil": {
+    "Description": "A morbidly festive sigil.",
+    "Image": "DayoftheDeadSigil.png",
+    "Name": "Day of the Dead Sigil",
+    "Link": "Sigil#Tactical Alert Sigils"
+  },
+  "Sacrifice Sigil": {
+    "Name": "Sacrifice Sigil",
+    "Image": "SacrificeSigil.png",
+    "Description": "A sigil representing prestige gained with New Loka.",
+    "Link": "Sigils#New Loka"
+  },
+  "Bloodshed Sigil": {
+    "Image": "BloodiedSigil.png",
+    "Name": "Bloodshed Sigil",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Description": "With this sigil, damage will leave you blood-soaked, while in Captura your Warframe stands wreathed in the gore of its enemies. Honor the Maiden of Death by donning her traditional garb."
+  },
+  "Ostron Visitor Sigil": {
+    "Description": "A sigil representing prestige gained with the Ostron.",
+    "Image": "OstronVisitorSigil.png",
+    "Name": "Ostron Visitor Sigil",
+    "Link": "Sigils#Ostron"
+  },
+  "Cull Sigil": {
+    "Name": "Cull Sigil",
+    "Image": "CullSigil.png",
+    "Description": "A sigil representing prestige gained with the Red Veil.",
+    "Link": "Sigils#Red Veil"
+  },
+  "Revelation Sigil": {
+    "Image": "RevelationSigil.png",
+    "Name": "Revelation Sigil",
+    "Link": "Sigils#Conclave Sigils"
+  },
+  "Enlightenment Sigil": {
+    "Image": "EnlightenmentSigil.png",
+    "Name": "Enlightenment Sigil",
+    "Link": "Sigils#Conclave Sigils"
+  },
+  "Emissary Sigil": {
+    "Description": "Display the mark of Arlo's devoted with this Sigil.",
+    "Image": "EmissarySigil.png",
+    "Name": "Emissary Sigil",
+    "Link": "Sigils#Nightwave Sigils"
+  },
+  "Acolyte Sigil": {
+    "Description": "Never forget those who would defile the Tenno ways.",
+    "Image": "AcolyteSigil.png",
+    "Name": "Acolyte Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Viscera Sigil": {
+    "Name": "Viscera Sigil",
+    "Image": "VisceraSigil.png",
+    "Description": "A sigil representing prestige gained with the Red Veil.",
+    "Link": "Sigils#Red Veil"
+  },
+  "Quills Architect Sigil": {
+    "Description": "A sigil representing prestige gained with the Quills.",
+    "Image": "QuillsArchitectSigil.png",
+    "Name": "Quills Architect Sigil",
+    "Link": "Sigils#The Quills"
+  },
+  "Growth Sigil": {
+    "Name": "Growth Sigil",
+    "Image": "GrowthSigil.png",
+    "Description": "A sigil representing prestige gained with New Loka.",
+    "Link": "Sigils#New Loka"
+  },
+  "Kickback Sigil": {
+    "Name": "Kickback Sigil",
+    "Image": "KickbackSigil.png",
+    "Description": "High speed movement can leave its mark. Gauss Moto's signature sigil.",
+    "Link": "Sigils#Deluxe Sigils"
+  },
+  "Somber Stalker Sigil": {
+    "Description": "From the shadows.",
+    "Image": "SomberStalkerSigil.png",
+    "Name": "Somber Stalker Sigil",
+    "Link": "Sigil#Event Sigils"
+  },
+  "Kela De Thaym Sigil": {
+    "Image": "KelaDeThaym_sigil.png",
+    "Description": "A sigil depicting Kela De Thaym.",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Name": "Kela De Thaym Sigil"
+  },
+  "Progress Sigil": {
+    "Name": "Progress Sigil",
+    "Image": "ProgressSigil.png",
+    "Description": "A sigil representing prestige gained with the Perrin Sequence.",
+    "Link": "Sigils#Perrin Sequence"
+  },
+  "Evergreen Sigil": {
+    "Image": "XmasSigilD.png",
+    "Name": "Evergreen Sigil",
+    "Link": "Sigil#Tactical Alert Sigils"
+  },
+  "Vor Sigil": {
+    "Image": "CaptainVor_sigil.png",
+    "Description": "A sigil depicting Captain Vor.",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Name": "Vor Sigil"
+  },
+  "Bloom Sigil": {
+    "Name": "Bloom Sigil",
+    "Image": "BloomSigil.png",
+    "Description": "A sigil representing prestige gained with New Loka.",
+    "Link": "Sigils#New Loka"
+  },
+  "Solaris United Cove Sigil": {
+    "Description": "A sigil representing prestige gained with the Solaris United.",
+    "Image": "SolarisUnitedCoveSigil.png",
+    "Name": "Solaris United Cove Sigil",
+    "Link": "Sigils#Solaris United"
+  },
+  "Lunar Renewal Swift Sigil": {
+    "Description": "Celebrate Lunar Renewal with the kind heart of the gentle rabbit.",
+    "Image": "LunarRenewalSwiftSigil.png",
+    "Name": "Lunar Renewal Swift Sigil",
+    "Link": "Sigils#Purchasable Sigils"
+  },
+  "Ostron Surah Sigil": {
+    "Description": "A sigil representing prestige gained with the Ostron.",
+    "Image": "OstronSurahSigil.png",
+    "Name": "Ostron Surah Sigil",
+    "Link": "Sigils#Ostron"
+  },
+  "Lephantis Sigil": {
+    "Image": "Lephantis_sigil.png",
+    "Description": "A sigil depicting the Lephantis.",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Name": "Lephantis Sigil"
+  },
+  "Belly of the Beast Sigil": {
+    "Image": "BellyOfTheBeastEmblem(ExWhite).png",
+    "Name": "Belly of the Beast Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Labyrinth Sigil": {
+    "Name": "Labyrinth Sigil",
+    "Image": "LabyrinthSigil.png",
+    "Description": "A sigil representing prestige gained with Cephalon Suda.",
+    "Link": "Sigils#Cephalon Suda"
+  },
+  "Zanuka Sigil": {
+    "Image": "HarvesterSigil.png",
+    "Description": "A sigil depicting the emblem of the Zanuka Hunter.",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Name": "Zanuka Sigil"
+  },
+  "Mastery Sigil": {
+    "Description": "This sigil represents the pinnacle of mastery within the Tenno.",
+    "Image": "MasterySigilR.png",
+    "Name": "Mastery Sigil",
+    "Link": "Sigils#Purchasable Sigils"
+  },
+  "Grand Master Sigil": {
+    "Image": "GrandMasterBadge.png",
+    "Name": "Grand Master Sigil",
+    "Link": "Sigils#Founder Sigils"
+  },
+  "Covert Sigil": {
+    "Name": "Covert Sigil",
+    "Image": "CovertSigil.png",
+    "Description": "A sigil representing prestige gained with the Red Veil.",
+    "Link": "Sigils#Red Veil"
+  },
+  "Hydrolyst Sigil": {
+    "Name": "Hydrolyst Sigil",
+    "Image": "HydrolystSigil.png",
+    "Description": "An imprint of a fallen Hydrolyst.",
+    "Link": "Sigils#Enemy Drop Sigils"
+  },
+  "Bounty Sigil": {
+    "Name": "Bounty Sigil",
+    "Image": "BountySigil.png",
+    "Description": "A sigil representing prestige gained with New Loka.",
+    "Link": "Sigils#New Loka"
+  },
+  "Necraloid Agnesis Sigil": {
+    "Description": "A sigil representing prestige gained with the Necraloid.",
+    "Image": "NecraloidAgnesisSigil.png",
+    "Name": "Necraloid Agnesis Sigil",
+    "Link": "Sigils#Necraloid"
+  },
+  "Arbiters of Hexis Sigil": {
+    "Name": "Arbiters of Hexis Sigil",
+    "Image": "ArbitersofHexisSigil.png",
+    "Description": "A sigil representing prestige gained with the Arbiter of Hexis.",
+    "Link": "Sigils##Arbiters of Hexis"
+  },
+  "Imminent Eclipse Sigil": {
+    "Description": "Captures the moment when the darkness overcomes the light.",
+    "Image": "ImminentEclipse_w.png",
+    "Name": "Imminent Eclipse Sigil",
+    "Link": "Sigils#Daily Tribute Milestone Sigils"
+  },
+  "Blades Sigil": {
+    "Name": "Blades Sigil",
+    "Image": "BladesSigil.png",
+    "Description": "A sigil representing prestige gained with the Red Veil.",
+    "Link": "Sigils#Red Veil"
+  },
+  "Winter Solstice Sigil": {
+    "Description": "A festive sigil.",
+    "Image": "WinterSolsticeSigil.png",
+    "Name": "Winter Solstice Sigil",
+    "Link": "Sigils#Community Event Sigils"
+  },
+  "False Profit Sigil": {
+    "Description": "This sigil commemorates the Tenno victory over the machinations of Nef Anyo.",
+    "Image": "RiotMoaEventBadge.png",
+    "Name": "False Profit Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Conquera Sigil": {
+    "Description": "Wear the Sigil as a symbol of support in the fight to conquer a disease that touches us all.",
+    "Image": "ConqueraSigil.png",
+    "Name": "Conquera Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Cavia Illuminate Sigil": {
+    "Description": "A sigil representing prestige gained with the Cavia.",
+    "Image": "FactionSigilCaviaLevel5.png",
+    "Name": "Cavia Illuminate Sigil",
+    "Link": "Sigils#Cavia"
+  },
+  "Teralyst Prominence Sigil": {
+    "Description": "A bold sigil depicting a Sentient Teralyst.",
+    "Image": "TeralystSigil.png",
+    "Name": "Teralyst Prominence Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Prisma Lotus Bloom Sigil": {
+    "Description": "From Baro Ki'Teer comes this arboreal reimagining of the Lotus' signature symbol.",
+    "Image": "PrismaLotusBloomSigil.png",
+    "Name": "Prisma Lotus Bloom Sigil",
+    "Link": "Sigils#Baro Ki'Teer Sigils"
+  },
+  "TennoCon 2021 Sigil": {
+    "Image": "Tennocon2021Sigil.png",
+    "Name": "TennoCon 2021 Sigil",
+    "Link": "Sigils#Live Event Sigils"
+  },
+  "Old Blood Sigil": {
+    "Image": "OldBloodSigil.png",
+    "Name": "Old Blood Sigil",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Description": "The sigil of one who has bested an inhuman adversary born of the Old Blood: a Kuva Lich."
+  },
+  "Hunter Sigil": {
+    "Image": "HunterBadge.png",
+    "Name": "Hunter Sigil",
+    "Link": "Sigils#Founder Sigils"
+  },
+  "Phased Clan Sigil": {
+    "Image": "ClanSigilPhased.png",
+    "Name": "Phased Clan Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Cavia Scholar Sigil": {
+    "Description": "A sigil representing prestige gained with the Cavia.",
+    "Image": "FactionSigilCaviaLevel4.png",
+    "Name": "Cavia Scholar Sigil",
+    "Link": "Sigils#Cavia"
+  },
+  "Quills Instrument Sigil": {
+    "Description": "A sigil representing prestige gained with the Quills.",
+    "Image": "QuillsInstrumentSigil.png",
+    "Name": "Quills Instrument Sigil",
+    "Link": "Sigils#The Quills"
+  },
+  "Scars of Arbitration Sigil": {
+    "Description": "Bear the scars earned in deadly Arbitrations.",
+    "Image": "ScarsofArbitrationSigil.png",
+    "Name": "Scars of Arbitration Sigil",
+    "Link": "Sigils#Arbitration Sigils"
+  },
+  "Prisma Lotus Flame Sigil": {
+    "Description": "From Baro Ki'Teer comes this fiery reimagining of the Lotus' signature symbol.",
+    "Image": "PrismaLotusFlameSigil.png",
+    "Name": "Prisma Lotus Flame Sigil",
+    "Link": "Sigils#Baro Ki'Teer Sigils"
+  },
+  "Vox Solaris Shadow Sigil": {
+    "Description": "A sigil representing prestige gained with the Vox Solaris.",
+    "Image": "VoxSolarisShadowSigil.png",
+    "Name": "Vox Solaris Shadow Sigil",
+    "Link": "Sigils#Vox Solaris"
+  },
+  "Community of Tenno": {
+    "Description": "Dedicated to the amazing Warframe community.",
+    "Image": "CommunityOfTenno_Market.png",
+    "Name": "Community of Tenno",
+    "Link": "Sigils#Purchasable Sigils"
+  },
+  "Unyielding Sigil": {
+    "Name": "Unyielding Sigil",
+    "Image": "UnyieldingSigil.png",
+    "Description": "A sigil representing prestige gained with the Steel Meridian.",
+    "Link": "Sigils#Steel Meridian"
+  },
+  "TennoCon 2025 Sigil": {
+    "Image": "Tennocon2025Sigil.png",
+    "Name": "TennoCon 2025 Sigil",
+    "Link": "Sigils#Live Event Sigils"
+  },
+  "Cavia Assistant Sigil": {
+    "Description": "A sigil representing prestige gained with the Cavia.",
+    "Image": "FactionSigilCaviaLevel1.png",
+    "Name": "Cavia Assistant Sigil",
+    "Link": "Sigils#Cavia"
+  },
+  "Tolling Sigil": {
+    "Image": "XmasSigilC.png",
+    "Name": "Tolling Sigil",
+    "Link": "Sigil#Tactical Alert Sigils"
+  },
+  "Prominence Sigil": {
+    "Description": "A sigil depicting bold geometric patterns.",
+    "Image": "ProminenceSigil.png",
+    "Name": "Prominence Sigil",
+    "Link": "Sigils#Twitch Game Store and Twitch Prime Sigils"
+  },
+  "Void Gate Sigil": {
+    "Description": "Recalls the place that lies between two realities.",
+    "Image": "VoidGate_w.png",
+    "Name": "Void Gate Sigil",
+    "Link": "Sigils#Daily Tribute Milestone Sigils"
+  },
+  "Ember Heirloom Sigil": {
+    "Description": "A sigil that celebrates Ember's legacy.",
+    "Image": "EmberHeirloomSigil.png",
+    "Name": "Ember Heirloom Sigil",
+    "Link": "Sigils#Purchasable Sigils"
+  },
+  "Festive Sigil": {
+    "Description": "A sigil containing a festive design.",
+    "Image": "FestiveSigil.png",
+    "Name": "Festive Sigil",
+    "Link": "Sigils#Purchasable Sigils"
+  },
+  "Pizza Party Sigil": {
+    "Description": "A sigil representing prestige gained with The Hex.",
+    "Image": "FactionSigilHexLevel5.png",
+    "Name": "Pizza Party Sigil",
+    "Link": "Sigils#The Hex"
+  },
+  "Vauban Heirloom Sigil": {
+    "Description": "A sigil that celebrates Vauban's legacy.",
+    "Image": "VaubanHeirloomSigil.png",
+    "Name": "Vauban Heirloom Sigil",
+    "Link": "Sigils#Purchasable Sigils"
+  },
+  "Obsidian Corvus Sigil": {
+    "Image": "PS4ObsidianCorvusSigil.png",
+    "Name": "Obsidian Corvus Sigil",
+    "Link": "Sigils#PS4 Bundle Sigils"
+  },
+  "Ostron Offworlder Sigil": {
+    "Description": "A sigil representing prestige gained with the Ostron.",
+    "Image": "OstronOffworlderSigil.png",
+    "Name": "Ostron Offworlder Sigil",
+    "Link": "Sigils#Ostron"
+  },
+  "Obsidian Indra Sigil": {
+    "Image": "PS4ObsidianIndraSigil.png",
+    "Name": "Obsidian Indra Sigil",
+    "Link": "Sigils#PS4 Bundle Sigils"
+  },
+  "Guide of the Lotus": {
+    "Description": "Awarded to Tenno who assist the Lotus by helping other Tenno.",
+    "Image": "LotusGuideBadge.png",
+    "Name": "Guide of the Lotus",
+    "Link": "Sigils#Other Sigils"
+  },
+  "Raptor Sigil": {
+    "Image": "Raptor_sigil.png",
+    "Description": "A sigil depicting the Raptor.",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Name": "Raptor Sigil"
+  },
+  "Cavia Colleague Sigil": {
+    "Description": "A sigil representing prestige gained with the Cavia.",
+    "Image": "FactionSigilCaviaLevel3.png",
+    "Name": "Cavia Colleague Sigil",
+    "Link": "Sigils#Cavia"
+  },
+  "Directives Sigil": {
+    "Name": "Directives Sigil",
+    "Image": "DirectivesSigil.png",
+    "Description": "A sigil representing prestige gained with the Perrin Sequence.",
+    "Link": "Sigils#Perrin Sequence"
+  },
+  "Inktober Sigil": {
+    "Description": "A sigil awarded for Inktober.",
+    "Image": "InktoberGlyph.png",
+    "Name": "Inktober Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Sargas Ruk Sigil": {
+    "Image": "SargusRuk_sigil.png",
+    "Description": "A sigil depicting General Sargas Ruk.",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Name": "Sargas Ruk Sigil"
+  },
+  "Conclave Sigil": {
+    "Image": "ConclaveSigil.png",
+    "Name": "Conclave Sigil",
+    "Link": "Sigils#Conclave Sigils"
+  },
+  "Buried Debts Sigil": {
+    "Description": "For those who have performed great works, safeguarding Fortuna against the ravages of Exploiter and her thermia fractures.",
+    "Image": "Orb_Badge.png",
+    "Name": "Buried Debts Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Ventkids Glinty Sigil": {
+    "Description": "A sigil representing prestige gained with the Ventkids.",
+    "Image": "VentkidsGlintySigil.png",
+    "Name": "Ventkids Glinty Sigil",
+    "Link": "Sigils#Ventkids"
+  },
+  "Seed Sigil": {
+    "Name": "Seed Sigil",
+    "Image": "SeedSigil.png",
+    "Description": "A sigil representing prestige gained with New Loka.",
+    "Link": "Sigils#New Loka"
+  },
+  "Lynx Sigil": {
+    "Image": "Lynx_sigil.png",
+    "Description": "A sigil depicting the Lynx.",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Name": "Lynx Sigil"
+  },
+  "Empyrean Sigil": {
+    "Description": "The same sigil that was proudly worn by Old War Railjack crews.",
+    "Image": "EmpyreanSigil.png",
+    "Name": "Empyrean Sigil",
+    "Link": "Sigils#Platinum Pack Sigils"
+  },
+  "Big Bytes Pizza Sigil": {
+    "Description": "Give your fellow Tenno a case of the munchies with Slice-Z from Big Bytes Pizza.",
+    "Image": "BigBytesPizzaSigil.png",
+    "Name": "Big Bytes Pizza Sigil",
+    "Link": "Sigils#Nightwave Sigils"
+  },
+  "Scar Sigil": {
+    "Image": "ScarSigil.png",
+    "Name": "Scar Sigil",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Description": "A memento for those who have awoken from the Second Dream."
+  },
+  "Truth Sigil": {
+    "Name": "Truth Sigil",
+    "Image": "TruthSigil.png",
+    "Description": "A sigil representing prestige gained with the Arbiter of Hexis.",
+    "Link": "Sigils##Arbiters of Hexis"
+  },
+  "Trailer Entrant Sigil": {
+    "Description": "Participatory prize for the Tenno's Greatest Trailer contest.",
+    "Image": "TrailerEntrantSigil_w.png",
+    "Name": "Trailer Entrant Sigil",
+    "Link": "Sigils#Community Event Sigils"
+  },
+  "Rift Walker Prime Sigil": {
+    "Description": "The signature sigil of Limbo Prime.",
+    "Image": "PrimeAccessSigilLimbo.png",
+    "Name": "Rift Walker Prime Sigil",
+    "Link": "Sigils#Prime Access Sigils"
+  },
+  "Cavia Researcher Sigil": {
+    "Description": "A sigil representing prestige gained with the Cavia.",
+    "Image": "FactionSigilCaviaLevel2.png",
+    "Name": "Cavia Researcher Sigil",
+    "Link": "Sigils#Cavia"
+  },
+  "Saturn Six Sigil": {
+    "Description": "The mark of an outlaw, once locked away six leagues deep in the gas.",
+    "Image": "SaturnSixEmblem.png",
+    "Name": "Saturn Six Sigil",
+    "Link": "Sigils#Nightwave Sigils"
+  },
+  "Gilded Clan Sigil": {
+    "Image": "ClanSigilGilded.png",
+    "Name": "Gilded Clan Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Quills Observer Sigil": {
+    "Description": "A sigil representing prestige gained with the Quills.",
+    "Image": "QuillsObserverSigil.png",
+    "Name": "Quills Observer Sigil",
+    "Link": "Sigils#The Quills"
+  },
+  "Alad V Sigil": {
+    "Image": "AladV_sigil.png",
+    "Description": "A sigil depicting Alad V.",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Name": "Alad V Sigil"
+  },
+  "Vanquished Coda Sigil": {
+    "Image": "VanquishedCodaSigil.png",
+    "Name": "Vanquished Coda Sigil",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Description": "The show’s over. This sigil marks the end of a Technocyte Coda’s career of music and mayhem."
+  },
+  "Quills Mote Sigil": {
+    "Description": "A sigil representing prestige gained with the Quills.",
+    "Image": "QuillsMoteSigil.png",
+    "Name": "Quills Mote Sigil",
+    "Link": "Sigils#The Quills"
+  },
+  "TennoCon 2018 Sigil": {
+    "Image": "TennoCon2018Sigil.png",
+    "Name": "TennoCon 2018 Sigil",
+    "Link": "Sigils#Live Event Sigils"
+  },
+  "Kumuda Sigil": {
+    "Description": "Pay respect to The Lotus with this elegant sigil.",
+    "Image": "KumudaSigil.png",
+    "Name": "Kumuda Sigil",
+    "Link": "Sigils#Platinum Pack Sigils"
+  },
+  "Mesa Heirloom Sigil": {
+    "Description": "Mesa Heirloom's sigil warns outlaws their time has come.",
+    "Image": "MesaHeirloomSigil.png",
+    "Name": "Mesa Heirloom Sigil",
+    "Link": "Sigils#Purchasable Sigils"
+  },
+  "Solaris United Outworlder Sigil": {
+    "Description": "A sigil representing prestige gained with the Solaris United.",
+    "Image": "SolarisUnitedOutworlderSigil.png",
+    "Name": "Solaris United Outworlder Sigil",
+    "Link": "Sigils#Solaris United"
+  },
+  "TennoCon 2020 Sigil": {
+    "Image": "Tennocon2020Sigil.png",
+    "Name": "TennoCon 2020 Sigil",
+    "Link": "Sigils#Live Event Sigils"
+  },
+  "TennoCon 2017 Sigil": {
+    "Image": "TennoCon2017Sigil.png",
+    "Name": "TennoCon 2017 Sigil",
+    "Link": "Sigils#Live Event Sigils"
+  },
+  "Clarity Sigil": {
+    "Name": "Clarity Sigil",
+    "Image": "ClaritySigil.png",
+    "Description": "A sigil representing prestige gained with New Loka.",
+    "Link": "Sigils#New Loka"
+  },
+  "Eternal Stasis Sigil": {
+    "Description": "Commemorates the beginning of the long-sleep.",
+    "Image": "EternalStasis_w.png",
+    "Name": "Eternal Stasis Sigil",
+    "Link": "Sigils#Daily Tribute Milestone Sigils"
+  },
+  "Converted Coda Sigil": {
+    "Image": "ConvertedCodaSigil.png",
+    "Name": "Converted Coda Sigil",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Description": "The show must go on. This sigil marks the conversion of a hostile Technocyte Coda into a Techrot friend."
+  },
+  "The Sergeant Sigil": {
+    "SellPrice": 1000,
+    "Image": "NefAnyo_sigil.png",
+    "Name": "The Sergeant Sigil",
+    "Link": "Sigils#Enemy Drop Sigils"
+  },
+  "Atramentum Sigil": {
+    "Image": "AtramentumSigil(SxWhite).png",
+    "Name": "Atramentum Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Prisma Sigil": {
+    "Description": "This exclusive sigil features Prisma color gradients for maximum customization.",
+    "Image": "PrismaSigil.png",
+    "Name": "Prisma Sigil",
+    "Link": "Sigils#Baro Ki'Teer Sigils"
+  },
+  "Gaia Sigil": {
+    "Name": "Gaia Sigil",
+    "Image": "GaiaSigil.png",
+    "Description": "A sigil representing prestige gained with New Loka.",
+    "Link": "Sigils#New Loka"
+  },
+  "Insight Sigil": {
+    "Image": "InsightSigil.png",
+    "Name": "Insight Sigil",
+    "Link": "Sigils#Conclave Sigils"
+  },
+  "Lunar Renewal Ox Sigil": {
+    "Description": "Celebrate the new lunar year with the power of the noble ox.",
+    "Image": "LunarRenewalOxSigil.png",
+    "Name": "Lunar Renewal Ox Sigil",
+    "Link": "Sigils#Baro Ki'Teer Sigils"
+  },
+  "Pattern Match Sigil": {
+    "Name": "Pattern Match Sigil",
+    "Image": "PatternMatchSigil.png",
+    "Description": "A sigil representing prestige gained with Cephalon Suda.",
+    "Link": "Sigils#Cephalon Suda"
+  },
+  "Valkyr Heirloom Sigil": {
+    "Description": "A sigil that celebrates Valkyr's legacy.",
+    "Image": "ValkyrHeirloomSigil.png",
+    "Name": "Valkyr Heirloom Sigil",
+    "Link": "Sigils#Purchasable Sigils"
+  },
+  "Entrati Associate Sigil": {
+    "Description": "A sigil representing prestige gained with the Entrati.",
+    "Image": "EntratiAssociateSigil.png",
+    "Name": "Entrati Associate Sigil",
+    "Link": "Sigils#Entrati"
+  },
+  "Stalker Smoke Screen Sigil": {
+    "Description": "Who do you hunt, Shadow?.",
+    "Image": "StalkerSmokeScreenSigil.png",
+    "Name": "Stalker Smoke Screen Sigil",
+    "Link": "Sigils#Nightwave Sigils"
+  },
+  "Protectorate Sigil": {
+    "Name": "Protectorate Sigil",
+    "Image": "ProtectorateSigil.png",
+    "Description": "A sigil representing prestige gained with the Steel Meridian.",
+    "Link": "Sigils#Steel Meridian"
+  },
+  "Atomic Sigil": {
+    "Name": "Atomic Sigil",
+    "Image": "AtomicSigil.png",
+    "Description": "A sigil representing prestige gained with Cephalon Suda.",
+    "Link": "Sigils#Cephalon Suda"
+  },
+  "Prisma Thrax Sigil": {
+    "Description": "From Baro Ki'Teer comes this stylish reimagining of the legendary king, Dominus Thrax.",
+    "Image": "PrismaThraxSigil.png",
+    "Name": "Prisma Thrax Sigil",
+    "Link": "Sigils#Baro Ki'Teer Sigils"
+  },
+  "Quills Adherent Sigil": {
+    "Description": "A sigil representing prestige gained with the Quills.",
+    "Image": "QuillsAdherentSigil.png",
+    "Name": "Quills Adherent Sigil",
+    "Link": "Sigils#The Quills"
+  },
+  "Query Sigil": {
+    "Name": "Query Sigil",
+    "Image": "QuerySigil.png",
+    "Description": "A sigil representing prestige gained with Cephalon Suda.",
+    "Link": "Sigils#Cephalon Suda"
+  },
+  "Grim Grin Naberus Sigil": {
+    "Description": "A morbidly festive Naberus sigil.",
+    "Image": "GrimGrinNaberusSigil.png",
+    "Name": "Grim Grin Naberus Sigil",
+    "Link": "Sigil#Event Sigils"
+  },
+  "Ventkids Primo Sigil": {
+    "Description": "A sigil representing prestige gained with the Ventkids.",
+    "Image": "VentkidsPrimoSigil.png",
+    "Name": "Ventkids Primo Sigil",
+    "Link": "Sigils#Ventkids"
+  },
+  "Rathuum Sigil": {
+    "Description": "A sigil commemorating the liberation of defectors from the Grineer.",
+    "Image": "KelaEventBadge.png",
+    "Name": "Rathuum Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Banshee Soprana Sigil": {
+    "Description": "Wear Banshee Soprana's sigil with pride.",
+    "Image": "BansheeDeluxeSigil.png",
+    "Name": "Banshee Soprana Sigil",
+    "Link": "Sigils#Purchasable Sigils"
+  },
+  "Vox Solaris Instrument Sigil": {
+    "Description": "A sigil representing prestige gained with the Vox Solaris.",
+    "Image": "VoxSolarisInstrumentSigil.png",
+    "Name": "Vox Solaris Instrument Sigil",
+    "Link": "Sigils#Vox Solaris"
+  },
+  "Static Reactor Prime Sigil": {
+    "Description": "Paired with this sigil, a Warframe will flicker and flash like a thunderhead.",
+    "Image": "StaticReactorPrimeSigil.png",
+    "Name": "Static Reactor Prime Sigil",
+    "Link": "Sigils#Twitch Game Store and Twitch Prime Sigils"
+  },
+  "Phorid Sigil": {
+    "Image": "Phorid_sigil.png",
+    "Description": "A sigil depicting the Phorid.",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Name": "Phorid Sigil"
+  },
+  "Synergy Sigil": {
+    "Name": "Synergy Sigil",
+    "Image": "SynergySigil.png",
+    "Description": "A sigil representing prestige gained with the Perrin Sequence.",
+    "Link": "Sigils#Perrin Sequence"
+  },
+  "Orowyrm's Rage Sigil": {
+    "Description": "A sigil reminiscent of the elemental Orowyrm.",
+    "Image": "Orowyrm'sRageSigil.png",
+    "Name": "Orowyrm's Rage Sigil",
+    "Link": "Sigils#Nightwave Sigils"
+  },
+  "Entrati Acquaintance Sigil": {
+    "Description": "A sigil representing prestige gained with the Entrati.",
+    "Image": "EntratiAcquaintanceSigil.png",
+    "Name": "Entrati Acquaintance Sigil",
+    "Link": "Sigils#Entrati"
+  },
+  "Drippy Sigil": {
+    "Description": "Party like it's 1999 with this Drippy Sigil!",
+    "Image": "DrippySigil.png",
+    "Name": "Drippy Sigil",
+    "Link": "Sigils#Baro Ki'Teer Sigils"
+  },
+  "Tenno Translator Emblem": {
+    "Description": "An exclusive Sigil worn only by Tenno Translators.",
+    "Image": "TranslatorSigil.png",
+    "Name": "Tenno Translator Emblem",
+    "Link": "Sigils#Other Sigils"
+  },
+  "Discretion Sigil": {
+    "Image": "DiscretionSigil.png",
+    "Name": "Discretion Sigil",
+    "Link": "Sigils#Conclave Sigils"
+  },
+  "Nava Sigil": {
+    "Description": "Pay respect to The Lotus with this elegant sigil.",
+    "Image": "NavaSigil.png",
+    "Name": "Nava Sigil",
+    "Link": "Sigils#Platinum Pack Sigils"
+  },
+  "Blade and Gun Sigil": {
+    "Description": "Awarded to dedicated members within the Warframe community.",
+    "Image": "BladeAndGun.png",
+    "Name": "Blade and Gun Sigil",
+    "Link": "Sigils#Community Event Sigils"
+  },
+  "Vox Solaris Hand Sigil": {
+    "Description": "A sigil representing prestige gained with the Vox Solaris.",
+    "Image": "VoxSolarisHandSigil.png",
+    "Name": "Vox Solaris Hand Sigil",
+    "Link": "Sigils#Vox Solaris"
+  },
+  "Guiding Path Sigil": {
+    "Name": "Guiding Path Sigil",
+    "Image": "GuidingPathSigil.png",
+    "Description": "A sigil representing prestige gained with the Arbiter of Hexis.",
+    "Link": "Sigils##Arbiters of Hexis"
+  },
+  "Necraloid Modus Sigil": {
+    "Description": "A sigil representing prestige gained with the Necraloid.",
+    "Image": "NecraloidModusSigil.png",
+    "Name": "Necraloid Modus Sigil",
+    "Link": "Sigils#Necraloid"
+  },
+  "Vox Solaris Agent Sigil": {
+    "Description": "A sigil representing prestige gained with the Vox Solaris.",
+    "Image": "VoxSolarisAgentSigil.png",
+    "Name": "Vox Solaris Agent Sigil",
+    "Link": "Sigils#Vox Solaris"
+  },
+  "Awakened Luna Sigil": {
+    "Description": "Wake to a new light.",
+    "Image": "AwakenedLuna_w.png",
+    "Name": "Awakened Luna Sigil",
+    "Link": "Sigils#Daily Tribute Milestone Sigils"
+  },
+  "Tyl Regor Sigil": {
+    "Image": "TylRegor_sigil.png",
+    "Description": "A sigil depicting Tyl Regor.",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Name": "Tyl Regor Sigil"
+  },
+  "Sisterhood Sigil": {
+    "Image": "SisterhoodSigil.png",
+    "Name": "Sisterhood Sigil",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Description": "A mark of respect for the Sisters of Parvos."
+  },
+  "Ventkids Logical Sigil": {
+    "Description": "A sigil representing prestige gained with the Ventkids.",
+    "Image": "VentkidsLogicalSigil.png",
+    "Name": "Ventkids Logical Sigil",
+    "Link": "Sigils#Ventkids"
+  },
+  "Nightwave Sigil": {
+    "Description": "For the Sleepless, the Dreamers.",
+    "Image": "NightwaveEmblem.png",
+    "Name": "Nightwave Sigil",
+    "Link": "Sigils#Nightwave Sigils"
+  },
+  "Ostron Kin Sigil": {
+    "Description": "A sigil representing prestige gained with the Ostron.",
+    "Image": "OstronKinSigil.png",
+    "Name": "Ostron Kin Sigil",
+    "Link": "Sigils#Ostron"
+  },
+  "Lunar Renewal Tiger Sigil": {
+    "Description": "Celebrate the Lunar Renewal with the bravery of the legendary tiger.",
+    "Image": "LunarRenewalTigerSigil.png",
+    "Name": "Lunar Renewal Tiger Sigil",
+    "Link": "Sigils#Baro Ki'Teer Sigils"
+  },
+  "Lunar Renewal Prowl Sigil": {
+    "Description": "Face the coming year with the boldness of the legendary tiger.",
+    "Image": "LunarRenewalProwlSigil.png",
+    "Name": "Lunar Renewal Prowl Sigil",
+    "Link": "Sigils#Purchasable Sigils"
+  },
+  "Opportunity Sigil": {
+    "Name": "Opportunity Sigil",
+    "Image": "OpportunitySigil.png",
+    "Description": "A sigil representing prestige gained with the Perrin Sequence.",
+    "Link": "Sigils#Perrin Sequence"
+  },
+  "Holdfasts Watcher Sigil": {
+    "Description": "A sigil representing prestige gained with the Holdfasts.",
+    "Image": "HoldfastsWatcherSigil.png",
+    "Name": "Holdfasts Watcher Sigil",
+    "Link": "Sigils#The Holdfasts"
+  },
+  "Lech Kril Sigil": {
+    "Image": "LechKril_sigil.png",
+    "Description": "A sigil depicting Lieutenant Lech Kril.",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Name": "Lech Kril Sigil"
+  },
+  "Awareness Sigil": {
+    "Image": "AwarenessSigil.png",
+    "Name": "Awareness Sigil",
+    "Link": "Sigils#Conclave Sigils"
+  },
+  "Solaris United Old Mate Sigil": {
+    "Description": "A sigil representing prestige gained with the Solaris United.",
+    "Image": "SolarisUnitedOldMateSigil.png",
+    "Name": "Solaris United Old Mate Sigil",
+    "Link": "Sigils#Solaris United"
+  },
+  "Cycle One Sigil": {
+    "Image": "PS4OneYearSigil.png",
+    "Name": "Cycle One Sigil",
+    "Link": "Sigils#PS4 Anniversary Sigils"
+  },
+  "Entrati Friend Sigil": {
+    "Description": "A sigil representing prestige gained with the Entrati.",
+    "Image": "EntratiFriendSigil.png",
+    "Name": "Entrati Friend Sigil",
+    "Link": "Sigils#Entrati"
+  },
+  "Grasp Sigil": {
+    "Name": "Grasp Sigil",
+    "Image": "GraspSigil.png",
+    "Description": "A sigil representing prestige gained with the Arbiter of Hexis.",
+    "Link": "Sigils#Arbiters of Hexis"
+  },
+  "The Index Sigil": {
+    "Description": "",
+    "Image": "TheIndexSigil_w.png",
+    "Name": "The Index Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Rebellion Sigil": {
+    "Name": "Rebellion Sigil",
+    "Image": "RebellionSigil.png",
+    "Description": "A sigil representing prestige gained with the Steel Meridian.",
+    "Link": "Sigils#Steel Meridian"
+  },
+  "Ambulas Sigil": {
+    "Image": "Ambulas_sigil.png",
+    "Description": "A sigil depicting the Ambulas.",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Name": "Ambulas Sigil"
+  },
+  "Rebirth Sigil": {
+    "Name": "Rebirth Sigil",
+    "Image": "RebirthSigil.png",
+    "Description": "A sigil representing prestige gained with New Loka.",
+    "Link": "Sigils#New Loka"
+  },
+  "Wukong Qitian Sigil": {
+    "Name": "Wukong Qitian Sigil",
+    "Image": "WukongQitianSigil.png",
+    "Description": "Show due respect for Wukong Qitian’s power and cunning with this sigil.",
+    "Link": "Sigils#Purchasable Sigils"
+  },
+  "Road Rash Sigil": {
+    "Name": "Road Rash Sigil",
+    "Image": "RoadRashSigil.png",
+    "Description": "This sigil won't just buff out.",
+    "Link": "Sigils#Deluxe Sigils"
+  },
+  "Vaporis Sigil": {
+    "Name": "Vaporis Sigil",
+    "Image": "VaporisSigil.png",
+    "Description": "The touch of alchemy leaves its mark, permeating the entire body. Lavos Khymia’s signature sigil.",
+    "Link": "Sigils#Deluxe Sigils"
+  },
+  "Capala Jade Sigil": {
+    "Image": "XB1CapalaJadeSigil.png",
+    "Name": "Capala Jade Sigil",
+    "Link": "Sigils#XBox One Bundle Sigils"
+  },
+  "Stoka Jade Sigil": {
+    "Image": "XB1StokaJadeSigil.png",
+    "Name": "Stoka Jade Sigil",
+    "Link": "Sigils#XBox One Bundle Sigils"
+  },
+  "Leftovers Sigil": {
+    "Description": "A sigil representing prestige gained with The Hex.",
+    "Image": "FactionSigilHexLevel1.png",
+    "Name": "Leftovers Sigil",
+    "Link": "Sigils#The Hex"
+  },
+  "Seal of Honoring IV": {
+    "Image": "XB1FourYearSigil.png",
+    "Name": "Seal of Honoring IV",
+    "Link": "Sigils#XBox One Anniversary Sigils"
+  },
+  "Seal of Honoring III": {
+    "Image": "XBoneThreeYearSigil.png",
+    "Name": "Seal of Honoring III",
+    "Link": "Sigils#XBox One Anniversary Sigils"
+  },
+  "Uprising Sigil": {
+    "Name": "Uprising Sigil",
+    "Image": "UprisingSigil.png",
+    "Description": "A sigil representing prestige gained with the Steel Meridian.",
+    "Link": "Sigils#Steel Meridian"
+  },
+  "Oracle Sigil": {
+    "Name": "Oracle Sigil",
+    "Image": "OracleSigil.png",
+    "Description": "A sigil representing prestige gained with Cephalon Suda.",
+    "Link": "Sigils#Cephalon Suda"
+  },
+  "Freedom Fighter Sigil": {
+    "Name": "Freedom Fighter Sigil",
+    "Image": "FreedomFighterSigil.png",
+    "Description": "A sigil representing prestige gained with the Steel Meridian.",
+    "Link": "Sigils#Steel Meridian"
+  },
+  "Chairman Sigil": {
+    "Name": "Chairman Sigil",
+    "Image": "ChairmanSigil.png",
+    "Description": "A sigil representing prestige gained with the Perrin Sequence.",
+    "Link": "Sigils#Perrin Sequence"
+  },
+  "Assassin Sigil": {
+    "Name": "Assassin Sigil",
+    "Image": "AssassinSigil.png",
+    "Description": "A sigil representing prestige gained with the Red Veil.",
+    "Link": "Sigils#Red Veil"
+  },
+  "Seal of Honoring": {
+    "Image": "XBoneOneYearSigil.png",
+    "Name": "Seal of Honoring",
+    "Link": "Sigils#XBox One Anniversary Sigils"
+  },
+  "Obsidian Sigil": {
+    "Image": "PS4ObsidianSigil.png",
+    "Name": "Obsidian Sigil",
+    "Link": "Sigils#PS4 Bundle Sigils"
+  },
+  "Freedom Sigil": {
+    "Image": "FreedomSigil.png",
+    "Name": "Freedom Sigil",
+    "Link": "Sigils#Conclave Sigils"
+  },
+  "Eskhatos Necraloid Sigil": {
+    "Description": "A sigil bearing a twisted yet familiar visage.",
+    "Image": "EskhatosNecraloidSigil.png",
+    "Name": "Eskhatos Necraloid Sigil",
+    "Link": "Sigils#Baro Ki'Teer Sigils"
+  },
+  "Exclusive Sigil": {
+    "Image": "PS4ExclusiveSigil.png",
+    "Name": "Exclusive Sigil",
+    "Link": "Sigils#PS4 Bundle Sigils"
+  },
+  "Surpassing Sigil": {
+    "Name": "Surpassing Sigil",
+    "Image": "SurpassingSigil.png",
+    "Description": "A sigil representing prestige gained with the Arbiter of Hexis.",
+    "Link": "Sigils##Arbiters of Hexis"
+  },
+  "Vox Solaris Operative Sigil": {
+    "Description": "A sigil representing prestige gained with the Vox Solaris.",
+    "Image": "VoxSolarisOperativeSigil.png",
+    "Name": "Vox Solaris Operative Sigil",
+    "Link": "Sigils#Vox Solaris"
+  },
+  "Cycle Four Sigil": {
+    "Image": "PS4FourYearSigil.png",
+    "Name": "Cycle Four Sigil",
+    "Link": "Sigils#PS4 Anniversary Sigils"
+  },
+  "Cycle Three Sigil": {
+    "Image": "PS4ThreeYearSigil.png",
+    "Name": "Cycle Three Sigil",
+    "Link": "Sigils#PS4 Anniversary Sigils"
+  },
+  "Glassmaker Sigil": {
+    "Description": "A sigil commemorating your grim descent into the madness of the Glassmaker.",
+    "Image": "GlassmakerSigil.png",
+    "Name": "Glassmaker Sigil",
+    "Link": "Sigils#Nightwave Sigils"
+  },
+  "Volition Sigil": {
+    "Image": "VolitionSigil.png",
+    "Name": "Volition Sigil",
+    "Link": "Sigils#Conclave Sigils"
+  },
+  "Master Sigil": {
+    "Image": "MasterBadge.png",
+    "Name": "Master Sigil",
+    "Link": "Sigils#Founder Sigils"
+  },
+  "Velorum Prime Sigil": {
+    "Description": "Champions of the Orokin were allowed to wear this Sigil as proof of their loyalty.",
+    "Image": "VerlorumPrimeSigil.png",
+    "Name": "Velorum Prime Sigil",
+    "Link": "Sigils#Prime Access Sigils"
+  },
+  "Wreath Sigil": {
+    "Image": "XmasSigilA.png",
+    "Name": "Wreath Sigil",
+    "Link": "Sigil#Tactical Alert Sigils"
+  },
+  "TennoCon 2024 Sigil": {
+    "Image": "Tennocon2024Sigil.png",
+    "Name": "TennoCon 2024 Sigil",
+    "Link": "Sigils#Live Event Sigils"
+  },
+  "Tenno Luminary Sigil": {
+    "Image": "TennoLuminarySigil.png",
+    "Name": "Tenno Luminary Sigil",
+    "Link": "Sigils#Live Event Sigils"
+  },
+  "Purity Sigil": {
+    "Name": "Purity Sigil",
+    "Image": "PuritySigil.png",
+    "Description": "A sigil representing prestige gained with New Loka.",
+    "Link": "Sigils#New Loka"
+  },
+  "Tenno Chronicler Sigil": {
+    "Description": "A special sigil worn only by a select few Tenno.",
+    "Image": "TennoChroniclerSigil.png",
+    "Name": "Tenno Chronicler Sigil",
+    "Link": "Sigils#Other Sigils"
+  },
+  "Hot & Fresh Sigil": {
+    "Description": "A sigil representing prestige gained with The Hex.",
+    "Image": "FactionSigilHexLevel4.png",
+    "Name": "Hot & Fresh Sigil",
+    "Link": "Sigils#The Hex"
+  },
+  "Rhino Heirloom Sigil": {
+    "Description": "A sigil that celebrates Rhino's legacy.",
+    "Image": "RhinoHeirloomSigil.png",
+    "Name": "Rhino Heirloom Sigil",
+    "Link": "Sigils#Purchasable Sigils"
+  },
+  "TennoCon 2023 Sigil": {
+    "Image": "Tennocon2023Sigil.png",
+    "Name": "TennoCon 2023 Sigil",
+    "Link": "Sigils#Live Event Sigils"
+  },
+  "TennoCon 2022 Sigil": {
+    "Image": "Tennocon2022Sigil.png",
+    "Name": "TennoCon 2022 Sigil",
+    "Link": "Sigils#Live Event Sigils"
+  },
+  "TennoCon 2019 Sigil": {
+    "Image": "Tennocon2019Sigil.png",
+    "Name": "TennoCon 2019 Sigil",
+    "Link": "Sigils#Live Event Sigils"
+  },
+  "Perception Sigil": {
+    "Image": "PerceptionSigil.png",
+    "Name": "Perception Sigil",
+    "Link": "Sigils#Conclave Sigils"
+  },
+  "Discipline Sigil": {
+    "Name": "Discipline Sigil",
+    "Image": "DisciplineSigil.png",
+    "Description": "A sigil representing prestige gained with the Arbiter of Hexis.",
+    "Link": "Sigils##Arbiters of Hexis"
+  },
+  "TennoCon 2016 Sigil": {
+    "Image": "TennoCon2016Sigil.png",
+    "Name": "TennoCon 2016 Sigil",
+    "Link": "Sigils#Live Event Sigils"
+  },
+  "Tenno Live Sigil": {
+    "Image": "TennoLive2015.png",
+    "Name": "Tenno Live Sigil",
+    "Link": "Sigils#Live Event Sigils"
+  },
+  "Leaping Thrasher Sigil": {
+    "Image": "LeapingThrasherSigil.png",
+    "Name": "Leaping Thrasher Sigil",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Description": "A sigil depicting a Leaping Thrasher."
+  },
+  "Ostron Trusted Sigil": {
+    "Description": "A sigil representing prestige gained with the Ostron.",
+    "Image": "OstronTrustedSigil.png",
+    "Name": "Ostron Trusted Sigil",
+    "Link": "Sigils#Ostron"
+  },
+  "Disciple Sigil": {
+    "Image": "DiscipleBadge.png",
+    "Name": "Disciple Sigil",
+    "Link": "Sigils#Founder Sigils"
+  },
+  "Lotus Deliverance Sigil": {
+    "Description": "Remembers the one who awakens.",
+    "Image": "LotusDeliverance_w.png",
+    "Name": "Lotus Deliverance Sigil",
+    "Link": "Sigils#Daily Tribute Milestone Sigils"
+  },
+  "Champion Sigil": {
+    "Name": "Champion Sigil",
+    "Image": "ChampionSigil.png",
+    "Description": "A sigil representing prestige gained with the Steel Meridian.",
+    "Link": "Sigils#Steel Meridian"
+  },
+  "Glyphed Clan Sigil": {
+    "Image": "ClanSigilGlyphed.png",
+    "Name": "Glyphed Clan Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Unity Sigil": {
+    "Image": "UnitySigil.png",
+    "Name": "Unity Sigil",
+    "Link": "Sigils#Conclave Sigils"
+  },
+  "Empathy Sigil": {
+    "Image": "EmpathySigil.png",
+    "Name": "Empathy Sigil",
+    "Link": "Sigils#Conclave Sigils"
+  },
+  "Accord Sigil": {
+    "Image": "AccordSigil.png",
+    "Name": "Accord Sigil",
+    "Link": "Sigils#Conclave Sigils"
+  },
+  "Jackal Sigil": {
+    "Image": "Jackal_sigil.png",
+    "Description": "A sigil depicting the Jackal.",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Name": "Jackal Sigil"
+  },
+  "Awakening Sigil": {
+    "Image": "AwakeningSigil.png",
+    "Name": "Awakening Sigil",
+    "Link": "Sigils#Conclave Sigils"
+  },
+  "Threat Sigil": {
+    "Name": "Threat Sigil",
+    "Image": "ThreatSigil.png",
+    "Description": "A sigil representing prestige gained with the Red Veil.",
+    "Link": "Sigils#Red Veil"
+  },
+  "Ambition Sigil": {
+    "Image": "AmbitionSigil.png",
+    "Name": "Ambition Sigil",
+    "Link": "Sigils#Conclave Sigils"
+  },
+  "Shroud of Dynar Sigil Sigil": {
+    "Description": "A morbidly festive sigil.",
+    "Image": "ShroudofDynarSigilSigil.png",
+    "Name": "Shroud of Dynar Sigil Sigil",
+    "Link": "Sigil#Event Sigils"
+  },
+  "Cycle Two Sigil": {
+    "Image": "PS4TwoYearSigil.png",
+    "Name": "Cycle Two Sigil",
+    "Link": "Sigils#PS4 Anniversary Sigils"
+  },
+  "Ruin Sigil": {
+    "Name": "Ruin Sigil",
+    "Image": "RuinSigil.png",
+    "Description": "A sigil representing prestige gained with the Red Veil.",
+    "Link": "Sigils#Red Veil"
+  },
+  "Solar Flare Sigil": {
+    "Description": "Represents an incredible and untamed power.",
+    "Image": "SolarFlare_w.png",
+    "Name": "Solar Flare Sigil",
+    "Link": "Sigils#Daily Tribute Milestone Sigils"
+  },
+  "Solaris United Doer Sigil": {
+    "Description": "A sigil representing prestige gained with the Solaris United.",
+    "Image": "SolarisUnitedDoerSigil.png",
+    "Name": "Solaris United Doer Sigil",
+    "Link": "Sigils#Solaris United"
+  },
+  "Hostile Mergers Sigil": {
+    "Description": "This sigil commemorates the Tenno victory over the machinations of Alad V and his Amalgam Project.",
+    "Image": "HostileMergersSigil.png",
+    "Name": "Hostile Mergers Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Discovery Sigil": {
+    "Image": "DiscoverySigil.png",
+    "Name": "Discovery Sigil",
+    "Link": "Sigils#Conclave Sigils"
+  },
+  "Lesion Sigil": {
+    "Name": "Lesion Sigil",
+    "Image": "LesionSigil.png",
+    "Description": "A sigil representing prestige gained with the Red Veil.",
+    "Link": "Sigils#Red Veil"
+  },
+  "Diligence Sigil": {
+    "Image": "DiligenceSigil.png",
+    "Name": "Diligence Sigil",
+    "Link": "Sigils#Conclave Sigils"
+  },
+  "Gantulyst Sigil": {
+    "Name": "Gantulyst Sigil",
+    "Image": "GantulystSigil.png",
+    "Description": "An imprint of a fallen Gantulyst.",
+    "Link": "Sigils#Enemy Drop Sigils"
+  },
+  "Teralyst Sigil": {
+    "Name": "Teralyst Sigil",
+    "Image": "TeralystSigil.png",
+    "Description": "A sigil depicting a Sentient Teralyst.",
+    "Link": "Sigils#Enemy Drop Sigils"
+  },
+  "Grustrag Sigil": {
+    "Image": "TheGrustragThreeSigil.png",
+    "Description": "A sigil depicting the emblem of the Grustrag Three.",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Name": "Grustrag Sigil"
+  },
+  "Red Veil Sigil": {
+    "Name": "Red Veil Sigil",
+    "Image": "RedVeilSigil.png",
+    "Description": "A sigil representing prestige gained with the Red Veil.",
+    "Link": "Sigils#Red Veil"
+  },
+  "Stalker Sigil": {
+    "Image": "StalkerSigil.png",
+    "Description": "A sigil depicting the emblem of the Stalker.",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Name": "Stalker Sigil"
+  },
+  "Humanity Sigil": {
+    "Name": "Humanity Sigil",
+    "Image": "HumanitySigil.png",
+    "Description": "A sigil representing prestige gained with New Loka.",
+    "Link": "Sigils#New Loka"
+  },
+  "New Loka Sigil": {
+    "Name": "New Loka Sigil",
+    "Image": "NewLokaSigil.png",
+    "Description": "A sigil representing prestige gained with New Loka.",
+    "Link": "Sigils#New Loka"
+  },
+  "Hyena Sigil": {
+    "Image": "HyenaPack_sigil.png",
+    "Description": "A sigil depicting the Hyena Pack.",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Name": "Hyena Sigil"
+  },
+  "Eight Claw Sigil": {
+    "Image": "EightClawSigil.png",
+    "Name": "Eight Claw Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Prudence Sigil": {
+    "Image": "PrudenceSigil.png",
+    "Name": "Prudence Sigil",
+    "Link": "Sigils#Conclave Sigils"
+  },
+  "Maelstrom Sigil": {
+    "Name": "Maelstrom Sigil",
+    "Image": "MaelstromSigil.png",
+    "Description": "A sigil representing prestige gained with the Red Veil.",
+    "Link": "Sigils#Red Veil"
+  },
+  "Capital Sigil": {
+    "Name": "Capital Sigil",
+    "Image": "CapitalSigil.png",
+    "Description": "A sigil representing prestige gained with the Perrin Sequence.",
+    "Link": "Sigils#Perrin Sequence"
+  },
+  "Entrati Stranger Sigil": {
+    "Description": "A sigil representing prestige gained with the Entrati.",
+    "Image": "EntratiStrangerSigil.png",
+    "Name": "Entrati Stranger Sigil",
+    "Link": "Sigils#Entrati"
+  },
+  "Optimum Sigil": {
+    "Name": "Optimum Sigil",
+    "Image": "OptimumSigil.png",
+    "Description": "A sigil representing prestige gained with the Perrin Sequence.",
+    "Link": "Sigils#Perrin Sequence"
+  },
+  "Solaris United Rapscallion Sigil": {
+    "Description": "A sigil representing prestige gained with the Solaris United.",
+    "Image": "SolarisUnitedRapscallionSigil.png",
+    "Name": "Solaris United Rapscallion Sigil",
+    "Link": "Sigils#Solaris United"
+  },
+  "Tessellations Sigil": {
+    "Name": "Tessellations Sigil",
+    "Image": "TessellationsSigil.png",
+    "Description": "A sigil representing prestige gained with the Perrin Sequence.",
+    "Link": "Sigils#Perrin Sequence"
+  },
+  "Strategy Sigil": {
+    "Name": "Strategy Sigil",
+    "Image": "StrategySigil.png",
+    "Description": "A sigil representing prestige gained with the Perrin Sequence.",
+    "Link": "Sigils#Perrin Sequence"
+  },
+  "Dog Days Sigil": {
+    "Description": "Beat the heat with this unique Sigil.",
+    "Image": "DogDaysIcon.png",
+    "Name": "Dog Days Sigil",
+    "Link": "Sigils#Tactical Alert Sigils"
+  },
+  "Necraloid Odima Sigil": {
+    "Description": "A sigil representing prestige gained with the Necraloid.",
+    "Image": "NecraloidOdimaSigil.png",
+    "Name": "Necraloid Odima Sigil",
+    "Link": "Sigils#Necraloid"
+  },
+  "Perrin Sequence Sigil": {
+    "Name": "Perrin Sequence Sigil",
+    "Image": "PerrinSequenceSigil.png",
+    "Description": "A sigil representing prestige gained with the Perrin Sequence.",
+    "Link": "Sigils#Perrin Sequence"
+  },
+  "Vay Hek Sigil": {
+    "Image": "VeyHek_sigil.png",
+    "Description": "A sigil depicting Councilor Vay Hek.",
+    "Link": "Sigils#Enemy Drop Sigils",
+    "SellPrice": 1000,
+    "Name": "Vay Hek Sigil"
+  },
+  "Hexan Sigil": {
+    "Name": "Hexan Sigil",
+    "Image": "HexanSigil.png",
+    "Description": "A sigil representing prestige gained with Cephalon Suda.",
+    "Link": "Sigils#Cephalon Suda"
+  },
+  "Multivariate Sigil": {
+    "Name": "Multivariate Sigil",
+    "Image": "MultivariateSigil.png",
+    "Description": "A sigil representing prestige gained with Cephalon Suda.",
+    "Link": "Sigils#Cephalon Suda"
+  },
+  "Fractal Sigil": {
+    "Name": "Fractal Sigil",
+    "Image": "FractalSigil.png",
+    "Description": "A sigil representing prestige gained with Cephalon Suda.",
+    "Link": "Sigils#Cephalon Suda"
+  },
+  "Manifold Sigil": {
+    "Name": "Manifold Sigil",
+    "Image": "ManifoldSigil.png",
+    "Description": "A sigil representing prestige gained with Cephalon Suda.",
+    "Link": "Sigils#Cephalon Suda"
+  },
+  "Prisma Lotus Sigil": {
+    "Description": "From Baro Ki'Teer comes this stylish reimagining of the Lotus' signature symbol.",
+    "Image": "PrismaLotusSigil.png",
+    "Name": "Prisma Lotus Sigil",
+    "Link": "Sigils#Baro Ki'Teer Sigils"
+  },
+  "Searching Sigil": {
+    "Name": "Searching Sigil",
+    "Image": "SearchingSigil.png",
+    "Description": "A sigil representing prestige gained with Cephalon Suda.",
+    "Link": "Sigils#Cephalon Suda"
+  },
+  "2-For-1 Sigil": {
+    "Description": "A sigil representing prestige gained with The Hex.",
+    "Image": "FactionSigilHexLevel3.png",
+    "Name": "2-For-1 Sigil",
+    "Link": "Sigils#The Hex"
+  },
+  "Lift Together Sigil": {
+    "Description": "A sigil depicting the mark of Solaris United.",
+    "Image": "LiftTogetherSigil.png",
+    "Name": "Lift Together Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Cycle Five Sigil": {
+    "Image": "PS4FiveYearSigil.png",
+    "Name": "Cycle Five Sigil",
+    "Link": "Sigils#PS4 Anniversary Sigils"
+  },
+  "Succession Sigil": {
+    "Name": "Succession Sigil",
+    "Image": "SuccessionSigil.png",
+    "Description": "A sigil representing prestige gained with the Arbiter of Hexis.",
+    "Link": "Sigils##Arbiters of Hexis"
+  },
+  "Potential Sigil": {
+    "Name": "Potential Sigil",
+    "Image": "PotentialSigil.png",
+    "Description": "A sigil representing prestige gained with the Arbiter of Hexis.",
+    "Link": "Sigils##Arbiters of Hexis"
+  },
+  "Fresh Slice Sigil": {
+    "Description": "A sigil representing prestige gained with The Hex.",
+    "Image": "FactionSigilHexLevel2.png",
+    "Name": "Fresh Slice Sigil",
+    "Link": "Sigils#The Hex"
+  },
+  "Will Sigil": {
+    "Name": "Will Sigil",
+    "Image": "WillSigil.png",
+    "Description": "A sigil representing prestige gained with the Arbiter of Hexis.",
+    "Link": "Sigils##Arbiters of Hexis"
+  },
+  "Armored Sigil": {
+    "Name": "Armored Sigil",
+    "Image": "ArmoredSigil.png",
+    "Description": "A sigil representing prestige gained with the Steel Meridian.",
+    "Link": "Sigils#Steel Meridian"
+  },
+  "Ambulas Reborn Sigil": {
+    "Description": "A sigil commemorating the fight against the Ambulas incursion.",
+    "Image": "AmbulasRebornEmblem.png",
+    "Name": "Ambulas Reborn Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Bending Will Sigil": {
+    "Name": "Bending Will Sigil",
+    "Image": "BendingWillSigil.png",
+    "Description": "A sigil representing prestige gained with the Arbiter of Hexis.",
+    "Link": "Sigils##Arbiters of Hexis"
+  },
+  "Nistlebrush Sigil": {
+    "Image": "XmasSigilB.png",
+    "Name": "Nistlebrush Sigil",
+    "Link": "Sigil#Tactical Alert Sigils"
+  },
+  "Seal of Honoring II": {
+    "Image": "XBoneTwoYearSigil.png",
+    "Name": "Seal of Honoring II",
+    "Link": "Sigils#XBox One Anniversary Sigils"
+  },
+  "Vigilance Sigil": {
+    "Name": "Vigilance Sigil",
+    "Image": "VigilanceSigil.png",
+    "Description": "A sigil representing prestige gained with the Steel Meridian.",
+    "Link": "Sigils#Steel Meridian"
+  },
+  "Armada Sigil": {
+    "Name": "Armada Sigil",
+    "Image": "ArmadaSigil.png",
+    "Description": "A sigil representing prestige gained with the Steel Meridian.",
+    "Link": "Sigils#Steel Meridian"
+  },
+  "Defiance Sigil": {
+    "Name": "Defiance Sigil",
+    "Image": "DefianceSigil.png",
+    "Description": "A sigil representing prestige gained with the Steel Meridian.",
+    "Link": "Sigils#Steel Meridian"
+  },
+  "Steel Meridian Sigil": {
+    "Name": "Steel Meridian Sigil",
+    "Image": "SteelMeridianSigil.png",
+    "Description": "A sigil representing prestige gained with the Steel Meridian.",
+    "Link": "Sigils#Steel Meridian"
+  },
+  "TennoGen Sigil": {
+    "Image": "TennoGenSigil.png",
+    "Name": "TennoGen Sigil",
+    "Link": "Sigils#Other Sigils"
+  },
+  "Ventkids Whozit Sigil": {
+    "Description": "A sigil representing prestige gained with the Ventkids.",
+    "Image": "VentkidsWhozitSigil.png",
+    "Name": "Ventkids Whozit Sigil",
+    "Link": "Sigils#Ventkids"
+  },
+  "Rhino Palatine Sigil": {
+    "Description": "Pay homage to warriors of a more chivalrous time with this sigil.",
+    "Image": "RhinoDeluxeSigil.png",
+    "Name": "Rhino Palatine Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Calculating Sigil": {
+    "Name": "Calculating Sigil",
+    "Image": "CalculatingSigil.png",
+    "Description": "A sigil representing prestige gained with the Perrin Sequence.",
+    "Link": "Sigils#Perrin Sequence"
+  },
+  "Rift Sigil": {
+    "Description": "This sigil is laced with energy from the Void.",
+    "Image": "EnergySigilA_d.png",
+    "Name": "Rift Sigil",
+    "Link": "Sigil#Tactical Alert Sigils"
+  },
+  "Glaring Sigil": {
+    "Description": "A sigil representing your Kavat allegiance.",
+    "Image": "GlaringSigil.png",
+    "Name": "Glaring Sigil",
+    "Link": "Sigils#Baro Ki'Teer Sigils"
+  },
+  "Aspirant Sigil": {
+    "Image": "AspirantSigil(SxWhite).png",
+    "Name": "Aspirant Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Malevolent Sigil": {
+    "Name": "Malevolent Sigil",
+    "Image": "MalevolentSigil.png",
+    "Description": "A sigil representing prestige gained with the Red Veil.",
+    "Link": "Sigils#Red Veil"
+  },
+  "Hounding Kubrow Sigil": {
+    "Description": "Be the predator, not the prey.",
+    "Image": "HoundingKubrowSigil.png",
+    "Name": "Hounding Kubrow Sigil",
+    "Link": "Sigil#Event Sigils"
+  },
+  "Fibonacci Sigil": {
+    "Image": "FibonacciSigil.png",
+    "Name": "Fibonacci Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Bird 3 Sigil": {
+    "Image": "Bird3Sigil.png",
+    "Name": "Bird 3 Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Tagfer Sigil": {
+    "Image": "TagferSigil.png",
+    "Name": "Tagfer Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "TennoGen Decennial Sigil": {
+    "Description": "A sigil commemorating ten years of TennoGen artistry.",
+    "Image": "TennoGenDecennialSigil.png",
+    "Name": "TennoGen Decennial Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Cephalon Suda Sigil": {
+    "Name": "Cephalon Suda Sigil",
+    "Image": "CephalonSudaSigil.png",
+    "Description": "A sigil representing prestige gained with Cephalon Suda.",
+    "Link": "Sigils#Cephalon Suda"
+  },
+  "Ostron Community Sigil": {
+    "Description": "A symbol of Ostron appreciation.",
+    "Image": "Ostron CommunityGlyph.png",
+    "Name": "Ostron Community Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Quick Steel Sigil": {
+    "Description": "A symbol of pride for those that braved blade and star in The Conclave.",
+    "Image": "QuickSteelSigil.png",
+    "Name": "Quick Steel Sigil",
+    "Link": "Sigils#Event Sigils"
+  },
+  "Cycuta Prime Sigil": {
+    "Description": "This ancient glyph was the focus of an ancient Tenno meditation ritual.",
+    "Image": "PrimeAccessSarynSigil.png",
+    "Name": "Cycuta Prime Sigil",
+    "Link": "Sigils#Prime Access Sigils"
+  },
+  "Condrix Sigil": {
+    "Description": "A sigil depicting a Sentient Condrix.",
+    "Image": "CondrixSigil.png",
+    "Name": "Condrix Sigil",
+    "Link": "Sigils#Baro Ki'Teer Sigils"
+  },
+  "Pack Leader Sigil": {
+    "Description": "A sigil representing your Kubrow allegiance.",
+    "Image": "PackLeaderSigil.png",
+    "Name": "Pack Leader Sigil",
+    "Link": "Sigils#Baro Ki'Teer Sigils"
+  },
+  "Choice Sigil": {
+    "Name": "Choice Sigil",
+    "Image": "ChoiceSigil.png",
+    "Description": "A sigil representing prestige gained with the Arbiter of Hexis.",
+    "Link": "Sigils##Arbiters of Hexis"
+  },
+  "Entrati Family Sigil": {
+    "Description": "A sigil representing prestige gained with the Entrati.",
+    "Image": "EntratiFamilySigil.png",
+    "Name": "Entrati Family Sigil",
+    "Link": "Sigils#Entrati"
+  },
+  "Holdfasts Angel Sigil": {
+    "Description": "A sigil representing prestige gained with the Holdfasts.",
+    "Image": "HoldfastsAngelSigil.png",
+    "Name": "Holdfasts Angel Sigil",
+    "Link": "Sigils#The Holdfasts"
+  },
+  "Holdfasts Seraph Sigil": {
+    "Description": "A sigil representing prestige gained with the Holdfasts.",
+    "Image": "HoldfastsSeraphSigil.png",
+    "Name": "Holdfasts Seraph Sigil",
+    "Link": "Sigils#The Holdfasts"
+  },
+  "Holdfasts Fallen Sigil": {
+    "Description": "A sigil representing prestige gained with the Holdfasts.",
+    "Image": "HoldfastsFallenSigil.png",
+    "Name": "Holdfasts Fallen Sigil",
+    "Link": "Sigils#The Holdfasts"
+  },
+  "Cephalon Simaris Sigil": {
+    "Description": "Sigil depicting the Sanctuary Warden, Cephalon Simaris.",
+    "Image": "CephalonSimarisSigil.png",
+    "Name": "Cephalon Simaris Sigil",
+    "Link": "Sigils#Cephalon Simaris Sigils"
+  }
+}

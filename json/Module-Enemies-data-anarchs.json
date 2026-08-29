@@ -1,0 +1,1041 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Enemies/data/anarchs",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:36:01.429Z"
+  },
+  "_comments": "",
+  "Anarch Grineer Lancer": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "A cloned soldier in top fighting form. Lancers formed the front line of the Orokin legions, advancing relentlessly to carry the full might of the army deep into enemy territory. Lancers were chosen for sheer-minded determination, the ones who found it hard to let go of an idea.",
+      "Link": "Anarch Grineer Lancer",
+      "Introduced": "41",
+      "Type": "Ranged",
+      "Scans": 20,
+      "Missions": [
+        "The Perita Rebellion"
+      ],
+      "Image": "AnarchGrineerLancer.png",
+      "Name": "Anarch Grineer Lancer",
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Gotva Prime"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Grineer/TauGrineerLancer/AnarchTauGrineerLancerAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 125,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "Affinity": -1
+    }
+  },
+  "Anarch Capsarii": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "A member of the separatist Dax Anarch dfaction. With shield above and staff in hand, Dax medics are as adept at healing as their brethren are at cutting down the opposition.",
+      "Link": "Anarch Capsarii",
+      "Introduced": "41",
+      "Type": "Ranged",
+      "Scans": 15,
+      "Missions": [
+        "The Perita Rebellion"
+      ],
+      "Image": "AnarchCapsarii.png",
+      "Name": "Anarch Capsarii",
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Tau Dax Staff"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Dax/TauDaxMedic/AnarchTauDaxMedicAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 75,
+      "BaseLevel": 1,
+      "Armor": 20,
+      "Affinity": -1
+    }
+  },
+  "Commandeered Ember Prime (Field Boss)": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "",
+      "Link": "Commandeered Prime#Ember Prime (Field Boss)",
+      "Missions": [
+        "The Perita Rebellion"
+      ],
+      "Type": "Field Boss",
+      "Scans": 1,
+      "Name": "Commandeered Ember Prime (Field Boss)",
+      "Image": "EmberPrime_Thumb.png",
+      "Abilities": [
+        ""
+      ],
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Sicarus Prime",
+        "Glaive Prime"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Primes/Ember/EmberPrimeTMWAgent",
+      "Introduced": "41"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 15000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 65,
+      "Shield": 1750,
+      "Affinity": 5000
+    }
+  },
+  "Anarch Grineer Trapper": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "Only the most cunning of clone stock are chosen to become trappers. These are given training in the operation of Trapper Drones by Archimedea; many do not make it through the training. Trappers are frequently ostracized from their squads due to mishaps while they are learning to aim.",
+      "Link": "Anarch Grineer Trapper",
+      "Introduced": "41",
+      "Type": "Melee",
+      "Scans": 15,
+      "Missions": [
+        "The Perita Rebellion"
+      ],
+      "Image": "AnarchGrineerTrapper.png",
+      "Name": "Anarch Grineer Trapper",
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Galariak Prime"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Grineer/TauGrineerTrapper/AnarchTauGrineerTrapperAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 100,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "Affinity": -1
+    }
+  },
+  "Commandeered Ash Prime (The Guilty)": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "",
+      "Link": "Commandeered Prime#Ash Prime (The Guilty)",
+      "Missions": [
+        "The Guilty"
+      ],
+      "Type": "Boss",
+      "Scans": 1,
+      "Name": "Commandeered Ash Prime (The Guilty)",
+      "EmpoweredDefault": true,
+      "Image": "AshPrime_Thumb.png",
+      "Abilities": [
+        "Smoke Screen",
+        "Teleport",
+        "Blade Storm"
+      ],
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Hikou Prime",
+        "Nikana Prime"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Primes/Ash/AshPrimeBossHardModeAgent",
+      "Introduced": "42"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 15000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 270,
+      "Shield": 10750,
+      "Affinity": 5000
+    }
+  },
+  "Commandeered Ember Prime": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "",
+      "Link": "Commandeered Ember Prime",
+      "Missions": [
+        "The Perita Rebellion"
+      ],
+      "Type": "Boss",
+      "Scans": 1,
+      "Name": "Commandeered Ember Prime",
+      "Image": "EmberPrime_Thumb.png",
+      "Abilities": [
+        ""
+      ],
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Sicarus Prime",
+        "Glaive Prime"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Primes/Ember/EmberPrimeBossAgent",
+      "Introduced": "41"
+    },
+    "Stats": {
+      "SpawnLevel": 70,
+      "Shield": 1750,
+      "SteelPathHealthBonus": 10000,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 15000,
+      "SteelPathShieldBonus": 10000,
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Affinity": 5000
+    }
+  },
+  "Commandeered Protea Prime (The Guilty)": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "",
+      "Link": "Commandeered Prime#Protea Prime (The Guilty)",
+      "Missions": [
+        "The Guilty"
+      ],
+      "Type": "Boss",
+      "Scans": 1,
+      "Name": "Commandeered Protea Prime (The Guilty)",
+      "EmpoweredDefault": true,
+      "Image": "ProteaPrime_Thumb.png",
+      "Abilities": [
+        ""
+      ],
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Velox Prime",
+        "Okina Prime"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Primes/Protea/ProteaPrimeBossHardModeAgent",
+      "Introduced": "42"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 15000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 270,
+      "Shield": 10750,
+      "Affinity": 5000
+    }
+  },
+  "Anarch Arcus": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "A member of the separatist Dax Anarch faction. It was not uncommon to witness Dax rangers supporting Tenno as they first leanrt to control their Warframes, filling in offensive gaps with precise aim.",
+      "Link": "Anarch Arcus",
+      "Introduced": "41",
+      "Type": "Ranged",
+      "Scans": 20,
+      "Missions": [
+        "The Perita Rebellion"
+      ],
+      "Image": "AnarchArcus.png",
+      "Name": "Anarch Arcus",
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Tau Dax Rifle"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Dax/TauDaxArcher/AnarchTauDaxArcherAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 100,
+      "BaseLevel": 1,
+      "Armor": 35,
+      "Affinity": -1
+    }
+  },
+  "Commandeered Protea Prime (Field Boss)": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "",
+      "Link": "Commandeered Prime#Protea Prime (Field Boss)",
+      "Missions": [
+        "The Perita Rebellion"
+      ],
+      "Type": "Field Boss",
+      "Scans": 1,
+      "Name": "Commandeered Protea Prime (Field Boss)",
+      "Image": "ProteaPrime_Thumb.png",
+      "Abilities": [
+        ""
+      ],
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Velox Prime",
+        "Okina Prime"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Primes/Protea/ProteaPrimeTMWAgent",
+      "Introduced": "41"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 15000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 65,
+      "Shield": 1750,
+      "Affinity": 5000
+    }
+  },
+  "Commandeered Caliban Prime": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "",
+      "Link": "Commandeered Caliban Prime",
+      "Missions": [
+        "The Perita Rebellion"
+      ],
+      "Type": "Boss",
+      "Scans": 1,
+      "Name": "Commandeered Caliban Prime",
+      "Image": "CalibanPrime_Thumb.png",
+      "Abilities": [
+        ""
+      ],
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Vadarya Prime",
+        "Venato Prime"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Primes/Caliban/CalibanPrimeBossAgent",
+      "Introduced": "41"
+    },
+    "Stats": {
+      "SpawnLevel": 70,
+      "Shield": 1750,
+      "SteelPathHealthBonus": 10000,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 15000,
+      "SteelPathShieldBonus": 10000,
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Affinity": 5000
+    }
+  },
+  "Anarch Libritor": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "A member of the separatist Dax Anarch faction. Across many operations, the thunderous salvo of a Libritor Archgun served as a signal for hidden Dax forced to emerge from the shadows and fall upon their enemies like a guillotine's blade.",
+      "Link": "Anarch Libritor",
+      "Introduced": "41",
+      "Type": "Heavy",
+      "Scans": 5,
+      "Missions": [
+        "The Perita Rebellion"
+      ],
+      "Image": "AnarchLibritor.png",
+      "Name": "Anarch Libritor",
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Libritor"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Dax/TauDaxHeavyArch/AnarchTauDaxHeavyArchgunAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 325,
+      "BaseLevel": 1,
+      "Armor": 150,
+      "Affinity": -1
+    }
+  },
+  "Commandeered Volt Prime (The Guilty)": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "",
+      "Link": "Commandeered Prime#Volt Prime (The Guilty)",
+      "Missions": [
+        "The Guilty"
+      ],
+      "Type": "Boss",
+      "Scans": 1,
+      "Name": "Commandeered Volt Prime (The Guilty)",
+      "EmpoweredDefault": true,
+      "Image": "VoltPrime_Thumb.png",
+      "Abilities": [
+        ""
+      ],
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Corvas Prime",
+        "Dual Keres Prime"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Primes/Volt/VoltPrimeBossHardModeAgent",
+      "Introduced": "42"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 15000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 270,
+      "Shield": 10750,
+      "Affinity": 5000
+    }
+  },
+  "Commandeered Caliban Prime (The Guilty)": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "",
+      "Link": "Commandeered Prime#Caliban Prime (The Guilty)",
+      "Missions": [
+        "The Guilty"
+      ],
+      "Type": "Boss",
+      "Scans": 1,
+      "Name": "Commandeered Caliban Prime (The Guilty)",
+      "EmpoweredDefault": true,
+      "Image": "CalibanPrime_Thumb.png",
+      "Abilities": [
+        "Razor Gyre",
+        "Sentient Stomp",
+        "Lethal Progney",
+        "Fusion Strike"
+      ],
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Vadarya Prime",
+        "Venato Prime"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Primes/Caliban/CalibanPrimeBossHardModeAgent",
+      "Introduced": "42"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 15000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 270,
+      "Shield": 10750,
+      "Affinity": 5000
+    }
+  },
+  "Commandeered Ember Prime (The Guilty)": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "",
+      "Link": "Commandeered Prime#Ember Prime (The Guilty)",
+      "Missions": [
+        "The Guilty"
+      ],
+      "Type": "Boss",
+      "Scans": 1,
+      "Name": "Commandeered Ember Prime (The Guilty)",
+      "EmpoweredDefault": true,
+      "Image": "EmberPrime_Thumb.png",
+      "Abilities": [
+        ""
+      ],
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Sicarus Prime",
+        "Glaive Prime"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Primes/Ember/EmberPrimeBossHardModeAgent",
+      "Introduced": "42"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 15000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 270,
+      "Shield": 10750,
+      "Affinity": 5000
+    }
+  },
+  "Commandeered Volt Prime (Field Boss)": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "",
+      "Link": "Commandeered Prime#Volt Prime (Field Boss)",
+      "Missions": [
+        "The Perita Rebellion"
+      ],
+      "Type": "Field Boss",
+      "Scans": 1,
+      "Name": "Commandeered Volt Prime (Field Boss)",
+      "Image": "VoltPrime_Thumb.png",
+      "Abilities": [
+        ""
+      ],
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Corvas Prime",
+        "Dual Keres Prime"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Primes/Volt/VoltPrimeTMWAgent",
+      "Introduced": "41"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 15000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 65,
+      "Shield": 1750,
+      "Affinity": 5000
+    }
+  },
+  "Commandeered Volt Prime": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "",
+      "Link": "Commandeered Volt Prime",
+      "Missions": [
+        "The Perita Rebellion"
+      ],
+      "Type": "Boss",
+      "Scans": 1,
+      "Name": "Commandeered Volt Prime",
+      "Image": "VoltPrime_Thumb.png",
+      "Abilities": [
+        ""
+      ],
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Corvas Prime",
+        "Dual Keres Prime"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Primes/Volt/VoltPrimeBossAgent",
+      "Introduced": "41"
+    },
+    "Stats": {
+      "SpawnLevel": 70,
+      "Shield": 1750,
+      "SteelPathHealthBonus": 10000,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 15000,
+      "SteelPathShieldBonus": 10000,
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Affinity": 5000
+    }
+  },
+  "Commandeered Mesa Prime": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "",
+      "Link": "Commandeered Mesa Prime",
+      "Missions": [
+        "The Perita Rebellion"
+      ],
+      "Type": "Boss",
+      "Scans": 1,
+      "Name": "Commandeered Mesa Prime",
+      "Image": "MesaPrime_Thumb.png",
+      "Abilities": [
+        ""
+      ],
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Akjagara Prime",
+        "Redeemer Prime"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Primes/Mesa/MesaPrimeBossAgent",
+      "Introduced": "41"
+    },
+    "Stats": {
+      "SpawnLevel": 70,
+      "Shield": 1750,
+      "SteelPathHealthBonus": 10000,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 15000,
+      "SteelPathShieldBonus": 10000,
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Affinity": 5000
+    }
+  },
+  "Commandeered Caliban Prime (Field Boss)": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "",
+      "Link": "Commandeered Prime#Caliban Prime (Field Boss)",
+      "Missions": [
+        "The Perita Rebellion"
+      ],
+      "Type": "Field Boss",
+      "Scans": 1,
+      "Name": "Commandeered Caliban Prime (Field Boss)",
+      "Image": "CalibanPrime_Thumb.png",
+      "Abilities": [
+        ""
+      ],
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Vadarya Prime",
+        "Venato Prime"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Primes/Caliban/CalibanPrimeTMWAgent",
+      "Introduced": "41"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 15000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 65,
+      "Shield": 1750,
+      "Affinity": 5000
+    }
+  },
+  "Commandeered Ash Prime (Field Boss)": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "",
+      "Link": "Commandeered Prime#Ash Prime (Field Boss)",
+      "Missions": [
+        "The Perita Rebellion"
+      ],
+      "Type": "Field Boss",
+      "Scans": 1,
+      "Name": "Commandeered Ash Prime (Field Boss)",
+      "Image": "AshPrime_Thumb.png",
+      "Abilities": [
+        ""
+      ],
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Hikou Prime",
+        "Nikana Prime"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Primes/Ash/AshPrimeTMWAgent",
+      "Introduced": "41"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 15000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 65,
+      "Shield": 1750,
+      "Affinity": 5000
+    }
+  },
+  "Anarch Tenebra": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "A member of the separatist Dax Anarch faction. While their ability and disappearing techniques allowed these Dax to quell revolts before they had formed in earnest, their experiences allowed for their own rebellion to to flourish where all others have failed.",
+      "Link": "Anarch Tenebra",
+      "Introduced": "41",
+      "Type": "Ranged",
+      "Scans": 15,
+      "Missions": [
+        "The Perita Rebellion"
+      ],
+      "Image": "AnarchTenebra.png",
+      "Name": "Anarch Tenebra",
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Tau Dax Thrown Weapon"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Dax/TauDaxNinja/AnarchTauDaxNinjaAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 100,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Commandeered Protea Prime": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "",
+      "Link": "Commandeered Protea Prime",
+      "Missions": [
+        "The Perita Rebellion"
+      ],
+      "Type": "Boss",
+      "Scans": 1,
+      "Name": "Commandeered Protea Prime",
+      "Image": "ProteaPrime_Thumb.png",
+      "Abilities": [
+        ""
+      ],
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Velox Prime",
+        "Okina Prime"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Primes/Protea/ProteaPrimeBossAgent",
+      "Introduced": "41"
+    },
+    "Stats": {
+      "SpawnLevel": 70,
+      "Shield": 1750,
+      "SteelPathHealthBonus": 10000,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 15000,
+      "SteelPathShieldBonus": 10000,
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Affinity": 5000
+    }
+  },
+  "Commandeered Mesa Prime (The Guilty)": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "",
+      "Link": "Commandeered Prime#Mesa Prime (The Guilty)",
+      "Missions": [
+        "The Guilty"
+      ],
+      "Type": "Boss",
+      "Scans": 1,
+      "Name": "Commandeered Mesa Prime (The Guilty)",
+      "EmpoweredDefault": true,
+      "Image": "MesaPrime_Thumb.png",
+      "Abilities": [
+        ""
+      ],
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Akjagara Prime",
+        "Redeemer Prime"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Primes/Mesa/MesaPrimeBossHardModeAgent",
+      "Introduced": "42"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 15000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 270,
+      "Shield": 10750,
+      "Affinity": 5000
+    }
+  },
+  "Commandeered Mesa Prime (Field Boss)": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "",
+      "Link": "Commandeered Prime#Mesa Prime (Field Boss)",
+      "Missions": [
+        "The Perita Rebellion"
+      ],
+      "Type": "Field Boss",
+      "Scans": 1,
+      "Name": "Commandeered Mesa Prime (Field Boss)",
+      "Image": "MesaPrime_Thumb.png",
+      "Abilities": [
+        ""
+      ],
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Akjagara Prime",
+        "Redeemer Prime"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Primes/Mesa/MesaPrimeTMWAgent",
+      "Introduced": "41"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 15000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 65,
+      "Shield": 1750,
+      "Affinity": 5000
+    }
+  },
+  "Commandeered Trinity Prime": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "",
+      "Link": "Commandeered Trinity Prime",
+      "Missions": [
+        "The Guilty"
+      ],
+      "Type": "Boss",
+      "Scans": 1,
+      "Name": "Commandeered Trinity Prime",
+      "EmpoweredDefault": true,
+      "Image": "TrinityPrime_Thumb.png",
+      "Abilities": [
+        ""
+      ],
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Lex Prime",
+        "Dual Kamas Prime"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Primes/Trinity/TrinityPrimeBossAgent",
+      "Introduced": "42"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 8500,
+      "BaseLevel": 1,
+      "Armor": 5,
+      "SpawnLevel": 270,
+      "Shield": 150,
+      "Affinity": 5000
+    }
+  },
+  "Commandeered Ash Prime": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "",
+      "Link": "Commandeered Ash Prime",
+      "Missions": [
+        "The Perita Rebellion"
+      ],
+      "Type": "Boss",
+      "Scans": 1,
+      "Name": "Commandeered Ash Prime",
+      "Image": "AshPrime_Thumb.png",
+      "Abilities": [
+        "Smoke Screen",
+        "Teleport",
+        "Blade Storm"
+      ],
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Hikou Prime",
+        "Nikana Prime"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Primes/Ash/AshPrimeBossAgent",
+      "Introduced": "41"
+    },
+    "Stats": {
+      "SpawnLevel": 70,
+      "Shield": 1750,
+      "SteelPathHealthBonus": 10000,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 15000,
+      "SteelPathShieldBonus": 10000,
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Affinity": 5000
+    }
+  },
+  "Anarch Gladius": {
+    "General": {
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "A member of the separatist Dax Anarch dfaction. Within the minds of those dedicated to the blade lies a singular focus; to annihilate their enemy in the most effective manner possible.",
+      "Link": "Anarch Gladius",
+      "Introduced": "41",
+      "Type": "Melee",
+      "Scans": 20,
+      "Missions": [
+        "The Perita Rebellion"
+      ],
+      "Image": "AnarchGladius.png",
+      "Name": "Anarch Gladius",
+      "Faction": "Anarchs",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        "Tau Dax Nikana"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Dax/TauDaxSwordsman/AnarchTauDaxSwordsmanAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 175,
+      "BaseLevel": 1,
+      "Armor": 125,
+      "Affinity": -1
+    }
+  }
+}

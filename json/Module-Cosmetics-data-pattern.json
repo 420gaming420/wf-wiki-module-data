@@ -1,0 +1,490 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/pattern",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:33:06.661Z"
+  },
+  "_comments": "\t-- companion patterns\n\t-- companion skins",
+  "Hyacinth Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KavatFurPatternA.png",
+    "Description": "An intricate fur pattern for your Kavat.",
+    "Link": "Hyacinth Fur Pattern",
+    "Name": "Hyacinth Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Patterns/CatbrowPetPatternA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Daybreak Kavat Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KavatFurPatternDaybreak.png",
+    "Description": "Make your Kavat’s fur shine with solar majesty.",
+    "Link": "Daybreak Kavat Fur Pattern",
+    "Name": "Daybreak Kavat Fur Pattern",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/DaybreakCatbrowFur",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Helminth Charger Metus Skin": {
+    "Type": "Skin",
+    "Image": "HelminthChargerMetusSkin.png",
+    "Description": "Nidus Phryke’s loyal beast. This skin can be applied to any Kubrow.",
+    "Link": "Helminth Charger Metus Skin",
+    "Name": "Helminth Charger Metus Skin",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternHelminthDeluxe",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kavasa Prime Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternPrimeA.png",
+    "Description": "Revives the markings of a rare and noble Orokin breed.",
+    "Link": "Kavasa Prime Fur Pattern",
+    "Name": "Kavasa Prime Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternPrimeA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Hyekka Furless Pattern": {
+    "Type": "Pattern",
+    "Image": "KavatFurPatternHyekka.png",
+    "Description": "A degenerated furless pattern for your Kavat.",
+    "Link": "Hyekka Furless Pattern",
+    "Name": "Hyekka Furless Pattern",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Patterns/CatbrowPetPatternHyekka",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Sabella Prime Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KavatFurPatternGaraPrime.png",
+    "Description": "Imbue your Kavat with the unmistakable marks of ancient Orokin lineage.",
+    "Link": "Sabella Prime Fur Pattern",
+    "Name": "Sabella Prime Fur Pattern",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/GaraPrimeCatbrowFur",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Solstice Kubrow Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternSolstice.png",
+    "Description": "A festive fur pattern for a Kubrow",
+    "Link": "Solstice Kubrow Fur Pattern",
+    "Name": "Solstice Kubrow Fur Pattern",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Fur/SolsticeKubrowFur",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Deimos Vulpaphyla Pattern": {
+    "Type": "Pattern",
+    "Image": "InfestedCritterPatternDefault.png",
+    "Description": "The natural pattern of the Deimos Vulpaphyla.",
+    "Link": "Deimos Vulpaphyla Pattern",
+    "Name": "Deimos Vulpaphyla Pattern",
+    "InternalName": "/Lotus/Types/Game/InfestedKavatPet/Patterns/InfestedCritterPatternDefault",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Kalymos Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KavatFurPatternKalymos.png",
+    "Description": "Give your Kavat the look of Albrecht Entrati’s loyal companion, Kalymos.",
+    "Link": "Kalymos Fur Pattern",
+    "Name": "Kalymos Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Patterns/EntratiCatbrowPattern",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Atrox Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternDiamond.png",
+    "Description": "A diamond fur pattern for your Kubrow.",
+    "Link": "Atrox Fur Pattern",
+    "Name": "Atrox Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternDiamond",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Domino Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternD.png",
+    "Description": "A fur pattern with distinctive marking around the face.",
+    "Link": "Domino Fur Pattern",
+    "Name": "Domino Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drahk Kubrow Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternDrahk.png",
+    "Description": "This mastiff can take it, and dish it out.",
+    "Link": "Drahk Kubrow Pattern",
+    "Name": "Drahk Kubrow Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/DrahkKubrowPattern",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Daybreak Kubrow Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternDaybreak.png",
+    "Description": "Make your Kubrow’s fur shine with solar majesty.",
+    "Link": "Daybreak Kubrow Fur Pattern",
+    "Name": "Daybreak Kubrow Fur Pattern",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Fur/DaybreakKubrowFur",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Tang Prime Kubrow Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowSkinWukongPrime.png",
+    "Description": "The product of untold generations of selective breeding, coupled with multifold iterations of Orokin bioengineering, created this: the Tang breed of Kubrow. Faithful guardians of the most revered.",
+    "Link": "Tang Prime Kubrow Fur Pattern",
+    "Name": "Tang Prime Kubrow Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/WukongPrimeKubrowPattern",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Striped Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternA.png",
+    "Description": "A striped fur pattern for your Kubrow.",
+    "Link": "Striped Fur Pattern",
+    "Name": "Striped Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Venari Prime Skin": {
+    "Type": "Skin",
+    "Image": "VenariPrime.png",
+    "Description": "The standard issue skin for Venari Prime.",
+    "Link": "Venari Prime Skin",
+    "Name": "Venari Prime Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Khora/VenariPrimeSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Helminth Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowBreedHelminthCharger.png",
+    "Description": "The final evolution of the Helminth Charger.",
+    "Link": "Helminth Pattern",
+    "Name": "Helminth Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternInfested",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Maculatia Venari Skin": {
+    "Type": "Skin",
+    "Image": "MaculatiaVenariSkin.png",
+    "Description": "Venari becomes the dark and dangerous woods in this deluxe pet skin.",
+    "Link": "Maculatia Venari Skin",
+    "Name": "Maculatia Venari Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Khora/KhoraDeluxeVenariSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Patchy Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternB.png",
+    "Description": "A patchy fur pattern for your Kubrow.",
+    "Link": "Patchy Fur Pattern",
+    "Name": "Patchy Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Mottled Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternG.png",
+    "Description": "A fur pattern with scattered spots.",
+    "Link": "Mottled Fur Pattern",
+    "Name": "Mottled Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternG",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Nexus Kavat Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KavatFurPatternNexus.png",
+    "Description": "A unique fur pattern for your Kavat.",
+    "Link": "Nexus Kavat Fur Pattern",
+    "Name": "Nexus Kavat Fur Pattern",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/NexusCatbrowFur",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Nesyr Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KavatFurPatternC.png",
+    "Description": "An intricate fur pattern for your Kavat.",
+    "Link": "Nesyr Fur Pattern",
+    "Name": "Nesyr Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Patterns/CatbrowPetPatternC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Lotus Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternF.png",
+    "Description": "A fur pattern with distinctive marking around the face.",
+    "Link": "Lotus Fur Pattern",
+    "Name": "Lotus Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternF",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Arklut Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternLiquid.png",
+    "Description": "A flowing fur pattern for your Kubrow.",
+    "Link": "Arklut Fur Pattern",
+    "Name": "Arklut Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternLiquid",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Underbrush Kubrow Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternFeral.png",
+    "Description": "First silence, then the snapping of a twig, then death.",
+    "Link": "Underbrush Kubrow Pattern",
+    "Name": "Underbrush Kubrow Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/FeralKubrowPattern",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vasca Kavat Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KavatFurPatternVampire.png",
+    "Description": "A distinctive fur pattern for a Vasca kavat.",
+    "Link": "Vasca Kavat Fur Pattern",
+    "Name": "Vasca Kavat Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Patterns/CatbrowPetPatternVampire",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Strix Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KavatFurPatternB.png",
+    "Description": "An intricate fur pattern for your Kavat.",
+    "Link": "Strix Fur Pattern",
+    "Name": "Strix Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Patterns/CatbrowPetPatternB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Deimos Predasite Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowInfestedPredatorPattern.png",
+    "Description": "The natural pattern of the Deimos Predasite.",
+    "Link": "Deimos Predasite Pattern",
+    "Name": "Deimos Predasite Pattern",
+    "InternalName": "/Lotus/Types/Game/InfestedPredatorPet/Patterns/InfestedPredatorPatternDefault",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Tibor Prime Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KavatFurPatternPrime.png",
+    "Description": "A unique fur pattern for your Kavat.",
+    "Link": "Tibor Prime Fur Pattern",
+    "Name": "Tibor Prime Fur Pattern",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/PrimeCatbrowFur",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Crimson Nose Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternXmasC.png",
+    "Description": "A festive pattern for your Kubrow.",
+    "Link": "Crimson Nose Pattern",
+    "Name": "Crimson Nose Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternXmasC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Venari Skin": {
+    "Type": "Skin",
+    "Image": "KavatBreedKhora.png",
+    "Description": "The standard issue skin for Venari.",
+    "Link": "Venari Skin",
+    "Name": "Venari Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Khora/VenariSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Nistlebrush Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternXmasB.png",
+    "Description": "A festive pattern for your Kubrow.",
+    "Link": "Nistlebrush Pattern",
+    "Name": "Nistlebrush Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternXmasB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Argyl Kavat Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KavatSkinXmas.png",
+    "Description": "A festive fur pattern for a Kavat",
+    "Link": "Argyl Kavat Fur Pattern",
+    "Name": "Argyl Kavat Fur Pattern",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/XmasCatbrowSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Hound Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternC.png",
+    "Description": "A bold fur pattern for your Kubrow.",
+    "Link": "Hound Fur Pattern",
+    "Name": "Hound Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Nexus Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternPrimeTraderA.png",
+    "Description": "A unique fur pattern for your Kubrow.",
+    "Link": "Nexus Fur Pattern",
+    "Name": "Nexus Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternPrimeTraderA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Neura Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternCeph.png",
+    "Description": "Eye-catching and asymmetrical Kubrow fur-patterning straight from the Weave.",
+    "Link": "Neura Fur Pattern",
+    "Name": "Neura Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternCephalon",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Maculatia Kavat Skin": {
+    "Type": "Skin",
+    "Image": "MaculatiaKavatSkin.png",
+    "Description": "Nature at its most brutal comes alive in this deluxe skin for your Kavat.",
+    "Link": "Maculatia Kavat Skin",
+    "Name": "Maculatia Kavat Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Khora/KhoraDeluxeKavatSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Deaeira Kavat Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KavatFurPatternContest.png",
+    "Description": "Surviving records state the Deaeira Kavat strain was developed and much-favored by the Orokin. [Tenno's Best Friend Contest winner]",
+    "Link": "Deaeira Kavat Fur Pattern",
+    "Name": "Deaeira Kavat Fur Pattern",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/ContestCatbrowFur",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Fabled Kubrow Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowSkinDuviriWolf.png",
+    "Description": "A fur pattern commissioned by Euleria Entrati to manifest a creature from the storybook, Tales of Duviri.",
+    "Link": "Fabled Kubrow Fur Pattern",
+    "Name": "Fabled Kubrow Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternDuviriWolf",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Nart-Deer Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternXmasA.png",
+    "Description": "A festive pattern for your Kubrow.",
+    "Link": "Nart-Deer Pattern",
+    "Name": "Nart-Deer Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternXmasA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Moonless Kavat Pattern": {
+    "Type": "Pattern",
+    "Image": "KavatFurPatternFeral.png",
+    "Description": "A kavat pattern ideal for the nighttime hunt.",
+    "Link": "Moonless Kavat Pattern",
+    "Name": "Moonless Kavat Pattern",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Patterns/FeralCatbrowPattern",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Merle Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternE.png",
+    "Description": "A spotted fur pattern for your Kubrow.",
+    "Link": "Merle Fur Pattern",
+    "Name": "Merle Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternE",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Krest Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KavatFurPatternD.png",
+    "Description": "An intricate fur pattern for your Kavat.",
+    "Link": "Krest Fur Pattern",
+    "Name": "Krest Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Patterns/CatbrowPetPatternD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Solstice Kavat Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KavatSkinSolstice.png",
+    "Description": "A festive fur pattern for a Kavat",
+    "Link": "Solstice Kavat Fur Pattern",
+    "Name": "Solstice Kavat Fur Pattern",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/SolsticeCatbrowFur",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Brindle Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternH.png",
+    "Description": "A fur pattern with striped markings.",
+    "Link": "Brindle Fur Pattern",
+    "Name": "Brindle Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternH",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Tigrol Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternI.png",
+    "Description": "A striped fur pattern for your Kubrow.",
+    "Link": "Tigrol Fur Pattern",
+    "Name": "Tigrol Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternI",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Heino Kubrow Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternContest.png",
+    "Description": "Fur pattern matching your Kubrow's Heino ancestors, from a gene-line preserved by Kubrow master Skvirl. [Tenno's Best Friend Contest winner]",
+    "Link": "Heino Kubrow Fur Pattern",
+    "Name": "Heino Kubrow Fur Pattern",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Fur/ContestKubrowFur",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Helminth Degenerate Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowBreedHelminthChargerClassic.png",
+    "Description": "A degenerated strain of the Helminth Charger.",
+    "Link": "Helminth Degenerate Pattern",
+    "Name": "Helminth Degenerate Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/HelminthPetPatternClassic",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  }
+}

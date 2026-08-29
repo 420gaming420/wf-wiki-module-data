@@ -1,0 +1,1071 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Enemies/data/sentient",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:36:26.258Z"
+  },
+  "_comments": "\t\t\t--Introduced = \"?\",\n\t\t\t--Multis = { ? },\n\t\t\t--Multis = { \"?\" },",
+  "Hunhullus": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "",
+      "Link": "Hunhullus",
+      "Missions": [
+        "The Perita Rebellion"
+      ],
+      "Type": "Boss",
+      "Scans": 1,
+      "Image": "Hunhullus.png",
+      "Name": "Dactolyst",
+      "Faction": "Sentient",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/Monolyst/MonolystAgent",
+      "Introduced": "41"
+    },
+    "Stats": {
+      "Health": 60000,
+      "BaseLevel": 1,
+      "Armor": 105,
+      "SpawnLevel": 70,
+      "SteelPathHealthBonus": 170000,
+      "Affinity": 5000
+    }
+  },
+  "Oculyst": {
+    "General": {
+      "TileSets": [
+        "Grineer Sealab",
+        "Orokin Moon"
+      ],
+      "Description": "Eyes of the Sentient",
+      "Link": "Oculyst",
+      "Scans": 20,
+      "Type": "Support",
+      "Image": "Scout.png",
+      "Name": "Oculyst",
+      "Faction": "Sentient",
+      "Planets": [
+        "Uranus",
+        "Lua"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/Scouts/ScoutAvatar",
+      "Introduced": "29.6"
+    },
+    "Stats": {
+      "Multis": [
+        "All: 0x"
+      ],
+      "Health": 300,
+      "BaseLevel": 1,
+      "Armor": 150,
+      "Affinity": 50
+    }
+  },
+  "Gyrix": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "/Lotus/Types/Enemies/SpaceBattles/Sentient/Fighters/SpaceFighterSntCoilAgent",
+      "Description": "This unorthodox Sentient Fighter tumbles and twists through space, attack with its dual missile launchers and a barrage of swarming micro missiles.",
+      "Link": "Gyrix",
+      "Missions": [
+        "Empyrean"
+      ],
+      "Type": "",
+      "Image": "Gyrix.png",
+      "Name": "Gyrix",
+      "Faction": "Sentient",
+      "Scans": 5,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "27.3"
+    },
+    "Stats": {
+      "Health": 300,
+      "BaseLevel": 1,
+      "Shield": 200,
+      "Armor": 125,
+      "Affinity": 400
+    }
+  },
+  "Anu Interference Drone": {
+    "General": {
+      "Type": "Support",
+      "Description": "",
+      "Link": "Anu Interference Drone",
+      "Image": "JammingDrone.png",
+      "Name": "Anu Interference Drone",
+      "Faction": "Sentient",
+      "Missions": [
+        "Scarlet Spear",
+        "The New War"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "27.3"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "Health": 700,
+      "BaseLevel": 1,
+      "SpawnLevel": 0,
+      "Affinity": 0
+    }
+  },
+  "Splintrix": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "",
+      "Link": "Splintrix",
+      "Missions": [
+        "Scarlet Spear"
+      ],
+      "Image": "Splintrix.png",
+      "Name": "Splintrix",
+      "Faction": "Sentient",
+      "Type": "Boarding Capsule",
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/SpaceBattles/Sentient/SentientRamSledAgent",
+      "Introduced": "27.3"
+    },
+    "Stats": {
+      "BaseLevel": 1,
+      "Health": 400,
+      "Affinity": 400
+    }
+  },
+  "Anu Symbilyst": {
+    "General": {
+      "Type": "",
+      "Description": "",
+      "Link": "Symbilyst#Anu",
+      "Image": "SentientBoardingSymbalist.png",
+      "Name": "Anu Symbilyst",
+      "Faction": "Sentient",
+      "Missions": [
+        "Scarlet Spear"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/RailJack/SentientBoardingSymbilystAgent",
+      "Introduced": "27.3"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 400,
+      "BaseLevel": 10,
+      "Armor": 300,
+      "Affinity": 300
+    }
+  },
+  "Ropalolyst": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Corpus Gas City"
+      ],
+      "Description": "\"Known and unknowable. This thing has haunted my life, waking and asleep, ever since I made that accursed bargain. A parasite at the core of my city. It drains my wealth, my power, my reactors... and my dignity.\nThis will not stand. I will see that horrendous thing destroyed.\n\nI will be free.\"\n\nAlad V",
+      "Link": "Ropalolyst",
+      "Missions": [
+        "Assassination",
+        "The Ropalolyst"
+      ],
+      "Type": "Boss",
+      "Scans": 3,
+      "Name": "Ropalolyst",
+      "Image": "Ropalolyst.png",
+      "Abilities": [
+        "Lasers",
+        "Nullifying Scream",
+        "Electric Stream",
+        "Giant Laser",
+        "Seeking Missiles",
+        "Grab"
+      ],
+      "Faction": "Sentient",
+      "Planets": [
+        "Jupiter"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/Ropalolyst/SentientRopalolystAgent",
+      "Introduced": "25"
+    },
+    "Stats": {
+      "Health": 5000,
+      "BaseLevel": 1,
+      "Shield": 2000,
+      "SpawnLevel": 40,
+      "Armor": 200,
+      "Affinity": 500
+    }
+  },
+  "Eradicyst": {
+    "General": {
+      "Type": "",
+      "Description": "",
+      "Link": "Octavia's Anthem#Suda's Datascape",
+      "Image": "DatascapeSentient.png",
+      "Name": "Eradicyst",
+      "Faction": "Sentient",
+      "Missions": [
+        "Octavia's Anthem"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/BardQuest/BardQuestSentientAgent",
+      "Introduced": "20"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 300,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": 50
+    }
+  },
+  "Aerolyst": {
+    "General": {
+      "TileSets": [
+        "Murex",
+        "Grineer Forest"
+      ],
+      "Description": "A support unit that can heal fellow Sentients. Canisters located near this units center of mass appear weaker than the surrounding carapace.",
+      "Link": "Aerolyst",
+      "Missions": [
+        "Orphix (Mission)",
+        "Archon Hunt"
+      ],
+      "Type": "Ranged",
+      "Image": "Aerolyst.png",
+      "Name": "Aerolyst",
+      "Faction": "Sentient",
+      "Scans": 5,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/Aerolyst/SentientAerolystAgent",
+      "Introduced": "27.3"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "Health": 2000,
+      "BaseLevel": 1,
+      "Armor": 75,
+      "Affinity": 300
+    }
+  },
+  "Eidolon Hydrolyst": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "The energy contained within this Eidolon is powerful enough to alter the local weather system.",
+      "Link": "Eidolon Hydrolyst",
+      "Missions": [
+        "Cetus Bounty",
+        "Free Roam"
+      ],
+      "Type": "Grand Boss",
+      "Scans": 3,
+      "Image": "TeralystRain.png",
+      "Name": "Eidolon Hydrolyst",
+      "Faction": "Sentient",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/Eidolon/SentientTeralystRainAgent",
+      "Introduced": "22"
+    },
+    "Stats": {
+      "Health": 65000,
+      "BaseLevel": 1,
+      "Shield": 70000,
+      "SpawnLevel": 60,
+      "Armor": 150,
+      "Affinity": 2000
+    }
+  },
+  "Anu Brachiolyst": {
+    "General": {
+      "Type": "Melee",
+      "Description": "",
+      "Link": "Brachiolyst#Anu",
+      "Image": "SentientBoardingBrachiolyst.png",
+      "Name": "Anu Brachiolyst",
+      "Faction": "Sentient",
+      "Missions": [
+        "Scarlet Spear",
+        "The New War"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/RailJack/SentientBoardingBrachiolystAgent",
+      "Introduced": "27.3"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "Health": 300,
+      "BaseLevel": 10,
+      "Shield": 450,
+      "Armor": 50,
+      "Affinity": 300
+    }
+  },
+  "Ionyx": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "A heavy Sentient fighter that weakens targets with a slicing plasma wave and finishes them off with a massive energy orb.",
+      "Link": "Ionyx",
+      "Missions": [
+        "Empyrean"
+      ],
+      "Type": "",
+      "Image": "Ionyx.png",
+      "Name": "Ionyx",
+      "Faction": "Sentient",
+      "Scans": 5,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/SpaceBattles/Sentient/Fighters/SpaceFighterSntAssaultAgent",
+      "Introduced": "27.3"
+    },
+    "Stats": {
+      "Health": 400,
+      "BaseLevel": 1,
+      "Shield": 200,
+      "Armor": 150,
+      "Affinity": 400
+    }
+  },
+  "Brachiolyst": {
+    "General": {
+      "TileSets": [
+        "Murex"
+      ],
+      "Description": "Flying unit that can swoop down into melee.",
+      "Link": "Brachiolyst",
+      "Missions": [
+        "Orphix (Mission)"
+      ],
+      "Type": "Melee",
+      "Scans": 5,
+      "Image": "Brachiolyst.png",
+      "Name": "Brachiolyst",
+      "Faction": "Sentient",
+      "Planets": [
+        "Veil Proxima"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/Brachiolyst/SentientBrachiolystAgent",
+      "Introduced": "27"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "Health": 300,
+      "BaseLevel": 10,
+      "Shield": 450,
+      "Armor": 50,
+      "Affinity": 300
+    }
+  },
+  "Eidolon Gantulyst": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "A massive, lumbering, brute of an Eidolon.",
+      "Link": "Eidolon Gantulyst",
+      "Missions": [
+        "Cetus Bounty",
+        "Free Roam"
+      ],
+      "Type": "Grand Boss",
+      "Scans": 3,
+      "Image": "TeralystBig.png",
+      "Name": "Eidolon Gantulyst",
+      "Faction": "Sentient",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/Eidolon/SentientTeralystBigAgent",
+      "Introduced": "22"
+    },
+    "Stats": {
+      "Health": 55000,
+      "BaseLevel": 1,
+      "Shield": 60000,
+      "SpawnLevel": 55,
+      "Armor": 130,
+      "Affinity": 1500
+    }
+  },
+  "Conculyst": {
+    "General": {
+      "Type": "Melee",
+      "Description": "",
+      "Link": "Conculyst",
+      "Scans": 5,
+      "Image": "SentientMeleeTrooper.png",
+      "Abilities": [
+        "Whirlwind",
+        "Shield Drain",
+        "Communal Link"
+      ],
+      "Faction": "Sentient",
+      "Planets": [
+        ""
+      ],
+      "Weapons": [
+        "Baton Arms"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/Troopers/SentientMeleeTrooperAgent",
+      "Name": "Conculyst"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 1150,
+      "BaseLevel": 1,
+      "Armor": 150,
+      "Affinity": 300
+    }
+  },
+  "Anu Pyrolyst": {
+    "General": {
+      "Type": "Ranged",
+      "Description": "",
+      "Link": "Anu Pyrolyst",
+      "Image": "SentientBoardingNoPowers.png",
+      "Name": "Anu Pyrolyst",
+      "Faction": "Sentient",
+      "Missions": [
+        "Scarlet Spear"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/RailJack/SentientBoardingNoPowersAgent",
+      "Introduced": "27.3"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 350,
+      "BaseLevel": 1,
+      "Armor": 150,
+      "Affinity": 300
+    }
+  },
+  "Tyro Conculyst": {
+    "General": {
+      "Type": "Melee",
+      "Description": "A fledgling Conculyst deployed before it had a chance to fully develop.",
+      "Link": "Conculyst#Tyro",
+      "Missions": [
+        "Archon Hunt"
+      ],
+      "Image": "TyroConculyst.png",
+      "Name": "Tyro Conculyst",
+      "Faction": "Sentient",
+      "Scans": 5,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/Troopers/SentientMeleeTrooperNoPowersAgent",
+      "Introduced": "27"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 850,
+      "BaseLevel": 1,
+      "Armor": 150,
+      "Affinity": 300
+    }
+  },
+  "Tyro Battalyst": {
+    "General": {
+      "TileSets": [
+        "Murex"
+      ],
+      "Description": "A fledgling Battalyst deployed before it had a chance to fully develop.",
+      "Link": "Battalyst#Tyro",
+      "Missions": [
+        "Archon Hunt",
+        "Sentient Anomaly"
+      ],
+      "Type": "Ranged",
+      "Scans": 5,
+      "Image": "TyroBattalyst.png",
+      "Name": "Tyro Battalyst",
+      "Faction": "Sentient",
+      "Planets": [
+        "Veil Proxima"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/Troopers/SentientTrooperNoPowersAgent",
+      "Introduced": "27"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 850,
+      "BaseLevel": 1,
+      "Armor": 150,
+      "Affinity": 300
+    }
+  },
+  "Battalyst": {
+    "General": {
+      "Type": "Ranged",
+      "Description": "",
+      "Link": "Battalyst",
+      "Image": "SentientTrooper.png",
+      "Abilities": [
+        "Omnidirectional Laser Prism",
+        "Shield Drain",
+        "Communal Link"
+      ],
+      "Faction": "Sentient",
+      "Scans": 5,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/Troopers/SentientBaseTrooperAgent",
+      "Name": "Battalyst"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 1150,
+      "BaseLevel": 1,
+      "Armor": 150,
+      "Affinity": 300
+    }
+  },
+  "Typholyst": {
+    "General": {
+      "1": "Boss (Teshin Gameplay)",
+      "Type": "Heavy Melee (Tower of Unum)",
+      "Description": "These rare, hulking Sentients pound adversaries to a pulp. Nearly immortal, they can only be killed by having their beating core torn from them.",
+      "Link": "Typholyst",
+      "Missions": [
+        "The New War"
+      ],
+      "Image": "Clotholyst.png",
+      "Abilities": [
+        "Spinning Attack",
+        "Slam Attack",
+        "Leap and Slam"
+      ],
+      "Faction": "Sentient",
+      "Name": "Typholyst",
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/Clotholyst/SentientClotholystAgent",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "Health": 10000,
+      "BaseLevel": 1,
+      "Armor": 300,
+      "Affinity": 750
+    }
+  },
+  "Summulyst": {
+    "General": {
+      "TileSets": [
+        "Corpus Ship"
+      ],
+      "Description": "A high-order Sentient that bifurcates its body, creating a portal it uses to summon reinforcements and projectiles. Armed with twin cannons.",
+      "Link": "Summulyst",
+      "Missions": [
+        "Orphix (Mission)"
+      ],
+      "Type": "Summoner",
+      "Scans": 3,
+      "Image": "Summulyst.png",
+      "Name": "Summulyst",
+      "Faction": "Sentient",
+      "Planets": [
+        "Venus Proxima",
+        "Neptune Proxima",
+        "Pluto Proxima",
+        "Veil Proxima"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/Dolicholyst/SentientDolicholystAgent",
+      "Introduced": "29.6"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "Health": 3000,
+      "BaseLevel": 10,
+      "Shield": 5000,
+      "Armor": 200,
+      "Affinity": 750
+    }
+  },
+  "Decaying Conculyst": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orokin Tower"
+      ],
+      "Description": "",
+      "Link": "Conculyst#Decaying",
+      "Missions": [
+        "Octavia's Anthem"
+      ],
+      "Type": "Melee",
+      "Scans": 5,
+      "Image": "CodexDecayingConculyst.png",
+      "Name": "Decaying Conculyst",
+      "Faction": "Sentient",
+      "Planets": [
+        "Void"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/Troopers/SentientVoidMeleeTrooperAgent",
+      "Introduced": "20"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 1000,
+      "BaseLevel": 1,
+      "Armor": 250,
+      "SpawnLevel": 20,
+      "Affinity": 300
+    }
+  },
+  "Condrix": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Grineer Forest"
+      ],
+      "Description": "This dropship ferries Sentient units from deep-space to battle zones around the Origin System.",
+      "Link": "Condrix",
+      "Missions": [
+        "Operation: Scarlet Spear"
+      ],
+      "Type": "",
+      "Scans": 20,
+      "Image": "Condrix.png",
+      "Name": "Condrix",
+      "Faction": "Sentient",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/Condrix/SentientCondrixAgent",
+      "Introduced": "27.3"
+    },
+    "Stats": {
+      "Multis": [
+        "Body: 0x",
+        "Mouth: 1.0x"
+      ],
+      "Health": 12000,
+      "BaseLevel": 1,
+      "Armor": 25,
+      "SpawnLevel": 25,
+      "Affinity": 50
+    }
+  },
+  "Ortholyst": {
+    "General": {
+      "Type": "",
+      "Description": "This lightweight Sentient mounts itself to solid ground in order to deploy massive long range cannons.",
+      "Link": "Ortholyst",
+      "Image": "Ortholyst.png",
+      "Name": "Ortholyst",
+      "Faction": "Sentient",
+      "Scans": 5,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/Ortholyst/SentientOrtholystAgent",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "Health": 600,
+      "BaseLevel": 10,
+      "Armor": 125,
+      "Affinity": 300
+    }
+  },
+  "Orphix": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Corpus Ship"
+      ],
+      "Description": "These massive Sentients emit pulses that disable machinery, and deploy lesser Sentients that help to boost the pulse field. They have recently learned to disable Warframes.",
+      "Link": "Orphix",
+      "Missions": [
+        "Orphix (Mission)"
+      ],
+      "Type": "",
+      "Scans": 20,
+      "Image": "Condrix.png",
+      "Name": "Orphix",
+      "Faction": "Sentient",
+      "Planets": [
+        "Venus Proxima",
+        "Neptune Proxima",
+        "Pluto Proxima",
+        "Veil Proxima"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/Condrix/SentientCondrixAgentMechEvent",
+      "Introduced": "29.6"
+    },
+    "Stats": {
+      "Health": 8000,
+      "BaseLevel": 1,
+      "Armor": 25,
+      "SpawnLevel": 25,
+      "Affinity": 50
+    }
+  },
+  "Anu Mantalyst": {
+    "General": {
+      "Type": "",
+      "Description": "",
+      "Link": "Anu Mantalyst",
+      "Missions": [
+        "Scarlet Spear",
+        "The New War"
+      ],
+      "Image": "SentientBoardingHacker.png",
+      "Abilities": [
+        "Summon Anu Interference Drone"
+      ],
+      "Faction": "Sentient",
+      "Name": "Anu Mantalyst",
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/RailJack/SentientBoardingHackerAgent",
+      "Introduced": "27.3"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 400,
+      "BaseLevel": 1,
+      "Armor": 150,
+      "Affinity": 300
+    }
+  },
+  "Mimic": {
+    "General": {
+      "TileSets": [
+        "Murex"
+      ],
+      "Description": "",
+      "Link": "Mimic",
+      "Missions": [
+        "The Sacrifice"
+      ],
+      "Type": "",
+      "Scans": 5,
+      "Image": "MimicSentient.png",
+      "Name": "Mimic",
+      "Faction": "Sentient",
+      "Planets": [
+        "Veil Proxima"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/Mimics/SentientTrooperMimicAgent",
+      "Introduced": "23"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 800,
+      "BaseLevel": 1,
+      "Armor": 125,
+      "Affinity": 300
+    }
+  },
+  "Eidolon Teralyst": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "An ancient Eidolon, searching for its lost brethren. Trying to make itself whole.",
+      "Link": "Eidolon Teralyst",
+      "Missions": [
+        "Cetus Bounty",
+        "Free Roam"
+      ],
+      "Type": "Grand Boss",
+      "Scans": 3,
+      "Image": "Teralyst.png",
+      "Name": "Eidolon Teralyst",
+      "Faction": "Sentient",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/Eidolon/SentientTeralystAgent",
+      "Introduced": "22"
+    },
+    "Stats": {
+      "Health": 50000,
+      "BaseLevel": 1,
+      "Shield": 50000,
+      "SpawnLevel": 50,
+      "Armor": 125,
+      "Affinity": 1000
+    }
+  },
+  "Eidolon Vomvalyst": {
+    "General": {
+      "TileSets": [
+        "Plains of Eidolon",
+        "Murex"
+      ],
+      "Description": "A lost soul. Part energy, part physical shell, these Sentient remnants seem to have a symbiotic relationship with the much larger Eidolons.",
+      "Link": "Eidolon Vomvalyst",
+      "Scans": 5,
+      "Type": "Ranged",
+      "Image": "Vomvalyst.png",
+      "Name": "Eidolon Vomvalyst",
+      "Faction": "Sentient",
+      "Planets": [
+        "Earth",
+        "Veil Proxima"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/Eidolon/SentientVomvalystAgent",
+      "Introduced": "22"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "Health": 700,
+      "BaseLevel": 1,
+      "SpawnLevel": 18,
+      "Affinity": 250
+    }
+  },
+  "Dactolyst": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Perita"
+      ],
+      "Description": "Sentient Dactolyst, taken and twisted by the Anarch Galastra. Given the designation TQ-776VL by his captor, if the had taken an independent name before this, it has been lost.",
+      "Link": "Dactolyst",
+      "Missions": [
+        "The Perita Rebellion"
+      ],
+      "Type": "Boss",
+      "Scans": 1,
+      "Image": "Dactolyst.png",
+      "Name": "Dactolyst",
+      "Faction": "Sentient",
+      "Planets": [
+        "Perita"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/GuiltSentient/SentientGuiltBossAgent",
+      "Introduced": "41"
+    },
+    "Stats": {
+      "Health": 150000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 70,
+      "SteelPathHealthBonus": 440000,
+      "Affinity": -1
+    }
+  },
+  "Symbilyst": {
+    "General": {
+      "Type": "",
+      "Description": "Frontline shock trooper that uses its large shield arm to block incoming damage.",
+      "Link": "Symbilyst",
+      "Image": "Symbilyst.png",
+      "Name": "Symbilyst",
+      "Faction": "Sentient",
+      "Scans": 5,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/Symbilyst/SentientSymbilystAgent",
+      "Introduced": "27"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 1000,
+      "BaseLevel": 10,
+      "Armor": 300,
+      "Affinity": 300
+    }
+  },
+  "Decaying Battalyst": {
+    "General": {
+      "TileSets": [
+        "Orokin Tower"
+      ],
+      "Description": "Shielded by Hunhow using Suda's energy",
+      "Link": "Battalyst#Decaying",
+      "Introduced": "20",
+      "Type": "Ranged",
+      "Scans": 5,
+      "Missions": [
+        "Octavia's Anthem"
+      ],
+      "Image": "CodexDecayingBattalyst.png",
+      "Name": "Decaying Battalyst",
+      "Faction": "Sentient",
+      "Planets": [
+        "Void"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/Troopers/SentientVoidTrooperAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 1000,
+      "BaseLevel": 1,
+      "Armor": 250,
+      "SpawnLevel": 20,
+      "Affinity": 300
+    }
+  },
+  "Choralyst": {
+    "General": {
+      "TileSets": [
+        "Corpus Ship"
+      ],
+      "Description": "These ethereal Sentients attack with both a sonic barrage and a thunderous homing orb.",
+      "Link": "Choralyst",
+      "Missions": [
+        "Orphix (Mission)"
+      ],
+      "Type": "",
+      "Scans": 5,
+      "Image": "Choralyst.png",
+      "Name": "Choralyst",
+      "Faction": "Sentient",
+      "Planets": [
+        "Venus Proxima",
+        "Neptune Proxima",
+        "Pluto Proxima",
+        "Veil Proxima"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Sentients/Eidolon/SentientEidolonGhostCasterAgent",
+      "Introduced": "29.6"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 300,
+      "BaseLevel": 1,
+      "Armor": 75,
+      "Affinity": 200
+    }
+  }
+}

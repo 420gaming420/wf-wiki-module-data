@@ -1,0 +1,184 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:WDSButton/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:45:20.997Z"
+  },
+  "_comments": "-- <nowiki>\n--------------------------------------------------------------------------------\n-- Color scheme data for [[Module:WDS Button]].\n-- Helper function to make the same data available under multiple aliases.\n            -- Users should never see this.",
+  "beta": {
+    "textColor": "white",
+    "backgroundColor": "#ffba01",
+    "aliases": [
+      "beta",
+      "warn",
+      "blocked"
+    ]
+  },
+  "warn": {
+    "textColor": "white",
+    "backgroundColor": "#ffba01",
+    "aliases": [
+      "beta",
+      "warn",
+      "blocked"
+    ]
+  },
+  "passed": {
+    "textColor": "white",
+    "backgroundColor": "#32cd32",
+    "aliases": [
+      "stable",
+      "pass",
+      "passed",
+      "done"
+    ]
+  },
+  "nil": {
+    "textColor": "white",
+    "backgroundColor": "#aaa",
+    "aliases": [
+      "unknown",
+      "nil",
+      "default"
+    ]
+  },
+  "unstable": {
+    "textColor": "yellow",
+    "backgroundColor": "#900",
+    "aliases": [
+      "unstable",
+      "error"
+    ]
+  },
+  "unmaintained": {
+    "textColor": "white",
+    "backgroundColor": "#8b4513",
+    "aliases": [
+      "unmaintained",
+      "broken"
+    ]
+  },
+  "failed": {
+    "textColor": "white",
+    "backgroundColor": "#900",
+    "aliases": [
+      "fail",
+      "failed"
+    ]
+  },
+  "delete": {
+    "textColor": "white",
+    "backgroundColor": "#ff4500",
+    "aliases": [
+      "experimental",
+      "delete"
+    ]
+  },
+  "experimental": {
+    "textColor": "white",
+    "backgroundColor": "#ff4500",
+    "aliases": [
+      "experimental",
+      "delete"
+    ]
+  },
+  "done": {
+    "textColor": "white",
+    "backgroundColor": "#32cd32",
+    "aliases": [
+      "stable",
+      "pass",
+      "passed",
+      "done"
+    ]
+  },
+  "pass": {
+    "textColor": "white",
+    "backgroundColor": "#32cd32",
+    "aliases": [
+      "stable",
+      "pass",
+      "passed",
+      "done"
+    ]
+  },
+  "fail": {
+    "textColor": "white",
+    "backgroundColor": "#900",
+    "aliases": [
+      "fail",
+      "failed"
+    ]
+  },
+  "awaiting": {
+    "textColor": "white",
+    "backgroundColor": "#0d47a1",
+    "aliases": [
+      "archive",
+      "awaiting"
+    ]
+  },
+  "unknown": {
+    "textColor": "white",
+    "backgroundColor": "#aaa",
+    "aliases": [
+      "unknown",
+      "nil",
+      "default"
+    ]
+  },
+  "default": {
+    "textColor": "white",
+    "backgroundColor": "#aaa",
+    "aliases": [
+      "unknown",
+      "nil",
+      "default"
+    ]
+  },
+  "blocked": {
+    "textColor": "white",
+    "backgroundColor": "#ffba01",
+    "aliases": [
+      "beta",
+      "warn",
+      "blocked"
+    ]
+  },
+  "broken": {
+    "textColor": "white",
+    "backgroundColor": "#8b4513",
+    "aliases": [
+      "unmaintained",
+      "broken"
+    ]
+  },
+  "archive": {
+    "textColor": "white",
+    "backgroundColor": "#0d47a1",
+    "aliases": [
+      "archive",
+      "awaiting"
+    ]
+  },
+  "stable": {
+    "textColor": "white",
+    "backgroundColor": "#32cd32",
+    "aliases": [
+      "stable",
+      "pass",
+      "passed",
+      "done"
+    ]
+  },
+  "error": {
+    "textColor": "yellow",
+    "backgroundColor": "#900",
+    "aliases": [
+      "unstable",
+      "error"
+    ]
+  }
+}

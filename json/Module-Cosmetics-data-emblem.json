@@ -1,0 +1,1230 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/emblem",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:32:15.961Z"
+  },
+  "_comments": "",
+  "Ambulas Reborn Emblem": {
+    "Type": "Emblem",
+    "Image": "AmbulasEventBadge.png",
+    "Description": "An emblem commemorating the fight against the Ambulas incursion.",
+    "Link": "Ambulas Reborn Emblem",
+    "Name": "Ambulas Reborn Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/AmbulasEventBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "17173 EMBLEM": {
+    "Type": "Emblem",
+    "Image": "CY17173Badge.png",
+    "Description": "Awarded to Tenno recruited by an ally of The Lotus.",
+    "Link": "17173 EMBLEM",
+    "Name": "17173 EMBLEM",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/CY17173MediaBadge",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Ghost Leader Emblem": {
+    "Type": "Emblem",
+    "Image": "LeaderBadgeGhostHolo.png",
+    "Description": "Designates the wearer as the highest ranking soldier amongst Ghost-Tier Clans this era.",
+    "Link": "Ghost Leader Emblem",
+    "Name": "Ghost Leader Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/LeaderBadgeGhostItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Conquera Emblem": {
+    "Type": "Emblem",
+    "Image": "QTCC2024Emblem.png",
+    "Description": "Wear this Emblem as a symbol of support in the Quest to Conquer Cancer.",
+    "Link": "Conquera Emblem",
+    "Name": "Conquera Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/QTCC2024EmblemItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Sisterhood Emblem": {
+    "Type": "Emblem",
+    "Image": "CorpusLichEmblem.png",
+    "Description": "An Emblem to honor the Sisters of Parvos.",
+    "Link": "Sisterhood Emblem",
+    "Name": "Sisterhood Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/CorpusLichBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Scarlet Spear Operations I Emblem": {
+    "Type": "Emblem",
+    "Image": "ScarletSpearMedallionsOperations1.png",
+    "Description": "Awarded for exemplary performance in Operation Scarlet Spear.",
+    "Link": "Scarlet Spear Operations I Emblem",
+    "Name": "Scarlet Spear Operations I Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ScarletSpear/ScarletSpearOperationIEmblem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Scarlet Spear Murex III Emblem": {
+    "Type": "Emblem",
+    "Image": "ScarletSpearMedallionsSpace3.png",
+    "Description": "Earned through Railjack raids against the Sentient Murex during Operation Scarlet Spear.",
+    "Link": "Scarlet Spear Murex III Emblem",
+    "Name": "Scarlet Spear Murex III Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ScarletSpear/ScarletSpearSpaceIIIEmblem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Saturn Six Emblem": {
+    "Type": "Emblem",
+    "Image": "WolfBadge_d.png",
+    "Description": "The mark of an outlaw, once locked away six leagues deep in the gas.",
+    "Link": "Saturn Six Emblem",
+    "Name": "Saturn Six Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/WolfBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Cryotic Front Emblem": {
+    "Type": "Emblem",
+    "Image": "ExcavationEventBadge.png",
+    "Description": "Awarded to Tenno for their contribution to the Cryotic Front event.",
+    "Link": "Cryotic Front Emblem",
+    "Name": "Cryotic Front Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ExcavationEvenetBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Jade Clem Emblem": {
+    "Type": "Emblem",
+    "Image": "XboneJadeClemEmblem.png",
+    "Description": "A next-generation emblem.",
+    "Link": "Jade Clem Emblem",
+    "Name": "Jade Clem Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/XBoneJadeClemBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "DUOWAN EMBLEM": {
+    "Type": "Emblem",
+    "Image": "CYDuowanBadge.png",
+    "Description": "Awarded to Tenno recruited by an ally of The Lotus.",
+    "Link": "DUOWAN EMBLEM",
+    "Name": "DUOWAN EMBLEM",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/CYDuowanMediaBadge",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Plains Of Eidolon Conservation Emblem": {
+    "Type": "Emblem",
+    "Image": "ConservationBadgeC.png",
+    "Description": "Awarded for the diligent preservation of the Kuakas, Condrocs and Mergoos of the Plains of Eidolon.",
+    "Link": "Plains Of Eidolon Conservation Emblem",
+    "Name": "Plains Of Eidolon Conservation Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ConservationBadgeCItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Zwillfah Emblem": {
+    "Type": "Emblem",
+    "Image": "ZawInspiredEmblemB.png",
+    "Description": "An insignia awarded to the Tenno Elite who proved themselves during the Tohtchi Variant.",
+    "Link": "Zwillfah Emblem",
+    "Name": "Zwillfah Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ZawVariantBadgeItemB",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Naramon Emblem": {
+    "Type": "Emblem",
+    "Image": "NaramonEmblem.png",
+    "Description": "A prestigious emblem for Tenno of the Naramon School.",
+    "Link": "Naramon Emblem",
+    "Name": "Naramon Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/Focus/NaramonBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Gradivus: Sacrifice Emblem": {
+    "Type": "Emblem",
+    "Image": "CorpusAggressionEventHolo.png",
+    "Description": "An insignia marking Tenno who aligned with the Corpus during the Gradivus Dilemma.",
+    "Link": "Gradivus: Sacrifice Emblem",
+    "Name": "Gradivus: Sacrifice Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/AggressionEventCorpusBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Scarlet Spear Operations III Emblem": {
+    "Type": "Emblem",
+    "Image": "ScarletSpearMedallionsOperations3.png",
+    "Description": "Awarded for exemplary performance in Operation Scarlet Spear.",
+    "Link": "Scarlet Spear Operations III Emblem",
+    "Name": "Scarlet Spear Operations III Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ScarletSpear/ScarletSpearOperationIIIEmblem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "TennoCon Emblem": {
+    "Type": "Emblem",
+    "Image": "TennoCon2016Badge.png",
+    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2016.",
+    "Link": "TennoCon Emblem",
+    "Name": "TennoCon Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/TennoCon2016BadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Vitus Emblem": {
+    "Type": "Emblem",
+    "Image": "EliteAlertIcon.png",
+    "Description": "A symbol of survival. Worn by those who have entered Arbitration and lived.",
+    "Link": "Vitus Emblem",
+    "Name": "Vitus Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/EliteAlertBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Emblem of the Hunt": {
+    "Type": "Emblem",
+    "Image": "InfestationEventBadge.png",
+    "Description": "An emblem awarded to the Tenno who hunted down Alad V.",
+    "Link": "Emblem of the Hunt",
+    "Name": "Emblem of the Hunt",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/InfestationEventEmblemItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Scarlet Spear Condrix III Emblem": {
+    "Type": "Emblem",
+    "Image": "ScarletSpearMedallionsGround3.png",
+    "Description": "Earned through ground assaults against the Sentient Condrix during Operation Scarlet Spear.",
+    "Link": "Scarlet Spear Condrix III Emblem",
+    "Name": "Scarlet Spear Condrix III Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ScarletSpear/ScarletSpearGroundIIIEmblem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Tenno Chronicler Emblem": {
+    "Type": "Emblem",
+    "Image": "WikiaBadge.png",
+    "Description": "A special emblem worn only by a select few Tenno.",
+    "Link": "Tenno Chronicler Emblem",
+    "Name": "Tenno Chronicler Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/WikiaBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Tenno Mentor Emblem": {
+    "Type": "Emblem",
+    "Image": "LotusGuideBadge.png",
+    "Description": "Awarded to Tenno who assist the Lotus by helping other Tenno.",
+    "Link": "Tenno Mentor Emblem",
+    "Name": "Tenno Mentor Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/LotusGuideBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vasero Sekhara": {
+    "Type": "Emblem",
+    "Image": "ZarimanEvolvingSekharaA.png",
+    "Description": "The Void left its mark on this evolving Sekhara during the Zariman Void Jump. Defeat enemies as the Operator with this Sekhara equipped and unlock two additional looks.",
+    "Link": "Vasero Sekhara",
+    "Name": "Vasero Sekhara",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ZarimanEvolvingSekharaBadgeItemA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Gold Skull Emblem": {
+    "Type": "Emblem",
+    "Image": "SkullBadgeGold.png",
+    "Description": "Awarded to Tenno who achieved a Gold Rank on the retired Global Leaderboards.",
+    "Link": "Gold Skull Emblem",
+    "Name": "Gold Skull Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/SkullBadgeGoldItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Lunar Renewal Snake Emblem": {
+    "Type": "Emblem",
+    "Image": "Cny2025SnakeEmblem.png",
+    "Description": "Celebrate the Lunar Renewal with the wisdom of the snake.",
+    "Link": "Lunar Renewal Snake Emblem",
+    "Name": "Lunar Renewal Snake Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/CNY2025SnakeEmblem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Frightening Flock Emblem": {
+    "Type": "Emblem",
+    "Image": "HalloweenEmblem2023Owl.png",
+    "Description": "A haunting emblem paying homage to Duviri.",
+    "Link": "Frightening Flock Emblem",
+    "Name": "Frightening Flock Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/Halloween2023OwlBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Specters of Liberty Emblem": {
+    "Type": "Emblem",
+    "Image": "RescueEventBadge.png",
+    "Description": "Awarded for the safe return of Red Veil Operatives during the Specters of Liberty operation.",
+    "Link": "Specters of Liberty Emblem",
+    "Name": "Specters of Liberty Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/RescueEventBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Solstice Conclave Emblem": {
+    "Type": "Emblem",
+    "Image": "HolidayDeathMatchBadge.png",
+    "Description": "A festive Conclave emblem.",
+    "Link": "Solstice Conclave Emblem",
+    "Name": "Solstice Conclave Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/HolidayDeathMatchBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Tethra's Doom Emblem": {
+    "Type": "Emblem",
+    "Image": "ShipyardsEventBadge.png",
+    "Description": "An insignia awarded to the Tenno who distinguished themselves during Tethra's Doom event.",
+    "Link": "Tethra's Doom Emblem",
+    "Name": "Tethra's Doom Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ShipyardsEventBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Community 10 Year Anniversary Emblem": {
+    "Type": "Emblem",
+    "Image": "Community10YearEmblem.png",
+    "Description": "An Emblem celebrating 10 years of Warframe, created by kedemel. ",
+    "Link": "Community 10 Year Anniversary Emblem",
+    "Name": "Community 10 Year Anniversary Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/Community10YearEmblemItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Glassmaker Emblem": {
+    "Type": "Emblem",
+    "Image": "GlassmakerEmblemItem.png",
+    "Description": "An emblem commemorating your grim descent into the madness of the Glassmaker.",
+    "Link": "Glassmaker Emblem",
+    "Name": "Glassmaker Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/GlassmakerEmblemItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Invati Sekhara": {
+    "Type": "Emblem",
+    "Image": "SevantiLegacyHaloBadgeItem.png",
+    "Description": "An emblem to honor all those who raised a blade in the mayhem of the Trials Missions.",
+    "Link": "Invati Sekhara",
+    "Name": "Invati Sekhara",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/SevantiLegacyHaloBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Arid Fear Emblem": {
+    "Type": "Emblem",
+    "Image": "CorpusVoidEventHolo.png",
+    "Description": "An insignia awarded to the Tenno who proved themselves during Arid Fear event.",
+    "Link": "Arid Fear Emblem",
+    "Name": "Arid Fear Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/CorpusVoidBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Tethra's Doom Quantum Emblem": {
+    "Type": "Emblem",
+    "Image": "TethraQuantumBadge.png",
+    "Description": "An insignia awarded to the Tenno who distinguished themselves during Tethra's Doom event.",
+    "Link": "Tethra's Doom Quantum Emblem",
+    "Name": "Tethra's Doom Quantum Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ShipyardsEventQuantumBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vallis Beast And Bird Emblem": {
+    "Type": "Emblem",
+    "Image": "ConservationBadgeB.png",
+    "Description": "Awarded for the diligent preservation of the Horrasques, Sawgaws and Stovers of the Orb Vallis.",
+    "Link": "Vallis Beast And Bird Emblem",
+    "Name": "Vallis Beast And Bird Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ConservationBadgeBItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Unairu Emblem": {
+    "Type": "Emblem",
+    "Image": "UnairuEmblem.png",
+    "Description": "A prestigious emblem for Tenno of the Unairu School.",
+    "Link": "Unairu Emblem",
+    "Name": "Unairu Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/Focus/UnairuBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Clan Emblem": {
+    "Type": "Emblem",
+    "Image": "ClanEmblemHolo.png",
+    "Description": "An insignia that projects a holographic image of the clan emblem. Requires your clan's Warlord to upload an image of the clan emblem.",
+    "Link": "Clan Emblem",
+    "Name": "Clan Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ClanEmblemItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Tubemen Of Regor Emblem": {
+    "Type": "Emblem",
+    "Image": "GrnSeaLabEventBadge.png",
+    "Description": "An emblem awarded the Tenno who fought to destroy Tyl Regor's cloning labs.",
+    "Link": "Tubemen Of Regor Emblem",
+    "Name": "Tubemen Of Regor Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/GrnSeaLabEventBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Gargoyle's Cry Emblem": {
+    "Type": "Emblem",
+    "Image": "CaviaEventEyeEmblem.png",
+    "Description": "Tenno who bear this insignia resisted the Murmur during Operation Gargoyle's Cry.",
+    "Link": "Gargoyle's Cry Emblem",
+    "Name": "Gargoyle's Cry Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/EntratiEventEmblemItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Bronze Skull Emblem": {
+    "Type": "Emblem",
+    "Image": "SkullBadgeBronze.png",
+    "Description": "Awarded to Tenno who achieved a Bronze Rank on the retired Global Leaderboards.",
+    "Link": "Bronze Skull Emblem",
+    "Name": "Bronze Skull Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/SkullBadgeBronzeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "The Pacifism Defect Emblem": {
+    "Type": "Emblem",
+    "Image": "DefectorRescueEventBadge.png",
+    "Description": "An insignia awarded to the Tenno who proved themselves during the Pacifism Defect operation.",
+    "Link": "The Pacifism Defect Emblem",
+    "Name": "The Pacifism Defect Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/DefectorRescueEventBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Lunar Renewal Rabbit Emblem": {
+    "Type": "Emblem",
+    "Image": "Cny2023RabbitEmblem.png",
+    "Description": "Celebrate Lunar Renewal with the kind heart of the gentle rabbit.",
+    "Link": "Lunar Renewal Rabbit Emblem",
+    "Name": "Lunar Renewal Rabbit Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/CNY2023EmblemItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Sling Stone Emblem": {
+    "Type": "Emblem",
+    "Image": "SlingStoneEmblemHolo.png",
+    "Description": "An insignia awarded to the Tenno Elite who proved themselves during Operation Sling-Stone.",
+    "Link": "Sling Stone Emblem",
+    "Name": "Sling Stone Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/SlingStoneEmblemItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Solaris Emblem": {
+    "Type": "Emblem",
+    "Image": "SolarisBadge.png",
+    "Description": "The emblem of the Solaris, the indebted workers of Fortuna. We all lift together.",
+    "Link": "Solaris Emblem",
+    "Name": "Solaris Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/SolarisBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vasero Apex Sekhara": {
+    "Type": "Emblem",
+    "Image": "ZarimanEvolvingSekharaC.png",
+    "Description": "The Void left its mark on this evolving Sekhara during the Zariman Void Jump.",
+    "Link": "Vasero Apex Sekhara",
+    "Name": "Vasero Apex Sekhara",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ZarimanEvolvingSekharaBadgeItemC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drip Squad 4 Life Emblem": {
+    "Type": "Emblem",
+    "Image": "1999CommunityARGEmblem.png",
+    "Description": "A badge of honor befitting one of the genuine truth-seekers. From another time, in another world...",
+    "Link": "Drip Squad 4 Life Emblem",
+    "Name": "Drip Squad 4 Life Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/1999CommunityARGBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Vasero Emergent Sekhara": {
+    "Type": "Emblem",
+    "Image": "ZarimanEvolvingSekharaB.png",
+    "Description": "The Void left its mark on this evolving Sekhara during the Zariman Void Jump. Defeat enemies as the Operator with this Sekhara equipped and unlock an additional look.",
+    "Link": "Vasero Emergent Sekhara",
+    "Name": "Vasero Emergent Sekhara",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ZarimanEvolvingSekharaBadgeItemB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "TennoGen Emblem": {
+    "Type": "Emblem",
+    "Image": "TennoGenEmblem.png",
+    "Description": "A special emblem worn only by a select few Tenno.",
+    "Link": "TennoGen Emblem",
+    "Name": "TennoGen Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/TennoGenBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Dropkick Drahk Emblem": {
+    "Type": "Emblem",
+    "Image": "DogDays2024Emblem.png",
+    "Description": "You know what The Drahk is cooking.",
+    "Link": "Dropkick Drahk Emblem",
+    "Name": "Dropkick Drahk Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/DogDaysKubrowBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Zenurik Emblem": {
+    "Type": "Emblem",
+    "Image": "ZenurikEmblem.png",
+    "Description": "A prestigious emblem for Tenno of the Zenurik School.",
+    "Link": "Zenurik Emblem",
+    "Name": "Zenurik Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/Focus/ZenurikBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Taunting Tamm Emblem": {
+    "Type": "Emblem",
+    "Image": "HalloweenEmblem2023Ram.png",
+    "Description": "A haunting emblem paying homage to Duviri.",
+    "Link": "Taunting Tamm Emblem",
+    "Name": "Taunting Tamm Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/Halloween2023RamBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Rathuum Emblem": {
+    "Type": "Emblem",
+    "Image": "KelaEventBadge.png",
+    "Description": "Awarded to those who stood against Kela De Thaym and her Executioners.",
+    "Link": "Rathuum Emblem",
+    "Name": "Rathuum Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/KelaEventBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Eyes of Blight Emblem": {
+    "Type": "Emblem",
+    "Image": "SlingStone2EmblemItem.png",
+    "Description": "An insignia awarded to the Tenno Elite who proved themselves during Operation Eyes of Blight.",
+    "Link": "Eyes of Blight Emblem",
+    "Name": "Eyes of Blight Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/SlingStone2EmblemItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Hostile Mergers Emblem": {
+    "Type": "Emblem",
+    "Image": "AmalgamEventBadge.png",
+    "Description": "Tenno bearing this insignia brought the fight to Alad V's monstrous Amalgam Project.",
+    "Link": "Hostile Mergers Emblem",
+    "Name": "Hostile Mergers Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/AmalgamEventBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Moon Leader Emblem": {
+    "Type": "Emblem",
+    "Image": "LeaderBadgeMoonHolo.png",
+    "Description": "Designates the wearer as the highest ranking soldier amongst Moon-Tier Clans this era.",
+    "Link": "Moon Leader Emblem",
+    "Name": "Moon Leader Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/LeaderBadgeMoonItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Tenno Translator Emblem": {
+    "Type": "Emblem",
+    "Image": "TranslatorEmblem.png",
+    "Description": "A special emblem worn only by a select few Tenno.",
+    "Link": "Tenno Translator Emblem",
+    "Name": "Tenno Translator Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/TranslatorBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Despair Emblem": {
+    "Type": "Emblem",
+    "Image": "StalkerEmblem.png",
+    "Description": "Who do you hunt, Shadow?",
+    "Link": "Despair Emblem",
+    "Name": "Despair Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/BaroStalkerBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Vazarin Emblem": {
+    "Type": "Emblem",
+    "Image": "VazarinEmblem.png",
+    "Description": "A prestigious emblem for Tenno of the Vazarin School.",
+    "Link": "Vazarin Emblem",
+    "Name": "Vazarin Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/Focus/VazarinBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Scarlet Spear Murex II Emblem": {
+    "Type": "Emblem",
+    "Image": "ScarletSpearMedallionsSpace2.png",
+    "Description": "Earned through Railjack raids against the Sentient Murex during Operation Scarlet Spear.",
+    "Link": "Scarlet Spear Murex II Emblem",
+    "Name": "Scarlet Spear Murex II Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ScarletSpear/ScarletSpearSpaceIIEmblem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Master's Emblem": {
+    "Type": "Emblem",
+    "Image": "FoundersBadgeMasterHolo.png",
+    "Description": "This emblem signifies the wearer as being a Master within the Tenno ranks.",
+    "Link": "Master's Emblem",
+    "Name": "Master's Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/FoundersBadgeMasterItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Tar Mutalist Moa Emblem": {
+    "Type": "Emblem",
+    "Image": "InfTacAlertSlowBombMoa.png",
+    "Description": "Awarded to Tenno who participated in the Mutalist Incursions event.",
+    "Link": "Tar Mutalist Moa Emblem",
+    "Name": "Tar Mutalist Moa Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/InfTacAlertSlowBombMoaAncientBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "COMMEMORATIVE EMBLEM": {
+    "Type": "Emblem",
+    "Image": "CommemorativeBadge.png",
+    "Description": "This emblem is awarded to participants of the Warframe Controlled Closed Beta.",
+    "Link": "COMMEMORATIVE EMBLEM",
+    "Name": "COMMEMORATIVE EMBLEM",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/CYCCBBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Dagath Emblem": {
+    "Type": "Emblem",
+    "Image": "HalloweenEmblem2024Dagath.png",
+    "Description": "An emblem worn in honor of the mirror that accuses.",
+    "Link": "Dagath Emblem",
+    "Name": "Dagath Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Halloween/Halloween2024DagathBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Operation Orphix Venom Emblem": {
+    "Type": "Emblem",
+    "Image": "EmblemMechEvent.png",
+    "Description": "An emblem for veterans of the Operation: Orphix Venom.",
+    "Link": "Operation Orphix Venom Emblem",
+    "Name": "Operation Orphix Venom Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/MechEventEmblemItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Survival Emblem": {
+    "Type": "Emblem",
+    "Image": "SurvivalEventHolo.png",
+    "Description": "An insignia awarded to the Tenno who proved themselves during Survival event.",
+    "Link": "Survival Emblem",
+    "Name": "Survival Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/SurvivalEventBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Pack Leader Emblem": {
+    "Type": "Emblem",
+    "Image": "BaroKubrowEmblem.png",
+    "Description": "An emblem representing your Kubrow allegiance.",
+    "Link": "Pack Leader Emblem",
+    "Name": "Pack Leader Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/BaroKubrowBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Scarlet Spear Condrix I Emblem": {
+    "Type": "Emblem",
+    "Image": "ScarletSpearMedallionsGround1.png",
+    "Description": "Earned through ground assaults against the Sentient Condrix during Operation Scarlet Spear.",
+    "Link": "Scarlet Spear Condrix I Emblem",
+    "Name": "Scarlet Spear Condrix I Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ScarletSpear/ScarletSpearGroundIEmblem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "The Index Emblem": {
+    "Type": "Emblem",
+    "Image": "IndexEventBadge.png",
+    "Description": "A memento of The Index.",
+    "Link": "The Index Emblem",
+    "Name": "The Index Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/IndexEventBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Armilla Emblem": {
+    "Type": "Emblem",
+    "Image": "PvPRepBadgeItem.png",
+    "Description": "The holographic interface on this emblem will update to display the rank achieved through exemplary dedication to Conclave Alerts.",
+    "Link": "Armilla Emblem",
+    "Name": "Armilla Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/PvpRepBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Silver Skull Emblem": {
+    "Type": "Emblem",
+    "Image": "SkullBadgeSilver.png",
+    "Description": "Awarded to Tenno who achieved a Silver Rank on the retired Global Leaderboards.",
+    "Link": "Silver Skull Emblem",
+    "Name": "Silver Skull Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/SkullBadgeSilverItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Scarlet Spear Operations II Emblem": {
+    "Type": "Emblem",
+    "Image": "ScarletSpearMedallionsOperations2.png",
+    "Description": "Awarded for exemplary performance in Operation Scarlet Spear.",
+    "Link": "Scarlet Spear Operations II Emblem",
+    "Name": "Scarlet Spear Operations II Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ScarletSpear/ScarletSpearOperationIIEmblem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Cicero Crisis Emblem": {
+    "Type": "Emblem",
+    "Image": "JungleEventBadge.png",
+    "Description": "An emblem awarded to all those who helped destroy the Grineer toxin during the Cicero Crisis.",
+    "Link": "Cicero Crisis Emblem",
+    "Name": "Cicero Crisis Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/JungleEventBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Shadow Leader Emblem": {
+    "Type": "Emblem",
+    "Image": "LeaderBadgeShadowHolo.png",
+    "Description": "Designates the wearer as the highest ranking soldier amongst Shadow-Tier Clans this era.",
+    "Link": "Shadow Leader Emblem",
+    "Name": "Shadow Leader Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/LeaderBadgeShadowItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Sevati Sekhara": {
+    "Type": "Emblem",
+    "Image": "PrototypeRaidHalo.png",
+    "Description": "Those who risked everything to exact justice for the Tenno are honored with this Sekhara.",
+    "Link": "Sevati Sekhara",
+    "Name": "Sevati Sekhara",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/SevantiHaloBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Madurai Emblem": {
+    "Type": "Emblem",
+    "Image": "MaduraiEmblem.png",
+    "Description": "A prestigious emblem for Tenno of the Madurai School.",
+    "Link": "Madurai Emblem",
+    "Name": "Madurai Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/Focus/MaduraiBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Verv Emblem": {
+    "Type": "Emblem",
+    "Image": "TwitchPromo2021Emblem.png",
+    "Description": "A compelling badge of honor for the Tenno.",
+    "Link": "Verv Emblem",
+    "Name": "Verv Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/TwitchPromo2021BadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Scarlet Spear Condrix II Emblem": {
+    "Type": "Emblem",
+    "Image": "ScarletSpearMedallionsGround2.png",
+    "Description": "Earned through ground assaults against the Sentient Condrix during Operation Scarlet Spear.",
+    "Link": "Scarlet Spear Condrix II Emblem",
+    "Name": "Scarlet Spear Condrix II Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ScarletSpear/ScarletSpearGroundIIEmblem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Storm Leader Emblem": {
+    "Type": "Emblem",
+    "Image": "LeaderBadgeStormHolo.png",
+    "Description": "Designates the wearer as the highest ranking soldier amongst Storm-Tier Clans this era.",
+    "Link": "Storm Leader Emblem",
+    "Name": "Storm Leader Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/LeaderBadgeStormItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Pungchai Emblem": {
+    "Type": "Emblem",
+    "Image": "ZawInspiredEmblemA.png",
+    "Description": "An insignia awarded to the Tenno Elite who proved themselves during the Tohtchi Variant.",
+    "Link": "Pungchai Emblem",
+    "Name": "Pungchai Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ZawVariantBadgeItemA",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Hunter's Emblem": {
+    "Type": "Emblem",
+    "Image": "FoundersBadgeHunterHolo.png",
+    "Description": "This emblem signifies the wearer as being a Hunter within the Tenno ranks.",
+    "Link": "Hunter's Emblem",
+    "Name": "Hunter's Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/FoundersBadgeHunterItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "President King Corgi Emblem": {
+    "Type": "Emblem",
+    "Image": "CaliberChicksCorgi.png",
+    "Description": "President King Corgi acknowledges your unending dedication to thwarting Anna Ki and the G.O.B.",
+    "Link": "President King Corgi Emblem",
+    "Name": "President King Corgi Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/CaliberChicksCorgiEmblemItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Disciple's Emblem": {
+    "Type": "Emblem",
+    "Image": "FoundersBadgeDiscipleHolo.png",
+    "Description": "This emblem signifies the wearer as being a Disciple within the Tenno ranks.",
+    "Link": "Disciple's Emblem",
+    "Name": "Disciple's Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/FoundersBadgeDiscipleItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Lunar Renewal Dragon Emblem": {
+    "Type": "Emblem",
+    "Image": "Cny2024DragonEmblem.png",
+    "Description": "Celebrate the Lunar Renewal with the honor of the dragon.",
+    "Link": "Lunar Renewal Dragon Emblem",
+    "Name": "Lunar Renewal Dragon Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/Dragon2024BadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Swarm Mutalist Moa Emblem": {
+    "Type": "Emblem",
+    "Image": "InfTacAlertNaniteMoa.png",
+    "Description": "Awarded to Tenno who participated in the Mutalist Incursions event.",
+    "Link": "Swarm Mutalist Moa Emblem",
+    "Name": "Swarm Mutalist Moa Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/InfTacAlertNaniteMoaAncientBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Plague Star Emblem": {
+    "Type": "Emblem",
+    "Image": "PlagueStarEventBadge.png",
+    "Description": "To commemorate Tenno who helped defend Cetus from the Infested scourge.",
+    "Link": "Plague Star Emblem",
+    "Name": "Plague Star Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/PlagueStarBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Glaring Emblem": {
+    "Type": "Emblem",
+    "Image": "BaroKavatEmblem.png",
+    "Description": "An emblem representing your Kavat allegiance.",
+    "Link": "Glaring Emblem",
+    "Name": "Glaring Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/BaroKavatBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Stratos Emblem": {
+    "Type": "Emblem",
+    "Image": "BountyHunterBadge.png",
+    "Description": "The holographic interface on this emblem will update to display the rank achieved through exemplary dedication to Tactical Alerts.",
+    "Link": "Stratos Emblem",
+    "Name": "Stratos Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/BountyHunterBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Orb Vallis Conservation Emblem": {
+    "Type": "Emblem",
+    "Image": "ConservationBadge.png",
+    "Description": "A symbol of your dedication to the safety and security of all creatures on the Orb Vallis.",
+    "Link": "Orb Vallis Conservation Emblem",
+    "Name": "Orb Vallis Conservation Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ConservationBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Buried Debts Emblem": {
+    "Type": "Emblem",
+    "Image": "OrbBadgeItem.png",
+    "Description": "The mark of one who works to preserve Fortuna from the ravages of thermia fractures.",
+    "Link": "Buried Debts Emblem",
+    "Name": "Buried Debts Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/OrbBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Old Blood Emblem": {
+    "Type": "Emblem",
+    "Image": "LichKillerEmblem.png",
+    "Description": "The emblem of one who has bested an inhuman adversary born of the Old Blood: a Kuva Lich.",
+    "Link": "Old Blood Emblem",
+    "Name": "Old Blood Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/LichKillerBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Okina Emblem": {
+    "Type": "Emblem",
+    "Image": "OkinaEmblem.png",
+    "Description": "An emblem honoring the deadly Tenno Okina weapon.",
+    "Link": "Okina Emblem",
+    "Name": "Okina Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/PS5OkinaBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Prisma Lotus Emblem": {
+    "Type": "Emblem",
+    "Image": "PrismaLotusEmblem.png",
+    "Description": "From Baro Ki'Teer comes this stylish reimagining of the Lotus' signature symbol.",
+    "Link": "Prisma Lotus Emblem",
+    "Name": "Prisma Lotus Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/PrismaLotusEmblem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Necraseal Emblem": {
+    "Type": "Emblem",
+    "Image": "TwitchNecraloidEmblem.png",
+    "Description": "Some things are best left unseen.",
+    "Link": "Necraseal Emblem",
+    "Name": "Necraseal Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/TwitchNecraloidBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Gradivus: Loyalty Emblem": {
+    "Type": "Emblem",
+    "Image": "GrineerAggressionEventHolo.png",
+    "Description": "An insignia marking Tenno who aligned with the Grineer during the Gradivus Dilemma.",
+    "Link": "Gradivus: Loyalty Emblem",
+    "Name": "Gradivus: Loyalty Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/AggressionEventGrineerBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Mutalist Incursions Emblem": {
+    "Type": "Emblem",
+    "Image": "MutalistIncursionsBadge.png",
+    "Description": "Awarded to Tenno who participated in the Mutalist Incursions event.",
+    "Link": "Mutalist Incursions Emblem",
+    "Name": "Mutalist Incursions Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/MutalistIncursionsBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Mountain Leader Emblem": {
+    "Type": "Emblem",
+    "Image": "LeaderBadgeMountainHolo.png",
+    "Description": "Designates the wearer as the highest ranking soldier amongst Mountain-Tier Clans this era.",
+    "Link": "Mountain Leader Emblem",
+    "Name": "Mountain Leader Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/LeaderBadgeMountainItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Breeding Grounds Emblem": {
+    "Type": "Emblem",
+    "Image": "HiveSabotageEventBadge.png",
+    "Description": "Awarded to Tenno for the contributions they made during the Breeding Grounds event.",
+    "Link": "Breeding Grounds Emblem",
+    "Name": "Breeding Grounds Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/HiveSabotageEventBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Boiler Emblem": {
+    "Type": "Emblem",
+    "Image": "InfTacAlertPussAncient.png",
+    "Description": "Awarded to Tenno who participated in the Mutalist Incursions event.",
+    "Link": "Boiler Emblem",
+    "Name": "Boiler Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/InfTacAlertPussAncientBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ten Year Anniversary Emblem": {
+    "Type": "Emblem",
+    "Image": "TenYearAnniversaryBadge.png",
+    "Description": "An emblem to commemorate ten years of Warframe.",
+    "Link": "Ten Year Anniversary Emblem",
+    "Name": "Ten Year Anniversary Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/TenYearAnniversaryBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Scarlet Spear Murex I Emblem": {
+    "Type": "Emblem",
+    "Image": "ScarletSpearMedallionsSpace1.png",
+    "Description": "Earned through Railjack raids against the Sentient Murex during Operation Scarlet Spear.",
+    "Link": "Scarlet Spear Murex I Emblem",
+    "Name": "Scarlet Spear Murex I Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ScarletSpear/ScarletSpearSpaceIEmblem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Gate Crash Emblem": {
+    "Type": "Emblem",
+    "Image": "OrokinSabotageBadge.png",
+    "Description": "Awarded to Tenno for their contribution during Operation Gate Crash.",
+    "Link": "Gate Crash Emblem",
+    "Name": "Gate Crash Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/OrokinSabotageBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Erznung Emblem": {
+    "Type": "Emblem",
+    "Image": "ZawInspiredEmblemC.png",
+    "Description": "An insignia awarded to the Tenno Elite who proved themselves during the Tohtchi Variant.",
+    "Link": "Erznung Emblem",
+    "Name": "Erznung Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ZawVariantBadgeItemC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Ki'Teer Sekhara": {
+    "Type": "Emblem",
+    "Image": "BaroBadge.png",
+    "Description": "Stand apart from the crowd with this Ki'Teer original.",
+    "Link": "Ki'Teer Sekhara",
+    "Name": "Ki'Teer Sekhara",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/BaroQuantumBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kuria Emblem": {
+    "Type": "Emblem",
+    "Image": "OrokittyBadge.png",
+    "Description": "A mysterious emblem of unknown origin.",
+    "Link": "Kuria Emblem",
+    "Name": "Kuria Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/OrokittyBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Jordas Sekhara": {
+    "Type": "Emblem",
+    "Image": "GolemRaidBadge.png",
+    "Description": "A fragment of the Jordas Golem worn as a trophy by those who defeated him.",
+    "Link": "Jordas Sekhara",
+    "Name": "Jordas Sekhara",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/GolemRaidBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "INFINITY EMBLEM": {
+    "Type": "Emblem",
+    "Image": "CYOpenBetaBadge.png",
+    "Description": "This emblem is awarded to the most dedicated of Tenno during the Warframe Open Beta.",
+    "Link": "INFINITY EMBLEM",
+    "Name": "INFINITY EMBLEM",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/CYOBBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Nightwave Emblem": {
+    "Type": "Emblem",
+    "Image": "RadioLegionEmblem.png",
+    "Description": "For the Sleepless, the Dreamers.",
+    "Link": "Nightwave Emblem",
+    "Name": "Nightwave Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/RadioLegionBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Acolyte Emblem": {
+    "Type": "Emblem",
+    "Image": "ProjectSinisterBadge.png",
+    "Description": "An insignia dropped by an Acolyte of the Stalker.",
+    "Link": "Acolyte Emblem",
+    "Name": "Acolyte Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ProjectSinisterBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Aseron Sekhara": {
+    "Type": "Emblem",
+    "Image": "NightmareRaidSekhara.png",
+    "Description": "Created as a meditation on the ever expanding ribbon of energy that runs through the universe.",
+    "Link": "Aseron Sekhara",
+    "Name": "Aseron Sekhara",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/NightmareSevantiHaloBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Grand Master Emblem": {
+    "Type": "Emblem",
+    "Image": "FoundersBadgeGrandMasterHolo.png",
+    "Description": "This emblem signifies the wearer as being a Grand Master within the Tenno ranks.",
+    "Link": "Grand Master Emblem",
+    "Name": "Grand Master Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/FoundersBadgeGrandMasterItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Gauvan Umbra Sekhara": {
+    "Type": "Emblem",
+    "Image": "UmbraBadge.png",
+    "Description": "A symbol held sacred by a shadowy order of Tenno.",
+    "Link": "Gauvan Umbra Sekhara",
+    "Name": "Gauvan Umbra Sekhara",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ExcaliburUmbraBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Lunar Renewal Tiger Emblem": {
+    "Type": "Emblem",
+    "Image": "Cny2022TigerEmblem.png",
+    "Description": "Celebrate the Lunar Renewal with the strength of the tiger.",
+    "Link": "Lunar Renewal Tiger Emblem",
+    "Name": "Lunar Renewal Tiger Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/CNY2022EmblemItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Brood Mother Emblem": {
+    "Type": "Emblem",
+    "Image": "InfTacAlertDiseasedAncient.png",
+    "Description": "Awarded to Tenno who participated in the Mutalist Incursions event.",
+    "Link": "Brood Mother Emblem",
+    "Name": "Brood Mother Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/InfTacAlertDiseasedAncientBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "False Profit Emblem": {
+    "Type": "Emblem",
+    "Image": "FalseProfitEventBadge.png",
+    "Description": "An emblem awarded to all those who helped foil the machinations of Nef Anyo.",
+    "Link": "False Profit Emblem",
+    "Name": "False Profit Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/FalseProfitEventBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Lunar Renewal Ox Emblem": {
+    "Type": "Emblem",
+    "Image": "Cny2021OxEmblem.png",
+    "Description": "Celebrate the New Lunar Year with the power of the noble ox.",
+    "Link": "Lunar Renewal Ox Emblem",
+    "Name": "Lunar Renewal Ox Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/CNY2021EmblemItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Emissary Emblem": {
+    "Type": "Emblem",
+    "Image": "EmissarySigil_d.png",
+    "Description": "Display the mark of Arlo’s devoted with this Emblem.",
+    "Link": "Emissary Emblem",
+    "Name": "Emissary Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/NoraSeasonTwoBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Tiberon Obsidian Emblem": {
+    "Type": "Emblem",
+    "Image": "DrakeRifleEmblem.png",
+    "Description": "An insignia worn by proficient Tenno sharpshooters.",
+    "Link": "Tiberon Obsidian Emblem",
+    "Name": "Tiberon Obsidian Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/DrakeRifleBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "DEIMOS CONSERVATION EMBLEM": {
+    "Type": "Emblem",
+    "Image": "ConservationBadgeDeimos.png",
+    "Description": "A symbol of your dedication to the safety of all creatures on Deimos.",
+    "Link": "DEIMOS CONSERVATION EMBLEM",
+    "Name": "DEIMOS CONSERVATION EMBLEM",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ConservationBadgeDeimosItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Alliance Emblem": {
+    "Type": "Emblem",
+    "Image": "ClanEmblemHolo.png",
+    "Description": "An insignia that projects a holographic image of your alliance emblem. Requires a Warlord in the clan that created the alliance to upload an image of the alliance emblem.",
+    "Link": "Alliance Emblem",
+    "Name": "Alliance Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/AllianceEmblemItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "PLAY EMBLEM": {
+    "Type": "Emblem",
+    "Image": "CYPlayBadge.png",
+    "Description": "Symbolizes the camaraderie between Tenno.",
+    "Link": "PLAY EMBLEM",
+    "Name": "PLAY EMBLEM",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/CYPlayBadgeItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Dog Days Emblem": {
+    "Type": "Emblem",
+    "Image": "SplashEventIcon.png",
+    "Description": "Beat the heat with this unique emblem.",
+    "Link": "Dog Days Emblem",
+    "Name": "Dog Days Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/DogDaysBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Belly of the Beast Emblem": {
+    "Type": "Emblem",
+    "Image": "JadeEmblem.png",
+    "Description": "An emblem available to clan members who kept Jade’s Volatile Motes out of the hands of Parvos Granum in Operation: Belly of the Beast.",
+    "Link": "Belly of the Beast Emblem",
+    "Name": "Belly of the Beast Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/JadeShadowsEventBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Lang/data/iana%20suppressed%20scripts",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:39:15.775Z"
+  },
+  "_comments": "-- File-Date: 2025-01-21",
+  "Laoo": [
+    "lo"
+  ],
+  "Geor": [
+    "ka"
+  ],
+  "Taml": [
+    "ta"
+  ],
+  "Tibt": [
+    "dz"
+  ],
+  "Thai": [
+    "th"
+  ],
+  "Ethi": [
+    "am",
+    "ti"
+  ],
+  "Thaa": [
+    "dv"
+  ],
+  "Blis": [
+    "zbl"
+  ],
+  "Telu": [
+    "te"
+  ],
+  "Beng": [
+    "as",
+    "bn"
+  ],
+  "Gujr": [
+    "gu"
+  ],
+  "Mymr": [
+    "my"
+  ],
+  "Armn": [
+    "hy"
+  ],
+  "Deva": [
+    "hi",
+    "mr",
+    "ne",
+    "kok",
+    "mai"
+  ],
+  "Orya": [
+    "or"
+  ],
+  "Cyrl": [
+    "ab",
+    "be",
+    "bg",
+    "kk",
+    "mk",
+    "ru",
+    "uk"
+  ],
+  "Hebr": [
+    "he",
+    "iw",
+    "yi"
+  ],
+  "Nkoo": [
+    "nqo"
+  ],
+  "Sinh": [
+    "si"
+  ],
+  "Jpan": [
+    "ja"
+  ],
+  "Mlym": [
+    "ml"
+  ],
+  "Khmr": [
+    "km"
+  ],
+  "Kore": [
+    "ko"
+  ],
+  "Knda": [
+    "kn"
+  ],
+  "Latn": [
+    "af",
+    "ay",
+    "bs",
+    "ca",
+    "ch",
+    "cs",
+    "cy",
+    "da",
+    "de",
+    "en",
+    "eo",
+    "es",
+    "et",
+    "eu",
+    "fi",
+    "fj",
+    "fo",
+    "fr",
+    "fy",
+    "ga",
+    "gl",
+    "gn",
+    "gv",
+    "hr",
+    "ht",
+    "hu",
+    "id",
+    "in",
+    "is",
+    "it",
+    "kl",
+    "la",
+    "lb",
+    "ln",
+    "lt",
+    "lv",
+    "mg",
+    "mh",
+    "mo",
+    "ms",
+    "mt",
+    "na",
+    "nb",
+    "nd",
+    "nl",
+    "nn",
+    "no",
+    "nr",
+    "ny",
+    "om",
+    "pl",
+    "pt",
+    "qu",
+    "rm",
+    "rn",
+    "ro",
+    "rw",
+    "sg",
+    "sk",
+    "sl",
+    "sm",
+    "so",
+    "sq",
+    "ss",
+    "st",
+    "sv",
+    "sw",
+    "tl",
+    "tn",
+    "to",
+    "tr",
+    "ts",
+    "ve",
+    "vi",
+    "xh",
+    "zu",
+    "dsb",
+    "frr",
+    "frs",
+    "gsw",
+    "hsb",
+    "men",
+    "nds",
+    "niu",
+    "nso",
+    "tem",
+    "tkl",
+    "tmh",
+    "tpi",
+    "tvl"
+  ],
+  "Grek": [
+    "el"
+  ],
+  "Arab": [
+    "ar",
+    "fa",
+    "ps",
+    "ur"
+  ],
+  "Guru": [
+    "pa"
+  ]
+}

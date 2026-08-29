@@ -1,0 +1,362 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:GuaranteedRewards/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:37:52.131Z"
+  },
+  "_comments": "",
+  "Arid Fear": {
+    "Type": "Event",
+    "Rewards": [
+      [
+        "Shred",
+        "Mod"
+      ],
+      [
+        "Vigor",
+        "Mod"
+      ],
+      [
+        "Lethal Torrent",
+        "Mod"
+      ]
+    ],
+    "Name": "Arid Fear",
+    "Link": "Operation: Arid Fear"
+  },
+  "Mastery Rank 30": {
+    "Type": "Mastery Rank",
+    "Rewards": [
+      [
+        "Umbra Forma",
+        "Resource",
+        3
+      ]
+    ],
+    "Name": "Mastery Rank 30",
+    "Link": "Mastery Rank"
+  },
+  "Breeding Grounds": {
+    "Type": "Event",
+    "Rewards": [
+      [
+        "Thermite Rounds",
+        "Mod"
+      ],
+      [
+        "Scattering Inferno",
+        "Mod"
+      ],
+      [
+        "Scorch",
+        "Mod"
+      ],
+      [
+        "Volcanic Edge",
+        "Mod"
+      ]
+    ],
+    "Name": "Breeding Grounds",
+    "Link": "Operation: Breeding Grounds"
+  },
+  "Daily Tribute": {
+    "Type": "Daily Tribute",
+    "Rewards": [
+      [
+        "Primed Fury",
+        "Mod"
+      ],
+      [
+        "Primed Vigor",
+        "Mod"
+      ],
+      [
+        "Primed Shred",
+        "Mod"
+      ],
+      [
+        "Primed Sure Footed",
+        "Mod"
+      ],
+      [
+        "Azima",
+        "Weapon"
+      ],
+      [
+        "Sigma & Octantis",
+        "Weapon"
+      ],
+      [
+        "Zenistar",
+        "Weapon"
+      ],
+      [
+        "Zenith",
+        "Weapon"
+      ]
+    ],
+    "Name": "Daily Tribute",
+    "Link": "Daily Tribute"
+  },
+  "Sling-Stone": {
+    "Type": "Event",
+    "Rewards": [
+      [
+        "Rifle Ammo Mutation",
+        "Mod"
+      ],
+      [
+        "Sniper Ammo Mutation",
+        "Mod"
+      ],
+      [
+        "Shotgun Ammo Mutation",
+        "Mod"
+      ],
+      [
+        "Pistol Ammo Mutation",
+        "Mod"
+      ],
+      [
+        "Arrow Mutation",
+        "Mod"
+      ]
+    ],
+    "Name": "Sling-Stone",
+    "Link": "Operation Sling-Stone"
+  },
+  "Tethra's Doom": {
+    "Type": "Event",
+    "Rewards": [
+      [
+        "High Voltage",
+        "Mod"
+      ],
+      [
+        "Shell Shock",
+        "Mod"
+      ],
+      [
+        "Jolt",
+        "Mod"
+      ],
+      [
+        "Voltaic Strike",
+        "Mod"
+      ]
+    ],
+    "Name": "Tethra's Doom",
+    "Link": "Tethra's Doom"
+  },
+  "False Profit": {
+    "Type": "Event",
+    "Rewards": [
+      [
+        "Crash Course",
+        "Mod"
+      ],
+      [
+        "Full Contact",
+        "Mod"
+      ],
+      [
+        "Pummel",
+        "Mod"
+      ],
+      [
+        "Collision Force",
+        "Mod"
+      ]
+    ],
+    "Name": "False Profit",
+    "Link": "Operation: False Profit"
+  },
+  "Gate Crash": {
+    "Type": "Event",
+    "Rewards": [
+      [
+        "Fanged Fusillade",
+        "Mod"
+      ],
+      [
+        "Sweeping Serration",
+        "Mod"
+      ],
+      [
+        "Maim",
+        "Mod"
+      ],
+      [
+        "Buzz Kill",
+        "Mod"
+      ]
+    ],
+    "Name": "Gate Crash",
+    "Link": "Operation: Gate Crash"
+  },
+  "Eyes of Blight": {
+    "Type": "Event",
+    "Rewards": [
+      [
+        "Magma Chamber",
+        "Mod"
+      ],
+      [
+        "Searing Steel",
+        "Mod"
+      ]
+    ],
+    "Name": "Eyes of Blight",
+    "Link": "Operation: Eyes of Blight"
+  },
+  "Daily Tribute Day 5": {
+    "Type": "Daily Tribute",
+    "Rewards": [
+      [
+        "Endo",
+        "Mod",
+        1000
+      ],
+      [
+        "Credits",
+        "Credits",
+        25000
+      ]
+    ],
+    "Name": "Daily Tribute Day 5",
+    "Link": "Daily Tribute"
+  },
+  "Profit-Taker Phase 3": {
+    "Type": "First Completion",
+    "Rewards": [
+      [
+        "Gravimag",
+        "Resource"
+      ]
+    ],
+    "Name": "Profit-Taker Phase 3",
+    "Link": "Heist"
+  },
+  "Buried Debts": {
+    "Type": "Event",
+    "Rewards": [
+      [
+        "Amalgam Shotgun Barrage",
+        "Mod"
+      ],
+      [
+        "Amalgam Serration",
+        "Mod"
+      ],
+      [
+        "Amalgam Barrel Diffusion",
+        "Mod"
+      ],
+      [
+        "Amalgam Organ Shatter",
+        "Mod"
+      ]
+    ],
+    "Name": "Buried Debts",
+    "Link": "Operation: Buried Debts"
+  },
+  "Legendary Ranks": {
+    "Type": "Mastery Rank",
+    "Rewards": [
+      [
+        "Legendary Core",
+        "Mod",
+        1
+      ]
+    ],
+    "Name": "Legendary Ranks",
+    "Link": "Mastery Rank"
+  },
+  "Cryotic Front": {
+    "Type": "Event",
+    "Rewards": [
+      [
+        "Rime Rounds",
+        "Mod"
+      ],
+      [
+        "Frigid Blast",
+        "Mod"
+      ],
+      [
+        "Frostbite",
+        "Mod"
+      ],
+      [
+        "Vicious Frost",
+        "Mod"
+      ]
+    ],
+    "Name": "Cryotic Front",
+    "Link": "Operation: Cryotic Front"
+  },
+  "Mutalist Incursions": {
+    "Type": "Event",
+    "Rewards": [
+      [
+        "Piercing Caliber",
+        "Mod"
+      ],
+      [
+        "Breach Loader",
+        "Mod"
+      ],
+      [
+        "Bore",
+        "Mod"
+      ],
+      [
+        "Auger Strike",
+        "Mod"
+      ],
+      [
+        "High Voltage",
+        "Mod"
+      ],
+      [
+        "Shell Shock",
+        "Mod"
+      ],
+      [
+        "Jolt",
+        "Mod"
+      ],
+      [
+        "Voltaic Strike",
+        "Mod"
+      ]
+    ],
+    "Name": "Mutalist Incursions",
+    "Link": "Operation: Mutalist Incursions"
+  },
+  "The Cicero Crisis": {
+    "Type": "Event",
+    "Rewards": [
+      [
+        "Malignant Force",
+        "Mod"
+      ],
+      [
+        "Toxic Barrage",
+        "Mod"
+      ],
+      [
+        "Pistol Pestilence",
+        "Mod"
+      ],
+      [
+        "Virulent Scourge",
+        "Mod"
+      ]
+    ],
+    "Name": "The Cicero Crisis",
+    "Link": "The Cicero Crisis"
+  }
+}

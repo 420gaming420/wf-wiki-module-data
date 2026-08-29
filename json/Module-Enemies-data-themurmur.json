@@ -1,0 +1,890 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Enemies/data/themurmur",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:36:34.241Z"
+  },
+  "_comments": "\t\t\t--Multis = { \"\" },\n\t\t\t--SteelPathHealthBonus = 2000, --non-functional\n\t\t\t--Multis = { \"?\" },\n\t\t\t--Description = \"?\",\n\t\t\t--Planets = { \"\" },\n\t\t\t--TileSets = { \"Cambion Drift\" },\n\t\t\t-- EximusDefault = false,\n\t\t\t-- EmpoweredDefault = false,",
+  "Deimos Rogue Bonewidow": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "",
+      "Link": "Rogue Bonewidow#Deimos",
+      "Missions": [
+        "Cambion Drift"
+      ],
+      "Type": "",
+      "Scans": 3,
+      "Image": "Bonewidow.png",
+      "Name": "Deimos Rogue Bonewidow",
+      "Faction": "The Murmur",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        "Pugil",
+        "Morgha",
+        "Ironbride"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Orokin/Entrati/EntratiTech/Thanotech/ThanoTechEnemyAgent",
+      "Introduced": "35.5"
+    },
+    "Stats": {
+      "Multis": [
+        ""
+      ],
+      "Health": 1880,
+      "BaseLevel": 1,
+      "Armor": 500,
+      "Affinity": 50
+    }
+  },
+  "Rogue Bonewidow": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Description": "",
+      "Link": "Rogue Bonewidow",
+      "Scans": 3,
+      "Type": "",
+      "Image": "Bonewidow.png",
+      "Name": "Rogue Bonewidow",
+      "Faction": "The Murmur",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        "Pugil",
+        "Morgha",
+        "Ironbride"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/NecramechBonewindow/NecramechBonewidowAgent",
+      "Introduced": "35.5"
+    },
+    "Stats": {
+      "Health": 7500,
+      "BaseLevel": 1,
+      "Armor": 500,
+      "EximusHealth": 7500,
+      "Affinity": 50
+    }
+  },
+  "Hurling Fragment": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Description": "Clings to the cliffs and walls, hurling masonry on anything unfortunate enough to be traveling below.",
+      "Link": "Hurling Fragment",
+      "Scans": 40,
+      "Type": "Ranged",
+      "Image": "HurlingFragment.png",
+      "Name": "Hurling Fragment",
+      "Faction": "The Murmur",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        "Miniture MitW Faces"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/Octopede/Arm/ArmTurret/MITWOctopedeArmTurretAgent",
+      "Introduced": "35"
+    },
+    "Stats": {
+      "BaseLevel": 1,
+      "Health": 250,
+      "Affinity": 25
+    }
+  },
+  "The Hollow Vein": {
+    "General": {
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Description": "",
+      "Link": "The Hollow Vein",
+      "Scans": 3,
+      "Type": "Heavy Ranged",
+      "Image": "TheHollowVein.png",
+      "Name": "The Hollow Vein",
+      "Faction": "The Murmur",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/Slinky/MITWSlinkyAgent",
+      "Introduced": "35"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.5x",
+        "Energy Emissions (elbows): 1.5x, +1 Crit Tier"
+      ],
+      "Health": 7500,
+      "BaseLevel": 1,
+      "EximusHealth": 7500,
+      "Affinity": 250
+    }
+  },
+  "Scathing Whisper": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Description": "Looking too deeply into Albrecht's lost grimoires may cause a void-born duplicate to appear, seething with contempt for the one who let it loose and hurling its wrath from afar. It cannot be banished until the book that gave rise to it is destroyed.",
+      "Link": "Scathing Whisper",
+      "Name": "Scathing Whisper",
+      "Type": "Field Boss",
+      "Scans": 1,
+      "Image": "DoppelgangerAvatar.png",
+      "Abilities": [
+        "Virulence",
+        "Larva"
+      ],
+      "Faction": "The Murmur",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Entrati/Doppelganger/EntratiDoppelgangerRangedAgent",
+      "Introduced": "35"
+    },
+    "Stats": {
+      "BaseLevel": 1,
+      "Health": 25000,
+      "Affinity": 1500
+    }
+  },
+  "The Unseeing Herald": {
+    "General": {
+      "Type": "Support",
+      "Description": "The Unseeing Herald proclaims the will of the Indifference, uttering its twisted desires in Voidtongue. Who among us have heard its whispers?",
+      "Link": "The Unseeing Herald",
+      "Missions": [
+        "Isleweaver"
+      ],
+      "Image": "TheUnseeingHerald.png",
+      "Name": "The Unseeing Herald",
+      "Faction": "The Murmur",
+      "Scans": 3,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/Murmur/MITWMurmurAgent",
+      "Introduced": "39"
+    },
+    "Stats": {
+      "Health": 2000,
+      "BaseLevel": 1,
+      "EximusHealth": 2000,
+      "SpawnLevel": 40,
+      "Affinity": 250
+    }
+  },
+  "Rogue Voidrig (Descendia)": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "",
+      "Description": "",
+      "Link": "Rogue Voidrig#Descendia",
+      "Missions": [
+        "Descendia"
+      ],
+      "Image": "Voidrig.png",
+      "Name": "Rogue Voidrig (Descendia)",
+      "Faction": "The Murmur",
+      "Scans": 3,
+      "Weapons": [
+        "Pugil",
+        "Mausolon"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/NecramechVoidRig/CoHNecramechVoidRigAgent",
+      "Introduced": "41"
+    },
+    "Stats": {
+      "Armor": 75,
+      "BaseLevel": 1,
+      "Health": 1000,
+      "Affinity": 500
+    }
+  },
+  "Death Scuttler": {
+    "General": {
+      "Type": "",
+      "Description": "These aggressive and explosive Scuttlers have one purpose to fulfil in their short lives; protect their mother.",
+      "Link": "Death Scuttler",
+      "Missions": [
+        "Isleweaver"
+      ],
+      "Image": "DeathScuttler.png",
+      "Name": "Death Scuttler",
+      "Faction": "The Murmur",
+      "Scans": 5,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingSuicideAgent",
+      "Introduced": "39"
+    },
+    "Stats": {
+      "SpawnLevel": 1,
+      "BaseLevel": 1,
+      "Health": 1250,
+      "Affinity": 25
+    }
+  },
+  "Elementa Arcocanid": {
+    "General": {
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Description": "",
+      "Link": "Rogue Arcocanid#Elementa",
+      "Missions": [
+        "Alchemy"
+      ],
+      "Type": "Melee",
+      "Scans": 20,
+      "Image": "RogueArcocanid.png",
+      "Name": "Elementa Arcocanid",
+      "Faction": "The Murmur",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/NecramechMelee/AlchemyNecramechMeleeAgent",
+      "Introduced": "35"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.5x"
+      ],
+      "Health": 80,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "EximusHealth": 80,
+      "Affinity": 50
+    }
+  },
+  "The Severed Warden": {
+    "General": {
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Description": "",
+      "Link": "The Severed Warden",
+      "Scans": 3,
+      "Type": "Support",
+      "Image": "TheSeveredWarden.png",
+      "Name": "The Severed Warden",
+      "Faction": "The Murmur",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/Triangle/MITWSupportTriangleAgent",
+      "Introduced": "35"
+    },
+    "Stats": {
+      "Multis": [
+        "Body: 0x",
+        "Hands: 1.0x (Incarnon Compatible)"
+      ],
+      "Health": 5000,
+      "BaseLevel": 1,
+      "EximusHealth": 5000,
+      "Affinity": 250
+    }
+  },
+  "Rogue Bonewidow (Descendia)": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "",
+      "Description": "",
+      "Link": "Rogue Bonewidow#Descendia",
+      "Missions": [
+        "Descendia"
+      ],
+      "Image": "Bonewidow.png",
+      "Name": "Rogue Bonewidow (Descendia)",
+      "Faction": "The Murmur",
+      "Scans": 3,
+      "Weapons": [
+        "Pugil",
+        "Morgha"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/NecramechBonewindow/CoHNecramechBonewidowAgent",
+      "Introduced": "41"
+    },
+    "Stats": {
+      "Armor": 125,
+      "BaseLevel": 1,
+      "Health": 1880,
+      "Affinity": 500
+    }
+  },
+  "Shuffling Fragment": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Description": "In its calcified chaos, the Indifference is disjointed even from itself.",
+      "Link": "Shuffling Fragment",
+      "Scans": 40,
+      "Type": "Melee",
+      "Image": "ShufflingFragment.png",
+      "Name": "Shuffling Fragment",
+      "Faction": "The Murmur",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/Octopede/Arm/MITWOctopedeArmAgent",
+      "Introduced": "35"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 25,
+          "AttackName": "Arm Swipe"
+        }
+      ],
+      "Health": 250,
+      "BaseLevel": 1,
+      "EximusHealth": 250,
+      "Affinity": 25
+    }
+  },
+  "The Fragmented One": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Description": "On the rare occasions when Murmur fragments assemble themselves into a whole, the result is a monstrous and potent entity. It may manifest into three different forms, the Suzerain, Zelator and Anchorite, with a fourth form, the 'Fragmented One', being the most formidable of all. Together, as heralds of the Indifference, they tether down the Strands of Khra which their bizarre master must travel.",
+      "Link": "The Fragmented One",
+      "Missions": [
+        "Assassination"
+      ],
+      "SteelPathDefault": true,
+      "Type": "Boss",
+      "Scans": 3,
+      "Image": "TheFragmentedSuzerain.png",
+      "Name": "The Fragmented One",
+      "Faction": "The Murmur",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/Octopede/MITWOctopedeAgent",
+      "Introduced": "35"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Slash": 0.5,
+            "Impact": 0.5
+          },
+          "TotalDamage": 300,
+          "AttackName": "Arm Swipe"
+        }
+      ],
+      "ProcResists": [
+        "Cold",
+        "Viral"
+      ],
+      "Health": 50000,
+      "BaseLevel": 1,
+      "ArchimedeaHealthBonus": 150000,
+      "SpawnLevel": 225,
+      "SteelPathHealthBonus": 150000,
+      "Affinity": 1000
+    }
+  },
+  "Rogue Arcocanid": {
+    "General": {
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Description": "",
+      "Link": "Rogue Arcocanid",
+      "Scans": 20,
+      "Type": "Melee",
+      "Image": "RogueArcocanid.png",
+      "Name": "Rogue Arcocanid",
+      "Faction": "The Murmur",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/NecramechMelee/NecramechMeleeAgent",
+      "Introduced": "35"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.5x"
+      ],
+      "Health": 80,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "EximusHealth": 80,
+      "Affinity": 50
+    }
+  },
+  "Rogue Culverin": {
+    "General": {
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Description": "",
+      "Link": "Rogue Culverin",
+      "Scans": 20,
+      "Type": "Ranged",
+      "Image": "RogueCulverin.png",
+      "Name": "Rogue Culverin",
+      "Faction": "The Murmur",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/NecramechRanged/NecramechRangedAgent",
+      "Introduced": "35"
+    },
+    "Stats": {
+      "Multis": [
+        "Shoulders: 3.0x (Incarnon Compatible)"
+      ],
+      "Health": 500,
+      "BaseLevel": 1,
+      "Armor": 175,
+      "EximusHealth": 500,
+      "Affinity": 50
+    }
+  },
+  "The Fragmented": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Description": "On the rare occasions when Murmur fragments assemble themselves into a whole, the result is a monstrous and potent entity. It may manifest into three different forms, the Suzerain, Zelator and Anchorite, with a fourth form, the 'Fragmented One', being the most formidable of all. Together, as heralds of the Indifference, they tether down the Strands of Khra which their bizarre master must travel.",
+      "Link": "The Fragmented",
+      "Missions": [
+        "Assassination"
+      ],
+      "Type": "Boss",
+      "Scans": 3,
+      "Image": "TheFragmentedSuzerain.png",
+      "Name": "The Fragmented",
+      "Faction": "The Murmur",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/Octopede/MITWOctopedeAgent",
+      "Introduced": "35"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Slash": 0.5,
+            "Impact": 0.5
+          },
+          "StatusChance": 0.5,
+          "TotalDamage": 300,
+          "AttackName": "Arm Swipe"
+        }
+      ],
+      "ProcResists": [
+        "Cold",
+        "Viral"
+      ],
+      "Health": 50000,
+      "BaseLevel": 1,
+      "ArchimedeaHealthBonus": 150000,
+      "SpawnLevel": 225,
+      "SteelPathHealthBonus": 150000,
+      "Affinity": 1000
+    }
+  },
+  "Rupturing Fragment": {
+    "General": {
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Description": "",
+      "Link": "Rupturing Fragment",
+      "Scans": 40,
+      "Type": "",
+      "Image": "RupturingFragment.png",
+      "Name": "Rupturing Fragment",
+      "Faction": "The Murmur",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/Octopede/Arm/ExplosiveArm/MITWOctopedeExplosiveArmAgent",
+      "Introduced": "35"
+    },
+    "Stats": {
+      "BaseLevel": 1,
+      "Health": 250,
+      "Affinity": 25
+    }
+  },
+  "The Anatomizer": {
+    "General": {
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Description": "",
+      "Link": "The Anatomizer",
+      "Scans": 3,
+      "Type": "Heavy Bomber",
+      "Image": "TheAnatomizer.png",
+      "Name": "The Anatomizer",
+      "Faction": "The Murmur",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/HandBomber/HandBomberAgent",
+      "Introduced": "35"
+    },
+    "Stats": {
+      "BaseLevel": 1,
+      "EximusHealth": 6000,
+      "Health": 6000,
+      "Affinity": 250
+    }
+  },
+  "Scuttler": {
+    "General": {
+      "Type": "",
+      "Description": "Spiderlings born from the guardian of Scholar's Landing. Though precious to their mother, an explosively short life leaves only the hunt to bond over.",
+      "Link": "Scuttler (Enemy)",
+      "Missions": [
+        "Isleweaver"
+      ],
+      "Image": "Scuttler.png",
+      "Name": "Scuttler",
+      "Faction": "The Murmur",
+      "Scans": 5,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingAgent",
+      "Introduced": "39"
+    },
+    "Stats": {
+      "SpawnLevel": 1,
+      "BaseLevel": 1,
+      "Health": 125,
+      "Affinity": 25
+    }
+  },
+  "Rogue Voidrig (Deimos)": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "",
+      "Link": "Rogue Voidrig#Deimos",
+      "Missions": [
+        "Isolation Vault"
+      ],
+      "Type": "",
+      "Scans": 3,
+      "Image": "Voidrig.png",
+      "Name": "Rogue Voidrig",
+      "Faction": "The Murmur",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        "Pugil",
+        "Mausolon"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Orokin/Entrati/EntratiTech/NechroTech/NechroTechEnemyAgent",
+      "Introduced": "35"
+    },
+    "Stats": {
+      "Armor": 300,
+      "BaseLevel": 1,
+      "Health": 600,
+      "Affinity": 500
+    }
+  },
+  "Gruzzling": {
+    "General": {
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Description": "These greedy little Murmur tricksters love to steal Conduit Dockets and other coveted items from Albrecht's labs.",
+      "Link": "Gruzzling",
+      "Scans": 3,
+      "Type": "",
+      "Image": "Gruzzling.png",
+      "Name": "Gruzzling",
+      "Faction": "The Murmur",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/TreasureBox/MITWTreasureBoxAgent",
+      "Introduced": "35.5"
+    },
+    "Stats": {
+      "Multis": [
+        "None"
+      ],
+      "Health": 5000,
+      "BaseLevel": 1,
+      "EximusHealth": 5000,
+      "Affinity": 50
+    }
+  },
+  "Demolisher Voidrig": {
+    "General": {
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Description": "",
+      "Link": "Rogue Voidrig#Demolisher",
+      "Missions": [
+        "Disruption"
+      ],
+      "Type": "",
+      "Scans": 3,
+      "Image": "Voidrig.png",
+      "Name": "Demolisher Voidrig",
+      "Faction": "The Murmur",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        "Pugil",
+        "Mausolon"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/NecramechVoidRig/NecramechVoidRigDisruptionAgent",
+      "Introduced": "35.5"
+    },
+    "Stats": {
+      "Multis": [
+        ""
+      ],
+      "Health": 6000,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "Affinity": 500
+    }
+  },
+  "Rogue Voidrig": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Description": "",
+      "Link": "Rogue Voidrig",
+      "Scans": 3,
+      "Type": "",
+      "Image": "Voidrig.png",
+      "Name": "Rogue Voidrig",
+      "Faction": "The Murmur",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        "Pugil",
+        "Mausolon"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/NecramechVoidRig/NecramechVoidRigAgent",
+      "Introduced": "35"
+    },
+    "Stats": {
+      "Health": 7500,
+      "BaseLevel": 1,
+      "Armor": 500,
+      "EximusHealth": 7500,
+      "Affinity": 500
+    }
+  },
+  "Mocking Whisper": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Description": "This mocking phantom emerges to persecute the one who unwisely looked into its book, cutting deeply with hatred and blows alike. The book it arose from is its one vulnerability.",
+      "Link": "Mocking Whisper",
+      "Name": "Mocking Whisper",
+      "Type": "Field Boss",
+      "Scans": 1,
+      "Image": "DoppelgangerAvatar.png",
+      "Abilities": [
+        "Exalted Blade",
+        "Radial Blind",
+        "Axios Javelin",
+        "Rhino Charge",
+        "Roar",
+        "Tectonics"
+      ],
+      "Faction": "The Murmur",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Entrati/Doppelganger/EntratiDoppelgangerAgent",
+      "Introduced": "35"
+    },
+    "Stats": {
+      "BaseLevel": 1,
+      "Health": 25000,
+      "Affinity": 1500
+    }
+  },
+  "Lumbering Fragment": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Link": "Lumbering Fragment",
+      "Scans": 5,
+      "Type": "Melee",
+      "Image": "LumberingFragment.png",
+      "Name": "Lumbering Fragment",
+      "Faction": "The Murmur",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/Octopede/Leg/BipedalLegs/MITWOctopedeBipedalLegsAgent",
+      "Introduced": "35"
+    },
+    "Stats": {
+      "Multis": [
+        "Block-Thigh: 2.0x"
+      ],
+      "BaseLevel": 1,
+      "Health": 3500,
+      "Affinity": 150
+    }
+  },
+  "Demolisher Bonewidow": {
+    "General": {
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Description": "",
+      "Link": "Rogue Bonewidow#Demolisher",
+      "Missions": [
+        "Disruption"
+      ],
+      "Type": "",
+      "Scans": 3,
+      "Image": "Bonewidow.png",
+      "Name": "Demolisher Bonewidow",
+      "Faction": "The Murmur",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        "Pugil",
+        "Morgha",
+        "Ironbride"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/NecramechBonewindow/NecramechBonewidowDisruptionAgent",
+      "Introduced": "35.5"
+    },
+    "Stats": {
+      "Multis": [
+        ""
+      ],
+      "Health": 1880,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "Affinity": 50
+    }
+  },
+  "Elementa Culverin": {
+    "General": {
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Description": "",
+      "Link": "Rogue Culverin#Elementa",
+      "Missions": [
+        "Alchemy"
+      ],
+      "Type": "Ranged",
+      "Scans": 20,
+      "Image": "RogueCulverin.png",
+      "Name": "Elementa Culverin",
+      "Faction": "The Murmur",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/NecramechRanged/AlchemyNecramechRangedAgent",
+      "Introduced": "35"
+    },
+    "Stats": {
+      "Multis": [
+        "Shoulders: 3.0x (Incarnon Compatible)"
+      ],
+      "Health": 500,
+      "BaseLevel": 1,
+      "Armor": 175,
+      "EximusHealth": 500,
+      "Affinity": 50
+    }
+  }
+}

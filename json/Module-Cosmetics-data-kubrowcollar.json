@@ -1,0 +1,40 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/kubrowcollar",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:32:50.462Z"
+  },
+  "_comments": "",
+  "Kavasa Prime Kubrow Collar": {
+    "Type": "Collar",
+    "Image": "KavasaPrimeKubrowCollar.png",
+    "Description": "Records the genetic memory and DNA sequence of a Kubrow, allowing it to be reconstructed in the Incubator.",
+    "Link": "Kavasa Prime Kubrow Collar",
+    "Name": "Kavasa Prime Kubrow Collar",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Collars/PrimeKubrowCollarA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Little Helper Hat": {
+    "Type": "Collar",
+    "Image": "LittleHelperHat.png",
+    "Description": "A festive hat for your Kubrow.",
+    "Link": "Little Helper Hat",
+    "Name": "Little Helper Hat",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Collars/KubrowCollarXmas",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Taichen Kubrow Collar": {
+    "Type": "Collar",
+    "Image": "TaichenKubrowCollar.png",
+    "Description": "A common adornment used to distinguish a Kubrow that is loyal to its master.",
+    "Link": "Taichen Kubrow Collar",
+    "Name": "Taichen Kubrow Collar",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Collars/KubrowCollarDefault",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  }
+}

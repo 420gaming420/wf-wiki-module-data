@@ -1,0 +1,2990 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/transferencesuit",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:33:33.774Z"
+  },
+  "_comments": "",
+  "Mag Mask": {
+    "Type": "Hood",
+    "Image": "MagMask.png",
+    "Description": "Crush your enemies as the Mistress of Magnetism: Mag!",
+    "Link": "Mag Mask",
+    "Name": "Mag Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Ostron/MagMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Harrier Hood (Drifter)": {
+    "Type": "Hood",
+    "Image": "HoodAdultDeluxe.png",
+    "Description": "A hood belonging to a Drifter outfit.",
+    "Link": "Harrier Hood (Drifter)",
+    "Name": "Harrier Hood (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultDeluxeA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ceno Cuirass (Operator)": {
+    "Type": "Body Suit",
+    "Image": "MonkArmourBody.png",
+    "Description": "An armor design honoring the monastic legacy of the Quills. Fitted for the Operator.",
+    "Link": "Ceno Cuirass (Operator)",
+    "Name": "Ceno Cuirass (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Monk/MonkArmourBody",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Templar Prime Sleeves (Drifter)": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultPrimeC.png",
+    "Description": "The dress uniform worn with pride by Harrow's faithful legions. ",
+    "Link": "Templar Prime Sleeves (Drifter)",
+    "Name": "Templar Prime Sleeves (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultPrimeC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Templar Prime Sleeves (Operator)": {
+    "Type": "Sleeves",
+    "Image": "SleevesPrimeC.png",
+    "Description": "The dress uniform worn with pride by Harrow's faithful legions. ",
+    "Link": "Templar Prime Sleeves (Operator)",
+    "Name": "Templar Prime Sleeves (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesPrimeC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Clearvoy Prime Suit (Drifter)": {
+    "Type": "Body Suit",
+    "Image": "BodySuitAdultPrimeD.png",
+    "Description": "A look worthy of one who has the power to straddle realities. Fitted for the Drifter.",
+    "Link": "Clearvoy Prime Suit (Drifter)",
+    "Name": "Clearvoy Prime Suit (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultPrimeD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vahd Apparel (Operator)": {
+    "Type": "Waistband",
+    "Image": "SeerArmourHip.png",
+    "Description": "Crafted with surety of purpose, and clarity of vision. Fitted for the Operator.",
+    "Link": "Vahd Apparel (Operator)",
+    "Name": "Vahd Apparel (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtF",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Templar Prime Leggings (Drifter)": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultPrimeC.png",
+    "Description": "The dress uniform worn with pride by Harrow's faithful legions. ",
+    "Link": "Templar Prime Leggings (Drifter)",
+    "Name": "Templar Prime Leggings (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultPrimeC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Commodore Prime Mask (Operator)": {
+    "Type": "Hood",
+    "Image": "HoodPrimeB.png",
+    "Description": "Take command with this regal Operator suit.",
+    "Link": "Commodore Prime Mask (Operator)",
+    "Name": "Commodore Prime Mask (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/OperatorPrimeArmour/OperatorPrimeArmourHead",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Athletic Sleeves (Drifter)": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultAthletic.png",
+    "Description": "Get your game on with this exclusive line of sportswear-inspired Drifter garments and accessories.",
+    "Link": "Athletic Sleeves (Drifter)",
+    "Name": "Athletic Sleeves (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultAthletic",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Saita Prime Leggings": {
+    "Type": "Leggings",
+    "Image": "LeggingsPrimeA.png",
+    "Description": "Leggings for an Operator outfit.",
+    "Link": "Saita Prime Leggings",
+    "Name": "Saita Prime Leggings",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsPrimeA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Nightwave Leggings (Drifter)": {
+    "Type": "Leggings",
+    "Image": "NightSuitAdultLeggings.png",
+    "Description": "Leggings for all of you Dreamers out there.",
+    "Link": "Nightwave Leggings (Drifter)",
+    "Name": "Nightwave Leggings (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultNightSuit",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Manduka Suit": {
+    "Type": "Body Suit",
+    "Image": "SuitD.png",
+    "Description": "A suit of an Operator outfit.",
+    "Link": "Manduka Suit",
+    "Name": "Manduka Suit",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitD",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Zauba Apparel (Operator)": {
+    "Type": "Waistband",
+    "Image": "MageArmourHip.png",
+    "Description": "Inspired by the seers of old; constructed to withstand ravages to both body and mind. Fitted for the Operator.",
+    "Link": "Zauba Apparel (Operator)",
+    "Name": "Zauba Apparel (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtG",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Operator Feldune Suit": {
+    "Type": "Body Suit",
+    "Image": "BodySuitArabic.png",
+    "Description": "Ready yourself for the heat of battle. Fitted for the Drifter and the Operator.",
+    "Link": "Operator Feldune Suit",
+    "Name": "Operator Feldune Suit",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitArabic",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Hawk Bishamo Greaves (Drifter)": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultDaxA.png",
+    "Description": "Uphold the elite warrior tradition of Teshin and the Dax in the Bishamo Armor Set.",
+    "Link": "Hawk Bishamo Greaves (Drifter)",
+    "Name": "Hawk Bishamo Greaves (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultDaxA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Goth Hood (Operator)": {
+    "Type": "Hood",
+    "Image": "HoodGoth.png",
+    "Description": "Watch from the shadows or dance with the dead, with these Gothic-inspired garments.",
+    "Link": "Goth Hood (Operator)",
+    "Name": "Goth Hood (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodOperatorDrifterGoth",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Clearvoy Prime Sleeves (Operator)": {
+    "Type": "Sleeves",
+    "Image": "SleevesPrimeD.png",
+    "Description": "A look worthy of one who has the power to straddle realities. Fitted for the Operator.",
+    "Link": "Clearvoy Prime Sleeves (Operator)",
+    "Name": "Clearvoy Prime Sleeves (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesPrimeD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Feldune Suit": {
+    "Type": "Body Suit",
+    "Image": "BodySuitAdultArabic.png",
+    "Description": "Ready yourself for the heat of battle. Fitted for the Drifter and the Operator.",
+    "Link": "Drifter Feldune Suit",
+    "Name": "Drifter Feldune Suit",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultArabic",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Voidshell Suit": {
+    "Type": "Body Suit",
+    "Image": "SuitAdultChameleon.png",
+    "Description": "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+    "Link": "Drifter Voidshell Suit",
+    "Name": "Drifter Voidshell Suit",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultChameleon",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Masker's Theodolite Crewsuit Sleeves (Drifter)": {
+    "Type": "Sleeves",
+    "Image": "NovaEngineerArms.png",
+    "Description": "Historian Drusus Leverian recalls that the hostage crew of the passenger vessel, Masker's Theodolite, wore this very crewsuit when they were rescued by Nova.",
+    "Link": "Masker's Theodolite Crewsuit Sleeves (Drifter)",
+    "Name": "Masker's Theodolite Crewsuit Sleeves (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultNovaEngineer",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Operator Feldune Apparel": {
+    "Type": "Waistband",
+    "Image": "ArabicHip.png",
+    "Description": "Ready yourself for the heat of battle. Fitted for the Drifter and the Operator.",
+    "Link": "Operator Feldune Apparel",
+    "Name": "Operator Feldune Apparel",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtArabic",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "The Stranger's Hood (Operator)": {
+    "Type": "Hood",
+    "Image": "HoodDuviri.png",
+    "Description": "You have seen this face before. You have never seen this face before.",
+    "Link": "The Stranger's Hood (Operator)",
+    "Name": "The Stranger's Hood (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodDuviriOperator",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "TennoCon 2022 Sleeves (Operator)": {
+    "Type": "Sleeves",
+    "Image": "TennoCon2022Arms.png",
+    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2022.",
+    "Link": "TennoCon 2022 Sleeves (Operator)",
+    "Name": "TennoCon 2022 Sleeves (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesM2022TennoCon",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Outrider Mask": {
+    "Type": "Hood",
+    "Image": "HoodI.png",
+    "Description": "Operator armor modeled on enviro-gear worn by the surveyors and scouts of the Orb Vallis. Protected by an all-weather cloak they catalogue the wildlife, seek out resources and chart safe routes for patrols and miners.",
+    "Link": "Outrider Mask",
+    "Name": "Outrider Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Smelter/SmelterArmourHead",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kaneshell Atomicycle Jacket (Drifter)": {
+    "Type": "Body Suit",
+    "Image": "KaneshellAtomicycleJacket(Drifter).png",
+    "Description": "Slide into this biker outfit of the new millenium. Fitted for the Drifter and Operator.",
+    "Link": "Kaneshell Atomicycle Jacket (Drifter)",
+    "Name": "Kaneshell Atomicycle Jacket (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/DrifterNightwave1999Torso",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Necra Prime Cuirass (Drifter)": {
+    "Type": "Body Suit",
+    "Image": "SuitAdultPrimeE.png",
+    "Description": "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
+    "Link": "Necra Prime Cuirass (Drifter)",
+    "Name": "Necra Prime Cuirass (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultPrimeE",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Vest": {
+    "Type": "Body Suit",
+    "Image": "SuitAdultC.png",
+    "Description": "A ragged old cloth and leather vest worn by The Drifter.",
+    "Link": "Drifter Vest",
+    "Name": "Drifter Vest",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Emissary Greaves": {
+    "Type": "Leggings",
+    "Image": "InfestedLeggings.png",
+    "Description": "Leggings for an Operator outfit.",
+    "Link": "Emissary Greaves",
+    "Name": "Emissary Greaves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsInfestedA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Harrier Sleeves (Drifter)": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultDeluxe.png",
+    "Description": "Sleeves for a Drifter outfit.",
+    "Link": "Harrier Sleeves (Drifter)",
+    "Name": "Harrier Sleeves (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultDeluxeA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Clearvoy Prime Leggings (Operator)": {
+    "Type": "Leggings",
+    "Image": "LeggingsPrimeD.png",
+    "Description": "A look worthy of one who has the power to straddle realities. Fitted for the Operator.",
+    "Link": "Clearvoy Prime Leggings (Operator)",
+    "Name": "Clearvoy Prime Leggings (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsPrimeD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Athletic Leggings (Operator)": {
+    "Type": "Leggings",
+    "Image": "LeggingsAthletic.png",
+    "Description": "Get your game on with this exclusive line of sportswear-inspired Drifter garments and accessories.",
+    "Link": "Athletic Leggings (Operator)",
+    "Name": "Athletic Leggings (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAthletic",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Dex Hood": {
+    "Type": "Hood",
+    "Image": "HoodAdultDex.png",
+    "Description": "A gift from the Lotus to commemorate the tenth anniversary of the first Tenno waking from Cryo stasis. Fitted for the Drifter and the Operator.",
+    "Link": "Drifter Dex Hood",
+    "Name": "Drifter Dex Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultDexOutfit",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Templar Prime Suit (Operator)": {
+    "Type": "Body Suit",
+    "Image": "SuitPrimeC.png",
+    "Description": "The dress uniform worn with pride by Harrow's faithful legions. ",
+    "Link": "Templar Prime Suit (Operator)",
+    "Name": "Templar Prime Suit (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitPrimeC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Goth Sleeves (Drifter)": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultGoth.png",
+    "Description": "Watch from the shadows or dance with the dead, with these Gothic-inspired garments.",
+    "Link": "Goth Sleeves (Drifter)",
+    "Name": "Goth Sleeves (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultOperatorDrifterGoth",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Operator Keeler Pants": {
+    "Type": "Leggings",
+    "Image": "Outfit2ALegs.png",
+    "Description": "Nora Night recovered this suit from Saturn’s Keeler Gap. The durable material lined with rebreather tubing shows it was designed with depressurization in mind.",
+    "Link": "Operator Keeler Pants",
+    "Name": "Operator Keeler Pants",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsOutfit2A",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Transmuter Operator Hood": {
+    "Type": "Hood",
+    "Image": "JaviExecutionHood.png",
+    "Description": "The transmuter Javi was honored with this ceremonial hood on the day of his execution, in recognition of his Archimedean status.",
+    "Link": "Transmuter Operator Hood",
+    "Name": "Transmuter Operator Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/JaviExecutionHood",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Vent Rat Cuirass": {
+    "Type": "Body Suit",
+    "Image": "TechnomancerBody.png",
+    "Description": "Living in Fortuna a lot of repairs need to happen in the vents. Lightweight and practical Operator armor designed for flexibility and tight squeezes.",
+    "Link": "Vent Rat Cuirass",
+    "Name": "Vent Rat Cuirass",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Technomancer/TechnomancerArmourBody",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Operator Loneryder Hood": {
+    "Type": "Hood",
+    "Image": "HoodOutfit1A.png",
+    "Description": "Look sharp after miles on the dusty trail. Fitted for the Drifter and the Operator.",
+    "Link": "Operator Loneryder Hood",
+    "Name": "Operator Loneryder Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodOutfit1A",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Orizu Sleeves": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultOutfit3A.png",
+    "Description": "Invite longevity and protection with a look inspired by the origami crane. Fitted for the Drifter and the Operator.",
+    "Link": "Drifter Orizu Sleeves",
+    "Name": "Drifter Orizu Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultOutfit3A",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Varida Leggings": {
+    "Type": "Leggings",
+    "Image": "LeggingsC.png",
+    "Description": "Leggings for an Operator outfit.",
+    "Link": "Varida Leggings",
+    "Name": "Varida Leggings",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Masker's Theodolite Crewsuit Leggings": {
+    "Type": "Leggings",
+    "Image": "NovaEngineerLeggings.png",
+    "Description": "Historian Drusus Leverian recalls that the hostage crew of the passenger vessel, Masker's Theodolite, wore this very crewsuit when they were rescued by Nova.",
+    "Link": "Masker's Theodolite Crewsuit Leggings",
+    "Name": "Masker's Theodolite Crewsuit Leggings",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsNovaEngineer",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Nightwave Sleeves (Drifter)": {
+    "Type": "Sleeves",
+    "Image": "NightSuitAdultSleeves.png",
+    "Description": "Sleeves and gloves for all of you Dreamers out there.",
+    "Link": "Nightwave Sleeves (Drifter)",
+    "Name": "Nightwave Sleeves (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultNightSuit",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Hawk Bishamo Helmet (Operator)": {
+    "Type": "Hood",
+    "Image": "TeshinArmourHead.png",
+    "Description": "Uphold the elite warrior tradition of Teshin and the Dax in the Bishamo Armor Set.",
+    "Link": "Hawk Bishamo Helmet (Operator)",
+    "Name": "Hawk Bishamo Helmet (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Teshin/TeshinArmourHead",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vent Pobber Ventkid Greaves": {
+    "Type": "Leggings",
+    "Image": "SuitNLegs.png",
+    "Description": "Operator Armor modeled on the workshop gear favored by Roky, leader of the industrious Vent Pobbers.",
+    "Link": "Vent Pobber Ventkid Greaves",
+    "Name": "Vent Pobber Ventkid Greaves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsN",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Feldune Hood": {
+    "Type": "Hood",
+    "Image": "HoodAdultArabic.png",
+    "Description": "Ready yourself for the heat of battle. Fitted for the Drifter and the Operator.",
+    "Link": "Drifter Feldune Hood",
+    "Name": "Drifter Feldune Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultArabic",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Saita Prime Suit (Drifter)": {
+    "Type": "Body Suit",
+    "Image": "BodySuitAdultPrimeA.png",
+    "Description": "The suit of a Drifter outfit.",
+    "Link": "Saita Prime Suit (Drifter)",
+    "Name": "Saita Prime Suit (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultPrimeA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Hawk Bishamo Pauldrons (Operator)": {
+    "Type": "Sleeves",
+    "Image": "TeshinArmourArms.png",
+    "Description": "Uphold the elite warrior tradition of Teshin and the Dax in the Bishamo Armor Set.",
+    "Link": "Hawk Bishamo Pauldrons (Operator)",
+    "Name": "Hawk Bishamo Pauldrons (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Teshin/TeshinArmourArms",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Masker's Theodolite Crewsuit Leggings (Drifter)": {
+    "Type": "Leggings",
+    "Image": "NovaEngineerLeggings.png",
+    "Description": "Historian Drusus Leverian recalls that the hostage crew of the passenger vessel, Masker's Theodolite, wore this very crewsuit when they were rescued by Nova.",
+    "Link": "Masker's Theodolite Crewsuit Leggings (Drifter)",
+    "Name": "Masker's Theodolite Crewsuit Leggings (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultNovaEngineer",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Commodore Prime Pauldrons (Drifter)": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultPrimeB.png",
+    "Description": "Take command with this regal Drifter suit.",
+    "Link": "Commodore Prime Pauldrons (Drifter)",
+    "Name": "Commodore Prime Pauldrons (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultPrimeB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kubrodon Ventkid Pauldrons": {
+    "Type": "Sleeves",
+    "Image": "SuitOSleeves.png",
+    "Description": "Operator Armor modeled on the K-drive gear favored by Boon, leader of the canny and cunning Kubrodon Ventkids.",
+    "Link": "Kubrodon Ventkid Pauldrons",
+    "Name": "Kubrodon Ventkid Pauldrons",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesO",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Masker's Theodolite Crewsuit (Drifter)": {
+    "Type": "Body Suit",
+    "Image": "NovaEngineerBody.png",
+    "Description": "Historian Drusus Leverian recalls that the hostage crew of the passenger vessel, Masker's Theodolite, wore this very crewsuit when they were rescued by Nova.",
+    "Link": "Masker's Theodolite Crewsuit (Drifter)",
+    "Name": "Masker's Theodolite Crewsuit (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultNovaEngineer",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Operator Orizu Suit": {
+    "Type": "Body Suit",
+    "Image": "Outfit3ABody.png",
+    "Description": "Invite longevity and protection with a look inspired by the origami crane. Fitted for the Drifter and the Operator.",
+    "Link": "Operator Orizu Suit",
+    "Name": "Operator Orizu Suit",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitOutfit3A",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Zariman Sleeves": {
+    "Type": "Sleeves",
+    "Image": "SleevesA.png",
+    "Description": "Sleeves for an Operator outfit.",
+    "Link": "Zariman Sleeves",
+    "Name": "Zariman Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesA",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Goth Leggings (Operator)": {
+    "Type": "Leggings",
+    "Image": "LeggingsGoth.png",
+    "Description": "Watch from the shadows or dance with the dead, with these Gothic-inspired garments.",
+    "Link": "Goth Leggings (Operator)",
+    "Name": "Goth Leggings (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsOperatorDrifterGoth",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ceno Apparel (Operator)": {
+    "Type": "Waistband",
+    "Image": "MonkArmourHip.png",
+    "Description": "An armor design honoring the monastic legacy of the Quills. Fitted for the Operator.",
+    "Link": "Ceno Apparel (Operator)",
+    "Name": "Ceno Apparel (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtE",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Voidshell Hood": {
+    "Type": "Hood",
+    "Image": "HoodAdultChameleon.png",
+    "Description": "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+    "Link": "Drifter Voidshell Hood",
+    "Name": "Drifter Voidshell Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultChameleon",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Emissary Suit": {
+    "Type": "Body Suit",
+    "Image": "InfestedBodysuitA.png",
+    "Description": "The suit of an Operator outfit.",
+    "Link": "Emissary Suit",
+    "Name": "Emissary Suit",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitInfestedA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Varida Sleeves": {
+    "Type": "Sleeves",
+    "Image": "SleevesC.png",
+    "Description": "Sleeves for an Operator outfit.",
+    "Link": "Varida Sleeves",
+    "Name": "Varida Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Templar Prime Apparel (Operator)": {
+    "Type": "Waistband",
+    "Image": "OperatorPrimeCHip.png",
+    "Description": "The dress uniform worn with pride by Harrow's faithful legions. ",
+    "Link": "Templar Prime Apparel (Operator)",
+    "Name": "Templar Prime Apparel (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtPrimeC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Operator Loneryder Sleeves": {
+    "Type": "Sleeves",
+    "Image": "Outfit1AArms.png",
+    "Description": "Look sharp after miles on the dusty trail. Fitted for the Drifter and the Operator.",
+    "Link": "Operator Loneryder Sleeves",
+    "Name": "Operator Loneryder Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesOutfit1A",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Keeler Pants": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultDrifterB.png",
+    "Description": "Nora Night recovered this suit from Saturn’s Keeler Gap. The durable material lined with rebreather tubing shows it was designed with depressurization in mind.",
+    "Link": "Drifter Keeler Pants",
+    "Name": "Drifter Keeler Pants",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultDrifterB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Zariman Pants": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultA.png",
+    "Description": "The Drifter’s Zariman pants. Still intact after all these years.",
+    "Link": "Drifter Zariman Pants",
+    "Name": "Drifter Zariman Pants",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Vahd Greaves (Drifter)": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultF.png",
+    "Description": "Crafted with surety of purpose, and clarity of vision. Fitted for the Drifter.",
+    "Link": "Vahd Greaves (Drifter)",
+    "Name": "Vahd Greaves (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultF",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kubrodon Ventkid Cuirass": {
+    "Type": "Body Suit",
+    "Image": "SuitO.png",
+    "Description": "Operator Armor modeled on the K-drive gear favored by Boon, leader of the canny and cunning Kubrodon Ventkids.",
+    "Link": "Kubrodon Ventkid Cuirass",
+    "Name": "Kubrodon Ventkid Cuirass",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitO",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Harrier Sleeves": {
+    "Type": "Sleeves",
+    "Image": "ZephyrDeluxeSleeves.png",
+    "Description": "Sleeves for an Operator outfit.",
+    "Link": "Harrier Sleeves",
+    "Name": "Harrier Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesZephyrDeluxe",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kubrodon Ventkid Greaves": {
+    "Type": "Leggings",
+    "Image": "SuitOLegs.png",
+    "Description": "Operator Armor modeled on the K-drive gear favored by Boon, leader of the canny and cunning Kubrodon Ventkids.",
+    "Link": "Kubrodon Ventkid Greaves",
+    "Name": "Kubrodon Ventkid Greaves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsO",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Grunge Leggings (Operator)": {
+    "Type": "Leggings",
+    "Image": "LeggingsGrunge.png",
+    "Description": "Keep it real on the streets with thrifty, downbeat clothing inspired by the grunge scene.",
+    "Link": "Grunge Leggings (Operator)",
+    "Name": "Grunge Leggings (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsGrunge",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Lark Bishamo Cuirass (Operator)": {
+    "Type": "Body Suit",
+    "Image": "SuitDaxB.png",
+    "Description": "Uphold the elite warrior tradition of Teshin and the Dax in the Bishamo Armor Set.",
+    "Link": "Lark Bishamo Cuirass (Operator)",
+    "Name": "Lark Bishamo Cuirass (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitDaxB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Operator Feldune Pants": {
+    "Type": "Leggings",
+    "Image": "ArabicLegs.png",
+    "Description": "Ready yourself for the heat of battle. Fitted for the Drifter and the Operator.",
+    "Link": "Operator Feldune Pants",
+    "Name": "Operator Feldune Pants",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsArabic",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vahd Pauldrons (Operator)": {
+    "Type": "Sleeves",
+    "Image": "SeerArmourArms.png",
+    "Description": "Crafted with surety of purpose, and clarity of vision. Fitted for the Operator.",
+    "Link": "Vahd Pauldrons (Operator)",
+    "Name": "Vahd Pauldrons (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Seer/SeerArmourArms",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Zauba Pauldrons (Operator)": {
+    "Type": "Sleeves",
+    "Image": "MageArmourArms.png",
+    "Description": "Inspired by the seers of old; constructed to withstand ravages to both body and mind. Fitted for the Operator.",
+    "Link": "Zauba Pauldrons (Operator)",
+    "Name": "Zauba Pauldrons (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Mage/MageArmourArms",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kaneshell Atomicycle Helmet (Drifter)": {
+    "Type": "Hood",
+    "Image": "KaneshellAtomicycleHelmet(Drifter).png",
+    "Description": "Slide into this biker outfit of the new millenium. Fitted for the Drifter and Operator.",
+    "Link": "Kaneshell Atomicycle Helmet (Drifter)",
+    "Name": "Kaneshell Atomicycle Helmet (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/DrifterNightwave1999Helmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Clearvoy Prime Sleeves (Drifter)": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultPrimeD.png",
+    "Description": "A look worthy of one who has the power to straddle realities. Fitted for the Drifter.",
+    "Link": "Clearvoy Prime Sleeves (Drifter)",
+    "Name": "Clearvoy Prime Sleeves (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultPrimeD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Koppra Sleeves": {
+    "Type": "Sleeves",
+    "Image": "SleevesB.png",
+    "Description": "Sleeves for an Operator outfit.",
+    "Link": "Koppra Sleeves",
+    "Name": "Koppra Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesB",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Goth Jacket (Drifter)": {
+    "Type": "Body Suit",
+    "Image": "SuitAdultGoth.png",
+    "Description": "Watch from the shadows or dance with the dead, with these Gothic-inspired garments.",
+    "Link": "Goth Jacket (Drifter)",
+    "Name": "Goth Jacket (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultOperatorDrifterGoth",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Commodore Prime Greaves (Drifter)": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultPrimeB.png",
+    "Description": "Take command with this regal Drifter suit.",
+    "Link": "Commodore Prime Greaves (Drifter)",
+    "Name": "Commodore Prime Greaves (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultPrimeB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Loneryder Hood": {
+    "Type": "Hood",
+    "Image": "HoodAdultOutfit1A.png",
+    "Description": "Look sharp after miles on the dusty trail. Fitted for the Drifter and the Operator.",
+    "Link": "Drifter Loneryder Hood",
+    "Name": "Drifter Loneryder Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultOutfit1A",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Necra Prime Hood (Operator)": {
+    "Type": "Hood",
+    "Image": "HoodPrimeE.png",
+    "Description": "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
+    "Link": "Necra Prime Hood (Operator)",
+    "Name": "Necra Prime Hood (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodPrimeE",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Grunge Jacket (Drifter)": {
+    "Type": "Body Suit",
+    "Image": "SuitAdultGrunge.png",
+    "Description": "Keep it real on the streets with thrifty, downbeat clothing inspired by the grunge scene.",
+    "Link": "Grunge Jacket (Drifter)",
+    "Name": "Grunge Jacket (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultGrunge",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Haztech Cuirass (Operator)": {
+    "Type": "Body Suit",
+    "Image": "ApparatistBody.png",
+    "Description": "When coolant offgasses or a fusion-gen gets cracked it's everybody out. Everybody except the haztechs. Operator armor modeled on the daredevils of Fortuna's maintanaince crews.",
+    "Link": "Haztech Cuirass (Operator)",
+    "Name": "Haztech Cuirass (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Apparatist/ApparatistArmourBody",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ceno Pauldrons (Operator)": {
+    "Type": "Sleeves",
+    "Image": "MonkArmourArms.png",
+    "Description": "An armor design honoring the monastic legacy of the Quills. Fitted for the Operator.",
+    "Link": "Ceno Pauldrons (Operator)",
+    "Name": "Ceno Pauldrons (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Monk/MonkArmourArms",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kubrodon Ventkid Apparel": {
+    "Type": "Waistband",
+    "Image": "SuitOSkirt.png",
+    "Description": "Operator Armor modeled on the K-drive gear favored by Boon, leader of the canny and cunning Kubrodon Ventkids.",
+    "Link": "Kubrodon Ventkid Apparel",
+    "Name": "Kubrodon Ventkid Apparel",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtO",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Hawk Bishamo Pauldrons (Drifter)": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultDaxA.png",
+    "Description": "Uphold the elite warrior tradition of Teshin and the Dax in the Bishamo Armor Set.",
+    "Link": "Hawk Bishamo Pauldrons (Drifter)",
+    "Name": "Hawk Bishamo Pauldrons (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultDaxA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "TennoCon 2022 Leggings (Drifter)": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultTennocon2022.png",
+    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2022.",
+    "Link": "TennoCon 2022 Leggings (Drifter)",
+    "Name": "TennoCon 2022 Leggings (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultM2022TennoCon",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Emissary Hood": {
+    "Type": "Hood",
+    "Image": "InfestedHoodA.png",
+    "Description": "A hood belonging to an Operator outfit.",
+    "Link": "Emissary Hood",
+    "Name": "Emissary Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodInfestedA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Hood": {
+    "Type": "Hood",
+    "Image": "HoodAdultC.png",
+    "Description": "A ragged old cloth hood and leather mask worn by The Drifter.",
+    "Link": "Drifter Hood",
+    "Name": "Drifter Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Smelter Greaves (Drifter)": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultK.png",
+    "Description": "Drifter armor inspired by those Solaris who must work in searing heat. ",
+    "Link": "Smelter Greaves (Drifter)",
+    "Name": "Smelter Greaves (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultK",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Dex Gear": {
+    "Type": "Waistband",
+    "Image": "SkirtAdultDex.png",
+    "Description": "A gift from the Lotus to commemorate the tenth anniversary of the first Tenno waking from Cryo stasis. Fitted for the Drifter and the Operator.",
+    "Link": "Drifter Dex Gear",
+    "Name": "Drifter Dex Gear",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtAdultDexOutfit",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Masker's Theodolite Crewsuit Sleeves": {
+    "Type": "Sleeves",
+    "Image": "NovaEngineerArms.png",
+    "Description": "Historian Drusus Leverian recalls that the hostage crew of the passenger vessel, Masker's Theodolite, wore this very crewsuit when they were rescued by Nova.",
+    "Link": "Masker's Theodolite Crewsuit Sleeves",
+    "Name": "Masker's Theodolite Crewsuit Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesNovaEngineer",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Smelter Cuirass (Drifter)": {
+    "Type": "Body Suit",
+    "Image": "BodySuitAdultK.png",
+    "Description": "Drifter armor inspired by those Solaris who must work in searing heat. ",
+    "Link": "Smelter Cuirass (Drifter)",
+    "Name": "Smelter Cuirass (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultK",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Varida Hood": {
+    "Type": "Hood",
+    "Image": "HoodC.png",
+    "Description": "A hood belonging to an Operator outfit.",
+    "Link": "Varida Hood",
+    "Name": "Varida Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Necra Prime Vitalis Hood (Drifter)": {
+    "Type": "Hood",
+    "Image": "HoodAdultPrimeEChina.png",
+    "Description": "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
+    "Link": "Necra Prime Vitalis Hood (Drifter)",
+    "Name": "Necra Prime Vitalis Hood (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultPrimeEChina",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Haztech Pauldrons (Operator)": {
+    "Type": "Sleeves",
+    "Image": "ApparatistArms.png",
+    "Description": "When coolant offgasses or a fusion-gen gets cracked it's everybody out. Everybody except the haztechs. Operator armor modeled on the daredevils of Fortuna's maintanaince crews.",
+    "Link": "Haztech Pauldrons (Operator)",
+    "Name": "Haztech Pauldrons (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Apparatist/ApparatistArmourArms",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Operator Dex Apparel": {
+    "Type": "Waistband",
+    "Image": "DexHip.png",
+    "Description": "A gift from the Lotus to commemorate the tenth anniversary of the first Tenno waking from Cryo stasis. Fitted for the Drifter and the Operator.",
+    "Link": "Operator Dex Apparel",
+    "Name": "Operator Dex Apparel",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtDexOutfit",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Grunge Jacket (Operator)": {
+    "Type": "Body Suit",
+    "Image": "SuitGrunge.png",
+    "Description": "Keep it real on the streets with thrifty, downbeat clothing inspired by the grunge scene.",
+    "Link": "Grunge Jacket (Operator)",
+    "Name": "Grunge Jacket (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitGrunge",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vahd Apparel (Drifter)": {
+    "Type": "Waistband",
+    "Image": "SkirtAdultF.png",
+    "Description": "Crafted with surety of purpose, and clarity of vision. Fitted for the Drifter.",
+    "Link": "Vahd Apparel (Drifter)",
+    "Name": "Vahd Apparel (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtAdultF",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Necra Prime Pauldrons (Drifter)": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultPrimeE.png",
+    "Description": "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
+    "Link": "Necra Prime Pauldrons (Drifter)",
+    "Name": "Necra Prime Pauldrons (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultPrimeE",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Hawk Bishamo Helmet (Drifter)": {
+    "Type": "Hood",
+    "Image": "HoodAdultDaxA.png",
+    "Description": "Uphold the elite warrior tradition of Teshin and the Dax in the Bishamo Armor Set.",
+    "Link": "Hawk Bishamo Helmet (Drifter)",
+    "Name": "Hawk Bishamo Helmet (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultDaxA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Keeler Hood": {
+    "Type": "Hood",
+    "Image": "HoodAdultDrifterB.png",
+    "Description": "Nora Night recovered this suit from Saturn’s Keeler Gap. The durable material lined with rebreather tubing shows it was designed with depressurization in mind.",
+    "Link": "Drifter Keeler Hood",
+    "Name": "Drifter Keeler Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultDrifterB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Loneryder Pants": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultOutfit1A.png",
+    "Description": "Look sharp after miles on the dusty trail. Fitted for the Drifter and the Operator.",
+    "Link": "Drifter Loneryder Pants",
+    "Name": "Drifter Loneryder Pants",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultOutfit1A",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vent Rat Greaves": {
+    "Type": "Leggings",
+    "Image": "TechnomancerLegs.png",
+    "Description": "Living in Fortuna a lot of repairs need to happen in the vents. Lightweight and practical Operator armor designed for flexibility and tight squeezes.",
+    "Link": "Vent Rat Greaves",
+    "Name": "Vent Rat Greaves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Technomancer/TechnomancerArmourLegs",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Mother's Mask": {
+    "Type": "Hood",
+    "Image": "LotusWispHood.png",
+    "Description": "Wherever you are, this is for you.",
+    "Link": "Mother's Mask",
+    "Name": "Mother's Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodLotusWisp",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Grunge Hood (Operator)": {
+    "Type": "Hood",
+    "Image": "HoodGrunge.png",
+    "Description": "Keep it real on the streets with thrifty, downbeat clothing inspired by the grunge scene.",
+    "Link": "Grunge Hood (Operator)",
+    "Name": "Grunge Hood (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodGrunge",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Orizu Suit": {
+    "Type": "Body Suit",
+    "Image": "BodySuitAdultOutfit3A.png",
+    "Description": "Invite longevity and protection with a look inspired by the origami crane. Fitted for the Drifter and the Operator.",
+    "Link": "Drifter Orizu Suit",
+    "Name": "Drifter Orizu Suit",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultOutfit3A",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Goth Leggings (Drifter)": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultGoth.png",
+    "Description": "Watch from the shadows or dance with the dead, with these Gothic-inspired garments.",
+    "Link": "Goth Leggings (Drifter)",
+    "Name": "Goth Leggings (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultOperatorDrifterGoth",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Commodore Prime Mask (Drifter)": {
+    "Type": "Hood",
+    "Image": "HoodAdultPrimeB.png",
+    "Description": "Take command with this regal Drifter suit.",
+    "Link": "Commodore Prime Mask (Drifter)",
+    "Name": "Commodore Prime Mask (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultPrimeB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Necra Prime Hood (Drifter)": {
+    "Type": "Hood",
+    "Image": "HoodAdultPrimeE.png",
+    "Description": "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
+    "Link": "Necra Prime Hood (Drifter)",
+    "Name": "Necra Prime Hood (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultPrimeE",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Orizu Pants": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultOutfit3A.png",
+    "Description": "Invite longevity and protection with a look inspired by the origami crane. Fitted for the Drifter and the Operator.",
+    "Link": "Drifter Orizu Pants",
+    "Name": "Drifter Orizu Pants",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultOutfit3A",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "TennoCon 2022 Leggings (Operator)": {
+    "Type": "Leggings",
+    "Image": "TennoCon2022Legs.png",
+    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2022.",
+    "Link": "TennoCon 2022 Leggings (Operator)",
+    "Name": "TennoCon 2022 Leggings (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsM2022TennoCon",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Lark Bishamo Gear (Drifter)": {
+    "Type": "Waistband",
+    "Image": "SkirtAdultDaxB.png",
+    "Description": "Uphold the elite warrior tradition of Teshin and the Dax in the Bishamo Armor Set.",
+    "Link": "Lark Bishamo Gear (Drifter)",
+    "Name": "Lark Bishamo Gear (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtAdultDaxB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Koppra Faulds": {
+    "Type": "Waistband",
+    "Image": "SkirtB.png",
+    "Description": "A waistband component for an Operator outfit.",
+    "Link": "Koppra Faulds",
+    "Name": "Koppra Faulds",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ceno Cuirass (Drifter)": {
+    "Type": "Body Suit",
+    "Image": "BodySuitAdultE.png",
+    "Description": "An armor design honoring the monastic legacy of the Quills. Fitted for the Drifter.",
+    "Link": "Ceno Cuirass (Drifter)",
+    "Name": "Ceno Cuirass (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultE",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Dex Suit": {
+    "Type": "Body Suit",
+    "Image": "BodySuitAdultDex.png",
+    "Description": "A gift from the Lotus to commemorate the tenth anniversary of the first Tenno waking from Cryo stasis. Fitted for the Drifter and the Operator.",
+    "Link": "Drifter Dex Suit",
+    "Name": "Drifter Dex Suit",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultDexOutfit",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Commodore Prime Apparel (Operator)": {
+    "Type": "Waistband",
+    "Image": "OperatorPrimeArmourHip.png",
+    "Description": "Take command with this regal Operator suit.",
+    "Link": "Commodore Prime Apparel (Operator)",
+    "Name": "Commodore Prime Apparel (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtPrimeB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Feldune Gear": {
+    "Type": "Waistband",
+    "Image": "SkirtAdultArabic.png",
+    "Description": "Ready yourself for the heat of battle. Fitted for the Drifter and the Operator.",
+    "Link": "Drifter Feldune Gear",
+    "Name": "Drifter Feldune Gear",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtAdultArabic",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Umbra Hooded Scarf": {
+    "Type": "Hood",
+    "Image": "UmbraHoodScarf.png",
+    "Description": "A fashionable accessory for your Operator.",
+    "Link": "Umbra Hooded Scarf",
+    "Name": "Umbra Hooded Scarf",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/UmbraScarfHood",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Zauba Pauldrons (Drifter)": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultG.png",
+    "Description": "Inspired by the seers of old; constructed to withstand ravages to both body and mind. Fitted for the Drifter.",
+    "Link": "Zauba Pauldrons (Drifter)",
+    "Name": "Zauba Pauldrons (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultG",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Zauba Greaves (Drifter)": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultG.png",
+    "Description": "Inspired by the seers of old; constructed to withstand ravages to both body and mind. Fitted for the Drifter.",
+    "Link": "Zauba Greaves (Drifter)",
+    "Name": "Zauba Greaves (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultG",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "The Stranger's Hood (Drifter)": {
+    "Type": "Hood",
+    "Image": "HoodDuviriAdult.png",
+    "Description": "You have seen this face before. You have never seen this face before.",
+    "Link": "The Stranger's Hood (Drifter)",
+    "Name": "The Stranger's Hood (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodDuviriAdultOperator",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Grunge Hood (Drifter)": {
+    "Type": "Hood",
+    "Image": "HoodAdultGrunge.png",
+    "Description": "Keep it real on the streets with thrifty, downbeat clothing inspired by the grunge scene.",
+    "Link": "Grunge Hood (Drifter)",
+    "Name": "Grunge Hood (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultGrunge",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Grineer Sleeves": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultGrineer.png",
+    "Description": "Sneak behind enemy lines with this scavenged Grineer Lancer shoulder armor and gloves. Fitted for The Drifter.",
+    "Link": "Drifter Grineer Sleeves",
+    "Name": "Drifter Grineer Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultDrifterGrineer",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Drifter Keeler Suit": {
+    "Type": "Body Suit",
+    "Image": "BodySuitAdultDrifterB.png",
+    "Description": "Nora Night recovered this suit from Saturn’s Keeler Gap. The durable material lined with rebreather tubing shows it was designed with depressurization in mind.",
+    "Link": "Drifter Keeler Suit",
+    "Name": "Drifter Keeler Suit",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultDrifterB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Saita Prime Suit": {
+    "Type": "Body Suit",
+    "Image": "SuitPrimeA.png",
+    "Description": "A suit of an Operator outfit.",
+    "Link": "Saita Prime Suit",
+    "Name": "Saita Prime Suit",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitPrimeA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Zariman Hood": {
+    "Type": "Hood",
+    "Image": "HoodAdultA.png",
+    "Description": "The Drifter’s Zariman hood. Still intact after all these years.",
+    "Link": "Drifter Zariman Hood",
+    "Name": "Drifter Zariman Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Haztech Apparel (Drifter)": {
+    "Type": "Waistband",
+    "Image": "SkirtAdultJ.png",
+    "Description": "When coolant offgasses or a fusion-gen gets cracked it's everybody out. Everybody except the haztechs. Drifter armor modeled on the daredevils of Fortuna's maintenance crews.",
+    "Link": "Haztech Apparel (Drifter)",
+    "Name": "Haztech Apparel (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtAdultJ",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Feldune Pants": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultArabic.png",
+    "Description": "Ready yourself for the heat of battle. Fitted for the Drifter and the Operator.",
+    "Link": "Drifter Feldune Pants",
+    "Name": "Drifter Feldune Pants",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultArabic",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Clearvoy Prime Suit (Operator)": {
+    "Type": "Body Suit",
+    "Image": "SuitPrimeD.png",
+    "Description": "A look worthy of one who has the power to straddle realities. Fitted for the Operator.",
+    "Link": "Clearvoy Prime Suit (Operator)",
+    "Name": "Clearvoy Prime Suit (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitPrimeD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kaneshell Atomicycle Leggings (Operator)": {
+    "Type": "Leggings",
+    "Image": "KaneshellAtomicycleLeggings(Operator).png",
+    "Description": "Slide into this biker outfit of the new millenium. Fitted for the Drifter and Operator.",
+    "Link": "Kaneshell Atomicycle Leggings (Operator)",
+    "Name": "Kaneshell Atomicycle Leggings (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/OperatorNightwave1999Leggings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Necra Prime Greaves (Drifter)": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultPrimeE.png",
+    "Description": "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
+    "Link": "Necra Prime Greaves (Drifter)",
+    "Name": "Necra Prime Greaves (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultPrimeE",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ceno Greaves (Drifter)": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultE.png",
+    "Description": "An armor design honoring the monastic legacy of the Quills. Fitted for the Drifter.",
+    "Link": "Ceno Greaves (Drifter)",
+    "Name": "Ceno Greaves (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultE",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Harrier Legs": {
+    "Type": "Leggings",
+    "Image": "ZephyrDeluxeLeggings.png",
+    "Description": "Leggings for an Operator outfit.",
+    "Link": "Harrier Legs",
+    "Name": "Harrier Legs",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsZephyrDeluxe",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Athletic Shirt (Operator)": {
+    "Type": "Body Suit",
+    "Image": "SuitAthletic.png",
+    "Description": "Get your game on with this exclusive line of sportswear-inspired Drifter garments and accessories.",
+    "Link": "Athletic Shirt (Operator)",
+    "Name": "Athletic Shirt (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAthletic",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Commodore Prime Cuirass (Operator)": {
+    "Type": "Body Suit",
+    "Image": "OperatorPrimeArmourBody.png",
+    "Description": "Take command with this regal Operator suit.",
+    "Link": "Commodore Prime Cuirass (Operator)",
+    "Name": "Commodore Prime Cuirass (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/OperatorPrimeArmour/OperatorPrimeArmourBody",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Zariman Suit": {
+    "Type": "Body Suit",
+    "Image": "SuitA.png",
+    "Description": "A suit of an Operator outfit.",
+    "Link": "Zariman Suit",
+    "Name": "Zariman Suit",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitA",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Drifter Loneryder Suit": {
+    "Type": "Body Suit",
+    "Image": "BodySuitAdultOutfit1A.png",
+    "Description": "Look sharp after miles on the dusty trail. Fitted for the Drifter and the Operator.",
+    "Link": "Drifter Loneryder Suit",
+    "Name": "Drifter Loneryder Suit",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultOutfit1A",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ceno Greaves (Operator)": {
+    "Type": "Leggings",
+    "Image": "MonkArmourLegs.png",
+    "Description": "An armor design honoring the monastic legacy of the Quills. Fitted for the Operator.",
+    "Link": "Ceno Greaves (Operator)",
+    "Name": "Ceno Greaves (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Monk/MonkArmourLegs",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Athletic Leggings (Drifter)": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultAthletic.png",
+    "Description": "Get your game on with this exclusive line of sportswear-inspired Drifter garments and accessories.",
+    "Link": "Athletic Leggings (Drifter)",
+    "Name": "Athletic Leggings (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultAthletic",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Koppra Suit": {
+    "Type": "Body Suit",
+    "Image": "SuitB.png",
+    "Description": "A suit of an Operator outfit.",
+    "Link": "Koppra Suit",
+    "Name": "Koppra Suit",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitB",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Haztech Greaves (Operator)": {
+    "Type": "Leggings",
+    "Image": "ApparatistLegs.png",
+    "Description": "When coolant offgasses or a fusion-gen gets cracked it's everybody out. Everybody except the haztechs. Operator armor modeled on the daredevils of Fortuna's maintanaince crews.",
+    "Link": "Haztech Greaves (Operator)",
+    "Name": "Haztech Greaves (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Apparatist/ApparatistArmourLegs",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Commodore Prime Pauldrons (Operator)": {
+    "Type": "Sleeves",
+    "Image": "OperatorPrimeArmourArms.png",
+    "Description": "Take command with this regal Operator suit.",
+    "Link": "Commodore Prime Pauldrons (Operator)",
+    "Name": "Commodore Prime Pauldrons (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/OperatorPrimeArmour/OperatorPrimeArmourArms",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Grineer Pants": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultGrineer.png",
+    "Description": "Sneak behind enemy lines with this scavenged Grineer Lancer pants and boots. Fitted for The Drifter.",
+    "Link": "Drifter Grineer Pants",
+    "Name": "Drifter Grineer Pants",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultDrifterGrineer",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Commodore Prime Cuirass (Drifter)": {
+    "Type": "Body Suit",
+    "Image": "BodySuitAdultPrimeB.png",
+    "Description": "Take command with this regal Drifter suit.",
+    "Link": "Commodore Prime Cuirass (Drifter)",
+    "Name": "Commodore Prime Cuirass (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultPrimeB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Grunge Leggings (Drifter)": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultGrunge.png",
+    "Description": "Keep it real on the streets with thrifty, downbeat clothing inspired by the grunge scene.",
+    "Link": "Grunge Leggings (Drifter)",
+    "Name": "Grunge Leggings (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultGrunge",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Goth Sleeves (Operator)": {
+    "Type": "Sleeves",
+    "Image": "SleevesGoth.png",
+    "Description": "Watch from the shadows or dance with the dead, with these Gothic-inspired garments.",
+    "Link": "Goth Sleeves (Operator)",
+    "Name": "Goth Sleeves (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesOperatorDrifterGoth",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Zauba Cuirass (Operator)": {
+    "Type": "Body Suit",
+    "Image": "MageArmourBody.png",
+    "Description": "Inspired by the seers of old; constructed to withstand ravages to both body and mind. Fitted for the Operator.",
+    "Link": "Zauba Cuirass (Operator)",
+    "Name": "Zauba Cuirass (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Mage/MageArmourBody",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Gear": {
+    "Type": "Waistband",
+    "Image": "SkirtAdultC.png",
+    "Description": "Rugged gear, worn ragged by The Drifter.",
+    "Link": "Drifter Gear",
+    "Name": "Drifter Gear",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtAdultC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ceno Pauldrons (Drifter)": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultE.png",
+    "Description": "An armor design honoring the monastic legacy of the Quills. Fitted for the Drifter.",
+    "Link": "Ceno Pauldrons (Drifter)",
+    "Name": "Ceno Pauldrons (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultE",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Grineer Vest": {
+    "Type": "Body Suit",
+    "Image": "SuitAdultGrineer.png",
+    "Description": "Sneak behind enemy lines with this scavenged Grineer Lancer breast plate. Fitted for The Drifter.",
+    "Link": "Drifter Grineer Vest",
+    "Name": "Drifter Grineer Vest",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultDrifterGrineer",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Vent Rat Pauldrons": {
+    "Type": "Sleeves",
+    "Image": "TechnomancerArms.png",
+    "Description": "Living in Fortuna a lot of repairs need to happen in the vents. Lightweight and practical Operator armor designed for flexibility and tight squeezes.",
+    "Link": "Vent Rat Pauldrons",
+    "Name": "Vent Rat Pauldrons",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Technomancer/TechnomancerArmourArms",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Grineer Hood": {
+    "Type": "Hood",
+    "Image": "HoodAdultGrineer.png",
+    "Description": "Sneak behind enemy lines with this scavenged Grineer Lancer face shield and hood. Fitted for The Drifter.",
+    "Link": "Drifter Grineer Hood",
+    "Name": "Drifter Grineer Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultDrifterGrineer",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Kaneshell Atomicycle Jacket (Operator)": {
+    "Type": "Body Suit",
+    "Image": "KaneshellAtomicycleJacket(Operator).png",
+    "Description": "Slide into this biker outfit of the new millenium. Fitted for the Drifter and Operator.",
+    "Link": "Kaneshell Atomicycle Jacket (Operator)",
+    "Name": "Kaneshell Atomicycle Jacket (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/OperatorNightwave1999Torso",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ceno Helmet (Drifter)": {
+    "Type": "Hood",
+    "Image": "HoodAdultE.png",
+    "Description": "An armor design honoring the monastic legacy of the Quills. Fitted for the Drifter.",
+    "Link": "Ceno Helmet (Drifter)",
+    "Name": "Ceno Helmet (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultE",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Koppra Tassets": {
+    "Type": "Waistband",
+    "Image": "HipSocketB.png",
+    "Description": "A waistband component for an Operator outfit.",
+    "Link": "Koppra Tassets",
+    "Name": "Koppra Tassets",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/HipSocketB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Lark Bishamo Helmet (Operator)": {
+    "Type": "Hood",
+    "Image": "HoodDaxB.png",
+    "Description": "Uphold the elite warrior tradition of Teshin and the Dax in the Bishamo Armor Set.",
+    "Link": "Lark Bishamo Helmet (Operator)",
+    "Name": "Lark Bishamo Helmet (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodDaxB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Athletic Shirt (Drifter)": {
+    "Type": "Body Suit",
+    "Image": "SuitAdultAthletic.png",
+    "Description": "Get your game on with this exclusive line of sportswear-inspired Drifter garments and accessories.",
+    "Link": "Athletic Shirt (Drifter)",
+    "Name": "Athletic Shirt (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultAthletic",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Templar Prime Suit (Drifter)": {
+    "Type": "Body Suit",
+    "Image": "BodySuitAdultPrimeC.png",
+    "Description": "The dress uniform worn with pride by Harrow's faithful legions. ",
+    "Link": "Templar Prime Suit (Drifter)",
+    "Name": "Templar Prime Suit (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultPrimeC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Kaneshell Atomicycle Sleeves (Drifter)": {
+    "Type": "Sleeves",
+    "Image": "KaneshellAtomicycleSleeves(Drifter).png",
+    "Description": "Slide into this biker outfit of the new millenium. Fitted for the Drifter and Operator.",
+    "Link": "Kaneshell Atomicycle Sleeves (Drifter)",
+    "Name": "Kaneshell Atomicycle Sleeves (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/DrifterNightwave1999Sleeves",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kaneshell Atomicycle Sleeves (Operator)": {
+    "Type": "Sleeves",
+    "Image": "KaneshellAtomicycleSleeves(Operator).png",
+    "Description": "Slide into this biker outfit of the new millenium. Fitted for the Drifter and Operator.",
+    "Link": "Kaneshell Atomicycle Sleeves (Operator)",
+    "Name": "Kaneshell Atomicycle Sleeves (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/OperatorNightwave1999Sleeves",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Sleeves": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultC.png",
+    "Description": "Ragged sleeves and leather gloves worn by The Drifter",
+    "Link": "Drifter Sleeves",
+    "Name": "Drifter Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Operator Loneryder Pants": {
+    "Type": "Leggings",
+    "Image": "Outfit1ALegs.png",
+    "Description": "Look sharp after miles on the dusty trail. Fitted for the Drifter and the Operator.",
+    "Link": "Operator Loneryder Pants",
+    "Name": "Operator Loneryder Pants",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsOutfit1A",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Zariman Sleeves": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultA.png",
+    "Description": "The Drifter’s Zariman sleeves and gloves. Still intact after all these years.",
+    "Link": "Drifter Zariman Sleeves",
+    "Name": "Drifter Zariman Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Haztech Mask (Drifter)": {
+    "Type": "Hood",
+    "Image": "HoodAdultJ.png",
+    "Description": "When coolant offgasses or a fusion-gen gets cracked it's everybody out. Everybody except the haztechs. Drifter armor modeled on the daredevils of Fortuna's maintenance crews.",
+    "Link": "Haztech Mask (Drifter)",
+    "Name": "Haztech Mask (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultJ",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Athletic Disc Player and Towel (Operator)": {
+    "Type": "Waistband",
+    "Image": "SkirtAthletic.png",
+    "Description": "Get your game on with this exclusive line of sportswear-inspired Drifter garments and accessories.",
+    "Link": "Athletic Disc Player and Towel (Operator)",
+    "Name": "Athletic Disc Player and Towel (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtAthletic",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Saita Prime Hood (Drifter)": {
+    "Type": "Hood",
+    "Image": "HoodAdultPrimeA.png",
+    "Description": "A hood belonging to a Drifter outfit.",
+    "Link": "Saita Prime Hood (Drifter)",
+    "Name": "Saita Prime Hood (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultPrimeA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Orizu Hood": {
+    "Type": "Hood",
+    "Image": "HoodAdultOutfit3A.png",
+    "Description": "Invite longevity and protection with a look inspired by the origami crane. Fitted for the Drifter and the Operator.",
+    "Link": "Drifter Orizu Hood",
+    "Name": "Drifter Orizu Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultOutfit3A",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Dex Pants": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultDex.png",
+    "Description": "A gift from the Lotus to commemorate the tenth anniversary of the first Tenno waking from Cryo stasis. Fitted for the Drifter and the Operator.",
+    "Link": "Drifter Dex Pants",
+    "Name": "Drifter Dex Pants",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultDexOutfit",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Feldune Sleeves": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultArabic.png",
+    "Description": "Ready yourself for the heat of battle. Fitted for the Drifter and the Operator.",
+    "Link": "Drifter Feldune Sleeves",
+    "Name": "Drifter Feldune Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultArabic",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Excalibur Mask": {
+    "Type": "Hood",
+    "Image": "ExcaliburMask.png",
+    "Description": "Play as noble Excalibur - master of gun and blade.",
+    "Link": "Excalibur Mask",
+    "Name": "Excalibur Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Ostron/ExcaliburMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vent Pobber Ventkid Apparel": {
+    "Type": "Waistband",
+    "Image": "SuitNSkirt.png",
+    "Description": "Operator Armor modeled on the workshop gear favored by Roky, leader of the industrious Vent Pobbers.",
+    "Link": "Vent Pobber Ventkid Apparel",
+    "Name": "Vent Pobber Ventkid Apparel",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtN",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Haztech Greaves (Drifter)": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultJ.png",
+    "Description": "When coolant offgasses or a fusion-gen gets cracked it's everybody out. Everybody except the haztechs. Drifter armor modeled on the daredevils of Fortuna's maintenance crews.",
+    "Link": "Haztech Greaves (Drifter)",
+    "Name": "Haztech Greaves (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultJ",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Nightwave Leggings (Operator)": {
+    "Type": "Leggings",
+    "Image": "NightSuitLeggings.png",
+    "Description": "Leggings for all of you Dreamers out there.",
+    "Link": "Nightwave Leggings (Operator)",
+    "Name": "Nightwave Leggings (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsNightSuit",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Athletic Sleeves (Operator)": {
+    "Type": "Sleeves",
+    "Image": "SleevesAthletic.png",
+    "Description": "Get your game on with this exclusive line of sportswear-inspired Drifter garments and accessories.",
+    "Link": "Athletic Sleeves (Operator)",
+    "Name": "Athletic Sleeves (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAthletic",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Templar Prime Hood (Drifter)": {
+    "Type": "Hood",
+    "Image": "HoodAdultPrimeC.png",
+    "Description": "The dress uniform worn with pride by Harrow's faithful legions. ",
+    "Link": "Templar Prime Hood (Drifter)",
+    "Name": "Templar Prime Hood (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultPrimeC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Harrier Hood": {
+    "Type": "Hood",
+    "Image": "ZephyrDeluxeHood.png",
+    "Description": "A hood belonging to an Operator outfit.",
+    "Link": "Harrier Hood",
+    "Name": "Harrier Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodZephyrDeluxe",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Keeler Sleeves": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultDrifterB.png",
+    "Description": "Nora Night recovered this suit from Saturn’s Keeler Gap. The durable material lined with rebreather tubing shows it was designed with depressurization in mind.",
+    "Link": "Drifter Keeler Sleeves",
+    "Name": "Drifter Keeler Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultDrifterB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Outrider Pauldrons": {
+    "Type": "Sleeves",
+    "Image": "SmelterArms.png",
+    "Description": "Operator armor modeled on enviro-gear worn by the surveyors and scouts of the Orb Vallis. Protected by an all-weather cloak they catalogue the wildlife, seek out resources and chart safe routes for patrols and miners.",
+    "Link": "Outrider Pauldrons",
+    "Name": "Outrider Pauldrons",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Smelter/SmelterArmourArms",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Zauba Apparel (Drifter)": {
+    "Type": "Waistband",
+    "Image": "SkirtAdultG.png",
+    "Description": "Inspired by the seers of old; constructed to withstand ravages to both body and mind. Fitted for the Drifter.",
+    "Link": "Zauba Apparel (Drifter)",
+    "Name": "Zauba Apparel (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtAdultG",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Necra Prime Pauldrons (Operator)": {
+    "Type": "Sleeves",
+    "Image": "SleevesPrimeE.png",
+    "Description": "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
+    "Link": "Necra Prime Pauldrons (Operator)",
+    "Name": "Necra Prime Pauldrons (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesPrimeE",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Grunge Sleeves (Operator)": {
+    "Type": "Sleeves",
+    "Image": "SleevesGrunge.png",
+    "Description": "Keep it real on the streets with thrifty, downbeat clothing inspired by the grunge scene.",
+    "Link": "Grunge Sleeves (Operator)",
+    "Name": "Grunge Sleeves (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesGrunge",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Nightwave Suit (Operator)": {
+    "Type": "Body Suit",
+    "Image": "NightSuitBody.png",
+    "Description": "A suit for all of you Dreamers out there.",
+    "Link": "Nightwave Suit (Operator)",
+    "Name": "Nightwave Suit (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitNightSuit",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Manduka Leggings": {
+    "Type": "Leggings",
+    "Image": "LeggingsD.png",
+    "Description": "Leggings for an Operator outfit.",
+    "Link": "Manduka Leggings",
+    "Name": "Manduka Leggings",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsD",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Vent Pobber Ventkid Cuirass": {
+    "Type": "Body Suit",
+    "Image": "SuitN.png",
+    "Description": "Operator Armor modeled on the workshop gear favored by Roky, leader of the industrious Vent Pobbers.",
+    "Link": "Vent Pobber Ventkid Cuirass",
+    "Name": "Vent Pobber Ventkid Cuirass",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitN",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vahd Pauldrons (Drifter)": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultF.png",
+    "Description": "Crafted with surety of purpose, and clarity of vision. Fitted for the Drifter.",
+    "Link": "Vahd Pauldrons (Drifter)",
+    "Name": "Vahd Pauldrons (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultF",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vahd Mask (Drifter)": {
+    "Type": "Hood",
+    "Image": "HoodAdultF.png",
+    "Description": "Crafted with surety of purpose, and clarity of vision. Fitted for the Drifter.",
+    "Link": "Vahd Mask (Drifter)",
+    "Name": "Vahd Mask (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultF",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Outrider Cuirass": {
+    "Type": "Body Suit",
+    "Image": "SmelterBody.png",
+    "Description": "Operator armor modeled on enviro-gear worn by the surveyors and scouts of the Orb Vallis. Protected by an all-weather cloak they catalogue the wildlife, seek out resources and chart safe routes for patrols and miners.",
+    "Link": "Outrider Cuirass",
+    "Name": "Outrider Cuirass",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Smelter/SmelterArmourBody",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Dex Sleeves": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultDex.png",
+    "Description": "A gift from the Lotus to commemorate the tenth anniversary of the first Tenno waking from Cryo stasis. Fitted for the Drifter and the Operator.",
+    "Link": "Drifter Dex Sleeves",
+    "Name": "Drifter Dex Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultDexOutfit",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Zariman Leggings": {
+    "Type": "Leggings",
+    "Image": "LeggingsA.png",
+    "Description": "Leggings for an Operator outfit.",
+    "Link": "Zariman Leggings",
+    "Name": "Zariman Leggings",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsA",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Zariman Hood": {
+    "Type": "Hood",
+    "Image": "HoodA.png",
+    "Description": "A hood belonging to an Operator outfit.",
+    "Link": "Zariman Hood",
+    "Name": "Zariman Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodA",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Smelter Pauldrons (Drifter)": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultK.png",
+    "Description": "Drifter armor inspired by those Solaris who must work in searing heat. ",
+    "Link": "Smelter Pauldrons (Drifter)",
+    "Name": "Smelter Pauldrons (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultK",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Wolf Hood": {
+    "Type": "Hood",
+    "Image": "WolfHood.png",
+    "Description": "A hood from the only lunatic fearsome enough to have escaped the Saturn Six Max-Pen.",
+    "Link": "Wolf Hood",
+    "Name": "Wolf Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/WolfHood",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Haztech Pauldrons (Drifter)": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultJ.png",
+    "Description": "When coolant offgasses or a fusion-gen gets cracked it's everybody out. Everybody except the haztechs. Drifter armor modeled on the daredevils of Fortuna's maintenance crews.",
+    "Link": "Haztech Pauldrons (Drifter)",
+    "Name": "Haztech Pauldrons (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultJ",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Mask of the Lost One": {
+    "Type": "Hood",
+    "Image": "RevenantMask.png",
+    "Description": "Built to the Unum’s specifications, and fitted with prismatic lenses supplied by the Quill Onkko.",
+    "Link": "Mask of the Lost One",
+    "Name": "Mask of the Lost One",
+    "InternalName": "/Lotus/Upgrades/Skins/Ostron/RevenantMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Volt Mask": {
+    "Type": "Hood",
+    "Image": "VoltMask.png",
+    "Description": "Bzz-zz-zzt! Fry the baddies with arcs of powerful energy. Volt!",
+    "Link": "Volt Mask",
+    "Name": "Volt Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Ostron/VoltMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Smelter Mask (Operator)": {
+    "Type": "Hood",
+    "Image": "HoodK.png",
+    "Description": "Operator armor inspired by those Solaris who must work in searing heat. ",
+    "Link": "Smelter Mask (Operator)",
+    "Name": "Smelter Mask (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/GreaseWitch/GreaseArmourHead",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Smelter Cuirass (Operator)": {
+    "Type": "Body Suit",
+    "Image": "GreaseBody.png",
+    "Description": "Operator armor inspired by those Solaris who must work in searing heat. ",
+    "Link": "Smelter Cuirass (Operator)",
+    "Name": "Smelter Cuirass (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/GreaseWitch/GreaseArmourBody",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Voidshell Sleeves": {
+    "Type": "Sleeves",
+    "Image": "SleevesChameleon.png",
+    "Description": "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+    "Link": "Voidshell Sleeves",
+    "Name": "Voidshell Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesChameleon",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Operator Keeler Hood": {
+    "Type": "Hood",
+    "Image": "HoodOutfit2A.png",
+    "Description": "Nora Night recovered this suit from Saturn’s Keeler Gap. The durable material lined with rebreather tubing shows it was designed with depressurization in mind.",
+    "Link": "Operator Keeler Hood",
+    "Name": "Operator Keeler Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodOutfit2A",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Voidshell Leggings": {
+    "Type": "Leggings",
+    "Image": "LeggingsChameleon.png",
+    "Description": "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+    "Link": "Voidshell Leggings",
+    "Name": "Voidshell Leggings",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsChameleon",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Necra Prime Cuirass (Operator)": {
+    "Type": "Body Suit",
+    "Image": "SuitPrimeE.png",
+    "Description": "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
+    "Link": "Necra Prime Cuirass (Operator)",
+    "Name": "Necra Prime Cuirass (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitPrimeE",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vahd Cuirass (Drifter)": {
+    "Type": "Body Suit",
+    "Image": "BodySuitAdultF.png",
+    "Description": "Crafted with surety of purpose, and clarity of vision. Fitted for the Drifter.",
+    "Link": "Vahd Cuirass (Drifter)",
+    "Name": "Vahd Cuirass (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultF",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Voidshell Hood": {
+    "Type": "Hood",
+    "Image": "HoodChameleon.png",
+    "Description": "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+    "Link": "Voidshell Hood",
+    "Name": "Voidshell Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodChameleon",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Necra Prime Greaves (Operator)": {
+    "Type": "Leggings",
+    "Image": "LeggingsPrimeE.png",
+    "Description": "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
+    "Link": "Necra Prime Greaves (Operator)",
+    "Name": "Necra Prime Greaves (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsPrimeE",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vent Rat Mask": {
+    "Type": "Hood",
+    "Image": "HoodL.png",
+    "Description": "Living in Fortuna a lot of repairs need to happen in the vents. Lightweight and practical Operator armor designed for flexibility and tight squeezes.",
+    "Link": "Vent Rat Mask",
+    "Name": "Vent Rat Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Technomancer/TechnomancerArmourHead",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vent Pobber Ventkid Pauldrons": {
+    "Type": "Sleeves",
+    "Image": "SuitNSleeves.png",
+    "Description": "Operator Armor modeled on the workshop gear favored by Roky, leader of the industrious Vent Pobbers.",
+    "Link": "Vent Pobber Ventkid Pauldrons",
+    "Name": "Vent Pobber Ventkid Pauldrons",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesN",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Haztech Apparel (Operator)": {
+    "Type": "Waistband",
+    "Image": "ApparatistHip.png",
+    "Description": "When coolant offgasses or a fusion-gen gets cracked it's everybody out. Everybody except the haztechs. Operator armor modeled on the daredevils of Fortuna's maintanaince crews.",
+    "Link": "Haztech Apparel (Operator)",
+    "Name": "Haztech Apparel (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtJ",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kaneshell Atomicycle Helmet (Operator)": {
+    "Type": "Hood",
+    "Image": "KaneshellAtomicycleHelmet(Operator).png",
+    "Description": "Slide into this biker outfit of the new millenium. Fitted for the Drifter and Operator.",
+    "Link": "Kaneshell Atomicycle Helmet (Operator)",
+    "Name": "Kaneshell Atomicycle Helmet (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/OperatorNightwave1999Helmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Zauba Mask (Drifter)": {
+    "Type": "Hood",
+    "Image": "HoodAdultG.png",
+    "Description": "Inspired by the seers of old; constructed to withstand ravages to both body and mind. Fitted for the Drifter.",
+    "Link": "Zauba Mask (Drifter)",
+    "Name": "Zauba Mask (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultG",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ceno Apparel (Drifter)": {
+    "Type": "Waistband",
+    "Image": "SkirtAdultE.png",
+    "Description": "An armor design honoring the monastic legacy of the Quills. Fitted for the Drifter.",
+    "Link": "Ceno Apparel (Drifter)",
+    "Name": "Ceno Apparel (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtAdultE",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Hawk Bishamo Cuirass (Drifter)": {
+    "Type": "Body Suit",
+    "Image": "SuitAdultDaxA.png",
+    "Description": "Uphold the elite warrior tradition of Teshin and the Dax in the Bishamo Armor Set.",
+    "Link": "Hawk Bishamo Cuirass (Drifter)",
+    "Name": "Hawk Bishamo Cuirass (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultDaxA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Grineer Mask": {
+    "Type": "Hood",
+    "Image": "GrineerMask.png",
+    "Description": "Take up arms against the Tenno. Fight for the loathsome Grineer! Someone has to be the bad guy.",
+    "Link": "Grineer Mask",
+    "Name": "Grineer Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Ostron/GrineerMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Zauba Greaves (Operator)": {
+    "Type": "Leggings",
+    "Image": "MageArmourLegs.png",
+    "Description": "Inspired by the seers of old; constructed to withstand ravages to both body and mind. Fitted for the Operator.",
+    "Link": "Zauba Greaves (Operator)",
+    "Name": "Zauba Greaves (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Mage/MageArmourLegs",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vahd Mask (Operator)": {
+    "Type": "Hood",
+    "Image": "HoodF.png",
+    "Description": "Crafted with surety of purpose, and clarity of vision. Fitted for the Operator.",
+    "Link": "Vahd Mask (Operator)",
+    "Name": "Vahd Mask (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Seer/SeerArmourHead",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Zauba Cuirass (Drifter)": {
+    "Type": "Body Suit",
+    "Image": "BodySuitAdultG.png",
+    "Description": "Inspired by the seers of old; constructed to withstand ravages to both body and mind. Fitted for the Drifter.",
+    "Link": "Zauba Cuirass (Drifter)",
+    "Name": "Zauba Cuirass (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultG",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vahd Greaves (Operator)": {
+    "Type": "Leggings",
+    "Image": "SeerArmourLegs.png",
+    "Description": "Crafted with surety of purpose, and clarity of vision. Fitted for the Operator.",
+    "Link": "Vahd Greaves (Operator)",
+    "Name": "Vahd Greaves (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Seer/SeerArmourLegs",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vahd Cuirass (Operator)": {
+    "Type": "Body Suit",
+    "Image": "SeerArmourBody.png",
+    "Description": "Crafted with surety of purpose, and clarity of vision. Fitted for the Operator.",
+    "Link": "Vahd Cuirass (Operator)",
+    "Name": "Vahd Cuirass (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Seer/SeerArmourBody",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Hawk Bishamo Greaves (Operator)": {
+    "Type": "Leggings",
+    "Image": "TeshinArmourLegs.png",
+    "Description": "Uphold the elite warrior tradition of Teshin and the Dax in the Bishamo Armor Set.",
+    "Link": "Hawk Bishamo Greaves (Operator)",
+    "Name": "Hawk Bishamo Greaves (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Teshin/TeshinArmourLegs",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Operator Loneryder Suit": {
+    "Type": "Body Suit",
+    "Image": "Outfit1ABody.png",
+    "Description": "Look sharp after miles on the dusty trail. Fitted for the Drifter and the Operator.",
+    "Link": "Operator Loneryder Suit",
+    "Name": "Operator Loneryder Suit",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitOutfit1A",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Trinity Mask": {
+    "Type": "Hood",
+    "Image": "TrinityMask.png",
+    "Description": "Heal your friends, push back the Grineer. Never say die. Trinity!",
+    "Link": "Trinity Mask",
+    "Name": "Trinity Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Ostron/TrinityMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Clearvoy Prime Hood (Drifter)": {
+    "Type": "Hood",
+    "Image": "HoodAdultPrimeD.png",
+    "Description": "A look worthy of one who has the power to straddle realities. Fitted for the Drifter.",
+    "Link": "Clearvoy Prime Hood (Drifter)",
+    "Name": "Clearvoy Prime Hood (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultPrimeD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "TennoCon 2022 Suit (Operator)": {
+    "Type": "Body Suit",
+    "Image": "TennoCon2022Body.png",
+    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2022.",
+    "Link": "TennoCon 2022 Suit (Operator)",
+    "Name": "TennoCon 2022 Suit (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitM2022TennoCon",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Grineer Gear": {
+    "Type": "Waistband",
+    "Image": "SkirtAdultGrineer.png",
+    "Description": "Sneak behind enemy lines with this scavenged Grineer Lancer gear. Fitted for The Drifter.",
+    "Link": "Drifter Grineer Gear",
+    "Name": "Drifter Grineer Gear",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtDrifterGrineer",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "TennoCon 2022 Suit (Drifter)": {
+    "Type": "Body Suit",
+    "Image": "BodySuitAdultTennocon2022.png",
+    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2022.",
+    "Link": "TennoCon 2022 Suit (Drifter)",
+    "Name": "TennoCon 2022 Suit (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultM2022TennoCon",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Lark Bishamo Helmet (Drifter)": {
+    "Type": "Hood",
+    "Image": "HoodAdultDaxB.png",
+    "Description": "Uphold the elite warrior tradition of Teshin and the Dax in the Bishamo Armor Set.",
+    "Link": "Lark Bishamo Helmet (Drifter)",
+    "Name": "Lark Bishamo Helmet (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultDaxB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "TennoCon 2022 Sleeves (Drifter)": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultTennocon2022.png",
+    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2022.",
+    "Link": "TennoCon 2022 Sleeves (Drifter)",
+    "Name": "TennoCon 2022 Sleeves (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultM2022Tennocon",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "TennoCon 2022 Hood (Operator)": {
+    "Type": "Hood",
+    "Image": "TennoCon2022.png",
+    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2022.",
+    "Link": "TennoCon 2022 Hood (Operator)",
+    "Name": "TennoCon 2022 Hood (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodM2022TennoCon",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "TennoCon 2022 Hood (Drifter)": {
+    "Type": "Hood",
+    "Image": "HoodAdultTennocon2022.png",
+    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2022.",
+    "Link": "TennoCon 2022 Hood (Drifter)",
+    "Name": "TennoCon 2022 Hood (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultM2022TennoCon",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Templar Prime Leggings (Operator)": {
+    "Type": "Leggings",
+    "Image": "LeggingsPrimeC.png",
+    "Description": "The dress uniform worn with pride by Harrow's faithful legions. ",
+    "Link": "Templar Prime Leggings (Operator)",
+    "Name": "Templar Prime Leggings (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsPrimeC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Templar Prime Hood (Operator)": {
+    "Type": "Hood",
+    "Image": "HoodPrimeC.png",
+    "Description": "The dress uniform worn with pride by Harrow's faithful legions. ",
+    "Link": "Templar Prime Hood (Operator)",
+    "Name": "Templar Prime Hood (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodPrimeC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Harrier Legs (Drifter)": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultDeluxe.png",
+    "Description": "Leggings for a Drifter outfit.",
+    "Link": "Harrier Legs (Drifter)",
+    "Name": "Harrier Legs (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultDeluxeA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Haztech Mask (Operator)": {
+    "Type": "Hood",
+    "Image": "HoodJ.png",
+    "Description": "When coolant offgasses or a fusion-gen gets cracked it's everybody out. Everybody except the haztechs. Operator armor modeled on the daredevils of Fortuna's maintanaince crews.",
+    "Link": "Haztech Mask (Operator)",
+    "Name": "Haztech Mask (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Apparatist/ApparatistArmourHead",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Templar Prime Apparel (Drifter)": {
+    "Type": "Waistband",
+    "Image": "SkirtAdultPrimeC.png",
+    "Description": "The dress uniform worn with pride by Harrow's faithful legions. ",
+    "Link": "Templar Prime Apparel (Drifter)",
+    "Name": "Templar Prime Apparel (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtAdultPrimeC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Smelter Pauldrons (Operator)": {
+    "Type": "Sleeves",
+    "Image": "GreaseArms.png",
+    "Description": "Operator armor inspired by those Solaris who must work in searing heat. ",
+    "Link": "Smelter Pauldrons (Operator)",
+    "Name": "Smelter Pauldrons (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/GreaseWitch/GreaseArmourArms",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Voidshell Suit": {
+    "Type": "Body Suit",
+    "Image": "SuitChameleon.png",
+    "Description": "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+    "Link": "Voidshell Suit",
+    "Name": "Voidshell Suit",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitChameleon",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Smelter Mask (Drifter)": {
+    "Type": "Hood",
+    "Image": "HoodAdultK.png",
+    "Description": "Drifter armor inspired by those Solaris who must work in searing heat. ",
+    "Link": "Smelter Mask (Drifter)",
+    "Name": "Smelter Mask (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultK",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Masker's Theodolite Crewsuit": {
+    "Type": "Body Suit",
+    "Image": "NovaEngineerBody.png",
+    "Description": "Historian Drusus Leverian recalls that the hostage crew of the passenger vessel, Masker's Theodolite, wore this very crewsuit when they were rescued by Nova.",
+    "Link": "Masker's Theodolite Crewsuit",
+    "Name": "Masker's Theodolite Crewsuit",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitNovaEngineer",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Operator Orizu Hood": {
+    "Type": "Hood",
+    "Image": "HoodOutfit3A.png",
+    "Description": "Invite longevity and protection with a look inspired by the origami crane. Fitted for the Drifter and the Operator.",
+    "Link": "Operator Orizu Hood",
+    "Name": "Operator Orizu Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodOutfit3A",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Clearvoy Prime Hood (Operator)": {
+    "Type": "Hood",
+    "Image": "HoodPrimeD.png",
+    "Description": "A look worthy of one who has the power to straddle realities. Fitted for the Operator.",
+    "Link": "Clearvoy Prime Hood (Operator)",
+    "Name": "Clearvoy Prime Hood (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodPrimeD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Operator Dex Leggings": {
+    "Type": "Leggings",
+    "Image": "DexLegs.png",
+    "Description": "A gift from the Lotus to commemorate the tenth anniversary of the first Tenno waking from Cryo stasis. Fitted for the Drifter and the Operator.",
+    "Link": "Operator Dex Leggings",
+    "Name": "Operator Dex Leggings",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsDexOutfit",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Smelter Greaves (Operator)": {
+    "Type": "Leggings",
+    "Image": "GreaseLegs.png",
+    "Description": "Operator armor inspired by those Solaris who must work in searing heat. ",
+    "Link": "Smelter Greaves (Operator)",
+    "Name": "Smelter Greaves (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/GreaseWitch/GreaseArmourLegs",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Operator Dex Suit": {
+    "Type": "Body Suit",
+    "Image": "DexBody.png",
+    "Description": "A gift from the Lotus to commemorate the tenth anniversary of the first Tenno waking from Cryo stasis. Fitted for the Drifter and the Operator.",
+    "Link": "Operator Dex Suit",
+    "Name": "Operator Dex Suit",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitDexOutfit",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Smelter Apparel (Operator)": {
+    "Type": "Waistband",
+    "Image": "GreaseHip.png",
+    "Description": "Operator armor inspired by those Solaris who must work in searing heat. ",
+    "Link": "Smelter Apparel (Operator)",
+    "Name": "Smelter Apparel (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtK",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Saita Prime Leggings (Drifter)": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultPrimeA.png",
+    "Description": "Leggings for a Drifter outfit.",
+    "Link": "Saita Prime Leggings (Drifter)",
+    "Name": "Saita Prime Leggings (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultPrimeA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Saturn Six Mask": {
+    "Type": "Hood",
+    "Image": "WolfStalkerMask.png",
+    "Description": "The signature mask of the only lunatic fearsome enough to have escaped the Saturn Six Max-Pen.",
+    "Link": "Saturn Six Mask",
+    "Name": "Saturn Six Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Events/WolfStalkerMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Varida Suit": {
+    "Type": "Body Suit",
+    "Image": "SuitC.png",
+    "Description": "A suit of an Operator outfit.",
+    "Link": "Varida Suit",
+    "Name": "Varida Suit",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Saita Prime Sleeves": {
+    "Type": "Sleeves",
+    "Image": "SleevesPrimeA.png",
+    "Description": "Sleeves for an Operator outfit.",
+    "Link": "Saita Prime Sleeves",
+    "Name": "Saita Prime Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesPrimeA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Haztech Cuirass (Drifter)": {
+    "Type": "Body Suit",
+    "Image": "BodySuitAdultJ.png",
+    "Description": "When coolant offgasses or a fusion-gen gets cracked it's everybody out. Everybody except the haztechs. Drifter armor modeled on the daredevils of Fortuna's maintenance crews.",
+    "Link": "Haztech Cuirass (Drifter)",
+    "Name": "Haztech Cuirass (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultJ",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Smelter Apparel (Drifter)": {
+    "Type": "Waistband",
+    "Image": "SkirtAdultK.png",
+    "Description": "Drifter armor inspired by those Solaris who must work in searing heat. ",
+    "Link": "Smelter Apparel (Drifter)",
+    "Name": "Smelter Apparel (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtAdultK",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Saita Prime Hood": {
+    "Type": "Hood",
+    "Image": "HoodPrimeA.png",
+    "Description": "A hood belonging to an Operator outfit.",
+    "Link": "Saita Prime Hood",
+    "Name": "Saita Prime Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodPrimeA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Athletic Disc Player and Towel (Drifter)": {
+    "Type": "Waistband",
+    "Image": "SkirtAdultAthletic.png",
+    "Description": "Get your game on with this exclusive line of sportswear-inspired Drifter garments and accessories.",
+    "Link": "Athletic Disc Player and Towel (Drifter)",
+    "Name": "Athletic Disc Player and Towel (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtAdultAthletic",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Outrider Greaves": {
+    "Type": "Leggings",
+    "Image": "SmelterLegs.png",
+    "Description": "Operator armor modeled on enviro-gear worn by the surveyors and scouts of the Orb Vallis. Protected by an all-weather cloak they catalogue the wildlife, seek out resources and chart safe routes for patrols and miners.",
+    "Link": "Outrider Greaves",
+    "Name": "Outrider Greaves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Smelter/SmelterArmourLegs",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Grunge Sleeves (Drifter)": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultGrunge.png",
+    "Description": "Keep it real on the streets with thrifty, downbeat clothing inspired by the grunge scene.",
+    "Link": "Grunge Sleeves (Drifter)",
+    "Name": "Grunge Sleeves (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultGrunge",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Goth Jacket (Operator)": {
+    "Type": "Body Suit",
+    "Image": "SuitGoth.png",
+    "Description": "Watch from the shadows or dance with the dead, with these Gothic-inspired garments.",
+    "Link": "Goth Jacket (Operator)",
+    "Name": "Goth Jacket (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitOperatorDrifterGoth",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Voidshell Leggings": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultChameleon.png",
+    "Description": "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+    "Link": "Drifter Voidshell Leggings",
+    "Name": "Drifter Voidshell Leggings",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultChameleon",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Operator Orizu Pants": {
+    "Type": "Leggings",
+    "Image": "Outfit3ALegs.png",
+    "Description": "Invite longevity and protection with a look inspired by the origami crane. Fitted for the Drifter and the Operator.",
+    "Link": "Operator Orizu Pants",
+    "Name": "Operator Orizu Pants",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsOutfit3A",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Koppra Leggings": {
+    "Type": "Leggings",
+    "Image": "LeggingsB.png",
+    "Description": "Leggings for an Operator outfit.",
+    "Link": "Koppra Leggings",
+    "Name": "Koppra Leggings",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsB",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Operator Keeler Sleeves": {
+    "Type": "Sleeves",
+    "Image": "Outfit2AArms.png",
+    "Description": "Nora Night recovered this suit from Saturn’s Keeler Gap. The durable material lined with rebreather tubing shows it was designed with depressurization in mind.",
+    "Link": "Operator Keeler Sleeves",
+    "Name": "Operator Keeler Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesOutfit2A",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Masker's Theodolite Crewsuit Hood": {
+    "Type": "Hood",
+    "Image": "HoodNovaEngineer.png",
+    "Description": "Historian Drusus Leverian recalls that the hostage crew of the passenger vessel, Masker's Theodolite, wore this very crewsuit when they were rescued by Nova.",
+    "Link": "Masker's Theodolite Crewsuit Hood",
+    "Name": "Masker's Theodolite Crewsuit Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodNovaEngineer",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Grunge Skirt (Drifter)": {
+    "Type": "Waistband",
+    "Image": "SkirtAdultGrunge.png",
+    "Description": "Keep it real on the streets with thrifty, downbeat clothing inspired by the grunge scene.",
+    "Link": "Grunge Skirt (Drifter)",
+    "Name": "Grunge Skirt (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtAdultGrunge",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Operator Feldune Hood": {
+    "Type": "Hood",
+    "Image": "HoodArabic.png",
+    "Description": "Ready yourself for the heat of battle. Fitted for the Drifter and the Operator.",
+    "Link": "Operator Feldune Hood",
+    "Name": "Operator Feldune Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodArabic",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Nightwave Suit (Drifter)": {
+    "Type": "Body Suit",
+    "Image": "NightSuitAdultBody.png",
+    "Description": "A suit for all of you Dreamers out there.",
+    "Link": "Nightwave Suit (Drifter)",
+    "Name": "Nightwave Suit (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultNightSuit",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Harrier Suit": {
+    "Type": "Body Suit",
+    "Image": "ZephyrDeluxeBody.png",
+    "Description": "The suit of an Operator outfit.",
+    "Link": "Harrier Suit",
+    "Name": "Harrier Suit",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitZephyrDeluxe",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Operator Dex Hood": {
+    "Type": "Hood",
+    "Image": "HoodDex.png",
+    "Description": "A gift from the Lotus to commemorate the tenth anniversary of the first Tenno waking from Cryo stasis. Fitted for the Drifter and the Operator.",
+    "Link": "Operator Dex Hood",
+    "Name": "Operator Dex Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodDexOutfit",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Lark Bishamo Cuirass (Drifter)": {
+    "Type": "Body Suit",
+    "Image": "SuitAdultDaxB.png",
+    "Description": "Uphold the elite warrior tradition of Teshin and the Dax in the Bishamo Armor Set.",
+    "Link": "Lark Bishamo Cuirass (Drifter)",
+    "Name": "Lark Bishamo Cuirass (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultDaxB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Norg Mask": {
+    "Type": "Hood",
+    "Image": "NorgHood.png",
+    "Description": "A masterwork of the crafter's art, this exquisite headpiece captures the grace and noble bearing of the majestic Norg. Truly, the prince of fish.",
+    "Link": "Norg Mask",
+    "Name": "Norg Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodNorg",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Zauba Mask (Operator)": {
+    "Type": "Hood",
+    "Image": "HoodG.png",
+    "Description": "Inspired by the seers of old; constructed to withstand ravages to both body and mind. Fitted for the Operator.",
+    "Link": "Zauba Mask (Operator)",
+    "Name": "Zauba Mask (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Mage/MageArmourHead",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Operator Dex Sleeves": {
+    "Type": "Sleeves",
+    "Image": "SleevesDex.png",
+    "Description": "A gift from the Lotus to commemorate the tenth anniversary of the first Tenno waking from Cryo stasis. Fitted for the Drifter and the Operator.",
+    "Link": "Operator Dex Sleeves",
+    "Name": "Operator Dex Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesDexOutfit",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Nightwave Sleeves (Operator)": {
+    "Type": "Sleeves",
+    "Image": "NightSuitSleeves.png",
+    "Description": "Sleeves and gloves for all of you Dreamers out there.",
+    "Link": "Nightwave Sleeves (Operator)",
+    "Name": "Nightwave Sleeves (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesNightSuit",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Harrier Suit (Drifter)": {
+    "Type": "Body Suit",
+    "Image": "BodySuitAdultDeluxe.png",
+    "Description": "The suit of a Drifter outfit.",
+    "Link": "Harrier Suit (Drifter)",
+    "Name": "Harrier Suit (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultDeluxeA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kubrodon Ventkid Mask": {
+    "Type": "Hood",
+    "Image": "HoodO.png",
+    "Description": "Operator Armor modeled on the K-drive gear favored by Boon, leader of the canny and cunning Kubrodon Ventkids.",
+    "Link": "Kubrodon Ventkid Mask",
+    "Name": "Kubrodon Ventkid Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodO",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Necra Prime Vitalis Hood (Operator)": {
+    "Type": "Hood",
+    "Image": "HoodPrimeEChina.png",
+    "Description": "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
+    "Link": "Necra Prime Vitalis Hood (Operator)",
+    "Name": "Necra Prime Vitalis Hood (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodPrimeEChina",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Masker's Theodolite Crewsuit Hood (Drifter)": {
+    "Type": "Hood",
+    "Image": "HoodNovaEngineer.png",
+    "Description": "Historian Drusus Leverian recalls that the hostage crew of the passenger vessel, Masker's Theodolite, wore this very crewsuit when they were rescued by Nova.",
+    "Link": "Masker's Theodolite Crewsuit Hood (Drifter)",
+    "Name": "Masker's Theodolite Crewsuit Hood (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultNovaEngineer",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Manduka Sleeves": {
+    "Type": "Sleeves",
+    "Image": "SleevesD.png",
+    "Description": "Sleeves for an Operator outfit.",
+    "Link": "Manduka Sleeves",
+    "Name": "Manduka Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesD",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Manduka Hood": {
+    "Type": "Hood",
+    "Image": "HoodD.png",
+    "Description": "A hood belonging to an Operator outfit.",
+    "Link": "Manduka Hood",
+    "Name": "Manduka Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodD",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Lark Bishamo Pauldrons (Operator)": {
+    "Type": "Sleeves",
+    "Image": "SleevesDaxB.png",
+    "Description": "Uphold the elite warrior tradition of Teshin and the Dax in the Bishamo Armor Set.",
+    "Link": "Lark Bishamo Pauldrons (Operator)",
+    "Name": "Lark Bishamo Pauldrons (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesDaxB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Lark Bishamo Pauldrons (Drifter)": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultDaxB.png",
+    "Description": "Uphold the elite warrior tradition of Teshin and the Dax in the Bishamo Armor Set.",
+    "Link": "Lark Bishamo Pauldrons (Drifter)",
+    "Name": "Lark Bishamo Pauldrons (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultDaxB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Lark Bishamo Greaves (Operator)": {
+    "Type": "Leggings",
+    "Image": "LeggingsDaxB.png",
+    "Description": "Uphold the elite warrior tradition of Teshin and the Dax in the Bishamo Armor Set.",
+    "Link": "Lark Bishamo Greaves (Operator)",
+    "Name": "Lark Bishamo Greaves (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsDaxB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Lark Bishamo Greaves (Drifter)": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultDaxB.png",
+    "Description": "Uphold the elite warrior tradition of Teshin and the Dax in the Bishamo Armor Set.",
+    "Link": "Lark Bishamo Greaves (Drifter)",
+    "Name": "Lark Bishamo Greaves (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultDaxB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Loneryder Sleeves": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultOutfit1A.png",
+    "Description": "Look sharp after miles on the dusty trail. Fitted for the Drifter and the Operator.",
+    "Link": "Drifter Loneryder Sleeves",
+    "Name": "Drifter Loneryder Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultOutfit1A",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Lark Bishamo Apparel (Operator)": {
+    "Type": "Waistband",
+    "Image": "SkirtDaxB.png",
+    "Description": "Uphold the elite warrior tradition of Teshin and the Dax in the Bishamo Armor Set.",
+    "Link": "Lark Bishamo Apparel (Operator)",
+    "Name": "Lark Bishamo Apparel (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtDaxB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Operator Keeler Suit": {
+    "Type": "Body Suit",
+    "Image": "Outfit2ABody.png",
+    "Description": "Nora Night recovered this suit from Saturn’s Keeler Gap. The durable material lined with rebreather tubing shows it was designed with depressurization in mind.",
+    "Link": "Operator Keeler Suit",
+    "Name": "Operator Keeler Suit",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitOutfit2A",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Hawk Bishamo Cuirass (Operator)": {
+    "Type": "Body Suit",
+    "Image": "TeshinArmourBody.png",
+    "Description": "Uphold the elite warrior tradition of Teshin and the Dax in the Bishamo Armor Set.",
+    "Link": "Hawk Bishamo Cuirass (Operator)",
+    "Name": "Hawk Bishamo Cuirass (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Teshin/TeshinArmourBody",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Koppra Hood": {
+    "Type": "Hood",
+    "Image": "HoodB.png",
+    "Description": "A hood belonging to an Operator outfit.",
+    "Link": "Koppra Hood",
+    "Name": "Koppra Hood",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodB",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Kaneshell Atomicycle Leggings (Drifter)": {
+    "Type": "Leggings",
+    "Image": "KaneshellAtomicycleLeggings(Drifter).png",
+    "Description": "Slide into this biker outfit of the new millenium. Fitted for the Drifter and Operator.",
+    "Link": "Kaneshell Atomicycle Leggings (Drifter)",
+    "Name": "Kaneshell Atomicycle Leggings (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/DrifterNightwave1999Leggings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Commodore Prime Apparel (Drifter)": {
+    "Type": "Waistband",
+    "Image": "SkirtAdultPrimeB.png",
+    "Description": "Take command with this regal Drifter suit.",
+    "Link": "Commodore Prime Apparel (Drifter)",
+    "Name": "Commodore Prime Apparel (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtAdultPrimeB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vent Pobber Ventkid Mask": {
+    "Type": "Hood",
+    "Image": "HoodN.png",
+    "Description": "Operator Armor modeled on the workshop gear favored by Roky, leader of the industrious Vent Pobbers.",
+    "Link": "Vent Pobber Ventkid Mask",
+    "Name": "Vent Pobber Ventkid Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodN",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Saita Prime Sleeves (Drifter)": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultPrimeA.png",
+    "Description": "Sleeves for a Drifter outfit.",
+    "Link": "Saita Prime Sleeves (Drifter)",
+    "Name": "Saita Prime Sleeves (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultPrimeA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Commodore Prime Greaves (Operator)": {
+    "Type": "Leggings",
+    "Image": "LeggingsPrimeB.png",
+    "Description": "Take command with this regal Operator suit.",
+    "Link": "Commodore Prime Greaves (Operator)",
+    "Name": "Commodore Prime Greaves (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/OperatorPrimeArmour/OperatorPrimeArmourLegs",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Grunge Skirt (Operator)": {
+    "Type": "Waistband",
+    "Image": "SkirtGrunge.png",
+    "Description": "Keep it real on the streets with thrifty, downbeat clothing inspired by the grunge scene.",
+    "Link": "Grunge Skirt (Operator)",
+    "Name": "Grunge Skirt (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Skirts/SkirtGrunge",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ceno Helmet (Operator)": {
+    "Type": "Hood",
+    "Image": "HoodE.png",
+    "Description": "An armor design honoring the monastic legacy of the Quills. Fitted for the Operator.",
+    "Link": "Ceno Helmet (Operator)",
+    "Name": "Ceno Helmet (Operator)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Armour/Monk/MonkArmourHead",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Operator Feldune Sleeves": {
+    "Type": "Sleeves",
+    "Image": "SleevesArabic.png",
+    "Description": "Ready yourself for the heat of battle. Fitted for the Drifter and the Operator.",
+    "Link": "Operator Feldune Sleeves",
+    "Name": "Operator Feldune Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesArabic",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Goth Hood (Drifter)": {
+    "Type": "Hood",
+    "Image": "HoodAdultGoth.png",
+    "Description": "Watch from the shadows or dance with the dead, with these Gothic-inspired garments.",
+    "Link": "Goth Hood (Drifter)",
+    "Name": "Goth Hood (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultOperatorDrifterGoth",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Emissary Sleeves": {
+    "Type": "Sleeves",
+    "Image": "InfestedSleevesA.png",
+    "Description": "Sleeves for an Operator outfit.",
+    "Link": "Emissary Sleeves",
+    "Name": "Emissary Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesInfestedA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Zariman Suit": {
+    "Type": "Body Suit",
+    "Image": "BodySuitAdultA.png",
+    "Description": "The Drifter’s Zariman suit. Still intact after all these years.",
+    "Link": "Drifter Zariman Suit",
+    "Name": "Drifter Zariman Suit",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Drifter Voidshell Sleeves": {
+    "Type": "Sleeves",
+    "Image": "SleevesAdultChameleon.png",
+    "Description": "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+    "Link": "Drifter Voidshell Sleeves",
+    "Name": "Drifter Voidshell Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultChameleon",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Operator Orizu Sleeves": {
+    "Type": "Sleeves",
+    "Image": "Outfit3AArms.png",
+    "Description": "Invite longevity and protection with a look inspired by the origami crane. Fitted for the Drifter and the Operator.",
+    "Link": "Operator Orizu Sleeves",
+    "Name": "Operator Orizu Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesOutfit3A",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Drifter Pants": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultC.png",
+    "Description": "Ragged leather pants and boots worn by The Drifter.",
+    "Link": "Drifter Pants",
+    "Name": "Drifter Pants",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Clearvoy Prime Leggings (Drifter)": {
+    "Type": "Leggings",
+    "Image": "LeggingsAdultPrimeD.png",
+    "Description": "A look worthy of one who has the power to straddle realities. Fitted for the Drifter.",
+    "Link": "Clearvoy Prime Leggings (Drifter)",
+    "Name": "Clearvoy Prime Leggings (Drifter)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultPrimeD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  }
+}

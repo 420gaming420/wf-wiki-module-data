@@ -1,0 +1,3272 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Enemies/data/unaffiliated",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:36:36.923Z"
+  },
+  "_comments": "\t\t\t--Multis = { \"?\" },\n\t\t\t--Introduced = \"?\",\n            --Abilities = {},\n\t\t\t--Weapons = {},\n            --Overguard = 0,\n\t\t\t--Affinity = 0,\n\t\t\t--Multis = {},\n\t\t\t--Scans = ?,\n\t\t\t--Multis = { \"\" },\n\t\t\t--Description = \"?\",\n\t\t\t--Introduced = \"\",\n\t\t\t--Affinity = ?,\n\t\t\t--Armor = 0,\n\t\t\t--BaseLevel = ?,\n\t\t\t--Multis\t= {},\n\t\t\t--ProcResists = {},\n\t\t\t--Shield = 0,\n\t\t\t--SpawnLevel = ?,\n\t\t\t--Health = -1,\n\t\t\t--Missions = { \"?\" },\n\t\t\t--Type = \"?\",\n\t\t\t--Weapons = { \"?\" },\n\t\t\t--Planets = { },\n\t\t\t--TileSets = { },\n\t\t\t\t\t--StatusChance = 0.,",
+  "Common Avichaea": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "A prehistoric bird-like creature that often congregates in small groups.",
+      "Link": "Common Avichaea",
+      "Scans": 20,
+      "Type": "",
+      "Image": "CommonAvichaea.png",
+      "Name": "Common Avichaea",
+      "Faction": "Prey",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 2.0x"
+      ],
+      "Health": 1,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Dax Arcus": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Ranged",
+      "Description": "",
+      "Link": "Dax Arcus",
+      "Introduced": "33",
+      "Image": "DaxArcus.png",
+      "Name": "Dax Arcus",
+      "Faction": "Duviri",
+      "Planets": [
+        "Duviri"
+      ],
+      "Weapons": [
+        "Cinta"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Duviri/Dax/DuviriUndercroftDaxRangedAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Multis": [
+        "Head: +1 Crit Tier, 1.5x Critical Damage"
+      ],
+      "BaseLevel": 1,
+      "Health": 200,
+      "Affinity": -1
+    }
+  },
+  "Kuva Injector": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Grineer Asteroid Fortress"
+      ],
+      "Description": "Sabotaged Kuva Distillery",
+      "Link": "Kuva Injector",
+      "Scans": 20,
+      "Type": "Defense Object",
+      "Image": "KuvaDefenseAvatar.png",
+      "Name": "Kuva Injector",
+      "Faction": "Tenno",
+      "Planets": [
+        "Kuva Fortress"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Missions": [
+        "Defense"
+      ]
+    },
+    "Stats": {
+      "Health": 2000,
+      "BaseLevel": 1,
+      "Shield": 500,
+      "Armor": 25,
+      "Affinity": -1
+    }
+  },
+  "Emperor Condroc": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "A carrion-eater and opportunistic bird-of-prey. Condrocs gather, feed upon carrion, and occasionally, hunt in groups known as 'committees'. Several committees will be led by an Emperor.",
+      "Link": "Emperor Condroc",
+      "Scans": 20,
+      "Type": "",
+      "Image": "CondrocRare.png",
+      "Name": "Emperor Condroc",
+      "Faction": "Predator",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "22"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 6,
+      "Affinity": -1
+    }
+  },
+  "Necramite (Descendia)": {
+    "General": {
+      "Image": "Necramite.png",
+      "Name": "Necramite",
+      "Faction": "Neutral",
+      "Missions": [
+        "Descendia"
+      ],
+      "Link": "Necramite#Descendia",
+      "InternalName": "/Lotus/Types/Enemies/Tau/CoH/CoHRepairDroneAgent",
+      "Introduced": "41"
+    },
+    "Stats": {
+      "Multis": [
+        "Body: 2.0x"
+      ],
+      "Health": 7500,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Hollow Thrax Centurion (Duviri)": {
+    "General": {
+      "FactionDamageOverride": "Zariman",
+      "Link": "Hollow Thrax Centurion",
+      "Introduced": "32.2",
+      "Type": "Melee",
+      "Scans": 20,
+      "Image": "EclipseThraxCenturion.png",
+      "Name": "Hollow Thrax Centurion",
+      "Faction": "Unknown",
+      "Missions": [
+        "Duviri",
+        "The Circuit"
+      ],
+      "Weapons": [
+        "Hespar"
+      ],
+      "InternalName": "",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Overguard": 15,
+      "Health": 1200,
+      "BaseLevel": 1,
+      "Armor": 200,
+      "Affinity": -1
+    }
+  },
+  "Death Scuttler": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "The Murmur",
+      "Description": "These aggressive and explosive Scuttlers have one purpose to fulfil in their short lives; protect their mother.",
+      "Link": "Death Scuttlers",
+      "Missions": [
+        "Isleweaver"
+      ],
+      "Type": "",
+      "Image": "DeathScuttlers.png",
+      "Name": "Death Scuttlers",
+      "Faction": "Duviri",
+      "Scans": 5,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingSuicideAvatar",
+      "Introduced": "39"
+    },
+    "Stats": {
+      "BaseLevel": 1,
+      "Health": 1250,
+      "Affinity": 25
+    }
+  },
+  "Dusky-Headed Virmink": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Sleek and silky, the adorable appearance of the Venusian Virmink belies its aggressive demeanor. Favoring rocky landscapes Virmink packs nose the air, scenting for Pobbers - their primary food source.",
+      "Link": "Dusky-Headed Virmink",
+      "Scans": 20,
+      "Type": "",
+      "Image": "VirminkUncommon.png",
+      "Name": "Dusky-Headed Virmink",
+      "Faction": "Predator",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 6,
+      "Affinity": -1
+    }
+  },
+  "Ostia Vasca Kavat": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "The Vasca strain is a symbiotic blood-borne virus transmitted via the saliva of infected kavats. Existing solely to propagate itself the virus makes the host increasingly dependent upon the ingestion of blood, thereby spreading itself further and faster through the population. Vasca-infected kavats, over time, lose all sense of themselves becoming increasingly cunning, violent and ravenous.",
+      "Link": "Ostia Vasca Kavat",
+      "Scans": 20,
+      "Type": "",
+      "Image": "VascaKavatCommon.png",
+      "Name": "Ostia Vasca Kavat",
+      "Faction": "Predator",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "26"
+    },
+    "Stats": {
+      "Armor": 175,
+      "BaseLevel": 1,
+      "Health": 300,
+      "Affinity": -1
+    }
+  },
+  "Ashen Kuaka": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "A timid rodent that is easily frightened.",
+      "Link": "Ashen Kuaka",
+      "Scans": 20,
+      "Type": "",
+      "Image": "KuakaUncommon.png",
+      "Name": "Ashen Kuaka",
+      "Faction": "Prey",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "22"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 1,
+      "Affinity": -1
+    }
+  },
+  "Red-Crested Virmink": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Sleek and silky, the adorable appearance of the Venusian Virmink belies its aggressive demeanor. Favoring rocky landscapes Virmink packs nose the air, scenting for Pobbers - their primary food source.",
+      "Link": "Red-Crested Virmink",
+      "Scans": 20,
+      "Type": "",
+      "Image": "VirminkRare.png",
+      "Name": "Red-Crested Virmink",
+      "Faction": "Predator",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 6,
+      "Affinity": -1
+    }
+  },
+  "Green Velocipod": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "This large arthropod is generally found flying around Deimos' several grottos.",
+      "Link": "Green Velocipod",
+      "Scans": 5,
+      "Type": "",
+      "Image": "GreenVelocipodK-DriveSkin.png",
+      "Name": "Green Velocipod",
+      "Faction": "Prey",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Armor": 125,
+      "BaseLevel": 1,
+      "Health": 300,
+      "Affinity": -1
+    }
+  },
+  "Fuming Dax Stover": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "The Stover is a kind of proto-Kubrow, resurrected as Venus thawed. When grouped in a pack Stovers are relentless opponents.",
+      "Link": "Fuming Dax Stover",
+      "Scans": 20,
+      "Type": "",
+      "Image": "StoverUncommon.png",
+      "Name": "Fuming Dax Stover",
+      "Faction": "Predator",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24.2"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 200,
+      "Affinity": -1
+    }
+  },
+  "Sentinel Stover": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "The Stover is a kind of proto-Kubrow, resurrected as Venus thawed. When grouped in a pack Stovers are relentless opponents.",
+      "Link": "Sentinel Stover",
+      "Scans": 20,
+      "Type": "",
+      "Image": "StoverCommon.png",
+      "Name": "Sentinel Stover",
+      "Faction": "Predator",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24.2"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 200,
+      "Affinity": -1
+    }
+  },
+  "Dappled Horrasque": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Found near bodies of water the Horrasque subsists primarily upon fish. This hideous creature is terrible to behold but will not attack unless provoked. When it does its roar will shake the bowels of even the most steadfast trapper.",
+      "Link": "Dappled Horrasque",
+      "Scans": 20,
+      "Type": "",
+      "Image": "HorrasqueCommon.png",
+      "Name": "Dappled Horrasque",
+      "Faction": "Predator",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24.2"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 22,
+      "Affinity": -1
+    }
+  },
+  "Wolf of Saturn Six": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "Grineer",
+      "Description": "The only lunatic fearsome enough to have escaped the Saturn Six Max-Pen.",
+      "Link": "Wolf of Saturn Six",
+      "Missions": [
+        "Nightwave/Series 1"
+      ],
+      "Type": "Melee",
+      "Image": "WolfStalker.png",
+      "Name": "Wolf of Saturn Six",
+      "Faction": "Neutral",
+      "Scans": 3,
+      "Weapons": [
+        "Wolf Sledge"
+      ],
+      "InternalName": "",
+      "Introduced": "24.3"
+    },
+    "Stats": {
+      "Armor": 200,
+      "BaseLevel": 1,
+      "Health": 1500,
+      "Affinity": -1
+    }
+  },
+  "[Wiki Dummy]": {
+    "General": {
+      "Type": "Heavy Ranged",
+      "Description": "High damage minigun",
+      "Link": "Heavy Gunner",
+      "Image": "HeavyGunnerDE.png",
+      "Name": "Heavy Gunner",
+      "Faction": "Grineer",
+      "Weapons": [
+        "Gorgon",
+        "Sheev"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Grineer/AIWeek/MinigunBombard",
+      "Scans": 3
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "Multishot": 3,
+          "TotalDamage": 25,
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Puncture": 0.333,
+            "Slash": 0.333,
+            "Impact": 0.334
+          },
+          "StatusChance": 0.25,
+          "BurstCount": 5,
+          "Multihit": 2
+        },
+        {
+          "AttackName": "Melee Damage",
+          "DamageDistribution": {
+            "Puncture": 0.15,
+            "Slash": 0.7,
+            "Impact": 0.15
+          },
+          "StatusChance": 0.25,
+          "BurstCount": 5,
+          "TotalDamage": 14
+        },
+        {
+          "Multishot": 3,
+          "AttackName": "Nervos Minefield",
+          "DamageDistribution": {
+            "Puncture": 0.333,
+            "Slash": 0.333,
+            "Impact": 0.334
+          },
+          "StatusChance": 0.25,
+          "BurstCount": 5,
+          "TotalDamage": 5
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.333,
+            "Slash": 0.333,
+            "Impact": 0.334
+          },
+          "TotalDamage": 35,
+          "Multihit": 3,
+          "AttackName": "Cannon Battery Shot"
+        },
+        {
+          "Multishot": 3,
+          "Note": "Will instantly kill you!!!!",
+          "TotalDamage": 35,
+          "AttackName": "Laser Sweep",
+          "DamageDistribution": {
+            "Puncture": 0.333,
+            "Slash": 0.333,
+            "Impact": 0.334
+          },
+          "StatusChance": 0.25,
+          "BurstCount": 5,
+          "Multihit": 2
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.333,
+            "Slash": 0.333,
+            "Impact": 0.334
+          },
+          "TotalDamage": 20,
+          "AttackName": "Sky Laser (Contact)"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.333,
+            "Slash": 0.333,
+            "Impact": 0.334
+          },
+          "TotalDamage": 75,
+          "AttackName": "Sky Laser (AoE)"
+        }
+      ],
+      "Health": 300,
+      "BaseLevel": 8,
+      "Armor": 500,
+      "EximusHealth": 300,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 500
+    }
+  },
+  "Ghoul Expired Deserter": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "",
+      "Link": "Ghoul Expired Deserter",
+      "Missions": [
+        "Cetus Bounty"
+      ],
+      "Type": "Melee",
+      "Scans": 3,
+      "Image": "GhoulRescueTarget.png",
+      "Name": "Ghoul Expired Deserter",
+      "Faction": "Tenno",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "22.8"
+    },
+    "Stats": {
+      "Health": 150,
+      "BaseLevel": 1,
+      "Shield": 80,
+      "Armor": 20,
+      "Affinity": -1
+    }
+  },
+  "Thrax Legatus": {
+    "General": {
+      "FactionDamageOverride": "Zariman",
+      "Description": "The origin of these interlopers aboard the Zariman is a mystery to its crew members. Curiously, they are only visible to those who have been touched by the Void.",
+      "Link": "Thrax Legatus",
+      "Scans": 20,
+      "Type": "Ranged",
+      "TileSets": [
+        "Zariman (Tileset)"
+      ],
+      "Image": "ThraxLegatus.png",
+      "Name": "Thrax Legatus",
+      "Faction": "Unknown",
+      "Planets": [
+        "Zariman Ten Zero"
+      ],
+      "Weapons": [
+        "Aeolak"
+      ],
+      "InternalName": "",
+      "Introduced": "31.5"
+    },
+    "Stats": {
+      "Overguard": 10,
+      "Health": 3200,
+      "BaseLevel": 1,
+      "Armor": 200,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "SpawnLevel": 55,
+      "Affinity": 50
+    }
+  },
+  "Sporule Avichaea": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "This capricious avian unleashes swarms of infested spores as its primary defense mechanism.\n\nActive only while Vome watches over the Cambion Drift.",
+      "Link": "Sporule Avichaea",
+      "Scans": 20,
+      "Type": "",
+      "Image": "SporuleAvichaea.png",
+      "Name": "Sporule Avichaea",
+      "Faction": "Prey",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 2.0x"
+      ],
+      "Health": 1,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Syzygy Shockwave Moa": {
+    "General": {
+      "Description": "A Moa unit that has been exposed to the energy of the Syzygy. Capable of creating a powerful shockwave by stomping it's foot.",
+      "Link": "Syzygy Shockwave Moa",
+      "Scans": 5,
+      "Introduced": "40",
+      "Image": "NokkoInfRangedLight.png",
+      "Name": "Syzygy Shockwave Moa",
+      "Faction": "Infested",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Tileset": "Deepmines"
+    },
+    "Stats": {
+      "Multis": [
+        ""
+      ],
+      "Health": 180,
+      "BaseLevel": 1,
+      "Shield": 120,
+      "EximusHealth": 1,
+      "EximusShield": 1,
+      "Affinity": 0
+    }
+  },
+  "Woodland Mergoo": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "An avian of ridiculous appearance found along coastal regions and around large bodies of water. Mergoo circle and squawk at the sight of marine predators. Many an Ostron fisher owes their lives to these odd little birds. Killing one is considered very bad luck.",
+      "Link": "Woodland Mergoo",
+      "Scans": 20,
+      "Type": "",
+      "Image": "MergooUncommon.png",
+      "Name": "Woodland Mergoo",
+      "Faction": "Prey",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24.6"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 1,
+      "Affinity": -1
+    }
+  },
+  "Howler Undazoa": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "The Howler is easily startled. Its penetrating scream will cause other, more dangerous animals to investigate.\n\nActive only while Vome watches over the Cambion Drift.",
+      "Link": "Howler Undazoa",
+      "Scans": 20,
+      "Type": "",
+      "Image": "HowlerUndazoa.png",
+      "Name": "Howler Undazoa",
+      "Faction": "Prey",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29.5"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 2.0x"
+      ],
+      "Health": 22,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "White-Breasted Virmink": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Sleek and silky, the adorable appearance of the Venusian Virmink belies its aggressive demeanor. Favoring rocky landscapes Virmink packs nose the air, scenting for Pobbers - their primary food source.",
+      "Link": "White-Breasted Virmink",
+      "Scans": 20,
+      "Type": "",
+      "Image": "VirminkCommon.png",
+      "Name": "White-Breasted Virmink",
+      "Faction": "Predator",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 6,
+      "Affinity": -1
+    }
+  },
+  "Hollow Thrax Centurion (Lua)": {
+    "General": {
+      "FactionDamageOverride": "Zariman",
+      "Link": "Hollow Thrax Centurion",
+      "Introduced": "32.2",
+      "Type": "Melee",
+      "Scans": 20,
+      "Image": "EclipseThraxCenturion.png",
+      "Name": "Hollow Thrax Centurion",
+      "Faction": "Unknown",
+      "Missions": [
+        "Yuvarium"
+      ],
+      "Weapons": [
+        "Hespar"
+      ],
+      "InternalName": "",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Overguard": 15,
+      "Health": 3600,
+      "BaseLevel": 1,
+      "Armor": 200,
+      "Affinity": -1
+    }
+  },
+  "Thrax Centurion": {
+    "General": {
+      "FactionDamageOverride": "Zariman",
+      "Description": "The origin of these interlopers aboard the Zariman is a mystery to its crew members. Curiously, they are only visible to those who have been touched by the Void.",
+      "Link": "Thrax Centurion",
+      "Scans": 20,
+      "Type": "Melee",
+      "TileSets": [
+        "Zariman (Tileset)"
+      ],
+      "Image": "ThraxCenturion.png",
+      "Name": "Thrax Centurion",
+      "Faction": "Unknown",
+      "Planets": [
+        "Zariman Ten Zero"
+      ],
+      "Weapons": [
+        "Hespar"
+      ],
+      "InternalName": "",
+      "Introduced": "31.5"
+    },
+    "Stats": {
+      "Overguard": 15,
+      "Health": 3600,
+      "BaseLevel": 1,
+      "Armor": 200,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "SpawnLevel": 55,
+      "Affinity": 50
+    }
+  },
+  "Void Angel": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "Zariman",
+      "Description": "Often found cocooned on the walls of the Zariman, the Void Angels were once human-like manifestations of people who died in the aftermath of the Zariman disaster. Over time they succumbed to the Void's song, and transformed into these angel-like creatures. They do not like to be disturbed.",
+      "Link": "Void Angel",
+      "Scans": 3,
+      "Type": "Field Boss",
+      "TileSets": [
+        "Zariman (Tileset)"
+      ],
+      "Image": "VoidAngel.png",
+      "Name": "Void Angel",
+      "Faction": "Unknown",
+      "Planets": [
+        "Zariman Ten Zero"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "31.5"
+    },
+    "Stats": {
+      "Health": 12000,
+      "BaseLevel": 1,
+      "Shield": 100,
+      "SpawnLevel": 50,
+      "Armor": 350,
+      "Affinity": 1500
+    }
+  },
+  "Crescent Vulpaphyla": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "The Crescent is the most pugnacious subspecies of Vulpaphyla, they will rush anything they perceive as a threat.\n\nActive only while Vome watches over the Cambion Drift.",
+      "Link": "Crescent Vulpaphyla",
+      "Scans": 20,
+      "Type": "",
+      "Image": "CrescentVulpaphyla.png",
+      "Name": "Crescent Vulpaphyla",
+      "Faction": "Predator",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 2.0x"
+      ],
+      "Health": 500,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Vizier Predasite": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "A skittish creature, the Vizier Predasite will unleash a spume of acid before scurrying away.",
+      "Link": "Vizier Predasite",
+      "Scans": 20,
+      "Type": "",
+      "Image": "VizierPredasite.png",
+      "Name": "Vizier Predasite",
+      "Faction": "Predator",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.875x"
+      ],
+      "Health": 500,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Vitriol Necramite": {
+    "General": {
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Description": "An Entrat maintenance drone carring a phial of corrosive solution, to top up laboratory devices",
+      "Link": "Vitriol Necramite",
+      "Image": "VitriolNecramite.png",
+      "Name": "Vitriol Necramite",
+      "Faction": "Neutral",
+      "Planets": [
+        "Deimos"
+      ],
+      "Scans": 40,
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/VialCarryDrone/VialDroneAgent",
+      "Introduced": "35"
+    },
+    "Stats": {
+      "Multis": [
+        "Body: 2.0x"
+      ],
+      "Health": 1000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Viscid Avichaea": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "The rarest of Avichaeas, the Viscid produces a thick, tar-like mucus that it discharges when imperiled.\n\nActive only while Fass watches over the Cambion Drift.",
+      "Link": "Viscid Avichaea",
+      "Scans": 20,
+      "Type": "",
+      "Image": "ViscidAvichaea.png",
+      "Name": "Viscid Avichaea",
+      "Faction": "Prey",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 2.0x"
+      ],
+      "Health": 1,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Viridian Nexifera": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "The Viridian Nexifera can produce a cloud of poisonous gas that's always best avoided.",
+      "Link": "Viridian Nexifera",
+      "Scans": 20,
+      "Type": "",
+      "Image": "ViridianNexifera.png",
+      "Name": "Viridian Nexifera",
+      "Faction": "Prey",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29.5"
+    },
+    "Stats": {
+      "Multis": [
+        "Tendrils: 0.66x"
+      ],
+      "Health": 1000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Amethyst Nexifera": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "A distinctly Deimosian grotesquerie that attacks it opponents from above.",
+      "Link": "Amethyst Nexifera",
+      "Scans": 20,
+      "Type": "",
+      "Image": "AmethystNexifera.png",
+      "Name": "Amethyst Nexifera",
+      "Faction": "Prey",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29.5"
+    },
+    "Stats": {
+      "Multis": [
+        "Tendrils: 0.66x"
+      ],
+      "Health": 1000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Ghost Kuaka": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "A timid rodent that is easily frightened.",
+      "Link": "Ghost Kuaka",
+      "Scans": 20,
+      "Type": "",
+      "Image": "KuakaRare.png",
+      "Name": "Ghost Kuaka",
+      "Faction": "Prey",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "22"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 1,
+      "Affinity": -1
+    }
+  },
+  "Vallis Kubrodon": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "The apex predator of the Venusian plains. These massively framed beasts travel in groups and mark the territory surrounding Orokin cooling towers as their own. Kubrodons are a danger best avoided.",
+      "Link": "Vallis Kubrodon",
+      "Scans": 20,
+      "Type": "",
+      "Image": "KubrodonRare.png",
+      "Name": "Vallis Kubrodon",
+      "Faction": "Neutral",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 1000,
+      "Affinity": -1
+    }
+  },
+  "Oraxia (Descendia)": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Boss",
+      "Description": "",
+      "Link": "Oraxia (Boss)#Descendia",
+      "Missions": [
+        "Descendia"
+      ],
+      "Image": "Oraxia.png",
+      "Name": "Oraxia (Descendia)",
+      "Faction": "Duviri",
+      "Scans": 1,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/CoH/Bosses/CoHOraxiaEnemyAgent",
+      "Introduced": "41"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.5x"
+      ],
+      "BaseLevel": 1,
+      "Health": 24000,
+      "Affinity": 1500
+    }
+  },
+  "Lua Thrax Legatus": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "Zariman",
+      "Link": "Lua Thrax Legatus",
+      "Introduced": "32.2",
+      "Type": "Ranged",
+      "Image": "LuaThraxLegatus.png",
+      "Name": "Lua Thrax Legatus",
+      "Faction": "Unknown",
+      "Missions": [
+        "Conjunction Survival"
+      ],
+      "Weapons": [
+        "Aeolak"
+      ],
+      "InternalName": "",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Overguard": 10,
+      "Health": 3200,
+      "BaseLevel": 1,
+      "Armor": 200,
+      "Affinity": -1
+    }
+  },
+  "Alpine Monitor Sawgaw": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "'Soar Gore' as the Solaris call it, this crimson-faced bird of prey circles and stalks the cliffs and fungal forests of Venus, searching for rodent prey.",
+      "Link": "Alpine Monitor Sawgaw",
+      "Scans": 20,
+      "Type": "",
+      "Image": "SnowBirdUncommon.png",
+      "Name": "Alpine Monitor Sawgaw",
+      "Faction": "Predator",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24.2"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 6,
+      "Affinity": -1
+    }
+  },
+  "Follie": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Relay"
+      ],
+      "Description": "The Shadowgrapher hunts down any who dare enter her domain.",
+      "Link": "Follie (Enemy)",
+      "Scans": 5,
+      "Type": "",
+      "Image": "FollieEnemy.png",
+      "Name": "Follie",
+      "Faction": "Neutral",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Shadowgrapher/InkframeCloneEnemyAgent",
+      "Introduced": "42"
+    },
+    "Stats": {
+      "SpawnLevel": 35,
+      "BaseLevel": 1,
+      "Health": 400,
+      "Affinity": 1500
+    }
+  },
+  "Black-Banded Bolarola": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Favoring thunder, lightning and cratered-out areas Bolarolas are all about defense. Their armored plates protect them from most predators, tucking-and-rolling to make good their escape.",
+      "Link": "Black-Banded Bolarola",
+      "Scans": 20,
+      "Type": "",
+      "Image": "BolarolaUncommon.png",
+      "Name": "Black-Banded Bolarola",
+      "Faction": "Neutral",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 6,
+      "Affinity": -1
+    }
+  },
+  "Syzygy Light Trencher": {
+    "General": {
+      "Description": "A unit that has been exposed to the energy of the Syzygy, wields dual ice-picks and possess a flying charge attack. Explodes upon death.",
+      "Link": "Syzygy Light Trencher",
+      "Scans": 3,
+      "Introduced": "40",
+      "Image": "NokkoInfMeleeHeavy.png",
+      "Name": "Syzygy Light Trencher",
+      "Faction": "Infested",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Tileset": "Deepmines"
+    },
+    "Stats": {
+      "Multis": [
+        ""
+      ],
+      "Health": 1000,
+      "BaseLevel": 1,
+      "Shield": 25,
+      "EximusHealth": 1,
+      "EximusShield": 1,
+      "Affinity": 0
+    }
+  },
+  "Kubrow": {
+    "General": {
+      "TileSets": [
+        "Grineer Forest"
+      ],
+      "Description": "Feral Kubrow",
+      "Link": "Feral Kubrow",
+      "Scans": 20,
+      "Type": "",
+      "Image": "DEKubrow.png",
+      "Name": "Kubrow",
+      "Faction": "Neutral",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "13.3"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.875x"
+      ],
+      "Health": 200,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": 50
+    }
+  },
+  "Umber Undazoa": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "A shy, bizarre-looking, semi-aquatic creature that seldom attacks unless provoked.",
+      "Link": "Umber Undazoa",
+      "Scans": 20,
+      "Type": "",
+      "Image": "UmberUndazoa.png",
+      "Name": "Umber Undazoa",
+      "Faction": "Prey",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29.5"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 2.0x"
+      ],
+      "Health": 22,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Syzygy Sniper Ranger": {
+    "General": {
+      "Description": "A unit that has been exposed to the energy of Syzygy. Deploys turrets and fires deadly shots from afar using it's laser cannon.",
+      "Link": "Syzygy Sniper Ranger",
+      "Scans": 5,
+      "Introduced": "40",
+      "Image": "NokkoInfSniper.png",
+      "Name": "Syzygy Sniper Ranger",
+      "Faction": "Infested",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Tileset": "Deepmines"
+    },
+    "Stats": {
+      "Multis": [
+        ""
+      ],
+      "Health": 800,
+      "BaseLevel": 1,
+      "Shield": 25,
+      "EximusHealth": 880,
+      "EximusShield": 27,
+      "Affinity": 0
+    }
+  },
+  "Plains Kuaka": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "A timid rodent that is easily frightened.",
+      "Link": "Plains Kuaka",
+      "Scans": 20,
+      "Type": "",
+      "Image": "KuakaCommon.png",
+      "Name": "Plains Kuaka",
+      "Faction": "Prey",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "22"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 1,
+      "Affinity": -1
+    }
+  },
+  "Dax Herald": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Melee",
+      "Description": "",
+      "Link": "Dax Herald",
+      "Introduced": "33",
+      "Image": "DaxHerald.png",
+      "Name": "Dax Herald",
+      "Faction": "Duviri",
+      "Planets": [
+        "Duviri"
+      ],
+      "Weapons": [
+        "Edun"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Duviri/Dax/DuviriUndercroftAshigaruAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Multis": [
+        "Head: +1 Crit Tier, 1.5x Critical Damage"
+      ],
+      "BaseLevel": 1,
+      "Health": 100,
+      "Affinity": -1
+    }
+  },
+  "Dax Equitem": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Melee",
+      "Description": "",
+      "Link": "Dax Equitem",
+      "Introduced": "33",
+      "Image": "DaxEquitem.png",
+      "Name": "Dax Equitem",
+      "Faction": "Duviri",
+      "Planets": [
+        "Duviri"
+      ],
+      "Weapons": [
+        "Azothane"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Duviri/Mounted/DuviriMountedDaxAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Multis": [
+        "Head: +1 Crit Tier, 1.5x Critical Damage"
+      ],
+      "BaseLevel": 1,
+      "Health": 1750,
+      "Affinity": -1
+    }
+  },
+  "Tomb Protector": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Grineer Settlement"
+      ],
+      "Description": "Watches over the Tomb of Inaros.",
+      "Link": "Tomb Protector",
+      "Introduced": "18.5",
+      "Type": "",
+      "Scans": 1,
+      "Missions": [
+        "Sands of Inaros"
+      ],
+      "Name": "Tomb Protector",
+      "Image": "SandmanBoss.png",
+      "Abilities": [
+        "Desiccation",
+        "Devour",
+        "Sandstorm",
+        "Scarab Swarm"
+      ],
+      "Faction": "Neutral",
+      "Planets": [
+        "Mars"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Quests/SandmanBoss/SandmanBossAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Armor": 250,
+      "BaseLevel": 1,
+      "Health": 8000,
+      "Affinity": -1
+    }
+  },
+  "Bau Vasca Kavat": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "The Vasca strain is a symbiotic blood-borne virus transmitted via the saliva of infected kavats. Existing solely to propagate itself the virus makes the host increasingly dependent upon the ingestion of blood, thereby spreading itself further and faster through the population. Vasca-infected kavats, over time, lose all sense of themselves becoming increasingly cunning, violent and ravenous.",
+      "Link": "Bau Vasca Kavat",
+      "Scans": 20,
+      "Type": "",
+      "Image": "VascaKavatUncommon.png",
+      "Name": "Bau Vasca Kavat",
+      "Faction": "Predator",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "26"
+    },
+    "Stats": {
+      "Armor": 175,
+      "BaseLevel": 1,
+      "Health": 300,
+      "Affinity": -1
+    }
+  },
+  "Tomb Guardian": {
+    "General": {
+      "TileSets": [
+        "Grineer Settlement"
+      ],
+      "Description": "Guards the Tomb of Inaros.",
+      "Link": "Tomb Guardian",
+      "Introduced": "18.5",
+      "Type": "Melee",
+      "Scans": 1,
+      "Missions": [
+        "Sands of Inaros"
+      ],
+      "Image": "HostileRockman.png",
+      "Name": "Tomb Guardian",
+      "Faction": "Neutral",
+      "Planets": [
+        "Mars"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Powersuits/Brawler/SummonHostileAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 1700,
+      "BaseLevel": 1,
+      "Armor": 150,
+      "Affinity": -1
+    }
+  },
+  "White Velocipod": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "The fastest variety of Velocipod, it tends to favor the swamplands.",
+      "Link": "White Velocipod",
+      "Scans": 5,
+      "Type": "",
+      "Image": "WhiteVelocipodK-DriveSkin.png",
+      "Name": "White Velocipod",
+      "Faction": "Prey",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Multis": [
+        ""
+      ],
+      "Health": 300,
+      "BaseLevel": 1,
+      "Armor": 125,
+      "Affinity": -1
+    }
+  },
+  "Arbitration Shield Drone": {
+    "General": {
+      "Type": "Support",
+      "Description": "The Arbiters of Hexis created this drone to put Tenno to the test in Arbitrations.",
+      "Link": "Arbitration Shield Drone",
+      "Missions": [
+        "Arbitrations"
+      ],
+      "Image": "ArbiterDrone.png",
+      "Name": "Arbitration Shield Drone",
+      "Faction": "Neutral",
+      "Scans": 20,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "23.10"
+    },
+    "Stats": {
+      "Multis": [
+        ""
+      ],
+      "Health": 35,
+      "BaseLevel": 15,
+      "Shield": 50,
+      "Affinity": 50
+    }
+  },
+  "Purple Velocipod": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "A sluggish highlands insect that's capable of bursts of speed when threatened.",
+      "Link": "Purple Velocipod",
+      "Scans": 5,
+      "Type": "",
+      "Image": "PurpleVelocipodK-DriveSkin.png",
+      "Name": "Purple Velocipod",
+      "Faction": "Prey",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Multis": [
+        ""
+      ],
+      "Health": 300,
+      "BaseLevel": 1,
+      "Armor": 125,
+      "Affinity": -1
+    }
+  },
+  "Syzygy Prod Crewman": {
+    "General": {
+      "Description": "A seasoned combatant that has been exposed to the energy of the Syzygy. Engages targets with quick strikes from it's shock baton.",
+      "Link": "Syzygy Prod Crewman",
+      "Scans": 5,
+      "Introduced": "40",
+      "Image": "NokkoInfSpaceman.png",
+      "Name": "Syzygy Prod Crewman",
+      "Faction": "Infested",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Tileset": "Deepmines"
+    },
+    "Stats": {
+      "Multis": [
+        ""
+      ],
+      "Health": 1000,
+      "BaseLevel": 1,
+      "Shield": 25,
+      "EximusHealth": 1100,
+      "EximusShield": 27,
+      "Affinity": 0
+    }
+  },
+  "Hacked Drone": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "",
+      "Link": "Hacked Drone",
+      "Missions": [
+        "Cetus Bounty"
+      ],
+      "Type": "Drone",
+      "Scans": 10,
+      "Image": "EidolonHackableDrone.png",
+      "Name": "Hacked Drone",
+      "Faction": "Tenno",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "22"
+    },
+    "Stats": {
+      "Health": 900,
+      "BaseLevel": 1,
+      "Shield": 200,
+      "Armor": 300,
+      "Affinity": -1
+    }
+  },
+  "Syzygy Mite Raknoid": {
+    "General": {
+      "Description": "A diminutive Raknoid that has been exposed to the energy of the Syzygy. Occasionally lays explosive mushrooms.",
+      "Link": "Syzygy Mite Raknoid",
+      "Scans": 20,
+      "Introduced": "40",
+      "Image": "NokkoInfMini.png",
+      "Name": "Syzygy Mite Raknoid",
+      "Faction": "Infested",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Tileset": "Deepmines"
+    },
+    "Stats": {
+      "Multis": [
+        ""
+      ],
+      "Health": 150,
+      "BaseLevel": 1,
+      "Shield": 30,
+      "Affinity": 0
+    }
+  },
+  "Eclipse Thrax Centurion": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "Zariman",
+      "Link": "Eclipse Thrax Centurion",
+      "Introduced": "32.2.4",
+      "Type": "Melee",
+      "Image": "EclipseThraxCenturion.png",
+      "Name": "Eclipse Thrax Centurion",
+      "Faction": "Unknown",
+      "Missions": [
+        "Circulus",
+        "Yuvarium (The Steel Path)"
+      ],
+      "Weapons": [
+        "Hespar"
+      ],
+      "InternalName": "",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Overguard": 15,
+      "Health": 3600,
+      "BaseLevel": 1,
+      "Armor": 200,
+      "Affinity": -1
+    }
+  },
+  "Burrowing Cryptilex": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "The most abundant variety of Cryptilex, this aggressive insect will slash anything it deems a threat.",
+      "Link": "Burrowing Cryptilex",
+      "Scans": 20,
+      "Type": "",
+      "Image": "BurrowingCryptilex.png",
+      "Name": "Burrowing Cryptilex",
+      "Faction": "Prey",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.875x"
+      ],
+      "Health": 1,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Syzygy Denial Bursa": {
+    "General": {
+      "Description": "A Bursa unit that has been exposed to the power of the Syzygy. Corrals it's prey for rapid destruction.",
+      "Link": "Syzygy Denial Bursa",
+      "Scans": 3,
+      "Introduced": "40",
+      "Image": "NokkoInfRiotBipedControl.png",
+      "Name": "Syzygy Denial Bursa",
+      "Faction": "Infested",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Tileset": "Deepmines"
+    },
+    "Stats": {
+      "Multis": [
+        ""
+      ],
+      "Health": 1200,
+      "BaseLevel": 1,
+      "Shield": 700,
+      "Armor": 200,
+      "Affinity": 0
+    }
+  },
+  "Syzygy Attack Drone": {
+    "General": {
+      "Description": "An attack drone that has been exposed to the energy of the Syzygy. Deploys a heat-based aerosol befor pummeling targets from range with energy shells.",
+      "Link": "Syzygy Attack Drone",
+      "Scans": 3,
+      "Introduced": "40",
+      "Image": "NokkoInfFlyingAttack.png",
+      "Name": "Syzygy Attack Drone",
+      "Faction": "Infested",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Tileset": "Deepmines"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 3,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Health": 750,
+      "BaseLevel": 1,
+      "Shield": 900,
+      "Multis": [
+        ""
+      ],
+      "Affinity": 0
+    }
+  },
+  "Swimmer Horrasque": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Found near bodies of water the Horrasque subsists primarily upon fish. This hideous creature is terrible to behold but will not attack unless provoked. When it does its roar will shake the bowels of even the most steadfast trapper.",
+      "Link": "Swimmer Horrasque",
+      "Scans": 20,
+      "Type": "",
+      "Image": "HorrasqueRare.png",
+      "Name": "Swimmer Horrasque",
+      "Faction": "Predator",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24.2"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 22,
+      "Affinity": -1
+    }
+  },
+  "Septic Cryptilex": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "This infectious insect is capable of hazardous viral attacks when alerted.",
+      "Link": "Septic Cryptilex",
+      "Scans": 20,
+      "Type": "",
+      "Image": "SepticCryptilex.png",
+      "Name": "Septic Cryptilex",
+      "Faction": "Prey",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.875x"
+      ],
+      "Health": 1,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Dax Malleus": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Melee",
+      "Description": "",
+      "Link": "Dax Malleus",
+      "Introduced": "33",
+      "Image": "DaxMalleus.png",
+      "Name": "Dax Malleus",
+      "Faction": "Duviri",
+      "Planets": [
+        "Duviri"
+      ],
+      "Weapons": [
+        "Sampotes"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Duviri/Dax/DuviriUndercroftDaxHeavyAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Overguard": 8,
+      "Health": 400,
+      "BaseLevel": 1,
+      "Multis": [
+        "Head: +1 Crit Tier, 1.5x Critical Damage"
+      ],
+      "Affinity": -1
+    }
+  },
+  "Delicate Pobber": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Native to the fungal forests of Venus, the Pobber is a skittish rodent possessed of an objectionable odor. Always found in groups they flee at the slightest hint of trouble. They are a primary food source of Virmink and Sawgaw.",
+      "Link": "Delicate Pobber",
+      "Scans": 20,
+      "Type": "",
+      "Image": "PobberUncommon.png",
+      "Name": "Delicate Pobber",
+      "Faction": "Prey",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 2,
+      "Affinity": -1
+    }
+  },
+  "Rogue Condroc": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "A carrion-eater and opportunistic bird-of-prey. Condrocs gather, feed upon carrion, and occasionally, hunt in groups known as 'committees'. Several committees will be led by an Emperor.",
+      "Link": "Rogue Condroc",
+      "Scans": 20,
+      "Type": "",
+      "Image": "CondrocUncommon.png",
+      "Name": "Rogue Condroc",
+      "Faction": "Predator",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "22"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 6,
+      "Affinity": -1
+    }
+  },
+  "Horrasque Stormer": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Found near bodies of water the Horrasque subsists primarily upon fish. This hideous creature is terrible to behold but will not attack unless provoked. When it does its roar will shake the bowels of even the most steadfast trapper.",
+      "Link": "Horrasque Stormer",
+      "Scans": 20,
+      "Type": "",
+      "Image": "HorrasqueUncommon.png",
+      "Name": "Horrasque Stormer",
+      "Faction": "Predator",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24.2"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 22,
+      "Affinity": -1
+    }
+  },
+  "Subterranean Pobber": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Native to the fungal forests of Venus, the Pobber is a skittish rodent possessed of an objectionable odor. Always found in groups they flee at the slightest hint of trouble. They are a primary food source of Virmink and Sawgaw.",
+      "Link": "Subterranean Pobber",
+      "Scans": 20,
+      "Type": "",
+      "Image": "PobberRare.png",
+      "Name": "Subterranean Pobber",
+      "Faction": "Prey",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 2,
+      "Affinity": -1
+    }
+  },
+  "Medjay Predasite": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "Not quite as flighty as its subspecies cousins, it will charge if it feels threatened.\n\nActive only while Vome watches over the Cambion Drift.",
+      "Link": "Medjay Predasite",
+      "Scans": 20,
+      "Type": "",
+      "Image": "MedjayPredasite.png",
+      "Name": "Medjay Predasite",
+      "Faction": "Predator",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.875x"
+      ],
+      "Health": 500,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Spotted Bolarola": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Favoring thunder, lightning and cratered-out areas Bolarolas are all about defense. Their armored plates protect them from most predators, tucking-and-rolling to make good their escape.",
+      "Link": "Spotted Bolarola",
+      "Scans": 20,
+      "Type": "",
+      "Image": "BolarolaCommon.png",
+      "Name": "Spotted Bolarola",
+      "Faction": "Neutral",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 6,
+      "Affinity": -1
+    }
+  },
+  "Splendid Mergoo": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "An avian of ridiculous appearance found along coastal regions and around large bodies of water. Mergoo circle and squawk at the sight of marine predators. Many an Ostron fisher owes their lives to these odd little birds. Killing one is considered very bad luck.",
+      "Link": "Splendid Mergoo",
+      "Scans": 20,
+      "Type": "",
+      "Image": "MergooRare.png",
+      "Name": "Splendid Mergoo",
+      "Faction": "Prey",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24.6"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 1,
+      "Affinity": -1
+    }
+  },
+  "Sly Vulpaphyla": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "The most common Vulpaphyla, they travel in packs and are generally non-aggressive.",
+      "Link": "Sly Vulpaphyla",
+      "Scans": 20,
+      "Type": "",
+      "Image": "SlyVulpaphyla.png",
+      "Name": "Sly Vulpaphyla",
+      "Faction": "Predator",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 2.0x"
+      ],
+      "Health": 500,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Frogmouthed Sawgaw": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "'Soar Gore' as the Solaris call it, this crimson-faced bird of prey circles and stalks the cliffs and fungal forests of Venus, searching for rodent prey.",
+      "Link": "Frogmouthed Sawgaw",
+      "Scans": 20,
+      "Type": "",
+      "Image": "SnowBirdRare.png",
+      "Name": "Frogmouthed Sawgaw",
+      "Faction": "Predator",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24.2"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 6,
+      "Affinity": -1
+    }
+  },
+  "Dax Gladius": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Melee",
+      "Description": "",
+      "Link": "Dax Gladius",
+      "Introduced": "33",
+      "Image": "DaxGladius.png",
+      "Name": "Dax Gladius",
+      "Faction": "Duviri",
+      "Planets": [
+        "Duviri"
+      ],
+      "Weapons": [
+        "Syam"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Duviri/Dax/DuviriUndercroftDaxAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Multis": [
+        "Head: +1 Crit Tier, 1.5x Critical Damage"
+      ],
+      "BaseLevel": 1,
+      "Health": 250,
+      "Affinity": -1
+    }
+  },
+  "Sunny Pobber": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Native to the fungal forests of Venus, the Pobber is a skittish rodent possessed of an objectionable odor. Always found in groups they flee at the slightest hint of trouble. They are a primary food source of Virmink and Sawgaw.",
+      "Link": "Sunny Pobber",
+      "Scans": 20,
+      "Type": "",
+      "Image": "PobberCommon.png",
+      "Name": "Sunny Pobber",
+      "Faction": "Prey",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 2,
+      "Affinity": -1
+    }
+  },
+  "Scuttlers": {
+    "General": {
+      "FactionDamageOverride": "The Murmur",
+      "Description": "Spiderlings born from the guardian of Scholar's Landing. Though precious to their mother, an explosively short life leaves only the hunt to bond over.",
+      "Link": "Scuttlers",
+      "Missions": [
+        "Isleweaver"
+      ],
+      "Type": "",
+      "Image": "Scuttlers.png",
+      "Name": "Scuttlers",
+      "Faction": "Duviri",
+      "Scans": 5,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemySpiderlingAvatar",
+      "Introduced": "39"
+    },
+    "Stats": {
+      "BaseLevel": 1,
+      "Health": 125,
+      "Affinity": 25
+    }
+  },
+  "Kubrodon Incarnadine": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "The apex predator of the Venusian plains. These massively framed beasts travel in groups and mark the territory surrounding Orokin cooling towers as their own. Kubrodons are a danger best avoided.",
+      "Link": "Kubrodon Incarnadine",
+      "Scans": 20,
+      "Type": "",
+      "Image": "KubrodonUncommon.png",
+      "Name": "Kubrodon Incarnadine",
+      "Faction": "Neutral",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 1000,
+      "Affinity": -1
+    }
+  },
+  "Kullervo (Boss)": {
+    "General": {
+      "TileSets": [
+        ""
+      ],
+      "Description": "",
+      "Link": "Kullervo (Boss)",
+      "Scans": 1,
+      "Type": "Boss",
+      "Image": "Kullervo_Thumb.png",
+      "Name": "Kullervo (Boss)",
+      "Faction": "Duviri",
+      "Planets": [
+        "Duviri"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Duviri/PaxDuviricus/PaxDuviricusDungeonEncounterAgent",
+      "Introduced": "33.5"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.5x"
+      ],
+      "Health": 1250,
+      "BaseLevel": 1,
+      "Armor": 0,
+      "Affinity": 1500
+    }
+  },
+  "Scarlet Nexifera": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "Due to its remarkable strength, this Nexifera can cause seismic shocks when hitting the ground.",
+      "Link": "Scarlet Nexifera",
+      "Scans": 20,
+      "Type": "",
+      "Image": "ScarletNexifera.png",
+      "Name": "Scarlet Nexifera",
+      "Faction": "Prey",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29.5"
+    },
+    "Stats": {
+      "Multis": [
+        "Tendrils: 0.66x"
+      ],
+      "Health": 1000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Devotee": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Ranged",
+      "Description": "Touched by the hand of Arlo they come to spread his healing word. Rejoice.",
+      "Link": "Devotee",
+      "Image": "Devotee.png",
+      "Name": "Devotee",
+      "Faction": "Tenno",
+      "Scans": 1,
+      "Weapons": [
+        "Latron",
+        "Zylok"
+      ],
+      "InternalName": "",
+      "Introduced": "25.2"
+    },
+    "Stats": {
+      "Health": 100,
+      "BaseLevel": 1,
+      "Shield": 100,
+      "Armor": 100,
+      "Affinity": -1
+    }
+  },
+  "Coastal Mergoo": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "An avian of ridiculous appearance found along coastal regions and around large bodies of water. Mergoo circle and squawk at the sight of marine predators. Many an Ostron fisher owes their lives to these odd little birds. Killing one is considered very bad luck.",
+      "Link": "Coastal Mergoo",
+      "Scans": 20,
+      "Type": "",
+      "Image": "MergooCommon.png",
+      "Name": "Coastal Mergoo",
+      "Faction": "Prey",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24.6"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 1,
+      "Affinity": -1
+    }
+  },
+  "Ravenous Void Angel": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "Zariman",
+      "Description": "",
+      "Link": "Void Angel",
+      "Missions": [
+        "Void Armageddon"
+      ],
+      "Type": "Field Boss",
+      "TileSets": [
+        "Zariman (Tileset)"
+      ],
+      "Image": "VoidAngel.png",
+      "Name": "Ravenous Void Angel",
+      "Faction": "Unknown",
+      "Planets": [
+        "Zariman Ten Zero"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "31.5"
+    },
+    "Stats": {
+      "Health": 12000,
+      "BaseLevel": 1,
+      "Shield": 100,
+      "SpawnLevel": 50,
+      "Armor": 350,
+      "Affinity": 1500
+    }
+  },
+  "Thorny Bolarola": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Favoring thunder, lightning and cratered-out areas Bolarolas are all about defense. Their armored plates protect them from most predators, tucking-and-rolling to make good their escape.",
+      "Link": "Thorny Bolarola",
+      "Scans": 20,
+      "Type": "",
+      "Image": "BolarolaRare.png",
+      "Name": "Thorny Bolarola",
+      "Faction": "Neutral",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 6,
+      "Affinity": -1
+    }
+  },
+  "Tomb Protector Effigy": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Grineer Settlement"
+      ],
+      "Description": "Awoken by the Protector to help defend the Tomb of Inaros.",
+      "Link": "Tomb Protector Effigy",
+      "Introduced": "18.5",
+      "Type": "",
+      "Scans": 1,
+      "Missions": [
+        "Sands of Inaros"
+      ],
+      "Image": "InarosGolem.png",
+      "Name": "Tomb Protector Effigy",
+      "Faction": "Neutral",
+      "Planets": [
+        "Mars"
+      ],
+      "Weapons": [
+        "Lesion"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Quests/SandmanBoss/InarosGolemAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Armor": 250,
+      "BaseLevel": 1,
+      "Health": 5500,
+      "Affinity": -1
+    }
+  },
+  "Necramite": {
+    "General": {
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Image": "Necramite.png",
+      "Name": "Necramite",
+      "Faction": "Neutral",
+      "Planets": [
+        "Deimos"
+      ],
+      "Link": "Necramite",
+      "InternalName": "/Lotus/Types/Enemies/ManInTheWall/RepairDrone/RepairDroneAgent",
+      "Introduced": "35"
+    },
+    "Stats": {
+      "Multis": [
+        "Body: 2.0x"
+      ],
+      "Health": 2500,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Hollow Thrax Legatus (Duviri)": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "Zariman",
+      "Link": "Hollow Thrax Legatus",
+      "Introduced": "32.2",
+      "Type": "Ranged",
+      "Image": "LuaThraxLegatus.png",
+      "Name": "Hollow Thrax Legatus",
+      "Faction": "Unknown",
+      "Missions": [
+        "The Circuit"
+      ],
+      "Weapons": [
+        "Aeolak"
+      ],
+      "InternalName": "",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Overguard": 10,
+      "Health": 1200,
+      "BaseLevel": 1,
+      "Armor": 200,
+      "Affinity": -1
+    }
+  },
+  "Panzer Vulpaphyla": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "This hardy creature has a collagenous dermis that acts as a thick, protective armor.\n\nActive only while Fass watches over the Cambion Drift.",
+      "Link": "Panzer Vulpaphyla",
+      "Scans": 20,
+      "Type": "",
+      "Image": "PanzerVulpaphyla.png",
+      "Name": "Panzer Vulpaphyla",
+      "Faction": "Predator",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 2.0x"
+      ],
+      "Health": 500,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Oraxia": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Boss",
+      "Description": "A servitor to Albrecht Entrati, she was bound to the protection of Scholar’s Landing. However, long years of isolation made her vulnerable to the manipulative whispers of Neci Rusalka. Now, she serves a new master, and attacks anyone who dares set foot on the isle.",
+      "Link": "Oraxia (Boss)",
+      "Missions": [
+        "Isleweaver"
+      ],
+      "Image": "Oraxia.png",
+      "Name": "Oraxia",
+      "Faction": "Duviri",
+      "Scans": 1,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/OraxiaEnemy/OraxiaEnemyAgent",
+      "Introduced": "39"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.5x"
+      ],
+      "BaseLevel": 1,
+      "Health": 35000,
+      "Affinity": 1500
+    }
+  },
+  "Hollow Thrax Legatus (Lua)": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "Zariman",
+      "Link": "Hollow Thrax Legatus",
+      "Introduced": "32.2",
+      "Type": "Ranged",
+      "Image": "LuaThraxLegatus.png",
+      "Name": "Hollow Thrax Legatus",
+      "Faction": "Unknown",
+      "Missions": [
+        "Yuvarium"
+      ],
+      "Weapons": [
+        "Aeolak"
+      ],
+      "InternalName": "",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Overguard": 10,
+      "Health": 3200,
+      "BaseLevel": 1,
+      "Armor": 200,
+      "Affinity": -1
+    }
+  },
+  "Pharaoh Predasite": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "Easily frightened, this Predasite flees in the sight of danger, but not before hissing a geyser of parasitic sputum.\n\nActive only while Fass watches over the Cambion Drift.",
+      "Link": "Pharaoh Predasite",
+      "Scans": 20,
+      "Type": "",
+      "Image": "PharaohPredasite.png",
+      "Name": "Pharaoh Predasite",
+      "Faction": "Predator",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.875x"
+      ],
+      "Health": 500,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Fire-Veined Stover": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "The Stover is a kind of proto-Kubrow, resurrected as Venus thawed. When grouped in a pack Stovers are relentless opponents.",
+      "Link": "Fire-Veined Stover",
+      "Scans": 20,
+      "Type": "",
+      "Image": "StoverRare.png",
+      "Name": "Fire-Veined Stover",
+      "Faction": "Predator",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24.2"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 200,
+      "Affinity": -1
+    }
+  },
+  "Deep Archimedea Void Angel": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "Zariman",
+      "Description": "",
+      "Link": "Void Angel",
+      "Missions": [
+        "Deep Archimedea"
+      ],
+      "Type": "Field Boss",
+      "TileSets": [
+        "Albrecht's Laboratories"
+      ],
+      "Image": "VoidAngel.png",
+      "Name": "Deep Archimedea Void Angel",
+      "Faction": "Unknown",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "35.5.3"
+    },
+    "Stats": {
+      "Health": 12000,
+      "BaseLevel": 1,
+      "Shield": 100,
+      "SpawnLevel": 50,
+      "Armor": 350,
+      "Affinity": 1500
+    }
+  },
+  "Common Condroc": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "A carrion-eater and opportunistic bird-of-prey. Condrocs gather, feed upon carrion, and occasionally, hunt in groups known as 'committees'. Several committees will be led by an Emperor.",
+      "Link": "Common Condroc",
+      "Scans": 20,
+      "Type": "",
+      "Image": "CondrocCommon.png",
+      "Name": "Common Condroc",
+      "Faction": "Predator",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "22"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 6,
+      "Affinity": -1
+    }
+  },
+  "Storage Container": {
+    "General": {
+      "Actor": "",
+      "Description": "",
+      "Missions": {},
+      "Link": "Storage Container",
+      "Type": "Environment",
+      "Scans": "12 (Common, Uncommon)<br>5 (Rare)<br>3 (Reinforced)<br>5 (Resource Deposit)",
+      "Name": "Storage Container",
+      "Image": "CodexCommonCorpusStorageContainer.png",
+      "Abilities": {},
+      "Faction": "Objects",
+      "Planets": {},
+      "Weapons": {},
+      "InternalName": "",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Health": 10
+    }
+  },
+  "Liminus": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Melee",
+      "Description": "",
+      "Link": "Liminus",
+      "Introduced": "33",
+      "Image": "Liminus.png",
+      "Name": "Liminus",
+      "Faction": "?",
+      "Planets": [
+        "Duviri"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "BaseLevel": 1,
+      "Affinity": -1
+    }
+  },
+  "Clem": {
+    "General": {
+      "Actor": "Kol Crosbie (aka [DE]Skree)",
+      "Description": "Clem Clem",
+      "Link": "Clem",
+      "Missions": [
+        "A Man of Few Words",
+        "Help Clem"
+      ],
+      "Type": "Ranged",
+      "Image": "ClemAvatar.png",
+      "Name": "Clem",
+      "Faction": "Tenno",
+      "Scans": 1,
+      "Weapons": [
+        "Twin Gratakas",
+        "Latron"
+      ],
+      "InternalName": "",
+      "FactionDamageOverride": ""
+    },
+    "Stats": {
+      "Armor": 300,
+      "BaseLevel": 1,
+      "Health": 300,
+      "Affinity": -1
+    }
+  },
+  "Ethereal Void Angel": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "Zariman",
+      "Description": "",
+      "Link": "Void Angel",
+      "Scans": 3,
+      "Type": "Field Boss",
+      "TileSets": [
+        "Zariman (Tileset)"
+      ],
+      "Image": "VoidAngel.png",
+      "Name": "Void Angel",
+      "Faction": "Unknown",
+      "Planets": [
+        "Zariman Ten Zero"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "31.5"
+    },
+    "Stats": {
+      "Health": 1500,
+      "BaseLevel": 1,
+      "Shield": 0,
+      "SpawnLevel": 50,
+      "Armor": 0,
+      "Affinity": 100
+    }
+  },
+  "Explosive Barrel": {
+    "General": {
+      "Actor": "",
+      "Description": "",
+      "Missions": {},
+      "Link": "Explosive Barrel",
+      "Type": "Environment",
+      "Scans": 12,
+      "Name": "Explosive Barrel",
+      "Image": "CodexExplosiveBarrel.png",
+      "Abilities": {},
+      "Faction": "Objects",
+      "Planets": {},
+      "Weapons": {},
+      "InternalName": "",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Health": 50
+    }
+  },
+  "Flossy Sawgaw": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "'Soar Gore' as the Solaris call it, this crimson-faced bird of prey circles and stalks the cliffs and fungal forests of Venus, searching for rodent prey.",
+      "Link": "Flossy Sawgaw",
+      "Scans": 20,
+      "Type": "",
+      "Image": "SnowBirdCommon.png",
+      "Name": "Flossy Sawgaw",
+      "Faction": "Predator",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24.2"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 6,
+      "Affinity": -1
+    }
+  },
+  "Darvo": {
+    "General": {
+      "Actor": "Ryan Baker",
+      "Description": "",
+      "Missions": [
+        "Ties That Bind",
+        "Vor's Prize",
+        "Relay"
+      ],
+      "Image": "DarvoCodex.png",
+      "Type": "",
+      "Faction": "Neutral",
+      "Planets": {},
+      "TileSets": {},
+      "Scans": 1,
+      "CodexSecret": true
+    },
+    "Stats": {
+      "ProcResists": {},
+      "Health": 80,
+      "BaseLevel": 1,
+      "Shield": 80,
+      "SpawnLevel": 1,
+      "Armor": 20
+    }
+  },
+  "Kavat": {
+    "General": {
+      "TileSets": [
+        "Orokin Derelict"
+      ],
+      "Description": "Feral Kavat",
+      "Link": "Feral Kavat",
+      "Name": "Kavat",
+      "Type": "",
+      "Scans": 20,
+      "Image": "FeralCatbrow.png",
+      "Abilities": [
+        "Cloaking"
+      ],
+      "Faction": "Neutral",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "18.5"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.875x"
+      ],
+      "Health": 300,
+      "BaseLevel": 1,
+      "Armor": 175,
+      "Affinity": -1
+    }
+  },
+  "Nephil Vasca Kavat": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "The Vasca strain is a symbiotic blood-borne virus transmitted via the saliva of infected kavats. Existing solely to propagate itself the virus makes the host increasingly dependent upon the ingestion of blood, thereby spreading itself further and faster through the population. Vasca-infected kavats, over time, lose all sense of themselves becoming increasingly cunning, violent and ravenous.",
+      "Link": "Nephil Vasca Kavat",
+      "Scans": 20,
+      "Type": "",
+      "Image": "VascaKavatRare.png",
+      "Name": "Nephil Vasca Kavat",
+      "Faction": "Predator",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "26"
+    },
+    "Stats": {
+      "Armor": 175,
+      "BaseLevel": 1,
+      "Health": 300,
+      "Affinity": -1
+    }
+  },
+  "Brindle Kubrodon": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "The apex predator of the Venusian plains. These massively framed beasts travel in groups and mark the territory surrounding Orokin cooling towers as their own. Kubrodons are a danger best avoided.",
+      "Link": "Brindle Kubrodon",
+      "Scans": 20,
+      "Type": "",
+      "Image": "KubrodonCommon.png",
+      "Name": "Brindle Kubrodon",
+      "Faction": "Neutral",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "24"
+    },
+    "Stats": {
+      "Armor": 50,
+      "BaseLevel": 1,
+      "Health": 1000,
+      "Affinity": -1
+    }
+  },
+  "Persecutor Liminus": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Melee",
+      "Description": "",
+      "Link": "Liminus#Persecutor",
+      "Introduced": "33.5",
+      "Image": "PersecutorLiminus.png",
+      "Name": "Persecutor Liminus",
+      "Faction": "?",
+      "Planets": [
+        "Duviri"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "BaseLevel": 1,
+      "Affinity": -1
+    }
+  },
+  "Caustic Cryptilex": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "The most dangerous Cryptilex. They have glands in their abdomens that can emit an acidic spray.",
+      "Link": "Caustic Cryptilex",
+      "Scans": 20,
+      "Type": "",
+      "Image": "CausticCryptilex.png",
+      "Name": "Caustic Cryptilex",
+      "Faction": "Prey",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.875x"
+      ],
+      "Health": 1,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Vaporous Undazoa": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "The Vaporous Undazoa gets its name from the noxious gas it belches out when alerted.",
+      "Link": "Vaporous Undazoa",
+      "Scans": 20,
+      "Type": "",
+      "Image": "VaporousUndazoa.png",
+      "Name": "Vaporous Undazoa",
+      "Faction": "Prey",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "29.5"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 2.0x"
+      ],
+      "Health": 22,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Affinity": -1
+    }
+  },
+  "Kullervo (Descendia)": {
+    "General": {
+      "TileSets": [
+        ""
+      ],
+      "Description": "",
+      "Link": "Kullervo (Boss)#Descendia",
+      "Scans": 1,
+      "Type": "Boss",
+      "Image": "Kullervo_Thumb.png",
+      "Name": "Kullervo (Descendia)",
+      "Faction": "Duviri",
+      "Planets": [
+        "The Descendia"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Tau/CoH/Bosses/CoHPaxDuviricusDungeonEncounterAgent",
+      "Introduced": "41"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.5x"
+      ],
+      "Health": 7000,
+      "BaseLevel": 1,
+      "Armor": 0,
+      "Affinity": 1500
+    }
+  },
+  "Saturn Six Fugitive": {
+    "General": {
+      "FactionDamageOverride": "Grineer",
+      "Description": "Broken out of the Saturn Six Max-Pen by the Wolf, this fugitive is a loyal member of his pack.",
+      "Link": "Saturn Six Fugitive",
+      "Scans": 5,
+      "Image": "WolfGangster.png",
+      "Name": "Saturn Six Fugitive",
+      "Faction": "Neutral",
+      "Type": "Ranged",
+      "Weapons": [
+        "Karak",
+        "Sheev"
+      ],
+      "InternalName": "",
+      "Introduced": "24.3"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 800,
+      "BaseLevel": 1,
+      "Armor": 300,
+      "Affinity": -1
+    }
+  },
+  "Desert Skate": {
+    "General": {
+      "TileSets": [
+        "Grineer Settlement"
+      ],
+      "Description": "",
+      "Link": "Desert Skate",
+      "Scans": 20,
+      "Type": "Ranged",
+      "Image": "DesertSkateDE.png",
+      "Name": "Desert Skate",
+      "Faction": "Neutral",
+      "Planets": [
+        "Mars"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "9.5"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.875x",
+        "Under Belly: 1.25x",
+        "Back Head: 0.375x",
+        "Back: 0.25x",
+        "Tail: 0.1x"
+      ],
+      "Health": 250,
+      "BaseLevel": 1,
+      "Armor": 200,
+      "Affinity": 50
+    }
+  }
+}

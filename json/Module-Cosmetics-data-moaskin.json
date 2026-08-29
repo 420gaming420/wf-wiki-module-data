@@ -1,0 +1,20 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/moaskin",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:32:58.545Z"
+  },
+  "_comments": "",
+  "Ki'Teer Moa Pet Skin": {
+    "Type": "Skin",
+    "Image": "BaroMoaSkin.png",
+    "Description": "A striking new skin for your favorite automatic pet, in the style of the System's most enigmatic trader.",
+    "Link": "Ki'Teer Moa Pet Skin",
+    "Name": "Ki'Teer Moa Pet Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/MoaPet/BaroMoaPetSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  }
+}

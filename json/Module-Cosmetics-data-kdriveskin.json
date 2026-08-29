@@ -1,0 +1,40 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/kdriveskin",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:32:45.056Z"
+  },
+  "_comments": "",
+  "Green Velocipod K-Drive Skin": {
+    "Type": "Skin",
+    "Image": "GreenVelocipodK-DriveSkin.png",
+    "Description": "Transforms your K-Drive in to a Green Velocipod.",
+    "Link": "Green Velocipod K-Drive Skin",
+    "Name": "Green Velocipod K-Drive Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/KDrive/KDriveVelocipodUncommonSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "White Velocipod K-Drive Skin": {
+    "Type": "Skin",
+    "Image": "WhiteVelocipodK-DriveSkin.png",
+    "Description": "Transforms your K-Drive in to a White Velocipod.",
+    "Link": "White Velocipod K-Drive Skin",
+    "Name": "White Velocipod K-Drive Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/KDrive/KDriveVelocipodRareSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Purple Velocipod K-Drive Skin": {
+    "Type": "Skin",
+    "Image": "PurpleVelocipodK-DriveSkin.png",
+    "Description": "Transforms your K-Drive in to a Purple Velocipod.",
+    "Link": "Purple Velocipod K-Drive Skin",
+    "Name": "Purple Velocipod K-Drive Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/KDrive/KDriveVelocipodSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  }
+}

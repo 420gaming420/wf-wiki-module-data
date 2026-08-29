@@ -1,0 +1,4173 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Enemies/data/infestation",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:36:11.188Z"
+  },
+  "_comments": "\t\t\t--Multis = { \"?\" },\n\t\t\t--Introduced = \"?\",\n\t\t\t--Description = \"?\",\n\t\t\t--Scans = ?,",
+  "Mutalist Osprey Carrier": {
+    "General": {
+      "Type": "",
+      "Description": "Carries energy cells",
+      "Link": "Mutalist Osprey Carrier",
+      "Missions": [
+        "Excavation"
+      ],
+      "Image": "InfestedOsprey.png",
+      "Name": "Mutalist Osprey Carrier",
+      "Faction": "Infested",
+      "Scans": 10,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/InfestedDrones/CellCarrierDroneAgent",
+      "Introduced": "14.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 3,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Health": 200,
+      "BaseLevel": 1,
+      "Multis": [
+        ""
+      ],
+      "Affinity": 100
+    }
+  },
+  "Boiler": {
+    "General": {
+      "Type": "Melee",
+      "Description": "Riddled with boils that erupt into spawn pods when hit",
+      "Link": "Boiler",
+      "Image": "PussAncient.png",
+      "Name": "Boiler",
+      "Faction": "Infested",
+      "Scans": 5,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Ancients/SpawningAncient",
+      "Introduced": "15.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 1200,
+      "BaseLevel": 12,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "EximusHealth": 1000,
+      "EximusAffinity": 500,
+      "Affinity": 150
+    }
+  },
+  "Demolisher Boiler": {
+    "General": {
+      "TileSets": [
+        "Grineer Galleon"
+      ],
+      "Description": "Demolishers are explosive enemies with a single-minded purpose: the destruction of compromised conduits at any cost. Part of the complete Alad V Conduit Security Package!",
+      "Link": "Boiler#Demolisher",
+      "Missions": [
+        "Disruption"
+      ],
+      "Type": "Melee",
+      "Scans": 5,
+      "Image": "DemolisherBoiler.png",
+      "Name": "Demolisher Boiler",
+      "Faction": "Infested",
+      "Planets": [
+        "Uranus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/Disruption/DisruptionBoilerAgent",
+      "Introduced": "25.7"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "ProcResists": [
+        "Viral",
+        "Radiation"
+      ],
+      "Health": 3000,
+      "BaseLevel": 1,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 150
+    }
+  },
+  "Deimos Mutalist Osprey Carrier": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "Carries energy cells",
+      "Link": "Mutalist Osprey Carrier#Deimos",
+      "Missions": [
+        "Excavation"
+      ],
+      "Type": "",
+      "Scans": 10,
+      "Image": "CellCarrierDroneMicroPlanetAvatar.png",
+      "Name": "Deimos Mutalist Osprey Carrier",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/CellCarrierDroneMicroPlanet",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 3,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Health": 200,
+      "BaseLevel": 1,
+      "Multis": [
+        ""
+      ],
+      "Affinity": 100
+    }
+  },
+  "Pulsing Infested Hive": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "Emits magnetized clouds.",
+      "Link": "Pulsing Infested Hive",
+      "Missions": [
+        "Hive",
+        "Hidden Messages",
+        "Patient Zero"
+      ],
+      "Type": "",
+      "TileSets": [
+        "Infested Ship"
+      ],
+      "Scans": 3,
+      "Image": "InfestedHiveC.png",
+      "Name": "Pulsing Infested Hive",
+      "Faction": "Infested",
+      "Planets": [
+        "Eris"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "13.8"
+    },
+    "Stats": {
+      "Attacks": {},
+      "Health": 4500,
+      "BaseLevel": 1,
+      "Armor": 25,
+      "Affinity": -1
+    }
+  },
+  "Ancient Healer": {
+    "General": {
+      "Type": "Heavy",
+      "Description": "Heavy melee that applies damage reduction buff to allies.",
+      "Link": "Ancient Healer",
+      "Image": "HealerAncientDE.png",
+      "Name": "Ancient Healer",
+      "Faction": "Infested",
+      "Scans": 5,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Ancients/HealingAncient",
+      "Introduced": "Vanilla"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 400,
+      "BaseLevel": 1,
+      "Multis": [
+        "Head: 3.0x",
+        "Back Crown: 0.5x"
+      ],
+      "EximusHealth": 400,
+      "EximusAffinity": 500,
+      "Affinity": 150
+    }
+  },
+  "Ancient Protector": {
+    "General": {
+      "Type": "Heavy",
+      "Description": "Heavy melee unit that protects allies with Overguard, or damage reduction if Tenno.",
+      "Link": "Ancient Protector",
+      "Scans": 5,
+      "Image": "AncientProtector.png",
+      "Name": "Ancient Protector",
+      "Faction": "Infested",
+      "Planets": [
+        "Mercury",
+        "Venus",
+        "Earth",
+        "Mars",
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune",
+        "Pluto",
+        "Ceres",
+        "Eris",
+        "Sedna",
+        "Europa",
+        "Phobos",
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Ancients/ProtectorAncient",
+      "Introduced": "38"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 400,
+      "BaseLevel": 1,
+      "Multis": [
+        "Head: 3.0x",
+        "Back Crown: 0.5x"
+      ],
+      "EximusHealth": 400,
+      "EximusAffinity": 500,
+      "Affinity": 150
+    }
+  },
+  "Polyp-Hog Juggernaut": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "With the ability to track a scent from miles away, this Juggernaut is an invaluable ally when foraging rare Polyps from the ruins of Deimos",
+      "Link": "Juggernaut#Polyp-Hog",
+      "Name": "Polyp-Hog Juggernaut",
+      "Type": "",
+      "Scans": 3,
+      "Image": "JuggernautMicroPlanetAvatar.png",
+      "Abilities": [
+        "Charge",
+        "Infested Spawn Tar",
+        "Poison Rain",
+        "Quill Shot"
+      ],
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/JuggernautMicroPlanetEscort",
+      "Missions": [
+        "Necralisk Bounty"
+      ]
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "Multishot": 6,
+          "AttackName": "Projectile Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 10
+        },
+        {
+          "Note": "Projectile damage is bundled with its own on-contact damage",
+          "AttackName": "Projectile Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.1,
+            "Impact": 0.2
+          },
+          "StatusChance": 0.02,
+          "TotalDamage": 3
+        }
+      ],
+      "ProcResists": [
+        "Viral"
+      ],
+      "Health": 6000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Multis": [
+        ""
+      ],
+      "Affinity": 500
+    }
+  },
+  "Chroma": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "",
+      "Link": "Chroma",
+      "Missions": [
+        "The New Strange"
+      ],
+      "Type": "Specter",
+      "Scans": 1,
+      "Image": "Chroma.png",
+      "Abilities": [
+        "Spectral Scream",
+        "Elemental Ward",
+        "Vex Armor",
+        "Effigy"
+      ],
+      "Faction": "Infested",
+      "Name": "Chroma",
+      "Weapons": [
+        "Dera",
+        "Plasma Sword"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/TennoReplicantChromaAgent",
+      "Introduced": "16"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.75,
+            "Slash": 0.15,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.01,
+          "TotalDamage": 7,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.0594,
+            "Electricity": 0.3267,
+            "Slash": 0.4356,
+            "Impact": 0.1683
+          },
+          "StatusChance": 0.18,
+          "TotalDamage": 202,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 2000,
+      "BaseLevel": 1,
+      "Shield": 1000,
+      "Armor": 200,
+      "Affinity": 50
+    }
+  },
+  "Zealoid Prelate": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orokin Derelict"
+      ],
+      "Description": "Wreathed in an obfuscating black cloud the Zealoid Prelate brings Arlo's word with fire, blood and loyal Bastions who spring to his aid.",
+      "Link": "Zealoid Prelate",
+      "Missions": [
+        "Assassination",
+        "Exequias"
+      ],
+      "Type": "Boss",
+      "Scans": 3,
+      "Name": "Zealoid Prelate",
+      "Image": "ZealoidPrelate.png",
+      "Abilities": [
+        "Ground Slam",
+        "Teleportation",
+        "Heat Wave",
+        "Maggot Grenade"
+      ],
+      "Faction": "Infested",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        "Pathocyst"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/WeaveMutalist/WeaveMutalist",
+      "Introduced": "25.7.7"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.8,
+            "Slash": 0.1,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.2,
+          "TotalDamage": 75,
+          "AttackName": "Glaive Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Toxin": 1
+          },
+          "StatusChance": 0.15,
+          "TotalDamage": 50,
+          "AttackName": "Glaive AoE Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "TotalDamage": 15,
+          "AttackName": "Thrown Glaive Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "TotalDamage": 80,
+          "AttackName": "Thrown Glaive AoE Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Slash": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 45,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 9000,
+      "BaseLevel": 1,
+      "SpawnLevel": 35,
+      "Affinity": 1500
+    }
+  },
+  "Deimos Charger": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "Fast with weak claw attacks",
+      "Link": "Charger#Deimos",
+      "Scans": 20,
+      "Type": "Melee",
+      "Image": "QuadrupedMicroPlanetAvatar.png",
+      "Name": "Deimos Charger",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/QuadrupedMicroPlanet",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "Note": "Will resort to Shot Damage if target cannot be reached via melee",
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Toxin": 1
+          },
+          "StatusChance": 0.2,
+          "TotalDamage": 1
+        },
+        {
+          "Note": "Projectile shot damage is bundled with its own on-contact damage",
+          "AttackName": "Shot Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25
+        }
+      ],
+      "Health": 80,
+      "BaseLevel": 1,
+      "EximusHealth": 80,
+      "Multis": [
+        "Lancer Head: 3.0x",
+        "Face: 0.2x",
+        "Carapace: 0.05x"
+      ],
+      "Affinity": 50
+    }
+  },
+  "Demolisher Thrasher": {
+    "General": {
+      "TileSets": [
+        "Grineer Galleon"
+      ],
+      "Description": "Demolishers are explosive enemies with a single-minded purpose: the destruction of compromised conduits at any cost. Part of the complete Alad V Conduit Security Package!",
+      "Link": "Leaping Thrasher#Demolisher",
+      "Missions": [
+        "Disruption"
+      ],
+      "Type": "Melee",
+      "Scans": 5,
+      "Image": "DemolisherThrasher.png",
+      "Name": "Demolisher Thrasher",
+      "Faction": "Infested",
+      "Planets": [
+        "Uranus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/Disruption/DisruptionAncientTankAgent",
+      "Introduced": "25.7"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 35,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "ProcResists": [
+        "Viral",
+        "Radiation"
+      ],
+      "Health": 3250,
+      "BaseLevel": 1,
+      "Multis": [
+        "Head: 3.0x",
+        "Upper Hardened Body: 0.5x"
+      ],
+      "Affinity": 150
+    }
+  },
+  "Lancing Infested Hive": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "Emits a deadly laser.",
+      "Link": "Lancing Infested Hive",
+      "Missions": [
+        "Hive",
+        "Hidden Messages",
+        "Patient Zero"
+      ],
+      "Type": "",
+      "TileSets": [
+        "Infested Ship"
+      ],
+      "Scans": 3,
+      "Image": "InfestedHiveD.png",
+      "Name": "Lancing Infested Hive",
+      "Faction": "Infested",
+      "Planets": [
+        "Eris"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "13.8"
+    },
+    "Stats": {
+      "Attacks": {},
+      "Health": 4500,
+      "BaseLevel": 1,
+      "Armor": 25,
+      "Affinity": -1
+    }
+  },
+  "Mutalist Osprey": {
+    "General": {
+      "Type": "",
+      "Description": "Carries Crawlers into battle",
+      "Link": "Mutalist Osprey",
+      "Image": "InfestedOsprey.png",
+      "Name": "Mutalist Osprey",
+      "Faction": "Infested",
+      "Scans": 10,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/InfestedDrones/PoisonDroneAgent",
+      "Introduced": "13.8"
+    },
+    "Stats": {
+      "Attacks": {},
+      "Health": 200,
+      "BaseLevel": 10,
+      "Multis": [
+        ""
+      ],
+      "Affinity": 100
+    }
+  },
+  "Volatile Runner": {
+    "General": {
+      "Type": "Melee",
+      "Description": "Fast and explodes when near enemies",
+      "Link": "Volatile Runner",
+      "Image": "RunnerDE.png",
+      "Name": "Volatile Runner",
+      "Faction": "Infested",
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Runners/SuicideRunner",
+      "Scans": 20
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 10,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "Note": "Will resort to Shot Damage if target cannot be reached via melee",
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.25,
+          "TotalDamage": 25
+        },
+        {
+          "Note": "Projectile shot damage is bundled with its own on-contact damage",
+          "AttackName": "Shot Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25
+        }
+      ],
+      "Health": 80,
+      "BaseLevel": 1,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 50
+    }
+  },
+  "Deimos Jugulus Rex": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Link": "Deimos Jugulus#Rex",
+      "Missions": [
+        "Necralisk Bounty"
+      ],
+      "Type": "",
+      "Image": "BoneBladeBossAvatar.png",
+      "Name": "Deimos Jugulus Rex",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/GreyStrain/BoneBlade/BoneBladeBossAgent",
+      "Introduced": "30.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 20,
+          "AttackName": "Projectile Damage"
+        },
+        {
+          "Note": "Projectile damage is bundled with its own on-contact damage",
+          "AttackName": "Projectile Contact Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 20
+        }
+      ],
+      "ProcResists": [
+        "Viral"
+      ],
+      "Health": 2000,
+      "BaseLevel": 1,
+      "Armor": 300,
+      "Multis": [
+        "Head: 2.0x",
+        "Body: 0.5X"
+      ],
+      "Affinity": 1000
+    }
+  },
+  "Mitosid Rex": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "Fiercely territorial, this beast lurks within the ruins of Deimos.",
+      "Link": "Mitosid#Rex",
+      "Missions": [
+        "Necralisk Bounty"
+      ],
+      "Type": "",
+      "Scans": 1,
+      "Image": "MitosidRex.png",
+      "Name": "Mitosid Rex",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/Splitter/SplitterAgentVIP",
+      "Introduced": "29.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Slash": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 35,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "ProcResists": [
+        "Viral"
+      ],
+      "Health": 700,
+      "BaseLevel": 1,
+      "Armor": 600,
+      "Multis": [
+        "Head: 3.0x",
+        "Body: 0.5x"
+      ],
+      "Affinity": 50
+    }
+  },
+  "Deimos Swarm Mutalist MOA": {
+    "General": {
+      "Type": "",
+      "Description": "Discharges swarms of infested spores",
+      "Link": "Swarm Mutalist MOA#Deimos",
+      "Missions": [
+        "Shrine Defence"
+      ],
+      "Scans": 5,
+      "Image": "NaniteCloudBipedMicroPlanetAvatar.png",
+      "Name": "Deimos Swarm Mutalist MOA",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/NaniteCloudBipedMicroPlanet",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Puncture": 1
+          },
+          "StatusChance": 0.05,
+          "BurstCount": 3,
+          "TotalDamage": 10
+        },
+        {
+          "Note": "Shot damage is bundled with AoE damage",
+          "AttackName": "Shot AoE Damage",
+          "DamageDistribution": {
+            "Puncture": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 10
+        }
+      ],
+      "Health": 350,
+      "BaseLevel": 12,
+      "EximusHealth": 275,
+      "Affinity": 150
+    }
+  },
+  "Jack O'Naut": {
+    "General": {
+      "Type": "",
+      "Link": "Juggernaut#Jack O'Naut",
+      "Missions": [
+        "Hallowed Nightmares"
+      ],
+      "Image": "Jack_O'_Naut.png",
+      "Abilities": [
+        "Charge",
+        "Infested Spawn Tar",
+        "Poison Rain"
+      ],
+      "Faction": "Infested",
+      "Name": "Jack O'Naut",
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Quadrupeds/JuggernautTacAlert",
+      "Introduced": "Recurring Nightmares"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "Multishot": 6,
+          "AttackName": "Projectile Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 10
+        },
+        {
+          "Note": "Projectile damage is bundled with its own on-contact damage",
+          "AttackName": "Projectile Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.1,
+            "Impact": 0.2
+          },
+          "StatusChance": 0.02,
+          "TotalDamage": 3
+        }
+      ],
+      "Health": 2000,
+      "BaseLevel": 2,
+      "Armor": 200,
+      "Multis": [
+        ""
+      ],
+      "Affinity": 1500
+    }
+  },
+  "Carrion Charger": {
+    "General": {
+      "TileSets": [
+        "Grineer Asteroid",
+        "Grineer Galleon",
+        "Infested Ship"
+      ],
+      "Description": "Spawned the body of a creature killed by infested, these charges are fast with weak claw attacks.",
+      "Link": "Charger#Carrion",
+      "Missions": [
+        "Defection"
+      ],
+      "Type": "Melee",
+      "Scans": 3,
+      "Image": "CarrionCharger.png",
+      "Name": "Carrion Charger",
+      "Faction": "Infested",
+      "Planets": [
+        "Phobos",
+        "Saturn",
+        "Neptune"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Quadrupeds/QuadrupedColonist",
+      "Introduced": "19.12"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "Note": "Will resort to Shot Damage if target cannot be reached via melee",
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.25,
+          "TotalDamage": 25
+        },
+        {
+          "Note": "Projectile shot damage is bundled with its own on-contact damage",
+          "AttackName": "Shot Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25
+        }
+      ],
+      "Health": 80,
+      "BaseLevel": 1,
+      "EximusHealth": 80,
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "Affinity": 50
+    }
+  },
+  "Deimos Therid": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "The cunning Therid uses its long arms to spin a ball of corrosive gossamer that it hurls with a surprising force. It has also been known to scoop up smaller infested to throw at intruders as an improvised projectile/delivery system.",
+      "Link": "Deimos Therid",
+      "Scans": 5,
+      "Type": "",
+      "Image": "AncientShellAvatar.png",
+      "Name": "Deimos Therid",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Emissary/AncientShellAgent",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 30,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "Note": "Projectile shot damage is bundled with its own on-contact damage",
+          "AttackName": "Shot Contact Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 20
+        }
+      ],
+      "ProcResists": [
+        "Viral"
+      ],
+      "Health": 800,
+      "BaseLevel": 1,
+      "Multis": [
+        "Head: 3.0x",
+        "Upper Hardened Body: 0.5x"
+      ],
+      "Affinity": 150
+    }
+  },
+  "Leaping Thrasher": {
+    "General": {
+      "TileSets": [
+        "Orokin Derelict"
+      ],
+      "Description": "An ancient brute possessed of a weighty arm-flail and the terrifying strength to use it to devastating effect. Its lumbering form belies shocking speed, which the Leaping Thrasher achieves by slamming its arm into the ground and throwing itself into battle.",
+      "Link": "Leaping Thrasher",
+      "Scans": 5,
+      "Type": "Melee",
+      "Image": "LeapingThrasher.png",
+      "Name": "Leaping Thrasher",
+      "Faction": "Infested",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Emissary/AncientTankAgent",
+      "Introduced": "25.7.3.1"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 35,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "ProcResists": [
+        "Viral"
+      ],
+      "Health": 600,
+      "BaseLevel": 1,
+      "Multis": [
+        "Head: 3.0x",
+        "Upper Head: 1.0x",
+        "Upper Hardened Body: 0.5x"
+      ],
+      "Affinity": 150
+    }
+  },
+  "Phorid": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Grineer Asteroid"
+      ],
+      "Description": "",
+      "Link": "Phorid",
+      "Missions": [
+        "Assassination",
+        "Invasion"
+      ],
+      "Type": "Boss",
+      "Scans": 3,
+      "Image": "PhoridDE2.png",
+      "Abilities": [
+        "Psychic Bolts",
+        "Sonic Scream"
+      ],
+      "Faction": "Infested",
+      "Name": "Phorid",
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/Vip/QuadrupedVIP",
+      "Introduced": "6"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 100,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Impact": 0
+          },
+          "Note": "Data needed on Sonic Scream!",
+          "TotalDamage": 0,
+          "AttackName": "Sonic Scream (Data Needed)"
+        }
+      ],
+      "Health": 5000,
+      "BaseLevel": 1,
+      "Armor": 25,
+      "Affinity": 3500
+    }
+  },
+  "Maggot": {
+    "General": {
+      "Type": "",
+      "Description": "Overwhelms prey with sheer numbers.",
+      "Link": "Maggot",
+      "Image": "DEMaggot.png",
+      "Name": "Maggot",
+      "Faction": "Infested",
+      "Scans": 30,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Quadrupeds/RusherAgent",
+      "Introduced": "15.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 20,
+      "BaseLevel": 1,
+      "Multis": [
+        ""
+      ],
+      "Affinity": 35
+    }
+  },
+  "Deimos Jugulus": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "A writhing tower of flesh and gristle, the Jugulus lurks beneath the surface and emerges to launch streams of organic projectiles from its wide maw.",
+      "Link": "Deimos Jugulus",
+      "Scans": 5,
+      "Type": "",
+      "Image": "BoneBladeAvatar.png",
+      "Name": "Deimos Jugulus",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/GreyStrain/BoneBlade/BoneBladeAgent",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 20,
+          "AttackName": "Projectile Damage"
+        },
+        {
+          "Note": "Projectile damage is bundled with its own on-contact damage",
+          "AttackName": "Projectile Contact Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 20
+        }
+      ],
+      "ProcResists": [
+        "Viral"
+      ],
+      "Health": 1200,
+      "BaseLevel": 1,
+      "Armor": 300,
+      "EximusHealth": 1200,
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "Affinity": 150
+    }
+  },
+  "Deimos Runner": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "Fast with weak claw attacks",
+      "Link": "Runner#Deimos",
+      "Scans": 30,
+      "Type": "Melee",
+      "Image": "RunnerMicroPlanetAvatar.png",
+      "Name": "Deimos Runner",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/MeleeMicroPlanetRunner",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 10,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "Note": "Will resort to Shot Damage if target cannot be reached via melee",
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Toxin": 1
+          },
+          "StatusChance": 0.2,
+          "TotalDamage": 1
+        },
+        {
+          "Note": "Projectile shot damage is bundled with its own on-contact damage",
+          "AttackName": "Shot Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25
+        }
+      ],
+      "Health": 100,
+      "BaseLevel": 1,
+      "EximusHealth": 100,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 35
+    }
+  },
+  "Lobber Crawler": {
+    "General": {
+      "Type": "Melee and Ranged",
+      "Description": "Spits explosive projectiles",
+      "Link": "Lobber Crawler",
+      "Image": "GrenadeAvatar.png",
+      "Name": "Lobber Crawler",
+      "Faction": "Infested",
+      "Scans": 30,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Crawlers/GrenadeCrawler",
+      "Introduced": "10.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 10,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 0,
+          "AttackName": "Grenade Damage (Need Data)"
+        }
+      ],
+      "Health": 50,
+      "BaseLevel": 1,
+      "EximusHealth": 50,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 35
+    }
+  },
+  "Deimos Saxum": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "Saxum are bipedal, medium-sized assailants capable of short-ranged attacks and a powerful grand slam in melee.",
+      "Link": "Deimos Saxum",
+      "Scans": 3,
+      "Type": "",
+      "Image": "InfestedFemurAvatar.png",
+      "Name": "Deimos Saxum",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/GreyStrain/Femur/InfestedFemurAgent",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "BurstCount": 4,
+          "TotalDamage": 10
+        },
+        {
+          "Note": "Shot damage is bundled with AoE damage",
+          "AttackName": "Shot AoE Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 5
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.5,
+            "Slash": 0.5
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 60,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "ProcResists": [
+        "Viral"
+      ],
+      "Health": 750,
+      "BaseLevel": 1,
+      "Armor": 70,
+      "EximusHealth": 550,
+      "Multis": [
+        "First Femur: 1.0x",
+        "Second Femur: 2.0x",
+        "Broken Femurs: 2.0x",
+        "Body with unbroken Femur: 0.2x",
+        "Body with broken Femurs: 1.0x"
+      ],
+      "Affinity": 500
+    }
+  },
+  "Deimos Leaper": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Link": "Leaper#Deimos",
+      "Scans": 30,
+      "Type": "Melee/Knockdown",
+      "Image": "LeapingSuicideRunnerAvatar.png",
+      "Name": "Deimos Leaper",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/LeapingSuicideRunner",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 10,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "Note": "Will resort to Shot Damage if target cannot be reached via melee",
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Toxin": 1
+          },
+          "StatusChance": 0.2,
+          "TotalDamage": 1
+        },
+        {
+          "Note": "Projectile shot damage is bundled with its own on-contact damage",
+          "AttackName": "Shot Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25
+        }
+      ],
+      "BaseLevel": 1,
+      "Health": 100,
+      "Affinity": 35
+    }
+  },
+  "Deimos Tendril Drone": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "An infested drone as brutal and unforgiving as Deimos itself.",
+      "Link": "Deimos Tendril Drone",
+      "Scans": 10,
+      "Type": "",
+      "Image": "InfestedTendrilDroneAvatar.png",
+      "Name": "Deimos Tendril Drone",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/Drones/Tendril/InfestedTendrilDroneAgent",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0.03,
+          "TotalDamage": 15,
+          "AttackName": "Shot AoE Damage"
+        }
+      ],
+      "Health": 60,
+      "BaseLevel": 1,
+      "Armor": 150,
+      "Multis": [
+        ""
+      ],
+      "Affinity": 100
+    }
+  },
+  "Charger": {
+    "General": {
+      "Type": "Melee",
+      "Description": "Fast with weak claw attacks",
+      "Link": "Charger",
+      "Image": "QuadrupedAvatar.png",
+      "Name": "Charger",
+      "Faction": "Infested",
+      "Scans": 20,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Quadrupeds/Quadruped",
+      "Introduced": "6"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 80,
+      "BaseLevel": 1,
+      "EximusHealth": 80,
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "Affinity": 50
+    }
+  },
+  "Infested Mesa": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "",
+      "Link": "Infested Mesa",
+      "Missions": [
+        "Patient Zero"
+      ],
+      "Type": "Specter",
+      "Scans": 1,
+      "Image": "RogueGunslinger.png",
+      "Abilities": [
+        "Ballistic Battery",
+        "Shooting Gallery",
+        "Shatter Shield",
+        "Peacemaker"
+      ],
+      "Faction": "Infested",
+      "Name": "Infested Mesa",
+      "Weapons": [
+        "Regulators",
+        "Plasma Sword"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/TennoReplicantGunslingerAgent",
+      "Introduced": "15.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.25,
+            "Slash": 0.25,
+            "Impact": 0.5
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 20,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.0594,
+            "Electricity": 0.3267,
+            "Slash": 0.4356,
+            "Impact": 0.1683
+          },
+          "StatusChance": 0.18,
+          "TotalDamage": 202,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 1700,
+      "BaseLevel": 1,
+      "Shield": 1000,
+      "Armor": 200,
+      "Affinity": 1500
+    }
+  },
+  "Ancient Disruptor": {
+    "General": {
+      "Type": "Heavy",
+      "Description": "Heavy melee unit with a disrupting attack.",
+      "Link": "Ancient Disruptor",
+      "Scans": 5,
+      "Image": "DisrupterAncientDE.png",
+      "Name": "Ancient Disruptor",
+      "Faction": "Infested",
+      "Planets": [
+        "Mercury",
+        "Venus",
+        "Earth",
+        "Mars",
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune",
+        "Pluto",
+        "Ceres",
+        "Eris",
+        "Sedna",
+        "Europa",
+        "Phobos",
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Ancients/AncientAvatar",
+      "Introduced": "Vanilla"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "Note": "Drains energy off player if hit",
+          "AttackName": "Melee Damage",
+          "DamageDistribution": {
+            "Magnetic": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 15
+        }
+      ],
+      "Health": 400,
+      "BaseLevel": 1,
+      "Multis": [
+        "Head: 3.0x",
+        "Back Crown: 0.5x"
+      ],
+      "EximusHealth": 400,
+      "EximusAffinity": 500,
+      "Affinity": 150
+    }
+  },
+  "Tar Mutalist MOA": {
+    "General": {
+      "Type": "",
+      "Description": "Discharges tar-like mucus slowing its prey",
+      "Link": "Tar Mutalist MOA",
+      "Scans": 5,
+      "Image": "SlowInfestedMoa.png",
+      "Name": "Tar Mutalist MOA",
+      "Faction": "Infested",
+      "Planets": [
+        "Mercury",
+        "Venus",
+        "Earth",
+        "Mars",
+        "Deimos",
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune",
+        "Pluto",
+        "Ceres",
+        "Eris",
+        "Sedna",
+        "Europa",
+        "Phobos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/InfestedMoas/SlowBombBipedAgent",
+      "Introduced": "15.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "Multishot": 4,
+          "AttackName": "Slow Bomb Contact Damage",
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 1
+        },
+        {
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 40,
+          "AttackName": "Slow Bomb AoE Damage"
+        }
+      ],
+      "Health": 350,
+      "BaseLevel": 12,
+      "EximusHealth": 275,
+      "Multis": [
+        "Tail: 3.0x",
+        "Face: 0.5x"
+      ],
+      "Affinity": 150
+    }
+  },
+  "Deimos Saxum Rex": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "Saxum Rex are larger, meaner Saxum and represent a considerably enhanced threat. How they achieve this evolution is unknown, but cannibalism is suspected.",
+      "Link": "Deimos Saxum#Rex",
+      "Missions": [
+        "Necralisk Bounty"
+      ],
+      "Type": "",
+      "Scans": 3,
+      "Image": "FemurAssassinateTargetAvatar.png",
+      "Name": "Deimos Saxum Rex",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/FemurAssassinateTargetAgent",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "BurstCount": 4,
+          "TotalDamage": 10
+        },
+        {
+          "Note": "Shot damage is bundled with AoE damage",
+          "AttackName": "Shot AoE Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 5
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.5,
+            "Slash": 0.5
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 60,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "ProcResists": [
+        "Viral"
+      ],
+      "Health": 900,
+      "BaseLevel": 1,
+      "Armor": 200,
+      "Multis": [
+        "First Femur: 1.0x",
+        "Second Femur: 2.0x",
+        "Broken Femurs: 2.0x",
+        "Body with unbroken Femur: 0.2x",
+        "Body with broken Femurs: 1.0x"
+      ],
+      "Affinity": 500
+    }
+  },
+  "Zealot Proselytizer": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Ranged",
+      "Description": "Attacking with blade and gun, this Zealot spreads the 'message' with a hive of toxic, explosive pustules that grow on his back when he is attacked.",
+      "Link": "Zealot Proselytizer",
+      "Missions": [
+        "Nightwave/Series 2"
+      ],
+      "Image": "ZealotProselytizer.png",
+      "Name": "Zealot Proselytizer",
+      "Faction": "Infested",
+      "Scans": 5,
+      "Weapons": [
+        "Zymos"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/SpecialEvents/ArloZealotDual/ArloZealotDualSwordGunAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Slash": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 35,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Viral": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 8,
+          "AttackName": "Shot Contact Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Viral": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 14,
+          "AttackName": "Shot AoE Damage"
+        }
+      ],
+      "Health": 1000,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "Affinity": 300
+    }
+  },
+  "Leaper": {
+    "General": {
+      "Type": "Melee",
+      "Description": "Fast with a leap attack",
+      "Link": "Leaper",
+      "Image": "LeaperDE.png",
+      "Name": "Leaper",
+      "Faction": "Infested",
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Runners/LeapingRunner",
+      "Scans": 30
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 10,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "Note": "Will resort to Shot Damage if target cannot be reached via melee",
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.25,
+          "TotalDamage": 25
+        },
+        {
+          "Note": "Projectile shot damage is bundled with its own on-contact damage",
+          "AttackName": "Shot Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25
+        }
+      ],
+      "Health": 100,
+      "BaseLevel": 1,
+      "EximusHealth": 100,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 35
+    }
+  },
+  "Attack Mutalist": {
+    "General": {
+      "Type": "Ranged",
+      "Description": "Fires infested spores",
+      "Link": "Attack Mutalist",
+      "Missions": [
+        "Jordas Golem Assassanation"
+      ],
+      "Image": "Attack Mutalist.png",
+      "Name": "Attack Mutalist",
+      "Faction": "Infested",
+      "Scans": 20,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/SpaceBattles/Infested/InfestedAttackDrone",
+      "Introduced": "17.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 3,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Health": 65,
+      "BaseLevel": 1,
+      "Multis": [
+        ""
+      ],
+      "Affinity": 100
+    }
+  },
+  "Zealot Herald": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Ranged",
+      "Description": "This Zealot targets petential converts with a spray of toxic sludge.",
+      "Link": "Zealot Herald",
+      "Missions": [
+        "Nightwave/Series 2"
+      ],
+      "Image": "ZealotHerald.png",
+      "Name": "Zealot Herald",
+      "Faction": "Infested",
+      "Scans": 5,
+      "Weapons": [
+        "Torid"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/SpecialEvents/ArloZealotGunAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "AttackName": "Gredade Contact Damage",
+          "DamageDistribution": {
+            "Viral": 1
+          },
+          "StatusChance": 0,
+          "BurstCount": 3,
+          "TotalDamage": 10
+        },
+        {
+          "DamageDistribution": {
+            "Viral": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 30,
+          "AttackName": "Grenade AoE Damage"
+        }
+      ],
+      "Health": 1000,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "Affinity": 300
+    }
+  },
+  "Arcane Boiler": {
+    "General": {
+      "TileSets": [
+        "Orokin Derelict"
+      ],
+      "Description": "Riddled with boils that erupt into spawn pods when hit",
+      "Link": "Boiler#Arcane",
+      "Missions": [
+        "Stolen Dreams"
+      ],
+      "Type": "Melee",
+      "Image": "ArcaneBoiler.png",
+      "Name": "Arcane Boiler",
+      "Faction": "Infested",
+      "Scans": 1,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Ancients/SpawningAncientMiniboss",
+      "Introduced": "15.13"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 2200,
+      "BaseLevel": 1,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 3000
+    }
+  },
+  "Zealot Baptizer": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Melee",
+      "Description": "From Arlo the promise of a new life, a new form and a new word: death.",
+      "Link": "Zealot Baptizer",
+      "Missions": [
+        "Nightwave/Series 2"
+      ],
+      "Image": "ZealotBaptizer.png",
+      "Name": "Zealot Baptizer",
+      "Faction": "Infested",
+      "Scans": 5,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/SpecialEvents/ArloZealotSwordAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Slash": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 35,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 1200,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "Affinity": 300
+    }
+  },
+  "Toxic Ancient": {
+    "General": {
+      "Type": "Heavy",
+      "Description": "Heavy melee unit that lashes out with a toxic flail.",
+      "Link": "Toxic Ancient",
+      "Image": "ToxicAncient2DE.png",
+      "Abilities": [
+        "Toxic Flail"
+      ],
+      "Faction": "Infested",
+      "Scans": 3,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Ancients/ToxicAncient",
+      "Name": "Toxic Ancient"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Toxin": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 0,
+          "AttackName": "Toxin Flail Damage (Needs Data)"
+        }
+      ],
+      "Health": 400,
+      "BaseLevel": 1,
+      "Multis": [
+        "Head: 3.0x",
+        "Back Crown: 0.5x"
+      ],
+      "EximusHealth": 400,
+      "EximusAffinity": 700,
+      "Affinity": 500
+    }
+  },
+  "Basal Diploid Rex": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "Deaf, Dumb and Blind, it hunts prey using vibrations from the surrounding environment.",
+      "Link": "Basal Diploid#Rex",
+      "Missions": [
+        "Necralisk Bounty"
+      ],
+      "Type": "",
+      "Scans": 5,
+      "Image": "BasalDiploidRex.png",
+      "Name": "Basal Diploid Rex",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/Splitter/SplitterSplitAgentVIP",
+      "Introduced": "29.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Slash": 0.5,
+            "Impact": 0.5
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 20,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "ProcResists": [
+        "Viral"
+      ],
+      "Health": 750,
+      "BaseLevel": 1,
+      "Armor": 500,
+      "Multis": [
+        "Head: 3.0x",
+        "Body:0.5x"
+      ],
+      "Affinity": 300
+    }
+  },
+  "Lephantis": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orokin Derelict"
+      ],
+      "Description": "Heavily armored",
+      "Link": "Lephantis",
+      "Missions": [
+        "Assassination",
+        "Magnacidium"
+      ],
+      "Type": "Boss",
+      "Scans": 3,
+      "Name": "Lephantis",
+      "Image": "GolemFullAvatar.png",
+      "Abilities": [
+        "Rippling Shockwave"
+      ],
+      "Faction": "Infested",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/Vip/GolemFullAgent",
+      "Introduced": "10"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "Multishot": 5,
+          "AttackName": "Ancient Infested Shot Damage",
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0.15,
+          "TotalDamage": 30
+        },
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 35,
+          "AttackName": "Ancient Infested Shot AoE Damage"
+        },
+        {
+          "AttackName": "Infested Corpus Grenade Contact Damage",
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "BurstCount": 8,
+          "TotalDamage": 100
+        },
+        {
+          "AttackName": "Infested Corpus Grenade AoE Damage",
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "BurstCount": 8,
+          "TotalDamage": 60
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.15,
+            "Slash": 0.25,
+            "Impact": 0.6
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 100,
+          "AttackName": "Infested Grineer Melee Damage"
+        }
+      ],
+      "Health": 3000,
+      "BaseLevel": 1,
+      "SpawnLevel": 50,
+      "Affinity": 3500
+    }
+  },
+  "Infested Oni": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": {},
+      "Description": "An Infested beast of considerable strength long rumored to be lying dormant in the muck off the shores of Cetus.",
+      "Link": "Infested Oni",
+      "Introduced": "37",
+      "Type": "Boss",
+      "Scans": 3,
+      "Image": "AshenBigAvatar.png",
+      "Missions": [
+        "Shrine Defense"
+      ],
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/Oni/InfestedOniAgent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.5,
+            "Slash": 0.5
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 60,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "ProcResists": [
+        "Viral"
+      ],
+      "Health": 10000,
+      "BaseLevel": 15,
+      "Armor": 2000,
+      "Multis": [
+        ""
+      ],
+      "SpawnLevel": "15",
+      "Affinity": 500
+    }
+  },
+  "Deimos Genetrix": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "Genetrix act as mobile wombs for the Infested hordes, discharging swarms of Infested whenever they detect a non-Infested intruder. A Genetrix prominent sensor stalk must be disabled or avoided to stem a seemingly unending tide of monsters.",
+      "Link": "Deimos Genetrix",
+      "Scans": 5,
+      "Type": "",
+      "Image": "InfestedBigDropShipAvatar.png",
+      "Name": "Deimos Genetrix",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/Dropship/InfestedBigDropshipAgent",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Attacks": {},
+      "ProcResists": [
+        "Viral"
+      ],
+      "Health": 6000,
+      "BaseLevel": 1,
+      "Armor": 600,
+      "Affinity": 500
+    }
+  },
+  "Demolisher Charger": {
+    "General": {
+      "TileSets": [
+        "Grineer Galleon"
+      ],
+      "Description": "Demolishers are explosive enemies with a single-minded purpose: the destruction of compromised conduits at any cost. Part of the complete Alad V Conduit Security Package!",
+      "Link": "Charger#Demolisher",
+      "Missions": [
+        "Disruption"
+      ],
+      "Type": "Melee",
+      "Scans": 20,
+      "Image": "DemolisherCharger.png",
+      "Name": "Demolisher Charger",
+      "Faction": "Infested",
+      "Planets": [
+        "Uranus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/Disruption/DisruptionQuadrupedAgent",
+      "Introduced": "25.7"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "Note": "Will resort to Shot Damage if target cannot be reached via melee",
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.25,
+          "TotalDamage": 25
+        },
+        {
+          "Note": "Projectile shot damage is bundled with its own on-contact damage",
+          "AttackName": "Shot Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25
+        }
+      ],
+      "ProcResists": [
+        "Viral",
+        "Radiation"
+      ],
+      "Health": 2500,
+      "BaseLevel": 1,
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "Affinity": 50
+    }
+  },
+  "Deimos Leaping Thrasher": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "An ancient brute possessed of a weighty arm-flail and the terrifying strength to use it to devastating effect. Its lumbering form belies shocking speed, which the Leaping Thrasher achieves by slamming its arm into the ground and throwing itself into battle.",
+      "Link": "Leaping Thrasher#Deimos",
+      "Scans": 5,
+      "Type": "Melee",
+      "Image": "AncientTankMicroPlanetAvatar.png",
+      "Name": "Deimos Leaping Thrasher",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/AncientTankMicroPlanetAgent",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 40,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "ProcResists": [
+        "Viral"
+      ],
+      "Health": 440,
+      "BaseLevel": 1,
+      "EximusHealth": 440,
+      "Multis": [
+        "Head: 3.0x",
+        "Upper Head: 1.0x",
+        "Upper Hardened Body: 0.5x"
+      ],
+      "Affinity": 150
+    }
+  },
+  "Brood Mother": {
+    "General": {
+      "Type": "",
+      "Description": "Spawns maggots that attack its target",
+      "Link": "Brood Mother",
+      "Image": "DiseasedAncient.png",
+      "Name": "Brood Mother",
+      "Faction": "Infested",
+      "Scans": 5,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Ancients/DiseasedAncient",
+      "Introduced": "15.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 700,
+      "BaseLevel": 12,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "EximusHealth": 600,
+      "EximusAffinity": 500,
+      "Affinity": 150
+    }
+  },
+  "Ancient Infested": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orokin Derelict"
+      ],
+      "Description": "",
+      "Link": "Lephantis",
+      "Missions": [
+        "Magnacidium"
+      ],
+      "Type": "Boss",
+      "Scans": 3,
+      "Image": "Ancient Infested WB.png",
+      "Name": "Ancient Infested",
+      "Faction": "Infested",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        "Sticky Bombs"
+      ],
+      "InternalName": "",
+      "Introduced": "10"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "Multishot": 5,
+          "AttackName": "Ancient Infested Shot Damage",
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0.15,
+          "TotalDamage": 30
+        },
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 35,
+          "AttackName": "Ancient Infested Shot AoE Damage"
+        }
+      ],
+      "Health": 1200,
+      "BaseLevel": 1,
+      "SpawnLevel": 50,
+      "Affinity": 1000
+    }
+  },
+  "Gas Infested Hive": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "Emits clouds of noxious gas.",
+      "Link": "Gas Infested Hive",
+      "Missions": [
+        "Hive",
+        "Hidden Messages",
+        "Patient Zero"
+      ],
+      "Type": "",
+      "TileSets": [
+        "Infested Ship"
+      ],
+      "Scans": 3,
+      "Image": "InfestedHiveB.png",
+      "Name": "Gas Infested Hive",
+      "Faction": "Infested",
+      "Planets": [
+        "Eris"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "13.8"
+    },
+    "Stats": {
+      "Attacks": {},
+      "Health": 4500,
+      "BaseLevel": 1,
+      "Armor": 25,
+      "Affinity": -1
+    }
+  },
+  "Undying Flyer": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "An Infested jetpack trooper, the Undying Flyer rams opponents at high speed. When killed it reverts to a pod-state. If not destroyed the Undying Flyer emerges at full health.",
+      "Link": "Undying Flyer",
+      "Scans": 10,
+      "Type": "",
+      "Image": "UndyingFlyer.png",
+      "Name": "Undying Flyer",
+      "Faction": "Infested",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Emissary/InfestedJetpackAgent",
+      "Introduced": "25.7.3.1"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Slash": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 14,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "ProcResists": [
+        "Viral"
+      ],
+      "Health": 400,
+      "BaseLevel": 1,
+      "Multis": [
+        "Head: 0.0x",
+        "Jetpack: 0.0x"
+      ],
+      "Affinity": 100
+    }
+  },
+  "Deimos Undying Flyer": {
+    "General": {
+      "Type": "",
+      "Description": "An Infested jetpack trooper, the Undying Flyer rams opponents at high speed. When killed it reverts to a pod-state. If not destroyed the Undying Flyer emerges at full health.",
+      "Link": "Undying Flyer#Deimos",
+      "Missions": [
+        "Shrine Defence"
+      ],
+      "Scans": 10,
+      "Image": "UndyingFlyer.png",
+      "Name": "Deimos Undying Flyer",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/Oni/InfestedJetpackMicroPlanetOni",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Slash": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 14,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "ProcResists": [
+        "Viral"
+      ],
+      "Health": 400,
+      "BaseLevel": 1,
+      "Multis": [
+        "Head: 0.0x",
+        "Jetpack: 0.0x"
+      ],
+      "Affinity": 100
+    }
+  },
+  "Toxic Crawler": {
+    "General": {
+      "Type": "Enviromental Hazard",
+      "Description": "Releases a poison cloud on death",
+      "Link": "Toxic Crawler",
+      "Image": "ToxicCrawlerDE.png",
+      "Name": "Toxic Crawler",
+      "Faction": "Infested",
+      "Scans": 20,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Crawlers/NoxiousCrawler",
+      "Introduced": "10.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 10,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 50,
+      "BaseLevel": 1,
+      "EximusHealth": 50,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 50
+    }
+  },
+  "Swarm Mutalist MOA": {
+    "General": {
+      "Type": "",
+      "Description": "Discharges swarms of infested spores",
+      "Link": "Swarm Mutalist MOA",
+      "Scans": 5,
+      "Image": "NaniteInfestedMoa.png",
+      "Name": "Swarm Mutalist MOA",
+      "Faction": "Infested",
+      "Planets": [
+        "Mercury",
+        "Venus",
+        "Earth",
+        "Mars",
+        "Deimos",
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune",
+        "Pluto",
+        "Ceres",
+        "Eris",
+        "Sedna",
+        "Europa",
+        "Phobos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/InfestedMoas/NaniteCloudBipedAgent",
+      "Introduced": "15.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Puncture": 1
+          },
+          "StatusChance": 0.05,
+          "BurstCount": 3,
+          "TotalDamage": 10
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 1
+          },
+          "IsFixed": true,
+          "TotalDamage": 35,
+          "AttackName": "Swarm DoT Damage"
+        }
+      ],
+      "Health": 350,
+      "BaseLevel": 12,
+      "EximusHealth": 275,
+      "Multis": [
+        "Tail: 3.0x",
+        "Face: 0.5x"
+      ],
+      "Affinity": 150
+    }
+  },
+  "Deimos Carnis Rex": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "The Carnis Rex is a true terror, a monstrously-large Carnis. The Carneis Rex rushes headlong upon their prey, often coiling into a spinning wheel in its haste to come to grips.",
+      "Link": "Deimos Carnis#Rex",
+      "Missions": [
+        "Necralisk Bounty"
+      ],
+      "Type": "",
+      "Scans": 3,
+      "Image": "AshenBigAvatar.png",
+      "Name": "Deimos Carnis Rex",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/Ashen/AshenBigAgent",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.5,
+            "Slash": 0.5
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 60,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "ProcResists": [
+        "Viral"
+      ],
+      "Health": 1200,
+      "BaseLevel": 1,
+      "Armor": 150,
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "Affinity": 500
+    }
+  },
+  "Stabilization Infested Hive": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "Creates a field that lowers gravity.",
+      "Link": "Stabilization Infested Hive",
+      "Missions": [
+        "Hive",
+        "Hidden Messages",
+        "Patient Zero"
+      ],
+      "Type": "",
+      "TileSets": [
+        "Infested Ship"
+      ],
+      "Scans": 3,
+      "Image": "InfestedHiveE.png",
+      "Name": "Stabilization Infested Hive",
+      "Faction": "Infested",
+      "Planets": [
+        "Eris"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "13.8"
+    },
+    "Stats": {
+      "Attacks": {},
+      "Health": 4500,
+      "BaseLevel": 1,
+      "Armor": 25,
+      "Affinity": -1
+    }
+  },
+  "Venin Mutalist": {
+    "General": {
+      "Type": "",
+      "Description": "Fires infested spores",
+      "Link": "Venin Mutalist",
+      "Missions": [
+        "Defection"
+      ],
+      "Image": "CodexVeninMutalist.png",
+      "Name": "Venin Mutalist",
+      "Faction": "Infested",
+      "Scans": 10,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/InfestedDrones/InfestedAttackDroneAgent",
+      "Introduced": "19.12"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 3,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Health": 200,
+      "BaseLevel": 5,
+      "Multis": [
+        ""
+      ],
+      "Affinity": 100
+    }
+  },
+  "Mutalist Toxic Carrier": {
+    "General": {
+      "Type": "Ranged",
+      "Description": "Carries Toxic Crawlers into battle",
+      "Link": "Mutalist Toxic Carrier",
+      "Missions": [
+        "Jordas Golem Assassanation"
+      ],
+      "Image": "MutalistToxicCarrier.png",
+      "Name": "Mutalist Toxic Carrier",
+      "Faction": "Infested",
+      "Scans": 10,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/SpaceBattles/Infested/GrenadeCarrierDrone",
+      "Introduced": "17.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 25,
+          "AttackName": "Grenade Contact Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 50,
+          "AttackName": "Grenade AoE Damage"
+        }
+      ],
+      "Health": 65,
+      "BaseLevel": 1,
+      "Multis": [
+        ""
+      ],
+      "Affinity": 100
+    }
+  },
+  "Juggernaut": {
+    "General": {
+      "Type": "Field Boss",
+      "Description": "Protected by impenetrable armor.",
+      "Link": "Juggernaut",
+      "Name": "Juggernaut",
+      "Image": "Juggernaut.png",
+      "Abilities": [
+        "Charge",
+        "Infested Spawn Tar",
+        "Poison Rain",
+        "Quill Shot"
+      ],
+      "Faction": "Infested",
+      "Scans": 3,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Quadrupeds/Juggernaut",
+      "Introduced": "16.7"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "Multishot": 6,
+          "AttackName": "Projectile Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 10
+        },
+        {
+          "Note": "Projectile damage is bundled with its own on-contact damage",
+          "AttackName": "Projectile Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.1,
+            "Impact": 0.2
+          },
+          "StatusChance": 0.02,
+          "TotalDamage": 3
+        }
+      ],
+      "ProcResists": [
+        "Viral"
+      ],
+      "Health": 900,
+      "BaseLevel": 15,
+      "Armor": 200,
+      "Multis": [
+        "Maw: 10.0x",
+        "Belly: 10.0x"
+      ],
+      "SteelPathHealthBonus": 1800,
+      "Affinity": 1500
+    }
+  },
+  "Nauseous Crawler": {
+    "General": {
+      "Type": "Disabler",
+      "Description": "Has an immobilizing vomit attack",
+      "Link": "Nauseous Crawler",
+      "Image": "NauseousCrawlerDE.png",
+      "Name": "Nauseous Crawler",
+      "Faction": "Infested",
+      "Scans": 20,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Crawlers/GraspingCrawler",
+      "Introduced": "10.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 10,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 50,
+      "BaseLevel": 1,
+      "EximusHealth": 50,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 50
+    }
+  },
+  "Crawler": {
+    "General": {
+      "Type": "Melee",
+      "Description": "Weak claw attacks",
+      "Link": "Crawler",
+      "Image": "CrawlerAvatar.png",
+      "Name": "Crawler",
+      "Faction": "Infested",
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Crawlers/MeleeCrawler",
+      "Scans": 30
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "TotalDamage": 10,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 50,
+      "BaseLevel": 1,
+      "EximusHealth": 50,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 35
+    }
+  },
+  "Deimos Venin Mutalist": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "Fires infested spores",
+      "Link": "Venin Mutalist#Deimos",
+      "Scans": 10,
+      "Type": "",
+      "Image": "InfestedAttackDroneMicroPlanetAvatar.png",
+      "Name": "Deimos Venin Mutalist",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/InfestedAttackDroneMicroPlanet",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 3,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Health": 160,
+      "BaseLevel": 5,
+      "EximusHealth": 160,
+      "Multis": [
+        ""
+      ],
+      "Affinity": 100
+    }
+  },
+  "Runner": {
+    "General": {
+      "Type": "Melee",
+      "Description": "Fast with weak claw attacks",
+      "Link": "Runner",
+      "Image": "InfestedRunner.png",
+      "Name": "Runner",
+      "Faction": "Infested",
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Runners/MeleeRunner",
+      "Scans": 30
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 10,
+          "AttackName": "Melee Damage"
+        },
+        {
+          "Note": "Will resort to Shot Damage if target cannot be reached via melee",
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.25,
+          "TotalDamage": 25
+        },
+        {
+          "Note": "Projectile shot damage is bundled with its own on-contact damage",
+          "AttackName": "Shot Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25
+        }
+      ],
+      "Health": 100,
+      "BaseLevel": 1,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 35
+    }
+  },
+  "Juggernaut Behemoth": {
+    "General": {
+      "TileSets": [
+        "Infested Ship"
+      ],
+      "Description": "Protected by impenetrable armor.",
+      "Link": "Juggernaut Behemoth",
+      "Missions": [
+        "Assassination",
+        "Jordas Golem Assassinate"
+      ],
+      "Type": "Boss",
+      "Scans": 3,
+      "Name": "Juggernaut Behemoth",
+      "Image": "JuggernautBoss.png",
+      "Abilities": [
+        "Charge",
+        "Infested Spawn Tar",
+        "Poison Rain",
+        "Quill Shot"
+      ],
+      "Faction": "Infested",
+      "Planets": [
+        "Eris"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Quadrupeds/JuggernautBoss",
+      "Introduced": "16.7.1"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "Multishot": 6,
+          "AttackName": "Projectile Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 10
+        },
+        {
+          "Note": "Projectile damage is bundled with its own on-contact damage",
+          "AttackName": "Projectile Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.1,
+            "Impact": 0.2
+          },
+          "StatusChance": 0.02,
+          "TotalDamage": 3
+        }
+      ],
+      "Health": 1500,
+      "BaseLevel": 15,
+      "Armor": 300,
+      "Multis": [
+        "Maw: 10.0x",
+        "Belly: 10.0x"
+      ],
+      "SteelPathHealthBonus": 3000,
+      "Affinity": 3500
+    }
+  },
+  "Mutalist Lightning Carrier": {
+    "General": {
+      "Type": "Ranged",
+      "Description": "Carries Lightning Crawlers",
+      "Link": "Mutalist Lightning Carrier",
+      "Missions": [
+        "Jordas Golem Assassanation"
+      ],
+      "Image": "MutalistLightningCarrier.png",
+      "Name": "Mutalist Lightning Carrier",
+      "Faction": "Infested",
+      "Scans": 20,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/SpaceBattles/Infested/LightningCarrierDrone",
+      "Introduced": "17.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Electricity": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 12,
+          "AttackName": "Lightning Damage"
+        }
+      ],
+      "Health": 65,
+      "BaseLevel": 1,
+      "Multis": [
+        ""
+      ],
+      "Affinity": 100
+    }
+  },
+  "Feral Diploid Rex": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "Dismembered, but deadly nonetheless. It's acrobatic movement makes it threatening from any range.",
+      "Link": "Feral Diploid#Rex",
+      "Missions": [
+        "Necralisk Bounty"
+      ],
+      "Type": "",
+      "Scans": 5,
+      "Image": "FeralDiploidRex.png",
+      "Name": "Feral Diploid Rex",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/Splitter/SplitterTopSplitAgentVIP",
+      "Introduced": "29.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 22,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "ProcResists": [
+        "Viral"
+      ],
+      "Health": 600,
+      "BaseLevel": 1,
+      "Armor": 500,
+      "Multis": [
+        "Head: 3.0x",
+        "Body:0.5x"
+      ],
+      "Affinity": 300
+    }
+  },
+  "Mutalist Alad V": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Infested Ship"
+      ],
+      "Description": "",
+      "Link": "Mutalist Alad V",
+      "Missions": [
+        "Assassination",
+        "Mutalist Alad V Assassination"
+      ],
+      "Type": "Boss",
+      "Scans": 3,
+      "Image": "InfestedAladV.png",
+      "Name": "Mutalist Alad V",
+      "Faction": "Infested",
+      "Planets": [
+        "Eris"
+      ],
+      "Weapons": [
+        "Paracyst"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Corpus/Vip/InfestedAladV/InfestedAladBossAgent",
+      "Introduced": "15.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Toxin": 1
+          },
+          "StatusChance": 0.3,
+          "BurstCount": 3,
+          "TotalDamage": 33
+        }
+      ],
+      "Health": 2500,
+      "BaseLevel": 1,
+      "Shield": 1200,
+      "SpawnLevel": 35,
+      "Armor": 500,
+      "Affinity": 3500
+    }
+  },
+  "Mitosid": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "When pressured, this beast severs it's torso from its legs, yielding double trouble for its victims.",
+      "Link": "Mitosid",
+      "Scans": 1,
+      "Type": "",
+      "Image": "Mitosid.png",
+      "Name": "Mitosid",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/Splitter/SplitterAgent",
+      "Introduced": "29.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Slash": 1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 35,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "ProcResists": [
+        "Viral"
+      ],
+      "Health": 350,
+      "BaseLevel": 1,
+      "Armor": 125,
+      "EximusHealth": 350,
+      "Multis": [
+        "Torso: 3.0x",
+        "Body: 0.5x"
+      ],
+      "Affinity": 50
+    }
+  },
+  "Zealoid Bastion": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orokin Derelict"
+      ],
+      "Description": "A subordinate loyal to the Zealoid Prelate, the Bastion renders regular Infested invulnerable.",
+      "Link": "Zealoid Bastion",
+      "Missions": [
+        "Assassination",
+        "Exequias"
+      ],
+      "Type": "",
+      "Scans": 3,
+      "Image": "ZealoidPrelate.png",
+      "Name": "Zealoid Bastion",
+      "Faction": "Infested",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/WeaveMutalist/DecodeSpawn",
+      "Introduced": "25.7.7"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "Multishot": 6,
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 3
+        },
+        {
+          "Note": "Shot detonates on impact and does a small AoE",
+          "AttackName": "Shot AoE Damage",
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 5
+        }
+      ],
+      "Health": 950,
+      "BaseLevel": 1,
+      "SpawnLevel": 30,
+      "Affinity": 500
+    }
+  },
+  "Deimos Carnis": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "Carnis are many-legged hunters, ferocious and ever-hungry. They scuttle just out of reach trying to wear down their prey with ranged attacks until they can rush in to consume it.",
+      "Link": "Deimos Carnis",
+      "Scans": 30,
+      "Type": "",
+      "Image": "AshenAvatar.png",
+      "Name": "Deimos Carnis",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/Ashen/AshenAgent",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 20,
+          "AttackName": "Projectile Damage"
+        },
+        {
+          "Note": "Projectile damage is bundled with its own on-contact damage",
+          "AttackName": "Projectile Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 3
+        }
+      ],
+      "ProcResists": [
+        "Viral"
+      ],
+      "Health": 600,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "EximusHealth": 600,
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "Affinity": 35
+    }
+  },
+  "Jordas Golem": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "",
+      "Link": "Jordas Golem",
+      "Scans": 3,
+      "Type": "Boss",
+      "Image": "J3Golem.png",
+      "Name": "Jordas Golem",
+      "Faction": "Infested",
+      "Planets": [
+        "Eris"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/Vip/J3Golem/JuniorGolemSpaceAgent",
+      "Missions": [
+        "Jordas Golem Assassinate"
+      ]
+    },
+    "Stats": {
+      "Attacks": {},
+      "FactionScaling": "Default",
+      "Health": 20000,
+      "BaseLevel": 1,
+      "Armor": 250,
+      "Multis": [
+        "Body: 0.0x",
+        "Engine: 1.0x"
+      ],
+      "SpawnLevel": 32,
+      "Affinity": 1500
+    }
+  },
+  "Feral Diploid": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "Dismembered, but deadly nonetheless. It's acrobatic movement makes it threatening from any range.",
+      "Link": "Feral Diploid",
+      "Scans": 5,
+      "Type": "",
+      "Image": "FeralDiploid.png",
+      "Name": "Feral Diploid",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/Splitter/SplitterTopSplitAgent",
+      "Introduced": "29.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 22,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "ProcResists": [
+        "Viral"
+      ],
+      "Health": 200,
+      "BaseLevel": 1,
+      "Armor": 125,
+      "EximusHealth": 200,
+      "Multis": [
+        "Head: 3.0x",
+        "Body:0.5x"
+      ],
+      "Affinity": 150
+    }
+  },
+  "Basal Diploid": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "Deaf, Dumb and Blind, it hunts prey using vibrations from the surrounding environment.",
+      "Link": "Basal Diploid",
+      "Scans": 5,
+      "Type": "",
+      "Image": "BasalDiploid.png",
+      "Name": "Basal Diploid",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/Splitter/SplitterSplitAgent",
+      "Introduced": "29.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Slash": 0.5,
+            "Impact": 0.5
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 20,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "ProcResists": [
+        "Viral"
+      ],
+      "Health": 200,
+      "BaseLevel": 1,
+      "Armor": 125,
+      "EximusHealth": 275,
+      "Multis": [
+        "Head: 3.0x",
+        "Body:0.5x"
+      ],
+      "Affinity": 150
+    }
+  },
+  "Security Infested Hive": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "Controls nearby turrets.",
+      "Link": "Security Infested Hive",
+      "Missions": [
+        "Hive",
+        "Hidden Messages",
+        "Patient Zero"
+      ],
+      "Type": "",
+      "TileSets": [
+        "Infested Ship"
+      ],
+      "Scans": 3,
+      "Image": "InfestedHiveF.png",
+      "Name": "Security Infested Hive",
+      "Faction": "Infested",
+      "Planets": [
+        "Eris"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "13.8"
+    },
+    "Stats": {
+      "Attacks": {},
+      "Health": 4500,
+      "BaseLevel": 1,
+      "Armor": 25,
+      "Affinity": -1
+    }
+  },
+  "Demolisher Juggernaut": {
+    "General": {
+      "TileSets": [
+        "Grineer Galleon"
+      ],
+      "Description": "Demolishers are explosive enemies with a single-minded purpose: the destruction of compromised conduits at any cost. Part of the complete Alad V Conduit Security Package!",
+      "Link": "Juggernaut#Demolisher",
+      "Missions": [
+        "Disruption"
+      ],
+      "Type": "",
+      "Scans": 3,
+      "Name": "Demolisher Juggernaut",
+      "Image": "DemolisherJuggernaut.png",
+      "Abilities": [
+        "Charge",
+        "Infested Spawn Tar",
+        "Poison Rain",
+        "Quill Shot"
+      ],
+      "Faction": "Infested",
+      "Planets": [
+        "Uranus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/Disruption/DisruptionJuggernautAgent",
+      "Introduced": "25.7"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "Multishot": 6,
+          "AttackName": "Projectile Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 10
+        },
+        {
+          "Note": "Projectile damage is bundled with its own on-contact damage",
+          "AttackName": "Projectile Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.1,
+            "Impact": 0.2
+          },
+          "StatusChance": 0.02,
+          "TotalDamage": 3
+        }
+      ],
+      "ProcResists": [
+        "Viral",
+        "Radiation"
+      ],
+      "Health": 1000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Multis": [
+        "Maw: 10.0x",
+        "Belly: 10.0x",
+        "Boils: 0.5x"
+      ],
+      "SteelPathHealthBonus": 2000,
+      "Affinity": 1500
+    }
+  },
+  "Infested Grineer": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orokin Derelict"
+      ],
+      "Description": "",
+      "Link": "Lephantis",
+      "Missions": [
+        "Magnacidium"
+      ],
+      "Type": "Boss",
+      "Scans": 3,
+      "Image": "Infested Grineer WB.png",
+      "Name": "Infested Grineer",
+      "Faction": "Infested",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        "Scythe"
+      ],
+      "InternalName": "",
+      "Introduced": "10"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.15,
+            "Slash": 0.25,
+            "Impact": 0.6
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 100,
+          "AttackName": "Infested Grineer Melee Damage"
+        }
+      ],
+      "Health": 1200,
+      "BaseLevel": 1,
+      "SpawnLevel": 50,
+      "Affinity": 1000
+    }
+  },
+  "Infested Corpus": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orokin Derelict"
+      ],
+      "Description": "",
+      "Link": "Lephantis",
+      "Missions": [
+        "Magnacidium"
+      ],
+      "Type": "Boss",
+      "Scans": 3,
+      "Image": "Infested Corpus WB.png",
+      "Name": "Infested Corpus",
+      "Faction": "Infested",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        "Toxin Grenade",
+        "Spawn Infested Pod"
+      ],
+      "InternalName": "",
+      "Introduced": "10"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "AttackName": "Infested Corpus Grenade Contact Damage",
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "BurstCount": 8,
+          "TotalDamage": 100
+        },
+        {
+          "AttackName": "Infested Corpus Grenade AoE Damage",
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "BurstCount": 8,
+          "TotalDamage": 60
+        }
+      ],
+      "Health": 1200,
+      "BaseLevel": 1,
+      "SpawnLevel": 50,
+      "Affinity": 1000
+    }
+  },
+  "Hemocyte": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "Hemocyte",
+      "Link": "Hemocyte",
+      "Missions": [
+        "Operation: Plague Star"
+      ],
+      "Type": "Boss",
+      "Scans": 3,
+      "Image": "EidolonLephantis.png",
+      "Name": "Hemocyte",
+      "Faction": "Infested",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/Eidolon/EidolonLephantisAgent",
+      "Introduced": "22.3"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "Multishot": 5,
+          "AttackName": "Ancient Infested Shot Damage",
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0.15,
+          "TotalDamage": 30
+        },
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 35,
+          "AttackName": "Ancient Infested Shot AoE Damage"
+        },
+        {
+          "AttackName": "Infested Corpus Grenade Contact Damage",
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "BurstCount": 8,
+          "TotalDamage": 100
+        },
+        {
+          "AttackName": "Infested Corpus Grenade AoE Damage",
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "BurstCount": 8,
+          "TotalDamage": 60
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.15,
+            "Slash": 0.25,
+            "Impact": 0.6
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 100,
+          "AttackName": "Infested Grineer Melee Damage"
+        }
+      ],
+      "Health": 5000,
+      "BaseLevel": 1,
+      "Armor": 175,
+      "SpawnLevel": 117,
+      "Affinity": 3500
+    }
+  },
+  "Frozen Infested Hive": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "Generates a coldness that reduces shields.",
+      "Link": "Frozen Infested Hive",
+      "Missions": [
+        "Hive",
+        "Hidden Messages",
+        "Patient Zero"
+      ],
+      "Type": "",
+      "TileSets": [
+        "Infested Ship"
+      ],
+      "Scans": 3,
+      "Image": "InfestedHiveA.png",
+      "Name": "Frozen Infested Hive",
+      "Faction": "Infested",
+      "Planets": [
+        "Eris"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "13.8"
+    },
+    "Stats": {
+      "Attacks": {},
+      "Health": 4500,
+      "BaseLevel": 1,
+      "Armor": 25,
+      "Affinity": -1
+    }
+  },
+  "J3 Jordas Golem": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "",
+      "Link": "J3 Jordas Golem",
+      "Image": "J3GolemRaid.png",
+      "Name": "J3 Jordas Golem",
+      "Faction": "Infested",
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/Vip/J3Golem/J3GolemSpaceAgent",
+      "Type": "Boss"
+    },
+    "Stats": {
+      "Attacks": {},
+      "Health": 20000,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "Affinity": 1500
+    }
+  },
+  "Deimos Juggernaut": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "Protected by impenetrable armor.",
+      "Link": "Juggernaut#Deimos",
+      "Name": "Deimos Juggernaut",
+      "Type": "",
+      "Scans": 3,
+      "Image": "JuggernautMicroPlanetCasualAvatar.png",
+      "Abilities": [
+        "Charge",
+        "Infested Spawn Tar",
+        "Poison Rain",
+        "Quill Shot"
+      ],
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/JuggernautMicroPlanetCasual",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "Multishot": 6,
+          "AttackName": "Projectile Damage",
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 10
+        },
+        {
+          "Note": "Projectile damage is bundled with its own on-contact damage",
+          "AttackName": "Projectile Contact Damage",
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.1,
+            "Impact": 0.2
+          },
+          "StatusChance": 0.02,
+          "TotalDamage": 3
+        }
+      ],
+      "ProcResists": [
+        "Viral"
+      ],
+      "Health": 2000,
+      "BaseLevel": 1,
+      "Armor": 200,
+      "EximusHealth": 2000,
+      "Multis": [
+        "Maw: 10.0x",
+        "Belly: 10.0x"
+      ],
+      "Affinity": 500
+    }
+  },
+  "Deimos Ancient Healer": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "Heavy melee that applies damage reduction buff to allies.",
+      "Link": "Ancient Healer#Deimos",
+      "Scans": 5,
+      "Type": "Heavy",
+      "Image": "HealingAncientMicroPlanetAvatar.png",
+      "Name": "Deimos Ancient Healer",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/HealingAncientMicroPlanet",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 400,
+      "BaseLevel": 1,
+      "EximusHealth": 400,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 150
+    }
+  },
+  "Electric Crawler": {
+    "General": {
+      "Type": "Ranged",
+      "Description": "Shock nearby enemies with a bio-electrical attack",
+      "Link": "Electric Crawler",
+      "Image": "DEElectricCrawler.png",
+      "Name": "Electric Crawler",
+      "Faction": "Infested",
+      "Scans": 20,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Crawlers/LightningCrawler",
+      "Introduced": "10.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Electricity": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 20,
+          "AttackName": "Lightning Damage"
+        }
+      ],
+      "Health": 50,
+      "BaseLevel": 1,
+      "EximusHealth": 50,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 50
+    }
+  },
+  "Blighted Maggot": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "Rare Maggots that thrive in the toxic mist of infested fissures deep in the ruins of Deimos",
+      "Link": "Maggot#Blighted",
+      "Missions": [
+        "Arcana Isolation Vault Bounty"
+      ],
+      "Type": "",
+      "Image": "DEMaggot.png",
+      "Name": "Blighted Maggot",
+      "Faction": "Infested",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/AiWeek/Quadrupeds/RusherAgentMist",
+      "Introduced": "29.5"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 25,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 20,
+      "BaseLevel": 1,
+      "Multis": [
+        ""
+      ],
+      "Affinity": 35
+    }
+  },
+  "Deimos Brood Mother": {
+    "General": {
+      "TileSets": [
+        "Cambion Drift"
+      ],
+      "Description": "Spawns maggots that attack its target",
+      "Link": "Brood Mother#Deimos",
+      "Scans": 5,
+      "Type": "",
+      "Image": "DiseasedAncient.png",
+      "Name": "Deimos Brood Mother",
+      "Faction": "Infested Deimos",
+      "Planets": [
+        "Deimos"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Infested/InfestedMicroplanet/DiseasedAncientMicroPlanet",
+      "Introduced": "29"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 500,
+      "BaseLevel": 1,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "EximusHealth": 600,
+      "EximusAffinity": 500,
+      "Affinity": 150
+    }
+  }
+}

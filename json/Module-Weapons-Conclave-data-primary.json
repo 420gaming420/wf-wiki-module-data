@@ -1,0 +1,3383 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Weapons/Conclave/data/primary",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:45:54.422Z"
+  },
+  "_comments": "",
+  "Tiberon Prime": {
+    "Accuracy": 33.3,
+    "Trigger": "Burst / Semi-Auto / Auto",
+    "Magazine": 30,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "BurstCount": 3,
+        "BurstDelay": 0.08,
+        "FireRate": 7.38,
+        "Trigger": "Burst",
+        "HeadshotMultiplier": 1.5,
+        "AttackName": "Burst",
+        "PvPDamageMultiplier": 0.605,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 11.132,
+          "Slash": 8.349,
+          "Impact": 8.349
+        },
+        "BurstFireRate": 6
+      },
+      {
+        "FireRate": 6,
+        "HeadshotMultiplier": 1.5,
+        "AttackName": "Semi",
+        "Trigger": "Semi-Auto",
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 0.72,
+        "Damage": {
+          "Puncture": 13.248,
+          "Slash": 9.936,
+          "Impact": 9.936
+        }
+      },
+      {
+        "FireRate": 8.33,
+        "HeadshotMultiplier": 1.5,
+        "AttackName": "Auto",
+        "Trigger": "Auto",
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 0.63,
+        "Damage": {
+          "Puncture": 11.592,
+          "Slash": 8.694,
+          "Impact": 8.694
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 60,
+    "Slot": "Primary",
+    "Link": "Conclave:Tiberon Prime"
+  },
+  "Cernos": {
+    "Accuracy": 16.7,
+    "Trigger": "Charge",
+    "Magazine": 1,
+    "Reload": 0.6,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 2,
+        "IsSilent": true,
+        "ShotSpeed": 105,
+        "AttackName": "Uncharged Shot",
+        "FireRate": 1,
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 0.4684,
+        "Damage": {
+          "Puncture": 4.5,
+          "Slash": 4.5,
+          "Impact": 80.1
+        }
+      },
+      {
+        "ChargeTime": 0.5,
+        "IsSilent": true,
+        "HoldTime": 5,
+        "PvPDamageMultiplier": 0.3842,
+        "FireRate": 1,
+        "ShotSpeed": 130,
+        "AttackName": "Charged Shot",
+        "PunchThrough": 1,
+        "ShotType": "Projectile",
+        "HeadshotMultiplier": 2,
+        "Damage": {
+          "Puncture": 7.3,
+          "Slash": 7.3,
+          "Impact": 131.4
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 2,
+    "AmmoMax": 20,
+    "Slot": "Primary",
+    "Link": "Conclave:Cernos"
+  },
+  "Phantasma": {
+    "Accuracy": 100,
+    "Trigger": "Held",
+    "Magazine": 7,
+    "Reload": 0.5,
+    "Attacks": [
+      {
+        "Trigger": "Held",
+        "PvPDamageMultiplier": 0.3,
+        "FireRate": 12,
+        "Multishot": 6,
+        "AttackName": "Normal Attack",
+        "Range": 9.5,
+        "ShotType": "Discharge",
+        "HeadshotMultiplier": 1.2,
+        "Damage": {
+          "Radiation": 3,
+          "Impact": 1.5
+        }
+      },
+      {
+        "ChargeTime": 0.64,
+        "Trigger": "Charge",
+        "PvPDamageMultiplier": 0.6667,
+        "AmmoCost": 7,
+        "AttackName": "Plasma Bomb Impact",
+        "HeadshotMultiplier": 1.2,
+        "ShotType": "Projectile",
+        "FireRate": 2,
+        "Damage": {
+          "Impact": 10
+        }
+      },
+      {
+        "ChargeTime": 0.64,
+        "Falloff": {
+          "EndRange": 4.8,
+          "Reduction": 0.5,
+          "StartRange": 0
+        },
+        "PvPDamageMultiplier": 0.3562,
+        "AmmoCost": 7,
+        "HeadshotMultiplier": 1.2,
+        "AttackName": "Plasma Bomb Explosion",
+        "Range": 4.8,
+        "ShotType": "AoE",
+        "FireRate": 2,
+        "Damage": {
+          "Radiation": 26
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 28,
+    "Slot": "Primary",
+    "Link": "Conclave:Phantasma"
+  },
+  "Sybaris": {
+    "Accuracy": 28.6,
+    "Trigger": "Burst",
+    "Magazine": 10,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "Damage": {
+          "Puncture": 21.648,
+          "Slash": 22.304,
+          "Impact": 21.648
+        },
+        "PvPDamageMultiplier": 0.82,
+        "HeadshotMultiplier": 1.5,
+        "FireRate": 3.98,
+        "BurstCount": 2,
+        "ShotType": "Hit-Scan",
+        "BurstDelay": 0.105,
+        "BurstFireRate": 3.33
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 50,
+    "Slot": "Primary",
+    "Link": "Conclave:Sybaris"
+  },
+  "Ogris": {
+    "Accuracy": 100,
+    "Trigger": "Charge",
+    "Magazine": 5,
+    "Reload": 2.5,
+    "Attacks": [
+      {
+        "ChargeTime": 0.3,
+        "HeadshotMultiplier": 1,
+        "AttackName": "Rocket Impact",
+        "ShotSpeed": 60,
+        "ShotType": "Projectile",
+        "FireRate": 1.5,
+        "Damage": {
+          "Blast": 180
+        }
+      },
+      {
+        "Damage": {
+          "Blast": 180
+        },
+        "HeadshotMultiplier": 1,
+        "Range": 4.75,
+        "AttackName": "Rocket Explosion"
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 10,
+    "Slot": "Primary",
+    "Link": "Conclave:Ogris"
+  },
+  "Ignis": {
+    "Accuracy": 100,
+    "Trigger": "Held",
+    "Magazine": 30,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1,
+        "FireRate": 8,
+        "ShotType": "Hit-Scan",
+        "Range": 8,
+        "Damage": {
+          "Heat": 24
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 120,
+    "Slot": "Primary",
+    "Link": "Conclave:Ignis"
+  },
+  "Soma": {
+    "Accuracy": 28.6,
+    "Trigger": "Auto-Spool",
+    "Magazine": 50,
+    "Reload": 3,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "FireRate": 15,
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 1.72,
+        "Damage": {
+          "Puncture": 8.256,
+          "Slash": 10.32,
+          "Impact": 2.064
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "SpoolStartFireRate": 0.25,
+    "Spool": 10,
+    "AmmoMax": 200,
+    "Slot": "Primary",
+    "Link": "Conclave:Soma"
+  },
+  "Synoid Simulor": {
+    "Accuracy": 100,
+    "Trigger": "Active",
+    "Magazine": 15,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.5,
+        "AttackName": "Orb Damage",
+        "ShotSpeed": 80,
+        "ShotType": "Projectile",
+        "FireRate": 2.67,
+        "Damage": {
+          "Puncture": 13,
+          "Slash": 13,
+          "Impact": 13
+        }
+      },
+      {
+        "AttackName": "Orb Explosion",
+        "HeadshotMultiplier": 1,
+        "ShotType": "AoE",
+        "Range": 1,
+        "Damage": {
+          "Electricity": 41
+        }
+      },
+      {
+        "Damage": {
+          "Magnetic": 50
+        },
+        "AttackName": "Orb Merge"
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 15,
+    "Slot": "Primary",
+    "Link": "Conclave:Synoid Simulor"
+  },
+  "Zarr": {
+    "Attacks": [
+      {
+        "FireRate": 1.67,
+        "ShotSpeed": 40,
+        "AttackName": "Cannon Mode Projectile",
+        "Accuracy": 100,
+        "HeadshotMultiplier": 1.2,
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 1,
+        "Damage": {
+          "Impact": 25
+        }
+      },
+      {
+        "HeadshotMultiplier": 1.2,
+        "AttackName": "Cannon Mode Explosion",
+        "Range": 5,
+        "ShotType": "AoE",
+        "PvPDamageMultiplier": 1,
+        "Damage": {
+          "Blast": 137.5
+        }
+      },
+      {
+        "Multishot": 6,
+        "AttackName": "Cannon Mode Cluster Bombs",
+        "HeadshotMultiplier": 1.2,
+        "ShotType": "AoE",
+        "PvPDamageMultiplier": 1,
+        "Damage": {
+          "Blast": 137.5
+        }
+      },
+      {
+        "Accuracy": 1.4,
+        "PvPDamageMultiplier": 0.5,
+        "FireRate": 3,
+        "Multishot": 7,
+        "Range": 10,
+        "ShotSpeed": 120,
+        "AttackName": "Barrage Mode",
+        "PunchThrough": 1.6,
+        "ShotType": "Projectile",
+        "HeadshotMultiplier": 1.2,
+        "Damage": {
+          "Puncture": 20,
+          "Slash": 8,
+          "Impact": 12
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "Slot": "Primary",
+    "Link": "Conclave:Zarr",
+    "Trigger": "Semi-Auto",
+    "AmmoMax": 12,
+    "Magazine": 3,
+    "Reload": 2.3
+  },
+  "Boltor": {
+    "Accuracy": 25,
+    "Trigger": "Auto",
+    "Magazine": 30,
+    "Reload": 2.6,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "ShotSpeed": 85,
+        "FireRate": 8.75,
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 1.46,
+        "Damage": {
+          "Puncture": 29.2,
+          "Slash": 3.65,
+          "Impact": 3.65
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 120,
+    "Slot": "Primary",
+    "Link": "Conclave:Boltor"
+  },
+  "Amprex": {
+    "Accuracy": 12.5,
+    "Trigger": "Held",
+    "Magazine": 40,
+    "Reload": 2.6,
+    "Attacks": [
+      {
+        "FireRate": 12,
+        "Range": 10,
+        "Damage": {
+          "Electricity": 16.94
+        },
+        "HeadshotMultiplier": 1,
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 0.77,
+        "AmmoCost": 0.5
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 120,
+    "Slot": "Primary",
+    "Link": "Conclave:Amprex"
+  },
+  "Tigris": {
+    "Accuracy": 9.1,
+    "Trigger": "Duplex",
+    "Magazine": 2,
+    "Reload": 1.8,
+    "Attacks": [
+      {
+        "Multishot": 5,
+        "ShotType": "Hit-Scan",
+        "FireRate": 2,
+        "HeadshotMultiplier": 1.2,
+        "Falloff": {
+          "EndRange": 20,
+          "Reduction": 0.476,
+          "StartRange": 10
+        },
+        "PvPDamageMultiplier": 0.14,
+        "Damage": {
+          "Puncture": 2.94,
+          "Slash": 23.52,
+          "Impact": 2.94
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 14,
+    "Slot": "Primary",
+    "Link": "Conclave:Tigris"
+  },
+  "Artemis Bow": {
+    "Attacks": [
+      {
+        "Multishot": 7,
+        "IsSilent": true,
+        "HeadshotMultiplier": 1.2,
+        "ShotSpeed": 50,
+        "PunchThrough": 1,
+        "ShotType": "Projectile",
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 84,
+          "Slash": 6.3,
+          "Impact": 14.7
+        }
+      },
+      {
+        "ChargeTime": 1,
+        "IsSilent": true,
+        "FireRate": 1,
+        "Multishot": 7,
+        "ShotSpeed": 50,
+        "AttackName": "Charged Shot",
+        "PunchThrough": 1,
+        "ShotType": "Projectile",
+        "HeadshotMultiplier": 1.2,
+        "Damage": {
+          "Puncture": 84,
+          "Slash": 6.3,
+          "Impact": 14.7
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "Slot": "Primary",
+    "Accuracy": 100,
+    "Trigger": "Charge",
+    "Magazine": 1,
+    "Link": "Conclave:Artemis Bow",
+    "Reload": 0.9
+  },
+  "Rubico": {
+    "Zoom": [
+      "3.5x (+100% Headshot Damage)",
+      "6x (+100% Headshot Damage)"
+    ],
+    "Accuracy": 13.3,
+    "SniperComboReset": 2,
+    "Magazine": 5,
+    "Reload": 2.4,
+    "Attacks": [
+      {
+        "ShotType": "Hit-Scan",
+        "FireRate": 2.67,
+        "HeadshotMultiplier": 2,
+        "PunchThrough": 1,
+        "Falloff": {
+          "StartRange": 400,
+          "EndRange": 600
+        },
+        "PvPDamageMultiplier": 0.615,
+        "Damage": {
+          "Puncture": 16.605,
+          "Slash": 5.535,
+          "Impact": 88.56
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "Trigger": "Semi-Auto",
+    "SniperComboMin": 1,
+    "AmmoMax": 20,
+    "Slot": "Primary",
+    "Link": "Conclave:Rubico"
+  },
+  "Panthera": {
+    "Accuracy": 100,
+    "Trigger": "Auto / Held",
+    "Magazine": 40,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "FireRate": 3,
+        "Damage": {
+          "Puncture": 9.6,
+          "Slash": 67.2,
+          "Impact": 19.2
+        },
+        "ShotSpeed": 60,
+        "Trigger": "Auto",
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 0.96,
+        "AmmoCost": 2
+      },
+      {
+        "HeadshotMultiplier": 1.2,
+        "FireRate": 2,
+        "Range": 3,
+        "Damage": {
+          "Puncture": 5,
+          "Slash": 40,
+          "Impact": 5
+        },
+        "Trigger": "Held",
+        "ShotType": "Discharge",
+        "PvPDamageMultiplier": 0.5,
+        "AmmoCost": 1
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 120,
+    "Slot": "Primary",
+    "Link": "Conclave:Panthera"
+  },
+  "Karak": {
+    "Accuracy": 28.6,
+    "Trigger": "Auto",
+    "Magazine": 20,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "PvPDamageMultipler": 1.08,
+        "HeadshotMultiplier": 1.2,
+        "ShotType": "Hit-Scan",
+        "FireRate": 11.67,
+        "Damage": {
+          "Puncture": 9.396,
+          "Slash": 7.83,
+          "Impact": 14.094
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 80,
+    "Slot": "Primary",
+    "Link": "Conclave:Karak"
+  },
+  "Simulor": {
+    "Accuracy": 100,
+    "Trigger": "Active",
+    "Magazine": 10,
+    "Reload": 3,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1,
+        "ShotSpeed": 80,
+        "AttackName": "Orb Damage",
+        "FireRate": 2,
+        "ShotType": "Projectile",
+        "Range": 12,
+        "Damage": {
+          "Puncture": 13,
+          "Slash": 13,
+          "Impact": 13
+        }
+      },
+      {
+        "AttackName": "Orb Explosion",
+        "HeadshotMultiplier": 1,
+        "ShotType": "AoE",
+        "Range": 1,
+        "Damage": {
+          "Electricity": 41
+        }
+      },
+      {
+        "Damage": {
+          "Magnetic": 50
+        },
+        "AttackName": "Orb Merge"
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 10,
+    "Slot": "Primary",
+    "Link": "Conclave:Simulor"
+  },
+  "Mk1-Paris": {
+    "Accuracy": 16.7,
+    "Trigger": "Charge",
+    "Magazine": 1,
+    "Reload": 0.6,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 2,
+        "IsSilent": true,
+        "ShotSpeed": 70,
+        "AttackName": "Uncharged Shot",
+        "FireRate": 1,
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 0.552173913043,
+        "Damage": {
+          "Puncture": 47.65,
+          "Slash": 12.7,
+          "Impact": 3.15
+        }
+      },
+      {
+        "ChargeTime": 0.5,
+        "IsSilent": true,
+        "HoldTime": 6,
+        "PvPDamageMultiplier": 0.552173913043,
+        "FireRate": 1,
+        "ShotSpeed": 85,
+        "AttackName": "Charged Shot",
+        "PunchThrough": 2,
+        "ShotType": "Projectile",
+        "HeadshotMultiplier": 2,
+        "Damage": {
+          "Puncture": 95.3,
+          "Slash": 25.4,
+          "Impact": 6.3
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 2,
+    "AmmoMax": 20,
+    "Slot": "Primary",
+    "Link": "Conclave:Mk1-Paris"
+  },
+  "Latron": {
+    "Accuracy": 28.6,
+    "Trigger": "Semi-Auto",
+    "Magazine": 15,
+    "Reload": 2.4,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.5,
+        "FireRate": 4.17,
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 1.2,
+        "Damage": {
+          "Puncture": 46.2,
+          "Slash": 9.9,
+          "Impact": 9.9
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 60,
+    "Slot": "Primary",
+    "Link": "Conclave:Latron"
+  },
+  "Hek": {
+    "Accuracy": 9.1,
+    "Trigger": "Semi-Auto",
+    "Magazine": 4,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "Multishot": 7,
+        "ShotType": "Hit-Scan",
+        "FireRate": 2.17,
+        "HeadshotMultiplier": 1.2,
+        "Falloff": {
+          "EndRange": 20,
+          "Reduction": 0.2,
+          "StartRange": 10
+        },
+        "PvPDamageMultiplier": 0.26,
+        "Damage": {
+          "Puncture": 12.675,
+          "Slash": 3.9,
+          "Impact": 2.925
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 20,
+    "Slot": "Primary",
+    "Link": "Conclave:Hek"
+  },
+  "Synapse": {
+    "Accuracy": 100,
+    "Trigger": "Held",
+    "Magazine": 25,
+    "Reload": 1.5,
+    "Attacks": [
+      {
+        "FireRate": 12,
+        "Damage": {
+          "Corrosive": 18
+        },
+        "HeadshotMultiplier": 1.2,
+        "ShotType": "Hit-Scan",
+        "Range": 15,
+        "AmmoCost": 0.5
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 100,
+    "Slot": "Primary",
+    "Link": "Conclave:Synapse"
+  },
+  "Braton": {
+    "Accuracy": 28.6,
+    "Trigger": "Auto",
+    "Magazine": 30,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "FireRate": 8.75,
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 1.38,
+        "Damage": {
+          "Puncture": 10.9296,
+          "Slash": 11.2608,
+          "Impact": 10.9296
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 120,
+    "Slot": "Primary",
+    "Link": "Conclave:Braton"
+  },
+  "Braton Prime": {
+    "Accuracy": 28.6,
+    "Trigger": "Auto",
+    "Magazine": 35,
+    "Reload": 2.2,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "FireRate": 9.58,
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 0.85,
+        "Damage": {
+          "Puncture": 10.4125,
+          "Slash": 17.85,
+          "Impact": 1.4875
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 140,
+    "Slot": "Primary",
+    "Link": "Conclave:Braton Prime"
+  },
+  "Veldt": {
+    "Accuracy": 32,
+    "Trigger": "Semi-Auto",
+    "Magazine": 26,
+    "Reload": 1.8,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.5,
+        "FireRate": 3.67,
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 0.74,
+        "Damage": {
+          "Puncture": 17.316,
+          "Slash": 31.968,
+          "Impact": 17.316
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 66,
+    "Slot": "Primary",
+    "Link": "Conclave:Veldt"
+  },
+  "Drakgoon": {
+    "Accuracy": 1.4,
+    "Trigger": "Charge",
+    "Magazine": 7,
+    "Reload": 2.3,
+    "Attacks": [
+      {
+        "Multishot": 10,
+        "HeadshotMultiplier": 1.2,
+        "ShotSpeed": 100,
+        "AttackName": "Uncharged Shot",
+        "PunchThrough": 1.5,
+        "ShotType": "Projectile",
+        "FireRate": 3.33,
+        "Damage": {
+          "Puncture": 1.44,
+          "Slash": 11.52,
+          "Impact": 1.44
+        }
+      },
+      {
+        "ChargeTime": 0.5,
+        "Multishot": 10,
+        "ShotSpeed": 100,
+        "AttackName": "Charged Shot",
+        "PunchThrough": 2,
+        "ShotType": "Projectile",
+        "HeadshotMultiplier": 1.2,
+        "Damage": {
+          "Puncture": 1.44,
+          "Slash": 11.52,
+          "Impact": 1.44
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 21,
+    "Slot": "Primary",
+    "Link": "Conclave:Drakgoon"
+  },
+  "Flux Rifle": {
+    "Accuracy": 100,
+    "Trigger": "Held",
+    "Magazine": 20,
+    "Reload": 1,
+    "Attacks": [
+      {
+        "FireRate": 12,
+        "Damage": {
+          "Puncture": 4.4,
+          "Slash": 15.6
+        },
+        "HeadshotMultiplier": 1.2,
+        "PunchThrough": 0.5,
+        "ShotType": "Hit-Scan",
+        "Range": 20,
+        "AmmoCost": 0.5
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 20,
+    "Slot": "Primary",
+    "Link": "Conclave:Flux Rifle"
+  },
+  "Paris Prime": {
+    "Accuracy": 16.7,
+    "Trigger": "Charge",
+    "Magazine": 1,
+    "Reload": 0.7,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 2,
+        "IsSilent": true,
+        "ShotSpeed": 110,
+        "AttackName": "Uncharged Shot",
+        "FireRate": 1,
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 0.466666666667,
+        "Damage": {
+          "Puncture": 76.8,
+          "Slash": 16.8,
+          "Impact": 2.4
+        }
+      },
+      {
+        "ChargeTime": 0.5,
+        "IsSilent": true,
+        "HoldTime": 5,
+        "PvPDamageMultiplier": 0.466666666667,
+        "FireRate": 1,
+        "ShotSpeed": 140,
+        "AttackName": "Charged Shot",
+        "PunchThrough": 3,
+        "ShotType": "Projectile",
+        "HeadshotMultiplier": 2,
+        "Damage": {
+          "Puncture": 134.4,
+          "Slash": 29.4,
+          "Impact": 4.2
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 2,
+    "AmmoMax": 20,
+    "Slot": "Primary",
+    "Link": "Conclave:Paris Prime"
+  },
+  "Opticor Vandal": {
+    "Accuracy": 100,
+    "Trigger": "Charge",
+    "Magazine": 8,
+    "Reload": 1.4,
+    "Attacks": [
+      {
+        "ChargeTime": 0.6,
+        "HeadshotMultiplier": 2,
+        "FireRate": 2,
+        "AttackName": "Charged Shot",
+        "PunchThrough": 1,
+        "ShotType": "Hit-Scan",
+        "Range": 300,
+        "Damage": {
+          "Puncture": 51.5,
+          "Slash": 14.7,
+          "Impact": 25.8
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 10,
+    "Slot": "Primary",
+    "Link": "Conclave:Opticor Vandal"
+  },
+  "Ignis Wraith": {
+    "Accuracy": 100,
+    "Trigger": "Held",
+    "Magazine": 40,
+    "Reload": 1.7,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1,
+        "FireRate": 8,
+        "ShotType": "Hit-Scan",
+        "Range": 10,
+        "Damage": {
+          "Heat": 22
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 120,
+    "Slot": "Primary",
+    "Link": "Conclave:Ignis Wraith"
+  },
+  "Tenora": {
+    "Accuracy": 12.5,
+    "Trigger": "Auto-Spool / Charge",
+    "Magazine": 70,
+    "Reload": 2.5,
+    "Attacks": [
+      {
+        "FireRate": 11.67,
+        "HeadshotMultiplier": 1.2,
+        "AttackName": "Normal Attack",
+        "Trigger": "Auto-Spool",
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 1.1,
+        "Damage": {
+          "Puncture": 10.56,
+          "Slash": 7.92,
+          "Impact": 7.92
+        }
+      },
+      {
+        "ChargeTime": 0.8,
+        "Trigger": "Charge",
+        "PvPDamageMultiplier": 0.545,
+        "AmmoCost": 10,
+        "HeadshotMultiplier": 1.2,
+        "AttackName": "Charged Shot",
+        "PunchThrough": 1,
+        "ShotType": "Hit-Scan",
+        "FireRate": 10,
+        "Damage": {
+          "Puncture": 78.5,
+          "Slash": 26.15,
+          "Impact": 26.15
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "SpoolStartFireRate": 0.4,
+    "Spool": 16,
+    "AmmoMax": 280,
+    "Slot": "Primary",
+    "Link": "Conclave:Tenora"
+  },
+  "Scourge": {
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1,
+        "FireRate": 2.67,
+        "AttackName": "Projectile Impact",
+        "Accuracy": 100,
+        "Trigger": "Auto",
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 1,
+        "Damage": {
+          "Corrosive": 70
+        }
+      },
+      {
+        "AttackName": "Projectile Explosion",
+        "FireRate": 2.67,
+        "ShotType": "AoE",
+        "PvPDamageMultiplier": 1,
+        "Damage": {
+          "Corrosive": 55
+        }
+      },
+      {
+        "ChargeTime": 0.5,
+        "HeadshotMultiplier": 1,
+        "AttackName": "Charged Spear Throw",
+        "Accuracy": 16.7,
+        "Trigger": "Charge",
+        "FireRate": 1,
+        "PvPDamageMultiplier": 1,
+        "Damage": {
+          "Puncture": 22.5,
+          "Slash": 22.5,
+          "Impact": 105
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "Slot": "Primary",
+    "Link": "Conclave:Scourge",
+    "Trigger": "Auto / Charge",
+    "AmmoMax": 24,
+    "Magazine": 12,
+    "Reload": 2.5
+  },
+  "Zhuge": {
+    "Accuracy": 40,
+    "Trigger": "Auto",
+    "Magazine": 20,
+    "Reload": 2.5,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "HeadshotMultiplier": 1.2,
+        "ShotSpeed": 90,
+        "FireRate": 4.17,
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 0.84,
+        "Damage": {
+          "Puncture": 63,
+          "Slash": 16.8,
+          "Impact": 4.2
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 60,
+    "Slot": "Primary",
+    "Link": "Conclave:Zhuge"
+  },
+  "Boltor Prime": {
+    "Accuracy": 50,
+    "Trigger": "Auto",
+    "Magazine": 36,
+    "Reload": 2.4,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "ShotSpeed": 120,
+        "FireRate": 10,
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 0.7,
+        "Damage": {
+          "Puncture": 28.98,
+          "Impact": 3.22
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 144,
+    "Slot": "Primary",
+    "Link": "Conclave:Boltor Prime"
+  },
+  "Zenith": {
+    "Accuracy": 33.3,
+    "Trigger": "Auto / Semi-Auto",
+    "Magazine": 20,
+    "Reload": 1.6,
+    "Attacks": [
+      {
+        "FireRate": 10.83,
+        "HeadshotMultiplier": 1.2,
+        "AttackName": "Full Auto Mode",
+        "Trigger": "Auto",
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 0.94,
+        "Damage": {
+          "Puncture": 5.64,
+          "Slash": 18.33,
+          "Impact": 4.23
+        }
+      },
+      {
+        "Trigger": "Semi-Auto",
+        "Damage": {
+          "Puncture": 86.4,
+          "Slash": 10.8,
+          "Impact": 10.8
+        },
+        "HeadshotMultiplier": 1.2,
+        "AttackName": "Semi-Auto Mode",
+        "PunchThrough": 99999,
+        "FireRate": 3,
+        "PvPDamageMultiplier": 0.72,
+        "AmmoCost": 5
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 100,
+    "Slot": "Primary",
+    "Link": "Conclave:Zenith"
+  },
+  "Vulkar Wraith": {
+    "Zoom": [
+      "2.5x zoom (+35% Headshot Damage)",
+      "4x zoom (+55% Headshot Damage)",
+      "8x zoom (+70% Headshot Damage)"
+    ],
+    "Accuracy": 13.3,
+    "SniperComboReset": 2,
+    "Magazine": 8,
+    "Reload": 3,
+    "Attacks": [
+      {
+        "ShotType": "Hit-Scan",
+        "FireRate": 2,
+        "HeadshotMultiplier": 1.4,
+        "PunchThrough": 1,
+        "Falloff": {
+          "StartRange": 400,
+          "EndRange": 600
+        },
+        "PvPDamageMultiplier": 0.36,
+        "Damage": {
+          "Puncture": 9.828,
+          "Impact": 88.452
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "Trigger": "Semi-Auto",
+    "SniperComboMin": 2,
+    "AmmoMax": 24,
+    "Slot": "Primary",
+    "Link": "Conclave:Vulkar Wraith"
+  },
+  "Grinlok": {
+    "Accuracy": 44.4,
+    "Trigger": "Semi-Auto",
+    "Magazine": 9,
+    "Reload": 1.7,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.5,
+        "FireRate": 1.67,
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 0.5,
+        "Damage": {
+          "Puncture": 9.35,
+          "Slash": 37.4,
+          "Impact": 46.75
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 27,
+    "Slot": "Primary",
+    "Link": "Conclave:Grinlok"
+  },
+  "Hema": {
+    "Accuracy": 20,
+    "Trigger": "Burst",
+    "Magazine": 42,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "BurstCount": 3,
+        "BurstDelay": 0.1,
+        "FireRate": 6,
+        "HeadshotMultiplier": 1.2,
+        "ShotSpeed": 150,
+        "PvPDamageMultiplier": 1,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Viral": 45
+        },
+        "BurstFireRate": 5
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 42,
+    "Slot": "Primary",
+    "Link": "Conclave:Hema"
+  },
+  "Daikyu": {
+    "Accuracy": 16.7,
+    "Trigger": "Charge",
+    "Magazine": 1,
+    "Reload": 0.6,
+    "Attacks": [
+      {
+        "ChargeTime": 1,
+        "IsSilent": true,
+        "HoldTime": 4,
+        "PvPDamageMultiplier": 0.265714285714,
+        "FireRate": 1,
+        "ShotSpeed": 180,
+        "AttackName": "Charged Shot",
+        "PunchThrough": 3,
+        "ShotType": "Projectile",
+        "HeadshotMultiplier": 2,
+        "Damage": {
+          "Puncture": 74.4,
+          "Slash": 55.8,
+          "Impact": 55.8
+        }
+      },
+      {
+        "ChargeTime": 1,
+        "IsSilent": true,
+        "HoldTime": 4,
+        "PvPDamageMultiplier": 0.265714285714,
+        "FireRate": 1,
+        "ShotSpeed": 180,
+        "AttackName": "With Spring-Loaded Broadhead (15m away)",
+        "PunchThrough": 3,
+        "ShotType": "Projectile",
+        "HeadshotMultiplier": 2,
+        "Damage": {
+          "Puncture": 104.16,
+          "Slash": 78.1,
+          "Impact": 78.1
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 15,
+    "Slot": "Primary",
+    "Link": "Conclave:Daikyu"
+  },
+  "Vectis Prime": {
+    "Zoom": [
+      "3.5x (+140% Headshot Damage)",
+      "6x (+160% Headshot Damage)"
+    ],
+    "Accuracy": 13.3,
+    "SniperComboReset": 2,
+    "Magazine": 2,
+    "Reload": 0.9,
+    "Attacks": [
+      {
+        "ShotType": "Hit-Scan",
+        "FireRate": 2.67,
+        "HeadshotMultiplier": 1.4,
+        "PunchThrough": 1,
+        "Falloff": {
+          "StartRange": 400,
+          "EndRange": 600
+        },
+        "PvPDamageMultiplier": 0.308,
+        "Damage": {
+          "Puncture": 48.51,
+          "Slash": 16.17,
+          "Impact": 43.12
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "Trigger": "Semi-Auto",
+    "SniperComboMin": 5,
+    "AmmoMax": 20,
+    "Slot": "Primary",
+    "Link": "Conclave:Vectis Prime"
+  },
+  "Vectis": {
+    "Zoom": [
+      "3x Zoom (+130% Headshot Damage)",
+      "4.5x Zoom (+150% Headshot Damage)"
+    ],
+    "Accuracy": 13.3,
+    "SniperComboReset": 2,
+    "Magazine": 1,
+    "Reload": 1,
+    "Attacks": [
+      {
+        "ShotType": "Hit-Scan",
+        "FireRate": 1.5,
+        "HeadshotMultiplier": 1.4,
+        "PunchThrough": 1,
+        "Falloff": {
+          "StartRange": 400,
+          "EndRange": 600
+        },
+        "PvPDamageMultiplier": 0.49,
+        "Damage": {
+          "Puncture": 38.5875,
+          "Slash": 27.5625,
+          "Impact": 44.1
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "Trigger": "Semi-Auto",
+    "SniperComboMin": 1,
+    "AmmoMax": 20,
+    "Slot": "Primary",
+    "Link": "Conclave:Vectis"
+  },
+  "Vaykor Hek": {
+    "Accuracy": 9.1,
+    "Trigger": "Semi-Auto",
+    "Magazine": 8,
+    "Reload": 2.3,
+    "Attacks": [
+      {
+        "Multishot": 7,
+        "ShotType": "Hit-Scan",
+        "FireRate": 3,
+        "HeadshotMultiplier": 1.2,
+        "Falloff": {
+          "EndRange": 25,
+          "Reduction": 0.267,
+          "StartRange": 10
+        },
+        "PvPDamageMultiplier": 0.2,
+        "Damage": {
+          "Puncture": 9.75,
+          "Slash": 3,
+          "Impact": 2.25
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 24,
+    "Slot": "Primary",
+    "Link": "Conclave:Vaykor Hek"
+  },
+  "Lanka": {
+    "Zoom": [
+      "3x (+20% Critical Chance)",
+      "5x (+30% Critical Chance)",
+      "8x (+50% Critical Chance)"
+    ],
+    "Accuracy": 100,
+    "SniperComboReset": 6,
+    "Magazine": 10,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "ChargeTime": 1,
+        "Trigger": "Semi-Auto",
+        "Falloff": {
+          "StartRange": 400,
+          "EndRange": 600
+        },
+        "PvPDamageMultiplier": 0.23,
+        "FireRate": 1,
+        "AttackName": "Uncharged Shot",
+        "ShotSpeed": 200,
+        "ShotType": "Projectile",
+        "HeadshotMultiplier": 2,
+        "Damage": {
+          "Electricity": 46
+        }
+      },
+      {
+        "ChargeTime": 1,
+        "Trigger": "Charge",
+        "PvPDamageMultiplier": 0.23,
+        "ShotSpeed": 250,
+        "AttackName": "Charged Shot",
+        "PunchThrough": 5,
+        "ShotType": "Projectile",
+        "HeadshotMultiplier": 2,
+        "Damage": {
+          "Electricity": 120.75
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "Trigger": "Charge",
+    "SniperComboMin": 2,
+    "AmmoMax": 20,
+    "Slot": "Primary",
+    "Link": "Conclave:Lanka"
+  },
+  "Braton Vandal": {
+    "Accuracy": 33.3,
+    "Trigger": "Auto",
+    "Magazine": 30,
+    "Reload": 1.8,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "FireRate": 7.5,
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 1.08,
+        "Damage": {
+          "Puncture": 1.89,
+          "Slash": 22.68,
+          "Impact": 13.23
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 120,
+    "Slot": "Primary",
+    "Link": "Conclave:Braton Vandal"
+  },
+  "Mutalist Cernos": {
+    "Accuracy": 16.7,
+    "Trigger": "Charge",
+    "Magazine": 1,
+    "Reload": 0.6,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 2,
+        "ShotSpeed": 70,
+        "AttackName": "Uncharged Shot",
+        "FireRate": 1,
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 0.19512195122,
+        "Damage": {
+          "Puncture": 3,
+          "Slash": 3,
+          "Impact": 36
+        }
+      },
+      {
+        "ChargeTime": 0.5,
+        "HoldTime": 5,
+        "PvPDamageMultiplier": 0.19512195122,
+        "FireRate": 1,
+        "AttackName": "Charged Shot",
+        "ShotSpeed": 85,
+        "ShotType": "Projectile",
+        "HeadshotMultiplier": 2,
+        "Damage": {
+          "Puncture": 4,
+          "Slash": 4,
+          "Impact": 72
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 2,
+    "AmmoMax": 10,
+    "Slot": "Primary",
+    "Link": "Conclave:Mutalist Cernos"
+  },
+  "Burston": {
+    "Accuracy": 25,
+    "Trigger": "Burst",
+    "Magazine": 30,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "Damage": {
+          "Puncture": 11.682,
+          "Slash": 11.682,
+          "Impact": 11.682
+        },
+        "PvPDamageMultiplier": 1.18,
+        "HeadshotMultiplier": 1.5,
+        "FireRate": 7.83,
+        "BurstCount": 3,
+        "ShotType": "Hit-Scan",
+        "BurstDelay": 0.061,
+        "BurstFireRate": 5
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 120,
+    "Slot": "Primary",
+    "Link": "Conclave:Burston"
+  },
+  "Tonkor": {
+    "Accuracy": 100,
+    "Trigger": "Semi-Auto",
+    "Magazine": 2,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1,
+        "AttackName": "Grenade Impact",
+        "ShotSpeed": 45,
+        "ShotType": "Projectile",
+        "FireRate": 2,
+        "Damage": {
+          "Puncture": 12.4
+        }
+      },
+      {
+        "Damage": {
+          "Blast": 189.1
+        },
+        "Range": 3,
+        "AttackName": "Grenade Explosion"
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 8,
+    "Slot": "Primary",
+    "Link": "Conclave:Tonkor"
+  },
+  "Dera": {
+    "Accuracy": 100,
+    "Trigger": "Auto",
+    "Magazine": 25,
+    "Reload": 1.8,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "ShotSpeed": 100,
+        "FireRate": 11.25,
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 1.02,
+        "Damage": {
+          "Puncture": 22.95,
+          "Slash": 1.53,
+          "Impact": 6.12
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 100,
+    "Slot": "Primary",
+    "Link": "Conclave:Dera"
+  },
+  "Buzlok": {
+    "Accuracy": 13.3,
+    "Trigger": "Auto",
+    "Magazine": 20,
+    "Reload": 3,
+    "Attacks": [
+      {
+        "FireRate": 6.25,
+        "HeadshotMultiplier": 1.2,
+        "ShotSpeed": 80,
+        "Trigger": "Auto",
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 1,
+        "Damage": {
+          "Puncture": 24,
+          "Slash": 6,
+          "Impact": 30
+        }
+      },
+      {
+        "IsSilent": true,
+        "Accuracy": 16.7,
+        "Trigger": "Semi-Auto",
+        "PvPDamageMultiplier": 3.333,
+        "FireRate": 1.67,
+        "AttackName": "Beacon",
+        "ShotSpeed": 200,
+        "ShotType": "Projectile",
+        "HeadshotMultiplier": 1.2,
+        "Damage": {
+          "Puncture": 10
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 100,
+    "Slot": "Primary",
+    "Link": "Conclave:Buzlok"
+  },
+  "Tiberon": {
+    "Accuracy": 33.3,
+    "Trigger": "Burst",
+    "Magazine": 21,
+    "Reload": 2.3,
+    "Attacks": [
+      {
+        "Damage": {
+          "Puncture": 12.58,
+          "Slash": 6.29,
+          "Impact": 6.29
+        },
+        "PvPDamageMultiplier": 0.74,
+        "HeadshotMultiplier": 1.5,
+        "FireRate": 9.09,
+        "BurstCount": 3,
+        "ShotType": "Hit-Scan",
+        "BurstDelay": 0.06,
+        "BurstFireRate": 6.667
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 84,
+    "Slot": "Primary",
+    "Link": "Conclave:Tiberon"
+  },
+  "Grakata": {
+    "Accuracy": 28.6,
+    "Trigger": "Auto",
+    "Magazine": 40,
+    "Reload": 2.4,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "FireRate": 20,
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 1.6,
+        "Damage": {
+          "Puncture": 5.808,
+          "Slash": 4.6933,
+          "Impact": 7.04
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 160,
+    "Slot": "Primary",
+    "Link": "Conclave:Grakata"
+  },
+  "Astilla": {
+    "Accuracy": 25,
+    "Trigger": "Auto",
+    "Magazine": 8,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "ShotSpeed": 120,
+        "AttackName": "Slug Impact",
+        "FireRate": 4.33,
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 1,
+        "Damage": {
+          "Impact": 40
+        }
+      },
+      {
+        "ShotType": "AoE",
+        "FireRate": 4.33,
+        "AttackName": "Glass Explosion",
+        "HeadshotMultiplier": 1.2,
+        "Falloff": {
+          "EndRange": 1.5,
+          "Reduction": 0,
+          "StartRange": 0
+        },
+        "PvPDamageMultiplier": 0.25,
+        "Damage": {
+          "Puncture": 12,
+          "Slash": 18
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 24,
+    "Slot": "Primary",
+    "Link": "Conclave:Astilla"
+  },
+  "Tetra": {
+    "Accuracy": 18.2,
+    "Trigger": "Auto",
+    "Magazine": 40,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "ShotSpeed": 100,
+        "FireRate": 6.67,
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 1.54,
+        "Damage": {
+          "Puncture": 39.424,
+          "Impact": 9.856
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 160,
+    "Slot": "Primary",
+    "Link": "Conclave:Tetra"
+  },
+  "Miter": {
+    "Accuracy": 100,
+    "Trigger": "Charge",
+    "Magazine": 10,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 2,
+        "AttackName": "Uncharged Shot",
+        "ShotSpeed": 60,
+        "ShotType": "Projectile",
+        "FireRate": 2.5,
+        "Damage": {
+          "Puncture": 4.05,
+          "Slash": 72.45,
+          "Impact": 4.05
+        }
+      },
+      {
+        "ChargeTime": 0.75,
+        "ShotSpeed": 120,
+        "AttackName": "Charged Shot",
+        "PunchThrough": 2.5,
+        "ShotType": "Projectile",
+        "HeadshotMultiplier": 2,
+        "Damage": {
+          "Puncture": 8.1,
+          "Slash": 144.9,
+          "Impact": 8.1
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "Slot": "Primary",
+    "AmmoMax": 20,
+    "Link": "Conclave:Miter",
+    "AmmoType": "Sniper"
+  },
+  "Mk1-Braton": {
+    "Accuracy": 40,
+    "Trigger": "Auto",
+    "Magazine": 25,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "FireRate": 7.5,
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 2.1,
+        "Damage": {
+          "Puncture": 9.45,
+          "Slash": 18.9,
+          "Impact": 9.45
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 100,
+    "Slot": "Primary",
+    "Link": "Conclave:Mk1-Braton"
+  },
+  "Telos Boltor": {
+    "Accuracy": 25,
+    "Trigger": "Auto",
+    "Magazine": 42,
+    "Reload": 2.4,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "ShotSpeed": 90,
+        "FireRate": 9.33,
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 1.1,
+        "Damage": {
+          "Puncture": 29.7,
+          "Impact": 3.3
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 168,
+    "Slot": "Primary",
+    "Link": "Conclave:Telos Boltor"
+  },
+  "Sybaris Prime": {
+    "Accuracy": 25,
+    "Trigger": "Burst",
+    "Magazine": 16,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "Damage": {
+          "Puncture": 18.876,
+          "Slash": 19.448,
+          "Impact": 18.876
+        },
+        "PvPDamageMultiplier": 0.65,
+        "HeadshotMultiplier": 1.5,
+        "FireRate": 4.72,
+        "BurstCount": 2,
+        "ShotType": "Hit-Scan",
+        "BurstDelay": 0.062,
+        "BurstFireRate": 3.33
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 48,
+    "Slot": "Primary",
+    "Link": "Conclave:Sybaris Prime"
+  },
+  "Ferrox": {
+    "Accuracy": 16.7,
+    "Trigger": "Charge",
+    "Magazine": 10,
+    "Reload": 1.8,
+    "Attacks": [
+      {
+        "ChargeTime": 0.5,
+        "Trigger": "Charge",
+        "PvPDamageMultiplier": 0.375,
+        "FireRate": 1.33,
+        "AttackName": "Charged Shot",
+        "PunchThrough": 1.5,
+        "ShotType": "Hit-Scan",
+        "HeadshotMultiplier": 1.5,
+        "Damage": {
+          "Puncture": 91.875,
+          "Slash": 26.25,
+          "Impact": 13.125
+        }
+      },
+      {
+        "ChargeTime": 0.5,
+        "ShotSpeed": 90,
+        "FireRate": 1,
+        "AttackName": "Charged Spear Throw",
+        "Trigger": "Charge",
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 1,
+        "Damage": {
+          "Puncture": 22.5,
+          "Slash": 22.5,
+          "Impact": 105
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 20,
+    "Slot": "Primary",
+    "Link": "Conclave:Ferrox"
+  },
+  "Supra Vandal": {
+    "Accuracy": 26.6,
+    "Trigger": "Auto-Spool",
+    "Magazine": 100,
+    "Reload": 3,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "ShotSpeed": 110,
+        "FireRate": 12.5,
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 0.54,
+        "Damage": {
+          "Puncture": 16.2,
+          "Slash": 3.24,
+          "Impact": 2.16
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "SpoolStartFireRate": 0.2,
+    "Spool": 8,
+    "AmmoMax": 200,
+    "Slot": "Primary",
+    "Link": "Conclave:Supra Vandal"
+  },
+  "Supra": {
+    "Accuracy": 14.3,
+    "Trigger": "Auto-Spool",
+    "Magazine": 80,
+    "Reload": 3,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "ShotSpeed": 110,
+        "FireRate": 12.5,
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 0.64,
+        "Damage": {
+          "Puncture": 19.2,
+          "Slash": 3.84,
+          "Impact": 2.56
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "SpoolStartFireRate": 0.1,
+    "Spool": 8,
+    "AmmoMax": 240,
+    "Slot": "Primary",
+    "Link": "Conclave:Supra"
+  },
+  "Dera Vandal": {
+    "Accuracy": 100,
+    "Trigger": "Auto",
+    "Magazine": 35,
+    "Reload": 1.8,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "ShotSpeed": 100,
+        "FireRate": 11.25,
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 0.92,
+        "Damage": {
+          "Puncture": 22.08,
+          "Slash": 1.472,
+          "Impact": 5.888
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 140,
+    "Slot": "Primary",
+    "Link": "Conclave:Dera Vandal"
+  },
+  "Strun Wraith": {
+    "Accuracy": 6.7,
+    "Trigger": "Semi-Auto",
+    "Magazine": 10,
+    "Reload": 5,
+    "Attacks": [
+      {
+        "Multishot": 10,
+        "ShotType": "Hit-Scan",
+        "ForcedProcs": [
+          "Stagger"
+        ],
+        "FireRate": 2.5,
+        "HeadshotMultiplier": 1.2,
+        "Falloff": {
+          "EndRange": 30,
+          "Reduction": 0.5,
+          "StartRange": 15
+        },
+        "PvPDamageMultiplier": 0.31,
+        "Damage": {
+          "Puncture": 1.86,
+          "Slash": 2.48,
+          "Impact": 8.06
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "Slot": "Primary",
+    "AmmoMax": 30,
+    "ReloadStyle": "ByRound",
+    "Link": "Conclave:Strun Wraith"
+  },
+  "Burston Prime": {
+    "Accuracy": 25,
+    "Trigger": "Burst",
+    "Magazine": 30,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "Damage": {
+          "Puncture": 6.48,
+          "Slash": 8.64,
+          "Impact": 6.48
+        },
+        "PvPDamageMultiplier": 0.6,
+        "HeadshotMultiplier": 1.5,
+        "FireRate": 13.64,
+        "BurstCount": 3,
+        "ShotType": "Hit-Scan",
+        "BurstDelay": 0.04,
+        "BurstFireRate": 10
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 120,
+    "Slot": "Primary",
+    "Link": "Conclave:Burston Prime"
+  },
+  "Strun": {
+    "Accuracy": 4,
+    "Trigger": "Semi-Auto",
+    "Magazine": 6,
+    "Reload": 3.8,
+    "Attacks": [
+      {
+        "Multishot": 12,
+        "ShotType": "Hit-Scan",
+        "FireRate": 2.5,
+        "HeadshotMultiplier": 1.2,
+        "Falloff": {
+          "EndRange": 25,
+          "Reduction": 0.6,
+          "StartRange": 12
+        },
+        "PvPDamageMultiplier": 0.55,
+        "Damage": {
+          "Puncture": 2.0625,
+          "Slash": 4.125,
+          "Impact": 7.5625
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "Slot": "Primary",
+    "AmmoMax": 30,
+    "ReloadStyle": "ByRound",
+    "Link": "Conclave:Strun"
+  },
+  "Stradavar Prime": {
+    "Attacks": [
+      {
+        "HeadshotMultipier": 1.2,
+        "FireRate": 10,
+        "AttackName": "Full Auto Mode",
+        "Accuracy": 25,
+        "Trigger": "Auto",
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 0.9,
+        "Damage": {
+          "Puncture": 9.18,
+          "Slash": 8.1,
+          "Impact": 9.18
+        }
+      },
+      {
+        "Accuracy": 66.7,
+        "Trigger": "Semi-Auto",
+        "PvPDamageMultiplier": 0.84,
+        "AmmoCost": 2,
+        "HeadshotMultiplier": 1.2,
+        "AttackName": "Semi-Auto Mode",
+        "PunchThrough": 1,
+        "ShotType": "Hit-Scan",
+        "FireRate": 3.33,
+        "Damage": {
+          "Puncture": 20.16,
+          "Slash": 40.32,
+          "Impact": 6.72
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "Slot": "Primary",
+    "Link": "Conclave:Stradavar Prime",
+    "Trigger": "Auto / Semi-Auto",
+    "AmmoMax": 120,
+    "Magazine": 40,
+    "Reload": 2
+  },
+  "Karak Wraith": {
+    "Accuracy": 28.6,
+    "Trigger": "Auto",
+    "Magazine": 35,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "FireRate": 11.67,
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 0.87,
+        "Damage": {
+          "Puncture": 8.091,
+          "Slash": 6.7425,
+          "Impact": 12.1365
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 140,
+    "Slot": "Primary",
+    "Link": "Conclave:Karak Wraith"
+  },
+  "Stradavar": {
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "FireRate": 10,
+        "AttackName": "Full Auto Mode",
+        "Accuracy": 14.3,
+        "Trigger": "Auto",
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 1.07,
+        "Damage": {
+          "Puncture": 10.486,
+          "Slash": 8.988,
+          "Impact": 10.486
+        }
+      },
+      {
+        "HeadshotMultiplier": 1.2,
+        "FireRate": 5,
+        "AttackName": "Semi-Auto Mode",
+        "Accuracy": 28.6,
+        "Trigger": "Semi-Auto",
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 1,
+        "Damage": {
+          "Puncture": 30,
+          "Slash": 12.5,
+          "Impact": 7.5
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "Slot": "Primary",
+    "Link": "Conclave:Stradavar",
+    "Trigger": "Auto / Semi-Auto",
+    "AmmoMax": 120,
+    "Magazine": 30,
+    "Reload": 2
+  },
+  "Rubico Prime": {
+    "Zoom": [
+      "2.5x (+100% Headshot Damage)",
+      "5.0x (+100% Headshot Damage)"
+    ],
+    "Accuracy": 13.3,
+    "SniperComboReset": 2,
+    "Magazine": 5,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "ShotType": "Hit-Scan",
+        "FireRate": 3.67,
+        "HeadshotMultiplier": 2,
+        "PunchThrough": 1,
+        "Falloff": {
+          "StartRange": 400,
+          "EndRange": 600
+        },
+        "PvPDamageMultiplier": 0.41,
+        "Damage": {
+          "Puncture": 11.5005,
+          "Slash": 3.8335,
+          "Impact": 61.336
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "Trigger": "Semi-Auto",
+    "SniperComboMin": 1,
+    "AmmoMax": 20,
+    "Slot": "Primary",
+    "Link": "Conclave:Rubico Prime"
+  },
+  "Javlok": {
+    "Attacks": [
+      {
+        "ChargeTime": 0.3,
+        "Accuracy": 100,
+        "Trigger": "Charge",
+        "PvPDamageMultiplier": 1,
+        "FireRate": 3.33,
+        "AttackName": "Projectile Impact",
+        "ShotSpeed": 150,
+        "ShotType": "Projectile",
+        "HeadshotMultiplier": 1,
+        "Damage": {
+          "Heat": 160
+        }
+      },
+      {
+        "ShotType": "AoE",
+        "AttackName": "Projectile Explosion",
+        "Range": 1.6,
+        "Falloff": {
+          "EndRange": 1.6,
+          "Reduction": 1,
+          "StartRange": 0
+        },
+        "PvPDamageMultiplier": 1,
+        "Damage": {
+          "Heat": 132
+        }
+      },
+      {
+        "ChargeTime": 0.5,
+        "Accuracy": 16.7,
+        "Trigger": "Charge",
+        "PvPDamageMultiplier": 1,
+        "FireRate": 1,
+        "AttackName": "Charged Spear Throw",
+        "ShotType": "Projectile",
+        "ShotSpeed": 90,
+        "Damage": {
+          "Puncture": 75,
+          "Slash": 30,
+          "Impact": 45
+        }
+      },
+      {
+        "ShotType": "AoE",
+        "Range": 4,
+        "AttackName": "Charged Spear Explosion",
+        "FireRate": 1,
+        "Falloff": {
+          "EndRange": 4,
+          "Reduction": 1,
+          "StartRange": 0
+        },
+        "PvPDamageMultiplier": 1,
+        "Damage": {
+          "Heat": 300
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "Slot": "Primary",
+    "Link": "Conclave:Javlok",
+    "Trigger": "Charge",
+    "AmmoMax": 18,
+    "Magazine": 6,
+    "Reload": 1.9
+  },
+  "Soma Prime": {
+    "Accuracy": 28.6,
+    "Trigger": "Auto-Spool",
+    "Magazine": 70,
+    "Reload": 3,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "FireRate": 15,
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 1.56,
+        "Damage": {
+          "Puncture": 7.488,
+          "Slash": 9.36,
+          "Impact": 1.872
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "SpoolStartFireRate": 0.25,
+    "Spool": 5,
+    "AmmoMax": 210,
+    "Slot": "Primary",
+    "Link": "Conclave:Soma Prime"
+  },
+  "Sobek": {
+    "Accuracy": 9.1,
+    "Trigger": "Auto",
+    "Magazine": 20,
+    "Reload": 2.7,
+    "Attacks": [
+      {
+        "Multishot": 5,
+        "ShotType": "Hit-Scan",
+        "FireRate": 2.5,
+        "HeadshotMultiplier": 1.2,
+        "Falloff": {
+          "EndRange": 30,
+          "Reduction": 0.5,
+          "StartRange": 20
+        },
+        "PvPDamageMultiplier": 0.26,
+        "Damage": {
+          "Puncture": 2.275,
+          "Slash": 2.275,
+          "Impact": 13.65
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 40,
+    "Slot": "Primary",
+    "Link": "Conclave:Sobek"
+  },
+  "Snipetron Vandal": {
+    "Zoom": [
+      "2.5x (+130% Headshot Damage)",
+      "6x (+150% Headshot Damage)"
+    ],
+    "Accuracy": 13.3,
+    "SniperComboReset": 2,
+    "Magazine": 6,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "ShotType": "Hit-Scan",
+        "FireRate": 2,
+        "HeadshotMultiplier": 1.4,
+        "PunchThrough": 3,
+        "Falloff": {
+          "StartRange": 400,
+          "EndRange": 600
+        },
+        "PvPDamageMultiplier": 0.525,
+        "Damage": {
+          "Puncture": 94.5,
+          "Slash": 5.25,
+          "Impact": 5.25
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "Trigger": "Semi-Auto",
+    "SniperComboMin": 3,
+    "AmmoMax": 24,
+    "Slot": "Primary",
+    "Link": "Conclave:Snipetron Vandal"
+  },
+  "Glaxion": {
+    "Accuracy": 100,
+    "Trigger": "Held",
+    "Magazine": 30,
+    "Reload": 2.2,
+    "Attacks": [
+      {
+        "FireRate": 12,
+        "Damage": {
+          "Cold": 18
+        },
+        "HeadshotMultiplier": 1.2,
+        "ShotType": "Hit-Scan",
+        "Range": 12,
+        "AmmoCost": 0.5
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 120,
+    "Slot": "Primary",
+    "Link": "Conclave:Glaxion"
+  },
+  "Snipetron": {
+    "Zoom": [
+      "2.5x (+130% Headshot Damage)",
+      "6x (+150% Headshot Damage)"
+    ],
+    "Accuracy": 13.3,
+    "SniperComboReset": 2,
+    "Magazine": 4,
+    "Reload": 3.5,
+    "Attacks": [
+      {
+        "ShotType": "Hit-Scan",
+        "FireRate": 2,
+        "HeadshotMultiplier": 1.4,
+        "PunchThrough": 2.5,
+        "Falloff": {
+          "StartRange": 400,
+          "EndRange": 600
+        },
+        "PvPDamageMultiplier": 0.734,
+        "Damage": {
+          "Puncture": 105.696,
+          "Slash": 13.212,
+          "Impact": 13.212
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "Trigger": "Semi-Auto",
+    "SniperComboMin": 3,
+    "AmmoMax": 20,
+    "Slot": "Primary",
+    "Link": "Conclave:Snipetron"
+  },
+  "Secura Penta": {
+    "Accuracy": 100,
+    "Trigger": "Active",
+    "Magazine": 7,
+    "Reload": 2.5,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1,
+        "AttackName": "Grenade Impact",
+        "ShotSpeed": 25,
+        "ShotType": "Projectile",
+        "FireRate": 2,
+        "Damage": {
+          "Blast": 139.4,
+          "Impact": 16.4
+        }
+      },
+      {
+        "HeadshotMultiplier": 1,
+        "AttackName": "Grenade Detonation",
+        "Trigger": "Active",
+        "ShotType": "AoE",
+        "Range": 3.5,
+        "Damage": {
+          "Blast": 139.4
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 14,
+    "Slot": "Primary",
+    "Link": "Conclave:Secura Penta"
+  },
+  "Argonak": {
+    "Accuracy": 28.6,
+    "Trigger": "Auto / Semi-Auto",
+    "Magazine": 21,
+    "Reload": 2.4,
+    "Attacks": [
+      {
+        "FireRate": 4.33,
+        "HeadshotMultiplier": 1.2,
+        "AttackName": "Semi-Auto Mode",
+        "Trigger": "Auto",
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 1,
+        "Damage": {
+          "Puncture": 6.27,
+          "Slash": 26.22,
+          "Impact": 24.51
+        }
+      },
+      {
+        "FireRate": 6,
+        "HeadshotMultiplier": 1.2,
+        "AttackName": "Full Auto Mode",
+        "Trigger": "Semi-Auto",
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 0.85,
+        "Damage": {
+          "Puncture": 5.3295,
+          "Slash": 22.287,
+          "Impact": 20.8335
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 63,
+    "Slot": "Primary",
+    "Link": "Conclave:Argonak"
+  },
+  "Sancti Tigris": {
+    "Accuracy": 6.5,
+    "Trigger": "Duplex",
+    "Magazine": 2,
+    "Reload": 1.5,
+    "Attacks": [
+      {
+        "Multishot": 6,
+        "ShotType": "Hit-Scan",
+        "FireRate": 2,
+        "HeadshotMultiplier": 1.2,
+        "Falloff": {
+          "EndRange": 20,
+          "Reduction": 0.429,
+          "StartRange": 8
+        },
+        "PvPDamageMultiplier": 0.75,
+        "Damage": {
+          "Puncture": 9,
+          "Slash": 72,
+          "Impact": 9
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 14,
+    "Slot": "Primary",
+    "Link": "Conclave:Sancti Tigris"
+  },
+  "Rakta Cernos": {
+    "Accuracy": 16.7,
+    "Trigger": "Charge",
+    "Magazine": 1,
+    "Reload": 0.6,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 2,
+        "IsSilent": true,
+        "ShotSpeed": 70,
+        "AttackName": "Uncharged Shot",
+        "FireRate": 1,
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 0.181063829787,
+        "Damage": {
+          "Puncture": 2.15,
+          "Slash": 2.15,
+          "Impact": 38.25
+        }
+      },
+      {
+        "ChargeTime": 0.25,
+        "IsSilent": true,
+        "HoldTime": 5,
+        "PvPDamageMultiplier": 0.181063829787,
+        "FireRate": 1,
+        "ShotSpeed": 100,
+        "AttackName": "Charged Shot",
+        "PunchThrough": 1,
+        "ShotType": "Projectile",
+        "HeadshotMultiplier": 2,
+        "Damage": {
+          "Puncture": 4.3,
+          "Slash": 4.3,
+          "Impact": 76.5
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 2,
+    "AmmoMax": 20,
+    "Slot": "Primary",
+    "Link": "Conclave:Rakta Cernos"
+  },
+  "Latron Wraith": {
+    "Accuracy": 28.6,
+    "Trigger": "Semi-Auto",
+    "Magazine": 15,
+    "Reload": 2.4,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.5,
+        "FireRate": 5.42,
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 0.89,
+        "Damage": {
+          "Puncture": 37.38,
+          "Slash": 2.67,
+          "Impact": 13.35
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 60,
+    "Slot": "Primary",
+    "Link": "Conclave:Latron Wraith"
+  },
+  "Prisma Grinlok": {
+    "Accuracy": 44.4,
+    "Trigger": "Semi-Auto",
+    "Magazine": 21,
+    "Reload": 1.7,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.5,
+        "FireRate": 1.67,
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 0.5,
+        "Damage": {
+          "Puncture": 9.35,
+          "Slash": 46.75,
+          "Impact": 37.4
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 42,
+    "Slot": "Primary",
+    "Link": "Conclave:Prisma Grinlok"
+  },
+  "Quartakk": {
+    "Accuracy": 90.9,
+    "Trigger": "Burst",
+    "Magazine": 52,
+    "Reload": 1.7,
+    "Attacks": [
+      {
+        "BurstCount": 4,
+        "BurstDelay": 0,
+        "FireRate": 6.33,
+        "HeadshotMultiplier": 1.2,
+        "PvPDamageMultiplier": 0.52,
+        "PunchThrough": 0.5,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 7.3892,
+          "Slash": 8.6632,
+          "Impact": 9.4276
+        },
+        "BurstFireRate": 1.5833
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 208,
+    "Slot": "Primary",
+    "Link": "Conclave:Quartakk"
+  },
+  "Prisma Tetra": {
+    "Accuracy": 18.2,
+    "Trigger": "Auto",
+    "Magazine": 40,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "ShotSpeed": 100,
+        "FireRate": 7.08,
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 1.2,
+        "Damage": {
+          "Puncture": 36.48,
+          "Impact": 9.12
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 160,
+    "Slot": "Primary",
+    "Link": "Conclave:Prisma Tetra"
+  },
+  "Prisma Grakata": {
+    "Accuracy": 28.6,
+    "Trigger": "Auto",
+    "Magazine": 50,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "FireRate": 21.67,
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 1,
+        "Damage": {
+          "Puncture": 4.9999,
+          "Slash": 4,
+          "Impact": 6
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 200,
+    "Slot": "Primary",
+    "Link": "Conclave:Prisma Grakata"
+  },
+  "Prisma Gorgon": {
+    "Accuracy": 20,
+    "Trigger": "Auto-Spool",
+    "Magazine": 80,
+    "Reload": 3,
+    "Attacks": [
+      {
+        "PvPDamageMultipler": 1,
+        "HeadshotMultiplier": 1.2,
+        "ShotType": "Hit-Scan",
+        "FireRate": 14.17,
+        "Damage": {
+          "Puncture": 3.45,
+          "Slash": 2.3,
+          "Impact": 17.25
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "SpoolStartFireRate": 0.2,
+    "Spool": 12,
+    "AmmoMax": 240,
+    "Slot": "Primary",
+    "Link": "Conclave:Prisma Gorgon"
+  },
+  "Lenz": {
+    "Accuracy": 16.7,
+    "Trigger": "Charge",
+    "Magazine": 1,
+    "Reload": 1,
+    "Attacks": [
+      {
+        "ChargeTime": 1.2,
+        "HeadshotMultiplier": 1.5,
+        "AttackName": "Charged Shot",
+        "ShotSpeed": 60,
+        "ShotType": "Projectile",
+        "FireRate": 1,
+        "Damage": {
+          "Impact": 20
+        }
+      },
+      {
+        "Damage": {
+          "Cold": 10
+        },
+        "HeadshotMultiplier": 1.5,
+        "Range": 3,
+        "AttackName": "Initial Burst"
+      },
+      {
+        "Damage": {
+          "Blast": 170
+        },
+        "Range": 5,
+        "AttackName": "Bubble Collapse"
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 3,
+    "Slot": "Primary",
+    "Link": "Conclave:Lenz"
+  },
+  "Gorgon": {
+    "SpoolFireRateStart": 0.2,
+    "Accuracy": 12.5,
+    "Trigger": "Auto-Spool",
+    "Magazine": 60,
+    "Reload": 4.2,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "FireRate": 12.5,
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 1.22,
+        "Damage": {
+          "Puncture": 4.575,
+          "Slash": 3.05,
+          "Impact": 22.875
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "Spool": 15,
+    "AmmoMax": 180,
+    "Slot": "Primary",
+    "Link": "Conclave:Gorgon"
+  },
+  "Baza": {
+    "Accuracy": 80,
+    "Trigger": "Auto",
+    "Magazine": 40,
+    "Reload": 1.4,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "ShotType": "Hit-Scan",
+        "FireRate": 16.67,
+        "HeadshotMultiplier": 1.2,
+        "Falloff": {
+          "EndRange": 34,
+          "Reduction": 0.5,
+          "StartRange": 22
+        },
+        "PvPDamageMultiplier": 1.04,
+        "Damage": {
+          "Puncture": 6.9888,
+          "Slash": 3.6608,
+          "Impact": 5.9904
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 120,
+    "Slot": "Primary",
+    "Link": "Conclave:Baza"
+  },
+  "Cernos Prime": {
+    "Accuracy": 16.7,
+    "Trigger": "Charge",
+    "Magazine": 1,
+    "Reload": 1,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "PvPDamageMultiplier": 0.1667,
+        "FireRate": 1,
+        "Multishot": 3,
+        "AttackName": "Uncharged Shot (Horizontal)",
+        "ShotSpeed": 70,
+        "ShotType": "Projectile",
+        "HeadshotMultiplier": 2,
+        "Damage": {
+          "Puncture": 2.3,
+          "Slash": 9.2,
+          "Impact": 34.5
+        }
+      },
+      {
+        "ChargeTime": 0.5,
+        "IsSilent": true,
+        "HoldTime": 5,
+        "PvPDamageMultiplier": 0.15416667,
+        "FireRate": 1,
+        "Multishot": 3,
+        "ShotSpeed": 95,
+        "AttackName": "Charged Shot (Horizontal)",
+        "PunchThrough": 1,
+        "ShotType": "Projectile",
+        "HeadshotMultiplier": 2,
+        "Damage": {
+          "Puncture": 4.3,
+          "Slash": 4.3,
+          "Impact": 76.5
+        }
+      },
+      {
+        "IsSilent": true,
+        "PvPDamageMultiplier": 0.1667,
+        "FireRate": 1,
+        "Multishot": 3,
+        "AttackName": "Uncharged Shot (Vertical)",
+        "ShotSpeed": 70,
+        "ShotType": "Projectile",
+        "HeadshotMultiplier": 2,
+        "Damage": {
+          "Puncture": 2.3,
+          "Slash": 9.2,
+          "Impact": 34.5
+        }
+      },
+      {
+        "ChargeTime": 0.5,
+        "IsSilent": true,
+        "HoldTime": 5,
+        "PvPDamageMultiplier": 0.15416667,
+        "FireRate": 1,
+        "Multishot": 3,
+        "ShotSpeed": 95,
+        "AttackName": "Charged Shot (Vertical)",
+        "PunchThrough": 1,
+        "ShotType": "Projectile",
+        "HeadshotMultiplier": 2,
+        "Damage": {
+          "Puncture": 4.3,
+          "Slash": 4.3,
+          "Impact": 76.5
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 2,
+    "AmmoMax": 20,
+    "Slot": "Primary",
+    "Link": "Conclave:Cernos Prime"
+  },
+  "Arca Plasmor": {
+    "Accuracy": 9.1,
+    "Trigger": "Semi-Auto",
+    "Magazine": 6,
+    "Reload": 2.8,
+    "Attacks": [
+      {
+        "ShotType": "Projectile",
+        "FireRate": 1.1,
+        "Range": 15,
+        "ShotSpeed": 70,
+        "HeadshotMultiplier": 1,
+        "Falloff": {
+          "EndRange": 20,
+          "Reduction": 0.6667,
+          "StartRange": 10
+        },
+        "PvPDamageMultiplier": 0.2667,
+        "Damage": {
+          "Radiation": 160
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 24,
+    "Slot": "Primary",
+    "Link": "Conclave:Arca Plasmor"
+  },
+  "Hind": {
+    "Attacks": [
+      {
+        "Accuracy": 33.3,
+        "BurstCount": 5,
+        "BurstDelay": 0.12,
+        "FireRate": 6.25,
+        "Trigger": "Burst",
+        "HeadshotMultiplier": 1.2,
+        "AttackName": "Burst Mode",
+        "PvPDamageMultiplier": 1.28,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 9.6,
+          "Slash": 19.2,
+          "Impact": 9.6
+        },
+        "BurstFireRate": 5
+      },
+      {
+        "HeadshotMultiplier": 1.2,
+        "FireRate": 2.5,
+        "AttackName": "Semi-Auto Mode",
+        "Accuracy": 28.6,
+        "Trigger": "Semi-Auto",
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 1,
+        "Damage": {
+          "Puncture": 12,
+          "Slash": 36,
+          "Impact": 12
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "Slot": "Primary",
+    "Link": "Conclave:Hind",
+    "Trigger": "Burst / Semi-Auto",
+    "AmmoMax": 120,
+    "Magazine": 40,
+    "Reload": 2
+  },
+  "Gorgon Wraith": {
+    "SpoolFireRateStart": 0.2,
+    "Accuracy": 16.7,
+    "Trigger": "Auto-Spool",
+    "Magazine": 60,
+    "Reload": 3,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.2,
+        "FireRate": 13.3,
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 0.92,
+        "Damage": {
+          "Puncture": 2.484,
+          "Slash": 1.242,
+          "Impact": 21.114
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "Spool": 10,
+    "AmmoMax": 180,
+    "Slot": "Primary",
+    "Link": "Conclave:Gorgon Wraith"
+  },
+  "Penta": {
+    "Accuracy": 100,
+    "Trigger": "Active",
+    "Magazine": 5,
+    "Reload": 2.5,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1,
+        "AttackName": "Grenade Impact",
+        "ShotSpeed": 20,
+        "ShotType": "Projectile",
+        "FireRate": 1,
+        "Damage": {
+          "Blast": 157.5,
+          "Impact": 14
+        }
+      },
+      {
+        "AttackName": "Grenade Detonation",
+        "Trigger": "Active",
+        "ShotType": "AoE",
+        "Range": 3.5,
+        "Damage": {
+          "Blast": 157.5
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 10,
+    "Slot": "Primary",
+    "Link": "Conclave:Penta"
+  },
+  "Paris": {
+    "Accuracy": 16.7,
+    "Trigger": "Charge",
+    "Magazine": 1,
+    "Reload": 0.7,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 2,
+        "IsSilent": true,
+        "ShotSpeed": 105,
+        "AttackName": "Uncharged Shot",
+        "FireRate": 1,
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 0.4875,
+        "Damage": {
+          "Puncture": 62.4,
+          "Slash": 11.7,
+          "Impact": 3.9
+        }
+      },
+      {
+        "ChargeTime": 0.5,
+        "IsSilent": true,
+        "HoldTime": 5,
+        "PvPDamageMultiplier": 0.4875,
+        "FireRate": 1,
+        "ShotSpeed": 140,
+        "AttackName": "Charged Shot",
+        "PunchThrough": 2,
+        "ShotType": "Projectile",
+        "HeadshotMultiplier": 2,
+        "Damage": {
+          "Puncture": 124.8,
+          "Slash": 23.4,
+          "Impact": 7.8
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 2,
+    "AmmoMax": 20,
+    "Slot": "Primary",
+    "Link": "Conclave:Paris"
+  },
+  "Opticor": {
+    "Accuracy": 100,
+    "Trigger": "Charge",
+    "Magazine": 5,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "ChargeTime": 2,
+        "HeadshotMultiplier": 2,
+        "FireRate": 1,
+        "AttackName": "Charged Shot",
+        "PunchThrough": 1,
+        "ShotType": "Hit-Scan",
+        "Range": 300,
+        "Damage": {
+          "Puncture": 197.2,
+          "Slash": 11.6,
+          "Impact": 23.2
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 10,
+    "Slot": "Primary",
+    "Link": "Conclave:Opticor"
+  },
+  "Mk1-Strun": {
+    "Accuracy": 4,
+    "Trigger": "Semi-Auto",
+    "Magazine": 6,
+    "Reload": 3.8,
+    "Attacks": [
+      {
+        "Multishot": 10,
+        "ShotType": "Hit-Scan",
+        "FireRate": 2.08,
+        "HeadshotMultiplier": 1.2,
+        "Falloff": {
+          "EndRange": 25,
+          "Reduction": 0.5,
+          "StartRange": 15
+        },
+        "PvPDamageMultiplier": 0.96,
+        "Damage": {
+          "Puncture": 2.592,
+          "Slash": 5.184,
+          "Impact": 9.504
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "Slot": "Primary",
+    "AmmoMax": 30,
+    "ReloadStyle": "ByRound",
+    "Link": "Conclave:Mk1-Strun"
+  },
+  "Corinth": {
+    "Accuracy": 9.1,
+    "Trigger": "Semi-Auto",
+    "Magazine": 5,
+    "Reload": 2.3,
+    "Attacks": [
+      {
+        "Multishot": 6,
+        "ShotType": "Hit-Scan",
+        "FireRate": 1.17,
+        "AttackName": "Buckshot",
+        "HeadshotMultiplier": 1.2,
+        "Falloff": {
+          "EndRange": 36,
+          "Reduction": 0.33,
+          "StartRange": 18
+        },
+        "PvPDamageMultiplier": 0.3,
+        "Damage": {
+          "Puncture": 11.34,
+          "Slash": 8.1,
+          "Impact": 7.56
+        }
+      },
+      {
+        "HeadshotMultiplier": 1.2,
+        "AttackName": "Air Burst Projectile",
+        "ShotSpeed": 80,
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 1,
+        "Damage": {
+          "Impact": 160
+        }
+      },
+      {
+        "AttackName": "Air Burst Explosion",
+        "Range": 3.5,
+        "HeadshotMultiplier": 1.2,
+        "PvPDamageMultiplier": 1,
+        "Damage": {
+          "Blast": 220
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 22,
+    "Slot": "Primary",
+    "Link": "Conclave:Corinth"
+  },
+  "Harpak": {
+    "Link": "Conclave:Harpak",
+    "Trigger": "Burst",
+    "Magazine": 45,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "Accuracy": 18.2,
+        "BurstCount": 3,
+        "BurstDelay": 0.1,
+        "FireRate": 6,
+        "HeadshotMultiplier": 1.2,
+        "ShotSpeed": 80,
+        "AttackName": "Normal Attack",
+        "PvPDamageMultiplier": 0.99,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 37.125,
+          "Slash": 7.425,
+          "Impact": 4.95
+        },
+        "BurstFireRate": 5
+      },
+      {
+        "Accuracy": 100,
+        "PvPDamageMultiplier": 1,
+        "FireRate": 1.5,
+        "Range": 40,
+        "AttackName": "Harpoon",
+        "ShotSpeed": 60,
+        "ShotType": "Projectile",
+        "HeadshotMultiplier": 1.2,
+        "Damage": {
+          "Puncture": 50,
+          "Slash": 10,
+          "Impact": 40
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 135,
+    "Slot": "Primary",
+    "BurstFireRate": 5
+  },
+  "Boar": {
+    "Accuracy": 5,
+    "Trigger": "Auto",
+    "Magazine": 20,
+    "Reload": 2.7,
+    "Attacks": [
+      {
+        "Multishot": 8,
+        "ShotType": "Hit-Scan",
+        "FireRate": 4.17,
+        "HeadshotMultiplier": 1.2,
+        "Falloff": {
+          "EndRange": 25,
+          "Reduction": 0.5,
+          "StartRange": 15
+        },
+        "PvPDamageMultiplier": 0.5,
+        "Damage": {
+          "Puncture": 1.65,
+          "Slash": 3.3,
+          "Impact": 6.05
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 60,
+    "Slot": "Primary",
+    "Link": "Conclave:Boar"
+  },
+  "Boar Prime": {
+    "Accuracy": 5,
+    "Trigger": "Auto",
+    "Magazine": 20,
+    "Reload": 2.75,
+    "Attacks": [
+      {
+        "Multishot": 8,
+        "ShotType": "Hit-Scan",
+        "FireRate": 4.67,
+        "HeadshotMultiplier": 1.2,
+        "Falloff": {
+          "EndRange": 25,
+          "Reduction": 0.7,
+          "StartRange": 18
+        },
+        "PvPDamageMultiplier": 0.24,
+        "Damage": {
+          "Puncture": 1.44,
+          "Slash": 1.92,
+          "Impact": 6.24
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 60,
+    "Slot": "Primary",
+    "Link": "Conclave:Boar Prime"
+  },
+  "Latron Prime": {
+    "Accuracy": 28.6,
+    "Trigger": "Semi-Auto",
+    "Magazine": 15,
+    "Reload": 2.4,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1.5,
+        "FireRate": 4.17,
+        "ShotType": "Hit-Scan",
+        "PvPDamageMultiplier": 0.65,
+        "Damage": {
+          "Puncture": 46.8,
+          "Slash": 5.85,
+          "Impact": 5.85
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 60,
+    "Slot": "Primary",
+    "Link": "Conclave:Latron Prime"
+  },
+  "Dex Sybaris": {
+    "Accuracy": 28.6,
+    "Trigger": "Burst",
+    "Magazine": 14,
+    "Reload": 1.5,
+    "Attacks": [
+      {
+        "Damage": {
+          "Puncture": 14.0625,
+          "Slash": 25.3125,
+          "Impact": 16.875
+        },
+        "PvPDamageMultiplier": 0.75,
+        "HeadshotMultiplier": 1.5,
+        "FireRate": 4.17,
+        "BurstCount": 2,
+        "ShotType": "Hit-Scan",
+        "BurstDelay": 0.09,
+        "BurstFireRate": 3.33
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 56,
+    "Slot": "Primary",
+    "Link": "Conclave:Dex Sybaris"
+  },
+  "Dread": {
+    "Accuracy": 16.7,
+    "Trigger": "Charge",
+    "Magazine": 1,
+    "Reload": 0.7,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 2,
+        "IsSilent": true,
+        "ShotSpeed": 95,
+        "AttackName": "Uncharged Shot",
+        "FireRate": 1,
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 0.369047619048,
+        "Damage": {
+          "Puncture": 3.1,
+          "Slash": 55.8,
+          "Impact": 3.1
+        }
+      },
+      {
+        "ChargeTime": 0.5,
+        "IsSilent": true,
+        "HoldTime": 5,
+        "PvPDamageMultiplier": 0.369047619048,
+        "FireRate": 1,
+        "ShotSpeed": 120,
+        "AttackName": "Charged Shot",
+        "PunchThrough": 2.5,
+        "ShotType": "Projectile",
+        "HeadshotMultiplier": 2,
+        "Damage": {
+          "Puncture": 6.2,
+          "Slash": 111.6,
+          "Impact": 6.2
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 2,
+    "AmmoMax": 20,
+    "Slot": "Primary",
+    "Link": "Conclave:Dread"
+  },
+  "Tigris Prime": {
+    "Accuracy": 9.1,
+    "Trigger": "Duplex",
+    "Magazine": 2,
+    "Reload": 1.8,
+    "Attacks": [
+      {
+        "Multishot": 8,
+        "ShotType": "Hit-Scan",
+        "FireRate": 2,
+        "HeadshotMultiplier": 1.2,
+        "Falloff": {
+          "EndRange": 20,
+          "Reduction": 0.514,
+          "StartRange": 10
+        },
+        "PvPDamageMultiplier": 0.095,
+        "Damage": {
+          "Puncture": 1.8525,
+          "Slash": 14.82,
+          "Impact": 1.8525
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 14,
+    "Slot": "Primary",
+    "Link": "Conclave:Tigris Prime"
+  },
+  "Vulkar": {
+    "Zoom": [
+      "2.5x zoom (+35% Headshot Damage)",
+      "4x zoom (+55% Headshot Damage)",
+      "8x zoom (+70% Headshot Damage)"
+    ],
+    "Accuracy": 13.3,
+    "SniperComboReset": 2,
+    "Magazine": 6,
+    "Reload": 3,
+    "Attacks": [
+      {
+        "ShotType": "Hit-Scan",
+        "FireRate": 1.5,
+        "HeadshotMultiplier": 1.4,
+        "PunchThrough": 1,
+        "Falloff": {
+          "StartRange": 400,
+          "EndRange": 600
+        },
+        "PvPDamageMultiplier": 0.45,
+        "Damage": {
+          "Puncture": 15.1875,
+          "Slash": 5.0625,
+          "Impact": 81
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "Trigger": "Semi-Auto",
+    "SniperComboMin": 2,
+    "AmmoMax": 24,
+    "Slot": "Primary",
+    "Link": "Conclave:Vulkar"
+  },
+  "Attica": {
+    "Accuracy": 40,
+    "Trigger": "Auto",
+    "Magazine": 20,
+    "Reload": 2.8,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "HeadshotMultiplier": 1.5,
+        "ShotSpeed": 120,
+        "FireRate": 3.67,
+        "ShotType": "Projectile",
+        "PvPDamageMultiplier": 1.07,
+        "Damage": {
+          "Puncture": 64.2,
+          "Slash": 17.12,
+          "Impact": 4.28
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "AmmoMax": 40,
+    "Slot": "Primary",
+    "Link": "Conclave:Attica"
+  }
+}

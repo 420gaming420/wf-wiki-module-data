@@ -1,0 +1,330 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/visageink",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:33:40.821Z"
+  },
+  "_comments": "",
+  "Gneissic Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooGeodeBlack.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Gneissic Ink",
+    "Name": "Gneissic Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooGeodeBlack",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Circuit Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooDuviriE.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Circuit Ink",
+    "Name": "Circuit Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooDuviriE",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Collateral Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooCorpusC.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Collateral Ink",
+    "Name": "Collateral Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooCorpusC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Verula Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooDuviriA.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Verula Ink",
+    "Name": "Verula Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooDuviriA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Futures Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooCorpusD.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Futures Ink",
+    "Name": "Futures Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooCorpusD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Siege Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooGrineerD.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Siege Ink",
+    "Name": "Siege Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooGrineerD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Dividend Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooCorpusE.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Dividend Ink",
+    "Name": "Dividend Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooCorpusE",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Conquera Magnolia Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooTennoI.png",
+    "Description": "Wear this ink as a symbol of support in the Quest to Conquer Cancer",
+    "Link": "Conquera Magnolia Ink",
+    "Name": "Conquera Magnolia Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooTennoI",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ligumi Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooTennoB.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Ligumi Ink",
+    "Name": "Ligumi Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooTennoB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Gneissic Ink (Light)": {
+    "Type": "Visage Ink",
+    "Image": "TattooGeodeGrey.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Gneissic Ink (Light)",
+    "Name": "Gneissic Ink (Light)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooGeodeGrey",
+    "ExcludeFromCodex": true,
+    "CodexSecret": true
+  },
+  "Hunter Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooGrineerC.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Hunter Ink",
+    "Name": "Hunter Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooGrineerC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Sharpshooter Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooDuviriB.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Sharpshooter Ink",
+    "Name": "Sharpshooter Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooDuviriB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Helix Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooGrineerE.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Helix Ink",
+    "Name": "Helix Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooGrineerE",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kiai Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooDuviriD.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Kiai Ink",
+    "Name": "Kiai Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooDuviriD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Academe Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooDuviriC.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Academe Ink",
+    "Name": "Academe Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooDuviriC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Miyeti Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooTennoD.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Miyeti Ink",
+    "Name": "Miyeti Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooTennoD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Aru Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooTennoG.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Aru Ink",
+    "Name": "Aru Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooTennoG",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Affections Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooLoveRose.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Affections Ink",
+    "Name": "Affections Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooLoveRose",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Airlock Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooCorpusA.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Airlock Ink",
+    "Name": "Airlock Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooCorpusA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Heavy Striker Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooDuviriF.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Heavy Striker Ink",
+    "Name": "Heavy Striker Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooDuviriF",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Battlecry Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooNightwaveCommando.png",
+    "Description": "Prepare for battle with a warrior inspired Visage Ink for the Drifter.",
+    "Link": "Battlecry Ink",
+    "Name": "Battlecry Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooNightwaveCommando",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Hull Breach Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooCorpusB.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Hull Breach Ink",
+    "Name": "Hull Breach Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooCorpusB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Cherub Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooLoveWings.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Cherub Ink",
+    "Name": "Cherub Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooLoveFlowerB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Fumiro Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooTennoF.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Fumiro Ink",
+    "Name": "Fumiro Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooTennoF",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Exome Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooGrineerB.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Exome Ink",
+    "Name": "Exome Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooGrineerB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Manipura Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooDuviriG.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Manipura Ink",
+    "Name": "Manipura Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooDuviriG",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Amorous Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooLoveFlower.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Amorous Ink",
+    "Name": "Amorous Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooLoveFlower",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Gneissic Ink (Mid)": {
+    "Type": "Visage Ink",
+    "Image": "TattooGeode.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Gneissic Ink (Mid)",
+    "Name": "Gneissic Ink (Mid)",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooGeode",
+    "ExcludeFromCodex": true,
+    "CodexSecret": true
+  },
+  "Eros Struck Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooLoveHeart.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Eros Struck Ink",
+    "Name": "Eros Struck Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooLoveHeart",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Conquera Cherry Tree Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooTennoH.png",
+    "Description": "Wear this ink as a symbol of support in the Quest to Conquer Cancer",
+    "Link": "Conquera Cherry Tree Ink",
+    "Name": "Conquera Cherry Tree Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooTennoH",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Bulwark Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooGrineerA.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Bulwark Ink",
+    "Name": "Bulwark Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooGrineerA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Yoshijo Ink": {
+    "Type": "Visage Ink",
+    "Image": "TattooTennoC.png",
+    "Description": "Body art can convey that which brings you peace or drives your spirit.",
+    "Link": "Yoshijo Ink",
+    "Name": "Yoshijo Ink",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Tattoos/TattooTennoC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  }
+}

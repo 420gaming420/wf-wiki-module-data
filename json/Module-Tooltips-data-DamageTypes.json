@@ -1,0 +1,3199 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Tooltips/data/DamageTypes",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:43:46.395Z"
+  },
+  "_comments": "",
+  "Microwave": [
+    {
+      "1": "DamageTypes",
+      "2": "Microwave",
+      "3": "Microwave",
+      "color": "var(--dt-default-text-color)",
+      "_data": {
+        "Link": "Microwave",
+        "Color": "#5d5d5d",
+        "DarkModeColor": "#d5d5d5",
+        "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+        "CSSTextColorClass": "var(--dt-default-text-color)",
+        "Name": "Microwave",
+        "Status": [
+          "Enlarged body parts"
+        ],
+        "InternalName": "PT_MICROWAVE_BURN",
+        "Icon": "Nukor.png",
+        "CSSBorderColorClass": "var(--dt-default-border-color)"
+      },
+      "name": "Microwave",
+      "icon": "[[File:Nukor.png|x32px|link=Microwave|class=icon notpageimage]]"
+    }
+  ],
+  "Tenno Shield": [
+    {
+      "1": "DamageTypes",
+      "2": "Tenno Shield",
+      "3": "Tenno Shield",
+      "_data": {
+        "Negatives": [
+          [
+            "Heat",
+            50
+          ],
+          [
+            "Radiation",
+            50
+          ],
+          [
+            "Cold",
+            50
+          ],
+          [
+            "Puncture",
+            50
+          ],
+          [
+            "Corrosive",
+            50
+          ],
+          [
+            "Viral",
+            50
+          ],
+          [
+            "Slash",
+            50
+          ],
+          [
+            "Magnetic",
+            50
+          ],
+          [
+            "Impact",
+            50
+          ],
+          [
+            "Blast",
+            50
+          ],
+          [
+            "Toxin",
+            50
+          ],
+          [
+            "Tau",
+            50
+          ],
+          [
+            "Void",
+            50
+          ],
+          [
+            "Electricity",
+            50
+          ],
+          [
+            "Gas",
+            50
+          ]
+        ],
+        "Type": "Shield",
+        "Link": "Tenno Shield",
+        "Color": "#31469A",
+        "DarkModeColor": "#a3afdd",
+        "Name": "Tenno Shield",
+        "Faction": [
+          "Tenno"
+        ],
+        "ColorBackground": "#C5CDEC",
+        "ColorBorder": "#3E58C0",
+        "InternalName": "RK_TENNO_SHIELD",
+        "Bypass": [
+          [
+            "Toxin",
+            50
+          ]
+        ]
+      },
+      "name": "Tenno Shield"
+    }
+  ],
+  "Tenno": [
+    {
+      "1": "DamageTypes",
+      "2": "Tenno",
+      "3": "Damage/Tenno",
+      "color": "var(--faction-tenno-text-color)",
+      "_data": {
+        "Type": "Health",
+        "Link": "Damage/Tenno",
+        "Color": "#5F5B70",
+        "DarkModeColor": "#9f89ff",
+        "ColorBorder": "#77728C",
+        "CSSTextColorClass": "var(--faction-tenno-text-color)",
+        "Faction": [
+          "Tenno"
+        ],
+        "ColorBackground": "#D6D4DC",
+        "Name": "Tenno",
+        "InternalName": "RK_TENNO_FACTION",
+        "Introduced": "36"
+      },
+      "name": "Tenno"
+    }
+  ],
+  "Kuva Grineer": [
+    {
+      "1": "DamageTypes",
+      "2": "Kuva Grineer",
+      "3": "Damage/Kuva Grineer",
+      "color": "var(--faction-kuva-grineer-text-color)",
+      "_data": {
+        "Negatives": [
+          [
+            "Heat",
+            50
+          ]
+        ],
+        "Type": "Health",
+        "Link": "Damage/Kuva Grineer",
+        "Color": "#6B6660",
+        "Positives": [
+          [
+            "Corrosive",
+            50
+          ],
+          [
+            "Impact",
+            50
+          ]
+        ],
+        "DarkModeColor": "#e66261",
+        "ColorBorder": "#857F79",
+        "CSSTextColorClass": "var(--faction-kuva-grineer-text-color)",
+        "Faction": [
+          "Kuva Grineer"
+        ],
+        "ColorBackground": "#DAD8D6",
+        "Name": "Kuva Grineer",
+        "InternalName": "RK_GRINEER_KUVA_FACTION",
+        "Introduced": "36"
+      },
+      "name": "Kuva Grineer"
+    }
+  ],
+  "Inaccuracy": [
+    {
+      "1": "DamageTypes",
+      "2": "Inaccuracy",
+      "3": "Damage 2.0/Blast Damage",
+      "color": "var(--dt-blast-text-color)",
+      "_data": {
+        "Link": "Damage 2.0/Blast Damage",
+        "Color": "#b32a00",
+        "Status": [
+          "Accuracy reduction"
+        ],
+        "DarkModeColor": "#dd704e",
+        "CSSBackgroundColorClass": "var(--dt-blast-background-color)",
+        "Name": "Inaccuracy",
+        "CSSTextColorClass": "var(--dt-blast-text-color)",
+        "InternalName": "PT_FLASHBANG",
+        "ColorBackground": "#dfcac3",
+        "CSSBorderColorClass": "var(--dt-blast-border-color)",
+        "Icon": "DmgBlastSmall64.png",
+        "ColorBorder": "#8d361c"
+      },
+      "name": "Inaccuracy",
+      "icon": "[[File:DmgBlastSmall64.png|x32px|link=Damage 2.0/Blast Damage|class=icon notpageimage]]"
+    }
+  ],
+  "PT_VOID": [
+    {
+      "1": "DamageTypes",
+      "2": "PT_VOID",
+      "3": "WARFRAME Wiki",
+      "color": "var(--dt-default-text-color)",
+      "_data": {
+        "Link": "WARFRAME Wiki",
+        "Color": "#ff0000",
+        "DarkModeColor": "#15c8ab",
+        "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+        "CSSTextColorClass": "var(--dt-default-text-color)",
+        "Name": "PT_VOID",
+        "Status": [
+          "Unknown; may be old version of bullet attractor (PT_RADIANT)"
+        ],
+        "InternalName": "PT_VOID",
+        "Icon": "UnidentifiedItem.png",
+        "CSSBorderColorClass": "var(--dt-default-border-color)"
+      },
+      "name": "PT_VOID",
+      "icon": "[[File:UnidentifiedItem.png|x32px|link=WARFRAME Wiki|class=icon notpageimage]]"
+    }
+  ],
+  "Concuss": [
+    {
+      "1": "DamageTypes",
+      "2": "Concuss",
+      "3": "Damage/Impact Damage#Railjack",
+      "color": "var(--dt-impact-text-color)",
+      "_data": {
+        "CSSBorderColorClass": "var(--dt-impact-border-color)",
+        "GlyphImage": "EssentialImpactGlyph.png",
+        "Link": "Damage/Impact Damage#Railjack",
+        "Color": "#3d5e5e",
+        "Status": [
+          "Enemy crew have reduced accuracy and damage"
+        ],
+        "Name": "Concuss",
+        "DarkModeColor": "#80c4c4",
+        "CSSBackgroundColorClass": "var(--dt-impact-background-color)",
+        "ColorBorder": "#486061",
+        "CSSTextColorClass": "var(--dt-impact-text-color)",
+        "InternalName": "",
+        "ColorBackground": "#cad8d8",
+        "StatusNotes": [
+          1,
+          2
+        ],
+        "Icon": "DmgImpactSmall64.png",
+        "IsRailjack": true
+      },
+      "name": "Concuss",
+      "icon": "[[File:DmgImpactSmall64.png|x32px|link=Damage/Impact Damage#Railjack|class=icon notpageimage]]"
+    }
+  ],
+  "Freeze": [
+    {
+      "1": "DamageTypes",
+      "2": "Freeze",
+      "3": "Damage/Cold Damage",
+      "color": "var(--dt-cold-text-color)",
+      "_data": {
+        "GlyphImage": "ColdModBundleIcon.png",
+        "Link": "Damage/Cold Damage",
+        "Color": "#17658c",
+        "Status": [
+          "Slower movement and attack speed"
+        ],
+        "DarkModeColor": "#5bbcec",
+        "CSSBackgroundColorClass": "var(--dt-cold-background-color)",
+        "Name": "Freeze",
+        "CSSTextColorClass": "var(--dt-cold-text-color)",
+        "InternalName": "PT_CHILLED",
+        "ColorBackground": "#c3d5df",
+        "CSSBorderColorClass": "var(--dt-cold-border-color)",
+        "Icon": "DmgColdSmall64.png",
+        "ColorBorder": "#1c638d"
+      },
+      "name": "Freeze",
+      "icon": "[[File:DmgColdSmall64.png|x32px|link=Damage/Cold Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Puncture": [
+    {
+      "1": "DamageTypes",
+      "2": "Puncture",
+      "3": "Damage/Puncture Damage",
+      "color": "var(--dt-puncture-text-color)",
+      "_data": {
+        "Negatives": [
+          "Tenno Shield"
+        ],
+        "Status": [
+          "Weakened",
+          "Crit Chance +"
+        ],
+        "GlyphImage": "EssentialPunctureGlyph.png",
+        "Link": "Damage/Puncture Damage",
+        "Color": "#5c5247",
+        "ProcInternalName": "PT_FRAILTY",
+        "Positives": [
+          "Corpus",
+          "Orokin"
+        ],
+        "DarkModeColor": "#c6b098",
+        "CSSBackgroundColorClass": "var(--dt-puncture-background-color)",
+        "Name": "Puncture",
+        "CSSTextColorClass": "var(--dt-puncture-text-color)",
+        "InternalName": "DT_PUNCTURE",
+        "ColorBackground": "#d8d1ca",
+        "CSSBorderColorClass": "var(--dt-puncture-border-color)",
+        "Icon": "DmgPunctureSmall64.png",
+        "ColorBorder": "#615448"
+      },
+      "name": "Puncture",
+      "icon": "[[File:DmgPunctureSmall64.png|x32px|link=Damage/Puncture Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Techrot": [
+    {
+      "1": "DamageTypes",
+      "2": "Techrot",
+      "3": "Damage/Techrot",
+      "color": "var(--faction-techrot-text-color)",
+      "_data": {
+        "Negatives": [
+          [
+            "Cold",
+            50
+          ]
+        ],
+        "Type": "Health",
+        "Link": "Damage/Techrot",
+        "Color": "#5B7067",
+        "Positives": [
+          [
+            "Magnetic",
+            50
+          ],
+          [
+            "Gas",
+            50
+          ]
+        ],
+        "DarkModeColor": "#97bbac",
+        "ColorBorder": "#728C80",
+        "CSSTextColorClass": "var(--faction-techrot-text-color)",
+        "Faction": [
+          "Techrot"
+        ],
+        "ColorBackground": "#D4DCD9",
+        "Name": "Techrot",
+        "InternalName": "RK_PROTOINFESTED_FACTION",
+        "Introduced": "38"
+      },
+      "name": "Techrot"
+    }
+  ],
+  "Finisher": [
+    {
+      "1": "DamageTypes",
+      "2": "Finisher",
+      "3": "Finisher",
+      "color": "var(--dt-default-text-color)",
+      "_data": {
+        "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+        "Name": "Finisher",
+        "CSSTextColorClass": "var(--dt-default-text-color)",
+        "Link": "Finisher",
+        "Color": "#5d5d5d",
+        "CSSBorderColorClass": "var(--dt-default-border-color)",
+        "Icon": "Finisher_b.png",
+        "DarkModeColor": "#d5d5d5"
+      },
+      "name": "Finisher",
+      "icon": "[[File:Finisher_b.png|x32px|link=Finisher|class=icon notpageimage]]"
+    }
+  ],
+  "Impact": [
+    {
+      "1": "DamageTypes",
+      "2": "Impact",
+      "3": "Damage/Impact Damage",
+      "color": "var(--dt-impact-text-color)",
+      "_data": {
+        "Negatives": [
+          "Tenno Shield"
+        ],
+        "GlyphImage": "EssentialImpactGlyph.png",
+        "Color": "#3d5e5e",
+        "DarkModeColor": "#80c4c4",
+        "CSSTextColorClass": "var(--dt-impact-text-color)",
+        "Status": [
+          "Stagger",
+          "Mercy Kill Threshold +"
+        ],
+        "StatusNotes": [
+          1,
+          2
+        ],
+        "Icon": "DmgImpactSmall64.png",
+        "Link": "Damage/Impact Damage",
+        "CSSBorderColorClass": "var(--dt-impact-border-color)",
+        "Positives": [
+          "Grineer",
+          "Kuva Grineer",
+          "Scaldra",
+          "Anarchs"
+        ],
+        "CSSBackgroundColorClass": "var(--dt-impact-background-color)",
+        "Name": "Impact",
+        "ColorBackground": "#cad8d8",
+        "ProcInternalName": "PT_KNOCKBACK",
+        "InternalName": "DT_IMPACT",
+        "ColorBorder": "#486061"
+      },
+      "name": "Impact",
+      "icon": "[[File:DmgImpactSmall64.png|x32px|link=Damage/Impact Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Anarchs": [
+    {
+      "1": "DamageTypes",
+      "2": "Anarchs",
+      "3": "Damage/Anarchs",
+      "color": "var(--faction-anarch-text-color)",
+      "_data": {
+        "Negatives": [
+          [
+            "Radiation",
+            50
+          ]
+        ],
+        "Type": "Health",
+        "Link": "Damage/Anarchs",
+        "Color": "#5B7067",
+        "Positives": [
+          [
+            "Impact",
+            50
+          ],
+          [
+            "Electricity",
+            50
+          ]
+        ],
+        "DarkModeColor": "#97bbac",
+        "ColorBorder": "#728C80",
+        "CSSTextColorClass": "var(--faction-anarch-text-color)",
+        "Faction": [
+          "Anarchs"
+        ],
+        "ColorBackground": "#D4DCD9",
+        "Name": "Anarchs",
+        "InternalName": "RK_OROKIN_EMPIRE_FACTION",
+        "Introduced": "41"
+      },
+      "name": "Anarchs"
+    }
+  ],
+  "Corrosion": [
+    {
+      "1": "DamageTypes",
+      "2": "Corrosion",
+      "3": "Damage/Corrosive Damage",
+      "color": "var(--dt-corrosive-text-color)",
+      "_data": {
+        "GlyphImage": "EssentialCorrosiveGlyph.png",
+        "Link": "Damage/Corrosive Damage",
+        "Color": "#4d6600",
+        "Status": [
+          "Armor reduction"
+        ],
+        "DarkModeColor": "#93c203",
+        "CSSBackgroundColorClass": "var(--dt-corrosive-background-color)",
+        "Name": "Corrosion",
+        "CSSTextColorClass": "var(--dt-corrosive-text-color)",
+        "InternalName": "PT_CAUSTIC_BURN",
+        "ColorBackground": "#d8dfc3",
+        "CSSBorderColorClass": "var(--dt-corrosive-border-color)",
+        "Icon": "DmgCorrosiveSmall64.png",
+        "ColorBorder": "#708d1c"
+      },
+      "name": "Corrosion",
+      "icon": "[[File:DmgCorrosiveSmall64.png|x32px|link=Damage/Corrosive Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Infested (Damage 2.0)": [
+    {
+      "1": "DamageTypes",
+      "2": "Infested (Damage 2.0)",
+      "3": "Damage 2.0/Infested",
+      "_data": {
+        "Negatives": [
+          [
+            "Radiation",
+            50
+          ],
+          [
+            "Viral",
+            50
+          ]
+        ],
+        "Type": "Health",
+        "Link": "Damage 2.0/Infested",
+        "Color": "#606B6B",
+        "Positives": [
+          [
+            "Gas",
+            75
+          ],
+          [
+            "Heat",
+            25
+          ],
+          [
+            "Slash",
+            25
+          ]
+        ],
+        "DarkModeColor": "#9db9b9",
+        "Name": "Infested",
+        "Faction": [
+          "Infested"
+        ],
+        "ColorBackground": "#D6DADA",
+        "ColorBorder": "#798585",
+        "InternalName": "RK_INFESTED",
+        "Introduced": "11"
+      },
+      "name": "Infested"
+    },
+    {
+      "1": "DamageTypes",
+      "2": "Infested",
+      "3": "Damage/Infested",
+      "color": "var(--faction-infested-text-color)",
+      "_data": {
+        "Type": "Health",
+        "Link": "Damage/Infested",
+        "Color": "#606B6B",
+        "Positives": [
+          [
+            "Heat",
+            50
+          ],
+          [
+            "Slash",
+            50
+          ]
+        ],
+        "DarkModeColor": "#9db9b9",
+        "ColorBorder": "#798585",
+        "CSSTextColorClass": "var(--faction-infested-text-color)",
+        "Faction": [
+          "Infested"
+        ],
+        "ColorBackground": "#D6DADA",
+        "Name": "Infested",
+        "InternalName": "RK_INFESTED_FACTION",
+        "Introduced": "36"
+      },
+      "name": "Infested"
+    }
+  ],
+  "Proto Shield": [
+    {
+      "1": "DamageTypes",
+      "2": "Proto Shield",
+      "3": "Proto Shield",
+      "_data": {
+        "Negatives": [
+          [
+            "Corrosive",
+            50
+          ],
+          [
+            "Heat",
+            50
+          ],
+          [
+            "Puncture",
+            50
+          ]
+        ],
+        "Type": "Shield",
+        "Link": "Proto Shield",
+        "Color": "#3C3E8F",
+        "Positives": [
+          [
+            "Magnetic",
+            75
+          ],
+          [
+            "Toxin",
+            25
+          ],
+          [
+            "Impact",
+            15
+          ]
+        ],
+        "DarkModeColor": "#9d9fd9",
+        "Nickname": "Proto",
+        "ColorBorder": "#4B4EB3",
+        "Name": "Proto Shield",
+        "Faction": [
+          "Corpus"
+        ],
+        "ColorBackground": "#C9CAE8",
+        "Introduced": "11",
+        "Bypass": [
+          "Toxin"
+        ],
+        "InternalName": "RK_HEAVY_SHIELD"
+      },
+      "name": "Proto Shield"
+    }
+  ],
+  "Sear": [
+    {
+      "1": "DamageTypes",
+      "2": "Sear",
+      "3": "Damage/Heat Damage#Railjack",
+      "color": "var(--dt-heat-text-color)",
+      "_data": {
+        "CSSBorderColorClass": "var(--dt-heat-border-color)",
+        "GlyphImage": "HeatModBundleIcon.png",
+        "Link": "Damage/Heat Damage#Railjack",
+        "Color": "#994d00",
+        "Status": [
+          "Fire DoT as Heat damage",
+          "Fire Hazard on Railjack",
+          "Railjack Armaments overheat faster and cool slower"
+        ],
+        "Name": "Sear",
+        "DarkModeColor": "#fb9733",
+        "CSSBackgroundColorClass": "var(--dt-heat-background-color)",
+        "ColorBorder": "#8d501c",
+        "CSSTextColorClass": "var(--dt-heat-text-color)",
+        "InternalName": "",
+        "ColorBackground": "#dfd0c3",
+        "StatusNotes": {},
+        "Icon": "DmgFireSmall64.png",
+        "IsRailjack": true
+      },
+      "name": "Sear",
+      "icon": "[[File:DmgFireSmall64.png|x32px|link=Damage/Heat Damage#Railjack|class=icon notpageimage]]"
+    }
+  ],
+  "Infested Sinew": [
+    {
+      "1": "DamageTypes",
+      "2": "Infested Sinew",
+      "3": "Infested Sinew",
+      "_data": {
+        "Negatives": [
+          [
+            "Blast",
+            50
+          ]
+        ],
+        "Type": "Armor",
+        "Link": "Infested Sinew",
+        "Color": "#74576F",
+        "Positives": [
+          [
+            "Radiation",
+            50
+          ],
+          [
+            "Cold",
+            25
+          ],
+          [
+            "Puncture",
+            25
+          ]
+        ],
+        "DarkModeColor": "#cea2c7",
+        "Nickname": "Sinew",
+        "ColorBorder": "#916D8B",
+        "Name": "Infested Sinew",
+        "Faction": [
+          "Infested"
+        ],
+        "ColorBackground": "#DED3DC",
+        "Introduced": "11",
+        "Bypass": [
+          "Cinematic",
+          "True"
+        ],
+        "InternalName": "RK_INFESTED_ARMOUR"
+      },
+      "name": "Infested Sinew"
+    }
+  ],
+  "Tenno Flesh": [
+    {
+      "1": "DamageTypes",
+      "2": "Tenno Flesh",
+      "3": "Tenno Flesh",
+      "_data": {
+        "Type": "Health",
+        "Link": "Tenno Flesh",
+        "Color": "#BC0F0F",
+        "DarkModeColor": "#c67676",
+        "Name": "Tenno Flesh",
+        "Faction": [
+          "Tenno"
+        ],
+        "ColorBackground": "#F9B8B8",
+        "InternalName": "RK_TENNO_FLESH",
+        "ColorBorder": "#EB1313"
+      },
+      "name": "Tenno Flesh"
+    }
+  ],
+  "Shield": [
+    {
+      "1": "DamageTypes",
+      "2": "Shield",
+      "3": "Shield (Health)",
+      "_data": {
+        "Negatives": [
+          [
+            "Puncture",
+            20
+          ]
+        ],
+        "Type": "Shield",
+        "Link": "Shield (Health)",
+        "Color": "#31469A",
+        "Positives": [
+          [
+            "Magnetic",
+            75
+          ],
+          [
+            "Cold",
+            50
+          ],
+          [
+            "Impact",
+            50
+          ]
+        ],
+        "DarkModeColor": "#a2aedf",
+        "ColorBorder": "#3E58C0",
+        "Name": "Shield",
+        "Faction": [
+          "Corpus"
+        ],
+        "ColorBackground": "#C5CDEC",
+        "Introduced": "11",
+        "Bypass": [
+          "Toxin"
+        ],
+        "InternalName": "RK_SHIELD"
+      },
+      "name": "Shield"
+    }
+  ],
+  "Robotic": [
+    {
+      "1": "DamageTypes",
+      "2": "Robotic",
+      "3": "Robotic (Health)",
+      "_data": {
+        "Negatives": [
+          [
+            "Toxin",
+            25
+          ],
+          [
+            "Slash",
+            25
+          ]
+        ],
+        "Type": "Health",
+        "Link": "Robotic (Health)",
+        "Color": "#4C5D7F",
+        "Positives": [
+          [
+            "Radiation",
+            25
+          ],
+          [
+            "Electricity",
+            50
+          ],
+          [
+            "Puncture",
+            25
+          ]
+        ],
+        "DarkModeColor": "#86afff",
+        "Name": "Robotic",
+        "Faction": [
+          "Corpus"
+        ],
+        "ColorBackground": "#CFD5E2",
+        "ColorBorder": "#5F749F",
+        "InternalName": "RK_ROBOTIC",
+        "Introduced": "11"
+      },
+      "name": "Robotic"
+    }
+  ],
+  "Weakened": [
+    {
+      "1": "DamageTypes",
+      "2": "Weakened",
+      "3": "Damage/Puncture Damage",
+      "color": "var(--dt-puncture-text-color)",
+      "_data": {
+        "GlyphImage": "EssentialPunctureGlyph.png",
+        "Link": "Damage/Puncture Damage",
+        "Color": "#5c5247",
+        "Status": [
+          "Target deals reduced damage"
+        ],
+        "DarkModeColor": "#c6b098",
+        "CSSBackgroundColorClass": "var(--dt-puncture-background-color)",
+        "Name": "Weakened",
+        "CSSTextColorClass": "var(--dt-puncture-text-color)",
+        "InternalName": "PT_FRAILTY",
+        "ColorBackground": "#d8d1ca",
+        "CSSBorderColorClass": "var(--dt-puncture-border-color)",
+        "Icon": "DmgPunctureSmall64.png",
+        "ColorBorder": "#615448"
+      },
+      "name": "Weakened",
+      "icon": "[[File:DmgPunctureSmall64.png|x32px|link=Damage/Puncture Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Cloned Flesh": [
+    {
+      "1": "DamageTypes",
+      "2": "Cloned Flesh",
+      "3": "Cloned Flesh",
+      "_data": {
+        "Negatives": [
+          [
+            "Gas",
+            50
+          ],
+          [
+            "Impact",
+            25
+          ]
+        ],
+        "Type": "Health",
+        "Link": "Cloned Flesh",
+        "Color": "#856146",
+        "Positives": [
+          [
+            "Viral",
+            75
+          ],
+          [
+            "Heat",
+            25
+          ],
+          [
+            "Slash",
+            25
+          ]
+        ],
+        "DarkModeColor": "#dfa376",
+        "ColorBorder": "#A77A57",
+        "Name": "Cloned Flesh",
+        "Faction": [
+          "Grineer"
+        ],
+        "ColorBackground": "#E4D7CC",
+        "Nickname": "Cloned",
+        "InternalName": "RK_CLONED_FLESH",
+        "Introduced": "11"
+      },
+      "name": "Cloned Flesh"
+    }
+  ],
+  "Virus": [
+    {
+      "1": "DamageTypes",
+      "2": "Virus",
+      "3": "Damage/Viral Damage",
+      "color": "var(--dt-viral-text-color)",
+      "_data": {
+        "GlyphImage": "EssentialViralGlyph.png",
+        "Link": "Damage/Viral Damage",
+        "Color": "#b71658",
+        "Status": [
+          "Increased damage against Health"
+        ],
+        "DarkModeColor": "#f093b9",
+        "CSSBackgroundColorClass": "var(--dt-viral-background-color)",
+        "Name": "Virus",
+        "CSSTextColorClass": "var(--dt-viral-text-color)",
+        "InternalName": "PT_INFECTED",
+        "ColorBackground": "#dfc3cf",
+        "CSSBorderColorClass": "var(--dt-viral-border-color)",
+        "Icon": "DmgViralSmall64.png",
+        "ColorBorder": "#8d1c4b"
+      },
+      "name": "Virus",
+      "icon": "[[File:DmgViralSmall64.png|x32px|link=Damage/Viral Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Slow": [
+    {
+      "1": "DamageTypes",
+      "2": "Slow",
+      "3": "Slow",
+      "color": "var(--dt-default-text-color)",
+      "_data": {
+        "Link": "Slow",
+        "Color": "#5d5d5d",
+        "DarkModeColor": "#d5d5d5",
+        "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+        "CSSTextColorClass": "var(--dt-default-text-color)",
+        "Name": "Slow",
+        "Status": [
+          "Slows the enemy"
+        ],
+        "InternalName": "PT_GLUE",
+        "Icon": "WebbedEmbraceIcon(xWhite).png",
+        "CSSBorderColorClass": "var(--dt-default-border-color)"
+      },
+      "name": "Slow",
+      "icon": "[[File:WebbedEmbraceIcon(xWhite).png|x32px|link=Slow|class=icon notpageimage]]"
+    }
+  ],
+  "True": [
+    {
+      "1": "DamageTypes",
+      "2": "True",
+      "3": "Damage/True Damage",
+      "color": "var(--dt-true-text-color)",
+      "_data": {
+        "GlyphImage": "EssentialTrueGlyph.png",
+        "Link": "Damage/True Damage",
+        "Color": "#664d00",
+        "Name": "True",
+        "InternalName": "DT_FINISHER",
+        "DarkModeColor": "#dda700",
+        "CSSBackgroundColorClass": "var(--dt-true-background-color)",
+        "Icon": "DmgTrueSmall64.png",
+        "BypassNotes": [
+          5
+        ],
+        "CSSTextColorClass": "var(--dt-true-text-color)",
+        "ColorBackground": "#ddd6c7",
+        "CSSBorderColorClass": "var(--dt-true-border-color)",
+        "Bypass": [
+          "Tenno Armor"
+        ],
+        "ColorBorder": "#d8a12b"
+      },
+      "name": "True",
+      "icon": "[[File:DmgTrueSmall64.png|x32px|link=Damage/True Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Intoxicate": [
+    {
+      "1": "DamageTypes",
+      "2": "Intoxicate",
+      "3": "Damage/Toxin Damage#Railjack",
+      "color": "var(--dt-toxin-text-color)",
+      "_data": {
+        "GlyphImage": "ToxinModBundleIcon.png",
+        "Link": "Damage/Toxin Damage#Railjack",
+        "Color": "#061",
+        "Status": [
+          "Change Faction of afflicted target",
+          "Enable friendly fire"
+        ],
+        "Name": "Intoxicate",
+        "DarkModeColor": "#0c2",
+        "CSSBackgroundColorClass": "var(--dt-toxin-background-color)",
+        "ColorBorder": "#1c8d30",
+        "CSSTextColorClass": "var(--dt-toxin-text-color)",
+        "InternalName": "",
+        "ColorBackground": "#c3dfc8",
+        "CSSBorderColorClass": "var(--dt-toxin-border-color)",
+        "Icon": "DmgToxinSmall64.png",
+        "IsRailjack": true
+      },
+      "name": "Intoxicate",
+      "icon": "[[File:DmgToxinSmall64.png|x32px|link=Damage/Toxin Damage#Railjack|class=icon notpageimage]]"
+    }
+  ],
+  "Infested Deimos": [
+    {
+      "1": "DamageTypes",
+      "2": "Infested Deimos",
+      "3": "Damage/Infested Deimos",
+      "color": "var(--faction-infested-deimos-text-color)",
+      "_data": {
+        "Negatives": [
+          [
+            "Viral",
+            50
+          ]
+        ],
+        "Type": "Health",
+        "Link": "Damage/Infested Deimos",
+        "Color": "#74576F",
+        "Positives": [
+          [
+            "Blast",
+            50
+          ],
+          [
+            "Gas",
+            50
+          ]
+        ],
+        "DarkModeColor": "#f093b9",
+        "ColorBorder": "#916D8B",
+        "CSSTextColorClass": "var(--faction-infested-deimos-text-color)",
+        "Faction": [
+          "Infested Deimos"
+        ],
+        "ColorBackground": "#DED3DC",
+        "Name": "Infested Deimos",
+        "InternalName": "RK_INFESTED_DEIMOS_FACTION",
+        "Introduced": "36"
+      },
+      "name": "Infested Deimos"
+    }
+  ],
+  "Slash": [
+    {
+      "1": "DamageTypes",
+      "2": "Slash",
+      "3": "Damage/Slash Damage",
+      "color": "var(--dt-slash-text-color)",
+      "_data": {
+        "Negatives": [
+          "Tenno Shield"
+        ],
+        "Status": [
+          "Bleed DoT"
+        ],
+        "GlyphImage": "EssentialSlashGlyph.png",
+        "Link": "Damage/Slash Damage",
+        "Color": "#7a5254",
+        "ProcInternalName": "PT_BLEEDING",
+        "Positives": [
+          "Infested",
+          "Narmer"
+        ],
+        "DarkModeColor": "#e69ca0",
+        "CSSBackgroundColorClass": "var(--dt-slash-background-color)",
+        "Name": "Slash",
+        "CSSTextColorClass": "var(--dt-slash-text-color)",
+        "InternalName": "DT_SLASH",
+        "ColorBackground": "#d8cacb",
+        "CSSBorderColorClass": "var(--dt-slash-border-color)",
+        "Icon": "DmgSlashSmall64.png",
+        "ColorBorder": "#614849"
+      },
+      "name": "Slash",
+      "icon": "[[File:DmgSlashSmall64.png|x32px|link=Damage/Slash Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Tenno Armor": [
+    {
+      "1": "DamageTypes",
+      "2": "Tenno Armor",
+      "3": "Tenno Armor",
+      "_data": {
+        "Type": "Armor",
+        "Link": "Tenno Armor",
+        "Color": "#6B6B60",
+        "DarkModeColor": "#c2c25e",
+        "Name": "Tenno Armor",
+        "Faction": [
+          "Tenno"
+        ],
+        "ColorBackground": "#DADAD6",
+        "ColorBorder": "#858579",
+        "InternalName": "RK_TENNO_ARMOR",
+        "Bypass": [
+          [
+            "Cinematic",
+            50
+          ],
+          [
+            "True",
+            50
+          ]
+        ]
+      },
+      "name": "Tenno Armor"
+    }
+  ],
+  "Stagger": [
+    {
+      "1": "DamageTypes",
+      "2": "Stagger",
+      "3": "Stagger",
+      "color": "var(--dt-default-text-color)",
+      "_data": {
+        "Link": "Stagger",
+        "Color": "#5d5d5d",
+        "DarkModeColor": "#d5d5d5",
+        "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+        "CSSTextColorClass": "var(--dt-default-text-color)",
+        "Name": "Stagger",
+        "Status": [
+          "Staggers the enemy, interrupting many actions"
+        ],
+        "InternalName": "PT_STAGGERED",
+        "Icon": "MeleeStagger_d.png",
+        "CSSBorderColorClass": "var(--dt-default-border-color)"
+      },
+      "name": "Stagger",
+      "icon": "[[File:MeleeStagger_d.png|x32px|link=Stagger|class=icon notpageimage]]"
+    }
+  ],
+  "Infested": [
+    {
+      "1": "DamageTypes",
+      "2": "Infested (Damage 2.0)",
+      "3": "Damage 2.0/Infested",
+      "_data": {
+        "Negatives": [
+          [
+            "Radiation",
+            50
+          ],
+          [
+            "Viral",
+            50
+          ]
+        ],
+        "Type": "Health",
+        "Link": "Damage 2.0/Infested",
+        "Color": "#606B6B",
+        "Positives": [
+          [
+            "Gas",
+            75
+          ],
+          [
+            "Heat",
+            25
+          ],
+          [
+            "Slash",
+            25
+          ]
+        ],
+        "DarkModeColor": "#9db9b9",
+        "Name": "Infested",
+        "Faction": [
+          "Infested"
+        ],
+        "ColorBackground": "#D6DADA",
+        "ColorBorder": "#798585",
+        "InternalName": "RK_INFESTED",
+        "Introduced": "11"
+      },
+      "name": "Infested"
+    },
+    {
+      "1": "DamageTypes",
+      "2": "Infested",
+      "3": "Damage/Infested",
+      "color": "var(--faction-infested-text-color)",
+      "_data": {
+        "Type": "Health",
+        "Link": "Damage/Infested",
+        "Color": "#606B6B",
+        "Positives": [
+          [
+            "Heat",
+            50
+          ],
+          [
+            "Slash",
+            50
+          ]
+        ],
+        "DarkModeColor": "#9db9b9",
+        "ColorBorder": "#798585",
+        "CSSTextColorClass": "var(--faction-infested-text-color)",
+        "Faction": [
+          "Infested"
+        ],
+        "ColorBackground": "#D6DADA",
+        "Name": "Infested",
+        "InternalName": "RK_INFESTED_FACTION",
+        "Introduced": "36"
+      },
+      "name": "Infested"
+    }
+  ],
+  "Knockdown": [
+    {
+      "1": "DamageTypes",
+      "2": "Knockdown",
+      "3": "Knockdown",
+      "color": "var(--dt-default-text-color)",
+      "_data": {
+        "Link": "Knockdown",
+        "Color": "#5d5d5d",
+        "DarkModeColor": "#d5d5d5",
+        "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+        "CSSTextColorClass": "var(--dt-default-text-color)",
+        "Name": "Knockdown",
+        "Status": [
+          "Knock down enemy, opening them up to ground finishers"
+        ],
+        "InternalName": "PT_KNOCKED_DOWN",
+        "Icon": "Knockdown_b.png",
+        "CSSBorderColorClass": "var(--dt-default-border-color)"
+      },
+      "name": "Knockdown",
+      "icon": "[[File:Knockdown_b.png|x32px|link=Knockdown|class=icon notpageimage]]"
+    }
+  ],
+  "Big Stagger": [
+    {
+      "1": "DamageTypes",
+      "2": "Big Stagger",
+      "3": "Stagger",
+      "color": "var(--dt-default-text-color)",
+      "_data": {
+        "Link": "Stagger",
+        "Color": "#5d5d5d",
+        "DarkModeColor": "#d5d5d5",
+        "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+        "CSSTextColorClass": "var(--dt-default-text-color)",
+        "Name": "Big Stagger",
+        "Status": [
+          "Longer stagger effect"
+        ],
+        "InternalName": "PT_BIG_STAGGER",
+        "Icon": "MeleeStagger_d.png",
+        "CSSBorderColorClass": "var(--dt-default-border-color)"
+      },
+      "name": "Big Stagger",
+      "icon": "[[File:MeleeStagger_d.png|x32px|link=Stagger|class=icon notpageimage]]"
+    }
+  ],
+  "Gas": [
+    {
+      "1": "DamageTypes",
+      "2": "Gas",
+      "3": "Damage/Gas Damage",
+      "color": "var(--dt-gas-text-color)",
+      "_data": {
+        "Negatives": [
+          "Tenno Shield",
+          "Scaldra"
+        ],
+        "GlyphImage": "EssentialGasGlyph.png",
+        "Color": "#063",
+        "DarkModeColor": "#0c6",
+        "CSSTextColorClass": "var(--dt-gas-text-color)",
+        "Status": [
+          "Gas Cloud DoT"
+        ],
+        "Icon": "DmgGasSmall64.png",
+        "Types": [
+          "Heat",
+          "Toxin"
+        ],
+        "Link": "Damage/Gas Damage",
+        "CSSBorderColorClass": "var(--dt-gas-border-color)",
+        "Positives": [
+          "Infested Deimos",
+          "Techrot"
+        ],
+        "CSSBackgroundColorClass": "var(--dt-gas-background-color)",
+        "Name": "Gas",
+        "ColorBackground": "#c3dfd2",
+        "ProcInternalName": "PT_ASPHYXIATION",
+        "InternalName": "DT_GAS",
+        "ColorBorder": "#1c8d5a"
+      },
+      "name": "Gas",
+      "icon": "[[File:DmgGasSmall64.png|x32px|link=Damage/Gas Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Grineer": [
+    {
+      "1": "DamageTypes",
+      "2": "Grineer",
+      "3": "Damage/Grineer",
+      "color": "var(--faction-grineer-text-color)",
+      "_data": {
+        "Type": "Health",
+        "Link": "Damage/Grineer",
+        "Color": "#666B60",
+        "Positives": [
+          [
+            "Corrosive",
+            50
+          ],
+          [
+            "Impact",
+            50
+          ]
+        ],
+        "DarkModeColor": "#9cbb76",
+        "ColorBorder": "#7F8579",
+        "CSSTextColorClass": "var(--faction-grineer-text-color)",
+        "Faction": [
+          "Grineer"
+        ],
+        "ColorBackground": "#D8DAD6",
+        "Name": "Grineer",
+        "InternalName": "RK_GRINEER_FACTION",
+        "Introduced": "36"
+      },
+      "name": "Grineer"
+    }
+  ],
+  "Sleep": [
+    {
+      "1": "DamageTypes",
+      "2": "Sleep",
+      "3": "Sleep",
+      "color": "var(--dt-default-text-color)",
+      "_data": {
+        "Link": "Sleep",
+        "Color": "#5d5d5d",
+        "DarkModeColor": "#d5d5d5",
+        "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+        "CSSTextColorClass": "var(--dt-default-text-color)",
+        "Name": "Sleep",
+        "Status": [
+          "Puts enemy to sleep, preserving their alert state and opening them to finishers"
+        ],
+        "InternalName": "PT_SLEEP",
+        "Icon": "RestRageIcon(xWhite).png",
+        "CSSBorderColorClass": "var(--dt-default-border-color)"
+      },
+      "name": "Sleep",
+      "icon": "[[File:RestRageIcon(xWhite).png|x32px|link=Sleep|class=icon notpageimage]]"
+    }
+  ],
+  "Ragdoll": [
+    {
+      "1": "DamageTypes",
+      "2": "Ragdoll",
+      "3": "Ragdoll",
+      "color": "var(--dt-default-text-color)",
+      "_data": {
+        "Link": "Ragdoll",
+        "Color": "#5d5d5d",
+        "DarkModeColor": "#d5d5d5",
+        "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+        "CSSTextColorClass": "var(--dt-default-text-color)",
+        "Name": "Ragdoll",
+        "Status": [
+          "Ragdolls the enemy"
+        ],
+        "InternalName": "PT_RAGDOLL",
+        "Icon": "Ragdoll b.png",
+        "CSSBorderColorClass": "var(--dt-default-border-color)"
+      },
+      "name": "Ragdoll",
+      "icon": "[[File:Ragdoll b.png|x32px|link=Ragdoll|class=icon notpageimage]]"
+    }
+  ],
+  "The Murmur": [
+    {
+      "1": "DamageTypes",
+      "2": "The Murmur",
+      "3": "Damage/The Murmur",
+      "color": "var(--faction-the-murmur-text-color)",
+      "_data": {
+        "Negatives": [
+          [
+            "Viral",
+            50
+          ]
+        ],
+        "Type": "Health",
+        "Link": "Damage/The Murmur",
+        "Color": "#636866",
+        "Positives": [
+          [
+            "Radiation",
+            50
+          ],
+          [
+            "Electricity",
+            50
+          ]
+        ],
+        "DarkModeColor": "#a7bfb6",
+        "ColorBorder": "#7C827F",
+        "CSSTextColorClass": "var(--faction-the-murmur-text-color)",
+        "Faction": [
+          "The Murmur"
+        ],
+        "ColorBackground": "#D7D9D8",
+        "Name": "The Murmur",
+        "InternalName": "RK_MITW_FACTION",
+        "Introduced": "35.5"
+      },
+      "name": "The Murmur"
+    }
+  ],
+  "Poison": [
+    {
+      "1": "DamageTypes",
+      "2": "Poison",
+      "3": "Damage/Toxin Damage",
+      "color": "var(--dt-toxin-text-color)",
+      "_data": {
+        "Status": [
+          "Poison DoT as Toxin damage"
+        ],
+        "GlyphImage": "ToxinModBundleIcon.png",
+        "Link": "Damage/Toxin Damage",
+        "Color": "#061",
+        "Name": "Poison",
+        "InternalName": "PT_POISONED",
+        "DarkModeColor": "#0c2",
+        "CSSBackgroundColorClass": "var(--dt-toxin-background-color)",
+        "Icon": "DmgToxinSmall64.png",
+        "BypassNotes": [
+          5
+        ],
+        "CSSTextColorClass": "var(--dt-toxin-text-color)",
+        "ColorBackground": "#c3dfc8",
+        "CSSBorderColorClass": "var(--dt-toxin-border-color)",
+        "Bypass": [
+          "Tenno Shield"
+        ],
+        "ColorBorder": "#1c8d30"
+      },
+      "name": "Poison",
+      "icon": "[[File:DmgToxinSmall64.png|x32px|link=Damage/Toxin Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Fossilized": [
+    {
+      "1": "DamageTypes",
+      "2": "Fossilized",
+      "3": "Fossilized",
+      "_data": {
+        "Negatives": [
+          [
+            "Radiation",
+            75
+          ],
+          [
+            "Toxin",
+            50
+          ],
+          [
+            "Cold",
+            25
+          ]
+        ],
+        "Type": "Health",
+        "Link": "Fossilized",
+        "Color": "#5D6E63",
+        "Positives": [
+          [
+            "Corrosive",
+            75
+          ],
+          [
+            "Blast",
+            50
+          ],
+          [
+            "Slash",
+            15
+          ]
+        ],
+        "DarkModeColor": "#96bda4",
+        "ColorBorder": "#75897C",
+        "Name": "Fossilized",
+        "Faction": [
+          "Infested"
+        ],
+        "ColorBackground": "#D5DBD7",
+        "Nickname": "Fossil",
+        "InternalName": "RK_FOSSILIZED",
+        "Introduced": "11"
+      },
+      "name": "Fossilized"
+    }
+  ],
+  "Stun": [
+    {
+      "1": "DamageTypes",
+      "2": "Stun",
+      "3": "Stagger",
+      "color": "var(--dt-default-text-color)",
+      "_data": {
+        "Link": "Stagger",
+        "Color": "#5d5d5d",
+        "DarkModeColor": "#d5d5d5",
+        "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+        "CSSTextColorClass": "var(--dt-default-text-color)",
+        "Name": "Stun",
+        "Status": [
+          "Stuns the enemy, interrupting many actions for a time"
+        ],
+        "InternalName": "PT_STUNNED",
+        "Icon": "StunIcon_b.png",
+        "CSSBorderColorClass": "var(--dt-default-border-color)"
+      },
+      "name": "Stun",
+      "icon": "[[File:StunIcon_b.png|x32px|link=Stagger|class=icon notpageimage]]"
+    }
+  ],
+  "Cold": [
+    {
+      "1": "DamageTypes",
+      "2": "Cold",
+      "3": "Damage/Cold Damage",
+      "color": "var(--dt-cold-text-color)",
+      "_data": {
+        "Negatives": [
+          "Tenno Shield",
+          "Techrot"
+        ],
+        "Status": [
+          "Slowdown",
+          "Crit Damage +"
+        ],
+        "GlyphImage": "ColdModBundleIcon.png",
+        "Link": "Damage/Cold Damage",
+        "Color": "#17658c",
+        "ProcInternalName": "PT_CHILLED",
+        "Positives": [
+          "Sentient"
+        ],
+        "DarkModeColor": "#5bbcec",
+        "CSSBackgroundColorClass": "var(--dt-cold-background-color)",
+        "Name": "Cold",
+        "CSSTextColorClass": "var(--dt-cold-text-color)",
+        "InternalName": "DT_FREEZE",
+        "ColorBackground": "#c3d5df",
+        "CSSBorderColorClass": "var(--dt-cold-border-color)",
+        "Icon": "DmgColdSmall64.png",
+        "ColorBorder": "#1c638d"
+      },
+      "name": "Cold",
+      "icon": "[[File:DmgColdSmall64.png|x32px|link=Damage/Cold Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Status Vulnerability": [
+    {
+      "1": "DamageTypes",
+      "2": "Status Vulnerability",
+      "3": "Damage/Tau Damage",
+      "color": "var(--dt-tau-text-color)",
+      "_data": {
+        "GlyphImage": "EssentialTauGlyph.png",
+        "Link": "Damage/Tau Damage",
+        "Color": "#b30000",
+        "Status": [
+          "Increased likelihood of Status procs on target"
+        ],
+        "DarkModeColor": "#f06666",
+        "CSSBackgroundColorClass": "var(--dt-tau-background-color)",
+        "Name": "Status Vulnerability",
+        "CSSTextColorClass": "var(--dt-tau-text-color)",
+        "InternalName": "PT_SENTIENT",
+        "ColorBackground": "#dfc3c4",
+        "CSSBorderColorClass": "var(--dt-tau-border-color)",
+        "Icon": "DmgTauSmall64.png",
+        "ColorBorder": "#8d1c1f"
+      },
+      "name": "Status Vulnerability",
+      "icon": "[[File:DmgTauSmall64.png|x32px|link=Damage/Tau Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Corrosive": [
+    {
+      "1": "DamageTypes",
+      "2": "Corrosive",
+      "3": "Damage/Corrosive Damage",
+      "color": "var(--dt-corrosive-text-color)",
+      "_data": {
+        "Negatives": [
+          "Sentient",
+          "Tenno Shield"
+        ],
+        "GlyphImage": "EssentialCorrosiveGlyph.png",
+        "Color": "#4d6600",
+        "DarkModeColor": "#93c203",
+        "CSSTextColorClass": "var(--dt-corrosive-text-color)",
+        "Status": [
+          "Armor Reduction"
+        ],
+        "Icon": "DmgCorrosiveSmall64.png",
+        "Types": [
+          "Electricity",
+          "Toxin"
+        ],
+        "Link": "Damage/Corrosive Damage",
+        "CSSBorderColorClass": "var(--dt-corrosive-border-color)",
+        "Positives": [
+          "Grineer",
+          "Kuva Grineer",
+          "Scaldra"
+        ],
+        "CSSBackgroundColorClass": "var(--dt-corrosive-background-color)",
+        "Name": "Corrosive",
+        "ColorBackground": "#d8dfc3",
+        "ProcInternalName": "PT_CAUSTIC_BURN",
+        "InternalName": "DT_CORROSIVE",
+        "ColorBorder": "#708d1c"
+      },
+      "name": "Corrosive",
+      "icon": "[[File:DmgCorrosiveSmall64.png|x32px|link=Damage/Corrosive Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Disarmed": [
+    {
+      "1": "DamageTypes",
+      "2": "Disarmed",
+      "3": "Disarm",
+      "color": "var(--dt-default-text-color)",
+      "_data": {
+        "Link": "Disarm",
+        "Color": "#5d5d5d",
+        "DarkModeColor": "#d5d5d5",
+        "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+        "CSSTextColorClass": "var(--dt-default-text-color)",
+        "Name": "Disarmed",
+        "Status": [
+          "Equipped weapon is disarmed"
+        ],
+        "InternalName": "PT_DISARMED",
+        "Icon": "RadialDisarm.png",
+        "CSSBorderColorClass": "var(--dt-default-border-color)"
+      },
+      "name": "Disarmed",
+      "icon": "[[File:RadialDisarm.png|x32px|link=Disarm|class=icon notpageimage]]"
+    }
+  ],
+  "Knockback": [
+    {
+      "1": "DamageTypes",
+      "2": "Knockback",
+      "3": "Damage/Impact Damage",
+      "color": "var(--dt-impact-text-color)",
+      "_data": {
+        "GlyphImage": "EssentialImpactGlyph.png",
+        "Link": "Damage/Impact Damage",
+        "Color": "#3d5e5e",
+        "CSSBorderColorClass": "var(--dt-impact-border-color)",
+        "Status": [
+          "Stagger",
+          "Increased health threshold for Mercy Kill"
+        ],
+        "DarkModeColor": "#80c4c4",
+        "CSSBackgroundColorClass": "var(--dt-impact-background-color)",
+        "Name": "Knockback",
+        "CSSTextColorClass": "var(--dt-impact-text-color)",
+        "InternalName": "PT_KNOCKBACK",
+        "ColorBackground": "#cad8d8",
+        "StatusNotes": [
+          1,
+          2
+        ],
+        "Icon": "DmgImpactSmall64.png",
+        "ColorBorder": "#486061"
+      },
+      "name": "Knockback",
+      "icon": "[[File:DmgImpactSmall64.png|x32px|link=Damage/Impact Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Sentient": [
+    {
+      "1": "DamageTypes",
+      "2": "Sentient",
+      "3": "Damage/Sentient",
+      "color": "var(--faction-sentient-text-color)",
+      "_data": {
+        "Negatives": [
+          [
+            "Corrosive",
+            50
+          ]
+        ],
+        "Type": "Health",
+        "Link": "Damage/Sentient",
+        "Color": "#856146",
+        "Positives": [
+          [
+            "Radiation",
+            50
+          ],
+          [
+            "Cold",
+            50
+          ]
+        ],
+        "DarkModeColor": "#d58e58",
+        "ColorBorder": "#A77A57",
+        "CSSTextColorClass": "var(--faction-sentient-text-color)",
+        "Faction": [
+          "Sentient"
+        ],
+        "ColorBackground": "#E4D7CC",
+        "Name": "Sentient",
+        "InternalName": "RK_SENTIENT_FACTION",
+        "Introduced": "36"
+      },
+      "name": "Sentient"
+    }
+  ],
+  "Impair": [
+    {
+      "1": "DamageTypes",
+      "2": "Impair",
+      "3": "Impair",
+      "color": "var(--dt-default-text-color)",
+      "_data": {
+        "Link": "Impair",
+        "Color": "#5d5d5d",
+        "DarkModeColor": "#d5d5d5",
+        "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+        "CSSTextColorClass": "var(--dt-default-text-color)",
+        "Name": "Impair",
+        "Status": [
+          "Disables jumping, bullet jump, and sprinting"
+        ],
+        "InternalName": "PT_ROOTS",
+        "Icon": "DmgImpairSmall64.png",
+        "CSSBorderColorClass": "var(--dt-default-border-color)"
+      },
+      "name": "Impair",
+      "icon": "[[File:DmgImpairSmall64.png|x32px|link=Impair|class=icon notpageimage]]"
+    }
+  ],
+  "Machinery": [
+    {
+      "1": "DamageTypes",
+      "2": "Machinery",
+      "3": "Machinery",
+      "_data": {
+        "Negatives": [
+          [
+            "Viral",
+            25
+          ],
+          [
+            "Toxin",
+            25
+          ]
+        ],
+        "Type": "Health",
+        "Link": "Machinery",
+        "Color": "#5F5B70",
+        "Positives": [
+          [
+            "Blast",
+            75
+          ],
+          [
+            "Electricity",
+            50
+          ],
+          [
+            "Impact",
+            25
+          ]
+        ],
+        "DarkModeColor": "#b3acd0",
+        "ColorBorder": "#77728C",
+        "Name": "Machinery",
+        "Faction": [
+          "Grineer"
+        ],
+        "ColorBackground": "#D6D4DC",
+        "Nickname": "Machine",
+        "InternalName": "RK_MACHINERY",
+        "Introduced": "11"
+      },
+      "name": "Machinery"
+    }
+  ],
+  "Detonate": [
+    {
+      "1": "DamageTypes",
+      "2": "Detonate",
+      "3": "Damage/Blast Damage",
+      "color": "var(--dt-blast-text-color)",
+      "_data": {
+        "Link": "Damage/Blast Damage",
+        "Color": "#b32a00",
+        "Status": [
+          "Mini explosion"
+        ],
+        "DarkModeColor": "#dd704e",
+        "CSSBackgroundColorClass": "var(--dt-blast-background-color)",
+        "Name": "Detonate",
+        "CSSTextColorClass": "var(--dt-blast-text-color)",
+        "InternalName": "",
+        "ColorBackground": "#dfcac3",
+        "CSSBorderColorClass": "var(--dt-blast-border-color)",
+        "Icon": "DmgBlastSmall64.png",
+        "ColorBorder": "#8d361c"
+      },
+      "name": "Detonate",
+      "icon": "[[File:DmgBlastSmall64.png|x32px|link=Damage/Blast Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Blast": [
+    {
+      "1": "DamageTypes",
+      "2": "Blast",
+      "3": "Damage/Blast Damage",
+      "color": "var(--dt-blast-text-color)",
+      "_data": {
+        "Negatives": [
+          "Corpus Amalgam",
+          "Tenno Shield"
+        ],
+        "GlyphImage": "EssentialBlastGlyph.png",
+        "Color": "#b32a00",
+        "DarkModeColor": "#dd704e",
+        "CSSTextColorClass": "var(--dt-blast-text-color)",
+        "Status": [
+          "Mini Explosion"
+        ],
+        "Icon": "DmgBlastSmall64.png",
+        "Types": [
+          "Heat",
+          "Cold"
+        ],
+        "Link": "Damage/Blast Damage",
+        "CSSBorderColorClass": "var(--dt-blast-border-color)",
+        "Positives": [
+          "Infested Deimos"
+        ],
+        "CSSBackgroundColorClass": "var(--dt-blast-background-color)",
+        "Name": "Blast",
+        "ColorBackground": "#dfcac3",
+        "ProcInternalName": "",
+        "InternalName": "DT_EXPLOSION",
+        "ColorBorder": "#8d361c"
+      },
+      "name": "Blast",
+      "icon": "[[File:DmgBlastSmall64.png|x32px|link=Damage/Blast Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Zariman": [
+    {
+      "1": "DamageTypes",
+      "2": "Zariman",
+      "3": "Damage/Zariman",
+      "color": "var(--faction-zariman-text-color)",
+      "_data": {
+        "Type": "Health",
+        "Link": "Damage/Zariman",
+        "Color": "#5B7067",
+        "Positives": [
+          [
+            "Void",
+            50
+          ]
+        ],
+        "DarkModeColor": "#97b7a9",
+        "ColorBorder": "#728C80",
+        "CSSTextColorClass": "var(--faction-zariman-text-color)",
+        "Faction": [
+          "Zariman"
+        ],
+        "ColorBackground": "#D4DCD9",
+        "Name": "Zariman",
+        "InternalName": "RK_ZARIMAN_FACTION",
+        "Introduced": "36"
+      },
+      "name": "Zariman"
+    }
+  ],
+  "Object": [
+    {
+      "1": "DamageTypes",
+      "2": "Object",
+      "3": "Damage/Object",
+      "color": "var(--faction-object-text-color)",
+      "_data": {
+        "Nickname": "Object",
+        "Type": "Health",
+        "Link": "Damage/Object",
+        "Color": "#666666",
+        "DarkModeColor": "#bbb",
+        "CSSTextColorClass": "var(--faction-object-text-color)",
+        "Faction": [
+          ""
+        ],
+        "ColorBackground": "#D8D8D8",
+        "ColorBorder": "#7F7F7F",
+        "InternalName": "RK_NEUTRAL",
+        "Name": "Object"
+      },
+      "name": "Object"
+    }
+  ],
+  "Silence": [
+    {
+      "1": "DamageTypes",
+      "2": "Silence",
+      "3": "Silence (Status Effect)",
+      "color": "var(--dt-default-text-color)",
+      "_data": {
+        "Link": "Silence (Status Effect)",
+        "Color": "#5d5d5d",
+        "DarkModeColor": "#d5d5d5",
+        "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+        "CSSTextColorClass": "var(--dt-default-text-color)",
+        "Name": "Silence",
+        "Status": [
+          "Deafens the enemy and disables most active abilities"
+        ],
+        "InternalName": "PT_SILENCED",
+        "Icon": "SilenceIcon(xWhite).png",
+        "CSSBorderColorClass": "var(--dt-default-border-color)"
+      },
+      "name": "Silence",
+      "icon": "[[File:SilenceIcon(xWhite).png|x32px|link=Silence (Status Effect)|class=icon notpageimage]]"
+    }
+  ],
+  "Void": [
+    {
+      "1": "DamageTypes",
+      "2": "Void",
+      "3": "Damage/Void Damage",
+      "color": "var(--dt-void-text-color)",
+      "_data": {
+        "Negatives": [
+          "Tenno Shield"
+        ],
+        "Status": [
+          "Bullet Attract"
+        ],
+        "GlyphImage": "EssentialVoidGlyph.png",
+        "Link": "Damage/Void Damage",
+        "Color": "#085e50",
+        "ProcInternalName": "PT_RADIANT",
+        "Positives": [
+          "Overguard",
+          "Zariman"
+        ],
+        "DarkModeColor": "#15c8ab",
+        "CSSBackgroundColorClass": "var(--dt-void-background-color)",
+        "Name": "Void",
+        "CSSTextColorClass": "var(--dt-void-text-color)",
+        "InternalName": "DT_RADIANT",
+        "ColorBackground": "#c3dfd9",
+        "CSSBorderColorClass": "var(--dt-void-border-color)",
+        "Icon": "DmgVoidSmall64.png",
+        "ColorBorder": "#1c8d76"
+      },
+      "name": "Void",
+      "icon": "[[File:DmgVoidSmall64.png|x32px|link=Damage/Void Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Disrupt": [
+    {
+      "1": "DamageTypes",
+      "2": "Disrupt",
+      "3": "Damage/Magnetic Damage",
+      "color": "var(--dt-magnetic-text-color)",
+      "_data": {
+        "GlyphImage": "EssentialMagneticGlyph.png",
+        "Link": "Damage/Magnetic Damage",
+        "Color": "#4747d1",
+        "Status": [
+          "Additional damage against Shields and Overguard",
+          "Delays natural shield regeneration",
+          "Electricity DoT on Shield/Overguard break"
+        ],
+        "DarkModeColor": "#9797e6",
+        "CSSBackgroundColorClass": "var(--dt-magnetic-background-color)",
+        "Name": "Disrupt",
+        "CSSTextColorClass": "var(--dt-magnetic-text-color)",
+        "InternalName": "PT_MAGNETIZED",
+        "ColorBackground": "#c4c3df",
+        "CSSBorderColorClass": "var(--dt-magnetic-border-color)",
+        "Icon": "DmgMagneticSmall64.png",
+        "ColorBorder": "#201c8d"
+      },
+      "name": "Disrupt",
+      "icon": "[[File:DmgMagneticSmall64.png|x32px|link=Damage/Magnetic Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Shield Drain": [
+    {
+      "1": "DamageTypes",
+      "2": "Shield Drain",
+      "3": "Damage/Shield Drain",
+      "color": "var(--dt-default-text-color)",
+      "_data": {
+        "Link": "Damage/Shield Drain",
+        "Color": "#5d5d5d",
+        "Positives": {},
+        "DarkModeColor": "#d5d5d5",
+        "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+        "CSSTextColorClass": "var(--dt-default-text-color)",
+        "Negative": {},
+        "Name": "Shield Drain",
+        "InternalName": "DT_SHIELD_DRAIN",
+        "Icon": "IconShield.png",
+        "CSSBorderColorClass": "var(--dt-default-border-color)"
+      },
+      "name": "Shield Drain",
+      "icon": "[[File:IconShield.png|x32px|link=Damage/Shield Drain|class=icon notpageimage]]"
+    }
+  ],
+  "Confusion": [
+    {
+      "1": "DamageTypes",
+      "2": "Confusion",
+      "3": "Damage/Radiation Damage",
+      "color": "var(--dt-radiation-text-color)",
+      "_data": {
+        "GlyphImage": "EssentialRadiationGlyph.png",
+        "Link": "Damage/Radiation Damage",
+        "Color": "#806000",
+        "CSSBorderColorClass": "var(--dt-radiation-border-color)",
+        "Status": [
+          "Friendly fire"
+        ],
+        "DarkModeColor": "#dda600",
+        "CSSBackgroundColorClass": "var(--dt-radiation-background-color)",
+        "Name": "Confusion",
+        "CSSTextColorClass": "var(--dt-radiation-text-color)",
+        "InternalName": "PT_RAD_TOX",
+        "ColorBackground": "#dfd8c3",
+        "StatusNotes": [
+          1
+        ],
+        "Icon": "DmgRadiationSmall64.png",
+        "ColorBorder": "#8d701c"
+      },
+      "name": "Confusion",
+      "icon": "[[File:DmgRadiationSmall64.png|x32px|link=Damage/Radiation Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Scramble": [
+    {
+      "1": "DamageTypes",
+      "2": "Scramble",
+      "3": "Damage/Electricity Damage#Railjack",
+      "color": "var(--dt-electricity-text-color)",
+      "_data": {
+        "CSSBorderColorClass": "var(--dt-electricity-border-color)",
+        "GlyphImage": "ElectricModBundleIcon.png",
+        "Link": "Damage/Electricity Damage#Railjack",
+        "Color": "#610fb3",
+        "Status": [
+          "Disable enemy weaponry",
+          "Spiral enemy ship out of control",
+          "Electricity Hazard on Railjack",
+          "Scrambles minimap",
+          "Disable Tactical Menu"
+        ],
+        "Name": "Scramble",
+        "DarkModeColor": "#c4a2e6",
+        "CSSBackgroundColorClass": "var(--dt-electricity-background-color)",
+        "ColorBorder": "#561c8d",
+        "CSSTextColorClass": "var(--dt-electricity-text-color)",
+        "InternalName": "",
+        "ColorBackground": "#d2c3df",
+        "StatusNotes": {},
+        "Icon": "DmgElectricitySmall64.png",
+        "IsRailjack": true
+      },
+      "name": "Scramble",
+      "icon": "[[File:DmgElectricitySmall64.png|x32px|link=Damage/Electricity Damage#Railjack|class=icon notpageimage]]"
+    }
+  ],
+  "Radiation": [
+    {
+      "1": "DamageTypes",
+      "2": "Radiation",
+      "3": "Damage/Radiation Damage",
+      "color": "var(--dt-radiation-text-color)",
+      "_data": {
+        "Negatives": [
+          "Orokin",
+          "Tenno Shield",
+          "Anarchs"
+        ],
+        "GlyphImage": "EssentialRadiationGlyph.png",
+        "Color": "#806000",
+        "DarkModeColor": "#ceac49",
+        "CSSTextColorClass": "var(--dt-radiation-text-color)",
+        "Status": [
+          "Friendly Fire"
+        ],
+        "StatusNotes": [
+          1
+        ],
+        "Icon": "DmgRadiationSmall64.png",
+        "Types": [
+          "Heat",
+          "Electricity"
+        ],
+        "Link": "Damage/Radiation Damage",
+        "CSSBorderColorClass": "var(--dt-radiation-border-color)",
+        "Positives": [
+          "Sentient",
+          "The Murmur"
+        ],
+        "CSSBackgroundColorClass": "var(--dt-radiation-background-color)",
+        "Name": "Radiation",
+        "ColorBackground": "#dfd8c3",
+        "ProcInternalName": "PT_RAD_TOX",
+        "InternalName": "DT_RADIATION",
+        "ColorBorder": "#8d701c"
+      },
+      "name": "Radiation",
+      "icon": "[[File:DmgRadiationSmall64.png|x32px|link=Damage/Radiation Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Bullet Attractor": [
+    {
+      "1": "DamageTypes",
+      "2": "Bullet Attractor",
+      "3": "Damage/Void Damage",
+      "color": "var(--dt-void-text-color)",
+      "_data": {
+        "GlyphImage": "EssentialVoidGlyph.png",
+        "Link": "Damage/Void Damage",
+        "Color": "#085e50",
+        "Status": [
+          "Spawn a bullet attraction field on target"
+        ],
+        "DarkModeColor": "#15c8ab",
+        "CSSBackgroundColorClass": "var(--dt-void-background-color)",
+        "Name": "Bullet Attractor",
+        "CSSTextColorClass": "var(--dt-void-text-color)",
+        "InternalName": "PT_RADIANT",
+        "ColorBackground": "#c3dfd9",
+        "CSSBorderColorClass": "var(--dt-void-border-color)",
+        "Icon": "DmgVoidSmall64.png",
+        "ColorBorder": "#1c8d76"
+      },
+      "name": "Bullet Attractor",
+      "icon": "[[File:DmgVoidSmall64.png|x32px|link=Damage/Void Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Decompress": [
+    {
+      "1": "DamageTypes",
+      "2": "Decompress",
+      "3": "Damage/Puncture Damage#Railjack",
+      "color": "var(--dt-puncture-text-color)",
+      "_data": {
+        "GlyphImage": "EssentialPunctureGlyph.png",
+        "Link": "Damage/Puncture Damage#Railjack",
+        "Color": "#5c5247",
+        "Status": [
+          "Reduce target ship's Shields and Armor"
+        ],
+        "Name": "Decompress",
+        "DarkModeColor": "#c6b098",
+        "CSSBackgroundColorClass": "var(--dt-puncture-background-color)",
+        "ColorBorder": "#615448",
+        "CSSTextColorClass": "var(--dt-puncture-text-color)",
+        "InternalName": "",
+        "ColorBackground": "#d8d1ca",
+        "CSSBorderColorClass": "var(--dt-puncture-border-color)",
+        "Icon": "DmgPunctureSmall64.png",
+        "IsRailjack": true
+      },
+      "name": "Decompress",
+      "icon": "[[File:DmgPunctureSmall64.png|x32px|link=Damage/Puncture Damage#Railjack|class=icon notpageimage]]"
+    }
+  ],
+  "Tear": [
+    {
+      "1": "DamageTypes",
+      "2": "Tear",
+      "3": "Damage/Slash Damage#Railjack",
+      "color": "var(--dt-slash-text-color)",
+      "_data": {
+        "GlyphImage": "EssentialSlashGlyph.png",
+        "Link": "Damage/Slash Damage#Railjack",
+        "Color": "#7a5254",
+        "Status": [
+          "Increase damage vulnerability on target"
+        ],
+        "Name": "Tear",
+        "DarkModeColor": "#e69ca0",
+        "CSSBackgroundColorClass": "var(--dt-slash-background-color)",
+        "ColorBorder": "#614849",
+        "CSSTextColorClass": "var(--dt-slash-text-color)",
+        "InternalName": "",
+        "ColorBackground": "#d8cacb",
+        "CSSBorderColorClass": "var(--dt-slash-border-color)",
+        "Icon": "DmgSlashSmall64.png",
+        "IsRailjack": true
+      },
+      "name": "Tear",
+      "icon": "[[File:DmgSlashSmall64.png|x32px|link=Damage/Slash Damage#Railjack|class=icon notpageimage]]"
+    }
+  ],
+  "Gas Cloud": [
+    {
+      "1": "DamageTypes",
+      "2": "Gas Cloud",
+      "3": "Damage/Gas Damage",
+      "color": "var(--dt-gas-text-color)",
+      "_data": {
+        "GlyphImage": "EssentialGasGlyph.png",
+        "Link": "Damage/Gas Damage",
+        "Color": "#063",
+        "Status": [
+          "Gas Cloud that deals DoT as Gas damage"
+        ],
+        "DarkModeColor": "#0c6",
+        "CSSBackgroundColorClass": "var(--dt-gas-background-color)",
+        "Name": "Gas Cloud",
+        "CSSTextColorClass": "var(--dt-gas-text-color)",
+        "InternalName": "PT_ASPHYXIATION",
+        "ColorBackground": "#c3dfd2",
+        "CSSBorderColorClass": "var(--dt-gas-border-color)",
+        "Icon": "DmgGasSmall64.png",
+        "ColorBorder": "#1c8d5a"
+      },
+      "name": "Gas Cloud",
+      "icon": "[[File:DmgGasSmall64.png|x32px|link=Damage/Gas Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Cinematic": [
+    {
+      "1": "DamageTypes",
+      "2": "Cinematic",
+      "3": "Damage/Cinematic Damage",
+      "color": "var(--dt-default-text-color)",
+      "_data": {
+        "Link": "Damage/Cinematic Damage",
+        "Color": "#5d5d5d",
+        "Positives": {},
+        "DarkModeColor": "#d5d5d5",
+        "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+        "Negative": {},
+        "CSSTextColorClass": "var(--dt-default-text-color)",
+        "Name": "Cinematic",
+        "InternalName": "DT_CINEMATIC",
+        "Icon": "UnidentifiedItem.png",
+        "Bypass": [
+          "Tenno Armor"
+        ],
+        "CSSBorderColorClass": "var(--dt-default-border-color)"
+      },
+      "name": "Cinematic",
+      "icon": "[[File:UnidentifiedItem.png|x32px|link=Damage/Cinematic Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Ferrite Armor": [
+    {
+      "1": "DamageTypes",
+      "2": "Ferrite Armor",
+      "3": "Ferrite Armor",
+      "_data": {
+        "Negatives": [
+          [
+            "Blast",
+            25
+          ],
+          [
+            "Slash",
+            15
+          ]
+        ],
+        "Type": "Armor",
+        "Link": "Ferrite Armor",
+        "Color": "#6B6660",
+        "Positives": [
+          [
+            "Corrosive",
+            75
+          ],
+          [
+            "Puncture",
+            50
+          ]
+        ],
+        "DarkModeColor": "#ceaa7f",
+        "Nickname": "Ferrite",
+        "ColorBorder": "#857F79",
+        "Name": "Ferrite Armor",
+        "Faction": [
+          "Grineer"
+        ],
+        "ColorBackground": "#DAD8D6",
+        "Introduced": "11",
+        "Bypass": [
+          "Cinematic",
+          "True"
+        ],
+        "InternalName": "RK_ARMOR"
+      },
+      "name": "Ferrite Armor"
+    }
+  ],
+  "Immobilize": [
+    {
+      "1": "DamageTypes",
+      "2": "Immobilize",
+      "3": "Damage/Cold Damage#Railjack",
+      "color": "var(--dt-cold-text-color)",
+      "_data": {
+        "GlyphImage": "ColdModBundleIcon.png",
+        "Link": "Damage/Cold Damage#Railjack",
+        "Color": "#17658c",
+        "Status": [
+          "Disable ship weaponry",
+          "Slow ship movement to complete stop",
+          "Ice Hazard on Railjack",
+          "Disables interactive elements in Railjack"
+        ],
+        "Name": "Immobilize",
+        "DarkModeColor": "#5bbcec",
+        "CSSBackgroundColorClass": "var(--dt-cold-background-color)",
+        "ColorBorder": "#1c638d",
+        "CSSTextColorClass": "var(--dt-cold-text-color)",
+        "InternalName": "",
+        "ColorBackground": "#c3d5df",
+        "CSSBorderColorClass": "var(--dt-cold-border-color)",
+        "Icon": "DmgColdSmall64.png",
+        "IsRailjack": true
+      },
+      "name": "Immobilize",
+      "icon": "[[File:DmgColdSmall64.png|x32px|link=Damage/Cold Damage#Railjack|class=icon notpageimage]]"
+    }
+  ],
+  "Bleed": [
+    {
+      "1": "DamageTypes",
+      "2": "Bleed",
+      "3": "Damage/Slash Damage",
+      "color": "var(--dt-slash-text-color)",
+      "_data": {
+        "GlyphImage": "EssentialSlashGlyph.png",
+        "Link": "Damage/Slash Damage",
+        "Color": "#7a5254",
+        "Status": [
+          "Bleed DoT as True damage"
+        ],
+        "DarkModeColor": "#e69ca0",
+        "CSSBackgroundColorClass": "var(--dt-slash-background-color)",
+        "Name": "Bleed",
+        "CSSTextColorClass": "var(--dt-slash-text-color)",
+        "InternalName": "PT_BLEEDING",
+        "ColorBackground": "#d8cacb",
+        "CSSBorderColorClass": "var(--dt-slash-border-color)",
+        "Icon": "DmgSlashSmall64.png",
+        "ColorBorder": "#614849"
+      },
+      "name": "Bleed",
+      "icon": "[[File:DmgSlashSmall64.png|x32px|link=Damage/Slash Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Blind": [
+    {
+      "1": "DamageTypes",
+      "2": "Blind",
+      "3": "Blind",
+      "color": "var(--dt-default-text-color)",
+      "_data": {
+        "Link": "Blind",
+        "Color": "#5d5d5d",
+        "DarkModeColor": "#d5d5d5",
+        "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+        "CSSTextColorClass": "var(--dt-default-text-color)",
+        "Status": [
+          "Enemy is in a blinded state, opening them up to front/back finishers"
+        ],
+        "Name": "Blind",
+        "Icon": "RadialBlindIcon(xWhite).png",
+        "CSSBorderColorClass": "var(--dt-default-border-color)"
+      },
+      "name": "Blind",
+      "icon": "[[File:RadialBlindIcon(xWhite).png|x32px|link=Blind|class=icon notpageimage]]"
+    }
+  ],
+  "Indifferent Facade": [
+    {
+      "1": "DamageTypes",
+      "2": "Indifferent Facade",
+      "3": "Indifferent Facade",
+      "_data": {
+        "Negatives": [
+          [
+            "Viral",
+            50
+          ],
+          [
+            "Slash",
+            50
+          ]
+        ],
+        "Type": "Health",
+        "Link": "Indifferent Facade",
+        "Color": "#636866",
+        "Positives": [
+          [
+            "Radiation",
+            75
+          ],
+          [
+            "Void",
+            25
+          ],
+          [
+            "Electricity",
+            25
+          ],
+          [
+            "Puncture",
+            25
+          ]
+        ],
+        "ColorBorder": "#7C827F",
+        "Name": "Indifferent Facade",
+        "Faction": [
+          "The Murmur"
+        ],
+        "ColorBackground": "#D7D9D8",
+        "Nickname": "Facade",
+        "InternalName": "",
+        "Introduced": "35.5"
+      },
+      "name": "Indifferent Facade"
+    }
+  ],
+  "Tesla Chain": [
+    {
+      "1": "DamageTypes",
+      "2": "Tesla Chain",
+      "3": "Damage/Electricity Damage",
+      "color": "var(--dt-electricity-text-color)",
+      "_data": {
+        "GlyphImage": "ElectricModBundleIcon.png",
+        "Link": "Damage/Electricity Damage",
+        "Color": "#610fb3",
+        "CSSBorderColorClass": "var(--dt-electricity-border-color)",
+        "Status": [
+          "Tesla Chain",
+          "Stun",
+          "Electric DoT as Electricity damage"
+        ],
+        "DarkModeColor": "#c4a2e6",
+        "CSSBackgroundColorClass": "var(--dt-electricity-background-color)",
+        "Name": "Tesla Chain",
+        "CSSTextColorClass": "var(--dt-electricity-text-color)",
+        "InternalName": "PT_ELECTROCUTION",
+        "ColorBackground": "#d2c3df",
+        "StatusNotes": [
+          1,
+          2
+        ],
+        "Icon": "DmgElectricitySmall64.png",
+        "ColorBorder": "#561c8d"
+      },
+      "name": "Tesla Chain",
+      "icon": "[[File:DmgElectricitySmall64.png|x32px|link=Damage/Electricity Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Lifted": [
+    {
+      "1": "DamageTypes",
+      "2": "Lifted",
+      "3": "Lifted",
+      "color": "var(--dt-default-text-color)",
+      "_data": {
+        "Link": "Lifted",
+        "Color": "#5d5d5d",
+        "DarkModeColor": "#d5d5d5",
+        "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+        "CSSTextColorClass": "var(--dt-default-text-color)",
+        "Name": "Lifted",
+        "Status": [
+          "Immobilized in mid-air"
+        ],
+        "InternalName": "PT_LIFT_HIT",
+        "Icon": "Lifted_b.png",
+        "CSSBorderColorClass": "var(--dt-default-border-color)"
+      },
+      "name": "Lifted",
+      "icon": "[[File:Lifted_b.png|x32px|link=Lifted|class=icon notpageimage]]"
+    }
+  ],
+  "Scaldra": [
+    {
+      "1": "DamageTypes",
+      "2": "Scaldra",
+      "3": "Damage/Scaldra",
+      "color": "var(--faction-scaldra-text-color)",
+      "_data": {
+        "Negatives": [
+          [
+            "Gas",
+            50
+          ]
+        ],
+        "Type": "Health",
+        "Link": "Damage/Scaldra",
+        "Color": "#517A68",
+        "Positives": [
+          [
+            "Corrosive",
+            50
+          ],
+          [
+            "Impact",
+            50
+          ]
+        ],
+        "DarkModeColor": "#81c4a7",
+        "ColorBorder": "#669982",
+        "CSSTextColorClass": "var(--faction-scaldra-text-color)",
+        "Faction": [
+          "Scaldra"
+        ],
+        "ColorBackground": "#D1E0D9",
+        "Name": "Scaldra",
+        "InternalName": "RK_LASRIA_FACTION",
+        "Introduced": "38"
+      },
+      "name": "Scaldra"
+    }
+  ],
+  "Infested Flesh": [
+    {
+      "1": "DamageTypes",
+      "2": "Infested Flesh",
+      "3": "Infested Flesh",
+      "_data": {
+        "Negatives": [
+          [
+            "Cold",
+            50
+          ]
+        ],
+        "Type": "Health",
+        "Link": "Infested Flesh",
+        "Color": "#696B60",
+        "Positives": [
+          [
+            "Gas",
+            50
+          ],
+          [
+            "Heat",
+            50
+          ],
+          [
+            "Slash",
+            50
+          ]
+        ],
+        "DarkModeColor": "#afb39c",
+        "ColorBorder": "#838579",
+        "Name": "Infested Flesh",
+        "Faction": [
+          "Infested"
+        ],
+        "ColorBackground": "#DADAD6",
+        "Nickname": "I. Flesh",
+        "InternalName": "RK_INFESTED_FLESH",
+        "Introduced": "11"
+      },
+      "name": "Infested Flesh"
+    }
+  ],
+  "Alloy Armor": [
+    {
+      "1": "DamageTypes",
+      "2": "Alloy Armor",
+      "3": "Alloy Armor",
+      "_data": {
+        "Negatives": [
+          [
+            "Electricity",
+            50
+          ],
+          [
+            "Magnetic",
+            50
+          ]
+        ],
+        "Type": "Armor",
+        "Link": "Alloy Armor",
+        "Color": "#666B60",
+        "Positives": [
+          [
+            "Radiation",
+            75
+          ],
+          [
+            "Cold",
+            25
+          ],
+          [
+            "Puncture",
+            15
+          ]
+        ],
+        "DarkModeColor": "#a2b788",
+        "Nickname": "Alloy",
+        "ColorBorder": "#7F8579",
+        "Name": "Alloy Armor",
+        "Faction": [
+          "Grineer"
+        ],
+        "ColorBackground": "#D8DAD6",
+        "Introduced": "11",
+        "Bypass": [
+          "Cinematic",
+          "True"
+        ],
+        "InternalName": "RK_HULKING_ARMOR"
+      },
+      "name": "Alloy Armor"
+    }
+  ],
+  "Overguard": [
+    {
+      "1": "DamageTypes",
+      "2": "Overguard",
+      "3": "Overguard",
+      "color": "var(--faction-overguard-text-color)",
+      "_data": {
+        "Type": "Health",
+        "Link": "Overguard",
+        "Color": "#31469A",
+        "ColorBackground": "#C5CDEC",
+        "Positives": [
+          [
+            "Void",
+            50
+          ]
+        ],
+        "DarkModeColor": "#c6cadb",
+        "ColorBorder": "#3E58C0",
+        "Name": "Overguard",
+        "CSSTextColorClass": "var(--faction-overguard-text-color)",
+        "Faction": [
+          "Grineer",
+          "Corpus",
+          "Infested",
+          "The Murmur"
+        ],
+        "Status": [
+          "Prevents status effects and damage spillover to Shields and Health",
+          "Enemy crowd control immunity"
+        ],
+        "Introduced": "31.5",
+        "Icon": "Overguard.png",
+        "InternalName": ""
+      },
+      "name": "Overguard",
+      "icon": "[[File:Overguard.png|x32px|link=Overguard|class=icon notpageimage]]"
+    }
+  ],
+  "Corpus": [
+    {
+      "1": "DamageTypes",
+      "2": "Corpus",
+      "3": "Damage/Corpus",
+      "color": "var(--faction-corpus-text-color)",
+      "_data": {
+        "Type": "Health",
+        "Link": "Damage/Corpus",
+        "Color": "#425089",
+        "Positives": [
+          [
+            "Puncture",
+            50
+          ],
+          [
+            "Magnetic",
+            50
+          ]
+        ],
+        "DarkModeColor": "#6f87e8",
+        "ColorBorder": "#5264AC",
+        "CSSTextColorClass": "var(--faction-corpus-text-color)",
+        "Faction": [
+          "Corpus"
+        ],
+        "ColorBackground": "#CBD0E6",
+        "Name": "Corpus",
+        "InternalName": "RK_CORPUS_FACTION",
+        "Introduced": "36"
+      },
+      "name": "Corpus"
+    }
+  ],
+  "Narmer": [
+    {
+      "1": "DamageTypes",
+      "2": "Narmer",
+      "3": "Damage/Narmer",
+      "color": "var(--faction-narmer-text-color)",
+      "_data": {
+        "Negatives": [
+          [
+            "Magnetic",
+            50
+          ]
+        ],
+        "Type": "Health",
+        "Link": "Damage/Narmer",
+        "Color": "#847047",
+        "Positives": [
+          [
+            "Slash",
+            50
+          ],
+          [
+            "Toxin",
+            50
+          ]
+        ],
+        "DarkModeColor": "#d3a954",
+        "ColorBorder": "#A58C59",
+        "CSSTextColorClass": "var(--faction-narmer-text-color)",
+        "Faction": [
+          "Narmer"
+        ],
+        "ColorBackground": "#E4DCCD",
+        "Name": "Narmer",
+        "InternalName": "RK_NARMER_FACTION",
+        "Introduced": "36"
+      },
+      "name": "Narmer"
+    }
+  ],
+  "Parried": [
+    {
+      "1": "DamageTypes",
+      "2": "Parried",
+      "3": "Parry",
+      "color": "var(--dt-default-text-color)",
+      "_data": {
+        "Link": "Parry",
+        "Color": "#5d5d5d",
+        "DarkModeColor": "#d5d5d5",
+        "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+        "CSSTextColorClass": "var(--dt-default-text-color)",
+        "Name": "Parried",
+        "Status": [
+          "Opens enemy up to a counter-finisher"
+        ],
+        "InternalName": "PT_PARRIED",
+        "Icon": "UnidentifiedItem.png",
+        "CSSBorderColorClass": "var(--dt-default-border-color)"
+      },
+      "name": "Parried",
+      "icon": "[[File:UnidentifiedItem.png|x32px|link=Parry|class=icon notpageimage]]"
+    }
+  ],
+  "Orokin": [
+    {
+      "1": "DamageTypes",
+      "2": "Orokin",
+      "3": "Damage/Orokin",
+      "color": "var(--faction-orokin-text-color)",
+      "_data": {
+        "Negatives": [
+          [
+            "Radiation",
+            50
+          ]
+        ],
+        "Type": "Health",
+        "Link": "Damage/Orokin",
+        "Color": "#847F47",
+        "Positives": [
+          [
+            "Puncture",
+            50
+          ],
+          [
+            "Viral",
+            50
+          ]
+        ],
+        "DarkModeColor": "#d5c94b",
+        "ColorBorder": "#A59F59",
+        "CSSTextColorClass": "var(--faction-orokin-text-color)",
+        "Faction": [
+          "Orokin"
+        ],
+        "ColorBackground": "#E4E2CD",
+        "Name": "Orokin",
+        "InternalName": "RK_OROKIN_FACTION",
+        "Introduced": "36"
+      },
+      "name": "Orokin"
+    }
+  ],
+  "Corpus Amalgam": [
+    {
+      "1": "DamageTypes",
+      "2": "Corpus Amalgam",
+      "3": "Damage/Corpus Amalgam",
+      "color": "var(--faction-corpus-amalgam-text-color)",
+      "_data": {
+        "Negatives": [
+          [
+            "Blast",
+            50
+          ]
+        ],
+        "Type": "Health",
+        "Link": "Damage/Corpus Amalgam",
+        "Color": "#4C4E7F",
+        "Positives": [
+          [
+            "Magnetic",
+            50
+          ],
+          [
+            "Electricity",
+            50
+          ]
+        ],
+        "DarkModeColor": "#8c90ec",
+        "ColorBorder": "#5F619F",
+        "CSSTextColorClass": "var(--faction-corpus-amalgam-text-color)",
+        "Faction": [
+          "Corpus Amalgam"
+        ],
+        "ColorBackground": "#CFCFE2",
+        "Name": "Corpus Amalgam",
+        "InternalName": "RK_CORPUS_AMALGAM_FACTION",
+        "Introduced": "36"
+      },
+      "name": "Corpus Amalgam"
+    }
+  ],
+  "Toxin": [
+    {
+      "1": "DamageTypes",
+      "2": "Toxin",
+      "3": "Damage/Toxin Damage",
+      "color": "var(--dt-toxin-text-color)",
+      "_data": {
+        "Negatives": [
+          "Tenno Shield"
+        ],
+        "GlyphImage": "ToxinModBundleIcon.png",
+        "Color": "#061",
+        "DarkModeColor": "#0c2",
+        "CSSTextColorClass": "var(--dt-toxin-text-color)",
+        "Status": [
+          "Poison DoT"
+        ],
+        "Bypass": [
+          "Tenno Shield"
+        ],
+        "Link": "Damage/Toxin Damage",
+        "CSSBorderColorClass": "var(--dt-toxin-border-color)",
+        "Positives": [
+          "Narmer"
+        ],
+        "CSSBackgroundColorClass": "var(--dt-toxin-background-color)",
+        "ProcInternalName": "PT_POISONED",
+        "BypassNotes": [
+          5
+        ],
+        "Name": "Toxin",
+        "ColorBackground": "#c3dfc8",
+        "InternalName": "DT_POISON",
+        "Icon": "DmgToxinSmall64.png",
+        "ColorBorder": "#1c8d30"
+      },
+      "name": "Toxin",
+      "icon": "[[File:DmgToxinSmall64.png|x32px|link=Damage/Toxin Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Energy Drain": [
+    {
+      "1": "DamageTypes",
+      "2": "Energy Drain",
+      "3": "Damage/Energy Drain",
+      "color": "var(--dt-default-text-color)",
+      "_data": {
+        "Link": "Damage/Energy Drain",
+        "Color": "#5d5d5d",
+        "DarkModeColor": "#d5d5d5",
+        "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+        "CSSTextColorClass": "var(--dt-default-text-color)",
+        "Name": "Energy Drain",
+        "InternalName": "DT_ENERGY_DRAIN",
+        "Icon": "DisrupterAncientDE.png",
+        "CSSBorderColorClass": "var(--dt-default-border-color)"
+      },
+      "name": "Energy Drain",
+      "icon": "[[File:DisrupterAncientDE.png|x32px|link=Damage/Energy Drain|class=icon notpageimage]]"
+    }
+  ],
+  "Magnetic": [
+    {
+      "1": "DamageTypes",
+      "2": "Magnetic",
+      "3": "Damage/Magnetic Damage",
+      "color": "var(--dt-magnetic-text-color)",
+      "_data": {
+        "Negatives": [
+          "Narmer",
+          "Tenno Shield"
+        ],
+        "GlyphImage": "EssentialMagneticGlyph.png",
+        "Color": "#4747d1",
+        "DarkModeColor": "#9797e6",
+        "CSSTextColorClass": "var(--dt-magnetic-text-color)",
+        "Status": [
+          "Additional Shield and Overguard Damage",
+          "Electricity DoT on Shield/Overguard break"
+        ],
+        "Icon": "DmgMagneticSmall64.png",
+        "Types": [
+          "Cold",
+          "Electricity"
+        ],
+        "Link": "Damage/Magnetic Damage",
+        "CSSBorderColorClass": "var(--dt-magnetic-border-color)",
+        "Positives": [
+          "Corpus",
+          "Corpus Amalgam",
+          "Techrot"
+        ],
+        "CSSBackgroundColorClass": "var(--dt-magnetic-background-color)",
+        "Name": "Magnetic",
+        "ColorBackground": "#c4c3df",
+        "ProcInternalName": "PT_MAGNETIZED",
+        "InternalName": "DT_MAGNETIC",
+        "ColorBorder": "#201c8d"
+      },
+      "name": "Magnetic",
+      "icon": "[[File:DmgMagneticSmall64.png|x32px|link=Damage/Magnetic Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Heat": [
+    {
+      "1": "DamageTypes",
+      "2": "Heat",
+      "3": "Damage/Heat Damage",
+      "color": "var(--dt-heat-text-color)",
+      "_data": {
+        "Negatives": [
+          "Kuva Grineer",
+          "Tenno Shield"
+        ],
+        "GlyphImage": "HeatModBundleIcon.png",
+        "Color": "#994d00",
+        "DarkModeColor": "#fb9733",
+        "CSSTextColorClass": "var(--dt-heat-text-color)",
+        "Status": [
+          "Ignite DoT",
+          "Panic",
+          "Armor Reduction"
+        ],
+        "StatusNotes": [
+          1,
+          2,
+          3
+        ],
+        "Icon": "DmgFireSmall64.png",
+        "Link": "Damage/Heat Damage",
+        "CSSBorderColorClass": "var(--dt-heat-border-color)",
+        "Positives": [
+          "Infested"
+        ],
+        "CSSBackgroundColorClass": "var(--dt-heat-background-color)",
+        "Name": "Heat",
+        "ColorBackground": "#dfd0c3",
+        "ProcInternalName": "PT_IMMOLATION",
+        "InternalName": "DT_FIRE",
+        "ColorBorder": "#8d501c"
+      },
+      "name": "Heat",
+      "icon": "[[File:DmgFireSmall64.png|x32px|link=Damage/Heat Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Ignite": [
+    {
+      "1": "DamageTypes",
+      "2": "Ignite",
+      "3": "Damage/Heat Damage",
+      "color": "var(--dt-heat-text-color)",
+      "_data": {
+        "GlyphImage": "HeatModBundleIcon.png",
+        "Link": "Damage/Heat Damage",
+        "Color": "#994d00",
+        "CSSBorderColorClass": "var(--dt-heat-border-color)",
+        "Status": [
+          "Fire DoT as Heat damage",
+          "Panic",
+          "Armor reduction"
+        ],
+        "DarkModeColor": "#fb9733",
+        "CSSBackgroundColorClass": "var(--dt-heat-background-color)",
+        "Name": "Ignite",
+        "CSSTextColorClass": "var(--dt-heat-text-color)",
+        "InternalName": "PT_IMMOLATION",
+        "ColorBackground": "#dfd0c3",
+        "StatusNotes": [
+          1,
+          2,
+          3
+        ],
+        "Icon": "DmgFireSmall64.png",
+        "ColorBorder": "#8d501c"
+      },
+      "name": "Ignite",
+      "icon": "[[File:DmgFireSmall64.png|x32px|link=Damage/Heat Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Flesh": [
+    {
+      "1": "DamageTypes",
+      "2": "Flesh",
+      "3": "Flesh",
+      "_data": {
+        "Negatives": [
+          [
+            "Gas",
+            25
+          ],
+          [
+            "Impact",
+            25
+          ]
+        ],
+        "Type": "Health",
+        "Link": "Flesh",
+        "Color": "#855446",
+        "Positives": [
+          [
+            "Viral",
+            50
+          ],
+          [
+            "Toxin",
+            50
+          ],
+          [
+            "Slash",
+            25
+          ]
+        ],
+        "DarkModeColor": "#ff987a",
+        "Name": "Flesh",
+        "Faction": [
+          "Corpus"
+        ],
+        "ColorBackground": "#E4D2CC",
+        "ColorBorder": "#A76957",
+        "InternalName": "RK_FLESH",
+        "Introduced": "11"
+      },
+      "name": "Flesh"
+    }
+  ],
+  "Viral": [
+    {
+      "1": "DamageTypes",
+      "2": "Viral",
+      "3": "Damage/Viral Damage",
+      "color": "var(--dt-viral-text-color)",
+      "_data": {
+        "Negatives": [
+          "Infested Deimos",
+          "Tenno Shield",
+          "The Murmur"
+        ],
+        "GlyphImage": "EssentialViralGlyph.png",
+        "Color": "#b71658",
+        "DarkModeColor": "#f093b9",
+        "CSSTextColorClass": "var(--dt-viral-text-color)",
+        "Status": [
+          "Increased Health Damage"
+        ],
+        "Icon": "DmgViralSmall64.png",
+        "Types": [
+          "Cold",
+          "Toxin"
+        ],
+        "Link": "Damage/Viral Damage",
+        "CSSBorderColorClass": "var(--dt-viral-border-color)",
+        "Positives": [
+          "Orokin"
+        ],
+        "CSSBackgroundColorClass": "var(--dt-viral-background-color)",
+        "Name": "Viral",
+        "ColorBackground": "#dfc3cf",
+        "ProcInternalName": "PT_INFECTED",
+        "InternalName": "DT_VIRAL",
+        "ColorBorder": "#8d1c4b"
+      },
+      "name": "Viral",
+      "icon": "[[File:DmgViralSmall64.png|x32px|link=Damage/Viral Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Tau": [
+    {
+      "1": "DamageTypes",
+      "2": "Tau",
+      "3": "Damage/Tau Damage",
+      "color": "var(--dt-tau-text-color)",
+      "_data": {
+        "Negatives": [
+          "Tenno Shield"
+        ],
+        "GlyphImage": "EssentialTauGlyph.png",
+        "Link": "Damage/Tau Damage",
+        "Color": "#b30000",
+        "Status": [
+          "Status Vulnerability"
+        ],
+        "DarkModeColor": "#f06666",
+        "CSSBackgroundColorClass": "var(--dt-tau-background-color)",
+        "Name": "Tau",
+        "CSSTextColorClass": "var(--dt-tau-text-color)",
+        "InternalName": "PT_SENTIENT",
+        "ColorBackground": "#dfc3c4",
+        "CSSBorderColorClass": "var(--dt-tau-border-color)",
+        "Icon": "DmgTauSmall64.png",
+        "ColorBorder": "#8d1c1f"
+      },
+      "name": "Tau",
+      "icon": "[[File:DmgTauSmall64.png|x32px|link=Damage/Tau Damage|class=icon notpageimage]]"
+    }
+  ],
+  "Electricity": [
+    {
+      "1": "DamageTypes",
+      "2": "Electricity",
+      "3": "Damage/Electricity Damage",
+      "color": "var(--dt-electricity-text-color)",
+      "_data": {
+        "Negatives": [
+          "Tenno Shield"
+        ],
+        "GlyphImage": "ElectricModBundleIcon.png",
+        "Color": "#610fb3",
+        "DarkModeColor": "#b37fe7",
+        "CSSTextColorClass": "var(--dt-electricity-text-color)",
+        "Status": [
+          "Tesla Chain DoT",
+          "Stun"
+        ],
+        "StatusNotes": [
+          1,
+          2
+        ],
+        "Icon": "DmgElectricitySmall64.png",
+        "Link": "Damage/Electricity Damage",
+        "CSSBorderColorClass": "var(--dt-electricity-border-color)",
+        "Positives": [
+          "Corpus Amalgam",
+          "The Murmur",
+          "Anarchs"
+        ],
+        "CSSBackgroundColorClass": "var(--dt-electricity-background-color)",
+        "Name": "Electricity",
+        "ColorBackground": "#d2c3df",
+        "ProcInternalName": "PT_ELECTROCUTION",
+        "InternalName": "DT_ELECTRICITY",
+        "ColorBorder": "#561c8d"
+      },
+      "name": "Electricity",
+      "icon": "[[File:DmgElectricitySmall64.png|x32px|link=Damage/Electricity Damage|class=icon notpageimage]]"
+    }
+  ]
+}

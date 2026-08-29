@@ -1,0 +1,1569 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Conservation/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:31:45.965Z"
+  },
+  "_comments": "",
+  "Animals": {
+    "Common Avichaea": {
+      "Origin": "Cambion Drift",
+      "Call": "AvichaeaPlayerLureCall.ogg",
+      "Codex": "A prehistoric bird-like creature that often congregates in small groups.",
+      "Intro": "A common Avichaea subspecies.",
+      "Introduced": "29.0",
+      "Armor": 50,
+      "MinWeight": 1.2,
+      "FullImg": "CommonAvichaea.png",
+      "Rarity": "Common",
+      "TranqsNeeded": 1,
+      "Standing": 0,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 0,
+        "Month": 11
+      },
+      "MaxWeight": 5.1,
+      "Health": 1,
+      "CodexScans": 20,
+      "Family": "Avichaea",
+      "MaxAge": {
+        "Year": 1,
+        "Month": 3
+      },
+      "Image": "CommonAvichaea.png",
+      "Reward": ""
+    },
+    "Ghost Kuaka": {
+      "Origin": "Plains of Eidolon",
+      "Call": "ForestRodentPlayerLureCall.ogg",
+      "Codex": "A timid rodent that is easily frightened.",
+      "Intro": "Kuaka notably appear in groups of three.",
+      "Introduced": "22.0",
+      "Armor": 50,
+      "MinWeight": 0,
+      "FullImg": "KuakaRare.png",
+      "Notes": "A very rare Kuaka subspecies. Named for their rarity and preponderance for disappearing, and almost never visit the surface.",
+      "Rarity": "Rare",
+      "TranqsNeeded": 1,
+      "Standing": 600,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "MaxWeight": 0,
+      "Health": 1,
+      "CodexScans": 20,
+      "Family": "Kuaka",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "Image": "KuakaRare.png",
+      "Reward": "Ostron Standing"
+    },
+    "Bau Vasca Kavat": {
+      "Origin": "Plains of Eidolon",
+      "Call": "KavatVascaPlayerLureCall.ogg",
+      "Codex": "The Vasca strain is a symbiotic blood-borne virus transmitted via the saliva of infected kavats. Existing solely to propagate itself the virus makes the host increasingly dependent upon the ingestion of blood, thereby spreading itself further and faster through the population. Vasca-infected kavats, over time, lose all sense of themselves becoming increasingly cunning, violent and ravenous.",
+      "Intro": "Vasca Kavats only appear during nighttime in the Plains of Eidolon. <br><br>When roaming, Vasca Kavats will appear in groups of three, but when called from a calling point only one will spawn.",
+      "Introduced": "26.0",
+      "Armor": 175,
+      "MinWeight": 0,
+      "FullImg": "VascaKavatUncommon.png",
+      "Notes": "A rare Vasca Kavat subspecies.",
+      "Rarity": "Uncommon",
+      "TranqsNeeded": 1,
+      "Standing": 500,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "MaxWeight": 0,
+      "Health": 300,
+      "CodexScans": 20,
+      "Family": "Vasca Kavat",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "Image": "VascaKavatUncommon.png",
+      "Reward": "Ostron Standing"
+    },
+    "White Velocipod": {
+      "Origin": "Cambion Drift",
+      "Call": "VelocipodCall.ogg",
+      "Codex": "The fastest variety of Velocipod, it tends to favor the swamplands.",
+      "Intro": "Found in the ''Swamp'', meaning in the center of [[Cambion Drift]]",
+      "Introduced": "29.0",
+      "Armor": 125,
+      "MinWeight": 0,
+      "FullImg": "WhiteVelocipodK-DriveSkin.png",
+      "Notes": "A very rare, white Velocipod subspecies.<br>White Velocipods appear to spawn more likely north of Infested Seraglio.",
+      "Rarity": "Rare",
+      "TranqsNeeded": 1,
+      "Standing": 0,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 0,
+        "Month": 11
+      },
+      "MaxWeight": 0,
+      "Health": 300,
+      "CodexScans": 20,
+      "Family": "Velocipod",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 11
+      },
+      "Image": "WhiteVelocipodK-DriveSkin.png",
+      "Reward": ""
+    },
+    "Viridian Nexifera": {
+      "Origin": "Cambion Drift",
+      "Call": "NexiferaPlayerLureCall.ogg",
+      "Codex": "The Viridian Nexifera can produce a cloud of poisonous gas that's always best avoided.",
+      "Intro": "Nexifera can't be lured out via the normal Track and Tranq process.<br>They only spawn naturally in big caves near the Catabolic Gutter hanging from the ceiling.<br>Their hard lower exterior block all Tranq-Shots.<br>Additionally, They are 75% resistant to all Warframe abilities. Meaning all Duration gets quartered. Their resistance can accumulate, causing consecutive use of the same ability to have even less duration, eventually becoming outright immune.",
+      "Introduced": "29.5",
+      "Armor": 50,
+      "MinWeight": 0.28,
+      "FullImg": "ViridianNexifera.png",
+      "Notes": "Nexifera spawn yellow-green goo below themselves. If anything steps on it they dive down and deal damage with the resulting shockwave.",
+      "Rarity": "Uncommon",
+      "TranqsNeeded": 1,
+      "Standing": 0,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 0,
+        "Month": 10
+      },
+      "MaxWeight": 0.35,
+      "Health": 1000,
+      "CodexScans": 20,
+      "Family": "Nexifera",
+      "MaxAge": {
+        "Year": 1,
+        "Month": 3
+      },
+      "Image": "ViridianNexifera.png",
+      "Reward": ""
+    },
+    "Septic Cryptilex": {
+      "Origin": "Cambion Drift",
+      "Call": "CryptilexPlayerLureCall.ogg",
+      "Codex": "This infectious insect is capable of hazardous viral attacks when alerted.",
+      "MaxAge": {
+        "Year": 1,
+        "Month": 3
+      },
+      "Introduced": "29.0",
+      "Armor": 50,
+      "MinWeight": 0.02,
+      "FullImg": "SepticCryptilex.png",
+      "Notes": "A rare Cryptilex Subspecies. Its attacks deal and can proc {{D|Viral}}.",
+      "Rarity": "Uncommon",
+      "TranqsNeeded": 1,
+      "Standing": 0,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 0,
+        "Month": 9
+      },
+      "Health": 1,
+      "CodexScans": 20,
+      "Family": "Cryptilex",
+      "MaxWeight": 0.09,
+      "Image": "SepticCryptilex.png",
+      "Reward": ""
+    },
+    "Vallis Kubrodon": {
+      "Origin": "Orb Vallis",
+      "Call": "KubrodonCall.ogg",
+      "Codex": "The apex predator of the Venusian plains. These massively framed beasts travel in groups and mark the territory surrounding Orokin cooling towers as their own. Kubrodons are a danger best avoided.",
+      "Intro": "True to its status as the apex predator, the Kubrodon's more acute sense of smell allows them to locate their pursuers, and will use a ramming attack to make good their escape. Must be shot twice with the Tranq Rifle to be brought down. <br><br>Additionally, Kubrodons are 75% resistant to all Warframe abilities. For example, when using {{WF|Ivara}}’s [[Quiver|Sleep Arrow]] to put a Kubrodon to sleep, the [[Ability Duration]] will be a quarter (1/4) of its full duration (Ivara’s Sleep Arrow with Maximized Ability Duration: 30.6 seconds ÷ 4 = 7.65 seconds). Their resistance can accumulate, causing consecutive use of the same ability to have even less duration, eventually becoming outright immune.<br><br>Despite being mentioned to travel in groups, only one Kubrodon will respond to the lure's call.",
+      "Introduced": "24.0",
+      "Armor": 50,
+      "MinWeight": 0,
+      "FullImg": "KubrodonUncommon.png",
+      "Notes": "A rare Kubdrodon subspecies. Unimaginatively named due to not being found anywhere outside Orb Vallis.",
+      "Rarity": "Uncommon",
+      "TranqsNeeded": 2,
+      "Standing": 2000,
+      "Faction": "Neutral",
+      "MinAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "MaxWeight": 0,
+      "Health": 1000,
+      "CodexScans": 20,
+      "Family": "Kubrodon",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "Image": "KubrodonUncommon.png",
+      "Reward": "Solaris United Standing"
+    },
+    "Burrowing Cryptilex": {
+      "Origin": "Cambion Drift",
+      "Call": "CryptilexPlayerLureCall.ogg",
+      "Codex": "The most abundant variety of Cryptilex, this aggressive insect will slash anything it deems a threat.",
+      "MaxAge": {
+        "Year": 1,
+        "Month": 3
+      },
+      "Introduced": "29.0",
+      "Armor": 50,
+      "MinWeight": 0.02,
+      "FullImg": "BurrowingCryptilex.png",
+      "Notes": "A common Cryptilex subspecies.",
+      "Rarity": "Common",
+      "TranqsNeeded": 1,
+      "Standing": 0,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 0,
+        "Month": 10
+      },
+      "Health": 1,
+      "CodexScans": 20,
+      "Family": "Cryptilex",
+      "MaxWeight": 0.09,
+      "Image": "BurrowingCryptilex.png",
+      "Reward": ""
+    },
+    "Dusky-Headed Virmink": {
+      "Origin": "Orb Vallis",
+      "Call": "VirminkCall.ogg",
+      "Codex": "Sleek and silky, the adorable appearance of the Venusian Virmink belies its aggressive demeanor. Favoring rocky landscapes Virmink packs nose the air, scenting for Pobbers - their primary food source.",
+      "MaxAge": {
+        "Year": 7,
+        "Month": 4
+      },
+      "Introduced": "24.0",
+      "Armor": 50,
+      "MinWeight": 9.3,
+      "FullImg": "VirminkUncommon.png",
+      "Notes": "A rare Virmink subspecies. Their pelts are favored by the [[Corpus]].",
+      "Rarity": "Uncommon",
+      "TranqsNeeded": 1,
+      "Standing": 400,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 0,
+        "Month": 2
+      },
+      "Health": 6,
+      "CodexScans": 20,
+      "Family": "Virmink",
+      "MaxWeight": 19,
+      "Image": "VirminkUncommon.png",
+      "Reward": "Solaris United Standing"
+    },
+    "Ostia Vasca Kavat": {
+      "Origin": "Plains of Eidolon",
+      "Call": "KavatVascaPlayerLureCall.ogg",
+      "Codex": "The Vasca strain is a symbiotic blood-borne virus transmitted via the saliva of infected kavats. Existing solely to propagate itself the virus makes the host increasingly dependent upon the ingestion of blood, thereby spreading itself further and faster through the population. Vasca-infected kavats, over time, lose all sense of themselves becoming increasingly cunning, violent and ravenous.",
+      "Intro": "Vasca Kavats only appear during nighttime in the Plains of Eidolon. <br><br>When roaming, Vasca Kavats will appear in groups of three, but when called from a calling point only one will spawn.",
+      "Introduced": "26.0",
+      "Armor": 175,
+      "MinWeight": 0,
+      "FullImg": "VascaKavatCommon.png",
+      "Notes": "A common Vasca Kavat subspecies.",
+      "Rarity": "Common",
+      "TranqsNeeded": 1,
+      "Standing": 250,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "MaxWeight": 0,
+      "Health": 300,
+      "CodexScans": 20,
+      "Family": "Vasca Kavat",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "Image": "VascaKavatCommon.png",
+      "Reward": "Ostron Standing"
+    },
+    "Ashen Kuaka": {
+      "Origin": "Plains of Eidolon",
+      "Call": "ForestRodentPlayerLureCall.ogg",
+      "Codex": "A timid rodent that is easily frightened.",
+      "Intro": "Kuaka notably appear in groups of three.",
+      "Introduced": "22.0",
+      "Armor": 50,
+      "MinWeight": 0,
+      "FullImg": "KuakaUncommon.png",
+      "Notes": "A rare Kuaka subspecies. They dislike light and have adapted to living underground.",
+      "Rarity": "Uncommon",
+      "TranqsNeeded": 1,
+      "Standing": 300,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "MaxWeight": 0,
+      "Health": 1,
+      "CodexScans": 20,
+      "Family": "Kuaka",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "Image": "KuakaUncommon.png",
+      "Reward": "Ostron Standing"
+    },
+    "Delicate Pobber": {
+      "Origin": "Orb Vallis",
+      "Call": "PobberCall.ogg",
+      "Codex": "Native to the fungal forests of Venus, the Pobber is a skittish rodent possessed of an objectionable odor. Always found in groups they flee at the slightest hint of trouble. They are a primary food source of [[Virmink]] and [[Sawgaw]].",
+      "Intro": "Pobbers notably appear in groups of three.",
+      "Introduced": "24.0",
+      "Armor": 50,
+      "MinWeight": 0.02,
+      "FullImg": "PobberUncommon.png",
+      "Notes": "A rare Pobber subspecies. Due to being directly descended from domesticated pets, Delicate Pobbers are weaker and, incidentally, not encountered as much as other pobbers. They also lack their species signature repulsive smell, making them potentially good pets.",
+      "Rarity": "Uncommon",
+      "TranqsNeeded": 1,
+      "Standing": 300,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 0,
+        "Month": 3
+      },
+      "MaxWeight": 0.07,
+      "Health": 2,
+      "CodexScans": 20,
+      "Family": "Pobber",
+      "MaxAge": {
+        "Year": 1,
+        "Month": 10
+      },
+      "Image": "PobberUncommon.png",
+      "Reward": "Solaris United Standing"
+    },
+    "Rogue Condroc": {
+      "Origin": "Plains of Eidolon",
+      "Call": "BirdOfPreyPlayerLureCall.ogg",
+      "Codex": "A carrion-eater and opportunistic bird-of-prey. Condrocs gather, feed upon carrion, and occasionally, hunt in groups known as 'committees'. Several committees will be led by an Emperor.",
+      "Intro": "When roaming, Condrocs will appear in groups of two or three and are already stationed on the ground, but when called from a calling point only one will spawn. <br><br>Condrocs are a flying species, making them difficult to capture until they land at the calling point.",
+      "Introduced": "22.0",
+      "Armor": 50,
+      "MinWeight": 0,
+      "FullImg": "CondrocUncommon.png",
+      "Notes": "A rare Condroc subspecies. Prefers to hunt alone.",
+      "Rarity": "Uncommon",
+      "TranqsNeeded": 1,
+      "Standing": 600,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "MaxWeight": 0,
+      "Health": 6,
+      "CodexScans": 20,
+      "Family": "Condroc",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "Image": "CondrocUncommon.png",
+      "Reward": "Ostron Standing"
+    },
+    "Horrasque Stormer": {
+      "Origin": "Orb Vallis",
+      "Call": "HorrasqueCall.ogg",
+      "Codex": "This hideous creature is terrible to behold but will not attack unless provoked. When it does, its roar will shake the bowels of even the most steadfast tracker.",
+      "Intro": "Between the starting point and the calling point, a trail of {{D|Toxin}} damaging scat will line next to their footprints. <br><br>Horrasques will crawl underground, periodically exposing their heads. If they reach the calling point they will surface and expose their whole body, making perfect captures much easier. Must be shot '''two times''' with the Tranq Rifle to be brought down.",
+      "Introduced": "24.2",
+      "Armor": 50,
+      "MinWeight": 0,
+      "FullImg": "HorrasqueRare.png",
+      "Notes": "A very rare Horrasque subspecies. Hunted to near extinction due to the insulating properties of their hide.",
+      "Rarity": "Rare",
+      "TranqsNeeded": 2,
+      "Standing": 1800,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "MaxWeight": 0,
+      "Health": 22,
+      "CodexScans": 20,
+      "Family": "Horrasque",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "Image": "HorrasqueRare.png",
+      "Reward": "Solaris United Standing"
+    },
+    "Green Velocipod": {
+      "Origin": "Cambion Drift",
+      "Call": "VelocipodCall.ogg",
+      "Codex": "This large arthropod is generally found flying around Deimos' several grottos.",
+      "Intro": "Found in the ''Swamp'', meaning in the center of [[Cambion Drift]]",
+      "Introduced": "29.0",
+      "Armor": 125,
+      "MinWeight": 0.01,
+      "FullImg": "GreenVelocipodK-DriveSkin.png",
+      "Notes": "A common, green Velocipod subspecies.<br>Green Velocipods appear to spawn more likely in the south-west.",
+      "Rarity": "Uncommon",
+      "TranqsNeeded": 1,
+      "Standing": 0,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 0,
+        "Month": 10
+      },
+      "MaxWeight": 0.01,
+      "Health": 300,
+      "CodexScans": 20,
+      "Family": "Velocipod",
+      "MaxAge": {
+        "Year": 1,
+        "Month": 1
+      },
+      "Image": "GreenVelocipodK-DriveSkin.png",
+      "Reward": ""
+    },
+    "Fuming Dax Stover": {
+      "Origin": "Orb Vallis",
+      "Call": "StoverCall.ogg",
+      "Codex": "The Stover is a kind of proto-Kubrow that resurrected when Venus thawed. When grouped in a pack, Stovers are relentless opponents.",
+      "Intro": "Stovers make their appearances within caves, whose narrow passageways make confrontation almost unavoidable. Instead of immediately fleeing, they will viciously attack their pursuers. Must be shot '''Two times''' with the Tranq Rifle to be brought down.",
+      "Introduced": "24.2",
+      "Armor": 50,
+      "MinWeight": 0,
+      "FullImg": "StoverUncommon.png",
+      "Notes": "A rare Stover subspecies. Often intimidates any other Stovers due to bossy behavior.",
+      "Rarity": "Uncommon",
+      "TranqsNeeded": 2,
+      "Standing": 1600,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "MaxWeight": 0,
+      "Health": 200,
+      "CodexScans": 20,
+      "Family": "Stover",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "Image": "StoverUncommon.png",
+      "Reward": "Solaris United Standing"
+    },
+    "Woodland Mergoo": {
+      "Origin": "Plains of Eidolon",
+      "Call": "OstronSeaBirdPlayerLureCall.ogg",
+      "Codex": "An avian of ridiculous appearance found along coastal regions and around large bodies of water. Mergoo circle and squawk at the sight of marine predators. Many an Ostron fisher owes their lives to these odd little birds. Killing one is considered very bad luck.",
+      "Intro": "Like Condrocs, Mergoo are a flying species, making them difficult to capture until they land at the calling point.",
+      "Introduced": "24.6",
+      "Armor": 50,
+      "MinWeight": 0,
+      "FullImg": "MergooUncommon.png",
+      "Notes": "A rare Mergoo subspecies. Their plumage makes them difficult for hunters to spot them among foliage.",
+      "Rarity": "Uncommon",
+      "TranqsNeeded": 1,
+      "Standing": 1200,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "MaxWeight": 0,
+      "Health": 1,
+      "CodexScans": 20,
+      "Family": "Mergoo",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "Image": "MergooUncommon.png",
+      "Reward": "Ostron Standing"
+    },
+    "Frogmouthed Sawgaw": {
+      "Origin": "Orb Vallis",
+      "Call": "SawgawCall.ogg",
+      "Codex": "Soar Gore' as the Solaris call it, this crimson-faced bird of prey circles and stalks the cliffs and fungal groves of Venus, searching for rodent prey.",
+      "Intro": "Sawgaws are a flying species, making them difficult to capture until they land somewhere. They usually prefer to perch on top of the giant mushrooms. ",
+      "Introduced": "24.2",
+      "Armor": 50,
+      "MinWeight": 1.2,
+      "FullImg": "SnowBirdRare.png",
+      "Notes": "A very rare Sawgaw subspecies. Whilst the Frogmouthed Sawgaw is largely thought to have been extinct for hundreds of years, some do still exist in the wilds across the system, if barely. This rarity has only caused the short-sighted Corpus to hunt them for trophies.",
+      "Rarity": "Rare",
+      "TranqsNeeded": 1,
+      "Standing": 900,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 0,
+        "Month": 3
+      },
+      "MaxWeight": 5.5,
+      "Health": 6,
+      "CodexScans": 20,
+      "Family": "Sawgaw",
+      "MaxAge": {
+        "Year": 11,
+        "Month": 7
+      },
+      "Image": "SnowBirdRare.png",
+      "Reward": "Solaris United Standing"
+    },
+    "Vizier Predasite": {
+      "Origin": "Cambion Drift",
+      "Call": "PredasitePlayerLureCall.ogg",
+      "Codex": "A skittish creature, the Vizier Predasite will unleash a spume of acid before scurrying away.",
+      "Intro": "Predasites can be attacked by the Infested before or after sedating, causing them to become ''Weakened''. Capturing a Predasite in this state allows them to be used as a modular [[Companion]] through a process called Revivification with [[Son]]",
+      "Introduced": "29.0",
+      "Armor": 50,
+      "MinWeight": 26.3,
+      "FullImg": "VizierPredasite.png",
+      "Notes": "Predasite Scat marks the track alongside their footprints. The Scat marks are accompanied by greenish smoke.",
+      "Rarity": "Common",
+      "TranqsNeeded": 2,
+      "Standing": 0,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 1,
+        "Month": 4
+      },
+      "MaxWeight": 31.7,
+      "Health": 500,
+      "CodexScans": 20,
+      "Family": "Predasite",
+      "MaxAge": {
+        "Year": 12,
+        "Month": 4
+      },
+      "Image": "VizierPredasite.png",
+      "Reward": ""
+    },
+    "Sentinel Stover": {
+      "Origin": "Orb Vallis",
+      "Call": "StoverCall.ogg",
+      "Codex": "The Stover is a kind of proto-Kubrow that resurrected when Venus thawed. When grouped in a pack, Stovers are relentless opponents.",
+      "Intro": "Stovers make their appearances within caves, whose narrow passageways make confrontation almost unavoidable. Instead of immediately fleeing, they will viciously attack their pursuers. Must be shot '''Two times''' with the Tranq Rifle to be brought down.",
+      "Introduced": "24.2",
+      "Armor": 50,
+      "MinWeight": 0,
+      "FullImg": "StoverCommon.png",
+      "Notes": "A common Stover subspecies.",
+      "Rarity": "Common",
+      "TranqsNeeded": 2,
+      "Standing": 800,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "MaxWeight": 0,
+      "Health": 200,
+      "CodexScans": 20,
+      "Family": "Stover",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "Image": "StoverCommon.png",
+      "Reward": "Solaris United Standing"
+    },
+    "Dappled Horrasque": {
+      "Origin": "Orb Vallis",
+      "Call": "HorrasqueCall.ogg",
+      "Codex": "This hideous creature is terrible to behold but will not attack unless provoked. When it does, its roar will shake the bowels of even the most steadfast tracker.",
+      "Intro": "Between the starting point and the calling point, a trail of {{D|Toxin}} damaging scat will line next to their footprints. <br><br>Horrasques will crawl underground, periodically exposing their heads. If they reach the calling point they will surface and expose their whole body, making perfect captures much easier. Must be shot '''two times''' with the Tranq Rifle to be brought down.",
+      "Introduced": "24.2",
+      "Armor": 50,
+      "MinWeight": 0,
+      "FullImg": "HorrasqueCommon.png",
+      "Notes": "A very rare Bolarola subspecies. Their spines have evolved into thorn-like barbs that give them an even greater defense.",
+      "Rarity": "Common",
+      "TranqsNeeded": 2,
+      "Standing": 600,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "MaxWeight": 0,
+      "Health": 22,
+      "CodexScans": 20,
+      "Family": "Horrasque",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "Image": "HorrasqueCommon.png",
+      "Reward": "Solaris United Standing"
+    },
+    "Kubrodon Incarnadine": {
+      "Origin": "Orb Vallis",
+      "Call": "KubrodonCall.ogg",
+      "Codex": "The apex predator of the Venusian plains. These massively framed beasts travel in groups and mark the territory surrounding Orokin cooling towers as their own. Kubrodons are a danger best avoided.",
+      "Intro": "True to its status as the apex predator, the Kubrodon's more acute sense of smell allows them to locate their pursuers, and will use a ramming attack to make good their escape. Must be shot twice with the Tranq Rifle to be brought down. <br><br>Additionally, Kubrodons are 75% resistant to all Warframe abilities. For example, when using {{WF|Ivara}}’s [[Quiver|Sleep Arrow]] to put a Kubrodon to sleep, the [[Ability Duration]] will be a quarter (1/4) of its full duration (Ivara’s Sleep Arrow with Maximized Ability Duration: 30.6 seconds ÷ 4 = 7.65 seconds). Their resistance can accumulate, causing consecutive use of the same ability to have even less duration, eventually becoming outright immune.<br><br>Despite being mentioned to travel in groups, only one Kubrodon will respond to the lure's call.",
+      "Introduced": "24.0",
+      "Armor": 50,
+      "MinWeight": 0,
+      "FullImg": "KubrodonRare.png",
+      "Notes": "A very rare Kubrodon subspecies. Feared across the Orb Vallis, they are possessed of a particular malevolence, a dark intelligence, and kill not for survival, but solely for the sake of pleasure.",
+      "Rarity": "Rare",
+      "TranqsNeeded": 2,
+      "Standing": 4000,
+      "Faction": "Neutral",
+      "MinAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "MaxWeight": 0,
+      "Health": 1000,
+      "CodexScans": 20,
+      "Family": "Kubrodon",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "Image": "KubrodonRare.png",
+      "Reward": "Solaris United Standing"
+    },
+    "Swimmer Horrasque": {
+      "Origin": "Orb Vallis",
+      "Call": "HorrasqueCall.ogg",
+      "Codex": "This hideous creature is terrible to behold but will not attack unless provoked. When it does, its roar will shake the bowels of even the most steadfast tracker.",
+      "Intro": "Between the starting point and the calling point, a trail of {{D|Toxin}} damaging scat will line next to their footprints. <br><br>Horrasques will crawl underground, periodically exposing their heads. If they reach the calling point they will surface and expose their whole body, making perfect captures much easier. Must be shot '''two times''' with the Tranq Rifle to be brought down.",
+      "Introduced": "24.2",
+      "Armor": 50,
+      "MinWeight": 0,
+      "FullImg": "HorrasqueUncommon.png",
+      "Notes": "A rare Horrasque subspecies. Horrasques are not known to be the most graceful of swimmers, but this species persists.",
+      "Rarity": "Uncommon",
+      "TranqsNeeded": 2,
+      "Standing": 1200,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "MaxWeight": 0,
+      "Health": 22,
+      "CodexScans": 20,
+      "Family": "Horrasque",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "Image": "HorrasqueUncommon.png",
+      "Reward": "Solaris United Standing"
+    },
+    "Splendid Mergoo": {
+      "Origin": "Plains of Eidolon",
+      "Call": "OstronSeaBirdPlayerLureCall.ogg",
+      "Codex": "An avian of ridiculous appearance found along coastal regions and around large bodies of water. Mergoo circle and squawk at the sight of marine predators. Many an Ostron fisher owes their lives to these odd little birds. Killing one is considered very bad luck.",
+      "Intro": "Like Condrocs, Mergoo are a flying species, making them difficult to capture until they land at the calling point.",
+      "Introduced": "24.6",
+      "Armor": 50,
+      "MinWeight": 0,
+      "FullImg": "MergooRare.png",
+      "Notes": "A very rare Mergoo subspecies. A highly social specimen.",
+      "Rarity": "Rare",
+      "TranqsNeeded": 1,
+      "Standing": 1800,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "MaxWeight": 0,
+      "Health": 1,
+      "CodexScans": 20,
+      "Family": "Mergoo",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "Image": "MergooRare.png",
+      "Reward": "Ostron Standing"
+    },
+    "Emperor Condroc": {
+      "Origin": "Plains of Eidolon",
+      "Call": "BirdOfPreyPlayerLureCall.ogg",
+      "Codex": "A carrion-eater and opportunistic bird-of-prey. Condrocs gather, feed upon carrion, and occasionally, hunt in groups known as 'committees'. Several committees will be led by an Emperor.",
+      "Intro": "When roaming, Condrocs will appear in groups of two or three and are already stationed on the ground, but when called from a calling point only one will spawn. <br><br>Condrocs are a flying species, making them difficult to capture until they land at the calling point.",
+      "Introduced": "22.0",
+      "Armor": 50,
+      "MinWeight": 0,
+      "FullImg": "CondrocRare.png",
+      "Notes": "A very rare Condroc subspecies. Commands a number of Condroc committees.",
+      "Rarity": "Rare",
+      "TranqsNeeded": 1,
+      "Standing": 900,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "MaxWeight": 0,
+      "Health": 6,
+      "CodexScans": 20,
+      "Family": "Condroc",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "Image": "CondrocRare.png",
+      "Reward": "Ostron Standing"
+    },
+    "Coastal Mergoo": {
+      "Origin": "Plains of Eidolon",
+      "Call": "OstronSeaBirdPlayerLureCall.ogg",
+      "Codex": "An avian of ridiculous appearance found along coastal regions and around large bodies of water. Mergoo circle and squawk at the sight of marine predators. Many an Ostron fisher owes their lives to these odd little birds. Killing one is considered very bad luck.",
+      "Intro": "Like Condrocs, Mergoo are a flying species, making them difficult to capture until they land at the calling point.",
+      "Introduced": "24.6",
+      "Armor": 50,
+      "MinWeight": 0,
+      "FullImg": "MergooCommon.png",
+      "Notes": "A common Mergoo subspecies.",
+      "Rarity": "Common",
+      "TranqsNeeded": 1,
+      "Standing": 600,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "MaxWeight": 0,
+      "Health": 1,
+      "CodexScans": 20,
+      "Family": "Mergoo",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "Image": "MergooCommon.png",
+      "Reward": "Ostron Standing"
+    },
+    "Umber Undazoa": {
+      "Origin": "Cambion Drift",
+      "Call": "UndazoaPlayerLureCall.ogg",
+      "Codex": "A shy, bizarre-looking, semi-aquatic creature that seldom attacks unless provoked.",
+      "Intro": "Undazoa approach the Call-Point in the Exocrine, [[Cambion Drift|Cambion Drifts]] river-like formations.",
+      "Introduced": "29.5",
+      "Armor": 50,
+      "MinWeight": 52.5,
+      "FullImg": "UmberUndazoa.png",
+      "Notes": "Undazoa Scat marks the track alongside their footprints.",
+      "Rarity": "Common",
+      "TranqsNeeded": 2,
+      "Standing": 0,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 5,
+        "Month": 6
+      },
+      "MaxWeight": 63.5,
+      "Health": 22,
+      "CodexScans": 20,
+      "Family": "Undazoa",
+      "MaxAge": {
+        "Year": 50,
+        "Month": 3
+      },
+      "Image": "UmberUndazoa.png",
+      "Reward": ""
+    },
+    "Thorny Bolarola": {
+      "Origin": "Orb Vallis",
+      "Call": "BolarolaCall.ogg",
+      "Codex": "Favoring thunder, lightning and cratered-out areas Bolarolas are all about defense. Their armored plates protect them from most predators, tucking-and-rolling to make good their escape.",
+      "Intro": "Bolarolas are covered in an armored plating that neutralizes tranquilizing shots. Only their underbellies are vulnerable, and they will occasionally lean back to expose this weakness. Should they sense danger they will curl up to shield themselves, and when fleeing they will roll away. ",
+      "Introduced": "24.0",
+      "Armor": 50,
+      "MinWeight": 5.7,
+      "FullImg": "BolarolaRare.png",
+      "Notes": "A very rare Bolarola subspecies. Their spines have evolved into thorn-like barbs that give them an even greater defense.",
+      "Rarity": "Rare",
+      "TranqsNeeded": 1,
+      "Standing": 1250,
+      "Faction": "Neutral",
+      "MinAge": {
+        "Year": 0,
+        "Month": 3
+      },
+      "MaxWeight": 9.5,
+      "Health": 6,
+      "CodexScans": 20,
+      "Family": "Bolarola",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 11
+      },
+      "Image": "BolarolaRare.png",
+      "Reward": "Solaris United Standing"
+    },
+    "White-Breasted Virmink": {
+      "Origin": "Orb Vallis",
+      "Call": "VirminkCall.ogg",
+      "Codex": "Sleek and silky, the adorable appearance of the Venusian Virmink belies its aggressive demeanor. Favoring rocky landscapes Virmink packs nose the air, scenting for [[Pobber|Pobbers]] - their primary food source.",
+      "MaxAge": {
+        "Year": 8,
+        "Month": 6
+      },
+      "Introduced": "24.0",
+      "Armor": 50,
+      "MinWeight": 10.6,
+      "FullImg": "VirminkCommon.png",
+      "Notes": "A common Virmink subspecies.",
+      "Rarity": "Common",
+      "TranqsNeeded": 1,
+      "Standing": 300,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 0,
+        "Month": 2
+      },
+      "Health": 6,
+      "CodexScans": 20,
+      "Family": "Virmink",
+      "MaxWeight": 19.2,
+      "Image": "VirminkCommon.png",
+      "Reward": "Solaris United Standing"
+    },
+    "Sporule Avichaea": {
+      "Origin": "Cambion Drift",
+      "Call": "AvichaeaPlayerLureCall.ogg",
+      "Codex": "This capricious avian unleashes swarms of infested spores as its primary defense mechanism. Active only while Vome watches over the Cambion Drift.",
+      "Intro": "A rare Avichaea subspecies that prefers [[Vome (Deimos)|Vome]] appearing almost exclusively during its phase.",
+      "Introduced": "29.0",
+      "Armor": 50,
+      "MinWeight": 2.9,
+      "FullImg": "SporuleAvichaea.png",
+      "Rarity": "Uncommon",
+      "TranqsNeeded": 1,
+      "Standing": 0,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 0,
+        "Month": 11
+      },
+      "MaxWeight": 4.6,
+      "Health": 1,
+      "CodexScans": 20,
+      "Family": "Avichaea",
+      "MaxAge": {
+        "Year": 1,
+        "Month": 0
+      },
+      "Image": "SporuleAvichaea.png",
+      "Reward": ""
+    },
+    "Sunny Pobber": {
+      "Origin": "Orb Vallis",
+      "Call": "PobberCall.ogg",
+      "Codex": "Native to the fungal forests of Venus, the Pobber is a skittish rodent possessed of an objectionable odor. Always found in groups they flee at the slightest hint of trouble. They are a primary food source of [[Virmink]] and [[Sawgaw]].",
+      "Intro": "Pobbers notably appear in groups of three.",
+      "Introduced": "24.0",
+      "Armor": 50,
+      "MinWeight": 0.01,
+      "FullImg": "PobberCommon.png",
+      "Notes": "A common Pobber subspecies. Whilst also visually appealing, the Sunny Pobber's coats help them blend in with their fungal surroundings quite well. Like their more common cousins they also possess a poor odor, possibly in an attempt to stave off potential predators.",
+      "Rarity": "Common",
+      "TranqsNeeded": 1,
+      "Standing": 200,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 0,
+        "Month": 4
+      },
+      "MaxWeight": 0.09,
+      "Health": 2,
+      "CodexScans": 20,
+      "Family": "Pobber",
+      "MaxAge": {
+        "Year": 2,
+        "Month": 0
+      },
+      "Image": "PobberCommon.png",
+      "Reward": "Solaris United Standing"
+    },
+    "Subterranean Pobber": {
+      "Origin": "Orb Vallis",
+      "Call": "PobberCall.ogg",
+      "Codex": "Native to the fungal forests of Venus, the Pobber is a skittish rodent possessed of an objectionable odor. Always found in groups they flee at the slightest hint of trouble. They are a primary food source of [[Virmink]] and [[Sawgaw]].",
+      "Intro": "Pobbers notably appear in groups of three.",
+      "Introduced": "24.0",
+      "Armor": 50,
+      "MinWeight": 0.01,
+      "FullImg": "PobberRare.png",
+      "Notes": "A very rare Pobber subspecies. Having evolved to survive solely underground, Subterranean Pobbers almost never visit the surface and, consequently, their general population is unknown. Thought it is not definite, they are likely an adaptation unique to the [[Orb Vallis]].",
+      "Rarity": "Rare",
+      "TranqsNeeded": 1,
+      "Standing": 400,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 0,
+        "Month": 2
+      },
+      "MaxWeight": 0.09,
+      "Health": 2,
+      "CodexScans": 20,
+      "Family": "Pobber",
+      "MaxAge": {
+        "Year": 1,
+        "Month": 11
+      },
+      "Image": "PobberRare.png",
+      "Reward": "Solaris United Standing"
+    },
+    "Howler Undazoa": {
+      "Origin": "Cambion Drift",
+      "Call": "UndazoaPlayerLureCall.ogg",
+      "Codex": "The Howler is easily startled. Its penetrating scream will cause other, more dangerous animals to investigate.",
+      "Intro": "A rare Undazoa subspecies that prefers [[Vome (Deimos)|Vome]] appearing almost exclusively during its phase.<br>Undazoa approach the Call-Point in the Exocrine, [[Cambion Drift|Cambion Drifts]] river-like formations.",
+      "Introduced": "29.5",
+      "Armor": 50,
+      "MinWeight": 54.7,
+      "FullImg": "HowlerUndazoa.png",
+      "Notes": "Undazoa Scat marks the track alongside their footprints.",
+      "Rarity": "Rare",
+      "TranqsNeeded": 2,
+      "Standing": 0,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 14,
+        "Month": 0
+      },
+      "MaxWeight": 59.7,
+      "Health": 22,
+      "CodexScans": 20,
+      "Family": "Undazoa",
+      "MaxAge": {
+        "Year": 44,
+        "Month": 8
+      },
+      "Image": "HowlerUndazoa.png",
+      "Reward": ""
+    },
+    "Spotted Bolarola": {
+      "Origin": "Orb Vallis",
+      "Call": "BolarolaCall.ogg",
+      "Codex": "Favoring thunder, lightning and cratered-out areas Bolarolas are all about defense. Their armored plates protect them from most predators, tucking-and-rolling to make good their escape.",
+      "Intro": "Bolarolas are covered in an armored plating that neutralizes tranquilizing shots. Only their underbellies are vulnerable, and they will occasionally lean back to expose this weakness. Should they sense danger they will curl up to shield themselves, and when fleeing they will roll away. ",
+      "Introduced": "24.0",
+      "Armor": 50,
+      "MinWeight": 6.6,
+      "FullImg": "BolarolaCommon.png",
+      "Notes": "A common Bolarola subspecies.",
+      "Rarity": "Common",
+      "TranqsNeeded": 1,
+      "Standing": 500,
+      "Faction": "Neutral",
+      "MinAge": {
+        "Year": 0,
+        "Month": 2
+      },
+      "MaxWeight": 17.1,
+      "Health": 6,
+      "CodexScans": 20,
+      "Family": "Bolarola",
+      "MaxAge": {
+        "Year": 5,
+        "Month": 4
+      },
+      "Image": "BolarolaCommon.png",
+      "Reward": "Solaris United Standing"
+    },
+    "Pharaoh Predasite": {
+      "Origin": "Cambion Drift",
+      "Call": "PredasitePlayerLureCall.ogg",
+      "Codex": "Easily frightened, this Predasite flees in the sight of danger, but not before hissing a geyser of parasitic sputum. Active only while Fass watches over the Cambion Drift.",
+      "Intro": "Predasites can be attacked by the Infested before or after sedating, causing them to become ''Weakened''. Capturing a Predasite in this state allows them to be used as a modular [[Companion]] through a process called Revivification with [[Son]]<br>A rare Predasite subspecies that prefers [[Fass (Deimos)|Fass]] appearing almost exclusively during its phase.",
+      "Introduced": "29.0",
+      "Armor": 50,
+      "MinWeight": 0.01,
+      "FullImg": "PharaohPredasite.png",
+      "Notes": "Predasite Scat marks the track alongside their footprints. The Scat marks are accompanied by greenish smoke.",
+      "Rarity": "Uncommon",
+      "TranqsNeeded": 2,
+      "Standing": 0,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 0,
+        "Month": 9
+      },
+      "MaxWeight": 0.01,
+      "Health": 500,
+      "CodexScans": 20,
+      "Family": "Predasite",
+      "MaxAge": {
+        "Year": 1,
+        "Month": 2
+      },
+      "Image": "PharaohPredasite.png",
+      "Reward": ""
+    },
+    "Fire-Veined Stover": {
+      "Origin": "Orb Vallis",
+      "Call": "StoverCall.ogg",
+      "Codex": "The Stover is a kind of proto-Kubrow that resurrected when Venus thawed. When grouped in a pack, Stovers are relentless opponents.",
+      "Intro": "Stovers make their appearances within caves, whose narrow passageways make confrontation almost unavoidable. Instead of immediately fleeing, they will viciously attack their pursuers. Must be shot '''Two times''' with the Tranq Rifle to be brought down.",
+      "Introduced": "24.2",
+      "Armor": 50,
+      "MinWeight": 0,
+      "FullImg": "StoverRare.png",
+      "Notes": "A very rare Stover subspecies. Often being referred to as 'majestic'.",
+      "Rarity": "Rare",
+      "TranqsNeeded": 2,
+      "Standing": 3200,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "MaxWeight": 0,
+      "Health": 200,
+      "CodexScans": 20,
+      "Family": "Stover",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "Image": "StoverRare.png",
+      "Reward": "Solaris United Standing"
+    },
+    "Viscid Avichaea": {
+      "Origin": "Cambion Drift",
+      "Call": "AvichaeaPlayerLureCall.ogg",
+      "Codex": "The rarest of Avichaeas, the Viscid produces a thick, tar-like mucus that it discharges when imperiled. Active only while Fass watches over the Cambion Drift.",
+      "Intro": "A rare Avichaea subspecies that prefers [[Fass (Deimos)|Fass]] appearing almost exclusively during its phase.",
+      "Introduced": "29.0",
+      "Armor": 50,
+      "MinWeight": 1.8,
+      "FullImg": "ViscidAvichaea.png",
+      "Rarity": "Rare",
+      "TranqsNeeded": 1,
+      "Standing": 0,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 0,
+        "Month": 11
+      },
+      "MaxWeight": 4.3,
+      "Health": 1,
+      "CodexScans": 20,
+      "Family": "Avichaea",
+      "MaxAge": {
+        "Year": 1,
+        "Month": 1
+      },
+      "Image": "ViscidAvichaea.png",
+      "Reward": ""
+    },
+    "Common Condroc": {
+      "Origin": "Plains of Eidolon",
+      "Call": "BirdOfPreyPlayerLureCall.ogg",
+      "Codex": "A carrion-eater and opportunistic bird-of-prey. Condrocs gather, feed upon carrion, and occasionally, hunt in groups known as 'committees'. Several committees will be led by an Emperor.",
+      "Intro": "When roaming, Condrocs will appear in groups of two or three and are already stationed on the ground, but when called from a calling point only one will spawn. <br><br>Condrocs are a flying species, making them difficult to capture until they land at the calling point.",
+      "Introduced": "22.0",
+      "Armor": 50,
+      "MinWeight": 0,
+      "FullImg": "CondrocCommon.png",
+      "Notes": "A common Condroc subspecies.",
+      "Rarity": "Common",
+      "TranqsNeeded": 1,
+      "Standing": 400,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "MaxWeight": 0,
+      "Health": 6,
+      "CodexScans": 20,
+      "Family": "Condroc",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "Image": "CondrocCommon.png",
+      "Reward": "Ostron Standing"
+    },
+    "Sly Vulpaphyla": {
+      "Origin": "Cambion Drift",
+      "Call": "VulpaphylaPlayerLureCall.ogg",
+      "Codex": "The most common Vulpaphyla, they travel in packs and are generally non-aggressive.",
+      "Intro": "[[Vulpaphyla (Conservation)|Vulpaphylas]] can be attacked by the Infested before or after sedating, causing them to become ''Weakened''. Capturing a Vulpaphyla in this state allows them to be used as a modular [[Companion]] through a process called Revivification with [[Son]].",
+      "Introduced": "29.0",
+      "Armor": 100,
+      "MinWeight": 12.3,
+      "FullImg": "SlyVulpaphyla.png",
+      "Notes": "A common Vulpaphyla subspecies.<br>Vulpaphyla Scat marks the track alongside their footprints.",
+      "Rarity": "Common",
+      "TranqsNeeded": 1,
+      "Standing": 0,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 0,
+        "Month": 10
+      },
+      "MaxWeight": 14.5,
+      "Health": 100,
+      "CodexScans": 20,
+      "Family": "Vulpaphyla",
+      "MaxAge": {
+        "Year": 1,
+        "Month": 1
+      },
+      "Image": "SlyVulpaphyla.png",
+      "Reward": ""
+    },
+    "Crescent Vulpaphyla": {
+      "Origin": "Cambion Drift",
+      "Call": "VulpaphylaPlayerLureCall.ogg",
+      "Codex": "The Crescent is the most pugnacious subspecies of Vulpaphyla, they will rush anything they perceive as a threat.",
+      "Intro": "A rare Vulpaphyla subspecies that prefers  [[Vome (Deimos)|Vome]] appearing almost exclusively during its phase.<br>[[Vulpaphyla (Conservation)|Vulpaphylas]] can be attacked by the Infested before or after sedating, causing them to become ''Weakened''. Capturing a Vulpaphyla in this state allows them to be used as a modular [[Companion]] through a process called Revivification with [[Son]].",
+      "Introduced": "29.0",
+      "Armor": 100,
+      "MinWeight": 14.5,
+      "FullImg": "CrescentVulpaphyla.png",
+      "Notes": "Vulpaphyla Scat marks the track alongside their footprints.",
+      "Rarity": "Uncommon",
+      "TranqsNeeded": 1,
+      "Standing": 0,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 1,
+        "Month": 2
+      },
+      "MaxWeight": 14.5,
+      "Health": 100,
+      "CodexScans": 20,
+      "Family": "Vulpaphyla",
+      "MaxAge": {
+        "Year": 1,
+        "Month": 2
+      },
+      "Image": "CrescentVulpaphyla.png",
+      "Reward": ""
+    },
+    "Red-Crested Virmink": {
+      "Origin": "Orb Vallis",
+      "Call": "VirminkCall.ogg",
+      "Codex": "Sleek and silky, the adorable appearance of the Venusian Virmink belies its aggressive demeanor. Favoring rocky landscapes Virmink packs nose the air, scenting for Pobbers - their primary food source.",
+      "MaxAge": {
+        "Year": 6,
+        "Month": 8
+      },
+      "Introduced": "24.0",
+      "Armor": 50,
+      "MinWeight": 8.3,
+      "FullImg": "VirminkRare.png",
+      "Notes": "A very rare Virmink subspecies. An original [[Orokin]] strain thought to be extinct during the Orokin Era, and for millennia thereafter, they have been preserved and revived alongside the Orb Vallis.",
+      "Rarity": "Rare",
+      "TranqsNeeded": 1,
+      "Standing": 500,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 0,
+        "Month": 5
+      },
+      "Health": 6,
+      "CodexScans": 20,
+      "Family": "Virmink",
+      "MaxWeight": 18.6,
+      "Image": "VirminkRare.png",
+      "Reward": "Solaris United Standing"
+    },
+    "Purple Velocipod": {
+      "Origin": "Cambion Drift",
+      "Call": "VelocipodCall.ogg",
+      "Codex": "A sluggish highlands insect that's capable of bursts of speed when threatened.",
+      "Intro": "Found in the ''Swamp'', meaning in the center of [[Cambion Drift]]",
+      "Introduced": "29.0",
+      "Armor": 125,
+      "MinWeight": 0.01,
+      "FullImg": "PurpleVelocipodK-DriveSkin.png",
+      "Notes": "A rare, purple Velocipod subspecies.<br>Purple Velocipods appear to spawn more likely in the north-east.",
+      "Rarity": "Common",
+      "TranqsNeeded": 1,
+      "Standing": 0,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 0,
+        "Month": 8
+      },
+      "MaxWeight": 0.01,
+      "Health": 300,
+      "CodexScans": 20,
+      "Family": "Velocipod",
+      "MaxAge": {
+        "Year": 1,
+        "Month": 2
+      },
+      "Image": "PurpleVelocipodK-DriveSkin.png",
+      "Reward": ""
+    },
+    "Amethyst Nexifera": {
+      "Origin": "Cambion Drift",
+      "Call": "NexiferaPlayerLureCall.ogg",
+      "Codex": "A distinctly Deimosian grotesquerie that attacks it opponents from above.",
+      "Intro": "Nexifera can't be lured out via the normal Track and Tranq process.<br>They only spawn naturally in big caves near the Catabolic Gutter hanging from the ceiling.<br>Their hard lower exterior block all Tranq-Shots.<br>Additionally, They are 75% resistant to all Warframe abilities. Meaning all Duration gets quartered. Their resistance can accumulate, causing consecutive use of the same ability to have even less duration, eventually becoming outright immune.",
+      "Introduced": "29.5",
+      "Armor": 50,
+      "MinWeight": 0.17,
+      "FullImg": "AmethystNexifera.png",
+      "Notes": "Nexifera spawn yellow-green goo below themselves. If anything steps on it they dive down and deal damage with the resulting shockwave.",
+      "Rarity": "Common",
+      "TranqsNeeded": 1,
+      "Standing": 0,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 0,
+        "Month": 9
+      },
+      "MaxWeight": 0.44,
+      "Health": 1000,
+      "CodexScans": 20,
+      "Family": "Nexifera",
+      "MaxAge": {
+        "Year": 1,
+        "Month": 2
+      },
+      "Image": "AmethystNexifera.png",
+      "Reward": ""
+    },
+    "Plains Kuaka": {
+      "Origin": "Plains of Eidolon",
+      "Call": "ForestRodentPlayerLureCall.ogg",
+      "Codex": "A timid rodent that is easily frightened.",
+      "Intro": "Kuaka notably appear in groups of three.",
+      "Introduced": "22.0",
+      "Armor": 50,
+      "MinWeight": 0,
+      "FullImg": "KuakaCommon.png",
+      "Notes": "A common Kuaka subspecies.",
+      "Rarity": "Common",
+      "TranqsNeeded": 1,
+      "Standing": 200,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "MaxWeight": 0,
+      "Health": 1,
+      "CodexScans": 20,
+      "Family": "Kuaka",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "Image": "KuakaCommon.png",
+      "Reward": "Ostron Standing"
+    },
+    "Scarlet Nexifera": {
+      "Origin": "Cambion Drift",
+      "Call": "NexiferaPlayerLureCall.ogg",
+      "Codex": "Due to its remarkable strength, this Nexifera can cause seismic shocks when hitting the ground.",
+      "Intro": "Nexifera can't be lured out via the normal Track and Tranq process.<br>They only spawn naturally in big caves near the Catabolic Gutter hanging from the ceiling.<br>Their hard lower exterior block all Tranq-Shots.<br>Additionally, They are 75% resistant to all Warframe abilities. Meaning all Duration gets quartered. Their resistance can accumulate, causing consecutive use of the same ability to have even less duration, eventually becoming outright immune.",
+      "Introduced": "29.5",
+      "Armor": 50,
+      "MinWeight": 0.25,
+      "FullImg": "ScarletNexifera.png",
+      "Notes": "Nexifera spawn yellow-green goo below themselves. If anything steps on it they dive down and deal damage with the resulting shockwave.",
+      "Rarity": "Rare",
+      "TranqsNeeded": 1,
+      "Standing": 0,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 0,
+        "Month": 11
+      },
+      "MaxWeight": 0.35,
+      "Health": 1000,
+      "CodexScans": 20,
+      "Family": "Nexifera",
+      "MaxAge": {
+        "Year": 1,
+        "Month": 3
+      },
+      "Image": "ScarletNexifera.png",
+      "Reward": ""
+    },
+    "Medjay Predasite": {
+      "Origin": "Cambion Drift",
+      "Call": "PredasitePlayerLureCall.ogg",
+      "Codex": "Not quite as flighty as its subspecies cousins, it will charge if it feels threatened. Active only while Vome watches over the Cambion Drift.",
+      "Intro": "Predasites can be attacked by the Infested before or after sedating, causing them to become ''Weakened''. Capturing a Predasite in this state allows them to be used as a modular [[Companion]] through a process called Revivification with [[Son]]<br>A rare Predasite subspecies that prefers [[Vome (Deimos)|Vome]] appearing almost exclusively during its phase.",
+      "Introduced": "29.0",
+      "Armor": 50,
+      "MinWeight": 0.01,
+      "FullImg": "MedjayPredasite.png",
+      "Notes": "Predasite Scat marks the track alongside their footprints. The Scat marks are accompanied by greenish smoke.",
+      "Rarity": "Rare",
+      "TranqsNeeded": 2,
+      "Standing": 0,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 0,
+        "Month": 9
+      },
+      "MaxWeight": 0.01,
+      "Health": 500,
+      "CodexScans": 20,
+      "Family": "Predasite",
+      "MaxAge": {
+        "Year": 1,
+        "Month": 3
+      },
+      "Image": "MedjayPredasite.png",
+      "Reward": ""
+    },
+    "Nephil Vasca Kavat": {
+      "Origin": "Plains of Eidolon",
+      "Call": "KavatVascaPlayerLureCall.ogg",
+      "Codex": "The Vasca strain is a symbiotic blood-borne virus transmitted via the saliva of infected kavats. Existing solely to propagate itself the virus makes the host increasingly dependent upon the ingestion of blood, thereby spreading itself further and faster through the population. Vasca-infected kavats, over time, lose all sense of themselves becoming increasingly cunning, violent and ravenous.",
+      "Intro": "Vasca Kavats only appear during nighttime in the Plains of Eidolon. <br><br>When roaming, Vasca Kavats will appear in groups of three, but when called from a calling point only one will spawn.",
+      "Introduced": "26.0",
+      "Armor": 175,
+      "MinWeight": 0,
+      "FullImg": "VascaKavatRare.png",
+      "Notes": "A very rare Vasca Kavat subspecies.",
+      "Rarity": "Rare",
+      "TranqsNeeded": 1,
+      "Standing": 750,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "MaxWeight": 0,
+      "Health": 300,
+      "CodexScans": 20,
+      "Family": "Vasca Kavat",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "Image": "VascaKavatRare.png",
+      "Reward": "Ostron Standing"
+    },
+    "Alpine Monitor Sawgaw": {
+      "Origin": "Orb Vallis",
+      "Call": "SawgawCall.ogg",
+      "Codex": "Soar Gore' as the Solaris call it, this crimson-faced bird of prey circles and stalks the cliffs and fungal groves of Venus, searching for rodent prey.",
+      "Intro": "Sawgaws are a flying species, making them difficult to capture until they land somewhere. They usually prefer to perch on top of the giant mushrooms. ",
+      "Introduced": "24.2",
+      "Armor": 50,
+      "MinWeight": 1.1,
+      "FullImg": "SnowBirdUncommon.png",
+      "Notes": "A rare Sawgaw subspecies. Tougher and stronger, Alpine Monitor Sawgaws will often assume the role of alphas over the other subspecies in the wild. They are highly valued as exotic 'pets' by [[Corpus]] nobility, though 'prisoners' may be a more appropriate term.",
+      "Rarity": "Uncommon",
+      "TranqsNeeded": 1,
+      "Standing": 600,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 0,
+        "Month": 3
+      },
+      "MaxWeight": 5.4,
+      "Health": 6,
+      "CodexScans": 20,
+      "Family": "Sawgaw",
+      "MaxAge": {
+        "Year": 12,
+        "Month": 3
+      },
+      "Image": "SnowBirdUncommon.png",
+      "Reward": "Solaris United Standing"
+    },
+    "Flossy Sawgaw": {
+      "Origin": "Orb Vallis",
+      "Call": "SawgawCall.ogg",
+      "Codex": "Soar Gore' as the Solaris call it, this crimson-faced bird of prey circles and stalks the cliffs and fungal groves of Venus, searching for rodent prey.",
+      "Intro": "Sawgaws are a flying species, making them difficult to capture until they land somewhere. They usually prefer to perch on top of the giant mushrooms. ",
+      "Introduced": "24.2",
+      "Armor": 50,
+      "MinWeight": 1.3,
+      "FullImg": "SnowBirdCommon.png",
+      "Notes": "A common Sawgaw subspecies. Possessing vibrant white feathers, the Flossy Sawgaw is perfectly suited to life on the snowy planets. Their feathers are also allegedly far softer than the other subspecies' and are at times hunted for them, but not to the point of extinction.",
+      "Rarity": "Common",
+      "TranqsNeeded": 1,
+      "Standing": 400,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 0,
+        "Month": 3
+      },
+      "MaxWeight": 4.8,
+      "Health": 6,
+      "CodexScans": 20,
+      "Family": "Sawgaw",
+      "MaxAge": {
+        "Year": 9,
+        "Month": 6
+      },
+      "Image": "SnowBirdCommon.png",
+      "Reward": "Solaris United Standing"
+    },
+    "Black-Banded Bolarola": {
+      "Origin": "Orb Vallis",
+      "Call": "BolarolaCall.ogg",
+      "Codex": "Favoring thunder, lightning and cratered-out areas Bolarolas are all about defense. Their armored plates protect them from most predators, tucking-and-rolling to make good their escape.",
+      "Intro": "Bolarolas are covered in an armored plating that neutralizes tranquilizing shots. Only their underbellies are vulnerable, and they will occasionally lean back to expose this weakness. Should they sense danger they will curl up to shield themselves, and when fleeing they will roll away. ",
+      "Introduced": "24.0",
+      "Armor": 50,
+      "MinWeight": 7.5,
+      "FullImg": "BolarolaUncommon.png",
+      "Notes": "A rare Bolarola subspecies. Their black plates are said to be used in Grineer formal wear.",
+      "Rarity": "Uncommon",
+      "TranqsNeeded": 1,
+      "Standing": 750,
+      "Faction": "Neutral",
+      "MinAge": {
+        "Year": 0,
+        "Month": 5
+      },
+      "MaxWeight": 19.7,
+      "Health": 6,
+      "CodexScans": 20,
+      "Family": "Bolarola",
+      "MaxAge": {
+        "Year": 8,
+        "Month": 5
+      },
+      "Image": "BolarolaUncommon.png",
+      "Reward": "Solaris United Standing"
+    },
+    "Vaporous Undazoa": {
+      "Origin": "Cambion Drift",
+      "Call": "UndazoaPlayerLureCall.ogg",
+      "Codex": "The Vaporous Undazoa gets its name from the noxious gas it belches out when alerted.",
+      "Intro": "A rare Undazoa subspecies that prefers [[Fass (Deimos)|Fass]] appearing almost exclusively during its phase.<br>Undazoa approach the Call-Point in the Exocrine, [[Cambion Drift|Cambion Drifts]] river-like formations.",
+      "Introduced": "29.5",
+      "Armor": 50,
+      "MinWeight": 45.8,
+      "FullImg": "VaporousUndazoa.png",
+      "Notes": "Undazoa Scat marks the track alongside their footprints.",
+      "Rarity": "Uncommon",
+      "TranqsNeeded": 2,
+      "Standing": 0,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 11,
+        "Month": 5
+      },
+      "MaxWeight": 61.1,
+      "Health": 22,
+      "CodexScans": 20,
+      "Family": "Undazoa",
+      "MaxAge": {
+        "Year": 40,
+        "Month": 6
+      },
+      "Image": "VaporousUndazoa.png",
+      "Reward": ""
+    },
+    "Panzer Vulpaphyla": {
+      "Origin": "Cambion Drift",
+      "Call": "VulpaphylaPlayerLureCall.ogg",
+      "Codex": "This hardy creature has a collagenous dermis that acts as a thick, protective armor.",
+      "Intro": "A rare Vulpaphyla subspecies that prefers [[Fass (Deimos)|Fass]] appearing almost exclusively during its phase.<br>[[Vulpaphyla (Conservation)|Vulpaphylas]] can be attacked by the Infested before or after sedating, causing them to become ''Weakened''. Capturing a Vulpaphyla in this state allows them to be used as a modular [[Companion]] through a process called Revivification with [[Son]].",
+      "Introduced": "29.0",
+      "Armor": 100,
+      "MinWeight": 11.1,
+      "FullImg": "PanzerVulpaphyla.png",
+      "Notes": "Vulpaphyla Scat marks the track alongside their footprints.",
+      "Rarity": "Rare",
+      "TranqsNeeded": 3,
+      "Standing": 0,
+      "Faction": "Predator",
+      "MinAge": {
+        "Year": 0,
+        "Month": 9
+      },
+      "MaxWeight": 15,
+      "Health": 100,
+      "CodexScans": 20,
+      "Family": "Vulpaphyla",
+      "MaxAge": {
+        "Year": 1,
+        "Month": 2
+      },
+      "Image": "PanzerVulpaphyla.png",
+      "Reward": ""
+    },
+    "Caustic Cryptilex": {
+      "Origin": "Cambion Drift",
+      "Call": "CryptilexPlayerLureCall.ogg",
+      "Codex": "The most dangerous Cryptilex. They have glands in their abdomens that can emit an acidic spray.",
+      "MaxAge": {
+        "Year": 1,
+        "Month": 2
+      },
+      "Introduced": "29.0",
+      "Armor": 50,
+      "MinWeight": 0.02,
+      "FullImg": "CausticCryptilex.png",
+      "Notes": "A very rare Cryptilex subspecies.",
+      "Rarity": "Rare",
+      "TranqsNeeded": 1,
+      "Standing": 0,
+      "Faction": "Prey",
+      "MinAge": {
+        "Year": 0,
+        "Month": 9
+      },
+      "Health": 1,
+      "CodexScans": 20,
+      "Family": "Cryptilex",
+      "MaxWeight": 0.08,
+      "Image": "CausticCryptilex.png",
+      "Reward": ""
+    },
+    "Brindle Kubrodon": {
+      "Origin": "Orb Vallis",
+      "Call": "KubrodonCall.ogg",
+      "Codex": "The apex predator of the Venusian plains. These massively framed beasts travel in groups and mark the territory surrounding Orokin cooling towers as their own. Kubrodons are a danger best avoided.",
+      "Intro": "True to its status as the apex predator, the Kubrodon's more acute sense of smell allows them to locate their pursuers, and will use a ramming attack to make good their escape. Must be shot twice with the Tranq Rifle to be brought down. <br><br>Additionally, Kubrodons are 75% resistant to all Warframe abilities. For example, when using {{WF|Ivara}}’s [[Quiver|Sleep Arrow]] to put a Kubrodon to sleep, the [[Ability Duration]] will be a quarter (1/4) of its full duration (Ivara’s Sleep Arrow with Maximized Ability Duration: 30.6 seconds ÷ 4 = 7.65 seconds). Their resistance can accumulate, causing consecutive use of the same ability to have even less duration, eventually becoming outright immune.<br><br>Despite being mentioned to travel in groups, only one Kubrodon will respond to the lure's call.",
+      "Introduced": "24.0",
+      "Armor": 50,
+      "MinWeight": 0,
+      "FullImg": "KubrodonCommon.png",
+      "Notes": "A common Kubrodon subspecies.",
+      "Rarity": "Common",
+      "TranqsNeeded": 2,
+      "Standing": 1000,
+      "Faction": "Neutral",
+      "MinAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "MaxWeight": 0,
+      "Health": 1000,
+      "CodexScans": 20,
+      "Family": "Kubrodon",
+      "MaxAge": {
+        "Year": 0,
+        "Month": 0
+      },
+      "Image": "KubrodonCommon.png",
+      "Reward": "Solaris United Standing"
+    }
+  }
+}

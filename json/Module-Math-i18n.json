@@ -1,0 +1,19 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Math/i18n",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:40:06.729Z"
+  },
+  "_comments": "-- <nowiki>",
+  "en": {
+    "no-argument": "Not enough input arguments | $1"
+  },
+  "qqq": {
+    "no-argument": "Error message when no arguments are passed into function."
+  },
+  "es": {
+    "no-argument": "No hay suficientes argumentos de entrada | $1"
+  }
+}

@@ -1,0 +1,758 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Ability/Conclave/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:11:50.998Z"
+  },
+  "_comments": "\t--Ash\n\t--Atlas\n\t--Banshee\n\t--Chroma\n\t--Ember\n\t--Equinox\n\t--Excalibur\n\t--Umbra's Radial Blind\n\t--Frost\n\t--Gara\n\t--Garuda\n\t--Harrow\n\t--Hydroid\n\t--Inaros\n\t--Ivara\n\t--Khora\n\t--Limbo\n\t--Loki\n\t--Mag\n\t--Mesa\n\t--Mirage\n\t--Nekros\n\t--Nezha\n\t--Nidus\n\t--Nova\n\t--Nyx\n\t--Oberon\n\t--Octavia\n\t--Revenant\n\t--Rhino\n\t--Saryn\n\t--Titania\n\t--Trinity\n\t--Valkyr\n\t--Vauban\n\t--Volt\n\t--Wukong\n\t--Zephyr",
+  "Ability": {
+    "Stasis": {
+      "Description": "Freezes Rift-bound enemies. While active, enemy projectiles are arrested in mid-air, resuming its trajectory when stasis ends.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Dread Mirror": {
+      "Description": "",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Crush": {
+      "Description": "Magnetizes the bones of nearby enemies, causing them to collapse upon themselves.",
+      "Key": 4,
+      "Cost": 100
+    },
+    "Razorwing": {
+      "Description": "Shrink down and take flight, while razorflies attack nearby enemies.",
+      "Key": 4,
+      "Cost": 25
+    },
+    "Minelayer": {
+      "Description": "Cycle through four deployable trap mines: Bounce, Trip Laser, Shred and Concuss.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Warding Halo": {
+      "Description": "Create a protective ring of fire that damages opponents who get too close.",
+      "Key": 3,
+      "Cost": 75
+    },
+    "Vex Armor": {
+      "Description": "When shields are hit, Chroma's armor grows stronger, when health takes a hit, weapon damage increases. Active for a limited time, maximum increases corresponding to rank.",
+      "Key": 3,
+      "Cost": 75
+    },
+    "Radial Blind": {
+      "Description": "Emits a bright flash of light, blinding all enemies in a small radius for several seconds.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Shooting Gallery": {
+      "Description": "Removes ammo from opponent's clip and gives it to Mesa.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Artemis Bow": {
+      "Description": "Summon a mighty bow and unleash a volley of devastating arrows.",
+      "Key": 4,
+      "Cost": 50
+    },
+    "Radial Javelin": {
+      "Description": "Launches javelins towards enemies, dealing high damage and impaling them to walls.",
+      "Key": 3,
+      "Cost": 75
+    },
+    "Danse Macabre": {
+      "Description": "",
+      "Key": 4,
+      "Cost": 25
+    },
+    "Sound Quake": {
+      "Description": "Channeling all of her acoustic energy into the environment, Banshee uses ultrasonic reverberations to violently shake the ground.",
+      "Key": 4,
+      "Cost": 25
+    },
+    "Rift Surge": {
+      "Description": "Surges nearby Rift-bound enemies with Rift energy. When killed the Rift Surge is transferred to a nearby enemy outside the rift. Surged enemies that leave the Rift perform a radial Banish.",
+      "Key": 3,
+      "Cost": 50
+    },
+    "Cataclysm": {
+      "Description": "A violent blast of void energy tears open a pocket of rift plane which can sustain itself for a short period before collapsing in another lethal blast.",
+      "Key": 4,
+      "Cost": 100
+    },
+    "Fireball": {
+      "Description": "Charge and release a fiery projectile that ignites enemies on contact and leaves behind a treacherous patch of flame.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Mend & Maim": {
+      "Description": "In Night Form, allies are healed with each nearby enemy killed. In Day Form, nearby enemies are bled and then subjected to a wave of slashing force.",
+      "Key": 4,
+      "Cost": 50
+    },
+    "Magnetize": {
+      "Description": "Creates a magnetic field around a target that attracts any weapon fire that hits it and deals damage over time.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Sonar": {
+      "Description": "Using acoustic location, Banshee's Sonar power finds and tracks enemies, and exposes critical weak spots to everyone in your squad.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Sandstorm": {
+      "Description": "Become an invulnerable whirling spiral of sand that knocks opponents down.",
+      "Key": 3,
+      "Cost": 75
+    },
+    "Discharge": {
+      "Description": "Paralyze nearby hostiles with a damaging electric charge, this also shocks approaching enemies.",
+      "Key": 4,
+      "Cost": 100
+    },
+    "Ballistic Battery": {
+      "Description": "When activated, this power stores damage caused by guns. When triggered again, that damage is channeled through the next gunshot.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Molt": {
+      "Description": "Shedding her skin like a snake, Saryn leaves a decoy behind that attracts nearby weapon fire.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Blade Storm": {
+      "Description": "Project fierce shadow clones of Ash upon groups of distant enemies. Join the fray using Teleport.",
+      "Key": 4,
+      "Cost": 0
+    },
+    "Shuriken": {
+      "Description": "Launchers a homing blade of pain, dealing Puncture Damage.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Blessing": {
+      "Description": "Restore the health and shields of allies within Trinity's Affinity aura while giving them some damage resistance.",
+      "Key": 4,
+      "Cost": 100
+    },
+    "Mass Vitrify": {
+      "Description": "Create an expanding ring of molten glass that slowly crystallizes enemies who enter. When the expansion is complete, the ring hardens to block weapons fire. The ring draws extra strength from the health and shields of crystallized enemies. Use Shattered Lash to smash the ring and send razor-sharp glass flying outward.",
+      "Key": 4,
+      "Cost": 75
+    },
+    "Parasitic Link": {
+      "Description": "Bind to a target with a parasitic link. For allies, both the host and Nidus deal increased damage. Linked enemies take the damage inflicted on Nidus.",
+      "Key": 3,
+      "Cost": 0
+    },
+    "Quiver": {
+      "Description": "Cycle through and shoot one of three tactical arrows: Cloak, Null-Shield, and Encumbered Arrows.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Worm Hole": {
+      "Description": "Creates a wormhole allowing instantaneous travel.",
+      "Key": 3,
+      "Cost": 75
+    },
+    "Hall Of Mirrors": {
+      "Description": "Mirage creates an entourage of doppelgangers to confuse and distract the enemy.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Switch Teleport": {
+      "Description": "Loki instantaneously swaps positions with a target, confusing the enemy.",
+      "Key": 3,
+      "Cost": 25
+    },
+    "Desiccation": {
+      "Description": "Blast enemies with a wave of cursed sand that blinds them and steals their health.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Thurible": {
+      "Description": "Channel Harrow’s energy into the Thurible to generate a buff. Once finished, kill enemies to bestow nearby allies with bursts of energy. The more energy channeled the greater the reward for each kill. Headshots produce extra energy.",
+      "Key": 3,
+      "Cost": 25
+    },
+    "Peacemaker": {
+      "Description": "With intense focus, Mesa draws her Regulator pistols, shooting down her foes in rapid succession.",
+      "Key": 4,
+      "Cost": 25
+    },
+    "Defy": {
+      "Description": "Escape death by receiving a boost of health when killed.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Avalanche": {
+      "Description": "Summons a treacherous landslide of ice that instantly freezes and shatters all enemies in its radius.",
+      "Key": 4,
+      "Cost": 100
+    },
+    "Miasma": {
+      "Description": "Releases a poisonous miasma that deals Viral damage to enemies in range. Foes afflicted by spores are more susceptible to the mist.",
+      "Key": 4,
+      "Cost": 75
+    },
+    "Divine Spears": {
+      "Description": "Impale nearby enemies on spears that erupt from the below. Activate again to slam surviving enemies back into the ground.",
+      "Key": 4,
+      "Cost": 100
+    },
+    "Hallowed Ground": {
+      "Description": "Sanctifies the ground before Oberon with righteous fire, inflicting damage to any enemy that stands in the flames.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Energy Vampire": {
+      "Description": "Allies will gain energy over time when enemies are marked with Energy Vampire.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Terrify": {
+      "Description": "Casts fear into the hearts of nearby enemies, causing them to deal less damage.",
+      "Key": 2,
+      "Cost": 75
+    },
+    "Reckoning": {
+      "Description": "Quickly lifts enemies into the air and then hurls them down with conviction. Enemies who succumb to this power have a chance to spawn a Health Sphere.",
+      "Key": 4,
+      "Cost": 100
+    },
+    "Undertow": {
+      "Description": "Become a water trap, opponents that come into contact will be knocked down if they attempt to jump.",
+      "Key": 3,
+      "Cost": 15
+    },
+    "Tesla": {
+      "Description": "Launches a grenade that holds an electrical charge, zapping enemies that come within range.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Metamorphosis": {
+      "Description": "Switch forms, temporarily gaining bonus shields and armor in Night-Form, or bonus damage and speed in Day-Form.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Blazing Chakram": {
+      "Description": "Hurl a flaming ring that sets enemies ablaze making them vulnerable to any damage. Flaming enemies drop Restorative Orbs on death. Reactivate to instantly travel to the ring's location.",
+      "Key": 2,
+      "Cost": 25
+    },
+    "Primal Fury": {
+      "Description": "Summon the Iron Staff and unleash fury.",
+      "Key": 4,
+      "Cost": 25
+    },
+    "Iron Jab": {
+      "Description": "Explode the Iron Staff to its true length, knocking down anything in its path.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Sonic Boom": {
+      "Description": "Banshee emits a sonic shockwave that knocks down targets in range.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Navigator": {
+      "Description": "Assume control of a projectile and guide it to the target.",
+      "Key": 2,
+      "Cost": 25
+    },
+    "Spectrorage": {
+      "Description": "Trap enemies in a carousel of mirrors, forcing them to attack visions of their true selves. Destroyed mirrors damage their attackers, as does the collapse of the carousel.",
+      "Key": 3,
+      "Cost": 75
+    },
+    "Mallet": {
+      "Description": "Rhythmically beats damage into nearby enemies and draws their fire. Damage inflicted on the Mallet increases its lethality.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Seeking Talons": {
+      "Description": "",
+      "Key": 4,
+      "Cost": 100
+    },
+    "Ice Wave": {
+      "Description": "Sends a wave of razor sharp, crystallized ice toward an enemy, dealing heavy damage.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Penance": {
+      "Description": "Sacrifice shields to boost reload, and fire rate while converting damage inflicted on enemies into health for Harrow and nearby allies.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Bloodletting": {
+      "Description": "",
+      "Key": 3,
+      "Cost": 0
+    },
+    "Paralysis": {
+      "Description": "Valkyr unleashes her shields, stunning and damaging enemies around her.",
+      "Key": 3,
+      "Cost": 5
+    },
+    "World On Fire": {
+      "Description": "Blast nearby foes with a burst of fire, and follow that up with a barrage of fireballs against any enemy who dares approach. Over time, these fireballs burn hotter as they consume more energy.",
+      "Key": 4,
+      "Cost": 50
+    },
+    "Shatter Shield": {
+      "Description": "Envelops Mesa in a barrier of energy, reflecting back incoming bullet damage.",
+      "Key": 3,
+      "Cost": 75
+    },
+    "Bastille": {
+      "Description": "Creates an energy-based containment field that slows down any opponents who enter.",
+      "Key": 3,
+      "Cost": 75
+    },
+    "Rip Line": {
+      "Description": "Valkyr hurls forth a hook. If it hits an opponent, they are knocked down and damaged. If it hits terrain, she pulls herself to the hook's location.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Tempest Barrage": {
+      "Description": "Target an area and call down a barrage of liquid fury. Charge this attack to increase the lethality of the onslaught.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Freeze": {
+      "Description": "A frigid energy blast that freezes targets in their tracks.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Larva": {
+      "Description": "Spawn an Infested pod that erupts with tendrils, latches onto nearby enemies and pulls them in.",
+      "Key": 2,
+      "Cost": 25
+    },
+    "Accelerant": {
+      "Description": "Stun nearby enemies with strong accelerant. Increases all fire damage dealt.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Teleport": {
+      "Description": "Ash teleports towards the target, bringing him into melee range.",
+      "Key": 3,
+      "Cost": 25
+    },
+    "Soul Punch": {
+      "Description": "A powerful blow that knocks down opponents.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Antimatter Drop": {
+      "Description": "Launches a contained particle of antimatter that will detonate upon collision with increased deadliness when targeted by weapons.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Effigy": {
+      "Description": "Chroma turns his pelt into a massive sentry that strengthens nearby allies and engulfs enemies in elemental attacks.",
+      "Key": 4,
+      "Cost": 50
+    },
+    "Splinter Storm": {
+      "Description": "Gara's armor splinters into a maelstrom of shattered glass that slices enemies and impairs their weapons. Allies who contact the cloud are fortified against damage.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Reave": {
+      "Description": "",
+      "Key": 3,
+      "Cost": 50
+    },
+    "Shattered Lash": {
+      "Description": "Lash out with stream of shattered glass, or hold for an arcing strike.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Smoke Screen": {
+      "Description": "Drops a smoke bomb rendering Ash invisible for a short time. Invisibility is broken on firing any weapon or using any ability, picking up health/energy/ammo and taking damage.",
+      "Key": 2,
+      "Cost": 35
+    },
+    "Amp": {
+      "Link": "",
+      "Description": "Draws power from the decibel level of sound in the area and uses it to amplify a damage buff for Octavia and her allies. It also doubles the damage and range of nearby Mallets.",
+      "Key": 4,
+      "Cost": 100
+    },
+    "Cloud Walker": {
+      "Description": "Evaporate into a cloud of mist and float through the battlefield.",
+      "Key": 3,
+      "Cost": 25
+    },
+    "Scarab Swarm": {
+      "Description": "Charge to transform health into hardened scarab armor. Discharge to blast enemies with a scarab swarm. Survivors have their health drained and bestowed on allies.",
+      "Key": 4,
+      "Cost": 25
+    },
+    "Tentacle Swarm": {
+      "Description": "Tap to spawn watery tentacles from all nearby surfaces to wreak havoc. Charge to increase the number of tentacles and spawn area. Use while in Undertow to have the tentacles emerge from the pool.",
+      "Key": 4,
+      "Cost": 50
+    },
+    "Null Star": {
+      "Description": "Creates anti-matter particles that seek nearby opponents and remove their Energy.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Well Of Life": {
+      "Description": "Create a well of life on an enemy. Allies will gain health when damaging the target.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Spellbind": {
+      "Description": "Opponents are forced to equip their Melee Weapons, nearby allies become immune to Status Effects.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Enthrall": {
+      "Description": "",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Landslide": {
+      "Description": "Bash enemies with an exploding sliding punch, and repeat for a devastating combo. Petrified enemies take extra damage, and drop Rubble when destroyed. Rubble can heal Atlas and bolster his armor.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Roar": {
+      "Description": "Grants all nearby Warframes increased damage for a short duration.",
+      "Key": 3,
+      "Cost": 75
+    },
+    "Strangledome": {
+      "Description": "Weave a dome of living chain that ensnares and strangles any enemy within, and any foolish enough to approach. Foes outside the trap will try to hasten their comrade's deaths by shooting them. Crack Whipclaw on the dome to further damage any trapped enemies.",
+      "Key": 4,
+      "Cost": 100
+    },
+    "Tornado": {
+      "Description": "Create deadly tornadoes that seek out and engulf enemies. Tornadoes deal the elemental damage type they absorb the most. Shoot enemies engulfed in Tornadoes to do additional damage.",
+      "Key": 4,
+      "Cost": 100
+    },
+    "Airburst": {
+      "Description": "Generate a burst of massively dense air that explodes on contact and sends enemies flying. Launch Airbursts into Tornadoes to make them grow.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Tail Wind": {
+      "Description": "From the ground, charge and release to launch Zephyr into an airborne hover. From the air, tap to dash forward, or aim down to dive bomb enemies below.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Decoy": {
+      "Description": "Loki deploys a holographic copy of himself equipped with his Primary Weapon.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Ravenous": {
+      "Description": "Gluttonous maggots swarm nearby enemies, feasting until they are hit with Virulence burst with Infestation. The maggots benefit from Mutation and each enemy hit adds to the Mutation stack.",
+      "Key": 4,
+      "Cost": 0
+    },
+    "Blood Altar": {
+      "Description": "",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Pacify & Provoke": {
+      "Description": "In Night Form reduces damage inflicted by nearby enemies. In Day Form increases Ability Strength of nearby allies.",
+      "Key": 3,
+      "Cost": 10
+    },
+    "Speed": {
+      "Description": "Gain a brief boost of movement and and Melee attack speed.",
+      "Key": 2,
+      "Cost": 25
+    },
+    "Metronome": {
+      "Description": "Grants buffs to those who consistently perform actions in time to Octavia’s music. Timed jumps offer the Vivace speed buff. Crouching on the beat grants cloaking with the Nocturne buff. Firing rhythmically bestows Opera multishot buff. Timed melee swings give the Forte damage buff.",
+      "Key": 3,
+      "Cost": 75
+    },
+    "Shock": {
+      "Description": "Launches a shocking projectile. It stuns and deals high damage to a single target and chains damage to nearby enemies.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Vortex": {
+      "Description": "Creates a whirling mass of energy that knocks down and damages nearby opponents.",
+      "Key": 4,
+      "Cost": 100
+    },
+    "Hysteria": {
+      "Description": "Valkyr is imbued with energy and becomes a ball of vicious rage, capable of unleashing a torrent of deadly claw attacks on unsuspecting foes.",
+      "Key": 4,
+      "Cost": 25
+    },
+    "Silence": {
+      "Description": "Using Silence will cancel any active Abilities of opponents in range and won't allow them to cast for the duration.",
+      "Key": 3,
+      "Cost": 75
+    },
+    "Toxic Lash": {
+      "Description": "Increase ranged and melee damage.",
+      "Key": 3,
+      "Cost": 50
+    },
+    "Chaos": {
+      "Description": "With a powerful psychic blast, Nyx causes all affected to see other player as opponents and can damage/kill their teammates.",
+      "Key": 3,
+      "Cost": 75
+    },
+    "Elemental Ward": {
+      "Description": "Depending on Chroma's elemental alignment, an offensive area-of-effect is created. Chroma and his nearby allies are imbued with defensive energy.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Lantern": {
+      "Description": "Create a swarm of razorflies that lifts an opponent into the air and eventually explode. Damaging suspended targets will end the suspension prematurely and drop the target without dealing any damage.",
+      "Key": 3,
+      "Cost": 75
+    },
+    "Tribute": {
+      "Description": "Staggers opponents and reduces their damage.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Spores": {
+      "Description": "Inflicts opponents with Viral damage over time.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Link": {
+      "Description": "Any damage taken while Link is active will be channeled to a nearby enemy.",
+      "Key": 3,
+      "Cost": 75
+    },
+    "Turbulence": {
+      "Description": "Creates a wind shield around Zephyr, redirecting all incoming projectiles.",
+      "Key": 3,
+      "Cost": 75
+    },
+    "Banish": {
+      "Description": "Casts a wave of Rift energy that damages hostiles while pushing enemies and allies out of Limbo’s current plane of existence.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Eclipse": {
+      "Description": "Standing in light, Mirage deals heavy damage, while the shadows make Mirage difficult to track and even harder to hurt.",
+      "Key": 3,
+      "Cost": 25
+    },
+    "Spectral Scream": {
+      "Description": "Exhale a deep breath of elemental destruction. Chroma's energy color determines the element.",
+      "Key": 1,
+      "Cost": 10
+    },
+    "Covenant": {
+      "Description": "Protect nearby allies with an energy force that absorbs all damage and converts it to a Critical Chance bonus for all those under the Covenant. Headshots are amplified even further.",
+      "Key": 4,
+      "Cost": 100
+    },
+    "Rhino Charge": {
+      "Description": "Rhino charges towards a target, clobbering any in his path and goring his victim.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Mesmer Skin": {
+      "Description": "",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Smite": {
+      "Description": "Focuses deadly energy within a target and then projects it outwards, damaging both the target and surrounding enemies.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Devour": {
+      "Description": "Hold power to trap target in quicksand rendering them unable to jump. Killing an opponent trapped in Quicksand creates a sand pile that can be devoured for Health.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Slash Dash": {
+      "Description": "Dash between enemies while slashing with the Exalted Blade.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Resonator": {
+      "Description": "Launches a rollerball that charms foes to follow it. Combines with the Mallet to create a roving ball of sonic destruction.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Exalted Blade": {
+      "Description": "Summon a sword of pure light and immense power.",
+      "Key": 4,
+      "Cost": 25
+    },
+    "Radial Disarm": {
+      "Description": "Lets forth a wave of energy, forcing opponents to equip their Melee Weapons and depleting their energy.",
+      "Key": 4,
+      "Cost": 100
+    },
+    "Prowl": {
+      "Description": "Become invisible and take out opponents with deadly headshots.",
+      "Key": 3,
+      "Cost": 25
+    },
+    "Absorb": {
+      "Description": "Nyx absorbs all incoming damage and channels that collected energy into an explosive radial discharge.",
+      "Key": 4,
+      "Cost": 25
+    },
+    "Snow Globe": {
+      "Description": "Frost deep freezes any vapor and moisture in the area, creating a protective sphere with brief invulnerability to boost its strength.",
+      "Key": 3,
+      "Cost": 50
+    },
+    "Warcry": {
+      "Description": "Valkyr lets out a rallying cry that bolsters her allies melee speed while slowing down nearby enemies.",
+      "Key": 2,
+      "Cost": 75
+    },
+    "Condemn": {
+      "Description": "Cast a wave of energy that chains them where they stand. Each enemy held reinforces Harrow’s shields.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Tectonics": {
+      "Description": "Summon a rock-wall, activate again to send the rocks crashing towards the enemy.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Mind Control": {
+      "Description": "Nyx invades the psyche of a target, making opponents appear as teammates and teammates as opponents. Target also cannot damage Nyx.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Venari": {
+      "Description": "Command Venari to focus on a target. Hold to cycle between Attack, Protect, and Heal postures. If Venari is killed, use this ability to revive her instantly.",
+      "Key": 3,
+      "Cost": 0
+    },
+    "Molecular Prime": {
+      "Description": "Primes all enemies in a radius with volatile anti-matter.",
+      "Key": 4,
+      "Cost": 100
+    },
+    "Ensnare": {
+      "Description": "Bind a hapless target in living metal, entangling others who stray too close. Whipclaw will refresh the trap allowing it to capture more enemies.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Polarize": {
+      "Description": "Emit an energy pulse that depletes enemy shields and adds it to Mag.",
+      "Key": 3,
+      "Cost": 75
+    },
+    "Radial Howl": {
+      "Description": "Let out a ferocious howl that stuns nearby enemies and causes Sentients to shed any built up resistances.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Rumblers": {
+      "Description": "Summon two elemental stone brawlers to the melee. Summoning petrifies enemies in close proximity to Atlas. When finished, Rumblers collapse into a pile of healing Rubble.",
+      "Key": 4,
+      "Cost": 100
+    },
+    "Fire Walker": {
+      "Description": "Blaze a trail of flames, increasing Movement Speed.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Petrify": {
+      "Description": "Atlas' hardened gaze will fossilize foes, heal Rumblers, and create Petrified Bulwarks. When shattered, petrified enemies drop healing Rubble for Atlas.",
+      "Key": 3,
+      "Cost": 75
+    },
+    "Shadows Of The Dead": {
+      "Description": "Reduces respawn timer of Nekros and his teammates to 0.",
+      "Key": 4,
+      "Cost": 100
+    },
+    "Desecrate": {
+      "Description": "Forces fallen enemies around you to drop a Health Orb and are also visible to Nekros on respawn.",
+      "Key": 3,
+      "Cost": 10
+    },
+    "Prism": {
+      "Description": "Fires an energy prism that shoots lasers in all directions. Activating again detonates the prism, blinding nearby foes.",
+      "Key": 4,
+      "Cost": 50
+    },
+    "Iron Skin": {
+      "Description": "Rhino hardens his skin, insulating himself from all damage.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Sleight Of Hand": {
+      "Description": "Booby trap nearby objects while conjuring an irresistible jewel that bursts with radial blind when touched in darkness, or a radial explosion in light. Conjure multiple smaller jewels with the help of Hall of Mirrors.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Whipclaw": {
+      "Description": "Send enemies reeling with a deafening whipcrack.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Virulence": {
+      "Description": "Rupture the ground with a damaging fungal growth that steals energy from each enemy it strikes. For every five enemies hit, the Infestation mutates, multiplying its destructive force.",
+      "Key": 1,
+      "Cost": 40
+    },
+    "Pull": {
+      "Description": "Magnetic force staggers opponents and deals high damage to shields.",
+      "Key": 1,
+      "Cost": 25
+    },
+    "Renewal": {
+      "Description": "Healing waves of energy flow outward from Oberon to his allies, regenerating health over time.",
+      "Key": 3,
+      "Cost": 25
+    },
+    "Invisibility": {
+      "Description": "Loki camouflages himself, becoming invisible to enemies. Camouflage is broken on receiving or dealing damage.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Tidal Surge": {
+      "Description": "Crash through enemies in a ferocious wall of water.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Psychic Bolts": {
+      "Description": "Nyx launches a cluster of force bolts at enemies, using telekinesis to adjust flight paths and seek nearby targets.",
+      "Key": 2,
+      "Cost": 50
+    },
+    "Electric Shield": {
+      "Description": "Volt deploys an obstacle of energy, providing cover in any situation.",
+      "Key": 3,
+      "Cost": 50
+    },
+    "Rest & Rage": {
+      "Description": "In Night Form targets are put to sleep. In Day Form targets become more vulnerable to damage.",
+      "Key": 2,
+      "Cost": 25
+    },
+    "Fire Blast": {
+      "Description": "Slam the ground to create a wave of plasma that incinerates nearby enemies and forms a persistent ring of fire. Add heat damage to weapons by firing them through the ring.",
+      "Key": 3,
+      "Cost": 75
+    },
+    "Rhino Stomp": {
+      "Description": "Rhino stomps with force sufficient to disrupt time, slowing all opponents around him.",
+      "Key": 4,
+      "Cost": 100
+    }
+  }
+}

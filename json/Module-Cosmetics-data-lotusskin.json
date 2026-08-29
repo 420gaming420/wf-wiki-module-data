@@ -1,0 +1,90 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/lotusskin",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:32:55.845Z"
+  },
+  "_comments": "",
+  "Lotus Radiant": {
+    "Type": "Lotus Skin",
+    "Image": "NewWarLotusSkin.png",
+    "Description": "The form Lotus took at the moment of her victory over Ballas.",
+    "Link": "Lotus Radiant",
+    "Name": "Lotus Radiant",
+    "InternalName": "/Lotus/Upgrades/Skins/Lotus/NewWarLotusSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Naberus Lotus": {
+    "Type": "Lotus Skin",
+    "Image": "HalloweenLotusSkin.png",
+    "Description": "A vampiric look for Lotus to wear during the ancient festival of death and mischief.",
+    "Link": "Naberus Lotus",
+    "Name": "Naberus Lotus",
+    "InternalName": "/Lotus/Upgrades/Skins/Lotus/HalloweenLotusSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Natah": {
+    "Type": "Lotus Skin",
+    "Image": "SentientLotusSkin.png",
+    "Description": "The form Natah took when she reverted to her Sentient nature.",
+    "Link": "Natah",
+    "Name": "Natah",
+    "InternalName": "/Lotus/Upgrades/Skins/Lotus/SentientLotusSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Scarred Margulis": {
+    "Type": "Lotus Skin",
+    "Image": "ScarredMargulis.png",
+    "Description": "After being blinded in a tragic accident with one of her charges, Margulis wore the scars as a badge of pride, never turning her back on her beloved children.",
+    "Link": "Scarred Margulis",
+    "Name": "Scarred Margulis",
+    "InternalName": "/Lotus/Upgrades/Skins/Lotus/ScarredLotusSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Lotus Amaga": {
+    "Type": "Lotus Skin",
+    "Image": "LotusAmagaSkin.png",
+    "Description": "Remember wisdom through renewal.",
+    "Link": "Lotus Amaga",
+    "Name": "Lotus Amaga",
+    "InternalName": "/Lotus/Upgrades/Skins/Lotus/XakuDeluxeLotusSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Lotus": {
+    "Type": "Lotus Skin",
+    "Image": "LotusSkin.png",
+    "Description": "A friend to all Tenno, basing her face and voice upon their beloved Archimedean Margulis.",
+    "Link": "Lotus",
+    "Name": "Lotus",
+    "InternalName": "/Lotus/Upgrades/Skins/Lotus/LotusSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Margulis": {
+    "Type": "Lotus Skin",
+    "Image": "UnmaskedLotusSkin.png",
+    "Description": "Modeled on the Tenno's beloved Archimedean Margulis to honor her memory and give them comfort.",
+    "Link": "Margulis",
+    "Name": "Margulis",
+    "InternalName": "/Lotus/Upgrades/Skins/Lotus/UnmaskedLotusSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Eidolon Lotus": {
+    "Type": "Lotus Skin",
+    "Image": "EidolonLotusSkin.png",
+    "Description": "Partially regenerated and subsisting on Archon Shard energy.",
+    "Link": "Eidolon Lotus",
+    "Name": "Eidolon Lotus",
+    "InternalName": "/Lotus/Upgrades/Skins/Lotus/EidolonLotusSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/atomicyclelivery",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:32:08.874Z"
+  },
+  "_comments": "",
+  "All City Livery": {
+    "Type": "Livery",
+    "Description": "Rep the streets with this graffiti inspired livery.",
+    "Link": "All City Livery",
+    "ExcludeFromCodex": false,
+    "Image": "AllCityLivery.png",
+    "Name": "All City Livery",
+    "Introduced": "38",
+    "InternalName": "/Lotus/Upgrades/Skins/Motorcycle/MotorcycleGraffitiSkin",
+    "CodexSecret": false
+  },
+  "Finish Line Livery": {
+    "Type": "Livery",
+    "Description": "A race inspired livery for the Atomicycle.",
+    "Link": "Finish Line Livery",
+    "ExcludeFromCodex": false,
+    "Image": "FinishLineLivery.png",
+    "Name": "Finish Line Livery",
+    "Introduced": "38",
+    "InternalName": "/Lotus/Upgrades/Skins/Motorcycle/MotorcycleRacingSkin",
+    "CodexSecret": false
+  },
+  "Cafe Racer Livery": {
+    "Type": "Livery",
+    "Description": "Stripped down and souped up, this livery is ready for a streetrace. ",
+    "Link": "Cafe Racer Livery",
+    "ExcludeFromCodex": false,
+    "Image": "CafeRacerLivery.png",
+    "Name": "Cafe Racer Livery",
+    "Introduced": "38",
+    "InternalName": "/Lotus/Upgrades/Skins/Motorcycle/MotorcycleNakedBikeSkin",
+    "CodexSecret": false
+  },
+  "Nightwave Livery": {
+    "Type": "Livery",
+    "Description": "Dreamers, are you ready to ride? Cruise the streets of Höllvania with this Nightwave themed livery.",
+    "Link": "Nightwave Livery",
+    "ExcludeFromCodex": false,
+    "Image": "NightwaveLivery.png",
+    "Name": "Nightwave Livery",
+    "Introduced": "38",
+    "InternalName": "/Lotus/Upgrades/Skins/Motorcycle/MotorcycleNightwaveSkin",
+    "CodexSecret": false
+  },
+  "Neon Nights Livery": {
+    "Type": "Livery",
+    "Description": "Strips of neon illuminate this sleek Atomicycle livery.",
+    "Link": "Neon Nights Livery",
+    "ExcludeFromCodex": false,
+    "Image": "NeonNightsLivery.png",
+    "Name": "Neon Nights Livery",
+    "Introduced": "38",
+    "InternalName": "/Lotus/Upgrades/Skins/Motorcycle/MotorcycleLightsSkin",
+    "CodexSecret": false
+  },
+  "Dichrome Livery": {
+    "Type": "Livery",
+    "Description": "A color shifting livery for the Atomicycle.",
+    "Link": "Dichrome Livery",
+    "ExcludeFromCodex": false,
+    "Image": "DichromeLivery.png",
+    "Name": "Dichrome Livery",
+    "Introduced": "38",
+    "InternalName": "/Lotus/Upgrades/Skins/Motorcycle/MotorcycleColourShiftSkin",
+    "CodexSecret": false
+  },
+  "Ollie's Rocket Livery": {
+    "Type": "Livery",
+    "Description": "Just try to be as cool as Ollie with this signature Atomicycle livery.",
+    "Link": "Ollie's Rocket Livery",
+    "ExcludeFromCodex": false,
+    "Image": "Ollie'sRocketLivery.png",
+    "Name": "Ollie's Rocket Livery",
+    "Introduced": "38",
+    "InternalName": "/Lotus/Upgrades/Skins/Motorcycle/MotorcycleOllieSkin",
+    "CodexSecret": false
+  },
+  "Standard Livery": {
+    "Type": "Livery",
+    "Description": "The factory created livery of the Atomicycle.",
+    "Link": "Standard Livery",
+    "ExcludeFromCodex": true,
+    "Image": "StandardLivery.png",
+    "Name": "Standard Livery",
+    "Introduced": "38",
+    "InternalName": "/Lotus/Upgrades/Skins/Motorcycle/MotorcycleDefaultSkin",
+    "CodexSecret": false
+  },
+  "Barracuda Livery": {
+    "Type": "Livery",
+    "Description": "Customize your Atomicycle with this voracious livery.",
+    "Link": "Barracuda Livery",
+    "ExcludeFromCodex": false,
+    "Image": "BarracudaLivery.png",
+    "Name": "Barracuda Livery",
+    "Introduced": "38",
+    "InternalName": "/Lotus/Upgrades/Skins/Motorcycle/MotorcycleMonsterSkin",
+    "CodexSecret": false
+  },
+  "Monostar Livery": {
+    "Type": "Livery",
+    "Description": "An Atomicycle out of time.",
+    "Link": "Monostar Livery",
+    "ExcludeFromCodex": false,
+    "Image": "MonostarLivery.png",
+    "Name": "Monostar Livery",
+    "Introduced": "38",
+    "InternalName": "/Lotus/Upgrades/Skins/Motorcycle/MotorcycleTennoSkin",
+    "CodexSecret": false
+  },
+  "Rust Belt Livery": {
+    "Type": "Livery",
+    "Description": "Scratches mean nothing to this rough and ready Atomicycle livery.",
+    "Link": "Rust Belt Livery",
+    "ExcludeFromCodex": false,
+    "Image": "RustBeltLivery.png",
+    "Name": "Rust Belt Livery",
+    "Introduced": "38",
+    "InternalName": "/Lotus/Upgrades/Skins/Motorcycle/MotorcycleRustSkin",
+    "CodexSecret": false
+  },
+  "Korrosive Kore Livery": {
+    "Type": "Livery",
+    "Description": "Green flames dance across this Atomicycle livery.",
+    "Link": "Korrosive Kore Livery",
+    "ExcludeFromCodex": false,
+    "Image": "KorrosiveKoreLivery.png",
+    "Name": "Korrosive Kore Livery",
+    "Introduced": "38",
+    "InternalName": "/Lotus/Upgrades/Skins/Motorcycle/MotorcycleFlamesSkin",
+    "CodexSecret": false
+  },
+  "Rapidmed Livery": {
+    "Type": "Livery",
+    "Description": "Be first on the scene with this medic inspired Atomicycle livery.",
+    "Link": "Rapidmed Livery",
+    "ExcludeFromCodex": false,
+    "Image": "RapidmedLivery.png",
+    "Name": "Rapidmed Livery",
+    "Introduced": "38",
+    "InternalName": "/Lotus/Upgrades/Skins/Motorcycle/MotorcycleMedicSkin",
+    "CodexSecret": false
+  },
+  "Prisma Livery": {
+    "Type": "Livery",
+    "Description": "The Void-hardened Prisma crystals of this Atomicyle livery light up the night with a captivating gleam.",
+    "Link": "Prisma Livery",
+    "ExcludeFromCodex": false,
+    "Image": "PrismaLivery.png",
+    "Name": "Prisma Livery",
+    "Introduced": "38",
+    "InternalName": "/Lotus/Upgrades/Skins/Motorcycle/MotorcyclePrismaSkin",
+    "CodexSecret": false
+  }
+}

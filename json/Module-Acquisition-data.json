@@ -1,0 +1,4086 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Acquisition/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:12:56.478Z"
+  },
+  "_comments": "--------------------------------------- Warframes ---------------------------------------\n\t\t\t--{Part = \"Systems Blueprint\", Chance = 0.0545, Desc = \"Stage 4, Lvl 50-70\", Unit = \"Cetus Bounties\"},\n\t\t\t--{Part = \"Systems Blueprint\", Chance = 0.0545, Desc = \"Stage 4, Lvl 50-70\", Unit = \"Orb Vallis Bounties\"},\n\t\t\t--{Part = \"Chassis Blueprint\", Chance = 0.0545, Desc = \"Stage 4, Lvl 50-70\", Unit = \"Cetus Bounties\"},\n\t\t\t--{Part = \"Chassis Blueprint\", Chance = 0.0545, Desc = \"Stage 4, Lvl 50-70\", Unit = \"Orb Vallis Bounties\"},\n\t\t\t--{Part = \"Neuroptics Blueprint\", Chance = 0.0545, Desc = \"Stage 4, Lvl 50-70\", Unit = \"Cetus Bounties\"},\n\t\t\t--{Part = \"Neuroptics Blueprint\", Chance = 0.0545, Desc = \"Stage 4, Lvl 50-70\", Unit = \"Orb Vallis Bounties\"},\n---------------------------------------- Weapons ----------------------------------------\n\t-- A --\n\t-- B --\n\t-- C --\n\t-- D --\n\t-- E --\n\t-- F --\n\t-- G --\n\t-- H --\n\t-- I --\n\t-- K --\n\t-- L --\n\t-- M --\n\t-- N --\n\t-- O --\n\t-- P --\n\t-- Q --\n\t-- S --\n\t-- T --\n\t-- V --\n\t-- W --\n\t-- Y --\n\t-- Z --\n---------------------------------------- Arcanes ----------------------------------------\n------------------------------------- Landing Craft -------------------------------------\n-------------------------------------------------------- Other --------------------------------------------------------",
+  "XakuA": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0857,
+        "Desc": "Stage 2 & 3, Lvl 40-60"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0667,
+        "Desc": "Stage 4, Lvl 40-60"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.1304,
+        "Desc": "Stage 5, Lvl 40-60"
+      }
+    ],
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.075,
+        "Desc": "Stage 2, Lvl 15-25"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.1,
+        "Desc": "Stage 3, Lvl 15-25"
+      }
+    ],
+    [
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.075,
+        "Desc": "Stage 2 & 3, Lvl 30-40"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.06,
+        "Desc": "Stage 4, Lvl 30-40"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.1,
+        "Desc": "Stage 5, Lvl 30-40"
+      }
+    ]
+  ],
+  "Ambassador": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.1667,
+        "Desc": "Lu-Yan ([[Survival]]), [[Veil Proxima]]"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.0833,
+        "Desc": "Luckless Expanse ([[Survival]]), [[Venus Proxima]]<br />Enkidu Ice Drifts ([[Survival]]), [[Neptune Proxima]]<br />Fenton's Field ([[Survival]]), [[Pluto Proxima]]"
+      }
+    ],
+    [
+      {
+        "Part": "Barrel Blueprint",
+        "Chance": 0.05,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Receiver Blueprint",
+        "Chance": 0.05,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Stock Blueprint",
+        "Chance": 0.05,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "CalibanB": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Cetus Bounties",
+        "Chance": 0.0811,
+        "Desc": "Stage 2, Lvl 50-70"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Cetus Bounties",
+        "Chance": 0.0811,
+        "Desc": "Stage 3, Lvl 50-70"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Cetus Bounties",
+        "Chance": 0.075,
+        "Desc": "Final Stage, Lvl 50-70"
+      }
+    ],
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Orb Vallis Bounties",
+        "Chance": 0.0811,
+        "Desc": "Stage 2, Lvl 50-70"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Orb Vallis Bounties",
+        "Chance": 0.0811,
+        "Desc": "Stage 3, Lvl 50-70"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Orb Vallis Bounties",
+        "Chance": 0.075,
+        "Desc": "Final Stage, Lvl 50-70"
+      }
+    ]
+  ],
+  "Residual Malodor2": [
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.25,
+        "Desc": "Normal - Final Stage"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage One's",
+        "Chance": 0.5,
+        "Desc": "Arcana - Stage 1"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Two's",
+        "Chance": 0.3125,
+        "Desc": "Arcana - Stage 2"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Three's",
+        "Chance": 0.3125,
+        "Desc": "Arcana - Stage 3"
+      }
+    ]
+  ],
+  "Primary Merciless": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1667,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "Seer": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.3872,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Barrel",
+        "Chance": 0.3872,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Receiver",
+        "Chance": 0.2256,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "Shedu": [
+    [
+      {
+        "Part": "Barrel",
+        "Chance": 0.01,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Chassis",
+        "Chance": 0.01,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Handle",
+        "Chance": 0.01,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Receiver",
+        "Chance": 0.01,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "Arcane Awakening": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1825,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1463,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "RevenantB": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0851,
+        "Desc": "Stage 2, Lvl 30-50"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0851,
+        "Desc": "Stage 3, Lvl 30-50"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0833,
+        "Desc": "Stage 4, Lvl 30-50"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.1905,
+        "Desc": "Stage 5, Lvl 30-50"
+      }
+    ],
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0676,
+        "Desc": "Stage 4, Lvl 40-60"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.102,
+        "Desc": "Stage 5, Lvl 40-60"
+      }
+    ],
+    [
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0968,
+        "Desc": "Stage 2, Lvl 20-40"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0968,
+        "Desc": "Stage 3, Lvl 20-40"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.2195,
+        "Desc": "Stage 4, Lvl 20-40"
+      }
+    ]
+  ],
+  "Imperator Vandal": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.1,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Barrel",
+        "Chance": 0.1,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Receiver",
+        "Chance": 0.1,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "Arcane Bodyguard": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.05,
+        "Unit": "A Rotations"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.05,
+        "Unit": "B Rotations"
+      }
+    ]
+  ],
+  "Secondary Deadhead": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1667,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "Forma": [
+    [
+      {
+        "Chance": 0.025,
+        "Mission": "Sortie"
+      }
+    ],
+    [
+      {
+        "Chance": 0.005,
+        "Unit": "C Rotations",
+        "Desc": "[[Earth]]",
+        "Mission": "Sabotage"
+      }
+    ],
+    [
+      {
+        "Chance": 0.125,
+        "Desc": "Variant 1",
+        "Mission": "Rare Orokin Storage Container"
+      }
+    ],
+    [
+      {
+        "Chance": 1,
+        "Desc": "Variant 2",
+        "Mission": "Rare Orokin Storage Container"
+      }
+    ],
+    [
+      {
+        "Chance": 1,
+        "Mission": "Reinforced Orokin Storage Container"
+      }
+    ]
+  ],
+  "Stubba": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.5,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0469,
+        "Desc": "Stage 2, Lvl 15-25"
+      },
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0469,
+        "Desc": "Stage 3, Lvl 15-25"
+      },
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0412,
+        "Desc": "Stage 4, Lvl 15-25"
+      },
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0595,
+        "Desc": "Stage 5, Lvl 15-25"
+      }
+    ]
+  ],
+  "Theorem Infection3": [
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.15,
+        "Desc": "Normal - Final Stage"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Two's",
+        "Chance": 0.1875,
+        "Desc": "Arcana - Stage 2"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Three's",
+        "Chance": 0.1875,
+        "Desc": "Arcana - Stage 3"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.3,
+        "Desc": "Arcana - Final Stage"
+      }
+    ]
+  ],
+  "Arcane Guardian": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1568,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1192,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Quartakk": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.5,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0469,
+        "Desc": "Stage 2, Lvl 40-50"
+      },
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0469,
+        "Desc": "Stage 3, Lvl 40-50"
+      },
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0412,
+        "Desc": "Stage 4, Lvl 40-50"
+      },
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0595,
+        "Desc": "Stage 5, Lvl 40-50"
+      }
+    ]
+  ],
+  "Arcane Resistance": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.0678,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.0602,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Quassus": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.2222,
+        "Desc": "Stage 4, Lvl 40-60"
+      },
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.4348,
+        "Desc": "Stage 5, Lvl 40-60"
+      }
+    ]
+  ],
+  "Korrudo": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Kills",
+        "Chance": 0.025,
+        "Desc": "[[Tusk Thumper Bull]]"
+      },
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Kills",
+        "Chance": 0.05,
+        "Desc": "[[Tusk Thumper Doma]]"
+      }
+    ]
+  ],
+  "Harrow": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Kills",
+        "Chance": 0.03,
+        "Desc": "[[Void Fissure]] enemies"
+      }
+    ],
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "A Rotations",
+        "Chance": 0.1667,
+        "Desc": "Pago ([[Spy]]), [[Kuva Fortress]]"
+      }
+    ],
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.12,
+        "Desc": "Taveuni ([[Survival]]), [[Kuva Fortress]]"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.12,
+        "Desc": "Taveuni ([[Survival]]), [[Kuva Fortress]]"
+      }
+    ],
+    [
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "B Rotations",
+        "Chance": 0.06,
+        "Desc": "[[Defection]] (any tier)&nbsp;&#124;&nbsp;Rot. B"
+      }
+    ],
+    [
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.15,
+        "Desc": "[[Defection]] (any tier)&nbsp;&#124;&nbsp;Rot. C"
+      }
+    ]
+  ],
+  "Oberon": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Desc": "[[Empyrean]] Point of Interest in [[Saturn Proxima]]",
+        "Chance": 0.1,
+        "Unit": "Rotation A Caches"
+      }
+    ],
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Desc": "[[Empyrean]] Point of Interest in [[Grineer]]-controlled part of [[Veil Proxima]]",
+        "Chance": 0.1,
+        "Unit": "Rotation A Caches"
+      }
+    ],
+    [
+      {
+        "Part": "Systems Blueprint",
+        "Desc": "[[Empyrean]] Point of Interest in [[Earth Proxima]]",
+        "Chance": 0.1,
+        "Unit": "Rotation A Caches"
+      }
+    ]
+  ],
+  "Nepheri": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Rotation B Bounties",
+        "Chance": 0.0545,
+        "Desc": "Stage 4, Lvl 50-70"
+      },
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Rotation B Bounties",
+        "Chance": 0.075,
+        "Desc": "Stage 5, Lvl 50-70"
+      }
+    ]
+  ],
+  "Octavia": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Music Puzzle",
+        "Chance": 1,
+        "Desc": "[[Orokin Moon#Music Puzzle Room|Music Puzzle]] on [[Lua]]"
+      }
+    ],
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.2256,
+        "Desc": "Terrorem ([[Survival]]), [[Deimos]]"
+      }
+    ],
+    [
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Rotation A Caches",
+        "Chance": 0.2256,
+        "Desc": "Plato ([[Crossfire]] [[Exterminate]]), [[Lua]]"
+      }
+    ]
+  ],
+  "EpitaphA": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.1,
+        "Unit": "Void Storms"
+      },
+      {
+        "Part": "Barrel",
+        "Chance": 0.1,
+        "Unit": "Void Storms"
+      },
+      {
+        "Part": "Receiver",
+        "Chance": 0.1,
+        "Unit": "Void Storms"
+      }
+    ]
+  ],
+  "Arcane Consequence": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1495,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1205,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Valkyr": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Chance": 0.2256
+      }
+    ]
+  ],
+  "Stropha": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Kills",
+        "Chance": 0.15,
+        "Desc": "[[Jackal]]"
+      }
+    ],
+    [
+      {
+        "Part": "Barrel",
+        "Unit": "C Rotations",
+        "Chance": 0.2222,
+        "Desc": "Regular [[Granum Void]]"
+      },
+      {
+        "Part": "Blade",
+        "Unit": "C Rotations",
+        "Chance": 0.2222,
+        "Desc": "Regular [[Granum Void]]"
+      }
+    ],
+    [
+      {
+        "Part": "Receiver",
+        "Unit": "C Rotations",
+        "Chance": 0.2963,
+        "Desc": "Extended [[Granum Void]]"
+      }
+    ],
+    [
+      {
+        "Part": "Stock",
+        "Unit": "C Rotations",
+        "Chance": 0.2963,
+        "Desc": "Nightmare [[Granum Void]]"
+      }
+    ]
+  ],
+  "Ember": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Chance": 0.2256
+      }
+    ]
+  ],
+  "Cedo": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "B Rotations",
+        "Chance": 0.02,
+        "Desc": "Normal"
+      },
+      {
+        "Part": "Barrel",
+        "Unit": "B Rotations",
+        "Chance": 0.02,
+        "Desc": "Normal"
+      },
+      {
+        "Part": "Receiver",
+        "Unit": "B Rotations",
+        "Chance": 0.02,
+        "Desc": "Normal"
+      },
+      {
+        "Part": "Stock",
+        "Unit": "B Rotations",
+        "Chance": 0.02,
+        "Desc": "Normal"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "B Rotations",
+        "Chance": 0.03,
+        "Desc": "Advanced"
+      },
+      {
+        "Part": "Barrel",
+        "Unit": "B Rotations",
+        "Chance": 0.03,
+        "Desc": "Advanced"
+      },
+      {
+        "Part": "Receiver",
+        "Unit": "B Rotations",
+        "Chance": 0.03,
+        "Desc": "Advanced"
+      },
+      {
+        "Part": "Stock",
+        "Unit": "B Rotations",
+        "Chance": 0.03,
+        "Desc": "Advanced"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "B Rotations",
+        "Chance": 0.04,
+        "Desc": "Endurance"
+      },
+      {
+        "Part": "Barrel",
+        "Unit": "B Rotations",
+        "Chance": 0.04,
+        "Desc": "Endurance"
+      },
+      {
+        "Part": "Receiver",
+        "Unit": "B Rotations",
+        "Chance": 0.04,
+        "Desc": "Endurance"
+      },
+      {
+        "Part": "Stock",
+        "Unit": "B Rotations",
+        "Chance": 0.04,
+        "Desc": "Endurance"
+      }
+    ]
+  ],
+  "Braton Vandal": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.0201,
+        "Unit": "C Rotations"
+      },
+      {
+        "Part": "Stock",
+        "Chance": 0.0201,
+        "Unit": "C Rotations"
+      }
+    ],
+    [
+      {
+        "Part": "Barrel",
+        "Chance": 0.0442,
+        "Unit": "B Rotations"
+      },
+      {
+        "Part": "Receiver",
+        "Chance": 0.0442,
+        "Unit": "B Rotations"
+      }
+    ]
+  ],
+  "Arcane Healing": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.0602,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Arcane Blade Charger": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.05,
+        "Unit": "B Rotations"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.05,
+        "Unit": "C Rotations"
+      }
+    ]
+  ],
+  "Nekros": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Chance": 0.33333333333333
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Chance": 0.33333333333333
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Chance": 0.33333333333333
+      }
+    ]
+  ],
+  "Miter": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.1667,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Barrel",
+        "Chance": 0.1667,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Blade",
+        "Chance": 0.1667,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Handle",
+        "Chance": 0.1667,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Chassis",
+        "Chance": 0.1667,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "CalibanA": [
+    [
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Cetus Bounties",
+        "Chance": 0.0811,
+        "Desc": "Stage 2, Lvl 50-70"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Cetus Bounties",
+        "Chance": 0.0811,
+        "Desc": "Stage 3, Lvl 50-70"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Cetus Bounties",
+        "Chance": 0.075,
+        "Desc": "Final Stage, Lvl 50-70"
+      }
+    ],
+    [
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Orb Vallis Bounties",
+        "Chance": 0.0811,
+        "Desc": "Stage 2, Lvl 50-70"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Orb Vallis Bounties",
+        "Chance": 0.0811,
+        "Desc": "Stage 3, Lvl 50-70"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Orb Vallis Bounties",
+        "Chance": 0.075,
+        "Desc": "Final Stage, Lvl 50-70"
+      }
+    ]
+  ],
+  "Arcane Acceleration": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.102,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.0925,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Secondary Merciless": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1667,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "Residual Malodor3": [
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.25,
+        "Desc": "Normal - Final Stage"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage One's",
+        "Chance": 0.5,
+        "Desc": "Arcana - Stage 1"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Two's",
+        "Chance": 0.3125,
+        "Desc": "Arcana - Stage 2"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Three's",
+        "Chance": 0.3125,
+        "Desc": "Arcana - Stage 3"
+      }
+    ]
+  ],
+  "Arcane Phantasm": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.102,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.0952,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Mag": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Chance": 0.2256
+      }
+    ]
+  ],
+  "GaraA": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0752,
+        "Desc": "Stage 2, Lvl 5-15"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.3056,
+        "Desc": "Stage 3, Lvl 5-15"
+      }
+    ],
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0842,
+        "Desc": "Stage 2, Lvl 20-40"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0842,
+        "Desc": "Stage 3, Lvl 20-40"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.2051,
+        "Desc": "Stage 4, Lvl 20-40"
+      }
+    ],
+    [
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0952,
+        "Desc": "Stage 2, Lvl 10-30"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.2182,
+        "Desc": "Stage 3, Lvl 10-30"
+      }
+    ]
+  ],
+  "Wisp": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.2256
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Chance": 0.2581
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Chance": 0.2581
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Chance": 0.2581
+      }
+    ]
+  ],
+  "Arcane Agility": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.102,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.0925,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Nidus": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Chance": 0.1429,
+        "Unit": "C Rotations"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Chance": 0.1429,
+        "Unit": "C Rotations"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Chance": 0.1429,
+        "Unit": "C Rotations"
+      }
+    ]
+  ],
+  "Rhino": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Chance": 0.2256
+      }
+    ]
+  ],
+  "GarudaC": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0752,
+        "Desc": "Stage 2, Lvl 5-15"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.3056,
+        "Desc": "Stage 3, Lvl 5-15"
+      }
+    ],
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.125,
+        "Desc": "Stage 2, Lvl 20-40"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.125,
+        "Desc": "Stage 3, Lvl 20-40"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.25,
+        "Desc": "Stage 4, Lvl 20-40"
+      }
+    ],
+    [
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0741,
+        "Desc": "Stage 2, Lvl 10-30"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.2222,
+        "Desc": "Stage 3, Lvl 10-30"
+      }
+    ]
+  ],
+  "Residual Viremia3": [
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.15,
+        "Desc": "Normal - Final Stage"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Two's",
+        "Chance": 0.1875,
+        "Desc": "Arcana - Stage 2"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Three's",
+        "Chance": 0.1875,
+        "Desc": "Arcana - Stage 3"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.3,
+        "Desc": "Arcana - Final Stage"
+      }
+    ]
+  ],
+  "Arcane Tanker": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.05,
+        "Unit": "A Rotations"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.05,
+        "Unit": "C Rotations"
+      }
+    ]
+  ],
+  "Gorgon": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.01,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "Nautilus": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.0606,
+        "Unit": "Rotation B Caches"
+      },
+      {
+        "Part": "Cerebrum",
+        "Chance": 0.0606,
+        "Unit": "Rotation B Caches"
+      },
+      {
+        "Part": "Carapace",
+        "Chance": 0.0606,
+        "Unit": "Rotation B Caches"
+      },
+      {
+        "Part": "Systems",
+        "Chance": 0.0606,
+        "Unit": "Rotation B Caches"
+      }
+    ]
+  ],
+  "Spectra Vandal": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.087,
+        "Unit": "Rotation B Caches"
+      },
+      {
+        "Part": "Barrel",
+        "Chance": 0.0652,
+        "Unit": "Rotation B Caches"
+      },
+      {
+        "Part": "Chassis",
+        "Chance": 0.0652,
+        "Unit": "Rotation B Caches"
+      },
+      {
+        "Part": "Receiver",
+        "Chance": 0.0652,
+        "Unit": "Rotation B Caches"
+      }
+    ]
+  ],
+  "Dread": [
+    [
+      {
+        "1": "Kills",
+        "Part": "Main Blueprint",
+        "Chance": 0.3794,
+        "Desc": "[[Stalker]]/[[Shadow Stalker]]"
+      }
+    ]
+  ],
+  "Primary Dexterity": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1667,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "Arcane Trickery": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.2478,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.2024,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Arcane Nullifier": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1495,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1205,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Residual Shock3": [
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.15,
+        "Desc": "Normal - Final Stage"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Two's",
+        "Chance": 0.1875,
+        "Desc": "Arcana - Stage 2"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Three's",
+        "Chance": 0.1875,
+        "Desc": "Arcana - Stage 3"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.3,
+        "Desc": "Arcana - Final Stage"
+      }
+    ]
+  ],
+  "Ash": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.1026,
+        "Desc": "Obol Crossing (Defense), [[Pluto Proxima]]"
+      }
+    ],
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.0851,
+        "Desc": "Arva Vector (Defense), [[Neptune Proxima]]"
+      }
+    ],
+    [
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.1053,
+        "Desc": "Falling Glory (Defense), [[Venus Proxima]]"
+      }
+    ],
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.0833,
+        "Desc": "Fenton's Field (Survival), [[Pluto Proxima]]"
+      }
+    ],
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.0833,
+        "Desc": "Enkidu Ice Drifts (Survival), [[Neptune Proxima]]"
+      }
+    ],
+    [
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.0833,
+        "Desc": "Luckless Expanse (Survival), [[Venus Proxima]]"
+      }
+    ]
+  ],
+  "Verdilac": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Rotation A Bounties",
+        "Chance": 0.0545,
+        "Desc": "Stage 4, Lvl 50-70"
+      },
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Rotation A Bounties",
+        "Chance": 0.075,
+        "Desc": "Stage 5, Lvl 50-70"
+      }
+    ]
+  ],
+  "Theorem Demulcent2": [
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.25,
+        "Desc": "Normal - Final Stage"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage One's",
+        "Chance": 0.5,
+        "Desc": "Arcana - Stage 1"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Two's",
+        "Chance": 0.3125,
+        "Desc": "Arcana - Stage 2"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Three's",
+        "Chance": 0.3125,
+        "Desc": "Arcana - Stage 3"
+      }
+    ]
+  ],
+  "Athodai": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.0645,
+        "Unit": "Rotation B Caches"
+      },
+      {
+        "Part": "Barrel",
+        "Chance": 0.0645,
+        "Unit": "Rotation B Caches"
+      },
+      {
+        "Part": "Reciever",
+        "Chance": 0.0645,
+        "Unit": "Rotation B Caches"
+      }
+    ]
+  ],
+  "Arum Spinosa": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Final Stages",
+        "Chance": 0.0625,
+        "Desc": "Normal - Final Stage"
+      },
+      {
+        "Part": "Guard",
+        "Unit": "Final Stages",
+        "Chance": 0.0375,
+        "Desc": "Normal - Final Stage"
+      },
+      {
+        "Part": "Rivet",
+        "Unit": "Final Stages",
+        "Chance": 0.02,
+        "Desc": "Normal - Final Stage"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Stage One's",
+        "Chance": 0.125,
+        "Desc": "Arcana - Stage 1"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Stage Two's",
+        "Chance": 0.0781,
+        "Desc": "Arcana - Stage 2"
+      },
+      {
+        "Part": "Guard",
+        "Unit": "Stage Two's",
+        "Chance": 0.0469,
+        "Desc": "Arcana - Stage 2"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Stage Three's",
+        "Chance": 0.0781,
+        "Desc": "Arcana - Stage 3"
+      },
+      {
+        "Part": "Guard",
+        "Unit": "Stage Three's",
+        "Chance": 0.0469,
+        "Desc": "Arcana - Stage 3"
+      }
+    ],
+    [
+      {
+        "Part": "Guard",
+        "Unit": "Final Stages",
+        "Chance": 0.075,
+        "Desc": "Arcana - Final Stage"
+      },
+      {
+        "Part": "Rivet",
+        "Unit": "Final Stages",
+        "Chance": 0.04,
+        "Desc": "Arcana - Final Stage"
+      }
+    ]
+  ],
+  "Theorem Infection2": [
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.15,
+        "Desc": "Normal - Final Stage"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Two's",
+        "Chance": 0.1875,
+        "Desc": "Arcana - Stage 2"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Three's",
+        "Chance": 0.1875,
+        "Desc": "Arcana - Stage 3"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.3,
+        "Desc": "Arcana - Final Stage"
+      }
+    ]
+  ],
+  "Gauss": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Chance": 0.0784
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Chance": 0.0784
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Chance": 0.0784
+      }
+    ]
+  ],
+  "SporothrixA": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Final Stages",
+        "Chance": 0.0625,
+        "Desc": "Final Stage (Normal)"
+      },
+      {
+        "Part": "Barrel",
+        "Unit": "Final Stages",
+        "Chance": 0.0375,
+        "Desc": "Final Stage (Normal)"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Stage One's",
+        "Chance": 0.125,
+        "Desc": "Stage 1 (Arcana)"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Stage Two's",
+        "Chance": 0.0781,
+        "Desc": "Stage 2 (Arcana)"
+      },
+      {
+        "Part": "Barrel",
+        "Unit": "Stage Two's",
+        "Chance": 0.0469,
+        "Desc": "Stage 2 (Arcana)"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Stage Three's",
+        "Chance": 0.0781,
+        "Desc": "Stage 3 (Arcana)"
+      },
+      {
+        "Part": "Barrel",
+        "Unit": "Stage Three's",
+        "Chance": 0.0469,
+        "Desc": "Stage 3 (Arcana)"
+      }
+    ],
+    [
+      {
+        "Part": "Barrel",
+        "Unit": "Final Stages",
+        "Chance": 0.075,
+        "Desc": "Final Stage (Arcana)"
+      }
+    ]
+  ],
+  "Brakk": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.125,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Barrel",
+        "Chance": 0.25,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Receiver",
+        "Chance": 0.25,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "Residual Viremia1": [
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.15,
+        "Desc": "Normal - Final Stage"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Two's",
+        "Chance": 0.1875,
+        "Desc": "Arcana - Stage 2"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Three's",
+        "Chance": 0.1875,
+        "Desc": "Arcana - Stage 3"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.3,
+        "Desc": "Arcana - Final Stage"
+      }
+    ]
+  ],
+  "Atlas": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Chance": 0.2256
+      }
+    ]
+  ],
+  "Hydroid": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Chance": 0.2256
+      }
+    ]
+  ],
+  "Velox": [
+    [
+      {
+        "Part": "Barrel",
+        "Chance": 0.2222,
+        "Unit": "C Rotations"
+      }
+    ],
+    [
+      {
+        "Part": "Receiver",
+        "Unit": "C Rotations",
+        "Chance": 0.2963,
+        "Desc": "Extended"
+      }
+    ]
+  ],
+  "Detron": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.1765,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Barrel",
+        "Chance": 0.3235,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Receiver",
+        "Chance": 0.3235,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "Excalibur": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Chance": 0.2256
+      }
+    ]
+  ],
+  "Arcane Momentum": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1495,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1205,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Hildryn": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Chance": 0.2256
+      }
+    ]
+  ],
+  "Arcane Avenger": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.117,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1124,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Cronus": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.05,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "Furax Wraith": [
+    [
+      {
+        "Part": "Left Gauntlet",
+        "Unit": "Rotation A Bounties",
+        "Chance": 0.0541,
+        "Desc": "Stage 4, Lvl 40-60"
+      },
+      {
+        "Part": "Left Gauntlet",
+        "Unit": "Rotation A Bounties",
+        "Chance": 0.0816,
+        "Desc": "Stage 5, Lvl 40-60"
+      }
+    ],
+    [
+      {
+        "Part": "Right Gauntlet",
+        "Unit": "Rotation B Bounties",
+        "Chance": 0.0541,
+        "Desc": "Stage 4, Lvl 40-60"
+      },
+      {
+        "Part": "Right Gauntlet",
+        "Unit": "Rotation B Bounties",
+        "Chance": 0.0816,
+        "Desc": "Stage 5, Lvl 40-60"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Rotation C Bounties",
+        "Chance": 0.0541,
+        "Desc": "Stage 4, Lvl 40-60"
+      },
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Rotation C Bounties",
+        "Chance": 0.0816,
+        "Desc": "Stage 5, Lvl 40-60"
+      }
+    ]
+  ],
+  "Akarius": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.0125,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "Equinox": [
+    [
+      {
+        "Part": "Day Aspect Blueprint",
+        "Chance": 0.1128
+      },
+      {
+        "Part": "Day Chassis Blueprint",
+        "Chance": 0.1291
+      },
+      {
+        "Part": "Day Neuroptics Blueprint",
+        "Chance": 0.1291
+      },
+      {
+        "Part": "Day Systems Blueprint",
+        "Chance": 0.1291
+      },
+      {
+        "Part": "Night Aspect Blueprint",
+        "Chance": 0.1128
+      },
+      {
+        "Part": "Night Chassis Blueprint",
+        "Chance": 0.1291
+      },
+      {
+        "Part": "Night Neuroptics Blueprint",
+        "Chance": 0.1291
+      },
+      {
+        "Part": "Night Systems Blueprint",
+        "Chance": 0.1291
+      }
+    ]
+  ],
+  "Frost": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Chance": 0.2256
+      }
+    ]
+  ],
+  "Trinity": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Chance": 0.2256
+      }
+    ]
+  ],
+  "Twin Kohmak": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.25,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "RevenantA": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0851,
+        "Desc": "Stage 2, Lvl 30-50"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0851,
+        "Desc": "Stage 3, Lvl 30-50"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0833,
+        "Desc": "Stage 4, Lvl 30-50"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.1905,
+        "Desc": "Stage 5, Lvl 30-50"
+      }
+    ],
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0676,
+        "Desc": "Stage 4, Lvl 40-60"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.102,
+        "Desc": "Stage 5, Lvl 40-60"
+      }
+    ],
+    [
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0842,
+        "Desc": "Stage 2, Lvl 20-40"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0842,
+        "Desc": "Stage 3, Lvl 20-40"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.2051,
+        "Desc": "Stage 4, Lvl 20-40"
+      }
+    ]
+  ],
+  "SporothrixC": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Final Stages",
+        "Chance": 0.0625,
+        "Desc": "Final Stage (Normal)"
+      },
+      {
+        "Part": "Stock",
+        "Unit": "Final Stages",
+        "Chance": 0.0375,
+        "Desc": "Final Stage (Normal)"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Stage One's",
+        "Chance": 0.125,
+        "Desc": "Stage 1 (Arcana)"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Stage Two's",
+        "Chance": 0.0781,
+        "Desc": "Stage 2 (Arcana)"
+      },
+      {
+        "Part": "Stock",
+        "Unit": "Stage Two's",
+        "Chance": 0.0469,
+        "Desc": "Stage 2 (Arcana)"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Stage Three's",
+        "Chance": 0.0781,
+        "Desc": "Stage 3 (Arcana)"
+      },
+      {
+        "Part": "Stock",
+        "Unit": "Stage Three's",
+        "Chance": 0.0469,
+        "Desc": "Stage 3 (Arcana)"
+      }
+    ],
+    [
+      {
+        "Part": "Stock",
+        "Unit": "Final Stages",
+        "Chance": 0.075,
+        "Desc": "Final Stage (Arcana)"
+      }
+    ]
+  ],
+  "Residual Malodor1": [
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.25,
+        "Desc": "Normal - Final Stage"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage One's",
+        "Chance": 0.5,
+        "Desc": "Arcana - Stage 1"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Two's",
+        "Chance": 0.3125,
+        "Desc": "Arcana - Stage 2"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Three's",
+        "Chance": 0.3125,
+        "Desc": "Arcana - Stage 3"
+      }
+    ]
+  ],
+  "Ignis Wraith": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.087,
+        "Unit": "Rotation B Caches"
+      }
+    ]
+  ],
+  "Khora": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Chance": 0.0833,
+        "Unit": "A Rotations"
+      }
+    ],
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Chance": 0.0909,
+        "Unit": "B Rotations"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.1128,
+        "Unit": "C Rotations"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Chance": 0.1128,
+        "Unit": "C Rotations"
+      }
+    ]
+  ],
+  "XakuC": [
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.075,
+        "Desc": "Stage 2, Lvl 15-25"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.1,
+        "Desc": "Stage 3, Lvl 15-25"
+      }
+    ]
+  ],
+  "Forma Blueprint": [
+    [
+      {
+        "Chance": 0.2256,
+        "Unit": "C Rotations",
+        "Desc": "[[Deimos]]",
+        "Mission": "Defense"
+      }
+    ],
+    [
+      {
+        "Chance": 0.0034,
+        "Unit": "A Rotations",
+        "Desc": "Easy",
+        "Mission": "Rathuum"
+      }
+    ],
+    [
+      {
+        "Chance": 0.005,
+        "Unit": "A Rotations",
+        "Desc": "Hard",
+        "Mission": "Rathuum"
+      }
+    ],
+    [
+      {
+        "Chance": 0.0025,
+        "Unit": "B Rotations",
+        "Desc": "Mission Reward",
+        "Mission": "Conclave"
+      }
+    ],
+    [
+      {
+        "Chance": 0.02,
+        "Unit": "C Rotations",
+        "Desc": "[[Earth]]",
+        "Mission": "Sabotage"
+      }
+    ],
+    [
+      {
+        "Chance": 0.025,
+        "Desc": "[[Saturn]]",
+        "Mission": "Empyrean"
+      }
+    ],
+    [
+      {
+        "Chance": 0.025,
+        "Desc": "[[Veil Proxima]]",
+        "Mission": "Empyrean"
+      }
+    ]
+  ],
+  "Xiphos": [
+    [
+      {
+        "Part": "Fuselage Blueprint",
+        "Unit": "Rotation C Caches",
+        "Chance": 0.005,
+        "Desc": "Tier I [[Sabotage]]<br>(Ishtar [[Venus]], Terminus [[Mercury]], Gradivus [[Mars]])"
+      }
+    ],
+    [
+      {
+        "Part": "Engines Blueprint",
+        "Unit": "Rotation C Caches",
+        "Chance": 0.005,
+        "Desc": "Tier II [[Sabotage]]<br>(Ker/Thon [[Ceres]], Adrastea [[Jupiter]], Calypso [[Saturn]])"
+      }
+    ],
+    [
+      {
+        "Part": "Engines Blueprint",
+        "Unit": "Rotation C Caches",
+        "Chance": 0.005,
+        "Desc": "Carpo ([[Exterminate]]), [[Jupiter]]"
+      }
+    ],
+    [
+      {
+        "Part": "Engines Blueprint",
+        "Unit": "Rotation C Caches",
+        "Chance": 0.0129,
+        "Desc": "Plato ([[Exterminate]]), [[Lua]]"
+      }
+    ],
+    [
+      {
+        "Part": "Avionics Blueprint",
+        "Unit": "Rotation C Caches",
+        "Chance": 0.005,
+        "Desc": "Tier III [[Sabotage]]<br>(Rusalka [[Sedna]], Cypress [[Pluto]])"
+      }
+    ],
+    [
+      {
+        "Part": "Avionics Blueprint",
+        "Unit": "Rotation C Caches",
+        "Chance": 0.005,
+        "Desc": "Stribog ([[Sabotage]]), [[Void]]"
+      }
+    ],
+    [
+      {
+        "Part": "Avionics Blueprint",
+        "Unit": "Rotation C Caches",
+        "Chance": 0.0101,
+        "Desc": "Marduk ([[Sabotage]]), [[Void]]"
+      }
+    ],
+    [
+      {
+        "Part": "Avionics Blueprint",
+        "Unit": "Rotation C Caches",
+        "Chance": 0.005,
+        "Desc": "Dataka ([[Exterminate]]), [[Kuva Fortress]]"
+      }
+    ]
+  ],
+  "Residual Viremia2": [
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.15,
+        "Desc": "Normal - Final Stage"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Two's",
+        "Chance": 0.1875,
+        "Desc": "Arcana - Stage 2"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Three's",
+        "Chance": 0.1875,
+        "Desc": "Arcana - Stage 3"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.3,
+        "Desc": "Arcana - Final Stage"
+      }
+    ]
+  ],
+  "Mantis": [
+    [
+      {
+        "Part": "Fuselage Blueprint",
+        "Chance": 0.3,
+        "Unit": "Rare Containers"
+      },
+      {
+        "Part": "Engines Blueprint",
+        "Chance": 0.3,
+        "Unit": "Rare Containers"
+      }
+    ],
+    [
+      {
+        "Part": "Avionics Blueprint",
+        "Chance": 1,
+        "Unit": "Rare Containers"
+      }
+    ]
+  ],
+  "Theorem Infection1": [
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.15,
+        "Desc": "Normal - Final Stage"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Two's",
+        "Chance": 0.1875,
+        "Desc": "Arcana - Stage 2"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Three's",
+        "Chance": 0.1875,
+        "Desc": "Arcana - Stage 3"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.3,
+        "Desc": "Arcana - Final Stage"
+      }
+    ]
+  ],
+  "Arcane Energize": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.05,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Theorem Demulcent1": [
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.25,
+        "Desc": "Normal - Final Stage"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage One's",
+        "Chance": 0.5,
+        "Desc": "Arcana - Stage 1"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Two's",
+        "Chance": 0.3125,
+        "Desc": "Arcana - Stage 2"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Three's",
+        "Chance": 0.3125,
+        "Desc": "Arcana - Stage 3"
+      }
+    ]
+  ],
+  "Pennant": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.073065,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "Theorem Contagion3": [
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.1,
+        "Desc": "Normal - Final Stage"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.2,
+        "Desc": "Arcana - Final Stage"
+      }
+    ]
+  ],
+  "Theorem Contagion2": [
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.1,
+        "Desc": "Normal - Final Stage"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.2,
+        "Desc": "Arcana - Final Stage"
+      }
+    ]
+  ],
+  "Saryn": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Chance": 0.2256
+      }
+    ]
+  ],
+  "Residual Boils2": [
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.25,
+        "Desc": "Normal - Final Stage"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage One's",
+        "Chance": 0.5,
+        "Desc": "Arcana - Stage 1"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Two's",
+        "Chance": 0.3125,
+        "Desc": "Arcana - Stage 2"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Three's",
+        "Chance": 0.3125,
+        "Desc": "Arcana - Stage 3"
+      }
+    ]
+  ],
+  "Ivara": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.0564,
+        "Desc": "Medium Tier: [[Ceres]], [[Jupiter]], [[Europa]], [[Saturn]]"
+      }
+    ],
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.0737,
+        "Desc": "Pavlov, [[Lua]]"
+      }
+    ],
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.12,
+        "Desc": "Brom Cluster, [[Neptune Proxima]]"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.0752,
+        "Desc": "Hard Tier: [[Uranus]], [[Neptune]], [[Pluto]], [[Sedna]]"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.0752,
+        "Desc": "Hard Tier: [[Uranus]], [[Neptune]], [[Pluto]], [[Sedna]]"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.12,
+        "Desc": "Sabmir Cloud, [[Veil Proxima]]"
+      }
+    ],
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.12,
+        "Desc": "Peregrine Axis, [[Pluto Proxima]]"
+      }
+    ],
+    [
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.1,
+        "Desc": "Easy Tier: [[Earth]], [[Venus]], [[Mercury]], [[Mars]], [[Phobos]]"
+      }
+    ],
+    [
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.12,
+        "Desc": "Orvin-Haarc, [[Venus Proxima]]"
+      }
+    ]
+  ],
+  "Scimitar": [
+    [
+      {
+        "Part": "Fuselage Blueprint",
+        "Unit": "Kills",
+        "Chance": 0.125,
+        "Desc": "[[Vem Tabook]]"
+      }
+    ],
+    [
+      {
+        "Part": "Engines Blueprint",
+        "Unit": "Kills",
+        "Chance": 0.01005,
+        "Desc": "[[Stalker]]/[[Shadow Stalker]]"
+      }
+    ],
+    [
+      {
+        "Part": "Avionics Blueprint",
+        "Unit": "Kills",
+        "Chance": 0.1765,
+        "Desc": "[[Zanuka Hunter]]"
+      }
+    ]
+  ],
+  "Arcane Ultimatum": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.0529,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Secondary Dexterity": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1667,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "Residual Shock2": [
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.15,
+        "Desc": "Normal - Final Stage"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Two's",
+        "Chance": 0.1875,
+        "Desc": "Arcana - Stage 2"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Three's",
+        "Chance": 0.1875,
+        "Desc": "Arcana - Stage 3"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.3,
+        "Desc": "Arcana - Final Stage"
+      }
+    ]
+  ],
+  "Sevagoth": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Chance": 0.1
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Chance": 0.1
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Chance": 0.1
+      }
+    ]
+  ],
+  "Residual Shock1": [
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.15,
+        "Desc": "Normal - Final Stage"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Two's",
+        "Chance": 0.1875,
+        "Desc": "Arcana - Stage 2"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Three's",
+        "Chance": 0.1875,
+        "Desc": "Arcana - Stage 3"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.3,
+        "Desc": "Arcana - Final Stage"
+      }
+    ]
+  ],
+  "Arcane Barrier": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.05,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Loki": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Chance": 0.2256
+      }
+    ]
+  ],
+  "Residual Boils3": [
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.25,
+        "Desc": "Normal - Final Stage"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage One's",
+        "Chance": 0.5,
+        "Desc": "Arcana - Stage 1"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Two's",
+        "Chance": 0.3125,
+        "Desc": "Arcana - Stage 2"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Three's",
+        "Chance": 0.3125,
+        "Desc": "Arcana - Stage 3"
+      }
+    ]
+  ],
+  "Lavos": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.02,
+        "Desc": "Normal"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.02,
+        "Desc": "Normal"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.02,
+        "Desc": "Normal"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.02,
+        "Desc": "Normal"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.03,
+        "Desc": "Advanced"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.03,
+        "Desc": "Advanced"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.03,
+        "Desc": "Advanced"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.03,
+        "Desc": "Advanced"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "A Rotations",
+        "Chance": 0.04,
+        "Desc": "Endurance"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "A Rotations",
+        "Chance": 0.04,
+        "Desc": "Endurance"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "A Rotations",
+        "Chance": 0.04,
+        "Desc": "Endurance"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "A Rotations",
+        "Chance": 0.04,
+        "Desc": "Endurance"
+      }
+    ]
+  ],
+  "Theorem Contagion1": [
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.1,
+        "Desc": "Normal - Final Stage"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.2,
+        "Desc": "Arcana - Final Stage"
+      }
+    ]
+  ],
+  "Arcane Velocity": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.2223,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1679,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Arcane Warmth": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1495,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1205,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Arcane Victory": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.0602,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Residual Boils1": [
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.25,
+        "Desc": "Normal - Final Stage"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage One's",
+        "Chance": 0.5,
+        "Desc": "Arcana - Stage 1"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Two's",
+        "Chance": 0.3125,
+        "Desc": "Arcana - Stage 2"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Three's",
+        "Chance": 0.3125,
+        "Desc": "Arcana - Stage 3"
+      }
+    ]
+  ],
+  "Arcane Tempo": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.185,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1568,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Nova": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Chance": 0.2256
+      }
+    ]
+  ],
+  "Arcane Strike": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1825,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1463,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Lato Vandal": [
+    [
+      {
+        "Part": "Receiver",
+        "Chance": 0.0201,
+        "Unit": "A Rotation"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.0201,
+        "Unit": "B Rotation"
+      }
+    ],
+    [
+      {
+        "Part": "Barrel",
+        "Chance": 0.0201,
+        "Unit": "C Rotation"
+      }
+    ]
+  ],
+  "CalibanC": [
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Cetus Bounties",
+        "Chance": 0.0811,
+        "Desc": "Stage 2, Lvl 50-70"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Cetus Bounties",
+        "Chance": 0.0811,
+        "Desc": "Stage 3, Lvl 50-70"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Cetus Bounties",
+        "Chance": 0.075,
+        "Desc": "Final Stage, Lvl 50-70"
+      }
+    ],
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Orb Vallis Bounties",
+        "Chance": 0.0811,
+        "Desc": "Stage 2, Lvl 50-70"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Orb Vallis Bounties",
+        "Chance": 0.0811,
+        "Desc": "Stage 3, Lvl 50-70"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Orb Vallis Bounties",
+        "Chance": 0.075,
+        "Desc": "Final Stage, Lvl 50-70"
+      }
+    ]
+  ],
+  "Arcane Grace": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.05,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Arcane Pulse": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.0529,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "GarudaB": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0752,
+        "Desc": "Stage 2, Lvl 5-15"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.3056,
+        "Desc": "Stage 3, Lvl 5-15"
+      }
+    ],
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.125,
+        "Desc": "Stage 2, Lvl 20-40"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.125,
+        "Desc": "Stage 3, Lvl 20-40"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.25,
+        "Desc": "Stage 4, Lvl 20-40"
+      }
+    ],
+    [
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0741,
+        "Desc": "Stage 2, Lvl 10-30"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.2222,
+        "Desc": "Stage 3, Lvl 10-30"
+      }
+    ]
+  ],
+  "Arcane Primary Charger": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.05,
+        "Unit": "B Rotations"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.05,
+        "Unit": "C Rotations"
+      }
+    ]
+  ],
+  "Arcane Precision": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.0702,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.0592,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "GaraC": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0752,
+        "Desc": "Stage 2, Lvl 5-15"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.3056,
+        "Desc": "Stage 3, Lvl 5-15"
+      }
+    ],
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0957,
+        "Desc": "Stage 2, Lvl 20-40"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0957,
+        "Desc": "Stage 3, Lvl 20-40"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.2143,
+        "Desc": "Stage 4, Lvl 20-40"
+      }
+    ],
+    [
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0952,
+        "Desc": "Stage 2, Lvl 10-30"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.2182,
+        "Desc": "Stage 3, Lvl 10-30"
+      }
+    ]
+  ],
+  "Protea": [
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Chance": 0.1111,
+        "Unit": "C Rotations"
+      }
+    ],
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.1111,
+        "Desc": "Extended"
+      }
+    ],
+    [
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "C Rotations",
+        "Chance": 0.1111,
+        "Desc": "Nightmare"
+      }
+    ]
+  ],
+  "Arcane Pistoleer": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.05,
+        "Unit": "A Rotations"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.05,
+        "Unit": "C Rotations"
+      }
+    ]
+  ],
+  "Arcane Ice": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1495,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1205,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Orvius": [
+    [
+      {
+        "Part": "Blade",
+        "Chance": 0.05,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Disc",
+        "Chance": 0.05,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "Arcane Rage": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1376,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1274,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Arcane Fury": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1376,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1124,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "RevenantC": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0833,
+        "Desc": "Stage 2, Lvl 30-50"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0833,
+        "Desc": "Stage 3, Lvl 30-50"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0816,
+        "Desc": "Stage 4, Lvl 30-50"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.2,
+        "Desc": "Stage 5, Lvl 30-50"
+      }
+    ],
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0676,
+        "Desc": "Stage 4, Lvl 40-60"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.102,
+        "Desc": "Stage 5, Lvl 40-60"
+      }
+    ],
+    [
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0851,
+        "Desc": "Stage 2, Lvl 20-40"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0851,
+        "Desc": "Stage 3, Lvl 20-40"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.1905,
+        "Desc": "Stage 4, Lvl 20-40"
+      }
+    ]
+  ],
+  "GaraB": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0752,
+        "Desc": "Stage 2, Lvl 5-15"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.3056,
+        "Desc": "Stage 3, Lvl 5-15"
+      }
+    ],
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.086,
+        "Desc": "Stage 2, Lvl 20-40"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.086,
+        "Desc": "Stage 3, Lvl 20-40"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.1951,
+        "Desc": "Stage 4, Lvl 20-40"
+      }
+    ],
+    [
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0952,
+        "Desc": "Stage 2, Lvl 10-30"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.2182,
+        "Desc": "Stage 3, Lvl 10-30"
+      }
+    ]
+  ],
+  "Arcane Eruption": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.102,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.0925,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Arcane Deflection": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.0602,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Theorem Demulcent3": [
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Final Stages",
+        "Chance": 0.25,
+        "Desc": "Normal - Final Stage"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage One's",
+        "Chance": 0.5,
+        "Desc": "Arcana - Stage 1"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Two's",
+        "Chance": 0.3125,
+        "Desc": "Arcana - Stage 2"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Unit": "Stage Three's",
+        "Chance": 0.3125,
+        "Desc": "Arcana - Stage 3"
+      }
+    ]
+  ],
+  "EpitaphB": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.0976,
+        "Unit": "Void Storms"
+      },
+      {
+        "Part": "Barrel",
+        "Chance": 0.0976,
+        "Unit": "Void Storms"
+      },
+      {
+        "Part": "Receiver",
+        "Chance": 0.0976,
+        "Unit": "Void Storms"
+      }
+    ]
+  ],
+  "XakuB": [
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.075,
+        "Desc": "Stage 2, Lvl 15-25"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.1,
+        "Desc": "Stage 3, Lvl 15-25"
+      }
+    ],
+    [
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.075,
+        "Desc": "Stage 2 & 3, Lvl 30-40"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.06,
+        "Desc": "Stage 4, Lvl 30-40"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.1,
+        "Desc": "Stage 5, Lvl 30-40"
+      }
+    ]
+  ],
+  "Arcane Arachne": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1376,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1274,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Arcane Aegis": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.0592,
+        "Unit": "Captures"
+      }
+    ]
+  ],
+  "Primary Deadhead": [
+    [
+      {
+        "Part": "Arcane",
+        "Chance": 0.1667,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "Wolf Sledge": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.1128,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Handle",
+        "Chance": 0.3872,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Head",
+        "Chance": 0.3872,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Motor",
+        "Chance": 0.1128,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "War": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.02765,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "Vinquibus": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": "Unknown",
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Barrel Blueprint",
+        "Chance": "Unknown",
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Receiver Blueprint",
+        "Chance": "Unknown",
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Stock Blueprint",
+        "Chance": "Unknown",
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Blade Blueprint",
+        "Chance": "Unknown",
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "Gorgon Wraith": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.1897,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Barrel",
+        "Chance": 0.1897,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Receiver",
+        "Chance": 0.1897,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Stock",
+        "Chance": 0.1897,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "GarudaA": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0752,
+        "Desc": "Stage 2, Lvl 5-15"
+      },
+      {
+        "Part": "Chassis Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.3056,
+        "Desc": "Stage 3, Lvl 5-15"
+      }
+    ],
+    [
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.125,
+        "Desc": "Stage 2, Lvl 20-40"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.125,
+        "Desc": "Stage 3, Lvl 20-40"
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.25,
+        "Desc": "Stage 4, Lvl 20-40"
+      }
+    ],
+    [
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.0741,
+        "Desc": "Stage 2, Lvl 10-30"
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Unit": "Bounties",
+        "Chance": 0.2222,
+        "Desc": "Stage 3, Lvl 10-30"
+      }
+    ]
+  ],
+  "Stahlta": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Kills",
+        "Chance": 0.15,
+        "Desc": "[[Jackal]]"
+      }
+    ],
+    [
+      {
+        "Part": "Receiver",
+        "Unit": "C Rotations",
+        "Chance": 0.2222,
+        "Desc": "Regular [[Granum Void]]"
+      }
+    ],
+    [
+      {
+        "Part": "Stock",
+        "Unit": "C Rotations",
+        "Chance": 0.2963,
+        "Desc": "Extended [[Granum Void]]"
+      }
+    ],
+    [
+      {
+        "Part": "Barrel",
+        "Unit": "C Rotations",
+        "Chance": 0.2963,
+        "Desc": "Nightmare [[Granum Void]]"
+      }
+    ]
+  ],
+  "SporothrixB": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Final Stages",
+        "Chance": 0.0625,
+        "Desc": "Final Stage (Normal)"
+      },
+      {
+        "Part": "Receiver",
+        "Unit": "Final Stages",
+        "Chance": 0.0375,
+        "Desc": "Final Stage (Normal)"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Stage One's",
+        "Chance": 0.125,
+        "Desc": "Stage 1 (Arcana)"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Stage Two's",
+        "Chance": 0.0781,
+        "Desc": "Stage 2 (Arcana)"
+      },
+      {
+        "Part": "Receiver",
+        "Unit": "Stage Two's",
+        "Chance": 0.0469,
+        "Desc": "Stage 2 (Arcana)"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Stage Three's",
+        "Chance": 0.0781,
+        "Desc": "Stage 3 (Arcana)"
+      },
+      {
+        "Part": "Receiver",
+        "Unit": "Stage Three's",
+        "Chance": 0.0469,
+        "Desc": "Stage 3 (Arcana)"
+      }
+    ],
+    [
+      {
+        "Part": "Receiver",
+        "Unit": "Final Stages",
+        "Chance": 0.075,
+        "Desc": "Final Stage (Arcana)"
+      }
+    ]
+  ],
+  "Quellor": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.073065,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "Korumm": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Rotation C Bounties",
+        "Chance": 0.0545,
+        "Desc": "Stage 4, Lvl 50-70"
+      },
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Rotation C Bounties",
+        "Chance": 0.075,
+        "Desc": "Stage 5, Lvl 50-70"
+      }
+    ]
+  ],
+  "Despair": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Kills",
+        "Chance": 0.02765,
+        "Desc": "[[Shadow Stalker]]"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Kills",
+        "Chance": 0.0553,
+        "Desc": "[[Stalker]]"
+      }
+    ]
+  ],
+  "Boar": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.005,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "Hate": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Kills",
+        "Chance": 0.02765,
+        "Desc": "[[Shadow Stalker]]"
+      }
+    ],
+    [
+      {
+        "Part": "Main Blueprint",
+        "Unit": "Kills",
+        "Chance": 0.0553,
+        "Desc": "[[Stalker]]"
+      }
+    ]
+  ],
+  "Carmine Penta": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.0606,
+        "Unit": "Rotation B Caches"
+      },
+      {
+        "Part": "Barrel",
+        "Chance": 0.0606,
+        "Unit": "Rotation B Caches"
+      },
+      {
+        "Part": "Receiver",
+        "Chance": 0.0606,
+        "Unit": "Rotation B Caches"
+      },
+      {
+        "Part": "Stock",
+        "Chance": 0.0606,
+        "Unit": "Rotation B Caches"
+      }
+    ]
+  ],
+  "Acceltra": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.0125,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "Twin Gremlins": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.1667,
+        "Unit": "Kills"
+      }
+    ]
+  ],
+  "Nyx": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Chance": 0.2256
+      }
+    ]
+  ],
+  "Mesa": [
+    [
+      {
+        "Part": "Chassis Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Neuroptics Blueprint",
+        "Chance": 0.3872
+      },
+      {
+        "Part": "Systems Blueprint",
+        "Chance": 0.2256
+      }
+    ]
+  ],
+  "Broken War": [
+    [
+      {
+        "Part": "Main Blueprint",
+        "Chance": 0.02765,
+        "Unit": "Kills"
+      }
+    ],
+    [
+      {
+        "Part": "Hilt",
+        "Chance": 0.005,
+        "Unit": "Kills"
+      },
+      {
+        "Part": "Blade",
+        "Chance": 0.005,
+        "Unit": "Kills"
+      }
+    ]
+  ]
+}

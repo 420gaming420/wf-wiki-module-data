@@ -1,0 +1,2294 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:TextIcons/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:43:31.811Z"
+  },
+  "_comments": "-- Since files on the wiki have different names than the actual files,\n-- this is a list for maintenance and easy updates\n-- https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportTextIcons.json\n-- last updated 42.0.8",
+  "LEGION": {
+    "AUTO": "RadioLegionSigil.png"
+  },
+  "RANK_33": {
+    "AUTO": "Rank33.png"
+  },
+  "CONCLAVE": {
+    "AUTO": "Conclave_d.png"
+  },
+  "MISSION_MARKER_D": {
+    "AUTO": "MiniMapTerritoryD.png"
+  },
+  "MOD_DUPLICATES": {
+    "AUTO": "IconDuplicate_d.png"
+  },
+  "PROJECTION_T2": {
+    "AUTO": "OroEpochB.png"
+  },
+  "DOWN": {
+    "XBONE": "DownArrow_d.png",
+    "PC": "DownArrow_d.png"
+  },
+  "COVER_ICON": {
+    "IOS": "GrineerHUDCoverIcon.png",
+    "ANDROID": "GrineerHUDCoverIcon.png"
+  },
+  "LEFT": {
+    "XBONE": "LeftArrow_d.png",
+    "PC": "LeftArrow_d.png"
+  },
+  "NUMPAD4": {
+    "AUTO": "Num4_d.png"
+  },
+  "RANK_2": {
+    "AUTO": "Rank02SilverInitiate.png"
+  },
+  "VAZARIN_GREATER": {
+    "AUTO": "SealVazarinWaveGreater.png"
+  },
+  "KUBROW_ADVENTURER": {
+    "AUTO": "TemperamentAdventurer.png"
+  },
+  "PRIME_TOKEN": {
+    "AUTO": "PrimeToken.png"
+  },
+  "DT_IMPACT_COLOR": {
+    "AUTO": "ImpactSymbol.png"
+  },
+  "KEY": {
+    "XBONE": "KeyboardPiece_d.png",
+    "PC": "KeyboardPiece_d.png"
+  },
+  "MASTERY_RANK_LOCKED": {
+    "AUTO": "LockIconMarket.png"
+  },
+  "TIMER": {
+    "AUTO": "TradingTimerIcon.png"
+  },
+  "IOS_ARCHWING_DOWN": {
+    "AUTO": "IOSArchwingDown_d.png"
+  },
+  "DT_IMPACT_SPACE": {
+    "AUTO": "Ballistic_d.png"
+  },
+  "IOS_DUVIRI_ABILITY_2": {
+    "AUTO": "DrifterAbilityIconRadar_d.png"
+  },
+  "ASCARIS_PRIME": {
+    "AUTO": "TwelveBossResourcePrimesItemSmall.png"
+  },
+  "ENERGY": {
+    "AUTO": "IconEnergy.gif"
+  },
+  "BACK": {
+    "XBONE": "Backspace_d.png",
+    "PC": "Backspace_d.png"
+  },
+  "DISTILL_POINTS": {
+    "AUTO": "DistillPoints.png"
+  },
+  "SURVIVAL_PILLAR_OUTLINE_MARKER": {
+    "AUTO": "O2PostHudStatusLargeOutline.png"
+  },
+  "RANK_49": {
+    "AUTO": "Rank49.png"
+  },
+  "RANK_24": {
+    "AUTO": "Rank24GoldDragon.png"
+  },
+  "GRAVE": {
+    "AUTO": "Grave_d.png"
+  },
+  "ZENURIK_GREATER": {
+    "AUTO": "SealZenurikCrystalGreater.png"
+  },
+  "STEAM": {
+    "AUTO": "SteamIcon.png"
+  },
+  "DT_RADIATION_OUTLINE": {
+    "AUTO": "Radiation_d.png"
+  },
+  "REN_HYPERCORE": {
+    "AUTO": "TwelveBossResourceDactolystItemSmall.png"
+  },
+  "LOCKED": {
+    "AUTO": "LockIcon.png"
+  },
+  "DT_GAS_COLOR": {
+    "AUTO": "GasSymbol.png"
+  },
+  "COMMON": {
+    "AUTO": "RarityIconCommon.png"
+  },
+  "VAZARIN_BASE": {
+    "AUTO": "SealVazarinWaveBase.png"
+  },
+  "NUMPAD6": {
+    "AUTO": "Num6_d.png"
+  },
+  "FOIL_UNLOCKER": {
+    "AUTO": "FoilModUnlocker.png"
+  },
+  "DT_RADIATION_COLOR": {
+    "AUTO": "RadiationSymbol.png"
+  },
+  "IOS_SUMMON_ATOMICYCLE": {
+    "AUTO": "IOSAtomicycleSpawn_d.png"
+  },
+  "OMEGA": {},
+  "IOS_PVPVE_BOOSTER": {
+    "AUTO": "IOSBooster_d.png"
+  },
+  "GAMEPAD_UP": {
+    "XBONE": "XboxOneDPadUp_d.png",
+    "PS4": "PS4_D-PadUp_d.png",
+    "SWITCH": "SwitchCircleDPadUp_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "PadLeftDpadNorth.png"
+  },
+  "PROBLEM": {
+    "AUTO": "ProblemIcon64.png"
+  },
+  "GAMEPAD_SELECT": {
+    "XBONE": "XboxOneView_d.png",
+    "SWITCH": "SwitchMinus_d.png",
+    "PS4": "PS4_share01_d.png",
+    "PS5": "PS5_Create01_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "ButtonSelect.png"
+  },
+  "TESHIN_GLAIVE": {
+    "IOS": "TeshinAbilitiesGlaive.png",
+    "ANDROID": "TeshinAbilitiesGlaive.png"
+  },
+  "FATHER_TOKEN": {
+    "AUTO": "EntratiTasksFatherASmall.png"
+  },
+  "CHECKER_REALLY_SMALL": {
+    "AUTO": "CheckerBoard_d.png"
+  },
+  "VAZARIN_LUA": {
+    "AUTO": "SealVazarinWaveLua.png"
+  },
+  "MMF_WINDOWS": {
+    "XBONE": "GenericPlayerIcon_d.png",
+    "PC": "Windows_d.png",
+    "PS4": "GenericPlayerIcon_d.png",
+    "ANDROID": "GenericPlayerIcon_d.png",
+    "IOS": "GenericPlayerIcon_d.png",
+    "SWITCH": "GenericPlayerIcon_d.png"
+  },
+  "DT_FREEZE": {
+    "AUTO": "Cold_d.png"
+  },
+  "ARTIFACT_MARKER_SQUARE": {
+    "AUTO": "IconSentientSquare.png"
+  },
+  "RESET": {
+    "AUTO": "Reset.png"
+  },
+  "WEEKLY": {
+    "AUTO": "WeeklyChallengeIcon.png"
+  },
+  "KOUMEI_DICE_1": {
+    "AUTO": "Die1.png"
+  },
+  "NARAMON_GREATER": {
+    "AUTO": "SealNaramonTreeGreater.png"
+  },
+  "ESCAPE": {
+    "XBONE": "Esc_d.png",
+    "PC": "Esc_d.png"
+  },
+  "IOS_EXCALIBUR_ABILITY_4": {
+    "AUTO": "ExcaliburSwordOfDoom_d.png"
+  },
+  "MADURAI_EIDOLON": {
+    "AUTO": "SealMaduraiCloudEidolon.png"
+  },
+  "SEEKING_TRADE_ICON": {
+    "AUTO": "HubTradingSeekingTrade.png"
+  },
+  "IOS_MELEE_MODE": {
+    "AUTO": "IOSMeleeMode_d.png"
+  },
+  "RANK_5": {
+    "AUTO": "Rank05SilverNovice.png"
+  },
+  "IOS_HEAVY_ATTACK": {
+    "AUTO": "IOSHeavyAttack_d.png"
+  },
+  "GAMEPAD_SQUARE_TAP": {
+    "XBONE": "XboxOneX_d.png",
+    "PS4": "PS4_Square_d.png",
+    "SWITCH": "SwitchY_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "ButtonX.png"
+  },
+  "IOS_EXPANDMAP": {
+    "AUTO": "IOSExpandMap_d.png"
+  },
+  "PROJECTION_T3": {
+    "AUTO": "OroEpochC.png"
+  },
+  "KUBROW_RETRIEVER": {
+    "AUTO": "TemperamentRetriever.png"
+  },
+  "VENUS_ALERT_FULL": {},
+  "RANK_19": {
+    "AUTO": "Rank19Tiger.png"
+  },
+  "IOS_ABILITY_3": {
+    "AUTO": "XboxOneDPadUp_d.png"
+  },
+  "DT_VIRAL_COLOR_NO_ADV": {
+    "AUTO": "ViralSymbol.png"
+  },
+  "MOUSE_B2": {
+    "XBONE": "MouseWheelButton_d.png",
+    "PC": "MouseWheelButton_d.png"
+  },
+  "RANK_42": {
+    "AUTO": "Rank42.png"
+  },
+  "RANK_34": {
+    "AUTO": "Rank34.png"
+  },
+  "MINI_ARROW": {
+    "AUTO": "RightArrow.png"
+  },
+  "CHECKMARK_NO_BORDER": {
+    "AUTO": "Checkmark.png"
+  },
+  "RANK_18": {
+    "AUTO": "Rank18GoldEagle.png"
+  },
+  "HOLLARS": {
+    "AUTO": "1999Hollars.png"
+  },
+  "RANK_17": {
+    "AUTO": "Rank17SilverEagle.png"
+  },
+  "ARTIFACT_MARKER_TRIANGLE": {
+    "AUTO": "IconSentientTriangle.png"
+  },
+  "DT_RADIATION": {
+    "AUTO": "Radiation_d.png"
+  },
+  "DT_FREEZE_SPACE": {
+    "AUTO": "Cold_d.png"
+  },
+  "IN_TRADE_ICON": {
+    "AUTO": "HubTradingTradeInProgress.png"
+  },
+  "MMF_MOBILE": {
+    "XBONE": "GenericPlayerIcon_d.png",
+    "PC": "GenericPlayerIcon_d.png",
+    "PS4": "GenericPlayerIcon_d.png",
+    "ANDROID": "GenericPlayerIcon_d.png",
+    "IOS": "AppleLogo_d.png",
+    "SWITCH": "GenericPlayerIcon_d.png"
+  },
+  "DT_VIRAL": {
+    "AUTO": "Viral_d.png"
+  },
+  "RANK_16": {
+    "AUTO": "Rank16Eagle.png"
+  },
+  "GAMEPAD_L1": {
+    "XBONE": "XboxOneLT_d.png",
+    "PS4": "PS4_L2_d.png",
+    "SWITCH": "SwitchZL_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "TriggerLeftClick.png"
+  },
+  "ENHANCER": {
+    "AUTO": "GenericCosmeticEnhancerIcon.png"
+  },
+  "IOS_GEAR": {
+    "AUTO": "IOSEmotes_d.png"
+  },
+  "RETURN": {
+    "XBONE": "KeyboardEnter_d.png",
+    "PC": "KeyboardEnter_d.png"
+  },
+  "RESOURCE_BOOSTER": {
+    "AUTO": "ResourceBoosterBlueSmall.png"
+  },
+  "MOUSE_Y": {
+    "XBONE": "MouseFwdBkwd_d.png",
+    "PC": "MouseFwdBkwd_d.png"
+  },
+  "NUMPAD2": {
+    "AUTO": "Num2_d.png"
+  },
+  "SHARD_RED_SIMPLE": {
+    "AUTO": "ArchonAmarIcon.png"
+  },
+  "PRE_ATTACK": {
+    "AUTO": "MouseButton00 d.png"
+  },
+  "DT_RADIANT_COLOR_NO_ADV": {
+    "AUTO": "VoidSymbol.png"
+  },
+  "RANK_40": {
+    "AUTO": "Rank40.png"
+  },
+  "MERIDIAN": {
+    "AUTO": "FactionSigilRebels.png"
+  },
+  "LOKA": {
+    "AUTO": "FactionSigilChurch.png"
+  },
+  "REGISTERED_TRADEMARK": {
+    "AUTO": "RegisteredTrademark_d.png"
+  },
+  "PRIOR": {
+    "XBONE": "PageUp_d.png",
+    "PC": "PageUp_d.png"
+  },
+  "FUSION_POINTS": {
+    "AUTO": "EndoIconRenderSmall.png"
+  },
+  "NUMPAD8": {
+    "AUTO": "Num8_d.png"
+  },
+  "PAGINATION_FIRST": {
+    "AUTO": "PaginationFirst_d.png"
+  },
+  "LEGENDARY_RANK": {
+    "AUTO": "LegendaryIcon.png"
+  },
+  "IOS_DRAGVERT": {
+    "AUTO": "IOSDragVert_d.png"
+  },
+  "DT_RADIATION_COLOR_NO_ADV": {
+    "AUTO": "RadiationSymbol.png"
+  },
+  "STAT_BASE": {
+    "AUTO": "TinyBaseDiamond.png"
+  },
+  "GAMEPAD_RX": {
+    "XBONE": "XboxOneJoystickR_d.png",
+    "PS4": "PS4RightAnalog_d.png",
+    "SWITCH": "SwitchRStick_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "PadRight.png"
+  },
+  "IOS_CALIBERCHICKS_SHOOT": {
+    "AUTO": "IOSMinigameCCShoot_d.png"
+  },
+  "IOS_BLOCK": {
+    "AUTO": "IOSBlock_d.png"
+  },
+  "ACCOLADE_RANK_2": {
+    "AUTO": "TemperamentStealth.png"
+  },
+  "NUMPAD7": {
+    "AUTO": "Num7_d.png"
+  },
+  "LSHIFT": {
+    "XBONE": "LShift_d.png",
+    "PC": "LShift_d.png"
+  },
+  "REDVEIL": {
+    "AUTO": "FactionSigilAssassins.png"
+  },
+  "ARBITRATION_DRONE": {
+    "AUTO": "ArbitrationDrone.png"
+  },
+  "IOS_CROUCH": {
+    "AUTO": "IOSCrouch_d.png"
+  },
+  "SHIELD_GAIN": {
+    "AUTO": "Shield.png"
+  },
+  "ARTIFACT_MARKER_LOHK": {
+    "AUTO": "DisruptionRuneVoidMinimap.png"
+  },
+  "RANK_37": {
+    "AUTO": "Rank37.png"
+  },
+  "NUMPAD5": {
+    "AUTO": "Num5_d.png"
+  },
+  "CLAN_XP": {
+    "AUTO": "ClanXpIcon_d.png"
+  },
+  "KAHL_CREDS": {
+    "AUTO": "KahlCurrency.png"
+  },
+  "NUMPAD0": {
+    "AUTO": "Num0_d.png"
+  },
+  "GAMEPAD_R2": {
+    "XBONE": "XboxOneRB_d.png",
+    "PS4": "PS4_R1_d.png",
+    "SWITCH": "SwitchR_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "ShoulderRight.png"
+  },
+  "RANK_47": {
+    "AUTO": "Rank47.png"
+  },
+  "IOS_MAG_ABILITY_4": {
+    "AUTO": "MagCrush_d.png"
+  },
+  "MOD_SET_FILLED_NOTCH": {
+    "AUTO": "FilledNotch.png"
+  },
+  "RCONTROL": {
+    "AUTO": "RCtrl_d.png"
+  },
+  "MOON_TEAM_DROPPED": {
+    "AUTO": "MiniMapPvpMoonDropped.png"
+  },
+  "ARCHWING": {
+    "AUTO": "IconArchwing_256.png"
+  },
+  "NARAMON_CLEAN": {
+    "AUTO": "IconFocusCleanNaramon.png"
+  },
+  "LCONTROL": {
+    "AUTO": "LCtrl_d.png"
+  },
+  "SIMARIS_TEXTURED": {
+    "AUTO": "FactionSimarisTextured.png"
+  },
+  "DT_CORROSIVE_OUTLINE": {
+    "AUTO": "Corrosive_d.png"
+  },
+  "ALLY_DOWN": {
+    "AUTO": "MiniMapFriendPreDeath.png"
+  },
+  "LBRACKET": {
+    "XBONE": "LBracket_d.png",
+    "PC": "LBracket_d.png"
+  },
+  "RBRACKET": {
+    "XBONE": "RBracket_d.png",
+    "PC": "RBracket_d.png"
+  },
+  "SUBTRACT": {
+    "AUTO": "Subtract_d.png"
+  },
+  "TESHIN_COLD": {
+    "IOS": "TeshinAbilitiesCold.png",
+    "ANDROID": "TeshinAbilitiesCold.png"
+  },
+  "VENUS_ALERT_MID": {},
+  "GAMEPAD_LTHUMB": {
+    "XBONE": "XboxOneJoystickLClick_d.png",
+    "PS4": "PS4_L3_d.png",
+    "SWITCH": "SwitchLStickPress_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "StickClick.png"
+  },
+  "TRADE_REQUEST_SENT_ICON": {
+    "AUTO": "HubTradingRequestSent.png"
+  },
+  "GAMEPAD_RTHUMB": {
+    "XBONE": "XboxOneJoystickRClick_d.png",
+    "PS4": "PS4_R3_d.png",
+    "SWITCH": "SwitchRStickPress_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "PadRightClick.png"
+  },
+  "NARAMON": {
+    "AUTO": "SealNaramonTree.png"
+  },
+  "KAVAT_MIRROR": {
+    "AUTO": "TemperamentMirror.png"
+  },
+  "RANK_1": {
+    "AUTO": "Rank01Initiate.png"
+  },
+  "GAMEPAD_UD": {
+    "XBONE": "XboxDPadUD_d.png",
+    "PC": "PCKeyUD_d.png",
+    "PS4": "PS4DPadUD_d.png",
+    "SWITCH": "SwitchDPadUp_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "PadLeftUD_d.png"
+  },
+  "DT_EXPLOSION_OUTLINE": {
+    "AUTO": "Blast_d.png"
+  },
+  "HEXIS": {
+    "AUTO": "FactionSigilJudge.png"
+  },
+  "PERIOD": {
+    "AUTO": "Period_d.png"
+  },
+  "UPARROW": {
+    "AUTO": "IncreaseArrow.png"
+  },
+  "GAMEPAD_RIGHT": {
+    "XBONE": "XboxOneDPadRight_d.png",
+    "PS4": "PS4_D-PadRight_d.png",
+    "SWITCH": "SwitchCircleDPadRight_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "PadLeftDpadEast.png"
+  },
+  "KUBROW_HUNTER": {
+    "AUTO": "TemperamentHunter.png"
+  },
+  "AMBULAS_DATA": {
+    "AUTO": "AmbulasDataFragments_d.png"
+  },
+  "KAVAT_INFESTED_VULPINE": {
+    "AUTO": "TemperamentSlyVulpaphyla.png"
+  },
+  "PAGINATION_PREVIOUS": {
+    "AUTO": "PaginationPrevious_d.png"
+  },
+  "NARAMON_ULTIMATE": {
+    "AUTO": "NaramonUltimate.png"
+  },
+  "AFFINITY_SHARE": {
+    "AUTO": "Affinity.png"
+  },
+  "MISSION_MARKER_F": {
+    "AUTO": "MiniMapTerritoryF.png"
+  },
+  "MINUS": {
+    "AUTO": "Minus_d.png"
+  },
+  "GAMEPAD_DOWN": {
+    "XBONE": "XboxOneDPadDown_d.png",
+    "ANDROID": "IOSEmotes_d.png",
+    "IOS": "IOSEmotes_d.png",
+    "PS4": "PS4_D-PadDown_d.png",
+    "SWITCH": "SwitchCircleDPadDown_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "PadLeftDpadSouth.png"
+  },
+  "GAMEPAD_LEFT": {
+    "XBONE": "XboxOneDPadLeft_d.png",
+    "PS4": "PS4_D-PadLeft_d.png",
+    "SWITCH": "SwitchCircleDPadLeft_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "PadLeftDpadWest.png"
+  },
+  "INFESTED": {
+    "AUTO": "InfestedLogo.png"
+  },
+  "PASSIVE_ABILITY": {
+    "AUTO": "PassiveAbilityIcon.png"
+  },
+  "NARAMON_LUA": {
+    "AUTO": "SealNaramonTreeLua.png"
+  },
+  "TREASURE_GEM": {
+    "AUTO": "OrnamentIcon.png"
+  },
+  "IOS_DECO_ADVANCED_MODE_TOGGLE": {
+    "AUTO": "DecoAdvancedModeToggle.png"
+  },
+  "UNIVERSAL": {
+    "AUTO": "UniversalIcon_d.png"
+  },
+  "RAID": {
+    "AUTO": "RaidIconColour.png"
+  },
+  "KAVAT_CHESHIRE": {
+    "AUTO": "TemperamentCheshire.png"
+  },
+  "RSHIFT": {
+    "AUTO": "RShift_d.png"
+  },
+  "SHARD_GREEN_SIMPLE": {
+    "AUTO": "ArchonCrystalGreenIcon.png"
+  },
+  "KEYWIDE": {
+    "XBONE": "KeyboardPieceWide_d.png",
+    "PC": "KeyboardPieceWide_d.png"
+  },
+  "NUMPAD1": {
+    "AUTO": "Num1_d.png"
+  },
+  "RAILJACK": {
+    "AUTO": "RailjackShipMarker.png"
+  },
+  "ELITE_CREW_MEMBER": {
+    "AUTO": "EliteCrewMemberIcon.png"
+  },
+  "IOS_WRAITH_ABILITY_1": {
+    "AUTO": "WraithSoulHarvest_d.png"
+  },
+  "KUBROW_INFESTED": {
+    "AUTO": "TemperamentCharger.png"
+  },
+  "DT_CORROSIVE": {
+    "AUTO": "Corrosive_d.png"
+  },
+  "BIG_PROBLEM": {
+    "AUTO": "ProblemIcon64.png"
+  },
+  "PAGINATION_LAST": {
+    "AUTO": "PaginationLast_d.png"
+  },
+  "RANK_28": {
+    "AUTO": "Rank28Master.png"
+  },
+  "DT_SLASH_COLOR": {
+    "AUTO": "SlashSymbol.png"
+  },
+  "MOA_BREACHER": {
+    "IOS": "CorpusDeployMoa.png",
+    "ANDROID": "CorpusDeployMoa.png"
+  },
+  "GAMEPAD_START": {
+    "XBONE": "XboxOneMenu_d.png",
+    "SWITCH": "SwitchPlus_d.png",
+    "PS4": "PS4_Options01_d.png",
+    "PS5": "PS5_Options01_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "ButtonStart.png"
+  },
+  "DISCORD": {
+    "AUTO": "DiscordIcon.png"
+  },
+  "BOUNTY_FUNGI": {
+    "AUTO": "MysteryShroom256_d.png"
+  },
+  "RANK_31": {
+    "AUTO": "Rank31.png"
+  },
+  "KUBROW_STEALTH": {
+    "AUTO": "TemperamentStealth.png"
+  },
+  "UNAIRU_BASE": {
+    "AUTO": "SealUnairuMountainBase.png"
+  },
+  "IOS_MAG_ABILITY_3": {
+    "AUTO": "MagShieldRenew_d.png"
+  },
+  "RANK_12": {
+    "AUTO": "Rank12GoldSeeker.png"
+  },
+  "RANK_4": {
+    "AUTO": "Rank04Novice.png"
+  },
+  "GRANDMOTHER_TOKEN": {
+    "AUTO": "EntratiTasksGrandmotherASmall.png"
+  },
+  "MADURAI_BASE": {
+    "AUTO": "SealMaduraiCloudBase.png"
+  },
+  "VAZARIN_EIDOLON": {
+    "AUTO": "SealVazarinWaveEidolon.png"
+  },
+  "DT_FINISHER": {
+    "AUTO": "Finisher_d.png"
+  },
+  "MOUSE_B0": {
+    "XBONE": "MouseButton00_d.png",
+    "PC": "MouseButton00_d.png",
+    "ANDROID": "IOSTap1_d.png",
+    "IOS": "IOSTap1_d.png"
+  },
+  "OSTRON_PRICE": {
+    "AUTO": "OstronBarterIconSmall.png"
+  },
+  "RIVEN_CIPHER": {
+    "AUTO": "RivenCipher.png"
+  },
+  "POWER_CELL": {
+    "AUTO": "ExcavatorPowerCellMarker.png"
+  },
+  "POLARITY_POWER": {
+    "AUTO": "PolarityMark.png"
+  },
+  "LINE_SEPARATOR": {
+    "AUTO": "WhiteLine_d.png"
+  },
+  "SPACE": {
+    "XBONE": "Space_d.png",
+    "PC": "Space_d.png"
+  },
+  "IOS_DECO_CAMERA_DOWN": {
+    "AUTO": "DecoCameraDown.png"
+  },
+  "DUVIRI_HIDDEN_CHEST": {
+    "AUTO": "DuviriHiddenChestIcon.png"
+  },
+  "ORPHIX_ICON": {
+    "AUTO": "MiniMapOrphix.png"
+  },
+  "SCROLL": {
+    "AUTO": "Scroll_d.png"
+  },
+  "RANK_29": {
+    "AUTO": "Rank29MiddleMaster.png"
+  },
+  "IOS_TOUCH_RIGHT_SIDE": {
+    "AUTO": "IOSTouchRightLow.png"
+  },
+  "DT_POISON": {
+    "AUTO": "Poison_d.png"
+  },
+  "GAMEPAD_LTHUMB_PUSH": {
+    "XBONE": "XBoxOneAnalogStickLPush_d.png",
+    "PS4": "PS4AnalogStickLPush_d.png",
+    "SWITCH": "SwitchLStickPress_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "StickPush_d.png"
+  },
+  "IOS_TOUCH_LEFT_SIDE": {
+    "AUTO": "IOSTouchLeftLow.png"
+  },
+  "KOUMEI_DICE_6": {
+    "AUTO": "Die6.png"
+  },
+  "IOS_DRAGHORIZ": {
+    "AUTO": "IOSDragHoriz_d.png"
+  },
+  "IOS_URIEL_ABILITY_3": {
+    "AUTO": "UrielBrimstone_d.png"
+  },
+  "RANK_3": {
+    "AUTO": "Rank03GoldInitiate.png"
+  },
+  "KOUMEI_DICE_3": {
+    "AUTO": "Die3.png"
+  },
+  "SOLARIS": {
+    "AUTO": "FactionSigilSolarisUnited.png"
+  },
+  "ZENURIK_CLEAN": {
+    "AUTO": "IconFocusCleanZenurik.png"
+  },
+  "ZENURIK_LUA": {
+    "AUTO": "SealZenurikCrystalLua.png"
+  },
+  "IOS_EXCALIBUR_ABILITY_3": {
+    "AUTO": "Power03_d.png"
+  },
+  "GAMEPAD_RY_TILT_DOWN": {
+    "XBONE": "XboxOneJoystickRDown_d.png",
+    "PS4": "PS4RTiltDown_d.png",
+    "SWITCH": "SwitchRStickDown_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "PadRightDown_d.png"
+  },
+  "EMPTY_SERUM": {
+    "AUTO": "MiniMapTerritoryE.png"
+  },
+  "RANK_7": {
+    "AUTO": "Rank07Disciple.png"
+  },
+  "RANK_30": {
+    "AUTO": "Rank30GrandMaster.png"
+  },
+  "DT_MAGNETIC_COLOR": {
+    "AUTO": "MagneticSymbol.png"
+  },
+  "GAMEPAD_SWIPE_UP": {
+    "PS4": "PS4SwipeUp_d.png",
+    "STEAM": "PadLeftDpadNorth.png"
+  },
+  "INC_ARROW": {
+    "AUTO": "IncreaseArrow.png"
+  },
+  "DT_ELECTRICITY_COLOR": {
+    "AUTO": "ElectricitySymbol.png"
+  },
+  "KUVA": {
+    "AUTO": "Kuva.png"
+  },
+  "IOS_CHAT": {
+    "AUTO": "IOSChat_d.png"
+  },
+  "PROJECTION_T1": {
+    "AUTO": "OroEpochA.png"
+  },
+  "RANK_39": {
+    "AUTO": "Rank39.png"
+  },
+  "INFINITE_SMALL": {
+    "AUTO": "InfiniteWhite.png"
+  },
+  "CHECKER_BIG": {
+    "AUTO": "CheckerBoard_d.png"
+  },
+  "SALVAGE": {
+    "AUTO": "RailjackSalvageIcon.png"
+  },
+  "TOUCHPAD_MOTION_PRESS": {
+    "AUTO": "PS4motion_press_d.png",
+    "STEAM": "PadLeftClick.png"
+  },
+  "ACCOLADE_RANK_1": {
+    "AUTO": "TemperamentHunter.png"
+  },
+  "SCAN": {
+    "IOS": "IOSScan_d.png",
+    "ANDROID": "IOSScan_d.png"
+  },
+  "SEMICOLON": {
+    "AUTO": "Semicolon_d.png"
+  },
+  "CHECKMARK": {
+    "AUTO": "Check_d.png"
+  },
+  "VAZARIN_ULTIMATE": {
+    "AUTO": "VazarinUltimate.png"
+  },
+  "MOUSE_B4": {
+    "XBONE": "MouseButton5_d.png",
+    "PC": "MouseButton5_d.png"
+  },
+  "F2": {
+    "AUTO": "F2_d.png"
+  },
+  "TOUCHPAD_SWIPE_UP": {
+    "AUTO": "PS4SwipeUp_d.png",
+    "STEAM": "PadLeftDpadNorth.png"
+  },
+  "IOS_VOLT_ABILITY_4": {
+    "AUTO": "VoltOverLoad_d.png"
+  },
+  "IOS_VOLT_ABILITY_2": {
+    "AUTO": "VoltSuperSpeed_d.png"
+  },
+  "IOS_KAITHE_DASH": {
+    "AUTO": "IOSKaitheDash_d.png"
+  },
+  "DT_ELECTRICITY_SPACE": {
+    "AUTO": "Ionic_d.png"
+  },
+  "KUVA_LICH": {
+    "AUTO": "KuvaLichIconSimple.png"
+  },
+  "DUVIRI_UNBLOCKABLE": {
+    "AUTO": "UnblockableAttack.png"
+  },
+  "APPS": {
+    "AUTO": "Apps_d.png"
+  },
+  "MMF_SWITCH": {
+    "XBONE": "GenericPlayerIcon_d.png",
+    "PC": "GenericPlayerIcon_d.png",
+    "PS4": "GenericPlayerIcon_d.png",
+    "ANDROID": "GenericPlayerIcon_d.png",
+    "IOS": "GenericPlayerIcon_d.png",
+    "SWITCH": "SwitchLogo_d.png"
+  },
+  "NARAMON_BASE": {
+    "AUTO": "SealNaramonTreeBase.png"
+  },
+  "DOWNARROW": {
+    "AUTO": "DecreaseArrow.png"
+  },
+  "KOUMEI_DICE_4": {
+    "AUTO": "Die4.png"
+  },
+  "MANUFACTURER_VIDAR": {
+    "AUTO": "IconManufacturerVidar.png"
+  },
+  "TOUCHPAD_SWIPE_RIGHT": {
+    "AUTO": "PS4SwipeRight_d.png",
+    "STEAM": "PadLeftDpadEast.png"
+  },
+  "STEEL_ESSENCE": {
+    "AUTO": "SteelEssence.png"
+  },
+  "IOS_MOVE": {
+    "AUTO": "IOSJoycon_d.png"
+  },
+  "SHARD_YELLOW_SIMPLE": {
+    "AUTO": "ArchonNiraIcon.png"
+  },
+  "UP": {
+    "XBONE": "UpArrow_d.png",
+    "PC": "UpArrow_d.png"
+  },
+  "END": {
+    "AUTO": "End_d.png"
+  },
+  "GAMEPAD_CAPTURE": {
+    "SWITCH": "SwitchCaptureGame_d.png"
+  },
+  "ARCANE_RANK": {
+    "AUTO": "DailyTributeFullDiamond.png"
+  },
+  "CHECKER_SMALL": {
+    "AUTO": "CheckerBoard_d.png"
+  },
+  "RANK_21": {
+    "AUTO": "Rank21GoldTiger.png"
+  },
+  "GAMEPAD_RY_TILT_FOUR": {
+    "XBONE": "XBoxOneAnalogStickRTiltFour_d.png",
+    "PS4": "PS4RTiltFour_d.png",
+    "SWITCH": "SwitchRStickPress_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "PadRightTiltFour_d.png"
+  },
+  "PAGINATION_NEXT": {
+    "AUTO": "PaginationNext_d.png"
+  },
+  "POLARITY_TACTIC": {
+    "AUTO": "PolarityCircle.png"
+  },
+  "RANK_32": {
+    "AUTO": "Rank32.png"
+  },
+  "STAT_POSITIVE": {
+    "AUTO": "PositiveSymbol.png"
+  },
+  "CHECKMARK_FAIL_NO_BORDER": {
+    "AUTO": "X.png"
+  },
+  "AYATAN_SCULPTURE": {
+    "AUTO": "TreasuresIcon.png"
+  },
+  "MISSION_MARKER_EXTRACTION": {
+    "AUTO": "MiniMapExtraction.png"
+  },
+  "RARE": {
+    "AUTO": "RarityIconRare.png"
+  },
+  "TM_SMALL": {
+    "AUTO": "TrademarkSmall_d.png"
+  },
+  "SM_SMALL": {
+    "AUTO": "ServicemarkSmall_d.png"
+  },
+  "ARCANE_CAN_REPROC": {
+    "AUTO": "RefreshTimerIcon.png"
+  },
+  "RANK_20": {
+    "AUTO": "Rank20SilverTiger.png"
+  },
+  "ELITIUM": {
+    "AUTO": "Elitium.png"
+  },
+  "MOUSE_WHEELDOWN": {
+    "XBONE": "MouseWheelScrollC_d.png",
+    "PC": "MouseWheelScrollC_d.png"
+  },
+  "RANK_50": {
+    "AUTO": "Rank50.png"
+  },
+  "CHECKMARK_OUTLINE": {
+    "AUTO": "CheckOutline_d.png"
+  },
+  "NEXT": {
+    "XBONE": "PageDown_d.png",
+    "PC": "PageDown_d.png"
+  },
+  "ZENURIK_EIDOLON": {
+    "AUTO": "SealZenurikCrystalEidolon.png"
+  },
+  "MOUSE_X": {
+    "XBONE": "MouseSideToSide_d.png",
+    "PC": "MouseSideToSide_d.png"
+  },
+  "STAT_POS": {
+    "AUTO": "PositiveDiamond.png"
+  },
+  "ENHANCER_SMALL": {
+    "AUTO": "GenericCosmeticEnhancerIcon.png"
+  },
+  "ACCOLADE_RANK_3": {
+    "AUTO": "TemperamentStealth.png"
+  },
+  "VAZARIN_CLEAN": {
+    "AUTO": "IconFocusCleanVazarin.png"
+  },
+  "IOS_WRAITH_ABILITY_2": {
+    "AUTO": "WraithDeadlyWall_d.png"
+  },
+  "KUBROW_INFESTED_PHARAOH": {
+    "AUTO": "TemperamentPharaohPredasite.png"
+  },
+  "DT_PUNCTURE": {
+    "AUTO": "Puncture_d.png"
+  },
+  "IOS_SWITCH_WEAPON": {
+    "AUTO": "IOSWeaponSwitch.png"
+  },
+  "DT_POISON_COLOR_NO_ADV": {
+    "AUTO": "ToxinSymbol.png"
+  },
+  "HEALTH": {
+    "AUTO": "HealOrb.png"
+  },
+  "MOUSE_B3": {
+    "XBONE": "MouseButton4_d.png",
+    "PC": "MouseButton4_d.png"
+  },
+  "UNAIRU_ABILITY_2": {
+    "IOS": "FocusIcon40.png",
+    "ANDROID": "FocusIcon40.png"
+  },
+  "TAB": {
+    "XBONE": "Tab_d.png",
+    "PC": "Tab_d.png"
+  },
+  "RANK_13": {
+    "AUTO": "Rank13Hunter.png"
+  },
+  "DT_RADIANT_COLOR": {
+    "AUTO": "VoidSymbol.png"
+  },
+  "IOS_RELOAD": {
+    "AUTO": "IOSReload_d.png"
+  },
+  "DT_FREEZE_COLOR": {
+    "AUTO": "ColdSymbol.png"
+  },
+  "MOVE_Z_UP": {
+    "XBONE": "XboxOneJoystickLUp_d.png",
+    "ANDROID": "IOSStickUp_d.png",
+    "PS4": "AnalogStickLTiltUp_d.png",
+    "IOS": "IOSStickUp_d.png",
+    "SWITCH": "SwitchLStickUp_d.png",
+    "STEAM": "PadLeftDpadNorth.png"
+  },
+  "DT_SLASH_OUTLINE": {
+    "AUTO": "Slash_d.png"
+  },
+  "NECRALOID_STANDING": {
+    "AUTO": "NecraloidStandingCommon.png"
+  },
+  "IOS_SHOOT": {
+    "AUTO": "IOSShoot_d.png"
+  },
+  "DT_ELECTRICITY_OUTLINE": {
+    "AUTO": "Electricity_d.png"
+  },
+  "REPUTATION_SMALL": {
+    "AUTO": "ReputationSmall.png"
+  },
+  "MOTHER_TOKEN": {
+    "AUTO": "EntratiTasksMotherASmall.png"
+  },
+  "DT_EXPLOSION": {
+    "AUTO": "Blast_d.png"
+  },
+  "DEC_ARROW": {
+    "AUTO": "DecreaseArrow.png"
+  },
+  "INFINITY": {
+    "AUTO": "Infinity_d.png"
+  },
+  "ARTIFACT_MARKER_DIAMOND": {
+    "AUTO": "IconSentientDiamond.png"
+  },
+  "UNAIRU_CLEAN": {
+    "AUTO": "IconFocusCleanUnairu.png"
+  },
+  "F6": {
+    "AUTO": "F6_d.png"
+  },
+  "BOOKEND_LEFT": {
+    "AUTO": "HeadingDecoration.png"
+  },
+  "PRIME_BUCKS": {
+    "AUTO": "PrimeBucks.png"
+  },
+  "DECIMAL": {
+    "AUTO": "Decimal_d.png"
+  },
+  "MADURAI_CLEAN": {
+    "AUTO": "IconFocusCleanMadurai.png"
+  },
+  "GAMEPAD_MOTION_PRESS": {
+    "PS4": "PS4motion_press_d.png",
+    "STEAM": "PadLeftClick.png"
+  },
+  "IOS_WRAITH_ABILITY_0": {
+    "AUTO": "WraithDeathsGrasp_d.png"
+  },
+  "GAMEPAD_CIRCLE": {
+    "XBONE": "XboxOneB_d.png",
+    "PC": "XboxOneB_d.png",
+    "PS4": "PS4_Circle_d.png",
+    "SWITCH": "SwitchA_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "ButtonB.png"
+  },
+  "MOON_TEAM": {
+    "AUTO": "MiniMapPvpMoon.png"
+  },
+  "ARROW_LIST": {
+    "AUTO": "OpenListArrow.png"
+  },
+  "DT_FREEZE_COLOR_NO_ADV": {
+    "AUTO": "ColdSymbol.png"
+  },
+  "SPECTATE": {
+    "AUTO": "SpectateIcon.png"
+  },
+  "GRENADE_ICON": {
+    "IOS": "GrenadeIcon.png",
+    "ANDROID": "GrenadeIcon.png"
+  },
+  "IOS_JUMP": {
+    "AUTO": "IOSJump_d.png"
+  },
+  "ENTRATI_EYE": {
+    "AUTO": "EyeGlitchA.png"
+  },
+  "PICKUP_DOUBLED": {
+    "AUTO": "2XIcon.png"
+  },
+  "NARAMON_EIDOLON": {
+    "AUTO": "SealNaramonTreeEidolon.png"
+  },
+  "DT_SENTIENT_COLOR": {
+    "AUTO": "SentientSymbol.png"
+  },
+  "REPUTATION": {
+    "AUTO": "ReputationLarge128.png"
+  },
+  "GAMEPAD_RY": {
+    "XBONE": "XboxOneJoystickR_d.png",
+    "PS4": "PS4RightAnalog_d.png",
+    "SWITCH": "SwitchRStick_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "PadRight.png"
+  },
+  "CURSOR_STATIC": {
+    "AUTO": "CursorBlinkFlip_d.png"
+  },
+  "CURSOR_BLINK": {
+    "AUTO": "CursorBlinkFlip_d.png"
+  },
+  "MINI_DIAMOND": {
+    "AUTO": "PipDiamond_d.png"
+  },
+  "Vampiric_Hunger_Burden": {
+    "AUTO": "BurdenHudIcon09.png"
+  },
+  "DT_FIRE_OUTLINE": {
+    "AUTO": "Heat_d.png"
+  },
+  "GAMEPAD_R1": {
+    "XBONE": "XboxOneRT_d.png",
+    "PS4": "PS4_R2_d.png",
+    "SWITCH": "SwitchZR_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "TriggerRightClick.png"
+  },
+  "F1": {
+    "AUTO": "F1_d.png"
+  },
+  "IOS_KAITHE_GALLOP": {
+    "AUTO": "IOSKaitheGallop_d.png"
+  },
+  "Energy_Drain_Burden": {
+    "AUTO": "BurdenHudIcon07.png"
+  },
+  "Damage_On_Skill_Burden": {
+    "AUTO": "BurdenHudIcon06.png"
+  },
+  "Electric_Hazard_Burden": {
+    "AUTO": "BurdenHudIcon05.png"
+  },
+  "RADIAL_BUTTON_OFF": {
+    "AUTO": "RadialButtonOff.png"
+  },
+  "RANK_48": {
+    "AUTO": "Rank48.png"
+  },
+  "COMMA": {
+    "AUTO": "Comma_d.png"
+  },
+  "IOS_ARCHWING_UP": {
+    "AUTO": "IOSArchwingUp_d.png"
+  },
+  "Void_Implosion_Burden": {
+    "AUTO": "BurdenHudIcon02.png"
+  },
+  "Eximus_Burden": {
+    "AUTO": "BurdenHudIcon01.png"
+  },
+  "RANK_27": {
+    "AUTO": "Rank27GoldSage.png"
+  },
+  "GAMEPAD_X": {
+    "XBONE": "XboxOneA_d.png",
+    "PC": "XboxOneA_d.png",
+    "PS4": "PS4_Cross_d.png",
+    "SWITCH": "SwitchB_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "ButtonA.png"
+  },
+  "GAMEPAD_LY": {
+    "XBONE": "XboxOneJoystickL_d.png",
+    "PS4": "PS4LeftAnalog_d.png",
+    "SWITCH": "SwitchLStick_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "Stick.png"
+  },
+  "GAMEPAD_L2": {
+    "XBONE": "XboxOneLB_d.png",
+    "PS4": "PS4_L1_d.png",
+    "SWITCH": "SwitchL_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "ShoulderLeft.png"
+  },
+  "SIMARIS": {
+    "AUTO": "CephalonSimaris.png"
+  },
+  "VAZARIN_ABILITY_2": {
+    "IOS": "FocusIcon43.png",
+    "ANDROID": "FocusIcon43.png"
+  },
+  "DT_RADIANT_OUTLINE": {
+    "AUTO": "Void_d.png"
+  },
+  "CATEGORY_PISTOL": {
+    "AUTO": "IconPistol_256.png"
+  },
+  "TESHIN_ELECTRICITY": {
+    "IOS": "TeshinAbilitiesElectricity.png",
+    "ANDROID": "TeshinAbilitiesElectricity.png"
+  },
+  "IOS_WEAPON_WIDGET_BOW": {
+    "AUTO": "IOSTutorialWeaponWidgetBow_d.png"
+  },
+  "IOS_WEAPON_WIDGET_RIFLE": {
+    "AUTO": "IOSTutorialWeaponWidgetRifle_d.png"
+  },
+  "MOA_GUN": {
+    "IOS": "CorpusDeployMoaGun.png",
+    "ANDROID": "CorpusDeployMoaGun.png"
+  },
+  "CATEGORY_AMP": {
+    "AUTO": "IconAmp_256.png"
+  },
+  "MOA_DRONE": {
+    "IOS": "CorpusDeployMoaDrone.png",
+    "ANDROID": "CorpusDeployMoaDrone.png"
+  },
+  "IOS_NEW_INDICATOR": {
+    "AUTO": "ExclaimPendingMobile_d.png"
+  },
+  "IOS_CALIBERCHICKS_DASH": {
+    "AUTO": "IOSMinigameCCDash_d.png"
+  },
+  "CATEGORY_OPERATOR": {
+    "AUTO": "IconOperatorHead256.png"
+  },
+  "TESHIN_HEAT": {
+    "IOS": "TeshinAbilitiesHeat.png",
+    "ANDROID": "TeshinAbilitiesHeat.png"
+  },
+  "GREED_BLACK": {
+    "AUTO": "GreedTokenBlack.png"
+  },
+  "CATEGORY_MELEE": {
+    "AUTO": "IconMelee_256.png"
+  },
+  "CATEGORY_MODULAR": {
+    "AUTO": "IconModularItem256.png"
+  },
+  "CATEGORY_BOW": {
+    "AUTO": "IconPrimaryWeaponBow.png"
+  },
+  "IOS_MOTORCYCLE_ABILITY_1": {
+    "AUTO": "MotorcycleSpeedBoost.png"
+  },
+  "CATEGORY_SHOTGUN": {
+    "AUTO": "IconPrimaryWeaponShotgun.png"
+  },
+  "TOUCHPAD_SWIPE_DOWN": {
+    "AUTO": "PS4SwipeDown_d.png",
+    "STEAM": "PadLeftDpadSouth.png"
+  },
+  "IOS_WAYPOINT": {
+    "AUTO": "IOSWaypoint_d.png"
+  },
+  "CATEGORY_RIFLE": {
+    "AUTO": "IconPrimaryWeaponRifle.png"
+  },
+  "GAMEPAD_LY_TILT_UD": {
+    "PS4": "PS4LUpDown_d.png",
+    "XBONE": "XboxOneJoystickLUpDown_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "PadRightTildUD_d.png"
+  },
+  "NIGHTMARE_RAID": {
+    "AUTO": "NightmareRaidIconColour.png"
+  },
+  "UNAIRU_LUA": {
+    "AUTO": "SealUnairuMountainLua.png"
+  },
+  "MOUSE_WHEELUP": {
+    "XBONE": "MouseWheelScrollA_d.png",
+    "PC": "MouseWheelScrollA_d.png"
+  },
+  "FISURE_CANISTER_MARKER_OUTLINE": {
+    "AUTO": "CanisterIconEmpty.png"
+  },
+  "SPEED_UP_ARROW": {
+    "AUTO": "UpArrowAnimated_d.png"
+  },
+  "SHARD_BLUE_SIMPLE": {
+    "AUTO": "ArchonBorealIcon.png"
+  },
+  "POLARITY_WARD": {
+    "AUTO": "PolarityWard.png"
+  },
+  "LOTUS": {
+    "AUTO": "LotusLogo.png"
+  },
+  "DT_FIRE_COLOR": {
+    "AUTO": "HeatSymbol.png"
+  },
+  "OVERGUARD_GAIN": {
+    "AUTO": "Overguard.png"
+  },
+  "PLATINUM_CREDITS": {
+    "AUTO": "PlatinumCredits.png"
+  },
+  "NUMPAD9": {
+    "AUTO": "Num9_d.png"
+  },
+  "LEGENDARY": {
+    "AUTO": "RarityIconLegendary.png"
+  },
+  "IOS_ABILITIES": {
+    "AUTO": "IOSAbilities_d.png"
+  },
+  "DT_PUNCTURE_COLOR_NO_ADV": {
+    "AUTO": "PunctureSymbol.png"
+  },
+  "DT_VIRAL_OUTLINE": {
+    "AUTO": "Viral_d.png"
+  },
+  "DT_MAGNETIC_OUTLINE": {
+    "AUTO": "Magnetic_d.png"
+  },
+  "VENTKIDS": {
+    "AUTO": "FactionVentKidz.png"
+  },
+  "DT_POISON_SPACE": {
+    "AUTO": "Chem_d.png"
+  },
+  "DT_GAS_OUTLINE": {
+    "AUTO": "Gas_d.png"
+  },
+  "DT_POISON_OUTLINE": {
+    "AUTO": "Poison_d.png"
+  },
+  "DT_FREEZE_OUTLINE": {
+    "AUTO": "Cold_d.png"
+  },
+  "DT_PUNCTURE_OUTLINE": {
+    "AUTO": "Puncture_d.png"
+  },
+  "MADURAI_ULTIMATE": {
+    "AUTO": "MaduraiUltimate.png"
+  },
+  "DUVIRI_INTERRUPTABLE": {
+    "AUTO": "VulnToPistolShot.png"
+  },
+  "INFESTED_LICH": {
+    "AUTO": "DuetIcon_d.png"
+  },
+  "DT_FIRE": {
+    "AUTO": "Heat_d.png"
+  },
+  "F3": {
+    "AUTO": "F3_d.png"
+  },
+  "MISSION_MARKER_GRN": {
+    "AUTO": "ObjectiveMarker.png"
+  },
+  "PLUS": {
+    "AUTO": "AddSlotIcon.png"
+  },
+  "OTAK_TOKEN": {
+    "AUTO": "EntratiTasksOtakASmall.png"
+  },
+  "GAMEPAD_TRIANGLE_TAP": {
+    "PS4": "PS4_Triangle_d.png",
+    "XBONE": "XboxOneY_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "ButtonY.png"
+  },
+  "ABANDON_X_BACKER": {
+    "AUTO": "AbandonXBacker.png"
+  },
+  "IOS_VOLT_ABILITY_3": {
+    "AUTO": "VoltShield_d.png"
+  },
+  "ABANDON_X": {
+    "AUTO": "AbandonXStroke.png"
+  },
+  "ARMOR_DISABLED": {
+    "AUTO": "ShieldDisabled.png"
+  },
+  "ARMOR_BROKEN": {
+    "AUTO": "ShieldBroken.png"
+  },
+  "MISSION_MARKER_LOOT": {
+    "AUTO": "Loot.png"
+  },
+  "LUMINOUS": {
+    "AUTO": "LuminousIconSmall.png"
+  },
+  "KAVAT_INFESTED_HORNED": {
+    "AUTO": "TemperamentCrescentVulpaphyla.png"
+  },
+  "DT_POISON_COLOR": {
+    "AUTO": "ToxinSymbol.png"
+  },
+  "SUDA": {
+    "AUTO": "FactionSigilOracle.png"
+  },
+  "KOUMEI_DICE_2": {
+    "AUTO": "Die2.png"
+  },
+  "DT_SLASH": {
+    "AUTO": "Slash_d.png"
+  },
+  "SHARD_ORANGE_SIMPLE": {
+    "AUTO": "ArchonCrystalOrangeIcon.png"
+  },
+  "RECOVERY_ARROW": {
+    "AUTO": "RecoveryArrowDeux_d.png"
+  },
+  "CROSS_PLAY": {
+    "AUTO": "GenericPlayerIcon_d.png"
+  },
+  "POLARITY_ATTACK": {
+    "AUTO": "PolarityTriangle.png"
+  },
+  "NUMPAD3": {
+    "AUTO": "Num3_d.png"
+  },
+  "MMF_SWITCH2_ICON": {
+    "XBONE": "GenericPlayerIcon_d.png",
+    "PC": "GenericPlayerIcon_d.png",
+    "PS4": "GenericPlayerIcon_d.png",
+    "ANDROID": "GenericPlayerIcon_d.png",
+    "IOS": "GenericPlayerIcon_d.png",
+    "SWITCH": "Switch2Logo_d.png"
+  },
+  "MMF_PLAYSTATION": {
+    "XBONE": "GenericPlayerIcon_d.png",
+    "PC": "GenericPlayerIcon_d.png",
+    "PS4": "PlaystationIcon_d.png",
+    "ANDROID": "GenericPlayerIcon_d.png",
+    "IOS": "GenericPlayerIcon_d.png",
+    "SWITCH": "GenericPlayerIcon_d.png"
+  },
+  "GAMEPAD_X_TAP": {
+    "XBONE": "XboxOneA_d.png",
+    "PS4": "PS4_Cross_d.png",
+    "SWITCH": "SwitchB_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "ButtonA.png"
+  },
+  "RANK_23": {
+    "AUTO": "Rank23SilverDragon.png"
+  },
+  "DIVIDE": {
+    "AUTO": "Divide_d.png"
+  },
+  "MISSION_MARKER_ALERT": {
+    "AUTO": "MiniMapPanicButton.png"
+  },
+  "BOOKEND_RIGHT": {
+    "AUTO": "HeadingDecorationRight.png"
+  },
+  "GILD": {
+    "AUTO": "GildedIcon.png"
+  },
+  "ADD": {
+    "AUTO": "Add_d.png"
+  },
+  "IN_PROGRESS": {
+    "AUTO": "ResearchInProgress_d.png"
+  },
+  "MISSION_MARKER_DRFT": {
+    "AUTO": "ObjectiveMarker.png"
+  },
+  "MISSION_MARKER_TSH": {
+    "AUTO": "TeshinObjectiveMarker.png"
+  },
+  "GAMEPAD_CIRCLE_TAP": {
+    "XBONE": "XboxOneB_d.png",
+    "PS4": "PS4_Circle_d.png",
+    "SWITCH": "SwitchA_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "ButtonB.png"
+  },
+  "MISSION_MARKER_CRP": {
+    "AUTO": "ObjectiveMarker.png"
+  },
+  "MOVE_X_RIGHT": {
+    "XBONE": "XboxOneJoystickLRight_d.png",
+    "ANDROID": "IOSStickRight_d.png",
+    "PS4": "AnalogStickLTiltRight_d.png",
+    "IOS": "IOSStickRight_d.png",
+    "SWITCH": "SwitchLStickRight_d.png",
+    "STEAM": "PadLeftDpadEast.png"
+  },
+  "SLASH": {
+    "AUTO": "ForwardSlash_d.png"
+  },
+  "GAMEPAD_RTHUMB_PUSH": {
+    "XBONE": "XBoxOneAnalogStickRPush_d.png",
+    "PS4": "PS4AnalogStickRPush_d.png",
+    "SWITCH": "SwitchRStickPress_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "PadRightPush_d.png"
+  },
+  "INTRINSIC_DRIFTER": {
+    "AUTO": "IntrinsicsDrifter.png"
+  },
+  "INTRINSIC": {
+    "AUTO": "Intrinsics.png"
+  },
+  "MOVE_Z_DOWN": {
+    "XBONE": "XboxOneJoystickLDown_d.png",
+    "ANDROID": "IOSStickDown_d.png",
+    "PS4": "AnalogStickLTiltDown_d.png",
+    "IOS": "IOSStickDown_d.png",
+    "SWITCH": "SwitchLStickDown_d.png",
+    "STEAM": "PadLeftDpadSouth.png"
+  },
+  "IOS_DUVIRI_ABILITY_4": {
+    "AUTO": "DrifterAbilityIconSmokescreen_d.png"
+  },
+  "ARCANE_RANK_OUTLINE": {
+    "AUTO": "DailyTributeOuterDiamondFaded.png"
+  },
+  "IOS_PVPVE_HINDRANCE": {
+    "AUTO": "IOSHindrance_d.png"
+  },
+  "MECH_EVENT_CURRENCY": {
+    "AUTO": "MechModeEventCurrency.png"
+  },
+  "UPGRADE": {
+    "AUTO": "MarketBundleUpgradeIcon.png"
+  },
+  "INSERT": {
+    "AUTO": "Ins_d.png"
+  },
+  "SON_TOKEN": {
+    "AUTO": "EntratiTasksSonASmall.png"
+  },
+  "SESSION_INDICATOR": {
+    "AUTO": "SessionIndicator.png"
+  },
+  "MOD_BOOSTER": {
+    "AUTO": "ModDropChanceBoosterSmall.png"
+  },
+  "PROJECTION_T4": {
+    "AUTO": "OroEpochD.png"
+  },
+  "GREED_GOLD": {
+    "AUTO": "GreedTokenGold.png"
+  },
+  "DT_MAGNETIC_COLOR_NO_ADV": {
+    "AUTO": "MagneticSymbol.png"
+  },
+  "APOSTROPHE": {
+    "AUTO": "Apostrophe_d.png"
+  },
+  "GAMEPAD_SWIPE_RIGHT": {
+    "PS4": "PS4SwipeRight_d.png",
+    "STEAM": "PadLeftDpadEast.png"
+  },
+  "IOS_ESCMENU": {
+    "AUTO": "IOSESC_d.png"
+  },
+  "GREED_BLUE": {
+    "AUTO": "GreedTokenBlue.png"
+  },
+  "OPLINK": {
+    "AUTO": "OplinkIcon.png"
+  },
+  "MANUFACTURER_ZEKTI": {
+    "AUTO": "IconManufacturerZekti.png"
+  },
+  "RANK_35": {
+    "AUTO": "Rank35.png"
+  },
+  "MANUFACTURER_LAVAN": {
+    "AUTO": "IconManufacturerLavan.png"
+  },
+  "RANK_10": {
+    "AUTO": "Rank10Seeker.png"
+  },
+  "DT_FIRE_SPACE": {
+    "AUTO": "Incendiary_d.png"
+  },
+  "DT_SLASH_SPACE": {
+    "AUTO": "Energy_d.png"
+  },
+  "F5": {
+    "AUTO": "F5_d.png"
+  },
+  "VAULT": {
+    "AUTO": "VaultIcon.png"
+  },
+  "SUN_TEAM": {
+    "AUTO": "MiniMapPvpSun.png"
+  },
+  "CREW_SHIP_FUSION_POINTS": {
+    "AUTO": "AvionicEndo.png"
+  },
+  "MOD_SELECTOR": {
+    "AUTO": "SelectedSlotIcon_d.png"
+  },
+  "GAMEPAD_GRIP_LEFT": {
+    "STEAM": "GripLeft.png"
+  },
+  "CARGO": {
+    "AUTO": "RailjackResourceCompactorIcon.png"
+  },
+  "IOS_CALIBERCHICKS_ULTIMATE": {
+    "AUTO": "IOSMinigameCCUltimate_d.png"
+  },
+  "MOD_SET_EMPTY_NOTCH": {
+    "AUTO": "EmptyNotch.png"
+  },
+  "IOS_CALIBERCHICKS_JUMP": {
+    "AUTO": "IOSMinigameCCJump_d.png"
+  },
+  "DT_SENTIENT_OUTLINE": {
+    "AUTO": "Sentient_d.png"
+  },
+  "IOS_MOTORCYCLE_ABILITY_2": {
+    "AUTO": "MotorcycleDismountExplosion.png"
+  },
+  "Movement_Damage_Burden": {
+    "AUTO": "BurdenHudIcon03.png"
+  },
+  "POLARITY_DEFENSE": {
+    "AUTO": "PolarityPoint.png"
+  },
+  "OPTIONAL_OBJECTIVE": {
+    "AUTO": "OptionalObjective.png"
+  },
+  "IOS_DUVIRI_ABILITY_3": {
+    "AUTO": "DrifterAbilityIconHealth_d.png"
+  },
+  "PREVIEW": {
+    "AUTO": "PreviewIcon.png"
+  },
+  "IOS_VOLT_ABILITY_1": {
+    "AUTO": "VoltShock_d.png"
+  },
+  "IOS_MAG_ABILITY_2": {
+    "AUTO": "MagMagnetize_d.png"
+  },
+  "IOS_MAG_ABILITY_1": {
+    "AUTO": "MagPull_d.png"
+  },
+  "IOS_EXCALIBUR_ABILITY_2": {
+    "AUTO": "Power01_d.png"
+  },
+  "ARTIFACT_MARKER_XATA": {
+    "AUTO": "DisruptionRuneTruthMinimap.png"
+  },
+  "DT_ELECTRICITY_COLOR_NO_ADV": {
+    "AUTO": "ElectricitySymbol.png"
+  },
+  "IOS_EXCALIBUR_ABILITY_1": {
+    "AUTO": "Power04_d.png"
+  },
+  "RANK_8": {
+    "AUTO": "Rank08SilverDisciple.png"
+  },
+  "IOS_ABILITY_2": {
+    "AUTO": "XboxOneDPadRight_d.png"
+  },
+  "IOS_ABILITY_1": {
+    "AUTO": "XboxOneDPadLeft_d.png"
+  },
+  "IOS_ABILITY_0": {
+    "AUTO": "XboxOneDPadDown_d.png"
+  },
+  "IOS_DECO_CAMERA_UP": {
+    "AUTO": "DecoCameraUp.png"
+  },
+  "IOS_DECO_CANCEL": {
+    "AUTO": "DecoCancel.png"
+  },
+  "IOS_USE": {
+    "AUTO": "IOSUse_d.png"
+  },
+  "IOS_HOLD": {
+    "AUTO": "IOSTap1_d.png"
+  },
+  "RIGHT": {
+    "XBONE": "RightArrow_d.png",
+    "PC": "RightArrow_d.png",
+    "ANDROID": "RightArrow_d.png",
+    "IOS": "RightArrow_d.png"
+  },
+  "F4": {
+    "AUTO": "F4_d.png"
+  },
+  "RANK_43": {
+    "AUTO": "Rank43.png"
+  },
+  "IOS_TAP": {
+    "AUTO": "IOSTap2_d.png"
+  },
+  "IOS_SLIDE": {
+    "AUTO": "IOSSlide_d.png"
+  },
+  "IOS_KAITHE_ASCEND": {
+    "AUTO": "IOSKaitheAscend_d.png"
+  },
+  "DT_IMPACT": {
+    "AUTO": "Impact_d.png"
+  },
+  "IOS_THROW": {
+    "AUTO": "IOSThrow_d.png"
+  },
+  "ARROW_RIGHT": {
+    "AUTO": "Chevron_d.png"
+  },
+  "IOS_SECONDARYFIRE": {
+    "AUTO": "IOSSecondaryFire_d.png"
+  },
+  "IOS_PRIMARYFIRE": {
+    "AUTO": "IOSShoot_d.png"
+  },
+  "DT_RADIANT": {
+    "AUTO": "Void_d.png"
+  },
+  "DT_SLASH_COLOR_NO_ADV": {
+    "AUTO": "SlashSymbol.png"
+  },
+  "NUMPADENTER": {
+    "AUTO": "NumPadEnter_d.png"
+  },
+  "NEUTRAL_SYNDICATE": {
+    "AUTO": "NeutralSyndicateIcon.png"
+  },
+  "FISURE_CANISTER_MARKER": {
+    "AUTO": "CanisterIconFull.png"
+  },
+  "STEALTH_COMBO": {
+    "AUTO": "StealthCombo.png"
+  },
+  "DT_EXPLOSION_COLOR_NO_ADV": {
+    "AUTO": "BlastSymbol.png"
+  },
+  "UNAIRU_GREATER": {
+    "AUTO": "SealUnairuMountainGreater.png"
+  },
+  "MOUSE_B1": {
+    "XBONE": "MouseButton01_d.png",
+    "PC": "MouseButton01_d.png"
+  },
+  "IOS_MELEE": {
+    "AUTO": "IOSMelee_d.png"
+  },
+  "IOS_MARKER": {
+    "AUTO": "IOSMarker_d.png"
+  },
+  "PROJECTION_IMMORTAL": {
+    "AUTO": "OroEpocImmortal.png"
+  },
+  "CHECKMARK_FAIL": {
+    "AUTO": "CheckFailWhite_d.png"
+  },
+  "STAT_NEG": {
+    "AUTO": "NegativeDiamond.png"
+  },
+  "DT_ELECTRICITY": {
+    "AUTO": "Electricity_d.png"
+  },
+  "REGISTERED_TM_SMALL": {
+    "AUTO": "RegisteredTrademarkSmall_d.png"
+  },
+  "IOS_KAITHE_DESCEND": {
+    "AUTO": "IOSKaitheDescend_d.png"
+  },
+  "KUBROW_INFESTED_VIZIER": {
+    "AUTO": "TemperamentVizierPredasite.png"
+  },
+  "IOS_KAITHE_JUMP": {
+    "AUTO": "IOSKaitheJump_d.png"
+  },
+  "POLARITY_ANY": {
+    "AUTO": "PolarityUniversal.png"
+  },
+  "IOS_BULLET_JUMPING": {
+    "AUTO": "IOSBulletJumping_d.png"
+  },
+  "IOS_ADS": {
+    "AUTO": "IOSADS_d.png"
+  },
+  "IOS_CALIBERCHICKS_HOLDSHOOT": {
+    "AUTO": "IOSMinigameCCHoldShoot_d.png"
+  },
+  "F7": {
+    "AUTO": "F7_d.png"
+  },
+  "CORPUS_LICH": {
+    "AUTO": "CorpusLichIconSimple.png"
+  },
+  "MOVE_X_LEFT": {
+    "XBONE": "XboxOneJoystickLLeft_d.png",
+    "ANDROID": "IOSStickLeft_d.png",
+    "PS4": "AnalogStickLTiltLeft_d.png",
+    "IOS": "IOSStickLeft_d.png",
+    "SWITCH": "SwitchLStickLeft_d.png",
+    "STEAM": "PadLeftDpadWest.png"
+  },
+  "SHIELD": {
+    "AUTO": "IconShield.png"
+  },
+  "KUBROW_INFESTED_MEDJAY": {
+    "AUTO": "TemperamentMedjayPredasite.png"
+  },
+  "DT_PUNCTURE_SPACE": {
+    "AUTO": "Plasma_d.png"
+  },
+  "PLAYER": {
+    "AUTO": "IconOperator256.png"
+  },
+  "KUBROW_GUARD": {
+    "AUTO": "TemperamentGuard.png"
+  },
+  "UNCOMMON": {
+    "AUTO": "RarityIconUncommon.png"
+  },
+  "RADIAL_BUTTON_ON": {
+    "AUTO": "RadialButtonOn.png"
+  },
+  "MADURAI": {
+    "AUTO": "SealMaduraiCloud.png"
+  },
+  "IOS_DUVIRI_ABILITY_1": {
+    "AUTO": "DrifterAbilityIconHorseSummon_d.png"
+  },
+  "MMF_XBOX": {
+    "XBONE": "XboxOneXboxGuide_d.png",
+    "PC": "GenericPlayerIcon_d.png",
+    "PS4": "GenericPlayerIcon_d.png",
+    "ANDROID": "GenericPlayerIcon_d.png",
+    "IOS": "GenericPlayerIcon_d.png",
+    "SWITCH": "GenericPlayerIcon_d.png"
+  },
+  "CRAFTED": {
+    "AUTO": "BuildComplete.png"
+  },
+  "OWNED": {
+    "AUTO": "OwnedIcon.png"
+  },
+  "TELEPORT": {
+    "AUTO": "TeleportIcon.png"
+  },
+  "PERRIN": {
+    "AUTO": "FactionSigilBusiness.png"
+  },
+  "GAMEPAD_HOME": {
+    "XBONE": "XboxOneXboxGuide_d.png",
+    "PS4": "PS4_Home_d.png",
+    "STEAM": "ButtonSteamOff.png"
+  },
+  "PREVIEW_LARGE": {
+    "AUTO": "PreviewIcon.png"
+  },
+  "VAZARIN": {
+    "AUTO": "SealVazarinWave.png"
+  },
+  "RANK_51": {
+    "AUTO": "Rank51.png"
+  },
+  "RANK_46": {
+    "AUTO": "Rank46.png"
+  },
+  "RANK_45": {
+    "AUTO": "Rank45.png"
+  },
+  "RANK_44": {
+    "AUTO": "Rank44.png"
+  },
+  "RANK_41": {
+    "AUTO": "Rank41.png"
+  },
+  "GAMEPAD_RY_TILT_UD": {
+    "XBONE": "XboxOneJoystickRUpDown_d.png",
+    "PS4": "PS4RUpDown_d.png",
+    "SWITCH": "SwitchRStickUp_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "PadRightTildUD_d.png"
+  },
+  "RANK_38": {
+    "AUTO": "Rank38.png"
+  },
+  "RANK_36": {
+    "AUTO": "Rank36.png"
+  },
+  "RANK_26": {
+    "AUTO": "Rank26SilverSage.png"
+  },
+  "RANK_25": {
+    "AUTO": "Rank25Sage.png"
+  },
+  "RANK_15": {
+    "AUTO": "Rank15GoldHunter.png"
+  },
+  "MADURAI_LUA": {
+    "AUTO": "SealMaduraiCloudLua.png"
+  },
+  "NPC_COLONIST_MARKER": {
+    "AUTO": "UserIcon.png"
+  },
+  "MADURAI_GREATER": {
+    "AUTO": "SealMaduraiCloudGreater.png"
+  },
+  "RANK_22": {
+    "AUTO": "Rank22Dragon.png"
+  },
+  "RANK_14": {
+    "AUTO": "Rank14SilverHunter.png"
+  },
+  "RANK_11": {
+    "AUTO": "Rank11SilverSeeker.png"
+  },
+  "F12": {
+    "AUTO": "F12_d.png"
+  },
+  "RANK_9": {
+    "AUTO": "Rank09GoldDisciple.png"
+  },
+  "RANK_6": {
+    "AUTO": "Rank06GoldNovice.png"
+  },
+  "RANK_0": {
+    "AUTO": "Rank00Unranked.png"
+  },
+  "KAVAT_INFESTED_ARMORED": {
+    "AUTO": "TemperamentPanzerVulpaphyla.png"
+  },
+  "F11": {
+    "AUTO": "F11_d.png"
+  },
+  "LYROIC_BRIDGE": {
+    "AUTO": "TwelveBossResourceHunhullusItemSmall.png"
+  },
+  "ARTIFACT_MARKER_CIRCLE": {
+    "AUTO": "IconSentientCircle.png"
+  },
+  "MASTERY_RANK": {
+    "AUTO": "MasteryRankIcon.png"
+  },
+  "MASTERED": {
+    "AUTO": "CodexObjectsLaurelWhite.png"
+  },
+  "SECONDARY_FIRE": {
+    "AUTO": "MouseWheelButton d.png"
+  },
+  "NUMLOCK": {
+    "XBONE": "NumLock_d.png",
+    "PC": "NumLock_d.png"
+  },
+  "UGC": {
+    "AUTO": "UGCicon.png"
+  },
+  "GAMEPAD_TRIANGLE": {
+    "XBONE": "XboxOneY_d.png",
+    "PC": "XboxOneY_d.png",
+    "PS4": "PS4_Triangle_d.png",
+    "SWITCH": "SwitchX_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "ButtonY.png"
+  },
+  "F10": {
+    "AUTO": "F10_d.png"
+  },
+  "INFESTED_ADAPTATION": {
+    "AUTO": "InfestedRupture.png"
+  },
+  "MISSION_MARKER_DEFEND": {
+    "AUTO": "MiniMapDefenseObjectiveMarker.png"
+  },
+  "TREASURE_GEM_OUTLINE": {
+    "AUTO": "OrnamentIconOutline.png"
+  },
+  "ZENURIK": {
+    "AUTO": "SealZenurikCrystal.png"
+  },
+  "ARMOR_SOLID": {
+    "AUTO": "ShieldSolid.png"
+  },
+  "QUEST": {
+    "AUTO": "Quest.png"
+  },
+  "DT_PUNCTURE_COLOR": {
+    "AUTO": "PunctureSymbol.png"
+  },
+  "FOCUS": {
+    "AUTO": "Focus.png"
+  },
+  "ZENURIK_BASE": {
+    "AUTO": "SealZenurikCrystalBase.png"
+  },
+  "ZENURIK_ULTIMATE": {
+    "AUTO": "ZenurikUltimate.png"
+  },
+  "CATEGORY_WARFRAME": {
+    "AUTO": "IconWarframe_256.png"
+  },
+  "GAMEPAD_LX": {
+    "XBONE": "XboxOneJoystickL_d.png",
+    "PS4": "PS4LeftAnalog_d.png",
+    "SWITCH": "SwitchLStick_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "Stick.png"
+  },
+  "Bleed_Burden": {
+    "AUTO": "BurdenHudIcon04.png"
+  },
+  "UNAIRU": {
+    "AUTO": "SealUnairuMountain.png"
+  },
+  "TOUCHPAD_SWIPE_LEFT": {
+    "AUTO": "PS4SwipeLeft_d.png",
+    "STEAM": "PadLeftDpadWest.png"
+  },
+  "CREDITS": {
+    "AUTO": "Credits.png"
+  },
+  "DT_IMPACT_OUTLINE": {
+    "AUTO": "Impact_d.png"
+  },
+  "CAPITAL": {
+    "AUTO": "CapsLock_d.png"
+  },
+  "EPIC": {
+    "AUTO": "EpicIcon.png"
+  },
+  "AVIONICS_CAPACITY": {
+    "AUTO": "ModEnergyIcon.png"
+  },
+  "CHECKER_REALLY_BIG": {
+    "AUTO": "CheckerBoard_d.png"
+  },
+  "F9": {
+    "AUTO": "F9_d.png"
+  },
+  "MISSION_MARKER_ATTACK": {
+    "AUTO": "Attack.png"
+  },
+  "CHECKER_MEDIUM": {
+    "AUTO": "CheckerBoard_d.png"
+  },
+  "DT_EXPLOSION_COLOR": {
+    "AUTO": "BlastSymbol.png"
+  },
+  "GAMEPAD_GRIP_RIGHT": {
+    "STEAM": "GripRight.png"
+  },
+  "NIGHTWAVE_PRESTIGE": {
+    "AUTO": "RadioLegionPrestige_d.png"
+  },
+  "GAMEPAD_SQUARE": {
+    "XBONE": "XboxOneX_d.png",
+    "PC": "XboxOneX_d.png",
+    "PS4": "PS4_Square_d.png",
+    "SWITCH": "SwitchY_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "ButtonX.png"
+  },
+  "SHARD_VIOLET_SIMPLE": {
+    "AUTO": "ArchonCrystalPurpleIcon.png"
+  },
+  "INFINITE": {
+    "AUTO": "InfiniteWhite.png"
+  },
+  "SUN_TEAM_DROPPED": {
+    "AUTO": "MiniMapPvpSunDropped.png"
+  },
+  "LOWER_IS_BETTER": {
+    "AUTO": "StatArrowUp_d.png"
+  },
+  "SURVIVAL_PILLAR_MARKER": {
+    "AUTO": "O2PostHudStatusLarge.png"
+  },
+  "HIVE_MARKER": {
+    "AUTO": "HiveIcon.png"
+  },
+  "NPC_EXIT_MARKER": {
+    "AUTO": "ExtractionIconWhite.png"
+  },
+  "COUPON": {
+    "AUTO": "Coupon.png"
+  },
+  "KOUMEI_DICE_5": {
+    "AUTO": "Die5.png"
+  },
+  "ARTIFACT_MARKER_KHRA": {
+    "AUTO": "DisruptionRuneTimeMinimap.png"
+  },
+  "UNAIRU_ULTIMATE": {
+    "AUTO": "UnairuUltimate.png"
+  },
+  "MISSION_MARKER_E": {
+    "AUTO": "MiniMapTerritoryE.png"
+  },
+  "MASTERY_RANK_SMALL": {
+    "AUTO": "MasteryRankIconSmall.png"
+  },
+  "GAMEPAD_LR": {
+    "XBONE": "XboxDPadLR_d.png",
+    "PC": "PCDoubleArrow_d.png",
+    "PS4": "PS4DPadLR_d.png",
+    "SWITCH": "SwitchDPadLeft_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "PadLeftLR_d.png"
+  },
+  "MISSION_MARKER_C": {
+    "AUTO": "MiniMapTerritoryC.png"
+  },
+  "AMMO_MUTATION": {
+    "AUTO": "AmmoMutation_d.png"
+  },
+  "STAT_RESIST": {
+    "AUTO": "ResistSymbol.png"
+  },
+  "MISSION_MARKER_A": {
+    "AUTO": "MiniMapTerritoryA.png"
+  },
+  "RAW_SALVAGE": {
+    "AUTO": "RailjackRawSalvageIcon.png"
+  },
+  "POLARITY_UMBRA": {
+    "AUTO": "PolarityUmbra.png"
+  },
+  "POLARITY_FUSION": {
+    "AUTO": "PolarityAura.png"
+  },
+  "POLARITY_PRECEPT": {
+    "AUTO": "PolarityPrecept.png"
+  },
+  "MULTIPLY": {
+    "AUTO": "Multiply_d.png"
+  },
+  "MMF_ANDROID": {
+    "XBONE": "GenericPlayerIcon_d.png",
+    "PC": "GenericPlayerIcon_d.png",
+    "PS4": "GenericPlayerIcon_d.png",
+    "ANDROID": "AndroidLogo_d.png",
+    "IOS": "GenericPlayerIcon_d.png",
+    "SWITCH": "GenericPlayerIcon_d.png"
+  },
+  "F8": {
+    "AUTO": "F8_d.png"
+  },
+  "MISSION_MARKER_B": {
+    "AUTO": "MiniMapTerritoryB.png"
+  },
+  "STAT_NEGATIVE": {
+    "AUTO": "NegativeSymbol.png"
+  },
+  "DT_CORROSIVE_COLOR": {
+    "AUTO": "CorrosiveSymbol.png"
+  },
+  "DT_VIRAL_COLOR": {
+    "AUTO": "ViralSymbol.png"
+  },
+  "LALT": {
+    "AUTO": "LAlt_d.png"
+  },
+  "DT_VIRAL_TINT_COLOR_NO_ADV": {
+    "AUTO": "ViralSymbol.png"
+  },
+  "DT_IMPACT_COLOR_NO_ADV": {
+    "AUTO": "ImpactSymbol.png"
+  },
+  "DT_GAS_COLOR_NO_ADV": {
+    "AUTO": "GasSymbol.png"
+  },
+  "GAMEPAD_DPAD": {
+    "XBONE": "XboxOneDPad_d.png",
+    "PS4": "PS4D-PadFull_d.png",
+    "SWITCH": "SwitchCircleDPad_d.png",
+    "AGNOSTIC": "Empty.png",
+    "STEAM": "PadLeft.png"
+  },
+  "DT_FIRE_COLOR_NO_ADV": {
+    "AUTO": "HeatSymbol.png"
+  },
+  "DT_CORROSIVE_COLOR_NO_ADV": {
+    "AUTO": "CorrosiveSymbol.png"
+  },
+  "DT_SENTIENT": {
+    "AUTO": "SentientFactionIcon.png"
+  },
+  "DT_MAGNETIC": {
+    "AUTO": "Magnetic_d.png"
+  },
+  "DT_GAS": {
+    "AUTO": "Gas_d.png"
+  },
+  "FULL_SERUM": {
+    "AUTO": "SyringeExtendedFull_d.png"
+  },
+  "PAUSE": {
+    "AUTO": "Pause_d.png"
+  },
+  "CRITICAL_AMP": {
+    "AUTO": "Exclaim_d.png"
+  },
+  "SOMACHORD": {
+    "AUTO": "MiniMapJukeboxFragment.png"
+  },
+  "SORTIE": {
+    "AUTO": "Sortie.png"
+  },
+  "GAMEPAD_SWIPE_DOWN": {
+    "PS4": "PS4SwipeDown_d.png",
+    "STEAM": "PadLeftDpadSouth.png"
+  },
+  "ARTIFACT_MARKER_VOME": {
+    "AUTO": "DisruptionRuneOrderMinimap.png"
+  },
+  "GAMEPAD_SWIPE_LEFT": {
+    "PS4": "PS4SwipeLeft_d.png",
+    "STEAM": "PadLeftDpadWest.png"
+  },
+  "CONTROL": {
+    "AUTO": "Ctrl_d.png"
+  },
+  "MISSION_MARKER_GENERIC": {
+    "AUTO": "MiniMapObjective.png"
+  },
+  "WARNING": {
+    "AUTO": "HandholdHelpIcon.png"
+  },
+  "HELMINTH": {
+    "AUTO": "HelminthChrysalis.png"
+  },
+  "RALT": {
+    "AUTO": "RAlt_d.png"
+  },
+  "HOME": {
+    "AUTO": "Home_d.png"
+  },
+  "DAUGHTER_TOKEN": {
+    "AUTO": "EntratiTasksDaughterASmall.png"
+  },
+  "UNAIRU_EIDOLON": {
+    "AUTO": "SealUnairuMountainEidolon.png"
+  },
+  "BACKSLASH": {
+    "AUTO": "BackwardSlash_d.png"
+  },
+  "EQUALS": {
+    "AUTO": "Equals_d.png"
+  },
+  "DELETE": {
+    "XBONE": "Del_d.png",
+    "PC": "Del_d.png"
+  }
+}

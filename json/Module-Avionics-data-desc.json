@@ -1,0 +1,187 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Avionics/data/desc",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:30:06.245Z"
+  },
+  "_comments": "--Database for Module:Avionics --\n--All other data at [[Module:Avionics/data]]\n--[=[\n--Add Breach Adrenaline and Ordnance Velocity",
+  "Hull Weave": {
+    "Description": "Increase Max Armor by +253%"
+  },
+  "Fire Suppression": {
+    "Description": "Extinguish 1 fire",
+    "Cooldown": "160s"
+  },
+  "Cruising Speed": {
+    "Description": "Increase Speed by 80% when no enemies within 3000m"
+  },
+  "Void Hole": {
+    "Description": "Creates a 150m black hole that sucks in enemies, dealing 300 Damage per second over 12s."
+  },
+  "Death Blossom": {
+    "Description": "Turret Cooldowns removed for 30s",
+    "Cooldown": "300s"
+  },
+  "Thermatic": {
+    "Description": "Reduce Frost Damage by +44%"
+  },
+  "Form Up": {
+    "Description": "Recall all Crew Members to the Railjack and Heal them for 100%",
+    "Cooldown": "240s"
+  },
+  "Particle Ram": {
+    "Description": "Deploy a Particle Ram dealing 1500 Damage per second when moving forward, 2250 during a Vector Maneuver. Deactivate to launch the Ram outwards for 4s, dealing 3000 Damage."
+  },
+  "Seeker Volley": {
+    "Description": "Fires 50 homing missiles."
+  },
+  "Heat Sink": {
+    "Description": "Reduce Incendiary damage by +56%"
+  },
+  "Winged Steel": {
+    "Description": "Increase nearby ally Archwing Armor by 360% within 1000m"
+  },
+  "Winged Cyclone": {
+    "Description": "Increase Archwing Speed by 30% within 1000m"
+  },
+  "Winged Force": {
+    "Description": "Increase Archwing Shields by 25% within 1000m"
+  },
+  "Predator": {
+    "Description": "Increase all Turret Critical Chance by +80%"
+  },
+  "Revo Reducer": {
+    "Description": "Omni Revolite consumption reduced by +40%"
+  },
+  "Last Stand": {
+    "Description": "Increase All Turret Damage by 128% when Hull is below 20%"
+  },
+  "Forward Artillery": {
+    "Description": "Increase Forward Artillery Damage by +93.5%"
+  },
+  "Void Cloak": {
+    "Description": "Cloak from Enemies for 50s\nEngine Speed reduced to 50%",
+    "Cooldown": "96s"
+  },
+  "Squad Renew": {
+    "Description": "Heal all Railjack squad members by 100%.",
+    "Cooldown": "300s"
+  },
+  "Munitions Vortex": {
+    "Description": "Deploy a bubble that absorbs fire for 15s. Detonates for all accumulated damage over 150m."
+  },
+  "Shatter Burst": {
+    "Description": "Creates a barrage of 7 explosions per second over 20 seconds, dealing 1000 Damage in 80m."
+  },
+  "Hyperflux": {
+    "Description": "Increase Flux Energy by +99%"
+  },
+  "Ripload": {
+    "Description": "Decrease Ordnance Reload time by +40.7%"
+  },
+  "Artillery Cheap Shot": {
+    "Description": "Forward Artillery has a +50% chance to not consume Dome Charges"
+  },
+  "Warhead": {
+    "Description": "Increase Ordnance damage by +71.5%"
+  },
+  "Quicklock": {
+    "Description": "Decrease Ordnance Lock-On time by +75%"
+  },
+  "Overloader": {
+    "Description": "Increase Maximum Ordnance Munitions by 50%"
+  },
+  "Tether": {
+    "Description": "Emits a field that restricts the movement of 8 enemy targets within 120m for 15s. Enemies are 50% more vulnerable to Railjack weapons, and those destroyed while tethered Detonate for 2000 Damage over 80m."
+  },
+  "Ordnance Velocity": {
+    "Description": "Increase Ordnance Projectile Speed by +37.5%"
+  },
+  "Ordnance Cheap Shot": {
+    "Description": "Ordnance weapons have a +50% chance to not consume Munitions"
+  },
+  "Conic Nozzle": {
+    "Description": "Increase Speed by +25.6%"
+  },
+  "Countermeasures": {
+    "Description": "Deploy 32 flares that will distract enemy guided projectiles.",
+    "Flux": "5.\nEach subsequent use within 4 seconds doubles the cost (Max 40)."
+  },
+  "Sentient Scalpel": {
+    "Description": "Increase Gunnery Damage vs Sentients by +25.3%"
+  },
+  "Breach Quanta": {
+    "Description": "Temporarily stall Hull Breach for 55s",
+    "Cooldown": "300s"
+  },
+  "Hyperstrike": {
+    "Description": "Increase Turret Damage by +121%"
+  },
+  "Section Density": {
+    "Description": "Increase all Turret Critical Damage by +78.4%"
+  },
+  "Hardened Casing": {
+    "Description": "Reduce Breach Chance by +38.5%"
+  },
+  "Bulkhead": {
+    "Description": "Increase Hull by +506%"
+  },
+  "Ablative Shell": {
+    "Description": "Reduces Chem Damage by +44%"
+  },
+  "Sentient Fortitude": {
+    "Description": "Decrease Shield Damage from Sentients by +25.3%"
+  },
+  "Flow Burn": {
+    "Description": "Increase Speed and Boost Speed by 38% for 13s",
+    "Cooldown": "240s"
+  },
+  "Turret Velocity": {
+    "Description": "Increase Turret Range by +25.3%\nIncrease Turret Projectile Speed by +55%"
+  },
+  "Fiery Phoenix": {
+    "Description": "Leave a trail of fire dealing 300 Damage per second to enemies. Gain 20% Speed and 30% Damage Reduction while active. Accumulates 100 Damage per second that unleashes upon deactivation over 275m.",
+    "Flux": "50 on use. 2.5 per second while active"
+  },
+  "Intruder Stasis": {
+    "Description": "Freeze al Enemy Boarding Parties for 45s",
+    "Cooldown": "300s"
+  },
+  "Phasic Weave": {
+    "Description": "Reduce Ionic Damage by +49.6%"
+  },
+  "Breach Adrenaline": {
+    "Description": "Increase Shield Regen during Breach by +38%"
+  },
+  "Winged Storm": {
+    "Description": "Increase nearby ally Archwing Damage by 20% within 1000m"
+  },
+  "Ion Burn": {
+    "Description": "Increase Boost Speed by +40%"
+  },
+  "Blackout Pulse": {
+    "Description": "Deploy an Electro-Magnetic Pulse dealing 500 Damage to enemies within 200m and disabling them temporarily. Manually detonate to increase the Blast Radius to 300m."
+  },
+  "Maxima": {
+    "Description": "Increase Max Shields by +72%"
+  },
+  "Deep Hold": {
+    "Description": "Increase Forge Capacity by +60%"
+  },
+  "Polar Coil": {
+    "Description": "Increase Turret Heat Capacity by +66%"
+  },
+  "Battle Stations": {
+    "Description": "Boost Turret Damage by 75% for 30s",
+    "Cooldown": "240s"
+  },
+  "Battle Forge": {
+    "Description": "Reduce Forge Cooldown by 120s",
+    "Cooldown": "384s"
+  },
+  "Anode Cell": {
+    "Description": "Increase Shield Recharge by +80%"
+  }
+}

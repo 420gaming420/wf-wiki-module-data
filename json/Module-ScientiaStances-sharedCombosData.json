@@ -1,0 +1,151 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:ScientiaStances/sharedCombosData",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:42:30.919Z"
+  },
+  "_comments": "-- For use in Module:ScientiaStances\n-- Each weapon class shares the following combos:\n--      Heavy: heavy attack\n--      Slide: slide attack\n--      Air: air attack\n--      Wall: wall attack\n--      Ground: ground finisher\n-- Each combo has a type (normal, forward, forward + block, and/or block combo)\n-- and a set number of attacks that share the same input.\n-- Each combo comes with a list of attacks that have their own proc info,\n-- number of hits, attack type (\"Default\", \"360\", or \"Slam\"),\n-- and damage mulitplier.\n-- For hits with multiple procs, concatenate the first three letters of each\n-- proc together (e.g. \"Slash\" and \"Puncture\" will become \"SlaPun\")\n-- The reason for the need for NumberOfHits keys is because the \n-- length operator doesn't account for nil values (which are \n-- possible in this implementation in order to document attacks/hits \n-- that have no multiplier or proc info) or tables without keys (i.e Attacks\n-- table).\n-- styling:",
+  "Two-Handed Nikana": {
+    "Air": {
+      "Name": "Cunning Monkey",
+      "Attacks": [
+        {
+          "Proc": "Impact",
+          "Type": "Default",
+          "Multiplier": 2,
+          "NumberOfHits": 1
+        },
+        {
+          "Proc": "Impact",
+          "Type": "Default",
+          "Multiplier": 2,
+          "NumberOfHits": 1
+        },
+        {
+          "Proc": "Impact",
+          "Type": "Default",
+          "Multiplier": 2,
+          "NumberOfHits": 1
+        }
+      ]
+    },
+    "Wall": {
+      "Name": "Strident Gazelle",
+      "Attacks": [
+        {
+          "Proc": "Impact",
+          "Type": "Default",
+          "Multiplier": 2,
+          "NumberOfHits": 1
+        }
+      ]
+    },
+    "Slide": {
+      "Name": "Deceitful Serpent",
+      "Attacks": [
+        {
+          "Proc": "Impact",
+          "Type": "360",
+          "Multiplier": 2,
+          "NumberOfHits": 1
+        }
+      ]
+    },
+    "Ground": {
+      "Name": "Terrapin's Rebuke",
+      "Attacks": [
+        {
+          "Proc": "Slash",
+          "Type": "Default",
+          "Multiplier": 12,
+          "NumberOfHits": 1
+        }
+      ]
+    },
+    "Heavy": {
+      "Name": "Lover's Farewell",
+      "Attacks": [
+        {
+          "Proc": "SlaLif",
+          "Type": "Default",
+          "Multiplier": 6,
+          "NumberOfHits": 1
+        },
+        {
+          "Proc": [
+            "ImpSla",
+            "SlaKno"
+          ],
+          "Type": "360",
+          "Multiplier": [
+            3,
+            3
+          ],
+          "NumberOfHits": [
+            1,
+            1
+          ]
+        }
+      ]
+    }
+  },
+  "Sword": {
+    "Air": {
+      "Name": "Weightless Steel",
+      "Attacks": [
+        {
+          "Multiplier": 2
+        },
+        {
+          "Multiplier": 2
+        },
+        {
+          "Multiplier": 3,
+          "Proc": "Knockdown"
+        }
+      ]
+    },
+    "Wall": {
+      "Name": "Weightless Steel",
+      "Attacks": [
+        {
+          "Multiplier": 3,
+          "Proc": "Knockdown"
+        }
+      ]
+    },
+    "Slide": {
+      "Name": "Spiral Cut",
+      "Attacks": [
+        {
+          "Proc": "Impact",
+          "Type": "360"
+        }
+      ]
+    },
+    "Ground": {
+      "Name": "Death's Mark",
+      "Attacks": [
+        {
+          "Multiplier": 2.5,
+          "Proc": "Slash"
+        }
+      ]
+    },
+    "Heavy": {
+      "Name": "Perfect Cut",
+      "Attacks": [
+        {
+          "Multiplier": 5,
+          "Proc": "Lifted"
+        },
+        {
+          "Multiplier": 5,
+          "Proc": "Knockdown"
+        }
+      ]
+    }
+  }
+}

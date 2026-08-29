@@ -1,0 +1,1009 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Lang/data/iana%20variants",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:39:18.473Z"
+  },
+  "_comments": "-- File-Date: 2025-01-21",
+  "1901": {
+    "prefixes": [
+      "de"
+    ],
+    "descriptions": [
+      "Traditional German orthography"
+    ]
+  },
+  "1994": {
+    "prefixes": [
+      "sl-rozaj",
+      "sl-rozaj-biske",
+      "sl-rozaj-njiva",
+      "sl-rozaj-osojs",
+      "sl-rozaj-solba"
+    ],
+    "descriptions": [
+      "Standardized Resian orthography"
+    ]
+  },
+  "1996": {
+    "prefixes": [
+      "de"
+    ],
+    "descriptions": [
+      "German orthography of 1996"
+    ]
+  },
+  "baku1926": {
+    "prefixes": [
+      "az",
+      "ba",
+      "crh",
+      "kk",
+      "krc",
+      "ky",
+      "sah",
+      "tk",
+      "tt",
+      "uz"
+    ],
+    "descriptions": [
+      "Unified Turkic Latin Alphabet (Historical)"
+    ]
+  },
+  "cornu": {
+    "prefixes": [
+      "en"
+    ],
+    "descriptions": [
+      "Cornu-English",
+      "Cornish English",
+      "Anglo-Cornish"
+    ]
+  },
+  "biscayan": {
+    "prefixes": [
+      "eu"
+    ],
+    "descriptions": [
+      "Biscayan dialect of Basque"
+    ]
+  },
+  "boont": {
+    "prefixes": [
+      "en"
+    ],
+    "descriptions": [
+      "Boontling"
+    ]
+  },
+  "ltg1929": {
+    "prefixes": [
+      "ltg"
+    ],
+    "descriptions": [
+      "The Latgalian language orthography codified in 1929"
+    ]
+  },
+  "bciav": {
+    "prefixes": [
+      "zbl"
+    ],
+    "descriptions": [
+      "BCI Blissymbolics AV"
+    ]
+  },
+  "colb1945": {
+    "prefixes": [
+      "pt"
+    ],
+    "descriptions": [
+      "Portuguese-Brazilian Orthographic Convention of 1945 (Convenção Ortográfica Luso-Brasileira de 1945)"
+    ]
+  },
+  "gascon": {
+    "prefixes": [
+      "oc"
+    ],
+    "descriptions": [
+      "Gascon"
+    ]
+  },
+  "dajnko": {
+    "prefixes": [
+      "sl"
+    ],
+    "descriptions": [
+      "Slovene in Dajnko alphabet"
+    ]
+  },
+  "fonxsamp": {
+    "prefixes": {},
+    "descriptions": [
+      "X-SAMPA transcription"
+    ]
+  },
+  "abl1943": {
+    "prefixes": [
+      "pt-br"
+    ],
+    "descriptions": [
+      "Orthographic formulation of 1943 - Official in Brazil (Formulário Ortográfico de 1943 - Oficial no Brasil)"
+    ]
+  },
+  "nulik": {
+    "prefixes": [
+      "vo"
+    ],
+    "descriptions": [
+      "Volapük nulik",
+      "Volapük perevidöl",
+      "Volapük nulädik",
+      "de Jong's Volapük",
+      "New Volapük",
+      "Revised Volapük",
+      "Modern Volapük"
+    ]
+  },
+  "pinyin": {
+    "prefixes": [
+      "zh-latn",
+      "bo-latn"
+    ],
+    "descriptions": [
+      "Pinyin romanization"
+    ]
+  },
+  "jyutping": {
+    "prefixes": [
+      "yue"
+    ],
+    "descriptions": [
+      "Jyutping Cantonese Romanization"
+    ]
+  },
+  "akuapem": {
+    "prefixes": [
+      "tw"
+    ],
+    "descriptions": [
+      "Akuapem Twi"
+    ]
+  },
+  "creiss": {
+    "prefixes": [
+      "oc"
+    ],
+    "descriptions": [
+      "Occitan variants of the Croissant area"
+    ]
+  },
+  "sotav": {
+    "prefixes": [
+      "kea"
+    ],
+    "descriptions": [
+      "The Sotavento dialect group of Kabuverdianu"
+    ]
+  },
+  "njiva": {
+    "prefixes": [
+      "sl-rozaj"
+    ],
+    "descriptions": [
+      "The Gniva dialect of Resian",
+      "The Njiva dialect of Resian"
+    ]
+  },
+  "aluku": {
+    "prefixes": [
+      "djk"
+    ],
+    "descriptions": [
+      "Aluku dialect",
+      "Boni dialect"
+    ]
+  },
+  "hepburn": {
+    "prefixes": [
+      "ja-latn"
+    ],
+    "descriptions": [
+      "Hepburn romanization"
+    ]
+  },
+  "vallader": {
+    "prefixes": [
+      "rm"
+    ],
+    "descriptions": [
+      "Vallader idiom of Romansh"
+    ]
+  },
+  "peano": {
+    "prefixes": [
+      "la"
+    ],
+    "descriptions": [
+      "Latino Sine Flexione",
+      "Interlingua de API",
+      "Interlingua de Peano"
+    ]
+  },
+  "fonupa": {
+    "prefixes": {},
+    "descriptions": [
+      "Uralic Phonetic Alphabet"
+    ]
+  },
+  "alalc97": {
+    "prefixes": {},
+    "descriptions": [
+      "ALA-LC Romanization, 1997 edition"
+    ]
+  },
+  "aranes": {
+    "prefixes": [
+      "oc"
+    ],
+    "descriptions": [
+      "Aranese"
+    ]
+  },
+  "xsistemo": {
+    "prefixes": [
+      "eo"
+    ],
+    "descriptions": [
+      "Standard X-system orthographic fallback for spelling Esperanto"
+    ]
+  },
+  "gherd": {
+    "prefixes": [
+      "lld"
+    ],
+    "descriptions": [
+      "Gherdëina standard of Ladin"
+    ]
+  },
+  "wadegile": {
+    "prefixes": [
+      "zh-latn"
+    ],
+    "descriptions": [
+      "Wade-Giles romanization"
+    ]
+  },
+  "vivaraup": {
+    "prefixes": [
+      "oc"
+    ],
+    "descriptions": [
+      "Vivaro-Alpine"
+    ]
+  },
+  "scouse": {
+    "prefixes": [
+      "en"
+    ],
+    "descriptions": [
+      "Scouse"
+    ]
+  },
+  "vecdruka": {
+    "prefixes": [
+      "lv"
+    ],
+    "descriptions": [
+      "Latvian orthography used before 1920s (\"vecā druka\")"
+    ]
+  },
+  "provenc": {
+    "prefixes": [
+      "oc"
+    ],
+    "descriptions": [
+      "Provençal"
+    ]
+  },
+  "ijekavsk": {
+    "prefixes": [
+      "sr",
+      "sr-latn",
+      "sr-cyrl"
+    ],
+    "descriptions": [
+      "Serbian with Ijekavian pronunciation"
+    ]
+  },
+  "fodom": {
+    "prefixes": [
+      "lld"
+    ],
+    "descriptions": [
+      "Fodom standard of Ladin"
+    ]
+  },
+  "ltg2007": {
+    "prefixes": [
+      "ltg"
+    ],
+    "descriptions": [
+      "The Latgalian language orthography codified in the language law in 2007"
+    ]
+  },
+  "asante": {
+    "prefixes": [
+      "tw"
+    ],
+    "descriptions": [
+      "Asante Twi",
+      "Ashanti Twi"
+    ]
+  },
+  "1694acad": {
+    "prefixes": [
+      "fr"
+    ],
+    "descriptions": [
+      "Early Modern French"
+    ]
+  },
+  "unifon": {
+    "prefixes": [
+      "en",
+      "hup",
+      "kyh",
+      "tol",
+      "yur"
+    ],
+    "descriptions": [
+      "Unifon phonetic alphabet"
+    ]
+  },
+  "ndyuka": {
+    "prefixes": [
+      "djk"
+    ],
+    "descriptions": [
+      "Ndyuka dialect",
+      "Aukan dialect"
+    ]
+  },
+  "tongyong": {
+    "prefixes": [
+      "zh-latn"
+    ],
+    "descriptions": [
+      "Tongyong Pinyin romanization"
+    ]
+  },
+  "fonipa": {
+    "prefixes": {},
+    "descriptions": [
+      "International Phonetic Alphabet"
+    ]
+  },
+  "ucrcor": {
+    "prefixes": [
+      "kw"
+    ],
+    "descriptions": [
+      "Unified Cornish Revised orthography of Revived Cornish"
+    ]
+  },
+  "uccor": {
+    "prefixes": [
+      "kw"
+    ],
+    "descriptions": [
+      "Unified Cornish orthography of Revived Cornish"
+    ]
+  },
+  "bornholm": {
+    "prefixes": [
+      "da"
+    ],
+    "descriptions": [
+      "Bornholmsk"
+    ]
+  },
+  "grital": {
+    "prefixes": [
+      "oc",
+      "oc-cisaup",
+      "oc-nicard",
+      "oc-provenc"
+    ],
+    "descriptions": [
+      "Italian-inspired Occitan orthography"
+    ]
+  },
+  "tunumiit": {
+    "prefixes": [
+      "kl"
+    ],
+    "descriptions": [
+      "Tunumiisiut",
+      "East Greenlandic",
+      "Østgrønlandsk"
+    ]
+  },
+  "tarask": {
+    "prefixes": [
+      "be"
+    ],
+    "descriptions": [
+      "Belarusian in Taraskievica orthography"
+    ]
+  },
+  "1959acad": {
+    "prefixes": [
+      "be"
+    ],
+    "descriptions": [
+      "\"Academic\" (\"governmental\") variant of Belarusian as codified in 1959"
+    ]
+  },
+  "tailo": {
+    "prefixes": [
+      "nan-latn"
+    ],
+    "descriptions": [
+      "Taiwanese Hokkien Romanization System for Hokkien languages",
+      "Tâi-lô orthography/romanization"
+    ]
+  },
+  "kleinsch": {
+    "prefixes": [
+      "kl",
+      "kl-tunumiit"
+    ],
+    "descriptions": [
+      "Kleinschmidt orthography",
+      "Allattaasitaamut"
+    ]
+  },
+  "synnejyl": {
+    "prefixes": [
+      "da"
+    ],
+    "descriptions": [
+      "Synnejysk",
+      "South Jutish"
+    ]
+  },
+  "kkcor": {
+    "prefixes": [
+      "kw"
+    ],
+    "descriptions": [
+      "Common Cornish orthography of Revived Cornish"
+    ]
+  },
+  "sutsilv": {
+    "prefixes": [
+      "rm"
+    ],
+    "descriptions": [
+      "Sutsilvan idiom of Romansh"
+    ]
+  },
+  "lemosin": {
+    "prefixes": [
+      "oc"
+    ],
+    "descriptions": [
+      "Limousin"
+    ]
+  },
+  "sursilv": {
+    "prefixes": [
+      "rm"
+    ],
+    "descriptions": [
+      "Sursilvan idiom of Romansh"
+    ]
+  },
+  "surmiran": {
+    "prefixes": [
+      "rm"
+    ],
+    "descriptions": [
+      "Surmiran idiom of Romansh"
+    ]
+  },
+  "lengadoc": {
+    "prefixes": [
+      "oc"
+    ],
+    "descriptions": [
+      "Languedocien"
+    ]
+  },
+  "kscor": {
+    "prefixes": [
+      "kw"
+    ],
+    "descriptions": [
+      "Standard Cornish orthography of Revived Cornish",
+      "Kernowek Standard"
+    ]
+  },
+  "ulster": {
+    "prefixes": [
+      "sco"
+    ],
+    "descriptions": [
+      "Ulster dialect of Scots"
+    ]
+  },
+  "simple": {
+    "prefixes": {},
+    "descriptions": [
+      "Simplified form"
+    ]
+  },
+  "scotland": {
+    "prefixes": [
+      "en"
+    ],
+    "descriptions": [
+      "Scottish Standard English"
+    ]
+  },
+  "ao1990": {
+    "prefixes": [
+      "pt",
+      "gl"
+    ],
+    "descriptions": [
+      "Portuguese Language Orthographic Agreement of 1990 (Acordo Ortográfico da Língua Portuguesa de 1990)"
+    ]
+  },
+  "monoton": {
+    "prefixes": [
+      "el"
+    ],
+    "descriptions": [
+      "Monotonic Greek"
+    ]
+  },
+  "barla": {
+    "prefixes": [
+      "kea"
+    ],
+    "descriptions": [
+      "The Barlavento dialect group of Kabuverdianu"
+    ]
+  },
+  "rumgr": {
+    "prefixes": [
+      "rm"
+    ],
+    "descriptions": [
+      "Rumantsch Grischun"
+    ]
+  },
+  "pehoeji": {
+    "prefixes": [
+      "nan-latn"
+    ],
+    "descriptions": [
+      "Hokkien Vernacular Romanization System",
+      "Pe̍h-ōe-jī orthography/romanization"
+    ]
+  },
+  "rigik": {
+    "prefixes": [
+      "vo"
+    ],
+    "descriptions": [
+      "Volapük rigik",
+      "Schleyer's Volapük",
+      "Original Volapük",
+      "Classic Volapük"
+    ]
+  },
+  "puter": {
+    "prefixes": [
+      "rm"
+    ],
+    "descriptions": [
+      "Puter idiom of Romansh"
+    ]
+  },
+  "biske": {
+    "prefixes": [
+      "sl-rozaj"
+    ],
+    "descriptions": [
+      "The San Giorgio dialect of Resian",
+      "The Bila dialect of Resian"
+    ]
+  },
+  "valencia": {
+    "prefixes": [
+      "ca"
+    ],
+    "descriptions": [
+      "Valencian"
+    ]
+  },
+  "oxendict": {
+    "prefixes": [
+      "en"
+    ],
+    "descriptions": [
+      "Oxford English Dictionary spelling"
+    ]
+  },
+  "petr1708": {
+    "prefixes": [
+      "ru"
+    ],
+    "descriptions": [
+      "Petrine orthography"
+    ]
+  },
+  "rozaj": {
+    "prefixes": [
+      "sl"
+    ],
+    "descriptions": [
+      "Resian",
+      "Resianic",
+      "Rezijan"
+    ]
+  },
+  "pamaka": {
+    "prefixes": [
+      "djk"
+    ],
+    "descriptions": [
+      "Pamaka dialect"
+    ]
+  },
+  "grmistr": {
+    "prefixes": [
+      "oc",
+      "oc-aranes",
+      "oc-auvern",
+      "oc-cisaup",
+      "oc-creiss",
+      "oc-gascon",
+      "oc-lemosin",
+      "oc-lengadoc",
+      "oc-nicard",
+      "oc-provenc",
+      "oc-vivaraup"
+    ],
+    "descriptions": [
+      "Mistralian or Mistralian-inspired Occitan orthography"
+    ]
+  },
+  "fascia": {
+    "prefixes": [
+      "lld"
+    ],
+    "descriptions": [
+      "Fascia standard of Ladin"
+    ]
+  },
+  "pahawh4": {
+    "prefixes": [
+      "mww",
+      "hnj"
+    ],
+    "descriptions": [
+      "Pahawh Hmong Final Version orthography"
+    ]
+  },
+  "grclass": {
+    "prefixes": [
+      "oc",
+      "oc-aranes",
+      "oc-auvern",
+      "oc-cisaup",
+      "oc-creiss",
+      "oc-gascon",
+      "oc-lemosin",
+      "oc-lengadoc",
+      "oc-nicard",
+      "oc-provenc",
+      "oc-vivaraup"
+    ],
+    "descriptions": [
+      "Classical Occitan orthography"
+    ]
+  },
+  "pahawh3": {
+    "prefixes": [
+      "mww",
+      "hnj"
+    ],
+    "descriptions": [
+      "Pahawh Hmong Third Stage Reduced orthography"
+    ]
+  },
+  "pahawh2": {
+    "prefixes": [
+      "mww",
+      "hnj"
+    ],
+    "descriptions": [
+      "Pahawh Hmong Second Stage Reduced orthography"
+    ]
+  },
+  "bcizbl": {
+    "prefixes": [
+      "zbl"
+    ],
+    "descriptions": [
+      "BCI Blissymbolics"
+    ]
+  },
+  "polyton": {
+    "prefixes": [
+      "el"
+    ],
+    "descriptions": [
+      "Polytonic Greek"
+    ]
+  },
+  "emodeng": {
+    "prefixes": [
+      "en"
+    ],
+    "descriptions": [
+      "Early Modern English (1500-1700)"
+    ]
+  },
+  "balanka": {
+    "prefixes": [
+      "blo"
+    ],
+    "descriptions": [
+      "The Balanka dialect of Anii"
+    ]
+  },
+  "osojs": {
+    "prefixes": [
+      "sl-rozaj"
+    ],
+    "descriptions": [
+      "The Oseacco dialect of Resian",
+      "The Osojane dialect of Resian"
+    ]
+  },
+  "anpezo": {
+    "prefixes": [
+      "lld"
+    ],
+    "descriptions": [
+      "Anpezo standard of Ladin"
+    ]
+  },
+  "nicard": {
+    "prefixes": [
+      "oc"
+    ],
+    "descriptions": [
+      "Niçard"
+    ]
+  },
+  "luna1918": {
+    "prefixes": [
+      "ru"
+    ],
+    "descriptions": [
+      "Post-1917 Russian orthography"
+    ]
+  },
+  "1606nict": {
+    "prefixes": [
+      "frm"
+    ],
+    "descriptions": [
+      "Late Middle French (to 1606)"
+    ]
+  },
+  "nedis": {
+    "prefixes": [
+      "sl"
+    ],
+    "descriptions": [
+      "Natisone dialect",
+      "Nadiza dialect"
+    ]
+  },
+  "blasl": {
+    "prefixes": [
+      "ase",
+      "sgn-ase"
+    ],
+    "descriptions": [
+      "Black American Sign Language dialect"
+    ]
+  },
+  "solba": {
+    "prefixes": [
+      "sl-rozaj"
+    ],
+    "descriptions": [
+      "The Stolvizza dialect of Resian",
+      "The Solbica dialect of Resian"
+    ]
+  },
+  "fonnapa": {
+    "prefixes": {},
+    "descriptions": [
+      "North American Phonetic Alphabet",
+      "Americanist Phonetic Notation"
+    ]
+  },
+  "metelko": {
+    "prefixes": [
+      "sl"
+    ],
+    "descriptions": [
+      "Slovene in Metelko alphabet"
+    ]
+  },
+  "newfound": {
+    "prefixes": [
+      "en-ca"
+    ],
+    "descriptions": [
+      "Newfoundland English"
+    ]
+  },
+  "kociewie": {
+    "prefixes": [
+      "pl"
+    ],
+    "descriptions": [
+      "The Kociewie dialect of Polish"
+    ]
+  },
+  "lipaw": {
+    "prefixes": [
+      "sl-rozaj"
+    ],
+    "descriptions": [
+      "The Lipovaz dialect of Resian",
+      "The Lipovec dialect of Resian"
+    ]
+  },
+  "hsistemo": {
+    "prefixes": [
+      "eo"
+    ],
+    "descriptions": [
+      "Standard H-system orthographic fallback for spelling Esperanto"
+    ]
+  },
+  "spanglis": {
+    "prefixes": [
+      "en",
+      "es"
+    ],
+    "descriptions": [
+      "Spanglish"
+    ]
+  },
+  "ekavsk": {
+    "prefixes": [
+      "sr",
+      "sr-latn",
+      "sr-cyrl"
+    ],
+    "descriptions": [
+      "Serbian with Ekavian pronunciation"
+    ]
+  },
+  "gallo": {
+    "prefixes": [
+      "fr"
+    ],
+    "descriptions": [
+      "Gallo"
+    ]
+  },
+  "itihasa": {
+    "prefixes": [
+      "sa"
+    ],
+    "descriptions": [
+      "Epic Sanskrit"
+    ]
+  },
+  "ivanchov": {
+    "prefixes": [
+      "bg"
+    ],
+    "descriptions": [
+      "Bulgarian in 1899 orthography"
+    ]
+  },
+  "jauer": {
+    "prefixes": [
+      "rm"
+    ],
+    "descriptions": [
+      "Jauer dialect of Romansh"
+    ]
+  },
+  "fonkirsh": {
+    "prefixes": {},
+    "descriptions": [
+      "Kirshenbaum Phonetic Alphabet"
+    ]
+  },
+  "hognorsk": {
+    "prefixes": [
+      "nn"
+    ],
+    "descriptions": [
+      "Norwegian in Høgnorsk (High Norwegian) orthography"
+    ]
+  },
+  "auvern": {
+    "prefixes": [
+      "oc"
+    ],
+    "descriptions": [
+      "Auvergnat"
+    ]
+  },
+  "cisaup": {
+    "prefixes": [
+      "oc"
+    ],
+    "descriptions": [
+      "Cisalpine"
+    ]
+  },
+  "bauddha": {
+    "prefixes": [
+      "sa"
+    ],
+    "descriptions": [
+      "Buddhist Hybrid Sanskrit"
+    ]
+  },
+  "bohoric": {
+    "prefixes": [
+      "sl"
+    ],
+    "descriptions": [
+      "Slovene in Bohorič alphabet"
+    ]
+  },
+  "basiceng": {
+    "prefixes": [
+      "en"
+    ],
+    "descriptions": [
+      "Basic English"
+    ]
+  },
+  "valbadia": {
+    "prefixes": [
+      "lld"
+    ],
+    "descriptions": [
+      "Val Badia standard of Ladin"
+    ]
+  },
+  "arkaika": {
+    "prefixes": [
+      "eo"
+    ],
+    "descriptions": [
+      "Arcaicam Esperantom",
+      "Arkaika Esperanto"
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Lang/configuration",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:39:02.237Z"
+  },
+  "_comments": "--[[--------------------------< T E M P L A T E S _ T >--------------------------------------------------------\n]]\n--[[--------------------------< K N O W N _ P A R A M S >------------------------------------------------------\nlists of all parameters known to {{lang}}, {{langx}}, {{lang-xx}} templates.\nException: |fn= is known to {{lang}} but is not a 'lang' template;  that parameter causes the module to call the\nspecified lang(), lang_xx_inherit(), or lang_xx_italic() function.  These separate functions set |fn= to nill\nand then do the known-param checking on the other template parameters\n--[[--------------------------< E N G _ V A R >----------------------------------------------------------------\nUsed at en.wiki so that spelling of 'romanized' (US, default) can be changed to 'romanised' to match the envar\nspecified by a {{Use xxx English}}.  Not likely useful outside of en.wiki\nThis is accomplished by setting |engvar=gb; can, should be omitted in articles that use American English; no\nneed for the clutter.\n--[[\n=============================<< M E S S A G I N G   T A B L E S >>=============================================\nthese tables are for internationalization.  Messages or fragments thereof are mostly grouped by function name.\nSome messages are shared by functions other than the function table that lists the message or fragment.\n--[[--------------------------< K E Y W O R D S _ T >----------------------------------------------------------\n--[[--------------------------< M I S C _ T E X T _ T >--------------------------------------------------------\n--[[--------------------------< M A K E _ E R R O R _ M S G _ T >----------------------------------------------\n--[[--------------------------< V A L I D A T E _ I T A L I C _ T >--------------------------------------------\n--[[--------------------------< V A L I D A T E _ T E X T _ T >------------------------------------------------\n--[[--------------------------< T E X T _ S C R I P T _ M A T C H _ T E S T _ T >------------------------------\n--[[--------------------------< L A N G _ T >------------------------------------------------------------------\n--[[--------------------------< L A N G _ X X _ T >------------------------------------------------------------\n--[[--------------------------< T A G _ F R O M _ N A M E _ T >------------------------------------------------\n--[[--------------------------< T R A N S L _ T >--------------------------------------------------------------\n--[[--------------------------< G E T _ I E T F _ P A R T S _ T >----------------------------------------------\n--[[--------------------------< L A N G U A G E _ N A M E _ G E T _ T >----------------------------------------\n--[[--------------------------< H T M L _ T I T L E _ T E X T _ T >--------------------------------------------\n--[[--------------------------< T R A N S L A T I O N _ M A K E _ T >------------------------------------------\n--[[--------------------------< M A K E _ C A T E G O R Y _ T >------------------------------------------------\n--[[--------------------------< M A K E _ T R A N S L I T _ T >------------------------------------------------\n--[[--------------------------< E X P O R T S >----------------------------------------------------------------",
+  "translation_make_t": {
+    "lit_abbr": "lit.",
+    "lit_xlation": "Literal translation"
+  },
+  "make_translit_t": {
+    "script": "script",
+    "transliteration": "transliteration"
+  },
+  "engvar_sel_t": {
+    "ca": "us_t",
+    "au": "gb_t",
+    "za": "gb_t",
+    "us": "us_t",
+    "nz": "gb_t",
+    "ie": "gb_t",
+    "in": "gb_t",
+    "gb": "gb_t"
+  },
+  "misc_text_t": {
+    "help": "help",
+    "error": "Error",
+    "language": "language"
+  },
+  "lang_xx_t": {
+    "conflict_n_lit": "conflicting: {{{$1}}} and &#124;lit= or &#124;translation=",
+    "xlit_of_latn": "transliteration of latn script",
+    "conflict_lit": "conflicting: &#124;lit= and &#124;translation=",
+    "invalid_xlit_std": "invalid translit-std",
+    "translit_nonlatn": "transliteration text not Latin script (pos $1: $2)",
+    "romanization": "Romanization of",
+    "conflict_link": "conflicting: &#124;links= and &#124;link="
+  },
+  "language_name_get_t": {
+    "deprecated_msg": "code: $1 is deprecated",
+    "deprecated_cat": "Lang and lang-xx using deprecated ISO 639 codes|$1"
+  },
+  "keywords_t": {
+    "unset": "unset",
+    "negative": "no",
+    "affirmative": "yes",
+    "invert": "invert",
+    "default": "default"
+  },
+  "parameter_validate_t": {
+    "invalid_param": "invalid parameter: &#124;$1="
+  },
+  "default_engvar": "us_t",
+  "validate_text_t": {
+    "no_text": "no text",
+    "italic_markup": "text has italic markup",
+    "malformed_markup": "text has malformed markup"
+  },
+  "templates_t": {
+    "transliteration": "Transliteration",
+    "langx": "Langx",
+    "lang": "Lang",
+    "langxx": "Lang-xx"
+  },
+  "known_params_t": {
+    "common_params_all_t": {
+      "proto": true,
+      "nocat": true,
+      "code": true,
+      "text": true,
+      "i": true,
+      "italic": true,
+      "italics": true,
+      "rtl": true,
+      "template": true,
+      "cat": true,
+      "size": true
+    },
+    "params_lang_t": [
+      true,
+      true
+    ],
+    "params_lang_xx_t": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "script": true,
+      "variant": true,
+      "region": true
+    },
+    "params_langx_t": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "params_x_t": {
+      "lit=": true,
+      "translation": true,
+      "translit": true,
+      "links": true,
+      "translit-script": true,
+      "engvar": true,
+      "label": true,
+      "translit-std": true,
+      "link": true,
+      "lit": true
+    }
+  },
+  "validate_italic_t": {
+    "multi_italic": "only one of &#124;italic=, &#124;italics=, or &#124;i= can be specified"
+  },
+  "make_error_msg_t": {
+    "xlit_err_cat": "Transliteration template errors",
+    "undefined": "undefined",
+    "lang_err_cat": "Lang and lang-xx template errors"
+  },
+  "transl_t": {
+    "unrecog_xlit_std": "unrecognized transliteration standard: $1",
+    "no_text": "no text",
+    "missing_lang_scr": "missing language / script code",
+    "unrecog_lang_scr": "unrecognized language / script code: $1"
+  },
+  "text_script_match_test_t": {
+    "latn_txt_mismatch": "Latn text/non-Latn script subtag mismatch",
+    "latn_scr_mismatch": "Non-latn text (pos $1: $2)/Latn script subtag mismatch"
+  },
+  "make_category_t": {
+    "cat_prefix": "Category:Articles containing",
+    "cat_postfix": "language text",
+    "explicit_cat": "explicitly cited",
+    "collective_cat": "Category:Articles with text in"
+  },
+  "engvar_t": {
+    "gb_t": {
+      "romanisz_pt": "romanised",
+      "romanisz_uc": "Romanisation",
+      "romanisz_lc": "romanisation"
+    },
+    "us_t": {
+      "romanisz_pt": "romanized",
+      "romanisz_uc": "Romanization",
+      "romanisz_lc": "romanization"
+    }
+  },
+  "get_ietf_parts_t": {
+    "unrecog_pri": "unrecognized private tag: $1",
+    "maint_promo_msg": "code: $1 promoted to code: $2",
+    "maint_promo_cat": "Lang and lang-xx code promoted to ISO 639-1|$1",
+    "redundant_reg": "redundant region tag",
+    "unrecog_var_code_reg": "unrecognized variant: $1 for code-region pair: $2-$3",
+    "unrecog_var_code": "unrecognized variant: $1 for code: $2",
+    "unrecog_reg_code": "unrecognized region: $1 for code: $2",
+    "unrecog_var_code_scr": "unrecognized variant: $1 for code-script pair: $2-$3",
+    "script_code": "script: $1 not supported for code: $2",
+    "unrecog_var": "unrecognized variant: $1",
+    "redundant_scr": "redundant script tag",
+    "redundant_var": "redundant variant tag",
+    "unrecog_tag": "unrecognized language tag: $1",
+    "unrecog_code": "unrecognized language code: $1",
+    "unrecog_scr_code": "unrecognized script: $1 for code: $2",
+    "missing_lang_tag": "missing language tag"
+  },
+  "make_text_html_t": {
+    "collective": "collective text",
+    "zxx": "text",
+    "individual": "language text"
+  },
+  "lang_t": {
+    "conflict_n_param_types": {
+      "text": "text",
+      "translit": "translit",
+      "code": "code"
+    },
+    "invalid_proto": "invalid &#124;proto=: $1",
+    "conflict_n_param": "conflicting: {{{$1}}} and &#124;$2="
+  },
+  "tag_from_name_t": {
+    "missing_lang_name": "missing language name",
+    "lang_not_found": "language: $1 not found"
+  }
+}

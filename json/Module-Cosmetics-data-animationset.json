@@ -1,0 +1,1440 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/animationset",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:32:00.731Z"
+  },
+  "_comments": "",
+  "Atlas Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "BrawlerNoble.png",
+    "Description": "The Noble Animation Set for Atlas.",
+    "Link": "Atlas Noble Animation Set",
+    "Name": "Atlas Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Brawler/BrawlerNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Rhino Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "RhinoAgile.png",
+    "Description": "The Agile Animation Set for Rhino.",
+    "Link": "Rhino Agile Animation Set",
+    "Name": "Rhino Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Rhino/RhinoAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Octavia Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "BardAgile.png",
+    "Description": "The Agile Animation Set for Octavia.",
+    "Link": "Octavia Agile Animation Set",
+    "Name": "Octavia Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Bard/BardAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Excalibur Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "ExcaliburAgile.png",
+    "Description": "The Agile Animation Set for Excalibur.",
+    "Link": "Excalibur Agile Animation Set",
+    "Name": "Excalibur Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Excalibur/ExcaliburAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Grendel Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "GrendelNoble.png",
+    "Description": "The Noble Animation Set for Grendel.",
+    "Link": "Grendel Noble Animation Set",
+    "Name": "Grendel Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Devourer/DevourerNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Ember Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "EmberNoble.png",
+    "Description": "The Noble Animation Set for Ember.",
+    "Link": "Ember Noble Animation Set",
+    "Name": "Ember Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Ember/EmberNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Ivara Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "RangerNoble.png",
+    "Description": "The Noble Animation Set for Ivara.",
+    "Link": "Ivara Noble Animation Set",
+    "Name": "Ivara Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Ranger/RangerNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Nezha Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "NezhaNoble.png",
+    "Description": "The Noble Animation Set for Nezha.",
+    "Link": "Nezha Noble Animation Set",
+    "Name": "Nezha Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Nezha/NezhaNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Drifter Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "AdultOperatorAgile.png",
+    "Description": "The Agile Animation Set for Drifter.",
+    "Link": "Drifter Agile Animation Set",
+    "Name": "Drifter Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/AnimationSets/AdultOperatorAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Chroma Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "ChromaNoble.png",
+    "Description": "The Noble Animation Set for Chroma.",
+    "Link": "Chroma Noble Animation Set",
+    "Name": "Chroma Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Dragon/ChromaNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Equinox Day Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "EquinoxNoble.png",
+    "Description": "The Day Noble Animation Set for Equinox.",
+    "Link": "Equinox Day Noble Animation Set",
+    "Name": "Equinox Day Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Anima/AnimaDayNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Caliban Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "CalibanAgile.png",
+    "Description": "The Agile Animation Set for Caliban.",
+    "Link": "Caliban Agile Animation Set",
+    "Name": "Caliban Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentient/SentientAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Loki Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "LokiNoble.png",
+    "Description": "The Noble Animation Set for Loki.",
+    "Link": "Loki Noble Animation Set",
+    "Name": "Loki Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Loki/LokiNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Hydroid Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "HydroidNoble.png",
+    "Description": "The Noble Animation Set for Hydroid.",
+    "Link": "Hydroid Noble Animation Set",
+    "Name": "Hydroid Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Hydroid/HydroidNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Excalibur Umbra Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "ExcaliburUmbraAgile.png",
+    "Description": "The Agile Animation Set for Excalibur Umbra.",
+    "Link": "Excalibur Umbra Agile Animation Set",
+    "Name": "Excalibur Umbra Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Excalibur/ExcaliburUmbraAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Nyx Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "NyxAgile.png",
+    "Description": "The Agile Animation Set for Nyx.",
+    "Link": "Nyx Agile Animation Set",
+    "Name": "Nyx Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Jade/JadeAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Jade Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "JadeAgile.png",
+    "Description": "The Agile Animation Set for Jade.",
+    "Link": "Jade Agile Animation Set",
+    "Name": "Jade Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Choir/ChoirAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Limbo Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "LimboAgile.png",
+    "Description": "The Agile Animation Set for Limbo.",
+    "Link": "Limbo Agile Animation Set",
+    "Name": "Limbo Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Magician/MagicianAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Ash Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "AshNoble.png",
+    "Description": "The Noble Animation Set for Ash.",
+    "Link": "Ash Noble Animation Set",
+    "Name": "Ash Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Ninja/NinjaNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Baruuk Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "PacifistAgile.png",
+    "Description": "The Agile Animation Set for Baruuk.",
+    "Link": "Baruuk Agile Animation Set",
+    "Name": "Baruuk Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Pacifist/PacifistAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Vazarin Animation Set": {
+    "Type": "Animation Set",
+    "Image": "FocusLensVazarin.png",
+    "Description": "The Vazarin animation set for your Operator.",
+    "Link": "Vazarin Animation Set",
+    "Name": "Vazarin Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/AnimationSets/VazarinAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Volt Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "VoltAgile.png",
+    "Description": "The Agile Animation Set for Volt.",
+    "Link": "Volt Agile Animation Set",
+    "Name": "Volt Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Volt/VoltAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Mirage Oneiro Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "MirageDeluxeAgile.png",
+    "Description": "The Agile Animation Set for Mirage Oneiro.",
+    "Link": "Mirage Oneiro Agile Animation Set",
+    "Name": "Mirage Oneiro Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Harlequin/MirageDeluxeAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Mag Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "MagAgile.png",
+    "Description": "The Agile Animation Set for Mag.",
+    "Link": "Mag Agile Animation Set",
+    "Name": "Mag Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Mag/MagAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Khora Urushu Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "KhoraDeluxeAgile.png",
+    "Description": "The Agile Animation Set for Khora Urushu.",
+    "Link": "Khora Urushu Agile Animation Set",
+    "Name": "Khora Urushu Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Khora/KhoraDeluxeAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Gauss Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "GaussNoble.png",
+    "Description": "The Noble Animation Set for Gauss.",
+    "Link": "Gauss Noble Animation Set",
+    "Name": "Gauss Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Runner/RunnerNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Sevagoth Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "WraithAgile.png",
+    "Description": "The Agile Animation Set for Sevagoth.",
+    "Link": "Sevagoth Agile Animation Set",
+    "Name": "Sevagoth Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Wraith/WraithAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Zenurik Animation Set": {
+    "Type": "Animation Set",
+    "Image": "FocusLensZenurik.png",
+    "Description": "The Zenurik animation set for your Operator.",
+    "Link": "Zenurik Animation Set",
+    "Name": "Zenurik Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/AnimationSets/ZenurikAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Titania Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "TitaniaNoble.png",
+    "Description": "The Noble Animation Set for Titania.",
+    "Link": "Titania Noble Animation Set",
+    "Name": "Titania Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Fairy/FairyNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Banshee Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "BansheeNoble.png",
+    "Description": "The Noble Animation Set for Banshee.",
+    "Link": "Banshee Noble Animation Set",
+    "Name": "Banshee Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Decree/DecreeNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Drifter Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "AdultOperatorNoble.png",
+    "Description": "The Noble Animation Set for Drifter.",
+    "Link": "Drifter Noble Animation Set",
+    "Name": "Drifter Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/AnimationSets/AdultOperatorNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Yareli Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "YareliAgile.png",
+    "Description": "The Agile Animation Set for Yareli.",
+    "Link": "Yareli Agile Animation Set",
+    "Name": "Yareli Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Yareli/YareliAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Frost Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "FrostAgile.png",
+    "Description": "The Agile Animation Set for Frost.",
+    "Link": "Frost Agile Animation Set",
+    "Name": "Frost Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Frost/FrostAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Ivara Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "RangerAgile.png",
+    "Description": "The Agile Animation Set for Ivara.",
+    "Link": "Ivara Agile Animation Set",
+    "Name": "Ivara Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Ranger/RangerAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Gara Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "GlassNoble.png",
+    "Description": "The Noble Animation Set for Gara.",
+    "Link": "Gara Noble Animation Set",
+    "Name": "Gara Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Glass/GlassNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Revenant Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "RevenantNoble.png",
+    "Description": "The Noble Animation Set for Revenant.",
+    "Link": "Revenant Noble Animation Set",
+    "Name": "Revenant Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Revenant/RevenantNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Mirage Oneiro Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "MirageDeluxeNoble.png",
+    "Description": "The Noble Animation Set for Mirage Oneiro.",
+    "Link": "Mirage Oneiro Noble Animation Set",
+    "Name": "Mirage Oneiro Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Harlequin/MirageDeluxeNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Khora Urushu Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "KhoraDeluxeNoble.png",
+    "Description": "The Noble Animation Set for Khora Urushu.",
+    "Link": "Khora Urushu Noble Animation Set",
+    "Name": "Khora Urushu Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Khora/KhoraDeluxeNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Dante Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "DanteNoble.png",
+    "Description": "The Noble Animation Set for Dante.",
+    "Link": "Dante Noble Animation Set",
+    "Name": "Dante Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Pagemaster/PagemasterNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Equinox Night Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "EquinoxNoble.png",
+    "Description": "The Night Noble Animation Set for Equinox.",
+    "Link": "Equinox Night Noble Animation Set",
+    "Name": "Equinox Night Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Anima/AnimaNightNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Garuda Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "GarudaAgile.png",
+    "Description": "The Agile Animation Set for Garuda.",
+    "Link": "Garuda Agile Animation Set",
+    "Name": "Garuda Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Garuda/GarudaAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Jade Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "JadeNoble.png",
+    "Description": "The Noble Animation Set for Jade.",
+    "Link": "Jade Noble Animation Set",
+    "Name": "Jade Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Choir/ChoirNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Hydroid Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "HydroidAgile.png",
+    "Description": "The Agile Animation Set for Hydroid.",
+    "Link": "Hydroid Agile Animation Set",
+    "Name": "Hydroid Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Hydroid/HydroidAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Equinox Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "EquinoxAgile.png",
+    "Description": "The Agile Animation Set for Equinox.",
+    "Link": "Equinox Agile Animation Set",
+    "Name": "Equinox Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Anima/AnimaAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Koumei Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "KoumeiAgile.png",
+    "Description": "The Agile Animation Set for Koumei.",
+    "Link": "Koumei Agile Animation Set",
+    "Name": "Koumei Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Koumei/KoumeiAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Zephyr Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "TenguNoble.png",
+    "Description": "The Noble Animation Set for Zephyr",
+    "Link": "Zephyr Noble Animation Set",
+    "Name": "Zephyr Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Tengu/TenguNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Nyx Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "NyxNoble.png",
+    "Description": "The Noble Animation Set for Nyx.",
+    "Link": "Nyx Noble Animation Set",
+    "Name": "Nyx Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Jade/JadeNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Valkyr Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "ValkyrAgile.png",
+    "Description": "The Agile Animation Set for Valkyr.",
+    "Link": "Valkyr Agile Animation Set",
+    "Name": "Valkyr Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Berserker/BerserkerAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Excalibur Zato Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "ExcaliburDeluxeAgile.png",
+    "Description": "The Agile Animation Set for Excalibur Zato.",
+    "Link": "Excalibur Zato Agile Animation Set",
+    "Name": "Excalibur Zato Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Excalibur/ExcaliburDeluxeAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Lavos Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "AlchemistAgile.png",
+    "Description": "The Agile Animation Set for Lavos.",
+    "Link": "Lavos Agile Animation Set",
+    "Name": "Lavos Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Alchemist/AlchemistAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Nezha Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "NezhaAgile.png",
+    "Description": "The Agile Animation Set for Nezha.",
+    "Link": "Nezha Agile Animation Set",
+    "Name": "Nezha Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Nezha/NezhaAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Mesa Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "MesaAgile.png",
+    "Description": "The Agile Animation Set for Mesa.",
+    "Link": "Mesa Agile Animation Set",
+    "Name": "Mesa Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Cowgirl/CowgirlAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Cyte-09 Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "FrumentariusAgile.png",
+    "Description": "The Agile Animation Set for Cyte-09.",
+    "Link": "Cyte-09 Agile Animation Set",
+    "Name": "Cyte-09 Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Frumentarius/FrumentariusAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Caliban Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "CalibanNoble.png",
+    "Description": "The Noble Animation Set for Caliban.",
+    "Link": "Caliban Noble Animation Set",
+    "Name": "Caliban Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentient/SentientNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Ash Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "AshAgile.png",
+    "Description": "The Agile Animation Set for Ash.",
+    "Link": "Ash Agile Animation Set",
+    "Name": "Ash Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Ninja/NinjaAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Titania Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "TitaniaAgile.png",
+    "Description": "The Agile Animation Set for Titania.",
+    "Link": "Titania Agile Animation Set",
+    "Name": "Titania Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Fairy/FairyAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Equinox Night Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "EquinoxAgile.png",
+    "Description": "The Night Agile Animation Set for Equinox.",
+    "Link": "Equinox Night Agile Animation Set",
+    "Name": "Equinox Night Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Anima/AnimaNightAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Dagath Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "DagathAgile.png",
+    "Description": "The Agile Animation Set for Dagath.",
+    "Link": "Dagath Agile Animation Set",
+    "Name": "Dagath Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Dagath/DagathAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Garuda Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "GarudaNoble.png",
+    "Description": "The Noble Animation Set for Garuda.",
+    "Link": "Garuda Noble Animation Set",
+    "Name": "Garuda Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Garuda/GarudaNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Kullervo Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "KullervoAgile.png",
+    "Description": "The Agile Animation Set for Kullervo.",
+    "Link": "Kullervo Agile Animation Set",
+    "Name": "Kullervo Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/PaxDuviricus/PaxDuviricusAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Sevagoth Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "WraithNoble.png",
+    "Description": "The Noble Animation Set for Sevagoth.",
+    "Link": "Sevagoth Noble Animation Set",
+    "Name": "Sevagoth Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Wraith/WraithNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Atlas Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "BrawlerAgile.png",
+    "Description": "The Agile Animation Set for Atlas.",
+    "Link": "Atlas Agile Animation Set",
+    "Name": "Atlas Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Brawler/BrawlerAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Lavos Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "AlchemistNoble.png",
+    "Description": "The Noble Animation Set for Lavos.",
+    "Link": "Lavos Noble Animation Set",
+    "Name": "Lavos Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Alchemist/AlchemistNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Zephyr Harrier Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "ZephyrDeluxeAgile.png",
+    "Description": "The Agile Animation Set for Zephyr Harrier.",
+    "Link": "Zephyr Harrier Agile Animation Set",
+    "Name": "Zephyr Harrier Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Tengu/TenguDeluxeAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Excalibur Zato Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "ExcaliburDeluxeNoble.png",
+    "Description": "The Noble Animation Set for Excalibur Zato.",
+    "Link": "Excalibur Zato Noble Animation Set",
+    "Name": "Excalibur Zato Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Excalibur/ExcaliburDeluxeNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Excalibur Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "ExcaliburNoble.png",
+    "Description": "The Noble Animation Set for Excalibur.",
+    "Link": "Excalibur Noble Animation Set",
+    "Name": "Excalibur Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Excalibur/ExcaliburNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Nekros Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "NekrosAgile.png",
+    "Description": "The Agile Animation Set for Nekros.",
+    "Link": "Nekros Agile Animation Set",
+    "Name": "Nekros Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Necro/NecroAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Vauban Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "VaubanNoble.png",
+    "Description": "The Noble Animation Set for Vauban.",
+    "Link": "Vauban Noble Animation Set",
+    "Name": "Vauban Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Trapper/TrapperNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Zephyr Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "TenguAgile.png",
+    "Description": "The Agile Animation Set for Zephyr",
+    "Link": "Zephyr Agile Animation Set",
+    "Name": "Zephyr Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Tengu/TenguAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Kullervo Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "KullervoNoble.png",
+    "Description": "The Noble Animation Set for Kullervo.",
+    "Link": "Kullervo Noble Animation Set",
+    "Name": "Kullervo Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/PaxDuviricus/PaxDuviricusNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Gyre Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "GyreAgile.png",
+    "Description": "The Agile Animation Set for Gyre.",
+    "Link": "Gyre Agile Animation Set",
+    "Name": "Gyre Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Gyre/GyreAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Harrow Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "HarrowNoble.png",
+    "Description": "The Noble Animation Set for Harrow.",
+    "Link": "Harrow Noble Animation Set",
+    "Name": "Harrow Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Priest/PriestNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Styanax Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "HopliteAgile.png",
+    "Description": "The Agile Animation Set for Styanax.",
+    "Link": "Styanax Agile Animation Set",
+    "Name": "Styanax Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoplite/HopliteAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Volt Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "VoltNoble.png",
+    "Description": "The Noble Animation Set for Volt.",
+    "Link": "Volt Noble Animation Set",
+    "Name": "Volt Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Volt/VoltNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Qorvex Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "QorvexNoble.png",
+    "Description": "The Noble Animation Set for Qorvex.",
+    "Link": "Qorvex Noble Animation Set",
+    "Name": "Qorvex Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/ConcreteFrame/ConcreteNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Gara Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "GlassAgile.png",
+    "Description": "The Agile Animation Set for Gara.",
+    "Link": "Gara Agile Animation Set",
+    "Name": "Gara Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Glass/GlassAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Nidus Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "NidusAgile.png",
+    "Description": "The Agile Animation Set for Nidus.",
+    "Link": "Nidus Agile Animation Set",
+    "Name": "Nidus Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Infestation/InfestationAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Naramon Animation Set": {
+    "Type": "Animation Set",
+    "Image": "FocusLensNaramon.png",
+    "Description": "The Naramon animation set for your Operator.",
+    "Link": "Naramon Animation Set",
+    "Name": "Naramon Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/AnimationSets/NaramonAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Khora Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "KhoraAgile.png",
+    "Description": "The Agile Animation Set for Khora.",
+    "Link": "Khora Agile Animation Set",
+    "Name": "Khora Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Khora/KhoraAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Nidus Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "NidusNoble.png",
+    "Description": "The Noble Animation Set for Nidus.",
+    "Link": "Nidus Noble Animation Set",
+    "Name": "Nidus Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Infestation/InfestationNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Gauss Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "GaussAgile.png",
+    "Description": "The Agile Animation Set for Gauss.",
+    "Link": "Gauss Agile Animation Set",
+    "Name": "Gauss Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Runner/RunnerAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Zephyr Harrier Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "ZephyrDeluxeNoble.png",
+    "Description": "The Noble Animation Set for Zephyr Harrier.",
+    "Link": "Zephyr Harrier Noble Animation Set",
+    "Name": "Zephyr Harrier Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Tengu/TenguDeluxeNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Rhino Deathwatch Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "RhinoDeluxeNoble.png",
+    "Description": "The Noble Animation Set for Rhino Deathwatch.",
+    "Link": "Rhino Deathwatch Noble Animation Set",
+    "Name": "Rhino Deathwatch Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Rhino/RhinoDeluxeV2NobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Saryn Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "SarynNoble.png",
+    "Description": "The Noble Animation Set for Saryn.",
+    "Link": "Saryn Noble Animation Set",
+    "Name": "Saryn Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Asp/AspNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Valkyr Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "ValkyrNoble.png",
+    "Description": "The Noble Animation Set for Valkyr.",
+    "Link": "Valkyr Noble Animation Set",
+    "Name": "Valkyr Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Berserker/BerserkerNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Xaku Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "XakuNoble.png",
+    "Description": "The Noble Animation Set for Xaku.",
+    "Link": "Xaku Noble Animation Set",
+    "Name": "Xaku Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/BrokenFrame/BrokenFrameNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Hildryn Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "IronFrameAgile.png",
+    "Description": "The Agile Animation Set for Hildryn.",
+    "Link": "Hildryn Agile Animation Set",
+    "Name": "Hildryn Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/IronFrame/IronFrameAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Ember Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "EmberAgile.png",
+    "Description": "The Agile Animation Set for Ember.",
+    "Link": "Ember Agile Animation Set",
+    "Name": "Ember Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Ember/EmberAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Hildryn Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "IronFrameNoble.png",
+    "Description": "The Noble Animation Set for Hildryn.",
+    "Link": "Hildryn Noble Animation Set",
+    "Name": "Hildryn Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/IronFrame/IronFrameNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Xaku Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "XakuAgile.png",
+    "Description": "The Agile Animation Set for Xaku.",
+    "Link": "Xaku Agile Animation Set",
+    "Name": "Xaku Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/BrokenFrame/BrokenFrameAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Wukong Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "MonkeyKingNoble.png",
+    "Description": "The Noble Animation Set for Wukong.",
+    "Link": "Wukong Noble Animation Set",
+    "Name": "Wukong Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/MonkeyKing/MonkeyKingNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Wisp Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "WispAgile.png",
+    "Description": "The Agile Animation Set for Wisp.",
+    "Link": "Wisp Agile Animation Set",
+    "Name": "Wisp Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Wisp/WispAgileAnims",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Wisp Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "WispNoble.png",
+    "Description": "The Noble Animation Set for Wisp.",
+    "Link": "Wisp Noble Animation Set",
+    "Name": "Wisp Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Wisp/WispNobleAnims",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Chroma Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "ChromaAgile.png",
+    "Description": "The Agile Animation Set for Chroma.",
+    "Link": "Chroma Agile Animation Set",
+    "Name": "Chroma Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Dragon/ChromaAgileAnims",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Wukong Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "MonkeyKingAgile.png",
+    "Description": "The Agile Animation Set for Wukong.",
+    "Link": "Wukong Agile Animation Set",
+    "Name": "Wukong Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/MonkeyKing/MonkeyKingAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Voruna Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "WolfNoble.png",
+    "Description": "The Noble Animation Set for Voruna.",
+    "Link": "Voruna Noble Animation Set",
+    "Name": "Voruna Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Werewolf/WerewolfNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Citrine Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "CitrineNoble.png",
+    "Description": "The Noble Animation Set for Citrine.",
+    "Link": "Citrine Noble Animation Set",
+    "Name": "Citrine Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Geode/GeodeNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Gyre Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "GyreNoble.png",
+    "Description": "The Noble Animation Set for Gyre.",
+    "Link": "Gyre Noble Animation Set",
+    "Name": "Gyre Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Gyre/GyreNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Voruna Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "WolfAgile.png",
+    "Description": "The Agile Animation Set for Voruna.",
+    "Link": "Voruna Agile Animation Set",
+    "Name": "Voruna Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Werewolf/WerewolfAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Citrine Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "CitrineAgile.png",
+    "Description": "The Agile Animation Set for Citrine.",
+    "Link": "Citrine Agile Animation Set",
+    "Name": "Citrine Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Geode/GeodeAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Vauban Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "VaubanAgile.png",
+    "Description": "The Agile Animation Set for Vauban.",
+    "Link": "Vauban Agile Animation Set",
+    "Name": "Vauban Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Trapper/TrapperAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Banshee Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "BansheeAgile.png",
+    "Description": "The Agile Animation Set for Banshee.",
+    "Link": "Banshee Agile Animation Set",
+    "Name": "Banshee Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Decree/DecreeAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Valkyr Carnivex Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "ValkyrDeluxeNoble.png",
+    "Description": "The Noble Animation Set for Valkyr Carnivex.",
+    "Link": "Valkyr Carnivex Noble Animation Set",
+    "Name": "Valkyr Carnivex Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Berserker/BerserkerDeluxeNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Mirage Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "MirageNoble.png",
+    "Description": "The Noble Animation Set for Mirage.",
+    "Link": "Mirage Noble Animation Set",
+    "Name": "Mirage Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Harlequin/HarlequinNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Yareli Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "YareliNoble.png",
+    "Description": "The Noble Animation Set for Yareli.",
+    "Link": "Yareli Noble Animation Set",
+    "Name": "Yareli Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Yareli/YareliNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Valkyr Carnivex Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "ValkyrDeluxeAgile.png",
+    "Description": "The Agile Animation Set for Valkyr Carnivex.",
+    "Link": "Valkyr Carnivex Agile Animation Set",
+    "Name": "Valkyr Carnivex Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Berserker/BerserkerDeluxeAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Cyte-09 Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "FrumentariusNoble.png",
+    "Description": "The Noble Animation Set for Cyte-09.",
+    "Link": "Cyte-09 Noble Animation Set",
+    "Name": "Cyte-09 Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Frumentarius/FrumentariusNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Khora Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "KhoraNoble.png",
+    "Description": "The Noble Animation Set for Khora.",
+    "Link": "Khora Noble Animation Set",
+    "Name": "Khora Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Khora/KhoraNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Mesa Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "MesaNoble.png",
+    "Description": "The Noble Animation Set for Mesa.",
+    "Link": "Mesa Noble Animation Set",
+    "Name": "Mesa Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Cowgirl/CowgirlNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Rhino Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "RhinoNoble.png",
+    "Description": "The Noble Animation Set for Rhino.",
+    "Link": "Rhino Noble Animation Set",
+    "Name": "Rhino Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Rhino/RhinoNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Trinity Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "TrinityNoble.png",
+    "Description": "The Noble Animation Set for Trinity.",
+    "Link": "Trinity Noble Animation Set",
+    "Name": "Trinity Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Trinity/TrinityNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Dagath Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "DagathNoble.png",
+    "Description": "The Noble Animation Set for Dagath.",
+    "Link": "Dagath Noble Animation Set",
+    "Name": "Dagath Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Dagath/DagathNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Oberon Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "OberonNoble.png",
+    "Description": "The Noble Animation Set for Oberon.",
+    "Link": "Oberon Noble Animation Set",
+    "Name": "Oberon Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Paladin/PaladinNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Styanax Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "HopliteNoble.png",
+    "Description": "The Noble Animation Set for Styanax.",
+    "Link": "Styanax Noble Animation Set",
+    "Name": "Styanax Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoplite/HopliteNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Baruuk Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "PacifistNoble.png",
+    "Description": "The Noble Animation Set for Baruuk.",
+    "Link": "Baruuk Noble Animation Set",
+    "Name": "Baruuk Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Pacifist/PacifistNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Saryn Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "SarynAgile.png",
+    "Description": "The Agile Animation Set for Saryn.",
+    "Link": "Saryn Agile Animation Set",
+    "Name": "Saryn Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Asp/AspAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Koumei Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "KoumeiNoble.png",
+    "Description": "The Noble Animation Set for Koumei.",
+    "Link": "Koumei Noble Animation Set",
+    "Name": "Koumei Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Koumei/KoumeiNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Dante Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "DanteAgile.png",
+    "Description": "The Agile Animation Set for Dante.",
+    "Link": "Dante Agile Animation Set",
+    "Name": "Dante Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Pagemaster/PagemasterAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Unairu Animation Set": {
+    "Type": "Animation Set",
+    "Image": "FocusLensUnairu.png",
+    "Description": "The Unairu animation set for your Operator.",
+    "Link": "Unairu Animation Set",
+    "Name": "Unairu Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/AnimationSets/UnairuAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Mirage Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "MirageAgile.png",
+    "Description": "The Agile Animation Set for Mirage.",
+    "Link": "Mirage Agile Animation Set",
+    "Name": "Mirage Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Harlequin/HarlequinAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Harrow Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "HarrowAgile.png",
+    "Description": "The Agile Animation Set for Harrow.",
+    "Link": "Harrow Agile Animation Set",
+    "Name": "Harrow Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Priest/PriestAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Rhino Deathwatch Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "RhinoDeluxeAgile.png",
+    "Description": "The Agile Animation Set for Rhino Deathwatch.",
+    "Link": "Rhino Deathwatch Agile Animation Set",
+    "Name": "Rhino Deathwatch Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Rhino/RhinoDeluxeV2AgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Grendel Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "GrendelAgile.png",
+    "Description": "The Agile Animation Set for Grendel.",
+    "Link": "Grendel Agile Animation Set",
+    "Name": "Grendel Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Devourer/DevourerAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Revenant Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "RevenantAgile.png",
+    "Description": "The Agile Animation Set for Revenant.",
+    "Link": "Revenant Agile Animation Set",
+    "Name": "Revenant Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Revenant/RevenantAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Qorvex Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "QorvexAgile.png",
+    "Description": "The Agile Animation Set for Qorvex.",
+    "Link": "Qorvex Agile Animation Set",
+    "Name": "Qorvex Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/ConcreteFrame/ConcreteAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Nekros Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "NekrosNoble.png",
+    "Description": "The Noble Animation Set for Nekros.",
+    "Link": "Nekros Noble Animation Set",
+    "Name": "Nekros Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Necro/NecroNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Protea Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "ProteaNoble.png",
+    "Description": "The Noble Animation Set for Protea.",
+    "Link": "Protea Noble Animation Set",
+    "Name": "Protea Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Odalisk/OdaliskNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Protea Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "ProteaAgile.png",
+    "Description": "The Agile Animation Set for Protea.",
+    "Link": "Protea Agile Animation Set",
+    "Name": "Protea Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Odalisk/OdaliskAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Octavia Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "BardNoble.png",
+    "Description": "The Noble Animation Set for Octavia.",
+    "Link": "Octavia Noble Animation Set",
+    "Name": "Octavia Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Bard/BardNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Trinity Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "TrinityAgile.png",
+    "Description": "The Agile Animation Set for Trinity.",
+    "Link": "Trinity Agile Animation Set",
+    "Name": "Trinity Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Trinity/TrinityAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Limbo Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "LimboNoble.png",
+    "Description": "The Noble Animation Set for Limbo.",
+    "Link": "Limbo Noble Animation Set",
+    "Name": "Limbo Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Magician/MagicianNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Nova Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "NovaNoble.png",
+    "Description": "The Noble Animation Set for Nova.",
+    "Link": "Nova Noble Animation Set",
+    "Name": "Nova Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/AntiMatter/AntiMatterNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Equinox Day Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "EquinoxAgile.png",
+    "Description": "The Day Agile Animation Set for Equinox.",
+    "Link": "Equinox Day Agile Animation Set",
+    "Name": "Equinox Day Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Anima/AnimaDayAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Nova Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "NovaAgile.png",
+    "Description": "The Agile Animation Set for Nova.",
+    "Link": "Nova Agile Animation Set",
+    "Name": "Nova Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/AntiMatter/AntiMatterAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Mag Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "MagNoble.png",
+    "Description": "The Noble Animation Set for Mag.",
+    "Link": "Mag Noble Animation Set",
+    "Name": "Mag Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Mag/MagNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Frost Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "FrostNoble.png",
+    "Description": "The Noble Animation Set for Frost.",
+    "Link": "Frost Noble Animation Set",
+    "Name": "Frost Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Frost/FrostNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Loki Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "LokiAgile.png",
+    "Description": "The Agile Animation Set for Loki.",
+    "Link": "Loki Agile Animation Set",
+    "Name": "Loki Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Loki/LokiAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Inaros Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "SandmanNoble.png",
+    "Description": "The Noble Animation Set for Inaros.",
+    "Link": "Inaros Noble Animation Set",
+    "Name": "Inaros Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Sandman/SandmanNobleAnims",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Oberon Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "OberonAgile.png",
+    "Description": "The Agile Animation Set for Oberon.",
+    "Link": "Oberon Agile Animation Set",
+    "Name": "Oberon Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Paladin/PaladinAgileAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Inaros Agile Animation Set": {
+    "Type": "Animation Set",
+    "Image": "SandmanAgile.png",
+    "Description": "The Agile Animation Set for Inaros.",
+    "Link": "Inaros Agile Animation Set",
+    "Name": "Inaros Agile Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Sandman/SandmanAgileAnims",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Madurai Animation Set": {
+    "Type": "Animation Set",
+    "Image": "FocusLensMadurai.png",
+    "Description": "The Madurai animation set for your Operator.",
+    "Link": "Madurai Animation Set",
+    "Name": "Madurai Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/AnimationSets/MaduraiAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Excalibur Umbra Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "ExcaliburUmbraNoble.png",
+    "Description": "The Noble Animation Set for Excalibur Umbra.",
+    "Link": "Excalibur Umbra Noble Animation Set",
+    "Name": "Excalibur Umbra Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Excalibur/ExcaliburUmbraNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Equinox Noble Animation Set": {
+    "Type": "Animation Set",
+    "Image": "EquinoxNoble.png",
+    "Description": "The Noble Animation Set for Equinox.",
+    "Link": "Equinox Noble Animation Set",
+    "Name": "Equinox Noble Animation Set",
+    "InternalName": "/Lotus/Upgrades/Skins/Anima/AnimaNobleAnims",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  }
+}

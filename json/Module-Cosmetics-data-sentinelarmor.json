@@ -1,0 +1,840 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/sentinelarmor",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:33:14.775Z"
+  },
+  "_comments": "",
+  "Dome Sentinel Wings": {
+    "Type": "Wing",
+    "Image": "DomeSentinelWings.png",
+    "Description": "A pair of wings for your sentinel pet.",
+    "Link": "Dome Sentinel Wings",
+    "Name": "Dome Sentinel Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/DomeWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Chrysalis Sentinel Wings": {
+    "Type": "Wing",
+    "Image": "ChrysalisSentinelWings.png",
+    "Description": "A pair of wings for your sentinel pet.",
+    "Link": "Chrysalis Sentinel Wings",
+    "Name": "Chrysalis Sentinel Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/InfestedWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Coltek Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "ColtekSentinelMask.png",
+    "Description": "A mask attachment for your sentinel pet.",
+    "Link": "Coltek Sentinel Mask",
+    "Name": "Coltek Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/GunHeadMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Heimt Prime Sentinel Wings": {
+    "Type": "Wing",
+    "Image": "HeimtPrimeSentinelWings.png",
+    "Description": "A finely crafted accessory for your sentinel.",
+    "Link": "Heimt Prime Sentinel Wings",
+    "Name": "Heimt Prime Sentinel Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/HeimtPrimeSentinelWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Cavum Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "CavumSentinelMask.png",
+    "Description": "A deliciously nightmarish mask for your Sentinel.",
+    "Link": "Cavum Sentinel Mask",
+    "Name": "Cavum Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/InfBatMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Cavum Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "CavumSentinelTail.png",
+    "Description": "A deliciously nightmarish tail for your Sentinel.",
+    "Link": "Cavum Sentinel Tail",
+    "Name": "Cavum Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/InfBatTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kavat Sentinel Wings": {
+    "Type": "Wing",
+    "Image": "KavatSentinelWings.png",
+    "Description": "A pair of wings for your sentinel pet.",
+    "Link": "Kavat Sentinel Wings",
+    "Name": "Kavat Sentinel Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/KavatPetWings",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Verv Sentrex Sentinel Wings": {
+    "Type": "Wing",
+    "Image": "VervSentrexSentinelWings.png",
+    "Description": "Your sentinel will dazzle with this pair of wings.",
+    "Link": "Verv Sentrex Sentinel Wings",
+    "Name": "Verv Sentrex Sentinel Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/TwitchSentWings",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Heimt Prime Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "HeimtPrimeSentinelMask.png",
+    "Description": "A finely crafted accessory for your sentinel.",
+    "Link": "Heimt Prime Sentinel Mask",
+    "Name": "Heimt Prime Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/HeimtPrimeSentinelMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Prisma Jet Sentinel Wings": {
+    "Type": "Wing",
+    "Image": "PrismaJetSentinelWings.png",
+    "Description": "An ordinary Sentinel becomes extraordinary with striking prisma accessories.",
+    "Link": "Prisma Jet Sentinel Wings",
+    "Name": "Prisma Jet Sentinel Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/PrismaJetWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Calaverita Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "CalaveritaSentinelMask.png",
+    "Description": "A brightly painted skull mask attachment for your sentinel pet.",
+    "Link": "Calaverita Sentinel Mask",
+    "Name": "Calaverita Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Halloween/DOTD2025SentinelMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Dragondance Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "DragondanceSentinelTail.png",
+    "Description": "Prepare your Sentinel for a dance of Lunar Renewal revelry with armor that invokes the dragon.",
+    "Link": "Dragondance Sentinel Tail",
+    "Name": "Dragondance Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/LNYDragonTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Mech Head Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "MechHeadSentinelMask.png",
+    "Description": "A mask attachment for your sentinel pet.",
+    "Link": "Mech Head Sentinel Mask",
+    "Name": "Mech Head Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/MechHeadMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Navic Prime Mask": {
+    "Type": "Mask",
+    "Image": "NavicPrimeMask.png",
+    "Description": "A mask attachment for your sentinel pet.",
+    "Link": "Navic Prime Mask",
+    "Name": "Navic Prime Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/NautilusPrimeSentinelMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Chitoid Sentinel Wings": {
+    "Type": "Wing",
+    "Image": "ChitoidSentinelWings.png",
+    "Description": "A pair of wings for your sentinel pet.",
+    "Link": "Chitoid Sentinel Wings",
+    "Name": "Chitoid Sentinel Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/InfNightWaveWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Summus Prime Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "SummusPrimeSentinelMask.png",
+    "Description": "A mask attachment for your sentinel pet.",
+    "Link": "Summus Prime Sentinel Mask",
+    "Name": "Summus Prime Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/OrokinMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Coltek Sentinel Wings": {
+    "Type": "Wing",
+    "Image": "ColtekSentinelWings.png",
+    "Description": "A pair of wings for your sentinel pet.",
+    "Link": "Coltek Sentinel Wings",
+    "Name": "Coltek Sentinel Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/ColtekWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Unda Prime Sentinel Wings": {
+    "Type": "Wing",
+    "Image": "UndaPrimeSentinelWings.png",
+    "Description": "A pair of wings for your sentinel pet.",
+    "Link": "Unda Prime Sentinel Wings",
+    "Name": "Unda Prime Sentinel Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/PrimeSentinelWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Orcus Prime Tail": {
+    "Type": "Tail",
+    "Image": "OrcusPrimeTail.png",
+    "Description": "A tail attachment for your Sentinel pet.",
+    "Link": "Orcus Prime Tail",
+    "Name": "Orcus Prime Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/DethcubePrimeTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Verv Sentrex Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "VervSentrexSentinelMask.png",
+    "Description": "Your sentinel will dazzle with this mask attachment.",
+    "Link": "Verv Sentrex Sentinel Mask",
+    "Name": "Verv Sentrex Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/TwitchSentHeadMask",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Cavum Sentinel Wings": {
+    "Type": "Wing",
+    "Image": "CavumSentinelWings.png",
+    "Description": "Deliciously nightmarish wings for your Sentinel.",
+    "Link": "Cavum Sentinel Wings",
+    "Name": "Cavum Sentinel Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/InfBatWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kavat Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "KavatSentinelTail.png",
+    "Description": "A stylish tail attachment for your sentinel pet.",
+    "Link": "Kavat Sentinel Tail",
+    "Name": "Kavat Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/KavatPetTail",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Loid Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "LoidSentinelMask.png",
+    "Description": "Necraloids insist upon using archaic but reliable Entrati technology, in preference to anything more modern.",
+    "Link": "Loid Sentinel Mask",
+    "Name": "Loid Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/ThanoTechMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Jet Sentinel Wings": {
+    "Type": "Wing",
+    "Image": "JetSentinelWings.png",
+    "Description": "A pair of wings for your sentinel pet.",
+    "Link": "Jet Sentinel Wings",
+    "Name": "Jet Sentinel Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/JetWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Unda Prime Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "UndaPrimeSentinelTail.png",
+    "Description": "A stylish tail attachment for your sentinel pet.",
+    "Link": "Unda Prime Sentinel Tail",
+    "Name": "Unda Prime Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/PrimeSentinelTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ictus Prime Mask": {
+    "Type": "Mask",
+    "Image": "IctusPrimeMask.png",
+    "Description": "Golden accessories for Helios Prime.",
+    "Link": "Ictus Prime Mask",
+    "Name": "Ictus Prime Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/IctusPrimeMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Dragondance Sentinel Wings": {
+    "Type": "Wing",
+    "Image": "DragondanceSentinelWings.png",
+    "Description": "Prepare your Sentinel for a dance of Lunar Renewal revelry with armor that invokes the dragon.",
+    "Link": "Dragondance Sentinel Wings",
+    "Name": "Dragondance Sentinel Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/LNYDragonWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ki'Teer Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "Ki'TeerSentinelMask.png",
+    "Description": "A mask designed to match the one worn by Baro Ki'Teer, for your Sentinel pet.",
+    "Link": "Ki'Teer Sentinel Mask",
+    "Name": "Ki'Teer Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/BaroPetMask",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Nautilus Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "NautilusSentinelMask.png",
+    "Description": "Aglow with life, the Nautilus watches for shipboard hazards.",
+    "Link": "Nautilus Sentinel Mask",
+    "Name": "Nautilus Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/TnEmpyreanSocketMask",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Scyph Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "ScyphSentinelTail.png",
+    "Description": "A stylish tail attachment for your sentinel pet.",
+    "Link": "Scyph Sentinel Tail",
+    "Name": "Scyph Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/TnHydroidDlxSentTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ictus Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "IctusSentinelMask.png",
+    "Description": "A mask attachment for your sentinel pet.",
+    "Link": "Ictus Sentinel Mask",
+    "Name": "Ictus Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/IctusMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Unda Prime Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "UndaPrimeSentinelMask.png",
+    "Description": "A mask attachment for your sentinel pet.",
+    "Link": "Unda Prime Sentinel Mask",
+    "Name": "Unda Prime Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/PrimeSentinelMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Verv Sentrex Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "VervSentrexSentinelTail.png",
+    "Description": "Your sentinel will dazzle with this tail attachment.",
+    "Link": "Verv Sentrex Sentinel Tail",
+    "Name": "Verv Sentrex Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/TwitchSentTail",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Para Sentinel Wings": {
+    "Type": "Wing",
+    "Image": "ParaSentinelWings.png",
+    "Description": "A pair of wings for your sentinel pet.",
+    "Link": "Para Sentinel Wings",
+    "Name": "Para Sentinel Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/ParrotWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "VERD-IE Sentinel Wings": {
+    "Type": "Wing",
+    "Image": "VERD-IESentinelWings.png",
+    "Description": "A pair of wings for your sentinel pet.",
+    "Link": "VERD-IE Sentinel Wings",
+    "Name": "VERD-IE Sentinel Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/GardenerWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kerulyst Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "KerulystSentinelTail.png",
+    "Description": "Give your Sentinel the appearance of a Kerulyst, diminutive Sentients that evolved to become robust laborers in the Tau System.",
+    "Link": "Kerulyst Sentinel Tail",
+    "Name": "Kerulyst Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/HeliosDeluxeTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Koi Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "KoiSentinelTail.png",
+    "Description": "A stylish tail attachment for your sentinel pet.",
+    "Link": "Koi Sentinel Tail",
+    "Name": "Koi Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/FishTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Chitoid Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "ChitoidSentinelMask.png",
+    "Description": "A mask attachment for your sentinel pet.",
+    "Link": "Chitoid Sentinel Mask",
+    "Name": "Chitoid Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/InfNightWaveMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "VERD-IE Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "VERD-IESentinelTail.png",
+    "Description": "A stylish tail attachment for your sentinel pet.",
+    "Link": "VERD-IE Sentinel Tail",
+    "Name": "VERD-IE Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/GardenerTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "VERD-IE Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "VERD-IESentinelMask.png",
+    "Description": "A mask attachment for your sentinel pet.",
+    "Link": "VERD-IE Sentinel Mask",
+    "Name": "VERD-IE Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/GardenerMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Nautilus Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "NautilusSentinelTail.png",
+    "Description": "Rear-mounted Void fins keep the Nautilus stable.",
+    "Link": "Nautilus Sentinel Tail",
+    "Name": "Nautilus Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/TnEmpyreanSocketTail",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Hunhow Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "HunhowSentinelMask.png",
+    "Description": "A mask attachment for your sentinel pet.",
+    "Link": "Hunhow Sentinel Mask",
+    "Name": "Hunhow Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/HunhowMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Thorax Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "ThoraxSentinelTail.png",
+    "Description": "A stylish tail attachment for your sentinel pet.",
+    "Link": "Thorax Sentinel Tail",
+    "Name": "Thorax Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/InfestedTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Summus Prime Sentinel Wings": {
+    "Type": "Wing",
+    "Image": "SummusPrimeSentinelWings.png",
+    "Description": "A pair of wings for your sentinel pet.",
+    "Link": "Summus Prime Sentinel Wings",
+    "Name": "Summus Prime Sentinel Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/OrokinWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Altra Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "AltraSentinelTail.png",
+    "Description": "In this skin, your Sentinel will be indistinguishable from the air sentries that guarded the ancient tower of Altra, as described by Drusus Leverian.",
+    "Link": "Altra Sentinel Tail",
+    "Name": "Altra Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/GaussSentinelTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Calaverita Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "CalaveritaSentinelTail.png",
+    "Description": "Brightly painted tail feathers for your sentinel pet.",
+    "Link": "Calaverita Sentinel Tail",
+    "Name": "Calaverita Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Halloween/DOTD2025SentinelTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kerulyst Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "KerulystSentinelMask.png",
+    "Description": "Give your Sentinel the appearance of a Kerulyst, diminutive Sentients that evolved to become robust laborers in the Tau System.",
+    "Link": "Kerulyst Sentinel Mask",
+    "Name": "Kerulyst Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/HeliosDeluxeMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Summus Prime Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "SummusPrimeSentinelTail.png",
+    "Description": "A stylish tail attachment for your sentinel pet.",
+    "Link": "Summus Prime Sentinel Tail",
+    "Name": "Summus Prime Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/OrokinTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Chrysalis Jade Wings": {
+    "Type": "Wing",
+    "Image": "ChrysalisJadeWings.png",
+    "Description": "A pair of next-generation wings for your sentinel pet.",
+    "Link": "Chrysalis Jade Wings",
+    "Name": "Chrysalis Jade Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Promo/Microsoft/JadeInfestedWings",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Loid Sentinel Wing": {
+    "Type": "Wing",
+    "Image": "LoidSentinelWing.png",
+    "Description": "All Necraloids can hover and maneuver with perfect poise. ",
+    "Link": "Loid Sentinel Wing",
+    "Name": "Loid Sentinel Wing",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/ThanoTechWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Scyph Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "ScyphSentinelMask.png",
+    "Description": "A mask attachment for your sentinel pet.",
+    "Link": "Scyph Sentinel Mask",
+    "Name": "Scyph Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/TnHydroidDlxSentMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Calaverita Sentinel Wing": {
+    "Type": "Wing",
+    "Image": "CalaveritaSentinelWing.png",
+    "Description": "Brightly painted wings for your sentinel pet.",
+    "Link": "Calaverita Sentinel Wing",
+    "Name": "Calaverita Sentinel Wing",
+    "InternalName": "/Lotus/Upgrades/Skins/Halloween/DOTD2025SentinelWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kerulyst Sentinel Wings": {
+    "Type": "Wing",
+    "Image": "KerulystSentinelWings.png",
+    "Description": "Give your Sentinel the appearance of a Kerulyst, diminutive Sentients that evolved to become robust laborers in the Tau System.",
+    "Link": "Kerulyst Sentinel Wings",
+    "Name": "Kerulyst Sentinel Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/HeliosDeluxeWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Prisma Koi Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "PrismaKoiSentinelTail.png",
+    "Description": "An ordinary Sentinel becomes extraordinary with striking prisma accessories.",
+    "Link": "Prisma Koi Sentinel Tail",
+    "Name": "Prisma Koi Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/PrismaFishTail",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Navic Prime Wings": {
+    "Type": "Wing",
+    "Image": "NavicPrimeWings.png",
+    "Description": "A pair of wings for your sentinel pet.",
+    "Link": "Navic Prime Wings",
+    "Name": "Navic Prime Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/NautilusPrimeSentinelWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Para Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "ParaSentinelMask.png",
+    "Description": "A mask attachment for your sentinel pet.",
+    "Link": "Para Sentinel Mask",
+    "Name": "Para Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/ParrotMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Altra Sentinel Wings": {
+    "Type": "Wing",
+    "Image": "AltraSentinelWings.png",
+    "Description": "In this skin, your Sentinel will be indistinguishable from the air sentries that guarded the ancient tower of Altra, as described by Drusus Leverian.",
+    "Link": "Altra Sentinel Wings",
+    "Name": "Altra Sentinel Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/GaussSentinelWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Orcus Prime Wings": {
+    "Type": "Wing",
+    "Image": "OrcusPrimeWings.png",
+    "Description": "A wings attachment for your Sentinel pet.",
+    "Link": "Orcus Prime Wings",
+    "Name": "Orcus Prime Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/DethcubePrimeWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Orcus Prime Mask": {
+    "Type": "Mask",
+    "Image": "OrcusPrimeMask.png",
+    "Description": "A mask attachment for your Sentinel pet.",
+    "Link": "Orcus Prime Mask",
+    "Name": "Orcus Prime Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/DethcubePrimeMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Para Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "ParaSentinelTail.png",
+    "Description": "A stylish tail attachment for your sentinel pet.",
+    "Link": "Para Sentinel Tail",
+    "Name": "Para Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/ParrotTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Chitoid Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "ChitoidSentinelTail.png",
+    "Description": "A stylish tail attachment for your sentinel pet.",
+    "Link": "Chitoid Sentinel Tail",
+    "Name": "Chitoid Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/InfNightWaveTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Nautilus Sentinel Wings": {
+    "Type": "Wing",
+    "Image": "NautilusSentinelWings.png",
+    "Description": "Void-optimized wing attachments keep the Nautilus buoyant.",
+    "Link": "Nautilus Sentinel Wings",
+    "Name": "Nautilus Sentinel Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/TnEmpyreanSocketWings",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Mandible Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "MandibleSentinelMask.png",
+    "Description": "A mask attachment for your sentinel pet.",
+    "Link": "Mandible Sentinel Mask",
+    "Name": "Mandible Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/InfestedMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ictus Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "IctusSentinelTail.png",
+    "Description": "A stylish tail attachment for your sentinel pet.",
+    "Link": "Ictus Sentinel Tail",
+    "Name": "Ictus Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/IctusTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Lotus Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "LotusSentinelMask.png",
+    "Description": "A mask attachment for your sentinel pet.",
+    "Link": "Lotus Sentinel Mask",
+    "Name": "Lotus Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/LotusMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Diamond Sentinel Wings": {
+    "Type": "Wing",
+    "Image": "DiamondSentinelWings.png",
+    "Description": "A pair of wings for your sentinel pet.",
+    "Link": "Diamond Sentinel Wings",
+    "Name": "Diamond Sentinel Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/DiamondWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Scyph Sentinel Wings": {
+    "Type": "Wing",
+    "Image": "ScyphSentinelWings.png",
+    "Description": "A pair of wings for your sentinel pet.",
+    "Link": "Scyph Sentinel Wings",
+    "Name": "Scyph Sentinel Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/TnHydroidDlxSentWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Loid Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "LoidSentinelTail.png",
+    "Description": "Necraloids take pride in keeping their medallion-embossed collars as clean and polished as they did when they were living servants.",
+    "Link": "Loid Sentinel Tail",
+    "Name": "Loid Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/ThanoTechTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Dragondance Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "DragondanceSentinelMask.png",
+    "Description": "Prepare your Sentinel for a dance of Lunar Renewal revelry with armor that invokes the dragon.",
+    "Link": "Dragondance Sentinel Mask",
+    "Name": "Dragondance Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/LNYDragonMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ictus Prime Wings": {
+    "Type": "Wing",
+    "Image": "IctusPrimeWings.png",
+    "Description": "Golden accessories for Helios Prime.",
+    "Link": "Ictus Prime Wings",
+    "Name": "Ictus Prime Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/IctusPrimeWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Capsule Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "CapsuleSentinelTail.png",
+    "Description": "A stylish tail attachment for your sentinel pet.",
+    "Link": "Capsule Sentinel Tail",
+    "Name": "Capsule Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/CapsuleTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kubrow Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "KubrowSentinelMask.png",
+    "Description": "A mask attachment for your sentinel pet.",
+    "Link": "Kubrow Sentinel Mask",
+    "Name": "Kubrow Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/KubrowMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ki'Teer Sentinel Wings": {
+    "Type": "Wing",
+    "Image": "Ki'TeerSentinelWings.png",
+    "Description": "Soar to new heights of luxury with these angular Sentinel wings.",
+    "Link": "Ki'Teer Sentinel Wings",
+    "Name": "Ki'Teer Sentinel Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/BaroPetWings",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Ki'Teer Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "Ki'TeerSentinelTail.png",
+    "Description": "A statement piece for any Sentinel.",
+    "Link": "Ki'Teer Sentinel Tail",
+    "Name": "Ki'Teer Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/BaroPetTail",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Prisma Mech Head Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "PrismaMechHeadSentinelMask.png",
+    "Description": "An ordinary Sentinel becomes extraordinary with striking prisma accessories.",
+    "Link": "Prisma Mech Head Sentinel Mask",
+    "Name": "Prisma Mech Head Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/PrismaMechHeadMask",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Ictus Sentinel Wings": {
+    "Type": "Wing",
+    "Image": "IctusSentinelWings.png",
+    "Description": "A pair of wings for your sentinel pet.",
+    "Link": "Ictus Sentinel Wings",
+    "Name": "Ictus Sentinel Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Wings/IctusWings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Heimt Prime Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "HeimtPrimeSentinelTail.png",
+    "Description": "A finely crafted accessory for your sentinel.",
+    "Link": "Heimt Prime Sentinel Tail",
+    "Name": "Heimt Prime Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/HeimtPrimeSentinelTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Coltek Sentinel Tail": {
+    "Type": "Tail",
+    "Image": "ColtekSentinelTail.png",
+    "Description": "A stylish tail attachment for your sentinel pet.",
+    "Link": "Coltek Sentinel Tail",
+    "Name": "Coltek Sentinel Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/ColtekTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Altra Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "AltraSentinelMask.png",
+    "Description": "In this skin, your Sentinel will be indistinguishable from the air sentries that guarded the ancient tower of Altra, as described by Drusus Leverian.",
+    "Link": "Altra Sentinel Mask",
+    "Name": "Altra Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/GaussSentinelMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Kavat Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "KavatSentinelMask.png",
+    "Description": "A mask attachment for your sentinel pet.",
+    "Link": "Kavat Sentinel Mask",
+    "Name": "Kavat Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Masks/KavatPetMask",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Ictus Prime Tail": {
+    "Type": "Tail",
+    "Image": "IctusPrimeTail.png",
+    "Description": "Golden accessories for Helios Prime.",
+    "Link": "Ictus Prime Tail",
+    "Name": "Ictus Prime Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/IctusPrimeTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Coltek Obsidian Sentinel Mask": {
+    "Type": "Mask",
+    "Image": "ColtekObsidianSentinelMask.png",
+    "Description": "A mask attachment for your sentinel pet.",
+    "Link": "Coltek Obsidian Sentinel Mask",
+    "Name": "Coltek Obsidian Sentinel Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Sony/ObsidianColtekMask",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Navic Prime Tail": {
+    "Type": "Tail",
+    "Image": "NavicPrimeTail.png",
+    "Description": "A stylish tail attachment for your sentinel pet.",
+    "Link": "Navic Prime Tail",
+    "Name": "Navic Prime Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Tails/NautilusPrimeSentinelTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  }
+}

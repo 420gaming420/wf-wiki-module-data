@@ -1,0 +1,50 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/emotionmodule",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:32:18.662Z"
+  },
+  "_comments": "",
+  "EMOTION MODULE: INQUISITIVE": {
+    "Type": "Emotion Module",
+    "Image": "MoaPersonalityChipInquisitive.png",
+    "Description": "Overrides the default operating system with an analytical empath-agent.",
+    "Link": "EMOTION MODULE: INQUISITIVE",
+    "Name": "EMOTION MODULE: INQUISITIVE",
+    "InternalName": "/Lotus/Upgrades/Skins/MoaPet/MoaPetPersonalityB",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "EMOTION MODULE: TENACIOUS": {
+    "Type": "Emotion Module",
+    "Image": "MoaPersonalityChipBrawler.png",
+    "Description": "Overrides the default operating system with a strong empath-agent.",
+    "Link": "EMOTION MODULE: TENACIOUS",
+    "Name": "EMOTION MODULE: TENACIOUS",
+    "InternalName": "/Lotus/Upgrades/Skins/MoaPet/MoaPetPersonalityD",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "EMOTION MODULE: AGGRESSIVE": {
+    "Type": "Emotion Module",
+    "Image": "MoaPersonalityChipAggressive.png",
+    "Description": "Overrides the default operating system with a hostile empath-agent.",
+    "Link": "EMOTION MODULE: AGGRESSIVE",
+    "Name": "EMOTION MODULE: AGGRESSIVE",
+    "InternalName": "/Lotus/Upgrades/Skins/MoaPet/MoaPetPersonalityC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "EMOTION MODULE: SENSITIVE": {
+    "Type": "Emotion Module",
+    "Image": "MoaPersonalityChipSensitive.png",
+    "Description": "Overrides the default operating system with a caring empath-agent.",
+    "Link": "EMOTION MODULE: SENSITIVE ",
+    "Name": "EMOTION MODULE: SENSITIVE ",
+    "InternalName": "/Lotus/Upgrades/Skins/MoaPet/MoaPetPersonalityA",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  }
+}

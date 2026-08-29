@@ -1,0 +1,610 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/landingcraftlivery",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:32:53.145Z"
+  },
+  "_comments": "",
+  "Scimitar Magus Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "ScimitarMagusSkin.png",
+    "Description": "A unique skin for the Scimitar landing craft.",
+    "Link": "Scimitar Magus Skin",
+    "Name": "Scimitar Magus Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetBlueSkySkinDeluxe",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Liset Kuza Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "LisetKuzaSkin.png",
+    "Description": "A customized exterior for your Liset.",
+    "Link": "Liset Kuza Skin",
+    "Name": "Liset Kuza Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinFlavourItemC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Scimitar Sotz Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "ScimitarSotzSkin.png",
+    "Description": "Cast the Stalker's caustic shadow across the Scimitar with this skin.",
+    "Link": "Scimitar Sotz Skin",
+    "Name": "Scimitar Sotz Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetBlueSkySkinStalker",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Charger Liset Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "ChargerLisetSkin.png",
+    "Description": "Give your Liset the look of an Infested Charger.",
+    "Link": "Charger Liset Skin",
+    "Name": "Charger Liset Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/InfChargerLisetSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Mantis Iridos Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "MantisIridosSkin.png",
+    "Description": "A unique skin for the Mantis landing craft.",
+    "Link": "Mantis Iridos Skin",
+    "Name": "Mantis Iridos Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetInsectSkinIridos",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Scimitar Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "Scimitar.png",
+    "Description": "This blade-like landing craft is armed with Carpet Bomb air-support.",
+    "Link": "Scimitar Skin",
+    "Name": "Scimitar Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetBlueSkyDefault",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Xiphos Prisma Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "XiphosPrismaSkin.png",
+    "Description": "A unique skin for the Xiphos landing craft.",
+    "Link": "Xiphos Prisma Skin",
+    "Name": "Xiphos Prisma Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/Gyroscope/LisetGyroscopeSkinPrimeTrader",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Liset Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "Liset.png",
+    "Description": "The landing craft of choice utilised by the Tenno during their missions.",
+    "Link": "Liset Skin",
+    "Name": "Liset Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinFlavourItemDefault",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Liset Hellkite Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "LisetHellkiteSkin.png",
+    "Description": "A skin for your Liset, designed by MaceMadunusus.",
+    "Link": "Liset Hellkite Skin",
+    "Name": "Liset Hellkite Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinSWROneHellkite",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Liset Kotara Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "LisetKotaraSkin.png",
+    "Description": "This Liset skin features geometric forms inspired by nature's order.",
+    "Link": "Liset Kotara Skin",
+    "Name": "Liset Kotara Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinKotora",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Parallax Dorsat Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "ParallaxDorsatSkin.png",
+    "Description": "The Parallax would have been adorned with the Dorsat skin when its passengers left the Zariman to study Tau regions with rocky or barren terrain.",
+    "Link": "Parallax Dorsat Skin",
+    "Name": "Parallax Dorsat Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/ZarimanShip/LisetZarimanShipSkinA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Scimitar Cydonia Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "ScimitarCydoniaSkin.png",
+    "Description": "A unique skin for the Scimitar landing craft.",
+    "Link": "Scimitar Cydonia Skin",
+    "Name": "Scimitar Cydonia Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetBlueSkySkinInaros",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Xiphos Kuva Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "XiphosKuvaSkin.png",
+    "Description": "A Kuva themed skin for your landing craft",
+    "Link": "Xiphos Kuva Skin",
+    "Name": "Xiphos Kuva Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/Gyroscope/LisetGyroscopeGrineerQueens",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Arclite Landing Craft Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "ArcliteLandingCraftSkin.png",
+    "Description": "Impress fellow Tenno by pulling up to the mission in this striking, streamlined landing craft skin.",
+    "Link": "Arclite Landing Craft Skin",
+    "Name": "Arclite Landing Craft Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/ZephyrDeluxeShipSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Parallax Albodix Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "ParallaxAlbodixSkin.png",
+    "Description": "The Parallax would have been adorned with the Albodix skin when its passengers left the Zariman to study cold or dark regions of Tau.",
+    "Link": "Parallax Albodix Skin",
+    "Name": "Parallax Albodix Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/ZarimanShip/LisetZarimanShipSkinD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Terror Landing Craft Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "TerrorLandingCraftSkin.png",
+    "Description": "Transform your Landing Craft into a perfect match for Stalker’s.",
+    "Link": "Terror Landing Craft Skin",
+    "Name": "Terror Landing Craft Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/StalkerShipDeluxeSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Liset Obsidian Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "LisetObsidianSkin.png",
+    "Description": "A customized exterior for your Liset.",
+    "Link": "Liset Obsidian Skin",
+    "Name": "Liset Obsidian Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinObsidian",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Liset Protege Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "LisetProtegeSkin.png",
+    "Description": "A unique Liset skin, designed by MaceMadunusus.",
+    "Link": "Liset Protege Skin",
+    "Name": "Liset Protege Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/SWProtegeLisetSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Xiphos Henipa Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "XiphosHenipaSkin.png",
+    "Description": "A unique skin for the Xiphos landing craft.",
+    "Link": "Xiphos Henipa Skin",
+    "Name": "Xiphos Henipa Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/Gyroscope/LisetGyroscopeSkinNekrognos",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Xiphos Ifrit Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "XiphosIfritSkin.png",
+    "Description": "A unique skin for the Xiphos landing craft.",
+    "Link": "Xiphos Ifrit Skin",
+    "Name": "Xiphos Ifrit Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/Gyroscope/LisetGyroscopeSkinIfrit",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Spektaka Liset Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "SpektakaLisetSkin.png",
+    "Description": "Blast through the Origin System with this alluring Liset skin.",
+    "Link": "Spektaka Liset Skin",
+    "Name": "Spektaka Liset Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinTwitchPrime",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Skaut Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "Skaut.png",
+    "Description": "A Grineer Bolkor remodeled for Tenno reinforcement. Skaut’s alert signal calls Kahl and his Grineer brothers for backup. When backup is active, use the alert signal to replenish your squad’s health. Each squad member can call one additional Grineer brother to join the fight.\r\n\r\nAlso available in the Market after completing the Veilbreaker quest.",
+    "Link": "Skaut Skin",
+    "Name": "Skaut Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/GrineerShip/LisetGrineerShipDefault",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Xiphos Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "Xiphos.png",
+    "Description": "Featuring Sentry Gun air-support, this stylish landing craft is an asset in any battle.",
+    "Link": "Xiphos Skin",
+    "Name": "Xiphos Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/Gyroscope/LisetGyroscopeDefault",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Liset Vammatar Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "LisetVammatarSkin.png",
+    "Description": "A unique Liset skin, designed by Ventralhound.",
+    "Link": "Liset Vammatar Skin",
+    "Name": "Liset Vammatar Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/SWVammatarLisetSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Mantis Day Of The Dead Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "MantisDayOfTheDeadSkin.png",
+    "Description": "A morbidly festive skin for the Mantis landing craft.",
+    "Link": "Mantis Day Of The Dead Skin",
+    "Name": "Mantis Day Of The Dead Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetInsectSkinHalloween",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Liset Jade Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "LisetJadeSkin.png",
+    "Description": "A customized exterior for your Liset.",
+    "Link": "Liset Jade Skin",
+    "Name": "Liset Jade Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinJade",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Liset Day Of The Dead Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "LisetDayOfTheDeadSkin.png",
+    "Description": "A morbidly festive skin for the Liset landing craft.",
+    "Link": "Liset Day Of The Dead Skin",
+    "Name": "Liset Day Of The Dead Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinHalloween",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Scimitar Prisma Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "ScimitarPrismaSkin.png",
+    "Description": "A unique skin for the Scimitar landing craft.",
+    "Link": "Scimitar Prisma Skin",
+    "Name": "Scimitar Prisma Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetBlueSkySkinPrimeTrader",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Parallax Fremutar Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "ParallaxFremutarSkin.png",
+    "Description": "The Parallax would have been adorned with the Fremutar skin when its passengers left the Zariman to study Tau regions with water and other resources that support life.",
+    "Link": "Parallax Fremutar Skin",
+    "Name": "Parallax Fremutar Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/ZarimanShip/LisetZarimanShipSkinC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Scimitar Kuva Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "ScimitarKuvaSkin.png",
+    "Description": "A Kuva themed skin for your landing craft",
+    "Link": "Scimitar Kuva Skin",
+    "Name": "Scimitar Kuva Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetBlueSkySkinGrineerQueens",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Mantis Lilieae Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "MantisLilieaeSkin.png",
+    "Description": "A unique Mantis skin, designed by MaceMadunusus.",
+    "Link": "Mantis Lilieae Skin",
+    "Name": "Mantis Lilieae Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/SWLilieaeSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Liset Kuva Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "LisetKuvaSkin.png",
+    "Description": "A Kuva themed skin for your landing craft",
+    "Link": "Liset Kuva Skin",
+    "Name": "Liset Kuva Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinGrineerQueens",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Parallax Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "Parallax.png",
+    "Description": "The Parallax was designed for Zariman interplanetary research. It can deploy the advanced Orokin Eye air support, which would have allowed colonizers to study areas rich in rare resources before landing.",
+    "Link": "Parallax Skin",
+    "Name": "Parallax Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/ZarimanShip/LisetZarimanShipDefault",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Mantis Gloam Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "MantisGloamSkin.png",
+    "Description": "A unique skin for the Mantis landing craft.",
+    "Link": "Mantis Gloam Skin",
+    "Name": "Mantis Gloam Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetInsectSkinExotic",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Parallax Mesaen Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "ParallaxMesaenSkin.png",
+    "Description": "The Parallax would have been adorned with the Mesaen skin when its passengers left the Zariman to study hot and volcanic regions of Tau.",
+    "Link": "Parallax Mesaen Skin",
+    "Name": "Parallax Mesaen Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/ZarimanShip/LisetZarimanShipSkinB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Liset Verv Skin": {
+    "Type": "Skin",
+    "Image": "LisetVervSkin.png",
+    "Description": "A dazzling skin for your Liset.",
+    "Link": "Liset Verv Skin",
+    "Name": "Liset Verv Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Promo/Twitch/LisetSkinTwitch",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Liset Hima Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "LisetHimaSkin.png",
+    "Description": "A customized exterior for your Liset.",
+    "Link": "Liset Hima Skin",
+    "Name": "Liset Hima Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinFlavourItemB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Liset Dex Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "LisetDexSkin.png",
+    "Description": "A gift from the Lotus to commemorate the anniversary of the first Tenno waking from Cryo statis.",
+    "Link": "Liset Dex Skin",
+    "Name": "Liset Dex Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/DexLisetSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Mantis Prisma Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "MantisPrismaSkin.png",
+    "Description": "A unique skin for the Mantis landing craft.",
+    "Link": "Mantis Prisma Skin",
+    "Name": "Mantis Prisma Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetInsectSkinPrimeTrader",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Scimitar Nami Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "ScimitarNamiSkin.png",
+    "Description": "A unique skin for the Scimitar landing craft.",
+    "Link": "Scimitar Nami Skin",
+    "Name": "Scimitar Nami Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetBlueSkySkinSplash",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Mantis Oscuro Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "MantisOscuroSkin.png",
+    "Description": "A unique skin for the Mantis landing craft.",
+    "Link": "Mantis Oscuro Skin",
+    "Name": "Mantis Oscuro Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetInsectSkinNautilus",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Xiphos Lilieae Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "XiphosLilieaeSkin.png",
+    "Description": "A unique Xiphos skin, designed by MaceMadunusus.",
+    "Link": "Xiphos Lilieae Skin",
+    "Name": "Xiphos Lilieae Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/Gyroscope/SWXiphosLilieaeSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Nightwave Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "NightwaveSkin.png",
+    "Description": "A landing craft model that pays homage to the forever-wandering home of pirate DJ Nora Night. Stay deadly, Dreamers. Nightwave's air support releases powerful sound waves, destroying weaker enemies while stunning more powerful ones.",
+    "Link": "Nightwave Skin",
+    "Name": "Nightwave Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/NoraShipDefault",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Mantis Vammatar Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "MantisVammatarSkin.png",
+    "Description": "A unique Mantis skin, designed by VentralHound.",
+    "Link": "Mantis Vammatar Skin",
+    "Name": "Mantis Vammatar Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/SWMantisVammatarSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Liset Athari Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "LisetAthariSkin.png",
+    "Description": "A Liset pattern to celebrate the reconstruction of our lost relay.",
+    "Link": "Liset Athari Skin",
+    "Name": "Liset Athari Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinRelayEvent",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Liset Zikha Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "LisetZikhaSkin.png",
+    "Description": "A customized exterior for your Liset.",
+    "Link": "Liset Zikha Skin",
+    "Name": "Liset Zikha Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinFlavourItemD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Scimitar Echo Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "ScimitarEchoSkin.png",
+    "Description": "A unique skin for the Scimitar landing craft.",
+    "Link": "Scimitar Echo Skin",
+    "Name": "Scimitar Echo Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetBlueSkySkinSound",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Mantis Kuva Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "MantisKuvaSkin.png",
+    "Description": "A Kuva themed skin for your landing craft",
+    "Link": "Mantis Kuva Skin",
+    "Name": "Mantis Kuva Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetInsectSkinGrineerQueens",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Lumis Liset Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "LumisLisetSkin.png",
+    "Description": "A unique Liset skin, designed by Felix Leonhart",
+    "Link": "Lumis Liset Skin",
+    "Name": "Lumis Liset Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/SWLumisLisetSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Mantis Bajada Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "MantisBajadaSkin.png",
+    "Description": "A unique skin for the Mantis landing craft.",
+    "Link": "Mantis Bajada Skin",
+    "Name": "Mantis Bajada Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetInsectSkinCamo",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Liset Maltzur Oculus Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "LisetMaltzurOculusSkin.png",
+    "Description": "A unique skin for the Liset, designed by Cobalt.",
+    "Link": "Liset Maltzur Oculus Skin",
+    "Name": "Liset Maltzur Oculus Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinSWRThreeMaltzurOculus",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Liset Herulyst Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "LisetHerulystSkin.png",
+    "Description": "A unique Liset skin, designed by LostEpoch.",
+    "Link": "Liset Herulyst Skin",
+    "Name": "Liset Herulyst Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/SWHerulystLisetSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Mantis Cydonia Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "MantisCydoniaSkin.png",
+    "Description": "A unique skin for the Mantis landing craft.",
+    "Link": "Mantis Cydonia Skin",
+    "Name": "Mantis Cydonia Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetInsectSkinInaros",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Liset Mithra Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "LisetMithraSkin.png",
+    "Description": "A unique Liset skin, designed by lukinu_u.",
+    "Link": "Liset Mithra Skin",
+    "Name": "Liset Mithra Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/SWMithraLisetSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Mantis Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "Mantis.png",
+    "Description": "This insect-like landing craft features Med-Tower air-support.",
+    "Link": "Mantis Skin",
+    "Name": "Mantis Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetInsectSkinDefault",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Liset Prime Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "LisetPrimeSkin.png",
+    "Description": "Explore the system in the style of the Orokin.",
+    "Link": "Liset Prime Skin",
+    "Name": "Liset Prime Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinPrime",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Liset Prisma Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "LisetPrismaSkin.png",
+    "Description": "A customized exterior for your Liset.",
+    "Link": "Liset Prisma Skin",
+    "Name": "Liset Prisma Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinVoidTrader",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Liset Quilate Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "LisetQuilateSkin.png",
+    "Description": "A skin for your Liset, designed by Polygonmonster.",
+    "Link": "Liset Quilate Skin",
+    "Name": "Liset Quilate Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinSWROne",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Liset Pahta Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "LisetPahtaSkin.png",
+    "Description": "This skin envelopes the Liset in explosive plumage.",
+    "Link": "Liset Pahta Skin",
+    "Name": "Liset Pahta Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinKaboom",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Liset Cydonia Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "LisetCydoniaSkin.png",
+    "Description": "Turn the Liset into a desert king’s chariot with this bold new exterior.",
+    "Link": "Liset Cydonia Skin",
+    "Name": "Liset Cydonia Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/InarosLisetSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  }
+}

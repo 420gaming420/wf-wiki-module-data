@@ -1,0 +1,2039 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:ScientiaStances/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:42:28.269Z"
+  },
+  "_comments": "-- For use in Module:ScientiaStances\n-- Each stance comes with the following unique combos:\n--      Basic: basic/neutral combo (unlocked by default if exists)\n--      Forward: forward combo (unlocked at Rank 1 if exists)\n--      ForwardBlock: \"forward tactical\" combo (unlocked at Rank 2 if exists)\n--      Block: block combo (unlocked at Rank 3 if exists)\n-- Each weapon class shares the following combos regardless of stance used:\n--      Heavy: heavy attack\n--      Slide: slide attack\n--      Air: air attack\n--      Wall: wall attack\n--      Ground: ground finisher\n-- Each combo a set number of attacks that share the same input.\n-- (e.g for Block combo, holding the block/aim key while attacking)\n-- Each combo comes with a list of attacks that have their own proc info,\n-- number of hits, attack type (\"Default\", \"360\", or \"Slam\"),\n-- and damage multiplier.\n-- For hits with multiple procs, concatenate the first three letters of each\n-- proc together (e.g. \"Slash\" and \"Puncture\" will become \"SlaPun\")\n-- Note: avoid putting nil values in tables, otherwise functions that iterate over\n--       tables will break or won't work properly. To denote a hit that\n--       doesn't proc in the Proc table, input \"None\".\n-- Default values for keys if keys are omitted:\n--      ConclaveOnly = false\n--      Type = \"Default\"\n--      Multiplier = 1 or { 1, 1, ... } if NumberOfHits is a table\n--      NumberOfHits = 1 or { 1, 1, ... } if Multiplier is a table\n--      Proc = nil\n-- Styling for StanceData:",
+  "Iron Phoenix": {
+    "Air": {
+      "Name": "Weightless Steel",
+      "Attacks": [
+        {
+          "Multiplier": 2
+        },
+        {
+          "Multiplier": 2
+        },
+        {
+          "Multiplier": 3,
+          "Proc": "Knockdown"
+        }
+      ]
+    },
+    "ForwardBlock": {
+      "Name": "Taking Flight",
+      "Attacks": [
+        {
+          "NumberOfHits": [
+            1,
+            1
+          ],
+          "Multiplier": [
+            1,
+            2
+          ],
+          "Proc": [
+            "None",
+            "Impact"
+          ]
+        },
+        {
+          "Type": "Slam",
+          "Multiplier": 4,
+          "Proc": "Lifted"
+        }
+      ]
+    },
+    "Slide": {
+      "Name": "Spiral Cut",
+      "Attacks": [
+        {
+          "Proc": "Impact",
+          "Type": "360"
+        }
+      ]
+    },
+    "Heavy": {
+      "Name": "Perfect Cut",
+      "Attacks": [
+        {
+          "Multiplier": 5,
+          "Proc": "Lifted"
+        },
+        {
+          "Multiplier": 5,
+          "Proc": "Knockdown"
+        }
+      ]
+    },
+    "Basic": {
+      "Name": "Wings and Beak",
+      "Attacks": [
+        {
+          "Multiplier": 3,
+          "Proc": "ImpSla"
+        },
+        {
+          "Multiplier": 2
+        },
+        {
+          "Multiplier": 2,
+          "Proc": "Knockdown"
+        }
+      ]
+    },
+    "Wall": {
+      "Name": "Weightless Steel",
+      "Attacks": [
+        {
+          "Multiplier": 3,
+          "Proc": "Knockdown"
+        }
+      ]
+    },
+    "Forward": {
+      "Name": "Double Slash",
+      "Attacks": [
+        {},
+        {
+          "Multiplier": 2
+        }
+      ]
+    },
+    "WeaponType": "Sword",
+    "Ground": {
+      "Name": "Death's Mark",
+      "Attacks": [
+        {
+          "Multiplier": 2.5,
+          "Proc": "Slash"
+        }
+      ]
+    }
+  },
+  "Hysteria": {
+    "Air": {
+      "Name": "One Point",
+      "Attacks": [
+        {
+          "Multiplier": 2
+        },
+        {
+          "Multiplier": 2,
+          "NumberOfHits": 2
+        },
+        {
+          "Multiplier": 3,
+          "Proc": "Knockdown"
+        }
+      ]
+    },
+    "ForwardBlock": {
+      "Name": "Madness",
+      "Attacks": [
+        {},
+        {
+          "NumberOfHits": 2
+        },
+        {
+          "NumberOfHits": 3
+        },
+        {
+          "NumberOfHits": 2
+        },
+        {
+          "NumberOfHits": 3
+        },
+        {
+          "Multiplier": [
+            1,
+            1,
+            2
+          ],
+          "Proc": [
+            "None",
+            "Impact",
+            "None"
+          ]
+        }
+      ]
+    },
+    "Slide": {
+      "Name": "Launching Spring",
+      "Attacks": [
+        {
+          "Type": "360",
+          "Multiplier": 3,
+          "NumberOfHits": 6
+        }
+      ]
+    },
+    "Heavy": {
+      "Name": "Rise From Ashes",
+      "Attacks": [
+        {
+          "Type": "Slam",
+          "Multiplier": 8.33,
+          "Proc": "Lifted"
+        },
+        {
+          "Proc": [
+            "None",
+            "Lifted"
+          ],
+          "NumberOfHits": [
+            4,
+            1
+          ]
+        }
+      ]
+    },
+    "Ground": {
+      "Name": "Roaring Drums",
+      "Attacks": [
+        {
+          "Multiplier": 20,
+          "NumberOfHits": 6
+        }
+      ]
+    },
+    "Basic": {
+      "Name": "Fervor",
+      "Attacks": [
+        {},
+        {},
+        {
+          "NumberOfHits": 2,
+          "Type": "360"
+        },
+        {
+          "NumberOfHits": 2,
+          "Type": "360"
+        },
+        {},
+        {
+          "NumberOfHits": 2
+        }
+      ]
+    },
+    "Wall": {
+      "Name": "Through Strike",
+      "Attacks": [
+        {
+          "Multiplier": 3
+        }
+      ]
+    },
+    "Block": {
+      "Name": "Delirium",
+      "Attacks": [
+        {},
+        {
+          "NumberOfHits": 2
+        },
+        {
+          "NumberOfHits": 3
+        },
+        {
+          "Multiplier": [
+            1,
+            1,
+            2
+          ],
+          "Proc": [
+            "None",
+            "Impact",
+            "None"
+          ]
+        }
+      ]
+    },
+    "WeaponType": "Valkyr's Talons",
+    "Forward": {
+      "Name": "Rage",
+      "Attacks": [
+        {},
+        {},
+        {},
+        {
+          "Type": "360"
+        }
+      ]
+    }
+  },
+  "Brutal Tide": {
+    "Air": {
+      "Name": "One Point",
+      "Attacks": [
+        {
+          "Multiplier": 2
+        },
+        {
+          "Multiplier": 2,
+          "NumberOfHits": 2
+        },
+        {
+          "Multiplier": 3,
+          "Proc": "Knockdown"
+        }
+      ]
+    },
+    "Slide": {
+      "Name": "Rolling Blast",
+      "Attacks": [
+        {
+          "NumberOfHits": 2,
+          "Multiplier": 2,
+          "Proc": "Ragdoll"
+        }
+      ]
+    },
+    "ForwardBlock": {
+      "Name": "Rushing Fire",
+      "Attacks": [
+        {
+          "NumberOfHits": 2,
+          "Multiplier": 2,
+          "Proc": "Impact"
+        },
+        {
+          "Multiplier": [
+            3,
+            1,
+            3
+          ],
+          "Proc": [
+            "None",
+            "None",
+            "Impact"
+          ]
+        },
+        {
+          "Multiplier": [
+            2,
+            3,
+            1
+          ],
+          "Proc": [
+            "None",
+            "None",
+            "Knockdown"
+          ]
+        }
+      ]
+    },
+    "Ground": {
+      "Name": "Roaring Drums",
+      "Attacks": [
+        {
+          "Multiplier": 5,
+          "NumberOfHits": 6
+        }
+      ]
+    },
+    "Wall": {
+      "Name": "Through Strike",
+      "Attacks": [
+        {
+          "Multiplier": 3
+        }
+      ]
+    },
+    "Forward": {
+      "Name": "Inferno",
+      "Attacks": [
+        {
+          "NumberOfHits": 2
+        },
+        {
+          "Multiplier": 2
+        },
+        {
+          "Multiplier": [
+            1,
+            2
+          ],
+          "NumberOfHits": [
+            2,
+            1
+          ]
+        },
+        {
+          "Multiplier": 3,
+          "NumberOfHits": 2
+        }
+      ]
+    },
+    "WeaponType": "Sparring",
+    "Heavy": {
+      "Name": "Rising from Ashes",
+      "Attacks": [
+        {
+          "Type": "Slam",
+          "Multiplier": 12,
+          "Proc": "Lifted"
+        },
+        {
+          "NumberOfHits": [
+            4,
+            1
+          ],
+          "Multiplier": [
+            1,
+            1
+          ],
+          "Proc": [
+            "None",
+            "Lifted"
+          ]
+        }
+      ]
+    }
+  },
+  "Unknown Combo": {
+    "Air": {
+      "Name": "Air Combo",
+      "Attacks": [
+        {
+          "Proc": "Impact"
+        },
+        {
+          "Proc": "Puncture"
+        },
+        {
+          "Proc": "Slash"
+        },
+        {
+          "Proc": "Lifted"
+        },
+        {
+          "Proc": "Blast"
+        },
+        {
+          "Proc": "Knockdown"
+        },
+        {
+          "Proc": "Ragdoll"
+        },
+        {
+          "Proc": "Stagger"
+        },
+        {
+          "Proc": "Finisher"
+        },
+        {
+          "Proc": "Impair"
+        },
+        {
+          "Proc": "ImpPun"
+        },
+        {
+          "Proc": "ImpSla"
+        },
+        {
+          "Proc": "PunSla"
+        },
+        {
+          "Proc": "ImpLif"
+        },
+        {
+          "Proc": "KnoLif"
+        },
+        {
+          "Proc": "KnoRag"
+        },
+        {
+          "Proc": "LifRag"
+        }
+      ]
+    },
+    "Neutral": {
+      "Name": "Neutral Combo",
+      "Attacks": [
+        {
+          "Proc": "None",
+          "Type": "Default",
+          "Multiplier": 1,
+          "NumberOfHits": 1
+        },
+        {
+          "Proc": [
+            "Slash",
+            "Puncture"
+          ],
+          "Type": "360",
+          "Multiplier": [
+            1,
+            2
+          ],
+          "NumberOfHits": [
+            5,
+            10
+          ]
+        },
+        {
+          "Proc": [
+            "Impact"
+          ],
+          "Type": "Slam",
+          "Multiplier": [
+            2
+          ],
+          "NumberOfHits": [
+            3
+          ]
+        }
+      ]
+    },
+    "Ground": {
+      "Name": "Ground Combo",
+      "Attacks": [
+        {
+          "Proc": "ImpSla",
+          "Type": "Default",
+          "Multiplier": 3,
+          "NumberOfHits": 1
+        }
+      ]
+    },
+    "Wall": {
+      "Name": "Wall Combo",
+      "Attacks": [
+        {
+          "NumberOfHits": [
+            2,
+            1,
+            1
+          ],
+          "Multiplier": [
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "NumberOfHits": [
+            5,
+            2,
+            3
+          ],
+          "Multiplier": [
+            2,
+            5,
+            1
+          ],
+          "Proc": [
+            "None",
+            "Slash",
+            "None"
+          ]
+        }
+      ]
+    },
+    "Slide": {
+      "Name": "Slide Combo",
+      "Attacks": [
+        {
+          "Type": "360",
+          "Multiplier": 3,
+          "NumberOfHits": 1
+        }
+      ]
+    },
+    "WeaponType": "Test",
+    "Heavy": {
+      "Name": "Heavy Combo",
+      "Attacks": [
+        {},
+        {
+          "Proc": "Slash"
+        },
+        {
+          "Type": "Slam"
+        },
+        {
+          "Type": "360"
+        }
+      ]
+    }
+  },
+  "Wise Razor": {
+    "Air": {
+      "Name": "Cunning Monkey",
+      "Attacks": [
+        {
+          "Proc": "Impact",
+          "Type": "Default",
+          "Multiplier": 2,
+          "NumberOfHits": 1
+        },
+        {
+          "Proc": "Impact",
+          "Type": "Default",
+          "Multiplier": 2,
+          "NumberOfHits": 1
+        },
+        {
+          "Proc": "Impact",
+          "Type": "Default",
+          "Multiplier": 2,
+          "NumberOfHits": 1
+        }
+      ]
+    },
+    "ForwardBlock": {
+      "Name": "Calling Thunder",
+      "Attacks": [
+        {
+          "Proc": [
+            "None",
+            "Knockdown",
+            "SlaLif"
+          ],
+          "Type": "Slam",
+          "Multiplier": [
+            2,
+            2,
+            3
+          ],
+          "NumberOfHits": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "Type": "Default",
+          "Multiplier": 3,
+          "NumberOfHits": 1
+        },
+        {
+          "Proc": "Knockdown",
+          "Type": "Default",
+          "Multiplier": 4,
+          "NumberOfHits": 1
+        }
+      ]
+    },
+    "Slide": {
+      "Name": "Deceitful Serpent",
+      "Attacks": [
+        {
+          "Proc": "Impact",
+          "Type": "360",
+          "Multiplier": 2,
+          "NumberOfHits": 1
+        }
+      ]
+    },
+    "Heavy": {
+      "Name": "Lover's Farewell",
+      "Attacks": [
+        {
+          "Proc": "SlaLif",
+          "Type": "Default",
+          "Multiplier": 6,
+          "NumberOfHits": 1
+        },
+        {
+          "Proc": [
+            "ImpSla",
+            "SlaKno"
+          ],
+          "Type": "360",
+          "Multiplier": [
+            3,
+            3
+          ],
+          "NumberOfHits": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "Basic": {
+      "Name": "Cutting Thrice",
+      "Attacks": [
+        {
+          "NumberOfHits": [
+            1,
+            1,
+            1
+          ],
+          "Multiplier": [
+            3,
+            3,
+            4
+          ],
+          "Proc": [
+            "None",
+            "Slash",
+            "Impact"
+          ]
+        },
+        {
+          "Multiplier": 3,
+          "Proc": "Impact"
+        },
+        {
+          "Multiplier": 3
+        },
+        {
+          "Multiplier": 5,
+          "Proc": "Knockdown"
+        }
+      ]
+    },
+    "Wall": {
+      "Name": "Strident Gazelle",
+      "Attacks": [
+        {
+          "Proc": "Impact",
+          "Type": "Default",
+          "Multiplier": 2,
+          "NumberOfHits": 1
+        }
+      ]
+    },
+    "Forward": {
+      "Name": "Threshing Grain",
+      "Attacks": [
+        {
+          "Type": "Default",
+          "Multiplier": 2,
+          "NumberOfHits": 1
+        },
+        {
+          "Type": "Default",
+          "Multiplier": 2,
+          "NumberOfHits": 1
+        },
+        {
+          "Proc": "Impact",
+          "Type": "Default",
+          "Multiplier": 4,
+          "NumberOfHits": 1
+        }
+      ]
+    },
+    "WeaponType": "Two-Handed Nikana",
+    "Ground": {
+      "Name": "Terrapin's Rebuke",
+      "Attacks": [
+        {
+          "Proc": "Slash",
+          "Type": "Default",
+          "Multiplier": 12,
+          "NumberOfHits": 1
+        }
+      ]
+    }
+  },
+  "Stinging Thorn": {
+    "Air": {
+      "Name": "Scorpion Fall",
+      "Attacks": [
+        {
+          "Multiplier": 2,
+          "Proc": "Impact"
+        },
+        {
+          "Proc": "Slash"
+        }
+      ]
+    },
+    "ForwardBlock": {
+      "Name": "Lacerating Spine",
+      "Attacks": [
+        {
+          "Multiplier": 2
+        },
+        {
+          "NumberOfHits": [
+            2,
+            1
+          ],
+          "Multiplier": [
+            2,
+            2
+          ],
+          "Proc": [
+            "None",
+            "Slash"
+          ]
+        },
+        {
+          "Type": "Slam",
+          "Multiplier": 3,
+          "Proc": "Knockdown"
+        }
+      ]
+    },
+    "Slide": {
+      "Name": "Splitting Brush",
+      "Attacks": [
+        {
+          "Type": "360",
+          "Multiplier": 2,
+          "Proc": "Impact"
+        }
+      ]
+    },
+    "Heavy": {
+      "Name": "Butterfly Slash",
+      "Attacks": [
+        {
+          "Multiplier": [
+            2.5,
+            2.5
+          ],
+          "Proc": [
+            "ImpSla",
+            "Finisher"
+          ]
+        },
+        {
+          "Multiplier": [
+            2.5,
+            2.5
+          ],
+          "Proc": [
+            "ImpSla",
+            "Knockdown"
+          ]
+        }
+      ]
+    },
+    "Ground": {
+      "Name": "Relentless Point",
+      "Attacks": [
+        {
+          "NumberOfHits": 2,
+          "Multiplier": 1.25,
+          "Proc": "Slash"
+        }
+      ]
+    },
+    "Basic": {
+      "Name": "Carving Spike",
+      "Attacks": [
+        {
+          "Multiplier": [
+            3,
+            1
+          ],
+          "Proc": [
+            "None",
+            "Impact"
+          ]
+        },
+        {
+          "Multiplier": [
+            1,
+            2,
+            2
+          ],
+          "Proc": [
+            "Slash",
+            "Slash",
+            "None"
+          ]
+        },
+        {
+          "Multiplier": [
+            3,
+            2
+          ],
+          "Proc": [
+            "None",
+            "Impact"
+          ]
+        },
+        {
+          "Multiplier": [
+            2,
+            2
+          ],
+          "Proc": [
+            "Impact",
+            "Slash"
+          ]
+        },
+        {
+          "Multiplier": 4,
+          "Proc": "SlaKno"
+        }
+      ]
+    },
+    "Wall": {
+      "Name": "Fanning Sting",
+      "Attacks": [
+        {
+          "Multiplier": 3,
+          "Proc": "Impact"
+        }
+      ]
+    },
+    "Block": {
+      "Name": "Impaling Quill",
+      "Attacks": [
+        {
+          "Multiplier": [
+            1,
+            2,
+            3
+          ],
+          "Proc": [
+            "None",
+            "Lifted",
+            "Impact"
+          ]
+        },
+        {
+          "Multiplier": 2,
+          "Proc": "Slash"
+        },
+        {
+          "Multiplier": 4,
+          "Proc": "Ragdoll"
+        }
+      ]
+    },
+    "WeaponType": "Dagger",
+    "Forward": {
+      "Name": "Piercing Horn",
+      "Attacks": [
+        {
+          "Multiplier": [
+            1,
+            2
+          ]
+        },
+        {
+          "Multiplier": 2,
+          "Proc": "Impact"
+        },
+        {
+          "Multiplier": [
+            1,
+            2
+          ],
+          "Proc": [
+            "None",
+            "Impact"
+          ]
+        }
+      ]
+    }
+  },
+  "Cyclone Kraken": {
+    "Air": {
+      "Name": "Weightless Steel",
+      "Attacks": [
+        {
+          "Proc": "None",
+          "Type": "Default",
+          "Multiplier": 2,
+          "NumberOfHits": 1
+        },
+        {
+          "Proc": "None",
+          "Type": "Default",
+          "Multiplier": 2,
+          "NumberOfHits": 1
+        },
+        {
+          "Proc": "Knockdown",
+          "Type": "Default",
+          "Multiplier": 3,
+          "NumberOfHits": 1
+        }
+      ]
+    },
+    "ForwardBlock": {
+      "Name": "Lightning Siren",
+      "Attacks": [
+        {
+          "Proc": "Impact",
+          "Type": "Default",
+          "Multiplier": 2,
+          "NumberOfHits": 2
+        },
+        {
+          "Proc": [
+            "Impact",
+            "Slash",
+            "Knockdown"
+          ],
+          "Type": "Default",
+          "Multiplier": [
+            1,
+            2,
+            4
+          ],
+          "NumberOfHits": [
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "ConclaveOnly": false,
+    "Slide": {
+      "Name": "Flowing River",
+      "Attacks": [
+        {
+          "Proc": "Impact",
+          "Type": "360",
+          "Multiplier": 2,
+          "NumberOfHits": 1
+        }
+      ]
+    },
+    "Heavy": {
+      "Name": "Rolling Wave",
+      "Attacks": [
+        {
+          "Proc": [
+            "None",
+            "Slash",
+            "None",
+            "Impact"
+          ],
+          "Type": "360",
+          "Multiplier": [
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ],
+          "NumberOfHits": [
+            2,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "Proc": "Knockdown",
+          "Type": "Default",
+          "Multiplier": 5,
+          "NumberOfHits": 1
+        }
+      ]
+    },
+    "Ground": {
+      "Name": "Crashing Wave",
+      "Attacks": [
+        {
+          "Proc": "Slash",
+          "Type": "Default",
+          "Multiplier": 2.5,
+          "NumberOfHits": 1
+        }
+      ]
+    },
+    "Basic": {
+      "Name": "Gale Triton",
+      "Attacks": [
+        {
+          "Proc": "Impact",
+          "Type": "Default",
+          "Multiplier": 3,
+          "NumberOfHits": 1
+        },
+        {
+          "Proc": [
+            "Impact",
+            "None"
+          ],
+          "Type": "Default",
+          "Multiplier": [
+            2,
+            1
+          ],
+          "NumberOfHits": [
+            1,
+            1
+          ]
+        },
+        {
+          "Proc": [
+            "None",
+            "None",
+            "None"
+          ],
+          "Type": "360",
+          "Multiplier": [
+            1,
+            2,
+            4
+          ],
+          "NumberOfHits": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "Proc": "Knockdown",
+          "Type": "360",
+          "Multiplier": 4,
+          "NumberOfHits": 1
+        }
+      ]
+    },
+    "Wall": {
+      "Name": "Weightless Steel",
+      "Attacks": [
+        {
+          "Proc": "Knockdown",
+          "Type": "Default",
+          "Multiplier": 3,
+          "NumberOfHits": 1
+        }
+      ]
+    },
+    "Forward": {
+      "Name": "Leviathan Rain",
+      "Attacks": [
+        {
+          "Proc": "None",
+          "Type": "Default",
+          "Multiplier": 1,
+          "NumberOfHits": 2
+        },
+        {
+          "Proc": "Impact",
+          "Type": "360",
+          "Multiplier": 1,
+          "NumberOfHits": 3
+        }
+      ]
+    },
+    "WeaponType": "Machete",
+    "Block": {
+      "Name": "Thunder Hydra",
+      "Attacks": [
+        {
+          "Proc": [
+            "Lifted",
+            "Impact"
+          ],
+          "Type": "Default",
+          "Multiplier": [
+            1,
+            3
+          ],
+          "NumberOfHits": [
+            1,
+            1
+          ]
+        },
+        {
+          "Proc": "None",
+          "Type": "360",
+          "Multiplier": 3,
+          "NumberOfHits": 1
+        },
+        {
+          "Proc": "Ragdoll",
+          "Type": "Default",
+          "Multiplier": 4,
+          "NumberOfHits": 1
+        }
+      ]
+    }
+  },
+  "High Noon": {
+    "Air": {
+      "Name": "Outlaw Rush",
+      "Attacks": [
+        {
+          "Multiplier": [
+            2
+          ]
+        },
+        {
+          "Multiplier": [
+            2
+          ]
+        },
+        {
+          "Multiplier": [
+            2
+          ]
+        }
+      ]
+    },
+    "ForwardBlock": {
+      "Name": "Desperado Zeal",
+      "Attacks": [
+        {},
+        {
+          "NumberOfHits": 2
+        }
+      ]
+    },
+    "Slide": {
+      "Name": "Fast Draw",
+      "Attacks": [
+        {
+          "Type": "360",
+          "Multiplier": [
+            2
+          ],
+          "Proc": [
+            "Impact"
+          ]
+        }
+      ]
+    },
+    "Heavy": {
+      "Name": "Spinning Uppercut",
+      "Attacks": [
+        {
+          "Multiplier": [
+            6
+          ],
+          "Proc": [
+            "Impact"
+          ]
+        },
+        {
+          "Multiplier": [
+            6
+          ],
+          "Proc": [
+            "Impact"
+          ]
+        }
+      ]
+    },
+    "Ground": {
+      "Name": "Last Words",
+      "Attacks": [
+        {
+          "Multiplier": [
+            10
+          ],
+          "Proc": [
+            "Blast"
+          ]
+        }
+      ]
+    },
+    "Basic": {
+      "Name": "Final Showdown",
+      "Attacks": [
+        {
+          "NumberOfHits": 2
+        },
+        {
+          "NumberOfHits": 2,
+          "Multiplier": 2.5,
+          "Proc": "Impact"
+        },
+        {
+          "Multiplier": 2.5
+        },
+        {
+          "Multiplier": 3,
+          "Proc": "Lifted"
+        }
+      ]
+    },
+    "Wall": {
+      "Name": "Vendetta",
+      "Attacks": [
+        {
+          "Multiplier": [
+            3
+          ],
+          "Proc": [
+            "Knockdown"
+          ]
+        }
+      ]
+    },
+    "Block": {
+      "Name": "Tomahawk Double-Tap",
+      "Attacks": [
+        {
+          "Multiplier": 3,
+          "Type": "Slam"
+        },
+        {
+          "Multiplier": 4,
+          "NumberOfHits": 2
+        },
+        {
+          "Multiplier": 4
+        }
+      ]
+    },
+    "WeaponType": "Gunblade",
+    "Forward": {
+      "Name": "Vagabond Blitz",
+      "Attacks": [
+        {},
+        {
+          "Multiplier": 2,
+          "NumberOfHits": 2
+        },
+        {
+          "NumberOfHits": 2
+        }
+      ]
+    }
+  },
+  "Vengeful Revenant": {
+    "Air": {
+      "Name": "Weightless Steel",
+      "Attacks": [
+        {
+          "Multiplier": 2
+        },
+        {
+          "Multiplier": 2
+        },
+        {
+          "Multiplier": 3,
+          "Proc": "Knockdown"
+        }
+      ]
+    },
+    "ForwardBlock": {
+      "Name": "Drowning Despair",
+      "Attacks": [
+        {
+          "Type": "360",
+          "Multiplier": [
+            1,
+            3
+          ],
+          "Proc": [
+            "Impact",
+            "None"
+          ]
+        },
+        {
+          "NumberOfHits": [
+            2,
+            1
+          ],
+          "Multiplier": [
+            0.5,
+            3
+          ],
+          "Proc": [
+            "Impact",
+            "None"
+          ]
+        },
+        {
+          "Multiplier": 3,
+          "Proc": "Knockdown"
+        }
+      ]
+    },
+    "Slide": {
+      "Name": "Spiral Cut",
+      "Attacks": [
+        {
+          "Proc": "Impact",
+          "Type": "360"
+        }
+      ]
+    },
+    "Heavy": {
+      "Name": "Perfect Cut",
+      "Attacks": [
+        {
+          "Multiplier": 5,
+          "Proc": "Lifted"
+        },
+        {
+          "Multiplier": 5,
+          "Proc": "Knockdown"
+        }
+      ]
+    },
+    "Ground": {
+      "Name": "Death's Mark",
+      "Attacks": [
+        {
+          "Multiplier": 2.5,
+          "Proc": "Slash"
+        }
+      ]
+    },
+    "Basic": {
+      "Name": "Impending Dread",
+      "Attacks": [
+        {
+          "Multiplier": 3
+        },
+        {
+          "Multiplier": 2
+        },
+        {
+          "Multiplier": 3
+        },
+        {
+          "Multiplier": 3,
+          "Proc": "Impact"
+        },
+        {
+          "Multiplier": 3,
+          "Proc": "Knockdown"
+        }
+      ]
+    },
+    "Wall": {
+      "Name": "Weightless Steel",
+      "Attacks": [
+        {
+          "Multiplier": 3,
+          "Proc": "Knockdown"
+        }
+      ]
+    },
+    "Block": {
+      "Name": "Rising Hate",
+      "Attacks": [
+        {
+          "Multiplier": [
+            4,
+            1
+          ],
+          "NumberOfHits": [
+            1,
+            1
+          ]
+        },
+        {
+          "Multiplier": 2,
+          "Proc": "SlaLif"
+        },
+        {
+          "Multiplier": 3,
+          "Type": "Slam"
+        }
+      ]
+    },
+    "WeaponType": "Sword",
+    "Forward": {
+      "Name": "Lone Vengeance",
+      "Attacks": [
+        {},
+        {
+          "Multiplier": 2
+        },
+        {
+          "Proc": "Slash"
+        },
+        {
+          "Multiplier": 2,
+          "Proc": "Impact"
+        }
+      ]
+    }
+  },
+  "Different Table Length": {
+    "Air": {
+      "Name": "Air Combo",
+      "Attacks": [
+        {
+          "Proc": "Impact"
+        },
+        {
+          "Proc": "Puncture"
+        },
+        {
+          "Proc": "Slash"
+        },
+        {
+          "Proc": "Lifted"
+        },
+        {
+          "Proc": "Blast"
+        },
+        {
+          "Proc": "Knockdown"
+        },
+        {
+          "Proc": "Ragdoll"
+        },
+        {
+          "Proc": "Stagger"
+        },
+        {
+          "Proc": "Finisher"
+        },
+        {
+          "Proc": "Impair"
+        },
+        {
+          "Proc": "ImpPun"
+        },
+        {
+          "Proc": "ImpSla"
+        },
+        {
+          "Proc": "PunSla"
+        },
+        {
+          "Proc": "ImpLif"
+        },
+        {
+          "Proc": "KnoLif"
+        },
+        {
+          "Proc": "KnoRag"
+        },
+        {
+          "Proc": "LifRag"
+        }
+      ]
+    },
+    "Ground": {
+      "Name": "Ground Combo",
+      "Attacks": [
+        {
+          "Proc": "ImpSla",
+          "Type": "Default",
+          "Multiplier": 3,
+          "NumberOfHits": 1
+        }
+      ]
+    },
+    "Basic": {
+      "Name": "Neutral Combo",
+      "Attacks": [
+        {
+          "NumberOfHits": [
+            2,
+            1
+          ],
+          "Multiplier": [
+            1,
+            2,
+            3
+          ],
+          "Proc": [
+            "None",
+            "Slash"
+          ]
+        }
+      ]
+    },
+    "Wall": {
+      "Name": "Wall Combo",
+      "Attacks": [
+        {
+          "NumberOfHits": [
+            2,
+            1,
+            1
+          ],
+          "Multiplier": [
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "NumberOfHits": [
+            5,
+            2,
+            3
+          ],
+          "Multiplier": [
+            2,
+            5,
+            1
+          ],
+          "Proc": [
+            "None",
+            "Slash",
+            "None"
+          ]
+        }
+      ]
+    },
+    "Slide": {
+      "Name": "Slide Combo",
+      "Attacks": [
+        {
+          "Type": "360",
+          "Multiplier": 3,
+          "NumberOfHits": 1
+        }
+      ]
+    },
+    "WeaponType": "Test",
+    "Heavy": {
+      "Name": "Heavy Combo",
+      "Attacks": [
+        {},
+        {
+          "Proc": "Slash"
+        },
+        {
+          "Type": "Slam"
+        },
+        {
+          "Type": "360"
+        }
+      ]
+    }
+  },
+  "Test": {
+    "Air": {
+      "Name": "Air Combo",
+      "Attacks": [
+        {
+          "Proc": "Impact"
+        },
+        {
+          "Proc": "Puncture"
+        },
+        {
+          "Proc": "Slash"
+        },
+        {
+          "Proc": "Lifted"
+        },
+        {
+          "Proc": "Blast"
+        },
+        {
+          "Proc": "Knockdown"
+        },
+        {
+          "Proc": "Ragdoll"
+        },
+        {
+          "Proc": "Stagger"
+        },
+        {
+          "Proc": "Finisher"
+        },
+        {
+          "Proc": "Impair"
+        },
+        {
+          "Proc": "ImpPun"
+        },
+        {
+          "Proc": "ImpSla"
+        },
+        {
+          "Proc": "PunSla"
+        },
+        {
+          "Proc": "ImpLif"
+        },
+        {
+          "Proc": "KnoLif"
+        },
+        {
+          "Proc": "KnoRag"
+        },
+        {
+          "Proc": "LifRag"
+        }
+      ]
+    },
+    "ForwardBlock": {
+      "Name": "Forward Block Combo",
+      "Attacks": [
+        {
+          "Proc": [
+            "Impact",
+            "ImpSla",
+            "Knockdown",
+            "Slash"
+          ],
+          "Type": "Default",
+          "Multiplier": [
+            1,
+            1,
+            5,
+            4
+          ],
+          "NumberOfHits": [
+            2,
+            4,
+            5,
+            1
+          ]
+        },
+        {
+          "Type": "Default",
+          "Proc": [
+            "Lifted",
+            "KnoSta",
+            "Slash",
+            "None"
+          ],
+          "NumberOfHits": [
+            2,
+            5,
+            2,
+            3
+          ]
+        },
+        {
+          "Type": "Default",
+          "Multiplier": [
+            2,
+            3,
+            1,
+            4
+          ],
+          "Proc": [
+            "Ragdoll",
+            "Knockdown",
+            "None",
+            "Slash"
+          ]
+        }
+      ]
+    },
+    "ConclaveOnly": false,
+    "Slide": {
+      "Name": "Slide Combo",
+      "Attacks": [
+        {
+          "Type": "360",
+          "Multiplier": 3,
+          "NumberOfHits": 1
+        }
+      ]
+    },
+    "Heavy": {
+      "Name": "Heavy Combo",
+      "Attacks": [
+        {},
+        {
+          "Proc": "Slash"
+        },
+        {
+          "Type": "Slam"
+        },
+        {
+          "Type": "360"
+        }
+      ]
+    },
+    "Ground": {
+      "Name": "Ground Combo",
+      "Attacks": [
+        {
+          "Proc": "ImpSla",
+          "Type": "Default",
+          "Multiplier": 3,
+          "NumberOfHits": 1
+        }
+      ]
+    },
+    "Basic": {
+      "Name": "Neutral Combo",
+      "Attacks": [
+        {
+          "Proc": "None",
+          "Type": "Default",
+          "Multiplier": 1,
+          "NumberOfHits": 1
+        },
+        {
+          "Proc": [
+            "Slash",
+            "Puncture"
+          ],
+          "Type": "360",
+          "Multiplier": [
+            1,
+            2
+          ],
+          "NumberOfHits": [
+            5,
+            10
+          ]
+        },
+        {
+          "Proc": [
+            "Impact"
+          ],
+          "Type": "Slam",
+          "Multiplier": [
+            2
+          ],
+          "NumberOfHits": [
+            3
+          ]
+        }
+      ]
+    },
+    "Wall": {
+      "Name": "Wall Combo",
+      "Attacks": [
+        {
+          "NumberOfHits": [
+            2,
+            1,
+            1
+          ],
+          "Multiplier": [
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "NumberOfHits": [
+            5,
+            2,
+            3
+          ],
+          "Multiplier": [
+            2,
+            5,
+            1
+          ],
+          "Proc": [
+            "None",
+            "Slash",
+            "None"
+          ]
+        }
+      ]
+    },
+    "Forward": {
+      "Name": "Forward Combo",
+      "Attacks": [
+        {
+          "Type": "Default",
+          "Multiplier": 1,
+          "NumberOfHits": 1
+        },
+        {},
+        {}
+      ]
+    },
+    "WeaponType": "Test",
+    "Block": {
+      "Name": "Block Combo",
+      "Attacks": [
+        {
+          "Type": "Default",
+          "Multiplier": 3,
+          "NumberOfHits": 1
+        },
+        {
+          "Proc": "Slash",
+          "Type": "Default",
+          "Multiplier": 3,
+          "NumberOfHits": 1
+        },
+        {
+          "Type": "Default",
+          "NumberOfHits": 3
+        }
+      ]
+    }
+  },
+  "Defiled Snapdragon": {
+    "Air": {
+      "Name": "Weightless Steel",
+      "Attacks": [
+        {
+          "Multiplier": 2
+        },
+        {
+          "Multiplier": 2
+        },
+        {
+          "Multiplier": 3,
+          "Proc": "Knockdown"
+        }
+      ]
+    },
+    "ForwardBlock": {
+      "Name": "Heart of the Naga",
+      "Attacks": [
+        {
+          "Multiplier": 3,
+          "Proc": "Impact"
+        },
+        {
+          "NumberOfHits": [
+            3,
+            1
+          ],
+          "Multiplier": [
+            1,
+            2
+          ],
+          "Proc": [
+            "None",
+            "ImpSla"
+          ]
+        },
+        {
+          "Type": "360",
+          "Multiplier": [
+            1,
+            2
+          ],
+          "Proc": [
+            "Impact",
+            "SlaKno"
+          ]
+        }
+      ]
+    },
+    "Slide": {
+      "Name": "Spiral Cut",
+      "Attacks": [
+        {
+          "Proc": "Impact",
+          "Type": "360"
+        }
+      ]
+    },
+    "Heavy": {
+      "Name": "Rolling Thunder",
+      "Attacks": [
+        {
+          "Multiplier": 4,
+          "Proc": "Ragdoll"
+        },
+        {
+          "Multiplier": [
+            4,
+            4,
+            4
+          ],
+          "Proc": [
+            "Lifted",
+            "Ragdoll",
+            "None"
+          ]
+        }
+      ]
+    },
+    "Ground": {
+      "Name": "Death's Mark",
+      "Attacks": [
+        {
+          "Multiplier": 2.5,
+          "Proc": "Slash"
+        }
+      ]
+    },
+    "Basic": {
+      "Name": "Claws of the Drake",
+      "Attacks": [
+        {
+          "Multiplier": 3,
+          "Proc": "Lifted"
+        },
+        {
+          "Multiplier": 3
+        },
+        {
+          "Multiplier": [
+            1,
+            2
+          ],
+          "Proc": [
+            "None",
+            "ImpSla"
+          ]
+        },
+        {
+          "Multiplier": [
+            2,
+            1,
+            1,
+            2
+          ],
+          "Proc": [
+            "Impact",
+            "None",
+            "Slash",
+            "None"
+          ]
+        },
+        {
+          "NumberOfHits": 2,
+          "Multiplier": 4,
+          "Proc": "Knockdown"
+        }
+      ]
+    },
+    "Wall": {
+      "Name": "Weightless Steel",
+      "Attacks": [
+        {
+          "Multiplier": 3,
+          "Proc": "Knockdown"
+        }
+      ]
+    },
+    "Block": {
+      "Name": "Fangs of the Lindwurm",
+      "Attacks": [
+        {
+          "Multiplier": 5,
+          "Proc": "Ragdoll"
+        }
+      ]
+    },
+    "WeaponType": "Blade and Whip",
+    "Forward": {
+      "Name": "Soul of the Leviathan",
+      "Attacks": [
+        {
+          "NumberOfHits": 4
+        },
+        {
+          "NumberOfHits": 5,
+          "Type": "360"
+        },
+        {
+          "Multiplier": [
+            1,
+            2
+          ],
+          "Proc": [
+            "None",
+            "Impact"
+          ]
+        },
+        {
+          "Multiplier": [
+            2,
+            1
+          ],
+          "NumberOfHits": [
+            2,
+            2
+          ]
+        },
+        {
+          "Multiplier": 2,
+          "Proc": "Impact"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Enum/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:36:49.442Z"
+  },
+  "_comments": "\t-- Linking game model bones to appropriate locations \n\t-- Used in Modular system\n\t-- For modular Kitguns\n\t-- For mod base drain and max rank\n\t-- Stance combos\n\t-- Likely for weapon rigging\n\t-- See https://wiki.warframe.com/w/Public_Export\n\t-- Extrapolated from https://wiki.warframe.com/w/Public_Export#ExportRegions_Nodes_Schema\n\t-- and https://wiki.warframe.com/w/World_State#Mission_Type\n\t\t-- Unknown\n\t\t-- Pursuit\n\t\t-- Don't know where these go\n\t-- Calculating upgrade bonuses\n\t-- For modular weapon system\n\t-- Avatar animation state\n\t-- Player trading flags",
+  "InventorySlot": {
+    "SLOT_7": 6,
+    "SLOT_9": 8,
+    "SLOT_3": 2,
+    "SLOT_13": 12,
+    "SLOT_12": 11,
+    "SLOT_11": 10,
+    "SLOT_5": 4,
+    "SLOT_10": 9,
+    "SLOT_6": 5,
+    "SLOT_1": 0,
+    "SLOT_8": 7,
+    "SLOT_14": 13,
+    "SLOT_2": 1,
+    "SLOT_4": 3
+  },
+  "NoiseLevel": {
+    "ALARMING": 0,
+    "SILENT": 1
+  },
+  "PartType": {
+    "LWPT_HILT": 1,
+    "LWPT_GUN_SECONDARY_HANDLE": 4,
+    "LWPT_BLADE": 0,
+    "LWPT_MOA_ENGINE": 8,
+    "LWPT_MOA_PAYLOAD": 7,
+    "LWPT_GUN_BARREL": 3,
+    "LWPT_GUN_PRIMARY_HANDLE": 10,
+    "LWPT_GUN_CLIP": 5,
+    "LWPT_MOA_HEAD": 6,
+    "LWPT_HILT_WEIGHT": 2,
+    "LWPT_MOA_LEG": 9
+  },
+  "GripType": {
+    "DUAL_GUN_GUN": 2,
+    "MELEE_ONE_HAND": 0,
+    "BOW": 3,
+    "ARM_GUN_ONE_HAND": 3,
+    "GUN_ONE_HAND": 1,
+    "SPEAR": 4
+  },
+  "Shooting": {
+    "ST_EXPONENTIAL": 0
+  },
+  "TransferenceSupport": {
+    "TS_OPERATOR_ONLY": 0
+  },
+  "ArtifactPolarity": {
+    "AP_UMBRA": 8,
+    "AP_POWER": 4,
+    "AP_DEFENSE": 2,
+    "AP_TACTIC": 3,
+    "AP_FUSION": 6,
+    "AP_ANY": 9,
+    "AP_ATTACK": 1,
+    "AP_UNIVERSAL": 0,
+    "AP_PRECEPT": 5,
+    "AP_WARD": 7
+  },
+  "GunType": {
+    "GT_SHOTGUN": 1,
+    "GT_RIFLE": 0,
+    "GT_BEAM": 2
+  },
+  "AttachBone": {
+    "GAME_R1_WEAPON1": 0,
+    "GAME_C1_SPINE1": 5,
+    "GAME_WEAPON_WEIGHT1": 2,
+    "GAME_WEAPON_BLADE1": 1,
+    "GAME_C1_CLIP": 4,
+    "GAME_C1_BARREL": 3
+  },
+  "MeleeStyle": {
+    "MS_WARFAN": 16,
+    "MS_GLAIVE": 8,
+    "MS_GUN_BLADE": 14,
+    "MS_SWORD_SHIELD": 11,
+    "MS_KATANA": 10,
+    "MS_FIST": 7,
+    "MS_BO_STAFF": 2,
+    "MS_HEAVY_SCYTHE": 18,
+    "MS_NUNCHAKU": 13,
+    "MS_SAW_HEAVY": 17,
+    "MS_DAGGER": 3,
+    "MS_KATANA_LONG": 15,
+    "MS_SWORD": 0,
+    "MS_HEAVY_AXE": 6,
+    "MS_RAPIER": 9,
+    "MS_TONFA": 12,
+    "MS_HEAVY_SWORD": 5,
+    "MS_AKIMBO_DAGGER": 4,
+    "MS_AKIMBO_SHORT_SWORD": 1
+  },
+  "TradeCapability": {
+    "RO_ALWAYS": 1,
+    "RO_NEVER": 0
+  },
+  "DamageType": {
+    "DT_HEALTH_DRAIN": 17,
+    "DT_SLASH": 2,
+    "DT_FIRE": 3,
+    "DT_POISON": 6,
+    "DT_PUNCTURE": 1,
+    "DT_CORROSIVE": 12,
+    "DT_EXPLOSION": 7,
+    "DT_ELECTRICITY": 5,
+    "DT_FREEZE": 4,
+    "DT_SENTIENT": 14,
+    "DT_SUICIDE": 20,
+    "DT_ENERGY_DRAIN": 18,
+    "DT_SHIELD_DRAIN": 16,
+    "DT_BASE_ELEMENTAL": 22,
+    "DT_ANY": 24,
+    "DT_RADIATION": 8,
+    "DT_CINEMATIC": 15,
+    "DT_INVALID": 25,
+    "DT_FINISHER": 19,
+    "DT_COMPOUND_ELEMENTAL": 23,
+    "DT_IMPACT": 0,
+    "DT_MAGNETIC": 10,
+    "DT_VIRAL": 11,
+    "DT_PHYSICAL": 21,
+    "DT_GAS": 9,
+    "DT_RADIANT": 13
+  },
+  "OperationType": {
+    "MULTIPLY": 2,
+    "ADD": 0,
+    "SET": 3,
+    "STACKING_MULTIPLY": 1
+  },
+  "Posture": {
+    "PM_AIRBORNE": 3,
+    "PM_BULLETJUMP": 4,
+    "PM_AIM": 1,
+    "CROUCH": 6,
+    "PM_IN_AIR": 2,
+    "SLIDE": 5
+  },
+  "ComboContext": {
+    "CC_AIR": 0,
+    "CC_GROUND_BRANCH_C": 6,
+    "CC_DOWNED_ENEMY": 2,
+    "CC_AIR_RIGHT": 1,
+    "CC_GROUND_BRANCH_A": 4,
+    "CC_WALLRUN": 10,
+    "CC_SLIDING_PVP": 9,
+    "CC_SLIDING": 8,
+    "CC_GROUND": 3,
+    "CC_GROUND_HEAVY": 7,
+    "CC_GROUND_BRANCH_B": 5
+  },
+  "BaseDrain": {
+    "QA_MEDIUM": 1,
+    "QA_VERY_HIGH": 3,
+    "QA_LOW": 0,
+    "QA_HIGH": 2
+  },
+  "StackMode": {
+    "SM_DECAY": 0
+  },
+  "MissionType": {
+    "MT_ARENA": 22,
+    "MT_INTEL": 7,
+    "MT_SABOTAGE": 4,
+    "MT_RESCUE": 3,
+    "MT_CAPTURE": 5,
+    "MT_EXCAVATE": 17,
+    "MT_GENERIC": 1000,
+    "MT_ARTIFACT": 32,
+    "MT_SURVIVAL": 2,
+    "MT_ENDLESS_EXTERMINATION": 997,
+    "MT_SECTOR": 999,
+    "MT_PVP": 998,
+    "MT_EVACUATION": 27,
+    "MT_DEFAULT": 996,
+    "MT_ARMAGEDDON": 35,
+    "MT_VOID_CASCADE": 34,
+    "MT_ASSASSINATION": 0,
+    "MT_DEFENSE": 8,
+    "MT_LANDSCAPE": 28,
+    "MT_CORRUPTION": 33,
+    "MT_PURIFY": 21,
+    "MT_HIVE": 15,
+    "MT_ASSAULT": 26,
+    "MT_RACE": 25,
+    "MT_TERRITORY": 13,
+    "MT_EXTERMINATION": 1,
+    "MT_MOBILE_DEFENSE": 9,
+    "MT_RETRIEVAL": 14
+  },
+  "RoundingMode": {
+    "RM_CEILING": 1,
+    "RM_ROUND": 0
+  },
+  "BarrelType": {
+    "BT_AUTO_HITSCAN": 0,
+    "BT_SEMI_PROJECTILE": 1
+  },
+  "Rarity": {
+    "UNCOMMON": 1,
+    "COMMON": 0,
+    "LEGENDARY": 3,
+    "RARE": 2
+  },
+  "PVP": {
+    "UNIVERSAL": 3,
+    "INVALID": 0,
+    "PVP_ONLY": 2,
+    "PVE_ONLY": 1
+  },
+  "ArtifactSlot": {
+    "ARCANE": 4,
+    "NORMAL": 0,
+    "STANCE": 2,
+    "AURA": 1,
+    "EXILUS": 3
+  },
+  "Unknown": {
+    "MISMATCH": 3,
+    "INVALID": 0,
+    "MATCH": 2,
+    "NEUTRAL": 1
+  },
+  "MarketMode": {
+    "MM_VISIBLE": 2,
+    "MM_HIDDEN": 1,
+    "MM_NONE": 0
+  },
+  "HitType": {
+    "DHT_NONE": 0,
+    "DHT_RADIAL": 4,
+    "DHT_PROJECTILE": 2,
+    "DHT_TRACE": 5,
+    "DHT_MELEE": 1
+  }
+}

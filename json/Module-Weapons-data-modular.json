@@ -1,0 +1,2164 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Weapons/data/modular",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:46:45.328Z"
+  },
+  "_comments": "\t------------------------------------Amps----------------------------------------\n\t------------------------------------Kitguns-------------------------------------\n\t---------------------------------Zaws-------------------------------------------",
+  "Pencha Scaffold": {
+    "ReloadRate": 30,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Amp",
+    "MaxRank": 30,
+    "Image": "PenchaScaffold.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "22",
+    "Polarities": {},
+    "InternalName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Chassis/SentAmpSet1ChassisPartA",
+    "Traits": [
+      "Sentient"
+    ],
+    "Accuracy": 100,
+    "Trigger": "Charge",
+    "Magazine": 100,
+    "Slot": "Amp",
+    "Reload": 5.33,
+    "Attacks": [
+      {
+        "ChargeTime": 0.8,
+        "CritChance": 0.14,
+        "StatusChance": 0.18,
+        "FireRate": 2,
+        "MinSpread": 0,
+        "IsSilent": false,
+        "Range": 40,
+        "AmmoCost": 10,
+        "Multishot": 1,
+        "MaxSpread": 0,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 2,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Void": 9000
+        },
+        "CritMultiplier": 1.6
+      }
+    ],
+    "ReloadStyle": "Regenerate",
+    "Name": "Pencha Scaffold",
+    "ReloadDelay": 2,
+    "Mastery": 0,
+    "AmmoMax": 0,
+    "Link": "Pencha Scaffold",
+    "AmmoType": "Energy"
+  },
+  "Kronsh": {
+    "Slot": "Melee",
+    "SweepRadius": 0.25,
+    "Traits": [
+      "Zaw"
+    ],
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Zaw Machete / Polearm",
+    "MaxRank": 30,
+    "MeleeRange": 1,
+    "Attacks": [
+      {
+        "FireRate": 0.85,
+        "CritChance": 0.18,
+        "AttackIndex": 1,
+        "AttackName": "Kronsh Strike",
+        "IsSilent": true,
+        "StatusChance": 0.18,
+        "Damage": {
+          "Slash": 70.2,
+          "Impact": 163.8
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Image": "Kronsh.png",
+    "Name": "Kronsh",
+    "Introduced": "22",
+    "Family": "Kronsh",
+    "Link": "Kronsh",
+    "Disposition": 1.3,
+    "InternalName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipSix"
+  },
+  "Dissic Scaffold": {
+    "ReloadRate": 30,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 2,
+    "Class": "Amp",
+    "MaxRank": 30,
+    "Image": "DissicScaffold.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "24.2",
+    "Polarities": {},
+    "InternalName": "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Chassis/CorpAmpSet1ChassisPartB",
+    "Traits": [
+      "Sentient"
+    ],
+    "Accuracy": 100,
+    "Trigger": "Semi-Auto",
+    "Magazine": 100,
+    "Slot": "Amp",
+    "Reload": 5.33,
+    "Attacks": [
+      {
+        "CritChance": 0.03,
+        "StatusChance": 0.37,
+        "FireRate": 1,
+        "IsSilent": false,
+        "MinSpread": 0,
+        "AmmoCost": 50,
+        "Multishot": 1,
+        "MaxSpread": 0,
+        "AttackIndex": 1,
+        "AttackName": "Direct Hit",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Impact": 15
+        },
+        "CritMultiplier": 1.5
+      },
+      {
+        "CritChance": 0.03,
+        "StatusChance": 0.37,
+        "Falloff": {
+          "EndRange": 7,
+          "Reduction": 0.6,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 7,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Void": 6600
+        },
+        "CritMultiplier": 1.5
+      },
+      {
+        "CritChance": 0.1,
+        "Falloff": {
+          "EndRange": 3,
+          "Reduction": 1,
+          "StartRange": 0
+        },
+        "FireRate": 1,
+        "Multishot": 9,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Explosive Fragments",
+        "PunchThrough": 0,
+        "StatusChance": 0.37,
+        "Damage": {
+          "Void": 300
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "ReloadStyle": "Regenerate",
+    "Name": "Dissic Scaffold",
+    "ReloadDelay": 2,
+    "Mastery": 0,
+    "AmmoMax": 0,
+    "Link": "Dissic Scaffold",
+    "AmmoType": "Energy"
+  },
+  "Gaze (Primary)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "Image": "Gaze.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "28",
+    "InternalName": "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelDPart",
+    "Link": "Gaze",
+    "Slot": "Primary",
+    "Mastery": 0,
+    "Accuracy": 100,
+    "Trigger": "Held",
+    "ExilusPolarity": "Madurai",
+    "CompatibilityTags": [
+      "BEAM"
+    ],
+    "Reload": 0,
+    "AmmoPickup": 40,
+    "Magazine": 0,
+    "Name": "Gaze (Primary)",
+    "Attacks": [
+      {
+        "CritChance": 0,
+        "StatusChance": 0,
+        "FireRate": 0,
+        "MinSpread": 0,
+        "IsSilent": false,
+        "Range": 0,
+        "AmmoCost": 0.5,
+        "Multishot": 1,
+        "MaxSpread": 0,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Radiation": 0
+        },
+        "CritMultiplier": 0
+      },
+      {
+        "CritChance": 0,
+        "Falloff": {
+          "EndRange": 3,
+          "Reduction": 0,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 3,
+        "FireRate": 0,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Area of Effect",
+        "PunchThrough": 0,
+        "StatusChance": 0,
+        "Damage": {
+          "Radiation": 0
+        },
+        "CritMultiplier": 0
+      }
+    ],
+    "Family": "Gaze",
+    "AmmoMax": 200,
+    "Disposition": 1.1,
+    "AmmoType": "Primary"
+  },
+  "Gaze (Secondary)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Pistol",
+    "MaxRank": 30,
+    "Image": "Gaze.png",
+    "Introduced": "24",
+    "InternalName": "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelDPart",
+    "Link": "Gaze",
+    "Slot": "Secondary",
+    "Mastery": 0,
+    "Accuracy": 100,
+    "Trigger": "Held",
+    "ExilusPolarity": "Madurai",
+    "CompatibilityTags": [
+      "BEAM"
+    ],
+    "Reload": 0,
+    "AmmoPickup": 20,
+    "Magazine": 0,
+    "Name": "Gaze (Secondary)",
+    "Attacks": [
+      {
+        "CritChance": 0,
+        "StatusChance": 0,
+        "FireRate": 0,
+        "MinSpread": 0,
+        "IsSilent": false,
+        "Range": 0,
+        "AmmoCost": 0.5,
+        "Multishot": 1,
+        "MaxSpread": 0,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 1,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 0,
+          "Radiation": 0
+        },
+        "CritMultiplier": 0
+      }
+    ],
+    "Family": "Gaze",
+    "AmmoMax": 200,
+    "Disposition": 1,
+    "AmmoType": "Secondary"
+  },
+  "Shraksun Scaffold": {
+    "ReloadRate": 30,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Amp",
+    "MaxRank": 30,
+    "Image": "ShraksunScaffold.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "22",
+    "Polarities": {},
+    "InternalName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Chassis/SentAmpSet1ChassisPartB",
+    "Traits": [
+      "Sentient"
+    ],
+    "Accuracy": 9.1,
+    "Trigger": "Semi-Auto",
+    "Magazine": 100,
+    "Slot": "Amp",
+    "Reload": 5.33,
+    "Attacks": [
+      {
+        "CritChance": 0.2,
+        "Range": 9,
+        "FireRate": 1.33,
+        "Multishot": 1,
+        "AttackIndex": 1,
+        "AttackName": "Direct Hit",
+        "ShotType": "Projectile",
+        "CritMultiplier": 2,
+        "ForcedProc": [
+          "Impact"
+        ],
+        "AmmoCost": 10,
+        "ProjectileSpeed": 30,
+        "MaxSpread": 16,
+        "MinSpread": 6,
+        "PunchThrough": 0,
+        "StatusChance": 0.2,
+        "IsSilent": false,
+        "Damage": {
+          "Void": 3000
+        }
+      },
+      {
+        "CritChance": 0.2,
+        "ForcedProc": [
+          "Impact"
+        ],
+        "StatusChance": 0.3,
+        "Falloff": {
+          "EndRange": 5,
+          "Reduction": 0.4,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 5,
+        "FireRate": 1.33,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Void": 4500
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "ReloadStyle": "Regenerate",
+    "Name": "Shraksun Scaffold",
+    "ReloadDelay": 2,
+    "Mastery": 0,
+    "AmmoMax": 0,
+    "Link": "Shraksun Scaffold",
+    "AmmoType": "Energy"
+  },
+  "Sporelacer (Primary)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Shotgun",
+    "MaxRank": 30,
+    "Image": "Sporelacer.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "29.5",
+    "Polarities": {},
+    "InternalName": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelEgg/InfModularBarrelEggPart",
+    "Link": "Sporelacer",
+    "Traits": [
+      "Infested",
+      "Kitgun"
+    ],
+    "Slot": "Primary",
+    "Mastery": 0,
+    "Accuracy": 5.9,
+    "Trigger": "Auto",
+    "ExilusPolarity": "Madurai",
+    "CompatibilityTags": [
+      "MODULAR_GUN",
+      "SEMI_AUTO"
+    ],
+    "Reload": 0,
+    "AmmoPickup": 15,
+    "Magazine": 0,
+    "Name": "Sporelacer (Primary)",
+    "Attacks": [
+      {
+        "StatusChance": 0,
+        "CritChance": 0,
+        "FireRate": 0,
+        "ShotSpeed": 50,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 16,
+          "Reduction": 0,
+          "StartRange": 8
+        },
+        "MinSpread": 12,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 22,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Impact": 0
+        },
+        "CritMultiplier": 0
+      },
+      {
+        "CritChance": 0,
+        "StatusChance": 0,
+        "Falloff": {
+          "EndRange": 2.1,
+          "Reduction": 0.2,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 2.1,
+        "FireRate": 0,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Toxin": 0
+        },
+        "CritMultiplier": 0
+      }
+    ],
+    "Family": "Sporelacer",
+    "AmmoMax": 60,
+    "Disposition": 1.15,
+    "AmmoType": "Primary"
+  },
+  "Klebrik Scaffold": {
+    "ReloadRate": 30,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Amp",
+    "MaxRank": 30,
+    "Image": "KlebrikScaffold.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "22",
+    "Polarities": {},
+    "InternalName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Chassis/SentAmpSet1ChassisPartC",
+    "Traits": [
+      "Sentient"
+    ],
+    "Accuracy": 100,
+    "Trigger": "Held",
+    "Magazine": 100,
+    "Slot": "Amp",
+    "Reload": 5.33,
+    "Attacks": [
+      {
+        "CritChance": 0.16,
+        "StatusChance": 0.14,
+        "FireRate": 12,
+        "MinSpread": 0,
+        "IsSilent": false,
+        "Range": 25,
+        "AmmoCost": 3,
+        "Multishot": 1,
+        "MaxSpread": 0,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Void": 320
+        },
+        "CritMultiplier": 1.6
+      }
+    ],
+    "ReloadStyle": "Regenerate",
+    "Name": "Klebrik Scaffold",
+    "ReloadDelay": 2,
+    "Mastery": 0,
+    "AmmoMax": 0,
+    "Link": "Klebrik Scaffold",
+    "AmmoType": "Energy"
+  },
+  "Rabvee": {
+    "Slot": "Melee",
+    "SweepRadius": 0.25,
+    "Traits": [
+      "Zaw"
+    ],
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Zaw Machete / Hammer",
+    "MaxRank": 30,
+    "MeleeRange": 1,
+    "Attacks": [
+      {
+        "FireRate": 0.85,
+        "CritChance": 0.18,
+        "AttackIndex": 1,
+        "AttackName": "Rabvee Strike",
+        "IsSilent": true,
+        "StatusChance": 0.18,
+        "Damage": {
+          "Puncture": 11.7,
+          "Slash": 81.9,
+          "Impact": 140.4
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Image": "Rabvee.png",
+    "Name": "Rabvee",
+    "Introduced": "22.18",
+    "Family": "Rabvee",
+    "Link": "Rabvee",
+    "Disposition": 1.3,
+    "InternalName": "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Tip/TipTen"
+  },
+  "Cantic Prism": {
+    "ReloadRate": 30,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Amp",
+    "MaxRank": 30,
+    "Image": "CanticPrism.png",
+    "Introduced": "24.2",
+    "Polarities": {},
+    "InternalName": "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Barrel/CorpAmpSet1BarrelPartA",
+    "Traits": [
+      "Sentient"
+    ],
+    "Accuracy": 32,
+    "Trigger": "Burst",
+    "Magazine": 100,
+    "Slot": "Amp",
+    "Reload": 5.33,
+    "Attacks": [
+      {
+        "CritChance": 0.34,
+        "BurstCount": 3,
+        "Range": 100,
+        "FireRate": 2.67,
+        "Multishot": 1,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "ShotType": "Hit-Scan",
+        "CritMultiplier": 2.2,
+        "BurstDelay": 0.08,
+        "AmmoCost": 3,
+        "MaxSpread": 6,
+        "MinSpread": 0.2,
+        "PunchThrough": 0,
+        "StatusChance": 0.1,
+        "IsSilent": true,
+        "Damage": {
+          "Void": 1460
+        }
+      }
+    ],
+    "ReloadStyle": "Regenerate",
+    "Name": "Cantic Prism",
+    "ReloadDelay": 2,
+    "Mastery": 0,
+    "AmmoMax": 0,
+    "Link": "Cantic Prism",
+    "AmmoType": "Energy"
+  },
+  "Shwaak Prism": {
+    "ReloadRate": 30,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Amp",
+    "MaxRank": 30,
+    "Image": "ShwaakPrism.png",
+    "Introduced": "22",
+    "Polarities": {},
+    "InternalName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartB",
+    "Traits": [
+      "Sentient"
+    ],
+    "Accuracy": 9.1,
+    "Trigger": "Semi-Auto",
+    "Magazine": 100,
+    "Slot": "Amp",
+    "Reload": 5.33,
+    "Attacks": [
+      {
+        "CritChance": 0.1,
+        "Falloff": {
+          "EndRange": 30,
+          "Reduction": 0.5357,
+          "StartRange": 15
+        },
+        "Range": 32,
+        "FireRate": 1.33,
+        "Multishot": 1,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "ShotType": "Projectile",
+        "CritMultiplier": 1.6,
+        "AmmoCost": 10,
+        "IsSilent": true,
+        "ShotSpeed": 80,
+        "MaxSpread": 16,
+        "MinSpread": 6,
+        "PunchThrough": 0,
+        "StatusChance": 0.2,
+        "ForcedProcs": [
+          "Impact"
+        ],
+        "Damage": {
+          "Void": 3500
+        }
+      }
+    ],
+    "ReloadStyle": "Regenerate",
+    "Name": "Shwaak Prism",
+    "ReloadDelay": 2,
+    "Mastery": 0,
+    "AmmoMax": 0,
+    "Link": "Shwaak Prism",
+    "AmmoType": "Energy"
+  },
+  "Plague Keewar": {
+    "Slot": "Melee",
+    "SweepRadius": 0.25,
+    "Traits": [
+      "Infested",
+      "Zaw"
+    ],
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Zaw Scythe / Staff",
+    "MaxRank": 30,
+    "MeleeRange": 1,
+    "Attacks": [
+      {
+        "FireRate": 0.88,
+        "CritChance": 0.18,
+        "AttackIndex": 1,
+        "AttackName": "Plague Keewar Strike",
+        "IsSilent": true,
+        "StatusChance": 0.22,
+        "Damage": {
+          "Puncture": 57,
+          "Viral": 70,
+          "Slash": 91,
+          "Impact": 88
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Image": "PlagueKeewar.png",
+    "Name": "Plague Keewar",
+    "Introduced": "22.3",
+    "Family": "Plague Keewar",
+    "Link": "Plague Keewar",
+    "Disposition": 0.85,
+    "InternalName": "/Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Tips/InfestedTipTwo"
+  },
+  "Rattleguts (Secondary)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Pistol",
+    "MaxRank": 30,
+    "Image": "Rattleguts.png",
+    "Introduced": "24",
+    "InternalName": "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelCPart",
+    "Mastery": 0,
+    "Slot": "Secondary",
+    "Accuracy": 20,
+    "Trigger": "Auto",
+    "ExilusPolarity": "Madurai",
+    "Link": "Rattleguts",
+    "Reload": 0,
+    "AmmoPickup": 40,
+    "Magazine": 0,
+    "Name": "Rattleguts (Secondary)",
+    "Attacks": [
+      {
+        "CritChance": 0,
+        "StatusChance": 0,
+        "FireRate": 0,
+        "MinSpread": 4,
+        "IsSilent": false,
+        "Range": 0,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 6,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 0,
+          "Radiation": 0,
+          "Slash": 0
+        },
+        "CritMultiplier": 0
+      }
+    ],
+    "Family": "Rattleguts",
+    "AmmoMax": 700,
+    "Disposition": 1,
+    "AmmoType": "Secondary"
+  },
+  "Granmu Prism": {
+    "ReloadRate": 30,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Amp",
+    "MaxRank": 30,
+    "Image": "GranmuPrism.png",
+    "Introduced": "22",
+    "Polarities": {},
+    "InternalName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartC",
+    "Traits": [
+      "Sentient"
+    ],
+    "Accuracy": 100,
+    "Trigger": "Burst",
+    "Magazine": 100,
+    "Slot": "Amp",
+    "Reload": 5.33,
+    "Attacks": [
+      {
+        "CritChance": 0.26,
+        "BurstCount": 3,
+        "FireRate": 1,
+        "Multishot": 1,
+        "AttackIndex": 1,
+        "AttackName": "Direct Hit",
+        "ShotType": "Projectile",
+        "CritMultiplier": 2,
+        "BurstDelay": 0.15,
+        "AmmoCost": 5,
+        "ProjectileSpeed": 40,
+        "MaxSpread": 0,
+        "MinSpread": 0,
+        "PunchThrough": 0,
+        "StatusChance": 0.12,
+        "IsSilent": false,
+        "Damage": {
+          "Void": 1000
+        }
+      },
+      {
+        "CritChance": 0.26,
+        "StatusChance": 0.12,
+        "Falloff": {
+          "EndRange": 3.5,
+          "Reduction": 0.3,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 3.5,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Void": 1400
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "ReloadStyle": "Regenerate",
+    "Name": "Granmu Prism",
+    "ReloadDelay": 2,
+    "Mastery": 0,
+    "AmmoMax": 0,
+    "Link": "Granmu Prism",
+    "AmmoType": "Energy"
+  },
+  "Tombfinger (Secondary)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Pistol",
+    "MaxRank": 30,
+    "Image": "Tombfinger.png",
+    "Introduced": "24",
+    "InternalName": "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelBPart",
+    "Link": "Tombfinger",
+    "Slot": "Secondary",
+    "Mastery": 0,
+    "Accuracy": 50,
+    "Trigger": "Semi-Auto",
+    "ExilusPolarity": "Madurai",
+    "CompatibilityTags": [
+      "PROJECTILE",
+      "AOE",
+      "MODULAR_GUN",
+      "SEMI_AUTO"
+    ],
+    "Reload": 0,
+    "AmmoPickup": 20,
+    "Magazine": 0,
+    "Name": "Tombfinger (Secondary)",
+    "Attacks": [
+      {
+        "StatusChance": 0,
+        "CritChance": 0,
+        "FireRate": 0,
+        "ShotSpeed": 180,
+        "ForcedProcs": [
+          "Impact"
+        ],
+        "MaxSpread": 3,
+        "MinSpread": 1,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 0,
+          "Radiation": 0,
+          "Impact": 0
+        },
+        "CritMultiplier": 0
+      },
+      {
+        "CritChance": 0,
+        "StatusChance": 0,
+        "Falloff": {
+          "EndRange": 1.9,
+          "Reduction": 0.3,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 1.9,
+        "FireRate": 0,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Radiation": 0
+        },
+        "CritMultiplier": 0
+      }
+    ],
+    "Family": "Tombfinger",
+    "AmmoMax": 210,
+    "Disposition": 0.85,
+    "AmmoType": "Secondary"
+  },
+  "Sepfahn": {
+    "Slot": "Melee",
+    "SweepRadius": 0.25,
+    "Traits": [
+      "Zaw"
+    ],
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Zaw Nikana / Staff",
+    "MaxRank": 30,
+    "MeleeRange": 1,
+    "Attacks": [
+      {
+        "FireRate": 0.92,
+        "CritChance": 0.2,
+        "AttackIndex": 1,
+        "AttackName": "Sepfahn Strike",
+        "IsSilent": true,
+        "StatusChance": 0.2,
+        "Damage": {
+          "Puncture": 56.5,
+          "Slash": 146.9,
+          "Impact": 22.6
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Image": "Sepfahn.png",
+    "Name": "Sepfahn",
+    "Introduced": "22.18",
+    "Family": "Sepfahn",
+    "Link": "Sepfahn",
+    "Disposition": 0.7,
+    "InternalName": "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Tip/TipNine"
+  },
+  "Klamora Prism": {
+    "ReloadRate": 30,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Amp",
+    "MaxRank": 30,
+    "Image": "KlamoraPrism.png",
+    "Introduced": "24.2",
+    "Polarities": {},
+    "InternalName": "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Barrel/CorpAmpSet1BarrelPartC",
+    "Traits": [
+      "Sentient"
+    ],
+    "Accuracy": 100,
+    "Trigger": "Held",
+    "Magazine": 100,
+    "Slot": "Amp",
+    "Reload": 5.33,
+    "Attacks": [
+      {
+        "CritChance": 0.38,
+        "StatusChance": 0.1,
+        "FireRate": 12,
+        "MinSpread": 0,
+        "IsSilent": false,
+        "Range": 14,
+        "AmmoCost": 2.5,
+        "Multishot": 1,
+        "MaxSpread": 0,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Void": 600
+        },
+        "CritMultiplier": 2.4
+      }
+    ],
+    "ReloadStyle": "Regenerate",
+    "Name": "Klamora Prism",
+    "ReloadDelay": 2,
+    "Mastery": 0,
+    "AmmoMax": 0,
+    "Link": "Klamora Prism",
+    "AmmoType": "Energy"
+  },
+  "Plague Kripath": {
+    "Slot": "Melee",
+    "SweepRadius": 0.25,
+    "Traits": [
+      "Infested",
+      "Zaw"
+    ],
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Zaw Rapier / Polearm",
+    "MaxRank": 30,
+    "MeleeRange": 1,
+    "Attacks": [
+      {
+        "FireRate": 0.95,
+        "CritChance": 0.22,
+        "AttackIndex": 1,
+        "AttackName": "Plague Kripath Strike",
+        "IsSilent": true,
+        "StatusChance": 0.18,
+        "Damage": {
+          "Puncture": 70,
+          "Viral": 64,
+          "Slash": 49,
+          "Impact": 30
+        },
+        "CritMultiplier": 2.2
+      }
+    ],
+    "Image": "PlagueKripath.png",
+    "Name": "Plague Kripath",
+    "Introduced": "22.3",
+    "Family": "Plague Kripath",
+    "Link": "Plague Kripath",
+    "Disposition": 0.65,
+    "InternalName": "/Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Tips/InfestedTipOne"
+  },
+  "Propa Scaffold": {
+    "ReloadRate": 30,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Amp",
+    "MaxRank": 30,
+    "Image": "PropaScaffold.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "24.2",
+    "Polarities": {},
+    "InternalName": "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Chassis/CorpAmpSet1ChassisPartC",
+    "Traits": [
+      "Sentient"
+    ],
+    "Accuracy": 9.1,
+    "Trigger": "Semi-Auto",
+    "Magazine": 100,
+    "Slot": "Amp",
+    "Reload": 5.33,
+    "Attacks": [
+      {
+        "StatusChance": 0,
+        "CritChance": 0.3,
+        "FireRate": 2,
+        "MinSpread": 6,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 8,
+          "Reduction": 0.7,
+          "StartRange": 0
+        },
+        "Range": 14,
+        "AmmoCost": 40,
+        "Multishot": 1,
+        "MaxSpread": 16,
+        "AttackIndex": 1,
+        "AttackName": "Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Void": 9000
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "ReloadStyle": "Regenerate",
+    "Name": "Propa Scaffold",
+    "ReloadDelay": 2,
+    "Mastery": 0,
+    "AmmoMax": 0,
+    "Link": "Propa Scaffold",
+    "AmmoType": "Energy"
+  },
+  "Sporelacer (Secondary)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Pistol",
+    "MaxRank": 30,
+    "Image": "Sporelacer.png",
+    "Introduced": "29.5",
+    "Polarities": {},
+    "InternalName": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelEgg/InfModularBarrelEggPart",
+    "Link": "Sporelacer",
+    "Traits": [
+      "Infested",
+      "Kitgun"
+    ],
+    "Slot": "Secondary",
+    "Mastery": 0,
+    "Accuracy": 5.9,
+    "Trigger": "Semi-Auto",
+    "ExilusPolarity": "Madurai",
+    "CompatibilityTags": [
+      "MODULAR_GUN",
+      "SEMI_AUTO"
+    ],
+    "Reload": 0,
+    "AmmoPickup": 20,
+    "Magazine": 0,
+    "Name": "Sporelacer (Secondary)",
+    "Attacks": [
+      {
+        "StatusChance": 0,
+        "CritChance": 0,
+        "FireRate": 0,
+        "ShotSpeed": 57,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 26,
+          "Reduction": 0,
+          "StartRange": 13
+        },
+        "MinSpread": 12,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 22,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Impact": 0
+        },
+        "CritMultiplier": 0
+      },
+      {
+        "CritChance": 0,
+        "StatusChance": 0,
+        "Falloff": {
+          "EndRange": 4.7,
+          "Reduction": 0.5,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 4.7,
+        "FireRate": 0,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Toxin": 0
+        },
+        "CritMultiplier": 0
+      },
+      {
+        "CritChance": 0,
+        "StatusChance": 0,
+        "AttackParentIndex": 2,
+        "IsSilent": false,
+        "FireRate": 0,
+        "Multishot": 1,
+        "ShotSpeed": 3,
+        "AttackIndex": 3,
+        "AttackName": "Bomblet Impact",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Toxin": 0
+        },
+        "CritMultiplier": 0
+      },
+      {
+        "CritChance": 0,
+        "StatusChance": 0,
+        "Falloff": {
+          "EndRange": 2.1,
+          "Reduction": 0.8,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 3,
+        "Range": 2.1,
+        "FireRate": 0,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 4,
+        "AttackName": "Bomblet Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Toxin": 0
+        },
+        "CritMultiplier": 0
+      }
+    ],
+    "Family": "Sporelacer",
+    "AmmoMax": 130,
+    "Disposition": 0.6,
+    "AmmoType": "Secondary"
+  },
+  "Ooltha": {
+    "Slot": "Melee",
+    "SweepRadius": 0.25,
+    "Traits": [
+      "Zaw"
+    ],
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Zaw Sword / Staff",
+    "MaxRank": 30,
+    "MeleeRange": 1,
+    "Attacks": [
+      {
+        "FireRate": 0.92,
+        "CritChance": 0.18,
+        "AttackIndex": 1,
+        "AttackName": "Ooltha Strike",
+        "IsSilent": true,
+        "StatusChance": 0.18,
+        "Damage": {
+          "Puncture": 89.6,
+          "Slash": 112,
+          "Impact": 22.4
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Image": "Ooltha.png",
+    "Name": "Ooltha",
+    "Introduced": "22",
+    "Family": "Ooltha",
+    "Link": "Ooltha",
+    "Disposition": 1.3,
+    "InternalName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipTwo"
+  },
+  "Mewan": {
+    "Slot": "Melee",
+    "SweepRadius": 0.25,
+    "Traits": [
+      "Zaw"
+    ],
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Zaw Sword / Polearm",
+    "MaxRank": 30,
+    "MeleeRange": 1,
+    "Attacks": [
+      {
+        "FireRate": 0.85,
+        "CritChance": 0.18,
+        "AttackIndex": 1,
+        "AttackName": "Mewan Strike",
+        "IsSilent": true,
+        "StatusChance": 0.18,
+        "Damage": {
+          "Puncture": 78.4,
+          "Slash": 89.6,
+          "Impact": 56
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Image": "Mewan.png",
+    "Name": "Mewan",
+    "Introduced": "22",
+    "Family": "Mewan",
+    "Link": "Mewan",
+    "Disposition": 1.15,
+    "InternalName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipThree"
+  },
+  "Mote Amp": {
+    "ReloadRate": 30,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Amp",
+    "MaxRank": 30,
+    "Image": "MoteAmp.png",
+    "Introduced": "22",
+    "Polarities": {},
+    "InternalName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/SentTrainingAmplifier/SentAmpTrainingBarrel",
+    "Slot": "Amp",
+    "Traits": [
+      "Sentient"
+    ],
+    "Accuracy": 100,
+    "Trigger": "Held",
+    "Magazine": 100,
+    "SellPrice": 2500,
+    "Reload": 5.33,
+    "Attacks": [
+      {
+        "CritChance": 0.2,
+        "StatusChance": 0,
+        "FireRate": 12,
+        "MinSpread": 0,
+        "IsSilent": true,
+        "Range": 30,
+        "AmmoCost": 3.5,
+        "Multishot": 1,
+        "MaxSpread": 0,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Void": 240
+        },
+        "CritMultiplier": 1.5
+      }
+    ],
+    "ReloadStyle": "Regenerate",
+    "Name": "Mote Amp",
+    "ReloadDelay": 2,
+    "Mastery": 0,
+    "AmmoMax": 0,
+    "Link": "Mote Amp",
+    "AmmoType": "Energy"
+  },
+  "Vermisplicer (Secondary)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Pistol",
+    "MaxRank": 30,
+    "Image": "Vermisplicer.png",
+    "Introduced": "29.5",
+    "InternalName": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelBeam/InfModularBarrelBeamPart",
+    "Link": "Vermisplicer",
+    "Traits": [
+      "Infested",
+      "Kitgun"
+    ],
+    "Slot": "Secondary",
+    "Mastery": 0,
+    "Accuracy": 5.4,
+    "Trigger": "Held",
+    "ExilusPolarity": "Madurai",
+    "CompatibilityTags": [
+      "BEAM"
+    ],
+    "Reload": 0,
+    "AmmoPickup": 20,
+    "Magazine": 0,
+    "Name": "Vermisplicer (Secondary)",
+    "Attacks": [
+      {
+        "CritChance": 0,
+        "StatusChance": 0,
+        "FireRate": 0,
+        "IsSilent": false,
+        "MinSpread": 0,
+        "AmmoCost": 0.5,
+        "Multishot": 5,
+        "MaxSpread": 37,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 1,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 0,
+          "Toxin": 0,
+          "Slash": 0,
+          "Impact": 0
+        },
+        "CritMultiplier": 0
+      }
+    ],
+    "Family": "Vermisplicer",
+    "AmmoMax": 90,
+    "Disposition": 1.15,
+    "AmmoType": "Secondary"
+  },
+  "Dehtat": {
+    "Slot": "Melee",
+    "SweepRadius": 0.25,
+    "Traits": [
+      "Zaw"
+    ],
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Zaw Rapier / Polearm",
+    "MaxRank": 30,
+    "MeleeRange": 1,
+    "Attacks": [
+      {
+        "FireRate": 0.92,
+        "CritChance": 0.18,
+        "AttackIndex": 1,
+        "AttackName": "Dehtat Strike",
+        "IsSilent": true,
+        "StatusChance": 0.18,
+        "Damage": {
+          "Puncture": 112,
+          "Slash": 89.6,
+          "Impact": 22.4
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Image": "Dehtat.png",
+    "Name": "Dehtat",
+    "Introduced": "22",
+    "Family": "Dehtat",
+    "Link": "Dehtat",
+    "Disposition": 1.25,
+    "InternalName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipFive"
+  },
+  "Cyath": {
+    "Slot": "Melee",
+    "SweepRadius": 0.25,
+    "Traits": [
+      "Zaw"
+    ],
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Zaw Machete / Polearm",
+    "MaxRank": 30,
+    "MeleeRange": 1,
+    "Attacks": [
+      {
+        "FireRate": 0.92,
+        "CritChance": 0.18,
+        "AttackIndex": 1,
+        "AttackName": "Cyath Strike",
+        "IsSilent": true,
+        "StatusChance": 0.18,
+        "Damage": {
+          "Puncture": 11.5,
+          "Slash": 172.5,
+          "Impact": 46
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Image": "Cyath.png",
+    "Name": "Cyath",
+    "Introduced": "22",
+    "Family": "Cyath",
+    "Link": "Cyath",
+    "Disposition": 1,
+    "InternalName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipFour"
+  },
+  "Lega Prism": {
+    "ReloadRate": 30,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Amp",
+    "MaxRank": 30,
+    "Image": "LegaPrism.png",
+    "Introduced": "24.2",
+    "Polarities": {},
+    "InternalName": "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Barrel/CorpAmpSet1BarrelPartB",
+    "Traits": [
+      "Sentient"
+    ],
+    "Accuracy": 100,
+    "Trigger": "Held",
+    "Magazine": 100,
+    "Slot": "Amp",
+    "Reload": 5.33,
+    "Attacks": [
+      {
+        "CritChance": 0.08,
+        "StatusChance": 0.34,
+        "FireRate": 7.5,
+        "MinSpread": 0,
+        "IsSilent": false,
+        "Range": 28,
+        "AmmoCost": 0.8,
+        "Multishot": 1,
+        "MaxSpread": 0,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Void": 600
+        },
+        "CritMultiplier": 1.6
+      }
+    ],
+    "ReloadStyle": "Regenerate",
+    "Name": "Lega Prism",
+    "ReloadDelay": 2,
+    "Mastery": 0,
+    "AmmoMax": 0,
+    "Link": "Lega Prism",
+    "AmmoType": "Energy"
+  },
+  "Balla": {
+    "Slot": "Melee",
+    "SweepRadius": 0.25,
+    "Traits": [
+      "Zaw"
+    ],
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Zaw Dagger / Staff",
+    "MaxRank": 30,
+    "MeleeRange": 1,
+    "Attacks": [
+      {
+        "FireRate": 1,
+        "CritChance": 0.18,
+        "AttackIndex": 1,
+        "AttackName": "Balla Strike",
+        "IsSilent": true,
+        "StatusChance": 0.18,
+        "Damage": {
+          "Puncture": 134.4,
+          "Slash": 78.4,
+          "Impact": 11.2
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Image": "Balla.png",
+    "Name": "Balla",
+    "Introduced": "22",
+    "Family": "Balla",
+    "Link": "Balla",
+    "Disposition": 0.8,
+    "InternalName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipOne"
+  },
+  "Vermisplicer (Primary)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "Image": "Vermisplicer.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "29.5",
+    "InternalName": "/Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelBeam/InfModularBarrelBeamPart",
+    "Link": "Vermisplicer",
+    "Traits": [
+      "Infested",
+      "Kitgun"
+    ],
+    "Slot": "Primary",
+    "Mastery": 0,
+    "Accuracy": 80,
+    "Trigger": "Held",
+    "ExilusPolarity": "Madurai",
+    "CompatibilityTags": [
+      "BEAM"
+    ],
+    "Reload": 0,
+    "AmmoPickup": 40,
+    "Magazine": 0,
+    "Name": "Vermisplicer (Primary)",
+    "Attacks": [
+      {
+        "CritChance": 0,
+        "StatusChance": 0,
+        "FireRate": 0,
+        "IsSilent": false,
+        "MinSpread": 1,
+        "AmmoCost": 0.5,
+        "Multishot": 1,
+        "MaxSpread": 1.5,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 0,
+          "Toxin": 0,
+          "Slash": 0,
+          "Impact": 0
+        },
+        "CritMultiplier": 0
+      },
+      {
+        "CritChance": 0,
+        "StatusChance": 0,
+        "AttackParentIndex": 1,
+        "Range": 6,
+        "FireRate": 0,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Tendril",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 0,
+          "Toxin": 0,
+          "Slash": 0,
+          "Impact": 0
+        },
+        "CritMultiplier": 0
+      }
+    ],
+    "Family": "Vermisplicer",
+    "AmmoMax": 90,
+    "Disposition": 0.9,
+    "AmmoType": "Primary"
+  },
+  "Dokrahm": {
+    "Slot": "Melee",
+    "SweepRadius": 0.25,
+    "Traits": [
+      "Zaw"
+    ],
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Zaw Scythe / Heavy Blade",
+    "MaxRank": 30,
+    "MeleeRange": 1,
+    "Attacks": [
+      {
+        "FireRate": 1,
+        "CritChance": 0.18,
+        "AttackIndex": 1,
+        "AttackName": "Dokrahm Strike",
+        "IsSilent": true,
+        "StatusChance": 0.18,
+        "Damage": {
+          "Puncture": 108.1,
+          "Slash": 154.5,
+          "Impact": 46.4
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Image": "Dokrahm.png",
+    "Name": "Dokrahm",
+    "Introduced": "22.18",
+    "Family": "Dokrahm",
+    "Link": "Dokrahm",
+    "Disposition": 0.75,
+    "InternalName": "/Lotus/Weapons/Ostron/Melee/ModularMelee02/Tip/TipEleven"
+  },
+  "Tombfinger (Primary)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Launcher",
+    "MaxRank": 30,
+    "Image": "Tombfinger.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "28",
+    "InternalName": "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelBPart",
+    "Link": "Tombfinger",
+    "Slot": "Primary",
+    "Mastery": 0,
+    "Accuracy": 50,
+    "Trigger": "Charge",
+    "ExilusPolarity": "Madurai",
+    "CompatibilityTags": [
+      "PROJECTILE",
+      "AOE",
+      "MODULAR_GUN",
+      "SEMI_AUTO"
+    ],
+    "Reload": 0,
+    "AmmoPickup": 20,
+    "Magazine": 0,
+    "Name": "Tombfinger (Primary)",
+    "Attacks": [
+      {
+        "StatusChance": 0,
+        "CritChance": 0,
+        "FireRate": 0,
+        "ShotSpeed": 90,
+        "ForcedProcs": [
+          "Impact"
+        ],
+        "MaxSpread": 3,
+        "MinSpread": 1,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Radiation": 0,
+          "Impact": 0
+        },
+        "CritMultiplier": 0
+      },
+      {
+        "CritChance": 0,
+        "StatusChance": 0,
+        "Falloff": {
+          "EndRange": 1.7,
+          "Reduction": 0.25,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 1.7,
+        "FireRate": 0,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Quick Shot Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Radiation": 0
+        },
+        "CritMultiplier": 0
+      },
+      {
+        "CritChance": 0,
+        "StatusChance": 0,
+        "Falloff": {
+          "EndRange": 6.2,
+          "Reduction": 0.7,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 6.2,
+        "FireRate": 0,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 3,
+        "AttackName": "Charged Shot Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Radiation": 0
+        },
+        "CritMultiplier": 0
+      }
+    ],
+    "Family": "Tombfinger",
+    "AmmoMax": 120,
+    "Disposition": 1,
+    "AmmoType": "Primary"
+  },
+  "Rahn Prism": {
+    "ReloadRate": 30,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Amp",
+    "MaxRank": 30,
+    "Image": "RahnPrism.png",
+    "Introduced": "22",
+    "Polarities": {},
+    "InternalName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set2/Barrel/SentAmpSet2BarrelPartA",
+    "Traits": [
+      "Sentient"
+    ],
+    "Accuracy": 32,
+    "Trigger": "Auto",
+    "Magazine": 100,
+    "Slot": "Amp",
+    "Reload": 5.33,
+    "Attacks": [
+      {
+        "CritChance": 0.3,
+        "StatusChance": 0.04,
+        "FireRate": 5.67,
+        "IsSilent": true,
+        "MinSpread": 0.2,
+        "AmmoCost": 3,
+        "Multishot": 1,
+        "MaxSpread": 6,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Void": 1000
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "ReloadStyle": "Regenerate",
+    "Name": "Rahn Prism",
+    "ReloadDelay": 2,
+    "Mastery": 0,
+    "AmmoMax": 0,
+    "Link": "Rahn Prism",
+    "AmmoType": "Energy"
+  },
+  "Sirocco": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Amp",
+    "MaxRank": 30,
+    "Image": "Sirocco.png",
+    "Introduced": "31",
+    "InternalName": "/Lotus/Weapons/Operator/Pistols/DrifterPistol/DrifterPistolPlayerWeapon",
+    "Accuracy": 16,
+    "Trigger": "Semi-Auto",
+    "Magazine": 10,
+    "Reload": 2,
+    "Attacks": [
+      {
+        "CritChance": 0.4,
+        "StatusChance": 0.2,
+        "IsSilent": true,
+        "Reload": 2,
+        "MaxSpread": 12,
+        "FireRate": 3,
+        "Multishot": 1,
+        "MinSpread": 0.5,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Void": 2000
+        },
+        "CritMultiplier": 2
+      },
+      {
+        "CritChance": 0.8,
+        "StatusChance": 0.5,
+        "IsSilent": true,
+        "Reload": 0.5,
+        "MaxSpread": 12,
+        "FireRate": 0.833,
+        "Multishot": 1,
+        "MinSpread": 0.5,
+        "AttackIndex": 2,
+        "AttackName": "Overcharged Shot",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Void": 3600
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Name": "Sirocco",
+    "Slot": "Amp",
+    "Mastery": 0,
+    "AmmoMax": 0,
+    "Link": "Sirocco",
+    "CodexSecret": true
+  },
+  "Catchmoon (Primary)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Shotgun",
+    "MaxRank": 30,
+    "Image": "Catchmoon.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "28",
+    "InternalName": "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelAPart",
+    "Link": "Catchmoon",
+    "Slot": "Primary",
+    "Mastery": 0,
+    "Accuracy": 22.2,
+    "Trigger": "Auto",
+    "ExilusPolarity": "Madurai",
+    "CompatibilityTags": [
+      "MODULAR_GUN",
+      "SEMI_AUTO"
+    ],
+    "Reload": 0,
+    "AmmoPickup": 15,
+    "Magazine": 0,
+    "Name": "Catchmoon (Primary)",
+    "Attacks": [
+      {
+        "CritChance": 0,
+        "Falloff": {
+          "EndRange": 40,
+          "Reduction": 0.9416,
+          "StartRange": 20
+        },
+        "ExtraHeadshotDmg": -2,
+        "FireRate": 0,
+        "Multishot": 1,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "ShotType": "Projectile",
+        "CritMultiplier": 0,
+        "IsSilent": false,
+        "AmmoCost": 1,
+        "ShotSpeed": 100,
+        "Range": 42,
+        "MaxSpread": 6,
+        "MinSpread": 3,
+        "PunchThrough": 0,
+        "StatusChance": 0,
+        "ForcedProcs": [
+          "Impact"
+        ],
+        "Damage": {
+          "Impact": 0,
+          "Heat": 0
+        }
+      }
+    ],
+    "Family": "Catchmoon",
+    "AmmoMax": 70,
+    "Disposition": 1.1,
+    "AmmoType": "Primary"
+  },
+  "Catchmoon (Secondary)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Pistol",
+    "MaxRank": 30,
+    "Image": "Catchmoon.png",
+    "Introduced": "24",
+    "InternalName": "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelAPart",
+    "Link": "Catchmoon",
+    "Slot": "Secondary",
+    "Mastery": 0,
+    "Accuracy": 5.9,
+    "Trigger": "Semi-Auto",
+    "ExilusPolarity": "Madurai",
+    "CompatibilityTags": [
+      "MODULAR_GUN",
+      "SEMI_AUTO"
+    ],
+    "Reload": 0,
+    "AmmoPickup": 20,
+    "Magazine": 0,
+    "Name": "Catchmoon (Secondary)",
+    "Attacks": [
+      {
+        "CritChance": 0,
+        "Falloff": {
+          "EndRange": 16,
+          "Reduction": 0.9375,
+          "StartRange": 8
+        },
+        "ExtraHeadshotDmg": -2,
+        "FireRate": 0,
+        "Multishot": 1,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "ShotType": "Projectile",
+        "CritMultiplier": 0,
+        "IsSilent": false,
+        "AmmoCost": 1,
+        "ShotSpeed": 100,
+        "Range": 20,
+        "MaxSpread": 22,
+        "MinSpread": 12,
+        "PunchThrough": 0,
+        "StatusChance": 0,
+        "ForcedProcs": [
+          "Impact"
+        ],
+        "Damage": {
+          "Impact": 0,
+          "Heat": 0
+        }
+      }
+    ],
+    "Family": "Catchmoon",
+    "AmmoMax": 70,
+    "Disposition": 0.75,
+    "AmmoType": "Secondary"
+  },
+  "Phahd Scaffold": {
+    "ReloadRate": 30,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Amp",
+    "MaxRank": 30,
+    "Image": "PhahdScaffold.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "23.4",
+    "Polarities": {},
+    "InternalName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set2/Chassis/SentAmpSet2ChassisPartA",
+    "Traits": [
+      "Sentient"
+    ],
+    "Accuracy": 9.1,
+    "Trigger": "Semi-Auto",
+    "Magazine": 100,
+    "Slot": "Amp",
+    "Reload": 5.33,
+    "Attacks": [
+      {
+        "CritChance": 0.34,
+        "StatusChance": 0.12,
+        "FireRate": 1.67,
+        "MinSpread": 6,
+        "IsSilent": false,
+        "Range": 300,
+        "AmmoCost": 20,
+        "Multishot": 1,
+        "MaxSpread": 16,
+        "AttackIndex": 1,
+        "AttackName": "Direct Hit",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Void": 3000
+        },
+        "CritMultiplier": 2.6
+      },
+      {
+        "CritChance": 0.34,
+        "StatusChance": 0.12,
+        "Falloff": {
+          "EndRange": 5,
+          "Reduction": 0.3,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 5,
+        "FireRate": 1.67,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Void": 1100
+        },
+        "CritMultiplier": 2.6
+      }
+    ],
+    "ReloadStyle": "Regenerate",
+    "Name": "Phahd Scaffold",
+    "ReloadDelay": 2,
+    "Mastery": 0,
+    "AmmoMax": 0,
+    "Link": "Phahd Scaffold",
+    "AmmoType": "Energy"
+  },
+  "Raplak Prism": {
+    "ReloadRate": 30,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Amp",
+    "MaxRank": 30,
+    "Image": "RaplakPrism.png",
+    "Introduced": "22",
+    "Polarities": {},
+    "InternalName": "/Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartA",
+    "Traits": [
+      "Sentient"
+    ],
+    "Accuracy": 32,
+    "Trigger": "Semi-Auto",
+    "Magazine": 100,
+    "Slot": "Amp",
+    "Reload": 5.33,
+    "Attacks": [
+      {
+        "CritChance": 0.38,
+        "StatusChance": 0.1,
+        "FireRate": 2,
+        "MinSpread": 0.2,
+        "IsSilent": false,
+        "Range": 300,
+        "AmmoCost": 10,
+        "Multishot": 1,
+        "MaxSpread": 6,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Void": 3000
+        },
+        "CritMultiplier": 2.6
+      }
+    ],
+    "ReloadStyle": "Regenerate",
+    "Name": "Raplak Prism",
+    "ReloadDelay": 2,
+    "Mastery": 0,
+    "AmmoMax": 0,
+    "Link": "Raplak Prism",
+    "AmmoType": "Energy"
+  },
+  "Rattleguts (Primary)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "Image": "Rattleguts.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "28",
+    "InternalName": "/Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelCPart",
+    "Mastery": 0,
+    "Slot": "Primary",
+    "Accuracy": 20,
+    "Trigger": "Auto",
+    "ExilusPolarity": "Madurai",
+    "Link": "Rattleguts",
+    "Reload": 0,
+    "AmmoPickup": 80,
+    "Magazine": 0,
+    "Name": "Rattleguts (Primary)",
+    "Attacks": [
+      {
+        "CritChance": 0,
+        "StatusChance": 0,
+        "FireRate": 0,
+        "MinSpread": 4,
+        "IsSilent": false,
+        "Range": 0,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 6,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 0,
+          "Radiation": 0,
+          "Slash": 0,
+          "Impact": 0
+        },
+        "CritMultiplier": 0
+      }
+    ],
+    "Family": "Rattleguts",
+    "AmmoMax": 700,
+    "Disposition": 1,
+    "AmmoType": "Primary"
+  },
+  "Exard Scaffold": {
+    "ReloadRate": 30,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 2,
+    "Class": "Amp",
+    "MaxRank": 30,
+    "Image": "ExardScaffold.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "24.2",
+    "Polarities": {},
+    "InternalName": "/Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Chassis/CorpAmpSet1ChassisPartA",
+    "Traits": [
+      "Sentient"
+    ],
+    "Accuracy": 10,
+    "Trigger": "Burst",
+    "Magazine": 100,
+    "Slot": "Amp",
+    "Reload": 5.33,
+    "Attacks": [
+      {
+        "CritChance": 0.17,
+        "BurstCount": 3,
+        "Falloff": {
+          "EndRange": 60,
+          "Reduction": 0.825,
+          "StartRange": 40
+        },
+        "FireRate": 1,
+        "Multishot": 1,
+        "AttackIndex": 1,
+        "AttackName": "Direct Hit",
+        "ShotType": "Projectile",
+        "CritMultiplier": 1.9,
+        "BurstDelay": 0.12,
+        "AmmoCost": 20,
+        "IsSilent": false,
+        "ShotSpeed": 80,
+        "MaxSpread": 15,
+        "MinSpread": 5,
+        "PunchThrough": 0,
+        "StatusChance": 0.33,
+        "ForcedProcs": [
+          "Impact"
+        ],
+        "Damage": {
+          "Impact": 200
+        }
+      },
+      {
+        "CritChance": 0.17,
+        "StatusChance": 0.33,
+        "Falloff": {
+          "EndRange": 2.5,
+          "Reduction": 0.3,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 2.5,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Void": 2600
+        },
+        "CritMultiplier": 1.9
+      }
+    ],
+    "ReloadStyle": "Regenerate",
+    "Name": "Exard Scaffold",
+    "ReloadDelay": 2,
+    "Mastery": 0,
+    "AmmoMax": 0,
+    "Link": "Exard Scaffold",
+    "AmmoType": "Energy"
+  }
+}

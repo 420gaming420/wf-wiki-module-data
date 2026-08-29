@@ -1,0 +1,803 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Focus/data/archived",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:37:29.550Z"
+  },
+  "_comments": "-- Original table was from https://warframe.fandom.com/wiki/Module:Icon/data\n-- Moved here on 2021-10-20 for archival reasons since icons are relevant to\n-- superceded Focus 1.0 - [[User:Cephalon Scientia]]\n-- Focus 2.0 content moved here since 2022-05-06 after Focus 3.0 rework was\n-- released on Update 31.5 Angels of the Zariman\n\t-- Focus 1.0 content\n\t\t\t-- The ways are sorted from left to right, top to bottom.\n\t\t\t-- Unairu\n\t\t\t-- Zenurik\n\t\t\t-- Naramon\n\t\t\t-- Vazarin\n\t\t\t-- Madurai\n\t\t\t-- TODO\n\t-- Focus 2.0 content\n\t\t--\n\t\t--Madurai\n\t\t--Naramon\n\t\t--Unairu\n\t\t--Vazarin\n\t\t--Zenurik",
+  "Focus 2.0": {
+    "Ways": {
+      "Power Spike": {
+        "Type": "Passive",
+        "Description": "Melee Combo Counter now decays while out of combat by '''20 / 15 / 10 / 5''' every few seconds, instead of depleting completely.",
+        "Link": "Power Spike",
+        "Unlock": 50000,
+        "Image": "FocusPowerSpike.png",
+        "Name": "Power Spike",
+        "Introduced": "22",
+        "School": "Naramon",
+        "Pool": "1 / 3 / 5 / 7",
+        "InternalName": "/Lotus/Upgrades/Focus/Tactic/Residual/MeleeComboFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000"
+      },
+      "Void Spines": {
+        "Type": "Passive",
+        "Description": "'''5% / 15% / 25% / 50% / 75% / 100%''' of damage taken is returned to the attacker.",
+        "Link": "Void Spines",
+        "Unlock": 25000,
+        "Image": "FocusVoidSpines.png",
+        "Name": "Void Spines",
+        "Introduced": "22",
+        "School": "Unairu",
+        "Pool": "1 / 3 / 5 / 7 / 9 / 11",
+        "InternalName": "/Lotus/Upgrades/Focus/Ward/Residual/ReflectDamageFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000 / 226,969 / 306,274"
+      },
+      "Void Strike": {
+        "Type": "Active",
+        "Description": "On leaving [[Void Mode]] the next '''1 / 1 / 2 / 4 / 6 / 8''' attacks deal '''5% / 7% / 8% / 10% / 11% / 12%''' additional damage for every second spent cloaked. Cloak consumes '''2''' additional energy per second.",
+        "Link": "Void Strike",
+        "Unlock": 80000,
+        "Image": "FocusVoidStrike.png",
+        "Name": "Void Strike",
+        "Introduced": "22",
+        "School": "Madurai",
+        "Pool": "1 / 4 / 7 / 10 / 13 / 16",
+        "InternalName": "/Lotus/Upgrades/Focus/Attack/Active/CloakAttackChargeFocusUpgrade",
+        "Rankup": "120,000 / 162,426 / 240,000 / 340,454 / 459,411"
+      },
+      "Basilisk Scales": {
+        "Type": "Way-Bound Passive",
+        "Description": "Increase armor for the Operator by ''' 50% / 100% / 150% / 200% / 200%'''.",
+        "Link": "Basilisk Scales",
+        "Unlock": 50000,
+        "Image": "FocusBasiliskScalesGaze.png",
+        "Name": "Basilisk Scales",
+        "Introduced": "22",
+        "School": "Unairu",
+        "Pool": "1 / 3 / 5 / 7 / 7",
+        "InternalName": "/Lotus/Upgrades/Focus/Ward/Stats/ArmourIncreaseFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000 / 1,000,000 + 1x [[Brilliant Eidolon Shard]]"
+      },
+      "Inner Gaze": {
+        "Type": "Way-Bound Passive",
+        "Description": "Increase Energy for Amps and [[Void Beam]] by '''10% / 20% / 30% / 40% / 40%'''.",
+        "Link": "Inner Gaze",
+        "Unlock": 25000,
+        "Image": "FocusInnerGaze.png",
+        "Name": "Inner Gaze",
+        "Introduced": "22",
+        "School": "Madurai",
+        "Pool": "1 / 3 / 5 / 7 / 7",
+        "InternalName": "/Lotus/Upgrades/Focus/Attack/Stats/MoreAmmoFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000 / 1,000,000 + 1x [[Brilliant Eidolon Shard]]"
+      },
+      "Unairu Wisp": {
+        "Type": "Active",
+        "Description": "[[Void Blast]] has a '''25% / 50% / 75% / 100%''' chance to summon a Wisp when it damages an enemy. The Wisp can be picked up by allies to increase Operator damage by '''20% / 40% / 60% / 100%''' for '''3 / 6 / 9 / 12''' seconds.",
+        "Link": "Unairu Wisp",
+        "Unlock": 80000,
+        "Image": "FocusUnairuWisp.png",
+        "Name": "Unairu Wisp",
+        "Introduced": "22",
+        "School": "Unairu",
+        "Pool": "1 / 4 / 7 / 10",
+        "InternalName": "/Lotus/Upgrades/Focus/Ward/Active/BlastDamagePickupFocusUpgrade",
+        "Rankup": "120,000 / 162,426 / 240,000"
+      },
+      "Meteoric Dash": {
+        "Type": "Active",
+        "Description": "[[Void Dash]] deals '''+100 / +200 / +300 / +400''' Extra Damage to enemies.",
+        "Link": "Meteoric Dash",
+        "Unlock": 80000,
+        "Image": "FocusMeteoricDash.png",
+        "Name": "Meteoric Dash",
+        "Introduced": "22",
+        "School": "Madurai",
+        "Pool": "1 / 4 / 7 / 10",
+        "InternalName": "/Lotus/Upgrades/Focus/Attack/Active/DashDamageFocusUpgrade",
+        "Rankup": "120,000 / 162,426 / 240,000"
+      },
+      "Eternal Gaze": {
+        "Type": "Active",
+        "Description": "Increases the regeneration rate of Energy for Amps and [[Void Beam]] by '''10% / 20% / 30% / 40% / 50% / 60% / 60%'''.",
+        "Link": "Eternal Gaze",
+        "Unlock": 50000,
+        "Image": "FocusEternalGaze.png",
+        "Name": "Eternal Gaze",
+        "Introduced": "22",
+        "School": "Madurai",
+        "Pool": "1 / 4 / 7 / 10 / 13 / 16 / 16",
+        "InternalName": "/Lotus/Upgrades/Focus/Attack/Stats/RegenAmmoFocusUpgrade",
+        "Rankup": "120,000 / 162,426 / 240,000 / 340,454 / 459,411 / 1,000,000 + 1x [[Brilliant Eidolon Shard]]"
+      },
+      "Executing Dash": {
+        "Type": "Active",
+        "Description": "[[Void Dash]] no longer displaces enemies, instead it will open them up to finishers and increase finisher damage taken by '''15% / 20% / 25% / 35%'''.",
+        "Link": "Executing Dash",
+        "Unlock": 50000,
+        "Image": "FocusExecutingDash.png",
+        "Name": "Executing Dash",
+        "Introduced": "22",
+        "School": "Naramon",
+        "Pool": "1 / 3 / 5 / 7",
+        "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/DashFinisherFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000"
+      },
+      "Phoenix Spirit": {
+        "Type": "Passive",
+        "Description": "Elemental Damage increased by '''10% / 15% / 20% / 25%'''.",
+        "Link": "Phoenix Spirit",
+        "Unlock": 25000,
+        "Image": "FocusPhoenixSpirit.png",
+        "Name": "Phoenix Spirit",
+        "Introduced": "22",
+        "School": "Madurai",
+        "Pool": "1 / 2 / 3 / 4",
+        "InternalName": "/Lotus/Upgrades/Focus/Attack/Residual/ElementalDamageFocusUpgrade",
+        "Rankup": "40,000 / 54,142 / 80,000"
+      },
+      "Enduring Tides": {
+        "Type": "Way-Bound Passive",
+        "Description": "Increase health of the Operator by '''25% / 50% / 100% / 150% / 150%'''.",
+        "Link": "Enduring Tides",
+        "Unlock": 50000,
+        "Image": "FocusEnduringTides.png",
+        "Name": "Enduring Tides",
+        "Introduced": "22",
+        "School": "Vazarin",
+        "Pool": "1 / 3 / 5 / 7 / 7",
+        "InternalName": "/Lotus/Upgrades/Focus/Defense/Stats/HealthMaxFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000 / 1,000,000 + 1x [[Brilliant Eidolon Shard]]"
+      },
+      "Guardian Blast": {
+        "Type": "Active",
+        "Description": "[[Void Blast]] consumes 25 energy for each ally hit within '''5m / 6m / 7m / 8m''' and grants them '''50 / 80 / 120 / 160''' shields.",
+        "Link": "Guardian Blast",
+        "Unlock": 50000,
+        "Image": "FocusGuardianBlast.png",
+        "Name": "Guardian Blast",
+        "Introduced": "22",
+        "School": "Vazarin",
+        "Pool": "1 / 3 / 5 / 7",
+        "InternalName": "/Lotus/Upgrades/Focus/Defense/Active/BlastAllyShieldFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000"
+      },
+      "Disarming Blast": {
+        "Type": "Active",
+        "Description": "Enemies hit by [[Void Blast]] have a '''10% / 15% / 20% / 25% / 35% / 50%''' chance to be disarmed.",
+        "Link": "Disarming Blast",
+        "Unlock": 50000,
+        "Image": "FocusDisarmingBlast.png",
+        "Name": "Disarming Blast",
+        "Introduced": "22",
+        "School": "Naramon",
+        "Pool": "1 / 3 / 5 / 7 / 9 / 11",
+        "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/BlastDisarmFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000 / 226,969 / 306,274"
+      },
+      "Phoenix Talons": {
+        "Type": "Passive",
+        "Description": "Physical Damage increased by '''10% / 15% / 20% / 25%'''.",
+        "Link": "Phoenix Talons",
+        "Unlock": 25000,
+        "Image": "FocusPhoenixTalons.png",
+        "Name": "Phoenix Talons",
+        "Introduced": "22",
+        "School": "Madurai",
+        "Pool": "1 / 2 / 3 / 4",
+        "InternalName": "/Lotus/Upgrades/Focus/Attack/Residual/PhysicalDamageFocusUpgrade",
+        "Rankup": "40,000 / 54,142 / 80,000"
+      },
+      "Disorienting Blast": {
+        "Type": "Active",
+        "Description": "[[Void Blast]] has a '''20% / 30% / 40% / 50%''' chance of confusing enemies for '''4s / 8s / 12s / 16s''', causing them to be unable to distinguish friend and foe.",
+        "Link": "Disorienting Blast",
+        "Unlock": 25000,
+        "Image": "FocusDisorientingBlast.png",
+        "Name": "Disorienting Blast",
+        "Introduced": "22",
+        "School": "Naramon",
+        "Pool": "1 / 2 / 3 / 4",
+        "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/BlastConfuseFocusUpgrade",
+        "Rankup": "40,000 / 54,142 / 80,000"
+      },
+      "Basilisk Gaze": {
+        "Type": "Way-Bound Passive",
+        "Description": "Increase the radius of [[Void Blast]] by '''15% / 30% / 45% / 60% / 60%'''.",
+        "Link": "Basilisk Gaze",
+        "Unlock": 50000,
+        "Image": "FocusBasiliskScalesGaze.png",
+        "Name": "Basilisk Gaze",
+        "Introduced": "22",
+        "School": "Unairu",
+        "Pool": "1 / 3 / 5 / 7 / 7",
+        "InternalName": "/Lotus/Upgrades/Focus/Ward/Stats/BlastRadiusFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000 / 1,000,000 + 1x [[Brilliant Eidolon Shard]]"
+      },
+      "Flame Blast": {
+        "Type": "Active",
+        "Description": "[[Void Blast]] releases a ball of fire that deals '''100% / 150% / 200% / 250%''' of the Void Blast damage and explodes after '''0.1 / 0.15 / 0.3 / 0.6'''s.",
+        "Link": "Flame Blast",
+        "Unlock": 50000,
+        "Image": "FocusFlameBlast.png",
+        "Name": "Flame Blast",
+        "Introduced": "22",
+        "School": "Madurai",
+        "Pool": "1 / 4 / 7 / 10",
+        "InternalName": "/Lotus/Upgrades/Focus/Attack/Active/BlastFireballFocusUpgrade",
+        "Rankup": "120,000 / 162,426 / 240,000"
+      },
+      "Sonic Dash": {
+        "Type": "Active",
+        "Description": "[[Void Dash]] no longer displaces enemies, instead it emits a shockwave '''8m / 10m / 12m / 14m''' wide and travels '''2m / 4m / 6m / 8m''' stunning any enemy it hits.",
+        "Link": "Sonic Dash",
+        "Unlock": 80000,
+        "Image": "FocusSonicDash.png",
+        "Name": "Sonic Dash",
+        "Introduced": "22",
+        "School": "Vazarin",
+        "Pool": "1 / 4 / 7 / 10",
+        "InternalName": "/Lotus/Upgrades/Focus/Defense/Active/DashShockwaveFocusUpgrade",
+        "Rankup": "120,000 / 162,426 / 240,000"
+      },
+      "Energizing Dash": {
+        "Type": "Active",
+        "Description": "[[Void Dash]] creates a zone of energy for '''4 / 4 / 5 / 5 / 6 / 8''' seconds. Allies passing through the zone gain '''3 / 3 / 4 / 4 / 5 / 5''' energy/second for '''10 / 15 / 20 / 22 / 25 / 30''' seconds.",
+        "Link": "Energizing Dash",
+        "Unlock": 50000,
+        "Image": "FocusEnergizingDash.png",
+        "Name": "Energizing Dash",
+        "Introduced": "22",
+        "School": "Zenurik",
+        "Pool": "1 / 3 / 5 / 7 / 9 / 11",
+        "InternalName": "/Lotus/Upgrades/Focus/Power/Active/DashBubbleFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000 / 226,969 / 306,274"
+      },
+      "Voltaic Blast": {
+        "Type": "Active",
+        "Description": "[[Void Blast]] creates a surge of electricity, zapping enemies within '''4 / 6 / 8 / 10''' meters for '''100% / 125% / 150% / 200%''' damage.",
+        "Link": "Voltaic Blast",
+        "Unlock": 50000,
+        "Image": "FocusVoltaicBlast.png",
+        "Name": "Voltaic Blast",
+        "Introduced": "22",
+        "School": "Zenurik",
+        "Pool": "1 / 3 / 5 / 7",
+        "InternalName": "/Lotus/Upgrades/Focus/Power/Active/BlastBurstFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000"
+      },
+      "Void Shadow": {
+        "Type": "Active",
+        "Description": "[[Void Mode]] now renders allies within '''10m / 20m / 30m / 40m''' invisible. This ability costs an additional '''1 / 2 / 3 / 4''' energy/s per ally cloaked.",
+        "Link": "Void Shadow",
+        "Unlock": 50000,
+        "Image": "FocusVoidShadow.png",
+        "Name": "Void Shadow",
+        "Introduced": "22",
+        "School": "Unairu",
+        "Pool": "1 / 3 / 5 / 7",
+        "InternalName": "/Lotus/Upgrades/Focus/Ward/Active/CloakAllyCloakFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000"
+      },
+      "Void Siphon": {
+        "Type": "Way-Bound Passive",
+        "Description": "Increase Operator Energy Regeneration by '''15% / 30% / 45% / 60% / 75% / 90% / 90%'''.",
+        "Link": "Void Siphon",
+        "Unlock": 50000,
+        "Image": "FocusVoidSiphon.png",
+        "Name": "Void Siphon",
+        "Introduced": "22",
+        "School": "Zenurik",
+        "Pool": "1 / 3 / 5 / 7 / 9 / 11 / 11",
+        "InternalName": "/Lotus/Upgrades/Focus/Power/Stats/EnergyRestoreFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000 / 226,969 / 306,274 / 1,000,000 + 1x [[Brilliant Eidolon Shard]]"
+      },
+      "Mind Sprint": {
+        "Type": "Way-Bound Passive",
+        "Description": "Increases the speed of [[Void Dash]] by '''20% / 40% / 60% / 80% / 100% / 120% / 120%'''.",
+        "Link": "Mind Sprint",
+        "Unlock": 50000,
+        "Image": "FocusMindSprint.png",
+        "Name": "Mind Sprint",
+        "Introduced": "22",
+        "School": "Naramon",
+        "Pool": "1 / 3 / 5 / 7 / 9 / 11 / 11",
+        "InternalName": "/Lotus/Upgrades/Focus/Tactic/Stats/DashSpeedFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000 / 226,969 / 306,274 / 1,000,000 + 1x [[Brilliant Eidolon Shard]]"
+      },
+      "Void Singularity": {
+        "Type": "Active",
+        "Description": "[[Void Mode]] pulls enemies within '''10 / 12 / 15 / 20''' meters towards the Operator, and costs an additional '''2 / 2 / 2 / 2''' energy/second.",
+        "Link": "Void Singularity",
+        "Unlock": 80000,
+        "Image": "FocusVoidSingularity.png",
+        "Name": "Void Singularity",
+        "Introduced": "22",
+        "School": "Zenurik",
+        "Pool": "1 / 4 / 7 / 10",
+        "InternalName": "/Lotus/Upgrades/Focus/Power/Active/CloakPullFocusUpgrade",
+        "Rankup": "120,000 / 162,426 / 240,000"
+      },
+      "Void Flow": {
+        "Type": "Way-Bound Passive",
+        "Description": "Increase Operator Energy by '''15% / 30% / 45% / 60% / 75% / 90% / 90%'''.",
+        "Link": "Void Flow",
+        "Unlock": 80000,
+        "Image": "FocusVoidFlow.png",
+        "Name": "Void Flow",
+        "Introduced": "22",
+        "School": "Zenurik",
+        "Pool": "1 / 4 / 7 / 10 / 13 / 16 / 16",
+        "InternalName": "/Lotus/Upgrades/Focus/Power/Stats/EnergyPoolFocusUpgrade",
+        "Rankup": "120,000 / 162,426 / 240,000 / 340,454 / 459,411 / 1,000,000 + 1x [[Brilliant Eidolon Shard]]"
+      },
+      "Temporal Blast": {
+        "Type": "Active",
+        "Description": "[[Void Blast]] slows enemies by '''20% / 30% / 40% / 50% / 60% / 80%''' for '''4 / 6 / 8 / 10 / 12 / 15''' seconds.",
+        "Link": "Temporal Blast",
+        "Unlock": 50000,
+        "Image": "FocusTemporalBlast.png",
+        "Name": "Temporal Blast",
+        "Introduced": "22",
+        "School": "Zenurik",
+        "Pool": "1 / 3 / 5 / 7 / 9 / 11",
+        "InternalName": "/Lotus/Upgrades/Focus/Power/Active/BlastSlowFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000 / 226,969 / 306,274"
+      },
+      "Void Stalker": {
+        "Type": "Active",
+        "Description": "[[Void Mode]] increases Critical Chance of melee attacks by up to '''20% / 30% / 40% / 50%''' over '''5s'''. This chance gradually decreases over '''5s / 10s / 15s / 20s''' when the Operator leaves Void Mode. This ability costs an additional '''1 / 2 / 3 / 4''' energy/s.",
+        "Link": "Void Stalker",
+        "Unlock": 50000,
+        "Image": "FocusVoidStalker.png",
+        "Name": "Void Stalker",
+        "Introduced": "22",
+        "School": "Naramon",
+        "Pool": "1 / 3 / 5 / 7",
+        "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/CloakMeleeCritFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000"
+      },
+      "Lightning Dash": {
+        "Type": "Active",
+        "Description": "Manifests ball lightning after a [[Void Dash]] that travels slowly and zaps enemies within '''4 / 8 / 12 / 16''' meters for '''200 / 400 / 600 / 800''' damage. Costs '''10''' energy",
+        "Link": "Lightning Dash",
+        "Unlock": 80000,
+        "Image": "FocusLightningDash.png",
+        "Name": "Lightning Dash",
+        "Introduced": "22",
+        "School": "Zenurik",
+        "Pool": "1 / 4 / 7 / 10",
+        "InternalName": "/Lotus/Upgrades/Focus/Power/Active/DashElectricityFocusUpgrade",
+        "Rankup": "120,000 / 162,426 / 240,000"
+      },
+      "Inner Might": {
+        "Type": "Passive",
+        "Description": "Increase Heavy Attack efficiency by '''10% / 20% / 30% / 40% / 50% / 60%'''.",
+        "Link": "Inner Might",
+        "Unlock": 50000,
+        "Image": "FocusInnerMight.png",
+        "Name": "Inner Might",
+        "Introduced": "22",
+        "School": "Zenurik",
+        "Pool": "1 / 3 / 5 / 7 / 9 / 11",
+        "InternalName": "/Lotus/Upgrades/Focus/Power/Residual/ChannelEfficiencyFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000 / 226,969 / 306,274"
+      },
+      "Magnetic Blast": {
+        "Type": "Active",
+        "Description": "Enemies hit by [[Void Blast]] are affected by [[Damage/Void Damage#Status Effects|Magnetize]] for '''4 / 6 / 8 / 10'''s.",
+        "Link": "Magnetic Blast",
+        "Unlock": 80000,
+        "Image": "FocusMagneticBlast.png",
+        "Name": "Magnetic Blast",
+        "Introduced": "22",
+        "School": "Unairu",
+        "Pool": "1 / 4 / 7 / 10",
+        "InternalName": "/Lotus/Upgrades/Focus/Ward/Active/BlastBulletAttractorFocusUpgrade",
+        "Rankup": "120,000 / 162,426 / 240,000"
+      },
+      "Surging Dash": {
+        "Type": "Active",
+        "Description": "Creates a wave while dashing, increasing the damage by '''5% / 10% / 15% / 20% / 25% / 30%''' and the area of effect around the Operator by '''2m / 4m / 6m / 8m / 10m / 12m'''.",
+        "Link": "Surging Dash",
+        "Unlock": 50000,
+        "Image": "FocusSurgingDash.png",
+        "Name": "Surging Dash",
+        "Introduced": "22",
+        "School": "Naramon",
+        "Pool": "1 / 3 / 5 / 7 / 9 / 11",
+        "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/DashWaveFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000 / 226,969 / 306,274"
+      },
+      "Energy Pulse": {
+        "Type": "Passive",
+        "Description": "Energy pickups grant '''25% / 30% / 35% / 40% / 45% / 50%''' additional energy over '''10 / 9 / 8 / 7 / 6 / 5''' seconds.",
+        "Link": "Energy Pulse",
+        "Unlock": 25000,
+        "Image": "FocusEnergyPulse.png",
+        "Name": "Energy Pulse",
+        "Introduced": "22",
+        "School": "Zenurik",
+        "Pool": "1 / 2 / 3 / 4 / 5 / 6",
+        "InternalName": "/Lotus/Upgrades/Focus/Power/Residual/EnergyOverTimeFocusUpgrade",
+        "Rankup": "40,000 / 54,142 / 80,000 / 113,485 / 153,137"
+      },
+      "Crippling Dash": {
+        "Type": "Active",
+        "Description": "Using [[Void Dash]] through an enemy will reduce their damage by''' 20% / 30% / 40% / 50%'''.",
+        "Link": "Crippling Dash",
+        "Unlock": 80000,
+        "Image": "FocusCripplingDash.png",
+        "Name": "Crippling Dash",
+        "Introduced": "22",
+        "School": "Unairu",
+        "Pool": "1 / 4 / 7 / 10",
+        "InternalName": "/Lotus/Upgrades/Focus/Ward/Active/DashReduceDamageFocusUpgrade",
+        "Rankup": "120,000 / 162,426 / 240,000"
+      },
+      "Void Regen": {
+        "Type": "Active",
+        "Description": "[[Void Mode]] heals '''+4 / +8 / +16 / +25''' health/s. This ability costs an additional 2 energy/s.",
+        "Link": "Void Regen",
+        "Unlock": 80000,
+        "Image": "FocusVoidRegen.png",
+        "Name": "Void Regen",
+        "Introduced": "22",
+        "School": "Vazarin",
+        "Pool": "1 / 4 / 7 / 10",
+        "InternalName": "/Lotus/Upgrades/Focus/Defense/Active/CloakHealFocusUpgrade",
+        "Rankup": "120,000 / 162,426 / 240,000"
+      },
+      "Guardian Shell": {
+        "Type": "Active",
+        "Description": "[[Void Blast]] can be charged to manifest a shield that drains energy for every '''150 / 200 / 250 / 300 / 350 / 400''' damage absorbed.",
+        "Link": "Guardian Shell",
+        "Unlock": 50000,
+        "Image": "FocusGuardianShell.png",
+        "Name": "Guardian Shell",
+        "Introduced": "22",
+        "School": "Vazarin",
+        "Pool": "1 / 3 / 5 / 7 / 9 / 11",
+        "InternalName": "/Lotus/Upgrades/Focus/Defense/Active/BlastSelfShieldFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000 / 226,969 / 306,274"
+      },
+      "Affinity Spike": {
+        "Type": "Passive",
+        "Description": "Kills from Melee Attacks grant '''10% / 15% / 20% / 25% / 35% / 45%''' more Melee Affinity.",
+        "Link": "Affinity Spike",
+        "Unlock": 25000,
+        "Image": "FocusAffinitySpike.png",
+        "Name": "Affinity Spike",
+        "Introduced": "22",
+        "School": "Naramon",
+        "Pool": "1 / 2 / 3 / 4 / 5 / 6",
+        "InternalName": "/Lotus/Upgrades/Focus/Tactic/Residual/MeleeXpFocusUpgrade",
+        "Rankup": "40,000 / 54,142 / 80,000 / 113,485 / 153,137"
+      },
+      "Protective Dash": {
+        "Type": "Active",
+        "Description": "Allies hit by [[Void Dash]] are granted immunity from damage for '''2s / 3s / 4s / 5s''' and healed '''25% / 35% / 45% / 60%''' over 5s.",
+        "Link": "Protective Dash",
+        "Unlock": 50000,
+        "Image": "FocusProtectiveDash.png",
+        "Name": "Protective Dash",
+        "Introduced": "22",
+        "School": "Vazarin",
+        "Pool": "1 / 3 / 5 / 7",
+        "InternalName": "/Lotus/Upgrades/Focus/Defense/Active/DashImmunityFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000"
+      },
+      "Rejuvenating Tides": {
+        "Type": "Way-Bound Passive",
+        "Description": "Increase health regeneration of the Operator by '''1 / 2 / 3 / 4 / 4 per second'''.",
+        "Link": "Rejuvenating Tides",
+        "Unlock": 80000,
+        "Image": "FocusRejuvenatingTides.png",
+        "Name": "Rejuvenating Tides",
+        "Introduced": "22",
+        "School": "Vazarin",
+        "Pool": "1 / 4 / 7 / 10 / 10",
+        "InternalName": "/Lotus/Upgrades/Focus/Defense/Stats/HealthRegenFocusUpgrade",
+        "Rankup": " 120,000 / 162,426 / 240,000 / 1,000,000 + 1x [[Brilliant Eidolon Shard]]"
+      },
+      "Void Aegis": {
+        "Type": "Active",
+        "Description": "[[Void Mode]] creates a shield that grows up to '''5m / 8m / 10m / 12m''' over 5s. This ability costs an additional 2 energy/s.",
+        "Link": "Void Aegis",
+        "Unlock": 50000,
+        "Image": "FocusVoidAegis.png",
+        "Name": "Void Aegis",
+        "Introduced": "22",
+        "School": "Vazarin",
+        "Pool": "1 / 3 / 5 / 7",
+        "InternalName": "/Lotus/Upgrades/Focus/Defense/Active/CloakShieldFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000"
+      },
+      "Void Hunter": {
+        "Type": "Active",
+        "Description": "[[Void Mode]] reveals enemies within '''10m / 12m / 18m / 25m''' through walls. This range gradually decreases over '''2s / 3s / 4s / 5s''' when the Operator leaves [[Void Mode]]. This ability costs an additional '''2 / 2 / 1 / 1''' energy per second.",
+        "Link": "Void Hunter",
+        "Unlock": 50000,
+        "Image": "FocusVoidHunter.png",
+        "Name": "Void Hunter",
+        "Introduced": "22",
+        "School": "Naramon",
+        "Pool": "1 / 3 / 5 / 7",
+        "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/CloakRevealFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000"
+      },
+      "Stone Skin": {
+        "Type": "Passive",
+        "Description": "Increase armor for Warframe and operator by '''20 / 30 / 40 / 60'''.",
+        "Link": "Stone Skin",
+        "Unlock": 50000,
+        "Image": "FocusStoneSkin.png",
+        "Name": "Stone Skin",
+        "Introduced": "22",
+        "School": "Unairu",
+        "Pool": "1 / 3 / 5 / 7",
+        "InternalName": "/Lotus/Upgrades/Focus/Ward/Residual/ArmourBuffFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000"
+      },
+      "Mending Unity": {
+        "Type": "Passive",
+        "Description": "Increase affinity radius by '''10m / 15m / 20m / 25m'''.",
+        "Link": "Mending Unity",
+        "Unlock": 25000,
+        "Image": "FocusMendingUnity.png",
+        "Name": "Mending Unity",
+        "Introduced": "22",
+        "School": "Vazarin",
+        "Pool": "1 / 2 / 3 / 4",
+        "InternalName": "/Lotus/Upgrades/Focus/Defense/Residual/RadialXpFocusUpgrade",
+        "Rankup": "40,000 / 54,142 / 80,000"
+      },
+      "Blazing Dash": {
+        "Type": "Active",
+        "Description": "[[Void Dash]] leaves a trail of fire that deals '''100 / 200 / 300 / 400 / 600 / 1000''' damage/s over '''3 / 6 / 9 / 12 / 12 / 14'''s. Void Dash will now stun enemies instead of displacing them.",
+        "Link": "Blazing Dash",
+        "Unlock": 50000,
+        "Image": "FocusBlazingDash.png",
+        "Name": "Blazing Dash",
+        "Introduced": "22",
+        "School": "Madurai",
+        "Pool": "1 / 3 / 5 / 7 / 9 / 11",
+        "InternalName": "/Lotus/Upgrades/Focus/Attack/Active/DashFireFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000 / 226,969 / 306,274"
+      },
+      "Mending Soul": {
+        "Type": "Passive",
+        "Description": "The next '''1 / 2 / 3 / 4''' revives are instantaneous.",
+        "Link": "Mending Soul",
+        "Unlock": 50000,
+        "Image": "FocusMendingSoul.png",
+        "Name": "Mending Soul",
+        "Introduced": "22",
+        "School": "Vazarin",
+        "Pool": "1 / 3 / 5 / 7",
+        "InternalName": "/Lotus/Upgrades/Focus/Defense/Residual/InstantReviveFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000"
+      },
+      "Void Static": {
+        "Type": "Active",
+        "Description": "[[Void Mode]] emits a pulse that deals '''200 / 300 / 400 / 500''' damage/second over '''8 / 10 / 12 / 15''' meters and costs an additional '''2 / 2 / 2 / 1''' energy/second.",
+        "Link": "Void Static",
+        "Unlock": 50000,
+        "Image": "FocusVoidStatic.png",
+        "Name": "Void Static",
+        "Introduced": "22",
+        "School": "Zenurik",
+        "Pool": "1 / 3 / 5 / 7",
+        "InternalName": "/Lotus/Upgrades/Focus/Power/Active/CloakStaticFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000"
+      },
+      "Void Chrysalis": {
+        "Type": "Active",
+        "Description": "[[Void Mode]] reduces damage taken by invisible allies within '''10m / 15m / 20m / 25m''' by '''20% / 40% / 60% / 80%'''. This ability costs an additional '''1 / 2 / 3 / 4''' energy/s.",
+        "Link": "Void Chrysalis",
+        "Unlock": 50000,
+        "Image": "FocusVoidChrysalis.png",
+        "Name": "Void Chrysalis",
+        "Introduced": "22",
+        "School": "Unairu",
+        "Pool": "1 / 3 / 5 / 7",
+        "InternalName": "/Lotus/Upgrades/Focus/Ward/Active/CloakReduceDamageFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000"
+      },
+      "Sundering Dash": {
+        "Type": "Active",
+        "Description": "Using [[Void Dash]] through an enemy will reduce their armor by '''10% / 20% / 30% / 40% / 50% / 75%'''.",
+        "Link": "Sundering Dash",
+        "Unlock": 80000,
+        "Image": "FocusSunderingDash.png",
+        "Name": "Sundering Dash",
+        "Introduced": "22",
+        "School": "Unairu",
+        "Pool": "1 / 4 / 7 / 10 / 13 / 16",
+        "InternalName": "/Lotus/Upgrades/Focus/Ward/Active/DashReduceArmourFocusUpgrade",
+        "Rankup": "120,000 / 162,426 / 240,000 / 340,454 / 459,411"
+      },
+      "Rising Blast": {
+        "Type": "Active",
+        "Description": "Increase damage of [[Void Blast]] by '''50% / 100% / 150% / 200%''' and it can now be charged to deal additional damage.",
+        "Link": "Rising Blast",
+        "Unlock": 80000,
+        "Image": "FocusRisingBlast.png",
+        "Name": "Rising Blast",
+        "Introduced": "22",
+        "School": "Madurai",
+        "Pool": "1 / 3 / 5 / 7",
+        "InternalName": "/Lotus/Upgrades/Focus/Attack/Active/BlastChargeFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000"
+      },
+      "Void Radiance": {
+        "Type": "Active",
+        "Description": "Consumes '''25 / 30 / 45 / 50''' energy on leaving [[Void Mode]] to blind enemies within '''4 / 6 / 8 / 10'''m for '''2 / 3 / 4 / 5'''s.",
+        "Link": "Void Radiance",
+        "Unlock": 50000,
+        "Image": "FocusVoidRadiance.png",
+        "Name": "Void Radiance",
+        "Introduced": "22",
+        "School": "Madurai",
+        "Pool": "1 / 3 / 5 / 7",
+        "InternalName": "/Lotus/Upgrades/Focus/Attack/Active/CloakBlindFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000"
+      },
+      "Mind Step": {
+        "Type": "Way-Bound Passive",
+        "Description": "Increase the movement speed of the Operator by '''7% / 15% / 22% / 30% / 30%'''.",
+        "Link": "Mind Step",
+        "Unlock": 50000,
+        "Image": "FocusMindStep.png",
+        "Name": "Mind Step",
+        "Introduced": "22",
+        "School": "Naramon",
+        "Pool": "1 / 3 / 5 / 7 / 7",
+        "InternalName": "/Lotus/Upgrades/Focus/Tactic/Stats/MoveSpeedFocusUpgrade",
+        "Rankup": "80,000 / 108,284 / 160,000 / 1,000,000 + 1x [[Brilliant Eidolon Shard]]"
+      }
+    },
+    "Symbols": {
+      "Focus Points": {
+        "Name": "Focus Points",
+        "Image": "FocusLensFocus_b.png",
+        "Description": "Basic unit of Focus for unlocking Focus Ways. Equip Focus Lens on max-ranked items to convert excess Affinity into Focus Points.",
+        "Link": "Focus"
+      },
+      "Focus Pool": {
+        "Name": "Focus Pool",
+        "Image": "FocusPool.png",
+        "Description": "Represents Focus Way capacity that limits the number and types of active Ways for an equipped Focus School.",
+        "Link": "Focus"
+      }
+    }
+  },
+  "Focus 1.0": {
+    "Ways": {
+      "Energy Spike": "FocusIcon23_b.png",
+      "Commanding Words": "FocusIcon11_b.png",
+      "Crushing Force": "FocusIcon75_b.png",
+      "Temporal Storm": "FocusIcon29_b.png",
+      "Void Pulse Mastery": "FocusIcon99_b.png",
+      "Basilisk Flare Mastery": "FocusIcon95_b.png",
+      "Phoenix Flash": "FocusIcon09_b.png",
+      "Chimera Breath": "FocusIcon123_b.png",
+      "Stone Shape": "FocusIcon68_b.png",
+      "Magnetic Aftershock": "FocusIcon20_b.png",
+      "Eroded Defenses": "FocusIcon80_b.png",
+      "Scorched Earth": "FocusIcon72_b.png",
+      "Strengthen Defenses": "FocusIcon118_b.png",
+      "Dragon Fire": "FocusIcon103_b.png",
+      "EXAMPLE": "FocusIcon_b.png",
+      "Blazing Fury": "FocusIcon136_b.png",
+      "Phoenix Gaze Mastery": "FocusIcon90_b.png",
+      "Stone Armor": "FocusIcon71_b.png",
+      "Time Stream": "FocusIcon27_b.png",
+      "Protection Ward": "FocusIcon111_b.png",
+      "Meteorite": "FocusIcon102_b.png",
+      "Tactical Strike": "FocusIcon40_b.png",
+      "Energy Overflow": "FocusIcon26_b.png",
+      "Rising Ashes": "FocusIcon07_b.png",
+      "Medusa Skin": "FocusIcon92_b.png",
+      "Systemic Override": "FocusIcon25_b.png",
+      "Lasting Judgement": "FocusIcon74_b.png",
+      "Mind Blast": "FocusIcon41_b.png",
+      "Searing Wrath": "FocusIcon126_b.png",
+      "Burning Rage": "FocusIcon122_b.png",
+      "Guardian Presence": "FocusIcon112_b.png",
+      "Hades Touch": "FocusIcon105_b.png",
+      "Polluted Waters": "FocusIcon117_b.png",
+      "Mind Spike Mastery": "FocusIcon85_b.png",
+      "New Moon": "FocusIcon03_b.png",
+      "Reveal Weakness": "FocusIcon45_b.png",
+      "Traumatic Redirection": "FocusIcon51_b.png",
+      "Sundering Blast": "FocusIcon48_b.png",
+      "Mending Tides Mastery": "FocusIcon94_b.png",
+      "Weight of Justice": "FocusIcon82_b.png",
+      "Mending Shower": "FocusIcon115_b.png",
+      "Disciplined Approach": "FocusIcon108_b.png",
+      "Deadly Intent": "FocusIcon54_b.png",
+      "Mighty Blows": "FocusIcon78_b.png",
+      "Strategic Execution": "FocusIcon56_b.png",
+      "Energy Surge": "FocusIcon24_b.png",
+      "Retaliation": "FocusIcon11_b.png",
+      "Rift Sight": "FocusIcon32_b.png",
+      "Umbra Lance": "FocusIcon28_b.png",
+      "Shadow Step": "FocusIcon49_b.png",
+      "Cloaking Aura": "FocusIcon43_b.png"
+    },
+    "Focus": {
+      "Naramon": {
+        "icon": [
+          "FocusLensNaramon_b.png",
+          "FocusLensNaramon.png"
+        ],
+        "seal": [
+          "SealNaramonTree_b.png",
+          "SealNaramonTree.png"
+        ]
+      },
+      "Vazarin": {
+        "icon": [
+          "FocusLensVazarin_b.png",
+          "FocusLensVazarin.png"
+        ],
+        "seal": [
+          "SealVazarinWave_b.png",
+          "SealVazarinWave.png"
+        ]
+      },
+      "Pool": {
+        "icon": [
+          "FocusPool.png",
+          "FocusPool_White.png"
+        ],
+        "seal": [
+          ""
+        ]
+      },
+      "Focus Points": {
+        "icon": [
+          "FocusLensFocus_b.png",
+          "FocusLensFocus.png"
+        ],
+        "seal": [
+          ""
+        ]
+      },
+      "Unairu": {
+        "icon": [
+          "FocusLensUnairu_b.png",
+          "FocusLensUnairu.png"
+        ],
+        "seal": [
+          "SealUnairuMountain_b.png",
+          "SealUnairuMountain.png"
+        ]
+      },
+      "Zenurik": {
+        "icon": [
+          "FocusLensZenurik_b.png",
+          "FocusLensZenurik.png"
+        ],
+        "seal": [
+          "SealZenurikCrystal_b.png",
+          "SealZenurikCrystal.png"
+        ]
+      },
+      "Madurai": {
+        "icon": [
+          "FocusLensMadurai_b.png",
+          "FocusLensMadurai.png"
+        ],
+        "seal": [
+          "SealMaduraiCloud_b.png",
+          "SealMaduraiCloud.png"
+        ]
+      }
+    }
+  }
+}

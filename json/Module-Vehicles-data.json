@@ -1,0 +1,99 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Vehicles/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:44:29.235Z"
+  },
+  "_comments": "\t\t\t\t--Armor = {},\n\t\t\t\t--Health = {},\n\t\t\t\t--Planets = {},\n\t\t\t\t--Shield = {},\n\t\t\t\t--Abilities = { \"1\", \"2\", \"3\", \"4\" },\n\t\t\t\t--Armor = 100,\n\t\t\t\t--Energy = 100,\n\t\t\t\t--Health = 100,\n\t\t\t\t--InternalName = \"/Lotus/Powersuits/xxx (I have no idea)\",\n\t\t\t\t--MissionsExclusive = {},\n\t\t\t\t--Shield = 100,",
+  "Vehicles": {
+    "Kaithe": {
+      "SummonAbility": [
+        "Summon Kaithe"
+      ],
+      "Description": "Count on the loyal steeds of Duviri in peace and battle.",
+      "Missions": [
+        "Free Roam",
+        "Duviri"
+      ],
+      "Boost": 14,
+      "Image": "KaitheIcon.png",
+      "Introduced": "33",
+      "IsModdable": false,
+      "MissionNames": {},
+      "SummonGear": [
+        "Kaithe Summon"
+      ],
+      "TileSets": {},
+      "Speed": 7,
+      "Abilities": [
+        "Summon Kaithe",
+        "Guiding Hand",
+        "Hoof Stomp",
+        "Steadfast Dismount"
+      ],
+      "HasCustomVariants": false,
+      "Planets": {},
+      "SmallPortrait": "KaitheSummon.png",
+      "Name": "Kaithe",
+      "CodexSecret": true
+    },
+    "K-Drive": {
+      "TileSets": {},
+      "SummonAbility": {},
+      "Description": "Summons an K-Drive for use during free roam missions.",
+      "Missions": [
+        "Free Roam"
+      ],
+      "SummonGear": [
+        "K-Drive Launcher"
+      ],
+      "Boost": 21,
+      "Speed": 18,
+      "SmallPortrait": "K-DriveLauncher.png",
+      "Planets": {},
+      "Image": "Mesa_on_K-drive.jpeg",
+      "Name": "K-Drive",
+      "HasCustomVariants": true,
+      "IsModdable": true,
+      "MissionNames": {},
+      "Introduced": "24",
+      "CodexSecret": true
+    },
+    "Atomicycle": {
+      "SummonAbility": {},
+      "Description": "'''Atomicycles''' are sports bikes from the year of 1999. The currently known model, the '''1999 MK III''', is manufactured by '''ZeViLa Inc'''.",
+      "Missions": [
+        "Free Roam",
+        "Star Chart"
+      ],
+      "Boost": 30,
+      "Image": "atomicycle-promo-shot.png",
+      "Introduced": "38",
+      "IsModdable": false,
+      "InternalName": "",
+      "MissionNames": {},
+      "SummonGear": [
+        "Atomicycle Summon"
+      ],
+      "TileSets": {},
+      "Speed": 20,
+      "MissionsExclusive": [
+        "Archwing",
+        "Empyrean"
+      ],
+      "Abilities": [
+        "Atomi-Boost",
+        "Atomi-Barrage",
+        "Atomi-Shadow",
+        "Atomi-Bomb"
+      ],
+      "HasCustomVariants": false,
+      "SmallPortrait": "AtomicycleSummon.png",
+      "Name": "Atomicycle",
+      "Energy": 100,
+      "CodexSecret": true
+    }
+  }
+}

@@ -1,0 +1,1684 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:DojoRoom/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:35:04.164Z"
+  },
+  "_comments": "",
+  "Stone Sand Garden": {
+    "Description": "A simple stone path sand garden.",
+    "Image": "Room Stone Sand Garden.png",
+    "Name": "Stone Sand Garden",
+    "Cost": {
+      "DecoCap": 400,
+      "Time": 12,
+      "Energy": -6,
+      "Capacity": -10,
+      "Resources": [
+        {
+          "Count": 650,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 500,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 200,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.08,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 4,
+      "Credits": 750
+    }
+  },
+  "Humilitas Water Garden": {
+    "Description": "A stone path water garden with light vegetation.",
+    "Image": "Room Humilitas Water Garden.png",
+    "Name": "Humilitas Water Garden",
+    "Cost": {
+      "DecoCap": 400,
+      "Time": 12,
+      "Energy": -6,
+      "Capacity": -10,
+      "Resources": [
+        {
+          "Count": 650,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 550,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 2000,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.08,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 4,
+      "Credits": 750
+    }
+  },
+  "Earth Forest Chamber": {
+    "Description": "An Earth forest biome.",
+    "Image": "Room Earth Forest Chamber.png",
+    "Name": "Earth Forest Chamber",
+    "Cost": {
+      "DecoCap": 1600,
+      "Time": 24,
+      "Energy": -5,
+      "Capacity": 200,
+      "Resources": [
+        {
+          "Count": 800,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 200,
+          "Name": "Circuits"
+        },
+        {
+          "Count": 500,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 0.05,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 10,
+      "Credits": 1000
+    }
+  },
+  "Obstacle Course": {
+    "Description": "An Obstacle Course training room to practice your Warframes mobility.",
+    "Image": "Room Obstacle Course.png",
+    "Name": "Obstacle Course",
+    "Cost": {
+      "DecoCap": 0,
+      "Time": 24,
+      "Energy": -10,
+      "Capacity": -10,
+      "Resources": [
+        {
+          "Count": 650,
+          "Name": "Alloy Plate"
+        },
+        {
+          "Count": 400,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 1200,
+          "Name": "Rubedo"
+        },
+        {
+          "Count": 0.15,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 1,
+      "Credits": 1000
+    }
+  },
+  "Cross Connector": {
+    "Description": "Connector pieces are a key component in organizing your structure.",
+    "Image": "Room Cross Connector.png",
+    "Name": "Cross Connector",
+    "Cost": {
+      "DecoCap": 200,
+      "Time": 12,
+      "Energy": -3,
+      "Capacity": -10,
+      "Resources": [
+        {
+          "Count": 650,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 350,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 1200,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.05,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 4,
+      "Credits": 500
+    }
+  },
+  "Equinox Water Garden": {
+    "Description": "A wooden water garden path with light vegetation.",
+    "Image": "Room Equinox Water Garden.png",
+    "Name": "Equinox Water Garden",
+    "Cost": {
+      "DecoCap": 400,
+      "Time": 12,
+      "Energy": -6,
+      "Capacity": -10,
+      "Resources": [
+        {
+          "Count": 650,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 550,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 2000,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.08,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 4,
+      "Credits": 750
+    }
+  },
+  "Vosen Water Garden": {
+    "Description": "A large stone path water garden.",
+    "Image": "Room Vosen Water Garden.png",
+    "Name": "Vosen Water Garden",
+    "Cost": {
+      "DecoCap": 500,
+      "Time": 12,
+      "Energy": -8,
+      "Capacity": -15,
+      "Resources": [
+        {
+          "Count": 850,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 750,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 2500,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.1,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 4,
+      "Credits": 1000
+    }
+  },
+  "Great Hall": {
+    "Description": "An even larger hall.",
+    "Image": "Room Great Hall.png",
+    "Name": "Great Hall",
+    "Cost": {
+      "DecoCap": 700,
+      "Time": 24,
+      "Energy": -2,
+      "Capacity": 200,
+      "Resources": [
+        {
+          "Count": 150,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 600,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 300,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.25,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 2,
+      "Credits": 1000
+    }
+  },
+  "Orokin Entrati Audience Chamber": {
+    "Description": "A grand room in the style of the Entrati holdings on Deimos.",
+    "Image": "Room Orokin Entrati Audience Chamber.png",
+    "Name": "Orokin Entrati Audience Chamber",
+    "Cost": {
+      "DecoCap": 1600,
+      "Time": 24,
+      "Energy": -2,
+      "Capacity": 200,
+      "Resources": [
+        {
+          "Count": 800,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 200,
+          "Name": "Circuits"
+        },
+        {
+          "Count": 500,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 0.05,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 6,
+      "Credits": 1000
+    }
+  },
+  "Observatory": {
+    "Description": "A place to contemplate the depths of space.",
+    "Image": "Room Observatory.png",
+    "Name": "Observatory",
+    "Cost": {
+      "DecoCap": 800,
+      "Time": 24,
+      "Energy": -5,
+      "Capacity": -2,
+      "Resources": [
+        {
+          "Count": 800,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 200,
+          "Name": "Circuits"
+        },
+        {
+          "Count": 500,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 0.05,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 1,
+      "Credits": 1000
+    }
+  },
+  "Temple Of Honor": {
+    "Description": "A place to meditate on the achievements of the past.",
+    "Image": "Room Temple Of Honor.png",
+    "Name": "Temple Of Honor",
+    "Cost": {
+      "DecoCap": 800,
+      "Time": 24,
+      "Energy": -5,
+      "Capacity": -2,
+      "Resources": [
+        {
+          "Count": 800,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 200,
+          "Name": "Circuits"
+        },
+        {
+          "Count": 150,
+          "Name": "Alloy Plate"
+        },
+        {
+          "Count": 0.1,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 4,
+      "Credits": 1000
+    }
+  },
+  "Grandest Hall": {
+    "Description": "The most majestic hall available.",
+    "Image": "Room Grandest Hall.png",
+    "Name": "Grandest Hall",
+    "Cost": {
+      "DecoCap": 1000,
+      "Time": 24,
+      "Energy": -2,
+      "Capacity": 200,
+      "Resources": [
+        {
+          "Count": 150,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 600,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 300,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.25,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 6,
+      "Credits": 1000
+    }
+  },
+  "Castitas Water Garden": {
+    "Description": "A simple stone path water garden.",
+    "Image": "Room Castitas Water Garden.png",
+    "Name": "Castitas Water Garden",
+    "Cost": {
+      "DecoCap": 400,
+      "Time": 12,
+      "Energy": -6,
+      "Capacity": -10,
+      "Resources": [
+        {
+          "Count": 650,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 550,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 2000,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.08,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 4,
+      "Credits": 750
+    }
+  },
+  "Caritas Water Garden": {
+    "Description": "A wooden water garden path with light vegetation.",
+    "Image": "Room Caritas Water Garden.png",
+    "Name": "Caritas Water Garden",
+    "Cost": {
+      "DecoCap": 500,
+      "Time": 12,
+      "Energy": -8,
+      "Capacity": -15,
+      "Resources": [
+        {
+          "Count": 850,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 750,
+          "Name": "Polymer Bundle"
+        },
+        {
+          "Count": 2500,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.1,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 4,
+      "Credits": 1000
+    }
+  },
+  "Autumn Garden Stone": {
+    "Description": "A stone path autumn garden.",
+    "Image": "Room Autumn Garden Stone.png",
+    "Name": "Autumn Garden Stone",
+    "Cost": {
+      "DecoCap": 400,
+      "Time": 12,
+      "Energy": -6,
+      "Capacity": -10,
+      "Resources": [
+        {
+          "Count": 650,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 550,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 2000,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.08,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 4,
+      "Credits": 750
+    }
+  },
+  "Extended Straight Hallway": {
+    "Description": "Connector pieces are a key component in organizing your structure.",
+    "Image": "Room Extended Straight Hallway.png",
+    "Name": "Extended Straight Hallway",
+    "Cost": {
+      "DecoCap": 200,
+      "Time": 12,
+      "Energy": -2,
+      "Capacity": -2,
+      "Resources": [
+        {
+          "Count": 650,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 350,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 1200,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.05,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 2,
+      "Credits": 500
+    }
+  },
+  "Dry Dock": {
+    "Description": "Construct, manage, and launch a Railjack.",
+    "Image": "Room Dry Dock.png",
+    "Name": "Dry Dock",
+    "Cost": {
+      "DecoCap": 400,
+      "Time": 24,
+      "Energy": -6,
+      "Capacity": -20,
+      "Resources": [
+        {
+          "Count": 25000,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 850,
+          "Name": "Circuits"
+        },
+        {
+          "Count": 15,
+          "Name": "Tellurium"
+        },
+        {
+          "Count": 0.15,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 3,
+      "Credits": 100000
+    }
+  },
+  "Mountain Barracks": {
+    "Description": "The Mountain Barracks increase your clan's maximum member size to 300 (Mountain Clan).",
+    "Image": "Room Mountain Barracks.png",
+    "Name": "Mountain Barracks",
+    "Cost": {
+      "DecoCap": 300,
+      "Time": 24,
+      "Energy": -1,
+      "Capacity": -1,
+      "Resources": [
+        {
+          "Count": 150,
+          "Name": "Alloy Plate"
+        },
+        {
+          "Count": 600,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 300,
+          "Name": "Rubedo"
+        },
+        {
+          "Count": 0.25,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 1,
+      "Credits": 1000
+    }
+  },
+  "Ventkids' Bash Lab": {
+    "Description": "Throw some skeg and bash out a primo Ventkid design or the latest gizmo they nicked from Nef.",
+    "Image": "Room Ventkids' Bash Lab.png",
+    "Name": "Ventkids' Bash Lab",
+    "Cost": {
+      "DecoCap": 300,
+      "Time": 24,
+      "Energy": -5,
+      "Capacity": -2,
+      "Resources": [
+        {
+          "Count": 450,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 250,
+          "Name": "Circuits"
+        },
+        {
+          "Count": 100,
+          "Name": "Thermal Sludge"
+        },
+        {
+          "Count": 0.1,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 1,
+      "Credits": 1000
+    }
+  },
+  "Obstacle Course Architect": {
+    "Description": "Design and build a custom obstacle course and compete for the fastest time.",
+    "Image": "Room Obstacle Course Architect.png",
+    "Name": "Obstacle Course Architect",
+    "Cost": {
+      "DecoCap": 640,
+      "Time": 24,
+      "Energy": -2,
+      "Capacity": 0,
+      "Resources": [
+        {
+          "Count": 150,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 600,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 300,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.25,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 1,
+      "Credits": 1000
+    }
+  },
+  "Orokin Lab": {
+    "Description": "Void focused research.",
+    "Image": "Room Orokin Lab.png",
+    "Name": "Orokin Lab",
+    "Cost": {
+      "DecoCap": 300,
+      "Time": 24,
+      "Energy": -5,
+      "Capacity": -2,
+      "Resources": [
+        {
+          "Count": 800,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 350,
+          "Name": "Circuits"
+        },
+        {
+          "Count": 350,
+          "Name": "Polymer Bundle"
+        },
+        {
+          "Count": 0.15,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 1,
+      "Credits": 1000
+    }
+  },
+  "Uranus Chamber": {
+    "Description": "A Uranus biome.",
+    "Image": "Room Uranus Chamber.png",
+    "Name": "Uranus Chamber",
+    "Cost": {
+      "DecoCap": 1600,
+      "Time": 24,
+      "Energy": -5,
+      "Capacity": 200,
+      "Resources": [
+        {
+          "Count": 800,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 200,
+          "Name": "Circuits"
+        },
+        {
+          "Count": 500,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 0.05,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 6,
+      "Credits": 1000
+    }
+  },
+  "Tenno Lab": {
+    "Description": "Allows for the research of Warframes and Tenno-based weaponry research projects.",
+    "Image": "Room Tenno Lab.png",
+    "Name": "Tenno Lab",
+    "Cost": {
+      "DecoCap": 300,
+      "Time": 24,
+      "Energy": -5,
+      "Capacity": -2,
+      "Resources": [
+        {
+          "Count": 650,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 350,
+          "Name": "Circuits"
+        },
+        {
+          "Count": 350,
+          "Name": "Polymer Bundle"
+        },
+        {
+          "Count": 0.15,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 1,
+      "Credits": 1000
+    }
+  },
+  "Industria Water Garden": {
+    "Description": "A stone path water garden with heavy vegetation.",
+    "Image": "Room Industria Water Garden.png",
+    "Name": "Industria Water Garden",
+    "Cost": {
+      "DecoCap": 400,
+      "Time": 12,
+      "Energy": -6,
+      "Capacity": -10,
+      "Resources": [
+        {
+          "Count": 650,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 500,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 2000,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.08,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 4,
+      "Credits": 750
+    }
+  },
+  "Kuva Asteroid": {
+    "Description": "A fortress in an asteroid.",
+    "Image": "Room Kuva Asteroid.png",
+    "Name": "Kuva Asteroid",
+    "Cost": {
+      "DecoCap": 1600,
+      "Time": 24,
+      "Energy": -5,
+      "Capacity": 200,
+      "Resources": [
+        {
+          "Count": 800,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 200,
+          "Name": "Circuits"
+        },
+        {
+          "Count": 500,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 0.05,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 6,
+      "Credits": 1000
+    }
+  },
+  "Clan Hall": {
+    "Description": "A fine centerpiece room for your dojo",
+    "Image": "Room Clan Hall.png",
+    "Name": "Clan Hall",
+    "Cost": {
+      "DecoCap": 600,
+      "Time": 24,
+      "Energy": 5,
+      "Capacity": 100,
+      "Resources": [
+        {
+          "Count": 150,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 600,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 300,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.25,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 2,
+      "Credits": 1000
+    }
+  },
+  "Energy Lab": {
+    "Description": "Allows for energy focused research projects.",
+    "Image": "Room Energy Lab.png",
+    "Name": "Energy Lab",
+    "Cost": {
+      "DecoCap": 300,
+      "Time": 24,
+      "Energy": -5,
+      "Capacity": -2,
+      "Resources": [
+        {
+          "Count": 650,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 350,
+          "Name": "Circuits"
+        },
+        {
+          "Count": 350,
+          "Name": "Polymer Bundle"
+        },
+        {
+          "Count": 0.15,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 1,
+      "Credits": 1000
+    }
+  },
+  "Chem Lab": {
+    "Description": "Allows for chemically focused research projects.",
+    "Image": "Room Chem Lab.png",
+    "Name": "Chem Lab",
+    "Cost": {
+      "DecoCap": 300,
+      "Time": 24,
+      "Energy": -5,
+      "Capacity": -2,
+      "Resources": [
+        {
+          "Count": 650,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 350,
+          "Name": "Circuits"
+        },
+        {
+          "Count": 350,
+          "Name": "Polymer Bundle"
+        },
+        {
+          "Count": 0.15,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 1,
+      "Credits": 1000
+    }
+  },
+  "Leto Garden": {
+    "Description": "A garden featuring a flowing creek.",
+    "Image": "Room Leto Garden.png",
+    "Name": "Leto Garden",
+    "Cost": {
+      "DecoCap": 500,
+      "Time": 12,
+      "Energy": -8,
+      "Capacity": -15,
+      "Resources": [
+        {
+          "Count": 850,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 750,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 2500,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.1,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 4,
+      "Credits": 1000
+    }
+  },
+  "Shadow Barracks": {
+    "Description": "The Shadow Barracks increase your clan's maximum member size to 30 (Shadow Clan).",
+    "Image": "Room Shadow Barracks.png",
+    "Name": "Shadow Barracks",
+    "Cost": {
+      "DecoCap": 300,
+      "Time": 24,
+      "Energy": -1,
+      "Capacity": -1,
+      "Resources": [
+        {
+          "Count": 150,
+          "Name": "Alloy Plate"
+        },
+        {
+          "Count": 600,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 300,
+          "Name": "Rubedo"
+        },
+        {
+          "Count": 0.25,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 1,
+      "Credits": 1000
+    }
+  },
+  "Grand Hall": {
+    "Description": "An opulent space for your clan.",
+    "Image": "Room Grand Hall.png",
+    "Name": "Grand Hall",
+    "Cost": {
+      "DecoCap": 900,
+      "Time": 24,
+      "Energy": -2,
+      "Capacity": 200,
+      "Resources": [
+        {
+          "Count": 150,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 600,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 300,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.25,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 6,
+      "Credits": 1000
+    }
+  },
+  "Mosaic Garden": {
+    "Description": "A garden featuring a unique arrangement of ornaments.",
+    "Image": "Room Mosaic Garden.png",
+    "Name": "Mosaic Garden",
+    "Cost": {
+      "DecoCap": 500,
+      "Time": 12,
+      "Energy": -8,
+      "Capacity": -15,
+      "Resources": [
+        {
+          "Count": 800,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 800,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 10,
+          "Name": "Plastids"
+        },
+        {
+          "Count": 0.1,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 4,
+      "Credits": 1000
+    }
+  },
+  "Starlight Market": {
+    "Description": "A large Corpus market hall with a view of the stars.",
+    "Image": "Room Starlight Market.png",
+    "Name": "Starlight Market",
+    "Cost": {
+      "DecoCap": 1600,
+      "Time": 24,
+      "Energy": -5,
+      "Capacity": 200,
+      "Resources": [
+        {
+          "Count": 800,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 200,
+          "Name": "Circuits"
+        },
+        {
+          "Count": 500,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 0.05,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 6,
+      "Credits": 1000
+    }
+  },
+  "Bio Lab": {
+    "Description": "Allows for biologically focused reseach projects.",
+    "Image": "Room Bio Lab.png",
+    "Name": "Bio Lab",
+    "Cost": {
+      "DecoCap": 300,
+      "Time": 24,
+      "Energy": -5,
+      "Capacity": -2,
+      "Resources": [
+        {
+          "Count": 650,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 350,
+          "Name": "Circuits"
+        },
+        {
+          "Count": 350,
+          "Name": "Polymer Bundle"
+        },
+        {
+          "Count": 0.15,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 1,
+      "Credits": 1000
+    }
+  },
+  "Soleto Garden": {
+    "Description": "A sand garden featuring a flowing creek.",
+    "Image": "Room Soleto Garden.png",
+    "Name": "Soleto Garden",
+    "Cost": {
+      "DecoCap": 500,
+      "Time": 12,
+      "Energy": -8,
+      "Capacity": -15,
+      "Resources": [
+        {
+          "Count": 800,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 800,
+          "Name": "Polymer Bundle"
+        },
+        {
+          "Count": 10,
+          "Name": "Rubedo"
+        },
+        {
+          "Count": 0.1,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 4,
+      "Credits": 1000
+    }
+  },
+  "Storm Barracks": {
+    "Description": "The Storm Barracks increase your clan's maximum member size to 100 (Storm Clan).",
+    "Image": "Room Storm Barracks.png",
+    "Name": "Storm Barracks",
+    "Cost": {
+      "DecoCap": 300,
+      "Time": 24,
+      "Energy": -1,
+      "Capacity": -1,
+      "Resources": [
+        {
+          "Count": 150,
+          "Name": "Alloy Plate"
+        },
+        {
+          "Count": 600,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 300,
+          "Name": "Rubedo"
+        },
+        {
+          "Count": 0.25,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 1,
+      "Credits": 1000
+    }
+  },
+  "Greater Hall": {
+    "Description": "An elaborate hall for your dojo.",
+    "Image": "Room Greater Hall.png",
+    "Name": "Greater Hall",
+    "Cost": {
+      "DecoCap": 800,
+      "Time": 24,
+      "Energy": -2,
+      "Capacity": 200,
+      "Resources": [
+        {
+          "Count": 150,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 600,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 300,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.25,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 2,
+      "Credits": 1000
+    }
+  },
+  "Reactor": {
+    "Description": "Reactors are required to meet the energy needs of your structure.",
+    "Image": "Room Reactor.png",
+    "Name": "Reactor",
+    "Cost": {
+      "DecoCap": 300,
+      "Time": 12,
+      "Energy": 25,
+      "Capacity": -5,
+      "Resources": [
+        {
+          "Count": 650,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 350,
+          "Name": "Circuits"
+        },
+        {
+          "Count": 150,
+          "Name": "Alloy Plate"
+        },
+        {
+          "Count": 0.05,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 1,
+      "Credits": 500
+    }
+  },
+  "Straight Hallway": {
+    "Description": "Connector pieces are a key component in organizing your structure.",
+    "Image": "Room Straight Hallway.png",
+    "Name": "Straight Hallway",
+    "Cost": {
+      "DecoCap": 200,
+      "Time": 12,
+      "Energy": -1,
+      "Capacity": -1,
+      "Resources": [
+        {
+          "Count": 650,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 350,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 1200,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.05,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 2,
+      "Credits": 500
+    }
+  },
+  "Wooden Sand Garden": {
+    "Description": "A simple wooden path sand garden.",
+    "Image": "Room Wooden Sand Garden.png",
+    "Name": "Wooden Sand Garden",
+    "Cost": {
+      "DecoCap": 400,
+      "Time": 12,
+      "Energy": -6,
+      "Capacity": -10,
+      "Resources": [
+        {
+          "Count": 650,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 550,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 2000,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.08,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 4,
+      "Credits": 750
+    }
+  },
+  "Oracle": {
+    "Description": "The Oracle system is the basis of adding research facilities.",
+    "Image": "Room Oracle.png",
+    "Name": "Oracle",
+    "Cost": {
+      "DecoCap": 300,
+      "Time": 24,
+      "Energy": -5,
+      "Capacity": -2,
+      "Resources": [
+        {
+          "Count": 650,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 350,
+          "Name": "Circuits"
+        },
+        {
+          "Count": 350,
+          "Name": "Polymer Bundle"
+        },
+        {
+          "Count": 0.15,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 1,
+      "Credits": 1000
+    }
+  },
+  "Elbow Connector": {
+    "Description": "Connector pieces are a key component in organizing your structure.",
+    "Image": "Room Elbow Connector.png",
+    "Name": "Elbow Connector",
+    "Cost": {
+      "DecoCap": 200,
+      "Time": 12,
+      "Energy": -1,
+      "Capacity": -1,
+      "Resources": [
+        {
+          "Count": 650,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 350,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 1200,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.05,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 2,
+      "Credits": 500
+    }
+  },
+  "Crimson Branch": {
+    "Description": "Access to Kuva Lich trading.",
+    "Image": "Room Crimson Branch.png",
+    "Name": "Crimson Branch",
+    "Cost": {
+      "DecoCap": 400,
+      "Time": 24,
+      "Energy": -4,
+      "Capacity": -2,
+      "Resources": [
+        {
+          "Count": 250,
+          "Name": "Hexenon"
+        },
+        {
+          "Count": 8500,
+          "Name": "Alloy Plate"
+        },
+        {
+          "Count": 25,
+          "Name": "Orokin Cell"
+        },
+        {
+          "Count": 0.1,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 1,
+      "Credits": 100000
+    }
+  },
+  "Junno Water Garden": {
+    "Description": "A quiet place to be alone with your thoughts.",
+    "Image": "Room Junno Water Garden.png",
+    "Name": "Junno Water Garden",
+    "Cost": {
+      "DecoCap": 500,
+      "Time": 12,
+      "Energy": -8,
+      "Capacity": -15,
+      "Resources": [
+        {
+          "Count": 850,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 750,
+          "Name": "Polymer Bundle"
+        },
+        {
+          "Count": 2500,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.1,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 4,
+      "Credits": 1000
+    }
+  },
+  "Moon Barracks": {
+    "Description": "The Moon Barracks increase your clan's maximum member size to 1000 (Moon Clan).",
+    "Image": "Room Moon Barracks.png",
+    "Name": "Moon Barracks",
+    "Cost": {
+      "DecoCap": 300,
+      "Time": 24,
+      "Energy": -1,
+      "Capacity": -1,
+      "Resources": [
+        {
+          "Count": 150,
+          "Name": "Alloy Plate"
+        },
+        {
+          "Count": 600,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 300,
+          "Name": "Rubedo"
+        },
+        {
+          "Count": 0.25,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 1,
+      "Credits": 1000
+    }
+  },
+  "Orokin Tower Chamber": {
+    "Description": "A dilapidated Orokin tower chamber.",
+    "Image": "Room Orokin Tower Chamber.png",
+    "Name": "Orokin Tower Chamber",
+    "Cost": {
+      "DecoCap": 1600,
+      "Time": 24,
+      "Energy": -5,
+      "Capacity": 200,
+      "Resources": [
+        {
+          "Count": 800,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 200,
+          "Name": "Circuits"
+        },
+        {
+          "Count": 500,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 0.05,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 6,
+      "Credits": 1000
+    }
+  },
+  "Temperantia Water Garden": {
+    "Description": "A large stone path water garden.",
+    "Image": "Room Temperantia Water Garden.png",
+    "Name": "Temperantia Water Garden",
+    "Cost": {
+      "DecoCap": 500,
+      "Time": 12,
+      "Energy": -8,
+      "Capacity": -15,
+      "Resources": [
+        {
+          "Count": 850,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 750,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 2500,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.1,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 4,
+      "Credits": 1000
+    }
+  },
+  "Aestas Water Garden": {
+    "Description": "A wooden path water garden with heavy vegetation.",
+    "Image": "Room Aestas Water Garden.png",
+    "Name": "Aestas Water Garden",
+    "Cost": {
+      "DecoCap": 400,
+      "Time": 12,
+      "Energy": -6,
+      "Capacity": -10,
+      "Resources": [
+        {
+          "Count": 650,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 550,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 2000,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.08,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 4,
+      "Credits": 750
+    }
+  },
+  "Open Space": {
+    "Description": "A very large open space for your Dojo.",
+    "Image": "Room Open Space.png",
+    "Name": "Open Space",
+    "Cost": {
+      "DecoCap": 1600,
+      "Time": 24,
+      "Energy": -5,
+      "Capacity": -2,
+      "Resources": [
+        {
+          "Count": 800,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 200,
+          "Name": "Circuits"
+        },
+        {
+          "Count": 500,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 0.05,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 1,
+      "Credits": 1000
+    }
+  },
+  "Infested Chamber": {
+    "Description": "A fully infested chamber.",
+    "Image": "Room Infested Chamber.png",
+    "Name": "Infested Chamber",
+    "Cost": {
+      "DecoCap": 1600,
+      "Time": 24,
+      "Energy": -5,
+      "Capacity": 200,
+      "Resources": [
+        {
+          "Count": 800,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 200,
+          "Name": "Circuits"
+        },
+        {
+          "Count": 500,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 0.05,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 6,
+      "Credits": 1000
+    }
+  },
+  "T-Shaped Connector": {
+    "Description": "Connector pieces are a key component in organizing your structure.",
+    "Image": "Room T-Shaped Connector.png",
+    "Name": "T-Shaped Connector",
+    "Cost": {
+      "DecoCap": 200,
+      "Time": 12,
+      "Energy": -2,
+      "Capacity": -5,
+      "Resources": [
+        {
+          "Count": 650,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 350,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 1200,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.05,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 3,
+      "Credits": 500
+    }
+  },
+  "Elevator": {
+    "Description": "Elevators add verticality to your structure. Depending on space they can be build ascending or descending.",
+    "Image": "Room Elevator.png",
+    "Name": "Elevator",
+    "Cost": {
+      "DecoCap": 200,
+      "Time": 12,
+      "Energy": -2,
+      "Capacity": -2,
+      "Resources": [
+        {
+          "Count": 650,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 350,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 1200,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.05,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 2,
+      "Credits": 500
+    }
+  },
+  "Dueling Room": {
+    "Description": "Challenge clan mates to a friendly bout.",
+    "Image": "Room Dueling Room.png",
+    "Name": "Dueling Room",
+    "Cost": {
+      "DecoCap": 300,
+      "Time": 24,
+      "Energy": -10,
+      "Capacity": -10,
+      "Resources": [
+        {
+          "Count": 650,
+          "Name": "Salvage"
+        },
+        {
+          "Count": 350,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 1200,
+          "Name": "Nano Spores"
+        },
+        {
+          "Count": 0.1,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 1,
+      "Credits": 750
+    }
+  },
+  "Inspiration Hall": {
+    "Description": "This empty great hall is a blank slate awaiting inspired designers.",
+    "Image": "Room Inspiration Hall.png",
+    "Name": "Inspiration Hall",
+    "Cost": {
+      "DecoCap": 1400,
+      "Time": 24,
+      "Energy": -1,
+      "Capacity": 100,
+      "Resources": [
+        {
+          "Count": 150,
+          "Name": "Alloy Plate"
+        },
+        {
+          "Count": 600,
+          "Name": "Ferrite"
+        },
+        {
+          "Count": 300,
+          "Name": "Rubedo"
+        },
+        {
+          "Count": 0.25,
+          "Name": "Forma"
+        }
+      ],
+      "Doors": 6,
+      "Credits": 1000
+    }
+  }
+}

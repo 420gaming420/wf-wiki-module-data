@@ -1,0 +1,178 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:DatastoreManifest",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:34:16.702Z"
+  },
+  "_comments": "---\tMapping item type to datastore locations on the wiki (e.g. 'Mod' to 'Module:Mods/data').\n--\t\n--\t@module\t\t\tdatastoremanifest\n--\t@attribution\t[[User:Cephalon Scientia|Cephalon Scientia]]\n--\t@attribution\t[[User:Gigamicro|Gigamicro]] (based on [[Module:Tooltips/icon]])\n--\t@release\t\tstable\n--\t<nowiki>\n\t\t-- Full list of collection name aliases can be found in [[Module:Cosmetics/data]]\n\t\t-- Full list of collection name aliases can be found in [[Module:Weapons/data]]",
+  "Resource": {
+    "Source": "Module:Resources/data",
+    "Description": "Item resources",
+    "CollectionNames": [
+      "Resources",
+      "GenericComponents"
+    ]
+  },
+  "Companion": {
+    "Source": "Module:Companions/data",
+    "Description": "Player companions",
+    "CollectionNames": [
+      "Companions"
+    ]
+  },
+  "Enemy": {
+    "Source": "Module:Enemies/data",
+    "Description": "Enemy or NPC units",
+    "CollectionNames": {}
+  },
+  "Component": {
+    "Source": "Module:Resources/data",
+    "Description": "Item components",
+    "CollectionNames": [
+      "Resources",
+      "GenericComponents"
+    ]
+  },
+  "Key": {
+    "Source": "Module:Resources/data",
+    "Description": "Mission keys",
+    "CollectionNames": [
+      "Resources"
+    ]
+  },
+  "Arcane": {
+    "Source": "Module:Arcane/data",
+    "Description": "Arcane Enhancements",
+    "CollectionNames": [
+      "Arcanes"
+    ]
+  },
+  "Gear": {
+    "Source": "Module:Resources/data",
+    "Description": "Gear items",
+    "CollectionNames": [
+      "Resources"
+    ]
+  },
+  "Blueprint": {
+    "Source": "Module:Blueprints/data",
+    "Description": "Item blueprints",
+    "CollectionNames": [
+      "Blueprints"
+    ]
+  },
+  "Sigil": {
+    "Source": "Module:Sigils/data",
+    "Description": "Sigil cosmetics",
+    "CollectionNames": {}
+  },
+  "DamageType": {
+    "Source": "Module:DamageTypes/data",
+    "Description": "Damage types",
+    "CollectionNames": [
+      "Types",
+      "Health",
+      "Procs"
+    ]
+  },
+  "Scene": {
+    "Source": "Module:Placeholder",
+    "Description": "Captura scenes",
+    "CollectionNames": {}
+  },
+  "Ability": {
+    "Source": "Module:Ability/data",
+    "Description": "Powersuit abilities",
+    "CollectionNames": [
+      "Ability"
+    ]
+  },
+  "Focus": {
+    "Source": "Module:Focus/data",
+    "Description": "Operator focus trees",
+    "CollectionNames": [
+      "Ways",
+      "Schools",
+      "Symbols"
+    ]
+  },
+  "Warframe": {
+    "Source": "Module:Warframes/data",
+    "Description": "Warframe stats",
+    "CollectionNames": [
+      "Warframes"
+    ]
+  },
+  "Decoration": {
+    "Source": "Module:Decorations/data",
+    "Description": "Orbiter and Clan Dojo decorations",
+    "CollectionNames": [
+      "Atmospherics",
+      "Corpus",
+      "Grineer",
+      "Infested",
+      "Natural",
+      "Orokin",
+      "Ostron",
+      "Sentient",
+      "Solaris",
+      "Tenno",
+      "Trophies"
+    ]
+  },
+  "Stat": {
+    "Source": "Module:Icon/data",
+    "Description": "Player and weapon statistics icons",
+    "CollectionNames": [
+      "Buff"
+    ]
+  },
+  "Faction": {
+    "Source": "Module:Factions/data",
+    "Description": "Enemy and allied factions, including Syndicates",
+    "CollectionNames": [
+      "Factions"
+    ]
+  },
+  "Node": {
+    "Source": "Module:Missions/data",
+    "Description": "Mission node",
+    "CollectionNames": [
+      "MissionDetails"
+    ]
+  },
+  "Relic": {
+    "Source": "Module:Void/data",
+    "Description": "Void relics",
+    "CollectionNames": [
+      "RelicData"
+    ]
+  },
+  "Mod": {
+    "Source": "Module:Mods/data",
+    "Description": "Mod upgrades",
+    "CollectionNames": [
+      "Mods"
+    ]
+  },
+  "Weapon": {
+    "Source": "Module:Weapons/data",
+    "Description": "Weapon stats",
+    "CollectionNames": [
+      "Primary",
+      "Secondary",
+      "Melee",
+      "Arch-gun",
+      "Arch-melee",
+      "Robotic",
+      "Hound",
+      "Railjack",
+      "Amp",
+      "Kitgun",
+      "Zaw",
+      "Misc"
+    ]
+  }
+}

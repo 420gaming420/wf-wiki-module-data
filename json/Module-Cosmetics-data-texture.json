@@ -1,0 +1,560 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/texture",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:33:31.033Z"
+  },
+  "_comments": "",
+  "Lua Darkside": {
+    "Type": "Texture",
+    "Image": "CremaMarble.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Lua Darkside",
+    "Name": "Lua Darkside",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/CremaMarble",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Sonar Ripples": {
+    "Type": "Texture",
+    "Image": "Echo.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Sonar Ripples",
+    "Name": "Sonar Ripples",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/Echo",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Asterite Luster": {
+    "Type": "Texture",
+    "Image": "Glass.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Asterite Luster",
+    "Name": "Asterite Luster",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/Glass",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Gallium Glaze": {
+    "Type": "Texture",
+    "Image": "GlossyPlastic.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Gallium Glaze",
+    "Name": "Gallium Glaze",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/GlossyPlastic",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Subtle Scintillant": {
+    "Type": "Texture",
+    "Image": "MattePaint.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Subtle Scintillant",
+    "Name": "Subtle Scintillant",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/MattePaint",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Thousand-Year Scales": {
+    "Type": "Texture",
+    "Image": "GoldfishScale.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Thousand-Year Scales",
+    "Name": "Thousand-Year Scales",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/GoldfishScale",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Flat Noctrul": {
+    "Type": "Texture",
+    "Image": "Rubber.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Flat Noctrul",
+    "Name": "Flat Noctrul",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/Rubber",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Homestead Twill": {
+    "Type": "Texture",
+    "Image": "Canvas.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Homestead Twill",
+    "Name": "Homestead Twill",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/Canvas",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Madurai": {
+    "Type": "Texture",
+    "Image": "Madurai.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Madurai",
+    "Name": "Madurai",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/Madurai",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Faux Mergoo": {
+    "Type": "Texture",
+    "Image": "FrogSkin.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Faux Mergoo",
+    "Name": "Faux Mergoo",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/FrogSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Zetki Quality": {
+    "Type": "Texture",
+    "Image": "CarbonFiber.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Zetki Quality",
+    "Name": "Zetki Quality",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/CarbonFiber",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Zenurik": {
+    "Type": "Texture",
+    "Image": "Zenurik.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Zenurik",
+    "Name": "Zenurik",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/Zenurik",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Pearlescent Plastid": {
+    "Type": "Texture",
+    "Image": "PearlescentPlastic.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Pearlescent Plastid",
+    "Name": "Pearlescent Plastid",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/PearlescentPlastic",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Lavar Solid": {
+    "Type": "Texture",
+    "Image": "SoftDots.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Lavar Solid",
+    "Name": "Lavar Solid",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/SoftDots",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "White Sun Veneer": {
+    "Type": "Texture",
+    "Image": "Ivory.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "White Sun Veneer",
+    "Name": "White Sun Veneer",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/Ivory",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Cryosleeper": {
+    "Type": "Texture",
+    "Image": "Frost.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Cryosleeper",
+    "Name": "Cryosleeper",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/Frost",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Cephalon Adornment": {
+    "Type": "Texture",
+    "Image": "PatternWrapped.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Cephalon Adornment",
+    "Name": "Cephalon Adornment",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/PatternWrapped",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vazarin": {
+    "Type": "Texture",
+    "Image": "Vazarin.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Vazarin",
+    "Name": "Vazarin",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/Vazarin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Circuit Effect": {
+    "Type": "Texture",
+    "Image": "Circuits.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Circuit Effect",
+    "Name": "Circuit Effect",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/Circuits",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Orokin Porcelain": {
+    "Type": "Texture",
+    "Image": "ProcelainCracked.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Orokin Porcelain",
+    "Name": "Orokin Porcelain",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/PorcelainCracked",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Tough Vestan Moss": {
+    "Type": "Texture",
+    "Image": "GrossFlesh.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Tough Vestan Moss",
+    "Name": "Tough Vestan Moss",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/GrossFlesh",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Battleworn Steel": {
+    "Type": "Texture",
+    "Image": "IncompletePaintjob.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Battleworn Steel",
+    "Name": "Battleworn Steel",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/IncompletePaintjob",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Titanium Sheen": {
+    "Type": "Texture",
+    "Image": "MetalPolish.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Titanium Sheen",
+    "Name": "Titanium Sheen",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/MetalPolish",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Oxium Gloss": {
+    "Type": "Texture",
+    "Image": "Bronze.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Oxium Gloss",
+    "Name": "Oxium Gloss",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/Bronze",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Tellurium Layers": {
+    "Type": "Texture",
+    "Image": "ShingledMetal.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Tellurium Layers",
+    "Name": "Tellurium Layers",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/ShingledMetal",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Tarnished Morphics": {
+    "Type": "Texture",
+    "Image": "RoughMetal.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Tarnished Morphics",
+    "Name": "Tarnished Morphics",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/RoughMetal",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Submerged Stone": {
+    "Type": "Texture",
+    "Image": "MarbleAlloy.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Submerged Stone",
+    "Name": "Submerged Stone",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/MarbleAlloy",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Jade Esteem": {
+    "Type": "Texture",
+    "Image": "JasperStone.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Jade Esteem",
+    "Name": "Jade Esteem",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/JasperStone",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Unairu": {
+    "Type": "Texture",
+    "Image": "Unairu.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Unairu",
+    "Name": "Unairu",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/Unairu",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Lotus Pattern": {
+    "Type": "Texture",
+    "Image": "LotusJacquard.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Lotus Pattern",
+    "Name": "Lotus Pattern",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/LotusJacquard",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Rough Cryotic": {
+    "Type": "Texture",
+    "Image": "PlasticMembrane.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Rough Cryotic",
+    "Name": "Rough Cryotic",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/PlasticMembrane",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Smooth Salvage": {
+    "Type": "Texture",
+    "Image": "Galvanized.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Smooth Salvage",
+    "Name": "Smooth Salvage",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/Galvanized",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Sleek Ticor Plate": {
+    "Type": "Texture",
+    "Image": "PaintedMetal.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Sleek Ticor Plate",
+    "Name": "Sleek Ticor Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/PaintedMetal",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Everted Yogwun": {
+    "Type": "Texture",
+    "Image": "Intestines.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Everted Yogwun",
+    "Name": "Everted Yogwun",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/Intestine",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Eris Surface": {
+    "Type": "Texture",
+    "Image": "LeatherPackMap.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Eris Surface",
+    "Name": "Eris Surface",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/LeatherPackMap",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Petrified Isos": {
+    "Type": "Texture",
+    "Image": "Droplets.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Petrified Isos",
+    "Name": "Petrified Isos",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/Droplets",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Spore Print": {
+    "Type": "Texture",
+    "Image": "Trypophobia.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Spore Print",
+    "Name": "Spore Print",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/Trypophobia",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Soma Waves": {
+    "Type": "Texture",
+    "Image": "Mag.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Soma Waves",
+    "Name": "Soma Waves",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/DuviriPattern",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Rail Stripes": {
+    "Type": "Texture",
+    "Image": "RubberWoven.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Rail Stripes",
+    "Name": "Rail Stripes",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/RubberWoven",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Murkray Scales": {
+    "Type": "Texture",
+    "Image": "Shark.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Murkray Scales",
+    "Name": "Murkray Scales",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/Shark",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Crimzian Opulence": {
+    "Type": "Texture",
+    "Image": "DamasSteel.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Crimzian Opulence",
+    "Name": "Crimzian Opulence",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/DamasSteel",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Amarast Facets": {
+    "Type": "Texture",
+    "Image": "Mirage.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Amarast Facets",
+    "Name": "Amarast Facets",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/Mirage",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Phenaureus Bark": {
+    "Type": "Texture",
+    "Image": "WoodBurned.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Phenaureus Bark",
+    "Name": "Phenaureus Bark",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/WoodBurned",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Packed Debris": {
+    "Type": "Texture",
+    "Image": "CeramicBreak.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Packed Debris",
+    "Name": "Packed Debris",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/CeramicBreak",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Threshcone Fresh": {
+    "Type": "Texture",
+    "Image": "ScalesUniform.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Threshcone Fresh",
+    "Name": "Threshcone Fresh",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/ScalesUniform",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Rubedo Impression": {
+    "Type": "Texture",
+    "Image": "LayeredStone.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Rubedo Impression",
+    "Name": "Rubedo Impression",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/LayeredStone",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ayatan Elegance": {
+    "Type": "Texture",
+    "Image": "SilkFabric.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Ayatan Elegance",
+    "Name": "Ayatan Elegance",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/SilkFabric",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Naramon": {
+    "Type": "Texture",
+    "Image": "Naramon.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Naramon",
+    "Name": "Naramon",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/Naramon",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Junction Mode": {
+    "Type": "Texture",
+    "Image": "MarbleShell.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Junction Mode",
+    "Name": "Junction Mode",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/MarbleShell",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Polished Devar": {
+    "Type": "Texture",
+    "Image": "CloudyStone.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Polished Devar",
+    "Name": "Polished Devar",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/CloudyStone",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Lunaro Striker": {
+    "Type": "Texture",
+    "Image": "PerformanceFabric.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Lunaro Striker",
+    "Name": "Lunaro Striker",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/PerformanceFabric",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Gleaming Alloy": {
+    "Type": "Texture",
+    "Image": "CarPaint.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Gleaming Alloy",
+    "Name": "Gleaming Alloy",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/CarPaint",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Holokey Blur": {
+    "Type": "Texture",
+    "Image": "TechMetalDots.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Holokey Blur",
+    "Name": "Holokey Blur",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/TechMetalDots",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Necrotic Stitch": {
+    "Type": "Texture",
+    "Image": "Stitched.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Necrotic Stitch",
+    "Name": "Necrotic Stitch",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/Stitched",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Fieldron Form": {
+    "Type": "Texture",
+    "Image": "StackedWedge.png",
+    "Description": "Hombask's material structures are imbued with the Zariman spirit of discovery and innovation.\r\n\r\nMaterial structures are exclusive to Voidshell skins.",
+    "Link": "Fieldron Form",
+    "Name": "Fieldron Form",
+    "InternalName": "/Lotus/Upgrades/Skins/TextureOverrides/StackedWedge",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  }
+}

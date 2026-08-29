@@ -1,0 +1,357 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/signa",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:33:20.181Z"
+  },
+  "_comments": "",
+  "Fumulo Signa": {
+    "Type": "Signa",
+    "Image": "FumuloSigna.png",
+    "Description": "Keep the light of knowledge always in view with Lavos Khymia's signature signa. ",
+    "Link": "Fumulo Signa",
+    "Name": "Fumulo Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/LavosDeluxeCrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Stardust Signa": {
+    "Type": "Signa",
+    "Image": "StardustSigna.png",
+    "Description": "Embody the energy of the stars with Temple’s signature Signa.",
+    "Link": "Stardust Signa",
+    "Name": "Stardust Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/TnTempleSignaCrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Acheta Signa": {
+    "ConsolePrice": "60",
+    "Type": "TennoGen Signa",
+    "Description": "A unique signa for your Warframe, designed by blazingcobalt and Ritens",
+    "Link": "Acheta Signa",
+    "ExcludeFromCodex": true,
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3621661227",
+    "Round": "TennoGen Fables & Frontiers",
+    "Image": "AchetaSigna.png",
+    "Artists": [
+      "blazingcobalt",
+      "Ritens"
+    ],
+    "Introduced": "43.5",
+    "Name": "Acheta Signa",
+    "PcPrice": "$3.49",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/SWachetaSignaCrown",
+    "CodexSecret": false
+  },
+  "Erato Signa": {
+    "Type": "Signa",
+    "Image": "EratoSigna.png",
+    "Description": "Citrine Aphrodita inspires epics of undying devotion with this graceful signature signa.",
+    "Link": "Erato Signa",
+    "Name": "Erato Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/CitrineDeluxeCrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Liania Signa": {
+    "Type": "Signa",
+    "Description": "The dignified drape of Baruuk Shaoshi’s signature Signa is the mark of a warrior committed to defending peace — by any means necessary.",
+    "Link": "Liania Signa",
+    "ExcludeFromCodex": true,
+    "Image": "LianiaSigna.png",
+    "Name": "Liania Signa",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/BaruukDeluxeIICrown",
+    "CodexSecret": false
+  },
+  "Vizor Signa": {
+    "Type": "Signa",
+    "Image": "VizorSigna.png",
+    "Description": "No speedster's look would be complete without Gauss Moto's signature signa.",
+    "Link": "Vizor Signa",
+    "Name": "Vizor Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/GaussDeluxeIICrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Flankon Signa": {
+    "Type": "Signa",
+    "Image": "FlankonSigna.png",
+    "Description": "Prey cannot hide from the piercing gaze of Grendel Turbis' signature signa.",
+    "Link": "Flankon Signa",
+    "Name": "Flankon Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/GrendelDeluxeIICrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Ember Heirloom Signa": {
+    "Type": "Signa",
+    "Image": "EmberHeirloomSigna.png",
+    "Description": "Delight in the heat of battle with Ember Heirloom’s Signa.",
+    "Link": "Ember Heirloom Signa",
+    "Name": "Ember Heirloom Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/HeirloomEmberCrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Invictus Emergent Signa": {
+    "Type": "Signa",
+    "Image": "InvictusEmergentSigna.png",
+    "Description": "Though the influence of the Indifference grows stronger, this evolution of the Invictus signa proves that your defiance grows in equal measure.",
+    "Link": "Invictus Emergent Signa",
+    "Name": "Invictus Emergent Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/Events/IsleweaverEventCrownB",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Invictus Signa": {
+    "Type": "Signa",
+    "Image": "InvictusSigna.png",
+    "Description": "This signa pays tribute to your steadfast dedication in the face of the mind-tormenting Murmur.",
+    "Link": "Invictus Signa",
+    "Name": "Invictus Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/Events/IsleweaverEventCrownA",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Invictus Apex Signa": {
+    "Type": "Signa",
+    "Image": "InvictusApexSigna.png",
+    "Description": "The supreme version of this signa, signifying the denial of Neci Rusalka's false Duviri in Operation: Eight Claw.",
+    "Link": "Invictus Apex Signa",
+    "Name": "Invictus Apex Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/Events/IsleweaverEventCrownC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Envine Signa": {
+    "Type": "Signa",
+    "Image": "EnvineSigna.png",
+    "Description": "Bring elegance to your look with this regal wreath.",
+    "Link": "Envine Signa",
+    "Name": "Envine Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/DexVinesCrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Mesa Heirloom Signa": {
+    "Type": "Signa",
+    "Image": "MesaHeirloomSigna.png",
+    "Description": "Mesa Heirloom's signature signa reveals a dazzling hidden side to the vagabond enforcer.",
+    "Link": "Mesa Heirloom Signa",
+    "Name": "Mesa Heirloom Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/HeirloomMesaCrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Diraeus Signa": {
+    "Type": "Signa",
+    "Image": "DiraeusSigna.png",
+    "Description": "Fateful whispers linger around this unearthly signa.",
+    "Link": "Diraeus Signa",
+    "Name": "Diraeus Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/OrfeoSignaCrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Tomoe Signa": {
+    "Type": "Signa",
+    "Image": "TomoeSigna.png",
+    "Description": "Crown yourself with the majesty of the storm.",
+    "Link": "Tomoe Signa",
+    "Name": "Tomoe Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/VoltDeluxeRaijinCrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Valkyr Heirloom Signa": {
+    "Type": "Signa",
+    "Image": "ValkyrHeirloomSigna.png",
+    "Description": "This crowning signa of gilded spikes creates beauty out of suffering.",
+    "Link": "Valkyr Heirloom Signa",
+    "Name": "Valkyr Heirloom Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/HeirloomValkyrCrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Rhino Heirloom Signa": {
+    "Type": "Signa",
+    "Image": "RhinoHeirloomSigna.png",
+    "Description": "Horns of primordial power crown Rhino with the majesty of the beast.",
+    "Link": "Rhino Heirloom Signa",
+    "Name": "Rhino Heirloom Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/HeirloomRhinoCrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Zamariu Signa": {
+    "ConsolePrice": "60",
+    "Type": "TennoGen Signa",
+    "Description": "A unique signa for your Warframe, designed by led2012 and daemonstar",
+    "Link": "Zamariu Signa",
+    "ExcludeFromCodex": true,
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3640810226",
+    "Round": "TennoGen Shadowgrapher",
+    "Image": "ZamariuSigna.png",
+    "Artists": [
+      "led2012",
+      "daemonstar"
+    ],
+    "Introduced": "42",
+    "Name": "Zamariu Signa",
+    "PcPrice": "$3.49",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/SWZamariuSignaCrown",
+    "CodexSecret": false
+  },
+  "Krios Signa": {
+    "Type": "Signa",
+    "Image": "KriosSigna.png",
+    "Description": "Radiate beauty with this laurel crown.",
+    "Link": "Krios Signa",
+    "Name": "Krios Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/LaurelHaloCrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Centurio Signa": {
+    "ConsolePrice": "60",
+    "Type": "TennoGen Signa",
+    "Description": "A unique signa for your Warframe, designed by Lubox",
+    "Link": "Centurio Signa",
+    "ExcludeFromCodex": true,
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3641769055",
+    "Round": "TennoGen Fables & Frontiers",
+    "Image": "CenturioSigna.png",
+    "Artists": [
+      "Lubox"
+    ],
+    "Introduced": "43.5",
+    "Name": "Centurio Signa",
+    "PcPrice": "$3.49",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/SWCenturioSignaCrown",
+    "CodexSecret": false
+  },
+  "Vauban Heirloom Signa": {
+    "Type": "Signa",
+    "Image": "VaubanHeirloomSigna.png",
+    "Description": "Vauban Heirloom’s signa, fashioned from coils of living energy.",
+    "Link": "Vauban Heirloom Signa",
+    "Name": "Vauban Heirloom Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/HeirloomVaubanCrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Maginav Prime Signa": {
+    "Type": "Signa",
+    "Image": "MaginavPrimeSigna.png",
+    "Description": "Present yourself as an esteemed captain with Sevagoth Prime’s signature Signa.",
+    "Link": "Maginav Prime Signa",
+    "Name": "Maginav Prime Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/PrimeSevagothHaloCrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Hana Ikada Signa": {
+    "Type": "Signa",
+    "Image": "HanaIkadaSigna.png",
+    "Description": "Show strength through elegance.",
+    "Link": "Hana Ikada Signa",
+    "Name": "Hana Ikada Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/NovaDeluxeAoandonCrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Ki'Teer Nobilis Signa": {
+    "Type": "Signa",
+    "Image": "Ki'TeerNobilisSigna.png",
+    "Description": "This signa is a Ki'Teer original, the crowning glory of any collection.",
+    "Link": "Ki'Teer Nobilis Signa",
+    "Name": "Ki'Teer Nobilis Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/KiTeerSignaCrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Kyzen Signa": {
+    "Type": "Signa",
+    "Description": "Ancient assassin techniques meet future technology.",
+    "Link": "Kyzen Signa",
+    "ExcludeFromCodex": true,
+    "Image": "KyzenSigna.png",
+    "Name": "Kyzen Signa",
+    "Introduced": "43",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/ProtoAshCrown",
+    "CodexSecret": false
+  },
+  "Motetique Signa": {
+    "Type": "Signa",
+    "Image": "MotetiqueSigna.png",
+    "Description": "Much as music enriches the atmosphere, the Motetique Signa enhances your appearance.",
+    "Link": "Motetique Signa",
+    "Name": "Motetique Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/ChoirFrameHaloCrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Karotic Signa": {
+    "Type": "Signa",
+    "Description": "A bloodstained gaze washes all in red.",
+    "Link": "Karotic Signa",
+    "ExcludeFromCodex": true,
+    "Image": "KaroticSigna.png",
+    "Name": "Karotic Signa",
+    "Introduced": "43",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/GarudaBloodCrown",
+    "CodexSecret": false
+  },
+  "Frost Heirloom Signa": {
+    "Type": "Signa",
+    "Image": "FrostHeirloomSigna.png",
+    "Description": "Frost Heirloom’s Signa is reminiscent of Europa’s icy vistas.",
+    "Link": "Frost Heirloom Signa",
+    "Name": "Frost Heirloom Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/HeirloomFrostCrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Mag Heirloom Signa": {
+    "Type": "Signa",
+    "Image": "MagHeirloomSigna.png",
+    "Description": "Mag Heirloom’s Signa lends a perfect touch of ancient armor.",
+    "Link": "Mag Heirloom Signa",
+    "Name": "Mag Heirloom Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/HeirloomMagCrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Pragmatica Signa": {
+    "ConsolePrice": "60",
+    "Type": "TennoGen Signa",
+    "Description": "A unique signa for your Warframe, designed by Ventralhound",
+    "Link": "Pragmatica Signa",
+    "ExcludeFromCodex": true,
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3610612489",
+    "Round": "TennoGen Shadowgrapher",
+    "Image": "PragmaticaSigna.png",
+    "Artists": [
+      "Ventralhound"
+    ],
+    "Introduced": "42",
+    "Name": "Pragmatica Signa",
+    "PcPrice": "$3.49",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/SWSignaPragmaticaCrown",
+    "CodexSecret": false
+  },
+  "Dex Signa": {
+    "Type": "Signa",
+    "Image": "DexSigna.png",
+    "Description": "A gift from the Lotus to commemorate the thirteenth anniversary of the first Tenno waking from Cryo stasis.",
+    "Link": "Dex Signa",
+    "Name": "Dex Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/Dex2026LotusHaloCrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  }
+}

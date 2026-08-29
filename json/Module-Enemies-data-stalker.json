@@ -1,0 +1,379 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Enemies/data/stalker",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:36:28.916Z"
+  },
+  "_comments": "\t\t\t--Multis = { \"?\" },",
+  "Violence": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Field Boss",
+      "Description": "Fast and vicious",
+      "Link": "Violence",
+      "Introduced": "18.4.1",
+      "Scans": 3,
+      "Image": "DuellistAcolyte.png",
+      "Abilities": [
+        "Silence",
+        "Ice Wave",
+        "Slash Dash"
+      ],
+      "Faction": "Stalker",
+      "Name": "Violence",
+      "Weapons": [
+        "Destreza",
+        "Venka"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Acolytes/DuellistAcolyteAgent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.85,
+            "Slash": 0.125,
+            "Impact": 0.025
+          },
+          "TotalDamage": 35,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 2500,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "Shield": 1500,
+      "Affinity": 750
+    }
+  },
+  "Malice": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Field Boss",
+      "Description": "Disciplined and accurate",
+      "Link": "Malice",
+      "Introduced": "18.4.1",
+      "Scans": 3,
+      "Image": "HeavyAcolyte.png",
+      "Abilities": [
+        "Magnetize"
+      ],
+      "Faction": "Stalker",
+      "Name": "Malice",
+      "Weapons": [
+        "Opticor",
+        "Heat Dagger"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Acolytes/HeavyAcolyteAgent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.85,
+            "Slash": 0.05,
+            "Impact": 0.1
+          },
+          "TotalDamage": 250,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.3654,
+            "Heat": 0.2981,
+            "Slash": 0.2692,
+            "Impact": 0.0673
+          },
+          "TotalDamage": 208,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 2500,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "Shield": 1500,
+      "Affinity": 750
+    }
+  },
+  "Misery": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Field Boss",
+      "Description": "Zealous and patient.",
+      "Link": "Misery",
+      "Introduced": "18.4.1",
+      "Scans": 3,
+      "Image": "AreaCasterAcolyte.png",
+      "Abilities": [
+        "Shadows of the Dead",
+        "Soul Punch"
+      ],
+      "Faction": "Stalker",
+      "Name": "Misery",
+      "Weapons": [
+        "Ether Reaper"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Acolytes/AreaCasterAcolyteAgent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.15,
+            "Slash": 0.7,
+            "Impact": 0.15
+          },
+          "TotalDamage": 180,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 2500,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "Shield": 1500,
+      "Affinity": 750
+    }
+  },
+  "Mania": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Field Boss",
+      "Description": "Elusive and deadly",
+      "Link": "Mania",
+      "Introduced": "18.4.1",
+      "Scans": 3,
+      "Image": "RogueAcolyte.png",
+      "Abilities": [
+        "Switch Teleport",
+        "Turbulence"
+      ],
+      "Faction": "Stalker",
+      "Name": "Mania",
+      "Weapons": [
+        "Lacera"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Acolytes/RogueAcolyteAgent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.25,
+            "Slash": 0.45,
+            "Impact": 0.3
+          },
+          "TotalDamage": 80,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 2500,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "Shield": 1500,
+      "Affinity": 750
+    }
+  },
+  "Torment": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Field Boss",
+      "Description": "Arrogant and calculating",
+      "Link": "Torment",
+      "Introduced": "18.4.1",
+      "Scans": 3,
+      "Image": "ControlAcolyte.png",
+      "Abilities": [
+        "Tempest Barrage",
+        "Tidal Surge"
+      ],
+      "Faction": "Stalker",
+      "Name": "Torment",
+      "Weapons": [
+        "Akvasto"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Acolytes/ControlAcolyteAgent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.25,
+            "Slash": 0.5,
+            "Impact": 0.25
+          },
+          "TotalDamage": 20,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Health": 2500,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "Shield": 1500,
+      "Affinity": 750
+    }
+  },
+  "Shadow Stalker": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Assassin",
+      "Description": "I am your reckoning!",
+      "Link": "Shadow Stalker",
+      "Introduced": "18",
+      "Scans": 3,
+      "Image": "SentientStalker.png",
+      "Abilities": [
+        "Rhino Charge",
+        "Exalted Blade",
+        "Pull"
+      ],
+      "Faction": "Stalker",
+      "Name": "Shadow Stalker",
+      "Weapons": [
+        "War"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Stalker/SentientStalkerAgent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Health": 950,
+      "BaseLevel": 1,
+      "Shield": 200,
+      "Armor": 300,
+      "Affinity": 1500
+    }
+  },
+  "Stalker": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Assassin",
+      "Description": "I am your reckoning!",
+      "Link": "Stalker",
+      "Introduced": "7",
+      "Scans": 3,
+      "Image": "Stalker cdx.png",
+      "Abilities": [
+        "Slash Dash",
+        "Teleport",
+        "Absorb",
+        "Pull",
+        "Smoke Screen",
+        "Reckoning"
+      ],
+      "Faction": "Stalker",
+      "Name": "Stalker",
+      "Weapons": [
+        "Dread",
+        "Despair",
+        "Hate"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Stalker/StalkerAgent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Health": 750,
+      "BaseLevel": 1,
+      "Shield": 200,
+      "Armor": 300,
+      "Affinity": 1500
+    }
+  },
+  "Angst": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Field Boss",
+      "Description": "Agile and ferocious",
+      "Link": "Angst",
+      "Introduced": "18.4.1",
+      "Scans": 3,
+      "Image": "StrikerAcolyte.png",
+      "Abilities": [
+        "Teleport",
+        "Sonic Scream"
+      ],
+      "Faction": "Stalker",
+      "Name": "Angst",
+      "Weapons": [
+        "Valkyr Talons"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Acolytes/StrikerAcolyteAgent",
+      "CodexSecret": false
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.25,
+            "Slash": 0.7,
+            "Impact": 0.05
+          },
+          "TotalDamage": 20,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 2500,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "Shield": 1500,
+      "Affinity": 750
+    }
+  },
+  "Protector Stalker": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Assassin",
+      "Description": "I am your reckoning!",
+      "Link": "Protector Stalker",
+      "Name": "Protector Stalker",
+      "Image": "ProtectorStalker.png",
+      "Abilities": [
+        "Slash Dash",
+        "Teleport",
+        "Absorb",
+        "Pull",
+        "Smoke Screen",
+        "Reckoning"
+      ],
+      "Faction": "Stalker",
+      "Scans": 3,
+      "Weapons": [
+        "Dread",
+        "Despair",
+        "Hate"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Stalker/JadeStalkerAgent",
+      "Introduced": "36"
+    },
+    "Stats": {
+      "Health": 1100,
+      "BaseLevel": 1,
+      "Shield": 500,
+      "Armor": 300,
+      "Affinity": 1500
+    }
+  }
+}

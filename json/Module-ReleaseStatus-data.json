@@ -1,0 +1,16 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:ReleaseStatus/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:41:56.721Z"
+  },
+  "_comments": "",
+  "beta": "Beta",
+  "unstable": "Unstable",
+  "experimental": "Experimental",
+  "archive": "Archived",
+  "stable": "Stable",
+  "unmaintained": "Unmaintained"
+}

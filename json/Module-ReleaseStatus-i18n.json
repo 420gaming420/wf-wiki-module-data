@@ -1,0 +1,219 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:ReleaseStatus/i18n",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:42:01.055Z"
+  },
+  "_comments": "-- <nowiki>\n-- </nowiki>",
+  "es": {
+    "beta": "Beta",
+    "experimental": "Experimental",
+    "awaiting": "Esperando",
+    "unstable": "Inestable",
+    "done": "Listo",
+    "blocked": "Bloqueado",
+    "unmaintained": "Sin mantenimiento",
+    "archive": "Archivado",
+    "stable": "Estable",
+    "delete": "Eliminar"
+  },
+  "fr": {
+    "beta": "Bêta",
+    "experimental": "Expérimental",
+    "awaiting": "En attente",
+    "unstable": "Instable",
+    "unmaintained": "Non maintenu",
+    "done": "Prêt",
+    "blocked": "Bloqué",
+    "broken": "Ne fonctionne pas",
+    "archive": "Archivé",
+    "stable": "Stable",
+    "delete": "Supprimé"
+  },
+  "ru": {
+    "beta": "Бета",
+    "experimental": "Экспериментальный",
+    "awaiting": "Переносится",
+    "unstable": "Нестабильный",
+    "unmaintained": "Не поддерживается",
+    "done": "Совместимо",
+    "blocked": "Заблокировано",
+    "broken": "Не работает",
+    "archive": "Архивировано",
+    "stable": "Стабильный",
+    "delete": "Удалено"
+  },
+  "_metadata": {
+    "order": [
+      "archive",
+      "awaiting",
+      "beta",
+      "blocked",
+      "broken",
+      "delete",
+      "done",
+      "experimental",
+      "stable",
+      "unmaintained",
+      "unstable"
+    ]
+  },
+  "de": {
+    "beta": "Beta",
+    "experimental": "Experimentell",
+    "awaiting": "Ausstehend",
+    "unstable": "Instabil",
+    "unmaintained": "Nicht gewartet",
+    "done": "Bereit",
+    "blocked": "Blockiert",
+    "broken": "Kaputt",
+    "archive": "Archiviert",
+    "stable": "Stabil",
+    "delete": "Löschen"
+  },
+  "be": {
+    "beta": "Бэта",
+    "experimental": "Эксперыментальны",
+    "awaiting": "Пераносіцца",
+    "unstable": "Нестабільны",
+    "done": "Сумяшчальна",
+    "blocked": "Заблакавана",
+    "unmaintained": "Не падтрымваецца",
+    "archive": "Архівавана",
+    "stable": "Стабільны",
+    "delete": "Выдалена"
+  },
+  "tr": {
+    "beta": "Beta",
+    "experimental": "Deneysel",
+    "awaiting": "Bekleniyor",
+    "unstable": "Kararsız",
+    "unmaintained": "Bakımsız",
+    "done": "Hazır",
+    "blocked": "Engellendi",
+    "broken": "Bozuk",
+    "archive": "Arşivlendi",
+    "stable": "Kararlı",
+    "delete": "Sil"
+  },
+  "ja": {
+    "beta": "ベータ版",
+    "unstable": "不安定版",
+    "experimental": "開発版",
+    "archive": "アーカイブ版",
+    "stable": "安定版",
+    "unmaintained": "更新停止"
+  },
+  "pt-br": {
+    "beta": "Beta",
+    "experimental": "Experimental",
+    "awaiting": "Aguardando",
+    "unstable": "Instável",
+    "unmaintained": "Sem manutenção",
+    "done": "Pronto",
+    "blocked": "Impedido",
+    "broken": "Quebrado",
+    "archive": "Arquivado",
+    "stable": "Estável",
+    "delete": "Excluir"
+  },
+  "th": {
+    "beta": "เบต้า",
+    "experimental": "ทดลอง",
+    "awaiting": "รอคอย",
+    "unstable": "ไม่เสถียร",
+    "unmaintained": "ไม่บำรุงรักษา",
+    "done": "ใช้งานได้",
+    "blocked": "บล็อก",
+    "broken": "พัง",
+    "archive": "ถูกเก็บ",
+    "stable": "เสถียร",
+    "delete": "โดนลบ"
+  },
+  "pl": {
+    "beta": "Beta",
+    "unstable": "Niestabilny",
+    "experimental": "Eksperymentalny",
+    "archive": "Archiwalny",
+    "stable": "Stabilny",
+    "unmaintained": "Niewspierany"
+  },
+  "uk": {
+    "beta": "Бета",
+    "experimental": "Експериментальний",
+    "awaiting": "Переноситься",
+    "unstable": "Нестабільний",
+    "unmaintained": "Не підтримується",
+    "done": "Сумісно",
+    "blocked": "Заблоковано",
+    "broken": "Не працює",
+    "archive": "Архівовано",
+    "stable": "Стабільний",
+    "delete": "Вилучено"
+  },
+  "zh-hant": {
+    "beta": "測試",
+    "unstable": "不穩定",
+    "experimental": "開發",
+    "archive": "已存檔",
+    "stable": "穩定",
+    "unmaintained": "已停止更新"
+  },
+  "hi": {
+    "beta": "बीटा",
+    "experimental": "प्रयोगात्मक",
+    "awaiting": "जल्द होगा",
+    "unstable": "अस्थिर",
+    "unmaintained": "अनानुरक्षित",
+    "done": "तैयार",
+    "blocked": "ब्लॉक हो चुका है",
+    "broken": "टूटा हुआ",
+    "archive": "संग्रहीत",
+    "stable": "स्थिर",
+    "delete": "हटाया जाएगा"
+  },
+  "ko": {
+    "beta": "베타",
+    "unstable": "불안정함",
+    "experimental": "시험판",
+    "archive": "보존됨",
+    "stable": "안정됨",
+    "unmaintained": "관리 중단"
+  },
+  "en": {
+    "beta": "Beta",
+    "experimental": "Experimental",
+    "awaiting": "Awaiting",
+    "unstable": "Unstable",
+    "unmaintained": "Unmaintained",
+    "done": "Ready",
+    "blocked": "Blocked",
+    "broken": "Broken",
+    "archive": "Archived",
+    "stable": "Stable",
+    "delete": "Delete"
+  },
+  "ar": {
+    "beta": "بيتا",
+    "unstable": "غير مستقر",
+    "experimental": "تجريبي",
+    "archive": "أرشفة",
+    "stable": "مستقر",
+    "unmaintained": "غير المشرف عليها"
+  },
+  "zh-hans": {
+    "beta": "测试",
+    "experimental": "开发中",
+    "awaiting": "等待",
+    "unstable": "不稳定",
+    "unmaintained": "不再维护",
+    "done": "就绪",
+    "blocked": "受阻",
+    "broken": "损坏",
+    "archive": "存档",
+    "stable": "稳定",
+    "delete": "删除"
+  }
+}

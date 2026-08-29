@@ -1,0 +1,110 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/archwingskin",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:32:03.435Z"
+  },
+  "_comments": "",
+  "Elytron Skin": {
+    "Type": "Archwing Skin",
+    "Image": "Elytron.png",
+    "Description": "Default skin for the Elytron Archwing.",
+    "Link": "Elytron Skin",
+    "Name": "Elytron Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Archwing/DemolitionDefaultArchwingSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Cicada Prime Skin": {
+    "Type": "Archwing Skin",
+    "Image": "TitaniaPrimeArchwingSkin.png",
+    "Description": "Titania Prime's signature Archwing skin.",
+    "Link": "Cicada Prime Skin",
+    "Name": "Cicada Prime Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Archwing/TitaniaPrimeArchwingSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Odonata Obsidian Skin": {
+    "Type": "Skin",
+    "Image": "OdonataObsidian.png",
+    "Description": "A unique skin for the Odonata Archwing.",
+    "Link": "Odonata Obsidian Skin",
+    "Name": "Odonata Obsidian Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sony/ObsidianStandardArchwingSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Odonata Prime Skin": {
+    "Type": "Archwing Skin",
+    "Image": "OdonataPrime.png",
+    "Description": "Default skin for the Odonata Prime Archwing.",
+    "Link": "Odonata Prime Skin",
+    "Name": "Odonata Prime Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Archwing/PrimeDefaultArchwingSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Odonata Elixis Skin": {
+    "Type": "Skin",
+    "Image": "OdonataElixisSkin.png",
+    "Description": "Gild the Odonata with this intricate bronze skin.",
+    "Link": "Odonata Elixis Skin",
+    "Name": "Odonata Elixis Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/VoidTrader/ElixisOdonataSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Itzal Skin": {
+    "Type": "Archwing Skin",
+    "Image": "Itzal.png",
+    "Description": "Default skin for the Itzal Archwing.",
+    "Link": "Itzal Skin",
+    "Name": "Itzal Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Archwing/StealthDefaultArchwingSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Odonata Skin": {
+    "Type": "Archwing Skin",
+    "Image": "Odonata.png",
+    "Description": "Default skin for the Odonata Archwing.",
+    "Link": "Odonata Skin",
+    "Name": "Odonata Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Archwing/StandardDefaultArchwingSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Amesha Skin": {
+    "Type": "Archwing Skin",
+    "Image": "Amesha.png",
+    "Description": "Default skin for the Amesha Archwing.",
+    "Link": "Amesha Skin",
+    "Name": "Amesha Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Archwing/SupportDefaultArchwingSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Itzal Jade Skin": {
+    "Type": "Skin",
+    "Image": "ItzalJadeSkin.png",
+    "Description": "A unique skin for the Itzal Archwing.",
+    "Link": "Itzal Jade Skin",
+    "Name": "Itzal Jade Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Promo/Microsoft/JadeStealthArchwingSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Exo-Sac Archwing Skin": {
+    "Type": "Archwing Skin",
+    "Image": "GrendelSkin.png",
+    "Description": "This alternative look for any Archwing is modeled on the exo-sac levitators that the glutton Karissh used to support his additional grafted-on stomachs.",
+    "Link": "Exo-Sac Archwing Skin",
+    "Name": "Exo-Sac Archwing Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Archwing/GrendelArchwingSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  }
+}

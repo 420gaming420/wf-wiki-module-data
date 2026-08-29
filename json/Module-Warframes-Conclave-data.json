@@ -1,0 +1,2148 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Warframes/Conclave/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:45:32.184Z"
+  },
+  "_comments": "---\tCopying key-value pairs to target table from reference table.\n--\tKeys that are already in target table will not be overrided with data from reference table.\n--\t@function\t\tcopyKeyValues\n--\t@param\t\t\t{table} targetTable Table to be modified\n--\t@param\t\t\t{table} refTable Reference table\n--\t@param\t\t\t{table} keyTable Table of key names to copy within each table entry\n--\t@return\t\t\t{table} Modified target table",
+  "Warframes": {
+    "Ash Prime": {
+      "Sprint": 1.2,
+      "Shield": 155,
+      "SellPrice": 25000,
+      "Image": "AshPrime_Thumb.png",
+      "Introduced": "16.11",
+      "Polarities": [
+        "Naramon",
+        "Madurai",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "AshPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Ninja/AshPrime",
+      "Mobility": 0.8,
+      "Type": "Warframe",
+      "Link": "Conclave:Ash Prime",
+      "AuraPolarity": "Madurai",
+      "Health": 120,
+      "Sex": "Male",
+      "Abilities": [
+        "Shuriken",
+        "Smoke Screen",
+        "Teleport",
+        "Blade Storm"
+      ],
+      "Name": "Ash Prime",
+      "Energy": 100,
+      "Armor": 95
+    },
+    "Saryn": {
+      "Sprint": 0.95,
+      "Shield": 145,
+      "SellPrice": 10000,
+      "Image": "Saryn_Thumb.png",
+      "Introduced": "7",
+      "Polarities": [
+        "Naramon",
+        "Vazarin"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Saryn.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Saryn/Saryn",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Saryn",
+      "AuraPolarity": "Vazarin",
+      "Health": 115,
+      "Sex": "Female",
+      "Abilities": [
+        "Spores",
+        "Molt",
+        "Toxic Lash",
+        "Miasma"
+      ],
+      "Name": "Saryn",
+      "Energy": 100,
+      "Armor": 110
+    },
+    "Ivara": {
+      "Sprint": 1.15,
+      "Shield": 145,
+      "SellPrice": 10000,
+      "Image": "Ivara_Thumb.png",
+      "Introduced": "18",
+      "Polarities": [
+        "Vazarin",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Ivara.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Ranger/Ranger",
+      "Mobility": 1,
+      "Type": "Warframe",
+      "Link": "Conclave:Ivara",
+      "AuraPolarity": "Naramon",
+      "Health": 100,
+      "Sex": "Female",
+      "Abilities": [
+        "Quiver",
+        "Navigator",
+        "Prowl",
+        "Artemis Bow"
+      ],
+      "Name": "Ivara",
+      "Energy": 100,
+      "Armor": 70
+    },
+    "Inaros": {
+      "Sprint": 1,
+      "Shield": 0,
+      "SellPrice": 25000,
+      "Image": "Inaros_Thumb.png",
+      "Introduced": "18.5",
+      "Armor": 110,
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Inaros.png"
+        },
+        {
+          "TabName": "Sarcophagus",
+          "Image": "Inaros-Sarcophagus.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Sandman/Sandman",
+      "Mobility": 0.8,
+      "Type": "Warframe",
+      "Link": "Conclave:Inaros",
+      "ExilusPolarity": "Naramon",
+      "AuraPolarity": "Naramon",
+      "Health": 300,
+      "Sex": "Male",
+      "Name": "Inaros",
+      "Abilities": [
+        "Desiccation",
+        "Sandstorm",
+        "Scarab Shell",
+        "Scarab Swarm"
+      ],
+      "Energy": 100,
+      "Polarities": [
+        "Vazarin",
+        "Vazarin"
+      ]
+    },
+    "Hydroid Prime": {
+      "Sprint": 1,
+      "Shield": 175,
+      "SellPrice": 10000,
+      "Image": "HydroidPrime_Thumb.png",
+      "Introduced": "21.6",
+      "Polarities": [
+        "Madurai",
+        "Vazarin",
+        "Naramon",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "HydroidPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Pirate/HydroidPrime",
+      "Mobility": 0.8,
+      "Type": "Warframe",
+      "Link": "Conclave:Hydroid Prime",
+      "Name": "Hydroid Prime",
+      "AuraPolarity": "Naramon",
+      "Health": 110,
+      "Sex": "Male",
+      "Mastery": 0,
+      "Abilities": [
+        "Tempest Barrage",
+        "Tidal Surge",
+        "Plunder",
+        "Tentacle Swarm"
+      ],
+      "Energy": 100,
+      "Armor": 125
+    },
+    "Gara": {
+      "Sprint": 1.15,
+      "Shield": 145,
+      "SellPrice": 25000,
+      "Image": "Gara_Thumb.png",
+      "Introduced": "22",
+      "Polarities": [
+        "Madurai",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Gara.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Glass/Glass",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Gara",
+      "AuraPolarity": "Vazarin",
+      "Health": 110,
+      "Sex": "Female",
+      "Abilities": [
+        "Shattered Lash",
+        "Splinter Storm",
+        "Spectrorage",
+        "Mass Vitrify"
+      ],
+      "Name": "Gara",
+      "Energy": 100,
+      "Armor": 85
+    },
+    "Gara Prime": {
+      "Sprint": 1.15,
+      "Shield": 145,
+      "SellPrice": 25000,
+      "Image": "GaraPrime_Thumb.png",
+      "Introduced": "30.3",
+      "Polarities": [
+        "Madurai",
+        "Madurai",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "GaraPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Glass/GaraPrime",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Gara Prime",
+      "AuraPolarity": "Vazarin",
+      "Health": 115,
+      "Sex": "Female",
+      "Abilities": [
+        "Shattered Lash",
+        "Splinter Storm",
+        "Spectrorage",
+        "Mass Vitrify"
+      ],
+      "Name": "Gara Prime",
+      "Energy": 100,
+      "Armor": 100
+    },
+    "Nekros": {
+      "Sprint": 1.1,
+      "Shield": 140,
+      "SellPrice": 10000,
+      "Image": "Nekros_Thumb.png",
+      "Introduced": "10",
+      "Polarities": [
+        "Vazarin",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Nekros.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Necro/Necro",
+      "Mobility": 1,
+      "Type": "Warframe",
+      "Link": "Conclave:Nekros",
+      "Health": 110,
+      "Sex": "Male",
+      "Name": "Nekros",
+      "Abilities": [
+        "Soul Punch",
+        "Terrify",
+        "Desecrate",
+        "Shadows of the Dead"
+      ],
+      "Energy": 100,
+      "Armor": 70
+    },
+    "Loki": {
+      "Sprint": 1.25,
+      "Shield": 130,
+      "SellPrice": 10000,
+      "Image": "Loki_Thumb.png",
+      "Introduced": "Vanilla",
+      "Polarities": [
+        "Vazarin",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Loki.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Loki/Loki",
+      "Mobility": 1,
+      "Type": "Warframe",
+      "Link": "Conclave:Loki",
+      "AuraPolarity": "Naramon",
+      "Health": 100,
+      "Sex": "Male",
+      "Abilities": [
+        "Decoy",
+        "Invisibility",
+        "Switch Teleport",
+        "Radial Disarm"
+      ],
+      "Name": "Loki",
+      "Energy": 100,
+      "Armor": 70
+    },
+    "Zephyr Prime": {
+      "Sprint": 1.2,
+      "Shield": 165,
+      "SellPrice": 25000,
+      "Image": "ZephyrPrime_Thumb.png",
+      "Introduced": "22.16.4",
+      "Polarities": [
+        "Madurai",
+        "Madurai",
+        "Vazarin",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "ZephyrPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Tengu/ZephyrPrime",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Zephyr Prime",
+      "Name": "Zephyr Prime",
+      "AuraPolarity": "Vazarin",
+      "Health": 120,
+      "Sex": "Female",
+      "Mastery": 0,
+      "Abilities": [
+        "Tail Wind",
+        "Airburst",
+        "Turbulence",
+        "Tornado"
+      ],
+      "Energy": 100,
+      "Armor": 80
+    },
+    "Limbo": {
+      "Sprint": 1.15,
+      "Shield": 130,
+      "SellPrice": 10000,
+      "Image": "Limbo_Thumb.png",
+      "Introduced": "15",
+      "Polarities": [
+        "Madurai",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Limbo.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Magician/Magician",
+      "Mobility": 1,
+      "Type": "Warframe",
+      "Link": "Conclave:Limbo",
+      "AuraPolarity": "Naramon",
+      "Health": 110,
+      "Sex": "Male",
+      "Abilities": [
+        "Banish",
+        "Stasis",
+        "Rift Surge",
+        "Cataclysm"
+      ],
+      "Name": "Limbo",
+      "Energy": 100,
+      "Armor": 70
+    },
+    "Zephyr": {
+      "Sprint": 1.15,
+      "Shield": 165,
+      "SellPrice": 10000,
+      "Image": "Zephyr_Thumb.png",
+      "Introduced": "12",
+      "Polarities": [
+        "Madurai",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Zephyr.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Tengu/Tengu",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Zephyr",
+      "AuraPolarity": "Vazarin",
+      "Health": 120,
+      "Sex": "Female",
+      "Abilities": [
+        "Tail Wind",
+        "Airburst",
+        "Turbulence",
+        "Tornado"
+      ],
+      "Name": "Zephyr",
+      "Energy": 100,
+      "Armor": 70
+    },
+    "Volt Prime": {
+      "Sprint": 1.15,
+      "Shield": 165,
+      "SellPrice": 25000,
+      "Image": "VoltPrime_Thumb.png",
+      "Introduced": "16.1",
+      "Polarities": [
+        "Naramon",
+        "Madurai",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "VoltPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Volt/VoltPrime",
+      "Mobility": 0.8,
+      "Type": "Warframe",
+      "Link": "Conclave:Volt Prime",
+      "AuraPolarity": "Madurai",
+      "Health": 110,
+      "Sex": "Male",
+      "Abilities": [
+        "Shock",
+        "Speed",
+        "Electric Shield",
+        "Discharge"
+      ],
+      "Name": "Volt Prime",
+      "Energy": 100,
+      "Armor": 80
+    },
+    "Chroma Prime": {
+      "Sprint": 1,
+      "Shield": 145,
+      "SellPrice": 10000,
+      "Image": "ChromaPrime_Thumb.png",
+      "Introduced": "23.9",
+      "Polarities": [
+        "Naramon",
+        "Vazarin",
+        "Madurai",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "ChromaPrime.png"
+        },
+        {
+          "TabName": "Effigy",
+          "Image": "ChromaPrime-Effigy.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Dragon/ChromaPrime",
+      "Mobility": 0.8,
+      "Type": "Warframe",
+      "Link": "Conclave:Chroma Prime",
+      "Name": "Chroma Prime",
+      "AuraPolarity": "Madurai",
+      "Health": 110,
+      "Sex": "Male",
+      "Mastery": 0,
+      "Abilities": [
+        "Spectral Scream",
+        "Elemental Ward",
+        "Vex Armor",
+        "Effigy"
+      ],
+      "Energy": 100,
+      "Armor": 165
+    },
+    "Volt": {
+      "Sprint": 1,
+      "Shield": 165,
+      "SellPrice": 10000,
+      "Image": "Volt_Thumb.png",
+      "Introduced": "Vanilla",
+      "Polarities": [
+        "Naramon",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Volt.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Volt/Volt",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Volt",
+      "AuraPolarity": "Madurai",
+      "Health": 110,
+      "Sex": "Male",
+      "Abilities": [
+        "Shock",
+        "Speed",
+        "Electric Shield",
+        "Discharge"
+      ],
+      "Name": "Volt",
+      "Energy": 100,
+      "Armor": 70
+    },
+    "Atlas": {
+      "Sprint": 0.9,
+      "Shield": 145,
+      "SellPrice": 10000,
+      "Image": "Atlas_Thumb.png",
+      "Introduced": "17.5",
+      "Polarities": [
+        "Naramon",
+        "Vazarin",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Atlas.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Brawler/Brawler",
+      "Mobility": 0.8,
+      "Type": "Warframe",
+      "Link": "Conclave:Atlas",
+      "AuraPolarity": "Madurai",
+      "Health": 110,
+      "Sex": "Male",
+      "Abilities": [
+        "Landslide",
+        "Tectonics",
+        "Petrify",
+        "Rumblers"
+      ],
+      "Name": "Atlas",
+      "Energy": 100,
+      "Armor": 170
+    },
+    "Excalibur Prime": {
+      "Sprint": 1,
+      "Shield": 145,
+      "SellPrice": 25000,
+      "Image": "ExcaliburPrime_Thumb.png",
+      "Introduced": "5",
+      "Polarities": [
+        "Vazarin",
+        "Madurai",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "ExcaliburPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Excalibur/ExcaliburPrime",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Excalibur Prime",
+      "AuraPolarity": "Madurai",
+      "Health": 110,
+      "Sex": "Male",
+      "Abilities": [
+        "Slash Dash",
+        "Radial Blind",
+        "Radial Javelin",
+        "Exalted Blade"
+      ],
+      "Name": "Excalibur Prime",
+      "Energy": 100,
+      "Armor": 130
+    },
+    "Mag": {
+      "Sprint": 1,
+      "Shield": 165,
+      "SellPrice": 10000,
+      "Image": "Mag_Thumb.png",
+      "Introduced": "Vanilla",
+      "Polarities": [
+        "Naramon",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Mag.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Mag/Mag",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Mag",
+      "AuraPolarity": "Madurai",
+      "Health": 100,
+      "Sex": "Female",
+      "Abilities": [
+        "Pull",
+        "Magnetize",
+        "Polarize",
+        "Crush"
+      ],
+      "Name": "Mag",
+      "Energy": 100,
+      "Armor": 70
+    },
+    "Equinox Prime": {
+      "Sprint": 1.15,
+      "Shield": 145,
+      "SellPrice": 10000,
+      "Image": "EquinoxPrime_Thumb.png",
+      "Introduced": "24.5.8",
+      "Polarities": [
+        "Vazarin",
+        "Vazarin",
+        "Madurai",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Composite",
+          "Image": "EquinoxPrime.png"
+        },
+        {
+          "TabName": "Day",
+          "Image": "EquinoxPrime-Day.png"
+        },
+        {
+          "TabName": "Night",
+          "Image": "EquinoxPrime-Night.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/YinYang/EquinoxPrime",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Equinox Prime",
+      "Name": "Equinox Prime",
+      "AuraPolarity": "Naramon",
+      "Health": 115,
+      "Sex": "Female",
+      "Mastery": 0,
+      "Abilities": [
+        "Metamorphosis",
+        "Rest & Rage",
+        "Pacify & Provoke",
+        "Mend & Maim"
+      ],
+      "Energy": 100,
+      "Armor": 85
+    },
+    "Valkyr": {
+      "Sprint": 1.1,
+      "Shield": 115,
+      "SellPrice": 10000,
+      "Image": "Valkyr_Thumb.png",
+      "Introduced": "11",
+      "Polarities": [
+        "Madurai",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Valkyr.png"
+        },
+        {
+          "TabName": "With Bonds",
+          "Image": "Valkyr-Bonds.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Berserker/Berserker",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Valkyr",
+      "AuraPolarity": "Madurai",
+      "Health": 110,
+      "Sex": "Female",
+      "Abilities": [
+        "Rip Line",
+        "Warcry",
+        "Paralysis",
+        "Hysteria"
+      ],
+      "Name": "Valkyr",
+      "Energy": 100,
+      "Armor": 200
+    },
+    "Nyx": {
+      "Sprint": 1.1,
+      "Shield": 145,
+      "SellPrice": 10000,
+      "Image": "Nyx_Thumb.png",
+      "Introduced": "6",
+      "Polarities": [
+        "Madurai",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Nyx.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Jade/Jade",
+      "Mobility": 1,
+      "Type": "Warframe",
+      "Link": "Conclave:Nyx",
+      "AuraPolarity": "Naramon",
+      "Health": 110,
+      "Sex": "Female",
+      "Abilities": [
+        "Mind Control",
+        "Psychic Bolts",
+        "Chaos",
+        "Absorb"
+      ],
+      "Name": "Nyx",
+      "Energy": 100,
+      "Armor": 70
+    },
+    "Valkyr Prime": {
+      "Sprint": 1.1,
+      "Shield": 115,
+      "SellPrice": 10000,
+      "Image": "ValkyrPrime_Thumb.png",
+      "Introduced": "19.0.7",
+      "Polarities": [
+        "Madurai",
+        "Madurai",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "ValkyrPrime.png"
+        },
+        {
+          "TabName": "With Bonds",
+          "Image": "ValkyrPrime-Bonds.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Berserker/ValkyrPrime",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Valkyr Prime",
+      "AuraPolarity": "Madurai",
+      "Health": 110,
+      "Sex": "Female",
+      "Abilities": [
+        "Rip Line",
+        "Warcry",
+        "Paralysis",
+        "Hysteria"
+      ],
+      "Name": "Valkyr Prime",
+      "Energy": 100,
+      "Armor": 220
+    },
+    "Chroma": {
+      "Sprint": 1,
+      "Shield": 145,
+      "SellPrice": 10000,
+      "Image": "Chroma_Thumb.png",
+      "Introduced": "16",
+      "Polarities": [
+        "Naramon",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Chroma.png"
+        },
+        {
+          "TabName": "Effigy",
+          "Image": "Chroma-Effigy.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Dragon/Dragon",
+      "Mobility": 0.8,
+      "Type": "Warframe",
+      "Link": "Conclave:Chroma",
+      "AuraPolarity": "Madurai",
+      "Health": 110,
+      "Sex": "Male",
+      "Abilities": [
+        "Spectral Scream",
+        "Elemental Ward",
+        "Vex Armor",
+        "Effigy"
+      ],
+      "Name": "Chroma",
+      "Energy": 100,
+      "Armor": 145
+    },
+    "Excalibur": {
+      "Sprint": 1,
+      "Shield": 145,
+      "SellPrice": 10000,
+      "Image": "Excalibur_Thumb.png",
+      "Introduced": "Vanilla",
+      "Polarities": [
+        "Vazarin",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Excalibur.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Excalibur/Excalibur",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Excalibur",
+      "Health": 110,
+      "Sex": "Male",
+      "Name": "Excalibur",
+      "Abilities": [
+        "Slash Dash",
+        "Radial Blind",
+        "Radial Javelin",
+        "Exalted Blade"
+      ],
+      "Energy": 100,
+      "Armor": 110
+    },
+    "Trinity Prime": {
+      "Sprint": 1.1,
+      "Shield": 165,
+      "SellPrice": 25000,
+      "Image": "TrinityPrime_Thumb.png",
+      "Introduced": "17.6",
+      "Polarities": [
+        "Vazarin",
+        "Vazarin",
+        "Madurai",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "TrinityPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Trinity/TrinityPrime",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Trinity Prime",
+      "AuraPolarity": "Vazarin",
+      "Health": 110,
+      "Sex": "Female",
+      "Abilities": [
+        "Well of Life",
+        "Energy Vampire",
+        "Link",
+        "Blessing"
+      ],
+      "Name": "Trinity Prime",
+      "Energy": 150,
+      "Armor": 80
+    },
+    "Titania": {
+      "Sprint": 1,
+      "Shield": 145,
+      "SellPrice": 10000,
+      "Image": "Titania_Thumb.png",
+      "Introduced": "The Silver Grove",
+      "Polarities": [
+        "Madurai",
+        "Vazarin"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Titania.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Fairy/Fairy",
+      "Mobility": 1,
+      "Type": "Warframe",
+      "Link": "Conclave:Titania",
+      "AuraPolarity": "Madurai",
+      "Health": 110,
+      "Sex": "Female",
+      "Abilities": [
+        "Spellbind",
+        "Tribute",
+        "Lantern",
+        "Razorwing"
+      ],
+      "Name": "Titania",
+      "Energy": 100,
+      "Armor": 70
+    },
+    "Mesa": {
+      "Sprint": 1.1,
+      "Shield": 130,
+      "SellPrice": 10000,
+      "Image": "Mesa_Thumb.png",
+      "Introduced": "15.5",
+      "Polarities": [
+        "Naramon",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Mesa.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Cowgirl/Cowgirl",
+      "Mobility": 1,
+      "Type": "Warframe",
+      "Link": "Conclave:Mesa",
+      "AuraPolarity": "Madurai",
+      "Health": 115,
+      "Sex": "Female",
+      "Abilities": [
+        "Ballistic Battery",
+        "Shooting Gallery",
+        "Shatter Shield",
+        "Peacemaker"
+      ],
+      "Name": "Mesa",
+      "Energy": 100,
+      "Armor": 70
+    },
+    "Excalibur Umbra": {
+      "Sprint": 1,
+      "Shield": 145,
+      "SellPrice": 0,
+      "Image": "ExcaliburUmbra_Thumb.png",
+      "Introduced": "23",
+      "Polarities": [
+        "Madurai",
+        "U",
+        "U",
+        "U"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "ExcaliburUmbra.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Excalibur/ExcaliburUmbra",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Excalibur Umbra",
+      "AuraPolarity": "Madurai",
+      "Health": 110,
+      "Sex": "Male",
+      "Abilities": [
+        "Slash Dash",
+        "Radial Howl",
+        "Radial Javelin",
+        "Exalted Blade"
+      ],
+      "Name": "Excalibur Umbra",
+      "Energy": 100,
+      "Armor": 130
+    },
+    "Nidus": {
+      "Sprint": 1,
+      "Shield": 0,
+      "SellPrice": 25000,
+      "Image": "Nidus_Thumb.png",
+      "Introduced": "19.5",
+      "Polarities": [
+        "Madurai",
+        "Vazarin"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Nidus.png"
+        },
+        {
+          "TabName": "Mutated",
+          "Image": "Nidus-Mutated.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Infestation/Infestation",
+      "Mobility": 1,
+      "Type": "Warframe",
+      "Link": "Conclave:Nidus",
+      "AuraPolarity": "Madurai",
+      "Health": 150,
+      "Sex": "Male",
+      "Abilities": [
+        "Virulence",
+        "Larva",
+        "Parasitic Link",
+        "Ravenous"
+      ],
+      "Name": "Nidus",
+      "Energy": 100,
+      "Armor": 130
+    },
+    "Nyx Prime": {
+      "Sprint": 1.125,
+      "Shield": 155,
+      "SellPrice": 25000,
+      "Image": "NyxPrime_Thumb.png",
+      "Introduced": "14.8",
+      "Polarities": [
+        "Madurai",
+        "Naramon",
+        "Vazarin"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "NyxPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Jade/NyxPrime",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Nyx Prime",
+      "AuraPolarity": "Naramon",
+      "Health": 110,
+      "Sex": "Female",
+      "Abilities": [
+        "Mind Control",
+        "Psychic Bolts",
+        "Chaos",
+        "Absorb"
+      ],
+      "Name": "Nyx Prime",
+      "Energy": 100,
+      "Armor": 80
+    },
+    "Saryn Prime": {
+      "Sprint": 1,
+      "Shield": 145,
+      "SellPrice": 25000,
+      "Image": "SarynPrime_Thumb.png",
+      "Introduced": "18.4.12",
+      "Polarities": [
+        "Naramon",
+        "Vazarin",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "SarynPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Saryn/SarynPrime",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Saryn Prime",
+      "AuraPolarity": "Vazarin",
+      "Health": 115,
+      "Sex": "Female",
+      "Abilities": [
+        "Spores",
+        "Molt",
+        "Toxic Lash",
+        "Miasma"
+      ],
+      "Name": "Saryn Prime",
+      "Energy": 100,
+      "Armor": 130
+    },
+    "Mag Prime": {
+      "Sprint": 1,
+      "Shield": 165,
+      "SellPrice": 25000,
+      "Image": "MagPrime_Thumb.png",
+      "Introduced": "10",
+      "Polarities": [
+        "Naramon",
+        "Naramon",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "MagPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Mag/MagPrime",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Mag Prime",
+      "AuraPolarity": "Madurai",
+      "Health": 110,
+      "Sex": "Female",
+      "Abilities": [
+        "Pull",
+        "Magnetize",
+        "Polarize",
+        "Crush"
+      ],
+      "Name": "Mag Prime",
+      "Energy": 100,
+      "Armor": 80
+    },
+    "Rhino": {
+      "Sprint": 0.95,
+      "Shield": 165,
+      "SellPrice": 10000,
+      "Image": "Rhino_Thumb.png",
+      "Introduced": "Vanilla",
+      "Polarities": [
+        "Vazarin",
+        "Vazarin"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Rhino.png"
+        },
+        {
+          "TabName": "Iron Skin",
+          "Image": "Rhino-IronSkin.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Rhino/Rhino",
+      "Mobility": 0.8,
+      "Type": "Warframe",
+      "Link": "Conclave:Rhino",
+      "AuraPolarity": "Madurai",
+      "Health": 110,
+      "Sex": "Male",
+      "Abilities": [
+        "Rhino Charge",
+        "Iron Skin",
+        "Roar",
+        "Rhino Stomp"
+      ],
+      "Name": "Rhino",
+      "Energy": 100,
+      "Armor": 100
+    },
+    "Rhino Prime": {
+      "Sprint": 1,
+      "Shield": 165,
+      "SellPrice": 25000,
+      "Image": "RhinoPrime_Thumb.png",
+      "Introduced": "12.4",
+      "Polarities": [
+        "Vazarin",
+        "Vazarin",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "RhinoPrime.png"
+        },
+        {
+          "TabName": "Iron Skin",
+          "Image": "RhinoPrime-IronSkin.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Rhino/RhinoPrime",
+      "Mobility": 0.8,
+      "Type": "Warframe",
+      "Link": "Conclave:Rhino Prime",
+      "AuraPolarity": "Madurai",
+      "Health": 110,
+      "Sex": "Male",
+      "Abilities": [
+        "Rhino Charge",
+        "Iron Skin",
+        "Roar",
+        "Rhino Stomp"
+      ],
+      "Name": "Rhino Prime",
+      "Energy": 100,
+      "Armor": 125
+    },
+    "Equinox": {
+      "Sprint": 1.15,
+      "Shield": 145,
+      "SellPrice": 10000,
+      "Image": "Equinox_Thumb.png",
+      "Introduced": "17",
+      "Polarities": [
+        "Vazarin",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Composite",
+          "Image": "Equinox.png"
+        },
+        {
+          "TabName": "Day",
+          "Image": "Equinox-Day.png"
+        },
+        {
+          "TabName": "Night",
+          "Image": "Equinox-Night.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/YinYang/YinYang",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Equinox",
+      "AuraPolarity": "Naramon",
+      "Health": 110,
+      "Sex": "Female",
+      "Abilities": [
+        "Metamorphosis",
+        "Rest & Rage",
+        "Pacify & Provoke",
+        "Mend & Maim"
+      ],
+      "Name": "Equinox",
+      "Energy": 100,
+      "Armor": 80
+    },
+    "Limbo Prime": {
+      "Sprint": 1.15,
+      "Shield": 145,
+      "SellPrice": 10000,
+      "Image": "LimboPrime_Thumb.png",
+      "Introduced": "23.0.3",
+      "Polarities": [
+        "Madurai",
+        "Madurai",
+        "Naramon",
+        "Vazarin"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "LimboPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Magician/LimboPrime",
+      "Mobility": 1,
+      "Type": "Warframe",
+      "Link": "Conclave:Limbo Prime",
+      "Name": "Limbo Prime",
+      "AuraPolarity": "Naramon",
+      "Health": 110,
+      "Sex": "Male",
+      "Mastery": 0,
+      "Abilities": [
+        "Banish",
+        "Stasis",
+        "Rift Surge",
+        "Cataclysm"
+      ],
+      "Energy": 100,
+      "Armor": 80
+    },
+    "Mirage Prime": {
+      "Sprint": 1.2,
+      "Shield": 150,
+      "SellPrice": 10000,
+      "Image": "MiragePrime_Thumb.png",
+      "Introduced": "22.7",
+      "Polarities": [
+        "Vazarin",
+        "Vazarin",
+        "Naramon",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "MiragePrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Harlequin/MiragePrime",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Mirage Prime",
+      "Name": "Mirage Prime",
+      "AuraPolarity": "Naramon",
+      "Health": 105,
+      "Sex": "Female",
+      "Mastery": 0,
+      "Abilities": [
+        "Hall of Mirrors",
+        "Sleight of Hand",
+        "Eclipse",
+        "Prism"
+      ],
+      "Energy": 100,
+      "Armor": 95
+    },
+    "Banshee Prime": {
+      "Sprint": 1.15,
+      "Shield": 145,
+      "SellPrice": 10000,
+      "Image": "BansheePrime_Thumb.png",
+      "Introduced": "19.11.5",
+      "Polarities": [
+        "Madurai",
+        "Madurai",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "BansheePrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Banshee/BansheePrime",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Banshee Prime",
+      "Name": "Banshee Prime",
+      "AuraPolarity": "Madurai",
+      "Health": 110,
+      "Sex": "Female",
+      "Mastery": 0,
+      "Abilities": [
+        "Sonic Boom",
+        "Sonar",
+        "Silence",
+        "Sound Quake"
+      ],
+      "Energy": 100,
+      "Armor": 80
+    },
+    "Frost": {
+      "Sprint": 0.95,
+      "Shield": 165,
+      "SellPrice": 10000,
+      "Image": "Frost_Thumb.png",
+      "Introduced": "6",
+      "Polarities": [
+        "Naramon",
+        "Vazarin"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Frost.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Frost/Frost",
+      "Mobility": 0.8,
+      "Type": "Warframe",
+      "Link": "Conclave:Frost",
+      "AuraPolarity": "Vazarin",
+      "Health": 110,
+      "Sex": "Male",
+      "Abilities": [
+        "Freeze",
+        "Ice Wave",
+        "Snow Globe",
+        "Avalanche"
+      ],
+      "Name": "Frost",
+      "Energy": 100,
+      "Armor": 130
+    },
+    "Oberon": {
+      "Sprint": 1,
+      "Shield": 145,
+      "SellPrice": 10000,
+      "Image": "Oberon_Thumb.png",
+      "Introduced": "11.5",
+      "Polarities": [
+        "Madurai",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Oberon.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Paladin/Paladin",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Oberon",
+      "AuraPolarity": "Madurai",
+      "Health": 115,
+      "Sex": "Male",
+      "Abilities": [
+        "Smite",
+        "Hallowed Ground",
+        "Renewal",
+        "Reckoning"
+      ],
+      "Name": "Oberon",
+      "Energy": 100,
+      "Armor": 95
+    },
+    "Trinity": {
+      "Sprint": 1,
+      "Shield": 145,
+      "SellPrice": 10000,
+      "Image": "Trinity_Thumb.png",
+      "Introduced": "Vanilla",
+      "Polarities": [
+        "Vazarin",
+        "Vazarin"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Trinity.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Trinity/Trinity",
+      "Mobility": 1,
+      "Type": "Warframe",
+      "Link": "Conclave:Trinity",
+      "AuraPolarity": "Vazarin",
+      "Health": 110,
+      "Sex": "Female",
+      "Abilities": [
+        "Well of Life",
+        "Energy Vampire",
+        "Link",
+        "Blessing"
+      ],
+      "Name": "Trinity",
+      "Energy": 100,
+      "Armor": 70
+    },
+    "Nova Prime": {
+      "Sprint": 1.2,
+      "Shield": 145,
+      "SellPrice": 25000,
+      "Image": "NovaPrime_Thumb.png",
+      "Introduced": "15.7",
+      "Polarities": [
+        "Madurai",
+        "Madurai",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "NovaPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/AntiMatter/NovaPrime",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Nova Prime",
+      "AuraPolarity": "Naramon",
+      "Health": 110,
+      "Sex": "Female",
+      "Abilities": [
+        "Null Star",
+        "Antimatter Drop",
+        "Wormhole",
+        "Molecular Prime"
+      ],
+      "Name": "Nova Prime",
+      "Energy": 100,
+      "Armor": 80
+    },
+    "Nova": {
+      "Sprint": 1.2,
+      "Shield": 130,
+      "SellPrice": 10000,
+      "Image": "Nova_Thumb.png",
+      "Introduced": "9",
+      "Polarities": [
+        "Madurai",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Nova.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/AntiMatter/Anti",
+      "Mobility": 1,
+      "Type": "Warframe",
+      "Link": "Conclave:Nova",
+      "AuraPolarity": "Naramon",
+      "Health": 110,
+      "Sex": "Female",
+      "Abilities": [
+        "Null Star",
+        "Antimatter Drop",
+        "Wormhole",
+        "Molecular Prime"
+      ],
+      "Name": "Nova",
+      "Energy": 100,
+      "Armor": 70
+    },
+    "Mirage": {
+      "Sprint": 1.2,
+      "Shield": 135,
+      "SellPrice": 10000,
+      "Image": "Mirage_Thumb.png",
+      "Introduced": "14",
+      "Polarities": [
+        "Vazarin",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Mirage.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Harlequin/Harlequin",
+      "Mobility": 1,
+      "Type": "Warframe",
+      "Link": "Conclave:Mirage",
+      "AuraPolarity": "Naramon",
+      "Health": 105,
+      "Sex": "Female",
+      "Abilities": [
+        "Hall of Mirrors",
+        "Sleight of Hand",
+        "Eclipse",
+        "Prism"
+      ],
+      "Name": "Mirage",
+      "Energy": 100,
+      "Armor": 70
+    },
+    "Nezha": {
+      "Sprint": 1.15,
+      "Shield": 130,
+      "SellPrice": 10000,
+      "Image": "Nezha_Thumb.png",
+      "Introduced": "18.1",
+      "Polarities": [
+        "Vazarin",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Nezha.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Nezha/Nezha",
+      "Mobility": 1,
+      "Type": "Warframe",
+      "Link": "Conclave:Nezha",
+      "AuraPolarity": "Naramon",
+      "Health": 100,
+      "Sex": "Male",
+      "Abilities": [
+        "Fire Walker",
+        "Blazing Chakram",
+        "Warding Halo",
+        "Divine Spears"
+      ],
+      "Name": "Nezha",
+      "Energy": 100,
+      "Armor": 100
+    },
+    "Harrow": {
+      "Sprint": 1,
+      "Shield": 165,
+      "SellPrice": 25000,
+      "Image": "Harrow_Thumb.png",
+      "Introduced": "21",
+      "Polarities": [
+        "Vazarin",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Harrow.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Priest/Priest",
+      "Mobility": 0.8,
+      "Type": "Warframe",
+      "Link": "Conclave:Harrow",
+      "AuraPolarity": "Naramon",
+      "Health": 110,
+      "Sex": "Male",
+      "Abilities": [
+        "Condemn",
+        "Penance",
+        "Thurible",
+        "Covenant"
+      ],
+      "Name": "Harrow",
+      "Energy": 100,
+      "Armor": 95
+    },
+    "Khora Prime": {
+      "Sprint": 1.05,
+      "Shield": 165,
+      "SellPrice": 10000,
+      "Image": "KhoraPrime_Thumb.png",
+      "Introduced": "31.7",
+      "Armor": 140,
+      "FullImages": [
+        {
+          "TabName": "Hidden",
+          "Image": "KhoraPrime.png"
+        },
+        {
+          "TabName": "Attack",
+          "Image": "KhoraPrime-Attack.png"
+        },
+        {
+          "TabName": "Protect",
+          "Image": "KhoraPrime-Protect.png"
+        },
+        {
+          "TabName": "Heal",
+          "Image": "KhoraPrime-Heal.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Khora/KhoraPrime",
+      "Mobility": 0.8,
+      "Type": "Warframe",
+      "Link": "Conclave:Khora Prime",
+      "ExilusPolarity": "Naramon",
+      "AuraPolarity": "Vazarin",
+      "Health": 100,
+      "Sex": "Female",
+      "Name": "Khora Prime",
+      "Abilities": [
+        "Whipclaw",
+        "Ensnare",
+        "Venari",
+        "Strangledome"
+      ],
+      "Energy": 100,
+      "Polarities": [
+        "Madurai",
+        "Vazarin",
+        "Naramon"
+      ]
+    },
+    "Nekros Prime": {
+      "Sprint": 1.1,
+      "Shield": 165,
+      "SellPrice": 25000,
+      "Image": "NekrosPrime_Thumb.png",
+      "Introduced": "The Silver Grove 3",
+      "Polarities": [
+        "Madurai",
+        "Vazarin",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "NekrosPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Necro/NekrosPrime",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Nekros Prime",
+      "Health": 110,
+      "Sex": "Male",
+      "Name": "Nekros Prime",
+      "Abilities": [
+        "Soul Punch",
+        "Terrify",
+        "Desecrate",
+        "Shadows of the Dead"
+      ],
+      "Energy": 100,
+      "Armor": 80
+    },
+    "Banshee": {
+      "Sprint": 1.1,
+      "Shield": 145,
+      "SellPrice": 10000,
+      "Image": "Banshee_Thumb.png",
+      "Introduced": "7",
+      "Polarities": [
+        "Madurai",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Banshee.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Banshee/Banshee",
+      "Mobility": 1,
+      "Type": "Warframe",
+      "Link": "Conclave:Banshee",
+      "AuraPolarity": "Madurai",
+      "Health": 110,
+      "Sex": "Female",
+      "Abilities": [
+        "Sonic Boom",
+        "Sonar",
+        "Silence",
+        "Sound Quake"
+      ],
+      "Name": "Banshee",
+      "Energy": 100,
+      "Armor": 70
+    },
+    "Frost Prime": {
+      "Sprint": 0.95,
+      "Shield": 175,
+      "SellPrice": 25000,
+      "Image": "FrostPrime_Thumb.png",
+      "Introduced": "7.10",
+      "Polarities": [
+        "Naramon",
+        "Vazarin",
+        "Vazarin"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "FrostPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Frost/FrostPrime",
+      "Mobility": 0.8,
+      "Type": "Warframe",
+      "Link": "Conclave:Frost Prime",
+      "AuraPolarity": "Vazarin",
+      "Health": 110,
+      "Sex": "Male",
+      "Abilities": [
+        "Freeze",
+        "Ice Wave",
+        "Snow Globe",
+        "Avalanche"
+      ],
+      "Name": "Frost Prime",
+      "Energy": 100,
+      "Armor": 130
+    },
+    "Khora": {
+      "Sprint": 1.05,
+      "Shield": 145,
+      "SellPrice": 10000,
+      "Image": "Khora_Thumb.png",
+      "Introduced": "22.18.0",
+      "Armor": 125,
+      "FullImages": [
+        {
+          "TabName": "Hidden",
+          "Image": "Khora.png"
+        },
+        {
+          "TabName": "Attack",
+          "Image": "Khora-Attack.png"
+        },
+        {
+          "TabName": "Protect",
+          "Image": "Khora-Protect.png"
+        },
+        {
+          "TabName": "Heal",
+          "Image": "Khora-Heal.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Khora/Khora",
+      "Mobility": 0.8,
+      "Type": "Warframe",
+      "Link": "Conclave:Khora",
+      "ExilusPolarity": "Naramon",
+      "AuraPolarity": "Vazarin",
+      "Health": 115,
+      "Sex": "Female",
+      "Name": "Khora",
+      "Abilities": [
+        "Whipclaw",
+        "Ensnare",
+        "Venari",
+        "Strangledome"
+      ],
+      "Energy": 100,
+      "Polarities": [
+        "Vazarin",
+        "Naramon"
+      ]
+    },
+    "Ivara Prime": {
+      "Sprint": 1.2,
+      "Shield": 165,
+      "SellPrice": 10000,
+      "Image": "IvaraPrime_Thumb.png",
+      "Introduced": "27.0.4",
+      "Polarities": [
+        "Madurai",
+        "Vazarin",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "IvaraPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Ranger/IvaraPrime",
+      "Mobility": 1,
+      "Type": "Warframe",
+      "Link": "Conclave:Ivara Prime",
+      "AuraPolarity": "Naramon",
+      "Health": 110,
+      "Sex": "Female",
+      "Abilities": [
+        "Quiver",
+        "Navigator",
+        "Prowl",
+        "Artemis Bow"
+      ],
+      "Name": "Ivara Prime",
+      "Energy": 100,
+      "Armor": 80
+    },
+    "Octavia": {
+      "Sprint": 1.05,
+      "Shield": 130,
+      "SellPrice": 25000,
+      "Image": "Octavia_Thumb.png",
+      "Introduced": "20",
+      "Polarities": [
+        "Naramon",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Octavia.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Bard/Bard",
+      "Mobility": 1,
+      "Type": "Warframe",
+      "Link": "Conclave:Octavia",
+      "AuraPolarity": "Naramon",
+      "Health": 110,
+      "Sex": "Female",
+      "Abilities": [
+        "Mallet",
+        "Resonator",
+        "Metronome",
+        "Amp"
+      ],
+      "Name": "Octavia",
+      "Energy": 100,
+      "Armor": 85
+    },
+    "Nezha Prime": {
+      "Sprint": 1.2,
+      "Shield": 115,
+      "SellPrice": 10000,
+      "Image": "NezhaPrime_Thumb.png",
+      "Introduced": "29.3",
+      "Polarities": [
+        "Vazarin",
+        "Madurai",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "NezhaPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Nezha/NezhaPrime",
+      "Mobility": 1,
+      "Type": "Warframe",
+      "Link": "Conclave:Nezha Prime",
+      "AuraPolarity": "Naramon",
+      "Health": 115,
+      "Sex": "Male",
+      "Abilities": [
+        "Fire Walker",
+        "Blazing Chakram",
+        "Warding Halo",
+        "Divine Spears"
+      ],
+      "Name": "Nezha Prime",
+      "Energy": 100,
+      "Armor": 120
+    },
+    "Octavia Prime": {
+      "Sprint": 1.05,
+      "Shield": 145,
+      "SellPrice": 25000,
+      "Image": "OctaviaPrime_Thumb.png",
+      "Introduced": "29.9",
+      "Polarities": [
+        "Vazarin",
+        "Naramon",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "OctaviaPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Bard/OctaviaPrime",
+      "Mobility": 1,
+      "Type": "Warframe",
+      "Link": "Conclave:Octavia Prime",
+      "AuraPolarity": "Naramon",
+      "Health": 110,
+      "Sex": "Female",
+      "Abilities": [
+        "Mallet",
+        "Resonator",
+        "Metronome",
+        "Amp"
+      ],
+      "Name": "Octavia Prime",
+      "Energy": 100,
+      "Armor": 85
+    },
+    "Ash": {
+      "Sprint": 1.15,
+      "Shield": 145,
+      "SellPrice": 10000,
+      "Image": "Ash_Thumb.png",
+      "Introduced": "Vanilla",
+      "Polarities": [
+        "Madurai",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Ash.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Ninja/Ninja",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Ash",
+      "AuraPolarity": "Madurai",
+      "Health": 115,
+      "Sex": "Male",
+      "Abilities": [
+        "Shuriken",
+        "Smoke Screen",
+        "Teleport",
+        "Blade Storm"
+      ],
+      "Name": "Ash",
+      "Energy": 100,
+      "Armor": 70
+    },
+    "Oberon Prime": {
+      "Sprint": 1,
+      "Shield": 145,
+      "SellPrice": 10000,
+      "Image": "OberonPrime_Thumb.png",
+      "Introduced": "20.6.2",
+      "Polarities": [
+        "Naramon",
+        "Naramon",
+        "Madurai",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "OberonPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Paladin/PaladinPrime",
+      "Mobility": 0.8,
+      "Type": "Warframe",
+      "Link": "Conclave:Oberon Prime",
+      "Name": "Oberon Prime",
+      "AuraPolarity": "Madurai",
+      "Health": 115,
+      "Sex": "Male",
+      "Mastery": 0,
+      "Abilities": [
+        "Smite",
+        "Hallowed Ground",
+        "Renewal",
+        "Reckoning"
+      ],
+      "Energy": 100,
+      "Armor": 110
+    },
+    "Mesa Prime": {
+      "Sprint": 1.1,
+      "Shield": 130,
+      "SellPrice": 25000,
+      "Image": "MesaPrime_Thumb.png",
+      "Introduced": "24.2.2",
+      "Polarities": [
+        "Naramon",
+        "Naramon",
+        "Vazarin",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "MesaPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Cowgirl/MesaPrime",
+      "Mobility": 0.9,
+      "Type": "Warframe",
+      "Link": "Conclave:Mesa Prime",
+      "Name": "Mesa Prime",
+      "AuraPolarity": "Madurai",
+      "Health": 115,
+      "Sex": "Female",
+      "Mastery": 0,
+      "Abilities": [
+        "Ballistic Battery",
+        "Shooting Gallery",
+        "Shatter Shield",
+        "Peacemaker"
+      ],
+      "Energy": 100,
+      "Armor": 80
+    },
+    "Hydroid": {
+      "Sprint": 1,
+      "Shield": 155,
+      "SellPrice": 10000,
+      "Image": "Hydroid_Thumb.png",
+      "Introduced": "13",
+      "Polarities": [
+        "Madurai",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "Hydroid.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Pirate/Pirate",
+      "Mobility": 0.8,
+      "Type": "Warframe",
+      "Link": "Conclave:Hydroid",
+      "AuraPolarity": "Naramon",
+      "Health": 110,
+      "Sex": "Male",
+      "Abilities": [
+        "Tempest Barrage",
+        "Tidal Surge",
+        "Plunder",
+        "Tentacle Swarm"
+      ],
+      "Name": "Hydroid",
+      "Energy": 100,
+      "Armor": 110
+    },
+    "Loki Prime": {
+      "Sprint": 1.25,
+      "Shield": 130,
+      "SellPrice": 25000,
+      "Image": "LokiPrime_Thumb.png",
+      "Introduced": "13.7",
+      "Polarities": [
+        "Vazarin",
+        "Vazarin",
+        "Madurai",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "LokiPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Loki/LokiPrime",
+      "Mobility": 1,
+      "Type": "Warframe",
+      "Link": "Conclave:Loki Prime",
+      "AuraPolarity": "Naramon",
+      "Health": 100,
+      "Sex": "Male",
+      "Abilities": [
+        "Decoy",
+        "Invisibility",
+        "Switch Teleport",
+        "Radial Disarm"
+      ],
+      "Name": "Loki Prime",
+      "Energy": 100,
+      "Armor": 80
+    },
+    "Atlas Prime": {
+      "Sprint": 1,
+      "Shield": 165,
+      "SellPrice": 10000,
+      "Image": "AtlasPrime_Thumb.png",
+      "Introduced": "25.8",
+      "Polarities": [
+        "Naramon",
+        "Vazarin",
+        "Madurai",
+        "Madurai"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "AtlasPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Brawler/AtlasPrime",
+      "Mobility": 0.8,
+      "Type": "Warframe",
+      "Link": "Conclave:Atlas Prime",
+      "AuraPolarity": "Madurai",
+      "Health": 115,
+      "Sex": "Male",
+      "Abilities": [
+        "Landslide",
+        "Tectonics",
+        "Petrify",
+        "Rumblers"
+      ],
+      "Name": "Atlas Prime",
+      "Energy": 100,
+      "Armor": 175
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/kavatarmor",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:32:42.377Z"
+  },
+  "_comments": "",
+  "Myrdin Kavat Armor": {
+    "Type": "Kavat Armor",
+    "Image": "KavatArmorC.png",
+    "Description": "Accentuate the Kavat's sleek profile with this enchanting decorative armor.",
+    "Link": "Myrdin Kavat Armor",
+    "Name": "Myrdin Kavat Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/Armor/CatbrowArmorC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Moondance Kavat Armor": {
+    "Type": "Kavat Armor",
+    "Image": "LNYKavatBoltorArmour.png",
+    "Description": "Prepare your Kavat for a dance of Lunar Renewal revelry.",
+    "Link": "Moondance Kavat Armor",
+    "Name": "Moondance Kavat Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/Armor/LNYKavatBoltorArmor",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Euphrates Kavat Armor": {
+    "Type": "Kavat Armor",
+    "Image": "KavatArmorTigris.png",
+    "Description": "An armor set for your pet, modeled on the intimidating, bladed look of the Tigris Shotgun.",
+    "Link": "Euphrates Kavat Armor",
+    "Name": "Euphrates Kavat Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/Armor/TnTigrisKavatArmor",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Sigma Series Kavat Armor": {
+    "Type": "Kavat Armor",
+    "Image": "KavatArmorEmpyrean.png",
+    "Description": "Old-War-era battle-shell for shipboard mascots, service animals and attack beasts.",
+    "Link": "Sigma Series Kavat Armor",
+    "Name": "Sigma Series Kavat Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/Armor/EmpyreanKavatArmor",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Gabrai Kavat Armor": {
+    "Type": "Kavat Armor",
+    "Image": "CatbrowArmorDuviri.png",
+    "Description": "Sleek armor inspired by the storybook, Tales of Duviri.",
+    "Link": "Gabrai Kavat Armor",
+    "Name": "Gabrai Kavat Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/Armor/CatbrowArmorDuviri",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Amphix Kavat Armor": {
+    "Type": "Kavat Armor",
+    "Image": "KavatArmorGrnAmphis.png",
+    "Description": "A sleek, molded bodyglove, enhanced with piezo-electric detailing.",
+    "Link": "Amphix Kavat Armor",
+    "Name": "Amphix Kavat Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/Armor/GrnAmphisKavatArmor",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Tibor Prime Armor": {
+    "Type": "Kavat Armor",
+    "Image": "KavatArmorPrime.png",
+    "Description": "Have your Kavat strike fear and respect into any enemy with this golden armor.",
+    "Link": "Tibor Prime Armor",
+    "Name": "Tibor Prime Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/Armor/CatbrowArmorPrime",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ki'Teer Kavat Armor": {
+    "Type": "Kavat Armor",
+    "Image": "KavatArmorVoidTraderA.png",
+    "Description": "The armor your Kavat deserves.",
+    "Link": "Ki'Teer Kavat Armor",
+    "Name": "Ki'Teer Kavat Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/Armor/CatbrowArmorVoidTraderA",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Verv Myrdin Kavat Armor": {
+    "Type": "Kavat Armor",
+    "Image": "Twitch2021MyrdinKavatArmour.png",
+    "Description": "Heighten the Kavat's sleek profile with this entrancing decorative armor.",
+    "Link": "Verv Myrdin Kavat Armor",
+    "Name": "Verv Myrdin Kavat Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/Armor/Twitch2021MyrdinCatbrowArmor",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Castellan Prime Armor": {
+    "Type": "Kavat Armor",
+    "Image": "KavatArmourGaraPrime.png",
+    "Description": "Gird your Kavat in sculpted glass armor fit for the very noblest of beasts.",
+    "Link": "Castellan Prime Armor",
+    "Name": "Castellan Prime Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/Armor/CatbrowArmorGaraPrime",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Umbra Kavat Armor": {
+    "Type": "Kavat Armor",
+    "Image": "KavatArmorUmbra.png",
+    "Description": "Match the imposing style of Excalibur Umbra with this shadowy Kavat Armor.",
+    "Link": "Umbra Kavat Armor",
+    "Name": "Umbra Kavat Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/Armor/UmbraKavatArmor",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Vermillion Kavat Armor": {
+    "Type": "Kavat Armor",
+    "Image": "KavatArmorVermillion.png",
+    "Description": "For the Kavat that turns up the heat on its quarry.",
+    "Link": "Vermillion Kavat Armor",
+    "Name": "Vermillion Kavat Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/Armor/VermillionKavatArmor",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kuva Kavat Armor": {
+    "Type": "Kavat Armor",
+    "Image": "KavatArmorGrnQueen.png",
+    "Description": "This decorative armor was forged for the Grineer Queens’ royal Kavats.",
+    "Link": "Kuva Kavat Armor",
+    "Name": "Kuva Kavat Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/Armor/GrnQueenCatbrowArmor",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kasha Kavat Armor": {
+    "Type": "Kavat Armor",
+    "Image": "KavatArmorRevenant.png",
+    "Description": "The signature kavat armor of Revenant.",
+    "Link": "Kasha Kavat Armor",
+    "Name": "Kasha Kavat Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/Armor/RevenantKavatArmor",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Wysar Kavat Armor": {
+    "Type": "Kavat Armor",
+    "Image": "KavatArmorA.png",
+    "Description": "Decorative armor fitted for a Kavat.",
+    "Link": "Wysar Kavat Armor",
+    "Name": "Wysar Kavat Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/Armor/CatbrowArmorA",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Wysar Day of the Dead Kavat Armor": {
+    "Type": "Kavat Armor",
+    "Image": "KavatArmorHalloweenA.png",
+    "Description": "Morbidly festive armor fitted for a Kavat.",
+    "Link": "Wysar Day of the Dead Kavat Armor",
+    "Name": "Wysar Day of the Dead Kavat Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/Armor/CatbrowArmorHalloweenA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Sirocco Kavat Armor": {
+    "Type": "Kavat Armor",
+    "Image": "KavatArmorWisp.png",
+    "Description": "Fluid and aerodynamic, the signature Kavat armor of Wisp.",
+    "Link": "Sirocco Kavat Armor",
+    "Name": "Sirocco Kavat Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/Armor/WispKavatArmor",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Saraba Kavat Armor": {
+    "Type": "Kavat Armor",
+    "Image": "KavatArmorB.png",
+    "Description": "Decorative armor fitted for a Kavat.",
+    "Link": "Saraba Kavat Armor",
+    "Name": "Saraba Kavat Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/Armor/CatbrowArmorB",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  }
+}

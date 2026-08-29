@@ -1,0 +1,335 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/kahlarmor",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:32:36.969Z"
+  },
+  "_comments": "",
+  "Grearlance Shoulder Plates": {
+    "Type": "Armor",
+    "Description": "A venturous adaptation of traditional Grineer armor.",
+    "Link": "Grearlance Shoulder Plates",
+    "Part": "Arm",
+    "ExcludeFromCodex": false,
+    "Image": "GrearlanceShoulderPlates.png",
+    "Name": "Grearlance Shoulder Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlArmourStandardArms",
+    "CodexSecret": false
+  },
+  "Arktuk Shoulder Guard": {
+    "Type": "Armor",
+    "Description": "This armor's thickness protects against the cold wind's bite.",
+    "Link": "Arktuk Shoulder Guard",
+    "Part": "Arm",
+    "ExcludeFromCodex": false,
+    "Image": "ArktukShoulderGuard.png",
+    "Name": "Arktuk Shoulder Guard",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlArmourWinterArmLeft",
+    "CodexSecret": false
+  },
+  "Rekk Back Armor": {
+    "Type": "Armor",
+    "Description": "Breakage reflects a heroic past.",
+    "Link": "Rekk Back Armor",
+    "Part": "Back",
+    "ExcludeFromCodex": false,
+    "Image": "RekkBackArmor.png",
+    "Name": "Rekk Back Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlArmourDamagedBack",
+    "CodexSecret": false
+  },
+  "Krunan Eye-Guard": {
+    "Type": "Eye-Guard",
+    "Image": "KrunanEye-Guard.png",
+    "Description": "An eye-guard for one who knows that those who demand fealty do not always deserve it.",
+    "Link": "Krunan Eye-Guard",
+    "Name": "Krunan Eye-Guard",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlEyepatchB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Xiel Helmet": {
+    "Type": "Helmet",
+    "Image": "XielHelmet.png",
+    "Description": "A helmet for those who aren’t afraid to earn their place.",
+    "Link": "Xiel Helmet",
+    "Name": "Xiel Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlHelmetKavaLich3A",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ukstru Helmet": {
+    "Type": "Helmet",
+    "Image": "UkstruHelmet.png",
+    "Description": "This helmet’s flat design is well-suited for sabotage.",
+    "Link": "Ukstru Helmet",
+    "Name": "Ukstru Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlHelmetMushroom",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Regrevis Helmet": {
+    "Type": "Helmet",
+    "Image": "RegrevisHelmet.png",
+    "Description": "Those who fight in varied environments appreciate the versatility of this hooded helmet.",
+    "Link": "Regrevis Helmet",
+    "Name": "Regrevis Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlHelmetHood",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Arktuk Back Armor": {
+    "Type": "Armor",
+    "Description": "This armor's thickness protects against the cold wind's bite.",
+    "Link": "Arktuk Back Armor",
+    "Part": "Back",
+    "ExcludeFromCodex": false,
+    "Image": "ArktukBackArmor.png",
+    "Name": "Arktuk Back Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlArmourWinterPack",
+    "CodexSecret": false
+  },
+  "Rafellion Helmet": {
+    "Type": "Helmet",
+    "Image": "RafellionHelmet.png",
+    "Description": "Harsh environments have roughened this helmet’s surface.",
+    "Link": "Rafellion Helmet",
+    "Name": "Rafellion Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlHelmetPith",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Grearlance Back Armor": {
+    "Type": "Armor",
+    "Description": "A venturous adaptation of traditional Grineer armor.",
+    "Link": "Grearlance Back Armor",
+    "Part": "Back",
+    "ExcludeFromCodex": false,
+    "Image": "GrearlanceBackArmor.png",
+    "Name": "Grearlance Back Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlArmourStandardBack",
+    "CodexSecret": false
+  },
+  "Sorex Helmet": {
+    "Type": "Helmet",
+    "Image": "SorexHelmet.png",
+    "Description": "For where your treasure is, there your heart will be also.",
+    "Link": "Sorex Helmet",
+    "Name": "Sorex Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlHelmetCorpus",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Grearlance Helmet": {
+    "Type": "Helmet",
+    "Image": "GrearlanceHelmet.png",
+    "Description": "A common helmet unifies Grineer brothers in arms.",
+    "Link": "Grearlance Helmet",
+    "Name": "Grearlance Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlHelmetStandard",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Aridkref Helmet": {
+    "Type": "Helmet",
+    "Image": "AridkrefHelmet.png",
+    "Description": "This helmet conjures up memories of red sand and dry wind.",
+    "Link": "Aridkref Helmet",
+    "Name": "Aridkref Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlHelmetWater",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Rekk Visor Helmet": {
+    "Type": "Helmet",
+    "Image": "RekkVisorHelmet.png",
+    "Description": "Breakage reflects a heroic past.",
+    "Link": "Rekk Visor Helmet",
+    "Name": "Rekk Visor Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlHelmetDamagedWithMask",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Grearlance Leg Guard": {
+    "Type": "Armor",
+    "Description": "A venturous adaptation of traditional Grineer armor.",
+    "Link": "Grearlance Leg Guard",
+    "Part": "Leg",
+    "ExcludeFromCodex": false,
+    "Image": "GrearlanceLegGuard.png",
+    "Name": "Grearlance Leg Guard",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlArmourStandardLegs",
+    "CodexSecret": false
+  },
+  "Rhunr Back Armor": {
+    "Type": "Armor",
+    "Description": "Attach this unit to remain cool in hot environments.",
+    "Link": "Rhunr Back Armor",
+    "Part": "Arm",
+    "ExcludeFromCodex": false,
+    "Image": "RhunrBackArmor.png",
+    "Name": "Rhunr Back Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlArmourAridBackWithACUnit",
+    "CodexSecret": false
+  },
+  "Resalv Eye-Guard": {
+    "Type": "Eye-Guard",
+    "Image": "ResalvEye-Guard.png",
+    "Description": "Show the grit of a resourceful warrior.",
+    "Link": "Resalv Eye-Guard",
+    "Name": "Resalv Eye-Guard",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlEyepatchC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Aridkref Chest Armor": {
+    "Type": "Armor",
+    "Description": "This armor conjures up memories of red sand and dry wind.",
+    "Link": "Aridkref Chest Armor",
+    "Part": "Chest",
+    "ExcludeFromCodex": false,
+    "Image": "AridkrefChestArmor.png",
+    "Name": "Aridkref Chest Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlArmourAridFront",
+    "CodexSecret": false
+  },
+  "Brauld Gaiters": {
+    "Type": "Armor",
+    "Description": "A soft protective layer is an advantage during long marches through cold, heat, and underbrush.",
+    "Link": "Brauld Gaiters",
+    "Part": "Leg",
+    "ExcludeFromCodex": false,
+    "Image": "BrauldGaiters.png",
+    "Name": "Brauld Gaiters",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlArmourAridLegs",
+    "CodexSecret": false
+  },
+  "Sorex Back Armor": {
+    "Type": "Armor",
+    "Description": "For where your treasure is, there your heart will be also.",
+    "Link": "Sorex Back Armor",
+    "Part": "Back",
+    "ExcludeFromCodex": false,
+    "Image": "SorexBackArmor.png",
+    "Name": "Sorex Back Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlArmourCorpusBack",
+    "CodexSecret": false
+  },
+  "Rekk Helmet": {
+    "Type": "Helmet",
+    "Image": "RekkHelmet.png",
+    "Description": "Breakage reflects a heroic past.",
+    "Link": "Rekk Helmet",
+    "Name": "Rekk Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlHelmetDamaged",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Rekk Shoulder Plates": {
+    "Type": "Armor",
+    "Description": "Breakage reflects a heroic past.",
+    "Link": "Rekk Shoulder Plates",
+    "Part": "Arm",
+    "ExcludeFromCodex": false,
+    "Image": "RekkShoulderPlates.png",
+    "Name": "Rekk Shoulder Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlArmourDamagedArms",
+    "CodexSecret": false
+  },
+  "Aegrae Eye-Guard": {
+    "Type": "Eye-Guard",
+    "Image": "AegraeEye-Guard.png",
+    "Description": "Even one-eyed warriors will see clearly when they look through the lens of fortitude.",
+    "Link": "Aegrae Eye-Guard",
+    "Name": "Aegrae Eye-Guard",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlEyepatchA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Rekk Leg Guard": {
+    "Type": "Armor",
+    "Description": "Breakage reflects a heroic past.",
+    "Link": "Rekk Leg Guard",
+    "Part": "Leg",
+    "ExcludeFromCodex": false,
+    "Image": "RekkLegGuard.png",
+    "Name": "Rekk Leg Guard",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlArmourDamagedLegs",
+    "CodexSecret": false
+  },
+  "Aridkref Shoulder Plates": {
+    "Type": "Armor",
+    "Description": "This armor conjures up memories of red sand and dry wind.",
+    "Link": "Aridkref Shoulder Plates",
+    "Part": "Arm",
+    "ExcludeFromCodex": false,
+    "Image": "AridkrefShoulderPlates.png",
+    "Name": "Aridkref Shoulder Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlArmourAridArms",
+    "CodexSecret": false
+  },
+  "Tchertu Mask": {
+    "Type": "Eye-Guard",
+    "Image": "TchertuMask.png",
+    "Description": "A mask for those who like to settle things up close and personal.",
+    "Link": "Tchertu Mask",
+    "Name": "Tchertu Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlEyepatchD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Massehtt Mask": {
+    "Type": "Eye-Guard",
+    "Image": "MassehttMask.png",
+    "Description": "Protected from nose to neck.",
+    "Link": "Massehtt Mask",
+    "Name": "Massehtt Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlEyepatchE",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Rhunr Shoulder Plate": {
+    "Type": "Armor",
+    "Description": "A venturous adaptation of traditional Grineer armor.",
+    "Link": "Rhunr Shoulder Plate",
+    "Part": "Arm",
+    "ExcludeFromCodex": false,
+    "Image": "RhunrShoulderPlate.png",
+    "Name": "Rhunr Shoulder Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlArmourAridArmLeftWithACUnit",
+    "CodexSecret": false
+  },
+  "Grearlance Chest Armor": {
+    "Type": "Armor",
+    "Description": "A venturous adaptation of traditional Grineer armor.",
+    "Link": "Grearlance Chest Armor",
+    "Part": "Chest",
+    "ExcludeFromCodex": false,
+    "Image": "GrearlanceChestArmor.png",
+    "Name": "Grearlance Chest Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlArmourStandardFront",
+    "CodexSecret": false
+  },
+  "Okt Mask": {
+    "Type": "Eye-Guard",
+    "Image": "OktMask.png",
+    "Description": "A unique look.",
+    "Link": "Okt Mask",
+    "Name": "Okt Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlEyepatchF",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Comorre Helmet": {
+    "Type": "Helmet",
+    "Image": "ComorreHelmet.png",
+    "Description": "Join the fray.",
+    "Link": "Comorre Helmet",
+    "Name": "Comorre Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Kahl/KahlHelmetTall",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  }
+}

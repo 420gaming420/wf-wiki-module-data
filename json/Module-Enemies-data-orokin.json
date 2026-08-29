@@ -1,0 +1,1595 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Enemies/data/orokin",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:36:16.530Z"
+  },
+  "_comments": "\t\t\t--Introduced = \"?\",\n\t\t\t--Scans = ?,\n\t\t\t--Multis = { \"?\" },\n\t\t\t\t\t\t-- Puncture = 0.1,\n\t\t\t\t\t\t-- Slash = 0.8,",
+  "Orokin Sentry": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orokin Tower"
+      ],
+      "Description": "",
+      "Link": "Orokin Sentry",
+      "Type": "",
+      "Image": "OrokinSentry.png",
+      "Name": "Orokin Sentry",
+      "Faction": "Orokin",
+      "Planets": [
+        "Void"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Orokin/OrokinAutoTurretAgent",
+      "Scans": 20
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.2,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.02,
+          "TotalDamage": 7,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Health": 80,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "Affinity": 50
+    }
+  },
+  "Valkyr Specter": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "",
+      "Link": "Valkyr Specter",
+      "Missions": [
+        "Junction"
+      ],
+      "Type": "Specter",
+      "Scans": 1,
+      "Image": "Valkyr_Thumb.png",
+      "Name": "Valkyr Specter",
+      "Faction": "Orokin",
+      "Planets": [
+        "Ceres"
+      ],
+      "Weapons": [
+        "Afuris",
+        "Anku"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantBerserkerAgent",
+      "Introduced": "Specters of the Rail"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.15,
+            "Impact": 0.15
+          },
+          "StatusChance": 0.12,
+          "TotalDamage": 20,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.8,
+            "Slash": 0.05,
+            "Impact": 0.15
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 170,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 3000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 25,
+      "Affinity": 1500
+    }
+  },
+  "Saryn Specter": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "",
+      "Link": "Saryn Specter",
+      "Missions": [
+        "Junction"
+      ],
+      "Type": "Specter",
+      "Scans": 1,
+      "Image": "Saryn_Thumb.png",
+      "Name": "Saryn Specter",
+      "Faction": "Orokin",
+      "Planets": [
+        "Pluto"
+      ],
+      "Weapons": [
+        "Komorex",
+        "Karyst"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantSarynAgent",
+      "Introduced": "Specters of the Rail"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.25,
+            "Viral": 0.25,
+            "Slash": 0.25,
+            "Impact": 0.25
+          },
+          "StatusChance": 0.33,
+          "TotalDamage": 24,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.3077,
+            "Toxin": 0.3186,
+            "Slash": 0.2637,
+            "Impact": 0.1099
+          },
+          "StatusChance": 0.26,
+          "TotalDamage": 273,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 7100,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 35,
+      "Affinity": 1500
+    }
+  },
+  "Trinity Specter": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "",
+      "Link": "Trinity Specter",
+      "Missions": [
+        "Junction"
+      ],
+      "Type": "Specter",
+      "Scans": 1,
+      "Image": "Trinity_Thumb.png",
+      "Name": "Trinity Specter",
+      "Faction": "Orokin",
+      "Planets": [
+        "Mars"
+      ],
+      "Weapons": [
+        "Paris",
+        "Cadus"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantTrinityAgent",
+      "Introduced": "Specters of the Rail"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.75,
+            "Slash": 0.2,
+            "Impact": 0.05
+          },
+          "StatusChance": 0,
+          "TotalDamage": 160,
+          "AttackName": "Uncharged Bow Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.75,
+            "Slash": 0.2,
+            "Impact": 0.05
+          },
+          "StatusChance": 0,
+          "TotalDamage": 320,
+          "AttackName": "Charged Bow Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Electric": 0.4615,
+            "Impact": 0.5833
+          },
+          "StatusChance": 0.25,
+          "TotalDamage": 65,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 7100,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 15,
+      "Affinity": 1500
+    }
+  },
+  "Corrupted MOA": {
+    "General": {
+      "Type": "Ranged",
+      "Description": "",
+      "Link": "Corrupted MOA",
+      "Image": "OrokinMoaBipedAvatar.png",
+      "Abilities": [
+        "Deploy Corrupted Drone"
+      ],
+      "Faction": "Orokin",
+      "Scans": 5,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Orokin/OrokinMoaBipedAgent",
+      "Name": "Corrupted MOA"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Heat": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 75,
+          "AttackName": "Beam Damage"
+        }
+      ],
+      "Multis": [
+        "Fanny Pack: 2.0x"
+      ],
+      "Health": 100,
+      "BaseLevel": 1,
+      "Shield": 150,
+      "EximusHealth": 100,
+      "EximusShield": 150,
+      "Affinity": 200
+    }
+  },
+  "Excalibur Specter": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "",
+      "Link": "Excalibur Specter",
+      "Missions": [
+        "Junction"
+      ],
+      "Type": "Specter",
+      "Scans": 1,
+      "Image": "Excalibur_Thumb.png",
+      "Name": "Excalibur Specter",
+      "Faction": "Orokin",
+      "Planets": [
+        "Neptune"
+      ],
+      "Weapons": [
+        "Braton Vandal",
+        "Dual Skana"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantExcaliburAvatar",
+      "Introduced": "Specters of the Rail"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.05,
+            "Slash": 0.6,
+            "Impact": 0.35
+          },
+          "StatusChance": 0.16,
+          "TotalDamage": 35,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.15,
+            "Slash": 0.7,
+            "Impact": 0.15
+          },
+          "StatusChance": 0.16,
+          "TotalDamage": 120,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 7100,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 30,
+      "Affinity": 1500
+    }
+  },
+  "Rhino Specter": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "",
+      "Link": "Rhino Specter",
+      "Missions": [
+        "Junction"
+      ],
+      "Type": "Specter",
+      "Scans": 1,
+      "Image": "Rhino_Thumb.png",
+      "Name": "Rhino Specter",
+      "Faction": "Orokin",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        "Soma",
+        "Dual Raza"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantRhinoAgent",
+      "Introduced": "Specters of the Rail"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.4,
+            "Slash": 0.5,
+            "Impact": 0.1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 5,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.3,
+            "Slash": 0.6,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 7100,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 8,
+      "Affinity": 1500
+    }
+  },
+  "Corrupted Lancer": {
+    "General": {
+      "Type": "Ranged",
+      "Description": "",
+      "Link": "Corrupted Lancer",
+      "Image": "OrokinRifleLancerAvatar.png",
+      "Name": "Corrupted Lancer",
+      "Faction": "Orokin",
+      "Weapons": [
+        "Grataka",
+        "Sheev"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Orokin/RifleLancer",
+      "Scans": 20
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.2,
+            "Slash": 0.6,
+            "Impact": 0.2
+          },
+          "StatusChance": 0,
+          "TotalDamage": 3,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 400,
+          "AttackName": "Grenade Damage"
+        }
+      ],
+      "Health": 100,
+      "BaseLevel": 1,
+      "Armor": 200,
+      "EximusHealth": 100,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 50
+    }
+  },
+  "Orphid Specter": {
+    "General": {
+      "FactionDamageOverride": "",
+      "Description": "",
+      "Link": "Orphid Specter",
+      "Missions": [
+        "The Silver Grove"
+      ],
+      "Type": "Specter",
+      "TileSets": [
+        "Grineer Forest"
+      ],
+      "Scans": 1,
+      "Name": "Orphid Specter",
+      "Image": "OrphidSaryn.png",
+      "Abilities": [
+        "Molt",
+        "Spores",
+        "Miasma"
+      ],
+      "Faction": "Orokin",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        "Zhuge",
+        "Sword"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/FairyQuest/FairyQuestSarynAgent",
+      "Introduced": "The Silver Grove"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.75,
+            "Slash": 0.2,
+            "Impact": 0.05
+          },
+          "StatusChance": 0.35,
+          "TotalDamage": 12,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Corrosive": 1
+          },
+          "StatusChance": 0.15,
+          "TotalDamage": 20,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 1500,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "SpawnLevel": 25,
+      "Affinity": 1500
+    }
+  },
+  "Feyarch Specter": {
+    "General": {
+      "FactionDamageOverride": "/Lotus/Types/Enemies/TennoReplicants/FairyQuest/FairyQuestPaladinAgent",
+      "Description": "",
+      "Link": "Feyarch Specter",
+      "Missions": [
+        "The Silver Grove"
+      ],
+      "Type": "Specter",
+      "TileSets": [
+        "Grineer Forest"
+      ],
+      "Scans": 1,
+      "Name": "Feyarch Specter",
+      "Image": "FeyarchOberon.png",
+      "Abilities": [
+        "Smite",
+        "Hallowed Ground",
+        "Reckoning",
+        "Tornado"
+      ],
+      "Faction": "Orokin",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/FairyQuest/FairyQuestPaladinAvatar",
+      "Introduced": "The Silver Grove"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.75,
+            "Slash": 0.2,
+            "Impact": 0.05
+          },
+          "StatusChance": 0,
+          "TotalDamage": 60,
+          "AttackName": "Uncharged Bow Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.8,
+            "Slash": 0.15,
+            "Impact": 0.05
+          },
+          "StatusChance": 0,
+          "TotalDamage": 90,
+          "AttackName": "Charged Bow Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.175,
+            "Slash": 0.7,
+            "Impact": 0.175
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 35,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 2250,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "SpawnLevel": 25,
+      "Affinity": 1500
+    }
+  },
+  "Orokin Spectator": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orokin Moon"
+      ],
+      "Description": "Detects intruders",
+      "Link": "Orokin Spectator",
+      "Missions": [
+        "Spy"
+      ],
+      "Type": "Support",
+      "Scans": 20,
+      "Image": "OrokinShieldDroneAvatar.png",
+      "Name": "Orokin Spectator",
+      "Faction": "Orokin",
+      "Planets": [
+        "Lua"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Grineer/AIWeek/CameraDroneAgentOrokin",
+      "Introduced": "18"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.2,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.02,
+          "TotalDamage": 7,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Health": 100,
+      "BaseLevel": 1,
+      "Shield": 50,
+      "EximusHealth": 100,
+      "EximusShield": 50,
+      "Affinity": 50
+    }
+  },
+  "Corrupted Bombard": {
+    "General": {
+      "Type": "Heavy Ranged",
+      "Description": "Long range missile attack",
+      "Link": "Corrupted Bombard",
+      "Image": "CorruptedBombardNew.png",
+      "Abilities": [
+        "Seismic Shockwave"
+      ],
+      "Faction": "Orokin",
+      "Scans": 3,
+      "Weapons": [
+        "Ogris",
+        "Sheev"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Orokin/OrokinRocketBombard",
+      "Name": "Corrupted Bombard"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 25,
+          "AttackName": "Ogris Contact Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 25,
+          "AttackName": "Ogris AoE Damage"
+        }
+      ],
+      "Health": 300,
+      "BaseLevel": 4,
+      "Armor": 500,
+      "EximusHealth": 300,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 500
+    }
+  },
+  "Volt Specter": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "",
+      "Link": "Volt Specter",
+      "Missions": [
+        "Junction"
+      ],
+      "Type": "Specter",
+      "Scans": 1,
+      "Image": "Volt_Thumb.png",
+      "Name": "Volt Specter",
+      "Faction": "Anarch",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        "Magnus",
+        "Heat Sword"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/JunctionRework/VoltJunctionBossAvatar",
+      "Introduced": "Specters of the Rail"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Electricity": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 3,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.3,
+            "Slash": 0.58,
+            "Impact": 0.12
+          },
+          "StatusChance": 0,
+          "TotalDamage": 3,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 7100,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 8,
+      "Affinity": 5000
+    }
+  },
+  "Corrupted Butcher": {
+    "General": {
+      "Type": "Melee",
+      "Description": "Blade attacks cause Critical Damage",
+      "Link": "Corrupted Butcher",
+      "Image": "OrokinBladeSawman.png",
+      "Name": "Corrupted Butcher",
+      "Faction": "Orokin",
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Orokin/OrokinBladeSawman",
+      "Scans": 20
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Slash": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 30,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 100,
+      "BaseLevel": 1,
+      "Armor": 5,
+      "EximusHealth": 100,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 50
+    }
+  },
+  "Corrupted Warden": {
+    "General": {
+      "TileSets": [
+        "Orokin Moon"
+      ],
+      "Description": "Weak to stealth takedowns",
+      "Link": "Corrupted Warden",
+      "Missions": [
+        "Rescue"
+      ],
+      "Type": "Ranged",
+      "Scans": 3,
+      "Image": "OrokinHeavyFemaleAvatar.png",
+      "Name": "Corrupted Warden",
+      "Faction": "Orokin",
+      "Planets": [
+        "Lua"
+      ],
+      "Weapons": [
+        "Gorgon",
+        "Vulkar",
+        "Sheev"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Orokin/Gamemodes/CorruptedWardenAgent",
+      "Introduced": "13.2"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.15,
+            "Slash": 0.05,
+            "Impact": 0.8
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 100,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Health": 600,
+      "BaseLevel": 1,
+      "Armor": 500,
+      "Multis": [
+        "Stealth/Finisher: 16.0x",
+        "Head: 3.0x"
+      ],
+      "Affinity": 500
+    }
+  },
+  "Orokin Drone": {
+    "General": {
+      "Type": "Support",
+      "Description": "",
+      "Link": "Orokin Drone",
+      "Image": "OrokinShieldDroneAvatar.png",
+      "Name": "Orokin Drone",
+      "Faction": "Orokin",
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Orokin/OrokinShieldDroneAgent",
+      "Scans": 20
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.2,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.02,
+          "TotalDamage": 7,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Multis": [
+        ""
+      ],
+      "Health": 25,
+      "BaseLevel": 1,
+      "Shield": 50,
+      "EximusHealth": 80,
+      "EximusShield": 50,
+      "Affinity": 50
+    }
+  },
+  "Frost Specter": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "",
+      "Link": "Frost Specter",
+      "Missions": [
+        "Junction"
+      ],
+      "Type": "Specter",
+      "Scans": 1,
+      "Image": "Frost_Thumb.png",
+      "Name": "Frost Specter",
+      "Faction": "Orokin",
+      "Planets": [
+        "Uranus"
+      ],
+      "Weapons": [
+        "Tigris",
+        "Sibear"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantFrostAgent",
+      "Introduced": "Specters of the Rail"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.25,
+            "Slash": 0.6,
+            "Impact": 0.15
+          },
+          "StatusChance": 0.03,
+          "TotalDamage": 17,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.074,
+            "Cold": 0.4815,
+            "Slash": 0.1852,
+            "Impact": 0.2592
+          },
+          "StatusChance": 0.3,
+          "TotalDamage": 270,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 7100,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 30,
+      "Affinity": 1500
+    }
+  },
+  "Corrupted Crewman": {
+    "General": {
+      "Type": "Ranged",
+      "Description": "",
+      "Link": "Corrupted Crewman",
+      "Image": "OrokinRifleSpacemanAvatar.png",
+      "Name": "Corrupted Crewman",
+      "Faction": "Orokin",
+      "Weapons": [
+        "Arca Plasmor",
+        "Prova"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Orokin/RifleSpacemanAgent",
+      "Scans": 20
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "Multishot": 7,
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.2,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.02,
+          "TotalDamage": 7
+        },
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 400,
+          "AttackName": "Grenade Damage"
+        }
+      ],
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 50,
+      "BaseLevel": 1,
+      "Shield": 120,
+      "EximusHealth": 50,
+      "EximusShield": 120,
+      "Affinity": 50
+    }
+  },
+  "Equinox Specter": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantYinYangAgent",
+      "Description": "",
+      "Link": "Equinox Specter",
+      "Missions": [
+        "Junction"
+      ],
+      "Type": "Specter",
+      "Scans": 1,
+      "Image": "Equinox_Thumb.png",
+      "Name": "Equinox Specter",
+      "Faction": "Orokin",
+      "Planets": [
+        "Saturn"
+      ],
+      "Weapons": [
+        "Boltor",
+        "Shaku"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantYinYangAvatar",
+      "Introduced": "Specters of the Rail"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.8,
+            "Slash": 0.1,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.14,
+          "TotalDamage": 25,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.34,
+          "TotalDamage": 180,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 7100,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 25,
+      "Affinity": 1500
+    }
+  },
+  "Ember Specter": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "",
+      "Link": "Ember Specter",
+      "Missions": [
+        "Junction"
+      ],
+      "Type": "Specter",
+      "Scans": 1,
+      "Image": "Ember_Thumb.png",
+      "Name": "Ember Specter",
+      "Faction": "Anarch",
+      "Planets": [
+        "Jupiter"
+      ],
+      "Weapons": [
+        "Magnus",
+        "Heat Sword"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantEmberAgent",
+      "Introduced": "Specters of the Rail"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.275,
+            "Slash": 0.275,
+            "Impact": 0.45
+          },
+          "StatusChance": 0.22,
+          "TotalDamage": 20,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.1,
+            "Slash": 0.8,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.2,
+          "TotalDamage": 147,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 1800,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 20,
+      "Affinity": 1500
+    }
+  },
+  "Corrupted Jackal": {
+    "General": {
+      "FactionDamageOverride": "Corpus",
+      "Description": "",
+      "Link": "Corrupted Jackal",
+      "Name": "Corrupted Jackal",
+      "Type": "Field Boss",
+      "Image": "Jackal.png",
+      "Abilities": [
+        ""
+      ],
+      "Faction": "Orokin",
+      "Scans": 5,
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Duviri/Jackal/QuadRobotAgentDuviri",
+      "Introduced": "33.6"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.6,
+            "Slash": 0.3,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.01,
+          "TotalDamage": 2,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "Multishot": 6,
+          "AttackName": "Grenade Cluster",
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "StatusChance": 0,
+          "BurstCount": 3,
+          "TotalDamage": 100
+        }
+      ],
+      "Health": 2150,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "Multis": [
+        ""
+      ],
+      "Shield": 2000,
+      "Affinity": 1500
+    }
+  },
+  "Corrupted Drahk": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orokin Moon"
+      ],
+      "Description": "",
+      "Link": "Corrupted Drahk",
+      "Introduced": "32.2",
+      "Type": "Melee",
+      "Missions": [
+        "Conjunction Survival"
+      ],
+      "Image": "CorruptedDrahk.png",
+      "Name": "Corrupted Drahk",
+      "Faction": "Orokin",
+      "Planets": [
+        "Lua"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Corrupted/CorruptedCombatKubrowAgent",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Slash": 1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 200,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "Multis": [
+        "Head: 2.0x"
+      ],
+      "Affinity": 50
+    }
+  },
+  "Corrupted Drahk Master": {
+    "General": {
+      "TileSets": [
+        "Orokin Moon"
+      ],
+      "Description": "He came in search of Void treasure, the Orokin Neural Sentry had other plans.",
+      "Link": "Corrupted Drahk Master",
+      "Missions": [
+        "Conjunction Survival"
+      ],
+      "Type": "Support / Summoner",
+      "Scans": 5,
+      "Image": "CorruptedDrahkMaster.png",
+      "Name": "Corrupted Drahk Master",
+      "Faction": "Orokin",
+      "Planets": [
+        "Lua"
+      ],
+      "Weapons": [
+        "Halikar"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Corrupted/CorruptedBeastMaster",
+      "Introduced": "32.2"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "Note": "Attack disarms one of player's weapons",
+          "AttackName": "Glaive Thrown Damage",
+          "DamageDistribution": {
+            "Puncture": 0.1,
+            "Slash": 0.1,
+            "Impact": 0.8
+          },
+          "StatusChance": 0,
+          "TotalDamage": 50
+        }
+      ],
+      "Health": 500,
+      "BaseLevel": 1,
+      "Armor": 200,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 150
+    }
+  },
+  "Corrupted Drone": {
+    "General": {
+      "Type": "Ranged",
+      "Description": "",
+      "Link": "Corrupted Drone",
+      "Image": "CorpusAttackDrone.png",
+      "Name": "Corrupted Drone",
+      "Faction": "Orokin",
+      "Weapons": [
+        "Plasma Repeater"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Orokin/OrokinDroneAttackAgent",
+      "Scans": 5
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.2,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.02,
+          "TotalDamage": 7,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Health": 250,
+      "BaseLevel": 1,
+      "Shield": 75,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 200
+    }
+  },
+  "Corrupted Ancient": {
+    "General": {
+      "Type": "Heavy",
+      "Description": "Heavy melee that protects allies with Overguard, or damage reduction if Tenno.",
+      "Link": "Corrupted Ancient",
+      "Image": "OrokinHealingAncientAvatar.png",
+      "Name": "Corrupted Ancient",
+      "Faction": "Orokin",
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Orokin/OrokinHealingAncient",
+      "Scans": 5
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Impact": 1
+          },
+          "StatusChance": 0.1,
+          "TotalDamage": 15,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 350,
+      "BaseLevel": 1,
+      "EximusHealth": 350,
+      "Multis": [
+        "Head: 3.0x",
+        "Back Crown: 0.5x"
+      ],
+      "Affinity": 150
+    }
+  },
+  "Nova Specter": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "",
+      "Link": "Nova Specter",
+      "Missions": [
+        "Junction"
+      ],
+      "Type": "Specter",
+      "Scans": 1,
+      "Image": "Nova_Thumb.png",
+      "Name": "Nova Specter",
+      "Faction": "Orokin",
+      "Planets": [
+        "Jupiter"
+      ],
+      "Weapons": [
+        "Kunai",
+        "Ether Daggers"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantNovaAgent",
+      "Introduced": "Specters of the Rail"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.75,
+            "Slash": 0.15,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.08,
+          "TotalDamage": 46,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.15,
+            "Slash": 0.7,
+            "Impact": 0.15
+          },
+          "StatusChance": 0.3,
+          "TotalDamage": 224,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 1800,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 25,
+      "Affinity": 1500
+    }
+  },
+  "Mesa Specter": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "",
+      "Link": "Mesa Specter",
+      "Missions": [
+        "Junction"
+      ],
+      "Type": "Specter",
+      "Scans": 1,
+      "Image": "Mesa_Thumb.png",
+      "Name": "Mesa Specter",
+      "Faction": "Anarch",
+      "Planets": [
+        "Pluto"
+      ],
+      "Weapons": [
+        "Regulators",
+        "Redeemer"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/JunctionRework/MesaJunctionBossAvatar",
+      "Introduced": "Specters of the Rail"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Puncture": 0.15,
+            "Slash": 0.7,
+            "Impact": 0.15
+          },
+          "StatusChance": 0,
+          "BurstCount": 2,
+          "TotalDamage": 5
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.2,
+            "Slash": 0.7,
+            "Impact": 0.1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 25,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 7100,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 40,
+      "Affinity": 5000
+    }
+  },
+  "Corrupted Heavy Gunner": {
+    "General": {
+      "Type": "Heavy Ranged",
+      "Description": "",
+      "Link": "Corrupted Heavy Gunner",
+      "Image": "OrokinHeavyFemaleAvatar.png",
+      "Name": "Corrupted Heavy Gunner",
+      "Faction": "Orokin",
+      "Weapons": [
+        "Gorgon",
+        "Sheev"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Orokin/OrokinMinigunBombard",
+      "Scans": 3
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.15,
+            "Slash": 0.1,
+            "Impact": 0.75
+          },
+          "StatusChance": 0.05,
+          "TotalDamage": 8,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Health": 700,
+      "BaseLevel": 8,
+      "Armor": 500,
+      "EximusHealth": 700,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 500
+    }
+  },
+  "Mag Specter": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "",
+      "Link": "Mag Specter",
+      "Missions": [
+        "Junction"
+      ],
+      "Type": "Specter",
+      "Scans": 1,
+      "Image": "Mag_Thumb.png",
+      "Name": "Mag Specter",
+      "Faction": "Orokin",
+      "Planets": [
+        "Mars"
+      ],
+      "Weapons": [
+        "Hikou",
+        "Tipedo"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantMagAgent",
+      "Introduced": "Specters of the Rail"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.6,
+            "Slash": 0.3,
+            "Impact": 0.1
+          },
+          "StatusChance": 0,
+          "TotalDamage": 26,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.1,
+            "Slash": 0.8,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.2,
+          "TotalDamage": 124,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 7100,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 20,
+      "Affinity": 1500
+    }
+  },
+  "Loki Specter": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "FactionDamageOverride": "",
+      "Description": "",
+      "Link": "Loki Specter",
+      "Missions": [
+        "Junction"
+      ],
+      "Type": "Specter",
+      "Scans": 1,
+      "Image": "Loki_Thumb.png",
+      "Name": "Loki Specter",
+      "Faction": "Orokin",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        "Burston",
+        "Boltace"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantLokiAgent",
+      "Introduced": "Specters of the Rail"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "AttackName": "Shot Damage",
+          "DamageDistribution": {
+            "Puncture": 0.3333,
+            "Slash": 0.3334,
+            "Impact": 0.3333
+          },
+          "StatusChance": 0.18,
+          "BurstCount": 3,
+          "TotalDamage": 30
+        },
+        {
+          "DamageDistribution": {
+            "Puncture": 0.8,
+            "Slash": 0.1,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.28,
+          "TotalDamage": 176,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 7100,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "SpawnLevel": 10,
+      "Affinity": 1500
+    }
+  },
+  "Knave Specter": {
+    "General": {
+      "FactionDamageOverride": "",
+      "Description": "",
+      "Link": "Knave Specter",
+      "Missions": [
+        "The Silver Grove"
+      ],
+      "Type": "Specter",
+      "TileSets": [
+        "Grineer Forest"
+      ],
+      "Scans": 1,
+      "Name": "Knave Specter",
+      "Image": "LokiKnave.png",
+      "Abilities": [
+        "Decoy",
+        "Invisibility",
+        "Switch Teleport",
+        "Radial Disarm"
+      ],
+      "Faction": "Orokin",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/TennoReplicants/FairyQuest/FairyQuestLokiAgent",
+      "Introduced": "The Silver Grove"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.1,
+            "Slash": 0.85,
+            "Impact": 0.05
+          },
+          "StatusChance": 0,
+          "TotalDamage": 8,
+          "AttackName": "Melee Damage"
+        }
+      ],
+      "Health": 1250,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "SpawnLevel": 25,
+      "Affinity": 1500
+    }
+  },
+  "Corrupted Nullifier": {
+    "General": {
+      "Type": "Ranged",
+      "Description": "Energy shield blocks projectiles and nullifies powers",
+      "Link": "Corrupted Nullifier",
+      "Image": "OrokinNullifySpaceman.png",
+      "Name": "Corrupted Nullifier",
+      "Faction": "Orokin",
+      "Weapons": [
+        "Lanka",
+        "Prova"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Orokin/OrokinNullifySpacemanAgent",
+      "Scans": 5
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.9,
+            "Slash": 0.05,
+            "Impact": 0.05
+          },
+          "StatusChance": 0.01,
+          "TotalDamage": 75,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 50,
+      "BaseLevel": 15,
+      "Shield": 40,
+      "EximusHealth": 90,
+      "EximusShield": 40,
+      "Affinity": 150
+    }
+  }
+}

@@ -1,0 +1,480 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/holster",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:32:34.265Z"
+  },
+  "_comments": "",
+  "Halberd Standard Holster": {
+    "Type": "Holster",
+    "Image": "HalberdBackDefault.png",
+    "Description": "Standard holster for Halberds.",
+    "Link": "Halberd Standard Holster",
+    "Name": "Halberd Standard Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/HalberdCrossed",
+    "ExcludeFromCodex": true,
+    "CodexSecret": true
+  },
+  "Dual Daggers Standard Holster": {
+    "Type": "Holster",
+    "Image": "DualDaggerBackDefault.png",
+    "Description": "Standard holster for Dual Daggers.",
+    "Link": "Dual Daggers Standard Holster",
+    "Name": "Dual Daggers Standard Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/DualDaggerLowerBack",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Dual Blades Standard Holster": {
+    "Type": "Holster",
+    "Image": "DualBladesBackDefault.png",
+    "Description": "Standard holster for Dual Blades.",
+    "Link": "Dual Blades Standard Holster",
+    "Name": "Dual Blades Standard Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/DualSwordHighLow",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Claws Standard Holster": {
+    "Type": "Holster",
+    "Image": "ClawsFrontDefault.png",
+    "Description": "Standard holster for Claws.",
+    "Link": "Claws Standard Holster",
+    "Name": "Claws Standard Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/ClawsHips",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Tonfa Standard Holster": {
+    "Type": "Holster",
+    "Image": "TonfasBackDefault.png",
+    "Description": "Standard holster for Tonfas.",
+    "Link": "Tonfa Standard Holster",
+    "Name": "Tonfa Standard Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/TonfaUpperBack",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Dual Blades Hip Holster": {
+    "Type": "Holster",
+    "Image": "DualBladesHipLeft.png",
+    "Description": "Dual Blades are holstered at the hips.",
+    "Link": "Dual Blades Hip Holster",
+    "Name": "Dual Blades Hip Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/DualSwordHips",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Nunchaku Standard Holster": {
+    "Type": "Holster",
+    "Image": "NunchakuBackDefault.png",
+    "Description": "Standard holster for Nunchakus.",
+    "Link": "Nunchaku Standard Holster",
+    "Name": "Nunchaku Standard Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/NunchakuLowerBack",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Dagger Left Hip Holster": {
+    "Type": "Holster",
+    "Image": "DaggerHipLeft.png",
+    "Description": "Daggers are holstered at the left hip.",
+    "Link": "Dagger Left Hip Holster",
+    "Name": "Dagger Left Hip Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/DaggerHipsL",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Fists Standard Holster": {
+    "Type": "Holster",
+    "Image": "GlovesFrontDefault.png",
+    "Description": "Standard holster for Fists.",
+    "Link": "Fists Standard Holster",
+    "Name": "Fists Standard Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/GauntletsInPlace",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Glaives Standard Holster": {
+    "Type": "Holster",
+    "Image": "GlaiveFrontDefault.png",
+    "Description": "Standard holster for Glaives.",
+    "Link": "Glaives Standard Holster",
+    "Name": "Glaives Standard Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/GlaiveInPlace",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Dual Daggers Shoulder Holster": {
+    "Type": "Holster",
+    "Image": "DualDaggerBackStraight.png",
+    "Description": "Dual Daggers are holstered on each shoulder.",
+    "Link": "Dual Daggers Shoulder Holster",
+    "Name": "Dual Daggers Shoulder Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/DualDaggerStraight",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Two-Handed Nikana Standard Holster": {
+    "Type": "Holster",
+    "Image": "HeavyBladeBackDefault.png",
+    "Description": "Standard holster for Two-Handed Nikanas.",
+    "Link": "Two-Handed Nikana Standard Holster",
+    "Name": "Two-Handed Nikana Standard Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/LongKatanaUpperBack",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Nikana Standard Holster": {
+    "Type": "Holster",
+    "Image": "KatanaHipLeftDefault.png",
+    "Description": "Standard holster for Nikanas.",
+    "Link": "Nikana Standard Holster",
+    "Name": "Nikana Standard Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/KatanaHipsL",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Dagger Standard Holster": {
+    "Type": "Holster",
+    "Image": "DaggerBackDefault.png",
+    "Description": "Standard holster for Daggers.",
+    "Link": "Dagger Standard Holster",
+    "Name": "Dagger Standard Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/DaggerLowerBack",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Tonfa Reverse Holster": {
+    "Type": "Holster",
+    "Image": "TonfasBackReversed.png",
+    "Description": "Tonfas are holstered on opposite shoulders.",
+    "Link": "Tonfa Reverse Holster",
+    "Name": "Tonfa Reverse Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/TonfaCrossed",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Tonfa Hip Holster": {
+    "Type": "Holster",
+    "Image": "TonfasHipLeft.png",
+    "Description": "Tonfas are holstered at the hips.",
+    "Link": "Tonfa Hip Holster",
+    "Name": "Tonfa Hip Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/TonfaHips",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Assault Saw Standard Holster": {
+    "Type": "Holster",
+    "Image": "SawHeavyUpperBack.png",
+    "Description": "Standard holster for Assault Saws.",
+    "Link": "Assault Saw Standard Holster",
+    "Name": "Assault Saw Standard Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/SawHeavyUpperBack",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Sword Standard Holster": {
+    "Type": "Holster",
+    "Image": "SwordBackDefault.png",
+    "Description": "Standard holster for Sword weapons.",
+    "Link": "Sword Standard Holster",
+    "Name": "Sword Standard Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/SwordUpperBack",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Sword Right Hip Holster": {
+    "Type": "Holster",
+    "Image": "SwordHipRight.png",
+    "Description": "Swords are holstered at the right hip.",
+    "Link": "Sword Right Hip Holster",
+    "Name": "Sword Right Hip Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/SwordHipsR",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Greatsword Standard Holster": {
+    "Type": "Holster",
+    "Image": "GreatBladeBackDefault.png",
+    "Description": "Standard holster for Greatswords.",
+    "Link": "Greatsword Standard Holster",
+    "Name": "Greatsword Standard Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/GreatSwordUpperBack",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Heavy Weapon Right Hip Holster": {
+    "Type": "Holster",
+    "Image": "HeavyBladeHipRight.png",
+    "Description": "Heavy weapons are holstered at the right hip.",
+    "Link": "Heavy Weapon Right Hip Holster",
+    "Name": "Heavy Weapon Right Hip Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/HeavyHipsR",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Sword Left Hip Holster": {
+    "Type": "Holster",
+    "Image": "SwordHipLeft.png",
+    "Description": "Swords are holstered at the left hip.",
+    "Link": "Sword Left Hip Holster",
+    "Name": "Sword Left Hip Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/SwordHipsL",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Gunblade Standard Holster": {
+    "Type": "Holster",
+    "Image": "GunBladeBackDefault.png",
+    "Description": "Standard holster for Gunblades.",
+    "Link": "Gunblade Standard Holster",
+    "Name": "Gunblade Standard Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/GunbladeUpperBack",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Heavy Weapon Lower Back Holster": {
+    "Type": "Holster",
+    "Image": "HeavyBladeBackLower.png",
+    "Description": "Heavy weapons are holstered across the lower back.",
+    "Link": "Heavy Weapon Lower Back Holster",
+    "Name": "Heavy Weapon Lower Back Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/HeavyLowerBack",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Dual Blades Shoulder Holster": {
+    "Type": "Holster",
+    "Image": "DualBladesBackUpper.png",
+    "Description": "Dual Blades are holstered on each shoulder.",
+    "Link": "Dual Blades Shoulder Holster",
+    "Name": "Dual Blades Shoulder Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/DualSwordStraight",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Sword And Shield Standard Draw": {
+    "Type": "Holster",
+    "Image": "SwordShieldDrawDefault.png",
+    "Description": "Standard way of drawing Sword and Shields.",
+    "Link": "Sword And Shield Standard Draw",
+    "Name": "Sword And Shield Standard Draw",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/SwordShieldDefault",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Rapier Standard Holster": {
+    "Type": "Holster",
+    "Image": "RapierHipLeftDefault.png",
+    "Description": "Standard holster for Rapiers.",
+    "Link": "Rapier Standard Holster",
+    "Name": "Rapier Standard Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/RapierHipsL",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Nunchaku Shoulder Holster": {
+    "Type": "Holster",
+    "Image": "NunchakuBackUpper.png",
+    "Description": "Nunchakus are holstered across the right shoulder.",
+    "Link": "Nunchaku Shoulder Holster",
+    "Name": "Nunchaku Shoulder Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/NunchakuCrossed",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Sword And Shield High Draw": {
+    "Type": "Holster",
+    "Image": "SwordShieldDrawUpwards.png",
+    "Description": "A unique way of drawing a Sword and Shields.",
+    "Link": "Sword And Shield High Draw",
+    "Name": "Sword And Shield High Draw",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/SwordShieldUpward",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Staff Straight Holster": {
+    "Type": "Holster",
+    "Image": "StaffBackUpper.png",
+    "Description": "Staffs are holstered on the left shoulder.",
+    "Link": "Staff Straight Holster",
+    "Name": "Staff Straight Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/StaffStraight",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Nikana Right Shoulder Holster": {
+    "Type": "Holster",
+    "Image": "KatanaBackRight.png",
+    "Description": "Nikanas are holstered across the right shoulder.",
+    "Link": "Nikana Right Shoulder Holster",
+    "Name": "Nikana Right Shoulder Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/KatanaCrossedR",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Staff Standard Holster": {
+    "Type": "Holster",
+    "Image": "StaffBackDefault.png",
+    "Description": "Standard holster for Staffs.",
+    "Link": "Staff Standard Holster",
+    "Name": "Staff Standard Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/StaffCrossed",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Gunblade Left Hip Holster": {
+    "Type": "Holster",
+    "Image": "GunBladeHipLeft.png",
+    "Description": "Gunblades are holstered at the left hip.",
+    "Link": "Gunblade Left Hip Holster",
+    "Name": "Gunblade Left Hip Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/GunbladeHipsL",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Staff Lower Back Holster": {
+    "Type": "Holster",
+    "Image": "StaffBackLower.png",
+    "Description": "Staffs are holstered across the lower back.",
+    "Link": "Staff Lower Back Holster",
+    "Name": "Staff Lower Back Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/StaffLowerBack",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Sparring Standard Holster": {
+    "Type": "Holster",
+    "Image": "PunckKickFrontDefault.png",
+    "Description": "Standard holster for Sparring weapons.",
+    "Link": "Sparring Standard Holster",
+    "Name": "Sparring Standard Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/PunchKickInPlace",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Greatsword Hip Holster": {
+    "Type": "Holster",
+    "Image": "GreatBladeHipRight.png",
+    "Description": "Greatswords are holstered at the hips.",
+    "Link": "Greatsword Hip Holster",
+    "Name": "Greatsword Hip Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/GreatSwordHips",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Rapier Upper Back Holster": {
+    "Type": "Holster",
+    "Image": "RapierBackUpper.png",
+    "Description": "Rapiers are holstered across the upper back.",
+    "Link": "Rapier Upper Back Holster",
+    "Name": "Rapier Upper Back Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/RapierBack",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Sword And Shield Low Draw": {
+    "Type": "Holster",
+    "Image": "SwordShieldDrawDownwards.png",
+    "Description": "A unique way of drawing a Sword and Shields.",
+    "Link": "Sword And Shield Low Draw",
+    "Name": "Sword And Shield Low Draw",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/SwordShieldDownward",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Nunchaku Hip Holster": {
+    "Type": "Holster",
+    "Image": "NunchakuHipLeft.png",
+    "Description": "Nunchakus are holstered at the left hip.",
+    "Link": "Nunchaku Hip Holster",
+    "Name": "Nunchaku Hip Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/NunchakuHips",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Glaives Upper Back Holster": {
+    "Type": "Holster",
+    "Image": "GlaiveUpperBackHolster.png",
+    "Description": "Glaives are holstered on the upper back.",
+    "Link": "Glaives Upper Back Holster",
+    "Name": "Glaives Upper Back Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/GlaiveUpperBack",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Nikana Left Shoulder Holster": {
+    "Type": "Holster",
+    "Image": "KatanaBackLeft.png",
+    "Description": "Nikanas are holstered across the left shoulder.",
+    "Link": "Nikana Left Shoulder Holster",
+    "Name": "Nikana Left Shoulder Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/KatanaCrossedL",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Blade And Whip Standard Holster": {
+    "Type": "Holster",
+    "Image": "SwordWhipBackDefault.png",
+    "Description": "Standard holster for Blade and Whips.",
+    "Link": "Blade And Whip Standard Holster",
+    "Name": "Blade And Whip Standard Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/SwordWhipLowerBack",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Heavy Weapon Standard Holster": {
+    "Type": "Holster",
+    "Image": "HeavyBladeBackDefault.png",
+    "Description": "Standard holster for Heavy weapons.",
+    "Link": "Heavy Weapon Standard Holster",
+    "Name": "Heavy Weapon Standard Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/HeavyUpperBack",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Heavy Weapon Left Hip Holster": {
+    "Type": "Holster",
+    "Image": "HeavyBladeHipLeft.png",
+    "Description": "Heavy weapons are holstered at the left hip.",
+    "Link": "Heavy Weapon Left Hip Holster",
+    "Name": "Heavy Weapon Left Hip Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/HeavyHipsL",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Gunblade Right Hip Holster": {
+    "Type": "Holster",
+    "Image": "GunBladeHipRight.png",
+    "Description": "Gunblades are holstered at the right hip.",
+    "Link": "Gunblade Right Hip Holster",
+    "Name": "Gunblade Right Hip Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/GunbladeHipsR",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Gunblade Lower Back Holster": {
+    "Type": "Holster",
+    "Image": "GunBladeBackLower.png",
+    "Description": "Gunblades are holstered across the lower back.",
+    "Link": "Gunblade Lower Back Holster",
+    "Name": "Gunblade Lower Back Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/GunbladeLowerBack",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Greatsword Reverse Holster": {
+    "Type": "Holster",
+    "Image": "GreatBladeBackRight.png",
+    "Description": "Greatswords are holstered across the right shoulder.",
+    "Link": "Greatsword Reverse Holster",
+    "Name": "Greatsword Reverse Holster",
+    "InternalName": "/Lotus/Upgrades/Skins/HolsterCustomizations/GreatSwordCrossed",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  }
+}

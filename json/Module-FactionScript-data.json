@@ -1,0 +1,428 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:FactionScript/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:36:55.471Z"
+  },
+  "_comments": "",
+  "CorpusChar": {
+    "0": "Corpus 0.svg",
+    "1": "Corpus T.svg",
+    "a": "Corpus A.svg",
+    "c": "Corpus C.svg",
+    "b": "Corpus B.svg",
+    "e": "Corpus E.svg",
+    "d": "Corpus D.svg",
+    "g": "Corpus G.svg",
+    "f": "Corpus F.svg",
+    "i": "Corpus I.svg",
+    "h": "Corpus H.svg",
+    "k": "Corpus K.svg",
+    "j": "Corpus J.svg",
+    "m": "Corpus M.svg",
+    "l": "Corpus L.svg",
+    "o": "Corpus O.svg",
+    "n": "Corpus N.svg",
+    "q": "Corpus K.svg",
+    "p": "Corpus P.svg",
+    "s": "Corpus S.svg",
+    "r": "Corpus R.svg",
+    "u": "Corpus U.svg",
+    "t": "Corpus T.svg",
+    "w": "Corpus W.svg",
+    "v": "Corpus V.svg",
+    "y": "Corpus Y.svg",
+    "x": "Corpus S.svg",
+    "z": "Corpus Z.svg"
+  },
+  "SolarisChar": {
+    "0": "Solaris 0.svg",
+    "1": "Solaris 1.svg",
+    "!": "Solaris !.svg",
+    "c": "Solaris C.svg",
+    "b": "Solaris B.svg",
+    "d": "Solaris D.svg",
+    "g": "Solaris G.svg",
+    "f": "Solaris F.svg",
+    "ee": "Solaris EE.svg",
+    "k": "Solaris K.svg",
+    "j": "Solaris J.svg",
+    "m": "Solaris M.svg",
+    "ae": "Solaris AE.svg",
+    "n": "Solaris N.svg",
+    "q": "Solaris K.svg",
+    "p": "Solaris P.svg",
+    "s": "Solaris S.svg",
+    "r": "Solaris R.svg",
+    "u": "Solaris U.svg",
+    "t": "Solaris T.svg",
+    "w": "Solaris OO.svg",
+    "oo": "Solaris OO.svg",
+    "x": "Solaris S.svg",
+    "aw": "Solaris AW.svg",
+    "?": "Solaris ?.svg",
+    "aye": "Solaris AYE.svg",
+    "ah": "Solaris AH.svg",
+    "eh": "Solaris EH.svg",
+    "aww": "Solaris AWW.svg",
+    "'": "Solaris '.svg",
+    "oh": "Solaris OH.svg",
+    ":": "Solaris Colon.svg",
+    "uh": "Solaris UH.svg",
+    ".": "Solaris Period.svg",
+    ",": "Solaris ,.svg",
+    "ih": "Solaris IH.svg",
+    "v": "Solaris V.svg",
+    "z": "Solaris Z.svg",
+    "-h": "Solaris -H.svg",
+    "l": "Solaris L.svg",
+    "h": "Solaris H.svg"
+  },
+  "TennoChar": {
+    "0": [
+      "Tenno 0.svg",
+      "s",
+      22,
+      20
+    ],
+    "1": [
+      "Tenno 1.svg",
+      "s",
+      11,
+      24
+    ],
+    "2": [
+      "Tenno 2.svg",
+      "s",
+      22,
+      20
+    ],
+    "3": [
+      "Tenno 3.svg",
+      "s",
+      24,
+      22
+    ],
+    "4": [
+      "Tenno 4.svg",
+      "s",
+      24,
+      24
+    ],
+    "5": [
+      "Tenno 5.svg",
+      "s",
+      24,
+      23
+    ],
+    "6": [
+      "Tenno 6.svg",
+      "s",
+      16,
+      29
+    ],
+    "7": [
+      "Tenno 7.svg",
+      "s",
+      22,
+      26
+    ],
+    "8": [
+      "Tenno 8.svg",
+      "s",
+      23,
+      29
+    ],
+    "9": [
+      "Tenno 9.svg",
+      "s",
+      24,
+      33
+    ],
+    "a": [
+      "Tenno A.svg",
+      "v",
+      11,
+      19
+    ],
+    "b": [
+      "Tenno B.svg",
+      "c",
+      120,
+      31
+    ],
+    "e": [
+      "Tenno EH.svg",
+      "v",
+      17,
+      21
+    ],
+    "d": [
+      "Tenno D.svg",
+      "c",
+      121,
+      31
+    ],
+    "g": [
+      "Tenno G.svg",
+      "c",
+      120,
+      30
+    ],
+    "f": [
+      "Tenno F.svg",
+      "c",
+      120,
+      30
+    ],
+    "i": [
+      "Tenno I.svg",
+      "v",
+      11,
+      25
+    ],
+    "ee": [
+      "Tenno EE.svg",
+      "v",
+      7,
+      17
+    ],
+    "k": [
+      "Tenno K.svg",
+      "c",
+      120,
+      30
+    ],
+    "j": [
+      "Tenno J.svg",
+      "c",
+      120,
+      30
+    ],
+    "m": [
+      "Tenno M.svg",
+      "c",
+      110,
+      16
+    ],
+    "ae": [
+      "Tenno AE.svg",
+      "v",
+      19,
+      18
+    ],
+    "o": [
+      "Tenno O.svg",
+      "v",
+      16,
+      27
+    ],
+    "n": [
+      "Tenno N.svg",
+      "c",
+      110,
+      16
+    ],
+    "p": [
+      "Tenno P.svg",
+      "c",
+      120,
+      30
+    ],
+    "ng": [
+      "Tenno NG.svg",
+      "c",
+      119,
+      31
+    ],
+    "r": [
+      "Tenno R.svg",
+      "r",
+      35,
+      25
+    ],
+    "u": [
+      "Tenno U.svg",
+      "v",
+      13,
+      23
+    ],
+    "t": [
+      "Tenno T.svg",
+      "c",
+      120,
+      31
+    ],
+    "oo": [
+      "Tenno OO.svg",
+      "v",
+      8,
+      26
+    ],
+    "aw": [
+      "Tenno AW.svg",
+      "v",
+      21,
+      22
+    ],
+    "aye": [
+      "Tenno AYE.svg",
+      "v",
+      13,
+      22
+    ],
+    "dh": [
+      "Tenno DH.svg",
+      "c",
+      120,
+      31
+    ],
+    "eh": [
+      "Tenno EH.svg",
+      "v",
+      17,
+      21
+    ],
+    "ch": [
+      "Tenno CH.svg",
+      "c",
+      120,
+      30
+    ],
+    "-": [
+      "Tenno Hyphen.svg",
+      "s",
+      22,
+      20
+    ],
+    ",": [
+      "Tenno M.svg",
+      "p",
+      110,
+      16
+    ],
+    ".": [
+      "Tenno Period.svg",
+      "p",
+      109,
+      14
+    ],
+    "th": [
+      "Tenno TH.svg",
+      "c",
+      120,
+      30
+    ],
+    "uh": [
+      "Tenno U.svg",
+      "v",
+      13,
+      23
+    ],
+    "zh": [
+      "Tenno ZH.svg",
+      "c",
+      122,
+      31
+    ],
+    "sh": [
+      "Tenno SH.svg",
+      "c",
+      122,
+      30
+    ],
+    "z": [
+      "Tenno Z.svg",
+      "c",
+      122,
+      31
+    ],
+    "ih": [
+      "Tenno I.svg",
+      "v",
+      11,
+      25
+    ],
+    "v": [
+      "Tenno V.svg",
+      "c",
+      121,
+      32
+    ],
+    "s": [
+      "Tenno S.svg",
+      "c",
+      122,
+      30
+    ],
+    "ow": [
+      "Tenno OW.svg",
+      "v",
+      24,
+      27
+    ],
+    "l": [
+      "Tenno L.svg",
+      "c",
+      64,
+      16
+    ],
+    "h": [
+      "Tenno H.svg",
+      "c",
+      64,
+      16
+    ],
+    "kh": [
+      "Tenno KH.svg",
+      "c",
+      119,
+      30
+    ]
+  },
+  "GrineerChar": {
+    "0": "Grineer 0.svg",
+    "1": "Grineer 1.svg",
+    "2": "Grineer 2.svg",
+    "3": "Grineer 3.svg",
+    "4": "Grineer 4.svg",
+    "5": "Grineer 5.svg",
+    "6": "Grineer 6.svg",
+    "7": "Grineer 7.svg",
+    "8": "Grineer 8.svg",
+    "9": "Grineer 9.svg",
+    "a": "Grineer A.svg",
+    "c": "Grineer C.svg",
+    "b": "Grineer B.svg",
+    "e": "Grineer E.svg",
+    "d": "Grineer D.svg",
+    "g": "Grineer G.svg",
+    "f": "Grineer F.svg",
+    "i": "Grineer I.svg",
+    "h": "Grineer H.svg",
+    "k": "Grineer K.svg",
+    "j": "Grineer J.svg",
+    "m": "Grineer M.svg",
+    "l": "Grineer L.svg",
+    "o": "Grineer O.svg",
+    "n": "Grineer N.svg",
+    "q": "Grineer K.svg",
+    "p": "Grineer P.svg",
+    "s": "Grineer S.svg",
+    "r": "Grineer R.svg",
+    "u": "Grineer U.svg",
+    "t": "Grineer T.svg",
+    "w": "Grineer W.svg",
+    "v": "Grineer V.svg",
+    "y": "Grineer Y.svg",
+    "x": "Grineer S.svg",
+    "z": "Grineer Z.svg",
+    "?": "Grineer Question.svg",
+    "@": "Grineer At.svg",
+    ".": "Grineer Dot.svg",
+    "#": "Grineer Pound.svg",
+    ",": "Grineer Comma.svg"
+  }
+}

@@ -1,0 +1,1430 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/genemaskingkit",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:32:31.551Z"
+  },
+  "_comments": "",
+  "Flesh Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "HyekkaFurA.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Flesh Brown",
+    "Name": "Flesh Brown",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorBaseHyekka",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Hyacinth Blue": {
+    "Type": "Gene-Masking Kit",
+    "Image": "Icon.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Hyacinth Blue",
+    "Name": "Hyacinth Blue",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorKavatSecondary",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Conculyst Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourSecondaryB.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Conculyst Brown",
+    "Name": "Conculyst Brown",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorSecondaryB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Castle Glint": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourAccentsDuviri.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Castle Glint",
+    "Name": "Castle Glint",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorAccentsDuviri",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Grinlok Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourBaseFeral.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Grinlok Brown",
+    "Name": "Grinlok Brown",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorBaseFeral",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Gallium Grey": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMundaneF.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Gallium Grey",
+    "Name": "Gallium Grey",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMundaneF",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Dusk Pink": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorDaybreakMundane.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Dusk Pink",
+    "Name": "Dusk Pink",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorDaybreakMundane",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Cargo Yellow": {
+    "Type": "Gene-Masking Kit",
+    "Image": "HyekkaFurD.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Cargo Yellow",
+    "Name": "Cargo Yellow",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorAccentsHyekka",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Carbon Grey": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatPrimeColourBaseA.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Carbon Grey",
+    "Name": "Carbon Grey",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/PrimeCatbrowPetColorBaseA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Mirage White": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMundaneCeph.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Mirage White",
+    "Name": "Mirage White",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorCephalonMundane",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Ancient Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourAccentsContest.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Ancient Brown",
+    "Name": "Ancient Brown",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorAccentsContest",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Kril Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMundaneE.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Kril Brown",
+    "Name": "Kril Brown",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMundaneE",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Mesa Blue": {
+    "Type": "Gene-Masking Kit",
+    "Image": "NexusFurB.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Mesa Blue",
+    "Name": "Mesa Blue",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorSecondaryNexus",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Watershed Blue": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourTertiaryDuviri.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Watershed Blue",
+    "Name": "Watershed Blue",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorTertiaryDuviri",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Darvo Blue": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMidF.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Darvo Blue",
+    "Name": "Darvo Blue",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMidF",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Rubedo Red": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMundaneDrahk.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Rubedo Red",
+    "Name": "Rubedo Red",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorDrahkMundane",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Auricle Green": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourBaseKalymos.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Auricle Green",
+    "Name": "Auricle Green",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorBaseEntrati",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Aros Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatGaraPrimeColourTertiary.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Aros Brown",
+    "Name": "Aros Brown",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/GaraPrimeCatbrowPetColorTertiary",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Jupiter Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorVibrantE.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Jupiter Brown",
+    "Name": "Jupiter Brown",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorVibrantE",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Tenno Red": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorXmasMundaneA.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Tenno Red",
+    "Name": "Tenno Red",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorXmasMundaneA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Mars Red": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMidC.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Mars Red",
+    "Name": "Mars Red",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMidC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Dawn Pink": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourDaybreakBase.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Dawn Pink",
+    "Name": "Dawn Pink",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorBaseDaybreak",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Corrupted Gold": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMundaneWukongPrime.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Corrupted Gold",
+    "Name": "Corrupted Gold",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowColorWukongPrimeMundane",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ogris Red": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourAccentsFeral.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Ogris Red",
+    "Name": "Ogris Red",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorAccentsFeral",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Lua Grey": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourSecondaryVampire.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Lua Grey",
+    "Name": "Lua Grey",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorSecondaryVampire",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Kavasa White": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMundanePrimeA.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Kavasa White",
+    "Name": "Kavasa White",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorPrimeA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Ambulas Black": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorVibrantB.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Ambulas Black",
+    "Name": "Ambulas Black",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorVibrantB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Nekros Black": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourTertiaryContest.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Nekros Black",
+    "Name": "Nekros Black",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorTertiaryContest",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Dragonlily Pink": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourBaseD.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Dragonlily Pink",
+    "Name": "Dragonlily Pink",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorBaseD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Brokk Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorXmasVibrantA.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Brokk Brown",
+    "Name": "Brokk Brown",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorXmasVibrantA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Boiler Red": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourTertiaryC.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Boiler Red",
+    "Name": "Boiler Red",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorTertiaryC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Rose Red": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KhoraDeluxeKavatColourTertiary.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Rose Red",
+    "Name": "Rose Red",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/KhoraDeluxeColorTertiary",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Horizon Pink": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourDaybreakSecondary.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Horizon Pink",
+    "Name": "Horizon Pink",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorSecondaryDaybreak",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Farbreeze Green": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourSecondaryDuviri.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Farbreeze Green",
+    "Name": "Farbreeze Green",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorSecondaryDuviri",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Evening Purple": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorDaybreakMid.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Evening Purple",
+    "Name": "Evening Purple",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorDaybreakMid",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Forest Grey": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMundaneJ.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Forest Grey",
+    "Name": "Forest Grey",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMundaneJ",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Ki'Teer Grey": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMundaneDiamond.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Ki'Teer Grey",
+    "Name": "Ki'Teer Grey",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMundaneDiamond",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Jadeleaf Green": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorXmasMidB.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Jadeleaf Green",
+    "Name": "Jadeleaf Green",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorXmasMidB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Asteroid Grey": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourSecondaryD.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Asteroid Grey",
+    "Name": "Asteroid Grey",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorSecondaryD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Asteroid Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "XmasKavatFurC.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Asteroid Brown",
+    "Name": "Asteroid Brown",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorTertiaryXmas",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Atlas Red": {
+    "Type": "Gene-Masking Kit",
+    "Image": "XmasKavatFurB.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Atlas Red",
+    "Name": "Atlas Red",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorSecondaryXmas",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Nova White": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorXmasMundaneB.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Nova White",
+    "Name": "Nova White",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorXmasMundaneB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Infested Black": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMidD.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Infested Black",
+    "Name": "Infested Black",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMidD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Gallium Ash": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatPrimeColourSecondaryA.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Gallium Ash",
+    "Name": "Gallium Ash",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/PrimeCatbrowPetColorSecondaryA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Origin Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMidPrimeA.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Origin Brown",
+    "Name": "Origin Brown",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorPrimeD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Condroc Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMidContest.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Condroc Brown",
+    "Name": "Condroc Brown",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMidContest",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Hek Green": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMundaneD.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Hek Green",
+    "Name": "Hek Green",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMundaneD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Prime Gold": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatPrimeColourTertiaryA.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Prime Gold",
+    "Name": "Prime Gold",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/PrimeCatbrowPetColorTertiaryA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Anti Moa Purple": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourBaseC.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Anti Moa Purple",
+    "Name": "Anti Moa Purple",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorBaseC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Cetus Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourBaseCeph.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Cetus Brown",
+    "Name": "Cetus Brown",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorBaseCephalon",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Manic Black": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorSolsticeFurC.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Manic Black",
+    "Name": "Manic Black",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorSolsticeVibrant",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Maggot Pink": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMidFeral.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Maggot Pink",
+    "Name": "Maggot Pink",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorFeralMid",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Vasca Purple": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourBaseVampire.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Vasca Purple",
+    "Name": "Vasca Purple",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorBaseVampire",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Saturn Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMundaneH.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Saturn Brown",
+    "Name": "Saturn Brown",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMundaneH",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Courtier Red": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorDuviriWolfMundane.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Courtier Red",
+    "Name": "Courtier Red",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorDuviriWolfMundane",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Vaykor White": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorPrimeTraderMundaneA.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Vaykor White",
+    "Name": "Vaykor White",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorPrimeTraderMundaneA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Cleaver Green": {
+    "Type": "Gene-Masking Kit",
+    "Image": "XmasKavatFurD.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Cleaver Green",
+    "Name": "Cleaver Green",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorAccentsXmas",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Lotus Purple": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorVibrantI.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Lotus Purple",
+    "Name": "Lotus Purple",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorVibrantI",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Harkonar Orange": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourAccentsB.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Harkonar Orange",
+    "Name": "Harkonar Orange",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorAccentsB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Paskan Crimson": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatGaraPrimeColourSecondary.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Paskan Crimson",
+    "Name": "Paskan Crimson",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/GaraPrimeCatbrowPetColorSecondary",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Ancient Green": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourTertiaryB.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Ancient Green",
+    "Name": "Ancient Green",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorTertiaryB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Conspirator Green": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorDuviriWolfMid.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Conspirator Green",
+    "Name": "Conspirator Green",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorDuviriWolfMid",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Derelict Black": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMidB.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Derelict Black",
+    "Name": "Derelict Black",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMidB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Alchemy Black": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourTertiaryKalymos.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Alchemy Black",
+    "Name": "Alchemy Black",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorTertiaryEntrati",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Vandal Blue": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorVibrantLiquid.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Vandal Blue",
+    "Name": "Vandal Blue",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorVibrantLiquid",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Princely Gold": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorDuviriWolfAccent.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Princely Gold",
+    "Name": "Princely Gold",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorDuviriWolfAccent",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Sargas Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorVibrantD.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Sargas Brown",
+    "Name": "Sargas Brown",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorVibrantD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Wukong Blue": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorSolsticeFurB.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Wukong Blue",
+    "Name": "Wukong Blue",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorSolsticeMid",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Inaros Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorVibrantFeral.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Inaros Brown",
+    "Name": "Inaros Brown",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorFeralVibrant",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Phorid Red": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorVibrantF.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Phorid Red",
+    "Name": "Phorid Red",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorVibrantF",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Venus Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorVibrantH.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Venus Brown",
+    "Name": "Venus Brown",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorVibrantH",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Grustrag Grey": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMundaneG.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Grustrag Grey",
+    "Name": "Grustrag Grey",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMundaneG",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Alad Blue": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorVibrantG.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Alad Blue",
+    "Name": "Alad Blue",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorVibrantG",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Ostron Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorVibrantContest.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Ostron Brown",
+    "Name": "Ostron Brown",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorVibrantContest",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Rhino Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMidK.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Rhino Brown",
+    "Name": "Rhino Brown",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMidK",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Anyo Grey": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorVibrantA.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Anyo Grey",
+    "Name": "Anyo Grey",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorVibrantA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Ignis Red": {
+    "Type": "Gene-Masking Kit",
+    "Image": "NexusFurC.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Ignis Red",
+    "Name": "Ignis Red",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorTertiaryNexus",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Executioner Grey": {
+    "Type": "Gene-Masking Kit",
+    "Image": "Icon.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Executioner Grey",
+    "Name": "Executioner Grey",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorKavatBase",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Moss Green": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KhoraDeluxeKavatColourSecondary.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Moss Green",
+    "Name": "Moss Green",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/KhoraDeluxeColorSecondary",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Sanctum Red": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourSecondaryKalymos.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Sanctum Red",
+    "Name": "Sanctum Red",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorSecondaryEntrati",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Specter White": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMundaneLiquid.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Specter White",
+    "Name": "Specter White",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMundaneLiquid",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Origin Black": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourAccentsCeph.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Origin Black",
+    "Name": "Origin Black",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorAccentsCephalon",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Harbinger Red": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorDuviriWolfVibrant.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Harbinger Red",
+    "Name": "Harbinger Red",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorDuviriWolfVibrant",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Liset Grey": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMidCeph.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Liset Grey",
+    "Name": "Liset Grey",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorCephalonMid",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Ash Grey": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMundaneA.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Ash Grey",
+    "Name": "Ash Grey",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMundaneA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Sol Yellow": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourDaybreakAccents.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Sol Yellow",
+    "Name": "Sol Yellow",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorAccentsDaybreak",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Embolist Blue": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourTertiaryFeral.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Embolist Blue",
+    "Name": "Embolist Blue",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorTertiaryFeral",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Void Black": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMidE.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Void Black",
+    "Name": "Void Black",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMidE",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Wyrm Blue": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorVibrantDiamond.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Wyrm Blue",
+    "Name": "Wyrm Blue",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorVibrantDiamond",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Orokin Gold": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorVibrantPrimeA.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Orokin Gold",
+    "Name": "Orokin Gold",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorPrimeC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Banshee Blue": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourTertiaryCeph.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Banshee Blue",
+    "Name": "Banshee Blue",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorTertiaryCephalon",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Sequence Blue": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourAccentsC.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Sequence Blue",
+    "Name": "Sequence Blue",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorAccentsC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Valkyr Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorVibrantJ.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Valkyr Brown",
+    "Name": "Valkyr Brown",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorVibrantJ",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Arid Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMundaneI.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Arid Brown",
+    "Name": "Arid Brown",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMundaneI",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Argon Violet": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatPrimeColourAccents.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Argon Violet",
+    "Name": "Argon Violet",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/PrimeCatbrowPetColorAccents",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Volt Blue": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourSecondaryContest.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Volt Blue",
+    "Name": "Volt Blue",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorSecondaryContest",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Vitreum Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourAccentsKalymos.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Vitreum Brown",
+    "Name": "Vitreum Brown",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorAccentsEntrati",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Maipal Yellow": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatGaraPrimeColourAccents.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Maipal Yellow",
+    "Name": "Maipal Yellow",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/GaraPrimeCatbrowPetColorAccents",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Draga Blue": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourSecondaryC.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Draga Blue",
+    "Name": "Draga Blue",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorSecondaryC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Tidal Blue": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMidWukongPrime.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Tidal Blue",
+    "Name": "Tidal Blue",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowColorWukongPrimeMid",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Thorn Pink": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KhoraDeluxeKavatColourAccent.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Thorn Pink",
+    "Name": "Thorn Pink",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/KhoraDeluxeColorAccents",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Corpus Grey": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMundaneC.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Corpus Grey",
+    "Name": "Corpus Grey",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMundaneC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Star White": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMidDiamond.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Star White",
+    "Name": "Star White",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMidDiamond",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Sludge Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "HyekkaFurC.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Sludge Brown",
+    "Name": "Sludge Brown",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorTertiaryHyekka",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Eris Black": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMidI.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Eris Black",
+    "Name": "Eris Black",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMidI",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Phobos Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMundaneK.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Phobos Brown",
+    "Name": "Phobos Brown",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMundaneK",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Osprey Blue": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMidDrahk.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Osprey Blue",
+    "Name": "Osprey Blue",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorDrahkMid",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Shadow Grey": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorVibrantC.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Shadow Grey",
+    "Name": "Shadow Grey",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorVibrantC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Sedna Grey": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMidA.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Sedna Grey",
+    "Name": "Sedna Grey",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMidA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Lotus White": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorXmasMidA.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Lotus White",
+    "Name": "Lotus White",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorXmasMidA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Rakta Red": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorPrimeTraderVibrantA.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Rakta Red",
+    "Name": "Rakta Red",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorPrimeTraderVibrantA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Nidus White": {
+    "Type": "Gene-Masking Kit",
+    "Image": "NexusFurA.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Nidus White",
+    "Name": "Nidus White",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorBaseNexus",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Loka Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourAccentsA.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Loka Brown",
+    "Name": "Loka Brown",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorAccentsA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Regor Green": {
+    "Type": "Gene-Masking Kit",
+    "Image": "Icon.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Regor Green",
+    "Name": "Regor Green",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorKavatTertiary",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Sandstorm Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "XmasKavatFurA.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Sandstorm Brown",
+    "Name": "Sandstorm Brown",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorBaseXmas",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Singularity Black": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMundaneFeral.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Singularity Black",
+    "Name": "Singularity Black",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorFeralMundane",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Darvo Purple": {
+    "Type": "Gene-Masking Kit",
+    "Image": "NexusFurD.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Darvo Purple",
+    "Name": "Darvo Purple",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorAccentsNexus",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Dreg Red": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourTertiaryD.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Dreg Red",
+    "Name": "Dreg Red",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorTertiaryD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Mirage Red": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorVibrantK.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Mirage Red",
+    "Name": "Mirage Red",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorVibrantK",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Perrin Blue": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorPrimeTraderMidA.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Perrin Blue",
+    "Name": "Perrin Blue",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorPrimeTraderMidA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Ordis Grey": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMidG.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Ordis Grey",
+    "Name": "Ordis Grey",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMidG",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Crewman Grey": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorVibrantCeph.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Crewman Grey",
+    "Name": "Crewman Grey",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorCephalonVibrant",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Nova Grey": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMidJ.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Nova Grey",
+    "Name": "Nova Grey",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMidJ",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Netherbarrow Beige": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourBaseDuviri.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Netherbarrow Beige",
+    "Name": "Netherbarrow Beige",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorBaseDuviri",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Naru Blue": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatGaraPrimeColourBase.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Naru Blue",
+    "Name": "Naru Blue",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/GaraPrimeCatbrowPetColorBase",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Mutalist Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourSecondaryFeral.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Mutalist Brown",
+    "Name": "Mutalist Brown",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorSecondaryFeral",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Mud Puddle Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMundaneContest.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Mud Puddle Brown",
+    "Name": "Mud Puddle Brown",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMundaneContest",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Morning Yellow": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorDaybreakVibrant.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Morning Yellow",
+    "Name": "Morning Yellow",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorDaybreakVibrant",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Mirage Purple": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorVibrantDrahk.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Mirage Purple",
+    "Name": "Mirage Purple",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorDrahkVibrant",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Mesa Yellow": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourBaseB.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Mesa Yellow",
+    "Name": "Mesa Yellow",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorBaseB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Mercury Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMidH.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Mercury Brown",
+    "Name": "Mercury Brown",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMidH",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Lua Purple": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourDaybreakTertiary.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Lua Purple",
+    "Name": "Lua Purple",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorTertiaryDaybreak",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Hexis Black": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourAccentsD.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Hexis Black",
+    "Name": "Hexis Black",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorAccentsD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Trinity Red": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorXmasVibrantB.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Trinity Red",
+    "Name": "Trinity Red",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorXmasVibrantB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Lynx Blue": {
+    "Type": "Gene-Masking Kit",
+    "Image": "SolsticeFurD.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Lynx Blue",
+    "Name": "Lynx Blue",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorAccentsSolstice",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Root Black": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KhoraDeluxeKavatColourBase.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Root Black",
+    "Name": "Root Black",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/KhoraDeluxeColorBase",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Fomorian Grey": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMidLiquid.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Fomorian Grey",
+    "Name": "Fomorian Grey",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMidLiquid",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Earth Brown": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorMundaneB.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Earth Brown",
+    "Name": "Earth Brown",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorMundaneB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Blood Red": {
+    "Type": "Gene-Masking Kit",
+    "Image": "HyekkaFurB.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Blood Red",
+    "Name": "Blood Red",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorSecondaryHyekka",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Derelict White": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorVibrantWukongPrime.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Derelict White",
+    "Name": "Derelict White",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowColorWukongPrimeVibrant",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Cephalon Blue": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KavatColourSecondaryCeph.png",
+    "Description": "Splices the genes in your pet Kavat to change the color of its fur.",
+    "Link": "Cephalon Blue",
+    "Name": "Cephalon Blue",
+    "InternalName": "/Lotus/Types/Game/CatbrowPet/Colors/CatbrowPetColorSecondaryCephalon",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Bombard White": {
+    "Type": "Gene-Masking Kit",
+    "Image": "KubrowColorSolsticeFurA.png",
+    "Description": "Splices the genes in your pet Kubrow to change the color of its fur.",
+    "Link": "Bombard White",
+    "Name": "Bombard White",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Colors/KubrowPetColorSolsticeMundane",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  }
+}

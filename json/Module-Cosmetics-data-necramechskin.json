@@ -1,0 +1,180 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/necramechskin",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:33:01.251Z"
+  },
+  "_comments": "",
+  "Voidrig Necramech Skin": {
+    "Type": "Necramech Skin",
+    "Image": "NechroMech.png",
+    "Description": "The standard issue skin for the Voidrig Necramech.",
+    "Link": "Voidrig Necramech Skin",
+    "Name": "Voidrig Necramech Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Necramech/NecramechVoidRigDefaultSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Iridos Voidrig Necramech Skin": {
+    "Type": "Necramech Skin",
+    "Image": "VoidrigIridosSkin.png",
+    "Description": "A chromatic upgrade to the standard issued skin for the Voidrig Necramech.",
+    "Link": "Iridos Voidrig Necramech Skin",
+    "Name": "Iridos Voidrig Necramech Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Necramech/TefilahIridosSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Proto Necramech Helmet": {
+    "Type": "Necramech Helmet",
+    "Image": "VoidrigDSChromaHelmet.png",
+    "Description": "Proto Necramech's signature helmet.",
+    "Link": "Proto Necramech Helmet",
+    "Name": "Proto Necramech Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Necramech/VoidrigDSChromaHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Proto Necramech Skin": {
+    "Type": "Necramech Skin",
+    "Image": "VoidrigDSChromaSkin.png",
+    "Description": "The metallic substance that makes up this Voidrig casing is of ancient and mysterious origins. It seems to predate the Orokin empire itself.",
+    "Link": "Proto Necramech Skin",
+    "Name": "Proto Necramech Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Necramech/VoidrigDSChromaSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Karnolyth Necramech Helmet": {
+    "Type": "Necramech Helmet",
+    "Image": "InfestedPrimeMechHelmet.png",
+    "Description": "Make your Necramech even more fearsome with this helmet, based on early experimental designs that employed outer casings of Infested bone and meat.",
+    "Link": "Karnolyth Necramech Helmet",
+    "Name": "Karnolyth Necramech Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Necramech/InfestedNecraMechHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Bruntspar Necramech Skin": {
+    "Type": "Necramech Skin",
+    "Image": "NecraMechCSkin.png",
+    "Description": "Rediscover the brutal power of the earliest Necramech designs with this skin. Bruntspar is - in Father's words - 'not out to play nice and make friends.'",
+    "Link": "Bruntspar Necramech Skin",
+    "Name": "Bruntspar Necramech Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Necramech/NecraMechCSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Cryptanaut Necramech Helmet": {
+    "Type": "Necramech Helmet",
+    "Image": "NecramechHelmetB.png",
+    "Description": "Venture into the unknown with the alternative Necramech helmet.",
+    "Link": "Cryptanaut Necramech Helmet",
+    "Name": "Cryptanaut Necramech Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Necramech/NecraMechCHelmetB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Bruntspar Necramech Helmet": {
+    "Type": "Necramech Helmet",
+    "Image": "NecramechHelmetA.png",
+    "Description": "Bear down on the enemy with this alternative Necramech helmet.",
+    "Link": "Bruntspar Necramech Helmet",
+    "Name": "Bruntspar Necramech Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Necramech/NecraMechCHelmetA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Snake Necramech Helmet": {
+    "Type": "Necramech Helmet",
+    "Image": "NecramechSnakeSkin.png",
+    "Description": "Snake Necramech's signature helmet.",
+    "Link": "Snake Necramech Helmet",
+    "Name": "Snake Necramech Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Necramech/NecramechSnakeHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Karnolyth Necramech Skin": {
+    "Type": "Necramech Skin",
+    "Image": "InfestedPrimeMechSkin.png",
+    "Description": "Make your Necramech even more fearsome with this skin, based on early experimental designs that employed outer casings of Infested bone and meat.",
+    "Link": "Karnolyth Necramech Skin",
+    "Name": "Karnolyth Necramech Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Necramech/InfestedNecraMechSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Iridos Voidrig Necramech Helmet": {
+    "Type": "Necramech Helmet",
+    "Image": "VoidrigIridosHelmet.png",
+    "Description": "A chromatic variant of the Voidrig’s signature helmet.",
+    "Link": "Iridos Voidrig Necramech Helmet",
+    "Name": "Iridos Voidrig Necramech Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Necramech/TefilahIridosHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Voidrig Necramech Helmet": {
+    "Type": "Necramech Helmet",
+    "Image": "NechroMech.png",
+    "Description": "Voidrig's signature helmet.",
+    "Link": "Voidrig Necramech Helmet",
+    "Name": "Voidrig Necramech Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Necramech/NecramechVoidRigDefaultHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Bonewidow Necramech Skin": {
+    "Type": "Necramech Skin",
+    "Image": "ThanoMech.png",
+    "Description": "The standard issue skin for the Bonewidow Necramech.",
+    "Link": "Bonewidow Necramech Skin",
+    "Name": "Bonewidow Necramech Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Necramech/ThanomechVoidRigDefaultSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Snake Necramech Skin": {
+    "Type": "Necramech Skin",
+    "Image": "NecramechSnakeSkin.png",
+    "Description": "Rusty but trusty. This skin revives the glory of the legendary Old War Necramech, Snake.",
+    "Link": "Snake Necramech Skin",
+    "Name": "Snake Necramech Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Necramech/NecramechSnakeSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Day of the Dead Necramech Skin": {
+    "Type": "Necramech Skin",
+    "Image": "VoidrigDOTDSkin.png",
+    "Description": "A morbidly festive skin for the Necramech.",
+    "Link": "Day of the Dead Necramech Skin",
+    "Name": "Day of the Dead Necramech Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Necramech/VoidrigDOTDSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Bonewidow Necramech Helmet": {
+    "Type": "Necramech Helmet",
+    "Image": "ThanoMech.png",
+    "Description": "The standard issue helmet for the Bonewidow Necramech.",
+    "Link": "Bonewidow Necramech Helmet",
+    "Name": "Bonewidow Necramech Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Necramech/ThanomechVoidRigDefaultHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Day of the Dead Necramech Helmet": {
+    "Type": "Necramech Helmet",
+    "Image": "VoidrigDOTDSkin.png",
+    "Description": "A morbidly festive helmet for the Necramech.",
+    "Link": "Day of the Dead Necramech Helmet",
+    "Name": "Day of the Dead Necramech Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Necramech/VoidrigDOTDHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  }
+}

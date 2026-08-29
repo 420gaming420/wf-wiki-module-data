@@ -1,0 +1,49 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Maximization/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:40:12.782Z"
+  },
+  "_comments": "",
+  "Shuriken": {
+    "outs": [
+      [
+        "Base damage:",
+        {
+          "name": "BASE_DMG",
+          "expr": "STR 750 %of 3 1 HEAD if * SHURIKENS *"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Bleed|DamageTypes}} [[DoT]]:",
+        {
+          "expr": "43.75 BASE_DMG %of",
+          "name": "BLEED",
+          "suff": "/s"
+        }
+      ],
+      [
+        "Total damage:",
+        {
+          "expr": "BLEED 9 * BASE_DMG +"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}}",
+        {
+          "expr": "25  200 EFF - 25 max 100 / *"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "HEAD",
+        "cont": "Headshot?"
+      },
+      "Shurikens: <span data-name=SHURIKENS data-min=1 data-max=5 data-value=1></span><span data-name=SHURIKENS data-type=range data-min=1 data-max=5 data-value=1></span>"
+    ]
+  }
+}

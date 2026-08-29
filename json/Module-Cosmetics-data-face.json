@@ -1,0 +1,1100 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/face",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:32:24.679Z"
+  },
+  "_comments": "",
+  "BeardC": {
+    "Type": "Beard",
+    "Image": "BeardC.png",
+    "Description": "Facial hair for Drifter.",
+    "Link": "BeardC",
+    "Name": "BeardC",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Beards/BeardC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "FemaleHeadJ": {
+    "Type": "Face",
+    "Image": "FemaleHeadJ.png",
+    "Description": "An Operator head.",
+    "Link": "FemaleHeadJ",
+    "Name": "FemaleHeadJ",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/FemaleHeadJ",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultFemaleHeadE": {
+    "Type": "Face",
+    "Image": "AdultHeadFemaleE.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultFemaleHeadE",
+    "Name": "AdultFemaleHeadE",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultFemaleHeadE",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultFemaleHeadM": {
+    "Type": "Face",
+    "Image": "AdultHeadFemaleM.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultFemaleHeadM",
+    "Name": "AdultFemaleHeadM",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultFemaleHeadM",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultFemaleHeadJ": {
+    "Type": "Face",
+    "Image": "AdultHeadFemaleJ.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultFemaleHeadJ",
+    "Name": "AdultFemaleHeadJ",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultFemaleHeadJ",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairI": {
+    "Type": "Hair",
+    "Image": "HairI.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairI",
+    "Name": "HairI",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairI",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairN": {
+    "Type": "Hair",
+    "Image": "HairN.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairN",
+    "Name": "HairN",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairN",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "FemaleHeadL": {
+    "Type": "Face",
+    "Image": "FemaleHeadL.png",
+    "Description": "An Operator head.",
+    "Link": "FemaleHeadL",
+    "Name": "FemaleHeadL",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/FemaleHeadL",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "FemaleHeadA": {
+    "Type": "Face",
+    "Image": "FemaleHeadA.png",
+    "Description": "An Operator head.",
+    "Link": "FemaleHeadA",
+    "Name": "FemaleHeadA",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/FemaleHeadA",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultMaleHeadI": {
+    "Type": "Face",
+    "Image": "AdultHeadMaleI.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultMaleHeadI",
+    "Name": "AdultMaleHeadI",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultMaleHeadI",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "MaleHeadH": {
+    "Type": "Face",
+    "Image": "MaleHeadH.png",
+    "Description": "An Operator head.",
+    "Link": "MaleHeadH",
+    "Name": "MaleHeadH",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/MaleHeadH",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultFemaleHeadK": {
+    "Type": "Face",
+    "Image": "AdultHeadFemaleK.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultFemaleHeadK",
+    "Name": "AdultFemaleHeadK",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultFemaleHeadK",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairRPonytail": {
+    "Type": "Hair",
+    "Image": "HairRPonytail.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairRPonytail",
+    "Name": "HairRPonytail",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairRPonytail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "MaleHeadM": {
+    "Type": "Face",
+    "Image": "MaleHeadM.png",
+    "Description": "An Operator head.",
+    "Link": "MaleHeadM",
+    "Name": "MaleHeadM",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/MaleHeadM",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "MaleHeadC": {
+    "Type": "Face",
+    "Image": "MaleHeadC.png",
+    "Description": "An Operator head.",
+    "Link": "MaleHeadC",
+    "Name": "MaleHeadC",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/MaleHeadC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultMaleHeadJ": {
+    "Type": "Face",
+    "Image": "AdultHeadMaleJ.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultMaleHeadJ",
+    "Name": "AdultMaleHeadJ",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultMaleHeadJ",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "FemaleHeadG": {
+    "Type": "Face",
+    "Image": "FemaleHeadG.png",
+    "Description": "An Operator head.",
+    "Link": "FemaleHeadG",
+    "Name": "FemaleHeadG",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/FemaleHeadG",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultFemaleHeadC": {
+    "Type": "Face",
+    "Image": "AdultHeadFemaleC.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultFemaleHeadC",
+    "Name": "AdultFemaleHeadC",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultFemaleHeadC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultMaleHeadK": {
+    "Type": "Face",
+    "Image": "AdultHeadMaleK.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultMaleHeadK",
+    "Name": "AdultMaleHeadK",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultMaleHeadK",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "BeardB": {
+    "Type": "Beard",
+    "Image": "BeardB.png",
+    "Description": "Facial hair for Drifter.",
+    "Link": "BeardB",
+    "Name": "BeardB",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Beards/BeardB",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultFemaleHeadF": {
+    "Type": "Face",
+    "Image": "AdultHeadFemaleF.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultFemaleHeadF",
+    "Name": "AdultFemaleHeadF",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultFemaleHeadF",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultFemaleHeadD": {
+    "Type": "Face",
+    "Image": "AdultHeadFemaleD.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultFemaleHeadD",
+    "Name": "AdultFemaleHeadD",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultFemaleHeadD",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "MaleHeadI": {
+    "Type": "Face",
+    "Image": "MaleHeadI.png",
+    "Description": "An Operator head.",
+    "Link": "MaleHeadI",
+    "Name": "MaleHeadI",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/MaleHeadI",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairVTwo": {
+    "Type": "Hair",
+    "Image": "HairVShort.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairVTwo",
+    "Name": "HairVTwo",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairVTwo",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "AdultFemaleHeadB": {
+    "Type": "Face",
+    "Image": "AdultHeadFemaleB.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultFemaleHeadB",
+    "Name": "AdultFemaleHeadB",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultFemaleHeadB",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultFemaleHeadL": {
+    "Type": "Face",
+    "Image": "AdultHeadFemaleL.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultFemaleHeadL",
+    "Name": "AdultFemaleHeadL",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultFemaleHeadL",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "MaleHeadF": {
+    "Type": "Face",
+    "Image": "MaleHeadF.png",
+    "Description": "An Operator head.",
+    "Link": "MaleHeadF",
+    "Name": "MaleHeadF",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/MaleHeadF",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Somatics Ln2": {
+    "Type": "Markings",
+    "Image": "SomaticsLn2.png",
+    "Description": "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
+    "Link": "Somatics Ln2",
+    "Name": "Somatics Ln2",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingF",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultFemaleHeadA": {
+    "Type": "Face",
+    "Image": "AdultHeadFemaleA.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultFemaleHeadA",
+    "Name": "AdultFemaleHeadA",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultFemaleHeadA",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Somatics Tt-11": {
+    "Type": "Markings",
+    "Image": "SomaticsZz-70.png",
+    "Description": "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
+    "Link": "Somatics Tt-11",
+    "Name": "Somatics Tt-11",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingJ",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairM": {
+    "Type": "Hair",
+    "Image": "HairM.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairM",
+    "Name": "HairM",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairM",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairWDreadShortTail": {
+    "Type": "Hair",
+    "Image": "HairWDreadShort.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairWDreadShortTail",
+    "Name": "HairWDreadShortTail",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairWDreadShortTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "HairG": {
+    "Type": "Hair",
+    "Image": "HairG.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairG",
+    "Name": "HairG",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairG",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Somatics Zz-70": {
+    "Type": "Markings",
+    "Image": "SomaticsZz-70.png",
+    "Description": "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
+    "Link": "Somatics Zz-70",
+    "Name": "Somatics Zz-70",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingJ",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultMaleHeadM": {
+    "Type": "Face",
+    "Image": "AdultHeadMaleM.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultMaleHeadM",
+    "Name": "AdultMaleHeadM",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultMaleHeadM",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Somatics Rev-16": {
+    "Type": "Markings",
+    "Image": "SomaticsRev-16.png",
+    "Description": "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
+    "Link": "Somatics Rev-16",
+    "Name": "Somatics Rev-16",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingI",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultMaleHeadD": {
+    "Type": "Face",
+    "Image": "AdultHeadMaleD.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultMaleHeadD",
+    "Name": "AdultMaleHeadD",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultMaleHeadD",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Somatics K5": {
+    "Type": "Markings",
+    "Image": "SomaticsK5.png",
+    "Description": "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
+    "Link": "Somatics K5",
+    "Name": "Somatics K5",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingG",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairL": {
+    "Type": "Hair",
+    "Image": "HairL.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairL",
+    "Name": "HairL",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairL",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "MaleHeadD": {
+    "Type": "Face",
+    "Image": "MaleHeadD.png",
+    "Description": "An Operator head.",
+    "Link": "MaleHeadD",
+    "Name": "MaleHeadD",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/MaleHeadD",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairA": {
+    "Type": "Hair",
+    "Image": "HairA.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairA",
+    "Name": "HairA",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairA",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "BeardN": {
+    "Type": "Beard",
+    "Image": "BeardN.png",
+    "Description": "Facial hair for Drifter.",
+    "Link": "BeardN",
+    "Name": "BeardN",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Beards/BeardN",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairTBraid": {
+    "Type": "Hair",
+    "Image": "HairTBraid.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairTBraid",
+    "Name": "HairTBraid",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairTBraid",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Somatics Dev-64": {
+    "Type": "Markings",
+    "Image": "SomaticsDev-64.png",
+    "Description": "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
+    "Link": "Somatics Dev-64",
+    "Name": "Somatics Dev-64",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingD",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "FemaleHeadF": {
+    "Type": "Face",
+    "Image": "FemaleHeadF.png",
+    "Description": "An Operator head.",
+    "Link": "FemaleHeadF",
+    "Name": "FemaleHeadF",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/FemaleHeadF",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultFemaleHeadG": {
+    "Type": "Face",
+    "Image": "AdultHeadFemaleG.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultFemaleHeadG",
+    "Name": "AdultFemaleHeadG",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultFemaleHeadG",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultMaleHeadA": {
+    "Type": "Face",
+    "Image": "AdultHeadMaleA.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultMaleHeadA",
+    "Name": "AdultMaleHeadA",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultMaleHeadA",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultMaleHeadE": {
+    "Type": "Face",
+    "Image": "AdultHeadMaleE.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultMaleHeadE",
+    "Name": "AdultMaleHeadE",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultMaleHeadE",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairTPonytail": {
+    "Type": "Hair",
+    "Image": "HairTPonytail.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairTPonytail",
+    "Name": "HairTPonytail",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairTPonytail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "MaleHeadA": {
+    "Type": "Face",
+    "Image": "MaleHeadA.png",
+    "Description": "An Operator head.",
+    "Link": "MaleHeadA",
+    "Name": "MaleHeadA",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/MaleHeadA",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairAdultNightwaveB": {
+    "Type": "Hair",
+    "Image": "GenericWarframeHelmet.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairAdultNightwaveB",
+    "Name": "HairAdultNightwaveB",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairAdultNightwaveB",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultFemaleHeadI": {
+    "Type": "Face",
+    "Image": "AdultHeadFemaleI.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultFemaleHeadI",
+    "Name": "AdultFemaleHeadI",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultFemaleHeadI",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairSLong": {
+    "Type": "Hair",
+    "Image": "HairSLong.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairSLong",
+    "Name": "HairSLong",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairSLong",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "AdultMaleHeadB": {
+    "Type": "Face",
+    "Image": "AdultHeadMaleB.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultMaleHeadB",
+    "Name": "AdultMaleHeadB",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultMaleHeadB",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "FemaleHeadC": {
+    "Type": "Face",
+    "Image": "FemaleHeadC.png",
+    "Description": "An Operator head.",
+    "Link": "FemaleHeadC",
+    "Name": "FemaleHeadC",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/FemaleHeadC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "MaleHeadK": {
+    "Type": "Face",
+    "Image": "MaleHeadK.png",
+    "Description": "An Operator head.",
+    "Link": "MaleHeadK",
+    "Name": "MaleHeadK",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/MaleHeadK",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultMaleHeadL": {
+    "Type": "Face",
+    "Image": "AdultHeadMaleL.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultMaleHeadL",
+    "Name": "AdultMaleHeadL",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultMaleHeadL",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultMaleHeadC": {
+    "Type": "Face",
+    "Image": "AdultHeadMaleC.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultMaleHeadC",
+    "Name": "AdultMaleHeadC",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultMaleHeadC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "FemaleHeadK": {
+    "Type": "Face",
+    "Image": "FemaleHeadK.png",
+    "Description": "An Operator head.",
+    "Link": "FemaleHeadK",
+    "Name": "FemaleHeadK",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/FemaleHeadK",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultFemaleHeadH": {
+    "Type": "Face",
+    "Image": "AdultHeadFemaleH.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultFemaleHeadH",
+    "Name": "AdultFemaleHeadH",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultFemaleHeadH",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "MaleHeadJ": {
+    "Type": "Face",
+    "Image": "MaleHeadJ.png",
+    "Description": "An Operator head.",
+    "Link": "MaleHeadJ",
+    "Name": "MaleHeadJ",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/MaleHeadJ",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "MaleHeadG": {
+    "Type": "Face",
+    "Image": "MaleHeadG.png",
+    "Description": "An Operator head.",
+    "Link": "MaleHeadG",
+    "Name": "MaleHeadG",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/MaleHeadG",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairO": {
+    "Type": "Hair",
+    "Image": "HairO.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairO",
+    "Name": "HairO",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairO",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairB": {
+    "Type": "Hair",
+    "Image": "HairB.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairB",
+    "Name": "HairB",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairB",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "MaleHeadB": {
+    "Type": "Face",
+    "Image": "MaleHeadB.png",
+    "Description": "An Operator head.",
+    "Link": "MaleHeadB",
+    "Name": "MaleHeadB",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/MaleHeadB",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairE": {
+    "Type": "Hair",
+    "Image": "HairE.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairE",
+    "Name": "HairE",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairE",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairVThree": {
+    "Type": "Hair",
+    "Image": "HairVSpike.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairVThree",
+    "Name": "HairVThree",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairVThree",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "HairAdultNightwave": {
+    "Type": "Hair",
+    "Image": "GenericWarframeHelmet.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairAdultNightwave",
+    "Name": "HairAdultNightwave",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairAdultNightwave",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairD": {
+    "Type": "Hair",
+    "Image": "HairD.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairD",
+    "Name": "HairD",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairD",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairXFuzzyBall": {
+    "Type": "Hair",
+    "Image": "HairXBall.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairXFuzzyBall",
+    "Name": "HairXFuzzyBall",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairXFuzzyBall",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "HairXDreadShortTail": {
+    "Type": "Hair",
+    "Image": "HairXDreadShort.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairXDreadShortTail",
+    "Name": "HairXDreadShortTail",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairXDreadShortTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "HairCaliberChicksJillian": {
+    "Type": "Hair",
+    "Image": "HairJillian.png",
+    "Description": "Jillian's signature hairstyle.",
+    "Link": "HairCaliberChicksJillian",
+    "Name": "HairCaliberChicksJillian",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairCaliberChicksJillian",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "FemaleHeadB": {
+    "Type": "Face",
+    "Image": "FemaleHeadB.png",
+    "Description": "An Operator head.",
+    "Link": "FemaleHeadB",
+    "Name": "FemaleHeadB",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/FemaleHeadB",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairXDreadTail": {
+    "Type": "Hair",
+    "Image": "HairXDreadLong.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairXDreadTail",
+    "Name": "HairXDreadTail",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairXDreadTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Somatics Asa-03": {
+    "Type": "Markings",
+    "Image": "SomaticsAsa-03.png",
+    "Description": "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
+    "Link": "Somatics Asa-03",
+    "Name": "Somatics Asa-03",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingB",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "FemaleHeadM": {
+    "Type": "Face",
+    "Image": "FemaleHeadM.png",
+    "Description": "An Operator head.",
+    "Link": "FemaleHeadM",
+    "Name": "FemaleHeadM",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/FemaleHeadM",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairWDreadTail": {
+    "Type": "Hair",
+    "Image": "HairWDreadLong.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairWDreadTail",
+    "Name": "HairWDreadTail",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairWDreadTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "HairS": {
+    "Type": "Hair",
+    "Image": "HairSMed.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairS",
+    "Name": "HairS",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairS",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Somatics Asa-23": {
+    "Type": "Markings",
+    "Image": "SomaticsAsa-23.png",
+    "Description": "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
+    "Link": "Somatics Asa-23",
+    "Name": "Somatics Asa-23",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingE",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "FemaleHeadI": {
+    "Type": "Face",
+    "Image": "FemaleHeadI.png",
+    "Description": "An Operator head.",
+    "Link": "FemaleHeadI",
+    "Name": "FemaleHeadI",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/FemaleHeadI",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultMaleHeadG": {
+    "Type": "Face",
+    "Image": "AdultHeadMaleG.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultMaleHeadG",
+    "Name": "AdultMaleHeadG",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultMaleHeadG",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "AdultMaleHeadF": {
+    "Type": "Face",
+    "Image": "AdultHeadMaleF.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultMaleHeadF",
+    "Name": "AdultMaleHeadF",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultMaleHeadF",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairJ": {
+    "Type": "Hair",
+    "Image": "HairJ.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairJ",
+    "Name": "HairJ",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairJ",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairC": {
+    "Type": "Hair",
+    "Image": "HairC.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairC",
+    "Name": "HairC",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairUThreeBraid": {
+    "Type": "Hair",
+    "Image": "HairUThreeBraid.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairUThreeBraid",
+    "Name": "HairUThreeBraid",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairUThreeBraid",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "HairUOneBraid": {
+    "Type": "Hair",
+    "Image": "HairUOneBraid.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairUOneBraid",
+    "Name": "HairUOneBraid",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairUOneBraid",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "HairUTwoBraid": {
+    "Type": "Hair",
+    "Image": "HairUTwoBraid.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairUTwoBraid",
+    "Name": "HairUTwoBraid",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairUTwoBraid",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "HairTBun": {
+    "Type": "Hair",
+    "Image": "HairTBun.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairTBun",
+    "Name": "HairTBun",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairTBun",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Somatics Fa-13": {
+    "Type": "Markings",
+    "Image": "SomaticsFa-13.png",
+    "Description": "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
+    "Link": "Somatics Fa-13",
+    "Name": "Somatics Fa-13",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingH",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairSShort": {
+    "Type": "Hair",
+    "Image": "HairSShort.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairSShort",
+    "Name": "HairSShort",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairSShort",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "HairWFuzzyBall": {
+    "Type": "Hair",
+    "Image": "HairWDreadBall.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairWFuzzyBall",
+    "Name": "HairWFuzzyBall",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairWFuzzyBall",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "HairVOne": {
+    "Type": "Hair",
+    "Image": "HairVRegular.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairVOne",
+    "Name": "HairVOne",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairVOne",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "HairRBunBraid": {
+    "Type": "Hair",
+    "Image": "HairRBunBraid.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairRBunBraid",
+    "Name": "HairRBunBraid",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairRBunBraid",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "HairRBun": {
+    "Type": "Hair",
+    "Image": "HairRBun.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairRBun",
+    "Name": "HairRBun",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairRBun",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "HairP": {
+    "Type": "Hair",
+    "Image": "HairP.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairP",
+    "Name": "HairP",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairP",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairK": {
+    "Type": "Hair",
+    "Image": "HairK.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairK",
+    "Name": "HairK",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairK",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairH": {
+    "Type": "Hair",
+    "Image": "HairH.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairH",
+    "Name": "HairH",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairH",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairZ": {
+    "Type": "Hair",
+    "Image": "HairZ.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairZ",
+    "Name": "HairZ",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairZ",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "BeardA": {
+    "Type": "Beard",
+    "Image": "BeardA.png",
+    "Description": "Facial hair for Drifter.",
+    "Link": "BeardA",
+    "Name": "BeardA",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Beards/BeardA",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "MaleHeadE": {
+    "Type": "Face",
+    "Image": "MaleHeadE.png",
+    "Description": "An Operator head.",
+    "Link": "MaleHeadE",
+    "Name": "MaleHeadE",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/MaleHeadE",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairAdultN": {
+    "Type": "Hair",
+    "Image": "HairAdultN.png",
+    "Description": "An intricate hair style for your Operator.",
+    "Link": "HairAdultN",
+    "Name": "HairAdultN",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairAdultN",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Somatics J-02": {
+    "Type": "Markings",
+    "Image": "SomaticsJ-02.png",
+    "Description": "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
+    "Link": "Somatics J-02",
+    "Name": "Somatics J-02",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Somatics D11": {
+    "Type": "Markings",
+    "Image": "SomaticsD11.png",
+    "Description": "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
+    "Link": "Somatics D11",
+    "Name": "Somatics D11",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingA",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "FemaleHeadE": {
+    "Type": "Face",
+    "Image": "FemaleHeadE.png",
+    "Description": "An Operator head.",
+    "Link": "FemaleHeadE",
+    "Name": "FemaleHeadE",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/FemaleHeadE",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "FemaleHeadD": {
+    "Type": "Face",
+    "Image": "FemaleHeadD.png",
+    "Description": "An Operator head.",
+    "Link": "FemaleHeadD",
+    "Name": "FemaleHeadD",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/FemaleHeadD",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "MaleHeadL": {
+    "Type": "Face",
+    "Image": "MaleHeadL.png",
+    "Description": "An Operator head.",
+    "Link": "MaleHeadL",
+    "Name": "MaleHeadL",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/MaleHeadL",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "FemaleHeadH": {
+    "Type": "Face",
+    "Image": "FemaleHeadH.png",
+    "Description": "An Operator head.",
+    "Link": "FemaleHeadH",
+    "Name": "FemaleHeadH",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/FemaleHeadH",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "HairCaliberChicksLillian": {
+    "Type": "Hair",
+    "Image": "HairLillian.png",
+    "Description": "Lillian's signature hairstyle.",
+    "Link": "HairCaliberChicksLillian",
+    "Name": "HairCaliberChicksLillian",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairCaliberChicksLillian",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "AdultMaleHeadH": {
+    "Type": "Face",
+    "Image": "AdultHeadMaleH.png",
+    "Description": "A Drifter head.",
+    "Link": "AdultMaleHeadH",
+    "Name": "AdultMaleHeadH",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultMaleHeadH",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  }
+}

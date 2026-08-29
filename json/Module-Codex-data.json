@@ -1,0 +1,7007 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Codex/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:31:24.417Z"
+  },
+  "_comments": "--        [\"Captive Virmink\"] = {\n--            Image = \"NokkoCritterRescueTarget.png\",\n--            Name = \"Captive Virmink\",\n--            Section = \"Other\" \n--        },\n--       [\"Corrupted Ancient\"] = {\n--\t        Image = \"OrokinHealingAncientAvatar.png\",\n--          Name = \"Corrupted Ancient\",\n--          Section = \"Orokin\" \n--      },\n--       [\"Deimos Brood Mother\"] = {\n--           Image = \"DiseasedAncient.png\",\n--           Name = \"Deimos Brood Mother\",\n--           Section = \"Infestation\" \n--       },\n--        [\"Hollow Thrax Centurion\"] = {\n--            Image = \"EclipseThraxCenturion.png\",\n--            Name = \"Hollow Thrax Centurion\",\n--            Section = \"Unaffiliated\" \n--        [\"Hostage\"] = {\n--            Image = \"NokkoBaseCitizenRescueTarget.png\",\n--            Name = \"Hostage\",\n--        [\"Juno Geminex MOA (2)\"] = {\n--            Image = \"JunoGeminexMOA.png\",\n--            Caption = \"Duplicate entry\",\n--            Name = \"Juno Geminex MOA\",\n--            Section = \"Corpus\" \n--        [\"Narmer Militant\"] = {\n--            Image = \"NarmerOstronMilitant.png\",\n--            Name = \"Narmer Militant\",\n--            Section = \"Narmer\" \n--        [\"Scrofa Drone\"] = {\n--            Image = \"NokkoDroneDefenseTarget.png\",\n--            Name = \"Scrofa Drone\",\n--        [\"Scrofa Obviator Eximus\"] = {\n--            Image = \"NokkoFlyingNullify.png\",\n--            Name = \"Scrofa Obviator Eximus\",\n--        [\"Trapper Drone\"] = {\n--            Image = \"TrapperDrone.png\",\n--            Name = \"Trapper Drone\",\n--            Section = \"Anarch\" \n--        [\"Trapper Drone Eximus\"] = {\n--            Name = \"Trapper Drone Eximus\",\n--        [\"Miseria Vessel\"] = {\n--            Image = \"MiseriaVessel.png\",\n--            Link = \"Lockers\",\n--            Name = \"Miseria Vessel\",\n--            Section = \"Miscellaneous\" ",
+  "Object": {
+    "Recaster": {
+      "Section": "Miscellaneous",
+      "Image": "CodexCorpusFishRecaster.png",
+      "Name": "Recaster",
+      "Link": "Fishing"
+    },
+    "Kriller": {
+      "Image": "CodexCorpusFishKriller.png",
+      "Name": "Kriller",
+      "Section": "Miscellaneous"
+    },
+    "Infested Tumor": {
+      "Image": "InfestedHiveTumorNode.png",
+      "Name": "Infested Tumor",
+      "Section": "Miscellaneous"
+    },
+    "Uncommon Grineer Storage Container": {
+      "Section": "Miscellaneous",
+      "Image": "CodexUncommonGrineerStorageContainer.png",
+      "Name": "Uncommon Grineer Storage Container",
+      "Link": "Storage Container#Uncommon Storage Containers"
+    },
+    "Cuthol": {
+      "Section": "Miscellaneous",
+      "Image": "CodexOstronFishCuthol.png",
+      "Name": "Cuthol",
+      "Link": "Fishing"
+    },
+    "Gallium Deposit": {
+      "Section": "Resources",
+      "Image": "GalliumContainer.png",
+      "Name": "Gallium Deposit",
+      "Link": "Gallium"
+    },
+    "Core Pipe G": {
+      "Image": "CodexCorePipeGrineer.png",
+      "Name": "Core Pipe",
+      "Link": "Reactor Sabotage",
+      "Caption": "Grineer",
+      "Section": "Miscellaneous"
+    },
+    "Nistlebrush": {
+      "Section": "Resources",
+      "Image": "NistlepodContainer.png",
+      "Name": "Nistlebrush",
+      "Link": "Nistlepod"
+    },
+    "Brickie": {
+      "Section": "Miscellaneous",
+      "Image": "CodexCorpusFishBrickie.png",
+      "Name": "Brickie",
+      "Link": "Fishing"
+    },
+    "Circuitry Lockbox": {
+      "Section": "Resources",
+      "Image": "CircuitsContainer.png",
+      "Name": "Circuitry Lockbox",
+      "Link": "Circuits"
+    },
+    "Iradite Formation": {
+      "Section": "Resources",
+      "Image": "IraditeFormation.png",
+      "Name": "Iradite Formation",
+      "Link": "Iradite"
+    },
+    "Mirewinde": {
+      "Section": "Miscellaneous",
+      "Image": "CodexCorpusFishMirewinder.png",
+      "Name": "Mirewinder",
+      "Link": "Fishing"
+    },
+    "Forgotten Grineer Storage Container": {
+      "Section": "Miscellaneous",
+      "Image": "CodexMossyShiny.png",
+      "Name": "Forgotten Grineer Storage Container",
+      "Link": "Storage Container#Forgotten Grineer Storage Containers"
+    },
+    "Mawfish": {
+      "Section": "Miscellaneous",
+      "Image": "CodexOstronFishMawFish.png",
+      "Name": "Mawfish",
+      "Link": "Fishing"
+    },
+    "Common Grineer Storage Container": {
+      "Section": "Miscellaneous",
+      "Image": "CodexCommonGrineerStorageContainer.png",
+      "Name": "Common Grineer Storage Container",
+      "Link": "Storage Container"
+    },
+    "Grate C": {
+      "Caption": "Corpus",
+      "Image": "CodexGrateCorpus.png",
+      "Name": "Grate",
+      "Section": "Miscellaneous"
+    },
+    "Bait Station": {
+      "Section": "Miscellaneous",
+      "Image": "BaitStation.png",
+      "Name": "Bait Station",
+      "Link": "Isolation Vault#Stage 1"
+    },
+    "Ayatan Sah Sculpture": {
+      "Section": "Ayatan Treasure",
+      "Image": "AyatanSahSculpture.png",
+      "Name": "Ayatan Sah Sculpture",
+      "Link": "Ayatan Sculpture"
+    },
+    "Vitreospina": {
+      "Section": "Miscellaneous",
+      "Image": "Vitreospina.png",
+      "Name": "Vitreospina",
+      "Link": "Fishing"
+    },
+    "Argon Pegmatite": {
+      "Section": "Resources",
+      "Image": "CodexArgonCrystalContainer.png",
+      "Name": "Argon Pegmatite",
+      "Link": "Argon Crystal"
+    },
+    "Equisitus Hoard": {
+      "Section": "Miscellaneous",
+      "Image": "EquisitusHoard.png",
+      "Name": "Equisitus Hoard",
+      "Link": "Storage_Container#Uncommon_Storage_Containers"
+    },
+    "Arid Blunt": {
+      "Image": "AridBlunt.png",
+      "Name": "Arid Blunt",
+      "Section": "Miscellaneous"
+    },
+    "Vestan Moss": {
+      "Image": "VestanMoss.png",
+      "Name": "Vestan Moss",
+      "Section": "Miscellaneous"
+    },
+    "Plastid Carapace": {
+      "Section": "Resources",
+      "Image": "PlastidsContainer.png",
+      "Name": "Plastid Carapace",
+      "Link": "Plastids"
+    },
+    "Sunlight Jadeleaf": {
+      "Image": "SunlightJadeleaf.png",
+      "Name": "Sunlight Jadeleaf",
+      "Section": "Miscellaneous"
+    },
+    "Senta Turret": {
+      "Image": "CodexObjTurret.png",
+      "Name": "Senta Turret",
+      "Section": "Miscellaneous"
+    },
+    "Trivalis Hoard": {
+      "Section": "Miscellaneous",
+      "Image": "TrivalisHoard.png",
+      "Name": "Trivalis Hoard",
+      "Link": "Storage_Container#Common_Storage_Containers"
+    },
+    "Mytocardia Sac 1": {
+      "Image": "MytocardiaSacSmall.png",
+      "Name": "Mytocardia Sac",
+      "Link": "Mytocardia Spore",
+      "Caption": "Small",
+      "Section": "Miscellaneous"
+    },
+    "Arc Trap": {
+      "Image": "CodexArcTrap.png",
+      "Name": "Arc Trap",
+      "Section": "Miscellaneous"
+    },
+    "Ayatan Vaya Sculpture": {
+      "Section": "Ayatan Treasure",
+      "Image": "AyatanVayaSculpture.png",
+      "Name": "Ayatan Vaya Sculpture",
+      "Link": "Ayatan Sculpture"
+    },
+    "Comprehensive Prime Grineer Munitions Box": {
+      "Section": "Miscellaneous",
+      "Image": "ComprehensivePrimeGrineerMunitionsBox.png",
+      "Name": "Comprehensive Prime Grineer Munitions Box",
+      "Link": "Storage_Container#Uncommon_Storage_Containers"
+    },
+    "Cryptosuctus": {
+      "Section": "Miscellaneous",
+      "Image": "Cryptosuctus.png",
+      "Name": "Cryptosuctus",
+      "Link": "Fishing"
+    },
+    "Charamote": {
+      "Section": "Miscellaneous",
+      "Image": "CodexCorpusFishCharamote.png",
+      "Name": "Charamote",
+      "Link": "Fishing"
+    },
+    "Spore Culture": {
+      "Section": "Resources",
+      "Image": "NanoSporesContainer.png",
+      "Name": "Spore Culture",
+      "Link": "Nano Spores"
+    },
+    "Sagiant Entrati Casket": {
+      "Section": "Miscellaneous",
+      "Image": "SagiantEntratiCasket.png",
+      "Name": "Sagiant Entrati Casket",
+      "Link": "Storage Container"
+    },
+    "Cell Array": {
+      "Section": "Resources",
+      "Image": "OrokinCellContainer.png",
+      "Name": "Cell Array",
+      "Link": "Orokin Cell"
+    },
+    "Carrypod": {
+      "Section": "Miscellaneous",
+      "Image": "ZarLootCrateCommonB.png",
+      "Name": "Carrypod",
+      "Link": "Storage Container"
+    },
+    "Orokin System": {
+      "Section": "Miscellaneous",
+      "Image": "CodexOrokinSystem.png",
+      "Name": "Orokin System",
+      "Link": "Mobile Defense"
+    },
+    "Polished Storage Container": {
+      "Section": "Miscellaneous",
+      "Image": "PolishedStorageContainer.png",
+      "Name": "Polished Storage Container",
+      "Link": "Storage Container"
+    },
+    "Lanx": {
+      "Image": "Shark.png",
+      "Name": "Lanx",
+      "Section": "Miscellaneous"
+    },
+    "Yogwun": {
+      "Section": "Miscellaneous",
+      "Image": "CodexOstronFishYogwun.png",
+      "Name": "Yogwun",
+      "Link": "Fishing"
+    },
+    "Kuria": {
+      "Image": "CodexKuria.png",
+      "Name": "Kuria",
+      "Section": "Miscellaneous"
+    },
+    "Lunar Pitcher": {
+      "Image": "LunarPitcher.png",
+      "Name": "Lunar Pitcher",
+      "Section": "Miscellaneous"
+    },
+    "Control Console B": {
+      "Section": "Miscellaneous",
+      "Image": "CodexControlConsoleCorpus.png",
+      "Name": "Control Console <i>(Corpus)</i>",
+      "Link": "Hacking"
+    },
+    "Alloy Drum": {
+      "Section": "Resources",
+      "Image": "AlloyPlateContainer.png",
+      "Name": "Alloy Drum",
+      "Link": "Alloy Plate"
+    },
+    "Standard Prime Grineer Munitions Box": {
+      "Section": "Miscellaneous",
+      "Image": "StandardPrimeGrineerMunitionsBox.png",
+      "Name": "Standard Prime Grineer Munitions Box",
+      "Link": "Storage_Container#Rare_Storage_Containers"
+    },
+    "Isolation Vault Container": {
+      "Section": "Miscellaneous",
+      "Image": "IsolationVaultContainer.png",
+      "Name": "Isolation Vault Container",
+      "Link": "Storage Container"
+    },
+    "Sapcaddy": {
+      "Section": "Miscellaneous",
+      "Image": "CodexCorpusFishSapcaddy.png",
+      "Name": "Sapcaddy",
+      "Link": "Fishing"
+    },
+    "Tromyzon": {
+      "Section": "Miscellaneous",
+      "Image": "CodexCorpusFishTromyzon.png",
+      "Name": "Tromyzon",
+      "Link": "Fishing"
+    },
+    "Thermal Sludge Canister": {
+      "Section": "Miscellaneous",
+      "Image": "ThermalSludgeCanister.png",
+      "Name": "Thermal Sludge Canister",
+      "Link": "Thermal Sludge"
+    },
+    "Grineer System": {
+      "Section": "Miscellaneous",
+      "Image": "CodexGrineerSystem.png",
+      "Name": "Grineer System",
+      "Link": "Mobile Defense"
+    },
+    "Karkina": {
+      "ection": "Miscellaneous",
+      "Image": "CodexOstronFishKarkina.png",
+      "Name": "Karkina",
+      "Link": "Fishing"
+    },
+    "Ayatan Anasa Sculpture": {
+      "Section": "Ayatan Treasure",
+      "Image": "AyatanAnasaSculpture.png",
+      "Name": "Ayatan Anasa Sculpture",
+      "Link": "Ayatan Sculpture"
+    },
+    "Ayatan Orta Sculpture": {
+      "Section": "Ayatan Treasure",
+      "Image": "AyatanOrtaSculpture.png",
+      "Name": "Ayatan Orta Sculpture",
+      "Link": "Ayatan Sculpture"
+    },
+    "Morphics Stabilizer": {
+      "Section": "Resources",
+      "Image": "MorphicsContainer.png",
+      "Name": "Morphics Stabilizer",
+      "Link": "Morphics"
+    },
+    "Murkray": {
+      "Section": "Miscellaneous",
+      "Image": "CodexOstronFishMurkray.png",
+      "Name": "Murkray",
+      "Link": "Fishing"
+    },
+    "Sunrise Apothic Imprint": {
+      "Section": "Miscellaneous",
+      "Image": "CodexApothicImprint.png",
+      "Name": "Sunrise Apothic Imprint",
+      "Link": "The Silver Grove"
+    },
+    "Auroron Entrati Casket": {
+      "Section": "Miscellaneous",
+      "Image": "AuroronEntratiCasket.png",
+      "Name": "Auroron Entrati Casket",
+      "Link": "Storage Container"
+    },
+    "Murmur Sarcophage": {
+      "Section": "Miscellaneous",
+      "Image": "MurmurSarcophage.png",
+      "Name": "Murmur Sarcophage",
+      "Link": "Stela#Murmur Sarcophage"
+    },
+    "Abundant Prime Grineer Munitions Box": {
+      "Section": "Miscellaneous",
+      "Image": "AbundantPrimeGrineerMunitionsBox.png",
+      "Name": "Abundant Prime Grineer Munitions Box",
+      "Link": "Storage_Container#Reinforced_Storage_Containers"
+    },
+    "Control Console A": {
+      "Section": "Miscellaneous",
+      "Image": "GrnPanelADeco.png",
+      "Name": "Control Console <i>(Grineer)</i>",
+      "Link": "Hacking"
+    },
+    "Ferrite Deposit": {
+      "Section": "Resources",
+      "Image": "FerriteContainer.png",
+      "Name": "Ferrite Deposit",
+      "Link": "Ferrite"
+    },
+    "Drekar Blunt": {
+      "Image": "SeaLabBlunt.png",
+      "Name": "Drekar Blunt",
+      "Section": "Miscellaneous"
+    },
+    "Robotics Lockbox": {
+      "Section": "Resources",
+      "Image": "ControlModuleContainer.png",
+      "Name": "Robotics Lockbox",
+      "Link": "Control Module"
+    },
+    "Arcane Machine": {
+      "Image": "ArcaneMachine.png",
+      "Name": "Arcane Machine",
+      "Section": "Miscellaneous"
+    },
+    "Rare Corpus Storage Container": {
+      "Section": "Miscellaneous",
+      "Image": "CodexRareCorpusStorageContainer.png",
+      "Name": "Rare Corpus Storage Container",
+      "Link": "Storage Container#Rare Storage Containers"
+    },
+    "Haptic Frond": {
+      "Section": "Miscellaneous",
+      "Image": "HapticFrond.png",
+      "Name": "Haptic Frond",
+      "Link": "Ganglion"
+    },
+    "Biogas Barrel": {
+      "Section": "Miscellaneous",
+      "Image": "BiogasBarrel.png",
+      "Name": "Biogas Barrel",
+      "Link": "Explosive Barrel"
+    },
+    "Ruk's Claw": {
+      "Image": "Ruk'sClaw.png",
+      "Name": "Ruk's Claw",
+      "Section": "Miscellaneous"
+    },
+    "Reinforced Orokin Storage Container": {
+      "Section": "Miscellaneous",
+      "Image": "CodexReinforcedOrokinStorageContainer.png",
+      "Name": "Reinforced Orokin Storage Container",
+      "Link": "Storage Container#Reinforced Storage Containers"
+    },
+    "Ln2 Barrel": {
+      "Section": "Miscellaneous",
+      "Image": "CodexLN2Barrel.png",
+      "Name": "LN2 Barrel",
+      "Link": "Explosive Barrel"
+    },
+    "Warframe Cryopod": {
+      "Section": "Miscellaneous",
+      "Image": "CodexWarframeCryopod.png",
+      "Name": "Warframe Cryopod",
+      "Link": "Defense"
+    },
+    "Volatile Orokin Container": {
+      "Section": "Miscellaneous",
+      "Image": "CodexVolatileOrokinContainer.png",
+      "Name": "Volatile Orokin Container",
+      "Link": "Explosive Barrel"
+    },
+    "Shrapnel Mine": {
+      "Section": "Miscellaneous",
+      "Image": "ShrapnelMine.png",
+      "Name": "Shrapnel Mine",
+      "Link": "Grineer Asteroid Fortress#Mines"
+    },
+    "Aquapulmo": {
+      "Section": "Miscellaneous",
+      "Image": "Aquapulmo.png",
+      "Name": "Aquapulmo",
+      "Link": "Fishing"
+    },
+    "Vector Shield": {
+      "Image": "CodexVectorShield.png",
+      "Name": "Vector Shield",
+      "Section": "Miscellaneous"
+    },
+    "Urumith Entrati Coffer": {
+      "Section": "Miscellaneous",
+      "Image": "UrumithEntratiCoffer.png",
+      "Name": "Urumith Entrati Coffer",
+      "Link": "Storage Container#Common Storage Container"
+    },
+    "Uncommon Corpus Storage Container": {
+      "Section": "Miscellaneous",
+      "Image": "CodexCommonCorpusStorageContainer.png",
+      "Name": "Uncommon Corpus Storage Container",
+      "Link": "Storage Container#Uncommon Storage Containers"
+    },
+    "Glutinox": {
+      "Section": "Miscellaneous",
+      "Image": "Glutinox.png",
+      "Name": "Glutinox",
+      "Link": "Fishing"
+    },
+    "Amniophysi": {
+      "Section": "Miscellaneous",
+      "Image": "Amniophysi.png",
+      "Name": "Amniophysi",
+      "Link": "Fishing"
+    },
+    "Twilight Apothic Imprint": {
+      "Section": "Miscellaneous",
+      "Image": "CodexApothicImprint.png",
+      "Name": "Twilight Apothic Imprint",
+      "Link": "The Silver Grove"
+    },
+    "Toxin Injector": {
+      "Image": "CodexToxinInjector.png",
+      "Name": "Toxin Injector",
+      "Section": "Miscellaneous"
+    },
+    "Transport": {
+      "Section": "Miscellaneous",
+      "Image": "CodexTransport.png",
+      "Name": "Transport",
+      "Link": "Rush (Archwing)"
+    },
+    "Security Camera": {
+      "Image": "CodexObjSecurityCamera.png",
+      "Name": "Security Camera",
+      "Section": "Miscellaneous"
+    },
+    "Tralok": {
+      "Section": "Miscellaneous",
+      "Image": "CodexOstronFishTralok.png",
+      "Name": "Tralok",
+      "Link": "Fishing"
+    },
+    "Grineer Supply Cache": {
+      "Section": "Miscellaneous",
+      "Image": "GrineerSupplyCache.png",
+      "Name": "Grineer Supply Cache",
+      "Link": "Resource Cache"
+    },
+    "Kymaeros": {
+      "Section": "Miscellaneous",
+      "Image": "Kymaeros.png",
+      "Name": "Kymaeros",
+      "Link": "Fishing"
+    },
+    "Distressed Pipe": {
+      "Section": "Miscellaneous",
+      "Image": "DistressedPipe.png",
+      "Name": "Distressed Pipe",
+      "Link": "Corpus Gas City#Distressed Pipes"
+    },
+    "Klystor Entrati Coffer": {
+      "Section": "Miscellaneous",
+      "Image": "KlystorEntratiCoffer.png",
+      "Name": "Klystor Entrati Coffer",
+      "Link": "Storage Container#Uncommon Storage Container"
+    },
+    "Excavator": {
+      "Image": "CodexExcavator.png",
+      "Name": "Excavator",
+      "Section": "Miscellaneous"
+    },
+    "Scrubber": {
+      "Section": "Miscellaneous",
+      "Image": "CodexCorpusFishScrubber.png",
+      "Name": "Scrubber",
+      "Link": "Fishing"
+    },
+    "Belric's Crystal": {
+      "Section": "Miscellaneous",
+      "Image": "Belric'sCrystal.png",
+      "Name": "Belric's Crystal",
+      "Link": "Belric & Rania"
+    },
+    "Tink": {
+      "Section": "Miscellaneous",
+      "Image": "CodexCorpusFishTink.png",
+      "Name": "Tink",
+      "Link": "Fishing"
+    },
+    "Sharrac": {
+      "Section": "Miscellaneous",
+      "Image": "CodexOstronFishSharrac.png",
+      "Name": "Sharrac",
+      "Link": "Fishing"
+    },
+    "Tepa Plant": {
+      "Section": "Miscellaneous",
+      "Image": "TepaPlant.png",
+      "Name": "Tepa Plant",
+      "Link": "Tepa Nodule"
+    },
+    "Dusklight Sarracenia": {
+      "Image": "DusklightSarracenia.png",
+      "Name": "Dusklight Sarracenia",
+      "Section": "Miscellaneous"
+    },
+    "Rare Orokin Storage Container": {
+      "Section": "Miscellaneous",
+      "Image": "CodexRareOrokinStorageContainer.png",
+      "Name": "Rare Orokin Storage Container",
+      "Link": "Storage Container#Rare Storage Containers"
+    },
+    "Synathid": {
+      "Section": "Miscellaneous",
+      "Image": "CodexCorpusFishSynathid.png",
+      "Name": "Synathid",
+      "Link": "Fishing"
+    },
+    "Orokin Storage Container": {
+      "Section": "Miscellaneous",
+      "Image": "CodexOrokinStorageContainer.png",
+      "Name": "Orokin Storage Container",
+      "Link": "Storage Container"
+    },
+    "Ayatan Amber Star": {
+      "Section": "Ayatan Treasure",
+      "Image": "AyatanAmberStar.png",
+      "Name": "Ayatan Amber Star",
+      "Link": "Ayatan Star"
+    },
+    "Prime Grineer Resource Cache": {
+      "Section": "Miscellaneous",
+      "Image": "PrimeGrineerResourceCache.png",
+      "Name": "Prime Grineer Resource Cache",
+      "Link": "Lockers"
+    },
+    "Sunlight Threshcone": {
+      "Image": "SunlightThreshcone.png",
+      "Name": "Sunlight Threshcone",
+      "Section": "Miscellaneous"
+    },
+    "Sunlight Dragonlily": {
+      "Image": "SunlightDragonlily.png",
+      "Name": "Sunlight Dragonlily",
+      "Section": "Miscellaneous"
+    },
+    "Molted Cask": {
+      "Section": "Miscellaneous",
+      "Image": "ZarLootCrateRare.png",
+      "Name": "Molted Cask",
+      "Link": "Storage Container"
+    },
+    "Spitia Infested Cyst": {
+      "Section": "Miscellaneous",
+      "Image": "SpitiaInfestedCyst.png",
+      "Name": "Spitia Infested Cyst",
+      "Link": "Storage Container"
+    },
+    "Sparse Prime Grineer Munitions Box": {
+      "Section": "Miscellaneous",
+      "Image": "SparsePrimeGrineerMunitionsBox.png",
+      "Name": "Sparse Prime Grineer Munitions Box",
+      "Link": "Storage_Container#Common_Storage_Containers"
+    },
+    "Rampart": {
+      "Image": "CodexRampart.png",
+      "Name": "Rampart",
+      "Section": "Miscellaneous"
+    },
+    "Common Corpus Storage Container": {
+      "Section": "Miscellaneous",
+      "Image": "CodexCommonCorpusStorageContainer.png",
+      "Name": "Common Corpus Storage Container",
+      "Link": "Storage Container"
+    },
+    "Soag Domestik Drone": {
+      "Section": "Miscellaneous",
+      "Image": "SoagDomestikDrone.png",
+      "Name": "Soag Domestik Drone",
+      "Link": "Soag Domestik Drone"
+    },
+    "Thalmin Entrati Coffer": {
+      "Section": "Miscellaneous",
+      "Image": "AuroronEntratiCasket.png",
+      "Name": "Thalmin Entrati Coffer",
+      "Link": "Storage_Container#Reinforced_Storage_Containers"
+    },
+    "Death Orb": {
+      "Section": "Miscellaneous",
+      "Image": "CodexDeathOrb.png",
+      "Name": "Death Orb",
+      "Link": "Orokin Tower#Death Orbs"
+    },
+    "Service Drone": {
+      "Section": "Miscellaneous",
+      "Image": "ServiceDrone.png",
+      "Name": "Service Drone",
+      "Link": "Corpus Gas City"
+    },
+    "Ayatan Piv Sculpture": {
+      "Section": "Ayatan Treasure",
+      "Image": "AyatanPivSculpture.png",
+      "Name": "Ayatan Piv Sculpture",
+      "Link": "Ayatan Sculpture"
+    },
+    "Sensor Bar": {
+      "Image": "CodexSensorBar.png",
+      "Name": "Sensor Bar",
+      "Section": "Miscellaneous"
+    },
+    "Scaldra Supply Cache": {
+      "Image": "SupplyCrate.png",
+      "Name": "Scaldra Supply Cache",
+      "Section": "Miscellaneous"
+    },
+    "Corpus Stasis Mine": {
+      "Section": "Miscellaneous",
+      "Image": "CodexCorpusStasisMine.png",
+      "Name": "Corpus Stasis Mine",
+      "Link": "Rush (Archwing)"
+    },
+    "Rubedo Formation": {
+      "Section": "Resources",
+      "Image": "RubedoContainer.png",
+      "Name": "Rubedo Formation",
+      "Link": "Rubedo"
+    },
+    "Ancient Molted Cask": {
+      "Section": "Miscellaneous",
+      "Image": "ZarLootCrateUltraRare.png",
+      "Name": "Ancient Molted Cask",
+      "Link": "Storage Container"
+    },
+    "Rozilor Infested Cyst": {
+      "Section": "Miscellaneous",
+      "Image": "RozilorInfestedCyst.png",
+      "Name": "Rozilor Infested Cyst",
+      "Link": "Storage Container"
+    },
+    "Reinforced Corpus Storage Container": {
+      "Section": "Miscellaneous",
+      "Image": "CodexReinforcedCorpusStorageContainer.png",
+      "Name": "Reinforced Corpus Storage Container",
+      "Link": "Storage Container#Reinforced Storage Containers"
+    },
+    "Gorgaricus Sac": {
+      "Section": "Miscellaneous",
+      "Image": "GorgaricusSac.png",
+      "Name": "Gorgaricus Sac",
+      "Link": "Gorgaricus Spore"
+    },
+    "Rania's Crystal": {
+      "Section": "Miscellaneous",
+      "Image": "Rania'sCrystal.png",
+      "Name": "Rania's Crystal",
+      "Link": "Belric & Rania"
+    },
+    "Reinforced Grineer Storage Container": {
+      "Section": "Miscellaneous",
+      "Image": "CodexReinforcedGrineerStorageContainer.png",
+      "Name": "Reinforced Grineer Storage Container",
+      "Link": "Storage Container#Reinforced Storage Containers"
+    },
+    "Maprico Tree": {
+      "Section": "Resources",
+      "Image": "MapricoTree.png",
+      "Name": "Maprico Tree",
+      "Link": "Maprico"
+    },
+    "Reinforced Carrypod": {
+      "Section": "Miscellaneous",
+      "Image": "ZarLootCrateUncommon.png",
+      "Name": "Reinforced Carrypod",
+      "Link": "Storage Container"
+    },
+    "Mining Machine": {
+      "Image": "CodexMiningMachine.png",
+      "Name": "Mining Machine",
+      "Section": "Miscellaneous"
+    },
+    "Moonlight Jadeleaf": {
+      "Image": "MoonlightJadeleaf.png",
+      "Name": "Moonlight Jadeleaf",
+      "Section": "Miscellaneous"
+    },
+    "Abandoned Storage Container": {
+      "Section": "Miscellaneous",
+      "Image": "CodexAbandonedStorageContainer.png",
+      "Name": "Abandoned Storage Container",
+      "Link": "Storage Container"
+    },
+    "Compacted Salvage": {
+      "Section": "Resources",
+      "Image": "SalvageContainer.png",
+      "Name": "Compacted Salvage",
+      "Link": "Salvage"
+    },
+    "Ayatan Cyan Star": {
+      "Section": "Ayatan Treasure",
+      "Image": "AyatanCyanStar.png",
+      "Name": "Ayatan Cyan Star",
+      "Link": "Ayatan Star"
+    },
+    "Imperial Rampart": {
+      "Section": "Miscellaneous",
+      "Image": "ImperialRampart.png",
+      "Name": "Imperial Rampart",
+      "Link": "Rampart"
+    },
+    "Rare Grineer Storage Container": {
+      "Section": "Miscellaneous",
+      "Image": "CodexRareGrineerStorageContainer.png",
+      "Name": "Rare Grineer Storage Container",
+      "Link": "Storage Container#Rare Storage Containers"
+    },
+    "Chondricord": {
+      "Section": "Miscellaneous",
+      "Image": "Chondricord.png",
+      "Name": "Chondricord",
+      "Link": "Fishing"
+    },
+    "Moonlight Dragonlily": {
+      "Image": "MoonlightDragonlily.png",
+      "Name": "Moonlight Dragonlily",
+      "Section": "Miscellaneous"
+    },
+    "Hatch Cover": {
+      "Section": "Miscellaneous",
+      "Image": "ZarimanBreakableHatchDoorA.png",
+      "Name": "Hatch Cover",
+      "Link": "Grate"
+    },
+    "Reinforced Glass": {
+      "Image": "CodexReinforcedGlass.png",
+      "Name": "Reinforced Glass",
+      "Section": "Miscellaneous"
+    },
+    "Polymer Case": {
+      "Section": "Resources",
+      "Image": "PolymerBundleContainer.png",
+      "Name": "Polymer Case",
+      "Link": "Polymer Bundle"
+    },
+    "Polished Storage Crate": {
+      "Section": "Miscellaneous",
+      "Image": "PolishedStorageCrate.png",
+      "Name": "Polished Storage Crate",
+      "Link": "Storage Container"
+    },
+    "Ostimyr": {
+      "Section": "Miscellaneous",
+      "Image": "Ostimyr.png",
+      "Name": "Ostimyr",
+      "Link": "Fishing"
+    },
+    "Ayatan Ayr Sculpture": {
+      "Section": "Ayatan Treasure",
+      "Image": "AyatanAyrSculpture.png",
+      "Name": "Ayatan Ayr Sculpture",
+      "Link": "Ayatan Sculpture"
+    },
+    "Orokin Supply Repository": {
+      "Section": "Miscellaneous",
+      "Image": "OrokinSupplyRepository.png",
+      "Name": "Orokin Supply Repository",
+      "Link": "Lockers"
+    },
+    "Orokin Power Core": {
+      "Image": "CodexOrokinPowerCore.png",
+      "Name": "Orokin Power Core",
+      "Section": "Miscellaneous"
+    },
+    "Omnipak": {
+      "Section": "Miscellaneous",
+      "Image": "ZarLootCrateCommon.png",
+      "Name": "Omnipak",
+      "Link": "Storage Container"
+    },
+    "Neural Array": {
+      "Section": "Resources",
+      "Image": "NeuralSensorContainer.png",
+      "Name": "Neural Array",
+      "Link": "Neural Sensors"
+    },
+    "Norg": {
+      "Section": "Miscellaneous",
+      "Image": "CodexOstronFishNorg.png",
+      "Name": "Norg",
+      "Link": "Fishing"
+    },
+    "Helium Barrel": {
+      "Section": "Miscellaneous",
+      "Image": "HeliumBarrel.png",
+      "Name": "Helium Barrel",
+      "Link": "Corpus Gas City"
+    },
+    "Nightfall Apothic Imprint": {
+      "Section": "Miscellaneous",
+      "Image": "CodexApothicImprint.png",
+      "Name": "Nightfall Apothic Imprint",
+      "Link": "The Silver Grove"
+    },
+    "Domestik Drone": {
+      "Section": "Miscellaneous",
+      "Image": "DomestikDrone.png",
+      "Name": "Domestik Drone",
+      "Link": "Domestik Drone"
+    },
+    "Fan": {
+      "Image": "CodexFan.png",
+      "Name": "Fan",
+      "Section": "Miscellaneous"
+    },
+    "Anarch Turret": {
+      "Image": "AnarchTurret.png",
+      "Name": "Anarch Turret",
+      "Section": "Miscellaneous"
+    },
+    "Blunt": {
+      "Image": "CodexBlunt.png",
+      "Name": "Blunt",
+      "Section": "Miscellaneous"
+    },
+    "Neuroptic Mass": {
+      "Section": "Resources",
+      "Image": "NeurodesContainer.png",
+      "Name": "Neuroptic Mass",
+      "Link": "Neurodes"
+    },
+    "Barbisteo": {
+      "Section": "Miscellaneous",
+      "Image": "Barbisteo.png",
+      "Name": "Barbisteo",
+      "Link": "Fishing"
+    },
+    "Myxostomata": {
+      "Section": "Miscellaneous",
+      "Image": "Myxostomata.png",
+      "Name": "Myxostomata",
+      "Link": "Fishing"
+    },
+    "Grineer Exploding Barrel": {
+      "Section": "Miscellaneous",
+      "Image": "CodexGrineerExplodingBarrel.png",
+      "Name": "Grineer Exploding Barrel",
+      "Link": "Explosive Barrel"
+    },
+    "Frostleaf": {
+      "Image": "Frostleaf.png",
+      "Name": "Frostleaf",
+      "Section": "Miscellaneous"
+    },
+    "Moonlight Threshcone": {
+      "Image": "MoonlightThreshcone.png",
+      "Name": "Moonlight Threshcone",
+      "Section": "Miscellaneous"
+    },
+    "Mortus Lungfish": {
+      "Section": "Miscellaneous",
+      "Image": "CodexOstronFishMortusLungerfish.png",
+      "Name": "Mortus Lungfish",
+      "Link": "Fishing"
+    },
+    "Raro Hoard": {
+      "Section": "Miscellaneous",
+      "Image": "RaroHoard.png",
+      "Name": "Raro Hoard",
+      "Link": "Storage_Container#Rare_Storage_Containers"
+    },
+    "Longwinder": {
+      "Section": "Miscellaneous",
+      "Image": "CodexCorpusFishLongwinder.png",
+      "Name": "Longwinder",
+      "Link": "Fishing"
+    },
+    "Large Grineer Exploding Barrel": {
+      "Section": "Miscellaneous",
+      "Image": "CodexLargeGrineerExplodingBarrel.png",
+      "Name": "Large Grineer Exploding Barrel",
+      "Link": "Explosive Barrel"
+    },
+    "Large Corpus Exploding Barrel": {
+      "Section": "Miscellaneous",
+      "Image": "CodexLargeCorpusExplodingBarrel.png",
+      "Name": "Large Corpus Exploding Barrel",
+      "Link": "Explosive Barrel"
+    },
+    "Kubrow Den": {
+      "Image": "CodexKubrowDen.png",
+      "Name": "Kubrow Den",
+      "Section": "Miscellaneous"
+    },
+    "Infested Jordas Tumor": {
+      "Caption": "Jordas Verdict",
+      "Image": "InfestedHiveTumorNode.png",
+      "Name": "Infested Tumor",
+      "Section": "Miscellaneous"
+    },
+    "Charc Eel": {
+      "Section": "Miscellaneous",
+      "Image": "CodexOstronFichCharcEel.png",
+      "Name": "Charc Eel",
+      "Link": "Fishing"
+    },
+    "Khut-Khut": {
+      "Section": "Miscellaneous",
+      "Image": "CodexOstronFishKhutKhut.png",
+      "Name": "Khut-Khut",
+      "Link": "Fishing"
+    },
+    "Inusitatus Hoard": {
+      "Section": "Miscellaneous",
+      "Image": "InusitatusHoard.png",
+      "Name": "Inustitatus Hoard",
+      "Link": "Storage_Container#Reinforced_Storage_Containers"
+    },
+    "Core Pipe C": {
+      "Image": "CodexCorePipeCorpus.png",
+      "Name": "Core Pipe",
+      "Link": "Reactor Sabotage",
+      "Caption": "Corpus",
+      "Section": "Miscellaneous"
+    },
+    "Mytocardia Sac 2": {
+      "Image": "MytocardiaSacLarge.png",
+      "Name": "Mytocardia Sac",
+      "Link": "Mytocardia Spore",
+      "Caption": "Large",
+      "Section": "Miscellaneous"
+    },
+    "Gravid Blastema": {
+      "Section": "Miscellaneous",
+      "Image": "GravidBlastema.png",
+      "Name": "Gravid Blastema",
+      "Link": "Pustulite"
+    },
+    "Grate G": {
+      "Caption": "Grineer",
+      "Image": "CodexGrateGrineer.png",
+      "Name": "Grate",
+      "Section": "Miscellaneous"
+    },
+    "Explosive Barrel": {
+      "Image": "CodexExplosiveBarrel.png",
+      "Name": "Explosive Barrel",
+      "Section": "Miscellaneous"
+    },
+    "Goopolla": {
+      "Section": "Miscellaneous",
+      "Image": "CodexOstronFishGoopola.png",
+      "Name": "Goopolla",
+      "Link": "Fishing"
+    },
+    "Corpus Systems": {
+      "Section": "Miscellaneous",
+      "Image": "CodexCorpusSystems.png",
+      "Name": "Corpus Systems",
+      "Link": "Mobile Defense"
+    },
+    "Fusor Drone": {
+      "Section": "Miscellaneous",
+      "Image": "FusorDrone.png",
+      "Name": "Fusor Drone",
+      "Link": "Corpus Gas City"
+    },
+    "Muzureh Entrati Coffer": {
+      "Section": "Miscellaneous",
+      "Image": "MuzurehEntratiCoffer.png",
+      "Name": "Muzureh Entrati Coffer",
+      "Link": "Storage Container#Rare Storage Container"
+    },
+    "Eye-Eye": {
+      "Section": "Miscellaneous",
+      "Image": "CodexCorpusFishEyeEye.png",
+      "Name": "Eye-Eye",
+      "Link": "Fishing"
+    },
+    "Echowinder": {
+      "Section": "Miscellaneous",
+      "Image": "CodexCorpusFishEchowinder.png",
+      "Name": "Echowinder",
+      "Link": "Fishing"
+    },
+    "Duroid": {
+      "Section": "Miscellaneous",
+      "Image": "Duroid.png",
+      "Name": "Duroid",
+      "Link": "Fishing"
+    },
+    "Glappid": {
+      "Section": "Miscellaneous",
+      "Image": "CodexOstronFishGlappid.png",
+      "Name": "Glappid",
+      "Link": "Fishing"
+    },
+    "Cascade Bomb": {
+      "Image": "CodexOrokinPowerCore.png",
+      "Name": "Cascade Bomb",
+      "Section": "Miscellaneous"
+    },
+    "Grokdrul Drum": {
+      "Section": "Resources",
+      "Image": "CodexGrokdrulContainer.png",
+      "Name": "Grokdrul Drum",
+      "Link": "Grokdrul"
+    },
+    "Cable": {
+      "Section": "Miscellaneous",
+      "Image": "Cable.png",
+      "Name": "Cable",
+      "Link": "Corpus Gas City"
+    }
+  },
+  "Enemy": {
+    "Amalgam Heqet": {
+      "Image": "AmalgamHeqet.png",
+      "Name": "Amalgam Heqet",
+      "Section": "Corpus"
+    },
+    "Nul Scrambus": {
+      "Image": "NulScrambus.png",
+      "Name": "Nul Scrambus",
+      "Section": "Corpus"
+    },
+    "Decaying Battalyst": {
+      "Image": "VoidSentientTrooper.png",
+      "Name": "Decaying Battalyst",
+      "Section": "Sentient"
+    },
+    "Terra Elite Crewman Eximus": {
+      "Image": "TerraEliteCrewman.png",
+      "Name": "Terra Elite Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Juno Elite Crewman Eximus": {
+      "Image": "JunoEliteCrewman.png",
+      "Name": "Juno Elite Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Executioner Gorth": {
+      "Image": "GrineerTank.png",
+      "Name": "Executioner Gorth",
+      "Section": "Grineer"
+    },
+    "Taro Railgun MOA": {
+      "Image": "TaroRailgunMOA.png",
+      "Name": "Taro Railgun MOA",
+      "Section": "Corpus"
+    },
+    "Tusk Command Dargyn": {
+      "Image": "EidolonVipSkiff.png",
+      "Name": "Tusk Command Dargyn",
+      "Section": "Grineer"
+    },
+    "Amalgam Alkonost Eximus": {
+      "Image": "AmalgamAlkonost.png",
+      "Name": "Amalgam Alkonost Eximus",
+      "Section": "Corpus"
+    },
+    "Coolant Raknoid": {
+      "Image": "CoolantRaknoid.png",
+      "Name": "Coolant Raknoid",
+      "Section": "Corpus"
+    },
+    "Polyp-Hog Juggernaut": {
+      "Image": "JuggernautMicroPlanetAvatar.png",
+      "Name": "Polyp-Hog Juggernaut",
+      "Section": "Infestation"
+    },
+    "Corrupted Butcher Eximus": {
+      "Image": "OrokinBladeSawman.png",
+      "Name": "Corrupted Butcher Eximus",
+      "Section": "Orokin"
+    },
+    "Tusk Roller Eximus": {
+      "Image": "EidolonRollingDrone.png",
+      "Name": "Tusk Roller Eximus",
+      "Section": "Grineer"
+    },
+    "Anarch Grineer Lancer": {
+      "Image": "AnarchGrineerLancer.png",
+      "Name": "Anarch Grineer Lancer",
+      "Section": "Anarchs"
+    },
+    "Scorpion": {
+      "Image": "ScorpionDE.png",
+      "Name": "Scorpion",
+      "Section": "Grineer"
+    },
+    "Raptor RX": {
+      "Image": "CCTeamBRaptorAgent.png",
+      "Name": "Raptor RX",
+      "Section": "Corpus"
+    },
+    "Arid Seeker": {
+      "Image": "DesertGrineerMarinePistolAvatar.png",
+      "Name": "Arid Seeker",
+      "Section": "Grineer"
+    },
+    "Corrupted Vor": {
+      "Image": "VorTwo.png",
+      "Name": "Corrupted Vor",
+      "Section": "Grineer"
+    },
+    "Arid Butcher": {
+      "Image": "DesertBladeSawmanAvatar.png",
+      "Name": "Arid Butcher",
+      "Section": "Grineer"
+    },
+    "Kosma Supressor": {
+      "Image": "KosmaSupressor.png",
+      "Name": "Kosma Supressor",
+      "Section": "Grineer"
+    },
+    "Juno Geminex MOA Eximus": {
+      "Image": "JunoGeminexMOA.png",
+      "Name": "Juno Geminex MOA Eximus",
+      "Section": "Corpus"
+    },
+    "Orokin Spectator": {
+      "Image": "OrokinShieldDroneAvatar.png",
+      "Name": "Orokin Spectator",
+      "Section": "Orokin"
+    },
+    "Corpus Power Carrier Alpha": {
+      "Section": "Corpus",
+      "Image": "PowercellCrewman.png",
+      "Name": "Corpus Power Carrier",
+      "Link": "Power Carrier"
+    },
+    "Gyre Gokstad Pilot": {
+      "Image": "GyreGokstadPilot.png",
+      "Name": "Gyre Gokstad Pilot",
+      "Section": "Grineer"
+    },
+    "Nullifier Crewman": {
+      "Image": "CrpNullRanger.png",
+      "Name": "Nullifier Crewman",
+      "Section": "Corpus"
+    },
+    "Trooper": {
+      "Image": "ShotgunLancerAvatar.png",
+      "Name": "Trooper",
+      "Section": "Grineer"
+    },
+    "Alpine Monitor Sawgaw": {
+      "Section": "Unaffiliated",
+      "Image": "SnowBirdUncommon.png",
+      "Name": "Alpine Monitor Sawgaw",
+      "Link": "Conservation"
+    },
+    "Amalgam Swarm Satyr": {
+      "Image": "AmalgamSwarmSatyr.png",
+      "Name": "Amalgam Swarm Satyr",
+      "Section": "Corpus"
+    },
+    "Panzer Vulpaphyla": {
+      "Section": "Unaffiliated",
+      "Image": "InfestedCritterC.png",
+      "Name": "Panzer Vulpaphyla",
+      "Link": "Conservation"
+    },
+    "Swarm Mutalist MOA": {
+      "Image": "NaniteInfestedMoa.png",
+      "Name": "Swarm Mutalist MOA",
+      "Section": "Infestation"
+    },
+    "Ghost Kuaka": {
+      "Section": "Unaffiliated",
+      "Image": "KuakaCommon.png",
+      "Name": "Ghost Kuaka",
+      "Link": "Conservation"
+    },
+    "Fog Scrambus": {
+      "Image": "FogScrambus.png",
+      "Name": "Fog Scrambus",
+      "Section": "Corpus"
+    },
+    "The Unseeing Herald": {
+      "Image": "TheUnseeingHerald.png",
+      "Name": "The Unseeing Herald",
+      "Section": "The Murmur"
+    },
+    "Elite Exo Cutter": {
+      "Image": "ExoCutterElite.png",
+      "Name": "Elite Exo Cutter",
+      "Section": "Grineer"
+    },
+    "White Velocipod": {
+      "Section": "Unaffiliated",
+      "Image": "WhiteVelocipod.png",
+      "Name": "White Velocipod",
+      "Link": "Conservation"
+    },
+    "Arbitration Shield Drone": {
+      "Image": "ArbiterDrone.png",
+      "Name": "Arbitration Shield Drone",
+      "Section": "Unaffiliated"
+    },
+    "Tusk Flameblade Eximus": {
+      "Image": "EidolonBlowtorchSawman.png",
+      "Name": "Tusk Flameblade Eximus",
+      "Section": "Grineer"
+    },
+    "Cannon Battery": {
+      "Image": "CannonBatteryCorpus.png",
+      "Name": "Cannon Battery",
+      "Section": "Corpus"
+    },
+    "Taro Nullifier Crewman": {
+      "Image": "TaroNullifierCrewman.png",
+      "Name": "Taro Nullifier Crewman",
+      "Section": "Corpus"
+    },
+    "Nemes Scout": {
+      "Image": "Nemes.png",
+      "Name": "Nemes Scout",
+      "Section": "Corpus"
+    },
+    "Drudge Foreman": {
+      "Image": "DrudgeForeman.png",
+      "Name": "Drudge Foreman",
+      "Section": "Grineer"
+    },
+    "Feral Diploid Eximus": {
+      "Image": "FeralDiploid.png",
+      "Name": "Feral Diploid Eximus",
+      "Section": "Infestation"
+    },
+    "Axio Detron Crewman": {
+      "Image": "AxioDetronCrewman.png",
+      "Name": "Axio Detron Crewman",
+      "Section": "Corpus"
+    },
+    "Optio": {
+      "Image": "Optio.png",
+      "Name": "Optio",
+      "Section": "Corpus"
+    },
+    "Demolisher Charger": {
+      "Image": "DemolisherCharger.png",
+      "Name": "Demolisher Charger",
+      "Section": "Infestation"
+    },
+    "Shuffling Fragment Eximus": {
+      "Image": "ShufflingFragment.png",
+      "Name": "Shuffling Fragment Eximus",
+      "Section": "The Murmur"
+    },
+    "Mordda Turret": {
+      "Image": "EidolonAutoMortarTurret.png",
+      "Name": "Mordda Turret",
+      "Section": "Grineer"
+    },
+    "Scaldra Jaeger": {
+      "Image": "LasrianLancer.png",
+      "Name": "Scaldra Jaeger",
+      "Section": "Scaldra"
+    },
+    "Brachiolyst": {
+      "Image": "Brachiolyst.png",
+      "Name": "Brachiolyst",
+      "Section": "Sentient"
+    },
+    "Icemire Hyena (2)": {
+      "Caption": "Deepmines",
+      "Image": "IcemireHyena.png",
+      "Name": "Icemire Hyena",
+      "Section": "Corpus"
+    },
+    "Bailiff": {
+      "Image": "GrineerCrusher.png",
+      "Name": "Bailiff",
+      "Section": "Grineer"
+    },
+    "Pyr Captain": {
+      "Image": "PyrCaptain.png",
+      "Name": "Pyr Captain",
+      "Section": "Grineer"
+    },
+    "Feral Diploid Rex": {
+      "Image": "FeralDiploidRex.png",
+      "Name": "Feral Diploid Rex",
+      "Section": "Infestation"
+    },
+    "Viscid Avichaea": {
+      "Section": "Unaffiliated",
+      "Image": "ViscidAvichaea.png",
+      "Name": "Viscid Avichaea",
+      "Link": "Conservation"
+    },
+    "Vapos Crewman": {
+      "Image": "VaposCrewman.png",
+      "Name": "Vapos Crewman",
+      "Section": "Corpus"
+    },
+    "Vorac Gox": {
+      "Image": "VoracGox.png",
+      "Name": "Vorac Gox",
+      "Section": "Corpus"
+    },
+    "Vapos Condor Elite Dropship": {
+      "Image": "DropshipHunterElite.png",
+      "Name": "Vapos Condor Elite Dropship",
+      "Section": "Corpus"
+    },
+    "Vapos Prod Crewman": {
+      "Image": "VaposProdCrewman.png",
+      "Name": "Vapos Prod Crewman",
+      "Section": "Corpus"
+    },
+    "Vaporous Undazoa": {
+      "Section": "Unaffiliated",
+      "Image": "VaporousUndazoa.png",
+      "Name": "Vaporous Undazoa",
+      "Link": "Conservation"
+    },
+    "Tusk Dargyn": {
+      "Image": "GrnSkiff.png",
+      "Name": "Tusk Dargyn",
+      "Section": "Grineer"
+    },
+    "Sapping Osprey": {
+      "Image": "DiscOsprey.png",
+      "Name": "Sapping Osprey",
+      "Section": "Corpus"
+    },
+    "Eviscerator": {
+      "Image": "EliteShotgunLancerAvatar.png",
+      "Name": "Eviscerator",
+      "Section": "Grineer"
+    },
+    "Anarch Libritor Eximus": {
+      "Image": "AnarchLibritor.png",
+      "Name": "Anarch Libritor Eximus",
+      "Section": "Anarchs"
+    },
+    "Kuva Elite Lancer": {
+      "Image": "FortressEliteRifleLancer.png",
+      "Name": "Kuva Elite Lancer",
+      "Section": "Grineer"
+    },
+    "Drekar Butcher": {
+      "Image": "SeaLabButcher.png",
+      "Name": "Drekar Butcher",
+      "Section": "Grineer"
+    },
+    "Elite Axio Harpi": {
+      "Image": "AxioHarpiElite.png",
+      "Name": "Elite Axio Harpi",
+      "Section": "Corpus"
+    },
+    "Executioner Dok Thul": {
+      "Image": "GrineerHealer.png",
+      "Name": "Executioner Dok Thul",
+      "Section": "Grineer"
+    },
+    "Zeplen": {
+      "Image": "GrnMissilePlatform.png",
+      "Name": "Zeplen",
+      "Section": "Grineer"
+    },
+    "Exo Flak": {
+      "Image": "ExoFlak.png",
+      "Name": "Exo Flak",
+      "Section": "Grineer"
+    },
+    "Scaldra Harbinger": {
+      "Image": "LasrianDrone.png",
+      "Name": "Scaldra Harbinger",
+      "Section": "Scaldra"
+    },
+    "Chroma": {
+      "Section": "Infestation",
+      "Image": "Infested-Chroma.png",
+      "Name": "Chroma",
+      "Link": "Infested Chroma"
+    },
+    "Corpus Warden Eximus": {
+      "Image": "DECorpusWarden.png",
+      "Name": "Corpus Warden Eximus",
+      "Section": "Corpus"
+    },
+    "Executioner Vay Molta": {
+      "Image": "GrineerHellion.png",
+      "Name": "Executioner Vay Molta",
+      "Section": "Grineer"
+    },
+    "Corrupted MOA": {
+      "Image": "OrokinMoaBipedAvatar.png",
+      "Name": "Corrupted MOA",
+      "Section": "Orokin"
+    },
+    "Juno Slo Comba": {
+      "Image": "JunoSloComba.png",
+      "Name": "Juno Slo Comba",
+      "Section": "Corpus"
+    },
+    "Nullifier Target": {
+      "Image": "CorpusCaptureTarget.png",
+      "Name": "Nullifier Target",
+      "Section": "Corpus"
+    },
+    "Ghoul Auger": {
+      "Image": "GhoulDrillSergeant.png",
+      "Name": "Ghoul Auger",
+      "Section": "Grineer"
+    },
+    "Exo Outrider": {
+      "Image": "ExoOutrider.png",
+      "Name": "Exo Outrider",
+      "Section": "Grineer"
+    },
+    "Flossy Sawgaw": {
+      "Section": "Unaffiliated",
+      "Image": "SnowBirdCommon.png",
+      "Name": "Flossy Sawgaw",
+      "Link": "Conservation"
+    },
+    "Terra Manker Eximus": {
+      "Image": "TerraManker.png",
+      "Name": "Terra Manker Eximus",
+      "Section": "Corpus"
+    },
+    "Orm Detron Crewman": {
+      "Image": "OrmDetronCrewman.png",
+      "Name": "Orm Detron Crewman",
+      "Section": "Corpus"
+    },
+    "Auditor": {
+      "Image": "CCTeamBRiotMoaAgent.png",
+      "Name": "Auditor",
+      "Section": "Corpus"
+    },
+    "Summulyst": {
+      "Image": "Summulyst.png",
+      "Name": "Summulyst",
+      "Section": "Sentient"
+    },
+    "Gyre Supressor": {
+      "Image": "GyreSupressor.png",
+      "Name": "Gyre Supressor",
+      "Section": "Grineer"
+    },
+    "Latrox Une": {
+      "Image": "CrewmanTech.png",
+      "Name": "Latrox Une",
+      "Section": "Corpus"
+    },
+    "Hellion Dargyn": {
+      "Image": "GrnSkiffMissile.png",
+      "Name": "Hellion Dargyn",
+      "Section": "Grineer"
+    },
+    "Syzygy Light Trencher": {
+      "Image": "NokkoInfMeleeHeavy.png",
+      "Name": "Syzygy Light Trencher",
+      "Section": "Other"
+    },
+    "Juno Dera MOA": {
+      "Image": "JunoDeraMOA.png",
+      "Name": "Juno Dera MOA",
+      "Section": "Corpus"
+    },
+    "Kuva Hyekka": {
+      "Image": "KuvaHyekka.png",
+      "Name": "Kuva Hyekka",
+      "Section": "Grineer"
+    },
+    "Scrofa Strike Director": {
+      "Image": "NokkoColonyVIPAvatarB.png",
+      "Name": "Scrofa Strike Director",
+      "Section": "Corpus"
+    },
+    "Deimos Leaper": {
+      "Image": "LeapingSuicideRunnerAvatar.png",
+      "Name": "Deimos Leaper",
+      "Section": "Infestation"
+    },
+    "Shield Lancer Eximus": {
+      "Image": "ShieldLancerAvatar.png",
+      "Name": "Shield Lancer Eximus",
+      "Section": "Grineer"
+    },
+    "Nullifier Crewman Eximus": {
+      "Image": "CrpNullRanger.png",
+      "Name": "Nullifier Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Juno Malleus Machinist Eximus": {
+      "Image": "JunoMalleusMachinist.png",
+      "Name": "Juno Malleus Machinist Eximus",
+      "Section": "Corpus"
+    },
+    "Scrofa Research Chief": {
+      "Image": "NokkoLabVIPAvatar.png",
+      "Name": "Scrofa Research Chief",
+      "Section": "Corpus"
+    },
+    "Toxic Ancient": {
+      "Image": "ToxicAncientAvatar.png",
+      "Name": "Toxic Ancient",
+      "Section": "Infestation"
+    },
+    "Prod Crewman Eximus": {
+      "Image": "CrewmanProd.png",
+      "Name": "Prod Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Orm Stropha Crewman": {
+      "Image": "OrmStrophaCrewman.png",
+      "Name": "Orm Stropha Crewman",
+      "Section": "Corpus"
+    },
+    "Amalgam Machinist Eximus": {
+      "Image": "AmalgamMachinist.png",
+      "Name": "Amalgam Machinist Eximus",
+      "Section": "Corpus"
+    },
+    "Kuva Hellion": {
+      "Image": "FortressJetpackMarine.png",
+      "Name": "Kuva Hellion",
+      "Section": "Grineer"
+    },
+    "Kosma Outrider": {
+      "Image": "KosmaOutrider.png",
+      "Name": "Kosma Outrider",
+      "Section": "Grineer"
+    },
+    "Kubrodon Incarnadine": {
+      "Section": "Unaffiliated",
+      "Image": "KubrodonRare.png",
+      "Name": "Kubrodon Incarnadine",
+      "Link": "Conservation"
+    },
+    "Councilor Vay Hek": {
+      "Image": "VayHekPortrait.png",
+      "Name": "Councilor Vay Hek",
+      "Section": "Grineer"
+    },
+    "Narmer Scorch": {
+      "Image": "NarmerFlameLancer.png",
+      "Name": "Narmer Scorch",
+      "Section": "Narmer"
+    },
+    "Axio Engineer": {
+      "Image": "AxioEngineer.png",
+      "Name": "Axio Engineer",
+      "Section": "Corpus"
+    },
+    "Corvette Eximus": {
+      "Image": "CrpShipFlak.png",
+      "Name": "Corvette Eximus",
+      "Section": "Corpus"
+    },
+    "Nightwatch Bailiff": {
+      "Image": "NightwatchCharger.png",
+      "Name": "Nightwatch Bailiff",
+      "Section": "Grineer"
+    },
+    "Plains Commander": {
+      "Image": "EidolonVipGrunt.png",
+      "Name": "Plains Commander",
+      "Section": "Grineer"
+    },
+    "Taro Basilisk": {
+      "Image": "TaroBasilisk.png",
+      "Name": "Taro Basilisk",
+      "Section": "Corpus"
+    },
+    "Detron Crewman": {
+      "Image": "CrewmanShotgun.png",
+      "Name": "Detron Crewman",
+      "Section": "Corpus"
+    },
+    "Drekar Seeker Eximus": {
+      "Image": "SeaLabHeavySeeker.png",
+      "Name": "Drekar Seeker Eximus",
+      "Section": "Grineer"
+    },
+    "Elite Orm Harpi": {
+      "Image": "OrmHarpiElite.png",
+      "Name": "Elite Orm Harpi",
+      "Section": "Corpus"
+    },
+    "Juno Crewman": {
+      "Image": "JunoCrewman.png",
+      "Name": "Juno Crewman",
+      "Section": "Corpus"
+    },
+    "Nul Comba": {
+      "Image": "NulComba.png",
+      "Name": "Nul Comba",
+      "Section": "Corpus"
+    },
+    "Eidolon Vomvalyst": {
+      "Image": "Vomvalyst.png",
+      "Name": "Eidolon Vomvalyst",
+      "Section": "Sentient"
+    },
+    "Tusk Heavy Gunner Eximus": {
+      "Image": "EidolonMinigunBombard.png",
+      "Name": "Tusk Heavy Gunner Eximus",
+      "Section": "Grineer"
+    },
+    "Kuva Guardian": {
+      "Image": "RoyalGuard.png",
+      "Name": "Kuva Guardian",
+      "Section": "Grineer"
+    },
+    "Juno Sap Comba Eximus": {
+      "Image": "JunoSapComba.png",
+      "Name": "Juno Sap Comba Eximus",
+      "Section": "Corpus"
+    },
+    "Vorac Disc MOA": {
+      "Image": "VoracDiscMOA.png",
+      "Name": "Vorac Disc MOA",
+      "Section": "Corpus"
+    },
+    "Scrofa Elite Crewman": {
+      "Image": "NokkoHeavyEliteSpaceman.png",
+      "Name": "Scrofa Elite Crewman",
+      "Section": "Corpus"
+    },
+    "Recon Commander": {
+      "Image": "EidolonVipSniper.png",
+      "Name": "Recon Commander",
+      "Section": "Grineer"
+    },
+    "Leech Osprey Eximus": {
+      "Image": "OspreyLeech.png",
+      "Name": "Leech Osprey Eximus",
+      "Section": "Corpus"
+    },
+    "Sniper Crewman": {
+      "Image": "CrewmanSniper.png",
+      "Name": "Sniper Crewman",
+      "Section": "Corpus"
+    },
+    "Pulsing Infested Hive": {
+      "Image": "InfestedHiveC.png",
+      "Name": "Pulsing Infested Hive",
+      "Section": "Infestation"
+    },
+    "Exo Gokstad Officer": {
+      "Image": "ExoGokstadOfficer.png",
+      "Name": "Exo Gokstad Officer",
+      "Section": "Grineer"
+    },
+    "Ancient Protector": {
+      "Image": "AncientProtector.png",
+      "Name": "Ancient Protector",
+      "Section": "Infestation"
+    },
+    "Fuming Dax Stover": {
+      "Section": "Unaffiliated",
+      "Image": "StoverUncommon.png",
+      "Name": "Fuming Dax Stover",
+      "Link": "Conservation"
+    },
+    "Mimic": {
+      "Image": "MimicSentient.png",
+      "Name": "Mimic",
+      "Section": "Sentient"
+    },
+    "Eidolon Hydrolyst": {
+      "Image": "TeralystRain.png",
+      "Name": "Eidolon Hydrolyst",
+      "Section": "Sentient"
+    },
+    "Sentinel Stover": {
+      "Section": "Unaffiliated",
+      "Image": "StoverCommon.png",
+      "Name": "Sentinel Stover",
+      "Link": "Conservation"
+    },
+    "Deimos Leaping Thrasher Eximus": {
+      "Image": "AncientTankMicroPlanetAvatar.png",
+      "Name": "Deimos Leaping Thrasher Eximus",
+      "Section": "Infestation"
+    },
+    "Ghoul Expired Deserter": {
+      "Section": "Other",
+      "Image": "GhoulRescueTarget.png",
+      "Name": "Ghoul Expired Deserter",
+      "Link": "Ghoul Expired"
+    },
+    "Corpus Power Carrier Beta": {
+      "Image": "CorpusPowerCarrierOrbVallis.png",
+      "Name": "Corpus Power Carrier",
+      "Link": "Power Carrier",
+      "Caption": "Terra",
+      "Section": "Corpus"
+    },
+    "Bailiff Eximus": {
+      "Image": "GrineerCrusher.png",
+      "Name": "Bailiff Eximus",
+      "Section": "Grineer"
+    },
+    "Vorac MOA": {
+      "Image": "VoracMOA.png",
+      "Name": "Vorac MOA",
+      "Section": "Corpus"
+    },
+    "Axio Basilisk": {
+      "Image": "AxioBasilisk.png",
+      "Name": "Axio Basilisk",
+      "Section": "Corpus"
+    },
+    "Lancer Survivor": {
+      "Image": "LancerDE.png",
+      "Name": "Lancer Survivor",
+      "Section": "Grineer"
+    },
+    "Crescent Vulpaphyla": {
+      "Section": "Unaffiliated",
+      "Image": "CrescentVulpaphyla.png",
+      "Name": "Crescent Vulpaphyla",
+      "Link": "Conservation"
+    },
+    "Shield Dargyn Eximus": {
+      "Image": "GrnSkiffShield.png",
+      "Name": "Shield Dargyn Eximus",
+      "Section": "Grineer"
+    },
+    "Amethyst Nexifera": {
+      "Section": "Unaffiliated",
+      "Image": "AmethystNexifera.png",
+      "Name": "Amethyst Nexifera",
+      "Link": "Conservation"
+    },
+    "Terra Provisor Eximus": {
+      "Image": "TerraProvisor.png",
+      "Name": "Terra Provisor Eximus",
+      "Section": "Corpus"
+    },
+    "Corpus Trencher Target": {
+      "Image": "CorpusTrencherTarget.png",
+      "Name": "Corpus Trencher Target",
+      "Section": "Corpus"
+    },
+    "Lockjaw & Sol": {
+      "Image": "CCTeamAZanukaAgent.png",
+      "Name": "Lockjaw & Sol",
+      "Section": "Corpus"
+    },
+    "Blite Captain": {
+      "Image": "BliteCaptain.png",
+      "Name": "Blite Captain",
+      "Section": "Grineer"
+    },
+    "Lancer Dreg Eximus": {
+      "Image": "GrnLaserDrone.png",
+      "Name": "Lancer Dreg Eximus",
+      "Section": "Grineer"
+    },
+    "Juno Disc MOA Eximus": {
+      "Image": "JunoDiscMOA.png",
+      "Name": "Juno Disc MOA Eximus",
+      "Section": "Corpus"
+    },
+    "Nova Specter": {
+      "Image": "NovaHelmet.png",
+      "Name": "Nova Specter",
+      "Faction": "Orokin"
+    },
+    "Corpus Tech": {
+      "Image": "CrewmanTech.png",
+      "Name": "Corpus Tech",
+      "Section": "Corpus"
+    },
+    "Shik Tal": {
+      "Image": "DeathSquadBlue.png",
+      "Name": "Shik Tal",
+      "Section": "Grineer"
+    },
+    "Amalgam Osprey": {
+      "Image": "AmalgamOsprey.png",
+      "Name": "Amalgam Osprey",
+      "Section": "Corpus"
+    },
+    "Raptor RV": {
+      "Image": "RaptorTwoLaser.png",
+      "Name": "Raptor RV",
+      "Section": "Corpus"
+    },
+    "Corpus Warden": {
+      "Image": "DECorpusWarden.png",
+      "Name": "Corpus Warden",
+      "Section": "Corpus"
+    },
+    "Desert Skate": {
+      "Image": "DesertSkateDE.png",
+      "Name": "Desert Skate",
+      "Section": "Unaffiliated"
+    },
+    "Toxic Ancient Eximus": {
+      "Image": "ToxicAncientAvatar.png",
+      "Name": "Toxic Ancient Eximus",
+      "Section": "Infestation"
+    },
+    "Kuva Roller Eximus": {
+      "Image": "RollingDroneAvatar.png",
+      "Name": "Kuva Roller Eximus",
+      "Section": "Grineer"
+    },
+    "Electric Crawler Eximus": {
+      "Image": "DEElectricCrawler.png",
+      "Name": "Electric Crawler Eximus",
+      "Section": "Infestation"
+    },
+    "Scrofa Decoy MOA": {
+      "Image": "NokkoSuicideBiped.png",
+      "Name": "Scrofa Decoy MOA",
+      "Section": "Corpus"
+    },
+    "Amalgam Machinist MOA Eximus": {
+      "Section": "Corpus",
+      "Image": "AmalgamMoa.png",
+      "Name": "Amalgam MOA Eximus",
+      "Link": "Amalgam MOA"
+    },
+    "Aurax Culveri MOA": {
+      "Image": "AuraxCulveriMOA.png",
+      "Name": "Aurax Culveri MOA",
+      "Section": "Corpus"
+    },
+    "Elite Axio Basilisk": {
+      "Image": "AxioBasiliskElite.png",
+      "Name": "Elite Axio Basilisk",
+      "Section": "Corpus"
+    },
+    "Anarch Arcus": {
+      "Image": "AnarchArcus.png",
+      "Name": "Anarch Arcus",
+      "Section": "Anarchs"
+    },
+    "Drekar Eviscerator": {
+      "Image": "SeaLabEviscerator.png",
+      "Name": "Drekar Eviscerator",
+      "Section": "Grineer"
+    },
+    "Vapos Nullifier Ranger": {
+      "Image": "VaposNullifierRanger.png",
+      "Name": "Vapos Nullifier Ranger",
+      "Section": "Corpus"
+    },
+    "Juno Nul Comba": {
+      "Image": "JunoNulComba.png",
+      "Name": "Juno Nul Comba",
+      "Section": "Corpus"
+    },
+    "Corrupted Bombard Eximus": {
+      "Image": "CorruptedBombardNew.png",
+      "Name": "Corrupted Bombard Eximus",
+      "Section": "Orokin"
+    },
+    "Vapos Tech": {
+      "Image": "VaposTech.png",
+      "Name": "Vapos Tech",
+      "Section": "Corpus"
+    },
+    "Deimos Juggernaut": {
+      "Image": "JuggernautMicroPlanetCasualAvatar.png",
+      "Name": "Deimos Juggernaut",
+      "Section": "Infestation"
+    },
+    "Deimos Ancient Healer": {
+      "Image": "HealingAncientMicroPlanetAvatar.png",
+      "Name": "Deimos Ancient Healer",
+      "Section": "Infestation"
+    },
+    "Frontier Eviscerator Eximus": {
+      "Image": "ForestEviscerator.png",
+      "Name": "Frontier Eviscerator Eximus",
+      "Section": "Grineer"
+    },
+    "Narmer Thumper Doma": {
+      "Image": "TuskThumperDoma.png",
+      "Name": "Narmer Thumper Doma",
+      "Section": "Narmer"
+    },
+    "Ogma": {
+      "Image": "GrnCombatPod.png",
+      "Name": "Ogma",
+      "Section": "Grineer"
+    },
+    "Viridian Nexifera": {
+      "Section": "Unaffiliated",
+      "Image": "ViridianNexifera.png",
+      "Name": "Viridian Nexifera",
+      "Link": "Conservation"
+    },
+    "Fusion MOA Eximus": {
+      "Image": "MoaFusion.png",
+      "Name": "Fusion MOA Eximus",
+      "Section": "Corpus"
+    },
+    "Elite Exo Flak": {
+      "Image": "ExoFlakElite.png",
+      "Name": "Elite Exo Flak",
+      "Section": "Grineer"
+    },
+    "Nightwatch Flameblade": {
+      "Image": "NightwatchFlameblade.png",
+      "Name": "Nightwatch Flameblade",
+      "Section": "Grineer"
+    },
+    "Drekar Butcher Eximus": {
+      "Image": "SeaLabButcher.png",
+      "Name": "Drekar Butcher Eximus",
+      "Section": "Grineer"
+    },
+    "Corrupted Crewman": {
+      "Image": "OrokinRifleSpacemanAvatar.png",
+      "Name": "Corrupted Crewman",
+      "Section": "Orokin"
+    },
+    "Kosma Raider Eviscerator": {
+      "Image": "KosmaRaiderEviscerator.png",
+      "Name": "Kosma Raider Eviscerator",
+      "Section": "Grineer"
+    },
+    "Green Velocipod": {
+      "Section": "Unaffiliated",
+      "Image": "GreenVelocipod.png",
+      "Name": "Green Velocipod",
+      "Link": "Conservation"
+    },
+    "Deimos Charger": {
+      "Image": "QuadrupedMicroPlanetAvatar.png",
+      "Name": "Deimos Charger",
+      "Section": "Infestation"
+    },
+    "Juno Slo Comba Eximus": {
+      "Image": "JunoSloComba.png",
+      "Name": "Juno Slo Comba Eximus",
+      "Section": "Corpus"
+    },
+    "Errant Specter": {
+      "Image": "ErrantSpecter.png",
+      "Name": "Errant Specter",
+      "Section": "Corpus"
+    },
+    "Juno Dera MOA Eximus": {
+      "Image": "JunoDeraMOA.png",
+      "Name": "Juno Dera MOA Eximus",
+      "Section": "Corpus"
+    },
+    "Scorch Eximus": {
+      "Image": "FlameLancerAvatar.png",
+      "Name": "Scorch Eximus",
+      "Section": "Grineer"
+    },
+    "Executioner Dhurnam": {
+      "Image": "GrineerHeavy.png",
+      "Name": "Executioner Dhurnam",
+      "Section": "Grineer"
+    },
+    "Vapos Sapping Osprey": {
+      "Image": "VaposSappingOsprey.png",
+      "Name": "Vapos Sapping Osprey",
+      "Section": "Corpus"
+    },
+    "Frontier Bailiff": {
+      "Image": "FrontierBailiff.png",
+      "Name": "Frontier Bailiff",
+      "Section": "Grineer"
+    },
+    "Ambulas": {
+      "Image": "CodexAmbulas.png",
+      "Name": "Ambulas",
+      "Section": "Corpus"
+    },
+    "Juno Glaxion MOA": {
+      "Image": "JunoGlaxionMOA.png",
+      "Name": "Juno Glaxion MOA",
+      "Section": "Corpus"
+    },
+    "Rupturing Fragment": {
+      "Image": "RupturingFragment.png",
+      "Name": "Rupturing Fragment",
+      "Section": "The Murmur"
+    },
+    "Vapos Prod Crewman Eximus": {
+      "Image": "VaposProdCrewman.png",
+      "Name": "Vapos Prod Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Corrupted MOA Eximus": {
+      "Image": "OrokinMoaBipedAvatar.png",
+      "Name": "Corrupted MOA Eximus",
+      "Section": "Orokin"
+    },
+    "Leaping Thrasher": {
+      "Image": "LeapingThrasher.png",
+      "Name": "Leaping Thrasher",
+      "Section": "Infestation"
+    },
+    "Black-Banded Bolarola": {
+      "Section": "Unaffiliated",
+      "Image": "BolarolaUncommon.png",
+      "Name": "Black-Banded Bolarola",
+      "Link": "Conservation"
+    },
+    "Frontier Bailiff Eximus": {
+      "Image": "FrontierBailiff.png",
+      "Name": "Frontier Bailiff Eximus",
+      "Section": "Grineer"
+    },
+    "Elite Taro Harpi": {
+      "Image": "TaroHarpiElite.png",
+      "Name": "Elite Taro Harpi",
+      "Section": "Corpus"
+    },
+    "Bau Vasca Kavat": {
+      "Section": "Unaffiliated",
+      "Image": "VascaKavatUncommon.png",
+      "Name": "Bau Vasca Kavat",
+      "Link": "Conservation"
+    },
+    "Kuva Napalm": {
+      "Image": "FortressIncendiaryBombard.png",
+      "Name": "Kuva Napalm",
+      "Section": "Grineer"
+    },
+    "Gyre Raider": {
+      "Image": "GyreRaider.png",
+      "Name": "Gyre Raider",
+      "Section": "Grineer"
+    },
+    "Demolyst": {
+      "Section": "Corpus",
+      "Image": "SpectralystAmalgamMachinist.png",
+      "Name": "Demolyst",
+      "Link": "Demolyst (Enemy)"
+    },
+    "Axio Crewship": {
+      "Image": "AxioCrewship.png",
+      "Name": "Axio Crewship",
+      "Section": "Corpus"
+    },
+    "Orm Weaver": {
+      "Image": "OrmWeaver.png",
+      "Name": "Orm Weaver",
+      "Section": "Corpus"
+    },
+    "Deimos Venin Mutalist Eximus": {
+      "Image": "InfestedAttackDroneMicroPlanetAvatar.png",
+      "Name": "Deimos Venin Mutalist Eximus",
+      "Section": "Infestation"
+    },
+    "Infested Oni": {
+      "Image": "AshenBigAvatar.png",
+      "Name": "Infested Oni",
+      "Section": "Infestation"
+    },
+    "Vorac Numon": {
+      "Image": "VoracNumon.png",
+      "Name": "Vorac Numon",
+      "Section": "Corpus"
+    },
+    "Dreg Eximus": {
+      "Image": "GrnDrone.png",
+      "Name": "Dreg Eximus",
+      "Section": "Grineer"
+    },
+    "Deimos Charger Eximus": {
+      "Image": "QuadrupedMicroPlanetAvatar.png",
+      "Name": "Deimos Charger Eximus",
+      "Section": "Infestation"
+    },
+    "Frontier Heavy Gunner": {
+      "Image": "ForestHeavyGunner.png",
+      "Name": "Frontier Heavy Gunner",
+      "Section": "Grineer"
+    },
+    "Mutalist Alad V": {
+      "Image": "InfestedAladV.png",
+      "Name": "Mutalist Alad V",
+      "Section": "Infestation"
+    },
+    "Gyre Gokstad Officer": {
+      "Image": "GyreGokstadOfficer.png",
+      "Name": "Gyre Gokstad Officer",
+      "Section": "Grineer"
+    },
+    "Regulator": {
+      "Image": "RegulatorDE.png",
+      "Name": "Regulator",
+      "Section": "Grineer"
+    },
+    "Clem": {
+      "Image": "ClemAvatar.png",
+      "Name": "Clem",
+      "Section": "Other"
+    },
+    "Basal Diploid": {
+      "Image": "BasalDiploid.png",
+      "Name": "Basal Diploid",
+      "Section": "Infestation"
+    },
+    "Jackal": {
+      "Image": "QuadJackal.png",
+      "Name": "Jackal",
+      "Section": "Corpus"
+    },
+    "Gyre Eviscerator": {
+      "Image": "GyreEviscerator.png",
+      "Name": "Gyre Eviscerator",
+      "Section": "Grineer"
+    },
+    "Crawler Eximus": {
+      "Image": "CrawlerAvatar.png",
+      "Name": "Crawler Eximus",
+      "Section": "Infestation"
+    },
+    "Shock Draga": {
+      "Image": "EelFrogLancer.png",
+      "Name": "Shock Draga",
+      "Section": "Grineer"
+    },
+    "Kosma Cutter": {
+      "Image": "KosmaCutter.png",
+      "Name": "Kosma Cutter",
+      "Section": "Grineer"
+    },
+    "Juno Geminex MOA": {
+      "Image": "JunoGeminexMOA.png",
+      "Name": "Juno Geminex MOA",
+      "Section": "Corpus"
+    },
+    "Caustic Cryptilex": {
+      "Section": "Unaffiliated",
+      "Image": "CausticCryptilex.png",
+      "Name": "Caustic Cryptilex",
+      "Link": "Conservation"
+    },
+    "Kuva Bombard Eximus": {
+      "Image": "FortressRocketBombard.png",
+      "Name": "Kuva Bombard Eximus",
+      "Section": "Grineer"
+    },
+    "Grineer Power Carrier": {
+      "Image": "PowercellLancer.png",
+      "Name": "Grineer Power Carrier",
+      "Section": "Grineer"
+    },
+    "Vapos Shield Osprey": {
+      "Image": "VaposShieldOsprey.png",
+      "Name": "Vapos Shield Osprey",
+      "Section": "Corpus"
+    },
+    "Eidolon Lure": {
+      "Image": "VomvalystLureDrone.png",
+      "Name": "Eidolon Lure",
+      "Section": "Grineer"
+    },
+    "Temporal Dreg": {
+      "Image": "GrnStasisDrone.png",
+      "Name": "Temporal Dreg",
+      "Section": "Grineer"
+    },
+    "Juno Shield Osprey Eximus": {
+      "Image": "JunoShieldOsprey.png",
+      "Name": "Juno Shield Osprey Eximus",
+      "Section": "Corpus"
+    },
+    "Boiler": {
+      "Image": "PussAncient.png",
+      "Name": "Boiler",
+      "Section": "Infestation"
+    },
+    "Executioner Zura": {
+      "Image": "GrineerBeastMaster.png",
+      "Name": "Executioner Zura",
+      "Section": "Grineer"
+    },
+    "Terra Elite Trencher": {
+      "Image": "TerraEliteTrencher.png",
+      "Name": "Terra Elite Trencher",
+      "Section": "Corpus"
+    },
+    "Vapos Detron Ranger": {
+      "Image": "VaposDetronRanger.png",
+      "Name": "Vapos Detron Ranger",
+      "Section": "Corpus"
+    },
+    "Deimos Mutalist Osprey Carrier": {
+      "Image": "CellCarrierDroneMicroPlanetAvatar.png",
+      "Name": "Deimos Mutalist Osprey Carrier",
+      "Section": "Infestation"
+    },
+    "Swarm Mutalist MOA Eximus": {
+      "Image": "NaniteInfestedMoa.png",
+      "Name": "Swarm Mutalist MOA Eximus",
+      "Section": "Infestation"
+    },
+    "Scavenger Drone Eximus": {
+      "Image": "OspreyScavenger.png",
+      "Name": "Scavenger Drone Eximus",
+      "Section": "Corpus"
+    },
+    "Protector Stalker": {
+      "Image": "ProtectorStalker.png",
+      "Name": "Protector Stalker",
+      "Section": "Stalker"
+    },
+    "Kuva Scorpion Eximus": {
+      "Image": "FortressMacheteWoman.png",
+      "Name": "Kuva Scorpion Eximus",
+      "Section": "Grineer"
+    },
+    "Rabbleback Hyena (2)": {
+      "Caption": "Deepmines",
+      "Image": "RabblebackHyena.png",
+      "Name": "Rabbleback Hyena",
+      "Section": "Corpus"
+    },
+    "Demolisher Machinist": {
+      "Image": "DemolisherMachinist.png",
+      "Name": "Demolisher Machinist",
+      "Section": "Corpus"
+    },
+    "Anarch Grineer Trapper Eximus": {
+      "Image": "AnarchGrineerTrapper.png",
+      "Name": "Anarch Grineer Trapper",
+      "Section": "Anarchs"
+    },
+    "Garv": {
+      "Image": "Garv.png",
+      "Name": "Garv",
+      "Section": "Grineer"
+    },
+    "Loki Specter": {
+      "Image": "LokiHelmet.png",
+      "Name": "Loki Specter",
+      "Section": "Orokin"
+    },
+    "Tusk Reaver": {
+      "Image": "EidolonJetpackMelee.png",
+      "Name": "Tusk Reaver",
+      "Section": "Grineer"
+    },
+    "Amalgam Satyr": {
+      "Image": "AmalgamSatyr.png",
+      "Name": "Amalgam Satyr",
+      "Section": "Corpus"
+    },
+    "Narmer Leech Osprey": {
+      "Image": "NarmerCorpusLeechDrone.png",
+      "Name": "Narmer Leech Osprey",
+      "Section": "Narmer"
+    },
+    "Gyre Outrider": {
+      "Image": "GyreOutrider.png",
+      "Name": "Gyre Outrider",
+      "Section": "Grineer"
+    },
+    "Terra Embattor MOA Eximus": {
+      "Image": "TerraEmbattorMOA.png",
+      "Name": "Terra Embattor MOA Eximus",
+      "Section": "Corpus"
+    },
+    "Amalgam Heqet Eximus": {
+      "Image": "AmalgamHeqet.png",
+      "Name": "Amalgam Heqet Eximus",
+      "Section": "Corpus"
+    },
+    "Syzygy Shockwave Moa": {
+      "Image": "NokkoInfRangedLight.png",
+      "Name": "Syzygy Shockwave Moa",
+      "Section": "Other"
+    },
+    "Shockwave MOA Eximus": {
+      "Image": "MoaShockwave.png",
+      "Name": "Shockwave MOA Eximus",
+      "Section": "Corpus"
+    },
+    "Hyekka": {
+      "Image": "CombatCatbrow.png",
+      "Name": "Hyekka",
+      "Section": "Grineer"
+    },
+    "Tusk Eviscerator": {
+      "Image": "EidolonEvisceratorLancer.png",
+      "Name": "Tusk Eviscerator",
+      "Section": "Grineer"
+    },
+    "Frozen Infested Hive": {
+      "Image": "InfestedHiveA.png",
+      "Name": "Frozen Infested Hive",
+      "Section": "Infestation"
+    },
+    "Taro Crewship": {
+      "Image": "TaroCrewship.png",
+      "Name": "Taro Crewship",
+      "Section": "Corpus"
+    },
+    "Narmer Prod Crewman": {
+      "Image": "NarmerCorpusMelee.png",
+      "Name": "Narmer Prod Crewman",
+      "Section": "Narmer"
+    },
+    "Symbilyst": {
+      "Image": "Symbilyst.png",
+      "Name": "Symbilyst",
+      "Section": "Sentient"
+    },
+    "Vapos Sniper Ranger": {
+      "Image": "VaposSniperRanger.png",
+      "Name": "Vapos Sniper Ranger",
+      "Section": "Corpus"
+    },
+    "Tusk Butcher": {
+      "Image": "EidolonBladeSawman.png",
+      "Name": "Tusk Butcher",
+      "Section": "Grineer"
+    },
+    "Burrowing Cryptilex": {
+      "Section": "Unaffiliated",
+      "Image": "BurrowingCryptilex.png",
+      "Name": "Burrowing Cryptilex",
+      "Link": "Conservation"
+    },
+    "Terra Elite Overtaker": {
+      "Image": "TerraEliteOvertaker.png",
+      "Name": "Terra Elite Overtaker",
+      "Section": "Corpus"
+    },
+    "Arcane Boiler": {
+      "Image": "ArcaneBoiler.png",
+      "Name": "Arcane Boiler",
+      "Section": "Infestation"
+    },
+    "Delicate Pobber": {
+      "Section": "Unaffiliated",
+      "Image": "PobberUncommon.png",
+      "Name": "Delicate Pobber",
+      "Link": "Conservation"
+    },
+    "Rogue Condroc": {
+      "Section": "Unaffiliated",
+      "Image": "CondrocUncommon.png",
+      "Name": "Rogue Condroc",
+      "Link": "Conservation"
+    },
+    "Grineer Manic": {
+      "Image": "GrineerManic.png",
+      "Name": "Grineer Manic",
+      "Section": "Grineer"
+    },
+    "Dreg": {
+      "Image": "GrnDrone.png",
+      "Name": "Dreg",
+      "Section": "Grineer"
+    },
+    "Vapos Oxium Osprey": {
+      "Image": "VaposOxiumOsprey.png",
+      "Name": "Vapos Oxium Osprey",
+      "Section": "Corpus"
+    },
+    "Narmer Sniper Crewman": {
+      "Image": "NarmerCorpusSniper.png",
+      "Name": "Narmer Sniper Crewman",
+      "Section": "Narmer"
+    },
+    "Ghoul Auger Alpha": {
+      "Image": "GhoulDrillSergeantVip.png",
+      "Name": "Ghoul Auger Alpha",
+      "Section": "Grineer"
+    },
+    "Mitosidus MOA Eximus": {
+      "Section": "Corpus",
+      "Image": "MOADE.png",
+      "Name": "MOA Eximus",
+      "Link": "MOA"
+    },
+    "Tusk Shield Lancer Eximus": {
+      "Image": "EidolonShieldLancer.png",
+      "Name": "Tusk Shield Lancer Eximus",
+      "Section": "Grineer"
+    },
+    "Scrofa Mite Raknoid": {
+      "Image": "NokkoArachnoidMicro.png",
+      "Name": "Scrofa Mite Raknoid",
+      "Section": "Corpus"
+    },
+    "Quanta Ranger": {
+      "Image": "JetpackCrewmamQuanta.png",
+      "Name": "Quanta Ranger",
+      "Section": "Corpus"
+    },
+    "Thorny Bolarola": {
+      "Section": "Unaffiliated",
+      "Image": "BolarolaRare.png",
+      "Name": "Thorny Bolarola",
+      "Link": "Conservation"
+    },
+    "Darek Draga": {
+      "Image": "SquidFrogLancer.png",
+      "Name": "Darek Draga",
+      "Section": "Grineer"
+    },
+    "Alad V": {
+      "Image": "AladVPortrait_d.png",
+      "Name": "Alad V",
+      "Section": "Corpus"
+    },
+    "Fire-Veined Stover": {
+      "Section": "Unaffiliated",
+      "Image": "StoverRare.png",
+      "Name": "Fire-Veined Stover",
+      "Link": "Conservation"
+    },
+    "Medjay Predasite": {
+      "Section": "Unaffiliated",
+      "Image": "InfestedPredatorA.png",
+      "Name": "Medjay Predasite",
+      "Link": "Conservation"
+    },
+    "Kuva Lancer Eximus": {
+      "Image": "FortressRifleLancer.png",
+      "Name": "Kuva Lancer Eximus",
+      "Section": "Grineer"
+    },
+    "Security Infested Hive": {
+      "Image": "InfestedHiveF.png",
+      "Name": "Security Infested Hive",
+      "Section": "Infestation"
+    },
+    "Taro Pilot": {
+      "Image": "TaroPilot.png",
+      "Name": "Taro Pilot",
+      "Section": "Corpus"
+    },
+    "Narmer Condor Dropship": {
+      "Image": "NarmerVenusDropship.png",
+      "Name": "Narmer Condor Dropship",
+      "Section": "Narmer"
+    },
+    "Charger Eximus": {
+      "Image": "QuadrupedAvatar.png",
+      "Name": "Charger Eximus",
+      "Section": "Infestation"
+    },
+    "Rogue Bonewidow Eximus": {
+      "Image": "Bonewidow.png",
+      "Name": "Rogue Bonewidow Eximus",
+      "Section": "The Murmur"
+    },
+    "Vruush Turret": {
+      "Image": "EidolonAutoRocketTurret.png",
+      "Name": "Vruush Turret",
+      "Section": "Grineer"
+    },
+    "Gyrix": {
+      "Image": "Gyrix.png",
+      "Name": "Gyrix",
+      "Section": "Sentient"
+    },
+    "Scrofa Laser Moa": {
+      "Image": "NokkoLaserCannonBiped.png",
+      "Name": "Scrofa Laser Moa",
+      "Section": "Corpus"
+    },
+    "Condor Dropship": {
+      "Image": "CodexCondorDropship.png",
+      "Name": "Condor Dropship",
+      "Section": "Corpus"
+    },
+    "Amalgam Satyr Eximus": {
+      "Image": "AmalgamSatyr.png",
+      "Name": "Amalgam Satyr Eximus",
+      "Section": "Corpus"
+    },
+    "Dusky-Headed Virmink": {
+      "Section": "Unaffiliated",
+      "Image": "VirminkUncommon.png",
+      "Name": "Dusky-Headed Virmink",
+      "Link": "Conservation"
+    },
+    "Kosma Eviscerator": {
+      "Image": "KosmaEviscerator.png",
+      "Name": "Kosma Eviscerator",
+      "Section": "Grineer"
+    },
+    "Red-Crested Virmink": {
+      "Section": "Unaffiliated",
+      "Image": "VirminkRare.png",
+      "Name": "Red-Crested Virmink",
+      "Link": "Conservation"
+    },
+    "Frontier Hellion": {
+      "Image": "ForestHellion.png",
+      "Name": "Frontier Hellion",
+      "Section": "Grineer"
+    },
+    "Sniper Crewman Eximus": {
+      "Image": "CrewmanSniper.png",
+      "Name": "Sniper Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Frontier Regulator": {
+      "Image": "ForestRegulator.png",
+      "Name": "Frontier Regulator",
+      "Section": "Grineer"
+    },
+    "Tyl Regor": {
+      "Image": "TylRegor.png",
+      "Name": "Tyl Regor",
+      "Section": "Grineer"
+    },
+    "Executioner Nok": {
+      "Image": "GrineerGrunt.png",
+      "Name": "Executioner Nok",
+      "Section": "Grineer"
+    },
+    "Scrofa Laser Moa Eximus": {
+      "Image": "NokkoLaserCannonBiped.png",
+      "Name": "Scrofa Laser Moa Eximus",
+      "Section": "Corpus"
+    },
+    "Specter Particles": {
+      "Image": "SpecterParticles.png",
+      "Name": "Specter Particles",
+      "Section": "Corpus"
+    },
+    "Valkyr Specter": {
+      "Image": "ValkyrHelmet.png",
+      "Name": "Valkyr Specter",
+      "Section": "Orokin"
+    },
+    "Anti MOA": {
+      "Image": "DEAntiMoa.png",
+      "Name": "Anti MOA",
+      "Section": "Corpus"
+    },
+    "Axio Shockwave MOA": {
+      "Image": "AxioShockwaveMOA.png",
+      "Name": "Axio Shockwave MOA",
+      "Section": "Corpus"
+    },
+    "Kuva Butcher Eximus": {
+      "Image": "FortressBladeSawman.png",
+      "Name": "Kuva Butcher Eximus",
+      "Section": "Grineer"
+    },
+    "Narmer Scorpion": {
+      "Image": "NarmerMacheteWoman.png",
+      "Name": "Narmer Scorpion",
+      "Section": "Narmer"
+    },
+    "Kuva Bombard": {
+      "Image": "FortressRocketBombard.png",
+      "Name": "Kuva Bombard",
+      "Section": "Grineer"
+    },
+    "Exo Roller Sentry": {
+      "Image": "ExoRollerSentry.png",
+      "Name": "Exo Roller Sentry",
+      "Section": "Grineer"
+    },
+    "Mitosid Rex": {
+      "Image": "MitosidRex.png",
+      "Name": "Mitosid Rex",
+      "Section": "Infestation"
+    },
+    "Tusk Seeker": {
+      "Image": "EidolonGrineerMarinePistol.png",
+      "Name": "Tusk Seeker",
+      "Section": "Grineer"
+    },
+    "Slo Comba": {
+      "Image": "SloComba.png",
+      "Name": "Slo Comba",
+      "Section": "Corpus"
+    },
+    "Drekar Seeker": {
+      "Image": "SeaLabHeavySeeker.png",
+      "Name": "Drekar Seeker",
+      "Section": "Grineer"
+    },
+    "Vorac Shockwave MOA": {
+      "Image": "VoracShockwaveMOA.png",
+      "Name": "Vorac Shockwave MOA",
+      "Section": "Corpus"
+    },
+    "Deimos Jugulus": {
+      "Image": "BoneBladeAvatar.png",
+      "Name": "Deimos Jugulus",
+      "Section": "Infestation"
+    },
+    "Scrofa Light Trencher Eximus": {
+      "Image": "NokkoMeleeLight.png",
+      "Name": "Scrofa Light Trencher Eximus",
+      "Section": "Corpus"
+    },
+    "Lobber Crawler": {
+      "Image": "GrenadeAvatar.png",
+      "Name": "Lobber Crawler",
+      "Section": "Infestation"
+    },
+    "The Hollow Vein": {
+      "Image": "TheHollowVein.png",
+      "Name": "The Hollow Vein",
+      "Section": "The Murmur"
+    },
+    "Gyre Butcher": {
+      "Image": "GyreButcher.png",
+      "Name": "Gyre Butcher",
+      "Section": "Grineer"
+    },
+    "Anarch Gladius Eximus": {
+      "Image": "AnarchGladius.png",
+      "Name": "Anarch Gladius Eximus",
+      "Section": "Anarchs"
+    },
+    "Orbital Strike Drone": {
+      "Image": "VayHekStrikeDrone.png",
+      "Name": "Orbital Strike Drone",
+      "Section": "Grineer"
+    },
+    "Vorac Basilisk": {
+      "Image": "VoracBasilisk.png",
+      "Name": "Vorac Basilisk",
+      "Section": "Corpus"
+    },
+    "Detron Crewman Eximus": {
+      "Image": "CrewmanShotgun.png",
+      "Name": "Detron Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Anarch Libritor": {
+      "Image": "AnarchLibritor.png",
+      "Name": "Anarch Libritor",
+      "Section": "Anarchs"
+    },
+    "Aurax Polaris MOA": {
+      "Image": "AuraxPolarisMOA.png",
+      "Name": "Aurax Polaris MOA",
+      "Section": "Corpus"
+    },
+    "Nauseous Crawler": {
+      "Image": "GraspingCrawlerAvatar.png",
+      "Name": "Nauseous Crawler",
+      "Section": "Infestation"
+    },
+    "Anarch Grineer Lancer Eximus": {
+      "Image": "AnarchGrineerLancer.png",
+      "Name": "Anarch Grineer Lancer Eximus",
+      "Section": "Anarchs"
+    },
+    "Splendid Mergoo": {
+      "Section": "Unaffiliated",
+      "Image": "MergooRare.png",
+      "Name": "Splendid Mergoo",
+      "Link": "Conservation"
+    },
+    "Deimos Saxum Eximus": {
+      "Image": "InfestedFemurAvatar.png",
+      "Name": "Deimos Saxum Eximus",
+      "Section": "Infestation"
+    },
+    "Kuva Hellion Eximus": {
+      "Image": "FortressJetpackMarine.png",
+      "Name": "Kuva Hellion Eximus",
+      "Section": "Grineer"
+    },
+    "Cinderthresh Hyena (2)": {
+      "Caption": "Deepmines",
+      "Image": "CinderthreshHyena.png",
+      "Name": "Cinderthresh Hyena",
+      "Section": "Corpus"
+    },
+    "Elite Crewman": {
+      "Image": "CrewmanElite.png",
+      "Name": "Elite Crewman",
+      "Section": "Corpus"
+    },
+    "Butcher": {
+      "Image": "ButcherDE.png",
+      "Name": "Butcher",
+      "Section": "Grineer"
+    },
+    "Drekar Hellion Eximus": {
+      "Image": "SeaLabHellion.png",
+      "Name": "Drekar Hellion Eximus",
+      "Section": "Grineer"
+    },
+    "Ratel": {
+      "Image": "CodexRatel.png",
+      "Name": "Ratel",
+      "Section": "Corpus"
+    },
+    "Ancient Protector Eximus": {
+      "Image": "AncientProtector.png",
+      "Name": "Ancient Protector Eximus",
+      "Section": "Infestation"
+    },
+    "Tusk Bombard Eximus": {
+      "Image": "EidolonRocketBombard.png",
+      "Name": "Tusk Bombard Eximus",
+      "Section": "Grineer"
+    },
+    "Corrupted Bombard": {
+      "Image": "CorruptedBombardNew.png",
+      "Name": "Corrupted Bombard",
+      "Section": "Orokin"
+    },
+    "Pharaoh Predasite": {
+      "Section": "Unaffiliated",
+      "Image": "InfestedPredatorB.png",
+      "Name": "Pharaoh Predasite",
+      "Link": "Conservation"
+    },
+    "Kavor Defector 3": {
+      "Image": "CodexKavorDefector3.png",
+      "Name": "Kavor Defector",
+      "Section": "Grineer"
+    },
+    "Amalgam Kucumatz": {
+      "Image": "AmalgamKucumatz.png",
+      "Name": "Amalgam Kucumatz",
+      "Section": "Corpus"
+    },
+    "Rhino Specter": {
+      "Image": "RhinoHelmet.png",
+      "Name": "Rhino Specter",
+      "Section": "Orokin"
+    },
+    "Deimos Carnis": {
+      "Image": "AshenAvatar.png",
+      "Name": "Deimos Carnis",
+      "Section": "Infestation"
+    },
+    "Exo Butcher": {
+      "Image": "ExoButcher.png",
+      "Name": "Exo Butcher",
+      "Section": "Grineer"
+    },
+    "Drekar Hellion": {
+      "Image": "SeaLabHellion.png",
+      "Name": "Drekar Hellion",
+      "Section": "Grineer"
+    },
+    "Juno Malleus Machinist": {
+      "Image": "JunoMalleusMachinist.png",
+      "Name": "Juno Malleus Machinist",
+      "Section": "Corpus"
+    },
+    "Amalgam Phase Moa": {
+      "Image": "AmalgamPhaseMoa.png",
+      "Name": "Amalgam Phase Moa",
+      "Section": "Corpus"
+    },
+    "Juno Sniper Crewman": {
+      "Image": "JunoSniperCrewman.png",
+      "Name": "Juno Sniper Crewman",
+      "Section": "Corpus"
+    },
+    "Elite Vorac Harpi": {
+      "Image": "VoracHarpiElite.png",
+      "Name": "Elite Vorac Harpi",
+      "Section": "Corpus"
+    },
+    "Electric Crawler": {
+      "Image": "DEElectricCrawler.png",
+      "Name": "Electric Crawler",
+      "Section": "Infestation"
+    },
+    "Vapos Detron Crewman Eximus": {
+      "Image": "VaposDetronCrewman.png",
+      "Name": "Vapos Detron Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Kuva Dargyn": {
+      "Image": "GrnSkiffMissile.png",
+      "Name": "Kuva Dargyn",
+      "Section": "Grineer"
+    },
+    "Hellion Power Carrier": {
+      "Image": "HellionDE.png",
+      "Name": "Hellion Power Carrier",
+      "Section": "Grineer"
+    },
+    "Corrupted Nullifier Eximus": {
+      "Image": "OrokinNullifySpaceman.png",
+      "Name": "Corrupted Nullifier Eximus",
+      "Section": "Orokin"
+    },
+    "Kuva Bailiff": {
+      "Image": "KuvaBailiff.png",
+      "Name": "Kuva Bailiff",
+      "Section": "Grineer"
+    },
+    "Ghoul Rictus": {
+      "Image": "GhoulSawman.png",
+      "Name": "Ghoul Rictus",
+      "Section": "Grineer"
+    },
+    "Deimos Jugulus Eximus": {
+      "Image": "BoneBladeAvatar.png",
+      "Name": "Deimos Jugulus Eximus",
+      "Section": "Infestation"
+    },
+    "Rogue Culverin": {
+      "Image": "RogueCulverin.png",
+      "Name": "Rogue Culverin",
+      "Section": "The Murmur"
+    },
+    "Scrofa Lythrum Raknoid": {
+      "Image": "NokkoArachnoidHunger.png",
+      "Name": "Scrofa Lythrum Raknoid",
+      "Section": "Corpus"
+    },
+    "Tusk Thumper": {
+      "Image": "TuskThumper.png",
+      "Name": "Tusk Thumper",
+      "Section": "Grineer"
+    },
+    "Narmer Heavy Gunner": {
+      "Image": "NarmerMinigunBombard.png",
+      "Name": "Narmer Heavy Gunner",
+      "Section": "Narmer"
+    },
+    "Kuva Lancer": {
+      "Image": "FortressRifleLancer.png",
+      "Name": "Kuva Lancer",
+      "Section": "Grineer"
+    },
+    "Juno Tech Eximus": {
+      "Image": "JunoTech.png",
+      "Name": "Juno Tech Eximus",
+      "Section": "Corpus"
+    },
+    "Hyekka Master": {
+      "Image": "CatMaster.png",
+      "Name": "Hyekka Master",
+      "Section": "Grineer"
+    },
+    "Penta Ranger Eximus": {
+      "Image": "JetpackCrewmanPenta.png",
+      "Name": "Penta Ranger Eximus",
+      "Section": "Corpus"
+    },
+    "Narmer Powerfist": {
+      "Image": "NarmerPistonSawman.png",
+      "Name": "Narmer Powerfist",
+      "Section": "Narmer"
+    },
+    "Juno Jactus Osprey": {
+      "Image": "JunoJactusOsprey.png",
+      "Name": "Juno Jactus Osprey",
+      "Section": "Corpus"
+    },
+    "Drekar Trooper Eximus": {
+      "Image": "SeaLabTrooper.png",
+      "Name": "Drekar Trooper Eximus",
+      "Section": "Grineer"
+    },
+    "Seeker": {
+      "Image": "GrineerMarinePistolAvatar.png",
+      "Name": "Seeker",
+      "Section": "Grineer"
+    },
+    "Hyena NG": {
+      "Image": "DEHyenaNg.png",
+      "Name": "Hyena NG",
+      "Section": "Corpus"
+    },
+    "Ancient Healer Eximus": {
+      "Image": "HealingAncientAvatar.png",
+      "Name": "Ancient Healer Eximus",
+      "Section": "Infestation"
+    },
+    "Frontier Trooper": {
+      "Image": "Frontier_Trooper.png",
+      "Name": "Frontier Trooper",
+      "Section": "Grineer"
+    },
+    "Juno Jactus Osprey Eximus": {
+      "Image": "JunoJactusOsprey.png",
+      "Name": "Juno Jactus Osprey Eximus",
+      "Section": "Corpus"
+    },
+    "Septic Cryptilex": {
+      "Section": "Unaffiliated",
+      "Image": "SepticCryptilex.png",
+      "Name": "Septic Cryptilex",
+      "Link": "Conservation"
+    },
+    "Remech Osprey": {
+      "Image": "CodexRemechOsprey.png",
+      "Name": "Remech Osprey",
+      "Section": "Corpus"
+    },
+    "Terra Shockwave MOA": {
+      "Image": "TerraShockwaveMOA.png",
+      "Name": "Terra Shockwave MOA",
+      "Section": "Corpus"
+    },
+    "Demolisher Heavy Gunner": {
+      "Image": "DemolisherHeavyGunner.png",
+      "Name": "Demolisher Heavy Gunner",
+      "Section": "Grineer"
+    },
+    "Scrofa Legionary": {
+      "Image": "NokkoLabMeleeHeavy.png",
+      "Name": "Scrofa Legionary",
+      "Section": "Corpus"
+    },
+    "Commandeered Mesa Prime": {
+      "Image": "MesaPrime_Thumb.png",
+      "Name": "Commandeered Mesa Prime",
+      "Section": "Anarchs"
+    },
+    "Drekar Ballista Eximus": {
+      "Image": "SeaLabBallista.png",
+      "Name": "Drekar Ballista Eximus",
+      "Section": "Grineer"
+    },
+    "Orm Crewship": {
+      "Image": "OrmCrewship.png",
+      "Name": "Orm Crewship",
+      "Section": "Corpus"
+    },
+    "Drekar Manic": {
+      "Image": "SeaLabManic.png",
+      "Name": "Drekar Manic",
+      "Section": "Grineer"
+    },
+    "Scorpion Eximus": {
+      "Image": "ScorpionDE.png",
+      "Name": "Scorpion Eximus",
+      "Section": "Grineer"
+    },
+    "Juggernaut": {
+      "Image": "Juggernaut.png",
+      "Name": "Juggernaut",
+      "Section": "Infestation"
+    },
+    "Deimos Venin Mutalist": {
+      "Image": "InfestedAttackDroneMicroPlanetAvatar.png",
+      "Name": "Deimos Venin Mutalist",
+      "Section": "Infestation"
+    },
+    "Scorch": {
+      "Image": "FlameLancerAvatar.png",
+      "Name": "Scorch",
+      "Section": "Grineer"
+    },
+    "Kela De Thaym": {
+      "Image": "KelaDeThaym.png",
+      "Name": "Kela De Thaym",
+      "Section": "Grineer"
+    },
+    "Violence": {
+      "Image": "DuellistAcolyte.png",
+      "Name": "Violence",
+      "Section": "Stalker"
+    },
+    "Demolisher Devourer": {
+      "Image": "DemolisherDevourer.png",
+      "Name": "Demolisher Devourer",
+      "Section": "Grineer"
+    },
+    "Syzygy Light Trencher Eximus": {
+      "Image": "NokkoInfMeleeHeavy.png",
+      "Name": "Syzygy Light Trencher Eximus",
+      "Section": "Other"
+    },
+    "Scaldra TI-92": {
+      "Image": "LasrianAPC.png",
+      "Name": "Scaldra TI-92",
+      "Section": "Scaldra"
+    },
+    "Axio Railgun MOA": {
+      "Image": "AxioRailgunMOA.png",
+      "Name": "Axio Railgun MOA",
+      "Section": "Corpus"
+    },
+    "Drover Bursa": {
+      "Image": "RiotMoaControl.png",
+      "Name": "Drover Bursa",
+      "Section": "Corpus"
+    },
+    "Demolisher Voidrig": {
+      "Image": "Voidrig.png",
+      "Name": "Demolisher Voidrig",
+      "Section": "The Murmur"
+    },
+    "Tusk Bombard": {
+      "Image": "EidolonRocketBombard.png",
+      "Name": "Tusk Bombard",
+      "Section": "Grineer"
+    },
+    "Kavat": {
+      "Section": "Unaffiliated",
+      "Image": "FeralCatbrow.png",
+      "Name": "Kavat",
+      "Link": "Feral Kavat"
+    },
+    "Demolisher Bursa": {
+      "Image": "DemolisherBursa.png",
+      "Name": "Demolisher Bursa",
+      "Section": "Corpus"
+    },
+    "Corrupted Ancient Eximus": {
+      "Image": "OrokinHealingAncientAvatar.png",
+      "Name": "Corrupted Ancient Eximus",
+      "Section": "Orokin"
+    },
+    "Orm Basilisk": {
+      "Image": "OrmBasilisk.png",
+      "Name": "Orm Basilisk",
+      "Section": "Corpus"
+    },
+    "Syzygy Attack Drone": {
+      "Image": "NokkoInfFlyingAttack.png",
+      "Name": "Syzygy Attack Drone",
+      "Section": "Other"
+    },
+    "Gyre Flak": {
+      "Image": "GyreFlak.png",
+      "Name": "Gyre Flak",
+      "Section": "Grineer"
+    },
+    "Techrot Skuzzi": {
+      "Image": "InfestedMutalist.png",
+      "Name": "Techrot Skuzzi",
+      "Section": "Techrot"
+    },
+    "Corrupted Warden": {
+      "Image": "OrokinHeavyFemaleAvatar.png",
+      "Name": "Corrupted Warden",
+      "Section": "Orokin"
+    },
+    "Arid Lancer Eximus": {
+      "Image": "DesertRifleLancerAvatar.png",
+      "Name": "Arid Lancer Eximus",
+      "Section": "Grineer"
+    },
+    "Vapos Shield Osprey Eximus": {
+      "Image": "VaposShieldOsprey.png",
+      "Name": "Vapos Shield Osprey Eximus",
+      "Section": "Corpus"
+    },
+    "Nauseous Crawler Eximus": {
+      "Image": "GraspingCrawlerAvatar.png",
+      "Name": "Nauseous Crawler Eximus",
+      "Section": "Infestation"
+    },
+    "Corrupted Heavy Gunner": {
+      "Image": "OrokinHeavyGunner.png",
+      "Name": "Corrupted Heavy Gunner",
+      "Section": "Orokin"
+    },
+    "Aurax Actinic": {
+      "Image": "AuraxActinic.png",
+      "Name": "Aurax Actinic",
+      "Section": "Corpus"
+    },
+    "Syzygy Prod Crewman Eximus": {
+      "Image": "NokkoInfSpaceman.png",
+      "Name": "Syzygy Prod Crewman Eximus",
+      "Section": "Other"
+    },
+    "Techrot Volatile Galliflex": {
+      "Image": "InfestedVolatileRunner.png",
+      "Name": "Techrot Volatile Galliflex",
+      "Section": "Techrot"
+    },
+    "Deimos Rogue Bonewidow": {
+      "Image": "Bonewidow.png",
+      "Name": "Deimos Rogue Bonewidow",
+      "Section": "The Murmur"
+    },
+    "Crewman Eximus": {
+      "Image": "CrewmanNormal.png",
+      "Name": "Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Lancing Infested Hive": {
+      "Image": "InfestedHiveD.png",
+      "Name": "Lancing Infested Hive",
+      "Section": "Infestation"
+    },
+    "Exo Elite Lancer": {
+      "Image": "ExoEliteLancer.png",
+      "Name": "Exo Elite Lancer",
+      "Section": "Grineer"
+    },
+    "Aurax Baculus": {
+      "Image": "AuraxBaculus.png",
+      "Name": "Aurax Baculus",
+      "Section": "Corpus"
+    },
+    "Glacik Commander": {
+      "Image": "GlacikCommander.png",
+      "Name": "Glacik Commander",
+      "Section": "Grineer"
+    },
+    "Corrupted Butcher": {
+      "Image": "OrokinBladeSawman.png",
+      "Name": "Corrupted Butcher",
+      "Section": "Orokin"
+    },
+    "Elite Shield Lancer": {
+      "Image": "EliteShieldLancer.png",
+      "Name": "Elite Shield Lancer",
+      "Section": "Grineer"
+    },
+    "Grineer Warden": {
+      "Image": "DEGrineerWarden.png",
+      "Name": "Grineer Warden",
+      "Section": "Grineer"
+    },
+    "Elite Gyre Taktis": {
+      "Image": "GyreTaktisElite.png",
+      "Name": "Elite Gyre Taktis",
+      "Section": "Grineer"
+    },
+    "Amalgam Machinist": {
+      "Image": "AmalgamMachinist.png",
+      "Name": "Amalgam Machinist",
+      "Section": "Corpus"
+    },
+    "Narmer Crewman": {
+      "Image": "NarmerCorpusRifle.png",
+      "Name": "Narmer Crewman",
+      "Section": "Narmer"
+    },
+    "Nightwatch Lancer": {
+      "Image": "NightwatchLancer.png",
+      "Name": "Nightwatch Lancer",
+      "Section": "Grineer"
+    },
+    "Dactolyst": {
+      "Image": "Dactolyst.png",
+      "Name": "Dactolyst",
+      "Section": "Sentient"
+    },
+    "Techrot Miasmite": {
+      "Image": "InfestedMaggot.png",
+      "Name": "Techrot Miasmite",
+      "Section": "Techrot"
+    },
+    "Orm Harpi": {
+      "Image": "OrmHarpi.png",
+      "Name": "Orm Harpi",
+      "Section": "Corpus"
+    },
+    "Elite Exo Taktis": {
+      "Image": "ExoTaktisElite.png",
+      "Name": "Elite Exo Taktis",
+      "Section": "Grineer"
+    },
+    "Deimos Swarm Mutalist Moa Eximus": {
+      "Image": "NaniteCloudBipedMicroPlanetAvatar.png",
+      "Name": "Deimos Swarm Mutalist Moa Eximus",
+      "Section": "Infestation"
+    },
+    "Ranger": {
+      "Image": "JetpackCrewmanDera.png",
+      "Name": "Ranger",
+      "Section": "Corpus"
+    },
+    "Taro Weaver": {
+      "Image": "TaroWeaverElite.png",
+      "Name": "Taro Weaver",
+      "Section": "Corpus"
+    },
+    "Narmer Bombard": {
+      "Image": "NarmerBombard.png",
+      "Name": "Narmer Bombard",
+      "Section": "Narmer"
+    },
+    "Aurax Vertec": {
+      "Image": "AuraxVertec.png",
+      "Name": "Aurax Vertec",
+      "Section": "Corpus"
+    },
+    "Terra Manker": {
+      "Image": "TerraManker.png",
+      "Name": "Terra Manker",
+      "Section": "Corpus"
+    },
+    "Basal Diploid Rex": {
+      "Image": "BasalDiploidRex.png",
+      "Name": "Basal Diploid Rex",
+      "Section": "Infestation"
+    },
+    "Drekar Heavy Gunner": {
+      "Image": "SeaLabHeavyGunner.png",
+      "Name": "Drekar Heavy Gunner",
+      "Section": "Grineer"
+    },
+    "Anarch Tenebra": {
+      "Image": "AnarchTenebra.png",
+      "Name": "Anarch Tenebra",
+      "Section": "Anarchs"
+    },
+    "Demolyst Moa": {
+      "Image": "DemolystMOA.png",
+      "Name": "Demolyst Moa",
+      "Section": "Corpus"
+    },
+    "Tomb Guardian": {
+      "Image": "HostileRockman.png",
+      "Name": "Tomb Guardian",
+      "Section": "Unaffiliated"
+    },
+    "Taro Stropha Crewman": {
+      "Image": "TaroStrophaCrewman.png",
+      "Name": "Taro Stropha Crewman",
+      "Section": "Corpus"
+    },
+    "Orm Zerca": {
+      "Image": "OrmZerca.png",
+      "Name": "Orm Zerca",
+      "Section": "Corpus"
+    },
+    "Gyre Taktis": {
+      "Image": "GyreTaktis.png",
+      "Name": "Gyre Taktis",
+      "Section": "Grineer"
+    },
+    "Anti MOA Eximus": {
+      "Image": "DEAntiMoa.png",
+      "Name": "Anti MOA Eximus",
+      "Section": "Corpus"
+    },
+    "Frontier Lancer": {
+      "Image": "ForestLancer.png",
+      "Name": "Frontier Lancer",
+      "Section": "Grineer"
+    },
+    "Elite Frontier Lancer Eximus": {
+      "Image": "ForestEliteLancer.png",
+      "Name": "Elite Frontier Lancer Eximus",
+      "Section": "Grineer"
+    },
+    "Frigate Eximus": {
+      "Image": "CrpShipLaser.png",
+      "Name": "Frigate Eximus",
+      "Section": "Corpus"
+    },
+    "Frost Specter": {
+      "Image": "FrostHelmet.png",
+      "Name": "Frost Specter",
+      "Section": "Orokin"
+    },
+    "Dru Pesfor": {
+      "Image": "DruPesfor.png",
+      "Name": "Dru Pesfor",
+      "Section": "Corpus"
+    },
+    "Rogue Arcocanid": {
+      "Image": "RogueArcocanid.png",
+      "Name": "Rogue Arcocanid",
+      "Section": "The Murmur"
+    },
+    "Ember Specter": {
+      "Image": "EmberHelmet.png",
+      "Name": "Ember Specter",
+      "Section": "Orokin"
+    },
+    "Tusk Target": {
+      "Image": "EidolonCaptureTarget.png",
+      "Name": "Tusk Target",
+      "Section": "Grineer"
+    },
+    "Cinderthresh Hyena": {
+      "Image": "CinderthreshHyena.png",
+      "Name": "Cinderthresh Hyena",
+      "Section": "Corpus"
+    },
+    "Ven'kra Tel": {
+      "Image": "Venkra.png",
+      "Name": "Ven'kra Tel",
+      "Section": "Grineer"
+    },
+    "J3 Jordas Golem": {
+      "Image": "J3GolemRaid.png",
+      "Name": "J3 Jordas Golem",
+      "Section": "Infestation"
+    },
+    "Tyro Battalyst": {
+      "Image": "TyroBattalyst.png",
+      "Name": "Tyro Battalyst",
+      "Section": "Sentient"
+    },
+    "Amalgam Osprey Eximus": {
+      "Image": "AmalgamOsprey.png",
+      "Name": "Amalgam Osprey Eximus",
+      "Section": "Corpus"
+    },
+    "Exo Cutter": {
+      "Image": "ExoCutter.png",
+      "Name": "Exo Cutter",
+      "Section": "Grineer"
+    },
+    "Frontier Trooper Eximus": {
+      "Image": "Frontier_Trooper.png",
+      "Name": "Frontier Trooper Eximus",
+      "Section": "Grineer"
+    },
+    "Kavor Defector 1": {
+      "Image": "CodexKavorDefector1.png",
+      "Name": "Kavor Defector",
+      "Section": "Grineer"
+    },
+    "Shield-Hellion Dargyn Eximus": {
+      "Image": "GrnSkiffMissileShield.png",
+      "Name": "Shield-Hellion Dargyn Eximus",
+      "Section": "Grineer"
+    },
+    "Nightwatch Seeker": {
+      "Image": "NightwatchSeeker.png",
+      "Name": "Nightwatch Seeker",
+      "Section": "Grineer"
+    },
+    "Axio Stropha Crewman": {
+      "Image": "AxioStrophaCrewman.png",
+      "Name": "Axio Stropha Crewman",
+      "Section": "Corpus"
+    },
+    "Knave Specter": {
+      "Image": "LokiKnave.png",
+      "Name": "Knave Specter",
+      "Section": "Orokin"
+    },
+    "Tusk Hellion Eximus": {
+      "Image": "EidolonJetpackMarine.png",
+      "Name": "Tusk Hellion Eximus",
+      "Section": "Grineer"
+    },
+    "Kuva": {
+      "Image": "KuvaGhost.png",
+      "Name": "Kuva",
+      "Section": "Grineer"
+    },
+    "Taro Detron Crewman": {
+      "Image": "TaroDetronCrewman.png",
+      "Name": "Taro Detron Crewman",
+      "Section": "Corpus"
+    },
+    "Drekar Elite Lancer Eximus": {
+      "Image": "SeaLabEliteLancer.png",
+      "Name": "Drekar Elite Lancer Eximus",
+      "Section": "Grineer"
+    },
+    "Syzygy Shockwave Moa Eximus": {
+      "Image": "NokkoInfRangedLight.png",
+      "Name": "Syzygy Shockwave Moa Eximus",
+      "Section": "Other"
+    },
+    "Orm Crewman": {
+      "Image": "OrmCrewman.png",
+      "Name": "Orm Crewman",
+      "Section": "Corpus"
+    },
+    "Narmer Ballista": {
+      "Image": "NarmerGrineerFemale.png",
+      "Name": "Narmer Ballista",
+      "Section": "Narmer"
+    },
+    "Commandeered Ash Prime": {
+      "Image": "AshPrime_Thumb.png",
+      "Name": "Commandeered Ash Prime",
+      "Section": "Anarchs"
+    },
+    "Hellion Dargyn Eximus": {
+      "Image": "GrnSkiffMissile.png",
+      "Name": "Hellion Dargyn Eximus",
+      "Section": "Grineer"
+    },
+    "Vorac Zerca": {
+      "Image": "VoracZerca.png",
+      "Name": "Vorac Zerca",
+      "Section": "Corpus"
+    },
+    "Thrax Legatus": {
+      "Image": "ThraxLegatus.png",
+      "Name": "Thrax Legatus",
+      "Section": "Unaffiliated"
+    },
+    "Deimos Runner Eximus": {
+      "Image": "RunnerMicroPlanetAvatar.png",
+      "Name": "Deimos Runner Eximus",
+      "Section": "Infestation"
+    },
+    "Gyre Raider Carver": {
+      "Image": "GyreRaiderCarver.png",
+      "Name": "Gyre Raider Carver",
+      "Section": "Grineer"
+    },
+    "Drudge Brazer": {
+      "Image": "DrudgeBrazer.png",
+      "Name": "Drudge Brazer",
+      "Section": "Grineer"
+    },
+    "Vapos Fusion MOA Eximus": {
+      "Image": "VaposFusionMoa.png",
+      "Name": "Vapos Fusion MOA Eximus",
+      "Section": "Corpus"
+    },
+    "Arid Seeker Eximus": {
+      "Image": "DesertGrineerMarinePistolAvatar.png",
+      "Name": "Arid Seeker Eximus",
+      "Section": "Grineer"
+    },
+    "Ghoul Devourer": {
+      "Image": "GhoulDevourer.png",
+      "Name": "Ghoul Devourer",
+      "Section": "Grineer"
+    },
+    "Orm Engineer": {
+      "Image": "OrmEngineer.png",
+      "Name": "Orm Engineer",
+      "Section": "Corpus"
+    },
+    "Deimos Saxum": {
+      "Image": "InfestedFemurAvatar.png",
+      "Name": "Deimos Saxum",
+      "Section": "Infestation"
+    },
+    "Ghoul Target": {
+      "Image": "GhoulSawmanVIP.png",
+      "Name": "Ghoul Target",
+      "Section": "Grineer"
+    },
+    "Mesa Specter": {
+      "Image": "MesaHelmet.png",
+      "Name": "Mesa Specter",
+      "Section": "Orokin"
+    },
+    "Techrot Matmas": {
+      "Image": "InfestedUnadoza.png",
+      "Name": "Techrot Matmas",
+      "Section": "Techrot"
+    },
+    "Sentient Research Director": {
+      "Image": "SentientResearchDirector.png",
+      "Name": "Sentient Research Director",
+      "Section": "Corpus"
+    },
+    "Narmer Shield Osprey": {
+      "Image": "NarmerCorpusShieldDrone.png",
+      "Name": "Narmer Shield Osprey",
+      "Section": "Narmer"
+    },
+    "Corrupted Heavy Gunner Eximus": {
+      "Image": "OrokinHeavyGunner.png",
+      "Name": "Corrupted Heavy Gunner Eximus",
+      "Section": "Orokin"
+    },
+    "002-ER": {
+      "Image": "002-ER.png",
+      "Name": "002-ER",
+      "Section": "Corpus"
+    },
+    "Elite Gyre Outrider": {
+      "Image": "GyreOutriderElite.png",
+      "Name": "Elite Gyre Outrider",
+      "Section": "Grineer"
+    },
+    "Brood Mother": {
+      "Image": "DiseasedAncient.png",
+      "Name": "Brood Mother",
+      "Section": "Infestation"
+    },
+    "Bombard": {
+      "Image": "RocketBombardAvatar.png",
+      "Name": "Bombard",
+      "Section": "Grineer"
+    },
+    "Frontier Seeker Eximus": {
+      "Image": "ForestSeeker.png",
+      "Name": "Frontier Seeker Eximus",
+      "Section": "Grineer"
+    },
+    "Deimos Carnis Rex": {
+      "Image": "AshenBigAvatar.png",
+      "Name": "Deimos Carnis Rex",
+      "Section": "Infestation"
+    },
+    "Anarch Capsarii Eximus": {
+      "Image": "AnarchCapsarii.png",
+      "Name": "Anarch Capsarii Eximus",
+      "Section": "Anarchs"
+    },
+    "Venin Mutalist": {
+      "Image": "CodexVeninMutalist.png",
+      "Name": "Venin Mutalist",
+      "Section": "Infestation"
+    },
+    "Lynx": {
+      "Image": "CrpMiniJackal.png",
+      "Name": "Lynx",
+      "Section": "Corpus"
+    },
+    "Commandeered Ember Prime": {
+      "Image": "EmberPrime_Thumb.png",
+      "Name": "Commandeered Ember Prime",
+      "Section": "Anarchs"
+    },
+    "Elite Arid Lancer Eximus": {
+      "Image": "DesertEliteRifleLancerAvatar.png",
+      "Name": "Elite Arid Lancer Eximus",
+      "Section": "Grineer"
+    },
+    "Boiler Eximus": {
+      "Image": "PussAncient.png",
+      "Name": "Boiler Eximus",
+      "Section": "Infestation"
+    },
+    "Terra Elite Embattor MOA": {
+      "Image": "TerraEliteEmbattorMOA.png",
+      "Name": "Terra Elite Embattor MOA",
+      "Section": "Corpus"
+    },
+    "Kuva Ballista": {
+      "Image": "FortressGrineerFemale.png",
+      "Name": "Kuva Ballista",
+      "Section": "Grineer"
+    },
+    "Battalyst": {
+      "Image": "SentientTrooper.png",
+      "Name": "Battalyst",
+      "Section": "Sentient"
+    },
+    "Juno Sniper Crewman Eximus": {
+      "Image": "JunoSniperCrewman.png",
+      "Name": "Juno Sniper Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Techrot Babau": {
+      "Image": "InfestedBabau.png",
+      "Name": "Techrot Babau",
+      "Section": "Techrot"
+    },
+    "Elite Orm Weaver": {
+      "Image": "OrmWeaverElite.png",
+      "Name": "Elite Orm Weaver",
+      "Section": "Corpus"
+    },
+    "Leech Osprey": {
+      "Image": "OspreyLeech.png",
+      "Name": "Leech Osprey",
+      "Section": "Corpus"
+    },
+    "Plains Kuaka": {
+      "Section": "Unaffiliated",
+      "Image": "KuakaCommon.png",
+      "Name": "Plains Kuaka",
+      "Link": "Conservation"
+    },
+    "Drekar Ballista": {
+      "Image": "SeaLabBallista.png",
+      "Name": "Drekar Ballista",
+      "Section": "Grineer"
+    },
+    "Axio Weaver": {
+      "Image": "AxioWeaverElite.png",
+      "Name": "Axio Weaver",
+      "Section": "Corpus"
+    },
+    "Terra Elite Overtaker Eximus": {
+      "Image": "TerraEliteOvertaker.png",
+      "Name": "Terra Elite Overtaker Eximus",
+      "Section": "Corpus"
+    },
+    "Elite Kosma Flak": {
+      "Image": "KosmaFlakElite.png",
+      "Name": "Elite Kosma Flak",
+      "Section": "Grineer"
+    },
+    "Demolisher Kuva Guardian": {
+      "Image": "DemolisherKuvaGuardian.png",
+      "Name": "Demolisher Kuva Guardian",
+      "Section": "Grineer"
+    },
+    "Kuva Trooper Eximus": {
+      "Image": "FortressShotgunLancer.png",
+      "Name": "Kuva Trooper Eximus",
+      "Section": "Grineer"
+    },
+    "Anarch Arcus Eximus": {
+      "Image": "AnarchArcus.png",
+      "Name": "Anarch Arcus Eximus",
+      "Section": "Anarchs"
+    },
+    "Demolyst Osprey": {
+      "Image": "DemolystOsprey.png",
+      "Name": "Demolyst Osprey",
+      "Section": "Corpus"
+    },
+    "Axio Ranger Crewman": {
+      "Image": "AxioRangerCrewman.png",
+      "Name": "Axio Ranger Crewman",
+      "Section": "Corpus"
+    },
+    "Scrofa Plasmor Crewman Eximus": {
+      "Image": "NokkoShotgunSpaceman.png",
+      "Name": "Scrofa Plasmor Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Demolyst Satyr": {
+      "Image": "DemolystSatyr.png",
+      "Name": "Demolyst Satyr",
+      "Section": "Corpus"
+    },
+    "Drekar Scorpion": {
+      "Image": "SeaLabScorpion.png",
+      "Name": "Drekar Scorpion",
+      "Section": "Grineer"
+    },
+    "Narmer Disc MOA": {
+      "Image": "NarmerCorpusDiscMoa.png",
+      "Name": "Narmer Disc MOA",
+      "Section": "Narmer"
+    },
+    "Axio Harpi": {
+      "Image": "AxioHarpi.png",
+      "Name": "Axio Harpi",
+      "Section": "Corpus"
+    },
+    "Anarch Capsarii": {
+      "Image": "AnarchCapsarii.png",
+      "Name": "Anarch Capsarii",
+      "Section": "Anarchs"
+    },
+    "Aerial Commander": {
+      "Image": "EidolonVipPilot.png",
+      "Name": "Aerial Commander",
+      "Section": "Grineer"
+    },
+    "Arid Heavy Gunner Eximus": {
+      "Image": "DesertHeavyFemaleGrineerAvatarDesert.png",
+      "Name": "Arid Heavy Gunner Eximus",
+      "Section": "Grineer"
+    },
+    "Corrupted Lancer": {
+      "Image": "OrokinRifleLancerAvatar.png",
+      "Name": "Corrupted Lancer",
+      "Section": "Orokin"
+    },
+    "Scrofa Crewman": {
+      "Image": "NokkoEliteSpaceman.png",
+      "Name": "Scrofa Crewman",
+      "Section": "Corpus"
+    },
+    "Kuva Heavy Gunner Eximus": {
+      "Image": "FortressMinigunBombard.png",
+      "Name": "Kuva Heavy Gunner Eximus",
+      "Section": "Grineer"
+    },
+    "Amalgam Machinist MOA": {
+      "Section": "Corpus",
+      "Image": "AmalgamMoa.png",
+      "Name": "Amalgam MOA",
+      "Link": "Amalgam MOA"
+    },
+    "Armis Ulta": {
+      "Image": "ArmisUlta.png",
+      "Name": "Armis Ulta",
+      "Section": "Corpus"
+    },
+    "Kuva Shield Lancer": {
+      "Image": "FortressShieldLancer.png",
+      "Name": "Kuva Shield Lancer",
+      "Section": "Grineer"
+    },
+    "Gyre Roller Sentry": {
+      "Image": "GyreRollerSentry.png",
+      "Name": "Gyre Roller Sentry",
+      "Section": "Grineer"
+    },
+    "Terra Attack Drone Eximus": {
+      "Image": "TerraAttackDrones.png",
+      "Name": "Terra Attack Drone Eximus",
+      "Section": "Corpus"
+    },
+    "Orm Shockwave MOA": {
+      "Image": "OrmShockwaveMOA.png",
+      "Name": "Orm Shockwave MOA",
+      "Section": "Corpus"
+    },
+    "Attack Drone Eximus": {
+      "Image": "CorpusAttackDrone.png",
+      "Name": "Attack Drone Eximus",
+      "Section": "Corpus"
+    },
+    "Arid Trooper": {
+      "Image": "DesertShotgunLancerAvatar.png",
+      "Name": "Arid Trooper",
+      "Section": "Grineer"
+    },
+    "Juno Nul Comba Eximus": {
+      "Image": "JunoNulComba.png",
+      "Name": "Juno Nul Comba Eximus",
+      "Section": "Corpus"
+    },
+    "Purple Velocipod": {
+      "Section": "Unaffiliated",
+      "Image": "PurpleVelocipod.png",
+      "Name": "Purple Velocipod",
+      "Link": "Conservation"
+    },
+    "Sensor Regulator Eximus": {
+      "Image": "RegulatorDE.png",
+      "Name": "Sensor Regulator Eximus",
+      "Section": "Grineer"
+    },
+    "Narmer Glaxion MOA": {
+      "Image": "NarmerCorpusGlaxionMoa.png",
+      "Name": "Narmer Glaxion MOA",
+      "Section": "Narmer"
+    },
+    "Hellion": {
+      "Image": "HellionDE.png",
+      "Name": "Hellion",
+      "Section": "Grineer"
+    },
+    "Flameblade": {
+      "Image": "BlowtorchSawmanAvatar.png",
+      "Name": "Flameblade",
+      "Section": "Grineer"
+    },
+    "Demolisher Expired": {
+      "Image": "DemolisherExpired.png",
+      "Name": "Demolisher Expired",
+      "Section": "Grineer"
+    },
+    "Corrupted Nullifier": {
+      "Image": "OrokinNullifySpaceman.png",
+      "Name": "Corrupted Nullifier",
+      "Section": "Orokin"
+    },
+    "Nemes": {
+      "Image": "Nemes.png",
+      "Name": "Nemes",
+      "Section": "Corpus"
+    },
+    "Deimos Leaping Thrasher": {
+      "Image": "AncientTankMicroPlanetAvatar.png",
+      "Name": "Deimos Leaping Thrasher",
+      "Section": "Infestation"
+    },
+    "Amalgam Arca Heqet": {
+      "Image": "AmalgamArcaHeqet.png",
+      "Name": "Amalgam Arca Heqet",
+      "Section": "Corpus"
+    },
+    "Kuva Trokarian": {
+      "Image": "KuvaTrokarian.png",
+      "Name": "Kuva Trokarian",
+      "Section": "Grineer"
+    },
+    "Juno Nullifier Crewman Eximus": {
+      "Image": "JunoNullifierCrewman.png",
+      "Name": "Juno Nullifier Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Arid Eviscerator": {
+      "Image": "DesertEvisceratorLancerAvatar.png",
+      "Name": "Arid Eviscerator",
+      "Section": "Grineer"
+    },
+    "Choralyst": {
+      "Image": "Choralyst.png",
+      "Name": "Choralyst",
+      "Section": "Sentient"
+    },
+    "Narmer Flameblade": {
+      "Image": "NarmerBlowtorchSawman.png",
+      "Name": "Narmer Flameblade",
+      "Section": "Narmer"
+    },
+    "Coastal Mergoo": {
+      "Section": "Unaffiliated",
+      "Image": "MergooCommon.png",
+      "Name": "Coastal Mergoo",
+      "Link": "Conservation"
+    },
+    "Crawler": {
+      "Image": "CrawlerAvatar.png",
+      "Name": "Crawler",
+      "Section": "Infestation"
+    },
+    "Powerfist": {
+      "Image": "PistonSawmanAvatar.png",
+      "Name": "Powerfist",
+      "Section": "Grineer"
+    },
+    "Demolyst Machinist": {
+      "Image": "DemolystMachinist.png",
+      "Name": "Demolyst Machinist",
+      "Section": "Corpus"
+    },
+    "Toxic Crawler Eximus": {
+      "Image": "ToxicCrawlerDE.png",
+      "Name": "Toxic Crawler Eximus",
+      "Section": "Infestation"
+    },
+    "Axio MOA": {
+      "Image": "AxioMOA.png",
+      "Name": "Axio MOA",
+      "Section": "Corpus"
+    },
+    "Exo Raider Eviscerator": {
+      "Image": "ExoRaiderEviscerator.png",
+      "Name": "Exo Raider Eviscerator",
+      "Section": "Grineer"
+    },
+    "Corrupted Warden Eximus": {
+      "Image": "OrokinHeavyFemaleAvatar.png",
+      "Name": "Corrupted Warden Eximus",
+      "Section": "Orokin"
+    },
+    "Vapos Anti MOA": {
+      "Image": "VaposAntiMoa.png",
+      "Name": "Vapos Anti MOA",
+      "Section": "Corpus"
+    },
+    "Demolisher Juggernaut": {
+      "Image": "DemolisherJuggernaut.png",
+      "Name": "Demolisher Juggernaut",
+      "Section": "Infestation"
+    },
+    "Elementa Arcocanid Eximus": {
+      "Image": "RogueArcocanid.png",
+      "Name": "Elementa Arcocanid Eximus",
+      "Section": "The Murmur"
+    },
+    "Corvette": {
+      "Image": "CrpShipFlak.png",
+      "Name": "Corvette",
+      "Section": "Corpus"
+    },
+    "Elite Taro Basilisk": {
+      "Image": "TaroBasiliskElite.png",
+      "Name": "Elite Taro Basilisk",
+      "Section": "Corpus"
+    },
+    "Common Avichaea": {
+      "Section": "Unaffiliated",
+      "Image": "CommonAvichaea.png",
+      "Name": "Common Avichaea",
+      "Link": "Conservation"
+    },
+    "Kuva Trooper": {
+      "Image": "FortressShotgunLancer.png",
+      "Name": "Kuva Trooper",
+      "Section": "Grineer"
+    },
+    "Drekar Lancer Eximus": {
+      "Image": "SeaLabLancer.png",
+      "Name": "Drekar Lancer Eximus",
+      "Section": "Grineer"
+    },
+    "Taro Disc MOA": {
+      "Image": "TaroDiscMOA.png",
+      "Name": "Taro Disc MOA",
+      "Section": "Corpus"
+    },
+    "Rana Del": {
+      "Image": "RanaDel.png",
+      "Name": "Rana Del",
+      "Section": "Corpus"
+    },
+    "Tusk Butcher Eximus": {
+      "Image": "EidolonBladeSawman.png",
+      "Name": "Tusk Butcher Eximus",
+      "Section": "Grineer"
+    },
+    "Scrofa Railgun Moa Eximus": {
+      "Image": "NokkoRailgunBiped.png",
+      "Name": "Scrofa Railgun Moa Eximus",
+      "Section": "Corpus"
+    },
+    "Ostia Vasca Kavat": {
+      "Section": "Unaffiliated",
+      "Image": "VascaKavatCommon.png",
+      "Name": "Ostia Vasca Kavat",
+      "Link": "Conservation"
+    },
+    "Ashen Kuaka": {
+      "Section": "Unaffiliated",
+      "Image": "KuakaUncommon.png",
+      "Name": "Ashen Kuaka",
+      "Link": "Conservation"
+    },
+    "Anarch Tenebra Eximus": {
+      "Image": "AnarchTenebra.png",
+      "Name": "Anarch Tenebra Eximus",
+      "Section": "Anarchs"
+    },
+    "Tusk Flameblade": {
+      "Image": "EidolonBlowtorchSawman.png",
+      "Name": "Tusk Flameblade",
+      "Section": "Grineer"
+    },
+    "Kuva Jester": {
+      "Image": "Jester.png",
+      "Name": "Kuva Jester",
+      "Section": "Grineer"
+    },
+    "Elite Axio Weaver": {
+      "Image": "AxioWeaverElite.png",
+      "Name": "Elite Axio Weaver",
+      "Section": "Corpus"
+    },
+    "Tusk Lancer Eximus": {
+      "Image": "EidolonRifleLancer.png",
+      "Name": "Tusk Lancer Eximus",
+      "Section": "Grineer"
+    },
+    "Aerolyst": {
+      "Image": "Aerolyst.png",
+      "Name": "Aerolyst",
+      "Section": "Sentient"
+    },
+    "Taro Elite Crewman": {
+      "Image": "TaroEliteCrewman.png",
+      "Name": "Taro Elite Crewman",
+      "Section": "Corpus"
+    },
+    "Hyena LN2": {
+      "Image": "DEHyenaLN2.png",
+      "Name": "Hyena LN2",
+      "Section": "Corpus"
+    },
+    "Axio Gox": {
+      "Image": "AxioGox.png",
+      "Name": "Axio Gox",
+      "Section": "Corpus"
+    },
+    "Deimos Swarm Mutalist Moa": {
+      "Image": "NaniteCloudBipedMicroPlanetAvatar.png",
+      "Name": "Deimos Swarm Mutalist Moa",
+      "Section": "Infestation"
+    },
+    "Terra Crewman Eximus": {
+      "Image": "TerraCrewman.png",
+      "Name": "Terra Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Anarch Grineer Trapper": {
+      "Image": "AnarchGrineerTrapper.png",
+      "Name": "Anarch Grineer Trapper Eximus",
+      "Section": "Anarchs"
+    },
+    "Gyre Gokstad Crewship": {
+      "Image": "GyreGokstadCrewship.png",
+      "Name": "Gyre Gokstad Crewship",
+      "Section": "Grineer"
+    },
+    "Drekar Elite Lancer": {
+      "Image": "SeaLabEliteLancer.png",
+      "Name": "Drekar Elite Lancer",
+      "Section": "Grineer"
+    },
+    "Corpus Target": {
+      "Image": "CorpusCaptureTarget.png",
+      "Name": "Corpus Target",
+      "Section": "Corpus"
+    },
+    "Terra Elite Trencher Eximus": {
+      "Image": "TerraEliteTrencher.png",
+      "Name": "Terra Elite Trencher Eximus",
+      "Section": "Corpus"
+    },
+    "Orphid Specter": {
+      "Image": "OrphidSaryn.png",
+      "Name": "Orphid Specter",
+      "Section": "Orokin"
+    },
+    "Amalgam Arca Kucumatz": {
+      "Image": "AmalgamArcaKucumatz.png",
+      "Name": "Amalgam Arca Kucumatz",
+      "Section": "Corpus"
+    },
+    "Derim Zahn": {
+      "Image": "CCTeamCHackerAgent.png",
+      "Name": "Derim Zahn",
+      "Section": "Corpus"
+    },
+    "Isolator Bursa": {
+      "Image": "RiotMoaDispersion.png",
+      "Name": "Isolator Bursa",
+      "Section": "Corpus"
+    },
+    "Carrion Charger": {
+      "Image": "CarrionCharger.png",
+      "Name": "Carrion Charger",
+      "Section": "Infestation"
+    },
+    "Deimos Therid": {
+      "Image": "AncientShellAvatar.png",
+      "Name": "Deimos Therid",
+      "Section": "Infestation"
+    },
+    "Maggot": {
+      "Image": "DEMaggot.png",
+      "Name": "Maggot",
+      "Section": "Infestation"
+    },
+    "Frontier Butcher": {
+      "Image": "ForestButcher.png",
+      "Name": "Frontier Butcher",
+      "Section": "Grineer"
+    },
+    "Elite Exo Outrider": {
+      "Image": "ExoOutriderElite.png",
+      "Name": "Elite Exo Outrider",
+      "Section": "Grineer"
+    },
+    "Anarch Gladius": {
+      "Image": "AnarchGladius.png",
+      "Name": "Anarch Gladius",
+      "Section": "Anarchs"
+    },
+    "Lynx Osprey": {
+      "Image": "CrpMiniJackalOsprey.png",
+      "Name": "Lynx Osprey",
+      "Section": "Corpus"
+    },
+    "Charger": {
+      "Image": "QuadrupedAvatar.png",
+      "Name": "Charger",
+      "Section": "Infestation"
+    },
+    "Deimos Saxum Rex": {
+      "Image": "FemurAssassinateTargetAvatar.png",
+      "Name": "Deimos Saxum Rex",
+      "Section": "Infestation"
+    },
+    "Tusk Mortar Bombard": {
+      "Image": "EidolonMortarBombard.png",
+      "Name": "Tusk Mortar Bombard",
+      "Section": "Grineer"
+    },
+    "Axio Crewman": {
+      "Image": "AxioCrewman.png",
+      "Name": "Axio Crewman",
+      "Section": "Corpus"
+    },
+    "Arid Eviscerator Eximus": {
+      "Image": "DesertEvisceratorLancerAvatar.png",
+      "Name": "Arid Eviscerator Eximus",
+      "Section": "Grineer"
+    },
+    "Captain Vor": {
+      "Image": "CaptainVorBossAvatar.png",
+      "Name": "Captain Vor",
+      "Section": "Grineer"
+    },
+    "Dargyn Eximus": {
+      "Section": "Grineer",
+      "Image": "GrnSkiff.png",
+      "Name": "Dargyn Eximus",
+      "Link": "Dargyn (Enemy)"
+    },
+    "Deimos Genetrix": {
+      "Image": "InfestedBigDropShipAvatar.png",
+      "Name": "Deimos Genetrix",
+      "Section": "Infestation"
+    },
+    "Trooper Survivor": {
+      "Image": "ShotgunLancerAvatar.png",
+      "Name": "Trooper Survivor",
+      "Section": "Grineer"
+    },
+    "Fusion MOA": {
+      "Image": "MoaFusion.png",
+      "Name": "Fusion MOA",
+      "Section": "Corpus"
+    },
+    "Terra Attack Drone": {
+      "Image": "TerraAttackDrones.png",
+      "Name": "Terra Attack Drone",
+      "Section": "Corpus"
+    },
+    "Demolisher Hyena": {
+      "Image": "DemolisherHyena.png",
+      "Name": "Demolisher Hyena",
+      "Section": "Corpus"
+    },
+    "Corpus Tech Eximus": {
+      "Image": "CrewmanTech.png",
+      "Name": "Corpus Tech Eximus",
+      "Section": "Corpus"
+    },
+    "Lumbering Fragment": {
+      "Image": "LumberingFragment.png",
+      "Name": "Lumbering Fragment",
+      "Section": "The Murmur"
+    },
+    "Tusk Trooper Eximus": {
+      "Image": "EidolonShotgunLancer.png",
+      "Name": "Tusk Trooper Eximus",
+      "Section": "Grineer"
+    },
+    "Axio Zerca": {
+      "Image": "AxioZerca.png",
+      "Name": "Axio Zerca",
+      "Section": "Corpus"
+    },
+    "Demolisher Nox": {
+      "Image": "DemolisherNox.png",
+      "Name": "Demolisher Nox",
+      "Section": "Grineer"
+    },
+    "Kosma Raider": {
+      "Image": "KosmaRaider.png",
+      "Name": "Kosma Raider",
+      "Section": "Grineer"
+    },
+    "Narmer Commander": {
+      "Image": "NarmerBossLancer.png",
+      "Name": "Narmer Commander",
+      "Section": "Narmer"
+    },
+    "Kuva Bailiff Eximus": {
+      "Image": "KuvaBailiff.png",
+      "Name": "Kuva Bailiff Eximus",
+      "Section": "Grineer"
+    },
+    "Demolisher Anti Moa": {
+      "Image": "DemolisherAntiMoa.png",
+      "Name": "Demolisher Anti Moa",
+      "Section": "Corpus"
+    },
+    "Amalgam Cinder Machinist": {
+      "Image": "AmalgamCinderMachinist.png",
+      "Name": "Amalgam Cinder Machinist",
+      "Section": "Corpus"
+    },
+    "Arid Butcher Eximus": {
+      "Image": "DesertBladeSawmanAvatar.png",
+      "Name": "Arid Butcher Eximus",
+      "Section": "Grineer"
+    },
+    "Scrofa Latro Raknoid": {
+      "Image": "NokkoPlantVIP.png",
+      "Name": "Scrofa Latro Raknoid",
+      "Section": "Corpus"
+    },
+    "Ballista Eximus": {
+      "Image": "FemaleGrineerAvatar.png",
+      "Name": "Ballista Eximus",
+      "Section": "Grineer"
+    },
+    "Axio Elite Crewman": {
+      "Image": "AxioEliteCrewman.png",
+      "Name": "Axio Elite Crewman",
+      "Section": "Corpus"
+    },
+    "Emperor Condroc": {
+      "Section": "Unaffiliated",
+      "Image": "CondrocRare.png",
+      "Name": "Emperor Condroc",
+      "Link": "Conservation"
+    },
+    "Terra Crewman": {
+      "Image": "TerraCrewman.png",
+      "Name": "Terra Crewman",
+      "Section": "Corpus"
+    },
+    "Ranger Eximus": {
+      "Image": "JetpackCrewmanDera.png",
+      "Name": "Ranger Eximus",
+      "Section": "Corpus"
+    },
+    "The Severed Warden": {
+      "Image": "TheSeveredWarden.png",
+      "Name": "The Severed Warden",
+      "Section": "The Murmur"
+    },
+    "Frontier Lancer Eximus": {
+      "Image": "ForestLancer.png",
+      "Name": "Frontier Lancer Eximus",
+      "Section": "Grineer"
+    },
+    "Rogue Culverin Eximus": {
+      "Image": "RogueCulverin.png",
+      "Name": "Rogue Culverin Eximus",
+      "Section": "The Murmur"
+    },
+    "Ltenant Lech Kril": {
+      "Section": "Grineer",
+      "Image": "BossLechKrilAvatar.png",
+      "Name": "LT Lech Kril",
+      "Link": "Lieutenant Lech Kril"
+    },
+    "Security Camera": {
+      "Image": "CodexObjSecurityCamera.png",
+      "Name": "Security Camera",
+      "Section": "Corpus"
+    },
+    "Dappled Horrasque": {
+      "Section": "Unaffiliated",
+      "Image": "HorrasqueCommon.png",
+      "Name": "Dappled Horrasque",
+      "Link": "Conservation"
+    },
+    "Narmer Trooper": {
+      "Image": "NarmerShotgunLancer.png",
+      "Name": "Narmer Trooper",
+      "Section": "Narmer"
+    },
+    "Demolisher Thrasher": {
+      "Image": "DemolisherThrasher.png",
+      "Name": "Demolisher Thrasher",
+      "Section": "Infestation"
+    },
+    "Gyre Ramsled": {
+      "Image": "Ramsled.png",
+      "Name": "Gyre Ramsled",
+      "Section": "Grineer"
+    },
+    "Butcher Eximus": {
+      "Image": "ButcherDE.png",
+      "Name": "Butcher Eximus",
+      "Section": "Grineer"
+    },
+    "Toxic Crawler": {
+      "Image": "ToxicCrawlerDE.png",
+      "Name": "Toxic Crawler",
+      "Section": "Infestation"
+    },
+    "Angst": {
+      "Image": "StrikerAcolyte.png",
+      "Name": "Angst",
+      "Section": "Stalker"
+    },
+    "Kuva Seeker Eximus": {
+      "Image": "FortressGrineerMarinePistol.png",
+      "Name": "Kuva Seeker Eximus",
+      "Section": "Grineer"
+    },
+    "Condor Storm Dropship": {
+      "Image": "CodexCondorStormDropship.png",
+      "Name": "Condor Storm Dropship",
+      "Section": "Corpus"
+    },
+    "The Anatomizer Eximus": {
+      "Image": "TheAnatomizer.png",
+      "Name": "The Anatomizer Eximus",
+      "Section": "The Murmur"
+    },
+    "Stabilization Infested Hive": {
+      "Image": "InfestedHiveE.png",
+      "Name": "Stabilization Infested Hive",
+      "Section": "Infestation"
+    },
+    "Juno Sapper MOA": {
+      "Image": "JunoSapperMOA.png",
+      "Name": "Juno Sapper MOA",
+      "Section": "Corpus"
+    },
+    "Narmer Buzzard Dropship": {
+      "Image": "NarmerVenusSmallDropship.png",
+      "Name": "Narmer Buzzard Dropship",
+      "Section": "Narmer"
+    },
+    "Napalm Eximus": {
+      "Image": "IncendiaryBombardAvatar.png",
+      "Name": "Napalm Eximus",
+      "Section": "Grineer"
+    },
+    "Hemocyte": {
+      "Image": "EidolonLephantis.png",
+      "Name": "Hemocyte",
+      "Section": "Infestation"
+    },
+    "Carabus": {
+      "Image": "Carabus.png",
+      "Name": "Carabus",
+      "Section": "Grineer"
+    },
+    "Tarask Bursa": {
+      "Image": "TaraskBursa.png",
+      "Name": "Tarask Bursa",
+      "Section": "Corpus"
+    },
+    "Deimos Tendril Drone": {
+      "Image": "InfestedTendrilDroneAvatar.png",
+      "Name": "Deimos Tendril Drone",
+      "Section": "Infestation"
+    },
+    "Commandeered Protea Prime": {
+      "Image": "ProteaPrime_Thumb.png",
+      "Name": "Commandeered Protea Prime",
+      "Section": "Anarchs"
+    },
+    "Narmer Nullifier Crewman": {
+      "Image": "NarmerCorpusNullifier.png",
+      "Name": "Narmer Nullifier Crewman",
+      "Section": "Narmer"
+    },
+    "Scyto Raknoid": {
+      "Image": "ScytoRaknoid.png",
+      "Name": "Scyto Raknoid",
+      "Section": "Corpus"
+    },
+    "Elite Gyre Cutter": {
+      "Image": "GyreCutterElite.png",
+      "Name": "Elite Gyre Cutter",
+      "Section": "Grineer"
+    },
+    "Armaments Director": {
+      "Image": "ArmamentsDirector.png",
+      "Name": "Armaments Director",
+      "Section": "Corpus"
+    },
+    "Kosma Butcher": {
+      "Image": "KosmaButcher.png",
+      "Name": "Kosma Butcher",
+      "Section": "Grineer"
+    },
+    "Axio Pilot": {
+      "Image": "AxioPilot.png",
+      "Name": "Axio Pilot",
+      "Section": "Corpus"
+    },
+    "Shadow Stalker": {
+      "Image": "SentientStalker.png",
+      "Name": "Shadow Stalker",
+      "Section": "Stalker"
+    },
+    "Kuva Elite Lancer Eximus": {
+      "Image": "FortressEliteRifleLancer.png",
+      "Name": "Kuva Elite Lancer Eximus",
+      "Section": "Grineer"
+    },
+    "Shield-Hellion Dargyn": {
+      "Image": "GrnSkiffMissileShield.png",
+      "Name": "Shield-Hellion Dargyn",
+      "Section": "Grineer"
+    },
+    "Executioner Garesh": {
+      "Image": "GrineerCharger.png",
+      "Name": "Executioner Garesh",
+      "Section": "Grineer"
+    },
+    "Terra Shockwave MOA Eximus": {
+      "Image": "TerraShockwaveMOA.png",
+      "Name": "Terra Shockwave MOA Eximus",
+      "Section": "Corpus"
+    },
+    "Juno Nullifier Crewman": {
+      "Image": "JunoNullifierCrewman.png",
+      "Name": "Juno Nullifier Crewman",
+      "Section": "Corpus"
+    },
+    "Prod Crewman": {
+      "Image": "CrewmanProd.png",
+      "Name": "Prod Crewman",
+      "Section": "Corpus"
+    },
+    "Ved Xol": {
+      "Image": "CCTeamAHeavyAgent.png",
+      "Name": "Ved Xol",
+      "Section": "Corpus"
+    },
+    "Drahk": {
+      "Image": "GrnArmoredKubrow.png",
+      "Name": "Drahk",
+      "Section": "Grineer"
+    },
+    "Orokin Drone": {
+      "Image": "OrokinShieldDroneAvatar.png",
+      "Name": "Orokin Drone",
+      "Section": "Orokin"
+    },
+    "Scrofa Sniper Ranger Eximus": {
+      "Image": "NokkoSniper.png",
+      "Name": "Scrofa Sniper Ranger Eximus",
+      "Section": "Corpus"
+    },
+    "Terra Sniper Crewman": {
+      "Image": "TerraSniperCrewman.png",
+      "Name": "Terra Sniper Crewman",
+      "Section": "Corpus"
+    },
+    "Roller Sentry": {
+      "Image": "RollerTurret.png",
+      "Name": "Roller Sentry",
+      "Section": "Grineer"
+    },
+    "Terra Jackal": {
+      "Image": "TerraJackal.png",
+      "Name": "Terra Jackal",
+      "Section": "Corpus"
+    },
+    "Nightwatch Powerclaw": {
+      "Image": "NightwatchPowerclaw.png",
+      "Name": "Nightwatch Powerclaw",
+      "Section": "Grineer"
+    },
+    "Sapping Osprey Eximus": {
+      "Image": "DiscOsprey.png",
+      "Name": "Sapping Osprey Eximus",
+      "Section": "Corpus"
+    },
+    "Taro Crewman": {
+      "Image": "TaroCrewman.png",
+      "Name": "Taro Crewman",
+      "Section": "Corpus"
+    },
+    "Propaganda Drone": {
+      "Image": "VayHekPropagandaDrone.png",
+      "Name": "Propaganda Drone",
+      "Section": "Grineer"
+    },
+    "Frigate": {
+      "Image": "CrpShipLaser.png",
+      "Name": "Frigate",
+      "Section": "Corpus"
+    },
+    "Ballista": {
+      "Image": "FemaleGrineerAvatar.png",
+      "Name": "Ballista",
+      "Section": "Grineer"
+    },
+    "Kuva Shield Lancer Eximus": {
+      "Image": "FortressShieldLancer.png",
+      "Name": "Kuva Shield Lancer Eximus",
+      "Section": "Grineer"
+    },
+    "Attack Drone": {
+      "Image": "CorpusAttackDrone.png",
+      "Name": "Attack Drone",
+      "Link": "Attack Drone (Archwing Enemy)",
+      "Caption": "Archwing Enemy",
+      "Section": "Corpus"
+    },
+    "Taro Gox": {
+      "Image": "TaroGox.png",
+      "Name": "Taro Gox",
+      "Section": "Corpus"
+    },
+    "Terra Overtaker": {
+      "Image": "TerraOvertaker.png",
+      "Name": "Terra Overtaker",
+      "Section": "Corpus"
+    },
+    "Lancer": {
+      "Image": "LancerDE.png",
+      "Name": "Lancer",
+      "Section": "Grineer"
+    },
+    "Scrofa Attack Drone": {
+      "Image": "NokkoFlyingAttack.png",
+      "Name": "Scrofa Attack Drone",
+      "Section": "Corpus"
+    },
+    "Mine Osprey": {
+      "Image": "MineOspreyDE.png",
+      "Name": "Mine Osprey",
+      "Section": "Corpus"
+    },
+    "Zealot Proselytizer": {
+      "Image": "ZealotProselytizer.png",
+      "Name": "Zealot Proselytizer",
+      "Section": "Infestation"
+    },
+    "Roller": {
+      "Image": "RollingDroneAvatar.png",
+      "Name": "Roller",
+      "Section": "Grineer"
+    },
+    "Zealot Herald": {
+      "Image": "ZealotHerald.png",
+      "Name": "Zealot Herald",
+      "Section": "Infestation"
+    },
+    "Zealot Baptizer": {
+      "Image": "ZealotBaptizer.png",
+      "Name": "Zealot Baptizer",
+      "Section": "Infestation"
+    },
+    "Zealoid Prelate": {
+      "Image": "ZealoidPrelate.png",
+      "Name": "Zealoid Prelate",
+      "Section": "Infestation"
+    },
+    "Zealoid Bastion": {
+      "Image": "ZealoidPrelate.png",
+      "Name": "Zealoid Bastion",
+      "Section": "Infestation"
+    },
+    "Zanuka Hunter": {
+      "Image": "CorpusHarvester.png",
+      "Name": "Zanuka Hunter",
+      "Section": "Corpus"
+    },
+    "Vapos Railgun MOA": {
+      "Image": "VaposRailgunMOA.png",
+      "Name": "Vapos Railgun MOA",
+      "Section": "Corpus"
+    },
+    "Kosma Raider Carver": {
+      "Image": "KosmaRaiderCarver.png",
+      "Name": "Kosma Raider Carver",
+      "Section": "Grineer"
+    },
+    "Axio Disc MOA": {
+      "Image": "AxioDiscMOA.png",
+      "Name": "Axio Disc MOA",
+      "Section": "Corpus"
+    },
+    "Woodland Mergoo": {
+      "Section": "Unaffiliated",
+      "Image": "MergooUncommon.png",
+      "Name": "Woodland Mergoo",
+      "Link": "Conservation"
+    },
+    "Terra Manker MOA Eximus": {
+      "Image": "TerraMOA.png",
+      "Name": "Terra MOA Eximus",
+      "Section": "Corpus"
+    },
+    "Kuva Eviscerator Eximus": {
+      "Image": "FortressEviseratorLancer.png",
+      "Name": "Kuva Eviscerator Eximus",
+      "Section": "Grineer"
+    },
+    "Wolf of Saturn Six": {
+      "Image": "WolfStalker.png",
+      "Name": "Wolf of Saturn Six",
+      "Section": "Unaffiliated"
+    },
+    "Seeker Eximus": {
+      "Image": "GrineerMarinePistolAvatar.png",
+      "Name": "Seeker Eximus",
+      "Section": "Grineer"
+    },
+    "Frontier Butcher Eximus": {
+      "Image": "ForestButcher.png",
+      "Name": "Frontier Butcher Eximus",
+      "Section": "Grineer"
+    },
+    "Kosma Gokstad Officer": {
+      "Image": "KosmaGokstadOfficer.png",
+      "Name": "Kosma Gokstad Officer",
+      "Section": "Grineer"
+    },
+    "Kuva Flameblade": {
+      "Image": "FortressBlowtorchSawman.png",
+      "Name": "Kuva Flameblade",
+      "Section": "Grineer"
+    },
+    "Orm Disc MOA": {
+      "Image": "OrmDiscMOA.png",
+      "Name": "Orm Disc MOA",
+      "Section": "Corpus"
+    },
+    "Vorac Vambac": {
+      "Image": "VoracVambac.png",
+      "Name": "Vorac Vambac",
+      "Section": "Corpus"
+    },
+    "Vorac Tech": {
+      "Image": "VoracTech.png",
+      "Name": "Vorac Tech",
+      "Section": "Corpus"
+    },
+    "Hyena TH": {
+      "Image": "DEHyenaTh.png",
+      "Name": "Hyena TH",
+      "Section": "Corpus"
+    },
+    "Vorac Stropha Crewman": {
+      "Image": "VoracStrophaCrewman.png",
+      "Name": "Vorac Stropha Crewman",
+      "Section": "Corpus"
+    },
+    "Aurax Atloc Raknoid": {
+      "Image": "AuraxAtlocRaknoid.png",
+      "Name": "Aurax Atloc Raknoid",
+      "Section": "Corpus"
+    },
+    "Vorac Shield Osprey": {
+      "Image": "VoracShieldOsprey.png",
+      "Name": "Vorac Shield Osprey",
+      "Section": "Corpus"
+    },
+    "Lynx Turret": {
+      "Image": "CrpMiniJackalTurret.png",
+      "Name": "Lynx Turret",
+      "Section": "Corpus"
+    },
+    "Vorac Railgun MOA": {
+      "Image": "VoracRailgunMOA.png",
+      "Name": "Vorac Railgun MOA",
+      "Section": "Corpus"
+    },
+    "Jad Teran": {
+      "Image": "CCTeamBDisruptorAgent.png",
+      "Name": "Jad Teran",
+      "Section": "Corpus"
+    },
+    "Vorac Pilot": {
+      "Image": "VoracPilot.png",
+      "Name": "Vorac Pilot",
+      "Section": "Corpus"
+    },
+    "Eidolon Teralyst": {
+      "Image": "Teralyst.png",
+      "Name": "Eidolon Teralyst",
+      "Section": "Sentient"
+    },
+    "Vorac Nullifier Crewman": {
+      "Image": "VoracNullifierCrewman.png",
+      "Name": "Vorac Nullifier Crewman",
+      "Section": "Corpus"
+    },
+    "Vorac Harpi (2)": {
+      "Caption": "The New War",
+      "Image": "VoracHarpi.png",
+      "Name": "Vorac Harpi",
+      "Section": "Other"
+    },
+    "Railgun MOA Eximus": {
+      "Image": "MoaRailgun.png",
+      "Name": "Railgun MOA Eximus",
+      "Section": "Corpus"
+    },
+    "Vorac Engineer": {
+      "Image": "VoracEngineer.png",
+      "Name": "Vorac Engineer",
+      "Section": "Corpus"
+    },
+    "Commander Eximus": {
+      "Image": "GrineerMarineLeaderAvatar.png",
+      "Name": "Commander Eximus",
+      "Section": "Grineer"
+    },
+    "Draga": {
+      "Image": "FrogLancer.png",
+      "Name": "Draga",
+      "Section": "Grineer"
+    },
+    "Vorac Crewship": {
+      "Image": "VoracCrewship.png",
+      "Name": "Vorac Crewship",
+      "Section": "Corpus"
+    },
+    "Vorac Crewman": {
+      "Image": "VoracCrewman.png",
+      "Name": "Vorac Crewman",
+      "Section": "Corpus"
+    },
+    "Deimos Brood Mother Eximus": {
+      "Image": "DiseasedAncient.png",
+      "Name": "Deimos Brood Mother Eximus",
+      "Section": "Infestation"
+    },
+    "Volt Specter": {
+      "Image": "VoltHelmet.png",
+      "Name": "Volt Specter",
+      "Section": "Orokin"
+    },
+    "Volatile Runner": {
+      "Image": "SuicideRunnerAvatar.png",
+      "Name": "Volatile Runner",
+      "Section": "Infestation"
+    },
+    "Void Angel": {
+      "Image": "VoidAngel.png",
+      "Name": "Void Angel",
+      "Section": "Unaffiliated"
+    },
+    "Vizier Predasite": {
+      "Section": "Unaffiliated",
+      "Image": "InfestedPredatorC.png",
+      "Name": "Vizier Predasite",
+      "Link": "Conservation"
+    },
+    "Vivisect Director": {
+      "Image": "VivisectDirector.png",
+      "Name": "Vivisect Director",
+      "Section": "Corpus"
+    },
+    "Vitriol Necramite": {
+      "Image": "VitriolNecramite.png",
+      "Name": "Vitriol Necramite",
+      "Section": "Unaffiliated"
+    },
+    "Vem Tabook": {
+      "Image": "DETabook.png",
+      "Name": "Vem Tabook",
+      "Section": "Grineer"
+    },
+    "Vay Hek Terra Frame": {
+      "Image": "VayHek.png",
+      "Name": "Vay Hek Terra Frame",
+      "Section": "Grineer"
+    },
+    "Vapos Tech Ranger Eximus": {
+      "Image": "VaposTechRanger.png",
+      "Name": "Vapos Tech Ranger Eximus",
+      "Section": "Corpus"
+    },
+    "Exo Ramsled": {
+      "Image": "Ramsled.png",
+      "Name": "Exo Ramsled",
+      "Section": "Grineer"
+    },
+    "Scrofa Shockwave Moa": {
+      "Image": "NokkoShockwaveBiped.png",
+      "Name": "Scrofa Shockwave Moa",
+      "Section": "Corpus"
+    },
+    "Vapos Tech Eximus": {
+      "Image": "VaposTech.png",
+      "Name": "Vapos Tech Eximus",
+      "Section": "Corpus"
+    },
+    "Derivator Crewman": {
+      "Image": "DerivatorCrewman.png",
+      "Name": "Derivator Crewman",
+      "Section": "Corpus"
+    },
+    "Arid Heavy Gunner": {
+      "Image": "DesertHeavyFemaleGrineerAvatarDesert.png",
+      "Name": "Arid Heavy Gunner",
+      "Section": "Grineer"
+    },
+    "Vapos Sniper Ranger Eximus": {
+      "Image": "VaposSniperRanger.png",
+      "Name": "Vapos Sniper Ranger Eximus",
+      "Section": "Corpus"
+    },
+    "Elite Shield Lancer Eximus": {
+      "Image": "EliteShieldLancer.png",
+      "Name": "Elite Shield Lancer Eximus",
+      "Section": "Grineer"
+    },
+    "Vapos Sniper Crewman Eximus": {
+      "Image": "VaposSniperCrewman.png",
+      "Name": "Vapos Sniper Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Vapos Sniper Crewman": {
+      "Image": "VaposSniperCrewman.png",
+      "Name": "Vapos Sniper Crewman",
+      "Section": "Corpus"
+    },
+    "Vapos Shockwave MOA Eximus": {
+      "Image": "VaposShockwaveMoa.png",
+      "Name": "Vapos Shockwave MOA Eximus",
+      "Section": "Corpus"
+    },
+    "Vapos Shockwave MOA": {
+      "Image": "VaposShockwaveMoa.png",
+      "Name": "Vapos Shockwave MOA",
+      "Section": "Corpus"
+    },
+    "Locust Drone": {
+      "Image": "CrpSwarmDrone.png",
+      "Name": "Locust Drone",
+      "Section": "Corpus"
+    },
+    "Kavor Defector 4": {
+      "Image": "CodexKavorDefector4.png",
+      "Name": "Kavor Defector",
+      "Section": "Grineer"
+    },
+    "Vapos Sapping Osprey Eximus": {
+      "Image": "VaposSappingOsprey.png",
+      "Name": "Vapos Sapping Osprey Eximus",
+      "Section": "Corpus"
+    },
+    "Corrupted Drahk Master": {
+      "Image": "CorruptedDrahkMaster.png",
+      "Name": "Corrupted Drahk Master",
+      "Section": "Orokin"
+    },
+    "Kuva Powerclaw Eximus": {
+      "Image": "FortressPistonSawman.png",
+      "Name": "Kuva Powerclaw Eximus",
+      "Section": "Grineer"
+    },
+    "Ancient Healer": {
+      "Image": "HealingAncientAvatar.png",
+      "Name": "Ancient Healer",
+      "Section": "Infestation"
+    },
+    "The Sergeant": {
+      "Image": "BossNefAnyo.png",
+      "Name": "The Sergeant",
+      "Section": "Corpus"
+    },
+    "Zanuka": {
+      "Image": "ZukanaCodex.png",
+      "Name": "Zanuka",
+      "Section": "Corpus"
+    },
+    "Tusk Trooper": {
+      "Image": "EidolonShotgunLancer.png",
+      "Name": "Tusk Trooper",
+      "Section": "Grineer"
+    },
+    "Terra Ambulas": {
+      "Image": "TerraAmbulas.png",
+      "Name": "Terra Ambulas",
+      "Section": "Corpus"
+    },
+    "Vapos Nullifier Eximus": {
+      "Image": "GasNullifySpaceman.png",
+      "Name": "Vapos Nullifier Eximus",
+      "Section": "Corpus"
+    },
+    "Terra Raptor SX": {
+      "Image": "TerraRaptorSX.png",
+      "Name": "Terra Raptor SX",
+      "Section": "Corpus"
+    },
+    "Executioner Reth": {
+      "Image": "GrineerEngineer.png",
+      "Name": "Executioner Reth",
+      "Section": "Grineer"
+    },
+    "Exploiter Orb": {
+      "Image": "ExploiterOrb.png",
+      "Name": "Exploiter Orb",
+      "Section": "Corpus"
+    },
+    "Rogue Voidrig (2)": {
+      "Caption": "Isolation Vault",
+      "Image": "Voidrig.png",
+      "Name": "Rogue Voidrig",
+      "Section": "The Murmur"
+    },
+    "Vapos MOA": {
+      "Image": "VaposMoa.png",
+      "Name": "Vapos MOA",
+      "Section": "Corpus"
+    },
+    "Vapos Fusion MOA": {
+      "Image": "VaposFusionMoa.png",
+      "Name": "Vapos Fusion MOA",
+      "Section": "Corpus"
+    },
+    "Vapos Elite Ranger Eximus": {
+      "Image": "VaposEliteRanger.png",
+      "Name": "Vapos Elite Ranger Eximus",
+      "Section": "Corpus"
+    },
+    "Vapos Elite Ranger": {
+      "Image": "VaposEliteRanger.png",
+      "Name": "Vapos Elite Ranger",
+      "Section": "Corpus"
+    },
+    "Vapos Elite Crewman Eximus": {
+      "Image": "VaposEliteCrewman.png",
+      "Name": "Vapos Elite Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Vapos Elite Crewman": {
+      "Image": "VaposEliteCrewman.png",
+      "Name": "Vapos Elite Crewman",
+      "Section": "Corpus"
+    },
+    "Vapos Detron Ranger Eximus": {
+      "Image": "VaposDetronRanger.png",
+      "Name": "Vapos Detron Ranger Eximus",
+      "Section": "Corpus"
+    },
+    "Denial Bursa": {
+      "Image": "RiotMoaPrevention.png",
+      "Name": "Denial Bursa",
+      "Section": "Corpus"
+    },
+    "Scrofa Shockwave Moa Eximus": {
+      "Image": "NokkoShockwaveBiped.png",
+      "Name": "Scrofa Shockwave Moa Eximus",
+      "Section": "Corpus"
+    },
+    "Vapos Detron Crewman": {
+      "Image": "VaposDetronCrewman.png",
+      "Name": "Vapos Detron Crewman",
+      "Section": "Corpus"
+    },
+    "Gruzzling": {
+      "Image": "Gruzzling.png",
+      "Name": "Gruzzling",
+      "Section": "The Murmur"
+    },
+    "Scrofa Legionary Eximus": {
+      "Image": "NokkoLabMeleeHeavy.png",
+      "Name": "Scrofa Legionary Eximus",
+      "Section": "Corpus"
+    },
+    "Vapos Condor Dropship": {
+      "Image": "VaposCondorDropship.png",
+      "Name": "Vapos Condor Dropship",
+      "Section": "Corpus"
+    },
+    "Commandeered Caliban Prime": {
+      "Image": "CalibanPrime_Thumb.png",
+      "Name": "Commandeered Caliban Prime",
+      "Section": "Anarchs"
+    },
+    "Vapos Aquila": {
+      "Image": "VaposAquila.png",
+      "Name": "Vapos Aquila",
+      "Section": "Corpus"
+    },
+    "Vapos Anti MOA Eximus": {
+      "Image": "VaposAntiMoa.png",
+      "Name": "Vapos Anti MOA Eximus",
+      "Section": "Corpus"
+    },
+    "Ancient Disruptor Eximus": {
+      "Image": "AncientAvatar.png",
+      "Name": "Ancient Disruptor Eximus",
+      "Section": "Infestation"
+    },
+    "Narmer Geminex MOA": {
+      "Image": "NarmerCorpusDualCannonDrone.png",
+      "Name": "Narmer Geminex MOA",
+      "Section": "Narmer"
+    },
+    "Vallis Surveillance Drone": {
+      "Image": "VallisSurveillanceDrone.png",
+      "Name": "Vallis Surveillance Drone",
+      "Section": "Corpus"
+    },
+    "Vallis Kubrodon": {
+      "Section": "Unaffiliated",
+      "Image": "KubrodonUncommon.png",
+      "Name": "Vallis Kubrodon",
+      "Link": "Conservation"
+    },
+    "Undying Flyer": {
+      "Image": "UndyingFlyer.png",
+      "Name": "Undying Flyer",
+      "Section": "Infestation"
+    },
+    "Nemes Ranger": {
+      "Image": "Nemes.png",
+      "Name": "Nemes Ranger",
+      "Section": "Corpus"
+    },
+    "Carrion Charger Eximus": {
+      "Image": "CarrionCharger.png",
+      "Name": "Carrion Charger Eximus",
+      "Section": "Infestation"
+    },
+    "Umber Undazoa": {
+      "Section": "Unaffiliated",
+      "Image": "UmberUndazoa.png",
+      "Name": "Umber Undazoa",
+      "Link": "Conservation"
+    },
+    "Kyta Raknoid": {
+      "Image": "KytaRaknoid.png",
+      "Name": "Kyta Raknoid",
+      "Section": "Corpus"
+    },
+    "Tusk Thumper Doma": {
+      "Image": "TuskThumperDoma.png",
+      "Name": "Tusk Thumper Doma",
+      "Section": "Grineer"
+    },
+    "Tusk Thumper Bull": {
+      "Image": "TuskThumperBull.png",
+      "Name": "Tusk Thumper Bull",
+      "Section": "Grineer"
+    },
+    "Techrot Skuzzi Eximus": {
+      "Image": "InfestedMutalist.png",
+      "Name": "Techrot Skuzzi Eximus",
+      "Section": "Techrot"
+    },
+    "Tusk Shield Dargyn": {
+      "Image": "GrnSkiff.png",
+      "Name": "Tusk Shield Dargyn",
+      "Section": "Grineer"
+    },
+    "Tusk Seeker Eximus": {
+      "Image": "EidolonGrineerMarinePistol.png",
+      "Name": "Tusk Seeker Eximus",
+      "Section": "Grineer"
+    },
+    "Tusk Seeker Drone": {
+      "Image": "EidolonAlarmDrone.png",
+      "Name": "Tusk Seeker Drone",
+      "Section": "Grineer"
+    },
+    "Tusk Roller": {
+      "Image": "EidolonRollingDrone.png",
+      "Name": "Tusk Roller",
+      "Section": "Grineer"
+    },
+    "Kuva Injector": {
+      "Section": "Other",
+      "Image": "KuvaDefenseAvatar.png",
+      "Name": "Kuva Injector",
+      "Link": "Defense"
+    },
+    "Ortholyst": {
+      "Image": "Ortholyst.png",
+      "Name": "Ortholyst",
+      "Section": "Sentient"
+    },
+    "Taro Vambac": {
+      "Image": "TaroVambac.png",
+      "Name": "Taro Vambac",
+      "Section": "Corpus"
+    },
+    "Lephantis": {
+      "Image": "GolemFullAvatar.png",
+      "Name": "Lephantis",
+      "Section": "Infestation"
+    },
+    "Pelna Cade": {
+      "Image": "CCTeamASkateAgent.png",
+      "Name": "Pelna Cade",
+      "Section": "Corpus"
+    },
+    "Tusk Predator": {
+      "Image": "EidolonPredator.png",
+      "Name": "Tusk Predator",
+      "Section": "Grineer"
+    },
+    "Tusk Ogma": {
+      "Image": "EidolonBomber.png",
+      "Name": "Tusk Ogma",
+      "Section": "Grineer"
+    },
+    "Terra Shield Osprey Eximus": {
+      "Image": "TerraShieldOsprey.png",
+      "Name": "Terra Shield Osprey Eximus",
+      "Section": "Corpus"
+    },
+    "Tusk Napalm Eximus": {
+      "Image": "EidolonIncendiaryBombard.png",
+      "Name": "Tusk Napalm Eximus",
+      "Section": "Grineer"
+    },
+    "Tusk Napalm": {
+      "Image": "EidolonIncendiaryBombard.png",
+      "Name": "Tusk Napalm",
+      "Section": "Grineer"
+    },
+    "Tusk Lancer": {
+      "Image": "EidolonRifleLancer.png",
+      "Name": "Tusk Lancer",
+      "Section": "Grineer"
+    },
+    "Tusk Hellion": {
+      "Image": "EidolonJetpackMarine.png",
+      "Name": "Tusk Hellion",
+      "Section": "Grineer"
+    },
+    "Akkalak Turret": {
+      "Image": "EidolonAutoTurret.png",
+      "Name": "Akkalak Turret",
+      "Section": "Grineer"
+    },
+    "Tusk Heavy Gunner": {
+      "Image": "EidolonMinigunBombard.png",
+      "Name": "Tusk Heavy Gunner",
+      "Section": "Grineer"
+    },
+    "Shuffling Fragment": {
+      "Image": "ShufflingFragment.png",
+      "Name": "Shuffling Fragment",
+      "Section": "The Murmur"
+    },
+    "Corrupted Lancer Eximus": {
+      "Image": "OrokinRifleLancerAvatar.png",
+      "Name": "Corrupted Lancer Eximus",
+      "Section": "Orokin"
+    },
+    "Techrot Obsolyte Eximus": {
+      "Image": "InfestedAncient.png",
+      "Name": "Techrot Obsolyte Eximus",
+      "Section": "Techrot"
+    },
+    "Tusk Elite Lancer Eximus": {
+      "Image": "EidolonEliteRifleLancer.png",
+      "Name": "Tusk Elite Lancer Eximus",
+      "Section": "Grineer"
+    },
+    "Tusk Elite Lancer": {
+      "Image": "EidolonEliteRifleLancer.png",
+      "Name": "Tusk Elite Lancer",
+      "Section": "Grineer"
+    },
+    "Rogue Arcocanid Eximus": {
+      "Image": "RogueArcocanid.png",
+      "Name": "Rogue Arcocanid Eximus",
+      "Section": "The Murmur"
+    },
+    "Tusk Ballista": {
+      "Image": "EidolonGrineerFemale.png",
+      "Name": "Tusk Ballista",
+      "Section": "Grineer"
+    },
+    "Scaldra Dedicant": {
+      "Image": "LasrianNox.png",
+      "Name": "Scaldra Dedicant",
+      "Section": "Scaldra"
+    },
+    "Tusk Bolkor": {
+      "Image": "BigDripShip.png",
+      "Name": "Tusk Bolkor",
+      "Section": "Grineer"
+    },
+    "Tusk Ballista Eximus": {
+      "Image": "EidolonGrineerFemale.png",
+      "Name": "Tusk Ballista Eximus",
+      "Section": "Grineer"
+    },
+    "Trooper Eximus": {
+      "Image": "ShotgunLancerAvatar.png",
+      "Name": "Trooper Eximus",
+      "Section": "Grineer"
+    },
+    "Trinity Specter": {
+      "Image": "TrinityHelmet.png",
+      "Name": "Trinity Specter",
+      "Section": "Orokin"
+    },
+    "Treasurer": {
+      "Image": "Treasurer.png",
+      "Name": "Treasurer",
+      "Section": "Corpus"
+    },
+    "Torment": {
+      "Image": "ControlAcolyte.png",
+      "Name": "Torment",
+      "Section": "Stalker"
+    },
+    "Frontier Eviscerator": {
+      "Image": "ForestEviscerator.png",
+      "Name": "Frontier Eviscerator",
+      "Section": "Grineer"
+    },
+    "Equinox Specter": {
+      "Image": "EquinoxHelmet.png",
+      "Name": "Equinox Specter",
+      "Section": "Orokin"
+    },
+    "Tomb Protector": {
+      "Image": "SandmanBoss.png",
+      "Name": "Tomb Protector",
+      "Section": "Unaffiliated"
+    },
+    "Tia Mayn": {
+      "Image": "CCTeamCStealthAgent.png",
+      "Name": "Tia Mayn",
+      "Section": "Corpus"
+    },
+    "Kuva Butcher": {
+      "Image": "FortressBladeSawman.png",
+      "Name": "Kuva Butcher",
+      "Section": "Grineer"
+    },
+    "Thrax Centurion": {
+      "Image": "ThraxCenturion.png",
+      "Name": "Thrax Centurion",
+      "Section": "Unaffiliated"
+    },
+    "Vapos Tech Ranger": {
+      "Image": "VaposTechRanger.png",
+      "Name": "Vapos Tech Ranger",
+      "Section": "Corpus"
+    },
+    "Exo Eviscerator": {
+      "Image": "ExoEviscerator.png",
+      "Name": "Exo Eviscerator",
+      "Section": "Grineer"
+    },
+    "The Severed Warden Eximus": {
+      "Image": "TheSeveredWarden.png",
+      "Name": "The Severed Warden Eximus",
+      "Section": "The Murmur"
+    },
+    "Vapos Nullifier Ranger Eximus": {
+      "Image": "VaposNullifierRanger.png",
+      "Name": "Vapos Nullifier Ranger Eximus",
+      "Section": "Corpus"
+    },
+    "The Fragmented Suzerain": {
+      "Image": "TheFragmentedSuzerain.png",
+      "Name": "The Fragmented Suzerain",
+      "Section": "The Murmur"
+    },
+    "The Anatomizer": {
+      "Image": "TheAnatomizer.png",
+      "Name": "The Anatomizer",
+      "Section": "The Murmur"
+    },
+    "Terra Trencher Eximus": {
+      "Image": "TerraTrencher.png",
+      "Name": "Terra Trencher Eximus",
+      "Section": "Corpus"
+    },
+    "Terra Trencher": {
+      "Image": "TerraTrencher.png",
+      "Name": "Terra Trencher",
+      "Section": "Corpus"
+    },
+    "Terra Sniper Crewman Eximus": {
+      "Image": "TerraSniperCrewman.png",
+      "Name": "Terra Sniper Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Rogue Voidrig": {
+      "Image": "Voidrig.png",
+      "Name": "Rogue Voidrig",
+      "Section": "The Murmur"
+    },
+    "Brood Mother Eximus": {
+      "Image": "DiseasedAncient.png",
+      "Name": "Brood Mother Eximus",
+      "Section": "Infestation"
+    },
+    "Amalgam Alkonost": {
+      "Image": "AmalgamAlkonost.png",
+      "Name": "Amalgam Alkonost",
+      "Section": "Corpus"
+    },
+    "Demolisher Bailiff": {
+      "Image": "DemolisherBailiff.png",
+      "Name": "Demolisher Bailiff",
+      "Section": "Grineer"
+    },
+    "Juno Fog Comba": {
+      "Image": "JunoFogComba.png",
+      "Name": "Juno Fog Comba",
+      "Section": "Corpus"
+    },
+    "Axio Tech": {
+      "Image": "AxioTech.png",
+      "Name": "Axio Tech",
+      "Section": "Corpus"
+    },
+    "Kuva Hyekka Master": {
+      "Image": "FortressCatMaster.png",
+      "Name": "Kuva Hyekka Master",
+      "Section": "Grineer"
+    },
+    "Juno Crewman Eximus": {
+      "Image": "JunoCrewman.png",
+      "Name": "Juno Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Terra Shield Osprey": {
+      "Image": "TerraShieldOsprey.png",
+      "Name": "Terra Shield Osprey",
+      "Section": "Corpus"
+    },
+    "Deimos Ancient Healer Eximus": {
+      "Image": "HealingAncientMicroPlanetAvatar.png",
+      "Name": "Deimos Ancient Healer Eximus",
+      "Section": "Infestation"
+    },
+    "Vapos Nullifier": {
+      "Image": "GasNullifySpaceman.png",
+      "Name": "Vapos Nullifier",
+      "Section": "Corpus"
+    },
+    "Juno Tech": {
+      "Image": "JunoTech.png",
+      "Name": "Juno Tech",
+      "Section": "Corpus"
+    },
+    "Phorid": {
+      "Image": "QuadrupedVIPAvatar.png",
+      "Name": "Phorid",
+      "Section": "Infestation"
+    },
+    "Terra Plasmor Crewman Eximus": {
+      "Image": "TerraPlasmorCrewman.png",
+      "Name": "Terra Plasmor Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Terra Plasmor Crewman": {
+      "Image": "TerraPlasmorCrewman.png",
+      "Name": "Terra Plasmor Crewman",
+      "Section": "Corpus"
+    },
+    "Carrier": {
+      "Section": "Corpus",
+      "Image": "CrpShipSwarm.png",
+      "Name": "Carrier",
+      "Link": "Carrier (Enemy)"
+    },
+    "Terra Overtaker Eximus": {
+      "Image": "TerraOvertaker.png",
+      "Name": "Terra Overtaker Eximus",
+      "Section": "Corpus"
+    },
+    "Terra Manker MOA": {
+      "Image": "TerraMOA.png",
+      "Name": "Terra MOA",
+      "Section": "Corpus"
+    },
+    "Terra Jailer": {
+      "Image": "TerraJailer.png",
+      "Name": "Terra Jailer",
+      "Section": "Corpus"
+    },
+    "Terra Embattor MOA": {
+      "Image": "TerraEmbattorMOA.png",
+      "Name": "Terra Embattor MOA",
+      "Section": "Corpus"
+    },
+    "Terra Elite Raptor SX": {
+      "Image": "TerraEliteRaptorSX.png",
+      "Name": "Terra Elite Raptor SX",
+      "Section": "Corpus"
+    },
+    "Terra Elite Provisor Eximus": {
+      "Image": "TerraEliteProvisor.png",
+      "Name": "Terra Elite Provisor Eximus",
+      "Section": "Corpus"
+    },
+    "Terra Elite Provisor": {
+      "Image": "TerraEliteProvisor.png",
+      "Name": "Terra Elite Provisor",
+      "Section": "Corpus"
+    },
+    "Terra Elite Embattor MOA Eximus": {
+      "Image": "TerraEliteEmbattorMOA.png",
+      "Name": "Terra Elite Embattor MOA Eximus",
+      "Section": "Corpus"
+    },
+    "Axio Nullifier Crewman": {
+      "Image": "AxioNullifierCrewman.png",
+      "Name": "Axio Nullifier Crewman",
+      "Section": "Corpus"
+    },
+    "Mitosid Eximus": {
+      "Image": "Mitosid.png",
+      "Name": "Mitosid Eximus",
+      "Section": "Infestation"
+    },
+    "Azoth": {
+      "Image": "CCTeamBHyenaAgent.png",
+      "Name": "Azoth",
+      "Section": "Corpus"
+    },
+    "Ancient Disruptor": {
+      "Image": "AncientAvatar.png",
+      "Name": "Ancient Disruptor",
+      "Section": "Infestation"
+    },
+    "Shield Osprey": {
+      "Caption": "Venus Proxima",
+      "Image": "OspreyShield.png",
+      "Name": "Shield Osprey",
+      "Section": "Corpus"
+    },
+    "Terra Elite Crewman": {
+      "Image": "TerraEliteCrewman.png",
+      "Name": "Terra Elite Crewman",
+      "Section": "Corpus"
+    },
+    "The Hollow Vein Eximus": {
+      "Image": "TheHollowVein.png",
+      "Name": "The Hollow Vein Eximus",
+      "Section": "The Murmur"
+    },
+    "M-W.A.M.": {
+      "Image": "CCTeamCMoaAgent.png",
+      "Name": "M-W.A.M.",
+      "Section": "Corpus"
+    },
+    "Corpus Cestra Target": {
+      "Image": "CorpusCestraTarget.png",
+      "Name": "Corpus Cestra Target",
+      "Section": "Corpus"
+    },
+    "Deimos Carnis Eximus": {
+      "Image": "AshenAvatar.png",
+      "Name": "Deimos Carnis Eximus",
+      "Section": "Infestation"
+    },
+    "Scrofa Crewman Eximus": {
+      "Image": "NokkoEliteSpaceman.png",
+      "Name": "Scrofa Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Tusk Shield Lancer": {
+      "Image": "EidolonShieldLancer.png",
+      "Name": "Tusk Shield Lancer",
+      "Section": "Grineer"
+    },
+    "Mag Specter": {
+      "Image": "MagHelmet.png",
+      "Name": "Mag Specter",
+      "Section": "Orokin"
+    },
+    "Techrot Obsolyte": {
+      "Image": "InfestedAncient.png",
+      "Name": "Techrot Obsolyte",
+      "Section": "Techrot"
+    },
+    "Techrot Matmas Eximus": {
+      "Image": "InfestedUnadoza.png",
+      "Name": "Techrot Matmas Eximus",
+      "Section": "Techrot"
+    },
+    "Frogmouthed Sawgaw": {
+      "Section": "Unaffiliated",
+      "Image": "SnowBirdRare.png",
+      "Name": "Frogmouthed Sawgaw",
+      "Link": "Conservation"
+    },
+    "Techrot Galliflex": {
+      "Image": "TechrotRunner.png",
+      "Name": "Techrot Galliflex",
+      "Section": "Techrot"
+    },
+    "Nightwatch Gunner": {
+      "Section": "Grineer",
+      "Image": "NightwatchBombard.png",
+      "Name": "Nightwatch Gunner",
+      "Link": "Bombard"
+    },
+    "Techrot Babau Eximus": {
+      "Image": "InfestedBabau.png",
+      "Name": "Techrot Babau Eximus",
+      "Section": "Techrot"
+    },
+    "Taro Zerca": {
+      "Image": "TaroZerca.png",
+      "Name": "Taro Zerca",
+      "Section": "Corpus"
+    },
+    "Taro Tech": {
+      "Image": "TaroTech.png",
+      "Name": "Taro Tech",
+      "Section": "Corpus"
+    },
+    "Taro Shockwave MOA": {
+      "Image": "TaroShockwaveMOA.png",
+      "Name": "Taro Shockwave MOA",
+      "Section": "Corpus"
+    },
+    "Swimmer Horrasque": {
+      "Section": "Unaffiliated",
+      "Image": "HorrasqueUncommon.png",
+      "Name": "Swimmer Horrasque",
+      "Link": "Conservation"
+    },
+    "Taro Shield Osprey": {
+      "Image": "TaroSecuraOsprey.png",
+      "Name": "Taro Shield Osprey",
+      "Section": "Corpus"
+    },
+    "Sunny Pobber": {
+      "Section": "Unaffiliated",
+      "Image": "PobberCommon.png",
+      "Name": "Sunny Pobber",
+      "Link": "Conservation"
+    },
+    "Deimos Undying Flyer": {
+      "Section": "Infestation",
+      "Image": "UndyingFlyer.png",
+      "Name": "Deimos Undying Flyer",
+      "Link": "Undying Flyer"
+    },
+    "Nightwatch Reaver": {
+      "Image": "NightwatchReaver.png",
+      "Name": "Nightwatch Reaver",
+      "Section": "Grineer"
+    },
+    "Taro Secura Osprey": {
+      "Image": "TaroSecuraOsprey.png",
+      "Name": "Taro Secura Osprey",
+      "Section": "Corpus"
+    },
+    "Taro Ranger Crewman": {
+      "Image": "TaroRangerCrewman.png",
+      "Name": "Taro Ranger Crewman",
+      "Section": "Corpus"
+    },
+    "Dargyn Pilot": {
+      "Image": "EidolonSkiffPilot.png",
+      "Name": "Dargyn Pilot",
+      "Section": "Grineer"
+    },
+    "Taro Numon": {
+      "Image": "TaroNumon.png",
+      "Name": "Taro Numon",
+      "Section": "Corpus"
+    },
+    "Taro MOA": {
+      "Image": "TaroMOA.png",
+      "Name": "Taro MOA",
+      "Section": "Corpus"
+    },
+    "Lancer Eximus": {
+      "Image": "LancerDE.png",
+      "Name": "Lancer Eximus",
+      "Section": "Grineer"
+    },
+    "Taro Engineer": {
+      "Image": "TaroEngineer.png",
+      "Name": "Taro Engineer",
+      "Section": "Corpus"
+    },
+    "Basal Diploid Eximus": {
+      "Image": "BasalDiploid.png",
+      "Name": "Basal Diploid Eximus",
+      "Section": "Infestation"
+    },
+    "Tar Mutalist MOA Eximus": {
+      "Image": "SlowInfestedMoa.png",
+      "Name": "Tar Mutalist MOA Eximus",
+      "Section": "Infestation"
+    },
+    "Tar Mutalist MOA": {
+      "Image": "SlowInfestedMoa.png",
+      "Name": "Tar Mutalist MOA",
+      "Section": "Infestation"
+    },
+    "Kosma Taktis": {
+      "Image": "KosmaTaktis.png",
+      "Name": "Kosma Taktis",
+      "Section": "Grineer"
+    },
+    "Syzygy Sniper Ranger Eximus": {
+      "Image": "NokkoInfSniper.png",
+      "Name": "Syzygy Sniper Ranger Eximus",
+      "Section": "Other"
+    },
+    "Drudge Scrapper": {
+      "Image": "DrudgeScrapper.png",
+      "Name": "Drudge Scrapper",
+      "Section": "Grineer"
+    },
+    "Exo Raider": {
+      "Image": "ExoRaider.png",
+      "Name": "Exo Raider",
+      "Section": "Grineer"
+    },
+    "Syzygy Sniper Ranger": {
+      "Image": "NokkoInfSniper.png",
+      "Name": "Syzygy Sniper Ranger",
+      "Section": "Other"
+    },
+    "Nemes RangerT": {
+      "Section": "Corpus",
+      "Image": "RaptorDrone.png",
+      "Name": "Nemes RT",
+      "Link": "Nemes"
+    },
+    "Kuva Seeker": {
+      "Image": "FortressGrineerMarinePistol.png",
+      "Name": "Kuva Seeker",
+      "Section": "Grineer"
+    },
+    "Kubrow": {
+      "Section": "Unaffiliated",
+      "Image": "DEKubrow.png",
+      "Name": "Kubrow",
+      "Link": "Feral Kubrow"
+    },
+    "Misery": {
+      "Image": "AreaCasterAcolyte.png",
+      "Name": "Misery",
+      "Section": "Stalker"
+    },
+    "Syzygy Mite Raknoid": {
+      "Image": "NokkoInfMini.png",
+      "Name": "Syzygy Mite Raknoid",
+      "Section": "Other"
+    },
+    "Syzygy Denial Bursa": {
+      "Image": "NokkoInfRiotBipedControl.png",
+      "Name": "Syzygy Denial Bursa",
+      "Section": "Other"
+    },
+    "Subterranean Pobber": {
+      "Section": "Unaffiliated",
+      "Image": "PobberRare.png",
+      "Name": "Subterranean Pobber",
+      "Link": "Conservation"
+    },
+    "Stalker": {
+      "Image": "Stalker_d.png",
+      "Name": "Stalker",
+      "Section": "Stalker"
+    },
+    "Sprag": {
+      "Image": "Sprag.png",
+      "Name": "Sprag",
+      "Section": "Grineer"
+    },
+    "Spotted Bolarola": {
+      "Section": "Unaffiliated",
+      "Image": "BolarolaCommon.png",
+      "Name": "Spotted Bolarola",
+      "Link": "Conservation"
+    },
+    "Sporule Avichaea": {
+      "Section": "Unaffiliated",
+      "Image": "SporuleAvichaea.png",
+      "Name": "Sporule Avichaea",
+      "Link": "Conservation"
+    },
+    "Sly Vulpaphyla": {
+      "Section": "Unaffiliated",
+      "Image": "InfestedCritterA.png",
+      "Name": "Sly Vulpaphyla",
+      "Link": "Conservation"
+    },
+    "Slo Scrambus": {
+      "Image": "SloScrambus.png",
+      "Name": "Slo Scrambus",
+      "Section": "Corpus"
+    },
+    "Orphix": {
+      "Image": "Condrix.png",
+      "Name": "Orphix",
+      "Section": "Sentient"
+    },
+    "Narmer Hellion": {
+      "Image": "NarmerJetpackMarine.png",
+      "Name": "Narmer Hellion",
+      "Section": "Narmer"
+    },
+    "Tusk Firbolg": {
+      "Image": "GrineerDropShip.png",
+      "Name": "Tusk Firbolg",
+      "Section": "Grineer"
+    },
+    "Sikula": {
+      "Image": "WaterMineDrone.png",
+      "Name": "Sikula",
+      "Section": "Grineer"
+    },
+    "Shockwave MOA": {
+      "Image": "MoaShockwave.png",
+      "Name": "Shockwave MOA",
+      "Section": "Corpus"
+    },
+    "Shield Osprey Eximus": {
+      "Image": "OspreyShield.png",
+      "Name": "Shield Osprey Eximus",
+      "Section": "Corpus"
+    },
+    "Shield Lancer": {
+      "Image": "ShieldLancerAvatar.png",
+      "Name": "Shield Lancer",
+      "Section": "Grineer"
+    },
+    "Kuva Roller": {
+      "Image": "RollingDroneAvatar.png",
+      "Name": "Kuva Roller",
+      "Section": "Grineer"
+    },
+    "Elite Frontier Lancer": {
+      "Image": "ForestEliteLancer.png",
+      "Name": "Elite Frontier Lancer",
+      "Section": "Grineer"
+    },
+    "Senta Turret (Orb Vallis)": {
+      "Image": "CodexObjTurret.png",
+      "Name": "Senta Turret",
+      "Link": "Turret#Senta Turret (Orb Vallis)",
+      "Caption": "Orb Vallis",
+      "Section": "Corpus"
+    },
+    "Prosecutor": {
+      "Image": "GrineerProsecutor.png",
+      "Name": "Prosecutor",
+      "Section": "Grineer"
+    },
+    "Scaldra Barbican Eximus": {
+      "Image": "LasrianShieldLancer.png",
+      "Name": "Scaldra Barbican Eximus",
+      "Section": "Scaldra"
+    },
+    "Elite Crewman Eximus": {
+      "Image": "CrewmanElite.png",
+      "Name": "Elite Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Scathing Whisper": {
+      "Image": "DoppelgangerAvatar.png",
+      "Name": "Scathing Whisper",
+      "Section": "The Murmur"
+    },
+    "Sensor Regulator": {
+      "Image": "RegulatorDE.png",
+      "Name": "Sensor Regulator",
+      "Section": "Grineer"
+    },
+    "Datalyst": {
+      "Image": "CorpusArtificer.png",
+      "Name": "Datalyst",
+      "Section": "Corpus"
+    },
+    "Scrofa Sniper Ranger": {
+      "Image": "NokkoSniper.png",
+      "Name": "Scrofa Sniper Ranger",
+      "Section": "Corpus"
+    },
+    "The Raptor": {
+      "Image": "RaptorTwoLaser.png",
+      "Name": "The Raptor",
+      "Section": "Corpus"
+    },
+    "Scrofa Shield Osprey Eximus": {
+      "Image": "NokkoFlyingSupport.png",
+      "Name": "Scrofa Shield Osprey Eximus",
+      "Section": "Corpus"
+    },
+    "Scrofa Shield Osprey": {
+      "Image": "NokkoFlyingSupport.png",
+      "Name": "Scrofa Shield Osprey",
+      "Section": "Corpus"
+    },
+    "Scrofa Railgun Moa": {
+      "Image": "NokkoRailgunBiped.png",
+      "Name": "Scrofa Railgun Moa",
+      "Section": "Corpus"
+    },
+    "Scrofa Plasmor Crewman": {
+      "Image": "NokkoShotgunSpaceman.png",
+      "Name": "Scrofa Plasmor Crewman",
+      "Section": "Corpus"
+    },
+    "Scrofa Obviator": {
+      "Image": "NokkoFlyingNullify.png",
+      "Name": "Scrofa Obviator",
+      "Section": "Corpus"
+    },
+    "Scrofa Mine Osprey Eximus": {
+      "Image": "NokkoMineDrone.png",
+      "Name": "Scrofa Mine Osprey Eximus",
+      "Section": "Corpus"
+    },
+    "Sap Scrambus": {
+      "Image": "SapScrambus.png",
+      "Name": "Sap Scrambus",
+      "Section": "Corpus"
+    },
+    "Saturn Six Fugitive": {
+      "Image": "WolfGangster.png",
+      "Name": "Saturn Six Fugitive",
+      "Section": "Unaffiliated"
+    },
+    "Scrofa Light Trencher": {
+      "Image": "NokkoMeleeLight.png",
+      "Name": "Scrofa Light Trencher",
+      "Section": "Corpus"
+    },
+    "Amalgam Kucumatz Eximus": {
+      "Image": "AmalgamKucumatz.png",
+      "Name": "Amalgam Kucumatz Eximus",
+      "Section": "Corpus"
+    },
+    "Machinist": {
+      "Image": "CorpusMachinist.png",
+      "Name": "Machinist",
+      "Section": "Corpus"
+    },
+    "Artificer": {
+      "Image": "GrineerArtificer.png",
+      "Name": "Artificer",
+      "Section": "Grineer"
+    },
+    "Scrofa Joro Raknoid": {
+      "Image": "NokkoBaseRaknoidVIP.png",
+      "Name": "Scrofa Joro raknoid",
+      "Section": "Corpus"
+    },
+    "Jordas Golem": {
+      "Image": "J3Golem.png",
+      "Name": "Jordas Golem",
+      "Section": "Infestation"
+    },
+    "Minima MOA": {
+      "Image": "MinimaMOA.png",
+      "Name": "Minima MOA",
+      "Section": "Corpus"
+    },
+    "Scrofa Heavy Trencher": {
+      "Image": "NokkoMeleeHeavy.png",
+      "Name": "Scrofa Heavy Trencher",
+      "Section": "Corpus"
+    },
+    "Scrofa Grenadier Crewman Eximus": {
+      "Image": "NokkoRangedHeavy.png",
+      "Name": "Scrofa Grenadier Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Scrofa Grenadier Crewman": {
+      "Image": "NokkoRangedHeavy.png",
+      "Name": "Scrofa Grenadier Crewman",
+      "Section": "Corpus"
+    },
+    "Deimos Juggernaut Eximus": {
+      "Image": "JuggernautMicroPlanetCasualAvatar.png",
+      "Name": "Deimos Juggernaut Eximus",
+      "Section": "Infestation"
+    },
+    "Frontier Heavy Gunner Eximus": {
+      "Image": "ForestHeavyGunner.png",
+      "Name": "Frontier Heavy Gunner Eximus",
+      "Section": "Grineer"
+    },
+    "Scrofa Elite Crewman Eximus": {
+      "Image": "NokkoHeavyEliteSpaceman.png",
+      "Name": "Scrofa Elite Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Mitosidus MOA": {
+      "Section": "Corpus",
+      "Image": "MOADE.png",
+      "Name": "MOA",
+      "Link": "MOA"
+    },
+    "Conculyst": {
+      "Image": "SentientMeleeTrooper.png",
+      "Name": "Conculyst",
+      "Section": "Sentient"
+    },
+    "Juno Shield Osprey": {
+      "Image": "JunoShieldOsprey.png",
+      "Name": "Juno Shield Osprey",
+      "Section": "Corpus"
+    },
+    "Scrofa Demolition Director": {
+      "Image": "NokkoColonyVIPAvatarA.png",
+      "Name": "Scrofa Demolition Director",
+      "Section": "Corpus"
+    },
+    "Scrofa Attack Drone Eximus": {
+      "Image": "NokkoFlyingAttack.png",
+      "Name": "Scrofa Attack Drone Eximus",
+      "Section": "Corpus"
+    },
+    "Scrofa Armaments Director": {
+      "Image": "NokkoBaseCorpusVIP.png",
+      "Name": "Scrofa Armaments Director",
+      "Section": "Corpus"
+    },
+    "Corrupted Crewman Eximus": {
+      "Image": "OrokinRifleSpacemanAvatar.png",
+      "Name": "Corrupted Crewman Eximus",
+      "Section": "Orokin"
+    },
+    "Scaldra Jaeger Eximus": {
+      "Image": "LasrianLancer.png",
+      "Name": "Scaldra Jaeger Eximus",
+      "Section": "Scaldra"
+    },
+    "Scavenger Drone": {
+      "Image": "OspreyScavenger.png",
+      "Name": "Scavenger Drone",
+      "Section": "Corpus"
+    },
+    "Scarlet Nexifera": {
+      "Section": "Unaffiliated",
+      "Image": "ScarletNexifera.png",
+      "Name": "Scarlet Nexifera",
+      "Link": "Conservation"
+    },
+    "Kuva Powerclaw": {
+      "Image": "FortressPistonSawman.png",
+      "Name": "Kuva Powerclaw",
+      "Section": "Grineer"
+    },
+    "Elite Lancer Eximus": {
+      "Image": "EliteRifleLancerAvatar.png",
+      "Name": "Elite Lancer Eximus",
+      "Section": "Grineer"
+    },
+    "Scaldra Eradicator Eximus": {
+      "Image": "LasrianGoonadier.png",
+      "Name": "Scaldra Eradicator Eximus",
+      "Section": "Scaldra"
+    },
+    "Scaldra Dedicant Eximus": {
+      "Image": "LasrianNox.png",
+      "Name": "Scaldra Dedicant Eximus",
+      "Section": "Scaldra"
+    },
+    "Senta Turret": {
+      "Section": "Corpus",
+      "Image": "FortressAutoTurret.png",
+      "Name": "Senta Turret",
+      "Link": "Turret#Senta Turret"
+    },
+    "Mitosid": {
+      "Image": "Mitosid.png",
+      "Name": "Mitosid",
+      "Section": "Infestation"
+    },
+    "Kosma Gokstad Crewship": {
+      "Image": "KosmaGokstadCrewship.png",
+      "Name": "Kosma Gokstad Crewship",
+      "Section": "Grineer"
+    },
+    "Scaldra Harbinger Eximus": {
+      "Image": "LasrianDrone.png",
+      "Name": "Scaldra Harbinger Eximus",
+      "Section": "Scaldra"
+    },
+    "Tusk Carabus": {
+      "Image": "EidolonVipGruntDrone.png",
+      "Name": "Tusk Carabus",
+      "Section": "Grineer"
+    },
+    "Kosma Ramsled": {
+      "Image": "Ramsled.png",
+      "Name": "Kosma Ramsled",
+      "Section": "Grineer"
+    },
+    "Vorac Elite Crewman": {
+      "Image": "VoracEliteCrewman.png",
+      "Name": "Vorac Elite Crewman",
+      "Section": "Corpus"
+    },
+    "Narmer Mine Osprey": {
+      "Image": "NarmerCorpusMineDrone.png",
+      "Name": "Narmer Mine Osprey",
+      "Section": "Narmer"
+    },
+    "Kuva Ballista Eximus": {
+      "Image": "FortressGrineerFemale.png",
+      "Name": "Kuva Ballista Eximus",
+      "Section": "Grineer"
+    },
+    "Scaldra Flayer": {
+      "Image": "LasrianButcher.png",
+      "Name": "Scaldra Flayer",
+      "Section": "Scaldra"
+    },
+    "Scrofa Mine Osprey": {
+      "Image": "NokkoMineDrone.png",
+      "Name": "Scrofa Mine Osprey",
+      "Section": "Corpus"
+    },
+    "Demolisher Voidrig (2)": {
+      "Image": "Voidrig.png",
+      "Name": "Demolisher Voidrig",
+      "Section": "The Murmur"
+    },
+    "Guardsman": {
+      "Image": "GrineerProsecutor.png",
+      "Name": "Guardsman",
+      "Section": "Grineer"
+    },
+    "Orm Numon": {
+      "Image": "OrmNumon.png",
+      "Name": "Orm Numon",
+      "Section": "Corpus"
+    },
+    "Sap Comba": {
+      "Image": "SapComba.png",
+      "Name": "Sap Comba",
+      "Section": "Corpus"
+    },
+    "Bombard Eximus": {
+      "Image": "RocketBombardAvatar.png",
+      "Name": "Bombard Eximus",
+      "Section": "Grineer"
+    },
+    "Vorac Weaver": {
+      "Image": "VoracWeaver.png",
+      "Name": "Vorac Weaver",
+      "Section": "Corpus"
+    },
+    "Ropalolyst": {
+      "Image": "Ropalolyst.png",
+      "Name": "Ropalolyst",
+      "Section": "Sentient"
+    },
+    "Roller Eximus": {
+      "Image": "RollingDroneAvatar.png",
+      "Name": "Roller Eximus",
+      "Section": "Grineer"
+    },
+    "Mocking Whisper": {
+      "Image": "DoppelgangerAvatar.png",
+      "Name": "Mocking Whisper",
+      "Section": "The Murmur"
+    },
+    "Rogue Voidrig Eximus": {
+      "Image": "Voidrig.png",
+      "Name": "Rogue Voidrig Eximus",
+      "Section": "The Murmur"
+    },
+    "Vapos MOA Eximus": {
+      "Image": "VaposMoa.png",
+      "Name": "Vapos MOA Eximus",
+      "Section": "Corpus"
+    },
+    "Rogue Bonewidow": {
+      "Image": "Bonewidow.png",
+      "Name": "Rogue Bonewidow",
+      "Section": "The Murmur"
+    },
+    "Razorback": {
+      "Image": "ArmoredJackal.png",
+      "Name": "Razorback",
+      "Section": "Corpus"
+    },
+    "Raptor NS": {
+      "Image": "RaptorTwoMortar.png",
+      "Name": "Raptor NS",
+      "Section": "Corpus"
+    },
+    "Raptor MT": {
+      "Image": "RaptorTwoCarrier.png",
+      "Name": "Raptor MT",
+      "Section": "Corpus"
+    },
+    "Vorac Harpi": {
+      "Image": "VoracHarpi.png",
+      "Name": "Vorac Harpi",
+      "Section": "Corpus"
+    },
+    "Demolisher Bonewidow": {
+      "Image": "Bonewidow.png",
+      "Name": "Demolisher Bonewidow",
+      "Section": "The Murmur"
+    },
+    "Railgun MOA": {
+      "Image": "MoaRailgun.png",
+      "Name": "Railgun MOA",
+      "Section": "Corpus"
+    },
+    "Kuva Scorch Eximus": {
+      "Image": "FortressFlameLancer.png",
+      "Name": "Kuva Scorch Eximus",
+      "Section": "Grineer"
+    },
+    "Kuva Scorpion": {
+      "Image": "FortressMacheteWoman.png",
+      "Name": "Kuva Scorpion",
+      "Section": "Grineer"
+    },
+    "Quanta Ranger Eximus": {
+      "Image": "JetpackCrewmamQuanta.png",
+      "Name": "Quanta Ranger Eximus",
+      "Section": "Corpus"
+    },
+    "Elite Vorac Weaver": {
+      "Image": "VoracWeaverElite.png",
+      "Name": "Elite Vorac Weaver",
+      "Section": "Corpus"
+    },
+    "Protea Specter": {
+      "Image": "Protea_Thumb.png",
+      "Name": "Protea Specter",
+      "Section": "Corpus"
+    },
+    "Profit-Taker Orb": {
+      "Image": "ProfitTakerOrb.png",
+      "Name": "Profit-Taker Orb",
+      "Section": "Corpus"
+    },
+    "Powerfist Eximus": {
+      "Image": "PistonSawmanAvatar.png",
+      "Name": "Powerfist Eximus",
+      "Section": "Grineer"
+    },
+    "Orokin Sentry": {
+      "Image": "OrokinSentry.png",
+      "Name": "Orokin Sentry",
+      "Section": "Orokin"
+    },
+    "Drekar Manic Bombard": {
+      "Image": "SeaLabManicBombard.png",
+      "Name": "Drekar Manic Bombard",
+      "Section": "Grineer"
+    },
+    "Penta Ranger": {
+      "Image": "JetpackCrewmanPenta.png",
+      "Name": "Penta Ranger",
+      "Section": "Corpus"
+    },
+    "Oxium Osprey": {
+      "Image": "OspreySuicide.png",
+      "Name": "Oxium Osprey",
+      "Section": "Corpus"
+    },
+    "Orokin Spectator Eximus": {
+      "Image": "OrokinShieldDroneAvatar.png",
+      "Name": "Orokin Spectator Eximus",
+      "Section": "Orokin"
+    },
+    "Orokin Drone Eximus": {
+      "Image": "OrokinShieldDroneAvatar.png",
+      "Name": "Orokin Drone Eximus",
+      "Section": "Orokin"
+    },
+    "Orm Vambac": {
+      "Image": "OrmVambac.png",
+      "Name": "Orm Vambac",
+      "Section": "Corpus"
+    },
+    "Orm Tech": {
+      "Image": "OrmTech.png",
+      "Name": "Orm Tech",
+      "Section": "Corpus"
+    },
+    "Orm Shield Osprey": {
+      "Image": "OrmShieldOsprey.png",
+      "Name": "Orm Shield Osprey",
+      "Section": "Corpus"
+    },
+    "Orm Ranger Crewman": {
+      "Image": "OrmRangerCrewman.png",
+      "Name": "Orm Ranger Crewman",
+      "Section": "Corpus"
+    },
+    "Elementa Culverin Eximus": {
+      "Image": "RogueCulverin.png",
+      "Name": "Elementa Culverin Eximus",
+      "Section": "The Murmur"
+    },
+    "Crewman": {
+      "Image": "CrewmanNormal.png",
+      "Name": "Crewman",
+      "Section": "Corpus"
+    },
+    "Orm Pilot": {
+      "Image": "OrmPilot.png",
+      "Name": "Orm Pilot",
+      "Section": "Corpus"
+    },
+    "Saryn Specter": {
+      "Image": "SarynHelmet.png",
+      "Name": "Saryn Specter",
+      "Section": "Orokin"
+    },
+    "Drekar Eviscerator Eximus": {
+      "Image": "SeaLabEviscerator.png",
+      "Name": "Drekar Eviscerator Eximus",
+      "Section": "Grineer"
+    },
+    "Eidolon Gantulyst": {
+      "Image": "TeralystBig.png",
+      "Name": "Eidolon Gantulyst",
+      "Section": "Sentient"
+    },
+    "Orm Nullifier Crewman": {
+      "Image": "OrmNullifierCrewman.png",
+      "Name": "Orm Nullifier Crewman",
+      "Section": "Corpus"
+    },
+    "Orm MOA": {
+      "Image": "OrmMOA.png",
+      "Name": "Orm MOA",
+      "Section": "Corpus"
+    },
+    "Orm Gox": {
+      "Image": "OrmGox.png",
+      "Name": "Orm Gox",
+      "Section": "Corpus"
+    },
+    "Orm Elite Crewman": {
+      "Image": "OrmEliteCrewman.png",
+      "Name": "Orm Elite Crewman",
+      "Section": "Corpus"
+    },
+    "Runner": {
+      "Image": "InfestedRunner.png",
+      "Name": "Runner",
+      "Section": "Infestation"
+    },
+    "Grineer Warden Eximus": {
+      "Image": "DEGrineerWarden.png",
+      "Name": "Grineer Warden Eximus",
+      "Section": "Grineer"
+    },
+    "Tusk Eviscerator Eximus": {
+      "Image": "EidolonEvisceratorLancer.png",
+      "Name": "Tusk Eviscerator Eximus",
+      "Section": "Grineer"
+    },
+    "Nox": {
+      "Image": "Nox.png",
+      "Name": "Nox",
+      "Section": "Grineer"
+    },
+    "Kuva Eviscerator": {
+      "Image": "FortressEviseratorLancer.png",
+      "Name": "Kuva Eviscerator",
+      "Section": "Grineer"
+    },
+    "Nightwatch Manic": {
+      "Image": "NightwatchManic.png",
+      "Name": "Nightwatch Manic",
+      "Section": "Grineer"
+    },
+    "Common Condroc": {
+      "Section": "Unaffiliated",
+      "Image": "CondrocCommon.png",
+      "Name": "Common Condroc",
+      "Link": "Conservation"
+    },
+    "Gyre Raider Eviscerator": {
+      "Image": "GyreRaiderEviscerator.png",
+      "Name": "Gyre Raider Eviscerator",
+      "Section": "Grineer"
+    },
+    "Exo Gokstad Crewship": {
+      "Image": "ExoGokstadCrewship.png",
+      "Name": "Exo Gokstad Crewship",
+      "Section": "Grineer"
+    },
+    "Feral Diploid": {
+      "Image": "FeralDiploid.png",
+      "Name": "Feral Diploid",
+      "Section": "Infestation"
+    },
+    "Nightwatch Carrier": {
+      "Image": "NightwatchCarrierLancer.png",
+      "Name": "Nightwatch Carrier",
+      "Section": "Grineer"
+    },
+    "Nightwatch Brunt Lancer": {
+      "Image": "NightwatchBruntLancer.png",
+      "Name": "Nightwatch Brunt Lancer",
+      "Section": "Grineer"
+    },
+    "Narmer Sapping Osprey": {
+      "Image": "NarmerCorpusDiscDrone.png",
+      "Name": "Narmer Sapping Osprey",
+      "Section": "Narmer"
+    },
+    "Gyre Cutter": {
+      "Image": "GyreCutter.png",
+      "Name": "Gyre Cutter",
+      "Section": "Grineer"
+    },
+    "Narmer Shield Lancer": {
+      "Image": "NarmerShieldLancer.png",
+      "Name": "Narmer Shield Lancer",
+      "Section": "Narmer"
+    },
+    "Nephil Vasca Kavat": {
+      "Section": "Unaffiliated",
+      "Image": "VascaKavatRare.png",
+      "Name": "Nephil Vasca Kavat",
+      "Link": "Conservation"
+    },
+    "Narmer Raknoid": {
+      "Image": "NarmerBossArachnoid.png",
+      "Name": "Narmer Raknoid",
+      "Section": "Narmer"
+    },
+    "Narmer Napalm": {
+      "Image": "NarmerIncendiaryBombard.png",
+      "Name": "Narmer Napalm",
+      "Section": "Narmer"
+    },
+    "Narmer Lancer": {
+      "Image": "NarmerRifleLancer.png",
+      "Name": "Narmer Lancer",
+      "Section": "Narmer"
+    },
+    "Narmer Jailer": {
+      "Image": "NarmerCorpusGuard.png",
+      "Name": "Narmer Jailer",
+      "Section": "Narmer"
+    },
+    "Gruzzling Eximus": {
+      "Image": "Gruzzling.png",
+      "Name": "Gruzzling Eximus",
+      "Section": "The Murmur"
+    },
+    "Narmer Detron Crewman": {
+      "Image": "NarmerCorpusShotgun.png",
+      "Name": "Narmer Detron Crewman",
+      "Section": "Narmer"
+    },
+    "Narmer Dera MOA": {
+      "Image": "NarmerCorpusDeraMoa.png",
+      "Name": "Narmer Dera MOA",
+      "Section": "Narmer"
+    },
+    "Eviscerator Eximus": {
+      "Image": "EliteShotgunLancerAvatar.png",
+      "Name": "Eviscerator Eximus",
+      "Section": "Grineer"
+    },
+    "Arid Trooper Eximus": {
+      "Image": "DesertShotgunLancerAvatar.png",
+      "Name": "Arid Trooper Eximus",
+      "Section": "Grineer"
+    },
+    "Napalm": {
+      "Image": "IncendiaryBombardAvatar.png",
+      "Name": "Napalm",
+      "Section": "Grineer"
+    },
+    "Kuva Siphon": {
+      "Image": "KuvaSiphon.png",
+      "Name": "Kuva Siphon",
+      "Section": "Grineer"
+    },
+    "Hurling Fragment": {
+      "Image": "HurlingFragment.png",
+      "Name": "Hurling Fragment",
+      "Section": "The Murmur"
+    },
+    "Nako Xol": {
+      "Image": "CCTeamARifleAgent.png",
+      "Name": "Nako Xol",
+      "Section": "Corpus"
+    },
+    "Mutalist Osprey Carrier": {
+      "Image": "InfestedOsprey.png",
+      "Name": "Mutalist Osprey Carrier",
+      "Section": "Infestation"
+    },
+    "Lobber Crawler Eximus": {
+      "Image": "GrenadeAvatar.png",
+      "Name": "Lobber Crawler Eximus",
+      "Section": "Infestation"
+    },
+    "Executioner Harkonar": {
+      "Image": "GrineerSniper.png",
+      "Name": "Executioner Harkonar",
+      "Section": "Grineer"
+    },
+    "Mutalist Osprey": {
+      "Image": "InfestedOsprey.png",
+      "Name": "Mutalist Osprey",
+      "Section": "Infestation"
+    },
+    "Drekar Lancer": {
+      "Image": "SeaLabLancer.png",
+      "Name": "Drekar Lancer",
+      "Section": "Grineer"
+    },
+    "Scaldra Flayer Eximus": {
+      "Image": "LasrianButcher.png",
+      "Name": "Scaldra Flayer Eximus",
+      "Section": "Scaldra"
+    },
+    "Mine Osprey Eximus": {
+      "Image": "MineOspreyDE.png",
+      "Name": "Mine Osprey Eximus",
+      "Section": "Corpus"
+    },
+    "Manic Bombard Eximus": {
+      "Image": "GrineerManicBombard.png",
+      "Name": "Manic Bombard Eximus",
+      "Section": "Grineer"
+    },
+    "Manic Bombard": {
+      "Image": "GrineerManicBombard.png",
+      "Name": "Manic Bombard",
+      "Section": "Grineer"
+    },
+    "Mania": {
+      "Image": "RogueAcolyte.png",
+      "Name": "Mania",
+      "Section": "Stalker"
+    },
+    "Exo Raider Carver": {
+      "Image": "ExoRaiderCarver.png",
+      "Name": "Exo Raider Carver",
+      "Section": "Grineer"
+    },
+    "Vorac Ranger Crewman": {
+      "Image": "VoracRangerCrewman.png",
+      "Name": "Vorac Ranger Crewman",
+      "Section": "Corpus"
+    },
+    "Demolyst Heqet": {
+      "Image": "DemolystHeqet.png",
+      "Name": "Demolyst Heqet",
+      "Section": "Corpus"
+    },
+    "Tusk Predator Eximus": {
+      "Image": "EidolonPredator.png",
+      "Name": "Tusk Predator Eximus",
+      "Section": "Grineer"
+    },
+    "Lektro Commander": {
+      "Image": "LektroCommander.png",
+      "Name": "Lektro Commander",
+      "Section": "Grineer"
+    },
+    "Leekter": {
+      "Image": "DeathSquadBrown.png",
+      "Name": "Leekter",
+      "Section": "Grineer"
+    },
+    "Leaper Eximus": {
+      "Image": "LeapingRunnerAvatar.png",
+      "Name": "Leaper Eximus",
+      "Section": "Infestation"
+    },
+    "Juno Glaxion MOA Eximus": {
+      "Image": "JunoGlaxionMOA.png",
+      "Name": "Juno Glaxion MOA Eximus",
+      "Section": "Corpus"
+    },
+    "Leaper": {
+      "Image": "LeapingRunnerAvatar.png",
+      "Name": "Leaper",
+      "Section": "Infestation"
+    },
+    "Latcher": {
+      "Image": "Latcher.png",
+      "Name": "Latcher",
+      "Section": "Grineer"
+    },
+    "Taro Harpi": {
+      "Image": "TaroHarpi.png",
+      "Name": "Taro Harpi",
+      "Section": "Corpus"
+    },
+    "Axio Numon": {
+      "Image": "AxioNumon.png",
+      "Name": "Axio Numon",
+      "Section": "Corpus"
+    },
+    "Lancer Dreg": {
+      "Image": "GrnLaserDrone.png",
+      "Name": "Lancer Dreg",
+      "Section": "Grineer"
+    },
+    "Commandeered Trinity Prime": {
+      "Image": "TrinityPrime_Thumb.png",
+      "Name": "Commandeered Trinity Prime",
+      "Section": "Anarchs"
+    },
+    "Rabbleback Hyena": {
+      "Image": "RabblebackHyena.png",
+      "Name": "Rabbleback Hyena",
+      "Section": "Corpus"
+    },
+    "Kuva Scorch": {
+      "Image": "FortressFlameLancer.png",
+      "Name": "Kuva Scorch",
+      "Section": "Grineer"
+    },
+    "Exo Supressor": {
+      "Image": "ExoSupressor.png",
+      "Name": "Exo Supressor",
+      "Section": "Grineer"
+    },
+    "Shield Dargyn": {
+      "Image": "GrnSkiffShield.png",
+      "Name": "Shield Dargyn",
+      "Section": "Grineer"
+    },
+    "Juno Fog Comba Eximus": {
+      "Image": "JunoFogComba.png",
+      "Name": "Juno Fog Comba Eximus",
+      "Section": "Corpus"
+    },
+    "Kuva Napalm Eximus": {
+      "Image": "FortressIncendiaryBombard.png",
+      "Name": "Kuva Napalm Eximus",
+      "Section": "Grineer"
+    },
+    "Kuva Heavy Gunner": {
+      "Image": "FortressMinigunBombard.png",
+      "Name": "Kuva Heavy Gunner",
+      "Section": "Grineer"
+    },
+    "Kuva Flameblade Eximus": {
+      "Image": "FortressBlowtorchSawman.png",
+      "Name": "Kuva Flameblade Eximus",
+      "Section": "Grineer"
+    },
+    "White-Breasted Virmink": {
+      "Section": "Unaffiliated",
+      "Image": "VirminkCommon.png",
+      "Name": "White-Breasted Virmink",
+      "Link": "Conservation"
+    },
+    "Kuva Drahk Master": {
+      "Image": "FortressBeastMaster.png",
+      "Name": "Kuva Drahk Master",
+      "Section": "Grineer"
+    },
+    "Kuva Drahk": {
+      "Image": "GrnArmoredKubrow.png",
+      "Name": "Kuva Drahk",
+      "Section": "Grineer"
+    },
+    "Feyarch Specter": {
+      "Image": "FeyarchOberon.png",
+      "Name": "Feyarch Specter",
+      "Section": "Orokin"
+    },
+    "Howler Undazoa": {
+      "Section": "Unaffiliated",
+      "Image": "HowlerUndazoa.png",
+      "Name": "Howler Undazoa",
+      "Link": "Conservation"
+    },
+    "Scaldra Barbican": {
+      "Image": "LasrianShieldLancer.png",
+      "Name": "Scaldra Barbican",
+      "Section": "Scaldra"
+    },
+    "Syzygy Prod Crewman": {
+      "Image": "NokkoInfSpaceman.png",
+      "Name": "Syzygy Prod Crewman",
+      "Section": "Other"
+    },
+    "Heavy Gunner": {
+      "Image": "HeavyFemaleGrineerAvatar.png",
+      "Name": "Heavy Gunner",
+      "Section": "Grineer"
+    },
+    "Kosma Roller Sentry": {
+      "Image": "KosmaRoller.png",
+      "Name": "Kosma Roller Sentry",
+      "Section": "Grineer"
+    },
+    "Kosma Gokstad Pilot": {
+      "Image": "KosmaGokstadPilot.png",
+      "Name": "Kosma Gokstad Pilot",
+      "Section": "Grineer"
+    },
+    "Ghoul Expired": {
+      "Image": "GhoulExpired.png",
+      "Name": "Ghoul Expired",
+      "Section": "Grineer"
+    },
+    "H-09 Efervon Tank": {
+      "Image": "LasrianTank.png",
+      "Name": "H-09 Efervon Tank",
+      "Section": "Scaldra"
+    },
+    "Exo Taktis": {
+      "Image": "ExoTaktis.png",
+      "Name": "Exo Taktis",
+      "Section": "Grineer"
+    },
+    "Elite Kosma Taktis": {
+      "Image": "KosmaTaktisElite.png",
+      "Name": "Elite Kosma Taktis",
+      "Section": "Grineer"
+    },
+    "Kosma Flak": {
+      "Image": "KosmaFlak.png",
+      "Name": "Kosma Flak",
+      "Section": "Grineer"
+    },
+    "Condrix": {
+      "Image": "Condrix.png",
+      "Name": "Condrix",
+      "Section": "Sentient"
+    },
+    "Kosma Elite Lancer": {
+      "Image": "KosmaEliteLancer.png",
+      "Name": "Kosma Elite Lancer",
+      "Section": "Grineer"
+    },
+    "Corpus Ramsled": {
+      "Image": "CorpusRamsled.png",
+      "Name": "Corpus Ramsled",
+      "Section": "Corpus"
+    },
+    "Axio Shield Osprey": {
+      "Image": "AxioShieldOsprey.png",
+      "Name": "Axio Shield Osprey",
+      "Section": "Corpus"
+    },
+    "Devotee": {
+      "Image": "Devotee.png",
+      "Name": "Devotee",
+      "Section": "Other"
+    },
+    "Ghoul Rictus Alpha": {
+      "Image": "GhoulSawmanVIP.png",
+      "Name": "Ghoul Rictus Alpha",
+      "Section": "Grineer"
+    },
+    "Kavor Defector 2": {
+      "Image": "CodexKavorDefector2.png",
+      "Name": "Kavor Defector",
+      "Section": "Grineer"
+    },
+    "Terra Provisor": {
+      "Image": "TerraProvisor.png",
+      "Name": "Terra Provisor",
+      "Section": "Corpus"
+    },
+    "Comet Shard": {
+      "Image": "CometShard.png",
+      "Name": "Comet Shard",
+      "Section": "Corpus"
+    },
+    "Scrofa Drover Bursa": {
+      "Image": "NokkoBaseHeavyBiped.png",
+      "Name": "Scrofa Drover Bursa",
+      "Section": "Corpus"
+    },
+    "Deimos Runner": {
+      "Image": "RunnerMicroPlanetAvatar.png",
+      "Name": "Deimos Runner",
+      "Section": "Infestation"
+    },
+    "Juno Sap Comba": {
+      "Image": "JunoSapComba.png",
+      "Name": "Juno Sap Comba",
+      "Section": "Corpus"
+    },
+    "Juno Oxium Osprey": {
+      "Image": "JunoOxiumOsprey.png",
+      "Name": "Juno Oxium Osprey",
+      "Section": "Corpus"
+    },
+    "Demolisher Bonewidow (2)": {
+      "Image": "Bonewidow.png",
+      "Name": "Demolisher Bonewidow",
+      "Section": "The Murmur"
+    },
+    "Oculyst": {
+      "Image": "Scout.png",
+      "Name": "Oculyst",
+      "Section": "Sentient"
+    },
+    "Juno Disc MOA": {
+      "Image": "JunoDiscMOA.png",
+      "Name": "Juno Disc MOA",
+      "Section": "Corpus"
+    },
+    "Elite Lancer": {
+      "Image": "EliteRifleLancerAvatar.png",
+      "Name": "Elite Lancer",
+      "Section": "Grineer"
+    },
+    "Scrofa Heavy Trencher Eximus": {
+      "Image": "NokkoMeleeHeavy.png",
+      "Name": "Scrofa Heavy Trencher Eximus",
+      "Section": "Corpus"
+    },
+    "Infested Mesa": {
+      "Image": "RogueGunslinger.png",
+      "Name": "Infested Mesa",
+      "Section": "Infestation"
+    },
+    "Jen Dro": {
+      "Image": "CCTeamCDeceptionAgent.png",
+      "Name": "Jen Dro",
+      "Section": "Corpus"
+    },
+    "Jackal Eximus": {
+      "Image": "CodexAccurateJackalTerraEximus.png",
+      "Name": "Jackal Eximus",
+      "Link": "Terra Jackal",
+      "Caption": "Terra",
+      "Section": "Corpus"
+    },
+    "Ionyx": {
+      "Image": "Ionyx.png",
+      "Name": "Ionyx",
+      "Section": "Sentient"
+    },
+    "Drahk Master": {
+      "Image": "GrnBeastMaster.png",
+      "Name": "Drahk Master",
+      "Section": "Grineer"
+    },
+    "Drekar Heavy Gunner Eximus": {
+      "Image": "SeaLabHeavyGunner.png",
+      "Name": "Drekar Heavy Gunner Eximus",
+      "Section": "Grineer"
+    },
+    "Hyena PB": {
+      "Image": "DEHyenaPb.png",
+      "Name": "Hyena PB",
+      "Section": "Corpus"
+    },
+    "Dargyn": {
+      "Section": "Grineer",
+      "Image": "GrnSkiff.png",
+      "Name": "Dargyn",
+      "Link": "Dargyn (Enemy)"
+    },
+    "Juno Elite Crewman": {
+      "Image": "JunoEliteCrewman.png",
+      "Name": "Juno Elite Crewman",
+      "Section": "Corpus"
+    },
+    "Heavy Gunner Eximus": {
+      "Image": "HeavyFemaleGrineerAvatar.png",
+      "Name": "Heavy Gunner Eximus",
+      "Section": "Grineer"
+    },
+    "Hacked Drone": {
+      "Image": "EidolonHackableDrone.png",
+      "Name": "Hacked Drone",
+      "Section": "Other"
+    },
+    "Scaldra Screamer": {
+      "Image": "ScaldraScreamer.png",
+      "Name": "Scaldra Screamer",
+      "Section": "Scaldra"
+    },
+    "Gyre Elite Lancer": {
+      "Image": "GyreEliteLancer.png",
+      "Name": "Gyre Elite Lancer",
+      "Section": "Grineer"
+    },
+    "Vapos Crewman Eximus": {
+      "Image": "VaposCrewman.png",
+      "Name": "Vapos Crewman Eximus",
+      "Section": "Corpus"
+    },
+    "Horrasque Stormer": {
+      "Section": "Unaffiliated",
+      "Image": "HorrasqueRare.png",
+      "Name": "Horrasque Stormer",
+      "Link": "Conservation"
+    },
+    "Grineer Target": {
+      "Image": "GrineerCaptureTarget.png",
+      "Name": "Grineer Target",
+      "Section": "Grineer"
+    },
+    "Nightwatch Hyekka Master": {
+      "Image": "NightwatchCatMaster.png",
+      "Name": "Nightwatch Hyekka Master",
+      "Section": "Grineer"
+    },
+    "General Sargas Ruk": {
+      "Image": "SargasRukAvatarNew.png",
+      "Name": "General Sargas Ruk",
+      "Section": "Grineer"
+    },
+    "Scrofa Energy Chief": {
+      "Image": "NokkoTrappedChestVIP.png",
+      "Name": "Scrofa Energy Chief",
+      "Section": "Corpus"
+    },
+    "Frontier Seeker": {
+      "Image": "ForestSeeker.png",
+      "Name": "Frontier Seeker",
+      "Section": "Grineer"
+    },
+    "Frontier Hellion Eximus": {
+      "Image": "ForestHellion.png",
+      "Name": "Frontier Hellion Eximus",
+      "Section": "Grineer"
+    },
+    "Gas Infested Hive": {
+      "Image": "InfestedHiveB.png",
+      "Name": "Gas Infested Hive",
+      "Section": "Infestation"
+    },
+    "Techrot Galliflex Eximus": {
+      "Image": "TechrotRunner.png",
+      "Name": "Techrot Galliflex Eximus",
+      "Section": "Techrot"
+    },
+    "Fortress Scanner": {
+      "Image": "FortressScanner.png",
+      "Name": "Fortress Scanner",
+      "Section": "Grineer"
+    },
+    "Fog Comba": {
+      "Image": "FogComba.png",
+      "Name": "Fog Comba",
+      "Section": "Corpus"
+    },
+    "Gox": {
+      "Image": "CrpCombatPod.png",
+      "Name": "Gox",
+      "Section": "Corpus"
+    },
+    "Malice": {
+      "Image": "HeavyAcolyte.png",
+      "Name": "Malice",
+      "Section": "Stalker"
+    },
+    "Elite Vorac Basilisk": {
+      "Image": "VoracBasiliskElite.png",
+      "Name": "Elite Vorac Basilisk",
+      "Section": "Corpus"
+    },
+    "Vorac Detron Crewman": {
+      "Image": "VoracDetronCrewman.png",
+      "Name": "Vorac Detron Crewman",
+      "Section": "Corpus"
+    },
+    "Excalibur Specter": {
+      "Image": "ExcaliburHelmet.png",
+      "Name": "Excalibur Specter",
+      "Section": "Orokin"
+    },
+    "Narmer Corpus Tech": {
+      "Image": "NarmerCorpusTech.png",
+      "Name": "Narmer Corpus Tech",
+      "Section": "Narmer"
+    },
+    "Tomb Protector Effigy": {
+      "Image": "InarosGolem.png",
+      "Name": "Tomb Protector Effigy",
+      "Section": "Unaffiliated"
+    },
+    "Elite Taro Weaver": {
+      "Image": "TaroWeaverElite.png",
+      "Name": "Elite Taro Weaver",
+      "Section": "Corpus"
+    },
+    "Elite Orm Basilisk": {
+      "Image": "OrmBasiliskElite.png",
+      "Name": "Elite Orm Basilisk",
+      "Section": "Corpus"
+    },
+    "Gyre Hyena": {
+      "Image": "GyreHyena.png",
+      "Name": "Gyre Hyena",
+      "Section": "Corpus"
+    },
+    "Juggernaut Behemoth": {
+      "Image": "JuggernautBoss.png",
+      "Name": "Juggernaut Behemoth",
+      "Section": "Infestation"
+    },
+    "Elite Kosma Outrider": {
+      "Image": "KosmaOutriderElite.png",
+      "Name": "Elite Kosma Outrider",
+      "Section": "Grineer"
+    },
+    "Elite Kosma Cutter": {
+      "Image": "KosmaCutterElite.png",
+      "Name": "Elite Kosma Cutter",
+      "Section": "Grineer"
+    },
+    "Elite Gyre Flak": {
+      "Image": "GyreFlakElite.png",
+      "Name": "Elite Gyre Flak",
+      "Section": "Grineer"
+    },
+    "Elite Arid Lancer": {
+      "Image": "DesertEliteRifleLancerAvatar.png",
+      "Name": "Elite Arid Lancer",
+      "Section": "Grineer"
+    },
+    "Orm Railgun MOA": {
+      "Image": "OrmRailgunMOA.png",
+      "Name": "Orm Railgun MOA",
+      "Section": "Corpus"
+    },
+    "Drekar Trooper": {
+      "Image": "SeaLabTrooper.png",
+      "Name": "Drekar Trooper",
+      "Section": "Grineer"
+    },
+    "Drekar Scorpion Eximus": {
+      "Image": "SeaLabScorpion.png",
+      "Name": "Drekar Scorpion Eximus",
+      "Section": "Grineer"
+    },
+    "Icemire Hyena": {
+      "Image": "IcemireHyena.png",
+      "Name": "Icemire Hyena",
+      "Section": "Corpus"
+    },
+    "Axio Vambac": {
+      "Image": "AxioVambac.png",
+      "Name": "Axio Vambac",
+      "Section": "Corpus"
+    },
+    "Exo Gokstad Pilot": {
+      "Image": "ExoGokstadPilot.png",
+      "Name": "Exo Gokstad Pilot",
+      "Section": "Grineer"
+    },
+    "Demolisher Boiler": {
+      "Image": "DemolisherBoiler.png",
+      "Name": "Demolisher Boiler",
+      "Section": "Infestation"
+    },
+    "Nox Eximus": {
+      "Image": "Nox.png",
+      "Name": "Nox Eximus",
+      "Section": "Grineer"
+    },
+    "Corpus Supra Target": {
+      "Image": "CorpusSupraTarget.png",
+      "Name": "Corpus Supra Target",
+      "Section": "Corpus"
+    },
+    "Scrofa Drover Bursa Eximus": {
+      "Image": "NokkoBaseHeavyBiped.png",
+      "Name": "Scrofa Drover Bursa Eximus",
+      "Section": "Corpus"
+    },
+    "Brindle Kubrodon": {
+      "Section": "Unaffiliated",
+      "Image": "KubrodonCommon.png",
+      "Name": "Brindle Kubrodon",
+      "Link": "Conservation"
+    },
+    "Corpus Sniper Target": {
+      "Image": "CorpusSniperTarget.png",
+      "Name": "Corpus Sniper Target",
+      "Section": "Corpus"
+    },
+    "Scaldra Eradicator": {
+      "Image": "LasrianGoonadier.png",
+      "Name": "Scaldra Eradicator",
+      "Section": "Scaldra"
+    },
+    "Commandeered Volt Prime": {
+      "Image": "VoltPrime_Thumb.png",
+      "Name": "Commandeered Volt Prime",
+      "Section": "Anarchs"
+    },
+    "Arid Lancer": {
+      "Image": "DesertRifleLancerAvatar.png",
+      "Name": "Arid Lancer",
+      "Section": "Grineer"
+    },
+    "Arid Hellion": {
+      "Image": "DesertJetpackMarineAvatar.png",
+      "Name": "Arid Hellion",
+      "Section": "Grineer"
+    },
+    "Vapos Railgun MOA Eximus": {
+      "Image": "VaposRailgunMOA.png",
+      "Name": "Vapos Railgun MOA Eximus",
+      "Section": "Corpus"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/railjackskin",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:33:09.361Z"
+  },
+  "_comments": "",
+  "Caballero Railjack Skin": {
+    "Type": "Railjack Skin",
+    "Image": "RailjackWrasseSkin.png",
+    "Description": "Conquer the skies with this noble Railjack skin.",
+    "Link": "Caballero Railjack Skin",
+    "Name": "Caballero Railjack Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/RailJack/RailjackWrasseSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Tempestarii Railjack Skin": {
+    "Type": "Railjack Skin",
+    "Image": "RailjackGhostSkin.png",
+    "Description": "Embody Sevagoth's vessel with this spectral Railjack skin.",
+    "Link": "Tempestarii Railjack Skin",
+    "Name": "Tempestarii Railjack Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/RailJack/RailjackGhostSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Railjack Skin": {
+    "Type": "Railjack Skin",
+    "Image": "RailjackShipA.png",
+    "Description": "The standard issue skin for the Railjack.",
+    "Link": "Railjack Skin",
+    "Name": "Railjack Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/RailJack/RailjackDefaultSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Sungem Railjack Skin": {
+    "Type": "Railjack Skin",
+    "Image": "RailjackAeronSkin.png",
+    "Description": "Swoop in and attack with this streamlined Railjack skin.",
+    "Link": "Sungem Railjack Skin",
+    "Name": "Sungem Railjack Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/RailJack/RailjackAeronSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  }
+}

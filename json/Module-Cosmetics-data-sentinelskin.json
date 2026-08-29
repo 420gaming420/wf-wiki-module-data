@@ -1,0 +1,373 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/sentinelskin",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:33:17.476Z"
+  },
+  "_comments": "",
+  "Helios Simaris Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "HeliosSimarisSkin.png",
+    "Description": "The Cephalon Simaris skin for the Helios sentinel.",
+    "Link": "Helios Simaris Skin",
+    "Name": "Helios Simaris Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/LibrarianHelios",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Helios Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "Helios.png",
+    "Description": "The standard issue skin for the Helios Sentinel.",
+    "Link": "Helios Skin",
+    "Name": "Helios Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/Defaults/DefaultHeliosSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Carrier Prime Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "CarrierPrime.png",
+    "Description": "The standard issue skin for the Carrier Prime Sentinel.",
+    "Link": "Carrier Prime Skin",
+    "Name": "Carrier Prime Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/Defaults/DefaultCarrierPrimeSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Loid Sentinel Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "LoidSentinelSkin.png",
+    "Description": "This faithful Necraloid has served the Entrati family for centuries. He now stands ready to offer his service to you.",
+    "Link": "Loid Sentinel Skin",
+    "Name": "Loid Sentinel Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/ThanotechSentinelSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Taxon Desert-Camo Skin": {
+    "Type": "Sentinel Skin",
+    "Description": "Desert camouflage skin for the Taxon Sentinel.",
+    "Link": "Taxon Desert-Camo Skin",
+    "ExcludeFromCodex": false,
+    "Image": "TaxonDesert-CamoSkin.png",
+    "Name": "Taxon Desert-Camo Skin",
+    "Introduced": "9.5",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/DesertTaxonSkin",
+    "CodexSecret": false
+  },
+  "Diriga Nightwatch Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "DirigaNightwatchSkin.png",
+    "Description": "Emblazon the Diriga in the colors of the Grineer's most notorious unit.",
+    "Link": "Diriga Nightwatch Skin",
+    "Name": "Diriga Nightwatch Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/NightwatchDirigaSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Carrier Jade Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "CarrierJadeSkin.png",
+    "Description": "A next-generation skin for the Carrier.",
+    "Link": "Carrier Jade Skin",
+    "Name": "Carrier Jade Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Promo/Microsoft/JadeCarrier",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Wyrm Prime Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "WyrmPrime.png",
+    "Description": "The standard issue skin for the Wyrm Prime Sentinel.",
+    "Link": "Wyrm Prime Skin",
+    "Name": "Wyrm Prime Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/Defaults/DefaultWyrmPrimeSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Helios Elixis Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "HeliosElixisSkin.png",
+    "Description": "Invigorate in style with this bronzed Elixis skin for the Helios.",
+    "Link": "Helios Elixis Skin",
+    "Name": "Helios Elixis Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/ExilisHelios",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "VERD-IE Sentinel Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "VERD-IESentinelSkin.png",
+    "Description": "The Vegetation and Environment Regulation Drone - Independent Element faithfully maintained Zariman greenery even after all was lost and is thrilled to have company once again.",
+    "Link": "VERD-IE Sentinel Skin",
+    "Name": "VERD-IE Sentinel Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/GardenerDethcubeSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Wyrm Obsidian Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "WyrmObsidianSkin.png",
+    "Description": "This is a next-generation skin for the Wyrm sentinel.",
+    "Link": "Wyrm Obsidian Skin",
+    "Name": "Wyrm Obsidian Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sony/ObsidianWyrm",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Dethcube Jade Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "DethcubeJadeSkin.png",
+    "Description": "A next-generation skin for the Dethcube.",
+    "Link": "Dethcube Jade Skin",
+    "Name": "Dethcube Jade Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Promo/Microsoft/JadeDethcube",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Diriga Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "Diriga.png",
+    "Description": "The standard issue skin for the Diriga Sentinel.",
+    "Link": "Diriga Skin",
+    "Name": "Diriga Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/Defaults/DefaultDirigaSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Helios Obsidian Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "HeliosObsidianSkin.png",
+    "Description": "This is a next-generation skin for the Helios sentinel.",
+    "Link": "Helios Obsidian Skin",
+    "Name": "Helios Obsidian Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sony/ObsidianHelios",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Carabus Dethcube": {
+    "Type": "Sentinel Skin",
+    "Image": "CarabusDethcube.png",
+    "Description": "The Carabus skin customization for the Dethcube Sentinel.",
+    "Link": "Carabus Dethcube",
+    "Name": "Carabus Dethcube",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/CarbuncleDethcubeSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Helios Prime Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "HeliosPrime.png",
+    "Description": "The standard issue skin for the Helios Prime Sentinel.",
+    "Link": "Helios Prime Skin",
+    "Name": "Helios Prime Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/Defaults/DefaultHeliosPrimeSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Dethcube Prime Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "DethcubePrime.png",
+    "Description": "The standard issue skin for the Dethcube Prime Sentinel.",
+    "Link": "Dethcube Prime Skin",
+    "Name": "Dethcube Prime Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/Defaults/DefaultDethcubePrimeSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Djinn Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "Djinn.png",
+    "Description": "The standard issue skin for the Djinn Sentinel.",
+    "Link": "Djinn Skin",
+    "Name": "Djinn Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/Defaults/DefaultDjinnSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Dragondance Sentinel Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "DragondanceSentinelSkin.png",
+    "Description": "Prepare your Sentinel for a dance of Lunar Renewal revelry.",
+    "Link": "Dragondance Sentinel Skin",
+    "Name": "Dragondance Sentinel Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/LNYDragonSentinelSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Wyrm Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "Wyrm.png",
+    "Description": "The standard issue skin for the Wyrm Sentinel.",
+    "Link": "Wyrm Skin",
+    "Name": "Wyrm Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/Defaults/DefaultWyrmSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Shade Prisma Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "PrismaShade.png",
+    "Description": "The standard issue skin for the Shade Prisma Sentinel.",
+    "Link": "Shade Prisma Skin",
+    "Name": "Shade Prisma Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/Defaults/DefaultShadePrismaSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Taxon Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "Taxon.png",
+    "Description": "The standard issue skin for the Taxon Sentinel.",
+    "Link": "Taxon Skin",
+    "Name": "Taxon Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/Defaults/DefaultTaxonSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Taxon Day of the Dead Skin": {
+    "Type": "Sentinel Skin",
+    "Description": "The Taxon’s shield restoration could mean the difference between life and death. This festive skin illustrates both.",
+    "Link": "Taxon Day of the Dead Skin",
+    "ExcludeFromCodex": false,
+    "Image": "TaxonDayOfTheDeadSkin.png",
+    "Name": "Taxon Day of the Dead Skin",
+    "Introduced": "40.0.4",
+    "InternalName": "/Lotus/Upgrades/Skins/Halloween/DOTD2025TaxonSkin",
+    "CodexSecret": false
+  },
+  "Sprite Shade": {
+    "Type": "Sentinel Skin",
+    "Image": "SpriteShade.png",
+    "Description": "The Sprite skin customization for the Shade Sentinel.",
+    "Link": "Sprite Shade",
+    "Name": "Sprite Shade",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/SpriteShadeSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ordis Sentinel Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "OrdisSentinelSkin.png",
+    "Description": "Cephalon Ordis has always delighted in talking with the Operator. Now he can delight in accompanying the Operator in any situation.",
+    "Link": "Ordis Sentinel Skin",
+    "Name": "Ordis Sentinel Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/OwlSentinelSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Carrier Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "Carrier.png",
+    "Description": "The standard issue skin for the Carrier Sentinel.",
+    "Link": "Carrier Skin",
+    "Name": "Carrier Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/Defaults/DefaultCarrierSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Scyph Diriga Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "ScyphDirigaSkin.png",
+    "Description": "Your sentinel embodies the jellyfish and its deadly sting with this deluxe skin set.",
+    "Link": "Scyph Diriga Skin",
+    "Name": "Scyph Diriga Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/TnHydroidDlxSentSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Para Carrier": {
+    "Type": "Sentinel Skin",
+    "Image": "ParaCarrier.png",
+    "Description": "Para skin for the Carrier Sentinel.",
+    "Link": "Para Carrier",
+    "Name": "Para Carrier",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/ParrotCarrierSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Altra Sentinel Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "AltraSentinelSkin.png",
+    "Description": "In this skin, your Sentinel will be indistinguishable from the air sentries that surrounded the ancient tower of Altra, as described by Drusus Leverian.",
+    "Link": "Altra Sentinel Skin",
+    "Name": "Altra Sentinel Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/GaussSentinelSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Oxylus Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "Oxylus.png",
+    "Description": "The standard issue skin for the Oxylus Sentinel.",
+    "Link": "Oxylus Skin",
+    "Name": "Oxylus Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/Defaults/DefaultOxylusSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Dethcube Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "Dethcube.png",
+    "Description": "The standard issue skin for the Dethcube Sentinel.",
+    "Link": "Dethcube Skin",
+    "Name": "Dethcube Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/Defaults/DefaultDethcubeSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Djinn Gazal Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "DjinnGazalSkin.png",
+    "Description": "Wrapped in silk and etched with glowing designs, the Gazal offers a glimpse of the Djinn uncorrupted by Infestation.",
+    "Link": "Djinn Gazal Skin",
+    "Name": "Djinn Gazal Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/PersianDjinnSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Shade Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "Shade.png",
+    "Description": "The standard issue skin for the Shade Sentinel.",
+    "Link": "Shade Skin",
+    "Name": "Shade Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/Defaults/DefaultShadeSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Nautilus Prime Default Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "NautilusPrime.png",
+    "Description": "The standard issue skin for the Nautilus Prime Sentinel.",
+    "Link": "Nautilus Prime Default Skin",
+    "Name": "Nautilus Prime Default Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/Defaults/DefaultNautilusPrimeSentinelSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Diriga Desert-Camo Skin": {
+    "Type": "Sentinel Skin",
+    "Description": "Desert camouflage skin for the Diriga Sentinel.",
+    "Link": "Diriga Desert-Camo Skin",
+    "ExcludeFromCodex": false,
+    "Image": "DirigaDesert-CamoSkin.png",
+    "Name": "Diriga Desert-Camo Skin",
+    "Introduced": "9.5",
+    "InternalName": "/Lotus/Upgrades/Skins/Camo/DesertDirigaSkin",
+    "CodexSecret": false
+  },
+  "Kerulyst Sentinel Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "KerulystSentinelSkin.png",
+    "Description": "Give your Sentinel the appearance of a Kerulyst, diminutive Sentients that evolved to become robust laborers in the Tau System.",
+    "Link": "Kerulyst Sentinel Skin",
+    "Name": "Kerulyst Sentinel Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/HeliosDeluxe",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  }
+}

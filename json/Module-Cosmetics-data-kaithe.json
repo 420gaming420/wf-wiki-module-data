@@ -1,0 +1,300 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/kaithe",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:32:39.673Z"
+  },
+  "_comments": "",
+  "Aebolg Tail": {
+    "Type": "Tail",
+    "Image": "ErsatzHorseTailD.png",
+    "Description": "Bones laid bare in the Aebolg Tail are a reminder to appreciate the gift of life.",
+    "Link": "Aebolg Tail",
+    "Name": "Aebolg Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/ErsatzHorseTailD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vaidurian Saddle": {
+    "Type": "Saddle",
+    "Image": "ErsatzHorseSaddleB.png",
+    "Description": "The Vaidurian Saddle’s comfortable and sturdy design is ideal for those long hours riding Kaithes.",
+    "Link": "Vaidurian Saddle",
+    "Name": "Vaidurian Saddle",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/ErsatzHorseSaddleB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Aumen Saddle": {
+    "Type": "Saddle",
+    "Image": "AumenSaddle.png",
+    "Description": "Stylish spikes bely the true comfort of the Aumen Saddle.",
+    "Link": "Aumen Saddle",
+    "Name": "Aumen Saddle",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/HorseSaddleDrapery",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vexage Coronet": {
+    "Type": "Coronet",
+    "Image": "HorseAngryEphemera.png",
+    "Description": "Forewarn that fury awaits anyone who challenges your Kaithe and its rider.",
+    "Link": "Vexage Coronet",
+    "Name": "Vexage Coronet",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/Effects/HorseCrownEphemeraAngry",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Velific Tail": {
+    "Type": "Tail",
+    "Image": "ErsatzHorseTailC.png",
+    "Description": "Adorn the movements of an elegant Kaithe with the Velific Tail.",
+    "Link": "Velific Tail",
+    "Name": "Velific Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/ErsatzHorseTailC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Wistfall Coronet": {
+    "Type": "Coronet",
+    "Image": "HorseTearDropEphemera.png",
+    "Description": "The Wistfall Coronet depicts melancholy’s beauty.",
+    "Link": "Wistfall Coronet",
+    "Name": "Wistfall Coronet",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/Effects/HorseCrownEphemeraTeardrop",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Aetigo Tail": {
+    "Type": "Tail",
+    "Image": "ErsatzHorseTailDefaultA.png",
+    "Description": "The Aetigo Kaithe came into being with this dignified tail.",
+    "Link": "Aetigo Tail",
+    "Name": "Aetigo Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/ErsatzHorseTailDefaultA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Sviari Chamfron": {
+    "Type": "Chamfron",
+    "Image": "ErsatzHorseHelmetA.png",
+    "Description": "The might of the Kaithe rider is expressed through the Sviari Chamfron’s sharp horns.",
+    "Link": "Sviari Chamfron",
+    "Name": "Sviari Chamfron",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/ErsatzHorseHelmetA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Sohseki Saddle": {
+    "Type": "Saddle",
+    "Image": "ErsatzHorseSaddleC.png",
+    "Description": "Style and comfort meet in the Sohseki Saddle. Its padding provides stability and protection during jumps.",
+    "Link": "Sohseki Saddle",
+    "Name": "Sohseki Saddle",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/ErsatzHorseSaddleC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Psyacus Tail": {
+    "Type": "Tail",
+    "Image": "ErsatzHorseTailDefaultC.png",
+    "Description": "The Psyacus Kaithe came into being with this tapered tail.",
+    "Link": "Psyacus Tail",
+    "Name": "Psyacus Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/ErsatzHorseTailDefaultC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Enverve Coronet": {
+    "Type": "Coronet",
+    "Image": "HorseSnakeEphemera.png",
+    "Description": "The Enverve Coronet elegantly expresses a bitter emotion.",
+    "Link": "Enverve Coronet",
+    "Name": "Enverve Coronet",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/Effects/HorseCrownEphemeraSnake",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Aumen Chamfron": {
+    "Type": "Chamfron",
+    "Image": "AumenChamfron.png",
+    "Description": "Beware the fearsome yet elegant curves of the Aumen Chamfron's horns.",
+    "Link": "Aumen Chamfron",
+    "Name": "Aumen Chamfron",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/HorseHelmetDrapery",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Dovin Saddle": {
+    "Type": "Saddle",
+    "Image": "ErsatzHorseSaddleA.png",
+    "Description": "The Dovin Saddle’s deep curve and lightweight structure make for strong balance and gentle communication with the Kaithe.",
+    "Link": "Dovin Saddle",
+    "Name": "Dovin Saddle",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/ErsatzHorseSaddleA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Psyacus Kaithe": {
+    "Type": "Pedigree",
+    "Image": "ErsatzHorseSkinC.png",
+    "Description": "Psyacus Kaithes inspire fear in the faint of heart. Common wisdom among Duviri citizens holds that those who mount the Psyacus Kaithe must be either courageous or heartless.",
+    "Link": "Psyacus Kaithe",
+    "Name": "Psyacus Kaithe",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/ErsatzBodySkinC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Aethon Saddle": {
+    "Type": "Saddle",
+    "Image": "GaussDeluxeHorseSaddle.png",
+    "Description": "The Aethon Saddle's flames don't burn the skilled rider.",
+    "Link": "Aethon Saddle",
+    "Name": "Aethon Saddle",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/GaussDeluxeHorseSaddle",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Myrthen Coronet": {
+    "Type": "Coronet",
+    "Image": "HorseFlowerEphemera.png",
+    "Description": "Joy blossoms in the Myrthen Coronet.",
+    "Link": "Myrthen Coronet",
+    "Name": "Myrthen Coronet",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/Effects/HorseCrownEphemeraFlower",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kheyur Chamfron": {
+    "Type": "Chamfron",
+    "Image": "ErsatzHorseHelmetD.png",
+    "Description": "The Kheyur Chamfron befits any formal occasion.",
+    "Link": "Kheyur Chamfron",
+    "Name": "Kheyur Chamfron",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/ErsatzHorseHelmetD",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Aumen Tail": {
+    "Type": "Tail",
+    "Image": "AumenTail.png",
+    "Description": "A grand tail for a magnificent beast.",
+    "Link": "Aumen Tail",
+    "Name": "Aumen Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/HorseTailDrapery",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Aethon Chamfron": {
+    "Type": "Chamfron",
+    "Image": "GaussDeluxeHorseHelmet.png",
+    "Description": "Fan the flames of fortitude with the Aethon Chamfron.",
+    "Link": "Aethon Chamfron",
+    "Name": "Aethon Chamfron",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/GaussDeluxeHorseHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Dyrncaul Chamfron": {
+    "Type": "Chamfron",
+    "Image": "ErsatzHorseHelmetB.png",
+    "Description": "The Dyrncaul Chamfron’s curved horns are reminiscent of the Tamm, a creature whose happiness is said to bring good fortune.",
+    "Link": "Dyrncaul Chamfron",
+    "Name": "Dyrncaul Chamfron",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/ErsatzHorseHelmetB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Irdeni Chamfron": {
+    "Type": "Chamfron",
+    "Image": "ErsatzHorseHelmetC.png",
+    "Description": "The Irdeni Chamfron is reminiscent of the ever-changing hues in Duviri’s sky.",
+    "Link": "Irdeni Chamfron",
+    "Name": "Irdeni Chamfron",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/ErsatzHorseHelmetC",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Caersid Tail": {
+    "Type": "Tail",
+    "Image": "ErsatzHorseTailA.png",
+    "Description": "The Caersid Tail bespeaks the spirit of the vengeful warrior.",
+    "Link": "Caersid Tail",
+    "Name": "Caersid Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/ErsatzHorseTailA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Histornam Tail": {
+    "Type": "Tail",
+    "Image": "ErsatzHorseTailDefault.png",
+    "Description": "The Histornam Kaithe came into being with this regal tail.",
+    "Link": "Histornam Tail",
+    "Name": "Histornam Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/ErsatzHorseTailDefault",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Histornam Kaithe": {
+    "Type": "Pedigree",
+    "Image": "ErsatzHorseSkinDefault.png",
+    "Description": "It is said that the great Dominus Thrax prefers Histornam Kaithes above all other breeds. It was on the back of a Histornam Kaithe that Thrax himself learned to ride.",
+    "Link": "Histornam Kaithe",
+    "Name": "Histornam Kaithe",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/ErsatzBodySkinDefault",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Heoro Tail": {
+    "Type": "Tail",
+    "Image": "ErsatzHorseTailB.png",
+    "Description": "A Kaithe with the Heoro Tail evokes glory.",
+    "Link": "Heoro Tail",
+    "Name": "Heoro Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/ErsatzHorseTailB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Aethon Tail": {
+    "Type": "Tail",
+    "Image": "GaussDeluxeHorseTail.png",
+    "Description": "The Aethon Tail is a good companion piece to the rider of fleet-footed fire.",
+    "Link": "Aethon Tail",
+    "Name": "Aethon Tail",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/GaussDeluxeHorseTail",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Aetigo Kaithe": {
+    "Type": "Pedigree",
+    "Image": "ErsatzHorseSkinA.png",
+    "Description": "Aetigo Kaithes are a native species of Duviri’s southernmost island. Their emerald eyes once reflected the verdant plains they roamed, but when the island was reduced to ash, their eyes faded to nothing.",
+    "Link": "Aetigo Kaithe",
+    "Name": "Aetigo Kaithe",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/ErsatzBodySkinA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Dauntair Coronet": {
+    "Type": "Coronet",
+    "Image": "HorseFearEphemera.png",
+    "Description": "A skilled rider repurposes the Void’s mark for their Kaithe.",
+    "Link": "Dauntair Coronet",
+    "Name": "Dauntair Coronet",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/Effects/HorseCrownEphemeraFear",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Exorion Wings": {
+    "Type": "Wing",
+    "Image": "ErsatzHorseWingsA.png",
+    "Description": "Outstretched wings reveal the path to celestial planes.",
+    "Link": "Exorion Wings",
+    "Name": "Exorion Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Horse/ErsatzHorseWingsA",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  }
+}

@@ -1,0 +1,741 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Icon/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:38:01.566Z"
+  },
+  "_comments": "--Note that these names are based off of Janice Chu's work shown here:\n--https://www.behance.net/gallery/42964973/Warframe-Buff-Icons",
+  "Items": {
+    "Void Keys": {
+      "CssClasses": "light-invert",
+      "Image": "DEVoid Key.png",
+      "Link": "Void Keys"
+    },
+    "Meso": {
+      "CssClasses": "light-invert",
+      "Image": "VoidProjectionsBronzeD.png",
+      "Link": "Void Relic"
+    },
+    "Zenith Granum Crown Decoration": {
+      "CssClasses": "light-invert",
+      "Image": "ZenithGranumCrown64.png",
+      "Link": "Zenith Granum Crown Decoration"
+    },
+    "Titan Extractor": {
+      "CssClasses": "light-invert",
+      "Image": "TitanExtractor.png",
+      "Link": "Extractor#Titan_Extractor|Titan Extractor"
+    },
+    "Fusion Core": {
+      "CssClasses": "light-invert",
+      "Image": "FusionCorePackSilversingle.png",
+      "Link": "Fusion Core"
+    },
+    "Axi": {
+      "CssClasses": "light-invert",
+      "Image": "VoidProjectionsGoldD.png",
+      "Link": "Void Relic"
+    },
+    "Energy Pulse": {
+      "CssClasses": "dark-invert",
+      "Image": "FocusEnergyPulse.png",
+      "Link": "Energy Pulse"
+    },
+    "Arcane": {
+      "CssClasses": "light-invert",
+      "Image": "CosmeticEnhancer.png",
+      "Link": "Arcane Enhancement"
+    },
+    "100x Cipher": {
+      "CssClasses": "light-invert",
+      "Image": "Cipherx100.png",
+      "Link": "Cipher|100 x Cipher"
+    },
+    "Void Key": {
+      "CssClasses": "light-invert",
+      "Image": "DEVoid Key.png",
+      "Link": "Void Keys"
+    },
+    "Blueprint": {
+      "CssClasses": "dark-invert",
+      "Image": "Blueprint2(xBlack).svg",
+      "Link": "Blueprints"
+    },
+    "10x Cipher": {
+      "CssClasses": "light-invert",
+      "Image": "CipherPackMedium2.png",
+      "Link": "Cipher|10 x Cipher"
+    },
+    "Distilling Extractor": {
+      "CssClasses": "light-invert",
+      "Image": "DistillingExtractor.png",
+      "Link": "Extractor#Distilling_Extractor|Distilling Extractor"
+    },
+    "Exemplar Granum Crown Decoration": {
+      "CssClasses": "light-invert",
+      "Image": "ExemplarGranumCrown64.png",
+      "Link": "Exemplar Granum Crown Decoration"
+    },
+    "Mods": {
+      "CssClasses": "light-invert",
+      "Image": "FusionCorePackSilversingle.png",
+      "Link": "Mods"
+    },
+    "Granum Crown Decoration": {
+      "CssClasses": "light-invert",
+      "Image": "GranumCrown64.png",
+      "Link": "Granum Crown Decoration"
+    },
+    "Mortuus Shoulder Guard": {
+      "CssClasses": "light-invert",
+      "Image": "MortuusShoulderGuard.png",
+      "Link": "Mortuus Shoulder Guard"
+    },
+    "TennoGen": {
+      "CssClasses": "light-invert",
+      "Image": "TennoGenLogo(xBlue).png",
+      "Link": "TennoGen"
+    },
+    "Power Cell": {
+      "CssClasses": "light-invert",
+      "Image": "PowerCell.png",
+      "Link": "Power Cell"
+    },
+    "Neo": {
+      "CssClasses": "light-invert",
+      "Image": "VoidProjectionsSilverD.png",
+      "Link": "Void Relic"
+    },
+    "Resources": {
+      "CssClasses": "light-invert",
+      "Image": "Resource Orange.png",
+      "Link": "Resources"
+    },
+    "Mod": {
+      "CssClasses": "light-invert",
+      "Image": "FusionCorePackSilversingle.png",
+      "Link": "Mods"
+    },
+    "Mutate": {
+      "CssClasses": "dark-invert",
+      "Image": "AmmoMutation(xBlack).png",
+      "Link": ":Category:Ammo Mutation Mods"
+    },
+    "Lith": {
+      "CssClasses": "light-invert",
+      "Image": "VoidProjectionsIronD.png",
+      "Link": "Void Relic"
+    },
+    "Mastery": {
+      "CssClasses": "dark-invert",
+      "Image": "MasterySigilClear(xBlack).png",
+      "Link": "Mastery Rank"
+    },
+    "Blueprints": {
+      "CssClasses": "dark-invert",
+      "Image": "Blueprint2(xBlack).svg",
+      "Link": "Blueprints"
+    },
+    "Market": {
+      "CssClasses": "dark-invert",
+      "Image": "MarketIcon(xBlack).png",
+      "Link": "Market"
+    },
+    "Affinity": {
+      "CssClasses": "light-invert",
+      "Image": "Affinity(xWhite).png",
+      "Link": "Affinity"
+    }
+  },
+  "Buff": {
+    "Status Chance": {
+      "CssClasses": "light-invert",
+      "Image": "StatusChanceBuff.png",
+      "Description": "The chance that a hit will apply a Status Effect based on the types of damage the weapon inflicts.",
+      "Link": "Status Effect#Status Chance"
+    },
+    "Damage Blessing": {
+      "CssClasses": "light-invert",
+      "Image": "MasteryRankBlessingBuffDamage.png",
+      "Link": "True Master's Font"
+    },
+    "Ability Strength": {
+      "CssClasses": "light-invert",
+      "Image": "AbilityStrengthBuff.png",
+      "Description": "Modifies the Strength of Warframe Abilities. Hover over each Ability to see how its stats are affected.",
+      "Link": "Ability Strength"
+    },
+    "Ability Casting Speed": {
+      "CssClasses": "light-invert",
+      "Image": "Panel.png",
+      "Description": "",
+      "Link": "Casting Speed"
+    },
+    "Shield": {
+      "CssClasses": "",
+      "Image": "IconShield.png",
+      "Description": "Shields reduce Damage by 50% for all Damage Types except Toxin, which bypasses shields.",
+      "Link": "Shield"
+    },
+    "Critical Multiplier": {
+      "CssClasses": "light-invert",
+      "Image": "CriticalDamageBuff.png",
+      "Description": "Critical Hit Damage is multiplied by this value. The added Damage is doubled for orange Critical Hits, and tripled for red.",
+      "Link": "Critical Hit"
+    },
+    "Damage Reduction": {
+      "CssClasses": "light-invert",
+      "Image": "DamageReductionBuff.png",
+      "Description": "When a player or enemy deals damage to their targets' health or shields, that damage may be mitigated by sources of damage reduction. In other words, players may deal less damage than the listed Arsenal value due to armor; damage type modifiers from different health, armor, and shield classes; and/or other sources of damage reduction.",
+      "Link": "Damage Reduction"
+    },
+    "Critical Chance": {
+      "CssClasses": "light-invert",
+      "Image": "CritChanceBuff.png",
+      "Description": "Chance that any given attack will do bonus Critical Hit Damage. Values over 100% have a chance to become orange Critical Hits, and over 200% have a chance to become red.",
+      "Link": "Critical Hit#Critical Hit Chance"
+    },
+    "Resource Blessing": {
+      "CssClasses": "light-invert",
+      "Image": "MasteryRankBlessingResourceBooster.png",
+      "Link": "True Master's Font"
+    },
+    "Sprint Speed": {
+      "CssClasses": "light-invert",
+      "Image": "SprintSpeed.png",
+      "Description": "Modifies how fast a Warframe moves.",
+      "Link": "Sprint Speed"
+    },
+    "Credit Blessing": {
+      "CssClasses": "light-invert",
+      "Image": "MasteryRankBlessingCreditBooster.png",
+      "Link": "True Master's Font"
+    },
+    "Shield Blessing": {
+      "CssClasses": "light-invert",
+      "Image": "MasteryRankBlessingBuffShield.png",
+      "Link": "True Master's Font"
+    },
+    "Armor": {
+      "CssClasses": "light-invert",
+      "Image": "ArmorBuff.png",
+      "Description": "Reduces damage to Health by <AMOUNT>%. Shields are not affected by armor.",
+      "Link": "Armor"
+    },
+    "Ability Efficiency": {
+      "CssClasses": "",
+      "Image": "EnergyOrb.png",
+      "Description": "Modifies the Energy cost of Warframe abilities. The minimum Energy cost is 1/4 of the Base value.",
+      "Link": "Ability Efficiency"
+    },
+    "Health Blessing": {
+      "CssClasses": "light-invert",
+      "Image": "MasteryRankBlessingBuffHealth.png",
+      "Link": "True Master's Font"
+    },
+    "Damage": {
+      "CssClasses": "light-invert",
+      "Image": "DamageBuff.png",
+      "Description": "Damage dealt to a certain target. Damage results are modified by several mechanics – damage type modifiers, armor, critical hit bonuses, stealth bonuses, Warframe ability debuffs, body part modifiers, faction modifiers, and other sources of damage reduction.",
+      "Link": "Damage"
+    },
+    "Affinity Blessing": {
+      "CssClasses": "light-invert",
+      "Image": "MasteryRankBlessingAffinityBooster.png",
+      "Link": "True Master's Font"
+    },
+    "Affinity Range": {
+      "CssClasses": "light-invert",
+      "Image": "AffinityRangeIcon.png",
+      "Link": "Affinity"
+    },
+    "Health Conversion": {
+      "CssClasses": "light-invert",
+      "Image": "HealthConversionBuff.png",
+      "Link": "Health Conversion"
+    },
+    "Accuracy": {
+      "CssClasses": "light-invert",
+      "Image": "AccuracyBuff.png",
+      "Description": "How far projectiles will deviate from the reticle. Higher values are more accurate. Accuracy is improved while Aiming.",
+      "Link": "Accuracy"
+    },
+    "Fire Rate": {
+      "CssClasses": "light-invert",
+      "Image": "FireRateBuff.png",
+      "Description": "Maximum number of projectiles that can be launched per second.",
+      "Link": "Fire Rate"
+    },
+    "Combo Critical Chance": {
+      "CssClasses": "light-invert",
+      "Image": "ComboCriticalChanceBuff.png",
+      "Link": "Melee#Combo Counter"
+    },
+    "Ability Duration": {
+      "CssClasses": "light-invert",
+      "Image": "AbilityDurationBuff.png",
+      "Description": "Modifies the Duration of Warframe Abilities and the Energy cost of toggled Abilities. Hover over each Ability to see how its stats are affected.",
+      "Link": "Ability Duration"
+    },
+    "Energy Regen": {
+      "CssClasses": "light-invert",
+      "Image": "EnergyRegenBuff.png",
+      "Link": "Energy"
+    },
+    "Health Regen": {
+      "CssClasses": "light-invert",
+      "Image": "HealthRegenBuff.png",
+      "Link": "Health"
+    },
+    "Combo Duration": {
+      "CssClasses": "light-invert",
+      "Image": "ComboDurationBuff.png",
+      "Description": "Melee Combo resets after this time. Refresh the timer by adding to the Combo Count with melee hits or blocks.",
+      "Link": "Melee Combo"
+    },
+    "Health": {
+      "CssClasses": "",
+      "Image": "HealOrb.png",
+      "Description": "Total amount of Damage a Warframe can take before going into Bleedout.",
+      "Link": "Health"
+    },
+    "Bullet Jump": {
+      "CssClasses": "light-invert",
+      "Image": "BulletJumpBuff.png",
+      "Link": "Maneuvers"
+    },
+    "Ability Range": {
+      "CssClasses": "light-invert",
+      "Image": "AbilityRangeBuff.png",
+      "Description": "Modifies the Range of Warframe Abilities. Hover over each Ability to see how its stats are affected.",
+      "Link": "Ability Range"
+    },
+    "Combo Status Chance": {
+      "CssClasses": "light-invert",
+      "Image": "ComboStatusChanceBuff.png",
+      "Link": "Melee#Combo Counter"
+    },
+    "Energy": {
+      "CssClasses": "",
+      "Image": "EnergyOrb.png",
+      "Description": "Used to cast Abilities and can be replenished during missions.",
+      "Link": "Energy Capacity"
+    },
+    "Affinity": {
+      "CssClasses": "",
+      "Image": "AffinityOrb.png",
+      "Description": "Affinity is the in-game mechanic for experience points.",
+      "Link": "Affinity"
+    }
+  },
+  "Clan": {
+    "Shadow": {
+      "CssClasses": "light-invert",
+      "Image": "LeaderBadgeShadowHolo.png",
+      "Link": "Clan#Clan Tier"
+    },
+    "Ghost": {
+      "CssClasses": "light-invert",
+      "Image": "LeaderBadgeGhostHolo.png",
+      "Link": "Clan#Clan Tier"
+    },
+    "Storm": {
+      "CssClasses": "light-invert",
+      "Image": "LeaderBadgeStormHolo.png",
+      "Link": "Clan#Clan Tier"
+    },
+    "Moon": {
+      "CssClasses": "light-invert",
+      "Image": "LeaderBadgeMoonHolo.png",
+      "Link": "Clan#Clan Tier"
+    },
+    "Mountain": {
+      "CssClasses": "light-invert",
+      "Image": "LeaderBadgeMountainHolo.png",
+      "Link": "Clan#Clan Tier"
+    }
+  },
+  "Flags": {
+    "Hungary": "Mainpage-Flag-Hungary.png",
+    "France": "Mainpage-Flag-France.png",
+    "USA": "Flag-USA.png",
+    "Russia": "Mainpage-Flag-Russia.png",
+    "Finland": "Flag-Finland.png",
+    "Taiwan": "Flag-Taiwan.png",
+    "Germany": "Mainpage-Flag-Germany.png",
+    "Italy": "Mainpage-Flag-Italy.png",
+    "Philippines": "Flag-Philippines.png",
+    "Turkey": "Mainpage-Flag-Turkey.png",
+    "Portugal": "Mainpage-Flag-Portugal.png",
+    "English": "Flag-English.png",
+    "New Zealand": "Flag-NZ.png",
+    "Spain": "Mainpage-Flag-Spain.png",
+    "Ukraine": "Flag-Ukraine.png",
+    "Vietnam": "Flag-Vietnam.png",
+    "China": "Flag-China.png",
+    "Korea": "Flag-Korea.png",
+    "Hong Kong": "Flag-HK.png",
+    "Nederlands": "Flag-Nederlands.png",
+    "Canada": "Flag-Canada.png",
+    "Indonesia": "Flag-Indonesia.png",
+    "EU": "Flag-EU.png",
+    "Japan": "Flag-Japan.png",
+    "Poland": "Mainpage-Flag-Poland.png"
+  },
+  "Heads-Up Display": {
+    "HackB": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapHackB.png",
+      "Link": "Hack B"
+    },
+    "DestroyA": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapDestroyA.png",
+      "Link": "Destroy A"
+    },
+    "MarkedEnemies": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapEnemyPainted.png",
+      "Link": "Marked Enemies"
+    },
+    "Inbox": {
+      "CssClasses": "light-invert",
+      "Image": "Mail.png",
+      "Link": "Unread Message"
+    },
+    "Enemy": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapEnemy.png",
+      "Link": "Enemy"
+    },
+    "Tenno": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapFriend.png",
+      "Link": "Tenno"
+    },
+    "Rescue": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapHostage.png",
+      "Link": "Hostage"
+    },
+    "DroneDead": {
+      "CssClasses": "light-invert",
+      "Image": "DroneDestroyed.png",
+      "Link": "Drone Destroyed"
+    },
+    "Ally": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapFriend.png",
+      "Link": "Ally"
+    },
+    "FoundryDone": {
+      "CssClasses": "light-invert",
+      "Image": "BuildComplete.png",
+      "Link": "Build Complete"
+    },
+    "Downed": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapFriendPreDeath.png",
+      "Link": "Bleedout"
+    },
+    "Extract": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapExtraction.png",
+      "Link": "Extraction"
+    },
+    "Archwing": {
+      "CssClasses": "light-invert",
+      "Image": "FriendArchwing.png",
+      "Link": "Ally (Archwing)"
+    },
+    "FriendInvite": {
+      "CssClasses": "light-invert",
+      "Image": "FriendRequestPendingIcon.png",
+      "Link": "Pending Friend Request"
+    },
+    "Mail": {
+      "CssClasses": "light-invert",
+      "Image": "Mail.png",
+      "Link": "Unread Message"
+    },
+    "Bleeding": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapFriendPreDeath.png",
+      "Link": "Bleedout"
+    },
+    "Prisoner": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapHostage.png",
+      "Link": "Hostage"
+    },
+    "Dying": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapFriendPreDeath.png",
+      "Link": "Bleedout"
+    },
+    "HackC": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapHackC.png",
+      "Link": "Hack C"
+    },
+    "Escort": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapEscort.png",
+      "Link": "Escort"
+    },
+    "FoundryComplete": {
+      "CssClasses": "light-invert",
+      "Image": "BuildComplete.png",
+      "Link": "Build Complete"
+    },
+    "Bleedout": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapFriendPreDeath.png",
+      "Link": "Bleedout"
+    },
+    "DestroyD": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapDestroyD.png",
+      "Link": "Destroy D"
+    },
+    "Waypoint": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapGeneric.png",
+      "Link": "Waypoint"
+    },
+    "Mod": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapMod.png",
+      "Link": "Mod"
+    },
+    "Life Support": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapO2PostWhite.png",
+      "Link": "Life Support"
+    },
+    "FriendRequest": {
+      "CssClasses": "light-invert",
+      "Image": "FriendRequestPendingIcon.png",
+      "Link": "Pending Friend Request"
+    },
+    "Module": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapMod.png",
+      "Link": "Mod"
+    },
+    "DoubleResourcesEvent": {
+      "CssClasses": "light-invert",
+      "Image": "DoubleResourcesEvent.png",
+      "Link": "Double Resources Event"
+    },
+    "Objective": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapObjective.png",
+      "Link": "Objective"
+    },
+    "Market": {
+      "CssClasses": "light-invert",
+      "Image": "Market.png",
+      "Link": "Market"
+    },
+    "DestroyC": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapDestroyC.png",
+      "Link": "Destroy C"
+    },
+    "Leader": {
+      "CssClasses": "light-invert",
+      "Image": "LeaderMarker1.png",
+      "Link": "Leader Waypoint"
+    },
+    "HackD": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapHackD.png",
+      "Link": "Hack D"
+    },
+    "DestroyB": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapDestroyB.png",
+      "Link": "Destroy B"
+    },
+    "Coupon": {
+      "CssClasses": "light-invert",
+      "Image": "Market.png",
+      "Link": "Platinum-Purchase Discount"
+    },
+    "PaintedEnemy": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapEnemyPainted.png",
+      "Link": "Marked Enemy"
+    },
+    "DoubleCreditEvent": {
+      "CssClasses": "light-invert",
+      "Image": "DoubleCreditEvent.png",
+      "Link": "Double Credit Event"
+    },
+    "DroneKilled": {
+      "CssClasses": "light-invert",
+      "Image": "DroneDestroyed.png",
+      "Link": "Drone Destroyed"
+    },
+    "DroneDestroyed": {
+      "CssClasses": "light-invert",
+      "Image": "DroneDestroyed.png",
+      "Link": "Drone Destroyed"
+    },
+    "NPC": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapFriendAi.png",
+      "Link": "NPC"
+    },
+    "Resource": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapLoot.png",
+      "Link": "Resource"
+    },
+    "Enemies": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapEnemy.png",
+      "Link": "Enemies"
+    },
+    "DoubleAffinityEvent": {
+      "CssClasses": "light-invert",
+      "Image": "DoubleAffinityEventIcon.png",
+      "Link": "Double Affinity Event"
+    },
+    "DroneFull": {
+      "CssClasses": "light-invert",
+      "Image": "DroneComplete.png",
+      "Link": "Drone Complete"
+    },
+    "Goal": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapObjective.png",
+      "Link": "Objective"
+    },
+    "Extraction": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapExtraction.png",
+      "Link": "Extraction"
+    },
+    "Kubrow": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapKubrow.png",
+      "Link": "Kubrow"
+    },
+    "PaintedEnemies": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapEnemyPainted.png",
+      "Link": "Marked Enemies"
+    },
+    "DroneDone": {
+      "CssClasses": "light-invert",
+      "Image": "DroneComplete.png",
+      "Link": "Drone Complete"
+    },
+    "DroneComplete": {
+      "CssClasses": "light-invert",
+      "Image": "DroneComplete.png",
+      "Link": "Drone Complete"
+    },
+    "Capture": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapAttack.png",
+      "Link": "Attack"
+    },
+    "Loot": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapLoot.png",
+      "Link": "Loot"
+    },
+    "Discount": {
+      "CssClasses": "light-invert",
+      "Image": "Market.png",
+      "Link": "Platinum-Purchase Discount"
+    },
+    "BuildDone": {
+      "CssClasses": "light-invert",
+      "Image": "BuildComplete.png",
+      "Link": "Build Complete"
+    },
+    "EnemyWaypoint": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapEnemyPainted.png",
+      "Link": "Enemy Waypoint"
+    },
+    "ModWaypoint": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapModPainted.png",
+      "Link": "Mod Waypoint"
+    },
+    "MarkedMod": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapModPainted.png",
+      "Link": "Marked Mod"
+    },
+    "MarkedEnemy": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapEnemyPainted.png",
+      "Link": "Marked Enemy"
+    },
+    "Message": {
+      "CssClasses": "light-invert",
+      "Image": "Mail.png",
+      "Link": "Unread Message"
+    },
+    "LeaderWaypoint": {
+      "CssClasses": "light-invert",
+      "Image": "LeaderMarker1.png",
+      "Link": "Leader Waypoint"
+    },
+    "Hostage": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapHostage.png",
+      "Link": "Hostage"
+    },
+    "BuildComplete": {
+      "CssClasses": "light-invert",
+      "Image": "BuildComplete.png",
+      "Link": "Build Complete"
+    },
+    "Pickup": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapLoot.png",
+      "Link": "Pickup"
+    },
+    "DroneFinished": {
+      "CssClasses": "light-invert",
+      "Image": "DroneComplete.png",
+      "Link": "Drone Complete"
+    },
+    "HackA": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapHackA.png",
+      "Link": "Hack A"
+    },
+    "Attack": {
+      "CssClasses": "light-invert",
+      "Image": "MiniMapAttack.png",
+      "Link": "Attack"
+    }
+  },
+  "Affinity": {
+    "Mastery": {
+      "CssClasses": "dark-invert",
+      "Image": "MasteryAffinity64(xDark).png",
+      "Link": "Mastery Rank"
+    },
+    "Legendary": {
+      "CssClasses": "light-invert",
+      "Image": "LegendaryIcon.png",
+      "Link": "Mastery Rank"
+    },
+    "Clan": {
+      "CssClasses": "light-invert",
+      "Image": "ClanAffinity64.png",
+      "Link": "Research"
+    }
+  }
+}

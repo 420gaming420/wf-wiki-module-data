@@ -1,0 +1,680 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:FallbackList",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:37:05.878Z"
+  },
+  "_comments": "---\tLanguage fallback rules for other Lua modules.\n--\t@see       https://commons.wikimedia.org/wiki/Module:Fallbacklist\n--\t@release   2017-01-01T20:33:00.000Z\n--\t@submodule\n--\t<nowiki>\n    -- crh (Crimean Tatar) cluster: crh-cyrl , crh-latn -> crh (Crimean Tatar)\n    -- de (German) cluster:\n    -- es (Spanish) cluster\n    -- et (Estonian) cluster\n    -- fa (Persian) cluster\n    -- fi (Finnish) cluster:\n    -- fr (French) cluster:\n    -- hi (Hindi) cluster\n    -- hif (Fiji Hindi) cluster: hif-deva , hif-latn -> hif (Fiji Hindi)\n    -- id (Indonesian) cluster\n    -- ike (Eastern Canadian Inuktitut) cluster: ike-cans , ike-latn -> ike (Eastern Canadian Inuktitut)\n    -- it (Italian) cluster\n    -- kk (Kazakh) cluster:\n    -- kk-arab , kk-cyrl , kk-latn , kk-cn , kk-kz , kk-tr -> kk (Kazakh)\n    -- ku (Kurdish) cluster: ku-latn , ku-arab -> ku (Kurdish)\n    -- nl (Dutch) cluster\n    --pl (Polish) cluster\n    -- pt (Portuguese) cluster\n    -- ro (Romanian) cluster\n    -- ru (Russian) cluster\n    -- ruq (Megleno Romanian) cluster: ruq-cyrl , ruq-grek , ruq-latn -> ruq (Megleno Romanian)\n    -- sr (Serbian) cluster: sr-ec , sr-el -> sr (Serbian)\n    -- tg (Tajik) cluster: tg-cyrl , tg-latn -> tg (Tajik)\n    -- tr (Turkish) cluster\n    -- tt (Tatar) cluster: tt-cyrl , tt-latn -> tt (Tatar)\n    -- zh (Chinese) cluster\n    -- /includes/language/converters/ZhConverter.php\n    -- https://gerrit.wikimedia.org/r/703560\n    -- https://phabricator.wikimedia.org/T59138\n    -- ['wuu']          = {'wuu-hans, 'wuu-hant', 'zh-hans', 'zh-hant', 'zh'}, -- Wu\n    -- ['wuu-hans']     = {'wuu', 'wuu-hant', 'zh-hans', 'zh', 'zh-hant'},     -- Simplified Wu\n    -- ['wuu-hant']     = {'wuu', 'wuu-hans', 'zh-hant', 'zh', 'zh-hans'},     -- Traditional Wu\n    -- https://phabricator.wikimedia.org/T59106\n    -- ['yue']          = {'yue-hant', 'yue-hans, 'zh-hk', 'zh-hant', 'zh-hans', 'zh'}, -- Cantonese\n    -- ['yue-hans']     = {'yue', 'yue-hant', 'zh-hans', 'zh', 'zh-hk', 'zh-hant'},     -- Simplified Cantonese\n    -- ['yue-hant']     = {'yue', 'yue-hans', 'zh-hk', 'zh-hant', 'zh', 'zh-hans'},     -- Traditional Cantonese\n    -- The time allocated for running scripts has expired.\n    -- ['zh']           = {'zh-hans', 'zh-hant', 'zh-cn', 'zh-tw', 'zh-hk'}, -- Chinese\n    -- ['zh-hans']      = {'zh-cn', 'zh', 'zh-hant'},   -- Simplified Chinese\n    -- ['zh-hant']      = {'zh-tw', 'zh-hk', 'zh', 'zh-hans'},   -- Traditional Chinese\n    -- ['zh-tw']        = {'zh-hant', 'zh-hk', 'zh', 'zh-hans'}, -- Chinese (Taiwan)\n    -- ['zh-hk']        = {'zh-hant', 'zh-tw', 'zh', 'zh-hans'}, -- Chinese (Hong Kong)\n    -- misc\n    -- da\n    -- lt",
+  "szl": [
+    "pl"
+  ],
+  "fiu-vro": [
+    "vro",
+    "et"
+  ],
+  "ks": [
+    "ks-arab"
+  ],
+  "egl": [
+    "it"
+  ],
+  "os": [
+    "ru"
+  ],
+  "en-gb": [
+    "en"
+  ],
+  "ksh": [
+    "de"
+  ],
+  "de-formal": [
+    "de"
+  ],
+  "ku-latn": [
+    "ku"
+  ],
+  "kk": [
+    "kk-cyrl"
+  ],
+  "bat-smg": [
+    "sgs",
+    "lt"
+  ],
+  "bar": [
+    "de"
+  ],
+  "gan-hans": [
+    "gan",
+    "gan-hant",
+    "zh-hans",
+    "zh",
+    "zh-hant"
+  ],
+  "cbk-zam": [
+    "es"
+  ],
+  "ike-latn": [
+    "ik"
+  ],
+  "myv": [
+    "ru"
+  ],
+  "ab": [
+    "ru"
+  ],
+  "glk": [
+    "fa"
+  ],
+  "sli": [
+    "de"
+  ],
+  "liv": [
+    "et"
+  ],
+  "frp": [
+    "fr"
+  ],
+  "sr": [
+    "sr-ec"
+  ],
+  "lb": [
+    "de"
+  ],
+  "su": [
+    "id"
+  ],
+  "hif": [
+    "hif-latn"
+  ],
+  "crh": [
+    "crh-latn"
+  ],
+  "lzh": [
+    "zh-hant",
+    "zh",
+    "zh-hans"
+  ],
+  "xal": [
+    "ru"
+  ],
+  "br": [
+    "fr"
+  ],
+  "yue": [
+    "zh-hk",
+    "zh-hant",
+    "zh-hans",
+    "zh"
+  ],
+  "hak": [
+    "zh-hant",
+    "zh",
+    "zh-hans"
+  ],
+  "lzz": [
+    "tr"
+  ],
+  "nds": [
+    "nds-nl",
+    "de"
+  ],
+  "de-ch": [
+    "de"
+  ],
+  "gag": [
+    "tr"
+  ],
+  "lmo": [
+    "it"
+  ],
+  "sr-ec": [
+    "sr"
+  ],
+  "crh-latn": [
+    "crh"
+  ],
+  "fy": [
+    "nl"
+  ],
+  "pdc": [
+    "de"
+  ],
+  "ay": [
+    "es"
+  ],
+  "gan-hant": [
+    "gan",
+    "gan-hans",
+    "zh-hant",
+    "zh",
+    "zh-hans"
+  ],
+  "szy": [
+    "zh-tw",
+    "zh-hant",
+    "zh",
+    "zh-hans"
+  ],
+  "sa": [
+    "hi"
+  ],
+  "rmy": [
+    "ro"
+  ],
+  "wuu": [
+    "zh-hans",
+    "zh-hant",
+    "zh"
+  ],
+  "ruq": [
+    "ruq-latn",
+    "ro"
+  ],
+  "wa": [
+    "fr"
+  ],
+  "pms": [
+    "it"
+  ],
+  "tg-latn": [
+    "tg"
+  ],
+  "dtp": [
+    "ms"
+  ],
+  "vls": [
+    "nl"
+  ],
+  "be-tarask": [
+    "ru"
+  ],
+  "tt-cyrl": [
+    "tt"
+  ],
+  "vep": [
+    "et"
+  ],
+  "pfl": [
+    "de"
+  ],
+  "zh-min-nan": [
+    "nan",
+    "cdo",
+    "zh-hant",
+    "zh",
+    "zh-hans"
+  ],
+  "be-x-old": [
+    "be-tarask"
+  ],
+  "lij": [
+    "it"
+  ],
+  "stq": [
+    "de"
+  ],
+  "khw": [
+    "ur"
+  ],
+  "vec": [
+    "it"
+  ],
+  "bpy": [
+    "bn"
+  ],
+  "aln": [
+    "sq"
+  ],
+  "zh-classical": [
+    "lzh",
+    "zh-hant",
+    "zh",
+    "zh-hans"
+  ],
+  "ko-kp": [
+    "ko"
+  ],
+  "co": [
+    "fr"
+  ],
+  "nah": [
+    "es"
+  ],
+  "bcc": [
+    "fa"
+  ],
+  "zh-mo": [
+    "zh-hant",
+    "zh-hk",
+    "zh-tw",
+    "zh",
+    "zh-hans"
+  ],
+  "ltg": [
+    "lv"
+  ],
+  "sgs": [
+    "lt"
+  ],
+  "crh-cyrl": [
+    "ru"
+  ],
+  "tcy": [
+    "kn"
+  ],
+  "arn": [
+    "es"
+  ],
+  "kk-cn": [
+    "kk-arab",
+    "kk-cyrl",
+    "kk"
+  ],
+  "als": [
+    "gsw",
+    "de"
+  ],
+  "li": [
+    "nl"
+  ],
+  "pcd": [
+    "fr"
+  ],
+  "rgn": [
+    "it"
+  ],
+  "nap": [
+    "it"
+  ],
+  "za": [
+    "zh-hans",
+    "zh-hant",
+    "zh"
+  ],
+  "mg": [
+    "fr"
+  ],
+  "no": [
+    "nb"
+  ],
+  "mo": [
+    "ro"
+  ],
+  "kl": [
+    "da"
+  ],
+  "ace": [
+    "id"
+  ],
+  "tg": [
+    "tg-cyrl"
+  ],
+  "sg": [
+    "fr"
+  ],
+  "jut": [
+    "da"
+  ],
+  "ug": [
+    "ug-arab"
+  ],
+  "bh": [
+    "bho"
+  ],
+  "cdo": [
+    "nan",
+    "zh-hant",
+    "zh",
+    "zh-hans"
+  ],
+  "map-bms": [
+    "jv",
+    "id"
+  ],
+  "arz": [
+    "ar"
+  ],
+  "an": [
+    "es"
+  ],
+  "csb": [
+    "pl"
+  ],
+  "udm": [
+    "ru"
+  ],
+  "jv": [
+    "id"
+  ],
+  "anp": [
+    "hi"
+  ],
+  "ruq-grek": [
+    "ruq"
+  ],
+  "dsb": [
+    "de"
+  ],
+  "roa-rup": [
+    "rup"
+  ],
+  "yi": [
+    "he"
+  ],
+  "zh-hk": [
+    "zh-hant",
+    "zh-hans"
+  ],
+  "hsb": [
+    "de"
+  ],
+  "ff": [
+    "fr"
+  ],
+  "kk-arab": [
+    "kk-cyrl",
+    "kk"
+  ],
+  "xmf": [
+    "ka"
+  ],
+  "af": [
+    "nl"
+  ],
+  "vmf": [
+    "de"
+  ],
+  "ike-cans": [
+    "ik"
+  ],
+  "ruq-cyrl": [
+    "ruq",
+    "mk"
+  ],
+  "pt-br": [
+    "pt"
+  ],
+  "zh-sg": [
+    "zh-hans",
+    "zh-cn",
+    "zh",
+    "zh-hant"
+  ],
+  "kk-cyrl": [
+    "kk"
+  ],
+  "pdt": [
+    "nds",
+    "de"
+  ],
+  "zh-my": [
+    "zh-hans",
+    "zh-sg",
+    "zh-cn",
+    "zh",
+    "zh-hant"
+  ],
+  "zh-cn": [
+    "zh-hans",
+    "zh",
+    "zh-hant"
+  ],
+  "min": [
+    "id"
+  ],
+  "vro": [
+    "et"
+  ],
+  "av": [
+    "ru"
+  ],
+  "ln": [
+    "fr"
+  ],
+  "gan": [
+    "gan-hant",
+    "gan-hans",
+    "zh-hant",
+    "zh-hans",
+    "zh"
+  ],
+  "zh-hant": [
+    "zh-hk",
+    "zh-hans"
+  ],
+  "gn": [
+    "es"
+  ],
+  "frc": [
+    "fr"
+  ],
+  "zh": [
+    "zh-hans",
+    "zh-hant",
+    "zh-hk"
+  ],
+  "iu": [
+    "ike-cans"
+  ],
+  "bm": [
+    "fr"
+  ],
+  "trv": [
+    "zh-tw",
+    "zh-hant",
+    "zh",
+    "zh-hans"
+  ],
+  "rue": [
+    "uk",
+    "ru"
+  ],
+  "mhr": [
+    "ru"
+  ],
+  "nan": [
+    "cdo",
+    "zh-hant",
+    "zh",
+    "zh-hans"
+  ],
+  "ii": [
+    "zh-cn",
+    "zh-hans",
+    "zh",
+    "zh-hant"
+  ],
+  "azb": [
+    "az"
+  ],
+  "qu": [
+    "es"
+  ],
+  "mai": [
+    "hi"
+  ],
+  "qug": [
+    "qu",
+    "es"
+  ],
+  "lad": [
+    "es"
+  ],
+  "kaa": [
+    "kk-latn",
+    "kk-cyrl"
+  ],
+  "nds-nl": [
+    "nds",
+    "nl"
+  ],
+  "ku": [
+    "ku-latn"
+  ],
+  "kiu": [
+    "tr"
+  ],
+  "tg-cyrl": [
+    "tg"
+  ],
+  "de-at": [
+    "de"
+  ],
+  "zea": [
+    "nl"
+  ],
+  "ruq-latn": [
+    "ro",
+    "ruq"
+  ],
+  "zh-yue": [
+    "yue",
+    "zh-hk",
+    "zh-hant",
+    "zh-hans",
+    "zh"
+  ],
+  "uk": [
+    "ru"
+  ],
+  "tt": [
+    "tt-cyrl",
+    "ru"
+  ],
+  "sah": [
+    "ru"
+  ],
+  "fit": [
+    "fi"
+  ],
+  "tay": [
+    "zh-tw",
+    "zh-hant",
+    "zh",
+    "zh-hans"
+  ],
+  "mwl": [
+    "pt"
+  ],
+  "frr": [
+    "de"
+  ],
+  "mrj": [
+    "ru"
+  ],
+  "inh": [
+    "ru"
+  ],
+  "koi": [
+    "ru"
+  ],
+  "nl-informal": [
+    "nl"
+  ],
+  "kv": [
+    "ru"
+  ],
+  "krc": [
+    "ru"
+  ],
+  "ht": [
+    "fr"
+  ],
+  "lbe": [
+    "ru"
+  ],
+  "bqi": [
+    "fa"
+  ],
+  "lez": [
+    "ru"
+  ],
+  "cv": [
+    "ru"
+  ],
+  "ce": [
+    "ru"
+  ],
+  "ba": [
+    "ru"
+  ],
+  "hif-deva": [
+    "hif"
+  ],
+  "sr-el": [
+    "sr"
+  ],
+  "kbd": [
+    "kbd-cyrl",
+    "ru"
+  ],
+  "ckb": [
+    "ckb-arab",
+    "ku"
+  ],
+  "bjn": [
+    "id"
+  ],
+  "wo": [
+    "fr"
+  ],
+  "mzn": [
+    "fa"
+  ],
+  "tt-latn": [
+    "tt"
+  ],
+  "kk-tr": [
+    "kk-latn",
+    "kk-cyrl",
+    "kk"
+  ],
+  "kk-latn": [
+    "kk-cyrl",
+    "kk"
+  ],
+  "fur": [
+    "it"
+  ],
+  "kk-kz": [
+    "kk",
+    "kk-cyrl"
+  ],
+  "scn": [
+    "it"
+  ],
+  "zh-tw": [
+    "zh-hant",
+    "zh-hk",
+    "zh-hans"
+  ],
+  "bug": [
+    "id"
+  ],
+  "vot": [
+    "fi"
+  ],
+  "eml": [
+    "it"
+  ],
+  "hif-latn": [
+    "hif"
+  ],
+  "gl": [
+    "pt"
+  ],
+  "ty": [
+    "fr"
+  ],
+  "zh-hans": [
+    "zh-hant",
+    "zh-hk"
+  ],
+  "ku-arab": [
+    "ckb",
+    "ckb-arab",
+    "ku"
+  ]
+}

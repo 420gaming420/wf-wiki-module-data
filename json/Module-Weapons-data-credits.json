@@ -1,0 +1,104 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Weapons/data/credits",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:46:27.810Z"
+  },
+  "_comments": "",
+  "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechGrenadeLaunch/ThanoTechGrenadeLauncher": {
+    "Modeller": "Malaya Yu",
+    "SourceArchive": "",
+    "Animator": "",
+    "SourceLink": "https://www.artstation.com/artwork/L39KLA",
+    "SoundDesigner": "",
+    "ConceptArtist": "Lucas Hug"
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimeVasto/AkPrimeVasto/AkPrimeVastoPistol": {
+    "SourceArchive": "",
+    "Modeller": "Lucas Hug",
+    "SourceLink": "https://www.artstation.com/artwork/XXm5a",
+    "ConceptArtist": ""
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrnDualFireAxe/GrnDualFireAxe": {
+    "SourceArchive": "",
+    "Modeller": "Lucas Hug",
+    "SourceLink": "https://www.artstation.com/artwork/XXm5a",
+    "ConceptArtist": "Lucas Hug"
+  },
+  "/Lotus/Weapons/Tenno/LongGuns/RepeatingCrossbow/RepeatingCrossbow": {
+    "SourceArchive": "",
+    "Modeller": "Lucas Hug",
+    "SourceLink": "https://www.artstation.com/artwork/XXm5a",
+    "ConceptArtist": ""
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrineerWhip/GrineerWhip": {
+    "SourceArchive": "",
+    "Modeller": "Lucas Hug",
+    "SourceLink": "https://www.artstation.com/artwork/XXm5a",
+    "ConceptArtist": "Lucas Hug"
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimePandero/PanderoPrimeWeapon": {
+    "Modeller": "Malaya Yu",
+    "SourceArchive": "",
+    "Animator": "",
+    "SourceLink": "https://www.artstation.com/artwork/3dDJlm",
+    "SoundDesigner": "",
+    "ConceptArtist": "Andrew Yu"
+  },
+  "/Lotus/Weapons/Infested/Melee/TipedoStaff/InfTipedoStaff": {
+    "SourceArchive": "",
+    "Modeller": "",
+    "SourceLink": "https://www.artstation.com/artwork/XXm5a",
+    "ConceptArtist": "Lucas Hug"
+  },
+  "/Lotus/Weapons/Tenno/Archwing/Primary/ArchBurstGun/ArchBurstGun": {
+    "SourceArchive": "",
+    "Modeller": "Lucas Hug",
+    "SourceLink": "https://www.artstation.com/artwork/XXm5a",
+    "ConceptArtist": "Lucas Hug"
+  },
+  "/Lotus/Weapons/Tenno/Pistols/PrimeVasto/PrimeVastoPistol": {
+    "SourceArchive": "",
+    "Modeller": "Lucas Hug",
+    "SourceLink": "https://www.artstation.com/artwork/XXm5a",
+    "ConceptArtist": ""
+  },
+  "/Lotus/Weapons/Infested/LongGuns/QuantaFullyInfested/InfQuantaRifle": {
+    "SourceArchive": "",
+    "Modeller": "Lucas Hug",
+    "SourceLink": "https://www.artstation.com/artwork/XXm5a",
+    "ConceptArtist": "Lucas Hug"
+  },
+  "/Lotus/Weapons/ClanTech/Chemical/RocketLauncher": {
+    "SourceArchive": "",
+    "Modeller": "Lucas Hug",
+    "SourceLink": "https://www.artstation.com/artwork/XXm5a",
+    "ConceptArtist": "Lucas Hug"
+  },
+  "/Lotus/Weapons/Grineer/Pistols/GrnKohmPistol/GrnKohmPistol": {
+    "SourceArchive": "",
+    "Modeller": "Lucas Hug",
+    "SourceLink": "https://www.artstation.com/artwork/XXm5a",
+    "ConceptArtist": "Lucas Hug"
+  },
+  "/Lotus/Weapons/Grineer/Melee/GrineerTylAxeAndBoar/RegorAxeShield": {
+    "SourceArchive": "",
+    "Modeller": "Lucas Hug",
+    "SourceLink": "https://www.artstation.com/artwork/XXm5a",
+    "ConceptArtist": "Lucas Hug"
+  },
+  "/Lotus/Weapons/ClanTech/Chemical/FlameThrower": {
+    "SourceArchive": "",
+    "Modeller": "Lucas Hug",
+    "SourceLink": "https://www.artstation.com/artwork/XXm5a",
+    "ConceptArtist": "Lucas Hug"
+  },
+  "/Lotus/Weapons/ClanTech/Bio/BioWeapon": {
+    "SourceArchive": "",
+    "Modeller": "Lucas Hug",
+    "SourceLink": "https://www.artstation.com/artwork/XXm5a",
+    "ConceptArtist": "Lucas Hug"
+  }
+}

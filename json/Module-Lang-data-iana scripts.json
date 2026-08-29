@@ -1,0 +1,736 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Lang/data/iana%20scripts",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:39:13.082Z"
+  },
+  "_comments": "-- File-Date: 2025-01-21",
+  "Zmth": [
+    "Mathematical notation"
+  ],
+  "Mahj": [
+    "Mahajani"
+  ],
+  "Hrkt": [
+    "Japanese syllabaries (alias for Hiragana + Katakana)"
+  ],
+  "Bass": [
+    "Bassa Vah"
+  ],
+  "Ital": [
+    "Old Italic (Etruscan, Oscan, etc.)"
+  ],
+  "Roro": [
+    "Rongorongo"
+  ],
+  "Sunu": [
+    "Sunuwar"
+  ],
+  "Xsux": [
+    "Sumero-Akkadian cuneiform"
+  ],
+  "Blis": [
+    "Blissymbols"
+  ],
+  "Syrj": [
+    "Syriac (Western variant)"
+  ],
+  "Buhd": [
+    "Buhid"
+  ],
+  "Osma": [
+    "Osmanya"
+  ],
+  "Brai": [
+    "Braille"
+  ],
+  "Syrc": [
+    "Syriac"
+  ],
+  "Hebr": [
+    "Hebrew"
+  ],
+  "Tols": [
+    "Tolong Siki"
+  ],
+  "Mtei": [
+    "Meitei Mayek",
+    "Meithei",
+    "Meetei"
+  ],
+  "Shaw": [
+    "Shavian",
+    "Shaw"
+  ],
+  "Armi": [
+    "Imperial Aramaic"
+  ],
+  "Psin": [
+    "Proto-Sinaitic"
+  ],
+  "Modi": [
+    "Modi",
+    "Moḍī"
+  ],
+  "Wcho": [
+    "Wancho"
+  ],
+  "Leke": [
+    "Leke"
+  ],
+  "Hung": [
+    "Old Hungarian",
+    "Hungarian Runic"
+  ],
+  "Bhks": [
+    "Bhaiksuki"
+  ],
+  "Deva": [
+    "Devanagari",
+    "Nagari"
+  ],
+  "Narb": [
+    "Old North Arabian",
+    "Ancient North Arabian"
+  ],
+  "Cyrl": [
+    "Cyrillic"
+  ],
+  "Cher": [
+    "Cherokee"
+  ],
+  "Chrs": [
+    "Chorasmian"
+  ],
+  "Batk": [
+    "Batak"
+  ],
+  "Hmng": [
+    "Pahawh Hmong"
+  ],
+  "Hira": [
+    "Hiragana"
+  ],
+  "Tfng": [
+    "Tifinagh",
+    "Berber"
+  ],
+  "Sara": [
+    "Sarati"
+  ],
+  "Bamu": [
+    "Bamum"
+  ],
+  "Sgnw": [
+    "SignWriting"
+  ],
+  "Gara": [
+    "Garay"
+  ],
+  "Zzzz": [
+    "Code for uncoded script"
+  ],
+  "Zyyy": [
+    "Code for undetermined script"
+  ],
+  "Knda": [
+    "Kannada"
+  ],
+  "Kpel": [
+    "Kpelle"
+  ],
+  "Beng": [
+    "Bengali",
+    "Bangla"
+  ],
+  "Cakm": [
+    "Chakma"
+  ],
+  "Gonm": [
+    "Masaram Gondi"
+  ],
+  "Zxxx": [
+    "Code for unwritten documents"
+  ],
+  "Goth": [
+    "Gothic"
+  ],
+  "Marc": [
+    "Marchen"
+  ],
+  "Cans": [
+    "Unified Canadian Aboriginal Syllabics"
+  ],
+  "Mlym": [
+    "Malayalam"
+  ],
+  "Ranj": [
+    "Ranjana"
+  ],
+  "Zsym": [
+    "Symbols"
+  ],
+  "Jpan": [
+    "Japanese (alias for Han + Hiragana + Katakana)"
+  ],
+  "Nagm": [
+    "Nag Mundari"
+  ],
+  "Zsye": [
+    "Symbols (Emoji variant)"
+  ],
+  "Zinh": [
+    "Code for inherited script"
+  ],
+  "Cprt": [
+    "Cypriot syllabary"
+  ],
+  "Elym": [
+    "Elymaic"
+  ],
+  "Onao": [
+    "Ol Onal"
+  ],
+  "Zanb": [
+    "Zanabazar Square",
+    "Zanabazarin Dörböljin Useg",
+    "Xewtee Dörböljin Bicig",
+    "Horizontal Square Script"
+  ],
+  "Yiii": [
+    "Yi"
+  ],
+  "Kits": [
+    "Khitan small script"
+  ],
+  "Yezi": [
+    "Yezidi"
+  ],
+  "Dogr": [
+    "Dogra"
+  ],
+  "Kthi": [
+    "Kaithi"
+  ],
+  "Afak": [
+    "Afaka"
+  ],
+  "Mand": [
+    "Mandaic",
+    "Mandaean"
+  ],
+  "Xpeo": [
+    "Old Persian"
+  ],
+  "Wole": [
+    "Woleai"
+  ],
+  "Gukh": [
+    "Gurung Khema"
+  ],
+  "Ethi": [
+    "Ethiopic",
+    "Geʻez",
+    "Ge'ez"
+  ],
+  "Wara": [
+    "Warang Citi",
+    "Varang Kshiti"
+  ],
+  "Mong": [
+    "Mongolian"
+  ],
+  "Limb": [
+    "Limbu"
+  ],
+  "Dupl": [
+    "Duployan shorthand",
+    "Duployan stenography"
+  ],
+  "Teng": [
+    "Tengwar"
+  ],
+  "Visp": [
+    "Visible Speech"
+  ],
+  "Armn": [
+    "Armenian"
+  ],
+  "Vaii": [
+    "Vai"
+  ],
+  "Palm": [
+    "Palmyrene"
+  ],
+  "Ugar": [
+    "Ugaritic"
+  ],
+  "Tutg": [
+    "Tulu-Tigalari"
+  ],
+  "Toto": [
+    "Toto"
+  ],
+  "Todr": [
+    "Todhri"
+  ],
+  "Tnsa": [
+    "Tangsa"
+  ],
+  "Sogd": [
+    "Sogdian"
+  ],
+  "Tibt": [
+    "Tibetan"
+  ],
+  "Sarb": [
+    "Old South Arabian"
+  ],
+  "Cirt": [
+    "Cirth"
+  ],
+  "Thaa": [
+    "Thaana"
+  ],
+  "Phnx": [
+    "Phoenician"
+  ],
+  "Talu": [
+    "New Tai Lue"
+  ],
+  "Tglg": [
+    "Tagalog",
+    "Baybayin",
+    "Alibata"
+  ],
+  "Adlm": [
+    "Adlam"
+  ],
+  "Vith": [
+    "Vithkuqi"
+  ],
+  "Java": [
+    "Javanese"
+  ],
+  "Kana": [
+    "Katakana"
+  ],
+  "Egyp": [
+    "Egyptian hieroglyphs"
+  ],
+  "Bopo": [
+    "Bopomofo"
+  ],
+  "Dsrt": [
+    "Deseret",
+    "Mormon"
+  ],
+  "Samr": [
+    "Samaritan"
+  ],
+  "Tayo": [
+    "Tai Yo"
+  ],
+  "Newa": [
+    "Newa",
+    "Newar",
+    "Newari",
+    "Nepāla lipi"
+  ],
+  "Latg": [
+    "Latin (Gaelic variant)"
+  ],
+  "Mymr": [
+    "Myanmar",
+    "Burmese"
+  ],
+  "Aran": [
+    "Arabic (Nastaliq variant)"
+  ],
+  "Sora": [
+    "Sora Sompeng"
+  ],
+  "Gujr": [
+    "Gujarati"
+  ],
+  "Diak": [
+    "Dives Akuru"
+  ],
+  "Tavt": [
+    "Tai Viet"
+  ],
+  "Tirh": [
+    "Tirhuta"
+  ],
+  "Latn": [
+    "Latin"
+  ],
+  "Bugi": [
+    "Buginese"
+  ],
+  "Tale": [
+    "Tai Le"
+  ],
+  "Takr": [
+    "Takri",
+    "Ṭākrī",
+    "Ṭāṅkrī"
+  ],
+  "Gran": [
+    "Grantha"
+  ],
+  "Nshu": [
+    "Nüshu"
+  ],
+  "Tagb": [
+    "Tagbanwa"
+  ],
+  "Syrn": [
+    "Syriac (Eastern variant)"
+  ],
+  "Phag": [
+    "Phags-pa"
+  ],
+  "Sylo": [
+    "Syloti Nagri"
+  ],
+  "Aghb": [
+    "Caucasian Albanian"
+  ],
+  "Piqd": [
+    "Klingon (KLI pIqaD)"
+  ],
+  "Arab": [
+    "Arabic"
+  ],
+  "Pauc": [
+    "Pau Cin Hau"
+  ],
+  "Sund": [
+    "Sundanese"
+  ],
+  "Phlp": [
+    "Psalter Pahlavi"
+  ],
+  "Soyo": [
+    "Soyombo"
+  ],
+  "Shui": [
+    "Shuishu"
+  ],
+  "Egyh": [
+    "Egyptian hieratic"
+  ],
+  "Geor": [
+    "Georgian (Mkhedruli and Mtavruli)"
+  ],
+  "Tang": [
+    "Tangut"
+  ],
+  "Sinh": [
+    "Sinhala"
+  ],
+  "Copt": [
+    "Coptic"
+  ],
+  "Sind": [
+    "Khudawadi",
+    "Sindhi"
+  ],
+  "Sidt": [
+    "Sidetic"
+  ],
+  "Thai": [
+    "Thai"
+  ],
+  "Sogo": [
+    "Old Sogdian"
+  ],
+  "Shrd": [
+    "Sharada",
+    "Śāradā"
+  ],
+  "Saur": [
+    "Saurashtra"
+  ],
+  "Sidd": [
+    "Siddham",
+    "Siddhaṃ",
+    "Siddhamātṛkā"
+  ],
+  "Nand": [
+    "Nandinagari"
+  ],
+  "Rohg": [
+    "Hanifi Rohingya"
+  ],
+  "Hang": [
+    "Hangul",
+    "Hangŭl",
+    "Hangeul"
+  ],
+  "Cpmn": [
+    "Cypro-Minoan"
+  ],
+  "Rjng": [
+    "Rejang",
+    "Redjang",
+    "Kaganga"
+  ],
+  "Linb": [
+    "Linear B"
+  ],
+  "Egyd": [
+    "Egyptian demotic"
+  ],
+  "Kawi": [
+    "Kawi"
+  ],
+  "Khoj": [
+    "Khojki"
+  ],
+  "Plrd": [
+    "Miao",
+    "Pollard"
+  ],
+  "Phlv": [
+    "Book Pahlavi"
+  ],
+  "Phli": [
+    "Inscriptional Pahlavi"
+  ],
+  "Syre": [
+    "Syriac (Estrangelo variant)"
+  ],
+  "Chis": [
+    "Chisoi"
+  ],
+  "Hluw": [
+    "Anatolian Hieroglyphs",
+    "Luwian Hieroglyphs",
+    "Hittite Hieroglyphs"
+  ],
+  "Pelm": [
+    "Proto-Elamite"
+  ],
+  "Laoo": [
+    "Lao"
+  ],
+  "Pcun": [
+    "Proto-Cuneiform"
+  ],
+  "Lisu": [
+    "Lisu",
+    "Fraser"
+  ],
+  "Ougr": [
+    "Old Uyghur"
+  ],
+  "Lana": [
+    "Tai Tham",
+    "Lanna"
+  ],
+  "Orya": [
+    "Oriya",
+    "Odia"
+  ],
+  "Bali": [
+    "Balinese"
+  ],
+  "Hanb": [
+    "Han with Bopomofo (alias for Han + Bopomofo)"
+  ],
+  "Perm": [
+    "Old Permic"
+  ],
+  "Mroo": [
+    "Mro",
+    "Mru"
+  ],
+  "Olck": [
+    "Ol Chiki",
+    "Ol Cemet'",
+    "Ol",
+    "Santali"
+  ],
+  "Ogam": [
+    "Ogham"
+  ],
+  "Nkoo": [
+    "N’Ko",
+    "N'Ko"
+  ],
+  "Maka": [
+    "Makasar"
+  ],
+  "Maya": [
+    "Mayan hieroglyphs"
+  ],
+  "Inds": [
+    "Indus",
+    "Harappan"
+  ],
+  "Brah": [
+    "Brahmi"
+  ],
+  "Merc": [
+    "Meroitic Cursive"
+  ],
+  "Hmnp": [
+    "Nyiakeng Puachue Hmong"
+  ],
+  "Nbat": [
+    "Nabataean"
+  ],
+  "Runr": [
+    "Runic"
+  ],
+  "Mult": [
+    "Multani"
+  ],
+  "Moon": [
+    "Moon",
+    "Moon code",
+    "Moon script",
+    "Moon type"
+  ],
+  "Mero": [
+    "Meroitic Hieroglyphs"
+  ],
+  "Khar": [
+    "Kharoshthi"
+  ],
+  "Cari": [
+    "Carian"
+  ],
+  "Medf": [
+    "Medefaidrin",
+    "Oberi Okaime",
+    "Oberi Ɔkaimɛ"
+  ],
+  "Nkdb": [
+    "Naxi Dongba",
+    "na²¹ɕi³³ to³³ba²¹",
+    "Nakhi Tomba"
+  ],
+  "Lepc": [
+    "Lepcha",
+    "Róng"
+  ],
+  "Nkgb": [
+    "Naxi Geba",
+    "na²¹ɕi³³ gʌ²¹ba²¹",
+    "'Na-'Khi ²Ggŏ-¹baw",
+    "Nakhi Geba"
+  ],
+  "Glag": [
+    "Glagolitic"
+  ],
+  "Kali": [
+    "Kayah Li"
+  ],
+  "Lyci": [
+    "Lycian"
+  ],
+  "Loma": [
+    "Loma"
+  ],
+  "Lina": [
+    "Linear A"
+  ],
+  "Mani": [
+    "Manichaean"
+  ],
+  "Avst": [
+    "Avestan"
+  ],
+  "Grek": [
+    "Greek"
+  ],
+  "Taml": [
+    "Tamil"
+  ],
+  "Latf": [
+    "Latin (Fraktur variant)"
+  ],
+  "Ahom": [
+    "Ahom",
+    "Tai Ahom"
+  ],
+  "Osge": [
+    "Osage"
+  ],
+  "Krai": [
+    "Kirat Rai"
+  ],
+  "Jurc": [
+    "Jurchen"
+  ],
+  "Khmr": [
+    "Khmer"
+  ],
+  "Kitl": [
+    "Khitan large script"
+  ],
+  "Mend": [
+    "Mende Kikakui"
+  ],
+  "Prti": [
+    "Inscriptional Parthian"
+  ],
+  "Kore": [
+    "Korean (alias for Hangul + Han)"
+  ],
+  "Telu": [
+    "Telugu"
+  ],
+  "Jamo": [
+    "Jamo (alias for Jamo subset of Hangul)"
+  ],
+  "Orkh": [
+    "Old Turkic",
+    "Orkhon Runic"
+  ],
+  "Hatr": [
+    "Hatran"
+  ],
+  "Hant": [
+    "Han (Traditional variant)"
+  ],
+  "Hans": [
+    "Han (Simplified variant)"
+  ],
+  "Hano": [
+    "Hanunoo",
+    "Hanunóo"
+  ],
+  "Geok": [
+    "Khutsuri (Asomtavruli and Nuskhuri)"
+  ],
+  "Cham": [
+    "Cham"
+  ],
+  "Hani": [
+    "Han",
+    "Hanzi",
+    "Kanji",
+    "Hanja"
+  ],
+  "Cyrs": [
+    "Cyrillic (Old Church Slavonic variant)"
+  ],
+  "Gong": [
+    "Gunjala Gondi"
+  ],
+  "Lydi": [
+    "Lydian"
+  ],
+  "Elba": [
+    "Elbasan"
+  ],
+  "Guru": [
+    "Gurmukhi"
+  ]
+}

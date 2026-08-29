@@ -1,0 +1,249 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Baro/data/typeConfigs",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:30:51.177Z"
+  },
+  "_comments": "\t-- Weapons\n\t-- Mods\n\t-- Appearance (Universal)\n\t-- Appearance (Vehicles)\n\t-- Appearance (Companions)\n\t-- Appearance (Specialized)\n\t-- Miscellaneous",
+  "Cosmetic (Orbiter)": {
+    "HistoryCategory": "Cosmetic (Vehicle)",
+    "GalleryCategory": "Miscellaneous"
+  },
+  "Cosmetic (Kavat)": {
+    "HistoryCategory": "Cosmetic (Companion)",
+    "GalleryCategory": "Appearance"
+  },
+  "Primed Mod (Archwing)": {
+    "HistoryCategory": "Mod",
+    "GalleryCategory": "Mods"
+  },
+  "Mod (Sniper)": {
+    "HistoryCategory": "Mod",
+    "GalleryCategory": "Mods"
+  },
+  "Void Relic": {
+    "GalleryCategory": "Miscellaneous",
+    "HistoryCategory": "Relic",
+    "TooltipModule": "Void"
+  },
+  "Sentinel": {
+    "HistoryCategory": "Companion",
+    "GalleryCategory": "Miscellaneous"
+  },
+  "Cosmetic (Emblem)": {
+    "HistoryCategory": "Cosmetic",
+    "GalleryCategory": "Appearance"
+  },
+  "Primed Mod (Melee)": {
+    "HistoryCategory": "Mod",
+    "GalleryCategory": "Mods"
+  },
+  "Primed Mod (Archgun)": {
+    "HistoryCategory": "Mod",
+    "GalleryCategory": "Mods"
+  },
+  "Mod (Archgun)": {
+    "HistoryCategory": "Mod",
+    "GalleryCategory": "Mods"
+  },
+  "Cosmetic (Operator)": {
+    "HistoryCategory": "Cosmetic (Operator)",
+    "GalleryCategory": "Appearance"
+  },
+  "Mod (Rifle)": {
+    "HistoryCategory": "Mod",
+    "GalleryCategory": "Mods"
+  },
+  "Decoration": {
+    "HistoryCategory": "Decoration",
+    "GalleryCategory": "Miscellaneous"
+  },
+  "Somachord": {
+    "HistoryCategory": "Misc",
+    "GalleryCategory": "Miscellaneous"
+  },
+  "Mod (Companion)": {
+    "HistoryCategory": "Mod",
+    "GalleryCategory": "Mods"
+  },
+  "Quest": {
+    "HistoryCategory": "Misc",
+    "GalleryCategory": "Miscellaneous"
+  },
+  "Mission Locator": {
+    "HistoryCategory": "Misc",
+    "GalleryCategory": "Miscellaneous"
+  },
+  "Weapon (Archwing)": {
+    "GalleryCategory": "Weapons",
+    "HistoryCategory": "Weapon",
+    "TooltipModule": "Weapons"
+  },
+  "Lootbox": {
+    "HistoryCategory": "Misc",
+    "GalleryCategory": "Miscellaneous"
+  },
+  "Mod (Archwing)": {
+    "HistoryCategory": "Mod",
+    "GalleryCategory": "Mods"
+  },
+  "Mod (Melee)": {
+    "HistoryCategory": "Mod",
+    "GalleryCategory": "Mods"
+  },
+  "Glyph": {
+    "HistoryCategory": "Misc",
+    "GalleryCategory": "Miscellaneous"
+  },
+  "Cosmetic (Kubrow)": {
+    "HistoryCategory": "Cosmetic (Companion)",
+    "GalleryCategory": "Appearance"
+  },
+  "Color Palette": {
+    "HistoryCategory": "Misc",
+    "GalleryCategory": "Miscellaneous"
+  },
+  "Cosmetic (Railjack)": {
+    "HistoryCategory": "Cosmetic (Vehicle)",
+    "GalleryCategory": "Appearance"
+  },
+  "Cosmetic (Armor)": {
+    "HistoryCategory": "Cosmetic",
+    "GalleryCategory": "Appearance"
+  },
+  "Weapon": {
+    "GalleryCategory": "Weapons",
+    "HistoryCategory": "Weapon",
+    "TooltipModule": "Weapons"
+  },
+  "Primed Mod (Shotgun)": {
+    "HistoryCategory": "Mod",
+    "GalleryCategory": "Mods"
+  },
+  "Cosmetic (Signa)": {
+    "HistoryCategory": "Cosmetic",
+    "GalleryCategory": "Appearance"
+  },
+  "Emote": {
+    "HistoryCategory": "Misc",
+    "GalleryCategory": "Miscellaneous"
+  },
+  "Captura Scene": {
+    "HistoryCategory": "Misc",
+    "GalleryCategory": "Miscellaneous"
+  },
+  "Cosmetic (Kaithe)": {
+    "HistoryCategory": "Cosmetic (Vehicle)",
+    "GalleryCategory": "Appearance"
+  },
+  "Mod (Pistol)": {
+    "HistoryCategory": "Mod",
+    "GalleryCategory": "Mods"
+  },
+  "Cosmetic (K-Drive)": {
+    "HistoryCategory": "Cosmetic (Vehicle)",
+    "GalleryCategory": "Appearance"
+  },
+  "Primed Mod (Rifle)": {
+    "HistoryCategory": "Mod",
+    "GalleryCategory": "Mods"
+  },
+  "Cosmetic (Landing Craft)": {
+    "HistoryCategory": "Cosmetic (Vehicle)",
+    "GalleryCategory": "Miscellaneous"
+  },
+  "Cosmetic (Sentinel)": {
+    "HistoryCategory": "Cosmetic (Companion)",
+    "GalleryCategory": "Appearance"
+  },
+  "Cosmetic (Ephemera)": {
+    "HistoryCategory": "Cosmetic",
+    "GalleryCategory": "Appearance"
+  },
+  "Primed Mod (Bow)": {
+    "HistoryCategory": "Mod",
+    "GalleryCategory": "Mods"
+  },
+  "Mod (Stance)": {
+    "HistoryCategory": "Mod",
+    "GalleryCategory": "Mods"
+  },
+  "Cosmetic (Necramech)": {
+    "HistoryCategory": "Cosmetic (Vehicle)",
+    "GalleryCategory": "Appearance"
+  },
+  "Cosmetic (Atomicycle)": {
+    "HistoryCategory": "Cosmetic (Vehicle)",
+    "GalleryCategory": "Appearance"
+  },
+  "Primed Mod (Warframe)": {
+    "HistoryCategory": "Mod",
+    "GalleryCategory": "Mods"
+  },
+  "Cosmetic (Weapon Skin)": {
+    "HistoryCategory": "Cosmetic (Weapon)",
+    "GalleryCategory": "Appearance"
+  },
+  "Cosmetic (MOA)": {
+    "HistoryCategory": "Cosmetic (Companion)",
+    "GalleryCategory": "Appearance"
+  },
+  "Mod (Bow)": {
+    "HistoryCategory": "Mod",
+    "GalleryCategory": "Mods"
+  },
+  "Cosmetic (Archwing)": {
+    "HistoryCategory": "Cosmetic (Vehicle)",
+    "GalleryCategory": "Appearance"
+  },
+  "Booster": {
+    "HistoryCategory": "Misc",
+    "GalleryCategory": "Miscellaneous"
+  },
+  "Bundle": {
+    "HistoryCategory": "Misc",
+    "GalleryCategory": "Miscellaneous"
+  },
+  "Cosmetic (Warframe Skin)": {
+    "HistoryCategory": "Cosmetic (Warframe)",
+    "GalleryCategory": "Appearance"
+  },
+  "Cosmetic (Sigil)": {
+    "HistoryCategory": "Cosmetic",
+    "GalleryCategory": "Appearance"
+  },
+  "Cosmetic (Syandana)": {
+    "HistoryCategory": "Cosmetic",
+    "GalleryCategory": "Appearance"
+  },
+  "Consumable": {
+    "HistoryCategory": "Misc",
+    "GalleryCategory": "Miscellaneous"
+  },
+  "Cosmetic (Weapon)": {
+    "HistoryCategory": "Cosmetic (Weapon)",
+    "GalleryCategory": "Appearance"
+  },
+  "Primed Mod (Companion)": {
+    "HistoryCategory": "Mod",
+    "GalleryCategory": "Mods"
+  },
+  "Primed Mod (Pistol)": {
+    "HistoryCategory": "Mod",
+    "GalleryCategory": "Mods"
+  },
+  "Mod (Warframe)": {
+    "HistoryCategory": "Mod",
+    "GalleryCategory": "Mods"
+  },
+  "Primed Mod (Sniper)": {
+    "HistoryCategory": "Mod",
+    "GalleryCategory": "Mods"
+  },
+  "Mod (Shotgun)": {
+    "HistoryCategory": "Mod",
+    "GalleryCategory": "Mods"
+  }
+}

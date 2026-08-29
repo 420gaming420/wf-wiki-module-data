@@ -1,0 +1,1524 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Enemies/data/narmer",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:36:13.850Z"
+  },
+  "_comments": "\t\t\t--Scans = ?,\n\t\t\t-- EximusDefault = false,\n\t\t\t-- SteelPathDefault = false,\n\t\t\t--Multis = { \"?\" },\n\t\t\t--Description = \"?\",\n\t\t\t--InternalName = \"/Lotus/Types/Enemies/Corpus/Narmer/Transports/XXXX\",\n\t\t\t\t-- {\n\t\t\t\t-- \tAttackName = \"Shot Damage\",\n\t\t\t\t-- \tDamageDistribution = {\n\t\t\t\t-- \t\tImpact = 0.3333,\n\t\t\t\t-- \t\tPuncture = 0.3333,\n\t\t\t\t-- \t\tSlash = 0.3334,\n\t\t\t\t-- \t},\n\t\t\t\t-- \tTotalDamage = 10,\n\t\t\t\t-- \tStatusChance = 0.1,\n\t\t\t\t-- },",
+  "Narmer Thumper Doma": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "The largest version of the Grineer mobile defense platform. Pneumatic groundpounders, high-drop entrances and wide-bore cannons deliver the same simple message: boom.",
+      "Link": "Narmer Thumper Doma",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Thumper",
+      "Scans": 3,
+      "Image": "TuskThumperDoma.png",
+      "Name": "Narmer Thumper Doma",
+      "Faction": "Narmer",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Health": 15000,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "SpawnLevel": 50,
+      "Affinity": 500
+    }
+  },
+  "Narmer Militant": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "The Narner Veil is in full controll",
+      "Link": "Narmer Militant",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "?",
+      "Image": "NarmerOstronMilitant.png",
+      "Name": "Narmer Militant",
+      "Faction": "Narmer",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        "Cyath",
+        "Dokrahm",
+        "Kronsh"
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 1.0x"
+      ],
+      "BaseLevel": 1,
+      "Health": 300,
+      "Affinity": -1
+    }
+  },
+  "Narmer Glaxion MOA": {
+    "General": {
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Under the control of the Narmer.",
+      "Link": "Narmer Glaxion MOA",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Ranged",
+      "Scans": 5,
+      "Image": "NarmerCorpusGlaxionMoa.png",
+      "Name": "Narmer Glaxion MOA",
+      "Faction": "Narmer",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        "Glaxion"
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Cold": 1
+          },
+          "StatusChance": 0.02,
+          "TotalDamage": 4,
+          "AttackName": "Laser Damage"
+        }
+      ],
+      "Health": 60,
+      "BaseLevel": 1,
+      "Shield": 300,
+      "Multis": [
+        "Fanny Pack: 3.0x",
+        "Gun: 0.5x"
+      ],
+      "SpawnLevel": 50,
+      "Affinity": 150
+    }
+  },
+  "Narmer Shield Osprey": {
+    "General": {
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Under the control of the Narmer.",
+      "Link": "Narmer Shield Osprey",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Support",
+      "Scans": 20,
+      "Image": "NarmerCorpusShieldDrone.png",
+      "Name": "Narmer Shield Osprey",
+      "Faction": "Narmer",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 35,
+      "BaseLevel": 1,
+      "Shield": 50,
+      "SpawnLevel": 50,
+      "Affinity": 50
+    }
+  },
+  "Narmer Bombard": {
+    "General": {
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "The Narmer Veil is in full control.",
+      "Link": "Narmer Bombard",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Melee",
+      "Scans": 3,
+      "Image": "NarmerBombard.png",
+      "Name": "Narmer Bombard",
+      "Faction": "Narmer",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        "Tonkor",
+        "Sheev"
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 300,
+      "BaseLevel": 1,
+      "Armor": 500,
+      "SpawnLevel": 50,
+      "Affinity": 500
+    }
+  },
+  "Narmer Coildrive": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Link": "Narmer Coildrive",
+      "Type": "Dropship",
+      "Image": "NarmerCoildrive.png",
+      "Name": "Narmer Coildrive",
+      "Faction": "Narmer",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Health": -1,
+      "BaseLevel": 1,
+      "Shield": -1,
+      "Armor": -1,
+      "Affinity": -1
+    }
+  },
+  "Narmer Raknoid": {
+    "General": {
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "A spiderlike robot produced by Narmer converts from the Corpus, and used as a veil transmission relay.",
+      "Link": "Narmer Raknoid",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Ranged",
+      "Scans": 3,
+      "Image": "NarmerBossArachnoid.png",
+      "Name": "Narmer Raknoid",
+      "Faction": "Narmer",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Legs: 3.5x"
+      ],
+      "Health": 2000,
+      "BaseLevel": 1,
+      "Shield": 5000,
+      "SpawnLevel": 50,
+      "Armor": 200,
+      "Affinity": 500
+    }
+  },
+  "Narmer Power Carrier (Orb Vallis)": {
+    "General": {
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Energy Transport Unit",
+      "Link": "Narmer Power Carrier",
+      "Missions": [
+        "Break Narmer Bounty"
+      ],
+      "Type": "Ranged",
+      "Scans": 5,
+      "Image": "NarmerPowerCarrierOrbVallis.png",
+      "Name": "Narmer Power Carrier",
+      "Faction": "Narmer",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        "Dera",
+        "Prova"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Corpus/Narmer/NarmerSpacemanCarrierAgent",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.75,
+            "Slash": 0.15,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.01,
+          "TotalDamage": 7,
+          "AttackName": "Shot Damage"
+        },
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "TotalDamage": 80,
+          "AttackName": "Grenade Damage"
+        }
+      ],
+      "Health": 650,
+      "BaseLevel": 1,
+      "Shield": 250,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Affinity": 150
+    }
+  },
+  "Archon Boreal": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Boss",
+      "Description": "",
+      "Link": "Archon Boreal",
+      "Missions": [
+        "Archon Hunt"
+      ],
+      "Introduced": "31",
+      "EmpoweredDefault": true,
+      "Image": "ArchonBoreal.png",
+      "Name": "Archon Boreal",
+      "Faction": "Narmer",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Armor": 25,
+      "SpawnLevel": 150,
+      "Health": 30000,
+      "Affinity": -1
+    }
+  },
+  "Narmer Sniper Crewman": {
+    "General": {
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "The Narmer Veil is in full control.",
+      "Link": "Narmer Sniper Crewman",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Ranged",
+      "Scans": 20,
+      "Image": "NarmerCorpusSniper.png",
+      "Name": "Narmer Sniper Crewman",
+      "Faction": "Narmer",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        "Lanka"
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 60,
+      "BaseLevel": 1,
+      "Shield": 150,
+      "SpawnLevel": 50,
+      "Affinity": 150
+    }
+  },
+  "Narmer Heavy Gunner": {
+    "General": {
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "The Narmer Veil is in full control.",
+      "Link": "Narmer Heavy Gunner",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Heavy Ranged",
+      "Scans": 3,
+      "Image": "NarmerMinigunBombard.png",
+      "Name": "Narmer Heavy Gunner",
+      "Faction": "Narmer",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        "Gorgon",
+        "Sheev"
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 300,
+      "BaseLevel": 1,
+      "Armor": 500,
+      "SpawnLevel": 50,
+      "Affinity": 500
+    }
+  },
+  "Narmer Disc MOA": {
+    "General": {
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Under the control of the Narmer.",
+      "Link": "Narmer Disc MOA",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Ranged",
+      "Scans": 5,
+      "Image": "NarmerCorpusDiscMoa.png",
+      "Name": "Narmer Disc MOA",
+      "Faction": "Narmer",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Fanny Pack: 3.0x",
+        "Gun: 0.5x"
+      ],
+      "Health": 60,
+      "BaseLevel": 1,
+      "Shield": 200,
+      "SpawnLevel": 50,
+      "Affinity": 250
+    }
+  },
+  "Narmer Napalm": {
+    "General": {
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "The Narmer Veil is in full control.",
+      "Link": "Narmer Napalm",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Heavy",
+      "Scans": 3,
+      "Image": "NarmerIncendiaryBombard.png",
+      "Name": "Narmer Napalm",
+      "Faction": "Narmer",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        "Ogris",
+        "Sheev"
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 600,
+      "BaseLevel": 1,
+      "Armor": 500,
+      "SpawnLevel": 50,
+      "Affinity": 500
+    }
+  },
+  "Narmer Flameblade": {
+    "General": {
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "The Narmer Veil is in full control.",
+      "Link": "Narmer Flameblade",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Melee",
+      "Scans": 10,
+      "Image": "NarmerBlowtorchSawman.png",
+      "Name": "Narmer Flameblade",
+      "Faction": "Narmer",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        "Twin Basolk"
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 50,
+      "BaseLevel": 1,
+      "Armor": 5,
+      "SpawnLevel": 50,
+      "Affinity": 100
+    }
+  },
+  "Narmer Sapping Osprey": {
+    "General": {
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Under the control of the Narmer.",
+      "Link": "Narmer Sapping Osprey",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Ranged",
+      "Scans": 5,
+      "Image": "NarmerCorpusDiscDrone.png",
+      "Name": "Narmer Sapping Osprey",
+      "Faction": "Narmer",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Corpus/Narmer/PNWNarmerDiscDroneAgent",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "TotalDamage": 40,
+          "AttackName": "Shot AoE Damage"
+        }
+      ],
+      "Health": 200,
+      "BaseLevel": 1,
+      "Shield": 50,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "SpawnLevel": 50,
+      "Affinity": 150
+    }
+  },
+  "Narmer Bolkor": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Link": "Narmer Bolkor",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Dropship",
+      "Image": "NarmerGrineerBigDropShip.png",
+      "Name": "Narmer Bolkor",
+      "Faction": "Narmer",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Armor": -1,
+      "BaseLevel": 1,
+      "Health": -1,
+      "Affinity": -1
+    }
+  },
+  "Narmer Corpus Tech": {
+    "General": {
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "The Narmer Veil is in full control.",
+      "Link": "Narmer Corpus Tech",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Heavy",
+      "Scans": 3,
+      "Image": "NarmerCorpusTech.png",
+      "Name": "Narmer Corpus Tech",
+      "Faction": "Narmer",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        "Supra",
+        "Prova"
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 700,
+      "BaseLevel": 1,
+      "Shield": 250,
+      "SpawnLevel": 50,
+      "Affinity": 500
+    }
+  },
+  "Narmer Osprey": {
+    "General": {
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "The Narmer Veil is in full control.",
+      "Link": "Narmer Osprey",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Ranged",
+      "Scans": 0,
+      "Image": "NarmerCorpusTechDrone.png",
+      "Name": "Narmer Osprey",
+      "Faction": "Narmer",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        "Missile"
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 250,
+      "BaseLevel": 1,
+      "Armor": 75,
+      "SpawnLevel": 50,
+      "Affinity": 200
+    }
+  },
+  "Narmer Trooper": {
+    "General": {
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "The Narmer Veil is in full control.",
+      "Link": "Narmer Trooper",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Ranged",
+      "Scans": 10,
+      "Image": "NarmerShotgunLancer.png",
+      "Name": "Narmer Trooper",
+      "Faction": "Narmer",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        "Sheev"
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 120,
+      "BaseLevel": 1,
+      "Armor": 150,
+      "SpawnLevel": 50,
+      "Affinity": 100
+    }
+  },
+  "Narmer Shield Lancer": {
+    "General": {
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "The Narmer Veil is in full control.",
+      "Link": "Narmer Shield Lancer",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Ranged",
+      "Scans": 20,
+      "Image": "NarmerShieldLancer.png",
+      "Name": "Narmer Shield Lancer",
+      "Faction": "Narmer",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        "Viper",
+        "Sheev"
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 100,
+      "BaseLevel": 1,
+      "Armor": 5,
+      "SpawnLevel": 50,
+      "Affinity": 50
+    }
+  },
+  "Narmer Commander": {
+    "General": {
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "The Narmer Veil is in full control.",
+      "Link": "Narmer Commander",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Heavy",
+      "Scans": 20,
+      "Image": "NarmerBossLancer.png",
+      "Name": "Narmer Commander",
+      "Faction": "Narmer",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        "Gorgon"
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 3500,
+      "BaseLevel": 1,
+      "Armor": 250,
+      "SpawnLevel": 50,
+      "Affinity": 500
+    }
+  },
+  "Narmer Scorpion": {
+    "General": {
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "The Narmer Veil is in full control.",
+      "Link": "Narmer Scorpion",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Melee",
+      "Scans": 10,
+      "Image": "NarmerMacheteWoman.png",
+      "Name": "Narmer Scorpion",
+      "Faction": "Narmer",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        "Machete"
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 150,
+      "BaseLevel": 1,
+      "Armor": 150,
+      "SpawnLevel": 50,
+      "Affinity": 50
+    }
+  },
+  "Narmer Scorch": {
+    "General": {
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "The Narmer Veil is in full control.",
+      "Link": "Narmer Scorch",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Ranged",
+      "Scans": 3,
+      "Image": "NarmerFlameLancer.png",
+      "Name": "Narmer Scorch",
+      "Faction": "Narmer",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        "Ignis",
+        "Sheev"
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 120,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "SpawnLevel": 50,
+      "Affinity": 500
+    }
+  },
+  "Narmer Lancer": {
+    "General": {
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "The Narmer Veil is in full control.",
+      "Link": "Narmer Lancer",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Ranged",
+      "Scans": 20,
+      "Image": "NarmerRifleLancer.png",
+      "Name": "Narmer Lancer",
+      "Faction": "Narmer",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        "Grakata",
+        "Sheev"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Grineer/Narmer/Avatars/NarmerRifleLancerAvatar",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 100,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "SpawnLevel": 50,
+      "Affinity": 50
+    }
+  },
+  "Narmer Deacon": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Description": "",
+      "Link": "Narmer Deacon",
+      "Introduced": "31",
+      "Missions": [
+        "Archon Hunt"
+      ],
+      "Image": "NarmerDeaconicon.png",
+      "Name": "Narmer Deacon",
+      "Faction": "Narmer",
+      "Planets": [
+        "Earth",
+        "Mars",
+        "Jupiter"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Narmer/Deacon/NarmerDeaconCombatAvatar",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 5000,
+      "BaseLevel": 1,
+      "Armor": 50,
+      "SpawnLevel": 145,
+      "Affinity": -1
+    }
+  },
+  "Narmer Prod Crewman": {
+    "General": {
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "The Narmer Veil is in full control.",
+      "Link": "Narmer Prod Crewman",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Melee",
+      "Scans": 20,
+      "Image": "NarmerCorpusMelee.png",
+      "Name": "Narmer Prod Crewman",
+      "Faction": "Narmer",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        "Prova"
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 100,
+      "BaseLevel": 1,
+      "Shield": 50,
+      "SpawnLevel": 50,
+      "Affinity": 50
+    }
+  },
+  "Narmer Powerfist": {
+    "General": {
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "The Narmer Veil is in full control.",
+      "Link": "Narmer Powerfist",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Melee",
+      "Scans": 10,
+      "Image": "NarmerPistonSawman.png",
+      "Name": "Narmer Powerfist",
+      "Faction": "Narmer",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        "Furax"
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 100,
+      "BaseLevel": 1,
+      "Armor": 5,
+      "SpawnLevel": 50,
+      "Affinity": 100
+    }
+  },
+  "Narmer Nullifier Crewman": {
+    "General": {
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "The Narmer Veil is in full control.",
+      "Link": "Narmer Nullifier Crewman",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Heavy",
+      "Scans": 5,
+      "Image": "NarmerCorpusNullifier.png",
+      "Name": "Narmer Nullifier Crewman",
+      "Faction": "Narmer",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        "Lanka"
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 60,
+      "BaseLevel": 1,
+      "Shield": 150,
+      "SpawnLevel": 50,
+      "Affinity": 150
+    }
+  },
+  "Archon Amar": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Boss",
+      "Description": "",
+      "Link": "Archon Amar",
+      "Missions": [
+        "Archon Hunt"
+      ],
+      "Introduced": "31",
+      "EmpoweredDefault": true,
+      "Image": "ArchonAmar.png",
+      "Name": "Archon Amar",
+      "Faction": "Narmer",
+      "Planets": [
+        "Mars"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Armor": 25,
+      "SpawnLevel": 150,
+      "Health": 30000,
+      "Affinity": -1
+    }
+  },
+  "Narmer Geminex MOA": {
+    "General": {
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Under the control of the Narmer.",
+      "Link": "Narmer Geminex MOA",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Ranged",
+      "Scans": 5,
+      "Image": "NarmerCorpusDualCannonDrone.png",
+      "Name": "Narmer Geminex MOA",
+      "Faction": "Narmer",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Fanny Pack: 3.0x",
+        "Gun: 0.5x"
+      ],
+      "Health": 60,
+      "BaseLevel": 1,
+      "Shield": 200,
+      "SpawnLevel": 50,
+      "Affinity": 150
+    }
+  },
+  "Narmer Mine Osprey": {
+    "General": {
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Under the control of the Narmer.",
+      "Link": "Narmer Mine Osprey",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Ranged",
+      "Scans": 10,
+      "Image": "NarmerCorpusMineDrone.png",
+      "Name": "Narmer Mine Osprey",
+      "Faction": "Narmer",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Blast": 1
+          },
+          "TotalDamage": 40,
+          "AttackName": "Mine AoE Damage"
+        }
+      ],
+      "Health": 100,
+      "BaseLevel": 1,
+      "Shield": 50,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "SpawnLevel": 50,
+      "Affinity": 100
+    }
+  },
+  "Narmer Leech Osprey": {
+    "General": {
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Under the control of the Narmer.",
+      "Link": "Narmer Leech Osprey",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Ranged",
+      "Scans": 10,
+      "Image": "NarmerCorpusLeechDrone.png",
+      "Name": "Narmer Leech Osprey",
+      "Faction": "Narmer",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 100,
+      "BaseLevel": 15,
+      "Shield": 50,
+      "SpawnLevel": 50,
+      "Affinity": 100
+    }
+  },
+  "Narmer Jailer": {
+    "General": {
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "The Narmer Veil is in full control.",
+      "Link": "Narmer Jailer",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Ranged",
+      "Scans": 3,
+      "Image": "NarmerCorpusGuard.png",
+      "Name": "Narmer Jailer",
+      "Faction": "Narmer",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        "Convectrix"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Corpus/Narmer/NarmerGuardSpacemanAgent",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "Note": "Guarantees Cold proc, doesn't deal damage",
+          "AttackName": "Ice Grenade",
+          "DamageDistribution": {
+            "Cold": 1
+          },
+          "StatusChance": 1,
+          "TotalDamage": 0
+        }
+      ],
+      "Health": 600,
+      "BaseLevel": 1,
+      "Shield": 500,
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "SpawnLevel": 50,
+      "Affinity": 750
+    }
+  },
+  "Narmer Hellion": {
+    "General": {
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "The Narmer Veil is in full control.",
+      "Link": "Narmer Hellion",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Ranged",
+      "Scans": 5,
+      "Image": "NarmerJetpackMarine.png",
+      "Name": "Narmer Hellion",
+      "Faction": "Narmer",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        "Grataka",
+        "Sheev"
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 100,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "SpawnLevel": 50,
+      "Affinity": 250
+    }
+  },
+  "Narmer Crewman": {
+    "General": {
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "The Narmer Veil is in full control.",
+      "Link": "Narmer Crewman",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Ranged",
+      "Scans": 20,
+      "Image": "NarmerCorpusRifle.png",
+      "Name": "Narmer Crewman",
+      "Faction": "Narmer",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        "Dera",
+        "Prova"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Corpus/Narmer/Avatars/NarmerRifleSpacemanAvatar",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 100,
+      "BaseLevel": 1,
+      "Shield": 150,
+      "SpawnLevel": 50,
+      "Affinity": 50
+    }
+  },
+  "Narmer Condor Dropship": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Link": "Narmer Condor Dropship",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Dropship",
+      "Image": "NarmerVenusDropship.png",
+      "Name": "Narmer Condor Dropship",
+      "Faction": "Narmer",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Corpus/Narmer/Transports/NarmerVenusDropshipAvatar",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Health": 17500,
+      "BaseLevel": 1,
+      "Shield": 4000,
+      "Armor": 100,
+      "Affinity": -1
+    }
+  },
+  "Narmer Firbolg": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Link": "Narmer Firbolg",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Dropship",
+      "Image": "NarmerGrineerDropShip.png",
+      "Name": "Narmer Firbolg",
+      "Faction": "Narmer",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Armor": -1,
+      "BaseLevel": 1,
+      "Health": -1,
+      "Affinity": -1
+    }
+  },
+  "Narmer Detron Crewman": {
+    "General": {
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "The Narmer Veil is in full control.",
+      "Link": "Narmer Detron Crewman",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Ranged",
+      "Scans": 20,
+      "Image": "NarmerCorpusShotgun.png",
+      "Name": "Narmer Detron Crewman",
+      "Faction": "Narmer",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        "Detron"
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 60,
+      "BaseLevel": 1,
+      "Shield": 150,
+      "SpawnLevel": 50,
+      "Affinity": 50
+    }
+  },
+  "Narmer Dera MOA": {
+    "General": {
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Description": "Under the control of the Narmer.",
+      "Link": "Narmer Dera MOA",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Ranged",
+      "Scans": 20,
+      "Image": "NarmerCorpusDeraMoa.png",
+      "Name": "Narmer Dera MOA",
+      "Faction": "Narmer",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        "Dera"
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Corpus/Narmer/PNWNarmerShipMoaDeraAgent",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Attacks": [
+        {
+          "DamageDistribution": {
+            "Puncture": 0.7,
+            "Slash": 0.2,
+            "Impact": 0.1
+          },
+          "StatusChance": 0.01,
+          "TotalDamage": 7,
+          "AttackName": "Shot Damage"
+        }
+      ],
+      "Health": 60,
+      "BaseLevel": 1,
+      "Shield": 150,
+      "Multis": [
+        "Fanny Pack: 3.0x",
+        "Gun: 0.5x"
+      ],
+      "SpawnLevel": 50,
+      "Affinity": 50
+    }
+  },
+  "Narmer Buzzard Dropship": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "TileSets": [
+        "Orb Vallis"
+      ],
+      "Link": "Narmer Buzzard Dropship",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Dropship",
+      "Image": "NarmerCorpusDropshipSmall.png",
+      "Name": "Narmer Buzzard Dropship",
+      "Faction": "Narmer",
+      "Planets": [
+        "Venus"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "/Lotus/Types/Enemies/Corpus/Narmer/Transports/NarmerVenusSmallDropshipAvatar",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Health": 15000,
+      "BaseLevel": 1,
+      "Shield": 3000,
+      "Armor": 100,
+      "Affinity": -1
+    }
+  },
+  "Archon Nira": {
+    "General": {
+      "ExcludedFromSimulacrum": true,
+      "Type": "Boss",
+      "Description": "",
+      "Link": "Archon Nira",
+      "Missions": [
+        "Archon Hunt"
+      ],
+      "Introduced": "31",
+      "EmpoweredDefault": true,
+      "Image": "ArchonNira.png",
+      "Name": "Archon Nira",
+      "Faction": "Narmer",
+      "Planets": [
+        "Jupiter"
+      ],
+      "Weapons": [
+        ""
+      ],
+      "InternalName": "",
+      "CodexSecret": true
+    },
+    "Stats": {
+      "Armor": 25,
+      "SpawnLevel": 150,
+      "Health": 30000,
+      "Affinity": -1
+    }
+  },
+  "Narmer Ballista": {
+    "General": {
+      "TileSets": [
+        "Plains of Eidolon"
+      ],
+      "Description": "The Narmer Veil is in full control.",
+      "Link": "Narmer Ballista",
+      "Missions": [
+        "Narmer Bounty"
+      ],
+      "Type": "Sniper",
+      "Scans": 5,
+      "Image": "NarmerGrineerFemale.png",
+      "Name": "Narmer Ballista",
+      "Faction": "Narmer",
+      "Planets": [
+        "Earth"
+      ],
+      "Weapons": [
+        "Vulkar",
+        "Sheev"
+      ],
+      "InternalName": "",
+      "Introduced": "31"
+    },
+    "Stats": {
+      "Multis": [
+        "Head: 3.0x"
+      ],
+      "Health": 100,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "SpawnLevel": 50,
+      "Affinity": 150
+    }
+  }
+}

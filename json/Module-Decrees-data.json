@@ -1,0 +1,935 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Decrees/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:34:32.435Z"
+  },
+  "_comments": "\t\t--BaseWeight = ,\n\t\t--Tags = \"\" ",
+  "Kexat's Pounce": {
+    "Rarity": "Uncommon",
+    "Description": "Jump higher. Gain +180% damage while airborne. Effect wears off 2s after landing.",
+    "Link": "Kexat's Pounce",
+    "Name": "Kexat's Pounce",
+    "MaxStacks": 3,
+    "Icon": "DecreeKexat'sPounce.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/JumpHeightAndAirborneDamage"
+  },
+  "/Lotus/Upgrades/Boons/Offensive/PullEnemyOnGroundSlam": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/PullEnemyOnGroundSlam",
+    "MaxStacks": 1,
+    "BaseWeight": 10,
+    "Tags": ""
+  },
+  "Deadly Momentum": {
+    "Rarity": "Uncommon",
+    "Description": "Every second you are moving, gain 5/10/15% damage. Stacks up to 150%. Stacks steadily decay when you are stationary.",
+    "Link": "Deadly Momentum",
+    "Name": "Deadly Momentum",
+    "MaxStacks": 3,
+    "Icon": "DecreeDeadlyMomentum.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/ChargeDamageWhileMoving"
+  },
+  "Rising Agony": {
+    "Description": "Critical melee hits grant +150% Critical Damage for 7 seconds.",
+    "Link": "Rising Agony",
+    "Tags": "",
+    "Name": "Rising Agony",
+    "Rarity": "Uncommon",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/CriticalDamageOnMeleeCritical",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Icon": "DecreeRisingAgony.png"
+  },
+  "Smoldering Strike": {
+    "Rarity": "Uncommon",
+    "Name": "Smoldering Strike",
+    "Description": "Melee Attacks are imbued with fire, dealing +210% <DT_FIRE_COLOR>Heat Damage. +20% Status Chance.",
+    "Link": "Smoldering Strike",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/HeatDamageMelee",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Icon": "DecreeSmolderingStrike.png"
+  },
+  "Scornful Cast": {
+    "Rarity": "Uncommon",
+    "Description": "Casting an Ability deals 250 <DT_CORROSIVE_COLOR>Corrosive Damage to nearby enemies and applies 10 Corrosion stacks. Damage radius doubles for Warframes.",
+    "Link": "Scornful Cast",
+    "Name": "Scornful Cast",
+    "MaxStacks": 5,
+    "Icon": "DecreeScornfulCast.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/AoeCorrosiveOnCast"
+  },
+  "Blazing Bombardment": {
+    "Rarity": "Uncommon",
+    "Description": "Every fifth shot that hits its target launches a homing fireball at a nearby enemy, dealing 240% <DT_FIRE_COLOR>Heat Damage and Status.",
+    "Link": "Blazing Bombardment",
+    "Name": "Blazing Bombardment",
+    "MaxStacks": 3,
+    "Icon": "DecreeBlazingBombardment.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/StackOnShotFireballUnleash"
+  },
+  "Envious Economy": {
+    "Description": "Casting an Ability grants a 90% chance for the next Ability cast to have no cooldown for Drifter or cost no Energy for a Warframe.",
+    "Link": "Envious Economy",
+    "Tags": "",
+    "Name": "Envious Economy",
+    "Rarity": "Uncommon",
+    "InternalName": "/Lotus/Upgrades/Boons/Utility/NoCostCastChanceOnCast",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Icon": "DecreeEnviousEconomy.png"
+  },
+  "Bombastine's Malice": {
+    "Rarity": "Uncommon",
+    "Description": "On Headshot, 30% chance for enemies near the target will be inflicted with 150% Toxin.",
+    "Link": "Bombastine's Malice",
+    "Name": "Bombastine's Malice",
+    "MaxStacks": 5,
+    "Icon": "DecreeBombastine'sMalice.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/ToxinSpreadOnHeadshot"
+  },
+  "Fearsome Bonanza": {
+    "Description": "Gain +100% Damage for every enemy affected by Status within 20m.",
+    "Link": "Fearsome Bonanza",
+    "Tags": "",
+    "Name": "Fearsome Bonanza",
+    "Rarity": "Uncommon",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/BonusDamagePerNearbyEnemyWithStatus",
+    "MaxStacks": 5,
+    "BaseWeight": 10,
+    "Icon": "DecreeFearsomeBonanza.png"
+  },
+  "Vicious Barb": {
+    "Description": "Critical Damage is doubled.",
+    "Link": "Vicious Barb",
+    "Tags": "Critical",
+    "Name": "Vicious Barb",
+    "Rarity": "Rare",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/DoubleCriticalDamage",
+    "MaxStacks": 1,
+    "BaseWeight": 10,
+    "Icon": "DecreeViciousBarb.png"
+  },
+  "/Lotus/Upgrades/Boons/Offensive/ArmorShred": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/ArmorShred",
+    "MaxStacks": 1,
+    "BaseWeight": 10,
+    "Tags": "Ranged"
+  },
+  "Good Governance": {
+    "Rarity": "Corrupt",
+    "Description": "Sacrifice x0.5 from your Critical Chance to gain x3 to your squad's Critical Damage.",
+    "Link": "Good Governance",
+    "Name": "Good Governance",
+    "MaxStacks": 1,
+    "Icon": "DecreeGoodGovernance.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Corrupted/CorruptedSquadCritDamageForSelfCritChance"
+  },
+  "/Lotus/Upgrades/Boons/Utility/EnergyRegenOnDamageTaken": {
+    "InternalName": "/Lotus/Upgrades/Boons/Utility/EnergyRegenOnDamageTaken",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": ""
+  },
+  "/Lotus/Upgrades/Boons/Offensive/IgnoreArmorWhileSliding": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/IgnoreArmorWhileSliding",
+    "MaxStacks": 1,
+    "BaseWeight": 10,
+    "Tags": "Sliding, Ranged"
+  },
+  "Salted Wound": {
+    "Rarity": "Uncommon",
+    "Description": "Heavy Attacks deal an extra hit with +180% <DT_CORROSIVE_COLOR>Corrosive Damage and Status.",
+    "Link": "Salted Wound",
+    "Name": "Salted Wound",
+    "MaxStacks": 3,
+    "Icon": "DecreeSaltedWound.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/CorrosiveHitOnHeavyMelee"
+  },
+  "/Lotus/Upgrades/Boons/Defensive/HealthPerBoon": {
+    "InternalName": "/Lotus/Upgrades/Boons/Defensive/HealthPerBoon",
+    "MaxStacks": 1,
+    "BaseWeight": 10,
+    "Tags": "BoonStack"
+  },
+  "Persistent Attrition": {
+    "Rarity": "Uncommon",
+    "Description": "The target becomes 10% more vulnerable to damage with each shot.",
+    "Link": "Persistent Attrition",
+    "Name": "Persistent Attrition",
+    "MaxStacks": 1,
+    "Icon": "DecreePersistentAttrition.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/ArmorShred"
+  },
+  "Morale Boost": {
+    "Description": "With full Health, Warframes regenerate 5 Energy per second and Drifter's Transference bar fills 20% more.",
+    "Link": "Morale Boost",
+    "Tags": "Regen",
+    "Name": "Morale Boost",
+    "Rarity": "Uncommon",
+    "InternalName": "/Lotus/Upgrades/Boons/Defensive/EnergyRegenWhenFullHealth",
+    "MaxStacks": 1,
+    "BaseWeight": 10,
+    "Icon": "DecreeMoraleBoost.png"
+  },
+  "Duelist's Advantage": {
+    "Description": "Your first shot after reloading deals +400% damage.",
+    "Link": "Duelist's Advantage",
+    "Tags": "Reload, Ranged",
+    "Name": "Duelist's Advantage",
+    "Rarity": "Uncommon",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/BonusDamageOnReload",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Icon": "DecreeDuelist'sAdvantage.png"
+  },
+  "Bountiful Harvest": {
+    "Rarity": "Uncommon",
+    "Description": "Double drops from crates and plants.",
+    "Link": "Bountiful Harvest",
+    "Name": "Bountiful Harvest",
+    "MaxStacks": 1,
+    "Icon": "DecreeBountifulHarvest.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Utility/DecoDropIncrease"
+  },
+  "Evasive Tremors": {
+    "Description": "Rolling deals 300 damage to nearby enemies and staggers them. Damage radius doubles for Warframes.",
+    "Link": "Evasive Tremors",
+    "Tags": "Rolling",
+    "Name": "Evasive Tremors",
+    "Rarity": "Uncommon",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/AoeStaggerOnRoll",
+    "MaxStacks": 5,
+    "BaseWeight": 10,
+    "Icon": "DecreeEvasiveTremors.png"
+  },
+  "/Lotus/Upgrades/Boons/Utility/SlideSpeedBoostOnSlideKill": {
+    "InternalName": "/Lotus/Upgrades/Boons/Utility/SlideSpeedBoostOnSlideKill",
+    "MaxStacks": 1,
+    "BaseWeight": 10,
+    "Tags": "Sliding"
+  },
+  "/Lotus/Upgrades/Boons/Offensive/BlastOnCritical": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/BlastOnCritical",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": ""
+  },
+  "/Lotus/Upgrades/Boons/Utility/RestoreDoubleJumpOnKill": {
+    "InternalName": "/Lotus/Upgrades/Boons/Utility/RestoreDoubleJumpOnKill",
+    "MaxStacks": 1,
+    "BaseWeight": 10,
+    "Tags": "Jump, Glide"
+  },
+  "/Lotus/Upgrades/Boons/Utility/ReloadOnCast": {
+    "InternalName": "/Lotus/Upgrades/Boons/Utility/ReloadOnCast",
+    "MaxStacks": 4,
+    "BaseWeight": 10,
+    "Tags": ""
+  },
+  "/Lotus/Upgrades/Boons/Offensive/ElectricEmpoweredMeleeAttack": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/ElectricEmpoweredMeleeAttack",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": "Melee, Status"
+  },
+  "Inner Absorption": {
+    "Rarity": "Corrupt",
+    "Description": "Sacrifice x0.5 from your Weapon Damage to increase your Ability Strength and Power Strike Damage by 600%.",
+    "Link": "Inner Absorption",
+    "Name": "Inner Absorption",
+    "MaxStacks": 1,
+    "Icon": "DecreeInnerAbsorption.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Corrupted/CorruptedAbilityStrikeDamageForWeaponDamage"
+  },
+  "Tumbling Frost": {
+    "Description": "Drop a frost explosive when you roll. The explosion deals 250 <DT_FREEZE_COLOR>Cold Damage to nearby enemies and applies 10 <DT_FREEZE_COLOR>Cold Stacks. Explosion radius doubles for Warframes.",
+    "Link": "Tumbling Frost",
+    "Tags": "Rolling, Status",
+    "Name": "Tumbling Frost",
+    "Rarity": "Uncommon",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/AoeColdOnRoll",
+    "MaxStacks": 5,
+    "BaseWeight": 10,
+    "Icon": "DecreeTumblingFrost.png"
+  },
+  "Shattering Frost": {
+    "Description": "Deal +240% damage to enemies affected by <DT_FREEZE_COLOR>Cold Status.",
+    "Link": "Shattering Frost",
+    "Tags": "Status",
+    "Name": "Shattering Frost",
+    "Rarity": "Uncommon",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/BonusDamageFreezeProc",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Icon": "DecreeShatteringFrost.png"
+  },
+  "/Lotus/Upgrades/Boons/Utility/GlobalSilencer": {
+    "InternalName": "/Lotus/Upgrades/Boons/Utility/GlobalSilencer",
+    "MaxStacks": 1,
+    "BaseWeight": 0,
+    "Tags": "Stealth, Ranged"
+  },
+  "King's Collateral": {
+    "Rarity": "Corrupt",
+    "Description": "Take 50% more damage for a 200% chance to receive Rare Decrees.",
+    "Link": "King's Collateral",
+    "Name": "King's Collateral",
+    "MaxStacks": 1,
+    "Icon": "DecreeKing'sCollateral.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Corrupted/CorruptedMoreDamageTakenForLuckyDecrees"
+  },
+  "Fortified Will": {
+    "Rarity": "Uncommon",
+    "Description": "Every 50 Armor grants 15% Ability Strength and Power Strike damage.",
+    "Link": "Fortified Will",
+    "Name": "Fortified Will",
+    "MaxStacks": 3,
+    "Icon": "DecreeFortifiedWill.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/AbilityStrengthPerArmor"
+  },
+  "/Lotus/Upgrades/Boons/Offensive/GroundSlamHeatDamage": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/GroundSlamHeatDamage",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": "Melee, Status"
+  },
+  "Lodun's Rage": {
+    "Description": "Deal 50 <DT_FIRE_COLOR>Heat Damage per second to nearby enemies with 15% Status Chance. Enemies struck suffer +50% <DT_FIRE_COLOR>Heat Damage for 3 seconds.",
+    "Link": "Lodun's Rage",
+    "Tags": "Aura, Status",
+    "Name": "Lodun's Rage",
+    "Rarity": "Uncommon",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/FireAura",
+    "MaxStacks": 5,
+    "BaseWeight": 10,
+    "Icon": "DecreeLodun'sRage.png"
+  },
+  "Sweeping Blow": {
+    "Description": "Melee Heavy Attacks create a shockwave, dealing 180% damage.",
+    "Link": "Sweeping Blow",
+    "Tags": "Status, Melee",
+    "Name": "Sweeping Blow",
+    "Rarity": "Uncommon",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/HeavyMeleeAttackDamageWave",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Icon": "DecreeSweepingBlow.png"
+  },
+  "Nimble Gunner": {
+    "Rarity": "Uncommon",
+    "Description": "Rolling grants 75% Ammo Efficiency for 4 seconds.",
+    "Link": "Nimble Gunner",
+    "Name": "Nimble Gunner",
+    "MaxStacks": 3,
+    "Icon": "DecreeNimbleGunner.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/AmmoEfficiencyOnRoll"
+  },
+  "/Lotus/Upgrades/Boons/Offensive/StackOnShotFireballUnleash": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/StackOnShotFireballUnleash",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": "Ranged, Status"
+  },
+  "/Lotus/Upgrades/Boons/Offensive/SemiAutoFireRateReloadCombo": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/SemiAutoFireRateReloadCombo",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": "Ranged"
+  },
+  "/Lotus/Upgrades/Boons/Offensive/RefillClipOnHeavyMeleeHit": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/RefillClipOnHeavyMeleeHit",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": "Melee"
+  },
+  "Churlish Chatter": {
+    "Rarity": "Corrupt",
+    "Description": "Sacrifice weapon accuracy for +150% Multishot.",
+    "Link": "Churlish Chatter",
+    "Name": "Churlish Chatter",
+    "MaxStacks": 1,
+    "Icon": "DecreeChurlishChatter.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Corrupted/CorruptedAccuracyForMultishot"
+  },
+  "Assassin's Rush": {
+    "Rarity": "Uncommon",
+    "Description": "On kill, gain 50% parkour speed for 7 seconds.",
+    "Link": "Assassin's Rush",
+    "Name": "Assassin's Rush",
+    "MaxStacks": 1,
+    "Icon": "DecreeAssassin'sRush.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Utility/ParkourSpeedBoostOnKill"
+  },
+  "/Lotus/Upgrades/Boons/Offensive/RangedCriticalChanceInAir": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/RangedCriticalChanceInAir",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": ""
+  },
+  "Bounce Back": {
+    "Rarity": "Uncommon",
+    "Description": "On Warframe Ability cast, refund 25% of Energy spent. On Drifter Ability cast, the Transference bar fills 30% more for 6 seconds.",
+    "Link": "Bounce Back",
+    "Name": "Bounce Back",
+    "MaxStacks": 1,
+    "Icon": "DecreeBounceBack.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Utility/EnergyRegenOnAbilityCast"
+  },
+  "Paragrimm's Wisdom": {
+    "Rarity": "Uncommon",
+    "Description": "Gain +3 Decree Rerolls.",
+    "Link": "Paragrimm's Wisdom",
+    "Name": "Paragrimm's Wisdom",
+    "MaxStacks": 1,
+    "Icon": "DecreeParagrimm'sWisdom.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Utility/DecreeRerollIncrease"
+  },
+  "Rain of Vitality": {
+    "Rarity": "Uncommon",
+    "Description": "Enemies have +60% additional chance to drop Health Orbs. Health Orbs increase Armor by 240 for 10 seconds. Effect triples for Warframes.",
+    "Link": "Rain of Vitality",
+    "Name": "Rain of Vitality",
+    "MaxStacks": 3,
+    "Icon": "DecreeRainofVitality.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Defensive/ArmorOnLifeOrbPickup"
+  },
+  "/Lotus/Upgrades/Boons/Offensive/BetterCritsInAir": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/BetterCritsInAir",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": "Glide, Jump, Critical"
+  },
+  "Corrosive Grit": {
+    "Rarity": "Uncommon",
+    "Description": "Each stack of <DT_CORROSIVE_COLOR>Corrosion grants 180 Armor, up to 5x, for 12 seconds.",
+    "Link": "Corrosive Grit",
+    "Name": "Corrosive Grit",
+    "MaxStacks": 3,
+    "Icon": "DecreeCorrosiveGrit.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Defensive/ArmorOnCorrosiveProc"
+  },
+  "/Lotus/Upgrades/Boons/Offensive/NextCritMultiplierOnJump": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/NextCritMultiplierOnJump",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": "Jump, Critical"
+  },
+  "/Lotus/Upgrades/Boons/Defensive/ShieldRestoreOnMeleeKill": {
+    "InternalName": "/Lotus/Upgrades/Boons/Defensive/ShieldRestoreOnMeleeKill",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": ""
+  },
+  "/Lotus/Upgrades/Boons/Offensive/MeleeSlamBuffOnCriticalInAir": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/MeleeSlamBuffOnCriticalInAir",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": ""
+  },
+  "Brimon's Nerve": {
+    "Rarity": "Uncommon",
+    "Description": "Finishers grant +200% Ability Strength to your next Power Strike or Warframe Ability.",
+    "Link": "Brimon's Nerve",
+    "Name": "Brimon's Nerve",
+    "MaxStacks": 1,
+    "Icon": "DecreeBrimon'sNerve.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/AbilityStrengthOnFinisher"
+  },
+  "Close Contagion": {
+    "Description": "Foes inflicted with Status Effects have a 50% chance to spread that Status to enemies within 10m.",
+    "Link": "Close Contagion",
+    "Tags": "",
+    "Name": "Close Contagion",
+    "Rarity": "Rare",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/SpreadStatusOnStatusProc",
+    "MaxStacks": 1,
+    "BaseWeight": 10,
+    "Icon": "DecreeCloseContagion.png"
+  },
+  "Irresistible Bombardment": {
+    "Description": "Each shot briefly increases fire rate by +30% cumulatively.",
+    "Link": "Irresistible Bombardment",
+    "Tags": "Ranged",
+    "Name": "Irresistible Bombardment",
+    "Rarity": "Uncommon",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/FireRateOnFire",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Icon": "DecreeIrresistibleBombardment.png"
+  },
+  "Marauder's Nerve": {
+    "Rarity": "Uncommon",
+    "Description": "Reduce incoming damage by 3% per Decree up to 75%.",
+    "Link": "Marauder's Nerve",
+    "Name": "Marauder's Nerve",
+    "MaxStacks": 1,
+    "Icon": "DecreeMarauder'sNerve.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Defensive/DamageReductionPerBoon"
+  },
+  "/Lotus/Upgrades/Boons/Utility/EnergyRegenOnHeadshot": {
+    "InternalName": "/Lotus/Upgrades/Boons/Utility/EnergyRegenOnHeadshot",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": ""
+  },
+  "/Lotus/Upgrades/Boons/Offensive/DamageHeadshotCombo": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/DamageHeadshotCombo",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": "Ranged"
+  },
+  "/Lotus/Upgrades/Boons/Offensive/GasProcOnHeadshot": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/GasProcOnHeadshot",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": ""
+  },
+  "/Lotus/Upgrades/Boons/Offensive/FireballOnMeleeAttackInAir": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/FireballOnMeleeAttackInAir",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": ""
+  },
+  "Mercurial Bent": {
+    "Rarity": "Corrupt",
+    "Description": "-50% Status Duration, +200% Status Chance",
+    "Link": "Mercurial Bent",
+    "Name": "Mercurial Bent",
+    "MaxStacks": 1,
+    "Icon": "DecreeMercurialBent.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Corrupted/CorruptedStatusDurationForStatusChance"
+  },
+  "/Lotus/Upgrades/Boons/Offensive/FasterWindupOnGroundSlam": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/FasterWindupOnGroundSlam",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": ""
+  },
+  "Grim Armory": {
+    "Rarity": "Uncommon",
+    "Description": "On kill: 30% chance to refill the ammo for whatever weapon you have equipped.",
+    "Link": "Grim Armory",
+    "Name": "Grim Armory",
+    "MaxStacks": 3,
+    "Icon": "DecreeGrimArmory.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Utility/ReloadOnKill"
+  },
+  "/Lotus/Upgrades/Boons/Utility/ArrowProjectileSpeed": {
+    "InternalName": "/Lotus/Upgrades/Boons/Utility/ArrowProjectileSpeed",
+    "MaxStacks": 1,
+    "BaseWeight": 10,
+    "Tags": "Ranged"
+  },
+  "/Lotus/Upgrades/Boons/Offensive/AbilityStrengthNextCastOnHolster": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/AbilityStrengthNextCastOnHolster",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": "AbilityCast"
+  },
+  "Toxic Approach": {
+    "Rarity": "Uncommon",
+    "Description": "During combat, leave behind a <DT_POISON_COLOR>Toxin cloud every 10 seconds for 5 seconds. Enemies within the cloud suffer 25 <DT_IMPACT_COLOR>Impact and 25 <DT_POISON_COLOR>Toxin Damage per second.",
+    "Link": "Toxic Approach",
+    "Name": "Toxic Approach",
+    "MaxStacks": 1,
+    "Icon": "DecreeToxicApproach.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/ToxicAreasWhileAlerted"
+  },
+  "/Lotus/Upgrades/Boons/Offensive/DamageBuffOnEximusKill": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/DamageBuffOnEximusKill",
+    "MaxStacks": 1,
+    "BaseWeight": 10,
+    "Tags": ""
+  },
+  "Luscinia's Suffering": {
+    "Description": "Nearby enemies are affected by <DT_FREEZE_COLOR>Cold Status, slowing them.",
+    "Link": "Luscinia's Suffering",
+    "Tags": "Aura, Status",
+    "Name": "Luscinia's Suffering",
+    "Rarity": "Uncommon",
+    "InternalName": "/Lotus/Upgrades/Boons/Defensive/SlowAura",
+    "MaxStacks": 1,
+    "BaseWeight": 10,
+    "Icon": "DecreeLuscinia'sSuffering.png"
+  },
+  "Fleet-footed": {
+    "Description": "Every Decree collected increases movement speed by 10%.",
+    "Link": "Fleet-footed",
+    "Tags": "BoonStack",
+    "Name": "Fleet-footed",
+    "Rarity": "Uncommon",
+    "InternalName": "/Lotus/Upgrades/Boons/Utility/MoveSpeedPerBoon",
+    "MaxStacks": 1,
+    "BaseWeight": 10,
+    "Icon": "DecreeFleet-Footed.png"
+  },
+  "Fragile Vanity": {
+    "Rarity": "Corrupt",
+    "Description": "Sacrifice -50% Armor to increase the base damage of your shots by 1 for every 20 Armor remaining.",
+    "Link": "Fragile Vanity",
+    "Name": "Fragile Vanity",
+    "MaxStacks": 1,
+    "Icon": "DecreeFragileVanity.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Corrupted/CorruptedArmorForShotDamage"
+  },
+  "/Lotus/Upgrades/Boons/Offensive/ChargeDamageWhileSliding": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/ChargeDamageWhileSliding",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": "Sliding"
+  },
+  "/Lotus/Upgrades/Boons/Offensive/AoeStaggerOnAbility": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/AoeStaggerOnAbility",
+    "MaxStacks": 1,
+    "BaseWeight": 10,
+    "Tags": "AbilityCast"
+  },
+  "/Lotus/Upgrades/Boons/Offensive/BladeAura": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/BladeAura",
+    "MaxStacks": 3,
+    "BaseWeight": 0,
+    "Tags": "Aura, Status"
+  },
+  "/Lotus/Upgrades/Boons/Offensive/RagdollWaveOnGroundSlam": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/RagdollWaveOnGroundSlam",
+    "MaxStacks": 1,
+    "BaseWeight": 10,
+    "Tags": ""
+  },
+  "/Lotus/Upgrades/Boons/Defensive/HealOnToxinProc": {
+    "InternalName": "/Lotus/Upgrades/Boons/Defensive/HealOnToxinProc",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": ""
+  },
+  "Royal Wrath": {
+    "Description": "Each successful melee hit grants cumulative +30% Critical Chance for 3 seconds.",
+    "Link": "Royal Wrath",
+    "Tags": "",
+    "Name": "Royal Wrath",
+    "Rarity": "Uncommon",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/CriticalChanceOnMeleeHit",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Icon": "DecreeRoyalWrath.png"
+  },
+  "/Lotus/Upgrades/Boons/Offensive/ChargeDamageWhileMoving": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/ChargeDamageWhileMoving",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": "Movement"
+  },
+  "/Lotus/Upgrades/Boons/Offensive/AbilityStrengthPerBoon": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/AbilityStrengthPerBoon",
+    "MaxStacks": 1,
+    "BaseWeight": 10,
+    "Tags": "BoonStack"
+  },
+  "Critical Frost": {
+    "Rarity": "Uncommon",
+    "Description": "Critical Hits deal an extra hit with 200% <DT_FREEZE_COLOR>Cold Damage with Status.",
+    "Link": "Critical Frost",
+    "Name": "Critical Frost",
+    "MaxStacks": 5,
+    "Icon": "DecreeCriticalFrost.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/ColdOnCritical"
+  },
+  "/Lotus/Upgrades/Boons/Defensive/ProjectileImmunityOnReload": {
+    "InternalName": "/Lotus/Upgrades/Boons/Defensive/ProjectileImmunityOnReload",
+    "MaxStacks": 1,
+    "BaseWeight": 10,
+    "Tags": "Reload"
+  },
+  "Wyrmling's Aid": {
+    "Rarity": "Uncommon",
+    "Description": "Shots deal an extra hit with 200% <DT_CORROSIVE_COLOR>Corrosive Damage and Status.",
+    "Link": "Wyrmling's Aid",
+    "Name": "Wyrmling's Aid",
+    "MaxStacks": 5,
+    "Icon": "DecreeWyrmling'sAid.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/CorrosiveHitOnShot"
+  },
+  "Stable Stance": {
+    "Rarity": "Uncommon",
+    "Description": "Gains 25% resistance to knockdown for each enemy within 20m.",
+    "Link": "Stable Stance",
+    "Name": "Stable Stance",
+    "MaxStacks": 1,
+    "Icon": "DecreeStableStance.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Defensive/KnockdownResistancePerNearbyEnemy"
+  },
+  "Critical Roll": {
+    "Rarity": "Uncommon",
+    "Description": "After rolling, increase Critical Damage by +120% for 4 seconds.",
+    "Link": "Critical Roll",
+    "Name": "Critical Roll",
+    "MaxStacks": 3,
+    "Icon": "DecreeCriticalRoll.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/CriticalDamageMultiplierOnRoll"
+  },
+  "/Lotus/Upgrades/Boons/Utility/RefillClipWhileCrouching": {
+    "InternalName": "/Lotus/Upgrades/Boons/Utility/RefillClipWhileCrouching",
+    "MaxStacks": 1,
+    "BaseWeight": 10,
+    "Tags": "Crouch, Reload, Ranged"
+  },
+  "/Lotus/Upgrades/Boons/Utility/EnergyRegenOnReload": {
+    "InternalName": "/Lotus/Upgrades/Boons/Utility/EnergyRegenOnReload",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": ""
+  },
+  "Tamm's Fortune": {
+    "Rarity": "Uncommon",
+    "Description": "Finisher attacks grant +500 Armor for 10 seconds. Armor boost triples for Warframes.",
+    "Link": "Tamm's Fortune",
+    "Name": "Tamm's Fortune",
+    "MaxStacks": 1,
+    "Icon": "DecreeTamm'sFortune.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Defensive/ArmorOnFinisher"
+  },
+  "Nourishing Terror": {
+    "Description": "Inflicting a Status Effect restores 100 Health.",
+    "Link": "Nourishing Terror",
+    "Tags": "",
+    "Name": "Nourishing Terror",
+    "Rarity": "Uncommon",
+    "InternalName": "/Lotus/Upgrades/Boons/Defensive/HealOnStatusProc",
+    "MaxStacks": 5,
+    "BaseWeight": 10,
+    "Icon": "DecreeNourishingTerror.png"
+  },
+  "Baneful Harmony": {
+    "Rarity": "Uncommon",
+    "Description": "Inflicting <DT_FREEZE_COLOR>Cold or <DT_POISON_COLOR>Toxin status effects also inflicts <DT_VIRAL_COLOR>Viral status.",
+    "Link": "Baneful Harmony",
+    "Name": "Baneful Harmony",
+    "MaxStacks": 1,
+    "Icon": "DecreeBanefulHarmony.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/ViralOnColdAndToxinProc"
+  },
+  "Tactical Repositioning": {
+    "Description": "After taking damage, roll immediately to recover 75% of the damage taken.",
+    "Link": "Tactical Repositioning",
+    "Tags": "Rolling",
+    "Name": "Tactical Repositioning",
+    "Rarity": "Uncommon",
+    "InternalName": "/Lotus/Upgrades/Boons/Defensive/InvulnDuringRoll",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Icon": "DecreeMoraleBoost.png"
+  },
+  "Sythel's Outburst": {
+    "Rarity": "Uncommon",
+    "Description": "Finisher attacks imbue your melee weapons with 180% <DT_ELECTRICITY_COLOR>Electricity Damage for 15 seconds and increase their Range by 4m.",
+    "Link": "Sythel's Outburst",
+    "Name": "Sythel's Outburst",
+    "MaxStacks": 3,
+    "Icon": "DecreeSythel's Outburst.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/RangeElectricDamageOnFinisher"
+  },
+  "Swooping Miasma": {
+    "Rarity": "Uncommon",
+    "Description": "Gain +2 jumps. Jumping slide kicks cause 300 <DT_VIRAL_COLOR>Viral Damage and 5 <DT_VIRAL_COLOR>Viral status effects in an area around hit enemies.",
+    "Link": "Swooping Miasma",
+    "Name": "Swooping Miasma",
+    "MaxStacks": 5,
+    "Icon": "DecreeSwoopingMiasma.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/AoeViralOnJumpKicks"
+  },
+  "Between the Eyes": {
+    "Rarity": "Uncommon",
+    "Description": "On headshot, gain +150% damage for 3 seconds.",
+    "Link": "Between the Eyes",
+    "Name": "Between the Eyes",
+    "MaxStacks": 3,
+    "Icon": "DecreeBetweenTheEyes.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/BonusDamageOnHeadshot"
+  },
+  "Ranger's Reload": {
+    "Description": "Rolling reloads the equipped weapon.",
+    "Link": "Ranger's Reload",
+    "Tags": "",
+    "Name": "Ranger's Reload",
+    "Rarity": "Uncommon",
+    "InternalName": "/Lotus/Upgrades/Boons/Utility/ReloadOnRoll",
+    "MaxStacks": 1,
+    "BaseWeight": 10,
+    "Icon": "DecreeRanger'sReload.png"
+  },
+  "Consuming Rage": {
+    "Rarity": "Corrupt",
+    "Description": "Heavy Attacks and Power Strikes consume 10% of Energy or Transference Bar, but gain +300% Damage.",
+    "Link": "Consuming Rage",
+    "Name": "Consuming Rage",
+    "MaxStacks": 1,
+    "Icon": "DecreeConsumingRage.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Corrupted/CorruptedEnergyCostForHeavyMeleeDamage"
+  },
+  "/Lotus/Upgrades/Boons/Utility/EnemyLiftAreasWhileAlerted": {
+    "InternalName": "/Lotus/Upgrades/Boons/Utility/EnemyLiftAreasWhileAlerted",
+    "MaxStacks": 1,
+    "BaseWeight": 10,
+    "Tags": ""
+  },
+  "Proficient Fighter": {
+    "Rarity": "Uncommon",
+    "Description": "Drifter Ability cooldown reduced by 45%. Warframes gain +45% Ability Efficiency.",
+    "Link": "Proficient Fighter",
+    "Name": "Proficient Fighter",
+    "MaxStacks": 3,
+    "Icon": "DecreeProficientFighter.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/AbilityCooldownEfficiency"
+  },
+  "Fault Finder": {
+    "Rarity": "Uncommon",
+    "Description": "Weakpoint kills create a 10m field that deals 20% of the killing blow's damage as <DT_ELECTRICITY_COLOR>Electricity Damage every second for 8 seconds.",
+    "Link": "Fault Finder",
+    "Name": "Fault Finder",
+    "MaxStacks": 3,
+    "Icon": "DecreeFaultFinder.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/ElectricFieldOnWeakPointKill"
+  },
+  "Venomous Touch": {
+    "Rarity": "Uncommon",
+    "Description": "Every third melee attack deals 300% <DT_POISON_COLOR>Toxin Damage with Status.",
+    "Link": "Venomous Touch",
+    "Name": "Venomous Touch",
+    "MaxStacks": 3,
+    "Icon": "DecreeVenomousTouch.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/ToxicEmpoweredMeleeAttack"
+  },
+  "Serpent's Path": {
+    "Rarity": "Uncommon",
+    "Description": "While sliding, deal 240 <DT_POISON_COLOR>Toxin Damage to nearby enemies.",
+    "Link": "Serpent's Path",
+    "Name": "Serpent's Path",
+    "MaxStacks": 3,
+    "Icon": "DecreeSerpent'sPath.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/ToxicSlide"
+  },
+  "/Lotus/Upgrades/Boons/Offensive/ArmorStripOnStatusProc": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/ArmorStripOnStatusProc",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Tags": ""
+  },
+  "Storm Caller": {
+    "Rarity": "Uncommon",
+    "Description": "300% Magazine Capacity. Gain 1 <DT_ELECTRICITY_COLOR>Electricity Damage by every bullet reloaded to your weapon.",
+    "Link": "Storm Caller",
+    "Name": "Storm Caller",
+    "MaxStacks": 3,
+    "Icon": "DecreeStormCaller.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/MagazineAndElectricDamageOnReload"
+  },
+  "Killer's Confidence": {
+    "Rarity": "Uncommon",
+    "Description": "On melee kill, gain 120 Overguard. Overguard boost doubles for Warframes.",
+    "Link": "Killer's Confidence",
+    "Name": "Killer's Confidence",
+    "MaxStacks": 3,
+    "Icon": "DecreeKiller'sConfidence.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Defensive/OverguardOnMeleeKill"
+  },
+  "Cloak and Dagger": {
+    "Rarity": "Corrupt",
+    "Description": "Your weapons deal an extra hit with 100% <DT_SLASH_COLOR>Slash Damage and Status, but 100 <DT_SLASH_COLOR>Slash Damage with Status are self inflicted when you attack.",
+    "Link": "Cloak and Dagger",
+    "Name": "Cloak and Dagger",
+    "MaxStacks": 1,
+    "Icon": "DecreeCloakandDagger.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Corrupted/CorruptedSlashBonusForSlashSelf"
+  },
+  "/Lotus/Upgrades/Boons/Offensive/ElectricSlide": {
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/ElectricSlide",
+    "MaxStacks": 3,
+    "BaseWeight": 0,
+    "Tags": "Sliding, Status"
+  },
+  "Molten Mettle": {
+    "Rarity": "Uncommon",
+    "Description": "On Finishers, deal 60% of enemy's maximum Health as a <DT_FIRE_COLOR>Heat Damage 10m around the target.",
+    "Link": "Molten Mettle",
+    "Name": "Molten Mettle",
+    "MaxStacks": 3,
+    "Icon": "DecreeMoltenMettle.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/AreaHeatDamageOnFinisher"
+  },
+  "Majestic Strike": {
+    "Description": "Melee attacks hit twice.",
+    "Link": "Majestic Strike",
+    "Tags": "Melee",
+    "Name": "Majestic Strike",
+    "Rarity": "Rare",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/MeleeAttackDoubleStrike",
+    "MaxStacks": 1,
+    "BaseWeight": 10,
+    "Icon": "DecreeMajesticStrike.png"
+  },
+  "Temporal Acceleration": {
+    "Description": "Casting Abilities boosts movement speed by +150% for 5 seconds.",
+    "Link": "Temporal Acceleration",
+    "Tags": "AbilityCast",
+    "Name": "Temporal Acceleration",
+    "Rarity": "Uncommon",
+    "InternalName": "/Lotus/Upgrades/Boons/Utility/SpeedBoostOnCast",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Icon": "DecreeTemporalAcceleration.png"
+  },
+  "Hammer of Retribution": {
+    "Description": "Ground Slam or Power Strike boost Attack Speed by +75% for 5 seconds.",
+    "Link": "Hammer of Retribution",
+    "Tags": "",
+    "Name": "Hammer of Retribution",
+    "Rarity": "Uncommon",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/AttackSpeedOnGroundSlam",
+    "MaxStacks": 3,
+    "BaseWeight": 10,
+    "Icon": "DecreeHammerOfRetribution.png"
+  },
+  "Dominus Temper": {
+    "Rarity": "Corrupt",
+    "Description": "Sacrifice -50% Maximum Health to increase damage by +10% for every 100 Health remaining.",
+    "Link": "Dominus Temper",
+    "Name": "Dominus Temper",
+    "MaxStacks": 1,
+    "Icon": "DecreeDominusTemper.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Corrupted/CorruptedMaxHpForBonusDamage"
+  },
+  "Dueler's Outburst": {
+    "Rarity": "Uncommon",
+    "Description": "On Critical Hit, gain +90% melee attack speed for 3 seconds.",
+    "Link": "Dueler's Outburst",
+    "Name": "Dueler's Outburst",
+    "MaxStacks": 3,
+    "Icon": "DecreeDueler'sOutburst.png",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/MeleeSpeedBuffOnCritical"
+  },
+  "Greedy Heal": {
+    "Description": "Killing enemies restores 50% Health.",
+    "Link": "Greedy Heal",
+    "Tags": "",
+    "Name": "Greedy Heal",
+    "Rarity": "Uncommon",
+    "InternalName": "/Lotus/Upgrades/Boons/Defensive/HealOnKill",
+    "MaxStacks": 5,
+    "BaseWeight": 10,
+    "Icon": "DecreeGreedyHeal.png"
+  },
+  "Twofold Torment": {
+    "Description": "Status Effects deal double damage.",
+    "Link": "Twofold Torment",
+    "Tags": "",
+    "Name": "Twofold Torment",
+    "Rarity": "Rare",
+    "InternalName": "/Lotus/Upgrades/Boons/Offensive/TripleStatusDamage",
+    "MaxStacks": 1,
+    "BaseWeight": 10,
+    "Icon": "DecreeTwofoldTorment.png"
+  }
+}

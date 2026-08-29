@@ -1,0 +1,946 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Music/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:41:21.156Z"
+  },
+  "_comments": "",
+  "The New War Zariman Ten Zero Ambient*": {
+    "Type": "Ambient",
+    "Locations": [
+      "The New War"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "The New War",
+    "Name": "The New War Zariman Ten Zero Ambient*",
+    "Composers": [
+      "Keith Power",
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "Our Disease": {
+    "Type": "Ambient",
+    "Locations": [
+      "Infested Ship",
+      "Infested Ship (Archwing)"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "Our Disease",
+    "Name": "Our Disease",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "Dog Days Theme*": {
+    "Type": "Combat",
+    "Locations": [
+      "Dog Days"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "Dog Days",
+    "Name": "Dog Days Theme*",
+    "Composers": [
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "Sentient Tombs": {
+    "Type": "Cinematic/Leitmotif",
+    "Locations": [
+      "The Second Dream"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "Sentient Tombs",
+    "Name": "Sentient Tombs",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "The New War Teshin Combat*": {
+    "Type": "Combat",
+    "Locations": [
+      "The New War"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "The New War",
+    "Name": "The New War Teshin Combat*",
+    "Composers": [
+      "Keith Power",
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "Kuva Lich Diorama*": {
+    "Link": "Lich System",
+    "Type": "Ambient",
+    "Locations": [
+      "Lich System"
+    ],
+    "HasOfficialRelease": false,
+    "Name": "Kuva Lich Diorama*",
+    "HasSomachord": false,
+    "Composers": [
+      "George Spanos"
+    ],
+    "Context": "Menu music"
+  },
+  "Vor's Prize": {
+    "Type": "Cinematic/Login",
+    "Locations": [
+      "Vor's Prize"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "Vor's Prize (Soundtrack)",
+    "Name": "Vor's Prize",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "Archwing": {
+    "Type": "Ambient",
+    "Locations": [
+      "Corpus Ship (Archwing)",
+      "Free Space"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "Archwing (Soundtrack)",
+    "Name": "Archwing",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "Ambulas Reborn": {
+    "Type": "Cinematic",
+    "Locations": [
+      "Operation: Ambulas Reborn"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "Operation: Ambulas Reborn",
+    "Name": "Ambulas Reborn",
+    "Composers": [
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "The New War Act 2 Cinematics*": {
+    "Type": "Cinematic",
+    "Locations": [
+      "The New War"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "The New War",
+    "Name": "The New War Act 2 Cinematics*",
+    "Composers": [
+      "Keith Power",
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "Fluid Mechanics": {
+    "Type": "Ambient",
+    "Locations": [
+      "Orb Vallis"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "Fluid Mechanics",
+    "Name": "Fluid Mechanics",
+    "Composers": [
+      "George Spanos"
+    ],
+    "HasSomachord": true
+  },
+  "Ghosts Of Void": {
+    "Type": "Ambient",
+    "Locations": [
+      "Orokin Tower"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "Ghosts Of Void",
+    "Name": "Ghosts Of Void",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "Corrupted": {
+    "Type": "Combat",
+    "Locations": [
+      "Orokin Tower"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "Corrupted (Soundtrack)",
+    "Name": "Corrupted",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "Corpus Ship Ambient*": {
+    "Type": "Ambient",
+    "Locations": [
+      "Corpus Ship"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "Corpus Ship",
+    "Name": "Corpus Ship Ambient*",
+    "Composers": [
+      "Jason Graves"
+    ],
+    "HasSomachord": false
+  },
+  "Vapor Trails": {
+    "Type": "Ambient",
+    "Locations": [
+      "Orb Vallis"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "Vapor Trails",
+    "Name": "Vapor Trails",
+    "Composers": [
+      "George Spanos"
+    ],
+    "HasSomachord": true
+  },
+  "Crime Scene Ambient*": {
+    "Link": "Nightwaves/Series 3",
+    "Type": "Ambient",
+    "Locations": [
+      "Nightwave Series 3"
+    ],
+    "HasOfficialRelease": false,
+    "Name": "Crime Scene Ambient*",
+    "HasSomachord": false,
+    "Composers": [
+      "Jason Graves"
+    ],
+    "Context": "Crime scene music"
+  },
+  "Red Broth": {
+    "Type": "Combat",
+    "Locations": [
+      "Kuva Fortress"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "Red Broth",
+    "Name": "Red Broth",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "For Narmer": {
+    "Type": "Cinematic",
+    "Locations": [
+      "The New War"
+    ],
+    "HasOfficialRelease": "Yes - as single",
+    "Link": "For Narmer",
+    "Name": "For Narmer",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "Gene Molds": {
+    "Type": "Ambient",
+    "Locations": [
+      "Grineer Asteroid",
+      "Grineer Forest",
+      "Grineer Galleon",
+      "Grineer Sealab",
+      "Grineer Settlement",
+      "Grineer Shipyard"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "Gene Molds",
+    "Name": "Gene Molds",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "On Corroded Wings": {
+    "Type": "Combat/Login",
+    "Locations": [
+      "Zariman Ten Zero"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "On Corroded Wings",
+    "Name": "On Corroded Wings",
+    "Composers": [
+      "Keith Power",
+      "George Spanos"
+    ],
+    "HasSomachord": true
+  },
+  "Hunhow": {
+    "Type": "Cinematic",
+    "Locations": [
+      "The Second Dream"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "Hunhow (Soundtrack)",
+    "Name": "Hunhow",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "The New War Act 3 Cinematics*": {
+    "Type": "Cinematic",
+    "Locations": [
+      "The New War"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "The New War",
+    "Name": "The New War Act 3 Cinematics*",
+    "Composers": [
+      "Keith Power",
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "The New War Teshin Ambient*": {
+    "Type": "Ambient",
+    "Locations": [
+      "The New War"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "The New War",
+    "Name": "The New War Teshin Ambient*",
+    "Composers": [
+      "Keith Power",
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "Sunkiller": {
+    "Link": "Sunkiller",
+    "Type": "Combat",
+    "Locations": [
+      "The New War"
+    ],
+    "HasOfficialRelease": false,
+    "Name": "Sunkiller",
+    "HasSomachord": false,
+    "Composers": [
+      "Keith Power",
+      "George Spanos"
+    ],
+    "Context": "Ballas Boss Fight"
+  },
+  "The New War Narmer Ambient*": {
+    "Type": "Ambient",
+    "Locations": [
+      "The New War"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "The New War",
+    "Name": "The New War Narmer Ambient*",
+    "Composers": [
+      "Keith Power",
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "March Of The Moa": {
+    "Type": "Combat",
+    "Locations": [
+      "Corpus Outpost",
+      "Corpus Gas City",
+      "Corpus Ice Planet"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "March Of The Moa",
+    "Name": "March Of The Moa",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "Cambion Drift Ambient*": {
+    "Type": "Ambient",
+    "Locations": [
+      "Cambion Drift"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "Cambion Drift",
+    "Name": "Cambion Drift Ambient*",
+    "Composers": [
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "The New War Railjack Combat*": {
+    "Type": "Combat",
+    "Locations": [
+      "The New War"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "The New War",
+    "Name": "The New War Railjack Combat*",
+    "Composers": [
+      "Keith Power",
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "Grakata": {
+    "Type": "Combat",
+    "Locations": [
+      "Grineer Asteroid",
+      "Grineer Forest",
+      "Grineer Galleon",
+      "Grineer Sealab",
+      "Grineer Settlement",
+      "Grineer Shipyard"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "Grakata (Soundtrack)",
+    "Name": "Grakata",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "Cold Tundra": {
+    "Type": "Combat/Login",
+    "Locations": [
+      "Orb Vallis"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "Cold Tundra",
+    "Name": "Cold Tundra",
+    "Composers": [
+      "George Spanos"
+    ],
+    "HasSomachord": true
+  },
+  "The New War Veso Combat*": {
+    "Type": "Combat",
+    "Locations": [
+      "The New War"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "The New War",
+    "Name": "The New War Veso Combat*",
+    "Composers": [
+      "Keith Power",
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "Coldwave": {
+    "Type": "Combat",
+    "Locations": [
+      "Orb Vallis"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "Coldwave",
+    "Name": "Coldwave",
+    "Composers": [
+      "George Spanos"
+    ],
+    "HasSomachord": true
+  },
+  "Plains of Eidolon Combat Day*": {
+    "Type": "Combat",
+    "Locations": [
+      "Plains of Eidolon"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "Plains of Eidolon",
+    "Name": "Plains of Eidolon Combat Day*",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": false
+  },
+  "The New War Kahl-175 Combat*": {
+    "Type": "Combat",
+    "Locations": [
+      "The New War"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "The New War",
+    "Name": "The New War Kahl-175 Combat*",
+    "Composers": [
+      "Keith Power",
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "The New War Unum Ambient*": {
+    "Type": "Ambient",
+    "Locations": [
+      "The New War"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "The New War",
+    "Name": "The New War Unum Ambient*",
+    "Composers": [
+      "Keith Power",
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "Empyrean Combat*": {
+    "Type": "Combat",
+    "Locations": [
+      "Empyrean"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "Empyrean",
+    "Name": "Empyrean Combat*",
+    "Composers": [
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "We All Lift Together": {
+    "Type": "Cinematic",
+    "Locations": [
+      "Fortuna"
+    ],
+    "HasOfficialRelease": "Yes - We All Lift Together",
+    "Link": "We All Lift Together",
+    "Name": "We All Lift Together",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "Derelicts": {
+    "Type": "Ambient",
+    "Locations": [
+      "Orokin Derelict",
+      "Orokin Moon"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "Derelicts",
+    "Name": "Derelicts",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "Cambion Drift Combat*": {
+    "Type": "Combat",
+    "Locations": [
+      "Cambion Drift"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "Cambion Drift",
+    "Name": "Cambion Drift Combat*",
+    "Composers": [
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "Wretched Things": {
+    "Type": "Cinematic",
+    "Locations": [
+      "The Second Dream"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "Wretched Things",
+    "Name": "Wretched Things",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "Wings Of War": {
+    "Type": "Combat",
+    "Locations": [
+      "Corpus Ship (Archwing)",
+      "Free Space"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "Wings Of War",
+    "Name": "Wings Of War",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "Origin System": {
+    "Type": "Ambient",
+    "Locations": [
+      "Star Chart"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "Origin System",
+    "Name": "Origin System",
+    "Composers": [
+      "George Spanos"
+    ],
+    "HasSomachord": true
+  },
+  "To Take Its Pain Away/Smiles From Juran": {
+    "Type": "Cinematic",
+    "Locations": [
+      "The Sacrifice"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "To Take Its Pain Away",
+    "Name": "To Take Its Pain Away/Smiles From Juran",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "The Offering": {
+    "Type": "Combat",
+    "Locations": [
+      "Zariman Ten Zero"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "The Offering",
+    "Name": "The Offering",
+    "Composers": [
+      "Keith Power",
+      "George Spanos"
+    ],
+    "HasSomachord": true
+  },
+  "This Is What You Are": {
+    "Type": "Cinematic",
+    "Locations": [
+      "The Second Dream"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "This Is What You Are",
+    "Name": "This Is What You Are",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "The Witches Lair": {
+    "Type": "Ambient",
+    "Locations": [
+      "Kuva Fortress"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "The Witches Lair",
+    "Name": "The Witches Lair",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "Corpus Ship Combat*": {
+    "Type": "Combat",
+    "Locations": [
+      "Corpus Ship"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "Corpus Ship",
+    "Name": "Corpus Ship Combat*",
+    "Composers": [
+      "Jason Graves"
+    ],
+    "HasSomachord": false
+  },
+  "Grineer Onslaught": {
+    "Type": "Combat",
+    "Locations": [
+      "Grineer Asteroid",
+      "Grineer Forest",
+      "Grineer Galleon",
+      "Grineer Sealab",
+      "Grineer Settlement",
+      "Grineer Shipyard"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "Grineer Onslaught",
+    "Name": "Grineer Onslaught",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "The Second Dream": {
+    "Type": "Cinematic/Leitmotif",
+    "Locations": [
+      "The Second Dream"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "The Second Dream (Soundtrack)",
+    "Name": "The Second Dream",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "The Profit": {
+    "Type": "Cinematic/Login",
+    "Locations": [
+      "The Profit trailer"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "The Profit",
+    "Name": "The Profit",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "The New War Unum Combat*": {
+    "Type": "Combat",
+    "Locations": [
+      "The New War"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "The New War",
+    "Name": "The New War Unum Combat*",
+    "Composers": [
+      "Keith Power",
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "The New War Railjack Ambient*": {
+    "Type": "Ambient",
+    "Locations": [
+      "The New War"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "The New War",
+    "Name": "The New War Railjack Ambient*",
+    "Composers": [
+      "Keith Power",
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "Plains of Eidolon Ambient*": {
+    "Type": "Ambient",
+    "Locations": [
+      "Plains of Eidolon"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "Plains of Eidolon",
+    "Name": "Plains of Eidolon Ambient*",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": false
+  },
+  "The New War Lotus Epilogue*": {
+    "Type": "Ambient",
+    "Locations": [
+      "The New War"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "The New War",
+    "Name": "The New War Lotus Epilogue*",
+    "Composers": [
+      "Keith Power",
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "The New War Kahl/Act 2 Ambient*": {
+    "Type": "Ambient",
+    "Locations": [
+      "The New War"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "The New War",
+    "Name": "The New War Kahl/Act 2 Ambient*",
+    "Composers": [
+      "Keith Power",
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "The New War Choose Between Drifter and Operator Ambient*": {
+    "Type": "Ambient",
+    "Locations": [
+      "The New War"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "The New War",
+    "Name": "The New War Choose Between Drifter and Operator Ambient*",
+    "Composers": [
+      "Keith Power",
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "The New War Act 1 Cinematics*": {
+    "Type": "Cinematic",
+    "Locations": [
+      "The New War"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "The New War",
+    "Name": "The New War Act 1 Cinematics*",
+    "Composers": [
+      "Keith Power",
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "The New War Archon Ambient*": {
+    "Type": "Ambient",
+    "Locations": [
+      "The New War"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "The New War",
+    "Name": "The New War Archon Ambient*",
+    "Composers": [
+      "Keith Power",
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "The Creeping Dark": {
+    "Type": "Combat",
+    "Locations": [
+      "Orokin Derelict"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "The Creeping Dark",
+    "Name": "The Creeping Dark",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "Sleeping In The Cold Below": {
+    "Type": "Cinematic",
+    "Locations": [
+      "Call of the Tempestarii"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "Sleeping In The Cold Below",
+    "Name": "Sleeping In The Cold Below",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "Consume Us": {
+    "Type": "Combat",
+    "Locations": [
+      "Infested Ship",
+      "Infested Ship (Archwing)"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "Consume Us",
+    "Name": "Consume Us",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "Rapid Adaptation": {
+    "Type": "Combat",
+    "Locations": [
+      "The Second Dream",
+      "Murex"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "Rapid Adaptation",
+    "Name": "Rapid Adaptation",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  },
+  "Canticle": {
+    "Type": "Ambient",
+    "Locations": [
+      "Zariman Ten Zero"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "Canticle",
+    "Name": "Canticle",
+    "Composers": [
+      "Keith Power",
+      "George Spanos"
+    ],
+    "HasSomachord": true
+  },
+  "Plains of Eidolon Combat Night*": {
+    "Type": "Combat",
+    "Locations": [
+      "Plains of Eidolon"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "Plains of Eidolon",
+    "Name": "Plains of Eidolon Combat Night*",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": false
+  },
+  "Null Unit": {
+    "Link": "Null Unit",
+    "Type": "Ambient",
+    "Locations": [
+      "Orb Vallis"
+    ],
+    "HasOfficialRelease": false,
+    "Name": "Null Unit",
+    "HasSomachord": true,
+    "Composers": [
+      "George Spanos"
+    ],
+    "Context": "K-Drive Races"
+  },
+  "Klokkit": {
+    "Link": "Klokkit",
+    "Type": "Ambient",
+    "Locations": [
+      "Orb Vallis"
+    ],
+    "HasOfficalRelease": false,
+    "Name": "Klokkit",
+    "HasSomachord": true,
+    "Composers": [
+      "George Spanos"
+    ],
+    "Context": "K-Drive Races"
+  },
+  "Hybrid Abominations": {
+    "Type": "Combat",
+    "Locations": [
+      "The New War Archon/Narmer"
+    ],
+    "HasOfficialRelease": false,
+    "Link": "Hybrid Abominations",
+    "Name": "Hybrid Abominations",
+    "Composers": [
+      "Keith Power",
+      "George Spanos"
+    ],
+    "HasSomachord": false
+  },
+  "Corpus Greed": {
+    "Type": "Ambient",
+    "Locations": [
+      "Corpus Outpost",
+      "Corpus Gas City",
+      "Corpus Ice Planet"
+    ],
+    "HasOfficialRelease": "Yes - Warframe Soundtrack",
+    "Link": "Corpus Greed",
+    "Name": "Corpus Greed",
+    "Composers": [
+      "Keith Power"
+    ],
+    "HasSomachord": true
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/kubrowarmor",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:32:47.764Z"
+  },
+  "_comments": "",
+  "Prisma Rostam Kubrow Armor": {
+    "Type": "Kubrow Armor",
+    "Image": "PrismaRostamKubrowArmor.png",
+    "Description": "A bold set of Kubrow armor coated in delicate Prisma crystals. ",
+    "Link": "Prisma Rostam Kubrow Armor",
+    "Name": "Prisma Rostam Kubrow Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Armor/KubrowArmorPrisma",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Euphrates Kubrow Armor": {
+    "Type": "Kubrow Armor",
+    "Image": "EuphratesKubrowArmor.png",
+    "Description": "An armor set for your pet, modeled on the intimidating, bladed look of the Tigris Shotgun.",
+    "Link": "Euphrates Kubrow Armor",
+    "Name": "Euphrates Kubrow Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Armor/TnTigrisKubrowArmor",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Valinn Jade Kubrow Armor": {
+    "Type": "Kubrow Armor",
+    "Image": "ValinnJadeKubrowArmor.png",
+    "Description": "Next-generation armor fitted for a Kubrow.",
+    "Link": "Valinn Jade Kubrow Armor",
+    "Name": "Valinn Jade Kubrow Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Armor/KubrowArmorBJade",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Boltor Kubrow Armor": {
+    "Type": "Kubrow Armor",
+    "Image": "BoltorKubrowArmor.png",
+    "Description": "This Kubrow armor is believed to have been forged by the same Tenno weaponsmith who created the Boltor.",
+    "Link": "Boltor Kubrow Armor",
+    "Name": "Boltor Kubrow Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Armor/TnBoltorKubrowArmor",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ki'Teer Kubrow Armor": {
+    "Type": "Kubrow Armor",
+    "Image": "Ki'TeerKubrowArmor.png",
+    "Description": "Fashioned for the most refined breed of Kubrow.",
+    "Link": "Ki'Teer Kubrow Armor",
+    "Name": "Ki'Teer Kubrow Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Armor/KubrowArmorBaro",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Kuva Kubrow Armor": {
+    "Type": "Kubrow Armor",
+    "Image": "KuvaKubrowArmor.png",
+    "Description": "Drahks are outfitted with this armor for the Queens’ royal prisoner hunts.",
+    "Link": "Kuva Kubrow Armor",
+    "Name": "Kuva Kubrow Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Armor/GrineerQueenArmor",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Harka Kubrow Armor": {
+    "Type": "Kubrow Armor",
+    "Image": "HarkaKubrowArmor.png",
+    "Description": "Turn your enemies' icy stares into frozen fear when your Kubrow lunges at them in this armor.",
+    "Link": "Harka Kubrow Armor",
+    "Name": "Harka Kubrow Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Armor/NightwaveSeason5HarkaKubrowArmor",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Kavasa Prime Kubrow Armor": {
+    "Type": "Kubrow Armor",
+    "Image": "KavasaPrimeKubrowArmor.png",
+    "Description": "Decorative Prime armor for a Kubrow.",
+    "Link": "Kavasa Prime Kubrow Armor",
+    "Name": "Kavasa Prime Kubrow Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Armor/PrimeKubrowArmorA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Pakal Kubrow Armor": {
+    "Type": "Kubrow Armor",
+    "Image": "PakalKubrowArmor.png",
+    "Description": "Pakal style armor, fashioned for a Kubrow.",
+    "Link": "Pakal Kubrow Armor",
+    "Name": "Pakal Kubrow Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Armor/KubrowArmorStalker",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Metus Kubrow Armor": {
+    "Type": "Kubrow Armor",
+    "Image": "MetusKubrowArmor.png",
+    "Description": "Adorn any kubrow or helminth with a battery of gothic spikes.",
+    "Link": "Metus Kubrow Armor",
+    "Name": "Metus Kubrow Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Armor/HelminthDeluxeArmor",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Moondance Kubrow Armor": {
+    "Type": "Kubrow Armor",
+    "Image": "MoondanceKubrowArmor.png",
+    "Description": "Prepare your Kubrow for the dance of Lunar Renewal revelry with this ancient lion costume.",
+    "Link": "Moondance Kubrow Armor",
+    "Name": "Moondance Kubrow Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Armor/Lunar2022KubrowArmor",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Verv Ifrit Kubrow Armor": {
+    "Type": "Kubrow Armor",
+    "Image": "VervIfritKubrowArmor.png",
+    "Description": "Demand respect for your Kubrow with this entrancing decorative armor.",
+    "Link": "Verv Ifrit Kubrow Armor",
+    "Name": "Verv Ifrit Kubrow Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Armor/Twitch2021IfritKubrowArmor",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Ifrit Kubrow Armor": {
+    "Type": "Kubrow Armor",
+    "Image": "IfritKubrowArmor.png",
+    "Description": "Decorative armor fitted for a Kubrow.",
+    "Link": "Ifrit Kubrow Armor",
+    "Name": "Ifrit Kubrow Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Armor/KubrowArmorC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Valinn Kubrow Armor": {
+    "Type": "Kubrow Armor",
+    "Image": "ValinnKubrowArmor.png",
+    "Description": "Decorative armor fitted for a Kubrow.",
+    "Link": "Valinn Kubrow Armor",
+    "Name": "Valinn Kubrow Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Armor/KubrowArmorB",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Umbra Kubrow Armor": {
+    "Type": "Kubrow Armor",
+    "Image": "UmbraKubrowArmor.png",
+    "Description": "Armor for a beast as loyal as any Dax.",
+    "Link": "Umbra Kubrow Armor",
+    "Name": "Umbra Kubrow Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Armor/KubrowArmorUmbra",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Sloughi Kubrow Armor": {
+    "Type": "Kubrow Armor",
+    "Image": "SloughiKubrowArmor.png",
+    "Description": "Kurbrow armor for Baruuk’s loyal beast.",
+    "Link": "Sloughi Kubrow Armor",
+    "Name": "Sloughi Kubrow Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Armor/PacifistKubrowArmor",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Sanzang Prime Kubrow Armor": {
+    "Type": "Kubrow Armor",
+    "Image": "SanzangPrimeKubrowArmor.png",
+    "Description": "Ancient Orokin armor for the most faithful and favored Kubrow wardens.",
+    "Link": "Sanzang Prime Kubrow Armor",
+    "Name": "Sanzang Prime Kubrow Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Armor/WukongPrimeKubrowArmor",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Rostam Kubrow Armor": {
+    "Type": "Kubrow Armor",
+    "Image": "RostamKubrowArmor.png",
+    "Description": "Decorative armor fitted for a Kubrow.",
+    "Link": "Rostam Kubrow Armor",
+    "Name": "Rostam Kubrow Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Armor/KubrowArmorA",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Bruja Kubrow Armor": {
+    "Type": "Kubrow Armor",
+    "Image": "BrujaKubrowArmor.png",
+    "Description": "Kubrow armor in the style of Trinity Strega.",
+    "Link": "Bruja Kubrow Armor",
+    "Name": "Bruja Kubrow Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Armor/KubrowArmorTrinityDeluxe",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Amphatz Kubrow Armor": {
+    "Type": "Kubrow Armor",
+    "Image": "AmphatzKubrowArmor.png",
+    "Description": "A sleek, molded bodyglove, enhanced with piezo-electric detailing.",
+    "Link": "Amphatz Kubrow Armor",
+    "Name": "Amphatz Kubrow Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Armor/GrnAmphisKubrowArmor",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  }
+}

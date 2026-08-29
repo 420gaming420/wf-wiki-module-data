@@ -1,0 +1,3093 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Weapons/Conclave/data/melee",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:45:50.106Z"
+  },
+  "_comments": "",
+  "Dakra Prime": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 6.2,
+          "Slash": 49.6,
+          "Impact": 6.2
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Dakra Prime",
+    "SlideAttack": 62,
+    "WallAttack": 62,
+    "JumpAttack": 62,
+    "Slot": "Melee"
+  },
+  "Endura": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 46.2,
+          "Slash": 16.5,
+          "Impact": 3.3
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Endura",
+    "SlideAttack": 66,
+    "WallAttack": 66,
+    "JumpAttack": 66,
+    "Slot": "Melee"
+  },
+  "Karyst": {
+    "Link": "Conclave:Karyst",
+    "_TooltipAttackDisplay": 1,
+    "WallElement": "Toxin",
+    "JumpAttack": 15,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.75,
+        "Damage": {
+          "Puncture": 4.6,
+          "Toxin": 4.8,
+          "Slash": 4,
+          "Impact": 1.6
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "Slot": "Melee",
+    "SlideAttack": 15,
+    "WallAttack": 15,
+    "SlideElement": "Toxin",
+    "JumpElement": "Toxin"
+  },
+  "Mios": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.08,
+        "Damage": {
+          "Puncture": 15,
+          "Slash": 27,
+          "Impact": 18
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Mios",
+    "SlideAttack": 60,
+    "WallAttack": 60,
+    "JumpAttack": 60,
+    "Slot": "Melee"
+  },
+  "Destreza Prime": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 37.1,
+          "Slash": 9.5,
+          "Impact": 6.4
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Destreza Prime",
+    "SlideAttack": 53,
+    "WallAttack": 53,
+    "JumpAttack": 53,
+    "Slot": "Melee"
+  },
+  "Mk1-Bo": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 6.9,
+          "Impact": 62.1
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Mk1-Bo",
+    "SlideAttack": 69,
+    "WallAttack": 69,
+    "JumpAttack": 69,
+    "Slot": "Melee"
+  },
+  "Sigma & Octantis": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.08,
+        "Damage": {
+          "Puncture": 12.5,
+          "Slash": 48.4,
+          "Impact": 17.2
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Sigma & Octantis",
+    "SlideAttack": 78.1,
+    "WallAttack": 78.1,
+    "JumpAttack": 78.1,
+    "Slot": "Melee"
+  },
+  "Scindo": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 9.3,
+          "Slash": 74.4,
+          "Impact": 9.3
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Scindo",
+    "SlideAttack": 93,
+    "WallAttack": 93,
+    "JumpAttack": 93,
+    "Slot": "Melee"
+  },
+  "Prova Vandal": {
+    "Link": "Conclave:Prova Vandal",
+    "_TooltipAttackDisplay": 1,
+    "WallElement": "Electricity",
+    "JumpAttack": 50,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Impact": 20.2,
+          "Electricity": 29.8
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "Slot": "Melee",
+    "SlideAttack": 50,
+    "WallAttack": 50,
+    "SlideElement": "Electricity",
+    "JumpElement": "Electricity"
+  },
+  "Kogake Prime": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 9.3,
+          "Slash": 9.3,
+          "Impact": 43.4
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Kogake Prime",
+    "SlideAttack": 62,
+    "WallAttack": 62,
+    "JumpAttack": 62,
+    "Slot": "Melee"
+  },
+  "Nikana": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 7.1,
+          "Slash": 60.4,
+          "Impact": 3.5
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Nikana",
+    "SlideAttack": 71,
+    "WallAttack": 71,
+    "JumpAttack": 71,
+    "Slot": "Melee"
+  },
+  "Dragon Nikana": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 6.5,
+          "Slash": 55.3,
+          "Impact": 3.3
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Dragon Nikana",
+    "SlideAttack": 65.1,
+    "WallAttack": 65.1,
+    "JumpAttack": 65.1,
+    "Slot": "Melee"
+  },
+  "Sancti Magistar": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 10.8,
+          "Slash": 3.6,
+          "Impact": 57.6
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Sancti Magistar",
+    "SlideAttack": 72,
+    "WallAttack": 72,
+    "JumpAttack": 72,
+    "Slot": "Melee"
+  },
+  "Atterax": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 2.7,
+          "Slash": 47.7,
+          "Impact": 2.7
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Atterax",
+    "SlideAttack": 53.1,
+    "WallAttack": 53.1,
+    "JumpAttack": 53.1,
+    "Slot": "Melee"
+  },
+  "Prisma Skana": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 9.5,
+          "Slash": 44.1,
+          "Impact": 9.5
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Prisma Skana",
+    "SlideAttack": 63.1,
+    "WallAttack": 63.1,
+    "JumpAttack": 63.1,
+    "Slot": "Melee"
+  },
+  "Dual Ichor": {
+    "Link": "Conclave:Dual Ichor",
+    "_TooltipAttackDisplay": 1,
+    "WallElement": "Toxin",
+    "JumpAttack": 15,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.08,
+        "Damage": {
+          "Puncture": 1.4,
+          "Toxin": 5.8,
+          "Slash": 5.5,
+          "Impact": 2.3
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "Slot": "Melee",
+    "SlideAttack": 15,
+    "WallAttack": 15,
+    "SlideElement": "Toxin",
+    "JumpElement": "Toxin"
+  },
+  "Korrudo": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.833,
+        "Damage": {
+          "Puncture": 1.9,
+          "Slash": 24.8,
+          "Impact": 35.9
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Korrudo",
+    "SlideAttack": 62,
+    "WallAttack": 62,
+    "JumpAttack": 62,
+    "Slot": "Melee"
+  },
+  "Dual Keres": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.25,
+        "Damage": {
+          "Puncture": 16.8,
+          "Slash": 32.5,
+          "Impact": 6.7
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Dual Keres",
+    "SlideAttack": 56,
+    "WallAttack": 56,
+    "JumpAttack": 56,
+    "Slot": "Melee"
+  },
+  "Kronen Prime": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.17,
+        "Damage": {
+          "Puncture": 5,
+          "Slash": 40,
+          "Impact": 5
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Kronen Prime",
+    "SlideAttack": 50,
+    "WallAttack": 50,
+    "JumpAttack": 50,
+    "Slot": "Melee"
+  },
+  "Ack & Brunt": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.833,
+        "Damage": {
+          "Puncture": 6.8,
+          "Slash": 54.4,
+          "Impact": 6.8
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Ack & Brunt",
+    "SlideAttack": 68,
+    "WallAttack": 68,
+    "JumpAttack": 68,
+    "Slot": "Melee"
+  },
+  "Amphis": {
+    "JumpRadius": 5,
+    "Link": "Conclave:Amphis",
+    "_TooltipAttackDisplay": 1,
+    "JumpAttack": 62,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.25,
+        "Damage": {
+          "Puncture": 9.3,
+          "Slash": 9.3,
+          "Impact": 43.4
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "SlideAttack": 62,
+    "WallAttack": 62,
+    "Slot": "Melee"
+  },
+  "Dual Skana": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.833,
+        "Damage": {
+          "Puncture": 10.4,
+          "Slash": 48.3,
+          "Impact": 10.4
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Dual Skana",
+    "SlideAttack": 69.1,
+    "WallAttack": 69.1,
+    "JumpAttack": 69.1,
+    "Slot": "Melee"
+  },
+  "Nami Solo": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 9.9,
+          "Slash": 46.2,
+          "Impact": 9.9
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Nami Solo",
+    "SlideAttack": 66,
+    "WallAttack": 66,
+    "JumpAttack": 66,
+    "Slot": "Melee"
+  },
+  "Tonbo": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 7.2,
+          "Slash": 36,
+          "Impact": 4.8
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Tonbo",
+    "SlideAttack": 48,
+    "WallAttack": 48,
+    "JumpAttack": 48,
+    "Slot": "Melee"
+  },
+  "Prisma Obex": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.33,
+        "Damage": {
+          "Puncture": 7.8,
+          "Slash": 7.8,
+          "Impact": 36.4
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Prisma Obex",
+    "SlideAttack": 52,
+    "WallAttack": 52,
+    "JumpAttack": 52,
+    "Slot": "Melee"
+  },
+  "Diwata": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.08,
+        "Damage": {
+          "Puncture": 120,
+          "Slash": 16,
+          "Impact": 24
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "Link": "Conclave:Diwata",
+    "SlideAttack": 160,
+    "WallAttack": 160,
+    "_TooltipAttackDisplay": 1,
+    "Slot": "Melee"
+  },
+  "Ankyros": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.17,
+        "Damage": {
+          "Puncture": 9.8,
+          "Slash": 9.7,
+          "Impact": 45.5
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Ankyros",
+    "SlideAttack": 65,
+    "WallAttack": 65,
+    "JumpAttack": 65,
+    "Slot": "Melee"
+  },
+  "Lacera": {
+    "Link": "Conclave:Lacera",
+    "_TooltipAttackDisplay": 1,
+    "WallElement": "Electricity",
+    "JumpAttack": 59,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 10.4,
+          "Electricity": 27.3,
+          "Slash": 18,
+          "Impact": 3.3
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "Slot": "Melee",
+    "SlideAttack": 59,
+    "WallAttack": 59,
+    "SlideElement": "Electricity",
+    "JumpElement": "Electricity"
+  },
+  "Furax": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 10.2,
+          "Slash": 10.2,
+          "Impact": 47.6
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Furax",
+    "SlideAttack": 68,
+    "WallAttack": 68,
+    "JumpAttack": 68,
+    "Slot": "Melee"
+  },
+  "Skana": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.833,
+        "Damage": {
+          "Puncture": 10.2,
+          "Slash": 47.6,
+          "Impact": 10.2
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Skana",
+    "SlideAttack": 68,
+    "WallAttack": 68,
+    "JumpAttack": 68,
+    "Slot": "Melee"
+  },
+  "Ankyros Prime": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.25,
+        "Damage": {
+          "Puncture": 9.3,
+          "Slash": 9.3,
+          "Impact": 43.4
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Ankyros Prime",
+    "SlideAttack": 62,
+    "WallAttack": 62,
+    "JumpAttack": 62,
+    "Slot": "Melee"
+  },
+  "Silva & Aegis Prime": {
+    "JumpRadius": 4,
+    "Link": "Conclave:Silva & Aegis Prime",
+    "_TooltipAttackDisplay": 1,
+    "WallElement": "Heat",
+    "JumpAttack": 71,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.75,
+        "Damage": {
+          "Heat": 71
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "Slot": "Melee",
+    "SlideAttack": 71,
+    "WallAttack": 71,
+    "SlideElement": "Heat",
+    "JumpElement": "Heat"
+  },
+  "Sheev": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.667,
+        "Damage": {
+          "Puncture": 3.3,
+          "Slash": 59.4,
+          "Impact": 3.3
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Sheev",
+    "SlideAttack": 66,
+    "WallAttack": 66,
+    "JumpAttack": 66,
+    "Slot": "Melee"
+  },
+  "Serro": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Slash": 19.3,
+          "Electricity": 27.7
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Serro",
+    "SlideAttack": 47,
+    "WallAttack": 47,
+    "JumpAttack": 47,
+    "Slot": "Melee"
+  },
+  "Dual Kamas Prime": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.17,
+        "Damage": {
+          "Puncture": 11.4,
+          "Slash": 42.8,
+          "Impact": 2.9
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Dual Kamas Prime",
+    "SlideAttack": 57.1,
+    "WallAttack": 57.1,
+    "JumpAttack": 57.1,
+    "Slot": "Melee"
+  },
+  "Ceramic Dagger": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 41.4,
+          "Impact": 4.6
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Ceramic Dagger",
+    "SlideAttack": 46,
+    "WallAttack": 46,
+    "JumpAttack": 46,
+    "Slot": "Melee"
+  },
+  "Cerata": {
+    "Link": "Conclave:Cerata",
+    "_TooltipAttackDisplay": 1,
+    "WallElement": "Toxin",
+    "JumpAttack": 15.1,
+    "Attacks": [
+      {
+        "ShotSpeed": 35,
+        "HeadshotMultiplier": 1,
+        "ShotType": "Thrown",
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 3,
+          "Toxin": 6.2,
+          "Slash": 4.3,
+          "Impact": 1.6
+        }
+      },
+      {
+        "PunchThrough": 1,
+        "HeadshotMultiplier": 1,
+        "Damage": {
+          "Puncture": 144,
+          "Slash": 18,
+          "Impact": 18
+        }
+      },
+      {
+        "Damage": {
+          "Puncture": 72,
+          "Toxin": 152,
+          "Slash": 104,
+          "Impact": 38
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "Slot": "Melee",
+    "SlideAttack": 15.1,
+    "WallAttack": 15.1,
+    "SlideElement": "Toxin",
+    "JumpElement": "Toxin"
+  },
+  "Skana Prime": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 9.5,
+          "Slash": 44.1,
+          "Impact": 9.5
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Skana Prime",
+    "SlideAttack": 63.1,
+    "WallAttack": 63.1,
+    "JumpAttack": 63.1,
+    "Slot": "Melee"
+  },
+  "Heat Dagger": {
+    "Link": "Conclave:Heat Dagger",
+    "_TooltipAttackDisplay": 1,
+    "JumpAttack": 53.9,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.75,
+        "Damage": {
+          "Puncture": 19.7,
+          "Heat": 16.1,
+          "Slash": 14.5,
+          "Impact": 3.6
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "SlideAttack": 53.9,
+    "WallAttack": 53.9,
+    "Slot": "Melee",
+    "JumpElement": "Heat"
+  },
+  "Gazal Machete": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.08,
+        "Damage": {
+          "Puncture": 9.2,
+          "Slash": 45.8,
+          "Impact": 6.1
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Gazal Machete",
+    "SlideAttack": 61.1,
+    "WallAttack": 61.1,
+    "JumpAttack": 61.1,
+    "Slot": "Melee"
+  },
+  "Galatine Prime": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 2,
+          "Slash": 76,
+          "Impact": 2
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Galatine Prime",
+    "SlideAttack": 80,
+    "WallAttack": 80,
+    "JumpAttack": 80,
+    "Slot": "Melee"
+  },
+  "Ether Daggers": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.833,
+        "Damage": {
+          "Puncture": 9.8,
+          "Slash": 45.5,
+          "Impact": 9.8
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Ether Daggers",
+    "SlideAttack": 65.1,
+    "WallAttack": 65.1,
+    "JumpAttack": 65.1,
+    "Slot": "Melee"
+  },
+  "Dex Dakra": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.883,
+        "Damage": {
+          "Puncture": 6.6,
+          "Slash": 52.8,
+          "Impact": 6.6
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Dex Dakra",
+    "SlideAttack": 66,
+    "WallAttack": 66,
+    "JumpAttack": 66,
+    "Slot": "Melee"
+  },
+  "Dark Sword": {
+    "JumpRadius": 3,
+    "Link": "Conclave:Dark Sword",
+    "_TooltipAttackDisplay": 1,
+    "WallElement": "Radiation",
+    "JumpAttack": 80,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.833,
+        "Damage": {
+          "Puncture": 36.9,
+          "Radiation": 24.6,
+          "Slash": 18.5
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "Slot": "Melee",
+    "SlideAttack": 80,
+    "WallAttack": 80,
+    "SlideElement": "Radiation",
+    "JumpElement": "Radiation"
+  },
+  "Ripkas": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.883,
+        "Damage": {
+          "Puncture": 7,
+          "Slash": 59.5,
+          "Impact": 3.5
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Ripkas",
+    "SlideAttack": 70,
+    "WallAttack": 70,
+    "JumpAttack": 70,
+    "Slot": "Melee"
+  },
+  "Broken Scepter": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.25,
+        "Damage": {
+          "Puncture": 5.7,
+          "Slash": 11.4,
+          "Impact": 39.9
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Broken Scepter",
+    "SlideAttack": 57,
+    "WallAttack": 57,
+    "JumpAttack": 57,
+    "Slot": "Melee"
+  },
+  "Orthos Prime": {
+    "JumpRadius": 10,
+    "Link": "Conclave:Orthos Prime",
+    "_TooltipAttackDisplay": 1,
+    "JumpAttack": 45.1,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.17,
+        "Damage": {
+          "Puncture": 6.8,
+          "Slash": 31.5,
+          "Impact": 6.8
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "SlideAttack": 45.1,
+    "WallAttack": 45.1,
+    "Slot": "Melee"
+  },
+  "Prisma Dual Cleavers": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 4,
+          "Slash": 32,
+          "Impact": 4
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Prisma Dual Cleavers",
+    "SlideAttack": 40,
+    "WallAttack": 40,
+    "JumpAttack": 40,
+    "Slot": "Melee"
+  },
+  "Venka": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 16.3,
+          "Slash": 45.5,
+          "Impact": 3.3
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Venka",
+    "SlideAttack": 65.1,
+    "WallAttack": 65.1,
+    "JumpAttack": 65.1,
+    "Slot": "Melee"
+  },
+  "Jat Kittag": {
+    "JumpRadius": 10,
+    "Link": "Conclave:Jat Kittag",
+    "_TooltipAttackDisplay": 1,
+    "JumpAttack": 57,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 8.6,
+          "Slash": 2.8,
+          "Impact": 45.6
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "SlideAttack": 57,
+    "WallAttack": 57,
+    "Slot": "Melee",
+    "JumpElement": "Blast"
+  },
+  "Twin Basolk": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 4,
+          "Heat": 22.7,
+          "Slash": 14.7,
+          "Impact": 14.7
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Twin Basolk",
+    "SlideAttack": 56.1,
+    "WallAttack": 56.1,
+    "JumpAttack": 56.1,
+    "Slot": "Melee"
+  },
+  "Scindo Prime": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.967,
+        "Damage": {
+          "Puncture": 8.3,
+          "Slash": 66.4,
+          "Impact": 8.3
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Scindo Prime",
+    "SlideAttack": 83,
+    "WallAttack": 83,
+    "JumpAttack": 83,
+    "Slot": "Melee"
+  },
+  "Fang Prime": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 41.3,
+          "Slash": 8.8,
+          "Impact": 8.9
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Fang Prime",
+    "SlideAttack": 59,
+    "WallAttack": 59,
+    "JumpAttack": 59,
+    "Slot": "Melee"
+  },
+  "Krohkur": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.833,
+        "Damage": {
+          "Puncture": 12.1,
+          "Slash": 46.9,
+          "Impact": 8
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Krohkur",
+    "SlideAttack": 67,
+    "WallAttack": 67,
+    "JumpAttack": 67,
+    "Slot": "Melee"
+  },
+  "Tipedo": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.33,
+        "Damage": {
+          "Puncture": 5.8,
+          "Slash": 46.4,
+          "Impact": 5.8
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Tipedo",
+    "SlideAttack": 58,
+    "WallAttack": 58,
+    "JumpAttack": 58,
+    "Slot": "Melee"
+  },
+  "Lesion": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 1.8,
+          "Slash": 27,
+          "Impact": 7.2
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Lesion",
+    "SlideAttack": 36,
+    "WallAttack": 36,
+    "JumpAttack": 36,
+    "Slot": "Melee"
+  },
+  "Gram": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.95,
+        "Damage": {
+          "Puncture": 13.1,
+          "Slash": 60.9,
+          "Impact": 13.1
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Gram",
+    "SlideAttack": 87.1,
+    "WallAttack": 87.1,
+    "JumpAttack": 87.1,
+    "Slot": "Melee"
+  },
+  "Orthos": {
+    "JumpRadius": 10,
+    "Link": "Conclave:Orthos",
+    "_TooltipAttackDisplay": 1,
+    "JumpAttack": 58,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 8.7,
+          "Slash": 40.6,
+          "Impact": 8.7
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "SlideAttack": 58,
+    "WallAttack": 58,
+    "Slot": "Melee"
+  },
+  "Jaw Sword": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 13.2,
+          "Slash": 49.5,
+          "Impact": 3.3
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Jaw Sword",
+    "SlideAttack": 66,
+    "WallAttack": 66,
+    "JumpAttack": 66,
+    "Slot": "Melee"
+  },
+  "Kestrel": {
+    "Attacks": [
+      {
+        "ShotSpeed": 30,
+        "FireRate": 1.08,
+        "ShotType": "Thrown",
+        "Range": 23,
+        "Damage": {
+          "Puncture": 8,
+          "Slash": 7.9,
+          "Impact": 37.1
+        }
+      },
+      {
+        "PunchThrough": 0,
+        "Damage": {
+          "Blast": 30,
+          "Slash": 9,
+          "Puncture": 9,
+          "Impact": 72
+        }
+      },
+      {
+        "Damage": {
+          "Blast": 20,
+          "Slash": 5.4,
+          "Puncture": 5.4,
+          "Impact": 43.2
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Kestrel",
+    "SlideAttack": 53,
+    "WallAttack": 53,
+    "JumpAttack": 53,
+    "Slot": "Melee"
+  },
+  "Bo Prime": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.08,
+        "Damage": {
+          "Puncture": 6.6,
+          "Impact": 59.4
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Bo Prime",
+    "SlideAttack": 66,
+    "WallAttack": 66,
+    "JumpAttack": 66,
+    "Slot": "Melee"
+  },
+  "Heliocor": {
+    "Link": "Conclave:Heliocor",
+    "_TooltipAttackDisplay": 1,
+    "JumpAttack": 93,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.833,
+        "Damage": {
+          "Puncture": 9.2,
+          "Slash": 4.6,
+          "Impact": 78.2
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "ChannelCost": 1,
+    "WallAttack": 93,
+    "Slot": "Melee",
+    "SlideAttack": 93
+  },
+  "Dark Split-Sword (Heavy Blade)": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 32.6,
+          "Radiation": 41.7,
+          "Slash": 21.7
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Dark Split-Sword (Heavy Blade)",
+    "SlideAttack": 96,
+    "WallAttack": 96,
+    "JumpAttack": 96,
+    "Slot": "Melee"
+  },
+  "Fragor Prime": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.8,
+        "Damage": {
+          "Puncture": 13.8,
+          "Slash": 13.8,
+          "Impact": 64.4
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Fragor Prime",
+    "SlideAttack": 92,
+    "WallAttack": 92,
+    "JumpAttack": 92,
+    "Slot": "Melee"
+  },
+  "Reaper Prime": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.08,
+        "Damage": {
+          "Puncture": 9.8,
+          "Slash": 45.5,
+          "Impact": 9.8
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Reaper Prime",
+    "SlideAttack": 65.1,
+    "WallAttack": 65.1,
+    "JumpAttack": 65.1,
+    "Slot": "Melee"
+  },
+  "Glaive Prime": {
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1,
+        "ShotSpeed": 45,
+        "FireRate": 1.25,
+        "ShotType": "Thrown",
+        "Range": 30,
+        "Damage": {
+          "Puncture": 5.9,
+          "Slash": 27.3,
+          "Impact": 5.9
+        }
+      },
+      {
+        "PunchThrough": 1,
+        "HeadshotMultiplier": 1,
+        "Damage": {
+          "Blast": 50,
+          "Slash": 197
+        }
+      },
+      {
+        "Damage": {
+          "Blast": 40,
+          "Slash": 82.6,
+          "Puncture": 17.7,
+          "Impact": 17.7
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Glaive Prime",
+    "SlideAttack": 39.1,
+    "WallAttack": 39.1,
+    "JumpAttack": 39.1,
+    "Slot": "Melee"
+  },
+  "Bo": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 7.7,
+          "Impact": 69.3
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Bo",
+    "SlideAttack": 77,
+    "WallAttack": 77,
+    "JumpAttack": 77,
+    "Slot": "Melee"
+  },
+  "Cronus": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 9.9,
+          "Slash": 36.3,
+          "Impact": 19.8
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Cronus",
+    "SlideAttack": 66,
+    "WallAttack": 66,
+    "JumpAttack": 66,
+    "Slot": "Melee"
+  },
+  "Furax Wraith": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.08,
+        "Damage": {
+          "Puncture": 9.3,
+          "Slash": 9.3,
+          "Impact": 43.4
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Furax Wraith",
+    "SlideAttack": 62,
+    "WallAttack": 62,
+    "JumpAttack": 62,
+    "Slot": "Melee"
+  },
+  "Anku": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.08,
+        "Damage": {
+          "Puncture": 49.6,
+          "Slash": 3.1,
+          "Impact": 9.3
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Anku",
+    "SlideAttack": 62,
+    "WallAttack": 62,
+    "JumpAttack": 62,
+    "Slot": "Melee"
+  },
+  "Tipedo Prime": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.17,
+        "Damage": {
+          "Puncture": 6.2,
+          "Slash": 49.6,
+          "Impact": 6.2
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Tipedo Prime",
+    "SlideAttack": 62,
+    "WallAttack": 62,
+    "JumpAttack": 62,
+    "Slot": "Melee"
+  },
+  "Dual Heat Swords": {
+    "JumpRadius": 5,
+    "Link": "Conclave:Dual Heat Swords",
+    "_TooltipAttackDisplay": 1,
+    "JumpAttack": 60,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 9,
+          "Slash": 42,
+          "Impact": 9
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "SlideAttack": 60,
+    "WallAttack": 60,
+    "Slot": "Melee",
+    "JumpElement": "Heat"
+  },
+  "Dark Split-Sword (Dual Swords)": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.17,
+        "Damage": {
+          "Puncture": 49.2,
+          "Radiation": 28.1,
+          "Slash": 24.6
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Dark Split-Sword (Dual Swords)",
+    "SlideAttack": 101.9,
+    "WallAttack": 101.9,
+    "JumpAttack": 101.9,
+    "Slot": "Melee"
+  },
+  "Gram Prime": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.8,
+        "Damage": {
+          "Puncture": 4.5,
+          "Slash": 67.5,
+          "Impact": 18
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Gram Prime",
+    "SlideAttack": 90,
+    "WallAttack": 90,
+    "JumpAttack": 90,
+    "Slot": "Melee"
+  },
+  "Caustacyst": {
+    "Link": "Conclave:Caustacyst",
+    "_TooltipAttackDisplay": 1,
+    "WallElement": "Corrosive",
+    "JumpAttack": 50.1,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 13.7,
+          "Corrosive": 19.8,
+          "Slash": 13.3,
+          "Impact": 3.3
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "Slot": "Melee",
+    "SlideAttack": 50.1,
+    "WallAttack": 50.1,
+    "SlideElement": "Corrosive",
+    "JumpElement": "Corrosive"
+  },
+  "Glaive": {
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1,
+        "ShotSpeed": 20,
+        "FireRate": 1,
+        "ShotType": "Thrown",
+        "Range": 30,
+        "Damage": {
+          "Puncture": 6.6,
+          "Slash": 30.8,
+          "Impact": 6.6
+        }
+      },
+      {
+        "PunchThrough": 1,
+        "HeadshotMultiplier": 1,
+        "Damage": {
+          "Blast": 60,
+          "Slash": 173.6,
+          "Puncture": 37.2,
+          "Impact": 37.2
+        }
+      },
+      {
+        "Damage": {
+          "Blast": 315,
+          "Slash": 104.3,
+          "Puncture": 22.4,
+          "Impact": 22.4
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Glaive",
+    "SlideAttack": 44,
+    "WallAttack": 44,
+    "JumpAttack": 44,
+    "Slot": "Melee"
+  },
+  "Fang": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 42.7,
+          "Slash": 9.1,
+          "Impact": 9.2
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Fang",
+    "SlideAttack": 61,
+    "WallAttack": 61,
+    "JumpAttack": 61,
+    "Slot": "Melee"
+  },
+  "Paracesis": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 5.5,
+          "Slash": 48.3,
+          "Impact": 15.2
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Paracesis",
+    "SlideAttack": 69,
+    "WallAttack": 69,
+    "JumpAttack": 69,
+    "Slot": "Melee"
+  },
+  "Nikana Prime": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.08,
+        "Damage": {
+          "Puncture": 3,
+          "Slash": 53.1,
+          "Impact": 3
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Nikana Prime",
+    "SlideAttack": 59.1,
+    "WallAttack": 59.1,
+    "JumpAttack": 59.1,
+    "Slot": "Melee"
+  },
+  "Dual Kamas": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.17,
+        "Damage": {
+          "Puncture": 5.7,
+          "Slash": 48.5,
+          "Impact": 2.9
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Dual Kamas",
+    "SlideAttack": 57.1,
+    "WallAttack": 57.1,
+    "JumpAttack": 57.1,
+    "Slot": "Melee"
+  },
+  "Kama": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.17,
+        "Damage": {
+          "Puncture": 8.9,
+          "Slash": 41.3,
+          "Impact": 8.9
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Kama",
+    "SlideAttack": 59.1,
+    "WallAttack": 59.1,
+    "JumpAttack": 59.1,
+    "Slot": "Melee"
+  },
+  "Ether Reaper": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.08,
+        "Damage": {
+          "Puncture": 9.8,
+          "Slash": 45.5,
+          "Impact": 9.8
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Ether Reaper",
+    "SlideAttack": 65.1,
+    "WallAttack": 65.1,
+    "JumpAttack": 65.1,
+    "Slot": "Melee"
+  },
+  "Venka Prime": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.05,
+        "Damage": {
+          "Puncture": 12.6,
+          "Slash": 47.3,
+          "Impact": 3.2
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Venka Prime",
+    "SlideAttack": 63.1,
+    "WallAttack": 63.1,
+    "JumpAttack": 63.1,
+    "Slot": "Melee"
+  },
+  "Kesheg": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.833,
+        "Damage": {
+          "Puncture": 6,
+          "Slash": 30,
+          "Impact": 24
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Kesheg",
+    "SlideAttack": 60,
+    "WallAttack": 60,
+    "JumpAttack": 60,
+    "Slot": "Melee"
+  },
+  "Rakta Dark Dagger": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 19.3,
+          "Radiation": 21.1,
+          "Slash": 13.6
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Rakta Dark Dagger",
+    "SlideAttack": 54,
+    "WallAttack": 54,
+    "JumpAttack": 54,
+    "Slot": "Melee"
+  },
+  "Kogake": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 9.3,
+          "Slash": 9.3,
+          "Impact": 43.4
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Kogake",
+    "SlideAttack": 62,
+    "WallAttack": 62,
+    "JumpAttack": 62,
+    "Slot": "Melee"
+  },
+  "Dual Cleavers": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.833,
+        "Damage": {
+          "Puncture": 10.1,
+          "Slash": 46.9,
+          "Impact": 10.1
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Dual Cleavers",
+    "SlideAttack": 67.1,
+    "WallAttack": 67.1,
+    "JumpAttack": 67.1,
+    "Slot": "Melee"
+  },
+  "Heat Sword": {
+    "Link": "Conclave:Heat Sword",
+    "_TooltipAttackDisplay": 1,
+    "JumpAttack": 66,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 6.6,
+          "Slash": 52.8,
+          "Impact": 6.6
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "SlideAttack": 66,
+    "WallAttack": 66,
+    "Slot": "Melee",
+    "JumpElement": "Heat"
+  },
+  "Zenistar": {
+    "Link": "Conclave:Zenistar",
+    "_TooltipAttackDisplay": 1,
+    "WallElement": "Heat",
+    "JumpAttack": 82,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.833,
+        "Damage": {
+          "Slash": 18.7,
+          "Heat": 41.3,
+          "Impact": 22
+        }
+      },
+      {
+        "Damage": {
+          "Slash": 18.7,
+          "Heat": 41.3,
+          "Impact": 22
+        },
+        "AttackName": "Attacks while disc deployed"
+      },
+      {
+        "Damage": {
+          "Impact": 15
+        },
+        "Range": 9,
+        "AttackName": "Disc Impact"
+      },
+      {
+        "Damage": {
+          "Heat": 41.3
+        },
+        "Range": 4,
+        "AttackName": "Disc Explosion"
+      },
+      {
+        "StatusChance": 0.5,
+        "ShotType": "AoE",
+        "AttackName": "Disc Aura",
+        "FireRate": 1.2,
+        "Duration": 45,
+        "Range": 4,
+        "Damage": {
+          "Heat": 41.3
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "Slot": "Melee",
+    "SlideAttack": 82,
+    "WallAttack": 82,
+    "SlideElement": "Heat",
+    "JumpElement": "Heat"
+  },
+  "Wolf Sledge": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 2,
+          "Slash": 30.8,
+          "Impact": 34.2
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Wolf Sledge",
+    "SlideAttack": 67,
+    "WallAttack": 67,
+    "JumpAttack": 67,
+    "Slot": "Melee"
+  },
+  "Fragor": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.833,
+        "Damage": {
+          "Puncture": 14,
+          "Slash": 13.9,
+          "Impact": 65.1
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Fragor",
+    "SlideAttack": 93,
+    "WallAttack": 93,
+    "JumpAttack": 93,
+    "Slot": "Melee"
+  },
+  "War": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 22.1,
+          "Slash": 25.8,
+          "Impact": 44.2
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:War",
+    "SlideAttack": 92.1,
+    "WallAttack": 92.1,
+    "JumpAttack": 92.1,
+    "Slot": "Melee"
+  },
+  "Volnus": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.2,
+        "Damage": {
+          "Puncture": 16.3,
+          "Slash": 23.5,
+          "Impact": 11.2
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Volnus",
+    "SlideAttack": 51,
+    "WallAttack": 51,
+    "JumpAttack": 51,
+    "Slot": "Melee"
+  },
+  "Vaykor Sydon": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.08,
+        "Damage": {
+          "Puncture": 42.8,
+          "Impact": 2.3
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Vaykor Sydon",
+    "SlideAttack": 45.1,
+    "WallAttack": 45.1,
+    "JumpAttack": 45.1,
+    "Slot": "Melee"
+  },
+  "Valkyr Talons": {
+    "JumpRadius": 5,
+    "Link": "Conclave:Valkyr Talons",
+    "_TooltipAttackDisplay": 1,
+    "JumpAttack": 145,
+    "Attacks": [
+      {
+        "HeadshotMultiplier": 1,
+        "IsSilent": true,
+        "FireRate": 1.5,
+        "Damage": {
+          "Puncture": 48.3,
+          "Slash": 48.3,
+          "Impact": 48.3
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "SlideAttack": 145,
+    "WallAttack": 145,
+    "Slot": "Melee"
+  },
+  "Lecta": {
+    "Link": "Conclave:Lecta",
+    "_TooltipAttackDisplay": 1,
+    "JumpAttack": 39,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Slash": 9.7,
+          "Electricity": 21.6,
+          "Impact": 7.7
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "SlideAttack": 39,
+    "WallAttack": 39,
+    "Slot": "Melee",
+    "JumpElement": "Electricity"
+  },
+  "Twin Krohkur": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 10.8,
+          "Slash": 42,
+          "Impact": 7.2
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Twin Krohkur",
+    "SlideAttack": 60,
+    "WallAttack": 60,
+    "JumpAttack": 60,
+    "Slot": "Melee"
+  },
+  "Telos Boltace": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.08,
+        "Damage": {
+          "Puncture": 45.1,
+          "Slash": 2.6,
+          "Impact": 5.4
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Telos Boltace",
+    "SlideAttack": 53.1,
+    "WallAttack": 53.1,
+    "JumpAttack": 53.1,
+    "Slot": "Melee"
+  },
+  "Shaku": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.17,
+        "Damage": {
+          "Puncture": 0,
+          "Slash": 0,
+          "Impact": 60
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Shaku",
+    "SlideAttack": 60,
+    "WallAttack": 60,
+    "JumpAttack": 60,
+    "Slot": "Melee"
+  },
+  "Tatsu": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 15.3,
+          "Radiation": 20.7,
+          "Slash": 18,
+          "Impact": 10
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Tatsu",
+    "SlideAttack": 64,
+    "WallAttack": 64,
+    "JumpAttack": 64,
+    "Slot": "Melee"
+  },
+  "Machete Wraith": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.08,
+        "Damage": {
+          "Puncture": 9.5,
+          "Slash": 44.1,
+          "Impact": 9.5
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Machete Wraith",
+    "SlideAttack": 63.1,
+    "WallAttack": 63.1,
+    "JumpAttack": 63.1,
+    "Slot": "Melee"
+  },
+  "Synoid Heliocor": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.08,
+        "Damage": {
+          "Puncture": 6.1,
+          "Slash": 3,
+          "Impact": 51.9
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Synoid Heliocor",
+    "SlideAttack": 61,
+    "WallAttack": 61,
+    "JumpAttack": 61,
+    "Slot": "Melee"
+  },
+  "Sydon": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 48.5,
+          "Impact": 2.5
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Sydon",
+    "SlideAttack": 51,
+    "WallAttack": 51,
+    "JumpAttack": 51,
+    "Slot": "Melee"
+  },
+  "Boltace": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 50.4,
+          "Slash": 6.3,
+          "Impact": 6.3
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Boltace",
+    "SlideAttack": 63,
+    "WallAttack": 63,
+    "JumpAttack": 63,
+    "Slot": "Melee"
+  },
+  "Hirudo": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 44.8,
+          "Slash": 2.8,
+          "Impact": 8.4
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Hirudo",
+    "SlideAttack": 56,
+    "WallAttack": 56,
+    "JumpAttack": 56,
+    "Slot": "Melee"
+  },
+  "Skiajati": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.17,
+        "Damage": {
+          "Puncture": 3.6,
+          "Slash": 39.8,
+          "Impact": 7.7
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Skiajati",
+    "SlideAttack": 51.1,
+    "WallAttack": 51.1,
+    "JumpAttack": 51.1,
+    "Slot": "Melee"
+  },
+  "Silva & Aegis": {
+    "JumpRadius": 4,
+    "Link": "Conclave:Silva & Aegis",
+    "_TooltipAttackDisplay": 1,
+    "WallElement": "Heat",
+    "JumpAttack": 60,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Heat": 60
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "Slot": "Melee",
+    "SlideAttack": 60,
+    "WallAttack": 60,
+    "SlideElement": "Heat",
+    "JumpElement": "Heat"
+  },
+  "Dual Zoren": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.17,
+        "Damage": {
+          "Puncture": 3,
+          "Slash": 53.1,
+          "Impact": 3
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Dual Zoren",
+    "SlideAttack": 59.1,
+    "WallAttack": 59.1,
+    "JumpAttack": 59.1,
+    "Slot": "Melee"
+  },
+  "Sibear": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 5.5,
+          "Slash": 13.7,
+          "Impact": 19.2,
+          "Cold": 66
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Sibear",
+    "SlideAttack": 74,
+    "WallAttack": 74,
+    "JumpAttack": 74,
+    "Slot": "Melee"
+  },
+  "Tekko": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 7,
+          "Slash": 49,
+          "Impact": 14
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Tekko",
+    "SlideAttack": 70,
+    "WallAttack": 70,
+    "JumpAttack": 70,
+    "Slot": "Melee"
+  },
+  "Exalted Blade": {
+    "JumpRadius": 5,
+    "Link": "Conclave:Exalted Blade",
+    "_TooltipAttackDisplay": 1,
+    "JumpAttack": 88,
+    "Attacks": [
+      {
+        "FireRate": 0.833,
+        "IsSilent": true,
+        "Damage": {
+          "Puncture": 13.2,
+          "Slash": 61.6,
+          "Impact": 13.2
+        },
+        "AttackName": "Normal Attack"
+      },
+      {
+        "ShotSpeed": 30,
+        "AttackName": "Energy Wave",
+        "FireRate": 0.833,
+        "HeadshotMultiplier": 1,
+        "Range": 16,
+        "Damage": {
+          "Puncture": 13.2,
+          "Slash": 61.6,
+          "Impact": 13.2
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "SlideAttack": 88,
+    "WallAttack": 88,
+    "Slot": "Melee"
+  },
+  "Orvius": {
+    "Attacks": [
+      {
+        "ShotSpeed": 35,
+        "ShotType": "Thrown",
+        "FireRate": 0.75,
+        "Damage": {
+          "Puncture": 2.5,
+          "Slash": 36.8,
+          "Impact": 9.8
+        }
+      },
+      {
+        "Damage": {
+          "Puncture": 10.6,
+          "Slash": 159,
+          "Impact": 42.4,
+          "Cold": 20
+        }
+      },
+      {
+        "Damage": {
+          "Puncture": 6.3,
+          "Slash": 95.3,
+          "Impact": 25.4,
+          "Cold": 40
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Orvius",
+    "SlideAttack": 49.1,
+    "WallAttack": 49.1,
+    "JumpAttack": 49.1,
+    "Slot": "Melee"
+  },
+  "Destreza": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 45.9,
+          "Slash": 6.8,
+          "Impact": 1.4
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Destreza",
+    "SlideAttack": 54.1,
+    "WallAttack": 54.1,
+    "JumpAttack": 54.1,
+    "Slot": "Melee"
+  },
+  "Scoliac": {
+    "Link": "Conclave:Scoliac",
+    "_TooltipAttackDisplay": 1,
+    "JumpAttack": 44,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.25,
+        "Damage": {
+          "Puncture": 6.6,
+          "Slash": 30.8,
+          "Impact": 6.6
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "SlideAttack": 44,
+    "WallAttack": 44,
+    "Slot": "Melee",
+    "JumpElement": "Toxin"
+  },
+  "Pupacyst": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.833,
+        "Damage": {
+          "Toxin": 8.7,
+          "Impact": 8.3
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Pupacyst",
+    "SlideAttack": 17,
+    "WallAttack": 17,
+    "JumpAttack": 17,
+    "Slot": "Melee"
+  },
+  "Prova": {
+    "Link": "Conclave:Prova",
+    "_TooltipAttackDisplay": 1,
+    "WallElement": "Electricity",
+    "JumpAttack": 48,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Impact": 19.5,
+          "Electricity": 28.5
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "Slot": "Melee",
+    "SlideAttack": 48,
+    "WallAttack": 48,
+    "SlideElement": "Electricity",
+    "JumpElement": "Electricity"
+  },
+  "Machete": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 10.4,
+          "Slash": 48.3,
+          "Impact": 10.4
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Machete",
+    "SlideAttack": 69.1,
+    "WallAttack": 69.1,
+    "JumpAttack": 69.1,
+    "Slot": "Melee"
+  },
+  "Pangolin Sword": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 9.9,
+          "Slash": 52.8,
+          "Impact": 3.3
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Pangolin Sword",
+    "SlideAttack": 66,
+    "WallAttack": 66,
+    "JumpAttack": 66,
+    "Slot": "Melee"
+  },
+  "Secura Lecta": {
+    "Link": "Conclave:Secura Lecta",
+    "_TooltipAttackDisplay": 1,
+    "WallElement": "Electricity",
+    "JumpAttack": 32,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.25,
+        "Damage": {
+          "Puncture": 5.5,
+          "Electricity": 14.5,
+          "Slash": 12
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "Slot": "Melee",
+    "SlideAttack": 32,
+    "WallAttack": 32,
+    "SlideElement": "Electricity",
+    "JumpElement": "Electricity"
+  },
+  "Okina": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.08,
+        "Damage": {
+          "Puncture": 25.6,
+          "Slash": 28.5,
+          "Impact": 2.9
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Okina",
+    "SlideAttack": 57,
+    "WallAttack": 57,
+    "JumpAttack": 57,
+    "Slot": "Melee"
+  },
+  "Ohma": {
+    "Link": "Conclave:Ohma",
+    "_TooltipAttackDisplay": 1,
+    "WallElement": "Electricity",
+    "JumpAttack": 60.1,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Slash": 10.2,
+          "Electricity": 29.5,
+          "Impact": 20.4
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "Slot": "Melee",
+    "SlideAttack": 60.1,
+    "WallAttack": 60.1,
+    "SlideElement": "Electricity",
+    "JumpElement": "Electricity"
+  },
+  "Obex": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 9,
+          "Slash": 9,
+          "Impact": 42
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Obex",
+    "SlideAttack": 60,
+    "WallAttack": 60,
+    "JumpAttack": 60,
+    "Slot": "Melee"
+  },
+  "Ninkondi": {
+    "Link": "Conclave:Ninkondi",
+    "_TooltipAttackDisplay": 1,
+    "JumpAttack": 50,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Impact": 23.7,
+          "Electricity": 26.3
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "Slot": "Melee",
+    "SlideAttack": 50,
+    "WallAttack": 50,
+    "SlideElement": "Electricity",
+    "JumpElement": "Electricity"
+  },
+  "Arca Titron": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.733,
+        "Damage": {
+          "Slash": 36.1,
+          "Impact": 67.1
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Arca Titron",
+    "SlideAttack": 103.2,
+    "WallAttack": 103.2,
+    "JumpAttack": 103.2,
+    "Slot": "Melee"
+  },
+  "Nami Skyla Prime": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.33,
+        "Damage": {
+          "Puncture": 10,
+          "Slash": 35,
+          "Impact": 5
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Nami Skyla Prime",
+    "SlideAttack": 50,
+    "WallAttack": 50,
+    "JumpAttack": 50,
+    "Slot": "Melee"
+  },
+  "Nami Skyla": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 9,
+          "Slash": 42,
+          "Impact": 9
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Nami Skyla",
+    "SlideAttack": 60,
+    "WallAttack": 60,
+    "JumpAttack": 60,
+    "Slot": "Melee"
+  },
+  "Jat Kusar": {
+    "JumpRadius": 10,
+    "Link": "Conclave:Jat Kusar",
+    "_TooltipAttackDisplay": 1,
+    "WallElement": "Heat",
+    "JumpAttack": 68.9,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.833,
+        "Damage": {
+          "Puncture": 4.1,
+          "Heat": 25.6,
+          "Slash": 14.2,
+          "Impact": 25
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "Slot": "Melee",
+    "SlideAttack": 68.9,
+    "WallAttack": 68.9,
+    "SlideElement": "Heat",
+    "JumpElement": "Heat"
+  },
+  "Mire": {
+    "Link": "Conclave:Mire",
+    "_TooltipAttackDisplay": 1,
+    "JumpAttack": 56.1,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.08,
+        "Damage": {
+          "Puncture": 8.2,
+          "Toxin": 23,
+          "Slash": 16.7,
+          "Impact": 8.2
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "SlideAttack": 56.1,
+    "WallAttack": 56.1,
+    "Slot": "Melee",
+    "JumpElement": "Toxin"
+  },
+  "Dark Dagger": {
+    "Link": "Conclave:Dark Dagger",
+    "_TooltipAttackDisplay": 1,
+    "WallElement": "Radiation",
+    "JumpAttack": 67,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 25.2,
+          "Radiation": 26.1,
+          "Slash": 15.7
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "Slot": "Melee",
+    "SlideAttack": 67,
+    "WallAttack": 67,
+    "SlideElement": "Radiation",
+    "JumpElement": "Radiation"
+  },
+  "Cassowar": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.17,
+        "Damage": {
+          "Puncture": 15.3,
+          "Slash": 19.8,
+          "Impact": 9.9
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Cassowar",
+    "SlideAttack": 45,
+    "WallAttack": 45,
+    "JumpAttack": 45,
+    "Slot": "Melee"
+  },
+  "Magistar": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.833,
+        "Damage": {
+          "Puncture": 13.7,
+          "Slash": 4.5,
+          "Impact": 72.8
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Magistar",
+    "SlideAttack": 91,
+    "WallAttack": 91,
+    "JumpAttack": 91,
+    "Slot": "Melee"
+  },
+  "Plasma Sword": {
+    "Link": "Conclave:Plasma Sword",
+    "_TooltipAttackDisplay": 1,
+    "WallElement": "Electricity",
+    "JumpAttack": 51,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.667,
+        "Damage": {
+          "Puncture": 3.1,
+          "Electricity": 51,
+          "Slash": 22.4,
+          "Impact": 8.7
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "SlideAttack": 51,
+    "WallAttack": 51,
+    "Slot": "Melee",
+    "SlideElement": "Electricity"
+  },
+  "Mk1-Furax": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 10.2,
+          "Slash": 10.2,
+          "Impact": 47.6
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Mk1-Furax",
+    "SlideAttack": 68,
+    "WallAttack": 68,
+    "JumpAttack": 68,
+    "Slot": "Melee"
+  },
+  "Kronen": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1.08,
+        "Damage": {
+          "Puncture": 5.9,
+          "Slash": 47.2,
+          "Impact": 5.9
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Kronen",
+    "SlideAttack": 59,
+    "WallAttack": 59,
+    "JumpAttack": 59,
+    "Slot": "Melee"
+  },
+  "Ether Sword": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 9.5,
+          "Slash": 44.1,
+          "Impact": 9.5
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Ether Sword",
+    "SlideAttack": 63.1,
+    "WallAttack": 63.1,
+    "JumpAttack": 63.1,
+    "Slot": "Melee"
+  },
+  "Hate": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 10.7,
+          "Slash": 49.7,
+          "Impact": 10.7
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Hate",
+    "SlideAttack": 71.1,
+    "WallAttack": 71.1,
+    "JumpAttack": 71.1,
+    "Slot": "Melee"
+  },
+  "Iron Staff": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 21.6,
+          "Impact": 122.4
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "Link": "Conclave:Iron Staff",
+    "SlideAttack": 144,
+    "_TooltipAttackDisplay": 1,
+    "Slot": "Melee"
+  },
+  "Halikar": {
+    "Link": "Conclave:Halikar",
+    "_TooltipAttackDisplay": 1,
+    "JumpAttack": 56,
+    "Attacks": [
+      {
+        "ShotSpeed": 30,
+        "FireRate": 1.17,
+        "ShotType": "Thrown",
+        "Range": 23,
+        "Damage": {
+          "Puncture": 44.8,
+          "Slash": 5.6,
+          "Impact": 5.6
+        }
+      },
+      {
+        "PunchThrough": 1,
+        "Damage": {
+          "Blast": 40,
+          "Slash": 18,
+          "Puncture": 144,
+          "Impact": 18
+        }
+      },
+      {
+        "Damage": {
+          "Blast": 30,
+          "Slash": 10.8,
+          "Puncture": 86.4,
+          "Impact": 10.8
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "SlideAttack": 56,
+    "WallAttack": 56,
+    "Slot": "Melee",
+    "JumpElement": "Magnetic"
+  },
+  "Guandao": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.833,
+        "Damage": {
+          "Puncture": 3,
+          "Slash": 42.7,
+          "Impact": 15.3
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Guandao",
+    "SlideAttack": 61,
+    "WallAttack": 61,
+    "JumpAttack": 61,
+    "Slot": "Melee"
+  },
+  "Galatine": {
+    "JumpRadius": 5,
+    "Link": "Conclave:Galatine",
+    "_TooltipAttackDisplay": 1,
+    "JumpAttack": 80,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 2,
+          "Slash": 76,
+          "Impact": 2
+        }
+      }
+    ],
+    "BlockAngle": 90,
+    "SlideAttack": 80,
+    "WallAttack": 80,
+    "Slot": "Melee"
+  },
+  "Dual Ether": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 8.9,
+          "Slash": 41.3,
+          "Impact": 8.9
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Dual Ether",
+    "SlideAttack": 59.1,
+    "WallAttack": 59.1,
+    "JumpAttack": 59.1,
+    "Slot": "Melee"
+  },
+  "Dual Raza": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 0.917,
+        "Damage": {
+          "Puncture": 16.8,
+          "Slash": 33.6,
+          "Impact": 5.6
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Dual Raza",
+    "SlideAttack": 56,
+    "WallAttack": 56,
+    "JumpAttack": 56,
+    "Slot": "Melee"
+  },
+  "Broken War": {
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Damage": {
+          "Puncture": 6.3,
+          "Slash": 50.4,
+          "Impact": 6.3
+        }
+      }
+    ],
+    "_TooltipAttackDisplay": 1,
+    "BlockAngle": 90,
+    "Link": "Conclave:Broken War",
+    "SlideAttack": 63,
+    "WallAttack": 63,
+    "JumpAttack": 63,
+    "Slot": "Melee"
+  }
+}

@@ -1,0 +1,3045 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Focus/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:37:26.835Z"
+  },
+  "_comments": "",
+  "Symbols": {
+    "Focus Points": {
+      "Name": "Focus Points",
+      "Image": "FocusLensFocus_b.png",
+      "Description": "Basic unit of Focus for unlocking Focus Ways. Equip Focus Lens on max-ranked items to convert excess Affinity into Focus Points.",
+      "Link": "Focus"
+    }
+  },
+  "Schools": {
+    "Naramon": {
+      "SealImage": "SealNaramonTree_b.png",
+      "Image": "FocusLensNaramon_b.png",
+      "Description": "This discipline focused on Knowing the Enemy, and the tacticians of Naramon believed that to truly understand a foe would confer the greatest advantage upon a warrior.",
+      "Link": "Focus/Naramon",
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/TacticFocusAbility",
+      "Name": "Naramon"
+    },
+    "Vazarin": {
+      "SealImage": "SealVazarinWave_b.png",
+      "Image": "FocusLensVazarin_b.png",
+      "Description": "They trained to Counter the Enemy, and move with an opponent's attacks in order to nullify them. They maintained constant awareness in order to defend against all aggression.",
+      "Link": "Focus/Vazarin",
+      "InternalName": "/Lotus/Upgrades/Focus/Defense/DefenseFocusAbility",
+      "Name": "Vazarin"
+    },
+    "Zenurik": {
+      "SealImage": "SealZenurikCrystal_b.png",
+      "Image": "FocusLensZenurik_b.png",
+      "Description": "They believed the clearest path to victory was to Dominate the Enemy. They sought to choke an opponent of all resources; that sheer strength could erase any resistance.",
+      "Link": "Focus/Zenurik",
+      "InternalName": "/Lotus/Upgrades/Focus/Power/PowerFocusAbility",
+      "Name": "Zenurik"
+    },
+    "Unairu": {
+      "SealImage": "SealUnairuMountain_b.png",
+      "Image": "FocusLensUnairu_b.png",
+      "Description": "They pushed themselves to Outlast the Enemy, to withstand all aggression without retreat. They believed that if the enemy could not match their endurance, then a battle could be won without having even commenced.",
+      "Link": "Focus/Unairu",
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/WardFocusAbility",
+      "Name": "Unairu"
+    },
+    "Madurai": {
+      "SealImage": "SealMaduraiCloud_b.png",
+      "Image": "FocusLensMadurai_b.png",
+      "Description": "They followed the path of Engage The Enemy. Their swift, uncompromising onslaught, holding nothing back and recklessly attacking their foes, could vanquish an opponent before he had the chance to steel himself. Speed and savagery characterized this school.",
+      "Link": "Focus/Madurai",
+      "InternalName": "/Lotus/Upgrades/Focus/Attack/AttackFocusAbility",
+      "Name": "Madurai"
+    }
+  },
+  "Ways": {
+    "Power Transfer": {
+      "NodeDistance": 1,
+      "Description": "100% Amp Critical Damage for 20s on switching to Operator. 50% Casting Speed on switching to Warframe.",
+      "Link": "Focus/Madurai#Power Transfer",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Polarity": "AP_ATTACK",
+      "Image": "FocusPowerTransfer.png",
+      "Name": "Power Transfer",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "45% Amp Critical Damage for 5s on switching to Operator. 20% Casting Speed on switching to Warframe."
+        },
+        {
+          "Stats": "60% Amp Critical Damage for 10s on switching to Operator. 30% Casting Speed on switching to Warframe."
+        },
+        {
+          "Stats": "75% Amp Critical Damage for 15s on switching to Operator. 40% Casting Speed on switching to Warframe."
+        },
+        {
+          "Stats": "100% Amp Critical Damage for 20s on switching to Operator. 50% Casting Speed on switching to Warframe."
+        }
+      ],
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Attack/Residual/PowerSnapFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Power Spike": {
+      "NodeDistance": 0,
+      "Description": "Melee Combo Counter now decays while out of combat by 5 every few seconds, instead of depleting completely.",
+      "Link": "Focus/Naramon#Power Spike",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "COMMON",
+      "Polarity": "AP_TACTIC",
+      "Image": "FocusPowerSpike.png",
+      "Name": "Power Spike",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Melee Combo Counter now decays while out of combat by 20 every few seconds, instead of depleting completely."
+        },
+        {
+          "Stats": "Melee Combo Counter now decays while out of combat by 15 every few seconds, instead of depleting completely."
+        },
+        {
+          "Stats": "Melee Combo Counter now decays while out of combat by 10 every few seconds, instead of depleting completely."
+        },
+        {
+          "Stats": "Melee Combo Counter now decays while out of combat by 5 every few seconds, instead of depleting completely."
+        }
+      ],
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/Residual/MeleeComboFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Sundering Dash": {
+      "NodeDistance": 1,
+      "Description": "Using Void Sling through an enemy will reduce their Armor by 75%.",
+      "Link": "Focus 2.0/Unairu#Sundering Dash",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusSunderingDash.png",
+      "Name": "Sundering Dash",
+      "Polarity": "AP_WARD",
+      "MaxRank": 5,
+      "LevelStats": [
+        {
+          "Stats": "Using Void Sling through an enemy will reduce their Armor by 10%."
+        },
+        {
+          "Stats": "Using Void Sling through an enemy will reduce their Armor by 20%."
+        },
+        {
+          "Stats": "Using Void Sling through an enemy will reduce their Armor by 30%."
+        },
+        {
+          "Stats": "Using Void Sling through an enemy will reduce their Armor by 40%."
+        },
+        {
+          "Stats": "Using Void Sling through an enemy will reduce their Armor by 50%."
+        },
+        {
+          "Stats": "Using Void Sling through an enemy will reduce their Armor by 75%."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Active/DashReduceArmourFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Squad Regen": {
+      "NodeDistance": 2,
+      "Description": "When Void Regen reaches its maximum, it is applied to squad members within Affinity Range for 60s.",
+      "Link": "Focus/Vazarin#Squad Regen",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusSquadRegen.png",
+      "Name": "Squad Regen",
+      "Polarity": "AP_DEFENSE",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "When Void Regen reaches its maximum, it is applied to squad members within Affinity Range for 30s."
+        },
+        {
+          "Stats": "When Void Regen reaches its maximum, it is applied to squad members within Affinity Range for 40s."
+        },
+        {
+          "Stats": "When Void Regen reaches its maximum, it is applied to squad members within Affinity Range for 50s."
+        },
+        {
+          "Stats": "When Void Regen reaches its maximum, it is applied to squad members within Affinity Range for 60s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Defense/Active/CloakHealOthersFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Reinforced Return": {
+      "NodeDistance": 1,
+      "Description": "Warframe is invulnerable for 4s after Operator is downed. Tap <USE> as Operator falls to bring the Warframe to the Operator’s location.",
+      "Link": "Focus/Unairu#Reinforced Return",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusReinforcedReturn.png",
+      "Name": "Reinforced Return",
+      "Polarity": "AP_WARD",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Warframe is invulnerable for 1s after Operator is downed. Tap <USE> as Operator falls to bring the Warframe to the Operator’s location."
+        },
+        {
+          "Stats": "Warframe is invulnerable for 2s after Operator is downed. Tap <USE> as Operator falls to bring the Warframe to the Operator’s location."
+        },
+        {
+          "Stats": "Warframe is invulnerable for 3s after Operator is downed. Tap <USE> as Operator falls to bring the Warframe to the Operator’s location."
+        },
+        {
+          "Stats": "Warframe is invulnerable for 4s after Operator is downed. Tap <USE> as Operator falls to bring the Warframe to the Operator’s location."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Active/InvulnerableReturnFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Spectral Pages": {
+      "NodeDistance": 2,
+      "Description": "Create 4 spectral pages granting an additional 10% Cast Speed, Ability Strength, Duration, and 100 bonus Energy per page.",
+      "Link": "Focus/Zenurik#Spectral Pages",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusSpectralPages.png",
+      "Name": "Spectral Pages",
+      "Polarity": "AP_POWER",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Create 1 spectral pages granting an additional 10% Cast Speed, Ability Strength, Duration, and 100 bonus Energy per page."
+        },
+        {
+          "Stats": "Create 2 spectral pages granting an additional 10% Cast Speed, Ability Strength, Duration, and 100 bonus Energy per page."
+        },
+        {
+          "Stats": "Create 3 spectral pages granting an additional 10% Cast Speed, Ability Strength, Duration, and 100 bonus Energy per page."
+        },
+        {
+          "Stats": "Create 4 spectral pages granting an additional 10% Cast Speed, Ability Strength, Duration, and 100 bonus Energy per page."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateNumberUpgrade",
+      "CodexSecret": false
+    },
+    "Wellspring": {
+      "NodeDistance": 1,
+      "Description": "First Ability creates a well of energy for 8s. Allies passing through the well gain 5 Energy/s for 30s.",
+      "Link": "Focus/Zenurik#Wellspring",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusEnergizingDash.png",
+      "Name": "Wellspring",
+      "Polarity": "AP_POWER",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "First Ability creates a well of energy for 5s. Allies passing through the well gain 3 Energy/s for 20s."
+        },
+        {
+          "Stats": "First Ability creates a well of energy for 5s. Allies passing through the well gain 4 Energy/s for 22s."
+        },
+        {
+          "Stats": "First Ability creates a well of energy for 6s. Allies passing through the well gain 4 Energy/s for 25s."
+        },
+        {
+          "Stats": "First Ability creates a well of energy for 8s. Allies passing through the well gain 5 Energy/s for 30s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Power/Active/DashBubbleFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Meteoric Dash": {
+      "NodeDistance": 2,
+      "Description": "Void Sling deals 400 Extra Damage to enemies.",
+      "Link": "Focus 2.0/Madurai#Meteoric Dash",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusMeteoricDash.png",
+      "Name": "Meteoric Dash",
+      "Polarity": "AP_ATTACK",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Void Sling deals 100 Extra Damage to enemies."
+        },
+        {
+          "Stats": "Void Sling deals 200 Extra Damage to enemies."
+        },
+        {
+          "Stats": "Void Sling deals 300 Extra Damage to enemies."
+        },
+        {
+          "Stats": "Void Sling deals 400 Extra Damage to enemies."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Attack/Active/DashDamageFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Eternal Gaze": {
+      "NodeDistance": 2,
+      "Description": "Increase Energy Regeneration Rate for Amps and Void Beam by 60%.",
+      "Link": "Focus/Madurai#Eternal Gaze",
+      "Rarity": "RARE",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Polarity": "AP_ATTACK",
+      "MaxRank": 3,
+      "Image": "FocusEternalGaze.png",
+      "Name": "Eternal Gaze",
+      "LevelStats": [
+        {
+          "Stats": "Increase Energy Regeneration Rate for Amps and Void Beam by 15%."
+        },
+        {
+          "Stats": "Increase Energy Regeneration Rate for Amps and Void Beam by 30%."
+        },
+        {
+          "Stats": "Increase Energy Regeneration Rate for Amps and Void Beam by 45%."
+        },
+        {
+          "Stats": "Increase Energy Regeneration Rate for Amps and Void Beam by 60%."
+        }
+      ],
+      "IsWayBound": true,
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Attack/Stats/RegenAmmoFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Executing Dash": {
+      "NodeDistance": 2,
+      "Description": "Void Sling no longer displaces enemies, instead it will open them up to Finishers and increase Finisher Damage taken by 35%.",
+      "Link": "Focus 2.0/Naramon#Executing Dash",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusExecutingDash.png",
+      "Name": "Executing Dash",
+      "Polarity": "AP_TACTIC",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Void Sling no longer displaces enemies, instead it will open them up to Finishers and increase Finisher Damage taken by 15%."
+        },
+        {
+          "Stats": "Void Sling no longer displaces enemies, instead it will open them up to Finishers and increase Finisher Damage taken by 20%."
+        },
+        {
+          "Stats": "Void Sling no longer displaces enemies, instead it will open them up to Finishers and increase Finisher Damage taken by 25%."
+        },
+        {
+          "Stats": "Void Sling no longer displaces enemies, instead it will open them up to Finishers and increase Finisher Damage taken by 35%."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/DashFinisherFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Unairu Wisp (Old)": {
+      "NodeDistance": 2,
+      "Description": "Void Blast has a 100% chance to summon a Wisp when it damages an enemy. The Wisp can be picked up by allies to increase Operator Damage by 100% for 12s.",
+      "Link": "Focus 2.0/Unairu#Unairu Wisp",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusUnairuWisp.png",
+      "Name": "Unairu Wisp (Old)",
+      "Polarity": "AP_WARD",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Void Blast has a 25% chance to summon a Wisp when it damages an enemy. The Wisp can be picked up by allies to increase Operator Damage by 20% for 3s."
+        },
+        {
+          "Stats": "Void Blast has a 50% chance to summon a Wisp when it damages an enemy. The Wisp can be picked up by allies to increase Operator Damage by 40% for 6s."
+        },
+        {
+          "Stats": "Void Blast has a 75% chance to summon a Wisp when it damages an enemy. The Wisp can be picked up by allies to increase Operator Damage by 60% for 9s."
+        },
+        {
+          "Stats": "Void Blast has a 100% chance to summon a Wisp when it damages an enemy. The Wisp can be picked up by allies to increase Operator Damage by 100% for 12s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Active/BlastDamagePickupFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Chained Sling": {
+      "NodeDistance": 1,
+      "Description": "50% Energy Efficiency on Consecutive Void Slings.",
+      "Link": "Focus/Madurai#Chained Sling",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusChainedSling.png",
+      "Name": "Chained Sling",
+      "Polarity": "AP_ATTACK",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "20% Energy Efficiency on Consecutive Void Slings."
+        },
+        {
+          "Stats": "30% Energy Efficiency on Consecutive Void Slings."
+        },
+        {
+          "Stats": "40% Energy Efficiency on Consecutive Void Slings."
+        },
+        {
+          "Stats": "50% Energy Efficiency on Consecutive Void Slings."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Attack/Active/ConsecutiveEfficienyUpgrade",
+      "CodexSecret": false
+    },
+    "Guardian Blast": {
+      "NodeDistance": 2,
+      "Description": "Void Blast consumes 25 Energy for each ally hit within 8m and grants them 160 Shields.",
+      "Link": "Focus/Vazarin#Guardian Blast",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusGuardianBlast.png",
+      "Name": "Guardian Blast",
+      "Polarity": "AP_DEFENSE",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Void Blast consumes 25 Energy for each ally hit within 5m and grants them 50 Shields."
+        },
+        {
+          "Stats": "Void Blast consumes 25 Energy for each ally hit within 6m and grants them 80 Shields."
+        },
+        {
+          "Stats": "Void Blast consumes 25 Energy for each ally hit within 7m and grants them 120 Shields."
+        },
+        {
+          "Stats": "Void Blast consumes 25 Energy for each ally hit within 8m and grants them 160 Shields."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Defense/Active/BlastAllyShieldFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Magnetic Flare": {
+      "NodeDistance": 1,
+      "Description": "Use your first Ability to create a 8m radius field that lasts for 30s and disables the shields of any enemy that enters it.",
+      "Link": "Focus/Unairu#Magnetic Flare",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusMagneticFlare.png",
+      "Name": "Magnetic Flare",
+      "Polarity": "AP_WARD",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Use your first Ability to create a 5m radius field that lasts for 12s and disables the shields of any enemy that enters it."
+        },
+        {
+          "Stats": "Use your first Ability to create a 6m radius field that lasts for 18s and disables the shields of any enemy that enters it."
+        },
+        {
+          "Stats": "Use your first Ability to create a 7m radius field that lasts for 24s and disables the shields of any enemy that enters it."
+        },
+        {
+          "Stats": "Use your first Ability to create a 8m radius field that lasts for 30s and disables the shields of any enemy that enters it."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Active/MagneticFieldFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Phoenix Talons": {
+      "NodeDistance": 0,
+      "Description": "Physical Damage and Operator Damage increased by 30%.",
+      "Link": "Focus/Madurai#Phoenix Talons",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "COMMON",
+      "Polarity": "AP_ATTACK",
+      "Image": "FocusPhoenixTalons.png",
+      "Name": "Phoenix Talons",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Physical Damage and Operator Damage increased by 5%."
+        },
+        {
+          "Stats": "Physical Damage and Operator Damage increased by 10%."
+        },
+        {
+          "Stats": "Physical Damage and Operator Damage increased by 20%."
+        },
+        {
+          "Stats": "Physical Damage and Operator Damage increased by 30%."
+        }
+      ],
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Attack/Residual/PhysicalDamageFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Disorienting Blast": {
+      "NodeDistance": 1,
+      "Description": "Void Blast has a 50% chance of confusing enemies for 16s, causing them to be unable to distinguish friend from foe.",
+      "Link": "Focus 2.0/Naramon#Disorienting Blast",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "COMMON",
+      "Image": "FocusDisorientingBlast.png",
+      "Name": "Disorienting Blast",
+      "Polarity": "AP_TACTIC",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Void Blast has a 20% chance of confusing enemies for 4s, causing them to be unable to distinguish friend from foe."
+        },
+        {
+          "Stats": "Void Blast has a 30% chance of confusing enemies for 8s, causing them to be unable to distinguish friend from foe."
+        },
+        {
+          "Stats": "Void Blast has a 40% chance of confusing enemies for 12s, causing them to be unable to distinguish friend from foe."
+        },
+        {
+          "Stats": "Void Blast has a 50% chance of confusing enemies for 16s, causing them to be unable to distinguish friend from foe."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/BlastConfuseFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Basilisk Gaze": {
+      "NodeDistance": 2,
+      "Description": "Increases Void Blast radius by 60%.",
+      "Link": "Focus 2.0/Unairu#Basilisk Gaze",
+      "Rarity": "UNCOMMON",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Polarity": "AP_WARD",
+      "MaxRank": 3,
+      "Image": "FocusBasiliskGaze.png",
+      "Name": "Basilisk Gaze",
+      "LevelStats": [
+        {
+          "Stats": "Increases Void Blast radius by 15%."
+        },
+        {
+          "Stats": "Increases Void Blast radius by 30%."
+        },
+        {
+          "Stats": "Increases Void Blast radius by 45%."
+        },
+        {
+          "Stats": "Increases Void Blast radius by 60%."
+        }
+      ],
+      "IsWayBound": true,
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Stats/BlastRadiusFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Sonic Dash": {
+      "NodeDistance": 2,
+      "Description": "Void Sling no longer displaces enemies, instead it emits a shockwave 14m wide and travels 8m stunning any enemy it hits.",
+      "Link": "Focus 2.0/Vazarin#Sonic Dash",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusSonicDash.png",
+      "Name": "Sonic Dash",
+      "Polarity": "AP_DEFENSE",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Void Sling no longer displaces enemies, instead it emits a shockwave 8m wide and travels 2m stunning any enemy it hits."
+        },
+        {
+          "Stats": "Void Sling no longer displaces enemies, instead it emits a shockwave 10m wide and travels 4m stunning any enemy it hits."
+        },
+        {
+          "Stats": "Void Sling no longer displaces enemies, instead it emits a shockwave 12m wide and travels 6m stunning any enemy it hits."
+        },
+        {
+          "Stats": "Void Sling no longer displaces enemies, instead it emits a shockwave 14m wide and travels 8m stunning any enemy it hits."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Defense/Active/DashShockwaveFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Voltaic Blast": {
+      "NodeDistance": 2,
+      "Description": "Void Blast creates a surge of electricity, zapping enemies within 10m for 200% Damage.",
+      "Link": "Focus 2.0/Zenurik#Voltaic Blast",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusVoltaicBlast.png",
+      "Name": "Voltaic Blast",
+      "Polarity": "AP_POWER",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Void Blast creates a surge of electricity, zapping enemies within 4m for 100% Damage."
+        },
+        {
+          "Stats": "Void Blast creates a surge of electricity, zapping enemies within 6m for 125% Damage."
+        },
+        {
+          "Stats": "Void Blast creates a surge of electricity, zapping enemies within 8m for 150% Damage."
+        },
+        {
+          "Stats": "Void Blast creates a surge of electricity, zapping enemies within 10m for 200% Damage."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Power/Active/BlastBurstFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Magnetic Boost": {
+      "NodeDistance": 2,
+      "Description": "Void Sling out of a Magnetic Flare to refresh its duration and increase its radius by 100%.",
+      "Link": "Focus/Unairu#Magnetic Boost",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusMagneticBoost.png",
+      "Name": "Magnetic Boost",
+      "Polarity": "AP_WARD",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Void Sling out of a Magnetic Flare to refresh its duration and increase its radius by 25%."
+        },
+        {
+          "Stats": "Void Sling out of a Magnetic Flare to refresh its duration and increase its radius by 50%."
+        },
+        {
+          "Stats": "Void Sling out of a Magnetic Flare to refresh its duration and increase its radius by 75%."
+        },
+        {
+          "Stats": "Void Sling out of a Magnetic Flare to refresh its duration and increase its radius by 100%."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Active/MagneticExtensionUpgrade",
+      "CodexSecret": false
+    },
+    "Hardened Wellspring": {
+      "NodeDistance": 2,
+      "Description": "Use your first Ability inside a Wellspring to increase its size, boost its duration by 20s, and grant 20% Ability Strength to those inside.",
+      "Link": "Focus/Zenurik#Hardened Wellspring",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusHardenedWellspring.png",
+      "Name": "Hardened Wellspring",
+      "Polarity": "AP_POWER",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Use your first Ability inside a Wellspring to increase its size, boost its duration by 14s, and grant 12% Ability Strength to those inside."
+        },
+        {
+          "Stats": "Use your first Ability inside a Wellspring to increase its size, boost its duration by 16s, and grant 15% Ability Strength to those inside."
+        },
+        {
+          "Stats": "Use your first Ability inside a Wellspring to increase its size, boost its duration by 18s, and grant 18% Ability Strength to those inside."
+        },
+        {
+          "Stats": "Use your first Ability inside a Wellspring to increase its size, boost its duration by 20s, and grant 20% Ability Strength to those inside."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Power/Active/PowerFieldFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Sling Stun": {
+      "NodeDistance": 1,
+      "Description": "Second Ability increases the width of the next Void Sling by 200% and enemies hit are vulnerable to Finishers, taking 30% more finisher damage.",
+      "Link": "Focus/Naramon#Sling Stun",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusSlingStun.png",
+      "Name": "Sling Stun",
+      "Polarity": "AP_TACTIC",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Second Ability increases the width of the next Void Sling by 50% and enemies hit are vulnerable to Finishers, taking 15% more finisher damage."
+        },
+        {
+          "Stats": "Second Ability increases the width of the next Void Sling by 100% and enemies hit are vulnerable to Finishers, taking 20% more finisher damage."
+        },
+        {
+          "Stats": "Second Ability increases the width of the next Void Sling by 150% and enemies hit are vulnerable to Finishers, taking 25% more finisher damage."
+        },
+        {
+          "Stats": "Second Ability increases the width of the next Void Sling by 200% and enemies hit are vulnerable to Finishers, taking 30% more finisher damage."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/ProjectionExecutionUpgrade",
+      "CodexSecret": false
+    },
+    "Void Regen": {
+      "NodeDistance": 1,
+      "Description": "Void Mode starts healing at +10 Health per second, increasing by 10 per second up to a maximum of 50.",
+      "Link": "Focus/Vazarin#Void Regen",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusVoidRegen.png",
+      "Name": "Void Regen",
+      "Polarity": "AP_DEFENSE",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Void Mode starts healing at +4 Health per second, increasing by 4 per second up to a maximum of 20."
+        },
+        {
+          "Stats": "Void Mode starts healing at +6 Health per second, increasing by 6 per second up to a maximum of 30."
+        },
+        {
+          "Stats": "Void Mode starts healing at +8 Health per second, increasing by 8 per second up to a maximum of 40."
+        },
+        {
+          "Stats": "Void Mode starts healing at +10 Health per second, increasing by 10 per second up to a maximum of 50."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Defense/Active/CloakHealFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Sling Strength": {
+      "NodeDistance": 2,
+      "Description": "Switching to Warframe after a Chained Sling adds 40% Ability Strength for 20s.",
+      "Link": "Focus/Madurai#Sling Strength",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusSlingStrength.png",
+      "Name": "Sling Strength",
+      "Polarity": "AP_ATTACK",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Switching to Warframe after a Chained Sling adds 10% Ability Strength for 5s."
+        },
+        {
+          "Stats": "Switching to Warframe after a Chained Sling adds 20% Ability Strength for 10s."
+        },
+        {
+          "Stats": "Switching to Warframe after a Chained Sling adds 30% Ability Strength for 15s."
+        },
+        {
+          "Stats": "Switching to Warframe after a Chained Sling adds 40% Ability Strength for 20s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Attack/Active/ConsecutivePowerUpgrade",
+      "CodexSecret": false
+    },
+    "Surging Dash": {
+      "NodeDistance": 1,
+      "Description": "Creates a wave while dashing, increasing the Damage by 30% and the area of effect around the Operator by 12m.",
+      "Link": "Focus 2.0/Naramon#Surging Dash",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusSurgingDash.png",
+      "Name": "Surging Dash",
+      "Polarity": "AP_TACTIC",
+      "MaxRank": 5,
+      "LevelStats": [
+        {
+          "Stats": "Creates a wave while dashing, increasing the Damage by 5% and the area of effect around the Operator by 2m."
+        },
+        {
+          "Stats": "Creates a wave while dashing, increasing the Damage by 10% and the area of effect around the Operator by 4m."
+        },
+        {
+          "Stats": "Creates a wave while dashing, increasing the Damage by 15% and the area of effect around the Operator by 6m."
+        },
+        {
+          "Stats": "Creates a wave while dashing, increasing the Damage by 20% and the area of effect around the Operator by 8m."
+        },
+        {
+          "Stats": "Creates a wave while dashing, increasing the Damage by 25% and the area of effect around the Operator by 10m."
+        },
+        {
+          "Stats": "Creates a wave while dashing, increasing the Damage by 30% and the area of effect around the Operator by 12m."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/DashWaveFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Void Snare": {
+      "NodeDistance": 1,
+      "Description": "Second Ability Launches a projectile that spins up a vortex trap on impact, or tap <ACTIVATE_ABILITY_1> again to detonate in-flight. Trap lasts 8s. Void Sling through trapped enemies to grant allies within Affinity Range 100 Health.",
+      "Link": "Focus/Vazarin#Void Snare",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusVoidSnare.png",
+      "Name": "Void Snare",
+      "Polarity": "AP_DEFENSE",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Second Ability Launches a projectile that spins up a vortex trap on impact, or tap <ACTIVATE_ABILITY_1> again to detonate in-flight. Trap lasts 5s. Void Sling through trapped enemies to grant allies within Affinity Range 40 Health."
+        },
+        {
+          "Stats": "Second Ability Launches a projectile that spins up a vortex trap on impact, or tap <ACTIVATE_ABILITY_1> again to detonate in-flight. Trap lasts 6s. Void Sling through trapped enemies to grant allies within Affinity Range 60 Health."
+        },
+        {
+          "Stats": "Second Ability Launches a projectile that spins up a vortex trap on impact, or tap <ACTIVATE_ABILITY_1> again to detonate in-flight. Trap lasts 7s. Void Sling through trapped enemies to grant allies within Affinity Range 80 Health."
+        },
+        {
+          "Stats": "Second Ability Launches a projectile that spins up a vortex trap on impact, or tap <ACTIVATE_ABILITY_1> again to detonate in-flight. Trap lasts 8s. Void Sling through trapped enemies to grant allies within Affinity Range 100 Health."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Defense/Active/SonicDissipationUpgrade",
+      "CodexSecret": false
+    },
+    "Amp Spike": {
+      "NodeDistance": 2,
+      "Description": "Transfer to Operator with 8x Combo Multiplier to increase AMP damage by 100% for 40s.",
+      "Link": "Focus/Naramon#Amp Spike",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusAmpSpike.png",
+      "Name": "Amp Spike",
+      "Polarity": "AP_TACTIC",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Transfer to Operator with 8x Combo Multiplier to increase AMP damage by 40% for 10s."
+        },
+        {
+          "Stats": "Transfer to Operator with 8x Combo Multiplier to increase AMP damage by 60% for 20s."
+        },
+        {
+          "Stats": "Transfer to Operator with 8x Combo Multiplier to increase AMP damage by 80% for 30s."
+        },
+        {
+          "Stats": "Transfer to Operator with 8x Combo Multiplier to increase AMP damage by 100% for 40s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/ComboAmpDamageFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Guardian Shell": {
+      "NodeDistance": 1,
+      "Description": "Use your first Ability to manifest a barrier on the Operator and allies in Affinity Range. It is invulnerable for 4s when first created and damage inflicted while its invulnerable will be added to its base health of 500.",
+      "Link": "Focus/Vazarin#Guardian Shell",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusGuardianShell.png",
+      "Name": "Guardian Shell",
+      "Polarity": "AP_DEFENSE",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Use your first Ability to manifest a barrier on the Operator and allies in Affinity Range. It is invulnerable for 4s when first created and damage inflicted while its invulnerable will be added to its base health of 200."
+        },
+        {
+          "Stats": "Use your first Ability to manifest a barrier on the Operator and allies in Affinity Range. It is invulnerable for 4s when first created and damage inflicted while its invulnerable will be added to its base health of 300."
+        },
+        {
+          "Stats": "Use your first Ability to manifest a barrier on the Operator and allies in Affinity Range. It is invulnerable for 4s when first created and damage inflicted while its invulnerable will be added to its base health of 400."
+        },
+        {
+          "Stats": "Use your first Ability to manifest a barrier on the Operator and allies in Affinity Range. It is invulnerable for 4s when first created and damage inflicted while its invulnerable will be added to its base health of 500."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Defense/Active/DefenseShieldFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Void Aegis": {
+      "NodeDistance": 2,
+      "Description": "Void Mode creates a shield that grows up to 12m over 5s. This ability costs an additional 2 Energy/s.",
+      "Link": "Focus 2.0/Vazarin#Void Aegis",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusVoidAegis.png",
+      "Name": "Void Aegis",
+      "Polarity": "AP_DEFENSE",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Void Mode creates a shield that grows up to 5m over 5s. This ability costs an additional 2 Energy/s."
+        },
+        {
+          "Stats": "Void Mode creates a shield that grows up to 8m over 5s. This ability costs an additional 2 Energy/s."
+        },
+        {
+          "Stats": "Void Mode creates a shield that grows up to 10m over 5s. This ability costs an additional 2 Energy/s."
+        },
+        {
+          "Stats": "Void Mode creates a shield that grows up to 12m over 5s. This ability costs an additional 2 Energy/s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Defense/Active/CloakShieldFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Tempered Benison": {
+      "NodeDistance": 3,
+      "Description": "Shockwaves create 5 Armor Motes that grant +450 temporary Armor. Max 5.",
+      "Link": "Focus/Unairu#Tempered Benison",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusTemperedBenison.png",
+      "Name": "Tempered Benison",
+      "Polarity": "AP_WARD",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Shockwaves create 2 Armor Motes that grant +450 temporary Armor. Max 5."
+        },
+        {
+          "Stats": "Shockwaves create 3 Armor Motes that grant +450 temporary Armor. Max 5."
+        },
+        {
+          "Stats": "Shockwaves create 4 Armor Motes that grant +450 temporary Armor. Max 5."
+        },
+        {
+          "Stats": "Shockwaves create 5 Armor Motes that grant +450 temporary Armor. Max 5."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateArmorUpgrade",
+      "CodexSecret": false
+    },
+    "Stone Skin": {
+      "NodeDistance": 1,
+      "Description": "Increases Armor for Warframe and Operator by 200.",
+      "Link": "Focus/Unairu#Stone Skin",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Polarity": "AP_WARD",
+      "Image": "FocusStoneSkin.png",
+      "Name": "Stone Skin",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Increases Armor for Warframe and Operator by 50."
+        },
+        {
+          "Stats": "Increases Armor for Warframe and Operator by 100."
+        },
+        {
+          "Stats": "Increases Armor for Warframe and Operator by 150."
+        },
+        {
+          "Stats": "Increases Armor for Warframe and Operator by 200."
+        }
+      ],
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Residual/ArmourBuffFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Poise": {
+      "NodeDistance": 0,
+      "Description": "Gain immunity to slow, stagger, and knockdown effects for 40s after transferring between Operator or Warframe.",
+      "Link": "Focus/Unairu#Poise",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "COMMON",
+      "Image": "FocusPoise.png",
+      "Name": "Poise",
+      "Polarity": "AP_WARD",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Gain immunity to slow, stagger, and knockdown effects for 10s after transferring between Operator or Warframe."
+        },
+        {
+          "Stats": "Gain immunity to slow, stagger, and knockdown effects for 20s after transferring between Operator or Warframe."
+        },
+        {
+          "Stats": "Gain immunity to slow, stagger, and knockdown effects for 30s after transferring between Operator or Warframe."
+        },
+        {
+          "Stats": "Gain immunity to slow, stagger, and knockdown effects for 40s after transferring between Operator or Warframe."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Active/KnockdownImmunityFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Blazing Dash": {
+      "NodeDistance": 1,
+      "Description": "Void Sling leaves a trail of fire that deals 1000 Damage/s over 14s. Void Sling will now stun enemies instead of displacing them.",
+      "Link": "Focus 2.0/Madurai#Blazing Dash",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusBlazingDash.png",
+      "Name": "Blazing Dash",
+      "Polarity": "AP_ATTACK",
+      "MaxRank": 5,
+      "LevelStats": [
+        {
+          "Stats": "Void Sling leaves a trail of fire that deals 100 Damage/s over 3s. Void Sling will now stun enemies instead of displacing them."
+        },
+        {
+          "Stats": "Void Sling leaves a trail of fire that deals 200 Damage/s over 6s. Void Sling will now stun enemies instead of displacing them."
+        },
+        {
+          "Stats": "Void Sling leaves a trail of fire that deals 300 Damage/s over 9s. Void Sling will now stun enemies instead of displacing them."
+        },
+        {
+          "Stats": "Void Sling leaves a trail of fire that deals 400 Damage/s over 12s. Void Sling will now stun enemies instead of displacing them."
+        },
+        {
+          "Stats": "Void Sling leaves a trail of fire that deals 600 Damage/s over 12s. Void Sling will now stun enemies instead of displacing them."
+        },
+        {
+          "Stats": "Void Sling leaves a trail of fire that deals 1000 Damage/s over 14s. Void Sling will now stun enemies instead of displacing them."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Attack/Active/DashFireFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Swelling Deluge": {
+      "NodeDistance": 3,
+      "Description": "Increase vortex duration to 40s.",
+      "Link": "Focus/Vazarin#Swelling Deluge",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusSwellingDeluge.png",
+      "Name": "Swelling Deluge",
+      "Polarity": "AP_DEFENSE",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Increase vortex duration to 25s."
+        },
+        {
+          "Stats": "Increase vortex duration to 30s."
+        },
+        {
+          "Stats": "Increase vortex duration to 35s."
+        },
+        {
+          "Stats": "Increase vortex duration to 40s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateDurationUpgrade",
+      "CodexSecret": false
+    },
+    "Thara Tauron Strike": {
+      "NodeDistance": 2,
+      "Description": "Summon forth Thara from the Void and fire the great bow into the air, blanketing the area with a rain of explosive arrows for 7s.",
+      "Link": "Focus/Madurai#Thara Tauron Strike",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusTharaTauronStrike.png",
+      "Name": "Thara Tauron Strike",
+      "Polarity": "AP_ATTACK",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Summon forth Thara from the Void and fire the great bow into the air, blanketing the area with a rain of explosive arrows for |DURATION|s."
+        },
+        {
+          "Stats": "Summon forth Thara from the Void and fire the great bow into the air, blanketing the area with a rain of explosive arrows for |DURATION|s."
+        },
+        {
+          "Stats": "Summon forth Thara from the Void and fire the great bow into the air, blanketing the area with a rain of explosive arrows for |DURATION|s."
+        },
+        {
+          "Stats": "Summon forth Thara from the Void and fire the great bow into the air, blanketing the area with a rain of explosive arrows for 7s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Attack/Active/AttackUltimateUpgrade",
+      "CodexSecret": false
+    },
+    "Surging Storm": {
+      "NodeDistance": 3,
+      "Description": "Increase Rain of Arrows radius to 5m.",
+      "Link": "Focus/Madurai#Surging Storm",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusSurgingStorm.png",
+      "Name": "Surging Storm",
+      "Polarity": "AP_ATTACK",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Increase Rain of Arrows radius to 3.5m."
+        },
+        {
+          "Stats": "Increase Rain of Arrows radius to 4m."
+        },
+        {
+          "Stats": "Increase Rain of Arrows radius to 4.5m."
+        },
+        {
+          "Stats": "Increase Rain of Arrows radius to 5m."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateRadiusUpgrade",
+      "CodexSecret": false
+    },
+    "Sundered Bounty": {
+      "NodeDistance": 2,
+      "Description": "Shockwaves generate 5 pickups, in the form of Universal Orbs or Ammo.",
+      "Link": "Focus/Unairu#Sundered Bounty",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusSunderedBounty.png",
+      "Name": "Sundered Bounty",
+      "Polarity": "AP_WARD",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Shockwaves generate 2 pickups, in the form of Universal Orbs or Ammo."
+        },
+        {
+          "Stats": "Shockwaves generate 3 pickups, in the form of Universal Orbs or Ammo."
+        },
+        {
+          "Stats": "Shockwaves generate 4 pickups, in the form of Universal Orbs or Ammo."
+        },
+        {
+          "Stats": "Shockwaves generate 5 pickups, in the form of Universal Orbs or Ammo."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateChanceUpgrade",
+      "CodexSecret": false
+    },
+    "Lethal Levitation": {
+      "NodeDistance": 2,
+      "Description": "Additional 50% Damage per Lifted enemy attacked by Operator. Lasts for 60s, stacks up to 4x.",
+      "Link": "Focus/Naramon#Lethal Levitation",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusLethalLevitation.png",
+      "Name": "Lethal Levitation",
+      "Polarity": "AP_TACTIC",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Additional 20% Damage per Lifted enemy attacked by Operator. Lasts for 30s, stacks up to 4x."
+        },
+        {
+          "Stats": "Additional 30% Damage per Lifted enemy attacked by Operator. Lasts for 40s, stacks up to 4x."
+        },
+        {
+          "Stats": "Additional 40% Damage per Lifted enemy attacked by Operator. Lasts for 50s, stacks up to 4x."
+        },
+        {
+          "Stats": "Additional 50% Damage per Lifted enemy attacked by Operator. Lasts for 60s, stacks up to 4x."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/LiftHitDamageUpgrade",
+      "CodexSecret": false
+    },
+    "Downpour": {
+      "NodeDistance": 3,
+      "Description": "Rain of Arrows will also target 4 additional enemies within 10m.",
+      "Link": "Focus/Madurai#Downpour",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusDownpour.png",
+      "Name": "Downpour",
+      "Polarity": "AP_ATTACK",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Rain of Arrows will also target 1 additional enemies within 10m."
+        },
+        {
+          "Stats": "Rain of Arrows will also target 2 additional enemies within 10m."
+        },
+        {
+          "Stats": "Rain of Arrows will also target 3 additional enemies within 10m."
+        },
+        {
+          "Stats": "Rain of Arrows will also target 4 additional enemies within 10m."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateDoubleUpgrade",
+      "CodexSecret": false
+    },
+    "Mind Step": {
+      "NodeDistance": 1,
+      "Description": "Increases Operator Movement Speed by 30%.",
+      "Link": "Focus/Naramon#Mind Step",
+      "Rarity": "UNCOMMON",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Polarity": "AP_TACTIC",
+      "MaxRank": 3,
+      "Image": "FocusMindStep.png",
+      "Name": "Mind Step",
+      "LevelStats": [
+        {
+          "Stats": "Increases Operator Movement Speed by 7%."
+        },
+        {
+          "Stats": "Increases Operator Movement Speed by 15%."
+        },
+        {
+          "Stats": "Increases Operator Movement Speed by 22%."
+        },
+        {
+          "Stats": "Increases Operator Movement Speed by 30%."
+        }
+      ],
+      "IsWayBound": true,
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/Stats/MoveSpeedFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Seismic Impact": {
+      "NodeDistance": 3,
+      "Description": "Cogron Tauron Strikes enable their shockwave effect for the next 4 aerial Melee slam attacks.",
+      "Link": "Focus/Unairu#Seismic Impact",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusSeismicImpact.png",
+      "Name": "Seismic Impact",
+      "Polarity": "AP_WARD",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Cogron Tauron Strikes enable their shockwave effect for the next 1 aerial Melee slam attacks."
+        },
+        {
+          "Stats": "Cogron Tauron Strikes enable their shockwave effect for the next 2 aerial Melee slam attacks."
+        },
+        {
+          "Stats": "Cogron Tauron Strikes enable their shockwave effect for the next 3 aerial Melee slam attacks."
+        },
+        {
+          "Stats": "Cogron Tauron Strikes enable their shockwave effect for the next 4 aerial Melee slam attacks."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateSlamUpgrade",
+      "CodexSecret": false
+    },
+    "Void Fuel": {
+      "NodeDistance": 2,
+      "Description": "40% Weapon Efficiency for Operator and Warframe while Void Strike is active.",
+      "Link": "Focus/Madurai#Void Fuel",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusVoidFuel.png",
+      "Name": "Void Fuel",
+      "Polarity": "AP_ATTACK",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "10% Weapon Efficiency for Operator and Warframe while Void Strike is active."
+        },
+        {
+          "Stats": "20% Weapon Efficiency for Operator and Warframe while Void Strike is active."
+        },
+        {
+          "Stats": "30% Weapon Efficiency for Operator and Warframe while Void Strike is active."
+        },
+        {
+          "Stats": "40% Weapon Efficiency for Operator and Warframe while Void Strike is active."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Attack/Active/AttackEfficiencyFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Cogron Tauron Strike": {
+      "NodeDistance": 2,
+      "Description": "Summon forth Cogron from the Void and brandish the mighty hammer, slamming it into the ground to create a cataclysmic shockwave that ripples 4 times.",
+      "Link": "Focus/Unairu#Cogron Tauron Strike",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusCogronTauronStrike.png",
+      "Name": "Cogron Tauron Strike",
+      "Polarity": "AP_WARD",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Summon forth Cogron from the Void and brandish the mighty hammer, slamming it into the ground to create a cataclysmic shockwave that ripples |NUM| times."
+        },
+        {
+          "Stats": "Summon forth Cogron from the Void and brandish the mighty hammer, slamming it into the ground to create a cataclysmic shockwave that ripples |NUM| times."
+        },
+        {
+          "Stats": "Summon forth Cogron from the Void and brandish the mighty hammer, slamming it into the ground to create a cataclysmic shockwave that ripples |NUM| times."
+        },
+        {
+          "Stats": "Summon forth Cogron from the Void and brandish the mighty hammer, slamming it into the ground to create a cataclysmic shockwave that ripples 4 times."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Active/WardUltimateUpgrade",
+      "CodexSecret": false
+    },
+    "Void Spines": {
+      "NodeDistance": 0,
+      "Description": "100% Damage taken is returned to the attacker.",
+      "Link": "Focus 2.0/Unairu#Void Spines",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Polarity": "AP_WARD",
+      "Image": "FocusVoidSpines.png",
+      "Name": "Void Spines",
+      "MaxRank": 5,
+      "LevelStats": [
+        {
+          "Stats": "5% Damage taken is returned to the attacker."
+        },
+        {
+          "Stats": "15% Damage taken is returned to the attacker."
+        },
+        {
+          "Stats": "25% Damage taken is returned to the attacker."
+        },
+        {
+          "Stats": "50% Damage taken is returned to the attacker."
+        },
+        {
+          "Stats": "75% Damage taken is returned to the attacker."
+        },
+        {
+          "Stats": "100% Damage taken is returned to the attacker."
+        }
+      ],
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Residual/ReflectDamageFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Rejuvenating Tides": {
+      "NodeDistance": 2,
+      "Description": "Operator Health Regeneration is increased by 6/s, and is doubled while controlling the Warframe.",
+      "Link": "Focus/Vazarin#Rejuvenating Tides",
+      "Rarity": "RARE",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Polarity": "AP_DEFENSE",
+      "MaxRank": 3,
+      "Image": "FocusRejuvenatingTides.png",
+      "Name": "Rejuvenating Tides",
+      "LevelStats": [
+        {
+          "Stats": "Operator Health Regeneration is increased by 1.5/s, and is doubled while controlling the Warframe."
+        },
+        {
+          "Stats": "Operator Health Regeneration is increased by 3/s, and is doubled while controlling the Warframe."
+        },
+        {
+          "Stats": "Operator Health Regeneration is increased by 4.5/s, and is doubled while controlling the Warframe."
+        },
+        {
+          "Stats": "Operator Health Regeneration is increased by 6/s, and is doubled while controlling the Warframe."
+        }
+      ],
+      "IsWayBound": true,
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Defense/Stats/HealthRegenFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Basilisk Scales": {
+      "NodeDistance": 1,
+      "Description": "Increases Operator Armor by 200%.",
+      "Link": "Focus 2.0/Unairu#Basilisk Scales",
+      "Rarity": "UNCOMMON",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Polarity": "AP_WARD",
+      "MaxRank": 3,
+      "Image": "FocusBasiliskScales.png",
+      "Name": "Basilisk Scales",
+      "LevelStats": [
+        {
+          "Stats": "Increases Operator Armor by 50%."
+        },
+        {
+          "Stats": "Increases Operator Armor by 100%."
+        },
+        {
+          "Stats": "Increases Operator Armor by 150%."
+        },
+        {
+          "Stats": "Increases Operator Armor by 200%."
+        }
+      ],
+      "IsWayBound": true,
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Stats/ArmourIncreaseFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Rain of Arrows": {
+      "NodeDistance": 2,
+      "Description": "On dealing damage, fire an arrow at an enemy with 0.35s cooldown between arrows. 30s duration.",
+      "Link": "Focus/Madurai#Rain of Arrows",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusRainOfArrows.png",
+      "Name": "Rain of Arrows",
+      "Polarity": "AP_ATTACK",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "On dealing damage, fire an arrow at an enemy with 0.50s cooldown between arrows. 30s duration."
+        },
+        {
+          "Stats": "On dealing damage, fire an arrow at an enemy with 0.45s cooldown between arrows. 30s duration."
+        },
+        {
+          "Stats": "On dealing damage, fire an arrow at an enemy with 0.40s cooldown between arrows. 30s duration."
+        },
+        {
+          "Stats": "On dealing damage, fire an arrow at an enemy with 0.35s cooldown between arrows. 30s duration."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateCooldownUpgrade",
+      "CodexSecret": false
+    },
+    "No Quarter": {
+      "NodeDistance": 2,
+      "Description": "Killing a disarmed enemy increases Operator energy regen rate by 10% for 10s. 4 Max Stacks.",
+      "Link": "Focus/Zenurik#No Quarter",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusNoQuarter.png",
+      "Name": "No Quarter",
+      "Polarity": "AP_POWER",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Killing a disarmed enemy increases Operator energy regen rate by 2% for 2.5s. 4 Max Stacks."
+        },
+        {
+          "Stats": "Killing a disarmed enemy increases Operator energy regen rate by 5% for 5s. 4 Max Stacks."
+        },
+        {
+          "Stats": "Killing a disarmed enemy increases Operator energy regen rate by 7% for 7.5s. 4 Max Stacks."
+        },
+        {
+          "Stats": "Killing a disarmed enemy increases Operator energy regen rate by 10% for 10s. 4 Max Stacks."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Power/Active/DisarmedEnergyUpgrade",
+      "CodexSecret": false
+    },
+    "Inner Gaze": {
+      "NodeDistance": 1,
+      "Description": "Increase Energy for Amps and Void Beam by 40%.",
+      "Link": "Focus/Madurai#Inner Gaze",
+      "Rarity": "UNCOMMON",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Polarity": "AP_ATTACK",
+      "MaxRank": 3,
+      "Image": "FocusInnerGaze.png",
+      "Name": "Inner Gaze",
+      "LevelStats": [
+        {
+          "Stats": "Increase Energy for Amps and Void Beam by 10%."
+        },
+        {
+          "Stats": "Increase Energy for Amps and Void Beam by 20%."
+        },
+        {
+          "Stats": "Increase Energy for Amps and Void Beam by 30%."
+        },
+        {
+          "Stats": "Increase Energy for Amps and Void Beam by 40%."
+        }
+      ],
+      "IsWayBound": true,
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Attack/Stats/MoreAmmoFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Unairu Wisp": {
+      "NodeDistance": 2,
+      "Description": "100% chance to summon an Unairu Wisp per enemy hit by Caustic Strike. The Wisp will seek out the nearest ally within Affinity Range, increasing Operator damage by 100% for 20s.",
+      "Link": "Focus/Unairu#Unairu Wisp",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusUnairuWisp.png",
+      "Name": "Unairu Wisp",
+      "Polarity": "AP_WARD",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "25% chance to summon an Unairu Wisp per enemy hit by Caustic Strike. The Wisp will seek out the nearest ally within Affinity Range, increasing Operator damage by 20% for 5s."
+        },
+        {
+          "Stats": "50% chance to summon an Unairu Wisp per enemy hit by Caustic Strike. The Wisp will seek out the nearest ally within Affinity Range, increasing Operator damage by 40% for 10s."
+        },
+        {
+          "Stats": "75% chance to summon an Unairu Wisp per enemy hit by Caustic Strike. The Wisp will seek out the nearest ally within Affinity Range, increasing Operator damage by 60% for 15s."
+        },
+        {
+          "Stats": "100% chance to summon an Unairu Wisp per enemy hit by Caustic Strike. The Wisp will seek out the nearest ally within Affinity Range, increasing Operator damage by 100% for 20s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Active/UnairuWispFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Overwhelming Power": {
+      "NodeDistance": 2,
+      "Description": "Gain +5% Ability Strength for each enemy hit by the initial Tauron Strike for 30s. Max +50%.",
+      "Link": "Focus/Madurai#Overwhelming Power",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusOverwhelmingPower.png",
+      "Name": "Overwhelming Power",
+      "Polarity": "AP_ATTACK",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Gain +2% Ability Strength for each enemy hit by the initial Tauron Strike for 30s. Max +20%."
+        },
+        {
+          "Stats": "Gain +3% Ability Strength for each enemy hit by the initial Tauron Strike for 30s. Max +30%."
+        },
+        {
+          "Stats": "Gain +4% Ability Strength for each enemy hit by the initial Tauron Strike for 30s. Max +40%."
+        },
+        {
+          "Stats": "Gain +5% Ability Strength for each enemy hit by the initial Tauron Strike for 30s. Max +50%."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Attack/Ultimate/AttackUltimateStrengthUpgrade",
+      "CodexSecret": false
+    },
+    "Hungering Blades": {
+      "NodeDistance": 3,
+      "Description": "Spectral weapons have a 100% chance to attack the same enemy a second time.",
+      "Link": "Focus/Naramon#Hungering Blades",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusHungeringBlades.png",
+      "Name": "Hungering Blades",
+      "Polarity": "AP_TACTIC",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Spectral weapons have a 25% chance to attack the same enemy a second time."
+        },
+        {
+          "Stats": "Spectral weapons have a 50% chance to attack the same enemy a second time."
+        },
+        {
+          "Stats": "Spectral weapons have a 75% chance to attack the same enemy a second time."
+        },
+        {
+          "Stats": "Spectral weapons have a 100% chance to attack the same enemy a second time."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateDoubleUpgrade",
+      "CodexSecret": false
+    },
+    "Void Chrysalis": {
+      "NodeDistance": 2,
+      "Description": "Void Mode reduces damage taken by invisible allies within 25m by 80%. This ability costs an additional 4 Energy/s.",
+      "Link": "Focus 2.0/Unairu#Void Chrysalis",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusVoidChrysalis.png",
+      "Name": "Void Chrysalis",
+      "Polarity": "AP_WARD",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Void Mode reduces damage taken by invisible allies within 10m by 20%. This ability costs an additional 1 Energy/s."
+        },
+        {
+          "Stats": "Void Mode reduces damage taken by invisible allies within 15m by 40%. This ability costs an additional 2 Energy/s."
+        },
+        {
+          "Stats": "Void Mode reduces damage taken by invisible allies within 20m by 60%. This ability costs an additional 3 Energy/s."
+        },
+        {
+          "Stats": "Void Mode reduces damage taken by invisible allies within 25m by 80%. This ability costs an additional 4 Energy/s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Active/CloakReduceDamageFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Great Quake": {
+      "NodeDistance": 2,
+      "Description": "Increase shockwave radius by +40%.",
+      "Link": "Focus/Unairu#Great Quake",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusGreatQuake.png",
+      "Name": "Great Quake",
+      "Polarity": "AP_WARD",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Increase shockwave radius by +10%."
+        },
+        {
+          "Stats": "Increase shockwave radius by +20%."
+        },
+        {
+          "Stats": "Increase shockwave radius by +30%."
+        },
+        {
+          "Stats": "Increase shockwave radius by +40%."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Ultimate/WardUltimateRadiusUpgrade",
+      "CodexSecret": false
+    },
+    "Opening Slam": {
+      "NodeDistance": 1,
+      "Description": "Performing a Slam as Operator switches to Warframe and grants double Combo gain for 20s.",
+      "Link": "Focus/Naramon#Opening Slam",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusOpeningSlam.png",
+      "Name": "Opening Slam",
+      "Polarity": "AP_TACTIC",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Performing a Slam as Operator switches to Warframe and grants double Combo gain for 5s."
+        },
+        {
+          "Stats": "Performing a Slam as Operator switches to Warframe and grants double Combo gain for 10s."
+        },
+        {
+          "Stats": "Performing a Slam as Operator switches to Warframe and grants double Combo gain for 15s."
+        },
+        {
+          "Stats": "Performing a Slam as Operator switches to Warframe and grants double Combo gain for 20s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/SlamComboFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Flowing Strikes": {
+      "NodeDistance": 3,
+      "Description": "Increase the range of spectral melee attacks to 26m.",
+      "Link": "Focus/Naramon#Flowing Strikes",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusFlowingStrikes.png",
+      "Name": "Flowing Strikes",
+      "Polarity": "AP_TACTIC",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Increase the range of spectral melee attacks to 14m."
+        },
+        {
+          "Stats": "Increase the range of spectral melee attacks to 18m."
+        },
+        {
+          "Stats": "Increase the range of spectral melee attacks to 22m."
+        },
+        {
+          "Stats": "Increase the range of spectral melee attacks to 26m."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateRangeUpgrade",
+      "CodexSecret": false
+    },
+    "Void Flow": {
+      "NodeDistance": 2,
+      "Description": "Increases Operator Energy by 90%.",
+      "Link": "Focus/Zenurik#Void Flow",
+      "Rarity": "RARE",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Polarity": "AP_POWER",
+      "MaxRank": 3,
+      "Image": "FocusVoidFlow.png",
+      "Name": "Void Flow",
+      "LevelStats": [
+        {
+          "Stats": "Increases Operator Energy by 22%."
+        },
+        {
+          "Stats": "Increases Operator Energy by 45%."
+        },
+        {
+          "Stats": "Increases Operator Energy by 67%."
+        },
+        {
+          "Stats": "Increases Operator Energy by 90%."
+        }
+      ],
+      "IsWayBound": true,
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Power/Stats/EnergyPoolFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Eroding Rapids": {
+      "NodeDistance": 3,
+      "Description": "Vortex applies 100% status vulnerability to all enemies within it.",
+      "Link": "Focus/Vazarin#Eroding Rapids",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusErodingRapids.png",
+      "Name": "Eroding Rapids",
+      "Polarity": "AP_DEFENSE",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Vortex applies 25% status vulnerability to all enemies within it."
+        },
+        {
+          "Stats": "Vortex applies 50% status vulnerability to all enemies within it."
+        },
+        {
+          "Stats": "Vortex applies 75% status vulnerability to all enemies within it."
+        },
+        {
+          "Stats": "Vortex applies 100% status vulnerability to all enemies within it."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateProcVulnUpgrade",
+      "CodexSecret": false
+    },
+    "Spectral Blades": {
+      "NodeDistance": 2,
+      "Description": "Summon 4 spectral swords that are copies of equipped melee weapon. Melee attacks will simultaneously trigger spectral attacks on any enemies within 10m for 30s. Spectral sword hits increase Combo Count and grant extra Tauron Strike Charge. Spectral swords are granted to all players in Affinity Range.",
+      "Link": "Focus/Naramon#Spectral Blades",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusSpectralBlades.png",
+      "Name": "Spectral Blades",
+      "Polarity": "AP_TACTIC",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Summon 1 spectral swords that are copies of equipped melee weapon. Melee attacks will simultaneously trigger spectral attacks on any enemies within 10m for 30s. Spectral sword hits increase Combo Count and grant extra Tauron Strike Charge. Spectral swords are granted to all players in Affinity Range."
+        },
+        {
+          "Stats": "Summon 2 spectral swords that are copies of equipped melee weapon. Melee attacks will simultaneously trigger spectral attacks on any enemies within 10m for 30s. Spectral sword hits increase Combo Count and grant extra Tauron Strike Charge. Spectral swords are granted to all players in Affinity Range."
+        },
+        {
+          "Stats": "Summon 3 spectral swords that are copies of equipped melee weapon. Melee attacks will simultaneously trigger spectral attacks on any enemies within 10m for 30s. Spectral sword hits increase Combo Count and grant extra Tauron Strike Charge. Spectral swords are granted to all players in Affinity Range."
+        },
+        {
+          "Stats": "Summon 4 spectral swords that are copies of equipped melee weapon. Melee attacks will simultaneously trigger spectral attacks on any enemies within 10m for 30s. Spectral sword hits increase Combo Count and grant extra Tauron Strike Charge. Spectral swords are granted to all players in Affinity Range."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateNumberUpgrade",
+      "CodexSecret": false
+    },
+    "Phoenix Spirit": {
+      "NodeDistance": 1,
+      "Description": "Elemental Damage increased by |PERCENT|%.",
+      "Link": "Focus 2.0/Madurai#Phoenix Spirit",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "COMMON",
+      "Polarity": "AP_ATTACK",
+      "Image": "FocusPhoenixSpirit.png",
+      "Name": "Phoenix Spirit",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Elemental Damage increased by |PERCENT|%."
+        },
+        {
+          "Stats": "Elemental Damage increased by |PERCENT|%."
+        },
+        {
+          "Stats": "Elemental Damage increased by |PERCENT|%."
+        },
+        {
+          "Stats": "Elemental Damage increased by |PERCENT|%."
+        }
+      ],
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Attack/Residual/ElementalDamageFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Deathless Currents": {
+      "NodeDistance": 2,
+      "Description": "Vortex heals allies for 250 health/s. Downed players inside the vortex will be instantly revived, and dead players will be resummoned.",
+      "Link": "Focus/Vazarin#Deathless Currents",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusDeathlessCurrents.png",
+      "Name": "Deathless Currents",
+      "Polarity": "AP_DEFENSE",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Vortex heals allies for 100 health/s. Downed players inside the vortex will be instantly revived, and dead players will be resummoned."
+        },
+        {
+          "Stats": "Vortex heals allies for 150 health/s. Downed players inside the vortex will be instantly revived, and dead players will be resummoned."
+        },
+        {
+          "Stats": "Vortex heals allies for 200 health/s. Downed players inside the vortex will be instantly revived, and dead players will be resummoned."
+        },
+        {
+          "Stats": "Vortex heals allies for 250 health/s. Downed players inside the vortex will be instantly revived, and dead players will be resummoned."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateHealUpgrade",
+      "CodexSecret": false
+    },
+    "Void Singularity": {
+      "NodeDistance": 2,
+      "Description": "Void Mode pulls enemies within 20m towards the Operator, and costs an additional 2 Energy/s.",
+      "Link": "Focus 2.0/Zenurik#Void Singularity",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusVoidSingularity.png",
+      "Name": "Void Singularity",
+      "Polarity": "AP_POWER",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Void Mode pulls enemies within 10m towards the Operator, and costs an additional 2 Energy/s."
+        },
+        {
+          "Stats": "Void Mode pulls enemies within 12m towards the Operator, and costs an additional 2 Energy/s."
+        },
+        {
+          "Stats": "Void Mode pulls enemies within 15m towards the Operator, and costs an additional 2 Energy/s."
+        },
+        {
+          "Stats": "Void Mode pulls enemies within 20m towards the Operator, and costs an additional 2 Energy/s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Power/Active/CloakPullFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Astral Cut": {
+      "NodeDistance": 1,
+      "Description": "Tauron Strike slash size is increased by 80%.",
+      "Link": "Focus/Naramon#Astral Cut",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusAstralCut.png",
+      "Name": "Astral Cut",
+      "Polarity": "AP_TACTIC",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Tauron Strike slash size is increased by 20%."
+        },
+        {
+          "Stats": "Tauron Strike slash size is increased by 40%."
+        },
+        {
+          "Stats": "Tauron Strike slash size is increased by 60%."
+        },
+        {
+          "Stats": "Tauron Strike slash size is increased by 80%."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateSizeUpgrade",
+      "CodexSecret": false
+    },
+    "Disarming Sling": {
+      "NodeDistance": 1,
+      "Description": "Slinging through enemies has a 50% chance to disarm them.",
+      "Link": "Focus/Zenurik#Disarming Sling",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusDisarmingSling.png",
+      "Name": "Disarming Sling",
+      "Polarity": "AP_POWER",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Slinging through enemies has a 20% chance to disarm them."
+        },
+        {
+          "Stats": "Slinging through enemies has a 30% chance to disarm them."
+        },
+        {
+          "Stats": "Slinging through enemies has a 40% chance to disarm them."
+        },
+        {
+          "Stats": "Slinging through enemies has a 50% chance to disarm them."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Power/Active/DisarmingProjectionUpgrade",
+      "CodexSecret": false
+    },
+    "Disarming Blast": {
+      "NodeDistance": 2,
+      "Description": "Enemies hit by Void Blast have a 50% chance to be disarmed.",
+      "Link": "Focus 2.0/Naramon#Disarming Blast",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusDisarmingBlast.png",
+      "Name": "Disarming Blast",
+      "Polarity": "AP_TACTIC",
+      "MaxRank": 5,
+      "LevelStats": [
+        {
+          "Stats": "Enemies hit by Void Blast have a 10% chance to be disarmed."
+        },
+        {
+          "Stats": "Enemies hit by Void Blast have a 15% chance to be disarmed."
+        },
+        {
+          "Stats": "Enemies hit by Void Blast have a 20% chance to be disarmed."
+        },
+        {
+          "Stats": "Enemies hit by Void Blast have a 25% chance to be disarmed."
+        },
+        {
+          "Stats": "Enemies hit by Void Blast have a 35% chance to be disarmed."
+        },
+        {
+          "Stats": "Enemies hit by Void Blast have a 50% chance to be disarmed."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/BlastDisarmFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Distilled Contamination": {
+      "NodeDistance": 2,
+      "Description": "Killing an enemy affected by Contamination Wave makes all affected enemies 25% more vulnerable, while also making the effect last 10s longer. Maximum 4 stacks.",
+      "Link": "Focus/Madurai#Distilled Contamination",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusDistilledContamination.png",
+      "Name": "Distilled Contamination",
+      "Polarity": "AP_ATTACK",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Killing an enemy affected by Contamination Wave makes all affected enemies 10% more vulnerable, while also making the effect last 4s longer. Maximum 4 stacks."
+        },
+        {
+          "Stats": "Killing an enemy affected by Contamination Wave makes all affected enemies 15% more vulnerable, while also making the effect last 6s longer. Maximum 4 stacks."
+        },
+        {
+          "Stats": "Killing an enemy affected by Contamination Wave makes all affected enemies 20% more vulnerable, while also making the effect last 8s longer. Maximum 4 stacks."
+        },
+        {
+          "Stats": "Killing an enemy affected by Contamination Wave makes all affected enemies 25% more vulnerable, while also making the effect last 10s longer. Maximum 4 stacks."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Attack/Active/GhostlyTouchUpgrade",
+      "CodexSecret": false
+    },
+    "Caustic Strike": {
+      "NodeDistance": 1,
+      "Description": "Second Ability launches an energy bomb that explodes with a 8m radius, stripping 100% of enemy armor. Tap <ACTIVATE_ABILITY_1> again to detonate in-flight.",
+      "Link": "Focus/Unairu#Caustic Strike",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusCausticStrike.png",
+      "Name": "Caustic Strike",
+      "Polarity": "AP_WARD",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Second Ability launches an energy bomb that explodes with a 5m radius, stripping 40% of enemy armor. Tap <ACTIVATE_ABILITY_1> again to detonate in-flight."
+        },
+        {
+          "Stats": "Second Ability launches an energy bomb that explodes with a 6m radius, stripping 60% of enemy armor. Tap <ACTIVATE_ABILITY_1> again to detonate in-flight."
+        },
+        {
+          "Stats": "Second Ability launches an energy bomb that explodes with a 7m radius, stripping 80% of enemy armor. Tap <ACTIVATE_ABILITY_1> again to detonate in-flight."
+        },
+        {
+          "Stats": "Second Ability launches an energy bomb that explodes with a 8m radius, stripping 100% of enemy armor. Tap <ACTIVATE_ABILITY_1> again to detonate in-flight."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Active/SunderingDissipationUpgrade",
+      "CodexSecret": false
+    },
+    "Lightning Dash": {
+      "NodeDistance": 2,
+      "Description": "Manifests ball lightning after a Void Sling that travels slowly and zaps enemies within 16m for 800 Damage. Costs 10 Energy.",
+      "Link": "Focus 2.0/Zenurik#Lightning Dash",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusLightningDash.png",
+      "Name": "Lightning Dash",
+      "Polarity": "AP_POWER",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Manifests ball lightning after a Void Sling that travels slowly and zaps enemies within 4m for 200 Damage. Costs 10 Energy."
+        },
+        {
+          "Stats": "Manifests ball lightning after a Void Sling that travels slowly and zaps enemies within 8m for 400 Damage. Costs 10 Energy."
+        },
+        {
+          "Stats": "Manifests ball lightning after a Void Sling that travels slowly and zaps enemies within 12m for 600 Damage. Costs 10 Energy."
+        },
+        {
+          "Stats": "Manifests ball lightning after a Void Sling that travels slowly and zaps enemies within 16m for 800 Damage. Costs 10 Energy."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Power/Active/DashElectricityFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Flame Blast": {
+      "NodeDistance": 1,
+      "Description": "Void Blast releases a ball of fire that deals 250% of the Void Blast damage and explodes after 0.6s.",
+      "Link": "Focus 2.0/Madurai#Flame Blast",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusFlameBlast.png",
+      "Name": "Flame Blast",
+      "Polarity": "AP_ATTACK",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Void Blast releases a ball of fire that deals 100% of the Void Blast damage and explodes after 0.1s."
+        },
+        {
+          "Stats": "Void Blast releases a ball of fire that deals 150% of the Void Blast damage and explodes after 0.15s."
+        },
+        {
+          "Stats": "Void Blast releases a ball of fire that deals 200% of the Void Blast damage and explodes after 0.3s."
+        },
+        {
+          "Stats": "Void Blast releases a ball of fire that deals 250% of the Void Blast damage and explodes after 0.6s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Attack/Active/BlastFireballFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Mending Soul": {
+      "NodeDistance": 1,
+      "Description": "The first 4 revives are instantaneous. Additional revives are 100% faster.",
+      "Link": "Focus/Vazarin#Mending Soul",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Polarity": "AP_DEFENSE",
+      "Image": "FocusMendingSoul.png",
+      "Name": "Mending Soul",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "The first 1 revives are instantaneous. Additional revives are 25% faster."
+        },
+        {
+          "Stats": "The first 2 revives are instantaneous. Additional revives are 50% faster."
+        },
+        {
+          "Stats": "The first 3 revives are instantaneous. Additional revives are 75% faster."
+        },
+        {
+          "Stats": "The first 4 revives are instantaneous. Additional revives are 100% faster."
+        }
+      ],
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Defense/Residual/InstantReviveFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Prismatic Beam": {
+      "NodeDistance": 2,
+      "Description": "Enemies struck by the Tauron Strike fire off smaller beams at other enemies within 20m.",
+      "Link": "Focus/Zenurik#Prismatic Beam",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusPrismaticBeam.png",
+      "Name": "Prismatic Beam",
+      "Polarity": "AP_POWER",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Enemies struck by the Tauron Strike fire off smaller beams at other enemies within 5m."
+        },
+        {
+          "Stats": "Enemies struck by the Tauron Strike fire off smaller beams at other enemies within 10m."
+        },
+        {
+          "Stats": "Enemies struck by the Tauron Strike fire off smaller beams at other enemies within 15m."
+        },
+        {
+          "Stats": "Enemies struck by the Tauron Strike fire off smaller beams at other enemies within 20m."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateChainUpgrade",
+      "CodexSecret": false
+    },
+    "Rift Waters": {
+      "NodeDistance": 2,
+      "Description": "Vortex strips enemy Overguard 25% per second.",
+      "Link": "Focus/Vazarin#Rift Waters",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusRiftWaters.png",
+      "Name": "Rift Waters",
+      "Polarity": "AP_DEFENSE",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Vortex strips enemy Overguard 10% per second."
+        },
+        {
+          "Stats": "Vortex strips enemy Overguard 15% per second."
+        },
+        {
+          "Stats": "Vortex strips enemy Overguard 20% per second."
+        },
+        {
+          "Stats": "Vortex strips enemy Overguard 25% per second."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Defense/Ultimate/DefenseUltimateElementalUpgrade",
+      "CodexSecret": false
+    },
+    "Protective Sling": {
+      "NodeDistance": 2,
+      "Description": "Allies touched by Void Sling are granted immunity from damage for 5s and healed 60% over 5s for 10 energy cost.",
+      "Link": "Focus/Vazarin#Protective Sling",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusProtectiveSling.png",
+      "Name": "Protective Sling",
+      "Polarity": "AP_DEFENSE",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Allies touched by Void Sling are granted immunity from damage for 2s and healed 25% over 5s for 10 energy cost."
+        },
+        {
+          "Stats": "Allies touched by Void Sling are granted immunity from damage for 3s and healed 35% over 5s for 10 energy cost."
+        },
+        {
+          "Stats": "Allies touched by Void Sling are granted immunity from damage for 4s and healed 45% over 5s for 10 energy cost."
+        },
+        {
+          "Stats": "Allies touched by Void Sling are granted immunity from damage for 5s and healed 60% over 5s for 10 energy cost."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Defense/Active/DashImmunityFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Rising Blast": {
+      "NodeDistance": 2,
+      "Description": "Increases Void Blast Damage by 200% and it can now be charged to deal additional damage.",
+      "Link": "Focus 2.0/Madurai#Rising Blast",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusRisingBlast.png",
+      "Name": "Rising Blast",
+      "Polarity": "AP_ATTACK",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Increases Void Blast Damage by 50% and it can now be charged to deal additional damage."
+        },
+        {
+          "Stats": "Increases Void Blast Damage by 100% and it can now be charged to deal additional damage."
+        },
+        {
+          "Stats": "Increases Void Blast Damage by 150% and it can now be charged to deal additional damage."
+        },
+        {
+          "Stats": "Increases Void Blast Damage by 200% and it can now be charged to deal additional damage."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Attack/Active/BlastChargeFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Vexoric Tauron Strike": {
+      "NodeDistance": 2,
+      "Description": "Summon forth Vexoric from the Void and swing the colossal sword, unleashing a wave of devastating energy. Gain +8 Melee Combo from each enemy hit.",
+      "Link": "Focus/Naramon#Vexoric Tauron Strike",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusVexoricTauronStrike.png",
+      "Name": "Vexoric Tauron Strike",
+      "Polarity": "AP_TACTIC",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Summon forth Vexoric from the Void and swing the colossal sword, unleashing a wave of devastating energy. Gain +|COMBO| Melee Combo from each enemy hit."
+        },
+        {
+          "Stats": "Summon forth Vexoric from the Void and swing the colossal sword, unleashing a wave of devastating energy. Gain +|COMBO| Melee Combo from each enemy hit."
+        },
+        {
+          "Stats": "Summon forth Vexoric from the Void and swing the colossal sword, unleashing a wave of devastating energy. Gain +|COMBO| Melee Combo from each enemy hit."
+        },
+        {
+          "Stats": "Summon forth Vexoric from the Void and swing the colossal sword, unleashing a wave of devastating energy. Gain +8 Melee Combo from each enemy hit."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/TacticUltimateUpgrade",
+      "CodexSecret": false
+    },
+    "Vengeance": {
+      "NodeDistance": 2,
+      "Description": "During Last Gasp, Operator Damage is increased by 100% plus an additional 25% per second.",
+      "Link": "Focus/Unairu#Vengeance",
+      "Rarity": "RARE",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Polarity": "AP_WARD",
+      "MaxRank": 3,
+      "Image": "FocusVengeance.png",
+      "Name": "Vengeance",
+      "LevelStats": [
+        {
+          "Stats": "During Last Gasp, Operator Damage is increased by 25% plus an additional 10% per second."
+        },
+        {
+          "Stats": "During Last Gasp, Operator Damage is increased by 50% plus an additional 15% per second."
+        },
+        {
+          "Stats": "During Last Gasp, Operator Damage is increased by 75% plus an additional 20% per second."
+        },
+        {
+          "Stats": "During Last Gasp, Operator Damage is increased by 100% plus an additional 25% per second."
+        }
+      ],
+      "IsWayBound": true,
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Residual/SecondChanceDamageBuffFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Mind Sprint": {
+      "NodeDistance": 2,
+      "Description": "Increases Void Sling Speed by 120%.",
+      "Link": "Focus 2.0/Naramon#Mind Sprint",
+      "Rarity": "UNCOMMON",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Polarity": "AP_TACTIC",
+      "MaxRank": 5,
+      "Image": "FocusMindSprint.png",
+      "Name": "Mind Sprint",
+      "LevelStats": [
+        {
+          "Stats": "Increases Void Sling Speed by 20%."
+        },
+        {
+          "Stats": "Increases Void Sling Speed by 40%."
+        },
+        {
+          "Stats": "Increases Void Sling Speed by 60%."
+        },
+        {
+          "Stats": "Increases Void Sling Speed by 80%."
+        },
+        {
+          "Stats": "Increases Void Sling Speed by 100%."
+        },
+        {
+          "Stats": "Increases Void Sling Speed by 120%."
+        }
+      ],
+      "IsWayBound": true,
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/Stats/DashSpeedFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Void Strike": {
+      "NodeDistance": 1,
+      "Description": "First Ability consumes all energy to increase damage for 8s. Deal 10% additional damage for every percentage of energy consumed. 40s cooldown.",
+      "Link": "Focus/Madurai#Void Strike",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusVoidStrike.png",
+      "Name": "Void Strike",
+      "Polarity": "AP_ATTACK",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "First Ability consumes all energy to increase damage for 5s. Deal 4% additional damage for every percentage of energy consumed. 70s cooldown."
+        },
+        {
+          "Stats": "First Ability consumes all energy to increase damage for 6s. Deal 6% additional damage for every percentage of energy consumed. 60s cooldown."
+        },
+        {
+          "Stats": "First Ability consumes all energy to increase damage for 7s. Deal 8% additional damage for every percentage of energy consumed. 50s cooldown."
+        },
+        {
+          "Stats": "First Ability consumes all energy to increase damage for 8s. Deal 10% additional damage for every percentage of energy consumed. 40s cooldown."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Attack/Active/CloakAttackChargeFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Inner Might": {
+      "NodeDistance": 1,
+      "Description": "Allows Abilities to be cast without using Energy or Shields but requires 60s to recharge.",
+      "Link": "Focus/Zenurik#Inner Might",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Polarity": "AP_POWER",
+      "Image": "FocusInnerMight.png",
+      "Name": "Inner Might",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Allows Abilities to be cast without using Energy or Shields but requires 90s to recharge."
+        },
+        {
+          "Stats": "Allows Abilities to be cast without using Energy or Shields but requires 80s to recharge."
+        },
+        {
+          "Stats": "Allows Abilities to be cast without using Energy or Shields but requires 70s to recharge."
+        },
+        {
+          "Stats": "Allows Abilities to be cast without using Energy or Shields but requires 60s to recharge."
+        }
+      ],
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Power/Residual/FreeAbilityCastsFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Void Stalker": {
+      "NodeDistance": 1,
+      "Description": "Void Mode increases Critical Chance of melee attacks by up to 50% over 5s. This chance gradually decreases over 20s when the Operator leaves Void Mode. This ability costs an additional 4 Energy/s.",
+      "Link": "Focus 2.0/Naramon#Void Stalker",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusVoidStalker.png",
+      "Name": "Void Stalker",
+      "Polarity": "AP_TACTIC",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Void Mode increases Critical Chance of melee attacks by up to 20% over 5s. This chance gradually decreases over 5s when the Operator leaves Void Mode. This ability costs an additional 1 Energy/s."
+        },
+        {
+          "Stats": "Void Mode increases Critical Chance of melee attacks by up to 30% over 5s. This chance gradually decreases over 10s when the Operator leaves Void Mode. This ability costs an additional 2 Energy/s."
+        },
+        {
+          "Stats": "Void Mode increases Critical Chance of melee attacks by up to 40% over 5s. This chance gradually decreases over 15s when the Operator leaves Void Mode. This ability costs an additional 3 Energy/s."
+        },
+        {
+          "Stats": "Void Mode increases Critical Chance of melee attacks by up to 50% over 5s. This chance gradually decreases over 20s when the Operator leaves Void Mode. This ability costs an additional 4 Energy/s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/CloakMeleeCritFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Void Siphon": {
+      "NodeDistance": 1,
+      "Description": "Increases Operator Energy Regeneration by 90%.",
+      "Link": "Focus/Zenurik#Void Siphon",
+      "Rarity": "UNCOMMON",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Polarity": "AP_POWER",
+      "MaxRank": 3,
+      "Image": "FocusVoidSiphon.png",
+      "Name": "Void Siphon",
+      "LevelStats": [
+        {
+          "Stats": "Increases Operator Energy Regeneration by 22%."
+        },
+        {
+          "Stats": "Increases Operator Energy Regeneration by 45%."
+        },
+        {
+          "Stats": "Increases Operator Energy Regeneration by 67%."
+        },
+        {
+          "Stats": "Increases Operator Energy Regeneration by 90%."
+        }
+      ],
+      "IsWayBound": true,
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Power/Stats/EnergyRestoreFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Void Shadow": {
+      "NodeDistance": 1,
+      "Description": "Void Mode now renders allies within 40m invisible. This ability costs an additional 4 Energy/s per ally cloaked.",
+      "Link": "Focus 2.0/Unairu#Void Shadow",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusVoidShadow.png",
+      "Name": "Void Shadow",
+      "Polarity": "AP_WARD",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Void Mode now renders allies within 10m invisible. This ability costs an additional 1 Energy/s per ally cloaked."
+        },
+        {
+          "Stats": "Void Mode now renders allies within 20m invisible. This ability costs an additional 2 Energy/s per ally cloaked."
+        },
+        {
+          "Stats": "Void Mode now renders allies within 30m invisible. This ability costs an additional 3 Energy/s per ally cloaked."
+        },
+        {
+          "Stats": "Void Mode now renders allies within 40m invisible. This ability costs an additional 4 Energy/s per ally cloaked."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Active/CloakAllyCloakFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Last Gasp": {
+      "NodeDistance": 1,
+      "Description": "Revive your Warframe by transferring to Operator and killing enemies before the Revive Meter drains in 15s. Each kill fills the Revive Meter by 30%.",
+      "Link": "Focus/Unairu#Last Gasp",
+      "Rarity": "UNCOMMON",
+      "BaseDrain": 6,
+      "ExcludeFromCodex": true,
+      "Polarity": "AP_WARD",
+      "MaxRank": 3,
+      "Image": "FocusLastGasp.png",
+      "Name": "Last Gasp",
+      "LevelStats": [
+        {
+          "Stats": "Revive your Warframe by transferring to Operator and killing enemies before the Revive Meter drains in 15s. Each kill fills the Revive Meter by 21%."
+        },
+        {
+          "Stats": "Revive your Warframe by transferring to Operator and killing enemies before the Revive Meter drains in 15s. Each kill fills the Revive Meter by 24%."
+        },
+        {
+          "Stats": "Revive your Warframe by transferring to Operator and killing enemies before the Revive Meter drains in 15s. Each kill fills the Revive Meter by 27%."
+        },
+        {
+          "Stats": "Revive your Warframe by transferring to Operator and killing enemies before the Revive Meter drains in 15s. Each kill fills the Revive Meter by 30%."
+        }
+      ],
+      "IsWayBound": true,
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Residual/SecondChanceFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Magnetic Blast": {
+      "NodeDistance": 1,
+      "Description": "Enemies hit by Void Blast are affected by Magnetize for 10s.",
+      "Link": "Focus 2.0/Unairu#Magnetic Blast",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusMagneticBlast.png",
+      "Name": "Magnetic Blast",
+      "Polarity": "AP_WARD",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Enemies hit by Void Blast are affected by Magnetize for 4s."
+        },
+        {
+          "Stats": "Enemies hit by Void Blast are affected by Magnetize for 6s."
+        },
+        {
+          "Stats": "Enemies hit by Void Blast are affected by Magnetize for 8s."
+        },
+        {
+          "Stats": "Enemies hit by Void Blast are affected by Magnetize for 10s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Active/BlastBulletAttractorFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Void Levitation": {
+      "NodeDistance": 1,
+      "Description": "First Ability creates a 6m wide shockwave lasting 4s, that inflicts Lift Status on all enemies it touches.",
+      "Link": "Focus/Naramon#Void Levitation",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusVoidLevitation.png",
+      "Name": "Void Levitation",
+      "Polarity": "AP_TACTIC",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "First Ability creates a 3m wide shockwave lasting 1s, that inflicts Lift Status on all enemies it touches."
+        },
+        {
+          "Stats": "First Ability creates a 4m wide shockwave lasting 2s, that inflicts Lift Status on all enemies it touches."
+        },
+        {
+          "Stats": "First Ability creates a 5m wide shockwave lasting 3s, that inflicts Lift Status on all enemies it touches."
+        },
+        {
+          "Stats": "First Ability creates a 6m wide shockwave lasting 4s, that inflicts Lift Status on all enemies it touches."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/LiftHitWaveUpgrade",
+      "CodexSecret": false
+    },
+    "Mending Unity": {
+      "NodeDistance": 0,
+      "Description": "Increases Affinity Radius by 25m.",
+      "Link": "Focus/Vazarin#Mending Unity",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "COMMON",
+      "Polarity": "AP_DEFENSE",
+      "Image": "FocusMendingUnity.png",
+      "Name": "Mending Unity",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Increases Affinity Radius by 10m."
+        },
+        {
+          "Stats": "Increases Affinity Radius by 15m."
+        },
+        {
+          "Stats": "Increases Affinity Radius by 20m."
+        },
+        {
+          "Stats": "Increases Affinity Radius by 25m."
+        }
+      ],
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Defense/Residual/RadialXpFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Temporal Shot": {
+      "NodeDistance": 2,
+      "Description": "Precision head shot damage increased by 100% on enemies afflicted with Temporal Drag.",
+      "Link": "Focus/Zenurik#Temporal Shot",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusTemporalShot.png",
+      "Name": "Temporal Shot",
+      "Polarity": "AP_POWER",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Precision head shot damage increased by 40% on enemies afflicted with Temporal Drag."
+        },
+        {
+          "Stats": "Precision head shot damage increased by 60% on enemies afflicted with Temporal Drag."
+        },
+        {
+          "Stats": "Precision head shot damage increased by 80% on enemies afflicted with Temporal Drag."
+        },
+        {
+          "Stats": "Precision head shot damage increased by 100% on enemies afflicted with Temporal Drag."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Power/Residual/SlowHeadshotDamageFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Temporal Drag": {
+      "NodeDistance": 1,
+      "Description": "Second Ability emits a radial burst slowing any enemy it touches by 80% for 10s.",
+      "Link": "Focus/Zenurik#Temporal Drag",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusTemporalDrag.png",
+      "Name": "Temporal Drag",
+      "Polarity": "AP_POWER",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Second Ability emits a radial burst slowing any enemy it touches by 50% for 4s."
+        },
+        {
+          "Stats": "Second Ability emits a radial burst slowing any enemy it touches by 60% for 6s."
+        },
+        {
+          "Stats": "Second Ability emits a radial burst slowing any enemy it touches by 70% for 8s."
+        },
+        {
+          "Stats": "Second Ability emits a radial burst slowing any enemy it touches by 80% for 10s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Power/Active/BlastSlowFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Static Purge": {
+      "NodeDistance": 2,
+      "Description": "100% chance to clear Transference Static on kill while Reinforced Return is active.",
+      "Link": "Focus/Unairu#Static Purge",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusStaticPurge.png",
+      "Name": "Static Purge",
+      "Polarity": "AP_WARD",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "25% chance to clear Transference Static on kill while Reinforced Return is active."
+        },
+        {
+          "Stats": "50% chance to clear Transference Static on kill while Reinforced Return is active."
+        },
+        {
+          "Stats": "75% chance to clear Transference Static on kill while Reinforced Return is active."
+        },
+        {
+          "Stats": "100% chance to clear Transference Static on kill while Reinforced Return is active."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Active/ClearStaticOnKillFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Affinity Spike": {
+      "NodeDistance": 1,
+      "Description": "Kills from Melee Attacks grant 45% more Melee Affinity.",
+      "Link": "Focus/Naramon#Affinity Spike",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Polarity": "AP_TACTIC",
+      "Image": "FocusAffinitySpike.png",
+      "Name": "Affinity Spike",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Kills from Melee Attacks grant 15% more Melee Affinity."
+        },
+        {
+          "Stats": "Kills from Melee Attacks grant 25% more Melee Affinity."
+        },
+        {
+          "Stats": "Kills from Melee Attacks grant 35% more Melee Affinity."
+        },
+        {
+          "Stats": "Kills from Melee Attacks grant 45% more Melee Affinity."
+        }
+      ],
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/Residual/MeleeXpFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Lorak Tauron Strike": {
+      "NodeDistance": 2,
+      "Description": "Summon forth Lorak from the Void and conjure its ruinous spells, calling forth a beam of energy from within. Enemies pierced by the beam have a 100% chance to drop Energy Orbs if killed within 10s.",
+      "Link": "Focus/Zenurik#Lorak Tauron Strike",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusLorakTauronStrike.png",
+      "Name": "Lorak Tauron Strike",
+      "Polarity": "AP_POWER",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Summon forth Lorak from the Void and conjure its ruinous spells, calling forth a beam of energy from within. Enemies pierced by the beam have a |PERCENT|% chance to drop Energy Orbs if killed within 10s."
+        },
+        {
+          "Stats": "Summon forth Lorak from the Void and conjure its ruinous spells, calling forth a beam of energy from within. Enemies pierced by the beam have a |PERCENT|% chance to drop Energy Orbs if killed within 10s."
+        },
+        {
+          "Stats": "Summon forth Lorak from the Void and conjure its ruinous spells, calling forth a beam of energy from within. Enemies pierced by the beam have a |PERCENT|% chance to drop Energy Orbs if killed within 10s."
+        },
+        {
+          "Stats": "Summon forth Lorak from the Void and conjure its ruinous spells, calling forth a beam of energy from within. Enemies pierced by the beam have a 100% chance to drop Energy Orbs if killed within 10s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Power/Active/PowerUltimateUpgrade",
+      "CodexSecret": false
+    },
+    "Nidri Tauron Strike": {
+      "NodeDistance": 2,
+      "Description": "Summon forth Nidri from the Void and plant the noble staff into the ground, creating a titanic splash of water that becomes a lingering vortex. 50% of damage dealt to enemies caught in the vortex is also inflicted upon all other enemies within it.",
+      "Link": "Focus/Vazarin#Nidri Tauron Strike",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusNidriTauronStrike.png",
+      "Name": "Nidri Tauron Strike",
+      "Polarity": "AP_DEFENCE",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Summon forth Nidri from the Void and plant the noble staff into the ground, creating a titanic splash of water that becomes a lingering vortex. |PERCENT|% of damage dealt to enemies caught in the vortex is also inflicted upon all other enemies within it."
+        },
+        {
+          "Stats": "Summon forth Nidri from the Void and plant the noble staff into the ground, creating a titanic splash of water that becomes a lingering vortex. |PERCENT|% of damage dealt to enemies caught in the vortex is also inflicted upon all other enemies within it."
+        },
+        {
+          "Stats": "Summon forth Nidri from the Void and plant the noble staff into the ground, creating a titanic splash of water that becomes a lingering vortex. |PERCENT|% of damage dealt to enemies caught in the vortex is also inflicted upon all other enemies within it."
+        },
+        {
+          "Stats": "Summon forth Nidri from the Void and plant the noble staff into the ground, creating a titanic splash of water that becomes a lingering vortex. 50% of damage dealt to enemies caught in the vortex is also inflicted upon all other enemies within it."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Defence/Active/DefenseUltimateUpgrade",
+      "CodexSecret": false
+    },
+    "Boundless Energy": {
+      "NodeDistance": 3,
+      "Description": "Ability strength, duration, and cast speed granted by spectral pages increased by 40%.",
+      "Link": "Focus/Zenurik#Boundless Energy",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusBoundlessEnergy.png",
+      "Name": "Boundless Energy",
+      "Polarity": "AP_POWER",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Ability strength, duration, and cast speed granted by spectral pages increased by 25%."
+        },
+        {
+          "Stats": "Ability strength, duration, and cast speed granted by spectral pages increased by 30%."
+        },
+        {
+          "Stats": "Ability strength, duration, and cast speed granted by spectral pages increased by 35%."
+        },
+        {
+          "Stats": "Ability strength, duration, and cast speed granted by spectral pages increased by 40%."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateBuffUpgrade",
+      "CodexSecret": false
+    },
+    "Void Hunter": {
+      "NodeDistance": 2,
+      "Description": "Void Mode reveals enemies within 25m through walls. This range gradually decreases over 5s when the Operator leaves Void Mode. This ability costs an additional 1 Energy/s.",
+      "Link": "Focus 2.0/Naramon#Void Hunter",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusVoidHunter.png",
+      "Name": "Void Hunter",
+      "Polarity": "AP_TACTIC",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Void Mode reveals enemies within 10m through walls. This range gradually decreases over 2s when the Operator leaves Void Mode. This ability costs an additional 2 Energy/s."
+        },
+        {
+          "Stats": "Void Mode reveals enemies within 12m through walls. This range gradually decreases over 3s when the Operator leaves Void Mode. This ability costs an additional 2 Energy/s."
+        },
+        {
+          "Stats": "Void Mode reveals enemies within 18m through walls. This range gradually decreases over 4s when the Operator leaves Void Mode. This ability costs an additional 1 Energy/s."
+        },
+        {
+          "Stats": "Void Mode reveals enemies within 25m through walls. This range gradually decreases over 5s when the Operator leaves Void Mode. This ability costs an additional 1 Energy/s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/CloakRevealFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Brilliant Insight": {
+      "NodeDistance": 3,
+      "Description": "Spectral pages also fire off beams that blind enemies within 16m.",
+      "Link": "Focus/Zenurik#Brilliant Insight",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusBrilliantInsight.png",
+      "Name": "Brilliant Insight",
+      "Polarity": "AP_POWER",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Spectral pages also fire off beams that blind enemies within 4m."
+        },
+        {
+          "Stats": "Spectral pages also fire off beams that blind enemies within 8m."
+        },
+        {
+          "Stats": "Spectral pages also fire off beams that blind enemies within 12m."
+        },
+        {
+          "Stats": "Spectral pages also fire off beams that blind enemies within 16m."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Power/Ultimate/PowerUltimateBlindUpgrade",
+      "CodexSecret": false
+    },
+    "Contamination Wave": {
+      "NodeDistance": 1,
+      "Description": "Second Ability emits a Void wave lasting 2s that drenches enemies with Void Contamination making them 50% more vulnerable to Operator Damage for 20s.",
+      "Link": "Focus/Madurai#Contamination Wave",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusContaminationWave.png",
+      "Name": "Contamination Wave",
+      "Polarity": "AP_ATTACK",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Second Ability emits a Void wave lasting 0.5s that drenches enemies with Void Contamination making them 20% more vulnerable to Operator Damage for 5s."
+        },
+        {
+          "Stats": "Second Ability emits a Void wave lasting 1s that drenches enemies with Void Contamination making them 30% more vulnerable to Operator Damage for 10s."
+        },
+        {
+          "Stats": "Second Ability emits a Void wave lasting 1.5s that drenches enemies with Void Contamination making them 40% more vulnerable to Operator Damage for 15s."
+        },
+        {
+          "Stats": "Second Ability emits a Void wave lasting 2s that drenches enemies with Void Contamination making them 50% more vulnerable to Operator Damage for 20s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Attack/Active/GhostWaveUpgrade",
+      "CodexSecret": false
+    },
+    "Void Radiance": {
+      "NodeDistance": 1,
+      "Description": "Consumes 50 Energy on leaving Void Mode to blind enemies within 10m for 5s.",
+      "Link": "Focus 2.0/Madurai#Void Radiance",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusVoidRadiance.png",
+      "Name": "Void Radiance",
+      "Polarity": "AP_ATTACK",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Consumes 25 Energy on leaving Void Mode to blind enemies within 4m for 2s."
+        },
+        {
+          "Stats": "Consumes 30 Energy on leaving Void Mode to blind enemies within 6m for 3s."
+        },
+        {
+          "Stats": "Consumes 45 Energy on leaving Void Mode to blind enemies within 8m for 4s."
+        },
+        {
+          "Stats": "Consumes 50 Energy on leaving Void Mode to blind enemies within 10m for 5s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Attack/Active/CloakBlindFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Crippling Dash": {
+      "NodeDistance": 2,
+      "Description": "Using Void Sling through an enemy will reduce their Damage by 50%.",
+      "Link": "Focus 2.0/Unairu#Crippling Dash",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusCripplingDash.png",
+      "Name": "Crippling Dash",
+      "Polarity": "AP_WARD",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Using Void Sling through an enemy will reduce their Damage by 20%."
+        },
+        {
+          "Stats": "Using Void Sling through an enemy will reduce their Damage by 30%."
+        },
+        {
+          "Stats": "Using Void Sling through an enemy will reduce their Damage by 40%."
+        },
+        {
+          "Stats": "Using Void Sling through an enemy will reduce their Damage by 50%."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Ward/Active/DashReduceDamageFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Void Static": {
+      "NodeDistance": 1,
+      "Description": "Void Mode emits a pulse that deals 500 Damage/s over 15m, and costs an additional 1 Energy/s.",
+      "Link": "Focus 2.0/Zenurik#Void Static",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "UNCOMMON",
+      "Image": "FocusVoidStatic.png",
+      "Name": "Void Static",
+      "Polarity": "AP_POWER",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Void Mode emits a pulse that deals 200 Damage/s over 8m, and costs an additional 2 Energy/s."
+        },
+        {
+          "Stats": "Void Mode emits a pulse that deals 300 Damage/s over 10m, and costs an additional 2 Energy/s."
+        },
+        {
+          "Stats": "Void Mode emits a pulse that deals 400 Damage/s over 12m, and costs an additional 2 Energy/s."
+        },
+        {
+          "Stats": "Void Mode emits a pulse that deals 500 Damage/s over 15m, and costs an additional 1 Energy/s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Power/Active/CloakStaticFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Enduring Tides": {
+      "NodeDistance": 1,
+      "Description": "Increases Operator Health and Armor by 200%.",
+      "Link": "Focus/Vazarin#Enduring Tides",
+      "Rarity": "UNCOMMON",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Polarity": "AP_DEFENSE",
+      "MaxRank": 3,
+      "Image": "FocusEnduringTides.png",
+      "Name": "Enduring Tides",
+      "LevelStats": [
+        {
+          "Stats": "Increases Operator Health and Armor by 50%."
+        },
+        {
+          "Stats": "Increases Operator Health and Armor by 100%."
+        },
+        {
+          "Stats": "Increases Operator Health and Armor by 150%."
+        },
+        {
+          "Stats": "Increases Operator Health and Armor by 200%."
+        }
+      ],
+      "IsWayBound": true,
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Defense/Stats/HealthMaxFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Guardian Break": {
+      "NodeDistance": 2,
+      "Description": "When the Guardian Shell breaks, Warframe Shield Regeneration rate is increased by 150% and Regeneration Delay is reduced by 90%, for 8s.",
+      "Link": "Focus/Vazarin#Guardian Break",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusGuardianBreak.png",
+      "Name": "Guardian Break",
+      "Polarity": "AP_DEFENSE",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "When the Guardian Shell breaks, Warframe Shield Regeneration rate is increased by 90% and Regeneration Delay is reduced by 30%, for 5s."
+        },
+        {
+          "Stats": "When the Guardian Shell breaks, Warframe Shield Regeneration rate is increased by 110% and Regeneration Delay is reduced by 50%, for 6s."
+        },
+        {
+          "Stats": "When the Guardian Shell breaks, Warframe Shield Regeneration rate is increased by 130% and Regeneration Delay is reduced by 70%, for 7s."
+        },
+        {
+          "Stats": "When the Guardian Shell breaks, Warframe Shield Regeneration rate is increased by 150% and Regeneration Delay is reduced by 90%, for 8s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Defense/Active/DefenseShieldBreakFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Energy Pulse": {
+      "NodeDistance": 0,
+      "Description": "Energy pickups grant 50% additional Energy over 5s.",
+      "Link": "Focus/Zenurik#Energy Pulse",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "COMMON",
+      "Polarity": "AP_POWER",
+      "Image": "FocusEnergyPulse.png",
+      "Name": "Energy Pulse",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Energy pickups grant 20% additional Energy over 11s."
+        },
+        {
+          "Stats": "Energy pickups grant 30% additional Energy over 9s."
+        },
+        {
+          "Stats": "Energy pickups grant 40% additional Energy over 7s."
+        },
+        {
+          "Stats": "Energy pickups grant 50% additional Energy over 5s."
+        }
+      ],
+      "IsPassive": true,
+      "InternalName": "/Lotus/Upgrades/Focus/Power/Residual/EnergyOverTimeFocusUpgrade",
+      "CodexSecret": false
+    },
+    "Far Sling": {
+      "NodeDistance": 2,
+      "Description": "Increases maximum Void Sling distance by 30%.",
+      "Link": "Focus/Naramon#Far Sling",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusFarSling.png",
+      "Name": "Far Sling",
+      "Polarity": "AP_TACTIC",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Increases maximum Void Sling distance by 7%."
+        },
+        {
+          "Stats": "Increases maximum Void Sling distance by 15%."
+        },
+        {
+          "Stats": "Increases maximum Void Sling distance by 22%."
+        },
+        {
+          "Stats": "Increases maximum Void Sling distance by 30%."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/ProjectionStretchUpgrade",
+      "CodexSecret": false
+    },
+    "Killer's Rush": {
+      "NodeDistance": 2,
+      "Description": "Initiating a finisher as Operator switches to Warframe, increasing melee Critical Chance by 50% for 40s.",
+      "Link": "Focus/Naramon#Killer's Rush",
+      "BaseDrain": 4,
+      "ExcludeFromCodex": true,
+      "Rarity": "RARE",
+      "Image": "FocusKiller'sRush.png",
+      "Name": "Killer's Rush",
+      "Polarity": "AP_TACTIC",
+      "MaxRank": 3,
+      "LevelStats": [
+        {
+          "Stats": "Initiating a finisher as Operator switches to Warframe, increasing melee Critical Chance by 20% for 10s."
+        },
+        {
+          "Stats": "Initiating a finisher as Operator switches to Warframe, increasing melee Critical Chance by 30% for 20s."
+        },
+        {
+          "Stats": "Initiating a finisher as Operator switches to Warframe, increasing melee Critical Chance by 40% for 30s."
+        },
+        {
+          "Stats": "Initiating a finisher as Operator switches to Warframe, increasing melee Critical Chance by 50% for 40s."
+        }
+      ],
+      "InternalName": "/Lotus/Upgrades/Focus/Tactic/Active/FinisherTransferenceUpgrade",
+      "CodexSecret": false
+    }
+  }
+}

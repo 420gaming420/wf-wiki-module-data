@@ -1,0 +1,160 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Cosmetics/data/sumdali",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-29T15:33:25.594Z"
+  },
+  "_comments": "",
+  "Janus Key Sumdali": {
+    "Type": "Sumdali",
+    "Image": "JanusKeySumdali.png",
+    "Description": "Now the Landing Craft is changed, reborn through the energy of the Janus Key.",
+    "Link": "Janus Key Sumdali",
+    "Name": "Janus Key Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/VoidKeyHoodOrnament",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "H-09 Apex Turret Sumdali": {
+    "Type": "Sumdali",
+    "Image": "H-09ApexTurretSumdali.png",
+    "Description": "The smoldering turret of an H-09 Apex Scaldra tank shall adorn your Landing Craft.",
+    "Link": "H-09 Apex Turret Sumdali",
+    "Name": "H-09 Apex Turret Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/1999TankHoodOrnament",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Naramon Sumdali": {
+    "Type": "Sumdali",
+    "Image": "NaramonSumdali.png",
+    "Description": "Adorn your Landing Craft with the Naramon tree.",
+    "Link": "Naramon Sumdali",
+    "Name": "Naramon Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/NaramonHoodOrnament",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Tusker Sumdali": {
+    "Type": "Sumdali",
+    "Image": "TuskerSumdali.png",
+    "Description": "Display this stylish Lander hull ornament proudly.",
+    "Link": "Tusker Sumdali",
+    "Name": "Tusker Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/Mustache05HoodOrnament",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Zenurik Sumdali": {
+    "Type": "Sumdali",
+    "Image": "ZenurikSumdali.png",
+    "Description": "Adorn your Landing Craft with the Zenurik crystal.",
+    "Link": "Zenurik Sumdali",
+    "Name": "Zenurik Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/ZenurikHoodOrnament",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Unairu Sumdali": {
+    "Type": "Sumdali",
+    "Image": "UnairuSumdali.png",
+    "Description": "Adorn your Landing Craft with the Unairu mountains.",
+    "Link": "Unairu Sumdali",
+    "Name": "Unairu Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/UnairuHoodOrnament",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vazarin Sumdali": {
+    "Type": "Sumdali",
+    "Image": "VazarinSumdali.png",
+    "Description": "Adorn your Landing Craft with the Vazarin wave.",
+    "Link": "Vazarin Sumdali",
+    "Name": "Vazarin Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/VazarinHoodOrnament",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "True Master Sumdali": {
+    "Type": "Sumdali",
+    "Image": "TrueMasterSumdali.png",
+    "Description": "This Sumdali hull ornament is awarded exclusively to Tenno who have earned the rank of True Master.",
+    "Link": "True Master Sumdali",
+    "Name": "True Master Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/MasteryHoodOrnament",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Stalker's Mark Sumdali": {
+    "Type": "Sumdali",
+    "Image": "Stalker'sMarkSumdali.png",
+    "Description": "Proclaim to the cosmos that you bear the mark of death.",
+    "Link": "Stalker's Mark Sumdali",
+    "Name": "Stalker's Mark Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/StalkerHoodOrnament",
+    "ExcludeFromCodex": true,
+    "CodexSecret": true
+  },
+  "Charger Sumdali": {
+    "Type": "Sumdali",
+    "Image": "ChargerSumdali.png",
+    "Description": "With the head of an Infested Charger mounted at the front of your craft, you’ll make an instant impression on your enemies.",
+    "Link": "Charger Sumdali",
+    "Name": "Charger Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/InfChargerHoodOrnament",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Mentor Ayatan Sumdali": {
+    "Type": "Sumdali",
+    "Image": "MentorAyatanSumdali.png",
+    "Description": "Bestowed in commemoration of exceptional battlefield achievement. Purged of any malicious code.",
+    "Link": "Mentor Ayatan Sumdali",
+    "Name": "Mentor Ayatan Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/PeritaHoodOrnament",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Madurai Sumdali": {
+    "Type": "Sumdali",
+    "Image": "MaduraiSumdali.png",
+    "Description": "Adorn your Landing Craft with the Madurai cloud.",
+    "Link": "Madurai Sumdali",
+    "Name": "Madurai Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/MaduraiHoodOrnament",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Archimedean Eye Sumdali": {
+    "Type": "Sumdali",
+    "Image": "ArchimedeanEyeSumdali.png",
+    "Description": "An ornament awarded only to the most dedicated of researchers. Said by some to be representative of the eye of an ancient deity, sacrificed in return for wisdom.",
+    "Link": "Archimedean Eye Sumdali",
+    "Name": "Archimedean Eye Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/ConquestHoodOrnament",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Manus Sumdali": {
+    "Type": "Sumdali",
+    "Image": "ManusSumdali.png",
+    "Description": "Ominous hands grace your Landing Craft.",
+    "Link": "Manus Sumdali",
+    "Name": "Manus Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/MITWHoodOrnamentA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Chivaler Sumdali": {
+    "Type": "Sumdali",
+    "Image": "ChivalerSumdali.png",
+    "Description": "Lead the charge with this chivalrous sumdali.",
+    "Link": "Chivaler Sumdali",
+    "Name": "Chivaler Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/OrfeoHoodOrnament",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  }
+}
