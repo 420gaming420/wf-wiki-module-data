@@ -8,6 +8,13 @@ jobs:
     runs-on: ubuntu-24.04
 
     steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PUSH_KEY }}
+          ref: dev
+          repository: 420gaming420/wf-wiki-module-data
+
       - name: Clone scripts repo
         run: git clone --depth 1 https://github.com/420gaming420/wf-wiki-module-scripts /tmp/scripts
 
