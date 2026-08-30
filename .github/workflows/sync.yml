@@ -87,7 +87,7 @@ jobs:
           touch /tmp/scripts/data/json/Module-Ability-Conclave-data.meta.json
 
       - name: Check ignore_modules.json for changes
-        id: track_ignore
+        id: check_ignore
         run: |
           cd /tmp/scripts
           AFTER=$(md5sum ignore_modules.json | awk '{print $1}')
