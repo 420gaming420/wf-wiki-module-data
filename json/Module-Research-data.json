@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:42:08.688Z"
+    "converted_at": "2026-08-30T18:59:29.409Z"
   },
   "_comments": "\t-- Bio Lab --\n\t-- Chem Lab --\n\t-- Energy Lab --\n\t-- Tenno Lab --\n\t\t-- Orokin Lab --\n\t\t-- Bash Lab --\n\t\t-- Dry Dock --\n\t\t-- Dagath's Hollow --\n\t-- ['Dagath'] = {Image = 'Dagath.png',\n\t-- \tLab = 'Hollow'},\n\t-- ['Dagath Chassis'] = {Image = 'Chassis.png',\n\t-- ['Dagath Neuroptics'] = {Image = 'Helmet.png',\n\t-- ['Dagath Systems'] = {Image = 'Systems.png',\n\t-- ['Dorrclave'] = {Image = 'Dorrclave.png',\n\t-- ['Dorrclave Blade'] = {Image = 'Blade.png',\n\t-- ['Dorrclave Hilt'] = {Image = 'Hilt.png',\n\t-- ['Dorrclave Hook'] = {Image = 'Blade.png',\n\t-- ['Dorrclave String'] = {Image = 'Stock.png',",
   "Labs": {

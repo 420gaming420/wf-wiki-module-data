@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:12:00.785Z"
+    "converted_at": "2026-08-30T18:53:14.122Z"
   },
   "_comments": "-- CTRL + F \"Warframe Name\" to immediately go to the location of that \n-- Warframe/Necramech/Helminth's abilities\n-- Note that [\"Warframe\"] subtable indexes ability by the Warframe they belong to\n-- You can define alternate cost ( ex shields , health , mutation etc using CostType = , its defined in Module:Ability/infobox)\n\t\t\t--Augments = { \"\" },\n\t\t\t-- Weapon = {\"Dex Pixia\", \"Diwata\"}\n\t\t\t-- Weapon = \"Exalted Blade\"\n    -- v.Name, v.Link = v.Name or k, v.Link or k",
   "Archived": {

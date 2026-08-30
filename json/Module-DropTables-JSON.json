@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:35:09.531Z"
+    "converted_at": "2026-08-30T18:56:17.713Z"
   },
   "_comments": "    -- 'Table Name'\n    --'Missions',--massive\n--[[\nhttps://github.com/WFCD/warframe-drop-data/tree/gh-pages/data\nadditionalItemByAvatar.json\nall.json\nall.slim.json\nblueprintLocations.json\ncetusBountyRewards.json --\ndeimosRewards.json --\nenemyBlueprintTables.json\nenemyModTables.json\ninfo.json\nkeyRewards.json\nmiscItems.json\nmissionRewards.json --\nmodLocations.json\nrelics.json --\nresourceByAvatar.json\nsigilByAvatar.json\nsolarisBountyRewards.json --\nsortieRewards.json --\ntransientRewards.json\n]]\n    --p[v]['#']=#p[v]\n    --p[i]=nil\n--traverse lists here, not in other modules. This will only be run once.",
   "Relics": {

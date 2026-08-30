@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:30:29.053Z"
+    "converted_at": "2026-08-30T18:53:35.479Z"
   },
   "_comments": "-- Notes:\n--\t* Console offerings are typically 3 visits (6 weeks) behind PC offerings; this note will be useful in validating this data\n--\t* On TennoCon, all previous offerings are made available; these dates are not noted and these visits are irregular in length (over 48 hours)\n--\t\t* See https://wiki.warframe.com/wiki/TennoCon for historical documentation\n--\t* Baro's first appearance was on 2014-12-12; from here one can calculate the Fridays in which Baro visits occur\n--\t* Baro skips 2019-07-13 appearance due to TennoCon 2019; this visit was moved to 2019-07-19 as per https://forums.warframe.com/topic/1109278-all-platforms-baro-kiteer-regular-schedule-resumes-july-19/",
   "ExtraItems": {

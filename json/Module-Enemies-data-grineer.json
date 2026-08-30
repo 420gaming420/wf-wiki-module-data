@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:36:08.505Z"
+    "converted_at": "2026-08-30T18:57:01.793Z"
   },
   "_comments": "\t\t\t--Multis = { \"?\" },\n\t\t\t--Description = \"?\",\n\t\t\t--Introduced = \"?\",\n\t\t\t--Introduced = \"\",\n\t\t-- No damage data\n\t\t--Missing Railjack Ship Data?\n\t\t\t--Scans = ?,\n\t\t\t--Scans = 0,\n\t\t\t--Health = 1,\n\t\t\t--Armor = 1,\n\t\t\t--Affinity = -1,\n\t\t\t--BaseLevel = 1,\n\t\t-- Missing damage data\n\t\t-- Missing Data\n\t\t\t-- EximusDefault = false,\n\t\t\t-- EmpoweredDefault = false,\n\t\t-- Lacking damage data\n\t\t\t--Health = 250,\n\t\t\t\t-- {\n\t\t\t\t-- \tAttackName = \"Grenade Damage\",\n\t\t\t\t-- \tDamageDistribution = {\n\t\t\t\t-- \t\tBlast = 1\n\t\t\t\t-- \t},\n\t\t\t\t-- \tTotalDamage = 80\n\t\t\t\t-- },\n\t\t\t-- SteelPathDefault = false,\n\t\t\t-- EmpoweredDefault = true,\n\t\t-- Missing data",
   "Propaganda Drone": {

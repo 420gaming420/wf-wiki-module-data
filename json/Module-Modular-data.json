@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:41:10.605Z"
+    "converted_at": "2026-08-30T18:59:07.844Z"
   },
   "_comments": "-- TODO: Find out base stats of each kitgun/zaw type and change all chamber and grips to be stat multipliers instead of hard coding resultant stats\n-- * Update, according to Hotfix 28.0.5 patch notes, grips damage reduction is expressed as a vector rather than a scalar multiplier so\n--\tit may turn out that we have to \"hard code\" values\n-- TODO: Add a function to autogenerate table entries named after Kitgun/Zaw combinations (e.g. [\"Catchmoon-Gibber-Arcroid\"])\n--\tthat use the same schema as seen in M:Weapons/data. Idea is to somehow create valid M:Weapon/data entries for comparison tables.",
   "Zaw": {

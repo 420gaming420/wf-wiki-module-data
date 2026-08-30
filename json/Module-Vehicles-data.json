@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:44:29.235Z"
+    "converted_at": "2026-08-30T19:00:20.327Z"
   },
   "_comments": "\t\t\t\t--Armor = {},\n\t\t\t\t--Health = {},\n\t\t\t\t--Planets = {},\n\t\t\t\t--Shield = {},\n\t\t\t\t--Abilities = { \"1\", \"2\", \"3\", \"4\" },\n\t\t\t\t--Armor = 100,\n\t\t\t\t--Energy = 100,\n\t\t\t\t--Health = 100,\n\t\t\t\t--InternalName = \"/Lotus/Powersuits/xxx (I have no idea)\",\n\t\t\t\t--MissionsExclusive = {},\n\t\t\t\t--Shield = 100,",
   "Vehicles": {

@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:36:49.442Z"
+    "converted_at": "2026-08-30T18:57:31.403Z"
   },
   "_comments": "\t-- Linking game model bones to appropriate locations \n\t-- Used in Modular system\n\t-- For modular Kitguns\n\t-- For mod base drain and max rank\n\t-- Stance combos\n\t-- Likely for weapon rigging\n\t-- See https://wiki.warframe.com/w/Public_Export\n\t-- Extrapolated from https://wiki.warframe.com/w/Public_Export#ExportRegions_Nodes_Schema\n\t-- and https://wiki.warframe.com/w/World_State#Mission_Type\n\t\t-- Unknown\n\t\t-- Pursuit\n\t\t-- Don't know where these go\n\t-- Calculating upgrade bonuses\n\t-- For modular weapon system\n\t-- Avatar animation state\n\t-- Player trading flags",
   "InventorySlot": {

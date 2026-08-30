@@ -1,12 +1,12 @@
 {
+  "_comments": "-- FOR BOUNTIES\n-- entry has first to be formatted in notepad++ with the following\n-- ctr H : ^ to \" (reg exp enabled : begining of each line start with \")\n-- ctr H : \"     to \" (removes the \\tab from begining of lines)\n-- ctr H : $ to \", (end of line into \",)\n-- other stuffs to change before final copy !\n-- ctr H : Bane Of to Bane of (remove capital on Of)\n-- ctr H : ,000 to 000 and ,500 to 500 (numerical format changed)\n-- ctr H : 2X 5000 to 10000 (double credit caches)\n-- Remove th \"Orb Vallis Bounty Rewards\", line between cetus and OV bounties\n-- Profit Taker cannot be processed for now...\n-- expand this list when needed...\n-- copy and paste into the BFS table below...\n-- Call the function formatBFS on a regular page to see the result... \n-- The result should be on one of my test pages... \n-- User:Croquemorttime/BountyFormating",
   "_attribution": {
     "source_url": "https://wiki.warframe.com/w/Module:FormatingTool/data",
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:37:38.933Z"
+    "converted_at": "2026-08-30T18:57:55.675Z"
   },
-  "_comments": "-- FOR BOUNTIES\n-- entry has first to be formatted in notepad++ with the following\n-- ctr H : ^ to \" (reg exp enabled : begining of each line start with \")\n-- ctr H : \"     to \" (removes the \\tab from begining of lines)\n-- ctr H : $ to \", (end of line into \",)\n-- other stuffs to change before final copy !\n-- ctr H : Bane Of to Bane of (remove capital on Of)\n-- ctr H : ,000 to 000 and ,500 to 500 (numerical format changed)\n-- ctr H : 2X 5000 to 10000 (double credit caches)\n-- Remove th \"Orb Vallis Bounty Rewards\", line between cetus and OV bounties\n-- Profit Taker cannot be processed for now...\n-- expand this list when needed...\n-- copy and paste into the BFS table below...\n-- Call the function formatBFS on a regular page to see the result... \n-- The result should be on one of my test pages... \n-- User:Croquemorttime/BountyFormating",
   "data": [
     "Level 5 - 15 Cetus Bounty",
     "Rotation A",

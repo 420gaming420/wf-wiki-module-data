@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:42:30.919Z"
+    "converted_at": "2026-08-30T18:59:40.146Z"
   },
   "_comments": "-- For use in Module:ScientiaStances\n-- Each weapon class shares the following combos:\n--      Heavy: heavy attack\n--      Slide: slide attack\n--      Air: air attack\n--      Wall: wall attack\n--      Ground: ground finisher\n-- Each combo has a type (normal, forward, forward + block, and/or block combo)\n-- and a set number of attacks that share the same input.\n-- Each combo comes with a list of attacks that have their own proc info,\n-- number of hits, attack type (\"Default\", \"360\", or \"Slam\"),\n-- and damage mulitplier.\n-- For hits with multiple procs, concatenate the first three letters of each\n-- proc together (e.g. \"Slash\" and \"Puncture\" will become \"SlaPun\")\n-- The reason for the need for NumberOfHits keys is because the \n-- length operator doesn't account for nil values (which are \n-- possible in this implementation in order to document attacks/hits \n-- that have no multiplier or proc info) or tables without keys (i.e Attacks\n-- table).\n-- styling:",
   "Two-Handed Nikana": {

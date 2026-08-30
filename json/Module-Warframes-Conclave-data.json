@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:45:32.184Z"
+    "converted_at": "2026-08-30T19:00:46.140Z"
   },
   "_comments": "---\tCopying key-value pairs to target table from reference table.\n--\tKeys that are already in target table will not be overrided with data from reference table.\n--\t@function\t\tcopyKeyValues\n--\t@param\t\t\t{table} targetTable Table to be modified\n--\t@param\t\t\t{table} refTable Reference table\n--\t@param\t\t\t{table} keyTable Table of key names to copy within each table entry\n--\t@return\t\t\t{table} Modified target table",
   "Warframes": {

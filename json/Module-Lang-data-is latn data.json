@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:39:21.133Z"
+    "converted_at": "2026-08-30T18:58:38.691Z"
   },
   "_comments": "--[[--------------------------< S I N G L E S _ T >-----------------------------------------------------------\nlist of Latn and Zyyy (common) codepoints that are not included in <ranges_t> taken from Module:Unicode data/scripts\nand a local copy of https://www.unicode.org/Public/16.0.0/ucd/ScriptExtensions.txt\n]]\n--[[--------------------------< R A N G E S _ T >-------------------------------------------------------------\nlist of Latn and Zyyy (common) codepoints taken from Module:Unicode data/scripts and a local copy of\nhttps://www.unicode.org/Public/16.0.0/ucd/ScriptExtensions.txt\n--[[--------------------------< S P E C I A L S _ T >---------------------------------------------------------\nlist of individual language-specific non-Latn and non-Zyyy codepoints; these codepoints commonly used in\ntransliterations.  This list is manually currated so is most likely incomplete.\nkeys to <specials_t> are decimal codepoints; other keys are language tags (always lowercase) of language\ntransliterations that use these non-Latn codepoints.\n--[[--------------------------< E X P O R T S >---------------------------------------------------------------",
   "specials_t": {

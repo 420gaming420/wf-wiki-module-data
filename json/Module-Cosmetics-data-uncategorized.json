@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:33:36.472Z"
+    "converted_at": "2026-08-30T18:55:38.587Z"
   },
   "_comments": "    -- [\"Chroma Dynasty Wings\"] = {\n    --     CodexSecret = false,\n    --     Description = \"Wings to match the Chroma Dynasty skin.\",\n    --     ExcludeFromCodex = true,\n    --     Image = \"ChromaDeluxeWings.png\",\n    --     InternalName = \"/Lotus/Upgrades/Skins/Dragon/ChromaDeluxeWings\",\n    --     Link = \"Chroma Dynasty Wings\",\n    --     Name = \"Chroma Dynasty Wings\",\n    --     Type = \"Auxiliary\"\n    -- },"
 }

@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:43:31.811Z"
+    "converted_at": "2026-08-30T19:00:01.573Z"
   },
   "_comments": "-- Since files on the wiki have different names than the actual files,\n-- this is a list for maintenance and easy updates\n-- https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportTextIcons.json\n-- last updated 42.0.8",
   "LEGION": {

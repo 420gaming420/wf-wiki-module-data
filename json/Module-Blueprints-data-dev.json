@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:31:08.183Z"
+    "converted_at": "2026-08-30T18:53:49.344Z"
   },
   "_comments": "-- ExportRecipes contains an array of tables\n\t-- Renaming keys to PascalCasing to match Lua table convention",
   "/Lotus/Types/Recipes/WarframeRecipes/PacifistSystemsBlueprint": {

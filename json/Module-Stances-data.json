@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:42:44.612Z"
+    "converted_at": "2026-08-30T18:59:45.532Z"
   },
   "_comments": "-- Note that \"Legend\" table is for displaying legend in stance tables and have nothing\n-- to do with in-game stances\n---\tAdds shared combos to each stance table entry.\n--\t@function\t\taddSharedCombos\n--\t@param\t\t\t{table} StanceData\n--\t@return\t\t\t{table} Updated StanceData\n\t\t-- local name = stance[\"StanceName\"]\n\t\t-- Ravenous Wraith does not have Finisher or Wall combos",
   "Heavy Scythe": {

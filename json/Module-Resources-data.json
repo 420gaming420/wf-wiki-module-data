@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:42:14.657Z"
+    "converted_at": "2026-08-30T18:59:32.167Z"
   },
   "_comments": "-- For images that are shared between multiple resources; these would not have\n-- their own article on the wiki and will be used in crafting requirement tables.\n-- Generic blueprints will be ignored for now as their images are not used in crafting \n-- requirement tables.\n\t-- first used by Xoris\n\t-- trick for Miter and Shedu\n\t-- trick for Miter\n\t-- a resource in crafting the weapon Pathocyst\n\t\t--InternalName = \"/Lotus/Types/Restoratives/Consumable/XXX\",\n\t\t--Amount = { 1, 1 },\n\t\t-- Rarity = \"Common\",\n\t\t-- Rarity = \"Uncommon\",\n\t\t--Rarity = \"Rare\"\n\t---1999 start\n\t--- 1999 end\n\t-- Jade Shadows: Constellations --\n\t-- Redirecting o to ö",
   "GenericComponents": {

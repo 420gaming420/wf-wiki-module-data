@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:36:04.119Z"
+    "converted_at": "2026-08-30T18:56:59.074Z"
   },
   "_comments": "\t\t\t--Introduced = \"?\",\n\t\t\t--Multis = { \"?\" },\n\t\t-- Missing damage data.\n\t\t-- missing plinx data\n\t\t\t-- unclear /Lotus/Types/Enemies/Corpus/Venus/Weapons/VipVenusSniperGrenadeLauncher weapon behavior\n\t\t\t--Description = \"?\",\n\t\t-- no weapon data found\n\t\t-- missing weapon data\n\t\t-- test self destruct damage\n\t\t-- missing data\n\t\t\t-- Attacks = {\n\t\t\t-- \t{\n\t\t\t-- \t\tAttackName = \"Grenade Damage\",\n\t\t\t-- \t\tDamageDistribution = {\n\t\t\t-- \t\t\tBlast = 1\n\t\t\t-- \t\t},\n\t\t\t-- \t\tTotalDamage = 80,\n\t\t\t-- \t},\n\t\t\t-- },\n\t\t\t--Scans = ,\n\t\t-- no weapon damage found\n\t\t-- Has an unused \"/Lotus/Weapons/Tenno/Rifle/SuperDroneRifle\" as weapon.\n\t\t-- weapons depend on player character\n\t\t-- no data found\n\t\t-- no weapon data\n\t\t\t\t\t\t-- Impact = 0.000075, -- so small its nonexistent\n\t\t\t\t\t\t-- Puncture = 0.0003, -- so small its nonexistent\n\t\t\t\t\t\t-- Slash = 0.000075, -- so small its nonexistent\n\t\t-- missing damage data",
   "Scrofa Demolition Director": {

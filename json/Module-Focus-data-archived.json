@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:37:29.550Z"
+    "converted_at": "2026-08-30T18:57:52.999Z"
   },
   "_comments": "-- Original table was from https://warframe.fandom.com/wiki/Module:Icon/data\n-- Moved here on 2021-10-20 for archival reasons since icons are relevant to\n-- superceded Focus 1.0 - [[User:Cephalon Scientia]]\n-- Focus 2.0 content moved here since 2022-05-06 after Focus 3.0 rework was\n-- released on Update 31.5 Angels of the Zariman\n\t-- Focus 1.0 content\n\t\t\t-- The ways are sorted from left to right, top to bottom.\n\t\t\t-- Unairu\n\t\t\t-- Zenurik\n\t\t\t-- Naramon\n\t\t\t-- Vazarin\n\t\t\t-- Madurai\n\t\t\t-- TODO\n\t-- Focus 2.0 content\n\t\t--\n\t\t--Madurai\n\t\t--Naramon\n\t\t--Unairu\n\t\t--Vazarin\n\t\t--Zenurik",
   "Focus 2.0": {

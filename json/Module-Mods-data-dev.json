@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:40:51.986Z"
+    "converted_at": "2026-08-30T18:59:02.504Z"
   },
   "_comments": "-- TODO: Add buff icons to certain conditional mods and show them in the mod infobox?\n-- TODO: Migrate/add mod descriptions to these tables so we autogenerate them in the main module.\n-- See https://warframe.fandom.com/wiki/Category:Companion_Mods\n-- https://warframe.fandom.com/wiki/Category:Warframe_Mods\n-- https://warframe.fandom.com/wiki/Category:Primary_Mods\n-- https://warframe.fandom.com/wiki/Category:Pistol_Mods\n-- https://warframe.fandom.com/wiki/Category:Melee_Mods\n-- https://warframe.fandom.com/wiki/Category:Necramech_Mods\n\t-- TODO: I think the last portion of uniqueName is unique enough for indexing\n\t-- (so that no two innate upgrades share the same index key) so it is safe to use it for innate upgrades and to not expose file path to readers\n\t-- Main issue being that means we have to use the shorthand index as reference in M:Weapons/data\n\t-- which I'm not sure if it is a good design decision to do so; using the full uniqueName as index is a much clearer\n\t-- way of referencing these innate upgrade entries as it guarantees uniqueness and leaves no room for different interpretations\n\t-- Edit: Tekko and Tekko Prime share the same last portion of their uniqueName",
   "Mods": {

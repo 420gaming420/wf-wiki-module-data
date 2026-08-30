@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:36:16.530Z"
+    "converted_at": "2026-08-30T18:57:09.860Z"
   },
   "_comments": "\t\t\t--Introduced = \"?\",\n\t\t\t--Scans = ?,\n\t\t\t--Multis = { \"?\" },\n\t\t\t\t\t\t-- Puncture = 0.1,\n\t\t\t\t\t\t-- Slash = 0.8,",
   "Orokin Sentry": {

@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:34:07.272Z"
+    "converted_at": "2026-08-30T18:55:57.586Z"
   },
   "_comments": "\t\t--- Depreciated health/armor types as of U36; keeping to preserve links and template calls on wiki\n\t\t-- Unsure if PT_GLUE is associated with \"Slow\"\n--[==[creation script:\n--health type patch creation:\n\t\t\t--error(v[1])\n--[= =[\n\t\t\t--put patch script here\n\t\t\t\t--\t  total\t  [valname][other one]   +-val\n\t--HSL to RGB converter\n\t--mostly by u:gigamicro\n\t--C and m from https://www.rapidtables.com/convert/color/hsl-to-rgb.html\n\t--where the horizontal axis is H, _ is m, ‾ is C+m, and /\\ are linterps\n\t--r ‾\\__/‾\n\t--g /‾‾\\__\n\t--b __/‾‾\\\n\t--hex\n\t--t.Positives, t.Negatives, t.Bypass = t.Positives[1] and t.Positives, t.Negatives[1] and t.Negatives, t.Bypass[1] and t.Bypass -- empty lists -> nil\n--]==]",
   "Notes": [

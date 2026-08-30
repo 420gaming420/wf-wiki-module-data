@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:36:23.616Z"
+    "converted_at": "2026-08-30T18:57:15.297Z"
   },
   "_comments": "\t\t\t--SpawnLevel = ?,\n\t\t\t--Multis = { \"Head: ?x\" },\n\t\t\t-- TODO\n\t\t\t-- EximusDefault = false,",
   "Scaldra Dedicant": {

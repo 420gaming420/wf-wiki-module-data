@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:40:31.919Z"
+    "converted_at": "2026-08-30T18:58:54.240Z"
   },
   "_comments": "-- Empyrean\n\t\t--{ Node = \"Free Flight\", Planet = \"Earth Proxima\", Type = \"Landscape|Free Roam\", Tileset = \"Free Space\", MasteryExp = 0, InternalName = \"?\" },\n--NOTE: by.Node is double-layered (by.Node.Rosalind[1])\n--use by.Name if necessary\n--list vars:\n-- for k,v in ipairs(p.vars) do mw.log(k) end\n-- error(mw.dumpObject(MissionData))",
   "FactionImages": {

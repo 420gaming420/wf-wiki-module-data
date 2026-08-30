@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:36:36.923Z"
+    "converted_at": "2026-08-30T18:57:28.719Z"
   },
   "_comments": "\t\t\t--Multis = { \"?\" },\n\t\t\t--Introduced = \"?\",\n            --Abilities = {},\n\t\t\t--Weapons = {},\n            --Overguard = 0,\n\t\t\t--Affinity = 0,\n\t\t\t--Multis = {},\n\t\t\t--Scans = ?,\n\t\t\t--Multis = { \"\" },\n\t\t\t--Description = \"?\",\n\t\t\t--Introduced = \"\",\n\t\t\t--Affinity = ?,\n\t\t\t--Armor = 0,\n\t\t\t--BaseLevel = ?,\n\t\t\t--Multis\t= {},\n\t\t\t--ProcResists = {},\n\t\t\t--Shield = 0,\n\t\t\t--SpawnLevel = ?,\n\t\t\t--Health = -1,\n\t\t\t--Missions = { \"?\" },\n\t\t\t--Type = \"?\",\n\t\t\t--Weapons = { \"?\" },\n\t\t\t--Planets = { },\n\t\t\t--TileSets = { },\n\t\t\t\t\t--StatusChance = 0.,",
   "Common Avichaea": {

@@ -4,9 +4,14 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:34:16.702Z"
+    "converted_at": "2026-08-30T18:56:00.283Z"
   },
   "_comments": "---\tMapping item type to datastore locations on the wiki (e.g. 'Mod' to 'Module:Mods/data').\n--\t\n--\t@module\t\t\tdatastoremanifest\n--\t@attribution\t[[User:Cephalon Scientia|Cephalon Scientia]]\n--\t@attribution\t[[User:Gigamicro|Gigamicro]] (based on [[Module:Tooltips/icon]])\n--\t@release\t\tstable\n--\t<nowiki>\n\t\t-- Full list of collection name aliases can be found in [[Module:Cosmetics/data]]\n\t\t-- Full list of collection name aliases can be found in [[Module:Weapons/data]]",
+  "Cosmetic": {
+    "Source": "Module:Cosmetics/data",
+    "Description": "Cosmetic items",
+    "CollectionNames": {}
+  },
   "Resource": {
     "Source": "Module:Resources/data",
     "Description": "Item resources",
@@ -36,11 +41,9 @@
     ]
   },
   "Key": {
-    "Source": "Module:Resources/data",
+    "Source": "Module:Keys/data",
     "Description": "Mission keys",
-    "CollectionNames": [
-      "Resources"
-    ]
+    "CollectionNames": {}
   },
   "Arcane": {
     "Source": "Module:Arcane/data",
@@ -70,7 +73,7 @@
   },
   "DamageType": {
     "Source": "Module:DamageTypes/data",
-    "Description": "Damage types",
+    "Description": "Damage system including damage types, status effects, and enemy damage resistances/vulnerabilities",
     "CollectionNames": [
       "Types",
       "Health",
@@ -100,14 +103,17 @@
   },
   "Warframe": {
     "Source": "Module:Warframes/data",
-    "Description": "Warframe stats",
+    "Description": "Warframe and other playable avatar stats",
     "CollectionNames": [
-      "Warframes"
+      "Warframes",
+      "Archwings",
+      "Necramechs",
+      "Operators"
     ]
   },
   "Decoration": {
     "Source": "Module:Decorations/data",
-    "Description": "Orbiter and Clan Dojo decorations",
+    "Description": "Orbiter, Clan Dojo, and Base of Operations decorations",
     "CollectionNames": [
       "Atmospherics",
       "Corpus",

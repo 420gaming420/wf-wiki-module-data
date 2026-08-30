@@ -4,22 +4,47 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:40:12.782Z"
+    "converted_at": "2026-08-30T18:58:46.712Z"
   },
   "_comments": "",
+  "Smoke Screen": {
+    "outs": [
+      [
+        "Duration:",
+        {
+          "expr": "12 DUR *",
+          "suff": "seconds"
+        }
+      ],
+      [
+        "Radius:",
+        {
+          "expr": "10 RNG *",
+          "suff": "meters"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}}",
+        {
+          "expr": "35 200 EFF - 25 max 100 / *"
+        }
+      ]
+    ],
+    "ins": {}
+  },
   "Shuriken": {
     "outs": [
       [
         "Base damage:",
         {
           "name": "BASE_DMG",
-          "expr": "STR 750 %of 3 1 HEAD if * SHURIKENS *"
+          "expr": "ASH STR 750 %of 3 1 HEAD if * SHURIKENS *"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Bleed|DamageTypes}} [[DoT]]:",
         {
-          "expr": "43.75 BASE_DMG %of",
+          "expr": "43.75 35 ASH if BASE_DMG %of",
           "name": "BLEED",
           "suff": "/s"
         }
@@ -27,13 +52,13 @@
       [
         "Total damage:",
         {
-          "expr": "BLEED 9 * BASE_DMG +"
+          "expr": "BLEED 9 6 ASH if * BASE_DMG +"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}}",
         {
-          "expr": "25  200 EFF - 25 max 100 / *"
+          "expr": "25 200 EFF - 25 max 100 / *"
         }
       ]
     ],
@@ -43,7 +68,20 @@
         "name": "HEAD",
         "cont": "Headshot?"
       },
-      "Shurikens: <span data-name=SHURIKENS data-min=1 data-max=5 data-value=1></span><span data-name=SHURIKENS data-type=range data-min=1 data-max=5 data-value=1></span>"
+      {
+        "value": "checked",
+        "type": "checkbox",
+        "name": "ASH",
+        "cont": "Ash's [[Ash/Abilities#Passive|passive]]?"
+      },
+      {
+        "min": "1",
+        "type": "range-R",
+        "cont": "Shurikens:",
+        "max": "5",
+        "value": "1",
+        "name": "SHURIKENS"
+      }
     ]
   }
 }

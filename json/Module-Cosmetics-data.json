@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:31:58.013Z"
+    "converted_at": "2026-08-30T18:54:03.815Z"
   },
   "_comments": "-- general cosmetics\n-- weapon cosmetics\n-- companion cosmetics\n-- operator/drifter customization and cosmetics\n-- landing craft cosmetics\n-- vehicle cosmetics\n-- lotus customization\n-- kahl cosmetics\n-- uncategorized cosmetics \n-- Compile all data from horizontal partition into one table\n-- Duplicate skin entries\n-- Filling in the User of Cosmetic based on Entry (aka creating reverse indexes based on Cosmetic type)\n-- e.g. creating CosmeticData[\"Skin\"][\"Users\"] = [ { \"Ash\", \"Warframe\" }, { \"Braton\", \"Weapons\" } ]",
   "Cosmetics": {
