@@ -48,15 +48,18 @@ jobs:
           git config --global user.signingkey ~/.ssh/signing_key
           git config --global commit.gpgsign true
 
-      - name: Run sync pipeline
-        run: bash /tmp/scripts/workflow.sh
+      - name: Run sync pipeline (dry run)
+        run: bash /tmp/scripts/workflow.sh --dry-run
 
-      - name: Commit and push changes
+      - name: Show git status
+        run: git status
+
+      - name: Commit and push changes (dry run)
         run: |
-          git config user.name "420gaming420"
-          git config user.email "320066288+420gaming420@users.noreply.github.com"
-          git add json/
-          git add ignore_modules.json
-          git add stale_modules.json
-          git diff --cached --quiet || git commit -m "Auto-sync: $(date -u '+%Y-%m-%d')"
-          git push
+          echo "Would run: git config user.name \"420gaming420\""
+          echo "Would run: git config user.email \"320066288+420gaming420@users.noreply.github.com\""
+          echo "Would run: git add json/"
+          echo "Would run: git add ignore_modules.json"
+          echo "Would run: git add stale_modules.json"
+          echo "Would run: git diff --cached --quiet || git commit -m \"Auto-sync: $(date -u '+%Y-%m-%d')\""
+          echo "Would run: git push"
