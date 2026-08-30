@@ -19,8 +19,8 @@ Changes made on the wiki will be automatically picked up by the converter script
 Each module page from the WARFRAME Wiki is converted into a standalone JSON file with:
 
 - **Structured data** — Lua tables parsed into native JSON
-- **Source attribution** — `__attribution` key with source URL, license, and conversion timestamp
-- **Source comments** — `__comments` key containing the original Lua source code comments
+- **Source attribution** — `_attribution` key with source URL, license, and conversion timestamp
+- **Source comments** — `_comments` key containing the original Lua source code comments
 - **Metadata** — Corresponding `.meta.json` file with wiki page revision timestamp and conversion details
 
 ### File Naming
@@ -28,21 +28,23 @@ Each module page from the WARFRAME Wiki is converted into a standalone JSON file
 | Wiki Module | JSON File |
 |---|---|
 | `Module:Warframes/data` | `Module-Warframes-data.json` |
-| `Module:Weapons/data` | `Module-Weapons-data.json` |
+| `Module:Weapons/data/melee` | `Module-Weapons-data-melee.json` |
 | `Module:Mods/data` | `Module-Mods-data.json` |
+
+> **Note:** `Module:Weapons/data` was skipped during conversion and is listed in `ignore_modules.json`. Its sub-modules (e.g. `Module:Weapons/data/melee`, `Module:Weapons/data/secondary`) were converted instead.
 
 ### Example JSON Structure
 
 ```json
 {
-  "__attribution": {
+  "_attribution": {
     "source_url": "https://wiki.warframe.com/w/Module:Ability/data",
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-29T15:12:00.785Z"
+    "converted_at": "2026-08-30T18:53:14.122Z"
   },
-  "__comments": "-- CTRL + F \"Warframe Name\" to immediately go to...\n-- Note that [\"Warframe\"] subtable indexes ability...",
+  "_comments": "-- CTRL + F \"Warframe Name\" to immediately go to...\n-- Note that [\"Warframe\"] subtable indexes ability...",
   "Archived": {
     "Accelerant": {
       "Description": "Stun nearby enemies...",
@@ -61,6 +63,9 @@ Each module page from the WARFRAME Wiki is converted into a standalone JSON file
 | Total JSON files | 177 |
 | Meta files | 177 |
 | Ignored/skipped modules | 337 |
+| Total wiki modules tracked | 514 |
+
+> **Note:** The 337 ignored modules include `/doc` subpages, modules with unjsonifiable types (functions), and others that fail conversion. Failed modules are automatically added to `ignore_modules.json` and skipped on subsequent runs.
 
 ## Repository Structure
 
@@ -92,15 +97,16 @@ git submodule add https://github.com/420gaming420/wf-wiki-module-data data
 git submodule update --init --recursive
 ```
 
-## Sync Pipeline (TBA - Currently Manually Updated)
-Data will be synced automatically by the [wf-wiki-module-scripts](https://github.com/420gaming420/wf-wiki-module-scripts) repository:
+## Sync Pipeline
+
+Data is synced automatically via a GitHub Action triggered by `sync.yml`. The action runs daily at 2AM UTC.
 
 1. **`request.py`** — Queries the WARFRAME Wiki API for module timestamps
 2. **`convert_module.js`** — Uses Puppeteer to execute each stale module via the Scribunto Debug Console and extracts the JSON result
-3. **`attribution.py`** — Adds `__attribution` and `__comments` keys, fetching source comments from live wiki pages
+3. **`attribution.py`** — Adds `_attribution` and `_comments` keys, fetching source comments from live wiki pages
 4. **`workflow.sh`** — Orchestrates the full pipeline with rate limiting and error handling
 
-See the [scripts repository](https://github.com/420gaming420/wf-wiki-module-scripts) for full documentation.
+Failed modules are automatically pushed to `ignore_modules.json` in the scripts repo and skipped on subsequent runs. See the [scripts repository](https://github.com/420gaming420/wf-wiki-module-scripts) for full documentation.
 
 ## License
 
