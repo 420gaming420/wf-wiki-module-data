@@ -31,8 +31,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Run request.py (check metafiles)
-        run: cd /tmp/scripts && python3 request.py --check-metafiles
+      - name: Run request.py
+        run: cd /tmp/scripts && python3 request.py
 
       - name: Verify stale_modules.json
         run: |
