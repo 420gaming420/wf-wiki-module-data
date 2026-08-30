@@ -1,0 +1,61 @@
+name: Sync WARFRAME Wiki Modules
+
+on:
+  schedule:
+    # Run once a day at 02:00 UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PUSH_KEY }}
+          ssh-key: ${{ secrets.BOT_SIGNING_KEY }}
+
+      - name: Write config.ini from secret
+        run: echo "${{ secrets.CONFIG_INI }}" > config.ini
+
+      - name: Clone scripts repo
+        run: git clone --depth 1 https://github.com/420gaming420/wf-wiki-module-scripts /tmp/scripts
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Node dependencies
+        run: npm install
+        working-directory: /tmp/scripts
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python dependencies
+        run: python -m pip install --upgrade pip
+
+      - name: Setup GPG signing
+        run: |
+          echo "${{ secrets.BOT_SIGNING_KEY }}" > /tmp/bot.key
+          chmod 600 /tmp/bot.key
+          git config user.signingkey /tmp/bot.key
+          git config commit.gpgsign true
+
+      - name: Run sync pipeline
+        run: bash /tmp/scripts/workflow.sh
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "420gaming420"
+          git config user.email "320066288+420gaming420@users.noreply.github.com"
+          git -c commit.gpgsign=true add json/
+          git -c commit.gpgsign=true add ignore_modules.json
+          git -c commit.gpgsign=true add stale_modules.json
+          git -c commit.gpgsign=true diff --cached --quiet || git -c commit.gpgsign=true commit -m "Auto-sync: $(date -u '+%Y-%m-%d')"
+          git push
