@@ -1,0 +1,39 @@
+name: Test request.py
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Clone scripts repo
+        run: git clone --depth 1 https://github.com/420gaming420/wf-wiki-module-scripts /tmp/scripts
+
+      - name: Write config.ini from secret
+        run: echo "${{ secrets.CONFIG_INI }}" > /tmp/scripts/config.ini
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Debug - List files
+        run: |
+          ls -lah /tmp/scripts/
+          ls -lah /tmp/scripts/data/ 2>/dev/null || echo "No data/ dir yet"
+
+      - name: Run request.py
+        run: cd /tmp/scripts && python3 request.py
+
+      - name: Debug - Check outputs
+        run: |
+          echo "=== stale_modules.json ==="
+          cat /tmp/scripts/stale_modules.json | head -50
+          echo ""
+          echo "=== ignore_modules.json ==="
+          cat /tmp/scripts/ignore_modules.json | head -20
+          echo ""
+          echo "=== Sample metadata file ==="
+          cat /tmp/scripts/data/json/Module-Ability-Conclave-data.meta.json 2>/dev/null || echo "File not found"
