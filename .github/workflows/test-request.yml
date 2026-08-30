@@ -17,7 +17,7 @@ jobs:
       - name: Create symlink for data
         run: |
           mkdir -p /tmp/scripts/data
-          ln -sfn $(pwd)/json /tmp/scripts/data/json
+          ln -sfn /home/runner/work/wf-wiki-module-data/wf-wiki-module-data/json /tmp/scripts/data/json
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -32,6 +32,14 @@ jobs:
           readlink /tmp/scripts/data/json 2>/dev/null || echo "No symlink"
           echo "=== Symlink contents ==="
           ls -lah /tmp/scripts/data/json/ 2>/dev/null | head -20 || echo "Symlink broken or empty"
+          echo "=== Data repo root ==="
+          ls -lah /home/runner/work/wf-wiki-module-data/wf-wiki-module-data/
+          echo "=== Data repo json/ ==="
+          ls /home/runner/work/wf-wiki-module-data/wf-wiki-module-data/json/ | wc -l
+          echo "=== Parent directory ==="
+          ls -lah /home/runner/work/wf-wiki-module-data/
+          echo "=== Parent parent directory ==="
+          ls -lah /home/runner/work/
 
       - name: Debug - Test path resolution
         run: cd /tmp/scripts && python3 test-request.py
