@@ -1,6 +1,9 @@
 name: Sync WARFRAME Wiki Modules
 
 on:
+  schedule:
+    # Run once a day at 02:00 UTC
+    - cron: '0 2 * * *'
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
@@ -13,11 +16,6 @@ jobs:
         with:
           token: ${{ secrets.GH_PUSH_KEY }}
           ref: dev
-
-      - name: Show repo root
-        run: |
-          echo "Repo Root: $(pwd)"
-          ls -lah
 
       - name: Clone scripts repo
         run: git clone --depth 1 https://github.com/420gaming420/wf-wiki-module-scripts /tmp/scripts
@@ -68,23 +66,11 @@ jobs:
           BEFORE=$(md5sum ignore_modules.json | awk '{print $1}')
           echo "Before: $BEFORE"
 
-      - name: Run sync pipeline (dry run)
-        run: echo bash /tmp/scripts/workflow.sh --dry-run
-
-      - name: Show disk usage and symlink
-        run: |
-          df -h /tmp/scripts/data
-          ls -lah /tmp/scripts/data
+      - name: Run sync pipeline
+        run: bash /tmp/scripts/workflow.sh
 
       - name: Show git status
         run: git status
-
-      - name: Temporary modification test for commit testing
-        run: |
-          rm /tmp/scripts/ignore_modules.json
-          touch /tmp/scripts/ignore_modules.json
-          rm /tmp/scripts/data/json/Module-Ability-Conclave-data.meta.json
-          touch /tmp/scripts/data/json/Module-Ability-Conclave-data.meta.json
 
       - name: Check ignore_modules.json for changes
         id: check_ignore
@@ -116,6 +102,6 @@ jobs:
           git config user.email "320066288+420gaming420@users.noreply.github.com"
           if ! git diff --quiet json/ 2>/dev/null; then
             git add json/
-            git commit -m "Test commit: verify signing and push"
+            git commit -m "Auto-sync: $(date -u '+%Y-%m-%d')"
             git push https://${{ secrets.GH_PUSH_KEY }}@github.com/420gaming420/wf-wiki-module-data.git dev
           fi
