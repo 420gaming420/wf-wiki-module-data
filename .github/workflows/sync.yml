@@ -16,11 +16,11 @@ jobs:
         with:
           token: ${{ secrets.GH_PUSH_KEY }}
 
-      - name: Write config.ini from secret
-        run: echo "${{ secrets.CONFIG_INI }}" > config.ini
-
       - name: Clone scripts repo
         run: git clone --depth 1 https://github.com/420gaming420/wf-wiki-module-scripts /tmp/scripts
+
+      - name: Write config.ini from secret
+        run: echo "${{ secrets.CONFIG_INI }}" > /tmp/scripts/config.ini
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
