@@ -28,6 +28,24 @@ jobs:
         run: |
           ls -lah /tmp/scripts/
           ls -lah /tmp/scripts/data/ 2>/dev/null || echo "No data/ dir yet"
+          echo "=== Symlink target ==="
+          readlink /tmp/scripts/data/json 2>/dev/null || echo "No symlink"
+          echo "=== Symlink contents ==="
+          ls -lah /tmp/scripts/data/json/ 2>/dev/null | head -20 || echo "Symlink broken or empty"
+
+      - name: Debug - Test path resolution
+        run: |
+          cd /tmp/scripts
+          echo "=== Python path test ==="
+          python3 -c "
+from pathlib import Path
+import os
+print(f'CWD: {Path.cwd()}')
+print(f'data/json exists: {Path(\"data/json\").exists()}')
+print(f'data/json resolved: {Path(\"data/json\").resolve()}')
+print(f'Files found: {len(list(Path(\"data/json\").glob(\"*.meta.json\")))}')
+print(f'Sample file exists: {Path(\"data/json/Module-Ability-Conclave-data.meta.json\").exists()}')
+"
 
       - name: Run request.py
         run: cd /tmp/scripts && python3 request.py
@@ -42,3 +60,6 @@ jobs:
           echo ""
           echo "=== Sample metadata file ==="
           cat /tmp/scripts/data/json/Module-Ability-Conclave-data.meta.json 2>/dev/null || echo "File not found"
+          echo ""
+          echo "=== Actual files in data/json ==="
+          ls /tmp/scripts/data/json/*.meta.json 2>/dev/null | head -10 || echo "No .meta.json files found"
