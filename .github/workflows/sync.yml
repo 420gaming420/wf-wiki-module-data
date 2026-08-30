@@ -1,9 +1,6 @@
 name: Sync WARFRAME Wiki Modules
 
 on:
-  schedule:
-    # Run once a day at 02:00 UTC
-    - cron: '0 2 * * *'
   workflow_dispatch:  # Allow manual trigger
 
 jobs:
@@ -59,8 +56,20 @@ jobs:
           git config --global user.signingkey ~/.ssh/signing_key
           git config --global commit.gpgsign true
 
+      - name: Setup allowed_signers for commit signing
+        run: |
+          echo "${{ secrets.ALLOWED_SIGNERS }}" > ~/.ssh/allowed_signers
+          git config --global gpg.allowedSignersFile ~/.ssh/allowed_signers
+
+      - name: Track ignore_modules.json for changes
+        id: track_ignore
+        run: |
+          cd /tmp/scripts
+          BEFORE=$(md5sum ignore_modules.json | awk '{print $1}')
+          echo "Before: $BEFORE"
+
       - name: Run sync pipeline (dry run)
-        run: bash /tmp/scripts/workflow.sh --dry-run
+        run: echo bash /tmp/scripts/workflow.sh --dry-run
 
       - name: Show disk usage and symlink
         run: |
@@ -70,11 +79,43 @@ jobs:
       - name: Show git status
         run: git status
 
-      - name: Commit and push changes (dry run)
+      - name: Temporary modification test for commit testing
         run: |
-          echo "Would run: git config user.name \"420gaming420\""
-          echo "Would run: git config user.email \"320066288+420gaming420@users.noreply.github.com\""
-          echo "Would run: git add json/"
-          echo "Would run: git add ignore_modules.json"
-          echo "Would run: git diff --cached --quiet || git commit -m \"Auto-sync: $(date -u '+%Y-%m-%d')\""
-          echo "Would run: git push"
+          rm /tmp/scripts/ignore_modules.json
+          touch /tmp/scripts/ignore_modules.json
+          rm /tmp/scripts/data/json/Module-Ability-Conclave-data.meta.json
+          touch /tmp/scripts/data/json/Module-Ability-Conclave-data.meta.json
+
+      - name: Check ignore_modules.json for changes
+        id: track_ignore
+        run: |
+          cd /tmp/scripts
+          AFTER=$(md5sum ignore_modules.json | awk '{print $1}')
+          echo "After: $AFTER"
+          if [ "$BEFORE" != "$AFTER" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "CHANGE DETECTED"
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "NO CHANGE"
+          fi
+
+      - name: Push ignore_modules.json to scripts repo
+        if: steps.check_ignore.outputs.changed == 'true'
+        run: |
+          cd /tmp/scripts
+          git config user.name "420gaming420"
+          git config user.email "320066288+420gaming420@users.noreply.github.com"
+          git add ignore_modules.json
+          git commit -m "Add failed modules to ignore list"
+          git push https://${{ secrets.GH_PUSH_KEY }}@github.com/420gaming420/wf-wiki-module-scripts.git dev
+
+      - name: Push json changes to data repo
+        run: |
+          git config user.name "420gaming420"
+          git config user.email "320066288+420gaming420@users.noreply.github.com"
+          if ! git diff --quiet json/ 2>/dev/null; then
+            git add json/
+            git commit -m "Test commit: verify signing and push"
+            git push https://${{ secrets.GH_PUSH_KEY }}@github.com/420gaming420/wf-wiki-module-data.git dev
+          fi
