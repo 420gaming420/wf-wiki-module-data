@@ -14,6 +14,11 @@ jobs:
       - name: Write config.ini from secret
         run: echo "${{ secrets.CONFIG_INI }}" > /tmp/scripts/config.ini
 
+      - name: Create symlink for data
+        run: |
+          mkdir -p /tmp/scripts/data
+          ln -sfn $(pwd)/json /tmp/scripts/data/json
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
