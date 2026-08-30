@@ -15,7 +15,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GH_PUSH_KEY }}
-          ssh-key: ${{ secrets.BOT_SIGNING_KEY }}
 
       - name: Write config.ini from secret
         run: echo "${{ secrets.CONFIG_INI }}" > config.ini
@@ -40,12 +39,14 @@ jobs:
       - name: Install Python dependencies
         run: python -m pip install --upgrade pip
 
-      - name: Setup GPG signing
+      - name: Setup SSH key for commit signing
         run: |
-          echo "${{ secrets.BOT_SIGNING_KEY }}" > /tmp/bot.key
-          chmod 600 /tmp/bot.key
-          git config user.signingkey /tmp/bot.key
-          git config commit.gpgsign true
+          mkdir -p ~/.ssh
+          echo "${{ secrets.BOT_SIGNING_KEY }}" > ~/.ssh/signing_key
+          chmod 600 ~/.ssh/signing_key
+          git config --global gpg.format ssh
+          git config --global user.signingkey ~/.ssh/signing_key
+          git config --global commit.gpgsign true
 
       - name: Run sync pipeline
         run: bash /tmp/scripts/workflow.sh
@@ -54,8 +55,8 @@ jobs:
         run: |
           git config user.name "420gaming420"
           git config user.email "320066288+420gaming420@users.noreply.github.com"
-          git -c commit.gpgsign=true add json/
-          git -c commit.gpgsign=true add ignore_modules.json
-          git -c commit.gpgsign=true add stale_modules.json
-          git -c commit.gpgsign=true diff --cached --quiet || git -c commit.gpgsign=true commit -m "Auto-sync: $(date -u '+%Y-%m-%d')"
+          git add json/
+          git add ignore_modules.json
+          git add stale_modules.json
+          git diff --cached --quiet || git commit -m "Auto-sync: $(date -u '+%Y-%m-%d')"
           git push
