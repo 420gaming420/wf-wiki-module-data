@@ -34,10 +34,7 @@ jobs:
           ls -lah /tmp/scripts/data/json/ 2>/dev/null | head -20 || echo "Symlink broken or empty"
 
       - name: Debug - Test path resolution
-        run: |
-          cd /tmp/scripts
-          echo "=== Python path test ==="
-          python3 -c 'from pathlib import Path; print(f"CWD: {Path.cwd()}"); print(f"data/json exists: {Path(\"data/json\").exists()}"); print(f"data/json resolved: {Path(\"data/json\").resolve()}"); print(f"Files found: {len(list(Path(\"data/json\").glob(\"*.meta.json\")))}"); print(f"Sample file exists: {Path(\"data/json/Module-Ability-Conclave-data.meta.json\").exists()}")'
+        run: cd /tmp/scripts && python3 test-request.py
 
       - name: Run request.py (dry run)
         run: cd /tmp/scripts && echo "python3 request.py"
