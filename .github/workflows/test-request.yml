@@ -31,39 +31,13 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Debug - List files
+      - name: Run request.py
+        run: cd /tmp/scripts && python3 request.py
+
+      - name: Verify stale_modules.json
         run: |
-          ls -lah /tmp/scripts/
-          ls -lah /tmp/scripts/data/ 2>/dev/null || echo "No data/ dir yet"
-          echo "=== Symlink target ==="
-          readlink /tmp/scripts/data/json 2>/dev/null || echo "No symlink"
-          echo "=== Symlink contents ==="
-          ls -lah /tmp/scripts/data/json/ 2>/dev/null | head -20 || echo "Symlink broken or empty"
-          echo "=== Data repo root ==="
-          ls -lah /home/runner/work/wf-wiki-module-data/wf-wiki-module-data/
-          echo "=== Data repo json/ ==="
-          ls /home/runner/work/wf-wiki-module-data/wf-wiki-module-data/json/ | wc -l
-          echo "=== Parent directory ==="
-          ls -lah /home/runner/work/wf-wiki-module-data/
-          echo "=== Parent parent directory ==="
-          ls -lah /home/runner/work/
-
-      - name: Debug - Test path resolution
-        run: cd /tmp/scripts && python3 test-request.py
-
-      - name: Run request.py (dry run)
-        run: cd /tmp/scripts && echo "python3 request.py"
-
-      - name: Debug - Check outputs
-        run: |
-          echo "=== stale_modules.json ==="
-          cat /tmp/scripts/stale_modules.json | head -50
+          echo "=== stale_modules.json line count ==="
+          wc -l /tmp/scripts/stale_modules.json
           echo ""
-          echo "=== ignore_modules.json ==="
-          cat /tmp/scripts/ignore_modules.json | head -20
-          echo ""
-          echo "=== Sample metadata file ==="
-          cat /tmp/scripts/data/json/Module-Ability-Conclave-data.meta.json 2>/dev/null || echo "File not found"
-          echo ""
-          echo "=== Actual files in data/json ==="
-          ls /tmp/scripts/data/json/*.meta.json 2>/dev/null | head -10 || echo "No .meta.json files found"
+          echo "=== First 50 lines ==="
+          head -50 /tmp/scripts/stale_modules.json
