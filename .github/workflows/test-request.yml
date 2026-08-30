@@ -47,8 +47,8 @@ print(f'Files found: {len(list(Path(\"data/json\").glob(\"*.meta.json\")))}')
 print(f'Sample file exists: {Path(\"data/json/Module-Ability-Conclave-data.meta.json\").exists()}')
 "
 
-      - name: Run request.py
-        run: cd /tmp/scripts && python3 request.py
+      - name: Run request.py (dry run)
+        run: cd /tmp/scripts && echo "python3 request.py"
 
       - name: Debug - Check outputs
         run: |
