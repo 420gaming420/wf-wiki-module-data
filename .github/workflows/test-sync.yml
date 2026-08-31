@@ -1,4 +1,4 @@
-name: Sync WARFRAME Wiki Modules
+name: Test Sync WARFRAME Wiki Modules
 
 on:
   workflow_dispatch:  # Allow manual trigger
@@ -87,22 +87,26 @@ jobs:
             echo "NO CHANGE"
           fi
 
-      - name: Push ignore_modules.json to scripts repo
+      - name: Show ignore_modules.json diff
         if: steps.check_ignore.outputs.changed == 'true'
         run: |
           cd /tmp/scripts
-          git config user.name "420gaming420"
-          git config user.email "320066288+420gaming420@users.noreply.github.com"
-          git add ignore_modules.json
-          git commit -m "Add failed modules to ignore list"
-          git push https://${{ secrets.GH_PUSH_KEY }}@github.com/420gaming420/wf-wiki-module-scripts.git dev
+          echo "=== ignore_modules.json changes detected ==="
+          git diff ignore_modules.json || true
 
-      - name: Push data changes to repo
+      - name: Show staged data changes
         run: |
-          git config user.name "420gaming420"
-          git config user.email "320066288+420gaming420@users.noreply.github.com"
           git add html/ lua/ markdown/ json/
           if ! git diff --cached --quiet; then
-            git commit -m "Auto-sync: $(date -u '+%Y-%m-%d')"
-            git push https://${{ secrets.GH_PUSH_KEY }}@github.com/420gaming420/wf-wiki-module-data.git dev
+            echo "=== Changes staged for commit ==="
+            git diff --cached --stat
+            echo ""
+            echo "=== Would commit with message: Auto-sync: $(date -u '+%Y-%m-%d') ==="
+            echo ""
+            echo "=== Staged files summary ==="
+            git diff --cached --name-only | head -50
+            echo "..."
+            echo "Total staged files: $(git diff --cached --name-only | wc -l)"
+          else
+            echo "No changes to sync"
           fi
