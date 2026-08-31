@@ -60,8 +60,11 @@ Each module page from the WARFRAME Wiki is converted into a standalone JSON file
 
 | Metric | Count |
 |---|---|
-| Total JSON files | 177 |
-| Meta files | 177 |
+| HTML archive files | 616 |
+| Lua source files | 952 |
+| Markdown documentation files | 615 |
+| Total JSON files | 184 |
+| Meta files | 184 (JSON) + 616 (HTML) + 502 (Lua) + 615 (Markdown) |
 | Ignored/skipped modules | 337 |
 | Total wiki modules tracked | 514 |
 
@@ -71,12 +74,27 @@ Each module page from the WARFRAME Wiki is converted into a standalone JSON file
 
 ```
 wf-wiki-module-data/
+├── html/                          # HTML archive of wiki module pages
+│   ├── Module-Ability-data.html   # Raw wiki HTML
+│   ├── Module-Ability-data.meta.json  # Download metadata
+│   ├── Module-Warframes-data.html
+│   └── ... (1,232 files total)
+├── lua/                           # Extracted Lua source code
+│   ├── Module-Ability-data_0.lua  # First code block
+│   ├── Module-Ability-data_1.lua  # Second code block (if any)
+│   ├── Module-Ability-data.meta.json  # Extraction metadata
+│   └── ... (1,454 files total)
+├── markdown/                      # Markdown documentation
+│   ├── Module-Ability-data.md     # Full page documentation
+│   ├── Module-Ability-data.meta.json  # Conversion metadata
+│   ├── Module-Warframes-data.md
+│   └── ... (1,230 files total)
 ├── json/                          # Converted JSON data
 │   ├── Module-Ability-data.json   # Main data file
 │   ├── Module-Ability-data.meta.json  # Conversion metadata
 │   ├── Module-Warframes-data.json
 │   ├── Module-Weapons-data.json
-│   └── ... (354 files total)
+│   └── ... (368 files total)
 ├── LICENSE                        # CC BY-NC-SA 3.0
 ├── ATTRIBUTION.md                 # Attribution guidelines
 └── README.md
@@ -101,10 +119,14 @@ git submodule update --init --recursive
 
 Data is synced automatically via a GitHub Action triggered by `sync.yml`. The action runs daily at 2AM UTC.
 
+The full pipeline (documented in the [scripts repository](https://github.com/420gaming420/wf-wiki-module-scripts)) performs these steps:
+
 1. **`request.py`** — Queries the WARFRAME Wiki API for module timestamps
-2. **`convert_module.js`** — Uses Puppeteer to execute each stale module via the Scribunto Debug Console and extracts the JSON result
-3. **`attribution.py`** — Adds `_attribution` and `_comments` keys, fetching source comments from live wiki pages
-4. **`workflow.sh`** — Orchestrates the full pipeline with rate limiting and error handling
+2. **`download.py`** — Archives all wiki modules as HTML files to `data/html/`
+3. **`extract_lua.py`** — Extracts Lua source code from HTML to `data/lua/`
+4. **`extract_text.py`** — Converts HTML pages to Markdown documentation in `data/markdown/`
+5. **`convert_module.js`** — Uses Puppeteer to execute each stale module via the Scribunto Debug Console and extracts the JSON result
+6. **`attribution.py`** — Adds `_attribution` and `_comments` keys, reading source comments from local Lua files
 
 Failed modules are automatically pushed to `ignore_modules.json` in the scripts repo and skipped on subsequent runs. See the [scripts repository](https://github.com/420gaming420/wf-wiki-module-scripts) for full documentation.
 
