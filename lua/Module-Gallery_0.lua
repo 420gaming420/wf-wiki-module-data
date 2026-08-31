@@ -1,0 +1,1 @@
+{{#invoke:Gallery|buildModGallery|Amalgam Barrel Diffusion|Barrel Diffusion|Primed Continuity|Scorch|Hunter's Bonesaw}}

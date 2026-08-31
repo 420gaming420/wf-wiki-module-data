@@ -1,0 +1,16 @@
+{
+  "page": "Module:DependencyGraph",
+  "wiki_timestamp": "2022-11-07T06:32:39Z",
+  "extracted_at": "2026-08-31T21:22:44.188840+00:00",
+  "lua_files": [
+    "Module-DependencyGraph_0.lua",
+    "Module-DependencyGraph_1.lua",
+    "Module-DependencyGraph_2.lua",
+    "Module-DependencyGraph_3.lua",
+    "Module-DependencyGraph_4.lua"
+  ],
+  "lua_block_count": 5,
+  "file_size": 51672,
+  "comment_count": 67,
+  "status": "success"
+}

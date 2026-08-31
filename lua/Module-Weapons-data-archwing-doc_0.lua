@@ -1,0 +1,15 @@
+	{
+		AttackIndex = 1,
+		AttackName = "Normal Attack",
+		AmmoCost = 1,
+		BurstCount = 1,
+		Damage = { Impact = 1, Puncture = 1, Slash = 1 },
+		CritChance = 0.1,
+		CritMultiplier = 1,
+		StatusChance = 0.1,
+		FireRate = 1.0,
+		Falloff = { StartRange = 400, EndRange = 600, Reduction = 0.2 },
+		ShotType = "Hit-Scan",
+		ShotSpeed = 1,
+		Trigger = "Semi-Auto"
+	},

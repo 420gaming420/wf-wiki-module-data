@@ -1,0 +1,13 @@
+{
+  "page": "Module:DropTables",
+  "wiki_timestamp": "2026-03-08T09:20:46Z",
+  "extracted_at": "2026-08-31T21:22:44.409563+00:00",
+  "lua_files": [
+    "Module-DropTables_0.lua",
+    "Module-DropTables_1.lua"
+  ],
+  "lua_block_count": 2,
+  "file_size": 46921,
+  "comment_count": 274,
+  "status": "success"
+}

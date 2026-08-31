@@ -1,0 +1,17 @@
+{
+  "page": "Module:Weapons/data/melee",
+  "wiki_timestamp": "2026-08-27T04:18:50Z",
+  "extracted_at": "2026-08-31T21:22:45.824813+00:00",
+  "lua_files": [
+    "Module-Weapons-data-melee_0.lua",
+    "Module-Weapons-data-melee_1.lua",
+    "Module-Weapons-data-melee_2.lua",
+    "Module-Weapons-data-melee_3.lua",
+    "Module-Weapons-data-melee_4.lua",
+    "Module-Weapons-data-melee_5.lua"
+  ],
+  "lua_block_count": 6,
+  "file_size": 473398,
+  "comment_count": 0,
+  "status": "success"
+}

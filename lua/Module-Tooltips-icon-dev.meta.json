@@ -1,0 +1,12 @@
+{
+  "page": "Module:Tooltips/icon/dev",
+  "wiki_timestamp": "2021-09-21T22:15:11Z",
+  "extracted_at": "2026-08-31T21:22:45.407389+00:00",
+  "lua_files": [
+    "Module-Tooltips-icon-dev_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 4735,
+  "comment_count": 25,
+  "status": "success"
+}

@@ -1,0 +1,20 @@
+{
+  "page": "Module:DropTables/data/doc",
+  "wiki_timestamp": "2025-02-23T20:17:51Z",
+  "extracted_at": "2026-08-31T21:22:44.361298+00:00",
+  "lua_files": [
+    "Module-DropTables-data-doc_0.lua",
+    "Module-DropTables-data-doc_1.lua",
+    "Module-DropTables-data-doc_2.lua",
+    "Module-DropTables-data-doc_3.lua",
+    "Module-DropTables-data-doc_4.lua",
+    "Module-DropTables-data-doc_5.lua",
+    "Module-DropTables-data-doc_6.lua",
+    "Module-DropTables-data-doc_7.lua",
+    "Module-DropTables-data-doc_8.lua"
+  ],
+  "lua_block_count": 9,
+  "file_size": 4256,
+  "comment_count": 0,
+  "status": "success"
+}

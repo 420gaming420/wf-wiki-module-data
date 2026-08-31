@@ -1,0 +1,12 @@
+{
+  "page": "Module:Yesno/testcases",
+  "wiki_timestamp": "2022-09-23T22:24:51Z",
+  "extracted_at": "2026-08-31T21:22:46.103646+00:00",
+  "lua_files": [
+    "Module-Yesno-testcases_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 5392,
+  "comment_count": 7,
+  "status": "success"
+}

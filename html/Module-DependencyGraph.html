@@ -1,0 +1,2348 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Module:DependencyGraph - WARFRAME Wiki</title>
+<script>(function(){var className="client-js";var cookie=document.cookie.match(/(?:^|; )wgmwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":true,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"12109ea875ff2cf8774ecb77393fe296","wgCanonicalNamespace":"Module","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":828,"wgPageName":"Module:DependencyGraph","wgTitle":"DependencyGraph","wgCurRevisionId":2558515,"wgRevisionId":2558515,"wgArticleId":1549778,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages using DynamicPageList4 parser function","Pages using DynamicPageList4","Pages with script errors","Module"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"Scribunto","wgRelevantPageName":"Module:DependencyGraph","wgRelevantArticleId":1549778,"wgTempUserName":null,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgCiteReferencePreviewsActive":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":0,"ScribuntoErrors":{"5c222203":true},"ScribuntoErrors-5c222203":"\u003Cp\u003ELua error: Module:DependencyGraph:76: \"Module:Enemies/data/pre\" does not exist\ntable#1 {\n    [\"Module:Ability\"] = table#2 {\n        [\"Module:Ability/Conclave/data\"] = 0,\n        [\"Module:Ability/data\"] = 0,\n    },\n    [\"Module:Ability/Conclave/data\"] = table#3 {\n    },\n    [\"Module:Ability/infobox\"] = table#4 {\n        [\"Module:Ability/Conclave/data\"] = 0,\n        [\"Module:Ability/data\"] = 0,\n        [\"Module:TextIcons\"] = 0,\n        [\"Module:Tooltips\"] = 0,\n        [\"Module:Version\"] = 0,\n    },\n    [\"Module:Ability/infoboxTEST\"] = table#5 {\n        [\"Module:Ability/Conclave/data\"] = 0,\n        [\"Module:Ability/data\"] = 0,\n        [\"Module:Maximization\"] = 0,\n        [\"Module:TextIcons\"] = 0,\n        [\"Module:Tooltips\"] = 0,\n        [\"Module:Version\"] = 0,\n    },\n    [\"Module:Acquisition\"] = table#6 {\n        [\"Module:Blueprints/data\"] = 0,\n        [\"Module:DropTables/data\"] = 0,\n        [\"Module:Tooltips\"] = 0,\n    },\n    [\"Module:Acquisition/dev\"] = table#7 {\n        [\"Dev:Entrypoint\"] = 0,\n        [\"Dev:User error\"] = 0,\n        [\"Module:Acquisition/data\"] = 0,\n        [\"Module:Icon\"] = 0,\n        [\"Module:Lua\"] = 0,\n        [\"Module:Math\"] = 0,\n        [\"Module:String\"] = 0,\n    },\n    [\"Module:Acquisition/testcases\"] = table#8 {\n        [\"Dev:User error\"] = 0,\n    },\n    [\"Module:AnexeraTest1\"] = table#9 {\n        [\"Module:Arguments\"] = 0,\n        [\"Module:Baro/data\"] = 0,\n        [\"Module:Baro/data/typeConfigs\"] = 0,\n        [\"Module:Entrypoint\"] = 0,\n        [\"Module:Table\"] = 0,\n        [\"Module:Tooltips\"] = 0,\n    },\n    [\"Module:Animal/infobox\"] = table#10 {\n        [\"Module:InfoboxBuilder\"] = 0,\n        [\"Module:Resources/data\"] = 0,\n    },\n    [\"Module:Arcane\"] = table#11 {\n        [\"Module:Arcane/data\"] = 0,\n        [\"Module:String\"] = 0,\n        [\"Module:Table\"] = 0,\n        [\"Module:Tooltips\"] = 0,\n    },\n    [\"Module:Arcane/dev\"] = table#12 {\n    },\n    [\"Module:Arcane/infobox\"] = table#13 {\n        [\"Module:Arcane/data\"] = 0,\n        [\"Module:DropTables\"] = 0,\n        [\"Module:DropTables/data\"] = 0,\n        [\"Module:InfoboxBuilder\"] = 0,\n        [\"Module:Table\"] = 0,\n        [\"Module:TextIcons\"] = 0,\n        [\"Module:Tooltips\"] = 0,\n        [\"Module:Vendors\"] = 0,\n        [\"Module:Version\"] = 0,\n    },\n    [\"Module:ArchModBox\"] = table#14 {\n        [\"Module:InfoboxBuilder\"] = 0,\n    },\n    [\"Module:Arguments\"] = table#15 {\n        [\"Module:Arguments\"] = 0,\n        [\"Module:I18n\"] = 0,\n    },\n    [\"Module:Arguments/i18n\"] = table#16 {\n    },\n    [\"Module:Avionics\"] = table#17 {\n        [\"Module:Avionics/data\"] = 0,\n        [\"Module:Icon\"] = 0,\n        [\"Module:String\"] = 0,\n        [\"Module:Table\"] = 0,\n        [\"Module:Version\"] = 0,\n    },\n    [\"Module:Avionics/data\"] = table#18 {\n        [\"Module:Avionics/data/desc\"] = 0,\n        [\"Module:Icon\"] = 0,\n        [\"Module:Version\"] = 0,\n    },\n    [\"Module:Avionics/data/desc\"] = table#19 {\n    },\n    [\"Module:Baro\"] = table#20 {\n        [\"Module:Arguments\"] = 0,\n        [\"Module:Baro/data\"] = 0,\n        [\"Module:Baro/data/typeConfigs\"] = 0,\n        [\"Module:Entrypoint\"] = 0,\n        [\"Module:Table\"] = 0,\n        [\"Module:Tooltips\"] = 0,\n    },\n    [\"Module:Baro/data/typeConfigs\"] = table#21 {\n    },\n    [\"Module:Baro/data/visits\"] = table#22 {\n        [\"Module:Baro/data\"] = 0,\n    },\n    [\"Module:Baro/history\"] = table#23 {\n        [\"Module:Baro/data\"] = 0,\n        [\"Module:Table\"] = 0,\n        [\"Module:Tooltips\"] = 0,\n    },\n    [\"Module:Baro/testcases\"] = table#24 {\n    },\n    [\"Module:Blueprints/data/dev\"] = table#25 {\n    },\n    [\"Module:BuildRequire\"] = table#26 {\n        [\"Module:Icon\"] = 0,\n    },\n    [\"Module:CSV\"] = table#27 {\n        [\"Module:CSV\"] = 0,\n    },\n    [\"Module:ChickenArchive\"] = table#28 {\n        [\"Module:ChickenTest/data\"] = 0,\n        [\"Module:Icon/data\"] = 0,\n    },\n    [\"Module:ChickenTest\"] = table#29 {\n        [\"Module:Icon/data\"] = 0,\n    },\n    [\"Module:ChickenTest/data\"] = table#30 {\n    },\n    [\"Module:ChickenTest2\"] = table#31 {\n        [\"Module:ChickenTest/data\"] = 0,\n    },\n    [\"Module:Codex\"] = table#32 {\n        [\"Module:Codex/data\"] = 0,\n        [\"Module:Table\"] = 0,\n    },\n    [\"Module:Common\"] = table#33 {\n        [\"Module:Entrypoint\"] = 0,\n    },\n    [\"Module:Common/i18n\"] = table#34 {\n    },\n    [\"Module:Companions/infobox\"] = table#35 {\n        [\"Module:Baro\"] = 0,\n        [\"Module:Companions/data\"] = 0,\n        [\"Module:InfoboxBuilder\"] = 0,\n        [\"Module:Math\"] = 0,\n        [\"Module:Polarity\"] = 0,\n        [\"Module:Tooltips\"] = 0,\n        [\"Module:Vendors\"] = 0,\n        [\"Module:Version\"] = 0,\n    },\n    [\"Module:Conservation\"] = table#36 {\n        [\"Module:Conservation/data\"] = 0,\n        [\"Module:Table\"] = 0,\n    },\n    [\"Module:Conservation/infobox\"] = table#37 {\n        [\"Module:Conservation/data\"] = 0,\n        [\"Module:DropTables/data\"] = 0,\n        [\"Module:InfoboxBuilder\"] = 0,\n        [\"Module:Math\"] = 0,\n        [\"Module:Tooltips\"] = 0,\n        [\"Module:Tooltips/icon\"] = 0,\n        [\"Module:Version\"] = 0,\n    },\n    [\"Module:Conservation/testcases\"] = table#38 {\n    },\n    [\"Module:Cosmetics\"] = table#39 {\n        [\"Module:Companions/data\"] = 0,\n        [\"Module:Cosmetics/data\"] = 0,\n        [\"Module:Delay\"] = 0,\n        [\"Module:Warframes/data\"] = 0,\n        [\"Module:Weapons/data\"] = 0,\n    },\n    [\"Module:Cosmetics/data\"] = table#40 {\n        [\"Module:Cosmetics/data/animationset\"] = 0,\n        [\"Module:Cosmetics/data/archwingskin\"] = 0,\n        [\"Module:Cosmetics/data/armor\"] = 0,\n        [\"Module:Cosmetics/data/atomicyclelivery\"] = 0,\n        [\"Module:Cosmetics/data/auxiliary\"] = 0,\n        [\"Module:Cosmetics/data/emblem\"] = 0,\n        [\"Module:Cosmetics/data/emotionmodule\"] = 0,\n        [\"Module:Cosmetics/data/ephemera\"] = 0,\n        [\"Module:Cosmetics/data/face\"] = 0,\n        [\"Module:Cosmetics/data/facialaccessory\"] = 0,\n        [\"Module:Cosmetics/data/genemaskingkit\"] = 0,\n        [\"Module:Cosmetics/data/holster\"] = 0,\n        [\"Module:Cosmetics/data/kahlarmor\"] = 0,\n        [\"Module:Cosmetics/data/kaithe\"] = 0,\n        [\"Module:Cosmetics/data/kavatarmor\"] = 0,\n        [\"Module:Cosmetics/data/kdriveskin\"] = 0,\n        [\"Module:Cosmetics/data/kubrowarmor\"] = 0,\n        [\"Module:Cosmetics/data/kubrowcollar\"] = 0,\n        [\"Module:Cosmetics/data/landingcraftlivery\"] = 0,\n        [\"Module:Cosmetics/data/lotusskin\"] = 0,\n        [\"Module:Cosmetics/data/moaskin\"] = 0,\n        [\"Module:Cosmetics/data/necramechskin\"] = 0,\n        [\"Module:Cosmetics/data/parazonskin\"] = 0,\n        [\"Module:Cosmetics/data/pattern\"] = 0,\n        [\"Module:Cosmetics/data/railjackskin\"] = 0,\n        [\"Module:Cosmetics/data/scrawl\"] = 0,\n        [\"Module:Cosmetics/data/sentinelarmor\"] = 0,\n        [\"Module:Cosmetics/data/sentinelskin\"] = 0,\n        [\"Module:Cosmetics/data/signa\"] = 0,\n        [\"Module:Cosmetics/data/sugatra\"] = 0,\n        [\"Module:Cosmetics/data/sumdali\"] = 0,\n        [\"Module:Cosmetics/data/syandana\"] = 0,\n        [\"Module:Cosmetics/data/texture\"] = 0,\n        [\"Module:Cosmetics/data/transferencesuit\"] = 0,\n        [\"Module:Cosmetics/data/uncategorized\"] = 0,\n        [\"Module:Cosmetics/data/visageink\"] = 0,\n        [\"Module:Cosmetics/data/warframehelmet\"] = 0,\n        [\"Module:Cosmetics/data/warframeskin\"] = 0,\n        [\"Module:Cosmetics/data/weaponskin\"] = 0,\n        [\"Module:Cosmetics/userdata\"] = 0,\n        [\"Module:Sigils/data\"] = 0,\n        [\"Module:TennoGen/data\"] = 0,\n    },\n    [\"Module:Cosmetics/data/archwingskin\"] = table#41 {\n    },\n    [\"Module:Cosmetics/data/atomicyclelivery\"] = table#42 {\n    },\n    [\"Module:Cosmetics/data/auxiliary\"] = table#43 {\n    },\n    [\"Module:Cosmetics/data/emotionmodule\"] = table#44 {\n    },\n    [\"Module:Cosmetics/data/holster\"] = table#45 {\n    },\n    [\"Module:Cosmetics/data/kahlarmor\"] = table#46 {\n    },\n    [\"Module:Cosmetics/data/kaithe\"] = table#47 {\n    },\n    [\"Module:Cosmetics/data/kavatarmor\"] = table#48 {\n    },\n    [\"Module:Cosmetics/data/kdriveskin\"] = table#49 {\n    },\n    [\"Module:Cosmetics/data/kubrowarmor\"] = table#50 {\n    },\n    [\"Module:Cosmetics/data/kubrowcollar\"] = table#51 {\n    },\n    [\"Module:Cosmetics/data/landingcraftlivery\"] = table#52 {\n    },\n    [\"Module:Cosmetics/data/lotusskin\"] = table#53 {\n    },\n    [\"Module:Cosmetics/data/moaskin\"] = table#54 {\n    },\n    [\"Module:Cosmetics/data/necramechskin\"] = table#55 {\n    },\n    [\"Module:Cosmetics/data/parazonskin\"] = table#56 {\n    },\n    [\"Module:Cosmetics/data/pattern\"] = table#57 {\n    },\n    [\"Module:Cosmetics/data/railjackskin\"] = table#58 {\n    },\n    [\"Module:Cosmetics/data/scrawl\"] = table#59 {\n    },\n    [\"Module:Cosmetics/data/sentinelskin\"] = table#60 {\n    },\n    [\"Module:Cosmetics/data/signa\"] = table#61 {\n    },\n    [\"Module:Cosmetics/data/sugatra\"] = table#62 {\n    },\n    [\"Module:Cosmetics/data/sumdali\"] = table#63 {\n    },\n    [\"Module:Cosmetics/data/texture\"] = table#64 {\n    },\n    [\"Module:Cosmetics/data/uncategorized\"] = table#65 {\n    },\n    [\"Module:Cosmetics/data/validate\"] = table#66 {\n        [\"Module:Cosmetics/data\"] = 0,\n        [\"Module:Table\"] = 0,\n    },\n    [\"Module:Cosmetics/data/visageink\"] = table#67 {\n    },\n    [\"Module:Cosmetics/infobox\"] = table#68 {\n        [\"Module:Baro\"] = 0,\n        [\"Module:Cosmetics/data\"] = 0,\n        [\"Module:InfoboxBuilder\"] = 0,\n        [\"Module:TextIcons\"] = 0,\n        [\"Module:Tooltips\"] = 0,\n        [\"Module:Vendors\"] = 0,\n        [\"Module:Version\"] = 0,\n    },\n    [\"Module:Cost\"] = table#69 {\n        [\"Module:Blueprints/data\"] = 0,\n        [\"Module:Icon\"] = 0,\n        [\"Module:Math\"] = 0,\n        [\"Module:Research/data\"] = 0,\n        [\"Module:String\"] = 0,\n        [\"Module:Table\"] = 0,\n        [\"Module:Tooltips\"] = 0,\n    },\n    [\"Module:CroqueTest\"] = table#70 {\n        [\"Module:CroqueTest/BKT\"] = 0,\n        [\"Module:CroqueTest/data\"] = 0,\n        [\"Module:CroqueTest/keywords\"] = 0,\n        [\"Module:Research/data\"] = 0,\n        [\"Module:Warframes/data\"] = 0,\n        [\"Module:Weapons/data\"] = 0,\n    },\n    [\"Module:CroqueTest/data\"] = table#71 {\n    },\n    [\"Module:CroqueTest2\"] = table#72 {\n        [\"Module:Shared\"] = 0,\n        [\"Module:Version\"] = 0,\n    },\n    [\"Module:CroqueTestModular/modulstats\"] = table#73 {\n    },\n    [\"Module:DamageTypes\"] = table#74 {\n        [\"Module:DamageTypes/data\"] = 0,\n        [\"Module:Icon/data\"] = 0,\n        [\"Module:Tooltips\"] = 0,\n    },\n    [\"Module:DamageTypes/colorContrastAdjuster\"] = table#75 {\n    },\n    [\"Module:DamageTypes/testcases\"] = table#76 {\n    },\n    [\"Module:Database\"] = table#77 {\n    },\n    [\"Module:DatastoreManifest\"] = table#78 {\n    },\n    [\"Module:Decorations\"] = table#79 {\n        [\"Module:Decorations/data\"] = 0,\n        [\"Module:Math\"] = 0,\n        [\"Module:Table\"] = 0,\n        [\"Module:Tooltips\"] = 0,\n    },\n    [\"Module:Delay\"] = table#80 {\n    },\n    [\"Module:DevstreamParticipantsList\"] = table#81 {\n    },\n    [\"Module:Docbunto/cli\"] = table#82 {\n        [\"Dev:CLI\"] = 0,\n        [\"Dev:Docbunto\"] = 0,\n        [\"Dev:FrameTools\"] = 0,\n        [\"Dev:Json\"] = 0,\n    },\n    [\"Module:Docbunto/i18n\"] = table#83 {\n    },\n    [\"Module:DojoRoom/data\"] = table#84 {\n    },\n    [\"Module:DropTables/JSON\"] = table#85 {\n        [\"Module:DropTables/JSON/\"] = 0,\n    },\n    [\"Module:DropTables/JSON/Sorties\"] = table#86 {\n    },\n    [\"Module:DropTables/JSON/Transient\"] = table#87 {\n    },\n    [\"Module:Emptylord\"] = table#88 {\n        [\"Module:Emptylord/data\"] = 0,\n    },\n    [\"Module:Emptylord/getter\"] = table#89 {\n        [\"Module:Emptylord/data\"] = 0,\n    },\n    [\"Module:Enemies/data\"] = table#90 {\n        [\"Module:Enemies/data\"] = 0,\n        [\"Module:LuaSerializer\"] = 0,\n    },\n    [\"Module:Enemies/data/anarchs\"] = table#91 {\n    },\n    [\"Module:Enemies/data/narmer\"] = table#92 {\n    },\n    [\"Module:Enemies/data/orokin\"] = table#93 {\n    },\n    [\"Module:Enemies/data/pre\"] = table#94 {\n    },\n    [\"Module:Enemies/data/scaldra\"] = table#95 {\n    },\n    [\"Module:Enemies/data/sentient\"] = table#96 {\n    },\n    [\"Module:Enemies/data/stalker\"] = table#97 {\n    },\n    [\"Module:Enemies/data/techrot\"] = table#98 {\n    },\n    [\"Module:Enemies/data/themurmur\"] = table#99 {\n    },\n    [\"Module:Enemies/infobox/dev\"] = table#100 {\n    },\n    [\"Module:Entrypoint\"] = table#101 {\n    },\n    [\"Module:Enum/data\"] = table#102 {\n    },\n    [\"Module:FINNER DropTables Test\"] = table#103 {\n    },\n    [\"Module:FINNER Icon Test\"] = table#104 {\n    },\n    [\"Module:FINNER Test/data\"] = table#105 {\n    },\n    [\"Module:FINNER Test/data/4\"] = table#106 {\n    },\n    [\"Module:FINNER Test/data/5\"] = table#107 {\n    },\n    [\"Module:FINNER Test/data/8\"] = table#108 {\n    },\n    [\"Module:FINNER Warframe Test\"] = table#109 {\n    },\n    [\"Module:FINNER Weapon Test\"] = table#110 {\n    },\n    [\"Module:FactionScript\"] = table#111 {\n    },\n    [\"Module:FactionScript/data\"] = table#112 {\n    },\n    [\"Module:Factions/data\"] = table#113 {\n    },\n    [\"Module:FallbackList\"] = table#114 {\n    },\n    [\"Module:FalterTest\"] = table#115 {\n    },\n    [\"Module:FalterTest/data\"] = table#116 {\n    },\n    [\"Module:Flaicher\"] = table#117 {\n    },\n    [\"Module:Flaicher/Conv\"] = table#118 {\n    },\n    [\"Module:Flaicher/Mods\"] = table#119 {\n    },\n    [\"Module:Flaicher/dispoData\"] = table#120 {\n    },\n    [\"Module:FlaicherTest\"] = table#121 {\n    },\n    [\"Module:Focus\"] = table#122 {\n    },\n    [\"Module:Focus/data/archived\"] = table#123 {\n    },\n    [\"Module:Focus/infobox\"] = table#124 {\n    },\n    [\"Module:FormatingTool\"] = table#125 {\n    },\n    [\"Module:FormatingTool/data\"] = table#126 {\n    },\n    [\"Module:FormatingTool/missions\"] = table#127 {\n    },\n    [\"Module:Gallery\"] = table#128 {\n    },\n    [\"Module:Gallery/testcases\"] = table#129 {\n    },\n    [\"Module:GigaTest\"] = table#130 {\n    },\n    [\"Module:GuaranteedRewards/data\"] = table#131 {\n    },\n    [\"Module:HexTest\"] = table#132 {\n    },\n    [\"Module:I18n\"] = table#133 {\n    },\n    [\"Module:I18n/testcases\"] = table#134 {\n    },\n    [\"Module:Icon\"] = table#135 {\n    },\n    [\"Module:Icon/data\"] = table#136 {\n    },\n    [\"Module:Icon/testcases\"] = table#137 {\n    },\n    [\"Module:Infobox\"] = table#138 {\n    },\n    [\"Module:Infobox/i18n\"] = table#139 {\n    },\n    [\"Module:InfoboxBuilder\"] = table#140 {\n    },\n    [\"Module:InfoboxBuilder/dev\"] = table#141 {\n    },\n    [\"Module:InfoboxGallery\"] = table#142 {\n    },\n    [\"Module:Inspect\"] = table#143 {\n    },\n    [\"Module:InternalNames\"] = table#144 {\n    },\n    [\"Module:JSON\"] = table#145 {\n    },\n    [\"Module:KeyBindings\"] = table#146 {\n    },\n    [\"Module:KeyBindings/data\"] = table#147 {\n    },\n    [\"Module:Keys/data\"] = table#148 {\n    },\n    [\"Module:Lang/ISO 639 synonyms\"] = table#149 {\n    },\n    [\"Module:Lang/configuration\"] = table#150 {\n    },\n    [\"Module:Lang/data\"] = table#151 {\n    },\n    [\"Module:Lang/data/iana regions\"] = table#152 {\n    },\n    [\"Module:Lang/data/iana scripts\"] = table#153 {\n    },\n    [\"Module:Lang/data/iana suppressed scripts\"] = table#154 {\n    },\n    [\"Module:Lang/data/iana variants\"] = table#155 {\n    },\n    [\"Module:Lang/data/is latn data\"] = table#156 {\n    },\n    [\"Module:LanguageList\"] = table#157 {\n    },\n    [\"Module:Lexer\"] = table#158 {\n    },\n    [\"Module:Localization\"] = table#159 {\n    },\n    [\"Module:Lua\"] = table#160 {\n    },\n    [\"Module:LuaClassSystem\"] = table#161 {\n    },\n    [\"Module:LuaSerializer\"] = table#162 {\n    },\n    [\"Module:LuaSerializer/dev\"] = table#163 {\n    },\n    [\"Module:LuaSerializerTwo\"] = table#164 {\n    },\n    [\"Module:Map\"] = table#165 {\n    },\n    [\"Module:Map/testcases\"] = table#166 {\n    },\n    [\"Module:MasteryRank\"] = table#167 {\n    },\n    [\"Module:MasteryRank/dev\"] = table#168 {\n    },\n    [\"Module:Math/i18n\"] = table#169 {\n    },\n    [\"Module:Math/testcases\"] = table#170 {\n    },\n    [\"Module:Math/testcases/module\"] = table#171 {\n    },\n    [\"Module:Maximization\"] = table#172 {\n    },\n    [\"Module:Maximization/data\"] = table#173 {\n    },\n    [\"Module:Mbox\"] = table#174 {\n    },\n    [\"Module:Mbox/i18n\"] = table#175 {\n    },\n    [\"Module:Missions\"] = table#176 {\n    },\n    [\"Module:Missions/dev\"] = table#177 {\n    },\n    [\"Module:Missions/infobox\"] = table#178 {\n    },\n    [\"Module:Missions/page\"] = table#179 {\n    },\n    [\"Module:Mods\"] = table#180 {\n    },\n    [\"Module:Mods/csv\"] = table#181 {\n    },\n    [\"Module:Mods/csv2\"] = table#182 {\n    },\n    [\"Module:Mods/data/validate\"] = table#183 {\n    },\n    [\"Module:Mods/infobox\"] = table#184 {\n    },\n    [\"Module:Mods/itemCompatibility\"] = table#185 {\n    },\n    [\"Module:Mods/itemCompatibility/data\"] = table#186 {\n    },\n    [\"Module:Mods/testcases\"] = table#187 {\n    },\n    [\"Module:Modular/data\"] = table#188 {\n    },\n    [\"Module:Modular/generator\"] = table#189 {\n    },\n    [\"Module:ModuleTest\"] = table#190 {\n    },\n    [\"Module:Music/data\"] = table#191 {\n    },\n    [\"Module:MyCodex\"] = table#192 {\n    },\n    [\"Module:Navbox\"] = table#193 {\n    },\n    [\"Module:Navigation\"] = table#194 {\n    },\n    [\"Module:Navigation/dev\"] = table#195 {\n    },\n    [\"Module:NightwaveActs\"] = table#196 {\n    },\n    [\"Module:NightwaveActs/acts.json\"] = table#197 {\n    },\n    [\"Module:NightwaveActs/dev\"] = table#198 {\n    },\n    [\"Module:Placeholder\"] = table#199 {\n    },\n    [\"Module:Polarity\"] = table#200 {\n    },\n    [\"Module:Reference\"] = table#201 {\n    },\n    [\"Module:ReleaseStatus\"] = table#202 {\n    },\n    [\"Module:ReleaseStatus/data\"] = table#203 {\n    },\n    [\"Module:ReleaseStatus/i18n\"] = table#204 {\n    },\n    [\"Module:RemoveCategory\"] = table#205 {\n    },\n    [\"Module:Resources\"] = table#206 {\n    },\n    [\"Module:Resources/data/validate\"] = table#207 {\n    },\n    [\"Module:Resources/infobox\"] = table#208 {\n    },\n    [\"Module:Sandbox\"] = table#209 {\n    },\n    [\"Module:Sandbox/ArbitraryMary/SigilGallery\"] = table#210 {\n    },\n    [\"Module:Sandbox/DutyS12345\"] = table#211 {\n    },\n    [\"Module:Sandbox/Hilycker/SortTest\"] = table#212 {\n    },\n    [\"Module:Sandbox/Hilycker/SortTest/data\"] = table#213 {\n    },\n    [\"Module:Sandbox/Moxian\"] = table#214 {\n    },\n    [\"Module:Sandbox/ScribuntoDebugConsole\"] = table#215 {\n    },\n    [\"Module:Sandbox/Sean/Tooltips\"] = table#216 {\n    },\n    [\"Module:Sandbox/Sean/Tooltips/icon\"] = table#217 {\n    },\n    [\"Module:Sandbox/Sean/Warframes\"] = table#218 {\n    },\n    [\"Module:Sandbox/Sean/Warframes/infobox\"] = table#219 {\n    },\n    [\"Module:Sandbox/Sean/Weapons/nav\"] = table#220 {\n    },\n    [\"Module:Sandbox/SkipThisAd/DropTables\"] = table#221 {\n    },\n    [\"Module:Sandbox/Vondak/Test\"] = table#222 {\n    },\n    [\"Module:Sandbox/lonnstyle/Warframes/infobox\"] = table#223 {\n    },\n    [\"Module:ScientiaStances/data\"] = table#224 {\n    },\n    [\"Module:ScientiaStances/sharedCombosData\"] = table#225 {\n    },\n    [\"Module:ScientiaTest\"] = table#226 {\n    },\n    [\"Module:ScientiaTest/i18n\"] = table#227 {\n    },\n    [\"Module:Shared\"] = table#228 {\n    },\n    [\"Module:Shared/testcases\"] = table#229 {\n    },\n    [\"Module:SnekwTest\"] = table#230 {\n    },\n    [\"Module:SpxceVendor\"] = table#231 {\n    },\n    [\"Module:Stances\"] = table#232 {\n    },\n    [\"Module:Stances/dev\"] = table#233 {\n    },\n    [\"Module:StatObject\"] = table#234 {\n    },\n    [\"Module:String\"] = table#235 {\n    },\n    [\"Module:String/testcases\"] = table#236 {\n    },\n    [\"Module:Switch Infobox\"] = table#237 {\n    },\n    [\"Module:Syndicates/data\"] = table#238 {\n    },\n    [\"Module:SynthTest\"] = table#239 {\n    },\n    [\"Module:Table\"] = table#240 {\n    },\n    [\"Module:Table/testcases\"] = table#241 {\n    },\n    [\"Module:Tabs\"] = table#242 {\n    },\n    [\"Module:TennoGen\"] = table#243 {\n    },\n    [\"Module:TennoScript\"] = table#244 {\n    },\n    [\"Module:TestHarness/i18n\"] = table#245 {\n    },\n    [\"Module:Text\"] = table#246 {\n    },\n    [\"Module:TextIcons\"] = table#247 {\n    },\n    [\"Module:Tooltips\"] = table#248 {\n    },\n    [\"Module:Tooltips/data\"] = table#249 {\n    },\n    [\"Module:Tooltips/data/Ability\"] = table#250 {\n    },\n    [\"Module:Tooltips/data/Arcane\"] = table#251 {\n    },\n    [\"Module:Tooltips/data/DamageTypes\"] = table#252 {\n    },\n    [\"Module:Tooltips/data/Mods\"] = table#253 {\n    },\n    [\"Module:Tooltips/data/Void\"] = table#254 {\n    },\n    [\"Module:Tooltips/data/Warframes\"] = table#255 {\n    },\n    [\"Module:Tooltips/data/Weapons\"] = table#256 {\n    },\n    [\"Module:Tooltips/dev\"] = table#257 {\n    },\n    [\"Module:Tooltips/icon\"] = table#258 {\n    },\n    [\"Module:Tooltips/icon/dev\"] = table#259 {\n    },\n    [\"Module:Tooltips/testcases\"] = table#260 {\n    },\n    [\"Module:Tooltips/tip/dev\"] = table#261 {\n    },\n    [\"Module:TrajosAcquisition\"] = table#262 {\n    },\n    [\"Module:TrajosVoid\"] = table#263 {\n    },\n    [\"Module:TranslationExamples\"] = table#264 {\n    },\n    [\"Module:Unicode data\"] = table#265 {\n    },\n    [\"Module:Unindent\"] = table#266 {\n    },\n    [\"Module:Upgrades/data\"] = table#267 {\n    },\n    [\"Module:User\"] = table#268 {\n    },\n    [\"Module:UserError\"] = table#269 {\n    },\n    [\"Module:Vehicles/data\"] = table#270 {\n    },\n    [\"Module:Vehicles/infobox\"] = table#271 {\n    },\n    [\"Module:Vendors\"] = table#272 {\n    },\n    [\"Module:Version\"] = table#273 {\n    },\n    [\"Module:VideoGallery\"] = table#274 {\n    },\n    [\"Module:Void/data/validate\"] = table#275 {\n    },\n    [\"Module:Void/dev\"] = table#276 {\n    },\n    [\"Module:Void/page\"] = table#277 {\n    },\n    [\"Module:VoidByReward\"] = table#278 {\n    },\n    [\"Module:WDSButton\"] = table#279 {\n    },\n    [\"Module:WDSButton/data\"] = table#280 {\n    },\n    [\"Module:Warframes\"] = table#281 {\n    },\n    [\"Module:Warframes/Conclave/data\"] = table#282 {\n    },\n    [\"Module:Warframes/infobox\"] = table#283 {\n    },\n    [\"Module:Warframes/testcases\"] = table#284 {\n    },\n    [\"Module:Weapons/Conclave/data\"] = table#285 {\n    },\n    [\"Module:Weapons/characteristics\"] = table#286 {\n    },\n    [\"Module:Weapons/compare\"] = table#287 {\n    },\n    [\"Module:Weapons/comptable\"] = table#288 {\n    },\n    [\"Module:Weapons/csv\"] = table#289 {\n    },\n    [\"Module:Weapons/data\"] = table#290 {\n    },\n    [\"Module:Weapons/data/credits\"] = table#291 {\n    },\n    [\"Module:Weapons/data/misc\"] = table#292 {\n    },\n    [\"Module:Weapons/data/validate\"] = table#293 {\n    },\n    [\"Module:Weapons/dev\"] = table#294 {\n    },\n    [\"Module:Weapons/infobox\"] = table#295 {\n    },\n    [\"Module:Weapons/nav\"] = table#296 {\n    },\n    [\"Module:Weapons/ppdata/seeder\"] = table#297 {\n    },\n    [\"Module:Weapons/preprocess\"] = table#298 {\n    },\n    [\"Module:Weapons/sandbox\"] = table#299 {\n    },\n    [\"Module:Weapons/testcases\"] = table#300 {\n    },\n    [\"Module:WorldState\"] = table#301 {\n    },\n    [\"Module:Worldstate/data\"] = table#302 {\n    },\n    [\"Module:Yesno\"] = table#303 {\n    },\n    [\"Module:Yesno/testcases\"] = table#304 {\n    },\n}.\u003C/p\u003E\u003Cp\u003EBacktrace:\u003C/p\u003E\u003Col class=\"scribunto-trace\"\u003E\u003Cli\u003E\u003Cstrong\u003E[C]\u003C/strong\u003E: in function \"error\"\u003C/li\u003E\u003Cli\u003E\u003Cstrong\u003Emw.lua:618\u003C/strong\u003E:\u0026#160;?\u003C/li\u003E\u003Cli\u003E\u003Cstrong\u003E[C]\u003C/strong\u003E:\u0026#160;?\u003C/li\u003E\u003Cli\u003E\u003Cstrong\u003E[C]\u003C/strong\u003E: in function \"preprocess\"\u003C/li\u003E\u003Cli\u003E\u003Cstrong\u003Emw.lua:415\u003C/strong\u003E: in function \"preprocess\"\u003C/li\u003E\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://wiki.warframe.com/w/Module:I18n?action=edit#mw-ce-l411\"\u003EModule:I18n:411\u003C/a\u003E\u003C/strong\u003E: in function \"getLang\"\u003C/li\u003E\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://wiki.warframe.com/w/Module:I18n?action=edit#mw-ce-l242\"\u003EModule:I18n:242\u003C/a\u003E\u003C/strong\u003E: in function \"useUserLang\"\u003C/li\u003E\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://wiki.warframe.com/w/Module:I18n?action=edit#mw-ce-l359\"\u003EModule:I18n:359\u003C/a\u003E\u003C/strong\u003E: in function \"loadMessages\"\u003C/li\u003E\u003Cli\u003E\u003Cstrong\u003E\u003Ca href=\"https://wiki.warframe.com/w/Module:Docbunto?action=edit#mw-ce-l35\"\u003EModule:Docbunto:35\u003C/a\u003E\u003C/strong\u003E: in main chunk\u003C/li\u003E\u003Cli\u003E\u003Cstrong\u003E[C]\u003C/strong\u003E: in function \"pcall\"\u003C/li\u003E\u003Cli\u003E\u003Cstrong\u003Emw.lua:542\u003C/strong\u003E:\u0026#160;?\u003C/li\u003E\u003Cli\u003E\u003Cstrong\u003E[C]\u003C/strong\u003E:\u0026#160;?\u003C/li\u003E\u003C/ol\u003E","wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["brands","architecture","bitness","fullVersionList","mobile","model","platform","platformVersion"],"wgSiteNoticeId":"1.9"};
+RLSTATE={"ext.gadget.charinsert-styles":"ready","site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","mediawiki.special":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","mediawiki.htmlform.ooui.styles":"ready","ext.pygments":"ready","skins.vector.styles.legacy":"ready","skins.vector.search.codex.styles":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.embedVideo.styles":"ready","ext.dismissableSiteNotice.styles":"ready"};RLPAGEMODULES=["ext.scribunto.errors","ext.pygments.view","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.legacy.js","ext.gadget.countdown","ext.gadget.NightwaveActs","ext.gadget.CycleClock","ext.gadget.enemyinfoboxslider","ext.gadget.enemyinfoboxslider-dev","ext.gadget.calculator","ext.gadget.maximization","ext.gadget.RelicTable","ext.gadget.Tooltips","ext.gadget.maps","ext.gadget.Mbox","ext.gadget.CollapseExpandButtons","ext.gadget.fixedWidthToggle","ext.gadget.lightmode","ext.gadget.checkboxList","ext.gadget.highlightTable","ext.gadget.autosort","ext.gadget.MathVM","ext.gadget.contributions","ext.gadget.profileTags","ext.gadget.charinsert","ext.gadget.I18n","ext.gadget.topLangLinks","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.embedVideo.overlay","ext.checkUser.clientHints","ext.popups","ext.dismissableSiteNotice"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.dismissableSiteNotice.styles%7Cext.embedVideo.styles%7Cext.pygments%7Cext.visualEditor.desktopArticleTarget.noscript%7Cjquery.makeCollapsible.styles%7Cmediawiki.htmlform.ooui.styles%7Cmediawiki.special%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.search.codex.styles%7Cskins.vector.styles.legacy&amp;only=styles&amp;skin=vector">
+<script async="" src="/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=ext.gadget.charinsert-styles&amp;only=styles&amp;skin=vector">
+<link rel="stylesheet" href="/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector">
+<meta name="generator" content="MediaWiki 1.45.3">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="DependencyGraph outputs a module dependency graph of this wiki&#039;s modules using the DOT language.">
+<meta property="og:description" content="DependencyGraph outputs a module dependency graph of this wiki&#039;s modules using the DOT language.">
+<meta name="google-site-verification" content="Paakgy3IdJbWiNp7FePRgGRXexaEyu4hdDXy-ubnV6A">
+<meta property="og:title" content="Module:DependencyGraph - WARFRAME Wiki">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="WARFRAME Wiki">
+<meta property="og:url" content="https://wiki.warframe.com/w/Module:DependencyGraph">
+<meta property="og:image" content="https://wiki.warframe.com/images/Wiki.png">
+<meta property="og:image:width" content="341">
+<meta property="og:image:height" content="270">
+<meta name="viewport" content="width=1120">
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/w/Module:DependencyGraph?action=edit">
+<link rel="apple-touch-icon" href="/images/Apple-touch-icon.png">
+<link rel="icon" href="/images/Favicon.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/rest.php/v1/search" title="Official WARFRAME Wiki (en)">
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.warframe.com/api.php?action=rsd">
+<link rel="canonical" href="https://wiki.warframe.com/w/Module:DependencyGraph">
+<link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">
+</head>
+<body class="skin-vector-legacy mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-828 ns-subject mw-editable page-Module_DependencyGraph rootpage-Module_DependencyGraph skin-vector action-view wgl-darkmode wgl-theme-dark"><div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	<div id="siteNotice"><div id="mw-dismissablenotice-anonplace"></div><script>(function(){var node=document.getElementById("mw-dismissablenotice-anonplace");if(node){node.outerHTML="\u003Cdiv class=\"mw-dismissable-notice\"\u003E\u003Cdiv class=\"mw-dismissable-notice-close\"\u003E\u003Ca tabindex=\"0\" role=\"button\"\u003E\u003Cspan class=\"dismiss-icon\"\u003E\u003Csvg width=\"20\" height=\"20\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\"\u003E\u003Ctitle\u003Eclose\u003C/title\u003E\u003Cpath d=\"M3.636 2.224l14.142 14.142-1.414 1.414L2.222 3.638z\" /\u003E\u003Cpath d=\"M17.776 3.636L3.634 17.778 2.22 16.364 16.362 2.222z\"/\u003E\u003C/svg\u003E\u003C/span\u003E\u003Cspan class=\"dismiss-text\"\u003Edismiss\u003C/span\u003E\u003C/a\u003E\u003C/div\u003E\u003Cdiv class=\"mw-dismissable-notice-body\"\u003E\u003Cdiv id=\"localNotice\" data-nosnippet=\"\"\u003E\u003Cdiv class=\"sitenotice\"\u003E\u003Cstyle data-mw-deduplicate=\"TemplateStyles:r2775059\"\u003E.mw-parser-output .mbox{max-width:85%;display:flex;position:relative;color:var(--text-color);background-color:var(--body-mid);border-left:10px solid #1e90ff;border-bottom-right-radius:15px;margin:0 auto;margin-bottom:5px;min-height:32px}.mw-parser-output .mbox.mbox-type-red{border-left-color:#ff0000}.mw-parser-output .mbox.mbox-type-orange{border-left-color:#f28500}.mw-parser-output .mbox.mbox-type-yellow{border-left-color:#f4c430}.mw-parser-output .mbox.mbox-type-green{border-left-color:#228b22}.mw-parser-output .mbox.mbox-type-blue{border-left-color:#1e90ff}.mw-parser-output .mbox.mbox-type-purple{border-left-color:#9932cc}.mw-parser-output .mbox.mbox-type-gray{border-left-color:#4d4d4d}.mw-parser-output .mbox.mbox-type-gold{border-left-color:#e4bc53}.mw-parser-output .mbox.mbox-type-silver{border-left-color:#949b9d}.mw-parser-output .mbox__content{display:table;box-sizing:border-box;width:100%;padding-right:10px}.mw-parser-output .mbox__content__image{display:table-cell;width:40px;height:100%;text-align:center;vertical-align:middle}.mw-parser-output .mbox__content__image .floatleft{margin:0 10px 0 0}.mw-parser-output .mbox__content__wrapper{display:table-cell;vertical-align:middle;padding:5px}.mw-parser-output .mbox__content__header{font-size:small;display:block;font-weight:bold;padding-bottom:5px}.mw-parser-output .mbox__content__text{display:block}.mw-parser-output .mbox__content__text__comment{font-weight:normal;font-style:italic}.mw-parser-output .mbox__content__aside{display:table-cell;width:100px;vertical-align:middle;text-align:center;padding-left:15px;border-left:1px solid var(--text-color)}.mw-parser-output .mbox figure[typeof=\"mw:File\"]{margin-bottom:0}.mw-parser-output .mbox__min{position:absolute;right:24px;top:0;padding:0 7px 0 0;font-weight:bold;font-size:20px;color:var(--text-color);cursor:pointer;transition:all .15s ease-in}.mw-parser-output .mbox__min:hover{color:#1e90ff}.mw-parser-output .mbox__min:focus{outline:0}.mw-parser-output .mbox__min:after{content:\"–\"}.mw-parser-output .mw-collapsed+.mbox__min:after{content:\"+\"}.mw-parser-output .mbox__close{position:absolute;right:0;top:0;padding:0 7px 0 0;font-size:24px;color:var(--text-color);cursor:pointer;transition:all .15s ease-in}.mw-parser-output .mbox__close:hover{color:#e6173c}.mw-parser-output .mbox__close:focus{outline:0}@media print{.mw-parser-output .mbox{display:none}}\u003C/style\u003E\u003Ctable style=\"clear:both; width: fit-content; border:0; font-size:.8em; position:relative; margin-left:auto; margin-right:auto; background-color: var(--siteNotice-bg);\" class=\"mbox noexcerpt notpageimage mbox-type-blue fixed-close\"\u003E\n\u003Ctbody\u003E\u003Ctr\u003E\n\u003Ctd style=\"width:1em; background-color:var(--siteNotice-accent)\"\u003E\u003C/td\u003E\n\u003Cth style=\"padding:.5em; text-align:center;\"\u003E\u003Cspan class=\"mw-default-size notpageimage\" typeof=\"mw:File\"\u003E\u003Cspan\u003E\u003Cimg src=\"/images/thumb/Wiki.png/63px-Wiki.png?cff4d\" decoding=\"async\" loading=\"lazy\" width=\"63\" height=\"50\" class=\"mw-file-element\" srcset=\"/images/thumb/Wiki.png/126px-Wiki.png?cff4d 2x\" data-file-width=\"341\" data-file-height=\"270\" /\u003E\u003C/span\u003E\u003C/span\u003E\u003C/th\u003E\n\u003Ctd style=\"padding: 0 2em;\"\u003E\n\u003Ccenter\u003E\u003Cbig\u003EThe WARFRAME Wiki now has \u003Cb\u003E\u003Ca class=\"text\" href=\"https://ru.wiki.warframe.com/\"\u003E\u003Cspan style=\"color: var(--siteNotice-link)\"\u003ERussian\u003C/span\u003E\u003C/a\u003E\u003C/b\u003E, \u003Cb\u003E\u003Ca class=\"text\" href=\"https://fr.wiki.warframe.com/\"\u003E\u003Cspan style=\"color: var(--siteNotice-link)\"\u003EFrench\u003C/span\u003E\u003C/a\u003E\u003C/b\u003E, and \u003Cb\u003E\u003Ca class=\"text\" href=\"https://de.wiki.warframe.com/\"\u003E\u003Cspan style=\"color: var(--siteNotice-link)\"\u003EGerman\u003C/span\u003E\u003C/a\u003E\u003C/b\u003E translation projects!\u003Cbr /\u003ECheck them out and join the \u003Cb\u003E\u003Ca target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://discord.gg/U8kPksk\"\u003E\u003Cspan style=\"color: var(--siteNotice-link)\"\u003EWiki Discord\u003C/span\u003E\u003C/a\u003E\u003C/b\u003E to discuss the project!\u003C/big\u003E\u003C/center\u003E\u003C/td\u003E\n\u003C/tr\u003E\n\u003C/tbody\u003E\u003C/table\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E\u003C/div\u003E";}}());</script></div>
+	<div class="mw-indicators">
+	</div>
+	<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-namespace">Module</span><span class="mw-page-title-separator">:</span><span class="mw-page-title-main">DependencyGraph</span></h1>
+	<div id="bodyContent" class="vector-body">
+		<div id="siteSub" class="noprint">From WARFRAME Wiki</div>
+		<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+		<div id="contentSub2"></div>
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+		<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><p><br />
+<b>DependencyGraph</b> outputs a module dependency graph of this wiki's modules using the <a href="https://en.wikipedia.org/wiki/DOT_(graph_description_language)" class="extiw" title="wikipedia:DOT (graph description language)">DOT language</a>. <br />
+</p><p>Requires <a href="/w/Community:Help:DynamicPageList?action=edit&amp;redlink=1" class="new" title="Community:Help:DynamicPageList (page does not exist)">Extension:DynamicPageList</a> enabled on your wiki.
+</p><p>Recommended layout algorithms for rendering resultant DOT file:
+</p>
+<ul><li><code>fdp</code>/<code>sfdp</code> - useful for viewing entire codebase w/ clustering of module families</li>
+<li><code>circo</code> - circular layout, useful for finding modules/submodules with the fewest dependencies</li></ul>
+<p>See <a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://www.rdocumentation.org/packages/Rgraphviz/versions/2.16.0/topics/GraphvizLayouts">https://www.rdocumentation.org/packages/Rgraphviz/versions/2.16.0/topics/GraphvizLayouts</a> for more details on these layout algorithms. 
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1"><a href="#Usage"><span class="tocnumber">1</span> <span class="toctext">Usage</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Direct_Invocation"><span class="tocnumber">1.1</span> <span class="toctext">Direct Invocation</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Module_DOT_Output"><span class="tocnumber">2</span> <span class="toctext">Module DOT Output</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Non-clustered"><span class="tocnumber">2.1</span> <span class="toctext">Non-clustered</span></a></li>
+<li class="toclevel-2"><a href="#Clustered"><span class="tocnumber">2.2</span> <span class="toctext">Clustered</span></a></li>
+<li class="toclevel-2"><a href="#Cleaning_up_non-clustered_graph"><span class="tocnumber">2.3</span> <span class="toctext">Cleaning up non-clustered graph</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Wiki&#39;s_Dependency_Graphs"><span class="tocnumber">3</span> <span class="toctext">Wiki's Dependency Graphs</span></a></li>
+<li class="toclevel-1"><a href="#Documentation"><span class="tocnumber">4</span> <span class="toctext">Documentation</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Package_items"><span class="tocnumber">4.1</span> <span class="toctext">Package items</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#See_Also"><span class="tocnumber">5</span> <span class="toctext">See Also</span></a></li>
+<li class="toclevel-1"><a href="#Code"><span class="tocnumber">6</span> <span class="toctext">Code</span></a></li>
+</ul>
+</div>
+
+<div class="mw-heading mw-heading2"><h2 id="Usage">Usage</h2></div>
+<div class="mw-heading mw-heading3"><h3 id="Direct_Invocation">Direct Invocation</h3></div>
+<pre>{{#invoke:DependencyGraph|main}}</pre>
+<div class="mw-heading mw-heading2"><h2 id="Module_DOT_Output">Module DOT Output</h2></div>
+<div class="mw-heading mw-heading3"><h3 id="Non-clustered">Non-clustered</h3></div>
+<div align="center"><div class="mw-customtoggle-clustered" style="cursor:pointer; position:relative; width:85%; background: linear-gradient(#768993, #55646d); display:inline-block; padding:0px 2px; margin:2px; line-height:20px; color:white; font-size:13px;border-radius: 3px;">View DOT file<span style="position:absolute;left:5px;">&#9662;</span><span style="position:absolute;right:5px;">&#9662;</span></div></div>
+<div id="mw-customcollapsible-clustered" class="mw-collapsible mw-collapsed" style="display:flow-root;">
+<p><strong class="error"><span class="scribunto-error mw-scribunto-error-5c222203">Lua error: Module:DependencyGraph:76: &quot;Module:Enemies/data/pre&quot; does not exist
+table#1 {
+</span></strong></p><strong class="error">
+<pre>   [&quot;Module:Ability&quot;] = table#2 {
+       [&quot;Module:Ability/Conclave/data&quot;] = 0,
+       [&quot;Module:Ability/data&quot;] = 0,
+   },
+   [&quot;Module:Ability/Conclave/data&quot;] = table#3 {
+   },
+   [&quot;Module:Ability/infobox&quot;] = table#4 {
+       [&quot;Module:Ability/Conclave/data&quot;] = 0,
+       [&quot;Module:Ability/data&quot;] = 0,
+       [&quot;Module:TextIcons&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+       [&quot;Module:Version&quot;] = 0,
+   },
+   [&quot;Module:Ability/infoboxTEST&quot;] = table#5 {
+       [&quot;Module:Ability/Conclave/data&quot;] = 0,
+       [&quot;Module:Ability/data&quot;] = 0,
+       [&quot;Module:Maximization&quot;] = 0,
+       [&quot;Module:TextIcons&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+       [&quot;Module:Version&quot;] = 0,
+   },
+   [&quot;Module:Acquisition&quot;] = table#6 {
+       [&quot;Module:Blueprints/data&quot;] = 0,
+       [&quot;Module:DropTables/data&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+   },
+   [&quot;Module:Acquisition/dev&quot;] = table#7 {
+       [&quot;Dev:Entrypoint&quot;] = 0,
+       [&quot;Dev:User error&quot;] = 0,
+       [&quot;Module:Acquisition/data&quot;] = 0,
+       [&quot;Module:Icon&quot;] = 0,
+       [&quot;Module:Lua&quot;] = 0,
+       [&quot;Module:Math&quot;] = 0,
+       [&quot;Module:String&quot;] = 0,
+   },
+   [&quot;Module:Acquisition/testcases&quot;] = table#8 {
+       [&quot;Dev:User error&quot;] = 0,
+   },
+   [&quot;Module:AnexeraTest1&quot;] = table#9 {
+       [&quot;Module:Arguments&quot;] = 0,
+       [&quot;Module:Baro/data&quot;] = 0,
+       [&quot;Module:Baro/data/typeConfigs&quot;] = 0,
+       [&quot;Module:Entrypoint&quot;] = 0,
+       [&quot;Module:Table&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+   },
+   [&quot;Module:Animal/infobox&quot;] = table#10 {
+       [&quot;Module:InfoboxBuilder&quot;] = 0,
+       [&quot;Module:Resources/data&quot;] = 0,
+   },
+   [&quot;Module:Arcane&quot;] = table#11 {
+       [&quot;Module:Arcane/data&quot;] = 0,
+       [&quot;Module:String&quot;] = 0,
+       [&quot;Module:Table&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+   },
+   [&quot;Module:Arcane/dev&quot;] = table#12 {
+   },
+   [&quot;Module:Arcane/infobox&quot;] = table#13 {
+       [&quot;Module:Arcane/data&quot;] = 0,
+       [&quot;Module:DropTables&quot;] = 0,
+       [&quot;Module:DropTables/data&quot;] = 0,
+       [&quot;Module:InfoboxBuilder&quot;] = 0,
+       [&quot;Module:Table&quot;] = 0,
+       [&quot;Module:TextIcons&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+       [&quot;Module:Vendors&quot;] = 0,
+       [&quot;Module:Version&quot;] = 0,
+   },
+   [&quot;Module:ArchModBox&quot;] = table#14 {
+       [&quot;Module:InfoboxBuilder&quot;] = 0,
+   },
+   [&quot;Module:Arguments&quot;] = table#15 {
+       [&quot;Module:Arguments&quot;] = 0,
+       [&quot;Module:I18n&quot;] = 0,
+   },
+   [&quot;Module:Arguments/i18n&quot;] = table#16 {
+   },
+   [&quot;Module:Avionics&quot;] = table#17 {
+       [&quot;Module:Avionics/data&quot;] = 0,
+       [&quot;Module:Icon&quot;] = 0,
+       [&quot;Module:String&quot;] = 0,
+       [&quot;Module:Table&quot;] = 0,
+       [&quot;Module:Version&quot;] = 0,
+   },
+   [&quot;Module:Avionics/data&quot;] = table#18 {
+       [&quot;Module:Avionics/data/desc&quot;] = 0,
+       [&quot;Module:Icon&quot;] = 0,
+       [&quot;Module:Version&quot;] = 0,
+   },
+   [&quot;Module:Avionics/data/desc&quot;] = table#19 {
+   },
+   [&quot;Module:Baro&quot;] = table#20 {
+       [&quot;Module:Arguments&quot;] = 0,
+       [&quot;Module:Baro/data&quot;] = 0,
+       [&quot;Module:Baro/data/typeConfigs&quot;] = 0,
+       [&quot;Module:Entrypoint&quot;] = 0,
+       [&quot;Module:Table&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+   },
+   [&quot;Module:Baro/data/typeConfigs&quot;] = table#21 {
+   },
+   [&quot;Module:Baro/data/visits&quot;] = table#22 {
+       [&quot;Module:Baro/data&quot;] = 0,
+   },
+   [&quot;Module:Baro/history&quot;] = table#23 {
+       [&quot;Module:Baro/data&quot;] = 0,
+       [&quot;Module:Table&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+   },
+   [&quot;Module:Baro/testcases&quot;] = table#24 {
+   },
+   [&quot;Module:Blueprints/data/dev&quot;] = table#25 {
+   },
+   [&quot;Module:BuildRequire&quot;] = table#26 {
+       [&quot;Module:Icon&quot;] = 0,
+   },
+   [&quot;Module:CSV&quot;] = table#27 {
+       [&quot;Module:CSV&quot;] = 0,
+   },
+   [&quot;Module:ChickenArchive&quot;] = table#28 {
+       [&quot;Module:ChickenTest/data&quot;] = 0,
+       [&quot;Module:Icon/data&quot;] = 0,
+   },
+   [&quot;Module:ChickenTest&quot;] = table#29 {
+       [&quot;Module:Icon/data&quot;] = 0,
+   },
+   [&quot;Module:ChickenTest/data&quot;] = table#30 {
+   },
+   [&quot;Module:ChickenTest2&quot;] = table#31 {
+       [&quot;Module:ChickenTest/data&quot;] = 0,
+   },
+   [&quot;Module:Codex&quot;] = table#32 {
+       [&quot;Module:Codex/data&quot;] = 0,
+       [&quot;Module:Table&quot;] = 0,
+   },
+   [&quot;Module:Common&quot;] = table#33 {
+       [&quot;Module:Entrypoint&quot;] = 0,
+   },
+   [&quot;Module:Common/i18n&quot;] = table#34 {
+   },
+   [&quot;Module:Companions/infobox&quot;] = table#35 {
+       [&quot;Module:Baro&quot;] = 0,
+       [&quot;Module:Companions/data&quot;] = 0,
+       [&quot;Module:InfoboxBuilder&quot;] = 0,
+       [&quot;Module:Math&quot;] = 0,
+       [&quot;Module:Polarity&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+       [&quot;Module:Vendors&quot;] = 0,
+       [&quot;Module:Version&quot;] = 0,
+   },
+   [&quot;Module:Conservation&quot;] = table#36 {
+       [&quot;Module:Conservation/data&quot;] = 0,
+       [&quot;Module:Table&quot;] = 0,
+   },
+   [&quot;Module:Conservation/infobox&quot;] = table#37 {
+       [&quot;Module:Conservation/data&quot;] = 0,
+       [&quot;Module:DropTables/data&quot;] = 0,
+       [&quot;Module:InfoboxBuilder&quot;] = 0,
+       [&quot;Module:Math&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+       [&quot;Module:Tooltips/icon&quot;] = 0,
+       [&quot;Module:Version&quot;] = 0,
+   },
+   [&quot;Module:Conservation/testcases&quot;] = table#38 {
+   },
+   [&quot;Module:Cosmetics&quot;] = table#39 {
+       [&quot;Module:Companions/data&quot;] = 0,
+       [&quot;Module:Cosmetics/data&quot;] = 0,
+       [&quot;Module:Delay&quot;] = 0,
+       [&quot;Module:Warframes/data&quot;] = 0,
+       [&quot;Module:Weapons/data&quot;] = 0,
+   },
+   [&quot;Module:Cosmetics/data&quot;] = table#40 {
+       [&quot;Module:Cosmetics/data/animationset&quot;] = 0,
+       [&quot;Module:Cosmetics/data/archwingskin&quot;] = 0,
+       [&quot;Module:Cosmetics/data/armor&quot;] = 0,
+       [&quot;Module:Cosmetics/data/atomicyclelivery&quot;] = 0,
+       [&quot;Module:Cosmetics/data/auxiliary&quot;] = 0,
+       [&quot;Module:Cosmetics/data/emblem&quot;] = 0,
+       [&quot;Module:Cosmetics/data/emotionmodule&quot;] = 0,
+       [&quot;Module:Cosmetics/data/ephemera&quot;] = 0,
+       [&quot;Module:Cosmetics/data/face&quot;] = 0,
+       [&quot;Module:Cosmetics/data/facialaccessory&quot;] = 0,
+       [&quot;Module:Cosmetics/data/genemaskingkit&quot;] = 0,
+       [&quot;Module:Cosmetics/data/holster&quot;] = 0,
+       [&quot;Module:Cosmetics/data/kahlarmor&quot;] = 0,
+       [&quot;Module:Cosmetics/data/kaithe&quot;] = 0,
+       [&quot;Module:Cosmetics/data/kavatarmor&quot;] = 0,
+       [&quot;Module:Cosmetics/data/kdriveskin&quot;] = 0,
+       [&quot;Module:Cosmetics/data/kubrowarmor&quot;] = 0,
+       [&quot;Module:Cosmetics/data/kubrowcollar&quot;] = 0,
+       [&quot;Module:Cosmetics/data/landingcraftlivery&quot;] = 0,
+       [&quot;Module:Cosmetics/data/lotusskin&quot;] = 0,
+       [&quot;Module:Cosmetics/data/moaskin&quot;] = 0,
+       [&quot;Module:Cosmetics/data/necramechskin&quot;] = 0,
+       [&quot;Module:Cosmetics/data/parazonskin&quot;] = 0,
+       [&quot;Module:Cosmetics/data/pattern&quot;] = 0,
+       [&quot;Module:Cosmetics/data/railjackskin&quot;] = 0,
+       [&quot;Module:Cosmetics/data/scrawl&quot;] = 0,
+       [&quot;Module:Cosmetics/data/sentinelarmor&quot;] = 0,
+       [&quot;Module:Cosmetics/data/sentinelskin&quot;] = 0,
+       [&quot;Module:Cosmetics/data/signa&quot;] = 0,
+       [&quot;Module:Cosmetics/data/sugatra&quot;] = 0,
+       [&quot;Module:Cosmetics/data/sumdali&quot;] = 0,
+       [&quot;Module:Cosmetics/data/syandana&quot;] = 0,
+       [&quot;Module:Cosmetics/data/texture&quot;] = 0,
+       [&quot;Module:Cosmetics/data/transferencesuit&quot;] = 0,
+       [&quot;Module:Cosmetics/data/uncategorized&quot;] = 0,
+       [&quot;Module:Cosmetics/data/visageink&quot;] = 0,
+       [&quot;Module:Cosmetics/data/warframehelmet&quot;] = 0,
+       [&quot;Module:Cosmetics/data/warframeskin&quot;] = 0,
+       [&quot;Module:Cosmetics/data/weaponskin&quot;] = 0,
+       [&quot;Module:Cosmetics/userdata&quot;] = 0,
+       [&quot;Module:Sigils/data&quot;] = 0,
+       [&quot;Module:TennoGen/data&quot;] = 0,
+   },
+   [&quot;Module:Cosmetics/data/archwingskin&quot;] = table#41 {
+   },
+   [&quot;Module:Cosmetics/data/atomicyclelivery&quot;] = table#42 {
+   },
+   [&quot;Module:Cosmetics/data/auxiliary&quot;] = table#43 {
+   },
+   [&quot;Module:Cosmetics/data/emotionmodule&quot;] = table#44 {
+   },
+   [&quot;Module:Cosmetics/data/holster&quot;] = table#45 {
+   },
+   [&quot;Module:Cosmetics/data/kahlarmor&quot;] = table#46 {
+   },
+   [&quot;Module:Cosmetics/data/kaithe&quot;] = table#47 {
+   },
+   [&quot;Module:Cosmetics/data/kavatarmor&quot;] = table#48 {
+   },
+   [&quot;Module:Cosmetics/data/kdriveskin&quot;] = table#49 {
+   },
+   [&quot;Module:Cosmetics/data/kubrowarmor&quot;] = table#50 {
+   },
+   [&quot;Module:Cosmetics/data/kubrowcollar&quot;] = table#51 {
+   },
+   [&quot;Module:Cosmetics/data/landingcraftlivery&quot;] = table#52 {
+   },
+   [&quot;Module:Cosmetics/data/lotusskin&quot;] = table#53 {
+   },
+   [&quot;Module:Cosmetics/data/moaskin&quot;] = table#54 {
+   },
+   [&quot;Module:Cosmetics/data/necramechskin&quot;] = table#55 {
+   },
+   [&quot;Module:Cosmetics/data/parazonskin&quot;] = table#56 {
+   },
+   [&quot;Module:Cosmetics/data/pattern&quot;] = table#57 {
+   },
+   [&quot;Module:Cosmetics/data/railjackskin&quot;] = table#58 {
+   },
+   [&quot;Module:Cosmetics/data/scrawl&quot;] = table#59 {
+   },
+   [&quot;Module:Cosmetics/data/sentinelskin&quot;] = table#60 {
+   },
+   [&quot;Module:Cosmetics/data/signa&quot;] = table#61 {
+   },
+   [&quot;Module:Cosmetics/data/sugatra&quot;] = table#62 {
+   },
+   [&quot;Module:Cosmetics/data/sumdali&quot;] = table#63 {
+   },
+   [&quot;Module:Cosmetics/data/texture&quot;] = table#64 {
+   },
+   [&quot;Module:Cosmetics/data/uncategorized&quot;] = table#65 {
+   },
+   [&quot;Module:Cosmetics/data/validate&quot;] = table#66 {
+       [&quot;Module:Cosmetics/data&quot;] = 0,
+       [&quot;Module:Table&quot;] = 0,
+   },
+   [&quot;Module:Cosmetics/data/visageink&quot;] = table#67 {
+   },
+   [&quot;Module:Cosmetics/infobox&quot;] = table#68 {
+       [&quot;Module:Baro&quot;] = 0,
+       [&quot;Module:Cosmetics/data&quot;] = 0,
+       [&quot;Module:InfoboxBuilder&quot;] = 0,
+       [&quot;Module:TextIcons&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+       [&quot;Module:Vendors&quot;] = 0,
+       [&quot;Module:Version&quot;] = 0,
+   },
+   [&quot;Module:Cost&quot;] = table#69 {
+       [&quot;Module:Blueprints/data&quot;] = 0,
+       [&quot;Module:Icon&quot;] = 0,
+       [&quot;Module:Math&quot;] = 0,
+       [&quot;Module:Research/data&quot;] = 0,
+       [&quot;Module:String&quot;] = 0,
+       [&quot;Module:Table&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+   },
+   [&quot;Module:CroqueTest&quot;] = table#70 {
+       [&quot;Module:CroqueTest/BKT&quot;] = 0,
+       [&quot;Module:CroqueTest/data&quot;] = 0,
+       [&quot;Module:CroqueTest/keywords&quot;] = 0,
+       [&quot;Module:Research/data&quot;] = 0,
+       [&quot;Module:Warframes/data&quot;] = 0,
+       [&quot;Module:Weapons/data&quot;] = 0,
+   },
+   [&quot;Module:CroqueTest/data&quot;] = table#71 {
+   },
+   [&quot;Module:CroqueTest2&quot;] = table#72 {
+       [&quot;Module:Shared&quot;] = 0,
+       [&quot;Module:Version&quot;] = 0,
+   },
+   [&quot;Module:CroqueTestModular/modulstats&quot;] = table#73 {
+   },
+   [&quot;Module:DamageTypes&quot;] = table#74 {
+       [&quot;Module:DamageTypes/data&quot;] = 0,
+       [&quot;Module:Icon/data&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+   },
+   [&quot;Module:DamageTypes/colorContrastAdjuster&quot;] = table#75 {
+   },
+   [&quot;Module:DamageTypes/testcases&quot;] = table#76 {
+   },
+   [&quot;Module:Database&quot;] = table#77 {
+   },
+   [&quot;Module:DatastoreManifest&quot;] = table#78 {
+   },
+   [&quot;Module:Decorations&quot;] = table#79 {
+       [&quot;Module:Decorations/data&quot;] = 0,
+       [&quot;Module:Math&quot;] = 0,
+       [&quot;Module:Table&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+   },
+   [&quot;Module:Delay&quot;] = table#80 {
+   },
+   [&quot;Module:DevstreamParticipantsList&quot;] = table#81 {
+   },
+   [&quot;Module:Docbunto/cli&quot;] = table#82 {
+       [&quot;Dev:CLI&quot;] = 0,
+       [&quot;Dev:Docbunto&quot;] = 0,
+       [&quot;Dev:FrameTools&quot;] = 0,
+       [&quot;Dev:Json&quot;] = 0,
+   },
+   [&quot;Module:Docbunto/i18n&quot;] = table#83 {
+   },
+   [&quot;Module:DojoRoom/data&quot;] = table#84 {
+   },
+   [&quot;Module:DropTables/JSON&quot;] = table#85 {
+       [&quot;Module:DropTables/JSON/&quot;] = 0,
+   },
+   [&quot;Module:DropTables/JSON/Sorties&quot;] = table#86 {
+   },
+   [&quot;Module:DropTables/JSON/Transient&quot;] = table#87 {
+   },
+   [&quot;Module:Emptylord&quot;] = table#88 {
+       [&quot;Module:Emptylord/data&quot;] = 0,
+   },
+   [&quot;Module:Emptylord/getter&quot;] = table#89 {
+       [&quot;Module:Emptylord/data&quot;] = 0,
+   },
+   [&quot;Module:Enemies/data&quot;] = table#90 {
+       [&quot;Module:Enemies/data&quot;] = 0,
+       [&quot;Module:LuaSerializer&quot;] = 0,
+   },
+   [&quot;Module:Enemies/data/anarchs&quot;] = table#91 {
+   },
+   [&quot;Module:Enemies/data/narmer&quot;] = table#92 {
+   },
+   [&quot;Module:Enemies/data/orokin&quot;] = table#93 {
+   },
+   [&quot;Module:Enemies/data/pre&quot;] = table#94 {
+   },
+   [&quot;Module:Enemies/data/scaldra&quot;] = table#95 {
+   },
+   [&quot;Module:Enemies/data/sentient&quot;] = table#96 {
+   },
+   [&quot;Module:Enemies/data/stalker&quot;] = table#97 {
+   },
+   [&quot;Module:Enemies/data/techrot&quot;] = table#98 {
+   },
+   [&quot;Module:Enemies/data/themurmur&quot;] = table#99 {
+   },
+   [&quot;Module:Enemies/infobox/dev&quot;] = table#100 {
+   },
+   [&quot;Module:Entrypoint&quot;] = table#101 {
+   },
+   [&quot;Module:Enum/data&quot;] = table#102 {
+   },
+   [&quot;Module:FINNER DropTables Test&quot;] = table#103 {
+   },
+   [&quot;Module:FINNER Icon Test&quot;] = table#104 {
+   },
+   [&quot;Module:FINNER Test/data&quot;] = table#105 {
+   },
+   [&quot;Module:FINNER Test/data/4&quot;] = table#106 {
+   },
+   [&quot;Module:FINNER Test/data/5&quot;] = table#107 {
+   },
+   [&quot;Module:FINNER Test/data/8&quot;] = table#108 {
+   },
+   [&quot;Module:FINNER Warframe Test&quot;] = table#109 {
+   },
+   [&quot;Module:FINNER Weapon Test&quot;] = table#110 {
+   },
+   [&quot;Module:FactionScript&quot;] = table#111 {
+   },
+   [&quot;Module:FactionScript/data&quot;] = table#112 {
+   },
+   [&quot;Module:Factions/data&quot;] = table#113 {
+   },
+   [&quot;Module:FallbackList&quot;] = table#114 {
+   },
+   [&quot;Module:FalterTest&quot;] = table#115 {
+   },
+   [&quot;Module:FalterTest/data&quot;] = table#116 {
+   },
+   [&quot;Module:Flaicher&quot;] = table#117 {
+   },
+   [&quot;Module:Flaicher/Conv&quot;] = table#118 {
+   },
+   [&quot;Module:Flaicher/Mods&quot;] = table#119 {
+   },
+   [&quot;Module:Flaicher/dispoData&quot;] = table#120 {
+   },
+   [&quot;Module:FlaicherTest&quot;] = table#121 {
+   },
+   [&quot;Module:Focus&quot;] = table#122 {
+   },
+   [&quot;Module:Focus/data/archived&quot;] = table#123 {
+   },
+   [&quot;Module:Focus/infobox&quot;] = table#124 {
+   },
+   [&quot;Module:FormatingTool&quot;] = table#125 {
+   },
+   [&quot;Module:FormatingTool/data&quot;] = table#126 {
+   },
+   [&quot;Module:FormatingTool/missions&quot;] = table#127 {
+   },
+   [&quot;Module:Gallery&quot;] = table#128 {
+   },
+   [&quot;Module:Gallery/testcases&quot;] = table#129 {
+   },
+   [&quot;Module:GigaTest&quot;] = table#130 {
+   },
+   [&quot;Module:GuaranteedRewards/data&quot;] = table#131 {
+   },
+   [&quot;Module:HexTest&quot;] = table#132 {
+   },
+   [&quot;Module:I18n&quot;] = table#133 {
+   },
+   [&quot;Module:I18n/testcases&quot;] = table#134 {
+   },
+   [&quot;Module:Icon&quot;] = table#135 {
+   },
+   [&quot;Module:Icon/data&quot;] = table#136 {
+   },
+   [&quot;Module:Icon/testcases&quot;] = table#137 {
+   },
+   [&quot;Module:Infobox&quot;] = table#138 {
+   },
+   [&quot;Module:Infobox/i18n&quot;] = table#139 {
+   },
+   [&quot;Module:InfoboxBuilder&quot;] = table#140 {
+   },
+   [&quot;Module:InfoboxBuilder/dev&quot;] = table#141 {
+   },
+   [&quot;Module:InfoboxGallery&quot;] = table#142 {
+   },
+   [&quot;Module:Inspect&quot;] = table#143 {
+   },
+   [&quot;Module:InternalNames&quot;] = table#144 {
+   },
+   [&quot;Module:JSON&quot;] = table#145 {
+   },
+   [&quot;Module:KeyBindings&quot;] = table#146 {
+   },
+   [&quot;Module:KeyBindings/data&quot;] = table#147 {
+   },
+   [&quot;Module:Keys/data&quot;] = table#148 {
+   },
+   [&quot;Module:Lang/ISO 639 synonyms&quot;] = table#149 {
+   },
+   [&quot;Module:Lang/configuration&quot;] = table#150 {
+   },
+   [&quot;Module:Lang/data&quot;] = table#151 {
+   },
+   [&quot;Module:Lang/data/iana regions&quot;] = table#152 {
+   },
+   [&quot;Module:Lang/data/iana scripts&quot;] = table#153 {
+   },
+   [&quot;Module:Lang/data/iana suppressed scripts&quot;] = table#154 {
+   },
+   [&quot;Module:Lang/data/iana variants&quot;] = table#155 {
+   },
+   [&quot;Module:Lang/data/is latn data&quot;] = table#156 {
+   },
+   [&quot;Module:LanguageList&quot;] = table#157 {
+   },
+   [&quot;Module:Lexer&quot;] = table#158 {
+   },
+   [&quot;Module:Localization&quot;] = table#159 {
+   },
+   [&quot;Module:Lua&quot;] = table#160 {
+   },
+   [&quot;Module:LuaClassSystem&quot;] = table#161 {
+   },
+   [&quot;Module:LuaSerializer&quot;] = table#162 {
+   },
+   [&quot;Module:LuaSerializer/dev&quot;] = table#163 {
+   },
+   [&quot;Module:LuaSerializerTwo&quot;] = table#164 {
+   },
+   [&quot;Module:Map&quot;] = table#165 {
+   },
+   [&quot;Module:Map/testcases&quot;] = table#166 {
+   },
+   [&quot;Module:MasteryRank&quot;] = table#167 {
+   },
+   [&quot;Module:MasteryRank/dev&quot;] = table#168 {
+   },
+   [&quot;Module:Math/i18n&quot;] = table#169 {
+   },
+   [&quot;Module:Math/testcases&quot;] = table#170 {
+   },
+   [&quot;Module:Math/testcases/module&quot;] = table#171 {
+   },
+   [&quot;Module:Maximization&quot;] = table#172 {
+   },
+   [&quot;Module:Maximization/data&quot;] = table#173 {
+   },
+   [&quot;Module:Mbox&quot;] = table#174 {
+   },
+   [&quot;Module:Mbox/i18n&quot;] = table#175 {
+   },
+   [&quot;Module:Missions&quot;] = table#176 {
+   },
+   [&quot;Module:Missions/dev&quot;] = table#177 {
+   },
+   [&quot;Module:Missions/infobox&quot;] = table#178 {
+   },
+   [&quot;Module:Missions/page&quot;] = table#179 {
+   },
+   [&quot;Module:Mods&quot;] = table#180 {
+   },
+   [&quot;Module:Mods/csv&quot;] = table#181 {
+   },
+   [&quot;Module:Mods/csv2&quot;] = table#182 {
+   },
+   [&quot;Module:Mods/data/validate&quot;] = table#183 {
+   },
+   [&quot;Module:Mods/infobox&quot;] = table#184 {
+   },
+   [&quot;Module:Mods/itemCompatibility&quot;] = table#185 {
+   },
+   [&quot;Module:Mods/itemCompatibility/data&quot;] = table#186 {
+   },
+   [&quot;Module:Mods/testcases&quot;] = table#187 {
+   },
+   [&quot;Module:Modular/data&quot;] = table#188 {
+   },
+   [&quot;Module:Modular/generator&quot;] = table#189 {
+   },
+   [&quot;Module:ModuleTest&quot;] = table#190 {
+   },
+   [&quot;Module:Music/data&quot;] = table#191 {
+   },
+   [&quot;Module:MyCodex&quot;] = table#192 {
+   },
+   [&quot;Module:Navbox&quot;] = table#193 {
+   },
+   [&quot;Module:Navigation&quot;] = table#194 {
+   },
+   [&quot;Module:Navigation/dev&quot;] = table#195 {
+   },
+   [&quot;Module:NightwaveActs&quot;] = table#196 {
+   },
+   [&quot;Module:NightwaveActs/acts.json&quot;] = table#197 {
+   },
+   [&quot;Module:NightwaveActs/dev&quot;] = table#198 {
+   },
+   [&quot;Module:Placeholder&quot;] = table#199 {
+   },
+   [&quot;Module:Polarity&quot;] = table#200 {
+   },
+   [&quot;Module:Reference&quot;] = table#201 {
+   },
+   [&quot;Module:ReleaseStatus&quot;] = table#202 {
+   },
+   [&quot;Module:ReleaseStatus/data&quot;] = table#203 {
+   },
+   [&quot;Module:ReleaseStatus/i18n&quot;] = table#204 {
+   },
+   [&quot;Module:RemoveCategory&quot;] = table#205 {
+   },
+   [&quot;Module:Resources&quot;] = table#206 {
+   },
+   [&quot;Module:Resources/data/validate&quot;] = table#207 {
+   },
+   [&quot;Module:Resources/infobox&quot;] = table#208 {
+   },
+   [&quot;Module:Sandbox&quot;] = table#209 {
+   },
+   [&quot;Module:Sandbox/ArbitraryMary/SigilGallery&quot;] = table#210 {
+   },
+   [&quot;Module:Sandbox/DutyS12345&quot;] = table#211 {
+   },
+   [&quot;Module:Sandbox/Hilycker/SortTest&quot;] = table#212 {
+   },
+   [&quot;Module:Sandbox/Hilycker/SortTest/data&quot;] = table#213 {
+   },
+   [&quot;Module:Sandbox/Moxian&quot;] = table#214 {
+   },
+   [&quot;Module:Sandbox/ScribuntoDebugConsole&quot;] = table#215 {
+   },
+   [&quot;Module:Sandbox/Sean/Tooltips&quot;] = table#216 {
+   },
+   [&quot;Module:Sandbox/Sean/Tooltips/icon&quot;] = table#217 {
+   },
+   [&quot;Module:Sandbox/Sean/Warframes&quot;] = table#218 {
+   },
+   [&quot;Module:Sandbox/Sean/Warframes/infobox&quot;] = table#219 {
+   },
+   [&quot;Module:Sandbox/Sean/Weapons/nav&quot;] = table#220 {
+   },
+   [&quot;Module:Sandbox/SkipThisAd/DropTables&quot;] = table#221 {
+   },
+   [&quot;Module:Sandbox/Vondak/Test&quot;] = table#222 {
+   },
+   [&quot;Module:Sandbox/lonnstyle/Warframes/infobox&quot;] = table#223 {
+   },
+   [&quot;Module:ScientiaStances/data&quot;] = table#224 {
+   },
+   [&quot;Module:ScientiaStances/sharedCombosData&quot;] = table#225 {
+   },
+   [&quot;Module:ScientiaTest&quot;] = table#226 {
+   },
+   [&quot;Module:ScientiaTest/i18n&quot;] = table#227 {
+   },
+   [&quot;Module:Shared&quot;] = table#228 {
+   },
+   [&quot;Module:Shared/testcases&quot;] = table#229 {
+   },
+   [&quot;Module:SnekwTest&quot;] = table#230 {
+   },
+   [&quot;Module:SpxceVendor&quot;] = table#231 {
+   },
+   [&quot;Module:Stances&quot;] = table#232 {
+   },
+   [&quot;Module:Stances/dev&quot;] = table#233 {
+   },
+   [&quot;Module:StatObject&quot;] = table#234 {
+   },
+   [&quot;Module:String&quot;] = table#235 {
+   },
+   [&quot;Module:String/testcases&quot;] = table#236 {
+   },
+   [&quot;Module:Switch Infobox&quot;] = table#237 {
+   },
+   [&quot;Module:Syndicates/data&quot;] = table#238 {
+   },
+   [&quot;Module:SynthTest&quot;] = table#239 {
+   },
+   [&quot;Module:Table&quot;] = table#240 {
+   },
+   [&quot;Module:Table/testcases&quot;] = table#241 {
+   },
+   [&quot;Module:Tabs&quot;] = table#242 {
+   },
+   [&quot;Module:TennoGen&quot;] = table#243 {
+   },
+   [&quot;Module:TennoScript&quot;] = table#244 {
+   },
+   [&quot;Module:TestHarness/i18n&quot;] = table#245 {
+   },
+   [&quot;Module:Text&quot;] = table#246 {
+   },
+   [&quot;Module:TextIcons&quot;] = table#247 {
+   },
+   [&quot;Module:Tooltips&quot;] = table#248 {
+   },
+   [&quot;Module:Tooltips/data&quot;] = table#249 {
+   },
+   [&quot;Module:Tooltips/data/Ability&quot;] = table#250 {
+   },
+   [&quot;Module:Tooltips/data/Arcane&quot;] = table#251 {
+   },
+   [&quot;Module:Tooltips/data/DamageTypes&quot;] = table#252 {
+   },
+   [&quot;Module:Tooltips/data/Mods&quot;] = table#253 {
+   },
+   [&quot;Module:Tooltips/data/Void&quot;] = table#254 {
+   },
+   [&quot;Module:Tooltips/data/Warframes&quot;] = table#255 {
+   },
+   [&quot;Module:Tooltips/data/Weapons&quot;] = table#256 {
+   },
+   [&quot;Module:Tooltips/dev&quot;] = table#257 {
+   },
+   [&quot;Module:Tooltips/icon&quot;] = table#258 {
+   },
+   [&quot;Module:Tooltips/icon/dev&quot;] = table#259 {
+   },
+   [&quot;Module:Tooltips/testcases&quot;] = table#260 {
+   },
+   [&quot;Module:Tooltips/tip/dev&quot;] = table#261 {
+   },
+   [&quot;Module:TrajosAcquisition&quot;] = table#262 {
+   },
+   [&quot;Module:TrajosVoid&quot;] = table#263 {
+   },
+   [&quot;Module:TranslationExamples&quot;] = table#264 {
+   },
+   [&quot;Module:Unicode data&quot;] = table#265 {
+   },
+   [&quot;Module:Unindent&quot;] = table#266 {
+   },
+   [&quot;Module:Upgrades/data&quot;] = table#267 {
+   },
+   [&quot;Module:User&quot;] = table#268 {
+   },
+   [&quot;Module:UserError&quot;] = table#269 {
+   },
+   [&quot;Module:Vehicles/data&quot;] = table#270 {
+   },
+   [&quot;Module:Vehicles/infobox&quot;] = table#271 {
+   },
+   [&quot;Module:Vendors&quot;] = table#272 {
+   },
+   [&quot;Module:Version&quot;] = table#273 {
+   },
+   [&quot;Module:VideoGallery&quot;] = table#274 {
+   },
+   [&quot;Module:Void/data/validate&quot;] = table#275 {
+   },
+   [&quot;Module:Void/dev&quot;] = table#276 {
+   },
+   [&quot;Module:Void/page&quot;] = table#277 {
+   },
+   [&quot;Module:VoidByReward&quot;] = table#278 {
+   },
+   [&quot;Module:WDSButton&quot;] = table#279 {
+   },
+   [&quot;Module:WDSButton/data&quot;] = table#280 {
+   },
+   [&quot;Module:Warframes&quot;] = table#281 {
+   },
+   [&quot;Module:Warframes/Conclave/data&quot;] = table#282 {
+   },
+   [&quot;Module:Warframes/infobox&quot;] = table#283 {
+   },
+   [&quot;Module:Warframes/testcases&quot;] = table#284 {
+   },
+   [&quot;Module:Weapons/Conclave/data&quot;] = table#285 {
+   },
+   [&quot;Module:Weapons/characteristics&quot;] = table#286 {
+   },
+   [&quot;Module:Weapons/compare&quot;] = table#287 {
+   },
+   [&quot;Module:Weapons/comptable&quot;] = table#288 {
+   },
+   [&quot;Module:Weapons/csv&quot;] = table#289 {
+   },
+   [&quot;Module:Weapons/data&quot;] = table#290 {
+   },
+   [&quot;Module:Weapons/data/credits&quot;] = table#291 {
+   },
+   [&quot;Module:Weapons/data/misc&quot;] = table#292 {
+   },
+   [&quot;Module:Weapons/data/validate&quot;] = table#293 {
+   },
+   [&quot;Module:Weapons/dev&quot;] = table#294 {
+   },
+   [&quot;Module:Weapons/infobox&quot;] = table#295 {
+   },
+   [&quot;Module:Weapons/nav&quot;] = table#296 {
+   },
+   [&quot;Module:Weapons/ppdata/seeder&quot;] = table#297 {
+   },
+   [&quot;Module:Weapons/preprocess&quot;] = table#298 {
+   },
+   [&quot;Module:Weapons/sandbox&quot;] = table#299 {
+   },
+   [&quot;Module:Weapons/testcases&quot;] = table#300 {
+   },
+   [&quot;Module:WorldState&quot;] = table#301 {
+   },
+   [&quot;Module:Worldstate/data&quot;] = table#302 {
+   },
+   [&quot;Module:Yesno&quot;] = table#303 {
+   },
+   [&quot;Module:Yesno/testcases&quot;] = table#304 {
+   },
+</pre>
+</strong><p><strong class="error">}.</strong>
+</p>
+</div>
+<div class="mw-heading mw-heading3"><h3 id="Clustered">Clustered</h3></div>
+<div align="center"><div class="mw-customtoggle-non-clustered" style="cursor:pointer; position:relative; width:85%; background: linear-gradient(#768993, #55646d); display:inline-block; padding:0px 2px; margin:2px; line-height:20px; color:white; font-size:13px;border-radius: 3px;">View DOT file<span style="position:absolute;left:5px;">&#9662;</span><span style="position:absolute;right:5px;">&#9662;</span></div></div>
+<div id="mw-customcollapsible-non-clustered" class="mw-collapsible mw-collapsed" style="display:flow-root;">
+<p><strong class="error"><span class="scribunto-error mw-scribunto-error-5c222203">Lua error: Module:DependencyGraph:76: &quot;Module:Enemies/data/pre&quot; does not exist
+table#1 {
+</span></strong></p><strong class="error">
+<pre>   [&quot;Module:Ability&quot;] = table#2 {
+       [&quot;Module:Ability/Conclave/data&quot;] = 0,
+       [&quot;Module:Ability/data&quot;] = 0,
+   },
+   [&quot;Module:Ability/Conclave/data&quot;] = table#3 {
+   },
+   [&quot;Module:Ability/infobox&quot;] = table#4 {
+       [&quot;Module:Ability/Conclave/data&quot;] = 0,
+       [&quot;Module:Ability/data&quot;] = 0,
+       [&quot;Module:TextIcons&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+       [&quot;Module:Version&quot;] = 0,
+   },
+   [&quot;Module:Ability/infoboxTEST&quot;] = table#5 {
+       [&quot;Module:Ability/Conclave/data&quot;] = 0,
+       [&quot;Module:Ability/data&quot;] = 0,
+       [&quot;Module:Maximization&quot;] = 0,
+       [&quot;Module:TextIcons&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+       [&quot;Module:Version&quot;] = 0,
+   },
+   [&quot;Module:Acquisition&quot;] = table#6 {
+       [&quot;Module:Blueprints/data&quot;] = 0,
+       [&quot;Module:DropTables/data&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+   },
+   [&quot;Module:Acquisition/dev&quot;] = table#7 {
+       [&quot;Dev:Entrypoint&quot;] = 0,
+       [&quot;Dev:User error&quot;] = 0,
+       [&quot;Module:Acquisition/data&quot;] = 0,
+       [&quot;Module:Icon&quot;] = 0,
+       [&quot;Module:Lua&quot;] = 0,
+       [&quot;Module:Math&quot;] = 0,
+       [&quot;Module:String&quot;] = 0,
+   },
+   [&quot;Module:Acquisition/testcases&quot;] = table#8 {
+       [&quot;Dev:User error&quot;] = 0,
+   },
+   [&quot;Module:AnexeraTest1&quot;] = table#9 {
+       [&quot;Module:Arguments&quot;] = 0,
+       [&quot;Module:Baro/data&quot;] = 0,
+       [&quot;Module:Baro/data/typeConfigs&quot;] = 0,
+       [&quot;Module:Entrypoint&quot;] = 0,
+       [&quot;Module:Table&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+   },
+   [&quot;Module:Animal/infobox&quot;] = table#10 {
+       [&quot;Module:InfoboxBuilder&quot;] = 0,
+       [&quot;Module:Resources/data&quot;] = 0,
+   },
+   [&quot;Module:Arcane&quot;] = table#11 {
+       [&quot;Module:Arcane/data&quot;] = 0,
+       [&quot;Module:String&quot;] = 0,
+       [&quot;Module:Table&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+   },
+   [&quot;Module:Arcane/dev&quot;] = table#12 {
+   },
+   [&quot;Module:Arcane/infobox&quot;] = table#13 {
+       [&quot;Module:Arcane/data&quot;] = 0,
+       [&quot;Module:DropTables&quot;] = 0,
+       [&quot;Module:DropTables/data&quot;] = 0,
+       [&quot;Module:InfoboxBuilder&quot;] = 0,
+       [&quot;Module:Table&quot;] = 0,
+       [&quot;Module:TextIcons&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+       [&quot;Module:Vendors&quot;] = 0,
+       [&quot;Module:Version&quot;] = 0,
+   },
+   [&quot;Module:ArchModBox&quot;] = table#14 {
+       [&quot;Module:InfoboxBuilder&quot;] = 0,
+   },
+   [&quot;Module:Arguments&quot;] = table#15 {
+       [&quot;Module:Arguments&quot;] = 0,
+       [&quot;Module:I18n&quot;] = 0,
+   },
+   [&quot;Module:Arguments/i18n&quot;] = table#16 {
+   },
+   [&quot;Module:Avionics&quot;] = table#17 {
+       [&quot;Module:Avionics/data&quot;] = 0,
+       [&quot;Module:Icon&quot;] = 0,
+       [&quot;Module:String&quot;] = 0,
+       [&quot;Module:Table&quot;] = 0,
+       [&quot;Module:Version&quot;] = 0,
+   },
+   [&quot;Module:Avionics/data&quot;] = table#18 {
+       [&quot;Module:Avionics/data/desc&quot;] = 0,
+       [&quot;Module:Icon&quot;] = 0,
+       [&quot;Module:Version&quot;] = 0,
+   },
+   [&quot;Module:Avionics/data/desc&quot;] = table#19 {
+   },
+   [&quot;Module:Baro&quot;] = table#20 {
+       [&quot;Module:Arguments&quot;] = 0,
+       [&quot;Module:Baro/data&quot;] = 0,
+       [&quot;Module:Baro/data/typeConfigs&quot;] = 0,
+       [&quot;Module:Entrypoint&quot;] = 0,
+       [&quot;Module:Table&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+   },
+   [&quot;Module:Baro/data/typeConfigs&quot;] = table#21 {
+   },
+   [&quot;Module:Baro/data/visits&quot;] = table#22 {
+       [&quot;Module:Baro/data&quot;] = 0,
+   },
+   [&quot;Module:Baro/history&quot;] = table#23 {
+       [&quot;Module:Baro/data&quot;] = 0,
+       [&quot;Module:Table&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+   },
+   [&quot;Module:Baro/testcases&quot;] = table#24 {
+   },
+   [&quot;Module:Blueprints/data/dev&quot;] = table#25 {
+   },
+   [&quot;Module:BuildRequire&quot;] = table#26 {
+       [&quot;Module:Icon&quot;] = 0,
+   },
+   [&quot;Module:CSV&quot;] = table#27 {
+       [&quot;Module:CSV&quot;] = 0,
+   },
+   [&quot;Module:ChickenArchive&quot;] = table#28 {
+       [&quot;Module:ChickenTest/data&quot;] = 0,
+       [&quot;Module:Icon/data&quot;] = 0,
+   },
+   [&quot;Module:ChickenTest&quot;] = table#29 {
+       [&quot;Module:Icon/data&quot;] = 0,
+   },
+   [&quot;Module:ChickenTest/data&quot;] = table#30 {
+   },
+   [&quot;Module:ChickenTest2&quot;] = table#31 {
+       [&quot;Module:ChickenTest/data&quot;] = 0,
+   },
+   [&quot;Module:Codex&quot;] = table#32 {
+       [&quot;Module:Codex/data&quot;] = 0,
+       [&quot;Module:Table&quot;] = 0,
+   },
+   [&quot;Module:Common&quot;] = table#33 {
+       [&quot;Module:Entrypoint&quot;] = 0,
+   },
+   [&quot;Module:Common/i18n&quot;] = table#34 {
+   },
+   [&quot;Module:Companions/infobox&quot;] = table#35 {
+       [&quot;Module:Baro&quot;] = 0,
+       [&quot;Module:Companions/data&quot;] = 0,
+       [&quot;Module:InfoboxBuilder&quot;] = 0,
+       [&quot;Module:Math&quot;] = 0,
+       [&quot;Module:Polarity&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+       [&quot;Module:Vendors&quot;] = 0,
+       [&quot;Module:Version&quot;] = 0,
+   },
+   [&quot;Module:Conservation&quot;] = table#36 {
+       [&quot;Module:Conservation/data&quot;] = 0,
+       [&quot;Module:Table&quot;] = 0,
+   },
+   [&quot;Module:Conservation/infobox&quot;] = table#37 {
+       [&quot;Module:Conservation/data&quot;] = 0,
+       [&quot;Module:DropTables/data&quot;] = 0,
+       [&quot;Module:InfoboxBuilder&quot;] = 0,
+       [&quot;Module:Math&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+       [&quot;Module:Tooltips/icon&quot;] = 0,
+       [&quot;Module:Version&quot;] = 0,
+   },
+   [&quot;Module:Conservation/testcases&quot;] = table#38 {
+   },
+   [&quot;Module:Cosmetics&quot;] = table#39 {
+       [&quot;Module:Companions/data&quot;] = 0,
+       [&quot;Module:Cosmetics/data&quot;] = 0,
+       [&quot;Module:Delay&quot;] = 0,
+       [&quot;Module:Warframes/data&quot;] = 0,
+       [&quot;Module:Weapons/data&quot;] = 0,
+   },
+   [&quot;Module:Cosmetics/data&quot;] = table#40 {
+       [&quot;Module:Cosmetics/data/animationset&quot;] = 0,
+       [&quot;Module:Cosmetics/data/archwingskin&quot;] = 0,
+       [&quot;Module:Cosmetics/data/armor&quot;] = 0,
+       [&quot;Module:Cosmetics/data/atomicyclelivery&quot;] = 0,
+       [&quot;Module:Cosmetics/data/auxiliary&quot;] = 0,
+       [&quot;Module:Cosmetics/data/emblem&quot;] = 0,
+       [&quot;Module:Cosmetics/data/emotionmodule&quot;] = 0,
+       [&quot;Module:Cosmetics/data/ephemera&quot;] = 0,
+       [&quot;Module:Cosmetics/data/face&quot;] = 0,
+       [&quot;Module:Cosmetics/data/facialaccessory&quot;] = 0,
+       [&quot;Module:Cosmetics/data/genemaskingkit&quot;] = 0,
+       [&quot;Module:Cosmetics/data/holster&quot;] = 0,
+       [&quot;Module:Cosmetics/data/kahlarmor&quot;] = 0,
+       [&quot;Module:Cosmetics/data/kaithe&quot;] = 0,
+       [&quot;Module:Cosmetics/data/kavatarmor&quot;] = 0,
+       [&quot;Module:Cosmetics/data/kdriveskin&quot;] = 0,
+       [&quot;Module:Cosmetics/data/kubrowarmor&quot;] = 0,
+       [&quot;Module:Cosmetics/data/kubrowcollar&quot;] = 0,
+       [&quot;Module:Cosmetics/data/landingcraftlivery&quot;] = 0,
+       [&quot;Module:Cosmetics/data/lotusskin&quot;] = 0,
+       [&quot;Module:Cosmetics/data/moaskin&quot;] = 0,
+       [&quot;Module:Cosmetics/data/necramechskin&quot;] = 0,
+       [&quot;Module:Cosmetics/data/parazonskin&quot;] = 0,
+       [&quot;Module:Cosmetics/data/pattern&quot;] = 0,
+       [&quot;Module:Cosmetics/data/railjackskin&quot;] = 0,
+       [&quot;Module:Cosmetics/data/scrawl&quot;] = 0,
+       [&quot;Module:Cosmetics/data/sentinelarmor&quot;] = 0,
+       [&quot;Module:Cosmetics/data/sentinelskin&quot;] = 0,
+       [&quot;Module:Cosmetics/data/signa&quot;] = 0,
+       [&quot;Module:Cosmetics/data/sugatra&quot;] = 0,
+       [&quot;Module:Cosmetics/data/sumdali&quot;] = 0,
+       [&quot;Module:Cosmetics/data/syandana&quot;] = 0,
+       [&quot;Module:Cosmetics/data/texture&quot;] = 0,
+       [&quot;Module:Cosmetics/data/transferencesuit&quot;] = 0,
+       [&quot;Module:Cosmetics/data/uncategorized&quot;] = 0,
+       [&quot;Module:Cosmetics/data/visageink&quot;] = 0,
+       [&quot;Module:Cosmetics/data/warframehelmet&quot;] = 0,
+       [&quot;Module:Cosmetics/data/warframeskin&quot;] = 0,
+       [&quot;Module:Cosmetics/data/weaponskin&quot;] = 0,
+       [&quot;Module:Cosmetics/userdata&quot;] = 0,
+       [&quot;Module:Sigils/data&quot;] = 0,
+       [&quot;Module:TennoGen/data&quot;] = 0,
+   },
+   [&quot;Module:Cosmetics/data/archwingskin&quot;] = table#41 {
+   },
+   [&quot;Module:Cosmetics/data/atomicyclelivery&quot;] = table#42 {
+   },
+   [&quot;Module:Cosmetics/data/auxiliary&quot;] = table#43 {
+   },
+   [&quot;Module:Cosmetics/data/emotionmodule&quot;] = table#44 {
+   },
+   [&quot;Module:Cosmetics/data/holster&quot;] = table#45 {
+   },
+   [&quot;Module:Cosmetics/data/kahlarmor&quot;] = table#46 {
+   },
+   [&quot;Module:Cosmetics/data/kaithe&quot;] = table#47 {
+   },
+   [&quot;Module:Cosmetics/data/kavatarmor&quot;] = table#48 {
+   },
+   [&quot;Module:Cosmetics/data/kdriveskin&quot;] = table#49 {
+   },
+   [&quot;Module:Cosmetics/data/kubrowarmor&quot;] = table#50 {
+   },
+   [&quot;Module:Cosmetics/data/kubrowcollar&quot;] = table#51 {
+   },
+   [&quot;Module:Cosmetics/data/landingcraftlivery&quot;] = table#52 {
+   },
+   [&quot;Module:Cosmetics/data/lotusskin&quot;] = table#53 {
+   },
+   [&quot;Module:Cosmetics/data/moaskin&quot;] = table#54 {
+   },
+   [&quot;Module:Cosmetics/data/necramechskin&quot;] = table#55 {
+   },
+   [&quot;Module:Cosmetics/data/parazonskin&quot;] = table#56 {
+   },
+   [&quot;Module:Cosmetics/data/pattern&quot;] = table#57 {
+   },
+   [&quot;Module:Cosmetics/data/railjackskin&quot;] = table#58 {
+   },
+   [&quot;Module:Cosmetics/data/scrawl&quot;] = table#59 {
+   },
+   [&quot;Module:Cosmetics/data/sentinelskin&quot;] = table#60 {
+   },
+   [&quot;Module:Cosmetics/data/signa&quot;] = table#61 {
+   },
+   [&quot;Module:Cosmetics/data/sugatra&quot;] = table#62 {
+   },
+   [&quot;Module:Cosmetics/data/sumdali&quot;] = table#63 {
+   },
+   [&quot;Module:Cosmetics/data/texture&quot;] = table#64 {
+   },
+   [&quot;Module:Cosmetics/data/uncategorized&quot;] = table#65 {
+   },
+   [&quot;Module:Cosmetics/data/validate&quot;] = table#66 {
+       [&quot;Module:Cosmetics/data&quot;] = 0,
+       [&quot;Module:Table&quot;] = 0,
+   },
+   [&quot;Module:Cosmetics/data/visageink&quot;] = table#67 {
+   },
+   [&quot;Module:Cosmetics/infobox&quot;] = table#68 {
+       [&quot;Module:Baro&quot;] = 0,
+       [&quot;Module:Cosmetics/data&quot;] = 0,
+       [&quot;Module:InfoboxBuilder&quot;] = 0,
+       [&quot;Module:TextIcons&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+       [&quot;Module:Vendors&quot;] = 0,
+       [&quot;Module:Version&quot;] = 0,
+   },
+   [&quot;Module:Cost&quot;] = table#69 {
+       [&quot;Module:Blueprints/data&quot;] = 0,
+       [&quot;Module:Icon&quot;] = 0,
+       [&quot;Module:Math&quot;] = 0,
+       [&quot;Module:Research/data&quot;] = 0,
+       [&quot;Module:String&quot;] = 0,
+       [&quot;Module:Table&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+   },
+   [&quot;Module:CroqueTest&quot;] = table#70 {
+       [&quot;Module:CroqueTest/BKT&quot;] = 0,
+       [&quot;Module:CroqueTest/data&quot;] = 0,
+       [&quot;Module:CroqueTest/keywords&quot;] = 0,
+       [&quot;Module:Research/data&quot;] = 0,
+       [&quot;Module:Warframes/data&quot;] = 0,
+       [&quot;Module:Weapons/data&quot;] = 0,
+   },
+   [&quot;Module:CroqueTest/data&quot;] = table#71 {
+   },
+   [&quot;Module:CroqueTest2&quot;] = table#72 {
+       [&quot;Module:Shared&quot;] = 0,
+       [&quot;Module:Version&quot;] = 0,
+   },
+   [&quot;Module:CroqueTestModular/modulstats&quot;] = table#73 {
+   },
+   [&quot;Module:DamageTypes&quot;] = table#74 {
+       [&quot;Module:DamageTypes/data&quot;] = 0,
+       [&quot;Module:Icon/data&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+   },
+   [&quot;Module:DamageTypes/colorContrastAdjuster&quot;] = table#75 {
+   },
+   [&quot;Module:DamageTypes/testcases&quot;] = table#76 {
+   },
+   [&quot;Module:Database&quot;] = table#77 {
+   },
+   [&quot;Module:DatastoreManifest&quot;] = table#78 {
+   },
+   [&quot;Module:Decorations&quot;] = table#79 {
+       [&quot;Module:Decorations/data&quot;] = 0,
+       [&quot;Module:Math&quot;] = 0,
+       [&quot;Module:Table&quot;] = 0,
+       [&quot;Module:Tooltips&quot;] = 0,
+   },
+   [&quot;Module:Delay&quot;] = table#80 {
+   },
+   [&quot;Module:DevstreamParticipantsList&quot;] = table#81 {
+   },
+   [&quot;Module:Docbunto/cli&quot;] = table#82 {
+       [&quot;Dev:CLI&quot;] = 0,
+       [&quot;Dev:Docbunto&quot;] = 0,
+       [&quot;Dev:FrameTools&quot;] = 0,
+       [&quot;Dev:Json&quot;] = 0,
+   },
+   [&quot;Module:Docbunto/i18n&quot;] = table#83 {
+   },
+   [&quot;Module:DojoRoom/data&quot;] = table#84 {
+   },
+   [&quot;Module:DropTables/JSON&quot;] = table#85 {
+       [&quot;Module:DropTables/JSON/&quot;] = 0,
+   },
+   [&quot;Module:DropTables/JSON/Sorties&quot;] = table#86 {
+   },
+   [&quot;Module:DropTables/JSON/Transient&quot;] = table#87 {
+   },
+   [&quot;Module:Emptylord&quot;] = table#88 {
+       [&quot;Module:Emptylord/data&quot;] = 0,
+   },
+   [&quot;Module:Emptylord/getter&quot;] = table#89 {
+       [&quot;Module:Emptylord/data&quot;] = 0,
+   },
+   [&quot;Module:Enemies/data&quot;] = table#90 {
+       [&quot;Module:Enemies/data&quot;] = 0,
+       [&quot;Module:LuaSerializer&quot;] = 0,
+   },
+   [&quot;Module:Enemies/data/anarchs&quot;] = table#91 {
+   },
+   [&quot;Module:Enemies/data/narmer&quot;] = table#92 {
+   },
+   [&quot;Module:Enemies/data/orokin&quot;] = table#93 {
+   },
+   [&quot;Module:Enemies/data/pre&quot;] = table#94 {
+   },
+   [&quot;Module:Enemies/data/scaldra&quot;] = table#95 {
+   },
+   [&quot;Module:Enemies/data/sentient&quot;] = table#96 {
+   },
+   [&quot;Module:Enemies/data/stalker&quot;] = table#97 {
+   },
+   [&quot;Module:Enemies/data/techrot&quot;] = table#98 {
+   },
+   [&quot;Module:Enemies/data/themurmur&quot;] = table#99 {
+   },
+   [&quot;Module:Enemies/infobox/dev&quot;] = table#100 {
+   },
+   [&quot;Module:Entrypoint&quot;] = table#101 {
+   },
+   [&quot;Module:Enum/data&quot;] = table#102 {
+   },
+   [&quot;Module:FINNER DropTables Test&quot;] = table#103 {
+   },
+   [&quot;Module:FINNER Icon Test&quot;] = table#104 {
+   },
+   [&quot;Module:FINNER Test/data&quot;] = table#105 {
+   },
+   [&quot;Module:FINNER Test/data/4&quot;] = table#106 {
+   },
+   [&quot;Module:FINNER Test/data/5&quot;] = table#107 {
+   },
+   [&quot;Module:FINNER Test/data/8&quot;] = table#108 {
+   },
+   [&quot;Module:FINNER Warframe Test&quot;] = table#109 {
+   },
+   [&quot;Module:FINNER Weapon Test&quot;] = table#110 {
+   },
+   [&quot;Module:FactionScript&quot;] = table#111 {
+   },
+   [&quot;Module:FactionScript/data&quot;] = table#112 {
+   },
+   [&quot;Module:Factions/data&quot;] = table#113 {
+   },
+   [&quot;Module:FallbackList&quot;] = table#114 {
+   },
+   [&quot;Module:FalterTest&quot;] = table#115 {
+   },
+   [&quot;Module:FalterTest/data&quot;] = table#116 {
+   },
+   [&quot;Module:Flaicher&quot;] = table#117 {
+   },
+   [&quot;Module:Flaicher/Conv&quot;] = table#118 {
+   },
+   [&quot;Module:Flaicher/Mods&quot;] = table#119 {
+   },
+   [&quot;Module:Flaicher/dispoData&quot;] = table#120 {
+   },
+   [&quot;Module:FlaicherTest&quot;] = table#121 {
+   },
+   [&quot;Module:Focus&quot;] = table#122 {
+   },
+   [&quot;Module:Focus/data/archived&quot;] = table#123 {
+   },
+   [&quot;Module:Focus/infobox&quot;] = table#124 {
+   },
+   [&quot;Module:FormatingTool&quot;] = table#125 {
+   },
+   [&quot;Module:FormatingTool/data&quot;] = table#126 {
+   },
+   [&quot;Module:FormatingTool/missions&quot;] = table#127 {
+   },
+   [&quot;Module:Gallery&quot;] = table#128 {
+   },
+   [&quot;Module:Gallery/testcases&quot;] = table#129 {
+   },
+   [&quot;Module:GigaTest&quot;] = table#130 {
+   },
+   [&quot;Module:GuaranteedRewards/data&quot;] = table#131 {
+   },
+   [&quot;Module:HexTest&quot;] = table#132 {
+   },
+   [&quot;Module:I18n&quot;] = table#133 {
+   },
+   [&quot;Module:I18n/testcases&quot;] = table#134 {
+   },
+   [&quot;Module:Icon&quot;] = table#135 {
+   },
+   [&quot;Module:Icon/data&quot;] = table#136 {
+   },
+   [&quot;Module:Icon/testcases&quot;] = table#137 {
+   },
+   [&quot;Module:Infobox&quot;] = table#138 {
+   },
+   [&quot;Module:Infobox/i18n&quot;] = table#139 {
+   },
+   [&quot;Module:InfoboxBuilder&quot;] = table#140 {
+   },
+   [&quot;Module:InfoboxBuilder/dev&quot;] = table#141 {
+   },
+   [&quot;Module:InfoboxGallery&quot;] = table#142 {
+   },
+   [&quot;Module:Inspect&quot;] = table#143 {
+   },
+   [&quot;Module:InternalNames&quot;] = table#144 {
+   },
+   [&quot;Module:JSON&quot;] = table#145 {
+   },
+   [&quot;Module:KeyBindings&quot;] = table#146 {
+   },
+   [&quot;Module:KeyBindings/data&quot;] = table#147 {
+   },
+   [&quot;Module:Keys/data&quot;] = table#148 {
+   },
+   [&quot;Module:Lang/ISO 639 synonyms&quot;] = table#149 {
+   },
+   [&quot;Module:Lang/configuration&quot;] = table#150 {
+   },
+   [&quot;Module:Lang/data&quot;] = table#151 {
+   },
+   [&quot;Module:Lang/data/iana regions&quot;] = table#152 {
+   },
+   [&quot;Module:Lang/data/iana scripts&quot;] = table#153 {
+   },
+   [&quot;Module:Lang/data/iana suppressed scripts&quot;] = table#154 {
+   },
+   [&quot;Module:Lang/data/iana variants&quot;] = table#155 {
+   },
+   [&quot;Module:Lang/data/is latn data&quot;] = table#156 {
+   },
+   [&quot;Module:LanguageList&quot;] = table#157 {
+   },
+   [&quot;Module:Lexer&quot;] = table#158 {
+   },
+   [&quot;Module:Localization&quot;] = table#159 {
+   },
+   [&quot;Module:Lua&quot;] = table#160 {
+   },
+   [&quot;Module:LuaClassSystem&quot;] = table#161 {
+   },
+   [&quot;Module:LuaSerializer&quot;] = table#162 {
+   },
+   [&quot;Module:LuaSerializer/dev&quot;] = table#163 {
+   },
+   [&quot;Module:LuaSerializerTwo&quot;] = table#164 {
+   },
+   [&quot;Module:Map&quot;] = table#165 {
+   },
+   [&quot;Module:Map/testcases&quot;] = table#166 {
+   },
+   [&quot;Module:MasteryRank&quot;] = table#167 {
+   },
+   [&quot;Module:MasteryRank/dev&quot;] = table#168 {
+   },
+   [&quot;Module:Math/i18n&quot;] = table#169 {
+   },
+   [&quot;Module:Math/testcases&quot;] = table#170 {
+   },
+   [&quot;Module:Math/testcases/module&quot;] = table#171 {
+   },
+   [&quot;Module:Maximization&quot;] = table#172 {
+   },
+   [&quot;Module:Maximization/data&quot;] = table#173 {
+   },
+   [&quot;Module:Mbox&quot;] = table#174 {
+   },
+   [&quot;Module:Mbox/i18n&quot;] = table#175 {
+   },
+   [&quot;Module:Missions&quot;] = table#176 {
+   },
+   [&quot;Module:Missions/dev&quot;] = table#177 {
+   },
+   [&quot;Module:Missions/infobox&quot;] = table#178 {
+   },
+   [&quot;Module:Missions/page&quot;] = table#179 {
+   },
+   [&quot;Module:Mods&quot;] = table#180 {
+   },
+   [&quot;Module:Mods/csv&quot;] = table#181 {
+   },
+   [&quot;Module:Mods/csv2&quot;] = table#182 {
+   },
+   [&quot;Module:Mods/data/validate&quot;] = table#183 {
+   },
+   [&quot;Module:Mods/infobox&quot;] = table#184 {
+   },
+   [&quot;Module:Mods/itemCompatibility&quot;] = table#185 {
+   },
+   [&quot;Module:Mods/itemCompatibility/data&quot;] = table#186 {
+   },
+   [&quot;Module:Mods/testcases&quot;] = table#187 {
+   },
+   [&quot;Module:Modular/data&quot;] = table#188 {
+   },
+   [&quot;Module:Modular/generator&quot;] = table#189 {
+   },
+   [&quot;Module:ModuleTest&quot;] = table#190 {
+   },
+   [&quot;Module:Music/data&quot;] = table#191 {
+   },
+   [&quot;Module:MyCodex&quot;] = table#192 {
+   },
+   [&quot;Module:Navbox&quot;] = table#193 {
+   },
+   [&quot;Module:Navigation&quot;] = table#194 {
+   },
+   [&quot;Module:Navigation/dev&quot;] = table#195 {
+   },
+   [&quot;Module:NightwaveActs&quot;] = table#196 {
+   },
+   [&quot;Module:NightwaveActs/acts.json&quot;] = table#197 {
+   },
+   [&quot;Module:NightwaveActs/dev&quot;] = table#198 {
+   },
+   [&quot;Module:Placeholder&quot;] = table#199 {
+   },
+   [&quot;Module:Polarity&quot;] = table#200 {
+   },
+   [&quot;Module:Reference&quot;] = table#201 {
+   },
+   [&quot;Module:ReleaseStatus&quot;] = table#202 {
+   },
+   [&quot;Module:ReleaseStatus/data&quot;] = table#203 {
+   },
+   [&quot;Module:ReleaseStatus/i18n&quot;] = table#204 {
+   },
+   [&quot;Module:RemoveCategory&quot;] = table#205 {
+   },
+   [&quot;Module:Resources&quot;] = table#206 {
+   },
+   [&quot;Module:Resources/data/validate&quot;] = table#207 {
+   },
+   [&quot;Module:Resources/infobox&quot;] = table#208 {
+   },
+   [&quot;Module:Sandbox&quot;] = table#209 {
+   },
+   [&quot;Module:Sandbox/ArbitraryMary/SigilGallery&quot;] = table#210 {
+   },
+   [&quot;Module:Sandbox/DutyS12345&quot;] = table#211 {
+   },
+   [&quot;Module:Sandbox/Hilycker/SortTest&quot;] = table#212 {
+   },
+   [&quot;Module:Sandbox/Hilycker/SortTest/data&quot;] = table#213 {
+   },
+   [&quot;Module:Sandbox/Moxian&quot;] = table#214 {
+   },
+   [&quot;Module:Sandbox/ScribuntoDebugConsole&quot;] = table#215 {
+   },
+   [&quot;Module:Sandbox/Sean/Tooltips&quot;] = table#216 {
+   },
+   [&quot;Module:Sandbox/Sean/Tooltips/icon&quot;] = table#217 {
+   },
+   [&quot;Module:Sandbox/Sean/Warframes&quot;] = table#218 {
+   },
+   [&quot;Module:Sandbox/Sean/Warframes/infobox&quot;] = table#219 {
+   },
+   [&quot;Module:Sandbox/Sean/Weapons/nav&quot;] = table#220 {
+   },
+   [&quot;Module:Sandbox/SkipThisAd/DropTables&quot;] = table#221 {
+   },
+   [&quot;Module:Sandbox/Vondak/Test&quot;] = table#222 {
+   },
+   [&quot;Module:Sandbox/lonnstyle/Warframes/infobox&quot;] = table#223 {
+   },
+   [&quot;Module:ScientiaStances/data&quot;] = table#224 {
+   },
+   [&quot;Module:ScientiaStances/sharedCombosData&quot;] = table#225 {
+   },
+   [&quot;Module:ScientiaTest&quot;] = table#226 {
+   },
+   [&quot;Module:ScientiaTest/i18n&quot;] = table#227 {
+   },
+   [&quot;Module:Shared&quot;] = table#228 {
+   },
+   [&quot;Module:Shared/testcases&quot;] = table#229 {
+   },
+   [&quot;Module:SnekwTest&quot;] = table#230 {
+   },
+   [&quot;Module:SpxceVendor&quot;] = table#231 {
+   },
+   [&quot;Module:Stances&quot;] = table#232 {
+   },
+   [&quot;Module:Stances/dev&quot;] = table#233 {
+   },
+   [&quot;Module:StatObject&quot;] = table#234 {
+   },
+   [&quot;Module:String&quot;] = table#235 {
+   },
+   [&quot;Module:String/testcases&quot;] = table#236 {
+   },
+   [&quot;Module:Switch Infobox&quot;] = table#237 {
+   },
+   [&quot;Module:Syndicates/data&quot;] = table#238 {
+   },
+   [&quot;Module:SynthTest&quot;] = table#239 {
+   },
+   [&quot;Module:Table&quot;] = table#240 {
+   },
+   [&quot;Module:Table/testcases&quot;] = table#241 {
+   },
+   [&quot;Module:Tabs&quot;] = table#242 {
+   },
+   [&quot;Module:TennoGen&quot;] = table#243 {
+   },
+   [&quot;Module:TennoScript&quot;] = table#244 {
+   },
+   [&quot;Module:TestHarness/i18n&quot;] = table#245 {
+   },
+   [&quot;Module:Text&quot;] = table#246 {
+   },
+   [&quot;Module:TextIcons&quot;] = table#247 {
+   },
+   [&quot;Module:Tooltips&quot;] = table#248 {
+   },
+   [&quot;Module:Tooltips/data&quot;] = table#249 {
+   },
+   [&quot;Module:Tooltips/data/Ability&quot;] = table#250 {
+   },
+   [&quot;Module:Tooltips/data/Arcane&quot;] = table#251 {
+   },
+   [&quot;Module:Tooltips/data/DamageTypes&quot;] = table#252 {
+   },
+   [&quot;Module:Tooltips/data/Mods&quot;] = table#253 {
+   },
+   [&quot;Module:Tooltips/data/Void&quot;] = table#254 {
+   },
+   [&quot;Module:Tooltips/data/Warframes&quot;] = table#255 {
+   },
+   [&quot;Module:Tooltips/data/Weapons&quot;] = table#256 {
+   },
+   [&quot;Module:Tooltips/dev&quot;] = table#257 {
+   },
+   [&quot;Module:Tooltips/icon&quot;] = table#258 {
+   },
+   [&quot;Module:Tooltips/icon/dev&quot;] = table#259 {
+   },
+   [&quot;Module:Tooltips/testcases&quot;] = table#260 {
+   },
+   [&quot;Module:Tooltips/tip/dev&quot;] = table#261 {
+   },
+   [&quot;Module:TrajosAcquisition&quot;] = table#262 {
+   },
+   [&quot;Module:TrajosVoid&quot;] = table#263 {
+   },
+   [&quot;Module:TranslationExamples&quot;] = table#264 {
+   },
+   [&quot;Module:Unicode data&quot;] = table#265 {
+   },
+   [&quot;Module:Unindent&quot;] = table#266 {
+   },
+   [&quot;Module:Upgrades/data&quot;] = table#267 {
+   },
+   [&quot;Module:User&quot;] = table#268 {
+   },
+   [&quot;Module:UserError&quot;] = table#269 {
+   },
+   [&quot;Module:Vehicles/data&quot;] = table#270 {
+   },
+   [&quot;Module:Vehicles/infobox&quot;] = table#271 {
+   },
+   [&quot;Module:Vendors&quot;] = table#272 {
+   },
+   [&quot;Module:Version&quot;] = table#273 {
+   },
+   [&quot;Module:VideoGallery&quot;] = table#274 {
+   },
+   [&quot;Module:Void/data/validate&quot;] = table#275 {
+   },
+   [&quot;Module:Void/dev&quot;] = table#276 {
+   },
+   [&quot;Module:Void/page&quot;] = table#277 {
+   },
+   [&quot;Module:VoidByReward&quot;] = table#278 {
+   },
+   [&quot;Module:WDSButton&quot;] = table#279 {
+   },
+   [&quot;Module:WDSButton/data&quot;] = table#280 {
+   },
+   [&quot;Module:Warframes&quot;] = table#281 {
+   },
+   [&quot;Module:Warframes/Conclave/data&quot;] = table#282 {
+   },
+   [&quot;Module:Warframes/infobox&quot;] = table#283 {
+   },
+   [&quot;Module:Warframes/testcases&quot;] = table#284 {
+   },
+   [&quot;Module:Weapons/Conclave/data&quot;] = table#285 {
+   },
+   [&quot;Module:Weapons/characteristics&quot;] = table#286 {
+   },
+   [&quot;Module:Weapons/compare&quot;] = table#287 {
+   },
+   [&quot;Module:Weapons/comptable&quot;] = table#288 {
+   },
+   [&quot;Module:Weapons/csv&quot;] = table#289 {
+   },
+   [&quot;Module:Weapons/data&quot;] = table#290 {
+   },
+   [&quot;Module:Weapons/data/credits&quot;] = table#291 {
+   },
+   [&quot;Module:Weapons/data/misc&quot;] = table#292 {
+   },
+   [&quot;Module:Weapons/data/validate&quot;] = table#293 {
+   },
+   [&quot;Module:Weapons/dev&quot;] = table#294 {
+   },
+   [&quot;Module:Weapons/infobox&quot;] = table#295 {
+   },
+   [&quot;Module:Weapons/nav&quot;] = table#296 {
+   },
+   [&quot;Module:Weapons/ppdata/seeder&quot;] = table#297 {
+   },
+   [&quot;Module:Weapons/preprocess&quot;] = table#298 {
+   },
+   [&quot;Module:Weapons/sandbox&quot;] = table#299 {
+   },
+   [&quot;Module:Weapons/testcases&quot;] = table#300 {
+   },
+   [&quot;Module:WorldState&quot;] = table#301 {
+   },
+   [&quot;Module:Worldstate/data&quot;] = table#302 {
+   },
+   [&quot;Module:Yesno&quot;] = table#303 {
+   },
+   [&quot;Module:Yesno/testcases&quot;] = table#304 {
+   },
+</pre>
+</strong><p><strong class="error">}.</strong>
+</p>
+</div>
+<div class="mw-heading mw-heading3"><h3 id="Cleaning_up_non-clustered_graph">Cleaning up non-clustered graph</h3></div>
+<p>If using <code>dot</code> algorithm to render a non-clustered graph, then use the <a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://linux.die.net/man/1/unflatten">unflatten</a> preprocessor to improve graph's aspect ratio:
+</p>
+<pre>unflatten -f -l5 -c13 fileName.dot</pre>
+<div class="mw-heading mw-heading2"><h2 id="Wiki's_Dependency_Graphs">Wiki's Dependency Graphs</h2></div>
+<p>Dependency graphs of this wiki's codebase can be viewed on the <a href="/w/Category:Dependency_Graphs" title="Category:Dependency Graphs">Category:Dependency Graphs</a> category.
+</p>
+<div class="mw-heading mw-heading2"><h2 id="Documentation">Documentation</h2></div>
+<div class="mw-heading mw-heading3"><h3 id="Package_items">Package items</h3></div>
+<dl><dt><code id="dependencygraph.enableClusters">dependencygraph.enableClusters</code>&#32;(member;&#32;boolean)</dt>
+<dd>Denotes whether or not clustering of nodes will occur</dd>
+<dt><code id="dependencygraph.main">dependencygraph.main(frame)</code>&#32;(function)</dt>
+<dd>Entry point of program.</dd>
+<dd><b>Parameter</b>:&#32;<code>frame</code> Frame object&#32;(table)</dd>
+<dd><b>Returns</b>:&#32;Preformatted text of resultant DOT graph&#32;(string)</dd></dl>
+<hr />
+<dl><dd><i>Created with <a href="/w/Module:Docbunto" title="Module:Docbunto">Docbunto</a></i></dd></dl>
+<div class="mw-heading mw-heading2"><h2 id="See_Also">See Also</h2></div>
+<ul class="mw-prefixindex-list"><li><a href="/w/Module:DependencyGraph/doc" title="Module:DependencyGraph/doc">DependencyGraph/doc</a></li>
+</ul>
+<table class="navbox mw-collapsible">
+
+<tbody><tr>
+<th colspan="3" class="navboxhead">Modules and Lua Libraries <span class="plainlinks" style="float:right;"><a class="text" href="https://wiki.warframe.com/w/Template:ModuleNav?action=edit"><span class="button" style="min-width:70px;text-align:center;border-radius:2px;font-weight:bold;">Edit</span></a></span>
+</th></tr>
+<tr>
+<td rowspan="2" class="navboxgroup" style="width:10%;">Standard Libraries (STL)
+</td>
+<td class="navboxgroup">Included
+</td>
+<td><a href="https://www.mediawiki.org/wiki/Extension:Scribunto/Lua_reference_manual" class="extiw" title="mw:Extension:Scribunto/Lua reference manual">Scribunto</a> (optional <a href="https://www.mediawiki.org/wiki/Extension:Scribunto/Lua_reference_manual#bit32" class="extiw" title="mw:Extension:Scribunto/Lua reference manual">bit32</a> &amp; <a href="https://www.mediawiki.org/wiki/Extension:Scribunto/Lua_reference_manual#libraryUtil" class="extiw" title="mw:Extension:Scribunto/Lua reference manual">libraryUtil</a>)
+</td></tr>
+<tr>
+<td class="navboxgroup">Extensions
+</td>
+<td><a href="/w/Module:Math" title="Module:Math">M:Math</a> • <a href="/w/Module:String" title="Module:String">M:String</a> • <a href="/w/Module:Table" title="Module:Table">M:Table</a>
+</td></tr>
+<tr>
+<td rowspan="8" class="navboxgroup" style="width:10%;">Data Stores / Databases
+</td>
+<td class="navboxgroup">General
+</td>
+<td><a href="/w/Module:Codex" title="Module:Codex">M:Codex</a> (<a href="/w/Module:Codex/data" title="Module:Codex/data">/data</a>) • <a href="/w/Module:Companions?action=edit&amp;redlink=1" class="new" title="Module:Companions (page does not exist)">M:Companions</a> (<a href="/w/Module:Companions/data" title="Module:Companions/data">/data</a>) • <a href="/w/Module:Conservation" title="Module:Conservation">M:Conservation</a> (<a href="/w/Module:Conservation/data" title="Module:Conservation/data">/data</a>) • <a href="/w/Module:DamageTypes" title="Module:DamageTypes">M:DamageTypes</a> (<a href="/w/Module:DamageTypes/data" title="Module:DamageTypes/data">/data</a>) • <a href="/w/Module:DojoRoom/data" title="Module:DojoRoom/data">M:DojoRoom/data</a> • <a href="/w/Module:Enemies?action=edit&amp;redlink=1" class="new" title="Module:Enemies (page does not exist)">M:Enemies</a> (<a href="/w/Module:Enemies/data" title="Module:Enemies/data">/data</a>) • <a href="/w/Module:Factions/data" title="Module:Factions/data">M:Factions/data</a> • <a href="/w/Module:FactionScript" title="Module:FactionScript">M:FactionScript</a> (<a href="/w/Module:FactionScript/data" title="Module:FactionScript/data">/data</a>) • <a href="/w/Module:GuaranteedRewards/data" title="Module:GuaranteedRewards/data">M:GuaranteedRewards/data</a> • <a href="/w/Module:Icon" title="Module:Icon">M:Icon</a> (<a href="/w/Module:Icon/data" title="Module:Icon/data">/data</a>) • <a href="/w/Module:Keys/data" title="Module:Keys/data">M:Keys/data</a> • <a href="/w/Module:KeyBindings" title="Module:KeyBindings">M:KeyBindings</a> (<a href="/w/Module:KeyBindings/data" title="Module:KeyBindings/data">/data</a>) • <a href="/w/Module:Missions" title="Module:Missions">M:Missions</a> (<a href="/w/Module:Missions/data" title="Module:Missions/data">/data</a>) • <a href="/w/Module:Music/data" title="Module:Music/data">M:Music/data</a> • <a href="/w/Module:TextIcons" title="Module:TextIcons">Module:TextIcons</a> (<a href="/w/Module:TextIcons/data" title="Module:TextIcons/data">/data</a>) • <a href="/w/Module:Upgrades/data" title="Module:Upgrades/data">M:Upgrades/data</a> • <a href="/w/Module:Version" title="Module:Version">M:Version</a> (<a href="/w/Module:Version/data" title="Module:Version/data">/data</a>)
+</td></tr>
+<tr>
+<td class="navboxgroup"><a href="/w/Warframes" title="Warframes">Warframes</a> / Avatars
+</td>
+<td><a href="/w/Module:Ability" title="Module:Ability">M:Ability</a> (<a href="/w/Module:Ability/data" title="Module:Ability/data">/data</a>) • <a href="/w/Module:Maximization" title="Module:Maximization">M:Maximization</a> (<a href="/w/Module:Maximization/data" title="Module:Maximization/data">/data</a>) • <a href="/w/Module:Warframes" title="Module:Warframes">M:Warframes</a> (<a href="/w/Module:Warframes/data" title="Module:Warframes/data">/data</a>)
+</td></tr>
+<tr>
+<td class="navboxgroup"><a href="/w/Weapons" title="Weapons">Weapons</a>
+</td>
+<td><a href="/w/Module:Modular" title="Module:Modular">M:Modular</a> (<a href="/w/Module:Modular/data" title="Module:Modular/data">/data</a>) • <a href="/w/Module:Weapons" title="Module:Weapons">M:Weapons</a> (<a href="/w/Module:Weapons/data" title="Module:Weapons/data">/data</a>, <a href="/w/Module:Weapons/ppdata" title="Module:Weapons/ppdata">/ppdata</a>)
+</td></tr>
+<tr>
+<td class="navboxgroup"><a href="/w/Upgrade" title="Upgrade">Upgrades</a>
+</td>
+<td><a href="/w/Module:Arcane" title="Module:Arcane">M:Arcane</a> (<a href="/w/Module:Arcane/data" title="Module:Arcane/data">/data</a>) • <a href="/w/Module:Decrees/data" title="Module:Decrees/data">M:Decrees/data</a> • <a href="/w/Module:Focus" title="Module:Focus">M:Focus</a> (<a href="/w/Module:Focus/data" title="Module:Focus/data">/data</a>) • <a href="/w/Module:Mods" title="Module:Mods">M:Mods</a> (<a href="/w/Module:Mods/data" title="Module:Mods/data">/data</a>) • <a href="/w/Module:Stances" title="Module:Stances">M:Stances</a> (<a href="/w/Module:Stances/data" title="Module:Stances/data">/data</a>)
+</td></tr>
+<tr>
+<td class="navboxgroup"><a href="/w/Drop_Tables" title="Drop Tables">Drop Tables</a>
+</td>
+<td><a href="/w/Module:Acquisition" title="Module:Acquisition">M:Acquisition</a> (<a href="/w/Module:Acquisition/data" title="Module:Acquisition/data">/data</a>) • <a href="/w/Module:DropTables" title="Module:DropTables">M:DropTables</a> (<a href="/w/Module:DropTables/data" title="Module:DropTables/data">/data</a>) • <a href="/w/Module:Void" title="Module:Void">M:Void</a> (<a href="/w/Module:Void/data" title="Module:Void/data">/data</a>)
+</td></tr>
+<tr>
+<td class="navboxgroup">Vendors
+</td>
+<td><a href="/w/Module:Baro" title="Module:Baro">M:Baro</a> (<a href="/w/Module:Baro/data" title="Module:Baro/data">/data</a>) • <a href="/w/Module:Vendors" title="Module:Vendors">M:Vendors</a> (<a href="/w/Module:Vendors/data" title="Module:Vendors/data">/data</a>)
+</td></tr>
+<tr>
+<td class="navboxgroup">Crafting
+</td>
+<td><a href="/w/Module:Blueprints/data" title="Module:Blueprints/data">M:Blueprints/data</a> • <a href="/w/Module:Cost" title="Module:Cost">M:Cost</a> • <a href="/w/Module:Research?action=edit&amp;redlink=1" class="new" title="Module:Research (page does not exist)">M:Research</a> (<a href="/w/Module:Research/data" title="Module:Research/data">/data</a>) • <a href="/w/Module:Resources" title="Module:Resources">M:Resources</a> (<a href="/w/Module:Resources/data" title="Module:Resources/data">/data</a>)
+</td></tr>
+<tr>
+<td class="navboxgroup">Cosmetics
+</td>
+<td><a href="/w/Module:Decorations" title="Module:Decorations">M:Decorations</a> (<a href="/w/Module:Decorations/data" title="Module:Decorations/data">/data</a>) • <a href="/w/Module:Cosmetics" title="Module:Cosmetics">M:Cosmetics</a> (<a href="/w/Module:Cosmetics/data" title="Module:Cosmetics/data">/data</a>) • <a href="/w/Module:Sigils/data" title="Module:Sigils/data">M:Sigils/data</a> • <a href="/w/Module:TennoGen" title="Module:TennoGen">M:TennoGen</a> (<a href="/w/Module:TennoGen/data" title="Module:TennoGen/data">/data</a>)
+</td></tr>
+<tr>
+<td class="navboxgroup" style="width:10%;">Infoboxes
+</td>
+<td colspan="2"><a href="/w/Module:Animal/infobox" title="Module:Animal/infobox">M:Animal/infobox</a> • <a href="/w/Module:Arcane/infobox" title="Module:Arcane/infobox">M:Arcane/infobox</a> • <a href="/w/Module:ArchModBox" title="Module:ArchModBox">M:ArchModBox</a> • <a href="/w/Module:Companions/infobox" title="Module:Companions/infobox">Module:Companions/infobox</a> • <a href="/w/Module:Conservation/infobox" title="Module:Conservation/infobox">M:Conservation/infobox</a> • <a href="/w/Module:Cosmetics/infobox" title="Module:Cosmetics/infobox">M:Cosmetics/infobox</a> • <a href="/w/Module:Enemies/infobox" title="Module:Enemies/infobox">M:Enemies/infobox</a> • <a href="/w/Module:Missions/infobox" title="Module:Missions/infobox">M:Missions/infobox</a> • <a href="/w/Module:Mods/infobox" title="Module:Mods/infobox">M:Mods/infobox</a> • <a href="/w/Module:Resources/infobox" title="Module:Resources/infobox">M:Resources/infobox</a> • <a href="/w/Module:Vehicles/infobox" title="Module:Vehicles/infobox">M:Vehicles/infobox</a> • <a href="/w/Module:Void/page" title="Module:Void/page">M:Void/page</a> • <a href="/w/Module:Warframes/infobox" title="Module:Warframes/infobox">M:Warframes/infobox</a> • <a href="/w/Module:Weapons/infobox" title="Module:Weapons/infobox">M:Weapons/infobox</a>
+</td></tr>
+<tr>
+<td rowspan="4" class="navboxgroup" style="width:10%;">Wiki
+</td>
+<td class="navboxgroup"><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://dev.fandom.com/wiki/Fandom_Developers_Wiki">Dev Wiki</a> Fork
+</td>
+<td><a href="/w/Module:Common" title="Module:Common">Module:Common</a> (<a href="/w/Module:Common/i18n" title="Module:Common/i18n">/i18n</a>) • <a href="/w/Module:Docbunto" title="Module:Docbunto">M:Docbunto</a> (<a href="/w/Module:Docbunto/cli" title="Module:Docbunto/cli">/cli</a>, <a href="/w/Module:Docbunto/i18n" title="Module:Docbunto/i18n">/i18n</a>) • <a href="/w/Module:Entrypoint" title="Module:Entrypoint">M:Entrypoint</a> • <a href="/w/Module:I18n" title="Module:I18n">M:I18n</a> • <a href="/w/Module:Infobox" title="Module:Infobox">M:Infobox</a> (<a href="/w/Module:Infobox/i18n" title="Module:Infobox/i18n">/i18n</a>) • <a href="/w/Module:LanguageList" title="Module:LanguageList">M:LanguageList</a> • <a href="/w/Module:Mbox" title="Module:Mbox">M:Mbox</a> (<a href="/w/Module:Mbox/i18n" title="Module:Mbox/i18n">/i18n</a>) • <a href="/w/Module:ModuleTest" title="Module:ModuleTest">M:ModuleTest</a> • <a href="/w/Module:Reference" title="Module:Reference">M:Reference</a> • <a href="/w/Module:ReleaseStatus" title="Module:ReleaseStatus">M:ReleaseStatus</a> (<a href="/w/Module:ReleaseStatus/i18n" title="Module:ReleaseStatus/i18n">/i18n</a>) • <a href="/w/Module:TestHarness" title="Module:TestHarness">M:TestHarness</a> (<a href="/w/Module:TestHarness/i18n" title="Module:TestHarness/i18n">/i18n</a>) • <a href="/w/Module:WDSButton" title="Module:WDSButton">M:WDSButton</a> (<a href="/w/Module:WDSButton/data" title="Module:WDSButton/data">/data</a>)
+</td></tr>
+<tr>
+<td class="navboxgroup"><a href="https://en.wikipedia.org/wiki/Wikipedia" class="extiw" title="wikipedia:Wikipedia">Wikipedia</a> Fork
+</td>
+<td><a href="/w/Module:Arguments" title="Module:Arguments">M:Arguments</a> (<a href="/w/Module:Arguments/i18n" title="Module:Arguments/i18n">/i18n</a>) • <a href="/w/Module:FallbackList" title="Module:FallbackList">M:FallbackList</a> • <a href="/w/Module:Yesno" title="Module:Yesno">M:Yesno</a>
+</td></tr>
+<tr>
+<td class="navboxgroup">Third-Party Fork
+</td>
+<td><a href="/w/Module:Codec" title="Module:Codec">M:Codec</a> • <a href="/w/Module:CSV" title="Module:CSV">M:CSV</a> • <a href="/w/Module:Date" title="Module:Date">M:Date</a> • <a href="/w/Module:Inspect" title="Module:Inspect">M:Inspect</a> • <a href="/w/Module:JSON" title="Module:JSON">M:JSON</a> • <a href="/w/Module:Lexer" title="Module:Lexer">M:Lexer</a> • <a href="/w/Module:LuaClassSystem" title="Module:LuaClassSystem">M:LuaClassSystem</a> • <a href="/w/Module:LuaSerializer" title="Module:LuaSerializer">M:LuaSerializer</a> • <a href="/w/Module:Navbox" title="Module:Navbox">M:Navbox</a> • <a href="/w/Module:Navigation" title="Module:Navigation">M:Navigation</a> • <a href="/w/Module:Unindent" title="Module:Unindent">M:Unindent</a>
+</td></tr>
+<tr>
+<td class="navboxgroup">Wiki-Unique
+</td>
+<td><a href="/w/Module:Database" title="Module:Database">M:Database</a> • <a href="/w/Module:DatastoreManifest" title="Module:DatastoreManifest">M:DatastoreManifest</a> • <a href="/w/Module:Delay" title="Module:Delay">M:Delay</a> • <a class="mw-selflink selflink">M:DependencyGraph</a> • <a href="/w/Module:InfoboxBuilder" title="Module:InfoboxBuilder">M:InfoboxBuilder</a> • <a href="/w/Module:Lua" title="Module:Lua">M:Lua</a> • <a href="/w/Module:Map" title="Module:Map">M:Map</a> • <a href="/w/Module:Placeholder" title="Module:Placeholder">M:Placeholder</a> • <a href="/w/Module:RemoveCategory" title="Module:RemoveCategory">M:RemoveCategory</a> • <a href="/w/Module:StatObject" title="Module:StatObject">M:StatObject</a> • <a href="/w/Module:Text" title="Module:Text">M:Text</a> • <a href="/w/Module:Tooltips" title="Module:Tooltips">M:Tooltips</a>
+</td></tr>
+<tr>
+<td class="navboxgroup" style="width:10%;">Other
+</td>
+<td colspan="2"><a href="/w/Module:Enum/data" title="Module:Enum/data">M:Enum/data</a> • <a href="/w/Module:InternalNames" title="Module:InternalNames">M:InternalNames</a> • <a href="/w/Module:MasteryRank" title="Module:MasteryRank">M:MasteryRank</a> • <a href="/w/Module:Polarity" title="Module:Polarity">M:Polarity</a> • <a href="/w/Module:Sandbox" title="Module:Sandbox">M:Sandbox</a> • <a href="/w/Module:WarframeUsageData2020/data" title="Module:WarframeUsageData2020/data">M:WarframeUsageData2020/data</a>
+</td></tr>
+<tr>
+<td class="navboxgroup" style="width:10%;">Archived/Deprecated
+</td>
+<td colspan="2"><a href="/w/Module:Avionics" title="Module:Avionics">M:Avionics</a> (<a href="/w/Module:Avionics/data" title="Module:Avionics/data">/data</a>) • <a href="/w/Module:BuildRequire" title="Module:BuildRequire">M:BuildRequire</a> • <a href="/w/Module:FormatingTool" title="Module:FormatingTool">M:FormatingTool</a> • <a href="/w/Module:Gallery" title="Module:Gallery">M:Gallery</a> • <a href="/w/Module:NightwaveActs" title="Module:NightwaveActs">M:NightwaveActs</a> • <a href="/w/Module:Shared" title="Module:Shared">M:Shared</a> • <a href="/w/Module:Syndicates/data" title="Module:Syndicates/data">M:Syndicates/data</a> • <a href="/w/Module:TennoScript" title="Module:TennoScript">M:TennoScript</a> • <a href="/w/Module:TranslationExamples" title="Module:TranslationExamples">M:TranslationExamples</a> • <a href="/w/Module:VoidByReward" title="Module:VoidByReward">M:VoidByReward</a> • <a href="/w/Module:WorldState" title="Module:WorldState">M:WorldState</a> (<a href="/w/Module:Worldstate/data" title="Module:Worldstate/data">/data</a>)
+</td></tr>
+<tr>
+<th colspan="3" class="navboxfooter"><a href="/w/WARFRAME_Wiki:Bug_Reports" title="WARFRAME Wiki:Bug Reports">Bug Reports</a> • <a href="/w/WARFRAME_Wiki:Development_Guide" title="WARFRAME Wiki:Development Guide">Development Guide</a> • <a href="/w/WARFRAME_Wiki:Localization_Guide" title="WARFRAME Wiki:Localization Guide">Localization Guide</a> (<a href="/w/WARFRAME_Wiki:L10n" title="WARFRAME Wiki:L10n">L10n Message Data Stores</a>) • <a href="/w/WARFRAME_Wiki:Programming_Standards" title="WARFRAME Wiki:Programming Standards">Programming Standards</a> • <a href="/w/WARFRAME_Wiki:Projects" title="WARFRAME Wiki:Projects">Projects &amp; Current Backlog</a> • <a href="/w/WARFRAME_Wiki:Updating_Databases" title="WARFRAME Wiki:Updating Databases">Updating Databases</a> • <a href="/w/Special:AllPages/Module:" title="Special:AllPages/Module:">Full Module List</a> • <a href="https://www.mediawiki.org/wiki/Extension:Scribunto/Lua_reference_manual" class="extiw" title="mw:Extension:Scribunto/Lua reference manual">Lua Reference Manual</a>
+</th></tr>
+</tbody></table>
+<div class="mw-heading mw-heading2"><h2 id="Code">Code</h2></div>
+<hr /><div class="mw-highlight mw-highlight-lang-lua mw-content-ltr mw-highlight-lines" dir="ltr"><pre><span></span><span id="L-1"><a href="#L-1"><span class="linenos" data-line="1"></span></a><span class="c1">---	&#39;&#39;&#39;DependencyGraph&#39;&#39;&#39; outputs a module dependency graph of this wiki&#39;s modules</span>
+</span><span id="L-2"><a href="#L-2"><span class="linenos" data-line="2"></span></a><span class="c1">--	using the [[wikipedia:DOT (graph description language)|DOT language]].&lt;br /&gt; </span>
+</span><span id="L-3"><a href="#L-3"><span class="linenos" data-line="3"></span></a><span class="c1">--	</span>
+</span><span id="L-4"><a href="#L-4"><span class="linenos" data-line="4"></span></a><span class="c1">--	Requires [[community:Help:DynamicPageList|Extension:DynamicPageList]] enabled on your wiki.</span>
+</span><span id="L-5"><a href="#L-5"><span class="linenos" data-line="5"></span></a><span class="c1">--	</span>
+</span><span id="L-6"><a href="#L-6"><span class="linenos" data-line="6"></span></a><span class="c1">--	Recommended layout algorithms for rendering resultant DOT file:</span>
+</span><span id="L-7"><a href="#L-7"><span class="linenos" data-line="7"></span></a><span class="c1">--	* &lt;code&gt;fdp&lt;/code&gt;/&lt;code&gt;sfdp&lt;/code&gt; - useful for viewing entire codebase w/ clustering of module families</span>
+</span><span id="L-8"><a href="#L-8"><span class="linenos" data-line="8"></span></a><span class="c1">--	* &lt;code&gt;circo&lt;/code&gt; - circular layout, useful for finding modules/submodules with the fewest dependencies</span>
+</span><span id="L-9"><a href="#L-9"><span class="linenos" data-line="9"></span></a><span class="c1">--	</span>
+</span><span id="L-10"><a href="#L-10"><span class="linenos" data-line="10"></span></a><span class="c1">--	See https://www.rdocumentation.org/packages/Rgraphviz/versions/2.16.0/topics/GraphvizLayouts</span>
+</span><span id="L-11"><a href="#L-11"><span class="linenos" data-line="11"></span></a><span class="c1">--	for more details on these layout algorithms.</span>
+</span><span id="L-12"><a href="#L-12"><span class="linenos" data-line="12"></span></a><span class="c1">--	</span>
+</span><span id="L-13"><a href="#L-13"><span class="linenos" data-line="13"></span></a><span class="c1">--	@module		dependencygraph</span>
+</span><span id="L-14"><a href="#L-14"><span class="linenos" data-line="14"></span></a><span class="c1">--	@alias		p</span>
+</span><span id="L-15"><a href="#L-15"><span class="linenos" data-line="15"></span></a><span class="c1">--	@author		[[User:Cephalon Scientia|Cephalon Scientia]]</span>
+</span><span id="L-16"><a href="#L-16"><span class="linenos" data-line="16"></span></a><span class="c1">--	@image		EN WARFRAME Wiki Dependency Graph.png</span>
+</span><span id="L-17"><a href="#L-17"><span class="linenos" data-line="17"></span></a><span class="c1">--	@require	[[Module:Table]]</span>
+</span><span id="L-18"><a href="#L-18"><span class="linenos" data-line="18"></span></a><span class="c1">--	@release	beta</span>
+</span><span id="L-19"><a href="#L-19"><span class="linenos" data-line="19"></span></a><span class="c1">--	&lt;nowiki&gt;</span>
+</span><span id="L-20"><a href="#L-20"><span class="linenos" data-line="20"></span></a>
+</span><span id="L-21"><a href="#L-21"><span class="linenos" data-line="21"></span></a><span class="c1">-- TODO: Module names inside documentation is being treated as dependencies even though</span>
+</span><span id="L-22"><a href="#L-22"><span class="linenos" data-line="22"></span></a><span class="c1">-- they may not be actual dependencies. Somehow get the strings within mw.loadData() and require()</span>
+</span><span id="L-23"><a href="#L-23"><span class="linenos" data-line="23"></span></a><span class="c1">-- functions instead to use as a module&#39;s actual dependencies. Note on limitations of Lua patterns.</span>
+</span><span id="L-24"><a href="#L-24"><span class="linenos" data-line="24"></span></a>
+</span><span id="L-25"><a href="#L-25"><span class="linenos" data-line="25"></span></a><span class="c1">-- @todo Explore way to output to GraphML format or convert DOT to GraphML to import into yED Graph Editor</span>
+</span><span id="L-26"><a href="#L-26"><span class="linenos" data-line="26"></span></a><span class="kd">local</span><span class="w"> </span><span class="nv">p</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{}</span>
+</span><span id="L-27"><a href="#L-27"><span class="linenos" data-line="27"></span></a><span class="c1">-- TODO: If porting this module to the Dev wiki for global use, remove this import and directly implement</span>
+</span><span id="L-28"><a href="#L-28"><span class="linenos" data-line="28"></span></a><span class="c1">-- any used functions here</span>
+</span><span id="L-29"><a href="#L-29"><span class="linenos" data-line="29"></span></a><span class="kd">local</span><span class="w"> </span><span class="nv">Table</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">require</span><span class="p">(</span><span class="s1">&#39;Module:Table&#39;</span><span class="p">)</span>
+</span><span id="L-30"><a href="#L-30"><span class="linenos" data-line="30"></span></a><span class="kd">local</span><span class="w"> </span><span class="nv">MODULE_LOCALIZATION</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">mw</span><span class="p">.</span><span class="py">site</span><span class="p">.</span><span class="py">namespaces</span><span class="p">[</span><span class="mi">828</span><span class="p">].</span><span class="nv">name</span>
+</span><span id="L-31"><a href="#L-31"><span class="linenos" data-line="31"></span></a><span class="kd">local</span><span class="w"> </span><span class="nv">MODULE_NAME_PATTERN</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">MODULE_LOCALIZATION</span><span class="o">..</span><span class="s1">&#39;:[%a%d. /]+&#39;</span>
+</span><span id="L-32"><a href="#L-32"><span class="linenos" data-line="32"></span></a><span class="kd">local</span><span class="w"> </span><span class="nv">DEV_MODULE_NAME_PATTERN</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;Dev:[%w /]+&#39;</span>
+</span><span id="L-33"><a href="#L-33"><span class="linenos" data-line="33"></span></a><span class="c1">-- Capturing all possible characters that can be in a import function call,</span>
+</span><span id="L-34"><a href="#L-34"><span class="linenos" data-line="34"></span></a><span class="c1">-- includes possible characters in Module page name as well as Lua tokens</span>
+</span><span id="L-35"><a href="#L-35"><span class="linenos" data-line="35"></span></a><span class="kd">local</span><span class="w"> </span><span class="nv">POSSIBLE_CHAR_PATTERN</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;[%w%[%]()</span><span class="se">\&#39;</span><span class="s1">&quot; :/.=]+&#39;</span>
+</span><span id="L-36"><a href="#L-36"><span class="linenos" data-line="36"></span></a><span class="c1">-- TODO: There are still false positives with require() and mw.loadData() statements that</span>
+</span><span id="L-37"><a href="#L-37"><span class="linenos" data-line="37"></span></a><span class="c1">-- are commented out</span>
+</span><span id="L-38"><a href="#L-38"><span class="linenos" data-line="38"></span></a><span class="kd">local</span><span class="w"> </span><span class="nv">IMPORT_STATEMENT_PATTERNS</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s1">&#39;require&#39;</span><span class="o">..</span><span class="nv">POSSIBLE_CHAR_PATTERN</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;mw.loadData&#39;</span><span class="o">..</span><span class="nv">POSSIBLE_CHAR_PATTERN</span><span class="w"> </span><span class="p">}</span>
+</span><span id="L-39"><a href="#L-39"><span class="linenos" data-line="39"></span></a><span class="kd">local</span><span class="w"> </span><span class="nv">DEV_WIKI_URL</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;https://dev.fandom.com/wiki/&#39;</span>
+</span><span id="L-40"><a href="#L-40"><span class="linenos" data-line="40"></span></a>
+</span><span id="L-41"><a href="#L-41"><span class="linenos" data-line="41"></span></a><span class="c1">--- Denotes whether or not clustering of nodes will occur</span>
+</span><span id="L-42"><a href="#L-42"><span class="linenos" data-line="42"></span></a><span class="c1">--	@member			{boolean} p.enableClusters</span>
+</span><span id="L-43"><a href="#L-43"><span class="linenos" data-line="43"></span></a><span class="nv">p</span><span class="p">.</span><span class="py">enableClusters</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span><span class="w">	</span><span class="c1">-- By default, clustering of submodules with their main modules is disabled</span>
+</span><span id="L-44"><a href="#L-44"><span class="linenos" data-line="44"></span></a>
+</span><span id="L-45"><a href="#L-45"><span class="linenos" data-line="45"></span></a><span class="c1">--- Returns a set of this wiki&#39;s module pages.</span>
+</span><span id="L-46"><a href="#L-46"><span class="linenos" data-line="46"></span></a><span class="c1">--	@function		getModuleSet</span>
+</span><span id="L-47"><a href="#L-47"><span class="linenos" data-line="47"></span></a><span class="c1">--	@param			{string} dplResult HTML of result returned by DPL parser function</span>
+</span><span id="L-48"><a href="#L-48"><span class="linenos" data-line="48"></span></a><span class="c1">--	@returns		{table} Set of module page names on this wiki</span>
+</span><span id="L-49"><a href="#L-49"><span class="linenos" data-line="49"></span></a><span class="kd">local</span><span class="w"> </span><span class="kr">function</span><span class="w"> </span><span class="nf">getModuleSet</span><span class="p">(</span><span class="nv">dplResult</span><span class="p">)</span>
+</span><span id="L-50"><a href="#L-50"><span class="linenos" data-line="50"></span></a><span class="w">	</span><span class="kd">local</span><span class="w"> </span><span class="nv">moduleSet</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{}</span>
+</span><span id="L-51"><a href="#L-51"><span class="linenos" data-line="51"></span></a><span class="w">	</span><span class="kr">for</span><span class="w"> </span><span class="nv">moduleName</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nv">mw</span><span class="p">.</span><span class="py">ustring</span><span class="p">.</span><span class="nf">gmatch</span><span class="p">(</span><span class="nv">dplResult</span><span class="p">,</span><span class="w"> </span><span class="nv">MODULE_NAME_PATTERN</span><span class="p">)</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="L-52"><a href="#L-52"><span class="linenos" data-line="52"></span></a><span class="w">		</span><span class="c1">-- Ignoring documentation subpages</span>
+</span><span id="L-53"><a href="#L-53"><span class="linenos" data-line="53"></span></a><span class="w">		</span><span class="kr">if</span><span class="w"> </span><span class="p">(</span><span class="nb">string.find</span><span class="p">(</span><span class="nv">moduleName</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;/doc&#39;</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">nil</span><span class="p">)</span><span class="w"> </span><span class="kr">then</span>
+</span><span id="L-54"><a href="#L-54"><span class="linenos" data-line="54"></span></a><span class="w">			</span><span class="nv">moduleSet</span><span class="p">[</span><span class="nv">moduleName</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span>
+</span><span id="L-55"><a href="#L-55"><span class="linenos" data-line="55"></span></a><span class="w">		</span><span class="kr">end</span>
+</span><span id="L-56"><a href="#L-56"><span class="linenos" data-line="56"></span></a><span class="w">	</span><span class="kr">end</span>
+</span><span id="L-57"><a href="#L-57"><span class="linenos" data-line="57"></span></a><span class="w">	</span><span class="kr">return</span><span class="w"> </span><span class="nv">moduleSet</span>
+</span><span id="L-58"><a href="#L-58"><span class="linenos" data-line="58"></span></a><span class="kr">end</span>
+</span><span id="L-59"><a href="#L-59"><span class="linenos" data-line="59"></span></a>
+</span><span id="L-60"><a href="#L-60"><span class="linenos" data-line="60"></span></a><span class="c1">--- Returns a table of each module&#39;s dependencies.</span>
+</span><span id="L-61"><a href="#L-61"><span class="linenos" data-line="61"></span></a><span class="c1">--	@function		getModuleDependencies</span>
+</span><span id="L-62"><a href="#L-62"><span class="linenos" data-line="62"></span></a><span class="c1">--	@param			{string} moduleSet Set of module page names on this wiki</span>
+</span><span id="L-63"><a href="#L-63"><span class="linenos" data-line="63"></span></a><span class="c1">--	@returns		{table} Map of modules and their dependencies inside a set</span>
+</span><span id="L-64"><a href="#L-64"><span class="linenos" data-line="64"></span></a><span class="kd">local</span><span class="w"> </span><span class="kr">function</span><span class="w"> </span><span class="nf">getModuleDependencies</span><span class="p">(</span><span class="nv">moduleSet</span><span class="p">)</span>
+</span><span id="L-65"><a href="#L-65"><span class="linenos" data-line="65"></span></a><span class="w">	</span><span class="kd">local</span><span class="w"> </span><span class="nv">moduleDependencies</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{}</span><span class="w">	</span><span class="c1">-- mapping modules with their dependencies</span>
+</span><span id="L-66"><a href="#L-66"><span class="linenos" data-line="66"></span></a><span class="w">	</span>
+</span><span id="L-67"><a href="#L-67"><span class="linenos" data-line="67"></span></a><span class="w">	</span><span class="c1">-- Initializing table entries</span>
+</span><span id="L-68"><a href="#L-68"><span class="linenos" data-line="68"></span></a><span class="w">	</span><span class="kr">for</span><span class="w"> </span><span class="nv">moduleName</span><span class="p">,</span><span class="w"> </span><span class="nv">_</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nb">pairs</span><span class="p">(</span><span class="nv">moduleSet</span><span class="p">)</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="L-69"><a href="#L-69"><span class="linenos" data-line="69"></span></a><span class="w">		</span><span class="c1">-- Ignoring documentation subpages</span>
+</span><span id="L-70"><a href="#L-70"><span class="linenos" data-line="70"></span></a><span class="w">		</span><span class="nv">moduleDependencies</span><span class="p">[</span><span class="nv">moduleName</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{}</span>
+</span><span id="L-71"><a href="#L-71"><span class="linenos" data-line="71"></span></a><span class="w">	</span><span class="kr">end</span>
+</span><span id="L-72"><a href="#L-72"><span class="linenos" data-line="72"></span></a><span class="w">	</span>
+</span><span id="L-73"><a href="#L-73"><span class="linenos" data-line="73"></span></a><span class="w">	</span><span class="c1">-- Finding dependencies</span>
+</span><span id="L-74"><a href="#L-74"><span class="linenos" data-line="74"></span></a><span class="w">	</span><span class="kr">for</span><span class="w"> </span><span class="nv">moduleName</span><span class="p">,</span><span class="w"> </span><span class="nv">_</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nv">Table</span><span class="p">.</span><span class="nf">skpairs</span><span class="p">(</span><span class="nv">moduleSet</span><span class="p">)</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="L-75"><a href="#L-75"><span class="linenos" data-line="75"></span></a><span class="w">		</span><span class="kd">local</span><span class="w"> </span><span class="nv">moduleCode</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">mw</span><span class="p">.</span><span class="py">title</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="nv">moduleName</span><span class="p">):</span><span class="nf">getContent</span><span class="p">()</span>
+</span><span id="L-76"><a href="#L-76"><span class="linenos" data-line="76"></span></a><span class="w">		</span><span class="nb">assert</span><span class="p">(</span><span class="nv">moduleCode</span><span class="w"> </span><span class="o">~=</span><span class="w"> </span><span class="kc">nil</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;&quot;&#39;</span><span class="o">..</span><span class="nv">moduleName</span><span class="o">..</span><span class="s1">&#39;&quot; does not exist</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">..</span><span class="nv">mw</span><span class="p">.</span><span class="nf">dumpObject</span><span class="p">(</span><span class="nv">moduleDependencies</span><span class="p">))</span>
+</span><span id="L-77"><a href="#L-77"><span class="linenos" data-line="77"></span></a><span class="w">		</span><span class="c1">-- Define a Lua module dependency as one that is imported using</span>
+</span><span id="L-78"><a href="#L-78"><span class="linenos" data-line="78"></span></a><span class="w">		</span><span class="c1">-- require() or mw.loadData() functions</span>
+</span><span id="L-79"><a href="#L-79"><span class="linenos" data-line="79"></span></a><span class="w">		</span><span class="c1">-- First, find all import statements in module code</span>
+</span><span id="L-80"><a href="#L-80"><span class="linenos" data-line="80"></span></a><span class="w">		</span><span class="kr">for</span><span class="w"> </span><span class="nv">_</span><span class="p">,</span><span class="w"> </span><span class="nv">importStatementPattern</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nb">ipairs</span><span class="p">(</span><span class="nv">IMPORT_STATEMENT_PATTERNS</span><span class="p">)</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="L-81"><a href="#L-81"><span class="linenos" data-line="81"></span></a><span class="w">			</span><span class="kr">for</span><span class="w"> </span><span class="nv">importStatement</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nv">mw</span><span class="p">.</span><span class="py">ustring</span><span class="p">.</span><span class="nf">gmatch</span><span class="p">(</span><span class="nv">moduleCode</span><span class="p">,</span><span class="w"> </span><span class="nv">importStatementPattern</span><span class="p">)</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="L-82"><a href="#L-82"><span class="linenos" data-line="82"></span></a><span class="w">				</span><span class="c1">-- Second, extract the module names from import statements</span>
+</span><span id="L-83"><a href="#L-83"><span class="linenos" data-line="83"></span></a><span class="w">				</span><span class="kr">for</span><span class="w"> </span><span class="nv">dependency</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nv">mw</span><span class="p">.</span><span class="py">ustring</span><span class="p">.</span><span class="nf">gmatch</span><span class="p">(</span><span class="nv">importStatement</span><span class="p">,</span><span class="w"> </span><span class="nv">MODULE_NAME_PATTERN</span><span class="p">)</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="L-84"><a href="#L-84"><span class="linenos" data-line="84"></span></a><span class="w">					</span><span class="nv">moduleDependencies</span><span class="p">[</span><span class="nv">moduleName</span><span class="p">][</span><span class="nv">dependency</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span>
+</span><span id="L-85"><a href="#L-85"><span class="linenos" data-line="85"></span></a><span class="w">				</span><span class="kr">end</span>
+</span><span id="L-86"><a href="#L-86"><span class="linenos" data-line="86"></span></a><span class="w">				</span><span class="c1">-- For modules imported from Dev wiki</span>
+</span><span id="L-87"><a href="#L-87"><span class="linenos" data-line="87"></span></a><span class="w">				</span><span class="kr">for</span><span class="w"> </span><span class="nv">dependency</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nv">mw</span><span class="p">.</span><span class="py">ustring</span><span class="p">.</span><span class="nf">gmatch</span><span class="p">(</span><span class="nv">importStatement</span><span class="p">,</span><span class="w"> </span><span class="nv">DEV_MODULE_NAME_PATTERN</span><span class="p">)</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="L-88"><a href="#L-88"><span class="linenos" data-line="88"></span></a><span class="w">					</span><span class="nv">moduleDependencies</span><span class="p">[</span><span class="nv">moduleName</span><span class="p">][</span><span class="nv">dependency</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span>
+</span><span id="L-89"><a href="#L-89"><span class="linenos" data-line="89"></span></a><span class="w">				</span><span class="kr">end</span>
+</span><span id="L-90"><a href="#L-90"><span class="linenos" data-line="90"></span></a><span class="w">			</span><span class="kr">end</span>
+</span><span id="L-91"><a href="#L-91"><span class="linenos" data-line="91"></span></a><span class="w">		</span><span class="kr">end</span>
+</span><span id="L-92"><a href="#L-92"><span class="linenos" data-line="92"></span></a><span class="w">	</span><span class="kr">end</span>
+</span><span id="L-93"><a href="#L-93"><span class="linenos" data-line="93"></span></a><span class="w">	</span><span class="kr">return</span><span class="w"> </span><span class="nv">moduleDependencies</span>
+</span><span id="L-94"><a href="#L-94"><span class="linenos" data-line="94"></span></a><span class="kr">end</span>
+</span><span id="L-95"><a href="#L-95"><span class="linenos" data-line="95"></span></a>
+</span><span id="L-96"><a href="#L-96"><span class="linenos" data-line="96"></span></a><span class="c1">--- Builds a map of each main module&#39;s subpages.</span>
+</span><span id="L-97"><a href="#L-97"><span class="linenos" data-line="97"></span></a><span class="c1">--	@function		getModuleSubpageMap</span>
+</span><span id="L-98"><a href="#L-98"><span class="linenos" data-line="98"></span></a><span class="c1">--	@param			{table} moduleSet Set of modules on this wiki including submodules</span>
+</span><span id="L-99"><a href="#L-99"><span class="linenos" data-line="99"></span></a><span class="c1">--	@returns		{table} Map of main modules&#39; root text to a table of the full names of their submodules (including main module)</span>
+</span><span id="L-100"><a href="#L-100"><span class="linenos" data-line="100"></span></a><span class="kd">local</span><span class="w"> </span><span class="kr">function</span><span class="w"> </span><span class="nf">getModuleSubpageMap</span><span class="p">(</span><span class="nv">moduleSet</span><span class="p">)</span>
+</span><span id="L-101"><a href="#L-101"><span class="linenos" data-line="101"></span></a><span class="w">	</span><span class="kd">local</span><span class="w"> </span><span class="nv">subpageMap</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{}</span>
+</span><span id="L-102"><a href="#L-102"><span class="linenos" data-line="102"></span></a><span class="w">	</span><span class="kr">for</span><span class="w"> </span><span class="nv">moduleName</span><span class="p">,</span><span class="w"> </span><span class="nv">_</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nv">Table</span><span class="p">.</span><span class="nf">skpairs</span><span class="p">(</span><span class="nv">moduleSet</span><span class="p">)</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="L-103"><a href="#L-103"><span class="linenos" data-line="103"></span></a><span class="w">		</span><span class="kd">local</span><span class="w"> </span><span class="nv">title</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">mw</span><span class="p">.</span><span class="py">title</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="nv">moduleName</span><span class="p">)</span>
+</span><span id="L-104"><a href="#L-104"><span class="linenos" data-line="104"></span></a><span class="w">		</span><span class="kd">local</span><span class="w"> </span><span class="nv">rootText</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">title</span><span class="p">[</span><span class="s1">&#39;rootText&#39;</span><span class="p">]</span>
+</span><span id="L-105"><a href="#L-105"><span class="linenos" data-line="105"></span></a><span class="w">		</span><span class="kr">if</span><span class="w"> </span><span class="p">(</span><span class="nv">subpageMap</span><span class="p">[</span><span class="nv">rootText</span><span class="p">]</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="kc">nil</span><span class="p">)</span><span class="w"> </span><span class="kr">then</span>
+</span><span id="L-106"><a href="#L-106"><span class="linenos" data-line="106"></span></a><span class="w">			</span><span class="nv">subpageMap</span><span class="p">[</span><span class="nv">rootText</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{}</span>
+</span><span id="L-107"><a href="#L-107"><span class="linenos" data-line="107"></span></a><span class="w">		</span><span class="kr">end</span>
+</span><span id="L-108"><a href="#L-108"><span class="linenos" data-line="108"></span></a><span class="w">		</span><span class="nb">table.insert</span><span class="p">(</span><span class="nv">subpageMap</span><span class="p">[</span><span class="nv">rootText</span><span class="p">],</span><span class="w"> </span><span class="nv">moduleName</span><span class="p">)</span>
+</span><span id="L-109"><a href="#L-109"><span class="linenos" data-line="109"></span></a><span class="w">	</span><span class="kr">end</span>
+</span><span id="L-110"><a href="#L-110"><span class="linenos" data-line="110"></span></a><span class="w">	</span><span class="kr">return</span><span class="w"> </span><span class="nv">subpageMap</span>
+</span><span id="L-111"><a href="#L-111"><span class="linenos" data-line="111"></span></a><span class="kr">end</span>
+</span><span id="L-112"><a href="#L-112"><span class="linenos" data-line="112"></span></a>
+</span><span id="L-113"><a href="#L-113"><span class="linenos" data-line="113"></span></a><span class="c1">--- Builds a directed graph visualization in the form of a DOT file.</span>
+</span><span id="L-114"><a href="#L-114"><span class="linenos" data-line="114"></span></a><span class="c1">--	@function		buildDOTOutput</span>
+</span><span id="L-115"><a href="#L-115"><span class="linenos" data-line="115"></span></a><span class="c1">--	@param			{table} moduleDependencies Map of modules and their dependencies</span>
+</span><span id="L-116"><a href="#L-116"><span class="linenos" data-line="116"></span></a><span class="c1">--	@param			{table} subpageMap Map of main modules and their submodules</span>
+</span><span id="L-117"><a href="#L-117"><span class="linenos" data-line="117"></span></a><span class="c1">--	@returns		{string} DOT output</span>
+</span><span id="L-118"><a href="#L-118"><span class="linenos" data-line="118"></span></a><span class="kd">local</span><span class="w"> </span><span class="kr">function</span><span class="w"> </span><span class="nf">buildDOTOutput</span><span class="p">(</span><span class="nv">moduleDependencies</span><span class="p">,</span><span class="w"> </span><span class="nv">subpageMap</span><span class="p">)</span>
+</span><span id="L-119"><a href="#L-119"><span class="linenos" data-line="119"></span></a><span class="w">	</span><span class="kd">local</span><span class="w"> </span><span class="nv">dotResult</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s1">&#39;strict digraph G {&#39;</span><span class="w"> </span><span class="p">}</span>
+</span><span id="L-120"><a href="#L-120"><span class="linenos" data-line="120"></span></a><span class="w">	</span><span class="kd">local</span><span class="w"> </span><span class="nv">nodeTemplate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&quot;%s&quot; [label=&quot;%s</span><span class="se">\\</span><span class="s1">n# dep.: %d&quot;, URL&amp;#61;&quot;%s&quot;]&#39;</span>
+</span><span id="L-121"><a href="#L-121"><span class="linenos" data-line="121"></span></a><span class="w">	</span>
+</span><span id="L-122"><a href="#L-122"><span class="linenos" data-line="122"></span></a><span class="w">	</span><span class="c1">-- Initializing nodes</span>
+</span><span id="L-123"><a href="#L-123"><span class="linenos" data-line="123"></span></a><span class="w">	</span><span class="kr">for</span><span class="w"> </span><span class="nv">moduleName</span><span class="p">,</span><span class="w"> </span><span class="nv">dependencies</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nv">Table</span><span class="p">.</span><span class="nf">skpairs</span><span class="p">(</span><span class="nv">moduleDependencies</span><span class="p">)</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="L-124"><a href="#L-124"><span class="linenos" data-line="124"></span></a><span class="w">		</span><span class="kd">local</span><span class="w"> </span><span class="nv">canonicalUrl</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">tostring</span><span class="p">(</span><span class="nv">mw</span><span class="p">.</span><span class="py">uri</span><span class="p">.</span><span class="nf">canonicalUrl</span><span class="p">(</span><span class="nv">moduleName</span><span class="p">))</span>
+</span><span id="L-125"><a href="#L-125"><span class="linenos" data-line="125"></span></a><span class="w">		</span><span class="kd">local</span><span class="w"> </span><span class="nv">dependencyCount</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">Table</span><span class="p">.</span><span class="nf">size</span><span class="p">(</span><span class="nv">dependencies</span><span class="p">)</span>
+</span><span id="L-126"><a href="#L-126"><span class="linenos" data-line="126"></span></a><span class="w">		</span><span class="nb">table.insert</span><span class="p">(</span><span class="nv">dotResult</span><span class="p">,</span><span class="w"> </span><span class="nb">string.format</span><span class="p">(</span><span class="nv">nodeTemplate</span><span class="p">,</span><span class="w"> </span><span class="nv">moduleName</span><span class="p">,</span><span class="w"> </span><span class="nv">moduleName</span><span class="p">,</span><span class="w"> </span><span class="nv">dependencyCount</span><span class="p">,</span><span class="w"> </span><span class="nv">canonicalUrl</span><span class="p">))</span>
+</span><span id="L-127"><a href="#L-127"><span class="linenos" data-line="127"></span></a><span class="w">	</span><span class="kr">end</span>
+</span><span id="L-128"><a href="#L-128"><span class="linenos" data-line="128"></span></a><span class="w">	</span>
+</span><span id="L-129"><a href="#L-129"><span class="linenos" data-line="129"></span></a><span class="w">	</span><span class="kr">if</span><span class="w"> </span><span class="p">(</span><span class="nv">p</span><span class="p">.</span><span class="py">enableClusters</span><span class="p">)</span><span class="w"> </span><span class="kr">then</span>
+</span><span id="L-130"><a href="#L-130"><span class="linenos" data-line="130"></span></a><span class="w">		</span><span class="c1">-- Adding clusters based on root text (e.g. &quot;Module:Weapons&quot; and &quot;Module:Weapons/data&quot;</span>
+</span><span id="L-131"><a href="#L-131"><span class="linenos" data-line="131"></span></a><span class="w">		</span><span class="c1">-- will be in the same cluster since they both have &quot;Weapons&quot;)</span>
+</span><span id="L-132"><a href="#L-132"><span class="linenos" data-line="132"></span></a><span class="w">		</span><span class="kr">for</span><span class="w"> </span><span class="nv">rootText</span><span class="p">,</span><span class="w"> </span><span class="nv">subpages</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nv">Table</span><span class="p">.</span><span class="nf">skpairs</span><span class="p">(</span><span class="nv">subpageMap</span><span class="p">)</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="L-133"><a href="#L-133"><span class="linenos" data-line="133"></span></a><span class="w">			</span><span class="kd">local</span><span class="w"> </span><span class="nv">moduleSubpages</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">subgraph &quot;cluster_&#39;</span><span class="o">..</span><span class="nv">rootText</span><span class="o">..</span><span class="s1">&#39;&quot; {&#39;</span><span class="w"> </span><span class="p">}</span>
+</span><span id="L-134"><a href="#L-134"><span class="linenos" data-line="134"></span></a><span class="w">			</span><span class="kr">for</span><span class="w"> </span><span class="nv">_</span><span class="p">,</span><span class="w"> </span><span class="nv">subpage</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nv">Table</span><span class="p">.</span><span class="nf">skpairs</span><span class="p">(</span><span class="nv">subpages</span><span class="p">)</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="L-135"><a href="#L-135"><span class="linenos" data-line="135"></span></a><span class="w">				</span><span class="nb">table.insert</span><span class="p">(</span><span class="nv">moduleSubpages</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;&quot;&#39;</span><span class="o">..</span><span class="nv">subpage</span><span class="o">..</span><span class="s1">&#39;&quot;&#39;</span><span class="p">)</span>
+</span><span id="L-136"><a href="#L-136"><span class="linenos" data-line="136"></span></a><span class="w">			</span><span class="kr">end</span>
+</span><span id="L-137"><a href="#L-137"><span class="linenos" data-line="137"></span></a><span class="w">			</span><span class="nb">table.insert</span><span class="p">(</span><span class="nv">moduleSubpages</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;}&#39;</span><span class="p">)</span>
+</span><span id="L-138"><a href="#L-138"><span class="linenos" data-line="138"></span></a><span class="w">			</span><span class="nb">table.insert</span><span class="p">(</span><span class="nv">dotResult</span><span class="p">,</span><span class="w"> </span><span class="nb">table.concat</span><span class="p">(</span><span class="nv">moduleSubpages</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39; &#39;</span><span class="p">))</span>
+</span><span id="L-139"><a href="#L-139"><span class="linenos" data-line="139"></span></a><span class="w">		</span><span class="kr">end</span>
+</span><span id="L-140"><a href="#L-140"><span class="linenos" data-line="140"></span></a><span class="w">	</span><span class="kr">end</span>
+</span><span id="L-141"><a href="#L-141"><span class="linenos" data-line="141"></span></a><span class="w">	</span>
+</span><span id="L-142"><a href="#L-142"><span class="linenos" data-line="142"></span></a><span class="w">	</span><span class="c1">-- Adding graph edges</span>
+</span><span id="L-143"><a href="#L-143"><span class="linenos" data-line="143"></span></a><span class="w">	</span><span class="kr">for</span><span class="w"> </span><span class="nv">moduleName</span><span class="p">,</span><span class="w"> </span><span class="nv">dependencies</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nv">Table</span><span class="p">.</span><span class="nf">skpairs</span><span class="p">(</span><span class="nv">moduleDependencies</span><span class="p">)</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="L-144"><a href="#L-144"><span class="linenos" data-line="144"></span></a><span class="w">		</span><span class="kd">local</span><span class="w"> </span><span class="nv">graphEdges</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&quot;&#39;</span><span class="o">..</span><span class="nv">moduleName</span><span class="o">..</span><span class="s1">&#39;&quot; -&gt; {&#39;</span><span class="w"> </span><span class="p">}</span>
+</span><span id="L-145"><a href="#L-145"><span class="linenos" data-line="145"></span></a><span class="w">		</span><span class="kr">for</span><span class="w"> </span><span class="nv">dependency</span><span class="p">,</span><span class="w"> </span><span class="nv">_</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nb">pairs</span><span class="p">(</span><span class="nv">dependencies</span><span class="p">)</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="L-146"><a href="#L-146"><span class="linenos" data-line="146"></span></a><span class="w">			</span><span class="nb">table.insert</span><span class="p">(</span><span class="nv">graphEdges</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;&quot;&#39;</span><span class="o">..</span><span class="nv">dependency</span><span class="o">..</span><span class="s1">&#39;&quot;&#39;</span><span class="p">)</span>
+</span><span id="L-147"><a href="#L-147"><span class="linenos" data-line="147"></span></a><span class="w">			</span>
+</span><span id="L-148"><a href="#L-148"><span class="linenos" data-line="148"></span></a><span class="w">			</span><span class="c1">-- Adding additional nodes of modules from dev wiki as DPL will not </span>
+</span><span id="L-149"><a href="#L-149"><span class="linenos" data-line="149"></span></a><span class="w">			</span><span class="c1">-- get them since they are not located on this wiki</span>
+</span><span id="L-150"><a href="#L-150"><span class="linenos" data-line="150"></span></a><span class="w">			</span><span class="kr">if</span><span class="w"> </span><span class="p">(</span><span class="nb">string.find</span><span class="p">(</span><span class="nv">dependency</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Dev:&#39;</span><span class="p">)</span><span class="w"> </span><span class="o">~=</span><span class="w"> </span><span class="kc">nil</span><span class="p">)</span><span class="w"> </span><span class="kr">then</span>
+</span><span id="L-151"><a href="#L-151"><span class="linenos" data-line="151"></span></a><span class="w">				</span><span class="kd">local</span><span class="w"> </span><span class="nv">canonicalUrl</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">DEV_WIKI_URL</span><span class="o">..</span><span class="nb">string.gsub</span><span class="p">(</span><span class="nv">dependency</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Dev:&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Module:&#39;</span><span class="p">)</span>
+</span><span id="L-152"><a href="#L-152"><span class="linenos" data-line="152"></span></a><span class="w">				</span><span class="c1">-- Dev modules have 0 dependencies from this wiki</span>
+</span><span id="L-153"><a href="#L-153"><span class="linenos" data-line="153"></span></a><span class="w">				</span><span class="nb">table.insert</span><span class="p">(</span><span class="nv">dotResult</span><span class="p">,</span><span class="w"> </span><span class="nb">string.format</span><span class="p">(</span><span class="nv">nodeTemplate</span><span class="p">,</span><span class="w"> </span><span class="nv">dependency</span><span class="p">,</span><span class="w"> </span><span class="nv">dependency</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="nv">canonicalUrl</span><span class="p">))</span>
+</span><span id="L-154"><a href="#L-154"><span class="linenos" data-line="154"></span></a><span class="w">			</span><span class="kr">end</span>
+</span><span id="L-155"><a href="#L-155"><span class="linenos" data-line="155"></span></a><span class="w">		</span><span class="kr">end</span>
+</span><span id="L-156"><a href="#L-156"><span class="linenos" data-line="156"></span></a><span class="w">		</span><span class="nb">table.insert</span><span class="p">(</span><span class="nv">graphEdges</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;}&#39;</span><span class="p">)</span>
+</span><span id="L-157"><a href="#L-157"><span class="linenos" data-line="157"></span></a><span class="w">		</span><span class="nb">table.insert</span><span class="p">(</span><span class="nv">dotResult</span><span class="p">,</span><span class="w"> </span><span class="nb">table.concat</span><span class="p">(</span><span class="nv">graphEdges</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39; &#39;</span><span class="p">))</span>
+</span><span id="L-158"><a href="#L-158"><span class="linenos" data-line="158"></span></a><span class="w">	</span><span class="kr">end</span>
+</span><span id="L-159"><a href="#L-159"><span class="linenos" data-line="159"></span></a><span class="w">	</span>
+</span><span id="L-160"><a href="#L-160"><span class="linenos" data-line="160"></span></a><span class="w">	</span><span class="nb">table.insert</span><span class="p">(</span><span class="nv">dotResult</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;}&#39;</span><span class="p">)</span>
+</span><span id="L-161"><a href="#L-161"><span class="linenos" data-line="161"></span></a><span class="w">	</span><span class="kr">return</span><span class="w"> </span><span class="nb">table.concat</span><span class="p">(</span><span class="nv">dotResult</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+</span><span id="L-162"><a href="#L-162"><span class="linenos" data-line="162"></span></a><span class="kr">end</span>
+</span><span id="L-163"><a href="#L-163"><span class="linenos" data-line="163"></span></a>
+</span><span id="L-164"><a href="#L-164"><span class="linenos" data-line="164"></span></a><span class="c1">--- Entry point of program.</span>
+</span><span id="L-165"><a href="#L-165"><span class="linenos" data-line="165"></span></a><span class="c1">--	@function		p.main</span>
+</span><span id="L-166"><a href="#L-166"><span class="linenos" data-line="166"></span></a><span class="c1">--	@param			{table} frame Frame object</span>
+</span><span id="L-167"><a href="#L-167"><span class="linenos" data-line="167"></span></a><span class="c1">--	@returns		{string} Preformatted text of resultant DOT graph</span>
+</span><span id="L-168"><a href="#L-168"><span class="linenos" data-line="168"></span></a><span class="kr">function</span><span class="w"> </span><span class="nc">p</span><span class="p">.</span><span class="nf">main</span><span class="p">(</span><span class="nv">frame</span><span class="p">)</span>
+</span><span id="L-169"><a href="#L-169"><span class="linenos" data-line="169"></span></a><span class="w">	</span><span class="c1">-- Any argument assigned to &quot;cluster&quot; when module invoked will enable clustering</span>
+</span><span id="L-170"><a href="#L-170"><span class="linenos" data-line="170"></span></a><span class="w">	</span><span class="nv">p</span><span class="p">.</span><span class="py">enableClusters</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="nv">frame</span><span class="p">.</span><span class="py">args</span><span class="p">[</span><span class="s1">&#39;cluster&#39;</span><span class="p">]</span><span class="w"> </span><span class="ow">and</span><span class="w"> </span><span class="kc">true</span><span class="p">)</span>
+</span><span id="L-171"><a href="#L-171"><span class="linenos" data-line="171"></span></a><span class="w">	</span><span class="c1">-- TODO: Replace the below statement with call of Extension:DynamicPageListEngine&#39;s</span>
+</span><span id="L-172"><a href="#L-172"><span class="linenos" data-line="172"></span></a><span class="w">	</span><span class="c1">-- mw.ext.dpl.getPages() if extension is available on your wiki, ignore this </span>
+</span><span id="L-173"><a href="#L-173"><span class="linenos" data-line="173"></span></a><span class="w">	</span><span class="c1">-- TODO otherwise</span>
+</span><span id="L-174"><a href="#L-174"><span class="linenos" data-line="174"></span></a><span class="w">	</span><span class="kd">local</span><span class="w"> </span><span class="nv">dplResult</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">mw</span><span class="p">.</span><span class="nf">getCurrentFrame</span><span class="p">():</span><span class="nf">preprocess</span><span class="p">(</span><span class="s1">&#39;{{#dpl:|namespace=&#39;</span><span class="o">..</span><span class="nv">MODULE_LOCALIZATION</span><span class="o">..</span><span class="s1">&#39;}}&#39;</span><span class="p">)</span>
+</span><span id="L-175"><a href="#L-175"><span class="linenos" data-line="175"></span></a><span class="w">	</span><span class="kd">local</span><span class="w"> </span><span class="nv">moduleSet</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">getModuleSet</span><span class="p">(</span><span class="nv">dplResult</span><span class="p">)</span>
+</span><span id="L-176"><a href="#L-176"><span class="linenos" data-line="176"></span></a><span class="w">	</span><span class="kd">local</span><span class="w"> </span><span class="nv">subpageMap</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">getModuleSubpageMap</span><span class="p">(</span><span class="nv">moduleSet</span><span class="p">)</span>
+</span><span id="L-177"><a href="#L-177"><span class="linenos" data-line="177"></span></a><span class="w">	</span><span class="kd">local</span><span class="w"> </span><span class="nv">moduleDependencies</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">getModuleDependencies</span><span class="p">(</span><span class="nv">moduleSet</span><span class="p">)</span>
+</span><span id="L-178"><a href="#L-178"><span class="linenos" data-line="178"></span></a><span class="w">	</span><span class="kr">return</span><span class="w"> </span><span class="s1">&#39;&lt;pre&gt;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">..</span><span class="nf">buildDOTOutput</span><span class="p">(</span><span class="nv">moduleDependencies</span><span class="p">,</span><span class="w"> </span><span class="nv">subpageMap</span><span class="p">)..</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&lt;/pre&gt;&#39;</span>
+</span><span id="L-179"><a href="#L-179"><span class="linenos" data-line="179"></span></a><span class="kr">end</span>
+</span><span id="L-180"><a href="#L-180"><span class="linenos" data-line="180"></span></a>
+</span><span id="L-181"><a href="#L-181"><span class="linenos" data-line="181"></span></a><span class="kr">return</span><span class="w"> </span><span class="nv">p</span>
+</span></pre></div>
+<!-- 
+NewPP limit report
+Parsed by mediawiki‐75db579fb4‐7w45s
+Cached time: 20260831005350
+Cache expiry: 0
+Reduced expiry: true
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.352 seconds
+Real time usage: 0.424 seconds
+Preprocessor visited node count: 85/1000000
+Revision size: 37/8388608 bytes
+Post‐expand include size: 253662/8388608 bytes
+Template argument size: 18/8388608 bytes
+Highest expansion depth: 8/100
+Expensive parser function count: 1/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 233/5000000 bytes
+Bucket time usage: 0.000/10 seconds
+Lua time usage: 0.321/10.000 seconds
+Lua memory usage: 2195838/367001600 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  403.712      1 Module:DependencyGraph/doc
+100.00%  403.712      1 -total
+ 99.00%  399.678      1 Template:Docbunto
+  0.56%    2.262      1 Special:PrefixIndex/Module:DependencyGraph/
+  0.25%    1.001      1 Template:ModuleNav
+  0.11%    0.457      1 Template:Edit
+-->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://wiki.warframe.com/w/Module:DependencyGraph?oldid=2558515">https://wiki.warframe.com/w/Module:DependencyGraph?oldid=2558515</a>"</div></div>
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/w/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/w/Category:Pages_using_DynamicPageList4_parser_function" title="Category:Pages using DynamicPageList4 parser function">Pages using DynamicPageList4 parser function</a></li><li><a href="/w/Category:Pages_using_DynamicPageList4" title="Category:Pages using DynamicPageList4">Pages using DynamicPageList4</a></li><li><a href="/w/Category:Pages_with_script_errors" title="Category:Pages with script errors">Pages with script errors</a></li><li><a href="/w/Category:Module" title="Category:Module">Module</a></li></ul></div></div>
+	</div>
+</div>
+
+<div id="mw-navigation">
+	<h2>Navigation menu</h2>
+	<div id="mw-head">
+		
+<nav id="p-personal" class="mw-portlet mw-portlet-personal vector-user-menu-legacy vector-menu" aria-labelledby="p-personal-label"  >
+	<h3
+		id="p-personal-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Personal tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-createaccount" class="mw-list-item"><a href="/w/Special:CreateAccount?returnto=Module%3ADependencyGraph" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li id="pt-login" class="mw-list-item"><a href="/w/Special:UserLogin?returnto=Module%3ADependencyGraph" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o"><span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+		<div id="left-navigation">
+			
+<nav id="p-associated-pages" class="mw-portlet mw-portlet-associated-pages vector-menu-tabs vector-menu-tabs-legacy vector-menu" aria-labelledby="p-associated-pages-label"  >
+	<h3
+		id="p-associated-pages-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">associated-pages</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-module" class="selected vector-tab-noicon mw-list-item"><a href="/w/Module:DependencyGraph" title="View the module page [c]" accesskey="c"><span>Module</span></a></li><li id="ca-talk" class="new vector-tab-noicon mw-list-item"><a href="/w/Module_talk:DependencyGraph?action=edit&amp;redlink=1" rel="discussion" class="new" title="Discussion about the content page (page does not exist) [t]" accesskey="t"><span>Discussion</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-variants" class="mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown vector-menu" aria-labelledby="p-variants-label"  >
+	<input type="checkbox"
+		id="p-variants-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-variants"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-variants-label"
+	>
+	<label
+		id="p-variants-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">English</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+		</div>
+		<div id="right-navigation">
+			
+<nav id="p-views" class="mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy vector-menu" aria-labelledby="p-views-label"  >
+	<h3
+		id="p-views-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Views</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected icon mw-list-item"><a href="/w/Module:DependencyGraph"><span>Read</span></a></li><li id="ca-edit" class="icon mw-list-item"><a href="/w/Module:DependencyGraph?action=edit" title="Edit the source code of this page [e]" accesskey="e"><span>Edit source</span></a></li><li id="ca-history" class="icon mw-list-item"><a href="/w/Module:DependencyGraph?action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<nav id="p-cactions" class="mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown vector-menu" aria-labelledby="p-cactions-label"  title="More options" >
+	<input type="checkbox"
+		id="p-cactions-checkbox"
+		role="button"
+		aria-haspopup="true"
+		data-event-name="ui.dropdown-p-cactions"
+		class="vector-menu-checkbox"
+		aria-labelledby="p-cactions-label"
+	>
+	<label
+		id="p-cactions-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">More</span>
+	</label>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</nav>
+
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-navigation">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input mw-searchInput" autocomplete="off"
+							 type="search" name="search" placeholder="Search WARFRAME Wiki" aria-label="Search WARFRAME Wiki" autocapitalize="sentences" spellcheck="false" title="Search WARFRAME Wiki [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+	
+<div id="mw-panel" class="vector-legacy-sidebar">
+	<div id="p-logo" role="banner">
+		<a class="mw-wiki-logo" href="/"
+			title="Visit the main page"></a>
+	</div>
+	
+<nav id="p-Navigation" class="mw-portlet mw-portlet-Navigation vector-menu-portal portal vector-menu" aria-labelledby="p-Navigation-label"  >
+	<h3
+		id="p-Navigation-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Navigation</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/w/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-Recent-comments" class="mw-list-item"><a href="/w/Special:Comments"><span>Recent comments</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/w/Special:Random" title="Load a random page [x]" accesskey="x"><span>Random page</span></a></li><li id="n-Give-Feedback!" class="mw-list-item"><a href="/w/WARFRAME_Wiki:Suggestion_Box"><span>Give Feedback!</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+	
+<nav id="p-Guides" class="mw-portlet mw-portlet-Guides vector-menu-portal portal vector-menu" aria-labelledby="p-Guides-label"  >
+	<h3
+		id="p-Guides-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Guides</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-New-Player-Guide" class="mw-list-item"><a href="/w/New_Player_Guide"><span>New Player Guide</span></a></li><li id="n-Compare-Warframes" class="mw-list-item"><a href="/w/Warframes_Comparison"><span>Compare Warframes</span></a></li><li id="n-Compare-Weapons" class="mw-list-item"><a href="/w/Weapon_Comparison"><span>Compare Weapons</span></a></li><li id="n-List-of-Weapons-as-Crafting-Ingredients" class="mw-list-item"><a href="/w/Weapons_Required_as_Crafting_Ingredients"><span>List of Weapons as Crafting Ingredients</span></a></li><li id="n-Mastery-Rank-Checklist" class="mw-list-item"><a href="/w/Mastery_Rank_Checklist"><span>Mastery Rank Checklist</span></a></li><li id="n-Editing-Reference" class="mw-list-item"><a href="/w/WARFRAME_Wiki:MediaWiki_Reference"><span>Editing Reference</span></a></li><li id="n-List-of-Guides" class="mw-list-item"><a href="/w/Category:Guides"><span>List of Guides</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Lore" class="mw-portlet mw-portlet-Lore vector-menu-portal portal vector-menu" aria-labelledby="p-Lore-label"  >
+	<h3
+		id="p-Lore-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Lore</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-Characters" class="mw-list-item"><a href="/w/Characters"><span>Characters</span></a></li><li id="n-Codex" class="mw-list-item"><a href="/w/Codex"><span>Codex</span></a></li><li id="n-Factions" class="mw-list-item"><a href="/w/Factions"><span>Factions</span></a></li><li id="n-Fragments" class="mw-list-item"><a href="/w/Fragments"><span>Fragments</span></a></li><li id="n-Leverian" class="mw-list-item"><a href="/w/Leverian"><span>Leverian</span></a></li><li id="n-Story-and-History" class="mw-list-item"><a href="/w/Story_and_History"><span>Story and History</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-Game" class="mw-portlet mw-portlet-Game vector-menu-portal portal vector-menu" aria-labelledby="p-Game-label"  >
+	<h3
+		id="p-Game-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Game</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-About-WARFRAME" class="mw-list-item"><a href="/w/WARFRAME"><span>About WARFRAME</span></a></li><li id="n-FAQ" class="mw-list-item"><a href="/w/FAQ"><span>FAQ</span></a></li><li id="n-Version-History" class="mw-list-item"><a href="/w/Version"><span>Version History</span></a></li><li id="n-Technical-Information" class="mw-list-item"><a href="/w/Technical_Information"><span>Technical Information</span></a></li><li id="n-Developer-Videos" class="mw-list-item"><a href="/w/Developer_Videos"><span>Developer Videos</span></a></li><li id="n-Upcoming-Features" class="mw-list-item"><a href="/w/Upcoming_Features"><span>Upcoming Features</span></a></li>
+		</ul>
+		
+	</div>
+</nav>
+
+<nav id="p-tb" class="mw-portlet mw-portlet-tb vector-menu-portal portal vector-menu" aria-labelledby="p-tb-label"  >
+	<h3
+		id="p-tb-label"
+		
+		class="vector-menu-heading "
+	>
+		<span class="vector-menu-heading-label">Tools</span>
+	</h3>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Module:DependencyGraph" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Module:DependencyGraph" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Module:DependencyGraph?oldid=2558515" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Module:DependencyGraph?action=info" title="More information about this page"><span>Page information</span></a></li>
+		</ul>
+		<div class="after-portlet after-portlet-tb">            <a href="/hp/1788137630" style="display: none;"></a></div>
+	</div>
+</nav>
+
+	
+</div>
+
+</div>
+
+<footer id="footer" class="mw-footer" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 7 November 2022, at 06:32.</li>
+	<li id="footer-info-copyright">Content on this site is licensed under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>; <a class="text" href="https://meta.weirdgloop.org/w/Licensing">additional terms may apply</a>.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://weirdgloop.org/privacy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/w/WARFRAME_Wiki:About">About WARFRAME Wiki</a></li>
+	<li id="footer-places-disclaimers"><a href="/w/WARFRAME_Wiki:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-tou"><a href="https://weirdgloop.org/terms">Terms of Use</a></li>
+	<li id="footer-places-contact"><a href="/w/Special:Contact">Contact Weird Gloop</a></li>
+	<li id="footer-places-mobileview"><a href="https://wiki.warframe.com/w/Module:DependencyGraph?mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img src="https://meta.weirdgloop.org/images/Creative_Commons_footer.png" srcset="https://meta.weirdgloop.org/images/Creative_Commons_footer@2x.png 2x" alt="CC BY-NC-SA 3.0" width="88" height="31" loading="lazy"></a></li>
+	<li id="footer-poweredbyico"><a href="https://weirdgloop.org" target="_blank"><img src="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted.png" srcset="https://meta.weirdgloop.org/images/Weird_Gloop_footer_hosted@2x.png 2x" alt="Hosted by Weird Gloop" width="88" height="31" loading="lazy"></a></li>
+</ul>
+
+</footer>
+
+<div class="mw-portlet mw-portlet-dock-bottom emptyPortlet vector-menu-portal portal" id="p-dock-bottom">
+	<ul>
+		
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-75db579fb4-7w45s","wgBackendResponseTime":530,"wgPageParseReport":{"limitreport":{"cputime":"0.352","walltime":"0.424","ppvisitednodes":{"value":85,"limit":1000000},"revisionsize":{"value":37,"limit":8388608},"postexpandincludesize":{"value":253662,"limit":8388608},"templateargumentsize":{"value":18,"limit":8388608},"expansiondepth":{"value":8,"limit":100},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":233,"limit":5000000},"timingprofile":["100.00%  403.712      1 Module:DependencyGraph/doc","100.00%  403.712      1 -total"," 99.00%  399.678      1 Template:Docbunto","  0.56%    2.262      1 Special:PrefixIndex/Module:DependencyGraph/","  0.25%    1.001      1 Template:ModuleNav","  0.11%    0.457      1 Template:Edit"]},"bucket":{"limitreport-run-time":{"value":"0.000","limit":"10"}},"scribunto":{"limitreport-timeusage":{"value":"0.321","limit":"10.000"},"limitreport-memusage":{"value":2195838,"limit":367001600}},"cachereport":{"origin":"mediawiki-75db579fb4-7w45s","timestamp":"20260831005350","ttl":0,"transientcontent":true}}});});</script>
+
+<script>
+( () => {
+    const initTime = performance.now();
+    const reportFn = p => ( fetch( "https://weirdgloop.org/ai-scrapers-suck", {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify( {
+            ray: "a3380f791d856e6c",
+            time: performance.now() - initTime,
+            ...p,
+        } ),
+    } ) );
+    let cancelFurther = false;
+    const callback = e => {
+        removeEventListener( e.type, callback );
+
+        if ( cancelFurther ) {
+            return;
+        }
+        cancelFurther = true;
+
+        let data = {};
+        if ( event.type.indexOf( 'pointer' ) === 0 ) {
+            data = {
+                pointerType: e.pointerType,
+                x: e.clientX,
+                y: e.clientY,
+                sx: e.screenX,
+                sy: e.screenY,
+                dx: e.movementX,
+                dy: e.movementY,
+            };
+        }
+
+        reportFn( {
+            type: e.type,
+            isTrusted: e.isTrusted,
+            area: !( e.target && e.target.closest ) ? null :
+                !!e.target.closest( '#content' ) ? 'content' :
+                !!e.target.closest( '#mw-panel' ) ? 'panel' :
+                !!e.target.closest( '#mw-head' ) ? 'head' :
+                !!e.target.closest( '#footer' ) ? 'footer' :
+                ( e.target.closest( '[id]' )?.id ?? e.target.tagName ),
+            ...data,
+        } );
+    };
+    for ( const event of ["pointermove","pointerdown","pointerup","keydown"] ) {
+        addEventListener( event, callback, { passive: true } );
+    }
+    
+} )();
+</script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v3d52b47920f24c319d37e2661827c42b1787588026925" integrity="sha512-d9sL6GJLXn6fInD1+TVXhTcQOsmxeHfmHAvwGDIxp5TO+uo1fiWW7mHomMj4MLRlCsJDTqXzWLHJFFlPCEIj/A==" data-cf-beacon='{"version":"2024.11.0","token":"ddd6277636354fb6b7543fb71e4bb95c"}' crossorigin="anonymous"></script>
+</body>
+</html>

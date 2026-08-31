@@ -1,0 +1,13 @@
+{
+  "page": "Module:GuaranteedRewards/data/doc",
+  "wiki_timestamp": "2022-09-13T19:02:43Z",
+  "extracted_at": "2026-08-31T21:22:44.761350+00:00",
+  "lua_files": [
+    "Module-GuaranteedRewards-data-doc_0.lua",
+    "Module-GuaranteedRewards-data-doc_1.lua"
+  ],
+  "lua_block_count": 2,
+  "file_size": 492,
+  "comment_count": 0,
+  "status": "success"
+}

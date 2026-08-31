@@ -1,0 +1,12 @@
+{
+  "page": "Module:Flaicher/Conv/data",
+  "wiki_timestamp": "2018-07-27T14:24:33Z",
+  "extracted_at": "2026-08-31T21:22:44.691597+00:00",
+  "lua_files": [
+    "Module-Flaicher-Conv-data_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 426925,
+  "comment_count": 0,
+  "status": "success"
+}

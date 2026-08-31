@@ -1,0 +1,31 @@
+-- 
+--------------------------------------------------------------------------------
+-- A less intimidating version of the built-in "error()" function, to help
+-- editors fix their mistakes when transcluding a template.
+-- 
+-- Forked from https://dev.fandom.com/wiki/Module:User_error
+--------------------------------------------------------------------------------
+local checkType = require('libraryUtil').checkType
+
+return function (message, ...)
+    checkType('Dev:User error', 1, message, 'string')
+
+    local element = mw.html.create('strong')
+        :addClass('error')
+        :wikitext('Error: ' .. message .. '.')
+
+    for i = 1, select('#', ...) do
+        local category = select(i, ...)
+
+        checkType('Dev:User error', i + 1, category, 'string')
+
+        if category ~= '' then
+            element:wikitext('[[Category:' .. category .. ']]')
+        end
+    end
+
+    return tostring(element)
+end
+
+-- 
+-- (Add categories here.)

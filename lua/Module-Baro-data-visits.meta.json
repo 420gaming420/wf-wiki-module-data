@@ -1,0 +1,13 @@
+{
+  "page": "Module:Baro/data/visits",
+  "wiki_timestamp": "2022-07-03T19:12:53Z",
+  "extracted_at": "2026-08-31T21:22:43.538104+00:00",
+  "lua_files": [
+    "Module-Baro-data-visits_0.lua",
+    "Module-Baro-data-visits_1.lua"
+  ],
+  "lua_block_count": 2,
+  "file_size": 309687,
+  "comment_count": 14,
+  "status": "success"
+}

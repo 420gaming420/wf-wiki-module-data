@@ -1,0 +1,12 @@
+{
+  "page": "Module:Modular/data/kitgun",
+  "wiki_timestamp": "2026-06-20T07:34:51Z",
+  "extracted_at": "2026-08-31T21:22:45.159121+00:00",
+  "lua_files": [
+    "Module-Modular-data-kitgun_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 1278162,
+  "comment_count": 0,
+  "status": "success"
+}

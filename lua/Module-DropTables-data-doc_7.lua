@@ -1,0 +1,37 @@
+["Ambassador Blueprint"] = {
+		{
+			[1] = "Missions",
+			[2] = "VeilProximaSurvival",
+			[3] = "C"
+			[4] = 2,
+			Entry = { "Ambassador Blueprint", "Blueprint", 16.67 },
+			Probability: 0.1667,
+			Source = reference to original table entry,
+		},
+		{
+			[1] = "Missions",
+			[2] = "NeptuneProximaSurvival",
+			[3] = "C",
+			[4] = 5,
+			Entry = { "Ambassador Blueprint", "Blueprint", 8.33 },
+			Probability = 0.0833,
+			Source = reference to original table entry,
+		},
+			[1] = "Missions",
+			[2] = "PlutoProximaSurvival",
+			[3] = "C",
+			[4] = 5,
+			Entry = { "Ambassador Blueprint", "Blueprint", 8.33 },
+			Probability = 0.0833,
+			Source = reference to original table entry,
+		},
+		{
+			[1] = "Missions",
+			[2] = "VenusProximaSurvival",
+			[3] = "C",
+			[4] = 5,
+			Entry = { "Ambassador Blueprint", "Blueprint", 8.33 },
+			Probability = 0.0833,
+			Source = reference to original table entry,
+		},
+}

@@ -1,0 +1,17 @@
+{
+  "page": "Module:Avionics",
+  "wiki_timestamp": "2025-06-14T09:05:01Z",
+  "extracted_at": "2026-08-31T21:22:43.515586+00:00",
+  "lua_files": [
+    "Module-Avionics_0.lua",
+    "Module-Avionics_1.lua",
+    "Module-Avionics_2.lua",
+    "Module-Avionics_3.lua",
+    "Module-Avionics_4.lua",
+    "Module-Avionics_5.lua"
+  ],
+  "lua_block_count": 6,
+  "file_size": 10320,
+  "comment_count": 27,
+  "status": "success"
+}

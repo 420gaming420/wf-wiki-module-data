@@ -1,0 +1,15 @@
+		["Damage Type"] = {
+			CSSBackgroundColorClass = "var(--css-var-name)",
+			CSSBorderColorClass = "var(--css-var-name)",
+			CSSTextColorClass = "var(--css-var-name)",
+			GlyphImage = "Glyph .png image name",
+			Icon = "64px .png icon name",
+			InternalName = "",
+			Link = "Page name",
+			Name = "Name",
+			Negatives = { { "Flesh", 25 }, { "Cloned Flesh", 25 }, { "Tenno Shield", 25 } },
+			Positives = { { "Shield", 50 }, { "Machinery", 25 }, { "Proto Shield", 15 } },
+			ProcInternalName = "",
+			Status = { "Stagger" },
+			StatusNotes = { 1, 2 } 
+		},

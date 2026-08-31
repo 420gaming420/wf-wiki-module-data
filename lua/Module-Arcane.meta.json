@@ -1,0 +1,13 @@
+{
+  "page": "Module:Arcane",
+  "wiki_timestamp": "2026-01-06T17:28:44Z",
+  "extracted_at": "2026-08-31T21:22:43.446580+00:00",
+  "lua_files": [
+    "Module-Arcane_0.lua",
+    "Module-Arcane_1.lua"
+  ],
+  "lua_block_count": 2,
+  "file_size": 3914,
+  "comment_count": 25,
+  "status": "success"
+}

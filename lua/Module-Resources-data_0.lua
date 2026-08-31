@@ -1,0 +1,17 @@
+	["Resource Name"] = {
+		Amount = { 1, 1 },
+		ContainerImage = "ResourceContainer.png",
+		HelminthCategory = "Bile",
+		HelminthCost = 999999,
+		Description = "Description",
+		Image = "Resource.png",
+		Introduced = "30",
+		Link = "Page Name",
+		Name = "Resource Name",
+		Rarity = "Rare",
+		Type = "Event",
+		ResourceBoostAble = true,
+		BountifulHarvestAble = false,
+		ResourceDropChanceBoostAble = false,
+		RetrieverModAble = true
+	},

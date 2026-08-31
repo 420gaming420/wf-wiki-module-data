@@ -1,0 +1,22 @@
+{
+  "page": "Module:Inspect/doc",
+  "wiki_timestamp": "2022-09-24T01:43:25Z",
+  "extracted_at": "2026-08-31T21:22:44.807819+00:00",
+  "lua_files": [
+    "Module-Inspect-doc_0.lua",
+    "Module-Inspect-doc_1.lua",
+    "Module-Inspect-doc_2.lua",
+    "Module-Inspect-doc_3.lua",
+    "Module-Inspect-doc_4.lua",
+    "Module-Inspect-doc_5.lua",
+    "Module-Inspect-doc_6.lua",
+    "Module-Inspect-doc_7.lua",
+    "Module-Inspect-doc_8.lua",
+    "Module-Inspect-doc_9.lua",
+    "Module-Inspect-doc_10.lua"
+  ],
+  "lua_block_count": 11,
+  "file_size": 1842,
+  "comment_count": 11,
+  "status": "success"
+}

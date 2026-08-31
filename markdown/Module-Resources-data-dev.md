@@ -1,0 +1,5039 @@
+---
+title: "Module:Resources/data/dev"
+wiki_url: "https://wiki.warframe.com/w/Module/Resources/data/dev"
+wiki_timestamp: "2021-09-21T22:04:17Z"
+---
+
+*Documentation for this module may be created at [Module:Resources/data/dev/doc](/w/Module:Resources/data/dev/doc?action=edit&redlink=1 "Module:Resources/data/dev/doc (page does not exist)")*
+
+```lua
+return {
+	GenericComponents = {
+		Aegis = { Image = "Pouch.png", Name = "Aegis" },
+		["Archwing Harness"] = { Image = "GenericArchwingHarness.png", Link = "Archwing", Name = "Harness" },
+		["Archwing Systems"] = { Image = "GenericArchwingSystems.png", Link = "Archwing", Name = "Systems" },
+		["Archwing Wings"] = { Image = "GenericArchwingWings.png", Link = "Archwing", Name = "Wings" },
+		Avionics = {
+			Image = "GenericLandingCraftSystems.png",
+			Link = "Landing Craft",
+			Name = "Avionics" 
+		},
+		Band = { Image = "GenericComponentPrimeLatch.png", Name = "Band" },
+		Barrel = { Image = "Barrel.png", Name = "Barrel" },
+		Blade = { Image = "Blade.png", Name = "Blade" },
+		Buckle = { Image = "GenericComponentPrimeLatch.png", Name = "Buckle" },
+		Carapace = { Image = "chassis.png", Link = "Carapace", Name = "Carapace" },
+		Cerebrum = { Image = "helmet.png", Link = "Sentinel", Name = "Cerebrum" },
+		Chassis = { Image = "chassis.png", Link = "Warframes", Name = "Chassis" },
+		Core = { Image = "Link.png", Name = "Core" },
+		Disc = { Image = "Link.png", Name = "Disc" },
+		Engines = {
+			Image = "GenericLandingCraftEngines.png",
+			Link = "Landing Craft",
+			Name = "Engines" 
+		},
+		Fuselage = {
+			Image = "GenericLandingCraftFuselage.png",
+			Link = "Landing Craft",
+			Name = "Fuselage" 
+		},
+		Gauntlet = { Image = "Blade.png", Name = "Gauntlet" },
+		Guard = { Image = "Pouch.png", Name = "Guard" },
+		["Gun Chassis"] = { Image = "Stock.png", Name = "Chassis" },
+		["Gun Handle"] = { Image = "Receiver.png", Name = "Handle" },
+		Handle = { Image = "GenericWeaponHilt.png", Name = "Handle" },
+		Head = { Image = "GenericWeaponHead.png", Name = "Head" },
+		Heatsink = { Image = "Link.png", Name = "Heatsink" },
+		Helmet = { Image = "helmet.png", Link = "Warframe Neuroptics" },
+		Hilt = { Image = "GenericWeaponHilt.png", Name = "Hilt" },
+		["Left Gauntlet"] = { Image = "Blade.png", Name = "Left Gauntlet" },
+		Limbs = { Image = "Stock.png", Name = "Limbs" },
+		Link = { Image = "Link.png", Name = "Link" },
+		Motor = { Image = "GenericGunStock.png", Name = "Motor" },
+		Neuroptics = { Image = "helmet.png", Link = "Warframe Neuroptics" },
+		Part = { Image = "Weapon_Part_32px.png", Link = "Weapons", Name = "Part" },
+		Pouch = { Image = "Pouch.png", Name = "Pouch" },
+		["Prime Band"] = { Image = "GenericComponentPrimeLatch.png", link = "Band" },
+		["Prime Barrel"] = { Image = "GenericGunPrimeBarrel.png", Name = "Barrel" },
+		["Prime Blade"] = { Image = "GenericWeaponPrimeBlade.png", Name = "Blade" },
+		["Prime Blades"] = { Image = "GenericWeaponPrimeBlade.png", Name = "Blades" },
+		["Prime Boot"] = { Image = "GenericWeaponPrimeGuard.png", Name = "Boot" },
+		["Prime Buckle"] = { Image = "GenericComponentPrimePlug.png", Name = "Buckle" },
+		["Prime Carapace"] = { Image = "PrimeChassis.png", Link = "Sentinel", Name = "Carapace" },
+		["Prime Cerebrum"] = { Image = "PrimeHelmet.png", Link = "Sentinel", Name = "Cerebrum" },
+		["Prime Chain"] = { Image = "GenericGunPrimeStock.png", Name = "Chain" },
+		["Prime Chassis"] = { Image = "PrimeChassis.png", Link = "Warframes", Name = "Chassis" },
+		["Prime Disc"] = { Image = "GenericWeaponPrimeBlade.png", Name = "Disc" },
+		["Prime Gauntlet"] = { Image = "GenericWeaponPrimeHilt.png", Name = "Gauntlet" },
+		["Prime Grip"] = { Image = "GenericComponentPrimeLatch.png", Name = "Grip" },
+		["Prime Guard"] = { Image = "GenericWeaponPrimeGuard.png", Name = "Guard" },
+		["Prime Handle"] = { Image = "GenericWeaponPrimeHilt.png", Name = "Handle" },
+		["Prime Harness"] = { Image = "GenericArchwingHarness.png", Link = "Archwing", Name = "Harness" },
+		["Prime Head"] = { Image = "GenericWeaponPrimeBlade.png", Name = "Head" },
+		["Prime Hilt"] = { Image = "GenericWeaponPrimeHilt.png", Name = "Hilt" },
+		["Prime Link"] = { Image = "GenericComponentPrimePlug.png", Name = "Link" },
+		["Prime Lower Limb"] = { Image = "GenericWeaponPrimeBlade.png", Name = "Lower Limb" },
+		["Prime Neuroptics"] = { Image = "PrimeHelmet.png", Link = "Warframes", Name = "Neuroptics" },
+		["Prime Ornament"] = { Image = "GenericComponentPrimePlug.png", Name = "Ornament" },
+		["Prime Pouch"] = { Image = "GenericComponentPrimeLatch.png", Name = "Pouch" },
+		["Prime Receiver"] = { Image = "GenericGunPrimeReceiver.png", Name = "Receiver" },
+		["Prime Stars"] = { Image = "GenericWeaponPrimeBlade.png", Name = "Stars" },
+		["Prime Stock"] = { Image = "GenericGunPrimeStock.png", Name = "Stock" },
+		["Prime String"] = { Image = "GenericGunPrimeStock.png", Name = "String" },
+		["Prime Systems"] = { Image = "PrimeSystems.png", Link = "Warframe Systems", Name = "Systems" },
+		["Prime Upper Limb"] = { Image = "GenericWeaponPrimeBlade.png", Name = "Upper Limb" },
+		["Prime Wings"] = { Image = "GenericArchwingWings.png", Link = "Archwing", Name = "Wings" },
+		Receiver = { Image = "Receiver.png", Name = "Receiver" },
+		["Right Gauntlet"] = { Image = "Blade.png", Name = "Right Gauntlet" },
+		Rivet = { Image = "Link.png", Name = "Rivet" },
+		Stars = { Image = "Blade.png", Name = "Stars" },
+		Stock = { Image = "Stock.png", Name = "Stock" },
+		Subcortex = { Image = "GenericComponentPlug.png", Name = "Subcortex" },
+		Systems = { Image = "systems.png", Link = "Warframes", Name = "Systems" } 
+	},
+	Resources = {
+		["/Lotus/Language/Items/Relayreconstructionitemaname"] = {
+			Description = "/Lotus/Language/Items/RelayReconstructionItemADesc",
+			Image = "LotusLanguageItemsRelayreconstructionitemaname.png",
+			InternalName = "/Lotus/Types/Items/Events/RelayReconstructionItemA",
+			Link = "/Lotus/Language/Items/Relayreconstructionitemaname",
+			Name = "/Lotus/Language/Items/Relayreconstructionitemaname",
+			Type = "Resource" 
+		},
+		["/Lotus/Language/Items/Relayreconstructionitembname"] = {
+			Description = "/Lotus/Language/Items/RelayReconstructionItemBDesc",
+			Image = "LotusLanguageItemsRelayreconstructionitembname.png",
+			InternalName = "/Lotus/Types/Items/Events/RelayReconstructionItemB",
+			Link = "/Lotus/Language/Items/Relayreconstructionitembname",
+			Name = "/Lotus/Language/Items/Relayreconstructionitembname",
+			Type = "Resource" 
+		},
+		["/Lotus/Language/Items/Relayreconstructionitemcname"] = {
+			Description = "/Lotus/Language/Items/RelayReconstructionItemCDesc",
+			Image = "LotusLanguageItemsRelayreconstructionitemcname.png",
+			InternalName = "/Lotus/Types/Items/Events/RelayReconstructionItemC",
+			Link = "/Lotus/Language/Items/Relayreconstructionitemcname",
+			Name = "/Lotus/Language/Items/Relayreconstructionitemcname",
+			Type = "Resource" 
+		},
+		["/Lotus/Language/Relayreconstruction/Relayreconphase1leftitemname"] = {
+			Description = "With a blazing orange hue and rigid material strength, this compound is prized by ship and station architects.",
+			Image = "LotusLanguageRelayreconstructionRelayreconphase1leftitemname.png",
+			InternalName = "/Lotus/Types/Items/RelayRebuild/PhaseOneWaterElement",
+			Link = "/Lotus/Language/Relayreconstruction/Relayreconphase1leftitemname",
+			Name = "/Lotus/Language/Relayreconstruction/Relayreconphase1leftitemname",
+			Type = "Resource" 
+		},
+		["/Lotus/Language/Relayreconstruction/Relayreconphase2aleftitemname"] = {
+			Description = "With a blazing orange hue and rigid material strength, this compound is prized by ship and station architects.",
+			Image = "LotusLanguageRelayreconstructionRelayreconphase2aleftitemname.png",
+			InternalName = "/Lotus/Types/Items/RelayRebuild/PhaseTwoPigmentBright",
+			Link = "/Lotus/Language/Relayreconstruction/Relayreconphase2aleftitemname",
+			Name = "/Lotus/Language/Relayreconstruction/Relayreconphase2aleftitemname",
+			Type = "Resource" 
+		},
+		["/Lotus/Language/Relayreconstruction/Relayreconphase2arightitemname"] = {
+			Description = "With a blazing orange hue and rigid material strength, this compound is prized by ship and station architects.",
+			Image = "LotusLanguageRelayreconstructionRelayreconphase2arightitemname.png",
+			InternalName = "/Lotus/Types/Items/RelayRebuild/PhaseTwoPigmentMuted",
+			Link = "/Lotus/Language/Relayreconstruction/Relayreconphase2arightitemname",
+			Name = "/Lotus/Language/Relayreconstruction/Relayreconphase2arightitemname",
+			Type = "Resource" 
+		},
+		["/Lotus/Language/Relayreconstruction/Relayreconphase2clanitemname"] = {
+			Description = "An integral building block in the construction of Tenno relays.",
+			Image = "LotusLanguageRelayreconstructionRelayreconphase2clanitemname.png",
+			InternalName = "/Lotus/Types/Items/RelayRebuild/PhaseTwoClanItem",
+			Link = "/Lotus/Language/Relayreconstruction/Relayreconphase2clanitemname",
+			Name = "/Lotus/Language/Relayreconstruction/Relayreconphase2clanitemname",
+			Type = "Resource" 
+		},
+		["/Lotus/Language/Relayreconstruction/Relayreconphase3clanitemname"] = {
+			Description = "An integral building block in the construction of Tenno relays.",
+			Image = "LotusLanguageRelayreconstructionRelayreconphase3clanitemname.png",
+			InternalName = "/Lotus/Types/Items/RelayRebuild/PhaseThreeClanItem",
+			Link = "/Lotus/Language/Relayreconstruction/Relayreconphase3clanitemname",
+			Name = "/Lotus/Language/Relayreconstruction/Relayreconphase3clanitemname",
+			Type = "Resource" 
+		},
+		["/Lotus/Language/Relayreconstruction/Relayreconphase3leftitemname"] = {
+			Description = "With a blazing orange hue and rigid material strength, this compound is prized by ship and station architects.",
+			Image = "LotusLanguageRelayreconstructionRelayreconphase3leftitemname.png",
+			InternalName = "/Lotus/Types/Items/RelayRebuild/PhaseThreeAirEssence",
+			Link = "/Lotus/Language/Relayreconstruction/Relayreconphase3leftitemname",
+			Name = "/Lotus/Language/Relayreconstruction/Relayreconphase3leftitemname",
+			Type = "Resource" 
+		},
+		["/Lotus/Language/Scans/Gofplantaplantname"] = {
+			Description = "/Lotus/Language/Scans/GofPlantAPlantDesc",
+			Image = "LotusLanguageScansGofplantaplantname.png",
+			InternalName = "/Lotus/Types/Items/Plants/MiscItems/GofPlantAPlantItem",
+			Link = "/Lotus/Language/Scans/Gofplantaplantname",
+			Name = "/Lotus/Language/Scans/Gofplantaplantname",
+			Type = "Plant" 
+		},
+		["/Lotus/Language/Scans/Gofplanteplantname"] = {
+			Description = "/Lotus/Language/Scans/GofPlantEPlantDesc",
+			Image = "LotusLanguageScansGofplanteplantname.png",
+			InternalName = "/Lotus/Types/Items/Plants/MiscItems/GofPlantEPlantItem",
+			Link = "/Lotus/Language/Scans/Gofplanteplantname",
+			Name = "/Lotus/Language/Scans/Gofplanteplantname",
+			Type = "Plant" 
+		},
+		["01000011 Cyan"] = {
+			Description = "01000011 Cyan pigments drop from the following enemies:\
+Terra Raptor Sx\
+Terra Elite Raptor Sx",
+			Image = "01000011 Cyan.png",
+			InternalName = "",
+			Introduced = "24",
+			Link = "Pigment",
+			Name = "01000011 Cyan",
+			Type = "Pigment" 
+		},
+		["Adramal Alloy"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 20,
+			BuildTime = 60,
+			Components = {
+				{ ItemCount = 20, Name = "Adramalium" },
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 15, Name = "Lucent Teroglobe" },
+				{ ItemCount = 600, Name = "Plastids" },
+				{ ItemCount = 20, Name = "Travoride" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "Purged of spores and contaminants, this alloy is highly versatile.",
+			Image = "AdramalAlloy.png",
+			InternalName = "/Lotus/Types/Items/Gems/Deimos/DeimosCommonOreAAlloyItem",
+			Introduced = "29",
+			ItemCount = 80,
+			Link = "Adramal Alloy",
+			Name = "Adramal Alloy",
+			Parents = { "Bonewidow Engine", "Cortege Barrel", "Morgha Barrel", "Voidrig Casing" },
+			Rush = 5,
+			Type = "Gem" 
+		},
+		Adramalium = {
+			Description = "Sinewy and metallic, possessed of great elastic strength.",
+			Image = "Adramalium.png",
+			InternalName = "/Lotus/Types/Items/Gems/Deimos/DeimosCommonOreAItem",
+			Introduced = "29",
+			ItemCount = 20,
+			Link = "Adramalium",
+			Name = "Adramalium",
+			Parents = { "Adramal Alloy", "Xaku Kintsu Helmet" },
+			Type = "Gem" 
+		},
+		["Advances Debt-Bond"] = {
+			Description = "Sometimes a rig jockey needs a helping hand, so they get an advance on the next pay. Massive interest rates almost guarantee they'll be paying that off forever.",
+			Image = "AdvancesDebtBond64.png",
+			InternalName = "/Lotus/Types/Items/Solaris/DebtTokenD",
+			Introduced = "24",
+			Link = "Advances Debt-Bond",
+			Name = "Advances Debt-Bond",
+			Type = "Resource" 
+		},
+		Akbolto = {
+			Image = "Akbolto.png",
+			InternalName = "/Lotus/Weapons/Tenno/Akimbo/AkimboBolto",
+			Introduced = "6.0",
+			Link = "Akbolto",
+			Name = "Akbolto",
+			Type = "Weapon" 
+		},
+		Akstiletto = {
+			Image = "TennoUzi.png",
+			InternalName = "/Lotus/Weapons/Tenno/Pistols/TennoUzi/TennoUzi",
+			Introduced = "12.0",
+			Link = "Akstiletto",
+			Name = "Akstiletto",
+			Type = "Weapon" 
+		},
+		["Alloy Plate"] = {
+			ContainerImage = "AlloyPlateContainer.png",
+			Description = "Carbon steel plates used to reinforce Grineer armor. Locations: Venus, Phobos, Ceres, Jupiter, Pluto, and Sedna.",
+			HelminthCategory = "Oxides",
+			HelminthCost = 15000,
+			Image = "AlloyPlate.png",
+			InternalName = "/Lotus/Types/Items/MiscItems/AlloyPlate",
+			Introduced = "Vanilla",
+			Link = "Alloy Plate",
+			Name = "Alloy Plate",
+			Rarity = "Common",
+			Type = "Resource" 
+		},
+		["Alpha Corruptor"] = {
+			Description = "Inert on its own this corruptor is highly effective if mixed with its Beta counterpart. Properly mixed, these will destabilize Fomorian Reactors much faster than their Stable counterparts. This volatile item cannot be simultaneously equipped with Beta Corruptors. Recommended for Tenno operating as a team.",
+			Image = "Warframe Alpha Corruptor.png",
+			InternalName = "",
+			Introduced = "9.3",
+			Link = "Corruptor",
+			Name = "Alpha Corruptor",
+			Type = "Event" 
+		},
+		Amarast = {
+			Description = "A violet gem that forms from the crystallization of byproducts expelled from the Weeping Towers.",
+			Image = "Amarast.png",
+			InternalName = "/Lotus/Types/Items/Gems/Solaris/SolarisRareGemAItem",
+			Introduced = "24",
+			ItemCount = 6,
+			Link = "Amarast",
+			Name = "Amarast",
+			Parents = { "Star Amarast" },
+			Type = "Gem" 
+		},
+		Amphis = {
+			Image = "DEAmphis.png",
+			InternalName = "/Lotus/Weapons/Tenno/Melee/Staff/GrnStaff",
+			Introduced = "6.5",
+			Link = "Amphis",
+			Name = "Amphis",
+			Type = "Weapon" 
+		},
+		["Animo Nav Beacon"] = {
+			Description = "Used to locate the Ambulas production facility.This resource is dropped from Ambulas Units.",
+			Image = "AnimoNavBeacon.png",
+			InternalName = "/Lotus/Types/Items/Events/AmbulasDataFragment",
+			Introduced = "20.4",
+			Link = "Animo Nav Beacon",
+			Name = "Animo Nav Beacon",
+			Type = "Resource" 
+		},
+		Ankyros = {
+			Image = "Ankyros.png",
+			InternalName = "/Lotus/Weapons/Tenno/Melee/Gauntlet/Gauntlet",
+			Introduced = "7.8",
+			Link = "Ankyros",
+			Name = "Ankyros",
+			Type = "Weapon" 
+		},
+		["Anomaly Shard"] = {
+			Description = "A shard ripped from a Sentient Anomaly in the Veil Proxima. Little Duck is known to trade these for exotic goods somewhere in Fortuna.",
+			HelminthCategory = "Sentient Appetite",
+			HelminthCost = 2,
+			Image = "AnomalyShard.png",
+			InternalName = "",
+			Introduced = "27.0.12",
+			Link = "Anomaly Shard",
+			Name = "Anomaly Shard",
+			Type = "Resource" 
+		},
+		["Anti-Violet"] = {
+			Description = "Anti-Violet pigments drop from the following enemies:\
+Zanuka Hunter",
+			Image = "Anti Violet.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Anti-Violet",
+			Type = "Pigment" 
+		},
+		["Antiserum Injector Fragment"] = {
+			Description = "A component of the Antiserum Injector",
+			HelminthCategory = "Bile",
+			HelminthCost = 900,
+			Image = "Actuator.png",
+			InternalName = "",
+			Introduced = "17.5",
+			Link = "Antiserum Injector Fragment",
+			Name = "Antiserum Injector Fragment",
+			SellPrice = 5,
+			Type = "Research" 
+		},
+		["Argon Crystal"] = {
+			ContainerImage = "ArgonCrystalContainer.png",
+			Description = "Void based radioactive resource that decays every day it is out of the Void.",
+			HelminthCategory = "Bile",
+			HelminthCost = 3,
+			Image = "ArgonCrystal.png",
+			InternalName = "",
+			Introduced = "13",
+			Link = "Argon Crystal",
+			Name = "Argon Crystal",
+			Rarity = "Rare",
+			Type = "Resource" 
+		},
+		Asterite = {
+			Description = "Formed over billions of years, these crystals are most often found embedded in space rock.",
+			HelminthCategory = "Calx",
+			HelminthCost = 300,
+			Image = "Asterite.png",
+			InternalName = "/Lotus/Types/Items/RailjackMiscItems/AsteriteRailjackItem",
+			Introduced = "27",
+			Link = "Asterite",
+			Name = "Asterite",
+			Type = "Resource" 
+		},
+		["Atmo Systems"] = {
+			Description = "A modular component that compensates for the multitude of atmospheric conditions encountered in the Origin System.",
+			Image = "Atmo Systems.png",
+			InternalName = "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetBItem",
+			Introduced = "24.2",
+			Link = "Atmo Systems",
+			Name = "Atmo Systems",
+			Type = "Resource" 
+		},
+		Atomos = {
+			Image = "GrnHeatGun.png",
+			InternalName = "/Lotus/Weapons/Grineer/Pistols/HeatGun/GrnHeatGun",
+			Introduced = "16.5",
+			Link = "Atomos",
+			Name = "Atomos",
+			Type = "Weapon" 
+		},
+		["Aucrux Capacitors"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 1,
+			BuildTime = 120,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 350, Name = "Control Module" },
+				{ ItemCount = 300, Name = "Fieldron Sample" },
+				{ ItemCount = 5500, Name = "Salvage" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "Once installed, these delicate power systems fuse with a Corpus Obelisk’s engines. Unused capacitors are therefore, highly prized.",
+			HelminthCategory = "Synthetics",
+			HelminthCost = 10,
+			Image = "AucruxCapacitors.png",
+			InternalName = "/Lotus/Types/Items/RailjackMiscItems/AucruxRailjackItem",
+			Introduced = "27",
+			Link = "Aucrux Capacitors",
+			Name = "Aucrux Capacitors",
+			Rush = 5,
+			Type = "Resource" 
+		},
+		Auron = {
+			Description = "A brilliant, dense and conductive metal. Location: Plains of Eidolon",
+			Image = "Auron.png",
+			InternalName = "/Lotus/Types/Items/Gems/Eidolon/RareOreAItem",
+			Introduced = "22",
+			ItemCount = 20,
+			Link = "Auron",
+			Name = "Auron",
+			Parents = { "Auroxium Alloy" },
+			Type = "Gem" 
+		},
+		["Auroxium Alloy"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 20,
+			BuildTime = 60,
+			Components = {
+				{ ItemCount = 20, Name = "Auron" },
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 5, Name = "Morphics" },
+				{ ItemCount = 600, Name = "Oxium" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "Auron that has been forged into a stronger metal.",
+			Image = "AuroxiumAlloy.png",
+			InternalName = "/Lotus/Types/Items/Gems/Eidolon/RareOreAAlloyAItem",
+			Introduced = "22",
+			ItemCount = 50,
+			Link = "Auroxium Alloy",
+			Name = "Auroxium Alloy",
+			Parents = { "Ceno Helmet", "Vahd Mask", "Zauba Mask" },
+			Rush = 5,
+			Type = "Gem" 
+		},
+		["Autumn Brown"] = {
+			Description = "Autumn Brown pigments drop from the following enemies:\
+Corrupted Moa",
+			Image = "Autumn Brown.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Autumn Brown",
+			Type = "Pigment" 
+		},
+		Axidite = {
+			Description = "A sediment that formed from sulfuric rain that became trapped under the ice.",
+			Image = "Axidite.png",
+			InternalName = "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreBItem",
+			Introduced = "24",
+			ItemCount = 20,
+			Link = "Axidite",
+			Name = "Axidite",
+			Parents = { "Axidrol Alloy" },
+			Type = "Gem" 
+		},
+		["Axidrol Alloy"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 20,
+			BuildTime = 60,
+			Components = {
+				{ ItemCount = 20, Name = "Axidite" },
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 500, Name = "Ferrite" },
+				{ ItemCount = 100, Name = "Rubedo" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "A compound formed from Axidite.",
+			Image = "AxidrolAlloy.png",
+			InternalName = "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreBAlloyItem",
+			Introduced = "24",
+			Link = "Axidrol Alloy",
+			Name = "Axidrol Alloy",
+			Rush = 5,
+			Type = "Gem" 
+		},
+		["Ayatan Amber Star"] = {
+			Description = "Place these stars into Ayatan Sculptures to power their movement. May also be a source of Endo.",
+			Image = "OroFusexOrnamentB.png",
+			InternalName = "",
+			Introduced = "Update: The Silver Grove",
+			Link = "Ayatan Star",
+			Name = "Ayatan Amber Star",
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Ayatan Cyan Star"] = {
+			Description = "Place these stars into Ayatan Sculptures to power their movement. May also be a source of Endo.",
+			Image = "OroFusexOrnamentA.png",
+			InternalName = "",
+			Introduced = "Update: The Silver Grove",
+			Link = "Ayatan Star",
+			Name = "Ayatan Cyan Star",
+			Tradable = true,
+			Type = "Resource" 
+		},
+		Azurite = {
+			Description = "A blue gem layered with impurities. Location: Plains of Eidolon",
+			Image = "Azurite.png",
+			InternalName = "/Lotus/Types/Items/Gems/Eidolon/CommonGemAItem",
+			Introduced = "22",
+			ItemCount = 10,
+			Link = "Azurite",
+			Name = "Azurite",
+			Parents = { "Tear Azurite" },
+			Type = "Gem" 
+		},
+		Bapholite = {
+			Description = "Malleable, owing to ingrown veins of Infestation protein.",
+			Image = "Bapholite.png",
+			InternalName = "/Lotus/Types/Items/Gems/Deimos/DeimosCommonOreBItem",
+			Introduced = "29",
+			ItemCount = 20,
+			Link = "Bapholite",
+			Name = "Bapholite",
+			Parents = { "Tempered Bapholite" },
+			Type = "Gem" 
+		},
+		["Benign Infested Tumor"] = {
+			Description = "The Infestation infects all fish on Deimos, even those that do not show any external mutations.",
+			Image = "BenignInfestedTumor.png",
+			InternalName = "",
+			Introduced = "29",
+			Link = "Benign Infested Tumor",
+			Name = "Benign Infested Tumor",
+			Type = "Fish Part" 
+		},
+		["Beta Corruptor"] = {
+			Description = "Inert on its own this corruptor is highly effective if mixed with its Alpha counterpart. Properly mixed, these will destabilize Fomorian Reactors much faster than their Stable counterparts. This volatile item cannot be simultaneously equipped with Alpha Corruptors. Recommended for Tenno operating as a team.",
+			Image = "Warframe Beta Corruptor.png",
+			InternalName = "",
+			Introduced = "9.3",
+			Link = "Corruptor",
+			Name = "Beta Corruptor",
+			Type = "Event" 
+		},
+		["Biotic Filter"] = {
+			Description = "Sifting the glutinous Exocrine is an essential part of the survival process, and a reminder of the creature's original function.Guaranteed to drop from these sources: AQUAPULMO DUROID",
+			Image = "BioticFilter.png",
+			InternalName = "/Lotus/Types/Items/Fish/Deimos/Fish Parts/DeimosOrokinFishAPartItem",
+			Introduced = "29",
+			Link = "Biotic Filter",
+			Name = "Biotic Filter",
+			Type = "Fish Part" 
+		},
+		Bo = {
+			Image = "BoStaff.png",
+			InternalName = "/Lotus/Weapons/Tenno/Melee/Staff/Staff",
+			Introduced = "Vanilla",
+			Link = "Bo",
+			Name = "Bo",
+			Type = "Weapon" 
+		},
+		["Boiler Red"] = {
+			Description = "Boiler Red pigments drop from the following enemies:\
+Phorid",
+			Image = "Boiler Red.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Boiler Red",
+			Type = "Pigment" 
+		},
+		Bolto = {
+			Image = "Bolto.png",
+			InternalName = "/Lotus/Weapons/Tenno/Pistol/CrossBow",
+			Introduced = "5.3",
+			Link = "Bolto",
+			Name = "Bolto",
+			Type = "Weapon" 
+		},
+		Boltor = {
+			Image = "Boltor.png",
+			InternalName = "/Lotus/Weapons/Tenno/Rifle/BoltoRifle",
+			Introduced = "6.0",
+			Link = "Boltor",
+			Name = "Boltor",
+			Type = "Weapon" 
+		},
+		["Bonewidow Capsule"] = {
+			BuildPrice = 15000,
+			BuildQuantity = 1,
+			BuildTime = 43200,
+			Components = {
+				{ ItemCount = 20, Name = "Biotic Filter" },
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 1, Name = "Damaged Necramech Pod" },
+				{ ItemCount = 4, Name = "Scintillant" },
+				{ ItemCount = 6, Name = "Star Crimzian" } 
+			},
+			ConsumeOnBuild = true,
+			Description = "Capsule component for the BONEWIDOW Necramech.",
+			Image = "BonewidowCapsule.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/ThanomechPartSystemsItem",
+			Introduced = "29.5",
+			Link = "Bonewidow Capsule",
+			Name = "Bonewidow Capsule",
+			Rush = 25,
+			Type = "Resource" 
+		},
+		["Bonewidow Casing"] = {
+			BuildPrice = 15000,
+			BuildQuantity = 1,
+			BuildTime = 43200,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 1, Name = "Damaged Necramech Casing" },
+				{ ItemCount = 15, Name = "Goblite Tears" },
+				{ ItemCount = 100, Name = "Tempered Bapholite" },
+				{ ItemCount = 20, Name = "Thaumic Distillate" } 
+			},
+			ConsumeOnBuild = true,
+			Description = "Casing component for the BONEWIDOW Necramech.",
+			Image = "BonewidowCasing.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/ThanomechPartChassisItem",
+			Introduced = "29.5",
+			Link = "Bonewidow Casing",
+			Name = "Bonewidow Casing",
+			Rush = 25,
+			Type = "Resource" 
+		},
+		["Bonewidow Engine"] = {
+			BuildPrice = 15000,
+			BuildQuantity = 1,
+			BuildTime = 43200,
+			Components = {
+				{ ItemCount = 120, Name = "Adramal Alloy" },
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 2, Name = "Cranial Foremount" },
+				{ ItemCount = 1, Name = "Damaged Necramech Engine" },
+				{ ItemCount = 750, Name = "Titanium" } 
+			},
+			ConsumeOnBuild = true,
+			Description = "Engine component for the BONEWIDOW Necramech.",
+			Image = "BonewidowEngine.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/ThanomechPartEngineItem",
+			Introduced = "29.5",
+			Link = "Bonewidow Engine",
+			Name = "Bonewidow Engine",
+			Rush = 25,
+			Type = "Resource" 
+		},
+		["Bonewidow Weapon Pod"] = {
+			BuildPrice = 15000,
+			BuildQuantity = 1,
+			BuildTime = 43200,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 1, Name = "Damaged Necramech Weapon Pod" },
+				{ ItemCount = 80, Name = "Devolved Namalon" },
+				{ ItemCount = 45, Name = "Scrap" },
+				{ ItemCount = 6, Name = "Spinal Core Section" } 
+			},
+			ConsumeOnBuild = true,
+			Description = "Weapon Pod component for the BONEWIDOW Necramech.",
+			Image = "BonewidowWeaponPod.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/ThanomechPartWeaponPodItem",
+			Introduced = "29.5",
+			Link = "Bonewidow Weapon Pod",
+			Name = "Bonewidow Weapon Pod",
+			Rush = 25,
+			Type = "Resource" 
+		},
+		Boot = {
+			Description = "Synthetic fibers and a molded foam insole were the basis for what was once a robust and comfortable combat boot. Now, it's a home for tiny aquatic organisms.",
+			Image = "GrineerBoot.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Boot",
+			Name = "Boot",
+			Type = "Fish Part" 
+		},
+		Bracoid = {
+			BuildPrice = 1000,
+			BuildQuantity = 1,
+			BuildTime = 120,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 20, Name = "Mutagen Sample" },
+				{ ItemCount = 13000, Name = "Nano Spores" },
+				{ ItemCount = 75, Name = "Neurodes" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "A rare bacterial entity that increases the spread of Infestation found on Infested Ships.",
+			Image = "Bracoid.png",
+			InternalName = "/Lotus/Types/Items/RailjackMiscItems/BracoidRailjackItem",
+			Introduced = "27",
+			Link = "Bracoid",
+			Name = "Bracoid",
+			Rush = 5,
+			Type = "Resource" 
+		},
+		["Breath Of The Eidolon"] = {
+			Description = "A gas found solely on the plains on Eidolon. Refined to its purest form.",
+			Image = "BreathOfTheEidolon.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Breath Of The Eidolon",
+			Name = "Breath Of The Eidolon",
+			Type = "Resource" 
+		},
+		["Brickie Muon Battery"] = {
+			Description = "A small, atomic power source",
+			Image = "MuonBattery.png",
+			InternalName = "",
+			Introduced = "24",
+			Link = "Brickie Muon Battery",
+			Name = "Brickie Muon Battery",
+			Type = "Fish Part" 
+		},
+		["Brilliant Eidolon Shard"] = {
+			Description = "Rare shard gained from capturing the Sentients roaming the Plains of Eidolon. Use it to gain Focus or to unbind Way-bound focus nodes.",
+			Image = "SentientShardBrilliant.png",
+			InternalName = "",
+			Introduced = "22.12",
+			Link = "Brilliant Eidolon Shard",
+			Name = "Brilliant Eidolon Shard",
+			Type = "Resource" 
+		},
+		["Broken War"] = {
+			Image = "StalkerTwoSword.png",
+			InternalName = "/Lotus/Weapons/Tenno/Melee/Swords/StalkerTwo/StalkerTwoSmallSword",
+			Introduced = "18.0",
+			Link = "Broken War",
+			Name = "Broken War",
+			Type = "Weapon" 
+		},
+		Bronco = {
+			Image = "Bronco.png",
+			InternalName = "/Lotus/Weapons/Tenno/Pistol/HandShotGun",
+			Introduced = "Vanilla",
+			Link = "Bronco",
+			Name = "Bronco",
+			Type = "Weapon" 
+		},
+		["Bronco Prime"] = {
+			Image = "PrimeBronco.png",
+			InternalName = "/Lotus/Weapons/Tenno/Pistol/BroncoPrime",
+			Introduced = "9.0",
+			Link = "Bronco Prime",
+			Name = "Bronco Prime",
+			Type = "Weapon" 
+		},
+		["Cabochon Embolos"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 3,
+			BuildTime = 60,
+			Components = { { ItemCount = 1, Name = "Blueprint" }, { ItemCount = 3, Name = "Embolos" } },
+			ConsumeOnBuild = false,
+			Description = "Convex and smooth, worked as a lens or for ornament.",
+			Image = "CabochonEmbolos.png",
+			InternalName = "/Lotus/Types/Items/Gems/Deimos/DeimosEidolonGemBCutItem",
+			Introduced = "29",
+			ItemCount = 10,
+			Link = "Cabochon Embolos",
+			Name = "Cabochon Embolos",
+			Parents = { "Cortege Stock", "Morgha Stock" },
+			Rush = 5,
+			Tradable = true,
+			Type = "Gem" 
+		},
+		["Calda Toroid"] = {
+			Description = "A device of undetermined function and origin. Prized by Vox Solaris and the Quills. Earn Calda Toroids from enemies located at the Enrichment Labs in the Orb Vallis and from Scyto Raknoids. They can also be found as pick-ups in caves located around the Orb Vallis.",
+			Image = "CaldaToroid.png",
+			InternalName = "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidHungerItem",
+			Introduced = "24",
+			ItemCount = 2,
+			Link = "Calda Toroid",
+			Name = "Calda Toroid",
+			Parents = {
+				"Haztech Apparel",
+				"Haztech Cuirass",
+				"Kubrodon Ventkid Apparel",
+				"Kubrodon Ventkid Cuirass",
+				"Outrider Cuirass",
+				"Smelter Apparel",
+				"Smelter Cuirass",
+				"Vent Pobber Ventkid Apparel",
+				"Vent Pobber Ventkid Cuirass",
+				"Vent Rat Cuirass" 
+			},
+			Type = "Resource" 
+		},
+		Carbides = {
+			BuildPrice = 1000,
+			BuildQuantity = 1,
+			BuildTime = 120,
+			Components = {
+				{ ItemCount = 26000, Name = "Alloy Plate" },
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 8500, Name = "Ferrite" },
+				{ ItemCount = 4000, Name = "Polymer Bundle" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "Resilient components used to reinforce the plated sheets of metal strapped to Grineer Ships. Location: Ceres",
+			HelminthCategory = "Oxides",
+			HelminthCost = 2500,
+			Image = "Carbides.png",
+			InternalName = "/Lotus/Types/Items/RailjackMiscItems/CarbidesRailjackItem",
+			Introduced = "26.1",
+			ItemCount = 2000,
+			Link = "Carbides",
+			Name = "Carbides",
+			Parents = { "Protea Telema Helmet" },
+			Rush = 5,
+			Type = "Resource" 
+		},
+		["Cephalite Resonance"] = {
+			Description = "Cephalite Resonance used to enter the Glassmaker's Weave",
+			Image = "CephaliteResonance.png",
+			InternalName = "/Lotus/Types/PickUps/Nightwave/CephalonFissureTimePointItem",
+			Introduced = "27.5",
+			Link = "Cephalite Resonance",
+			Name = "Cephalite Resonance",
+			Type = "Event" 
+		},
+		Cernos = {
+			Image = "DECernos.png",
+			InternalName = "/Lotus/Weapons/Tenno/Bows/AntlerBow/AntlerBow",
+			Introduced = "11.1",
+			Link = "Cernos",
+			Name = "Cernos",
+			Type = "Weapon" 
+		},
+		["Cerulean Fungus Extract"] = {
+			Description = "Extracted from a Cerulean Fungus colony.",
+			Image = "CeruleanFungusExtract.png",
+			InternalName = "/Lotus/Types/Items/Plants/MiscItems/OroFungusAPlantItem",
+			Link = "Cerulean Fungus Extract",
+			Name = "Cerulean Fungus Extract",
+			Type = "Plant" 
+		},
+		Cestra = {
+			Image = "CorpusMinigun.png",
+			InternalName = "/Lotus/Weapons/Corpus/Pistols/CorpusMinigun/CorpusMinigun",
+			Introduced = "11.0",
+			Link = "Cestra",
+			Name = "Cestra",
+			Type = "Weapon" 
+		},
+		["Cetus Wisp"] = {
+			Description = "Strange stone lifeforms that call the Plains home. They are a rare find, clustering together, floating above a patch of ground they've taken an inexplicable interest in. They are an enigma. Location: Plains of Eidolon",
+			HelminthCategory = "Sentient Appetite",
+			HelminthCost = 5,
+			Image = "CetusWisp.png",
+			InternalName = "/Lotus/Types/Gameplay/Eidolon/Resources/CetusWispItem",
+			Introduced = "22",
+			ItemCount = 5,
+			Link = "Cetus Wisp",
+			Name = "Cetus Wisp",
+			Parents = {
+				"Zauba Apparel",
+				"Zauba Cuirass",
+				"Zauba Greaves",
+				"Zauba Mask",
+				"Zauba Pauldrons" 
+			},
+			Type = "Resource" 
+		},
+		["Charamote Sagan Module"] = {
+			Description = "A device used to reconstruct degenerated matter into Orokin bio-material.",
+			Image = "SaganModule.png",
+			InternalName = "",
+			Introduced = "24",
+			Link = "Charamote Sagan Module",
+			Name = "Charamote Sagan Module",
+			Type = "Fish Part" 
+		},
+		["Charc Electroplax"] = {
+			Description = "Harvested by the Ostron as a catalyst used in their synthetics. Location: Plains of Eidolon",
+			Image = "CharcElectroplax.png",
+			InternalName = "/Lotus/Types/Items/Fish/Eidolon/Fish Parts/BothCommonFishAPartItem",
+			Introduced = "22",
+			Link = "Charc Electroplax",
+			Name = "Charc Electroplax",
+			Type = "Fish Part" 
+		},
+		["Charger Blue"] = {
+			Description = "Charger Blue pigments drop from the following enemies:\
+Toxin Ancient",
+			Image = "Charger Blue.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Charger Blue",
+			Type = "Pigment" 
+		},
+		["Chitinous Husk"] = {
+			Description = "A grizzly trophy extracted from the corpse of a Juggernaut.",
+			HelminthCategory = "Pheromones",
+			HelminthCost = 3,
+			Image = "JuggernautChitinousHusk.png",
+			InternalName = "",
+			Introduced = "16.7",
+			Link = "Pherliac Pod",
+			Name = "Chitinous Husk",
+			Type = "Resource" 
+		},
+		["Chroma Mark"] = {
+			Description = "",
+			Image = "ChromaMark64.png",
+			InternalName = "",
+			Introduced = "16",
+			Link = "The New Strange/Chroma Mark",
+			Name = "Chroma Mark",
+			Type = "Resource" 
+		},
+		["Chroma Signal"] = {
+			Description = "",
+			Image = "ChromaSignal64.png",
+			InternalName = "",
+			Introduced = "16",
+			Link = "The New Strange/Chroma Signal",
+			Name = "Chroma Signal",
+			Type = "Resource" 
+		},
+		Circuits = {
+			ContainerImage = "CircuitsContainer.png",
+			Description = "Various electronic components. Locations: Venus, Ceres, and the Kuva Fortress.",
+			HelminthCategory = "Synthetics",
+			HelminthCost = 7000,
+			Image = "Circuits.png",
+			InternalName = "/Lotus/Types/Items/MiscItems/Circuits",
+			Introduced = "Vanilla",
+			Link = "Circuits",
+			Name = "Circuits",
+			Rarity = "Uncommon",
+			Type = "Resource" 
+		},
+		["Condroc Wing"] = {
+			Description = "The talon on a condroc's wing is sharp enough to tear through bone. Location: Plains of Eidolon",
+			Image = "IconCondrocWing.png",
+			InternalName = "/Lotus/Types/Gameplay/Eidolon/Resources/BirdOfPreyPartItem",
+			Introduced = "22",
+			ItemCount = 5,
+			Link = "Condroc Wing",
+			Name = "Condroc Wing",
+			Parents = { "Naberus Ephemera" },
+			Type = "Resource" 
+		},
+		["Conductor Gold"] = {
+			Description = "Conductor Gold pigments drop from the following enemies:\
+Terra Embattor Moa\
+Terra Elite Embattor Moa",
+			Image = "Conductor Gold.png",
+			InternalName = "",
+			Introduced = "24",
+			Link = "Pigment",
+			Name = "Conductor Gold",
+			Type = "Pigment" 
+		},
+		["Control Module"] = {
+			ContainerImage = "ControlModuleContainer.png",
+			Description = "Autonomy processor for Robotics. A Corpus design. Locations: Europa, Neptune, and the Void.",
+			HelminthCategory = "Synthetics",
+			HelminthCost = 75,
+			Image = "ControlModule.png",
+			InternalName = "/Lotus/Types/Items/MiscItems/ControlModule",
+			Introduced = "Vanilla",
+			Link = "Control Module",
+			Name = "Control Module",
+			Rarity = "Rare",
+			Type = "Resource" 
+		},
+		["Coolant Blue"] = {
+			Description = "Coolant Blue pigments drop from the following enemies:\
+Terra Overtaker\
+Terra Elite Overtaker",
+			Image = "Coolant Blue.png",
+			InternalName = "",
+			Introduced = "24",
+			Link = "Pigment",
+			Name = "Coolant Blue",
+			Type = "Pigment" 
+		},
+		Copernics = {
+			BuildPrice = 1000,
+			BuildQuantity = 1,
+			BuildTime = 120,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 800, Name = "Cryotic" },
+				{ ItemCount = 8500, Name = "Ferrite" },
+				{ ItemCount = 13000, Name = "Rubedo" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "A cell of encapsulated Void energy. Location: Lua",
+			Image = "Copernics.png",
+			InternalName = "/Lotus/Types/Items/RailjackMiscItems/CopernicsRailjackItem",
+			Introduced = "26.1",
+			Link = "Copernics",
+			Name = "Copernics",
+			Rush = 5,
+			Type = "Resource" 
+		},
+		["Coprite Alloy"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 20,
+			BuildTime = 60,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 20, Name = "Coprun" },
+				{ ItemCount = 400, Name = "Ferrite" },
+				{ ItemCount = 50, Name = "Rubedo" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "Coprun that has been forged into a stronger metal.",
+			Image = "CopriteAlloy.png",
+			InternalName = "/Lotus/Types/Items/Gems/Eidolon/CommonOreBAlloyBItem",
+			Introduced = "22",
+			ItemCount = 100,
+			Link = "Coprite Alloy",
+			Name = "Coprite Alloy",
+			Parents = { "Ceno Pauldrons", "Peram Fishing Spear", "Vahd Pauldrons", "Zauba Pauldrons" },
+			Rush = 5,
+			Type = "Gem" 
+		},
+		Coprun = {
+			Description = "A soft, malleable metal. Location: Plains of Eidolon",
+			Image = "Coprun.png",
+			InternalName = "/Lotus/Types/Items/Gems/Eidolon/CommonOreBItem",
+			Introduced = "22",
+			ItemCount = 20,
+			Link = "Coprun",
+			Name = "Coprun",
+			Parents = { "Coprite Alloy" },
+			Type = "Gem" 
+		},
+		["Corpus Cipher"] = {
+			Description = "A cipher used to decode Corpus intel. Crafting component required to create a CORPUS VOID KEY.",
+			Image = "CorpusSuperCipher.png",
+			InternalName = "/Lotus/Types/Items/Research/CipherPlus",
+			Introduced = "9",
+			Link = "Corpus Cipher",
+			Name = "Corpus Cipher",
+			Type = "Event" 
+		},
+		["Corpus Datamass"] = {
+			Description = "A Corpus datamass containing encrypted intel. Crafting component required to create a CORPUS VOID KEY.",
+			Image = "CorpusSuperDatamass.png",
+			InternalName = "/Lotus/Types/Items/Research/DataMassPlus",
+			Introduced = "9",
+			Link = "Corpus Datamass",
+			Name = "Corpus Datamass",
+			Type = "Event" 
+		},
+		["Corrupted Holokey"] = {
+			Description = "A corrupted decryption key dating back to the founding of the city of Corposium. Millions of these Holokeys were lost to the Void when Parvos Granum's flagship was bombed. Strongly desired by Ergo Glast.",
+			Image = "CorruptedHolokey.png",
+			InternalName = "",
+			Introduced = "30.5",
+			Link = "Corrupted Holokey",
+			Name = "Corrupted Holokey",
+			Type = "Resource" 
+		},
+		["Cortege Barrel"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 1,
+			BuildTime = 60,
+			Components = {
+				{ ItemCount = 80, Name = "Adramal Alloy" },
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 1, Name = "Damaged Necramech Weapon Barrel" },
+				{ ItemCount = 20, Name = "Fersteel Alloy" },
+				{ ItemCount = 20, Name = "Spinal Core Section" } 
+			},
+			ConsumeOnBuild = true,
+			Description = "A Necramech weapon-crafting component.",
+			Image = "CortegeBarrel.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/ThanotechArchGunBarrelItem",
+			Introduced = "29",
+			Link = "Cortege Barrel",
+			Name = "Cortege Barrel",
+			Rush = 5,
+			Type = "Resource" 
+		},
+		["Cortege Receiver"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 1,
+			BuildTime = 60,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 1, Name = "Damaged Necramech Weapon Receiver" },
+				{ ItemCount = 80, Name = "Devolved Namalon" },
+				{ ItemCount = 15, Name = "Tink Dissipator Coil" },
+				{ ItemCount = 10, Name = "Trapezium Xenorhast" } 
+			},
+			ConsumeOnBuild = true,
+			Description = "A Necramech weapon-crafting component.",
+			Image = "CortegeReceiver.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/ThanotechArchGunReceiverItem",
+			Introduced = "29",
+			Link = "Cortege Receiver",
+			Name = "Cortege Receiver",
+			Rush = 5,
+			Type = "Resource" 
+		},
+		["Cortege Stock"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 1,
+			BuildTime = 60,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 10, Name = "Cabochon Embolos" },
+				{ ItemCount = 1, Name = "Damaged Necramech Weapon Stock" },
+				{ ItemCount = 250, Name = "Hexenon" },
+				{ ItemCount = 80, Name = "Tempered Bapholite" } 
+			},
+			ConsumeOnBuild = true,
+			Description = "A Necramech weapon-crafting component.",
+			Image = "CortegeStock.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/ThanotechArchGunStockItem",
+			Introduced = "29",
+			Link = "Cortege Stock",
+			Name = "Cortege Stock",
+			Rush = 5,
+			Type = "Resource" 
+		},
+		["Cranial Foremount"] = {
+			Description = "Beneath the membranous protein layers can be found a secondary 'skull'; flexible, tough and highly conductive. Source: MYXOSTOMATA",
+			Image = "CranialForemount.png",
+			InternalName = "/Lotus/Types/Items/Fish/Deimos/Fish Parts/DeimosOrokinFishCPartItem",
+			Introduced = "29",
+			Link = "Cranial Foremount",
+			Name = "Cranial Foremount",
+			Type = "Fish Part" 
+		},
+		["Crawler Blue"] = {
+			Description = "Crawler Blue pigments drop from the following enemies:\
+Crawler",
+			Image = "Crawler Blue.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Crawler Blue",
+			Type = "Pigment" 
+		},
+		["Crewmen's Boot"] = {
+			Description = "While the Vallis coolant has kept this finely engineered Corpus tactical boot remarkably well preserved, it is nonetheless, entirely worthless.",
+			Image = "CrewmensBoot.png",
+			InternalName = "",
+			Introduced = "24",
+			Link = "Crewmen's Boot",
+			Name = "Crewmen's Boot",
+			Type = "Fish Part" 
+		},
+		Crimzian = {
+			Description = "A blood-red gem. Location: Plains of Eidolon",
+			Image = "Crimzian.png",
+			InternalName = "/Lotus/Types/Items/Gems/Eidolon/RareGemAItem",
+			Introduced = "22",
+			ItemCount = 6,
+			Link = "Crimzian",
+			Name = "Crimzian",
+			Parents = { "Star Crimzian" },
+			Type = "Gem" 
+		},
+		["Crisma Toroid"] = {
+			Description = "A device of undetermined function and origin. Prized by Vox Solaris and the Quills. Earn Crisma Toroids by defeating the Profit-Taker Orb.",
+			Image = "CrismaToroid.png",
+			InternalName = "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidCamperItem",
+			Introduced = "24.2",
+			Link = "Crisma Toroid",
+			Name = "Crisma Toroid",
+			Type = "Resource" 
+		},
+		Cryotic = {
+			Description = "Usually found in extreme sub-zero environments, Cryotic instantly freezes anything it contacts. Locations: Excavation Missions on Venus, Earth, Phobos, Europa, and Neptune.",
+			HelminthCategory = "Bile",
+			HelminthCost = 3000,
+			Image = "Cryotic.png",
+			InternalName = "/Lotus/Types/Items/MiscItems/Cryotic",
+			Introduced = "14.5",
+			Link = "Cryotic",
+			Name = "Cryotic",
+			Type = "Resource" 
+		},
+		["Cryptographic ALU"] = {
+			Description = "Excess circuitry disposed of during the Razorback manufacturing process, these components only appear in the vicinity of high level outer-orbit Corpus facilities after a Razorback Armada has been launched.",
+			HelminthCategory = "Synthetics",
+			HelminthCost = 30,
+			Image = "CryptographicALU.png",
+			InternalName = "",
+			Introduced = "18.4.10",
+			Link = "Cryptographic ALU",
+			Name = "Cryptographic ALU",
+			Type = "Event" 
+		},
+		["Cubic Diodes"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 1,
+			BuildTime = 120,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 5500, Name = "Circuits" },
+				{ ItemCount = 8500, Name = "Ferrite" },
+				{ ItemCount = 9500, Name = "Salvage" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "Vital components used in the creation of Corpus photon-networks. Location: Europa",
+			HelminthCategory = "Calx",
+			HelminthCost = 7000,
+			Image = "CubicDiodes.png",
+			InternalName = "/Lotus/Types/Items/RailjackMiscItems/CubicsRailjackItem",
+			Introduced = "26.1",
+			Link = "Cubic Diodes",
+			Name = "Cubic Diodes",
+			Rush = 5,
+			Type = "Resource" 
+		},
+		["Cuthol Tendrils"] = {
+			Description = "Ostrons extract the toxin and apply it to their weapons when hunting animals.",
+			Image = "CutholTendrils.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Cuthol Tendrils",
+			Name = "Cuthol Tendrils",
+			Type = "Fish Part" 
+		},
+		Dagonic = {
+			Description = "Rivulets of Exocrine fluid, hardened over passing centuries.",
+			Image = "Dagonic.png",
+			InternalName = "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemBItem",
+			Introduced = "29",
+			ItemCount = 10,
+			Link = "Dagonic",
+			Name = "Dagonic",
+			Parents = { "Purged Dagonic" },
+			Type = "Gem" 
+		},
+		["Damaged Necramech Casing"] = {
+			Description = "The damaged remains of a Necramech supporting frame.",
+			Image = "DamagedNecramechCasing.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/DamagedMechPartChassisItem",
+			Introduced = "29",
+			Link = "Damaged Necramech Casing",
+			Name = "Damaged Necramech Casing",
+			SellPrice = 20000,
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Damaged Necramech Engine"] = {
+			Description = "An engine designed for use in a Necramech. Unfortunately, it’s damaged.",
+			Image = "DamagedNecramechEngine.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/DamagedMechPartEngineItem",
+			Introduced = "29",
+			Link = "Damaged Necramech Engine",
+			Name = "Damaged Necramech Engine",
+			SellPrice = 20000,
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Damaged Necramech Pod"] = {
+			Description = "A modular component for a Necramech. It’s damaged and in need of repair.",
+			Image = "DamagedNecramechPod.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/DamagedMechPartSystemsItem",
+			Introduced = "29",
+			ItemCount = 1,
+			Link = "Damaged Necramech Pod",
+			Name = "Damaged Necramech Pod",
+			Parents = {
+				"Loid Sentinel Mask",
+				"Loid Sentinel Skin",
+				"Loid Sentinel Tail",
+				"Loid Sentinel Wing" 
+			},
+			SellPrice = 20000,
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Damaged Necramech Weapon Barrel"] = {
+			Description = "The damaged barrel of a heavy-duty Necramech weapon.",
+			Image = "DamagedNecramechWeaponBarrel.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/DamagedMechWeaponBarrelItem",
+			Introduced = "29",
+			Link = "Damaged Necramech Weapon Barrel",
+			Name = "Damaged Necramech Weapon Barrel",
+			SellPrice = 10000,
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Damaged Necramech Weapon Pod"] = {
+			Description = "A broken weapon system intended for a Necramech.",
+			Image = "DamagedNecramechWeaponPod.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/DamagedMechPartWeaponPodItem",
+			Introduced = "29",
+			Link = "Damaged Necramech Weapon Pod",
+			Name = "Damaged Necramech Weapon Pod",
+			SellPrice = 20000,
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Damaged Necramech Weapon Receiver"] = {
+			Description = "A broken frame that can be used in the construction of a Necramech weapon.",
+			Image = "DamagedNecramechWeaponReceiver.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/DamagedMechWeaponReceiverItem",
+			Introduced = "29",
+			Link = "Damaged Necramech Weapon Receiver",
+			Name = "Damaged Necramech Weapon Receiver",
+			SellPrice = 10000,
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Damaged Necramech Weapon Stock"] = {
+			Description = "The fractured back portion of a large Necramech weapon.",
+			Image = "DamagedNecramechWeaponStock.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/DamagedMechWeaponStockItem",
+			Introduced = "29",
+			Link = "Damaged Necramech Weapon Stock",
+			Name = "Damaged Necramech Weapon Stock",
+			SellPrice = 10000,
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Daughter Token"] = {
+			Description = "A token of Daughter's gratitude.",
+			Image = "DaughterToken.png",
+			InternalName = "/Lotus/Types/Items/Deimos/EntratiFragmentCommonC",
+			Introduced = "29",
+			Link = "Daughter Token",
+			Name = "Daughter Token",
+			Type = "Resource" 
+		},
+		["Delta Beacon"] = {
+			Description = "Locator beacon broadcasting on the delta frequency.",
+			Image = "NavCodeVayHekA.png",
+			InternalName = "",
+			Introduced = "13",
+			Link = "Delta Beacon",
+			Name = "Delta Beacon",
+			SellPrice = 750,
+			Tradable = true,
+			Type = "Event" 
+		},
+		["Dendrite Blastoma"] = {
+			Description = "Elements of other lifeforms are detectable in Infested body parts, such as this apparently parasitic clump of land-dwelling animal tissue.",
+			Image = "DendriteBlastoma.png",
+			InternalName = "",
+			Introduced = "29",
+			Link = "Dendrite Blastoma",
+			Name = "Dendrite Blastoma",
+			Type = "Fish Part" 
+		},
+		["Detonite Ampule"] = {
+			Description = "Researching the Detonite traces within could advance our weapon technology. Locations: Venus, Earth, Lua, Ceres, Saturn, Sedna, and the Kuva Fortress.",
+			HelminthCategory = "Synthetics",
+			HelminthCost = 125,
+			Image = "DetoniteAmpule.png",
+			InternalName = "/Lotus/Types/Items/Research/ChemFragment",
+			Introduced = "8",
+			ItemCount = 10,
+			Link = "Detonite Ampule",
+			Name = "Detonite Ampule",
+			Parents = { "Detonite Injector", "Gallos Rods", "Komms" },
+			Rarity = "Uncommon",
+			Type = "Research" 
+		},
+		["Detonite Injector"] = {
+			BuildPrice = 15000,
+			BuildQuantity = 1,
+			BuildTime = 43200,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 1, Name = "Control Module" },
+				{ ItemCount = 10, Name = "Detonite Ampule" },
+				{ ItemCount = 250, Name = "Plastids" },
+				{ ItemCount = 500, Name = "Salvage" } 
+			},
+			ConsumeOnBuild = true,
+			Description = "Detonite injectors are the basis for explosive and incendiary weapons. Can be acquired from Grineer Offensives & Clan Research.",
+			Image = "Detonite Injector.png",
+			InternalName = "/Lotus/Types/Items/Research/ChemComponent",
+			Introduced = "8",
+			Link = "Detonite Injector",
+			Name = "Detonite Injector",
+			Rush = 5,
+			Type = "Resource" 
+		},
+		Devar = {
+			Description = "A cloudy crystal. Location: Plains of Eidolon",
+			Image = "Devar.png",
+			InternalName = "/Lotus/Types/Items/Gems/Eidolon/CommonGemBItem",
+			Introduced = "22",
+			ItemCount = 10,
+			Link = "Devar",
+			Name = "Devar",
+			Parents = { "Esher Devar" },
+			Type = "Gem" 
+		},
+		["Devar Grey"] = {
+			Description = "Devar Grey pigments drop from the following enemies:\
+Tusk Mortar Bombard",
+			Image = "Devar Grey.png",
+			InternalName = "",
+			Introduced = "22.20",
+			Link = "Pigment",
+			Name = "Devar Grey",
+			Type = "Pigment" 
+		},
+		["Devolved Namalon"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 20,
+			BuildTime = 60,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 20, Name = "Ferros" },
+				{ ItemCount = 15, Name = "Lucent Teroglobe" },
+				{ ItemCount = 20, Name = "Namalon" },
+				{ ItemCount = 160, Name = "Rubedo" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "Retrieved from its Infested state, restored to worth and utility.",
+			Image = "DevolvedNamalon.png",
+			InternalName = "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonOreAAlloyItem",
+			Introduced = "29",
+			ItemCount = 80,
+			Link = "Devolved Namalon",
+			Name = "Devolved Namalon",
+			Parents = { "Bonewidow Weapon Pod", "Cortege Receiver", "Morgha Receiver" },
+			Rush = 5,
+			Type = "Gem" 
+		},
+		["Diluted Thermia"] = {
+			Description = "A magma like liquid that is diluted with coolant during the extraction process. Thermia can be found fracturing the surface of the Orb Vallis during thermal flare-ups. Could this be the key to weakening the Exploiter Orb's defenses?",
+			HelminthCategory = "Bile",
+			HelminthCost = 5,
+			Image = "Diluted thermia.png",
+			InternalName = "",
+			Introduced = "24.4",
+			Link = "Diluted Thermia",
+			Name = "Diluted Thermia",
+			Type = "Event" 
+		},
+		Drakgoon = {
+			Image = "GrineerFlakCannon.png",
+			InternalName = "/Lotus/Weapons/Grineer/LongGuns/GrineerFlakCannon/FlakCannon",
+			Introduced = "11.6",
+			Link = "Drakgoon",
+			Name = "Drakgoon",
+			Type = "Weapon" 
+		},
+		["Dual Cleavers"] = {
+			Image = "Dual Cleavers.png",
+			InternalName = "/Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/DualCleaverWeapon",
+			Introduced = "8.0",
+			Link = "Dual Cleavers",
+			Name = "Dual Cleavers",
+			Type = "Weapon" 
+		},
+		["Dual Kamas"] = {
+			Image = "DEDualKamas.png",
+			InternalName = "/Lotus/Weapons/Tenno/Melee/DualKamas/DualKamas",
+			Introduced = "11.1",
+			Link = "Dual Kamas",
+			Name = "Dual Kamas",
+			Type = "Weapon" 
+		},
+		["Dual Skana"] = {
+			Image = "DualSkana.png",
+			InternalName = "/Lotus/Weapons/Tenno/Melee/DualShortSword/DualShortSword",
+			Introduced = "Vanilla",
+			Link = "Dual Skana",
+			Name = "Dual Skana",
+			Type = "Weapon" 
+		},
+		["Dual Zoren"] = {
+			Image = "DualZoren.png",
+			InternalName = "/Lotus/Weapons/Tenno/Melee/Axe/DualAxeWeapon",
+			Introduced = "6.0",
+			Link = "Dual Zoren",
+			Name = "Dual Zoren",
+			Type = "Weapon" 
+		},
+		Ducats = {
+			Description = "Currency exchanged for Prime components and used to purchase items from the Void Trader.",
+			Image = "PrimeBucks.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Ducats",
+			Name = "Orokin Ducats",
+			Type = "Resource" 
+		},
+		["Dusklight Sarracenia"] = {
+			Description = "This robust, carnivorous plant has adapted to conditions in polluted waters. Location: Grineer Shipyard - Ceres",
+			HelminthCategory = "Biotics",
+			HelminthCost = 8,
+			Image = "CobraLotus.png",
+			InternalName = "/Lotus/Types/Items/Plants/MiscItems/ZenCobraLotusPlantItem",
+			Introduced = "Update: The Silver Grove",
+			ItemCount = 2,
+			Link = "Dusklight Sarracenia",
+			Name = "Dusklight Sarracenia",
+			Parents = { "Nightfall Apothic" },
+			Type = "Plant" 
+		},
+		["Dust Brown"] = {
+			Description = "Dust Brown pigments drop from the following enemies:\
+Corrupted Lancer",
+			Image = "Dust Brown.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Dust Brown",
+			Type = "Pigment" 
+		},
+		["Echowinder Anoscopic Sensor"] = {
+			Description = "A small camera that records visual data with extremely high definition.",
+			Image = "AnoscopicSensor.png",
+			InternalName = "",
+			Introduced = "24",
+			Link = "Echowinder Anoscopic Sensor",
+			Name = "Echowinder Anoscopic Sensor",
+			Type = "Fish Part" 
+		},
+		["Eidolon Lens"] = {
+			Description = "An enhanced Greater Lens that has been infused with Breath of the Eidolon.",
+			Image = "FocusLens3Rank sq.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Eidolon Lens",
+			Name = "Eidolon Lens",
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Eidolon Madurai Lens"] = {
+			Description = "Converts 2.25% of excess Affinity into Focus for the Madurai Way.",
+			Image = "FocusLens3Rank sq.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Eidolon Lens",
+			Name = "Eidolon Madurai Lens",
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Eidolon Naramon Lens"] = {
+			Description = "Converts 2.25% of excess Affinity into Focus for the Naramon Way.",
+			Image = "FocusLens3Rank sq.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Eidolon Lens",
+			Name = "Eidolon Naramon Lens",
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Eidolon Shard"] = {
+			Description = "Shard gained from the Sentients roaming the Plains of Eidolon.",
+			Image = "SentientShardCommon.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Eidolon Shard",
+			Name = "Eidolon Shard",
+			Type = "Resource" 
+		},
+		["Eidolon Unairu Lens"] = {
+			Description = "Converts 2.25% of excess Affinity into Focus for the Unairu Way.",
+			Image = "FocusLens3Rank sq.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Eidolon Lens",
+			Name = "Eidolon Unairu Lens",
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Eidolon Vazarin Lens"] = {
+			Description = "Converts 2.25% of excess Affinity into Focus for the Vazarin Way.",
+			Image = "FocusLens3Rank sq.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Eidolon Lens",
+			Name = "Eidolon Vazarin Lens",
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Eidolon Zenurik Lens"] = {
+			Description = "Converts 2.25% of excess Affinity into Focus for the Zenurik Way.",
+			Image = "FocusLens3Rank sq.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Eidolon Lens",
+			Name = "Eidolon Zenurik Lens",
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Elysium Blue"] = {
+			Description = "Elysium Blue pigments drop from the following enemies:\
+The Sergeant",
+			Image = "Elysium Blue.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Elysium Blue",
+			Type = "Pigment" 
+		},
+		Embolos = {
+			Description = "This rare gem forms in a clotted mass within the Infestation.",
+			Image = "Embolos.png",
+			InternalName = "/Lotus/Types/Items/Gems/Deimos/DeimosEidolonGemBItem",
+			Introduced = "29",
+			ItemCount = 3,
+			Link = "Embolos",
+			Name = "Embolos",
+			Parents = { "Cabochon Embolos" },
+			Type = "Gem" 
+		},
+		["Encrypted Journal Fragment"] = {
+			Description = "",
+			Image = "EncryptedJournalFragment.png",
+			InternalName = "",
+			Introduced = "22.8",
+			Link = "Encrypted Journal Fragment",
+			Name = "Encrypted Journal Fragment",
+			Type = "Event" 
+		},
+		Entratifragmentbase = {
+			Description = "",
+			Image = "Entratifragmentbase.png",
+			InternalName = "/Lotus/Types/Items/Deimos/EntratiFragmentBase",
+			Link = "Entratifragmentbase",
+			Name = "Entratifragmentbase",
+			Type = "Resource" 
+		},
+		["Esher Devar"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 10,
+			BuildTime = 60,
+			Components = { { ItemCount = 1, Name = "Blueprint" }, { ItemCount = 10, Name = "Devar" } },
+			ConsumeOnBuild = false,
+			Description = "Polished and cut to perfection. Location: Old Man Suumbaat in Cetus",
+			Image = "EsherDevar.png",
+			InternalName = "/Lotus/Types/Items/Gems/Eidolon/CommonGemBCutAItem",
+			Introduced = "22",
+			ItemCount = 1,
+			Link = "Esher Devar",
+			Name = "Esher Devar",
+			Parents = { "Focused Nosam Cutter" },
+			Rush = 5,
+			Tradable = true,
+			Type = "Gem" 
+		},
+		["Exceptional Sentient Core"] = {
+			BuildPrice = 5000,
+			BuildQuantity = 2,
+			BuildTime = 600,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 1, Name = "Heart Nyth" },
+				{ ItemCount = 2, Name = "Intact Sentient Core" },
+				{ ItemCount = 1, Name = "Radian Sentirum" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "An integral part of Vomvalysts and Teralysts, the exact function of this... device? Organ? is uncertain.",
+			HelminthCategory = "Sentient Appetite",
+			HelminthCost = 10,
+			Image = "QuillsUncommonPickup.png",
+			InternalName = "/Lotus/Types/Gameplay/Eidolon/Resources/QuillsUncommonDogTag",
+			Introduced = "22",
+			Link = "Sentient Core",
+			Name = "Exceptional Sentient Core",
+			Rush = 10,
+			Type = "Resource" 
+		},
+		["Exemplar Granum Crown"] = {
+			Description = "An ancient token of high esteem from the Corpus Founder himself.",
+			Image = "ExemplarGranumCrown.png",
+			InternalName = "/Lotus/Types/Items/Tokens/GreedTokens/GreedTokenGold",
+			Introduced = "28",
+			Link = "Exemplar Granum Crown",
+			Name = "Exemplar Granum Crown",
+			Type = "Resource" 
+		},
+		["Eye-Eye Rotoblade"] = {
+			Description = "A machine element used to propel robotic organisms through coolant.",
+			Image = "Rotoblade.png",
+			InternalName = "",
+			Introduced = "24",
+			Link = "Eye-Eye Rotoblade",
+			Name = "Eye-Eye Rotoblade",
+			Type = "Fish Part" 
+		},
+		["Faceted Tiametrite"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 10,
+			BuildTime = 60,
+			Components = { { ItemCount = 1, Name = "Blueprint" }, { ItemCount = 10, Name = "Tiametrite" } },
+			ConsumeOnBuild = false,
+			Description = "Refined purity freed from the Infested mass.",
+			Image = "FacetedTiametrite.png",
+			InternalName = "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemACutItem",
+			Introduced = "29",
+			ItemCount = 1,
+			Link = "Faceted Tiametrite",
+			Name = "Faceted Tiametrite",
+			Parents = { "Xaku Kintsu Helmet" },
+			Rush = 5,
+			Tradable = true,
+			Type = "Gem" 
+		},
+		["Familial Debt-Bond"] = {
+			Description = "Debts unpaid by one generation are passed to the next. Working to pay them off is seen as something to be proud of. What choice do they have?",
+			Image = "FamilialDebtBond64.png",
+			InternalName = "/Lotus/Types/Items/Solaris/DebtTokenE",
+			Introduced = "24",
+			Link = "Familial Debt-Bond",
+			Name = "Familial Debt-Bond",
+			Type = "Resource" 
+		},
+		["Fass Residue"] = {
+			Description = "A chunk of the wyrm Fass, collected after his explosive death. Used to attract Glutinox, Ostimyr, and Vitreospina.",
+			Image = "FassResidue.png",
+			InternalName = "",
+			Introduced = "29",
+			Link = "Fass Residue",
+			Name = "Fass Residue",
+			Type = "Resource" 
+		},
+		["Father Token"] = {
+			Description = "A symbol of Father's trust and confidence.",
+			Image = "FatherToken.png",
+			InternalName = "/Lotus/Types/Items/Deimos/EntratiFragmentUncommonA",
+			Introduced = "29",
+			Link = "Father Token",
+			Name = "Father Token",
+			Type = "Resource" 
+		},
+		["Ferment Bladder"] = {
+			Description = "Many Deimos fish secrete reagents in a pouchlike organ, creating volatile gases that enable limited periods of levitation.",
+			Image = "FermentBladder.png",
+			InternalName = "",
+			Introduced = "29",
+			Link = "Ferment Bladder",
+			Name = "Ferment Bladder",
+			Type = "Fish Part" 
+		},
+		Ferrite = {
+			ContainerImage = "FerriteContainer.png",
+			Description = "Alloy pellets used in Grineer manufacturing. Locations: Mercury, Earth, Lua, Neptune, and the Void.",
+			HelminthCategory = "Oxides",
+			HelminthCost = 20000,
+			Image = "Ferrite.png",
+			InternalName = "/Lotus/Types/Items/MiscItems/Ferrite",
+			Introduced = "Vanilla",
+			Link = "Ferrite",
+			Name = "Ferrite",
+			Rarity = "Common",
+			Type = "Resource" 
+		},
+		Ferros = {
+			Description = "A resilient metal that is hardened by impurities within. Location: Plains of Eidolon",
+			Image = "Ferros.png",
+			InternalName = "/Lotus/Types/Items/Gems/Eidolon/UncommonOreAItem",
+			Introduced = "22",
+			ItemCount = 20,
+			Link = "Ferros",
+			Name = "Ferros",
+			Parents = { "Devolved Namalon", "Fersteel Alloy" },
+			Type = "Gem" 
+		},
+		["Fersteel Alloy"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 20,
+			BuildTime = 60,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 20, Name = "Ferros" },
+				{ ItemCount = 400, Name = "Plastids" },
+				{ ItemCount = 200, Name = "Rubedo" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "Ferros that has been forged into a stronger metal. Location: Old Man Suumbaat in Cetus",
+			Image = "FersteelAlloy.png",
+			InternalName = "/Lotus/Types/Items/Gems/Eidolon/UncommonOreAAlloyAItem",
+			Introduced = "22",
+			ItemCount = 20,
+			Link = "Fersteel Alloy",
+			Name = "Fersteel Alloy",
+			Parents = {
+				"Advanced Nosam Cutter",
+				"Ceno Apparel",
+				"Ceno Cuirass",
+				"Cortege Barrel",
+				"Morgha Barrel",
+				"Peram Fishing Spear",
+				"Vahd Apparel",
+				"Vahd Cuirass",
+				"Zauba Apparel",
+				"Zauba Cuirass" 
+			},
+			Rush = 5,
+			Type = "Gem" 
+		},
+		Fieldron = {
+			BuildPrice = 15000,
+			BuildQuantity = 1,
+			BuildTime = 43200,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 1, Name = "Control Module" },
+				{ ItemCount = 10, Name = "Fieldron Sample" },
+				{ ItemCount = 250, Name = "Plastids" },
+				{ ItemCount = 500, Name = "Salvage" } 
+			},
+			ConsumeOnBuild = true,
+			Description = "ClanTech weaponized containment field to contain superheated substances. Can be acquired from Corpus Sieges & Clan Research.",
+			Image = "Fieldron.png",
+			InternalName = "/Lotus/Types/Items/Research/EnergyComponent",
+			Introduced = "8",
+			ItemCount = 2,
+			Link = "Fieldron",
+			Name = "Fieldron",
+			Parents = { "Antiserum Injector" },
+			Rush = 5,
+			Type = "Resource" 
+		},
+		["Fieldron Sample"] = {
+			Description = "This destroyed Fieldron could further research into super-heated containment fields. Locations: Venus, Mars, Jupiter, Europa, Neptune, and Pluto.",
+			HelminthCategory = "Synthetics",
+			HelminthCost = 125,
+			Image = "FieldronSample.png",
+			InternalName = "/Lotus/Types/Items/Research/EnergyFragment",
+			Introduced = "8",
+			ItemCount = 10,
+			Link = "Fieldron Sample",
+			Name = "Fieldron Sample",
+			Parents = { "Aucrux Capacitors", "Fieldron", "Isos" },
+			Rarity = "Uncommon",
+			Type = "Research" 
+		},
+		["Fish Meat"] = {
+			Description = "Used as a source of food and to create bait for predatory fish.",
+			Image = "IconFishMeat.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Fish Meat",
+			Name = "Fish Meat",
+			SellPrice = 100,
+			Type = "Fish Part" 
+		},
+		["Fish Oil"] = {
+			Description = "Used to create absolvents that purify gems.",
+			Image = "IconFishOil.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Fish Oil",
+			Name = "Fish Oil",
+			SellPrice = 100,
+			Type = "Fish Part" 
+		},
+		["Fish Scales"] = {
+			Description = "A material used in tailoring clothes and cultivating synthetics.",
+			Image = "IconFishScales.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Fish Scales",
+			Name = "Fish Scales",
+			SellPrice = 100,
+			Type = "Fish Part" 
+		},
+		["Flawless Sentient Core"] = {
+			Description = "An integral part of Vomvalysts and Teralysts, the exact function of this... device? Organ? is uncertain.",
+			HelminthCategory = "Sentient Appetite",
+			HelminthCost = 5,
+			Image = "QuillsRarePickup.png",
+			InternalName = "/Lotus/Types/Gameplay/Eidolon/Resources/QuillsRareDogTag",
+			Introduced = "22",
+			Link = "Sentient Core",
+			Name = "Flawless Sentient Core",
+			Type = "Resource" 
+		},
+		Forma = {
+			Description = "This shape-altering component is fundamental to Orokin construction. Allows you to change the polarity of a mod slot on a Warframes, Companions or Weapons and then resets their affinity to Unranked. This can only be used on max Rank Warframes, Companions and Weapons.",
+			Image = "Forma2.png",
+			InternalName = "",
+			Introduced = "8",
+			Link = "Forma",
+			Name = "Forma",
+			Type = "Resource" 
+		},
+		Fresnels = {
+			BuildPrice = 1000,
+			BuildQuantity = 1,
+			BuildTime = 120,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 200, Name = "Cryotic" },
+				{ ItemCount = 40, Name = "Morphics" },
+				{ ItemCount = 50, Name = "Orokin Cell" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "A rare Orokin material used to create a tear in space and allow safe passage through the Void.",
+			Image = "Fresnels.png",
+			InternalName = "/Lotus/Types/Items/RailjackMiscItems/FresnelsRailjackItem",
+			Introduced = "27",
+			Link = "Fresnels",
+			Name = "Fresnels",
+			Rush = 5,
+			Type = "Resource" 
+		},
+		Frostcap = {
+			Description = "Engineered by the Orokin to convert airborne chemicals into breathable air.",
+			Image = "Frostcap.png",
+			InternalName = "/Lotus/Types/Gameplay/Venus/Resources/VenusMushroomItem",
+			Link = "Frostcap",
+			Name = "Frostcap",
+			Type = "Resource" 
+		},
+		Frostleaf = {
+			Description = "This resilient plant provides a natural food source in frigid areas of the Origin system.",
+			HelminthCategory = "Biotics",
+			HelminthCost = 8,
+			Image = "WildGingerB.png",
+			InternalName = "/Lotus/Types/Items/Plants/MiscItems/WildGingerBPlantItem",
+			Introduced = "Update: The Silver Grove",
+			ItemCount = 8,
+			Link = "Frostleaf",
+			Name = "Frostleaf",
+			Parents = { "Sunrise Apothic" },
+			Type = "Plant" 
+		},
+		Furax = {
+			Image = "Furax.png",
+			InternalName = "/Lotus/Weapons/Tenno/Melee/Fist/Fist",
+			Introduced = "Vanilla",
+			Link = "Furax",
+			Name = "Furax",
+			Type = "Weapon" 
+		},
+		Furis = {
+			Image = "Furis.png",
+			InternalName = "/Lotus/Weapons/Tenno/Pistol/AutoPistol",
+			Introduced = "Vanilla",
+			Link = "Furis",
+			Name = "Furis",
+			Type = "Weapon" 
+		},
+		Galatine = {
+			Image = "Galatine_o.png",
+			InternalName = "/Lotus/Weapons/Tenno/Melee/Swords/GreatSword/TennoGreatSword",
+			Introduced = "10.2",
+			Link = "Galatine",
+			Name = "Galatine",
+			Type = "Weapon" 
+		},
+		Gallium = {
+			ContainerImage = "GalliumContainer.png",
+			Description = "Soft metal used in microelectronics and energy weapons. Locations: Mars and Uranus.",
+			HelminthCategory = "Oxides",
+			HelminthCost = 25,
+			Image = "Gallium.png",
+			InternalName = "/Lotus/Types/Items/MiscItems/Gallium",
+			Introduced = "Vanilla",
+			Link = "Gallium",
+			Name = "Gallium",
+			Rarity = "Rare",
+			Type = "Resource" 
+		},
+		["Gallos Rods"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 1,
+			BuildTime = 120,
+			Components = {
+				{ ItemCount = 18500, Name = "Alloy Plate" },
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 750, Name = "Detonite Ampule" },
+				{ ItemCount = 1500, Name = "Polymer Bundle" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "Antimatter fuel cell that powers the Grineer Ships.",
+			HelminthCategory = "Calx",
+			HelminthCost = 175,
+			Image = "GallosRods.png",
+			InternalName = "/Lotus/Types/Items/RailjackMiscItems/GallosRailjackItem",
+			Introduced = "27",
+			Link = "Gallos Rods",
+			Name = "Gallos Rods",
+			Rush = 5,
+			Type = "Resource" 
+		},
+		["Gamma Beacon"] = {
+			Description = "Locator beacon broadcasting on the gamma frequency.",
+			Image = "NavCodeVayHekB.png",
+			InternalName = "",
+			Introduced = "13",
+			Link = "Gamma Beacon",
+			Name = "Gamma Beacon",
+			SellPrice = 750,
+			Tradable = true,
+			Type = "Event" 
+		},
+		Gammacor = {
+			Image = "Gammacor.png",
+			InternalName = "/Lotus/Weapons/Syndicates/CephalonSuda/Pistols/CSDroidArray",
+			Introduced = "15.5",
+			Link = "Gammacor",
+			Name = "Gammacor",
+			Type = "Weapon" 
+		},
+		Ganglion = {
+			ContainerImage = "HapticFrond.png",
+			Description = "A fallen clump of entangled nerve fibers, redundant organs, and thin sensory membranes.",
+			HelminthCategory = "Biotics",
+			HelminthCost = 50,
+			Image = "Ganglion.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfMapricoFruitItem",
+			Introduced = "29",
+			Link = "Ganglion",
+			Name = "Ganglion",
+			Type = "Resource" 
+		},
+		Genericdojocolorpigment = {
+			Description = "",
+			Image = "Genericdojocolorpigment.png",
+			InternalName = "/Lotus/Types/Items/Research/DojoColors/GenericDojoColorPigment",
+			Link = "Genericdojocolorpigment",
+			Name = "Genericdojocolorpigment",
+			Type = "Resource" 
+		},
+		["Ghost Brush Extract"] = {
+			Description = "Extracted from a Ghost Brush.",
+			Image = "GhostBrushExtract.png",
+			InternalName = "/Lotus/Types/Items/Plants/MiscItems/OroPorcelainBushAPlantItem",
+			Link = "Ghost Brush Extract",
+			Name = "Ghost Brush Extract",
+			Type = "Plant" 
+		},
+		["Glacial Blue"] = {
+			Description = "Glacial Blue pigments drop from the following enemies:\
+Crewman",
+			Image = "Glacial Blue.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Glacial Blue",
+			Type = "Pigment" 
+		},
+		Goblite = {
+			Description = "A strange crystal that grows inside the veins of extracted ore.",
+			Image = "Goblite.png",
+			InternalName = "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonGemAItem",
+			Introduced = "24",
+			ItemCount = 10,
+			Link = "Goblite",
+			Name = "Goblite",
+			Parents = { "Goblite Tears" },
+			Type = "Gem" 
+		},
+		["Goblite Tears"] = {
+			BuildPrice = 2500,
+			BuildQuantity = 10,
+			BuildTime = 60,
+			Components = { { ItemCount = 1, Name = "Blueprint" }, { ItemCount = 10, Name = "Goblite" } },
+			ConsumeOnBuild = false,
+			Description = "Polished and cut to perfection.",
+			Image = "GobliteTears.png",
+			InternalName = "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonGemACutItem",
+			Introduced = "24",
+			ItemCount = 15,
+			Link = "Goblite Tears",
+			Name = "Goblite Tears",
+			Parents = { "Bonewidow Casing" },
+			Rush = 5,
+			Tradable = true,
+			Type = "Gem" 
+		},
+		["Goopolla Spleen"] = {
+			Description = "Used in Ostron remedies to purify toxins.",
+			Image = "GoopollaSpleen.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Goopolla Spleen",
+			Name = "Goopolla Spleen",
+			Type = "Fish Part" 
+		},
+		["Gorgaricus Spore"] = {
+			ContainerImage = "GorgaricusSac.png",
+			Description = "The reproductive spore of the giant Vallis fungi is highly coveted for the complex chemical compounds it contains.",
+			HelminthCategory = "Biotics",
+			HelminthCost = 25,
+			Image = "GorgaricusSpore.png",
+			InternalName = "/Lotus/Types/Gameplay/Venus/Resources/VenusCoconutItem",
+			Introduced = "24",
+			ItemCount = 20,
+			Link = "Gorgaricus Spore",
+			Name = "Gorgaricus Spore",
+			Parents = { "Pax Bolt" },
+			Type = "Resource" 
+		},
+		Grakata = {
+			Image = "GrineerAssaultRifle.png",
+			InternalName = "/Lotus/Weapons/Grineer/LongGuns/GrineerAssaultRifle/GrnAssaultRifle",
+			Introduced = "7.8",
+			Link = "Grakata",
+			Name = "Grakata",
+			Type = "Weapon" 
+		},
+		["Grandmother Token"] = {
+			Description = "A rare sign of Grandmother's favor.",
+			Image = "GrandmotherToken.png",
+			InternalName = "/Lotus/Types/Items/Deimos/EntratiFragmentRareA",
+			Introduced = "29",
+			Link = "Grandmother Token",
+			Name = "Grandmother Token",
+			Type = "Resource" 
+		},
+		["Granum Crown"] = {
+			Description = "An ancient token of esteem from the Corpus Founder himself.",
+			Image = "GranumCrown.png",
+			InternalName = "/Lotus/Types/Items/Tokens/GreedTokens/GreedTokenBlue",
+			Introduced = "28",
+			Link = "Granum Crown",
+			Name = "Granum Crown",
+			Type = "Resource" 
+		},
+		["Greater Focus Lens"] = {
+			Description = "A Greater Lens that channels Affinity into Focus for one of the five Tenno Ways.",
+			Image = "FocusLens2Rank sq.png",
+			InternalName = "",
+			Introduced = "18",
+			Link = "Greater Lens",
+			Name = "Greater Focus Lens",
+			Type = "Resource" 
+		},
+		["Greater Madurai Lens"] = {
+			Description = "Converts 1.75% of excess Affinity into Focus for the Madurai Way.",
+			Image = "FocusLens2Rank sq.png",
+			InternalName = "",
+			Introduced = "18",
+			Link = "Greater Lens",
+			Name = "Greater Madurai Lens",
+			Type = "Resource" 
+		},
+		["Greater Naramon Lens"] = {
+			Description = "Converts 1.75% of excess Affinity into Focus for the Naramon Way.",
+			Image = "FocusLens2Rank sq.png",
+			InternalName = "",
+			Introduced = "18",
+			Link = "Greater Lens",
+			Name = "Greater Naramon Lens",
+			Type = "Resource" 
+		},
+		["Greater Unairu Lens"] = {
+			Description = "Converts 1.75% of excess Affinity into Focus for the Unairu Way.",
+			Image = "FocusLens2Rank sq.png",
+			InternalName = "",
+			Introduced = "18",
+			Link = "Regular Lens",
+			Name = "Greater Unairu Lens",
+			Type = "Resource" 
+		},
+		["Greater Vazarin Lens"] = {
+			Description = "Converts 1.75% of excess Affinity into Focus for the Vazarin Way.",
+			Image = "FocusLens2Rank sq.png",
+			InternalName = "",
+			Introduced = "18",
+			Link = "Greater Lens",
+			Name = "Greater Vazarin Lens",
+			Type = "Resource" 
+		},
+		["Greater Zenurik Lens"] = {
+			Description = "Converts 1.75% of excess Affinity into Focus for the Zenurik Way.",
+			Image = "FocusLens2Rank sq.png",
+			InternalName = "",
+			Introduced = "18",
+			Link = "Greater Lens",
+			Name = "Greater Zenurik Lens",
+			Type = "Resource" 
+		},
+		Grokdrul = {
+			ContainerImage = "GrokdrulDrum.png",
+			Description = "A noxious mix of polysaccharides and long-chain polymers, Grokdrul is a standard chemical used in Grineer manufacturing. Location: Plains of Eidolon",
+			HelminthCategory = "Calx",
+			HelminthCost = 30,
+			Image = "Grokdrul.png",
+			InternalName = "/Lotus/Types/Gameplay/Eidolon/Resources/GrokdrulItem",
+			Introduced = "22",
+			ItemCount = 50,
+			Link = "Grokdrul",
+			Name = "Grokdrul",
+			Parents = {
+				"Archwing Launcher",
+				"Eidolon Phylaxis",
+				"Fosfor Blau",
+				"Lanzo Fishing Spear",
+				"Peram Fishing Spear",
+				"Shockprod Fishing Spear",
+				"Stunna Fishing Spear",
+				"Tulok Fishing Spear" 
+			},
+			Type = "Resource" 
+		},
+		["Gyromag Systems"] = {
+			Description = "A modular component that regulates latitude and altitude in various Corpus systems.",
+			Image = "Gyromag Systems.png",
+			InternalName = "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetAItem",
+			Introduced = "24.2",
+			Link = "Gyromag Systems",
+			Name = "Gyromag Systems",
+			Type = "Resource" 
+		},
+		["Heart Noctrul"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 10,
+			BuildTime = 60,
+			Components = { { ItemCount = 1, Name = "Blueprint" }, { ItemCount = 10, Name = "Noctrul" } },
+			ConsumeOnBuild = false,
+			Description = "Polished and cut to perfection.",
+			Image = "HeartNoctrul.png",
+			InternalName = "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemBCutItem",
+			Introduced = "24",
+			Link = "Heart Noctrul",
+			Name = "Heart Noctrul",
+			Rush = 5,
+			Tradable = true,
+			Type = "Gem" 
+		},
+		["Heart Nyth"] = {
+			BuildPrice = 10000,
+			BuildQuantity = 3,
+			BuildTime = 60,
+			Components = { { ItemCount = 1, Name = "Blueprint" }, { ItemCount = 3, Name = "Nyth" } },
+			ConsumeOnBuild = false,
+			Description = "Polished and cut to perfection. Location: Old Man Suumbaat in Cetus",
+			Image = "HeartNyth.png",
+			InternalName = "/Lotus/Types/Items/Gems/Eidolon/EidolonGemBCutAItem",
+			Introduced = "22",
+			ItemCount = 1,
+			Link = "Heart Nyth",
+			Name = "Heart Nyth",
+			Parents = {
+				"Exceptional Sentient Core",
+				"Vahd Apparel",
+				"Vahd Cuirass",
+				"Vahd Greaves",
+				"Vahd Mask",
+				"Vahd Pauldrons" 
+			},
+			Rush = 5,
+			Tradable = true,
+			Type = "Gem" 
+		},
+		Heciphron = {
+			Description = "Aggregates in the neo-lymph systems of Infested masses.",
+			Image = "Heciphron.png",
+			InternalName = "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonGemAItem",
+			Introduced = "29",
+			ItemCount = 10,
+			Link = "Heciphron",
+			Name = "Heciphron",
+			Parents = { "Purified Heciphron" },
+			Type = "Gem" 
+		},
+		["Hemocyte Cystolith"] = {
+			Description = "Torn from the bile duct of a fallen Hemocyte.",
+			Image = "LephantisShard.png",
+			InternalName = "",
+			Introduced = "22.3",
+			Link = "Hemocyte Cystolith",
+			Name = "Hemocyte Cystolith",
+			Type = "Event" 
+		},
+		["Hespazym Alloy"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 20,
+			BuildTime = 60,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 20, Name = "Hesperon" },
+				{ ItemCount = 2, Name = "Morphics" },
+				{ ItemCount = 300, Name = "Plastids" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "A compound formed from Hesperon.",
+			Image = "HespazymAlloy.png",
+			InternalName = "/Lotus/Types/Items/Gems/Solaris/SolarisRareOreAAlloyItem",
+			Introduced = "24",
+			ItemCount = 50,
+			Link = "Hespazym Alloy",
+			Name = "Hespazym Alloy",
+			Parents = {
+				"Haztech Greaves",
+				"Haztech Mask",
+				"Kubrodon Ventkid Greaves",
+				"Kubrodon Ventkid Mask",
+				"Outrider Greaves",
+				"Outrider Mask",
+				"Smelter Greaves",
+				"Smelter Mask",
+				"Vent Pobber Ventkid Greaves",
+				"Vent Pobber Ventkid Mask",
+				"Vent Rat Greaves",
+				"Vent Rat Mask" 
+			},
+			Rush = 5,
+			Type = "Gem" 
+		},
+		["Hesperia Brown"] = {
+			Description = "Hesperia Brown pigments drop from the following enemies:\
+Trooper",
+			Image = "Hesperia Brown.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Hesperia Brown",
+			Type = "Pigment" 
+		},
+		Hesperon = {
+			Description = "Clay that strengthens into extremely durable stone when brought to temperatures below zero.",
+			Image = "Hesperon.png",
+			InternalName = "/Lotus/Types/Items/Gems/Solaris/SolarisRareOreAItem",
+			Introduced = "24",
+			ItemCount = 20,
+			Link = "Hesperon",
+			Name = "Hesperon",
+			Parents = { "Hespazym Alloy" },
+			Type = "Gem" 
+		},
+		Hexenon = {
+			Description = "A reagent commonly used to produce highly combustible fuel.",
+			HelminthCategory = "Calx",
+			HelminthCost = 300,
+			Image = "Hexenon.png",
+			InternalName = "/Lotus/Types/Items/MiscItems/ConcentratedGas",
+			Introduced = "25",
+			Link = "Hexenon",
+			Name = "Hexenon",
+			Rarity = "Uncommon",
+			Type = "Resource" 
+		},
+		Hikou = {
+			Image = "Hikou.png",
+			InternalName = "/Lotus/Weapons/Tenno/ThrowingWeapons/TennoStars",
+			Introduced = "9.0",
+			Link = "Hikou",
+			Name = "Hikou",
+			Type = "Weapon" 
+		},
+		["Infected Palpators"] = {
+			Description = "A grizzly trophy extracted from the corpse of a Juggernaut.",
+			HelminthCategory = "Pheromones",
+			HelminthCost = 3,
+			Image = "JuggernautPalpators.png",
+			InternalName = "",
+			Introduced = "16.7",
+			Link = "Pherliac Pod",
+			Name = "Infected Palpators",
+			Type = "Resource" 
+		},
+		["Intact Sentient Core"] = {
+			Description = "An integral part of Vomvalysts and Teralysts, the exact function of this... device? Organ? is uncertain.",
+			HelminthCategory = "Sentient Appetite",
+			HelminthCost = 75,
+			Image = "QuillsCommonPickup.png",
+			InternalName = "/Lotus/Types/Gameplay/Eidolon/Resources/QuillsDogTag",
+			Introduced = "22",
+			Link = "Sentient Core",
+			Name = "Intact Sentient Core",
+			Type = "Resource" 
+		},
+		Iradite = {
+			ContainerImage = "IraditeFormation.png",
+			Description = "A valuable mineral found on the Plains.",
+			HelminthCategory = "Calx",
+			HelminthCost = 50,
+			Image = "Iradite.png",
+			InternalName = "/Lotus/Types/Gameplay/Eidolon/Resources/IraditeItem",
+			Introduced = "22",
+			ItemCount = 50,
+			Link = "Iradite",
+			Name = "Iradite",
+			Parents = {
+				"Archwing Launcher",
+				"Eidolon Phylaxis",
+				"Fosfor Rahd",
+				"Luminous Dye",
+				"Pharoma" 
+			},
+			Type = "Resource" 
+		},
+		Isos = {
+			BuildPrice = 1000,
+			BuildQuantity = 1,
+			BuildTime = 120,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 3000, Name = "Circuits" },
+				{ ItemCount = 500, Name = "Fieldron Sample" },
+				{ ItemCount = 7500, Name = "Salvage" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "A self-replicating fluid comprised of nanoproxies capable of independently repairing worn and damaged systems.",
+			HelminthCategory = "Bile",
+			HelminthCost = 200,
+			Image = "Isos.png",
+			InternalName = "/Lotus/Types/Items/RailjackMiscItems/IsosRailjackItem",
+			Introduced = "27",
+			ItemCount = 75,
+			Link = "Isos",
+			Name = "Isos",
+			Parents = { "Voidrig Engine" },
+			Rush = 5,
+			Type = "Resource" 
+		},
+		["Jackal Yellow"] = {
+			Description = "Jackal Yellow pigments drop from the following enemies:\
+Sniper Crewman",
+			Image = "Jackal Yellow.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Jackal Yellow",
+			Type = "Pigment" 
+		},
+		["Javlok Capacitor"] = {
+			Description = "Used in the construction of Javloks.",
+			HelminthCategory = "Bile",
+			HelminthCost = 7,
+			Image = "JavlokCapacitor.png",
+			InternalName = "",
+			Introduced = "19.4",
+			Link = "Javlok Capacitor",
+			Name = "Javlok Capacitor",
+			SellPrice = 2500,
+			Type = "Resource" 
+		},
+		["Judgement Points"] = {
+			Description = "Points earned through victories in Rathuum.",
+			Image = "JudgementPoints64.png",
+			InternalName = "",
+			Introduced = "18.10",
+			Link = "Kela De Thaym#Judgement Points",
+			Name = "Judgement Points",
+			Type = "Resource" 
+		},
+		Kama = {
+			Image = "Kama.png",
+			InternalName = "/Lotus/Weapons/Tenno/Melee/DualKamas/SingleKama",
+			Introduced = "10.0",
+			Link = "Kama",
+			Name = "Kama",
+			Type = "Weapon" 
+		},
+		["Kappa Beacon"] = {
+			Description = "Locator beacon broadcasting on the kappa frequency.",
+			Image = "NavCodeVayHekC.png",
+			InternalName = "",
+			Introduced = "13",
+			Link = "Kappa Beacon",
+			Name = "Kappa Beacon",
+			SellPrice = 750,
+			Tradable = true,
+			Type = "Event" 
+		},
+		["Karkina Antenna"] = {
+			Description = "Ground into a powder this substance can makes fires burn hotter for a brief amount of time.",
+			Image = "KarkinaAntenna.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Karkina Antenna",
+			Name = "Karkina Antenna",
+			Type = "Fish Part" 
+		},
+		["Kavat Genetic Code"] = {
+			Description = "Contains the genetic code sequence of a Kavat.",
+			Image = "KavatGeneStrain.png",
+			InternalName = "",
+			Introduced = "Update: Specters of the Rail",
+			Link = "Kavat Genetic Code",
+			Name = "Kavat Genetic Code",
+			Type = "Resource" 
+		},
+		Kesslers = {
+			BuildPrice = 1000,
+			BuildQuantity = 1,
+			BuildTime = 120,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 400, Name = "Cryotic" },
+				{ ItemCount = 65, Name = "Morphics" },
+				{ ItemCount = 4500, Name = "Rubedo" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "Orokin devices used for navigating the solar winds.",
+			Image = "Kesslers.png",
+			InternalName = "/Lotus/Types/Items/RailjackMiscItems/KesslersRailjackItem",
+			Introduced = "27",
+			Link = "Kesslers",
+			Name = "Kesslers",
+			Rush = 5,
+			Type = "Resource" 
+		},
+		["Khut-Khut Venom Sac"] = {
+			Description = "The poison is used to cure leather and as a reagent to produce an embalming fluid.",
+			Image = "KhutKhutVenomSac.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Khut-Khut Venom Sac",
+			Name = "Khut-Khut Venom Sac",
+			Type = "Fish Part" 
+		},
+		Kogake = {
+			Image = "Kogake0.png",
+			InternalName = "/Lotus/Weapons/Tenno/Melee/BrassKnuckles/BrassKnuckles",
+			Introduced = "8.2",
+			Link = "Kogake",
+			Name = "Kogake",
+			Type = "Weapon" 
+		},
+		Kohmak = {
+			Image = "GrnWindUpPistol.png",
+			InternalName = "/Lotus/Weapons/Grineer/Pistols/GrnKohmPistol/GrnKohmPistol",
+			Introduced = "16.0",
+			Link = "Kohmak",
+			Name = "Kohmak",
+			Type = "Weapon" 
+		},
+		Komms = {
+			BuildPrice = 1000,
+			BuildQuantity = 1,
+			BuildTime = 120,
+			Components = {
+				{ ItemCount = 9000, Name = "Alloy Plate" },
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 350, Name = "Detonite Ampule" },
+				{ ItemCount = 100, Name = "Neural Sensors" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "A component used in secure Grineer communication networks.",
+			HelminthCategory = "Synthetics",
+			HelminthCost = 15,
+			Image = "Komms.png",
+			InternalName = "/Lotus/Types/Items/RailjackMiscItems/KommsRailjackItem",
+			Introduced = "27",
+			ItemCount = 4,
+			Link = "Komms",
+			Name = "Komms",
+			Parents = { "Protea Telema Helmet" },
+			Rush = 5,
+			Type = "Resource" 
+		},
+		Kraken = {
+			Image = "Kraken.png",
+			InternalName = "/Lotus/Weapons/Grineer/GrineerPistol/GrnHeavyPistol",
+			Introduced = "6.3",
+			Link = "Kraken",
+			Name = "Kraken",
+			Type = "Weapon" 
+		},
+		["Kriller Thermal Laser"] = {
+			Description = "A weapon that discharges lasers over short distances.",
+			Image = "ThermalLaser.png",
+			InternalName = "",
+			Introduced = "24",
+			Link = "Kriller Thermal Laser",
+			Name = "Kriller Thermal Laser",
+			Type = "Fish Part" 
+		},
+		Krohkur = {
+			Image = "GrnEgyptSword.png",
+			InternalName = "/Lotus/Weapons/Grineer/Melee/GrnEgyptSwd/GrnEgyptSwdWeapon",
+			Introduced = "22",
+			Link = "Krohkur",
+			Name = "Krohkur",
+			Type = "Weapon" 
+		},
+		Kronen = {
+			Image = "TennoTonfa.png",
+			InternalName = "/Lotus/Weapons/Tenno/Melee/Tonfa/TonfaContestWinner/TennoTonfa",
+			Introduced = "14.5",
+			Link = "Kronen",
+			Name = "Kronen",
+			Type = "Weapon" 
+		},
+		["Kuaka Spinal Claw"] = {
+			Description = "The sinew from the Kuaka's spinal claws can be tanned to make resilient and flexible leather. Location: Plains of Eidolon",
+			Image = "ForestRodentSpine.png",
+			InternalName = "/Lotus/Types/Gameplay/Eidolon/Resources/ForestRodentPartItem",
+			Introduced = "22",
+			Link = "Kuaka Spinal Claw",
+			Name = "Kuaka Spinal Claw",
+			Type = "Resource" 
+		},
+		Kunai = {
+			Image = "Kunai2.png",
+			InternalName = "/Lotus/Weapons/Tenno/ThrowingWeapons/Kunai",
+			Introduced = "8.0",
+			Link = "Kunai",
+			Name = "Kunai",
+			Type = "Weapon" 
+		},
+		Kuva = {
+			Description = "A mysterious red fluid coveted by the Grineer Queens.",
+			Image = "Kuva.png",
+			InternalName = "",
+			Introduced = "19",
+			Link = "Kuva (Resource)",
+			Name = "Kuva",
+			Type = "Resource" 
+		},
+		Lato = {
+			Image = "Lato.png",
+			InternalName = "/Lotus/Weapons/Tenno/Pistol/Pistol",
+			Introduced = "Vanilla",
+			Link = "Lato",
+			Name = "Lato",
+			Type = "Weapon" 
+		},
+		Latron = {
+			Image = "Latron.png",
+			InternalName = "/Lotus/Weapons/Tenno/Rifle/SemiAutoRifle",
+			Introduced = "Vanilla",
+			Link = "Latron",
+			Name = "Latron",
+			Type = "Weapon" 
+		},
+		["Lazulite Toroid"] = {
+			Description = "A device of undetermined function and origin. Prized by Vox Solaris and the Quills. Earn Lazulite Toroids by defeating the Exploiter Orb.",
+			Image = "LazuliteToroid.png",
+			InternalName = "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidCamperTerraItem",
+			Introduced = "24.4",
+			Link = "Lazulite Toroid",
+			Name = "Lazulite Toroid",
+			Type = "Resource" 
+		},
+		["Leaf Red"] = {
+			Description = "Leaf Red pigments drop from the following enemies:\
+Stalker\
+Shadow Stalker",
+			Image = "Leaf Red.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Leaf Red",
+			Type = "Pigment" 
+		},
+		["Leech Green"] = {
+			Description = "Leech Green pigments drop from the following enemies:\
+Corrupted Crewman",
+			Image = "Leech Green.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Leech Green",
+			Type = "Pigment" 
+		},
+		Lex = {
+			Image = "Lex.png",
+			InternalName = "/Lotus/Weapons/Tenno/Pistol/HeavyPistol",
+			Introduced = "Vanilla",
+			Link = "Lex",
+			Name = "Lex",
+			Type = "Weapon" 
+		},
+		["Lex Prime"] = {
+			Image = "PrimeLex.png",
+			InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimeLex/PrimeLex",
+			Introduced = "13.0",
+			Link = "Lex Prime",
+			Name = "Lex Prime",
+			Type = "Weapon" 
+		},
+		["Lich Token"] = {
+			Description = "A token symbolizing a converted Kuva Lich. Can be traded to other players for control of said Lich.",
+			Image = "LichToken.png",
+			InternalName = "/Lotus/Types/Game/Nemesis/KuvaLich/CapturedGrineerLichToken",
+			Introduced = "26.0.7",
+			Link = "Lich Token",
+			Name = "Lich Token",
+			Type = "Resource" 
+		},
+		["Longwinder Lathe Coagulant"] = {
+			Description = "A liquid that mixes with coolant fluid to produce a resilient gel that repairs leaks.",
+			Image = "LatheCoagulant.png",
+			InternalName = "",
+			Introduced = "24",
+			Link = "Longwinder Lathe Coagulant",
+			Name = "Longwinder Lathe Coagulant",
+			Type = "Fish Part" 
+		},
+		["Lua Lens"] = {
+			Description = "An Eidolon Lens enhanced with resonance from Somatic Fibers.",
+			Image = "Lua Lens.png",
+			InternalName = "",
+			Introduced = "25.7",
+			Link = "Lua Lens",
+			Name = "Lua Lens",
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Lua Madurai Lens"] = {
+			Description = "Converts 3.25% of excess Affinity into Focus for the Madurai Way.",
+			Image = "Lua Lens.png",
+			InternalName = "",
+			Introduced = "25.7",
+			Link = "Lua Lens",
+			Name = "Lua Madurai Lens",
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Lua Naramon Lens"] = {
+			Description = "Converts 3.25% of excess Affinity into Focus for the Naramon Way.",
+			Image = "Lua Lens.png",
+			InternalName = "",
+			Introduced = "25.7",
+			Link = "Lua Lens",
+			Name = "Lua Naramon Lens",
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Lua Unairu Lens"] = {
+			Description = "Converts 3.25% of excess Affinity into Focus for the Unairu Way.",
+			Image = "Lua Lens.png",
+			InternalName = "",
+			Introduced = "25.7",
+			Link = "Lua Lens",
+			Name = "Lua Unairu Lens",
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Lua Vazarin Lens"] = {
+			Description = "Converts 3.25% of excess Affinity into Focus for the Vazarin Way.",
+			Image = "Lua Lens.png",
+			InternalName = "",
+			Introduced = "25.7",
+			Link = "Lua Lens",
+			Name = "Lua Vazarin Lens",
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Lua Zenurik Lens"] = {
+			Description = "Converts 3.25% of excess Affinity into Focus for the Zenurik Way.",
+			Image = "Lua Lens.png",
+			InternalName = "",
+			Introduced = "25.7",
+			Link = "Lua Lens",
+			Name = "Lua Zenurik Lens",
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Lucent Teroglobe"] = {
+			ContainerImage = "LucentTeroglobeContainer.png",
+			Description = "These orbs have long since fulfilled their original function, but still, thrum with faint power.",
+			HelminthCategory = "Calx",
+			HelminthCost = 50,
+			Image = "LucentTeroglobe.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/OrbStoneItem",
+			Introduced = "29",
+			Link = "Lucent Teroglobe",
+			Name = "Lucent Teroglobe",
+			Type = "Resource" 
+		},
+		["Lunar Pitcher"] = {
+			Description = "This carnivorous plant can be found growing in the wilderness on Lua.",
+			HelminthCategory = "Biotics",
+			HelminthCost = 8,
+			Image = "ZenPitcher.png",
+			InternalName = "/Lotus/Types/Items/Plants/MiscItems/ZenPitcherPlantItem",
+			Introduced = "Update: The Silver Grove",
+			ItemCount = 6,
+			Link = "Lunar Pitcher",
+			Name = "Lunar Pitcher",
+			Parents = { "Seeding Step Ephemera", "Twilight Apothic" },
+			Type = "Plant" 
+		},
+		["Madurai Lens"] = {
+			Description = "Converts 1.25% of excess Affinity into Focus for the Madurai Way.",
+			Image = "FocusLens1Rank sq.png",
+			InternalName = "",
+			Introduced = "18",
+			Link = "Regular Lens",
+			Name = "Madurai Lens",
+			Tradable = true,
+			Type = "Resource" 
+		},
+		Magistar = {
+			Image = "PaladinMace.png",
+			InternalName = "/Lotus/Weapons/Tenno/Melee/Maces/PaladinMace/PaladinMaceWeapon",
+			Introduced = "11.5",
+			Link = "Magistar",
+			Name = "Magistar",
+			Type = "Weapon" 
+		},
+		Magnus = {
+			Image = "TennoMagnum.png",
+			InternalName = "/Lotus/Weapons/Tenno/Pistols/Magnum/Magnum",
+			Introduced = "11.2",
+			Link = "Magnus",
+			Name = "Magnus",
+			Type = "Weapon" 
+		},
+		Mandachord = {
+			Description = "A rare Orokin instrument.",
+			Image = "Mandochord.png",
+			InternalName = "",
+			Introduced = "20",
+			Link = "Mandachord",
+			Name = "Mandachord",
+			Type = "Resource" 
+		},
+		["Mandachord Body"] = {
+			Description = "",
+			Image = "MandochordBridge.png",
+			InternalName = "",
+			Introduced = "20",
+			Link = "Mandachord",
+			Name = "Mandachord Body",
+			Type = "Resource" 
+		},
+		["Mandachord Bridge"] = {
+			Description = "",
+			Image = "MandochordStrum.png",
+			InternalName = "",
+			Introduced = "20",
+			Link = "Mandachord",
+			Name = "Mandachord Bridge",
+			Type = "Resource" 
+		},
+		["Mandachord Fret"] = {
+			Description = "",
+			Image = "MandochordResonator.png",
+			InternalName = "",
+			Introduced = "20",
+			Link = "Mandachord",
+			Name = "Mandachord Fret",
+			Type = "Resource" 
+		},
+		Maprico = {
+			ContainerImage = "MapricoTree.png",
+			Description = "This hardy fruit is thick-skinned to withstand harsh conditions, concealing a mouthful of sweet pulp within. Location: Plains of Eidolon",
+			HelminthCategory = "Biotics",
+			HelminthCost = 50,
+			Image = "Maprico.png",
+			InternalName = "/Lotus/Types/Gameplay/Eidolon/Resources/EidolonFruitItem",
+			Introduced = "22",
+			ItemCount = 15,
+			Link = "Maprico",
+			Name = "Maprico",
+			Parents = {
+				"Cuthol Bait",
+				"Fosfor Blau",
+				"Fosfor Rahd",
+				"Glappid Bait",
+				"Norg Bait",
+				"Twilight Bait",
+				"Vasca Curative" 
+			},
+			Type = "Resource" 
+		},
+		["Marquise Thyst"] = {
+			BuildPrice = 10000,
+			BuildQuantity = 3,
+			BuildTime = 60,
+			Components = { { ItemCount = 1, Name = "Blueprint" }, { ItemCount = 3, Name = "Thyst" } },
+			ConsumeOnBuild = false,
+			Description = "Polished and cut to perfection.",
+			Image = "MarquiseThyst.png",
+			InternalName = "/Lotus/Types/Items/Gems/Solaris/SolarisEidolonGemBCutItem",
+			Introduced = "24",
+			ItemCount = 3,
+			Link = "Marquise Thyst",
+			Name = "Marquise Thyst",
+			Parents = {
+				"Haztech Apparel",
+				"Haztech Cuirass",
+				"Haztech Mask",
+				"Kubrodon Ventkid Apparel",
+				"Kubrodon Ventkid Cuirass",
+				"Kubrodon Ventkid Mask",
+				"Outrider Cuirass",
+				"Outrider Mask",
+				"Pax Soar",
+				"Smelter Apparel",
+				"Smelter Cuirass",
+				"Smelter Mask",
+				"Vent Pobber Ventkid Apparel",
+				"Vent Pobber Ventkid Cuirass",
+				"Vent Pobber Ventkid Mask",
+				"Vent Rat Cuirass",
+				"Vent Rat Mask" 
+			},
+			Rush = 5,
+			Tradable = true,
+			Type = "Gem" 
+		},
+		["Marquise Veridos"] = {
+			BuildPrice = 2500,
+			BuildQuantity = 10,
+			BuildTime = 60,
+			Components = { { ItemCount = 1, Name = "Blueprint" }, { ItemCount = 10, Name = "Veridos" } },
+			ConsumeOnBuild = false,
+			Description = "Polished and cut to perfection. Location: Old Man Suumbaat in Cetus",
+			Image = "MarquiseVeridos.png",
+			InternalName = "/Lotus/Types/Items/Gems/Eidolon/UncommonGemACutAItem",
+			Introduced = "22",
+			ItemCount = 20,
+			Link = "Marquise Veridos",
+			Name = "Marquise Veridos",
+			Parents = {
+				"Advanced Nosam Cutter",
+				"Loid Sentinel Mask",
+				"Loid Sentinel Skin",
+				"Loid Sentinel Tail",
+				"Loid Sentinel Wing",
+				"Sunpoint Plasma Drill",
+				"Voidrig Capsule" 
+			},
+			Rush = 5,
+			Tradable = true,
+			Type = "Gem" 
+		},
+		["Mawfish Bones"] = {
+			Description = "The bones of the Mawfish are carved by the Ostron to produce ornaments and tools.",
+			Image = "MawfishBones.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Mawfish Bones",
+			Name = "Mawfish Bones",
+			Type = "Fish Part" 
+		},
+		["Medical Debt-Bond"] = {
+			Description = "To get work you need mods. Then you need more work to pay for the mods, so you get more mods. And here we are.",
+			Image = "MedicalDebtBond64.png",
+			InternalName = "/Lotus/Types/Items/Solaris/DebtTokenC",
+			Introduced = "24",
+			Link = "Medical Debt-Bond",
+			Name = "Medical Debt-Bond",
+			Type = "Resource" 
+		},
+		["Memoriam Purple"] = {
+			Description = "Memoriam Purple pigments drop from the following enemies:\
+Terra Provisor\
+Terra Elite Provisor",
+			Image = "Memoriam Purple.png",
+			InternalName = "",
+			Introduced = "24",
+			Link = "Pigment",
+			Name = "Memoriam Purple",
+			Type = "Pigment" 
+		},
+		["Mirewinder Parallel Biode"] = {
+			Description = "Controls the electrical flow throughout the circuitry within robotic organisms.",
+			Image = "ParallelBiode.png",
+			InternalName = "",
+			Introduced = "24",
+			Link = "Mirewinder Parallel Biode",
+			Name = "Mirewinder Parallel Biode",
+			Type = "Fish Part" 
+		},
+		Miter = {
+			Image = "miter.png",
+			InternalName = "/Lotus/Weapons/Grineer/LongGuns/GrineerSawbladeGun/SawBladeGun",
+			Introduced = "9.5",
+			Link = "Miter",
+			Name = "Miter",
+			Type = "Weapon" 
+		},
+		["Moa Green"] = {
+			Description = "Moa Green pigments drop from the following enemies:\
+Orokin Drone",
+			Image = "MOA Green.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Moa Green",
+			Type = "Pigment" 
+		},
+		["Moonlight Dragonlily"] = {
+			Description = "This uncommon plant can only be found at night. Location: Earth",
+			HelminthCategory = "Biotics",
+			HelminthCost = 8,
+			Image = "ForestNightUncommon.png",
+			InternalName = "/Lotus/Types/Items/Plants/MiscItems/UnCommonNightPlantItem",
+			Introduced = "11.5",
+			ItemCount = 10,
+			Link = "Moonlight Dragonlily",
+			Name = "Moonlight Dragonlily",
+			Parents = {
+				"Lapis Antitoxin",
+				"Nightfall Apothic",
+				"The Silver Grove",
+				"Topaz Antitoxin",
+				"Vermillion Antitoxin" 
+			},
+			Type = "Plant" 
+		},
+		["Moonlight Jadeleaf"] = {
+			Description = "This rare plant can only be found at night. Location: Earth",
+			HelminthCategory = "Biotics",
+			HelminthCost = 8,
+			Image = "ForestNightRare.png",
+			InternalName = "/Lotus/Types/Items/Plants/MiscItems/RareNightPlantItem",
+			Introduced = "11.5",
+			ItemCount = 1,
+			Link = "Moonlight Jadeleaf",
+			Name = "Moonlight Jadeleaf",
+			Parents = {
+				"Health Restore (Large",
+				"Lapis Antitoxin",
+				"Twilight Apothic",
+				"Vermillion Antitoxin" 
+			},
+			Type = "Plant" 
+		},
+		["Moonlight Threshcone"] = {
+			Description = "This common plant can only be found at night. Location: Earth",
+			HelminthCategory = "Biotics",
+			HelminthCost = 8,
+			Image = "ForestNightCommon.png",
+			InternalName = "/Lotus/Types/Items/Plants/MiscItems/CommonNightPlantItem",
+			Introduced = "11.5",
+			ItemCount = 15,
+			Link = "Moonlight Threshcone",
+			Name = "Moonlight Threshcone",
+			Parents = { "Amethyst Antitoxin", "Health Restore (Large", "Topaz Antitoxin" },
+			Type = "Plant" 
+		},
+		["Morgha Barrel"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 1,
+			BuildTime = 60,
+			Components = {
+				{ ItemCount = 80, Name = "Adramal Alloy" },
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 1, Name = "Damaged Necramech Weapon Barrel" },
+				{ ItemCount = 20, Name = "Fersteel Alloy" },
+				{ ItemCount = 20, Name = "Spinal Core Section" } 
+			},
+			ConsumeOnBuild = true,
+			Description = "A Necramech weapon-crafting component.",
+			Image = "MorghaBarrel.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/ThanotechGrenadeLauncherBarrelItem",
+			Introduced = "29.5",
+			Link = "Morgha Barrel",
+			Name = "Morgha Barrel",
+			Rush = 5,
+			Type = "Resource" 
+		},
+		["Morgha Receiver"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 1,
+			BuildTime = 60,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 1, Name = "Damaged Necramech Weapon Receiver" },
+				{ ItemCount = 80, Name = "Devolved Namalon" },
+				{ ItemCount = 15, Name = "Tink Dissipator Coil" },
+				{ ItemCount = 10, Name = "Trapezium Xenorhast" } 
+			},
+			ConsumeOnBuild = true,
+			Description = "A Necramech weapon-crafting component.",
+			Image = "MorghaReceiver.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/ThanotechGrenadeLauncherReceiverItem",
+			Introduced = "29.5",
+			Link = "Morgha Receiver",
+			Name = "Morgha Receiver",
+			Rush = 5,
+			Type = "Resource" 
+		},
+		["Morgha Stock"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 1,
+			BuildTime = 60,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 10, Name = "Cabochon Embolos" },
+				{ ItemCount = 1, Name = "Damaged Necramech Weapon Stock" },
+				{ ItemCount = 250, Name = "Hexenon" },
+				{ ItemCount = 80, Name = "Tempered Bapholite" } 
+			},
+			ConsumeOnBuild = true,
+			Description = "A Necramech weapon-crafting component.",
+			Image = "MorghaStock.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/ThanotechGrenadeLauncherStockItem",
+			Introduced = "29.5",
+			Link = "Morgha Stock",
+			Name = "Morgha Stock",
+			Rush = 5,
+			Type = "Resource" 
+		},
+		["Morning Yellow"] = {
+			Description = "Morning Yellow pigments drop from the following enemies:\
+Leech Osprey",
+			Image = "Morning Yellow.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Morning Yellow",
+			Type = "Pigment" 
+		},
+		Morphics = {
+			ContainerImage = "MorphicsContainer.png",
+			Description = "An amorphous solid. Possibly Orokin technology. Locations: Mercury, Mars, Phobos, Europa, and Pluto.",
+			HelminthCategory = "Bile",
+			HelminthCost = 40,
+			Image = "Morphics.png",
+			InternalName = "/Lotus/Types/Items/MiscItems/Morphic",
+			Introduced = "Vanilla",
+			Link = "Morphics",
+			Name = "Morphics",
+			Rarity = "Rare",
+			Type = "Resource" 
+		},
+		["Mortus Horn"] = {
+			Description = "The horn of the Mortus Lungfish is ground down into a powder and used by the Ostrons in herbal remedies.",
+			Image = "MortusHorn.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Mortus Horn",
+			Name = "Mortus Horn",
+			Type = "Fish Part" 
+		},
+		["Mortus Pink"] = {
+			Description = "Mortus Pink pigments drop from the following enemies:\
+Tusk Flameblade",
+			Image = "Mortus Pink.png",
+			InternalName = "",
+			Introduced = "22.20",
+			Link = "Pigment",
+			Name = "Mortus Pink",
+			Type = "Pigment" 
+		},
+		["Mother Token"] = {
+			Description = "A mark of Mother's esteem.",
+			Image = "MotherToken.png",
+			InternalName = "/Lotus/Types/Items/Deimos/EntratiFragmentUncommonB",
+			Introduced = "29",
+			Link = "Mother Token",
+			Name = "Mother Token",
+			Type = "Resource" 
+		},
+		["Murkray Liver"] = {
+			Description = "An ingredient used in Ostron cooking and medicine.",
+			Image = "MurkrayLiver.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Murkray Liver",
+			Name = "Murkray Liver",
+			Type = "Fish Part" 
+		},
+		["Mutagen Mass"] = {
+			BuildPrice = 15000,
+			BuildQuantity = 1,
+			BuildTime = 43200,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 1, Name = "Control Module" },
+				{ ItemCount = 10, Name = "Mutagen Sample" },
+				{ ItemCount = 250, Name = "Plastids" },
+				{ ItemCount = 500, Name = "Salvage" } 
+			},
+			ConsumeOnBuild = true,
+			Description = "This living mass can produce weaponized toxins for weaponry. Can be acquired from Infestation Outbreaks & Clan Research.",
+			Image = "Mutagen Mass.png",
+			InternalName = "/Lotus/Types/Items/Research/BioComponent",
+			Introduced = "8",
+			Link = "Mutagen Mass",
+			Name = "Mutagen Mass",
+			Rush = 5,
+			Type = "Resource" 
+		},
+		["Mutagen Sample"] = {
+			Description = "These samples could advance our knowledge of biological research. Locations: Eris and Deimos.",
+			HelminthCategory = "Pheromones",
+			HelminthCost = 125,
+			Image = "MutagenSample.png",
+			InternalName = "/Lotus/Types/Items/Research/BioFragment",
+			Introduced = "8",
+			ItemCount = 10,
+			Link = "Mutagen Sample",
+			Name = "Mutagen Sample",
+			Parents = { "Bracoid", "Mutagen Mass", "Trachons" },
+			Rarity = "Uncommon",
+			Type = "Research" 
+		},
+		["Mutalist Alad V Nav Coordinate"] = {
+			Description = "These coordinates can be used to track Mutalist Alad V. Can be acquired from Infestation Outbreaks & Deimos.",
+			Image = "MutalistNavCoord.png",
+			InternalName = "",
+			Introduced = "15.5",
+			Link = "Mutalist Alad V Assassinate Key",
+			Name = "Mutalist Alad V Nav Coordinate",
+			SellPrice = 750,
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Mutalist Cernos"] = {
+			Image = "InfCernos.png",
+			InternalName = "/Lotus/Weapons/Infested/Bow/InfCernosBow/InfCernos",
+			Introduced = "18.5",
+			Link = "Mutalist Cernos",
+			Name = "Mutalist Cernos",
+			Type = "Weapon" 
+		},
+		["Mutalist Red"] = {
+			Description = "Mutalist Red pigments drop from the following enemies:\
+Tar Mutalist Moa",
+			Image = "Mutalist Red.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Mutalist Red",
+			Type = "Pigment" 
+		},
+		["Mytocardia Spore"] = {
+			ContainerImage = "MytocardiaSacSmall.png",
+			Description = "A fungal body prized for its varied uses.",
+			HelminthCategory = "Biotics",
+			HelminthCost = 8,
+			Image = "MytocardiaSpore.png",
+			InternalName = "/Lotus/Types/Gameplay/Venus/Resources/FungusHeartItem",
+			Introduced = "24",
+			ItemCount = 20,
+			Link = "Mytocardia Spore",
+			Name = "Mytocardia Spore",
+			Parents = { "Pax Charge" },
+			Type = "Resource" 
+		},
+		["Nakak Pearl"] = {
+			Description = "Nakak in Cetus would probably like these. Maybe she'll trade something special for them.",
+			Image = "NakakPearl.png",
+			InternalName = "",
+			Introduced = "25.5.1",
+			Link = "Nakak Pearl",
+			Name = "Nakak Pearl",
+			Type = "Event" 
+		},
+		Namalon = {
+			Description = "Infested mineral deposits mimicking the form of living organs.",
+			Image = "Namalon.png",
+			InternalName = "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonOreAItem",
+			Introduced = "29",
+			ItemCount = 20,
+			Link = "Namalon",
+			Name = "Namalon",
+			Parents = { "Devolved Namalon" },
+			Type = "Gem" 
+		},
+		["Nanite Blue"] = {
+			Description = "Nanite Blue pigments drop from the following enemies:\
+Charger",
+			Image = "Nanite Blue.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Nanite Blue",
+			Type = "Pigment" 
+		},
+		["Nano Spores"] = {
+			ContainerImage = "NanoSporesContainer.png",
+			Description = "Fibrous technocyte tumour. Handle Infested tissue with caution. Locations: Saturn, Neptune, Eris, and Deimos.",
+			HelminthCategory = "Pheromones",
+			HelminthCost = 20000,
+			Image = "NanoSpores.png",
+			InternalName = "/Lotus/Types/Items/MiscItems/Nanospores",
+			Introduced = "Vanilla",
+			Link = "Nano Spores",
+			Name = "Nano Spores",
+			Rarity = "Common",
+			Type = "Resource" 
+		},
+		["Naramon Lens"] = {
+			Description = "Converts 1.25% of excess Affinity into Focus for the Naramon Way.",
+			Image = "FocusLens1Rank sq.png",
+			InternalName = "",
+			Introduced = "18",
+			Link = "Regular Lens",
+			Name = "Naramon Lens",
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Nav Coordinate"] = {
+			Description = "Coordinate used to locate lost ships.",
+			HelminthCategory = "Bile",
+			HelminthCost = 65,
+			Image = "NavCoordinateNew.png",
+			InternalName = "",
+			Introduced = "10",
+			Link = "Nav Coordinate",
+			Name = "Nav Coordinate",
+			SellPrice = 25,
+			Type = "Resource" 
+		},
+		Necrathene = {
+			Description = "Impacted within Infested husks, preserved for millennia.",
+			Image = "Necrathene.png",
+			InternalName = "/Lotus/Types/Items/Gems/Deimos/DeimosRareGemAItem",
+			Introduced = "29",
+			ItemCount = 6,
+			Link = "Necrathene",
+			Name = "Necrathene",
+			Parents = { "Stellated Necrathene" },
+			Type = "Gem" 
+		},
+		["Neo Pink"] = {
+			Description = "Neo Pink pigments drop from the following enemies:\
+Terra Trencher\
+Terra Elite Trencher",
+			Image = "Neo Pink.png",
+			InternalName = "",
+			Introduced = "24",
+			Link = "Pigment",
+			Name = "Neo Pink",
+			Type = "Pigment" 
+		},
+		["Neural Sensors"] = {
+			ContainerImage = "NeuralSensorContainer.png",
+			Description = "Implanted neural-link for controlling augmentations. Grineer design. Location: Jupiter",
+			HelminthCategory = "Synthetics",
+			HelminthCost = 25,
+			Image = "NeuralSensors.png",
+			InternalName = "/Lotus/Types/Items/MiscItems/NeuralSensor",
+			Introduced = "Vanilla",
+			Link = "Neural Sensors",
+			Name = "Neural Sensors",
+			Rarity = "Rare",
+			Type = "Resource" 
+		},
+		Neurodes = {
+			ContainerImage = "NeurodesContainer.png",
+			Description = "Biotech sensor organ harvested from Infested entities. Locations: Earth, Lua, Eris, and Deimos.",
+			HelminthCategory = "Pheromones",
+			HelminthCost = 15,
+			Image = "Neurodes.png",
+			InternalName = "/Lotus/Types/Items/MiscItems/Neurode",
+			Introduced = "Vanilla",
+			Link = "Neurodes",
+			Name = "Neurodes",
+			Rarity = "Rare",
+			Type = "Resource" 
+		},
+		["Night Blue"] = {
+			Description = "Night Blue pigments drop from the following enemies:\
+Vay Hek Terra Frame",
+			Image = "Night Blue.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Night Blue",
+			Type = "Pigment" 
+		},
+		Nikana = {
+			Image = "Katana.png",
+			InternalName = "/Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/Katana",
+			Introduced = "13.0",
+			Link = "Nikana",
+			Name = "Nikana",
+			Type = "Weapon" 
+		},
+		Ninkondi = {
+			Image = "Nunchaku.png",
+			InternalName = "/Lotus/Weapons/Tenno/Melee/Nunchaku/Nunchaku/Nunchaku",
+			Introduced = "17.4",
+			Link = "Ninkondi",
+			Name = "Ninkondi",
+			Type = "Weapon" 
+		},
+		Nistlepod = {
+			ContainerImage = "NistlepodContainer.png",
+			Description = "Used by the Nistlebrush to trap and kill prey. Location: Plains of Eidolon",
+			HelminthCategory = "Biotics",
+			HelminthCost = 25,
+			Image = "Nistlepod.png",
+			InternalName = "/Lotus/Types/Gameplay/Eidolon/Resources/NistlebrushItem",
+			Introduced = "22",
+			ItemCount = 15,
+			Link = "Nistlepod",
+			Name = "Nistlepod",
+			Parents = {
+				"Eidolon Phylaxis",
+				"Lanzo Fishing Spear",
+				"Peppered Bait",
+				"Peram Fishing Spear",
+				"Shockprod Fishing Spear",
+				"Stunna Fishing Spear",
+				"Tulok Fishing Spear",
+				"Twilight Bait",
+				"Vasca Curative" 
+			},
+			Type = "Resource" 
+		},
+		["Nitain Extract"] = {
+			Description = "Each vial is produced by the painstaking expression of billions of rare, ocean-vent dwelling microorganisms.",
+			Image = "DENitainExtract.png",
+			InternalName = "",
+			Introduced = "17.12",
+			Link = "Nitain Extract",
+			Name = "Nitain Extract",
+			Type = "Resource" 
+		},
+		Noctrul = {
+			Description = "A black gemstone, with iridescent blue impurities.",
+			Image = "Noctrul.png",
+			InternalName = "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemBItem",
+			Introduced = "24",
+			ItemCount = 10,
+			Link = "Noctrul",
+			Name = "Noctrul",
+			Parents = { "Heart Noctrul" },
+			Type = "Gem" 
+		},
+		["Norg Brain"] = {
+			Description = "An Ostron delicacy.",
+			Image = "NorgBrain.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Norg Brain",
+			Name = "Norg Brain",
+			Type = "Fish Part" 
+		},
+		Nullstones = {
+			Description = "Nullstones do not conform to several laws of physics, making them highly prized for optimizing sensitive components.",
+			HelminthCategory = "Calx",
+			HelminthCost = 50,
+			Image = "Nullstones.png",
+			InternalName = "/Lotus/Types/Items/RailjackMiscItems/NullstonesRailjackItem",
+			Introduced = "27",
+			ItemCount = 2,
+			Link = "Nullstones",
+			Name = "Nullstones",
+			Parents = { "Protea Mavv Helmet" },
+			Type = "Resource" 
+		},
+		Nyth = {
+			Description = "A rare local Gem, formed when the gas known as Breath of the Eidolon becomes trapped in molten iradite.",
+			Image = "Nyth.png",
+			InternalName = "/Lotus/Types/Items/Gems/Eidolon/EidolonGemBItem",
+			Introduced = "22",
+			ItemCount = 3,
+			Link = "Nyth",
+			Name = "Nyth",
+			Parents = { "Heart Nyth" },
+			Type = "Gem" 
+		},
+		["Oak Brown"] = {
+			Description = "Oak Brown pigments drop from the following enemies:\
+Butcher",
+			Image = "Oak Brown.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Oak Brown",
+			Type = "Pigment" 
+		},
+		["Ocular Stem-Root"] = {
+			Description = "The organs that once served as eyes, prior to Infestation, are still replete with useful components.",
+			Image = "OcularStem-Root.png",
+			InternalName = "",
+			Introduced = "29",
+			Link = "Ocular Stem-Root",
+			Name = "Ocular Stem-Root",
+			Type = "Fish Part" 
+		},
+		["Olympus Blue"] = {
+			Description = "Olympus Blue pigments drop from the following enemies:\
+Lancer",
+			Image = "Olympus Blue.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Olympus Blue",
+			Type = "Pigment" 
+		},
+		["Omega Beacon"] = {
+			Description = "Locator beacon broadcasting on the omega frequency.",
+			Image = "NavCodeVayHekD.png",
+			InternalName = "",
+			Introduced = "13",
+			Link = "Omega Beacon",
+			Name = "Omega Beacon",
+			SellPrice = 750,
+			Tradable = true,
+			Type = "Event" 
+		},
+		["Omega Isotopes"] = {
+			Description = "Produced by a Fomorian's power core, these particles only appear on or around planets where a Fomorian is present.",
+			HelminthCategory = "Bile",
+			HelminthCost = 30,
+			Image = "OmegaIsotope.png",
+			InternalName = "",
+			Introduced = "15.8",
+			Link = "Omega Isotopes",
+			Name = "Omega Isotopes",
+			Type = "Event" 
+		},
+		["Orokin Animus Matrix"] = {
+			Description = "A cognition matrix that enables mechs to be adaptable and efficient in the field.",
+			Image = "AnimusMatrix.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Necraloids/NecraloidStandingRareItem",
+			Introduced = "29",
+			Link = "Orokin Animus Matrix",
+			Name = "Orokin Animus Matrix",
+			Type = "Resource" 
+		},
+		["Orokin Ballistics Matrix"] = {
+			Description = "A mech matrix that assists with the machine’s weapon accuracy and control.",
+			Image = "BallisticsMatrix.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Necraloids/NecraloidStandingUncommonItem",
+			Introduced = "29",
+			Link = "Orokin Ballistics Matrix",
+			Name = "Orokin Ballistics Matrix",
+			Type = "Resource" 
+		},
+		["Orokin Cell"] = {
+			ContainerImage = "OrokinCellContainer.png",
+			Description = "Ancient energy cell from the Orokin era. Locations: Ceres, Saturn, and Deimos.",
+			HelminthCategory = "Synthetics",
+			HelminthCost = 15,
+			Image = "OrokinCell.png",
+			InternalName = "/Lotus/Types/Items/MiscItems/OrokinCell",
+			Introduced = "Vanilla",
+			Link = "Orokin Cell",
+			Name = "Orokin Cell",
+			Rarity = "Rare",
+			Type = "Resource" 
+		},
+		["Orokin Cipher"] = {
+			Description = "This device is used to bypass Orokin encryptions.",
+			HelminthCategory = "Bile",
+			HelminthCost = 5,
+			Image = "OrokinReceptor.png",
+			InternalName = "",
+			Introduced = "14",
+			Link = "Orokin Cipher",
+			Name = "Orokin Cipher",
+			Type = "Resource" 
+		},
+		["Orokin Monitor"] = {
+			Description = "These Orokin devices emerge when the floating glaciers impact on the surface of Venus. Their purpose is unknown.",
+			Image = "OrokinMonitor.png",
+			InternalName = "/Lotus/Types/Gameplay/Venus/Resources/OrokinSensorItem",
+			Link = "Orokin Monitor",
+			Name = "Orokin Monitor",
+			Type = "Resource" 
+		},
+		["Orokin Orientation Matrix"] = {
+			Description = "A spatial orientation matrix to aid with a mechs’ guidance, balance and movement.",
+			Image = "OrientationMatrix.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Necraloids/NecraloidStandingCommonItem",
+			Introduced = "29",
+			Link = "Orokin Orientation Matrix",
+			Name = "Orokin Orientation Matrix",
+			Type = "Resource" 
+		},
+		["Otak Token"] = {
+			Description = "Otak is grateful for your aid. This helps him to remember it.",
+			Image = "OtakToken.png",
+			InternalName = "/Lotus/Types/Items/Deimos/EntratiFragmentCommonA",
+			Introduced = "29",
+			Link = "Otak Token",
+			Name = "Otak Token",
+			Type = "Resource" 
+		},
+		Oxium = {
+			Description = "Oxium is a rare lighter than air alloy of Orokin origin, used in certain Corpus Robotics. Locations: Venus, Jupiter, Mars, Neptune, Pluto, Eris, Europa, and Lua.",
+			HelminthCategory = "Oxides",
+			HelminthCost = 750,
+			Image = "Oxium.png",
+			InternalName = "/Lotus/Types/Items/MiscItems/OxiumAlloy",
+			Introduced = "11.9",
+			Link = "Oxium",
+			Name = "Oxium",
+			Type = "Resource" 
+		},
+		["Parasitic Tethermaw"] = {
+			Description = "Used to latch on to other life forms for feeding purposes, and to inject them with anticoagulants and sporelets.",
+			Image = "ParasiticTethermaw.png",
+			InternalName = "",
+			Introduced = "29",
+			Link = "Parasitic Tethermaw",
+			Name = "Parasitic Tethermaw",
+			Type = "Fish Part" 
+		},
+		["Phasic Cells"] = {
+			Description = "Harvested from the debris left by fallen Orphix Sentients, Phasic Cells seem to be key to pulse function. These components can be traded with Father in the Necralisk.",
+			Image = "PhasicCells.png",
+			InternalName = "",
+			Introduced = "29.6",
+			Link = "Phasic Cells",
+			Name = "Phasic Cells",
+			SellPrice = 1,
+			Type = "Event" 
+		},
+		Phasmin = {
+			Description = "An eerily green gem found encased in metallic shards.",
+			Image = "Phasmin.png",
+			InternalName = "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemAItem",
+			Introduced = "24",
+			ItemCount = 10,
+			Link = "Phasmin",
+			Name = "Phasmin",
+			Parents = { "Smooth Phasmin" },
+			Type = "Gem" 
+		},
+		["Pherliac Pod"] = {
+			Description = "Releases powerful pheromones to attract the infested.",
+			Image = "BallSpawnerInfestedBait.png",
+			InternalName = "",
+			Introduced = "16.7",
+			Link = "Pherliac Pod",
+			Name = "Pherliac Pod",
+			Type = "Resource" 
+		},
+		Pigment = {
+			Description = "",
+			Image = "PigmentPickup2.png",
+			InternalName = "",
+			Introduced = "8",
+			Link = "Pigment",
+			Name = "Pigment",
+			Type = "Research" 
+		},
+		Plantitem = {
+			Description = "",
+			Image = "Plantitem.png",
+			InternalName = "/Lotus/Types/Items/Plants/MiscItems/PlantItem",
+			Link = "Plantitem",
+			Name = "Plantitem",
+			Type = "Plant" 
+		},
+		Plastids = {
+			ContainerImage = "PlastidsContainer.png",
+			Description = "A disgusting nanite-infested tissue mass. Locations: Phobos, Saturn, Uranus, Pluto, and Eris.",
+			HelminthCategory = "Pheromones",
+			HelminthCost = 4000,
+			Image = "Plastids.png",
+			InternalName = "/Lotus/Types/Items/MiscItems/Plastids",
+			Introduced = "Vanilla",
+			Link = "Plastids",
+			Name = "Plastids",
+			Rarity = "Uncommon",
+			Type = "Resource" 
+		},
+		["Polymer Bundle"] = {
+			ContainerImage = "PolymerBundleContainer.png",
+			Description = "A hard, thermoplastic casing. Manufactured by Corpus. Locations: Mercury, Venus, and Uranus.",
+			HelminthCategory = "Synthetics",
+			HelminthCost = 12500,
+			Image = "PolymerBundle.png",
+			InternalName = "/Lotus/Types/Items/MiscItems/PolymerBundle",
+			Introduced = "Vanilla",
+			Link = "Polymer Bundle",
+			Name = "Polymer Bundle",
+			Rarity = "Uncommon",
+			Type = "Resource" 
+		},
+		["Proof Fragment"] = {
+			Description = "One part of a long lost mathematical proof.",
+			Image = "NavCoordinateNew.png",
+			InternalName = "",
+			Introduced = "15",
+			Link = "The Limbo Theorem",
+			Name = "Proof Fragment",
+			SellPrice = 750,
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Pulsating Tubercles"] = {
+			Description = "A grizzly trophy extracted from the corpse of a Juggernaut.",
+			HelminthCategory = "Pheromones",
+			HelminthCost = 3,
+			Image = "JuggernautTubercles.png",
+			InternalName = "",
+			Introduced = "16.7",
+			Link = "Pherliac Pod",
+			Name = "Pulsating Tubercles",
+			Type = "Resource" 
+		},
+		["Purged Dagonic"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 10,
+			BuildTime = 60,
+			Components = { { ItemCount = 1, Name = "Blueprint" }, { ItemCount = 10, Name = "Dagonic" } },
+			ConsumeOnBuild = false,
+			Description = "Crystalline symmetry, a far cry from its corrupt origin.",
+			Image = "PurgedDagonic.png",
+			InternalName = "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemBCutItem",
+			Introduced = "29",
+			Link = "Purged Dagonic",
+			Name = "Purged Dagonic",
+			Rush = 5,
+			Tradable = true,
+			Type = "Gem" 
+		},
+		["Purified Heciphron"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 10,
+			BuildTime = 60,
+			Components = { { ItemCount = 1, Name = "Blueprint" }, { ItemCount = 10, Name = "Heciphron" } },
+			ConsumeOnBuild = false,
+			Description = "Extracted from the Infestation and cut into a prestigious gem.",
+			Image = "PurifiedHeciphron.png",
+			InternalName = "/Lotus/Types/Items/Gems/Deimos/DeimosUncommonGemACutItem",
+			Introduced = "29",
+			Link = "Purified Heciphron",
+			Name = "Purified Heciphron",
+			Rush = 5,
+			Tradable = true,
+			Type = "Gem" 
+		},
+		Pustrels = {
+			BuildPrice = 1000,
+			BuildQuantity = 1,
+			BuildTime = 120,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 8500, Name = "Ferrite" },
+				{ ItemCount = 52000, Name = "Nano Spores" },
+				{ ItemCount = 2500, Name = "Plastids" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "A parasitic growth that often infects Eximus units operating in Infested environs. Location: Eris",
+			Image = "Pustrels.png",
+			InternalName = "/Lotus/Types/Items/RailjackMiscItems/PustrelsRailjackItem",
+			Introduced = "26.1",
+			Link = "Pustrels",
+			Name = "Pustrels",
+			Rush = 5,
+			Type = "Resource" 
+		},
+		["Pustulent Cognitive Nodule"] = {
+			Description = "The Infestation provokes the growth of multiple, seemingly redundant brain-like clusters, whose function may be linked to hivemind activity.",
+			Image = "PustulentCognitiveNodule.png",
+			InternalName = "",
+			Introduced = "29",
+			Link = "Pustulent Cognitive Nodule",
+			Name = "Pustulent Cognitive Nodule",
+			Type = "Fish Part" 
+		},
+		Pustulite = {
+			ContainerImage = "GravidBlastema.png",
+			Description = "Half-formed, incomplete spore bearers, little more than twitching flesh with claws to latch on with.",
+			HelminthCategory = "Biotics",
+			HelminthCost = 25,
+			Image = "Pustulite.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/InfGorgaricusSeedItem",
+			Introduced = "29",
+			Link = "Pustulite",
+			Name = "Pustulite",
+			Type = "Resource" 
+		},
+		Pyrol = {
+			Description = "A tarnished, brittle metal. Location: Plains of Eidolon",
+			Image = "Pyrol.png",
+			InternalName = "/Lotus/Types/Items/Gems/Eidolon/CommonOreAItem",
+			Introduced = "22",
+			ItemCount = 20,
+			Link = "Pyrol",
+			Name = "Pyrol",
+			Parents = { "Pyrotic Alloy", "Tempered Bapholite" },
+			Type = "Gem" 
+		},
+		["Pyrotic Alloy"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 20,
+			BuildTime = 60,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 200, Name = "Cryotic" },
+				{ ItemCount = 20, Name = "Pyrol" },
+				{ ItemCount = 50, Name = "Rubedo" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "Pyrol that has been forged into a stronger metal. Location: Old Man Suumbaat in Cetus",
+			Image = "PyroticAlloy.png",
+			InternalName = "/Lotus/Types/Items/Gems/Eidolon/CommonOreAAlloyAItem",
+			Introduced = "22",
+			ItemCount = 40,
+			Link = "Pyrotic Alloy",
+			Name = "Pyrotic Alloy",
+			Parents = {
+				"Ceno Greaves",
+				"Focused Nosam Cutter",
+				"Shockprod Fishing Spear",
+				"Stunna Fishing Spear",
+				"Tulok Fishing Spear",
+				"Vahd Greaves",
+				"Zauba Greaves" 
+			},
+			Rush = 5,
+			Type = "Gem" 
+		},
+		["Pyrus Essence"] = {
+			Description = "With a blazing orange hue and rigid material strength, this compound is prized by ship and station architects.",
+			Image = "PyrusEssence.png",
+			InternalName = "/Lotus/Types/Items/RelayRebuild/PhaseOneFireElement",
+			Introduced = "23.6",
+			Link = "Pyrus Essence",
+			Name = "Pyrus Essence",
+			Type = "Event" 
+		},
+		["Radian Sentirum"] = {
+			BuildPrice = 10000,
+			BuildQuantity = 3,
+			BuildTime = 60,
+			Components = { { ItemCount = 1, Name = "Blueprint" }, { ItemCount = 3, Name = "Sentirum" } },
+			ConsumeOnBuild = false,
+			Description = "Polished and cut to perfection. Location: Old Man Suumbaat in Cetus",
+			Image = "RadianSentirum.png",
+			InternalName = "/Lotus/Types/Items/Gems/Eidolon/EidolonGemACutAItem",
+			Introduced = "22",
+			ItemCount = 1,
+			Link = "Radian Sentirum",
+			Name = "Radian Sentirum",
+			Parents = {
+				"Ceno Apparel",
+				"Ceno Cuirass",
+				"Ceno Greaves",
+				"Ceno Helmet",
+				"Ceno Pauldrons",
+				"Eidolon Ephemera",
+				"Exceptional Sentient Core" 
+			},
+			Rush = 5,
+			Tradable = true,
+			Type = "Gem" 
+		},
+		["Radiant Eidolon Shard"] = {
+			Description = "Rare shard gained from capturing the Sentients roaming the Plains of Eidolon. Use it to gain Focus.",
+			Image = "RadiantEidolonShard.png",
+			InternalName = "",
+			Introduced = "22.12",
+			Link = "Radiant Eidolon Shard",
+			Name = "Radiant Eidolon Shard",
+			Type = "Resource" 
+		},
+		["Radiant Zodian"] = {
+			BuildPrice = 10000,
+			BuildQuantity = 3,
+			BuildTime = 60,
+			Components = { { ItemCount = 1, Name = "Blueprint" }, { ItemCount = 3, Name = "Zodian" } },
+			ConsumeOnBuild = false,
+			Description = "Polished and cut to perfection.",
+			Image = "RadiantZodian.png",
+			InternalName = "/Lotus/Types/Items/Gems/Solaris/SolarisEidolonGemACutItem",
+			Introduced = "24",
+			ItemCount = 3,
+			Link = "Radiant Zodian",
+			Name = "Radiant Zodian",
+			Parents = {
+				"Haztech Mask",
+				"Haztech Pauldrons",
+				"Kubrodon Ventkid Mask",
+				"Kubrodon Ventkid Pauldrons",
+				"Outrider Mask",
+				"Outrider Pauldrons",
+				"Pax Bolt",
+				"Pax Charge",
+				"Smelter Mask",
+				"Smelter Pauldrons",
+				"Vent Pobber Ventkid Mask",
+				"Vent Pobber Ventkid Pauldrons",
+				"Vent Rat Mask",
+				"Vent Rat Pauldrons" 
+			},
+			Rush = 5,
+			Tradable = true,
+			Type = "Gem" 
+		},
+		["Railgun Blue"] = {
+			Description = "Railgun Blue pigments drop from the following enemies:\
+Railgun Moa",
+			Image = "Railgun Blue.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Railgun Blue",
+			Type = "Pigment" 
+		},
+		["Recaster Neural Relay"] = {
+			Description = "Interprets signals from other mechanical organisms.",
+			Image = "NeuralRelay.png",
+			InternalName = "",
+			Introduced = "24",
+			Link = "Recaster Neural Relay",
+			Name = "Recaster Neural Relay",
+			Type = "Fish Part" 
+		},
+		["Relay Strut Component"] = {
+			BuildPrice = 5000,
+			BuildQuantity = 1,
+			BuildTime = 10800,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 2, Name = "Morphics" },
+				{ ItemCount = 5000, Name = "Salvage" },
+				{ ItemCount = 15, Name = "Trembera Essence" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "An integral building block in the construction of Tenno relays.",
+			Image = "RelayStrutComponent.png",
+			InternalName = "/Lotus/Types/Items/RelayRebuild/PhaseOneClanItem",
+			Introduced = "23.6",
+			Link = "Relay Strut Component",
+			Name = "Relay Strut Component",
+			Rush = 10,
+			Type = "Resource" 
+		},
+		["Repeller Systems"] = {
+			Description = "Anti-gravity system that allows massively heavy objects to be manipulated by a single user.",
+			Image = "Repeller Systems.png",
+			InternalName = "/Lotus/Types/Gameplay/Venus/Resources/CorpusWidgetCItem",
+			Introduced = "24.2",
+			Link = "Repeller Systems",
+			Name = "Repeller Systems",
+			Type = "Resource" 
+		},
+		["Riven Sliver"] = {
+			Description = "A fragment of a sundered Riven. It is known that, with enough slivers, Palladino is capable of reforging a complete Riven.",
+			Image = "RivenSliver.png",
+			InternalName = "",
+			Introduced = "26",
+			Link = "Riven Sliver",
+			Name = "Riven Sliver",
+			Type = "Resource" 
+		},
+		["Riven Transmuter"] = {
+			Description = "Combine multiple Rivens to create a new, different Riven.",
+			Image = "RivenTransmuter.png",
+			InternalName = "/Lotus/Types/Gameplay/Eidolon/Resources/SentientSecretItem",
+			Introduced = "22.12",
+			Link = "Riven Transmuter",
+			Name = "Riven Transmuter",
+			Type = "Resource" 
+		},
+		["River Blue"] = {
+			Description = "River Blue pigments drop from the following enemies:\
+Seeker",
+			Image = "River Blue.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "River Blue",
+			Type = "Pigment" 
+		},
+		Rubedo = {
+			ContainerImage = "RubedoContainer.png",
+			Description = "A jagged crystalline ore. Gives off radiant energy. Locations: Earth, Lua, Phobos, Europa, Pluto, Sedna, and the Void.",
+			HelminthCategory = "Calx",
+			HelminthCost = 6000,
+			Image = "Rubedo.png",
+			InternalName = "/Lotus/Types/Items/MiscItems/Rubedo",
+			Introduced = "Vanilla",
+			Link = "Rubedo",
+			Name = "Rubedo",
+			Rarity = "Uncommon",
+			Type = "Resource" 
+		},
+		["Ruk's Claw"] = {
+			Description = "This plant was introduced to arid regions across the Origin System, for its ability to collect moisture in harsh environments. Locations: Mars",
+			HelminthCategory = "Biotics",
+			HelminthCost = 8,
+			Image = "GftPlantRuksClawMature.png",
+			InternalName = "/Lotus/Types/Items/Plants/MiscItems/GftPlantRuksClawMaturePlantItem",
+			Introduced = "Update: The Silver Grove",
+			ItemCount = 6,
+			Link = "Ruk's Claw",
+			Name = "Ruk's Claw",
+			Parents = { "Twilight Apothic" },
+			Type = "Plant" 
+		},
+		Salvage = {
+			ContainerImage = "SalvageContainer.png",
+			Description = "High value metals collected from war salvage. Locations: Mars, Jupiter, and Sedna.",
+			HelminthCategory = "Oxides",
+			HelminthCost = 20000,
+			Image = "Salvage.png",
+			InternalName = "/Lotus/Types/Items/MiscItems/Salvage",
+			Introduced = "Vanilla",
+			Link = "Salvage",
+			Name = "Salvage",
+			Rarity = "Common",
+			Type = "Resource" 
+		},
+		["Sand Yellow"] = {
+			Description = "Sand Yellow pigments drop from the following enemies:\
+Scorpion",
+			Image = "Sand Yellow.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Sand Yellow",
+			Type = "Pigment" 
+		},
+		["Sapcaddy Venedo Case"] = {
+			Description = "A strong, metallic case that is resistant to fluctuations in environmental temperature.",
+			Image = "VenedoCase.png",
+			InternalName = "",
+			Introduced = "24",
+			Link = "Sapcaddy Venedo Case",
+			Name = "Sapcaddy Venedo Case",
+			Type = "Fish Part" 
+		},
+		["Saturated Muscle Mass"] = {
+			Description = "Environmental contamination is co-responsible for mutations, alongside Infested cellular alteration.",
+			Image = "SaturatedMuscleMass.png",
+			InternalName = "",
+			Introduced = "29",
+			Link = "Saturated Muscle Mass",
+			Name = "Saturated Muscle Mass",
+			Type = "Fish Part" 
+		},
+		Scintillant = {
+			Description = "These scarce, hovering relics of the Orokin era can still be found monitoring the isolation vaults deep beneath the surface of Deimos.",
+			Image = "Scintillant.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/EntratiWispItem",
+			Introduced = "29",
+			ItemCount = 4,
+			Link = "Scintillant",
+			Name = "Scintillant",
+			Parents = {
+				"Bonewidow Capsule",
+				"Loid Sentinel Mask",
+				"Loid Sentinel Skin",
+				"Loid Sentinel Tail",
+				"Loid Sentinel Wing",
+				"Voidrig Capsule" 
+			},
+			Type = "Resource" 
+		},
+		["Scorched Beacon"] = {
+			Description = "",
+			Image = "ScorchedBeacon64.png",
+			InternalName = "",
+			Introduced = "16",
+			Link = "The New Strange/Scorched Beacon",
+			Name = "Scorched Beacon",
+			Type = "Resource" 
+		},
+		Scrap = {
+			Description = "A sample of sprockets, gyros and wires. Acquired by disassembling any Servofish.",
+			Image = "Scrap.png",
+			InternalName = "/Lotus/Types/Items/Fish/Solaris/Fish Parts/GenericFishScrapItem",
+			Introduced = "24",
+			Link = "Scrap",
+			Name = "Scrap",
+			Type = "Fish Part" 
+		},
+		["Scrubber Exa Brain"] = {
+			Description = "A small, electronic brain capable of processing a billion giga-threads per second.",
+			Image = "ExaBrain.png",
+			InternalName = "",
+			Introduced = "24",
+			Link = "Scrubber Exa Brain",
+			Name = "Scrubber Exa Brain",
+			Type = "Fish Part" 
+		},
+		Sentirum = {
+			Description = "A rare Eidolon Gem, created from the fossilized blood of an ancient Sentient.",
+			Image = "Sentirum.png",
+			InternalName = "/Lotus/Types/Items/Gems/Eidolon/EidolonGemAItem",
+			Introduced = "22",
+			ItemCount = 3,
+			Link = "Sentirum",
+			Name = "Sentirum",
+			Parents = { "Radian Sentirum" },
+			Type = "Gem" 
+		},
+		["Seram Beetle Shell"] = {
+			Description = "This thick shell is used by Ostrons to manufacture tools and weapons.",
+			Image = "SeramBeetleShell.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Seram Beetle Shell",
+			Name = "Seram Beetle Shell",
+			Type = "Fish Part" 
+		},
+		["Seriglass Shard"] = {
+			Description = "Once part of an intricate Entrati apparatus, now shattered and bearing a sharp edge.",
+			Image = "SeriglassShard.png",
+			InternalName = "/Lotus/Types/Items/Deimos/SeriglassShard",
+			Introduced = "29",
+			Link = "Seriglass Shard",
+			Name = "Seriglass Shard",
+			Type = "Resource" 
+		},
+		["Severed Bile Sac"] = {
+			Description = "A grizzly trophy extracted from the corpse of a Juggernaut.",
+			HelminthCategory = "Pheromones",
+			HelminthCost = 3,
+			Image = "JuggernautBileSac.png",
+			InternalName = "",
+			Introduced = "16.7",
+			Link = "Pherliac Pod",
+			Name = "Severed Bile Sac",
+			Type = "Resource" 
+		},
+		["Shard Black"] = {
+			Description = "Shard Black pigments drop from the following enemies:\
+Eidolon Vomvalyst",
+			Image = "Shard Black.png",
+			InternalName = "",
+			Introduced = "22.20",
+			Link = "Pigment",
+			Name = "Shard Black",
+			Type = "Pigment" 
+		},
+		["Sharrac Teeth"] = {
+			Description = "These will often adorn ceremonial garb or as a reagent for synthetics.",
+			Image = "SharracTeeth.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Sharrac Teeth",
+			Name = "Sharrac Teeth",
+			Type = "Fish Part" 
+		},
+		["Shelter Debt-Bond"] = {
+			Description = "Covers everything from hab rent to insurance, docking permits and paying off that rail tractor. Big ticket items.",
+			Image = "ShelterDebtBond64.png",
+			InternalName = "/Lotus/Types/Items/Solaris/DebtTokenB",
+			Introduced = "24",
+			Link = "Shelter Debt-Bond",
+			Name = "Shelter Debt-Bond",
+			Type = "Resource" 
+		},
+		["Sister Of Parvos Token"] = {
+			Description = "A token symbolizing a converted Sister of Parvos. Can be traded to other players for control of said Sister of Parvos.",
+			Image = "SisterOfParvosToken.png",
+			InternalName = "/Lotus/Types/Game/Nemesis/KuvaLich/CapturedCorpusLichToken",
+			Introduced = "30.5",
+			Link = "Sister Of Parvos Token",
+			Name = "Sister Of Parvos Token",
+			Type = "Resource" 
+		},
+		["Skateweed Extract"] = {
+			Description = "Extracted from Skateweed.",
+			Image = "SkateweedExtract.png",
+			InternalName = "/Lotus/Types/Items/Plants/MiscItems/IresPlantItem",
+			Link = "Skateweed Extract",
+			Name = "Skateweed Extract",
+			Type = "Plant" 
+		},
+		["Smooth Phasmin"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 10,
+			BuildTime = 60,
+			Components = { { ItemCount = 1, Name = "Blueprint" }, { ItemCount = 10, Name = "Phasmin" } },
+			ConsumeOnBuild = false,
+			Description = "Polished and cut to perfection.",
+			Image = "SmoothPhasmin.png",
+			InternalName = "/Lotus/Types/Items/Gems/Solaris/SolarisCommonGemACutItem",
+			Introduced = "24",
+			Link = "Smooth Phasmin",
+			Name = "Smooth Phasmin",
+			Rush = 5,
+			Tradable = true,
+			Type = "Gem" 
+		},
+		["Sola Toroid"] = {
+			Description = "A device of undetermined function and origin. Prized by Vox Solaris and the Quills. Earn Sola Toroids from enemies located at the Temple of Profit in the Orb Vallis and from Kyta Raknoids. They can also be found as pick-ups in caves located around the Orb Vallis.",
+			Image = "SolaToroid.png",
+			InternalName = "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidWraithItem",
+			Introduced = "24",
+			ItemCount = 5,
+			Link = "Sola Toroid",
+			Name = "Sola Toroid",
+			Parents = {
+				"Haztech Greaves",
+				"Kubrodon Ventkid Greaves",
+				"Outrider Greaves",
+				"Smelter Greaves",
+				"Vent Pobber Ventkid Greaves",
+				"Vent Rat Greaves" 
+			},
+			Type = "Resource" 
+		},
+		["Somatic Fibers"] = {
+			Description = "Neural fibers sampled from an early Warframe prototype and preserved in a stabilized cerebral fluid.",
+			HelminthCategory = "Bile",
+			HelminthCost = 10,
+			Image = "SomaticFibers.png",
+			InternalName = "",
+			Introduced = "25.7",
+			Link = "Somatic Fibers",
+			Name = "Somatic Fibers",
+			Type = "Resource" 
+		},
+		["Son Token"] = {
+			Description = "A mark of Son's respect for services rendered.",
+			Image = "SonToken.png",
+			InternalName = "/Lotus/Types/Items/Deimos/EntratiFragmentCommonB",
+			Introduced = "29",
+			Link = "Son Token",
+			Name = "Son Token",
+			Type = "Resource" 
+		},
+		["Spectral Debris"] = {
+			Description = "Discharged specter particles form an inert dust that can be collected and re-energized for various robotic projects.",
+			Image = "SpectralDebris.png",
+			InternalName = "",
+			Introduced = "30.5",
+			Link = "Spectral Debris",
+			Name = "Spectral Debris",
+			Type = "Resource" 
+		},
+		["Spinal Core Section"] = {
+			Description = "Many delicate and complex nerve fibers are housed in the jointed vertebrae, which are one of the creature's most resilient parts. Found from Vitreospina fish known to eke out a primitive existence in cave systems.Guaranteed to drop from these sources: VITREOSPINA CHONDRICORD",
+			Image = "SpinalCoreSection.png",
+			InternalName = "/Lotus/Types/Items/Fish/Deimos/Fish Parts/DeimosOrokinFishBPartItem",
+			Introduced = "29",
+			Link = "Spinal Core Section",
+			Name = "Spinal Core Section",
+			Type = "Fish Part" 
+		},
+		["Sporulate Sac"] = {
+			Description = "These pressurized repositories of Infested spores require careful extraction or explosive rupture and local contamination may occur.",
+			Image = "SporulateSac.png",
+			InternalName = "",
+			Introduced = "29",
+			Link = "Sporulate Sac",
+			Name = "Sporulate Sac",
+			Type = "Fish Part" 
+		},
+		["Stable Corruptor"] = {
+			Description = "Injected into a Fomorian Reactor this corruptor will imbalance the fuels. Critically imbalanced reactors will eventually implode, destroy the ship. Slow but effective, recommended for Solo Tenno.",
+			Image = "Warframe Stable Corruptor.png",
+			InternalName = "",
+			Introduced = "9.3",
+			Link = "Corruptor",
+			Name = "Stable Corruptor",
+			Type = "Event" 
+		},
+		["Star Amarast"] = {
+			BuildPrice = 5000,
+			BuildQuantity = 6,
+			BuildTime = 60,
+			Components = { { ItemCount = 6, Name = "Amarast" }, { ItemCount = 1, Name = "Blueprint" } },
+			ConsumeOnBuild = false,
+			Description = "Polished and cut to perfection.",
+			Image = "StarAmarast.png",
+			InternalName = "/Lotus/Types/Items/Gems/Solaris/SolarisRareGemACutItem",
+			Introduced = "24",
+			Link = "Star Amarast",
+			Name = "Star Amarast",
+			Rush = 5,
+			Tradable = true,
+			Type = "Gem" 
+		},
+		["Star Crimzian"] = {
+			BuildPrice = 5000,
+			BuildQuantity = 6,
+			BuildTime = 60,
+			Components = { { ItemCount = 1, Name = "Blueprint" }, { ItemCount = 6, Name = "Crimzian" } },
+			ConsumeOnBuild = false,
+			Description = "Polished and cut to perfection. Location: Old Man Suumbaat in Cetus",
+			Image = "StarCrimzian.png",
+			InternalName = "/Lotus/Types/Items/Gems/Eidolon/RareGemACutAItem",
+			Introduced = "22",
+			ItemCount = 6,
+			Link = "Star Crimzian",
+			Name = "Star Crimzian",
+			Parents = { "Bonewidow Capsule" },
+			Rush = 5,
+			Tradable = true,
+			Type = "Gem" 
+		},
+		["Steel Essence"] = {
+			Description = "Tokens of Teshin's Esteem earned from Incursion Alerts or Acolytes on The Steel Path. Can be exchanged for items that prove your warrior capabilities.",
+			Image = "SteelEssence.png",
+			InternalName = "",
+			Introduced = "28.1",
+			Link = "Steel Essence",
+			Name = "Steel Essence",
+			Type = "Resource" 
+		},
+		["Stellated Necrathene"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 6,
+			BuildTime = 60,
+			Components = { { ItemCount = 1, Name = "Blueprint" }, { ItemCount = 6, Name = "Necrathene" } },
+			ConsumeOnBuild = false,
+			Description = "A prismatic refinement of raw Necrathene, highly sought after.",
+			Image = "StellatedNecrathene.png",
+			InternalName = "/Lotus/Types/Items/Gems/Deimos/DeimosRareGemACutItem",
+			Introduced = "29",
+			ItemCount = 16,
+			Link = "Stellated Necrathene",
+			Name = "Stellated Necrathene",
+			Parents = { "Voidrig Casing" },
+			Rush = 5,
+			Tradable = true,
+			Type = "Gem" 
+		},
+		["Sunlight Dragonlily"] = {
+			Description = "This uncommon plant can only be found during the day.",
+			HelminthCategory = "Biotics",
+			HelminthCost = 8,
+			Image = "ForestDayUncommon.png",
+			InternalName = "/Lotus/Types/Items/Plants/MiscItems/UnCommonDayPlantItem",
+			Introduced = "11.5",
+			ItemCount = 10,
+			Link = "Sunlight Dragonlily",
+			Name = "Sunlight Dragonlily",
+			Parents = {
+				"Citrine Antitoxin",
+				"Lapis Antitoxin",
+				"The Silver Grove",
+				"Vermillion Antitoxin" 
+			},
+			Type = "Plant" 
+		},
+		["Sunlight Jadeleaf"] = {
+			Description = "This rare plant can only be found during the day.",
+			HelminthCategory = "Biotics",
+			HelminthCost = 8,
+			Image = "ForestDayRare.png",
+			InternalName = "/Lotus/Types/Items/Plants/MiscItems/RareDayPlantItem",
+			Introduced = "11.5",
+			ItemCount = 1,
+			Link = "Sunlight Jadeleaf",
+			Name = "Sunlight Jadeleaf",
+			Parents = {
+				"Health Restore (Large",
+				"Lapis Antitoxin",
+				"Sunrise Apothic",
+				"Vermillion Antitoxin" 
+			},
+			Type = "Plant" 
+		},
+		["Sunlight Threshcone"] = {
+			Description = "This common plant can only be found during the day.",
+			HelminthCategory = "Biotics",
+			HelminthCost = 8,
+			Image = "ForestDayCommon.png",
+			InternalName = "/Lotus/Types/Items/Plants/MiscItems/CommonDayPlantItem",
+			Introduced = "11.5",
+			ItemCount = 15,
+			Link = "Sunlight Threshcone",
+			Name = "Sunlight Threshcone",
+			Parents = {
+				"Beryl Antitoxin",
+				"Citrine Antitoxin",
+				"Health Restore (Large",
+				"Nightfall Apothic" 
+			},
+			Type = "Plant" 
+		},
+		["Synathid Ecosynth Analyzer"] = {
+			Description = "A processing unit that efficiently monitors environmental data.",
+			Image = "EcosynthAnalyzer.png",
+			InternalName = "",
+			Introduced = "24",
+			Link = "Synathid Ecosynth Analyzer",
+			Name = "Synathid Ecosynth Analyzer",
+			Type = "Fish Part" 
+		},
+		["Synthetic Eidolon Shard"] = {
+			Description = "",
+			Image = "SentientShardSynthetic.png",
+			InternalName = "",
+			Introduced = "22.18",
+			Link = "Synthetic Eidolon Shard",
+			Name = "Synthetic Eidolon Shard",
+			Type = "Resource" 
+		},
+		Synthula = {
+			Description = "Distilled fuel for stims.",
+			Image = "Eventium.png",
+			InternalName = "",
+			Introduced = "19.12",
+			Link = "Synthula",
+			Name = "Synthula",
+			Type = "Resource" 
+		},
+		["Syrtis Orange"] = {
+			Description = "Syrtis Orange pigments drop from the following enemies:\
+Arid Eviscerator",
+			Image = "Syrtis Orange.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Syrtis Orange",
+			Type = "Pigment" 
+		},
+		["Tear Azurite"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 10,
+			BuildTime = 60,
+			Components = { { ItemCount = 10, Name = "Azurite" }, { ItemCount = 1, Name = "Blueprint" } },
+			ConsumeOnBuild = false,
+			Description = "Polished and cut to perfection. Location: Old Man Suumbaat in Cetus",
+			Image = "TearAzurite.png",
+			InternalName = "/Lotus/Types/Items/Gems/Eidolon/CommonGemACutAItem",
+			Introduced = "22",
+			ItemCount = 1,
+			Link = "Tear Azurite",
+			Name = "Tear Azurite",
+			Parents = { "Focused Nosam Cutter" },
+			Rush = 5,
+			Tradable = true,
+			Type = "Gem" 
+		},
+		Tellurium = {
+			Description = "This rare metal is foreign to the Origin System and can only be found in asteroids that have made the long journey from other stars.",
+			HelminthCategory = "Oxides",
+			HelminthCost = 10,
+			Image = "TelluriumMarket.png",
+			InternalName = "",
+			Introduced = "15.7.2",
+			Link = "Tellurium",
+			Name = "Tellurium",
+			Rarity = "Rare",
+			Type = "Resource" 
+		},
+		["Tempered Bapholite"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 20,
+			BuildTime = 60,
+			Components = {
+				{ ItemCount = 20, Name = "Bapholite" },
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 15, Name = "Lucent Teroglobe" },
+				{ ItemCount = 1600, Name = "Nano Spores" },
+				{ ItemCount = 20, Name = "Pyrol" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "Fused with its inert Infested tendrils into a durable alloy.",
+			Image = "TemperedBapholite.png",
+			InternalName = "/Lotus/Types/Items/Gems/Deimos/DeimosCommonOreBAlloyItem",
+			Introduced = "29",
+			ItemCount = 80,
+			Link = "Tempered Bapholite",
+			Name = "Tempered Bapholite",
+			Parents = { "Bonewidow Casing", "Cortege Stock", "Morgha Stock", "Voidrig Engine" },
+			Rush = 5,
+			Type = "Gem" 
+		},
+		["Tepa Nodule"] = {
+			ContainerImage = "TepaPlant.png",
+			Description = "The irradescent nodules on these plants glow brightly in cold environments.",
+			HelminthCategory = "Biotics",
+			HelminthCost = 50,
+			Image = "TepaNodule.png",
+			InternalName = "/Lotus/Types/Gameplay/Venus/Resources/VenusTreeItem",
+			Introduced = "24",
+			ItemCount = 20,
+			Link = "Tepa Nodule",
+			Name = "Tepa Nodule",
+			Parents = { "Pax Soar" },
+			Type = "Resource" 
+		},
+		["Tethra Data Fragments"] = {
+			Description = "Intercepted encrypted fragment of Grineer communications.",
+			Image = "TethraDataFragments.png",
+			InternalName = "",
+			Introduced = "12.4",
+			Link = "Tethra Data Fragments",
+			Name = "Tethra Data Fragments",
+			SellPrice = 750,
+			Type = "Event" 
+		},
+		["Tharsis Brown"] = {
+			Description = "Tharsis Brown pigments drop from the following enemies:\
+Ballista",
+			Image = "Tharsis Brown.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Tharsis Brown",
+			Type = "Pigment" 
+		},
+		["Thaumic Distillate"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 20,
+			BuildTime = 60,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 4, Name = "Gallium" },
+				{ ItemCount = 15, Name = "Lucent Teroglobe" },
+				{ ItemCount = 20, Name = "Thaumica" },
+				{ ItemCount = 20, Name = "Venerol" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "Thaumica reduced to its most durable, workable elements.",
+			Image = "ThaumicDistillate.png",
+			InternalName = "/Lotus/Types/Items/Gems/Deimos/DeimosRareOreAAlloyItem",
+			Introduced = "29",
+			ItemCount = 20,
+			Link = "Thaumic Distillate",
+			Name = "Thaumic Distillate",
+			Parents = { "Bonewidow Casing", "Voidrig Weapon Pod" },
+			Rush = 5,
+			Type = "Gem" 
+		},
+		Thaumica = {
+			Description = "Can be molded by the Infestation but remains resistant to it.",
+			Image = "Thaumica.png",
+			InternalName = "/Lotus/Types/Items/Gems/Deimos/DeimosRareOreAItem",
+			Introduced = "29",
+			ItemCount = 20,
+			Link = "Thaumica",
+			Name = "Thaumica",
+			Parents = { "Thaumic Distillate" },
+			Type = "Gem" 
+		},
+		["Thermal Sludge"] = {
+			ContainerImage = "ThermalSludgeContainer.png",
+			Description = "A by-product from the Weeping Towers terraforming processes.",
+			HelminthCategory = "Bile",
+			HelminthCost = 50,
+			Image = "ThermalSludge.png",
+			InternalName = "/Lotus/Types/Gameplay/Venus/Resources/CoolantItem",
+			Introduced = "24",
+			Link = "Thermal Sludge",
+			Name = "Thermal Sludge",
+			Type = "Resource" 
+		},
+		Thyst = {
+			Description = "A beautiful and iridescent red shard.",
+			Image = "Thyst.png",
+			InternalName = "/Lotus/Types/Items/Gems/Solaris/SolarisEidolonGemBItem",
+			Introduced = "24",
+			ItemCount = 3,
+			Link = "Thyst",
+			Name = "Thyst",
+			Parents = { "Marquise Thyst" },
+			Type = "Gem" 
+		},
+		Tiametrite = {
+			Description = "Infested neurotransmitters condensed under pressure.",
+			Image = "Tiametrite.png",
+			InternalName = "/Lotus/Types/Items/Gems/Deimos/DeimosCommonGemAItem",
+			Introduced = "29",
+			ItemCount = 10,
+			Link = "Tiametrite",
+			Name = "Tiametrite",
+			Parents = { "Faceted Tiametrite" },
+			Type = "Gem" 
+		},
+		["Ticor Plate"] = {
+			Description = "High-density alloy armor plating used in the construction of offensive spacecraft.",
+			HelminthCategory = "Bile",
+			HelminthCost = 5000,
+			Image = "Ticor Plate.png",
+			InternalName = "/Lotus/Types/Items/RailjackMiscItems/ScrapRailjackItem",
+			Introduced = "29.10",
+			Link = "Ticor Plate",
+			Name = "Ticor Plate",
+			Type = "Resource" 
+		},
+		["Tink Dissipator Coil"] = {
+			Description = "Discharges excess heat and energy through the casing. Acquired by disassembling Tink Servofish.",
+			Image = "TinkDissipatorCoil.png",
+			InternalName = "/Lotus/Types/Items/Fish/Solaris/Fish Parts/SolarisFishDissipatorCoilItem",
+			Introduced = "24",
+			Link = "Tink Dissipator Coil",
+			Name = "Tink Dissipator Coil",
+			Type = "Fish Part" 
+		},
+		Tipedo = {
+			Image = "Tipedo.png",
+			InternalName = "/Lotus/Weapons/Tenno/Melee/Staff/MonkSpade/TnoMonkStaff",
+			Introduced = "15.9",
+			Link = "Tipedo",
+			Name = "Tipedo",
+			Type = "Weapon" 
+		},
+		Titanium = {
+			Description = "This highly malleable metal was exploited in great quantities by the Orokin and can now only be found within space rock.",
+			HelminthCategory = "Oxides",
+			HelminthCost = 10000,
+			Image = "Titanium.png",
+			InternalName = "/Lotus/Types/Items/RailjackMiscItems/TitaniumRailjackItem",
+			Introduced = "27",
+			ItemCount = 750,
+			Link = "Titanium",
+			Name = "Titanium",
+			Parents = { "Bonewidow Engine", "Protea Mavv Helmet" },
+			Type = "Resource" 
+		},
+		["Tower White"] = {
+			Description = "Tower White pigments drop from the following enemies:\
+Kuva Jester",
+			Image = "Tower White.png",
+			InternalName = "",
+			Introduced = "22.20",
+			Link = "Pigment",
+			Name = "Tower White",
+			Type = "Pigment" 
+		},
+		Trachons = {
+			BuildPrice = 1000,
+			BuildQuantity = 1,
+			BuildTime = 120,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 45, Name = "Mutagen Sample" },
+				{ ItemCount = 26000, Name = "Nano Spores" },
+				{ ItemCount = 1500, Name = "Plastids" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "An organ found on Infested Ships believed to facilitate communication within the Infested Hivemind.",
+			Image = "Trachons.png",
+			InternalName = "/Lotus/Types/Items/RailjackMiscItems/TrachonsRailjackItem",
+			Introduced = "27",
+			Link = "Trachons",
+			Name = "Trachons",
+			Rush = 5,
+			Type = "Resource" 
+		},
+		["Training Debt-Bond"] = {
+			Description = "The Taxmen call it an investment in our future, but loans to cover vocational and specialist training almost always cost more than you'll ever earn. Especially with the interest.",
+			Image = "TrainingDebtBond64.png",
+			InternalName = "/Lotus/Types/Items/Solaris/DebtTokenA",
+			Introduced = "24",
+			Link = "Training Debt-Bond",
+			Name = "Training Debt-Bond",
+			Type = "Resource" 
+		},
+		["Tralok Eyes"] = {
+			Description = "The Ostron boil these into a jelly which forms a strong adhesive when it dries.",
+			Image = "TralokEyes.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Tralok Eyes",
+			Name = "Tralok Eyes",
+			Type = "Fish Part" 
+		},
+		["Trapezium Xenorhast"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 3,
+			BuildTime = 60,
+			Components = { { ItemCount = 1, Name = "Blueprint" }, { ItemCount = 3, Name = "Xenorhast" } },
+			ConsumeOnBuild = false,
+			Description = "Facets gleam with the un-light of the Void.",
+			Image = "TrapeziumXenorhast.png",
+			InternalName = "/Lotus/Types/Items/Gems/Deimos/DeimosEidolonGemACutItem",
+			Introduced = "29",
+			ItemCount = 10,
+			Link = "Trapezium Xenorhast",
+			Name = "Trapezium Xenorhast",
+			Parents = { "Cortege Receiver", "Morgha Receiver" },
+			Rush = 5,
+			Tradable = true,
+			Type = "Gem" 
+		},
+		["Travocyte Alloy"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 20,
+			BuildTime = 60,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 100, Name = "Plastids" },
+				{ ItemCount = 500, Name = "Salvage" },
+				{ ItemCount = 20, Name = "Travoride" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "A compound formed from Travoride.",
+			Image = "TravocyteAlloy.png",
+			InternalName = "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreAAlloyItem",
+			Introduced = "24",
+			ItemCount = 30,
+			Link = "Travocyte Alloy",
+			Name = "Travocyte Alloy",
+			Parents = { "Sunpoint Plasma Drill" },
+			Rush = 5,
+			Type = "Gem" 
+		},
+		Travoride = {
+			Description = "A mineral hardened by the crushing pressure of the Venusian atmosphere.",
+			Image = "Travoride.png",
+			InternalName = "/Lotus/Types/Items/Gems/Solaris/SolarisCommonOreAItem",
+			Introduced = "24",
+			ItemCount = 20,
+			Link = "Travoride",
+			Name = "Travoride",
+			Parents = { "Adramal Alloy", "Travocyte Alloy" },
+			Type = "Gem" 
+		},
+		["Tree Green"] = {
+			Description = "Tree Green pigments drop from the following enemies:\
+Arid Lancer",
+			Image = "Tree Green.png",
+			InternalName = "",
+			Introduced = "15.6",
+			Link = "Pigment",
+			Name = "Tree Green",
+			Type = "Pigment" 
+		},
+		["Trembera Essence"] = {
+			Description = "A highly purified mineral compound prized for its strength, resiliency, and resistance to heat. Widely used in the construction of Tenno relays.",
+			Image = "TremberaEssence.png",
+			InternalName = "/Lotus/Types/Items/RelayRebuild/PhaseThreeEarthEssence",
+			Introduced = "23.6",
+			ItemCount = 15,
+			Link = "Trembera Essence",
+			Name = "Trembera Essence",
+			Parents = { "Relay Strut Component" },
+			Type = "Event" 
+		},
+		["Tromyzon Entroplasma"] = {
+			Description = "A solvent that reconstitutes waste product from the Weeping Towers into degenerated matter.",
+			Image = "Entroplasma.png",
+			InternalName = "",
+			Introduced = "24",
+			Link = "Tromyzon Entroplasma",
+			Name = "Tromyzon Entroplasma",
+			Type = "Fish Part" 
+		},
+		["Tubercular Gill System"] = {
+			Description = "Adaptive membranes allow many Deimos fish to move freely between fluid and gaseous environments.",
+			Image = "TubercularGillSystem.png",
+			InternalName = "",
+			Introduced = "29",
+			Link = "Tubercular Gill System",
+			Name = "Tubercular Gill System",
+			Type = "Fish Part" 
+		},
+		["Unairu Lens"] = {
+			Description = "Converts 1.25% of excess Affinity into Focus for the Unairu Way.",
+			Image = "FocusLens1Rank sq.png",
+			InternalName = "",
+			Introduced = "18",
+			Link = "Regular Lens",
+			Name = "Unairu Lens",
+			Tradable = true,
+			Type = "Resource" 
+		},
+		Vasto = {
+			Image = "Vasto.png",
+			InternalName = "/Lotus/Weapons/Tenno/Pistol/RevolverPistol",
+			Introduced = "9.3",
+			Link = "Vasto",
+			Name = "Vasto",
+			Type = "Weapon" 
+		},
+		["Vasto Prime"] = {
+			Image = "PrimeVasto.png",
+			InternalName = "/Lotus/Weapons/Tenno/Pistols/PrimeVasto/PrimeVastoPistol",
+			Introduced = "15.7",
+			Link = "Vasto Prime",
+			Name = "Vasto Prime",
+			Type = "Weapon" 
+		},
+		["Vazarin Lens"] = {
+			Description = "Converts 1.25% of excess Affinity into Focus for the Vazarin Way.",
+			Image = "FocusLens1Rank sq.png",
+			InternalName = "",
+			Introduced = "18",
+			Link = "Regular Lens",
+			Name = "Vazarin Lens",
+			Tradable = true,
+			Type = "Resource" 
+		},
+		["Vega Toroid"] = {
+			Description = "A device of undetermined function and origin. Prized by Vox Solaris and the Quills. Earn Vega Toroids from enemies located at the Spaceport in the Orb Vallis and from Mite Raknoids. They can also be found as pick-ups in caves located around the Orb Vallis.",
+			Image = "VegaToroid.png",
+			InternalName = "/Lotus/Types/Gameplay/Venus/Resources/ArachnoidMicroidItem",
+			Introduced = "24",
+			ItemCount = 5,
+			Link = "Vega Toroid",
+			Name = "Vega Toroid",
+			Parents = {
+				"Haztech Pauldrons",
+				"Kubrodon Ventkid Pauldrons",
+				"Outrider Pauldrons",
+				"Smelter Pauldrons",
+				"Vent Pobber Ventkid Pauldrons",
+				"Vent Rat Pauldrons" 
+			},
+			Type = "Resource" 
+		},
+		["Venerdo Alloy"] = {
+			BuildPrice = 1000,
+			BuildQuantity = 20,
+			BuildTime = 60,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 2, Name = "Gallium" },
+				{ ItemCount = 300, Name = "Rubedo" },
+				{ ItemCount = 20, Name = "Venerol" } 
+			},
+			ConsumeOnBuild = false,
+			Description = "A compound formed from Venerol.",
+			Image = "VenerdoAlloy.png",
+			InternalName = "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonOreAAlloyItem",
+			Introduced = "24",
+			ItemCount = 40,
+			Link = "Venerdo Alloy",
+			Name = "Venerdo Alloy",
+			Parents = {
+				"Haztech Apparel",
+				"Haztech Cuirass",
+				"Haztech Pauldrons",
+				"Kubrodon Ventkid Apparel",
+				"Kubrodon Ventkid Cuirass",
+				"Kubrodon Ventkid Pauldrons",
+				"Outrider Cuirass",
+				"Outrider Pauldrons",
+				"Smelter Apparel",
+				"Smelter Cuirass",
+				"Smelter Pauldrons",
+				"Vent Pobber Ventkid Apparel",
+				"Vent Pobber Ventkid Cuirass",
+				"Vent Pobber Ventkid Pauldrons",
+				"Vent Rat Cuirass",
+				"Vent Rat Pauldrons",
+				"Voidrig Casing" 
+			},
+			Rush = 5,
+			Type = "Gem" 
+		},
+		Venerol = {
+			Description = "A precious metal forged from coolant byproducts.",
+			Image = "Venerol.png",
+			InternalName = "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonOreItem",
+			Introduced = "24",
+			ItemCount = 20,
+			Link = "Venerol",
+			Name = "Venerol",
+			Parents = { "Thaumic Distillate", "Venerdo Alloy" },
+			Type = "Gem" 
+		},
+		Veridos = {
+			Description = "A highly reflective, green gem. Location: Plains of Eidolon",
+			Image = "Veridos.png",
+			InternalName = "/Lotus/Types/Items/Gems/Eidolon/UncommonGemAItem",
+			Introduced = "22",
+			ItemCount = 10,
+			Link = "Veridos",
+			Name = "Veridos",
+			Parents = { "Marquise Veridos" },
+			Type = "Gem" 
+		},
+		["Vestan Moss"] = {
+			Description = "One of the few known plant species able to thrive on asteroids in deep space.",
+			HelminthCategory = "Biotics",
+			HelminthCost = 8,
+			Image = "MossGroundCoverA.png",
+			InternalName = "/Lotus/Types/Items/Plants/MiscItems/MossGroundCoverAPlantItem",
+			Introduced = "Update: The Silver Grove",
+			ItemCount = 12,
+			Link = "Vestan Moss",
+			Name = "Vestan Moss",
+			Parents = { "Sunrise Apothic" },
+			Type = "Plant" 
+		},
+		Viper = {
+			Image = "Viper.png",
+			InternalName = "/Lotus/Weapons/Grineer/GrineerPistol/GrineerLightPistol",
+			Introduced = "7.0",
+			Link = "Viper",
+			Name = "Viper",
+			Type = "Weapon" 
+		},
+		["Vitus Essence"] = {
+			Description = "Awarded by the Arbiters of Hexis to few Tenno capable of surviving Arbitration.",
+			Image = "VitusEssence.png",
+			InternalName = "",
+			Introduced = "23.10",
+			Link = "Vitus Essence",
+			Name = "Vitus Essence",
+			Type = "Resource" 
+		},
+		["Void Traces"] = {
+			Description = "A substance used to increase the power within Relics.",
+			Image = "Void Traces.png",
+			InternalName = "",
+			Introduced = "Update: Specters of the Rail",
+			Link = "Void Traces",
+			Name = "Void Traces",
+			Type = "Resource" 
+		},
+		["Voidrig Capsule"] = {
+			BuildPrice = 15000,
+			BuildQuantity = 1,
+			BuildTime = 43200,
+			Components = {
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 1, Name = "Damaged Necramech Pod" },
+				{ ItemCount = 20, Name = "Marquise Veridos" },
+				{ ItemCount = 2, Name = "Scintillant" },
+				{ ItemCount = 30, Name = "Spinal Core Section" } 
+			},
+			ConsumeOnBuild = true,
+			Description = "Capsule component for the VOIDRIG Necramech.",
+			Image = "VoidrigCapsule.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/NecromechPartSystemsItem",
+			Introduced = "29",
+			Link = "Voidrig Capsule",
+			Name = "Voidrig Capsule",
+			Rush = 25,
+			Type = "Resource" 
+		},
+		["Voidrig Casing"] = {
+			BuildPrice = 15000,
+			BuildQuantity = 1,
+			BuildTime = 43200,
+			Components = {
+				{ ItemCount = 120, Name = "Adramal Alloy" },
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 1, Name = "Damaged Necramech Casing" },
+				{ ItemCount = 16, Name = "Stellated Necrathene" },
+				{ ItemCount = 40, Name = "Venerdo Alloy" } 
+			},
+			ConsumeOnBuild = true,
+			Description = "Casing component for the VOIDRIG Necramech.",
+			Image = "VoidrigCasing.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/NecromechPartChassisItem",
+			Introduced = "29",
+			Link = "Voidrig Casing",
+			Name = "Voidrig Casing",
+			Rush = 25,
+			Type = "Resource" 
+		},
+		["Voidrig Engine"] = {
+			BuildPrice = 15000,
+			BuildQuantity = 1,
+			BuildTime = 43200,
+			Components = {
+				{ ItemCount = 2, Name = "Biotic Filter" },
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 1, Name = "Damaged Necramech Engine" },
+				{ ItemCount = 75, Name = "Isos" },
+				{ ItemCount = 100, Name = "Tempered Bapholite" } 
+			},
+			ConsumeOnBuild = true,
+			Description = "Engine component for the VOIDRIG Necramech.",
+			Image = "VoidrigEngine.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/NecromechPartEngineItem",
+			Introduced = "29",
+			Link = "Voidrig Engine",
+			Name = "Voidrig Engine",
+			Rush = 25,
+			Type = "Resource" 
+		},
+		["Voidrig Weapon Pod"] = {
+			BuildPrice = 15000,
+			BuildQuantity = 1,
+			BuildTime = 43200,
+			Components = {
+				{ ItemCount = 6, Name = "Biotic Filter" },
+				{ ItemCount = 1, Name = "Blueprint" },
+				{ ItemCount = 45, Name = "Charc Electroplax" },
+				{ ItemCount = 1, Name = "Damaged Necramech Weapon Pod" },
+				{ ItemCount = 80, Name = "Thaumic Distillate" } 
+			},
+			ConsumeOnBuild = true,
+			Description = "Weapon Pod component for the VOIDRIG Necramech.",
+			Image = "VoidrigWeaponPod.png",
+			InternalName = "/Lotus/Types/Gameplay/InfestedMicroplanet/Resources/Mechs/NecromechPartWeaponPodItem",
+			Introduced = "29",
+			Link = "Voidrig Weapon Pod",
+			Name = "Voidrig Weapon Pod",
+			Rush = 25,
+			Type = "Resource" 
+		},
+		["Vome Residue"] = {
+			Description = "A gobbet of raw flesh, fallen from the wyrm Vome in her death spasm. Used to attract Chondricord and Duroid.",
+			Image = "VomeResidue.png",
+			InternalName = "",
+			Introduced = "29",
+			Link = "Vome Residue",
+			Name = "Vome Residue",
+			Type = "Resource" 
+		},
+		["Waxen Sebum Deposit"] = {
+			Description = "Remnants of creatures' original bodily fluids persist post-Infestation, often crystalized or congealed into entirely new compounds.",
+			Image = "WaxenSebumDeposit.png",
+			InternalName = "",
+			Introduced = "29",
+			Link = "Waxen Sebum Deposit",
+			Name = "Waxen Sebum Deposit",
+			Type = "Fish Part" 
+		},
+		["Wisp Grey"] = {
+			Description = "Wisp Grey pigments drop from the following enemies:\
+Dargyn Pilot",
+			Image = "Wisp Grey.png",
+			InternalName = "",
+			Introduced = "22.20",
+			Link = "Pigment",
+			Name = "Wisp Grey",
+			Type = "Pigment" 
+		},
+		Xenorhast = {
+			Description = "A nodule of primordial matter, encysted within Infested flesh.",
+			Image = "Xenorhast.png",
+			InternalName = "/Lotus/Types/Items/Gems/Deimos/DeimosEidolonGemAItem",
+			Introduced = "29",
+			ItemCount = 3,
+			Link = "Xenorhast",
+			Name = "Xenorhast",
+			Parents = { "Trapezium Xenorhast" },
+			Type = "Gem" 
+		},
+		["Yogwun Stomach"] = {
+			Description = "Once cleaned and tanned this organ can be turned into a durable leather.",
+			Image = "YogwunStomach.png",
+			InternalName = "",
+			Introduced = "22",
+			Link = "Yogwun Stomach",
+			Name = "Yogwun Stomach",
+			Type = "Fish Part" 
+		},
+		["Zealot Derelict Code"] = {
+			Description = "Allows access to Infested Derelicts that have been rerouted to populated areas by Zealots.",
+			Image = "ZealotDerelictCode.png",
+			InternalName = "",
+			Introduced = "25.7.3.1",
+			Link = "Zealot Derelict Code",
+			Name = "Zealot Derelict Code",
+			Type = "Event" 
+		},
+		["Zenith Granum Crown"] = {
+			Description = "An ancient token of highest esteem from the Corpus Founder himself. The rarest of all.",
+			Image = "ZenithGranumCrown.png",
+			InternalName = "/Lotus/Types/Items/Tokens/GreedTokens/GreedTokenBlack",
+			Introduced = "28",
+			Link = "Zenith Granum Crown",
+			Name = "Zenith Granum Crown",
+			Type = "Resource" 
+		},
+		["Zenurik Lens"] = {
+			Description = "Converts 1.25% of excess Affinity into Focus for the Zenurik Way.",
+			Image = "FocusLens1Rank sq.png",
+			InternalName = "",
+			Introduced = "18",
+			Link = "Regular Lens",
+			Name = "Zenurik Lens",
+			Tradable = true,
+			Type = "Resource" 
+		},
+		Zodian = {
+			Description = "A blue gem that radiates astral energy.",
+			Image = "Zodian.png",
+			InternalName = "/Lotus/Types/Items/Gems/Solaris/SolarisEidolonGemAItem",
+			Introduced = "24",
+			ItemCount = 3,
+			Link = "Zodian",
+			Name = "Zodian",
+			Parents = { "Radiant Zodian" },
+			Type = "Gem" 
+		} 
+	} 
+}
+```
+

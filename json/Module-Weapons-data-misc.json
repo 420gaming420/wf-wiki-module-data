@@ -1,0 +1,680 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Weapons/data/misc",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-31T21:33:35.321Z"
+  },
+  "_comments": "",
+  "Lob Blobs": {
+    "_TooltipAttackDisplay": 1,
+    "Conclave": false,
+    "Trigger": "Semi-Auto",
+    "Class": "Unique",
+    "_IgnoreInMasteryCount": true,
+    "Reload": 0,
+    "Attacks": [
+      {
+        "CritChance": 0.15,
+        "FireRate": 2,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0,
+        "Damage": {
+          "Impact": 60
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Image": "LobBlobs.png",
+    "Name": "Lob Blobs",
+    "Introduced": "36.0.7",
+    "Slot": "Unique",
+    "AmmoMax": 3,
+    "Magazine": 3,
+    "Link": "Lob Blobs"
+  },
+  "Thermian RPG": {
+    "_TooltipAttackDisplay": 2,
+    "Class": "Unique",
+    "MaxRank": 40,
+    "Image": "ThermianRPG.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "38.5",
+    "InternalName": "/Lotus/Weapons/1999/RocketPropelledGrenadeLauncher/1999RPGLauncher",
+    "Link": "Thermian RPG",
+    "Trigger": "Semi-Auto",
+    "Magazine": 1,
+    "CompatibilityTags": [
+      "PROJECTILE",
+      "SNIPER_AMMO",
+      "AOE",
+      "SINGLESHOT",
+      "SEMI_AUTO"
+    ],
+    "Reload": 2.1,
+    "AmmoPickup": 0,
+    "Name": "Thermian RPG",
+    "Traits": [
+      "Scaldra"
+    ],
+    "AmmoMax": 2,
+    "Slot": "Primary",
+    "Attacks": [
+      {
+        "CritChance": 0,
+        "Trigger": "Semi-Auto",
+        "StatusChance": 0,
+        "FireRate": 1.5,
+        "AmmoCost": 1,
+        "ShotSpeed": 60,
+        "MinSpread": 0,
+        "ForcedProcs": [
+          "Impact"
+        ],
+        "AttackName": "Projectile Impact",
+        "MaxSpread": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 1500000,
+          "Impact": 3500000
+        },
+        "CritMultiplier": 1
+      },
+      {
+        "CritChance": 0,
+        "Falloff": {
+          "EndRange": 8,
+          "Reduction": 1,
+          "StartRange": 0
+        },
+        "Range": 8,
+        "FireRate": 1.5,
+        "ForcedProcs": [
+          "Big Stagger"
+        ],
+        "AttackName": "Explosion",
+        "StatusChance": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Puncture": 1000000,
+          "Blast": 1000000,
+          "Impact": 1000000
+        },
+        "CritMultiplier": 1
+      }
+    ]
+  },
+  "Parazon": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Parazon",
+    "_IgnoreInMasteryCount": true,
+    "Attacks": [
+      {
+        "CritChance": 0,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackName": "Mercy Finisher",
+        "PunchThrough": 0,
+        "StatusChance": 0,
+        "Damage": {
+          "True": 1
+        },
+        "CritMultiplier": 1
+      }
+    ],
+    "Image": "Parazon.png",
+    "Name": "Parazon",
+    "Introduced": "26",
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Unique",
+    "InternalName": "/Lotus/Weapons/Tenno/HackingDevices/TnHackingDevice/TnHackingDeviceWeapon",
+    "Link": "Parazon"
+  },
+  "Pugil": {
+    "HeavySlamAttack": 1000,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Unique",
+    "HeavyAttack": 250,
+    "HeavyRadialDmg": 1000,
+    "Image": "Pugil.png",
+    "BlockAngle": 60,
+    "Introduced": "29.0",
+    "SlideAttack": 500,
+    "_IgnoreInMasteryCount": true,
+    "WindUp": 0,
+    "Traits": [
+      "Tenno"
+    ],
+    "Link": "Necramech",
+    "Slot": "Nech-Melee",
+    "MeleeRange": 1,
+    "SlamElement": "Blast",
+    "SlamForcedProcs": [
+      "Blast"
+    ],
+    "Attacks": [
+      {
+        "FireRate": 1,
+        "CritChance": 0.5,
+        "ForcedProcs": [
+          "Ragdoll"
+        ],
+        "AttackName": "Normal Attack",
+        "IsSilent": true,
+        "StatusChance": 0,
+        "Damage": {
+          "Puncture": 83.3,
+          "Slash": 83.3,
+          "Impact": 83.3
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "SlamAttack": 500,
+    "ComboDur": 5,
+    "Name": "Pugil",
+    "Mastery": 0,
+    "SlamRadius": 8,
+    "HeavySlamRadius": 9,
+    "FollowThrough": 0.9
+  },
+  "Stunna Fishing Spear": {
+    "_TooltipAttackDisplay": 1,
+    "Conclave": false,
+    "Trigger": "Semi-Auto",
+    "Class": "Fishing Spear",
+    "Range": 20,
+    "_IgnoreInMasteryCount": true,
+    "Attacks": [
+      {
+        "IsSilent": false,
+        "FireRate": 1,
+        "Multishot": 1,
+        "CritChance": 0,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0,
+        "Damage": {
+          "Impact": 10
+        },
+        "CritMultiplier": 0
+      }
+    ],
+    "Image": "StunnaFishingSpear.png",
+    "Name": "Stunna Fishing Spear",
+    "Introduced": "24.0",
+    "Traits": [
+      "Orb Vallis"
+    ],
+    "Slot": "Gear",
+    "InternalName": "/Lotus/Types/Restoratives/Consumable/RobofishSpearC",
+    "Link": "Stunna"
+  },
+  "Soaktron": {
+    "_TooltipAttackDisplay": 1,
+    "_IgnoreInMasteryCount": true,
+    "AmmoType": "Water",
+    "Trigger": "Auto",
+    "Class": "Unique",
+    "Slot": "Unique",
+    "Reload": 5,
+    "Attacks": [
+      {
+        "CritChance": 0.15,
+        "StatusChance": 0.05,
+        "FireRate": 7,
+        "Multishot": 1,
+        "IsSilent": false,
+        "ShotSpeed": 50,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Impact": 60
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Image": "Soaktron.png",
+    "Name": "Soaktron",
+    "Introduced": "25.5.1",
+    "Magazine": 20,
+    "AmmoMax": 200,
+    "Link": "Soaktron",
+    "Conclave": false
+  },
+  "Lanzo Fishing Spear": {
+    "_TooltipAttackDisplay": 1,
+    "Conclave": false,
+    "Trigger": "Semi-Auto",
+    "Class": "Fishing Spear",
+    "Range": 20,
+    "_IgnoreInMasteryCount": true,
+    "Attacks": [
+      {
+        "IsSilent": false,
+        "FireRate": 1,
+        "Multishot": 1,
+        "CritChance": 0,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0,
+        "Damage": {
+          "Impact": 10
+        },
+        "CritMultiplier": 0
+      }
+    ],
+    "Image": "LanzoFishingSpear.png",
+    "Name": "Lanzo Fishing Spear",
+    "Introduced": "22.0",
+    "Traits": [
+      "Cetus"
+    ],
+    "Slot": "Gear",
+    "InternalName": "/Lotus/Types/Restoratives/Consumable/SpearFishingSpear",
+    "Link": "Lanzo"
+  },
+  "Dargyn": {
+    "ReloadRate": 41.7,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Unique",
+    "Image": "GrnSkiffMissile.png",
+    "Users": [
+      "Dargyn Pilot"
+    ],
+    "Introduced": "22.12",
+    "ReloadStyle": "Regenerate",
+    "Link": "Dargyn",
+    "Trigger": "Auto",
+    "Magazine": 75,
+    "Reload": 1.8,
+    "Attacks": [
+      {
+        "CritChance": 0,
+        "ShotType": "Projectile",
+        "FireRate": 9.03,
+        "Multishot": 1,
+        "ShotSpeed": 300,
+        "IsSilent": false,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0,
+        "CritMultiplier": 0,
+        "Damage": {
+          "Puncture": 150,
+          "Slash": 150,
+          "Impact": 150
+        }
+      }
+    ],
+    "Name": "Dargyn",
+    "_IgnoreInMasteryCount": true,
+    "Traits": [
+      "Grineer"
+    ],
+    "AmmoMax": null,
+    "Slot": "Vehicle",
+    "ReloadDelay": 0
+  },
+  "Noodletron": {
+    "_TooltipAttackDisplay": 1,
+    "Conclave": false,
+    "Trigger": "Semi-Auto",
+    "Class": "Unique",
+    "_IgnoreInMasteryCount": true,
+    "Reload": 0,
+    "Attacks": [
+      {
+        "CritChance": 0.15,
+        "FireRate": 2,
+        "Multishot": 1,
+        "IsSilent": true,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0,
+        "Damage": {
+          "Impact": 60
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Image": "Noodletron.png",
+    "Name": "Noodletron",
+    "Introduced": "39.0.7",
+    "Slot": "Unique",
+    "AmmoMax": 0,
+    "Magazine": 0,
+    "Link": "Noodletron"
+  },
+  "Spari Spear": {
+    "_TooltipAttackDisplay": 1,
+    "Conclave": false,
+    "Trigger": "Semi-Auto",
+    "Class": "Fishing Spear",
+    "Range": 20,
+    "_IgnoreInMasteryCount": true,
+    "Attacks": [
+      {
+        "IsSilent": true,
+        "FireRate": 1,
+        "Multishot": 1,
+        "CritChance": 0,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0,
+        "Damage": {
+          "Puncture": 10
+        },
+        "CritMultiplier": 0
+      }
+    ],
+    "Image": "SpariSpear.png",
+    "Name": "Spari Spear",
+    "Introduced": "29",
+    "Traits": [
+      "Cambion Drift"
+    ],
+    "Slot": "Gear",
+    "InternalName": "/Lotus/Types/Restoratives/Consumable/InfestedFishingSpearA",
+    "Link": "Spari Spear"
+  },
+  "Rampart": {
+    "ReloadRate": 50,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Unique",
+    "Image": "Rampart.png",
+    "Users": [
+      "Lancer",
+      "Elite Lancer",
+      "Trooper",
+      "Seeker"
+    ],
+    "Introduced": "17.0",
+    "ReloadStyle": "Regenerate",
+    "Link": "Rampart",
+    "Trigger": "Auto",
+    "Magazine": 200,
+    "Reload": 4,
+    "Attacks": [
+      {
+        "CritChance": 0,
+        "Range": 300,
+        "FireRate": 13.3,
+        "Multishot": 1,
+        "ShotType": "Hit-Scan",
+        "IsSilent": false,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0,
+        "CritMultiplier": 0,
+        "Damage": {
+          "Puncture": 66.7,
+          "Slash": 66.6,
+          "Impact": 66.7
+        }
+      }
+    ],
+    "Name": "Rampart",
+    "_IgnoreInMasteryCount": true,
+    "Traits": [
+      "Grineer"
+    ],
+    "AmmoMax": null,
+    "Slot": "Emplacement",
+    "ReloadDelay": 0
+  },
+  "Shockprod Fishing Spear": {
+    "_TooltipAttackDisplay": 1,
+    "Conclave": false,
+    "Trigger": "Semi-Auto",
+    "Class": "Fishing Spear",
+    "Range": 20,
+    "_IgnoreInMasteryCount": true,
+    "Attacks": [
+      {
+        "IsSilent": false,
+        "FireRate": 1,
+        "Multishot": 1,
+        "CritChance": 0,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0,
+        "Damage": {
+          "Impact": 10
+        },
+        "CritMultiplier": 0
+      }
+    ],
+    "Image": "ShockprodFishingSpear.png",
+    "Name": "Shockprod Fishing Spear",
+    "Introduced": "24.0",
+    "Traits": [
+      "Orb Vallis"
+    ],
+    "Slot": "Gear",
+    "InternalName": "/Lotus/Types/Restoratives/Consumable/RobofishSpearB",
+    "Link": "Shockprod"
+  },
+  "Unarmed": {
+    "HeavySlamAttack": 0,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Unique",
+    "HeavyAttack": 60,
+    "Image": "Blank.png",
+    "BlockAngle": 50,
+    "Introduced": "11",
+    "SlideAttack": 20,
+    "WindUp": 0.5,
+    "Link": "Unarmed",
+    "_IgnoreInMasteryCount": true,
+    "Slot": "Unique",
+    "SlamElement": "Electricity",
+    "Name": "Unarmed",
+    "Attacks": [
+      {
+        "CritChance": 0.25,
+        "FireRate": 1,
+        "AttackName": "Normal Attack",
+        "IsSlilent": true,
+        "StatusChance": 0.1,
+        "Damage": {
+          "Puncture": 0.75,
+          "Slash": 0.75,
+          "Impact": 3.5
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "SlamForcedProcs": [
+      "Knockdown"
+    ],
+    "ComboDur": 5,
+    "SlamAttack": 10,
+    "MeleeRange": 0.5,
+    "SlamRadius": 7,
+    "HeavySlamRadius": 0,
+    "FollowThrough": 0.5
+  },
+  "Peram Fishing Spear": {
+    "_TooltipAttackDisplay": 1,
+    "Conclave": false,
+    "Trigger": "Semi-Auto",
+    "Class": "Fishing Spear",
+    "Range": 20,
+    "_IgnoreInMasteryCount": true,
+    "Attacks": [
+      {
+        "IsSilent": false,
+        "FireRate": 1,
+        "Multishot": 1,
+        "CritChance": 0,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0,
+        "Damage": {
+          "Slash": 10
+        },
+        "CritMultiplier": 0
+      }
+    ],
+    "Image": "PeramFishingSpear.png",
+    "Name": "Peram Fishing Spear",
+    "Introduced": "22.0",
+    "Traits": [
+      "Cetus"
+    ],
+    "Slot": "Gear",
+    "InternalName": "/Lotus/Types/Restoratives/Consumable/SpearFishingSpearC",
+    "Link": "Peram"
+  },
+  "Hand Grenade": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Enemy",
+    "_IgnoreInMasteryCount": true,
+    "Attacks": [
+      {
+        "CritChance": 0,
+        "Falloff": {
+          "EndRange": 10,
+          "StartRange": 0,
+          "Reduction": 0
+        },
+        "Range": 10,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackName": "Explosion",
+        "PunchThrough": 0,
+        "StatusChance": 0.1,
+        "Damage": {
+          "Blast": 495
+        },
+        "CritMultiplier": 1
+      }
+    ],
+    "Image": "HandGrenade.png",
+    "Name": "Hand Grenade",
+    "Introduced": "Vanilla",
+    "Traits": [
+      "Grineer",
+      "Corpus",
+      "Corrupted"
+    ],
+    "Slot": "Unique",
+    "InternalName": "NpcThrowGrenadeWeapon",
+    "Link": "Hand Grenade"
+  },
+  "Razorflies": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Unique",
+    "_IgnoreInMasteryCount": true,
+    "Users": [
+      "Titania",
+      "Titania Prime"
+    ],
+    "Attacks": [
+      {
+        "CritChance": 0.25,
+        "FireRate": 2,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0,
+        "Damage": {
+          "Slash": 80
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Image": "Razorfly.png",
+    "Name": "Razorflies",
+    "Introduced": "The Silver Grove",
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Unique",
+    "InternalName": "/Lotus/Powersuits/Fairy/FlightAgentGun",
+    "Link": "Razorwing"
+  },
+  "Ebisu Spear": {
+    "_TooltipAttackDisplay": 1,
+    "Conclave": false,
+    "Trigger": "Semi-Auto",
+    "Class": "Fishing Spear",
+    "Range": 20,
+    "_IgnoreInMasteryCount": true,
+    "Attacks": [
+      {
+        "CritChance": 0,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": true,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0,
+        "Damage": {
+          "Impact": 10
+        },
+        "CritMultiplier": 0
+      }
+    ],
+    "Image": "EbisuSpear.png",
+    "Name": "Ebisu Spear",
+    "Introduced": "29",
+    "Traits": [
+      "Cambion Drift"
+    ],
+    "Slot": "Gear",
+    "InternalName": "/Lotus/Types/Restoratives/Consumable/InfestedFishingSpearB",
+    "Link": "Ebisu Spear"
+  },
+  "Tulok Fishing Spear": {
+    "_TooltipAttackDisplay": 1,
+    "_IgnoreInMasteryCount": true,
+    "Conclave": false,
+    "Trigger": "Semi-Auto",
+    "Class": "Unique",
+    "Range": 20,
+    "Traits": [
+      "Cetus"
+    ],
+    "Attacks": [
+      {
+        "IsSilent": false,
+        "FireRate": 1,
+        "Multishot": 1,
+        "CritChance": 0,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0,
+        "Damage": {
+          "Puncture": 10
+        },
+        "CritMultiplier": 0
+      }
+    ],
+    "Image": "TulokFishingSpear.png",
+    "Name": "Tulok Fishing Spear",
+    "Introduced": "22.0",
+    "Family": "Fishing Spear",
+    "Slot": "Gear",
+    "InternalName": "/Lotus/Types/Restoratives/Consumable/SpearFishingSpearB",
+    "Link": "Tulok"
+  }
+}

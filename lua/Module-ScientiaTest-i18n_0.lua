@@ -1,0 +1,5 @@
+return {
+	["en"] = {
+		["test"] = "Test"
+	}
+}

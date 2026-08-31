@@ -1,0 +1,17 @@
+{
+  "page": "Module:Weapons/data/archwing",
+  "wiki_timestamp": "2026-07-22T02:54:21Z",
+  "extracted_at": "2026-08-31T21:22:45.723569+00:00",
+  "lua_files": [
+    "Module-Weapons-data-archwing_0.lua",
+    "Module-Weapons-data-archwing_1.lua",
+    "Module-Weapons-data-archwing_2.lua",
+    "Module-Weapons-data-archwing_3.lua",
+    "Module-Weapons-data-archwing_4.lua",
+    "Module-Weapons-data-archwing_5.lua"
+  ],
+  "lua_block_count": 6,
+  "file_size": 89502,
+  "comment_count": 3,
+  "status": "success"
+}

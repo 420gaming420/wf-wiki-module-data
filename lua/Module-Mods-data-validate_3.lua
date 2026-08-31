@@ -1,0 +1,1 @@
+Validating mod incompatibility graphs for circular references

@@ -1,0 +1,12 @@
+{
+  "page": "Module:Worldstate/data",
+  "wiki_timestamp": "2020-10-29T12:50:29Z",
+  "extracted_at": "2026-08-31T21:22:46.101490+00:00",
+  "lua_files": [
+    "Module-Worldstate-data_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 17,
+  "comment_count": 0,
+  "status": "success"
+}

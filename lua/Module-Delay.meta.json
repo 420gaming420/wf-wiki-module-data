@@ -1,0 +1,13 @@
+{
+  "page": "Module:Delay",
+  "wiki_timestamp": "2023-11-26T05:21:16Z",
+  "extracted_at": "2026-08-31T21:22:44.182611+00:00",
+  "lua_files": [
+    "Module-Delay_0.lua",
+    "Module-Delay_1.lua"
+  ],
+  "lua_block_count": 2,
+  "file_size": 2162,
+  "comment_count": 22,
+  "status": "success"
+}

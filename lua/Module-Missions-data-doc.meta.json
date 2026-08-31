@@ -1,0 +1,15 @@
+{
+  "page": "Module:Missions/data/doc",
+  "wiki_timestamp": "2025-11-25T03:43:42Z",
+  "extracted_at": "2026-08-31T21:22:45.045000+00:00",
+  "lua_files": [
+    "Module-Missions-data-doc_0.lua",
+    "Module-Missions-data-doc_1.lua",
+    "Module-Missions-data-doc_2.lua",
+    "Module-Missions-data-doc_3.lua"
+  ],
+  "lua_block_count": 4,
+  "file_size": 1472,
+  "comment_count": 4,
+  "status": "success"
+}

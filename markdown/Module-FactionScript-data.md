@@ -1,0 +1,188 @@
+---
+title: "Module:FactionScript/data"
+wiki_url: "https://wiki.warframe.com/w/Module/FactionScript/data"
+wiki_timestamp: "2021-12-07T22:18:59Z"
+---
+
+Database for WARFRAME-specific [languages](/w/Languages "Languages") and their glyphs.
+
+---
+
+```lua
+return {
+
+["CorpusChar"] = {
+    ["a"] = "Corpus A.svg",
+    ["b"] = "Corpus B.svg",
+    ["c"] = "Corpus C.svg",
+    ["d"] = "Corpus D.svg",
+    ["e"] = "Corpus E.svg",
+    ["f"] = "Corpus F.svg",
+    ["g"] = "Corpus G.svg",
+    ["h"] = "Corpus H.svg",
+    ["i"] = "Corpus I.svg",
+    ["j"] = "Corpus J.svg",
+    ["k"] = "Corpus K.svg",
+    ["l"] = "Corpus L.svg",
+    ["m"] = "Corpus M.svg",
+    ["n"] = "Corpus N.svg",
+    ["o"] = "Corpus O.svg",
+    ["p"] = "Corpus P.svg",
+    ["q"] = "Corpus K.svg", --sounds like k phonetically
+    ["r"] = "Corpus R.svg",
+    ["s"] = "Corpus S.svg",
+    ["t"] = "Corpus T.svg",
+    ["u"] = "Corpus U.svg",
+    ["v"] = "Corpus V.svg",
+    ["w"] = "Corpus W.svg",
+    ["x"] = "Corpus S.svg", --sounds like s phonetically
+    ["y"] = "Corpus Y.svg",
+    ["z"] = "Corpus Z.svg",
+    ["0"] = "Corpus 0.svg",
+    ["1"] = "Corpus T.svg",
+},
+
+["GrineerChar"] = {
+    ["a"] = "Grineer A.svg",
+    ["b"] = "Grineer B.svg",
+    ["c"] = "Grineer C.svg",
+    ["d"] = "Grineer D.svg",
+    ["e"] = "Grineer E.svg",
+    ["f"] = "Grineer F.svg",
+    ["g"] = "Grineer G.svg",
+    ["h"] = "Grineer H.svg",
+    ["i"] = "Grineer I.svg",
+    ["j"] = "Grineer J.svg",
+    ["k"] = "Grineer K.svg",
+    ["l"] = "Grineer L.svg",
+    ["m"] = "Grineer M.svg",
+    ["n"] = "Grineer N.svg",
+    ["o"] = "Grineer O.svg",
+    ["p"] = "Grineer P.svg",
+    ["q"] = "Grineer K.svg",
+    ["r"] = "Grineer R.svg",
+    ["s"] = "Grineer S.svg",
+    ["t"] = "Grineer T.svg",
+    ["u"] = "Grineer U.svg",
+    ["v"] = "Grineer V.svg",
+    ["w"] = "Grineer W.svg",
+    ["x"] = "Grineer S.svg",
+    ["y"] = "Grineer Y.svg",
+    ["z"] = "Grineer Z.svg",
+    ["0"] = "Grineer 0.svg",
+    ["1"] = "Grineer 1.svg",
+    ["2"] = "Grineer 2.svg",
+    ["3"] = "Grineer 3.svg",
+    ["4"] = "Grineer 4.svg",
+    ["5"] = "Grineer 5.svg",
+    ["6"] = "Grineer 6.svg",
+    ["7"] = "Grineer 7.svg",
+    ["8"] = "Grineer 8.svg",
+    ["9"] = "Grineer 9.svg",
+    [","] = "Grineer Comma.svg",
+    ["#"] = "Grineer Pound.svg",
+    ["@"] = "Grineer At.svg",
+    ["."] = "Grineer Dot.svg",
+    ["?"] = "Grineer Question.svg",
+},
+
+["SolarisChar"] = {
+	["ae"] = "Solaris AE.svg",	-- IPA eɪ
+    ["ah"] = "Solaris AH.svg",	-- IPA æ
+    ["aw"] = "Solaris AW.svg",	-- IPA ɒ
+    ["aww"] = "Solaris AWW.svg",	-- IPA ɔ:
+    ["aye"] = "Solaris AYE.svg",	-- IPA aɪ
+    ["b"] = "Solaris B.svg",
+    ["c"] = "Solaris C.svg",
+    ["d"] = "Solaris D.svg",
+    ["ee"] = "Solaris EE.svg",	-- IPA i
+    ["eh"] = "Solaris EH.svg",	-- IPA ɛ
+    ["f"] = "Solaris F.svg",
+    ["g"] = "Solaris G.svg",
+    ["h"] = "Solaris H.svg",
+    ["ih"] = "Solaris IH.svg",	-- IPA ɪ
+    ["j"] = "Solaris J.svg",
+    ["k"] = "Solaris K.svg",
+    ["l"] = "Solaris L.svg",
+    ["m"] = "Solaris M.svg",
+    ["n"] = "Solaris N.svg",
+    ["oh"] = "Solaris OH.svg",	-- IPA oʊ
+    ["oo"] = "Solaris OO.svg",	-- IPA u
+    ["p"] = "Solaris P.svg",
+    ["q"] = "Solaris K.svg",
+    ["r"] = "Solaris R.svg",
+    ["s"] = "Solaris S.svg",
+    ["t"] = "Solaris T.svg",
+    ["u"] = "Solaris U.svg", -- IPA ʊ
+    ["uh"] = "Solaris UH.svg",	-- IPA ʌ
+    ["v"] = "Solaris V.svg",
+    ["w"] = "Solaris OO.svg",	-- no "w" sound in Solari alphabet
+    ["x"] = "Solaris S.svg",
+    ["z"] = "Solaris Z.svg",
+    ["-h"] = "Solaris -H.svg",	-- IPA ɜ
+    ["0"] = "Solaris 0.svg",
+    ["1"] = "Solaris 1.svg",
+    [","] = "Solaris ,.svg",
+    ["."] = "Solaris Period.svg",
+    [":"] = "Solaris Colon.svg",
+    ["'"] = "Solaris '.svg",
+    ["?"] = "Solaris ?.svg",
+    ["!"] = "Solaris !.svg",
+},
+
+["TennoChar"] = {
+    ["a"] = {"Tenno A.svg", "v", 11, 19},
+    ["ae"] = {"Tenno AE.svg","v", 19, 18},
+    ["aw"] = {"Tenno AW.svg","v", 21, 22},
+    ["aye"]= {"Tenno AYE.svg", "v", 13 , 22},
+    ["b"] = {"Tenno B.svg", "c", 120, 31},
+    ["ch"] = {"Tenno CH.svg","c", 120, 30},
+    ["d"] = {"Tenno D.svg", "c", 121, 31},
+    ["dh"] = {"Tenno DH.svg","c", 120, 31},
+    ["e"] = {"Tenno EH.svg","v", 17, 21},
+    ["eh"] = {"Tenno EH.svg","v", 17, 21},
+    ["ee"] = {"Tenno EE.svg","v", 7, 17},
+    ["f"] = {"Tenno F.svg", "c", 120, 30},
+    ["g"] = {"Tenno G.svg", "c", 120, 30},
+    ["h"] = {"Tenno H.svg", "c", 64, 16},
+    ["i"] = {"Tenno I.svg", "v", 11, 25},
+    ["ih"] = {"Tenno I.svg", "v", 11, 25},
+    ["j"] = {"Tenno J.svg", "c", 120, 30},
+    ["k"] = {"Tenno K.svg", "c", 120, 30},
+    ["kh"] = {"Tenno KH.svg","c", 119, 30},
+    ["l"] = {"Tenno L.svg", "c", 64, 16},
+    ["m"] = {"Tenno M.svg", "c", 110, 16},
+    ["n"] = {"Tenno N.svg", "c", 110, 16},
+    ["ng"] = {"Tenno NG.svg","c", 119, 31},
+    ["o"] = {"Tenno O.svg", "v", 16, 27},
+    ["oo"] = {"Tenno OO.svg","v", 8, 26},
+    ["ow"] = {"Tenno OW.svg","v", 24, 27},
+    ["p"] = {"Tenno P.svg", "c", 120, 30},
+    ["r"] = {"Tenno R.svg", "r", 35, 25},
+    ["s"] = {"Tenno S.svg", "c", 122, 30},
+    ["sh"] = {"Tenno SH.svg","c", 122, 30},
+    ["t"] = {"Tenno T.svg", "c", 120, 31},
+    ["th"] = {"Tenno TH.svg","c", 120, 30},
+    ["u"] = {"Tenno U.svg", "v", 13, 23},
+    ["uh"] = {"Tenno U.svg", "v", 13, 23},
+    ["v"] = {"Tenno V.svg", "c", 121, 32},
+    ["z"] = {"Tenno Z.svg", "c", 122, 31},
+    ["zh"] = {"Tenno ZH.svg","c", 122, 31},
+    ["."] = {"Tenno Period.svg", "p", 109, 14},
+    [","] = {"Tenno M.svg", "p", 110, 16},
+    ["-"] = {"Tenno Hyphen.svg", "s", 22 , 20},
+    ["0"] = {"Tenno 0.svg", "s", 22, 20},
+    ["1"] = {"Tenno 1.svg", "s", 11, 24},
+    ["2"] = {"Tenno 2.svg", "s", 22, 20},
+    ["3"] = {"Tenno 3.svg", "s", 24, 22},
+    ["4"] = {"Tenno 4.svg", "s", 24, 24},
+    ["5"] = {"Tenno 5.svg", "s", 24, 23},
+    ["6"] = {"Tenno 6.svg", "s", 16, 29},
+    ["7"] = {"Tenno 7.svg", "s", 22, 26},
+    ["8"] = {"Tenno 8.svg", "s", 23, 29},
+    ["9"] = {"Tenno 9.svg", "s", 24, 33},
+},
+
+}
+```
+

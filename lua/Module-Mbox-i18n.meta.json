@@ -1,0 +1,12 @@
+{
+  "page": "Module:Mbox/i18n",
+  "wiki_timestamp": "2022-09-23T23:24:06Z",
+  "extracted_at": "2026-08-31T21:22:45.025711+00:00",
+  "lua_files": [
+    "Module-Mbox-i18n_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 5443,
+  "comment_count": 1,
+  "status": "success"
+}

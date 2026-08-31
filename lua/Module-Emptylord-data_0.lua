@@ -1,0 +1,9046 @@
+
+-- <pre>
+return {
+	["Accord"] = {
+		["equip_type"] = "Warframe",
+		["official"] = false,
+		["icon"] = false,
+		["abilities"] = {
+			["Center Stage"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = false,
+				["augments"] = {
+				},
+			},
+			["Gleam"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = false,
+				["augments"] = {
+				},
+			},
+			["Quick Step"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = false,
+				["augments"] = {
+				},
+			},
+			["Lovers' Hold"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = false,
+				["augments"] = {
+				},
+			},
+			["Captivate"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = false,
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Amesha"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Amesha.png",
+		["abilities"] = {
+			["Watchful Swarm"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "WatchfulSwarm130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Benevolent Decoy"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "BenevolentDecoy130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Warding Grace"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "WardingGrace130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Wengeful Rush"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "WengefulRush130xWhite.png",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Ash"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Ash_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Daggertail"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DaggertailMod.png",
+						["description"] = "Passively gain {{STR|10 / 15 / 20 / 25m}} range on Finishers and Mercy kills, violently pulling the enemy into melee range before performing the Finisher.",
+						["footnote"] = "The displacement would ideally affect enemies that are usually crowd-control-immune, since they must also be exposed to Finishers for this to be applicable. If this is not possible, Ash would freely Teleport to close the gap. In retrospect, Lethal Teleport being integrated into Ash's kit might have rendered this augment moot. Perhaps a general Parazon mod?",
+						["volume"] = 7,
+						["retired"] = 35,
+					},
+				},
+			},
+			["Shuriken"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Shuriken130xWhite.png",
+				["exalted"] = "Ability",
+				["revised_desc"] = "Casting releases a fan of up to '''2 / 3 / 4 / 5''' shurikens targeting unique enemies within a {{RNG|6m}}-radius. While aiming (default {{Keybind|RMB}}), casting will instead rapidly fire '''2 / 3 / 4 / 5''' homing shurikens towards enemies within 60m and 90{{Degree}} of your crosshair. Each cast generates 20 Ability Combo Points, and each shuriken deals {{STR|125 / 200 / 275 / 350}} Slash damage with forced status that is modified by your Shadow Blades config, and deals up to '''12x''' based on your Ability Combo Multiplier.",
+					["revised"] = 35,
+					["footnote"] = "<ul><li>Shuriken is now an Exalted ability, and can now be modded in your arsenal.</li></li><li>Base damage reduced to compensate for modding.</li><li>[[#Ability Combo]]<li>Shurikens no longer generate Melee Combo, and instead generate 20 Ability Combo Points.</li><li>Damage is now further modified by Ability Combo. Normal cast range is now modified by Range mods.</li></li></ul>",
+				["augments"] = {
+					["Seeking Shuriken"] = {
+						["official"] = true,
+						["mod_avail"] = "Universal",
+						["mod_image"] = "SeekingShurikenMod.png",
+						["description"] = "On Hit: Reduce enemy Armor by a stacking {{STR|35 / 45 / 55 / 70%}} for {{DUR|2 / 4 / 6 / 8s.}}",
+					},
+					["Shadow Shuriken"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ShadowShurikenMod.png",
+						["description"] = "Casting additionally summons a stationary, intangible Shadow Assassin that tracks your crosshair and mimics the next '''1 / 2 / 3 / 4''' casts of Shuriken.",
+						["volume"] = 22,
+					},
+					["Shuriken Fan"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ShurikenFanMod.png",
+						["description"] = "Unaimed casts gain '''3 / 4 / 5 / 6''' Shurikens and {{RNG|6m}} Ability Range, and Shurikens are now evenly distributed across enemies within range.",
+						["volume"] = 22,
+					},
+				},
+			},
+			["Smoke Screen"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "SmokeScreen130xWhite.png",
+				["revised_desc"] = "Casting drops a smoke bomb that staggers enemies within {{RNG|10m}}. For the next {{DUR|3 / 6 / 9 / 12s}}, Ash is invisible, inaudible and moves with soft steps.",
+					["revised"] = 28,
+					["footnote"] = "[[#Invisibility]] While invisible, Ash's noise level is reduced by 100% and his movement will not be detected.",
+				["augments"] = {
+					["Rolling Smoke"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RollingSmokeMod.png",
+						["description"] = "On Dodge: Transform into smoke for {{RNG|2s}}, also becoming invulnerable and gaining full flight capabilities. As smoke, your movement cannot be detected, you do not have biometrics, you cannot be seen, and you cannot be heard. '''12 / 10 / 8.5 / 7''' second cooldown.",
+						["volume"] = 27,
+						["restrict"] = "{{m|Rolling Guard}}",
+					},
+					["Smoke Shadow"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["mod_image"] = "SmokeShadowMod.png",
+						["description"] = "Casting renders allies within {{RNG|8 / 10 / 12 / 15m}} invisible and inaudible, as well as granting everyone '''60 / 90 / 120 / 150%''' Critical Chance while invisible.",
+						["revised"] = 28,
+					},
+					["Tear Gas"] = {
+						["official"] = true,
+						["mod_avail"] = "Universal",
+						["mod_image"] = "TearGasMod.png",
+						["description"] = "Casting blinds enemies within {{RNG|3 / 6 / 9 / 12m}} for {{DUR|6s}}, as well as opening them to Finishers. In Conclave, the effect is diminished to blinding enemies within '''1 / 2 / 3 / 4m''' for '''3s'''.",
+						["revised"] = 30,
+					},
+				},
+			},
+			["Teleport"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Teleport130xWhite.png",
+				["revised_desc"] = "Casting teleports you to a target within {{RNG|15 / 30 / 45 / 60m}}. If the target is an enemy, you performs a Finisher or Mercy Kill with {{STR|125 / 150 / 175 / 200%}} bonus Finisher Damage, and will refund 50% of '''Teleport's''' energy cost on-kill.",
+				["revised"] = 32,
+				["augments"] = {
+					["Abduct"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AbductMod.png",
+						["description"] = "Hold-cast to appear behind the target, whereafter you grapple them and then teleport you both back to the cast location. Passively gain {{STR|50 / 75 / 125 / 200%}} Finisher Damage.",
+						["volume"] = 22,
+					},
+					["Boundless Teleport"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BoundlessTeleportMod.png",
+						["description"] = "Casting instead teleports you '''8m''' in the target direction. Hold-casting will increase the range to {{RNG|8 / 9 / 10 / 12m}} over {{DUR|0.25s}} and will instead teleport you toward the location in your crosshairs.",
+						["volume"] = 27,
+					},
+					["Cinematic Mode"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CinematicModeMod.png",
+						["description"] = "Targeting an enemy with Death Marks will cause you to enter Cinematic Mode, wherein you will to automatically chain-cast Teleport on additional marked targets at no extra cost. You are invulnerable during Cinematic Mode and gain '''1.25 / 1.33 / 1.5 / 2x''' Finisher Speed.",
+						["volume"] = 32,
+						["exilus"] = true,
+						["footnote"] = "With the integration of Fatal Teleport as a baseline feature in Ash's rework, Cinematic Mode went from opt-in to mandetory - and this can be quite disruptive, especially if you want to use Teleport for positioning or the bonus stats from Teleport Rush. I think that the power fantasy provided by Cinematic Mode is worth retaining, but I think it works better as an opt-in feature. An alternative implementation would be to use Tap/Hold, where hold-cast causes you to enter Cinematic Mode. While held, you could enter a state of focus (reusing Blade Storm's current visual and sound effects) as well as highlighting valid targets."
+					},
+					["Shadow Step"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ShadowStepMod.png",
+						["description"] = "Casting leaves behind an invulnerable Shadow Assassin at your cast location for {{DUR|4 / 5 / 6 / 8s}} that draws enemy fire.",
+						["volume"] = 27,
+					},
+					["Teleport Rush"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["mod_image"] = "TeleportRushMod.png",
+						["description"] = "Casting increases Parkour Velocity by '''15 / 20 / 25 / 30%''' for {{DUR|12s}}. Killing a target with Teleport extends the duration of {{a|Smoke Screen}} by {{DUR|5s}}, increased to a full refresh on Mercy Kills.",
+					},
+				},
+			},
+			["Blade Storm"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "BladeStorm130xWhite.png",
+				["revised_desc"] = "Casting will holster your current weapon and equip your Unseen Blades, an Exalted Secondary Weapon that accepts Thrown mods. Unseen Blades will lock-on to enemies within '''15{{Degree}}''' of your crosshair while Aiming (default {{keybind|RMB}}). Enemies damaged by Unseen Blades will accumulate Death Marks. At '''3''' Death Marks, a Shadow Assassin is called to perform a Finisher on the target, dealing three instances of {{STR|750 / 1000 / 1500 / 2000}} True damage with guaranteed Slash status. Up to '''2''' Shadow Assassins may be active at a time. If deactivated, Shadow Assassins will target any outstanding Death Marks but will deal proportionately less damage.",
+				["revised"] = 30,
+				["augments"] = {
+					["Covert Blades"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CovertBladesMod.png",
+						["description"] = "While active, you will now apply Death Marks with any source of damage. Enemies with 3 Death Marks are instead exposed to Finishers, and performing a Finisher will summon Shadow Assassins to perform Finishers on up to 2 additional enemies within {{RNG|1.5 / 3 / 4.5 / 6m}}. Passively gain {{STR|25 / 50 / 75 / 100%}} Finisher Damage.",
+						["footnote"] = "The intent of this augment is to (hopefully) appeal to legacy Ash players who don't like the sound of using a Thrown weapon to apply marks. Combine with Thermal Sunder or some other source of AOE to quickly apply marks to entire groups of enemies - and then start Finishing.",
+						["volume"] = 32,
+					},
+					["Promised End"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PromisedEndMod.png",
+						["description"] = "Death Marks instead store {{STR|25 / 33 / 50 / 100%}} of damage the target receives from all sources, doubled for melee damage. Shadow Assassins will be summoned when a Death Mark has stored lethal damage, and will perform a Lethal Finisher.",
+						["volume"] = 7,
+					},
+					["Rising Storm"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CovertBladesMod.png",
+						["description"] = "While active, you will be surrounded by orbiting blades that deal {{STR|100 / 150 / 200 / 250}} Slash damage/s with guaranteed Status to enemies within ➲[1.5m]. Orbiting blades will increment Ash's Melee Combo Counter. The damage from orbiting blades and Shadow Assassins is increased by '''25%''' per Combo Multiplier.",
+						["revised"] = 30,
+					},
+					["Shadow Clones"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ShadowClonesMod.png",
+						["description"] = "While active, your Shadow Assassins now accompany you as ranged specters that have {{RNG|12m}} attack range and deal {{STR|25 / 33 / 50 / 100 x Enemy Level}} Slash damage with guaranteed status at a fire rate of '''1.2'''. Unseen Blades no longer applies Death Marks.",
+						["volume"] = 32,
+					},
+				},
+			},
+			["Shadow Blades"] = {
+				["ability_icon"] = "ShadowClones.png",
+				["exalted"] = "Secondary",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Atlas"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Atlas_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["revised_desc"] = "Passively immune to stagger and knockdown whil in contact with the ground. Petrified enemies may drop Rubble on-death, which you can pick up to to restore Health, with healing in excess of your maximum health being applied as Rubble Armor. Rubble Armor is capped at '''1500''', and decays at a rate of '''5/s'''. You have an innate '''8m''' Rubble-Vacuum radius.",
+				["revised"] = "Not Recorded",
+				["augments"] = {
+					["Geological Preparation"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord GeologicalPreparationMod.png",
+						["description"] = "Atlas starts the mission with '''250 / 350 / 500 / 1000''' Rubble Armor. Rubble Armor no longer decays passively, and instead is depleted by '''5''' whenever you receive damage, up to once/s.",
+						["volume"] = 32,
+						["exilus"] = true,
+						["restrict"] = "{{m|Preparation}}",
+					},
+					["Geosynchronous"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord GeosynchronousMod.png",
+						["description"] = "Passive immunity is now always effective, even while airborne. In addition, Atlas has a '''25 / 33 / 50 / 100%''' chance to resist any external source of displacement or immobilizing effect.",
+						["volume"] = 33,
+						["exilus"] = true,
+					},
+					["Rubble Heap"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["mod_image"] = "RubbleHeaphMod.png",
+						["description"] = "While above 1200 Rubble, Landslide costs no Energy, deals '''1.25 / 1.5 / 1.75 / 2x''' Damage, and travels 2x faster.",
+						["revised"] = "Not Recorded",
+						["footnote"] = "Threshold reduced to 1200 from 1400."
+					},
+					["Seismic Scavanger"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SeismicScavangerMod.png",
+						["description"] = "While you are in a mission, all resource deposits and storage containers will now yield 1 Rubble. Landslide will now damage destructable objects. Landslide may also target lockers to break them open, yielding 1 Rubble. This has a '''25 / 50 / 75 / 100%''' chance to unlock locked lockers.",
+						["volume"] = 27,
+						["revised"] = 35,
+						["footnote"] = "Bonus Rubble from deposits and containers used to be part of Landslide's '''Land's End''' augment, but I decided to separate the two effects. The name 'Seismic Scavenger' was proposed by MarakViri for the combined mod, which was previously known as 'Reduce and Reuse'. This portion of the effect is now a Passive augment, and has gained an interaction with lockers. I opted to create the name 'Land's End' for the newly separated Finisher effect.",
+						["credit"] = "MarakViri (Warframe)",
+					},
+					["Worked Quarry"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord WorkedQuarryMod.png",
+						["description"] = "Casting Tectonics or Rumblers will now fracture the ground beneath you over a {{RNG|3 / 7 / 11 / 15m}}-radius area. You can maintain up to 3 quarries. You and your squadmates will receive {{STR|3}} Energy Regen/s while stood within a quarry, while enemies are slowed by 30%, and have a {{STR|15 / 21 / 27 / 33}}% chance to stagger when receiving physical damage.",
+						["volume"] = 22,
+					},
+				},
+			},
+			["Landslide"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Landslide130xWhite.png",
+				["exalted"] = "Ability",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Land's End"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FinisherMod.png",
+						["description"] = "Targeting an enemy that is vulnerable to Finishers will cause Landslide to deal {{STR|1.5 / 2 / 2.5 / 3x}} Damage, with Atlas instead leaping into the air and pummelling the target into the ground. On Finisher kill with Landslide: generate 1 Rubble.",
+						["volume"] = 27,
+						["revised"] = 35,
+						["footnote"] = "Bonus Rubble from deposits and containers has been moved to its own Passive augment. Reworded to say that the effect occurs when targeting an enemy that is vulnerable to Finishers, rather than saying that the ability is capable of performing Finishers. Added flavour-text to describe the animation. Given the new name 'Land's End', with 'Seismic Scavanger' being retained by the newly separated Passive augment.",
+					},
+					["Meteor Punch"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MeteorPunchMod.png",
+						["description"] = "Casting while airborne and aiming down will cause you to perform a Heavy Slam Attack, deal 3x Heavy Damage, as well as gaining {{STR|100 / 200 / 300 / 400%}} Blast Status Chance and knocking down enemies. For every meter travelled toward the ground, Landslide will also gain 10% impact radius. You can cast Landslide in this way without an enemy target.",
+						["volume"] = 34,
+					},
+					["Worldbreaker"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord WorldbreakerMod.png",
+						["description"] = "Hold-cast to charge your next Landslide, generating '''20''' Ability Combo Points/s and increasing the targeting range by {{RNG|6 / 7.5 / 10.5 / 15m}} over '''3{{divided by}}{{DUR|1}}s'''. Release to charge forward, applying the effects of Landslide to all enemies in your path.",
+						["volume"] = 22,
+					},
+				},
+			},
+			["Tectonics"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Tectonics130xWhite.png",
+				["revised_desc"] = "Casting summons a bulwark with high targeting priority from the ground with Health equal to {{STR|600 / 900 / 1200 / 1500}} plus {{STR|5x}} Total Armor, which is further increased by all damage mitigated during an initial {{DUR|1 / 2 / 3 / 4s}} of invulnerability. The bulwark will intercept all incoming attacks, and provides cover against area of effect. {{STR|100%}} of damage received by the bulwark is propogated to enemies within {{RNG|?m}} as Slash damage. Recasting will direct the bulwark to slide up to {{RNG|30m}} toward the location in your crosshair, collecting all enemies in its path and dealing them {{STR|150 / 300 / 450 / 600}} Impact damage/s. Upon collision with a vertical surface or upon reaching the designated location, the bulwark will explode, dealing {{STR|250 / 300 / 350 / 500}} Puncture Damage within a {{RNG|3 / 3 / 4 / 5m}}-radius. Hold-casting will skip deploying the bulwark, as well as exploding any existing bulwarks where they stand.",
+				["revised"] = "Not Recorded",
+				["augments"] = {
+					["Boulder Toss"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BoulderTossMod.png",
+						["description"] = "Hold-cast is now a channelled ability that extends Tectonic's invulnerability window to Atlas himself while he carries the boulder, storing '''25 / 50 / 75 / 100%''' of damage negated as additional Puncture Damage on the Boulder's explosion. Upon release, Atlas now throws the boulder with an arcing trajectory to the target location that explodes as normal on impact, also removing enemy armor equal to {{STR|10 / 15 / 20 / 25%}} of the damage dealt.",
+						["volume"] = 27,
+						["revised"] = 30,
+						["credit"] = "AtlasIsMyBabe (Reddit)",
+					},
+					["Heavy Elements"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord HeavyBoulderMod.png",
+						["description"] = "Recasting Tectonics now registers as a Heavy Attack, consuming '''100 / 75 / 50 / 25%''' of Landslide's Ability Combo Multiplier to deal 3x Heavy Damage, which is further modified by your Ability Combo Multiplier.",
+						["volume"] = 34,
+					},
+					["Hungry Earth"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord HungryEarthMod.png",
+						["description"] = "Tap-casts instead soften the ground within a {{RNG|10 / 13 / 16 / 19m}}-radius, sinking enemies into the ground and rendering them immobile for {{DUR|4 / 8 / 12 / 16s}}. Their allies may stop and attempt to pull them free. Hold-casts are unmodified.",
+						["volume"] = 27,
+					},
+					["Immovable Object"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ImmovableObjectMod.png",
+						["description"] = "Tap-casts instead grant Overguard equal to '''20 / 30 / 40 / 50'''% of the total health a Bulwark would gain. Recasts will stack the Overguard, with the total not exceeding {{STR|15,000}}. Hold-cast are unmodified.",
+						["volume"] = 32,
+						["credit"] = "MarakViri (Warframe)",
+						["coop"] = "Impasse",
+					},
+					["Sailing Stones"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ImmovableObjectMod.png",
+						["description"] = "When recast, the Bulwark will not explode and will instead persist at its new location. Directing the Bulwark into a wall will deal Impact Damage that is increased by '''25 / 33 / 50 / 100%''' per enemy being carried.",
+						["volume"] = 35,
+						["footnote"] = "After completing Banshee and Frost's sections, I'm wondering if the damage from impacting geometry should be a percentage of maximum health - as that seems to be the standard for impact-against-terrain damage."
+					},
+					["Stonecutter"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord StonecutterMod.png",
+						["description"] = "Recasting will no longer reposition the Bulwark, and instead loose a shard from the bulwark toward your crosshair, depleting '''10% + {{STR|150 / 250 / 400 / 600}}''' of the bulwark's health to deal the same amount as Impact damage on-hit and as Puncture Damage in a {{RNG|3 / 3 / 4 / 5m}}-radius area.",
+						["volume"] = 22,
+						["revised"] = 35,
+						["footnote"] = "Hold-casting to detonate your current bulwark has been moved to a baseline effect.",
+					},
+					["Tectonic Detainment"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TectonicDetainmentMod.png",
+						["description"] = "Casting now erects a {{RNG|14x14 / 16x16 / 18x18 / 20x20m}} perimeter wall with Atlas at its center, before compressing the walls together. Enemies hit will be collected and dropped at his feet, dealing Tectonic's Puncture damage to all nearby enemies per enemy displaced. ",
+						["volume"] = 34,
+						["coop"] = "Detainment",
+					},
+					["Tectonic Force"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TectonicForceMod.png",
+						["description"] = "Targeting a bulwark with Landslide will cause it to shatter, sending shrapnel forward in a '''35 / 50 / 55 / 80{{Degree}}''' conical area with a maximum range of {{RNG|15 / 20 / 25 / 30m}}. Enemies hit by the shrapnel take Puncture Damage equal to {{STR|10%}} of the bulwark's remaining health, scaling with Ability Combo Multiplier, and have a '''15 / 21 / 27 / 33%''' chance to drop Rubble if killed.",
+						["volume"] = 22,
+					},
+					["Tectonic Fracture"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["mod_image"] = "TectonicFractureMod.png",
+						["description"] = "Casting now deals {{STR|200 / 300 / 400 / 500}} Blast Damage to enemies within a {{RNG|2 / 3 / 4 / 5m}}-radius of the bulwark. Hold-casting will now deploy the bulwark from the surface in your crosshairs, up to a maximum range of {{RNG|20 / 30 / 40 / 50m}}. You can now maintain up to '''3''' Bulwarks, but it is no longer possible to trigger the recast effect.",
+						["revised"] = "Not Recorded",
+						["footnote"] = "In addition to its original effects, this augment now also applies damage in an area around the bulwark and allows you to summon the bulwarks at range.",
+					},
+					["Terrestrial Burden"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TerrestrialBurdenMod.png",
+						["description"] = "Casting now reverses the direction of gravity for all enemies within a {{RNG|5 / 10 / 15 / 20m}}-radius for '''2s'''. Hold-casting now drain {{EFF|12.5/s}} to reverse the direction of gravity on yourself until the ability is released.",
+						["volume"] = 22,
+						["revised"] = 30,
+					},
+				},
+			},
+			["Petrify"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Petrify130xWhite.png",
+				["revised_desc"] = "Casting will Petrify all enemies within a '''60{{Degree}}''' field-of-view, up to {{RNG|10 / 11 / 12 / 14m}}, for {{DUR|5 / 10 / 15 / 20s}}. Petrified enemies are '''100%''' more vulnerable to damage, are guaranteed to be dismembered if slain by Physical or Blast damage, and have a {{STR|10 / 15 / 20 / 25%}} chance to drop additional loot on-kill.",
+				["revised"] = 34,
+				["augments"] = {
+					["Faultline"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FaultlineMod.png",
+						["description"] = "Petrified enemies are scanned into your Codex. Petrified enemies with a completed codex entry are {{STR|25 / 33 / 50 / 100%}} more vulnerable to damage.",
+						["volume"] = 26,
+						["revised"] = 34,
+					},
+					["Gorgon's Gaze"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Gorgon'sGazeMod.png",
+						["description"] = "Hold-cast to channel this ability, draining {{EFF|3}}/s and limiting your movement to '''35 / 40 / 45 / 50%''' speed and dodge maneuvers. Your other actions are not restricted while channeling Tectonics.",
+						["volume"] = 28,
+						["revised"] = 34,
+					},
+					["Ore Gaze"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["mod_image"] = "OreGazeMod.png",
+						["description"] = "Ore and Gem Veins hit by Petrify have a {{STR|20 / 25 / 33 / 50%}} chance to be Auto-Prospected.",
+						["revised"] = "Not Recorded",
+						["footnote"] = "Bonus loot is now a baseline feature. Codex scanning has been moved to '''Faultline'''. This is a novel effect based around the name, '''Ore Gaze'''.",
+					},
+					["Path of Statues"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["mod_image"] = "PathofStatuesMod.png",
+						["description"] = "Casting Petrify will cause you to leave a trail in your wake for {{RNG|7 / 8 / 10 / 12s}} that lingers for {{DUR|3 / 4 / 5 / 6s}} and petrifies enemies on-contact for {{DUR|4 / 5 / 6 / 7s.}}",
+						["revised"] = "Not Recorded",
+						["footnote"] = "Previously a Landslide augment that created a trail when casting Landslide. The effect now occurs when casting Petrify, but is still effective during Landslide.",
+					},
+				},
+			},
+			["Rumblers"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Rumblers130xWhite.png",
+				["revised_desc"] = "Casting summons two Rumblers for {{DUR|15 / 20 / 30 / 45s}}, also Petrifying all enemies within {{RNG|3 / 4 / 5 / 6m}} for {{DUR|10s}}. Rumblers have {{STR|360}} Health and {{STR|150}} Armor, which are each increased by '''4% x Enemy Level'''. Rumblers deal {{STR|800 / 1000 / 1400 / 2000}} Impact damage on their melee attacks, and {{STR|200 / 250 / 350 / 500}} Impact damage with a ranged boulder attack, which are both modified by the config on your Landslide Fists. Casting Petrify will direct Rumblers to use their boulder attack '''once''' toward petrified enemies. Rumblers each generate their Attack Combo Multiplier, stacking up to 6x Damage. Collecting Rubble will extend the lifespan of active Rumblers by '''1 / 1.5 / 2 / 3s'''. The remaining duration cannot exceed the maximum duration.",
+				["revised"] = 34,
+				["augments"] = {
+					["Faceted Fists"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FacetedFistsMod.png",
+						["description"] = "Rumblers gain up to '''25 / 35 / 45 / 55%''' Attack Speed based on their Melee Combo Multiplier. Consecutive Rumbler attacks within 1s now occur in a sequence of left fist, right fist and ground slam. The ground slam can target an enemy up to 8m away and creates a shockwave that deals 2x damage to all enemies 15m line.",
+						["volume"] = 29,
+						["revised"] = 35,
+						["footnote"] = "Renamed (previously 'Rock 'em, Sock'em)."
+					},
+					["Rock Slide"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RockSlideMod.png",
+						["description"] = "Rumblers gain '''6 / 9 / 12 / 15m''' Melee Attraction Range on a '''3''' cooldown.",
+						["volume"] = 34,
+						["exilus"] = true,
+					},
+					["Rowdy Rumblers"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RowdyRumblersMod.png",
+						["description"] = "Collecting Rubble will now also heal your Rumblers, with healing in excess of their maximum health being converted into their own reserve of Rubble Armor. Healing from Rubble is increased to {{STR|30 / 60 / 90 / 120}}, and maximum Rubble Armor increased to '''1750 / 2000 / 2500 / 3000'''.",
+						["volume"] = 32,
+					},
+					["Rubble Rousers"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RubbleRousersMod.png",
+						["description"] = "Casting now costs 500 Rubble Armor to summon a single Rumbler, which now lasts indefinitely. You can hold-cast to channel a further '''25 / 50 / 75 / 100''' Rubble Armor per second, up '''250 / 500 / 750 / 1000''', to grant your Rumbler bonus Armor equal to '''3x''' the additional Rubble Armor expended. You can have up to '''1 / 2 / 3 / 4''' Rumblers active at a time.",
+						["volume"] = 32,
+					},
+					["Rumbled"] = {
+						["official"] = true,
+						["mod_avail"] = "Universal",
+						["mod_image"] = "RumbledMod.png",
+						["description"] = "Casting now transforms you into a Rumbler. As a Rumbler, your arsenal is unavailable and your parkour is limited to Dodge maneuvers. You may still cast your abilities, and your [Melee] hotkey will cast Landslide. [Primary Fire] will hurl a boulder that deals Landslide's damage and generates Ability Combo Points. Aim to bring up a targeting reticle. Your Rumbler form has {{STR|200 / 225 / 250 / 300%}} Health, and you gain Overguard equal to damage mitigated by an initial '''1 / 2 / 3 / 4s''' of invulnerability with no Overguard Cap. If you take Letahl Damage, you will revert to your normal form with '''10 / 15 / 20 / 25%''' health.",
+						["footnote"] = "You can now perform Dodge maneuvers. Now has a separate health bar that will protect you from lethal damage. Primary Fire now respects the automatic fire mode accessibility setting.",
+						["revised"] = "Not Recorded",
+					},
+					["Stone Slingers"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord StoneSlingersMod.png",
+						["description"] = "Casting instead summons 3 Stone Slingers that hurl rocks every 2.5s, dealing {{STR|200 / 275 / 350 / 500}} Impact Damage. The rocks have a 25% chance to break into Rubble. While active, you can hold-cast to drain {{EFF|25}} energy and entice your Slingers to each launch an explosive boulder toward your crosshair, dealing {{STR|500 / 750 / 1000 / 1250}} Blast Damage in a {{RNG|2 / 3 / 5 / 7m}} radius. Stone Slinger damage is modified by Ability Combo Multiplier.",
+						["volume"] = 27,
+						["revised"] = 34,
+					},
+					["Stoneborn Subjugation"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord StonebornSubjugationMod.png",
+						["description"] = "Casting instead subjugates petrified enemies within {{RNG|3 / 6 / 9 / 12m}}. Subjugated enemies will seek out the nearest non-subjugated enemy within '''50m''' and have a speed modifer of {{RNG|1.5}}. When killed, or after {{RNG|4}}s, subjugated enemies will explode, dealing {{STR|375 / 750 / 1125 / 1500}} Blast Damage in a 6m radius and have a 50% Rubble drop chance.",
+						["volume"] = 27,
+						["credit"] = "AtlasIsMyBabe (Reddit)",
+					},
+					["Titanic Rumbler"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["mod_image"] = "TitanicRumblerMod.png",
+						["description"] = "Casting now creates a single Rumbler with {{STR|200 / 225 / 265 / 300%}} Health and {{STR|200 / 250 / 300 / 400%}} Damage. Re-cast to command your Rumbler to slam the ground, dealing {{STR|200 / 300 / 400 / 500}} damage to enemies within {{RNG|15m}} and knocking them down.",
+					},
+				},
+			},
+		},
+	},
+	["Banshee"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Banshee_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Acoustic Resonance"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AcousticResonanceMod.png",
+						["description"] = "Alarming damaging effects are no longer silenced, but deal up to '''10 / 15 / 25 / 50'''% increased damage based on the proximity to the source of the noise, applying the full bonus within 3m and falling-off over 12m. Sonic Boom and Sound Quake are Alarming.",
+						["volume"] = 8,
+					},
+					["Skull Rupture"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SkullRuptureMod.png",
+						["description"] = "Alarming damaging effects are no longer silenced, instead your Alarming damaging effects have a '''25 / 33 / 50 / 100%''' chance to Stagger enemies the first time you damage them.",
+						["volume"] = 8,
+					},
+				},
+			},
+			["Sonic Boom"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "SonicBoom130xWhite.png",
+				["revised_desc"] = "Casting unleashes a blast that deals {{STR|100 / 200 / 300 / 400}} Blast Damage to enemies within a '''180{{Degree}}''' by {{RNG|10 / 12 / 13 / 15m}} conical area, and ragdolling them to the edge of the blast. Enemies who are shoved into geometry take an additional {{STR|15 / 25 / 35 / 45%}} of their maximum health as True Damage. Sonic Boom has {{STR|33 / 50 / 100 / 200%}} Impact Status chance.",
+				["revised"] = "Not Recorded",
+				["augments"] = {
+					["Sonic Fracture"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SonicWraithMod.png",
+						["description"] = "Reduces the Armor of enemies hit by {{STR|30 / 45 / 55 / 70%}}.",
+					},
+					["Sonic Wraith"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SonicWraithMod.png",
+						["description"] = "Casting instead transforms you into a wave of sonic force that travels up to {{RNG|9 / 10 / 12 / 15m}} in the target direction, applying the effects of Sonic Boom to enemies you pass through. You can hold the ability to automatically recast.",
+						["volume"] = 8,
+						["exilus"] = true,
+					},
+				},
+			},
+			["Sonar"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Sonar130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Resonance"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SonicWraithMod.png",
+						["description"] = "On Weakpoint kill versus an enemy revealed by Sonar will trigger another Sonar for {{DUR|50 / 65 / 80 / 100%}} of remaining duration.",
+					},
+					["Seeking Sonar"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SeekingSonarMod.png",
+						["description"] = "Sonar will now highlight rare items for {{DUR|2 / 2.5 / 3.5 / 5s}}.",
+						["volume"] = 32,
+					},
+					["Sonic Harmony"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SonicHarmonyMod.png",
+						["description"] = "Casting will now highlight a genuine Weak Point on affected enemies. Attacks against Weak Points revealed by Sonar have a {{STR|10 / 15 / 20 / 25}}% final Critical Chance modifier. Additional Sonars will enlarge the Weak Point.",
+						["volume"] = 23,
+						["revised"] = 34,
+						["set"] = "Harmonic",
+					},
+				},
+			},
+			["Silence"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Silence130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Sonic Fracture"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SonicWraithMod.png",
+						["description"] = "While Silence is active, enemies are {{STR|150 / 200 / 250 / 300}}% more vulnerable Weakpoint hits and Finishers.",
+						["revised"] = "Not Recorded",
+					},
+				},
+			},
+			["Sound Quake"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "SoundQuake130xWhite.png",
+				["revised_desc"] = "Channel untrasonic reverberations that deals {{STR|125 / 150 / 175 / 200}} Blast Damage/s to enemies within an unobstructed {{RNG|12 / 15 / 18 / 20m}}-radius. Generates 20 Ability Combo Points/s, which modifies the damage up to '''12x.'''",
+				["revised"] = "Not Recorded",
+				["augments"] = {
+					["Banshee's Wail"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Banshee'sWailMod.png",
+						["description"] = "You are no longer rooted in place, instead moving at '''65 / 60 / 55 / 50%''' speed. Enemies directly impacted by the soundwaves become enchanted, rendering them harmless and luring them closer. This now does increasing damage, up to 2000% damage at the epicenter.",
+						["volume"] = 8,
+					},
+					["Concussive Waves"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ConcussiveWavesMod.png",
+						["description"] = "Sound Quake now has 100% Blast Status Chance and deals an additional '''20 / 25 / 33 / 50%''' damage for each stack of Blast Damage on the target.",
+						["volume"] = 29,
+						["credit"] = "TheKengineer (YouTube)",
+					},
+					["Fracturing Waves"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FracturingWavesMod.png",
+						["description"] = "Sound Quake will now deal {{STR|20 / 25 / 33 / 50%}} bonus damage to shields and will reduce enemy armor by {{STR|20 / 25 / 33 / 50%}} of the damage it deals to their health.",
+						["volume"] = 30,
+					},
+					["Resonating Quake"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SonicWraithMod.png",
+						["description"] = "Casting instead creates a single shockwave that expands outward at '''17.5m/s''' to '''1.25 / 1.5 / 1.6 / 1.75x''' base range, dealing '''10 / 12 / 15 / 20x''' Sound Quake's damage at its epicenter that falls-off steeply down to 33% damage at maximum range.",
+					},
+				},
+			},
+		},
+	},
+	["Baruuk"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Baruuk_Thumb.png",
+		["abilities"] = {
+			["Restraint"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Acolyte of Air"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Acolyteof AirMod.png",
+						["description"] = "Passively gain {{STR|50%}} Bullet Jump Velocity and +1 Jump Reset. Performing the extra jump will deploy a hang glider that slows your fall speed. Erode '''0.4 / 0.8 / 1.2 / 1.6%''' Restraint per meter travelled while gliding. Using your hang glider is a two-handed action.",
+						["volume"] = 4,
+						["revised"] = 32,
+						["exilus"] = true,
+						["set"] = "Kalarupa",
+					},
+				},
+			},
+			["Elude"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Elude130xWhite.png",
+				["revised_desc"] = "Channel to gain '''100%''' Dodge Chance in a {{RNG|120 / 130 / 150 / 180{{Degree}}}} field-of-view in the direction of aim. Attacking will render you vulnerable for '''0.2s'''.",
+				["revised"] = "Not Recorded",
+				["augments"] = {
+					["Acolyte of Earth"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Acolyteof EarthMod.png",
+						["description"] = "Casting instead grants you '''100%''' Dodge Chance while your feet are on the ground. Becoming airborne will render you vulnerable for '''0.5s'''. While grounded, Elude also provides '''5 / 10 / 15 / 20%''' Status Immunity per second, stacking up to 5 times, and decaying at the same rate if not grounded.",
+						["volume"] = 4,
+						["revised"] = 32,
+						["exilus"] = true,
+						["set"] = "Kalarupa",
+					},
+					["Elusive Retribution"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SonicWraithMod.png",
+						["description"] = "Evading attacks will increase Baruuk's Melee Attack Speed and Melee Critical Damage by {{STR|5%}} for {{DUR|6s}}, stacking up to '''3 / 4 / 5 / 6''' times. Stacks will decay one at a time.",
+					},
+					["Pristine Chassis"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PristineChassisMod.png",
+						["description"] = "Hold-cast to empower Elude, generating {{EFF|20%}} to redirect all projectiles that pass through you towards an ally within Affinity Range and healing them for {{STR|5 / 10 / 15 / 20}}% of weapon damage.",
+						["volume"] = 26,
+						["revised"] = 32,
+						["set"] = "Pristine",
+					},
+				},
+			},
+			["Lull"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Lull130xWhite.png",
+				["revised_desc"] = "Casting creates a {{RNG|10 / 15 / 20 / 25m}}-radius calming zone that lingerss for {{DUR|2 / 3 / 4 / 5s}}. Enemies who enter the zone will fall asleep for {{DUR|10 / 13 / 18 / 20s}} after a '''1s'''-delay, during which they are increasingly slowed. Sleeping enemies are exposed to Finishers and gain +100% Vulnerability to Finishers, forget their previous alert level, and will wake if they receive in excess of 50% of their current health in damage. You erode '''0.8%''' Restraint per enemy lulled to sleep.",
+				["augments"] = {
+					["Acolyte of Spirit"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Acolyteof SpiritMod.png",
+						["description"] = "Hold-cast to instead enrage enemies within range, generating {{EFF|10%}} Restraint to cause them to fight each other. Enraged enemies will take {{STR|20 / 30 / 40 / 50 x Enemy Level}} True Damage each time they attack.",
+						["volume"] = 4,
+						["revised"] = 32,
+						["set"] = "Kalarupa",
+					},
+					["Endless Lullaby"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SonicWraithMod.png",
+						["description"] = "On Finisher or Kill against a sleeping enemies will re-cast Lull for 100% of the remaining duration. Passively gain '''25 / 50 / 75 / 100%''' Lull duration.",
+					},
+					["Pristine Neuroptics"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PristineNeuropticsMod.png",
+						["description"] = "Hold-cast to empower Lull, generating {{EFF|20%}} Restraint to cause {{STR|20 / 25 / 33 / 50%}} of damage received by sleeping enemies to bypass their armor and shields.",
+						["volume"] = 26,
+						["set"] = "Pristine",
+					},
+					["Stay and Listen"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Stayand ListenMod.png",
+						["description"] = "Casting now affect all enemies within your field of view, up to a maximum distance of {{RNG|20 / 40 /60 / 80}} meters. Hold-cast to channel with an upkeep cost of {{EFF|3}}/s, reducing your mobility to '''35 / 40 / 45 / 50%''' speed and dodge maneuvers. While channelling, enemies within your line of sight cannot be awoken and damage they receive is adapted to their weaknesses.",
+						["volume"] = 26,
+					},
+				},
+			},
+			["Desolate Hands"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "DesolateHands130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Acolyte of Water"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Acolyteof WaterMod.png",
+						["description"] = "Casting instead surrounds you with a ring of water for {{DUR|20s}}. Baruuk's projectile attacks are frozen, gaining {{STR|20 / 24 / 26 / 30%}} bonus Cold damage with a guaranteed Cold Status Chance. Frozen projectiles that hit a Weak Point erode '''1.6%''' Restraint.",
+						["volume"] = 4,
+						["revised"] = 32,
+						["set"] = "Kalarupa",
+					},
+					["Astral Transference"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AstralTransferenceMod.png",
+						["description"] = "Casting projects an invulnerable avatar of yourself at the target location and assumes direct control, leaving Baruuk's mortal form immobile and vulnerable. During Astral Transference, you will use your Exalted Weapon and your attacks will heal allies hit for {{STR|2 / 3 / 4 / 5%}} of the damage values.",
+						["volume"] = 26,
+					},
+					["Pristine Systems"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PristineSystemsMod.png",
+						["description"] = "Hold-cast to empower Desolate Hands, generating {{EFF|20%}} Restraint to immediately launch empowered daggers that are evenly distributed among all enemies in your line of sight, up to a maximum distance of {{RNG|20 / 40 /60 / 80m}}. Empowered daggers deal an additional {{STR|25 / 50 / 75 / 100%}} damage.",
+						["volume"] = 26,
+						["revised"] = 32,
+						["set"] = "Pristine",
+					},
+				},
+			},
+			["Serene Storm"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "SereneStorm130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Acolyte of Fire"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Acolyteof FireMod.png",
+						["description"] = "Casting now equips Crackling Lightning, an Exalted Primary weapon that replaces Desert Wind. Hold Primary Fire to unleash lightning that arcs to multiple enemies. Generates '''1.4 / 1.2 / 1.0 / 0.8%''' Restraint per second.",
+						["volume"] = 4,
+						["revised"] = 32,
+						["exilus"] = true,
+						["set"] = "Kalarupa",
+					},
+					["Meditative Preparation"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MeditativePreparationMod.png",
+						["description"] = "Baruuk begins a mission with '''25 / 33 / 50 / 100%''' of his Restraint eroded.",
+						["volume"] = 30,
+						["restrict"] = "{{m|Preparation}}",
+					},
+					["Reactive Storm"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SonicWraithMod.png",
+						["description"] = "Desert Wind is granted {{STR|100 / 150 / 200 / 250%}} Status Chance, and its base physical damage is adapted to the enemy's faction weakness.",
+					},
+					["Tempered Storm"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TemperedStormMod.png",
+						["description"] = "Serene Storm is no longer disabled when your Restraint is full. Instead, while full, Desert Wind will deal only '''20 / 25 / 33 / 50%''' damage and drains {{EFF|0.4}}/s, increased by a further {{EFF|0.4}} for every second your Restraint goes unchecked.",
+						["volume"] = 29,
+						["credit"] = "TheKengineer (YouTube)",
+					},
+				},
+			},
+			["Desert Wind"] = {
+				["ability_icon"] = "DesertWind.png",
+				["exalted"] = "Melee",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Bonewidow"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Bonewidow.png",
+		["abilities"] = {
+			["Meathook"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Meathook130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Hook Line"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Casting now launches your Meat Hook up to {{RNG|10 / 15 / 20 / 25m}} in the target direction, pulling yourself toward the first enemy or surface hit, and dealing Meat Hook's damage to all enemies within a {{RNG|5m}}-radius on-impact.",
+						["volume"] = "Not Recorded",
+					},
+					["Meat Grinder"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Casting now launches your Meat Hook up to {{RNG|25 / 40 / 60 / 75m}} in the target direction, grabbing and reeling-in the first enemy hit.",
+						["volume"] = "Not Recorded",
+					},
+					["Meat Juicer"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						["description"] = "You will drain your hook victim's health to cover your ability costs at '''5 / 4 / 3 / 2''' health per 1 energy.",
+						["volume"] = "Not Recorded",
+					},
+					["Walkies"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Casting now launches your Meat Hook up to {{RNG|10 / 15 / 20 / 25m}} in the target direction, permanently silencing them and preventing them from being any further away.",
+						["volume"] = "Not Recorded",
+					},
+				},
+			},
+			["Shield Maiden"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "ShieldMaiden130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Meat Shield"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Casting or recasting while an enemy is on your '''Meat Hook''' will deal them lethal damage and add {{STR|0.5 / 0.75 / 1.0 / 1.5x}} their maximum health to Shield Maiden's shield value.",
+						["volume"] = "Not Recorded",
+					},
+				},
+			},
+			["Firing Line"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "FiringLine130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Infiltration Protocol"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Casting instead performs a Codex Scan on each enemy hit. Versus enemies whose Codex Entry is completed, you will hijack their senses and render them incapable of registering the Tenno faction as a threat for {{DUR|5 / 10 / 15 / 20s}}.",
+						["volume"] = "Not Recorded",
+					},
+					["Siphoning Line"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Casting now siphons {{STR|20 / 25 / 33 / 50%%}} of her maximum health from each enemy hit, inflicted as true damage..",
+						["volume"] = "Not Recorded",
+					},
+				},
+			},
+			["Exalted Ironbride"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "ExaltedIronbride130xWhite.png",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Burnscar"] = {
+		["equip_type"] = "Warframe",
+		["official"] = false,
+		["icon"] = false,
+		["abilities"] = {
+			["Recursion Grenade"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = false,
+				["augments"] = {
+				},
+			},
+			["Rocket Grapple"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = false,
+				["augments"] = {
+				},
+			},
+			["Shrapnel Field"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = false,
+				["augments"] = {
+				},
+			},
+			["Sniper Mode"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = false,
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Caliban"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Caliban_Thumb.png",
+		["abilities"] = {
+			["Adaptive Armor"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["revised_desc"] = "When Damaged: Gain '''5%''' Resistance to the dominant Damage Type, stacking up to '''90%'''. After '''5s''' without receiving damage, Adaptive Armor will decay at a rate of '''5%/s'''.",
+				["revised"] = "Not Recorded",
+				["augments"] = {
+					["Counteroffensive"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CounteroffensiveMod.png",
+						["description"] = "Your weapons deal additionals hits of damage based on your current '''1 / 2 / 3 / 4''' highest Adaptive Armor values.",
+						["volume"] = 30,
+						["revised"] = 35,
+						["footnote"] = "Added a maximum number of additional hits based on the mod's rank.",
+					},
+					["Jumpstart Shields"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord JumpstartShieldsMod.png",
+						["description"] = "Your Bullet Jumps restore 15 Shields and jumpstarts shield regeneration. '''20 / 25 / 33 / 50%''' Parkour Velocity.",
+						["volume"] = 29,
+						["exilus"] = true,
+						["credit"] = "TheKengineer (YouTube)",
+					},
+					["Manifold Aura"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ManifoldAuraMod.png",
+						["description"] = "Your allies within Affinity Range will benefit from Adaptive Armor, up to 50% Damage Reduction. Additionally, Caliban and his allies within Affinity Range will benefit from Adaptation-Link, causing them to damage received by any linked ally to increment the current Adaptive Armor values for all other linked allies.",
+						["volume"] = 26,
+						["aura"] = true,
+					},
+				},
+			},
+			["Razor Gyro"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "RazorGyre130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Razor Step"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RazorStepMod.png",
+						["description"] = "Razor Gyro now uses Hybrid Casting. On Tap: Become invulnerable for 0.25s, also gaining a burst of forward momentum and cleansing status effects. Deal one instance of Razor Gyro's damage to nearby enemies. While Held: Maintain Razor Gyro.",
+						["volume"] = 34,
+						["restrict"] = "{{m|Rolling Guard}}",
+					},
+					["Razor Storm"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RazorStormMod.png",
+						["description"] = "Casting additionally causes your active Conculysts to begin spinning, applying Razor Gyro's damage within a '''2x''' radius of each summon. Razor Gyro now generates Ability Combo Points per enemy hit, and deals up to 12x Damage based on your Ability Combo Multiplier.",
+						["volume"] = 18,
+						["revised"] = 30,
+					},
+					["Razor Mortar"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SonicWraithMod.png",
+						["description"] = "While active, enemies hit are grouped together. Upon resolution, your active Ortholysts are deployed surrounding you, and focus fire onto the grouped enemies with {{STR|40 / 50 / 60 / 70%}} Electricity Damage and Fire Rate for {{DUR|3 / 4 / 5 / 6s}}.",
+					},
+				},
+			},
+			["Sentient Wrath"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "SentientWrath130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Sentient Path"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SentientPathMod.png",
+						["description"] = "Casting additionally causes your active Summulust is deployed in front of you in gate form, which repeats the effects of Sentient Wrath 3 times, or every 3.3s, which ever is greater, The gate also applies a directional force over the area that pulls immobilized enemies toward itself at {{RNG|5 / 6 / 7 / 10m}}/s.",
+						["volume"] = 34,
+					},
+					["Sentient Spite"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SentientSpiteMod.png",
+						["description"] = "Once the projectiles reach maximum range, they come to a stop before returning to you and applying the Sentient Wrath's effects again. The damage vulnerability will now stack up to twice. The returning projectiles accelerate up to '''45m/s'''.",
+						["volume"] = 26,
+					},
+				},
+			},
+			["Lethal Progeny"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "LethalProgeny130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Defensive Progeny"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DefensiveProgenyMod.png",
+						["description"] = "Adds Immunodes as a fourth sentient option that will grant invulnerability and immunity to status effects to allied units within {{RNG|5m}}. You will only summon a single Immunode, and they have the highest enemy targeting priority. {{STR|1500 / 2500 / 3000 / 3500}} object health.",
+						["volume"] = 18,
+					},
+					["Ingenious Progeny"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord IngeniousProgenyMod.png",
+						["description"] = "Active Sentients no longer bolster allied shields, and instead continuously radiates pulses that strips the shields of enemies within {{RNG|25m}} by {{STR|10 / 15 / 20 / 25%}}/s.",
+						["volume"] = 28,
+						["revised"] = 30,
+					},
+					["Lethal Ancestry"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord LethalAncestryMod.png",
+						["description"] = "Adds Vomvalysts as a fourth sentient option that harasses enemies with homing projectiles and expends themselves to revive fallen allies. You will summon '''2 / 3 / 4 / 5''' Vomvalysts in a single cast.",
+						["volume"] = 18,
+						["coop"] = "Lineage",
+					},
+					["Lethal Vision"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord LethalVisionMod.png",
+						["description"] = "Adds Oculysts as a fourth sentient option that disables lockdowns, resets alarms and disables security cameras, as well as highlighting Loot and Enemies within {{RNG|5 / 10 / 15 / 20m}}. Allies within Affinity Range of an Oculyst are Radar-Linked. Oculysts are immobile, last for {{DUR|20 / 25 / 30 / 35s}}, and only 1 is deployed per cast, but you may deploy up to 3, and they may be summoned in conjunction with your other Sentients.",
+						["volume"] = 34,
+					},
+				},
+			},
+			["Fusion Strike"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "FusionStrike130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Fusion Point"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FusionPointMod.png",
+						["description"] = "On Cast: Lethal Progeny's Conculysts will also project a single beam from their chest toward the object of Caliban's aim. Enemies will receive '''25 / 33 / 50 / 100%''' damage from beams beyond the first. Upon resolution, Conculysts will begin using their tornado ability, the duration of which is paused while within Fusion Strike's fallout. ",
+						["volume"] = 34,
+					},
+				},
+			},
+		},
+	},
+	["Chroma"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Chroma_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Aurelian Armor"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AurelianArmorMod.png",
+						["description"] = "Passively gain {{{STR|1}}} Armor for every 1000 Credits in your Mission Coffers, up to '''500 / 750 / 1000 / 1500''' Armor.",
+						["volume"] = 27,
+					},
+					["Trailblazer"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TrailblazerMod.png",
+						["description"] = "Passively mitigate Status Effects. While above {{STR|5 / 7.5 / 10 / 15%}} Health, you will expend '''3%''' Health for each Status Effect mitigated.",
+						["volume"] = 25,
+						["footnote"] = "The health expenditure counts as damage received for the purposes of Vex Armor, as well as effects like {{m|Combat Discipline}}.",
+					},
+				},
+			},
+			["Spectral Scream"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "SpectralScream130xWhite.png",
+				["revised_desc"] = "Channel to exale elemental destruction from your '''Sentient Pelt''', Chroma's Exalted Primary Weapon that deals {{STR|50}} Elemental Damage at a fire rate of 8.0 attack/s to all enemies in a {{RNG|8 / 12 / 16 / 20m}} by '''90{{Degree}}''' conic area. While Aiming, the area of effect is adjusted to {{RNG|15 / 20 / 25 / 30m}} by beam's FOV is narrowed to '''35{{Degree}}'''. Casting supports tap-to-toggle and hold-until-released. While active, you generate 20 Ability Combo Points/s, and deal up to 12x Damage based on your Ability Combo Multiplier.",
+				["revised"] = "Not Recorded",
+				["augments"] = {
+					["Afterburn"] = {
+						["official"] = true,
+						["mod_avail"] = "Universal",
+						["mod_image"] = "SpectralScreamMod.png",
+						["description"] = "Upon deactivation, Chroma will launch a volatile projectile that explodes on impact, dealing {{STR|25 / 50 / 75 / 100}} damage for each second the ability was active to all enemies within a {{RNG|5m}} radius. In Conclave, this damage is capped at {{STR|200 / 300 / 400 / 500}}.",
+						["revised"] = "Not Recorded",
+						["footnote"] = "Damage cap is now only applicable in Conclave."
+					},
+					["Dynakinesis"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DynakinesisMod.png",
+						["description"] = "Sentient Pelt's breath attack is instead a narrow beam that will automatically lock-on to the closest enemy within {{RNG|8 / 12 / 16 / 20m}} and within a '''90{{Degree}}''' field of view. The beam will chain indefinitely to unique enemies within {{RNG|4 / 6 / 8 / 10m}} of the last enemy hit.",
+						["volume"] = 28,
+					},
+					["Morning Breath"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MorningBreathMod.png",
+						["description"] = "Casting while above '''75%''' Maximum Energy will instantly accumulate '''60 / 120 / 180 / 220''' Ability Combo Points.",
+						["volume"] = 3,
+					},
+					["Piercing Scream"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Ear-piercingScreamMod.png",
+						["description"] = "Casting instead unleashes a shriek with such intensity that all enemies with line-of-sight are dealt Sentient Pelt's damage with {{STR|100 / 125 / 150 / 200%}} Puncture Status Chance.",
+						["volume"] = 18,
+					},
+					["Spectral Artillery"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SpectralArtilleryMod.png",
+						["description"] = "Sentient Pelt's breath attack instead launches arcing globs of elemental spittle that explode on impact, dealing Sentient Pelt's damage to all enemies within a {{RNG|5m}}-radius. You can hold to automatically recast this ability. While at 6x Ability Combo Multiplier, gain '''+25 / 33 / 50 / 100%''' Spittle Radius. While at 12x Ability Combo Multiplier, gain '''100%''' Spittle Status Chance. Projectiles move at 60m/s with no maximum range, but are affected by gravity.",
+						["volume"] = 33,
+					},
+					["Spectral Focus"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FocusedFireMod.png",
+						["description"] = "Sentient Pelt's breath attack is instead a narrow, {{RNG|8 / 12 / 16 / 20m}}-ranged beam. Damaging an enemy will accumulate Focus stacks every second, which are set to 0 whenever you change target. At 3 stacks, consume all stacks to trigger an eruption that deals {{STR|500 / 750 / 1000 / 1250}} damage to all enemies within a {{RNG|6m}}-radius of your target.",
+						["volume"] = 27,
+					},
+				},
+			},
+			["Elemental Ward"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "ElementalWard130xWhite.png",
+				["revised_desc"] = "Hold to cycle between Cold, Electricity, Heat and Toxin. Your current selection modifies the damage type of your other abilities. Tap-cast to gain an aura of elemental protection for {{DUR|10 / 15 / 20 / 25s}}, granting friendly units within '''Affinity Range:'''<ul><li>Cold: {{STR|25 / 70 / 90 / 145%}} base Armor, as well as causing attackers to receive {{STR|150 / 200 / 250 / 300%}} of damage inflicted against you as Cold damage with {{STR|10 / 15 / 20 / 25%}} Status Chance,</li><li>Electricity: {{STR|10 / 15 / 20 / 30%}} base Shields, as well as propogating {{STR|2.5 / 3 / 5 / 10x}} damage received as Electrical Damage to an enemy within {{RNG|5 / 6 / 8 / 10m}} with {{STR|10 / 15 / 20 / 25%}} Status Chance,</li><li>Heat: {{STR|15 / 20 / 30 / 55%}} base Healths, as well as dealing {{STR|25 / 50 / 75 / 100}} Heat damage/s to enemies within a {{RNG|5m}}-radius with {{STR|5 / 5 / 7 / 10%}} Status Chance, or</li><li>Toxin: {{STR|15 / 20 / 30 / 35%}} Reload Speed, as well as granting {{STR|15 / 25 / 30 / 35%}} Weapon Damage for {{DUR|3s}} whenever you swap weapons. Noxious fumes have a {{STR|25 / 35 / 40 / 50%}} chance/s to deal {{STR|5%}} of an enemy's maximum health as Toxin Damage with guaranteed status.</li></ul>",
+				["revised]"] = 35,
+				["augments"] = {
+					["Elemental Brand"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ElementalBrandMod.png",
+						["description"] = "Casting now additionally brands the ground at the target location, as well as beneath all Warframes within Affinity Range. After a 1.75s delay, each brands erupts, dealing {{STR|500 / 750 / 1000 / 1250 x Enemy Level}} Elemental Damage to enemies within a {{RNG|5m}}-radius area.",
+						["volume"] = 26,
+					},
+					["Prismatic Compounds"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PrismaticCompoundsMod.png",
+						["description"] = "Hold-casting now opens a Selection Wheel that allows Chroma to choose between any of the 10 Elemental Forces. Casting Elemental Ward with a Compound Element will grant Chroma elemental protection corresponding to both composite elements. This augment is not compatible with Helminth.",
+						["volume"] = 5,
+						["revised"] = 30,
+					},
+				},
+			},
+			["Vex Armor"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "VexArmor130xWhite.png",
+				["revised_desc"] = "Casting creates an aura for {{DUR|10 / 15 / 20 / 25s}} that grants up to {{STR|360%}} Bonus Armor ('Scorn') and up to {{STR|276%}} Bonus Damage ('Fury') to allies within Affinity Range, based on '''30x''' and '''23x''' your Ability Combo Multiplier, respectively. While active, Chroma gains Ability Combo Points equal to '''10%''' of any damage received, '''15''' Ability Combo Points on Melee and Ranged Kills, and '''30''' Ability Combo Points on Weakpoint and Finisher Kills. ",
+				["revised"] = 35,
+				["augments"] = {
+					["Draconic Plating"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DraconicPlatingMod.png",
+						["description"] = "Casting regenerates '''100%''' Shields and creates a Shield Gate every '''150''' total Shields. While active, your Ability Combo Duration is frozen. You gain '''60''' Ability Combo Points and your Maximum Shields are reduced by 150 each time you trigger Shield Gating. {{STR|600%}} maximum Fury Bonus Modifier. If your Shields are fully depleted, your Ability Combo is set to 0, your Maximum Shields are restored, and both your Ability Combo Generation and Shields are disabled until your Shields have fully regenerated. 60s cooldown beginning on-cast. '''+300 / +250 / +200 / +150%''' Shield Recharge Delay. '''Scorn''' is disabled.",
+						["volume"] = 26,
+						["revised"] = 35,
+						["footnote"] = "Replaced mentions of 'plating' in the description with 'shield gate'. Added 60s cooddown. Added Shield Recharge Delay Penalty. Effect revised to suit Ability Combo Multiplier. I considered changing the size of 'plates' to be '''150 ÷ {{STR|1}}''', but I think that would be far too easy to get an unreasonably large number of plates.",
+					},
+					["Ire of Dragons"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Ireof DragonsMod.png",
+						["description"] = "The effects of Vex Armor are now passive, and your Ability Combo Multiplier now decays by '''10 / 7.5 / 5 / 2.5''' every {{DUR|5s}}. Hold-casting will now sacrifice health at a rate of {{EFF|500}} per second, until released. Efficiency will reduce the damage taken without affecting Ability Combo Generation.",
+						["volume"] = 26,
+						["revised"] = 35,
+						["footnot"] = " Effect revised to suit Ability Combo Multiplier.",
+					},
+				},
+			},
+			["Effigy"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Effigy130xWhite.png",
+				["revised_desc"] = "Channel to deploy your Sentient Pelt as an immobile Sentry, which autoamtically attacks nearby enemies and generates an aura that grants '''15 / 30 / 45 / 60%''' Credit Drop Chance and '''25 / 50 / 75 / 100%''' Credit Drop Amount Blessings to all allies within Affinity Range. Channeling will terminate automatically if Chroma moves out of Sentient Pelt's telegraphed Affinity Range. This does not prevent Chroma from casting Spectral Scream.",
+				["revised"] = 35,
+				["augments"] = {
+					["Avaricious Aura"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AvariciousAuraMod.png",
+						["description"] = "Your Effigy's Credit Blessings are now applied as a Mission-wide aura at all times.",
+						["volume"] = 31,
+						["aura"] = true,
+						["revised"] = 35,
+						["footnote"] = "The augment now affects both Credit Blessings, not just the Drop Chance. Effigy no longer needs to be active.",
+					},
+					["Dragon Blessed"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DragonBlessedMod.png",
+						["description"] = "Your Effigy's Credit Drop Amount Blessing now persists on allies for {{DUR|18 / 22 / 26 / 30}}s.",
+						["volume"] = 31,
+						["retired"] = 35,
+						["footnote"] = "I decided that Avaricious Aura should provide both bonuses, instead of the having two separate augments.",
+					},
+					["Dragon Sickness"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DragonSicknessMod.png",
+						["description"] = "While active, enemies within your Effigy's aura are intoxicated by the sight of gold and are compelled to fight each other in melee combat. Gain '''0.25 / 0.33 / 0.5 / 1.0%''' Affinity Range per 1000 Credits in your Mission Coffers, up to 100% Affinity Range.",
+						["volume"] = 27,
+					},
+					["Overwhelm"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord OverwhelmMod.png",
+						["description"] = "Casting instead causes you to charge upon a target enemy within {{RNG|15m}}, amassing all enemies within a {{RNG|20m}} by 80{{Degree}} cone into a dense cluster and then slam the cluster into the ground over your shoulder dealing {{STR|500 / 750 / 1000 / 1250}} damage that is affected by Sentient Pelt's config.",
+						["volume"] = 26,
+					},
+					["Reign of Fire"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Reignof FireMod.png",
+						["description"] = "Casting instead causes you to take flight for {{DUR|2s}}, scorching a trail through the battlefield that lingers for {{DUR|15s}} apply Sentient Pelt's damage. Replenish {{STR|1%}} health and energy per meter travelled in flight.",
+						["volume"] = 3,
+						["exilus"] = true,
+					},
+				},
+			},
+			["Sentient Pelt"] = {
+				["ability_icon"] = "Effigy130xWhite.png",
+				["exalted"] = "Primary",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Citrine"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Citrine_Thumb.png",
+		["abilities"] = {
+			["Geoluminesence"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+				},
+			},
+			["Fractured Blast"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "FracturedBlast130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Percussive Blast"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PercussiveBlastMod.png",
+						["description"] = "Hold-casting combines the crystal shards into a single, piercing projectile that will destroy emplacements, shatter deployable barriers, and remove any Shields, Armor and up to '''20 / 25 / 35 / 50%''' Overguard from enemies on-hit. Successfully breaking any form of defense will cause the projectile to explode, dealing {{STR|200 / 400 / 700 / 1000}} Electricity Damage to enemies within {{RNG|7.5m}}.",
+						["volume"] = 28,
+						["revised"] = 32,
+					},
+				},
+			},
+			["Preserving Shell"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "PreservingShell130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+				},
+			},
+			["Prismatic Gem"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "PrismaticGem130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Prismatic Companion"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["mod_image"] = "PrismaticCompanionMod.png",
+						["description"] = "Casting will now attach the gem to your free-moving companion. Passively gain {{DUR|20 / 30 / 40 / 50%}} Prismatic Gem Duration.",
+					},
+					["Prismatic Focus"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PrismaticFocusMod.png",
+						["description"] = "Prismatic Beams deal '''0.25 / 0.33 / 0.5 / 1.0x''' damage that is adapted to the enemy's shields and armor.",
+						["volume"] = 28,
+					},
+				},
+			},
+			["Crystallize"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Crystallize130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Recrystalize"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["mod_image"] = "PrismaticCompanionMod.png",
+						["description"] = "Killing an enemy by attacking a crystalline growth will spread crystal shards to enemies within {{RNG|4 / 8 / 12 / 16}}, briefly staggering them as they form crystalline growths of their own for {{DUR|8s}}. This effect is recursive.",
+					},
+				},
+			},
+		},
+	},
+	["Cyte-09"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Cyte09_Thumb.png",
+		["abilities"] = {
+			["Practiced Aim"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+				},
+			},
+			["Seek"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "SeekIcon.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Active Denial"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Each pulse of your antennae will slow enemies revealed by {{STR|20 / 25 / 30 / 35%}} for {{DUR|2s}}.",
+						["volume"] = 35,
+						["credit"] = "TheJUST1 (Warframe)",
+					},
+					["Lethal Sights"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord LethalSightsMod.png",
+						["description"] = "Your antennae are now fitted with ballistics, and project a tripwire in their facing direction. The enemy who breaks the tripwire will be dealt Neutralizer's damage to an exposed Weak Point. Antennae now pulse every '''4 / 3.5 / 3 / 2.5s''', and the tripwire will be re-engaged with each pulse.",
+						["volume"] = 35,
+					},
+					["Remote Access"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RemoteAccessMod.png",
+						["description"] = "Hold-casting will deploy and assume control of an Infiltrator Roller for {{RNG|20 / 25 / 30 / 35s}}, which can adhere to surfaces, and cannot be detected by enemy senses or motional-based security systems. Use '''Primary Fire''' to discharge a pulse that disables enemy robotics and overrides security consoles within {{RNG|2 / 3 / 4 / 5m}}. After {{DUR|2 / 3 / 4 / 5}} uses or if recast, the roller will self-destruct. Evade's duration is paused while controlling the Infiltrartor Roller. ",
+						["volume"] = 35,
+					},
+					["Spotter Osprey"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SpotterOspreyMod.png",
+						["description"] = "Casting instead deploys an invulnerable Spotter Osprey, which accompanies you like a Sentinel. The Spotter Osprey has a '''30 / 45 / 60 / 75{{Degree}}''' cone of vision. Seek can no longer be recast while active.",
+						["volume"] = 35,
+					},
+					["Squad Spotter"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Squad'sSpotterMod.png",
+						["description"] = "Weak Point kills against enemies illuminated by Seek will highlight the Weak Points of all other enemies within {{RNG|15 / 20 / 25 / 30m}} for {{DUR|5s}}. All squad members can see and will gain Seek's bonus Weak Point damage versus enemies highlighted by Spotter.",
+						["volume"] = 35,
+						["credit"] = "TheR3D_Foxx (Warframe)",
+					},
+				},
+			},
+			["Resupply"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "ResupplyIcon.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Resupply Station"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ResupplyStationMod.png",
+						["description"] = "Casting instead deploys a Resupply Station for {{DUR|10 / 15 / 20 / 25s}} that pulses every '''3s''', refilling the magazines of allies within {{RNG|10m}} and granting them bonus elemental damage on their current magazine.",
+						["volume"] = 35,
+						["credit"] = "TheR3D_Foxx (Warframe)",
+					},
+				},
+			},
+			["Evade"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "EvadeIcon.png",
+				["revised_desc"] = "Casting causes you to jump back and become invisible for {{DUR|10s}}, reducing your noise level by 100% and granting you softsteps. While invisible, Weak Point kills will restore {{STR|25 / 50 / 75 / 100}} Health and extend the duration of Evade by {{DUR|2s}}. The remaining duration cannot exceed {{DUR|30s}}.",
+				["revised"] = "Not Recorded",
+				["augments"] = {
+					["Blunt Force Rounds"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BruteForce RoundsMod.png",
+						["description"] = "Non-lethal headshots will now extend Evade's duration by '''0.1 / 0.2 / 0.3 / 0.4s'''. The duration is similarly extended whenever an enemy revealed by Seeker is slain by an ally.",
+						["volume"] = 33,
+					},
+				},
+			},
+			["Neutralize"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "NeutralizeIcon.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+				},
+			},
+			["Neutralizer"] = {
+				["ability_icon"] = "Neutralizer.png",
+				["exalted"] = "Secondary",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Dagath"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Dagath_Thumb.png",
+		["abilities"] = {
+			["Abundant Abyss"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Superstition"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SeraphimEyesMod.png",
+						["description"] = "Enemies damaged by Dagath are permanently made Superstitious. Superstitious enemies are {{STR|5 / 10 / 15 / 20%}} less accurate, up to 75%. If Dagath would take Lethal Damage from a Superstitious enemy, she gains the effects of Grave Spirit's Spectral Form.",
+						["volume"] = 35,
+						["credit"] = "VondoGlok (Warframe)",
+					},
+				},
+			},
+			["Wyrd Scythes"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "WyrdScythes130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Reaping Scythes"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SeraphimEyesMod.png",
+						["description"] = "On cast, Sickles will now expand to {{RNG|4m}} and orbit her for {{DUR|10 / 15 / 20 / 25s}}. While active, you may recast the ability will unleash the sickles toward enemies within {{RNG|40m}}, whereafter they will return to orbiting her. Recasting while aiming will instead send the sickles toward your crosshair.",
+						["volume"] = 35,
+						["credit"] = "VondoGlok (Warframe)",
+						["footnote"] = "Sickles have infinite punchthrough, and so will pick the furthest away target. You may recast this ability multiple times, but you must wait for the scythes to return before you can unleash them again.",
+					},
+				},
+			},
+			["Doom"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Doom130xWhite.png",
+				["revised_desc"] = "Casting emits a morbid scream that curses all enemies within a {{RNG|10 / 12 / 13 / 15m}} by '''40{{degree}}''' conic area.",
+				["augments"] = {
+					["Deathly Omen"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Phantom Wrath will deal {{STR|1.5 / 2 / 2.5 / 3x}} Finisher Damage versus enemies that are vulnerable to Finishers. The lethal threshold for premature detonation will take this modifier into account, when applicable.",
+						["volume"] = 35,
+					},
+					["Doom Merchent"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Each instance of Phantom Wrath will now accumulate {{STR|30 / 45 / 60 / 75%}} of damage inflicted to any other enemy that is afflicted, capped at to '''100%'''.",
+						["volume"] = 35,
+					},
+				},
+			},
+			["Grave Spirit"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "GraveSpirit130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Spectral Spirit"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["mod_image"] = "GraveSpiritMod.png",
+						["description"] = "Casting now immediately assumes Spectral Form. Passively gain '''25 / 50 / 75 / 100%''' Doom Status Chance on your damage from all sources. When not in Spectral Form, your kills decrease Grave Spirit's cooldown by '''1s'''.",
+					},
+				},
+			},
+			["Rakhali's Cavalry"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "RakhalisCavalry130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Rakhali's Reins"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Casting will instead summon and mount Rakhali, gaining an initial '''1 / 2 / 3 / 4s''' of invulnerability, and converting all mitigated damage into Overguard with no upper limit. While Overguard holds, you will resist Stagger and Knockdown effects that would otherwise dismount you. While mounted, performing a forward Dodge will summon '''Rikhali's Cavalry''', which will charge forward normally. Rickhali may only fly in landscape missions.",
+						["volume"] = 35,
+						["footnote"] = "You can employ effects such as {{m|Primed Sure Footed}} to continue to resist most dismounting effects even after your Overguard is depleted.",
+					},
+				},
+			},
+		},
+	},
+	["Dante"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Dante_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+				},
+			},
+			["Noctua"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Noctua130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Page Turner"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PageTurnerMod.png",
+						["description"] = "Casting Final Verse while Noctua is fully charged will expend the charge to drain '''25 / 33 / 50 / 100%''' less energy. While active, Final Verse will generate '''1s''' of charge per target hit.",
+						["volume"] = 33,
+						["revised"] = 35,
+						["footnote"] = "The effect originally allowed you to cast Final Verse using Noctua's Alternate Fire, but I decided to have each casting input remain separate while retaining the ability to spend Noctua's charge to reduce Final Verse's energy cost.",
+					},
+				},
+			},
+			["Noctua (Weapon)"] = {
+				["ability_icon"] = "Noctua.png",
+				["revised_name"] = "Noctua",
+				["exalted"] = "Secondary",
+				["augments"] = {
+				},
+			},
+			["Light Verse"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "LightVerse130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Ambitious Verse"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AmbitiousVerseMod.png",
+						["description"] = "Casting will now carve a spiral rune, refilling the magazine of your current weapon and the current weapons of allies within {{RNG|20m}}.<br/>Foretell: With two Ambitious Verses, Final Chapter will create a {{RNG|20m}}-radius aura that grants {{STR|15 / 25 / 35 / 45%}} Ammo and Heavy Attack Efficiency for Final Chapter's duration.<br/>When combined with your third ability, this Verse will be substituted with Light Verse.",
+						["volume"] = 33,
+					},
+					["Inspiring Verse"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord InspiringVerseMod.png",
+						["description"] = "Casting will now carve a square rune, transporting you to the target location within {{RNG|22 / 23 / 24 / 25m}}.<br/>Ordain: With two Inspiring Verses, Final Chapter will open a portal before you and at the target location for Final Chapter's duration, which transport units and weapon fire in both directions. Hold cast to become invulnerable for up to '''15s''', gaining the ability to remotely place the exist portal.<br/>When combined with your third ability, this Verse will be substituted with Light Verse.",
+						["volume"] = 34,
+					},
+				},
+			},
+			["Dark Verse"] = {
+				["hotkey"] = 3,
+				["helminth"] = true,
+				["ability_icon"] = "DarkVerse130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Dark Codex"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						["helminth"] = true,
+						--["mod_image"] = "Emptylord DarkCodexMod.png",
+						["description"] = "Every third cast will be a Tragedy with 300 / 250 / 200 / 150% energy cost.",
+						["volume"] = 33,
+					},
+					["Dark Omen"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						["helminth"] = true,
+						--["mod_image"] = "Emptylord DarkOmenMod.png",
+						["description"] = "Track the number of enemies that die within '''1.5s''' of being affected by you, up to '''50 / 60 / 75 / 100'''. Hold-casting will drain 50 tracked kills to cast Pageflight for {{DUR|30 / 35 / 40 / 45s}}.",
+						["volume"] = 34,
+					},
+					["Mesmering Verse"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MesmeringVerseMod.png",
+						["description"] = "Dante will now carve a triangular rune, creating a doorway that spills forth {{RNG|12}} missiles that are evenly distributed across enemies in your field of view, dealing {{STR|30 / 45 / 60 / 75 x Enemy Level}} Heat Damage with guaranteed status.<br/>Foreshadow: With two Mesmerizing Verses, Final Chapter will summon a stationary doppelgänger for Final Chapter's duration that shares your aim and mimics your attacks and cast Verses with {{STR|x0.5}} damage. You can maintain up to 3 doppelgängers.<br/>When combined with your second ability, this Verse will be substituted with Dark Verse.",
+						["volume"] = 33,
+					},
+					["Sickening Verse"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SickeningVerseMod.png",
+						["description"] = "Dante will now carve a crescent rune, displacing the souls of all enemies within {{RNG|6 / 8 / 10 / 12m}} and rendering them ''Hollow'' for '''6s''', affected by Status Duration.<br/>Omen: With two Sickening Verses, Final Chapter will extend the Status Duration on enemies within {{RNG|15 / 20 / 25 / 30m}} by Final Chapter's duration.<br/>When combined with your second ability, this Verse will be substituted with Dark Verse.",
+						["volume"] = 34,
+					},
+				},
+			},
+			["Final Verse"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "FinalVerse130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Final Chapter"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FinalBookMod.png",
+						["description"] = "Passively gain '''0.5''' stacks of Anticipation each time you cast a Verse ability, or use Noctua's Alternate Fire. Casting Final Verse will gain {{DUR|20%}} Ability Duration per ''whole'' stack of Anticipation and set your Anticipation to 0. '''2 / 3 / 4 / 5''' Max Stacks.",
+						["volume"] = 33,
+						["revised"] = 35,
+						["footnote"] = "Added a synergy with Noctua.",
+					},
+				},
+			},
+		},
+	},
+	["Elytron"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Elytron.png",
+		["abilities"] = {
+			["Bloomer"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Bloomer130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Core Vent"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "CoreVent130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Thumper"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Thumper130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Warhead"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Warhead130xWhite.png",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Ember"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Ember_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["revised_desc"] = "Fire Ball, Fire Blast and Inferno generate 20 Ability Combo Points per cast. Ember's deals up to 12x Heat Damage from all sources based on her Ability Combo Multiplier.",
+				["revised"] = 34,
+				["augments"] = {
+					["Fire Starter"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SmoulderMod.png",
+						["description"] = "The corpses of enemies who die while under the effects of your Heat Status Effects will linger as damaging zones for {{DUR|3 / 4.5 / 6 / 7.5s}}, dealing periodic Heat damage with guaranteed Heat Status to enemies within a {{RNG|1m}}-radius.",
+						["volume"] = 35,
+					},
+					["Flame Cloak"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FlameCloakMod.png",
+						["description"] = "Passively gain up to '''12 / 24 / 36 / 60%''' bonus movement speed based on your Ability Combo Multiplier. ",
+						["volume"] = 26,
+						["revised"] = 34,
+						["exilus"] = true,
+					},
+					["Heat Death"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord HeatDeathMod.png",
+						["description"] = "Enemies damaged by Ember are permanently more vulnerable to Heat Status effects, burning for an additional {{STR|0.25 / 0.33 / 0.5 / 1.0%}} of their maximum health per second, per Heat Status.",
+						["volume"] = 28,
+					},
+					["Kindling"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SmoulderMod.png",
+						["description"] = "Enemies damaged by Ember are permanently more vulnerable to Heat Status Effects, causing Burn Damage to be dealt to all enemies within {{RNG|1 / 3 / 5 / 7m}}.",
+						["volume"] = 35,
+					},
+					["Smoulder"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SmoulderMod.png",
+						["description"] = "You generate '''2 / 3 / 4 / 5''' Ability Combo Points each time an enemy dies while afflicted by your Heat Status. Your Ability Combo Duration now decays at a rate of {{DUR|20 / 15 / 10 / 5}} every {{DUR|5s}}.",
+						["volume"] = 18,
+						["revised"] = 34,
+					},
+					["Unquenchable Fire"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord UnquenchableFireMod.png",
+						["description"] = "If you receive a fatal hit while at or above '''12x / 10x / 8x / 6x''' Ability Combo Multiplier, consume all Ability Combo Points to prevent death, gaining '''5s''' of invulnerability and regenerating '''100%''' health. This has no cooldown.",
+						["volume"] = 26,
+						["revised"] = 34,
+						["exilus"] = true,
+					},
+				},
+			},
+			["Fireball"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Fireball130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Conflagration"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ConflagrationMod.png",
+						["description"] = "Striking an enemy that is already afflicted with Heat will cause fireballs to spread to enemies within line-of-sight, up to  {{RNG|10 / 15 / 20 / 25m}}, applying Fireball's damage and propagating Heat Status effects. This effect is not recursive.",
+						["volume"] = 6,
+					},
+					["Fire Eater"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FireEaterMod.png",
+						["description"] = "Hold-casting will extinguish all Heat Status effects within your field of view, dealing all undealt damage instantly with {{STR|1.0 / 1.1 / 1.2 / 1.3x}} damage multiplier.",
+						["volume"] = 31,
+					},
+					["Fire Strike"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FireStrikeMod.png",
+						["description"] = "Hold-casting will a pillar of fire to erupt from the ground under your crosshair, dealing {{STR|200 / 300 / 400 / 500}} Heat damage with '''50 / 100 / 125 / 200%''' Status Chance to enemies within {{RNG|5m}}. ",
+						["volume"] = 18,
+						["set"] = "Sunwell",
+					},
+					["Fireball Frenzy"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Hold-casting will grant {{STR|50 / 65 / 80 / 100%}} bonus Heat Damage on weapons to all allies within {{RNG|15m}} for {{DUR|28 / 32 / 36 / 40}}.",
+					},
+				},
+			},
+			["Immolation"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Immolation130xWhite.png",
+				["revised_desc"] = "Casting engulfs you in flame, freezing your Ability Combo Duration and granting you between {{STR|3 / 4.5 / 6 / 7.5%}} Damage Reduction per Ability Combo Multiplier, up to 90%. While active, Fire Blast will register as a Heavy Attack, depleting '''50%''' of your Ability Combo Points to deal 3x Heavy Damage. While your Ability Combo Multiplier is at 12x, Immolation will drain {{EFF|0.4}} energy per second, increasing by {{EFF|0.4}} every second.",
+				["revised"] = 34,
+				["augments"] = {
+					["Immolated Radiance"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["description"] = "While active, allies within Affinity Range will receive {{STR|1.5 / 2.25 / 3 / 3.75%}} Damage Reduction per Ability Combo Multiplier, up to 90%.",
+						["revised"] = 35,
+						["footnote"] = "Revised to suit Ability Combo. Cap on allies doubled to match the cap on Ember (90%). The amount granted to allies per Ability Combo is still half of the value granted to Ember, but with sufficient Ability Strength it would still be possible to reach 90%.",
+					},
+					["Inflammable"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord InflammableMod.png",
+						["description"] = "While active, you gain {{STR|20}} Initial and Maximum Ability Combo Points, and Fire Blast instead depletes '''50 / 33 / 25 / 20%''' of your Ability Combo Points.",
+						["volume"] = 31,
+						["revised"] = 35,
+						["footnote"] = "Revised to suit Ability Combo. Added bonus Initial and Maximum Combo.",
+					},
+					["World On Fire"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord WorldOn FireMod.png",
+						["description"] = "While active, Fireball, Fire Blast and Inferno will set their damage areas ablaze for {{DUR|15}} seconds. Enemies take {{STR|100 / 125 / 150 / 175}} Heat Damage/s, which is modified by your Ability Combo Multiplier. Inferno no longer sets the environment ablaze except through this effect.",
+						["volume"] = 29,
+					},
+				},
+			},
+			["Fire Blast"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "FireBlast130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Blast Burn"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BlastBurnMod.png",
+						["description"] = "Casting now additionally grants {{STR|30 / 35 / 40 / 50}}% movement speed for {{DUR|3.5 / 4 / 4.5 / 5}} seconds, and your ring of fire will now retract after reaching its maximum range at half the speed, detonating any Fire Bombs on unarmoured enemies.",
+						["volume"] = 18,
+						["revised"] = 32,
+						["set"] = "Sunwell",
+					},
+					["Healing Flames"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["mod_image"] = "PurifyingFlamesMod.png",
+						["description"] = "Ember restores {{STR|10 / 15 / 20 / 25}} Health per enemy hit, which is modified by your Ability Combo Multiplier. Excess healing is applied as Overguard, up to {{STR|15000}}.",
+						["revised"] = 35,
+						["footnote"] = "Reworded to be modified by Ability Combo Multiplier. Overguard cap is now standardized. Healing Flames and Purifying Flames seem like they should be one augment, since Overguard also grants Status Immunity.",
+					},
+					["Purifying Flames"] = {
+						["official"] = true,
+						["mod_avail"] = "Universal",
+						["mod_image"] = "PurifyingFlamesMod.png",
+						["description"] = "Allies hit by the expanding ring of fire are cleansed of Status Effects and granted {{DUR|1 / 2 / 3 / 4s}} of Status Immunity.",
+					},
+				},
+			},
+			["Inferno"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Inferno130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Exothermic"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["mod_image"] = "PurifyingFlamesMod.png",
+						["description"] = "Enemies damaged by Inferno have a '''5 / 7.5 / 10 / 15%''' chance to drop an Energy Orb when slain.",
+					},
+					["Infernal Cascade"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord InfernalCascadeMod.png",
+						["description"] = "Enemies struck will also suffer {{STR|25 / 50 / 75 / 100}}% additional damage from Heat Damage for {{DUR|2 / 4 / 6 / 8}} seconds.",
+						["volume"] = 18,
+						["revised"] = 32,
+						["set"] = "Sunwell",
+					},
+					["Fire Storm"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord InfernalCascadeMod.png",
+						["description"] = "Surviving enemies gain {{STR|+25 / 33 / 50 / 100%}} chance to receive Heat Status from all incoming damage.",
+						["volume"] = 35,
+					},
+				},
+			},
+		},
+	},
+	["Equinox"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Equinox_Thumb.png",
+		["abilities"] = {
+			["Equilibrium"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["revised_desc"] = "Health pickups give 60% Energy, increased to 110% in Night Form. Energy pickups give 60% Health, increased to 110% in Day Form.",
+				["revised"] = 35,
+				["augments"] = {
+					["Silent Night & First Light"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SilentNight & First LightMod.png",
+						["description"] = "[[File:EquinoxNightFormIndicator.png|32px]] '''Night Form:''' Passively gain {{STR|20% movement speed}}, and the range that enemies can spot you is reduced by '''20 / 25 / 33 / 50%'''.<br/>[[File:EquinoxDayFormIndicator.png|32px]] '''Day Form:''' Enemies damaged by Day are permanently {{STR|20 / 25 / 33 / 50%}} more likely to receive Critical Strikes from further sources of weapon damage.",
+						["volume"] = 22,
+						["revised"] = 35,
+						["set"] = "Starfall",
+						["footnote"] = "'''Silent Night's''' original effect was too similar to '''Pacify''' and '''Nightfall'''. '''First Light's''' effect was too similar to '''Night's Blessing''' and ''Daybreak'''. An alternative effect that was considered for Day Form: Day gains {{STR|33 / 50 / 100 / 200%}} Critical Chance on her first attack against each enemy.",
+					},
+				},
+			},
+			["Dawn & Dusk"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Metamorphosis130xWhite.png",
+				["revised_desc"] = "[[File:EquinoxNightFormIndicator.png|32px]] '''Night Form:''' Casting has Night place her hands over her face and trades places with Day, leaving '''Night's Blessing''' for {{DUR|10 / 15 / 20 / 25s}}, which grants {{STR|10 / 15 / 20 / 25%}} Weapon Damage and {{STR|5 / 10 / 15 / 20%}} Movement Speed.<br/>[[File:EquinoxDayFormIndicator.png|32px]] '''Day Form:''' Casting has Day bow her head and trades places with Night, leaving '''Day's Blessing''' for {{DUR|10 / 15 / 20 / 25s}}, which grants {{STR|100 / 150 / 200 / 250}} base Armor and {{STR|50 / 75 / 100 / 150}} base Shields.",
+				["augments"] = {
+					["Duality"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Inspire& DefianceMod.png",
+						["description"] = "Casting will now deploy a specter of your previous form for {{DUR|7 / 8 / 9 / 10s}} with a copy of your current loadout, which deals '''1 / 1.5 / 2 / 3x''' Damage.",
+					},
+					["Nightfall & Daybreak"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Daybreak& NightfallMod.png",
+						["description"] = "[[File:EquinoxNightFormIndicator.png|32px]] '''Night Form:''' Becoming Night renders you invisible and inaudible for {{DUR|10 / 15 / 20 / 25s}}, as well as granting you softsteps.<br/>[[File:EquinoxDayFormIndicator.png|32px]] '''Day Form:''' Becoming Day wreaths you in dazzling radiance for {{DUR|10 / 15 / 20 / 25s}}, blinding enemies who come within line-of-sight and causing them to fumble their weapons.",
+						["volume"] = 12,
+						["revised"] = 35,
+						["set"] = "Convergence",
+						["footnote"] = "Nightfall's original effect was too similar to '''Pacify''' and '''Silent Night'''. Daybreak's effect was too similar to '''Night's Blessing''' and ''First Light'''.",
+					},
+					["Polar Night & Midnight Sun"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PolarNight & Midnight SunMod.png",
+						["description"] = "[[File:EquinoxNightFormIndicator.png|32px]] '''Night Form:''' Night's Blessing is now permanent across both forms. Casting Dawn will now grant Night's Blessing to all allies within Affinity Range for {{DUR|10 / 15 / 20 / 25s}}.<br/>[[File:EquinoxDayFormIndicator.png|32px]] '''Day Form:''' Day's Blessing is now permanent across both forms. Casting Dusk will now grant Day's Blessing to all allies within Affinity Range for {{DUR|10 / 15 / 20 / 25s}}.",
+						["volume"] = 27,
+					},
+					["Push & Pull"] = {
+						["official"] = true,
+						["mod_avail"] = "Conclave",
+						["mod_image"] = "Push & PullMod.png",
+						["description"] = "Switching to Day-form will stagger enemies within '''1.5 / 3 / 4.5 / 6m''', while switching to Night-form will knock them down.",
+					},
+					["Solstitial Continuity"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SolstitialContinuityMod.png",
+						["description"] = "Passively grants 30% Ability Duration. Switching to this form will grant an additional 30% Ability Duration for '''30s''', which decays by '''5%''' every '''5s'''.",
+						["volume"] = 30,
+						["restrict"] = "{{m|Continuity}}, {{m|Archon Continuity}}",
+					},
+					["Solstitial Intensify"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SolstitialIntensifyMod.png",
+						["description"] = "Passively grants 30% Ability Strength. Switching to this form will grant an additional 30% Ability Strength for '''30s''', which decays by '''5%''' every '''5s'''.",
+						["volume"] = 30,
+						["restrict"] = "{{m|Intensify}}, {{m|Archon Intensify}}",
+					},
+					["Sun Dial"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SunDialMod.png",
+						["description"] = "[[File:EquinoxNightFormIndicator.png|32px]] '''Night Form:''' Fishing sources within Affinity Range will behave as if it were Night, Cold or Vome. +'''6 / 9 / 12 / 15m''' Fish Highlight Range.<br/>[[File:EquinoxDayFormIndicator.png|32px]] '''Day Form:''' Fishing sources within Affinity Range will behave as if it were Day, Heat or Fass. +'''6 / 9 / 12 / 15m''' Fish Highlight Range.",
+						["volume"] = 33,
+					},
+					["Weighted Scales"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord WeightedScalesMod.png",
+						["description"] = "[[File:EquinoxNightFormIndicator.png|32px]] '''Night Form:''' Night's Blessing also grants '''50 / 65 / 80 / 95'''% Ammo Efficiency, but Day spawns with her '''1''' on an initial '''60s''' cooldown. The cooldown is reduced by 1 second when an enemy dies that you've affected in the last '''1.5'''s.<br/>[[File:EquinoxDayFormIndicator.png|32px]] '''Day Form:''' Day's Blessing also grants '''50 / 65 / 80 / 95'''% Heavy Attack Efficiency, but Night spawns with her '''1''' on an initial '''60s''' cooldown. The cooldown is reduced by 1 second when an enemy dies that you've affected in the last '''1.5s'''.",
+						["volume"] = 12,
+						["revised"] = 33,
+					},
+				},
+			},
+			["Rest & Rage"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "RestRage130xWhite.png",
+				["revised_desc"] = "Casting hypnotizes a target up to {{RNG|20 / 30 / 40 / 50m}} away for {{DUR|10 / 14 / 18 / 22s}}, as well as all enemies within {{RNG|1 / 3 / 3 / 5m}}. [[File:EquinoxNightFormIndicator.png|32px]] '''Night Form:''' Enemies are sent to sleep. Sleeping enemies are exposed to Finishers and gain '''+100%''' Vulnerability to Finishers, forget their previous alert level, and will wake if they receive in excess of '''50%''' of their current health in damage. [[File:EquinoxDayFormIndicator.png|32px]] '''Day Form:''' Enemies are enraged, gaining {{STR|5 / 10 / 15 / 20%}} Movement and Attack Speed, as well as becoming {{STR|20 / 30 / 40 / 50%}} more vulnerable to damage.",
+				["augments"] = {
+					["Calm & Frenzy"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Inspire& DefianceMod.png",
+						["description"] = "Killing a hypnotized enemy causes the effect to spread to additional enemies within {{RNG|2 / 3 / 4 / 5m}} for '''40 / 60 / 80 / 100%''' of the remaining duration",
+					},
+					["Impasse & Deadlock"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Impasse& DeadlockMod.png",
+						["description"] = "[[File:EquinoxNightFormIndicator.png|32px]] '''Night Form:''' Energy chords will also extend from the target to Equinox and her allies within {{RNG|12 / 14 / 17 / 20m}}. {{STR|20 / 25 / 30 / 35%}} of damage received by affected allies will be redirected to the target, up to a maximum of 90%.<br/>[[File:EquinoxDayFormIndicator.png|32px]] '''Day Form:''' Energy chords will also extend from the target to Equinox and her allies that are within {{RNG|12 / 14 / 17 / 20m}}. The target will deal {{STR|20 / 25 / 30 / 35}}% less damage to affected allies, up to a maximum of 90%.",
+						["volume"] = 27,
+					},
+					["Lunar Rush & Zenith Blade"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord LunarRush & Zenith BladeMod.png",
+						["description"] = "[[File:EquinoxNightFormIndicator.png|32px]] '''Night Form:''' Transform into a pale sphere with the ability to fly for {{DUR|1 / 1.25 / 1.5 / 2s}}. Enemies you pass through are put to sleep.<br/>[[File:EquinoxDayFormIndicator.png|32px]] '''Day Form:''' Strike a flaming blade into the ground at the target location within {{RNG|20 / 30 / 40 / 50m}} that applies the effects of Rage to enemies within {{RNG|2 / 4 / 6 / 10m}}. Recast to teleport to the blade and withdraw it, which ends the effect.",
+						["volume"] = 27,
+					},
+				},
+			},
+			["Pacify & Provoke"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "PacifyProvoke130xWhite.png",
+				["revised_desc"] = "[[File:EquinoxNightFormIndicator.png|32px]] '''Night Form:''' Channel an aura that causes enemies within Affinity Range to deal reduced damage based on their proximity to Equinox, up to {{STR|20 / 33 / 43 / 50%}} while within {{RNG|10 / 12 / 14 / 16m}}. Drains {{EFF|1}}/s per enemy affected, up to {{EFF|10}}/s. [[File:EquinoxDayFormIndicator.png|32px]] '''Day Form:''' Casting creates an aura that grants {{STR|5 / 10 / 15 / 20%}} bonus Ability Strength to squad members within Affinity Range. Drains {{EFF|3}} per ability cast within the aura.",
+				["augments"] = {
+					["Inspire & Defiance"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Inspire& DefianceMod.png",
+						["description"] = "[[File:EquinoxNightFormIndicator.png|32px]] '''Night Form:''' On Finisher: Equinox gains {{STR|150 / 300 / 450 / 600}} Overguard, and allies within Affinity Range gain half as much.<br/[[File:EquinoxDayFormIndicator.png|32px]] '''Day Form:''' On Tap-Cast: Provide allies within range {{DUR|2s}} of invulnerability, while tracking all incoming damage. Hold-cast to maintain the invulnerability, consuming an additional {{EFF|5}} energy per second, increasing by {{EFF|0.4}} every second until released. After {{DUR|2s}} or upon release, you explode, dealing {{STR|1.25 / 1.5 / 1.75 / 2x}} the stored damage to enemies within range.",
+						["volume"] = 27,
+					},
+					["Peaceful Provocation"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Inspire& DefianceMod.png",
+						["description"] = "[[File:EquinoxNightFormIndicator.png|32px]] '''Night Form:''' While active, the aura will slow enemies by '''0.25%''' for every '''1%''' of ally's maximum Health/Shields lost, up to {{STR|40%}}. Capped at '''80%'''.<br/>[[File:EquinoxDayFormIndicator.png|32px]] '''Day Form:''' While active, the aura's Ability Strength bonus is increased by '''0.02%''' for every '''1%''' of ally's maximum Health/Shields lost, up to {{STR|15%}}. Capped at '''30%'''.",
+					},
+				},
+			},
+			["Mend & Maim"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "MendMaim130xWhite.png",
+				["revised_desc"] = "Channel to initiate a {{RNG|10 / 12 / 15 / 18m}}-radius aura. [[File:EquinoxNightFormIndicator.png|32px]] '''Night Form:''' All friendly units within range will restore {{STR|10 / 15 / 20 / 25}} Health and Shields whenever any ally within range kills an enemy, or whenever an enemy within range dies. Mend can Overheal up to {{STR|300}}. Mend accumulates '''50 / 55 / 60 / 75%''' of slain enemies' health. Recasting will evenly distribute the accumulated value across all friendly units in range, restoring them to full Health and Shields and providing {{STR|10 / 15 / 20 / 25}} restoration/s until their share is depleted. [[File:EquinoxDayFormIndicator.png|32px]] '''Day Form:''' Enemies will receive {{STR|75 / 100 / 125 / 150}} Slash Damage with guaranteed Slash Status, as well as a {{STR|10 / 15 / 20 / 25%}} Slash Status Chance on all damage received. Maim accumulates '''50 / 55 / 60 / 75%''' of slain enemies' health. Recasting will evenly distribute the accumulated value across all enemies in range as Slash Damage with guaranteed Status. Depleting your energy will automatically recast Mend & Maim. Activating Dawn & Dusk will preserve your accumulated value.",
+				["revised"] = 35,
+				["augments"] = {
+					["Energy Transfer"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Moonbeam& Solar FlareMod.png",
+						["description"] = "Casting Dawn & Dusk will restore '''25 / 33 / 50 / 75%''' of the energy spent to upkeep Mend & Maim in your previous form.",
+						["revised"] = 35,
+						["footnote"] = "The current cost of changing forms de-incentivizes doing so reactively, which I feel is at odds with a fantasy of duality-based shapeshifter - especially one who shifts between offense and support. Players shouldn't feel like that cannot swap to Support Form when support is needed, and vice verse. Changing forms is part of her core fantasy, and so I am making the rare decision to integrate this Official Augment as a baseline feature - so that all future augments are not mutually-exclusive with this basic functionality, which by itself feels medicore for an entire augment.",
+					},
+					["Moonbeam & Solar Flare"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Moonbeam& Solar FlareMod.png",
+						["description"] = "[[File:EquinoxNightFormIndicator.png|32px]] '''Night Form:''' Hold '''4''' to narrow Mend's effects into a more intense spotlight that tracks your crosshair, reducing its radius by up to '''0.2x''' while increasing the effcts by up to '''2 / 3 / 4 / 5x'''. On release, the spotlight will maintain its current position, but will toggle-off if you leave Affinity Range.<br/>[[File:EquinoxDayFormIndicator.png|32px]] '''Day Form:''' Hold '''4''' to narrow Maim's effects into a more intense spotlight that tracks your crosshair, reducing its radius by up to '''0.2x''' while increasing the effcts by up to '''2 / 3 / 4 / 5x'''. On release, the spotlight will maintain its current position, but will toggle-off if you leave Affinity Range.",
+						["volume"] = 12,
+					},
+					["Well of Eternity"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Recasting will now deploy a reservoir at your current location with the total accumulated value. Irrespective of form, the reservoir is depleted as needed to '''Mend''' allies and '''Maim''' enemies, up to {{STR|10 / 15 / 20 / 25}} Restoration/s and {{STR|75 / 100 / 125 / 150}} Slash Damage/s, with {{STR|10 / 15 / 20 / 25%}} Status Chance.",
+						["volume"] = 35,
+					},
+				},
+			},
+		},
+	},
+	["Equinox's Day Aspect"] = {
+		["equip_type"] = "Warframe",
+		["official"] = false,
+		["icon"] = "Equinox-Day.png",
+		["abilities"] = {
+			["Equilibrium"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["revised_desc"] = "Health pickups give 60% Energy. Energy pickups give 110% Health.",
+				["augments"] = {
+					["First Light"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SilentNight & First LightMod.png",
+						["description"] = "Enemies damaged by Day are permanently {{STR|20 / 25 / 33 / 50%}} more likely to receive Critical Strikes from further sources of weapon damage.",
+						["volume"] = 22,
+						["revised"] = 35,
+						["set"] = "Starfall",
+						["footnote"] = "'''First Light's''' effect was too similar to '''Night's Blessing''' and ''Daybreak'''. The following effect was also considered: Day gains {{STR|33 / 50 / 100 / 200%}} Critical Chance on her first attack against each enemy.",
+					},
+				},
+			},
+			["Dusk"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Metamorphosis130xWhite.png",
+				["revised_desc"] = "Casting has Day bow her head and trades places with Night, leaving '''Day's Blessing''' for {{DUR|10 / 15 / 20 / 25s}}, which grants {{STR|100 / 150 / 200 / 250}} base Armor and {{STR|50 / 75 / 100 / 150}} base Shields.",
+				["augments"] = {
+					["Daybreak"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Daybreak& NightfallMod.png",
+						["description"] = "Becoming Day wreaths you in dazzling radiance for {{DUR|10 / 15 / 20 / 25s}}, blinding enemies who come within line-of-sight and causing them to fumble their weapons.",
+						["volume"] = 12,
+						["revised"] = 35,
+						["set"] = "Convergence",
+						["footnote"] = "Daybreak's effect was too similar to '''Night's Blessing''' and ''First Light'''.",
+					},
+					["Duality"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Inspire& DefianceMod.png",
+						["description"] = "Casting will now deploy a specter of your previous form for {{DUR|7 / 8 / 9 / 10s}} with a copy of your current loadout, which deals '''1 / 1.5 / 2 / 3x''' Damage.",
+					},
+					["Midnight Sun"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PolarNight & Midnight SunMod.png",
+						["description"] = "Day's Blessing is now permanent across both forms. Casting Dusk will now grant Day's Blessing to all allies within Affinity Range for {{DUR|10 / 15 / 20 / 25s}}.",
+						["volume"] = 27,
+					},
+					["Pull"] = {
+						["official"] = true,
+						["mod_avail"] = "Conclave",
+						["mod_image"] = "Push & PullMod.png",
+						["description"] = "Switching to Day-form will stagger enemies within '''1.5 / 3 / 4.5 / 6m'''.",
+					},
+					["Solstitial Continuity"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SolstitialContinuityMod.png",
+						["description"] = "Passively grants 30% Ability Duration. Switching to Day form will grant an additional 30% Ability Duration for '''30s''', which decays by '''5%''' every '''5s'''.",
+						["volume"] = 30,
+						["restrict"] = "{{m|Continuity}}, {{m|Archon Continuity}}",
+					},
+					["Solstitial Intensify"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SolstitialIntensifyMod.png",
+						["description"] = "Passively grants 30% Ability Strength. Switching to Day form will grant an additional 30% Ability Strength for '''30s''', which decays by '''5%''' every '''5s'''.",
+						["volume"] = 30,
+						["restrict"] = "{{m|Intensify}}, {{m|Archon Intensify}}",
+					},
+					["Sun Dial"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SunDialMod.png",
+						["description"] = "While in Day Form, Fishing sources within Affinity Range will behave as if it were Day, Heat or Fass. +'''6 / 9 / 12 / 15m''' Fish Highlight Range.",
+						["volume"] = 33,
+					},
+					["Weighted Scales"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord WeightedScalesMod.png",
+						["description"] = "Day's Blessing also grants '''50 / 65 / 80 / 95'''% Heavy Attack Efficiency, but Night spawns with her '''1''' on an initial '''60s''' cooldown. The cooldown is reduced by 1 second when an enemy dies that you've affected in the last '''1.5s'''.",
+						["volume"] = 12,
+						["revised"] = 33,
+					},
+				},
+			},
+			["Rage"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "RestRage130xWhite.png",
+				["augments"] = {
+					["Calm & Frenzy"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Inspire& DefianceMod.png",
+						["description"] = "Killing a hypnotized enemy causes the effect to spread to additional enemies within {{RNG|2 / 3 / 4 / 5m}} for '''40 / 60 / 80 / 100%''' of the remaining duration",
+					},
+					["Impasse & Deadlock"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Impasse& DeadlockMod.png",
+						["description"] = "Energy chords will also extend from the target to Equinox and her allies that are within {{RNG|12 / 14 / 17 / 20m}}. The target will deal {{STR|20 / 25 / 30 / 35}}% less damage to affected allies, up to a maximum of 90%.",
+						["volume"] = 27,
+					},
+					["Zenith Blade"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord LunarRush & Zenith BladeMod.png",
+						["description"] = "Strike a flaming blade into the ground at the target location within {{RNG|20 / 30 / 40 / 50m}} that applies the effects of Rage to enemies within {{RNG|2 / 4 / 6 / 10m}}. Recast to teleport to the blade and withdraw it, which ends the effect.",
+						["volume"] = 27,
+					},
+				},
+			},
+			["Provoke"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "PacifyProvoke130xWhite.png",
+				["revised_desc"] = "Casting creates an aura that grants {{STR|5 / 10 / 15 / 20%}} bonus Ability Strength to squad members within Affinity Range. Drains {{EFF|3}} per ability cast within the aura.",
+				["augments"] = {
+					["Inspire & Defiance"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Inspire& DefianceMod.png",
+						["description"] = "On Tap-Cast: Provide allies within range {{DUR|2s}} of invulnerability, while tracking all incoming damage. Hold-cast to maintain the invulnerability, consuming an additional {{EFF|5}} per second, increasing by {{EFF|0.4}}/s until released. After {{DUR|2s}} or upon release, you explode, dealing {{STR|1.25 / 1.5 / 1.75 / 2x}} the stored damage to enemies within range.",
+						["volume"] = 27,
+					},
+					["Peaceful Provocation"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Inspire& DefianceMod.png",
+						["description"] = "Day Form: While active, the aura's Ability Strength bonus is increased by '''0.02%''' for every '''1%''' of ally's maximum Health/Shields lost, up to {{STR|15%}}. Capped at '''30%'''.",
+					},
+				},
+			},
+			["Maim"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "MendMaim130xWhite.png",
+				["revised_desc"] = "Channel to initiate a {{RNG|10 / 12 / 15 / 18m}}-radius aura that deals {{STR|75 / 100 / 125 / 150}} Slash Damage with guaranteed Slash Status once to enemies as they enter the area, as well as rendering them {{STR|10 / 15 / 20 / 25%}} vulnerable to Slash Status on all damage received. Maim accumulates '''50 / 55 / 60 / 75%''' of slain enemies' health. Recasting will evenly distribute the accumulated value across all enemies in range as Slash Damage with guaranteed Status. Depleting your energy will automatically recast Maim. Activating Dusk will preserve your accumulated value.",
+				["augments"] = {
+					["Energy Transfer"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Moonbeam& Solar FlareMod.png",
+						["description"] = "Transforming into Night will restore '''25 / 33 / 50 / 75%''' of the energy spent to upkeep Maim.",
+						["revised"] = 35,
+						["footnote"] = "The current cost of changing forms de-incentivizes doing so reactively, which I feel is at odds with a fantasy of duality-based shapeshifter - especially one who shifts between offense and support. Players shouldn't feel like that cannot swap to Support Form when support is needed, and vice verse. Changing forms is part of her core fantasy, and so I am making the rare decision to integrate this Official Augment as a baseline feature - so that all future augments are not mutually-exclusive with this basic functionality, which by itself feels medicore for an entire augment.",
+					},
+					["Solar Flare"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Moonbeam& Solar FlareMod.png",
+						["description"] = "Day Form: Hold '''4''' to narrow Maim's effects into a more intense spotlight that tracks your crosshair, reducing its radius by up to '''0.2x''' while increasing the effcts by up to '''2 / 3 / 4 / 5x'''. On release, the spotlight will maintain its current position, but will toggle-off if you leave Affinity Range.",
+						["volume"] = 12,
+					},
+					["Well of Eternity"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Recasting will now deploy a reservoir at your current location with the total accumulated value. Irrespective of form, the reservoir is depleted as needed to '''Mend''' allies and '''Maim''' enemies, up to {{STR|10 / 15 / 20 / 25}} Restoration/s and {{STR|75 / 100 / 125 / 150}} Slash Damage/s, with {{STR|10 / 15 / 20 / 25%}} Status Chance.",
+						["volume"] = 35,
+					},
+				},
+			},
+		},
+	},
+	["Equinox's Night Aspect"] = {
+		["equip_type"] = "Warframe",
+		["official"] = false,
+		["icon"] = "Equinox-Night.png",
+		["abilities"] = {
+			["Equilibrium"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["revised_desc"] = "Health pickups give 110% Energy. Energy pickups give 60% Health.",
+				["augments"] = {
+					["Silent Night"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SilentNight & First LightMod.png",
+						["description"] = "Night Form: Passively gain {{STR|20% movement speed}}, and the range that enemies can spot you is reduced by '''20 / 25 / 33 / 50%'''.",
+						["volume"] = 22,
+						["revised"] = 35,
+						["set"] = "Starfall",
+						["footnote"] = "'''Silent Night's''' original effect was too similar to '''Pacify''' and '''Nightfall'''.",
+					},
+				},
+			},
+			["Dawn"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Metamorphosis130xWhite.png",
+				["revised_desc"] = "Casting has Night place her hands over her face and trades places with Day, leaving '''Night's Blessing''' for {{DUR|10 / 15 / 20 / 25s}}, which grants {{STR|10 / 15 / 20 / 25%}} Weapon Damage and {{STR|5 / 10 / 15 / 20%}} Movement Speed.",
+				["augments"] = {
+					["Duality"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Inspire& DefianceMod.png",
+						["description"] = "Casting will now deploy a specter of your previous form for {{DUR|7 / 8 / 9 / 10s}} with a copy of your current loadout, which deals '''1 / 1.5 / 2 / 3x''' Damage.",
+					},
+					["Nightfall"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Daybreak& NightfallMod.png",
+						["description"] = "Becoming Night renders you invisible and inaudible for {{DUR|10 / 15 / 20 / 25s}}, as well as granting you softsteps.",
+						["volume"] = 12,
+						["revised"] = 35,
+						["set"] = "Convergence",
+						["footnote"] = "Nightfall's original effect was too similar to '''Pacify''' and '''Silent Night'''.",
+					},
+					["Polar Night"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PolarNight & Midnight SunMod.png",
+						["description"] = "Night's Blessing is now permanent across both forms. Casting Dawn will now grant Night's Blessing to all allies within Affinity Range for {{DUR|10 / 15 / 20 / 25s}}.",
+						["volume"] = 27,
+					},
+					["Push"] = {
+						["official"] = true,
+						["mod_avail"] = "Conclave",
+						["mod_image"] = "Push & PullMod.png",
+						["description"] = "Switching to Night-form will knock down enemies within '''1.5 / 3 / 4.5 / 6m'''.",
+					},
+					["Solstitial Continuity"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SolstitialContinuityMod.png",
+						["description"] = "Passively grants 30% Ability Duration. Switching to Night form will grant an additional 30% Ability Duration for '''30s''', which decays by '''5%''' every '''5s'''.",
+						["volume"] = 30,
+						["restrict"] = "{{m|Continuity}}, {{m|Archon Continuity}}",
+					},
+					["Solstitial Intensify"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SolstitialIntensifyMod.png",
+						["description"] = "Passively grants 30% Ability Strength. Switching to Night form will grant an additional 30% Ability Strength for '''30s''', which decays by '''5%''' every '''5s'''.",
+						["volume"] = 30,
+						["restrict"] = "{{m|Intensify}}, {{m|Archon Intensify}}",
+					},
+					["Sun Dial"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SunDialMod.png",
+						["description"] = "While in Night Form, Fishing sources within Affinity Range will behave as if it were Night, Cold or Vome. +'''6 / 9 / 12 / 15m''' Fish Highlight Range",
+						["volume"] = 33,
+					},
+					["Weighted Scales"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord WeightedScalesMod.png",
+						["description"] = "Night's Blessing also grants '''50 / 65 / 80 / 95'''% Ammo Efficiency, but Day spawns with her '''1''' on an initial '''60s''' cooldown. The cooldown is reduced by 1 second when an enemy dies that you've affected in the last '''1.5'''s.",
+						["volume"] = 12,
+						["revised"] = 33,
+					},
+				},
+			},
+			["Rest"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "RestRage130xWhite.png",
+				["revised_desc"] = "Casting sends a target up to {{RNG|20 / 30 / 40 / 50m}} away to sleep for {{DUR|10 / 14 / 18 / 22s}}, as well as all enemies within {{RNG|1 / 3 / 3 / 5m}}. Sleeping enemies are exposed to Finishers and gain '''+100%''' Vulnerability to Finishers, forget their previous alert level, and will wake if they receive in excess of '''50%''' of their current health in damage.",
+				["augments"] = {
+					["Calm & Frenzy"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Inspire& DefianceMod.png",
+						["description"] = "Killing a hypnotized enemy causes the effect to spread to additional enemies within {{RNG|2 / 3 / 4 / 5m}} for '''40 / 60 / 80 / 100%''' of the remaining duration",
+					},
+					["Impasse & Deadlock"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Impasse& DeadlockMod.png",
+						["description"] = "Energy chords will also extend from the target to Equinox and her allies within {{RNG|12 / 14 / 17 / 20m}}. {{STR|20 / 25 / 30 / 35%}} of damage received by affected allies will be redirected to the target, up to a maximum of 90%.",
+						["volume"] = 27,
+					},
+					["Lunar Rush"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord LunarRush & Zenith BladeMod.png",
+						["description"] = "Transform into a pale sphere with full flight capabilities for {{DUR|1 / 1.25 / 1.5 / 2s}}. Enemies you pass through are put to sleep.",
+						["volume"] = 27,
+					},
+				},
+			},
+			["Pacify"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "PacifyProvoke130xWhite.png",
+				["revised_desc"] = "Casting creates an aura that causes enemies within Affinity Range to deal reduced damage based on their proximity to Equinox, up to {{STR|20 / 33 / 43 / 50%}} while within {{RNG|10 / 12 / 14 / 16m}}. This is effective versus enemies with crowd control immunity.",
+				["augments"] = {
+					["Inspire & Defiance"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Inspire& DefianceMod.png",
+						["description"] = "Night Form: On Finisher: Equinox gains {{STR|150 / 300 / 450 / 600}} Overguard, and allies within Affinity Range gain half as much.<br/>Day Form: On Tap-Cast: Provide allies within range {{DUR|2s}} of invulnerability, while tracking all incoming damage. Hold-cast to maintain the invulnerability, consuming an additional {{EFF|5}} energy per second, increasing by {{EFF|0.4}} every second until released. After {{DUR|2s}} or upon release, you explode, dealing {{STR|1.25 / 1.5 / 1.75 / 2}}x the stored damage to enemies within range.",
+						["volume"] = 27,
+					},
+					["Peaceful Provocation"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Inspire& DefianceMod.png",
+						["description"] = "Night Form: While active, the aura will slow enemies by '''0.25%''' for every '''1%''' of ally's maximum Health/Shields lost, up to {{STR|40%}}. Capped at '''80%'''.",
+					},
+				},
+			},
+			["Mend"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "MendMaim130xWhite.png",
+				["revised_desc"] = "Channel to initiate a {{RNG|10 / 12 / 15 / 18m}}-radius aura that restores {{STR|10 / 15 / 20 / 25}} Health and Shields to all allies within range whenever any ally within range kills an enemy, or whenever an enemy within range dies. Mend can Overheal up to {{STR|300}}. Mend accumulates '''50 / 55 / 60 / 75%''' of slain enemies' health. Recasting will evenly distribute the accumulated value across all friendly units in range, restoring them to full Health and Shields and providing {{STR|10 / 15 / 20 / 25}} restoration/s until their share is depleted. Depleting your energy will automatically recast Mend. Activating Dawn will preserve your accumulated value.",
+				["augments"] = {
+					["Energy Transfer"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Transforming into Day will restore '''25 / 33 / 50 / 75%''' of the energy spent to upkeep Mend.",
+						["revised"] = 35,
+						["footnote"] = "The current cost of changing forms de-incentivizes doing so reactively, which I feel is at odds with a fantasy of duality-based shapeshifter - especially one who shifts between offense and support. Players shouldn't feel like that cannot swap to Support Form when support is needed, and vice verse. Changing forms is part of her core fantasy, and so I am making the rare decision to integrate this Official Augment as a baseline feature - so that all future augments are not mutually-exclusive with this basic functionality, which by itself feels medicore for an entire augment.",
+					},
+					["Moonbeam & Solar Flare"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Moonbeam& Solar FlareMod.png",
+						["description"] = "Night Form: Hold '''4''' to narrow Mend's effects into a more intense spotlight that tracks your crosshair, reducing its radius by up to '''0.2x''' while increasing the effcts by up to '''2 / 3 / 4 / 5x'''. On release, the spotlight will maintain its current position, but will toggle-off if you leave Affinity Range.",
+						["volume"] = 12,
+					},
+					["Well of Eternity"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Recasting will now deploy a reservoir at your current location with the total accumulated value. Irrespective of form, the reservoir is depleted as needed to '''Mend''' allies and '''Maim''' enemies, up to {{STR|10 / 15 / 20 / 25}} Restoration/s and {{STR|75 / 100 / 125 / 150}} Slash Damage/s, with {{STR|10 / 15 / 20 / 25%}} Status Chance.",
+						["volume"] = 35,
+					},
+				},
+			},
+		},
+	},
+	["Excalibur"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Excalibur_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["revised_desc"] = "Your Melee Combo is always visible, and your current Melee Combo Count is preserved when switching between Melee and Exalted Melee. Additionally, you gain 10% Attack Speed and 10% Damage on Swords, Dual Swords, Nikanas and Rapiers.",
+				["revised"] = "Not Recorded",
+				["augments"] = {
+					["Umbra's Resolve"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Umbra'sResolveMod.png",
+						["description"] = "'''Umbra''' passively has '''20 / 25 / 33 / 50%''' Additional Combo Chance infinite Melee Combo Duration.",
+						["volume"] = 30,
+					},
+				},
+			},
+			["Slash Dash"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "SlashDash130xWhite.png",
+				["revised_desc"] = "Casting grants invulnerability as you dash forward up to {{RNG|20m}} with {{RNG|36m/s}} bonus Velocity. If any enemy is within range and within a '''10{{Degree}}''' field of view, Slash Dash will lock-on to them and then automatically chain to additional enemies within {{RNG|7m}}. Enemies hit receive {{STR|75 / 125 / 200 / 250}} Slash Damage as a melee strike with a guaranteed Slash Status, and deals up to 12x Damage based on your Melee Combo Multiplier. Slash Dash inherits mods from your '''Exalted Blade''', even if inactive or the ability is replaced via Helminth.",
+				["revised"] = "Not Recorded",
+				["augments"] = {
+					["Deft Maneuvers"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DeftManeuversMod.png",
+						["description"] = "On Parkour: You flourish your Exalted Blade, dealing '''0.4 / 0.6 / 0.8 / 1x''' Slash Dash's damage to all enemies within a {{RNG|7m}} radius.",
+						["volume"] = 5,
+						["exilus"] = true,
+					},
+					["Flickering Slash"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FlickeringSlashMod.png",
+						["description"] = "Hold-casting will now teleport you to a target location within {{RNG|20 / 22 / 23 / 25m}}, appearing with a flourish that applies Slash Dash's damage to enemies within {{RNG|7m}}. You're followed shortly after by your shadow, which applies Slash Dash's damage to all enemies in its path. Kills within '''1''' second of casting will replenish {{STR|6 / 8 / 11 / 15}} energy.",
+						["volume"] = 3,
+						["credit"] = "PlayinTheFool (Reddit)",
+					},
+					["Purging Slash"] = {
+						["official"] = true,
+						["mod_avail"] = "Universal",
+						["mod_image"] = "PurgingSlashMod.png",
+						["description"] = "Allies in the path of Slash Dash have '''1 / 2 / 3 / 4''' debuffs removed and '''70%''' Shields restored.",
+					},
+					["Resolute Slash"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ResoluteSlashMod.png",
+						["description"] = "When the ability resolves, all specters created by Slash Dash will now perform a flourish, dealing '''0.4 / 0.6 / 0.8 / 1x''' Slash Dash's damage to all enemies within a {{RNG|7m}} radius.",
+						["volume"] = 23,
+					},
+					["Slash Waltz"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SlashWaltzMod.png",
+						["description"] = "This ability will chain a minimum of {{DUR|2 / 4 / 6 / 8}} times and gains the ability to re-target the same enemy concurrently. If all targets are dead before the minimum Slashes have been consumed, you will Dash in the direction of the cursor after the final Slash.",
+						["volume"] = 29,
+					},
+					["Surging Dash"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Each enemy hit during Slash Dash now increases your Melee Counter by {{STR|2 / 4 / 6 / 8}}.",
+					},
+				},
+			},
+			["Radial Blind"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "RadialBlind130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Radiant Finish"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Blinded enemies take {{STR|150 / 200 / 250 / 300%}} more Finisher Damage.",
+					},
+					["Signal Flare"] = {
+						["official"] = true,
+						["mod_avail"] = "Conclave",
+						["mod_image"] = "SignalFlareMod.png",
+						["description"] = "Enemies blinded are marked on the minimap for {{DUR|3 / 6 / 9 / 12s}}.",
+					},
+				},
+			},
+			["Radial Javelin"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "RadialJavelin130xWhite.png",
+				["revised_desc"] = "Casting summons javelins targeting every enemy within {{RNG|15 / 18 / 22 / 25m}} and within line-of-sight, each dealing {{STR|500 / 650 / 800 / 1000}} mixed Impact and Puncture damage with guaranteed Slash Status. Generates 1 Melee Combo per enemy hit, and deals up to 12x Damage based on your Melee Combo Multiplier.",
+				["revised"] = "Not Recorded",
+				["augments"] = {
+					["Judged Severence"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord HeavyJavelinsMod.png",
+						["description"] = "Casts are now registered as a Heavy Attack, consuming your Melee Combo Multiplier to deal 3x Heavy Damage, which is further modified by your Melee Combo Multiplier. Passively gain '''15 / 30 / 45 / 60%''' Heavy Attack Efficiency.",
+						["volume"] = 34,
+						["revised"] = 35,
+						["footnote"] = "Renamed (previously 'Heavy Javelins').",
+					},
+					["Furious Javelin"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Each enemy hit will increases Melee Damage by {{STR|8 / 10 / 12 / 15%}} for {{DUR|9 / 11 / 13 / 16s}}.",
+					},
+					["Unseen Javelins"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord HeavyJavelinsMod.png",
+						["description"] = "Heavy Attacks will consume 🗲[10] energy to cast Radial Javelin, which deals 3x Heavy Damage and is further modified by your Melee Combo Multiplier. [10 / 20 / 30 / 40%] Heavy Attack Efficiency.",
+						["volume"] = 5,
+						["revised"] = 34,
+						["retired"] = 35,
+						["footnote"] = "Two issues. (1) Radial Javelin having Unseen Javelins and Heavy Javelins as separate choices felt redundant. (2) Unseen Javelins being a Radial Javelin mod felt unfair, when I decided that Judged Severance should be an Exalted Blade mod rather than a Radial Blind mod.",
+					},
+				},
+			},
+			["Exalted Blade"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "ExaltedBlade130xWhite.png",
+				["revised_desc"] = "Channel to equip your {{weapon|Exalted Blade|Exalted Melee}} weapon, which has {{STR|100 / 125 / 200 / 250}} base damage and the unique {{m|Exalted Blade}} stance. Each attack with your '''Exalted Blade''' will unleash a wave of energy that moves at '''30m/s''' for up to '''70m''', and applies one melee attack against each enemy hit with unlimited punch through.",
+				["revised"] = "Not Recorded",
+				["augments"] = {
+					["Conquest's Toll"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Conquest'sTollMod.png",
+						["description"] = "Killing '''10 / 8 / 6 / 4''' enemies with Exalted Blade increases it base damage by {{STR|1}} for the remainder of the mission.",
+						["volume"] = 12,
+					},
+					["Chromatic Blade"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Hold to cycle between Cold, Electricity, Heat and Toxin. Exalted Blade's base physical damage is converted into your selected Element with {{STR|100 / 200 / 250 / 300%}}. This defaults to Excalibur's Primary Emissive Color.",
+						["revised"] = 35,
+						["footnote"] = "I dislike effects that are dependant on fashion choices - especially since these cannot be as easily changed as mod configs, and there's now statistical data that shows people hate having to swap between different configs for different Faction mods. I do not think that being able to hotswap elements in-game would confer any unreasonable advantage, especially when Baruuk has an augment for Desert Wind that automatically picks the best element on a per-enemy basis.",
+					},
+					["Judged Severance"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord UnseenJavelinsMod.png",
+						["description"] = "With [25 / 33 / 50 / 75 %] Ability Efficiency, your Slide attacks will cast Radial Blind.",
+						["volume"] = 35,
+						["retired"] = 35,
+						["footnote"] = "Judge Severance is no longer part of Exalted Blade's Melee Combos.",
+					},
+					["Unseen Javelins"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord UnseenJavelinsMod.png",
+						["description"] = "With '''25 / 33 / 50 / 75%''' Ability Efficiency, your Slide attacks will cast Radial Blind and your Slam attacks will cast Radial Javelins. Radial Javelins are not affected by Slam Damage Falloff.",
+						["volume"] = 5,
+						["revised"] = 35,
+						["footnote"] = "Radial Javelins are now triggered on Slam Attacks instead of Heavy Attacks. Merged with Judged Severance. Judge Severance is no longer part of Exalted Blade's Melee Combos.",
+					},
+				},
+			},
+			["Exalted Blade (Weapon)"] = {
+				["ability_icon"] = "ExaltedBladeWeapon.png",
+				["revised_name"] = "Exalted Blade",
+				["exalted"] = "Melee",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Frost"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Frost_Thumb.png",
+		["abilities"] = {
+			["Ground Frost"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["revised_desc"] = "Casting each of your abilities will create an area of ''Ground Frost'' for '''15s''', which provides '''+30%''' Slide Speed and '''-30%''' Friction. Snow Globes will refresh ''Ground Frost'' duration. Casting Freeze, Ice Wave and Avalanche will also generate 20 Ability Combo Points per cast, and each deals up to 12x Damage based on Ability Combo Multiplier.",
+				["augments"] = {
+					["Biting Cold"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Passively gain '''130 / 150 / 175 / 200%''' Critical Chance and '''130 / 150 / 175 / 200%''' Critical Damage against Frozen enemies.",
+					},
+					["Cold Feet"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ColdFeetMod.png",
+						["description"] = "Passively freeze the surface of water and other liquids underfoot, protecting you from becoming submerged and creating a small area of Ground Frost that trails behind you as a solid surface for {{DUR|0.5 / 0.75 / 1.0 / 1.5s}}. Bullet jump while aiming down to submerge.",
+						["volume"] = 26,
+					},
+					["Fortifying Freeze"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Passively gain up to {{STR|300 / 600 / 900 / 1200}} Armor based on your Ability Combo Multiplier.",
+						["volume"] = 35,
+					},
+					["Glacial Storm"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord GlacialStormMod.png",
+						["description"] = "Enemies damaged by Frost are permanently more vulnerable to Cold Status, causing enemies that are Frozen solid to be surrounded by a Glacial Storm for '''3''' seconds, affected by Status Duration. The storm deals {{STR|100 / 200 / 300 / 400}} Cold damage/s to enemies within {{RNG|4.5m}} with 25% Status Chance, and will persist for the full duration even if the enemy dies or thaws.",
+						["volume"] = 5,
+						["revised"] = 30,
+					},
+					["Icy Impedance"] = {
+						["official"] = true,
+						["mod_avail"] = "Universal",
+						["mod_image"] = "IceWaveImpedanceMod.png",
+						["description"] = "Ground Frost will last for an additional {{DUR|3 / 4 / 5 / 6s}}. Enemies standing on Ground Frost will have their damage output reduced by {{{STR|2 / 4 / 7 / 10%}}/s, up to '''16 / 36 / 56 / 80''', and decaying at a rate of '''10%'''/s when not standing on Ground Frost.",
+						["volume"] = 22,
+						["revised"] = 32,
+						["footnote"] = "Changed from an Ice Wave augment to a Passive augment. Now saps enemy damage instead of applying additional Cold Status - Frost doesn't want to spend a whole Augment slot to just apply more Cold Status.",
+					},
+				},
+			},
+			["Freeze"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Freeze130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Freeze Force"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Hold-casting will grant all allies within {{RNG|15m}} an additional {{STR|50 / 65 / 80 / 100%}} Cold Damage on their attacks for {{DUR|28 / 32 / 36 / 40s}}.",
+					},
+					["Frozen Lance"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FrozenLanceMod.png",
+						["description"] = "Hitting an enemy directly now deals {{STR|20 / 25 / 33 / 50%}} additional damage for each Cold Status on the target and will shatter Frozen enemies. Shattering a Frozen enemy will send Frozen Lances with {{STR|100%}} additional damage at every enemy within {{RNG|10m}}. This effect can recur and the damage will accumulate.",
+						["volume"] = 25,
+						["revised"] = 32,
+					},
+				},
+			},
+			["Ice Wave"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "IceWave130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Flash Frost"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FlashFrostMod.png",
+						["description"] = "You can now hold-cast to channel this ability, draining {{EFF|12.5}}/s to continually blast the area before you with Icy Wave. While channeling, you gain an additional +30% Slide Speed on Ground Frost.",
+						["volume"] = 32,
+					},
+					["Frost Wave"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FrostWaveMod.png",
+						["description"] = "You instead dash forward for {{RNG|15 / 20 / 25 / 30m}} with low gravity, crashing through enemies and dealing Ice Wave's damage to them. Enemies Frozen by Flash Frost will take {{STR|20 / 30 / 40 / 50}}% more damage while Frozen.",
+						["volume"] = 5,
+						["set"] = "Icy Trails",
+					},
+					["Frozen Tide"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FrozenTideMod.png",
+						["description"] = "Ice Wave will now permeate through liquid, harmlessly freezing any Fishing targets for {{DUR|4 / 8 / 12 / 16}} seconds and causing them to float to the surface.",
+						["volume"] = 26,
+					},
+					["Icy Flows"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord IcyFlowsMod.png",
+						["description"] = "For each enemy hit by Ice Wave, Ice Wave will deal '''16.7 / 20 / 25 / 33'''% increased damage for {{DUR|5}} seconds. The bonus damage stacks with no upper limit, but will decay at a rate of '''66'''% per second after if the timer elapses. While the bonus persists, the cost of Ice Wave is reduced by 50%.",
+						["volume"] = 22,
+					},
+				},
+			},
+			["Snow Globe"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "SnowGlobe130xWhite.png",
+				["revised_desc"] = "Casting creates a protective globe with a radius of {{RNG|5m}} with Health equal to {{STR|1500 / 2500 / 3000 / 3500}} plus {{STR|5x}} Frost's Armor, that is further increased by '''100%''' of damage mitigated during an initial '''1 / 2 / 3 / 4s''' of invulnerability. Upon activation, enemies within the globe receive '''10''' Cold Status, are Frozen for {{DUR|10s}} and are expelled. Enemies who are shoved into geometry will receive {{STR|15 / 25 / 35 / 45%}} of their maximum as True Damage. Enemies who enter the globe thereafter will receive Cold Status every '''0.33s'''. Upon expiration or if targeted by '''Freeze''', the globe will shatter, dealing {{STR|10 / 15 / 20 / 25%}} of the globe's remaining health as Cold damage with 300% Status Chance to enemies within {{RNG|15m}}, with a minimum damage of {{STR|50 / 100 / 125 / 150}}.",
+				["augments"] = {
+					["Chilling Globe"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Enemies that enter have a '''30 / 35 / 40 / 50%''' chance to become frozen solid for {{DUR|10s}}.",
+					},
+					["Snow Piercer"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SnowPiercerMod.png",
+						["description"] = "Allied projectiles that pass through the Snow Globe gain {{STR|15 / 30 / 45 / 60%}} Cold Damage, and have a {{STR|25 / 50 / 75 / 100}}% chance to inflict a Cold Status.",
+						["volume"] = 25,
+					},
+				},
+			},
+			["Avalanche"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Avalanche130xWhite.png",
+				["live_desc"] = "Unchanged.",
+				["augments"] = {
+					["Icy Avalanche"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Casting now grants {{STR|60}} plus {{STR|5 / 10 / 15 / 20%}} Total Armor as Overguard to Allies within Affinity Range per enemy hit, up to {{STR|15,000}} Overguard.",
+						["revised"] = 35,
+						["footnote"] = "Added an Ability Strength scaling to the Overguard generation.",
+					},
+				},
+			},
+		},
+	},
+	["Gara"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Gara_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+				},
+			},
+			["Shattered Lash"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "ShatteredLash130xWhite.png",
+				["exalted"] = "Ability",
+				["augments"] = {
+					["Shattered Storm"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Detonating '''Mass Vitrify''' with Shattered Lash will apply '''Splinter Storm's''' Damage Vulnerability to enemies damaged with '''0.25 / 0.5 / 0.75 / 1.0x''' effectiveness.",
+					},
+					["Shattered Smash"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Tap casting now now perform the ''Slash'' attack, while hold-casting will manifest a glass warhammer and perform a Heavy Slam Attack, consuming your Ability Combo Count with '''15 / 30 / 45 / 60%''' Efficiency to deal Impact Damage with 3x Heavy Damage Multiplier, which is further increased by your Ability Combo Multiplier, and 3x Status Chance. On Heavy Kill: you will accumulate 100% of slain enemies' health on '''Shattered Storm'''.",
+						["volume"] = 35,
+					},
+				},
+			},
+			["Splinter Storm"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "SplinterStorm130xWhite.png",
+				["augments"] = {
+					["A Thousand Cuts"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AThousand CutsMod.png",
+						["description"] = "While protected, allied targets will generate 1 Melee Combo per enemy hit, and their Heavy Attacks will unleash glass fragments that apply Splinter Storm's damage to all enemies within line-of-sight and within '''20m''', reduced to '''10m''' for Heavy Slam Attacks. This damage will be affected by their Heavy Damage multiplier and Melee Combo Multiplier. On Gara, the base damage is also affected by your accumulated value. Passively gain 15 / 30 / 45 / 60% Heavy Attack Efficiency.",
+						["volume"] = 27,
+					},
+					["Splinter Shield"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SplinterStormMod.png",
+						["description"] = "Hold-cast to target all allies within Affinity Range. Costs '''300 / 275 / 250 / 200%''' energy.",
+						["volume"] = 16,
+						["revised"] = 35,
+						["footnote"] = "Range changed to Affinity Range from {{RNG|30m}}."
+					},
+				},
+			},
+			["Spectrorage"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Spectrorage130xWhite.png",
+				["augments"] = {
+					["Spectrosiphon"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Enemies that die within Spectrorage have a '''20 / 30 / 40 / 50%''' chance to drop an Energy Orb.",
+					},
+					["Sweeping Rage"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SweepingRageMod.png",
+						["description"] = "Casting instead arranges the glass panes in the likeness of a circular saw that deals '''Splinter Storm's''' accumulated damage/s to enemies within {{RNG|2.5m}}, with a minimum damage value of {{STR|500 / 600 / 700 / 800}}. While active, hold-casting will cause the saw to follow your crosshair at {{RNG|5m}}/s.",
+						["volume"] = 16,
+					},
+				},
+			},
+			["Mass Vitrify"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "MassVitrify130xWhite.png",
+				["augments"] = {
+					["Swift Vitrification"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SwiftVitrificationMod.png",
+						["description"] = "Casting costs 50% less energy, expands 50% faster, and vitrifies enemies 50% more quickly, but no longer forms a protective barrier. Vitrified enemies will now shatter if they received more than 50% of their current health in damage, dealing {{STR|500 / 600 / 700 / 800}} damage to enemies within {{RNG|5 / 6 / 7 / 8m}}.",
+						["volume"] = 27,
+					},
+					["Tempered Glass"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TemperedGlassMod.png",
+						["description"] = "Your defensive perimeter can no longer be broken by Shattered Lash. While inside your perimeter, Splinter Storm's duration is paused and kills with Shattered Lash will accumulate {{STR|25 / 33 / 50 / 100}} damage, affected by your Ability Combo Multiplier.",
+						["volume"] = 32,
+					},
+					["Vitrifying Gaze"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord VitrifyingGazeMod.png",
+						["description"] = "Tap-cast to instantly Vitrify all enemies within your field of view up to {{RNG|15 / 20 / 25 / 30m}} range. Hold-cast is unchanged.",
+						["volume"] = 31,
+					},
+				},
+			},
+		},
+	},
+	["Garuda"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Garuda_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+					["Blood Thirst"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BloodThirstMod.png",
+						["description"] = "Passively restore health equal to {{STR|2 / 3 / 4 / 5%}} of the Slash Bleed damage suffered by enemies within {{RNG|5m}}}.",
+						["volume"] = 27,
+					},
+				},
+			},
+			["Garuda Talons"] = {
+				["ability_icon"] = "GarudaTalons.png",
+				["exalted"] = "Melee",
+				["augments"] = {
+				},
+			},
+			["Dread Mirror"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "DreadMirror130xWhite.png",
+				["augments"] = {
+					["Bloodied Mirror"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BloodiedMirrorMod.png",
+						["description"] = "The threshold for executing enemies is now increased by '''1%''' for every '''5 / 4 / 3 / 2%''' of your missing health.",
+						["volume"] = 7,
+						["revised"] = 32,
+					},
+					["Dread Ambience"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DreadAmbienceMod.png",
+						["description"] = "While active, you will instead mitigate damage from all directions but damage mitigated will be depleted from your Dread Heart. Your Dread Heart can no longer be detonated, but hold-casting can still be employed to drain your energy and replenish your Dread Heart. If your Dread Heart is fully depleted, your Dread Mirror will break and you will gain invulnerability for '''1.33s'''.",
+						["volume"] = 7,
+					},
+					["Dread Mirror"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DreadAmbienceMod.png",
+						["description"] = "On kill with Dread Mirror's basic cast, gain invulnerability for {{DUR|4 / 5 / 6 / 8s}}.",
+					},
+					["Misery Business"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MiseryBusinessMod.png",
+						["description"] = "Hold-casting will instead reshape your Dread Mirror into a {{RNG|5 / 8 / 11 / 15m}}}-radius perimeter that will mitigates all damage received by your allies (excluding yourself). Damage mitigated will deplete your Dread Heart. On-release, your Dread Mirror will reform. Fully depleting your Dread Heart will break your Dread Mirror.",
+						["volume"] = 7,
+					},
+				},
+			},
+			["Blood Altar"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "BloodAltar130xWhite.png",
+				["augments"] = {
+					["Dreadful Fetish"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DreadfulFetishMod.png",
+						["description"] = "Enemies in range of your Blood Altar will receive Seeking Talon's Slash Status vulnerability, and Slash Status Effects are resolved '''20 / 25 / 33 / 50%''' more quickly.",
+						["volume"] = 27,
+						["revised"] = 32,
+					},
+					["Exploit Meridians"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ExploitMeridiansMod.png",
+						["description"] = "Hold-cast to instead position needles in the target's meridians, causing '''25 / 33 / 50 / 100%''' of damage the target receives to bypass their armor and shields. This is effective versus disable-immune targets. Any number of enemies can be targeted by Exploit Meridians.",
+						["volume"] = 27,
+					},
+					["Insatiable Fetish"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord InsatiableFetishMod.png",
+						["description"] = "You may now only maintain ONE Blood Altar at a time, but it will now last indefinitely. The altar's range is now increased by {{RNG|1m}} for every enemy that dies within its radius, stacking up to {{RNG|4 / 8 / 12 / 16m}}.",
+						["volume"] = 27,
+					},
+				},
+			},
+			["Bloodletting"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Bloodletting130xWhite.png",
+				["augments"] = {
+					["Blood Forge"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Casting will additionally reload up to '''25 / 50 / 75 / 100%''' of your current weapon's magazine from its ammo reserve.",
+					},
+					["Blood Tithes"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BloodTithesMod.png",
+						["description"] = "Casting also grants '''4 / 6 / 8 / 10%''' Increased Damage for {{DUR|3s}}, which stacks with no upper limit and is additive with your passive. This bonus will decay at a rate of 20%/s after the timer elapses.",
+						["volume"] = 27,
+					},
+					["Tides of Blood"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Tidesof BloodMod.png",
+						["description"] = "Hold-cast to restore {{STR|30 / 45 / 60 / 75}} health/s while draining {{EFF|25}} energy/s. You are cleansed of status effects and made invulnerable while channelling.",
+						["volume"] = 27,
+					},
+				},
+			},
+			["Seeking Talons"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "SeekingTalons130xWhite.png",
+				["augments"] = {
+					["Blending Talons"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Tap-casting will additionally unleash flying talons that apply the effects of Seeking Talons to all enemies within a {{RNG|6 / 7 / 8 / 9m}}-radius. Hold casts are unmodified. Passively gain '''25 / 50 / 75 / 100%''' Additional Melee Combo Chance on {{weapon|Garuda Talons}} when attacking enemies affected by Bleed status.",
+					},
+					["Brutal Charge"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BrutalChargeMod.png",
+						["description"] = "Hold-casting will instead cause you to sprint in the target direction with reduced turning capabilities until released or you impact an obstacle, dealing {{STR|750 / 1000 / 1500 / 2000}} - {{STR|2250 / 3000 / 4500 / 6000}} damage/s in an {{RNG|8m}}-radius and applying Seeking Talon's Slash Vulnerability. The damage is fully charged after '''1s''' of distance travelled.",
+						["volume"] = 27,
+					},
+					["Ferroplague"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FerroplagueMod.png",
+						["description"] = "Enemies slain while affected by Seeking Talons will now evenly distribute '''25 / 33 / 50 / 100%''' any undealt Slash Damage to enemies within {{RNG|5m}}.",
+						["volume"] = 27,
+					},
+					["Rending Talons"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RendingTalonsMod.png",
+						["description"] = "Hold-casting instead expunge Slash Bleeds from all enemies within 60m in a {{RNG|20 / 45 / 70 / 95}}{{Degree}} field of view, dealing any undealt damage in burst.",
+						["volume"] = 27,
+					},
+				},
+			},
+		},
+	},
+	["Gauss"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Gauss_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+					["Concorde"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ConcordeMod.png",
+						["description"] = "When no melee weapon is selected, Concorde becomes a moddable Fist Weapon with {{STR|100 / 150 / 200 / 250}} base Puncture Damage. Concorde reduces the target's armor equal to damage dealt and gains a stacking 1% chance to hit an additional enemy per melee kill. Additionally, your Battery grants up to '''55 / 70 / 85 / 100%''' Melee Speed.",
+						["volume"] = 25,
+					},
+					["Refresh Rate"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RefreshRateMod.png",
+						["description"] = "While your velocity exceeds '''24 / 22 / 20 / 18m'''/s, you gain softsteps and are imperceptible to Biometric-based detection.",
+						["volume"] = 24,
+					},
+				},
+			},
+			["Mach Rush"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "MachRush130xWhite.png",
+				["augments"] = {
+					["Faster Than Light"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FasterThan LightMod.png",
+						["description"] = "On Hold: Instead you return to where you were '''2.99792s''' ago, undoing any damage taken and restoring any ammo spent. Hold-cast has a '''15 / 12 / 9 / 6s''' cooldown.",
+						["volume"] = 25,
+					},
+					["Inescapable Lightning"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord InescapableLightningMod.png",
+						["description"] = "While rushing, enemies within {{RNG|10m}} are struck by lightning that deals {{STR|200 / 400 / 600 / 800}} Electricity damage with guaranteed status. The damage is increased by up to 100% based on Redline.",
+						["volume"] = 32,
+						["coop"] = "Thunder & Lightning",
+					},
+					["Mach Crash"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["description"] = "On Collision: Create a vacuum that pulls in all enemies within {{RNG|5 / 6 / 7 / 8m}}.",
+					},
+					["Mach Punch"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MachPunchMod.png",
+						["description"] = "Casting instead performs up to {{DUR|6 / 8 / 10 / 12}} melee attacks over the next {{DUR|0.8 / 1.1 / 1.3 / 1.6s}} on enemies within {{RNG|5m}}, prioritizing enemies you've hit the fewest times. The ability can be held to auto-recast.",
+						["volume"] = 24,
+					},
+					["Phase Rush"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PhaseRushMod.png",
+						["description"] = "Casting instead teleports you forward up to {{RNG|10m}} and causing incoming projectiles and melee attacks to phase through you for the next {{DUR|5s}}. Phase Rush can pass through up to {{RNG|0.25 / 0.33 / 0.5 / 1.0m}} of geometry.",
+						["volume"] = 24,
+						["exilus"] = true,
+					},
+					["Powered Rush"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PoweredRushMod.png",
+						["description"] = "This ability's '''25m/s''' rush speed now benefits from Strength Mods. Passively gain '''20 / 25 / 33 / 50%''' Slow Resistance",
+						["volume"] = 29,
+						["exilus"] = true,
+					},
+					["Ricochet"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RicochetMod.png",
+						["description"] = "Casting now guarantees that you move the full {{RNG|6 / 8 / 10 / 12m}}, and will ricochet on collision with geometry. Each collision will trigger Mach Rush's damage and increase the cost of subsequent casts by  {{EFF|0.125}} for '''2s''', which stacks with no upper limit.",
+						["volume"] = 13,
+					},
+				},
+			},
+			["Kinetic Plating"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "KineticPlating130xWhite.png",
+				["augments"] = {
+					["Repulsive Plating"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RepulsivePlatingMod.png",
+						["description"] = "Deal {{STR|25 / 33 / 50 / 100%}} of mitigated damage as Slash damage to enemies within {{RNG|12m}} within FOV.",
+						["volume"] = 24,
+					},
+				},
+			},
+			["Thermal Sunder"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "ThermalSunder130xWhite.png",
+				["augments"] = {
+					["Molecular Sunder"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MolecularSunderMod.png",
+						["description"] = "Tap casting instead energizes enemies, granting them {{STR|25% Speed}} that increases by {{STR|2 / 3 / 4 / 5%}}/s. Hold casting instead saps enemy damage by {{STR|25%}} that increases by {{STR|2 / 3 / 4 / 5%}}/s. Both effects are capped at '''45 / 55 / 65 / 75%''', and the current percentage will be preserved when alternating casts.",
+						["volume"] = 24,
+					},
+					["Sunder Bombs"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SunderBombsMod.png",
+						["description"] = "Both casts instead hurl a grenade that explodes on impact with an enemy or after '''2s''', applying the ability's normal effects over an {{RNG|8m}}-radius with '''100 / 250 / 333 / 500%''' Status Chance.",
+						["volume"] = 24,
+					},
+					["Thermal Transfer"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Casting additionally grants {{STR|40 / 50 / 60 / 75%}} Cold or Heat Damage for {{DUR|18 / 22 / 26 / 30s}}.",
+					},
+				},
+			},
+			["Redline"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Redline130xWhite.png",
+				["augments"] = {
+					["Quicktime Reload"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord QuicktimeReloadMod.png",
+						["description"] = "While active, instead of reload speed, you gain a quick time event during your reload animation wherein pressing '''Reload''' within a ±15{{Degree}} time window causes you to instantly reload and deal '''25 / 50 / 75 / 100%''' - '''50 / 100 / 150/ 200%''' weapon damage (based on Battery) for {{DUR|5s}}.",
+						["volume"] = 25,
+						["exilus"] = true,
+					},
+					["Target Rich Environment"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TargetRich EnvironmentMod.png",
+						["description"] = "On Tap: Gain auto-aim on ranged weapons but drain 10 (+0.5/s) battery per attack. On Hold: Gain '''1.25 / 1.33 / 1.5 / 2x''' total fire rate at the cost of 10 (+0.5/s) energy/s while generating an equal amount of Battery. Accumulated costs falls off at a rate of '''2'''/s after {{DUR|5s}}.",
+						["volume"] = 24,
+					},
+				},
+			},
+		},
+	},
+	["Grendel"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Grendel_Thumb.png",
+		["abilities"] = {
+			["Glutton"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["revised_desc"] = "Passively gain '''250''' Armor per enemy within your stomach, up to '''1250'''. Completely digesting an enemy will grant a stack of '''Well Fed''' for '''16s''', during which time one of your stomach chambers is considered full for the purposes of Ability Synergy.",
+				["augments"] = {
+					["Voracious Apetite"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord VoraciousApetiteMod.png",
+						["description"] = "Permanently gain {{STR|0.5 / 2 / 3.5 / 5}} Health per Health Orb collected, up to {{STR|150 / 600 / 1050 / 1500}}.",
+						["volume"] = 20,
+						["set"] = "Gluttony",
+					},
+				},
+			},
+			["Feast"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Feast130xWhite.png",
+				["revised_desc"] = "Casting will open your maw for the next '''1.5s''', disintegrating enemies under your crosshair and within {{RNG|25m}} until all 5 chambers of your stomach have been filled. For each enemy consumed, the duration is extended by '''1s'''. Enemies within your stomach are digested at a rate of '''2%''' of their maximum health/s. Hold-casting will expel all enemies within your stomach, dealing {{STR|250 / 300 / 400 / 500}} Toxin Damage with guaranteed status to them and all enemies within your field of view and within '''8m'''.",
+				["augments"] = {
+					["Abysmal Voyage"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AbysmalVoyageMod.png",
+						["description"] = "Casting can additionally capture allied units, rendering them invulnerable and immune to status effects. Pulverize's healing will also benefit stowed allies. You have '''1 / 2 / 3 / 4''' additional stomach chambers that are reserved for allies. Allies can '''Roll''' to be Vomited out, or '''Bullet Jump''' to be Regurgitated, and cannot be consumed again for 5 seconds.",
+						["volume"] = 24,
+						["exilus"] = true,
+					},
+					["Bottomless Feast"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BottomlessFeastMod.png",
+						["description"] = "Casting will instead deal damage/s to enemies within your maw's vacuum range equal to {{STR|4 / 8 / 12 / 16%}} of their maximum health, as well as executing enemies who fall below Finisher threshold. Initial duration now scales with Duration mods. and the duration is now increased on-kill. Your gut now tracks the cumulative health consumed.",
+						["volume"] = 19,
+					},
+					["Gourmand"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Casting will drain {{EFF|300 / 260 / 240 / 200}} Health instead of Energy. You will also gain the effects of '''Well Fed''' whenever you expulse, vomit or regurgitate an enemy. Glutton grants an additional '''75 / 100 / 125 / 150''' Armor per stack.",
+						["revised"] = "Not Recorded",
+					},
+					["Exquisitie Seasoning"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SeraphimEyesMod.png",
+						["description"] = "Consuming an Eximus enemy will grant Grendel their Aura and Abilities for {{DUR|10 / 15 / 20 / 25s}}.",
+						["volume"] = 35,
+						["footnote"] = "Recalled feathers will pick a curved trajectory that intercepts with the most enemies, and will not travel in a straight line directly towards a potentially airborne Jade.",
+					},
+				},
+			},
+			["Nourish"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Nourish130xWhite.png",
+				["revised_desc"] = "Casting will digest a total of {{STR|20%}} of Grendel's maximum health from enemies within your stomach, prioritizing the first enemy consumed, to restore {{STR|600 / 700 / 800 / 1000}} Health, and grant a boon to all allies within Affinity Range for {{DUR|10 / 15 / 20 / 25s}}. The boon increases energy gained from all sources by {{STR|1.5 / 1.65 / 1.8 / 2.0x}}, grants {{STR|40 / 50 / 60 / 75%}} bonus Viral Damage on all weapons, and grants On Damaged: Deal {{STR|100 / 150 / 200 / 250}} Viral Damage and appliy 10 Viral Status too all enemies within a {{RNG|12m}}-radius, with a '''2s''' cooldown.",
+				["augments"] = {
+					["Caustic Spittle"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CausticSpittleMod.png",
+						["description"] = "The On-Damaged effect instead applies {{STR|40 / 60 / 80 / 100%}} of all damage received to enemies within {{RNG|6 / 8 / 10 / 12m}} as Viral Damage with guaranteed status.",
+						["volume"] = 24,
+					},
+					["Endless Nourishment"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord EndlessNourishmentMod.png",
+						["description"] = "Re-casting Nourish now stack the duration up to '''180s'''. Additionally, the boon will also amplify sources of healing by {{STR|1.25 / 1.33 / 1.5 / 2x}} more health and allows you to Overheal up to {{STR|300}}.",
+						["volume"] = 26,
+					},
+					["Hearty Nourishment"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Casting will additionally purge any Status Effects on yourself, and grant {{DUR|2 / 3 / 4 / 5s}} of Status Immunity per Glutton stack.",
+					},
+					["Mucous Membrane"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MucousMembraneMod.png",
+						["description"] = "Passively store damage received up to {{STR|1000 / 1500 / 2000 / 3000}}. Casting will additionally convert stored damage into Overguard, which will stack on recasts up to {{STR|15,000}}.",
+						["volume"] = 5,
+					},
+					["Putrid Bile"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PutridBileMod.png",
+						["description"] = "Casting will also grant you {{STR|20%}} movement speed and cause you to seap bile for {{RNG|8s}}, which lingers as a {{RNG|2m}}-radius trail for {{DUR|4s}} and deals {{STR|25 / 100 / 175 / 250}} Viral/s to enemies within the puddle with guaranteed Status. You will no longer explode with Viral Damage when hit.",
+						["volume"] = 20,
+					},
+				},
+			},
+			["Pulverize"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Pulverize130xWhite.png",
+				["revised_desc"] = "Casting will transform you into a Roller with {{STR|250}} base damage, which is multiplied per stack of Glutton. While active, enemies within your stomach will receive an additional {{STR|25}} Toxin damage/s. While your stomach is empty, drain {{EFF|3}}/s. Generates 1 Ability Combo Point per enemy hit, and deals up to '''12x''' Damage based on your Ability Combo Multiplier. Impacting a surface with sufficient velocity will incur a Slam Attack, damaging enemies within {{RNG|2 / 3 / 4 / 5m}} per enemy within your stomach. Pulverize is a moddable part of your Arsenal with 35% Crticial Chance, 2x Critical Multiplier and 15% Status Chance.",
+				["exalted"] = "Ability",
+				["augments"] = {
+					["Adhesive Membrane"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AdhesiveMembraneMod.png",
+						["description"] = "While active, you now adhere to surfaces with -100% Gravity. Adhering to a surface resets Jump availability, and your next jump has a brief window of zero gravity. Drain '''2.0 / 1.5 / 1.33 / 1.25x''' energy while adhered.",
+						["volume"] = 16,
+						["exilus"] = true,
+					},
+					["Catapult"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CatapultMod.png",
+						["description"] = "While active, {{keybind|MMB}} will launch you in your direction of aim, also consuming '''100 / 75 / 60 / 45%''' of your Ability Combo Points to deal '''1.5 / 2 / 2.5 / 3x''' Heavy Damage on impact, which is further increased based on your Ability Combo Multiplier. You will perform a Heavy Slam Attack if performed while airborne.",
+						["revised"] = 35,
+					},
+					["Engorged Step"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord EngorgedStepMod.png",
+						["description"] = "Pulverize now uses Hybrid Casting. On Tap: Become invulnerable for 0.25s, also gaining a burst of forward momentum and cleansing status effects. Deal one instance of Pulverize's damage to nearby enemies. While Held: Maintain Pulverize.",
+						["volume"] = 34,
+						["restrict"] = "{{m|Rolling Guard}}",
+					},
+					["Gastric Thunder"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord GastricThunderMod.png",
+						["description"] = "While active, colliding with an enemy will create a discharge of bolts that deal '''25 / 33 / 50 / 100'''% of Pulverize's damage as Electricity damage to enemies within {{RNG|3m}} with guaranteed status.",
+						["volume"] = 32,
+						["coop"] = "Thunder & Lightning",
+					},
+					["Slingshot"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Tap casting will now perform a Heavy Slam Attack toward the target location within {{RNG|20m}}, consuming '''100 / 75 / 60 / 45%''' of your Ability Combo Points to deal '''1.5 / 2 / 2.5 / 3x''' Heavy Damage on impact, which is further increased based on your Ability Combo Multiplier. You will perform a Heavy Slam Attack if performed while airborne. Hold casting will bring up an aiming reticle while rapidly increasing the maximum range up to {{RNG|40m}} over '''2s'''.",
+						["volume"] = 20,
+						["revised"] = 35,
+						["footnote"] = "This is an alternate form of Catapult."
+					},
+				},
+			},
+			["Regurgitate"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Regurgitate130xWhite.png",
+				["augments"] = {
+					["Tactical Chunder"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TacticalChunderMod.png",
+						["description"] = "Casting will digest a total of {{STR|20%}} health from enemies within your stomach, prioritizing the first enemy consumed, to unleash a nova of bile that deals Regurgitate's damage to enemies with line-of-sight within {{RNG|5 / 7.5 / 10 / 12.5m}}.",
+						["volume"] = 20,
+						["set"] = "Gluttony",
+					},
+				},
+			},
+		},
+	},
+	["Gyre"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Gyre_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+					["Rolling Thunder"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RollingThunderMod.png",
+						["description"] = "On Dodge: Transform into a ball of lightning for {{RNG|2s}}, also becoming invulnerable and gaining full flight capabilities. As lightning, your motion cannot be detected, you do not have biometrics, and you cannot be heard - but you can be seen! '''12 / 10 / 8.5 / 7''' second cooldown.",
+						["volume"] = 30,
+						["restrict"] = "{{m|Rolling Guard}}",
+					},
+					["Universal Adapter"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord UniversalAdapterMod.png",
+						["description"] = "Your abilities now gain Critical Chance for every status effect on the target, instead of only Electricity status effects. Maximum ability critical chance increased by {{STR|25 / 33 / 50 / 100}}%.",
+						["volume"] = 32,
+					},
+				},
+			},
+			["Arcsphere"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Arcsphere130xWhite.png",
+				["augments"] = {
+					["Homing Spheres"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord HomingSpheresMod.png",
+						["description"] = "After impact or upon reactivation, '''Gyratory Spheres''' now continuously path toward you at '''2 / 3 / 4 / 5m'''/s. Spheres can adhere to walls and ceilings.",
+						["volume"] = 18,
+					},
+				},
+			},
+			["Coil Horizon"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "CoilHorizon130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Cathode Grace"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "CathodeGrace130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Rotorswell"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Rotorswell130xWhite.png",
+				["augments"] = {
+					["Capacitive Resistance"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CapacitiveResistanceMod.png",
+						["description"] = "Rotorswell now grants {{STR|10 / 20 / 30 / 40%}} damage reduction while active, which is increased by {{STR|3%}} per kill with a Critical Hit up to 90%. After 2s, damage reduction falls off at a rate of 3%/s.",
+						["volume"] = 29,
+						["credit"] = "TheKengineer (YouTube)",
+					},
+					["Conductive Rotorswell"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ConductiveRotorswellMod.png",
+						["description"] = "Gain {{STR|20 / 25 / 33 / 50}} Overguard and '''1''' Energy each time an enemy is shocked by your abilities, up to {{STR|15,000}} Overguard.",
+						["volume"] = 13,
+						["revised"] = 34,
+					},
+					["Rotor Surge"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RotorSurgeMod.png",
+						["description"] = "The initial activation of Rotorswell now silences enemies within {{RNG|15m}} for {{DUR|5 / 7 / 9 / 11s}}.",
+						["volume"] = 30,
+					},
+				},
+			},
+		},
+	},
+	["Harrow"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Harrow_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+					["Evenhanded"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord EvenhandedMod.png",
+						["description"] = "Whenever you deal physical damage, the ally within Affinity Range with the lowest current health will restore {{STR|5 / 10 / 15 / 30}} health. Evenhanded can overheal up to {{STR|300}} bonus Health.",
+						["volume"] = 25,
+					},
+				},
+			},
+			["Condemn"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Condemn130xWhite.png",
+				["augments"] = {
+					["Chastise"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ChastiseMod.png",
+						["description"] = "Affected enemies are pulled to the nearest vertical surface within {{RNG|4 / 6 / 8 / 10m}} and pinned against it for the duration.",
+						["volume"] = 25,
+					},
+					["Tribunal"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Against chained enemies and with '''40 / 60 / 80 / 100%''' effectiveness, squadmates will restore health on-hit while Penance is active, and Energy on-kill while Thurible is active. Harrow will also recover Health and Energy equal to the amount recovered by his squadmaters.",
+						["footnote"] = "Harrow currently suffers from being a support whose ability to support his allies requires denying them any reason to need supporting - i.e. if Harrow is killing enemies to give you health and energy, you have no need for that health and energy. I will likely address this problem by allowing allies to benefit from Harrows' support innately, which will necessitate reworking this official augment in the future.",
+					},
+				},
+			},
+			["Penance"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Penance130xWhite.png",
+				["augments"] = {
+					["Evangelize"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord EvangelizeMod.png",
+						["description"] = "Hold-cast to raise an idol from the ground at the target location that reduces the resistance of enemies within {{RNG|5m}} by {{STR|20 / 25 / 33 / 50%}}.",
+						["volume"] = 25,
+					},
+					["Herald of Despair"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Heraldof DespairMod.png",
+						["description"] = "Casting will instead project an indestructible doppelganger of yourself at the target location, which you control for the next {{DUR|4s}} while your true body remains vulnerable. Your doppelganger will drain  {{STR|2 / 4 / 6 / 8%}} total health/s from enemies within {{RNG|8m}}. After the duration, you are returned to your body.",
+						["volume"] = 25,
+					},
+				},
+			},
+			["Thurible"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Thurible130xWhite.png",
+				["augments"] = {
+					["Ardent Censer"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ArdentCenserMod.png",
+						["description"] = "While active, allies who score a kill within Thurible's radius, or when an enemy within the radius is killed by another ally, all allies within range will restore energy at {{STR|16.7 / 20 / 25 / 33%}} effectiveness.",
+						["volume"] = 6,
+					},
+					["Moral Compass"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MoralCompassMod.png",
+						["description"] = "While channeling Thurible, unleash waves of energy that travel forward up to {{RNG|40m}}, dealing {{STR|100 / 125 / 200 / 250}} Void Damage to enemies hit with guaranteed status. Enemies hit are also revealed for {{DUR|20 / 25 / 30 / 35s}}.",
+						["volume"] = 25,
+					},
+					["Warding Thurible"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["description"] = "While channelling, Harrow and allies within range gain {{STR|30 / 35 / 40 / 50%}} damage reduction, up to 90%. For each instance of damage suffered by protected allies, Thurible's charge is incremented by {{STR|1.0}}.",
+					},
+				},
+			},
+			["Covenant"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Covenant130xWhite.png",
+				["augments"] = {
+					["Final Salvation"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FinalSalvationMod.png",
+						["description"] = "Tap-casting instead grants invulnerability to a single target, during which they store 100% of all damage mitigated. After completing the '''3s''' cast time, the target will explode, dealing {{STR|1.0 / 1.25 / 1.5 / 2.5}}x the stored damage to all enemies within line of sight of the target as Radiation damage. Hold-cast to self-cast.",
+						["volume"] = 25,
+					},
+					["Lasting Covenant"] = {
+						["official"] = true,
+						["mod_avail"] = "Cooperative",
+						["description"] = "While active, headshot kills will extened the duration by {{DUR|1 / 1.5 / 2 / 3s}}. The remaining duration cannot exceed '''3x''' base duration.",
+					},
+					["Requiem"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RequiemMod.png",
+						["description"] = "Casting no longer grants invulnerability. Instead, after completing the '''3s''' cast time, all enemies within your field-of-view will receive 3 Finisher attacks that deal {{STR|1000 / 1250 / 1500 / 2000}} True damage with guaranteed Slash Status. If an enemy is slain, you may recast Requiem at no cost within the next {{DUR|12s}}.",
+						["volume"] = 25,
+						["footnote"] = "I am considering to rework this effect to instead only affect enemies who are exposed to Finishers, and thus create an opportunity for synergies. As a concession, maintaining enemies within your field of view could expost them to finishers - similar to channeling High Noon in Overwatch. For example: <ul><li>Casting no longer grants invulnerability. Instead, upon completing the '''3s''' cast time, execute all enemies within your field-of-view that are vulnerable to Finishers or Mercy. During the cast time, enemies with whom you maintain vision for a sum total of 3{{divided by}}{{DUR|1}} seconds will be exposed to Finishers and then executed. If an enemy is slain, you may recast Requiem at no cost within the next {{DUR|12s}}.</li><li>Casting will instead permanently apply a Finisher Threshold to all enemies within your field-of-view starting at {{STR|10 / 20 / 30 / 40%}} of their maximum health, and increasing by {{DUR|30%}}/s throughout the cast time. Upon completing the '''3s''' cast time, execute all enemies within your field-of-view that vulnerable to Finishers or Mercy. If an enemy is slain, you may recast Requiem at no cost within the next {{DUR|12s}}.</li></ul>"
+					},
+				},
+			},
+		},
+	},
+	["Harrier"] = {
+		["equip_type"] = "Warframe",
+		["official"] = false,
+		["icon"] = false,
+		["abilities"] = {
+			["Infiltrate"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = false,
+				["augments"] = {
+				},
+			},
+			["Volley"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = false,
+				["augments"] = {
+				},
+			},
+			["Bullet Storm"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = false,
+				["augments"] = {
+				},
+			},
+			["Lovers' Leap"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = false,
+				["augments"] = {
+				},
+			},
+			["Recall"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = false,
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Helminth"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "HelminthIcon.png",
+		["abilities"] = {
+			["Subsume Abilities"] = {
+				["ability_icon"] = "HelminthIcon.png",
+				["augments"] = {},
+			},
+			["Devour"] = {
+				["ability_icon"] = "DevourIcon.png",
+				["augments"] = {
+					["Devour All"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DevourAllMod.png",
+						["description"] = "DESCRIPTION",
+						["volume"] = 1,
+					},
+				},
+			},
+			["Empower"] = {
+				["ability_icon"] = "Empower130xWhite.png",
+				["augments"] = {
+					["Empower Squad"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord EmpowerSquadMod.png",
+						["description"] = "DESCRIPTION",
+						["volume"] = 24,
+					},
+					["Superpower"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SuperpowerMod.png",
+						["description"] = "DESCRIPTION",
+						["volume"] = 24,
+					},
+				},
+			},
+			["Energized Munitions"] = {
+				["ability_icon"] = "EnergizedMunitions130xWhite.png",
+				["augments"] = {
+					["Energized Blade"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord EnergizedBladeMod.png",
+						["description"] = "DESCRIPTION",
+						["volume"] = 24,
+					},
+					["Energized Magazine"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord EnergizedMagazineMod.png",
+						["description"] = "DESCRIPTION",
+						["volume"] = 24,
+					},
+				},
+			},
+			["Expedite Suffering"] = {
+				["ability_icon"] = "ExpediteSuffering130xWhite.png",
+				["augments"] = {
+					["Accelerant"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AccelerantMod.png",
+						["description"] = "DESCRIPTION",
+						["volume"] = 24,
+					},
+				},
+			},
+			["Golden Instinct"] = {
+				["ability_icon"] = "GoldenInstinct130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Hideous Resistance"] = {
+				["ability_icon"] = "HideousResistance130xWhite.png",
+				["augments"] = {
+					["Hideous Growths"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord HideousGrowthsMod.png",
+						["description"] = "DESCRIPTION",
+						["volume"] = 24,
+						["exilus"] = true,
+					},
+					["Resistance Aura"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ResistanceAuraMod.png",
+						["description"] = "DESCRIPTION",
+						["volume"] = 24,
+						["aura"] = true,
+					},
+				},
+			},
+			["Infested Mobility"] = {
+				["ability_icon"] = "InfestedMobility130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Marked For Death"] = {
+				["ability_icon"] = "MarkedForDeath130xWhite.png",
+				["augments"] = {
+					["Already Marked"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AlreadyMarkedMod.png",
+						["description"] = "DESCRIPTION",
+						["volume"] = 29,
+					},
+					["Cascade of Death"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Cascadeof DeathMod.png",
+						["description"] = "DESCRIPTION",
+						["volume"] = 24,
+					},
+					["Marked As Fragile"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MarkedAs FragileMod.png",
+						["description"] = "DESCRIPTION",
+						["volume"] = 24,
+					},
+					["Slow Death"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SlowDeathMod.png",
+						["description"] = "DESCRIPTION",
+						["volume"] = 24,
+					},
+					["Weakest Link"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord WeakestLinkMod.png",
+						["description"] = "DESCRIPTION",
+						["volume"] = 24,
+					},
+				},
+			},
+			["Master's Summons"] = {
+				["ability_icon"] = "Master'sSummons130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Parasitic Armor"] = {
+				["ability_icon"] = "ParasiticArmor130xWhite.png",
+				["augments"] = {
+					["Symbiotic Armor"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SymbioticArmorMod.png",
+						["description"] = "DESCRIPTION",
+						["volume"] = 24,
+					},
+				},
+			},
+			["Perspicacity"] = {
+				["ability_icon"] = "Perspicacity130xWhite.png",
+				["augments"] = {
+					["Honourable Thieves"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord HonourableThievesMod.png",
+						["description"] = "DESCRIPTION",
+						["volume"] = 24,
+					},
+				},
+			},
+			["Rebuild Shields"] = {
+				["ability_icon"] = "RebuildShields130xWhite.png",
+				["augments"] = {
+					["Reinforce Shields"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ReinforceShieldsMod.png",
+						["description"] = "DESCRIPTION",
+						["volume"] = 24,
+					},
+				},
+			},
+			["Sickening Pulse"] = {
+				["ability_icon"] = "SickeningPulse130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Voracious Metastasis"] = {
+				["ability_icon"] = "VoraciousMetastasis130xWhite.png",
+				["augments"] = {
+					["Immunosuppressants"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ImmunosuppressantsMod.png",
+						["description"] = "DESCRIPTION",
+						["volume"] = 24,
+					},
+					["Metastatic Melanoma"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MetastaticMelanomaMod.png",
+						["description"] = "DESCRIPTION",
+						["volume"] = 24,
+					},
+				},
+			},
+		},
+	},
+	["Hildryn"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Hildryn_Thumb.png",
+		["abilities"] = {
+			["Advanced Shielding"] = {
+				["ability_icon"] = "PassiveAbility.png",
+				["hotkey"] = 0,
+				["augments"] = {
+					["Advanced Guard"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AdvancedGuardMod.png",
+						["description"] = "On Dodge: Reinforce your shields, preventing them from being reduced for '''2 / 2.33 / 2.66 / 3''' seconds and removing all Status Effects. '''12 / 10 / 8.5 / 7 second cooldown.",
+						["volume"] = 27,
+						["restrict"] = "{{m|Rolling Guard}}",
+					},
+				},
+			},
+			["Balefire"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Balefire130xWhite.png",
+				["augments"] = {
+					["Balefire Storm"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BalefireStormMod.png",
+						["description"] = "On Tap: Instead drain {{EFF|25}} shields to launch up to {{RNG|6 / 8 / 10 / 12}} energy projectiles that home-in on enemies within your field of view, up to {{RNG|8 / 10 / 12 / 15m}}. Hold-cast to channel this ability, draining {{EFF|25}}/s to continually launching rockets every second. Hold again to disengage. ",
+						["volume"] = 31,
+						["revised"] = 32,
+					},
+					["Scrap Cannon"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ScrapCannonMod.png",
+						["description"] = "On Tap: Deal {{STR|200 / 400 / 700 / 1000}} Puncture in a spray of scrap like a shotgun blast. On Hold: unleash a continuous stream of scrap that deals {{STR|100 / 200 / 350 / 500}} Slash/s and has substantial knockback. Scrap Cannon uses a unique resource, Scrap, which is display above her action bar. Ammo Packs will generate Scrap.",
+						["volume"] = 26,
+					},
+				},
+			},
+			["Pillage"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Pillage130xWhite.png",
+				["augments"] = {
+					["Torn Asunder"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TornAsunderMod.png",
+						["description"] = "Versus enemies with neither Shields nor Armor, Pillage's outbound pulse instead sunders {{STR|10 / 15 / 20 / 25%}} of enemy's current health (capped at 75%). The returning pulse will restore {{STR|10 / 15 / 20 / 25%}} of allies' missing health.",
+						["volume"] = 19,
+					},
+				},
+			},
+			["Haven"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Haven130xWhite.png",
+				["augments"] = {
+					["Elemental Haven"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ElementalHavenMod.png",
+						["description"] = "During Haven, Warframe Shields have a '''25 / 33 / 50 / 100%''' chance to resist Elemental Status effects.",
+						["volume"] = 26,
+						["revised"] = 32,
+					},
+					["Kinetic Haven"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord KineticHavenMod.png",
+						["description"] = "During Haven, Warframe Shields have a '''25 / 33 / 50 / 100%''' chance to resist Physical Status effects.",
+						["volume"] = 26,
+						["revised"] = 32,
+					},
+				},
+			},
+			["Aegis Storm"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "AegisStorm130xWhite.png",
+				["augments"] = {
+					["Heavy Ordnance"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord HeavyOrdnanceMod.png",
+						["description"] = "You can now swap-out your Balefire Repeaters for any Heavy Weapon in your inventory. Heavy Ordnance uses Necramech functionality. Your Heavy Weapons are now '''0 / 5 / 10 / 15%''' more efficient with ammo.",
+						["volume"] = 9,
+					},
+				},
+			},
+			["Balefire Repeaters"] = {
+				["ability_icon"] = "BalefireCharger.png",
+				["exalted"] = "Secondary",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Hydroid"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Hydroid_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+					["Rip Tide"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RipTideMod.png",
+						["description"] = "Striking at least one enemy with Tidal Surge, Tentacle Smash or Swallow the Earth will generate 1 stack of Rip Tide. Your next attack consumes all stacks to deal {{STR|50 / 66 / 100 / 200}} bonus adapted damage and restore {{STR|50 / 66 / 100 / 200}} health.",
+						["volume"] = 10,
+						["set"] = "Saltwater Scourge",
+					},
+					["Test of Spirit"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Testof SpiritMod.png",
+						["description"] = "Performing a Heavy Attack with at least '''12 / 10 / 8 / 6x''' Melee Combo will summon a tentacle per enemy hit. Tentacles deal {{STR|75 x Enemy Level}} damage until its target is dead or is out of range for more than '''1.5s'''.",
+						["volume"] = 6,
+						["revised"] = 33,
+					},
+				},
+			},
+			["Tempest Barrage"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "TempestBarrage130xWhite.png",
+				["augments"] = {
+					["Corrosive Reprieve"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CorrosiveReprieveMod.png",
+						["description"] = "DESCRIPTION",
+						["volume"] = 32,
+						["credit"] = "MarakViri (Warframe)",
+						["set"] = "King of the Seize",
+					},
+					["Tempest Warrior"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TempestWarriorMod.png",
+						["description"] = "Hold-cast to gain {{STR|15 / 30 / 45 / 60}}% additional Corrosive Damage on your attacks for the next {{DUR|15 / 25 / 35 / 45}} seconds.",
+						["volume"] = 32,
+					},
+					["Tentacle Smash"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TentacleSmashMod.png",
+						["description"] = "You slam a tentacle in the target direction, dealing '''2x''' Tentacle damage to all enemies in a {{RNG|10m}} line. The tentacle persists for {{DUR|15s}}. ",
+						["volume"] = 10,
+						["set"] = "Saltwater Scourge",
+					},
+				},
+			},
+			["Tidal Surge"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "TidalSurge130xWhite.png",
+				["augments"] = {
+					["Overcast"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord OvercastMod.png",
+						["description"] = "Instead take the form of a cloud for {{DUR|2}}s with full flight capabilities and '''5 / 10 / 15 / 20%''' bonus movement speed. While in this form, you will coat the area beneath you with Tempest Barrage.",
+						["volume"] = 4,
+						["set"] = "Stormfront",
+					},
+					["Receding Tides"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RecedingTidesMod.png",
+						["description"] = "The first {{RNG|2 / 4 / 6 / 8}} enemies struck by Tidal Surge will be swallowed by the tide and dropped when Hydroid reverts form. Hold-cast to have Tidal Surge recede to its cast location after travelling its full distance or after swallowing the maximum number of enemies. Generate 1 Seize charge for every 4 enemies captured by the tide.",
+						["volume"] = 32,
+						["credit"] = "MarakViri (Warframe)",
+						["set"] = "King of the Seize",
+					},
+					["Upsurge"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord UpsurgeMod.png",
+						["description"] = "At the end of the surge, you erupt from the ground with a {{RNG|5 / 6 / 7 / 8m}}-radius geyser of water, suspending all enemies for {{DUR|6 / 8 / 10 / 12s}} and subjecting them to {{STR|2%}} maximum health damage/s as they drown. Enemies will attempt to escape the column after an initial stagger duration. You can hold the ability to skip the first cast, instead summoning the geyser under the crosshair.",
+						["volume"] = 27,
+						["revised"] = 30,
+						["coop"] = "Rain Cycle",
+					},
+				},
+			},
+			["Plunder"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Plunder130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Tentacle Swarm"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "TentacleSwarm130xWhite.png",
+				["augments"] = {
+					["Kraken's Ascent"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Kraken'sAscentMod.png",
+						["description"] = "Upon reactivation or when the Kraken retreats into the depths, you gain {{STR|25 / 50 / 75 / 100}} Overguard for every enemy slain that was held by a Tentacle. Generate 1 Seize charge for every {{STR|250}} Overguard generated.",
+						["volume"] = 32,
+						["credit"] = "MarakViri (Warframe)",
+						["set"] = "King of the Seize",
+					},
+					["Release the Kraken"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Releasethe KrakenMod.png",
+						["description"] = "Instead, deploy the Kraken, your Exalted Necramech that becomes a moddable part of your loadout. Costs {{EFF|250 / 225 / 175 / 100}} Energy to deploy.",
+						["volume"] = 16,
+						["credit"] = "Roble_Viejo (Warframe)",
+						},
+					["Swallow the Earth"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Swallowthe EarthMod.png",
+						["description"] = "You leap up and land on the ground with a crack, splitting the ground in a {{RNG|15m}}-radius area. After a delay, water surges from beneath and flips the world over, dealing {{STR|75 / 150 / 225 / 300}} Corrosive damage and Staggering enemies. If an enemy is hit, the world will flip again after the same delay.",
+						["volume"] = 10,
+						["set"] = "Saltwater Scourge",
+					},
+					["Tentacle Storm"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TentacleStormMod.png",
+						["description"] = "Tentacles now emerge from all vertical surfaces within line-of-sight, up to {{RNG|20 / 30 / 40 / 50m}}.",
+						["volume"] = 27,
+					},
+				},
+			},
+		},
+	},
+	["Hydroid's Dreadnaut"] = {
+		["equip_type"] = "Warframe",
+		["exalted"] = "Necramech",
+		["official"] = false,
+		["icon"] = false,
+		["abilities"] = {
+			["Tentacle Grab"] = {
+				["ability_icon"] = "TidalSurge130xWhite.png",
+				["hotkey"] = 1,
+				["augments"] = {
+				},
+			},
+			["Angler's Lure"] = {
+				["ability_icon"] = "TempestBarrage130xWhite.png",
+				["hotkey"] = 2,
+				["augments"] = {
+				},
+			},
+			["Wallop & Colossal Smash"] = {
+				["ability_icon"] = "TentacleSwarm130xWhite.png",
+				["hotkey"] = 3,
+				["augments"] = {
+				},
+			},
+			["Depth Charge"] = {
+				["ability_icon"] = "Undertow130xWhite.png",
+				["hotkey"] = 4,
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Inaros"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Inaros_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+					["Essence Theft"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord EssenceTheftMod.png",
+						["description"] = "Kills with Finishers grant '''0.2 / 0.4 / 0.6 / 1.0%''' Power Strength and kislls with Abilities grant '''0.2 / 0.4 / 0.6 / 1.0%''' Melee Damage, each stacking up to 100 times.",
+						["volume"] = 18,
+					},
+				},
+			},
+			["Desiccation"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Desiccation130xWhite.png",
+				["augments"] = {
+					["Shifting Sands"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ShiftingSandsMod.png",
+						["description"] = "Killing a blinded enemy with a Finisher has a '''25 / 33 / 50 / 100%''' chance to restore {{STR|10}} energy and spread Desiccation to enemies within {{RNG|15m}}.",
+						["volume"] = 17,
+					},
+				},
+			},
+			["Sandstorm"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Sandstorm130xWhite.png",
+				["augments"] = {
+					["Deflecting Storm"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DeflectingStormMod.png",
+						["description"] = "Hostile projectiles are negated by the storm, also increasing Sandstorm's damage by '''16.7 / 20 / 25 / 33%''' per projectile intercepted.",
+						["volume"] = 30,
+					},
+					["Malevolent Storm"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MalevolentStormMod.png",
+						["description"] = "Sandstorm now erodes Scarab Armor at a rate of '''5 / 4.5 / 4 / 3%''' per second to gain full flight capabilities.",
+						["volume"] = 31,
+					},
+					["Plaguestorm"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PlaguestormMod.png",
+						["description"] = "Elemental status effects applied to an enemy trapped within the storm has a '''25 / 33 / 50 / 100%''' chance to be applied to *all* enemies trapped within the storm. Pre-existing status effects are similarly propagated.",
+						["volume"] = 17,
+					},
+					["Quicksand"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord QuicksandMod.png",
+						["description"] = "On Hold: Bring up a ground-target indicator with a maximum range of {{RNG|30 / 45 / 60 / 75m}}. Release to begin a 1 second cast time that teleports you to the target before transforming into the sandstorm.",
+						["volume"] = 11,
+					},
+					["Sand Step"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SandStepMod.png",
+						["description"] = "Sandstorm now uses Hybrid Casting. On Tap: Become invulnerable for 0.25s, also gaining a burst of forward momentum and cleansing status effects. Deal one instance of Sandstorm's damage to nearby enemies, also restoring health. While Held: Maintain Sandstorm.",
+						["volume"] = 34,
+						["restrict"] = "{{m|Rolling Guard}}, Armored Step",
+					},
+				},
+			},
+			["Scarab Shell"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "ScarabShell130xWhite.png",
+				["augments"] = {
+					["Armored Step"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ArmoredStepMod.png",
+						["description"] = "Scarab Shell now uses Hybrid Casting. On Tap: Become invulnerable for 0.25s, also gaining a burst of forward momentum and cleansing status effects. Gain one instance of Scarab Armor. While Held: Maintain Scarab Shell. '''7 / 6 / 5 / 4'''s cooldown.",
+						["volume"] = 34,
+						["restrict"] = "{{m|Rolling Guard}}, Scarab Step",
+					},
+					["Scarab Rage"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ScarabRageMod.png",
+						["description"] = "Channeling Scarab Shell is no longer restricted while your Armor is fully stacked. While channeling, you will convert '''20 / 35 / 50 / 65%''' of damage on Health to Energy, which is also granted to all allies within Affinity Range. Ally Overguard imitates Health.",
+						["volume"] = 34,
+						["restrict"] = "{{m|Rage}}",
+					},
+				},
+			},
+			["Scarab Swarm"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "ScarabSwarm130xWhite.png",
+				["augments"] = {
+					["Burn the Corpses"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Burnthe CorpsesMod.png",
+						["description"] = "Scarab Swarms now persist the death of their host, continuing to propagate to new enemies. +'''25 / 33 / 50 / 100%''' Ability Duration on Scarab Swarm.",
+						["volume"] = 14,
+					},
+					["Desecrating Swarm"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DesecratingSwarmMod.png",
+						["description"] = "Enemies swarmed by scarabs will be desecrated before their bodies hit the ground, with an '''34 / 48 / 64 / 81%''' chance to drop additional loot.",
+						["volume"] = 18,
+						["coop"] = "Psychopomp",
+					},
+					["Ravenous Swarm"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RavenousSwarmMod.png",
+						["description"] = "Scarabs can now spread to Inaros from enemies he kills, each replenishing '''1 / 2 / 3 / 4%''' of his Scarab Armor. 1.5s assist timer on squad kills. Scarabs may utilize Inaros to reach new non-infested enemies, up to 3 in reserve. +'''10 / 20 / 30 / 40'''% Ability Range on Scarab Swarm.",
+						["volume"] = 11,
+						["revised"] = 30,
+					},
+				},
+			},
+			["Swarm Claws"] = {
+				["ability_icon"] = "IconKavat.png",
+				["exalted"] = "Claws",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Itzal"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Itzal.png",
+		["abilities"] = {
+			["Arch Line"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "ArchLine130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Penumbra"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Penumbra130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Cosmic Crush"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "CosmicCrush130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Fighter Escort"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "FighterEscort130xWhite.png",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Ivara"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Ivara_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+					["Heir of Loxley"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Heirof LoxleyMod.png",
+						["description"] = "While invisible or astride a zip-line, Ivara gains {{RNG|1 / 2 / 4 / 8m}} enemy punch trough and infinite terrain punch through.",
+						["volume"] = 32,
+					},
+					["Hunter's Eye"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Hunter'sEyeMod.png",
+						["description"] = "While Aiming, arrows and thrown weapons will lock-on to enemies within '''6 / 9 / 12 / 15{{Degree}}''' FOV of the crosshair. This is displayed on-screen. ",
+						["volume"] = 11,
+						["revised"] = 30,
+						["set"] = "Trickshot",
+					},
+				},
+			},
+			["Quiver"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Quiver130xWhite.png",
+				["augments"] = {
+					["Assault Quiver"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AssaultQuiverMod.png",
+						["description"] = "Adds a Disarm Arrow, which causes enemies within {{RNG|6m}} of impact to fumble their primary weapon; and an Override Arrow, which is guaranteed to successfully hack any console within {{RNG|3m}} of impact. Helminth Altered: Replace Cloak and Noise, respectively.<br/>Disarmed enemies with access to an alternate weapon have a '''50 / 66 / 75 / 80%''' chance to waste time trying to retrieve and reload their primary weapon, and will otherwise abandon their primary weapon.<br/>Override Arrows can also be used to perform an Interact action, but cannot hold that action. This includes calling elevators and opening doors.",
+						["volume"] = 34,
+					},
+					["Extended Quiver"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ExtendedQuiverMod.png",
+						["description"] = "Adds a Sonar Arrow that illuminates enemy Weakpoints within {{RNG|20 / 30 / 40 / 50m}}; and a Boon Arrow that debuffs all enemies within {{RNG|2.5m}}, causing allies to heal for {{STR|10 / 15 / 20 / 25}}% of damage dealt to affected enemies. Helminth Altered: Replace Cloak and Noise, respectively. ",
+						["volume"] = 11,
+						["revised"] = 33,
+					},
+					["Hunting Quiver"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord HuntingQuiverMod.png",
+						["description"] = "Adds a Trap Arrow, which deploys an invulnerable and untargetable Arc Trap on the target surface or enemy; and a Whistling Arrow, which periodically applies a '''2m''' Bullet Attractor to enemy weakpoints within {{RNG|14m}} for {{DUR|3s}}. Helminth Altered: Replace Cloak and Noise, respectively.<br/>Arc Traps deal {{STR|15 / 30 / 45 / 70 x Enemy Level}} periodic Magnetic Damage with guaranteed status to enemies within {{STR|8m}}. You may only have '''10''' Arc Traps deployed at any one time and inactive Arc Traps will last indefinitely, but for only {{DUR|3s}} once triggered by enemy proximity.<br/>Whistling Arrows persist for {{DUR|20s}} and release a pulse on impact and every '''5s''', or up to '''5''' times, whichever is the greater number of pulses. ",
+						["volume"] = 34,
+						["credit"] = "TheJUST1 (Warframe)",
+					},
+					["Power of Three"] = {
+						["official"] = true,
+						["mod_avail"] = "Universal",
+						["mod_image"] = "PowerofThreeMod.png",
+						["description"] = "Quiver fires three arrows and consumes {{EFF|50 / 40 / 30 / 20}} more energy.",
+					},
+					["Signal Quiver"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SignalQuiverMod.png",
+						["description"] = "Arrows from your Quiver will signal for assistance from your troupe.<br/>Cloak Arrow: A concealed ambusher will slit the throats of enemies that enter the cloak's field, permanently silencing them.<br/>Dashwire Arrow: Ranged ambushers are evenly spaced along your dashwires, with at least 10m between ambushers and at least 3m between an ambusher and the edge of the wire. Each ambusher will aggro onto enemies that come within {{RNG|20m}}, and deal {{STR|30 / 45 / 60 / 75 x Enemy Level}} damage/s for up to {{DUR|6 / 8 / 10 / 12s}}.<br/>Noise Arrow: If an enemy moves within {{RNG|5m}} of the arrow, a {{DUR|2.5s}}-crossfire of {{DUR|30}} arrows will be unleashed, dealing {{STR|500 / 750 / 1000 / 1500}} Slash damage with guaranteed status to enemies within {{RNG|7 / 8 / 9 / 10m}}.<br/>Sleep Arrow: On Finisher against a sleeping enemy, an ambusher will spawn that targets an additional sleeping enemy with a Finisher. The number of ambushers is affected by your Stealth Damage Modifier.",
+						["volume"] = 35,
+					},
+				},
+			},
+			["Navigator"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Navigator130xWhite.png",
+				["augments"] = {
+					["Aggregated Shot"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AggregatedShotMod.png",
+						["description"] = "Your Navigate-primed attack will now aggregate all controllable projectiles to form a group with your newly fired projectile, refreshing their life span and velocity. +'''80 / 130 / 180 / 230%''' Multishot",
+						["volume"] = 34,
+						["credit"] = "TheJUST1 (Warframe)",
+					},
+					["Arrow Storm"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ArrowStormMod.png",
+						["description"] = "Hold-cast instead causes you to enter a state of focus, instantly marking enemies within a 45{{Degree}} FOV of your crosshair and allowing you to mark additional enemies using your crosshair, up to {{STR|7 / 12 / 15 / 20}} enemies. Drain {{EFF|12}} energy per mark (halved while invisible). On recast or upon marking the maximum number of enemies, you loose a homing projectile from your Exalted Weapon that pierces all marked enemies in sequence, prioritizing their weakpoints. Tap-cast instead bypasses the initial cast, instantly marking enemies and loosing a homing projectile.",
+						["volume"] = 19,
+					},
+					["Play of the Game"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Playof the GameMod.png",
+						["description"] = "Hold-cast while Navigating or within '''0.5s''' of disengaging to teleport to a navigated projectile's location, and gain 100% Ammo Efficiency on non-Explosive Bows, -75% Gravity while Aim Gliding, and '''25 / 33 / 50 / 100%''' Fire Rate for {{DUR|5s}}.",
+						["volume"] = 26,
+					},
+					["Prowling Projectile"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ProwlingProjectileMod.png",
+						["description"] = "While Navigating, your projectile can now Pickpocket, has '''2 / 3 / 4 / 5m''' Vacuum Radius, Vacuum-Link with Ivara, and can perform a Blink on a 3s cooldown using the '''Roll''' hotkey.",
+						["volume"] = 29,
+					},
+				},
+			},
+			["Prowl"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Prowl130xWhite.png",
+				["augments"] = {
+					["Dirty Fighting"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DirtyFightingMod.png",
+						["description"] = "Successfully Pickpocketing an enemy will also expose a Weak Point to everyone in your squad. Enemies take {{STR|2 / 3 / 4 / 5x}} damage to these Weak Points.",
+						["volume"] = 24,
+					},
+					["Graverobbing"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord GraverobbingMod.png",
+						["description"] = "Pickpocket can now target non-desecrated corpses, desecrating them for additional loot. This cannot happen versus corpses that she has already pick-pocketed. +'''10 / 20 / 30 / 40%''' Ability Range on Pickpocketing.",
+						["volume"] = 31,
+					},
+					["Opportunist"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord OpportunistMod.png",
+						["description"] = "When pickpocketing Robotic Enemies, you will also hack their IFF and cause them to fight for the Tenno faction for {{DUR|5 / 10 / 15 / 20s}}. You can hack any number of enemies at a time.",
+						["volume"] = 30,
+					},
+					["Prowl Aura"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ProwlAuraMod.png",
+						["description"] = "All allies within Affinity Range gain the ability to Pickpocket, which targets unsuspecting enemies within {{RNG|5m}} and takes {{DUR|2.5s}} to complete.",
+						["volume"] = 16,
+						["aura"] = true,
+					},
+				},
+			},
+			["Artemis Bow"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "ArtemisBow130xWhite.png",
+				["augments"] = {
+					["Despoiled Arrow"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DespoiledArrowMod.png",
+						["description"] = "Artemis Bow permanently ignores '''1 / 2 / 3 / 5%''' of the target's armor for each enemy it has killed with the same codex entry this mission. The current modifier affixes enemy health bars.",
+						["volume"] = 12,
+					},
+					["Night Hunter"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord NightHunterMod.png",
+						["description"] = "Instead summon Themis' Crossbow. Landing 3 bolts in a single enemy will deal {{STR|10 / 15 / 20 / 25%}} of their maximum health as an additional instance of true damage with guaranteed Slash Status.",
+						["volume"] = 19,
+						["revised"] = 32,
+						["exilus"] = true,
+					},
+					["Pan's Flute"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Pan'sFluteMod.png",
+						["description"] = "Instead summon Pan's Flute, a blowpipe with high status, low crit and high projectile speed. Non-crits have a 50% chance to deal '''1000 / 1250 / 1500 / 2000%''' damage. While on a zip-line, Pan's Flute burst fires 4 darts.",
+						["volume"] = 19,
+						["revised"] = 32,
+						["exilus"] = true,
+					},
+					["On My Mark"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						["description"] = "Fully charged attacks will mark their target, summoning a ranged ambusher that will assail the target until dead. Up to [2 / 3 / 4 / 5] ambushers may be active at any one time.",
+						["volume"] = 35,
+						["credit"] = "TheJUST1 (Warframe)",
+					},
+					["Simple Geometry"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SimpleGeometryMod.png",
+						["description"] = "Artemis Bow gains {{RNG|1 / 2 / 3 / 4}} additional arrows. ",
+						["volume"] = 22,
+						["set"] = "Trickshot",
+					},
+				},
+			},
+			["Artemis Bow (Weapon)"] = {
+				["ability_icon"] = "ArtemisBowWeapon.png",
+				["revised_name"] = "Artemis Bow",
+				["exalted"] = "Primary",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Jade"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Jade_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+				},
+			},
+			["Light's Judgment"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Light'sJudgment130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Symphony of Mercy"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "SymphonyofMercy130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Ophanim Eyes"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "OphanimEyes130xWhite.png",
+				["augments"] = {
+					["Seraphim Eyes"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SeraphimEyesMod.png",
+						["description"] = "Your gaze will now restore {{STR|4 / 6 / 8 / 10 %}} of ally's maximum health per second. This can Overheal up to {{STR|300}} bonus Health.",
+						["volume"] = 31,
+					},
+				},
+			},
+			["Glory on High"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "GloryonHigh130xWhite.png",
+				["augments"] = {
+					["Glory's Judgment"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SeraphimEyesMod.png",
+						["description"] = "Enemies hit by Glory's primary fire will be marked with Judgement. Glory's alternate fire will now recall all marks of Judgment as projectiles, which deal Judgement's detonation damage to all enemies they pass through.",
+						["volume"] = 35,
+						["footnote"] = "Recalled feathers will pick a curved trajectory that intercepts with the most enemies, and will not travel in a straight line directly towards a potentially airborne Jade.",
+					},
+				},
+			},
+			["Glory"] = {
+				["ability_icon"] = "Glory.png",
+				["exalted"] = "Secondary",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Khora"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Khora_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+				},
+			},
+			["Venari (Companion)"] = {
+				["ability_icon"] = "Venari.png",
+				["revised_name"] = "Venari",
+				["exalted"] = "Kavat",
+				["augments"] = {
+				},
+			},
+			["Venari Claws"] = {
+				["ability_icon"] = "VenariClaws.png",
+				["exalted"] = "Claws",
+				["augments"] = {
+				},
+			},
+			["Whipclaw"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Whipclaw130xWhite.png",
+				["exalted"] = "Ability",
+				["augments"] = {
+					["Beastmistress"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BeastmistressMod.png",
+						["description"] = "Allies hit by Whipclaw will restore {{STR|100 / 150 / 200 / 300}} health, up to {{STR|300}} Overhealth, as well as 20% movement speed, 20% attack speed and 30% fire rate for 12s. ",
+						["volume"] = 25,
+						["revised"] = 34,
+					},
+					["Kavat's Claws"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Kavat'sClawsMod.png",
+						["description"] = "Unlocks the Stance Slot on Whipclaw, which overrides the configuration cost to 0. On cast, holster your melee weapon to equip Whipclaw, which drains {{EFF|19 / 16 / 13 / 10}} per attack. ",
+						["volume"] = 34,
+						["set"] = "Kavat",
+					},
+					["Rip Claw"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RipClawMod.png",
+						["description"] = "Striking an Ensnared target with Whipclaw while within '''2.5m''' of them will send them careening away for {{RNG|10 / 13 / 16 / 20m}}. Striking an Ensnared target beyond that range will grab it and place it before you. In both cases, this will also boost the range of Ensnare by 100% and refresh its duration. The bonus range will decay over the duration. ",
+						["volume"] = 21,
+						["revised"] = 34,
+					},
+					["Whip Hook"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord WhipHookMod.png",
+						["description"] = "Hold '''1''' to have Whipclaw pull you toward the enemy or surface struck before swirling your whip overhead, dealing Whipclaw's damage with '''1 / 1.25 / 1.5 / 2x''' the explosion radius and range cap. An enemy target is immobilized as you close the gap.",
+						["volume"] = 24,
+					},
+					["Whip Lash"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord WhipLashMod.png",
+						["description"] = "Hold '''1''' to swirl your whip overhead for {{DUR|2s}}, gaining a '''25 / 33 / 50 / 100%''' chance to deflect incoming projectiles and melee attacks back at their respective attacker with {{STR|1x}} modified damage.",
+						["volume"] = 24,
+					},
+				},
+			},
+			["Ensnare"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Ensnare130xWhite.png",
+				["augments"] = {
+					["Barbed Fence"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BarbedFenceMod.png",
+						["description"] = "Instead establish a wall of razorwire that reduces enemy movement speed to 0.5m/s and inflicts {{STR|100 / 150 / 200 250}} Slash Bleed/s.",
+						["volume"] = 24,
+					},
+					["Stranglehold"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord StrangleholdMod.png",
+						["description"] = "Instead wrangle the target enemy and pull yourself onto their shoulders, assuming control of their movement and weapons for the next '''7 / 15 / 20 / 25s'''. All damage taken while straddled is redirected to your mount. Your mount can jump, but cannot perform parkour maneuvers.",
+						["volume"] = 27,
+					},
+				},
+			},
+			["Venari"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Venari130xWhite.png",
+				["augments"] = {
+					["Feral Transference"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FeralTransferenceMod.png",
+						["description"] = "Instead, casting 3 causes you to assume control of Venari, during which Khora becomes a specter with {{STR|1.25 / 1.33 / 1.5 / 2x}} health that interacts with Venari's abilities. Venari's abilities are '''1''' Tail Whip, '''2''' Snare and '''4''' Revitalize. Venari's attacks integrate both '''LMB''' Fangs and '''Melee''' Claws in her combos.",
+						["volume"] = 25,
+						["exilus"] = true,
+					},
+					["Mend Posture"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MendPostureMod.png",
+						["description"] = "Venari adopts her Heal posture, gaining the effects of Revitalize at all times. Venari will move to accompany the ally with the lowest percentage health, so longer as their health is below 90% of their maximum health. Khora's '''3''' will now cycle the effect of Revitalize between (1) {{STR|50}} health/s, (2) {{STR|3}} energy/s and (3) {{STR|25%}} movement speed.",
+						["volume"] = 25,
+						["revised"] = 34,
+						["posture"] = true,
+					},
+					["Pridemother"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PridemotherMod.png",
+						["description"] = "Venari enthralls neutral beasts within an {{RNG|8m}} radius on a '''30 / 25 / 20 / 15s''' cooldown. Venari can maintain command of up to 6 beasts. Venari will emit a pulse every 15s, restoring '''20%''' health and cleansing the Status Effects of allied units within '''10m'''.",
+						["volume"] = 25,
+						["revised"] = 34,
+					},
+					["Protect Posture"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ProtectPostureMod.png",
+						["description"] = "Venari adopts her Protect Posture, gaining the ability to use Tail Whip with a '''3''' cooldown. Khora's '''3''' will now cycle Venari's behavior, between (1) staying near Khora, (2) targeting a new enemy after each attack, and (3) defending the target ally on-cast. ",
+						["volume"] = 25,
+						["revised"] = 34,
+						["posture"] = true,
+					},
+				},
+			},
+			["Strangledome"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Strangledome130xWhite.png",
+				["augments"] = {
+					["Choke Bombs"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ChokeBombsMod.png",
+						["description"] = "Instead deploy a Choke Bomb using an overhand throw with an arcing trajectory toward the aiming reticle that detonates after {{DUR|2s}}, dealing {{STR|250 / 325 / 400 / 500}} damage and forming a Strangledome",
+						["volume"] = 27,
+					},
+				},
+			},
+		},
+	},
+	["Khora's Venari"] = {
+		["equip_type"] = "Warframe",
+		["official"] = false,
+		["icon"] = "Venari.png",
+		["exalted"] = "Warframe",
+		["abilities"] = {
+			["Passive"] = {
+				["ability_icon"] = "PassiveAbility.png",
+				["hotkey"] = 0,
+				["augments"] = {
+				},
+			},
+			["Tail Whip"] = {
+				["ability_icon"] = "Whipclaw130xWhite.png",
+				["hotkey"] = 1,
+				["augments"] = {
+				},
+			},
+			["Snare"] = {
+				["ability_icon"] = "Ensnare130xWhite.png",
+				["hotkey"] = 2,
+				["augments"] = {
+				},
+			},
+			["Cancel"] = {
+				["ability_icon"] = "Venari130xWhite.png",
+				["hotkey"] = 3,
+				["augments"] = {
+				},
+			},
+			["Revitalize"] = {
+				["ability_icon"] = "Strangledome130xWhite.png",
+				["hotkey"] = 4,
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Koumei"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Koumei_Thumb.png",
+		["abilities"] = {
+			["The Five Fates"] = {
+				["ability_icon"] = "PassiveAbility.png",
+				["hotkey"] = 0,
+				["augments"] = {
+					["Dai-kyo"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Dai-kyoMod.png",
+						["description"] = "The odds of rolling Shadow's Trinity is now '''11.1 / 12.5 / 14.3 / 16.7%'''. Rolling a critical failure will instantly put you into Bleedout.",
+						["volume"] = 31,
+					},
+					["Drifter's Luck"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Drifter'sLuckMod.png",
+						["description"] = "Koumei now benefits from Opportunity Intrinsics.",
+						["volume"] = 30,
+						["drain"] = 5,
+					},
+				},
+			},
+			["Kumihimo"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Kumihimoe.png",
+				["augments"] = {
+				},
+			},
+			["Omikuji"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Omikuji.png",
+				["augments"] = {
+					["Daikichi"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DaikichiMod.png",
+						["description"] = "Rolling triple sixes with any of your abilities has a '''25 / 33 / 50 / 100%''' chance to auto-complete your current or next Omikuji challenge.",
+						["volume"] = 31,
+					},
+					["Suekichi"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SuekichiMod.png",
+						["description"] = "The cooldown of Omikuji is now reduced by '''1.0 / 1.2 / 1.4 / 1.6x''' her dice roll on-cast.",
+						["volume"] = 30,
+					},
+				},
+			},
+			["Omamori"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Omamori.png",
+				["augments"] = {
+					["En-musubi"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord En-musubiMod.png",
+						["description"] = "Enemies who trigger an Omamori charm have a '''25 / 33 / 50 / 100%''' chance to become incapable of perceiving Koumei as a threat.",
+						["volume"] = 31,
+					},
+					["Kanai-anzen"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Kanai-anzenMod.png",
+						["description"] = "On Cast: You will also draw from your Prex card collection and deploy a Specter based on the card drawn. Maintain up to 1 Omamori Specter at a time. '''4 / 3 / 2 / 1''' blank cards are added to the deck.",
+						["volume"] = 31,
+					},
+					["Shobai-hanjo"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Shobai-hanjoMod.png",
+						["description"] = "Enemies who trigger an Omamori charm have a {{STR|6 / 10 / 14 / 18%}} chance to drop additional loot. This chance can stack.",
+						["volume"] = 31,
+					},
+				},
+			},
+			["Bunraku"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Bunraku.png",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Kullervo"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Kullervo_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+				},
+			},
+			["Wrathful Advance"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "WrathfulAdvanceIcon.png",
+				["augments"] = {
+					["Be Their Monster"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BeTheir MonsterMod.png",
+						["description"] = "Tap cast instead performs a Finisher on the target enemy. On Kullervo, you will also expose nearby enemies to Finishers for '''2.5 / 5 / 7.5 / 10s'''.",
+						["volume"] = 30,
+					},
+					["Sweeping Advance"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SweepingAdvanceMod.png",
+						["description"] = "Hold cast now performs a Spin Attack at your destination with '''20 / 30 / 40 / 50%''' Additional Combo Change.",
+						["volume"] = 30,
+					},
+					["Wrathful Cascade"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord WrathfulCascadeMod.png",
+						["description"] = "Casting Wrathful Advance will now produce '''1 / 2 / 3/ 4''' Recompence Blades.",
+						["volume"] = 33,
+					},
+				},
+			},
+			["Recompense"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "RecompenseIcon.png",
+				["augments"] = {
+					["Indemnity"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord IndemnityMod.png",
+						["description"] = "Recompense Blades no longer strike enemies and will instead instantly target Kullervo, restoring energy equal to the amount of self-damage inflicted as well as enabling him for the next {{DUR|30 / 35 / 40 / 45s}} to generate {{STR|100}} Overguard over 2s whenever he kills.",
+						["volume"] = 33,
+						["credit"] = "HarrowAssEnthusiast (Reddit)",
+					},
+					["Persecute"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PersecuteMod.png",
+						["description"] = "Recompense Blades can now target the same enemy multiple times, each blade prioritizing enemies in range that have been targeted the fewest times. Subsequent blades are {{STR|20 / 25 / 33 / 50%}} effective compared to the previous blade.",
+						["volume"] = 33,
+					},
+				},
+			},
+			["Collective Curse"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "CollectiveCurseIcon.png",
+				["augments"] = {
+				},
+			},
+			["Storm of Ukko"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "StormofUkkoIcon.png",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Lavos"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Lavos_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+					["Efficacious Mixer"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord EfficaciousMixerMod.png",
+						["description"] = "Ability Efficiency instead modifies the cooldowns of Lavos' abilities, up to a '''30 / 45 / 60 / 75%''' reduction in base cooldowns. Your Transmutation Probe will now refresh the duration of Status Effects versus enemies hit and will no longer reduce your cooldowns.",
+						["volume"] = 24,
+					},
+					["Elemental Legacy"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ElementalLegacyMod.png",
+						["description"] = "Subsuming over one of your abilities no longer disables those elements within the Radial Menu. Subsumed abilities now benefit from Elemental Imbuement. '''0 / 5 / 10 / 15'''% Cooldown Reduction.",
+						["volume"] = 1,
+					},
+					["Industrial Mixer"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord IndustrialMixerMod.png",
+						["description"] = "Your mixing vial retains the last element you mixed until you attempt to mix another. The status chance for imbued elements is reduced by {{EFF|50 / 33 / 25 / 20%}} per ability cast.",
+						["volume"] = 24,
+					},
+				},
+			},
+			["Ophidian Bite"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "OphidianBite130xWhite.png",
+				["augments"] = {
+					["Twin Bite"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TwinBiteMod.png",
+						["description"] = "Tap-cast instead looses a pair of serpentine fangs at the target enemy within {{RNG|13 / 16 / 20 / 25m}}, applying Ophidian Bite's damage and healing. Damage and healing are increased by 100% per unique Status Effect on the target. 0.5 second cooldown. You may hold the ability to automatically recast.",
+						["volume"] = 24,
+					},
+					["Twin Bite (Automatic)"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TwinBite (Automatic)Mod.png",
+						["description"] = "Tap-cast instead looses a pair of serpentine fangs at the target enemy within {{RNG|13 / 16 / 20 / 25m}}, applying Ophidian Bite's damage and healing. Damage and healing are increased by 100% per unique Status Effect on the target. 0.5 second cooldown. You may hold the ability to automatically recast. You can no longer access your Element Mixer with your first ability. ",
+						["volume"] = 34,
+					},
+				},
+			},
+			["Vial Rush"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "VialRush130xWhite.png",
+				["augments"] = {
+					["Cold Wind"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ColdWindMod.png",
+						["description"] = "You are under the effects of low gravity during Vial Rush - allowing you to clear gaps instead of plummeting. Vial Rush gains '''20 / 25 / 33 / 50%''' Ability Duration.",
+						["volume"] = 14,
+						["coop"] = "Icy Trails",
+					},
+					["Elemental Imbibement"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ElementalImbibementMod.png",
+						["description"] = "Allied Warframes can move over spilled vials to gain '''15 / 30 / 45 / 60'''% bonus Elemental Damage for {{DUR|20}}s seconds.",
+						["volume"] = 32,
+					},
+					["Gold Rush"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord GoldRushMod.png",
+						["description"] = "Enemies damaged by Lavos are permanently more vulnerable to Cold status. Instead of being frozen solid, enemies at maximum stacks are turned to Gold with a Freeze duration modifier of {{DUR|1.5}}x. Golden enemies have a {{STR|25 / 33 / 50 / 100%}} chance to drop additional credits, and are guaranteed to be dismembered if slain by Physical or Blast damage.",
+						["volume"] = 31,
+					},
+					["Vial Stream"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord VialStreamMod.png",
+						["description"] = "Instead of exploding at the end of your charge, you will continue to trail vials behind you as you walk for a further 5 seconds. Vial Rush gains '''25 / 50 / 75 / 100'''% Ability Strength.",
+						["volume"] = 24,
+					},
+				},
+			},
+			["Transmutation Probe"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "TransmutationProbe130xWhite.png",
+				["augments"] = {
+					["Blood for Gold"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Bloodfor GoldMod.png",
+						["description"] = "Enemies damaged by Transmutation Probe have a '''20 / 25 / 33 / 50%''' chance to drop additional resources.",
+						["volume"] = 33,
+					},
+					["Spark of Life"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Sparkof LifeMod.png",
+						["description"] = "Your Transmutation Probe becomes a moddable part for your loadout that accepts Sentinel mods. Tap '''3''' to command the Sentinel to fly at '''15m'''/s to a target location and imbue it with your Elemental Mixer for {{DUR|3.0 / 3.5 / 4.0 / 5.0}}s. The sentinel remains deployed until you move within '''2.5m''' or you exceed Affinity Range, at which point it will return to your side.",
+						["volume"] = 10,
+						["exilus"] = true,
+					},
+				},
+			},
+			["Catalyze"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Catalyze130xWhite.png",
+				["augments"] = {
+					["Catalytic Trap"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CatalyticTrapMod.png",
+						["description"] = "Instead deploy a stealthed Catalyst Probe at the target location, where it lingers for up to {{DUR|5}} minutes. If an enemy steps on the trap, they douse enemies within {{RNG|10m}} in fiery gel dealing Catalyze's damage. Catalyze holds '''2 / 3 / 4 / 5''' charges, which fully replenishes every '''30''' seconds.",
+						["volume"] = 24,
+					},
+				},
+			},
+			["Midas"] = {
+				["ability_icon"] = "IconSentinel.png",
+				["exalted"] = "Sentinel",
+				["augments"] = {
+					["Catalytic Convertor"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CatalyticConvertorMod.png",
+						["description"] = "Health, Energy and Ammo pickups that come within {{RNG|6 / 9 / 12 / 15m}} of a deployed probe or that are picked up by Vacuum will be converted into their universal variant.",
+						["volume"] = 10,
+					},
+					["Transmutation Field"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TransmutationFieldMod.png",
+						["description"] = "Periodically release an electrical charge that zaps up to {{RNG|5}} enemies within {{RNG|15m}}, dealing {{STR|100 / 150 / 200 / 250}} Electricity damage with '''100%''' Status Chance.",
+						["volume"] = 10,
+					},
+				},
+			},
+		},
+	},
+	["Limbo"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Limbo_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+					["Riftwalker"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RiftwalkerMod.png",
+						["description"] = "Riftwalker becomes available as a moddable Warframe within your Arsenal. While in the Rift, Limbo takes the form of the Riftwalker.",
+						["volume"] = 18,
+					},
+				},
+			},
+			["Banish"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Banish130xWhite.png",
+				["augments"] = {
+					["Receive"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ReceiveMod.png",
+						["description"] = "Instead summon the wave of Rift Energy at the target location up to {{RNG|35m}} away and draw it toward you, dealing {{STR|150 / 175 / 200 / 250}} Impact damage to enemies as well as pulling units hit into Limbo's current plane of existence. '''Hold''' instead releases all units from the Rift.",
+						["volume"] = 6,
+					},
+				},
+			},
+			["Stasis"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Stasis130xWhite.png",
+				["augments"] = {
+					["Overlord"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord OverlordMod.png",
+						["description"] = "You can now hold '''2''' to cycle between four different rulesets that universally affect the Rift. Only one may be active at a time. Cataclysm no longer restores energy unless that is the active ruleset.<br/>Temporal Halt - Enemies within the Rift are frozen in time.<br/>Moonquake - All units within the Rift experience reduced gravity, and allies gain {{STR|15}}% Parkour Velocity.<br/>Invigorate - Allies within the Rift restore {{STR|5}} Energy and {{STR|30}} Health/s. This can overheal, up to {{STR|300}} bonus Health.<br/>Arbitration - Enemies within the Rift cannot cast abilities, and lose {{STR|5}}% of their maximum Overguard per second.",
+						["volume"] = 18,
+					},
+				},
+			},
+			["Breach Surge"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "BreachSurge130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Cataclysm"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Cataclysm130xWhite.png",
+				["augments"] = {
+					["Chronoclasm"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ChronoclasmMod.png",
+						["description"] = "Instead create a {{RNG|2 / 2.5 / 3 / 4m}}-radius blast centered on the target location. Allies hit will be cleansed of all status effects and find their wounds healed. Enemies hit will have their damage over time status effects removed with 100% of the remaining damage dealt in a burst, as well as permanently reducing their speed by 5% per status removed (up to 75%).",
+						["volume"] = 22,
+					},
+					["The Divide"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TheDivideMod.png",
+						["description"] = "Instead raise your hands before you like a mime and, after a brief delay, bisect the entire map. The far side's state is the opposite of Limbo's current state. Drain '''300 / 250 / 200 / 100%''' energy.",
+						["volume"] = 18,
+					},
+				},
+			},
+		},
+	},
+	["Limbo's Riftwalker"] = {
+		["equip_type"] = "Warframe",
+		["official"] = false,
+		["icon"] = false,
+		["exalted"] = "Warframe",
+		["abilities"] = {
+			["Passive"] = {
+				["ability_icon"] = "PassiveAbility.png",
+				["hotkey"] = 0,
+				["augments"] = {
+				},
+			},
+			["Discord Strike"] = {
+				["ability_icon"] = "Banish130xWhite.png",
+				["hotkey"] = 1,
+				["augments"] = {
+				},
+			},
+			["Telekinetic Pulse"] = {
+				["ability_icon"] = "Cataclysm130xWhite.png",
+				["hotkey"] = 2,
+				["augments"] = {
+				},
+			},
+			["Null Sphere"] = {
+				["ability_icon"] = "RiftSurge130xWhite.png",
+				["hotkey"] = 3,
+				["augments"] = {
+				},
+			},
+			["Riftwalk"] = {
+				["ability_icon"] = "Stasis130xWhite.png",
+				["hotkey"] = 4,
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Loki"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Loki_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+					["Backstab"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BackstabMod.png",
+						["description"] = "Gain '''20 / 25 / 33 / 50%''' Critical Strike Chance when attacking an enemy from behind. You gain twice as much if undetected.",
+						["volume"] = 12,
+					},
+				},
+			},
+			["Decoy"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Decoy130xWhite.png",
+				["augments"] = {
+					["Deceptive Bond"] = {
+						["official"] = true,
+						["mod_avail"] = "Universal",
+						["mod_image"] = "DeceptiveBondMod.png",
+						["description"] = "{{STR|20 / 30 / 45 / 50%}} of damage Loki takes is transferred to Decoy, and vice versa.",
+					},
+					["Hallucinate"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord HallucinateMod.png",
+						["description"] = "Your decoys now seek out enemies in melee combat. Upon entering melee combat or if dealt lethal damage—which ever happens first—the decoy will explode, dealing {{STR|1000 / 1150 / 1300 / 1500}} Blast damage and terrifying enemies within {{RNG|5m}} for {{DUR|3s}}.",
+						["volume"] = 20,
+					},
+					["Healing Decoy"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord HealingDecoyMod.png",
+						["description"] = "Your decoy's attacks will now restore {{STR|20 / 25 / 33 / 50}} health to allies hit. This can overheal, up to {{STR|300}} bonus Health.",
+						["volume"] = 31,
+					},
+				},
+			},
+			["Invisibility"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Invisibility130xWhite.png",
+				["augments"] = {
+					["Innocuous Invisibility"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord InnocuousInvisibilityMod.png",
+						["description"] = "The duration of Invisibility is paused while Loki is Wall-Latched. '''25 / 33 / 50 / 100%''' Wall-Latch Duration.",
+						["volume"] = 26,
+					},
+				},
+			},
+			["Switch Teleport"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "SwitchTeleport130xWhite.png",
+				["augments"] = {
+					["Subterfuge"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SubterfugeMod.png",
+						["description"] = "You and an enemy target will swap appearances for 12s. Parkour manoeuvres will drop the disguise. Enemies disguised as Loki will generate aggro, while you become innocuous to your disguise's faction, including all forms of detection.",
+						["volume"] = 11,
+					},
+					["Switch Transference"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SwitchTransferenceMod.png",
+						["description"] = "You can now target Decoys with Transference to assume control of Loki at your Decoy's current location. The Decoy will trade positions with Loki.",
+						["volume"] = 31,
+						["exilus"] = true,
+					},
+				},
+			},
+			["Radial Disarm"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "RadialDisarm130xWhite.png",
+				["augments"] = {
+					["Finders Keepers"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FindersKeepersMod.png",
+						["description"] = "Weapons you disarm from your enemies are turned into Universal Ammo pickups. +'''0 / 5 / 10 / 15m''' Vacuum Range",
+						["volume"] = 26,
+					},
+					["Mirror Image"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MirrorImageMod.png",
+						["description"] = "Instead transform into a functional copy of the target allied Warframe for {{DUR|10 / 15 / 20 / 25s}}, gaining their appearance and abilities but continuing to use your Mod configuration and Arsenal. The disguise lacks the use of their 4th ability and casting '''4''' will dispel the illusion.",
+						["volume"] = 20,
+					},
+					["Radial Pacify"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RadialPacifyMod.png",
+						["description"] = "Enemies can now be disarmed of their entire arsenal, which is achieved by sequential casts. Additionally, the wave now reprograms robotic defenses and alarm systems to benefit allies for {{DUR|10 / 15 / 20 / 25s}}.",
+						["volume"] = 20,
+					},
+				},
+			},
+		},
+	},
+	["Mag"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Mag_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+					["Mag Levitation"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MagLevitationMod.png",
+						["description"] = "During the cast time of your abilities, Mag now defies has 100% reduced gravity and can control her altitude with '''Crouch''' and '''Jump'''. +'''1 / 1.5 / 2 / 3''' Energy/s while Airborne",
+						["volume"] = 16,
+					},
+				},
+			},
+			["Pull"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Pull130xWhite.png",
+				["augments"] = {
+					["Gravitational Pull"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord GravitationalPullMod.png",
+						["description"] = "Targeting a magnetic field with Pull will temporarily extend the field's gravitational range, pulling all enemies within {{RNG|10 / 15 / 20 / 25m}} to the field's center.",
+						["volume"] = 22,
+					},
+					["Sapping Reach"] = {
+						["official"] = true,
+						["mod_avail"] = "Conclave",
+						["mod_image"] = "SappingReachMod.png",
+						["description"] = "Steals up to '''6.25 / 12.5 / 18.75 / 25''' energy from the target.",
+					},
+				},
+			},
+			["Magnetize"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Magnetize130xWhite.png",
+				["augments"] = {
+					["Locus of Power"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Locusof PowerMod.png",
+						["description"] = "You can now establish the magnetic field at the target location. Magnetic fields not bound to an enemy have '''1.0 / 1.25 / 1.5 / 2.0x''' base radius of effect but will not detonate on expiration.",
+						["volume"] = 22,
+					},
+					["Magnetizing Resonance"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MagnetizingResonanceMod.png",
+						["description"] = "DESCRIPTION",
+						["volume"] = 34,
+						["coop"] = "Harmonics",
+					},
+				},
+			},
+			["Polarize"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Polarize130xWhite.png",
+				["augments"] = {
+					["Magnetic Poles"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MagneticPolesMod.png",
+						["description"] = "Hold '''3''' to emit a pulse that instead applies Magnetize on all affected enemies. -50% Ability Range on Magnetic Fields created by this effect. Costs '''500 / 425 / 375 / 300%''' Energy.",
+						["volume"] = 4,
+					},
+					["Polarizing Harmony"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PolarizingHarmonyMod.png",
+						["description"] = "Enemies hit by Polarize each emit a lesser pulse that stacks the Armor and Shield reduction on enemies. The lesser pulse has '''20 / 25 / 33 / 50%''' initial range and travel time.",
+						["volume"] = 23,
+					},
+					["Shields Overload"] = {
+						["official"] = true,
+						["mod_avail"] = "Conclave",
+						["mod_image"] = "ShieldsOverloadMod.png",
+						["description"] = "Increase the time for the target's Shields to begin regenerating by '''2.25 / 4.5 / 6.75 / 9s'''.",
+					},
+				},
+			},
+			["Crush"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Crush130xWhite.png",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Mesa"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Mesa_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+					["Lone Ranger"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord LoneRangerMod.png",
+						["description"] = "Gain '''6 / 9 / 12 / 15%''' Aura Strength and '''6 / 9 / 12 / 15%''' Aura Effectiveness. This bonus is tripled while no allies are within Affinity Range.",
+						["volume"] = 27,
+					},
+				},
+			},
+			["Ballistic Battery"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "BallisticBattery130xWhite.png",
+				["augments"] = {
+					["Aggravated Battery"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AggravatedBatteryMod.png",
+						["description"] = "Instead deploy bear trap that arms after 0.25s. Enemies who move within 2.5m will trigger the trap, highlighting the Weak Points of all enemies within {{RNG|5m}}-radius for '''20 / 25 / 30 / 35s''' and immobilizing them for 10s. You can maintain up to '''2 / 3 / 4 / 5'''. Whenever an enemy triggers one of your traps, gain 10m punch through against bodies and infinite punch through against terrain for 25s.",
+						["volume"] = 27,
+					},
+					["Anti-Personel Battery"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Anti-PersonelBatteryMod.png",
+						["description"] = "Instead, deploy a sentry that projects a {{RNG|30 / 35 / 40 / 50m}} laser wire and idles. When an enemy crosses its sight, it delivers a fatal payload to their weakest spot that is adapted to their weaknesses and scales with Finisher Damage.",
+						["volume"] = 27,
+					},
+					["Ballistic Bloat"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BallisticBloatMod.png",
+						["description"] = "Instead of a single aimed shot, you instead hurl a grenade that explodes on impact, dealing the stored damage to all enemies within 5m and applying Status Effects at a rate of 1 per 140 Battery Charge expended, up to 10 Stacks.",
+						["volume"] = 29,
+					},
+					["Fan the Hammer"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Fanthe HammerMod.png",
+						["description"] = "Instead of a single aimed shot, you fan a full magazine from your Regulators - spraying up to twelve {{STR|90 / 195 / 300 / 420}}-damage rounds that slash through all enemies in a '''4.625{{Degree}}''' per round, {{RNG|25m}} cone. The number of rounds is based on Battery Charge. Enemies hit by at least '''3''' rounds are staggered.",
+						["volume"] = 6,
+					},
+					["Hammer of Dawn"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Hammerof DawnMod.png",
+						["description"] = "Designate a target location within vision. After a cast time, drop a payload on the target location that deals {{STR|2000 / 3000 / 4000 / 5000}} mixed Blast and Radiation damage to enemies within a {{RNG|10m}}-radius. Hammer of Dawn can only be activated at full charge.",
+						["volume"] = 27,
+					},
+				},
+			},
+			["Shooting Gallery"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "ShootingGallery130xWhite.png",
+				["augments"] = {
+					["Ballistic Gallery"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BallisticGalleryMod.png",
+						["description"] = "Your non-explosive weapon projectiles gain infinite enemy punch through and infinite ricochet, instead lasting for {{DUR|0.5 / 1 / 1.5 / 2}}s. Ricocheting bullets have 100% accuracy.",
+						["volume"] = 31,
+					},
+					["Shooting Match"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ShootingMatchMod.png",
+						["description"] = "While Shooting Gallery is active, the bonus damage will be increased by {{STR|0.25 / 0.33 / 0.5 / 1%}} per kill. The ally who accumulates the most kills will retain their bonus for a further {{DUR|15s}}, during which the bonus will not increase further.",
+						["volume"] = 26,
+					},
+					["Shooting Range"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ShootingRangeMod.png",
+						["description"] = "The visual effect for Shooting Gallery is now {{RNG|90{{Degree}}}} energy panel that orbits around you. Shooting Gallery's bonus damage is increased to {{STR|30 / 35 / 40 / 50%}}, but the bonus is only applied when shooting in the direction of the panel.",
+						["volume"] = 27,
+					},
+				},
+			},
+			["The Equializer"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "ShatterShield130xWhite.png",
+				["augments"] = {
+					["Chokehold"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ChokeholdMod.png",
+						["description"] = "On Cast: Instead wrangle the target enemy and pull yourself onto their shoulders, assuming control of their movement and weapons for the next {{DUR|7 / 15 / 20 / 25s}}. All damage taken while straddled is redirected to your mount. Your mount can jump and dodge, but cannot perform other parkour manoeuvres.",
+						["volume"] = 27,
+					},
+					["Combat Roll"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CombatRollMod.png",
+						["description"] = "Roll to unload all nearby enemy weapons, forcing them to reload after a few seconds of confusion. You will restore confiscated ammunition as Universal Ammunition. 10s cooldown. → On Dodge: Become invulnerable for 3s while flourishing your Equilizer, disarming enemies within {{RNG|3m}}. Disarming an enemy has a {{STR|20 / 25 / 33 / 50%}} chance to create a Universal Ammo pack. '''12 / 10 / 8.5 / 7}} second cooldown.",
+						["volume"] = 27,
+					},
+					["Crack the Whip"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Crackthe WhipMod.png",
+						["description"] = "Your Exalted Whip becomes a moddable part of your Arsenal with {{STR|150 / 200 / 250 / 300}} Electric damage and {{RNG|11m}} base range. Each lash will collect pickups; blocking has 360{{Degree}} coverage; and your attacks have a chance to disarm enemies based on your Melee Critical Chance. Press '''3''' to instead holster your melee weapon and equip your Energy Whip, draining {{EFF|5}} energy/s.",
+						["volume"] = 27,
+						["exilus"] = true,
+					},
+					["Hindsight First"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord HindsightFirstMod.png",
+						["description"] = "The direction of Equalizer's protection now originates behind you. +'''45 / 60 / 75 / 90%''' Ability Range on Equilizer.",
+						["volume"] = 27,
+					},
+					["Long Arm of the Law"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord LongArm of the LawMod.png",
+						["description"] = "Deflected projectiles now benefit from your Regulators' damage modifier and damage mods, and will be deflected back at their source if that target is within range - irrelevant of angle. '''1.25 / 1.66 / 2.0 / 3.0'''x Deflection Search Radius",
+						["volume"] = 34,
+					},
+					["Tombraider"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TombraiderMod.png",
+						["description"] = "Your energy lasso can now intercept anti-air measures, mines and latcher drones. Up to three times every 1.5s, your lasso can also break or jam a nearby camera; destroy a breakable storage container or resource deposit; and open an unlocked locker. These are distinct charges to those used to immobilize enemies. +'''2 / 4 / 6 / 8m''' Vacuum Range",
+						["volume"] = 34,
+					},
+					["Upperhand"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord UpperhandMod.png",
+						["description"] = "Recast to give a motivating lash to allies within range, cleansing them of Status Effects and Disables as well as granting them {{STR|5 / 10 / 15 / 20%}} movement speed for {{DUR|3s}}.",
+						["volume"] = 27,
+					},
+				},
+			},
+			["Peacemaker"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Peacemaker130xWhite.png",
+				["augments"] = {
+					["Dusted Rounds"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DustedRoundsMod.png",
+						["description"] = "If Long Arm of the Law is active, your Regulators will also target and destroy hostile projectiles. Intercepted shots are redirected to the nearest enemy and deal {{STR|1.20 / 1.25 / 1.33 / 1.5x}} damage. Shots fired defensively will not diminish your field of view.",
+						["volume"] = 26,
+					},
+					["Infrared Aura"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord InfraredAuraMod.png",
+						["description"] = "Allies within Affinity Range gain Radar-Link. While Aiming or using your Regulators, Mesa gains infinite terrain punch through and can see enemies revealed by Enemy Radar through walls. Regulators can only target enemies she can see. ",
+						["volume"] = 15,
+						["aura"] = true,
+					},
+					["Mesa's Waltz"] = {
+						["official"] = true,
+						["mod_avail"] = "Universal",
+						["mod_image"] = "Mesa'sWaltzMod.png",
+						["description"] = "Mesa can move at '''35 / 40 / 45 / 50%''' speed and perform evasive  while using Peacemaker.",
+					},
+				},
+			},
+			["Regulators"] = {
+				["ability_icon"] = "Regulators.png",
+				["exalted"] = "Secondary",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Mirage"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Mirage_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+				},
+			},
+			["Hall of Mirrors"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "HallofMirrors130xWhite.png",
+				["augments"] = {
+					["Bad Omens"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BadOmensMod.png",
+						["description"] = "Tap '''1''' to cycle between four distinct spectres. Hold '''1''' to conjure a spectre, up to 1 at a time. Ranks unlock the Spectres in the sequence: Warrior (Excalibur), Archer (Ivara), Reaper (Nekros) and Judge (Equinox).",
+						["volume"] = 16,
+					},
+					["Hall of Echoes"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Hallof EchoesMod.png",
+						["description"] = "The ability can no longer be cast. Instead, every third melee attack will summon a doppelganger attacking your target that deals '''5 / 10 / 15 / 20%''' of your melee damage. Doppelgangers despawn when they're not attacked for {{DUR|2s}}.",
+						["volume"] = 3,
+					},
+				},
+			},
+			["Sleight of Hand"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "SleightofHand130xWhite.png",
+				["augments"] = {
+					["Mind Blowing"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MindBlowingMod.png",
+						["description"] = "You now also booby trap enemies, revealing their Weak Points and making them easier to hit. Weak Point Kills versus booby trapped enemies will release a volley of {{DUR|5 / 9 / 14 / 20}} fireworks that evenly distributed among enemies within your field-of-view up to {{RNG|6 / 8 / 10 / 12m}}, each dealing {{STR|50 / 125 / 180 / 200}}.",
+						["volume"] = 30,
+					},
+					["Secret Compartments"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SecretCompartmentsMod.png",
+						["description"] = "Enchanted containers gain '''135 / 180 / 225 / 270%''' Resource Drop Chance.",
+						["volume"] = 30,
+					},
+					["Sticky Fingers"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord StickyFingersMod.png",
+						["description"] = "On Hold Cast: Allies within Affinity Range gain the ability to Pickpocket for {{DUR|9 / 12 / 15 / 18s}}.",
+						["volume"] = 30,
+					},
+					["Vanishing Cabinet"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord VanishingCabinetMod.png",
+						["description"] = "Allies can now interact with enchanted lockers to become invisible for {{DUR|2 / 4 / 6 / 8s}}.",
+						["volume"] = 22,
+					},
+				},
+			},
+			["Eclipse"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Eclipse130xWhite.png",
+				["augments"] = {
+					["Apoc-eclipse"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Apoc-eclipseMod.png",
+						["description"] = "You gain a third option that grants {{STR|20 / 25 / 33 / 50%}} Heat Status on all sources of damage.",
+						["volume"] = 34,
+					},
+					["Celestial Dias"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CelestialDiasMod.png",
+						["description"] = "Lunar Eclipse and Solar Eclipse will stack. Lunar Eclipse will cost '''100 / 80 / 60 / 40%''' more energy if Solar Eclipse is already active, and vice verse.",
+						["volume"] = 12,
+						["revised"] = 30,
+					},
+					["Celestial Navigation"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CelestialNavigationMod.png",
+						["description"] = "While Solar Eclipse is active, Fishing sources within Affinity Range will behave as if Night, Cold or Fass. While Lunar Eclipse is active, instead Day, Heat or Vome. +15m Fish Highlight Range.",
+						["volume"] = 33,
+					},
+				},
+			},
+			["Prism"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Prism130xWhite.png",
+				["augments"] = {
+					["False Light"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FalseLightMod.png",
+						["description"] = "Instead of a dealing damage, the prism instead bathes all those within line of sight with intense sunlight that reduces enemy detection radius to {{RNG|14 / 11 / 8 / 5m}}.",
+						["volume"] = 26,
+					},
+					["Prism Guard"] = {
+						["official"] = true,
+						["mod_avail"] = "Universal",
+						["mod_image"] = "PrismGuardMod.png",
+						["description"] = "Prism follows above Mirage. In Conclave, the duration is diminished to {{DUR|1 / 2 / 3 / 4s}}.",
+						["revised"] = 35,
+						["footnote"] = "The duration is only diminished in Conclave.",
+					},
+				},
+			},
+		},
+	},
+	["Nekros"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Nekros_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+				},
+			},
+			["Soul Punch"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "SoulPunch130xWhite.png",
+				["augments"] = {
+					["Decrepit Soul"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DecrepitSoulMod.png",
+						["description"] = "Target's soul now leaves a trail for {{DUR|10s}} that deals {{STR|50 / 100 / 150 / 200}} Toxic damage/s to enemies caught with guaranteed status.",
+						["volume"] = 3,
+					},
+					["Devour Soul"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DevourSoulMod.png",
+						["description"] = "Target a Shadow to rip it into {{RNG|3 / 4 / 5 / 6}} fragments that seek out targets within Affinity Range, fully healing allies or dealing {{STR|100 / 200 / 350 / 500}} Toxic damage to enemies with guaranteed Status Chance.",
+						["volume"] = 18,
+						["coop"] = "Psychopomp",
+					},
+					["Discharge Strike"] = {
+						["official"] = true,
+						["mod_avail"] = "Conclave",
+						["mod_image"] = "DischargeStrike.png",
+						["description"] = "Depletes up to '''6 / 13 / 19 / 25''' Energy from the target.",
+					},
+					["Poor Souls"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PoorSoulsMod.png",
+						["description"] = "Displaced souls will now ricochet between targets and off of surfaces, striking up to {{RNG|7 / 8 / 9 / 10}} enemies before dissipating and being capable of striking the same enemy up to 4 times. ",
+						["volume"] = 34,
+					},
+					["Soul Calibration"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SoulCalibrationMod.png",
+						["description"] = "On Hold: Nekros performs a cutting gesture, displacing the souls of all enemies within his field of view up to {{RNG|14 / 16 / 18 / 20m}}. This cannot trigger Soul Punch's instakill, but enemies made Hollow by Soul Calibration will have their enemy level halved - instantly reducing their stats.",
+						["volume"] = 34,
+					},
+					["Soul Dash"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SoulDashMod.png",
+						["description"] = "Nekros will now charge forward to make physical contact with the target enemy, and gains the ability to ignore unit collision for the next {{DUR|2 / 3 / 4 / 5s}}.",
+						["volume"] = 34,
+						["exilus"] = true,
+					},
+					["Soul Grab"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SoulGrabMod.png",
+						["description"] = "On Hold: Instead, wrench the target's soul from their body and immobilize it in chains in front of you. The soul has no resistances and {{STR|15 / 30 / 45 / 75%}} of damage dealt to the soul is redirected to the target as true damage. ",
+						["volume"] = 17,
+					},
+				},
+			},
+			["Terrify"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Terrify130xWhite.png",
+				["augments"] = {
+					["Fear Begets Fear"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FearBegets FearMod.png",
+						["description"] = "Instead unleash {{STR|5 / 6 / 8 / 10}} cackling spirits that home-in on enemies within {{RNG|20m}} and apply the effects of Terrify. Killing a possessed enemy will spawn '''2''' spirits. Spirits will idle while waiting for vacant enemies and evaporate {{DUR|25s}} after the initial cast.",
+						["volume"] = 21,
+					},
+					["Terrifying Aura"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TerrifyingAuraMod.png",
+						["description"] = "Allies within Affinity Range will strike fear into enemies within {{RNG|6 / 8 / 11 / 15m}} for {{DUR|10s}} whenever they cast an ability. Nekros' Terrify will now render an additional {{STR|7 / 12 / 15 / 20}} enemies vulnerable.",
+						["volume"] = 21,
+						["aura"] = true,
+					},
+				},
+			},
+			["Desecrate"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Desecrate130xWhite.png",
+				["augments"] = {
+					["Decompose"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DecomposeMod.png",
+						["description"] = "Desecrating corpses creates an {{RNG|8m}}-radius cloud of toxin that each deal {{STR|10}} Toxic damage/s for {{DUR|8 / 12 / 16 / 20s}}. Damage areas overlap.",
+						["volume"] = 12,
+					},
+					["Defile"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DefileMod.png",
+						["description"] = "Successfully desecrated corpses are raised as Abominations, slow moving units that are configurable with → with a configurable Claw Weapon to your arsenal that has {{STR|100 / 150 / 200 / 250}} base Toxin damage. These share a limit with Shadows of the Dead.",
+						["volume"] = 18,
+					},
+					["Defoliate"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DefoliateMod.png",
+						["description"] = "Desecrate will now wither plant life within its radius, causing them to break and drop '''1.25 / 1.33 / 1.5 / 2x''' the collectibles.",
+						["volume"] = 26,
+						["exilus"] = true,
+					},
+					["Desecrating Aura"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DesecratingAuraMod.png",
+						["description"] = "Allies within Affinity Range gain +'''5 / 10 / 15 / 30%''' Gore Chance on-kill. Desecrate will now originate from each ally within Affinity Range. Desecrate's drain cost is reduced by '''5 / 10 / 15 / 25%''' per ally within Affinity Range, up to '''15 / 30 / 45 / 75%'''.",
+						["volume"] = 16,
+						["aura"] = true,
+					},
+					["Fight, Flight or Freeze"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Fight,Flight or FreezeMod.png",
+						["description"] = "On Hold: Cycle between Fight, Flight or Freeze. Fight causes enemies affected by Terrify to attack Nekros; Freeze causes affected enemies to be immobilized; while Flight causes enemies to turn and run.",
+						["volume"] = 29,
+					},
+				},
+			},
+			["Shadows of the Dead"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "ShadowsOfTheDead130xWhite.png",
+				["augments"] = {
+					["Controlled Shadows"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ControlledShadowsMod.png",
+						["description"] = "Your Shadows are now docile and will flock behind you. They will only move when you move, aim where you aim and attack when you attack. +'''6 / 9 / 12 / 15%''' Ability Strength",
+						["volume"] = 34,
+						["exilus"] = true,
+					},
+					["Final Remains"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FinalRemainsMod.png",
+						["description"] = "When replaced by a Helminth ability, you spawn with a specter of the ability's natural Warframe. This spectre is the equivalent of a rank-'''1 / 2 / 3 / 4''' specter. Revives after 90s, reduced by 1s per enemy Desecrated. The ability to revive can be primed in advance of the spectre's death.",
+						["volume"] = 16,
+					},
+					["Unruly Dead"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord UnrulyDeadMod.png",
+						["description"] = "The health of your summons now only decays when out of combat for {{DUR|4 / 6 / 8 / 10s}}.",
+						["volume"] = 18,
+					},
+				},
+			},
+		},
+	},
+	["Nezha"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Nezha_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+				},
+			},
+			["Fire Walker"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "FireWalker130xWhite.png",
+				["augments"] = {
+					["Fire Derby"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FireDerbyMod.png",
+						["description"] = "While active, your walk speed is increased to 10m/s and sprint speed is increased '''13 / 14 / 15 / 16m'''/s. You also gain the ability to perform K-Drive manoeuvers instead of Parkour.",
+						["volume"] = 27,
+					},
+					["Retrograde"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RetrogradeMod.png",
+						["description"] = "Base duration reduced to {{DUR|6 / 9 / 12 / 15s}}. On hold: retrace your steps until the key is released, as well as counting-up the remaining duration. You can still perform handed actions while backtracking.",
+						["volume"] = 27,
+					},
+				},
+			},
+			["Blazing Chakram"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "BlazingChakram130xWhite.png",
+				["augments"] = {
+					["Blazing Portals"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BlazingPortalsMod.png",
+						["description"] = "On Tap: Hurl a Chakram with your Primary Energy Color to a location within {{RNG|30m}}. On Hold: Hurl a Chakram with your Secondary Energy Color to a location within {{RNG|30m}}. While both portals are within {{RNG|50m}}, they are connected and will teleport weapon fire. You can only maintain one portal of each color at a time.",
+						["volume"] = 21,
+						["coop"] = "Entangled",
+					},
+					["Chak-arang"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Chak-arangMod.png",
+						["description"] = "Your Chakram no longer ricochets and instead lingers where it is thrown for {{DUR|3 / 6/ 10 / 15s}}, which continuously releases waves that deal '''100 / 150 / 200 / 250''' Heat Damage/s to enemies within {{RNG|4m}}. Recasting while your Chakram is out will throw the Chakram from its current location with infinite punch through. Recasts will not refresh the duration. Hold to recall your Chakram.",
+						["volume"] = 17,
+					},
+					["Exalted Chakram"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ExaltedChakramMod.png",
+						["description"] = "Your Chakram becomes a moddable Glaive weapon with innate Heat damage and an Alt-Fire that causes you to teleport to your glaive and apply the effects of Blazing Chakram to enemies within {{RNG|4 / 5 / 7/ 10m}}. Cast '''2''' to equip your Exalted Chakram, draining {{EFF|25}} plus {{EFF|2.5}}/s.",
+						["volume"] = 1,
+					},
+					["Warding Chakram"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord WardingChakramMod.png",
+						["description"] = "Blazing Chakram can now bounce to allies, rendering them invulnerable for {{DUR|3s}}. +'''0 / 1 / 2 / 3''' Bounces",
+						["volume"] = 23,
+						["set"] = "Heavenly Ring",
+					},
+				},
+			},
+			["Warding Halo"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "WardingHalo130xWhite.png",
+				["augments"] = {
+					["Blazing Halo"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BlazingHaloMod.png",
+						["description"] = "You may recast Waring Halo to drain '''2.5 / 5 / 7.5 / 10%''' of your current Warding value and release a shockwave that applies the damage and effects of Blazing Chakram to all enemies within '''10m''', with the damage increased by the consumed Warding value. You can hold-cast to charge up the base damage, as with Blazing Chakram.",
+						["volume"] = 23,
+						["set"] = "Heavenly Ring",
+					},
+					["Ward Recovery"] = {
+						["official"] = true,
+						["mod_avail"] = "Universal",
+						["mod_image"] = "WardingHaloMod.png",
+						["description"] = "'''35 / 40 / 45 / 50%''' of the casting cost returned based on how much protection is left.",
+						["footnote"] = "In Conclave, Warding Helo can be recast while active to prematurely detonate the barrier. This augment would have no effect in Cooperative as the effect only expires when depleted."
+					},
+				},
+			},
+			["Divine Spears"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "DivineSpears130xWhite.png",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Nidus"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Nidus_Thumb.png",
+		["abilities"] = {
+			["Mutation"] = {
+				["ability_icon"] = "PassiveAbility.png",
+				["hotkey"] = 0,
+				["augments"] = {
+					["Epimorphic Regeneration"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord EpimorphicRegenerationMod.png",
+						["description"] = "{{STR|20 / 25 / 33 / 50%}} of incoming damage is instead applied as a Slash Status. Performing a Finisher will remove Slash Status effects on yourself.",
+						["volume"] = 30,
+					},
+					["Extra Appendages"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ExtraAppendagesMod.png",
+						["description"] = "Nidus can now attack with one-handed weapons during one-handed casting animations. '''5 / 10 / 15 / 30%''' Melee Combo Efficiency.",
+						["volume"] = 9,
+						["exilus"] = true,
+					},
+					["Probiotic Preparation"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ProbioticPreparationMod.png",
+						["description"] = "Nidus begins missions with '''25 / 33 / 50 / 100''' stacks of Infestation.",
+						["volume"] = 30,
+						["exilus"] = true,
+						["restrict"] = "{{m|Preparation}}",
+					},
+					["Vestigial Growths"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord VestigialGrowthsMod.png",
+						["description"] = "Damage in excess of 10% of your current health is reduced by '''20 / 25 / 33 / 50%'''.",
+						["volume"] = 30,
+					},
+				},
+			},
+			["Virulence"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Virulence130xWhite.png",
+				["augments"] = {
+					["Endless Virulence"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord EndlessVirulenceMod.png",
+						["description"] = "Instead target an enemy within {{RNG|10 / 11 / 13 / 16m}} and push them away until they collide with an obstacle or exit the bounds, trailing Virulence.",
+						["volume"] = 27,
+					},
+					["Sweeping Virulence"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SweepingVirulenceMod.png",
+						["description"] = "You now perform '''1 / 1 / 2 / 3''' swipes over '''0.2 / 0.2 / 0.85 / 1.75s''', applying virulence over an 80{{Degree}} conic area in front of him. Enemies hit are thrown in the direction of the swipe. Nidus can move while casting.",
+						["volume"] = 17,
+					},
+					["Virulent Payload"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord VirulentPayloadMod.png",
+						["description"] = "Instead roll a physics object that explodes on collision or after {{RNG|1.5 / 2 / 2.5 / 3s}}, applying the effects of Virulence over an 8m-radius area. Hold to continuously recast.",
+						["volume"] = 27,
+					},
+				},
+			},
+			["Larva"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Larva130xWhite.png",
+				["augments"] = {
+					["Intesinal Larva"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord IntesinalLarvaMod.png",
+						["description"] = "'''Hold''' to instead cause the tendrils to erupt from your chest until you release, continually grabbing enemies every second. Intestinal Larva has a one-handed animation. {{STR|20 / 25 / 33 / 50%}} bonus Mutation Stack Chance.",
+						["volume"] = 9,
+					},
+					["Pilfering Larva"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PilferingLarvaMod.png",
+						["description"] = "Enemies caught in larva have a '''5 / 10 / 15 / 25%''' chance to drop additional loot. Nidus gains an additional 0.5% chance per Mutation Stack.",
+						["volume"] = 10,
+					},
+				},
+			},
+			["Parasitic Link"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Link130xWhite.png",
+				["augments"] = {
+					["Benevolent Link"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BenevolentLinkMod.png",
+						["description"] = "While connected to an ally, you will each heal the other for {{STR|2 / 3 / 4 / 5%}} of damage dealt.",
+						["volume"] = 27,
+					},
+					["Caustic Link"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CausticLinkMod.png",
+						["description"] = "The first time an enemy is bisected by the link, they will receive a Slash Status effect equal to '''20 / 25 / 33 / 50'''% → {{STR|16.7 / 20 / 25 / 33}}% of their maximum health.",
+						["volume"] = 27,
+					},
+					["Diminishing Link"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DiminishingLinkMod.png",
+						["description"] = "The link will now propagate to '''1 / 2 / 3 / 4''' additional targets with each link being 50% less effective than the last.",
+						["volume"] = 27,
+					},
+				},
+			},
+			["Ravenous"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Ravenous130xWhite.png",
+				["augments"] = {
+					["Neural Override"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord NeuralOverrideMod.png",
+						["description"] = "Enemies hosting a Maggot are now subservient to Nidus, becoming docile and flocking to him. They will only move when he moves, attack when he attacks, and shoot when he shoots – with ranged enemies also aiming for the same target. Controlled enemies receive a Final Damage Modifier of 1 + '''0.2 / 0.25 / 0.5 / 1.0 x Mutation Stacks'''.",
+						["volume"] = 33,
+					},
+					["Nidus Strain"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord NidusStrainMod.png",
+						["description"] = "Strain mods will now affect Ravenous Maggots. Maggots gain 7.5% evasion per Cyst.",
+						["volume"] = 33,
+					},
+					["Ravenous Recall"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RavenousRecallMod.png",
+						["description"] = "While active, '''Hold''' to burrow into the ground and emerge at your Ravenous Field. There is a maximum range of {{RNG|35 / 40 / 45 / 50m}}.",
+						["volume"] = 27,
+					},
+					["Techrot Savings Time"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TechrotSavings TimeMod.png",
+						["description"] = "Maggots spawned by Ravenous are replaced with Miasmites, which deal Heat damage/s instead of Toxin damage. Miasmites will automatically detonate after 4s, and their explosions deal bonus damage equal to {{STR|10 / 15 / 20 / 25%}} of damage received by their host prior to exploding.",
+						["volume"] = 33,
+					},
+				},
+			},
+		},
+	},
+	["Nokko"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Nokko_Thumb.png",
+		["abilities"] = {
+			["Vital Decay"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["Augments"] = {
+					["Madcap"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MadcapMod.png",
+						["description"] = "Bouncing on a mushroom now grants '''5 / 10 / 15 / 20%''' movespeed and +'''5 / 10 / 15 / 20%''' Parkour Velocity for '''20s'''.",
+						["volume"] = 34,
+						["revised"] = 35,
+						["exilus"] = true,
+						["footnote"] = "The proposed effect (to bounce on mushrooms) was suggested before Nokko's release, but this turned out to be part of Nokko's base kit. This new effect now grants a boon when you bounce on a mushroom.",
+					},
+				},
+			},
+			["Stinkbrain"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Stinkbrain.png",
+				["augments"] = {
+					["Stink Bomb"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord StinkBombMod.png",
+						["description"] = "Stinkbran Mushrooms now explode on impact, applying '''2.75 / 3.5 / 4.25 / 5.0x''' damage and status effects within a {{RNG|10m}} explosion radius, instead of forming an emplacement.",
+						["volume"] = 34,
+					},
+					["Stink Zone"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord StinkZoneMod.png",
+						["description"] = "You will now deploy 3 Stinkbrain Mushrooms per cast in a triangle formation. Costs '''300 / 266 / 233 / 200%''' Energy. Stinkbrain Cap adjusted to '''2 / 2 / 3 / 4''' formations.",
+						["volume"] = 34,
+					},
+				},
+			},
+			["Brightbonnet"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Brightbonnet.png",
+				["augments"] = {
+					["Blightbonnet"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BlightbonnetMod.png",
+						["description"] = "Brightbonnet Mushrooms now silence nearby enemies for 14s on each pulse, as well as making them {{STR|5 / 20 / 35 / 50%}} more vulnerable to damage.",
+						["volume"] = 34,
+					},
+					["Brightway"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BrightwayMod.png",
+						["description"] = "While two Brightbonnet Mushrooms are active, you and your squadmates can interact with either fungus to be teleported to the other (default {{keybind|X}}). A fairy ring will bloom to indicate an active Brightway. Brightbonnets will decompose after being interacted with {{DUR|1 / 2 / 3 / 4}} times. ",
+						["volume"] = 35,
+					},
+					["Cultivated Bonnet"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CultivatedBonnetMod.png",
+						["description"] = "Hold-cast to open a selection wheel that allows you to choose between any fully analyzed mushroom in Nightcap's Field Guide. Brightbonnet's lingering buff now has +'''30 / 45 / 60 / 90%''' Duration, and also grants bonus weapon damage based on your current selection.",
+						["volume"] = 35,
+					},
+				},
+			},
+			["Reroot"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Reroot.png",
+				["augments"] = {
+					["Dumpy Down!"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DumpyDown!Mod.png",
+						["description"] = "The initial impact after transforming is registered as a Heavy Slam Attack, consuming '''75 / 60 / 45 / 30%''' of Sporespring's Ability Combo Score to deal 3x Sporespring's damage in a 3m-radius and applying Lifted. Damage is further modified by Ability Combo Multiplyer. As a Sprodling, generate 5 Combo/s, and recasting will launch you skyward, applying a second Heavy Slam on take off.",
+						["volume"] = 35,
+					},
+					["Mycelial Network"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MycelialNetworkMod.png",
+						["description"] = "Emplaced mushrooms will periodically spawn Fungal Spores, up to 3, that may each be collected by all squad members. Fungal Speed now stacks up to 4x. While in Sprodling form, Fungal Spores will now spawn for all allies within Affinity Range, up to 3 per ally.",
+						["volume"] = 35,
+						["aura"] = true,
+					},
+					["Princely Gift"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PrincelyGiftMod.png",
+						["description"] = "When you recast Reroot as a Sprodling to transform back into Nokko, you will create a forageable mushroom that can be picked up by each of your squadmates to gain that mushroom's buff for {{DUR|10 / 15 / 20 / 25s}}. You can also Hold-on-Recast to open a selection wheel, with subsequent recasts automatically using your last selection. Only mushrooms that have been fully analyzed in Nightcap's Field Guide are available.",
+						["volume"] = 35,
+					},
+					["Root Mines"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RootMinesMod.png",
+						["description"] = "While in Sprodling form, you will now spawn Root Mines every <2.33 / 2.66 / 3 / 3.33s>, or up to 3, whichever is greater. You can have up to 30 mines deployed at any one time. Root Mines will detonate if an enemy moves within 3m, applying Sporespring's damage over {{RNG|5 / 6 / 7 / 8m}} with guaranteed Blast Status and launching them skyward.  Root Mines last for {{DUR|5 / 10 / 15 / 20}}s. ",
+						["volume"] = 35,
+					},
+					["Take Root"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TakeRootMod.png",
+						["description"] = "As a Sprodling, you can now interact with enemies to attach yourself to them. You assume control of their movement and attacks for the next {{DUR|10 / 15 / 20 / 25s}}, gaining aggro from their allies and redirecting all incoming damage to your mount. Your mount can jump, but cannot performer parkour manoeuvres. Damage received by your mount from your allies is delayed and dealt in full when you eject. ",
+						["volume"] = 34,
+					},
+					["Uproot"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord UprootMod.png",
+						["description"] = "Your Sprodling friends will now pick up and carry up to '''3 / 4 / 5 / 6''' emplaced mushrooms, keeping them nearby at all times. Hold-cast to toggle this behaviour.",
+						["volume"] = 34,
+					},
+				},
+			},
+			["Sporespring"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Sporespring.png",
+				["augments"] = {
+					["Spore Spree"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SporeSpreeMod.png",
+						["description"] = "As a Sprodling, Primary Fire will now launch Sporespring mushrooms at the nearest enemy within {{RNG|8m}}, prioritizing enemies near your crosshair. Drain {{EFF|10}} per shot. These mushrooms do not bounce. You have '''20 / 40 / 60 / 80''' Minimum Ability Combo Score.",
+						["volume"] = 35,
+					},
+					["Spore Summer"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SporeSummerMod.png",
+						["description"] = "The ballistic mushroom now deals Heat Damage with guaranteed Status, and causes invigorated Stinkbrain mushrooms to gain '''25 / 33 / 50 / 100%''' Heat Status chance.",
+						["volume"] = 34,
+						["revised"] = 35,
+						["footnote"] = "The proposed effect (to trigger a pulse on each bounce) was suggested before Nokko's release, but this turned out to be part of Nokko's base kit. This new effect instead modifies the damage dealt.",
+					},
+					["Spore-tastic!"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Spore-tastic!Mod.png",
+						["description"] = "Striking an emplaced mushroom will now summon 3 Volatile Sprodlings that will seekout the nearest enemy and explode after '''4'''s, dealing {{STR|100 / 110 / 125 / 150}} Blast Damage with guaranteed Toxin Status within a {{RNG|4m}}-radius. Enemies carrying a Sprodling receive a stacking {{STR|25%}} slow, up to 95%. Sprodling speed is affected by Range mods.",
+						["volume"] = 34,
+						["credit"] = "TheJUST1 (Warframe)",
+					},
+					["Sporefall"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SporefallMod.png",
+						["description"] = "Each bounce will accumulate '''20 / 25 / 33 / 50%''' explosion radius, which is applied on the final impact. The final impact will also release a cloud of spores, which applies the accumulated damage to enemies every second for {{DUR|10 / 15 / 20 / 25s}}.",
+						["volume"] = 35,
+					},
+					["Sporeplay"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SporeplayMod.png",
+						["description"] = "The ballistic mushroom now takes a fixed amount of time to bounce between targets, irrelevant of distance. The current target is telegraphed to Nokko. If Nokko is inside the telegraphed area on impact, the bounce will not counsume a charge and Nokko will gain Sporespring's current Critical Chance bonus on his weapons for {{DUR|1.5 / 2 / 2.5 / 3s}}.",
+						["volume"] = 35,
+					},
+				},
+			},
+		},
+	},
+	["Nova"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Nova_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+					["Neutron Blast"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord NeutronBlastMod.png",
+						["description"] = "Deal {{STR|100 / 125 / 175 / 250}} Blast damage to all enemies within {{RNG|6m}} when your Shield Gate or Overguard Gate is triggered. Damage is modified based on your Shield Gating modifier.",
+						["volume"] = 6,
+					},
+				},
+			},
+			["Null Star"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "NullStar130xWhite.png",
+				["augments"] = {
+					["Metamaterial Halo"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MetamaterialHaloMod.png",
+						["description"] = "Instead surround yourself with a barrier with '''10 / 19 / 31 / 46''' pairs of facets that causes incoming weapon fire to bypass your Warframe. Each pair of facets is initially invulnerable for {{DUR|0.5s}} before disappearing - leaving you exposed.",
+						["volume"] = 21,
+						["coop"] = "Entangled",
+					},
+					["Roche Limit"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RocheLimitMod.png",
+						["description"] = "Enemies slain within Null Star's targeting range have {{STR|20 / 25 / 33 / 50%}} chance to be gored. Gored enemies generate a Null Star particle, up to the normal limit.",
+						["volume"] = 26,
+					},
+				},
+			},
+			["Antimatter Drop"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "AntimatterDrop130xWhite.png",
+				["augments"] = {
+					["Ace In The Hole"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AceIn The HoleMod.png",
+						["description"] = "Volatile orbs no longer absorb weapon fire. When hitting the volatile orb with your weapon projectiles, the orb will instead unleash a gamma ray burst, dealing {{STR|1 / 2 / 3 / 4x}} weapon damage to all enemies in the target direction with infinite punch through.",
+						["volume"] = 10,
+					},
+					["Antimatter Mine"] = {
+						["official"] = true,
+						["mod_avail"] = "Conclave",
+						["mod_image"] = "AntimatterMineMod.png",
+						["description"] = "Creates a fully charged stationary orb that explodes after '''12 / 10 / 8 / 4s''' or if an enemy moves within '''Xm'''.",
+					},
+					["One In The Chamber"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord OneIn The ChamberMod.png",
+						["description"] = "Particles no longer accumulate damage from incoming gunfire. Instead, striking an enemy with the particle will grant {{STR|25%}} Ability Damage on Anti-Matter Strike, stacking up to '''500 / 750 / 1000 / 1500%'''. Missing incurs a '''-125%''' penalty.",
+						["volume"] = 10,
+					},
+					["Particle Collider"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ParticleColliderMod.png",
+						["description"] = "Direct hits with a high velocity Antimatter Orb will now strip any Shields, Armor and up to '''20 / 25 / 33 / 50%''' Overguard from enemies hit. In addition, high velocity orbs will also shatter emplacements and deployable barriers, but doing so has a '''100% to 0%''' chance to negate the orb based on the orb's charge.",
+						["volume"] = 33,
+					},
+				},
+			},
+			["Wormhole"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "WormHole130xWhite.png",
+				["augments"] = {
+					["Alcubierre Drive"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AlcubierreDriveMod.png",
+						["description"] = "Instead target a location within {{RNG|20 / 25 / 33 / 50m}} and initiate a 1s cast time, after which all units within '''2.5m''' are teleported to the designated area. You can move while casting and the surrounding area is illuminated.",
+						["volume"] = 27,
+					},
+					["Atmospheric Breach"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AtmosphericBreachMod.png",
+						["description"] = "Wormholes instead draw in enemies within {{RNG|5m}} of the entrance and eject them with accelerated speed. Wormholes can no longer be used to teleport allies nor projectiles, and last for {{DUR|10 / 12 / 14 / 16s}} without a maximum number of uses.",
+						["volume"] = 27,
+					},
+					["Blue Shift"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ParticleAcceleratorMod.png",
+						["description"] = "The wormhole's exit will become tethered to the first unit that passes through, causing all subsequent travellers to appear at that unit's location instead. '''MISSING RANK-UP BONUS.'''",
+						["volume"] = 35,
+					},
+					["Particle Accelerator"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ParticleAcceleratorMod.png",
+						["description"] = "The entrance is now '''4.25m''' high and '''6m''' wide, and can no longer be used to teleport units. Instead, projectiles that pass through gain +60% Projectile Speed and create an implosion on impact that draws in enemies within {{RNG|3 / 5 / 7 / 9m}}.",
+						["volume"] = 26,
+					},
+					["Particle Shredder"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ParticleShredderMod.png",
+						["description"] = "Projectiles that enter a wormhole are shredded, dealing {{STR|1.25 / 1.33 / 1.5 / 2x}} the projectile's damage to all enemies along the Worm Hole's illuminated path.",
+						["volume"] = 27,
+					},
+					["Portal-Minded"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Portal-MindedMod.png",
+						["description"] = "On Tap: Open a portal with your Primary Energy Color at the target location within {{RNG|30m}}. On Hold: Open a portal with your Secondary Energy Color at the target location within {{RNG|30m}}. While both portals are within {{RNG|50m}}, they are connected and will teleport units but not weapon fire. You can only maintain one portal of each color at a time.",
+						["volume"] = 29,
+					},
+					["Rosenberg Bridge"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RosenbergBridgeMod.png",
+						["description"] = "The wormhole now has an entrance on both sides. You can only maintain a single bridge, but the maximum number of uses is increased to {{DUR|4 / 8 / 12 / 16}} times.",
+						["volume"] = 27,
+					},
+					["Tractor Beam"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TractorBeamMod.png",
+						["description"] = "Instead project a spotlight up to 50m in the target direction that captures the next {{DUR|1 / 2 / 3 / 4}} units that enter its spotlight, arresting their momentum and Lifting them in place. If that unit is an allied Warframe, they gain 1 extra midair jump.",
+						["volume"] = 27,
+					},
+					["Wormhole Rounds"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord WormholeRoundsMod.png",
+						["description"] = "Hold to gain {{RNG|1 / 2 / 4 / 8m}} enemy punch trough and infinite terrain punch through for {{DUR|20 / 25 / 30 / 35 s}} seconds.",
+						["volume"] = 30,
+					},
+					["Wrap Space"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord WrapSpaceMod.png",
+						["description"] = "Hold '''3''' to create a {{RNG|5m}}-radius perimeter for {{DUR|4 / 8 / 12 / 16s}} centered on the target location within {{RNG|50m}}. The perimeter is wrapped, causing exterior entities to bypass the space within and trapping entities inside.",
+						["volume"] = 4,
+					},
+				},
+			},
+			["Molecular Prime"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "MolecularPrime130xWhite.png",
+				["augments"] = {
+					["Antimatter Strike"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AntimatterStrikeMod.png",
+						["description"] = "DESCRIPTION",
+					},
+					["Event Horizon"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord EventHorizonMod.png",
+						["description"] = "The outer perimeter of Molecular Prime is now considerably less transparent, preventing far away enemies from firing into the perimeter unless they are already Primed. Null Star now primes enemies as if hit by Molecular Prime. Primed enemies have a {{DUR|16.7 / 20 / 25 / 33%}} chance to remain primed after detonation.",
+						["volume"] = 26,
+					},
+				},
+			},
+		},
+	},
+	["Nyx"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Nyx_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+				},
+			},
+			["Mind Control"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "MindControl130xWhite.png",
+				["augments"] = {
+					["Hive Mind"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord HiveMindMod.png",
+						["description"] = "Enemies affected by Mind Control will now mimic casts of Psychic Bolts and Chaos with '''0.25 / 0.33 / 0.5 / 1.0x''' effectiveness.",
+						["volume"] = 29,
+						["credit"] = "TheKengineer (YouTube)",
+					},
+					["Mind Interface"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MindInterfaceMod.png",
+						["description"] = "You can now target your Mind Controlled ally with Transference to assume control of their movement and attacks. Nyx remains vulnerable while active. Your puppet's muscle-memory grants you '''20 / 25 / 33 / 50%''' chance to Auto-Hack consoles of their faction.",
+						["volume"] = 29,
+					},
+					["Seraph's Visage"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Seraph'sVisageMod.png",
+						["description"] = "On Cast: Mind Control every enemy with line of sight within {{RNG|25m}}. Drains {{EFF|50}} plus {{EFF|0.75}} per second per enemy to upkeep, up to {{EFF|7.5}}/s.",
+						["volume"] = 10,
+						["set"] = "Angel of Death",
+					},
+				},
+			},
+			["Psychic Bolts"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "PsychicBolts130xWhite.png",
+				["augments"] = {
+					["Hysteria Bolts"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord HysteriaBoltsMod.png",
+						["description"] = "'''+1 / 2 / 3 / 4''' Bolts on death. Bolts are evenly distributed to all enemies in range. Bolts will now propagate non-damaging Status Effects.",
+						["volume"] = 30,
+					},
+					["Mullerian Mimicry"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MullerianMimicryMod.png",
+						["description"] = "You invade the minds of all squad mates within Affinity Range, gaining access to each of their Subsume Abilities. On Hold: Open a wheel menu with each of the available Subsume Abilities. On Tap: Cast the Subsume ability with '''1.5 / 1.2 / 0.9 / 0.6x''' its base cost.",
+						["volume"] = 10,
+					},
+				},
+			},
+			["Chaos"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Chaos130xWhite.png",
+				["augments"] = {
+					["Seraph's Song"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Seraph'sSongMod.png",
+						["description"] = "Chaos can now hit allies, granting them {{STR|20%}} movement speed, {{STR|20%}} attack speed and {{STR|30%}} fire rate for {{DUR|10 / 15 / 20 / 25s}}.",
+						["volume"] = 10,
+						["set"] = "Angel of Death",
+					},
+				},
+			},
+			["Absorb"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Absorb130xWhite.png",
+				["augments"] = {
+					["Nightwalker"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord NightwalkerMod.png",
+						["description"] = "While active, you may now perform parkour maneuvers with +100% Parkour Velocity, and +'''1 / 2 / 3 / 4''' extra midair jumps.",
+						["volume"] = 30,
+					},
+					["Singularity"] = {
+						["official"] = true,
+						["mod_avail"] = "Universal",
+						["mod_image"] = "SingularityMod.png",
+						["description"] = "Create a ring every '''3s''' that drags-in enemies within '''9 / 11 / 13 / 15m'''.",
+					},
+				},
+			},
+		},
+	},
+	["Oberon"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Oberon_Thumb.png",
+		["abilities"] = {
+			["Righteous Negation"] = {
+				["ability_icon"] = "PassiveAbility.png",
+				["hotkey"] = 0,
+				["augments"] = {
+					["Forest Spirit"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ForestSpiritMod.png",
+						["description"] = "On Bleedout: Become ethereal, gaining full flight capabilities and '''50 / 65 / 80 / 95'''% ammo efficiency. Kills will extend your bleed-out by {{DUR|1}} second. → Kills grant 20% Recovery Progress, increased to 60% for priority enemies. You will not automatically recover at 100% Recovery Progress. Instead, you will be prompted to hold the Interact key '''X''', or else automatically recover at the end of your Bleedout Duration. ",
+						["volume"] = 32,
+					},
+					["Midsummer Jaunt"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MidsummerJauntMod.png",
+						["description"] = "While aiming at an allied unit within {{RNG|25m}}, perform a '''Dodge''' will cause you to blink to your target and release a bloom that grants {{STR|75 / 90 / 120 / 150}} shield to allies within {{RNG|5m}}. This can generate Overshields. 3s cooldown.",
+						["volume"] = 11,
+						["exilus"] = true,
+					},
+				},
+			},
+			["Smite"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Smite130xWhite.png",
+				["augments"] = {
+					["King of the Hunt"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Kingof the HuntMod.png",
+						["description"] = "Smite no longer summons orbs and instead deals Void Damage with guaranteed status chance. The → now applies a Bullet Attractor field that is centered on the target's primary Weakpoint, and adds {{STR|1 / 2.25 / 3.5 / 5%}} maximum health damage to attracted projectiles.",
+						["volume"] = 26,
+						["revised"] = 34,
+					},
+					["Ordained Smite"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord OrdainedSmiteMod.png",
+						["description"] = "Smite will now produce 2 volatile fireflies per ally affected by Renewal that seek out enemies up to {{RNG|8 / 10 / 12 / 14m}} away, prioritizing those further away than Smite's {{RNG|6m}} blast radius. Fireflies deal '''20 / 25 / 33 / 50%''' more of Smite's original damage than the blast and spawns 2 additional homing orbs per ally affected by Renewal.",
+						["volume"] = 11,
+						["revised"] = 34,
+						["set"] = "Wild Growth",
+					},
+				},
+			},
+			["Hallowed Ground"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "HallowedGround130xWhite.png",
+				["augments"] = {
+					["Green Haven"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord GreenHavenMod.png",
+						["description"] = "Allies whose feet are in contact with Hallowed Ground gain invisibility and {{STR|5 / 10 / 15 / 20%}} movement speed. While invisible, your noise level is reduced by 100% and your movement will not set off traps.",
+						["volume"] = 26,
+					},
+					["Hallowed Aura"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord HallowedAuraMod.png",
+						["description"] = "'''1.1 / 1.15 / 1.2 / 1.25x''' Final Duration on buffs received from Allies. Oberon and allies within Affinity Range emanate Hallowed Ground, continuously affecting a {{RNG|15m}}-radius area around themselves.",
+						["volume"] = 29,
+						["aura"] = true,
+						["credit"] = "TheKengineer (YouTube)",
+					},
+					["Hallowed Slumber"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord HallowedSlumberMod.png",
+						["description"] = "Enemies will fall asleep over '''2 / 1.5 / 1 / 0.5s''' the first time they enter Hallowed Ground. Sleeping enemies will awaken early if they receive damage in excess of 50% of their current health.",
+						["volume"] = 11,
+						["revised"] = 30,
+					},
+					["The Faerie King"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TheFaerie KingMod.png",
+						["description"] = "Your Hallowed Grounds are now defended by '''3 / 4 / 5 / 6''' invulnerable Razorfly Drones that deal {{STR|10 / 24 / 48 / 80 x Enemy Level}} on their attacks.",
+						["volume"] = 12,
+						["revised"] = 34,
+						["coop"] = "Faerie",
+					},
+				},
+			},
+			["Renewal"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Renewal130xWhite.png",
+				["augments"] = {
+					["Herne's Bow"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Herne'sBowMod.png",
+						["description"] = "On Cast: Instead holster your current weapons and equip Herne's Bow, an Exalted Bow weapon with {{STR|150 / 200 / 250 / 300}} base damage. Upkeep cost is {{EFF|15}}/shot. Arrows from this bow release a pulse on-impact that restores {{STR|50 / 75 / 100 / 125}} to allies within {{RNG|5 / 6 / 7 / 8m}}.",
+						["volume"] = 26,
+						["revised"] = 30,
+					},
+					["Renewing Fervor"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RenewingFervorMod.png",
+						["description"] = "Allies with Renewal will restore {{STR|75 / 100 / 150 / 250}} health every time an enemy is hit by Smite. Casting Smite will also extend active Renewal durations by {{DUR|3s}}. Remaining duration cannot exceed the maximum. → Allies affected by Renewal will restore {{STR|50 / 75 / 100 / 125}} health each time Smite is cast, and receive '''10 / 15 / 20 / 25%''' of the Armor, Shields and/or Overguard removed from an enemy by Smite. Oberon will only benefit from Renewing Fervor if he is within {{RNG|6m}} of Smite's target. Bonus armor is capped at '''750''' and lasts for {{DUR|20s}}. Overguard is capped at {{STR|15,000}}. Overshields are capped at {{STR|1,200}}.",
+						["volume"] = 11,
+						["revised"] = 34,
+						["set"] = "Wild Growth",
+					},
+				},
+			},
+			["Reckoning"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Reckoning130xWhite.png",
+				["augments"] = {
+					["Defiled Reckoning"] = {
+						["official"] = true,
+						["mod_avail"] = "Conclave",
+						["mod_image"] = "ReckoningMod.png",
+						["description"] = "Health Orbs become unusable by enemies for '''3 / 5 / 8 / 10s'''.",
+					},
+					["Horn of the Wild Hunt"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Hornof the Wild HuntMod.png",
+						["description"] = "On Cast: Summon up to 5 kubrodon specters → Taam specters that are attacking unique enemies within {{RNG|30m}} for '''1 / 2 / 3 / 4'''s dealing damage with Primal Claws → Primal Horns, which appears as a moddable Beast Weapon in your Arsenal that has {{STR|150 / 200 / 250 / 300}} base damage and accepts Claw mods. The specters are untargetable and invulnerable.",
+						["volume"] = 26,
+						["revised"] = 33,
+					},
+					["Reckoning Wind"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ReckoningWindMod.png",
+						["description"] = "Enemies hit by Reckoning are instead violently ejected from the {{RNG|8 / 10 / 12 / 15m}} cast radius and are prevented from entering the area for the next {{DUR|4s}}. Enemies who collide with a surface take an {{STR|500 / 750 / 1000 / 1250}} Blast damage and have their armor reduced by the same amount. Enemies who cannot be ejected due to obstructions will be pinned to those obstructions for the duration.",
+						["volume"] = 11,
+					},
+				},
+			},
+		},
+	},
+	["Octavia"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Octavia_Thumb.png",
+		["abilities"] = {
+			["Inspiration"] = {
+				["ability_icon"] = "PassiveAbility.png",
+				["hotkey"] = 0,
+				["augments"] = {
+					["Controlled Tempo"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ControlledTempoMod.png",
+						["description"] = "Disable the Madichord's effect on gameplay. Metronome is now normalized to 78 BPM, and Metronome's buffs will be acquired on the backbeat. Increases Power Strength by '''2.5 / 5 / 7.5 / 10 / 12.5 / 15%'''.",
+						["volume"] = 33,
+						["exilus"] = true,
+					},
+				},
+			},
+			["Mandichord"] = {
+				["ability_icon"] = "Mandichord.png",
+				["exalted"] = "Gear",
+				["augments"] = {
+				},
+			},
+			["Mallet"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Mallet130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Resonator"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Resonator130xWhite.png",
+				["augments"] = {
+					["Captive Audience"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CaptiveAudienceMod.png",
+						["description"] = "Instead release a captivating wave of music that charms enemies to harmlessly follow you. The wave travels at {{DUR|15 / 20 / 25 / 30m}}/s for '''1s'''. The duration is extended by 1s each time a unique enemy is hit.",
+						["volume"] = 21,
+					},
+					["Resonating Amp"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ResonatingAmpMod.png",
+						["description"] = "Your Resonator now broadcasts its own copy of Amp. The effects of Amp and your Resonator's Amp stack up to '''187.5 / 225 / 250 / 300%'''.",
+						["volume"] = 13,
+					},
+				},
+			},
+			["Metronome"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Metronome130xWhite.png",
+				["augments"] = {
+					["Remixed Metronome"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RemixedMetronomeMod.png",
+						["description"] = "Hold to freely cycle between Vivace, Nocturne, Opera and Forte. Tap cast will now grant the effects of your current selection to allies within range without the need for synchronization, but only while they remain in-range. Gain '''25 / 33 / 50 / 100%''' Metronome Range.",
+						["volume"] = 21,
+						["revised"] = 34,
+					},
+					["Squad Maestro"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SquadMaestroMod.png",
+						["description"] = "Vivace, Nocturne, Opera and Forte are now granted to all allies in range if any squad mate triggers the respective buff. '''+15 / 25 / 35 / 45%''' Ability Duration for Metronome.",
+						["volume"] = 29,
+						["exilus"] = true,
+					},
+				},
+			},
+			["Amp"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Amp130xWhite.png",
+				["augments"] = {
+					["Cacophony"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CacophonyMod.png",
+						["description"] = "Instead of bonus damage, Amp grants {{STR|40 / 60 / 80 / 100%}} to {{STR|160 / 240 / 320 / 400%}} Status Chance based on noise level.",
+						["volume"] = 21,
+					},
+					["Crescendo"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CrescendoMod.png",
+						["description"] = "Amp grants an initial '''75 / 100 / 125 / 150%''' bonus damage plus 5% per kill made by you or an ally under its effect. Track bonus damage deal, which is dealt in a burst of Blast damage at the end of the duration.",
+						["volume"] = 21,
+					},
+					["Silent Disco"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SilentDiscoMod.png",
+						["description"] = "While active, enemies within '''20 / 30 / 40 / 50m''' will not react to noise nor damage up to 50% of their current health.",
+						["volume"] = 31,
+					},
+				},
+			},
+		},
+	},
+	["Odonata"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Odonata.png",
+		["abilities"] = {
+			["Energy Shell"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "EnergyShell130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Disarray"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Disarray130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Seeking Fire"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "SeekingFire130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Repel"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Repel130xWhite.png",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Oraxia"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Oraxia_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+				},
+			},
+			["Mercy's Kiss"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Mercy'sKiss.png",
+				["augments"] = {
+				},
+			},
+			["Webbed Embrace"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "WebbedEmbrace.png",
+				["augments"] = {
+					["Silken Embrace"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Oraxia'sEmbraceMod.png",
+						["description"] = "While inside of her webbing, Oraxia and her allies cannot have their Energy sapped, and their Ability Efficiency cannot be reduced below '''55 / 70 / 85 / 100%'''.",
+						["volume"] = 35,
+					},
+					["Steel Webbing"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Oraxia'sEmbraceMod.png",
+						["description"] = "While inside of her webbing, Oraxia and her allies benefit from {{STR|10 / 20 / 30 / 40%}} damage reduction, capped at 90%, as well as immunity to slows, staggers and knockdown effects.",
+						["volume"] = 33,
+						["credit"] = "Brozime (YouTube)",
+					},
+				},
+			},
+			["Widow's Brood"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Widow'sBrood.png",
+				["augments"] = {},
+			},
+			["Silken Stride"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "SilkenStride.png",
+				["augments"] = {
+					["Exalted Striders"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ExaltedStridersMod.png",
+						["description"] = "You can now perform melee attacks during Silken Stride using your spiders legs. Your Silken Striders are now a configurable claw weapon within your arsenal that has {{STR|100 / 150 / 200 / 250}} base damage and a unique Melee Stance. You will equip Silken Striders during Silken Stride.",
+						["volume"] = 33,
+					},
+					["Silken Strikes"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SilkenStrikesMod.png",
+						["description"] = "You can now perform melee attacks during Silken Stride. During Silken Stride, you benefit from {{STR|0.2 / 0.4 / 0.6 / 0.8}} Melee Follow Through. Values in excess of 1.0 will incur an additional melee hit. ",
+						["volume"] = 33,
+					},
+				},
+			},
+		},
+	},
+	["Protea"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Protea_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+				},
+			},
+			["Grenade Fan"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "GrenadeFan130xWhite.png",
+				["augments"] = {
+					["Bomb Voyage"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BombVoyageMod.png",
+						["description"] = "The grenades summoned by Grenade Fan are now latcher grenades that seek out and stick to enemies. Latched grenades track damage dealt to latched targets, which is discharged in an {{RNG|5 / 6 / 7 / 8m}} burst of Blast Damage upon the latcher's expiration.",
+						["volume"] = 25,
+					},
+					["Defensive Fan"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DefensiveFanMod.png",
+						["description"] = "The grenades summoned by Shield Satellites instead arrange themselves into a rectangular configuration and projects a {{RNG|1 / 1.25 / 1.5 / 2m}}-wide barrier that intercepts enemy fire. The barrier travels forward at '''3m'''/s and dissipates when its core collides with geometry.",
+						["volume"] = 25,
+					},
+				},
+			},
+			["Blaze Artillery"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "BlazeArtillery130xWhite.png",
+				["augments"] = {
+					["Chromatic Artillery"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ChromaticArtilleryMod.png",
+						["description"] = "Hold-cast to bring up a selection wheel that lets you change the elemental damage type of Blaze Artillery. '''+25 / 50 / 75 / 100%''' Status Chance on Artillery.",
+						["volume"] = 33,
+						["credit"] = "Rapturous_Fool (Reddit)",
+					},
+					["Regulating Artillery"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RegulatingArtilleryMod.png",
+						["description"] = "Weapon kills refresh {{DUR|0.35 / 0.5 / 0.85 / 1.25s}} of active Blaze Artillery duration. Remaining duration cannot exceed the maximum duration.",
+						["volume"] = 1,
+					},
+					["Seeking Artillery"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SeekingArtilleryMod.png",
+						["description"] = "Artillery units are now launched toward the direction of aim, moving at 5m/s until they make contact with a surface. Artillery may fire while airborne if Protea is within {{RNG|4 / 6 / 8 / 10m}}. Their duration begins at rest.",
+						["volume"] = 23,
+					},
+				},
+			},
+			["Dispensary"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Dispensary130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Temporal Anchor"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "TemporalAnchor130xWhite.png",
+				["augments"] = {
+					["Grave Anchor"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord GraveAnchorMod.png",
+						["description"] = "Exploding now has '''20 / 25 / 33 / 50'''% Temporal Energy Efficiency, dealing damage as normal but retaining a percentage of your accumulated damage between casts. Additionally, if your anchor is triggered by lethal damage, you will now revert to your cached health state instead of only restore 5% of maximum health.",
+						["volume"] = 29,
+						["credit"] = "TheKengineer (YouTube)",
+					},
+					["Spatial Anchor"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SpatialAnchorMod.png",
+						["description"] = "Your anchor now has infinite duration, and you will immediately teleport to its location when triggered. You will no longer restore health, energy nor ammunition, beyond 5% of maximum health when triggered by lethal damage. '''1 / 0.75 / 0.5 / 0.25x''' base energy cost on Temporal Anchor.",
+						["volume"] = 23,
+					},
+					["Temporal Magazine"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TemporalMagazineMod.png",
+						["description"] = "On Tap: Instead begin tracking where all your non-explosive weapon projectiles come to rest for up to {{DUR|5 / 6 / 7 / 8s}}. On Recast: Recall all tracked projectiles, dealing {{STR|1.2 / 1.25 / 1.5x}} Weapon Damage to enemies hit by each projectile and resupplying your ammunition.",
+						["volume"] = 29,
+					},
+					["Temporal Shunt"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TemporalShuntMod.png",
+						["description"] = "Instead freeze time within {{RNG|30m}} for {{DUR|2 / 2.5 / 3 / 4s}}, rendering enemies and alarm systems inert. Damage dealt to time-frozen enemies will be delayed and dealt in burst when time resumes.",
+						["volume"] = 25,
+					},
+					["Temporal Step"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TemporalStepMod.png",
+						["description"] = "Temporal Anchor now uses Hybrid Casting. On Tap: Become invulnerable for 0.25s, also gaining a burst of forward momentum and cleansing status effects. Apply Temporal Anchor's knockdown to nearby enemies and reload your current magazine. While Held: Maintain Temporal Anchor.",
+						["volume"] = 34,
+						["restrict"] = "{{m|Rolling Guard}}",
+					},
+				},
+			},
+		},
+	},
+	["Qorvex"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Qorvex_Thumb.png",
+		["abilities"] = {
+			["Core Exposure"] = {
+				["ability_icon"] = "PassiveAbility.png",
+				["hotkey"] = 0,
+				["augments"] = {
+				},
+			},
+			["Chyrinka Pillar"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "ChyrinkaPillar130xWhite.png",
+				["augments"] = {
+					["Chyrinka Toss"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ChyrinkaTossMod.png",
+						["description"] = "Qorvex now hurls the pillar like a javelin that applies the effects of Chyrinka Pillar to each enemy hit with 100% unit punchthrough. Impacting with terrain will release a shockwave that deals {{STR|150 x Enemy Level}} Heat Damage with forced status before functioning as a normal pillar. Impacting with a vehicle, emplacement or destructable terrain will deal '''1.5 / 2 / 2.5 / 3x''' collision and shockwave damage, but will not form a pillar. ",
+						["volume"] = 33,
+						["credit"] = "CountHot3220 (Reddit)",
+					},
+					["Crucible Pillars"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CruciblePillarsMod.png",
+						["description"] = "Striking a Chyrinka Pillar with Cruicible Blast will empower it, causing all enemies within the area of effect to have 100% Heat Status chance on all damage received. Pillar duration is also extended by {{STR|0.25 / 0.33 / 0.5 / 1.0s}} per second exposed to Crucible Blast.",
+						["volume"] = 31,
+					},
+					["Power Grid"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PowerGridMod.png",
+						["description"] = "Hold-cast to drain 50 Energy to link your Chyrinka Pillars with beams that apply the effects of Crucible Blast. +'''0 / 1 / 1 / 2''' Maximum Chyrinka Pillars",
+						["volume"] = 32,
+					},
+				},
+			},
+			["Containment Wall"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "ContainmentWall130xWhite.png",
+				["augments"] = {
+					["Detainment Wall"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DetainmentWallMod.png",
+						["description"] = "Enemies struck by Petrifying Wall will be Petrified for {{DUR|4 / 6 / 8 / 10}} seconds.",
+						["volume"] = 34,
+						["set"] = "Detainment",
+					},
+				},
+			},
+			["Disometric Guard"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "DisometricGuard130xWhite.png",
+				["augments"] = {
+					["Biometric Guard"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BiometricGuardMod.png",
+						["description"] = "Whenever Qorvex consumes a Guard stack, you restore {{STR|1 / 2 / 3 / 4 / 5%}} of Qorvex's maximum health. Whenever an ally consumes a Guard stack, they restore the greater value between {{STR|0.5 / 1 / 1.5 / 2 / 2.5%}} of their maximum health and {{STR|0.5 / 1 / 1.5 / 2 / 2.5%}} of Qorvex's maximum health.",
+						["volume"] = 30,
+					},
+					["Disometric Blast"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DisometricBlastMod.png",
+						["description"] = "Guard stacks will now explode when consumed, dealing {{STR|200 / 300 / 400 / 500}} Blast Damage to enemies within 6m with guaranteed status.",
+						["volume"] = 30,
+					},
+				},
+			},
+			["Crucible Blast"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "CrucibleBlast130xWhite.png",
+				["augments"] = {
+					["Chain Meltdown"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ChainMeltdownMod.png",
+						["description"] = "Instead of punching through enemies, Crucible Blast will now chain to additional enemies until it reaches a total length of 40m. Each enemy hit receives '''50 / 33 / 25 / 20%''' less damage than the last.",
+						["volume"] = 30,
+					},
+					["Crucible Core"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CrucibleCoreMod.png",
+						["description"] = "Qorvex instead initiates a core meltdown, gaining '''75%''' evasion and creating a 16m-radius aura that inflicts {{STR|200 / 300 / 400 / 500}} Radiation Damage every 0.7 seconds with guaranteed status. Drains {{EFF|50}} with an upkeep cost of {{EFF|0.75}} per affected enemy per second, up to 7.5 per second.",
+						["volume"] = 30,
+					},
+				},
+			},
+		},
+	},
+	["Revenant"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Revenant_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+					["Last Caress"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord LastCaressMod.png",
+						["description"] = "Your passive Blast damage is now modified by Strength mods; the blast radius is now increased by {{RNG|1.5 / 3.5 / 5.5 / 7.5m}}; and Sentients hit will now be stripped of their adapted resistances. The blast will only displace enemies within the unmodded radius.",
+						["volume"] = 26,
+					},
+				},
+			},
+			["Enthrall"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Enthrall130xWhite.png",
+				["augments"] = {
+					["Controlled Thralls"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ControlledThrallsMod.png",
+						["description"] = "Thralls now become docile and now flock behind you. They will only move when you move, aim where you aim, and attack when you attack. Controlled Thralls now deal {{STR|1 / 1.5 / 2 / 2.5x}} damage, and they will transform with you during Reave. Their damage will continue to enthral additional enemies, but they will no longer produce Energy Pillars on-death.",
+						["volume"] = 34,
+					},
+					["Enthrall All"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord EnthrallAllMod.png",
+						["description"] = "Instead drain '''300 / 275 / 250 / 200%''' energy to convert up to {{STR|7}} enemies within your field-of-view into Alpha Thralls, up to {{RNG|10 / 15 / 20 / 25m}} and prioritizing high priority enemies. The thrall limit is similarly affected by Ability Strength. Alpha Thralls will no longer create Beta Thralls.",
+						["volume"] = 23,
+						["revised"] = 34,
+					},
+					["Placated Thralls"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PlacatedThrallsMod.png",
+						["description"] = "Instead of Mind Controlling the target, Thralls are instead rendered docile, stripped of their defenses and made vulnerable to Finishers. Finishers deal '''50 / 100 / 150 / 200%''' damage to Thralls. Placated Thralls will still produce Energy Pillars on-death.",
+						["volume"] = 23,
+						["revised"] = 34,
+					},
+					["Transfusion"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TransfusionMod.png",
+						["description"] = "On Hold: You will trade current health totals with the target, with the transaction taking '''4s''' to complete. You may gain or lose health depending on your target. Excess healing will be shared with allies within {{RNG|2 / 3 / 4 / 5m}}, up to {{STR|300}} Overhealth. Enemies within {{RNG|2 / 3 / 4 / 5m}} of the unit losing health will suffer the same damage.",
+						["volume"] = 34,
+					},
+					["Transfusion (Old)"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Transfusion(Old)Mod.png",
+						["description"] = "On Tap: Instead → On Hold: You will trade current health percentages with the target, with the transaction taking '''4s''' to complete. You may gain or lose health depending on your target. Enemies within {{RNG|2 / 3 / 4 / 5m}} of the unit losing health will suffer the same damage.",
+						["volume"] = 27,
+						["retired"] = true,
+					},
+				},
+			},
+			["Mesmer Skin"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "MesmerSkin130xWhite.png",
+				["augments"] = {
+					["Mesmer Plating"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MesmerPlatingMod.png",
+						["description"] = "Enemies are no longer stunned when attacking Mesmer Skin and enemies are compelled to attack you. Reflected damage is now modified by '''1.0 / 1.25 / 1.5 / 2x'''.",
+						["volume"] = 13,
+					},
+				},
+			},
+			["Reave"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Reave130xWhite.png",
+				["augments"] = {
+					["Blind Reave"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BlindReaveMod.png",
+						["description"] = "On Tap: Instead drain {{STR|10 / 20 / 30 / 40%}} lifeforce from all enemies within {{RNG|6m}} within your field-of-view.",
+						["volume"] = 27,
+					},
+					["Reaver Storm"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ReaverStormMod.png",
+						["description"] = "Reave now grants full flight capabilities, but now moves at Sprint Speed. '''Hold''' to maintain mist form until released with an upkeep cost of {{EFF|12 / 10 / 8 / 6}}/s.",
+						["volume"] = 27,
+						["revised"] = 34,
+					},
+					["Reaver's Domain"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Reaver'sDomainMod.png",
+						["description"] = "Reave no longer damages Thralls, but instead drains '''1.2 / 1.25 / 1.33 / 1.5x''' more health from all other enemies per active Thrall.",
+						["volume"] = 30,
+					},
+					["Reaver's Step"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Reaver'sStepMod.png",
+						["description"] = "Reave now uses Hybrid Casting. On Tap: Become invulnerable for 0.25s, also gaining a burst of forward momentum and cleansing status effects. Apply one instance of Reave's drain to nearby enemies. While Held: Maintain Reave.",
+						["volume"] = 34,
+						["restrict"] = "{{m|Rolling Guard}}",
+					},
+				},
+			},
+			["Danse Macabre"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "DanseMacabre130xWhite.png",
+				["augments"] = {
+					["Macabre Might"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MacabreMightMod.png",
+						["description"] = "You can now Hold-cast Danse Macabre and Reave to deploy a spectral clone of Revenant that performs the ability in his stead. The specter deals +'''25 / 33 / 50 / 100%''' damage per active Thrall. Hold-casting Danse Macabre costs {{EFF|100}} and the ability lasts for {{DUR|4s}}.",
+						["volume"] = 33,
+						["credit"] = "HarrowAssEnthusiast (Reddit)",
+					},
+					["Obliterate"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ObliterateMod.png",
+						["description"] = "Casting instead immobilises you while you channel a single continuous beam toward the cursor, dealing '''1.25 / 1.5 / 1.75 / 2.0x''' Danse Macabre's damage to enemies hit while displacing them out of the beam's radius. Hold '''LMB''' to deal '''2.5 / 3 / 3.5 / 4.0x''' damage at increased drain.",
+						["volume"] = 13,
+					},
+					["Orbital Strike"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord OrbitalStrikeMod.png",
+						["description"] = "Instead call down a single continuous beam from the sky that chases the target at 5m/s until their death, applying Danse Macabre's damage to enemies within 5m. The damage ramps up to 2x after 3 seconds of continuous damage, and falls-off when not dealing damage. You can maintain up to '''1 / 3 / 5 / 9''' beams.",
+						["volume"] = 14,
+					},
+					["Starfall"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord StarfallMod.png",
+						["description"] = "Instead rain stars upon each enemy within {{RNG|25m}}, dealing Danse Macabre's damage. Can only be activated when there's a valid target in range. Casting Starfall increases the damage of subsequent casts by '''20%''' for {{DUR|6s}}, stacking up to '''1.5 / 2.25 / 3.0 / 4.0x''' damage.",
+						["volume"] = 13,
+					},
+				},
+			},
+		},
+	},
+	["Rhino"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Rhino_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+				},
+			},
+			["Rhino Charge"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "RhinoCharge130xWhite.png",
+				["augments"] = {
+					["Percussive Excavation"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PercussiveExcavationMod.png",
+						["description"] = "Ore and Gem Veins hit by Rhino Charge have a '''25 / 33 / 50 / 100%''' chance to be Auto-Prospected.",
+						["volume"] = 26,
+					},
+					["Thunderous Charge"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ThunderousChargeMod.png",
+						["description"] = "'''Hold''' to continuously recast without interruption, as well as continually steering toward the direction of aim. While held, Rhino is accompanied by (1 x Melee Combo Multiplier) bolts of lightning that bounce between enemies within 8m of Rhino dealing {{STR|200 / 300 / 460 / 650}} Electricity Damage.",
+						["volume"] = 23,
+					},
+					["Unstoppable Force"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord UnstoppableForceMod.png",
+						["description"] = "Charging into a surface will transfer your momentum into enemies within 10m, throwing them in the cast direct and dealing them {{STR|125 / 150 / 200 / 300}} x Velocity Impact damage if they collide with a surface.",
+						["volume"] = 12,
+						["coop"] = "Impasse",
+					},
+				},
+			},
+			["Iron Skin"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "IronSkin130xWhite.png",
+				["augments"] = {
+					["Galvanized Skin"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord GalvanizedSkinMod.png",
+						["description"] = "While Iron Skin holds, your energy cannot be sapped by any means. Gain 1 energy/2 for every 1.5s of continuous movement, stacking up to '''2 / 3 / 4 / 5''' times. Stacks falloff after {{DUR|0.5s}} at rest.",
+						["volume"] = 24,
+						["exilus"] = true,
+					},
+					["Iron Guard"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord IronGuardMod.png",
+						["description"] = "Your Iron Skin now mitigates damage recieved by allies within 5m at '''1.5 / 1.25 / 1.0 / 0.75x''' effectiveness.",
+						["volume"] = 30,
+					},
+					["Ironclad Skin"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord IroncladSkinMod.png",
+						["description"] = "You gain '''20 / 25 / 33 / 50''' Overguard each time you make physical contact with an enemy, up to {{STR|15000}}.",
+						["volume"] = 31,
+					},
+					["Iron Shrapnel"] = {
+						["official"] = true,
+						["mod_avail"] = "Universal",
+						["mod_image"] = "IronShrapnelMod.png",
+						["description"] = "Recasting Iron Skin will cause it to detonate, dealing '''40 / 70 / 80 / 100%''' of remaining Overguard as Puncture Damage to enemies within an {{RNG|8m}}-radius, knocking them down and having a '''30 / 40 / 50 / 60%''' chance to inflict Puncture Status. This effect has damage fall-off.",
+					},
+				},
+			},
+			["Roar"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Roar130xWhite.png",
+				["augments"] = {
+					["Crash Aura"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CrashAuraMod.png",
+						["description"] = "Roar will now affect all allies within Affinity Range. If equipped on Rhino, the duration of Roar is now extended by 0.5s whenever an enemy dies. The remaining duration not exceeding the maximum duration. +25% Affinity Radius.",
+						["volume"] = 27,
+						["aura"] = true,
+					},
+					["Thunderous Roar"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ThunderousRoarMod.png",
+						["description"] = "Roar can be recast and splits the sky overhead, unleashing a devastating lightning strike after a '''1s''' delay that deals {{STR|500 / 600 / 800 / 1200}} Electricity Damage to enemies within {{RNG|5m}}. If the lightning strikes Rhino, the radius is increased to {{RNG|20m}} and nearby allies restore 1200 Shield (applied as Overshield as necessary).",
+						["volume"] = 23,
+					},
+				},
+			},
+			["Rhino Stomp"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "RhinoStomp130xWhite.png",
+				["augments"] = {
+					["Rhino Slam"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RhinoSlamMod.png",
+						["description"] = "Rhino Stomp's damage is now affected by your Melee Combo Multiplier. The damage radius of Rhino Stomp and your Heavy Slam Attacks is now increased by '''20 / 25 / 33 / 50%''' for every 5m travelled airborne, up to 50m. → Rhino Stomp now registers as a Heavy Attack, consuming '''100 / 75 / 60 / 45%''' of your Ability Combo Points to deal 6x Heavy Damage, which is further modified by your Ability Combo Multiplier. If cast while airborne, Rhino Stomp will register as a Heavy Slam Attack, and gain 10% impact radius for every meter travelled toward the ground. Rhino Stomp will not experience Damage Falloff on Heavy Slams. ",
+						["volume"] = 30,
+						["revised"] = 34,
+					},
+					["Stampede"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord StampedeMod.png",
+						["description"] = "On Cast: Instead summon a spectral beast {{DUR|15 / 20 / 30 / 45m}} away in the direction of aim that stampedes '''2x Range''' units toward the cast location. The beast passes through all obstacles and applies the effects of Rhino Stomp to enemies it smashes through. Striking the beast with '''1''' Rhino Charge will redirect it and refresh its duration.",
+						["volume"] = 12,
+					},
+					["Thunderous Stomp"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ThunderousStompMod.png",
+						["description"] = "Rhino leaps into the air and crashes into the ground at the target location within sight, applying the effects of Rhino Stomp to enemies within a {{RNG|15m}} radius. This damage is tagged as a Hard Landing. Rhino's Hard Landings deals an additional {{STR|125 / 150 / 200 / 300}} Electricity damage with guaranteed status.",
+						["volume"] = 23,
+					},
+				},
+			},
+		},
+	},
+	["Saryn"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Saryn_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+				},
+			},
+			["Spores"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Spores130xWhite.png",
+				["augments"] = {
+					["Bed Sores"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BedSoresMod.png",
+						["description"] = "Pustules are now resistant to damage, and will only transmit when their carrier is slain. Enemies can now incubate any number of pustules from enemy-to-enemy transmission. Enemies carrying '''6 / 5 / 4 / 3''' Pustules rendered docile, and any damage they receive will be adapted to their weaknesses.",
+						["volume"] = 23,
+					},
+					["Benevolent Spore"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BenevolentSporeMod.png",
+						["description"] = "You can now target allies, infesting them with a single spore of a benevolent strain that restores {{STR|4 / 6 / 8 / 10}} health per second. Targeting an ally will not trigger nor affect Spores' bonus efficiency. The healing is modified by your Ability Combo Multiplier. Spores on allies will automatically burst after 4 seconds, generating 5 Ability Como Points and spreading to another ally within Affinity Range and incrementing its healing done by {{STR|1.0 / 1.25 / 1.5 / 2.0}}. Allies can incubate up to 3 spores at a time.",
+						["volume"] = 27,
+					},
+					["Bulging Pustules"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BulgingPustulesMod.png",
+						["description"] = "Spore damage no longer increments every second. Spore damage now increments each time a spore is burst, and enemies can now incubate up to '''3 / 6 / 9 / 12''' spores from enemy-to-enemy transmission.",
+						["volume"] = 23,
+					},
+					["Expunge"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ExpungeMod.png",
+						["description"] = "On Cast: Instead expunge all Toxin-based status effects from the target, dealing {{STR|2.5 / 3.3 / 5.0 / 10%}} of their maximum health per status removed and granting you {{STR|2.5 / 3.3 / 5.0 / 10%}} health regen/s for {{DUR|4s}} per enemy affected.",
+						["volume"] = 23,
+					},
+					["Infectious Effigy"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord InfectiousEffigyMod.png",
+						["description"] = "Your molted skin can now carry pustules that were the result of transmission from an infected enemy, with the same limitations as an enemy unit. Enemies may pop these pustules as they shoot the decoy. Your molted skin is created with an initial '''0 / 1 / 2 / 3''' Pustules.",
+						["volume"] = 16,
+						["set"] = "Scourge",
+					},
+					["Neurotoxin"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord NeurotoxinMod.png",
+						["description"] = "Enemies afflicted with pustules have a '''35 / 33 / 50 / 100%''' chance to receive Toxin Status from any damage received.",
+						["volume"] = 34,
+					},
+				},
+			},
+			["Molt"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Molt130xWhite.png",
+				["augments"] = {
+					["Plague Carriers"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PlagueCarriersMod.png",
+						["description"] = "Your shed skin is now an unarmed specter that continuously shuffles toward the nearest enemy at {{RNG|2m}}/s. Skin limit increased by '''0 / 1 / 2 / 3'''.",
+						["volume"] = 26,
+						["set"] = "Scourge",
+					},
+					["Rapid Molt"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RapidMoltMod.png",
+						["description"] = "Instead of creating a decoy, Molt sprays toxic quills at visible enemies within {{RNG|6 / 8 / 10 / 12m}} that each deal {{STR|250 / 300 / 350 / 400}} Toxin damage. Deals between 1.5x and 12x Damage based on your Ability Combo Multiplier, and will generate 1 Ability Combo Point per enemy hit. Targets already afflicted with Pustules are blinded for {{DUR|6}}s.",
+						["volume"] = 3,
+					},
+				},
+			},
+			["Toxic Lash"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "ToxicLash130xWhite.png",
+				["augments"] = {
+					["Toxic Lasher"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ToxicLasherMod.png",
+						["description"] = "Toxic Lasher becomes a moddable melee weapon with {{STR|300}} base Toxin damage, 100% Status Chance and an innate {{STR|40 / 48 / 52 / 60%}} bonus damage per Toxin-based status on the target. Use '''3''' to swap your Melee Weapon to the Toxic Lasher that drains 2.5 energy/s.",
+						["volume"] = 23,
+					},
+				},
+			},
+			["Miasma"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Miasma130xWhite.png",
+				["augments"] = {
+					["Heavy Miasma"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord HeavyMiasmaMod.png",
+						["description"] = "Instead of dealing 4x Damage to enemies affected by Spores, Miasma now registers as a Heavy Attack, consuming '''100 / 75 / 60 / 45%''' of your Ability Combo Points to deal 3x Heavy Damage, which is further modified by your Ability Combo Multiplier.",
+						["volume"] = 34,
+					},
+					["Hemoplague"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord HemoplagueMod.png",
+						["description"] = "Enemies damaged by Miamia are made permanently more vulnerable to Viral Status Effects, causing damage dealt to Shields and Overguard to also be amplified. Additionally, '''0.25 / 0.33 / 0.5 / 1.0x''' bonus damage dealt by Viral is tracked and dealt again when the status expires.",
+						["volume"] = 23,
+					},
+				},
+			},
+		},
+	},
+	["Sevagoth"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Sevagoth_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+				},
+			},
+			["Reap"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Reap130xWhite.png",
+				["augments"] = {
+					["In Sol's Shadow"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord InSol's ShadowMod.png",
+						["description"] = "Hold '''1''' while Reap's Shadow is active to trade positions with your Shadow, dealing {{STR|125 / 250 / 375 / 500}} Radiation damage in a {{DUR|16m}} radius around both.",
+						["volume"] = 17,
+					},
+					["Shadow's Domain"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Shadow'sDomainMod.png",
+						["description"] = "Base duration increased by '''1.5 / 3 / 4.5 / 6s''' but Shadow can no longer move beyond Gloom's maximum radius. This applies to both Exalted Shadow and Reap's Shadow, which will automatically acquire new targets for the duration.",
+						["volume"] = 17,
+					},
+				},
+			},
+			["Sow"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Sow130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Gloom"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Gloom130xWhite.png",
+				["augments"] = {
+					["Death's Respite"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Death'sRespiteMod.png",
+						["description"] = "Allies within Gloom's aura cannot have their life reduced below {{STR|25 / 33 / 50 / 100}}. Allies at the threshold will trigger Gloom's energy drain per instance of damage mitigated. Gloom's base range values are halved.",
+						["volume"] = 17,
+					},
+					["Depths of Despair"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Depthsof DespairMod.png",
+						["description"] = "Gloom now affects Fishing targets. Fish have a '''20 / 25 / 33 / 50%''' chance to be larger.",
+						["volume"] = 26,
+						["exilus"] = true,
+					},
+					["Eternal Gloom"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord EternalGloomMod.png",
+						["description"] = "You instead create a {{RNG|5 / 8 / 11 / 16m}}-radius pocket of gloom centered at the target location that shrinks to a {{RNG|1 / 2 / 3 / 4m}}-radius over {{DUR|30s}}. Enemies killed inside will extend the duration by {{DUR|1s}} but will not replenish its range. Maintain up to 3 pockets.",
+						["volume"] = 17,
+					},
+					["Gloom Aura"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord GloomAuraMod.png",
+						["description"] = "Allies within Affinity Range benefit from {{STR|2 / 3 / 4 / 5%}} Life Steal, but Gloom's active no longer grants Life Steal. Gloom's maximum radius is reduced by half.",
+						["volume"] = 17,
+						["aura"] = true,
+					},
+					["Winter Gloom"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord WinterGloomMod.png",
+						["description"] = "Gloom now applies Cold Status every second, instead of its own slow. Enemies affected by Gloom are permanently more vulnerable to Cold Status, causing them to have '''16.7 / 20 / 25 / 33%''' chance to drop additional loot if slain while Frozen.",
+						["volume"] = 29,
+					},
+				},
+			},
+			["Exalted Shadow"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "ExaltedShadow130xWhite.png",
+				["augments"] = {
+					["Sacrificial Shadow"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SacrificialShadowMod.png",
+						["description"] = "Sevagoth's Shadow will now obliterate barriers on-collision. Shadows produced by Reap are dispelled, while Exalted Shadow will take a single instance of '''3 / 2.5 / 2 / 1.5x''' nullification damage.",
+						["volume"] = 30,
+					},
+				},
+			},
+		},
+	},
+	["Sevagoth's Shadow"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Sevagoth_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["ability_icon"] = "PassiveAbility.png",
+				["hotkey"] = 0,
+				["augments"] = {
+					["Blood Tapped"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ShadowBlood TappedMod.png",
+						["description"] = "'''25 / 33 / 50 / 100%''' of excess Energy from Energy Orbs collected by Shadow is now granted to Sevagoth. You may pick-up energy orbs while at full energy.",
+						["volume"] = 29,
+					},
+					["Reaper's Harvest"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ShadowReaper's HarvestMod.png",
+						["description"] = "Shadow's Claws can now rip seeds from enemies. While Exalted Shadow, Sow's remaining duration is extended each time the effect is triggered.",
+						["volume"] = 30,
+					},
+					["Untethered Shadow"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ShadowUntethered ShadowMod.png",
+						["description"] = "Sevagoth's Shadow gains full flight capabilities.",
+						["volume"] = 2,
+						["exilus"] = true,
+						["drain"] = "5",
+					},
+				},
+			},
+			["Embrace"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Embrace130xWhite.png",
+				["augments"] = {
+					["Demonic Embrace"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ShadowDemonic EmbraceMod.png",
+						["description"] = "There is a '''25 / 33 / 50 / 100%''' chance per enemy hit by Embrace for the effects to recur, stacking additively but not exceeding 100%. The chance per enemy hit is halved on each recurrence. Recasting will end the current barrage.",
+						["volume"] = 17,
+					},
+				},
+			},
+			["Consume"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Consume130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Death's Harvest"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "DeathsHarvest130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Reunite"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Reunite130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Shadow Claws"] = {
+				["template_type"] = "Wepaon",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Shatterbird"] = {
+		["equip_type"] = "Warframe",
+		["official"] = false,
+		["icon"] = false,
+		["abilities"] = {
+			["Rocket Storm"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = false,
+				["augments"] = {
+				},
+			},
+			["Ballistic Support"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = false,
+				["augments"] = {
+				},
+			},
+			["Electromagnetic Pulse"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = false,
+				["augments"] = {
+				},
+			},
+			["Carrier Mode"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = false,
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Styanax"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Styanax_Thumb.png",
+		["abilities"] = {
+			["Hoplite"] = {
+				["ability_icon"] = "PassiveAbility.png",
+				["hotkey"] = 0,
+				["augments"] = {
+				},
+			},
+			["Axios Javelin"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "AxiosJavelin130xWhite.png",
+				["augments"] = {
+					["Axios Strike"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AxiosStrikeMod.png",
+						["description"] = "Throwing your javelin is now a '''Hold''' cast. On Tap: Instead thrust forward with your spear, dealing {{STR|1.2 / 1.25 / 1.33 / 1.5x}} damage to all enemies in a line and instantly breaking any shields.",
+						["volume"] = 28,
+					},
+					["Breaching Javelin"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BreachingJavelinMod.png",
+						["description"] = "Axios Javelin now applies '''4 / 6 / 8 / 10''' Magnetic Status to enemies damaged, and can now impale enemies into artificial barriers. Impaling an enemy against an artificial barrier will instantly break the barrier.",
+						["volume"] = 28,
+					},
+					["Piercing Javelin"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PiercingJavelinMod.png",
+						["description"] = "The blast caused by successfully impaling an enemy into a surface will now copy '''25 / 33 / 50 / 100%''' of each Status effect on the impaled target to all enemies affected by the blast.",
+						["volume"] = 27,
+					},
+				},
+			},
+			["Tharros Strike"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "TharrosStrike130xWhite.png",
+				["augments"] = {
+					["Shield Brothers"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ShieldBrothersMod.png",
+						["description"] = "Instead summon the shadows of your fallen brothers in the form of a phalanx for {{DUR|3 / 4 / 5 / 6s}} that renders allies within the formation invulnerable.",
+						["volume"] = 21,
+						["coop"] = "Legends",
+					},
+					["Tharros Protection"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TharrosProtectionMod.png",
+						["description"] = "On Hold: Drain {{EFF|25}} to raise Tharros in a given direction, mitigating incoming damage while limiting you to one-handed actions. After '''2s''', begin draining {{EFF|20 / 18 / 15 / 10}}/s. On Release: you will trigger the normal cast at no extra cost.",
+						["volume"] = 16,
+					},
+				},
+			},
+			["Rally Point"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "RallyPoint130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Final Stand"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "FinalStand130xWhite.png",
+				["augments"] = {
+					["Blot Out The Sun"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BlotOut The SunMod.png",
+						["description"] = "Scoring '''6 / 5 / 4 / 3''' kills with Last Stand permits you to recast from midair.",
+						["volume"] = 26,
+						["exilus"] = true,
+					},
+					["Comet of Legend"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Cometof LegendMod.png",
+						["description"] = "On Hold: Drain {{EFF|100}} to leap, amassing up to 5 ethereal warriors over the next '''2s'''. After '''2s''', begin draining {{EFF|10 + 5/s}} energy/s. On Release: Slam into the target location in sight and deal up to {{STR|5000 / 7500 / 12500 / 20000}} Impact damage (based on time held) while your warriors continue forward as a {{RNG|12m}} wave dealing the same damage to enemies they pass through. ",
+						["volume"] = 16,
+					},
+					["Spear of Dawn"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Spearof DawnMod.png",
+						["description"] = "Hold to instead leap into the air for '''2s''', before crashing down into the target location in sight dealing {{STR|2500 / 3000 / 3500 / 4000}} Impact damage in an explosion and emerging wielding Axiom for {{DUR|6s}}. Axiom deals {{STR|750 / 1000 / 1250 / 1500}} Blast damage and sends enemies ragdolling with slowed time.",
+						["volume"] = 16,
+					},
+				},
+			},
+		},
+	},
+	["Temple"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Temple_Thumb.png",
+		["abilities"] = {
+			["Backbeat"] = {
+				["ability_icon"] = "PassiveAbility.png",
+				["hotkey"] = 0,
+				["augments"] = {
+				},
+			},
+			["Pyrotechnics"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Pyrotechnics.png",
+				["augments"] = {
+					["Stage Presence"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord StagePresenceMod.png",
+						["description"] = "If cast while airborne, Pyrotechnics will now target all enemies within your field of view. Gain '''10 / 20 / 30 / 50'''% Ability Range on Pyrotechnics.",
+						["volume"] = 32,
+					},
+				},
+			},
+			["Overdrive"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Overdrive.png",
+				["augments"] = {
+					["Trigger Finger"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TriggerFingerMod.png",
+						["description"] = "On cast, also gain {{STR|20 / 30 / 40 / 50}}% Critical Chance on melee attacks and shots fired during the backbeat for the ability's duration.",
+						["volume"] = 33,
+					},
+				},
+			},
+			["Ripper's Wail"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Ripper'sWail.png",
+				["augments"] = {
+					["Guitar Solo"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord GuitarSoloMod.png",
+						["description"] = "You can recast Ripper's Wail during the cast time to stack '''6 / 9 / 12 / 15'''s duration. Recasting the ability on the Backbeat will cost no energy. Ripper's Wail's maximum stacked duration is now 180s.",
+						["volume"] = 32,
+					},
+				},
+			},
+			["Exalted Solo"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "ExaltedSolo.png",
+				["augments"] = {
+				},
+			},
+			["Lizzie"] = {
+				["ability_icon"] = "Lizzie.png",
+				["exalted"] = "Primary",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Titania"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Titania_Thumb.png",
+		["abilities"] = {
+			["Upsurge"] = {
+				["ability_icon"] = "PassiveAbility.png",
+				["hotkey"] = 0,
+				["augments"] = {
+					["First Flight"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FirstFlightMod.png",
+						["description"] = "You gain '''100 / 150 / 200 / 300%''' Bullet Jump velocity on a '''20s''' cooldown. Your Bullet Jumps grant '''100%''' Aim Glide duration until you touch the ground.",
+						["volume"] = 12,
+						["exilus"] = true,
+					},
+					["Friend of the Forest"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Friendof the ForestMod.png",
+						["description"] = "Beast type enemies will now refuse to attack you. Conservation targets will be unconcerned by your presence down to a minimum of 2.5m.",
+						["volume"] = 29,
+					},
+					["Queen's Blessing"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Queen'sBlessingMod.png",
+						["description"] = "Triggering Upsurge now heals allies for {{STR|50 / 75 / 100 / 150}} and the healing/s is now modified by Ability Strength. Overhealing is applied as bonus health up to {{STR|300}} and does not stack with other sources. ",
+						["volume"] = 27,
+					},
+				},
+			},
+			["Spellbind"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Spellbind130xWhite.png",
+				["augments"] = {
+					["Midsummer Nightmare"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MidsummerNightmareMod.png",
+						["description"] = "Enemies within the target area are instead transformed into friendly Razorfly Drones for {{DUR|10 / 12 / 14 / 16s}}. Razorfly Drones gain 20% Attack Rate per active Razorfly Drone.",
+						["volume"] = 12,
+					},
+					["Spell Bounding"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SpellBoundingMod.png",
+						["description"] = "Casting Spellbind, Tribute and Lantern while targeting an enemy within {{STR|14m}} will cause you to teleport to your target and perform a melee attack. During Razorwing, Diwata gains '''30 / 45 / 60 / 75 / 90%''' Attraction Range.",
+						["volume"] = 28,
+					},
+				},
+			},
+			["Tribute"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Tribute130xWhite.png",
+				["augments"] = {
+					["Fused Tribute"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FusedTributeMod.png",
+						["description"] = "Gain an additional Offering that gives the effects of all three. Costs '''300 / 270 / 240 / 200%''' more Energy.",
+						["volume"] = 32,
+					},
+					["Startouched Tribute"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord StartouchedTributeMod.png",
+						["description"] = "Gain an additional Offering that grants {{STR|1.3x}} Faction Damage against the target's faction.",
+						["volume"] = 32,
+					},
+					["The Faerie Queen"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TheFaerie QueenMod.png",
+						["description"] = "Tributes will now spawn a {{RNG|5m}}-radius area of Hallowed Ground beneath the target for {{DUR|8 / 12 / 16 / 20s}}, dealing {{STR|25 / 50 / 75 / 100}} Radiation damage per second with {{STR|6 / 9 / 12 / 15}}% Status Chance.",
+						["volume"] = 12,
+						["revised"] = 34,
+						["coop"] = "Faerie",
+					},
+					["Tributaries"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TributariesMod.png",
+						["description"] = "The duration of your Sunfire Offerings is now extended by '''0.25 / 0.3 / 0.5 / 1'''s whenever a buffed ally scores a melee kill; your Moonshadow Offerings by ranged kills; and your Earthbound Offerings by ability kills. The remaining duration cannot exceed the maximum duration.",
+						["volume"] = 27,
+						["revised"] = 32,
+						["credit"] = "A5PECT (Warframe)",
+					},
+				},
+			},
+			["Beguile"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Lantern130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Razorwing"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Razorwing130xWhite.png",
+				["augments"] = {
+					["Glitterdance"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord GlitterdanceMod.png",
+						["description"] = "Diwata gains bonus Weapon Damage and Attraction Range based on the amount of time since your last attack, up to '''150 / 200 / 250 / 300%''' after {{DUR|10s}}. Duration scales inversely with bonus Duration.",
+						["volume"] = 12,
+					},
+					["Lady of the Razorflies"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Ladyof the RazorfliesMod.png",
+						["description"] = "During Razorwing, allies within Affinity Range will also be escorted with '''3 /4 / 5 / 6''' Razorfly Drones.",
+						["volume"] = 15,
+					},
+					["Razor's Edge"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Razor'sEdgeMod.png",
+						["description"] = "Razorwing can now perform Finishers by entering the target and briefly returning to full size. +'''100 / 150 / 200 / 250%''' Gore Chance.",
+						["volume"] = 31,
+					},
+					["Taserflies"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TaserfliesMod.png",
+						["description"] = "Your Razorfly Drones now deals '''35 / 33 / 50 / 100%''' bonus Electricity damage with guaranteed status.",
+						["volume"] = 26,
+					},
+				},
+			},
+			["Dex Pixia"] = {
+				["ability_icon"] = "DexPixia.png",
+				["exalted"] = "Secondary",
+				["augments"] = {
+				},
+			},
+			["Diwata"] = {
+				["ability_icon"] = "Diwata.png",
+				["exalted"] = "Melee",
+				["augments"] = {
+				},
+			},
+			["Razorfly"] = {
+				["ability_icon"] = "IconSentinel.png",
+				["exalted"] = "Companion",
+				["augments"] = {
+				},
+			},
+			["Razorwing (Archwing)"] = {
+				["revised_name"] = "Razorwing",
+				["ability_icon"] = false,
+				["exalted"] = "Archwing",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Trinity"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Trinity_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+					["Specter of Life"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Specterof LifeMod.png",
+						["description"] = "Initiating a revive now summons a spectral copy of Trinity that performs the revive in your place. The specter has {{STR|1 / 1.25 / 1.5 / 2x}} Health.",
+						["volume"] = 29,
+					},
+				},
+			},
+			["Well of Life"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "WellofLife130xWhite.png",
+				["augments"] = {
+					["Font of Life"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Fontof LifeMod.png",
+						["description"] = "You track {{STR|0.2 / 0.4 / 0.6 / 1.0%}} of your damage dealt and that of allies within Affinity Range, up to 100% of your maximum health. Casting instead heals all allies within a {{RNG|5m}} radius area centered on the cursor equal to the contents of your reservoir.",
+						["volume"] = 9,
+					},
+					["Well of Pain"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Wellof PainMod.png",
+						["description"] = "You place a hex on the target ally or '''hold''' to self-cast. Hexed targets reflect {{STR|25 / 33 / 50 / 100%}} of the pre-mitigation damage and status effects suffered. This does not affect the damage taken by the hexed ally.",
+						["volume"] = 20,
+					},
+				},
+			},
+			["Energy Vampire"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "EnergyVampire130xWhite.png",
+				["augments"] = {
+					["Energy Wings"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord EnergyWingsMod.png",
+						["description"] = "On Cast: Instead fly to the target ally or enemy. Recasts within '''8s''' must alternate between allied and enemy targets. On Enemy Target: You will strip {{STR|30 / 45 / 60 / 75}}% of their defenses and replenish {{STR|100}} Energy. On Allied Target: You grant them '''100%''' Ability Efficiency for {{DUR|2s}}.",
+						["volume"] = 20,
+					},
+				},
+			},
+			["Link"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Link130xWhite.png",
+				["augments"] = {
+					["Link Transfer"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord LinkTransferMod.png",
+						["description"] = "On Cast: Instead link to the closest 3 allies within {{RNG|20m}}, redirecting '''100%''' of damage and status effects they suffer to you. You have '''30 / 45 / 60 / 75%''' damage reduction while at least one tether holds.",
+						["volume"] = 20,
+					},
+				},
+			},
+			["Blessing"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Blessing130xWhite.png",
+				["augments"] = {
+					["Blessed Salvation"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BlessedSalvationMod.png",
+						["description"] = "Blessing also grants {{STR|50%}} Revival Progress to downed allies. Blessing can be activated while Trinity is downed on a '''120 / 105 / 90 / 60s''' cooldown.",
+						["volume"] = 9,
+					},
+					["Blessed Winds"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BlessedWindsMod.png",
+						["description"] = "Instead take flight for {{DUR|1.5s}}, unleashing 4 wide waves over the duration that travel {{RNG|50m}} in the target of aim. Allies hit receive Blessing's restoration, while enemies hit are staggered and made '''30 / 45 / 60 / 75%''' more vulnerable to damage. The waves can pass through obstacles.",
+						["volume"] = 20,
+					},
+					["Divine Blessing"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DivineBlessingMod.png",
+						["description"] = "You track {{STR|20 / 25 / 33 / 50%}} of pre-mitigation damage taken, up to 100% of your maximum health. While your reservoir is full, you may cast '''4''' to instead take flight for '''1s''', after which she emits a brilliant light that renders her and allies within Affinity Range invulnerable for {{DUR|4s}}.",
+						["volume"] = 20,
+					},
+				},
+			},
+		},
+	},
+	["Uriel"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = false,
+		["abilities"] = {
+			["Passive"] = {
+				["ability_icon"] = "PassiveAbility.png",
+				["hotkey"] = 0,
+				["augments"] = {
+				},
+			},
+			["Uriel1"] = {
+				["ability_icon"] = "PassiveAbility.png",
+				["hotkey"] = 1,
+				["augments"] = {
+				},
+			},
+			["Uriel2"] = {
+				["ability_icon"] = "PassiveAbility.png",
+				["hotkey"] = 2,
+				["augments"] = {
+				},
+			},
+			["Uriel3"] = {
+				["ability_icon"] = "PassiveAbility.png",
+				["hotkey"] = 3,
+				["augments"] = {
+				},
+			},
+			["Uriel4"] = {
+				["ability_icon"] = "PassiveAbility.png",
+				["hotkey"] = 4,
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Valkyr"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Valkyr_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+					["Undying Rage"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord UndyingRageMod.png",
+						["description"] = "Gain {{STR|25}} to {{STR|100%}} Melee Speed based on your missing health percentage. Drain Energy to stop lethal damage with '''100 / 150 / 200 / 250%''' efficiency.",
+						["volume"] = 21,
+						["revised"] = 34,
+					},
+					["Unseen Predator"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord UnseenPredatorMod.png",
+						["description"] = "Dropping to the ground with a velocity of at least 20m/s will cause you to howl, terrifying unalerted enemies within {{RNG|5 / 6 / 8/ 10m}} for {{DUR|10 / 15 / 20 / 25s}} and gaining {{RNG|5 / 6 / 8/ 10m}} Attraction Range on melee attacks for the next {{DUR|1.5s}}.",
+						["volume"] = 21,
+						["revised"] = 34,
+					},
+				},
+			},
+			["Rip Line"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "RipLine130xWhite.png",
+				["augments"] = {
+					["Puppetmistress"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PuppetmistressMod.png",
+						["description"] = "Hold '''1''' to unleash up to '''2 / 4 / 6 / 10''' Rip Lines that auto-lock onto enemies within your line of sight, up to {{RNG|35m}}, and pull them violently toward Valkyr.",
+						["volume"] = 13,
+						["revised"] = 34,
+					},
+					["Swing Line"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SwingLineMod.png",
+						["description"] = "Instead '''Hold''' to launch your grappling hook, which anchors within the first obstacle it strikes for your '''Wall Latch''' duration or until released. While anchored, you can hang freely, will swing with physics and may use '''Jump''' to shorten and '''Crouch''' to lengthen the rope. +'''45 / 60 / 75 / 90%''' Wall Latch Duration.",
+						["volume"] = 27,
+						["exilus"] = true,
+					},
+					["Whip Line"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord WhipLineMod.png",
+						["description"] = "Your grapple can now punch through units, dealing Puncture damage instead and connecting them to the line. After skewering an enemy, the grapple's remaining range will be clamped at {{RNG|6 / 9 / 12 / 15m}}. Upon reaching maximum range or impacting with terrain, the ability will resolve as normally, with all skewered enemies being pulled to the destination. The final enemy hit will be used as the target, as applicable. Rip Line's arrival damage is increased by '''25 / 33 / 50 / 100'''% per enemy on the line.",
+						["volume"] = 21,
+						["revised"] = 34,
+					},
+				},
+			},
+			["Warcry"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Warcry130xWhite.png",
+				["augments"] = {
+					["Battle Sisters"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BattleSistersMod.png",
+						["description"] = "Instead summon the shadows of your fallen sisters for {{DUR|6 / 9 / 12 / 15s}} that will autonomously perform melee attacks on enemies within {{RNG|5m}}, dealing {{STR|0.167 / 0.2 / 0.25 / 0.33x}} damage.",
+						["volume"] = 13,
+						["coop"] = "Legends",
+					},
+					["Kavat's Cry"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Kavat'sCryMod.png",
+						["description"] = "While active, Valkyr will hurl spines at each enemy within {{RNG|12m}} whenever she performs a Melee Spin or Roll Maneuver, dealing {{STR|100 / 150 / 200 / 250}} base damage that is modified by Valkyr Talons.",
+						["volume"] = 34,
+						["coop"] = "Kavat",
+					},
+				},
+			},
+			["Paralysis"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Paralysis130xWhite.png",
+				["augments"] = {
+					["Paralyzing Strikes"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ParalyzingStrikesMod.png",
+						["description"] = "Instead become empowered by the Fates for {{DUR|3 / 4 / 5 / 9s}}, causing your attacks to ragdoll enemies with {{STR|70 / 80 / 90 / 97.5}}% slowed movement.",
+						["volume"] = 21,
+					},
+					["Permanent Injury"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PermanentInjuryMod.png",
+						["description"] = "Enemies affected by Paralysis are now permanently made vulnerable to Finishers and slowed by '''20 / 25 / 33 / 50%'''.",
+						["volume"] = 29,
+					},
+				},
+			},
+			["Hysteria"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Hysteria130xWhite.png",
+				["augments"] = {
+					["Bloodlust"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BloodlustMod.png",
+						["description"] = "Drain cost adjusted to {{EFF|10 + 1/s}} health. Your Talons' damage is {{STR|20 / 25 / 33 / 50%}} adapted to the enemies' weaknesses. Store {{STR|2 /3 / 4 / 5%}} of damage dealt during Hysteria, which is restored as health on toggle-off. Overhealing will apply as Overguard, up to {{STR|15,000}}. ",
+						["volume"] = 21,
+						["revised"] = 34,
+					},
+					["Ghost of Valhalla"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Ghostof ValhallaMod.png",
+						["description"] = "Valkyr's Talons are now extended by the chains that bound her. Pull yourself toward enemies, throw enemies around and perform pirouettes of gore. Juggle enemies vulnerable to finishers.",
+						["volume"] = "21",
+						["Stance"] = true,
+					},
+					["Hysterical Fixation"] = {
+						["official"] = true,
+						["mod_avail"] = "Conclave",
+						["mod_image"] = "HystericalFixationMod.png",
+						["description"] = "While Hysteria is active, each kill restores '''5 / 10 / 15 / 20%''' Maximum Shields.",
+					},
+				},
+			},
+			["Valkyr Talons"] = {
+				["ability_icon"] = "ValkyrTalons.png",
+				["augments"] = {},
+			},
+		},
+	},
+	["Vauban"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Vauban_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+				},
+			},
+			["Tesla Nervos"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "TeslaNervos130xWhite.png",
+				["augments"] = {
+					["Alternating Current"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AlternatingCurrentMod.png",
+						["description"] = "With 1 Inspiration, Nervo drones will now expend a shock charges whenever the target receives weapons damage.<br/>With 2 Inspiration, Tesla Nervos will gain '''25 / 33 / 50 / 100%''' Power Strength.<br/>With 3 Inspiration, Nervo drones will now regain a shock charge whenever the target receives an Electricity status effect. The number of remaining charges cannot exceed the maximum.",
+						["volume"] = 23,
+						["revised"] = 34,
+						["set"] = "Inspired",
+					},
+					["Disruptor Nervos"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DisruptorNervosMod.png",
+						["description"] = "Nervo drones now resist Nullification, and will apply '''2 / 3 / 4 / 5''' Magnetic Status and the effects of Silence while latched to an enemy.",
+						["volume"] = 34,
+					},
+					["Nervo Network"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord NervoNetworkMod.png",
+						["description"] = "The number of Nervo Drones you deploy per cast is increased to {{RNG|5 / 8 / 10 / 15}}, and the maximum is increased up to 30. Damage received by latched enemies is now propagated to other latched enemies. ",
+						["volume"] = 34,
+					},
+					["Neural Nervos"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord NeuralNervosMod.png",
+						["description"] = "The four highest priority enemies hosting a Nervo will be Mind Controlled to fight for the Tenno Faction. Mind controlled enemies deal {{STR|1 / 1.5 / 2 / 2.5x}} damage. Any damage received from the Tenno Faction is stored and dealt in full when the Mind Control ends.",
+						["volume"] = 34,
+					},
+					["Neural Nervos (Controlled)"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord NeuralNervos (Controlled)Mod.png",
+						["description"] = "The four highest priority enemies hosting a Nervo become subservient to you. They will flock behind you, and only move when you move, aim where you aim, and attack when you attack. Mind controlled enemies deal {{STR|1 / 1.5 / 2 / 2.5x}} damage. Any damage received from the Tenno Faction is stored and dealt in full when the Mind Control ends.",
+						["volume"] = 34,
+					},
+					["Tesla Nemes"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TeslaNemesMod.png",
+						["description"] = "You instead deploy invulnerable Nemes specters, which harass enemies at range. Attacks deal {{STR|100 / 125 / 150 / 200}} Magnetic damage with 50% Status change. At the end of their duration, Nemes will kamikaze, dealing Photon Strike's damage. ",
+						["volume"] = 34,
+					},
+				},
+			},
+			["Minelayer"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Minelayer130xWhite.png",
+				["augments"] = {
+					["Timeless Designs"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord TimelessDesignsMod.png",
+						["description"] = "With 1 Inspiration, Vector Pad is replaced with Jump Pad, which provides vertical lift; Fléchette Orb replaced with Blaze Orb, which deals {{STR|150 / 200 / 250 / 300}} Heat damage; and Tether Coil replaced with Snare Coil, which slows enemies within {{RNG|10m}} by {{STR|55%}}.<br/>With 2 Inspiration, deployed mines will now last until replaced.<br/>With 3 Inspiration, Overdriver's bonus damage is instead adapted to the enemies' weaknesses.",
+						["volume"] = 23,
+						["revised"] = 34,
+						["set"] = "Inspired",
+					},
+				},
+			},
+			["Photon Strike"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "PhotonStrike130xWhite.png",
+				["augments"] = {
+					["Laser Focus"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord LaserFocusMod.png",
+						["description"] = "With 1 Inspiration, the targeting beacon will instead summon a continuous beam of solar plasma for {{DUR|5s}}, dealing {{STR|1000 / 1100 / 1250 / 1500}} Radiation damage/s.<br/>With 2 Inspiration, the targeting beacon now chases the nearest enemy at {{RNG|3m}}/s.<br/>With 3 Inspiration, the targeting beacon's duration will reset each time its designated target dies. ",
+						["volume"] = 23,
+						["revised"] = 34,
+						["set"] = "Inspired",
+					},
+					["Photon Barrage"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PhotonBarrageMod.png",
+						["description"] = "There is a '''25 / 33 / 50 / 100%''' chance per enemy hit by Photon Strike for the effects to recur, stacking additively but not exceeding 100%. The chance per enemy hit is halved on each recurrence. Recasting will end the current barrage.",
+						["volume"] = 16,
+					},
+				},
+			},
+			["Bastille & Vortex"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Bastille130xWhite.png",
+				["augments"] = {
+					["Asteroid Belt"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AsteroidBeltMod.png",
+						["description"] = "Casting Bastille will now initiate an aura centered on Vauban with a {{RNG|5m}}-radius. Trapped enemies are suspended in geostationary orbit, and will take {{STR|20 / 25 / 33 / 50 x Enemy Level}} Impact damage whenever they collide with a surface.",
+						["volume"] = 3,
+						["revision"] = 35,
+						["notes"] = "Damage now scales with enemy level.",
+					},
+					["Accretion Disk"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AsteroidBeltMod.png",
+						["description"] = "While Bastille is active, incoming enemy fire will be reflected at the attacker with {{STR|1.2 / 1.25 / 1.33 / 1.5x}} damage. Base radius is reduced to {{RNG|2.5m}}.",
+						["volume"] = 35,
+					},
+					["Living Bastille"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord LivingBastilleMod.png",
+						["description"] = "Bastille no longer has a limit on the number of enemies that can be suspended by the containment field. Suspended enemies are now susceptible to friendly fire, taking {{STR|0.4 / 0.5 / 0.66 / 1.0x}} damage.",
+						["volume"] = 29,
+					},
+					["Singularity"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SingularityMod.png",
+						["description"] = "Vortex now requires line-of-sight to affect enemies, but enemies caught now ignore surface collision. Corpses linger as a mass of scrap and gore. Magnetic damage is increased by {{STR|5 / 6 / 8 / 10%}} each time an enemy collides with another unit or the core, which grows based on the current modifier.",
+						["volume"] = 4,
+					},
+				},
+			},
+		},
+	},
+	["Voidrig"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Voidrig.png",
+		["abilities"] = {
+			["Necraweb"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Necraweb130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Storm Shroud"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "StormShroud130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Gravemines"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Gravemines130xWhite.png",
+				["augments"] = {
+				},
+			},
+			["Guard Mode"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "GuardMode130xWhite.png",
+				["augments"] = {
+				},
+			},
+		},
+	},
+	["Volt"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Volt_Thumb.png",
+		["abilities"] = {
+			["Static"] = {
+				["ability_icon"] = "PassiveAbility.png",
+				["hotkey"] = 0,
+				["augments"] = {
+					["Electrostatic Repulsion"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ElectrostaticRepulsionMod.png",
+						["description"] = "You gain 1% Evasion for every 10 points of Static, up to '''25 / 33 / 50 / 75%'''. Consumption of Static now benefits from Ability Efficiency. +25% Ability Efficiency on Static.",
+						["volume"] = 29,
+					},
+					["Friction Static"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FrictionStaticMod.png",
+						["description"] = "Static now builds up '''2 / 3 / 4 / 5x''' faster while making continuous contact with the ground.",
+						["volume"] = 14,
+					},
+					["Shocking Performance"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ShockingPerformanceMod.png",
+						["description"] = "Gain '''25 / 50 / 75 / 100%''' Shock Efficiency on Weak Point hits and Heavy Attacks.",
+						["volume"] = 30,
+					},
+				},
+			},
+			["Shock"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Shock130xWhite.png",
+				["augments"] = {
+					["Shock and Awe"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Shockand AweMod.png",
+						["description"] = "On Cast: Instead transform into a bolt of lightning that zips forward at {{RNG|25m/s}} for '''1s''' or toward a target within {{RNG|25m}}, dealing Shock's damage and automatically chaining to additional enemies within {{RNG|6 / 8 / 10 / 12m}}. Shock gains an Ability Combo Multiplier that increments per target hit and has a {{DUR|1.5s}} Combo Timer.",
+						["volume"] = 24,
+						["set"] = "Shocking Speed",
+					},
+				},
+			},
+			["Speed"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Speed130xWhite.png",
+				["augments"] = {
+					["Kinetic Collision"] = {
+						["official"] = true,
+						["mod_avail"] = "Conclave",
+						["mod_image"] = "KineticCollisionMod.png",
+						["description"] = "Running into an opponent increases the duration of Speed by '''1 / 2 / 3 / 4s'''.",
+					},
+					["Molecular Speed"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MolecularSpeedMod.png",
+						["description"] = "Movement speed granted is reduced to {{STR|25%}}, but Speed now also causes you to ignore unit collision as well as '''25 / 33 / 50 / 100'''% Evasion versus projectiles and melee attacks from within your field-of-view.",
+						["volume"] = 17,
+						["set"] = "Shocking Speed",
+					},
+					["Slip Speed"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SlipSpeedMod.png",
+						["description"] = "The bonuses granted by Speed is modified by your current Static, up to '''2 / 4 / 6 / 10x''' at 1000 Static. Speed now grants allies the effects of your Static passive, up to 500 Static.",
+						["volume"] = 14,
+						["set"] = "Grounded",
+					},
+				},
+			},
+			["Electric Shield"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "ElectricShield130xWhite.png",
+				["augments"] = {
+					["Stabalized Shield"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord StabalizedShieldMod.png",
+						["description"] = "Barriers now last until replaced but can no longer be carried. Barrier limit adjusted to '''1 / 2 / 3 / 4'''.",
+						["volume"] = 30,
+					},
+					["Recharge Barrier"] = {
+						["official"] = true,
+						["mod_avail"] = "Universal",
+						["mod_image"] = "RechargeBarrierMod.png",
+						["description"] = "Allies that pass through have {{STR|20 / 25 / 30 / 35%}} of their Shields restored.",
+					},
+				},
+			},
+			["Discharge"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Discharge130xWhite.png",
+				["augments"] = {
+					["Conductive Discharge"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ConductiveDischargeMod.png",
+						["description"] = "Gain {{STR|20 / 25 / 33 / 50}} Overguard and '''1''' Energy each time an enemy is shocked by your abilities, up to {{STR|15,000}} Overguard.",
+						["volume"] = 13,
+						["revised"] = 34,
+						["coop"] = "Conductive",
+					},
+				},
+			},
+		},
+	},
+	["Voruna"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Voruna_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+					["Death Throes"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DeathThroesMod.png",
+						["description"] = "While bleeding out, you can now walk at 50% speed and perform attacks with melee. Melee kills grant 20% Recovery Progress, increased to 60% for priority enemies. You will not automatically recover at 100% Recovery Progress. Instead, you will be prompted to hold the Interact key '''X''' or else recover at the end of your bleedout duration. +'''10 / 20 / 30 / 40%''' Bleedout Duration.",
+						["volume"] = 34,
+					},
+					["Pack Hunter"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PackHunterMod.png",
+						["description"] = "You can now maintain up to '''2 / 2 / 3 / 4''' unique Guardians concurrently, but deploying a guardian now drains {{EFF|25}} and has a duration of {{DUR|30s}}.",
+						["volume"] = 30,
+						["credit"] = "Prosaibo (???)",
+					},
+					["Ravenous Fangs"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RavenousFangsMod.png",
+						["description"] = "Your active Guardian will now perform melee attacks on enemies within 30m. Ravenous Fangs becomes a moddable Beast Weapon in your Arsenal with {{STR|30 / 35 / 40 / 45}} base Slash Damage.",
+						["volume"] = 31,
+					},
+				},
+			},
+			["Shroud of Dynar"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "ShroudofDynarIcon.png",
+				["augments"] = {
+					["Dynar's Hunger"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Dynar'sHungerMod.png",
+						["description"] = "On Cast: You also gain the ability to see enemies within {{RNG|15}} to {{RNG|30m}} through walls for {{DUR|8 / 10 / 12 / 14s}}, seeing lower health enemies from further away. Fangs of Raksh can now target any enemy that Voruna can see, irrelevant of obstacles.",
+						["volume"] = 26,
+					},
+					["Glimpse of Dynar"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Glimpseof DynarMod.png",
+						["description"] = "Voruna's first attack out of invisibility will mark enemies damaged. Slaying a marked target will remove all marks and recast Shroud of Dynar at no cost for '''50 / 66 / 75 / 100%''' of the remaining Stealth duration.",
+						["volume"] = 26,
+					},
+					["New Packmates"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord NewPackmatesMod.png",
+						["description"] = "+'''25 / 33 / 50 / 100%''' Affinity Range. Casting Shroud of Dynar while Dynar is your active guardian will share the effects with all allies within Affinity Range. Likewise, if you cast Lycath Hunt while Lycath is your active guardian.",
+						["volume"] = 30,
+					},
+				},
+			},
+			["Fangs of Raksh"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "FangsofRakshIcon.png",
+				["augments"] = {
+				},
+			},
+			["Lycath's Hunt"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Lycath'sHuntIcon.png",
+				["augments"] = {
+					["Lycath's Domain"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Lycath'sDomainMod.png",
+						["description"] = "Lycath instead claims a {{RNG|9 / 10 / 12 / 15m}} radius area as their territory. All allies within Lycath's Domain benefit from the effects of Lycath's Hunt. The effect lasts 3 seconds, extended indefinitely while Voruna is within the area.",
+						["volume"] = 26,
+					},
+					["Lycath's Frenzy"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Lycath'sFrenzyMod.png",
+						["description"] = "Instead of Heavy Attack efficiency, Lycath's passive now grants '''14.3 / 16.7 / 20 / 25%''' Attack Speed. This effect is quadrupled for {{DUR|2s}} when you damage an enemy below Finisher threshold.",
+						["volume"] = 26,
+					},
+					["Lycath's Resolve"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						["helminth"] = true,
+						--["mod_image"] = "Emptylord Lycath'sResolveMod.png",
+						["description"] = "DESCRIPTION",
+						["volume"] = 33,
+					},
+				},
+			},
+			["Ulfrun's Descent"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Ulfrun'sDescentIcon.png",
+				["augments"] = {
+					["Eternal Descent"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord EternalDescentMod.png",
+						["description"] = "Instead drains {{EFF|25}} per pounce. Stacking modifier per kill adjusted to {{STR|10 / 15 / 20 / 35%}}. Bonus will decay after {{DUR|10s}}. Animation is maintained while you have stacks.",
+						["volume"] = 26,
+					},
+					["Taste of Blood"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Tasteof BloodMod.png",
+						["description"] = "Instead of resisting death, Ulfrun's passive now restores health equal to {{STR|2 / 3 / 4 / 5%}} of damage dealt by Slash as well as Bleed status effects within {{RNG|2.5m}}.",
+						["volume"] = 26,
+					},
+					["Ulfrun's Duress"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Ulfrun'sDuressMod.png",
+						["description"] = "Instead drain {{EFF|100 / 85 / 60 / 50}} to leap on the target enemy and perform up to 5 brutal attacks against them. The target cannot move during the assault or, if immune, will instead carry Voruna.",
+						["volume"] = 26,
+					},
+					["Ulfrun's Loyalty"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Ulfrun'sLoyaltyMod.png",
+						["description"] = "Enemy who die within 1.5s of being damaged by you will reduce the cooldown of Ulfrun's protection by 1s, increased to 3s for priority enemies. If available, you may summon Ulfrun during bleed-out to instantly generate 100% Recovery Progress.",
+						["volume"] = 34,
+					},
+					["Ulfrun's Maw"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Ulfrun'sMawMod.png",
+						["description"] = "Ulfrun's Maw become a moddable melee weapon in your arsenal with {{STR|300 / 400 / 550 / 800}} base Slash damage, allowing you to configure its damage distribution.",
+						["volume"] = 26,
+					},
+					["Ulfrun's Throes"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Ulfrun'sThroesMod.png",
+						["description"] = "Triggering Ulfrun's Protection grants +'''10 / 15 / 20 / 25%''' Melee Follow Through, stacking up to '''40 / 60 / 80 / 100%'''. Stacks persist during Bleedout, but will be removed upon death.",
+						["volume"] = 34,
+					},
+				},
+			},
+		},
+	},
+	["Wisp"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Wisp_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+					["Seering Visage"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SeeringVisageMod.png",
+						["description"] = "Instead of visible, instead blaze with searing light - degrading the accuracy of enemies who can see you by '''2.5 / 5 / 7.5 / 10%'''/s.",
+						["volume"] = 27,
+					},
+				},
+			},
+			["Reservoirs"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Reservoirs130xWhite.png",
+				["augments"] = {
+					["Aeroponics"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AeroponicsMod.png",
+						["description"] = "A single Reservoir is now maintained above your shoulder that empowers allies within {{RNG|12m}}. On Hold: Cycle between available reservoirs. On Tap: Change your active Reservoir, also boosting its range '''3.5 / 4.0 / 4.5 / 5.0x''' for the first 5 seconds.",
+						["volume"] = 24,
+						["exilus"] = true,
+					},
+					["Aptitude"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord AptitudeMod.png",
+						["description"] = "Adds a fourth reservoir that gives 35% Casting Speed and '''11 / 14 / 17 / 20%''' Ability Efficiency. Aptitude Motes cause Sol Gate to tick every 0.33s.",
+						["volume"] = 31,
+					},
+					["Renewing Reservoirs"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RenewingReservoirsMod.png",
+						["description"] = "Each of your Reservoirs will now refresh the duration of all Motes on an ally. +'''0 / 1 / 2 / 3''' Maximum Reservoirs",
+						["volume"] = 18,
+					},
+				},
+			},
+			["Wil-O-Wisp"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "WilOWisp130xWhite.png",
+				["augments"] = {
+					["Fae Etiquette"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord FaeEtiquetteMod.png",
+						["description"] = "Your copy now has '''4 / 6 / 8 / 10m''' Vacuum radius.",
+						["volume"] = 28,
+					},
+					["Wil-O-Witch"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Wil-O-WitchMod.png",
+						["description"] = "Hold '''2''' to instead take flight in the target location, draining {{EFF|10}}/s until released. You leave behind a stationary decoy with '''1.25 / 1.75 / 22.25 / 3x''' base duration.",
+						["volume"] = 17,
+					},
+				},
+			},
+			["Breach Surge"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "BreachSurge130xWhite.png",
+				["augments"] = {
+					["Concurrent Surges"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ConcurrentSurgesMod.png",
+						["description"] = "You can no longer target and teleport to active Reservoirs. Instead, copies of Breach Surge will originate from all active Reservoirs with {{RNG|1 / 1.25 / 1.5 / 2.0x}} radius of effect.",
+						["volume"] = 18,
+					},
+					["Grave Surge"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord GraveSurgeMod.png",
+						["description"] = "Instead of having a chance to spawn sparks on-damage, spawn {{RNG|3 / 4 / 5 / 6}} sparks on-kill.",
+						["volume"] = 28,
+					},
+					["Propagating Surges"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PropagatingSurgesMod.png",
+						["description"] = "Enemies damaged by a Surge Spark will be marked as if hit by Breach Surge for the remaining duration. Surge Sparks deal '''50 / 33 / 25 / 20%''' less damage with each generation.",
+						["volume"] = 1,
+					},
+					["Radiant Surge"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RadiantSurgeMod.png",
+						["description"] = "Hold '''3''' to maintain the breach about yourself for {{DUR|2s}}. Enemies not affected on-cast will be affected as they come in range (line-of-sight permitting). Costs '''300 / 250 / 200 / 150%''' energy.",
+						["volume"] = 18,
+					},
+				},
+			},
+			["Sol Gate"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "SolGate130xWhite.png",
+				["augments"] = {
+					["Solar Railgun"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SolarRailgunMod.png",
+						["description"] = "Hold '''4''' to begin an extended cast animation, after which you unleash a singular burst that deals {{STR|5000 / 5500 / 6200 / 7500}} damage to all enemies in the target direction irrelevant of range or obstructions. Costs {{EFF|50}} energy.",
+						["volume"] = 8,
+					},
+					["Sun Block"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SunBlockMod.png",
+						["description"] = "Instead of dealing damage, gain a '''25 / 33 / 50 / 100%''' chance to disintegrate all incoming projectiles and melee weapons caught within your {{RNG|13m}}-radius, {{RNG|2m}} wide beam of solar plasma.",
+						["volume"] = 25,
+					},
+					["Sundancer"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SundancerMod.png",
+						["description"] = "Instead manifest a miniature sun at the target location that deals up to {{STR|1000 / 1100 / 1250 / 1500}} damage/s to enemies within line of sight, diminishing with distance. Maintaining the sun is a one-handed animation. Hold '''4''' to relocate.",
+						["volume"] = 8,
+					},
+					["Sunspot"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SunspotMod.png",
+						["description"] = "Instead of dealing damage, enemies illuminated by Sol Gate have their outgoing damage reduced by {{STR|20 / 25 / 33 / 50%}}. '''LMB''' now expands the spotlight to affect all enemies within your field-of-view but diminishes the effect to {{STR|16.7 / 20 / 25 / 33%}} reduction.",
+						["volume"] = 25,
+					},
+					["Superbloom"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SuperbloomMod.png",
+						["description"] = "Reservoirs bathed in plasma bloom into Thornspitters, which deal {{STR|50}} x Enemy Level true damage to enemies within {{RNG|30m}} with 1.2 attack rate. They will revert to reservoirs after {{DUR|1s}} per second of sunlight received, up to {{DUR|30s}} in reserve.",
+						["volume"] = 23,
+					},
+				},
+			},
+		},
+	},
+	["Wukong"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Wukong_Thumb.png",
+		["abilities"] = {
+			["Immortal Techniques"] = {
+				["ability_icon"] = "PassiveAbility.png",
+				["hotkey"] = 0,
+				["augments"] = {
+					["Redundant Immortality"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RedundantImmortalityMod.png",
+						["description"] = "Immortal Techniques can now trigger any number of times by expending a Celestial Twin, but will not trigger if your Celestial Twin is not active. Once a specific Technique has been triggered, it cannot trigger again until all other Techniques have been attempted.",
+						["volume"] = 26,
+						["set"] = "Calamity",
+					},
+				},
+			},
+			["Celestial Twin"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "CelestialTwin130xWhite.png",
+				["augments"] = {
+					["Celestial Army"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CelestialArmyMod.png",
+						["description"] = "On Cast: Designate up to ▲ → {{RNG|4 / 5 / 6 / 7}} enemies within your field of view up to {{RNG|30m}} range, and summon a Celestial Twin to attack each of them. These Celestial Twins wield Iron Staff, have {{STR|1x}} health and {{STR|0.5x}} damage, and will vanish upon the death of their target or after {{DUR|3s}}.",
+						["volume"] = 25,
+						["set"] = "Calamity",
+					},
+					["Celestial Arsenal"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CelestialArsenalMod.png",
+						["description"] = "You will now spawn up to 2 Celestial Twins, one per holstered weapon in your Loadout. You and your Celestial Copies each '''1x''' health and deal {{STR|0.66x}} damage. Tap '''1''' while targeting a copy to trade positions.",
+						["volume"] = 26,
+					},
+					["Celestial Copycat"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CelestialCopycatMod.png",
+						["description"] = "Your Celestial Twin will now equip the same weapon as you and can now mimic your Heavy Weapon. You are '''50 / 33 / 25 / 20%''' less efficiency with Ammo.",
+						["volume"] = 9,
+						["exilus"] = true,
+					},
+					["Controlled Twin"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ControlledTwinMod.png",
+						["description"] = "Your Celestial Twin is now an invulnerable and intangible Doppelgänger. Celestial Twin now has a {{DUR|10 / 15 / 20 / 25s}} duration.",
+						["volume"] = 34,
+						["exilus"] = true,
+					},
+					["Monkey Madness"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MonkeyMadnessMod.png",
+						["description"] = "Allies within Affinity Range gain 15% Fire Rate and 20% Attack Speed. Both Wukong and his Twin grant 1 stack of this aura, up to 8 stacks.",
+						["volume"] = 14,
+						["aura"] = true,
+					},
+					["Pilfering Twin"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PilferingTwinMod.png",
+						["description"] = "Your Celestial Twin no longer engages in combat and instead focuses on Pickpocketing enemies while their attention is on you. Enemies you kill have an 18% chance to drop additional loot, tripled for Weak Point and Mercy kills.",
+						["volume"] = 30,
+					},
+				},
+			},
+			["Cloud Walker"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "CloudWalker130xWhite.png",
+				["augments"] = {
+					["Cloud Step"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CloudStepMod.png",
+						["description"] = "Cloud Walker now uses Hybrid Casting. On Tap: Become invulnerable for 0.25s, also gaining a burst of forward momentum and cleansing status effects. Apply Cloud Walker's stun to nearby enemies. While Held: Maintain Cloud Walker.",
+						["volume"] = 34,
+						["restrict"] = "{{m|Rolling Guard}}",
+					},
+					["Storm Cloud"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord StormCloudMod.png",
+						["description"] = "Enemies you pass through are now coated in static, making them {{STR|25 / 33 / 50 / 100%}} more vulnerable to Status Effects.",
+						["volume"] = 27,
+					},
+				},
+			},
+			["Defy"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Defy130xWhite.png",
+				["augments"] = {
+					["Defiant Force"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DefiantForceMod.png",
+						["description"] = "Each attack you block during Defy now increments your melee combo counter by '''1 / 2 / 3 / 4'''. Defy no longer amplifies incoming damage, and the circular swing's damage is instead modified by your melee combo multiplier.",
+						["volume"] = 28,
+					},
+					["Defiant Jab"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DefiantJabMod.png",
+						["description"] = "Upon completing the circular swing, you then stab forward with your Iron Staff dealing {{STR|500 / 600 / 700 / 800}} plus the accumulated damage to enemies within a {{RNG|24m}} line.",
+						["volume"] = 28,
+					},
+					["Defiant Shield"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DefiantShieldMod.png",
+						["description"] = "Defy now intercept damage aimed at allies within {{RNG|3 / 4 / 5 / 6m}}. Upon completion, allies within Affinity Range also gain armor. Your Celestial Twin will move to protect the ally who is furthest away (within tether range).",
+						["volume"] = 28,
+					},
+					["Defiant Techniques"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DefiantTechniquesMod.png",
+						["description"] = "Fully charging Defy will trigger an Immortal Technique upon resolution. Defiant Techniques have only '''20 / 25 / 33 / 50%''' duration.",
+						["volume"] = 1,
+					},
+					["Defiant Typhoon"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DefiantTyphoonMod.png",
+						["description"] = "Defy now focuses the winds into a '''20 / 25 / 30 / 40m'''-length typhoon that deals its stored damage per second to enemies in front of you. Defy's duration is increased by 0.5s each time you receive damage, not exceeding the maximum duration. Defy no longer has an on-second-cast effect.",
+						["volume"] = 34,
+					},
+				},
+			},
+			["Primal Fury"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "PrimalFury130xWhite.png",
+				["augments"] = {
+					["Infinite Staff"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord InfiniteStaffMod.png",
+						["description"] = "Iron Staff now has infinite range, but has '''3.0 / 2.65 / 2.3 / 2.0x''' upkeep cost. Only enemies behind cover are spared Wukong's fury.",
+						["volume"] = 14,
+						["exilus"] = true,
+					},
+					["Iron Cyclone"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord IronCycloneMod.png",
+						["description"] = "Instead spin your Iron Staff about you, periodically dealing the weapon's damage to all enemies within {{RNG|5m}} as well as applying Lifted the first time an enemy is damaged. Generates melee combo per enemy hit. Celestial Twin will mimic Iron Cyclone, dealing {{STR|0.2 / 0.25 / 0.33 / 0.5x}} damage.",
+						["volume"] = 25,
+					},
+				},
+			},
+			["Iron Staff"] = {
+				["ability_icon"] = "IronStaff.png",
+				["augments"] = {}
+			},
+		},
+	},
+	["Xaku"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Xaku_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+				},
+			},
+			["Xata's Whisper"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "Xata'sWhisper130xWhite.png",
+				["augments"] = {
+					["Untime Rounds"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord UntimeRoundsMod.png",
+						["description"] = "Your attacks will now punch through up to '''1 / 2 / 3 / 4''' bullet attractor fields, while simultaneously splitting in time to be redirected by the bullet attractor field.",
+						["volume"] = 35,
+					},
+					["Xata's Bellow"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Xata'sBellowMod.png",
+						["description"] = "Hold-cast to drain 100% of your energy, gaining up to {{STR|2.0 / 2.5 / 3.0 / 3.5x}} damage based on the percentage of your maximum energy expended for the duration of Xata's Whisper. Energy expended to cast Xata's Bellow cannot be recovered while Xata's Bellow is active. Hold-cast to dispel. Bonus is halved if Xata's Whisper is your Subsume Ability. ",
+						["volume"] = 35,
+					},
+				},
+			},
+			["Grasp of Lohk"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "GraspofLohk130xWhite.png",
+				["augments"] = {
+					["Insatiable Grasp"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord InsatiableGraspMod.png",
+						["description"] = "The ability can now always be recast. If your floating arsenal is full, weapons you grasp from enemies are turned into Universal Ammo pickups. +'''0 / 5 / 10 / 15m''' Vacuum Range",
+						["volume"] = 31,
+					},
+					["Veil of Mortality"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Veilof MortalityMod.png",
+						["description"] = "On Hold: The tendrils instead grasp at your enemy's life force, briefly slowing them by '''99%''' and permanently reducing their maximum hitpoints by '''20 / 25 / 33 / 50%'''.",
+						["volume"] = 19,
+					},
+				},
+			},
+			["The Lost"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "TheLost130xWhite.png",
+				["augments"] = {
+					["Accuser's Defense"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Accuser'sDefenseMod.png",
+						["description"] = "The Void Fissure now remains open until replaced, maintaining its corrupting influence on up to {{STR|4}} enemies within {{RNG|5 / 7 / 9 / 11m}} and willing them to defend it. Fissures can be destroyed by enemy fire and you can maintain up to 3.",
+						["volume"] = 19,
+					},
+					["Accuser's Vitriol"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Accuser'sVitriolMod.png",
+						["description"] = "Enemies touched by the Void Fissure instead receive Void Status with {{DUR|20 / 25 / 33 / 50}}% bonus Void Status Duration.",
+						["volume"] = 32,
+					},
+					["Defile The Lost"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DefileThe LostMod.png",
+						["description"] = "Instead surround yourself with the three orbiting Souls for {{DUR|3s}}, each contributing {{STR|25 / 33 / 50 / 100}} Void damage/s to enemies within a {{RNG|10m}} radius. Each enemy killed within the mist stacks the number of souls with no upper limit and extends the duration by ◔1s]. The remaining duration cannot exceed the maximum duration.",
+						["volume"] = 19,
+					},
+					["Divining Gaze"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DiviningGazeMod.png",
+						["description"] = "You instead release a continuous beam in the direction of aim for {{DUR|0.75s}}. Enemies can only be affected once per cast, and will also be suspected for {{DUR|5 / 8 / 11 / 14}}s.",
+						["volume"] = 34,
+					},
+					["Lohk's Gaze"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Lohk'sGazeMod.png",
+						["description"] = "Gaze's projectile is now '''1 / 2 / 3 / 5%''' wider per active Void Replica, and now has infinite terrain punch through. ",
+						["volume"] = 19,
+					},
+					["Martyr's Denial"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Martyr'sDenialMod.png",
+						["description"] = "Enemies within Deny's aura are no longer stripped of their defenses. Instead, {{STR|20 / 30 / 40 / 50%}} of the weapon or ability damage applied to the totem is spread to other enemies within the aura.",
+						["volume"] = 19,
+					},
+				},
+			},
+			["The Vast Untime"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "TheVastUntime130xWhite.png",
+				["augments"] = {
+					["Recurrent Time"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RecurrentTimeMod.png",
+						["description"] = "On Tap: Xaku begins channelling, draining {{STR|10 / 10.83 / 12.5 / 15%}} of your base energy per tick to record all movement, weapon actions and abilities cast. On Recast: Your chassis breaks free of your body and manifests back at the initial cast location, repeating your recorded actions for the next {{RNG|10 / 15 / 20 / 25s}}. On Hold: End all effects.",
+						["volume"] = 19,
+						["revised"] = 30,
+					},
+					["Untimely Guard"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord UntimelyGuardMod.png",
+						["description"] = "On Dodge: Gain 3 seconds of The Vast Untime at no cost and remove all Status Effects. '''12 / 10 / 8.5 / 7''' second cooldown. This will extend the duration of The Vast Untime if already active, but not exceeding its maximum duration.",
+						["volume"] = 27,
+						["restrict"] = "{{m|Rolling Guard}}",
+					},
+					["Vast Amalgam"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord VastAmalgamMod.png",
+						["description"] = "On Cast: Defile the surrounding area, amassing material from kills and detritus into a chassis that reduces incoming damage. 1.5s assist timer on squad kills. Gain {{STR|3%}} Damage Reduction for every corpse gored, and for each object or resource destroyed. Damage Reduction stacks up to 75%. On Hit: Lose 1% Bone Armor, up to 1/s. Bone Armor stacks when recast.",
+						["volume"] = 19,
+						["revised"] = 30,
+					},
+				},
+			},
+		},
+	},
+	["Yareli"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Yareli_Thumb.png",
+		["abilities"] = {
+			["Critical Flow"] = {
+				["ability_icon"] = "PassiveAbility.png",
+				["hotkey"] = 0,
+				["augments"] = {
+					["Nimble Fingers"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord NimbleFingersMod.png",
+						["description"] = "Gain '''6 / 9 / 12 / 15%''' Ammo Efficiency while Critical Flow is active. This is increased to '''18 / 27 / 36 / 45%''' while riding Merulina.",
+						["volume"] = 18,
+					},
+					["Thermal Vents"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ThermalVentsMod.png",
+						["description"] = "Sea Snares and Rip Tide now deal '''20 / 25 / 33 / 50%''' additional Heat damage.",
+						["volume"] = 18,
+					},
+				},
+			},
+			["Sea Snares"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "SeaSnares130xWhite.png",
+				["augments"] = {
+					["Ebb and Flow"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Ebband FlowMod.png",
+						["description"] = "Water globules no longer ensnare enemies and deal only one instance of damage. Globlues may also seek-out allies, restoring {{STR|5 / 20 / 35 / 50}} health on Impact. After impacting a target, the globule will then seek out another target within {{RNG|10m}}. This recurs indefinitely but must alternate between enemy and friendly targets. The damage is increased by {{STR|50 / 75 / 100 / 125}} and healing by {{STR|2.5 / 10 / 15 / 25}} per target the globule has hit. While riding Merulina, Yareli can retain up to 5 globules in orbit in the event that no enemy targets are in range.",
+						["volume"] = 17,
+					},
+				},
+			},
+			["Merulina"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Merulina130xWhite.png",
+				["augments"] = {
+					["Ocean Derby"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord OceanDerbyMod.png",
+						["description"] = "Merulina is replaced with Orbiraja, a pair of roller skates with a speed of 10m/s and sprint speed of 15.95m/s. Orbiraja accepts K-Drive mods and may perform tricks, but has a maximum trick multiplier of 6x. Orbiraja interacts with your abilities as-if Merulina. Orbiraja does not grant Overguard, but while using Orbiraja your Critical Flow also grants '''25 / 33 / 50 / 95%''' evasion.",
+						["volume"] = 27,
+						["exilus"] = true,
+					},
+					["Receding Waters"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RecedingWatersMod.png",
+						["description"] = "Arresting Merulina's momentum with at least 3x Trick Multiplier sends a water duplicate of Yareli surging forward at {{RNG|15m}} to {{RNG|30m}}/s for '''1s''', dealing {{STR|100 / 150 / 200 / 300}} to {{STR|200 / 300 / 400 / 600}} Impact damage to enemies hit. Speed and damage is based on the final Trick Score. Arresting momentum via a landing will cause the duplicate to crash into the ground and disperse over a circular area.",
+						["volume"] = 18,
+					},
+				},
+			},
+			["Merulina (K-Drive)"] = {
+				["official"] = true,
+				["ability_icon"] = "Merulina130xWhite.png",
+				["exalted"] = "K-Drive",
+				["revised_name"] = "Merulina",
+				["augments"] = {
+					["Curb Stomp"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord CurbStompMod.png",
+						["description"] = "You may now perform Finishers while riding Merulina. +'''25 / 50 / 75 / 100%''' Finisher Damage",
+						["volume"] = 30,
+					},
+					["Powered Rails"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PoweredRailsMod.png",
+						["description"] = "Grinding causes Merulina to accelerate, gaining up to {{STR|10 / 15 / 20 / 30%}} movement speed over '''1.5s'''. The bonus persists for {{DUR|1s}} x Trick Score Multiplier. She can accelerate against gravity up to 20{{Degree}}.",
+						["volume"] = 26,
+					},
+					["Pump Kicks"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord PumpKicksMod.png",
+						["description"] = "Performing tricks increases the duration of Aqua Blades by '''0.25 / 0.5 / 0.75 / 1s''', multiplied by your Trick Score Multiplier.",
+						["volume"] = 30,
+					},
+				},
+			},
+			["Aquablades"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Aquablades130xWhite.png",
+				["augments"] = {
+					["Bay Blades"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord BayBladesMod.png",
+						["description"] = "Trick Score on Merulina increases the breadth of the wave surrounding her, extending the outer edge by {{RNG|0.6 / 1.0 / 1.4 / 2m}} per Trick Multiplier. Bonus range stacks with no upper limit but decays at a '''1m'''/s after {{DUR|10s}}.",
+						["volume"] = 8,
+					},
+				},
+			},
+			["Riptide"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Riptide130xWhite.png",
+				["augments"] = {
+					["Rip Ride"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord RipRideMod.png",
+						["description"] = "On Tap: Instead unleash a ➲ '''6 / 8 / 10 / 12m'''-wide wave that crashes forward at '''13m'''/s for {{DUR|2s}}, staggering enemies and dealing Rip Tide's damage to enemies hit.<br/>While riding Merulina, On Hold: You drain '''25'''/s to manifest a ➲ '''5 / 6 / 7 / 8 m''' wave beneath you and gain flight, allowing you to control your altitude with '''Crouch''' and '''Jump'''. The wave staggers enemies and deals Rip Tide's damage every second to enemies under your treads. '''Jump''' to dismount the wave, which then behaves like a '''Tap''' cast wave.",
+						["volume"] = 17,
+					},
+				},
+			},
+		},
+	},
+	["Zephyr"] = {
+		["equip_type"] = "Warframe",
+		["official"] = true,
+		["icon"] = "Zephyr_Thumb.png",
+		["abilities"] = {
+			["Passive"] = {
+				["hotkey"] = 0,
+				["ability_icon"] = "PassiveAbility.png",
+				["augments"] = {
+				},
+			},
+			["Tail Wind"] = {
+				["hotkey"] = 1,
+				["ability_icon"] = "TailWind130xWhite.png",
+				["augments"] = {
+					["Converging Winds"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord ConvergingWindsMod.png",
+						["description"] = "Hold-cast now grants full flight capabilities. While in flight form, instead of toward the aiming reticle, Tail Wind's tap-cast now occurs in the direction you're moving. You can additionally cast this ability using your '''Roll''' hotkey. '''20 / 25 / 33 / 50% Power Efficiency''' on Tail Wind.",
+						["volume"] = 29,
+					},
+					["Harpy's Descent"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Harpy'sDescentMod.png",
+						["description"] = "The air current now strips enemy armor by {{STR|20 / 25 / 33 / 50%}} for {{DUR|6s}}. If cast while grounded, you will instead only dash {{RNG|15m}} but send a gust of wind forward a further {{RNG|30m}}.",
+						["volume"] = 26,
+						["credit"] = "Zaghyr (Warframe)",
+					},
+					["Slip Stream"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SlipStreamMod.png",
+						["description"] = "Your '''Tap''' Casts now trail wind that grants 25m/s movement speed to all units who move in the same direction.",
+						["volume"] = 30,
+						["exilus"] = true,
+					},
+					["Uplift"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord UpliftMod.png",
+						["description"] = "While already hovering, you may hold '''1''' to cruise at sprint speed in the direction of aim while draining an additional {{EFF|5}} per meter travelled.",
+						["volume"] = 30,
+						["exilus"] = true,
+					},
+					["Wind Walker"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord WindWalkerMod.png",
+						["description"] = "Instead, gain 100% reduced gravity and 100% reduced air resistance for {{DUR|2 / 2.5 / 3 / 4}} seconds. Hold to end the effect. While active, Roll will cause you to dash forward at 30m/s, or aim down to Dive Bomb. ",
+						["volume"] = 32,
+					},
+				},
+			},
+			["Airburst"] = {
+				["hotkey"] = 2,
+				["ability_icon"] = "Airburst130xWhite.png",
+				["augments"] = {
+					["Downburst"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord DownburstMod.png",
+						["description"] = "Hold cast instead causes a continuous stream of air to originate from the target surface for 20s, launching units that walk nearby.",
+						["volume"] = 0,
+						["coop"] = "Rain Cycle",
+					},
+					["Wind Sheer"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord WindSheerMod.png",
+						["description"] = "Hold-cast instead grants 90% Melee Follow Through and '''20 / 25 / 33 / 50'''% Physical Status Chance to all allies within {{RNG|15m}} for {{DUR|28 / 32 / 36 / 40}}s. Values in excess of 1.0 will incur an additional melee hit. ",
+						["volume"] = 30,
+						["credit"] = "Zaghyr (Warframe)",
+					},
+				},
+			},
+			["Turbulence"] = {
+				["hotkey"] = 3,
+				["ability_icon"] = "Turbulence130xWhite.png",
+				["augments"] = {
+					["Eye of the Storm"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Eyeof the StormMod.png",
+						["description"] = "Your wind shield now deals Tornado's damage to enemies within ➲ [3 / 4 / 5 / 6m'''. You gain 200% Critical Damage chance versus enemies recently damaged by Eye of the Storm.",
+						["volume"] = 26,
+					},
+					["Monsoon"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord MonsoonMod.png",
+						["description"] = "Turbulence now grants allies Status Immunity and will restore {{STR|15 / 20 / 25 / 30}} health/s. Allies within '''3 / 4 / 5 / 6m''' of a Tornado are similarly healed.",
+						["volume"] = 30,
+					},
+				},
+			},
+			["Tornado"] = {
+				["hotkey"] = 4,
+				["ability_icon"] = "Tornado130xWhite.png",
+				["augments"] = {
+					["Last Breath"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord LastBreathMod.png",
+						["description"] = "Performing a Mercy Kill will spawn 3 stationary Tornadoes for {{DUR|10 / 12 / 15 / 20s}}.",
+						["volume"] = 30,
+						["credit"] = "Zaghyr (Warframe)",
+					},
+					["Storm Chaser"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord StormChaserMod.png",
+						["description"] = "Wandering Tornadoes automatically chase enemies within ➲ '''15 / 17 / 20 / 25m''' at '''5m'''/s.",
+						["volume"] = 8,
+					},
+					["Superstorm"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord SuperstormMod.png",
+						["description"] = "Recasting no longer dispels existing tornadoes, which now persist for their remaining duration. '''+0 / 1 / 2 / 3''' Energy/s while Airborne.",
+						["volume"] = 3,
+					},
+					["Winds of Fortune"] = {
+						["official"] = false,
+						["mod_avail"] = "Cooperative",
+						--["mod_image"] = "Emptylord Windsof FortuneMod.png",
+						["description"] = "Enemies held in a tornado have a '''30 / 35 / 50 / 65%''' chance of dropping additional loot.",
+						["volume"] = 10,
+						["credit"] = "DARCRY10 (Reddit)",
+					},
+				},
+			},
+		},
+	},
+}
+-- </pre>

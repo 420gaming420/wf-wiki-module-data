@@ -1,0 +1,12 @@
+{
+  "page": "Module:Tooltips/dev",
+  "wiki_timestamp": "2025-12-16T20:11:38Z",
+  "extracted_at": "2026-08-31T21:22:45.405336+00:00",
+  "lua_files": [
+    "Module-Tooltips-dev_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 9603,
+  "comment_count": 87,
+  "status": "success"
+}

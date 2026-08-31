@@ -1,0 +1,1 @@
+{{#invoke:Weapons/data/validate|validateAttacks}}

@@ -1,0 +1,10 @@
+local Animal = LCS.class()
+local Feline = Animal:extends()
+local Cat = Feline:extends()
+local Tiger = Feline:extends()
+
+local flash = Cat()
+assert(LCS.instanceOf(flash, Animal))
+assert(LCS.instanceOf(flash, Feline))
+assert(LCS.instanceOf(flash, Cat))
+assert(not LCS.instanceOf(flash, Tiger))

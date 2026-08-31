@@ -1,0 +1,12 @@
+{
+  "page": "Module:FactionScript/data",
+  "wiki_timestamp": "2021-12-07T22:18:59Z",
+  "extracted_at": "2026-08-31T21:22:44.669939+00:00",
+  "lua_files": [
+    "Module-FactionScript-data_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 5684,
+  "comment_count": 0,
+  "status": "success"
+}

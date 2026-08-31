@@ -1,0 +1,14 @@
+{
+  "page": "Module:Weapons/ppdata/seeder",
+  "wiki_timestamp": "2021-12-24T04:11:05Z",
+  "extracted_at": "2026-08-31T21:22:45.978267+00:00",
+  "lua_files": [
+    "Module-Weapons-ppdata-seeder_0.lua",
+    "Module-Weapons-ppdata-seeder_1.lua",
+    "Module-Weapons-ppdata-seeder_2.lua"
+  ],
+  "lua_block_count": 3,
+  "file_size": 20083,
+  "comment_count": 32,
+  "status": "success"
+}

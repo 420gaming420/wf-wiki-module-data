@@ -1,0 +1,12 @@
+{
+  "page": "Module:Focus/data/archived",
+  "wiki_timestamp": "2022-05-07T05:31:56Z",
+  "extracted_at": "2026-08-31T21:22:44.735994+00:00",
+  "lua_files": [
+    "Module-Focus-data-archived_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 31484,
+  "comment_count": 20,
+  "status": "success"
+}

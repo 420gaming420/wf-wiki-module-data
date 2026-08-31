@@ -1,0 +1,15 @@
+{
+  "page": "Module:Enemies/data/doc",
+  "wiki_timestamp": "2026-02-06T02:55:00Z",
+  "extracted_at": "2026-08-31T21:22:44.443950+00:00",
+  "lua_files": [
+    "Module-Enemies-data-doc_0.lua",
+    "Module-Enemies-data-doc_1.lua",
+    "Module-Enemies-data-doc_2.lua",
+    "Module-Enemies-data-doc_3.lua"
+  ],
+  "lua_block_count": 4,
+  "file_size": 1838,
+  "comment_count": 0,
+  "status": "success"
+}

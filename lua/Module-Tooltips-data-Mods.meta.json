@@ -1,0 +1,12 @@
+{
+  "page": "Module:Tooltips/data/Mods",
+  "wiki_timestamp": "2021-06-01T16:12:31Z",
+  "extracted_at": "2026-08-31T21:22:45.400594+00:00",
+  "lua_files": [
+    "Module-Tooltips-data-Mods_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 53,
+  "comment_count": 0,
+  "status": "success"
+}

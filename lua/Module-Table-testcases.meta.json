@@ -1,0 +1,22 @@
+{
+  "page": "Module:Table/testcases",
+  "wiki_timestamp": "2021-09-27T20:12:54Z",
+  "extracted_at": "2026-08-31T21:22:45.351119+00:00",
+  "lua_files": [
+    "Module-Table-testcases_0.lua",
+    "Module-Table-testcases_1.lua",
+    "Module-Table-testcases_2.lua",
+    "Module-Table-testcases_3.lua",
+    "Module-Table-testcases_4.lua",
+    "Module-Table-testcases_5.lua",
+    "Module-Table-testcases_6.lua",
+    "Module-Table-testcases_7.lua",
+    "Module-Table-testcases_8.lua",
+    "Module-Table-testcases_9.lua",
+    "Module-Table-testcases_10.lua"
+  ],
+  "lua_block_count": 11,
+  "file_size": 11047,
+  "comment_count": 3,
+  "status": "success"
+}

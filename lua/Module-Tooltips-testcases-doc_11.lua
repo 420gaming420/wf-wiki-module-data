@@ -1,0 +1,1 @@
+{{#invoke:tooltips|full|Artemis Bow|Ability}}

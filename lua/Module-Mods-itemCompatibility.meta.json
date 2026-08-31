@@ -1,0 +1,12 @@
+{
+  "page": "Module:Mods/itemCompatibility",
+  "wiki_timestamp": "2025-03-01T23:39:57Z",
+  "extracted_at": "2026-08-31T21:22:45.120642+00:00",
+  "lua_files": [
+    "Module-Mods-itemCompatibility_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 1877,
+  "comment_count": 7,
+  "status": "success"
+}

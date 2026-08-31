@@ -1,0 +1,1 @@
+{{#invoke:RemoveCategory|rem|<content>}}

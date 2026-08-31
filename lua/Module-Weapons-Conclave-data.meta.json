@@ -1,0 +1,15 @@
+{
+  "page": "Module:Weapons/Conclave/data",
+  "wiki_timestamp": "2026-06-30T07:44:08Z",
+  "extracted_at": "2026-08-31T21:22:45.675101+00:00",
+  "lua_files": [
+    "Module-Weapons-Conclave-data_0.lua",
+    "Module-Weapons-Conclave-data_1.lua",
+    "Module-Weapons-Conclave-data_2.lua",
+    "Module-Weapons-Conclave-data_3.lua"
+  ],
+  "lua_block_count": 4,
+  "file_size": 8896,
+  "comment_count": 82,
+  "status": "success"
+}

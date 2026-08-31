@@ -1,0 +1,16 @@
+{
+  "page": "Module:Weapons/data/doc",
+  "wiki_timestamp": "2026-08-06T13:55:51Z",
+  "extracted_at": "2026-08-31T21:22:45.807780+00:00",
+  "lua_files": [
+    "Module-Weapons-data-doc_0.lua",
+    "Module-Weapons-data-doc_1.lua",
+    "Module-Weapons-data-doc_2.lua",
+    "Module-Weapons-data-doc_3.lua",
+    "Module-Weapons-data-doc_4.lua"
+  ],
+  "lua_block_count": 5,
+  "file_size": 9946,
+  "comment_count": 0,
+  "status": "success"
+}

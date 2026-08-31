@@ -1,0 +1,12 @@
+{
+  "page": "Module:DevShortParticipantsList",
+  "wiki_timestamp": "2026-08-20T14:32:33Z",
+  "extracted_at": "2026-08-31T21:22:44.189339+00:00",
+  "lua_files": [
+    "Module-DevShortParticipantsList_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 52,
+  "comment_count": 0,
+  "status": "success"
+}

@@ -1,0 +1,12 @@
+{
+  "page": "Module:FormatingTool/missions",
+  "wiki_timestamp": "2020-06-11T23:45:51Z",
+  "extracted_at": "2026-08-31T21:22:44.752550+00:00",
+  "lua_files": [
+    "Module-FormatingTool-missions_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 3181,
+  "comment_count": 3,
+  "status": "success"
+}

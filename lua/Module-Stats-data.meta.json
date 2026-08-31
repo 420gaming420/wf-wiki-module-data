@@ -1,0 +1,13 @@
+{
+  "page": "Module:Stats/data",
+  "wiki_timestamp": "2026-04-08T20:00:01Z",
+  "extracted_at": "2026-08-31T21:22:45.336186+00:00",
+  "lua_files": [
+    "Module-Stats-data_0.lua",
+    "Module-Stats-data_1.lua"
+  ],
+  "lua_block_count": 2,
+  "file_size": 19265,
+  "comment_count": 2,
+  "status": "success"
+}

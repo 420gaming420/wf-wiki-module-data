@@ -1,0 +1,327 @@
+return {
+    ["Aegrae Eye-Guard"] = {
+        CodexSecret = false,
+        Description = "Even one-eyed warriors will see clearly when they look through the lens of fortitude.",
+        ExcludeFromCodex = false,
+        Image = "AegraeEye-Guard.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlEyepatchA",
+        Link = "Aegrae Eye-Guard",
+        Name = "Aegrae Eye-Guard",
+        Type = "Eye-Guard"
+    },
+    ["Aridkref Chest Armor"] = {
+        CodexSecret = false,
+        Description = "This armor conjures up memories of red sand and dry wind.",
+        ExcludeFromCodex = false,
+        Image = "AridkrefChestArmor.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlArmourAridFront",
+        Link = "Aridkref Chest Armor",
+        Name = "Aridkref Chest Armor",
+        Part = "Chest",
+        Type = "Armor"
+    },
+    ["Aridkref Helmet"] = {
+        CodexSecret = false,
+        Description = "This helmet conjures up memories of red sand and dry wind.",
+        ExcludeFromCodex = false,
+        Image = "AridkrefHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlHelmetWater",
+        Link = "Aridkref Helmet",
+        Name = "Aridkref Helmet",
+        Type = "Helmet"
+    },
+    ["Aridkref Shoulder Plates"] = {
+        CodexSecret = false,
+        Description = "This armor conjures up memories of red sand and dry wind.",
+        ExcludeFromCodex = false,
+        Image = "AridkrefShoulderPlates.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlArmourAridArms",
+        Link = "Aridkref Shoulder Plates",
+        Name = "Aridkref Shoulder Plates",
+        Part = "Arm",
+        Type = "Armor"
+    },
+    ["Arktuk Back Armor"] = {
+        CodexSecret = false,
+        Description = "This armor's thickness protects against the cold wind's bite.",
+        ExcludeFromCodex = false,
+        Image = "ArktukBackArmor.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlArmourWinterPack",
+        Link = "Arktuk Back Armor",
+        Name = "Arktuk Back Armor",
+        Part = "Back",
+        Type = "Armor"
+    },
+    ["Arktuk Shoulder Guard"] = {
+        CodexSecret = false,
+        Description = "This armor's thickness protects against the cold wind's bite.",
+        ExcludeFromCodex = false,
+        Image = "ArktukShoulderGuard.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlArmourWinterArmLeft",
+        Link = "Arktuk Shoulder Guard",
+        Name = "Arktuk Shoulder Guard",
+        Part = "Arm",
+        Type = "Armor"
+    },
+    ["Brauld Gaiters"] = {
+        CodexSecret = false,
+        Description = "A soft protective layer is an advantage during long marches through cold, heat, and underbrush.",
+        ExcludeFromCodex = false,
+        Image = "BrauldGaiters.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlArmourAridLegs",
+        Link = "Brauld Gaiters",
+        Name = "Brauld Gaiters",
+        Part = "Leg",
+        Type = "Armor"
+    },
+    ["Comorre Helmet"] = {
+        CodexSecret = false,
+        Description = "Join the fray.",
+        ExcludeFromCodex = false,
+        Image = "ComorreHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlHelmetTall",
+        Link = "Comorre Helmet",
+        Name = "Comorre Helmet",
+        Type = "Helmet"
+    },
+    ["Grearlance Back Armor"] = {
+        CodexSecret = false,
+        Description = "A venturous adaptation of traditional Grineer armor.",
+        ExcludeFromCodex = false,
+        Image = "GrearlanceBackArmor.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlArmourStandardBack",
+        Link = "Grearlance Back Armor",
+        Name = "Grearlance Back Armor",
+        Part = "Back",
+        Type = "Armor"
+    },
+    ["Grearlance Chest Armor"] = {
+        CodexSecret = false,
+        Description = "A venturous adaptation of traditional Grineer armor.",
+        ExcludeFromCodex = false,
+        Image = "GrearlanceChestArmor.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlArmourStandardFront",
+        Link = "Grearlance Chest Armor",
+        Name = "Grearlance Chest Armor",
+        Part = "Chest",
+        Type = "Armor"
+    },
+    ["Grearlance Helmet"] = {
+        CodexSecret = false,
+        Description = "A common helmet unifies Grineer brothers in arms.",
+        ExcludeFromCodex = false,
+        Image = "GrearlanceHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlHelmetStandard",
+        Link = "Grearlance Helmet",
+        Name = "Grearlance Helmet",
+        Type = "Helmet"
+    },
+    ["Grearlance Leg Guard"] = {
+        CodexSecret = false,
+        Description = "A venturous adaptation of traditional Grineer armor.",
+        ExcludeFromCodex = false,
+        Image = "GrearlanceLegGuard.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlArmourStandardLegs",
+        Link = "Grearlance Leg Guard",
+        Name = "Grearlance Leg Guard",
+        Part = "Leg",
+        Type = "Armor"
+    },
+    ["Grearlance Shoulder Plates"] = {
+        CodexSecret = false,
+        Description = "A venturous adaptation of traditional Grineer armor.",
+        ExcludeFromCodex = false,
+        Image = "GrearlanceShoulderPlates.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlArmourStandardArms",
+        Link = "Grearlance Shoulder Plates",
+        Name = "Grearlance Shoulder Plates",
+        Part = "Arm",
+        Type = "Armor"
+    },
+    ["Krunan Eye-Guard"] = {
+        CodexSecret = false,
+        Description = "An eye-guard for one who knows that those who demand fealty do not always deserve it.",
+        ExcludeFromCodex = false,
+        Image = "KrunanEye-Guard.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlEyepatchB",
+        Link = "Krunan Eye-Guard",
+        Name = "Krunan Eye-Guard",
+        Type = "Eye-Guard"
+    },
+    ["Massehtt Mask"] = {
+        CodexSecret = false,
+        Description = "Protected from nose to neck.",
+        ExcludeFromCodex = false,
+        Image = "MassehttMask.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlEyepatchE",
+        Link = "Massehtt Mask",
+        Name = "Massehtt Mask",
+        Type = "Eye-Guard"
+    },
+    ["Okt Mask"] = {
+        CodexSecret = false,
+        Description = "A unique look.",
+        ExcludeFromCodex = false,
+        Image = "OktMask.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlEyepatchF",
+        Link = "Okt Mask",
+        Name = "Okt Mask",
+        Type = "Eye-Guard"
+    },
+    ["Rafellion Helmet"] = {
+        CodexSecret = false,
+        Description = "Harsh environments have roughened this helmet’s surface.",
+        ExcludeFromCodex = false,
+        Image = "RafellionHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlHelmetPith",
+        Link = "Rafellion Helmet",
+        Name = "Rafellion Helmet",
+        Type = "Helmet"
+    },
+    ["Regrevis Helmet"] = {
+        CodexSecret = false,
+        Description = "Those who fight in varied environments appreciate the versatility of this hooded helmet.",
+        ExcludeFromCodex = false,
+        Image = "RegrevisHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlHelmetHood",
+        Link = "Regrevis Helmet",
+        Name = "Regrevis Helmet",
+        Type = "Helmet"
+    },
+    ["Rekk Back Armor"] = {
+        CodexSecret = false,
+        Description = "Breakage reflects a heroic past.",
+        ExcludeFromCodex = false,
+        Image = "RekkBackArmor.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlArmourDamagedBack",
+        Link = "Rekk Back Armor",
+        Name = "Rekk Back Armor",
+        Part = "Back",
+        Type = "Armor"
+    },
+    ["Rekk Helmet"] = {
+        CodexSecret = false,
+        Description = "Breakage reflects a heroic past.",
+        ExcludeFromCodex = false,
+        Image = "RekkHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlHelmetDamaged",
+        Link = "Rekk Helmet",
+        Name = "Rekk Helmet",
+        Type = "Helmet"
+    },
+    ["Rekk Leg Guard"] = {
+        CodexSecret = false,
+        Description = "Breakage reflects a heroic past.",
+        ExcludeFromCodex = false,
+        Image = "RekkLegGuard.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlArmourDamagedLegs",
+        Link = "Rekk Leg Guard",
+        Name = "Rekk Leg Guard",
+        Part = "Leg",
+        Type = "Armor"
+    },
+    ["Rekk Shoulder Plates"] = {
+        CodexSecret = false,
+        Description = "Breakage reflects a heroic past.",
+        ExcludeFromCodex = false,
+        Image = "RekkShoulderPlates.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlArmourDamagedArms",
+        Link = "Rekk Shoulder Plates",
+        Name = "Rekk Shoulder Plates",
+        Part = "Arm",
+        Type = "Armor"
+    },
+    ["Rekk Visor Helmet"] = {
+        CodexSecret = false,
+        Description = "Breakage reflects a heroic past.",
+        ExcludeFromCodex = false,
+        Image = "RekkVisorHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlHelmetDamagedWithMask",
+        Link = "Rekk Visor Helmet",
+        Name = "Rekk Visor Helmet",
+        Type = "Helmet"
+    },
+    ["Resalv Eye-Guard"] = {
+        CodexSecret = false,
+        Description = "Show the grit of a resourceful warrior.",
+        ExcludeFromCodex = false,
+        Image = "ResalvEye-Guard.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlEyepatchC",
+        Link = "Resalv Eye-Guard",
+        Name = "Resalv Eye-Guard",
+        Type = "Eye-Guard"
+    },
+    ["Rhunr Back Armor"] = {
+        CodexSecret = false,
+        Description = "Attach this unit to remain cool in hot environments.",
+        ExcludeFromCodex = false,
+        Image = "RhunrBackArmor.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlArmourAridBackWithACUnit",
+        Link = "Rhunr Back Armor",
+        Name = "Rhunr Back Armor",
+        Part = "Arm",
+        Type = "Armor"
+    },
+    ["Rhunr Shoulder Plate"] = {
+        CodexSecret = false,
+        Description = "A venturous adaptation of traditional Grineer armor.",
+        ExcludeFromCodex = false,
+        Image = "RhunrShoulderPlate.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlArmourAridArmLeftWithACUnit",
+        Link = "Rhunr Shoulder Plate",
+        Name = "Rhunr Shoulder Plate",
+        Part = "Arm",
+        Type = "Armor"
+    },
+    ["Sorex Back Armor"] = {
+        CodexSecret = false,
+        Description = "For where your treasure is, there your heart will be also.",
+        ExcludeFromCodex = false,
+        Image = "SorexBackArmor.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlArmourCorpusBack",
+        Link = "Sorex Back Armor",
+        Name = "Sorex Back Armor",
+        Part = "Back",
+        Type = "Armor"
+    },
+    ["Sorex Helmet"] = {
+        CodexSecret = false,
+        Description = "For where your treasure is, there your heart will be also.",
+        ExcludeFromCodex = false,
+        Image = "SorexHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlHelmetCorpus",
+        Link = "Sorex Helmet",
+        Name = "Sorex Helmet",
+        Type = "Helmet"
+    },
+    ["Tchertu Mask"] = {
+        CodexSecret = false,
+        Description = "A mask for those who like to settle things up close and personal.",
+        ExcludeFromCodex = false,
+        Image = "TchertuMask.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlEyepatchD",
+        Link = "Tchertu Mask",
+        Name = "Tchertu Mask",
+        Type = "Eye-Guard"
+    },
+    ["Ukstru Helmet"] = {
+        CodexSecret = false,
+        Description = "This helmet’s flat design is well-suited for sabotage.",
+        ExcludeFromCodex = false,
+        Image = "UkstruHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlHelmetMushroom",
+        Link = "Ukstru Helmet",
+        Name = "Ukstru Helmet",
+        Type = "Helmet"
+    },
+    ["Xiel Helmet"] = {
+        CodexSecret = false,
+        Description = "A helmet for those who aren’t afraid to earn their place.",
+        ExcludeFromCodex = false,
+        Image = "XielHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Kahl/KahlHelmetKavaLich3A",
+        Link = "Xiel Helmet",
+        Name = "Xiel Helmet",
+        Type = "Helmet"
+    },
+}

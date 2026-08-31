@@ -1,0 +1,13 @@
+{
+  "page": "Module:ModuleTest",
+  "wiki_timestamp": "2022-09-24T01:55:55Z",
+  "extracted_at": "2026-08-31T21:22:45.184415+00:00",
+  "lua_files": [
+    "Module-ModuleTest_0.lua",
+    "Module-ModuleTest_1.lua"
+  ],
+  "lua_block_count": 2,
+  "file_size": 4441,
+  "comment_count": 18,
+  "status": "success"
+}

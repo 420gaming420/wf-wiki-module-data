@@ -1,0 +1,12 @@
+{
+  "page": "Module:Avionics/data",
+  "wiki_timestamp": "2021-03-24T05:28:16Z",
+  "extracted_at": "2026-08-31T21:22:43.510072+00:00",
+  "lua_files": [
+    "Module-Avionics-data_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 13932,
+  "comment_count": 9,
+  "status": "success"
+}

@@ -1,0 +1,1 @@
+{{#invoke:Gallery|buildWeaponGallery|Opticor Vandal|Opticor|MK1-Kunai|Dual Heat Swords|Exalted Blade}}

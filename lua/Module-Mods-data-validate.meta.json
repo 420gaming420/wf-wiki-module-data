@@ -1,0 +1,16 @@
+{
+  "page": "Module:Mods/data/validate",
+  "wiki_timestamp": "2023-01-25T18:36:25Z",
+  "extracted_at": "2026-08-31T21:22:45.085885+00:00",
+  "lua_files": [
+    "Module-Mods-data-validate_0.lua",
+    "Module-Mods-data-validate_1.lua",
+    "Module-Mods-data-validate_2.lua",
+    "Module-Mods-data-validate_3.lua",
+    "Module-Mods-data-validate_4.lua"
+  ],
+  "lua_block_count": 5,
+  "file_size": 6566,
+  "comment_count": 25,
+  "status": "success"
+}

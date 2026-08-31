@@ -1,0 +1,13 @@
+{
+  "page": "Module:Warframes",
+  "wiki_timestamp": "2026-06-19T20:35:00Z",
+  "extracted_at": "2026-08-31T21:22:45.611901+00:00",
+  "lua_files": [
+    "Module-Warframes_0.lua",
+    "Module-Warframes_1.lua"
+  ],
+  "lua_block_count": 2,
+  "file_size": 23596,
+  "comment_count": 114,
+  "status": "success"
+}

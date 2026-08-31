@@ -1,0 +1,12 @@
+{
+  "page": "Module:Codec",
+  "wiki_timestamp": "2022-04-08T20:12:34Z",
+  "extracted_at": "2026-08-31T21:22:43.594899+00:00",
+  "lua_files": [
+    "Module-Codec_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 45618,
+  "comment_count": 242,
+  "status": "success"
+}

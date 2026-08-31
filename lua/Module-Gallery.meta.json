@@ -1,0 +1,14 @@
+{
+  "page": "Module:Gallery",
+  "wiki_timestamp": "2025-01-31T22:30:55Z",
+  "extracted_at": "2026-08-31T21:22:44.759878+00:00",
+  "lua_files": [
+    "Module-Gallery_0.lua",
+    "Module-Gallery_1.lua",
+    "Module-Gallery_2.lua"
+  ],
+  "lua_block_count": 3,
+  "file_size": 6726,
+  "comment_count": 61,
+  "status": "success"
+}

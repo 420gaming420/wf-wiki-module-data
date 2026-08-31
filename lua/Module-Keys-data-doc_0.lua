@@ -1,0 +1,13 @@
+{
+	CodexSecret = false,
+	Description = "Quest in-game description",
+	Image = "QuestName.png",
+	InternalName = "/Lotus/Types/Keys/",
+	Introduced = "Vanilla",
+	Link = "Quest article name",
+	Name = "Quest name",
+	NextQuest = "",
+	PreviousQuest = "",
+    Replayable = false,
+	Type = "Quest type",
+},

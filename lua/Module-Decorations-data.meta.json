@@ -1,0 +1,15 @@
+{
+  "page": "Module:Decorations/data",
+  "wiki_timestamp": "2025-08-21T09:28:18Z",
+  "extracted_at": "2026-08-31T21:22:44.170521+00:00",
+  "lua_files": [
+    "Module-Decorations-data_0.lua",
+    "Module-Decorations-data_1.lua",
+    "Module-Decorations-data_2.lua",
+    "Module-Decorations-data_3.lua"
+  ],
+  "lua_block_count": 4,
+  "file_size": 994586,
+  "comment_count": 0,
+  "status": "success"
+}

@@ -1,0 +1,1 @@
+{{#invoke:Avionics|AvionicTable|Type|Integrated|img}}

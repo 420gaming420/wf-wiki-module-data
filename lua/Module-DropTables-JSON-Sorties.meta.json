@@ -1,0 +1,12 @@
+{
+  "page": "Module:DropTables/JSON/Sorties",
+  "wiki_timestamp": "2020-09-12T17:04:07Z",
+  "extracted_at": "2026-08-31T21:22:44.294118+00:00",
+  "lua_files": [
+    "Module-DropTables-JSON-Sorties_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 1801,
+  "comment_count": 0,
+  "status": "success"
+}

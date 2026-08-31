@@ -1,0 +1,13 @@
+{
+  "page": "Module:Vehicles/data",
+  "wiki_timestamp": "2025-01-09T18:29:17Z",
+  "extracted_at": "2026-08-31T21:22:45.465271+00:00",
+  "lua_files": [
+    "Module-Vehicles-data_0.lua",
+    "Module-Vehicles-data_1.lua"
+  ],
+  "lua_block_count": 2,
+  "file_size": 3008,
+  "comment_count": 11,
+  "status": "success"
+}

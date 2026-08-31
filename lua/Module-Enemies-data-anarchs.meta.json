@@ -1,0 +1,12 @@
+{
+  "page": "Module:Enemies/data/anarchs",
+  "wiki_timestamp": "2026-04-03T20:33:54Z",
+  "extracted_at": "2026-08-31T21:22:44.434411+00:00",
+  "lua_files": [
+    "Module-Enemies-data-anarchs_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 19920,
+  "comment_count": 0,
+  "status": "success"
+}

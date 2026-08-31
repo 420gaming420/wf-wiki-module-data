@@ -1,0 +1,16 @@
+{
+  "page": "Module:DropTables/dev",
+  "wiki_timestamp": "2022-03-18T00:55:39Z",
+  "extracted_at": "2026-08-31T21:22:44.398436+00:00",
+  "lua_files": [
+    "Module-DropTables-dev_0.lua",
+    "Module-DropTables-dev_1.lua",
+    "Module-DropTables-dev_2.lua",
+    "Module-DropTables-dev_3.lua",
+    "Module-DropTables-dev_4.lua"
+  ],
+  "lua_block_count": 5,
+  "file_size": 52090,
+  "comment_count": 267,
+  "status": "success"
+}

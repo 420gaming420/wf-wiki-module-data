@@ -1,0 +1,12 @@
+{
+  "page": "Module:Flaicher/DropTables/data",
+  "wiki_timestamp": "2020-07-22T16:39:59Z",
+  "extracted_at": "2026-08-31T21:22:44.704105+00:00",
+  "lua_files": [
+    "Module-Flaicher-DropTables-data_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 416663,
+  "comment_count": 13,
+  "status": "success"
+}

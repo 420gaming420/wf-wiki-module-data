@@ -1,0 +1,13 @@
+{
+  "page": "Module:Vendors",
+  "wiki_timestamp": "2023-07-16T12:33:07Z",
+  "extracted_at": "2026-08-31T21:22:45.475781+00:00",
+  "lua_files": [
+    "Module-Vendors_0.lua",
+    "Module-Vendors_1.lua"
+  ],
+  "lua_block_count": 2,
+  "file_size": 5992,
+  "comment_count": 44,
+  "status": "success"
+}

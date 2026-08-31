@@ -1,0 +1,12 @@
+{
+  "page": "Module:DamageTypes/colorContrastAdjuster",
+  "wiki_timestamp": "2025-03-18T03:25:52Z",
+  "extracted_at": "2026-08-31T21:22:44.108758+00:00",
+  "lua_files": [
+    "Module-DamageTypes-colorContrastAdjuster_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 4473,
+  "comment_count": 27,
+  "status": "success"
+}

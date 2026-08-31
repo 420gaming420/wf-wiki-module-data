@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:58:46.712Z"
+    "converted_at": "2026-08-31T21:23:42.063Z"
   },
   "_comments": "",
   "Smoke Screen": {
@@ -26,7 +26,7 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}}",
         {
-          "expr": "35 200 EFF - 25 max 100 / *"
+          "expr": "35 COST *"
         }
       ]
     ],
@@ -58,7 +58,7 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}}",
         {
-          "expr": "25 200 EFF - 25 max 100 / *"
+          "expr": "25 COST *"
         }
       ]
     ],

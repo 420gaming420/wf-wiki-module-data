@@ -1,0 +1,12 @@
+{
+  "page": "Module:DropTables/JSON/Relics",
+  "wiki_timestamp": "2023-12-16T15:52:33Z",
+  "extracted_at": "2026-08-31T21:22:44.293513+00:00",
+  "lua_files": [
+    "Module-DropTables-JSON-Relics_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 1723058,
+  "comment_count": 0,
+  "status": "success"
+}

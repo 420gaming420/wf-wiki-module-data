@@ -1,0 +1,12 @@
+{
+  "page": "Module:String/testcases",
+  "wiki_timestamp": "2021-06-03T17:12:13Z",
+  "extracted_at": "2026-08-31T21:22:45.339144+00:00",
+  "lua_files": [
+    "Module-String-testcases_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 3788,
+  "comment_count": 0,
+  "status": "success"
+}

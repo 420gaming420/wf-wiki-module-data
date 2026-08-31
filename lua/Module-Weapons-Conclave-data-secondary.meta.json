@@ -1,0 +1,15 @@
+{
+  "page": "Module:Weapons/Conclave/data/secondary",
+  "wiki_timestamp": "2026-06-13T21:01:44Z",
+  "extracted_at": "2026-08-31T21:22:45.671121+00:00",
+  "lua_files": [
+    "Module-Weapons-Conclave-data-secondary_0.lua",
+    "Module-Weapons-Conclave-data-secondary_1.lua",
+    "Module-Weapons-Conclave-data-secondary_2.lua",
+    "Module-Weapons-Conclave-data-secondary_3.lua"
+  ],
+  "lua_block_count": 4,
+  "file_size": 41915,
+  "comment_count": 0,
+  "status": "success"
+}

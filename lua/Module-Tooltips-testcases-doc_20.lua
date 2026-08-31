@@ -1,0 +1,1 @@
+{{#invoke:tooltips|getTip|Braton Prime|Weapons}}

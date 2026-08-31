@@ -1,0 +1,1 @@
+Checking naming scheme of image names

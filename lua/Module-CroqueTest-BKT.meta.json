@@ -1,0 +1,12 @@
+{
+  "page": "Module:CroqueTest/BKT",
+  "wiki_timestamp": "2019-05-06T15:25:18Z",
+  "extracted_at": "2026-08-31T21:22:43.842817+00:00",
+  "lua_files": [
+    "Module-CroqueTest-BKT_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 59045,
+  "comment_count": 0,
+  "status": "success"
+}

@@ -1,0 +1,12 @@
+{
+  "page": "Module:Mbox",
+  "wiki_timestamp": "2025-01-31T20:38:14Z",
+  "extracted_at": "2026-08-31T21:22:45.027086+00:00",
+  "lua_files": [
+    "Module-Mbox_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 4015,
+  "comment_count": 17,
+  "status": "success"
+}

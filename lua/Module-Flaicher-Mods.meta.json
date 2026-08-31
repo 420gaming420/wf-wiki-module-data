@@ -1,0 +1,12 @@
+{
+  "page": "Module:Flaicher/Mods",
+  "wiki_timestamp": "2019-03-27T07:17:53Z",
+  "extracted_at": "2026-08-31T21:22:44.720611+00:00",
+  "lua_files": [
+    "Module-Flaicher-Mods_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 11181,
+  "comment_count": 11,
+  "status": "success"
+}

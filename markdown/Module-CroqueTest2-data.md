@@ -1,0 +1,5619 @@
+---
+title: "Module:CroqueTest2/data"
+wiki_url: "https://wiki.warframe.com/w/Module/CroqueTest2/data"
+wiki_timestamp: "2018-03-24T08:40:45Z"
+---
+
+*Documentation for this module may be created at [Module:CroqueTest2/data/doc](/w/Module:CroqueTest2/data/doc?action=edit&redlink=1 "Module:CroqueTest2/data/doc (page does not exist)")*
+
+```lua
+-- Patch history database (attepmt)
+-- Currently only: weapons / warframes / abilities (only changes and fixes) / companions / game modes / enemy bosses
+-- Input in Reverse Chronological order !
+
+local PatchData =
+{
+    {["Version"]={"22.0.6"},
+        ["Vectis/Vectis Prime/Vulkar/Vulkar Wraith/Snipetron/Snipetron Vandal"]={
+            "*'''Conclave''': Reduced the headshot damage of the Vulkar series, Snipetron series and Vectis series in Conclave"
+        },
+        ["Pharoma"]={
+            "*The Pharoma Blueprint is now reusable!"
+        }
+    },
+    {["Version"]={"Plains of Eidolon"},
+        ["Vectis"]={
+            "*First level zoom +10% Damage replaced with +30% Head Shot Damage",
+            "*Second level zoom 15% Damage replaced with +50% Head Shot Damage"
+            },
+        ["Vectis Prime"]={
+            "*Fire rate increased from 1.5 to 2.67",
+            "*First level zoom +15% Damage replaced with +35% Head Shot Damage",
+            "*First level zoom reduced from 4x to 3.5x",
+            "*Second level zoom 20% Damage replaced with +55% Head Shot Damage",
+            "*Second level zoom reduced from 10x to 6x",
+            "*Next round is chambered immediately after firing instead of waiting for fire rate to cycle"
+        }
+    },
+
+{["Version"]={"12.6.1"},
+        ["Excalibur/"]={
+            "*Fixed missing head on Excalibur when swapping out Proto Armor skin."
+        },
+},
+{["Version"]={"12.6"},
+        ["Dex Furis/"]={
+            "*Dex Furis*: A FREE birthday weapon to celebrate Warframe’s 1 year Open Beta! Login to Warframe before April 2nd @ 11:59 PM EDT to receive this free gift!"
+        },
+        ["Excalibur/"]={
+            "*New Excalibur-Proto Armor skin! For 7 days only, you can add Excalibur-Proto armor to your Cosmetic collection."
+        },
+        ["Foundry/"]={
+            "*Added Gear and Key categories to the Foundry."
+        },
+        ["Torid/"]={
+            "*The Torid has received a total visual overhaul - check out the new model in your Arsenal/dojo today!"
+        },
+        ["Slash Dash/Stalker/"]={
+            "*Removed Slash Dash from Stalker’s drops and replaced with Rare Fusion Core."
+        },
+        ["Sentinel/"]={
+            "*Made weapon zoom mods (Eagle Eye and Hawk Eye) and melee range mods (Reach) increase Sentinel targeting range.",
+            "*Reference on existing Sentinel targeting ranges:",
+            "* The targeting range for the attack precepts at max-rank are as follows:",
+            "*Carrier: 10m",
+            "*DethCube: 30m",
+            "*Djinn: 60m",
+            "*Wyrm: 30m",
+            "*Shade: 30m ",
+            "(Unranked attack precepts will have half the range listed above).",
+            "Helios is special at does not increase with rank (it is always 10m) however ranking up the Targeting Receptor precept increase the number of active glaives it can manage."
+        },
+        ["Nyx/Absorb/"]={
+            "*Added a HUD damage counter and countdown timer to Nyx's Absorb ability."
+        },
+        ["Nyx/Absorb/"]={
+            "*Fixed projectiles passing through Nyx's Absorb ability."
+        },
+        ["Sentinel/Helios/Deconstructor/"]={
+            "*Fixed the damage type on the Deconstructor (Helios) Sentinel weapon so as to allow Melee mods to properly affect its stats"
+        },
+        ["Grineer Galleon/"]={
+            "*Fixed some visible environment clipping in the Grineer Galleon tileset."
+        },
+        ["Nova/Worm Hole"]={
+            "*Fixed a potential crash related to the usage of Nova's Wormhole ability."
+        },
+        ["Stalker/"]={
+            "*Fixed an issue with the Stalker's health not properly scaling to player level. Prior to this, Stalker had perpetual 450 health due to a bug. He will now scale properly; beware Tenno."
+        },
+},
+{["Version"]={"12.5.3"},
+        ["Castanas/"]={
+            "*Fixed a duplicate flashlight being present on the Castanas."
+        },
+        ["Grustrag Three/"]={
+            "*Fixed an issue related to the Grustrag Three crashing/hanging the game when all squad members are killed. "
+        },
+},
+{["Version"]={"12.5.2"},
+        ["Orokin Derelict/"]={
+            "*Fixed players not being able to exit Orokin Derelict Vaults due to invisible walls."
+        },
+        ["Grustrag Three/"]={
+            "*Fixed a crash that could occur when defeating the Grustrag Three. "
+        },
+},
+{["Version"]={"12.5.1"},
+        ["Banshee/"]={
+            "*Fixed Imperator Syandana appearing on Banshee’s waist."
+        },
+        ["Iron Skin/Rhino Prime/"]={
+            "*Fixed Iron Skin appearing as keybound to “1” key power on Rhino Prime ."
+        },
+        ["Helios/"]={
+            "*Fixed potential issues with Helios not having high resolution textures."
+        },
+        ["Sentinel/"]={
+            "*Fixed issues with Sentinel casting/ability sounds. "
+        },
+},
+{["Version"]={"12.5"},
+        ["Sentinel/Helios/Dojo/Research/"]={
+            "*New Sentinel! Meet Helios, a Corpus Sentinel with a devastating Glaive-esque attack and the ability to assist you with Codex scans!",
+            "*Visit the Market or Corpus Research Room in the Dojo today!"
+        },
+        ["Sentinel/"]={
+            "*Improvements to Sentinel audio."
+        },
+        ["Iron Skin/Rhino Prime/"]={
+            "*Changed Rhino Prime's Iron Skin ability to now appear golden!"
+        },
+        ["Rhino/"]={
+            "*Tweaks to the visuals of Rhino's abilities."
+        },
+        ["Trinity/Energy Vampire/"]={
+            "*Improved the client side visuals for the effect created when enemies are hit by Trinity's Energy Vampire and Well of Life abilities."
+        },
+        ["Gorgon/"]={
+            "*Tweaks to Gorgon firing sound"
+        },
+        ["Defense/"]={
+            "*Fixed a number of navigation related issues with Infested on the Forest Defense Tilesets."
+        },
+        ["Interception/"]={
+            "*Fixed non-localized text seen in Interception game modes."
+        },
+        ["Grustrag Three"]={
+            "*Fixed an issue with the Grineer Deathsquad not properly capturing players in a multiplayer match."
+        },
+        ["Burston Prime/"]={
+            "*Fixed the image for the Burston Prime Blueprint"
+        },
+        ["Rescue/Alert/"]={
+            "*Fixed Rescue targets on Alert Rescue missions demonstrating older AI behaviours and lacking proper functions (health/shield UI). "
+        },
+},
+{["Version"]={"12.4.6"},
+        ["Glaive/"]={
+            "*Glaive FX optimizations. "
+        },
+        ["Invasion"]={
+            "*Fixed issue where Factions (Corpus/Grineer) could invade more than one planet at a time."
+        },
+        ["Sentinel/"]={
+            "*Fixed issue where player would only see equipped Warframe stats when comparing Sentinel stats. "
+        },
+},
+{["Version"]={"12.4.5"},
+        ["Frost/"]={
+            "*Using a combination of ideas from the community and discussions between dev, Frost’s Snowglobe has changed. The changes are:",
+            "*Snowglobe’s health is now affected by a Warframe’s Armor value.",
+            "*There is now a temporary invulnerability duration determined by the rank of a given Snowglobe Mod.",
+            "*Snowglobe’s health is increased by the amount of damage received in the “Invulnerability Duration” window.",
+            "*The numerical details are as follows:",
+            "* Unranked Snowglobe: Health = 1500 + Invulnerability Duration = 1 second",
+            "* Rank 1 Snowglobe: Health = 2500 + Invulnerability Duration = 2 seconds",
+            "* Rank 2 Snowglobe: Health = 3000 + Invulnerability Duration = 3 seconds",
+            "* Rank 3 Snowglobe: Health = 3500 + Invulnerability Duration = 4 seconds",
+            "* Snowglobe Health = Health + (Armor x 5)"
+        },
+        ["Grineer Forest"]={
+            "*Optimizations to Forest tileset to improve frame rate"
+        },
+        ["Zephyr/Turbulence/"]={
+            "*Improved audio mixing for Zephyr's Turbulence. "
+        },
+        ["Interception/"]={
+            "*Fixed overly harsh Interception mode difficulty on Earth nodes (this was only meant to be applied to the Tethra's Doom mission)."
+        },
+        ["Survival/"]={
+            "*Fixed intermittent hang when launching Survival missions on Earth ."
+        },
+        ["Grinlok/Castanas/"]={
+            "*Fixed inability to fire Grinlok or throw Castanas and while sprinting."
+        },
+        ["Conclave/"]={
+            "*Fixed clients immediately spawning in the middle of an active match when joining a Conclave arenas."
+        },
+        ["Banshee/Sonar/"]={
+            "*Fixed Banshee's Sonar effects lingering after enemies have been killed."
+        },
+        ["Survival/"]={
+            "*Fixed another case where a player could become stuck in Survival mode if oxygen supply ran out while they were activating a life support capsule."
+        },
+        ["Rescue/Grineer Galleon/"]={
+            "*Fixed Rescue missions in Grineer Galleon and Desert containing multiple hostages."
+        },
+        ["Nova/Zephyr/"]={
+            "*Fixed issues with Nova and Zephyr ability descriptions."
+        },
+},
+{["Version"]={"12.4.4"},
+        ["Hijack/"]={
+            "*Fixed progression blocker where door could not be opened in Shipyards Hijack mission."
+        },
+        ["Grineer Galleon/"]={
+            "*Fixed Grineer Galleon door & light traps ignoring radial damage from explosive weapons."
+        },
+        ["Survival/"]={
+            "*Fixed clients getting stuck when activating Life Support Capsules in Survival missions "
+        },
+},
+{["Version"]={"12.4.3"},
+        ["Vortex/Tornado/"]={
+            "*Fixed enemies not being affected by Vortex or Tornado if one was placed in the vicinity of a 'friendly' target (cryopod, sentinel, etc)."
+        },
+        ["Boltor Prime/"]={
+            "*Fixed Rifle Ammo Mutation mod not being compatible with Boltor Prime."
+        },
+        ["Rescue/"]={
+            "*Fixed incorrect mission type being activated when playing Rescue alerts."
+        },
+        ["Hijack/"]={
+            "*Fixed Hijack mission failure effects not appearing for clients."
+        },
+        ["Interception/"]={
+            "*Fixed Interception mission issue where enemy AI would try to hack control towers that had already been captured by their own faction."
+        },
+        ["Invasion"]={
+            "*Fixed Infestation Outbreak missions on Earth not occurring within the proper forest tileset."
+        },
+        ["Grineer Galleon/"]={
+            "*Fixed players occasionally spawning in mid-air when launching Grineer Galleon missions."
+        },
+},
+{["Version"]={"12.4.2"},
+        ["Vauban/Vortex/Zephyr/Tornado/Stalker/"]={
+            "*Fixed Zephyr’s Tornado and Vauban’s Vortex being able to ragdoll harder enemies (Minibosses like Stalker, etc). The Tornado will still deal DOT, but it won’t ragdoll. It is now consistent with other ragdoll-esque powers."
+        },
+        ["Survival/"]={
+            "*Fixed problems where users get stuck to Life Support capsules in Survival."
+        },
+        ["Dual Kamas/"]={
+            "*Fixed Dual Kama Whooshes!"
+        },
+        ["Valkyr/Hysteria/"]={
+            "*Fixed ‘Rank 30 Furax’ bug appearing if using Hysteria and Valkyr."
+        },
+        ["Saryn"]={
+            "*Fixed rings on Sayrn's Chlora helm not using energy color"
+        },
+},
+{["Version"]={"12.4.1"},
+        ["Oberon/Zephyr/"]={
+            "*Zephyr and Oberon abilities added to Codex/Enemy drops. "
+        },
+        ["Boltor Prime/Ankyros Prime/"]={
+            "*Disabled skins on Boltor Prime and Ankyros Prime."
+        },
+        ["Hind/"]={
+            "*Revised 3D Hind weapon sounds."
+        },
+        ["Dojo/"]={
+            "*Fixed half-finished redesign concept being shipped in the Large Dojo garden room. If you haven’t build this room yet, it has also been removed as a buildable room as it is still in development. Users who built this room will still be able to access it, but note it will likely go through a visual redesign process."
+        },
+        ["Castanas/Dojo/"]={
+            "*Fixed inconsistent spelling of Castanas in Dojo research."
+        },
+        ["Nyx/Phorid/"]={
+            "*Fixed Nyx parts not being received at mission end with Phorid."
+        },
+        ["Lech Kril/"]={
+            "*Fixed Lech Kril not being killable at certain stages of the fight."
+        },
+},
+{["Version"]={"12.4"},
+        ["Vay Hek/Balor Fomorian"]={
+            "Disable the Fomorian Fleet and stop Vay Hek's plans! (Forum Link)"
+        },
+        ["Hijack/Grineer Shipyard/"]={
+            "*Grineer Shipyards tile set revealed with new “Hijack” game mode & Tethra’s Doom event!"
+        },
+        ["Akbronco Prime/Rhino Prime/Ankyros Prime/Boltor Prime"]={
+            "*New Prime items in the Void! :"
+        },
+        ["Rhino Prime/"]={
+            "* Rhino Prime"
+        },
+        ["Ankyros Prime/"]={
+            "* Ankyros Prime"
+        },
+        ["Boltor Prime/"]={
+            "* Boltor Prime"
+        },
+        ["Akbronco Prime/"]={
+            "* AkBronco Prime "
+        },
+        ["Oberon/Valkyr/"]={
+            "*2x new Alternate helmets (Valkyr, Oberon) "
+        },
+        ["Orokin Derelict/Orokin Void"]={
+            "*Changes to Void/Derelict Mission rewards to include new Prime gear. Locations of where new gear is being placed is listed on our forums, and will be fully unveiled in the coming weeks as the new items are discovered: (Forum Link)"
+        },
+        ["Orokin Derelict/"]={
+            "* Note: Orokin Derelict Defense has had all Credit Rewards removed from rotation with this Update. Review is ongoing for the current loot in the endless mission types. "
+        },
+        ["Nova/Null Star"]={
+            "*Nova’s Nullstar ability changed so radial damage can affect enemies with weak points."
+        },
+        ["Rescue/"]={
+            "*Improvements to Rescue target in Rescue missions (pssst want to give us feedback on mission types? see here-> Link!)",
+            "*Changed the Rescue hostage's health, shield and speed, changed threat level, and fixed objective markers not following the path in Corpus and Earth Settlement levels."
+        },
+        ["Survival/"]={
+            "*Tweaks to Derelict Survival levels to make it less repetitive and limit the number of smaller intermediates"
+        },
+        ["Nyx/Chaos/"]={
+            "*Nyx's Chaos ability deco uses the correct helmet."
+        },
+        ["Stalker/"]={
+            "*Adjusted brightness of Stalker’s bow string to fix colour bleeding."
+        },
+        ["Orokin Void/"]={
+            "*Orokin Void procedural level optimization - reduced number of dead ends, limited some of the heavier connectors, limited max intermediates to 3 instead of 4, reduced connectors in dead ends."
+        },
+        ["Grineer Galleon/"]={
+            "*Grineer Galleon gameplay additions: (broken light electrical hazard, new door type that damages players as the pass through)."
+        },
+        ["Interception/"]={
+            "*Modified AI in Interception to balance between attacking players and capturing points better."
+        },
+        ["Furax/"]={
+            "*Audio revisions to Furax flesh and metal impacts."
+        },
+        ["Orokin Void"]={
+            "*Fixed issue where Void missions could be completed without keys being consumed."
+        },
+        ["Vauban/Bastille/"]={
+            "*Fixed Vauban’s Bastille FX to fade properly."
+        },
+        ["Invasion/"]={
+            "*Fixed issue with friendly AI Leaders that would cause negative effects on players during Invasion modes."
+        },
+        ["Nekros/"]={
+            "*Fixed a situation where it was possible for a Nekros summoned ally to squad up with enemy AI and take points."
+        },
+        ["Clan/"]={
+            "*Fixed Clan invite UI breaking for player when they use the field to type out a player's name."
+        },
+        ["Nova/Worm Hole"]={
+            "*Fixed the beam FX for Nova’s Wormhole ability that did not scale according to range mods."
+        },
+        ["Kela De Thaym"]={
+            "*Fixed Kela de Thaym to not appear as a Leader AI type."
+        },
+        ["Grineer Forest"]={
+            "*Fixed and removed some unnecessary water planes from Forest levels."
+        },
+        ["Interception/"]={
+            "*Fixed issue in Interception mode where occasionally the UI will indicate you have completed a capture at 99% instead of 100%."
+        },
+        ["Sentinel/"]={
+            "*Fixed malfunctioning Sentinel Regen mod."
+        },
+        ["Despair/Hikou/"]={
+            "*Fixed Despair and Hikou in hand models disappearing forever after emptying one clip."
+        },
+        ["Vectis/"]={
+            "*Fixed the scope ring material on Vectis."
+        },
+        ["Boltor/Supra/"]={
+            "*Fixed muzzle flash FX on Boltor and Supra."
+        },
+        ["Survival/"]={
+            "*Fixed missing effect and objective marker for incoming life support drops in Survival."
+        },
+        ["Interception/"]={
+            "*Fixed VFX in Interception: the pillar of light, letters, and symbols do not flash when player territories are being captured. Flashing the pillar of light and letters when an AI is attempting to capture a point."
+        },
+        ["Sentinel/"]={
+            "*Fixed bug that allowed you to sell your last remaining Sentinel precepts."
+        },
+        ["Hikou/"]={
+            "*Fixed Hikou not matching energy colour choice."
+        },
+        ["Rhino/Iron Skin/"]={
+            "*Fixed an issue with Rhino’s Iron Skin not appearing after using a scope."
+        },
+        ["Stalker/"]={
+            "*Fixed music not starting on clients and G3/Stalker/Harvester music not playing on clients."
+        },
+        ["Zephyr/Tornado/"]={
+            "*Fixed Zephyr Tornado ability to properly switch appearance with damage type."
+        },
+        ["Vauban/Vortex/"]={
+            "*Fixed issue with clients that would be pulled into Vauban’s Vortex."
+        },
+        ["Zephyr/"]={
+            "*Fixed some FX bugs with Zephyr."
+        },
+        ["Sentinel/"]={
+            "*Fixed Sentinel achievements not being awarded from bonus xp at the end of a mission."
+        },
+        ["Interception/"]={
+            "*Fixed host migration issue in Interception where host choosing to claim and exit causes the client to get the claim and exit screen a second time."
+        },
+        ["Survival/"]={
+            "*Fixed objective markers disappearing in Survival after Host Migrations."
+        },
+},
+{["Version"]={"12.3.2"},
+        ["Grustrag Three/"]={
+            "*Changes to the Grustrag Three drop logic, they no longer exhaust everything in their repertoire (mod + part + resource) on death, they now each drop (mod OR part OR resource). "
+        },
+        ["Jat Kittag/"]={
+            "*Fixed Jat Kittag FX reflecting a sweet party on the screen instead of a deadly hammer, sorry, party is over."
+        },
+        ["Grustrag Three/"]={
+            "*Fixed issue with endless mission rewards in missions where the Grustrag Three have spawned."
+        },
+        ["Ember Prime/"]={
+            "*Fixed Immortal Skin unintentionally overriding Ember Prime’s gold colours."
+        },
+        ["Grustrag Three/"]={
+            "*Fixed Grustrag Bolt removal recipe not being craftable if you only have one Warframe. "
+        },
+},
+{["Version"]={"12.3"},
+        ["Grustrag Three/Brakk"]={
+            "The Grustrag Three",
+            "*Vem Tabook, Shik Tal and Leekter. Remember their names, Tenno. They may be coming for you!",
+            "* Vay Hek has warned that any Tenno supporting the Corpus during invasions will face consequences; we now know what those consequences are. Riddled with mutation, violent tendencies and the urge to kill, these Grineer defects - otherwise known as The Grustrag Three - pose a high level threat. They have been detected in the Solar System and have been taking notice of Tenno support for Corpus during invasions. If it is the Brakk you seek, the Grustrag Three you must defeat. "
+        },
+        ["Marelok/Clan/Research"]={
+            "*Marelok! Grineer Lever Action Secondary weapon! Find it in Clan Tech or the Market today. "
+        },
+        ["Grineer Forest"]={
+            "*Forest Level expansion!"
+        },
+        ["Ember/Nekros/Oberon/Valkyr/"]={
+            "*4x Immortal Skins: Nekros, Valkyr, Oberon, and Ember!"
+        },
+        ["Castanas/"]={
+            "*Adjusted Timing to show Castanas in hand sooner after reload is complete."
+        },
+        ["Detron/"]={
+            "*Tweaked the depth cue on energy projectile's flares so they aren't so large in the distance (Detron Projectile feedback changes)."
+        },
+        ["Synapse/"]={
+            "*Weapon and Mod conclave tweaks - increased the ratings on the Synapse, Heavy Caliber, and Toxin Damage mods."
+        },
+        ["Frost/"]={
+            "*Changed Frost’s Ability Sounds to align with new casting times. "
+        },
+        ["Burston Prime/"]={
+            "*Fixed Burston Prime Blueprint not being tradeable."
+        },
+        ["Zephyr/Turbulence/"]={
+            "*Fixed remaining issues with Zephyr’s Turbulence letting most shots through."
+        },
+        ["Stalker/Zanuka Hunter"]={
+            "*Fixed music not restarting after Stalker/Harvester appears."
+        },
+        ["Ignis/"]={
+            "*Fixed Ignis not using energy colour."
+        },
+        ["Boltor/Supra/"]={
+            "*Fixed Supra/Boltor not using energy colour."
+        },
+        ["Amphis/"]={
+            "*Fixed Amphis not using energy colour."
+        },
+        ["Capture/"]={
+            "*Fixed issue where Capture target would get stuck on Earth missions."
+        },
+},
+{["Version"]={"12.2.1"},
+        ["Clan/"]={
+            "*Fixed ENTER key not functioning when attempting to send Clan invitations "
+        },
+},
+{["Version"]={"12.2"},
+        ["Castanas/Clan/Research/"]={
+            "*Tenno Reinforcements: Castanas! -Find them in the Market or Clan Research Today! "
+        },
+        ["Orokin Void"]={
+            "*Keys as end-of-mission rewards have been removed from T2 and T3 missions. T1 missions still can reward keys.",
+            "*PSA: Have seen 3 confirmed reports of T3 Exterminate keys giving keys as rewards, noted and will be fixed next Hotfix.",
+            "*Additional Distribution of some Prime Items, up-to-date table here: Forum Link",
+            "*All Prime Parts found in Void are now trade-able."
+        },
+        ["Jat Kittag/"]={
+            "*Changed Jat Kittag Charge attack FX for new charge animation."
+        },
+        ["Survival/"]={
+            "*Fixed issues where HUD marker for Survival Pickup was using wrong image."
+        },
+        ["Survival/"]={
+            "*Fixed issues where the new Survival objective marker wasn’t properly pathing meaning that some users wouldn’t be able to find the right door in the zone to lead them further."
+        },
+        ["Dojo/Conclave/"]={
+            "*Fixed about two dozen Warframe abilities not working in Conclaves/Dojo PVP."
+        },
+        ["Zephyr/Turbulence/"]={
+            "*Fixed issue with Zephyr’s Turbulence letting most shots through even when maxed and rarely redirecting."
+        },
+        ["Grineer Forest/"]={
+            "*Fixed steam not damaging players in the Forest Defense map as it should – things just got a bit deadlier on that map!"
+        },
+},
+{["Version"]={"12.1.2"},
+        ["Defense/Survival/"]={
+            "*Earth enemy balancing and tweaks including removing Eviscerators from regular Earth missions; they now only appear after 5 minutes in Survival or 5 Waves in Defense."
+        },
+        ["Skana Prime/"]={
+            "*Skana Prime is now tintable."
+        },
+        ["Jat Kittag/"]={
+            "*Reverted to the old holster position for Jat Kittag."
+        },
+},
+{["Version"]={"12.1.1"},
+        ["Grinlok/"]={
+            "*Changes to Grinlok's muzzle flash/sounds "
+        },
+},
+{["Version"]={"12.1"},
+        ["Grinlok/Clan/Research"]={
+            "*Tenno Reinforcment: The Grinlok. Find it in Clan Tech/ or the Market today!"
+        },
+        ["Zephyr/"]={
+            "*Warframe and Zephyr honor Flappy Bird's removal from the gaming world. How? There are two ways...",
+            "*One, Zephyr owners should explore their Arsenal...",
+            "*Two, those that don't own Zephyr should think about a bird-like-word to log in to Warframe... no '@' required."
+        },
+        ["Clan/"]={
+            "*Added popup notification that the clan invite you sent was successful, since before there was very little feedback on the Clan tab (just the subtle change in pending count if pending list is collapsed), and no real feedback if you sent clan invite from Friends tab. "
+        },
+        ["Interception/"]={
+            "*Now giving XP for capturing, neutralizing and dominating in Interception"
+        },
+        ["Survival/"]={
+            "* Survival objective markers now have a new icon."
+        },
+        ["Interception/"]={
+            "* Interception game mode has colourized icons on minimap depending on faction possession. "
+        },
+        ["Interception/Nightmare Mode"]={
+            "*Fixed nightmare-mode rewards on Interception Missions."
+        },
+        ["Nekros/Interception/"]={
+            "*Fixed a situation where it was possible for a Nekros-Summoned-Ally to squad up with enemy ai and take points in Interception."
+        },
+        ["Nova/Worm Hole"]={
+            "*Fixed Nova’s Wormhole having infinite range. It was in the 5000 meter range due to a bug, and is not again 50 m by default but can be upgraded with range mods still."
+        },
+        ["Banshee/Sonar/"]={
+            "*Fixed Banshee’s Sonar not showing enemies on clients."
+        },
+        ["Vauban/Tesla/Conclave/"]={
+            "*Fixed Vauban’s Tesla’s not being destroyed in between Conclave matches."
+        },
+        ["Ember/Ember Prime/"]={
+            "*Fixed subtle tint colour mismatch with Ember Prime."
+        },
+        ["Zanuka Hunter"]={
+            "*Fixed issue where dying and reviving at a certain time would cause the Harvester to ignore you. "
+        },
+},
+{["Version"]={"12.0.5"},
+        ["Penta/"]={
+            "*Changes to Penta’s sounds. "
+        },
+        ["Vauban/Tesla/"]={
+            "*Fixed issues where Vauban’s Tesla could cause a crash. We have optimized the FX of this power for performance and stability, it may look a bit different!"
+        },
+        ["Sabotage/"]={
+            "*Fixed continuous fire weapons not being able to damage Sabotage Reactors or other “environment” pieces."
+        },
+        ["Zephyr/Dive Bomb/"]={
+            "*Fixed issue where Zephyr’s Dive Bomb does not deal damage."
+        },
+        ["Nova/"]={
+            "*Fixed Nova’s Immortal Skin blending and bug fix for her FX texture being improperly overrided."
+        },
+        ["Lephantis/"]={
+            "*Fixed spelling of Lephantis in transmissions. "
+        },
+},
+{["Version"]={"12.0.4"},
+        ["Interception/"]={
+            "*HUD indicators now use separate colors for Tenno and Opponent in Interception mode"
+        },
+        ["Zephyr/Turbulence/"]={
+            "*Improved Zephyr's Turbulence shield to provide better protection from distant enemies "
+        },
+        ["Conclave/"]={
+            "*Fixed loss of functionality after finishing a Conclave match"
+        },
+        ["Sentinel/"]={
+            "*Fixed all Sentinel Mastery achievements requiring rank 30 to unlock"
+        },
+        ["Capture/"]={
+            "*Fixed players getting stuck in the Capture Target's room if they failed to hacked the same control panel that was used by the Target"
+        },
+        ["Vauban/Tesla/"]={
+            "*Fixed crash that could occur when using Vauban's Tesla "
+        },
+},
+{["Version"]={"12.0.4.1:"},
+        [""]={
+            "*Fixed mission countdown spontaneously starting when using Void Keys"
+        },
+        ["Trinity/Link/"]={
+            "*Fixed Trinity's Link becoming unusable if no enemy targets can be found after casting "
+        },
+},
+{["Version"]={"12.0.3"},
+        ["Orokin Derelict/"]={
+            "* Orokin Derelict Key Blueprints are now reusable"
+        },
+        ["Ember Prime/"]={
+            "* Changed Ember Prime Helmet drop to blueprint to be consist with other drops "
+        },
+        ["Defense/"]={
+            "*Fixed misaligned pistons found on machinery in Forest Defense map"
+        },
+        ["Mobile Defense/"]={
+            "*Fixed a collision issue in Mobile Defense levels (e.g. Kappa) that could lead to players becoming permanently stuck"
+        },
+},
+{["Version"]={"12.0.2"},
+        ["Survival/"]={
+            "*Added lockers to Survival spawn room."
+        },
+        ["Orokin Void"]={
+            "*Void Reward Changes:",
+            "* Changes to Void Mission Rewards: Capture, Exterminate, and Mobile Defense missions no longer contain Resources/Cores as mission rewards, only Prime Parts, Forma, or a Key.",
+            "* For Survival and Defense missions, staying at least 15 20 minutes/15 waves guarantees a Prime Part, Forma or a Key. Resources, Cores, or Credits are included in the cycling of mission rewards for Survival/Defense.",
+            "* [Sheldon's Edit]: Survival is actually at 20 minutes. Not 15. "
+        },
+        ["Interception/"]={
+            "*Balance changes for Interception:",
+            "* Better AI scaling.",
+            "* Fiddled with spawn numbers to make solo more viable.",
+            "* Adjusting capture rates, a bit faster for solo players a bit slower for multiple players",
+            "* XP share radius increased in this mission type. "
+        },
+        ["Zephyr/"]={
+            "*Adjusted Syandanas on Zephyr."
+        },
+        ["Zephyr/Turbulence/"]={
+            "*FX Tweaks to Zephyr’s Turbulence to improve visibility."
+        },
+        ["Boar Prime/"]={
+            "*Tweaks to Boar Prime sounds."
+        },
+        ["Sentinel/"]={
+            "*Health Orbs now give your Sentinel HP."
+        },
+        ["Interception/"]={
+            "*Context sounds added to Interception mode."
+        },
+        ["Jat Kittag/"]={
+            "*Sound tweaks to Jat Kittag. "
+        },
+        ["Zephyr/"]={
+            "*Fixed location and position of Emblems on Zephyr Warframe."
+        },
+        ["Vauban/Vortex/"]={
+            "*Fixed Vauban’s Vortex not ragdolling enemies."
+        },
+        ["Survival/"]={
+            "*Fixed issue where Survival missions could be failed if you were in the process of reviving/ being revived."
+        },
+},
+{["Version"]={"12.0.1"},
+        ["Zephyr/"]={
+            "*Zephyr now has Agile/Noble idle stances. First day on her new legs, tough to be confident enough for stances."
+        },
+        ["Zephyr/Research/"]={
+            "*Zephyr Research at Moon Tier reductions:",
+            "* Blueprint: 50K to 20K",
+            "* Parts: 10 K to 2K "
+        },
+        ["Forma"]={
+            "*Fixed polarity Swap UI nuking polarities, if you selected a swap and then hit apply without making any changes, it would wipe your polarities."
+        },
+        ["Sentinel/"]={
+            "*Fixed the Sentinels, they do nothing!"
+        },
+        ["Sabotage/"]={
+            "*Fixed reward tier not being set for players who didn’t add a toxin to the injector in earth Sabotage missions, as well as fixed screen not turning red for clients."
+        },
+        ["Lephantis/"]={
+            "*Fixed issues with text on Lephantis Transmissions."
+        },
+        ["Drakgoon/Detron/"]={
+            "*Fixed status chance for projectile weapons that shot multiple pellets (Drakgoon/Detron)."
+        },
+},
+{["Version"]={"12.0"},
+        ["Alert/Darvo/"]={
+            "*‘Ties That Bind’ – Darvo’s Alert return! For a Limited Time Only, play it before it’s gone! "
+        },
+        ["Zephyr/"]={
+            "*New Warframe – Zephyr, the aeronautical Warframe (+ alternate helmet!)"
+        },
+        ["Phage/Clan/Research/"]={
+            "*New Weapon – “Phage” Infested Primary. Get it in the Market or Clan Research Today!"
+        },
+        ["Jat Kittag/Clan/Research/"]={
+            "*New Weapon – “Jat Kittag” Grineer Melee. Get it in the Market or Clan Research Today!"
+        },
+        ["Akstiletto/Clan/Research/"]={
+            "*New Weapon – “Akstiletto” Tenno Secondary. Get it in the Market or Clan Research Today!"
+        },
+        ["Dual Cestra/Clan/Research/"]={
+            "*New Weapon – “Dual Cestra” – Dual wield your Cestras! Get it in the Market or Clan Research Today!"
+        },
+        ["Grineer Forest"]={
+            "*Level Expansion – Hunt for the Grineer in the overgrown forests of Earth!"
+        },
+        ["Interception/"]={
+            "*New Game Mode – “Interception” Territory Control Mode! This Mission type is making its debut on Earth, check it out where Mobile Defense missions used to be!"
+        },
+        ["Clan/Dojo/Research/"]={
+            "*New Clan Dojo room available - Build Warframes in the Tenno Research Lab."
+        },
+        ["Clan/Dojo/"]={
+            "*New Clan Dojo Garden room + 8 new decorations!"
+        },
+        ["Nova/Saryn/Vauban/Volt/War/"]={
+            "*4x new Warframe 'Immortal' skins (Volt, Vauban, Saryn, Nova)"
+        },
+        ["Oberon/"]={
+            "*“Oryx” Oberon Alternate Helmet"
+        },
+        ["Forma/"]={
+            "*Polarity Management is here! You can now swap the order of Polarities on your Forma’d gear!"
+        },
+        ["Nyx/Psychic Bolts/"]={
+            "* Improved sounds for Nyx’s Psychic Bolts."
+        },
+        ["Saryn/Molt/"]={
+            "* Saryn’s Moult ability now causes radial damage when it is killed."
+        },
+        ["Valkyr/"]={
+            "* Valkyr now has 600 base armor."
+        },
+        ["Valkyr/Hysteria/"]={
+            "* Valkyr’s Hysteria ability now takes weapon damage and crit into consideration."
+        },
+        ["Frost/Freeze/"]={
+            "* Frost's Freeze now comparable to Ember’s Fireball ability."
+        },
+        ["Frost/Avalanche/"]={
+            "* Frost’s Avalanche ability now has increased casting speed and damage."
+        },
+        ["Frost/Snow Globe"]={
+            "* Frost’s Snowglobe now has health in the following values as upgraded/fused: 1500,2500,3000,3500."
+        },
+        ["Frost/Ice Wave/"]={
+            "* Frost’s Ice Wave now force procs slow (chill)."
+        },
+        ["Oberon/"]={
+            "* Oberon's Regeneration projectile speed increase. "
+        },
+        ["Bo/"]={
+            "* Bow weapons receive 1/3 damage buff + gave charged arrows innate puncture depth."
+        },
+        ["Dread/"]={
+            "* Dread arrows have increased flight speed."
+        },
+        ["Embolist/"]={
+            "* Embolist now has increased damage and forced poison proc."
+        },
+        ["Tigris/"]={
+            "* Tigris now has improved damage, critical chance, and proc rate."
+        },
+        ["Hek/"]={
+            "* Hek damage increased and more minimum damage added to falloff."
+        },
+        ["Vulkar/"]={
+            "* Vulkar now has increased damage and proc rate."
+        },
+        ["Latron/Latron Prime/"]={
+            "* Latron and Latron Prime now have increased damage."
+        },
+        ["Sentinel/Deth Machine Rifle/"]={
+            "* Sentinel Deth Machine Rifle weapon now has 5% crit chance."
+        },
+        ["Flux Rifle/"]={
+            "* Flux Rifle now has improved damage and proc rate."
+        },
+        ["Defense/Orokin Void"]={
+            "*Void Defense missions are now Endless, they no longer have a set number of waves to complete."
+        },
+        ["Interception/Mobile Defense/"]={
+            "*Mobile Defense removed from Earth in favor of new Interception game mode."
+        },
+        ["Banshee/Volt/Dojo/"]={
+            "*Volt and Banshee parts can now be researched in the new Dojo Labs!"
+        },
+        ["Corpus Outpost/"]={
+            "*Replaced some ice piles in Corpus Outpost with snow, that were being confused for game play related objects."
+        },
+        ["Jackal/"]={
+            "*Lowered max height on Jackal missile volley to avoid detonation in the rafters."
+        },
+        ["Alad V/"]={
+            "*Alad V and Lotus transmissions now appear in Jupiter."
+        },
+        ["Grineer Forest"]={
+            "*Shortened the duration of the Day/Night cycle to be on 4 hour intervals."
+        },
+        ["Sentinel/"]={
+            "*Sentinel & Sentinel weapon XP added to login rewards."
+        },
+        ["Ember/World on Fire/"]={
+            "*Reduced audio radius for Ember’s World on Fire ability."
+        },
+        ["Orokin Derelict/"]={
+            "*Visual language cleanup – Orokin Derelict keys now look more like keys."
+        },
+        ["Survival/Capture"]={
+            "*Changed survival pickup and capture target objective marker icon."
+        },
+        ["Sentinel/"]={
+            "*Sentinel Mod card duplicate images changed to have unique images. "
+        },
+        ["Grineer Galleon/"]={
+            "*Fixed door collision in Grineer Galleon that would block projectiles when shooting through the door."
+        },
+        ["Synapse/Spectra/"]={
+            "*Fixed beam FX registration for Synapse and Spectra."
+        },
+        ["Spectra/"]={
+            "*Fixed animations for the Spectra reload."
+        },
+        ["Cernos/"]={
+            "*Fixed holster positions of Cernos for multiple Warframes."
+        },
+        ["Sentinel/"]={
+            "*Fixed Sentinel weapons that lose their mods when they are revived after death."
+        },
+        ["Galatine"]={
+            "*Fixed the Galantine not having elemental FX on its blade."
+        },
+        ["Orokin Void/"]={
+            "*Fixed minimap for multiple Orokin Void rooms."
+        },
+        ["Mobile Defense/"]={
+            "*Fixed the Grineer asteroid floating cryopod bug in Mobile Defense."
+        },
+        ["Jackal/"]={
+            "*Fixed Jackal not dropping Mods when defeated."
+        },
+        ["Tigris/"]={
+            "*Fixed an issue with the Tigris where having an odd number of bullets could cause the reload animation to play twice."
+        },
+        ["Galatine/"]={
+            "*Fixed Galatine clipping when jogging, jumping, or running."
+        },
+        ["Zanuka Hunter"]={
+            "*Fixed hang and/or crash when reviving after Harvester kills you."
+        },
+},
+{["Version"]={"11.9.2"},
+        ["Akmagnus"]={
+            "Changes:",
+            "*Small improvements to Akmagnus:",
+            "* proc chance increased to 25%",
+            "* crit chance increased to 25%",
+            "* crit multiplier increased to 2. ",
+            "*Corrected Akmagnus fire/equip/reload animations and sounds."
+        },
+        ["Defense/"]={
+            "*Fixed Oxium collected during Defense missions not counting towards Operation Oxium Epsionage progress if the mission failed after reaching a checkpoint."
+        },
+        ["Vauban/Vortex/"]={
+            "*Fixed performance issues when using Vauban's Vortex in situations with high enemy counts. "
+        },
+},
+{["Version"]={"11.9.1"},
+        ["Akmagnus/"]={
+            "*Dialed down Base Damage on Akmagnus by half (was 88, now 44). "
+        },
+},
+{["Version"]={"11.9"},
+        ["Akmagnus"]={
+            "Additions:",
+            "*Akmagnus - Dual Revolvers!",
+            "*Equip these lethal sidearms now!"
+        },
+},
+{["Version"]={"11.8.3"},
+        ["Dojo/"]={
+            "*Cicero Crisis clan trophies have arrived! Winning clans will be able to build them in their Dojos shortly now! "
+        },
+        ["Oberon/"]={
+            "*Fixed some unnatural physics issues with Oberon's surcoat. "
+        },
+},
+{["Version"]={"11.8.2"},
+        ["Detron/Zanuka Hunter"]={
+            "*Buffed Harvesters spawn rate (doubled) + guaranteed Detron component drop upon death. "
+        },
+        ["Tetra/"]={
+            "*Accuracy Changes (increases) for Tetra (was 8.3, now is 18.2)."
+        },
+},
+{["Version"]={"11.8.1"},
+        ["Dojo/Conclave/"]={
+            "*Fixed chat in the Dojo/Conclave losing functionality if Purple/Mauve Text rears their new head."
+        },
+        ["Dojo/"]={
+            "*Fixed missing door icons on research rooms in Dojo."
+        },
+},
+{["Version"]={"11.8"},
+        ["Tetra/"]={
+            "Additions:",
+            "Tetra – A Corpus Rifle!",
+            "Unleash a barrage of lethal energy bolts with the Tetra! Drawing from its huge quad-chambered clip, this laser pulse rifle harnesses powerful energy to bring heavy damage to the enemy."
+        },
+        ["Alert/Invasion/"]={
+            "*New in-chat updates about News, Alerts, and Invasions. It’s Red Text’s robot brother/sister/son?, Mauve Text (colour subject to interpretation). ",
+            "Changes:",
+            "*Server-side change on 1/20/2014: More frequent Grineer vs. Corpus invasions. Originally invasion system allowed for 2-5 days of downtime, this has been changed to only allow 1-2 days downtime.",
+            "*Increase odds of Corpus/Grineer attacking multiple targets after conquering a node",
+            "*Terminus, M Prime, and Elion excluded from alerts so brand new players don't get tripped up by them.",
+            "*Increase outbreak decay rates a little so they don't bog down an entire planet for days. "
+        },
+        ["Sentinel/Stinger/"]={
+            "*Fixed Sentinel Stinger weapon not using energy colour on its hit effects"
+        },
+},
+{["Version"]={"11.7.3"},
+        ["Stalker/Zanuka Hunter"]={
+            "*Added clarity and exposure to the Stalker/Harvester Systems in game. Two things to note here:",
+            "* When you become eligible to be hunted by either foe, you will know… you will be contacted ... look out.",
+            "* If you are already eligible, their contact cycle will begin once you have faced them and re-qualify. ",
+            "*The Harvester’s methods of securing specimens for Alad V have increased in sophistication, look out or you might get... harvested. "
+        },
+        ["Switch Teleport/Loki/Raptor/"]={
+            "*Loki can no longer Switch-Teleport Raptor boss."
+        },
+        ["Alert/"]={
+            "*Changes to the Nightmare Alert structure:",
+            "* No more 5% chance of Optional Nightmare (was incorrectly announced Wednesday 1/15/2014 – we’ve changed it)",
+            "* NOW: There will be 10 nightmare alerts 'per cycle', one for each original nightmare mod.",
+            "* When the Alert is up, it will appear as 'Nightmare Mod Located'; the type of mod will be displayed in the Alert info popup.",
+            "* The mission does not have an option, must be played in Nightmare to acquire the Mod indicated.",
+            "* No shields is always the nightmare modifier.",
+            "* These alerts will also be worth double the credits that would normally be given for an alert mission on the selected node. "
+        },
+        ["Capture/"]={
+            "*Fixed issue where Capture target could perma-death himself and prevent mission completion."
+        },
+        ["Dojo/"]={
+            "*Fixed hitch in the Dojo whenever a room with lots of decorations is refreshed."
+        },
+},
+{["Version"]={"11.7.2"},
+        ["Conclave/"]={
+            "*Fixed crash that could occur when restarting Conclave rounds."
+        },
+},
+{["Version"]={"11.7"},
+        ["Tysis/"]={
+            "Additions:",
+            "*Tysis: Infested Sidearm!"
+        },
+        ["Dojo/"]={
+            "*Dojo halls now give four times the decoration capacity for rooms."
+        },
+        ["Alert/Nightmare Mode/"]={
+            "*Alerts now have a 5% chance to be nightmare Alerts (Clarity: Eligible alerts will prompt choice to play in Nightmare Mode)."
+        },
+        ["Saryn/Molt"]={
+            "*Fixed Saryn’s molt facing the wrong way and part of the effect not lasting its duration."
+        },
+},
+{["Version"]={"11.6.1"},
+        ["Drakgoon/"]={
+            "*Drakgoon now uses shotgun ammo instead of rifle ammo.",
+            "*Tweaked Drakgoon sound effects."
+        },
+        ["Defense/"]={
+            "*Adjusted scaling of enemy levels in Defense missions to become more increasingly difficult at higher waves (70+)."
+        },
+        ["Drakgoon/"]={
+            "*Fixed custom colors not being applied to Drakgoon."
+        },
+        ["Capture/"]={
+            "*Fixed Capture alert missions not working as intended (would pick a random mission type when launched)."
+        },
+        ["Raptor/"]={
+            "*Fixed Raptor missing from Corpus boss kill stats."
+        },
+},
+{["Version"]={"11.6"},
+        ["Drakgoon/"]={
+            "*Drakgoon Flak cannon available now!",
+            "*Send volleys of hot shrapnel flying and dominate the enemy with the Drakgoon Flak Cannon! Fire it in wide bursts to target multiple enemies or take aim and attack with a powerful, concentrated shot. "
+        },
+        ["Defense/"]={
+            "*Changed enemy scaling for Endless Defense missions at high levels (now wave 100 enemies should be around level 200 instead of 8000)."
+        },
+        ["Mobile Defense/"]={
+            "*Changed Lotus transmissions to reduce chatter: added delay to Mobile Defense reminders, Heavy Unit transmissions now have a 2 minute cool-down and can occur at most 3 times per mission."
+        },
+        ["Loki/Invisibility/"]={
+            "*Loki’s Invisibility no longer reduces the volume of dialog and music."
+        },
+        ["Ignis/Synapse/"]={
+            "*Changed logic that determines visual representation of damage mods on continuous-fire weapons (eg: Synapse, Ignis, etc).",
+            "*The frequency of damage numbers used to be limited by using a minimum damage threshold. Since damage mods increase the rate at which damage accumulates, this would cause damage to be inflicted more often though each damage event would not necessarily be larger. This led to people thinking the mods did nothing because they didn't notice the increased rate at which numbers would appear (an easy mistake for low level damage mods). Similarly, headshots would make numbers appear more often but not necessarily create bigger numbers.",
+            "*Now continuous fire weapons now limit the frequency of damage numbers by using a minimum time between impacts, regardless of how much damage has accumulated. This gives us a lot more control and should make things more obvious for players who are applying damage mods (it's easier to notice that numbers are 5% larger in magnitude vs being generated 5% faster) "
+        },
+        ["Defense/"]={
+            "*Fixed issue with going past Wave 100 in Endless Defense resetting enemy levels and interfering with spawning."
+        },
+        ["Dojo/"]={
+            "*Fixed Platinum earned through trading not being usable in Dojo."
+        },
+        ["Ember/Fire Blast/"]={
+            "*Fixed kills made with Ember’s Fire Blast not always counting towards your stats."
+        },
+        ["Penta/"]={
+            "*Fixed Penta energy colour not always applying to grenades."
+        },
+        ["Volt/Overload/"]={
+            "*Fixed issue with Volt being unable to melee if Overload was active or lingering."
+        },
+        ["Dojo/"]={
+            "*Fixed issue with Reactor Room door floating in dojo.",
+            "*Fixed Dojo crash related to large dojo’s building an elevator late in the dojo’s progress."
+        },
+},
+{["Version"]={"11.5.7"},
+        ["Survival/Orokin Derelict/"]={
+            "*Changed Orokin Derelict Survival rewards:",
+            "* 1K Credit Caches replaced with 2.5K",
+            "* 1.5K Credit Caches replaced with 5K",
+            "* Common Fusion Cores replaced with Uncommon or Rare Cores. ",
+            "These changes occurred because the existing 1K/Common Rewards were far too low considering the enemy levels and difficulty of the mission. We will be monitoring feedback here and are discussing further options with rewards."
+        },
+},
+{["Version"]={"11.5.6"},
+        ["Oberon/Reckoning/"]={
+            "*Fixed Oberon’s Reckoning, the power was not working on enemies that were already under the influence of a reaction animation."
+        },
+},
+{["Version"]={"11.5.3"},
+        ["Ogris/Penta/Torid/Stug/"]={
+            "*Fixed elemental damage upgrade mods not applying to the splash & embed damage from projectiles (Stug, Ogris, Torid, Penta etc). Also removed zero damage stat displays weapons that have no base damage (just explosion damage). This is likely a major buff to elemental weapons, we will be monitoring this closely as it is likely going to be rebalanced."
+        },
+        ["Survival/Orokin Derelict/"]={
+            "*Fixed Orokin Derelict Survival missions not giving guaranteed keys at 15 minute mark."
+        },
+        ["Saryn/"]={
+            "*Saryn fixes/buffs *actually* integrated. (11.5.0 notes)."
+        },
+        ["Stug/"]={
+            "*Fixed infinite Ammo exploit with Stug."
+        },
+        ["Cernos/"]={
+            "*Fixed Cernos string bug forum link"
+        },
+        ["Oberon/Smite/Conclave/"]={
+            "*Fixed Oberon's Smite being useless in Conclaves. "
+        },
+},
+{["Version"]={"11.5.2"},
+        ["Sentinel/"]={
+            "* New Sentinels now have the first shooting precept for free, and auto-equipped!"
+        },
+        ["Stug/"]={
+            "* Sound tweaks to Stug explosions."
+        },
+        ["Vor/Alad V/Lephantis/"]={
+            "* We now scale the difficulty of the following bosses based on the Conclave ratings of the players.",
+            "* Lephantis, Vor, Alad V, and Zanuka "
+        },
+        ["Survival/"]={
+            "*Fixed unranked fusion cores being given as Survival Rewards."
+        },
+        ["Ember/Fireball/"]={
+            "*Fixed Ember's Fireball level 4 not doing AoE damage on hit."
+        },
+        ["Nekros/Shadows of the Dead/"]={
+            "*Fixed Nekros’s Shadows of the Dead clones not attacking unless attacked first."
+        },
+        ["Dojo/"]={
+            "*Fixed Dojo rooms and decorations not being cancelable in the process of building."
+        },
+        ["Sentinel/"]={
+            "*Fixed Aresenal stats not updating with Sentinel weapons."
+        },
+        ["Ember/Flash Accelerant"]={
+            "*Fixed Ember’s accelerant not increasing fire damage against shields."
+        },
+        ["Carrier/"]={
+            "*Fixed issue where Carrier’s Vacuum would try and suck up ammo drops if you had maximum ammo and the scanner equipped."
+        },
+        ["Cernos/"]={
+            "*Fixed Cernos Bow offhand attachment showing an arrow incorrectly."
+        },
+        ["Foundry/"]={
+            "*Fixed players being able to sell blueprints from their inventory that are currently in-progress in the Foundry. "
+        },
+},
+{["Version"]={"11.5.1"},
+        ["Karak/"]={
+            "*Fixed Karak not being craftable with BluePrint."
+        },
+        ["Lotus/"]={
+            "*Fixed Lotus saying wrong line and repeating herself."
+        },
+},
+{["Version"]={"11.5"},
+        ["Oberon/Vay Hek/"]={
+            "*New Warframe: OBERON – the Paladin Warframe! Equally adept at healing friends or striking down the enemy. Oberon embodies the balance Tenno are sworn to uphold. Find him today by fighting Vay Hek!"
+        },
+        ["Grineer Forest"]={
+            "*New Forest Tile set reveal! Within the Cicero Crisis Event node on Earth is a first look at the new Forest tileset!"
+        },
+        ["Karak/"]={
+            "*New primary weapon: Karak, a Grineer rifle!"
+        },
+        ["Stug/"]={
+            "*New secondary weapon: The Stug, a Grineer goo-gun!"
+        },
+        ["Magistar/"]={
+            "*New melee weapon: The Magistar, a Tenno mace!"
+        },
+        ["Clan/Research/"]={
+            "*New Infested Whip: now in Clan Research!"
+        },
+        ["Burston Prime/Orokin Derelict/"]={
+            "*Burston Prime! The Void’s influence has further permeated the Orokin Derelicts… bringing loot with it! Visit The Orokin Derelict Survival missions today to find the Burston Prime!"
+        },
+        ["Valkyr/Ember/Saryn/"]={
+            "*Warframe Changes:"
+        },
+        ["Valkyr/"]={
+            "* Valkyr:"
+        },
+        ["Paralysis/Valkyr"]={
+            "* Paralysis (Third Power) - Now only takes 1/3rd of shields but still calculates damage based on 1/2 shield use."
+        },
+        ["Hysteria/Valkyr"]={
+            "* Hysteria (Fourth Power) - Now has life regain/regeneration as damage is being dealt to enemies. "
+        },
+        ["Ember/"]={
+            "* Ember:"
+        },
+        ["Fireball/Ember"]={
+            "* Fireball (First Power) - Deals Direct damage with a 100% Fire proc, on impact deals radial damage with 50% Fire Proc, has a faster travel time."
+        },
+        ["Accelerant/Overheat/Ember"]={
+            "* Accelerant (New Second Power - was Overheat) - Accelerant affects all enemies in a radius to have knockback + it coats them in fire damage amplifier!"
+        },
+        ["Fire Blast/Ember"]={
+            "* Fire Blast - Initial radial damage now has 100% fire proc. "
+        },
+        ["Saryn/"]={
+            "* Saryn:"
+        },
+        ["Venom/Saryn"]={
+            "* Venom - Now does viral damage."
+        },
+        ["Molt/Saryn"]={
+            "* Molt – The Molt Decoy now gets increased health with fusion level."
+        },
+        ["Miasma/Saryn"]={
+            "* Miasma - Damage increase and changed to corrosive damage type. "
+        },
+        ["Ember Prime/Boar Prime/Sicarus Prime/Orokin Derelict/"]={
+            "*The Void’s influence is still strong on the Orokin Derelicts – and some Prime items have a new home. You can now search Orokin Derelict Defenses for the Sicarus Prime Blueprint, Ember Prime Blueprint, and Boar Prime Receiver!"
+        },
+        ["Corpus Gas City/"]={
+            "*Corpus Gas City Expansion."
+        },
+        ["Invasion/"]={
+            "*Infested Invasion missions now only require 3 completions for Battle Pay instead of 5."
+        },
+        ["Defense/Exterminate/Mobile Defense/Survival/Invasion/"]={
+            "*Infested Invasions will always inherit node mission type if the preexisting node was: Exterminate, Defense, Mobile Defense, or Survival. If the node being Infested was not one of those, game will decide randomly out of the 4 (Exterm, Defense, M. Defense, Survival)."
+        },
+        ["Dojo/"]={
+            "*Increase limit on the number of rooms allowed in your Dojo. The limit is now 100 rooms!"
+        },
+        ["Trinity/Vor/Lech Krill"]={
+            "*Trinity’s Blueprint drops have moved to Iliad on Phobos to be dropped by Kril and Vor!"
+        },
+        ["Lotus/"]={
+            "*Adjustments to frequency of Lotus dialogue."
+        },
+        ["Sentinel/"]={
+            "*All Sentinel Weapons now respond to fire-rate mods, magazine-size mods, and reload-time mods."
+        },
+        ["Lotus/"]={
+            "*Added and replaced old Lotus lines (thanks for letting us know in the forums!)"
+        },
+        ["Sentinel/"]={
+            "*Fixed issues with Sentinel weapon stats not showing correct values."
+        },
+        ["Ogris/Penta/Torid/"]={
+            "*Fixed Arsenal stats for weapons that have projectiles with complex damage (Ogris, Penta and Torid)."
+        },
+        ["Phorid/"]={
+            "*Fixed Phorid level not loading."
+        },
+        ["Loki/Switch Teleport/"]={
+            "*Fixed Loki’s Switch Teleport giving Target Obstructed message when target isn't obstructed."
+        },
+        ["Trinity/Grakata/"]={
+            "*Fixed Trinity clipping with the Grakata for the Noble Animation set."
+        },
+        ["Invasion"]={
+            "*Fixed invasion missions sometimes resulting in no allies spawning."
+        },
+        ["Mobile Defense/"]={
+            "*Fixed Mobile Defense console context action showing up in other game modes."
+        },
+        ["Alert/"]={
+            "*Fixed some issues where the happenings of the Warframe world (Alerts, invasions) were not being updated in real-time."
+        },
+        ["Nova/Worm Hole"]={
+            "*Fixed logic with Nova’s Wormhole cast – it is generated from your camera and the height of the cast has been adjusted."
+        },
+        ["Akvasto/Vasto/"]={
+            "*Vasto and Akvasto receive unique reload sounds"
+        },
+        ["Akvasto/"]={
+            "* While Akvasto receives a new animation on reloads. "
+        },
+},
+{["Version"]={"11.3.3"},
+        ["Invasion/"]={
+            "*First steps of cleaning up Invasion Progress bars: amalgamate outbreaks into 1 progress bar per region affected, show tooltip listing all affected nodes when hovering over label."
+        },
+        ["Penta/"]={
+            "*Changes to Penta aiming reticule – firing trajectory should better align with reticule. "
+        },
+        ["Defense/"]={
+            "*Fixed Infested Defense missions running as 15-wave countdown instead of normal defense flow."
+        },
+        ["Lotus/"]={
+            "*Fixed missing Lotus DSP lines for Orokin Assassinate mission."
+        },
+        ["Dakra Prime/"]={
+            "*Fixed the tint-ablity of the white section of the Dakra Prime."
+        },
+        ["Orokin Void/"]={
+            "*Fixed floating helmets when killing Corpus enemies in Orokin Void."
+        },
+        ["Dread/Despair/Hate/"]={
+            "*Text corrections for Orokin Cells, Dread, Despair & Hate . "
+        },
+},
+{["Version"]={"11.3.2"},
+        ["Penta/"]={
+            "*Tweaks to Penta 2D sounds."
+        },
+        [""]={
+            "*Modified forces applied on loot from containers to prevent pickups from scattering too far."
+        },
+        ["Ember/World on Fire/"]={
+            "*Tweaks to fog mesh from Ember’s World on Fire ability."
+        },
+        ["Alad V/"]={
+            "*Rebalanced Alad V and Zanuka difficulty (slight nerf)."
+        },
+        ["Penta/"]={
+            "*Lens flare added to Penta projectiles.",
+            "*Penta now supports energy color customization."
+        },
+        ["Lotus/"]={
+            "*Reduced master volume on Lotus by 2dB.",
+            "*Reduced Lotus chatter frequency for detecting enemies."
+        },
+        ["Rescue/"]={
+            "*Removed 30 second delay in Mission Objective Reminder Transmission for Rescue missions. "
+        },
+        ["Defense/Corpus Gas City"]={
+            "*Fixed some teleport volumes in Gas City Defense to prevent players from escaping the level boundaries."
+        },
+        ["Grineer Galleon/"]={
+            "*Fixed one-way portal appearing in Grineer Galleon missions - aka the black wall of doom on infested invasion missions."
+        },
+},
+{["Version"]={"11.3.1"},
+        ["Clan/Research/"]={
+            "*Removed Infested Whip from Clan Research…. for now. "
+        },
+},
+{["Version"]={"11.3"},
+        ["Penta/"]={
+            "*Tenno Reinforcement: The Penta! A Corpus Grenade Launcher enters the Tenno Arsenal! "
+        },
+        ["Invasion/Phorid"]={
+            "Systemic Invasions 1.0 is live!",
+            "*Grineer & Corpus now periodically attack star chart nodes owned by opposing factions; if successful, battlefront moves to an adjacent node, otherwise faction 'rests' before attacking another node.",
+            "*The Infested now truly infest! The faction has vacated the Star Chart and now exists as an Invasion faction! Keep your eyes peeled for signs of Infested threats – they’ll strike hard.",
+            "*Infestation 'outbreaks' will occur at random, with a downtime of 12 – 36 hours between attacks. When a node is under Infested threat, battlefront aggressively moves to all adjacent nodes if invasion isn't successfully defended within a matter of hours. Outbreaks continue to spread until reaching a boss node, which leads to Phorid appearing and occupying that boss's node until the invasion is defeated!"
+        },
+        ["Grakata/Boltor/Bolto/Tigris/Lanka/Magnus/Dual Heat Swords/Heat Dagger/Amphis"]={
+            "*Weapon changes:"
+        },
+        ["Grakata/"]={
+            "* Buffed Grakata - Higher Proc/Crit chance. Higher damage (9 to 11)"
+        },
+        ["Boltor/"]={
+            "* Buffed Boltor - Projectile flies faster, Upped damage (18 - 25), Higher Crit chance"
+        },
+        ["Bolto/"]={
+            "* Buffed Bolto, Slightly more damage, more crit, projectile speed increase"
+        },
+        ["Tigris/"]={
+            "* Damage and range buff for Tigris - 35-45 per pellet, firing mechanic has pretty hard draw back. - so this thing needs to hit like a truck! (Scott’s Words!)"
+        },
+        ["Lanka/"]={
+            "* Lanka, puncture by default (5m)",
+            "* Weak Energy projectile for Lanka, you can now shoot before weapon is fully charged (although a weaker shot)."
+        },
+        ["Magnus/"]={
+            "* Magnum reload time tweak."
+        },
+        ["Dual Heat Swords/Heat Dagger/"]={
+            "* Heat Dagger and Dual Heat Swords now deal Fire damage with Charge Attacks and Ground Slams"
+        },
+        ["Amphis/"]={
+            "* Amphis now deals Electricity damage on Ground Slams "
+        },
+        ["Sentinel/"]={
+            "*Changes to Sentinel XP distribution:",
+            "* Based on reports and experiences with slow-ranking Sentinels, we have changed the way Experience is distributed amongst your feisty friends. ",
+            "*Previously:",
+            "* Sentinel kills would split experience between your Sentinel’s weapon and your Warframe, so your Sentinel itself would miss out on experience.",
+            "* Weapon kills would split evenly between your Warframe and your Weapon (50% each), then a 42% bonus chunk of experience would be given to the Sentinel and its weapon (21% each). Note that the total XP earned was 142% of what you saw on the screen – now it will be 200%. ",
+            "*Now:",
+            "* Regular weapon kills divide experience evenly between your weapon and your Warframe (50% each).",
+            "* Kills using a Warframe ability give all the experience to the Warframe (as before).",
+            "* Sentinel weapon kills divide experience evenly between your Sentinel and its weapon (50% each).",
+            "* Kills using a precept give all the experience to your Sentinel (as before).",
+            "* Experience from other players (shared experience) is split evenly amongst your gear as follows: a quarter goes to your Warframe and a quarter goes to each of your weapons (25% each). If you have a sentinel equipped, a 100% bonus chunk of experience is split evenly between your Sentinel and its weapon (50% each). "
+        },
+        ["Clan/Dojo/"]={
+            "*Clan Trading Tax option is live! For more information, see their FAQ",
+            "*Dojo flags now show Clan emblem"
+        },
+        ["Lotus/"]={
+            "*Lotus 2.0! Lotus has recently had a major overhaul. Most of her lines have been re-recorded and now sound more consistent across the entire game. Lotus now uses a brand new DSP system to playback her audio files. Her voice has a more dynamic sound that makes use of some digital audio randomization so her voice effect will sound slightly different every time it plays."
+        },
+        ["Capture/"]={
+            "*Changed Capture targets voices. There are now 2 different voices for each of the Corpus and Grineer factions. They now speak as you chase them/capture them."
+        },
+        ["Conclave/"]={
+            "*Conclave values added for Bane of Corpus, Bane of Grineer, Band of Infested, Expel Corpus, Expel Grineer, Expel Infested, Smite Corpus, Smite Grineer, Smite Infested"
+        },
+        ["Seer/"]={
+            "*Seer Reload sound changed."
+        },
+        ["Ember/World on Fire/"]={
+            "*Ember’s World on Fire effects overhaul."
+        },
+        ["Valkyr/Rip Line"]={
+            "*Valkyr’s Ripline is now more violent on AI."
+        },
+        ["Gram/"]={
+            "*Edge lights on Gram now respect the chosen color for Energy."
+        },
+        ["Mire/"]={
+            "*Damage 2.0 effects hooked up to the Mire."
+        },
+        ["Nyx/Mind Control/"]={
+            "*Updated effects on Nyx’s Mind Control ability."
+        },
+        ["Stalker/"]={
+            "*Stalker should be smarter about picking travel points to approach the targeted player."
+        },
+        ["Clan/Dojo/"]={
+            "*Changes to guild roles:",
+            "* Must have the Treasurer role to use vault resources to contribute to Dojo rooms/decos (previously needed the Architect role).",
+            "* Must have the Treasurer role to change 'Clan Trade Tax Rate'"
+        },
+        ["Lephantis/"]={
+            "*Lephantis balancing, melee head lunge attack once again knocks down target."
+        },
+        ["Dojo/"]={
+            "*When placing a decoration in the Dojo, you now see how the deco will look when completed (or the red material override when it can’t be placed). Once placed, it switches to the yellow “in construction” material."
+        },
+        ["Hysteria/Valkyr"]={
+            "*Reduced the effects during Hysteria. "
+        },
+        ["Cernos/"]={
+            "*Fixed Cernos not playing firing sound."
+        },
+        ["Asassination"]={
+            "*Fixed issues with Grineer Assassinate alerts not having Grineer bosses to fight."
+        },
+        ["Dojo/"]={
+            "*Fixed if a host migration happens while a player has the edit decoration tool active in a Dojo, the tool will stop functioning."
+        },
+        ["Corpus Ship/"]={
+            "*Fixed issue where players would see a blank grey portal in connecting pieces of the Corpus Ship Tiles."
+        },
+        ["Dojo/"]={
+            "*Fixed crashes in Dojo when aiming at a friend."
+        },
+        ["Conclave/"]={
+            "*Fixed Player getting stuck on a loading screen if they attempt to load in to the PVP Jupiter Conclave."
+        },
+        ["Torid/"]={
+            "*Fixed Torid not gaining bonuses from elemental mods."
+        },
+        ["Vauban/"]={
+            "*Fixed issues with throwing direction associated with Vauban’s powers."
+        },
+        ["Valkyr/Warcry/"]={
+            "*Fixed the enemy speed debuff on Valkyr's Warcry ability, so that it is now affected by Ability Mods."
+        },
+        ["Nova/Molecular Prime/"]={
+            "*Fixed issues where Nova’s Molecular Prime would cause enemies to dissolve then reappear as ragdolls. "
+        },
+},
+{["Version"]={"11.2.1"},
+        ["Brakk/"]={
+            "*Brakk change:",
+            "* Damage slanted towards impact damage.",
+            "* Little more spread added.",
+            "* Fall off added (10-20m) "
+        },
+        ["Desecrate/Nekros"]={
+            "*Added ragdoll events to Crawler elemental deaths to improve Desecrate results.",
+            "*Desecrate is now only possible if corpses are present."
+        },
+        ["Sentinel/"]={
+            "*Made Sentinel kills count towards your kill stats (including the leaderboard score); stats in profile will now track Sentinel weapons as well."
+        },
+        ["Survival/"]={
+            "*Windows are no longer breakable in the spawn room to prevent Survival Exploit."
+        },
+        ["Conclave/"]={
+            "*Disabled Hotkey-bound consumable items in Conclaves."
+        },
+        ["Nova/Worm Hole"]={
+            "*Fixed issues with Nova’s Wormhole not always working, even if energy was drained.",
+            "*Fixed issue with Nova’s Wormhole going through the world environment."
+        },
+        ["Nova/Antimatter Drop/Nyx/Absorb/"]={
+            "*Fixed issues where damage inflicted by clients would not power up Nyx’s Absorb or Nova’s Antimatter Drop."
+        },
+        ["Nova/Antimatter Drop/"]={
+            "*Fixed issue where Nova’s Antimatter Drop would not trigger explosive radial damage in certain cases."
+        },
+        ["Grineer Asteroid/"]={
+            "*Fixed issue where enemies would not spawn in Grineer Asteroid Tileset in some cases."
+        },
+        ["Vor/Vay Hek/Jackal/"]={
+            "*Fixed several issues with Lotus’s text not appearing for Jackal, Vor, and Vay Hek."
+        },
+        ["Valkyr/Hysteria/Furax/"]={
+            "*Fixed issue where Valkyr’s Hysteria added a level 30 Furax to Arsenal on mission complete."
+        },
+        ["Phorid/"]={
+            "*Fixed missing Phorid Diorama."
+        },
+        ["Energy Vampire/Bastille/Well Of Life/Trinity/Vauban"]={
+            "*Fixed enemies being affected by knockdown/ragdoll while in Bastille, Well of Life, or Energy Vampire. "
+        },
+},
+{["Version"]={"11.2"},
+        ["Magnus/"]={
+            "*Tenno Reinforcements: “The Magnus”! "
+        },
+        ["Ash/Banshee/Ember/Excalibur/Frost/Loki/Mag/Nekros/Nova/Nyx/Rhino/Saryn/Trinity/Valkyr/Vauban/Volt"]={
+            "*Warframe Armor Buff across the board: All Warframes have received a buff to their Armor stat."
+        },
+        ["Ash/"]={
+            "* Ash: Buffed to 65 (from 50)."
+        },
+        ["Banshee/"]={
+            "* Banshee: Buffed to 15 (from 10)."
+        },
+        ["Ember/"]={
+            "* Ember: Buffed to 15, (from 10)."
+        },
+        ["Excalibur/"]={
+            "* Excalibur: Buffed to 65 (from 50)."
+        },
+        ["Frost/"]={
+            "* Frost: Buffed to 190, (from 150)."
+        },
+        ["Loki/"]={
+            "* Loki: Buffed to 65 (from 50)."
+        },
+        ["Mag/"]={
+            "* Mag: Buffed to 65 (from 50)."
+        },
+        ["Nekros/"]={
+            "* Nekros: Buffed to 65 (from 50)."
+        },
+        ["Nova/"]={
+            "* Nova: Buffed to 65 (from 50)."
+        },
+        ["Nyx/"]={
+            "* Nyx: Buffed to 15 (from 10)."
+        },
+        ["Rhino/"]={
+            "* Rhino: Buffed to 190, (from 150)."
+        },
+        ["Saryn/"]={
+            "* Saryn: Buffed to 155, (from 125)."
+        },
+        ["Trinity/"]={
+            "* Trinity: Buffed to 15 (from 10)."
+        },
+        ["Valkyr/"]={
+            "* Valkyr: Buffed to 300 (from 200)."
+        },
+        ["Vauban/"]={
+            "* Vauban: Buffed to 50, (from 40)."
+        },
+        ["Volt/"]={
+            "* Volt: Buffed to 15 (from 10). "
+        },
+        ["Clan/"]={
+            "*Incoming private messages will now also be shown in Clan chat when in-game."
+        },
+        ["Banshee/"]={
+            "*Changed Banshee Alt Helmet Alerts to include style type, “Reverb” or “Chorus”."
+        },
+        ["Alert/"]={
+            "*We now display active Alerts whether or not the planet has been unlocked to improve awareness."
+        },
+        ["Vor/"]={
+            "*Fixed Captain Vor becoming unkillable and not doing anything when affected by his viral proc. His viral proc now does viral *DOT instead of the default max health reduction effect."
+        },
+        ["Dojo/"]={
+            "*Fixed issue that would visually skew Dojo Costs if you visited another clan’s Dojo in a higher tier."
+        },
+        ["Desecrate/Nekros"]={
+            "*Fixed Desecrate not working on Crawlers. (Still having issues? See here: https://forums.warframe.com/index.php?/topic/143351-update-1120/?p=1700023)"
+        },
+        ["Trinity/Well Of Life"]={
+            "*Fixed script error in Trinity's Well of Life that would cause power-in-use bug."
+        },
+        ["Valkyr/Rip Line/"]={
+            "*Fixed script error in Valkyr's Rip Line ability that would cause power-in-use bug."
+        },
+        ["Alert/"]={
+            "*Fixed News & Alerts panel breaking when more than 3 news entries exist."
+        },
+        ["Alad V/"]={
+            "*Fixed Zanuka trying to revive Alad V after he is truly dead and gone."
+        },
+        ["Valkyr/Rip Line/"]={
+            "*Fixed Valkyr's Rip Line being usable on downed players."
+        },
+        ["Nyx/Absorb/Valkyr/Hysteria/"]={
+            "*Fixed Nyx and Valkyr being vulnerable to Procs from Disruptor and others when Absorb or Hysteria are active."
+        },
+        ["Nekros/Alert/"]={
+            "*Fixed Nekros Shroud Helmet Alert giving Raknis, a 12 hour Shroud Alert is coming shortly."
+        },
+},
+{["Version"]={"11.1.3"},
+        ["Defense/Survival/"]={
+            "*Fixed Corpus Crewman not spawning in high level Defense and Survival missions."
+        },
+        ["Orokin Void/Orokin Derelict"]={
+            "*Fixed Orokin Void/Derelict missions failing to launch if new host was elected at the end of the countdown."
+        },
+        ["Stalker/"]={
+            "*Fixed Stalker spawning during defense mission “leave/continue” dialog."
+        },
+        ["Hyena Pack"]={
+            "*Rewrote the Lotus lines for Hyena boss so they don't reference a pack of Hyena robots. "
+        },
+},
+{["Version"]={"11.1.2"},
+        ["Survival/"]={
+            "*A lot of players have expressed that the “15 minute mark” reward tier is often the most desirable for Survival missions. Changes have been made to Survival Reward tiers reward logic to reflect this feedback. We now cycle more efficiently through these tiers to ensure more reward variety. "
+        },
+        ["Nyx/Absorb/"]={
+            "*Nyx’s Absorb will now go affect enemies behind walls or cover.",
+            "*Fixed Nyx’s absorb not doing damage to Infested Crawlers and Chargers."
+        },
+        ["Volt/"]={
+            "*Fixed Volt Chassis dropping instead of Volt Chassis Blueprint."
+        },
+        ["Valkyr/Warcry/"]={
+            "*Fixed Valkyr’s Warcry being permanent on enemies."
+        },
+        ["Soul Punch/Nekros"]={
+            "*Fixed Soul Punch not ragdolling enemies."
+        },
+        ["Survival/"]={
+            "*Fixed issues with only Hellions and Eviscerators spawning on Phobos Survivals."
+        },
+        ["Dojo/"]={
+            "*Fixed issues where “Ceiling Fish” would occur in Dojo. This marks the end of Ceiling Fish’s times of horseplay."
+        },
+        ["Vauban/Vortex/"]={
+            "*Fixed issues with Vauban’s Vortex causing crashes when dealing damage."
+        },
+},
+{["Version"]={"11.1.1"},
+        ["Survival/"]={
+            "*Fixed Survival mode enemy levels increasing at an astronomic rate."
+        },
+        ["Valkyr/Warcry/"]={
+            "*Fixed Valkyr's Warcry not slowing enemies down more at higher levels"
+        },
+        ["Valkyr/Alad V/"]={
+            "*Fixed Alad V being too weak to Valkyr’s Ripline."
+        },
+        ["Orokin Void/"]={
+            "*Fixed issues with Orokin Void and Derelict capture rooms causing a game hang."
+        },
+        ["Ember Prime/"]={
+            "*Fixed Ember Prime missing her 'prime effect' in the Void."
+        },
+        ["Trinity/Energy Vampire/"]={
+            "*Fixed 'Power In Use' occurring when using Trinity's Energy Vampire"
+        },
+        ["Darvo/"]={
+            "*Fixed some of Darvo's transmissions not playing during alert mission"
+        },
+},
+{["Version"]={"11.1"},
+        ["Cernos/Dual Kamas/Aklex"]={
+            "New weapons :"
+        },
+        ["Cernos/"]={
+            "*Cernos Tenno Hunting bow"
+        },
+        ["Dual Kamas/"]={
+            "*Dual Kamas added to the Market"
+        },
+        ["Aklex/"]={
+            "*Aklex (Akimbo Lex pistols) added to the Market "
+        },
+        ["Gram/"]={
+            "*Updated Gram skin to match faction style better. This is automatic, all your Grams are updated!"
+        },
+        ["Survival/"]={
+            "*Survival Missions will now allow the replenishing of Life Support if the bar hits 0% while a player is activating a life support capsule.",
+            "*Survival Mission enemy level scaling changes."
+        },
+        ["Foundry/"]={
+            "*Offer to sell more slots to user if none left when attempting to claim or rush a Foundry item, followed by offer to buy platinum from store if user has insufficient amount."
+        },
+        ["Alad V/"]={
+            "*Alad V - increased Single Player level cap. Zanuka scaling matches Alad's. AI minions spawn a little less frequently.",
+            "*Alad V - Added some jump actions on the exterior catwalks for Zanuka to get back to the main platform."
+        },
+        ["Orokin Void/"]={
+            "*Added the new capture objective rooms to Orokin Void and Derelicts."
+        },
+        ["Defense/Survival/"]={
+            "*New Corpus Survival and Defense squads using new U11 enemy types."
+        },
+        ["Alad V/"]={
+            "*Alad V – can no longer be pushed/pulled/bounced."
+        },
+        ["Volt/Jordas/"]={
+            "*Volt’s blueprints added to Mission Reward tables. We would like to clarify here that the original U11 notes suggested that his former Boss, J3Golem, would be dropping them in systemic invasions. This is no longer the case, and his parts can be found by playing various missions. "
+        },
+        ["Mire/"]={
+            "*Fixed Mire not dealing poison damage on its own."
+        },
+        ["Rhino/Rhino Stomp"]={
+            "*Fixed enemies killed by Rhino’s Stomp being suspended for eternity in slow motion death."
+        },
+        ["Alad V/"]={
+            "*Fixed issues with Alad V boss fight and teleportation after falling off level."
+        },
+        ["Tigris/"]={
+            "*Fixed issue with Tigris where second shot would be fired upon melee, weapon switch, landing a jump, or roll dodging. Performing any of these actions will now cancel the loaded shot from semi automatic behaviour. "
+        },
+        ["Nova/Worm Hole"]={
+            "Fixed reported issue of Nova’s Wormhole ability being too high when used above her head."
+        },
+        ["Capture/"]={
+            "*Fixed some client / host issues with the Capture missions:"
+        },
+        ["Capture/"]={
+            "*Fixed issue where Capture target does not stay downed after a host migration."
+        },
+        ["Mobile Defense/"]={
+            "*Fixed Mobile Defense dioramas to make sure 1st player always holds datamass in diorama."
+        },
+},
+{["Version"]={"11.0.7"},
+        ["Sentinel/"]={
+            "*Fixed Sentinels not showing in Codex if selected for viewing."
+        },
+        ["Alad V/"]={
+            "*Fixed Alad V’s boss diorama being a solo Moa.",
+            "*Buffs to Alad V – his max level is increased.",
+            "*Buffs to Zanuka’s shields and missiles. "
+        },
+},
+{["Version"]={"11.0.6"},
+        ["Valkyr/"]={
+            "*Fixed Valkyr’s power sounds not playing when using Noble animations."
+        },
+        ["The Sergeant"]={
+            "*Fixed Nef Anyo’s rank of Sergeant being spelled incorrectly."
+        },
+        ["Prova/"]={
+            "*Fixed missing charge animations in Prova attacks."
+        },
+        ["Capture/"]={
+            "*Fixed Capture targets having additional armor."
+        },
+        ["Alad V/"]={
+            "*Fixed Hunt for Alad V breach “Muffled Sounds” being applied to all players when one player enters breach."
+        },
+},
+{["Version"]={"11.0.5"},
+        ["Survival/"]={
+            "*Fixed E Gate Survival on Venus not giving mission reward at 5 minutes."
+        },
+},
+{["Version"]={"11.0.4"},
+        ["Flux Rifle/"]={
+            "*Flux Rifle adjustments to not be pure Slash damage."
+        },
+        ["Boar Prime/"]={
+            "*Boar Prime proc chance lowered."
+        },
+        ["Sentinel/"]={
+            "*Fixed issues where Sentinel attacks owner if they receive Radiation Proc."
+        },
+        ["Banshee/Loki/"]={
+            "*Fixed Loki/Banshee Immortal skins not being tintable."
+        },
+        ["Lecta/"]={
+            "*Fixed missing animations on knee slide with Lecta spin."
+        },
+        ["Bounce/Vauban"]={
+            "*Fixed issues where Bounce wasn’t dealing damage or ragdolling enemies."
+        },
+        ["Mag/Crush/Conclave/"]={
+            "*Fixed issues where Crush wasn’t working in Conclaves"
+        },
+        ["Rhino/Rhino Stomp/Conclave/"]={
+            "*Fixed issue where Rhino Stomp wasn’t dealing damage in Conclaves."
+        },
+        ["Capture/"]={
+            "*Fixed issue where Capture issues not working with multiple targets."
+        },
+},
+{["Version"]={"11.0.3"},
+        ["Valkyr/"]={
+            "*Added Valkyr Noble animation!"
+        },
+        ["Sargas Ruk/"]={
+            "*Sargas Ruk level difficulty adjustments lowered."
+        },
+        ["Stalker/"]={
+            "*Stalker continually increasing his defenses and snapping out of buggy states. Look out, Tenno."
+        },
+        ["Lephantis/"]={
+            "*Lephantis melee secondary weakpoint takes 2x damage again."
+        },
+        ["Kunai/"]={
+            "*Toned down Kunai/throwing projectile trails."
+        },
+        ["Sargas Ruk"]={
+            "*Fewer particles in Ruk’s eruption jets. Performance based change.",
+            "*Slowed down Sargas Ruk’s fireball a bit."
+        },
+        ["Volt/"]={
+            "*Volt's electric effects will now create a dynamic light that matches your energy colour."
+        },
+        ["Vectis/Sargas Ruk"]={
+            "*Prevent modded Vectis from 1-shotting Ruk."
+        },
+        ["Soma/"]={
+            "*Soma Crit Rate has been buffed and Proc/Status increase chance."
+        },
+        ["Jaw Sword"]={
+            "*Jaw sword Proc chance lowered from 50% to 10%."
+        },
+        ["Corpus Gas City/"]={
+            "*Changes to camera placements on Corpus Gas City tiles "
+        },
+        ["Dojo/"]={
+            "*Fixed some situations where Dojo operations fail, leading to more failures. Related to finishing decorations by rushing not working."
+        },
+        ["Machete Wraith/"]={
+            "*Fixed Machete Wraith not being right size."
+        },
+        ["Valkyr/Hysteria/"]={
+            "*Fixed melee weapon info at end of match not being displayed if Valkyr’s Hysteria was active."
+        },
+        ["Valkyr/Hysteria/"]={
+            "*Fixed melee getting locked for clients after being hit by something that would normally do knockdown when Valkyr's Hysteria is active."
+        },
+        ["Nyx/Absorb/"]={
+            "*Fixed Nyx being immune to Shield Damage after using Absorb."
+        },
+        ["Trinity/Blessing"]={
+            "*Fixed Players potentially taking shield damage when Trinity has Blessed them."
+        },
+        ["Valkyr/Hysteria"]={
+            "*Fixed Valkyr using the fist melee style on her regular melee weapon after using her ultimate."
+        },
+        ["Loki/Radial Disarm/"]={
+            "*Fixed error with Loki's Radial Disarm that would cause power in use bug."
+        },
+        ["Sargas Ruk/"]={
+            "*Fixed no sound on Sargas Ruk’s Gun Attack."
+        },
+        ["Corpus Gas City/"]={
+            "*Fixed enemies not spawning in Gas city Exterminate tileset and in Sabotage missions."
+        },
+        ["Glaive Prime/"]={
+            "*Fixed Glaive mods not working on Glaive Prime."
+        },
+        ["The Sergeant"]={
+            "*Fixed Sgt. Nef Anyo requiring too many scans for Codex."
+        },
+},
+{["Version"]={"11.0.2"},
+        ["Dojo/"]={
+            "*Fixed Dojo 'Room Building' UI hang resulting in unplayable game."
+        },
+        ["Nyx/Absorb/"]={
+            "*Injury Immunity fixes for Nyx when in Absorb."
+        },
+        ["Trinity/Blessing/"]={
+            "*Fixed Blessing not making Trinity invulnerable."
+        },
+        ["Sweeper/"]={
+            "*Sweeper Shotgun reduced damage (we did missions without firing a single shot, necessary balance). "
+        },
+},
+{["Version"]={"11.0.1"},
+        ["Sentinel/"]={
+            "*Enabled Sentinel Weapons category in Codex."
+        },
+        ["Gorgon/Sobek/Acrid"]={
+            "* Many weapons received adjustments to compensate for Damage 2.0. Some have been readjusted for 11.0.1 including:"
+        },
+        ["Acrid/"]={
+            "* Acrid Pistol, damage increases."
+        },
+        ["Sobek/"]={
+            "* Sobek Crit, unintended 50% rate."
+        },
+        ["Gorgon/"]={
+            "* Gorgon crit. "
+        },
+        ["Clan/"]={
+            "*We now show the Clan Tab and clan IRC Chat channel in game."
+        },
+        ["Trinity/Link/"]={
+            "*Trinity's Link now prevents procs (though they may still occur on the Link target)."
+        },
+        ["Sargas Ruk/"]={
+            "*Fixed Sargas Ruk’s pain barks to not happen 100% of the time, he isn’t a baby!"
+        },
+        ["Valkyr/"]={
+            "*Fixed Valkyr BP image being Banshee."
+        },
+        ["Invasion"]={
+            "*Fixed invasion enemy levels being re-scaled whenever a player leaves/joins a mission in progress."
+        },
+        ["Excalibur/"]={
+            "*Fixed Alabaster skin applying to Excalibur. Not intended to be worn."
+        },
+        ["Valkyr/"]={
+            "*Fixed Valkyr Cosmetic Restraints not being in Valkyr Bundle."
+        },
+        ["Kraken/"]={
+            "*Fixed Kraken dealing 0 damage."
+        },
+},
+{["Version"]={"11.0"},
+        ["Valkyr/"]={
+            "*New Warframe: “Valkyr” Female Berserker Class, Cosmetic Bastet Helmet & Cosmetic Restraints!"
+        },
+        ["Tigris/"]={
+            "* “Tigris” Tenno Double-Barrel Shotgun (Primary)"
+        },
+        ["Cestra/"]={
+            "* “Cestra” Corpus Mini-gun (Secondary)"
+        },
+        ["Lecta/"]={
+            "* “Lecta” Corpus Whip (Melee) "
+        },
+        ["Ember Prime/Sicarus Prime/Glaive Prime/"]={
+            "*New Prime Gear: Ember, Glaive, and Sicarus! Find it all in the Void Today!"
+        },
+        ["Dojo/"]={
+            "*New Decorations for the Dojo (Including a Trading Kiosk!)"
+        },
+        ["Corpus Gas City/"]={
+            "*New Tile Set: Corpus Gas City"
+        },
+        ["Sargas Ruk"]={
+            "*New Boss: Sargus Ruk (Grineer)"
+        },
+        ["Alad V/"]={
+            "*New Boss: Alad V & Zanuka (Corpus)"
+        },
+        ["Dojo/"]={
+            "*New System: Trading 1.0! Build the Trading Kiosk in your Dojo to begin!"
+        },
+        ["Nightmare Mode"]={
+            "*Added option to opt-in to Nightmare nodes"
+        },
+        ["Capture/"]={
+            "*Capture targets are now more dynamic and mobile: there are a range of tougher Corpus and Grineer targets with varying abilities and weapons will flee at the first sign of danger. Stop them from boarding a shuttle and escaping!"
+        },
+        ["Volt/Jordas/"]={
+            "*J3-Golem has moved from his home on Thermisto and our spys indicate that he may strike at any time. Look for Infested invasions on your in-game alert display; we have reason to believe that if there is an invasion where a boss would normally be found you are likely to find J3-Golem there instead (we also suspect him to be carrying Volt Warframe component blueprints!)"
+        },
+        ["Sentinel/"]={
+            "*Star Chart progress, Sentinel and Sentinel-Weapon rank now contribute to Mastery level. Note: Complete a mission with your leveled up Sentinels ans Sentinel-Weapons to receive this Master XP retroactively"
+        },
+        ["Sentinel/"]={
+            "*Sentinels now come with a default amount of armor"
+        },
+        ["Survival"]={
+            "*Removed co-op doors from survival missions"
+        },
+        ["Defense/"]={
+            "*Time between Defense waves has been reduced to 6 seconds"
+        },
+        ["Dojo/"]={
+            "*Updated Dojo room art for the following rooms (visual update will be automatic, no rebuild necessary):",
+            "* Oracle",
+            "* Barracks (Moon, Mountain, Storm, Shadow)",
+            "* Research Labs (Bio, Energy, Chem) "
+        },
+        ["Sentinel/"]={
+            "*Added new icons for Sentinel weapons"
+        },
+        ["Machete/Prova/"]={
+            "*Switched the Prova to use Machete animations and finishers"
+        },
+        ["Grineer Galleon/"]={
+            "*New space skybox added to the Grineer Galleon tile set"
+        },
+        ["Conclave/"]={
+            "*Rebalanced some mod types for Conclave battles (Stun mods, Crit mods, and Corrupted mods)"
+        },
+        ["Brakk/Machete/Machete Wraith/Obex/Conclave"]={
+            "*Tuned conclave values for Brakk, Machete Wraith, and Obex"
+        },
+        ["Conclave/"]={
+            "*Added sound for Galleon air lifts in Conclave map"
+        },
+        ["Stalker/"]={
+            "*Stalker has been improving his melee combo techniques"
+        },
+        ["Rescue/"]={
+            "*NPCs will no longer target Rescue agents "
+        },
+        ["Dojo/"]={
+            "*Fixed issue where only host could invite players into a Dojo"
+        },
+        ["Exterminate/"]={
+            "*Fixed more instances of enemy AI spawning or falling into unreachable areas in Exterminate missions"
+        },
+        ["Nyx/Mind Control/"]={
+            "*Fixed some issues related to Nyx’s Mind Control ability where brainwashed AI didn’t always attack enemies as intended"
+        },
+        ["Dojo/"]={
+            "*Fixed missing respawn volume in Dojo obstacle course"
+        },
+        ["Jackal/"]={
+            "*Fixed Jackal robot missile seeking offset"
+        },
+        ["Glaive/Kestrel/"]={
+            "*Fixed issue with Kestrel and Glaive animations for holstering"
+        },
+        ["Rhino/Iron Skin/"]={
+            "*Fixed Rhino’s Iron Skin ability that granted invulnerability during oxygen loss"
+        },
+        ["Banshee/Sonic Boom/"]={
+            "*Fixed “power in use” issue after using Banshee’s Sonic Boom ability"
+        },
+        ["Acrid/"]={
+            "*Fixed Acrid weapon not doing damage over time"
+        },
+        ["Saryn/Miasma/"]={
+            "*Fixed Saryn’s Miasma ability to apply damage over time"
+        },
+        ["Nekros/Soul Punch/"]={
+            "*Fixed Nekros Soul Punch ability to ragdoll target NPCs"
+        },
+        ["Trinity/Energy Vampire/Conclave/"]={
+            "*Fixed Trinity’s Energy Vampire in Conclave which caused enemies on the opposite team to regenerate energy as well"
+        },
+        ["Ignis/Conclave/Flux Rifle"]={
+            "*Fixed issue that allowed spectators to fire the Ignis and Flux rifle while spectating in Conclave"
+        },
+        ["Defense"]={
+            "*Fixed high level enemies spawning in low-level defense missions"
+        },
+},
+{["Version"]={"10.8"},
+        ["Nekros/Nova/"]={
+            "Nekros Shroud / Quantum Nova alternate helms"
+        },
+        ["Banshee/Sonic Boom/Conclave/"]={
+            "*Conclave Power change: Banshee’s Sonic Boom stunlock’s opponents. A cooldown of 5 seconds has been added to Sonic Boom in Conclaves. "
+        },
+        ["Orokin Derelict/"]={
+            "*Fixed continued issues with fog in Orokin Derelicts."
+        },
+        ["Conclave/"]={
+            "*Fixed dead/spectating players being able to revive in Conclave pause menu."
+        },
+        ["Alert/"]={
+            "*Fixed Credit Alert mission rewards giving double the advertised amount; changed Credit Alerts to give better rewards based on difficulty of the Planet that the Alert appears on."
+        },
+        ["Orokin Void/"]={
+            "*Fixed flickering glass in Orokin Void circular connector."
+        },
+        ["Foundry/"]={
+            "*Fixed Foundry not showing number of built keys you already have for a recipe."
+        },
+        ["Orokin Void/"]={
+            "*Fixed pressure plates in the Orokin Void colour puzzle not showing correct colour for clients."
+        },
+        ["Clan/Dojo/Research/"]={
+            "*Fixed Clan Tech Research issue where player could be invited to a friend's Dojo, do research in their Dojo, and it goes towards the invitees own clan, even if their clan doesn't have the research rooms built! "
+        },
+},
+{["Version"]={"10.7.1"},
+        ["Frost/Stalker/"]={
+            "*Stalker has practiced against Frost’s Snowglobe and is no longer affected."
+        },
+        ["Survival/"]={
+            "*Fixed credits not being saved at the end of Survival missions if someone in squad goes to extraction before anyone else had a chance."
+        },
+        ["Spy/"]={
+            "*Fixed players being short a data terminal if a host migration happens during a Spy mission."
+        },
+        ["Orokin Derelict/"]={
+            "*Fixed Orokin Derelict Vault being lootable if the door is not unlocked."
+        },
+        ["Nyx/Absorb/Torid/"]={
+            "*Fixed Torid and Nyx’s Absorb causing a game hang."
+        },
+        ["Nova/Worm Hole/"]={
+            "*Fixed Nova’s Worm Hole not being accessible at all angles."
+        },
+        ["Conclave/"]={
+            "*Fixed corrupted mods not accounting for Conclave Values."
+        },
+        ["Orokin Derelict/"]={
+            "*Fixed Fog levels in Orokin Derelict Tunnels."
+        },
+        ["Banshee/Sonar/"]={
+            "*Fixed Banshee’s Sonar leaving mini-map icons for dead enemies."
+        },
+        ["Exterminate/"]={
+            "*Fixed issues with distribution of enemy spawning in Exterminate mission types."
+        },
+},
+{["Version"]={"10.7"},
+        ["Obex/"]={
+            "The Obex!",
+            "The OBEX system multiplies the kinetic energy of a Tenno's kicks and punches, delivering devastating blows to any target."
+        },
+        ["Vectis/"]={
+            "*Removed .25 second delay for auto reloading the Vectis."
+        },
+        ["Orokin Derelict"]={
+            "*Derelict Vault Rooms can no longer be accessed without a key. "
+        },
+        ["Stalker/"]={
+            "*Fixed the Stalker's melee combo sometimes getting stuck in a restarting loop on client"
+        },
+},
+{["Version"]={"10.6.2"},
+        ["Stalker/"]={
+            "*Fixed sentinel's ghost ability not being cancelled by the Stalker.",
+            "*Improvements and potentially fixed bug where Stalker would become unresponsive."
+        },
+},
+{["Version"]={"10.6.1"},
+        ["Bastille/Vauban"]={
+            "*Fixed Sentinel Crowd Dispersion knocking AI out of Bastille causing them to pop."
+        },
+        ["Bladestorm/Ash"]={
+            "*Restored original Bladestorm functionality where all enemies in the current room are eligible for attack, plus fixed a long-standing issue where subsequent targets weren't prioritized based on proximity to original target."
+        },
+        ["Orokin Derelict/"]={
+            "*Fixed missing roots in Orokin Derelicts (DX11-only); these were sometimes needed to advance in the level."
+        },
+},
+{["Version"]={"10.6"},
+        ["Vectis/"]={
+            "*The Vectis is here! A classic Tenno sniper rifle, the Vectis is ideal for ranged takedowns!"
+        },
+        ["Sentinel/"]={
+            "*Added new art for several Sentinel Mods"
+        },
+        ["Dera/"]={
+            "*Corpus Dera wielded by enemies now match Clan Tech Dera (alternate between top and bottom barrels when firing)."
+        },
+        ["Ash/Blade Storm/"]={
+            "*Fixed and response to complaints that Ash’s Blade Storm will sometimes ignore enemies who are standing right beside the initial target.",
+            "*Due to people pointing out enemies not being hit enough though their camera 'sees' them, Blade Storm will now perform a raycast from the Warframe’s eye AND the camera's view position and if the existing conditions are satisfied on either one, the enemy will be included in the hit list."
+        },
+        ["Nyx/Mind Control/Chaos/"]={
+            "*Fixed Nyx’s Mind Control and Chaos abilities making the targets not behave in a proper manner. Mind Control was not having enemies aggressively attack their own, and Chaos was making the player a target over enemies. The affected targets will now properly perceive their targets."
+        },
+        ["Nyx/Absorb/Sentinel/"]={
+            "*Fixed Sentinels hitting themselves when firing inside Nyx's Absorb bubble."
+        },
+        ["Nova/Molecular Prime/Sentinel/"]={
+            "*Fixed Nova’s Molecular Prime not chaining when the kill is made by a Sentinel."
+        },
+        ["Absorb/Torid/"]={
+            "*Fixed game-hangs when shooting Absorb bubble with Torid (and possibly other projectile weapons)."
+        },
+        ["Dojo/"]={
+            "*Fixed for dojo room costs being +1 of (Insert Resource/Credit here) when running 64 bit version of Warframe. "
+        },
+},
+{["Version"]={"10.5.5"},
+        ["Invasion"]={
+            "*Improved AI spawning and pacing of invasion missions."
+        },
+        ["Clan/Dojo"]={
+            "*Fixed clan dojo being inaccessible if spawn room was set to the older version of Grand or Grandest Hall."
+        },
+},
+{["Version"]={"10.5.4"},
+        ["Defense/Survival/"]={
+            "*Fixed blueprint images in Survival and Defense rewards."
+        },
+        ["Rhino/"]={
+            "*Fixed Rhino's IronSkin making his allies attack him."
+        },
+},
+{["Version"]={"10.5.3"},
+        ["Mag/Pull/"]={
+            "*Fixed Grineer Rollers becoming invincible when affected by Mag's Pull ablility"
+        },
+        ["Invasion"]={
+            "*Fixed loot crates being rotated improperly during Grineer invasion missions",
+            "*Fix placeholder image appearing in Invasion Faction Selection screen when Blueprint rewards are offered",
+            "*Invasion progress bars now display tenths of a percent"
+        },
+},
+{["Version"]={"10.5.2"},
+        ["Invasion/"]={
+            "*Added counter to Invasion Faction-Selection screen indicating progress for the selected battle location."
+        },
+        ["Mag Prime/"]={
+            "*Fixed missing Mag Prime component blueprint icons. "
+        },
+},
+{["Version"]={"10.5.1"},
+        ["Clan/"]={
+            "*Added Clan member leaderboards for the event so clans can organize their efforts."
+        },
+        ["Invasion/"]={
+            "*Fixed host migration not functioning for Invasion missions."
+        },
+        ["Invasion/"]={
+            "*Updated “Invasion Faction-Selection' screen to better indicate progress towards Battle Pay, also added more descriptive explanation."
+        },
+        ["Stalker/"]={
+            "*Fix for invulnerable Stalker."
+        },
+        ["Invasion/"]={
+            "*Removed lock down during Invasion missions."
+        },
+},
+{["Version"]={"10.5"},
+        ["Soma/"]={
+            "*Soma Mastery Rank increased from 3 to 6."
+        },
+        ["Survival/"]={
+            "*Resized Survival reward popup for easier reading."
+        },
+        ["Boar Prime/"]={
+            "*Boar Prime energy colour is now tint-able."
+        },
+        ["Conclave/"]={
+            "*Camera faces in player direction when starting a Conclave match."
+        },
+        ["Corpus Outpost/"]={
+            "*Corpus Outpost - Large circular doors now behave like all other doors in the game and do not automatically close."
+        },
+        ["Acrid/"]={
+            "*Corrupted Heavy Caliber mod now works with Acrid."
+        },
+        ["Survival/Orokin Void"]={
+            "*Prime gear rewards added to 5m, 10m, and 20+ min tiers in Void Survival missions."
+        },
+        ["Grineer Galleon/Grineer Settlement/"]={
+            "*Optimizations made to ambient sounds on Grineer Galleon and Grineer Settlement."
+        },
+        ["Conclave"]={
+            "*Standardized conclave requirements at lower levels in mission decks and powersuit ability rebalance for lower conclave levels."
+        },
+        ["Soma/"]={
+            "*Turned non-player Soma down."
+        },
+        ["Frost/"]={
+            "*New sound for Frost’s Snowglobe ability. "
+        },
+        ["Dual Ichor/"]={
+            "*Fixed a crash that could happen if you did a charged melee attack with Dual Ichor on a downed enemy."
+        },
+        ["Nightmare Mode/"]={
+            "*Fixed nightmare Assassination missions giving only the nightmare reward, and not the boss reward."
+        },
+        ["Survival/"]={
+            "*Fixed the Survival mission issue of life support bar appearing at 0% for a few seconds before life support is deactivated."
+        },
+        ["Survival/"]={
+            "*Fixed Survival rewards that were doubling up on the 5 minute reward."
+        },
+        ["Conclave/"]={
+            "*Fixed revive context action from appearing in Conclave duels."
+        },
+        ["Ash/Bladestorm/"]={
+            "*Fixed Ash’s Bladestorm ability that would sometimes ignore enemies who are standing right beside the initial target."
+        },
+        ["Nova/Molecular Prime/Conclave/"]={
+            "*Fixed duration of Nova’s Molecular Prime in Conclave duels (lowered to 5 seconds)."
+        },
+        ["Conclave/"]={
+            "*Fixed some layout issues in multiple Conclave maps."
+        },
+        ["Loki/Decoy/Saryn/Moult/Conclave/"]={
+            "*Fixed issue where destroying a Loki Decoy or Saryn Moult avatar would award players a kill in Conclave duels."
+        },
+        ["Vauban/Bounce/"]={
+            "*Fixed Vauban’s Bounce ability that caused friendly AI to play perpetual falling animation."
+        },
+},
+{["Version"]={"10.4.1"},
+        ["Survival/"]={
+            "*Fixed rewards collected during Survival missions disappearing if you died & revived as a client"
+        },
+        ["Loki/Radial Disarm/"]={
+            "*Fixed Loki's Radial Disarm causing no loot to drop from enemies"
+        },
+},
+{["Version"]={"10.4"},
+        ["Ballistica/"]={
+            "*Ballistica: Dual firing crossbow available now! A one-handed crossbow featuring a unique dual-firing mechanism, the Ballistica allows you to choose between a four bolt volley or a deadly accurate charged shot. As it is a secondary weapon, the Ballistica can be paired with the Paris compound bow for a lethal load out. Take aim and pin your enemy to the wall!"
+        },
+        ["Sentinel/"]={
+            "* Since some Sentinel weapons use pistol Mods, we now perform a check to ensure you aren't using the same mods on your pistol and Sentinel weapon"
+        },
+        ["Volt/Speed/"]={
+            "*Volt's Speed boost won't affect other player's FOV"
+        },
+        ["Conclave/"]={
+            "*No longer allow Conclave in Solo mode."
+        },
+        ["Saryn/Contagion/"]={
+            "*Added more of a visual indicator on Saryn’s Contagion."
+        },
+        ["Ignis/"]={
+            "*Changed Ignis’s default colour to represent realistic fire, not white flames."
+        },
+        ["Foundry/"]={
+            "*Tweaks to Foundry UI sounds."
+        },
+        ["Volt/"]={
+            "*Small performance improvements to Volt's overload, was creating a lot of particles/unneeded scripts in a single frame"
+        },
+        ["Ash/Teleport/"]={
+            "*Fix for Ash 'power in use' bug when using 'Teleport' on defense target."
+        },
+        ["Loki/Nova/"]={
+            "*Fix for being able to escape Golem boss arena with Loki or Nova when mission is in progress."
+        },
+        ["Conclave/"]={
+            "*Fix for Conclave team assignment not respecting user choices for teams."
+        },
+        ["Defense/"]={
+            "*Fix for Lotus Defense mission transmissions not appearing in French, Italian, German, and Spanish."
+        },
+},
+{["Version"]={"10.3.4"},
+        ["Orokin Derelict/"]={
+            "*Added a profile setting to enable/disable runtime tessellation for DirectX 11. We encourage players to give us feedback whether disabling this option results in performance improvement on mid-to-low-end video cards when playing Orokin Derelicts. "
+        },
+        ["Survival/"]={
+            "*5 minute Survival reward is only rewarded once. (Was giving double rewards, lucky ducks!) "
+        },
+},
+{["Version"]={"10.3.3"},
+        ["Kunai/"]={
+            "*Kunai and other thrown weapons now hide on player's thighs when player is attacking with melee weapons. "
+        },
+},
+{["Version"]={"10.3.2"},
+        ["Mobile Defense/"]={
+            "*Corpus Mobile Defense Spawning: Adding doors, tweaking nav, position of mobile defense objectives for better spawning. "
+        },
+        ["Foundry/"]={
+            "*Ran script to fix people who had Blueprint parts not appearing in Foundry."
+        },
+        ["Loki/"]={
+            "*Orokin have adapted to thwart trickster Loki's from switch teleporting into Vaults. Look trigger added for join in progress check."
+        },
+        ["Conclave/"]={
+            "*Fix for Conclave ammo pickups."
+        },
+        ["Boar Prime/"]={
+            "*Fix for Boar Prime energy colour not being tintable."
+        },
+        ["Dojo/"]={
+            "*Fix for not being able to rush Dojo Decorations with Platinum."
+        },
+        ["Grineer Galleon/"]={
+            "*Fix for Grineer Galleon map clipping."
+        },
+        ["Nightmare Mode"]={
+            "*Fix for nightmare assassinate missions giving only the nightmare reward, and not the boss reward."
+        },
+        ["Survival"]={
+            "*Fix Survival Vault missions not giving out a reward from the Vault loot pool."
+        },
+        ["Flux Rifle/Ignis/"]={
+            "*Fix for Flux Rifle and Ignis not being able to damage reactor cores or Orokin death orbs."
+        },
+        ["Saryn/Flux Rifle/Ignis/"]={
+            "*The above fix also fixes not being able to pop Saryn's venom orbs with Flux Rifle and Ignis."
+        },
+        ["Miter/"]={
+            "*Fix for Miter blades firing on wrong axis. "
+        },
+},
+{["Version"]={"10.3.1"},
+        ["Foundry/"]={
+            "*Fix for blueprints received as boss drops not saving to Foundry."
+        },
+        ["Conclave/"]={
+            "*Fix for Conclaves not working."
+        },
+        ["Orokin Derelict"]={
+            "* Fix for Mutagen Drops in Derelicts"
+        },
+        ["Clan/"]={
+            "* Fix for accidental increase in Bio Clan-tech weapons, back down to 50K Credits per replication. "
+        },
+},
+{["Version"]={"10.3"},
+        ["Orokin Derelict"]={
+            "*The Orokin Vaults have emerged in the Derelict Tile Sets!"
+        },
+        ["Survival/"]={
+            "*Survival Mission Improvements:",
+            "* Items awarded at 5 minute intervals are now shown in the HUD below the Lotus transmissions.",
+            "* Reward items now stack as you play - all rewards are given at the end of the mission.",
+            "* As you play and survive, you will receive items at these times:",
+            "* 5m: Item from the first reward tier",
+            "* 10m: Item from the first reward tier again",
+            "* 15m: Guaranteed Void key (this is considered the second reward tier).",
+            "* 20m, 25m, 30m+: Item from the third reward tier ",
+            "* Void mission Prime rewards are awarded at 15 minutes only.",
+            "* Mission rewards are now split into three distinct tiers of enemy level, instead of being based on faction.",
+            "* Expect better rewards based on the enemy tier you are fighting:",
+            "* Tier 1: Level 1-25",
+            "* Tier 2: Level 25-45",
+            "* Tier 3: Level 45+ ",
+            "* Void mission rewards are tied to the tier of the key.",
+            "* Extraction no longer triggers if only one player enters the extraction area.",
+            "* If the life support bar is still depleting, *all* players must be at extraction to complete the mission.",
+            "* The regular 60 second extraction timer starts if half the team is at extraction *after* the life support bar reaches zero.",
+            "* All doors in the level are now locked until you trigger the alarms.",
+            "* Added an effect to show the exact position of the next incoming support capsule. "
+        },
+        ["Lephantis/Foundry/"]={
+            "*Bosses now have their blueprint drops as end-mission rewards (like Lephantis) instead of physical orbs in the level. (PSA: Known issue with BP's not appearing in Foundry will be Hot*Fixed.)."
+        },
+        ["Conclave/"]={
+            "*Hid conclave scores from lobby UI; only reveal them in squad panel when someone votes on a Conclave node, and also provide name of player who doesn't meet Conclave rating requirement."
+        },
+        ["Dojo/"]={
+            "*Made Dojo prop decoration destruction give all your resources back."
+        },
+        ["Dera/Sicarus/"]={
+            "*Updated Dera and Sicarus firing sounds."
+        },
+        ["Kama/"]={
+            "*Added elemental FX for Kama."
+        },
+        ["Acrid/"]={
+            "*Acrid now uses energy color."
+        },
+        ["Trinity/Energy Vampire/"]={
+            "*Added sound for Trinity’s Energy Vampire ability deactivating."
+        },
+        ["Sentinel/"]={
+            "*Players can only sell their last remaining Sentinel weapon if they have no Sentinels in their inventory."
+        },
+        ["Nova/Molecular Prime/Conclave/"]={
+            "*Balanced Nova’s Molecular Prime ability for Conclaves only."
+        },
+        ["Banshee/Silence/"]={
+            "*Added unique casting sounds for Banshee abilities and updated Soundquake and Silence."
+        },
+        ["Volt/"]={
+            "*Added new Volt Shield ability sounds.",
+            "*Updated Volt overload charge sounds to match animation."
+        },
+        ["Ash/Bladestorm/"]={
+            "*Added local and remote teleport sound slots for Ash’s Bladestorm."
+        },
+        ["Ash/Loki/Vor/"]={
+            "*Prevented Vor’s electrical attacks from hiting the invisible players (Loki, Ash)."
+        },
+        ["Survival/Corpus Ship/"]={
+            "*Improved spawning logic in Corpus Ship Survival."
+        },
+        ["Survival/Grineer Galleon/"]={
+            "*Changed minimap marker settings to help with finding Survival capsules in Grineer Galleon."
+        },
+        ["Survival/"]={
+            "*Added a limit to the number of Survival markers that appear onscreen at once; aside from making it easier to see the action this may also help with frame-rate."
+        },
+        ["Survival/Orokin Derelict/"]={
+            "*Removed elevators from Orokin Derelict Survival."
+        },
+        ["Ash/Teleport/"]={
+            "*Improved Ash Teleport responsiveness – trimmed animation and added reaction to enemy being teleported to."
+        },
+        ["Sentinel/Carrier/"]={
+            "*Added Carrier Sentinel ambient FX."
+        },
+        ["Dual Ichor/Dual Zoren/"]={
+            "*Added holster animation to Dual Zoren, Dual Ichor, and Dual Cleaver weapons after a jump attack."
+        },
+        ["Kama/Sentinel/Conclave"]={
+            "*Added conclave values to Sentinels and Kama."
+        },
+        ["Clan/"]={
+            "*Revised Clan leaderboard badges."
+        },
+        ["Ignis/"]={
+            "*Made Ignis flame effects use energy color."
+        },
+        ["Mag Prime/"]={
+            "*Improved Mag Prime materials to better allow tinting."
+        },
+        ["Rhino/Iron Skin/Sentinel/Djinn/"]={
+            "*Improved logic for drawing enemy fire while using Rhino’s Iron Skin ability and Djinn Sentinel Fatal Attraction precept."
+        },
+        ["Dojo/"]={
+            "*Improved ambient sound for Dojo Gardens."
+        },
+        ["Conclave/"]={
+            "*Conclaves now operate on best-of-three rounds instead of single round."
+        },
+        ["Boar/Gorgon/Dual Ether/Ether Daggers/Machete/"]={
+            "*A few Market weapons are being retired: Gorgon, Dual Ether Daggers, Boar, and Machete. You have 7 days to get them before they go into the retirement! "
+        },
+        ["Survival/"]={
+            "*Fixed various host migration issues found in Survival related to enemy spawning."
+        },
+        ["Survival/"]={
+            "*Fixed Survival life support capsule and pickup timing."
+        },
+        ["Dual Ichor/"]={
+            "*Fixed Dual Ichor getting stuck in charge mode."
+        },
+        ["Conclave/"]={
+            "*Fixed missing intro/outro music in Conclaves."
+        },
+        ["Clan/"]={
+            "*Fixed issue where Clans could build more than one of the same Clan Halls."
+        },
+        ["Ember/Overheat/"]={
+            "*Fixed missing damage number reports for clients during Ember’s Overheat ability."
+        },
+        ["Glaive/"]={
+            "*Fixed (switched) Glaive mod names of Quick Return and Rebound to match the function."
+        },
+        ["Boltor/Bolto/"]={
+            "*Fixed animation bug with Boltor if reload is interrupted by melee."
+        },
+        ["Mag/Shield Polarize/"]={
+            "*Fixed Mag’s Shield Polarize ability FX on enemies to use correct color."
+        },
+        ["Nekros/Desecrate/"]={
+            "*Fixed a “power in use” bug that occurred after using Nekros’ Desecrate."
+        },
+        ["Soma/"]={
+            "*Fixed issue with Soma where clip mesh during reload animation was rendering black"
+        },
+        ["Bolto/Bo/"]={
+            "*Fixed Akimbo Bolto sound attenuation and missing reload sounds."
+        },
+        ["Glaive/Kestrel/"]={
+            "*Fix for Glaive mods to be shared between Glaive/Kestrel"
+        },
+        ["Conclave/"]={
+            "*Fixed Conclave game type not counting in stats."
+        },
+        ["Torid/"]={
+            "*Fixed Torid gas cloud not appearing when the projectile hits and kills an enemy."
+        },
+        ["Ignis/Embolist/"]={
+            "*Fixed continuous fire AoE weapons (Ignis, Embolist) from hitting the same target multiple times per shot when in ragdoll."
+        },
+        ["Nova/"]={
+            "*Fixed issue that allowed Nova’s Wormhole ability to teleport through rock walls."
+        },
+        ["Loki/Radial Disarm/"]={
+            "*Fixed Loki’s Radial Disarm that was removing limbs from Infested Runners."
+        },
+        ["Grakata/Ignis/Embolist/"]={
+            "*Fixed weapons that played reload sounds twice (Ignis, Grakata, Embolist)"
+        },
+        ["Nekros/Lanka/"]={
+            "*Fixed Nekros “noble” pose with Lanka equipped."
+        },
+        ["Sentinel/Survival/"]={
+            "*Fixed Survival reward that awarded a maxed Sentinel mod."
+        },
+        ["Nekros/"]={
+            "*Fixed issue where MOAs raised with Nekros Shadows of the Dead ability knocked down friendly players.",
+            "*Fixed Shadows of the Dead not applying effects on clones for clients when there is enough latency between them and the host."
+        },
+        ["Carrier/Djinn/"]={
+            "*Fixed emblem deco positions on Carrier and Djinn sentinels."
+        },
+        ["Torid/"]={
+            "*Fixed Torid gas cloud damage radius, which was larger than the actual visible cloud."
+        },
+        ["Torid/"]={
+            "*Fixed Torid elemental damage not being affected by armor."
+        },
+        ["Ember/"]={
+            "*Fixed Osprey's not being affected by Ember’s Fireblast (even when flying right through the effects)."
+        },
+        ["Vor/"]={
+            "*Fixed Vor teleporting after targets he hasn't seen yet."
+        },
+        ["Hikou/Kunai/"]={
+            "*Fixed throwing animation (Kunai, Hikou) becoming jittery with fire rate increase."
+        },
+        ["Sentinel/Lephantis/"]={
+            "*Fixed issue where Sentinels were destroyed during Lephantis battle phase switches."
+        },
+        ["Akvasto/"]={
+            "*Fixed reload sounds for Dual Vastos with data mass reload animation."
+        },
+        ["Vauban/Vortex/"]={
+            "*Fixed Infested chargers and ancients not being appropriately affected by Vauban’s Vortex ability."
+        },
+        ["Ignis/Conclave/"]={
+            "*Fixed Ignis and other weapons causing Pickups to go crazy if they had not come to rest in Conclave duels."
+        },
+        ["Dojo/"]={
+            "*Fixed issue where users may be unable to rotate their camera after placing a decoration in the Dojo."
+        },
+        ["Galatine/"]={
+            "*Fixed perceived range issues with Galatine, and also **Fixed misaligned elemental FX."
+        },
+        ["Rescue/"]={
+            "*Fixed some reported issues with Rescue Target “stuck” spots."
+        },
+        ["Conclave/"]={
+            "*Fixed issue where players could attack and kill each other between rounds in Neptune and Pluto Conclaves."
+        },
+        ["Dakra Prime/Plasma Sword"]={
+            "*Fixed missing elemental FX for Dakra Prime and Plasma sword."
+        },
+        ["Nekros/Nyx/"]={
+            "*Fixed issue where enemy Shield Osprey drones would shield friendly enemies controlled by Nyx or Nekros."
+        },
+        ["Glaive/"]={
+            "*Fixed Glaive Rebound mod to have improved rebounding (must travel specified distance before auto-recall)"
+        },
+        ["Conclave/"]={
+            "*Fixed stat tracking to exclude enemy pet kills/deaths in Conclave duels."
+        },
+        ["Ember/"]={
+            "*Fixed Ember’s Fireblast light FX being independent of its power duration."
+        },
+        ["Conclave/"]={
+            "*Fixed Conclave spawning to avoid players spawning on top of each other."
+        },
+},
+{["Version"]={"10.2.1"},
+        ["Torid/"]={
+            "*Fix for Torid’s cloud not using energy colour."
+        },
+        ["Twin Vipers/"]={
+            "*Fixed Twin Vipers having redundant flashlight."
+        },
+        ["Twin Gremlins/"]={
+            "*Fixed Twin Gremlins having a flashlight on your off-hand weapon."
+        },
+        ["Dera/"]={
+            "*Fixed Dera Muzzle flash offset."
+        },
+        ["Dojo/"]={
+            "*Fix for context action button in Dojo reading file path instead of “X”."
+        },
+},
+{["Version"]={"10.2"},
+        ["Galatine/"]={
+            "*Galatine, a Tenno-forged great sword has been added to the market! See it in action here: http://www.youtube.com/watch?v=aPk4mTv0TuM"
+        },
+        ["Carrier/"]={
+            "*Carrier would only suck up drops with Vacuum if the host has not picked them up already. Now he sucks up drops regardless of if the host has picked them up!"
+        },
+        ["Boar Prime/"]={
+            "*After greasing the gears of the Boar Prime it now moves when firing and reloading."
+        },
+        ["Ignis/"]={
+            "*Fix for Ignis and other weapons causing Pickups to go crazy by flying off the map if they had not come to rest."
+        },
+        ["Survival/"]={
+            "*Rage mod no longer converts oxygen-depletion damage in Survival mode to energy and will not convert asphyxiation or vampire damage to energy "
+        },
+},
+{["Version"]={"10.1.3"},
+        ["Sentinel/"]={
+            "*Sentinels are now aware of lazy Tenno masters and will take a break if they go AFK for over a minute"
+        },
+        ["Vor/"]={
+            "*Fixed a case where the infamously-sneaky Captain Vor could teleport to a distant room after his intro cinematic finishes"
+        },
+        ["Ember/"]={
+            "*Fixed Ember's Fireblast not affecting flying enemies"
+        },
+},
+{["Version"]={"10.1.2"},
+        ["Vor/"]={
+            "*Fixed Vor becoming permanently invincible during boss fight"
+        },
+        ["Torid/"]={
+            "*Fixed Serration mod not affecting Torid damage"
+        },
+        ["Mobile Defense/"]={
+            "*Fixed Mobile Defense cryopod becoming invulnerable after host migration"
+        },
+        ["Phorid/"]={
+            "*Adjusted Phorid's drop rate chances to match other bosses"
+        },
+        ["Sentinel/Carrier/Djinn/"]={
+            "*Fixed emblem positions on Carrier and Djinn Sentinels"
+        },
+},
+{["Version"]={"10.1.1"},
+        ["Mag Prime/"]={
+            "*Fixed misaligned emblems for Mag Prime."
+        },
+},
+{["Version"]={"10.1"},
+        ["Conclave"]={
+            "*Added new conclave for 1500-2500."
+        },
+        ["Orokin Void/"]={
+            "*End-of-mission Orokin Void Rewards have been properly rectified."
+        },
+        ["Dual Ichor/"]={
+			"*Resource requirement changes:",
+            "**Mutagen: 10 to 4",
+            "**Forma: 2 to 1 "
+        },
+        ["Embolist/"]={
+            "*Resource requirement changes:",
+            "**Mutagen: 7 to 5",
+            "**Forma: 2 to 1 "
+        },
+        ["Synapse/"]={
+            "*Resource requirement changes:",
+            "**Mutagen: 11 to 5",
+            "* Forma 3 to 2 "
+        },
+        ["Djinn/"]={
+            "*Resource requirement changes:",
+            "**Mutagen: 15 to 6",
+            "**Forma: 3 to 2 "
+        },
+        ["Orokin Derelict"]={
+			"*Resource requirement changes:",
+            "**Into the Derelict: 1 hour to 1 minute.",
+            "**Into the Assassination mission aka Boss Fight: 3 hours to 1 hour "
+        },
+        ["Lato Prime/"]={
+            "*Fix for Lato Prime not being color-able."
+        },
+        ["Bastille/Vauban"]={
+            "*Fixed Bastille affecting fewer targets than expected when immune enemies (turrets, cameras, drones) are nearby"
+        },
+        ["Miter/"]={
+            "*Fix for Miter not taking energy color attributes."
+        },
+        ["Conclave/"]={
+            "*Fix for pickups not working in Conclave."
+        },
+        ["Dethcube/Conclave/"]={
+            "*Fix for crash that would occur if Dethcube vaporizes opponent in the Conclaves. "
+        },
+},
+{["Version"]={"10.0.5"},
+        ["Survival/"]={
+            "*Fixed clients receiving bottom-tiered rewards from Survival missions"
+        },
+        ["Clan/Research"]={
+            "*Reduced crafting costs of Clan Tech items: Heal, Ammo, Shield, and Energy now 500cr"
+        },
+        ["Desecrate/Nekros"]={
+            "*Fixed 'power in use' bug that could occur when using Desecrate"
+        },
+        ["Overheat/Ember"]={
+            "*Fixed damage numbers not appearing for Overheat"
+        },
+},
+{["Version"]={"10.0.4"},
+        ["Conclave/"]={
+            "*Added Conclaves for 500-1000 and 1000-1500 ratings."
+        },
+        ["Mag/Mag Prime/"]={
+            "*Changes to Void Reward distribution for Mag Prime, removed ciphers from all survival rewards."
+        },
+        ["Lotus/"]={
+            "*Lotus Transmission captioning is no longer “ALL CAPS”. She isn’t yelling at you.. yet."
+        },
+        ["Dakra Prime/"]={
+            "*Dakka Prime is now called Dakra Prime."
+        },
+        ["Orokin Derelict"]={
+            "*Replaced Orokin Loot crates in the Derelcits with their own “Derelicted” versions and added more."
+        },
+        ["Conclave/"]={
+            "*Added Conclave rating to Mod Cards."
+        },
+        ["Survival/Grineer Settlement/"]={
+            "*Grineer Settlement Survival missions now use correct Grineer enemies against the Tenno."
+        },
+        ["Lephantis/"]={
+            "*The J-2000 Golem is now known as “Lephantis”."
+        },
+        ["Lephantis/"]={
+            "*Lephantis (Golem) now has an increased damage radius of grenade and gun attacks as well as reduced max incoming damage per second with a slight bump to health."
+        },
+        ["Lephantis/"]={
+            "*Increased Lephantis's (Golem) damage output for head and body attacks."
+        },
+        ["Dera/"]={
+            "*Changes to Dera Rifle firing sounds."
+        },
+        ["Djinn/"]={
+            "*Sound changes to Djinn’s abilities."
+        },
+        ["Defense/"]={
+            "*Tweaks to Orokin Defense Lasers: removed charge up effects and nudged beams a bit."
+        },
+        ["Orokin Derelict/"]={
+            "*Adding blocking volumes to bottom push back area, preventing players from getting stuck in Orokin Derelict loot Room."
+        },
+        ["Alert/"]={
+            "*Fix for Alerts not properly appearing in Game UI."
+        },
+        ["Lephantis"]={
+            "*Fix for clients sometimes not being able to damage Golem."
+        },
+        ["Survival/"]={
+            "*Fix for no enemies spawning in Survival missions after host migration."
+        },
+        ["Clan/Dojo/"]={
+            "*Fix for Clan Dojo dueling not allowing players to revive."
+        },
+        ["Trinity/Survival/"]={
+            "*Fix for Trinity’s Well of Life causing shields to increase exponentially during Survival missions."
+        },
+        ["Nekros"]={
+            "*Fixed Shadows of the Dead power in use bug when used to revive/resurrect Grineer rollers (possibly other enemies as well)."
+        },
+},
+{["Version"]={"10.0.3"},
+        ["Ignis/"]={
+            "*Ignis Buffs",
+            "* Longer range",
+            "* More damage",
+            "* Bigger AOE effect. "
+        },
+        ["Orokin Derelict/"]={
+            "*Fixed doors shutting down on players once they failed challenge in Orokin Derelicts."
+        },
+},
+{["Version"]={"10.0.2"},
+        ["Orokin Derelict/"]={
+            "*Further reductions to Orokin Derelict recipes."
+        },
+},
+{["Version"]={"10.0.1"},
+        ["Grakata/"]={
+            "*Grakata critical rate buff."
+        },
+        ["Soma/Kama/"]={
+            "*Added proper BP icons for Kama and Soma."
+        },
+        ["Research"]={
+            "*Fix for missing Bio Lab research component."
+        },
+        ["Orokin Derelict"]={
+            "*Adjustments to Derelict Key recipes: lowered build times and adjusted resource requirements. (Note: Blueprints currently in progress will experience a UI bug with negative percentage.)"
+        },
+        ["Conclave/"]={
+            "*Fix for sentinels attacking owner in The Conclave."
+        },
+        ["Sound Quake/Banshee"]={
+            "*Fix for stumbles in Sound Quake."
+        },
+        ["Miasma/Saryn"]={
+            "*Fix for Miasma not dealing correct damage. "
+        },
+},
+{["Version"]={"10.0"},
+        ["Mag Prime/"]={
+            "* Mag Prime has arrived as the first Female Prime Frame."
+        },
+        ["Nekros/"]={
+            "*Nekros Find him today by destroying the new Golem in the Orokin Derelicts, or through the Market! ",
+            "*Find his alternate “Raknis” alternate helmet in the Market or Alerts! ."
+        },
+        ["Survival/"]={
+            "*Survival Missions Return! ",
+            "*Survival missions are here to stay and can be played by choosing Survival Missions on the Starchart. Our Survival weekend gave the team some early feedback on playability and difficulty, and our new Survival missions are ready for your Warframes! Survival missions will get more challenging the further you travel through the solar system. Expect to face lower level enemies closer to the sun, and higher level enemies as you reach the outer planets. ",
+            "*The enemies you face will be prepared to take on the strongest Tenno – the longer you play, the higher the stakes! ",
+            "* Survival now takes place in procedurally generated levels, allowing greater mission variety, challenge, and replayability. "
+        },
+        ["Raid/"]={
+            "* All Raid Void Keys have been retroactively replaced with Survival missions. "
+        },
+        ["Conclave/"]={
+            "*The Conclave "
+        },
+        ["Duel/"]={
+            "*Dueling is no longer restricted to clans! "
+        },
+        ["Conclave/"]={
+            "*An ancient Tenno tradition has reemerged; THE CONCLAVES have started appearing throughout the Solar Map. Here the Tenno meet in secret to challenge each another in honorable combat. 1v1 and 2v2 Conclaves have been added through the Solar Map. Are you ready to test your skills? "
+        },
+        ["Orokin Derelict/"]={
+            "*New Level Sets: Orokin Derelict Spacecrafts ",
+            "*What happened to the Orokin places that did not get hidden in the Void? Search the solar system for co-ordinate crafting components in loot containers to locate the mysterious Orokin Derelicts."
+        },
+        ["Sentinel/Carrier/"]={
+			"*New Sentinels!",
+            "* Carrier a Sentinel with the ability to collect your loot for you!"
+        },
+        ["Sentinel/Djinn/Clan/Research/"]={
+			"*New Sentinels!",
+            "* Craft 'Djinn', an Infested Sentinel found in Clan Research! "
+        },
+        ["Sentinel/"]={
+            "*New Sentinel Cosmetics!",
+            "* Infested Mask",
+            "* Infested Tail",
+            "* Infested Wings "
+        },
+        ["Lephantis"]={
+            "*New boss: Infested J-2000 Golem ",
+            "*Lurking in the very depths of Orokin Derelicts is the Golem. Find his coordinates within the Derelicts today!"
+        },
+        ["Grineer Settlement/"]={
+            "*Level Expansion - Grineer Settlement ",
+            "*More tiles added to the Grineer Settlement maps on Phobos!"
+        },
+        ["Soma/Ether Reaper/Kama/"]={
+            "* Ether Reaper, Soma (a new Tenno Assault Rifle), and the Kama, are in the marketplace for Tenno!"
+        },
+        ["Boar Prime/Dakra Prime/"]={
+            "* The Boar Prime and Dakka Prime are ready for discovery in the Void! "
+        },
+        ["Synapse/Embolist/Dual Ichor/Clan/Research"]={
+            "* Infested Primary, Secondary, and Melee weapons are now in Clan research! Find the new Infested crafting component in the Derelicts. Synapse, Embolist, Dual Ichor. "
+        },
+        ["Clan/Dojo/"]={
+            "*Clan Dojo Level update/props:",
+            "* Zen Garden vanity room",
+            "* 17x Zen Garden decorations",
+            "* 8x Taiko drums decorations forum post",
+            "* 5x Bronze statues "
+        },
+        ["Sentinel/"]={
+            "*Sentinels can now wield any (primary/secondary?) weapon you want!"
+        },
+        ["Raid/"]={
+            "*Raid missions are no longer available and have been replaced with Survival mission types."
+        },
+        ["Ogris/"]={
+            "*Ogris charge FX revised, toned down."
+        },
+        ["Orthos Prime/"]={
+            "*Added missing elemental FX to Orthos Prime."
+        },
+        ["Ash/Banshee/Mag/Nyx/Volt/"]={
+            "*Added idle FX to Ash, Banshee, Mag, Nyx, and Volt."
+        },
+        ["Sentinel/"]={
+            "*Sentinel Weapons no longer locked to the Sentinel bundled with at purchase."
+        },
+        ["Trinity/"]={
+            "*New ability icons for Trinity (was using Excalibur icons)."
+        },
+        ["Ember/World on Fire/"]={
+            "*Fixed inconsistent damage on host and client for Ember’s World on Fire ability."
+        },
+        ["Ember/Fire Blast/"]={
+            "*Fixed Ember’s Fire Blast ability where FX would remain if caster respawned or left the game."
+        },
+        ["Trinity/Link/"]={
+            "*Fixed Trinity’s Link ability that was targeting closed turrets and security cameras."
+        },
+        ["Banshee/Sonar/"]={
+            "*Fixed Banshee's Sonar ability not applying damage multipliers to shields."
+        },
+        ["Frost/Volt/Miter/"]={
+            "*Fixed Miter disk projectile to behave like other projectiles that pass through Volt’s Shield and Frost’s Snowglobe."
+        },
+        ["Clan/"]={
+            "*Fixed issue where Clans could not destroy the Oracle room."
+        },
+        ["Shade/"]={
+            "*Fixed Shade's Ghost Ability (and other invisibility Abilities) granting the cloaked player invincibility"
+        },
+        ["Corpus Outpost/"]={
+            "*Fixed some AI navigation issues occurring in Corpus Outpost."
+        },
+},
+{["Version"]={"9.8.5"},
+        ["Defense/"]={
+            "*Fixed corrupted textures on Corpus Defense map."
+        },
+},
+{["Version"]={"9.8.4"},
+        ["Foundry/"]={
+            "*Fixed inability to claim items from Foundry even though empty slots are available"
+        },
+        ["Ember/Fire Blast/"]={
+            "*Fixed Ember's Fire Blast dealing damage to teammates and leaving permanent visual FX"
+        },
+        ["Ember/World on Fire/"]={
+            "*Fixed Ember's World on Fire dealing inconsistent damage on host and client"
+        },
+        ["Ogris/"]={
+            "*Toned down Ogris charge effect"
+        },
+        ["Defense/"]={
+            "*Fixed AI not advancing from upper levels of Corpus Defense map"
+        },
+        ["Vay Hek/"]={
+            "*Fixed broken text appearing in main menu after defeating Vay Hek"
+        },
+},
+{["Version"]={"9.8.1"},
+        ["Orokin Void/"]={
+            "*Adjusted Orokin Void door triggers and timing"
+        },
+        ["Orokin Void/"]={
+            "*Fixed objects disappearing when looking through certain doorways in Orokin Void"
+        },
+        ["Grineer Galleon/"]={
+            "*Fixed Grineer Galleon defense mode breaking after host migration"
+        },
+        ["Bladestorm/Ash/"]={
+            "*Fixed being able to bypass the Vor + Krill boss fight by using Bladestorm and other specific powers"
+        },
+},
+{["Version"]={"9.8"},
+        ["Fireball/Ember"]={
+            "* Fireball: Fixed the damage-over-time (DOT) attaching to the target. Increased the damage amount and damage over time."
+        },
+        ["Overheat/Ember/"]={
+            "* Overheat: It's now an offensive power rather than a defensive power. Reduced damage resistance and increased the damage output. Warframe strength mods now modify the damage amount."
+        },
+        ["Fire Blast/Ember"]={
+            "* Fire Blast: Fixed scaling problem, mesh scaled but the damage wall never did. Range mods no longer affect Fire blast, Duration and strength mods do. "
+        },
+        ["Pull/Mag/"]={
+            "* Pull: Change damage type to use ragdolls for the pulling instead of sliding. Increased amount of damage dealt. Should be more in-line with other Warframe powers now."
+        },
+        ["Shield Polarize/Mag"]={
+            "* Shield Polarize: Radial damage that is dealt when shields are removed is now scaled based on fusion level."
+        },
+        ["Mag"]={
+            "* Bullet Attractor: Added damage multiplier on the targeted enemy, making ability much more deadly."
+        },
+        ["Crush/Mag"]={
+            "* Crush: Damage timing changes. "
+        },
+        ["Well Of Life/Trinity"]={
+            "* Well Of Life: Now plays reaction animation, Life is 10x multiplied allowing players to leech enough health out."
+        },
+        ["Energy Vampire/Trinity"]={
+            "* Energy Vampire: Now plays reaction animation and doesn't require damage to get energy. Instead target radiates a set amount of energy every couple of seconds. Also does damage to the target (Damage scales with strength mod)."
+        },
+        ["Link/Trinity"]={
+            "* Link: No longer damage immunity--changed to damage reduction, now links to several targets at once amplifying the incoming damage. Increased radius search for link targets."
+        },
+        ["Blessing/Trinity"]={
+            "* Blessing: Anim speed changes and timing. No longer wait until end of casting animation to get power effects. "
+        },
+        ["Vortex/Vauban/"]={
+            "* Vortex: No longer affects other players. (will tug the moment it is placed, and players next to vortex will not get a speed boost from slide attacks [Bug]) "
+        },
+        ["Psychic Bolts/Nyx/"]={
+            "* Psychic Bolts: Projectiles now seek and fly faster, more in line with other Warframes."
+        },
+        ["Absorb/Nyx"]={
+            "* Absorb: Ability now has higher base damage and should attract more attention. "
+        },
+        ["Vauban/Tesla/Vortex/"]={
+            "*Energy color tinting for Vauban’s Tesla and Vortex abilities."
+        },
+        ["Nova/Antimatter Drop/"]={
+            "*Energy color tinting for Nova Antimatter Drop ability."
+        },
+        ["Torid/"]={
+            "*Torid now uses energy color."
+        },
+        ["Paris/Paris Prime/"]={
+            "*Paris Prime texture improvements."
+        },
+        ["Mag/Crush/"]={
+            "*New death animation for Mag’s Crush ability."
+        },
+        ["Volt/Speed/"]={
+            "*Volt’s Speed ability trail FX now last the duration of the power."
+        },
+        ["Grineer Settlement/"]={
+            "*Added some new ambient sounds to Grineer Settlement levels."
+        },
+        ["Mag/"]={
+            "*Updated sounds for Mag’s abilities."
+        },
+        ["Trinity/"]={
+            "*Updated sound for Trinity’s Well of Life ability."
+        },
+        ["Vauban/Tesla/"]={
+            "*Vauban’s Tesla ability now has reduced FX on projectiles attached to players."
+        },
+        ["Trinity/"]={
+            "* Trinity can now effectively target opponents with all abilities."
+        },
+        ["Vauban/Bounce/"]={
+            "* Vauban’s Bounce ability now does damage."
+        },
+        ["Excalibur/Radial Blind/"]={
+            "* Added cooldown to Excalibur Radial Blind ability to avoid exploits. "
+        },
+        ["Clan/Dojo/"]={
+            "*Fixed issue in Clan Dojo where rotating decorations while holding shift will cause them to pop in some locations."
+        },
+        ["Dojo/"]={
+            "*Fixed Dojo Rooms not accepting prerequisites from the old art set when trying to build rooms from the new art set."
+        },
+        ["Trinity/Blessing/"]={
+            "*Fixed FX being applied incorrectly while Trinity’s Blessing ability is active, and FX lingering on clients."
+        },
+        ["Rhino/Rhino Stomp/"]={
+            "*Fixed Rhino Stomp being in use on the client even though it didn't affect any enemies."
+        },
+        ["Nova/Antimatter Drop/"]={
+            "*Fixed Nova Antimatter Drop ability disappearing on clients."
+        },
+        ["Trinity/Link/"]={
+            "*Fixed Trinity's Link tendrils not going away when all targets are dead or out of range."
+        },
+        ["Saryn/Venom/"]={
+            "*Fixed Saryn's Venom globes being impossible to shoot in certain situations."
+        },
+        ["Mag/"]={
+            "*Fixed AI affected by Mag’s Bullet Attractor ability from shooting once then stopping for several seconds."
+        },
+        ["Saryn/Venom/"]={
+            "*Fixed performance issues relating to Saryn’s Venom ability."
+        },
+        ["Corpus Outpost/"]={
+            "*Fixed blocking volumes in Corpus Outpost Hanger so the ship doesn’t land on players."
+        },
+        ["Trinity/Blessing/"]={
+            "*Fix a number of issues with Trinity's powers in PVP. Blessing / EnergyVampire / Well of Life should all work correctly for valid targets in PvP."
+        },
+        ["Dethcube/"]={
+            "*Fixed incorrect emblem decorations on Dethcube"
+        },
+        ["Jackal/"]={
+            "*Fixed issues with Jackal's leg shield mechanic."
+        },
+        ["Fang/Fang Prime/"]={
+            "*Fixed broken Fang Prime elemental FX."
+        },
+        ["Dojo/"]={
+            "*Fixed issue where players couldn’t join a Dojo session in progress if the obstacle course had previously been triggered."
+        },
+},
+{["Version"]={"9.7.3"},
+        ["Strun Wraith/"]={
+            "*Changed Strun Wraith Crit Chance from the incorrect 50% to the correct 20%."
+        },
+},
+{["Version"]={"9.7.1"},
+        ["Survival/"]={
+            "*Fixed enemies not spawning for extended periods of time during Survival missions."
+        },
+        ["Braton Vandal/"]={
+            "*Fixed missing texture on Braton Vandal. "
+        },
+},
+{["Version"]={"9.7"},
+        ["Vasto/"]={
+            "*Time to double up with the new DUAL VASTOS, now available in the Market."
+        },
+        ["Nightmare Mode/"]={
+            "*Mod Rewards from “Arid Fear” event (Shred, Vigor, Lethal Torrent) now available in Nightmare Mode"
+        },
+        ["Trinity/Blessing/"]={
+            "*Improved Trinity’s cast animation for Blessing ability."
+        },
+        ["Miter/"]={
+            "*Miter – increased fire rate, higher charge damage. Charged shots fire through targets."
+        },
+        ["Vauban/Bounce/"]={
+            "*changed sound effect of Vauban's Bounce ability. "
+        },
+        ["Dethcube/"]={
+            "*Fixed incorrect emblem decorations on Dethcube."
+        },
+        ["Ember/Overheat/"]={
+            "*Fixed Ember’s Overheat ability that was creating extra fire FX on clients."
+        },
+        ["Saryn/Venom/"]={
+            "*Fixed performance issues relating to Saryn’s Venom orbs."
+        },
+},
+{["Version"]={"9.6.1"},
+        ["Dojo/"]={
+            "*Arid Fear Dojo Trophy Recipes have now been distributed to the top clans from the past event! Congrats!"
+        },
+        ["Blessing/Trinity"]={
+            "*Added new visual effect while Blessing is active"
+        },
+        ["Snipetron/Snipetron Vandal/Torid/"]={
+            "*Updated reload sound effects for Snipetron, Snipetron Vandal, and Torid"
+        },
+        ["Dera/"]={
+            "*Updated visual effects for Dera muzzle flash"
+        },
+        ["Flux Rifle"]={
+            "*Improved visual effects for Flux beam"
+        },
+        ["Radial Blind/Excalibur"]={
+            "*Switched Radial Blind's color back to white with some tinges of energy color"
+        },
+        ["Nyx/Chaos/"]={
+            "*Nyx's Chaos now only stuns bosses, not make them murder their subordinates "
+        },
+        ["Trinity/Link/"]={
+            "*Fixed energy colors not being applied to Trinity's Link",
+            "*Fixed Link beam occasionally attaching itself to nothing in particular"
+        },
+        ["Volt/Speed/"]={
+            "*Fixed Volt Speed not being affected by power duration mods for clients"
+        },
+        ["Rhino/Rhino Stomp/"]={
+            "*Fixed Rhino Stomp being 'In Use' on the client even though it didn't affect any enemies"
+        },
+        ["Tesla/Vauban"]={
+            "*Fixed energy colors not being applied to Tesla"
+        },
+        ["Raptors"]={
+            "*Fixed Raptor missiles following invisible targets"
+        },
+        ["Vortex/Vauban/"]={
+            "*Fixed energy colors not being applied to Vortex"
+        },
+        ["Nova/Molecular Prime/"]={
+            "*Fixed Nova being launched into orbit if she casts Molecular Prime right as she jumps"
+        },
+        ["Nova/"]={
+            "*Fixed Drop disappearing on clients after fusing it past level 1"
+        },
+        ["Nova/"]={
+            "*Fixed energy colors not being applied to Drop "
+        },
+},
+{["Version"]={"9.6"},
+        ["Hind/"]={
+            "*A new Grineer weapon appears: the Hind!"
+        },
+        ["Flux Rifle/"]={
+            "*Flux Rifle energy beam is now affected by Energy Colour!"
+        },
+        ["Dera/"]={
+            "*Dera muzzle flash is now affected by Energy Colour!"
+        },
+        ["Excalibur/Radial Blind/"]={
+            "*Excalibur Radial Blind now uses Energy Colours!"
+        },
+        ["Sobek/"]={
+            "*Added Sobek reload animation tweaks."
+        },
+        ["Twin Vipers/"]={
+            "*Tweaks to Twin Vipers sounds"
+        },
+        ["Orthos/"]={
+            "*Tweaks to Orthos hit sounds"
+        },
+        ["Miter/"]={
+            "*Tweaks to Grineer Miter sounds."
+        },
+        ["Rhino/Iron Skin/"]={
+            "*Tweaks to Rhino’s Iron Skin lighting."
+        },
+        ["Hind/"]={
+            "*Elite Lancers now use the Hind! "
+        },
+        ["Grineer Settlement/"]={
+            "*Multiple Fixes for the Grineer Settlement levels."
+        },
+        ["Defense/"]={
+            "*Fixed enemies not leaving the spawn rooms in Settlement Defense"
+        },
+        ["Dojo/"]={
+            "*Fixed the Contact List breaking after sending a clan invite while in the Dojo"
+        },
+        ["Stalker/"]={
+            "*Fixed the Stalker dropping blueprints 100% of the time"
+        },
+        ["Dojo/"]={
+            "*Fixed the Stamina Orbs appearing as blue instead of green after building the Dojo Obstacle Course"
+        },
+        ["Sabotage/"]={
+            "*Fixed the Sabotage Target not appearing on client after a host migration"
+        },
+        ["Spy/"]={
+            "*Fixed enemies being inaccessible in the Settlement Spy missions"
+        },
+        ["Banshee/Silence/"]={
+            "*Fix for Banshee Silence effect not using correct energy colours"
+        },
+        ["Corpus Ship/"]={
+            "*Fix for unlit textures in Corpus Ship room."
+        },
+        ["Volt/Overload/"]={
+            "*Fix Volt Overload creating two effects on clients."
+        },
+        ["Electric Shield/Volt"]={
+            "*Fix for crashes when using continuous fire weapons through Electric Shield. "
+        },
+},
+{["Version"]={"9.5.3"},
+        ["Grineer Settlement/"]={
+            "*Rollers have been removed from Grineer Settlements. The Grineer need to make up their mind!"
+        },
+        ["Vor/Lech Kril"]={
+            "*Kril And Vor have gone through endurance training and no longer attack and fear Sand Skates."
+        },
+        ["Capture/"]={
+            "*Reduced spawn rate of enemies on prison for Settlement Capture mission."
+        },
+        ["Spy/Corpus Outpost/"]={
+            "*Fix for objective marker sometimes not appearing for Spy missions in Corpus Outpost."
+        },
+        ["Trinity/"]={
+            "*Fixed Trinity blueprints dropping from Grineer Commanders."
+        },
+        ["Lech Kril/"]={
+            "*Fix for Lech Kril sometimes becoming invincible when fighting him."
+        },
+        ["Miter/"]={
+            "*Fix for the Miter’s holster position."
+        },
+},
+{["Version"]={"9.5.2"},
+        ["Twin Gremlins/"]={
+            "*Fixed inability to reload Twin Gremlins while sprinting."
+        },
+        ["Ogris/"]={
+            "*Fixed Ogris charge sound effect playing randomly when it wasn't being charged."
+        },
+        ["Orthos Prime/"]={
+            "*Buffs to Orthos Prime, Slightly faster, bit higher base damage. Longer reach."
+        },
+        ["Miter/"]={
+            "*Fixed custom colours not applying to Miter saw blades or boomerang. "
+        },
+},
+{["Version"]={"9.5.1"},
+        ["Ash/"]={
+            "*Tweak to Ash’s new custom idle."
+        },
+        ["Loki/Supra/"]={
+            "*Fixed Lokis’ arm clipping,breaking,fusing,merging, etc. with Supra."
+        },
+        ["Capture/"]={
+            "*Proper event badge now shows when you complete Capture in the Void (was showing sling-stone badge)"
+        },
+        ["Foundry/"]={
+            "*Fix for Foundry blueprints that require items not be craftable."
+        },
+        ["Foundry/"]={
+            "*Fix for Foundry UI breaking if it was open when an item completed. "
+        },
+},
+{["Version"]={"9.5"},
+        ["Grineer Settlement/"]={
+            "*New Grineer Settlement. Hiding here are new enemy types waiting to be battled, blueprints for weapons, and more… Complete Operation Arid Storm to unlock its secrets!"
+        },
+        ["Miter/Grineer Settlement/"]={
+            "* Miter, a sawblade gun of death! Blueprint available on the hidden Grineer Settlements…"
+        },
+        ["Twin Gremlins/Grineer Settlement/"]={
+            "* Grineer-issued Twin Gremlins! Blueprint available on the hidden Grineer Settlements… "
+        },
+        ["Bladestorm/Ash"]={
+            "*New Bladestorm animations for Infested Ancient Disruptors, Ancient Healers, Toxic Ancients and Chargers."
+        },
+        ["Clan/Dojo/"]={
+            "*Clan Dojo Construction Upgrade Phase 1: On the Grid",
+            "* 5 Halls, Power Room, and all connector pieces updated to fit new grid system for improved layout options.",
+            "* Older versions of these rooms are no longer available for creation but remain if you own them.",
+            "* Older versions of these rooms will not fit the new grid system.",
+            "* Older versions can be destroyed for a full 100% refund allowing you to reconstruct with the new versions. All Platinum used to rush rooms is included in the Clan Vault.",
+            "* New versions fit a grid system that will eventually allow you to loop pieces with more than one entryway.",
+            "* New versions look better!",
+            "* All other room pieces not listed have updates in progress to fit the grid where necessary.",
+            "* Rooms that have not been updated retain their functionality,",
+            "* Rooms that have only one entrance are largely unaffected by the grid change (because they can’t be looped anyway)",
+            "* Older version of the Clan Hall can be converted to the new Clan Hall instantly with no cost, if it is the only room in the Dojo (destroy all other rooms first). You must remove all Decorations in the Hall before converting. "
+        },
+        ["Dera/Lanka/Ogris/Supra/Kraken/Lex/"]={
+            "*Added custom reload animations for Dera, Supra, Lanka, Ogris, Lex, and Kraken."
+        },
+        ["Latron Prime/Lato/"]={
+            "*Added custom recoil animations for Latron Prime, and Lato."
+        },
+        ["Dera/Gorgon/Grakata/Hek/Ignis/Strun/Supra/Acrid/Kraken/Lex/"]={
+            "*Added custom reload sounds for Strun, Dera, Supra, Gorgon, Ignis, Grakata, Acrid, Kraken, Hek, and Lex."
+        },
+        ["Nyx/"]={
+            "*Prevent being able to revive enemy capture target while he is being affected by Nyx's mind control."
+        },
+        ["Rhino/Iron Skin/"]={
+            "*Revised Rhino’s Iron Skin texture as requested."
+        },
+        ["Hikou/"]={
+            "*Hikou fx trail now uses energy color."
+        },
+        ["Ignis/"]={
+            "*FX tweaks to Ignis"
+        },
+        ["Clan/Dojo/"]={
+            "*Ongoing Art and sound improvements on some Clan Dojo connector pieces and halls."
+        },
+        ["Raptors"]={
+            "*Raptor projectile explosion FX toned down."
+        },
+        ["Clan/Dojo/"]={
+            "*Cleaned up some Clan Dojo obstacle course audio."
+        },
+        ["Ash/Bladestorm/"]={
+            "*Added animation and sounds for Ash’s Bladestorm ability vs. Ancients"
+        },
+        ["Clan/"]={
+            "*Clan Stats are hidden in Profile unless you are in a clan or have a clan invite."
+        },
+        ["Frost/Defense/"]={
+            "*All Objectives in Endless Defense now scale to the mission's enemy level - higher end defense should now be slightly more tolerable for solo play or squads without Frost. Does not scale with additional enemy scaling per wave."
+        },
+        ["Dera/"]={
+            "*Dera rifle now shoots projectiles based on energy color. "
+        },
+        ["Grineer Galleon/"]={
+            "*Fixed missing skybox issues in Grineer Galleon."
+        },
+        ["Nyx/"]={
+            "*Fixed HUD breaking when reviving capture target affected with Nyx's mind control."
+        },
+        ["Grineer Galleon/"]={
+            "*Fixed some missing art issues in Grineer Galleon."
+        },
+        ["Ash/Bladestorm/"]={
+            "*Fixed issue with Ash Bladestorm where the Ash’s arm may be stuck in his shoulder."
+        },
+        ["Ash/Bladestorm/"]={
+            "*Fixed issue where Ash would become invincible after using Bladestorm on clients."
+        },
+        ["Frost/Vauban/"]={
+            "*Fixed Vauban's powers not working when stuck onto Frost's Snowglobe."
+        },
+        ["Vauban/Tesla/Bastille/Bounce/"]={
+            "*Fixed bad cases with Vauban’s Tesla, Bounce, and Bastille that would occur when the instigator player would die/respawn/leave the game."
+        },
+        ["Dojo/"]={
+            "*Fixed potential problems that may arise if a player is visiting another clan's Dojo."
+        },
+        ["Saryn/Moult/"]={
+            "*Fixed Saryn’s Moult ability FX not showing on client."
+        },
+        ["Hikou/"]={
+            "*Fixed the Hikou throwings stars so that they only have 1 flashlight beam pointing in the correct direction."
+        },
+        ["Nova/"]={
+            "*Fix for Nova's Wormhole being used on enemies and sending them to a far away place"
+        },
+        ["Dera/"]={
+            "*Fix for Dera not updating with custom colours in the arsenal."
+        },
+},
+{["Version"]={"9.4.1"},
+        ["Nova/"]={
+            "*Nova Helmet customization colour fixes."
+        },
+        ["Defense/Orokin Void/"]={
+            "*Fix for Orokin Void Defense enemy levels – they are now back to their original difficulty. They obviously felt the new recruits could take on Tenno, how foolish. "
+        },
+},
+{["Version"]={"9.4"},
+        ["Afuris/Bo/Dual Ether/"]={
+            "Dual Ether, Afuris, and Affinity Booster package is in the Market. "
+        },
+        ["Clan/"]={
+            "*Changes to calculate Clan Tier based on number of confirmed members, not pending. We have run a script to downgrade Clans affected by this “Pending” members occupancy."
+        },
+        ["Excalibur"]={
+            "*Slash-Dash visual brightness tweaks."
+        },
+        ["Nova/Molecular Prime/"]={
+            "*Nova’s Molecular Prime is less blinding on explosions."
+        },
+        ["Dera/"]={
+            "*The Dera Energy Rifle now uses both barrels."
+        },
+        ["Defense/"]={
+            "*Defense missions now begin when the pod/core is reached, meaning idlers do not determine when mission begins. One player must reach the defense target for the first Wave to start"
+        },
+        ["Nightmare Mode"]={
+            "Nightmare mode tuning:",
+            "*Don’t allow 0 shields in nightmare mode if Vampire mode is in effect.",
+            "*Energy Drain mode now gives zero shields in addition to draining energy. Reduced chance of Energy -Drain mode (33% instead of 50%).",
+            "*Mobile Defense is now exempt from No-HUD mode."
+        },
+        ["Flux Rifle/"]={
+            "*Fix for Flux Rifle not being able to damage ragolled enemies on client."
+        },
+        ["Nyx/Mind Control/"]={
+            "*Fix for HUD breaking when reviving capture target affected with Nyx’s “Mind Control”."
+        },
+        ["Dethcube/Wyrm/"]={
+            "*Fixes for badges on Wyrm and Dethcube being offset."
+        },
+        ["Ash/Bladestorm/"]={
+            "*Fix for weapons not returning after using Ash’s Bladestorm"
+        },
+        ["Saryn/Venom/"]={
+            "*Fix for Clients receiving the Power In Use error when casting Saryn's Venom ability"
+        },
+        ["Tesla/Bastille/Bounce/"]={
+            "*Fixed bad cases with Tesla, Bounce, and Bastille that would occur when the instigator player would die/respawn/leave the game."
+        },
+        ["Dojo/"]={
+            "*Fix for potential problems that may arrise if a player is visiting another clan's Dojo."
+        },
+        ["Machete/"]={
+            "*Fix for Machete first Strike missing a lot"
+        },
+        ["Dera/"]={
+            "*Fix for Dera's laser bolts will always hit to the let of the crosshairs"
+        },
+        ["Saryn/Molt/"]={
+            "*Fixed Saryn's Molt not showing vfx on clients."
+        },
+        ["Lech Kril/"]={
+            "*Fix for Lech Kril being stuch in invincible mode on some encounters."
+        },
+        ["Ogris/Torid/"]={
+            "*Fix for killing blows with Ogris or Torid affecting resource drops for client."
+        },
+        ["Clan/"]={
+            "*Fix for Clan Emblems not appearing for Clients. "
+        },
+},
+{["Version"]={"9.3.4"},
+        ["Clan/"]={
+            "*fixed new Ammo Mutation Mods not being compatible with Clan Tech weapons."
+        },
+        ["Dojo/Forma/"]={
+            "*fixed blueprints for weekend event Dojo Trophies requiring 16 Forma to build instead of 16 Gallium. "
+        },
+},
+{["Version"]={"9.3.1"},
+        ["Clan/"]={
+            "*fixed top of Clan leaderboard not being limited to Clan tier"
+        },
+        ["Nova/"]={
+            "*fixed market descriptions for Femme Fatale and Go Nova! features "
+        },
+},
+{["Version"]={"9.3"},
+        ["Vasto/"]={
+            "*New Weapon: The VASTO Tenno revolver!"
+        },
+        ["Clan/"]={
+            "*Event Reward for Clans: Fomorian ship statue for clan dojo."
+        },
+        ["Foundry/"]={
+            "*Continued UI re-skinning: new fonts, popups, Login UI, Market UI (now includes Popular list and separate GEAR section), Foundry UI now uses 4-row layout instead of grid."
+        },
+        ["Nightmare Mode/"]={
+            "*Increased difficulty (just a little) of Nightmare Mode.",
+            "*Nightmare mode storage lockers don't give ammo."
+        },
+        ["Ash/Bladestorm/"]={
+            "*Ash Bladestorm ability deals increasing damage as it levels up."
+        },
+        ["Teleport/Loki/Switch Teleport/Mag/Crush/"]={
+            "*Infested Ancient Loki Switch Teleport reaction animations, Mag Crush react animations, and stealth attacks."
+        },
+        ["Torid/"]={
+            "*Reduced particle fx on Torid."
+        },
+        ["Orthos Prime/"]={
+            "*Orthos Prime elemental FX update."
+        },
+        ["Grineer Galleon/"]={
+            "*Visual FX improvements in Grineer Galleon."
+        },
+        ["Supra/"]={
+            "*Supra emissive fade on reload."
+        },
+        ["Lanka/Ogris/"]={
+            "*Lanka, Ogris updated charged sounds."
+        },
+        ["Latron Prime/Snipetron Vandal/Sobek/Lato Prime/Lato Vandal/"]={
+            "*Lato Vandal, Latron Prime, Lato Prime, Snipetron Vandal, Sobek updated fire sounds."
+        },
+        ["Nightmare Mode"]={
+            "*Better timer sound for Nightmare mode."
+        },
+        ["Volt/"]={
+            "*Volt audio revisions on abilities."
+        },
+        ["Flux Rifle/"]={
+            "*Smaller radius on impact sounds for the Flux Rifle."
+        },
+        ["Mag/Nova/"]={
+            "*Mag, Nova revisions to descriptions in Marketplace. Shorter."
+        },
+        ["Corpus Outpost/"]={
+            "*Fixed AI navigation issues in Corpus Outpost"
+        },
+        ["Sentinel/"]={
+            "*Fixed Sentinels using powers/targeting enemies during rank up challenges."
+        },
+        ["Nightmare Mode"]={
+            "*Fixed weapon restrictions not being applied in Nightmare mode."
+        },
+        ["Glaive/"]={
+            "*Fixed Stealth Attack animation Glaive on Quadruped"
+        },
+        ["Ember/"]={
+            "*Fixed Ember's Backdraft helmet tinting options."
+        },
+        ["Ash/Smoke Screen/"]={
+            "*Fixed Ash Smoke Screen VFX to last as long as the ability.",
+            "*Fixed Ash's smoke screen from applying effect to clan emblem icon. Emblem now just goes invisible."
+        },
+        ["Dojo/"]={
+            "*Fixed stamina pickups not applying to clients when running Dojo obstacle course"
+        },
+        ["Vauban/Vortex/"]={
+            "*Fixed Vortex damaging teammates if a player using Vauban casts it then disconnects"
+        },
+        ["Kunai/"]={
+            "*Fixed incorrect default colors appearing after choosing to reset colors for specific weapons (e.g. Kunai)"
+        },
+        ["Rhino/"]={
+            "*Fixed Rhino's iron skin effects not being removed on client"
+        },
+        ["Defense/"]={
+            "*Fixed duplicate mods being added to player inventory after reaching 10+ waves of Defense"
+        },
+        ["Lech Kril/"]={
+            "*Fixed Lech Kril's hammer continuing to damage players after swing animation ends"
+        },
+        ["Bastille/Vauban"]={
+            "*Fixed Bastille not affecting Grineer Seekers and Snipers"
+        },
+        ["Bastille/Vauban"]={
+            "*Fixed damage not registering against Crewman affected by Bastille"
+        },
+        ["Radial Disarm/Loki"]={
+            "*Fixed Radial Disarm harming instead of disarming Grineer Elite Lancers"
+        },
+        ["Ash/Bladestorm/"]={
+            "*Fixed issue of random loss of functionality when using Ash's Bladestorm ability."
+        },
+        ["Ash/Bladestorm/"]={
+            "*Fixed some 'stuck' issues relating to Ash's Bladestorm ability."
+        },
+        ["Defense/"]={
+            "*Fixed various powers unintentionally affecting new Orokin Defense Avatar."
+        },
+},
+{["Version"]={"9.2.1"},
+        ["Seer/"]={
+            "*Fixed Seer colour customization issues. "
+        },
+},
+{["Version"]={"9.2"},
+        ["Nightmare Mode"]={
+            "*Vampire mode degeneration cannot kill the player -- lowest health can be is 1%. Must die to enemy fire or other environmental disasters."
+        },
+        ["Vor/"]={
+            "*Adjusted Vor’s scaling with tweaks to MultiPlayer matches. He should not get higher than rank 54 vs 4 rank 30 players."
+        },
+        ["Vor/"]={
+            "*Several more tweaks to Vor’s difficulty."
+        },
+        ["Nightmare Mode"]={
+            "*Removed Nightmare mode as an option for Mercury missions."
+        },
+        ["Vor/"]={
+            "*Captain Vor’s damage intake is now locked to stages, prevent massive damage from taking him down too fast. "
+        },
+        ["Sobek/Torid/"]={
+            "*Fixed the Sobek and Torid weapons so that they can be fired when coming out of a sprint."
+        },
+        ["Nova/"]={
+            "*Fix Nova Drop disappearing for clients."
+        },
+        ["Volt/Shock/"]={
+            "*Fix Volt Shock chains not using correct energy colour."
+        },
+        ["Volt/Speed/"]={
+            "*Fix Volt Speed FX not using correct energy colour."
+        },
+        ["Null Star/Nova"]={
+            "*Fix Null Star not using correct energy colour"
+        },
+        ["Null Star/Nova"]={
+            "*Fix for Corrupted Shield Drones not being targeted by Null Star."
+        },
+        ["Glaive/Kestrel/"]={
+            "*Fixed the Glaive and Kestrels charged attacks so that they take into account any power stored in the weapon from mods such as Melee Channel."
+        },
+        ["Nova/Wormhole"]={
+            "*Fix to Wormhole's destination offset."
+        },
+        ["Sentinel/"]={
+            "*Fixed clan emblems not appearing properly on Sentinels."
+        },
+        ["Clan/"]={
+            "*Show the ClanHall recipe in UI, so clans can build more than one of these and increase capacity without increasing tier. The intent will be to allow all hall types for all tiers, this is a coming fix, disregard this note for now."
+        },
+        ["Sentinel/"]={
+            "*Fix for Sentinels getting into spammy state of ability use after a duel ends."
+        },
+        ["Sentinel/"]={
+            "*Fix for Sentinels getting spammy with their abilities as a result of faction changes."
+        },
+},
+{["Version"]={"9.1.5"},
+        ["Fang Prime/Orthos Prime/Foundry/"]={
+            "*Fix for not being able to build Fang Prime or Orthos Prime in Foundry."
+        },
+},
+{["Version"]={"9.1.4"},
+        ["Foundry/"]={
+            "*Foundry changes: Components that you have 0 of don’t show, transition time between panels cut in half, sort by 'type' added, screen transition and panel transition concurrent."
+        },
+        ["Clan/Dojo/"]={
+            "*Added clear labels to Dojo Halls to denote that if you build a bigger hall, you move up a Clan Tier and resources will scale accordingly. "
+        },
+        ["Dethcube/"]={
+            "*Fix for Dethcube issues with attacks."
+        },
+        ["Nightmare Mode"]={
+            "*Fix for Nightmare mode timer sound not being high enough stakes."
+        },
+        ["Lotus/"]={
+            "*Fix for inaudible Lotus VO for some users. She’s baaaaaaaaaaaaaaaaaaaack!"
+        },
+        ["Exterminate/Corpus Ship/"]={
+            "*Fix for boss rooms and gates being included in Corpus Ship Exterminate missions."
+        },
+        ["Exterminate/Corpus Ship/"]={
+            "*Fix for Corpus Ship Exterminate missions having closed doors block progress."
+        },
+        ["Grineer Galleon/"]={
+            "*Further improvements to hack panel issues in the Grineer Galleon ."
+        },
+        ["Worm Hole/Nova"]={
+            "*Fix for Worm Hole not leveling properly."
+        },
+        ["Orokin Void/"]={
+            "*Fix for timed Orokin Void runs being inaccessible."
+        },
+        ["Fang Prime/"]={
+            "*Fang Prime speed buff."
+        },
+        ["Sobek/"]={
+            "*Further Sobek changes: more damage, longer reload."
+        },
+},
+{["Version"]={"9.1.3"},
+        ["Raptors"]={
+            "*Further improvements to preventing the Raptor fleeing the map(*)"
+        },
+        ["Nightmare Mode/"]={
+            "*Further tweaks to Nightmare Mode Vampire missions to be challenging but playable."
+        },
+},
+{["Version"]={"9.1.2"},
+        ["Clan/"]={
+            "*Fix for Clan Contact list UI becoming perma-highlighted and unresponsive on hover of offline members."
+        },
+        ["Nightmare Mode/"]={
+            "*Fix for Vampire Mode health degenerating too quickly to complete missions. Not working as intended."
+        },
+        ["Clan/"]={
+            "*Potential fix for those seeing negative resource values in their Clan dojo. "
+        },
+},
+{["Version"]={"9.1.1"},
+        ["Sobek/"]={
+            "*Damage buff for Sobek, the new Shotgun."
+        },
+        ["Foundry/"]={
+            "*New UI back in Foundry."
+        },
+        ["Clan/"]={
+            "*Clan contact list now displays “last sign in” over Alias for offline and pending contacts."
+        },
+        ["Nightmare Mode/"]={
+            "*Increased difficulty of Nightmare Mode. Vampire drain rate is higher, and weapon restrictions are now enabled... coming soon. MUHAHA!"
+        },
+        ["Nightmare Mode"]={
+            "*Fix for Nightmare mode appearing on nodes before entire planet had been completed."
+        },
+        ["Exterminate/"]={
+            "*Fix for issues completing Corpus Exterminate missions."
+        },
+        ["Vauban/Vortex/"]={
+            "*Fix for Vauban Vortex preventing revives in squad."
+        },
+        ["Raptors"]={
+            "*Fix for Raptor boss drops not being in reachable place."
+        },
+        ["Paris Prime/"]={
+            "*Fix for Paris Prime blueprint not having icon or saving to inventory."
+        },
+        ["Raptors"]={
+            "*Raptor boss will no longer flee to the surrounding mountains."
+        },
+        ["Banshee/"]={
+            "*Fix for crash with Banshee “Soundquake” if gore was disabled."
+        },
+        ["Nova/Molecular Prime/"]={
+            "*Fix for Nova Molecular Prime not damaging nearby enemies after explosion."
+        },
+        ["Loki/Decoy/Vor/"]={
+            "*Fix for Loki Decoy putting Captain Vor in an inactive state."
+        },
+        ["Exterminate/"]={
+            "*Fix for doors not opening in Exterminate missions."
+        },
+        ["Grineer Galleon/"]={
+            "*Fix for some tilesets not having hack panels in Grineer Galleon."
+        },
+        ["Clan/"]={
+            "*Fix for NOT being able to contribute to tech projects from the Clan Vault. "
+        },
+},
+{["Version"]={"9.1"},
+        ["Vor/"]={
+            "*Simplified the vengeful Vor's scaling - he will no longer be quite as tough as he thought he was (less than level 100)."
+        },
+        ["Foundry/"]={
+            "*Swapped the old Foundry back in until we fix the recipe issues with the new version."
+        },
+        ["Dojo/"]={
+            "*Fix for Dojos who had overcontributed and were in a locked state after scaling prices took effect."
+        },
+        ["Defense/Survival/"]={
+            "*Fix and swap for Nightmare Defense mode: mission is now 15 wave countdown aka Nightmare Survival Defense. "
+        },
+},
+{["Version"]={"9.0"},
+        ["Nova/"]={
+            "*Design Council Warframe – Nova "
+        },
+        ["Braton Prime/Paris Prime/Bronco Prime/Fang Prime/Orthos Prime/Capture/Defense/Mobile Defense/Orokin Void/"]={
+            "Orokin Void Map expansion (with Mobile Defense, Defense, and Capture!) with 5 new Prime weapons to be found (Bronco, Fang, Paris, Braton, Orthos)"
+        },
+        ["Seer/Vor/"]={
+            "Captain Vor Boss Battle (drops rare Seer scoped pistol blueprints)"
+        },
+        ["Sentinel/"]={
+            "New Sentinel Attachments – Jet Wings, Koi Tail, Mech Head Mask"
+        },
+        ["Dojo/"]={
+            "Dojo Statues have Arrived! Explore 12 new placeable decorations for your dojo (Plus, coming soon, +2 more decos for top ranked clans from Fusion MOA and Snipetron event)"
+        },
+        ["Sobek/"]={
+            "New Weapon – Grineer Shotgun Sobek"
+        },
+        ["Hikou/"]={
+            "*New Weapon – Tenno Throwing stars Hikou"
+        },
+        ["Spectra/Clan/Research/"]={
+            "*New Clan Research Weapon – Corpus Pistol Spectra"
+        },
+        ["Capture/Mobile Defense/Deception/Spy/Grineer Galleon/"]={
+            "*Grineer Galleon Map Expansion (now supporting Mobile Defense, Spy, Deception, Capture)"
+        },
+        ["Clan/Dojo/"]={
+            "*Clan & Dojo Management Improvements (MotD, Clan size restrictions)"
+        },
+        ["Nightmare Mode"]={
+            "*Nightmare Game Mode. Are you tough enough to survive Nightmare mode?",
+            "*10x Dual Stat Mods rewards (awarded in “Nightmare” game mode challenges only)"
+        },
+        ["Foundry/"]={
+            "*Sneak preview of new UI in the Foundry!"
+        },
+        ["Raptors/"]={
+            "*New Boss on Europa! Look out for the Corpus Raptor!"
+        },
+        ["Vor/"]={
+            "*New Tutorial added, look out for Captain Vor!"
+        },
+        ["Clan/"]={
+            "*Clan Emblems have been added as an option to the game. Warlords, check the www.warframe.com/user/page!"
+        },
+        ["Clan/"]={
+            "*Enabled Clan size caps. This cap is Phase One of making the shift to the new Alliance System. With this change also comes the new scaled resourced per Clan Tier. Please see this post to see where you and your clan fit in: Forum post"
+        },
+        ["Boltor/Burston/Dera/Afuris/Furis/Viper/Furax/Gram/"]={
+            "*Refined the tint options on the Burston, Viper, Gram, Furis, Afuris, Dera, Furax, and Boltor."
+        },
+        ["Snipetron Vandal/"]={
+            "*Revisions to Snipetron Vandal sounds."
+        },
+        ["Mobile Defense/"]={
+            "*Mobile Defense: Adjusted number of active enemies allowed during defense stages - more for solo & increase numbers slightly in stage 2 & 3 to make them more epic."
+        },
+        ["Ash/"]={
+            "*Improved color tinting on Ash’s smoke armband—more subtle."
+        },
+        ["Mobile Defense/"]={
+            "*Mobile Defense – Release lockdown when going into a defense wave. NPC’s abort running to panic button during defense wave."
+        },
+        ["Dread/"]={
+            "*Added arrow trail to Dread projectiles."
+        },
+        ["Burston/"]={
+            "*Burston - damage and fire rate buff."
+        },
+        ["Dera/"]={
+            "*Dera - projectile speed increased (doubled flight speed)."
+        },
+        ["Flux Rifle/"]={
+            "*Flux Rifle – damage and fire rate buff."
+        },
+        ["Lanka/"]={
+            "*Lanka – damage and damage type (serrated) buff."
+        },
+        ["Reaper Prime/"]={
+            "*Reaper Prime buff – a bit more speed, damage, and charge damage."
+        },
+        ["Viper/"]={
+            "*Shield Lancers now use Grineer Viper instead of Tenno weapon."
+        },
+        ["Lanka/"]={
+            "*Sniper Mods can now be applied to Lanka"
+        },
+        ["Acrid/"]={
+            "*Fixed Acrid DOT numbers not showing up on capture target, and death affect not replicating."
+        },
+        ["Rhino/Iron Skin/"]={
+            "*Fixed Rhino's Iron Skin being removed by other players causing damage to it."
+        },
+        ["Nyx/"]={
+            "*Fixed ability effects for Nyx to be consistent on host/client both in terms of what is created and what colour it is."
+        },
+        ["Rescue/"]={
+            "*Fixed Rescue mission from being completed without freeing the prisoner."
+        },
+        ["Defense/"]={
+            "*Fixed some reported navigation and cover issues AI were having in Grineer Defense."
+        },
+        ["Volt/Speed/"]={
+            "*Fixed Volt’s Speed ability not making you jog faster."
+        },
+        ["Sabotage/Grineer Galleon/"]={
+            "*Fixed host migration issue in Grineer Galleon Sabotage where the target would be missing after migration."
+        },
+        ["Volt/Shock/"]={
+            "*Fixed Volt’s Shock ability to chain properly off turrets and cameras."
+        },
+        ["Supra/"]={
+            "*Fixed Supra - shots from the Supra will now correctly line up with the target reticule."
+        },
+        ["Despair/Kunai/"]={
+            "*Fixed weapon attachments (Kunai/Despair holsters) that would detach from player while using a sniper rifle."
+        },
+        ["Despair/"]={
+            "*Fixed/removed off-hand flashlight when using Despair."
+        },
+        ["Capture/"]={
+            "*Fixed Capture target hostage AI not following player after host migration."
+        },
+        ["Frost/"]={
+            "*Fixed icon for default Frost helmet."
+        },
+        ["Bladestorm/Ash"]={
+            "*Fixed issue where Bladestorm would get “stuck” on clients."
+        },
+},
+{["Version"]={"8.3.3"},
+        ["Rhino/Roar/"]={
+            "*Fix for Rhino Roar only lasting for 4 seconds."
+        },
+        ["Exterminate/"]={
+            "*Fixed Exterminate missions indicating enemies remaining when none are left."
+        },
+        ["Snipetron/Snipetron Vandal/"]={
+            "*Updated Snipetron & Snipetron Vandal sound FX"
+        },
+        ["Volt/Speed/"]={
+            "*Fix for Volt Speed not making you jog faster "
+        },
+},
+{["Version"]={"8.3.2"},
+        ["Volt/Shock/"]={
+            "*Fix for Volt's Shock 'Power in Use' bug."
+        },
+        ["Dojo/"]={
+            "*Fix for Dojos being unaccessible for new clans."
+        },
+        ["Rhino/Roar/"]={
+            "*Fix Rhino Roar effects not appearing on client"
+        },
+},
+{["Version"]={"8.3.1"},
+        ["Vulkar/"]={
+            "*Vulkar Pack is now live! Get your snipin’ on in Grineer Style!"
+        },
+        ["Mag/Shield Polarize/"]={
+            "*Mag's Shield Polarize is now percentage-based instead of flat power (10/15/25/50)%"
+        },
+        ["Volt/Overload/"]={
+            "*Volt's Overload DPS increased and casting time reduced."
+        },
+        ["Rhino/Roar/"]={
+            "*Added FX to Rhino Roar."
+        },
+        ["Bronco/"]={
+            "*Sound tweak to Bronco. "
+        },
+        ["Volt/"]={
+            "*Fixed Volt's shield – it now functions as intended which is to allow shots to fire through from Warframes with increased damage."
+        },
+        ["Mag/Pull/"]={
+            "*Various tweaks to Mag’s Pull."
+        },
+        ["Aklato/"]={
+            "*A few sound ambiance tweaks, plus Aklato tweaks."
+        },
+        ["Ember/"]={
+            "*Fix for Ember's FX on clients."
+        },
+        ["Vauban/Vortex/"]={
+            "*Fix for Vauban's Vortex killing friendlies if owner dies and respawns."
+        },
+        ["Radial Disarm/Loki/"]={
+            "*Fix for Radial Disarm being able to manipulate the “enemies remaining” in Exterminate missions."
+        },
+        ["Mag/"]={
+            "*Fix for size inconstancy in Mag’s Bullet Attractor."
+        },
+        ["Mag/Pull/"]={
+            "*Fix for Mag’s Pull not working as intended when client."
+        },
+        ["Snow Globe/Frost"]={
+            "*Fix for Snow Globe “Power in Use” bug."
+        },
+        ["Overload/Volt"]={
+            "*Fix for Overload “Power in Use” bug."
+        },
+        ["Saryn/Venom/"]={
+            "*Fix for Saryn’s Venom “Power in Use” bug. "
+        },
+},
+{["Version"]={"8.3"},
+        ["Dojo/"]={
+            "*MOTD now displayed in halls of the Dojo."
+        },
+        ["Kogake/"]={
+            "*Kogake slide attack is now a flying kick, the same one you may have noticed in the Tenno Reinforcement intro video on YouTube. Normal attack also includes an uppercut."
+        },
+        ["Machete/"]={
+            "*Machete has a new animation."
+        },
+        ["Orokin Void/Orokin Towers"]={
+            "*Void now has some new tile sets, more traps and lasers, also turrets in locker rooms. "
+        },
+        ["Alert/"]={
+            "*Alert System 2.0 is live"
+        },
+        ["Paris/Stalker/"]={
+            "*Stalker Bow and Paris 3D draw sounds now have fire rate multiplier."
+        },
+        ["Sentinel/"]={
+            "*3D Sounds on Pistols and Sentinel now have proper mix effects."
+        },
+        ["Dojo/"]={
+            "*Dojo pieces that are dead ends are marked as such."
+        },
+        ["Ash/Smoke Screen/Loki/Vauban/"]={
+			"*Updated Warframe abilities to use energy color selected by player.",
+            "* including Vauban's grenades, Loki's decoy, Ash Smoke Screen smoke, will have your energy color. "
+        },
+        ["Prova/"]={
+            "*EDIT @ 8:24 PM Prova Weapon model updated. "
+        },
+        ["Mag/Pull/"]={
+            "* Mag: Pull- Changed to pull all targets in front of the player."
+        },
+        ["Mag/Shield Polarize/"]={
+            "* Mag: Shield Polarize - Now radial instead of single target. Radial damage around enemy targets that suffer shield drain."
+        },
+        ["Mag/"]={
+            "* Mag: Bullet Attractor - Bullet attractors now become volatile when target dies before attractor is finished, these cause radial damage around the dead target.(needs more visual polish) "
+        },
+        ["Rhino/Iron Skin/"]={
+            "* Rhino: Iron Skin - 400,600,800,1200 damage caps. Removed timer."
+        },
+        ["Rhino/Roar/"]={
+            "* Rhino Roar: NEW POWER: Radial damage buff for all players within range (10%,15%,25%,50%)"
+        },
+        ["Rhino/Rhino Stomp/"]={
+            "* Rhino: Rhino Stomp - Rolled Radial blast and Rhino Stomp together. Rhino Stomp now does damage to enemies(150,300,500,700) "
+        },
+        ["Volt/Speed/"]={
+            "* Volt: Speed: Now a radial group buff, All Tenno in a radius around the caster will get a speed and melee weapon speed increase (speed, range, duration all increase with fusion level). Range (15,20,22,25) Speed (10%,15%,25%,50%) Duration (5,6,8,10)."
+        },
+        ["Overload/Volt"]={
+            "* Overload: Higher damage output during entire animation."
+        },
+        ["Shock/Volt"]={
+            "* Shock: Has proper chaining, fusion now increases the number of chains and the radius it looks for further chaining targets. "
+        },
+        ["Gorgon/Latron Prime/Snipetron/Strun/Afuris/Aklato/Bronco/Furis/Lato/Viper/Twin Vipers"]={
+            "*Sound changes: Gorgon, Lato, Aklato, Strun, Viper, Twin Viper, Snipetron, Bronco, Dual Bronco, Furis, Afuris, Latron Prime. Melee Charge attack seems to have a slightly different sound effect."
+        },
+        ["Ash/Smoke Screen/Loki/Invisibility/"]={
+            "*Ash's invisibility (Smoke Screen) will not render Ash completely invisible anymore, just like Loki's Invisibility. Ash will now have a white, ghostly model during cloak (color may also be affected by your energy color). This may affect its usefulness during duel."
+        },
+        ["Defense/"]={
+            "*Fixed Defense Missions awarding level 0 Fusion Cores"
+        },
+        ["Defense/"]={
+            "*Fixed Endless Defense missions that could be ended immediately upon host migration."
+        },
+        ["Capture/"]={
+            "*Fixed edge case issue where objective marker would not clear upon completing Capture objective."
+        },
+        ["Corpus Outpost/"]={
+            "*Fixed loot crate positions in Corpus Outpost hanger that were inside the floor."
+        },
+        ["Ether Daggers/Fang/"]={
+            "*Fixed missing sound effects for Fang and Ether Daggers slide attack."
+        },
+        ["Volt/"]={
+            "*Fixed lag and FX issues when shooting through Volt’s shield."
+        },
+        ["Ember/World On Fire"]={
+            "*Fixed Ember’s World on Fire ability not showing effects on enemies."
+        },
+        ["Cronus/"]={
+            "*Fixed missing Cronus charge attack sound."
+        },
+        ["Burston/"]={
+            "*Fixed mis-aligned muzzle flash on Burston weapon."
+        },
+        ["Defense/"]={
+            "*Fixed instances of inactive Corpus AI when spawned on centre platform of Outpost Defense."
+        },
+        ["Defense/"]={
+            "*Fixed some Defense text strings that would appear to clients in host’s language."
+        },
+        ["Vortex/Vauban"]={
+            "*Fixed Vortex instantly killing enemies in certain cases."
+        },
+        ["Vortex/Vauban"]={
+            "*Fixed ragdolls being destroyed when held in a Vortex for too long (more than 15 seconds)."
+        },
+        ["Ash/Smoke Screen/"]={
+            "*Fixed Ash’s Smoke Screen where he’d hold both melee and primary weapon."
+        },
+        ["Kogake/Sentinel/"]={
+            "*Fixed Kogake charge attack from damaging Sentinels."
+        },
+        ["Dual Zoren/"]={
+            "*Fixed melee action being temporarily blocked after completing a slide attack with Dual Zorens."
+        },
+        ["Phorid/"]={
+            "*Fixed Phorid not attacking crouched players."
+        },
+        ["Rescue/"]={
+            "*Fixed issue where Rescue Agents and nearby AI would pause if player ran two rooms ahead."
+        },
+        ["Trinity/"]={
+            "*Fixed an issue where Trinity could get sliced in half or ragdoll when her link target was meant to receive such an injury."
+        },
+        ["Mag/Crush/"]={
+            "*Fixed enemies springing to their feet immediately after surviving Mag's Crush ability."
+        },
+        ["Ember/"]={
+            "*Fixed Ember’s World on Fire ability from targeting inactive turrets."
+        },
+        ["Mag/Glaive/"]={
+            "*Fixed multiple issues with Mag Bullet Attractor ability (FX on host/client, unintended projectile weapon behaviour, Glaive was not working with this ability)."
+        },
+        ["Frost/Avalanche/"]={
+            "*Fixed Hammer Boss phases breaking after Frost’s Avalanche ability."
+        },
+        ["Spy/"]={
+            "*Fixed issue where a primary or secondary Spy objective would require 0 terminals."
+        },
+        ["Frost/Avalanche/"]={
+            "*Fixed 'Power In Use' bug when using Frost's Avalanche"
+        },
+        ["Volt/Overload/"]={
+            "*Fixed missing animation with Volt's Overload."
+        },
+},
+{["Version"]={"8.2"},
+        ["Kogake/"]={
+            "Tenno Reinforcement - Kogake"
+        },
+        ["Kogake/"]={
+            "*The Kogake are coverings for your hands and feet which will allow you to engage in hand-to-hand combat. Get up close and personal with these combat wraps and strike down your enemies!"
+        },
+        ["Kogake/"]={
+            "*Love the Kogake? Join our Kogake Kills contest! The 5 Best Kogake Kills win 1000 Platinum: link"
+        },
+        ["Lato/"]={
+            "*Lato now has queued fire, and is set up like other semi-auto weapons."
+        },
+        ["Prova/"]={
+            "*Updated Prova waiting on further positive reports beyond an updated icon. Results of reports: icon has been updated, rest remains to be added. "
+        },
+        ["Trinity/Energy Vampire/"]={
+            "*Fix for Trinity’s Well of Life and Energy Vampire being considered “in use” even on dead targets."
+        },
+        ["Vauban/"]={
+            "*Fix for Vauban’s abilities not working if thrown on Orokin ice trap."
+        },
+        ["Vauban/Tesla/"]={
+            "*Fix for Vauban’s Tesla not activating if tossed onto a Grineer Shield Lancer’s shield."
+        },
+        ["Torid/"]={
+            "*Fixed Torid gas clouds not receiving damage buffs from mods."
+        },
+        ["Acrid/"]={
+            "*Fixed Acrid’s DOT not always working on client."
+        },
+        ["Nyx/Absorb"]={
+            "*Fixed ammo not being consumed on some weapons when shooting Nyx’s absorb."
+        },
+        ["Wyrm/"]={
+            "*Fix for Wyrm’s crowd dispersion not being able to stun certain enemy types."
+        },
+        ["Wyrm/"]={
+            "*Fix for Wyrm’s crowd dispersion not stunning certain enemies during attack sequences."
+        },
+        ["Wyrm/"]={
+            "*Fixed range damage issues with Wyrm’s crowd dispersion."
+        },
+},
+{["Version"]={"8.1.7"},
+        ["Bladestorm/Ash"]={
+            "*Fixed another case of 'power in use' occurring when using Bladestorm. "
+        },
+},
+{["Version"]={"8.1.6"},
+        ["Dethcube/"]={
+            "*Weekend Dethcube bundle deal is now over."
+        },
+},
+{["Version"]={"8.1.5"},
+        ["Grineer Galleon/"]={
+            "*Fixed AI spawning issues in the Grineer Galleon defense level."
+        },
+        ["Dethcube/"]={
+            "*Added a new Dethcube bundle to the Market! Pew pew pew! "
+        },
+        ["Defense/"]={
+            "*Removed Crawler type enemies from Artifact Defense missions. "
+        },
+},
+{["Version"]={"8.1.3"},
+        ["Sicarus/"]={
+            "*Updated Sound FX for reloading a Sicarus"
+        },
+        ["Lanka/Ogris/"]={
+            "*Added visual indicator to Ogris and Lanka when they are ready to fire"
+        },
+        ["Sentinel/Wyrm/"]={
+            "*Added Sound FX for Wyrm Sentinel’s Crowd Control ability"
+        },
+        ["Orokin Void/"]={
+            "*Reworked some of the pit traps in the Loot Rooms found in Orokin Void levels"
+        },
+        ["Ember/Overheat/"]={
+            "*Updated Visual FX on Ember’s Overheat ability"
+        },
+        ["Trinity/Energy Vampire/Link/"]={
+            "*Updated Visual FX on Trinity’s Link and Energy Vampire abilities"
+        },
+        ["Ash/Smoke Screen/"]={
+            "*Updated Visual FX on Ash’s Smoke Screen ability"
+        },
+        ["Sentinel/"]={
+            "*Sentinels will now be revived at the end of a dueling round "
+        },
+        ["Vortex/Vor/"]={
+            "*Fixed crash that could occur when using Vortex"
+        },
+        ["Nyx/Absorb/"]={
+            "*Fixed shields not replenishing if damaged while using Nyx's Absorb"
+        },
+        ["Dojo/"]={
+            "*Fixed dead ends appearing in Dojo at the point where two rooms perfectly connect"
+        },
+        ["Defense/"]={
+            "*Fixed some collision and AI navigation issues in Corpus Defense missions"
+        },
+        ["Saryn/"]={
+            "*Fixed an issue with Saryn’s Poison ability, so that the globes now replicate correctly for clients"
+        },
+        ["Acrid/"]={
+            "*Fixed Hornet Strike not affecting DOT from the Acrid"
+        },
+        ["Orokin Void/"]={
+            "*Fixed an issue causing some traps in the Orokin Void levels to not take any damage from certain weapons"
+        },
+},
+{["Version"]={"8.1.2"},
+        ["Banshee/Sonar/"]={
+            "*Fixed Banshee Sonar 'power in use' issue"
+        },
+        ["Kestrel/"]={
+            "*Fixed Infested bosses disappearing after being damaged by Kestrel"
+        },
+        ["Defense/Mobile Defense/"]={
+            "*Added Mobile Defense missions to alerts"
+        },
+        ["Exterminate/"]={
+            "*Fixed Tower Exterminate keys sometimes resulting in Raid missions"
+        },
+        ["Dojo/"]={
+            "*Fixed elevator direction being reversed in clan Dojo builder UI"
+        },
+        ["Dojo/"]={
+            "*Fixed elevator textures in Dojo"
+        },
+        ["Dual Cleavers/"]={
+            "*Fixed elemental effects not outlining Dual Cleavers properly"
+        },
+        ["Acrid/"]={
+            "*Fixed Acrid darts not disappearing"
+        },
+        ["Bo/"]={
+            "*Updated Bo unequip sound"
+        },
+        ["Sentinel/"]={
+            "*Fixed Sentinels missing muzzle flash when attacking"
+        },
+        ["Flux Rifle/Ignis/"]={
+            "*Fixed Ignis and Flux Rifle showing a clip size of 1.$ in the arsenal"
+        },
+        ["Snow Globe/Frost"]={
+            "*Fixed incorrect tooltip description for Snow Globe"
+        },
+},
+{["Version"]={"8.1.1"},
+        ["Ash/Bladestorm/"]={
+            "*fixed issues with Ash's Bladestorm on client"
+        },
+        ["Defense/"]={
+            "*fixed NPCs jumping down through terrain in Outpost Defense level "
+        },
+},
+{["Version"]={"8.1"},
+        ["Kestrel/Orthos/"]={
+            "*Tenno reinforcements: POLEARM AND BOOMERANG! Kestrel and Orthos. ",
+            "*The Orthos is a double bladed polearm, a first of its kind for the Tenno. The Kestrel is a deadly Boomerang, a heavy throwing weapon that can knock down enemies at a distance."
+        },
+        ["Clan/"]={
+            "*Added Clan “Message of the Day” feature. People with Ruler or higher privileges in clans can add a MOTD by using this command “/motd” in their clan chat channel ."
+        },
+        ["Frost/"]={
+            "*Mantle Animations added, get ready to front flip like Frost in the latest trailer!"
+        },
+        ["Machete/Prova/"]={
+            "*Machete and Prova Prod now share a new animation set. (Prova Prod is coming!)"
+        },
+        ["Kunai/"]={
+            "*Kunai sheaths can now be colour customized. "
+        },
+        ["Defense/"]={
+            "*Defense mission reward tables have been reviewed and changed. Reward tables are now split between factions. Fusion cores have now been added to the drop tables."
+        },
+        ["Flux Rifle/"]={
+            "*Increase max length of Flux Rifle Beam."
+        },
+        ["Clan/"]={
+            "*Added confirmation messages to UI when performing Clan Actions (promotions, etc.)."
+        },
+        ["Tesla/Vauban"]={
+            "*Tesla Coils on characters will now have fewer FX. "
+        },
+        ["Mag/Crush/"]={
+            "*Fixed issue where using Mags Crush on Moas would cause them to “die” twice."
+        },
+        ["Blade Storm/"]={
+            "*Fix client issue with Blade Storm: wasn’t properly creating teleport effects."
+        },
+        ["Orokin Void/"]={
+            "*Fixed various collision issues affecting AI enemies and players in the Orokin Void levels."
+        },
+        ["Excalibur/Excalibur Prime/"]={
+            "*Fixed arm fins on Excalibur and Excalibur Prime clipping through the arm when using iron sights."
+        },
+        ["Orokin Void/"]={
+            "*Fix for triggered pressure plates being host only in Orokin Void."
+        },
+        ["Capture/"]={
+            "*Fix for Capture Target being dissolved by acrid, becoming un-capturable."
+        },
+        ["Nyx/"]={
+            "*Fix for Nyx absorb being interrupted by Nauseous crawlers."
+        },
+        ["Volt/"]={
+            "*Fix for Volt getting up from bleedout when speed ends."
+        },
+        ["Kunai/"]={
+            "*Fix for Kunai not operating as a silent weapon."
+        },
+        ["Rhino/"]={
+            "*Fixed kills not being counted by Rhino’s Charge and Stomp."
+        },
+},
+{["Version"]={"8.0.7.1"},
+        ["Decoy/Loki/"]={
+            "*Fixed issues with Decoy’s ability to distract enemies. The current design is that the AI will give up trying to kill a decoy they cannot reach or damage."
+        },
+        ["Banshee/"]={
+            "*Fix for clients not seeing Banshee’s silence."
+        },
+        ["Dera/"]={
+            "*Increased the damage on Dera Energy Rifle."
+        },
+        ["Flux Rifle/"]={
+            "*Increased fire distance on the Flux Rifle."
+        },
+        ["Lanka/"]={
+            "*Reduced fieldron cost for Lanka Rifle."
+        },
+},
+{["Version"]={"8.0.7"},
+        ["Jackal/"]={
+            "*Fix for Jackal falling through floor. We have removed the portal-creating escape methods from his arsenal."
+        },
+        ["Kunai/"]={
+            "*Fixes for reloads repeating at low framerates (this should help with Kunai)."
+        },
+        ["Kunai/"]={
+            "*Fix for Kunai sound FX."
+        },
+        ["Lotus/"]={
+            "*Fix for Lotus not talking in languages other than English. Rephrase: If you run game in language other than 'English', Lotus would not speak her lines (these lines were still English)."
+        },
+        ["Nyx/"]={
+            "*Fix for Nyx Power in Use bug (maybe time for a Livestream rematch!)."
+        },
+        ["Ember/Overheat/"]={
+            "*Fix Ember's Overheat ability preventing all damage/healing when damaged when upgraded and mixed with upgraded Focus mod."
+        },
+        ["Banshee/Silence/"]={
+            "*Fixed Banshee’s Silence ability not affecting enemies."
+        },
+        ["Torid/"]={
+            "*Fixed Torid rockets detonating immediately after firing. "
+        },
+        ["Ogris/"]={
+            "*Fix for Ogris and Multishot damaging player. "
+        },
+},
+{["Version"]={"8.0.6.1"},
+        ["Rhino/Rhino Stomp/"]={
+            "*Fix for Rhino Stomp."
+        },
+        ["Kunai/"]={
+            "*Potential fix for Kunai reload."
+        },
+},
+{["Version"]={"8.0.6"},
+        ["Dojo/"]={
+            "*Couches have been repossessed from all Tenno Dojos. The Tenno told us “these aren’t ninja enough”, so we are working to decorate appropriately in future"
+        },
+        ["Dojo/"]={
+            "*Dojo room capacity upped to 64"
+        },
+        ["Dojo/"]={
+            "*The Optional Reset is now live again. The team has come up with the following: IF you now contribute to Dojo, you Forfeit Optional Reset. Prompts will inform you of this as you play the game "
+        },
+        ["Vauban/Tesla/"]={
+            "*Fixed Vauban’s Tesla traps not appearing on clients that join after thrown."
+        },
+        ["Forma/"]={
+            "*Fixed Forma Blueprint icon to match up with Forma icon."
+        },
+        ["Vauban/"]={
+            "*Fixed infested leapers not being affected by Vauban’s bounce while leaping in air."
+        },
+        ["Forma/"]={
+            "*Fixed Forma not being obtained by user as reward in alert missions."
+        },
+        ["Ash/Loki/"]={
+            "*Fix Ash and Loki teleport in duels, no longer target spectators."
+        },
+        ["Vortex/Vauban"]={
+            "*Fixed Vortex functionality causing issues with other abilities (namely bounce). "
+        },
+},
+{["Version"]={"8.0.5.1"},
+        ["Volt/"]={
+            "*Volt in Void Missions fixed."
+        },
+},
+{["Version"]={"8.0.5"},
+        ["Sonic Boom/Banshee"]={
+            "*Fixed Sonic Boom damage on client"
+        },
+        ["Ash/Shuriken/Nyx/Psychic Bolts/"]={
+            "*Fixed Ash Shuriken and Nyx Psychic Bolts not functioning correctly on clients"
+        },
+        ["Orokin Void/"]={
+            "*Fixed exploit where an Orokin Void mission could be started without the host directly using a Void Key"
+        },
+        ["Dojo/"]={
+            "*Fixed dueling in Dojo breaking after a host migration occurs"
+        },
+        ["Dojo/"]={
+            "*Fixed clients not connecting to new host when host migration occurs in Dojo"
+        },
+        ["Orokin Void/"]={
+            "*Fixed not being able to sell Blueprints received from Orokin Void missions"
+        },
+        ["Latron Prime/Reaper Prime/"]={
+            "*Increased drop rate of Reaper Blade and Latron Prime Receiver to 'Common' for Void Level 'III' Missions"
+        },
+        ["Sentinel/"]={
+            "*Sentinel buffs: improved firing accuracy, plus extended attack range for Warrior and Revenge to 15m"
+        },
+        ["Dethcube"]={
+            "*Decreased volume on DethCube firing effects"
+        },
+        ["Orokin Void/"]={
+            "*Added note regarding Orokin Void blueprint drop rates. "
+        },
+},
+{["Version"]={"8.0.4"},
+        ["Clan/"]={
+            "*Added confirmation when quitting or leaving Clans."
+        },
+        ["Dojo/"]={
+            "*Only members with forged dojo keys can contibute to Dojos."
+        },
+        ["Vauban/"]={
+            "*Vauban powers now working as intended. A bug prevented the physics of most skills to work properly."
+        },
+        ["Dojo/"]={
+            "*Fixed issue where Players would get stuck in the Dojo GreatHall"
+        },
+        ["Dojo/"]={
+            "*Fixed issue where destruction of Dojo Elements not working as intended."
+        },
+        ["Dojo/"]={
+            "*Fixed issue where permissions for Dojo Roles not working as intended."
+        },
+        ["Clan/"]={
+            "*Fix for game invites between Clan members who aren't on Friends list."
+        },
+        ["Lech Kril/"]={
+            "*Lech Kril no longer burns himself with Fire... what a Pyro!"
+        },
+},
+{["Version"]={"8.0.3"},
+        ["Nyx/Absorb/"]={
+            "*Fixed Nyx Absorb not working, resulting in 'Power in Use' bug."
+        },
+        ["Frost/Snow Globe"]={
+            "*Snowglobe bug fixed."
+        },
+        ["Forma/"]={
+            "*Fixed issue where Login Rewards (including Forma) were not being obtained."
+        },
+        ["Foundry/"]={
+            "*Fixed issue where Foundry would break after receiving certain drops."
+        },
+},
+{["Version"]={"8.0.2"},
+        ["Frost/"]={
+            "*Fixes towards Frost Powers not working"
+        },
+        ["Dojo/"]={
+            "*Dojo Permissions not working as intended."
+        },
+        ["Clan/"]={
+            "*Can no longer sell Clan Key Blueprint"
+        },
+},
+{["Version"]={"8.0"},
+        ["Grineer Galleon/"]={
+            "Grineer Galleon (NEW LOCATION SET!)",
+            "*At last we can reveal the Grineer ships!",
+            "*Explore vast, rusted chambers evocative of an amazing space-submarine vibe that exudes the gritty bulk of the Grineer Army!",
+            "*The Grineer ships come with new vicious enemies, hell-bent on dismembering any Tenno intruders."
+        },
+        ["Lech Kril/"]={
+            "*Lieutenant Lech Kril has been training and this already formidable Grineer boss has new tricks up his sleeve. "
+        },
+        ["Orokin Void/"]={
+            "Orokin Void (NEW SECRET LOCATION SET!)",
+            "*An exciting new tile-set hidden within a dimensional fold!"
+        },
+        ["Orokin Tower/"]={
+            "*Players can buy or loot Void Keys to open up exciting loot runs in the Ancient Orokin Towers.",
+            "*Explore the hidden fortresses of the Ancient Orokin race!",
+            "*But beware, these are dangerous places, fraught with traps and guarded by the corrupted remains of past-raiders! "
+        },
+        ["Clan/Dojo/"]={
+            "DOJO BUILDING (ALPHA)",
+            "*Brand new tile set with Tenno architecture & design",
+            "*New set of possibilities for user-created levels begins with our Dojo Building (Alpha).",
+            "*Clan members contribute resources to fund construction projects to build their Clan Dojo.",
+            "*Architects have total control of the layout, selecting hallways, junctions and special rooms to build.",
+            "*Clan members 'vote with their resources', funding the construction to completion."
+        },
+        ["Clan/Dojo/"]={
+            "*The Dojo can be accessed by joining or creating a clan. Doing this automatically puts a Clan Key blueprint in your inventory to craft. "
+        },
+        ["Clan/Dojo/Research/"]={
+            "DOJO RESEARCH (ALPHA)",
+            "*Clans can build Dojo rooms that open up Technology Research options..."
+        },
+        ["Clan/"]={
+            "*Clan members collect research samples and pool resources to fund advanced new weaponry projects."
+        },
+        ["Foundry/"]={
+            "*Upon completion, members have access to Blueprints allowing them to build never-seen-before weaponry in their Foundry! "
+        },
+        ["Duel/Clan/"]={
+            "DUELING (ALPHA)",
+            "*Clans can build special dueling rooms to challenge your Clan members to friendly duels!",
+            "*Clan members can watch the action and cry foul... our small dueling team is eager for feedback and have been careful to balance dueling in a way that only affects the Duels. "
+        },
+        ["Forma/"]={
+            "*With the newly discovered “Forma”, you can now add or swap a Polarity value on your gear every time you reach level 30."
+        },
+        ["Alert/Orokin Void/Forma/"]={
+            "*Forma can be purchased or found through Daily Login Rewards, Alerts, or possible Missions rewards for completing missions in The Orokin Void. "
+        },
+        ["Stalker/"]={
+            "WHAT IS Stalker?",
+            "*We don’t know... but we’ve heard killing him can garner quite the reward... "
+        },
+        ["Kunai/"]={
+            "*Tenno crafted Kunai (throwing daggers) available in the market for a silent weapon option in your pistol slot."
+        },
+        ["Vulkar/Dual Cleavers/Machete/"]={
+            "*New Grineer weapons added to the Market including the Machete, Dual Cleavers, and the lethal Vulkar sniper rifle."
+        },
+        ["Bronco/Ether Sword/"]={
+            "*By popular demand the Market also now has a single-handed Ether Sword, and Dual Broncos for sale."
+        },
+        ["Clan/Research/"]={
+            "*As mentioned above, Clan Research brings 9 exciting new player weapons to Warframe, but you need to build your Research facilities to discover them!"
+        },
+        ["Sentinel/Dethcube/"]={
+            "*New Sentinel Pet available in the Marketplace...the infamous Dethcube!"
+        },
+        ["Frost/Frost Prime/Orokin Tower/"]={
+            "*Looking for blueprint components to build your Frost Prime? Seek out the Orokin Towers in the Void! "
+        },
+        ["Vauban/Tesla/"]={
+            "*Ambient FX for Vauban's Tesla ability have been toned down"
+        },
+        ["Banshee/Sound Quake"]={
+            "*Infested enemy types now play reaction to Banshee Soundquake."
+        },
+        ["Rhino/Iron Skin/"]={
+            "*Rhino’s Iron Skin ability once again gives push immunity."
+        },
+        ["Rhino/Iron Skin/"]={
+            "*Rhino’s Iron Skin damage absorption values capped: but up to a damage (d) cap of: 200 d, 400 d, 600 d, and 800 d based on mod rank."
+        },
+        ["Rhino/Iron Skin/"]={
+            "*Rhino’s Iron Skin ability draws Aggro from enemies."
+        },
+        ["Ash/Shuriken/"]={
+            "*Ash's Shuriken improvements added: it now seeks targets and multiple projectiles added at higher ranks. "
+        },
+        ["Vauban/Bounce/"]={
+            "*Fixed issue where Vauban's Bounce ability could be used to chain-incapacitate humanoid enemies during their recovery state."
+        },
+},
+{["Version"]={"7.11"},
+        ["Vauban/"]={
+            "*New Warframe: Vauban - The combat engineer!"
+        },
+        ["Braton/Sicarus/Aklato/Bronco/Burston/Boar/Snipetron/Gorgon/Dual Skana/Furis/Furax/Strun/Lex/Skana/Lato/Latron/Bo/MK1-Braton/"]={
+            "Our Marketplace Weapon Pricing has received an overhaul. The Weapon Prices have been the same since Closed Beta, and now that we have grown, we are going to balance the pricing of our gear. An End-Goal of this is also to eventually include Platinum to Credit Bundles."
+        },
+        ["Rhino/"]={
+            "*Rhino Skin no longer grants full invincibility, but can now reach up to 80% Damage Reduction at highest Mod level."
+        },
+        ["Banshee/Sound Quake/"]={
+            "*Banshee's Sound Quake has been balanced to do more intended damage amounts on use."
+        },
+        ["Glaive/"]={
+            "*Glaive is no longer affected by Client vs Host lag. This allows clients to immediately throw the glaive and have normal-looking motion even with a laggy host."
+        },
+        ["Alert/"]={
+            "*News feed now updates real-time with Alerts when syncing world state instead of waiting for relogin by user."
+        },
+        ["Paris/"]={
+            "*Reworked Paris firing sound. No more musical notes. Added dedicated 2D and 3D sounds."
+        },
+        ["Loki/Mag/Pull/Switch Teleport"]={
+            "*Players using Hacking terminals will not be affected by Mag's Pull power or Loki's Switch power."
+        },
+        ["Kela De Thaym/"]={
+            "*Kela De Thaym now has a limit of 3 to number of active Rollers she can deploy."
+        },
+        ["Grineer Asteroid/"]={
+            "*A new Grineer Asteroid Base tile added for extraction point."
+        },
+        ["Grineer Asteroid/"]={
+            "*Control panels on Grineer Asteroid Base have a new model."
+        },
+        ["Corpus Ship/"]={
+            "*Modified an existing Corpus Ship tile."
+        },
+        ["Gram/"]={
+            "*Changes to Gram sounds."
+        },
+        ["Ankyros/"]={
+            "*Ankyros now ignores armor."
+        },
+        ["Stalker/"]={
+            "*Stalker now has a Paris and a scythe weapon."
+        },
+        ["Lech Kril/"]={
+            "*Added unique voice for Lieutenant Lech Kril. "
+        },
+        ["Mag/"]={
+            "*Fixed Mag's Bullet Attractor hanging when cast on certain enemies."
+        },
+        ["Ember/"]={
+            "*Fixed Ember's World on Fire ability having inconsistent duration times."
+        },
+        ["Paris/"]={
+            "*Fixed Paris not appearing in player profile stats page"
+        },
+        ["Dual Ether/Ether Daggers/"]={
+            "*Fixed electricity FX on Dual Ether and Ether Daggers."
+        },
+        ["Mag/Trinity/Link/"]={
+            "*Fixed Mag's Bullet Attractor and Trinity's Link abilities having limited use against Fusion MOAs, power effect now more in-line with other enemies."
+        },
+        ["Trinity/Link/"]={
+            "*Fixed Trinity's Link ability affecting the rescue target, even when other enemies are nearby. Link ability now ignores all friendlies."
+        },
+        ["Glaive/"]={
+            "*Fixed Glaive not doing critical hits when thrown."
+        },
+        ["Corpus Outpost/"]={
+            "*Fixed some blocking volumes in Corpus Outpost that allowed players to go under the map."
+        },
+        ["Paris/"]={
+            "*Fixed quiver holster position to avoid the flip of the quiver when firing Paris offhand."
+        },
+        ["Paris/"]={
+            "*Fixed Paris not auto-switching to pistol when out of ammo."
+        },
+        ["Glaive/"]={
+            "*Fixed ability to parry when Glaive is in flight. Parrying only works when glaive is in melee mode."
+        },
+},
+{["Version"]={"7.10"},
+        ["Boar/Hek/Strun/"]={
+            "*All Shotguns get a boost, effective range increased. Hek is boosted further than Strun and Boar."
+        },
+        ["Gorgon/"]={
+            "*Gorgon rifle accuracy increases."
+        },
+        ["Snipetron/"]={
+            "*Snipetron now has Armor Piercing damage by default, but with a slight increase to recoil."
+        },
+        ["Burston/"]={
+            "*Burston rifle hip fire accuracy increases."
+        },
+        ["Braton/"]={
+            "*Braton damage buff."
+        },
+        ["Saryn/Moult"]={
+            "*Saryn's Moult power now has a timer, was highly exploitable"
+        },
+        ["Nyx/Chaos/"]={
+            "*Nyx's Chaos power now has a timer."
+        },
+        ["Ether Daggers/Ether Sword/"]={
+            "*Fixed FX on Ether Swords and Ether Daggers."
+        },
+        ["Freeze/Frost"]={
+            "*Fixed Freeze Damage mods not working on some Grineer enemy types."
+        },
+        ["Loki/Switch Teleport/"]={
+            "*Fixed bug where you could use Loki to Switch Teleport with a downed capture target."
+        },
+        ["Loki/Switch Teleport/Shock/"]={
+            "*Fixed Loki's Switch Teleport not working on Shockwave MOA."
+        },
+        ["Loki/Decoy/"]={
+            "*Fixed Loki's Decoy power that would hang around after its creator left the game."
+        },
+        ["Boar/Paris/"]={
+            "*Fixed Paris and Boar sounds that were not consistent between what the user hears and what the other players hear."
+        },
+        ["Mag/Crush/"]={
+            "*Fixed Mag's Crush power being locked 'in use' after using destructive power on explosive nervos."
+        },
+        ["Banshee/"]={
+            "*Fixed mods not affecting Banshee’s sonar power. "
+        },
+},
+{["Version"]={"7.9"},
+},
+{["Version"]={"790"},
+        ["Glaive/"]={
+            "*New melee weapon: The Glaive."
+        },
+        ["Frost/"]={
+            "*Frost power mods moved to common pool, increased chance for drops."
+        },
+        ["Grakata/"]={
+            "*Increased base Crit Chance and Damage on Grakata."
+        },
+        ["Mag/Trinity/"]={
+            "*Trinity and Mag's helmet effect now works with 'energy' palette color changes."
+        },
+        ["Trinity/Link/"]={
+            "*Revised sound for Trinity's Link power."
+        },
+        ["Jackal/"]={
+            "*Removed pit under Jackal spawn to prevent any accidents."
+        },
+        ["Gorgon/"]={
+            "*Gorgon accuracy adjustments while aimed."
+        },
+        ["Saryn/Miasma/"]={
+            "*Fixed Saryn's Miasma power not awarding XP or kills."
+        },
+        ["Saryn/Miasma/"]={
+            "*Fixed Saryn's Miasma power not being affected by Continuity or Focus mods."
+        },
+        ["Saryn/Venom/"]={
+            "*Fixed Saryn's Venom power not being affected by Continuity mod."
+        },
+        ["Loki/Decoy/Switch Teleport/"]={
+            "*Fixed the linking of Loki's Decoy and Switch Teleport powers that was causing avatars to sometimes fall outside the level."
+        },
+        ["Trinity/Sentinel/"]={
+            "*Fixed Trinity's link ability that was affecting/destroying her Sentinel."
+        },
+        ["Slash Dash/Rhino/Rhino Charge/"]={
+            "*Fixed Rhino Charge and Slash Dash powers framerate dependencies, powers now consistently work as intended."
+        },
+        ["Banshee/Sound Quake"]={
+            "*Fixed Banshee Soundquake power that was causing visibility issues for other players (not the caster)."
+        },
+        ["Ember/Fire Blast/"]={
+            "*Fixed Ember's Fire Blast power that was causing visibility issues for other players (not the caster)."
+        },
+        ["Nyx/Mind Control/"]={
+            "*Fixed Apex particles that would remain on ragdolls after using Nyx's Mind Control power."
+        },
+        ["Mag/Shield Polarize/"]={
+            "*Fixed Mag's Shield Polarize power playing sound twice."
+        },
+        ["Frost/Freeze/"]={
+            "*Fixed Frost's Freeze power not being affected by Continuity mod."
+        },
+        ["Frost/Snow Globe/"]={
+            "*Fixed Frost's Snow Globe power not being affected by Continuity and Range mods."
+        },
+        ["Nyx/"]={
+            "*Fixed Nyx's armband FX showing up with projectors."
+        },
+        ["Defense/"]={
+            "*Fixed some Defense mission issues with enemies spawning in areas they can't get down from."
+        },
+        ["Spy/"]={
+            "*Fixed host migration during Spy missions where objectives would reset for clients after a host migration."
+        },
+        ["Slash Dash/Excalibur"]={
+            "*Fixed Slash Dash not dealing appropriate damage on clients."
+        },
+        ["Sentinel/"]={
+            "*Fixed Sentinel death affect that was causing frame rate issues."
+        },
+        ["Ash/Bladestorm/"]={
+            "*Fixed Ash’s Bladestorm power, it will no longer target turrets or security cameras."
+        },
+},
+{["Version"]={"7.8.1"},
+        ["Defense/"]={
+            "*Inventory Checkpoint for Endless Defense added. Reaching every fifth wave (5, 10, 15…) locks in rewards earned to that point. "
+        },
+        ["Spy"]={
+            "*Fix for spy mission objective resetting after host migration"
+        },
+        ["Trinity/Link/Sentinel/"]={
+            "*Fix Trinity’s Link ability destroying equipped Sentinel. "
+        },
+},
+{["Version"]={"7.8"},
+        ["Grakata/"]={
+            "*New weapon: The Grineer GRAKATA assault rifle."
+        },
+        ["Ankyros/"]={
+            "*New weapon: ANKYROS Tenno power gauntlets"
+        },
+        ["Sentinel/"]={
+            "*New Sentinel attachments including custom masks, wings, and tail pieces."
+        },
+        ["Dojo/"]={
+            "*Dojo targeting challenge now rotates player camera to the first target, and made timer more forgiving"
+        },
+        ["Jackal/"]={
+            "*Sniper ammo now drops from containers during Jackal fight"
+        },
+        ["Grakata/"]={
+            "*Grineer Lancers are now deployed with the Grakata assault rifle"
+        },
+        ["Cronus/"]={
+            "*Cronus blueprint now only a guaranteed drop the first time Tolstoj is completed, % chance to drop continues to decrease on additional runs"
+        },
+        ["Jackal/"]={
+            "*Improved Moa, Osprey and Jackal models "
+        },
+        ["Sentinel/"]={
+            "*Fixed Sentinels not activating Regen if they took damage from multiple sources in the same frame"
+        },
+        ["Defense/"]={
+            "*Fixed an issue where enemies would hang back in Defense"
+        },
+        ["Stalker/"]={
+            "*Fixed Stalker sound not being affected by in game audio settings"
+        },
+        ["Paris/"]={
+            "*Fixed Dagger Axe blueprint being incorrectly linked to Paris"
+        },
+        ["Banshee/"]={
+            "*Fixed Banshee 'Push' power not working against Chargers"
+        },
+        ["Dojo/"]={
+            "*Fixed players being able to run out of ammo in Dojo tests that force a specific weapon"
+        },
+},
+{["Version"]={"7.7.4"},
+        ["Defense/"]={
+            "*Fixed enemies not spawning during Endless Defense missions."
+        },
+        ["Corpus Outpost/"]={
+            "*Fixed areas where player could fall through ground in Corpus Outpost level."
+        },
+        ["Dark Sword/Alert/"]={
+            "*Fixed Dark Sword blueprint Alert reward."
+        },
+        ["Ether Sword/"]={
+            "*Fixed flickering Ether Sword effects."
+        },
+        ["Assassination/"]={
+            "*Fixed unresponsive AI if host migration occurs after Assassination target has been eliminated."
+        },
+},
+{["Version"]={"7.7.3"},
+        ["Twin Vipers/Viper/"]={
+            "*New Weapon: Twin Vipers"
+        },
+        ["Dual Ether/"]={
+            "*New Weapon: Dual Ether"
+        },
+        ["Ether Daggers/"]={
+            "*New Weapon: Ether Daggers"
+        },
+        ["Corpus Outpost/Grineer Asteroid/"]={
+            "*New Level Expansion: New levels added to Grineer Asteroid and Corpus Outpost tile sets"
+        },
+        ["Banshee/"]={
+            "*Banshee blueprints moved to the uncommon pool"
+        },
+        ["Paris/"]={
+            "*Quiver and arrows for the Paris now properly apply colour customization"
+        },
+        ["Sentinel/"]={
+            "*Sentinels can now properly shoot crawling enemies"
+        },
+        ["Shade/"]={
+            "*Shade sentinel will now cloak as well when casting Ghost"
+        },
+        ["Ember/Overheat/"]={
+            "*Added damage reduction description to Ember's Overheat power, boosted level increase damage reduction"
+        },
+        ["Ember/"]={
+            "*Removed red overlay from Ember’s World on Fire power"
+        },
+        ["Ember/Fireball/"]={
+            "*Increased the DoT for Ember’s Fireball power"
+        },
+        ["Saryn/Venom/"]={
+            "*Increased the spread range of Saryn's Venom power"
+        },
+        ["Saryn/Moult"]={
+            "*Saryn's Moult power will no longer expire after a set time, must be destroyed"
+        },
+        ["The Sergeant"]={
+            "*Fixed an issue with Sgt Nef Anyo remaining in cloak mode permanently"
+        },
+        ["Paris/"]={
+            "*Fixed charged Paris shot that would be spent without the player releasing the shot"
+        },
+},
+{["Version"]={"7.7.2"},
+        ["Mire/"]={
+            "*New Weapon: Mire - a gruesome infested sword capable of spreading disease."
+        },
+        ["Scindo/"]={
+            "*New Weapon Skin: Manticore - a Grineer war axe that deals more damage than the Scindo but has slower swing speed."
+        },
+        ["Defense/"]={
+            "*Defense reward popup now lasts for a full 15 seconds even if all players have voted."
+        },
+        ["Dojo/"]={
+            "*Fixed intro cinematic replaying if spending a revive in the Dojo."
+        },
+        ["Saryn/Contagion"]={
+            "*Fixed Contagion granting invincibility."
+        },
+        ["Rhino/Rhino Stomp/"]={
+            "*Fixed 'power in use bug' with Rhino Stomp."
+        },
+        ["Saryn/Contagion"]={
+            "*Contagion damage for Saryn fixed."
+        },
+        ["Slash Dash/Excalibur"]={
+            "*Fixed Slash Dash not working on Client"
+        },
+},
+{["Version"]={"7.7.1"},
+        ["Hek/"]={
+            "*Restored missing sounds (Hek)."
+        },
+        ["Alert/"]={
+            "*Added more blueprints to Alerts (Alt helmets, Weapon skins)."
+        },
+        ["Defense/"]={
+            "*Increase health, shields and regeneration on Cryo-casket in Defense Mode."
+        },
+        ["Boltor/Braton/MK1-Braton/Gorgon/Boar/Viper/Afuris/"]={
+            "*Reverted fire rate changes from patch 7.7. "
+        },
+},
+{["Version"]={"7.7"},
+        ["Banshee/Saryn/"]={
+            "*Fixed descriptions for Saryn/Banshee alt helmets"
+        },
+        ["Stalker/"]={
+            "*Fixed Stalker's head not appearing on Clients"
+        },
+        ["Boltor/"]={
+            "* Boltor reduced to 8.3 from 11.7"
+        },
+        ["Braton/"]={
+            "* Braton reduced to 10.7 from 15.0"
+        },
+        ["MK1-Braton/"]={
+            "* MK1-Braton reduced to 5.9 from 8.3"
+        },
+        ["Gorgon/"]={
+            "* Gorgon reduced to 11.9 from 16.7"
+        },
+        ["Boar/"]={
+            "* Boar reduced to 3.6 from 5.0"
+        },
+        ["Viper/"]={
+            "* Viper reduced to 13.7 from 19.2"
+        },
+        ["Afuris/"]={
+            "* Afuris reduced to 19.0 from 26.7 "
+        },
+},
+{["Version"]={"7.5"},
+        ["Fragor/"]={
+            "*Wield the new Brokk! A brother of the Fragor Hammer, this faster swinging (but slower charging) Axe is deadly! "
+        },
+        ["Sentinel/"]={
+            "*Sentinel will now revive with the player if dead when the player spends a revive."
+        },
+        ["Saryn/Molt"]={
+            "*Moult decoy will no longer play idle, hit reactions or death animations for the Client."
+        },
+        ["Mind Control/Nyx"]={
+            "*Mind Control now provides feedback when it cannot be cast."
+        },
+        ["Electric Shield/Volt"]={
+            "*Bolt projectiles can now pass through Electric Shield power."
+        },
+        ["Sentinel/"]={
+            "*Sentinels should no longer appear as an Osprey drone."
+        },
+        ["Stalker/"]={
+            "*Stalker will no longer hunt anyone using a less than level 5 Warframe."
+        },
+        ["Paris/"]={
+            "*Fixed a functionality loss for Clients attempting to swap weapons while charging a shot for the Paris. "
+        },
+},
+{["Version"]={"7.4"},
+        ["Sentinel/"]={
+            "*Sentinel weapons can now have mods, currently uses player's rifle/pistol mods"
+        },
+        ["Saryn/"]={
+            "*Saryn's Moult decoy no longer holds a pistol"
+        },
+},
+{["Version"]={"7.3"},
+        ["Trinity/Link/"]={
+            "*fixed Trinity's Link ability targeting her own sentinel"
+        },
+        ["Defense/"]={
+            "*fixed certain item rewards not being added to player's inventory after completing Endless Defense missions"
+        },
+        ["Defense/"]={
+            "*additional fixes for enemies becoming stuck/unreachable during Endless Defense missions "
+        },
+},
+{["Version"]={"7.x Weapon Balance"},
+        ["Boar/Hek/Strun/Bronco/"]={
+            "Tweaks to Recoil feel and Accuracy, generally sharper Rotation and Translation Springs, added Noise & better spread control when firing while aimed. Added force feedback to all firing sounds."
+        },
+        ["Gorgon/"]={
+            "Tweaks to Recoil feel and Accuracy, sharper Rotation Spring, added Translation Spring, tuned Noise. Added force feedback to its firing sound."
+        },
+        ["Akbolto/Bolto/"]={
+            "Added Recoil and Accuracy values. Derived a new projectile type for use with Akimbo model since projectile controls accuracy. Solo model is twice more accurate, akimbo model has 2x fire rate (820 vs 410). Projectile speed increased from 40 to 65. Added force feedback to their firing sound."
+        },
+        ["Boltor/"]={
+            "Tweaks to Recoil feel and Accuracy values.Projectile speed increased from 60 to 65. Added force feedback to its firing sound."
+        },
+        ["Lato Prime/"]={
+            "Tweaks to Recoil and Accuracy make it more in line with recent changes to base Lato model. Added force feedback to its firing sound."
+        },
+        ["Burston/Kraken/Sicarus/"]={
+            "Slight tweaks to base fire rate and/or recoil following the queued firing issue being fixed"
+        },
+        ["Braton/"]={
+            "Damage now 17, was 16"
+        },
+        ["MK1-Braton/"]={
+            "Damage now 16, was 13 / Reload time now 2.2, was 2.37"
+        },
+        ["Braton Vandal/"]={
+            "Damage now 18, was 20 / Crit Chance now 7.5%, was 5%"
+        },
+        ["Latron/"]={
+            "Damage now 36, was 30 / Reload time now 2.4, was 2.37 / Crit Chance now 7.5%, was 5%"
+        },
+        ["Latron Prime/"]={
+            "Crit Chance now 10%, was 5%"
+        },
+        ["Snipetron/"]={
+            "Damage now 115, was 100 / Reload time now 3.8, was 5"
+        },
+        ["Gorgon/"]={
+            "Damage now 24, was 25 / Reload time now 4.2, was 4"
+        },
+        ["Burston/"]={
+            "Damage now 21, was 20"
+        },
+        ["Boltor/"]={
+            "Reload time now 2.15, was 2.37"
+        },
+        ["Strun/"]={
+            "Damage per pellet now 14, was 12 / Reload time now 3, was 3.37 / Crit Chance now 7.5%, was 5%"
+        },
+        ["Boar/"]={
+            "Reload time now 2.3, was 2.37 / Fires 6 iterations, was 5"
+        },
+        ["Hek/"]={
+            "Damage per pellet now 19, was 17 / Total number of pellets now 7, was 8 / Reload time now 2.15, was 2 / Crit Chance now 2.5%, was 5%"
+        },
+        ["Furis/"]={
+            "Damage now 14, was 12"
+        },
+        ["Afuris/"]={
+            "Damage now 14, was 12"
+        },
+        ["Kraken/"]={
+            "Reload time now 2.1, was 2 / Damage now 45, was 50 / Crit Chance now 2.5%, was 5%"
+        },
+        ["Lex/"]={
+            "Damage now 80, was 60 / Fire rate now 65, was 60 / Reload time now 2.35, was 2.5 / Crit Chance now 15%, was 5%"
+        },
+        ["Bronco/"]={
+            "Total number of pellets now 7, was 8/ Reload time now 1.05, was 1 / Crit Chance now 2.5%, was 5%"
+        },
+        ["Aklato/Lato/"]={
+            "Damage now 24, was 23 / Crit Chance now 2.5%, was 5%"
+        },
+        ["Lato Prime/"]={
+            "Damage now 25, was 26"
+        },
+        ["Lato Vandal/"]={
+            "Damage now 27, was 31 / Crit Chance now 7.5%, was 5%"
+        },
+        ["Sicarus/"]={
+            "Damage now 26, was 24 / Crit Chance now 10%, was 5%"
+        },
+        ["Viper/"]={
+            "Damage now 16, was 14 / Crit Chance now 15%, was 5% / Fire rate now 1150, was 1100 / Reload time now 1.1, was 1.15"
+        },
+},
+{["Version"]={"7.2"},
+        ["Defense/"]={
+            "*additional fixes for enemies getting stuck behind doors in Endless Defense missions"
+        },
+        ["Defense/"]={
+            "*enemy variety now changes as players progress through waves of Endless Defense"
+        },
+        ["Defense/"]={
+            "*Ciphers should no longer appear as rewards when completing high level waves of Endless Defense"
+        },
+        ["Sentinel/"]={
+            "*Sentinel weapons now gain XP"
+        },
+        ["Trinity/Sentinel/"]={
+            "*Sentinels are now affected by Trinity's healing powers"
+        },
+        ["Dual Zoren/"]={
+            "*fixed issues with Dual Zoren's responsiveness when speed mods are equipped"
+        },
+        ["Sentinel/"]={
+            "*tweaked Sentinel movement to make it less jittery"
+        },
+},
+{["Version"]={"7.1"},
+        ["Stalker/"]={
+            "*Fix Stalker attacking low level players"
+        },
+        ["Jackal/"]={
+            "*Fix the Jackal becomes level 9999 after host migration"
+        },
+        ["Sentinel/"]={
+            "*Fix 664797 Fix for Sentinels not coming with a reactor when bought with platinum, and fix for reactor not showing up as being applied when used on a Sentinel; it really was applied but would not show up that way until you log out and back in, now it updates immediately"
+        },
+        ["Stalker/Defense/"]={
+            "*Fix Stalker attacking Defense object"
+        },
+        ["Defense/"]={
+            "*Improvements to Infinite Defense host migration"
+        },
+        ["Defense/"]={
+            "*Improvements to Infinite Defense reward popup voting"
+        },
+        ["Ash/Loki/Sentinel/"]={
+            "*Fix Sentinel Cloak removed Ashes and Lokis cloaking abilities "
+        },
+},
+{["Version"]={"7"},
+        ["Sentinel/"]={
+            "*Sentinels - customize and program a Sentinel “pet” to accompany you on missions."
+        },
+        ["Saryn/"]={
+            "*Saryn - a deadly and beautiful Warframe whose poisonous attacks can dissolve organic and synthetic material."
+        },
+        ["Banshee/"]={
+            "*Banshee - a sonic Warframe capable of filling both Attack and Support roles."
+        },
+        ["Viper/"]={
+            "*Viper - a Grineer-manufactured, full-auto Light Pistol."
+        },
+        ["Paris/"]={
+            "*Paris - a Tenno Hunting Bow that launches arrows with a chargeable magnetic field."
+        },
+        ["Fang/"]={
+            "*Fang - a matching pair of razor-sharp daggers with accelerated attack speed."
+        },
+        ["Corpus Outpost/"]={
+            "*Corpus Outpost - a new Corpus base of operation in a chilling outdoor environment!"
+        },
+        ["Dojo/"]={
+            "*Dojo Challenges - test your skill as a Tenno warrior with new Dojo rank-up challenges!"
+        },
+        ["Defense/"]={
+            "*Endless Defense - a new defense mission type. Survive longer for escalating rewards!"
+        },
+        ["Nyx/Mind Control/"]={
+            "*Fixed an issue with Nyx Mind Control being flagged as 'in use' if target dies."
+        },
+        ["Jackal/"]={
+            "*Fixed Jackal shaking for Clients during intro cinematic."
+        },
+        ["Sentinel/"]={
+            "*Rifle weapon UI component not hiding after switching to Sentinel View without a sentinel (clicking would cause a script error and break the UI)"
+        },
+	},
+    {["Version"]={"6.5.2"},
+        ["Lato/Lato Prime"]={
+            "*Lato Mods are now Compatible with Lato Prime"
+        }
+    },
+    {["Version"]={"6.5.1"},
+        ["Ash/Shuriken"]={
+            "*Ash Shuriken crash fixed!"
+        }
+    },
+    {["Version"]={"6.5"},
+        ["Amphis"]={
+            "*Wield the deadly Amphis! This Grineer Heavy Staff is a traditional staff weapon that has received a monstrous makeover that reflects the design and culture of Grineer technology",
+            "*Introduced"
+        },
+        ["Rhino/Stomp"]={
+            "*Fixed issue with Rhino Stomp breaking if an enemy is just killed before the stomp"
+        },
+        ["Loki/Switch Teleport"]={
+            "*Fixed an issue with Loki Switch Teleport breaking if a target dies at right moment"
+        },
+        ["Frost/Snow Globe"]={
+            "*Fixed an issue with Snow Globe persisting if user dies and then revives while it is active"
+        },
+        ["Excalibur/Radial Javelin/Nyx/Absorb"]={
+            "*Excalibur Radial Javelin + Nyx Absorb no longer kills nearby Clients"
+        },
+        ["Bolto"]={
+            "*Fixed Bolto projectiles firing in the wrong direction when standing close to an object",
+            "*Bolto projectiles should now be less affected by lag and more reliable at hitting targets"
+        },
+        ["Loki/Radial Disarm"]={
+            "*Radial Disarm should no longer de-level the enemy to level 1"
+        },
+        ["Ash/Shuriken"]={
+            "*Corrected Shuriken accuracy, especially on higher FOV settings"
+        },
+        ["Excalibur/Radial Javelin"]={
+            "*Radial Javelin should now target airborne enemies properly"
+        }
+    },
+    {["Version"]={"6.4.1"},
+        ["Nyx"]={
+            "*removed unwanted background sound effect attached to Nyx"
+        },
+        ["Nyx/Chaos/Absorb/Frost/Avalanche"]={
+            "*fixed Chaos, Absorb, and Avalanche animations repeating if player was knocked down while casting"
+        }
+    },
+    {["Version"]={"6.4"},
+        ["Scindo/Dual Zoren"]={
+            "*'Dagger Axe' skins added to the Market for Scindo and Dual Zoren"
+        },
+        ["Lex"]={
+            "*balancing (less recoil, slightly higher fire rate)"
+        },
+        ["Mag/Bullet Attractor"]={
+            "*Fix for Bullet Attractor attach position not always looking great"
+        },
+        ["Mag/Crush/Volt/Overload"]={
+            "*Fix for Crush and Overload animations continuing after being knocked down"
+        },
+        ["Ash/Bladestorm"]={
+            "*Gravity is now disabled during Bladestorm preventing player from falling after each strike"
+        }
+    },
+    {["Version"]={"6.3.4"},
+        ["Braton Vandal"]={
+            "*Removed Open-Beta Weekend 'Braton Vandal' from Market"
+        },
+        ["Rhino/Frost"]={
+            "*Boosted base sprint by 5%"
+        },
+        ["Rhino/Radial Blast"]={
+            "*Rhino Radial Blast does more damage as it levels"
+        },
+        ["Rhino/Stomp"]={
+            "*Rhino Stomp stun length escalates with level increase"
+        },
+        ["Trinity"]={
+            "*Improved Trinity speed for Health trade off"
+        }
+    },
+    {["Version"]={"6.3.2"},
+        ["Ash/Bladestorm"]={
+            "*Bladestorm improvements: Ash is now invulnerable when using Bladestorm",
+            "*Fixed an edge case where Bladestorm would fail to target any enemies",
+            "*Bladestorm increased number of enemies targeted to: 7, 9, or 12 depending on level"
+        },
+        ["Mobile Defense"]={
+            "*Added an Infestation version of 'Mobile Defense' in Eris"
+        },
+        ["Braton Vandal"]={
+            "*Fixed rifle mods not being compatible with new Braton Vandal"
+        },
+        ["Loki/Switch Teleport/Mag/Pull"]={
+            "*Can no longer use Switch Teleport or Pull on teammates standing in mission extraction zone"
+        }
+    },
+    {["Version"]={"6.3.1"},
+        ["Braton Vandal"]={
+            "*Introduced for a limited time"
+        },
+        ["Ash/Bladestorm"]={
+            "*Bladestorm power changed, attacks 5, 7, or 9 targets based on level and teleports back to starting position when the ability ends"
+        },
+        ["Dual Skana"]={
+            "*Damage adjustments"
+        },
+        ["Gram"]={
+            "*Remove hum sound from Gram"
+        },
+        ["Bolto"]={
+            "*Fixed an issue with Bolto projectiles velocity slowing to zero while in the air still"
+        },
+        ["Mobile Defense"]={
+            "*Fixed doors locking down during mobile defense mission",
+            "*Fixed not being able to fail mobile defense missions after a host migration"
+        },
+        ["Mag/Bullet Attractor"]={
+            "*Fix for bullet attractor having issues targeting Grinders"
+        }
+    },
+    {["Version"]={"6.3"},
+        ["Mobile Defense/Kraken"]={
+            "*Introduced"
+        },
+        ["Nyx/Mind Control"]={
+            "*Mind controlled AI can now be damaged by players while still mind controlled",
+            "*Mind control visual effect now lasts the same duration as the power itself"
+        },
+        ["Volt/Overload"]={
+            "*Fix for Overload blocking player melee as while the power is still damaging enemies"
+        },
+        ["Gram"]={
+            "*Gram hit box improved"
+        },
+        ["Dual Heat Swords"]={
+            "*Dual Heat Sword charge attack fixed"
+        }
+    },
+    {["Version"]={"6.2"},
+        ["Gram/Dual Heat Swords"]={
+            "*Introduced"
+        },
+        ["Boltor"]={
+            "*Model Updated: A new look for a new favourite weapon! "
+        },
+        ["Bolto/Radial Javelin"]={
+            "*Fixed projectiles carrying enemies for unrealistic distances"
+        },
+        ["Dual Zoren"]={
+            "*Balancing: Increased critical chance and increased critical damage"
+        }
+    },
+    {["Version"]={"6.1.3"},
+        ["Boltor"]={
+            "*Changed Boltor stats"
+        }
+    },
+    {["Version"]={"6.1.2"},
+        ["Nyx/Frost/Excalibur"]={
+            "*Alt Helmet changes"
+        },
+        ["Boltor"]={
+            "*Boltor tweaks: Faster fire rate, less damage "
+        },
+        ["Heat Dagger"]={
+            "*Heat Dagger added to store"
+        },
+        ["Daggers"]={
+            "*Daggers now bypass armor"
+        }
+    },
+    {["Version"]={"6.1.1"},
+        ["Lech Kril"]={
+            "*Fixed Lech Kril blueprint drops"
+        }
+    },
+    {["Version"]={"6.1"},
+        ["Captain Vor"]={
+            "*Fixed Captain Vor not spawning until host player enters boss room"
+        },
+        ["Jackal"]={
+            "*Fixed extra/inanimate jackal appearing after his intro cinematic"
+        }
+    },
+    {["Version"]={"6.0"},
+        ["Grineer Asteroid/Nyx/Frost/Dual Zoren/Akbolto/Boltor/Ambulas"]={
+            "*Introduced"
+        },
+        ["Jackal"]={
+            "*Fix for Jackal falling through elevator and not spawning in proper room"
+        },
+        ["Star Chart"]={
+            "*Solar Map has expanded with two new regions: Ceres and Eris"
+        }
+    },
+    {["Version"]={"5.4.2"},
+        ["Ember"]={
+            "*Fixed Ember's head not appearing during cinematics as well as not retaining customized colors"
+        },
+        ["Jackal"]={
+            "*Fixed jackal getting stuck under floor on boss fights"
+        }
+    },
+    {["Version"]={"5.4.1"},
+        ["Volt/Ash"]={
+            "*Energy cost changes"
+        },
+        ["Fragor/Scindo"]={
+            "*Fix elemental effects not showing",
+            "*Additional attack animation"
+        },
+        ["Volt/Overload"]={
+            "*Fixes for Volt overload being over-powered, then under-powered. Does radial damage as well"
+        }
+    },
+    {["Version"]={"5.4"},
+        ["Fragor/Scindo"]={
+            "*added to the Market. Slow, powerful, multi-hit weapons for lovers of heavy-metal!"
+        },
+        ["Secondary"]={
+            "*Pistol ammo increased for all pistol types"
+        },
+        ["Gorgon/Hek"]={
+            "*Balance changes"
+        },
+        ["Spy"]={
+            "*Fixes to Spy missions and secondary objectives"
+        },
+        ["Loki/Switch Teleport"]={
+            "*Cryopod can no longer be switch-teleported"
+        },
+        ["Jackal"]={
+            "*Jackal will now spawn if players run in to the elevator pit before encounter has started",
+            "*Potential fix for Jackal stomp loop"
+        }
+    },
+    {["Version"]={"5.3"},
+        ["Ember/Fireball/World On Fire/OverHeat"]={
+            "*Ember powers reworked:",
+            "**Overheat moved to second ability, acts as a shield and radial damage power.",
+            "**Fireball is now properly attached to the target and doing damage over time.",
+            "**World on Fire has been boosted: it now cycles through nearby targets to immolate! "
+        },
+        ["Ember"]={
+            "*Ember model has had a revamp on its mesh and materials."
+        },
+        ["Excalibur/Volt/Loki"]={
+            "*Warframe Blueprints added "
+        },
+        ["Afuris/Bolto"]={
+            "*Weapon Blueprints added"
+        },
+        ["Bolto"]={
+            "*Fixed Bolto and powers inflating player weapon accuracy. "
+        },
+        ["Orokin Reactor/Orokin Catalyst"]={
+            "*Blueprint added to Alert rewards",
+            "*Introduced"
+        }
+    },
+    {["Version"]={"5.2"},
+        ["Hek"]={
+            "*Introduced"
+        }
+    },
+    {["Version"]={"5.1"},
+        ["Loki/Switch Teleport"]={
+            "*Fixed Loki Switch Teleporting stationary enemies"
+        },
+        ["Excalibur Prime"]={
+            "*Excalibur Prime can properly install Excalibur Mods"
+        }
+    },
+    {["Version"]={"5.0.1"},
+        ["Captain Vor"]={
+            "*Captain Vor is more aggressive! Look out! "
+        }
+    },
+    {["Version"]={"5.0"},
+        ["Mag/Pull"]={
+            "*Mag’s pull ability can rip shields away from enemies"
+        },
+        ["Star Chart"]={
+            "*All-new mission structure: explore the solar system!",
+            "*Different factions control regions of space; destroy them!"
+        },
+        ["Foundry"]={
+            "*Introduced"
+        }
+    },
+    {["Version"]={"4"},
+        ["Trinity/Well Of Life/Energy Vampire/Blessing"]={
+            "*New Trinity abilities! Well of life, Energy Vampire, Link, Blessing"
+        },
+        ["Bo"]={
+            "*Bo Staff damage increase"
+        }
+    },
+    {["Version"]={"3"},
+        ["Grogon"]={
+            "*Beefed up the Gorgon rifle"
+        }
+    },
+    {["Version"]={"2"},
+        ["Snipetron"]={
+            "*Nerfed Snipetron, added scope effects"
+        }
+    },
+    {["Version"]={"Vanilla"},
+        ["Braton/MK1-Braton/Burston/Gorgon/Latron/Boar/Strun/Snipetron"]={
+            "*Introduced"
+        },
+        ["Furis/Lato/Lex/Sicarus/Bronco/Aklato"]={
+            "*Introduced"
+        },
+        ["Cronus/Skana/Dual Skana/Furax/Bo"]={
+            "*Introduced"
+        },
+        ["Ash/Ember/Excalibur/Loki/Mag/Rhino/Trinity/Volt"]={
+            "*Introduced"
+        },
+        ["Exterminate/Spy/Rescue/Assassination/Survival"]={
+            "*Introduced"
+        },
+        ["Jackal/Captain Vor"]={
+            "*Introduced"
+        }
+    },
+    {["Version"]={"blank"},
+        ["blank"]={
+            "*blank",
+            "*blank"
+        },
+        ["blank"]={
+            "*blank",
+            "*blank"
+        }
+    },
+    {["Version"]={"exampleonly"},
+        ["item/list/toseparate/with/slashes"]={
+            "*text to appear as in the '''final product''' ",
+            "*another line with a bullet"
+        },
+        ["other/item/list"]={
+            "'''More complex text formatting''' is possible",
+            "*every line is printed",
+            "*separate lines with commas"
+        }
+    }
+}
+
+return PatchData
+```
+

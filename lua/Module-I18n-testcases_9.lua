@@ -1,0 +1,1 @@
+{{#invoke:i18n|getMsg|install|title|チャット|uselang=ja}}

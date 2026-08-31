@@ -1,0 +1,13 @@
+{
+  "page": "Module:DamageTypes/testcases/doc",
+  "wiki_timestamp": "2021-05-11T17:15:35Z",
+  "extracted_at": "2026-08-31T21:22:44.126398+00:00",
+  "lua_files": [
+    "Module-DamageTypes-testcases-doc_0.lua",
+    "Module-DamageTypes-testcases-doc_1.lua"
+  ],
+  "lua_block_count": 2,
+  "file_size": 91,
+  "comment_count": 0,
+  "status": "success"
+}

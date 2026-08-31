@@ -1,0 +1,13 @@
+{
+  "page": "Module:Shared",
+  "wiki_timestamp": "2022-06-06T16:06:41Z",
+  "extracted_at": "2026-08-31T21:22:45.288885+00:00",
+  "lua_files": [
+    "Module-Shared_0.lua",
+    "Module-Shared_1.lua"
+  ],
+  "lua_block_count": 2,
+  "file_size": 6595,
+  "comment_count": 50,
+  "status": "success"
+}

@@ -1,0 +1,12 @@
+{
+  "page": "Module:Blueprints/data/dev",
+  "wiki_timestamp": "2021-10-14T18:13:49Z",
+  "extracted_at": "2026-08-31T21:22:43.557813+00:00",
+  "lua_files": [
+    "Module-Blueprints-data-dev_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 660,
+  "comment_count": 2,
+  "status": "success"
+}

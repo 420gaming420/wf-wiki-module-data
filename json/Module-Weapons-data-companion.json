@@ -1,0 +1,2103 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Weapons/data/companion",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-31T21:33:23.171Z"
+  },
+  "_comments": "",
+  "Sunika Claws": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Claws (Beast)",
+    "MaxRank": 30,
+    "Image": "BeastClaws.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "37",
+    "InternalName": "/Lotus/Types/Friendly/Pets/BeastWeapons/SunikaPetWeapon",
+    "Link": "Sunika Kubrow",
+    "CompatibilityTags": [
+      "BEAST_WEAPON",
+      "KUBROW_WEAPON"
+    ],
+    "Users": [
+      "Sunika Kubrow"
+    ],
+    "Attacks": [
+      {
+        "CritChance": 0.075,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0.075,
+        "Damage": {
+          "Slash": 550
+        },
+        "CritMultiplier": 3.5
+      }
+    ],
+    "Tradable": 5,
+    "Name": "Sunika Claws",
+    "Slot": "Beast",
+    "Family": "Sunika Claws",
+    "SellPrice": 0,
+    "Mastery": 0,
+    "BlockAngle": 90
+  },
+  "Vulklok": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Sniper Rifle",
+    "MaxRank": 30,
+    "Image": "Vulklok.png",
+    "Introduced": "17.3",
+    "InternalName": "/Lotus/Types/Sentinels/SentinelWeapons/SentElecRailgun",
+    "SellPrice": 1250,
+    "Traits": [
+      "Grineer"
+    ],
+    "Slot": "Robotic",
+    "Accuracy": 100,
+    "Trigger": "Auto",
+    "Magazine": 10,
+    "CompatibilityTags": [
+      "PROJECTILE",
+      "SENTINEL_WEAPON"
+    ],
+    "Reload": 2,
+    "Attacks": [
+      {
+        "CritChance": 0.35,
+        "StatusChance": 0.25,
+        "FireRate": 0.15,
+        "ShotSpeed": 100,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 1.5,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Electricity": 175
+        },
+        "CritMultiplier": 2.5
+      }
+    ],
+    "Link": "Vulklok",
+    "Name": "Vulklok",
+    "Mastery": 0,
+    "Family": "Vulklok",
+    "AmmoMax": null,
+    "Disposition": 1.245,
+    "AmmoType": "None"
+  },
+  "Deconstructor": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Glaive",
+    "MaxRank": 30,
+    "Image": "Deconstructor.png",
+    "Introduced": "12.5",
+    "InternalName": "/Lotus/Types/Sentinels/SentinelWeapons/SentGlaiveWeapon",
+    "SellPrice": 1250,
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Robotic",
+    "Accuracy": 100,
+    "Trigger": "Auto",
+    "Magazine": 6,
+    "CompatibilityTags": [
+      "SENTINEL_WEAPON"
+    ],
+    "Reload": 3,
+    "Attacks": [
+      {
+        "CritChance": 0,
+        "StatusChance": 0.25,
+        "FireRate": 1.33,
+        "ShotSpeed": 40,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": true,
+        "AttackIndex": 1,
+        "AttackName": "First Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Impact": 130
+        },
+        "CritMultiplier": 1
+      },
+      {
+        "CritChance": 0,
+        "StatusChance": 0.25,
+        "FireRate": 1.33,
+        "ShotSpeed": 40,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": true,
+        "AttackIndex": 2,
+        "AttackName": "Second Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 130
+        },
+        "CritMultiplier": 1
+      },
+      {
+        "CritChance": 0,
+        "StatusChance": 0.25,
+        "FireRate": 1.33,
+        "ShotSpeed": 40,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": true,
+        "AttackIndex": 3,
+        "AttackName": "Third Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Slash": 130
+        },
+        "CritMultiplier": 1
+      }
+    ],
+    "Link": "Deconstructor",
+    "Name": "Deconstructor",
+    "Mastery": 0,
+    "Family": "Deconstructor",
+    "AmmoMax": null,
+    "Disposition": 1.25,
+    "AmmoType": "None"
+  },
+  "Deconstructor Prime": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Glaive",
+    "MaxRank": 30,
+    "Image": "DeconstructorPrime.png",
+    "Introduced": "19.11.5",
+    "InternalName": "/Lotus/Types/Sentinels/SentinelWeapons/DeconstructorPrime/PrimeHeliosGlaiveWeapon",
+    "SellPrice": 1250,
+    "Traits": [
+      "Prime",
+      "Vaulted"
+    ],
+    "Tradable": 5,
+    "Slot": "Robotic",
+    "Accuracy": 100,
+    "Trigger": "Auto",
+    "Magazine": 6,
+    "CompatibilityTags": [
+      "SENTINEL_WEAPON"
+    ],
+    "Reload": 3,
+    "Attacks": [
+      {
+        "CritChance": 0,
+        "StatusChance": 0.25,
+        "FireRate": 1.33,
+        "ShotSpeed": 40,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": true,
+        "AttackIndex": 1,
+        "AttackName": "First Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Impact": 160
+        },
+        "CritMultiplier": 1
+      },
+      {
+        "CritChance": 0,
+        "StatusChance": 0.25,
+        "FireRate": 1.33,
+        "ShotSpeed": 40,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": true,
+        "AttackIndex": 2,
+        "AttackName": "Second Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 160
+        },
+        "CritMultiplier": 1
+      },
+      {
+        "CritChance": 0,
+        "StatusChance": 0.25,
+        "FireRate": 1.33,
+        "ShotSpeed": 40,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": true,
+        "AttackIndex": 3,
+        "AttackName": "Third Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Slash": 160
+        },
+        "CritMultiplier": 1
+      }
+    ],
+    "Link": "Deconstructor Prime",
+    "Name": "Deconstructor Prime",
+    "Mastery": 0,
+    "Family": "Deconstructor",
+    "AmmoMax": null,
+    "Disposition": 1.25,
+    "AmmoType": "None"
+  },
+  "Helstrum": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "Image": "Helstrum.png",
+    "Introduced": "28",
+    "Polarities": [
+      "Madurai"
+    ],
+    "InternalName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/SwarmerWeapon",
+    "SellPrice": 7500,
+    "Traits": [
+      "Corpus"
+    ],
+    "Slot": "Robotic",
+    "Accuracy": 100,
+    "Trigger": "Burst",
+    "Magazine": 80,
+    "CompatibilityTags": [
+      "PROJECTILE",
+      "SNIPER_AMMO",
+      "AOE",
+      "SENTINEL_WEAPON"
+    ],
+    "Reload": 2,
+    "Attacks": [
+      {
+        "Trigger": "Burst",
+        "CritChance": 0.05,
+        "StatusChance": 0.3,
+        "FireRate": 0.25,
+        "BurstCount": 4,
+        "ShotSpeed": 10,
+        "BurstDelay": 0.1,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 4.05,
+          "Impact": 4.95
+        },
+        "CritMultiplier": 1.5
+      },
+      {
+        "CritChance": 0.05,
+        "StatusChance": 0.3,
+        "AttackParentIndex": 1,
+        "Range": 3,
+        "FireRate": 0.25,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Impact": 6,
+          "Heat": 24
+        },
+        "CritMultiplier": 1.5
+      }
+    ],
+    "Link": "Helstrum",
+    "Name": "Helstrum",
+    "Mastery": 0,
+    "Family": "Helstrum",
+    "AmmoMax": null,
+    "Disposition": 1,
+    "AmmoType": "None"
+  },
+  "Laser Rifle": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "Image": "LaserRifle.png",
+    "Introduced": "7.0",
+    "InternalName": "/Lotus/Types/Sentinels/SentinelWeapons/LaserRifle",
+    "SellPrice": 1250,
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Robotic",
+    "Accuracy": 100,
+    "Trigger": "Auto",
+    "Magazine": 20,
+    "CompatibilityTags": [
+      "ASSAULT_AMMO",
+      "PROJECTILE",
+      "SENTINEL_WEAPON"
+    ],
+    "Reload": 1.2,
+    "Attacks": [
+      {
+        "CritChance": 0.17,
+        "StatusChance": 0.075,
+        "FireRate": 5,
+        "ShotSpeed": 40,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 36,
+          "Slash": 4.5,
+          "Impact": 4.5
+        },
+        "CritMultiplier": 1.75
+      }
+    ],
+    "Link": "Laser Rifle",
+    "Name": "Laser Rifle",
+    "Mastery": 0,
+    "Family": "Laser Rifle",
+    "AmmoMax": null,
+    "Disposition": 1.21,
+    "AmmoType": "None"
+  },
+  "Prime Laser Rifle": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "Image": "PrimeLaserRifle.png",
+    "Introduced": "13.7",
+    "InternalName": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeLaserRifle",
+    "SellPrice": 1250,
+    "Traits": [
+      "Prime",
+      "Vaulted"
+    ],
+    "Tradable": 5,
+    "Slot": "Robotic",
+    "Accuracy": 100,
+    "Trigger": "Auto",
+    "Magazine": 20,
+    "CompatibilityTags": [
+      "ASSAULT_AMMO",
+      "PROJECTILE",
+      "SENTINEL_WEAPON"
+    ],
+    "Reload": 1.2,
+    "Attacks": [
+      {
+        "CritChance": 0.2,
+        "StatusChance": 0.1,
+        "FireRate": 5,
+        "ShotSpeed": 40,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 38.5,
+          "Slash": 11,
+          "Impact": 5.5
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Link": "Prime Laser Rifle",
+    "Name": "Prime Laser Rifle",
+    "Mastery": 0,
+    "Family": "Laser Rifle",
+    "AmmoMax": null,
+    "Disposition": 1.21,
+    "AmmoType": "None"
+  },
+  "Burst Laser": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Pistol",
+    "MaxRank": 30,
+    "Image": "BurstLaser.png",
+    "Introduced": "7.0",
+    "InternalName": "/Lotus/Types/Sentinels/SentinelWeapons/BurstLaserPistol",
+    "SellPrice": 1250,
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Robotic",
+    "Accuracy": 100,
+    "Trigger": "Burst",
+    "Magazine": 15,
+    "CompatibilityTags": [
+      "SENTINEL_WEAPON"
+    ],
+    "Reload": 0.01,
+    "Attacks": [
+      {
+        "CritChance": 0.15,
+        "StatusChance": 0.1,
+        "FireRate": 1.5,
+        "BurstCount": 3,
+        "ShotSpeed": 40,
+        "BurstDelay": 0.4,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 17,
+          "Slash": 1,
+          "Impact": 2
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Link": "Burst Laser",
+    "Name": "Burst Laser",
+    "Mastery": 0,
+    "Family": "Burst Laser",
+    "AmmoMax": null,
+    "Disposition": 1.45,
+    "AmmoType": "None"
+  },
+  "Verglas Prime": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "Image": "VerglasPrime.png",
+    "Introduced": "36.1",
+    "Polarities": [
+      "Naramon"
+    ],
+    "InternalName": "/Lotus/Types/Sentinels/SentinelWeapons/SentinelFreezeRayPrimeRifle",
+    "SellPrice": 7500,
+    "Traits": [
+      "Tenno",
+      "Prime"
+    ],
+    "Tradable": 5,
+    "Slot": "Robotic",
+    "Accuracy": 100,
+    "Trigger": "Held",
+    "Magazine": 80,
+    "CompatibilityTags": [
+      "BEAM",
+      "ASSAULT_AMMO",
+      "SENTINEL_WEAPON"
+    ],
+    "Reload": 1.6,
+    "Attacks": [
+      {
+        "CritChance": 0.14,
+        "StatusChance": 0.36,
+        "FireRate": 12,
+        "Range": 24,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Cold": 32
+        },
+        "CritMultiplier": 2.2
+      }
+    ],
+    "Link": "Verglas Prime",
+    "Name": "Verglas Prime",
+    "Mastery": 0,
+    "Family": "Verglas",
+    "AmmoMax": null,
+    "Disposition": 1.3,
+    "AmmoType": "None"
+  },
+  "Sly Claws": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Claws (Beast)",
+    "MaxRank": 30,
+    "Image": "BeastClaws.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "37",
+    "InternalName": "/Lotus/Types/Friendly/Pets/BeastWeapons/SlyVulpaphylaPetWeapon",
+    "Link": "Sly Vulpaphyla",
+    "CompatibilityTags": [
+      "BEAST_WEAPON",
+      "KAVAT_WEAPON"
+    ],
+    "Users": [
+      "Sly Vulpaphyla"
+    ],
+    "Attacks": [
+      {
+        "CritChance": 0.2,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0.2,
+        "Damage": {
+          "Magnetic": 40,
+          "Impact": 40
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Tradable": 5,
+    "Name": "Sly Claws",
+    "Slot": "Beast",
+    "Family": "Sly Claws",
+    "SellPrice": 0,
+    "Mastery": 0,
+    "BlockAngle": 90
+  },
+  "Burst Laser Prime": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Pistol",
+    "MaxRank": 30,
+    "Image": "BurstLaserPrime.png",
+    "Introduced": "32.3.6",
+    "InternalName": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeBurstLaserPistol",
+    "SellPrice": 1250,
+    "Traits": [
+      "Tenno"
+    ],
+    "Tradable": 5,
+    "Slot": "Robotic",
+    "Accuracy": 100,
+    "Trigger": "Burst",
+    "Magazine": 15,
+    "CompatibilityTags": [
+      "SENTINEL_WEAPON"
+    ],
+    "Reload": 0.01,
+    "Attacks": [
+      {
+        "CritChance": 0.2,
+        "StatusChance": 0.15,
+        "FireRate": 1.5,
+        "BurstCount": 5,
+        "ShotSpeed": 40,
+        "BurstDelay": 0.2,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 21.25,
+          "Slash": 1.25,
+          "Impact": 2.5
+        },
+        "CritMultiplier": 2.3
+      }
+    ],
+    "Link": "Burst Laser Prime",
+    "Name": "Burst Laser Prime",
+    "Mastery": 0,
+    "Family": "Burst Laser",
+    "AmmoMax": null,
+    "Disposition": 1.45,
+    "AmmoType": "None"
+  },
+  "Cryotra": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "Image": "Cryotra.png",
+    "Introduced": "24.0",
+    "Polarities": [
+      "Madurai"
+    ],
+    "InternalName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/CryoxionWeapon",
+    "SellPrice": 7500,
+    "Traits": [
+      "Corpus"
+    ],
+    "Slot": "Robotic",
+    "Accuracy": 2.5,
+    "Trigger": "Semi",
+    "Magazine": 3,
+    "CompatibilityTags": [
+      "PROJECTILE",
+      "AOE",
+      "SENTINEL_WEAPON"
+    ],
+    "Reload": 5,
+    "Attacks": [
+      {
+        "StatusChance": 0.1,
+        "CritChance": 0.1,
+        "FireRate": 0.667,
+        "ShotSpeed": 20,
+        "ForcedProcs": [
+          "Cold"
+        ],
+        "MaxSpread": 40,
+        "MinSpread": 40,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Direct Hit",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Impact": 10
+        },
+        "CritMultiplier": 1.75
+      },
+      {
+        "CritChance": 0.1,
+        "StatusChance": 0.3,
+        "AttackParentIndex": 1,
+        "Range": 1.5,
+        "EffectDuration": 5,
+        "Falloff": {
+          "EndRange": 1.5,
+          "Reduction": 0.7,
+          "StartRange": 0
+        },
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Cold Field",
+        "FireRate": 1,
+        "ShotType": "DoT",
+        "Damage": {
+          "Cold": 20
+        },
+        "CritMultiplier": 1.75
+      }
+    ],
+    "Link": "Cryotra",
+    "Name": "Cryotra",
+    "Mastery": 0,
+    "Family": "Cryotra",
+    "AmmoMax": null,
+    "Disposition": 1,
+    "AmmoType": "None"
+  },
+  "Artax": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "Image": "Artax.png",
+    "Introduced": "19.10",
+    "InternalName": "/Lotus/Types/Sentinels/SentinelWeapons/Gremlin",
+    "Mastery": 0,
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Robotic",
+    "SellPrice": 1250,
+    "Accuracy": 100,
+    "Trigger": "Held",
+    "Magazine": 100,
+    "CompatibilityTags": [
+      "ASSAULT_AMMO",
+      "BEAM",
+      "SENTINEL_WEAPON"
+    ],
+    "Reload": 1.5,
+    "Attacks": [
+      {
+        "CritChance": 0.02,
+        "StatusChance": 0.35,
+        "FireRate": 16.67,
+        "MinSpread": 0,
+        "IsSilent": false,
+        "Range": 24,
+        "AmmoCost": 0.5,
+        "Multishot": 1,
+        "MaxSpread": 0,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Cold": 5
+        },
+        "CritMultiplier": 1.5
+      }
+    ],
+    "AmmoType": "None",
+    "Name": "Artax",
+    "Link": "Artax",
+    "Family": "Artax",
+    "AmmoMax": null,
+    "Disposition": 1,
+    "DefaultUpgrades": [
+      "/Lotus/Upgrades/Mods/Sentinel/GremlinColdMod"
+    ]
+  },
+  "Sweeper": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Shotgun",
+    "MaxRank": 30,
+    "Image": "Sweeper.png",
+    "Introduced": "10.0",
+    "Polarities": [
+      "Madurai",
+      "Madurai"
+    ],
+    "InternalName": "/Lotus/Types/Sentinels/SentinelWeapons/SentShotgun",
+    "SellPrice": 1250,
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Robotic",
+    "Accuracy": 3.33,
+    "Trigger": "Auto",
+    "Magazine": 10,
+    "CompatibilityTags": [
+      "SENTINEL_WEAPON"
+    ],
+    "Reload": 2.3,
+    "Attacks": [
+      {
+        "StatusChance": 0.045,
+        "CritChance": 0.1,
+        "FireRate": 1,
+        "MinSpread": 20,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 300,
+          "StartRange": 200,
+          "Reduction": 0
+        },
+        "Range": 300,
+        "AmmoCost": 1,
+        "Multishot": 6,
+        "MaxSpread": 40,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 1.75,
+          "Slash": 3.5,
+          "Impact": 29.75
+        },
+        "CritMultiplier": 1.75
+      }
+    ],
+    "Link": "Sweeper",
+    "Name": "Sweeper",
+    "Mastery": 0,
+    "Family": "Sweeper",
+    "AmmoMax": null,
+    "Disposition": 1,
+    "AmmoType": "None"
+  },
+  "Vasca Claws": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Claws (Beast)",
+    "MaxRank": 30,
+    "Image": "BeastClaws.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "37",
+    "InternalName": "/Lotus/Types/Friendly/Pets/BeastWeapons/VascaPetWeapon",
+    "Link": "Vasca Kavat",
+    "CompatibilityTags": [
+      "BEAST_WEAPON",
+      "KAVAT_WEAPON"
+    ],
+    "Users": [
+      "Vasca Kavat"
+    ],
+    "Attacks": [
+      {
+        "CritChance": 0.15,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0.25,
+        "Damage": {
+          "Slash": 110
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Tradable": 5,
+    "Name": "Vasca Claws",
+    "Slot": "Beast",
+    "Family": "Vasca Claws",
+    "SellPrice": 0,
+    "Mastery": 0,
+    "BlockAngle": 90
+  },
+  "Vulcax": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "Image": "Vulcax.png",
+    "Introduced": "24.0",
+    "InternalName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/ThermocorMoaWeapon",
+    "SellPrice": 7500,
+    "Traits": [
+      "Corpus"
+    ],
+    "Slot": "Robotic",
+    "Accuracy": 100,
+    "Trigger": "Charge",
+    "Magazine": 1,
+    "CompatibilityTags": [
+      "ASSAULT_AMMO",
+      "AOE",
+      "SINGLESHOT",
+      "SENTINEL_WEAPON"
+    ],
+    "Reload": 3,
+    "Attacks": [
+      {
+        "CritChance": 0.2,
+        "StatusChance": 0.1,
+        "FireRate": 1,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Impact",
+        "PunchThrough": 2,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Heat": 500
+        },
+        "CritMultiplier": 2.5
+      },
+      {
+        "CritChance": 0.2,
+        "StatusChance": 0.2,
+        "AttackParentIndex": 1,
+        "Range": 5,
+        "FireRate": 1,
+        "Multishot": 1,
+        "Falloff": {
+          "EndRange": 5,
+          "StartRange": 0,
+          "Reduction": 0.5
+        },
+        "AttackIndex": 2,
+        "AttackName": "Radial Attack",
+        "IsSilent": false,
+        "ShotType": "AoE",
+        "Damage": {
+          "Blast": 100
+        },
+        "CritMultiplier": 2.5
+      }
+    ],
+    "Link": "Vulcax",
+    "Name": "Vulcax",
+    "Mastery": 14,
+    "Family": "Vulcax",
+    "AmmoMax": null,
+    "Disposition": 1,
+    "AmmoType": "None"
+  },
+  "Vizier Claws": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Claws (Beast)",
+    "MaxRank": 30,
+    "Image": "BeastClaws.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "37",
+    "InternalName": "/Lotus/Types/Friendly/Pets/BeastWeapons/VizierPredasitePetWeapon",
+    "Link": "Vizier Predasite",
+    "CompatibilityTags": [
+      "BEAST_WEAPON",
+      "KUBROW_WEAPON"
+    ],
+    "Users": [
+      "Vizier Predasite"
+    ],
+    "Attacks": [
+      {
+        "CritChance": 0.05,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0.3,
+        "Damage": {
+          "Corrosive": 150,
+          "Impact": 150
+        },
+        "CritMultiplier": 3
+      }
+    ],
+    "Tradable": 5,
+    "Name": "Vizier Claws",
+    "Slot": "Beast",
+    "Family": "Vizier Claws",
+    "SellPrice": 0,
+    "Mastery": 0,
+    "BlockAngle": 90
+  },
+  "Pharaoh Claws": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Claws (Beast)",
+    "MaxRank": 30,
+    "Image": "BeastClaws.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "37",
+    "InternalName": "/Lotus/Types/Friendly/Pets/BeastWeapons/PharaohPredasitePetWeapon",
+    "Link": "Pharaoh Predasite",
+    "CompatibilityTags": [
+      "BEAST_WEAPON",
+      "KUBROW_WEAPON"
+    ],
+    "Users": [
+      "Pharaoh Predasite"
+    ],
+    "Attacks": [
+      {
+        "CritChance": 0.075,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0.25,
+        "Damage": {
+          "Puncture": 162,
+          "Gas": 162
+        },
+        "CritMultiplier": 2.5
+      }
+    ],
+    "Tradable": 5,
+    "Name": "Pharaoh Claws",
+    "Slot": "Beast",
+    "Family": "Pharaoh Claws",
+    "SellPrice": 0,
+    "Mastery": 0,
+    "BlockAngle": 90
+  },
+  "Sahasa Claws": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Claws (Beast)",
+    "MaxRank": 30,
+    "Image": "BeastClaws.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "37",
+    "InternalName": "/Lotus/Types/Friendly/Pets/BeastWeapons/SahasaPetWeapon",
+    "Link": "Sahasa Kubrow",
+    "CompatibilityTags": [
+      "BEAST_WEAPON",
+      "KUBROW_WEAPON"
+    ],
+    "Users": [
+      "Sahasa Kubrow"
+    ],
+    "Attacks": [
+      {
+        "CritChance": 0.1,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0.05,
+        "Damage": {
+          "Impact": 300
+        },
+        "CritMultiplier": 3
+      }
+    ],
+    "Tradable": 5,
+    "Name": "Sahasa Claws",
+    "Slot": "Beast",
+    "Family": "Sahasa Claws",
+    "SellPrice": 0,
+    "Mastery": 0,
+    "BlockAngle": 90
+  },
+  "Stinger": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "Image": "Stinger.png",
+    "Introduced": "10.0",
+    "InternalName": "/Lotus/Types/Sentinels/SentinelWeapons/SentBioWeapon",
+    "SellPrice": 1250,
+    "Traits": [
+      "Infested"
+    ],
+    "Slot": "Robotic",
+    "Accuracy": 100,
+    "Trigger": "Semi-Auto",
+    "Magazine": 4,
+    "CompatibilityTags": [
+      "ASSAULT_AMMO",
+      "PROJECTILE",
+      "SENTINEL_WEAPON"
+    ],
+    "Reload": 1.2,
+    "Attacks": [
+      {
+        "CritChance": 0.025,
+        "StatusChance": 0.2,
+        "FireRate": 3.33,
+        "ShotSpeed": 65,
+        "ForcedProcs": [
+          "Toxin"
+        ],
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Toxin": 15
+        },
+        "CritMultiplier": 1.5
+      },
+      {
+        "CritChance": 0.025,
+        "AttackParentIndex": 1,
+        "EffectDuration": 3,
+        "StatusChance": 0.2,
+        "FireRate": 1,
+        "AttackIndex": 2,
+        "AttackName": "Toxin Embed",
+        "IsSilent": false,
+        "ShotType": "DoT",
+        "Damage": {
+          "Toxin": 15
+        },
+        "CritMultiplier": 1.5
+      }
+    ],
+    "Link": "Stinger",
+    "Name": "Stinger",
+    "Mastery": 0,
+    "Family": "Stinger",
+    "AmmoMax": null,
+    "Disposition": 1.315,
+    "AmmoType": "None"
+  },
+  "Venari Claws": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Claws (Beast)",
+    "MaxRank": 30,
+    "Image": "BeastClaws.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "37",
+    "InternalName": "/Lotus/Types/Friendly/Pets/BeastWeapons/VenariPetWeapon",
+    "Link": "Venari",
+    "CompatibilityTags": [
+      "BEAST_WEAPON",
+      "KAVAT_WEAPON"
+    ],
+    "Users": [
+      "Venari"
+    ],
+    "Attacks": [
+      {
+        "CritChance": 0.2,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0.2,
+        "Damage": {
+          "Slash": 40
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Tradable": 5,
+    "Name": "Venari Claws",
+    "Slot": "Beast",
+    "Family": "Venari Claws",
+    "SellPrice": 0,
+    "Mastery": 0,
+    "BlockAngle": 90
+  },
+  "Crescent Claws": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Claws (Beast)",
+    "MaxRank": 30,
+    "Image": "BeastClaws.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "37",
+    "InternalName": "/Lotus/Types/Friendly/Pets/BeastWeapons/CrescentVulpaphylaPetWeapon",
+    "Link": "Crescent Vulpaphyla",
+    "CompatibilityTags": [
+      "BEAST_WEAPON",
+      "KAVAT_WEAPON"
+    ],
+    "Users": [
+      "Cresent Vulpaphyla"
+    ],
+    "Attacks": [
+      {
+        "CritChance": 0.225,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0.175,
+        "Damage": {
+          "Puncture": 50,
+          "Electricity": 50
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Tradable": 5,
+    "Name": "Crescent Claws",
+    "Slot": "Beast",
+    "Family": "Crescent Claws",
+    "SellPrice": 0,
+    "Mastery": 0,
+    "BlockAngle": 90
+  },
+  "Huras Claws": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Claws (Beast)",
+    "MaxRank": 30,
+    "Image": "BeastClaws.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "37",
+    "InternalName": "/Lotus/Types/Friendly/Pets/BeastWeapons/HurasPetWeapon",
+    "Link": "Huras Kubrow",
+    "CompatibilityTags": [
+      "BEAST_WEAPON",
+      "KUBROW_WEAPON"
+    ],
+    "Users": [
+      "Huras Kubrow"
+    ],
+    "Attacks": [
+      {
+        "CritChance": 0.2,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0.05,
+        "Damage": {
+          "Slash": 350
+        },
+        "CritMultiplier": 3.5
+      }
+    ],
+    "Tradable": 5,
+    "Name": "Huras Claws",
+    "Slot": "Beast",
+    "Family": "Huras Claws",
+    "SellPrice": 0,
+    "Mastery": 0,
+    "BlockAngle": 90
+  },
+  "Multron": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 2,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "Image": "Multron.png",
+    "Introduced": "24.0",
+    "Polarities": [
+      "Madurai"
+    ],
+    "InternalName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/HextraWeapon",
+    "SellPrice": 7500,
+    "Traits": [
+      "Corpus"
+    ],
+    "Slot": "Robotic",
+    "Accuracy": 18.18,
+    "Trigger": "Burst",
+    "Magazine": 3,
+    "CompatibilityTags": [
+      "PROJECTILE",
+      "ASSAULT_AMMO",
+      "SENTINEL_WEAPON"
+    ],
+    "Reload": 3,
+    "Attacks": [
+      {
+        "CritChance": 0.15,
+        "StatusChance": 0.22,
+        "BurstCount": 3,
+        "FireRate": 2.5,
+        "BurstDelay": 0.4,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "ShotSpeed": 40,
+        "AttackIndex": 1,
+        "AttackName": "Projectile Impact",
+        "IsSilent": false,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 10
+        },
+        "CritMultiplier": 2
+      },
+      {
+        "CritChance": 0.15,
+        "StatusChance": 0.22,
+        "ShotType": "AoE",
+        "Falloff": {
+          "EndRange": 3.5,
+          "Reduction": 0.5,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 3.5,
+        "FireRate": 2.5,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Radial Attack",
+        "PunchThrough": 0,
+        "ExplosionDelay": 1.5,
+        "Damage": {
+          "Blast": 100
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Link": "Multron",
+    "Name": "Multron",
+    "Mastery": 3,
+    "Family": "Multron",
+    "AmmoMax": null,
+    "Disposition": 1,
+    "AmmoType": "None"
+  },
+  "Raksa Claws": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Claws (Beast)",
+    "MaxRank": 30,
+    "Image": "BeastClaws.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "37",
+    "InternalName": "/Lotus/Types/Friendly/Pets/BeastWeapons/RaksaPetWeapon",
+    "Link": "Raksa Kubrow",
+    "CompatibilityTags": [
+      "BEAST_WEAPON",
+      "KUBROW_WEAPON"
+    ],
+    "Users": [
+      "Raksa Kubrow"
+    ],
+    "Attacks": [
+      {
+        "CritChance": 0.075,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0.2,
+        "Damage": {
+          "Puncture": 250
+        },
+        "CritMultiplier": 2.5
+      }
+    ],
+    "Tradable": 5,
+    "Name": "Raksa Claws",
+    "Slot": "Beast",
+    "Family": "Raksa Claws",
+    "SellPrice": 0,
+    "Mastery": 0,
+    "BlockAngle": 90
+  },
+  "Adarza Claws": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Claws (Beast)",
+    "MaxRank": 30,
+    "Image": "BeastClaws.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "37",
+    "InternalName": "/Lotus/Types/Friendly/Pets/BeastWeapons/AdarzaPetWeapon",
+    "Link": "Adarza Kavat",
+    "CompatibilityTags": [
+      "BEAST_WEAPON",
+      "KAVAT_WEAPON"
+    ],
+    "Users": [
+      "Adarza Kavat"
+    ],
+    "Attacks": [
+      {
+        "CritChance": 0.3,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0.05,
+        "Damage": {
+          "Puncture": 45,
+          "Slash": 45
+        },
+        "CritMultiplier": 2.5
+      }
+    ],
+    "Tradable": 5,
+    "Name": "Adarza Claws",
+    "Slot": "Beast",
+    "Family": "Adarza Claws",
+    "SellPrice": 0,
+    "Mastery": 0,
+    "BlockAngle": 90
+  },
+  "Verglas": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "Image": "Verglas.png",
+    "Introduced": "29.10",
+    "InternalName": "/Lotus/Types/Sentinels/SentinelWeapons/SentinelFreezeRayRifle",
+    "SellPrice": 7500,
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Robotic",
+    "Accuracy": 100,
+    "Trigger": "Held",
+    "Magazine": 80,
+    "CompatibilityTags": [
+      "BEAM",
+      "ASSAULT_AMMO",
+      "SENTINEL_WEAPON"
+    ],
+    "Reload": 2.2,
+    "Attacks": [
+      {
+        "CritChance": 0.08,
+        "StatusChance": 0.34,
+        "FireRate": 12,
+        "Range": 24,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Cold": 26
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Link": "Verglas",
+    "Name": "Verglas",
+    "Mastery": 0,
+    "Family": "Verglas",
+    "AmmoMax": null,
+    "Disposition": 1.3,
+    "AmmoType": "None"
+  },
+  "Lacerten": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Melee",
+    "MaxRank": 30,
+    "Image": "Lacerten.png",
+    "BlockAngle": 90,
+    "Introduced": "30.5",
+    "InternalName": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetMeleeWeaponIS",
+    "Link": "Lacerten",
+    "Magazine": 6,
+    "CompatibilityTags": [
+      "HOUND_WEAPON"
+    ],
+    "Attacks": [
+      {
+        "CritChance": 0.1,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0.15,
+        "Damage": {
+          "Slash": 150,
+          "Impact": 150
+        },
+        "CritMultiplier": 3
+      }
+    ],
+    "Tradable": 5,
+    "Name": "Lacerten",
+    "Slot": "Hound",
+    "Family": "Lacerten",
+    "SellPrice": 5000,
+    "Disposition": 1,
+    "Mastery": 0
+  },
+  "Deth Machine Rifle": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "Image": "DethMachineRifle.png",
+    "Introduced": "8.0",
+    "InternalName": "/Lotus/Types/Sentinels/SentinelWeapons/DethMachineRifle",
+    "SellPrice": 1250,
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Robotic",
+    "Accuracy": 100,
+    "Trigger": "Auto-Spool",
+    "Magazine": 100,
+    "CompatibilityTags": [
+      "ASSAULT_AMMO",
+      "SENTINEL_WEAPON"
+    ],
+    "Reload": 2,
+    "Attacks": [
+      {
+        "CritChance": 0.05,
+        "StatusChance": 0.01,
+        "FireRate": 8.33,
+        "Range": 300,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 0.75,
+          "Slash": 12.75,
+          "Impact": 1.5
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Link": "Deth Machine Rifle",
+    "Name": "Deth Machine Rifle",
+    "Mastery": 0,
+    "Family": "Deth Machine Rifle",
+    "AmmoMax": null,
+    "Disposition": 1.455,
+    "AmmoType": "None"
+  },
+  "Batoten": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Melee",
+    "MaxRank": 30,
+    "Image": "Batoten.png",
+    "BlockAngle": 90,
+    "Introduced": "30.5",
+    "InternalName": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetMeleeWeaponIP",
+    "Link": "Batoten",
+    "Magazine": 6,
+    "CompatibilityTags": [
+      "HOUND_WEAPON"
+    ],
+    "Attacks": [
+      {
+        "CritChance": 0.1,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0.15,
+        "Damage": {
+          "Puncture": 150,
+          "Impact": 150
+        },
+        "CritMultiplier": 3
+      }
+    ],
+    "Tradable": 5,
+    "Name": "Batoten",
+    "Slot": "Hound",
+    "Family": "Batoten",
+    "SellPrice": 5000,
+    "Disposition": 1,
+    "Mastery": 0
+  },
+  "Chesa Claws": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Claws (Beast)",
+    "MaxRank": 30,
+    "Image": "BeastClaws.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "37",
+    "InternalName": "/Lotus/Types/Friendly/Pets/BeastWeapons/ChesaPetWeapon",
+    "Link": "Chesa Kubrow",
+    "CompatibilityTags": [
+      "BEAST_WEAPON",
+      "KUBROW_WEAPON"
+    ],
+    "Users": [
+      "Chesa Kubrow"
+    ],
+    "Attacks": [
+      {
+        "CritChance": 0.15,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0.15,
+        "Damage": {
+          "Impact": 275
+        },
+        "CritMultiplier": 1.5
+      }
+    ],
+    "Tradable": 5,
+    "Name": "Chesa Claws",
+    "Slot": "Beast",
+    "Family": "Chesa Claws",
+    "SellPrice": 0,
+    "Mastery": 0,
+    "BlockAngle": 90
+  },
+  "Venari Prime Claws": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Claws (Beast)",
+    "MaxRank": 30,
+    "Image": "BeastClaws.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "37",
+    "InternalName": "/Lotus/Types/Friendly/Pets/BeastWeapons/VenariPrimePetWeapon",
+    "Link": "Venari Prime",
+    "CompatibilityTags": [
+      "BEAST_WEAPON",
+      "KAVAT_WEAPON"
+    ],
+    "Users": [
+      "Venari Prime"
+    ],
+    "Attacks": [
+      {
+        "CritChance": 0.2,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0.2,
+        "Damage": {
+          "Slash": 55
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Tradable": 5,
+    "Name": "Venari Prime Claws",
+    "Slot": "Beast",
+    "Family": "Venari Claws",
+    "SellPrice": 0,
+    "Mastery": 0,
+    "BlockAngle": 90
+  },
+  "Panzer Claws": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Claws (Beast)",
+    "MaxRank": 30,
+    "Image": "BeastClaws.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "37",
+    "InternalName": "/Lotus/Types/Friendly/Pets/BeastWeapons/PanzerVulpaphylaPetWeapon",
+    "Link": "Panzer Vulpaphyla",
+    "CompatibilityTags": [
+      "BEAST_WEAPON",
+      "KAVAT_WEAPON"
+    ],
+    "Users": [
+      "Panzer Vulpaphyla"
+    ],
+    "Attacks": [
+      {
+        "CritChance": 0.25,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0.125,
+        "Damage": {
+          "Slash": 45,
+          "Toxin": 45
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Tradable": 5,
+    "Name": "Panzer Claws",
+    "Slot": "Beast",
+    "Family": "Panzer Claws",
+    "SellPrice": 0,
+    "Mastery": 0,
+    "BlockAngle": 90
+  },
+  "Smeeta Claws": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Claws (Beast)",
+    "MaxRank": 30,
+    "Image": "BeastClaws.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "37",
+    "InternalName": "/Lotus/Types/Friendly/Pets/BeastWeapons/SmeetaPetWeapon",
+    "Link": "Smeeta Kavat",
+    "CompatibilityTags": [
+      "BEAST_WEAPON",
+      "KAVAT_WEAPON"
+    ],
+    "Users": [
+      "Smeeta Kavat"
+    ],
+    "Attacks": [
+      {
+        "CritChance": 0.2,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0.075,
+        "Damage": {
+          "Slash": 80
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Tradable": 5,
+    "Name": "Smeeta Claws",
+    "Slot": "Beast",
+    "Family": "Smeeta Claws",
+    "SellPrice": 0,
+    "Mastery": 0,
+    "BlockAngle": 90
+  },
+  "Akaten": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Melee",
+    "MaxRank": 30,
+    "Image": "Akaten.png",
+    "BlockAngle": 90,
+    "Introduced": "30.5",
+    "InternalName": "/Lotus/Types/Friendly/Pets/ZanukaPets/ZanukaPetMeleeWeaponPS",
+    "Link": "Akaten",
+    "Magazine": 6,
+    "CompatibilityTags": [
+      "HOUND_WEAPON"
+    ],
+    "Attacks": [
+      {
+        "CritChance": 0.1,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0.15,
+        "Damage": {
+          "Puncture": 150,
+          "Slash": 150
+        },
+        "CritMultiplier": 3
+      }
+    ],
+    "Tradable": 5,
+    "Name": "Akaten",
+    "Slot": "Hound",
+    "Family": "Akaten",
+    "SellPrice": 5000,
+    "Disposition": 1,
+    "Mastery": 0
+  },
+  "Medjay Claws": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Claws (Beast)",
+    "MaxRank": 30,
+    "Image": "BeastClaws.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "37",
+    "InternalName": "/Lotus/Types/Friendly/Pets/BeastWeapons/MedjayPredasitePetWeapon",
+    "Link": "Medjay Predasite",
+    "CompatibilityTags": [
+      "BEAST_WEAPON",
+      "KUBROW_WEAPON"
+    ],
+    "Users": [
+      "Medjay Predasite"
+    ],
+    "Attacks": [
+      {
+        "CritChance": 0.1,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0.05,
+        "Damage": {
+          "Slash": 175,
+          "Viral": 175
+        },
+        "CritMultiplier": 3
+      }
+    ],
+    "Tradable": 5,
+    "Name": "Medjay Claws",
+    "Slot": "Beast",
+    "Family": "Medjay Claws",
+    "SellPrice": 0,
+    "Mastery": 0,
+    "BlockAngle": 90
+  },
+  "Deth Machine Rifle Prime": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "Image": "DethMachineRiflePrime.png",
+    "Introduced": "25.8",
+    "InternalName": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeDethMachineRifle",
+    "SellPrice": 1250,
+    "Traits": [
+      "Prime"
+    ],
+    "Tradable": 5,
+    "Slot": "Robotic",
+    "Accuracy": 100,
+    "Trigger": "Auto-Spool",
+    "Magazine": 100,
+    "CompatibilityTags": [
+      "ASSAULT_AMMO",
+      "SENTINEL_WEAPON"
+    ],
+    "Reload": 2,
+    "Attacks": [
+      {
+        "CritChance": 0.1,
+        "StatusChance": 0.04,
+        "FireRate": 10,
+        "Range": 300,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 1,
+          "Slash": 17,
+          "Impact": 2
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Link": "Deth Machine Rifle Prime",
+    "Name": "Deth Machine Rifle Prime",
+    "Mastery": 0,
+    "Family": "Deth Machine Rifle",
+    "AmmoMax": null,
+    "Disposition": 1.455,
+    "AmmoType": "None"
+  },
+  "Tazicor": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "Image": "Tazicor.png",
+    "Introduced": "24.0",
+    "InternalName": "/Lotus/Types/Friendly/Pets/MoaPets/MoaPetComponents/TazronWeapon",
+    "SellPrice": 7500,
+    "Traits": [
+      "Corpus"
+    ],
+    "Slot": "Robotic",
+    "Accuracy": 100,
+    "Trigger": "Held",
+    "Magazine": 40,
+    "CompatibilityTags": [
+      "BEAM",
+      "ASSAULT_AMMO",
+      "SENTINEL_WEAPON"
+    ],
+    "Reload": 2,
+    "Attacks": [
+      {
+        "CritChance": 0.05,
+        "StatusChance": 0.25,
+        "FireRate": 12,
+        "MinSpread": 0,
+        "IsSilent": false,
+        "Range": 20,
+        "AmmoCost": 0.5,
+        "Multishot": 1,
+        "MaxSpread": 0,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Electricity": 5
+        },
+        "CritMultiplier": 1.5
+      }
+    ],
+    "Link": "Tazicor",
+    "Name": "Tazicor",
+    "Mastery": 3,
+    "Family": "Tazicor",
+    "AmmoMax": null,
+    "Disposition": 1,
+    "AmmoType": "None"
+  },
+  "Sweeper Prime": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Shotgun",
+    "MaxRank": 30,
+    "Image": "SweeperPrime.png",
+    "Introduced": "16.11",
+    "Polarities": [
+      "Madurai",
+      "Madurai"
+    ],
+    "InternalName": "/Lotus/Types/Sentinels/SentinelWeapons/PrimeSentShotgun",
+    "SellPrice": 1250,
+    "Traits": [
+      "Prime",
+      "Vaulted"
+    ],
+    "Tradable": 5,
+    "Slot": "Robotic",
+    "Accuracy": 3.33,
+    "Trigger": "Auto",
+    "Magazine": 20,
+    "CompatibilityTags": [
+      "SENTINEL_WEAPON"
+    ],
+    "Reload": 2,
+    "Attacks": [
+      {
+        "StatusChance": 0.05,
+        "CritChance": 0.1,
+        "FireRate": 1,
+        "MinSpread": 20,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 300,
+          "StartRange": 200,
+          "Reduction": 0
+        },
+        "Range": 300,
+        "AmmoCost": 1,
+        "Multishot": 6,
+        "MaxSpread": 40,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 2.25,
+          "Slash": 4.5,
+          "Impact": 38.25
+        },
+        "CritMultiplier": 2.25
+      }
+    ],
+    "Link": "Sweeper Prime",
+    "Name": "Sweeper Prime",
+    "Mastery": 0,
+    "Family": "Sweeper",
+    "AmmoMax": null,
+    "Disposition": 1,
+    "AmmoType": "None"
+  },
+  "Helminth Claws": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Claws (Beast)",
+    "MaxRank": 30,
+    "Image": "BeastClaws.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "37",
+    "InternalName": "/Lotus/Types/Friendly/Pets/BeastWeapons/HelminthPetWeapon",
+    "Link": "Helminth Charger",
+    "CompatibilityTags": [
+      "BEAST_WEAPON",
+      "KUBROW_WEAPON",
+      "HELMINTH_WEAPON"
+    ],
+    "Users": [
+      "Helminth Charger"
+    ],
+    "Attacks": [
+      {
+        "CritChance": 0.075,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0.25,
+        "Damage": {
+          "Slash": 200,
+          "Toxin": 50
+        },
+        "CritMultiplier": 2.5
+      }
+    ],
+    "Tradable": 5,
+    "Name": "Helminth Claws",
+    "Slot": "Beast",
+    "Family": "Helminth Claws",
+    "SellPrice": 0,
+    "Mastery": 0,
+    "BlockAngle": 90
+  },
+  "Prisma Burst Laser": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Pistol",
+    "MaxRank": 30,
+    "Image": "PrismaBurstLaser.png",
+    "Introduced": "17.2.2",
+    "Mastery": 0,
+    "InternalName": "/Lotus/Types/Sentinels/SentinelWeapons/PrismaBurstLaserPistol",
+    "Traits": [
+      "Tenno",
+      "Prisma"
+    ],
+    "Tradable": 5,
+    "Slot": "Robotic",
+    "SellPrice": 1250,
+    "Accuracy": 100,
+    "Trigger": "Burst",
+    "Magazine": 15,
+    "CompatibilityTags": [
+      "SENTINEL_WEAPON"
+    ],
+    "Reload": 0.01,
+    "Attacks": [
+      {
+        "CritChance": 0.18,
+        "StatusChance": 0.1,
+        "FireRate": 1.5,
+        "BurstCount": 4,
+        "ShotSpeed": 40,
+        "BurstDelay": 0.3,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 18.7,
+          "Slash": 1.1,
+          "Impact": 2.2
+        },
+        "CritMultiplier": 2.15
+      }
+    ],
+    "AmmoType": "None",
+    "Name": "Prisma Burst Laser",
+    "Link": "Prisma Burst Laser",
+    "Family": "Burst Laser",
+    "AmmoMax": null,
+    "Disposition": 1.45,
+    "CodexSecret": true
+  }
+}

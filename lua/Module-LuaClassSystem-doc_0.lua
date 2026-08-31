@@ -1,0 +1,1 @@
+local MyClass = LCS.class()

@@ -1,0 +1,28 @@
+		["Heavy Gunner"] = {
+			General = {
+            	Abilities = { "Seismic Shockwave" },
+				Actor = "",
+				CodexSecret = false,
+				Description = "High damage minigun",
+				Faction = "Grineer",
+				Image = "HeavyGunnerDE.png",
+				Introduced = "Vanilla",
+				Missions = {},
+ 				Planets = {},
+				Scans = 3,
+  				TileSets = { "Grineer Asteroid", "Grineer Galleon", "Grineer Shipyard", "Orokin Moon" },
+				Type = "Ranged",
+				Weapons = { "Gorgon", "Sheev" },
+			},
+			Stats = {
+				Health = 300,
+				Shield = 0,
+				Armor = 500,
+                Overguard = 0,
+				Affinity = 500,
+				BaseLevel = 8,
+				SpawnLevel = 8,
+				Multis = { "Head: 3.0x" },
+				ProcResists = {},
+			}
+		},

@@ -1,0 +1,12 @@
+{
+  "page": "Module:Mods/testcases",
+  "wiki_timestamp": "2021-08-06T00:02:13Z",
+  "extracted_at": "2026-08-31T21:22:45.121512+00:00",
+  "lua_files": [
+    "Module-Mods-testcases_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 792,
+  "comment_count": 0,
+  "status": "success"
+}

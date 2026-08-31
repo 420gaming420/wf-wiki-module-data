@@ -1,0 +1,1 @@
+{{#invoke:DamageTypes|healthtable|Ferrite Armor}}

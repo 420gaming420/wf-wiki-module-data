@@ -1,0 +1,12 @@
+{
+  "page": "Module:DatastoreManifest",
+  "wiki_timestamp": "2026-08-29T18:06:23Z",
+  "extracted_at": "2026-08-31T21:22:44.133380+00:00",
+  "lua_files": [
+    "Module-DatastoreManifest_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 3743,
+  "comment_count": 8,
+  "status": "success"
+}

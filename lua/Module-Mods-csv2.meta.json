@@ -1,0 +1,12 @@
+{
+  "page": "Module:Mods/csv2",
+  "wiki_timestamp": "2023-05-18T06:57:03Z",
+  "extracted_at": "2026-08-31T21:22:45.063366+00:00",
+  "lua_files": [
+    "Module-Mods-csv2_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 2395,
+  "comment_count": 23,
+  "status": "success"
+}

@@ -1,0 +1,12 @@
+{
+  "page": "Module:Weapons/dev",
+  "wiki_timestamp": "2026-07-10T01:25:50Z",
+  "extracted_at": "2026-08-31T21:22:45.910543+00:00",
+  "lua_files": [
+    "Module-Weapons-dev_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 24657,
+  "comment_count": 79,
+  "status": "success"
+}

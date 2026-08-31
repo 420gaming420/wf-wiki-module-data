@@ -1,0 +1,122 @@
+local userError = require('Dev:User error');
+local notEnoughArgs = '$1: not enough arguments';
+
+return {
+	contains = {
+		options = {
+			mode = 'method',
+			unpk = true,
+		},
+		tests = {
+			{ { }, notEnoughArgs:gsub('$1', 'String.contains(str, search [, ignoreCase])'), {err = true} },
+			{ { 'Important', 'port' }, true },
+			{ { 'Important', 'Import' }, true },
+			{ { 'Important', 'import' }, false },
+			{ { 'Important', 'import', true }, true },
+			{ { 'Important', 'import', false }, false },
+			{ { 'Important', 'tant' }, true },
+			{ { 'Đây là một bài kiểm tra', 'bài' }, true },
+			{ { 'Đây là một bài kiểm tra', 'Thí dụ' }, false },
+			{ { 'испытание', 'тан' }, true },
+			{ { 'испытание', 'д' }, false },
+			{ { 'Παράδειγμα', 'Παράδ' }, true },
+			{ { 'Παράδειγμα', 'Δοκιμή' }, false },
+			{ { '테스트', '테' }, true },
+			{ { '테스트', '예' }, false },
+			{ { '這是一個例子', '例子' }, true },
+			{ { '這是一個例子', '測試 ' }, false },
+			{ { 'مثال على الجملة', 'مثال' }, true },
+			{ { 'مثال على الجملة', 'اختبار' }, false },
+			{ { '↔↕↖↗↘↙↩↪', '↕↖↗' }, true },
+			{ { '↔↕↖↗↘↙↩↪', '⇆' }, false },
+			{ { '■□◐◑▰▱▲△', '◑' }, true },
+			{ { '■□◐◑▰▱▲△', '◆' }, false },
+		},
+	},
+	split = {
+		options = {
+			mode = 'method',
+			unpk = true,
+			deep = true,
+		},
+		tests = {
+			{ { }, notEnoughArgs:gsub('$1', 'String.split(str [, sep])'), {err = true} },
+			{ { 'Apple Banana Coconut' }, { 'Apple', 'Banana', 'Coconut' } },
+			{ { 'Apple Banana Coconut', '' }, { 'A', 'p', 'p', 'l', 'e', ' ', 'B', 'a', 'n', 'a', 'n', 'a', ' ', 'C', 'o', 'c', 'o', 'n', 'u', 't' } },
+			{ { 'Apple Banana Coconut', ' ' }, { 'Apple', 'Banana', 'Coconut' } },
+			{ { 'Apple Banana Coconut', '%s' }, { 'Apple', 'Banana', 'Coconut' } },
+			{ { 'Apple,Banana,Coconut', ',' }, { 'Apple', 'Banana', 'Coconut' } },
+			{ { 'Apple\tBanana\tCoconut', '\t' }, { 'Apple', 'Banana', 'Coconut' } },
+			{ { 'Apple, Banana, Coconut', ', ' }, { 'Apple', ' Banana', ' Coconut' } },
+			{ { 'Apple, Banana, Coconut', ',%s' }, { 'Apple', 'Banana', 'Coconut' } },
+		},
+	},
+	startsWith = {
+		options = {
+			mode = 'method',
+			unpk = true,
+		},
+		tests = {
+			{ { }, (notEnoughArgs:gsub('$1', 'String.startsWith(str, start)')), {err = true} },
+			{ { 'Apple' }, (notEnoughArgs:gsub('$1', 'String.startsWith(str, start)')), {err = true} },
+			{ { 'Apple', 'App' }, true },
+			{ { 'Apple', 'Apple' }, true },
+			{ { 'Apple', 'app' }, false },
+			{ { 'Apple', 'app', false }, false },
+			{ { 'Apple', 'app', true }, true },
+			{ { 'Apple', 'Apple Pie' }, false },
+			{ { 'Apple', ' ' }, false },
+			{ { 'Apple', '\n' }, false },
+			{ { 'Apple', '' }, true },
+		},
+	},
+	titleCase = {
+		options = {
+			mode = 'method',
+			unpk = true,
+		},
+		tests = {
+			{ { }, notEnoughArgs:gsub('$1', 'String.titleCase(str)'), {err = true} },
+			{ { '' }, '' },
+			{ { ' ' }, '' },
+			{ { '\n' }, '' },
+			{ { 'EXAMPLE' }, 'Example' },
+			{ { 'example' }, 'Example' },
+			{ { 'Example' }, 'Example' },
+			{ { '    example    ' }, 'Example' },
+		},
+	},
+	trim = {
+		options = {
+			mode = 'method',
+			unpk = true,
+		},
+		tests = {
+			{ { }, (notEnoughArgs:gsub('$1', 'String.trim(str)')), {err = true} },
+			{ { '' }, '' },
+			{ { ' ' }, '' },
+			{ { '\n' }, '' },
+			{ { 'Example' }, 'Example' },
+			{ { '    Example    ' }, 'Example' },
+			{ { '\nExample\n' }, 'Example' },
+			{ { '\tExample\t' }, 'Example' },
+		},
+	},
+	unescape = {
+		options = {
+			mode = 'method',
+			unpk = true,
+		},
+		tests = {
+			{ { }, notEnoughArgs:gsub('$1', 'String.unescape(str)'), {err = true} },
+			{ { '' }, '' },
+			{ { 'Example' }, 'Example' },
+			{ { '%E4%F6%FC' }, 'äöü' },
+			{ { '\\u0107' }, '\\u0107' },
+			{ { '&#58;' }, ':' },
+			{ { '%28 %29 &#40; &#41;' }, '( ) ( )' },
+			{ { '&#20320;&#22909;' }, '你好' },
+			{ { 'Xata%27s%20Whisper' }, 'Xata\'s Whisper' },
+		},
+	},
+};

@@ -1,0 +1,12 @@
+{
+  "page": "Module:Icon/doc",
+  "wiki_timestamp": "2021-05-08T03:55:58Z",
+  "extracted_at": "2026-08-31T21:22:44.781303+00:00",
+  "lua_files": [
+    "Module-Icon-doc_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 160,
+  "comment_count": 0,
+  "status": "success"
+}

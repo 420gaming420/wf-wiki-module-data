@@ -1,0 +1,12 @@
+{
+  "page": "Module:Lang/data/iana scripts",
+  "wiki_timestamp": "2025-01-31T14:44:16Z",
+  "extracted_at": "2026-08-31T21:22:44.861373+00:00",
+  "lua_files": [
+    "Module-Lang-data-iana scripts_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 7313,
+  "comment_count": 1,
+  "status": "success"
+}

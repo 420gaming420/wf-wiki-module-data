@@ -1,0 +1,104 @@
+---
+title: "Module:FormatingTool/missions"
+wiki_url: "https://wiki.warframe.com/w/Module/FormatingTool/missions"
+wiki_timestamp: "2020-06-11T23:45:51Z"
+---
+
+*Documentation for this module may be created at [Module:FormatingTool/missions/doc](/w/Module:FormatingTool/missions/doc?action=edit&redlink=1 "Module:FormatingTool/missions/doc (page does not exist)")*
+
+```lua
+-- representative missions to search in the unformated database
+
+-- Format {"Unique key descriptor","PatternToMatchIntheDBLines"}
+-- Spaces in the match string key need to be written as '%s' (in the Derelict missions)
+ 
+local keywords =
+{
+{"capture all","Mercury/Elion"},
+{"VCapture1","Void/Hepit"},
+{"VCapture3","Void/Ukko"},
+{"defection tier1","Phobos/Memphis"},
+{"defection tier2","Saturn/Caracol"},
+{"defection tier3","Neptune/Yursa"},
+{"defense tier1","Venus/Tessera"},
+{"defense tier2","Jupiter/Io"},
+{"defense tier3","Uranus/Stephano"},
+{"defense DS","Earth/Coba"},
+{"defense ODD","Derelict/Orokin%sDerelict%sDefense"},
+{"VDefense1","Void/Taranis"},
+{"VDefense3","Void/Belenus"},
+{"Disruption1","Mars/Olympus"},
+{"Disruption2","Jupiter/Ganymede"},
+{"Disruption3","Uranus/Ur"},
+{"Disruption4","Neptune/Laomedeia"},
+{"Disruption5","Sedna/Kelpie"},
+{"Disruption6","Lua/Apollo"},
+{"Disruption7","Kuva Fortress/Tamu"},
+{"excavation tier1","Earth/Everest"},
+{"excavation tier2","Europa/Valefor"},
+{"excavation tier3","Neptune/Despina"},
+{"exterminate arch","Venus/Montes"},
+{"exterminate Jupiter","Jupiter/Carpo"},
+{"exterminate kuva","Fortress/Dakata"},
+{"exterminate lua","Lua/Plato"},
+{"VExterminate1","Void/Teshub"},
+{"VExterminate3","Void/Oxomoco"},
+{"interception arch","Uranus/Caelus"},
+{"interception tier1","Earth/Gaia"},
+{"interception tier2","Jupiter/Callisto"},
+{"interception tier3","Sedna/Berehynia"},
+{"VInterception4","Void/Mithra"},
+{"mob def arch","Earth/Erpo"},
+{"VMobileDefense2","Void/Tiwaz"},
+{"VMobileDefense4","Void/Aten"},
+{"pursuit","Saturn/Pandora"},
+{"rathuum tier1","Sedna/Nakki"},
+{"rathuum tier3","Sedna/Vodyanoi"},
+{"rush","Phobos/Kepler"},
+{"sabo arch","Jupiter/Galilea"},
+{"sabo ODsab","Derelict/Orokin%sDerelict%sSabotage"},
+{"sabo earth","Earth/Cervantes"},
+{"sabo tier1","Venus/Ishtar"},
+{"sabo tier2","Ceres/Thon"},
+{"sabo tier3","Pluto/Cypress"},
+{"sabo hive","Eris/Naeglar"},
+{"sabo sealab","Uranus/Desdemona"},
+{"VSabotage2","Void/Stribog"},
+{"sabo void1","Void/Stribog%s%(Caches%)"},
+{"VSabotage4","Void/Marduk"},
+{"sabo void2","Void/Marduk%s%(Caches%)"},
+{"salvage","Eris/Oestrus"},
+{"spy tier1","Earth/Cambria"},
+{"spy tier2","Ceres/Bode"},
+{"spy tier3","Uranus/Rosalind"},
+{"spy kuva","Fortress/Pago"},
+{"spy lua","Lua/Pavlov"},
+{"surv ODS","Orokin%sDerelict%sSurvival"},
+{"surv tier1","Mercury/Apollodorus"},
+{"surv tier2","Ceres/Draco"},
+{"surv tier3","Uranus/Ophelia"},
+{"VSurvival2","Void/Ani"},
+{"surv tier4","Void/Mot"},
+{"surv DS1","Venus/Malva"},
+{"surv DS2","Mars/Wahiba"},
+{"surv DS3","Uranus/Assur"},
+{"surv eris","Eris/Zabala"},
+{"Onslaught Easy","Sanctuary/Sanctuary"},
+{"Onslaught Hard","Sanctuary/Elite"},
+{"Arbitrations","Arbitrations"},
+{"Hallowed Flame Mission","Hallowed%sFlame%sMission"},
+{"Hallowed Flame Endurance","Hallowed%sFlame%sEndurance"},
+{"Earth Proxima","Earth/Sover"},
+{"Saturn Proxima","Saturn/Kasio"},
+{"Veil Proxima","Veil/Nsu%sGrid%s%(Skirmish%)"},
+{"Veil Proxima caches","Veil/Nsu%sGrid%s%(Caches%)"},
+{"Myrex Raid","Murex%sRaid"},
+{"Ground Assault","Ground%sAssault"},
+{"Granum 1","Granum%sVoid"},
+{"Granum 2","Extended%sGranum%sVoid"},
+{"Granum 3","Nightmare%sGranum%sVoid"},
+}
+ 
+return keywords
+```
+

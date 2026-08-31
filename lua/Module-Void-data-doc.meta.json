@@ -1,0 +1,15 @@
+{
+  "page": "Module:Void/data/doc",
+  "wiki_timestamp": "2026-04-08T18:51:57Z",
+  "extracted_at": "2026-08-31T21:22:45.510901+00:00",
+  "lua_files": [
+    "Module-Void-data-doc_0.lua",
+    "Module-Void-data-doc_1.lua",
+    "Module-Void-data-doc_2.lua",
+    "Module-Void-data-doc_3.lua"
+  ],
+  "lua_block_count": 4,
+  "file_size": 2250,
+  "comment_count": 0,
+  "status": "success"
+}

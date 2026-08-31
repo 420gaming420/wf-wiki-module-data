@@ -1,0 +1,12 @@
+{
+  "page": "Module:TextIcons/data",
+  "wiki_timestamp": "2026-05-21T18:02:28Z",
+  "extracted_at": "2026-08-31T21:22:45.396746+00:00",
+  "lua_files": [
+    "Module-TextIcons-data_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 44502,
+  "comment_count": 4,
+  "status": "success"
+}

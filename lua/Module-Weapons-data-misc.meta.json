@@ -1,0 +1,17 @@
+{
+  "page": "Module:Weapons/data/misc",
+  "wiki_timestamp": "2026-08-09T20:26:28Z",
+  "extracted_at": "2026-08-31T21:22:45.834975+00:00",
+  "lua_files": [
+    "Module-Weapons-data-misc_0.lua",
+    "Module-Weapons-data-misc_1.lua",
+    "Module-Weapons-data-misc_2.lua",
+    "Module-Weapons-data-misc_3.lua",
+    "Module-Weapons-data-misc_4.lua",
+    "Module-Weapons-data-misc_5.lua"
+  ],
+  "lua_block_count": 6,
+  "file_size": 23382,
+  "comment_count": 5,
+  "status": "success"
+}

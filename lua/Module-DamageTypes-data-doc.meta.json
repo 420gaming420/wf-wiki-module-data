@@ -1,0 +1,14 @@
+{
+  "page": "Module:DamageTypes/data/doc",
+  "wiki_timestamp": "2025-03-16T22:19:29Z",
+  "extracted_at": "2026-08-31T21:22:44.110504+00:00",
+  "lua_files": [
+    "Module-DamageTypes-data-doc_0.lua",
+    "Module-DamageTypes-data-doc_1.lua",
+    "Module-DamageTypes-data-doc_2.lua"
+  ],
+  "lua_block_count": 3,
+  "file_size": 1363,
+  "comment_count": 0,
+  "status": "success"
+}

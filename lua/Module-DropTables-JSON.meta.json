@@ -1,0 +1,12 @@
+{
+  "page": "Module:DropTables/JSON",
+  "wiki_timestamp": "2020-11-01T23:25:58Z",
+  "extracted_at": "2026-08-31T21:22:44.341710+00:00",
+  "lua_files": [
+    "Module-DropTables-JSON_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 847,
+  "comment_count": 27,
+  "status": "success"
+}

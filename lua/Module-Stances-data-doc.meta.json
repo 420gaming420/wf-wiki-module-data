@@ -1,0 +1,13 @@
+{
+  "page": "Module:Stances/data/doc",
+  "wiki_timestamp": "2026-02-22T02:09:58Z",
+  "extracted_at": "2026-08-31T21:22:45.309275+00:00",
+  "lua_files": [
+    "Module-Stances-data-doc_0.lua",
+    "Module-Stances-data-doc_1.lua"
+  ],
+  "lua_block_count": 2,
+  "file_size": 1788,
+  "comment_count": 0,
+  "status": "success"
+}

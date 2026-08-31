@@ -1,0 +1,4877 @@
+---
+title: "Module:Cosmetics/data/warframeskin"
+wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/warframeskin"
+wiki_timestamp: "2026-08-28T15:19:50Z"
+---
+
+*Documentation for this module may be created at [Module:Cosmetics/data/warframeskin/doc](/w/Module:Cosmetics/data/warframeskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/warframeskin/doc (page does not exist)")*
+
+```lua
+return {
+	["Amir Gemini Skin"] = {
+		CodexSecret = false,
+		Description = "Amir Beckett, the Hex's quirky, upbeat technician, brings a human face to the Volt Warframe.\r\n\r\nSwitch between Volt and Amir's fully voiced, customizable Gemini Skin with the included Amir Gemini Emote, even during missions.",
+		ExcludeFromCodex = false,
+		Image = "AmirGeminiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Volt/WF1999VoltSkin",
+		Link = "Amir Gemini Skin",
+		Name = "Amir Gemini Skin",
+		Type = "Skin"
+	},
+	["Aoi Gemini Skin"] = {
+		CodexSecret = false,
+		Description = "Aoi Morohoshi, the Hex's protective second-in-command, brings a human face to the Mag Warframe.\r\n\r\nSwitch between Mag and Aoi's fully voiced, customizable Gemini Skin with the included Aoi Gemini Emote, even during missions.",
+		ExcludeFromCodex = false,
+		Image = "AoiGeminiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Mag/WF1999MagSkin",
+		Link = "Aoi Gemini Skin",
+		Name = "Aoi Gemini Skin",
+		Type = "Skin"
+	},
+	["Arthur Gemini Skin"] = {
+		CodexSecret = false,
+		Description = "Arthur Nightingale, gruff leader of the Hex, brings a human face to the Excalibur Warframe.\r\n\r\nSwitch between Excalibur and Arthur's fully voiced, customizable Gemini Skin with the included Arthur Gemini Emote, even during missions.",
+		ExcludeFromCodex = false,
+		Image = "ArthurGeminiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Excalibur/ExcaliburLasriaSkin",
+		Link = "Arthur Gemini Skin",
+		Name = "Arthur Gemini Skin",
+		Type = "Skin"
+	},
+	["Ash Bai Hu Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Ash Warframe, designed by Hitsu San.",
+		ExcludeFromCodex = false,
+		Image = "AshBaiHuSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Ninja/SWBaihuSkin",
+		Link = "Ash Bai Hu Skin",
+		Name = "Ash Bai Hu Skin",
+		Type = "Skin"
+	},
+	["Ash Ichneumon Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Ash Warframe, designed by Vulbjorn.",
+		ExcludeFromCodex = false,
+		Image = "AshIchneumonSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Ninja/SWIchneumonSkin",
+		Link = "Ash Ichneumon Skin",
+		Name = "Ash Ichneumon Skin",
+		Type = "Skin"
+	},
+	["Ash Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal skin for the Ash Warframe.",
+		ExcludeFromCodex = false,
+		Image = "AshImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Ninja/AshAlternateSkin",
+		Link = "Ash Immortal Skin",
+		Name = "Ash Immortal Skin",
+		Type = "Skin"
+	},
+	["Ash Koga Skin"] = {
+		CodexSecret = false,
+		Description = "Emerge from the dark smoke of battle as a new vision of the master spy.",
+		ExcludeFromCodex = false,
+		Image = "AshKogaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Ninja/NinjaDeluxeSuit",
+		Link = "Ash Koga Skin",
+		Name = "Ash Koga Skin",
+		Type = "Skin"
+	},
+	["Ash Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Ash Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "AshPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Ninja/AshPrimeSkin",
+		Link = "Ash Prime Skin",
+		Name = "Ash Prime Skin",
+		Type = "Skin"
+	},
+	["Ash Ryuga Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Ash Warframe, designed by Rekkou.",
+		ExcludeFromCodex = false,
+		Image = "AshRyugaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Ninja/SWRyugaSkin",
+		Link = "Ash Ryuga Skin",
+		Name = "Ash Ryuga Skin",
+		Type = "Skin"
+	},
+	["Ash Shroud Skin"] = {
+		CodexSecret = false,
+		Description = "Where once was fire is now cold resolve. A signature look for a prestige killer.",
+		ExcludeFromCodex = false,
+		Image = "AshShroudSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Ninja/AshDeluxeSkin",
+		Link = "Ash Shroud Skin",
+		Name = "Ash Shroud Skin",
+		Type = "Skin"
+	},
+	["Ash Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Ash Warframe.",
+		ExcludeFromCodex = true,
+		Image = "AshSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Ninja/NinjaSkin",
+		Link = "Ash Skin",
+		Name = "Ash Skin",
+		Type = "Skin"
+	},
+	["Ash Tsukuyomi Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Ash Warframe, designed by Yatus.",
+		ExcludeFromCodex = false,
+		Image = "AshTsukuyomiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Ninja/SWTsukuyomiSkin",
+		Link = "Ash Tsukuyomi Skin",
+		Name = "Ash Tsukuyomi Skin",
+		Type = "Skin"
+	},
+	["Atlas Blade of the Lotus Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Atlas Warframe, designed by BeastBuster.",
+		ExcludeFromCodex = false,
+		Image = "AtlasBladeoftheLotusSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Brawler/SWAtlasBotLSkin",
+		Link = "Atlas Blade of the Lotus Skin",
+		Name = "Atlas Blade of the Lotus Skin",
+		Type = "Skin"
+	},
+	["Atlas Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Atlas Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "AtlasGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Brawler/SWAtlasGraxxSkin",
+		Link = "Atlas Graxx Skin",
+		Name = "Atlas Graxx Skin",
+		Type = "Skin"
+	},
+	["Atlas Karst Skin"] = {
+		CodexSecret = false,
+		Description = "To move a mountain, become the mountain. Embody the tectonic power of Atlas with this landmark skin.",
+		ExcludeFromCodex = false,
+		Image = "AtlasKarstSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Brawler/AtlasDeluxeSkin",
+		Link = "Atlas Karst Skin",
+		Name = "Atlas Karst Skin",
+		Type = "Skin"
+	},
+	["Atlas Monolith Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Atlas Warframe, designed by Stenchfury.",
+		ExcludeFromCodex = false,
+		Image = "AtlasMonolithSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Brawler/SWMonolithSkin",
+		Link = "Atlas Monolith Skin",
+		Name = "Atlas Monolith Skin",
+		Type = "Skin"
+	},
+	["Atlas Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Atlas Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "AtlasPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Brawler/AtlasPrimeSkin",
+		Link = "Atlas Prime Skin",
+		Name = "Atlas Prime Skin",
+		Type = "Skin"
+	},
+	["Atlas Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Atlas Warframe.",
+		ExcludeFromCodex = true,
+		Image = "AtlasSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Brawler/BrawlerSkin",
+		Link = "Atlas Skin",
+		Name = "Atlas Skin",
+		Type = "Skin"
+	},
+	["Banshee Blade of the Lotus Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Banshee Warframe, designed by BeastBuster.",
+		ExcludeFromCodex = false,
+		Image = "BansheeBladeoftheLotusSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Decree/SWBansheeBotLSkin",
+		Link = "Banshee Blade of the Lotus Skin",
+		Name = "Banshee Blade of the Lotus Skin",
+		Type = "Skin"
+	},
+	["Banshee Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal skin for the Banshee Warframe.",
+		ExcludeFromCodex = false,
+		Image = "BansheeImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Decree/BansheeAlternateSkin",
+		Link = "Banshee Immortal Skin",
+		Name = "Banshee Immortal Skin",
+		Type = "Skin"
+	},
+	["Banshee Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Banshee Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "BansheePrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Decree/BansheePrimeSkin",
+		Link = "Banshee Prime Skin",
+		Name = "Banshee Prime Skin",
+		Type = "Skin"
+	},
+	["Banshee Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Banshee Warframe.",
+		ExcludeFromCodex = true,
+		Image = "BansheeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Decree/BansheeSkin",
+		Link = "Banshee Skin",
+		Name = "Banshee Skin",
+		Type = "Skin"
+	},
+	["Banshee Sonority Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Banshee Warframe, designed by prosetisen.",
+		ExcludeFromCodex = false,
+		Image = "BansheeSonoritySkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Decree/SWSonoritySkin",
+		Link = "Banshee Sonority Skin",
+		Name = "Banshee Sonority Skin",
+		Type = "Skin"
+	},
+	["Banshee Soprana Skin"] = {
+		CodexSecret = false,
+		Description = "Sleek and stylish, Banshee Soprana sings a song of devastation.",
+		ExcludeFromCodex = false,
+		Image = "BansheeSopranaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Decree/BansheeDeluxeSuit",
+		Link = "Banshee Soprana Skin",
+		Name = "Banshee Soprana Skin",
+		Type = "Skin"
+	},
+	["Banshee Voidshell Skin"] = {
+		CodexSecret = false,
+		Description = "Don with morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+		ExcludeFromCodex = false,
+		Image = "BansheeVoidshellSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Decree/BansheeVoidShellSkin",
+		Link = "Banshee Voidshell Skin",
+		Name = "Banshee Voidshell Skin",
+		Type = "Skin"
+	},
+	["Baruuk Bedouin Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Baruuk Warframe, designed by Erneix and karu.",
+		ExcludeFromCodex = false,
+		Image = "BaruukBedouinSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Pacifist/SWBedouinSkin",
+		Link = "Baruuk Bedouin Skin",
+		Name = "Baruuk Bedouin Skin",
+		Type = "Skin"
+	},
+	["Baruuk Blade of the Lotus Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Baruuk Warframe, designed by BeastBuster.",
+		ExcludeFromCodex = false,
+		Image = "BaruukBladeoftheLotusSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Pacifist/SWBaruukBotLSkin",
+		Link = "Baruuk Blade of the Lotus Skin",
+		Name = "Baruuk Blade of the Lotus Skin",
+		Type = "Skin"
+	},
+	["Baruuk Doan Skin"] = {
+		CodexSecret = false,
+		Description = "Draw on your inner strength through contemplation.",
+		ExcludeFromCodex = false,
+		Image = "BaruukDoanSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Pacifist/BaruukDeluxeSkin",
+		Link = "Baruuk Doan Skin",
+		Name = "Baruuk Doan Skin",
+		Type = "Skin"
+	},
+	["Baruuk Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Baruuk Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "BaruukGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Pacifist/SWBaruukGraxxSkin",
+		Link = "Baruuk Graxx Skin",
+		Name = "Baruuk Graxx Skin",
+		Type = "Skin"
+	},
+	["Baruuk Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal skin for the Baruuk Warframe.",
+		ExcludeFromCodex = false,
+		Image = "BaruukImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Pacifist/BaruukImmortalSkin",
+		Link = "Baruuk Immortal Skin",
+		Name = "Baruuk Immortal Skin",
+		Type = "Skin"
+	},
+	["Baruuk Peacemaker Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Baruuk Warframe, designed by Ventralhound.",
+		ExcludeFromCodex = false,
+		Image = "BaruukPeacemakerSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Pacifist/SWBaruukPeacemakerSkin",
+		Link = "Baruuk Peacemaker Skin",
+		Name = "Baruuk Peacemaker Skin",
+		Type = "Skin"
+	},
+	["Baruuk Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Baruuk Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "BaruukPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Pacifist/BaruukPrimeSkin",
+		Link = "Baruuk Prime Skin",
+		Name = "Baruuk Prime Skin",
+		Type = "Skin"
+	},
+    ["Baruuk Shaoshi Skin"] = {
+     	CodexSecret = false,
+     	Description = "Fear the gaze of Baruuk Shaoshi’s mystic eye. His martial mastery, honed over long ages of defending sacred ground, is once again brought to bear against all enemies of peace.",
+     	ExcludeFromCodex = true,
+     	Image = "BaruukShaoshiSkin.png",
+     	InternalName = "/Lotus/Upgrades/Skins/Pacifist/BaruukDeluxeIISkin",
+     	Link = "Baruuk Shaoshi Skin",
+     	Name = "Baruuk Shaoshi Skin",
+     	Type = "Skin"
+    },
+	["Baruuk Shiraan Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Baruuk Warframe, designed by Lubox.",
+		ExcludeFromCodex = false,
+		Image = "BaruukShiraanSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Pacifist/SWShiraanSkin",
+		Link = "Baruuk Shiraan Skin",
+		Name = "Baruuk Shiraan Skin",
+		Type = "Skin"
+	},
+	["Baruuk Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Baruuk Warframe.",
+		ExcludeFromCodex = true,
+		Image = "BaruukSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Pacifist/PacifistSkin",
+		Link = "Baruuk Skin",
+		Name = "Baruuk Skin",
+		Type = "Skin"
+	},
+	["Baruuk Zamariu Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Baruuk Warframe, designed by daemonstar and led2012.",
+		ExcludeFromCodex = false,
+		Image = "BaruukZamariuSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Pacifist/SWBaruukZamariuSkin",
+		Link = "Baruuk Zamariu Skin",
+		Name = "Baruuk Zamariu Skin",
+		Type = "Skin"
+	},
+	["Brysko Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Brysko Warframe.",
+		ExcludeFromCodex = true,
+		Image = "BryskoSkin.png",
+		InternalName = "",
+		Link = "Brysko Skin",
+		Name = "Brysko Skin",
+		Type = "Skin"
+	},
+	["Caliban Orfeo Skin"] = {
+		CodexSecret = false,
+		Description = "Venture boldly into the Otherworld. None shall defeat the one who shows honor in the face of adversity and courage in the face of death.",
+		ExcludeFromCodex = false,
+		Image = "CalibanOrfeoSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Sentient/CalibanDeluxeSkin",
+		Link = "Caliban Orfeo Skin",
+		Name = "Caliban Orfeo Skin",
+		Type = "Skin"
+	},
+	["Caliban Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Caliban Warframe.",
+		ExcludeFromCodex = true,
+		Image = "CalibanSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Sentient/SentientSkin",
+		Link = "Caliban Skin",
+		Name = "Caliban Skin",
+		Type = "Skin"
+	},
+	["Chroma Drevni Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Chroma Warframe, designed by Volkovyi.",
+		ExcludeFromCodex = false,
+		Image = "ChromaDrevniSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Dragon/SWRFiveChromaDrevniSkin",
+		Link = "Chroma Drevni Skin",
+		Name = "Chroma Drevni Skin",
+		Type = "Skin"
+	},
+	["Chroma Dynasty Skin"] = {
+		CodexSecret = false,
+		Description = "Behold, a new elemental king.",
+		ExcludeFromCodex = false,
+		Image = "ChromaDynastySkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Dragon/ChromaDeluxeSkin",
+		Link = "Chroma Dynasty Skin",
+		Name = "Chroma Dynasty Skin",
+		Type = "Skin"
+	},
+	["Chroma Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Chroma Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "ChromaGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Dragon/SWGraxxChromaSkin",
+		Link = "Chroma Graxx Skin",
+		Name = "Chroma Graxx Skin",
+		Type = "Skin"
+	},
+	["Chroma Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal Skin for the Chroma Warframe.",
+		ExcludeFromCodex = true,
+		Image = "ChromaImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Dragon/ChromaAlternateSkin",
+		Link = "Chroma Immortal Skin",
+		Name = "Chroma Immortal Skin",
+		Type = "Skin"
+	},
+	["Chroma Morkai Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Chroma Warframe, designed by lukinu_u.",
+		ExcludeFromCodex = false,
+		Image = "ChromaMorkaiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Dragon/SWMorkaiSkin",
+		Link = "Chroma Morkai Skin",
+		Name = "Chroma Morkai Skin",
+		Type = "Skin"
+	},
+	["Chroma Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Chroma Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "ChromaPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Dragon/ChromaPrimeSkin",
+		Link = "Chroma Prime Skin",
+		Name = "Chroma Prime Skin",
+		Type = "Skin"
+	},
+	["Chroma Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Chroma Warframe.",
+		ExcludeFromCodex = true,
+		Image = "ChromaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Dragon/ChromaSkin",
+		Link = "Chroma Skin",
+		Name = "Chroma Skin",
+		Type = "Skin"
+	},
+	["Chroma Thyrus Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Chroma Warframe, designed by Stenchfury.",
+		ExcludeFromCodex = false,
+		Image = "ChromaThyrusSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Dragon/SWThyrusSkin",
+		Link = "Chroma Thyrus Skin",
+		Name = "Chroma Thyrus Skin",
+		Type = "Skin"
+	},
+	["Chroma Vojnik Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Chroma Warframe, designed by Volkovyi.",
+		ExcludeFromCodex = false,
+		Image = "ChromaVojnikSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Dragon/SWRSixChromaVojnikSkin",
+		Link = "Chroma Vojnik Skin",
+		Name = "Chroma Vojnik Skin",
+		Type = "Skin"
+	},
+	["Chroma Zunlong Skin"] = {
+		CodexSecret = false,
+		Description = "The dragon soars with the wisdom of the ages.",
+		ExcludeFromCodex = false,
+		Image = "ChromaZunlongSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Dragon/ChromaLNYSkin",
+		Link = "Chroma Zunlong Skin",
+		Name = "Chroma Zunlong Skin",
+		Type = "Skin"
+	},
+	["Citrine Aphrodita Skin"] = {
+		CodexSecret = false,
+		Description = "Embrace the eternal bond between love and war with Citrine Aphrodita. There are no roses without thorns.",
+		ExcludeFromCodex = true,
+		Image = "CitrineAphroditaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Geode/CitrineDeluxeSkin",
+		Link = "Citrine Aphrodita Skin",
+		Name = "Citrine Aphrodita Skin",
+		Type = "Skin"
+	},
+	["Citrine Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Citrine Warframe.",
+		ExcludeFromCodex = true,
+		Image = "CitrineSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Geode/GeodeSkin",
+		Link = "Citrine Skin",
+		Name = "Citrine Skin",
+		Type = "Skin"
+	},
+	["Cyte-09 Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Cyte-09 Warframe.",
+		ExcludeFromCodex = true,
+		Image = "Cyte-09Skin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Frumentarius/FrumentariusSkin",
+		Link = "Cyte-09 Skin",
+		Name = "Cyte-09 Skin",
+		Type = "Skin"
+	},
+	["Dagath Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Dagath Warframe.",
+		ExcludeFromCodex = true,
+		Image = "DagathSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Dagath/DagathSkin",
+		Link = "Dagath Skin",
+		Name = "Dagath Skin",
+		Type = "Skin"
+	},
+	["Dagath Yfari Skin"] = {
+		CodexSecret = false,
+		Description = "Dagath Yfari alights with ghostly flames. Her phantom cavalry also assumes a new and macabre aspect, their haunting visitation betiding woe for those who unwisely turn them away.",
+		ExcludeFromCodex = true,
+		Image = "DagathYfariSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Dagath/DagathDeluxeLNYSkin",
+		Link = "Dagath Yfari Skin",
+		Name = "Dagath Yfari Skin",
+		Type = "Skin"
+	},
+	["Dante Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Dante Warframe.",
+		ExcludeFromCodex = true,
+		Image = "DanteSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Pagemaster/PagemasterSkin",
+		Link = "Dante Skin",
+		Name = "Dante Skin",
+		Type = "Skin"
+	},
+	["Dante Tytonis Skin"] = {
+		CodexSecret = true,
+		Description = "Knowledge glides on dark wings, silent and sure. Dante Tytonis knows wisdom is power.",
+		ExcludeFromCodex = false,
+		Image = "DanteTytonisSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Pagemaster/PagemasterDeluxeSkin",
+		Introduced = "43",
+		Link = "Dante Tytonis Skin",
+		Name = "Dante Tytonis Skin",
+		Type = "Skin"
+	},
+	["Eleanor Gemini Skin"] = {
+		CodexSecret = false,
+		Description = "Eleanor Nightingale, the mysterious psychic specialist of the Hex, brings a human face to the Nyx Warframe.\r\n\r\nSwitch between Nyx and Eleanor's fully voiced, customizable Gemini Skin with the included Eleanor Gemini Emote, even during missions.",
+		ExcludeFromCodex = false,
+		Image = "EleanorGeminiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Jade/WF1999NyxSkin",
+		Link = "Eleanor Gemini Skin",
+		Name = "Eleanor Gemini Skin",
+		Type = "Skin"
+	},
+	["Ember Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Ember Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "EmberGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Ember/SWRSixEmberGraxxSkin",
+		Link = "Ember Graxx Skin",
+		Name = "Ember Graxx Skin",
+		Type = "Skin"
+	},
+	["Ember Heirloom Skin"] = {
+		CodexSecret = false,
+		Description = "Heirloom skins signify the passage of time and the dedication of the Tenno. Ember's legacy is immortalized in the beauty of molten rock and volcanic fire.",
+		ExcludeFromCodex = false,
+		Image = "EmberHeirloomSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Ember/EmberHeirloomSkin",
+		Link = "Ember Heirloom Skin",
+		Name = "Ember Heirloom Skin",
+		Type = "Skin"
+	},
+	["Ember Ignition Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Ember Warframe, designed by Kaiceps.",
+		ExcludeFromCodex = false,
+		Image = "EmberIgnitionSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Ember/SWIgnitionSkin",
+		Link = "Ember Ignition Skin",
+		Name = "Ember Ignition Skin",
+		Type = "Skin"
+	},
+	["Ember Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal skin for the Ember Warframe.",
+		ExcludeFromCodex = false,
+		Image = "EmberImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Ember/EmberAlternateSkin",
+		Link = "Ember Immortal Skin",
+		Name = "Ember Immortal Skin",
+		Type = "Skin"
+	},
+	["Ember Magesty Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Ember Warframe, designed by prosetisen and Cheshire.",
+		ExcludeFromCodex = false,
+		Image = "EmberMagestySkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Ember/SWMagestySkin",
+		Link = "Ember Magesty Skin",
+		Name = "Ember Magesty Skin",
+		Type = "Skin"
+	},
+	["Ember Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Ember Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "EmberPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Ember/EmberPrimeSkin",
+		Link = "Ember Prime Skin",
+		Name = "Ember Prime Skin",
+		Type = "Skin"
+	},
+	["Ember Pyraxis Skin"] = {
+		CodexSecret = false,
+		Description = "Ember refined to her most searing elemental form, the primordial flame.",
+		ExcludeFromCodex = false,
+		Image = "EmberPyraxisSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Ember/EmberDeluxeIISkin",
+		Link = "Ember Pyraxis Skin",
+		Name = "Ember Pyraxis Skin",
+		Type = "Skin"
+	},
+	["Ember Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Ember Warframe.",
+		ExcludeFromCodex = true,
+		Image = "EmberSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Ember/EmberSkin",
+		Link = "Ember Skin",
+		Name = "Ember Skin",
+		Type = "Skin"
+	},
+	["Ember Technopyre Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Ember Warframe, designed by Master Noob.",
+		ExcludeFromCodex = false,
+		Image = "EmberTechnopyreSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Ember/SWTechnopyreSkin",
+		Link = "Ember Technopyre Skin",
+		Name = "Ember Technopyre Skin",
+		Type = "Skin"
+	},
+	["Ember Vermillion Skin"] = {
+		CodexSecret = false,
+		Description = "From the ashes of battle a flamboyant new Ember rises.",
+		ExcludeFromCodex = false,
+		Image = "EmberVermillionSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Ember/EmberDeluxeSkin",
+		Link = "Ember Vermillion Skin",
+		Name = "Ember Vermillion Skin",
+		Type = "Skin"
+	},
+	["Ember Voidshell Skin"] = {
+		CodexSecret = false,
+		Description = "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+		ExcludeFromCodex = false,
+		Image = "EmberVoidshellSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Ember/EmberVoidshellSkin",
+		Link = "Ember Voidshell Skin",
+		Name = "Ember Voidshell Skin",
+		Type = "Skin"
+	},
+	["Equinox Antonym Skin"] = {
+		CodexSecret = false,
+		Description = "Few things are more destructive than a secret. Unleash your opposite with this skin for Equinox.",
+		ExcludeFromCodex = false,
+		Image = "EquinoxAntonymSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/YinYang/EquinoxDeluxeSkin",
+		Link = "Equinox Antonym Skin",
+		Name = "Equinox Antonym Skin",
+		Type = "Skin"
+	},
+	["Equinox Divisa Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Equinox Warframe, designed by Hitsu San.",
+		ExcludeFromCodex = false,
+		Image = "EquinoxDivisaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Anima/SWDivisaSkin",
+		Link = "Equinox Divisa Skin",
+		Name = "Equinox Divisa Skin",
+		Type = "Skin"
+	},
+	["Equinox Insomnia Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Equinox Warframe, designed by prosetisen.",
+		ExcludeFromCodex = false,
+		Image = "EquinoxInsomniaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Anima/SWInsomniaSkin",
+		Link = "Equinox Insomnia Skin",
+		Name = "Equinox Insomnia Skin",
+		Type = "Skin"
+	},
+	["Equinox Megaera Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Equinox Warframe, designed by Vulbjorn.",
+		ExcludeFromCodex = false,
+		Image = "EquinoxMegaeraSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Anima/SWMegaeraSkin",
+		Link = "Equinox Megaera Skin",
+		Name = "Equinox Megaera Skin",
+		Type = "Skin"
+	},
+	["Equinox Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Equinox Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "EquinoxPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/YinYang/EquinoxPrimeSkin",
+		Link = "Equinox Prime Skin",
+		Name = "Equinox Prime Skin",
+		Type = "Skin"
+	},
+	["Equinox Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Equinox Warframe.",
+		ExcludeFromCodex = true,
+		Image = "EquinoxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/YinYang/YinYangSkin",
+		Link = "Equinox Skin",
+		Name = "Equinox Skin",
+		Type = "Skin"
+	},
+	["Excalibur Alabaster Skin"] = {
+		CodexSecret = true,
+		Description = "An alternate body skin for Excalibur Prime",
+		ExcludeFromCodex = false,
+		Image = "ExcaliburAlabasterSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Excalibur/ExcaliburPrimeAlabasterSkin",
+		Link = "Excalibur Alabaster Skin",
+		Name = "Excalibur Alabaster Skin",
+		Type = "Skin"
+	},
+	["Excalibur Amethyst Skin"] = {
+		CodexSecret = false,
+		Description = "An elite skin for the Excalibur Warframe.",
+		ExcludeFromCodex = true,
+		Image = "ExcaliburAmethystSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Excalibur/DiscordExcalibur",
+		Link = "Excalibur Amethyst Skin",
+		Name = "Excalibur Amethyst Skin",
+		Type = "Skin"
+	},
+	["Excalibur Apex Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Excalibur Warframe, designed by A-p-o-l-l-y-o-n.",
+		ExcludeFromCodex = false,
+		Image = "ExcaliburApexSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Excalibur/SWRFourExcaliburApexSkin",
+		Link = "Excalibur Apex Skin",
+		Name = "Excalibur Apex Skin",
+		Type = "Skin"
+	},
+	["Excalibur Blade of the Lotus Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Excalibur Warframe, designed by BeastBuster.",
+		ExcludeFromCodex = false,
+		Image = "ExcaliburBladeoftheLotusSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Excalibur/SWExcaliburBotLSkin",
+		Link = "Excalibur Blade of the Lotus Skin",
+		Name = "Excalibur Blade of the Lotus Skin",
+		Type = "Skin"
+	},
+	["Excalibur Caduto Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Excalibur Warframe, designed by Hitsu San.",
+		ExcludeFromCodex = false,
+		Image = "ExcaliburCadutoSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Excalibur/SWRFourExcaliburCadutoSkin",
+		Link = "Excalibur Caduto Skin",
+		Name = "Excalibur Caduto Skin",
+		Type = "Skin"
+	},
+	["Excalibur Corpra Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Excalibur Warframe, designed by FrellingHazmot.",
+		ExcludeFromCodex = false,
+		Image = "ExcaliburCorpraSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Excalibur/SWCorpraSkin",
+		Link = "Excalibur Corpra Skin",
+		Name = "Excalibur Corpra Skin",
+		Type = "Skin"
+	},
+	["Excalibur Dex Skin"] = {
+		CodexSecret = false,
+		Description = "A gift from the Lotus to commemorate the fifth anniversary of the first Tenno waking from Cryo stasis.",
+		ExcludeFromCodex = false,
+		Image = "ExcaliburDexSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Excalibur/ExcaliburDexSkin",
+		Link = "Excalibur Dex Skin",
+		Name = "Excalibur Dex Skin",
+		Type = "Skin"
+	},
+	["Excalibur Exaltation Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Excalibur Warframe, designed by Cheshire.",
+		ExcludeFromCodex = false,
+		Image = "ExcaliburExaltationSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Excalibur/SWExaltationSkin",
+		Link = "Excalibur Exaltation Skin",
+		Name = "Excalibur Exaltation Skin",
+		Type = "Skin"
+	},
+	["Excalibur Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Excalibur Warframe, designed by Faven.\r\n\r\nComes with a bonus helmet.",
+		ExcludeFromCodex = false,
+		Image = "ExcaliburGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Excalibur/SWRFourExcaliburGraxxSkin",
+		Link = "Excalibur Graxx Skin",
+		Name = "Excalibur Graxx Skin",
+		Type = "Skin"
+	},
+	["Excalibur Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal skin for the Excalibur Warframe.",
+		ExcludeFromCodex = false,
+		Image = "ExcaliburImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Excalibur/ExcaliburAlternateSkin",
+		Link = "Excalibur Immortal Skin",
+		Name = "Excalibur Immortal Skin",
+		Type = "Skin"
+	},
+	["Excalibur Ion Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Excalibur Warframe, designed by Yatus.",
+		ExcludeFromCodex = false,
+		Image = "ExcaliburIonSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Excalibur/SWIonExcaliburSkin",
+		Link = "Excalibur Ion Skin",
+		Name = "Excalibur Ion Skin",
+		Type = "Skin"
+	},
+	["Excalibur Jade Skin"] = {
+		CodexSecret = false,
+		Description = "A next-generation skin for Excalibur.",
+		ExcludeFromCodex = false,
+		Image = "ExcaliburJadeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Promo/Microsoft/ExcaliburXBoneSkin",
+		Link = "Excalibur Jade Skin",
+		Name = "Excalibur Jade Skin",
+		Type = "Skin"
+	},
+	["Excalibur Obsidian Skin"] = {
+		CodexSecret = false,
+		Description = "A next-generation skin for the Excalibur Warframe.",
+		ExcludeFromCodex = true,
+		Image = "ExcaliburObsidianSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Sony/ExcaliburPSPlusSkin",
+		Link = "Excalibur Obsidian Skin",
+		Name = "Excalibur Obsidian Skin",
+		Type = "Skin"
+	},
+	["Excalibur Obsidian Azura Skin"] = {
+		CodexSecret = false,
+		Description = "A next-generation skin for the Excalibur Warframe",
+		ExcludeFromCodex = true,
+		Image = "ExcaliburObsidianAzuraSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Excalibur/ObsidianExcaliburSkinB",
+		Link = "Excalibur Obsidian Azura Skin",
+		Name = "Excalibur Obsidian Azura Skin",
+		Type = "Skin"
+	},
+	["Excalibur Onyx Skin"] = {
+		CodexSecret = false,
+		Description = "An elite skin for the Excalibur Warframe.",
+		ExcludeFromCodex = true,
+		Image = "ExcaliburOnyxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/SteamEsteem/EsteemExcalibur",
+		Link = "Excalibur Onyx Skin",
+		Name = "Excalibur Onyx Skin",
+		Type = "Skin"
+	},
+	["Excalibur Opal Skin"] = {
+		CodexSecret = false,
+		Description = "A next-generation skin for the Excalibur Warframe.",
+		ExcludeFromCodex = false,
+		Image = "ExcaliburOpalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Excalibur/NintendoExcalibur",
+		Link = "Excalibur Opal Skin",
+		Name = "Excalibur Opal Skin",
+		Type = "Skin"
+	},
+	["Excalibur Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Excalibur Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "ExcaliburPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Excalibur/ExcaliburPrimeSkin",
+		Link = "Excalibur Prime Skin",
+		Name = "Excalibur Prime Skin",
+		Type = "Skin"
+	},
+	["Excalibur Prisma Skin"] = {
+		CodexSecret = false,
+		Description = "This Excalibur Warframe has been coated with liquid prisma, enriched by pure Void energy.",
+		ExcludeFromCodex = false,
+		Image = "ExcaliburPrismaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/VoidTrader/VTExcaliburSkin",
+		Link = "Excalibur Prisma Skin",
+		Name = "Excalibur Prisma Skin",
+		Type = "Skin"
+	},
+	["Excalibur Prominence Skin"] = {
+		CodexSecret = false,
+		Description = "Draw attention with the bold geometric patterns in this exclusive Excalibur skin.",
+		ExcludeFromCodex = true,
+		Image = "ExcaliburProminenceSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Promo/Twitch/ExcaliburTwitchSkin",
+		Link = "Excalibur Prominence Skin",
+		Name = "Excalibur Prominence Skin",
+		Type = "Skin"
+	},
+	["Excalibur Proto-Armor Skin"] = {
+		CodexSecret = false,
+		Description = "Discovering the precise nature of this recently uncovered armored prototype has proved elusive. Initial attempts at dating point to ancient origins, perhaps even predating Orokin Empire. \r\n\r\n*Excalibur not included.",
+		ExcludeFromCodex = false,
+		Image = "ExcaliburProto-ArmorSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Excalibur/ExcaliburProtoSuit",
+		Link = "Excalibur Proto-Armor Skin",
+		Name = "Excalibur Proto-Armor Skin",
+		Type = "Skin"
+	},
+	["Excalibur Ronin Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Excalibur Warframe, designed by Rekkou.",
+		ExcludeFromCodex = false,
+		Image = "ExcaliburRoninSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Excalibur/SWRoninSkin",
+		Link = "Excalibur Ronin Skin",
+		Name = "Excalibur Ronin Skin",
+		Type = "Skin"
+	},
+	["Excalibur Sentient Slayer Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Excalibur Warframe, designed by CommanderApocalypse.",
+		ExcludeFromCodex = false,
+		Image = "ExcaliburSentientSlayerSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Excalibur/SWRThreeSentientSlayerSkin",
+		Link = "Excalibur Sentient Slayer Skin",
+		Name = "Excalibur Sentient Slayer Skin",
+		Type = "Skin"
+	},
+	["Excalibur Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Excalibur Warframe.",
+		ExcludeFromCodex = true,
+		Image = "ExcaliburSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Excalibur/ExcaliburSkin",
+		Link = "Excalibur Skin",
+		Name = "Excalibur Skin",
+		Type = "Skin"
+	},
+	["Excalibur Umbra Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Excalibur Umbra Warframe.",
+		ExcludeFromCodex = true,
+		Image = "ExcaliburUmbraSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Umbra/UmbraSkin",
+		Link = "Excalibur Umbra Skin",
+		Name = "Excalibur Umbra Skin",
+		Type = "Skin"
+	},
+	["Excalibur Vespula Skin"] = {
+		CodexSecret = false,
+		Description = "A skin for your Excalibur Warframe, designed by polygonmonster.",
+		ExcludeFromCodex = false,
+		Image = "ExcaliburVespulaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Excalibur/SWROneExcaliburSkin",
+		Link = "Excalibur Vespula Skin",
+		Name = "Excalibur Vespula Skin",
+		Type = "Skin"
+	},
+	["Excalibur Voidshell Skin"] = {
+		CodexSecret = false,
+		Description = "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+		ExcludeFromCodex = false,
+		Image = "ExcaliburVoidshellSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Excalibur/ExcaliburVeilBreakerSkin",
+		Link = "Excalibur Voidshell Skin",
+		Name = "Excalibur Voidshell Skin",
+		Type = "Skin"
+	},
+	["Excalibur Zato Skin"] = {
+		CodexSecret = false,
+		Description = "He who has nothing to lose is truly free. This skin for Excalibur embodies the nomadic, unbowed spirit of those who call every world home.",
+		ExcludeFromCodex = false,
+		Image = "ExcaliburZatoSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Excalibur/ExcaliburDeluxeSkin",
+		Link = "Excalibur Zato Skin",
+		Name = "Excalibur Zato Skin",
+		Type = "Skin"
+	},
+	["Flare Gemini Skin"] = {
+		CodexSecret = false,
+		Description = "Flare, a revolutionary glam rock musician, brings a human face to the Temple Warframe.\r\n\r\nSwitch between Temple and Flare's fully voiced, customizable Gemini Skin with the included Flare Gemini Emote, even during missions.",
+		ExcludeFromCodex = false,
+		Image = "FlareGeminiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Temple/WF1999TempleSkin",
+		Link = "Flare Gemini Skin",
+		Name = "Flare Gemini Skin",
+		Type = "Skin"
+	},
+	["Frost Emperor Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Frost Warframe, designed by Hitsu San.",
+		ExcludeFromCodex = false,
+		Image = "FrostEmperorSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Frost/SWRSixFrostEmperorSkin",
+		Link = "Frost Emperor Skin",
+		Name = "Frost Emperor Skin",
+		Type = "Skin"
+	},
+	["Frost Festive Skin"] = {
+		CodexSecret = false,
+		Description = "A festive skin for the Frost Warframe.",
+		ExcludeFromCodex = false,
+		Image = "FrostFestiveSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Frost/FrostXmasSkin",
+		Link = "Frost Festive Skin",
+		Name = "Frost Festive Skin",
+		Type = "Skin"
+	},
+	["Frost Grost Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Frost Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "FrostGrostSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Frost/SWRThreeFrostGrostSkin",
+		Link = "Frost Grost Skin",
+		Name = "Frost Grost Skin",
+		Type = "Skin"
+	},
+	["Frost Hailstorm Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Frost Warframe, designed by Arsenal.",
+		ExcludeFromCodex = false,
+		Image = "FrostHailstormSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Frost/SWRThreeFrostHailstormSkin",
+		Link = "Frost Hailstorm Skin",
+		Name = "Frost Hailstorm Skin",
+		Type = "Skin"
+	},
+	["Frost Harka Skin"] = {
+		CodexSecret = false,
+		Description = "From winter’s forest a dark warrior emerges to protect his flock.",
+		ExcludeFromCodex = false,
+		Image = "FrostHarkaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Frost/FrostDeluxeSuit",
+		Link = "Frost Harka Skin",
+		Name = "Frost Harka Skin",
+		Type = "Skin"
+	},
+	["Frost Heirloom Skin"] = {
+		CodexSecret = false,
+		Description = "Heirloom skins signify the passage of time and the dedication of the Tenno. Honor Frost’s legacy with the cold and deadly beauty of a winter raptor.",
+		ExcludeFromCodex = false,
+		Image = "FrostHeirloomSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Frost/FrostHeirloomSkin",
+		Link = "Frost Heirloom Skin",
+		Name = "Frost Heirloom Skin",
+		Type = "Skin"
+	},
+	["Frost Hisame Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Frost Warframe, designed by malaya and AMO_017.",
+		ExcludeFromCodex = false,
+		Image = "FrostHisameSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Frost/SWHisameSkin",
+		Link = "Frost Hisame Skin",
+		Name = "Frost Hisame Skin",
+		Type = "Skin"
+	},
+	["Frost Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal skin for the Frost Warframe.",
+		ExcludeFromCodex = false,
+		Image = "FrostImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Frost/FrostAlternateSkin",
+		Link = "Frost Immortal Skin",
+		Name = "Frost Immortal Skin",
+		Type = "Skin"
+	},
+	["Frost Ion Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Frost Warframe, designed by Yatus.",
+		ExcludeFromCodex = false,
+		Image = "FrostIonSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Frost/SWIonFrostSkin",
+		Link = "Frost Ion Skin",
+		Name = "Frost Ion Skin",
+		Type = "Skin"
+	},
+	["Frost Opal Skin"] = {
+		CodexSecret = false,
+		Description = "A next-generation skin for the Frost Warframe.",
+		ExcludeFromCodex = true,
+		Image = "FrostOpalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Frost/NintendoFrost",
+		Link = "Frost Opal Skin",
+		Name = "Frost Opal Skin",
+		Type = "Skin"
+	},
+	["Frost Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Frost Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "FrostPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Frost/FrostPrimeSkin",
+		Link = "Frost Prime Skin",
+		Name = "Frost Prime Skin",
+		Type = "Skin"
+	},
+	["Frost Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Frost Warframe.",
+		ExcludeFromCodex = true,
+		Image = "FrostSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Frost/FrostSkin",
+		Link = "Frost Skin",
+		Name = "Frost Skin",
+		Type = "Skin"
+	},
+	["Frost Strigid Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Frost Warframe, designed by Rekkou.",
+		ExcludeFromCodex = false,
+		Image = "FrostStrigidSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Frost/SWFrostStrigidSkin",
+		Link = "Frost Strigid Skin",
+		Name = "Frost Strigid Skin",
+		Type = "Skin"
+	},
+	["Frost Voidshell Skin"] = {
+		CodexSecret = false,
+		Description = "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+		ExcludeFromCodex = false,
+		Image = "FrostVoidshellSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Frost/FrostVoidShellSkin",
+		Link = "Frost Voidshell Skin",
+		Name = "Frost Voidshell Skin",
+		Type = "Skin"
+	},
+	["Frost Vojnik Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Frost Warframe, designed by Volkovyi.",
+		ExcludeFromCodex = false,
+		Image = "FrostVojnikSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Frost/SWRThreeFrostVojnikSkin",
+		Link = "Frost Vojnik Skin",
+		Name = "Frost Vojnik Skin",
+		Type = "Skin"
+	},
+	["Gara Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal Skin for the Gara Warframe.",
+		ExcludeFromCodex = true,
+		Image = "GaraImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Glass/GaraAlternateSkin",
+		Link = "Gara Immortal Skin",
+		Name = "Gara Immortal Skin",
+		Type = "Skin"
+	},
+	["Gara Kaleida Skin"] = {
+		CodexSecret = false,
+		Description = "Walk in fractured beauty amid a dance of light, color, and razor edges.",
+		ExcludeFromCodex = false,
+		Image = "GaraKaleidaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Glass/GlassDeluxeSkin",
+		Link = "Gara Kaleida Skin",
+		Name = "Gara Kaleida Skin",
+		Type = "Skin"
+	},
+	["Gara Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Gara Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "GaraPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Glass/GaraPrimeSkin",
+		Link = "Gara Prime Skin",
+		Name = "Gara Prime Skin",
+		Type = "Skin"
+	},
+	["Gara Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Gara Warframe.",
+		ExcludeFromCodex = true,
+		Image = "GaraSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Glass/GlassSkin",
+		Link = "Gara Skin",
+		Name = "Gara Skin",
+		Type = "Skin"
+	},
+	["Gara Zamariu Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Gara Warframe, designed by led2012 and daemonstar.",
+		ExcludeFromCodex = false,
+		Image = "GaraZamariuSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Glass/SWZamariuSkin",
+		Link = "Gara Zamariu Skin",
+		Name = "Gara Zamariu Skin",
+		Type = "Skin"
+	},
+	["Garuda Hinsa Skin"] = {
+		CodexSecret = false,
+		Description = "The ceremonial dress of a spirit for whom violence is a sacrament.",
+		ExcludeFromCodex = false,
+		Image = "GarudaHinsaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Garuda/GarudaDeluxeSkin",
+		Link = "Garuda Hinsa Skin",
+		Name = "Garuda Hinsa Skin",
+		Type = "Skin"
+	},
+	["Garuda Hinsa Talons Skin"] = {
+		CodexSecret = false,
+		Description = "Garuda Hinsa's signature talons.",
+		ExcludeFromCodex = true,
+		Image = "GarudaHinsaTalonsSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Garuda/GarudaDeluxeClawsSkin",
+		Link = "Garuda Hinsa Talons Skin",
+		Name = "Garuda Hinsa Talons Skin",
+		Type = "Skin"
+	},
+	["Garuda Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Garuda Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "GarudaPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Garuda/GarudaPrimeSkin",
+		Link = "Garuda Prime Skin",
+		Name = "Garuda Prime Skin",
+		Type = "Skin"
+	},
+	["Garuda Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Garuda Warframe.",
+		ExcludeFromCodex = true,
+		Image = "GarudaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Garuda/GarudaSkin",
+		Link = "Garuda Skin",
+		Name = "Garuda Skin",
+		Type = "Skin"
+	},
+	["Garuda Successor Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Garuda Warframe, designed by prosetisen.",
+		ExcludeFromCodex = false,
+		Image = "GarudaSuccessorSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Garuda/SWSuccessorSkin",
+		Link = "Garuda Successor Skin",
+		Name = "Garuda Successor Skin",
+		Type = "Skin"
+	},
+	["Garuda Tengushin Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Garuda Warframe, designed by Lubox.",
+		ExcludeFromCodex = false,
+		Image = "GarudaTengushinSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Garuda/SWGarudaTengushinSkin",
+		Link = "Garuda Tengushin Skin",
+		Name = "Garuda Tengushin Skin",
+		Type = "Skin"
+	},
+	["Garuda Tiamat Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Garuda Warframe, designed by Vulbjorn.",
+		ExcludeFromCodex = false,
+		Image = "GarudaTiamatSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Garuda/SWTiamatSkin",
+		Link = "Garuda Tiamat Skin",
+		Name = "Garuda Tiamat Skin",
+		Type = "Skin"
+	},
+	["Gauss Agito Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Gauss Warframe, designed by Rekkou.",
+		ExcludeFromCodex = false,
+		Image = "GaussAgitoSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Runner/SWGaussAgitoSkin",
+		Link = "Gauss Agito Skin",
+		Name = "Gauss Agito Skin",
+		Type = "Skin"
+	},
+	["Gauss Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Gauss Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "GaussGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Runner/SWGaussGraxxSkin",
+		Link = "Gauss Graxx Skin",
+		Name = "Gauss Graxx Skin",
+		Type = "Skin"
+	},
+	["Gauss Kresnik Skin"] = {
+		CodexSecret = false,
+		Description = "Fire courses through Gauss Kresnik. Gain momentum with his thermal energy.",
+		ExcludeFromCodex = false,
+		Image = "GaussKresnikSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Runner/GaussDeluxeSkin",
+		Link = "Gauss Kresnik Skin",
+		Name = "Gauss Kresnik Skin",
+		Type = "Skin"
+	},
+	["Gauss Moto Skin"] = {
+		CodexSecret = false,
+		Description = "Become a kinetic blur with the turbocharged Gauss Moto. What cannot be hit cannot be killed.",
+		ExcludeFromCodex = false,
+		Image = "GaussMotoSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Runner/GaussDeluxeIISkin",
+		Link = "Gauss Moto Skin",
+		Name = "Gauss Moto Skin",
+		Type = "Skin"
+	},
+	["Gauss Nitrolyst Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Gauss Warframe, designed by Goosmo.",
+		ExcludeFromCodex = false,
+		Image = "GaussNitrolystSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Runner/SWGaussNitrolystSkin",
+		Link = "Gauss Nitrolyst Skin",
+		Name = "Gauss Nitrolyst Skin",
+		Type = "Skin"
+	},
+	["Gauss Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Gauss Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "GaussPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Runner/GaussPrimeSkin",
+		Link = "Gauss Prime Skin",
+		Name = "Gauss Prime Skin",
+		Type = "Skin"
+	},
+	["Gauss Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Gauss Warframe.",
+		ExcludeFromCodex = true,
+		Image = "GaussSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Runner/RunnerSkin",
+		Link = "Gauss Skin",
+		Name = "Gauss Skin",
+		Type = "Skin"
+	},
+	["Grendel Moloch Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Grendel Warframe, designed by Vulbjorn.",
+		ExcludeFromCodex = false,
+		Image = "GrendelMolochSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Devourer/SWMolochSkin",
+		Link = "Grendel Moloch Skin",
+		Name = "Grendel Moloch Skin",
+		Type = "Skin"
+	},
+	["Grendel Nian Skin"] = {
+		CodexSecret = false,
+		Description = "On Lunar Renewal, Grendel takes the form of the beast from below and comes out to stuff his greedy belly.",
+		ExcludeFromCodex = false,
+		Image = "GrendelNianSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Devourer/GrendelDeluxeSkin",
+		Link = "Grendel Nian Skin",
+		Name = "Grendel Nian Skin",
+		Type = "Skin"
+	},
+	["Grendel Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Grendel Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "GrendelPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Devourer/GrendelPrimeSkin",
+		Link = "Grendel Prime Skin",
+		Name = "Grendel Prime Skin",
+		Type = "Skin"
+	},
+	["Grendel Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Grendel Warframe.",
+		ExcludeFromCodex = true,
+		Image = "GrendelSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Devourer/DevourerSkin",
+		Link = "Grendel Skin",
+		Name = "Grendel Skin",
+		Type = "Skin"
+	},
+	["Grendel Turbis Skin"] = {
+		CodexSecret = false,
+		Description = "Beware the howling maw. The imposing silhouette of Grendel Turbis inspires gnawing dread with the opening of his ventral hatch.",
+		ExcludeFromCodex = false,
+		Image = "GrendelTurbisSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Devourer/GrendelDeluxeIISkin",
+		Link = "Grendel Turbis Skin",
+		Name = "Grendel Turbis Skin",
+		Type = "Skin"
+	},
+	["Grendel Voidshell Skin"] = {
+		CodexSecret = false,
+		Description = "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+		ExcludeFromCodex = false,
+		Image = "GrendelVoidshellSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Devourer/GrendelVoidshellSkin",
+		Link = "Grendel Voidshell Skin",
+		Name = "Grendel Voidshell Skin",
+		Type = "Skin"
+	},
+	["Gyre Kuvael Monarch Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Gyre Warframe, designed by Erneix.",
+		ExcludeFromCodex = false,
+		Image = "GyreKuvaelMonarchSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Gyre/SWGyreKuvealMonarchSkin",
+		Link = "Gyre Kuvael Monarch Skin",
+		Name = "Gyre Kuvael Monarch Skin",
+		Type = "Skin"
+	},
+	["Gyre Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Gyre Warframe.",
+		ExcludeFromCodex = true,
+		Image = "GyreSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Gyre/GyreSkin",
+		Link = "Gyre Skin",
+		Name = "Gyre Skin",
+		Type = "Skin"
+	},
+	["Gyre Vortengeist Skin"] = {
+		CodexSecret = false,
+		Description = "Garb the electrical dancer in a form evoking the valves and cables of years past, when science was wild and dangerous.",
+		ExcludeFromCodex = true,
+		Image = "GyreVortengeistSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Gyre/GyreDeluxeSkin",
+		Link = "Gyre Vortengeist Skin",
+		Name = "Gyre Vortengeist Skin",
+		Type = "Skin"
+	},
+	["Harrow Algalyst Skin"] = {
+		CodexSecret = false,
+		Description = "A skin for the Harrow Warframe, designed by Goosmo.",
+		ExcludeFromCodex = false,
+		Image = "HarrowAlgalystSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Priest/SWAlgalystSkin",
+		Link = "Harrow Algalyst Skin",
+		Name = "Harrow Algalyst Skin",
+		Type = "Skin"
+	},
+	["Harrow Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Harrow Warframe, designed by Faven and Faven_LTD.",
+		ExcludeFromCodex = false,
+		Image = "HarrowGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Priest/SWGraxxHarrowSkin",
+		Link = "Harrow Graxx Skin",
+		Name = "Harrow Graxx Skin",
+		Type = "Skin"
+	},
+	["Harrow Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Harrow Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "HarrowPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Priest/HarrowPrimeSkin",
+		Link = "Harrow Prime Skin",
+		Name = "Harrow Prime Skin",
+		Type = "Skin"
+	},
+	["Harrow Reliquary Skin"] = {
+		CodexSecret = false,
+		Description = "Harrow's twilight heart pulses within the sacred casket of a body reinvented. A shattered being bound by void and will.",
+		ExcludeFromCodex = false,
+		Image = "HarrowReliquarySkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Priest/HarrowDeluxeSuit",
+		Link = "Harrow Reliquary Skin",
+		Name = "Harrow Reliquary Skin",
+		Type = "Skin"
+	},
+	["Harrow Veles Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Harrow Warframe, designed by Vulbjorn.",
+		ExcludeFromCodex = false,
+		Image = "HarrowVelesSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Priest/SWVelesSkin",
+		Link = "Harrow Veles Skin",
+		Name = "Harrow Veles Skin",
+		Type = "Skin"
+	},
+	["Hildryn Einheri Skin"] = {
+		CodexSecret = false,
+		Description = "Descend from on high as the legend that Hildryn truly is. A skin that ensures her legend will echo down the ages. Strength and glory!",
+		ExcludeFromCodex = false,
+		Image = "HildrynEinheriSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/IronFrame/ShieldDeluxeBodySkin",
+		Link = "Hildryn Einheri Skin",
+		Name = "Hildryn Einheri Skin",
+		Type = "Skin"
+	},
+	["Hildryn Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Hildryn Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "HildrynPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/IronFrame/HildrynPrimeSkin",
+		Link = "Hildryn Prime Skin",
+		Name = "Hildryn Prime Skin",
+		Type = "Skin"
+	},
+	["Hildryn Sigrun Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Hildryn Warframe, designed by malaya, Jadie and Awk'Q-Luz.",
+		ExcludeFromCodex = false,
+		Image = "HildrynSigrunSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/IronFrame/SWHildrynSigrunSkin",
+		Link = "Hildryn Sigrun Skin",
+		Name = "Hildryn Sigrun Skin",
+		Type = "Skin"
+	},
+	["Hildryn Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Hildryn Warframe.",
+		ExcludeFromCodex = true,
+		Image = "HildrynSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/IronFrame/IronFrameSkin",
+		Link = "Hildryn Skin",
+		Name = "Hildryn Skin",
+		Type = "Skin"
+	},
+	["Hydroid Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Hydroid Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "HydroidGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Pirate/SWGraxxHydroidSkin",
+		Link = "Hydroid Graxx Skin",
+		Name = "Hydroid Graxx Skin",
+		Type = "Skin"
+	},
+	["Hydroid Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal Skin for the Hydroid Warframe.",
+		ExcludeFromCodex = false,
+		Image = "HydroidImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Pirate/HydroidAlternateSkin",
+		Link = "Hydroid Immortal Skin",
+		Name = "Hydroid Immortal Skin",
+		Type = "Skin"
+	},
+	["Hydroid Poseidon Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Hydroid Warframe, designed by Stenchfury.",
+		ExcludeFromCodex = false,
+		Image = "HydroidPoseidonSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Hydroid/SWPoseidonSkin",
+		Link = "Hydroid Poseidon Skin",
+		Name = "Hydroid Poseidon Skin",
+		Type = "Skin"
+	},
+	["Hydroid Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Hydroid Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "HydroidPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Hydroid/HydroidPrimeSkin",
+		Link = "Hydroid Prime Skin",
+		Name = "Hydroid Prime Skin",
+		Type = "Skin"
+	},
+	["Hydroid Rakkam Skin"] = {
+		CodexSecret = false,
+		Description = "Flowing finery that allows ease of movement in the heat of battle.\r\n\r\nAlso includes the Burangara Longcoat auxiliary attachment for Hydroid.",
+		ExcludeFromCodex = false,
+		Image = "HydroidRakkamSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Hydroid/HydroidDeluxeSuit",
+		Link = "Hydroid Rakkam Skin",
+		Name = "Hydroid Rakkam Skin",
+		Type = "Skin"
+	},
+	["Hydroid Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Hydroid Warframe.",
+		ExcludeFromCodex = true,
+		Image = "HydroidSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Hydroid/HydroidSkin",
+		Link = "Hydroid Skin",
+		Name = "Hydroid Skin",
+		Type = "Skin"
+	},
+	["Inaros Horus Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Inaros Warframe, designed by ....A.",
+		ExcludeFromCodex = false,
+		Image = "InarosHorusSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Sandman/SWHorusSkin",
+		Link = "Inaros Horus Skin",
+		Name = "Inaros Horus Skin",
+		Type = "Skin"
+	},
+	["Inaros Ozymandias Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Inaros Warframe, designed by matzan481.",
+		ExcludeFromCodex = false,
+		Image = "InarosOzymandiasSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Sandman/SWOzymandiasSkin",
+		Link = "Inaros Ozymandias Skin",
+		Name = "Inaros Ozymandias Skin",
+		Type = "Skin"
+	},
+	["Inaros Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Inaros Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "InarosPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Sandman/InarosPrimeSkin",
+		Link = "Inaros Prime Skin",
+		Name = "Inaros Prime Skin",
+		Type = "Skin"
+	},
+	["Inaros Ramses Skin"] = {
+		CodexSecret = false,
+		Description = "A god among mortals. A king among Warframes. Ascend the throne and become Inaros Ramses.",
+		ExcludeFromCodex = false,
+		Image = "InarosRamsesSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Sandman/InarosDeluxeSkin",
+		Link = "Inaros Ramses Skin",
+		Name = "Inaros Ramses Skin",
+		Type = "Skin"
+	},
+	["Inaros Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Inaros Warframe.",
+		ExcludeFromCodex = false,
+		Image = "InarosSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Sandman/SandmanSkin",
+		Link = "Inaros Skin",
+		Name = "Inaros Skin",
+		Type = "Skin"
+	},
+	["Ivara Arcuata Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Ivara Warframe, designed by Stenchfury.",
+		ExcludeFromCodex = false,
+		Image = "IvaraArcuataSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Archer/SWArcuataSkin",
+		Link = "Ivara Arcuata Skin",
+		Name = "Ivara Arcuata Skin",
+		Type = "Skin"
+	},
+	["Ivara Astrea Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Ivara Warframe, designed by Rekkou.",
+		ExcludeFromCodex = false,
+		Image = "IvaraAstreaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Archer/SWAstreaSkin",
+		Link = "Ivara Astrea Skin",
+		Name = "Ivara Astrea Skin",
+		Type = "Skin"
+	},
+	["Ivara Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Ivara Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "IvaraGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Archer/SWIvaraGraxxSkin",
+		Link = "Ivara Graxx Skin",
+		Name = "Ivara Graxx Skin",
+		Type = "Skin"
+	},
+	["Ivara Kuvael Huntress Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Ivara Warframe, designed by Erneix.",
+		ExcludeFromCodex = false,
+		Image = "IvaraKuvaelHuntressSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Archer/SWKuvaelSkin",
+		Link = "Ivara Kuvael Huntress Skin",
+		Name = "Ivara Kuvael Huntress Skin",
+		Type = "Skin"
+	},
+	["Ivara Obsidian Skin"] = {
+		CodexSecret = false,
+		Description = "A next-generation skin for the Ivara Warframe.",
+		ExcludeFromCodex = true,
+		Image = "IvaraObsidianSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Archer/ObsidianIvaraSkin",
+		Link = "Ivara Obsidian Skin",
+		Name = "Ivara Obsidian Skin",
+		Type = "Skin"
+	},
+	["Ivara Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Ivara Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "IvaraPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Archer/IvaraPrimeSkin",
+		Link = "Ivara Prime Skin",
+		Name = "Ivara Prime Skin",
+		Type = "Skin"
+	},
+	["Ivara Skathi Skin"] = {
+		CodexSecret = false,
+		Description = "From the darkest forest, a striking new huntress takes aim.",
+		ExcludeFromCodex = false,
+		Image = "IvaraSkathiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Archer/IvaraDeluxeSuit",
+		Link = "Ivara Skathi Skin",
+		Name = "Ivara Skathi Skin",
+		Type = "Skin"
+	},
+	["Ivara Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Ivara Warframe.",
+		ExcludeFromCodex = true,
+		Image = "IvaraSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Ranger/RangerSkin",
+		Link = "Ivara Skin",
+		Name = "Ivara Skin",
+		Type = "Skin"
+	},
+	["Ivara Youkai Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Ivara Warframe, designed by Hitsu San.",
+		ExcludeFromCodex = false,
+		Image = "IvaraYoukaiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Archer/SWYoukaiSkin",
+		Link = "Ivara Youkai Skin",
+		Name = "Ivara Youkai Skin",
+		Type = "Skin"
+	},
+	["Ivara Zamariu Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Ivara Warframe, designed by led2012 and daemonstar.",
+		ExcludeFromCodex = false,
+		Image = "IvaraZamariuSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Archer/SWIvaraZamariuSkin",
+		Link = "Ivara Zamariu Skin",
+		Name = "Ivara Zamariu Skin",
+		Type = "Skin"
+	},
+	["Jade Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Jade Warframe.",
+		ExcludeFromCodex = true,
+		Image = "JadeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Choir/ChoirSkin",
+		Link = "Jade Skin",
+		Name = "Jade Skin",
+		Type = "Skin"
+	},
+	["Jade Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal Skin for the Jade Warframe.",
+		ExcludeFromCodex = false,
+		Image = "JadeImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Choir/JadeImmortalSkin",
+		Link = "Jade Immortal Skin",
+		Name = "Jade Immortal Skin",
+		Type = "Skin"
+	},
+	["Kaya Gemini Skin"] = {
+		CodexSecret = false,
+		Description = "Kaya Velasco, a brilliant science student, brings a human face to the Nova Warframe.\r\n\r\nSwitch between Nova and Kaya's fully voiced, customizable Gemini Skin with the included Kaya Gemini Emote, even during missions.",
+		ExcludeFromCodex = false,
+		Image = "KayaGeminiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/AntiMatter/WF1999NovaSkin",
+		Link = "Kaya Gemini Skin",
+		Name = "Kaya Gemini Skin",
+		Type = "Skin"
+	},
+	["Khora Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Khora Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "KhoraGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Khora/SWKhoraGraxxSkin",
+		Link = "Khora Graxx Skin",
+		Name = "Khora Graxx Skin",
+		Type = "Skin"
+	},
+	["Khora Mithra Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Khora Warframe, designed by lukinu_u.",
+		ExcludeFromCodex = false,
+		Image = "KhoraMithraSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Khora/SWKhoraMithraSkin",
+		Link = "Khora Mithra Skin",
+		Name = "Khora Mithra Skin",
+		Type = "Skin"
+	},
+	["Khora Miyabi Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Khora Warframe, designed by malaya and Awk'Q-Luz.",
+		ExcludeFromCodex = false,
+		Image = "KhoraMiyabiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Khora/SWKhoraOiranSkin",
+		Link = "Khora Miyabi Skin",
+		Name = "Khora Miyabi Skin",
+		Type = "Skin"
+	},
+	["Khora Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Khora Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "KhoraPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Khora/KhoraPrimeSkin",
+		Link = "Khora Prime Skin",
+		Name = "Khora Prime Skin",
+		Type = "Skin"
+	},
+	["Khora Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Khora Warframe.",
+		ExcludeFromCodex = true,
+		Image = "KhoraSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Khora/KhoraSkin",
+		Link = "Khora Skin",
+		Name = "Khora Skin",
+		Type = "Skin"
+	},
+	["Khora Urushu Skin"] = {
+		CodexSecret = false,
+		Description = "Personify the avenging spirit of the forest in armor flowering with deadly blooms.",
+		ExcludeFromCodex = false,
+		Image = "KhoraUrushuSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Khora/KhoraDeluxeSuit",
+		Link = "Khora Urushu Skin",
+		Name = "Khora Urushu Skin",
+		Type = "Skin"
+	},
+	["Koumei Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Koumei Warframe.",
+		ExcludeFromCodex = true,
+		Image = "KoumeiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Koumei/KoumeiSkin",
+		Link = "Koumei Skin",
+		Name = "Koumei Skin",
+		Type = "Skin"
+	},
+	["Kullervo Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Kullervo Warframe.",
+		ExcludeFromCodex = true,
+		Image = "KullervoSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/PaxDuviricus/PaxDuviricusSkin",
+		Link = "Kullervo Skin",
+		Name = "Kullervo Skin",
+		Type = "Skin"
+	},
+    ["Kullervo Apostate Skin"] = {
+    	CodexSecret = false,
+    	Description = "The eternal outcast has nothing left to fear. Kullervo embodies rebellion and the will to endure whatever the oppressor can dish out.",
+    	ExcludeFromCodex = false,
+    	Image = "KullervoApostateSkin.png",
+    	InternalName = "/Lotus/Upgrades/Skins/PaxDuviricus/KulervoDeluxeSkin",
+    	Link = "Kullervo Apostate Skin",
+    	Name = "Kullervo Apostate Skin",
+    	Type = "Skin",
+    },
+	["Lavos Kuvael Alchemist Skin"] = {
+		CodexSecret = false,
+		Description = "A skin for the Lavos Warframe, designed by Erneix.",
+		ExcludeFromCodex = false,
+		Image = "LavosKuvaelAlchemistSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Alchemist/SWLavosKuvaelSkin",
+		Link = "Lavos Kuvael Alchemist Skin",
+		Name = "Lavos Kuvael Alchemist Skin",
+		Type = "Skin"
+	},
+    ["Lavos Khymia Skin"] = {
+    	CodexSecret = false,
+    	Description = "The master of transmutation embraces the process that made him, imbued with the volatile quintessence of alchemy.",
+    	ExcludeFromCodex = false,
+    	Image = "LavosKhymiaSkin.png",
+    	InternalName = "/Lotus/Upgrades/Skins/Alchemist/AlchemistDeluxeSuit",
+    	Link = "Lavos Khymia Skin",
+    	Name = "Lavos Khymia Skin",
+    	Type = "Skin",
+    },
+	["Lavos Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Lavos Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "LavosPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Alchemist/LavosPrimeSkin",
+		Link = "Lavos Prime Skin",
+		Name = "Lavos Prime Skin",
+		Type = "Skin"
+	},
+	["Lavos Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Lavos Warframe.",
+		ExcludeFromCodex = true,
+		Image = "LavosSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Alchemist/AlchemistSkin",
+		Link = "Lavos Skin",
+		Name = "Lavos Skin",
+		Type = "Skin"
+	},
+	["Lavos Yersin Skin"] = {
+		CodexSecret = false,
+		Description = "A skin for the Lavos Warframe, designed by Lubox.",
+		ExcludeFromCodex = false,
+		Image = "LavosYersinSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Alchemist/SWYersinSkin",
+		Link = "Lavos Yersin Skin",
+		Name = "Lavos Yersin Skin",
+		Type = "Skin"
+	},
+	["Lettie Gemini Skin"] = {
+		CodexSecret = false,
+		Description = "Lettie Garcia, the Hex's long-suffering medic, brings a human face to the Trinity Warframe.\r\n\r\nSwitch between Trinity and Lettie's fully voiced, customizable Gemini Skin with the included Lettie Gemini Emote, even during missions.",
+		ExcludeFromCodex = false,
+		Image = "LettieGeminiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Trinity/WF1999TrinitySkin",
+		Link = "Lettie Gemini Skin",
+		Name = "Lettie Gemini Skin",
+		Type = "Skin"
+	},
+	["Limbo Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Limbo Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "LimboGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Magician/SWLimboGraxxSkin",
+		Link = "Limbo Graxx Skin",
+		Name = "Limbo Graxx Skin",
+		Type = "Skin"
+	},
+	["Limbo Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal Skin for the Limbo Warframe.",
+		ExcludeFromCodex = true,
+		Image = "LimboImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Magician/LimboImmortalSkin",
+		Link = "Limbo Immortal Skin",
+		Name = "Limbo Immortal Skin",
+		Type = "Skin"
+	},
+	["Limbo Limina Skin"] = {
+		CodexSecret = false,
+		Description = "War-garb for the liminal; a new form for the in-between.",
+		ExcludeFromCodex = false,
+		Image = "LimboLiminaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Magician/LimboDeluxeSkin",
+		Link = "Limbo Limina Skin",
+		Name = "Limbo Limina Skin",
+		Type = "Skin"
+	},
+	["Limbo Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Limbo Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "LimboPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Magician/LimboPrimeSkin",
+		Link = "Limbo Prime Skin",
+		Name = "Limbo Prime Skin",
+		Type = "Skin"
+	},
+	["Limbo Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Limbo Warframe.",
+		ExcludeFromCodex = true,
+		Image = "LimboSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Magician/MagicianSkin",
+		Link = "Limbo Skin",
+		Name = "Limbo Skin",
+		Type = "Skin"
+	},
+	["Limbo Vasiona Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Limbo Warframe, designed by Volkovyi.",
+		ExcludeFromCodex = false,
+		Image = "LimboVasionaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Magician/SWVasionaSkin",
+		Link = "Limbo Vasiona Skin",
+		Name = "Limbo Vasiona Skin",
+		Type = "Skin"
+	},
+	["Limbo Vistyxio Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Limbo Warframe, designed by led2012 and Hydroxate.",
+		ExcludeFromCodex = false,
+		Image = "LimboVistyxioSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Magician/SWVistyxioSkin",
+		Link = "Limbo Vistyxio Skin",
+		Name = "Limbo Vistyxio Skin",
+		Type = "Skin"
+	},
+	["Limbo Voidshell Skin"] = {
+		CodexSecret = false,
+		Description = "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+		ExcludeFromCodex = false,
+		Image = "LimboVoidshellSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Magician/LimboVoidshellSkin",
+		Link = "Limbo Voidshell Skin",
+		Name = "Limbo Voidshell Skin",
+		Type = "Skin"
+	},
+	["Liset Verv Skin"] = {
+		CodexSecret = false,
+		Description = "A dazzling skin for your Liset.",
+		ExcludeFromCodex = true,
+		Image = "LisetVervSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Promo/Twitch/LisetSkinTwitch",
+		Link = "Liset Verv Skin",
+		Name = "Liset Verv Skin",
+		Type = "Skin"
+	},
+	["Loki Erebus Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Loki Warframe, designed by Vulbjorn.",
+		ExcludeFromCodex = false,
+		Image = "LokiErebusSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Loki/SWErebusSkin",
+		Link = "Loki Erebus Skin",
+		Name = "Loki Erebus Skin",
+		Type = "Skin"
+	},
+	["Loki Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal skin for the Loki Warframe.",
+		ExcludeFromCodex = false,
+		Image = "LokiImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Loki/LokiAlternateSkin",
+		Link = "Loki Immortal Skin",
+		Name = "Loki Immortal Skin",
+		Type = "Skin"
+	},
+	["Loki Incubus Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Loki Warframe, designed by kaz and Volkovyi.",
+		ExcludeFromCodex = false,
+		Image = "LokiIncubusSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Loki/SWIncubusSkin",
+		Link = "Loki Incubus Skin",
+		Name = "Loki Incubus Skin",
+		Type = "Skin"
+	},
+	["Loki Jotunheim Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Loki Warframe, designed by Mz-3.",
+		ExcludeFromCodex = false,
+		Image = "LokiJotunheimSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Loki/SWJotunheimSkin",
+		Link = "Loki Jotunheim Skin",
+		Name = "Loki Jotunheim Skin",
+		Type = "Skin"
+	},
+	["Loki Knave Skin"] = {
+		CodexSecret = false,
+		Description = "A new guise for an old trickster.",
+		ExcludeFromCodex = false,
+		Image = "LokiKnaveSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Loki/LokiDeluxeSuit",
+		Link = "Loki Knave Skin",
+		Name = "Loki Knave Skin",
+		Type = "Skin"
+	},
+	["Loki Kodama Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Loki Warframe, designed by Hitsu San.",
+		ExcludeFromCodex = false,
+		Image = "LokiKodamaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Loki/SWKodamaSkin",
+		Link = "Loki Kodama Skin",
+		Name = "Loki Kodama Skin",
+		Type = "Skin"
+	},
+	["Loki Opal Skin"] = {
+		CodexSecret = false,
+		Description = "A next-generation skin for the Loki Warframe.",
+		ExcludeFromCodex = true,
+		Image = "LokiOpalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Loki/NintendoLoki",
+		Link = "Loki Opal Skin",
+		Name = "Loki Opal Skin",
+		Type = "Skin"
+	},
+	["Loki Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Loki Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "LokiPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Loki/LokiPrimeSkin",
+		Link = "Loki Prime Skin",
+		Name = "Loki Prime Skin",
+		Type = "Skin"
+	},
+	["Loki Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Loki Warframe.",
+		ExcludeFromCodex = true,
+		Image = "LokiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Loki/LokiSkin",
+		Link = "Loki Skin",
+		Name = "Loki Skin",
+		Type = "Skin"
+	},
+	["Loki Verv Skin"] = {
+		CodexSecret = false,
+		Description = "Cut a dashing figure as Loki with the stylish, exclusive Verv skin.",
+		ExcludeFromCodex = false,
+		Image = "LokiVervSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Loki/LokiTwitchSkin",
+		Link = "Loki Verv Skin",
+		Name = "Loki Verv Skin",
+		Type = "Skin"
+	},
+	["Loki Voidshell Skin"] = {
+		CodexSecret = false,
+		Description = "Don with morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+		ExcludeFromCodex = false,
+		Image = "LokiVoidshellSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Loki/LokiVoidShellSkin",
+		Link = "Loki Voidshell Skin",
+		Name = "Loki Voidshell Skin",
+		Type = "Skin"
+	},
+	["Lyon Gemini Skin"] = {
+		CodexSecret = false,
+		Description = "Father Lyon Allard, a priest of Lua tormented by nightmarish visions, brings a human face to the Harrow Warframe.",
+		ExcludeFromCodex = false,
+		Image = "LyonGeminiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Priest/HarrowGeminiSkin",
+		Link = "Lyon Gemini Skin",
+		Name = "Lyon Gemini Skin",
+		Type = "Skin"
+	},
+	["Mag Alata Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Mag Warframe, designed by Hitsu San.",
+		ExcludeFromCodex = false,
+		Image = "MagAlataSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Mag/SWRThreeAlataSkin",
+		Link = "Mag Alata Skin",
+		Name = "Mag Alata Skin",
+		Type = "Skin"
+	},
+	["Mag Amethyst Skin"] = {
+		CodexSecret = false,
+		Description = "An elite skin for the Mag Warframe.",
+		ExcludeFromCodex = true,
+		Image = "MagAmethystSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Mag/DiscordMag",
+		Link = "Mag Amethyst Skin",
+		Name = "Mag Amethyst Skin",
+		Type = "Skin"
+	},
+	["Mag Celestis Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Mag Warframe, designed by malaya, Awk'Q-Luz and Jadie.",
+		ExcludeFromCodex = false,
+		Image = "MagCelestisSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Mag/SWMagCelestisSkin",
+		Link = "Mag Celestis Skin",
+		Name = "Mag Celestis Skin",
+		Type = "Skin"
+	},
+	["Mag Corpra Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Mag Warframe, designed by FrellingHazmot.",
+		ExcludeFromCodex = false,
+		Image = "MagCorpraSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Mag/SWCorpraMagSkin",
+		Link = "Mag Corpra Skin",
+		Name = "Mag Corpra Skin",
+		Type = "Skin"
+	},
+	["Mag Ferro Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Mag Warframe, designed by Master Noob.",
+		ExcludeFromCodex = false,
+		Image = "MagFerroSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Mag/SWFerroSkin",
+		Link = "Mag Ferro Skin",
+		Name = "Mag Ferro Skin",
+		Type = "Skin"
+	},
+	["Mag Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Mag Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "MagGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Mag/SWGraxxMagSkin",
+		Link = "Mag Graxx Skin",
+		Name = "Mag Graxx Skin",
+		Type = "Skin"
+	},
+	["Mag Heirloom Skin"] = {
+		CodexSecret = false,
+		Description = "Heirloom skins signify the passage of time and the dedication of the Tenno. The look of an ancient warrior celebrates Mag, a Warframe who has been part of the fight since the Tenno’s awakening.",
+		ExcludeFromCodex = false,
+		Image = "MagHeirloomSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Mag/MagHeirloomSkin",
+		Link = "Mag Heirloom Skin",
+		Name = "Mag Heirloom Skin",
+		Type = "Skin"
+	},
+	["Mag Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal skin for the Mag Warframe.",
+		ExcludeFromCodex = false,
+		Image = "MagImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Mag/MagAlternateSkin",
+		Link = "Mag Immortal Skin",
+		Name = "Mag Immortal Skin",
+		Type = "Skin"
+	},
+	["Mag Knaita Skin"] = {
+		CodexSecret = false,
+		Description = "A skin for your Mag Warframe, designed by prosetisen.",
+		ExcludeFromCodex = false,
+		Image = "MagKnaitaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Mag/SWROneMagSkin",
+		Link = "Mag Knaita Skin",
+		Name = "Mag Knaita Skin",
+		Type = "Skin"
+	},
+	["Mag Opal Skin"] = {
+		CodexSecret = false,
+		Description = "A next-generation skin for the Mag Warframe.",
+		ExcludeFromCodex = true,
+		Image = "MagOpalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Mag/NintendoMag",
+		Link = "Mag Opal Skin",
+		Name = "Mag Opal Skin",
+		Type = "Skin"
+	},
+	["Mag Orbit Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Mag Warframe, designed by drawingyourdreams.",
+		ExcludeFromCodex = false,
+		Image = "MagOrbitSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Mag/SWRThreeDipoleSkin",
+		Link = "Mag Orbit Skin",
+		Name = "Mag Orbit Skin",
+		Type = "Skin"
+	},
+	["Mag Pneuma Skin"] = {
+		CodexSecret = false,
+		Description = "Breathe new life into Mag with her lavish new form.",
+		ExcludeFromCodex = false,
+		Image = "MagPneumaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Mag/MagDeluxeSkin",
+		Link = "Mag Pneuma Skin",
+		Name = "Mag Pneuma Skin",
+		Type = "Skin"
+	},
+	["Mag Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Mag Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "MagPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Mag/MagPrimeSkin",
+		Link = "Mag Prime Skin",
+		Name = "Mag Prime Skin",
+		Type = "Skin"
+	},
+	["Mag Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Mag Warframe.",
+		ExcludeFromCodex = true,
+		Image = "MagSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Mag/MagSkin",
+		Link = "Mag Skin",
+		Name = "Mag Skin",
+		Type = "Skin"
+	},
+	["Mag Voidshell Skin"] = {
+		CodexSecret = false,
+		Description = "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+		ExcludeFromCodex = false,
+		Image = "MagVoidshellSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Mag/MagVoidShellSkin",
+		Link = "Mag Voidshell Skin",
+		Name = "Mag Voidshell Skin",
+		Type = "Skin"
+	},
+	["Marie Gemini Skin"] = {
+		CodexSecret = false,
+		Description = "Sister Marie Leroux, a nun determined to serve Sol by proving that even the most unrepentant devil can be redeemed, brings a human face to the Wisp Warframe.",
+		ExcludeFromCodex = false,
+		Image = "MarieGeminiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Wisp/WF1999WispSkin",
+		Link = "Marie Gemini Skin",
+		Name = "Marie Gemini Skin",
+		Type = "Skin"
+	},
+	["Merulina"] = {
+		CodexSecret = false,
+		Description = "",
+		ExcludeFromCodex = true,
+		Image = "Merulina.png",
+		InternalName = "/Lotus/Upgrades/Skins/Yareli/MerulinaBoard",
+		Link = "Merulina",
+		Name = "Merulina",
+		Type = "Skin"
+	},
+	["Merulina Pandea Skin"] = {
+		CodexSecret = false,
+		Description = "Call upon Yareli Pandea’s faithful companion.",
+		ExcludeFromCodex = false,
+		Image = "MerulinaPandeaDomestikDrone.png",
+		InternalName = "/Lotus/Upgrades/Skins/Yareli/MerulinaDeluxe",
+		Link = "Merulina Pandea Skin",
+		Name = "Merulina Pandea Skin",
+		Type = "Skin"
+	},
+	["Merulina Prime"] = {
+		CodexSecret = false,
+		Description = "Yareli Prime's living board is the epitome of elegance and style.",
+		ExcludeFromCodex = true,
+		Image = "MerulinaPrimeDomestikDrone.png",
+		InternalName = "/Lotus/Upgrades/Skins/Yareli/PrimeMerulinaBoard",
+		Link = "Merulina Prime",
+		Name = "Merulina Prime",
+		Type = "Skin"
+	},
+	["Mesa Devil Ranger Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Mesa Warframe, designed by Mz-3.",
+		ExcludeFromCodex = false,
+		Image = "MesaDevilRangerSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Cowgirl/SWDevilRangerSkin",
+		Link = "Mesa Devil Ranger Skin",
+		Name = "Mesa Devil Ranger Skin",
+		Type = "Skin"
+	},
+	["Mesa Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Mesa Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "MesaGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Cowgirl/SWGraxxMesaSkin",
+		Link = "Mesa Graxx Skin",
+		Name = "Mesa Graxx Skin",
+		Type = "Skin"
+	},
+    ["Mesa Heirloom Skin"] = {
+    	CodexSecret = false,
+    	Description = "The legendary gunslinger. The notorious heartbreaker. Better call the undertaker, 'cause Mesa Heirloom just sauntered into town.",
+    	ExcludeFromCodex = false,
+    	Image = "MesaHeirloomSkin.png",
+    	InternalName = "/Lotus/Upgrades/Skins/Cowgirl/MesaHeirloomSkin",
+    	Link = "Mesa Heirloom Skin",
+    	Name = "Mesa Heirloom Skin",
+    	Type = "Skin",
+    },
+	["Mesa Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal skin for the Mesa Warframe.",
+		ExcludeFromCodex = false,
+		Image = "MesaImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Cowgirl/MesaImmortallSkin",
+		Link = "Mesa Immortal Skin",
+		Name = "Mesa Immortal Skin",
+		Type = "Skin"
+	},
+	["Mesa Insomnia Skin"] = {
+		CodexSecret = false,
+		Description = "A skin for the Mesa Warframe, designed by Goosmo.",
+		ExcludeFromCodex = false,
+		Image = "MesaInsomniaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Cowgirl/SWCowgirlInsomniaSkin",
+		Link = "Mesa Insomnia Skin",
+		Name = "Mesa Insomnia Skin",
+		Type = "Skin"
+	},
+	["Mesa Kudegra Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Mesa Warframe, designed by malaya and Xtygian.",
+		ExcludeFromCodex = false,
+		Image = "MesaKudegraSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Cowgirl/SWKudegraSkin",
+		Link = "Mesa Kudegra Skin",
+		Name = "Mesa Kudegra Skin",
+		Type = "Skin"
+	},
+	["Mesa Marlet Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Mesa Warframe, designed by Cheshire and prosetisen.",
+		ExcludeFromCodex = false,
+		Image = "MesaMarletSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Cowgirl/SWMarletSkin",
+		Link = "Mesa Marlet Skin",
+		Name = "Mesa Marlet Skin",
+		Type = "Skin"
+	},
+	["Mesa Mesnificent Skin"] = {
+		CodexSecret = false,
+		Description = "A skin for the Mesa Warframe, designed by kakarrot2812.",
+		ExcludeFromCodex = false,
+		Image = "MesaMesnificentSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Cowgirl/SWMesnificentSkin",
+		Link = "Mesa Mesnificent Skin",
+		Name = "Mesa Mesnificent Skin",
+		Type = "Skin"
+	},
+	["Mesa Presidio Regulators Skin"] = {
+		CodexSecret = false,
+		Description = "Regulator skins to match the Mesa Presidio Skin.",
+		ExcludeFromCodex = true,
+		Image = "MesaPresidioRegulatorsSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Cowgirl/MesaDeluxeArmGunSkin",
+		Link = "Mesa Presidio Regulators Skin",
+		Name = "Mesa Presidio Regulators Skin",
+		Type = "Skin"
+	},
+	["Mesa Presidio Skin"] = {
+		CodexSecret = false,
+		Description = "Conquer the unknown with this fortress of exquisite style.",
+		ExcludeFromCodex = false,
+		Image = "MesaPresidioSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Cowgirl/MesaDeluxeSkin",
+		Link = "Mesa Presidio Skin",
+		Name = "Mesa Presidio Skin",
+		Type = "Skin"
+	},
+	["Mesa Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Mesa Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "MesaPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Cowgirl/MesaPrimeSkin",
+		Link = "Mesa Prime Skin",
+		Name = "Mesa Prime Skin",
+		Type = "Skin"
+	},
+	["Mesa Projectilyst Regulators Skin"] = {
+		CodexSecret = false,
+		Description = "Regulator skins to match the Mesa Projectilyst Skin.",
+		ExcludeFromCodex = true,
+		Image = "MesaProjectilystRegulatorsSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Cowgirl/MesaDeluxeV2ArmGunSkin",
+		Link = "Mesa Projectilyst Regulators Skin",
+		Name = "Mesa Projectilyst Regulators Skin",
+		Type = "Skin"
+	},
+	["Mesa Projectilyst Skin"] = {
+		CodexSecret = false,
+		Description = "Mesa reimagined as the Sentients would have designed her.",
+		ExcludeFromCodex = false,
+		Image = "MesaProjectilystSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Cowgirl/MesaDeluxeV2Skin",
+		Link = "Mesa Projectilyst Skin",
+		Name = "Mesa Projectilyst Skin",
+		Type = "Skin"
+	},
+	["Mesa Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Mesa Warframe.",
+		ExcludeFromCodex = true,
+		Image = "MesaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Cowgirl/CowgirlSkin",
+		Link = "Mesa Skin",
+		Name = "Mesa Skin",
+		Type = "Skin"
+	},
+	["Mesa Voidshell Skin"] = {
+		CodexSecret = false,
+		Description = "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+		ExcludeFromCodex = false,
+		Image = "MesaVoidshellSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Cowgirl/MesaVoidShellSkin",
+		Link = "Mesa Voidshell Skin",
+		Name = "Mesa Voidshell Skin",
+		Type = "Skin"
+	},
+	["Minerva Gemini Skin"] = {
+		CodexSecret = false,
+		Description = "Minerva Hendricks, former Libertatian military agent, brings a human face to the Saryn Warframe.\r\n\r\nSwitch between Saryn and Minerva's fully voiced, customizable Gemini Skin with the included Minerva Gemini Emote, even during missions.",
+		ExcludeFromCodex = false,
+		Image = "MinervaGeminiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Saryn/WF1999SarynSkin",
+		Link = "Minerva Gemini Skin",
+		Name = "Minerva Gemini Skin",
+		Type = "Skin"
+	},
+	["Mirage Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Mirage Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "MirageGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Harlequin/SWRFourMirageGraxxSkin",
+		Link = "Mirage Graxx Skin",
+		Name = "Mirage Graxx Skin",
+		Type = "Skin"
+	},
+	["Mirage Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal Skin for the Mirage Warframe.",
+		ExcludeFromCodex = false,
+		Image = "MirageImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Harlequin/MirageAlternateSkin",
+		Link = "Mirage Immortal Skin",
+		Name = "Mirage Immortal Skin",
+		Type = "Skin"
+	},
+	["Mirage Kitsune Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Mirage Warframe, designed by kakarrot2812 and Skyeraikes.",
+		ExcludeFromCodex = false,
+		Image = "MirageKitsuneSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Harlequin/SWKitsuneSkin",
+		Link = "Mirage Kitsune Skin",
+		Name = "Mirage Kitsune Skin",
+		Type = "Skin"
+	},
+	["Mirage Kuvael Jester Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Mirage Warframe, designed by Erneix.",
+		ExcludeFromCodex = false,
+		Image = "MirageKuvaelJesterSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Harlequin/SWMirageKuvaelSkin",
+		Link = "Mirage Kuvael Jester Skin",
+		Name = "Mirage Kuvael Jester Skin",
+		Type = "Skin"
+	},
+	["Mirage Mithra Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Mirage Warframe, designed by lukinu_u.",
+		ExcludeFromCodex = false,
+		Image = "MirageMithraSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Harlequin/SWMithraSkin",
+		Link = "Mirage Mithra Skin",
+		Name = "Mirage Mithra Skin",
+		Type = "Skin"
+	},
+	["Mirage Morgaine Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Mirage Warframe, designed by artarrwen.",
+		ExcludeFromCodex = false,
+		Image = "MirageMorgaineSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Harlequin/SWMorgaineSkin",
+		Link = "Mirage Morgaine Skin",
+		Name = "Mirage Morgaine Skin",
+		Type = "Skin"
+	},
+	["Mirage Nuwa Skin"] = {
+		CodexSecret = false,
+		Description = "Embody the essence of creation and restoration with this divine, serpentine look.",
+		ExcludeFromCodex = true,
+		Image = "MirageNuwaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Harlequin/MirageLunarNewYearSkin",
+		Link = "Mirage Nuwa Skin",
+		Name = "Mirage Nuwa Skin",
+		Type = "Skin"
+	},
+	["Mirage Oneiro Skin"] = {
+		CodexSecret = false,
+		Description = "Dance through dark dreams with this mischievous, Harlequin-inspired deluxe skin. ",
+		ExcludeFromCodex = false,
+		Image = "MirageOneiroSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Harlequin/MirageDeluxeSkin",
+		Link = "Mirage Oneiro Skin",
+		Name = "Mirage Oneiro Skin",
+		Type = "Skin"
+	},
+	["Mirage Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Mirage Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "MiragePrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Harlequin/MiragePrimeSkin",
+		Link = "Mirage Prime Skin",
+		Name = "Mirage Prime Skin",
+		Type = "Skin"
+	},
+	["Mirage Sigyn Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Mirage Warframe, designed by novadragon01.",
+		ExcludeFromCodex = false,
+		Image = "MirageSigynSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Harlequin/SWRFourMirageSigynSkin",
+		Link = "Mirage Sigyn Skin",
+		Name = "Mirage Sigyn Skin",
+		Type = "Skin"
+	},
+	["Mirage Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Mirage Warframe.",
+		ExcludeFromCodex = true,
+		Image = "MirageSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Harlequin/MirageSkin",
+		Link = "Mirage Skin",
+		Name = "Mirage Skin",
+		Type = "Skin"
+	},
+	["Mirage Voidshell Skin"] = {
+		CodexSecret = false,
+		Description = "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+		ExcludeFromCodex = false,
+		Image = "MirageVoidshellSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Harlequin/MirageVoidShellSkin",
+		Link = "Mirage Voidshell Skin",
+		Name = "Mirage Voidshell Skin",
+		Type = "Skin"
+	},
+	["Mirage Winter Skin"] = {
+		CodexSecret = false,
+		Description = "A festive skin for the Mirage Warframe.",
+		ExcludeFromCodex = false,
+		Image = "MirageWinterSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Harlequin/MirageXmasSkin",
+		Link = "Mirage Winter Skin",
+		Name = "Mirage Winter Skin",
+		Type = "Skin"
+	},
+	["Nekros Ausirylyst Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nekros Warframe, designed by LostEpoch.",
+		ExcludeFromCodex = false,
+		Image = "NekrosAusirylystSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Necro/SWNekrosAusirylystSkin",
+		Link = "Nekros Ausirylyst Skin",
+		Name = "Nekros Ausirylyst Skin",
+		Type = "Skin"
+	},
+	["Nekros Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nekros Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "NekrosGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Necro/SWNekrosGraxxSkin",
+		Link = "Nekros Graxx Skin",
+		Name = "Nekros Graxx Skin",
+		Type = "Skin"
+	},
+	["Nekros Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal skin for the Nekros Warframe.",
+		ExcludeFromCodex = false,
+		Image = "NekrosImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Necro/NekrosAlternateSkin",
+		Link = "Nekros Immortal Skin",
+		Name = "Nekros Immortal Skin",
+		Type = "Skin"
+	},
+	["Nekros Irkalla Skin"] = {
+		CodexSecret = false,
+		Description = "A specter of destruction, Nekros breaks free of the underworld with this haunting skin.",
+		ExcludeFromCodex = false,
+		Image = "NekrosIrkallaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Necro/NekrosDeluxeSkin",
+		Link = "Nekros Irkalla Skin",
+		Name = "Nekros Irkalla Skin",
+		Type = "Skin"
+	},
+	["Nekros Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Nekros Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "NekrosPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Necro/NekrosPrimeSkin",
+		Link = "Nekros Prime Skin",
+		Name = "Nekros Prime Skin",
+		Type = "Skin"
+	},
+	["Nekros Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Nekros Warframe.",
+		ExcludeFromCodex = true,
+		Image = "NekrosSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Necro/NekrosSkin",
+		Link = "Nekros Skin",
+		Name = "Nekros Skin",
+		Type = "Skin"
+	},
+	["Nekros Voidshell Skin"] = {
+		CodexSecret = false,
+		Description = "Don with morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+		ExcludeFromCodex = false,
+		Image = "NekrosVoidshellSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Necro/NekrosVoidShellSkin",
+		Link = "Nekros Voidshell Skin",
+		Name = "Nekros Voidshell Skin",
+		Type = "Skin"
+	},
+	["Nezha Devine Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nezha Warframe, designed by polygonmonster.",
+		ExcludeFromCodex = false,
+		Image = "NezhaDevineSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Nezha/SWDevineSkin",
+		Link = "Nezha Devine Skin",
+		Name = "Nezha Devine Skin",
+		Type = "Skin"
+	},
+	["Nezha Dracun Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nezha Warframe, designed by Novabjorn.",
+		ExcludeFromCodex = false,
+		Image = "NezhaDracunSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Nezha/SWDracunSkin",
+		Link = "Nezha Dracun Skin",
+		Name = "Nezha Dracun Skin",
+		Type = "Skin"
+	},
+	["Nezha Empyrean Skin"] = {
+		CodexSecret = false,
+		Description = "Descend from the heavens like a burning star to smite all challengers.",
+		ExcludeFromCodex = false,
+		Image = "NezhaEmpyreanSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Nezha/NezhaDeluxeSkin",
+		Link = "Nezha Empyrean Skin",
+		Name = "Nezha Empyrean Skin",
+		Type = "Skin"
+	},
+	["Nezha Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Nezha Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "NezhaPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Nezha/NezhaPrimeSkin",
+		Link = "Nezha Prime Skin",
+		Name = "Nezha Prime Skin",
+		Type = "Skin"
+	},
+	["Nezha Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Nezha Warframe.",
+		ExcludeFromCodex = true,
+		Image = "NezhaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Nezha/NezhaSkin",
+		Link = "Nezha Skin",
+		Name = "Nezha Skin",
+		Type = "Skin"
+	},
+	["Nezha Yaksha Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nezha Warframe, designed by Faven and SilverBones.",
+		ExcludeFromCodex = false,
+		Image = "NezhaYakshaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Nezha/SWYakshaSkin",
+		Link = "Nezha Yaksha Skin",
+		Name = "Nezha Yaksha Skin",
+		Type = "Skin"
+	},
+	["Nidus Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal Skin for the Nidus Warframe.",
+		ExcludeFromCodex = false,
+		Image = "NidusImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Infestation/NidusAlternateSkin",
+		Link = "Nidus Immortal Skin",
+		Name = "Nidus Immortal Skin",
+		Type = "Skin"
+	},
+	["Nidus Kuvael Scrounger Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nidus Warframe, designed by Erneix.",
+		ExcludeFromCodex = false,
+		Image = "NidusKuvaelScroungerSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Infestation/SWNidusKuvaelSkin",
+		Link = "Nidus Kuvael Scrounger Skin",
+		Name = "Nidus Kuvael Scrounger Skin",
+		Type = "Skin"
+	},
+	["Nidus Night Hunter Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nidus Warframe, designed by Mz-3.",
+		ExcludeFromCodex = false,
+		Image = "NidusNightHunterSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Infestation/SWNightHunterSkin",
+		Link = "Nidus Night Hunter Skin",
+		Name = "Nidus Night Hunter Skin",
+		Type = "Skin"
+	},
+	["Nidus Phryke Skin"] = {
+		CodexSecret = false,
+		Description = "From the depths of pestilence, a new horror emerges.",
+		ExcludeFromCodex = false,
+		Image = "NidusPhrykeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Infestation/NidusDeluxeSkin",
+		Link = "Nidus Phryke Skin",
+		Name = "Nidus Phryke Skin",
+		Type = "Skin"
+	},
+	["Nidus Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Nidus Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "NidusPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Infestation/NidusPrimeSkin",
+		Link = "Nidus Prime Skin",
+		Name = "Nidus Prime Skin",
+		Type = "Skin"
+	},
+	["Nidus Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Nidus Warframe.",
+		ExcludeFromCodex = true,
+		Image = "NidusSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Infestation/InfestationSkin",
+		Link = "Nidus Skin",
+		Name = "Nidus Skin",
+		Type = "Skin"
+	},
+	["Nidus Technocyst Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nidus Warframe, designed by Master Noob.",
+		ExcludeFromCodex = false,
+		Image = "NidusTechnocystSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Infestation/SWTechnocystSkin",
+		Link = "Nidus Technocyst Skin",
+		Name = "Nidus Technocyst Skin",
+		Type = "Skin"
+	},
+	["Nidus Voidshell Skin"] = {
+		CodexSecret = false,
+		Description = "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+		ExcludeFromCodex = false,
+		Image = "NidusVoidshellSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Infestation/NidusVoidShellSkin",
+		Link = "Nidus Voidshell Skin",
+		Name = "Nidus Voidshell Skin",
+		Type = "Skin"
+	},
+	["Nova Aozakura Skin"] = {
+		CodexSecret = false,
+		Description = "Sakura petals float upon the water like stars upon the azure sky.",
+		ExcludeFromCodex = false,
+		Image = "NovaAozakuraSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/AntiMatter/NovaDeluxeAoandonSkin",
+		Link = "Nova Aozakura Skin",
+		Name = "Nova Aozakura Skin",
+		Type = "Skin"
+	},
+	["Nova Asuri Skin"] = {
+		CodexSecret = false,
+		Description = "Ascend and become the legendary many-armed warrior of Asuri.",
+		ExcludeFromCodex = false,
+		Image = "NovaAsuriSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/AntiMatter/NovaDeluxeSuit",
+		Link = "Nova Asuri Skin",
+		Name = "Nova Asuri Skin",
+		Type = "Skin"
+	},
+	["Nova Atomica Skin"] = {
+		CodexSecret = false,
+		Description = "A crucible of reactive energy harnessed within a streamlined facade.",
+		ExcludeFromCodex = false,
+		Image = "NovaAtomicaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/AntiMatter/NovaDeluxeIISuit",
+		Link = "Nova Atomica Skin",
+		Name = "Nova Atomica Skin",
+		Type = "Skin"
+	},
+	["Nova Corpra Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nova Warframe, designed by FrellingHazmot.",
+		ExcludeFromCodex = false,
+		Image = "NovaCorpraSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/AntiMatter/SWCorpraSkin",
+		Link = "Nova Corpra Skin",
+		Name = "Nova Corpra Skin",
+		Type = "Skin"
+	},
+	["Nova Cygni Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nova Warframe, designed by Arsenal.",
+		ExcludeFromCodex = false,
+		Image = "NovaCygniSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/AntiMatter/SWRThreeCygniSkin",
+		Link = "Nova Cygni Skin",
+		Name = "Nova Cygni Skin",
+		Type = "Skin"
+	},
+	["Nova Device Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nova Warframe, designed by prosetisen.",
+		ExcludeFromCodex = false,
+		Image = "NovaDeviceSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/AntiMatter/SWRThreeDeviceSkin",
+		Link = "Nova Device Skin",
+		Name = "Nova Device Skin",
+		Type = "Skin"
+	},
+	["Nova Gnova Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nova Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "NovaGnovaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/AntiMatter/SWRThreeGnovaSkin",
+		Link = "Nova Gnova Skin",
+		Name = "Nova Gnova Skin",
+		Type = "Skin"
+	},
+	["Nova Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nova Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "NovaGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/AntiMatter/SWGraxxNovaSkin",
+		Link = "Nova Graxx Skin",
+		Name = "Nova Graxx Skin",
+		Type = "Skin"
+	},
+	["Nova Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal skin for the Nova Warframe.",
+		ExcludeFromCodex = false,
+		Image = "NovaImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/AntiMatter/NovaAlternateSkin",
+		Link = "Nova Immortal Skin",
+		Name = "Nova Immortal Skin",
+		Type = "Skin"
+	},
+	["Nova Lamia Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nova Warframe, designed by Mz-3.",
+		ExcludeFromCodex = false,
+		Image = "NovaLamiaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/AntiMatter/SWRThreeLamiaSkin",
+		Link = "Nova Lamia Skin",
+		Name = "Nova Lamia Skin",
+		Type = "Skin"
+	},
+	["Nova Mithra Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nova Warframe, designed by lukinu_u.",
+		ExcludeFromCodex = false,
+		Image = "NovaMithraSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/AntiMatter/SWNovaMithraSkin",
+		Link = "Nova Mithra Skin",
+		Name = "Nova Mithra Skin",
+		Type = "Skin"
+	},
+	["Nova Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Nova Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "NovaPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/AntiMatter/NovaPrimeSkin",
+		Link = "Nova Prime Skin",
+		Name = "Nova Prime Skin",
+		Type = "Skin"
+	},
+	["Nova Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Nova Warframe.",
+		ExcludeFromCodex = true,
+		Image = "NovaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/AntiMatter/NovaSkin",
+		Link = "Nova Skin",
+		Name = "Nova Skin",
+		Type = "Skin"
+	},
+	["Nova Stinger Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nova Warframe, designed by Cheshire.",
+		ExcludeFromCodex = false,
+		Image = "NovaStingerSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/AntiMatter/SWRThreeStingerSkin",
+		Link = "Nova Stinger Skin",
+		Name = "Nova Stinger Skin",
+		Type = "Skin"
+	},
+	["Nova Visage Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nova Warframe, designed by Hitsu San.",
+		ExcludeFromCodex = false,
+		Image = "NovaVisageSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/AntiMatter/SWRThreeVisageSkin",
+		Link = "Nova Visage Skin",
+		Name = "Nova Visage Skin",
+		Type = "Skin"
+	},
+	["Nova Voidshell Skin"] = {
+		CodexSecret = false,
+		Description = "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+		ExcludeFromCodex = false,
+		Image = "NovaVoidshellSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/AntiMatter/NovaVoidShellSkin",
+		Link = "Nova Voidshell Skin",
+		Name = "Nova Voidshell Skin",
+		Type = "Skin"
+	},
+	["Nyx Ascophilia Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nyx Warframe, designed by Erneix.",
+		ExcludeFromCodex = false,
+		Image = "NyxAscophiliaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Jade/SWAscophiliaSkin",
+		Link = "Nyx Ascophilia Skin",
+		Name = "Nyx Ascophilia Skin",
+		Type = "Skin"
+	},
+	["Nyx Athena Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nyx Warframe, designed by prosetisen.",
+		ExcludeFromCodex = false,
+		Image = "NyxAthenaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Jade/SWRFourNyxAthenaSkin",
+		Link = "Nyx Athena Skin",
+		Name = "Nyx Athena Skin",
+		Type = "Skin"
+	},
+	["Nyx Aurelia Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nyx Warframe, designed by Hitsu San.",
+		ExcludeFromCodex = false,
+		Image = "NyxAureliaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Jade/SWAureliaSkin",
+		Link = "Nyx Aurelia Skin",
+		Name = "Nyx Aurelia Skin",
+		Type = "Skin"
+	},
+	["Nyx Aures Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nyx Warframe, designed by lukinu_u and HariPear.",
+		ExcludeFromCodex = false,
+		Image = "NyxAuresSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Jade/SWAuresSkin",
+		Link = "Nyx Aures Skin",
+		Name = "Nyx Aures Skin",
+		Type = "Skin"
+	},
+	["Nyx Carnifex Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nyx Warframe, designed by Vulbjorn.",
+		ExcludeFromCodex = false,
+		Image = "NyxCarnifexSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Jade/SWCarnifexSkin",
+		Link = "Nyx Carnifex Skin",
+		Name = "Nyx Carnifex Skin",
+		Type = "Skin"
+	},
+	["Nyx Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nyx Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "NyxGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Jade/SWRSixNyxGraxxSkin",
+		Link = "Nyx Graxx Skin",
+		Name = "Nyx Graxx Skin",
+		Type = "Skin"
+	},
+	["Nyx Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal skin for the Nyx Warframe.",
+		ExcludeFromCodex = false,
+		Image = "NyxImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Jade/NyxAlternateSkin",
+		Link = "Nyx Immortal Skin",
+		Name = "Nyx Immortal Skin",
+		Type = "Skin"
+	},
+	["Nyx Nemesis Skin"] = {
+		CodexSecret = false,
+		Description = "A striking armor design of unknown origin. Extensive scans of the Orokin record reveal nothing.\r\n\r\n*Nyx not included.",
+		ExcludeFromCodex = false,
+		Image = "NyxNemesisSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Jade/NyxNemesisSuit",
+		Link = "Nyx Nemesis Skin",
+		Name = "Nyx Nemesis Skin",
+		Type = "Skin"
+	},
+	["Nyx Pasithea Skin"] = {
+		CodexSecret = false,
+		Description = "Perception is reality; control it with style and decadence.",
+		ExcludeFromCodex = false,
+		Image = "NyxPasitheaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Jade/NyxDeluxeSuit",
+		Link = "Nyx Pasithea Skin",
+		Name = "Nyx Pasithea Skin",
+		Type = "Skin"
+	},
+	["Nyx Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Nyx Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "NyxPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Jade/NyxPrimeSkin",
+		Link = "Nyx Prime Skin",
+		Name = "Nyx Prime Skin",
+		Type = "Skin"
+	},
+	["Nyx Saikou Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nyx Warframe, designed by malaya.",
+		ExcludeFromCodex = false,
+		Image = "NyxSaikouSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Jade/SWSaikouSkin",
+		Link = "Nyx Saikou Skin",
+		Name = "Nyx Saikou Skin",
+		Type = "Skin"
+	},
+	["Nyx Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Nyx Warframe.",
+		ExcludeFromCodex = true,
+		Image = "NyxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Jade/NyxSkin",
+		Link = "Nyx Skin",
+		Name = "Nyx Skin",
+		Type = "Skin"
+	},
+	["Nyx Technopsyche Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Nyx Warframe, designed by Master Noob.",
+		ExcludeFromCodex = false,
+		Image = "NyxTechnopsycheSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Jade/SWTechnopsycheSkin",
+		Link = "Nyx Technopsyche Skin",
+		Name = "Nyx Technopsyche Skin",
+		Type = "Skin"
+	},
+	["Oberon Blade of the Lotus Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Oberon Warframe, designed by BeastBuster.",
+		ExcludeFromCodex = false,
+		Image = "OberonBladeoftheLotusSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Paladin/SWOberonBotLSkin",
+		Link = "Oberon Blade of the Lotus Skin",
+		Name = "Oberon Blade of the Lotus Skin",
+		Type = "Skin"
+	},
+	["Oberon Feyarch Skin"] = {
+		CodexSecret = false,
+		Description = "Emerge from the darkened forest with this gnarled old soul.",
+		ExcludeFromCodex = false,
+		Image = "OberonFeyarchSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Paladin/PaladinDeluxeSuit",
+		Link = "Oberon Feyarch Skin",
+		Name = "Oberon Feyarch Skin",
+		Type = "Skin"
+	},
+	["Oberon Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal skin for the Oberon Warframe.",
+		ExcludeFromCodex = false,
+		Image = "OberonImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Paladin/OberonAlternateSkin",
+		Link = "Oberon Immortal Skin",
+		Name = "Oberon Immortal Skin",
+		Type = "Skin"
+	},
+	["Oberon Obsidian Skin"] = {
+		CodexSecret = false,
+		Description = "A next-generation skin for the Oberon Warframe.",
+		ExcludeFromCodex = false,
+		Image = "OberonObsidianSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Paladin/OberonPS4Skin",
+		Link = "Oberon Obsidian Skin",
+		Name = "Oberon Obsidian Skin",
+		Type = "Skin"
+	},
+	["Oberon Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Oberon Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "OberonPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Paladin/PaladinPrimeSkin",
+		Link = "Oberon Prime Skin",
+		Name = "Oberon Prime Skin",
+		Type = "Skin"
+	},
+	["Oberon Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Oberon Warframe.",
+		ExcludeFromCodex = true,
+		Image = "OberonSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Paladin/PaladinSkin",
+		Link = "Oberon Skin",
+		Name = "Oberon Skin",
+		Type = "Skin"
+	},
+	["Oberon Wendigo Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Oberon Warframe, designed by Vulbjorn.",
+		ExcludeFromCodex = false,
+		Image = "OberonWendigoSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Paladin/SWWendigoSkin",
+		Link = "Oberon Wendigo Skin",
+		Name = "Oberon Wendigo Skin",
+		Type = "Skin"
+	},
+	["Oberon Youkai Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Oberon Warframe, designed by Hitsu San.",
+		ExcludeFromCodex = false,
+		Image = "OberonYoukaiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Paladin/SWOberonYoukaiSkin",
+		Link = "Oberon Youkai Skin",
+		Name = "Oberon Youkai Skin",
+		Type = "Skin"
+	},
+	["Octavia Diva Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Octavia Warframe, designed by lukinu_u.",
+		ExcludeFromCodex = false,
+		Image = "OctaviaDivaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Bard/SWDivaSkin",
+		Link = "Octavia Diva Skin",
+		Name = "Octavia Diva Skin",
+		Type = "Skin"
+	},
+	["Octavia Iridos Skin"] = {
+		CodexSecret = true,
+		Description = "Form is in tune with function.",
+		ExcludeFromCodex = false,
+		Image = "OctaviaIridosSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Bard/BardTwitchSkin",
+		Link = "Octavia Iridos Skin",
+		Name = "Octavia Iridos Skin",
+		Type = "Skin"
+	},
+	["Octavia Maestra Skin"] = {
+		CodexSecret = false,
+		Description = "Get ready for an encore with this reprise to Octavia’s concerto of mayhem. The audience awaits their Maestra.",
+		ExcludeFromCodex = true,
+		Image = "OctaviaMaestraSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Bard/OctaviaDeluxeSkin",
+		Link = "Octavia Maestra Skin",
+		Name = "Octavia Maestra Skin",
+		Type = "Skin"
+	},
+	["Octavia Mandachoralyst Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Octavia Warframe, designed by kakarrot2812.",
+		ExcludeFromCodex = false,
+		Image = "OctaviaMandachoralystSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Bard/SWMandachoralystSkin",
+		Link = "Octavia Mandachoralyst Skin",
+		Name = "Octavia Mandachoralyst Skin",
+		Type = "Skin"
+	},
+	["Octavia Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Octavia Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "OctaviaPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Bard/OctaviaPrimeSkin",
+		Link = "Octavia Prime Skin",
+		Name = "Octavia Prime Skin",
+		Type = "Skin"
+	},
+	["Octavia Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Octavia Warframe.",
+		ExcludeFromCodex = true,
+		Image = "OctaviaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Bard/BardSkin",
+		Link = "Octavia Skin",
+		Name = "Octavia Skin",
+		Type = "Skin"
+	},
+	["Octavia Youkai Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Octavia Warframe, designed by Hitsu San.",
+		ExcludeFromCodex = false,
+		Image = "OctaviaYoukaiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Bard/SWOctaviaYoukaiSkin",
+		Link = "Octavia Youkai Skin",
+		Name = "Octavia Youkai Skin",
+		Type = "Skin"
+	},
+	["Orion Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Orion Warframe.",
+		ExcludeFromCodex = true,
+		Image = "OrionSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/SiriusOrion/OrionSkin",
+		Link = "Orion Skin",
+		Name = "Orion Skin",
+		Type = "Skin"
+	},
+	["Protea Caladrius Skin"] = {
+		CodexSecret = false,
+		Description = "Take command. Eliminate your adversaries. Restore order.",
+		ExcludeFromCodex = false,
+		Image = "ProteaCaladriusSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Odalisk/ProteaDeluxeSkin",
+		Link = "Protea Caladrius Skin",
+		Name = "Protea Caladrius Skin",
+		Type = "Skin"
+	},
+	["Protea Kollapsar Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Protea Warframe, designed by led2012.",
+		ExcludeFromCodex = false,
+		Image = "ProteaKollapsarSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Odalisk/SWKollapsarSkin",
+		Link = "Protea Kollapsar Skin",
+		Name = "Protea Kollapsar Skin",
+		Type = "Skin"
+	},
+	["Protea Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Protea Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "ProteaPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Odalisk/ProteaPrimeSkin",
+		Link = "Protea Prime Skin",
+		Name = "Protea Prime Skin",
+		Type = "Skin"
+	},
+	["Protea Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Protea Warframe.",
+		ExcludeFromCodex = true,
+		Image = "ProteaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Odalisk/OdaliskSkin",
+		Link = "Protea Skin",
+		Name = "Protea Skin",
+		Type = "Skin"
+	},
+	["Protea Technochron Skin"] = {
+		CodexSecret = false,
+		Description = "A skin for the Protea Warframe, designed by Master Noob.",
+		ExcludeFromCodex = false,
+		Image = "ProteaTechnochronSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Odalisk/SWTechnochronSkin",
+		Link = "Protea Technochron Skin",
+		Name = "Protea Technochron Skin",
+		Type = "Skin"
+	},
+	["Protea Voidshell Skin"] = {
+		CodexSecret = false,
+		Description = "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+		ExcludeFromCodex = false,
+		Image = "ProteaVoidshellSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Odalisk/ProteaVoidShellSkin",
+		Link = "Protea Voidshell Skin",
+		Name = "Protea Voidshell Skin",
+		Type = "Skin"
+	},
+	["Qorvex Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Qorvex Warframe.",
+		ExcludeFromCodex = true,
+		Image = "QorvexSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/ConcreteFrame/ConcreteFrameSkin",
+		Link = "Qorvex Skin",
+		Name = "Qorvex Skin",
+		Type = "Skin"
+	},
+	["Quincy Gemini Skin"] = {
+		CodexSecret = false,
+		Description = "Quincy Isaacs, the Hex's brash, self-assured sharpshooter, brings a human face to the Cyte-09 Warframe.\r\n\r\nSwitch between Cyte-09 and Quincy's fully voiced, customizable Gemini Skin with the included Quincy Gemini Emote, even during missions.",
+		ExcludeFromCodex = false,
+		Image = "QuincyGeminiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Frumentarius/WF1999FrumentariusSkin",
+		Link = "Quincy Gemini Skin",
+		Name = "Quincy Gemini Skin",
+		Type = "Skin"
+	},
+	["Revenant Ahriman Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Revenant Warframe, designed by Vulbjorn.",
+		ExcludeFromCodex = false,
+		Image = "RevenantAhrimanSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Revenant/SWAhrimanSkin",
+		Link = "Revenant Ahriman Skin",
+		Name = "Revenant Ahriman Skin",
+		Type = "Skin"
+	},
+	["Revenant Draugen Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Revenant Warframe, designed by Goosmo.",
+		ExcludeFromCodex = false,
+		Image = "RevenantDraugenSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Revenant/SWDraugenSkin",
+		Link = "Revenant Draugen Skin",
+		Name = "Revenant Draugen Skin",
+		Type = "Skin"
+	},
+	["Revenant Mephisto Skin"] = {
+		CodexSecret = false,
+		Description = "Embrace Revenant's hybrid nature with a bold new form and dwell in the eternal twilight between realms.",
+		ExcludeFromCodex = false,
+		Image = "RevenantMephistoSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Revenant/RevenantDeluxeSkin",
+		Link = "Revenant Mephisto Skin",
+		Name = "Revenant Mephisto Skin",
+		Type = "Skin"
+	},
+	["Revenant Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Revenant Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "RevenantPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Revenant/RevenantPrimeSkin",
+		Link = "Revenant Prime Skin",
+		Name = "Revenant Prime Skin",
+		Type = "Skin"
+	},
+	["Revenant Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Revenant Warframe.",
+		ExcludeFromCodex = true,
+		Image = "RevenantSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Revenant/RevenantSkin",
+		Link = "Revenant Skin",
+		Name = "Revenant Skin",
+		Type = "Skin"
+	},
+	["Revenant Wight Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Revenant Warframe, designed by malaya, Awk'Q-Luz and Jadie.",
+		ExcludeFromCodex = false,
+		Image = "RevenantWightSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Revenant/SWRevenantWightSkin",
+		Link = "Revenant Wight Skin",
+		Name = "Revenant Wight Skin",
+		Type = "Skin"
+	},
+	["Rhino Blade of the Lotus Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Rhino Warframe, designed by BeastBuster.",
+		ExcludeFromCodex = false,
+		Image = "RhinoBladeoftheLotusSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Rhino/SWRhinoBotLSkin",
+		Link = "Rhino Blade of the Lotus Skin",
+		Name = "Rhino Blade of the Lotus Skin",
+		Type = "Skin"
+	},
+	["Rhino Bronze Skin"] = {
+		CodexSecret = false,
+		Description = "This Rhino Warframe has been been laced with filaments of burnished bronze.",
+		ExcludeFromCodex = true,
+		Image = "RhinoBronzeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Rhino/ChangYou/CYRhinoRubedoSkin",
+		Link = "Rhino Bronze Skin",
+		Name = "Rhino Bronze Skin",
+		Type = "Skin"
+	},
+	["Rhino Deathwatch Skin"] = {
+		CodexSecret = false,
+		Description = "Become a harbinger of death.\r\n\r\nIncludes the Rhino Deathwatch Wings auxiliary attachment and Agile and Noble animation sets.",
+		ExcludeFromCodex = false,
+		Image = "RhinoDeathwatchSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Rhino/RhinoDeluxeV2Skin",
+		Link = "Rhino Deathwatch Skin",
+		Name = "Rhino Deathwatch Skin",
+		Type = "Skin"
+	},
+	["Rhino Dex Skin"] = {
+		CodexSecret = false,
+		Description = "A gift from the Lotus to commemorate the eighth anniversary of the first Tenno waking from Cryo stasis.",
+		ExcludeFromCodex = true,
+		Image = "RhinoDexSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Rhino/RhinoDexSkin",
+		Link = "Rhino Dex Skin",
+		Name = "Rhino Dex Skin",
+		Type = "Skin"
+	},
+	["Rhino Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Rhino Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "RhinoGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Rhino/SWRFourRhinoGraxxSkin",
+		Link = "Rhino Graxx Skin",
+		Name = "Rhino Graxx Skin",
+		Type = "Skin"
+	},
+	["Rhino Heirloom Skin"] = {
+		CodexSecret = false,
+		Description = "Heirloom skins signify the passage of time and the dedication of the Tenno. Rhino arises in might, his legacy girded with living iron.",
+		ExcludeFromCodex = false,
+		Image = "RhinoHeirloomSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Rhino/RhinoHeirloomSkin",
+		Link = "Rhino Heirloom Skin",
+		Name = "Rhino Heirloom Skin",
+		Type = "Skin"
+	},
+	["Rhino Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal Skin for the Rhino Warframe.",
+		ExcludeFromCodex = false,
+		Image = "RhinoImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Rhino/RhinoAlternateSkin",
+		Link = "Rhino Immortal Skin",
+		Name = "Rhino Immortal Skin",
+		Type = "Skin"
+	},
+	["Rhino Ion Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Rhino Warframe, designed by Yatus.",
+		ExcludeFromCodex = false,
+		Image = "RhinoIonSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Rhino/SWIonRhinoSkin",
+		Link = "Rhino Ion Skin",
+		Name = "Rhino Ion Skin",
+		Type = "Skin"
+	},
+	["Rhino Jade Skin"] = {
+		CodexSecret = false,
+		Description = "A next-generation skin for the Rhino Warframe.",
+		ExcludeFromCodex = true,
+		Image = "RhinoJadeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Promo/Microsoft/JadeRhinoSkin",
+		Link = "Rhino Jade Skin",
+		Name = "Rhino Jade Skin",
+		Type = "Skin"
+	},
+	["Rhino Mastodon Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Rhino Warframe, designed by Vulbjorn.",
+		ExcludeFromCodex = false,
+		Image = "RhinoMastodonSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Rhino/SWMastodonSkin",
+		Link = "Rhino Mastodon Skin",
+		Name = "Rhino Mastodon Skin",
+		Type = "Skin"
+	},
+	["Rhino Palatine Skin"] = {
+		CodexSecret = false,
+		Description = "Pay homage to warriors of a more chivalrous time with this skin.",
+		ExcludeFromCodex = false,
+		Image = "RhinoPalatineSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Rhino/RhinoDeluxeSuit",
+		Link = "Rhino Palatine Skin",
+		Name = "Rhino Palatine Skin",
+		Type = "Skin"
+	},
+	["Rhino Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Rhino Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "RhinoPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Rhino/RhinoPrimeSkin",
+		Link = "Rhino Prime Skin",
+		Name = "Rhino Prime Skin",
+		Type = "Skin"
+	},
+	["Rhino Rubedo Plated Skin"] = {
+		CodexSecret = false,
+		Description = "This Rhino Warframe has been adorned with a fine layer of Rubedo plating.",
+		ExcludeFromCodex = false,
+		Image = "RhinoRubedoPlatedSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Rhino/RhinoRubedoSkin",
+		Link = "Rhino Rubedo Plated Skin",
+		Name = "Rhino Rubedo Plated Skin",
+		Type = "Skin"
+	},
+	["Rhino Scarab Sect Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Rhino Warframe, designed by Mz-3.",
+		ExcludeFromCodex = false,
+		Image = "RhinoScarabSectSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Rhino/SWScarabSectSkin",
+		Link = "Rhino Scarab Sect Skin",
+		Name = "Rhino Scarab Sect Skin",
+		Type = "Skin"
+	},
+	["Rhino Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Rhino Warframe.",
+		ExcludeFromCodex = true,
+		Image = "RhinoSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Rhino/RhinoSkin",
+		Link = "Rhino Skin",
+		Name = "Rhino Skin",
+		Type = "Skin"
+	},
+	["Rhino Voidshell Skin"] = {
+		CodexSecret = false,
+		Description = "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+		ExcludeFromCodex = false,
+		Image = "RhinoVoidshellSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Rhino/RhinoChameleonASkin",
+		Link = "Rhino Voidshell Skin",
+		Name = "Rhino Voidshell Skin",
+		Type = "Skin"
+	},
+	["Rhino Vojnik Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Rhino Warframe, designed by Volkovyi.",
+		ExcludeFromCodex = false,
+		Image = "RhinoVojnikSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Rhino/SWRFourRhinoVojnikSkin",
+		Link = "Rhino Vojnik Skin",
+		Name = "Rhino Vojnik Skin",
+		Type = "Skin"
+	},
+	["Roathe Gemini Skin"] = {
+		CodexSecret = false,
+		Description = "Grand Carnus Roathe, the Heretic of Xata, brings a human - though Orokin - face to the Uriel Warframe.",
+		ExcludeFromCodex = false,
+		Image = "RoatheGeminiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/DemonFrame/GeminiDemonFrameSkin",
+		Link = "Roathe Gemini Skin",
+		Name = "Roathe Gemini Skin",
+		Type = "Skin"
+	},
+	["Ryoku Gemini Skin"] = {
+		CodexSecret = true,
+		Description = "The keenest blade is a well-ordered mind. Equal parts killer and mentor, Ryoku gives voice to the silent assassin, Ash.",
+		ExcludeFromCodex = false,
+		Image = "RyokuGeminiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Ninja/AshGeminiSkin",
+		Introduced = "43",
+		Link = "Ryoku Gemini Skin",
+		Name = "Ryoku Gemini Skin",
+		Type = "Skin"
+	},
+	["Saryn Amalgama Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Saryn Warframe, designed by prosetisen.",
+		ExcludeFromCodex = false,
+		Image = "SarynAmalgamaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Saryn/SWAmalgamaSkin",
+		Link = "Saryn Amalgama Skin",
+		Name = "Saryn Amalgama Skin",
+		Type = "Skin"
+	},
+	["Saryn Blade of the Lotus Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Saryn Warframe, designed by BeastBuster.",
+		ExcludeFromCodex = false,
+		Image = "SarynBladeoftheLotusSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Saryn/SWBotLSkin",
+		Link = "Saryn Blade of the Lotus Skin",
+		Name = "Saryn Blade of the Lotus Skin",
+		Type = "Skin"
+	},
+	["Saryn Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Saryn Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "SarynGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Saryn/SWRSixSarynGraxxSkin",
+		Link = "Saryn Graxx Skin",
+		Name = "Saryn Graxx Skin",
+		Type = "Skin"
+	},
+	["Saryn Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal Skin for the Saryn Warframe.",
+		ExcludeFromCodex = false,
+		Image = "SarynImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Asp/SarynAlternateSkin",
+		Link = "Saryn Immortal Skin",
+		Name = "Saryn Immortal Skin",
+		Type = "Skin"
+	},
+	["Saryn Integra Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Saryn Warframe, designed by Cheshire.",
+		ExcludeFromCodex = false,
+		Image = "SarynIntegraSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Saryn/SWIntegraSkin",
+		Link = "Saryn Integra Skin",
+		Name = "Saryn Integra Skin",
+		Type = "Skin"
+	},
+	["Saryn Ion Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Saryn Warframe, designed by Yatus.",
+		ExcludeFromCodex = false,
+		Image = "SarynIonSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Saryn/SWSarynIonSkin",
+		Link = "Saryn Ion Skin",
+		Name = "Saryn Ion Skin",
+		Type = "Skin"
+	},
+	["Saryn Napellus Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Saryn Warframe, designed by lukinu_u.",
+		ExcludeFromCodex = false,
+		Image = "SarynNapellusSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Saryn/SWNapellusSkin",
+		Link = "Saryn Napellus Skin",
+		Name = "Saryn Napellus Skin",
+		Type = "Skin"
+	},
+	["Saryn Night Hunter Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Saryn Warframe, designed by Mz-3.",
+		ExcludeFromCodex = false,
+		Image = "SarynNightHunterSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Saryn/SWSarynNighthunterSkin",
+		Link = "Saryn Night Hunter Skin",
+		Name = "Saryn Night Hunter Skin",
+		Type = "Skin"
+	},
+	["Saryn Nita's Moda Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Saryn Warframe, designed by Volkovyi.",
+		ExcludeFromCodex = false,
+		Image = "SarynNita'sModaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Saryn/SWNitasModaSkin",
+		Link = "Saryn Nita's Moda Skin",
+		Name = "Saryn Nita's Moda Skin",
+		Type = "Skin"
+	},
+	["Saryn Orphid Skin"] = {
+		CodexSecret = false,
+		Description = "Bloom into a beautiful yet deadly agent of the Lotus.",
+		ExcludeFromCodex = false,
+		Image = "SarynOrphidSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Saryn/SarynDeluxeSuit",
+		Link = "Saryn Orphid Skin",
+		Name = "Saryn Orphid Skin",
+		Type = "Skin"
+	},
+	["Saryn Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Saryn Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "SarynPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Saryn/SarynPrimeSkin",
+		Link = "Saryn Prime Skin",
+		Name = "Saryn Prime Skin",
+		Type = "Skin"
+	},
+	["Saryn Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Saryn Warframe.",
+		ExcludeFromCodex = true,
+		Image = "SarynSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Saryn/SarynSkin",
+		Link = "Saryn Skin",
+		Name = "Saryn Skin",
+		Type = "Skin"
+	},
+	["Saryn Velenosa Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Saryn Warframe, designed by Hitsu San.",
+		ExcludeFromCodex = false,
+		Image = "SarynVelenosaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Saryn/SWVelenosaSkin",
+		Link = "Saryn Velenosa Skin",
+		Name = "Saryn Velenosa Skin",
+		Type = "Skin"
+	},
+	["Saryn Voidshell Skin"] = {
+		CodexSecret = false,
+		Description = "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+		ExcludeFromCodex = false,
+		Image = "SarynVoidshellSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Saryn/SarynChameleonBSkin",
+		Link = "Saryn Voidshell Skin",
+		Name = "Saryn Voidshell Skin",
+		Type = "Skin"
+	},
+	["Saryn Yuheng Skin"] = {
+		CodexSecret = false,
+		Description = "Take on the look of a moon goddess to celebrate Lunar Renewal.",
+		ExcludeFromCodex = false,
+		Image = "SarynYuhengSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Saryn/SarynLunarNewYearSkin",
+		Link = "Saryn Yuheng Skin",
+		Name = "Saryn Yuheng Skin",
+		Type = "Skin"
+	},
+	["Sevagoth Ezriel Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Sevagoth Warframe, designed by Goosmo.",
+		ExcludeFromCodex = false,
+		Image = "SevagothEzrielSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Wraith/SWSevagothEzrielSkin",
+		Link = "Sevagoth Ezriel Skin",
+		Name = "Sevagoth Ezriel Skin",
+		Type = "Skin"
+	},
+	["Sevagoth Glaukus Shadow Claws"] = {
+		CodexSecret = false,
+		Description = "The signature claws of Sevagoth Glaukus' Shadow.",
+		ExcludeFromCodex = true,
+		Image = "SevagothGlaukusShadowClaws.png",
+		InternalName = "/Lotus/Upgrades/Skins/Wraith/SevagothDeluxeShadowClawsSkin",
+		Link = "Sevagoth Glaukus Shadow Claws",
+		Name = "Sevagoth Glaukus Shadow Claws",
+		Type = "Skin"
+	},
+	["Sevagoth Glaukus Shadow Skin"] = {
+		CodexSecret = false,
+		Description = "Rail agents told of the legendary battle between Sevagoth Glaukus and Hydroid Rakkam. Agents looked on as the pair disappeared into the Void, locked in combat. Nobody knows how much of the old railer's tale is true.",
+		ExcludeFromCodex = false,
+		Image = "SevagothGlaukusShadowSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Wraith/SevagothDeluxeShadowSkin",
+		Link = "Sevagoth Glaukus Shadow Skin",
+		Name = "Sevagoth Glaukus Shadow Skin",
+		Type = "Skin"
+	},
+	["Sevagoth Glaukus Skin"] = {
+		CodexSecret = false,
+		Description = "Rail agents told of the legendary battle between Sevagoth Glaukus and Hydroid Rakkam. Agents looked on as the pair disappeared into the Void, locked in combat. Nobody knows how much of the old railer's tale is true.\r\n\r\nThis skin features a custom Tombstone and Sevagoth's Lullaby, a custom song that plays for Sevagoth's Shadow.",
+		ExcludeFromCodex = false,
+		Image = "SevagothGlaukusSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Wraith/SevagothDeluxeSkin",
+		Link = "Sevagoth Glaukus Skin",
+		Name = "Sevagoth Glaukus Skin",
+		Type = "Skin"
+	},
+	["Sevagoth Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Sevagoth Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "SevagothPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Wraith/SevagothPrimeSkin",
+		Link = "Sevagoth Prime Skin",
+		Name = "Sevagoth Prime Skin",
+		Type = "Skin"
+	},
+	["Sevagoth Prime's Shadow Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for Sevagoth's Shadow Prime.",
+		ExcludeFromCodex = true,
+		Image = "SevagothPrime'sShadowSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Wraith/SevagothPrimeShadowSkin",
+		Link = "Sevagoth Prime's Shadow Skin",
+		Name = "Sevagoth Prime's Shadow Skin",
+		Type = "Skin"
+	},
+	["Sevagoth Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Sevagoth Warframe.",
+		ExcludeFromCodex = true,
+		Image = "SevagothSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Wraith/WraithSkin",
+		Link = "Sevagoth Skin",
+		Name = "Sevagoth Skin",
+		Type = "Skin"
+	},
+	["Sevagoth's Shadow Ezriel Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for Sevagoth Shadow, designed by Goosmo.",
+		ExcludeFromCodex = false,
+		Image = "Sevagoth'sShadowEzrielSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Wraith/SWSevagothEzrielReaperSkin",
+		Link = "Sevagoth's Shadow Ezriel Skin",
+		Name = "Sevagoth's Shadow Ezriel Skin",
+		Type = "Skin"
+	},
+	["Sevagoth's Shadow Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for Sevagoth's Shadow.",
+		ExcludeFromCodex = true,
+		Image = "Sevagoth'sShadowSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Wraith/ReaperSkin",
+		Link = "Sevagoth's Shadow Skin",
+		Name = "Sevagoth's Shadow Skin",
+		Type = "Skin"
+	},
+	["Sirius Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Sirius Warframe.",
+		ExcludeFromCodex = true,
+		Image = "SiriusSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/SiriusOrion/SiriusSkin",
+		Link = "Sirius Skin",
+		Name = "Sirius Skin",
+		Type = "Skin"
+	},
+	["Styanax Ares Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Styanax Warframe, designed by blazingcobalt and Vis.",
+		ExcludeFromCodex = false,
+		Image = "StyanaxAresSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Hoplite/SWStyanaxAresSkin",
+		Link = "Styanax Ares Skin",
+		Name = "Styanax Ares Skin",
+		Type = "Skin"
+	},
+	["Styanax Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Styanax Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "StyanaxPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Hoplite/StyanaxPrimeSkin",
+		Introduced = "43",
+		Link = "Styanax Prime Skin",
+		Name = "Styanax Prime Skin",
+		Type = "Skin"
+	},
+	["Styanax Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Styanax Warframe.",
+		ExcludeFromCodex = true,
+		Image = "StyanaxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Hoplite/HopliteSkin",
+		Link = "Styanax Skin",
+		Name = "Styanax Skin",
+		Type = "Skin"
+	},
+	["Styanax Tonatiuh Skin"] = {
+		CodexSecret = false,
+		Description = "The warrior spirit reincarnates in the image of a god.",
+		ExcludeFromCodex = false,
+		Image = "StyanaxTonatiuhSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Hoplite/StyanaxDeluxeSkin",
+		Link = "Styanax Tonatiuh Skin",
+		Name = "Styanax Tonatiuh Skin",
+		Type = "Skin"
+	},
+	["Styanax Voidshell Skin"] = {
+		CodexSecret = false,
+		Description = "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+		ExcludeFromCodex = false,
+		Image = "StyanaxVoidshellSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Hoplite/StyanaxVoidshellSkin",
+		Link = "Styanax Voidshell Skin",
+		Name = "Styanax Voidshell Skin",
+		Type = "Skin"
+	},
+	["Tecton Sparring Skin"] = {
+		CodexSecret = false,
+		Description = "With seismic force shatter and sunder, blow upon blow. Enemies quake at the sight of these signature sparring weapon skins.",
+		ExcludeFromCodex = false,
+		Image = "TectonSparringSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Deluxe/AtlasDeluxeSparring",
+		Link = "Tecton Sparring Skin",
+		Name = "Tecton Sparring Skin",
+		Type = "Skin"
+	},
+	["Titania Donann Skin"] = {
+		CodexSecret = false,
+		Description = "Dream of a deadly night's flight.",
+		ExcludeFromCodex = false,
+		Image = "TitaniaDonannSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Fairy/TitaniaDeluxeIISkin",
+		Link = "Titania Donann Skin",
+		Name = "Titania Donann Skin",
+		Type = "Skin"
+	},
+	["Titania Empress Skin"] = {
+		CodexSecret = false,
+		Description = "Ascend in regal splendour with this skin for Titania.",
+		ExcludeFromCodex = false,
+		Image = "TitaniaEmpressSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Fairy/TitaniaDeluxeSkin",
+		Link = "Titania Empress Skin",
+		Name = "Titania Empress Skin",
+		Type = "Skin"
+	},
+	["Titania Lympharis Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Titania Warframe, designed by lukinu_u.",
+		ExcludeFromCodex = false,
+		Image = "TitaniaLympharisSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Fairy/SWLympharisSkin",
+		Link = "Titania Lympharis Skin",
+		Name = "Titania Lympharis Skin",
+		Type = "Skin"
+	},
+	["Titania Pixialyst Skin"] = {
+		CodexSecret = false,
+		Description = "A skin for the Titania Warframe, designed by kakarrot2812.",
+		ExcludeFromCodex = true,
+		Image = "TitaniaPixialystSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Fairy/SWPixialystSkin",
+		Link = "Titania Pixialyst Skin",
+		Name = "Titania Pixialyst Skin",
+		Type = "Skin"
+	},
+	["Titania Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Titania Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "TitaniaPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Fairy/TitaniaPrimeSkin",
+		Link = "Titania Prime Skin",
+		Name = "Titania Prime Skin",
+		Type = "Skin"
+	},
+	["Titania Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Titania Warframe.",
+		ExcludeFromCodex = true,
+		Image = "TitaniaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Fairy/FairySkin",
+		Link = "Titania Skin",
+		Name = "Titania Skin",
+		Type = "Skin"
+	},
+	["Titania Solstice Skin"] = {
+		CodexSecret = false,
+		Description = "A festive skin for the Titania Warframe.",
+		ExcludeFromCodex = false,
+		Image = "TitaniaSolsticeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Fairy/SolsticeFairySkin",
+		Link = "Titania Solstice Skin",
+		Name = "Titania Solstice Skin",
+		Type = "Skin"
+	},
+	["Titania Unseelie Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Titania Warframe, designed by Rekkou.",
+		ExcludeFromCodex = false,
+		Image = "TitaniaUnseelieSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Fairy/SWUnseelieSkin",
+		Link = "Titania Unseelie Skin",
+		Name = "Titania Unseelie Skin",
+		Type = "Skin"
+	},
+	["Trinity Blade of the Lotus Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Trinity Warframe, designed by BeastBuster.",
+		ExcludeFromCodex = false,
+		Image = "TrinityBladeoftheLotusSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Trinity/SWTrinityBotLSkin",
+		Link = "Trinity Blade of the Lotus Skin",
+		Name = "Trinity Blade of the Lotus Skin",
+		Type = "Skin"
+	},
+	["Trinity Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal skin for the Trinity Warframe.",
+		ExcludeFromCodex = false,
+		Image = "TrinityImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Trinity/TrinityAlternateSkin",
+		Link = "Trinity Immortal Skin",
+		Name = "Trinity Immortal Skin",
+		Type = "Skin"
+	},
+	["Trinity Knightess Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Trinity Warframe, designed by Rekkou.",
+		ExcludeFromCodex = false,
+		Image = "TrinityKnightessSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Trinity/SWKnightessSkin",
+		Link = "Trinity Knightess Skin",
+		Name = "Trinity Knightess Skin",
+		Type = "Skin"
+	},
+	["Trinity Nightingale Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Trinity Warframe, designed by matzan481.",
+		ExcludeFromCodex = false,
+		Image = "TrinityNightingaleSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Trinity/SWNightingaleSkin",
+		Link = "Trinity Nightingale Skin",
+		Name = "Trinity Nightingale Skin",
+		Type = "Skin"
+	},
+	["Trinity Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Trinity Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "TrinityPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Trinity/TrinityPrimeSkin",
+		Link = "Trinity Prime Skin",
+		Name = "Trinity Prime Skin",
+		Type = "Skin"
+	},
+	["Trinity Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Trinity Warframe.",
+		ExcludeFromCodex = true,
+		Image = "TrinitySkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Trinity/TrinitySkin",
+		Link = "Trinity Skin",
+		Name = "Trinity Skin",
+		Type = "Skin"
+	},
+	["Trinity Strega Skin"] = {
+		CodexSecret = false,
+		Description = "Embrace the dark power that swirls through this Trinity skin.",
+		ExcludeFromCodex = false,
+		Image = "TrinityStregaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Trinity/TrinityDeluxeSuit",
+		Link = "Trinity Strega Skin",
+		Name = "Trinity Strega Skin",
+		Type = "Skin"
+	},
+	["Valkyr Carnivex Skin"] = {
+		CodexSecret = false,
+		Description = "This beautifully brutal design will compliment any blood on your knuckles.",
+		ExcludeFromCodex = false,
+		Image = "ValkyrCarnivexSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Berserker/ValkyrDeluxeSkin",
+		Link = "Valkyr Carnivex Skin",
+		Name = "Valkyr Carnivex Skin",
+		Type = "Skin"
+	},
+	["Valkyr Delusion Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Valkyr Warframe, designed by prosetisen.",
+		ExcludeFromCodex = false,
+		Image = "ValkyrDelusionSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Berserker/SWDelusionSkin",
+		Link = "Valkyr Delusion Skin",
+		Name = "Valkyr Delusion Skin",
+		Type = "Skin"
+	},
+	["Valkyr Gersemi Skin"] = {
+		CodexSecret = false,
+		Description = "Before Alad V, before the experiments, there was Gersemi Valkyr. \r\n\r\n*Valkyr not included.",
+		ExcludeFromCodex = false,
+		Image = "ValkyrGersemiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Berserker/BerserkerDeluxeSuit",
+		Link = "Valkyr Gersemi Skin",
+		Name = "Valkyr Gersemi Skin",
+		Type = "Skin"
+	},
+	["Valkyr Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Valkyr Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "ValkyrGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Berserker/SWRFourValkyrGraxxSkin",
+		Link = "Valkyr Graxx Skin",
+		Name = "Valkyr Graxx Skin",
+		Type = "Skin"
+	},
+	["Valkyr Heirloom Skin"] = {
+		CodexSecret = false,
+		Description = "Valkyr rises in majesty, casting off her legacy of torment. Heirloom skins signify the passage of time and the dedication of the Tenno.",
+		ExcludeFromCodex = false,
+		Image = "ValkyrHeirloomSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Berserker/ValkyrHeirloomSkin",
+		Link = "Valkyr Heirloom Skin",
+		Name = "Valkyr Heirloom Skin",
+		Type = "Skin"
+	},
+	["Valkyr Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal skin for the Valkyr Warframe.",
+		ExcludeFromCodex = false,
+		Image = "ValkyrImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Berserker/ValkyrAlternateSkin",
+		Link = "Valkyr Immortal Skin",
+		Name = "Valkyr Immortal Skin",
+		Type = "Skin"
+	},
+	["Valkyr Jade Skin"] = {
+		CodexSecret = false,
+		Description = "A next-generation skin for Valkyr.",
+		ExcludeFromCodex = true,
+		Image = "ValkyrJadeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Berserker/JadeValkyrSkin",
+		Link = "Valkyr Jade Skin",
+		Name = "Valkyr Jade Skin",
+		Type = "Skin"
+	},
+	["Valkyr Leonessa Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Valkyr Warframe, designed by Hitsu San.",
+		ExcludeFromCodex = false,
+		Image = "ValkyrLeonessaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Berserker/SWLeonessaSkin",
+		Link = "Valkyr Leonessa Skin",
+		Name = "Valkyr Leonessa Skin",
+		Type = "Skin"
+	},
+	["Valkyr Mithra Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Valkyr Warframe, designed by lukinu_u.",
+		ExcludeFromCodex = false,
+		Image = "ValkyrMithraSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Berserker/SWMithraValkyrSkin",
+		Link = "Valkyr Mithra Skin",
+		Name = "Valkyr Mithra Skin",
+		Type = "Skin"
+	},
+	["Valkyr Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Valkyr Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "ValkyrPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Berserker/ValkyrPrimeSkin",
+		Link = "Valkyr Prime Skin",
+		Name = "Valkyr Prime Skin",
+		Type = "Skin"
+	},
+	["Valkyr Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Valkyr Warframe.",
+		ExcludeFromCodex = true,
+		Image = "ValkyrSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Berserker/BerserkerSkin",
+		Link = "Valkyr Skin",
+		Name = "Valkyr Skin",
+		Type = "Skin"
+	},
+	["Vauban Bonaparte Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Vauban Warframe, designed by Hydroxate and Debbysheen.",
+		ExcludeFromCodex = false,
+		Image = "VaubanBonaparteSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Trapper/SWBonaparteSkin",
+		Link = "Vauban Bonaparte Skin",
+		Name = "Vauban Bonaparte Skin",
+		Type = "Skin"
+	},
+	["Vauban Citadel Skin"] = {
+		CodexSecret = false,
+		Description = "A fortress of ingenuity and style.",
+		ExcludeFromCodex = false,
+		Image = "VaubanCitadelSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Trapper/VaubanDeluxeSkin",
+		Link = "Vauban Citadel Skin",
+		Name = "Vauban Citadel Skin",
+		Type = "Skin"
+	},
+	["Vauban Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Vauban Warframe, designed by Faven and Faven_LTD.",
+		ExcludeFromCodex = false,
+		Image = "VaubanGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Trapper/SWGraxxVaubanSkin",
+		Link = "Vauban Graxx Skin",
+		Name = "Vauban Graxx Skin",
+		Type = "Skin"
+	},
+	["Vauban Heirloom Skin"] = {
+		CodexSecret = false,
+		Description = "Honor Vauban's legacy of ingenuity in bold style. Heirloom skins signify the passage of time and the dedication of the Tenno.",
+		ExcludeFromCodex = false,
+		Image = "VaubanHeirloomSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Trapper/VaubanHeirloomSkin",
+		Link = "Vauban Heirloom Skin",
+		Name = "Vauban Heirloom Skin",
+		Type = "Skin"
+	},
+	["Vauban Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal Skin for the Vauban Warframe.",
+		ExcludeFromCodex = false,
+		Image = "VaubanImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Trapper/VaubanAlternateSkin",
+		Link = "Vauban Immortal Skin",
+		Name = "Vauban Immortal Skin",
+		Type = "Skin"
+	},
+	["Vauban Phased Skin"] = {
+		CodexSecret = false,
+		Description = "The Void's corrupting energy has scarred this Warframe, leaving it permanently out of phase with conventional space.",
+		ExcludeFromCodex = false,
+		Image = "VaubanPhasedSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Trapper/VaubanVoidSkin",
+		Link = "Vauban Phased Skin",
+		Name = "Vauban Phased Skin",
+		Type = "Skin"
+	},
+	["Vauban Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Vauban Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "VaubanPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Trapper/TrapperPrimeSkin",
+		Link = "Vauban Prime Skin",
+		Name = "Vauban Prime Skin",
+		Type = "Skin"
+	},
+	["Vauban Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Vauban Warframe.",
+		ExcludeFromCodex = true,
+		Image = "VaubanSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Trapper/TrapperSkin",
+		Link = "Vauban Skin",
+		Name = "Vauban Skin",
+		Type = "Skin"
+	},
+	["Vauban Suppressor Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Vauban Warframe, designed by Cheshire and prosetisen.",
+		ExcludeFromCodex = false,
+		Image = "VaubanSuppressorSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Trapper/SWSuppressorSkin",
+		Link = "Vauban Suppressor Skin",
+		Name = "Vauban Suppressor Skin",
+		Type = "Skin"
+	},
+	["Velimir Gemini Skin"] = {
+		CodexSecret = false,
+		Description = "Velimir Volkov II, a former Libertatian agent, brings a human face to the Frost Warframe.\r\n\r\nSwitch between Frost and Velimir's fully voiced, customizable Gemini Skin with the included Velimir Gemini Emote, even during missions.",
+		ExcludeFromCodex = false,
+		Image = "VelimirGeminiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Frost/WF1999FrostSkin",
+		Link = "Velimir Gemini Skin",
+		Name = "Velimir Gemini Skin",
+		Type = "Skin"
+	},
+	["Vena Gemini Skin"] = {
+		CodexSecret = true,
+		Description = "Vena, the Wytch, emerges from a doomed future to put a sadistic smile on Garuda. Revel in the blood of all those who stand against her.",
+		ExcludeFromCodex = false,
+		Image = "VenaGeminiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Garuda/GarudaGeminiSkin",
+		Introduced = "43",
+		Link = "Vena Gemini Skin",
+		Name = "Vena Gemini Skin",
+		Type = "Skin"
+	},
+	["Volt Amethyst Skin"] = {
+		CodexSecret = false,
+		Description = "An elite skin for the Volt Warframe.",
+		ExcludeFromCodex = true,
+		Image = "VoltAmethystSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Volt/DiscordVolt",
+		Link = "Volt Amethyst Skin",
+		Name = "Volt Amethyst Skin",
+		Type = "Skin"
+	},
+	["Volt Amp Skin"] = {
+		CodexSecret = false,
+		Description = "A skin for your Volt Warframe, designed by Faven_PS.",
+		ExcludeFromCodex = false,
+		Image = "VoltAmpSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Volt/SWROneVoltSkin",
+		Link = "Volt Amp Skin",
+		Name = "Volt Amp Skin",
+		Type = "Skin"
+	},
+	["Volt Capacitor Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Volt Warframe, designed by Del.",
+		ExcludeFromCodex = false,
+		Image = "VoltCapacitorSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Volt/SWCapacitorSkin",
+		Link = "Volt Capacitor Skin",
+		Name = "Volt Capacitor Skin",
+		Type = "Skin"
+	},
+	["Volt Electrolyst Skin"] = {
+		CodexSecret = false,
+		Description = "Volt as he would have been, had the Sentients created him.",
+		ExcludeFromCodex = false,
+		Image = "VoltElectrolystSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Volt/VoltDeluxeBSkin",
+		Link = "Volt Electrolyst Skin",
+		Name = "Volt Electrolyst Skin",
+		Type = "Skin"
+	},
+	["Volt Fulgursor Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Volt Warframe, designed by Vulbjorn.",
+		ExcludeFromCodex = false,
+		Image = "VoltFulgursorSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Volt/SWFulgursorSkin",
+		Link = "Volt Fulgursor Skin",
+		Name = "Volt Fulgursor Skin",
+		Type = "Skin"
+	},
+	["Volt Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Volt Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "VoltGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Volt/SWRFourVoltGraxxSkin",
+		Link = "Volt Graxx Skin",
+		Name = "Volt Graxx Skin",
+		Type = "Skin"
+	},
+	["Volt Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal skin for the Volt Warframe.",
+		ExcludeFromCodex = false,
+		Image = "VoltImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Volt/VoltAlternateSkin",
+		Link = "Volt Immortal Skin",
+		Name = "Volt Immortal Skin",
+		Type = "Skin"
+	},
+	["Volt Opal Skin"] = {
+		CodexSecret = false,
+		Description = "A next-generation skin for the Volt Warframe.",
+		ExcludeFromCodex = true,
+		Image = "VoltOpalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Volt/NintendoVolt",
+		Link = "Volt Opal Skin",
+		Name = "Volt Opal Skin",
+		Type = "Skin"
+	},
+	["Volt Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Volt Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "VoltPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Volt/VoltPrimeSkin",
+		Link = "Volt Prime Skin",
+		Name = "Volt Prime Skin",
+		Type = "Skin"
+	},
+	["Volt Prominence Skin"] = {
+		CodexSecret = false,
+		Description = "Draw attention with the bold geometric patterns in this exclusive Volt skin.",
+		ExcludeFromCodex = true,
+		Image = "VoltProminenceSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Volt/VoltTwitchSkin",
+		Link = "Volt Prominence Skin",
+		Name = "Volt Prominence Skin",
+		Type = "Skin"
+	},
+	["Volt Proto Skin"] = {
+		CodexSecret = false,
+		Description = "Delve into the past with this experimental prototype skin for Volt.",
+		ExcludeFromCodex = false,
+		Image = "VoltProtoSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Volt/VoltDeluxeSkin",
+		Link = "Volt Proto Skin",
+		Name = "Volt Proto Skin",
+		Type = "Skin"
+	},
+	["Volt Raijin Skin"] = {
+		CodexSecret = false,
+		Description = "Embody the chaos between life-giving storms and calamitous lightning.",
+		ExcludeFromCodex = false,
+		Image = "VoltRaijinSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Volt/VoltDeluxeRaijinSkin",
+		Link = "Volt Raijin Skin",
+		Name = "Volt Raijin Skin",
+		Type = "Skin"
+	},
+	["Volt Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Volt Warframe.",
+		ExcludeFromCodex = true,
+		Image = "VoltSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Volt/VoltSkin",
+		Link = "Volt Skin",
+		Name = "Volt Skin",
+		Type = "Skin"
+	},
+	["Volt Technoshock Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Volt Warframe, designed by Master Noob.",
+		ExcludeFromCodex = false,
+		Image = "VoltTechnoshockSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Volt/SWTechnoshockSkin",
+		Link = "Volt Technoshock Skin",
+		Name = "Volt Technoshock Skin",
+		Type = "Skin"
+	},
+	["Volt Voidshell Skin"] = {
+		CodexSecret = false,
+		Description = "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+		ExcludeFromCodex = false,
+		Image = "VoltVoidshellSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Volt/VoltChameleonASkin",
+		Link = "Volt Voidshell Skin",
+		Name = "Volt Voidshell Skin",
+		Type = "Skin"
+	},
+	["Volt Zener Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Volt Warframe, designed by Rekkou.",
+		ExcludeFromCodex = false,
+		Image = "VoltZenerSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Volt/SWZenerSkin",
+		Link = "Volt Zener Skin",
+		Name = "Volt Zener Skin",
+		Type = "Skin"
+	},
+	["Voruna Skin"] = {
+		CodexSecret = false,
+		Description = "The standard skin for the Voruna Warframe.",
+		ExcludeFromCodex = true,
+		Image = "VorunaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Werewolf/WerewolfSkin",
+		Link = "Voruna Skin",
+		Name = "Voruna Skin",
+		Type = "Skin"
+	},
+    ["Voruna Medeina Skin"] = {
+    	CodexSecret = false,
+    	Description = "Voruna appears as a glorious forest goddess, loyal wolves comprising her graceful armor. The savage huntress is also a protector of the innocent, revered by those unjustly hunted.",
+    	ExcludeFromCodex = false,
+    	Image = "VorunaMedeinaSkin.png",
+    	InternalName = "/Lotus/Upgrades/Skins/Werewolf/VorunaDeluxeSkin",
+    	Link = "Voruna Medeina Skin",
+    	Name = "Voruna Medeina Skin",
+    	Type = "Skin"
+    },
+	["Voruna Voidshell Skin"] = {
+		CodexSecret = false,
+		Description = "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+		ExcludeFromCodex = false,
+		Image = "VorunaVoidshellSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Werewolf/VorunaVoidShellSkin",
+		Link = "Voruna Voidshell Skin",
+		Name = "Voruna Voidshell Skin",
+		Type = "Skin"
+	},
+	["Wisp Celestis Skin"] = {
+		CodexSecret = false,
+		Description = "A skin for the Wisp Warframe, designed by malaya and Awk'Q-Luz.",
+		ExcludeFromCodex = false,
+		Image = "WispCelestisSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Wisp/SWCelestisWispSkin",
+		Link = "Wisp Celestis Skin",
+		Name = "Wisp Celestis Skin",
+		Type = "Skin"
+	},
+	["Wisp Coven Skin"] = {
+		CodexSecret = false,
+		Description = "A skin for the Wisp Warframe, designed by malaya and blazingcobalt.",
+		ExcludeFromCodex = false,
+		Image = "WispCovenSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Wisp/SWCovenWispSkin",
+		Link = "Wisp Coven Skin",
+		Name = "Wisp Coven Skin",
+		Type = "Skin"
+	},
+	["Wisp Delusion Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Wisp Warframe, designed by prosetisen.",
+		ExcludeFromCodex = false,
+		Image = "WispDelusionSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Wisp/SWDelusionSkin",
+		Link = "Wisp Delusion Skin",
+		Name = "Wisp Delusion Skin",
+		Type = "Skin"
+	},
+	["Wisp Dex Skin"] = {
+		CodexSecret = false,
+		Description = "Open the gate to Tenno history with this commemorative skin for Wisp.",
+		ExcludeFromCodex = false,
+		Image = "WispDexSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Wisp/DexWispSkin",
+		Link = "Wisp Dex Skin",
+		Name = "Wisp Dex Skin",
+		Type = "Skin"
+	},
+	["Wisp Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Wisp Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "WispGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Wisp/SWWispGraxxSkin",
+		Link = "Wisp Graxx Skin",
+		Name = "Wisp Graxx Skin",
+		Type = "Skin"
+	},
+	["Wisp Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal Skin for the Wisp Warframe.",
+		ExcludeFromCodex = true,
+		Image = "WispImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Wisp/WispAlternateSkin",
+		Link = "Wisp Immortal Skin",
+		Name = "Wisp Immortal Skin",
+		Type = "Skin"
+	},
+	["Wisp Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Wisp Prime Warframe.",
+		ExcludeFromCodex = false,
+		Image = "WispPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Wisp/WispPrimeSkin",
+		Link = "Wisp Prime Skin",
+		Name = "Wisp Prime Skin",
+		Type = "Skin"
+	},
+	["Wisp Raevuz Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Wisp Warframe, designed by malaya and Xtygian.",
+		ExcludeFromCodex = false,
+		Image = "WispRaevuzSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Wisp/SWRaevuzSkin",
+		Link = "Wisp Raevuz Skin",
+		Name = "Wisp Raevuz Skin",
+		Type = "Skin"
+	},
+	["Wisp Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Wisp Warframe.",
+		ExcludeFromCodex = true,
+		Image = "WispSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Wisp/WispSkin",
+		Link = "Wisp Skin",
+		Name = "Wisp Skin",
+		Type = "Skin"
+	},
+	["Wisp Somnium Skin"] = {
+		CodexSecret = false,
+		Description = "A vision from the aether.",
+		ExcludeFromCodex = false,
+		Image = "WispSomniumSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Wisp/WispDeluxeSkin",
+		Link = "Wisp Somnium Skin",
+		Name = "Wisp Somnium Skin",
+		Type = "Skin"
+	},
+	["Wisp Sycorax Skin"] = {
+		CodexSecret = false,
+		Description = "A skin for the Wisp Warframe, designed by Vulbjorn.",
+		ExcludeFromCodex = false,
+		Image = "WispSycoraxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Wisp/SWSycoraxWispSkin",
+		Link = "Wisp Sycorax Skin",
+		Name = "Wisp Sycorax Skin",
+		Type = "Skin"
+	},
+	["Wisp Zamariu Skin"] = {
+		CodexSecret = false,
+		Description = "A skin for the Wisp Warframe, designed by daemonstar and led2012.",
+		ExcludeFromCodex = false,
+		Image = "WispZamariuSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Wisp/SWZamariuWispSkin",
+		Link = "Wisp Zamariu Skin",
+		Name = "Wisp Zamariu Skin",
+		Type = "Skin"
+	},
+	["Wukong Auman Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Wukong Warframe, designed by Rekkou.",
+		ExcludeFromCodex = false,
+		Image = "WukongAumanSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/MonkeyKing/SWAumanSkin",
+		Link = "Wukong Auman Skin",
+		Name = "Wukong Auman Skin",
+		Type = "Skin"
+	},
+	["Wukong Mithra Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Wukong Warframe, designed by lukinu_u.",
+		ExcludeFromCodex = false,
+		Image = "WukongMithraSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/MonkeyKing/SWWukongMithraSkin",
+		Link = "Wukong Mithra Skin",
+		Name = "Wukong Mithra Skin",
+		Type = "Skin"
+	},
+	["Wukong Piercing Eye Skin"] = {
+		CodexSecret = false,
+		Description = "A skin for the Wukong Warframe, designed by Mz-3.",
+		ExcludeFromCodex = false,
+		Image = "WukongPiercingEyeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/MonkeyKing/SWPiercingEyeSkin",
+		Link = "Wukong Piercing Eye Skin",
+		Name = "Wukong Piercing Eye Skin",
+		Type = "Skin"
+	},
+	["Wukong Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Wukong Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "WukongPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/MonkeyKing/WukongPrimeSkin",
+		Link = "Wukong Prime Skin",
+		Name = "Wukong Prime Skin",
+		Type = "Skin"
+	},
+    ["Wukong Qitian Skin"] = {
+    	CodexSecret = false,
+    	Description = "Trickster, warrior, king. Wukong Qitian emerges supreme to claim his rightful title.",
+    	ExcludeFromCodex = true,
+    	Image = "WukongQitianSkin.png",
+    	InternalName = "/Lotus/Upgrades/Skins/MonkeyKing/WukongDeluxeBSkin",
+    	Link = "Wukong Qitian Skin",
+    	Name = "Wukong Qitian Skin",
+    	Type = "Skin",
+    },
+	["Wukong Samadhi Iron Staff Skin"] = {
+		CodexSecret = false,
+		Description = "Iron Staff skin to match the Wukong Samadhi Skin.",
+		ExcludeFromCodex = false,
+		Image = "WukongSamadhiIronStaffSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/MonkeyKing/WukongDeluxeStaffSkin",
+		Link = "Wukong Samadhi Iron Staff Skin",
+		Name = "Wukong Samadhi Iron Staff Skin",
+		Type = "Skin"
+	},
+	["Wukong Samadhi Skin"] = {
+		CodexSecret = false,
+		Description = "From the cauldron's flame emerges the immortal Wukong Samadhi.",
+		ExcludeFromCodex = false,
+		Image = "WukongSamadhiSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/MonkeyKing/WukongDeluxeSkin",
+		Link = "Wukong Samadhi Skin",
+		Name = "Wukong Samadhi Skin",
+		Type = "Skin"
+	},
+	["Wukong Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Wukong Warframe.",
+		ExcludeFromCodex = true,
+		Image = "WukongSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/MonkeyKing/MonkeyKingSkin",
+		Link = "Wukong Skin",
+		Name = "Wukong Skin",
+		Type = "Skin"
+	},
+	["Wukong Voidshell Skin"] = {
+		CodexSecret = false,
+		Description = "Don the morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
+		ExcludeFromCodex = false,
+		Image = "WukongVoidshellSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/MonkeyKing/MonkeyKingChamelionSkin",
+		Link = "Wukong Voidshell Skin",
+		Name = "Wukong Voidshell Skin",
+		Type = "Skin"
+	},
+	["Xaku Deathea Skin"] = {
+		CodexSecret = false,
+		Description = "A skin for the Xaku Warframe, designed by kakarrot2812.",
+		ExcludeFromCodex = false,
+		Image = "XakuDeatheaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/BrokenFrame/SWXakuDeatheaSkin",
+		Link = "Xaku Deathea Skin",
+		Name = "Xaku Deathea Skin",
+		Type = "Skin"
+	},
+	["Xaku Kagura Skin"] = {
+		CodexSecret = false,
+		Description = "Those who lead a noble life bear the honor of gilded scars.",
+		ExcludeFromCodex = false,
+		Image = "XakuKaguraSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/BrokenFrame/XakuDeluxeSkin",
+		Link = "Xaku Kagura Skin",
+		Name = "Xaku Kagura Skin",
+		Type = "Skin"
+	},
+	["Xaku Prime Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Xaku Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "XakuPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/BrokenFrame/XakuPrimeSkin",
+		Link = "Xaku Prime Skin",
+		Name = "Xaku Prime Skin",
+		Type = "Skin"
+	},
+	["Xaku Raya Skin"] = {
+		CodexSecret = false,
+		Description = "The light of the lost shines with shared purpose from the depths of Xaku Raya",
+		ExcludeFromCodex = true,
+		Image = "XakuRayaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/BrokenFrame/XakuCosmosSkin",
+		Link = "Xaku Raya Skin",
+		Name = "Xaku Raya Skin",
+		Type = "Skin"
+	},
+	["Xaku Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Xaku Warframe.",
+		ExcludeFromCodex = true,
+		Image = "XakuSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/BrokenFrame/BrokenFrameSkin",
+		Link = "Xaku Skin",
+		Name = "Xaku Skin",
+		Type = "Skin"
+	},
+	["Yareli Pandea Skin"] = {
+		CodexSecret = false,
+		Description = "With the fall of the Orokin, Yareli Pandea drifted into the ocean's depths where Hunhow rediscovered her. Now, she ascends to fight once more.",
+		ExcludeFromCodex = false,
+		Image = "YareliPandeaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Yareli/YareliDeluxeSkin",
+		Link = "Yareli Pandea Skin",
+		Name = "Yareli Pandea Skin",
+		Type = "Skin"
+	},
+	["Yareli Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Yareli Warframe.",
+		ExcludeFromCodex = true,
+		Image = "YareliSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Yareli/YareliSkin",
+		Link = "Yareli Skin",
+		Name = "Yareli Skin",
+		Type = "Skin"
+	},
+	["Zephyr Blade of the Lotus Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Zephyr Warframe, designed by BeastBuster.",
+		ExcludeFromCodex = false,
+		Image = "ZephyrBladeoftheLotusSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Tengu/SWZephyrBotLSkin",
+		Link = "Zephyr Blade of the Lotus Skin",
+		Name = "Zephyr Blade of the Lotus Skin",
+		Type = "Skin"
+	},
+	["Zephyr Conquera Skin"] = {
+		CodexSecret = false,
+		Description = "An elegant skin for Zephyr with roseate accents, worn in support of the Quest to Conquer Cancer.",
+		ExcludeFromCodex = false,
+		Image = "ZephyrConqueraSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Tengu/ZephyrQTCCBodySkin",
+		Link = "Zephyr Conquera Skin",
+		Name = "Zephyr Conquera Skin",
+		Type = "Skin"
+	},
+	["Zephyr Graxx Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Zephyr Warframe, designed by Faven.",
+		ExcludeFromCodex = false,
+		Image = "ZephyrGraxxSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Tengu/SWZephyrGraxxSkin",
+		Link = "Zephyr Graxx Skin",
+		Name = "Zephyr Graxx Skin",
+		Type = "Skin"
+	},
+	["Zephyr Hagoromo Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Zephyr Warframe, designed by Hitsu San.",
+		ExcludeFromCodex = false,
+		Image = "ZephyrHagoromoSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Tengu/SWRThreeHagoromoSkin",
+		Link = "Zephyr Hagoromo Skin",
+		Name = "Zephyr Hagoromo Skin",
+		Type = "Skin"
+	},
+	["Zephyr Harrier Skin"] = {
+		CodexSecret = false,
+		Description = "Ride the skies in breathtaking, windswept style.",
+		ExcludeFromCodex = false,
+		Image = "ZephyrHarrierSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Tengu/ZephyrDeluxeSkin",
+		Link = "Zephyr Harrier Skin",
+		Name = "Zephyr Harrier Skin",
+		Type = "Skin"
+	},
+	["Zephyr Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal Skin for the Zephyr Warframe.",
+		ExcludeFromCodex = false,
+		Image = "ZephyrImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Tengu/ZephyrAlternateSkin",
+		Link = "Zephyr Immortal Skin",
+		Name = "Zephyr Immortal Skin",
+		Type = "Skin"
+	},
+	["Zephyr Prime Skin"] = {
+		CodexSecret = true,
+		Description = "The standard issue skin for the Zephyr Prime Warframe.",
+		ExcludeFromCodex = true,
+		Image = "ZephyrPrimeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Tengu/ZephyrPrimeAlternateSkin",
+		Link = "Zephyr Prime Skin",
+		Name = "Zephyr Prime Skin",
+		Type = "Skin"
+	},
+	["Zephyr Skeiron Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Zephyr Warframe, designed by novadragon01.",
+		ExcludeFromCodex = false,
+		Image = "ZephyrSkeironSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Tengu/SWRThreeSkeironSkin",
+		Link = "Zephyr Skeiron Skin",
+		Name = "Zephyr Skeiron Skin",
+		Type = "Skin"
+	},
+	["Zephyr Skin"] = {
+		CodexSecret = false,
+		Description = "The standard issue skin for the Zephyr Warframe.",
+		ExcludeFromCodex = true,
+		Image = "ZephyrSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Tengu/TenguSkin",
+		Link = "Zephyr Skin",
+		Name = "Zephyr Skin",
+		Type = "Skin"
+	},
+	["Zephyr Strafe Skin"] = {
+		CodexSecret = false,
+		Description = "A unique skin for the Zephyr Warframe, designed by prosetisen.",
+		ExcludeFromCodex = false,
+		Image = "ZephyrStrafeSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Tengu/SWStrafeSkin",
+		Link = "Zephyr Strafe Skin",
+		Name = "Zephyr Strafe Skin",
+		Type = "Skin"
+	},
+}
+```
+

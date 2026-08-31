@@ -1,0 +1,13 @@
+{
+  "page": "Module:Table",
+  "wiki_timestamp": "2026-05-16T05:20:42Z",
+  "extracted_at": "2026-08-31T21:22:45.353887+00:00",
+  "lua_files": [
+    "Module-Table_0.lua",
+    "Module-Table_1.lua"
+  ],
+  "lua_block_count": 2,
+  "file_size": 10493,
+  "comment_count": 118,
+  "status": "success"
+}

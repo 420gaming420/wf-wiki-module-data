@@ -1,0 +1,15 @@
+{
+  "page": "Module:I18n/doc",
+  "wiki_timestamp": "2023-05-08T05:52:50Z",
+  "extracted_at": "2026-08-31T21:22:44.768480+00:00",
+  "lua_files": [
+    "Module-I18n-doc_0.lua",
+    "Module-I18n-doc_1.lua",
+    "Module-I18n-doc_2.lua",
+    "Module-I18n-doc_3.lua"
+  ],
+  "lua_block_count": 4,
+  "file_size": 449,
+  "comment_count": 1,
+  "status": "success"
+}

@@ -1,0 +1,12 @@
+{
+  "page": "Module:CroqueTest2/data",
+  "wiki_timestamp": "2018-03-24T08:40:45Z",
+  "extracted_at": "2026-08-31T21:22:44.103050+00:00",
+  "lua_files": [
+    "Module-CroqueTest2-data_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 239050,
+  "comment_count": 3,
+  "status": "success"
+}

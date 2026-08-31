@@ -1,0 +1,24 @@
+{
+  "page": "Module:I18n/testcases",
+  "wiki_timestamp": "2022-09-23T22:24:19Z",
+  "extracted_at": "2026-08-31T21:22:44.770569+00:00",
+  "lua_files": [
+    "Module-I18n-testcases_0.lua",
+    "Module-I18n-testcases_1.lua",
+    "Module-I18n-testcases_2.lua",
+    "Module-I18n-testcases_3.lua",
+    "Module-I18n-testcases_4.lua",
+    "Module-I18n-testcases_5.lua",
+    "Module-I18n-testcases_6.lua",
+    "Module-I18n-testcases_7.lua",
+    "Module-I18n-testcases_8.lua",
+    "Module-I18n-testcases_9.lua",
+    "Module-I18n-testcases_10.lua",
+    "Module-I18n-testcases_11.lua",
+    "Module-I18n-testcases_12.lua"
+  ],
+  "lua_block_count": 13,
+  "file_size": 2560,
+  "comment_count": 5,
+  "status": "success"
+}

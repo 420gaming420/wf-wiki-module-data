@@ -1,0 +1,12 @@
+{
+  "page": "Module:Cosmetics/data/railjackskin",
+  "wiki_timestamp": "2026-04-15T16:42:33Z",
+  "extracted_at": "2026-08-31T21:22:43.749888+00:00",
+  "lua_files": [
+    "Module-Cosmetics-data-railjackskin_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 1631,
+  "comment_count": 0,
+  "status": "success"
+}

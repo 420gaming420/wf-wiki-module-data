@@ -1,0 +1,12 @@
+{
+  "page": "Module:FINNER Test/data/6",
+  "wiki_timestamp": "2022-01-18T23:17:21Z",
+  "extracted_at": "2026-08-31T21:22:44.620669+00:00",
+  "lua_files": [
+    "Module-FINNER Test-data-6_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 131528,
+  "comment_count": 2,
+  "status": "success"
+}

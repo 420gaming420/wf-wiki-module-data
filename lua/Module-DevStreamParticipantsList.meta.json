@@ -1,0 +1,12 @@
+{
+  "page": "Module:DevStreamParticipantsList",
+  "wiki_timestamp": "2026-08-21T09:10:40Z",
+  "extracted_at": "2026-08-31T21:22:44.190074+00:00",
+  "lua_files": [
+    "Module-DevStreamParticipantsList_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 1156,
+  "comment_count": 6,
+  "status": "success"
+}

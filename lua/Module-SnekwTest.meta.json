@@ -1,0 +1,12 @@
+{
+  "page": "Module:SnekwTest",
+  "wiki_timestamp": "2018-05-05T21:29:06Z",
+  "extracted_at": "2026-08-31T21:22:45.302227+00:00",
+  "lua_files": [
+    "Module-SnekwTest_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 669,
+  "comment_count": 0,
+  "status": "success"
+}

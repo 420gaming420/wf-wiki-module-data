@@ -1,0 +1,12 @@
+{
+  "page": "Module:Resources/data/doc",
+  "wiki_timestamp": "2026-04-10T00:42:49Z",
+  "extracted_at": "2026-08-31T21:22:45.241520+00:00",
+  "lua_files": [
+    "Module-Resources-data-doc_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 434,
+  "comment_count": 0,
+  "status": "success"
+}

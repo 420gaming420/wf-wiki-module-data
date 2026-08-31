@@ -1,0 +1,12 @@
+{
+  "page": "Module:Vehicles/infobox",
+  "wiki_timestamp": "2025-01-31T18:35:14Z",
+  "extracted_at": "2026-08-31T21:22:45.467079+00:00",
+  "lua_files": [
+    "Module-Vehicles-infobox_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 4769,
+  "comment_count": 2,
+  "status": "success"
+}

@@ -1,0 +1,12 @@
+{
+  "page": "Module:InfoboxBuilder/doc",
+  "wiki_timestamp": "2026-08-17T04:02:43Z",
+  "extracted_at": "2026-08-31T21:22:44.800529+00:00",
+  "lua_files": [
+    "Module-InfoboxBuilder-doc_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 1173,
+  "comment_count": 3,
+  "status": "success"
+}

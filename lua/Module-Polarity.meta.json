@@ -1,0 +1,13 @@
+{
+  "page": "Module:Polarity",
+  "wiki_timestamp": "2025-01-31T14:44:30Z",
+  "extracted_at": "2026-08-31T21:22:45.203988+00:00",
+  "lua_files": [
+    "Module-Polarity_0.lua",
+    "Module-Polarity_1.lua"
+  ],
+  "lua_block_count": 2,
+  "file_size": 3337,
+  "comment_count": 29,
+  "status": "success"
+}

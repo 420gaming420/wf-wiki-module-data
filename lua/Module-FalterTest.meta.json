@@ -1,0 +1,12 @@
+{
+  "page": "Module:FalterTest",
+  "wiki_timestamp": "2019-12-16T17:26:51Z",
+  "extracted_at": "2026-08-31T21:22:44.683116+00:00",
+  "lua_files": [
+    "Module-FalterTest_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 1301,
+  "comment_count": 13,
+  "status": "success"
+}

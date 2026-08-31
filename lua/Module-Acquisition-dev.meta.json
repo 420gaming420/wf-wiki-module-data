@@ -1,0 +1,12 @@
+{
+  "page": "Module:Acquisition/dev",
+  "wiki_timestamp": "2021-11-19T02:03:08Z",
+  "extracted_at": "2026-08-31T21:22:43.406300+00:00",
+  "lua_files": [
+    "Module-Acquisition-dev_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 4496,
+  "comment_count": 33,
+  "status": "success"
+}

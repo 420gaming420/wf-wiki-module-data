@@ -1,0 +1,12 @@
+{
+  "page": "Module:Baro/data/typeConfigs/doc",
+  "wiki_timestamp": "2026-06-10T00:14:36Z",
+  "extracted_at": "2026-08-31T21:22:43.521641+00:00",
+  "lua_files": [
+    "Module-Baro-data-typeConfigs-doc_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 119,
+  "comment_count": 0,
+  "status": "success"
+}

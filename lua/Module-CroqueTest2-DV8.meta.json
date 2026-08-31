@@ -1,0 +1,12 @@
+{
+  "page": "Module:CroqueTest2/DV8",
+  "wiki_timestamp": "2018-04-19T09:16:23Z",
+  "extracted_at": "2026-08-31T21:22:44.085350+00:00",
+  "lua_files": [
+    "Module-CroqueTest2-DV8_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 59064,
+  "comment_count": 0,
+  "status": "success"
+}

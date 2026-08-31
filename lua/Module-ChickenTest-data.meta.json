@@ -1,0 +1,12 @@
+{
+  "page": "Module:ChickenTest/data",
+  "wiki_timestamp": "2015-06-29T07:34:18Z",
+  "extracted_at": "2026-08-31T21:22:43.579891+00:00",
+  "lua_files": [
+    "Module-ChickenTest-data_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 234,
+  "comment_count": 0,
+  "status": "success"
+}

@@ -1,0 +1,68 @@
+["Melee Weapon Name"] = {
+	_IgnoreEntry = true,
+	_TooltipAttackDisplay = 1,
+	Attacks = {
+		{
+			AttackIndex = 1,
+            AttackName = "Normal Attack",
+			Damage = { Impact = 1, Puncture = 1, Slash = 1 },
+			CritChance = 0.1,
+			CritMultiplier = 2,
+			StatusChance = 0.1,
+			FireRate = 1
+ 		},
+        {
+			AttackIndex = 2
+			AttackName = "Slam Attack",
+			AttackParentIndex = 1,
+			CritChance = 0.1,
+			CritMultiplier = 2,
+			Damage = { Impact = 1 },
+			Falloff = { EndRange = 1, Reduction = 0.5, StartRange = 0 },
+			FireRate = 1,
+			ForcedProcs = { "Impact" },
+			IsSilent = true,
+			Range = 1,
+			ShotType = "AoE",
+			StatusChance = 0.1 
+		},
+		{
+			AttackIndex = 3
+			AttackName = "Heavy Slam Attack",
+			AttackParentIndex = 1,
+			CritChance = 0.1,
+			CritMultiplier = 2,
+			Damage = { Blast = 1 },
+			Falloff = { EndRange = 2, Reduction = 0.3, StartRange = 0 },
+			FireRate = 1,
+			ForcedProcs = { "Lifted" },
+			IsSilent = true,
+			Range = 2,
+			ShotType = "AoE",
+			StatusChance = 0.1 
+		}
+	},
+	BlockAngle = 55,
+	Class = "Two-Handed Nikana",
+	ComboDur = 5,
+	Conclave = false,
+	Disposition = 0.5,
+	Family = "Tatsu",
+	FollowThrough = 0.7,
+	HeavyAttack = 1284,
+	Image = "Tatsu.png",
+	Introduced = "",
+    Link = "Page Name",
+	Mastery = 1,
+	MaxRank = 30,
+	MeleeRange = 3,
+	Name = "MeleeName",
+	Polarities = { "Madurai" },
+	SellPrice = 7500,
+	SlideAttack = 1,
+ 	Slot = "Melee",
+	StancePolarity = "Madurai",
+	SweepRadius = 0.25,
+	Traits = { "Tenno" },
+	WindUp = 0.7
+},

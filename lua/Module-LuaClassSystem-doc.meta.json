@@ -1,0 +1,21 @@
+{
+  "page": "Module:LuaClassSystem/doc",
+  "wiki_timestamp": "2023-01-05T23:03:30Z",
+  "extracted_at": "2026-08-31T21:22:44.960227+00:00",
+  "lua_files": [
+    "Module-LuaClassSystem-doc_0.lua",
+    "Module-LuaClassSystem-doc_1.lua",
+    "Module-LuaClassSystem-doc_2.lua",
+    "Module-LuaClassSystem-doc_3.lua",
+    "Module-LuaClassSystem-doc_4.lua",
+    "Module-LuaClassSystem-doc_5.lua",
+    "Module-LuaClassSystem-doc_6.lua",
+    "Module-LuaClassSystem-doc_7.lua",
+    "Module-LuaClassSystem-doc_8.lua",
+    "Module-LuaClassSystem-doc_9.lua"
+  ],
+  "lua_block_count": 10,
+  "file_size": 2976,
+  "comment_count": 2,
+  "status": "success"
+}

@@ -1,0 +1,4143 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Weapons/data/archwing",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-08-31T21:33:18.819Z"
+  },
+  "_comments": "",
+  "Centaur": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Archmelee",
+    "MaxRank": 30,
+    "GripType": "MELEE_ONE_HAND",
+    "Introduced": "15.7.2",
+    "Polarities": [
+      "Madurai"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Melee/Archswordandshield/ArchSwordShield",
+    "Link": "Centaur",
+    "SweepRadius": 0.5,
+    "Traits": [
+      "Tenno"
+    ],
+    "Attacks": [
+      {
+        "FireRate": 1.08,
+        "CritChance": 0.25,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "IsSilent": true,
+        "StatusChance": 0.2,
+        "Damage": {
+          "Puncture": 75.2,
+          "Slash": 263.2,
+          "Impact": 37.6
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Slot": "Archmelee",
+    "Name": "Centaur",
+    "SellPrice": 5000,
+    "Family": "Centaur",
+    "MeleeRange": 142.5,
+    "Mastery": 8,
+    "Image": "Centaur.png"
+  },
+  "Arbucep": {
+    "ReloadRate": 50,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 2,
+    "Class": "Archgun",
+    "MaxRank": 30,
+    "Link": "Arbucep",
+    "GripType": "",
+    "Traits": [
+      "Tenno"
+    ],
+    "Introduced": "40",
+    "Polarities": [
+      "Madurai",
+      "Naramon"
+    ],
+    "Slot": "Archgun",
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/NokkoArchGun/NokkoArchGun",
+    "SellPrice": 5000,
+    "ReloadStyle": "Regenerate",
+    "ReloadDelay": 1,
+    "Attacks": [
+      {
+        "CritChance": 0.1,
+        "StatusChance": 0.349,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 2003,
+          "Reduction": 1,
+          "StartRange": 1500
+        },
+        "MaxSpread": 9,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MinSpread": 7,
+        "AttackIndex": 1,
+        "AttackName": "1st Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Blast": 16
+        },
+        "CritMultiplier": 2.9
+      },
+      {
+        "StatusChance": 0.349,
+        "CritChance": 0.1,
+        "Falloff": {
+          "EndRange": 2003,
+          "Reduction": 1,
+          "StartRange": 1500
+        },
+        "MinSpread": 7,
+        "IsSilent": false,
+        "AttackParentIndex": 1,
+        "Range": 4,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MaxSpread": 9,
+        "AttackIndex": 2,
+        "AttackName": "1st Attack Radial Attack",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Blast": 114
+        },
+        "CritMultiplier": 2.9
+      },
+      {
+        "CritChance": 0.1,
+        "StatusChance": 0.349,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 2003,
+          "Reduction": 1,
+          "StartRange": 1500
+        },
+        "MaxSpread": 9,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MinSpread": 7,
+        "AttackIndex": 3,
+        "AttackName": "2nd Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Corrosive": 16
+        },
+        "CritMultiplier": 2.9
+      },
+      {
+        "StatusChance": 0.349,
+        "CritChance": 0.1,
+        "Falloff": {
+          "EndRange": 2003,
+          "Reduction": 1,
+          "StartRange": 1500
+        },
+        "MinSpread": 7,
+        "IsSilent": false,
+        "AttackParentIndex": 3,
+        "Range": 4,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MaxSpread": 9,
+        "AttackIndex": 4,
+        "AttackName": "2nd Attack Radial Attack",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Corrosive": 114
+        },
+        "CritMultiplier": 2.9
+      },
+      {
+        "CritChance": 0.1,
+        "StatusChance": 0.349,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 2003,
+          "Reduction": 1,
+          "StartRange": 1500
+        },
+        "MaxSpread": 9,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MinSpread": 7,
+        "AttackIndex": 5,
+        "AttackName": "3rd Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Gas": 16
+        },
+        "CritMultiplier": 2.9
+      },
+      {
+        "StatusChance": 0.349,
+        "CritChance": 0.1,
+        "Falloff": {
+          "EndRange": 2003,
+          "Reduction": 1,
+          "StartRange": 1500
+        },
+        "MinSpread": 7,
+        "IsSilent": false,
+        "AttackParentIndex": 5,
+        "Range": 4,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MaxSpread": 9,
+        "AttackIndex": 6,
+        "AttackName": "3rd Attack Radial Attack",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Gas": 114
+        },
+        "CritMultiplier": 2.9
+      },
+      {
+        "CritChance": 0.1,
+        "StatusChance": 0.349,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 2003,
+          "Reduction": 1,
+          "StartRange": 1500
+        },
+        "MaxSpread": 9,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MinSpread": 7,
+        "AttackIndex": 7,
+        "AttackName": "4th Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Magnetic": 16
+        },
+        "CritMultiplier": 2.9
+      },
+      {
+        "StatusChance": 0.349,
+        "CritChance": 0.1,
+        "Falloff": {
+          "EndRange": 2003,
+          "Reduction": 1,
+          "StartRange": 1500
+        },
+        "MinSpread": 7,
+        "IsSilent": false,
+        "AttackParentIndex": 7,
+        "Range": 4,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MaxSpread": 9,
+        "AttackIndex": 8,
+        "AttackName": "4th Attack Radial Attack",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Magnetic": 114
+        },
+        "CritMultiplier": 2.9
+      },
+      {
+        "CritChance": 0.1,
+        "StatusChance": 0.349,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 2003,
+          "Reduction": 1,
+          "StartRange": 1500
+        },
+        "MaxSpread": 9,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MinSpread": 7,
+        "AttackIndex": 9,
+        "AttackName": "5th Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Radiation": 16
+        },
+        "CritMultiplier": 2.9
+      },
+      {
+        "StatusChance": 0.349,
+        "CritChance": 0.1,
+        "Falloff": {
+          "EndRange": 2003,
+          "Reduction": 1,
+          "StartRange": 1500
+        },
+        "MinSpread": 7,
+        "IsSilent": false,
+        "AttackParentIndex": 9,
+        "Range": 4,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MaxSpread": 9,
+        "AttackIndex": 10,
+        "AttackName": "5th Attack Radial Attack",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Radiation": 114
+        },
+        "CritMultiplier": 2.9
+      },
+      {
+        "CritChance": 0.1,
+        "StatusChance": 0.349,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 2003,
+          "Reduction": 1,
+          "StartRange": 1500
+        },
+        "MaxSpread": 9,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MinSpread": 7,
+        "AttackIndex": 11,
+        "AttackName": "6th Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Viral": 16
+        },
+        "CritMultiplier": 2.9
+      },
+      {
+        "StatusChance": 0.349,
+        "CritChance": 0.1,
+        "Falloff": {
+          "EndRange": 2003,
+          "Reduction": 1,
+          "StartRange": 1500
+        },
+        "MinSpread": 7,
+        "IsSilent": false,
+        "AttackParentIndex": 11,
+        "Range": 4,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MaxSpread": 9,
+        "AttackIndex": 12,
+        "AttackName": "6th Attack Radial Attack",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Viral": 114
+        },
+        "CritMultiplier": 2.9
+      }
+    ],
+    "AmmoType": "Heavy",
+    "Trigger": "Auto",
+    "Magazine": 36,
+    "CompatibilityTags": [
+      "BATTERY"
+    ],
+    "Reload": 1.72,
+    "AmmoPickup": 0,
+    "Mastery": 0,
+    "Name": "Arbucep",
+    "Image": "Arbucep.png",
+    "Family": "Arbucep",
+    "AmmoMax": 0,
+    "Disposition": 0.7,
+    "DefaultUpgrades": [
+      "/Lotus/Weapons/Tenno/Archwing/Primary/NokkoArchGun/NokkoArchGunInnateMod"
+    ]
+  },
+  "Corvas Prime (Atmosphere)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 2,
+    "Class": "Shotgun",
+    "MaxRank": 30,
+    "GripType": "",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "31.3",
+    "Polarities": [
+      "Madurai",
+      "Madurai",
+      "Naramon"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeCorvas/PrimeCorvasWeapon",
+    "SellPrice": 5000,
+    "Traits": [
+      "Prime"
+    ],
+    "Tradable": 2,
+    "Slot": "Archgun (Atmosphere)",
+    "AmmoType": "Heavy",
+    "Trigger": "Charge",
+    "Magazine": 20,
+    "Link": "Corvas Prime",
+    "Reload": 2,
+    "AmmoPickup": 1000,
+    "Mastery": 14,
+    "Name": "Corvas Prime (Atmosphere)",
+    "Image": "CorvasPrime.png",
+    "Family": "Corvas",
+    "AmmoMax": 120,
+    "Disposition": 0.95,
+    "Attacks": [
+      {
+        "CritChance": 0.44,
+        "Range": 60,
+        "FireRate": 2,
+        "Multishot": 1,
+        "AttackIndex": 1,
+        "AttackName": "Uncharged Shot",
+        "ShotType": "Projectile",
+        "CritMultiplier": 3,
+        "AmmoCost": 1,
+        "IsSilent": false,
+        "ShotSpeed": 120,
+        "MaxSpread": 0,
+        "MinSpread": 0,
+        "PunchThrough": 1.4,
+        "StatusChance": 0.2,
+        "ForcedProcs": [
+          "Impact"
+        ],
+        "Damage": {
+          "Heat": 330,
+          "Impact": 230
+        }
+      },
+      {
+        "CritChance": 0.56,
+        "Falloff": {
+          "EndRange": 200,
+          "Reduction": 0.5,
+          "StartRange": 100
+        },
+        "Range": 70,
+        "FireRate": 2,
+        "Multishot": 1,
+        "AttackIndex": 2,
+        "AttackName": "Charged Shot",
+        "ShotType": "Projectile",
+        "CritMultiplier": 3,
+        "ChargeTime": 0.5,
+        "AmmoCost": 1,
+        "IsSilent": false,
+        "ShotSpeed": 140,
+        "PunchThrough": 1.4,
+        "StatusChance": 0.2,
+        "ForcedProcs": [
+          "Impact"
+        ],
+        "Damage": {
+          "Heat": 530,
+          "Impact": 430
+        }
+      }
+    ]
+  },
+  "Fluctus (Atmosphere)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "GripType": "",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "24.2",
+    "Polarities": [
+      "Naramon"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/RocketArtillery/ArchRocketCrossbow",
+    "SellPrice": 5000,
+    "Traits": [
+      "Tenno",
+      "Corpus"
+    ],
+    "Slot": "Archgun (Atmosphere)",
+    "AmmoType": "Heavy",
+    "Trigger": "Semi-Auto",
+    "Magazine": 40,
+    "Link": "Fluctus",
+    "Reload": 3,
+    "AmmoPickup": 1000,
+    "Mastery": 2,
+    "Name": "Fluctus (Atmosphere)",
+    "Image": "Fluctus.png",
+    "Family": "Fluctus",
+    "AmmoMax": 160,
+    "Disposition": 1.1,
+    "Attacks": [
+      {
+        "CritChance": 0.22,
+        "Range": 54,
+        "FireRate": 5,
+        "Multishot": 1,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "ShotType": "Projectile",
+        "CritMultiplier": 2,
+        "AmmoCost": 1,
+        "IsSilent": false,
+        "ShotSpeed": 45,
+        "MaxSpread": 0,
+        "MinSpread": 0,
+        "PunchThrough": null,
+        "StatusChance": 0.16,
+        "ForcedProcs": [
+          "Impact"
+        ],
+        "Damage": {
+          "Puncture": 50,
+          "Slash": 350,
+          "Impact": 100
+        }
+      }
+    ]
+  },
+  "Kaszas": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Archmelee",
+    "MaxRank": 30,
+    "GripType": "MELEE_ONE_HAND",
+    "Introduced": "17.5",
+    "Polarities": [
+      "Vazarin"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Melee/ArchScythe/ArchScythe",
+    "Link": "Kaszas",
+    "SweepRadius": 0.5,
+    "Traits": [
+      "Tenno"
+    ],
+    "Attacks": [
+      {
+        "FireRate": 1,
+        "CritChance": 0.15,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "IsSilent": true,
+        "StatusChance": 0.2,
+        "Damage": {
+          "Puncture": 313.6,
+          "Slash": 58.7,
+          "Impact": 19.7
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Slot": "Archmelee",
+    "Name": "Kaszas",
+    "SellPrice": 5000,
+    "Family": "Kaszas",
+    "MeleeRange": 142.5,
+    "Mastery": 4,
+    "Image": "Kaszas.png"
+  },
+  "Morgha": {
+    "ReloadRate": 50,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 2,
+    "Class": "Archgun",
+    "MaxRank": 30,
+    "GripType": "",
+    "Introduced": "29.5",
+    "Polarities": [
+      "Madurai"
+    ],
+    "ReloadStyle": "Regenerate",
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechGrenadeLaunch/ThanoTechGrenadeLauncher",
+    "Traits": [
+      "Entrati"
+    ],
+    "Tradable": 4,
+    "Slot": "Archgun",
+    "SellPrice": 5000,
+    "Link": "Morgha",
+    "Trigger": "Auto-Burst",
+    "Magazine": 100,
+    "CompatibilityTags": [
+      "BATTERY"
+    ],
+    "Reload": 3,
+    "Attacks": [
+      {
+        "CritChance": 0.3,
+        "BurstCount": 2,
+        "FireRate": 3,
+        "Multishot": 1,
+        "AttackIndex": 1,
+        "AttackName": "Auto-Burst",
+        "ShotType": "Projectile",
+        "CritMultiplier": 2.2,
+        "BurstDelay": 0,
+        "AmmoCost": 1,
+        "MaxSpread": 20,
+        "ShotSpeed": 160,
+        "MinSpread": 10,
+        "PunchThrough": 0,
+        "StatusChance": 0.28,
+        "IsSilent": false,
+        "Damage": {
+          "Impact": 32
+        }
+      },
+      {
+        "CritChance": 0.3,
+        "StatusChance": 0.28,
+        "Falloff": {
+          "EndRange": 3,
+          "Reduction": 0.3,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 3,
+        "FireRate": 3,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Auto Burst Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Blast": 164
+        },
+        "CritMultiplier": 2.2
+      },
+      {
+        "CritChance": 0.4,
+        "FireRate": 0.833,
+        "Trigger": "Semi-Auto",
+        "IsSilent": false,
+        "MinSpread": 0,
+        "AmmoCost": 0,
+        "Multishot": 1,
+        "MaxSpread": 0,
+        "AttackIndex": 3,
+        "AttackName": "Charged Shot",
+        "PunchThrough": 0,
+        "StatusChance": 0.5,
+        "Damage": {
+          "Impact": 100
+        },
+        "CritMultiplier": 3
+      },
+      {
+        "CritChance": 0.4,
+        "Falloff": {
+          "EndRange": 20,
+          "Reduction": 0.6,
+          "StartRange": 0
+        },
+        "StatusChance": 0.5,
+        "Trigger": "Semi-Auto",
+        "AttackParentIndex": 3,
+        "Range": 20,
+        "FireRate": 0.833,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 4,
+        "AttackName": "Charged Shot Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Blast": 1200,
+          "Slash": 1000,
+          "Puncture": 800,
+          "Impact": 600
+        },
+        "CritMultiplier": 3
+      }
+    ],
+    "ReloadDelay": 1,
+    "Name": "Morgha",
+    "Mastery": 15,
+    "Family": "Morgha",
+    "AmmoMax": 0,
+    "Disposition": 1,
+    "Image": "Morgha.png"
+  },
+  "Grattler": {
+    "ReloadRate": 10,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 2,
+    "Class": "Archgun",
+    "MaxRank": 30,
+    "GripType": "",
+    "Introduced": "17.0",
+    "Polarities": [
+      "Madurai"
+    ],
+    "ReloadStyle": "Regenerate",
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/RepurposedGrineerAntiAircraftGun/ArchGRNAAGun",
+    "Traits": [
+      "Grineer"
+    ],
+    "Spool": 4,
+    "Slot": "Archgun",
+    "SellPrice": 5000,
+    "Link": "Grattler",
+    "Trigger": "Auto-Spool",
+    "Magazine": 30,
+    "CompatibilityTags": [
+      "BATTERY"
+    ],
+    "Reload": 4,
+    "Attacks": [
+      {
+        "StatusChance": 0.25,
+        "CritChance": 0.25,
+        "FireRate": 6.25,
+        "ShotSpeed": 250,
+        "IsSilent": false,
+        "Falloff": {
+          "StartRange": 1000,
+          "EndRange": 2000
+        },
+        "MinSpread": 5,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 7,
+        "AttackIndex": 1,
+        "AttackName": "Projectile Impact",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 120,
+          "Slash": 15,
+          "Impact": 15
+        },
+        "CritMultiplier": 2
+      },
+      {
+        "CritChance": 0.25,
+        "StatusChance": 0.25,
+        "Falloff": {
+          "EndRange": 9,
+          "Reduction": 0.7,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 9,
+        "FireRate": 6.25,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Blast": 205
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "ReloadDelay": 1,
+    "Name": "Grattler",
+    "Mastery": 4,
+    "Family": "Grattler",
+    "AmmoMax": 0,
+    "Disposition": 1.1,
+    "Image": "Grattler.png"
+  },
+  "Dual Decurion (Atmosphere)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Dual Pistols",
+    "MaxRank": 30,
+    "GripType": "",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "24.2",
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/ArchHeavyPistols",
+    "SellPrice": 5000,
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Archgun (Atmosphere)",
+    "AmmoType": "Heavy",
+    "Trigger": "Auto",
+    "Magazine": 64,
+    "Link": "Dual Decurion",
+    "Reload": 1.4,
+    "AmmoPickup": 1000,
+    "Mastery": 1,
+    "Name": "Dual Decurion (Atmosphere)",
+    "Image": "DualDecurion.png",
+    "Family": "Dual Decurion",
+    "AmmoMax": 512,
+    "Disposition": 1.3,
+    "Attacks": [
+      {
+        "CritChance": 0.28,
+        "StatusChance": 0.14,
+        "FireRate": 10.42,
+        "MinSpread": 0,
+        "IsSilent": false,
+        "Range": 300,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 0,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 1.2,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 52.25,
+          "Slash": 52.25,
+          "Impact": 85.5
+        },
+        "CritMultiplier": 2.2
+      }
+    ]
+  },
+  "Prisma Dual Decurions (Atmosphere)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Dual Pistols",
+    "MaxRank": 30,
+    "GripType": "DUAL_GUN_GUN",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "29.5.8",
+    "Polarities": [
+      "Madurai",
+      "Madurai"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/Prisma/PrismaArchHeavyPistols",
+    "Mastery": 1,
+    "Traits": [
+      "Prisma",
+      "Baro"
+    ],
+    "Slot": "Archgun (Atmosphere)",
+    "SellPrice": 5000,
+    "AmmoType": "Heavy",
+    "Trigger": "Auto",
+    "Magazine": 64,
+    "Image": "PrismaDualDecurions.png",
+    "Reload": 1.4,
+    "AmmoPickup": 1000,
+    "Link": "Prisma Dual Decurions",
+    "Name": "Prisma Dual Decurions (Atmosphere)",
+    "Attacks": [
+      {
+        "CritChance": 0.3,
+        "StatusChance": 0.24,
+        "FireRate": 12.5,
+        "MinSpread": 0,
+        "IsSilent": false,
+        "Range": 300,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 0,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 1.2,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 60.5,
+          "Slash": 60.5,
+          "Impact": 99
+        },
+        "CritMultiplier": 2.2
+      }
+    ],
+    "Family": "Dual Decurion",
+    "AmmoMax": 512,
+    "Disposition": 1.25,
+    "CodexSecret": true
+  },
+  "Agkuza": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Archmelee",
+    "MaxRank": 30,
+    "GripType": "MELEE_ONE_HAND",
+    "Introduced": "Specters of the Rail 0.0",
+    "Polarities": [
+      "Vazarin"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Melee/ArchSwordHook/ArchHookSwordWeapon",
+    "Link": "Agkuza",
+    "SweepRadius": 0.5,
+    "Traits": [
+      "Tenno"
+    ],
+    "Attacks": [
+      {
+        "FireRate": 1,
+        "CritChance": 0.05,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "IsSilent": true,
+        "StatusChance": 0.15,
+        "Damage": {
+          "Puncture": 305.2,
+          "Slash": 65.4,
+          "Impact": 65.4
+        },
+        "CritMultiplier": 1.5
+      }
+    ],
+    "Slot": "Archmelee",
+    "Name": "Agkuza",
+    "SellPrice": 5000,
+    "Family": "Agkuza",
+    "MeleeRange": 142.5,
+    "Mastery": 3,
+    "Image": "Agkuza.png"
+  },
+  "Veritux": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Archmelee",
+    "MaxRank": 30,
+    "GripType": "MELEE_ONE_HAND",
+    "Introduced": "15.0",
+    "Polarities": [
+      "Vazarin"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Melee/Archsword/ArchSwordWeapon",
+    "Link": "Veritux",
+    "SweepRadius": 0.5,
+    "Traits": [
+      "Tenno"
+    ],
+    "Attacks": [
+      {
+        "FireRate": 0.833,
+        "CritChance": 0.05,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "IsSilent": true,
+        "StatusChance": 0.1,
+        "Damage": {
+          "Puncture": 70.5,
+          "Slash": 329,
+          "Impact": 70.5
+        },
+        "CritMultiplier": 1.5
+      }
+    ],
+    "Slot": "Archmelee",
+    "Name": "Veritux",
+    "SellPrice": 5000,
+    "Family": "Veritux",
+    "MeleeRange": 143,
+    "Mastery": 0,
+    "Image": "Veritux.png"
+  },
+  "Fluctus": {
+    "ReloadRate": 10,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Archgun",
+    "MaxRank": 30,
+    "GripType": "",
+    "Introduced": "15.7.2",
+    "Polarities": [
+      "Naramon"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/RocketArtillery/ArchRocketCrossbow",
+    "ReloadStyle": "Regenerate",
+    "Traits": [
+      "Tenno",
+      "Corpus"
+    ],
+    "Slot": "Archgun",
+    "SellPrice": 5000,
+    "Link": "Fluctus",
+    "Trigger": "Semi-Auto",
+    "Magazine": 40,
+    "CompatibilityTags": [
+      "BATTERY"
+    ],
+    "Reload": 5,
+    "Attacks": [
+      {
+        "CritChance": 0.22,
+        "Falloff": {
+          "EndRange": 1600,
+          "Reduction": 0.5,
+          "StartRange": 800
+        },
+        "Range": 450,
+        "FireRate": 5,
+        "Multishot": 1,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "ShotType": "Projectile",
+        "CritMultiplier": 2,
+        "AmmoCost": 1,
+        "IsSilent": false,
+        "ShotSpeed": 300,
+        "MaxSpread": 0,
+        "MinSpread": 0,
+        "PunchThrough": null,
+        "StatusChance": 0.16,
+        "ForcedProcs": [
+          "Impact"
+        ],
+        "Damage": {
+          "Puncture": 25,
+          "Slash": 175,
+          "Impact": 50
+        }
+      }
+    ],
+    "ReloadDelay": 1,
+    "Name": "Fluctus",
+    "Mastery": 2,
+    "Family": "Fluctus",
+    "AmmoMax": 0,
+    "Disposition": 1.1,
+    "Image": "Fluctus.png"
+  },
+  "Imperator Vandal": {
+    "ReloadDelayEmpty": 0.25,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Archgun",
+    "MaxRank": 30,
+    "ReloadDelay": 0.15,
+    "Traits": [
+      "Tenno",
+      "Vandal"
+    ],
+    "GripType": "",
+    "Tradable": 2,
+    "Introduced": "15.8",
+    "Polarities": [
+      "Madurai"
+    ],
+    "Spool": 16,
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGunVandal",
+    "Slot": "Archgun",
+    "SellPrice": 5000,
+    "ReloadStyle": "Regenerate",
+    "ReloadRate": 75,
+    "Link": "Imperator Vandal",
+    "Trigger": "Auto-Spool",
+    "Magazine": 300,
+    "CompatibilityTags": [
+      "BATTERY"
+    ],
+    "Reload": 4.25,
+    "Attacks": [
+      {
+        "StatusChance": 0.12,
+        "CritChance": 0.28,
+        "FireRate": 25,
+        "ShotSpeed": 220,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 3000,
+          "Reduction": 0.5,
+          "StartRange": 1500
+        },
+        "MinSpread": 1,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 3,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 17.5,
+          "Slash": 12.5,
+          "Impact": 20
+        },
+        "CritMultiplier": 2.4
+      }
+    ],
+    "Image": "ImperatorVandal.png",
+    "Name": "Imperator Vandal",
+    "Mastery": 5,
+    "Family": "Imperator",
+    "AmmoMax": 0,
+    "Disposition": 0.95,
+    "CodexSecret": false
+  },
+  "Kuva Grattler": {
+    "ReloadRate": 20,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 2,
+    "Class": "Archgun",
+    "MaxRank": 40,
+    "Mastery": 15,
+    "GripType": "",
+    "Traits": [
+      "Grineer",
+      "Kuva Lich"
+    ],
+    "Introduced": "30.5",
+    "Polarities": [
+      "Madurai",
+      "Madurai",
+      "Madurai"
+    ],
+    "Tradable": 3,
+    "InternalName": "/Lotus/Weapons/Grineer/KuvaLich/HeavyWeapons/Grattler/KuvaGrattler",
+    "Slot": "Archgun",
+    "SellPrice": 5000,
+    "ReloadStyle": "Regenerate",
+    "ReloadDelay": 1,
+    "Link": "Kuva Grattler",
+    "Trigger": "Auto",
+    "Magazine": 60,
+    "CompatibilityTags": [
+      "BATTERY"
+    ],
+    "Reload": 4,
+    "Attacks": [
+      {
+        "StatusChance": 0.27,
+        "CritChance": 0.27,
+        "FireRate": 5.55,
+        "ShotSpeed": 250,
+        "IsSilent": false,
+        "Falloff": {
+          "StartRange": 1000,
+          "EndRange": 2000
+        },
+        "MinSpread": 5,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 7,
+        "AttackIndex": 1,
+        "AttackName": "Projectile Impact",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 75.2,
+          "Slash": 9.4,
+          "Impact": 9.4
+        },
+        "CritMultiplier": 2.1
+      },
+      {
+        "CritChance": 0.27,
+        "StatusChance": 0.27,
+        "Falloff": {
+          "EndRange": 9,
+          "Reduction": 0.7,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 9,
+        "FireRate": 5.55,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Blast": 155
+        },
+        "CritMultiplier": 2.1
+      }
+    ],
+    "Image": "KuvaGrattler.png",
+    "Name": "Kuva Grattler",
+    "IsLichWeapon": true,
+    "Family": "Grattler",
+    "AmmoMax": 0,
+    "Disposition": 0.7,
+    "DefaultUpgrades": [
+      "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
+    ]
+  },
+  "Dual Decurion": {
+    "ReloadRate": 50,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Archgun",
+    "MaxRank": 30,
+    "GripType": "",
+    "Introduced": "15.5",
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/ArchHeavyPistols",
+    "ReloadStyle": "Regenerate",
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Archgun",
+    "SellPrice": 5000,
+    "Link": "Dual Decurion",
+    "Trigger": "Auto",
+    "Magazine": 64,
+    "CompatibilityTags": [
+      "BATTERY"
+    ],
+    "Reload": 1.53,
+    "Attacks": [
+      {
+        "StatusChance": 0.14,
+        "CritChance": 0.28,
+        "FireRate": 10.42,
+        "ShotSpeed": 220,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 3000,
+          "Reduction": 0.5,
+          "StartRange": 1500
+        },
+        "MinSpread": 7,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 9,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 1.2,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 30.25,
+          "Slash": 30.25,
+          "Impact": 49.5
+        },
+        "CritMultiplier": 2.2
+      }
+    ],
+    "ReloadDelay": 0.25,
+    "Name": "Dual Decurion",
+    "Mastery": 1,
+    "Family": "Dual Decurion",
+    "AmmoMax": 0,
+    "Disposition": 1.3,
+    "Image": "DualDecurion.png"
+  },
+  "Imperator Vandal (Atmosphere)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "GripType": "",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "24.2",
+    "Mastery": 5,
+    "Traits": [
+      "Tenno",
+      "Vandal"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGunVandal",
+    "Tradable": 2,
+    "Spool": 16,
+    "Slot": "Archgun (Atmosphere)",
+    "SellPrice": 5000,
+    "AmmoType": "Heavy",
+    "Trigger": "Auto-Spool",
+    "Magazine": 300,
+    "Image": "ImperatorVandal.png",
+    "Reload": 2,
+    "AmmoPickup": 1000,
+    "Link": "Imperator Vandal",
+    "Name": "Imperator Vandal (Atmosphere)",
+    "Attacks": [
+      {
+        "CritChance": 0.28,
+        "StatusChance": 0.12,
+        "FireRate": 25,
+        "MinSpread": 1,
+        "IsSilent": false,
+        "Range": 300,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 3,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 1.2,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 35,
+          "Slash": 25,
+          "Impact": 40
+        },
+        "CritMultiplier": 2.4
+      }
+    ],
+    "Family": "Imperator",
+    "AmmoMax": 1200,
+    "Disposition": 0.95,
+    "CodexSecret": false
+  },
+  "Prisma Veritux": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Archmelee",
+    "MaxRank": 30,
+    "GripType": "MELEE_ONE_HAND",
+    "Introduced": "15.13.3",
+    "Polarities": [
+      "Vazarin"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Melee/VoidTraderArchsword/VTArchSwordWeapon",
+    "Link": "Prisma Veritux",
+    "Traits": [
+      "Tenno",
+      "Prisma"
+    ],
+    "SweepRadius": 0.5,
+    "Tradable": 1,
+    "Slot": "Archmelee",
+    "Attacks": [
+      {
+        "FireRate": 1,
+        "CritChance": 0.3,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "IsSilent": true,
+        "StatusChance": 0.2,
+        "Damage": {
+          "Puncture": 59.1,
+          "Slash": 275.8,
+          "Impact": 59.1
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "SellPrice": 5000,
+    "Name": "Prisma Veritux",
+    "MeleeRange": 143,
+    "Family": "Veritux",
+    "Mastery": 8,
+    "Image": "PrismaVeritux.png",
+    "CodexSecret": true
+  },
+  "Corvas": {
+    "ReloadRate": 5,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 2,
+    "Class": "Archgun",
+    "MaxRank": 30,
+    "GripType": "",
+    "Introduced": "15.0",
+    "Polarities": [
+      "Naramon"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/LaunchGrenade/ArchCannon",
+    "ReloadStyle": "Regenerate",
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Archgun",
+    "SellPrice": 5000,
+    "Link": "Corvas",
+    "Trigger": "Charge",
+    "Magazine": 25,
+    "CompatibilityTags": [
+      "BATTERY"
+    ],
+    "Reload": 8,
+    "Attacks": [
+      {
+        "StatusChance": 0.13,
+        "CritChance": 0.4,
+        "FireRate": 2,
+        "ShotSpeed": 400,
+        "ForcedProcs": [
+          "Impact"
+        ],
+        "MaxSpread": 0,
+        "MinSpread": 0,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Uncharged Shot",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Impact": 200,
+          "Heat": 240
+        },
+        "CritMultiplier": 2.6
+      },
+      {
+        "ChargeTime": 0.5,
+        "CritChance": 0.4,
+        "StatusChance": 0.13,
+        "FireRate": 2,
+        "ShotSpeed": 400,
+        "Falloff": {
+          "StartRange": 600,
+          "EndRange": 1200
+        },
+        "ForcedProcs": [
+          "Impact"
+        ],
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Charged Shot",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Impact": 400,
+          "Heat": 480
+        },
+        "CritMultiplier": 3
+      }
+    ],
+    "ReloadDelay": 3,
+    "Name": "Corvas",
+    "Mastery": 1,
+    "Family": "Corvas",
+    "AmmoMax": 0,
+    "Disposition": 1.2,
+    "Image": "Corvas.png"
+  },
+  "Grattler (Atmosphere)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 2,
+    "Class": "Launcher",
+    "MaxRank": 30,
+    "GripType": "",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "24.2",
+    "Polarities": [
+      "Madurai"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/RepurposedGrineerAntiAircraftGun/ArchGRNAAGun",
+    "SellPrice": 5000,
+    "Traits": [
+      "Grineer"
+    ],
+    "Spool": 4,
+    "Slot": "Archgun (Atmosphere)",
+    "AmmoType": "Heavy",
+    "Trigger": "Auto-Spool",
+    "Magazine": 30,
+    "Link": "Grattler",
+    "Reload": 2,
+    "AmmoPickup": 1000,
+    "Mastery": 4,
+    "Name": "Grattler (Atmosphere)",
+    "Image": "Grattler.png",
+    "Family": "Grattler",
+    "AmmoMax": 180,
+    "Disposition": 1.1,
+    "Attacks": [
+      {
+        "CritChance": 0.25,
+        "StatusChance": 0.25,
+        "FireRate": 6.25,
+        "ShotSpeed": 250,
+        "MinSpread": 5,
+        "Range": 225,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 7,
+        "AttackIndex": 1,
+        "AttackName": "Projectile Impact",
+        "IsSilent": false,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 180,
+          "Slash": 22.5,
+          "Impact": 22.5
+        },
+        "CritMultiplier": 2
+      },
+      {
+        "CritChance": 0.25,
+        "StatusChance": 0.25,
+        "AttackParentIndex": 1,
+        "Range": 9,
+        "FireRate": 6.25,
+        "Multishot": 1,
+        "Falloff": {
+          "EndRange": 9,
+          "Reduction": 0.7,
+          "StartRange": 0
+        },
+        "AttackIndex": 2,
+        "AttackName": "Explosion",
+        "IsSilent": false,
+        "ShotType": "AoE",
+        "Damage": {
+          "Blast": 310
+        },
+        "CritMultiplier": 2
+      }
+    ]
+  },
+  "Imperator": {
+    "ReloadRate": 50,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Archgun",
+    "MaxRank": 30,
+    "GripType": "",
+    "Introduced": "15.0",
+    "Polarities": [
+      "Madurai"
+    ],
+    "ReloadStyle": "Regenerate",
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGun",
+    "Traits": [
+      "Tenno"
+    ],
+    "Tradable": 2,
+    "Slot": "Archgun",
+    "SellPrice": 5000,
+    "Link": "Imperator",
+    "Trigger": "Auto",
+    "Magazine": 200,
+    "CompatibilityTags": [
+      "BATTERY"
+    ],
+    "Reload": 4.25,
+    "Attacks": [
+      {
+        "StatusChance": 0.12,
+        "CritChance": 0.24,
+        "FireRate": 16.7,
+        "ShotSpeed": 220,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 3000,
+          "Reduction": 0.5,
+          "StartRange": 1500
+        },
+        "MinSpread": 1,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 3,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 17.5,
+          "Slash": 12.5,
+          "Impact": 20
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "ReloadDelay": 0.25,
+    "Name": "Imperator",
+    "Mastery": 0,
+    "Family": "Imperator",
+    "AmmoMax": 0,
+    "Disposition": 1.1,
+    "Image": "Imperator.png"
+  },
+  "Corvas Prime": {
+    "ReloadRate": 20,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 2,
+    "Class": "Archgun",
+    "MaxRank": 30,
+    "GripType": "",
+    "Introduced": "31.3",
+    "Polarities": [
+      "Madurai",
+      "Madurai",
+      "Naramon"
+    ],
+    "ReloadStyle": "Regenerate",
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/LaunchGrenade/ArchCannon",
+    "Traits": [
+      "Prime"
+    ],
+    "Tradable": 2,
+    "Slot": "Archgun",
+    "SellPrice": 5000,
+    "Link": "Corvas Prime",
+    "Trigger": "Charge",
+    "Magazine": 20,
+    "CompatibilityTags": [
+      "BATTERY"
+    ],
+    "Reload": 2,
+    "Attacks": [
+      {
+        "CritChance": 0.44,
+        "Range": 300,
+        "FireRate": 2,
+        "Multishot": 1,
+        "AttackIndex": 1,
+        "AttackName": "Uncharged Shot",
+        "ShotType": "Projectile",
+        "CritMultiplier": 3,
+        "AmmoCost": 1,
+        "IsSilent": false,
+        "ShotSpeed": 400,
+        "MaxSpread": 0,
+        "MinSpread": 0,
+        "PunchThrough": 0,
+        "StatusChance": 0.2,
+        "ForcedProcs": [
+          "Impact"
+        ],
+        "Damage": {
+          "Heat": 330,
+          "Impact": 230
+        }
+      },
+      {
+        "CritChance": 0.56,
+        "Falloff": {
+          "EndRange": 1200,
+          "Reduction": 0.5,
+          "StartRange": 600
+        },
+        "Range": 300,
+        "FireRate": 2,
+        "Multishot": 1,
+        "AttackIndex": 2,
+        "AttackName": "Charged Shot",
+        "ShotType": "Projectile",
+        "CritMultiplier": 3,
+        "ChargeTime": 0.5,
+        "AmmoCost": 1,
+        "IsSilent": false,
+        "ShotSpeed": 400,
+        "PunchThrough": 0,
+        "StatusChance": 0.2,
+        "ForcedProcs": [
+          "Impact"
+        ],
+        "Damage": {
+          "Heat": 530,
+          "Impact": 430
+        }
+      }
+    ],
+    "ReloadDelay": 1,
+    "Name": "Corvas Prime",
+    "Mastery": 14,
+    "Family": "Corvas",
+    "AmmoMax": 0,
+    "Disposition": 0.95,
+    "Image": "CorvasPrime.png"
+  },
+  "Corvas (Atmosphere)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 2,
+    "Class": "Shotgun",
+    "MaxRank": 30,
+    "GripType": "",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "24.2",
+    "Polarities": [
+      "Naramon"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/LaunchGrenade/ArchCannon",
+    "SellPrice": 5000,
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Archgun (Atmosphere)",
+    "AmmoType": "Heavy",
+    "Trigger": "Charge",
+    "Magazine": 25,
+    "Link": "Corvas",
+    "Reload": 2,
+    "AmmoPickup": 1000,
+    "Mastery": 1,
+    "Name": "Corvas (Atmosphere)",
+    "Image": "Corvas.png",
+    "Family": "Corvas",
+    "AmmoMax": 100,
+    "Disposition": 1.2,
+    "Attacks": [
+      {
+        "StatusChance": 0.013,
+        "CritChance": 0.4,
+        "FireRate": 2,
+        "MinSpread": 6,
+        "ForcedProcs": [
+          "Impact"
+        ],
+        "MaxSpread": 16,
+        "Range": 300,
+        "AmmoCost": 1,
+        "Multishot": 11,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Uncharged Shot",
+        "PunchThrough": 2.4,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 8,
+          "Slash": 8,
+          "Impact": 64
+        },
+        "CritMultiplier": 3
+      },
+      {
+        "ChargeTime": 0.5,
+        "CritChance": 0.4,
+        "StatusChance": 0.013,
+        "FireRate": 2,
+        "ForcedProcs": [
+          "Impact"
+        ],
+        "Falloff": {
+          "EndRange": 120,
+          "Reduction": 0.5,
+          "StartRange": 60
+        },
+        "Range": 300,
+        "AmmoCost": 1,
+        "Multishot": 11,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Charged Shot",
+        "PunchThrough": 2.4,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 16,
+          "Slash": 16,
+          "Impact": 128
+        },
+        "CritMultiplier": 3
+      }
+    ]
+  },
+  "Rathbone": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Archmelee",
+    "MaxRank": 30,
+    "GripType": "MELEE_ONE_HAND",
+    "Introduced": "15.2",
+    "Polarities": [
+      "Madurai"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Melee/ArchHammer/ArchHammer",
+    "Link": "Rathbone",
+    "SweepRadius": 0.5,
+    "Traits": [
+      "Tenno"
+    ],
+    "Attacks": [
+      {
+        "FireRate": 0.917,
+        "CritChance": 0.2,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "IsSilent": true,
+        "StatusChance": 0.12,
+        "Damage": {
+          "Puncture": 67.5,
+          "Slash": 22.5,
+          "Impact": 360
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Slot": "Archmelee",
+    "Name": "Rathbone",
+    "SellPrice": 5000,
+    "Family": "Rathbone",
+    "MeleeRange": 142,
+    "Mastery": 6,
+    "Image": "Rathbone.png"
+  },
+  "Onorix": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Archmelee",
+    "MaxRank": 30,
+    "GripType": "MELEE_ONE_HAND",
+    "Introduced": "15.0",
+    "Polarities": [
+      "Madurai"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Melee/Archaxe/ArchAxeWeapon",
+    "Link": "Onorix",
+    "SweepRadius": 0.5,
+    "Traits": [
+      "Tenno"
+    ],
+    "Attacks": [
+      {
+        "FireRate": 1,
+        "CritChance": 0.15,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "IsSilent": true,
+        "StatusChance": 0.05,
+        "Damage": {
+          "Puncture": 82.4,
+          "Slash": 206,
+          "Impact": 123.6
+        },
+        "CritMultiplier": 1.3
+      }
+    ],
+    "Slot": "Archmelee",
+    "Name": "Onorix",
+    "SellPrice": 5000,
+    "Family": "Onorix",
+    "MeleeRange": 142.5,
+    "Mastery": 1,
+    "Image": "Onorix.png"
+  },
+  "Cyngas": {
+    "ReloadRate": 30,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Archgun",
+    "MaxRank": 30,
+    "GripType": "",
+    "Introduced": "Specters of the Rail 0.0",
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchBurstGun/ArchBurstGun",
+    "ReloadStyle": "Regenerate",
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Archgun",
+    "SellPrice": 5000,
+    "Link": "Cyngas",
+    "Trigger": "Auto-Burst",
+    "Magazine": 30,
+    "CompatibilityTags": [
+      "BATTERY"
+    ],
+    "Reload": 1.25,
+    "Attacks": [
+      {
+        "CritChance": 0.2,
+        "BurstCount": 3,
+        "Falloff": {
+          "EndRange": 3000,
+          "Reduction": 0.8,
+          "StartRange": 1500
+        },
+        "FireRate": 6.67,
+        "Multishot": 1,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "ShotType": "Projectile",
+        "CritMultiplier": 2.2,
+        "BurstDelay": 0.06,
+        "AmmoCost": 1,
+        "MaxSpread": 8,
+        "ShotSpeed": 220,
+        "MinSpread": 0,
+        "PunchThrough": 0,
+        "StatusChance": 0.3,
+        "IsSilent": false,
+        "Damage": {
+          "Puncture": 39.6,
+          "Slash": 40.8,
+          "Impact": 39.6
+        }
+      }
+    ],
+    "ReloadDelay": 0.25,
+    "Name": "Cyngas",
+    "Mastery": 4,
+    "Family": "Cyngas",
+    "AmmoMax": 0,
+    "Disposition": 1.3,
+    "Image": "Cyngas.png"
+  },
+  "Prisma Dual Decurions": {
+    "ReloadRate": 50,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Archgun",
+    "MaxRank": 30,
+    "GripType": "DUAL_GUN_GUN",
+    "ReloadDelay": 0.25,
+    "Introduced": "29.5.8",
+    "Polarities": [
+      "Madurai",
+      "Madurai"
+    ],
+    "Traits": [
+      "Prisma",
+      "Baro"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/Prisma/PrismaArchHeavyPistols",
+    "Tradable": 1,
+    "Slot": "Archgun",
+    "SellPrice": 5000,
+    "ReloadStyle": "Regenerate",
+    "Link": "Prisma Dual Decurions",
+    "Trigger": "Auto",
+    "Magazine": 64,
+    "CompatibilityTags": [
+      "BATTERY"
+    ],
+    "Reload": 1.53,
+    "Attacks": [
+      {
+        "StatusChance": 0.24,
+        "CritChance": 0.3,
+        "FireRate": 12.5,
+        "ShotSpeed": 300,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 3000,
+          "Reduction": 0.5,
+          "StartRange": 1500
+        },
+        "MinSpread": 0.5,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 12,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 1.2,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 30.25,
+          "Slash": 30.25,
+          "Impact": 49.5
+        },
+        "CritMultiplier": 2.2
+      }
+    ],
+    "Image": "PrismaDualDecurions.png",
+    "Name": "Prisma Dual Decurions",
+    "Mastery": 1,
+    "Family": "Dual Decurion",
+    "AmmoMax": 0,
+    "Disposition": 1.25,
+    "CodexSecret": true
+  },
+  "Kuva Ayanga (Atmosphere)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 2,
+    "Class": "Launcher",
+    "MaxRank": 40,
+    "Image": "KuvaAyanga.png",
+    "GripType": "",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "26",
+    "Polarities": [
+      "Naramon"
+    ],
+    "Traits": [
+      "Grineer",
+      "Kuva Lich"
+    ],
+    "InternalName": "/Lotus/Weapons/Grineer/HeavyWeapons/GrnHeavyGrenadeLauncher",
+    "Tradable": 3,
+    "Slot": "Archgun (Atmosphere)",
+    "SellPrice": 5000,
+    "Link": "Kuva Ayanga",
+    "AmmoType": "Heavy",
+    "Trigger": "Auto",
+    "Magazine": 33,
+    "Mastery": 13,
+    "Reload": 3,
+    "AmmoPickup": 1000,
+    "IsLichWeapon": true,
+    "Name": "Kuva Ayanga (Atmosphere)",
+    "Attacks": [
+      {
+        "CritChance": 0.35,
+        "StatusChance": 0.2,
+        "FireRate": 4.58,
+        "ShotSpeed": 55,
+        "IsSilent": false,
+        "MinSpread": 4,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 4,
+        "AttackIndex": 1,
+        "AttackName": "Grenade Impact",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Impact": 130
+        },
+        "CritMultiplier": 2
+      },
+      {
+        "CritChance": 0.35,
+        "StatusChance": 0.2,
+        "Falloff": {
+          "EndRange": 6,
+          "Reduction": 0.5,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 6,
+        "FireRate": 4.58,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Blast": 280
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Family": "Kuva Ayanga",
+    "AmmoMax": 165,
+    "Disposition": 0.95,
+    "DefaultUpgrades": [
+      "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
+    ]
+  },
+  "Ironbride": {
+    "HeavySlamAttack": 300,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Exalted Weapon",
+    "HeavyAttack": 1500,
+    "HeavyRadialDmg": 300,
+    "GripType": "MELEE_ONE_HAND",
+    "BlockAngle": 90,
+    "Introduced": "29.5",
+    "Polarities": [
+      "Vazarin"
+    ],
+    "_IgnoreInMasteryCount": true,
+    "InternalName": "/Lotus/Types/Enemies/Orokin/Entrati/EntratiTech/NechroTech/AbilitySword/NechroTechSwordWeapon",
+    "Traits": [
+      "Entrati"
+    ],
+    "Users": [
+      "Bonewidow"
+    ],
+    "WindUp": 0.7,
+    "SlideAttack": 600,
+    "Link": "Ironbride",
+    "Slot": "Archmelee",
+    "SweepRadius": 0.5,
+    "Image": "Ironbride.png",
+    "SlamAttack": 600,
+    "Attacks": [
+      {
+        "FireRate": 0.833,
+        "CritChance": 0.45,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "IsSilent": true,
+        "StatusChance": 0.15,
+        "Damage": {
+          "Puncture": 225,
+          "Slash": 1050,
+          "Impact": 225
+        },
+        "CritMultiplier": 3
+      }
+    ],
+    "Name": "Ironbride",
+    "ComboDur": 5,
+    "MaxRank": 30,
+    "MeleeRange": 3,
+    "SlamRadius": 10,
+    "HeavySlamRadius": 12,
+    "FollowThrough": 0.7
+  },
+  "Velocitus": {
+    "ReloadRate": 25,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 2,
+    "Class": "Archgun",
+    "MaxRank": 30,
+    "GripType": "",
+    "Introduced": "15.2",
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/Railgun/ArchRailgun",
+    "ReloadStyle": "Regenerate",
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Archgun",
+    "SellPrice": 5000,
+    "Link": "Velocitus",
+    "Trigger": "Charge",
+    "Magazine": 10,
+    "CompatibilityTags": [
+      "BATTERY"
+    ],
+    "Reload": 1.4,
+    "Attacks": [
+      {
+        "CritChance": 0.3,
+        "StatusChance": 0.25,
+        "FireRate": 5,
+        "ShotSpeed": 500,
+        "IsSilent": false,
+        "MinSpread": 0,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 7,
+        "AttackIndex": 1,
+        "AttackName": "Uncharged Shot",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 150,
+          "Slash": 150,
+          "Magnetic": 150,
+          "Impact": 150
+        },
+        "CritMultiplier": 2
+      },
+      {
+        "ChargeTime": 1,
+        "CritChance": 0.6,
+        "StatusChance": 0.25,
+        "FireRate": 5,
+        "ShotSpeed": 500,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Charged Shot",
+        "PunchThrough": 5,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 400,
+          "Slash": 400,
+          "Magnetic": 400,
+          "Impact": 400
+        },
+        "CritMultiplier": 3.6
+      }
+    ],
+    "ReloadDelay": 1,
+    "Name": "Velocitus",
+    "Mastery": 0,
+    "Family": "Velocitus",
+    "AmmoMax": 0,
+    "Disposition": 1.1,
+    "Image": "Velocitus.png"
+  },
+  "Mausolon": {
+    "ReloadRate": 200,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Archgun",
+    "MaxRank": 30,
+    "GripType": "",
+    "Introduced": "29",
+    "Polarities": [
+      "Madurai"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun",
+    "ReloadStyle": "Regenerate",
+    "Traits": [
+      "Entrati"
+    ],
+    "Slot": "Archgun",
+    "SellPrice": 5000,
+    "Link": "Mausolon",
+    "Trigger": "Auto / Semi",
+    "Magazine": 300,
+    "CompatibilityTags": [
+      "BATTERY"
+    ],
+    "Reload": 5.5,
+    "Attacks": [
+      {
+        "CritChance": 0.3,
+        "Falloff": {
+          "EndRange": 2800,
+          "Reduction": 1,
+          "StartRange": 1400
+        },
+        "Range": 300,
+        "FireRate": 8.33,
+        "Multishot": 1,
+        "AttackIndex": 1,
+        "AttackName": "Auto",
+        "ShotType": "Hit-Scan",
+        "CritMultiplier": 2.2,
+        "AmmoCost": 1,
+        "IsSilent": false,
+        "MaxSpread": 1.5,
+        "MinSpread": 1,
+        "PunchThrough": 0,
+        "StatusChance": 0.26,
+        "ForcedProcs": [
+          "Impact"
+        ],
+        "Damage": {
+          "Puncture": 46,
+          "Heat": 50,
+          "Impact": 24
+        }
+      },
+      {
+        "CritChance": 0.3,
+        "StatusChance": 0.26,
+        "Falloff": {
+          "EndRange": 1.8,
+          "Reduction": 0.1,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 1.8,
+        "FireRate": 8.33,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Auto Radial Attack",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Heat": 48
+        },
+        "CritMultiplier": 2.2
+      },
+      {
+        "CritChance": 0.5,
+        "Range": 300,
+        "FireRate": 0.5,
+        "Multishot": 1,
+        "AttackIndex": 3,
+        "AttackName": "Charged Shot Laser",
+        "ShotType": "Hit-Scan",
+        "CritMultiplier": 3.5,
+        "ChargeTime": 0.8,
+        "AmmoCost": 0,
+        "IsSilent": false,
+        "MaxSpread": 0,
+        "MinSpread": 0,
+        "PunchThrough": 0,
+        "StatusChance": 0.5,
+        "ForcedProcs": [
+          "Ragdoll"
+        ],
+        "Damage": {
+          "Puncture": 400,
+          "Heat": 500,
+          "Impact": 100
+        }
+      },
+      {
+        "CritChance": 0.5,
+        "StatusChance": 0.5,
+        "AttackParentIndex": 3,
+        "Falloff": {
+          "EndRange": 8,
+          "Reduction": 0.4,
+          "StartRange": 0
+        },
+        "FireRate": 0.5,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 4,
+        "AttackName": "Charged Shot Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Heat": 3000
+        },
+        "CritMultiplier": 3.5
+      }
+    ],
+    "ReloadDelay": 4,
+    "Name": "Mausolon",
+    "Mastery": 14,
+    "Family": "Mausolon",
+    "AmmoMax": 0,
+    "Disposition": 0.5,
+    "Image": "Mausolon.png"
+  },
+  "Kuva Ayanga": {
+    "ReloadRate": 66,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 2,
+    "Class": "Archgun",
+    "MaxRank": 40,
+    "Mastery": 13,
+    "GripType": "",
+    "Traits": [
+      "Grineer",
+      "Kuva Lich"
+    ],
+    "Introduced": "26",
+    "Polarities": [
+      "Naramon"
+    ],
+    "Tradable": 3,
+    "InternalName": "/Lotus/Weapons/Grineer/HeavyWeapons/GrnHeavyGrenadeLauncher",
+    "Slot": "Archgun",
+    "SellPrice": 5000,
+    "ReloadStyle": "Regenerate",
+    "ReloadDelay": 0.7,
+    "Link": "Kuva Ayanga",
+    "Trigger": "Auto",
+    "Magazine": 33,
+    "CompatibilityTags": [
+      "BATTERY"
+    ],
+    "Reload": 1.2,
+    "Attacks": [
+      {
+        "StatusChance": 0.2,
+        "CritChance": 0.35,
+        "FireRate": 4.58,
+        "ShotSpeed": 300,
+        "IsSilent": false,
+        "Falloff": {
+          "StartRange": 1200,
+          "EndRange": 2400
+        },
+        "MinSpread": 4,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 4,
+        "AttackIndex": 1,
+        "AttackName": "Grenade Impact",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Impact": 87
+        },
+        "CritMultiplier": 2
+      },
+      {
+        "CritChance": 0.35,
+        "StatusChance": 0.2,
+        "Falloff": {
+          "EndRange": 9,
+          "Reduction": 0.3,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 9,
+        "FireRate": 4.58,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Blast": 187
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Image": "KuvaAyanga.png",
+    "Name": "Kuva Ayanga",
+    "IsLichWeapon": true,
+    "Family": "Kuva Ayanga",
+    "AmmoMax": 0,
+    "Disposition": 0.95,
+    "DefaultUpgrades": [
+      "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
+    ]
+  },
+  "Velocitus (Atmosphere)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 2,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "GripType": "",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "24.2",
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/Railgun/ArchRailgun",
+    "SellPrice": 5000,
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Archgun (Atmosphere)",
+    "AmmoType": "Heavy",
+    "Trigger": "Charge",
+    "Magazine": 10,
+    "Link": "Velocitus",
+    "Reload": 2,
+    "AmmoPickup": 1000,
+    "Mastery": 0,
+    "Name": "Velocitus (Atmosphere)",
+    "Image": "Velocitus.png",
+    "Family": "Velocitus",
+    "AmmoMax": 60,
+    "Disposition": 1.1,
+    "Attacks": [
+      {
+        "CritChance": 0.3,
+        "StatusChance": 0.25,
+        "FireRate": 5,
+        "ShotSpeed": 125,
+        "IsSilent": false,
+        "MinSpread": 0,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 7,
+        "AttackIndex": 1,
+        "AttackName": "Uncharged Shot",
+        "PunchThrough": 5,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 300,
+          "Slash": 300,
+          "Magnetic": 300,
+          "Impact": 300
+        },
+        "CritMultiplier": 2
+      },
+      {
+        "ChargeTime": 1,
+        "CritChance": 0.6,
+        "StatusChance": 0.25,
+        "FireRate": 5,
+        "ShotSpeed": 125,
+        "ForcedProcs": [
+          "Impact"
+        ],
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Charged Shot",
+        "PunchThrough": 5,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 800,
+          "Slash": 800,
+          "Magnetic": 800,
+          "Impact": 800
+        },
+        "CritMultiplier": 3.6
+      }
+    ]
+  },
+  "Arbucep (Atmosphere)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 2,
+    "Class": "Launcher",
+    "MaxRank": 30,
+    "GripType": "",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "40",
+    "Polarities": [
+      "Madurai",
+      "Naramon"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/NokkoArchGun/NokkoArchGun",
+    "Attacks": [
+      {
+        "CritChance": 0.1,
+        "StatusChance": 0.349,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 270,
+          "Reduction": 1,
+          "StartRange": 200
+        },
+        "MaxSpread": 9,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MinSpread": 7,
+        "AttackIndex": 1,
+        "AttackName": "1st Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Blast": 32
+        },
+        "CritMultiplier": 2.9
+      },
+      {
+        "StatusChance": 0.349,
+        "CritChance": 0.1,
+        "Falloff": {
+          "EndRange": 270,
+          "Reduction": 1,
+          "StartRange": 200
+        },
+        "MinSpread": 7,
+        "IsSilent": false,
+        "AttackParentIndex": 1,
+        "Range": 4,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MaxSpread": 9,
+        "AttackIndex": 2,
+        "AttackName": "1st Attack Radial Attack",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Blast": 228
+        },
+        "CritMultiplier": 2.9
+      },
+      {
+        "CritChance": 0.1,
+        "StatusChance": 0.349,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 270,
+          "Reduction": 1,
+          "StartRange": 200
+        },
+        "MaxSpread": 9,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MinSpread": 7,
+        "AttackIndex": 3,
+        "AttackName": "2nd Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Corrosive": 32
+        },
+        "CritMultiplier": 2.9
+      },
+      {
+        "StatusChance": 0.349,
+        "CritChance": 0.1,
+        "Falloff": {
+          "EndRange": 270,
+          "Reduction": 1,
+          "StartRange": 200
+        },
+        "MinSpread": 7,
+        "IsSilent": false,
+        "AttackParentIndex": 3,
+        "Range": 4,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MaxSpread": 9,
+        "AttackIndex": 4,
+        "AttackName": "2nd Attack Radial Attack",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Corrosive": 228
+        },
+        "CritMultiplier": 2.9
+      },
+      {
+        "CritChance": 0.1,
+        "StatusChance": 0.349,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 270,
+          "Reduction": 1,
+          "StartRange": 200
+        },
+        "MaxSpread": 9,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MinSpread": 7,
+        "AttackIndex": 5,
+        "AttackName": "3rd Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Gas": 32
+        },
+        "CritMultiplier": 2.9
+      },
+      {
+        "StatusChance": 0.349,
+        "CritChance": 0.1,
+        "Falloff": {
+          "EndRange": 270,
+          "Reduction": 1,
+          "StartRange": 200
+        },
+        "MinSpread": 7,
+        "IsSilent": false,
+        "AttackParentIndex": 5,
+        "Range": 4,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MaxSpread": 9,
+        "AttackIndex": 6,
+        "AttackName": "3rd Attack Radial Attack",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Gas": 228
+        },
+        "CritMultiplier": 2.9
+      },
+      {
+        "CritChance": 0.1,
+        "StatusChance": 0.349,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 270,
+          "Reduction": 1,
+          "StartRange": 200
+        },
+        "MaxSpread": 9,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MinSpread": 7,
+        "AttackIndex": 7,
+        "AttackName": "4th Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Magnetic": 32
+        },
+        "CritMultiplier": 2.9
+      },
+      {
+        "StatusChance": 0.349,
+        "CritChance": 0.1,
+        "Falloff": {
+          "EndRange": 270,
+          "Reduction": 1,
+          "StartRange": 200
+        },
+        "MinSpread": 7,
+        "IsSilent": false,
+        "AttackParentIndex": 7,
+        "Range": 4,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MaxSpread": 9,
+        "AttackIndex": 8,
+        "AttackName": "4th Attack Radial Attack",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Magnetic": 228
+        },
+        "CritMultiplier": 2.9
+      },
+      {
+        "CritChance": 0.1,
+        "StatusChance": 0.349,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 270,
+          "Reduction": 1,
+          "StartRange": 200
+        },
+        "MaxSpread": 9,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MinSpread": 7,
+        "AttackIndex": 9,
+        "AttackName": "5th Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Radiation": 32
+        },
+        "CritMultiplier": 2.9
+      },
+      {
+        "StatusChance": 0.349,
+        "CritChance": 0.1,
+        "Falloff": {
+          "EndRange": 270,
+          "Reduction": 1,
+          "StartRange": 200
+        },
+        "MinSpread": 7,
+        "IsSilent": false,
+        "AttackParentIndex": 9,
+        "Range": 4,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MaxSpread": 9,
+        "AttackIndex": 10,
+        "AttackName": "5th Attack Radial Attack",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Radiation": 228
+        },
+        "CritMultiplier": 2.9
+      },
+      {
+        "CritChance": 0.1,
+        "StatusChance": 0.349,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 270,
+          "Reduction": 1,
+          "StartRange": 200
+        },
+        "MaxSpread": 9,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MinSpread": 7,
+        "AttackIndex": 11,
+        "AttackName": "6th Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Viral": 32
+        },
+        "CritMultiplier": 2.9
+      },
+      {
+        "StatusChance": 0.349,
+        "CritChance": 0.1,
+        "Falloff": {
+          "EndRange": 270,
+          "Reduction": 1,
+          "StartRange": 200
+        },
+        "MinSpread": 7,
+        "IsSilent": false,
+        "AttackParentIndex": 11,
+        "Range": 4,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "MaxSpread": 9,
+        "AttackIndex": 12,
+        "AttackName": "6th Attack Radial Attack",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Viral": 228
+        },
+        "CritMultiplier": 2.9
+      }
+    ],
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Archgun (Atmosphere)",
+    "SellPrice": 5000,
+    "AmmoType": "Heavy",
+    "Trigger": "Auto",
+    "Magazine": 36,
+    "Link": "Arbucep",
+    "Reload": 2,
+    "AmmoPickup": 1000,
+    "Mastery": 0,
+    "Name": "Arbucep (Atmosphere)",
+    "Image": "Arbucep.png",
+    "Family": "Arbucep",
+    "AmmoMax": 540,
+    "Disposition": 0.7,
+    "DefaultUpgrades": [
+      "/Lotus/Weapons/Tenno/Archwing/Primary/NokkoArchGun/NokkoArchGunInnateMod"
+    ]
+  },
+  "Imperator (Atmosphere)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "GripType": "",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "24.2",
+    "Polarities": [
+      "Madurai"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGun",
+    "SellPrice": 5000,
+    "Traits": [
+      "Tenno"
+    ],
+    "Tradable": 2,
+    "Slot": "Archgun (Atmosphere)",
+    "AmmoType": "Heavy",
+    "Trigger": "Auto",
+    "Magazine": 200,
+    "Link": "Imperator",
+    "Reload": 2,
+    "AmmoPickup": 1000,
+    "Mastery": 0,
+    "Name": "Imperator (Atmosphere)",
+    "Image": "Imperator.png",
+    "Family": "Imperator",
+    "AmmoMax": 800,
+    "Disposition": 1.1,
+    "Attacks": [
+      {
+        "CritChance": 0.24,
+        "StatusChance": 0.12,
+        "FireRate": 16.7,
+        "MinSpread": 1,
+        "IsSilent": false,
+        "Range": 300,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 3,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 1.2,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 35,
+          "Slash": 25,
+          "Impact": 40
+        },
+        "CritMultiplier": 2
+      }
+    ]
+  },
+  "Mandonel (Atmosphere)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Shotgun",
+    "MaxRank": 30,
+    "GripType": "",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "35",
+    "Polarities": [
+      "Madurai"
+    ],
+    "Traits": [
+      "Entrati"
+    ],
+    "SellPrice": 5000,
+    "Tradable": 2,
+    "Slot": "Archgun (Atmosphere)",
+    "AmmoType": "Heavy",
+    "Trigger": "Charge",
+    "Magazine": 30,
+    "Link": "Mandonel",
+    "Reload": 2,
+    "AmmoPickup": 1000,
+    "Mastery": 10,
+    "Name": "Mandonel (Atmosphere)",
+    "Image": "Mandonel.png",
+    "Family": "Mandonel",
+    "AmmoMax": 300,
+    "Disposition": 1.1,
+    "Attacks": [
+      {
+        "CritChance": 0.25,
+        "ShotSpeed": 125,
+        "ShotType": "Projectile",
+        "MinSpread": 60,
+        "AmmoCost": 1,
+        "Multishot": 8,
+        "MaxSpread": 80,
+        "AttackIndex": 1,
+        "AttackName": "Horizontal Spread",
+        "FireRate": 3,
+        "StatusChance": 0.15,
+        "CritMultiplier": 2,
+        "Damage": {
+          "Puncture": 30,
+          "Radiation": 80,
+          "Slash": 20,
+          "Impact": 50
+        }
+      },
+      {
+        "ChargeTime": 1.5,
+        "CritChance": 0.3,
+        "Trigger": "Charge",
+        "ShotType": "Hit-Scan",
+        "FireRate": 3,
+        "AmmoCost": 1,
+        "MinSpread": 0,
+        "MaxSpread": 0,
+        "AttackIndex": 2,
+        "AttackName": "Charge",
+        "PunchThrough": 2.4,
+        "StatusChance": 0.2,
+        "CritMultiplier": 2.5,
+        "Damage": {
+          "Puncture": 400,
+          "Heat": 600,
+          "Radiation": 800
+        }
+      }
+    ]
+  },
+  "Phaedra": {
+    "ReloadRate": 50,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Archgun",
+    "MaxRank": 30,
+    "GripType": "",
+    "Introduced": "17.5",
+    "Polarities": [
+      "Madurai"
+    ],
+    "ReloadStyle": "Regenerate",
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchLongRifle/ArchLongRifle",
+    "Traits": [
+      "Tenno"
+    ],
+    "Spool": 11,
+    "Slot": "Archgun",
+    "SellPrice": 5000,
+    "Link": "Phaedra",
+    "Trigger": "Auto-Spool",
+    "Magazine": 240,
+    "CompatibilityTags": [
+      "BATTERY"
+    ],
+    "Reload": 5.05,
+    "Attacks": [
+      {
+        "StatusChance": 0.3,
+        "CritChance": 0.14,
+        "FireRate": 18.75,
+        "ShotSpeed": 220,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 3000,
+          "Reduction": 0.6786,
+          "StartRange": 1500
+        },
+        "MinSpread": 1,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 7,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 36.4,
+          "Slash": 5.6,
+          "Impact": 14
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "ReloadDelay": 0.25,
+    "Name": "Phaedra",
+    "Mastery": 3,
+    "Family": "Phaedra",
+    "AmmoMax": 0,
+    "Disposition": 1.25,
+    "Image": "Phaedra.png"
+  },
+  "Mausolon (Atmosphere)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "GripType": "",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "29",
+    "Polarities": [
+      "Madurai"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun",
+    "SellPrice": 5000,
+    "Traits": [
+      "Entrati"
+    ],
+    "Slot": "Archgun (Atmosphere)",
+    "AmmoType": "Heavy",
+    "Trigger": "Auto / Semi",
+    "Magazine": 300,
+    "Link": "Mausolon",
+    "Reload": 2,
+    "AmmoPickup": 1000,
+    "Mastery": 14,
+    "Name": "Mausolon (Atmosphere)",
+    "Image": "Mausolon.png",
+    "Family": "Mausolon",
+    "AmmoMax": 900,
+    "Disposition": 0.5,
+    "Attacks": [
+      {
+        "CritChance": 0.3,
+        "StatusChance": 0.26,
+        "FireRate": 8.33,
+        "MinSpread": 1,
+        "IsSilent": false,
+        "Range": 300,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 1.5,
+        "AttackIndex": 1,
+        "AttackName": "Auto",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 70,
+          "Heat": 75,
+          "Impact": 35
+        },
+        "CritMultiplier": 2.2
+      },
+      {
+        "CritChance": 0.3,
+        "StatusChance": 0.26,
+        "Falloff": {
+          "EndRange": 1.8,
+          "Reduction": 0.2,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 1.8,
+        "FireRate": 8.33,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Auto Radial Attack",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Heat": 72
+        },
+        "CritMultiplier": 2.2
+      },
+      {
+        "CritChance": 0.5,
+        "Range": 300,
+        "FireRate": 0.5,
+        "Multishot": 1,
+        "AttackIndex": 3,
+        "AttackName": "Charged Shot Laser",
+        "ShotType": "Hit-Scan",
+        "CritMultiplier": 3.5,
+        "ChargeTime": 0.8,
+        "AmmoCost": 0,
+        "IsSilent": false,
+        "MaxSpread": 0,
+        "MinSpread": 0,
+        "PunchThrough": 0,
+        "StatusChance": 0.5,
+        "ForcedProcs": [
+          "Lifted"
+        ],
+        "Damage": {
+          "Puncture": 600,
+          "Heat": 750,
+          "Impact": 150
+        }
+      },
+      {
+        "CritChance": 0.5,
+        "Trigger": "Semi-Auto",
+        "AttackParentIndex": 3,
+        "StatusChance": 0.5,
+        "FireRate": 0.5,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 4,
+        "AttackName": "Charged Shot Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Heat": 4500
+        },
+        "CritMultiplier": 3.5
+      }
+    ]
+  },
+  "Morgha (Atmosphere)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 2,
+    "Class": "Launcher",
+    "MaxRank": 30,
+    "GripType": "",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "29.5",
+    "Polarities": [
+      "Madurai"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechGrenadeLaunch/ThanoTechGrenadeLauncher",
+    "SellPrice": 5000,
+    "Traits": [
+      "Entrati"
+    ],
+    "Tradable": 4,
+    "Slot": "Archgun (Atmosphere)",
+    "AmmoType": "Heavy",
+    "Trigger": "Auto-Burst",
+    "Magazine": 100,
+    "Link": "Morgha",
+    "Reload": 3,
+    "AmmoPickup": 1000,
+    "Mastery": 15,
+    "Name": "Morgha (Atmosphere)",
+    "Image": "Morgha.png",
+    "Family": "Morgha",
+    "AmmoMax": 160,
+    "Disposition": 1,
+    "Attacks": [
+      {
+        "CritChance": 0.3,
+        "BurstCount": 2,
+        "FireRate": 3,
+        "Multishot": 1,
+        "AttackIndex": 1,
+        "AttackName": "Auto-Burst",
+        "ShotType": "Projectile",
+        "CritMultiplier": 2.2,
+        "BurstDelay": 0,
+        "AmmoCost": 1,
+        "MaxSpread": 20,
+        "ShotSpeed": 60,
+        "MinSpread": 10,
+        "PunchThrough": 0,
+        "StatusChance": 0.28,
+        "IsSilent": false,
+        "Damage": {
+          "Impact": 64
+        }
+      },
+      {
+        "CritChance": 0.3,
+        "StatusChance": 0.28,
+        "Falloff": {
+          "EndRange": 3,
+          "Reduction": 0.3,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 3,
+        "FireRate": 3,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Radial Attack",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Blast": 328
+        },
+        "CritMultiplier": 2.2
+      },
+      {
+        "CritChance": 0.4,
+        "FireRate": 0.833,
+        "Trigger": "Semi-Auto",
+        "IsSilent": false,
+        "MinSpread": 0,
+        "AmmoCost": 0,
+        "Multishot": 1,
+        "MaxSpread": 0,
+        "AttackIndex": 3,
+        "AttackName": "Charged Shot",
+        "PunchThrough": 0,
+        "StatusChance": 0.5,
+        "Damage": {
+          "Impact": 200
+        },
+        "CritMultiplier": 3
+      },
+      {
+        "CritChance": 0.4,
+        "Falloff": {
+          "EndRange": 12,
+          "Reduction": 0.6,
+          "StartRange": 0
+        },
+        "StatusChance": 0.5,
+        "Trigger": "Semi-Auto",
+        "AttackParentIndex": 3,
+        "Range": 12,
+        "FireRate": 0.833,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 4,
+        "AttackName": "Charged Shot Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Blast": 2400,
+          "Slash": 2000,
+          "Puncture": 1600,
+          "Impact": 1200
+        },
+        "CritMultiplier": 3
+      }
+    ]
+  },
+  "Phaedra (Atmosphere)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "GripType": "",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "24.2",
+    "Polarities": [
+      "Madurai"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchLongRifle/ArchLongRifle",
+    "SellPrice": 5000,
+    "Traits": [
+      "Tenno"
+    ],
+    "Spool": 11,
+    "Slot": "Archgun (Atmosphere)",
+    "AmmoType": "Heavy",
+    "Trigger": "Auto-Spool",
+    "Magazine": 240,
+    "Link": "Phaedra",
+    "Reload": 2,
+    "AmmoPickup": 1000,
+    "Mastery": 3,
+    "Name": "Phaedra (Atmosphere)",
+    "Image": "Phaedra.png",
+    "Family": "Phaedra",
+    "AmmoMax": 960,
+    "Disposition": 1.25,
+    "Attacks": [
+      {
+        "CritChance": 0.14,
+        "StatusChance": 0.3,
+        "FireRate": 18.75,
+        "MinSpread": 1,
+        "IsSilent": false,
+        "Range": 300,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 7,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 1.2,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 75.4,
+          "Slash": 11.6,
+          "Impact": 29
+        },
+        "CritMultiplier": 2
+      }
+    ]
+  },
+  "Arquebex": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 2,
+    "Class": "Exalted Weapon",
+    "MaxRank": 30,
+    "GripType": "DUAL_GUN_GUN",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "29",
+    "Polarities": [
+      "Madurai"
+    ],
+    "InternalName": "/Lotus/Types/Enemies/Orokin/Entrati/EntratiTech/NechroTech/ExaltedArtilleryWeapon",
+    "AmmoType": "Heavy",
+    "Trigger": "Auto",
+    "Magazine": 10,
+    "Traits": [
+      "Entrati"
+    ],
+    "Reload": 3,
+    "AmmoPickup": 0,
+    "Slot": "Archgun (Atmosphere)",
+    "Name": "Arquebex",
+    "Link": "Arquebex",
+    "Family": "Arquebex",
+    "AmmoMax": 0,
+    "Image": "Arquebex.png",
+    "Attacks": [
+      {
+        "CritChance": 0.5,
+        "StatusChance": 0.5,
+        "IsSilent": false,
+        "ShotSpeed": 60,
+        "MaxSpread": 8,
+        "FireRate": 3.33,
+        "Multishot": 1,
+        "MinSpread": 4,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Impact": 10
+        },
+        "CritMultiplier": 3
+      },
+      {
+        "CritChance": 0.5,
+        "StatusChance": 0.5,
+        "Falloff": {
+          "EndRange": 6,
+          "Reduction": 0,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 6,
+        "FireRate": 3.33,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Radial Attack",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Blast": 9000,
+          "Heat": 3000
+        },
+        "CritMultiplier": 3
+      }
+    ]
+  },
+  "Larkspur (Atmosphere)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "GripType": "",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "24.4",
+    "Polarities": [
+      "Madurai"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGun",
+    "Mastery": 8,
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Archgun (Atmosphere)",
+    "SellPrice": 5000,
+    "AmmoType": "Heavy",
+    "Trigger": "Held",
+    "Magazine": 100,
+    "Image": "Larkspur.png",
+    "Reload": 2.5,
+    "AmmoPickup": 1000,
+    "Link": "Larkspur",
+    "Name": "Larkspur (Atmosphere)",
+    "Attacks": [
+      {
+        "CritChance": 0.1,
+        "StatusChance": 0.5,
+        "FireRate": 12,
+        "MinSpread": 10,
+        "IsSilent": false,
+        "Range": 40,
+        "AmmoCost": 0.5,
+        "Multishot": 1,
+        "MaxSpread": 14,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Radiation": 160,
+          "Impact": 20
+        },
+        "CritMultiplier": 1.4
+      },
+      {
+        "CritChance": 0.26,
+        "Range": 100,
+        "FireRate": 1,
+        "Multishot": 1,
+        "AttackIndex": 2,
+        "AttackName": "Alt-Fire Projectile Impact",
+        "ShotType": "Projectile",
+        "CritMultiplier": 2.2,
+        "ChargeTime": 0.5,
+        "AmmoCost": 10,
+        "MaxSpread": 0,
+        "ShotSpeed": 100,
+        "MinSpread": 0,
+        "PunchThrough": 0,
+        "StatusChance": 0.34,
+        "IsSilent": false,
+        "Damage": {
+          "Blast": 360,
+          "Radiation": 200,
+          "Impact": 280
+        }
+      },
+      {
+        "CritChance": 0.26,
+        "StatusChance": 0.34,
+        "Falloff": {
+          "EndRange": 9.6,
+          "Reduction": 0.6,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 2,
+        "Range": 9.6,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 3,
+        "AttackName": "Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Blast": 800,
+          "Radiation": 800
+        },
+        "CritMultiplier": 2.2
+      }
+    ],
+    "Family": "Larkspur",
+    "AmmoMax": 400,
+    "Disposition": 1.05,
+    "DefaultUpgrades": [
+      "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGunInnateMod"
+    ]
+  },
+  "Mandonel": {
+    "ReloadRate": 15,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Archgun",
+    "MaxRank": 30,
+    "GripType": "",
+    "Introduced": "35",
+    "Polarities": [
+      "Madurai"
+    ],
+    "ReloadStyle": "Regenerate",
+    "Traits": [
+      "Entrati"
+    ],
+    "SellPrice": 5000,
+    "Tradable": 2,
+    "Slot": "Archgun",
+    "Link": "Mandonel",
+    "Trigger": "Charge",
+    "Magazine": 30,
+    "CompatibilityTags": [
+      "BATTERY"
+    ],
+    "Reload": 3,
+    "Attacks": [
+      {
+        "CritChance": 0.25,
+        "ShotSpeed": 125,
+        "ShotType": "Projectile",
+        "MinSpread": 60,
+        "AmmoCost": 1,
+        "Multishot": 8,
+        "MaxSpread": 80,
+        "AttackIndex": 1,
+        "AttackName": "Horizontal Spread",
+        "FireRate": 3,
+        "StatusChance": 0.15,
+        "CritMultiplier": 2,
+        "Damage": {
+          "Puncture": 15,
+          "Radiation": 40,
+          "Slash": 10,
+          "Impact": 25
+        }
+      },
+      {
+        "ChargeTime": 1.5,
+        "CritChance": 0.3,
+        "Trigger": "Charge",
+        "ShotType": "Hit-Scan",
+        "FireRate": 3,
+        "AmmoCost": 1,
+        "MinSpread": 0,
+        "MaxSpread": 0,
+        "AttackIndex": 2,
+        "AttackName": "Charge",
+        "PunchThrough": 2.4,
+        "StatusChance": 0.2,
+        "CritMultiplier": 2.5,
+        "Damage": {
+          "Puncture": 200,
+          "Heat": 300,
+          "Radiation": 400
+        }
+      }
+    ],
+    "ReloadDelay": 1,
+    "Name": "Mandonel",
+    "Mastery": 10,
+    "Family": "Mandonel",
+    "AmmoMax": 0,
+    "Disposition": 1.1,
+    "Image": "Mandonel.png"
+  },
+  "Larkspur Prime": {
+    "ReloadRate": 50,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Archgun",
+    "MaxRank": 30,
+    "GripType": "",
+    "Tradable": 2,
+    "Introduced": "32.3.6",
+    "Polarities": [
+      "Madurai",
+      "Madurai",
+      "Madurai"
+    ],
+    "Traits": [
+      "Tenno"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeLarkspur/PrimeLarkspurWeapon",
+    "Slot": "Archgun",
+    "SellPrice": 5000,
+    "ReloadStyle": "Regenerate",
+    "ReloadDelay": 2.5,
+    "Link": "Larkspur Prime",
+    "Trigger": "Held",
+    "Magazine": 100,
+    "CompatibilityTags": [
+      "BATTERY"
+    ],
+    "Reload": 4.5,
+    "Attacks": [
+      {
+        "CritChance": 0.14,
+        "StatusChance": 0.5,
+        "FireRate": 12,
+        "MinSpread": 10,
+        "IsSilent": false,
+        "Range": 180,
+        "AmmoCost": 0.5,
+        "Multishot": 1,
+        "MaxSpread": 14,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Radiation": 80,
+          "Impact": 10
+        },
+        "CritMultiplier": 1.6
+      },
+      {
+        "CritChance": 0.28,
+        "FireRate": 2,
+        "Multishot": 1,
+        "AttackIndex": 2,
+        "AttackName": "Alt-Fire Projectile Impact",
+        "ShotType": "Projectile",
+        "CritMultiplier": 2.2,
+        "ChargeTime": 0.5,
+        "AmmoCost": 10,
+        "IsSilent": false,
+        "ShotSpeed": 100,
+        "MaxSpread": 0,
+        "MinSpread": 0,
+        "PunchThrough": 0,
+        "StatusChance": 0.38,
+        "ForcedProcs": [
+          "Knockdown"
+        ],
+        "Damage": {
+          "Blast": 180,
+          "Radiation": 100,
+          "Impact": 140
+        }
+      },
+      {
+        "CritChance": 0.28,
+        "StatusChance": 0.38,
+        "Falloff": {
+          "EndRange": 9.6,
+          "Reduction": 0.6,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 2,
+        "Range": 9.6,
+        "FireRate": 2,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 3,
+        "AttackName": "Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Blast": 400,
+          "Radiation": 400
+        },
+        "CritMultiplier": 2.2
+      }
+    ],
+    "Image": "LarkspurPrime.png",
+    "Name": "Larkspur Prime",
+    "Mastery": 8,
+    "Family": "Larkspur",
+    "AmmoMax": 0,
+    "Disposition": 0.8,
+    "DefaultUpgrades": [
+      "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGunInnateMod"
+    ]
+  },
+  "Larkspur": {
+    "ReloadRate": 50,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Archgun",
+    "MaxRank": 30,
+    "GripType": "",
+    "Introduced": "24.4",
+    "Polarities": [
+      "Madurai"
+    ],
+    "ReloadDelay": 2.5,
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGun",
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Archgun",
+    "SellPrice": 5000,
+    "ReloadStyle": "Regenerate",
+    "Link": "Larkspur",
+    "Trigger": "Held",
+    "Magazine": 100,
+    "CompatibilityTags": [
+      "BATTERY"
+    ],
+    "Reload": 4.5,
+    "Attacks": [
+      {
+        "CritChance": 0.1,
+        "StatusChance": 0.5,
+        "FireRate": 12,
+        "MinSpread": 10,
+        "IsSilent": false,
+        "Range": 160,
+        "AmmoCost": 0.5,
+        "Multishot": 1,
+        "MaxSpread": 14,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Radiation": 80,
+          "Impact": 10
+        },
+        "CritMultiplier": 1.4
+      },
+      {
+        "CritChance": 0.26,
+        "FireRate": 1,
+        "Multishot": 1,
+        "AttackIndex": 2,
+        "AttackName": "Alt-Fire Projectile Impact",
+        "ShotType": "Projectile",
+        "CritMultiplier": 2.2,
+        "ChargeTime": 0.5,
+        "AmmoCost": 10,
+        "IsSilent": false,
+        "ShotSpeed": 100,
+        "MaxSpread": 0,
+        "MinSpread": 0,
+        "PunchThrough": 0,
+        "StatusChance": 0.34,
+        "ForcedProcs": [
+          "Knockdown"
+        ],
+        "Damage": {
+          "Blast": 180,
+          "Radiation": 100,
+          "Impact": 140
+        }
+      },
+      {
+        "CritChance": 0.26,
+        "StatusChance": 0.34,
+        "Falloff": {
+          "EndRange": 9.6,
+          "Reduction": 0.6,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 2,
+        "Range": 9.6,
+        "FireRate": 1,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 3,
+        "AttackName": "Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Blast": 400,
+          "Radiation": 400
+        },
+        "CritMultiplier": 2.2
+      }
+    ],
+    "Image": "Larkspur.png",
+    "Name": "Larkspur",
+    "Mastery": 8,
+    "Family": "Larkspur",
+    "AmmoMax": 0,
+    "Disposition": 1.05,
+    "DefaultUpgrades": [
+      "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGunInnateMod"
+    ]
+  },
+  "Cortege": {
+    "ReloadRate": 50,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Archgun",
+    "MaxRank": 30,
+    "GripType": "",
+    "Introduced": "29",
+    "Polarities": {},
+    "ReloadStyle": "Regenerate",
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchGun/ThanoTechArchGun",
+    "Traits": [
+      "Entrati"
+    ],
+    "Tradable": 4,
+    "Slot": "Archgun",
+    "SellPrice": 5000,
+    "Link": "Cortege",
+    "Trigger": "Held",
+    "Magazine": 100,
+    "CompatibilityTags": [
+      "BATTERY"
+    ],
+    "Reload": 3,
+    "Attacks": [
+      {
+        "CritChance": 0.2,
+        "StatusChance": 0.4,
+        "FireRate": 12,
+        "IsSilent": false,
+        "MinSpread": 0,
+        "AmmoCost": 0.5,
+        "Multishot": 1,
+        "MaxSpread": 0,
+        "AttackIndex": 1,
+        "AttackName": "Held",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Heat": 90
+        },
+        "CritMultiplier": 1.9
+      },
+      {
+        "CritChance": 0.3,
+        "FireRate": 0.25,
+        "Trigger": "Active",
+        "IsSilent": false,
+        "MinSpread": 0,
+        "AmmoCost": 0,
+        "Multishot": 3,
+        "MaxSpread": 0,
+        "AttackIndex": 2,
+        "AttackName": "Grenade Impact",
+        "PunchThrough": 0,
+        "StatusChance": 0.167,
+        "Damage": {
+          "Impact": 10
+        },
+        "CritMultiplier": 2.4
+      },
+      {
+        "CritChance": 0.3,
+        "StatusChance": 0.167,
+        "Falloff": {
+          "EndRange": 4,
+          "Reduction": 0.3,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 2,
+        "Range": 4,
+        "FireRate": 0.25,
+        "Multishot": 3,
+        "IsSilent": false,
+        "AttackIndex": 3,
+        "AttackName": "Radial Attack",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Blast": 1000
+        },
+        "CritMultiplier": 2.4
+      }
+    ],
+    "ReloadDelay": 1,
+    "Name": "Cortege",
+    "Mastery": 14,
+    "Family": "Cortege",
+    "AmmoMax": 0,
+    "Disposition": 1,
+    "Image": "Cortege.png"
+  },
+  "Larkspur Prime (Atmosphere)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "GripType": "",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "32.3.6",
+    "Polarities": [
+      "Madurai",
+      "Madurai",
+      "Madurai"
+    ],
+    "Tradable": 2,
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeLarkspur/PrimeLarkspurWeapon",
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Archgun (Atmosphere)",
+    "SellPrice": 5000,
+    "Mastery": 8,
+    "AmmoType": "Heavy",
+    "Trigger": "Held",
+    "Magazine": 100,
+    "Image": "LarkspurPrime.png",
+    "Reload": 2.5,
+    "AmmoPickup": 1000,
+    "Link": "Larkspur Prime",
+    "Name": "Larkspur Prime (Atmosphere)",
+    "Attacks": [
+      {
+        "CritChance": 0.14,
+        "StatusChance": 0.5,
+        "FireRate": 12,
+        "MinSpread": 10,
+        "IsSilent": false,
+        "Range": 50,
+        "AmmoCost": 0.5,
+        "Multishot": 1,
+        "MaxSpread": 14,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Radiation": 160,
+          "Impact": 20
+        },
+        "CritMultiplier": 1.6
+      },
+      {
+        "CritChance": 0.28,
+        "Range": 100,
+        "FireRate": 2,
+        "Multishot": 1,
+        "AttackIndex": 2,
+        "AttackName": "Alt-Fire Projectile Impact",
+        "ShotType": "Projectile",
+        "CritMultiplier": 2.2,
+        "ChargeTime": 0.5,
+        "AmmoCost": 10,
+        "IsSilent": false,
+        "ShotSpeed": 100,
+        "MaxSpread": 0,
+        "MinSpread": 0,
+        "PunchThrough": 0,
+        "StatusChance": 0.38,
+        "ForcedProcs": [
+          "Impact",
+          "Knockdown"
+        ],
+        "Damage": {
+          "Blast": 360,
+          "Radiation": 200,
+          "Impact": 280
+        }
+      },
+      {
+        "CritChance": 0.28,
+        "StatusChance": 0.38,
+        "Falloff": {
+          "EndRange": 9.6,
+          "Reduction": 0.6,
+          "StartRange": 0
+        },
+        "ForcedProcs": [
+          "Ragdoll"
+        ],
+        "AttackParentIndex": 2,
+        "Range": 9.6,
+        "FireRate": 2,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 3,
+        "AttackName": "Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Blast": 800,
+          "Radiation": 800
+        },
+        "CritMultiplier": 2.2
+      }
+    ],
+    "Family": "Larkspur",
+    "AmmoMax": 400,
+    "Disposition": 0.8,
+    "DefaultUpgrades": [
+      "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGunInnateMod"
+    ]
+  },
+  "Kuva Grattler (Atmosphere)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 2,
+    "Class": "Launcher",
+    "MaxRank": 40,
+    "Image": "KuvaGrattler.png",
+    "GripType": "",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "30.5",
+    "Polarities": [
+      "Madurai",
+      "Madurai",
+      "Madurai"
+    ],
+    "Traits": [
+      "Grineer",
+      "Kuva Lich"
+    ],
+    "InternalName": "/Lotus/Weapons/Grineer/KuvaLich/HeavyWeapons/Grattler/KuvaGrattler",
+    "Tradable": 3,
+    "Slot": "Archgun (Atmosphere)",
+    "SellPrice": 5000,
+    "Link": "Kuva Grattler",
+    "AmmoType": "Heavy",
+    "Trigger": "Auto",
+    "Magazine": 60,
+    "Mastery": 15,
+    "Reload": 2.5,
+    "AmmoPickup": 1000,
+    "IsLichWeapon": true,
+    "Name": "Kuva Grattler (Atmosphere)",
+    "Attacks": [
+      {
+        "StatusChance": 0.27,
+        "CritChance": 0.27,
+        "FireRate": 5.55,
+        "ShotSpeed": 250,
+        "MinSpread": 5,
+        "IsSilent": false,
+        "Range": 225,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 7,
+        "AttackIndex": 1,
+        "AttackName": "Projectile Impact",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 112,
+          "Slash": 14,
+          "Impact": 14
+        },
+        "CritMultiplier": 2
+      },
+      {
+        "CritChance": 0.27,
+        "StatusChance": 0.27,
+        "Falloff": {
+          "EndRange": 9,
+          "Reduction": 0.7,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 9,
+        "FireRate": 5.55,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Explosion",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Blast": 235
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Family": "Grattler",
+    "AmmoMax": 320,
+    "Disposition": 0.7,
+    "DefaultUpgrades": [
+      "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
+    ]
+  },
+  "Cortege (Atmosphere)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "GripType": "",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "29",
+    "Polarities": {},
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchGun/ThanoTechArchGun",
+    "SellPrice": 5000,
+    "Traits": [
+      "Entrati"
+    ],
+    "Tradable": 4,
+    "Slot": "Archgun (Atmosphere)",
+    "AmmoType": "Heavy",
+    "Trigger": "Held",
+    "Magazine": 100,
+    "Link": "Cortege",
+    "Reload": 2.5,
+    "AmmoPickup": 1000,
+    "Mastery": 14,
+    "Name": "Cortege (Atmosphere)",
+    "Image": "Cortege.png",
+    "Family": "Cortege",
+    "AmmoMax": 300,
+    "Disposition": 1,
+    "Attacks": [
+      {
+        "CritChance": 0.2,
+        "StatusChance": 0.4,
+        "FireRate": 12,
+        "IsSilent": false,
+        "MinSpread": 10,
+        "AmmoCost": 0.5,
+        "Multishot": 1,
+        "MaxSpread": 14,
+        "AttackIndex": 1,
+        "AttackName": "Held",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Heat": 180
+        },
+        "CritMultiplier": 1.9
+      },
+      {
+        "CritChance": 0.3,
+        "FireRate": 0.25,
+        "Trigger": "Active",
+        "IsSilent": false,
+        "MinSpread": 0,
+        "AmmoCost": 0,
+        "Multishot": 3,
+        "MaxSpread": 0,
+        "AttackIndex": 2,
+        "AttackName": "Grenade Impact",
+        "PunchThrough": 0,
+        "StatusChance": 0.167,
+        "Damage": {
+          "Impact": 20
+        },
+        "CritMultiplier": 2.4
+      },
+      {
+        "CritChance": 0.3,
+        "StatusChance": 0.167,
+        "Falloff": {
+          "EndRange": 4,
+          "Reduction": 0.3,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 2,
+        "Range": 4,
+        "FireRate": 0.25,
+        "Multishot": 3,
+        "IsSilent": false,
+        "AttackIndex": 3,
+        "AttackName": "Radial Attack",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Blast": 2000
+        },
+        "CritMultiplier": 2.4
+      }
+    ]
+  },
+  "Knux": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Archmelee",
+    "MaxRank": 30,
+    "GripType": "MELEE_ONE_HAND",
+    "Users": [
+      "Tyl Regor"
+    ],
+    "Introduced": "17.2",
+    "Polarities": [
+      "Vazarin"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Melee/GrnArchHand/GrnArchHandWeapon",
+    "Link": "Knux",
+    "SweepRadius": 0.5,
+    "Traits": [
+      "Grineer"
+    ],
+    "Attacks": [
+      {
+        "FireRate": 1,
+        "CritChance": 0.13,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "IsSilent": true,
+        "StatusChance": 0.3,
+        "Damage": {
+          "Puncture": 22.25,
+          "Slash": 22.25,
+          "Impact": 400.5
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Slot": "Archmelee",
+    "Name": "Knux",
+    "SellPrice": 5000,
+    "Family": "Knux",
+    "MeleeRange": 142.5,
+    "Mastery": 7,
+    "Image": "Knux.png"
+  },
+  "Cyngas (Atmosphere)": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "GripType": "",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "24.2",
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchBurstGun/ArchBurstGun",
+    "SellPrice": 5000,
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Archgun (Atmosphere)",
+    "AmmoType": "Heavy",
+    "Trigger": "Burst",
+    "Magazine": 30,
+    "Link": "Cyngas",
+    "Reload": 1.2,
+    "AmmoPickup": 1000,
+    "Mastery": 4,
+    "Name": "Cyngas (Atmosphere)",
+    "Image": "Cyngas.png",
+    "Family": "Cyngas",
+    "AmmoMax": 480,
+    "Disposition": 1.3,
+    "Attacks": [
+      {
+        "CritChance": 0.2,
+        "BurstCount": 3,
+        "Range": 300,
+        "FireRate": 6.67,
+        "Multishot": 1,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "ShotType": "Hit-Scan",
+        "CritMultiplier": 2.2,
+        "BurstDelay": 0.06,
+        "AmmoCost": 1,
+        "MaxSpread": 6,
+        "MinSpread": 0,
+        "PunchThrough": 1.5,
+        "StatusChance": 0.3,
+        "IsSilent": false,
+        "Damage": {
+          "Puncture": 80,
+          "Slash": 80,
+          "Impact": 80
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "page": "Module:Blueprints/data",
+  "wiki_timestamp": "2026-08-30T23:10:03Z",
+  "extracted_at": "2026-08-31T21:22:43.574034+00:00",
+  "lua_files": [
+    "Module-Blueprints-data_0.lua",
+    "Module-Blueprints-data_1.lua",
+    "Module-Blueprints-data_2.lua",
+    "Module-Blueprints-data_3.lua",
+    "Module-Blueprints-data_4.lua",
+    "Module-Blueprints-data_5.lua"
+  ],
+  "lua_block_count": 6,
+  "file_size": 514078,
+  "comment_count": 37,
+  "status": "success"
+}

@@ -1,0 +1,1 @@
+{{#invoke:tooltips|getTip|Shuriken|Ability}}

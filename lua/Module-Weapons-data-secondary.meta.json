@@ -1,0 +1,17 @@
+{
+  "page": "Module:Weapons/data/secondary",
+  "wiki_timestamp": "2026-08-24T15:15:13Z",
+  "extracted_at": "2026-08-31T21:22:45.892918+00:00",
+  "lua_files": [
+    "Module-Weapons-data-secondary_0.lua",
+    "Module-Weapons-data-secondary_1.lua",
+    "Module-Weapons-data-secondary_2.lua",
+    "Module-Weapons-data-secondary_3.lua",
+    "Module-Weapons-data-secondary_4.lua",
+    "Module-Weapons-data-secondary_5.lua"
+  ],
+  "lua_block_count": 6,
+  "file_size": 239125,
+  "comment_count": 0,
+  "status": "success"
+}

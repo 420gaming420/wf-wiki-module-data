@@ -1,0 +1,13 @@
+{
+  "page": "Module:Localization",
+  "wiki_timestamp": "2026-01-19T21:45:15Z",
+  "extracted_at": "2026-08-31T21:22:44.955987+00:00",
+  "lua_files": [
+    "Module-Localization_0.lua",
+    "Module-Localization_1.lua"
+  ],
+  "lua_block_count": 2,
+  "file_size": 2555,
+  "comment_count": 20,
+  "status": "success"
+}

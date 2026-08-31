@@ -1,0 +1,17 @@
+{
+  "page": "Module:Weapons/data/primary",
+  "wiki_timestamp": "2026-08-24T15:13:54Z",
+  "extracted_at": "2026-08-31T21:22:45.870074+00:00",
+  "lua_files": [
+    "Module-Weapons-data-primary_0.lua",
+    "Module-Weapons-data-primary_1.lua",
+    "Module-Weapons-data-primary_2.lua",
+    "Module-Weapons-data-primary_3.lua",
+    "Module-Weapons-data-primary_4.lua",
+    "Module-Weapons-data-primary_5.lua"
+  ],
+  "lua_block_count": 6,
+  "file_size": 342713,
+  "comment_count": 1,
+  "status": "success"
+}

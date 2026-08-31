@@ -1,0 +1,12 @@
+{
+  "page": "Module:Enemies/data/grineer",
+  "wiki_timestamp": "2026-08-19T14:46:16Z",
+  "extracted_at": "2026-08-31T21:22:44.450917+00:00",
+  "lua_files": [
+    "Module-Enemies-data-grineer_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 237504,
+  "comment_count": 28,
+  "status": "success"
+}

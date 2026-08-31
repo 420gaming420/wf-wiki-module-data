@@ -1,0 +1,12 @@
+{
+  "page": "Module:LuaSerializer",
+  "wiki_timestamp": "2025-06-17T09:25:04Z",
+  "extracted_at": "2026-08-31T21:22:44.971434+00:00",
+  "lua_files": [
+    "Module-LuaSerializer_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 12248,
+  "comment_count": 112,
+  "status": "success"
+}

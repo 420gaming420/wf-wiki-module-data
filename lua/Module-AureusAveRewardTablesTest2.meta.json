@@ -1,0 +1,12 @@
+{
+  "page": "Module:AureusAveRewardTablesTest2",
+  "wiki_timestamp": "2018-04-24T12:36:08Z",
+  "extracted_at": "2026-08-31T21:22:43.504442+00:00",
+  "lua_files": [
+    "Module-AureusAveRewardTablesTest2_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 748394,
+  "comment_count": 31,
+  "status": "success"
+}

@@ -1,0 +1,1 @@
+{{#invoke:tooltips|full|Scorch|Mods|noicon=true}}

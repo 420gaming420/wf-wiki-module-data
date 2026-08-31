@@ -1,0 +1,14 @@
+{
+  "page": "Module:Mods/data/doc",
+  "wiki_timestamp": "2026-07-21T01:21:16Z",
+  "extracted_at": "2026-08-31T21:22:45.082843+00:00",
+  "lua_files": [
+    "Module-Mods-data-doc_0.lua",
+    "Module-Mods-data-doc_1.lua",
+    "Module-Mods-data-doc_2.lua"
+  ],
+  "lua_block_count": 3,
+  "file_size": 6711,
+  "comment_count": 0,
+  "status": "success"
+}

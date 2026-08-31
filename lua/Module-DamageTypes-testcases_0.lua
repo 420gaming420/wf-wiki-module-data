@@ -1,0 +1,1 @@
+{{#invoke:DamageTypes|damagetable|Impact}}
