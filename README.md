@@ -134,7 +134,7 @@ Failed modules are automatically pushed to `ignore_modules.json` in the scripts 
 
 | Component | License |
 |---|---|
-| **Data** (JSON files) | [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) — same as the WARFRAME Wiki |
+| **Data** (HTML/LUA/MARKDOWN/JSON files) | [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) — same as the WARFRAME Wiki |
 | **Scripts** (converter tools) | [MIT](https://opensource.org/licenses/MIT) — see [wf-wiki-module-scripts](https://github.com/420gaming420/wf-wiki-module-scripts) |
 
 This github repo is not affiliated with Digital Extremes or Warframe or the WARFRAME Wiki.
