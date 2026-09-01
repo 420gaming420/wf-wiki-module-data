@@ -1,0 +1,412 @@
+{
+  "_metadata": {
+    "source": "Module:Blueprints/data + weapon_blueprints.json",
+    "total_dependencies": 39,
+    "total_affected_weapons": 38
+  },
+  "dependencies": {
+    "Afuris": [
+      {
+        "name": "FURIS",
+        "count": 1,
+        "source": "Market"
+      },
+      {
+        "name": "FURIS",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Akbolto": [
+      {
+        "name": "BOLTO",
+        "count": 1,
+        "source": "Market"
+      },
+      {
+        "name": "BOLTO",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Akbronco": [
+      {
+        "name": "BRONCO",
+        "count": 1,
+        "source": "Market"
+      },
+      {
+        "name": "BRONCO",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Akjagara": [
+      {
+        "name": "AKBOLTO",
+        "count": 1,
+        "source": "Market"
+      },
+      {
+        "name": "DUAL SKANA",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Akmagnus": [
+      {
+        "name": "MAGNUS",
+        "count": 1,
+        "source": "Market"
+      },
+      {
+        "name": "MAGNUS",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Aksomati": [
+      {
+        "name": "AKSTILETTO",
+        "count": 1,
+        "source": "Clan"
+      }
+    ],
+    "Akvasto": [
+      {
+        "name": "VASTO",
+        "count": 1,
+        "source": "Market"
+      },
+      {
+        "name": "VASTO",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Boltace": [
+      {
+        "name": "BOLTOR",
+        "count": 1,
+        "source": "Market"
+      },
+      {
+        "name": "KRONEN",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Cadus": [
+      {
+        "name": "BO",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Dark Split-Sword (Dual Swords)": [
+      {
+        "name": "DUAL SKANA",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Dragon Nikana": [
+      {
+        "name": "NIKANA",
+        "count": 1,
+        "source": "Clan"
+      }
+    ],
+    "Dual Cestra": [
+      {
+        "name": "CESTRA",
+        "count": 1,
+        "source": "Market"
+      },
+      {
+        "name": "CESTRA",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Dual Kamas": [
+      {
+        "name": "KAMA",
+        "count": 1,
+        "source": "Market"
+      },
+      {
+        "name": "KAMA",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Dual Raza": [
+      {
+        "name": "DUAL KAMAS",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Heliocor": [
+      {
+        "name": "GAMMACOR",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Hirudo": [
+      {
+        "name": "KOGAKE",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Hystrix": [
+      {
+        "name": "BOLTO",
+        "count": 1,
+        "source": "Market"
+      },
+      {
+        "name": "VIPER",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Knux": [
+      {
+        "name": "FURAX",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Kulstar": [
+      {
+        "name": "KRAKEN",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Lesion": [
+      {
+        "name": "TIPEDO",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Mutalist Cernos": [
+      {
+        "name": "CERNOS",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Panthera": [
+      {
+        "name": "HIKOU",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Paracesis": [
+      {
+        "name": "GALATINE",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Proboscis Cernos": [
+      {
+        "name": "MUTALIST CERNOS",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Redeemer": [
+      {
+        "name": "VASTO",
+        "count": 1,
+        "source": "Market"
+      },
+      {
+        "name": "DUAL SKANA",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Ripkas": [
+      {
+        "name": "ANKYROS",
+        "count": 1,
+        "source": "Market"
+      },
+      {
+        "name": "DUAL CLEAVERS",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Sarpa": [
+      {
+        "name": "AKSTILETTO",
+        "count": 1,
+        "source": "Clan"
+      }
+    ],
+    "Shaku": [
+      {
+        "name": "NINKONDI",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Sibear": [
+      {
+        "name": "MAGISTAR",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Sydon": [
+      {
+        "name": "AMPHIS",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Tekko": [
+      {
+        "name": "ANKYROS",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Tiberon": [
+      {
+        "name": "LATRON",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Tipedo": [
+      {
+        "name": "KUNAI",
+        "count": 1,
+        "source": "Market"
+      },
+      {
+        "name": "BO",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Twin Basolk": [
+      {
+        "name": "DUAL ZOREN",
+        "count": 1,
+        "source": "Market"
+      },
+      {
+        "name": "ATOMOS",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Twin Grakatas": [
+      {
+        "name": "GRAKATA",
+        "count": 1,
+        "source": "Market"
+      },
+      {
+        "name": "GRAKATA",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Twin Kohmak": [
+      {
+        "name": "KOHMAK",
+        "count": 1,
+        "source": "Clan"
+      },
+      {
+        "name": "KOHMAK",
+        "count": 1,
+        "source": "Clan"
+      }
+    ],
+    "Twin Krohkur": [
+      {
+        "name": "KROHKUR",
+        "count": 1,
+        "source": "Market"
+      },
+      {
+        "name": "KROHKUR",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Twin Vipers": [
+      {
+        "name": "VIPER",
+        "count": 1,
+        "source": "Market"
+      },
+      {
+        "name": "VIPER",
+        "count": 1,
+        "source": "Market"
+      }
+    ],
+    "Zarr": [
+      {
+        "name": "DRAKGOON",
+        "count": 1,
+        "source": "Market"
+      }
+    ]
+  },
+  "affected_weapons": [
+    "AKBOLTO",
+    "AKSTILETTO",
+    "AMPHIS",
+    "ANKYROS",
+    "ATOMOS",
+    "BO",
+    "BOLTO",
+    "BOLTOR",
+    "BRONCO",
+    "CERNOS",
+    "CESTRA",
+    "DRAKGOON",
+    "DUAL CLEAVERS",
+    "DUAL KAMAS",
+    "DUAL SKANA",
+    "DUAL ZOREN",
+    "FURAX",
+    "FURIS",
+    "GALATINE",
+    "GAMMACOR",
+    "GRAKATA",
+    "HIKOU",
+    "KAMA",
+    "KOGAKE",
+    "KOHMAK",
+    "KRAKEN",
+    "KROHKUR",
+    "KRONEN",
+    "KUNAI",
+    "LATRON",
+    "MAGISTAR",
+    "MAGNUS",
+    "MUTALIST CERNOS",
+    "NIKANA",
+    "NINKONDI",
+    "TIPEDO",
+    "VASTO",
+    "VIPER"
+  ]
+}
