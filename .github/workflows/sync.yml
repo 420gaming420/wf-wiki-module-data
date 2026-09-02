@@ -17,10 +17,13 @@ jobs:
       - name: Clone scripts repo
         run: git clone --depth 1 https://github.com/420gaming420/wf-wiki-module-scripts /tmp/scripts
 
-      - name: Create symlink for data
+      - name: Create symlink for data subfolders
         run: |
           mkdir -p /tmp/scripts/data
+          ln -sfn $(pwd)/html /tmp/scripts/data/html
           ln -sfn $(pwd)/json /tmp/scripts/data/json
+          ln -sfn $(pwd)/lua /tmp/scripts/data/lua
+          ln -sfn $(pwd)/markdown /tmp/scripts/data/markdown
 
       - name: Write config.ini from secret
         run: echo "${{ secrets.CONFIG_INI }}" > /tmp/scripts/config.ini
