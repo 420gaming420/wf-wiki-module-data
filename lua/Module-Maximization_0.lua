@@ -19,26 +19,34 @@ local p = {}
 --- Creates a maximization calculator for a specific Warframe ability based on formulas in [[Module:Maximization/data]].
 --  @function		p.ability
 --	@alias			p.main
---  @param			{table} frame Frame object with the ability name as the argument
+--  @param			{table} frame Frame object with the ability names as the arguments
 --  @return			{string} Wikitable with the CSS classes and HTML data attributes for the calculator
-function p.ability(frame)
-	local name = frame.args and frame.args[1] or frame
+function p.ability(...)
+	local names = (...).args or {...}
 
-	local max_inner = MaxData[name]
 	local ins = {}
+	local exist = {}
+for _, name in ipairs(names) do
+	local max_inner = MaxData[name]
 	for i, v in ipairs(max_inner and max_inner.ins or {}) do
-		if type(v) == 'table' then
+		if v.name and exist[v.name] then -- continue
+		elseif type(v) == 'table' then
 			local cont = v.cont or ''
 			for kk, vv in pairs(v) do
 				if type(kk) == 'string' and kk ~= 'cont' then
 					table.insert(v, 'data-'..kk..'="'..vv:gsub('[\\"]','\\%0')..'"')
 				end
 			end
+			exist[v.name] = true
 			ins[i] = '|'..table.concat(v, ' ')..'|'..cont
 		else
 			ins[i] = '|'..v
 		end
 	end
+end
+	local outses = {}
+for _, name in ipairs(names) do
+	local max_inner = MaxData[name]
 	local outs = {}
 	for i, v in ipairs(max_inner and max_inner.outs or {}) do
 		local function normalize(v)
@@ -57,7 +65,10 @@ function p.ability(frame)
 		end
 		outs[i] = '|'..normalize(v[1])..'||'..normalize(v[2])
 	end
-	local max = max_inner and ([=[
+	table.insert(outses, '{| class="wikitable calc__block"\n|-\n!colspan=2|'..Tooltips.full(name, 'Ability')
+		..'\n|-\n'..table.concat(outs, '\n|-\n')..'\n|}'..(max_inner and max_inner.post or ''))
+end
+	local max = ([=[
 <div class="js-calc">
 {| class="wikitable calc__block"
 !Inputs
@@ -74,21 +85,14 @@ function p.ability(frame)
 |-
 %s
 |}
-{| class="wikitable calc__block"
-|-
-!colspan=2|%s
-|-
-%s
-|}</div>]=]):format(
+%s</div>]=]):format(
 	Tooltips.full{'Ability Strength', 'Stats', r='Strength'},
 	Tooltips.full{'Ability Duration', 'Stats', r='Duration'},
 	Tooltips.full{'Ability Range', 'Stats', r='Range'},
 	Tooltips.full{'Ability Efficiency', 'Stats', r='Efficiency'},
 	table.concat(ins, '\n|-\n'),
-	Tooltips.full(name, 'Ability'),
-	table.concat(outs, '\n|-\n'),
+	table.concat(outses, '\n'),
 nil)
-	if max_inner and max_inner.post then max = max..max_inner.post end
 
 	return max
 end

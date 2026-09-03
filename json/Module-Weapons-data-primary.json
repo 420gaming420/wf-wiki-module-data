@@ -3,8 +3,8 @@
     "source_url": "https://wiki.warframe.com/w/Module:Weapons/data/primary",
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
-    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-31T21:33:41.384Z"
+    "converter_repo": "https://github.com/placeholder/placeholder",
+    "converted_at": "2026-09-03T02:18:23.011Z"
   },
   "_comments": "",
   "Tenet Tetra": {
@@ -1616,6 +1616,7 @@
     ],
     "InternalName": "/Lotus/Powersuits/Ranger/ExaltedBow",
     "_IgnoreInMasteryCount": true,
+    "Slot": "Primary",
     "Traits": [
       "Tenno"
     ],
@@ -1628,10 +1629,10 @@
     ],
     "Reload": 0.9,
     "AmmoPickup": 0,
-    "Slot": "Primary",
-    "Name": "Artemis Bow",
     "Link": "Artemis Bow (Weapon)",
+    "Name": "Artemis Bow",
     "Image": "ArtemisBowWeapon.png",
+    "Family": "Artemis Bow",
     "AmmoMax": 0,
     "Attacks": [
       {
@@ -10686,6 +10687,7 @@
     ],
     "InternalName": "/Lotus/Powersuits/Ranger/PrimeExaltedBow",
     "_IgnoreInMasteryCount": true,
+    "Slot": "Primary",
     "Traits": [
       "Tenno"
     ],
@@ -10698,10 +10700,10 @@
     ],
     "Reload": 0.9,
     "AmmoPickup": 0,
-    "Slot": "Primary",
-    "Name": "Artemis Bow Prime",
     "Link": "Artemis Bow (Weapon)",
+    "Name": "Artemis Bow Prime",
     "Image": "ArtemisBowPrimeWeapon.png",
+    "Family": "Artemis Bow",
     "AmmoMax": 0,
     "Attacks": [
       {

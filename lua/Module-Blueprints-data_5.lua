@@ -2196,12 +2196,14 @@ return {
 			Time = 43200 
 		},
 		Dorrclave = {
+			BPCost = 15000,
 			Credits = 20000,
 			MarketCost = 175,
 			Name = "Dorrclave Blueprint",
 			Parts = {
 				{
 					Cost = {
+						BPCost = 15000,
 						Credits = 20000,
 						Parts = {
 							{ Count = 20, Name = "Vainthorn", Type = "Resource" },
@@ -2218,6 +2220,7 @@ return {
 				},
 				{
 					Cost = {
+						BPCost = 15000,
 						Credits = 20000,
 						Parts = {
 							{ Count = 20, Name = "Vainthorn", Type = "Resource" },
@@ -2234,6 +2237,7 @@ return {
 				},
 				{
 					Cost = {
+						BPCost = 15000,
 						Credits = 20000,
 						Parts = {
 							{ Count = 20, Name = "Vainthorn", Type = "Resource" },
@@ -2250,6 +2254,7 @@ return {
 				},
 				{
 					Cost = {
+						BPCost = 15000,
 						Credits = 20000,
 						Parts = {
 							{ Count = 20, Name = "Vainthorn", Type = "Resource" },
@@ -3201,7 +3206,7 @@ return {
 						Time = 43200 
 					},
 					Count = 1,
-					Name = "Prime Blade",
+					Name = "Blade",
 					Type = "Item" 
 				},
 				{
@@ -3216,7 +3221,7 @@ return {
 						Time = 43200 
 					},
 					Count = 1,
-					Name = "Prime Handle",
+					Name = "Handle",
 					Type = "Item" 
 				} 
 			},
@@ -3345,16 +3350,14 @@ return {
 			Time = 43200 
 		},
 		Ghoulsaw = {
-			BPCost = 1500,
-			BPStanding = 4000,
+			BPCost = 15000,
 			Credits = 30000,
 			MarketCost = 245,
 			Name = "Ghoulsaw Blueprint",
 			Parts = {
 				{
 					Cost = {
-						BPCost = 3500,
-						BPStanding = 4000,
+						BPCost = 15000,
 						Credits = 30000,
 						Parts = {
 							{ Count = 1, Name = "Tellurium", Type = "Resource" },
@@ -3371,8 +3374,7 @@ return {
 				},
 				{
 					Cost = {
-						BPCost = 3500,
-						BPStanding = 4000,
+						BPCost = 15000,
 						Credits = 30000,
 						Parts = {
 							{ Count = 5, Name = "Morphics", Type = "Resource" },
@@ -3389,8 +3391,7 @@ return {
 				},
 				{
 					Cost = {
-						BPCost = 3500,
-						BPStanding = 4000,
+						BPCost = 15000,
 						Credits = 30000,
 						Parts = {
 							{ Count = 5, Name = "Control Module", Type = "Resource" },
@@ -3407,8 +3408,7 @@ return {
 				},
 				{
 					Cost = {
-						BPCost = 3500,
-						BPStanding = 4000,
+						BPCost = 15000,
 						Credits = 30000,
 						Parts = {
 							{ Count = 3, Name = "Gallium", Type = "Resource" },
@@ -4259,9 +4259,40 @@ return {
 			MarketCost = 175,
 			Name = "Keratinos Blueprint",
 			Parts = {
-				{ Count = 2, Name = "Blade", Type = "Item" },
-				{ Count = 2, Name = "Gauntlet", Type = "Item" } 
+				{
+					Cost = {
+						Credits = 20000,
+						Parts = {
+							{ Count = 40, Name = "Adramal Alloy", Type = "Resource" },
+							{ Count = 24, Name = "Pustulite", Type = "Resource" },
+							{ Count = 6, Name = "Purged Dagonic", Type = "Resource" },
+							{ Count = 4, Name = "Gallium", Type = "Resource" } 
+						},
+						Rush = 25,
+						Time = 43200 
+					},
+					Count = 2,
+					Name = "Blade",
+					Type = "Item" 
+				},
+				{
+					Cost = {
+						Credits = 20000,
+						Parts = {
+							{ Count = 20, Name = "Ferment Bladder", Type = "Resource" },
+							{ Count = 16, Name = "Ganglion", Type = "Resource" },
+							{ Count = 6, Name = "Waxen Sebum Deposit", Type = "Resource" },
+							{ Count = 4, Name = "Neurodes", Type = "Resource" } 
+						},
+						Rush = 25,
+						Time = 43200 
+					},
+					Count = 2,
+					Name = "Gauntlet",
+					Type = "Item" 
+				}
 			},
+
 			Result = "Keratinos",
 			Rush = 35,
 			Time = 43200 
@@ -10790,6 +10821,7 @@ return {
 			Time = 43200 
 		},
 		Banshee = {
+			BPCost = 35000,
 			Credits = 25000,
 			MarketCost = 225,
 			Name = "Banshee Blueprint",
@@ -10805,6 +10837,7 @@ return {
 			Time = 259200 
 		},
 		["Banshee Chassis"] = {
+			BPCost = 15000,
 			Credits = 15000,
 			Name = "Banshee Chassis Blueprint",
 			Parts = {
@@ -10818,6 +10851,7 @@ return {
 			Time = 43200 
 		},
 		["Banshee Neuroptics"] = {
+			BPCost = 15000,
 			Credits = 15000,
 			Name = "Banshee Neuroptics Blueprint",
 			Parts = {
@@ -10888,6 +10922,7 @@ return {
 			Time = 43200 
 		},
 		["Banshee Systems"] = {
+			BPCost = 15000,
 			Credits = 15000,
 			Name = "Banshee Systems Blueprint",
 			Parts = {
@@ -13821,6 +13856,7 @@ return {
 			Time = 43200 
 		},
 		Mesa = {
+			BPCost = 30000,
 			Credits = 25000,
 			MarketCost = 325,
 			Name = "Mesa Blueprint",
@@ -13934,6 +13970,7 @@ return {
 			Time = 43200 
 		},
 		Mirage = {
+			BPCost = 35000,
 			Credits = 25000,
 			MarketCost = 275,
 			Name = "Mirage Blueprint",
@@ -14233,6 +14270,7 @@ return {
 			Time = 259200 
 		},
 		["Nezha Chassis"] = {
+			BPCost = 15000,
 			Credits = 15000,
 			Name = "Nezha Chassis Blueprint",
 			Parts = {
@@ -14247,6 +14285,7 @@ return {
 			Time = 43200 
 		},
 		["Nezha Neuroptics"] = {
+			BPCost = 15000,
 			Credits = 15000,
 			Name = "Nezha Neuroptics Blueprint",
 			Parts = {
@@ -14317,6 +14356,7 @@ return {
 			Time = 43200 
 		},
 		["Nezha Systems"] = {
+			BPCost = 15000,
 			Credits = 15000,
 			Name = "Nezha Systems Blueprint",
 			Parts = {
@@ -16320,6 +16360,7 @@ return {
 			Time = 86400 
 		},
 		["Volt Chassis"] = {
+			BPCost = 15000,
 			Credits = 15000,
 			Name = "Volt Chassis Blueprint",
 			Parts = {
@@ -16333,6 +16374,7 @@ return {
 			Time = 43200 
 		},
 		["Volt Neuroptics"] = {
+			BPCost = 15000,
 			Credits = 15000,
 			Name = "Volt Neuroptics Blueprint",
 			Parts = {
@@ -16402,6 +16444,7 @@ return {
 			Time = 43200 
 		},
 		["Volt Systems"] = {
+			BPCost = 15000,
 			Credits = 15000,
 			Name = "Volt Systems Blueprint",
 			Parts = {
@@ -16658,6 +16701,7 @@ return {
 			Time = 259200 
 		},
 		["Wukong Chassis"] = {
+			BPCost = 15000,
 			Credits = 15000,
 			Name = "Wukong Chassis Blueprint",
 			Parts = {
@@ -16672,6 +16716,7 @@ return {
 			Time = 43200 
 		},
 		["Wukong Neuroptics"] = {
+			BPCost = 15000,
 			Credits = 15000,
 			Name = "Wukong Neuroptics Blueprint",
 			Parts = {
@@ -16742,6 +16787,7 @@ return {
 			Time = 43200 
 		},
 		["Wukong Systems"] = {
+			BPCost = 15000,
 			Credits = 15000,
 			Name = "Wukong Systems Blueprint",
 			Parts = {
@@ -16897,6 +16943,7 @@ return {
 			Time = 259200 
 		},
 		["Yareli Chassis"] = {
+			BPCost = 15000,
 			Credits = 15000,
 			Name = "Yareli Chassis Blueprint",
 			Parts = {
@@ -16911,6 +16958,7 @@ return {
 			Time = 43200 
 		},
 		["Yareli Neuroptics"] = {
+			BPCost = 15000,
 			Credits = 15000,
 			Name = "Yareli Neuroptics Blueprint",
 			Parts = {
@@ -16925,6 +16973,7 @@ return {
 			Time = 43200 
 		},
 		["Yareli Systems"] = {
+			BPCost = 15000,
 			Credits = 15000,
 			Name = "Yareli Systems Blueprint",
 			Parts = {
@@ -17011,6 +17060,7 @@ return {
 			Time = 259200 
 		},
 		["Zephyr Chassis"] = {
+			BPCost = 15000,
 			Credits = 15000,
 			Name = "Zephyr Chassis Blueprint",
 			Parts = {
@@ -17024,6 +17074,7 @@ return {
 			Time = 43200 
 		},
 		["Zephyr Neuroptics"] = {
+			BPCost = 15000,
 			Credits = 15000,
 			Name = "Zephyr Neuroptics Blueprint",
 			Parts = {
@@ -17094,6 +17145,7 @@ return {
 			Time = 43200 
 		},
 		["Zephyr Systems"] = {
+			BPCost = 15000,
 			Credits = 15000,
 			Name = "Zephyr Systems Blueprint",
 			Parts = {
@@ -17108,6 +17160,7 @@ return {
 			Time = 43200 
 		},
 		Dagath = {
+			BPCost = 15000,
 			Credits = 25000,
 			MarketCost = 275,
 			Name = "Dagath Blueprint",
@@ -17123,6 +17176,7 @@ return {
 			Time = 259200 
 		},
 		["Dagath Chassis"] = {
+			BPCost = 15000,
 			Credits = 15000,
 			Name = "Dagath Chassis Blueprint",
 			Parts = {
@@ -17137,6 +17191,7 @@ return {
 			Time = 43200 
 		},
 		["Dagath Neuroptics"] = {
+			BPCost = 15000,
 			Credits = 15000,
 			Name = "Dagath Neuroptics Blueprint",
 			Parts = {
@@ -17151,6 +17206,7 @@ return {
 			Time = 43200 
 		},
 		["Dagath Systems"] = {
+			BPCost = 15000,
 			Credits = 15000,
 			Name = "Dagath Systems Blueprint",
 			Parts = {

@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization"
-wiki_timestamp: "2026-08-31T09:03:24Z"
+wiki_timestamp: "2026-08-31T23:23:05Z"
 ---
 
 **Maximization** creates a stat maximization calculator for Warframe abilities.
@@ -33,7 +33,7 @@ In articles: `{{MaximizationCalculator|ability_name}}`
 
 `p.main(frame)` (function)
 :   Creates a maximization calculator for a specific Warframe ability based on formulas in [Module:Maximization/data](/w/Module:Maximization/data "Module:Maximization/data").
-:   **Parameter**: `frame` Frame object with the ability name as the argument (table)
+:   **Parameter**: `frame` Frame object with the ability names as the arguments (table)
 :   **Returns**: Wikitable with the CSS classes and HTML data attributes for the calculator (string)
 
 ---
@@ -57,7 +57,7 @@ In articles: `{{MaximizationCalculator|ability_name}}`
 | [Drop Tables](/w/Drop_Tables "Drop Tables") | [M:Acquisition](/w/Module:Acquisition "Module:Acquisition") ([/data](/w/Module:Acquisition/data "Module:Acquisition/data")) • [M:DropTables](/w/Module:DropTables "Module:DropTables") ([/data](/w/Module:DropTables/data "Module:DropTables/data")) • [M:Void](/w/Module:Void "Module:Void") ([/data](/w/Module:Void/data "Module:Void/data")) |
 | Vendors | [M:Baro](/w/Module:Baro "Module:Baro") ([/data](/w/Module:Baro/data "Module:Baro/data")) • [M:Vendors](/w/Module:Vendors "Module:Vendors") ([/data](/w/Module:Vendors/data "Module:Vendors/data")) |
 | Crafting | [M:Blueprints/data](/w/Module:Blueprints/data "Module:Blueprints/data") • [M:Cost](/w/Module:Cost "Module:Cost") • [M:Research](/w/Module:Research?action=edit&redlink=1 "Module:Research (page does not exist)") ([/data](/w/Module:Research/data "Module:Research/data")) • [M:Resources](/w/Module:Resources "Module:Resources") ([/data](/w/Module:Resources/data "Module:Resources/data")) |
-| Cosmetics | [M:Decorations](/w/Module:Decorations "Module:Decorations") ([/data](/w/Module:Decorations/data "Module:Decorations/data")) • [M:Cosmetics](/w/Module:Cosmetics "Module:Cosmetics") ([/data](/w/Module:Cosmetics/data "Module:Cosmetics/data")) • [M:Sigils/data](/w/Module:Sigils/data "Module:Sigils/data") • [M:TennoGen](/w/Module:TennoGen "Module:TennoGen") ([/data](/w/Module:TennoGen/data "Module:TennoGen/data")) |
+| Cosmetics | [M:Cosmetics](/w/Module:Cosmetics "Module:Cosmetics") ([/data](/w/Module:Cosmetics/data "Module:Cosmetics/data")) • [M:Decorations](/w/Module:Decorations "Module:Decorations") ([/data](/w/Module:Decorations/data "Module:Decorations/data")) • [Module:Honorias](/w/Module:Honorias "Module:Honorias") ([/data](/w/Module:Honorias/data "Module:Honorias/data")) • [M:Sigils/data](/w/Module:Sigils/data "Module:Sigils/data") • [M:TennoGen](/w/Module:TennoGen "Module:TennoGen") ([/data](/w/Module:TennoGen/data "Module:TennoGen/data")) |
 | Infoboxes | [M:Animal/infobox](/w/Module:Animal/infobox "Module:Animal/infobox") • [M:Arcane/infobox](/w/Module:Arcane/infobox "Module:Arcane/infobox") • [M:ArchModBox](/w/Module:ArchModBox "Module:ArchModBox") • [Module:Companions/infobox](/w/Module:Companions/infobox "Module:Companions/infobox") • [M:Conservation/infobox](/w/Module:Conservation/infobox "Module:Conservation/infobox") • [M:Cosmetics/infobox](/w/Module:Cosmetics/infobox "Module:Cosmetics/infobox") • [M:Enemies/infobox](/w/Module:Enemies/infobox "Module:Enemies/infobox") • [M:Missions/infobox](/w/Module:Missions/infobox "Module:Missions/infobox") • [M:Mods/infobox](/w/Module:Mods/infobox "Module:Mods/infobox") • [M:Resources/infobox](/w/Module:Resources/infobox "Module:Resources/infobox") • [M:Vehicles/infobox](/w/Module:Vehicles/infobox "Module:Vehicles/infobox") • [M:Void/page](/w/Module:Void/page "Module:Void/page") • [M:Warframes/infobox](/w/Module:Warframes/infobox "Module:Warframes/infobox") • [M:Weapons/infobox](/w/Module:Weapons/infobox "Module:Weapons/infobox") | |
 | Wiki | [Dev Wiki](https://dev.fandom.com/wiki/Fandom_Developers_Wiki) Fork | [Module:Common](/w/Module:Common "Module:Common") ([/i18n](/w/Module:Common/i18n "Module:Common/i18n")) • [M:Docbunto](/w/Module:Docbunto "Module:Docbunto") ([/cli](/w/Module:Docbunto/cli "Module:Docbunto/cli"), [/i18n](/w/Module:Docbunto/i18n "Module:Docbunto/i18n")) • [M:Entrypoint](/w/Module:Entrypoint "Module:Entrypoint") • [M:I18n](/w/Module:I18n "Module:I18n") • [M:Infobox](/w/Module:Infobox "Module:Infobox") ([/i18n](/w/Module:Infobox/i18n "Module:Infobox/i18n")) • [M:LanguageList](/w/Module:LanguageList "Module:LanguageList") • [M:Mbox](/w/Module:Mbox "Module:Mbox") ([/i18n](/w/Module:Mbox/i18n "Module:Mbox/i18n")) • [M:ModuleTest](/w/Module:ModuleTest "Module:ModuleTest") • [M:Reference](/w/Module:Reference "Module:Reference") • [M:ReleaseStatus](/w/Module:ReleaseStatus "Module:ReleaseStatus") ([/i18n](/w/Module:ReleaseStatus/i18n "Module:ReleaseStatus/i18n")) • [M:TestHarness](/w/Module:TestHarness "Module:TestHarness") ([/i18n](/w/Module:TestHarness/i18n "Module:TestHarness/i18n")) • [M:WDSButton](/w/Module:WDSButton "Module:WDSButton") ([/data](/w/Module:WDSButton/data "Module:WDSButton/data")) |
 | [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia "wikipedia:Wikipedia") Fork | [M:Arguments](/w/Module:Arguments "Module:Arguments") ([/i18n](/w/Module:Arguments/i18n "Module:Arguments/i18n")) • [M:FallbackList](/w/Module:FallbackList "Module:FallbackList") • [M:Yesno](/w/Module:Yesno "Module:Yesno") |
@@ -94,26 +94,34 @@ local p = {}
 --- Creates a maximization calculator for a specific Warframe ability based on formulas in [[Module:Maximization/data]].
 --  @function		p.ability
 --	@alias			p.main
---  @param			{table} frame Frame object with the ability name as the argument
+--  @param			{table} frame Frame object with the ability names as the arguments
 --  @return			{string} Wikitable with the CSS classes and HTML data attributes for the calculator
-function p.ability(frame)
-	local name = frame.args and frame.args[1] or frame
+function p.ability(...)
+	local names = (...).args or {...}
 
-	local max_inner = MaxData[name]
 	local ins = {}
+	local exist = {}
+for _, name in ipairs(names) do
+	local max_inner = MaxData[name]
 	for i, v in ipairs(max_inner and max_inner.ins or {}) do
-		if type(v) == 'table' then
+		if v.name and exist[v.name] then -- continue
+		elseif type(v) == 'table' then
 			local cont = v.cont or ''
 			for kk, vv in pairs(v) do
 				if type(kk) == 'string' and kk ~= 'cont' then
 					table.insert(v, 'data-'..kk..'="'..vv:gsub('[\\"]','\\%0')..'"')
 				end
 			end
+			exist[v.name] = true
 			ins[i] = '|'..table.concat(v, ' ')..'|'..cont
 		else
 			ins[i] = '|'..v
 		end
 	end
+end
+	local outses = {}
+for _, name in ipairs(names) do
+	local max_inner = MaxData[name]
 	local outs = {}
 	for i, v in ipairs(max_inner and max_inner.outs or {}) do
 		local function normalize(v)
@@ -132,7 +140,10 @@ function p.ability(frame)
 		end
 		outs[i] = '|'..normalize(v[1])..'||'..normalize(v[2])
 	end
-	local max = max_inner and ([=[
+	table.insert(outses, '{| class="wikitable calc__block"\n|-\n!colspan=2|'..Tooltips.full(name, 'Ability')
+		..'\n|-\n'..table.concat(outs, '\n|-\n')..'\n|}'..(max_inner and max_inner.post or ''))
+end
+	local max = ([=[
 
 {| class="wikitable calc__block"
 !Inputs
@@ -147,12 +158,7 @@ function p.ability(frame)
 |-
 %s
 |}
-{| class="wikitable calc__block"
-|-
-!colspan=2|%s
-|-
 %s
-|}
 
 ]=]):format(
 	Tooltips.full{'Ability Strength', 'Stats', r='Strength'},
@@ -160,10 +166,8 @@ function p.ability(frame)
 	Tooltips.full{'Ability Range', 'Stats', r='Range'},
 	Tooltips.full{'Ability Efficiency', 'Stats', r='Efficiency'},
 	table.concat(ins, '\n|-\n'),
-	Tooltips.full(name, 'Ability'),
-	table.concat(outs, '\n|-\n'),
+	table.concat(outses, '\n'),
 nil)
-	if max_inner and max_inner.post then max = max..max_inner.post end
 
 	return max
 end

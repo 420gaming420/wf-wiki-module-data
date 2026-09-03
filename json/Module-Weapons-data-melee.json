@@ -3,8 +3,8 @@
     "source_url": "https://wiki.warframe.com/w/Module:Weapons/data/melee",
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
-    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T19:01:04.869Z"
+    "converter_repo": "https://github.com/placeholder/placeholder",
+    "converted_at": "2026-09-03T02:18:20.359Z"
   },
   "_comments": "",
   "Dakra Prime": {
@@ -921,6 +921,7 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Claws",
     "HeavyAttack": 1400,
+    "_IgnoreInMasteryCount": true,
     "Image": "GarudaPrimeTalons.png",
     "BlockAngle": 60,
     "Introduced": "31.3",
@@ -928,24 +929,24 @@
       "Madurai",
       "Naramon"
     ],
-    "_IgnoreInMasteryCount": true,
+    "SlideAttack": 840,
     "InternalName": "/Lotus/Powersuits/Garuda/GarudaPrimeClaws",
+    "Users": [
+      "Garuda Prime"
+    ],
     "Traits": [
       "Tenno",
       "Prime"
     ],
-    "Users": [
-      "Garuda Prime"
-    ],
     "WindUp": 0.6,
-    "Slot": "Melee",
-    "Link": "Garuda Prime Talons",
     "StancePolarity": "Madurai",
+    "Link": "Garuda Prime Talons",
+    "Slot": "Melee",
     "SweepRadius": 0.25,
     "CompatibilityTags": [
       "CLAWS_STANCE_STANCE"
     ],
-    "SlideAttack": 840,
+    "Name": "Garuda Prime Talons",
     "Attacks": [
       {
         "FireRate": 1,
@@ -1004,11 +1005,11 @@
         "CritMultiplier": 2
       }
     ],
-    "Name": "Garuda Prime Talons",
-    "ComboDur": 5,
     "MeleeRange": 2.2,
-    "Mastery": 1,
+    "ComboDur": 5,
     "MaxRank": 30,
+    "Family": "Garuda Talons",
+    "Mastery": 1,
     "Disposition": 0,
     "FollowThrough": 0.8
   },
@@ -1974,22 +1975,23 @@
       "Umbra",
       "Umbra"
     ],
-    "InternalName": "/Lotus/Powersuits/Excalibur/DoomSwordUmbra",
     "_IgnoreInMasteryCount": true,
+    "InternalName": "/Lotus/Powersuits/Excalibur/DoomSwordUmbra",
+    "Traits": [
+      "Tenno"
+    ],
     "Users": [
       "Excalibur Umbra"
     ],
     "WindUp": 0.6,
-    "Traits": [
-      "Tenno"
-    ],
+    "Slot": "Melee",
     "Link": "Exalted Blade (Weapon)",
     "StancePolarity": "Zenurik",
     "SweepRadius": 0.25,
     "CompatibilityTags": [
       "POWER_WEAPON"
     ],
-    "Slot": "Melee",
+    "SlideAttack": 536,
     "Attacks": [
       {
         "CritChance": 0.15,
@@ -2052,10 +2054,10 @@
         "CritMultiplier": 2
       }
     ],
-    "SlideAttack": 536,
-    "ComboDur": 5,
     "Name": "Exalted Umbra Blade",
+    "ComboDur": 5,
     "MeleeRange": 2.8,
+    "Family": "Exalted Blade",
     "MaxRank": 30,
     "Image": "ExaltedUmbraBlade.png",
     "FollowThrough": 1
@@ -3277,22 +3279,23 @@
       "Madurai",
       "Vazarin"
     ],
-    "InternalName": "/Lotus/Powersuits/Pacifist/PacifistFistPrime",
     "_IgnoreInMasteryCount": true,
+    "InternalName": "/Lotus/Powersuits/Pacifist/PacifistFistPrime",
+    "Traits": [
+      "Tenno"
+    ],
     "Users": [
       "Baruuk Prime"
     ],
     "WindUp": 0.5,
-    "Traits": [
-      "Tenno"
-    ],
+    "Slot": "Melee",
     "Link": "Desert Wind",
     "StancePolarity": "Zenurik",
     "SweepRadius": 0.25,
     "CompatibilityTags": [
       "POWER_WEAPON"
     ],
-    "Slot": "Melee",
+    "SlideAttack": 750,
     "Attacks": [
       {
         "FireRate": 1,
@@ -3349,10 +3352,10 @@
         "CritMultiplier": 2
       }
     ],
-    "SlideAttack": 750,
-    "ComboDur": 5,
     "Name": "Desert Wind Prime",
+    "ComboDur": 5,
     "MeleeRange": 1.2,
+    "Family": "Desert Wind",
     "MaxRank": 30,
     "FollowThrough": 1,
     "DefaultUpgrades": [
@@ -5433,6 +5436,7 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Exalted Weapon",
     "HeavyAttack": 1250,
+    "_IgnoreInMasteryCount": true,
     "GripType": "MELEE_ONE_HAND",
     "BlockAngle": 60,
     "Introduced": "23.0",
@@ -5441,23 +5445,23 @@
       "Naramon",
       "Naramon"
     ],
-    "_IgnoreInMasteryCount": true,
+    "SlideAttack": 750,
     "InternalName": "/Lotus/Powersuits/Berserker/BerserkerMelee",
-    "Traits": [
-      "Tenno"
-    ],
     "Users": [
       "Valkyr"
     ],
+    "Traits": [
+      "Tenno"
+    ],
     "WindUp": 0.5,
-    "Slot": "Melee",
-    "Link": "Valkyr Talons",
     "StancePolarity": "Zenurik",
+    "Link": "Valkyr Talons",
+    "Slot": "Melee",
     "SweepRadius": 0.25,
     "CompatibilityTags": [
       "POWER_WEAPON"
     ],
-    "SlideAttack": 750,
+    "Name": "Valkyr Talons",
     "Attacks": [
       {
         "FireRate": 1.5,
@@ -5518,10 +5522,10 @@
         "CritMultiplier": 2
       }
     ],
-    "Name": "Valkyr Talons",
+    "MeleeRange": 2.15,
     "ComboDur": 5,
     "MaxRank": 30,
-    "MeleeRange": 2.15,
+    "Family": "Valkyr Talons",
     "Image": "ValkyrTalons.png",
     "FollowThrough": 1,
     "DefaultUpgrades": [
@@ -6036,6 +6040,7 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Exalted Weapon",
     "HeavyAttack": 1250,
+    "_IgnoreInMasteryCount": true,
     "GripType": "MELEE_ONE_HAND",
     "BlockAngle": 60,
     "Introduced": "23.0",
@@ -6044,23 +6049,23 @@
       "Naramon",
       "Naramon"
     ],
-    "_IgnoreInMasteryCount": true,
+    "SlideAttack": 750,
     "InternalName": "/Lotus/Powersuits/Berserker/BerserkerMeleePrime",
-    "Traits": [
-      "Tenno"
-    ],
     "Users": [
       "Valkyr Prime"
     ],
+    "Traits": [
+      "Tenno"
+    ],
     "WindUp": 0.5,
-    "Slot": "Melee",
-    "Link": "Valkyr Talons",
     "StancePolarity": "Zenurik",
+    "Link": "Valkyr Talons",
+    "Slot": "Melee",
     "SweepRadius": 0.25,
     "CompatibilityTags": [
       "POWER_WEAPON"
     ],
-    "SlideAttack": 750,
+    "Name": "Valkyr Prime Talons",
     "Attacks": [
       {
         "FireRate": 1.5,
@@ -6121,10 +6126,10 @@
         "CritMultiplier": 2
       }
     ],
-    "Name": "Valkyr Prime Talons",
+    "MeleeRange": 2.15,
     "ComboDur": 5,
     "MaxRank": 30,
-    "MeleeRange": 2.15,
+    "Family": "Valkyr Talons",
     "Image": "ValkyrTalons.png",
     "FollowThrough": 1,
     "DefaultUpgrades": [
@@ -6240,22 +6245,23 @@
       "Madurai",
       "Naramon"
     ],
-    "InternalName": "/Lotus/Powersuits/Fairy/FlightSword",
     "_IgnoreInMasteryCount": true,
+    "InternalName": "/Lotus/Powersuits/Fairy/FlightSword",
+    "Traits": [
+      "Tenno"
+    ],
     "Users": [
       "Titania"
     ],
     "WindUp": 0,
-    "Traits": [
-      "Tenno"
-    ],
+    "Slot": "Melee",
     "Link": "Diwata",
     "StancePolarity": "Zenurik",
     "SweepRadius": 0.5,
     "CompatibilityTags": [
       "POWER_WEAPON"
     ],
-    "Slot": "Melee",
+    "SlideAttack": 429,
     "Attacks": [
       {
         "FireRate": 1.08,
@@ -6272,10 +6278,10 @@
         "CritMultiplier": 2
       }
     ],
-    "SlideAttack": 429,
-    "ComboDur": 5,
     "Name": "Diwata",
+    "ComboDur": 5,
     "MeleeRange": 2.5,
+    "Family": "Diwata",
     "MaxRank": 30,
     "FollowThrough": 1,
     "DefaultUpgrades": [
@@ -11765,22 +11771,23 @@
     "BlockAngle": 60,
     "Introduced": "30",
     "SlideAttack": 500,
-    "InternalName": "/Lotus/Powersuits/Wraith/ReaperMeleeWeapon",
     "_IgnoreInMasteryCount": true,
+    "InternalName": "/Lotus/Powersuits/Wraith/ReaperMeleeWeapon",
+    "Traits": [
+      "Tenno"
+    ],
     "Users": [
       "Sevagoth's Shadow"
     ],
     "WindUp": 0.9,
-    "Traits": [
-      "Tenno"
-    ],
+    "Slot": "Melee",
     "Link": "Shadow Claws",
     "StancePolarity": "Zenurik",
     "SweepRadius": 0.6,
     "CompatibilityTags": [
       "POWER_WEAPON"
     ],
-    "Slot": "Melee",
+    "Name": "Shadow Claws",
     "Attacks": [
       {
         "FireRate": 1,
@@ -11841,10 +11848,10 @@
         "CritMultiplier": 2.6
       }
     ],
-    "Name": "Shadow Claws",
+    "MeleeRange": 1.5,
     "ComboDur": 5,
     "MaxRank": 30,
-    "MeleeRange": 1.5,
+    "Family": "Shadow Claws",
     "Image": "ShadowClaws.png",
     "FollowThrough": 1,
     "DefaultUpgrades": [
@@ -13028,6 +13035,7 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Exalted Weapon",
     "HeavyAttack": 1000,
+    "_IgnoreInMasteryCount": true,
     "GripType": "MELEE_ONE_HAND",
     "BlockAngle": 60,
     "Introduced": "36.1",
@@ -13036,24 +13044,24 @@
       "Madurai",
       "Madurai"
     ],
-    "_IgnoreInMasteryCount": true,
+    "SlideAttack": 500,
     "InternalName": "/Lotus/Powersuits/Wraith/SevagothShadowPrimeClawsWeapon",
+    "Users": [
+      "Sevagoth's Shadow Prime"
+    ],
     "Traits": [
       "Tenno",
       "Prime"
     ],
-    "Users": [
-      "Sevagoth's Shadow Prime"
-    ],
     "WindUp": 0.9,
-    "Slot": "Melee",
-    "Link": "Shadow Claws",
     "StancePolarity": "Zenurik",
+    "Link": "Shadow Claws",
+    "Slot": "Melee",
     "SweepRadius": 0.6,
     "CompatibilityTags": [
       "POWER_WEAPON"
     ],
-    "SlideAttack": 500,
+    "Name": "Shadow Claws Prime",
     "Attacks": [
       {
         "FireRate": 1,
@@ -13114,10 +13122,10 @@
         "CritMultiplier": 2.6
       }
     ],
-    "Name": "Shadow Claws Prime",
+    "MeleeRange": 1.5,
     "ComboDur": 5,
     "MaxRank": 30,
-    "MeleeRange": 1.5,
+    "Family": "Shadow Claws",
     "Image": "ShadowClawsPrime.png",
     "FollowThrough": 1,
     "DefaultUpgrades": [
@@ -18469,22 +18477,23 @@
       "Madurai",
       "Naramon"
     ],
-    "InternalName": "/Lotus/Powersuits/Fairy/PrimeFlightSword",
     "_IgnoreInMasteryCount": true,
+    "InternalName": "/Lotus/Powersuits/Fairy/PrimeFlightSword",
+    "Traits": [
+      "Tenno"
+    ],
     "Users": [
       "Titania Prime"
     ],
     "WindUp": 0,
-    "Traits": [
-      "Tenno"
-    ],
+    "Slot": "Melee",
     "Link": "Diwata",
     "StancePolarity": "Zenurik",
     "SweepRadius": 0.5,
     "CompatibilityTags": [
       "POWER_WEAPON"
     ],
-    "Slot": "Melee",
+    "SlideAttack": 429,
     "Attacks": [
       {
         "FireRate": 1.08,
@@ -18501,10 +18510,10 @@
         "CritMultiplier": 2
       }
     ],
-    "SlideAttack": 429,
-    "ComboDur": 5,
     "Name": "Diwata Prime",
+    "ComboDur": 5,
     "MeleeRange": 2.5,
+    "Family": "Diwata",
     "MaxRank": 30,
     "FollowThrough": 1,
     "DefaultUpgrades": [
@@ -21499,22 +21508,23 @@
       "Madurai",
       "Vazarin"
     ],
-    "InternalName": "/Lotus/Powersuits/Pacifist/PacifistFist",
     "_IgnoreInMasteryCount": true,
+    "InternalName": "/Lotus/Powersuits/Pacifist/PacifistFist",
+    "Traits": [
+      "Tenno"
+    ],
     "Users": [
       "Baruuk"
     ],
     "WindUp": 0.5,
-    "Traits": [
-      "Tenno"
-    ],
+    "Slot": "Melee",
     "Link": "Desert Wind",
     "StancePolarity": "Zenurik",
     "SweepRadius": 0.25,
     "CompatibilityTags": [
       "POWER_WEAPON"
     ],
-    "Slot": "Melee",
+    "SlideAttack": 750,
     "Attacks": [
       {
         "FireRate": 1,
@@ -21571,10 +21581,10 @@
         "CritMultiplier": 2
       }
     ],
-    "SlideAttack": 750,
-    "ComboDur": 5,
     "Name": "Desert Wind",
+    "ComboDur": 5,
     "MeleeRange": 1.2,
+    "Family": "Desert Wind",
     "MaxRank": 30,
     "FollowThrough": 1,
     "DefaultUpgrades": [
@@ -22240,6 +22250,7 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Exalted Weapon",
     "HeavyAttack": 1500,
+    "_IgnoreInMasteryCount": true,
     "GripType": "MELEE_ONE_HAND",
     "BlockAngle": 65,
     "Introduced": "25.3",
@@ -22248,23 +22259,23 @@
       "Naramon",
       "Naramon"
     ],
-    "_IgnoreInMasteryCount": true,
+    "SlideAttack": 300,
     "InternalName": "/Lotus/Powersuits/MonkeyKing/WukongPrimeStaff",
-    "Traits": [
-      "Tenno"
-    ],
     "Users": [
       "Wukong Prime"
     ],
+    "Traits": [
+      "Tenno"
+    ],
     "WindUp": 0.5,
-    "Slot": "Melee",
-    "Link": "Iron Staff",
     "StancePolarity": "Zenurik",
+    "Link": "Iron Staff",
+    "Slot": "Melee",
     "SweepRadius": 0.1,
     "CompatibilityTags": [
       "POWER_WEAPON"
     ],
-    "SlideAttack": 300,
+    "Name": "Iron Staff Prime",
     "Attacks": [
       {
         "FireRate": 1,
@@ -22324,10 +22335,10 @@
         "CritMultiplier": 2
       }
     ],
-    "Name": "Iron Staff Prime",
+    "MeleeRange": 3.5,
     "ComboDur": 5,
     "MaxRank": 30,
-    "MeleeRange": 3.5,
+    "Family": "Iron Staff",
     "Image": "IronStaffPrime.png",
     "FollowThrough": 1,
     "DefaultUpgrades": [
@@ -22721,6 +22732,7 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Exalted Weapon",
     "HeavyAttack": 1250,
+    "_IgnoreInMasteryCount": true,
     "GripType": "MELEE_ONE_HAND",
     "BlockAngle": 60,
     "Introduced": "23.0",
@@ -22729,23 +22741,23 @@
       "Madurai",
       "Naramon"
     ],
-    "_IgnoreInMasteryCount": true,
+    "SlideAttack": 536,
     "InternalName": "/Lotus/Powersuits/Excalibur/DoomSword",
-    "Traits": [
-      "Tenno"
-    ],
     "Users": [
       "Excalibur"
     ],
+    "Traits": [
+      "Tenno"
+    ],
     "WindUp": 0.6,
-    "Slot": "Melee",
-    "Link": "Exalted Blade (Weapon)",
     "StancePolarity": "Zenurik",
+    "Link": "Exalted Blade (Weapon)",
+    "Slot": "Melee",
     "SweepRadius": 0.25,
     "CompatibilityTags": [
       "POWER_WEAPON"
     ],
-    "SlideAttack": 536,
+    "Name": "Exalted Blade",
     "Attacks": [
       {
         "CritChance": 0.15,
@@ -22808,10 +22820,10 @@
         "CritMultiplier": 2
       }
     ],
-    "Name": "Exalted Blade",
+    "MeleeRange": 2.8,
     "ComboDur": 5,
     "MaxRank": 30,
-    "MeleeRange": 2.8,
+    "Family": "Exalted Blade",
     "Image": "ExaltedBladeWeapon.png",
     "FollowThrough": 1,
     "DefaultUpgrades": [
@@ -23306,6 +23318,7 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Exalted Weapon",
     "HeavyAttack": 1500,
+    "_IgnoreInMasteryCount": true,
     "GripType": "MELEE_ONE_HAND",
     "BlockAngle": 65,
     "Introduced": "23.0",
@@ -23314,24 +23327,24 @@
       "Naramon",
       "Naramon"
     ],
-    "_IgnoreInMasteryCount": true,
+    "SlideAttack": 300,
     "InternalName": "/Lotus/Powersuits/MonkeyKing/MonkeyKingStaff",
-    "Traits": [
-      "Tenno"
-    ],
     "Users": [
       "Wukong",
       "Wukong Prime"
     ],
+    "Traits": [
+      "Tenno"
+    ],
     "WindUp": 0.5,
-    "Slot": "Melee",
-    "Link": "Iron Staff",
     "StancePolarity": "Zenurik",
+    "Link": "Iron Staff",
+    "Slot": "Melee",
     "SweepRadius": 0.1,
     "CompatibilityTags": [
       "POWER_WEAPON"
     ],
-    "SlideAttack": 300,
+    "Name": "Iron Staff",
     "Attacks": [
       {
         "FireRate": 1,
@@ -23391,10 +23404,10 @@
         "CritMultiplier": 2
       }
     ],
-    "Name": "Iron Staff",
+    "MeleeRange": 3.5,
     "ComboDur": 5,
     "MaxRank": 30,
-    "MeleeRange": 3.5,
+    "Family": "Iron Staff",
     "Image": "IronStaff.png",
     "FollowThrough": 1,
     "DefaultUpgrades": [
@@ -23867,6 +23880,7 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Claws",
     "HeavyAttack": 1240,
+    "_IgnoreInMasteryCount": true,
     "Image": "GarudaTalons.png",
     "BlockAngle": 60,
     "Introduced": "24.0",
@@ -23874,23 +23888,23 @@
       "Madurai",
       "Naramon"
     ],
-    "_IgnoreInMasteryCount": true,
+    "SlideAttack": 744,
     "InternalName": "/Lotus/Powersuits/Garuda/GarudaClaws",
-    "Traits": [
-      "Tenno"
-    ],
     "Users": [
       "Garuda"
     ],
+    "Traits": [
+      "Tenno"
+    ],
     "WindUp": 0.6,
-    "Slot": "Melee",
-    "Link": "Garuda Talons",
     "StancePolarity": "Madurai",
+    "Link": "Garuda Talons",
+    "Slot": "Melee",
     "SweepRadius": 0.25,
     "CompatibilityTags": [
       "CLAWS_STANCE_STANCE"
     ],
-    "SlideAttack": 744,
+    "Name": "Garuda Talons",
     "Attacks": [
       {
         "FireRate": 1,
@@ -23949,11 +23963,11 @@
         "CritMultiplier": 2
       }
     ],
-    "Name": "Garuda Talons",
-    "ComboDur": 5,
     "MeleeRange": 2.2,
-    "Mastery": 1,
+    "ComboDur": 5,
     "MaxRank": 30,
+    "Family": "Garuda Talons",
+    "Mastery": 1,
     "Disposition": 0,
     "FollowThrough": 0.8
   },
@@ -25249,22 +25263,23 @@
       "Madurai",
       "Naramon"
     ],
-    "InternalName": "/Lotus/Powersuits/Excalibur/DoomSwordPrime",
     "_IgnoreInMasteryCount": true,
+    "InternalName": "/Lotus/Powersuits/Excalibur/DoomSwordPrime",
+    "Traits": [
+      "Tenno"
+    ],
     "Users": [
       "Excalibur Prime"
     ],
     "WindUp": 0.6,
-    "Traits": [
-      "Tenno"
-    ],
+    "Slot": "Melee",
     "Link": "Exalted Blade (Weapon)",
     "StancePolarity": "Zenurik",
     "SweepRadius": 0.25,
     "CompatibilityTags": [
       "POWER_WEAPON"
     ],
-    "Slot": "Melee",
+    "SlideAttack": 536,
     "Attacks": [
       {
         "CritChance": 0.15,
@@ -25327,10 +25342,10 @@
         "CritMultiplier": 2
       }
     ],
-    "SlideAttack": 536,
-    "ComboDur": 5,
     "Name": "Exalted Prime Blade",
+    "ComboDur": 5,
     "MeleeRange": 2.8,
+    "Family": "Exalted Blade",
     "MaxRank": 30,
     "Image": "ExaltedPrimeBlade.png",
     "FollowThrough": 1

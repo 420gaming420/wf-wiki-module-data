@@ -38,7 +38,6 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
-		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -164,6 +163,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -205,7 +205,6 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
-		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -331,6 +330,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -372,7 +372,6 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Semi-Auto",
-		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -498,6 +497,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Semi-Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -534,7 +534,6 @@ return {
 		Reload = 5,
 		Slot = "Railjack Ordnance",
 		Trigger = "Semi-Auto",
-		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -645,6 +644,48 @@ return {
 		Reload = 5,
 		Slot = "Railjack Ordnance",
 		Trigger = "Semi-Auto",
+		_IgnoreEntry = true,
+		_IgnoreInMasteryCount = true,
+		_TooltipAttackDisplay = 1 
+	},
+	Glazio = {
+		Accuracy = 16.7,
+		AmmoMax = math.huge,
+		AmmoPickup = 0,
+		AmmoType = "Heat Accretion",
+		Attacks = {
+			{
+				AmmoCost = 50,
+				AttackIndex = 1,
+				AttackName = "Normal Attack",
+				CritChance = 0.16,
+				CritMultiplier = 2.5,
+				Damage = { Cold = 354, Impact = 210, Puncture = 210 },
+				Falloff = { EndRange = 4000, Reduction = 1, StartRange = 2000 },
+				FireRate = 1.5,
+				IsSilent = false,
+				Multishot = 1,
+				PunchThrough = 0,
+				ShotSpeed = -1,
+				ShotType = "Projectile",
+				StatusChance = 0.1 
+			} 
+		},
+		Class = "Turret",
+		Conclave = false,
+		Family = "Glazio",
+		Image = "TurretGlazio.png",
+		InternalName = "/Lotus/Weapons/CrewShip/IceSniper/IceSniperCannonTierA",
+		Introduced = "29.10",
+		Link = "Glazio",
+		Magazine = 1000,
+		Name = "Glazio",
+		Reload = 3,
+		ReloadDelay = 1,
+		ReloadRate = 500,
+		ReloadStyle = "Regenerate/Cooldown",
+		Slot = "Railjack Turret",
+		Trigger = "Auto",
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -766,6 +807,48 @@ return {
 		Name = "Glazio Mk III",
 		Reload = 3,
 		ReloadDelay = 1,
+		ReloadRate = 500,
+		ReloadStyle = "Regenerate/Cooldown",
+		Slot = "Railjack Turret",
+		Trigger = "Auto",
+		_IgnoreEntry = true,
+		_IgnoreInMasteryCount = true,
+		_TooltipAttackDisplay = 1 
+	},
+	Laith = {
+		Accuracy = 20,
+		AmmoMax = math.huge,
+		AmmoPickup = 0,
+		AmmoType = "Heat Accretion",
+		Attacks = {
+			{
+				AmmoCost = 50,
+				AttackIndex = 1,
+				AttackName = "Normal Attack",
+				CritChance = 0.12,
+				CritMultiplier = 2,
+				Damage = { Impact = 26, Puncture = 52, Slash = 52 },
+				Falloff = { EndRange = 1400, Reduction = 1, StartRange = 700 },
+				FireRate = 2.5,
+				IsSilent = false,
+				Multishot = 8,
+				PunchThrough = 0,
+				ShotSpeed = -1,
+				ShotType = "Projectile",
+				StatusChance = 0.045 
+			} 
+		},
+		Class = "Turret",
+		Conclave = false,
+		Family = "Laith",
+		Image = "TurretLaith.png",
+		InternalName = "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ShrapnelShotgunTierA",
+		Introduced = "29.10",
+		Link = "Laith",
+		Magazine = 1000,
+		Name = "Laith",
+		Reload = 4,
+		ReloadDelay = 2,
 		ReloadRate = 500,
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
@@ -895,6 +978,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -1022,6 +1106,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -1064,6 +1149,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -1191,6 +1277,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -1233,6 +1320,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -1360,6 +1448,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Semi-Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -1402,6 +1491,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Semi-Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -1529,6 +1619,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -1571,6 +1662,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -1698,6 +1790,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -1740,6 +1833,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -1870,6 +1964,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Held",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -1913,6 +2008,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Held",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -2040,6 +2136,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto Burst",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -2081,6 +2178,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto Burst",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -2211,6 +2309,7 @@ return {
 		Slot = "Railjack Turret",
 		Spool = 5,
 		Trigger = "Auto-Spool",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -2253,6 +2352,7 @@ return {
 		Slot = "Railjack Turret",
 		Spool = 5,
 		Trigger = "Auto-Spool",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -2380,6 +2480,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -2422,6 +2523,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -2460,7 +2562,6 @@ return {
 		Reload = 2,
 		Slot = "Railjack Ordnance",
 		Trigger = "Semi-Auto",
-		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -2577,6 +2678,7 @@ return {
 		Reload = 2,
 		Slot = "Railjack Ordnance",
 		Trigger = "Semi-Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -2619,7 +2721,6 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Held",
-		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -2748,6 +2849,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Held",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -2789,7 +2891,6 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto Burst",
-		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -2915,6 +3016,49 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto Burst",
+		_IgnoreEntry = true,
+		_IgnoreInMasteryCount = true,
+		_TooltipAttackDisplay = 1 
+	},
+	Talyn = {
+		Accuracy = 100,
+		AmmoMax = math.huge,
+		AmmoPickup = 0,
+		AmmoType = "Heat Accretion",
+		Attacks = {
+			{
+				AmmoCost = 8,
+				AttackIndex = 1,
+				AttackName = "Normal Attack",
+				CritChance = 0.06,
+				CritMultiplier = 2,
+				Damage = { Heat = 108 },
+				Falloff = { EndRange = 6000, Reduction = 1, StartRange = 3000 },
+				FireRate = 16.67,
+				IsSilent = false,
+				Multishot = 1,
+				PunchThrough = 0,
+				Range = 300,
+				ShotType = "Hit-Scan",
+				StatusChance = 0.1 
+			} 
+		},
+		Class = "Turret",
+		Conclave = false,
+		Family = "Talyn",
+		Image = "TurretTalyn.png",
+		InternalName = "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/GatlingLaserTierA",
+		Introduced = "29.10",
+		Link = "Talyn",
+		Magazine = 1000,
+		Name = "Talyn",
+		Reload = 2,
+		ReloadDelay = 0,
+		ReloadRate = 500,
+		ReloadStyle = "Regenerate/Cooldown",
+		Slot = "Railjack Turret",
+		Spool = 5,
+		Trigger = "Auto-Spool",
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -3043,6 +3187,7 @@ return {
 		Slot = "Railjack Turret",
 		Spool = 5,
 		Trigger = "Auto-Spool",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -3123,7 +3268,6 @@ return {
 		Reload = 5,
 		Slot = "Railjack Ordnance",
 		Trigger = "Semi-Auto",
-		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -3243,6 +3387,7 @@ return {
 		Reload = 5,
 		Slot = "Railjack Ordnance",
 		Trigger = "Semi-Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -3374,6 +3519,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -3415,6 +3561,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -3542,6 +3689,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -3584,6 +3732,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -3711,6 +3860,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Semi-Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -3753,6 +3903,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Semi-Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -3878,6 +4029,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -3919,6 +4071,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -4046,6 +4199,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -4088,6 +4242,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -4218,6 +4373,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Held",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -4261,6 +4417,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Held",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -4388,6 +4545,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto Burst",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -4429,6 +4587,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto Burst",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -4559,6 +4718,7 @@ return {
 		Slot = "Railjack Turret",
 		Spool = 5,
 		Trigger = "Auto-Spool",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -4601,6 +4761,7 @@ return {
 		Slot = "Railjack Turret",
 		Spool = 5,
 		Trigger = "Auto-Spool",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -4728,6 +4889,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -4765,6 +4927,48 @@ return {
 		Magazine = 1000,
 		Name = "Vidar Vort Mk IV",
 		Reload = 2.3,
+		ReloadDelay = 0,
+		ReloadRate = 500,
+		ReloadStyle = "Regenerate/Cooldown",
+		Slot = "Railjack Turret",
+		Trigger = "Auto",
+		_IgnoreEntry = true,
+		_IgnoreInMasteryCount = true,
+		_TooltipAttackDisplay = 1 
+	},
+	Vort = {
+		Accuracy = 16.7,
+		AmmoMax = math.huge,
+		AmmoPickup = 0,
+		AmmoType = "Heat Accretion",
+		Attacks = {
+			{
+				AmmoCost = 20,
+				AttackIndex = 1,
+				AttackName = "Normal Attack",
+				CritChance = 0.08,
+				CritMultiplier = 2,
+				Damage = { Electricity = 450 },
+				Falloff = { EndRange = 4000, Reduction = 1, StartRange = 2000 },
+				FireRate = 5,
+				IsSilent = false,
+				Multishot = 1,
+				PunchThrough = 0,
+				ShotSpeed = -1,
+				ShotType = "Projectile",
+				StatusChance = 0.12 
+			} 
+		},
+		Class = "Turret",
+		Conclave = false,
+		Family = "Vort",
+		Image = "TurretVort.png",
+		InternalName = "/Lotus/Weapons/CrewShip/ElectricTether/ElectricTetherCannonTierA",
+		Introduced = "29.10",
+		Link = "Vort",
+		Magazine = 1000,
+		Name = "Vort",
+		Reload = 2,
 		ReloadDelay = 0,
 		ReloadRate = 500,
 		ReloadStyle = "Regenerate/Cooldown",
@@ -4895,6 +5099,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -5022,6 +5227,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -5064,6 +5270,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -5191,6 +5398,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -5233,6 +5441,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -5360,6 +5569,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Semi-Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -5402,6 +5612,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Semi-Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -5529,6 +5740,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -5571,6 +5783,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -5698,6 +5911,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -5740,6 +5954,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -5871,6 +6086,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Held",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -5914,6 +6130,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Held",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -6041,6 +6258,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto Burst",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -6082,6 +6300,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto Burst",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -6212,6 +6431,7 @@ return {
 		Slot = "Railjack Turret",
 		Spool = 5,
 		Trigger = "Auto-Spool",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -6254,6 +6474,7 @@ return {
 		Slot = "Railjack Turret",
 		Spool = 5,
 		Trigger = "Auto-Spool",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -6381,6 +6602,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	} ,
@@ -6423,6 +6645,7 @@ return {
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
 		Trigger = "Auto",
+		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	}

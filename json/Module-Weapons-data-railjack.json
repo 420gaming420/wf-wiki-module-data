@@ -3,8 +3,8 @@
     "source_url": "https://wiki.warframe.com/w/Module:Weapons/data/railjack",
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
-    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-31T21:33:45.773Z"
+    "converter_repo": "https://github.com/placeholder/placeholder",
+    "converted_at": "2026-09-03T02:18:25.657Z"
   },
   "_comments": "",
   "Vidar Apoc Mk IV": {
@@ -16,6 +16,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/VidarAutoCannonTierD",
+    "_IgnoreEntry": true,
     "Slot": "Railjack Turret",
     "Accuracy": 14.3,
     "Trigger": "Auto",
@@ -64,6 +65,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/PulseLaser/LavanPulseLaserTierC",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 100,
@@ -166,6 +168,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Blaster/BlasterTierC",
+    "_IgnoreEntry": true,
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
     "Trigger": "Auto",
@@ -214,6 +217,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/ElectricTether/VidarElectricTetherCannonTierD",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
@@ -264,6 +268,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Beam/LavanRailJackBeamWeaponTierC",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 100,
@@ -409,6 +414,53 @@
       "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod"
     ]
   },
+  "Vort": {
+    "ReloadRate": 500,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Turret",
+    "Image": "TurretVort.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "29.10",
+    "InternalName": "/Lotus/Weapons/CrewShip/ElectricTether/ElectricTetherCannonTierA",
+    "Slot": "Railjack Turret",
+    "Accuracy": 16.7,
+    "Trigger": "Auto",
+    "Magazine": 1000,
+    "ReloadStyle": "Regenerate/Cooldown",
+    "Reload": 2,
+    "AmmoPickup": 0,
+    "ReloadDelay": 0,
+    "Name": "Vort",
+    "Link": "Vort",
+    "Family": "Vort",
+    "AmmoMax": null,
+    "Attacks": [
+      {
+        "CritChance": 0.08,
+        "StatusChance": 0.12,
+        "FireRate": 5,
+        "Falloff": {
+          "EndRange": 4000,
+          "Reduction": 1,
+          "StartRange": 2000
+        },
+        "ShotSpeed": -1,
+        "AmmoCost": 20,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Electricity": 450
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "AmmoType": "Heat Accretion"
+  },
   "Lavan Pulsar Mk II": {
     "ReloadRate": 500,
     "Conclave": false,
@@ -519,7 +571,6 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Missiles/MultiMissileLauncherWeapon",
-    "_IgnoreEntry": true,
     "Accuracy": 10,
     "Trigger": "Semi-Auto",
     "Magazine": 1,
@@ -614,6 +665,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/ShrapnelShotgun/VidarShrapnelShotgunTierD",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 20,
@@ -666,6 +718,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Beam/VidarRailJackBeamWeaponTierC",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 100,
@@ -718,6 +771,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Blaster/ZektiBlasterTierC",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
@@ -769,6 +823,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Beam/RailJackBeamWeaponTierC",
+    "_IgnoreEntry": true,
     "Slot": "Railjack Turret",
     "Accuracy": 100,
     "Trigger": "Held",
@@ -871,6 +926,7 @@
     "Introduced": "29.10",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/LavanGatlingLaserTierC",
     "ReloadStyle": "Regenerate/Cooldown",
+    "_IgnoreEntry": true,
     "Spool": 5,
     "Slot": "Railjack Turret",
     "Accuracy": 100,
@@ -969,6 +1025,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Blaster/VidarBlasterShotgunTierD",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
@@ -1019,7 +1076,6 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/AutoCannon",
-    "_IgnoreEntry": true,
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
     "Trigger": "Auto",
@@ -1068,6 +1124,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/IceSniper/ZektiIceSniperCannonTierD",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
@@ -1324,6 +1381,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Beam/VidarRailJackBeamWeaponTierD",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 100,
@@ -1576,6 +1634,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/IceSniper/LavanIceSniperCannonTierD",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
@@ -1726,6 +1785,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "29.10",
     "InternalName": "/Lotus/Weapons/CrewShip/IceSniper/VidarIceSniperCannonTierC",
+    "_IgnoreEntry": true,
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
     "Trigger": "Auto",
@@ -1926,7 +1986,6 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Blaster/Blaster",
-    "_IgnoreEntry": true,
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
     "Trigger": "Auto",
@@ -1974,7 +2033,6 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherWeapon",
-    "_IgnoreEntry": true,
     "Accuracy": 100,
     "Trigger": "Semi-Auto",
     "Magazine": 1,
@@ -2020,6 +2078,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherEMPWeaponTierC",
+    "_IgnoreEntry": true,
     "Accuracy": 100,
     "Trigger": "Semi-Auto",
     "Magazine": 1,
@@ -2058,7 +2117,6 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherEMPWeapon",
-    "_IgnoreEntry": true,
     "Accuracy": 100,
     "Trigger": "Semi-Auto",
     "Magazine": 1,
@@ -2150,6 +2208,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ZektiShrapnelShotgunTierD",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 20,
@@ -2253,6 +2312,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Blaster/VidarBlasterTierD",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
@@ -2402,6 +2462,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Beam/LavanRailJackBeamWeaponTierD",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 100,
@@ -2454,6 +2515,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Blaster/VidarBlasterShotgunTierC",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
@@ -2554,6 +2616,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/AutoCannonTierC",
+    "_IgnoreEntry": true,
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
     "Trigger": "Auto",
@@ -2602,6 +2665,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "29.10",
     "InternalName": "/Lotus/Weapons/CrewShip/IceSniper/LavanIceSniperCannonTierC",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
@@ -2654,6 +2718,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "29.10",
     "InternalName": "/Lotus/Weapons/CrewShip/ShrapnelShotgun/VidarShrapnelShotgunTierC",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 20,
@@ -2754,6 +2819,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Blaster/ZektiBlasterShotgunTierD",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
@@ -2896,7 +2962,6 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Blaster/BlasterShotgun",
-    "_IgnoreEntry": true,
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
     "Trigger": "Semi-Auto",
@@ -2993,6 +3058,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Blaster/BlasterShotgunTierC",
+    "_IgnoreEntry": true,
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
     "Trigger": "Semi-Auto",
@@ -3040,6 +3106,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/ZektiAutoCannonTierC",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 12.5,
@@ -3136,6 +3203,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/PulseLaser/VidarPulseLaserTierC",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 100,
@@ -3329,6 +3397,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Missiles/MultiMissileLauncherWeaponTierC",
+    "_IgnoreEntry": true,
     "Accuracy": 10,
     "Trigger": "Semi-Auto",
     "Magazine": 1,
@@ -3467,6 +3536,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "29.10",
     "InternalName": "/Lotus/Weapons/CrewShip/ElectricTether/LavanElectricTetherCannonTierC",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
@@ -3518,6 +3588,7 @@
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/LavanGatlingLaserTierD",
     "ReloadStyle": "Regenerate/Cooldown",
+    "_IgnoreEntry": true,
     "Spool": 5,
     "Slot": "Railjack Turret",
     "Accuracy": 100,
@@ -3616,6 +3687,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "29.10",
     "InternalName": "/Lotus/Weapons/CrewShip/ElectricTether/ZektiElectricTetherCannonTierC",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
@@ -3666,6 +3738,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/ElectricTether/ZektiElectricTetherCannonTierD",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
@@ -3859,6 +3932,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/LavanAutoCannonTierD",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 20,
@@ -3990,6 +4064,57 @@
     ],
     "AmmoType": "Heat Accretion"
   },
+  "Zetki Vort Mk II": {
+    "ReloadRate": 500,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Turret",
+    "Image": "TurretVort.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "29.10",
+    "InternalName": "/Lotus/Weapons/CrewShip/ElectricTether/ZektiElectricTetherCannonTierB",
+    "_IgnoreEntry": true,
+    "ReloadStyle": "Regenerate/Cooldown",
+    "Slot": "Railjack Turret",
+    "Accuracy": 16.7,
+    "Trigger": "Auto",
+    "Magazine": 1000,
+    "ReloadDelay": 0,
+    "Reload": 2,
+    "AmmoPickup": 0,
+    "Link": "Vort",
+    "Name": "Zetki Vort Mk II",
+    "AmmoType": "Heat Accretion",
+    "Family": "Vort",
+    "AmmoMax": null,
+    "Attacks": [
+      {
+        "CritChance": 0.18,
+        "StatusChance": 0.07,
+        "FireRate": 5,
+        "Falloff": {
+          "EndRange": 4000,
+          "Reduction": 1,
+          "StartRange": 2000
+        },
+        "ShotSpeed": -1,
+        "AmmoCost": 30,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Electricity": 995
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "DefaultUpgrades": [
+      "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod"
+    ]
+  },
   "Lavan Talyn Mk II": {
     "ReloadRate": 500,
     "Conclave": false,
@@ -4042,41 +4167,40 @@
       "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod"
     ]
   },
-  "Zetki Vort Mk II": {
+  "Vidar Glazio Mk IV": {
     "ReloadRate": 500,
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
     "Class": "Turret",
-    "Image": "TurretVort.png",
+    "Image": "TurretGlazio.png",
     "_IgnoreInMasteryCount": true,
-    "Introduced": "29.10",
-    "InternalName": "/Lotus/Weapons/CrewShip/ElectricTether/ZektiElectricTetherCannonTierB",
+    "Introduced": "43.0.5",
+    "InternalName": "/Lotus/Weapons/CrewShip/IceSniper/VidarIceSniperCannonTierD",
     "_IgnoreEntry": true,
-    "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
     "Trigger": "Auto",
     "Magazine": 1000,
-    "ReloadDelay": 0,
-    "Reload": 2,
+    "ReloadStyle": "Regenerate/Cooldown",
+    "Reload": 2.9286,
     "AmmoPickup": 0,
-    "Link": "Vort",
-    "Name": "Zetki Vort Mk II",
-    "AmmoType": "Heat Accretion",
-    "Family": "Vort",
+    "ReloadDelay": 1,
+    "Name": "Vidar Glazio Mk IV",
+    "Link": "Glazio",
+    "Family": "Glazio",
     "AmmoMax": null,
     "Attacks": [
       {
-        "CritChance": 0.18,
-        "StatusChance": 0.07,
-        "FireRate": 5,
+        "CritChance": 0.51,
+        "StatusChance": 0.22,
+        "FireRate": 1.5,
         "Falloff": {
           "EndRange": 4000,
           "Reduction": 1,
           "StartRange": 2000
         },
         "ShotSpeed": -1,
-        "AmmoCost": 30,
+        "AmmoCost": 50,
         "Multishot": 1,
         "IsSilent": false,
         "AttackIndex": 1,
@@ -4084,7 +4208,110 @@
         "PunchThrough": 0,
         "ShotType": "Projectile",
         "Damage": {
-          "Electricity": 995
+          "Puncture": 810,
+          "Cold": 1856,
+          "Impact": 810
+        },
+        "CritMultiplier": 2.5
+      }
+    ],
+    "AmmoType": "Heat Accretion"
+  },
+  "Zetki Talyn Mk IV": {
+    "ReloadRate": 500,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Turret",
+    "Image": "TurretTalyn.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "43.0.5",
+    "InternalName": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/ZektiGatlingLaserTierD",
+    "ReloadStyle": "Regenerate/Cooldown",
+    "_IgnoreEntry": true,
+    "Spool": 5,
+    "Slot": "Railjack Turret",
+    "Accuracy": 100,
+    "Trigger": "Auto-Spool",
+    "Magazine": 1000,
+    "ReloadDelay": 0,
+    "Reload": 2.3,
+    "AmmoPickup": 0,
+    "Link": "Talyn",
+    "Name": "Zetki Talyn Mk IV",
+    "AmmoType": "Heat Accretion",
+    "Family": "Talyn",
+    "AmmoMax": null,
+    "Attacks": [
+      {
+        "CritChance": 0.16,
+        "StatusChance": 0.33,
+        "Falloff": {
+          "EndRange": 6000,
+          "Reduction": 1,
+          "StartRange": 3000
+        },
+        "FireRate": 16.6667,
+        "AmmoCost": 12,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Heat": 576
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "DefaultUpgrades": [
+      "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod"
+    ]
+  },
+  "Zetki Talyn Mk III": {
+    "ReloadRate": 500,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Turret",
+    "Image": "TurretTalyn.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "29.10",
+    "InternalName": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/ZektiGatlingLaserTierC",
+    "ReloadStyle": "Regenerate/Cooldown",
+    "_IgnoreEntry": true,
+    "Spool": 5,
+    "Slot": "Railjack Turret",
+    "Accuracy": 100,
+    "Trigger": "Auto-Spool",
+    "Magazine": 1000,
+    "ReloadDelay": 0,
+    "Reload": 2,
+    "AmmoPickup": 0,
+    "Link": "Talyn",
+    "Name": "Zetki Talyn Mk III",
+    "AmmoType": "Heat Accretion",
+    "Family": "Talyn",
+    "AmmoMax": null,
+    "Attacks": [
+      {
+        "CritChance": 0.13,
+        "StatusChance": 0.3,
+        "FireRate": 16.67,
+        "Falloff": {
+          "EndRange": 6000,
+          "Reduction": 1,
+          "StartRange": 3000
+        },
+        "Range": 300,
+        "AmmoCost": 12,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Heat": 384
         },
         "CritMultiplier": 2
       }
@@ -4142,255 +4369,6 @@
       }
     ],
     "AmmoType": "Heat Accretion"
-  },
-  "Vidar Glazio Mk IV": {
-    "ReloadRate": 500,
-    "Conclave": false,
-    "_TooltipAttackDisplay": 1,
-    "Class": "Turret",
-    "Image": "TurretGlazio.png",
-    "_IgnoreInMasteryCount": true,
-    "Introduced": "43.0.5",
-    "InternalName": "/Lotus/Weapons/CrewShip/IceSniper/VidarIceSniperCannonTierD",
-    "Slot": "Railjack Turret",
-    "Accuracy": 16.7,
-    "Trigger": "Auto",
-    "Magazine": 1000,
-    "ReloadStyle": "Regenerate/Cooldown",
-    "Reload": 2.9286,
-    "AmmoPickup": 0,
-    "ReloadDelay": 1,
-    "Name": "Vidar Glazio Mk IV",
-    "Link": "Glazio",
-    "Family": "Glazio",
-    "AmmoMax": null,
-    "Attacks": [
-      {
-        "CritChance": 0.51,
-        "StatusChance": 0.22,
-        "FireRate": 1.5,
-        "Falloff": {
-          "EndRange": 4000,
-          "Reduction": 1,
-          "StartRange": 2000
-        },
-        "ShotSpeed": -1,
-        "AmmoCost": 50,
-        "Multishot": 1,
-        "IsSilent": false,
-        "AttackIndex": 1,
-        "AttackName": "Normal Attack",
-        "PunchThrough": 0,
-        "ShotType": "Projectile",
-        "Damage": {
-          "Puncture": 810,
-          "Cold": 1856,
-          "Impact": 810
-        },
-        "CritMultiplier": 2.5
-      }
-    ],
-    "AmmoType": "Heat Accretion"
-  },
-  "Zetki Talyn Mk IV": {
-    "ReloadRate": 500,
-    "Conclave": false,
-    "_TooltipAttackDisplay": 1,
-    "Class": "Turret",
-    "Image": "TurretTalyn.png",
-    "_IgnoreInMasteryCount": true,
-    "Introduced": "43.0.5",
-    "InternalName": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/ZektiGatlingLaserTierD",
-    "ReloadStyle": "Regenerate/Cooldown",
-    "Spool": 5,
-    "Slot": "Railjack Turret",
-    "Accuracy": 100,
-    "Trigger": "Auto-Spool",
-    "Magazine": 1000,
-    "ReloadDelay": 0,
-    "Reload": 2.3,
-    "AmmoPickup": 0,
-    "Link": "Talyn",
-    "Name": "Zetki Talyn Mk IV",
-    "AmmoType": "Heat Accretion",
-    "Family": "Talyn",
-    "AmmoMax": null,
-    "Attacks": [
-      {
-        "CritChance": 0.16,
-        "StatusChance": 0.33,
-        "Falloff": {
-          "EndRange": 6000,
-          "Reduction": 1,
-          "StartRange": 3000
-        },
-        "FireRate": 16.6667,
-        "AmmoCost": 12,
-        "Multishot": 1,
-        "IsSilent": false,
-        "AttackIndex": 1,
-        "AttackName": "Normal Attack",
-        "PunchThrough": 0,
-        "ShotType": "Hit-Scan",
-        "Damage": {
-          "Heat": 576
-        },
-        "CritMultiplier": 2
-      }
-    ],
-    "DefaultUpgrades": [
-      "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod"
-    ]
-  },
-  "Zetki Talyn Mk III": {
-    "ReloadRate": 500,
-    "Conclave": false,
-    "_TooltipAttackDisplay": 1,
-    "Class": "Turret",
-    "Image": "TurretTalyn.png",
-    "_IgnoreInMasteryCount": true,
-    "Introduced": "29.10",
-    "InternalName": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/ZektiGatlingLaserTierC",
-    "ReloadStyle": "Regenerate/Cooldown",
-    "Spool": 5,
-    "Slot": "Railjack Turret",
-    "Accuracy": 100,
-    "Trigger": "Auto-Spool",
-    "Magazine": 1000,
-    "ReloadDelay": 0,
-    "Reload": 2,
-    "AmmoPickup": 0,
-    "Link": "Talyn",
-    "Name": "Zetki Talyn Mk III",
-    "AmmoType": "Heat Accretion",
-    "Family": "Talyn",
-    "AmmoMax": null,
-    "Attacks": [
-      {
-        "CritChance": 0.13,
-        "StatusChance": 0.3,
-        "FireRate": 16.67,
-        "Falloff": {
-          "EndRange": 6000,
-          "Reduction": 1,
-          "StartRange": 3000
-        },
-        "Range": 300,
-        "AmmoCost": 12,
-        "Multishot": 1,
-        "IsSilent": false,
-        "AttackIndex": 1,
-        "AttackName": "Normal Attack",
-        "PunchThrough": 0,
-        "ShotType": "Hit-Scan",
-        "Damage": {
-          "Heat": 384
-        },
-        "CritMultiplier": 2
-      }
-    ],
-    "DefaultUpgrades": [
-      "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod"
-    ]
-  },
-  "Talyn Mk III": {
-    "ReloadRate": 500,
-    "Conclave": false,
-    "_TooltipAttackDisplay": 1,
-    "Class": "Turret",
-    "Image": "TurretTalyn.png",
-    "_IgnoreInMasteryCount": true,
-    "Introduced": "29.10",
-    "InternalName": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/GatlingLaserTierC",
-    "Slot": "Railjack Turret",
-    "Spool": 5,
-    "Accuracy": 100,
-    "Trigger": "Auto-Spool",
-    "Magazine": 1000,
-    "ReloadStyle": "Regenerate/Cooldown",
-    "Reload": 2,
-    "AmmoPickup": 0,
-    "ReloadDelay": 0,
-    "Name": "Talyn Mk III",
-    "Link": "Talyn",
-    "Family": "Talyn",
-    "AmmoMax": null,
-    "Attacks": [
-      {
-        "CritChance": 0.13,
-        "StatusChance": 0.2,
-        "FireRate": 16.67,
-        "Falloff": {
-          "EndRange": 6000,
-          "Reduction": 1,
-          "StartRange": 3000
-        },
-        "Range": 300,
-        "AmmoCost": 8,
-        "Multishot": 1,
-        "IsSilent": false,
-        "AttackIndex": 1,
-        "AttackName": "Normal Attack",
-        "PunchThrough": 0,
-        "ShotType": "Hit-Scan",
-        "Damage": {
-          "Heat": 295
-        },
-        "CritMultiplier": 2
-      }
-    ],
-    "AmmoType": "Heat Accretion"
-  },
-  "Vidar Talyn Mk III": {
-    "ReloadRate": 500,
-    "Conclave": false,
-    "_TooltipAttackDisplay": 1,
-    "Class": "Turret",
-    "Image": "TurretTalyn.png",
-    "_IgnoreInMasteryCount": true,
-    "Introduced": "29.10",
-    "InternalName": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/VidarGatlingLaserTierC",
-    "ReloadStyle": "Regenerate/Cooldown",
-    "Spool": 5,
-    "Slot": "Railjack Turret",
-    "Accuracy": 100,
-    "Trigger": "Auto-Spool",
-    "Magazine": 1000,
-    "ReloadDelay": 0,
-    "Reload": 2,
-    "AmmoPickup": 0,
-    "Link": "Talyn",
-    "Name": "Vidar Talyn Mk III",
-    "AmmoType": "Heat Accretion",
-    "Family": "Talyn",
-    "AmmoMax": null,
-    "Attacks": [
-      {
-        "CritChance": 0.18,
-        "StatusChance": 0.2,
-        "FireRate": 16.67,
-        "Falloff": {
-          "EndRange": 6000,
-          "Reduction": 1,
-          "StartRange": 3000
-        },
-        "Range": 300,
-        "AmmoCost": 8,
-        "Multishot": 1,
-        "IsSilent": false,
-        "AttackIndex": 1,
-        "AttackName": "Normal Attack",
-        "PunchThrough": 0,
-        "ShotType": "Hit-Scan",
-        "Damage": {
-          "Heat": 295
-        },
-        "CritMultiplier": 2
-      }
-    ],
-    "DefaultUpgrades": [
-      "/Lotus/Weapons/CrewShip/CrewShipInnateDamageRandomMod"
-    ]
   },
   "Zetki Talyn Mk I": {
     "ReloadRate": 500,
@@ -4450,6 +4428,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/PulseLaser/ZektiPulseLaserTierD",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 100,
@@ -4491,40 +4470,41 @@
       "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod"
     ]
   },
-  "Zetki Apoc Mk I": {
+  "Zetki Glazio Mk III": {
     "ReloadRate": 500,
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
     "Class": "Turret",
-    "Image": "TurretApoc.png",
+    "Image": "TurretGlazio.png",
     "_IgnoreInMasteryCount": true,
-    "Introduced": "27",
-    "InternalName": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/ZektiAutoCannonTierA",
+    "Introduced": "29.10",
+    "InternalName": "/Lotus/Weapons/CrewShip/IceSniper/ZektiIceSniperCannonTierC",
     "_IgnoreEntry": true,
+    "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
-    "Accuracy": 12.5,
+    "Accuracy": 16.7,
     "Trigger": "Auto",
     "Magazine": 1000,
-    "ReloadStyle": "Regenerate/Cooldown",
-    "Reload": 2,
+    "ReloadDelay": 1,
+    "Reload": 3,
     "AmmoPickup": 0,
-    "ReloadDelay": 0,
-    "Name": "Zetki Apoc Mk I",
-    "Link": "Apoc",
-    "Family": "Apoc",
+    "Link": "Glazio",
+    "Name": "Zetki Glazio Mk III",
+    "AmmoType": "Heat Accretion",
+    "Family": "Glazio",
     "AmmoMax": null,
     "Attacks": [
       {
-        "CritChance": 0.15,
-        "StatusChance": 0.05,
-        "FireRate": 8.33,
+        "CritChance": 0.5,
+        "StatusChance": 0.2,
+        "FireRate": 1.5,
         "Falloff": {
           "EndRange": 4000,
-          "Reduction": 0.6667,
+          "Reduction": 1,
           "StartRange": 2000
         },
         "ShotSpeed": -1,
-        "AmmoCost": 18,
+        "AmmoCost": 80,
         "Multishot": 1,
         "IsSilent": false,
         "AttackIndex": 1,
@@ -4532,62 +4512,116 @@
         "PunchThrough": 0,
         "ShotType": "Projectile",
         "Damage": {
-          "Puncture": 192.5,
-          "Slash": 82.5
+          "Puncture": 600,
+          "Impact": 600,
+          "Cold": 1538
+        },
+        "CritMultiplier": 2.5
+      }
+    ],
+    "DefaultUpgrades": [
+      "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod"
+    ]
+  },
+  "Talyn Mk III": {
+    "ReloadRate": 500,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Turret",
+    "Image": "TurretTalyn.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "29.10",
+    "InternalName": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/GatlingLaserTierC",
+    "_IgnoreEntry": true,
+    "Slot": "Railjack Turret",
+    "Spool": 5,
+    "Accuracy": 100,
+    "Trigger": "Auto-Spool",
+    "Magazine": 1000,
+    "ReloadStyle": "Regenerate/Cooldown",
+    "Reload": 2,
+    "AmmoPickup": 0,
+    "ReloadDelay": 0,
+    "Name": "Talyn Mk III",
+    "Link": "Talyn",
+    "Family": "Talyn",
+    "AmmoMax": null,
+    "Attacks": [
+      {
+        "CritChance": 0.13,
+        "StatusChance": 0.2,
+        "FireRate": 16.67,
+        "Falloff": {
+          "EndRange": 6000,
+          "Reduction": 1,
+          "StartRange": 3000
+        },
+        "Range": 300,
+        "AmmoCost": 8,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Heat": 295
         },
         "CritMultiplier": 2
       }
     ],
     "AmmoType": "Heat Accretion"
   },
-  "Lavan Cryophon Mk III": {
+  "Vidar Talyn Mk III": {
     "ReloadRate": 500,
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
     "Class": "Turret",
-    "Image": "TurretCryophon.png",
+    "Image": "TurretTalyn.png",
     "_IgnoreInMasteryCount": true,
-    "Introduced": "27",
-    "InternalName": "/Lotus/Weapons/CrewShip/Laser/Blaster/LavanBlasterShotgunTierC",
+    "Introduced": "29.10",
+    "InternalName": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/VidarGatlingLaserTierC",
     "ReloadStyle": "Regenerate/Cooldown",
+    "_IgnoreEntry": true,
+    "Spool": 5,
     "Slot": "Railjack Turret",
-    "Accuracy": 16.7,
-    "Trigger": "Semi-Auto",
+    "Accuracy": 100,
+    "Trigger": "Auto-Spool",
     "Magazine": 1000,
-    "ReloadDelay": 1,
-    "Reload": 3,
+    "ReloadDelay": 0,
+    "Reload": 2,
     "AmmoPickup": 0,
-    "Link": "Cryophon",
-    "Name": "Lavan Cryophon Mk III",
+    "Link": "Talyn",
+    "Name": "Vidar Talyn Mk III",
     "AmmoType": "Heat Accretion",
-    "Family": "Cryophon",
+    "Family": "Talyn",
     "AmmoMax": null,
     "Attacks": [
       {
-        "CritChance": 0.2,
-        "StatusChance": 0.42,
-        "FireRate": 1,
+        "CritChance": 0.18,
+        "StatusChance": 0.2,
+        "FireRate": 16.67,
         "Falloff": {
-          "EndRange": 1400,
+          "EndRange": 6000,
           "Reduction": 1,
-          "StartRange": 700
+          "StartRange": 3000
         },
-        "ShotSpeed": -1,
-        "AmmoCost": 150,
+        "Range": 300,
+        "AmmoCost": 8,
         "Multishot": 1,
         "IsSilent": false,
         "AttackIndex": 1,
         "AttackName": "Normal Attack",
         "PunchThrough": 0,
-        "ShotType": "Projectile",
+        "ShotType": "Hit-Scan",
         "Damage": {
-          "Cold": 5094
+          "Heat": 295
         },
-        "CritMultiplier": 1.5
+        "CritMultiplier": 2
       }
     ],
     "DefaultUpgrades": [
-      "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod"
+      "/Lotus/Weapons/CrewShip/CrewShipInnateDamageRandomMod"
     ]
   },
   "Zetki Pulsar Mk II": {
@@ -4651,6 +4685,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Beam/ZektiRailJackBeamWeaponTierD",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 100,
@@ -4694,6 +4729,55 @@
       "/Lotus/Weapons/CrewShip/Laser/Beam/RailJackBeamInnateDamageRandomMod"
     ]
   },
+  "Zetki Apoc Mk I": {
+    "ReloadRate": 500,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Turret",
+    "Image": "TurretApoc.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "27",
+    "InternalName": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/ZektiAutoCannonTierA",
+    "_IgnoreEntry": true,
+    "Slot": "Railjack Turret",
+    "Accuracy": 12.5,
+    "Trigger": "Auto",
+    "Magazine": 1000,
+    "ReloadStyle": "Regenerate/Cooldown",
+    "Reload": 2,
+    "AmmoPickup": 0,
+    "ReloadDelay": 0,
+    "Name": "Zetki Apoc Mk I",
+    "Link": "Apoc",
+    "Family": "Apoc",
+    "AmmoMax": null,
+    "Attacks": [
+      {
+        "CritChance": 0.15,
+        "StatusChance": 0.05,
+        "FireRate": 8.33,
+        "Falloff": {
+          "EndRange": 4000,
+          "Reduction": 0.6667,
+          "StartRange": 2000
+        },
+        "ShotSpeed": -1,
+        "AmmoCost": 18,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 192.5,
+          "Slash": 82.5
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "AmmoType": "Heat Accretion"
+  },
   "Zetki Photor Mk III": {
     "ReloadRate": 500,
     "Conclave": false,
@@ -4703,6 +4787,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Beam/ZektiRailJackBeamWeaponTierC",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 100,
@@ -4746,6 +4831,155 @@
       "/Lotus/Weapons/CrewShip/Laser/Beam/RailJackBeamInnateDamageRandomMod"
     ]
   },
+  "Laith": {
+    "ReloadRate": 500,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Turret",
+    "Image": "TurretLaith.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "29.10",
+    "InternalName": "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ShrapnelShotgunTierA",
+    "Slot": "Railjack Turret",
+    "Accuracy": 20,
+    "Trigger": "Auto",
+    "Magazine": 1000,
+    "ReloadStyle": "Regenerate/Cooldown",
+    "Reload": 4,
+    "AmmoPickup": 0,
+    "ReloadDelay": 2,
+    "Name": "Laith",
+    "Link": "Laith",
+    "Family": "Laith",
+    "AmmoMax": null,
+    "Attacks": [
+      {
+        "CritChance": 0.12,
+        "StatusChance": 0.045,
+        "FireRate": 2.5,
+        "Falloff": {
+          "EndRange": 1400,
+          "Reduction": 1,
+          "StartRange": 700
+        },
+        "ShotSpeed": -1,
+        "AmmoCost": 50,
+        "Multishot": 8,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 52,
+          "Slash": 52,
+          "Impact": 26
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "AmmoType": "Heat Accretion"
+  },
+  "Lavan Cryophon Mk III": {
+    "ReloadRate": 500,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Turret",
+    "Image": "TurretCryophon.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "27",
+    "InternalName": "/Lotus/Weapons/CrewShip/Laser/Blaster/LavanBlasterShotgunTierC",
+    "_IgnoreEntry": true,
+    "ReloadStyle": "Regenerate/Cooldown",
+    "Slot": "Railjack Turret",
+    "Accuracy": 16.7,
+    "Trigger": "Semi-Auto",
+    "Magazine": 1000,
+    "ReloadDelay": 1,
+    "Reload": 3,
+    "AmmoPickup": 0,
+    "Link": "Cryophon",
+    "Name": "Lavan Cryophon Mk III",
+    "AmmoType": "Heat Accretion",
+    "Family": "Cryophon",
+    "AmmoMax": null,
+    "Attacks": [
+      {
+        "CritChance": 0.2,
+        "StatusChance": 0.42,
+        "FireRate": 1,
+        "Falloff": {
+          "EndRange": 1400,
+          "Reduction": 1,
+          "StartRange": 700
+        },
+        "ShotSpeed": -1,
+        "AmmoCost": 150,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Cold": 5094
+        },
+        "CritMultiplier": 1.5
+      }
+    ],
+    "DefaultUpgrades": [
+      "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod"
+    ]
+  },
+  "Vidar Talyn Mk I": {
+    "ReloadRate": 500,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Turret",
+    "Image": "TurretTalyn.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "29.10",
+    "InternalName": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/VidarGatlingLaserTierA",
+    "_IgnoreEntry": true,
+    "Slot": "Railjack Turret",
+    "Spool": 5,
+    "Accuracy": 100,
+    "Trigger": "Auto-Spool",
+    "Magazine": 1000,
+    "ReloadStyle": "Regenerate/Cooldown",
+    "Reload": 2,
+    "AmmoPickup": 0,
+    "ReloadDelay": 0,
+    "Name": "Vidar Talyn Mk I",
+    "Link": "Talyn",
+    "Family": "Talyn",
+    "AmmoMax": null,
+    "Attacks": [
+      {
+        "CritChance": 0.08,
+        "StatusChance": 0.1,
+        "FireRate": 16.67,
+        "Falloff": {
+          "EndRange": 6000,
+          "Reduction": 1,
+          "StartRange": 3000
+        },
+        "Range": 300,
+        "AmmoCost": 8,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Heat": 108
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "AmmoType": "Heat Accretion"
+  },
   "Zetki Pulsar Mk III": {
     "ReloadRate": 500,
     "Conclave": false,
@@ -4755,6 +4989,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/PulseLaser/ZektiPulseLaserTierC",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 100,
@@ -4791,110 +5026,6 @@
           "Electricity": 443
         },
         "CritMultiplier": 2
-      }
-    ],
-    "DefaultUpgrades": [
-      "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod"
-    ]
-  },
-  "Vidar Talyn Mk II": {
-    "ReloadRate": 500,
-    "Conclave": false,
-    "_TooltipAttackDisplay": 1,
-    "Class": "Turret",
-    "Image": "TurretTalyn.png",
-    "_IgnoreInMasteryCount": true,
-    "Introduced": "29.10",
-    "InternalName": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/VidarGatlingLaserTierB",
-    "ReloadStyle": "Regenerate/Cooldown",
-    "_IgnoreEntry": true,
-    "Spool": 5,
-    "Slot": "Railjack Turret",
-    "Accuracy": 100,
-    "Trigger": "Auto-Spool",
-    "Magazine": 1000,
-    "ReloadDelay": 0,
-    "Reload": 2,
-    "AmmoPickup": 0,
-    "Link": "Talyn",
-    "Name": "Vidar Talyn Mk II",
-    "AmmoType": "Heat Accretion",
-    "Family": "Talyn",
-    "AmmoMax": null,
-    "Attacks": [
-      {
-        "CritChance": 0.12,
-        "StatusChance": 0.14,
-        "FireRate": 16.67,
-        "Falloff": {
-          "EndRange": 6000,
-          "Reduction": 1,
-          "StartRange": 3000
-        },
-        "Range": 300,
-        "AmmoCost": 8,
-        "Multishot": 1,
-        "IsSilent": false,
-        "AttackIndex": 1,
-        "AttackName": "Normal Attack",
-        "PunchThrough": 0,
-        "ShotType": "Hit-Scan",
-        "Damage": {
-          "Heat": 184
-        },
-        "CritMultiplier": 2
-      }
-    ],
-    "DefaultUpgrades": [
-      "/Lotus/Weapons/CrewShip/CrewShipInnateDamageRandomMod"
-    ]
-  },
-  "Zetki Glazio Mk III": {
-    "ReloadRate": 500,
-    "Conclave": false,
-    "_TooltipAttackDisplay": 1,
-    "Class": "Turret",
-    "Image": "TurretGlazio.png",
-    "_IgnoreInMasteryCount": true,
-    "Introduced": "29.10",
-    "InternalName": "/Lotus/Weapons/CrewShip/IceSniper/ZektiIceSniperCannonTierC",
-    "ReloadStyle": "Regenerate/Cooldown",
-    "Slot": "Railjack Turret",
-    "Accuracy": 16.7,
-    "Trigger": "Auto",
-    "Magazine": 1000,
-    "ReloadDelay": 1,
-    "Reload": 3,
-    "AmmoPickup": 0,
-    "Link": "Glazio",
-    "Name": "Zetki Glazio Mk III",
-    "AmmoType": "Heat Accretion",
-    "Family": "Glazio",
-    "AmmoMax": null,
-    "Attacks": [
-      {
-        "CritChance": 0.5,
-        "StatusChance": 0.2,
-        "FireRate": 1.5,
-        "Falloff": {
-          "EndRange": 4000,
-          "Reduction": 1,
-          "StartRange": 2000
-        },
-        "ShotSpeed": -1,
-        "AmmoCost": 80,
-        "Multishot": 1,
-        "IsSilent": false,
-        "AttackIndex": 1,
-        "AttackName": "Normal Attack",
-        "PunchThrough": 0,
-        "ShotType": "Projectile",
-        "Damage": {
-          "Puncture": 600,
-          "Impact": 600,
-          "Cold": 1538
-        },
-        "CritMultiplier": 2.5
       }
     ],
     "DefaultUpgrades": [
@@ -4963,6 +5094,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Blaster/ZektiBlasterShotgunTierC",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
@@ -5061,6 +5193,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Blaster/ZektiBlasterTierD",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
@@ -5155,6 +5288,111 @@
       "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod"
     ]
   },
+  "Lavan Laith Mk IV": {
+    "ReloadRate": 500,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Turret",
+    "Image": "TurretLaith.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "43.0.5",
+    "InternalName": "/Lotus/Weapons/CrewShip/ShrapnelShotgun/LavanShrapnelShotgunTierD",
+    "_IgnoreEntry": true,
+    "ReloadStyle": "Regenerate/Cooldown",
+    "Slot": "Railjack Turret",
+    "Accuracy": 20,
+    "Trigger": "Auto",
+    "Magazine": 1000,
+    "ReloadDelay": 2,
+    "Reload": 3.5,
+    "AmmoPickup": 0,
+    "Link": "Laith",
+    "Name": "Lavan Laith Mk IV",
+    "AmmoType": "Heat Accretion",
+    "Family": "Laith",
+    "AmmoMax": null,
+    "Attacks": [
+      {
+        "CritChance": 0.31,
+        "StatusChance": 0.16875,
+        "FireRate": 2.5,
+        "Falloff": {
+          "EndRange": 1400,
+          "Reduction": 1,
+          "StartRange": 700
+        },
+        "ShotSpeed": -1,
+        "AmmoCost": 50,
+        "Multishot": 8,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 209.2,
+          "Slash": 209.2,
+          "Impact": 104.6
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "DefaultUpgrades": [
+      "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod"
+    ]
+  },
+  "Zetki Apoc Mk IV": {
+    "ReloadRate": 500,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Turret",
+    "Image": "TurretApoc.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "43.0.5",
+    "InternalName": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/ZektiAutoCannonTierD",
+    "_IgnoreEntry": true,
+    "ReloadStyle": "Regenerate/Cooldown",
+    "Slot": "Railjack Turret",
+    "Accuracy": 12.5,
+    "Trigger": "Auto",
+    "Magazine": 1000,
+    "ReloadDelay": 0,
+    "Reload": 2.1,
+    "AmmoPickup": 0,
+    "Link": "Apoc",
+    "Name": "Zetki Apoc Mk IV",
+    "AmmoType": "Heat Accretion",
+    "Family": "Apoc",
+    "AmmoMax": null,
+    "Attacks": [
+      {
+        "CritChance": 0.33,
+        "StatusChance": 0.13,
+        "FireRate": 8.3333,
+        "Falloff": {
+          "EndRange": 4000,
+          "Reduction": 0.6667,
+          "StartRange": 2000
+        },
+        "ShotSpeed": -1,
+        "AmmoCost": 18,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 785.4,
+          "Slash": 336.6
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "DefaultUpgrades": [
+      "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod"
+    ]
+  },
   "Photor": {
     "ReloadRate": 500,
     "Conclave": false,
@@ -5164,7 +5402,6 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Beam/RailJackBeamWeapon",
-    "_IgnoreEntry": true,
     "Slot": "Railjack Turret",
     "Accuracy": 100,
     "Trigger": "Held",
@@ -5253,85 +5490,34 @@
     ],
     "AmmoType": "Heat Accretion"
   },
-  "Lavan Laith Mk IV": {
-    "ReloadRate": 500,
-    "Conclave": false,
-    "_TooltipAttackDisplay": 1,
-    "Class": "Turret",
-    "Image": "TurretLaith.png",
-    "_IgnoreInMasteryCount": true,
-    "Introduced": "43.0.5",
-    "InternalName": "/Lotus/Weapons/CrewShip/ShrapnelShotgun/LavanShrapnelShotgunTierD",
-    "ReloadStyle": "Regenerate/Cooldown",
-    "Slot": "Railjack Turret",
-    "Accuracy": 20,
-    "Trigger": "Auto",
-    "Magazine": 1000,
-    "ReloadDelay": 2,
-    "Reload": 3.5,
-    "AmmoPickup": 0,
-    "Link": "Laith",
-    "Name": "Lavan Laith Mk IV",
-    "AmmoType": "Heat Accretion",
-    "Family": "Laith",
-    "AmmoMax": null,
-    "Attacks": [
-      {
-        "CritChance": 0.31,
-        "StatusChance": 0.16875,
-        "FireRate": 2.5,
-        "Falloff": {
-          "EndRange": 1400,
-          "Reduction": 1,
-          "StartRange": 700
-        },
-        "ShotSpeed": -1,
-        "AmmoCost": 50,
-        "Multishot": 8,
-        "IsSilent": false,
-        "AttackIndex": 1,
-        "AttackName": "Normal Attack",
-        "PunchThrough": 0,
-        "ShotType": "Projectile",
-        "Damage": {
-          "Puncture": 209.2,
-          "Slash": 209.2,
-          "Impact": 104.6
-        },
-        "CritMultiplier": 2
-      }
-    ],
-    "DefaultUpgrades": [
-      "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod"
-    ]
-  },
-  "Zetki Apoc Mk IV": {
+  "Zetki Apoc Mk II": {
     "ReloadRate": 500,
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
     "Class": "Turret",
     "Image": "TurretApoc.png",
     "_IgnoreInMasteryCount": true,
-    "Introduced": "43.0.5",
-    "InternalName": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/ZektiAutoCannonTierD",
+    "Introduced": "27",
+    "InternalName": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/ZektiAutoCannonTierB",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 12.5,
     "Trigger": "Auto",
     "Magazine": 1000,
     "ReloadDelay": 0,
-    "Reload": 2.1,
+    "Reload": 2,
     "AmmoPickup": 0,
     "Link": "Apoc",
-    "Name": "Zetki Apoc Mk IV",
+    "Name": "Zetki Apoc Mk II",
     "AmmoType": "Heat Accretion",
     "Family": "Apoc",
     "AmmoMax": null,
     "Attacks": [
       {
-        "CritChance": 0.33,
-        "StatusChance": 0.13,
-        "FireRate": 8.3333,
+        "CritChance": 0.21,
+        "StatusChance": 0.07,
+        "FireRate": 8.33,
         "Falloff": {
           "EndRange": 4000,
           "Reduction": 0.6667,
@@ -5346,8 +5532,8 @@
         "PunchThrough": 0,
         "ShotType": "Projectile",
         "Damage": {
-          "Puncture": 785.4,
-          "Slash": 336.6
+          "Puncture": 327.6,
+          "Slash": 140.4
         },
         "CritMultiplier": 2
       }
@@ -5355,6 +5541,54 @@
     "DefaultUpgrades": [
       "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod"
     ]
+  },
+  "Vort Mk III": {
+    "ReloadRate": 500,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Turret",
+    "Image": "TurretVort.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "29.10",
+    "InternalName": "/Lotus/Weapons/CrewShip/ElectricTether/ElectricTetherCannonTierC",
+    "_IgnoreEntry": true,
+    "Slot": "Railjack Turret",
+    "Accuracy": 16.7,
+    "Trigger": "Auto",
+    "Magazine": 1000,
+    "ReloadStyle": "Regenerate/Cooldown",
+    "Reload": 2,
+    "AmmoPickup": 0,
+    "ReloadDelay": 0,
+    "Name": "Vort Mk III",
+    "Link": "Vort",
+    "Family": "Vort",
+    "AmmoMax": null,
+    "Attacks": [
+      {
+        "CritChance": 0.2,
+        "StatusChance": 0.17,
+        "FireRate": 5,
+        "Falloff": {
+          "EndRange": 4000,
+          "Reduction": 1,
+          "StartRange": 2000
+        },
+        "ShotSpeed": -1,
+        "AmmoCost": 20,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Electricity": 1224
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "AmmoType": "Heat Accretion"
   },
   "Lavan Carcinnox Mk I": {
     "ReloadRate": 500,
@@ -5414,6 +5648,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Blaster/VidarBlasterTierC",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
@@ -5465,6 +5700,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/LavanAutoCannonTierC",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 20,
@@ -5499,105 +5735,6 @@
         "Damage": {
           "Puncture": 463.4,
           "Slash": 198.6
-        },
-        "CritMultiplier": 2
-      }
-    ],
-    "DefaultUpgrades": [
-      "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod"
-    ]
-  },
-  "Vort Mk III": {
-    "ReloadRate": 500,
-    "Conclave": false,
-    "_TooltipAttackDisplay": 1,
-    "Class": "Turret",
-    "Image": "TurretVort.png",
-    "_IgnoreInMasteryCount": true,
-    "Introduced": "29.10",
-    "InternalName": "/Lotus/Weapons/CrewShip/ElectricTether/ElectricTetherCannonTierC",
-    "Slot": "Railjack Turret",
-    "Accuracy": 16.7,
-    "Trigger": "Auto",
-    "Magazine": 1000,
-    "ReloadStyle": "Regenerate/Cooldown",
-    "Reload": 2,
-    "AmmoPickup": 0,
-    "ReloadDelay": 0,
-    "Name": "Vort Mk III",
-    "Link": "Vort",
-    "Family": "Vort",
-    "AmmoMax": null,
-    "Attacks": [
-      {
-        "CritChance": 0.2,
-        "StatusChance": 0.17,
-        "FireRate": 5,
-        "Falloff": {
-          "EndRange": 4000,
-          "Reduction": 1,
-          "StartRange": 2000
-        },
-        "ShotSpeed": -1,
-        "AmmoCost": 20,
-        "Multishot": 1,
-        "IsSilent": false,
-        "AttackIndex": 1,
-        "AttackName": "Normal Attack",
-        "PunchThrough": 0,
-        "ShotType": "Projectile",
-        "Damage": {
-          "Electricity": 1224
-        },
-        "CritMultiplier": 2
-      }
-    ],
-    "AmmoType": "Heat Accretion"
-  },
-  "Zetki Apoc Mk II": {
-    "ReloadRate": 500,
-    "Conclave": false,
-    "_TooltipAttackDisplay": 1,
-    "Class": "Turret",
-    "Image": "TurretApoc.png",
-    "_IgnoreInMasteryCount": true,
-    "Introduced": "27",
-    "InternalName": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/ZektiAutoCannonTierB",
-    "_IgnoreEntry": true,
-    "ReloadStyle": "Regenerate/Cooldown",
-    "Slot": "Railjack Turret",
-    "Accuracy": 12.5,
-    "Trigger": "Auto",
-    "Magazine": 1000,
-    "ReloadDelay": 0,
-    "Reload": 2,
-    "AmmoPickup": 0,
-    "Link": "Apoc",
-    "Name": "Zetki Apoc Mk II",
-    "AmmoType": "Heat Accretion",
-    "Family": "Apoc",
-    "AmmoMax": null,
-    "Attacks": [
-      {
-        "CritChance": 0.21,
-        "StatusChance": 0.07,
-        "FireRate": 8.33,
-        "Falloff": {
-          "EndRange": 4000,
-          "Reduction": 0.6667,
-          "StartRange": 2000
-        },
-        "ShotSpeed": -1,
-        "AmmoCost": 18,
-        "Multishot": 1,
-        "IsSilent": false,
-        "AttackIndex": 1,
-        "AttackName": "Normal Attack",
-        "PunchThrough": 0,
-        "ShotType": "Projectile",
-        "Damage": {
-          "Puncture": 327.6,
-          "Slash": 140.4
         },
         "CritMultiplier": 2
       }
@@ -5654,6 +5791,54 @@
     ],
     "AmmoType": "Heat Accretion"
   },
+  "Talyn": {
+    "ReloadRate": 500,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Turret",
+    "Image": "TurretTalyn.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "29.10",
+    "InternalName": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/GatlingLaserTierA",
+    "Slot": "Railjack Turret",
+    "Spool": 5,
+    "Accuracy": 100,
+    "Trigger": "Auto-Spool",
+    "Magazine": 1000,
+    "ReloadStyle": "Regenerate/Cooldown",
+    "Reload": 2,
+    "AmmoPickup": 0,
+    "ReloadDelay": 0,
+    "Name": "Talyn",
+    "Link": "Talyn",
+    "Family": "Talyn",
+    "AmmoMax": null,
+    "Attacks": [
+      {
+        "CritChance": 0.06,
+        "StatusChance": 0.1,
+        "FireRate": 16.67,
+        "Falloff": {
+          "EndRange": 6000,
+          "Reduction": 1,
+          "StartRange": 3000
+        },
+        "Range": 300,
+        "AmmoCost": 8,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Heat": 108
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "AmmoType": "Heat Accretion"
+  },
   "Vidar Vort Mk III": {
     "ReloadRate": 500,
     "Conclave": false,
@@ -5663,6 +5848,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "29.10",
     "InternalName": "/Lotus/Weapons/CrewShip/ElectricTether/VidarElectricTetherCannonTierC",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
@@ -5765,6 +5951,7 @@
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/VidarGatlingLaserTierD",
     "ReloadStyle": "Regenerate/Cooldown",
+    "_IgnoreEntry": true,
     "Spool": 5,
     "Slot": "Railjack Turret",
     "Accuracy": 100,
@@ -5805,6 +5992,58 @@
       "/Lotus/Weapons/CrewShip/CrewShipInnateDamageRandomMod"
     ]
   },
+  "Vidar Talyn Mk II": {
+    "ReloadRate": 500,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Turret",
+    "Image": "TurretTalyn.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "29.10",
+    "InternalName": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/VidarGatlingLaserTierB",
+    "ReloadStyle": "Regenerate/Cooldown",
+    "_IgnoreEntry": true,
+    "Spool": 5,
+    "Slot": "Railjack Turret",
+    "Accuracy": 100,
+    "Trigger": "Auto-Spool",
+    "Magazine": 1000,
+    "ReloadDelay": 0,
+    "Reload": 2,
+    "AmmoPickup": 0,
+    "Link": "Talyn",
+    "Name": "Vidar Talyn Mk II",
+    "AmmoType": "Heat Accretion",
+    "Family": "Talyn",
+    "AmmoMax": null,
+    "Attacks": [
+      {
+        "CritChance": 0.12,
+        "StatusChance": 0.14,
+        "FireRate": 16.67,
+        "Falloff": {
+          "EndRange": 6000,
+          "Reduction": 1,
+          "StartRange": 3000
+        },
+        "Range": 300,
+        "AmmoCost": 8,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Heat": 184
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "DefaultUpgrades": [
+      "/Lotus/Weapons/CrewShip/CrewShipInnateDamageRandomMod"
+    ]
+  },
   "Zetki Laith Mk III": {
     "ReloadRate": 500,
     "Conclave": false,
@@ -5814,6 +6053,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "29.10",
     "InternalName": "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ZektiShrapnelShotgunTierC",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 20,
@@ -5857,55 +6097,6 @@
       "/Lotus/Weapons/CrewShip/CrewShipInnateFireRateRandomMod"
     ]
   },
-  "Vidar Talyn Mk I": {
-    "ReloadRate": 500,
-    "Conclave": false,
-    "_TooltipAttackDisplay": 1,
-    "Class": "Turret",
-    "Image": "TurretTalyn.png",
-    "_IgnoreInMasteryCount": true,
-    "Introduced": "29.10",
-    "InternalName": "/Lotus/Weapons/CrewShip/Laser/GatlingLaser/VidarGatlingLaserTierA",
-    "_IgnoreEntry": true,
-    "Slot": "Railjack Turret",
-    "Spool": 5,
-    "Accuracy": 100,
-    "Trigger": "Auto-Spool",
-    "Magazine": 1000,
-    "ReloadStyle": "Regenerate/Cooldown",
-    "Reload": 2,
-    "AmmoPickup": 0,
-    "ReloadDelay": 0,
-    "Name": "Vidar Talyn Mk I",
-    "Link": "Talyn",
-    "Family": "Talyn",
-    "AmmoMax": null,
-    "Attacks": [
-      {
-        "CritChance": 0.08,
-        "StatusChance": 0.1,
-        "FireRate": 16.67,
-        "Falloff": {
-          "EndRange": 6000,
-          "Reduction": 1,
-          "StartRange": 3000
-        },
-        "Range": 300,
-        "AmmoCost": 8,
-        "Multishot": 1,
-        "IsSilent": false,
-        "AttackIndex": 1,
-        "AttackName": "Normal Attack",
-        "PunchThrough": 0,
-        "ShotType": "Hit-Scan",
-        "Damage": {
-          "Heat": 108
-        },
-        "CritMultiplier": 2
-      }
-    ],
-    "AmmoType": "Heat Accretion"
-  },
   "Vidar Pulsar Mk IV": {
     "ReloadRate": 500,
     "Conclave": false,
@@ -5915,6 +6106,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/PulseLaser/VidarPulseLaserTierD",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 100,
@@ -5955,6 +6147,55 @@
     "DefaultUpgrades": [
       "/Lotus/Weapons/CrewShip/Laser/PulseLaser/PulseLaserInnateDamageRandomMod"
     ]
+  },
+  "Vidar Pulsar Mk I": {
+    "ReloadRate": 500,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Turret",
+    "Image": "TurretPulsar.png",
+    "_IgnoreInMasteryCount": true,
+    "Introduced": "27",
+    "InternalName": "/Lotus/Weapons/CrewShip/Laser/PulseLaser/VidarPulseLaserTierA",
+    "_IgnoreEntry": true,
+    "Slot": "Railjack Turret",
+    "Accuracy": 100,
+    "Trigger": "Auto Burst",
+    "Magazine": 1000,
+    "ReloadStyle": "Regenerate/Cooldown",
+    "Reload": 2,
+    "AmmoPickup": 0,
+    "ReloadDelay": 0,
+    "Name": "Vidar Pulsar Mk I",
+    "Link": "Pulsar",
+    "Family": "Pulsar",
+    "AmmoMax": null,
+    "Attacks": [
+      {
+        "CritChance": 0.11,
+        "StatusChance": 0.09,
+        "FireRate": 3.33,
+        "Falloff": {
+          "EndRange": 6000,
+          "Reduction": 1,
+          "StartRange": 3000
+        },
+        "Range": 5500,
+        "AmmoCost": 10,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 84,
+          "Electricity": 132
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "AmmoType": "Heat Accretion"
   },
   "Vidar Glazio Mk I": {
     "ReloadRate": 500,
@@ -6006,51 +6247,51 @@
     ],
     "AmmoType": "Heat Accretion"
   },
-  "Vidar Pulsar Mk I": {
+  "Glazio": {
     "ReloadRate": 500,
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
     "Class": "Turret",
-    "Image": "TurretPulsar.png",
+    "Image": "TurretGlazio.png",
     "_IgnoreInMasteryCount": true,
-    "Introduced": "27",
-    "InternalName": "/Lotus/Weapons/CrewShip/Laser/PulseLaser/VidarPulseLaserTierA",
-    "_IgnoreEntry": true,
+    "Introduced": "29.10",
+    "InternalName": "/Lotus/Weapons/CrewShip/IceSniper/IceSniperCannonTierA",
     "Slot": "Railjack Turret",
-    "Accuracy": 100,
-    "Trigger": "Auto Burst",
+    "Accuracy": 16.7,
+    "Trigger": "Auto",
     "Magazine": 1000,
     "ReloadStyle": "Regenerate/Cooldown",
-    "Reload": 2,
+    "Reload": 3,
     "AmmoPickup": 0,
-    "ReloadDelay": 0,
-    "Name": "Vidar Pulsar Mk I",
-    "Link": "Pulsar",
-    "Family": "Pulsar",
+    "ReloadDelay": 1,
+    "Name": "Glazio",
+    "Link": "Glazio",
+    "Family": "Glazio",
     "AmmoMax": null,
     "Attacks": [
       {
-        "CritChance": 0.11,
-        "StatusChance": 0.09,
-        "FireRate": 3.33,
+        "CritChance": 0.16,
+        "StatusChance": 0.1,
+        "FireRate": 1.5,
         "Falloff": {
-          "EndRange": 6000,
+          "EndRange": 4000,
           "Reduction": 1,
-          "StartRange": 3000
+          "StartRange": 2000
         },
-        "Range": 5500,
-        "AmmoCost": 10,
+        "ShotSpeed": -1,
+        "AmmoCost": 50,
         "Multishot": 1,
         "IsSilent": false,
         "AttackIndex": 1,
         "AttackName": "Normal Attack",
         "PunchThrough": 0,
-        "ShotType": "Hit-Scan",
+        "ShotType": "Projectile",
         "Damage": {
-          "Puncture": 84,
-          "Electricity": 132
+          "Puncture": 210,
+          "Impact": 210,
+          "Cold": 354
         },
-        "CritMultiplier": 2
+        "CritMultiplier": 2.5
       }
     ],
     "AmmoType": "Heat Accretion"
@@ -6404,6 +6645,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Missiles/MissleLauncherWeaponTierC",
+    "_IgnoreEntry": true,
     "Accuracy": 100,
     "Trigger": "Semi-Auto",
     "Magazine": 1,
@@ -6499,6 +6741,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Blaster/LavanBlasterTierD",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
@@ -6599,6 +6842,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/MassDriver/AutoCannon/VidarAutoCannonTierC",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 14.3,
@@ -6650,6 +6894,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Blaster/LavanBlasterTierC",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
@@ -6701,6 +6946,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/PulseLaser/PulseLaserTierC",
+    "_IgnoreEntry": true,
     "Slot": "Railjack Turret",
     "Accuracy": 100,
     "Trigger": "Auto Burst",
@@ -6798,6 +7044,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/Blaster/LavanBlasterShotgunTierD",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
@@ -6848,7 +7095,6 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "27",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/PulseLaser/PulseLaser",
-    "_IgnoreEntry": true,
     "Slot": "Railjack Turret",
     "Accuracy": 100,
     "Trigger": "Auto Burst",
@@ -6997,6 +7243,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/ElectricTether/LavanElectricTetherCannonTierD",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
@@ -7047,6 +7294,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "43.0.5",
     "InternalName": "/Lotus/Weapons/CrewShip/Laser/PulseLaser/LavanPulseLaserTierD",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 100,
@@ -7146,6 +7394,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "29.10",
     "InternalName": "/Lotus/Weapons/CrewShip/ShrapnelShotgun/LavanShrapnelShotgunTierC",
+    "_IgnoreEntry": true,
     "ReloadStyle": "Regenerate/Cooldown",
     "Slot": "Railjack Turret",
     "Accuracy": 20,
@@ -7403,6 +7652,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "29.10",
     "InternalName": "/Lotus/Weapons/CrewShip/IceSniper/IceSniperCannonTierC",
+    "_IgnoreEntry": true,
     "Slot": "Railjack Turret",
     "Accuracy": 16.7,
     "Trigger": "Auto",
@@ -7550,6 +7800,7 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "29.10",
     "InternalName": "/Lotus/Weapons/CrewShip/ShrapnelShotgun/ShrapnelShotgunTierC",
+    "_IgnoreEntry": true,
     "Slot": "Railjack Turret",
     "Accuracy": 20,
     "Trigger": "Auto",

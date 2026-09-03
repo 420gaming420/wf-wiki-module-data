@@ -1,0 +1,1997 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Honorias/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/placeholder/placeholder",
+    "converted_at": "2026-09-03T02:18:11.178Z"
+  },
+  "_comments": "",
+  "Queen of Duviri": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Queen of Duviri",
+    "Link": "Queen of Duviri",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/DuviriQueenQuestTitle",
+    "CodexSecret": true
+  },
+  "Defender of the Earth": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Defender of the Earth",
+    "Link": "Defender of the Earth",
+    "Position": "Prefix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/NewLokaTitle",
+    "CodexSecret": true
+  },
+  "Painted Free": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Painted Free",
+    "Link": "Painted Free",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/FollieHuntOneTitle",
+    "CodexSecret": true
+  },
+  "Champion of the Lotus": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Champion of the Lotus",
+    "Link": "Champion of the Lotus",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/LotusEatersTitle",
+    "CodexSecret": true
+  },
+  "Facilis Descensus Averno": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Facilis Descensus Averno",
+    "Link": "Facilis Descensus Averno",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/CompleteDescendiaHardcoreTitle",
+    "CodexSecret": true
+  },
+  "Historian of Tau": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Historian of Tau",
+    "Link": "Historian of Tau",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/OldPeaceTitle",
+    "CodexSecret": true
+  },
+  "Under Friendly Fire": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Under Friendly Fire",
+    "Link": "Under Friendly Fire",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/HunhullsKillerTitle",
+    "CodexSecret": true
+  },
+  "The Invincible": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The Invincible",
+    "Link": "The Invincible",
+    "Position": "Prefix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleJuggernaut",
+    "CodexSecret": true
+  },
+  "Servio": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Servio",
+    "Link": "Servio",
+    "Position": "Prefix",
+    "Introduced": "41.0.5",
+    "InternalName": "/Lotus/Types/Items/Titles/MedalRank5Title",
+    "CodexSecret": true
+  },
+  "Soulmate": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Soulmate",
+    "Link": "Soulmate",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/DateLyonTitle",
+    "CodexSecret": true
+  },
+  "Bigger Spender": {
+    "ExcludeFromCodex": true,
+    "Description": "{{cc|1,000,000}}",
+    "Name": "Bigger Spender",
+    "Link": "Bigger Spender",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleCreditsBigger",
+    "CodexSecret": true
+  },
+  "Scoria's Saint": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Scoria's Saint",
+    "Link": "Scoria's Saint",
+    "Position": "Suffix",
+    "Introduced": "43",
+    "InternalName": "/Lotus/Types/Items/Titles/HunhowHonoria/TitleAsh",
+    "CodexSecret": true
+  },
+  "Arcane Researcher": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Arcane Researcher",
+    "Link": "Arcane Researcher",
+    "Position": "Suffix",
+    "Introduced": "43",
+    "InternalName": "/Lotus/Types/Items/Titles/CompleteEDAMaxTitle",
+    "CodexSecret": true
+  },
+  "Capit": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Capit",
+    "Link": "Capit",
+    "Position": "Prefix",
+    "Introduced": "41.0.5",
+    "InternalName": "/Lotus/Types/Items/Titles/MedalRank13Title",
+    "CodexSecret": true
+  },
+  "Hoplite": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Hoplite",
+    "Link": "Hoplite",
+    "Position": "Suffix",
+    "Introduced": "43",
+    "InternalName": "/Lotus/Types/Items/Titles/TitleStyanaxPrime",
+    "CodexSecret": true
+  },
+  "Messenger of Long Forgotten Gods": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Messenger of Long Forgotten Gods",
+    "Link": "Messenger of Long Forgotten Gods",
+    "Position": "Suffix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/TitleGaussPrime",
+    "CodexSecret": true
+  },
+  "Tenno of a Thousand Days": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Tenno of a Thousand Days",
+    "Link": "Tenno of a Thousand Days",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/ThousandDaysLoginRewardTitle",
+    "CodexSecret": true
+  },
+  "Liberated Grineer": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Liberated Grineer",
+    "Link": "Liberated Grineer",
+    "Position": "Suffix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/SteelMeridianTitle",
+    "CodexSecret": true
+  },
+  "Devil's Own": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Devil's Own",
+    "Link": "Devil's Own",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/DateRoatheTitle",
+    "CodexSecret": true
+  },
+  "Friend of Sentients": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Friend of Sentients",
+    "Link": "Friend of Sentients",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/SentientFriendTitle",
+    "CodexSecret": true
+  },
+  "Hunter Founder": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Hunter Founder",
+    "Link": "Hunter Founder",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/FounderLvl2Title",
+    "CodexSecret": true
+  },
+  "Death from Above": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Death from Above",
+    "Link": "Death from Above",
+    "Position": "Suffix",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/FromOnHighTitle",
+    "CodexSecret": true
+  },
+  "Giant Slayer": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Giant Slayer",
+    "Link": "Giant Slayer",
+    "Position": "Suffix",
+    "Introduced": "43",
+    "InternalName": "/Lotus/Types/Items/Titles/EidolonHunterTitle",
+    "CodexSecret": true
+  },
+  "Parazon Runner": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Parazon Runner",
+    "Link": "Parazon Runner",
+    "Position": "Suffix",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/SolveCipherUnder5Title",
+    "CodexSecret": true
+  },
+  "The Lover": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The Lover",
+    "Link": "The Lover",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/LoverTitle",
+    "CodexSecret": true
+  },
+  "Temporal Investigator": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Temporal Investigator",
+    "Link": "Temporal Investigator",
+    "Position": "Suffix",
+    "Introduced": "43",
+    "InternalName": "/Lotus/Types/Items/Titles/CompleteETAMaxTitle",
+    "CodexSecret": true
+  },
+  "Force of Nature": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Force of Nature",
+    "Link": "Force of Nature",
+    "Position": "Suffix",
+    "Introduced": "43",
+    "InternalName": "/Lotus/Types/Items/Titles/HunhowHonoria/TitleMag",
+    "CodexSecret": true
+  },
+  "Doesn't Miss": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Doesn't Miss",
+    "Link": "Doesn't Miss",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/SharpShooterTitle",
+    "CodexSecret": true
+  },
+  "The Void Called to Me": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The Void Called to Me",
+    "Link": "The Void Called to Me",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/VorHardModeTitle",
+    "CodexSecret": true
+  },
+  "The Maniac of Deimos": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The Maniac of Deimos",
+    "Link": "The Maniac of Deimos",
+    "Position": "Prefix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleGanglion",
+    "CodexSecret": true
+  },
+  "Matriarch": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Matriarch",
+    "Link": "Matriarch",
+    "Position": "Prefix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleMotherTokens",
+    "CodexSecret": true
+  },
+  "Shadow Conservator": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Shadow Conservator",
+    "Link": "Shadow Conservator",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/ShadowgrapherEventVendorTitle",
+    "CodexSecret": true
+  },
+  "Awoken Tenno": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Awoken Tenno",
+    "Link": "Awoken Tenno",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/SecondDreamTitle",
+    "CodexSecret": true
+  },
+  "Fragmented": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Fragmented",
+    "Link": "Fragmented",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/HardFragmentedTitle",
+    "CodexSecret": true
+  },
+  "Scholar of Secrets": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Scholar of Secrets",
+    "Link": "Scholar of Secrets",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/ZenurikGrimoireTitle",
+    "CodexSecret": true
+  },
+  "Fatuous Nymph": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Fatuous Nymph",
+    "Link": "Fatuous Nymph",
+    "Position": "Prefix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleYareli",
+    "CodexSecret": true
+  },
+  "Ack-Ack": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Ack-Ack",
+    "Link": "Ack-Ack",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/AirHunterTitle",
+    "CodexSecret": true
+  },
+  "Shadowgrapher": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Shadowgrapher",
+    "Link": "Shadowgrapher",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/FollieHuntTenTitle",
+    "CodexSecret": true
+  },
+  "Volatile Mote": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Volatile Mote",
+    "Link": "Volatile Mote",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/BOTBEventVendor3Title",
+    "CodexSecret": true
+  },
+  "Eagle": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Eagle",
+    "Link": "Eagle",
+    "Position": "Prefix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/MR16Title",
+    "CodexSecret": true
+  },
+  "Grand Master Founder": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Grand Master Founder",
+    "Link": "Grand Master Founder",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/FounderLvl4Title",
+    "CodexSecret": true
+  },
+  "It's All Relative": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "It's All Relative",
+    "Link": "It's All Relative",
+    "Position": "Suffix",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/NovaTitle",
+    "CodexSecret": true
+  },
+  "Mayor of Corpus City": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Mayor of Corpus City",
+    "Link": "Mayor of Corpus City",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleHexenon",
+    "CodexSecret": true
+  },
+  "True Master": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "True Master",
+    "Link": "True Master",
+    "Position": "Prefix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/MR30Title",
+    "CodexSecret": true
+  },
+  "On-lyne Fan": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "On-lyne Fan",
+    "Link": "On-lyne Fan",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/CodaKillerTitle",
+    "CodexSecret": true
+  },
+  "Lyon's Savior": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Lyon's Savior",
+    "Link": "Lyon's Savior",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/DefendLyonTitle",
+    "CodexSecret": true
+  },
+  "Hotwired": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Hotwired",
+    "Link": "Hotwired",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/HotwiredTitle",
+    "CodexSecret": true
+  },
+  "Big Spender": {
+    "ExcludeFromCodex": true,
+    "Description": "{{cc|100,000}}",
+    "Name": "Big Spender",
+    "Link": "Big Spender",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleCreditsBig",
+    "CodexSecret": true
+  },
+  "The Awoken Sword": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The Awoken Sword",
+    "Link": "The Awoken Sword",
+    "Position": "Prefix",
+    "Introduced": "43",
+    "InternalName": "/Lotus/Types/Items/Titles/HunhowHonoria/TitleExcalibur",
+    "CodexSecret": true
+  },
+  "Arbiter of Ink": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Arbiter of Ink",
+    "Link": "Arbiter of Ink",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/FollieHuntCompleteTitle",
+    "CodexSecret": true
+  },
+  "Diplomatic Merchant": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Diplomatic Merchant",
+    "Link": "Diplomatic Merchant",
+    "Position": "Prefix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/PerrinSequenceTitle",
+    "CodexSecret": true
+  },
+  "Keeper of Secrets": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Keeper of Secrets",
+    "Link": "Keeper of Secrets",
+    "Position": "Suffix",
+    "Introduced": "43",
+    "InternalName": "/Lotus/Types/Items/Titles/HunhowHonoria/TitleDanteDeluxe",
+    "CodexSecret": true
+  },
+  "Double Trouble": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Double Trouble",
+    "Link": "Double Trouble",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/CompleteDescendiaUrielTitle",
+    "CodexSecret": true
+  },
+  "Paper Crane": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Paper Crane",
+    "Link": "Paper Crane",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/DateAoiTitle",
+    "CodexSecret": true
+  },
+  "Chosen of Margulis": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Chosen of Margulis",
+    "Link": "Chosen of Margulis",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/OldPeaceTeaserTitle",
+    "CodexSecret": true
+  },
+  "Perigone": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Perigone",
+    "Link": "Perigone",
+    "Position": "Prefix",
+    "Introduced": "41.0.5",
+    "InternalName": "/Lotus/Types/Items/Titles/MedalRank20Title",
+    "CodexSecret": true
+  },
+  "Dragon": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Dragon",
+    "Link": "Dragon",
+    "Position": "Prefix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/MR22Title",
+    "CodexSecret": true
+  },
+  "Executive Overrider": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Executive Overrider",
+    "Link": "Executive Overrider",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/SisterKillerTitle",
+    "CodexSecret": true
+  },
+  "The Mechanic": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The Mechanic",
+    "Link": "The Mechanic",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/HardTankTitle",
+    "CodexSecret": true
+  },
+  "Kalymos's Best Friend": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Kalymos's Best Friend",
+    "Link": "Kalymos's Best Friend",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/KalymosTitle",
+    "CodexSecret": true
+  },
+  "l33t h4XX0r": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "l33t h4XX0r",
+    "Link": "l33t h4XX0r",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/DateAmirTitle",
+    "CodexSecret": true
+  },
+  "Lamenting One": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Lamenting One",
+    "Link": "Lamenting One",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleLamentus",
+    "CodexSecret": true
+  },
+  "Ironclad": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Ironclad",
+    "Link": "Ironclad",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleFerrite",
+    "CodexSecret": true
+  },
+  "On-Lyne Superfan": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "On-Lyne Superfan",
+    "Link": "On-Lyne Superfan",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/CodaMasteryTitle",
+    "CodexSecret": true
+  },
+  "Head Cracker": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Head Cracker",
+    "Link": "Head Cracker",
+    "Position": "Suffix",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/FrumentariusTitle",
+    "CodexSecret": true
+  },
+  "Spore Bearer": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Spore Bearer",
+    "Link": "Spore Bearer",
+    "Position": "Prefix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleNanoSpores",
+    "CodexSecret": true
+  },
+  "The Power of Harrow Compels Thee": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The Power of Harrow Compels Thee",
+    "Link": "The Power of Harrow Compels Thee",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleHarrowChasisBlueprint",
+    "CodexSecret": true
+  },
+  "Zenurik Vanguard": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Zenurik Vanguard",
+    "Link": "Zenurik Vanguard",
+    "Position": "Prefix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/ZenurikFocusHoarderTitle",
+    "CodexSecret": true
+  },
+  "Marie's Champion": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Marie's Champion",
+    "Link": "Marie's Champion",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/DefendMarieTitle",
+    "CodexSecret": true
+  },
+  "Minesweeper": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Minesweeper",
+    "Link": "Minesweeper",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/MinesweeperTitle",
+    "CodexSecret": true
+  },
+  "Worm Queen": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Worm Queen",
+    "Link": "Worm Queen",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/KuvaMasteryTitle",
+    "CodexSecret": true
+  },
+  "The Heir of Two Kingdoms": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The Heir of Two Kingdoms",
+    "Link": "The Heir of Two Kingdoms",
+    "Position": "Suffix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleCaliban",
+    "CodexSecret": true
+  },
+  "Madurai Vanguard": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Madurai Vanguard",
+    "Link": "Madurai Vanguard",
+    "Position": "Prefix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/MaduraiFocusHoarderTitle",
+    "CodexSecret": true
+  },
+  "Butterfingers": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Butterfingers",
+    "Link": "Butterfingers",
+    "Position": "Suffix",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/AmirCampaignButterfingersTitle",
+    "CodexSecret": true
+  },
+  "Tenens": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Tenens",
+    "Link": "Tenens",
+    "Position": "Suffix",
+    "Introduced": "41.0.5",
+    "InternalName": "/Lotus/Types/Items/Titles/MedalRank9Title",
+    "CodexSecret": true
+  },
+  "Plague Doctor": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Plague Doctor",
+    "Link": "Plague Doctor",
+    "Position": "Suffix",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/KillPhoridTitle",
+    "CodexSecret": true
+  },
+  "Naramon Vanguard": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Naramon Vanguard",
+    "Link": "Naramon Vanguard",
+    "Position": "Prefix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/NaramonFocusHoarderTitle",
+    "CodexSecret": true
+  },
+  "Hive-kin": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Hive-kin",
+    "Link": "Hive-kin",
+    "Position": "Prefix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleAscarisPrime",
+    "CodexSecret": true
+  },
+  "Busy Monologuing": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Busy Monologuing",
+    "Link": "Busy Monologuing",
+    "Position": "Suffix",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/AmirCampaignLootTitle",
+    "CodexSecret": true
+  },
+  "Legally Distinct": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Legally Distinct",
+    "Link": "Legally Distinct",
+    "Position": "Prefix",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/AmirCampaignAnnoyTitle",
+    "CodexSecret": true
+  },
+  "Pas de Deux": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Pas de Deux",
+    "Link": "Pas de Deux",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/CompleteDescendiaWispTitle",
+    "CodexSecret": true
+  },
+  "Wolfmother": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Wolfmother",
+    "Link": "Wolfmother",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleVoruna",
+    "CodexSecret": true
+  },
+  "Strikes Twice": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Strikes Twice",
+    "Link": "Strikes Twice",
+    "Position": "Suffix",
+    "Introduced": "43",
+    "InternalName": "/Lotus/Types/Items/Titles/HunhowHonoria/TitleVolt",
+    "CodexSecret": true
+  },
+  "Will Do Anything For Money": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Will Do Anything For Money",
+    "Link": "Will Do Anything For Money",
+    "Position": "Suffix",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/Mercenary5InvasionsTitle",
+    "CodexSecret": true
+  },
+  "Harrow's Shadow": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Harrow's Shadow",
+    "Link": "Harrow's Shadow",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/CompleteDescendiaHarrowTitle",
+    "CodexSecret": true
+  },
+  "King of Duviri": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "King of Duviri",
+    "Link": "King of Duviri",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/DuviriKingQuestTitle",
+    "CodexSecret": true
+  },
+  "Divine Comedian": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Divine Comedian",
+    "Link": "Divine Comedian",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/DanteDescendiaTitle",
+    "CodexSecret": true
+  },
+  "Orb Liquidator": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Orb Liquidator",
+    "Link": "Orb Liquidator",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/OrbHunterTitle",
+    "CodexSecret": true
+  },
+  "The Navigator": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The Navigator",
+    "Link": "The Navigator",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleNavCoordinates",
+    "CodexSecret": true
+  },
+  "Sage": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Sage",
+    "Link": "Sage",
+    "Position": "Suffix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/MR25Title",
+    "CodexSecret": true
+  },
+  "Conscientious Objector": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Conscientious Objector",
+    "Link": "Conscientious Objector",
+    "Position": "Suffix",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/BaruukTitle",
+    "CodexSecret": true
+  },
+  "Disciple Founder": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Disciple Founder",
+    "Link": "Disciple Founder",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/FounderLvl1Title",
+    "CodexSecret": true
+  },
+  "Heart Shot": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Heart Shot",
+    "Link": "Heart Shot",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/DateQuincyTitle",
+    "CodexSecret": true
+  },
+  "Was Never Here": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Was Never Here",
+    "Link": "Was Never Here",
+    "Position": "Suffix",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/TheCameraAdds100Title",
+    "CodexSecret": true
+  },
+  "The God Above Knowledge": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The God Above Knowledge",
+    "Link": "The God Above Knowledge",
+    "Position": "Prefix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleEchoVoca",
+    "CodexSecret": true
+  },
+  "Unairu Vanguard": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Unairu Vanguard",
+    "Link": "Unairu Vanguard",
+    "Position": "Prefix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/UnairuFocusHoarderTitle",
+    "CodexSecret": true
+  },
+  "Voyager": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Voyager",
+    "Link": "Voyager",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleRailjack",
+    "CodexSecret": true
+  },
+  "Vazarin Vanguard": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Vazarin Vanguard",
+    "Link": "Vazarin Vanguard",
+    "Position": "Prefix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/VazarinFocusHoarderTitle",
+    "CodexSecret": true
+  },
+  "Demoness": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Demoness",
+    "Link": "Demoness",
+    "Position": "Prefix",
+    "Introduced": "20",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleMaphica",
+    "CodexSecret": true
+  },
+  "Tiger": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Tiger",
+    "Link": "Tiger",
+    "Position": "Prefix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/MR19Title",
+    "CodexSecret": true
+  },
+  "Ticker's Angel": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Ticker's Angel",
+    "Link": "Ticker's Angel",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleDebtBond",
+    "CodexSecret": true
+  },
+  "Conscience Painter": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Conscience Painter",
+    "Link": "Conscience Painter",
+    "Position": "Prefix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleFollie",
+    "CodexSecret": true
+  },
+  "The Warden of Alchemy": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The Warden of Alchemy",
+    "Link": "The Warden of Alchemy",
+    "Position": "Suffix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleLavos",
+    "CodexSecret": true
+  },
+  "The Sunderer": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The Sunderer",
+    "Link": "The Sunderer",
+    "Position": "Prefix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleRivenSilvers",
+    "CodexSecret": true
+  },
+  "The Scavenger": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The Scavenger",
+    "Link": "The Scavenger",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleSalvage",
+    "CodexSecret": true
+  },
+  "Hot Sludge": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Hot Sludge",
+    "Link": "Hot Sludge",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleThermalSludge",
+    "CodexSecret": true
+  },
+  "It Will Kill": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "It Will Kill",
+    "Link": "It Will Kill",
+    "Position": "Suffix",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/ForgedInFireTitle",
+    "CodexSecret": true
+  },
+  "Wave Rider": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Wave Rider",
+    "Link": "Wave Rider",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/KRacerTitle",
+    "CodexSecret": true
+  },
+  "Forever": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Forever",
+    "Link": "Forever",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleArgon",
+    "CodexSecret": true
+  },
+  "The Mad King": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The Mad King",
+    "Link": "The Mad King",
+    "Position": "Prefix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleThraxPlasm",
+    "CodexSecret": true
+  },
+  "Doctor": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Doctor",
+    "Link": "Doctor",
+    "Position": "Prefix",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TrinityTitle",
+    "CodexSecret": true
+  },
+  "Fire and Brimstone": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Fire and Brimstone",
+    "Link": "Fire and Brimstone",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleIgnia",
+    "CodexSecret": true
+  },
+  "Feelin' Lucky": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Feelin' Lucky",
+    "Link": "Feelin' Lucky",
+    "Position": "Suffix",
+    "Introduced": "43",
+    "InternalName": "/Lotus/Types/Items/Titles/HunhowHonoria/TitleMesa",
+    "CodexSecret": true
+  },
+  "Nemesis Of Eris": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Nemesis Of Eris",
+    "Link": "Nemesis Of Eris",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/NemesisOfErisTitle",
+    "CodexSecret": true
+  },
+  "Seeker of Truth": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Seeker of Truth",
+    "Link": "Seeker of Truth",
+    "Position": "Prefix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/ArbitersOfHexisTitle",
+    "CodexSecret": true
+  },
+  "Hunter": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Hunter",
+    "Link": "Hunter",
+    "Position": "Prefix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/MR13Title",
+    "CodexSecret": true
+  },
+  "On this Beach of an Earth": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "On this Beach of an Earth",
+    "Link": "On this Beach of an Earth",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/DogDaysTitle",
+    "CodexSecret": true
+  },
+  "Disciple": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Disciple",
+    "Link": "Disciple",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/MR7Title",
+    "CodexSecret": true
+  },
+  "The Great & Terrible": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The Great & Terrible",
+    "Link": "The Great & Terrible",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/JadeShadowsTitle",
+    "CodexSecret": true
+  },
+  "The Gallant Gourmand": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The Gallant Gourmand",
+    "Link": "The Gallant Gourmand",
+    "Position": "Suffix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/TitleGrendelPrime",
+    "CodexSecret": true
+  },
+  "The Devil's Confessor": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The Devil's Confessor",
+    "Link": "The Devil's Confessor",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/UrielConfessionTitle",
+    "CodexSecret": true
+  },
+  "The Demolitionist": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The Demolitionist",
+    "Link": "The Demolitionist",
+    "Position": "Prefix",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/KaboomTitle",
+    "CodexSecret": true
+  },
+  "As One": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "As One",
+    "Link": "As One",
+    "Position": "Suffix",
+    "Introduced": "43",
+    "InternalName": "/Lotus/Types/Items/Titles/HunhowHonoria/TitleSiriusOrion",
+    "CodexSecret": true
+  },
+  "Master of Minds": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Master of Minds",
+    "Link": "Master of Minds",
+    "Position": "Suffix",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/NyxTitle",
+    "CodexSecret": true
+  },
+  "Matron of Malaise": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Matron of Malaise",
+    "Link": "Matron of Malaise",
+    "Position": "Prefix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleSaryn",
+    "CodexSecret": true
+  },
+  "The Arcanist": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The Arcanist",
+    "Link": "The Arcanist",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/ArcaneCollectorTitle",
+    "CodexSecret": true
+  },
+  "Exorcist": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Exorcist",
+    "Link": "Exorcist",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/UrielKillerTitle",
+    "CodexSecret": true
+  },
+  "Sworn Sister": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Sworn Sister",
+    "Link": "Sworn Sister",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleSpectralDebris",
+    "CodexSecret": true
+  },
+  "Jammer": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Jammer",
+    "Link": "Jammer",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/JammerTitle",
+    "CodexSecret": true
+  },
+  "Sticker Master": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Sticker Master",
+    "Link": "Sticker Master",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/StickerConquestTitle",
+    "CodexSecret": true
+  },
+  "My Light Goes With You": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "My Light Goes With You",
+    "Link": "My Light Goes With You",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/PeritaHardModeTitle",
+    "CodexSecret": true
+  },
+  "Swordmaster": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Swordmaster",
+    "Link": "Swordmaster",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/NaramonBladeTitle",
+    "CodexSecret": true
+  },
+  "Supreme Operative": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Supreme Operative",
+    "Link": "Supreme Operative",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/CaliburChicksHighScoreTitle",
+    "CodexSecret": true
+  },
+  "Master Founder": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Master Founder",
+    "Link": "Master Founder",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/FounderLvl3Title",
+    "CodexSecret": true
+  },
+  "Storm Archer": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Storm Archer",
+    "Link": "Storm Archer",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/MaduraiBowTitle",
+    "CodexSecret": true
+  },
+  "Steel Soldier": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Steel Soldier",
+    "Link": "Steel Soldier",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleSteelEssence",
+    "CodexSecret": true
+  },
+  "Forever Fablemaster": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Forever Fablemaster",
+    "Link": "Forever Fablemaster",
+    "Position": "Suffix",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/AmirCampaignCompleteTitle",
+    "CodexSecret": true
+  },
+  "Sleeping in the Cold Below": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Sleeping in the Cold Below",
+    "Link": "Sleeping in the Cold Below",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/TenetMasteryTitle",
+    "CodexSecret": true
+  },
+  "Patriarch": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Patriarch",
+    "Link": "Patriarch",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleFatherTokens",
+    "CodexSecret": true
+  },
+  "Eradicator of Corruption": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Eradicator of Corruption",
+    "Link": "Eradicator of Corruption",
+    "Position": "Suffix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/RedVeilTitle",
+    "CodexSecret": true
+  },
+  "Dream Catcher": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Dream Catcher",
+    "Link": "Dream Catcher",
+    "Position": "Suffix",
+    "Introduced": "43",
+    "InternalName": "/Lotus/Types/Items/Titles/ReferAFriendTitle",
+    "CodexSecret": true
+  },
+  "Yuvan Rising": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Yuvan Rising",
+    "Link": "Yuvan Rising",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleKuva",
+    "CodexSecret": true
+  },
+  "Sentinel of Passion": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Sentinel of Passion",
+    "Link": "Sentinel of Passion",
+    "Position": "Prefix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleCitrine",
+    "CodexSecret": true
+  },
+  "The Learned": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The Learned",
+    "Link": "The Learned",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleDante",
+    "CodexSecret": true
+  },
+  "Seeker": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Seeker",
+    "Link": "Seeker",
+    "Position": "Prefix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/MR10Title",
+    "CodexSecret": true
+  },
+  "Savior of Perita": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Savior of Perita",
+    "Link": "Savior of Perita",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/PeritaHardModeSoloTitle",
+    "CodexSecret": true
+  },
+  "Hai-Luk's Wholesaler": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Hai-Luk's Wholesaler",
+    "Link": "Hai-Luk's Wholesaler",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/FisherTitle",
+    "CodexSecret": true
+  },
+  "Saint of Altra": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Saint of Altra",
+    "Link": "Saint of Altra",
+    "Position": "Suffix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleGauss",
+    "CodexSecret": true
+  },
+  "Initiate": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Initiate",
+    "Link": "Initiate",
+    "Position": "Prefix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/MR1Title",
+    "CodexSecret": true
+  },
+  "Jade's Guardian": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Jade's Guardian",
+    "Link": "Jade's Guardian",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleJade",
+    "CodexSecret": true
+  },
+  "Biggest Spender": {
+    "ExcludeFromCodex": true,
+    "Description": "{{cc|2,500,000}}",
+    "Name": "Biggest Spender",
+    "Link": "Biggest Spender",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleCreditsBiggest",
+    "CodexSecret": true
+  },
+  "Pleasure and Pain": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Pleasure and Pain",
+    "Link": "Pleasure and Pain",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/DateLettieTitle",
+    "CodexSecret": true
+  },
+  "Marty <NAME> McFlea": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Marty <NAME> McFlea",
+    "Link": "Marty <NAME> McFlea",
+    "Position": "Suffix & Prefix",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/TheHexCompleteTitle",
+    "CodexSecret": true
+  },
+  "Early Lunch for": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Early Lunch for",
+    "Link": "Early Lunch for",
+    "Position": "Prefix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleKonzu",
+    "CodexSecret": true
+  },
+  "The Persecuted": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The Persecuted",
+    "Link": "The Persecuted",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleKullervo",
+    "CodexSecret": true
+  },
+  "Staffbearer": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Staffbearer",
+    "Link": "Staffbearer",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/VazarinStaffTitle",
+    "CodexSecret": true
+  },
+  "Pizza Time for": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Pizza Time for",
+    "Link": "Pizza Time for",
+    "Position": "Suffix",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/TheHexFinaleTitle",
+    "CodexSecret": true
+  },
+  "Legendary Captain": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Legendary Captain",
+    "Link": "Legendary Captain",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/MaxedRailjackTitle",
+    "CodexSecret": true
+  },
+  "Leaves No Witnesses": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Leaves No Witnesses",
+    "Link": "Leaves No Witnesses",
+    "Position": "Suffix",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/StealthKills100Title",
+    "CodexSecret": true
+  },
+  "Silver Tongue": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Silver Tongue",
+    "Link": "Silver Tongue",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/DateEleanorTitle",
+    "CodexSecret": true
+  },
+  "Orokin Cell Executor": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Orokin Cell Executor",
+    "Link": "Orokin Cell Executor",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleOrokinCell",
+    "CodexSecret": true
+  },
+  "Who Devours All": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Who Devours All",
+    "Link": "Who Devours All",
+    "Position": "Suffix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleGrendel",
+    "CodexSecret": true
+  },
+  "Oraxia's Prey": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Oraxia's Prey",
+    "Link": "Oraxia's Prey",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/OraxiaPreyTitle",
+    "CodexSecret": true
+  },
+  "Once and Future": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Once and Future",
+    "Link": "Once and Future",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/DateArthurTitle",
+    "CodexSecret": true
+  },
+  "On That Far Shore Forlorn": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "On That Far Shore Forlorn",
+    "Link": "On That Far Shore Forlorn",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleLyoricBridge",
+    "CodexSecret": true
+  },
+  "Ollie's Biggest Fan": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Ollie's Biggest Fan",
+    "Link": "Ollie's Biggest Fan",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/OllieRacerTitle",
+    "CodexSecret": true
+  },
+  "Like Father, Like Sons": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Like Father, Like Sons",
+    "Link": "Like Father, Like Sons",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/JadeShadows2Title",
+    "CodexSecret": true
+  },
+  "Make Your Own Fate": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Make Your Own Fate",
+    "Link": "Make Your Own Fate",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/GuardianTitle",
+    "CodexSecret": true
+  },
+  "of the Old Blood": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "of the Old Blood",
+    "Link": "of the Old Blood",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/LichKillerTitle",
+    "CodexSecret": true
+  },
+  "Of Golden Valor": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Of Golden Valor",
+    "Link": "Of Golden Valor",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/ValorEventTitle",
+    "CodexSecret": true
+  },
+  "Oblivion's Kiss": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Oblivion's Kiss",
+    "Link": "Oblivion's Kiss",
+    "Position": "Suffix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleCyteZeroNine",
+    "CodexSecret": true
+  },
+  "Novice": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Novice",
+    "Link": "Novice",
+    "Position": "Suffix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/MR4Title",
+    "CodexSecret": true
+  },
+  "Night Gardener": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Night Gardener",
+    "Link": "Night Gardener",
+    "Position": "Prefix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleNokko",
+    "CodexSecret": true
+  },
+  "Mountain Soul": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Mountain Soul",
+    "Link": "Mountain Soul",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/UnairuHammerTitle",
+    "CodexSecret": true
+  },
+  "The Copper Kid": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The Copper Kid",
+    "Link": "The Copper Kid",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleCoprun",
+    "CodexSecret": true
+  },
+  "Cryomancer": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Cryomancer",
+    "Link": "Cryomancer",
+    "Position": "Suffix",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/FrostTitle",
+    "CodexSecret": true
+  },
+  "Cœur Enflammé": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Cœur Enflammé",
+    "Link": "Cœur Enflammé",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/DateMarieTitle",
+    "CodexSecret": true
+  },
+  "Master": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Master",
+    "Link": "Master",
+    "Position": "Prefix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/MR28Title",
+    "CodexSecret": true
+  },
+  "Gyanbura": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Gyanbura",
+    "Link": "Gyanbura",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleKoumei",
+    "CodexSecret": true
+  },
+  "Payer of the Ferryman": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Payer of the Ferryman",
+    "Link": "Payer of the Ferryman",
+    "Position": "Prefix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleEntratiObols",
+    "CodexSecret": true
+  },
+  "Kaithe Tamer of Duviri": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Kaithe Tamer of Duviri",
+    "Link": "Kaithe Tamer of Duviri",
+    "Position": "Prefix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleYaoShrub",
+    "CodexSecret": true
+  },
+  "Abyssal Thorn": {
+    "Description": "",
+    "Link": "Abyssal Thorn",
+    "ExcludeFromCodex": true,
+    "Name": "Abyssal Thorn",
+    "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleDagath",
+    "CodexSecret": true
+  },
+  "Restless": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Restless",
+    "Link": "Restless",
+    "Position": "Suffix",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/PoENightTitle",
+    "CodexSecret": true
+  },
+  "Plague-bearer": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Plague-bearer",
+    "Link": "Plague-bearer",
+    "Position": "Prefix",
+    "Introduced": "43",
+    "InternalName": "/Lotus/Types/Items/Titles/HunhowHonoria/TitleNidus",
+    "CodexSecret": true
+  },
+  "Clem": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Clem",
+    "Link": "Clem",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/ClemTitle",
+    "CodexSecret": true
+  },
+  "Insign": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Insign",
+    "Link": "Insign",
+    "Position": "Prefix",
+    "Introduced": "41.0.5",
+    "InternalName": "/Lotus/Types/Items/Titles/MedalRank1Title",
+    "CodexSecret": true
+  },
+  "Along Came": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Along Came",
+    "Link": "Along Came",
+    "Position": "Prefix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleOraxia",
+    "CodexSecret": true
+  },
+  "Rusalka's Hope": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Rusalka's Hope",
+    "Link": "Rusalka's Hope",
+    "Position": "Prefix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/MinVelTogetherTitle",
+    "CodexSecret": true
+  },
+  "The Scarlet Queen": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "The Scarlet Queen",
+    "Link": "The Scarlet Queen",
+    "Position": "Prefix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleGaruda",
+    "CodexSecret": true
+  },
+  "Heart of the Pack": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Heart of the Pack",
+    "Link": "Heart of the Pack",
+    "Position": "Suffix",
+    "Introduced": "42.0.6",
+    "InternalName": "/Lotus/Types/Items/Titles/TitleVorunaPrime",
+    "CodexSecret": true
+  },
+  "Heart of Concrete": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Heart of Concrete",
+    "Link": "Heart of Concrete",
+    "Position": "Prefix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleQorvex",
+    "CodexSecret": true
+  },
+  "Marauder of the Deep": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Marauder of the Deep",
+    "Link": "Marauder of the Deep",
+    "Position": "Suffix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleHydroid",
+    "CodexSecret": true
+  },
+  "Grandis": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Grandis",
+    "Link": "Grandis",
+    "Position": "Prefix",
+    "Introduced": "41.0.5",
+    "InternalName": "/Lotus/Types/Items/Titles/MedalRank17Title",
+    "CodexSecret": true
+  },
+  "90's Kid": {
+    "Description": "",
+    "Link": "90's Kid",
+    "ExcludeFromCodex": true,
+    "Name": "90's Kid",
+    "Position": "Suffix",
+    "Tags": [
+      "Amir",
+      "Fables & Frontiers"
+    ],
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/ShockwaveTitle",
+    "CodexSecret": true
+  },
+  "Drifter": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Drifter",
+    "Link": "Drifter",
+    "Position": "Suffix",
+    "Introduced": "",
+    "InternalName": "/Lotus/Types/Items/Titles/TheNewWarTitle",
+    "CodexSecret": true
+  },
+  "Thirst for Knowledge": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Thirst for Knowledge",
+    "Link": "Thirst for Knowledge",
+    "Position": "Prefix",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/CephalonSudaTitle",
+    "CodexSecret": true
+  },
+  "Angel of Death": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Angel of Death",
+    "Link": "Angel of Death",
+    "Position": "Suffix",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/Kills100Title",
+    "CodexSecret": true
+  },
+  "Blazing Revolutionary": {
+    "ExcludeFromCodex": true,
+    "Description": "",
+    "Name": "Blazing Revolutionary",
+    "Link": "Blazing Revolutionary",
+    "Position": "Suffix",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleTemple",
+    "CodexSecret": true
+  }
+}

@@ -184,6 +184,10 @@ Warframes = function(name)
 |-
 | class="tt-spacer" |
 |-
+! class="tt-title" | %s
+|-
+| class="tt-spacer" |
+|-
 |
 {| class="tt-data" style="font-size:12px;" |-
 | style="text-align:center;" colspan=2 |<span class="tt-link-text">Playstyle</span>&nbsp;%s
@@ -212,6 +216,7 @@ Warframes = function(name)
 		warframe.Portrait,
 		(warframe.Mastery or 0) >= 10 and 5 or 9.5,
 		warframe.Mastery or 0,
+		warframe.Name,
 		playstyle or "N/A",
 		warframe.Health or 0, warframe.HealthRank30 or warframe.Health + 100,
 		warframe.Armor  or 0, warframe.ArmorRank30 and ('(%.0f)'):format(warframe.ArmorRank30) or '',
@@ -302,6 +307,10 @@ Companions = function(name)
 |-
 | class="tt-spacer" |
 |-
+! class="tt-title" | %s
+|-
+| class="tt-spacer" |
+|-
 |
 {| class="tt-data" style="font-size:12px;" |-
 | class="tt-table-half" |<span class="tt-link-text">Health</span>&nbsp;%.0f
@@ -327,6 +336,7 @@ Companions = function(name)
 		companion.Image,
 		companion.Mastery or 0,
 		icon and '[[File:'..icon..'|28px]]' or companion.Type,
+		companion.Name,
 		companion.Health or 0,
 		companion.Armor  or 0,
 		companion.Shield or 0,
@@ -411,9 +421,19 @@ Void = function(name)
 |
 {| class="tt-relic tt-subtable"
 |-
-|class="tt-data"|
+| class="tt-data" |
 {|
 %s
+|}
+|-
+| class="tt-spacer" |
+|-
+! class="tt-title" | %s
+|-
+| class="tt-spacer" |
+|-
+| class="tt-data" |
+{|
 | colspan=2 style = "text-align: center;" | '''%s'''
 |-
 | colspan=2 style = "text-align: center;" | Introduced: '''%s'''
@@ -422,6 +442,7 @@ Void = function(name)
 |}
 |}]==]):format(
 		ItemDrops(),
+		Relic.Name .. " Relic",
 		(Relic.Vaulted ~= nil) and 'Vaulted' or 'Unvaulted',
 		versionLink
 	)
@@ -528,6 +549,10 @@ Weapons = function(name, slot)
 |-
 | class="tt-spacer" |
 |-
+! class="tt-title" | %s
+|-
+| class="tt-spacer" |
+|-
 |
 {| class="tt-data" style="font-size:12px;"
 |-
@@ -582,6 +607,7 @@ Weapons = function(name, slot)
 </div>]==]):format(
 			statRead('Image'), -- Top image
 			statRead('Mastery'), -- Mastery rank lock
+			Weapon.Name,
 			vals[1][1][1], vals[1][1][2], vals[1][2][1], vals[1][2][2], -- Slot/Type; Slot/Trigger
 			statRead('AttackName'),	-- Name of attack that is displayed
 			table.concat(damageTable,'|'),	-- Damage type values for single projectile
@@ -980,6 +1006,10 @@ Enemies = function(name)
 |-
 | class="tt-spacer" |
 |-
+! class="tt-title" | %s
+|-
+| class="tt-spacer" |
+|-
 |
 {| class="tt-data" style="font-size:12px; text-align:center;"
 |<span class="tt-link-text">Faction</span>&nbsp;&nbsp;&nbsp;%s
@@ -1014,6 +1044,7 @@ Enemies = function(name)
 |}]==]):format(
 		Enemy.General.Image,
 		FactionIcons[Enemy.General.Faction] or 'IconWild.png',
+		Enemy.General.Name,
 		Enemy.General.Faction,
 		DamageTypes.healthMod(Enemy.General.FactionDamageOverride or Enemy.General.Faction),
 		Enemy.Stats.Health or 0,

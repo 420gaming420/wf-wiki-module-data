@@ -3,8 +3,8 @@
     "source_url": "https://wiki.warframe.com/w/Module:Blueprints/data",
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
-    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-31T21:23:39.362Z"
+    "converter_repo": "https://github.com/placeholder/placeholder",
+    "converted_at": "2026-09-03T02:18:06.905Z"
   },
   "_comments": "",
   "Blueprints": {
@@ -2417,14 +2417,68 @@
       "Rush": 35,
       "Parts": [
         {
+          "Name": "Blade",
           "Type": "Item",
           "Count": 2,
-          "Name": "Blade"
+          "Cost": {
+            "Parts": [
+              {
+                "Type": "Resource",
+                "Count": 40,
+                "Name": "Adramal Alloy"
+              },
+              {
+                "Type": "Resource",
+                "Count": 24,
+                "Name": "Pustulite"
+              },
+              {
+                "Type": "Resource",
+                "Count": 6,
+                "Name": "Purged Dagonic"
+              },
+              {
+                "Type": "Resource",
+                "Count": 4,
+                "Name": "Gallium"
+              }
+            ],
+            "Rush": 25,
+            "Time": 43200,
+            "Credits": 20000
+          }
         },
         {
+          "Name": "Gauntlet",
           "Type": "Item",
           "Count": 2,
-          "Name": "Gauntlet"
+          "Cost": {
+            "Parts": [
+              {
+                "Type": "Resource",
+                "Count": 20,
+                "Name": "Ferment Bladder"
+              },
+              {
+                "Type": "Resource",
+                "Count": 16,
+                "Name": "Ganglion"
+              },
+              {
+                "Type": "Resource",
+                "Count": 6,
+                "Name": "Waxen Sebum Deposit"
+              },
+              {
+                "Type": "Resource",
+                "Count": 4,
+                "Name": "Neurodes"
+              }
+            ],
+            "Rush": 25,
+            "Time": 43200,
+            "Credits": 20000
+          }
         }
       ],
       "Result": "Keratinos",
@@ -6960,7 +7014,7 @@
           "Name": "Orokin Cell"
         },
         {
-          "Name": "Prime Blade",
+          "Name": "Blade",
           "Type": "Item",
           "Count": 1,
           "Cost": {
@@ -6987,7 +7041,7 @@
           }
         },
         {
-          "Name": "Prime Handle",
+          "Name": "Handle",
           "Type": "Item",
           "Count": 1,
           "Cost": {
@@ -7397,21 +7451,19 @@
       "Credits": 15000
     },
     "Ghoulsaw": {
-      "MarketCost": 245,
-      "BPCost": 1500,
-      "Rush": 25,
-      "BPStanding": 4000,
-      "Name": "Ghoulsaw Blueprint",
       "Time": 86400,
+      "MarketCost": 245,
+      "Name": "Ghoulsaw Blueprint",
+      "Rush": 25,
+      "BPCost": 15000,
       "Parts": [
         {
           "Name": "Blade",
           "Type": "Item",
           "Count": 1,
           "Cost": {
-            "BPStanding": 4000,
             "Time": 3600,
-            "BPCost": 3500,
+            "BPCost": 15000,
             "Rush": 25,
             "Parts": [
               {
@@ -7443,9 +7495,8 @@
           "Type": "Item",
           "Count": 1,
           "Cost": {
-            "BPStanding": 4000,
             "Time": 3600,
-            "BPCost": 3500,
+            "BPCost": 15000,
             "Rush": 25,
             "Parts": [
               {
@@ -7477,9 +7528,8 @@
           "Type": "Item",
           "Count": 1,
           "Cost": {
-            "BPStanding": 4000,
             "Time": 3600,
-            "BPCost": 3500,
+            "BPCost": 15000,
             "Rush": 25,
             "Parts": [
               {
@@ -7511,9 +7561,8 @@
           "Type": "Item",
           "Count": 1,
           "Cost": {
-            "BPStanding": 4000,
             "Time": 3600,
-            "BPCost": 3500,
+            "BPCost": 15000,
             "Rush": 25,
             "Parts": [
               {
@@ -13155,16 +13204,20 @@
       "Credits": 15000
     },
     "Dorrclave": {
+      "Time": 43200,
       "MarketCost": 175,
       "Name": "Dorrclave Blueprint",
-      "Time": 43200,
       "Rush": 50,
+      "BPCost": 15000,
       "Parts": [
         {
           "Name": "Hilt",
           "Type": "Item",
           "Count": 1,
           "Cost": {
+            "Time": 43200,
+            "BPCost": 15000,
+            "Rush": 25,
             "Parts": [
               {
                 "Type": "Resource",
@@ -13187,8 +13240,6 @@
                 "Name": "Morphics"
               }
             ],
-            "Rush": 25,
-            "Time": 43200,
             "Credits": 20000
           }
         },
@@ -13197,6 +13248,9 @@
           "Type": "Item",
           "Count": 1,
           "Cost": {
+            "Time": 43200,
+            "BPCost": 15000,
+            "Rush": 25,
             "Parts": [
               {
                 "Type": "Resource",
@@ -13219,8 +13273,6 @@
                 "Name": "Rubedo"
               }
             ],
-            "Rush": 25,
-            "Time": 43200,
             "Credits": 20000
           }
         },
@@ -13229,6 +13281,9 @@
           "Type": "Item",
           "Count": 1,
           "Cost": {
+            "Time": 43200,
+            "BPCost": 15000,
+            "Rush": 25,
             "Parts": [
               {
                 "Type": "Resource",
@@ -13251,8 +13306,6 @@
                 "Name": "Nano Spores"
               }
             ],
-            "Rush": 25,
-            "Time": 43200,
             "Credits": 20000
           }
         },
@@ -13261,6 +13314,9 @@
           "Type": "Item",
           "Count": 1,
           "Cost": {
+            "Time": 43200,
+            "BPCost": 15000,
+            "Rush": 25,
             "Parts": [
               {
                 "Type": "Resource",
@@ -13283,8 +13339,6 @@
                 "Name": "Argon Crystal"
               }
             ],
-            "Rush": 25,
-            "Time": 43200,
             "Credits": 20000
           }
         }
@@ -22096,10 +22150,11 @@
       "Credits": 15000
     },
     "Banshee Neuroptics": {
+      "Time": 43200,
       "ProductCategory": "Suits",
       "Name": "Banshee Neuroptics Blueprint",
-      "Time": 43200,
       "Rush": 25,
+      "BPCost": 15000,
       "Parts": [
         {
           "Type": "Resource",
@@ -23615,10 +23670,11 @@
       "Credits": 15000
     },
     "Wukong Neuroptics": {
+      "Time": 43200,
       "ProductCategory": "Suits",
       "Name": "Wukong Neuroptics Blueprint",
-      "Time": 43200,
       "Rush": 25,
+      "BPCost": 15000,
       "Parts": [
         {
           "Type": "Resource",
@@ -24487,10 +24543,11 @@
       "Credits": 15000
     },
     "Dagath Neuroptics": {
+      "Time": 43200,
       "ProductCategory": "Suits",
       "Name": "Dagath Neuroptics Blueprint",
-      "Time": 43200,
       "Rush": 25,
+      "BPCost": 15000,
       "Parts": [
         {
           "Type": "Resource",
@@ -24517,10 +24574,11 @@
       "Credits": 15000
     },
     "Dagath Chassis": {
+      "Time": 43200,
       "ProductCategory": "Suits",
       "Name": "Dagath Chassis Blueprint",
-      "Time": 43200,
       "Rush": 25,
+      "BPCost": 15000,
       "Parts": [
         {
           "Type": "Resource",
@@ -24718,10 +24776,11 @@
       "Credits": 15000
     },
     "Zephyr Systems": {
+      "Time": 43200,
       "ProductCategory": "Suits",
       "Name": "Zephyr Systems Blueprint",
-      "Time": 43200,
       "Rush": 25,
+      "BPCost": 15000,
       "Parts": [
         {
           "Type": "Resource",
@@ -24929,10 +24988,11 @@
       "Credits": 25000
     },
     "Banshee Systems": {
+      "Time": 43200,
       "ProductCategory": "Suits",
       "Name": "Banshee Systems Blueprint",
-      "Time": 43200,
       "Rush": 25,
+      "BPCost": 15000,
       "Parts": [
         {
           "Type": "Resource",
@@ -25111,10 +25171,11 @@
       "Credits": 25000
     },
     "Zephyr Neuroptics": {
+      "Time": 43200,
       "ProductCategory": "Suits",
       "Name": "Zephyr Neuroptics Blueprint",
-      "Time": 43200,
       "Rush": 25,
+      "BPCost": 15000,
       "Parts": [
         {
           "Type": "Resource",
@@ -25141,10 +25202,11 @@
       "Credits": 15000
     },
     "Zephyr Chassis": {
+      "Time": 43200,
       "ProductCategory": "Suits",
       "Name": "Zephyr Chassis Blueprint",
-      "Time": 43200,
       "Rush": 25,
+      "BPCost": 15000,
       "Parts": [
         {
           "Type": "Resource",
@@ -25500,10 +25562,11 @@
       "Credits": 25000
     },
     "Yareli Systems": {
+      "Time": 43200,
       "ProductCategory": "Suits",
       "Name": "Yareli Systems Blueprint",
-      "Time": 43200,
       "Rush": 25,
+      "BPCost": 15000,
       "Parts": [
         {
           "Type": "Resource",
@@ -25615,10 +25678,11 @@
       "Credits": 15000
     },
     "Dagath": {
-      "Time": 259200,
       "MarketCost": 275,
-      "Name": "Dagath Blueprint",
+      "BPCost": 15000,
       "Rush": 50,
+      "Name": "Dagath Blueprint",
+      "Time": 259200,
       "Parts": [
         {
           "Type": "Item",
@@ -25676,10 +25740,11 @@
       "Credits": 25000
     },
     "Banshee": {
-      "Time": 259200,
       "MarketCost": 225,
-      "Name": "Banshee Blueprint",
+      "BPCost": 35000,
       "Rush": 50,
+      "Name": "Banshee Blueprint",
+      "Time": 259200,
       "Parts": [
         {
           "Type": "Item",
@@ -26520,10 +26585,11 @@
       "Credits": 15000
     },
     "Wukong Systems": {
+      "Time": 43200,
       "ProductCategory": "Suits",
       "Name": "Wukong Systems Blueprint",
-      "Time": 43200,
       "Rush": 25,
+      "BPCost": 15000,
       "Parts": [
         {
           "Type": "Resource",
@@ -26875,10 +26941,11 @@
       "Credits": 25000
     },
     "Wukong Chassis": {
+      "Time": 43200,
       "ProductCategory": "Suits",
       "Name": "Wukong Chassis Blueprint",
-      "Time": 43200,
       "Rush": 25,
+      "BPCost": 15000,
       "Parts": [
         {
           "Type": "Resource",
@@ -27029,10 +27096,11 @@
       "Credits": 25000
     },
     "Yareli Neuroptics": {
+      "Time": 43200,
       "ProductCategory": "Suits",
       "Name": "Yareli Neuroptics Blueprint",
-      "Time": 43200,
       "Rush": 25,
+      "BPCost": 15000,
       "Parts": [
         {
           "Type": "Resource",
@@ -27119,10 +27187,11 @@
       "Credits": 15000
     },
     "Volt Chassis": {
+      "Time": 43200,
       "ProductCategory": "Suits",
       "Name": "Volt Chassis Blueprint",
-      "Time": 43200,
       "Rush": 25,
+      "BPCost": 15000,
       "Parts": [
         {
           "Type": "Resource",
@@ -27647,10 +27716,11 @@
       "Credits": 15000
     },
     "Yareli Chassis": {
+      "Time": 43200,
       "ProductCategory": "Suits",
       "Name": "Yareli Chassis Blueprint",
-      "Time": 43200,
       "Rush": 25,
+      "BPCost": 15000,
       "Parts": [
         {
           "Type": "Resource",
@@ -28139,10 +28209,11 @@
       "Credits": 15000
     },
     "Volt Neuroptics": {
+      "Time": 43200,
       "ProductCategory": "Suits",
       "Name": "Volt Neuroptics Blueprint",
-      "Time": 43200,
       "Rush": 25,
+      "BPCost": 15000,
       "Parts": [
         {
           "Type": "Resource",
@@ -28229,10 +28300,11 @@
       "Credits": 15000
     },
     "Nezha Neuroptics": {
+      "Time": 43200,
       "ProductCategory": "Suits",
       "Name": "Nezha Neuroptics Blueprint",
-      "Time": 43200,
       "Rush": 25,
+      "BPCost": 15000,
       "Parts": [
         {
           "Type": "Resource",
@@ -28435,10 +28507,11 @@
       "Credits": 15000
     },
     "Mirage": {
-      "Time": 259200,
       "MarketCost": 275,
-      "Name": "Mirage Blueprint",
+      "BPCost": 35000,
       "Rush": 50,
+      "Name": "Mirage Blueprint",
+      "Time": 259200,
       "Parts": [
         {
           "Type": "Item",
@@ -28998,10 +29071,11 @@
       "Credits": 25000
     },
     "Volt Systems": {
+      "Time": 43200,
       "ProductCategory": "Suits",
       "Name": "Volt Systems Blueprint",
-      "Time": 43200,
       "Rush": 25,
+      "BPCost": 15000,
       "Parts": [
         {
           "Type": "Resource",
@@ -30297,10 +30371,11 @@
       "Credits": 25000
     },
     "Nezha Chassis": {
+      "Time": 43200,
       "ProductCategory": "Suits",
       "Name": "Nezha Chassis Blueprint",
-      "Time": 43200,
       "Rush": 25,
+      "BPCost": 15000,
       "Parts": [
         {
           "Type": "Resource",
@@ -30502,10 +30577,11 @@
       "Credits": 15000
     },
     "Banshee Chassis": {
+      "Time": 43200,
       "ProductCategory": "Suits",
       "Name": "Banshee Chassis Blueprint",
-      "Time": 43200,
       "Rush": 25,
+      "BPCost": 15000,
       "Parts": [
         {
           "Type": "Resource",
@@ -30976,10 +31052,11 @@
       "Credits": 15000
     },
     "Dagath Systems": {
+      "Time": 43200,
       "ProductCategory": "Suits",
       "Name": "Dagath Systems Blueprint",
-      "Time": 43200,
       "Rush": 25,
+      "BPCost": 15000,
       "Parts": [
         {
           "Type": "Resource",
@@ -32658,10 +32735,11 @@
       "Credits": 15000
     },
     "Mesa": {
-      "Time": 259200,
       "MarketCost": 325,
-      "Name": "Mesa Blueprint",
+      "BPCost": 30000,
       "Rush": 50,
+      "Name": "Mesa Blueprint",
+      "Time": 259200,
       "Parts": [
         {
           "Type": "Item",
@@ -32980,10 +33058,11 @@
       "Credits": 15000
     },
     "Nezha Systems": {
+      "Time": 43200,
       "ProductCategory": "Suits",
       "Name": "Nezha Systems Blueprint",
-      "Time": 43200,
       "Rush": 25,
+      "BPCost": 15000,
       "Parts": [
         {
           "Type": "Resource",

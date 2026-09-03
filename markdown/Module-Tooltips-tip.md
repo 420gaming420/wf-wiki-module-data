@@ -1,7 +1,7 @@
 ---
 title: "Module:Tooltips/tip"
 wiki_url: "https://wiki.warframe.com/w/Module/Tooltips/tip"
-wiki_timestamp: "2026-07-28T00:02:37Z"
+wiki_timestamp: "2026-09-02T10:13:14Z"
 ---
 
 **Tooltips/tip** builds the tooltip box of a tooltip. CSS stylesheet for tooltips can be found on [MediaWiki:Gadget-Tooltips.css](/w/MediaWiki:Gadget-Tooltips.css "MediaWiki:Gadget-Tooltips.css").
@@ -29,27 +29,27 @@ Submodule of [Module:Tooltips](/w/Module:Tooltips "Module:Tooltips"). Not meant 
 
 ---
 
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| |  | | --- | | 0 | |  | | |  |  | | --- | --- | | Playstyle Damage | | | Health 200 (300) | Armor 105 | | Shield 200 (300) | Energy 175 (225) | | Aura Pol | Exilus Pol | | Polarities | | | |  | | |  | | --- | | Hall of Mirrors  Sleight of Hand  Eclipse  Prism | | |
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | 0 | |  | | Mirage | |  | | |  |  | | --- | --- | | Playstyle Damage | | | Health 200 (300) | Armor 105 | | Shield 200 (300) | Energy 175 (225) | | Aura Pol | Exilus Pol | | Polarities | | | |  | | |  | | --- | | Hall of Mirrors  Sleight of Hand  Eclipse  Prism | | |
 
 ---
 
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| |  | | --- | | 0 | |  | | |  |  | | --- | --- | | Health 310 | Armor 300 | | Shield 230 | Energy 100 | | |  | | |  |  |  |  | | --- | --- | --- | --- | | Adarza Claws | | | | | 45 | 45 |  |  |  | | --- | --- | | Crit | 30.00% | 2.50x | | Status | 5.00% | | |  | | |  | | --- | | Description | | Piercing eyes reflect deadly instincts. | | |
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | 0 | |  | | Adarza Kavat | |  | | |  |  | | --- | --- | | Health 310 | Armor 300 | | Shield 230 | Energy 100 | | |  | | |  |  |  |  | | --- | --- | --- | --- | | Adarza Claws | | | | | 45 | 45 |  |  |  | | --- | --- | | Crit | 30.00% | 2.50x | | Status | 5.00% | | |  | | |  | | --- | | Description | | Piercing eyes reflect deadly instincts. | | |
 
 ---
 
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | | |  |  | | --- | --- | |  | Trinity Prime Systems Blueprint | |  | Fragor Prime Head | |  | Braton Prime Stock | |  | Akstiletto Prime Barrel | |  | Dual Kamas Prime Handle | |  | Nikana Prime Blueprint | | **Vaulted** | | | Introduced: **[Update: Specters of the Rail 0.0](/w/Update_19#Update:_Specters_of_the_Rail "Update 19") (2016-07-08)** | | | |
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  |  |  |  |  |  |  |  |  |  |  |  |  | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | | |  |  | | --- | --- | |  | Trinity Prime Systems Blueprint | |  | Fragor Prime Head | |  | Braton Prime Stock | |  | Akstiletto Prime Barrel | |  | Dual Kamas Prime Handle | |  | Nikana Prime Blueprint | | |  | | Axi A1 Relic | |  | | |  |  | | --- | --- | | **Vaulted** | | | Introduced: **[Update: Specters of the Rail 0.0](/w/Update_19#Update:_Specters_of_the_Rail "Update 19") (2016-07-08)** | | | |
 
 ---
 
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| |  | | --- | | 2 | |  | | |  |  | | --- | --- | | Slot Primary | Trigger Semi-Auto | | |  | | |  |  |  |  | | --- | --- | --- | --- | | Normal Attack | | | | | 90 | 78.75 | 56.25 | | 225 (40% ) | | | | | |  | | |  |  | | --- | --- | | Crit 25% | 2x | Status 30% | | Fire Rate 1.5 | Multishot 1 | | Reload 1 s | Ammo 1 / 72 | | |  | | |  |  | | --- | --- | | Disposition ●●●●○ (1.15x) | | | Polarities | | | Exilus Pol | | | Bonus - | | | |
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | 2 | |  | | Vectis | |  | | |  |  | | --- | --- | | Slot Primary | Trigger Semi-Auto | | |  | | |  |  |  |  | | --- | --- | --- | --- | | Normal Attack | | | | | 90 | 78.75 | 56.25 | | 225 (40% ) | | | | | |  | | |  |  | | --- | --- | | Crit 25% | 2x | Status 30% | | Fire Rate 1.5 | Multishot 1 | | Reload 1 s | Ammo 1 / 72 | | |  | | |  |  | | --- | --- | | Disposition ●●●●○ (1.15x) | | | Polarities | | | Exilus Pol | | | Bonus - | | | |
 
 ---
 
@@ -116,9 +116,9 @@ Submodule of [Module:Tooltips](/w/Module:Tooltips "Module:Tooltips"). Not meant 
 
 ---
 
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| |  | | --- | |  | |  | | |  | | --- | | Faction   Grineer | | ++  ++ | | |  | | |  |  | | --- | --- | | Health 300 | Armor 500 | | Shield 0 | Affinity 500 | | |  | | |  | | --- | | Description | | High damage minigun | | |
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | |  | |  | | Heavy Gunner | |  | | |  | | --- | | Faction   Grineer | | ++  ++ | | |  | | |  |  | | --- | --- | | Health 300 | Armor 500 | | Shield 0 | Affinity 500 | | |  | | |  | | --- | | Description | | High damage minigun | | |
 
 ---
 
@@ -260,7 +260,7 @@ Tactical RepositioningAfter taking damage, roll immediately to recover 75% of th
 | [Drop Tables](/w/Drop_Tables "Drop Tables") | [M:Acquisition](/w/Module:Acquisition "Module:Acquisition") ([/data](/w/Module:Acquisition/data "Module:Acquisition/data")) • [M:DropTables](/w/Module:DropTables "Module:DropTables") ([/data](/w/Module:DropTables/data "Module:DropTables/data")) • [M:Void](/w/Module:Void "Module:Void") ([/data](/w/Module:Void/data "Module:Void/data")) |
 | Vendors | [M:Baro](/w/Module:Baro "Module:Baro") ([/data](/w/Module:Baro/data "Module:Baro/data")) • [M:Vendors](/w/Module:Vendors "Module:Vendors") ([/data](/w/Module:Vendors/data "Module:Vendors/data")) |
 | Crafting | [M:Blueprints/data](/w/Module:Blueprints/data "Module:Blueprints/data") • [M:Cost](/w/Module:Cost "Module:Cost") • [M:Research](/w/Module:Research?action=edit&redlink=1 "Module:Research (page does not exist)") ([/data](/w/Module:Research/data "Module:Research/data")) • [M:Resources](/w/Module:Resources "Module:Resources") ([/data](/w/Module:Resources/data "Module:Resources/data")) |
-| Cosmetics | [M:Decorations](/w/Module:Decorations "Module:Decorations") ([/data](/w/Module:Decorations/data "Module:Decorations/data")) • [M:Cosmetics](/w/Module:Cosmetics "Module:Cosmetics") ([/data](/w/Module:Cosmetics/data "Module:Cosmetics/data")) • [M:Sigils/data](/w/Module:Sigils/data "Module:Sigils/data") • [M:TennoGen](/w/Module:TennoGen "Module:TennoGen") ([/data](/w/Module:TennoGen/data "Module:TennoGen/data")) |
+| Cosmetics | [M:Cosmetics](/w/Module:Cosmetics "Module:Cosmetics") ([/data](/w/Module:Cosmetics/data "Module:Cosmetics/data")) • [M:Decorations](/w/Module:Decorations "Module:Decorations") ([/data](/w/Module:Decorations/data "Module:Decorations/data")) • [Module:Honorias](/w/Module:Honorias "Module:Honorias") ([/data](/w/Module:Honorias/data "Module:Honorias/data")) • [M:Sigils/data](/w/Module:Sigils/data "Module:Sigils/data") • [M:TennoGen](/w/Module:TennoGen "Module:TennoGen") ([/data](/w/Module:TennoGen/data "Module:TennoGen/data")) |
 | Infoboxes | [M:Animal/infobox](/w/Module:Animal/infobox "Module:Animal/infobox") • [M:Arcane/infobox](/w/Module:Arcane/infobox "Module:Arcane/infobox") • [M:ArchModBox](/w/Module:ArchModBox "Module:ArchModBox") • [Module:Companions/infobox](/w/Module:Companions/infobox "Module:Companions/infobox") • [M:Conservation/infobox](/w/Module:Conservation/infobox "Module:Conservation/infobox") • [M:Cosmetics/infobox](/w/Module:Cosmetics/infobox "Module:Cosmetics/infobox") • [M:Enemies/infobox](/w/Module:Enemies/infobox "Module:Enemies/infobox") • [M:Missions/infobox](/w/Module:Missions/infobox "Module:Missions/infobox") • [M:Mods/infobox](/w/Module:Mods/infobox "Module:Mods/infobox") • [M:Resources/infobox](/w/Module:Resources/infobox "Module:Resources/infobox") • [M:Vehicles/infobox](/w/Module:Vehicles/infobox "Module:Vehicles/infobox") • [M:Void/page](/w/Module:Void/page "Module:Void/page") • [M:Warframes/infobox](/w/Module:Warframes/infobox "Module:Warframes/infobox") • [M:Weapons/infobox](/w/Module:Weapons/infobox "Module:Weapons/infobox") | |
 | Wiki | [Dev Wiki](https://dev.fandom.com/wiki/Fandom_Developers_Wiki) Fork | [Module:Common](/w/Module:Common "Module:Common") ([/i18n](/w/Module:Common/i18n "Module:Common/i18n")) • [M:Docbunto](/w/Module:Docbunto "Module:Docbunto") ([/cli](/w/Module:Docbunto/cli "Module:Docbunto/cli"), [/i18n](/w/Module:Docbunto/i18n "Module:Docbunto/i18n")) • [M:Entrypoint](/w/Module:Entrypoint "Module:Entrypoint") • [M:I18n](/w/Module:I18n "Module:I18n") • [M:Infobox](/w/Module:Infobox "Module:Infobox") ([/i18n](/w/Module:Infobox/i18n "Module:Infobox/i18n")) • [M:LanguageList](/w/Module:LanguageList "Module:LanguageList") • [M:Mbox](/w/Module:Mbox "Module:Mbox") ([/i18n](/w/Module:Mbox/i18n "Module:Mbox/i18n")) • [M:ModuleTest](/w/Module:ModuleTest "Module:ModuleTest") • [M:Reference](/w/Module:Reference "Module:Reference") • [M:ReleaseStatus](/w/Module:ReleaseStatus "Module:ReleaseStatus") ([/i18n](/w/Module:ReleaseStatus/i18n "Module:ReleaseStatus/i18n")) • [M:TestHarness](/w/Module:TestHarness "Module:TestHarness") ([/i18n](/w/Module:TestHarness/i18n "Module:TestHarness/i18n")) • [M:WDSButton](/w/Module:WDSButton "Module:WDSButton") ([/data](/w/Module:WDSButton/data "Module:WDSButton/data")) |
 | [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia "wikipedia:Wikipedia") Fork | [M:Arguments](/w/Module:Arguments "Module:Arguments") ([/i18n](/w/Module:Arguments/i18n "Module:Arguments/i18n")) • [M:FallbackList](/w/Module:FallbackList "Module:FallbackList") • [M:Yesno](/w/Module:Yesno "Module:Yesno") |
@@ -471,6 +471,10 @@ Warframes = function(name)
 |-
 | class="tt-spacer" |
 |-
+! class="tt-title" | %s
+|-
+| class="tt-spacer" |
+|-
 |
 {| class="tt-data" style="font-size:12px;" |-
 | style="text-align:center;" colspan=2 |Playstyle %s
@@ -499,6 +503,7 @@ Warframes = function(name)
 		warframe.Portrait,
 		(warframe.Mastery or 0) >= 10 and 5 or 9.5,
 		warframe.Mastery or 0,
+		warframe.Name,
 		playstyle or "N/A",
 		warframe.Health or 0, warframe.HealthRank30 or warframe.Health + 100,
 		warframe.Armor  or 0, warframe.ArmorRank30 and ('(%.0f)'):format(warframe.ArmorRank30) or '',
@@ -594,6 +599,10 @@ Companions = function(name)
 |-
 | class="tt-spacer" |
 |-
+! class="tt-title" | %s
+|-
+| class="tt-spacer" |
+|-
 |
 {| class="tt-data" style="font-size:12px;" |-
 | class="tt-table-half" |Health %.0f
@@ -619,6 +628,7 @@ Companions = function(name)
 		companion.Image,
 		companion.Mastery or 0,
 		icon and '[[File:'..icon..'|28px]]' or companion.Type,
+		companion.Name,
 		companion.Health or 0,
 		companion.Armor  or 0,
 		companion.Shield or 0,
@@ -704,9 +714,19 @@ Void = function(name)
 |
 {| class="tt-relic tt-subtable"
 |-
-|class="tt-data"|
+| class="tt-data" |
 {|
 %s
+|}
+|-
+| class="tt-spacer" |
+|-
+! class="tt-title" | %s
+|-
+| class="tt-spacer" |
+|-
+| class="tt-data" |
+{|
 | colspan=2 style = "text-align: center;" | '''%s'''
 |-
 | colspan=2 style = "text-align: center;" | Introduced: '''%s'''
@@ -715,6 +735,7 @@ Void = function(name)
 |}
 |}]==]):format(
 		ItemDrops(),
+		Relic.Name .. " Relic",
 		(Relic.Vaulted ~= nil) and 'Vaulted' or 'Unvaulted',
 		versionLink
 	)
@@ -828,6 +849,10 @@ Weapons = function(name, slot)
 |-
 | class="tt-spacer" |
 |-
+! class="tt-title" | %s
+|-
+| class="tt-spacer" |
+|-
 |
 {| class="tt-data" style="font-size:12px;"
 |-
@@ -883,6 +908,7 @@ Weapons = function(name, slot)
 ]==]):format(
 			statRead('Image'), -- Top image
 			statRead('Mastery'), -- Mastery rank lock
+			Weapon.Name,
 			vals[1][1][1], vals[1][1][2], vals[1][2][1], vals[1][2][2], -- Slot/Type; Slot/Trigger
 			statRead('AttackName'),	-- Name of attack that is displayed
 			table.concat(damageTable,'|'),	-- Damage type values for single projectile
@@ -1292,6 +1318,10 @@ Enemies = function(name)
 |-
 | class="tt-spacer" |
 |-
+! class="tt-title" | %s
+|-
+| class="tt-spacer" |
+|-
 |
 {| class="tt-data" style="font-size:12px; text-align:center;"
 |Faction   %s
@@ -1326,6 +1356,7 @@ Enemies = function(name)
 |}]==]):format(
 		Enemy.General.Image,
 		FactionIcons[Enemy.General.Faction] or 'IconWild.png',
+		Enemy.General.Name,
 		Enemy.General.Faction,
 		DamageTypes.healthMod(Enemy.General.FactionDamageOverride or Enemy.General.Faction),
 		Enemy.Stats.Health or 0,

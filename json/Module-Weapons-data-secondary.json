@@ -3,8 +3,8 @@
     "source_url": "https://wiki.warframe.com/w/Module:Weapons/data/secondary",
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
-    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T19:01:10.220Z"
+    "converter_repo": "https://github.com/placeholder/placeholder",
+    "converted_at": "2026-09-03T02:18:28.303Z"
   },
   "_comments": "",
   "Castanas": {
@@ -924,10 +924,11 @@
     ],
     "InternalName": "/Lotus/Powersuits/Fairy/FlightPistols",
     "_IgnoreInMasteryCount": true,
-    "Slot": "Secondary",
+    "ReloadDelay": 0.25,
     "Traits": [
       "Tenno"
     ],
+    "Slot": "Secondary",
     "Accuracy": 23,
     "Trigger": "Auto",
     "Magazine": 60,
@@ -937,10 +938,10 @@
     ],
     "Reload": 0.3,
     "AmmoPickup": 0,
-    "ReloadDelay": 0.25,
-    "Name": "Dex Pixia",
     "Link": "Dex Pixia",
+    "Name": "Dex Pixia",
     "Image": "DexPixia.png",
+    "Family": "Dex Pixia",
     "AmmoMax": 0,
     "Attacks": [
       {
@@ -1858,10 +1859,11 @@
     ],
     "InternalName": "/Lotus/Powersuits/Fairy/PrimeFlightPistols",
     "_IgnoreInMasteryCount": true,
-    "Slot": "Secondary",
+    "ReloadDelay": 0.25,
     "Traits": [
       "Tenno"
     ],
+    "Slot": "Secondary",
     "Accuracy": 23,
     "Trigger": "Auto",
     "Magazine": 60,
@@ -1871,10 +1873,10 @@
     ],
     "Reload": 0.3,
     "AmmoPickup": 0,
-    "ReloadDelay": 0.25,
-    "Name": "Dex Pixia Prime",
     "Link": "Dex Pixia",
+    "Name": "Dex Pixia Prime",
     "Image": "DexPixiaPrime.png",
+    "Family": "Dex Pixia",
     "AmmoMax": 0,
     "Attacks": [
       {
@@ -5217,6 +5219,7 @@
     ],
     "InternalName": "/Lotus/Powersuits/Cowgirl/SlingerPistols",
     "_IgnoreInMasteryCount": true,
+    "Slot": "Secondary",
     "Traits": [
       "Tenno"
     ],
@@ -5229,10 +5232,10 @@
     ],
     "Reload": 0,
     "AmmoPickup": 0,
-    "Slot": "Secondary",
-    "Name": "Regulators",
     "Link": "Regulators",
+    "Name": "Regulators",
     "Image": "Regulators.png",
+    "Family": "Regulators",
     "AmmoMax": 0,
     "Attacks": [
       {
@@ -5890,6 +5893,7 @@
     ],
     "InternalName": "/Lotus/Powersuits/IronFrame/BlastWeapon",
     "_IgnoreInMasteryCount": true,
+    "Slot": "Secondary",
     "Traits": [
       "Tenno"
     ],
@@ -5902,10 +5906,10 @@
     ],
     "Reload": 0,
     "AmmoPickup": 0,
-    "Slot": "Secondary",
-    "Name": "Balefire Charger",
     "Link": "Balefire Charger",
+    "Name": "Balefire Charger",
     "Image": "BalefireCharger.png",
+    "Family": "Balefire Charger",
     "AmmoMax": 0,
     "Attacks": [
       {
@@ -8865,6 +8869,7 @@
     ],
     "InternalName": "/Lotus/Powersuits/IronFrame/BlastWeaponPrime",
     "_IgnoreInMasteryCount": true,
+    "Slot": "Secondary",
     "Traits": [
       "Tenno"
     ],
@@ -8877,10 +8882,10 @@
     ],
     "Reload": 0,
     "AmmoPickup": 0,
-    "Slot": "Secondary",
-    "Name": "Balefire Charger Prime",
     "Link": "Balefire Charger",
+    "Name": "Balefire Charger Prime",
     "Image": "BalefireChargerPrime.png",
+    "Family": "Balefire Charger",
     "AmmoMax": 0,
     "Attacks": [
       {
@@ -10075,6 +10080,7 @@
     ],
     "InternalName": "/Lotus/Powersuits/Cowgirl/PrimeSlingerPistols",
     "_IgnoreInMasteryCount": true,
+    "Slot": "Secondary",
     "Traits": [
       "Tenno"
     ],
@@ -10087,10 +10093,10 @@
     ],
     "Reload": 0,
     "AmmoPickup": 0,
-    "Slot": "Secondary",
-    "Name": "Regulators Prime",
     "Link": "Regulators",
+    "Name": "Regulators Prime",
     "Image": "RegulatorsPrime.png",
+    "Family": "Regulators",
     "AmmoMax": 0,
     "Attacks": [
       {

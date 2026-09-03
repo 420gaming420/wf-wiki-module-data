@@ -6,6 +6,7 @@
 --	@attribution	[[User:Gigamicro|Gigamicro]]
 --	@attribution	[[User:FINNER|FINNER]]
 --	@attribution	[[User:Cephalon Scientia|Cephalon Scientia]]
+--	@attribution	[[User:N90|N90]]
 --	@require	[[Module:Table]]
 --	@require	[[Module:Tooltips]]
 --	@require	[[Module:Weapons/data]]
@@ -45,41 +46,8 @@ for _, tbl in pairs(WeaponData) do
 	end
 end
 
--- When a new variant is added, update these tables to support collapsing weapon variants with the same trigger type in this format:
--- "Braton (Prime, Vandal)" instead of "Braton • Braton Prime • Braton Vandal"
-local variantSuffixes = { " Prime", " Vandal", " Wraith", " Ceti" }
--- Note: Prime is also a prefix for "Prime Laser Rifle"
-local variantPrefixes = { "Prime ", "Mk1%-", "Prisma ", "Mara ", "Dex ", "Secura ", "Telos ", "Synoid ", "Sancti ", "Vaykor ", "Rakta ", "Kuva ", "Tenet ", "Coda ", "Carmine " }
-
--- Fallback base name helper if Family key missing (Exalted Weapons)
--- Accounts for Dex Pixia Prime being the Prime variant of Dex Pixia (and not a Dex variant)
-local function getBaseName(weap, name)
-	if weap.Family then
-		return weap.Family
-	end
-	for _, suffix in ipairs(variantSuffixes) do
-		if name:sub(-#suffix) == suffix then
-			local base = name:sub(1, -#suffix - 1)
-			-- Checking if base weapon exists in /data
-			if allWeapons[base] then
-				return base
-			end
-		end
-	end
-	for _, prefix in ipairs(variantPrefixes) do
-		local cleanPrefix = prefix:gsub("%%", "")
-		if name:sub(1, #cleanPrefix) == cleanPrefix then
-			local base = name:sub(#cleanPrefix + 1)
-			if allWeapons[base] then
-				return base
-			end
-		end
-	end
-	return name
-end
-
 -- Get variant display name by finding words in name that are not in family name
--- This accounts for localization differences between variants (e.g. Pangolin Sword and Pangolin Prime)
+-- This also accounts for localization differences between variants (e.g. Pangolin Sword and Pangolin Prime)
 local function getVariantName(name, family)
 	if name == family then
 		return nil
@@ -91,7 +59,24 @@ local function getVariantName(name, family)
 	
 	local variantWords = {}
 	for word in name:gmatch("[A-Za-z0-9]+") do
-		if not familyWords[word:lower()] then
+		local isVariant = true
+		if familyWords[word:lower()] then
+			isVariant = false
+		end
+		
+		-- Check substrings both ways for any further localization discrepancies,
+		-- e.g. Afuris -> Dex Furis, Dual Decurion -> Prisma Dual Decurions
+		if string.find(family:lower(), word:lower()) then
+			isVariant = false
+		end
+		for fWord in family:gmatch("[A-Za-z0-9]+") do
+			if string.find(word:lower(), fWord:lower()) then
+				isVariant = false
+				break
+			end
+		end
+		
+		if isVariant then
 			table.insert(variantWords, word)
 		end
 	end
@@ -113,7 +98,7 @@ local function row(cat, weaps)
 	local groups = {}
 	local groupOrder = {}
 	for name, weap in Table.skpairs(weaps) do
-		local base = getBaseName(weap, name)
+		local base = weap.Family or name
 		local variant = getVariantName(name, base)
 		if not groups[base] then
 			groups[base] = {}
