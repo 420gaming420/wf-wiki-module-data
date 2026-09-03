@@ -100,7 +100,7 @@ jobs:
           git config user.name "420gaming420"
           git config user.email "320066288+420gaming420@users.noreply.github.com"
           git add ignore_modules.json
-          git commit -m "Add failed modules to ignore list"
+          git commit -m "Data Auto-sync: $(date -u '+%Y-%m-%d')"
           git push https://${{ secrets.GH_PUSH_KEY }}@github.com/420gaming420/wf-wiki-module-scripts.git dev
 
       - name: Push data changes to repo
