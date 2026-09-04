@@ -1,7 +1,7 @@
 ---
 title: "Module:Honorias"
 wiki_url: "https://wiki.warframe.com/w/Module/Honorias"
-wiki_timestamp: "2026-09-02T20:11:17Z"
+wiki_timestamp: "2026-09-03T12:00:37Z"
 ---
 
 **Honorias** retrieves and stores Honoria title data of [WARFRAME](/w/WARFRAME "WARFRAME").
@@ -14,16 +14,41 @@ On this Wiki, Honorias is used in:
 
 * [1 Usage](#Usage)
   + [1.1 Template](#Template)
-* [2 Documentation](#Documentation)
-  + [2.1 Package items](#Package_items)
-* [3 See Also](#See_Also)
-* [4 Code](#Code)
+* [2 Examples](#Examples)
+* [3 Documentation](#Documentation)
+  + [3.1 Package items](#Package_items)
+* [4 See Also](#See_Also)
+* [5 Code](#Code)
 
 ## Usage
 
 ### Template
 
 In template and articles: `{{#invoke:Honorias|function|input1|input2|...}}`
+
+## Examples
+
+`{{#invoke:Honorias|getHonoriaCount}}`
+
+`{{#invoke:Honorias|getHonoriaCount|position=Prefix}}`
+
+`{{#invoke:Honorias|getHonoriaCount|position=Suffix}}`
+
+`{{#invoke:Honorias|getHonoriaCount|position=Suffix & Prefix}}`
+
+`{{#invoke:Honorias|getHonoriaCount|tag=Roathe}}`
+
+`{{#invoke:Honorias|getHonoriaCount|tag=Hunhow}}`
+
+`{{#invoke:Honorias|buildHonoriaTable}}`
+
+`{{#invoke:Honorias|buildHonoriaTable|checklist=true|columns=Name, Position, Requirement}}`
+
+`{{#invoke:Honorias|buildHonoriaTable|tag=Roathe|columns=Name, Position, Requirement, Tags}}`
+
+`{{#invoke:Honorias|simpleHonoriaNameList}}`
+
+`{{#invoke:Honorias|getValue|Abyssal Thorn|Name}}`
 
 ## Documentation
 
@@ -38,15 +63,16 @@ In template and articles: `{{#invoke:Honorias|function|input1|input2|...}}`
 `honorias.simpleHonoriaNameList()` (function)
 :   Builds a simple sorted list of all Honoria names.
 
-`honorias.buildHonoriaTable(columns, position, tag, introduced, checklist)` (function)
+`honorias.buildHonoriaTable(columns, position, tag, introduced, checklist, tableid)` (function)
 :   Builds a Wikitable listing all Honorias filtered and with customizable columns.
 :   **Parameters**:
 
-    * `columns` Comma-separated list of columns (e.g. "Checklist, Name, Description, Position, Introduced, Tags, Price") (string; optional)
+    * `columns` Comma-separated list of columns (e.g. "Name, Description, Position, Introduced, Tags, Price, Requirement") (string; optional)
     * `position` Filter by Position (string; optional)
     * `tag` Filter by Tag (string; optional)
     * `introduced` Filter by Introduced version (string; optional)
-    * `checklist` Add "true" to automatically prepand a checklist column if not specified in columns (string; optional)
+    * `checklist` Add "true" to enable checklist data attributes and styles (string; optional)
+    * `tableid` Custom ID for the checklist table state saving (Default: "Honoria Checklist") (string; optional)
 
 ---
 
@@ -112,39 +138,64 @@ local Table = require('Module:Table')
 
 --- Map of column keys to display headers
 local COLUMN_HEADERS = {
-    ["CHECKLIST"] = "",
     ["NAME"] = "Name",
     ["DESCRIPTION"] = "Description",
     ["POSITION"] = "Position",
     ["INTRODUCED"] = "Introduced",
     ["TAGS"] = "Tags",
-    ["PRICE"] = "Price"
+    ["PRICE"] = "Price",
+    ["REQUIREMENT"] = "Requirement"
 }
+
+--- Internal concat to format Tags 
+local function safeConcat(tbl, separator)
+    if not tbl then return "" end
+    local copy = {}
+    for _, v in pairs(tbl) do
+        table.insert(copy, v)
+    end
+    return table.concat(copy, separator)
+end
+
+--- Internal helper to format the price of an entry
+local function getFormattedPrice(entry, separator)
+    if not entry or not entry.Price then return "" end
+    separator = separator or "  
+"
+
+    local prices = {}
+    for res, amount in pairs(entry.Price) do
+        local resLower = string.lower(res)
+        if resLower == "cc" or resLower == "sc" then
+            table.insert(prices, string.format("{{%s|%s}}", resLower, amount))
+        else
+            table.insert(prices, string.format("%s {{Resource|%s}}", amount, res))
+        end
+    end
+    return table.concat(prices, separator)
+end
 
 --- Internal helper to format cell content based on column name
 local function formatCell(colKey, name, entry)
-    if colKey == "CHECKLIST" then
-        return 'class="checklist-cell" data-item="' .. name .. '" | '
-    elseif colKey == "NAME" then
-        return "[[" .. (entry.Link or name) .. "]]"
+    if colKey == "NAME" then
+        return entry.Name or "MISSING_DATA"
     elseif colKey == "DESCRIPTION" then
         return entry.Description or ""
+    elseif colKey == "REQUIREMENT" then
+        if entry.Description and entry.Description ~= "" then
+            return entry.Description
+        end
+        return getFormattedPrice(entry, "  
+")
     elseif colKey == "POSITION" then
         return entry.Position or ""
     elseif colKey == "INTRODUCED" then
         return entry.Introduced or ""
-    elseif colKey == "TAGS" then
-        return entry.Tags and table.concat(entry.Tags, ", ") or ""
+	elseif colKey == "TAGS" then
+	    return entry.Tags and safeConcat(entry.Tags, ", ") or ""
     elseif colKey == "PRICE" then
-        if entry.Price then
-            local prices = {}
-            for res, amount in pairs(entry.Price) do
-                table.insert(prices, string.format("%d %s", amount, res))
-            end
-            return table.concat(prices, "  
+        return getFormattedPrice(entry, "  
 ")
-        end
-        return ""
     end
     return ""
 end
@@ -166,38 +217,45 @@ function p.getValue(frame)
     end
 
     local valNameUpper = string.upper(valName)
+    local rawResult = ""
 
     if valNameUpper == "NAME" then
-        return entryTable.Name or honoriaName
+        rawResult = entryTable.Name or honoriaName
     elseif valNameUpper == "LINK" then
-        return "[[" .. (entryTable.Link or honoriaName) .. "]]"
+        rawResult = "[[" .. (entryTable.Link or honoriaName) .. "]]"
     elseif valNameUpper == "POSITION" then
-        return entryTable.Position or "Unknown"
+        rawResult = entryTable.Position or "Unknown"
     elseif valNameUpper == "INTRODUCED" then
         if entryTable.Introduced ~= nil then
             local ver = Version._getVersion(entryTable.Introduced)
             if ver ~= nil then return Version.getVersionLink(entryTable.Introduced) end
             return "Update " .. entryTable.Introduced
         end
-        return "Unknown update"
+        rawResult = "Unknown update"
     elseif valNameUpper == "DESCRIPTION" then
-        return entryTable.Description or ""
+        rawResult = entryTable.Description or ""
+    elseif valNameUpper == "REQUIREMENT" then
+        if entryTable.Description and entryTable.Description ~= "" then
+            rawResult = entryTable.Description
+        else
+            rawResult = getFormattedPrice(entryTable, ", ")
+        end
     elseif valNameUpper == "INTERNALNAME" then
-        return entryTable.InternalName or ""
+        rawResult = entryTable.InternalName or ""
     elseif valNameUpper == "TAGS" then
-        return entryTable.Tags and table.concat(entryTable.Tags, ", ") or ""
+        rawResult = entryTable.Tags and safeConcat(entryTable.Tags, ", ") or ""
     elseif valNameUpper == "PRICE" then
         if entryTable.Price then
-            local prices = {}
-            for resource, amount in pairs(entryTable.Price) do
-                table.insert(prices, string.format("%d %s", amount, resource))
-            end
-            return table.concat(prices, ", ")
+            rawResult = getFormattedPrice(entryTable, ", ")
+        else
+            rawResult = "N/A"
         end
-        return "N/A"
     else
-        return entryTable[valName] or ""
+        rawResult = entryTable[valName] or ""
     end
+
+    -- Process any wikitext templates inside strings (e.g. {{cc|100,000}})
+    return frame:preprocess(tostring(rawResult))
 end
 
 --- Gets the total Honoria count.
@@ -241,24 +299,23 @@ function p.simpleHonoriaNameList(frame)
 end
 
 --- Builds a Wikitable listing all Honorias filtered and with customizable columns.
---  @param[opt] {string} columns Comma-separated list of columns (e.g. "Checklist, Name, Description, Position, Introduced, Tags, Price")
+--  @param[opt] {string} columns Comma-separated list of columns (e.g. "Name, Description, Position, Introduced, Tags, Price, Requirement")
 --  @param[opt] {string} position Filter by Position
 --  @param[opt] {string} tag Filter by Tag
 --  @param[opt] {string} introduced Filter by Introduced version
---  @param[opt] {string} checklist Add "true" to automatically prepand a checklist column if not specified in columns
+--  @param[opt] {string} checklist Add "true" to enable checklist data attributes and styles
+--  @param[opt] {string} tableid Custom ID for the checklist table state saving (Default: "Honoria Checklist")
 function p.buildHonoriaTable(frame)
     local filterPosition = frame.args["position"] or "All"
     local filterTag = frame.args["tag"] or "All"
     local filterIntroduced = frame.args["introduced"] or "All"
     local enableChecklist = (frame.args["checklist"] == "true")
+    local tableId = frame.args["tableid"] or "Honoria Checklist"
     
     -- Parse selected columns
     local rawColumns = frame.args["columns"] or "Name, Description, Position, Introduced, Tags, Price"
-    if enableChecklist and not string.find(string.upper(rawColumns), "CHECKLIST") then
-        rawColumns = "Checklist, " .. rawColumns
-    end
-
     local selectedColumns = {}
+
     for col in string.gmatch(rawColumns, '([^,]+)') do
         local cleanCol = string.upper(mw.text.trim(col))
         if COLUMN_HEADERS[cleanCol] ~= nil then
@@ -290,17 +347,17 @@ function p.buildHonoriaTable(frame)
 
     table.sort(sortedNames)
 
--- Build Header
+    -- Build Header
     local headerCells = {}
     for _, colKey in ipairs(selectedColumns) do
         table.insert(headerCells, COLUMN_HEADERS[colKey])
     end
 
-    local isChecklistActive = enableChecklist or (string.find(string.upper(rawColumns), "CHECKLIST") ~= nil)
-    local tableClass = 'wikitable sortable' .. (isChecklistActive and ' warframe-checklist' or '')
+    local tableClass = enableChecklist and 'listtable sortable lighttable store-table' or 'wikitable sortable'
+    local tableAttr = enableChecklist and string.format(' class="%s" data-tableid="%s"', tableClass, tableId) or string.format(' class="%s"', tableClass)
 
     local wikitable = {
-        '{| class="' .. tableClass .. '"',
+        '{|' .. tableAttr,
         '! ' .. table.concat(headerCells, ' !! ')
     }
 
@@ -313,11 +370,14 @@ function p.buildHonoriaTable(frame)
             table.insert(rowCells, formatCell(colKey, name, entry))
         end
 
-        table.insert(wikitable, '|-\n| ' .. table.concat(rowCells, ' || '))
+        local rowPrefix = enableChecklist and string.format('|- data-rowid="%s" id="%s"', name, name) or '|-'
+        table.insert(wikitable, rowPrefix .. '\n| ' .. table.concat(rowCells, ' || '))
     end
 
     table.insert(wikitable, '|}')
-    return table.concat(wikitable, '\n')
+
+    -- Preprocess result to parse templates inside table contents
+    return frame:preprocess(table.concat(wikitable, '\n'))
 end
 
 return p

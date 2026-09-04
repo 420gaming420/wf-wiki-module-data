@@ -41,6 +41,36 @@ local VALID_POSITIONS = {
     ['Suffix & Prefix'] = true
 }
 
+-- Allowed tags for the Tags field
+local VALID_TAGS = {
+	["Founder"] = true,				-- Exclusive for Founders
+	["Nightwave"] = true,			-- Nora Night, Amir's Shockwave or any future Nightwave
+	["Roathe"] = true,				-- Bought from Roathe at La Cathédrale 
+	["Miscellaneous"] = true,		-- Other stuff
+	["Follie's Hunt"] = true,		-- 
+	["Archimedea"] = true,			-- 
+	["Hunhow"] = true,				-- 
+	["Quest"] = true,				-- 
+	["Challenge"] = true,			-- 
+	["KIM"] = true,					-- 
+	["Open World"] = true,			-- 
+	["Syndicate"] = true,			-- 
+	["Mastery"] = true,				-- 
+	["Descendia"] = true,			-- 
+	["Adversary"] = true,			-- 
+	["Boss Fight"] = true,			-- 
+	["Perita"] = true,				-- 
+	["Prime"] = true,				-- 
+	["Focus"] = true,				-- 
+	["Event"] = true,				-- 
+	["Kuva"] = true,				-- 
+	["Dog Days"] = true,			-- 
+	["Technocyte Coda"] = true,		-- 
+	["Tenet"] = true,				-- 
+	["Insign"] = true,				-- 
+	["Tektolyst Artifact"] = true,	-- 
+}
+
 --- Checks if each Honoria entry has all mandatory keys.
 --  @function       p.checkRequiredKeysExist
 --  @param          {table} frame Frame object passed by MediaWiki
@@ -96,7 +126,7 @@ function p.validateDataTypes(frame)
     return frame:preprocess(table.concat(errors, '\n'))
 end
 
---- Validates values for specific fields (Position, InternalName, Price values).
+--- Validates values for specific fields (Position, InternalName, Price values, Tags).
 --  @function       p.validateFieldValues
 --  @param          {table} frame Frame object passed by MediaWiki
 --  @return         {string} Wikitext formatted list of value logic errors
@@ -123,6 +153,16 @@ function p.validateFieldValues(frame)
                     if type(amount) ~= "number" or amount <= 0 then
                         local errorMsg = '# "[[%s]]" has invalid amount <code>%s</code> for resource <code>%s</code> in Price table'
                         table.insert(errors, string.format(errorMsg, entryName, tostring(amount), resource))
+                    end
+                end
+            end
+
+            -- 4. Validate Tags table values
+            if entryData.Tags then
+                for _, tag in ipairs(entryData.Tags) do
+                    if not VALID_TAGS[tag] then
+                        local errorMsg = '# "[[%s]]" contains invalid tag <code>%s</code> in Tags table'
+                        table.insert(errors, string.format(errorMsg, entryName, tostring(tag)))
                     end
                 end
             end

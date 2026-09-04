@@ -1,13 +1,13 @@
 {
   "page": "Module:Sigils/data",
-  "wiki_timestamp": "2026-08-24T04:56:46Z",
-  "extracted_at": "2026-08-31T21:22:45.301520+00:00",
+  "wiki_timestamp": "2026-09-03T20:58:31Z",
+  "extracted_at": "2026-09-04T04:43:39.105056+00:00",
   "lua_files": [
     "Module-Sigils-data_0.lua",
     "Module-Sigils-data_1.lua"
   ],
   "lua_block_count": 2,
-  "file_size": 53761,
+  "file_size": 64161,
   "comment_count": 0,
   "status": "success"
 }

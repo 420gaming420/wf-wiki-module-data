@@ -1,7 +1,7 @@
 ---
 title: "Module:Honorias/doc"
 wiki_url: "https://wiki.warframe.com/w/Module/Honorias/doc"
-wiki_timestamp: "2026-09-02T16:33:28Z"
+wiki_timestamp: "2026-09-03T12:07:45Z"
 ---
 
 **Honorias** retrieves and stores Honoria title data of [WARFRAME](/w/WARFRAME "WARFRAME").
@@ -14,16 +14,41 @@ On this Wiki, Honorias is used in:
 
 * [1 Usage](#Usage)
   + [1.1 Template](#Template)
-* [2 Documentation](#Documentation)
-  + [2.1 Package items](#Package_items)
-* [3 See Also](#See_Also)
-* [4 Code](#Code)
+* [2 Examples](#Examples)
+* [3 Documentation](#Documentation)
+  + [3.1 Package items](#Package_items)
+* [4 See Also](#See_Also)
+* [5 Code](#Code)
 
 ## Usage
 
 ### Template
 
 In template and articles: `{{#invoke:Honorias|function|input1|input2|...}}`
+
+## Examples
+
+`{{#invoke:Honorias|getHonoriaCount}}`
+
+`{{#invoke:Honorias|getHonoriaCount|position=Prefix}}`
+
+`{{#invoke:Honorias|getHonoriaCount|position=Suffix}}`
+
+`{{#invoke:Honorias|getHonoriaCount|position=Suffix & Prefix}}`
+
+`{{#invoke:Honorias|getHonoriaCount|tag=Roathe}}`
+
+`{{#invoke:Honorias|getHonoriaCount|tag=Hunhow}}`
+
+`{{#invoke:Honorias|buildHonoriaTable}}`
+
+`{{#invoke:Honorias|buildHonoriaTable|checklist=true|columns=Name, Position, Requirement}}`
+
+`{{#invoke:Honorias|buildHonoriaTable|tag=Roathe|columns=Name, Position, Requirement, Tags}}`
+
+`{{#invoke:Honorias|simpleHonoriaNameList}}`
+
+`{{#invoke:Honorias|getValue|Abyssal Thorn|Name}}`
 
 ## Documentation
 
@@ -38,15 +63,16 @@ In template and articles: `{{#invoke:Honorias|function|input1|input2|...}}`
 `honorias.simpleHonoriaNameList()` (function)
 :   Builds a simple sorted list of all Honoria names.
 
-`honorias.buildHonoriaTable(columns, position, tag, introduced, checklist)` (function)
+`honorias.buildHonoriaTable(columns, position, tag, introduced, checklist, tableid)` (function)
 :   Builds a Wikitable listing all Honorias filtered and with customizable columns.
 :   **Parameters**:
 
-    * `columns` Comma-separated list of columns (e.g. "Checklist, Name, Description, Position, Introduced, Tags, Price") (string; optional)
+    * `columns` Comma-separated list of columns (e.g. "Name, Description, Position, Introduced, Tags, Price, Requirement") (string; optional)
     * `position` Filter by Position (string; optional)
     * `tag` Filter by Tag (string; optional)
     * `introduced` Filter by Introduced version (string; optional)
-    * `checklist` Add "true" to automatically prepand a checklist column if not specified in columns (string; optional)
+    * `checklist` Add "true" to enable checklist data attributes and styles (string; optional)
+    * `tableid` Custom ID for the checklist table state saving (Default: "Honoria Checklist") (string; optional)
 
 ---
 

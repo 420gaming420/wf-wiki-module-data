@@ -1,12 +1,12 @@
 ---
 title: "Module:Vendors/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Vendors/data"
-wiki_timestamp: "2026-08-16T05:40:30Z"
+wiki_timestamp: "2026-09-04T02:51:17Z"
 ---
 
 Database of NPC vendor offerings. Items sold through the [Market](/w/Market "Market") not included.
 
-:   *Last updated: Sun, 16 Aug 2026 05:40:30 +0000 (UTC) by [User:Kazzarin](/w/User:Kazzarin "User:Kazzarin") ([change log](https://wiki.warframe.com/w/Module:Vendors/data?diff=0))*
+:   *Last updated: Fri, 04 Sep 2026 02:51:17 +0000 (UTC) by [User:Kazzarin](/w/User:Kazzarin "User:Kazzarin") ([change log](https://wiki.warframe.com/w/Module:Vendors/data?diff=0))*
 
 ## General Offerings Schema
 
@@ -3489,13 +3489,13 @@ return {
 				--{ "Vanguard E1 Relic", "Relic", 1, Limit = 100 },
 				--{ "Vanguard M1 Relic", "Relic", 1, Limit = 100 },
 				--{ "Vanguard P1 Relic", "Relic", 1, Limit = 100 },
-				-- Revenant/Baruuk
-				{ "Lith T13 Relic", "Relic", 1 },
-				{ "Lith A9 Relic", "Relic", 1 },
-				{ "Meso R6 Relic", "Relic", 1 },
-				{ "Neo P8 Relic", "Relic", 1 },
-				{ "Axi C9 Relic", "Relic", 1 },
-				{ "Axi B9 Relic", "Relic", 1 },
+				-- Banshee/Mirage
+				{ "Lith K5 Relic", "Relic", 1 },
+				{ "Lith M7 Relic", "Relic", 1 },
+				{ "Meso E5 Relic", "Relic", 1 },
+				{ "Neo B6 Relic", "Relic", 1 },
+				{ "Axi H5 Relic", "Relic", 1 },
+				{ "Axi A12 Relic", "Relic", 1 },
 				-- Evergreen Items
 				{ "Burston Prime", "Weapon", { ["Regal Aya"] = 2 } },
 				{ "Braton Prime", "Weapon", { ["Regal Aya"] = 1 } },

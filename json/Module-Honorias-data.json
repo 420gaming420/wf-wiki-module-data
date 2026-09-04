@@ -3,1816 +3,2607 @@
     "source_url": "https://wiki.warframe.com/w/Module:Honorias/data",
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
-    "converter_repo": "https://github.com/placeholder/placeholder",
-    "converted_at": "2026-09-03T02:18:11.178Z"
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-09-04T04:43:43.751Z"
   },
-  "_comments": "",
+  "_comments": "--- Honorias data table for [[WARFRAME]] titles.\n-- @module Honorias/data\n-- \n\t--[\"Nemesis Of Eris\"] = {\n\t--\t\tName = \"Nemesis Of Eris\",\n\t--\t\tLink = \"Nemesis Of Eris\",\n\t--\t\tDescription = \"\",\n\t--\t\tPosition = \"Suffix\",\n\t--\t\tIntroduced = \"\",\n\t--\t\tInternalName = \"/Lotus/Types/Items/Titles/NemesisOfErisTitle\",\n\t--\t\tCodexSecret = true,\n\t--\t\tExcludeFromCodex = true,\n\t--},",
   "Queen of Duviri": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Queen of Duviri",
+    "Description": "Awarded for completing '[[The Duviri Paradox]]'.",
     "Link": "Queen of Duviri",
+    "ExcludeFromCodex": true,
+    "Name": "Queen of Duviri",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Quest"
+    ],
+    "Introduced": "43",
     "InternalName": "/Lotus/Types/Items/Titles/DuviriQueenQuestTitle",
     "CodexSecret": true
   },
   "Defender of the Earth": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Defender of the Earth",
+    "Description": "Purchased from [[New Loka]] at Rank 5 for {{sc|5000}}.",
     "Link": "Defender of the Earth",
+    "Price": {
+      "sc": 5000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Defender of the Earth",
     "Position": "Prefix",
+    "Tags": [
+      "Syndicate"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/NewLokaTitle",
     "CodexSecret": true
   },
   "Painted Free": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Painted Free",
+    "Description": "Complete [[Follie's Hunt]] once.",
     "Link": "Painted Free",
+    "ExcludeFromCodex": true,
+    "Name": "Painted Free",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Follie's Hunt"
+    ],
+    "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/FollieHuntOneTitle",
     "CodexSecret": true
   },
   "Champion of the Lotus": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Champion of the Lotus",
+    "Description": "Awarded for completing '[[The Lotus Eaters]]'.",
     "Link": "Champion of the Lotus",
+    "ExcludeFromCodex": true,
+    "Name": "Champion of the Lotus",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Quest"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/LotusEatersTitle",
     "CodexSecret": true
   },
   "Facilis Descensus Averno": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Facilis Descensus Averno",
+    "Description": "Awarded for completing all 21 floors of [[Steel Path]] [[Descendia]] consecutively solo, and without dying.",
     "Link": "Facilis Descensus Averno",
+    "ExcludeFromCodex": true,
+    "Name": "Facilis Descensus Averno",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Descendia"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/CompleteDescendiaHardcoreTitle",
     "CodexSecret": true
   },
   "Historian of Tau": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Historian of Tau",
+    "Description": "Awarded for completing the [https://warframe.com/the-old-peace/history-of-tau History of Tau] sequence.",
     "Link": "Historian of Tau",
+    "ExcludeFromCodex": true,
+    "Name": "Historian of Tau",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Miscellaneous"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/OldPeaceTitle",
     "CodexSecret": true
   },
   "Under Friendly Fire": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Under Friendly Fire",
+    "Description": "Awarded for vanquishing a [[Hunhullus]] 5 times.",
     "Link": "Under Friendly Fire",
+    "ExcludeFromCodex": true,
+    "Name": "Under Friendly Fire",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Perita"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/HunhullsKillerTitle",
     "CodexSecret": true
   },
   "The Invincible": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "The Invincible",
     "Link": "The Invincible",
+    "Price": {
+      "Chitinous Husk": 50
+    },
+    "ExcludeFromCodex": true,
+    "Name": "The Invincible",
     "Position": "Prefix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleJuggernaut",
     "CodexSecret": true
   },
   "Servio": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Servio",
+    "Description": "Awarded for completing the Servio V Sporoi challenge.",
     "Link": "Servio",
+    "ExcludeFromCodex": true,
+    "Name": "Servio",
     "Position": "Prefix",
+    "Tags": [
+      "Insign"
+    ],
     "Introduced": "41.0.5",
     "InternalName": "/Lotus/Types/Items/Titles/MedalRank5Title",
     "CodexSecret": true
   },
   "Soulmate": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Soulmate",
+    "Description": "Awarded for [[Kinemantik Instant Messenger#Dating|beginning a relationship]] with [[Lyon]].",
     "Link": "Soulmate",
+    "ExcludeFromCodex": true,
+    "Name": "Soulmate",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "KIM"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/DateLyonTitle",
     "CodexSecret": true
   },
   "Bigger Spender": {
-    "ExcludeFromCodex": true,
-    "Description": "{{cc|1,000,000}}",
-    "Name": "Bigger Spender",
+    "Description": "",
     "Link": "Bigger Spender",
+    "Price": {
+      "cc": 1000000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Bigger Spender",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleCreditsBigger",
     "CodexSecret": true
   },
   "Scoria's Saint": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Scoria's Saint",
     "Link": "Scoria's Saint",
+    "Price": {
+      "Titanium": 50000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Scoria's Saint",
     "Position": "Suffix",
+    "Tags": [
+      "Hunhow"
+    ],
     "Introduced": "43",
     "InternalName": "/Lotus/Types/Items/Titles/HunhowHonoria/TitleAsh",
     "CodexSecret": true
   },
   "Arcane Researcher": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Arcane Researcher",
+    "Description": "Complete [[Elite Deep Archimedea]] with max Research points.",
     "Link": "Arcane Researcher",
+    "ExcludeFromCodex": true,
+    "Name": "Arcane Researcher",
     "Position": "Suffix",
+    "Tags": [
+      "Archimedea"
+    ],
     "Introduced": "43",
     "InternalName": "/Lotus/Types/Items/Titles/CompleteEDAMaxTitle",
     "CodexSecret": true
   },
   "Capit": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Capit",
+    "Description": "Awarded for completing the Capit XIII Sporoi challenge.",
     "Link": "Capit",
+    "ExcludeFromCodex": true,
+    "Name": "Capit",
     "Position": "Prefix",
+    "Tags": [
+      "Insign"
+    ],
     "Introduced": "41.0.5",
     "InternalName": "/Lotus/Types/Items/Titles/MedalRank13Title",
     "CodexSecret": true
   },
   "Hoplite": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Hoplite",
+    "Description": "Acquire [[Styanax Prime]].",
     "Link": "Hoplite",
+    "ExcludeFromCodex": true,
+    "Name": "Hoplite",
     "Position": "Suffix",
+    "Tags": [
+      "Prime"
+    ],
     "Introduced": "43",
     "InternalName": "/Lotus/Types/Items/Titles/TitleStyanaxPrime",
     "CodexSecret": true
   },
   "Messenger of Long Forgotten Gods": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Messenger of Long Forgotten Gods",
+    "Description": "Acquire [[Gauss Prime]].",
     "Link": "Messenger of Long Forgotten Gods",
+    "ExcludeFromCodex": true,
+    "Name": "Messenger of Long Forgotten Gods",
     "Position": "Suffix",
+    "Tags": [
+      "Prime"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/TitleGaussPrime",
     "CodexSecret": true
   },
   "Tenno of a Thousand Days": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Tenno of a Thousand Days",
+    "Description": "Awarded for logging into [[WARFRAME]] for 1,000 days.",
     "Link": "Tenno of a Thousand Days",
+    "ExcludeFromCodex": true,
+    "Name": "Tenno of a Thousand Days",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Miscellaneous"
+    ],
+    "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/ThousandDaysLoginRewardTitle",
     "CodexSecret": true
   },
   "Liberated Grineer": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Liberated Grineer",
+    "Description": "Purchased from the [[Steel Meridian]] at Rank 5 for {{sc|5000}}.",
     "Link": "Liberated Grineer",
+    "Price": {
+      "sc": 5000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Liberated Grineer",
     "Position": "Suffix",
+    "Tags": [
+      "Syndicate"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/SteelMeridianTitle",
     "CodexSecret": true
   },
   "Devil's Own": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Devil's Own",
+    "Description": "Awarded for [[Kinemantik Instant Messenger#Dating|beginning a relationship]] with [[Roathe]].",
     "Link": "Devil's Own",
+    "ExcludeFromCodex": true,
+    "Name": "Devil's Own",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "KIM"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/DateRoatheTitle",
     "CodexSecret": true
   },
   "Friend of Sentients": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Friend of Sentients",
+    "Description": "Awarded for delivering 100 Energy Cores to Typholysts in [[The Perita Rebellion]].",
     "Link": "Friend of Sentients",
+    "ExcludeFromCodex": true,
+    "Name": "Friend of Sentients",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Perita"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/SentientFriendTitle",
     "CodexSecret": true
   },
   "Hunter Founder": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Hunter Founder",
+    "_IgnoreEntry": true,
+    "Description": "Awarded for [[Founders|being with us from the beginning]].",
     "Link": "Hunter Founder",
+    "ExcludeFromCodex": true,
+    "Name": "Hunter Founder",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Founder"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/FounderLvl2Title",
     "CodexSecret": true
   },
   "Death from Above": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Death from Above",
+    "Description": "Kill 100 grounded enemies while soaring above the Plains of Eidolon, Orb Vallis, or Cambion Drift on your K-Drive or Archwing.",
     "Link": "Death from Above",
+    "ExcludeFromCodex": true,
+    "Name": "Death from Above",
     "Position": "Suffix",
+    "Tags": [
+      "Open World"
+    ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/FromOnHighTitle",
     "CodexSecret": true
   },
   "Giant Slayer": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Giant Slayer",
+    "Description": "Awarded for defeating every [[Eidolon]] in [[Plains of Eidolon]].",
     "Link": "Giant Slayer",
+    "ExcludeFromCodex": true,
+    "Name": "Giant Slayer",
     "Position": "Suffix",
+    "Tags": [
+      "Boss Fight"
+    ],
     "Introduced": "43",
     "InternalName": "/Lotus/Types/Items/Titles/EidolonHunterTitle",
     "CodexSecret": true
   },
   "Parazon Runner": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Parazon Runner",
+    "Description": "Solve a [[Cipher]] in under 5 seconds.",
     "Link": "Parazon Runner",
+    "ExcludeFromCodex": true,
+    "Name": "Parazon Runner",
     "Position": "Suffix",
+    "Tags": [
+      "Miscellaneous"
+    ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/SolveCipherUnder5Title",
     "CodexSecret": true
   },
   "The Lover": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "The Lover",
+    "Description": "Awarded for [[Kinemantik Instant Messenger#Dating|beginning a relationship]] with a [[Protoframe]].",
     "Link": "The Lover",
+    "ExcludeFromCodex": true,
+    "Name": "The Lover",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "KIM"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/LoverTitle",
     "CodexSecret": true
   },
   "Temporal Investigator": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Temporal Investigator",
+    "Description": "Complete [[Elite Temporal Archimedea]] with max Research points.",
     "Link": "Temporal Investigator",
+    "ExcludeFromCodex": true,
+    "Name": "Temporal Investigator",
     "Position": "Suffix",
+    "Tags": [
+      "Archimedea"
+    ],
     "Introduced": "43",
     "InternalName": "/Lotus/Types/Items/Titles/CompleteETAMaxTitle",
     "CodexSecret": true
   },
   "Force of Nature": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Force of Nature",
     "Link": "Force of Nature",
+    "Price": {
+      "Circuits": 150000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Force of Nature",
     "Position": "Suffix",
+    "Tags": [
+      "Hunhow"
+    ],
     "Introduced": "43",
     "InternalName": "/Lotus/Types/Items/Titles/HunhowHonoria/TitleMag",
     "CodexSecret": true
   },
   "Doesn't Miss": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Doesn't Miss",
+    "Description": "Kill an enemy from over 100 meters away on the Plains of Eidolon.",
     "Link": "Doesn't Miss",
+    "ExcludeFromCodex": true,
+    "Name": "Doesn't Miss",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Open World"
+    ],
+    "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/SharpShooterTitle",
     "CodexSecret": true
   },
   "The Void Called to Me": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "The Void Called to Me",
+    "Description": "Awarded for collecting all 6 [[Accolade Glyphs]] from [[Janus Captain Vor]].",
     "Link": "The Void Called to Me",
+    "ExcludeFromCodex": true,
+    "Name": "The Void Called to Me",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Boss Fight"
+    ],
+    "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/VorHardModeTitle",
     "CodexSecret": true
   },
   "The Maniac of Deimos": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "The Maniac of Deimos",
     "Link": "The Maniac of Deimos",
+    "Price": {
+      "Ganglion": 1000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "The Maniac of Deimos",
     "Position": "Prefix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleGanglion",
     "CodexSecret": true
   },
   "Matriarch": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Matriarch",
     "Link": "Matriarch",
+    "Price": {
+      "Mother Token": 500
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Matriarch",
     "Position": "Prefix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleMotherTokens",
     "CodexSecret": true
   },
   "Shadow Conservator": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Shadow Conservator",
     "Link": "Shadow Conservator",
+    "Price": {
+      "Nightmare Tatters": 200
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Shadow Conservator",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Event"
+    ],
+    "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/ShadowgrapherEventVendorTitle",
     "CodexSecret": true
   },
   "Awoken Tenno": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Awoken Tenno",
+    "Description": "Awarded for completing '[[The Second Dream]]'.",
     "Link": "Awoken Tenno",
+    "ExcludeFromCodex": true,
+    "Name": "Awoken Tenno",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Quest"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/SecondDreamTitle",
     "CodexSecret": true
   },
   "Fragmented": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Fragmented",
+    "Description": "Awarded for collecting all 6 [[Accolade Glyphs]] from [[The Fragmented One]].",
     "Link": "Fragmented",
+    "ExcludeFromCodex": true,
+    "Name": "Fragmented",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Boss Fight"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/HardFragmentedTitle",
     "CodexSecret": true
   },
   "Scholar of Secrets": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Scholar of Secrets",
+    "Description": "Awarded for obtaining [[Lorak]] the Zenurik Grimoire.",
     "Link": "Scholar of Secrets",
+    "ExcludeFromCodex": true,
+    "Name": "Scholar of Secrets",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Tektolyst Artifact"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/ZenurikGrimoireTitle",
     "CodexSecret": true
   },
   "Fatuous Nymph": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Fatuous Nymph",
     "Link": "Fatuous Nymph",
+    "Price": {
+      "Heart Noctrul": 100
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Fatuous Nymph",
     "Position": "Prefix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleYareli",
     "CodexSecret": true
   },
   "Ack-Ack": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Ack-Ack",
+    "Description": "Awarded for destroying 30 airborne units from the ground.",
     "Link": "Ack-Ack",
+    "ExcludeFromCodex": true,
+    "Name": "Ack-Ack",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Miscellaneous"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/AirHunterTitle",
     "CodexSecret": true
   },
   "Shadowgrapher": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Shadowgrapher",
+    "Description": "Complete [[Follie's Hunt]] ten times.",
     "Link": "Shadowgrapher",
+    "ExcludeFromCodex": true,
+    "Name": "Shadowgrapher",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Follie's Hunt"
+    ],
+    "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/FollieHuntTenTitle",
     "CodexSecret": true
   },
   "Volatile Mote": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Volatile Mote",
     "Link": "Volatile Mote",
+    "Price": {
+      "Volatile Motes": 10
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Volatile Mote",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Event"
+    ],
+    "Introduced": "42.0.9",
     "InternalName": "/Lotus/Types/Items/Titles/BOTBEventVendor3Title",
     "CodexSecret": true
   },
   "Eagle": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Eagle",
+    "Description": "Reach Mastery Rank 16.",
     "Link": "Eagle",
+    "ExcludeFromCodex": true,
+    "Name": "Eagle",
     "Position": "Prefix",
+    "Tags": [
+      "Mastery"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/MR16Title",
     "CodexSecret": true
   },
   "Grand Master Founder": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Grand Master Founder",
+    "_IgnoreEntry": true,
+    "Description": "Awarded for [[Founders|being with us from the beginning]].",
     "Link": "Grand Master Founder",
+    "ExcludeFromCodex": true,
+    "Name": "Grand Master Founder",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Founder"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/FounderLvl4Title",
     "CodexSecret": true
   },
   "It's All Relative": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "It's All Relative",
     "Link": "It's All Relative",
+    "Price": {
+      "Temporal Dust": 250
+    },
+    "ExcludeFromCodex": true,
+    "Name": "It's All Relative",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/NovaTitle",
     "CodexSecret": true
   },
   "Mayor of Corpus City": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Mayor of Corpus City",
     "Link": "Mayor of Corpus City",
+    "Price": {
+      "Hexenon": 2000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Mayor of Corpus City",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleHexenon",
     "CodexSecret": true
   },
   "True Master": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "True Master",
+    "Description": "Reach Mastery Rank 30.",
     "Link": "True Master",
+    "ExcludeFromCodex": true,
+    "Name": "True Master",
     "Position": "Prefix",
+    "Tags": [
+      "Mastery"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/MR30Title",
     "CodexSecret": true
   },
   "On-lyne Fan": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "On-lyne Fan",
+    "Description": "Awarded for vanquishing a [[Technocyte Coda]].",
     "Link": "On-lyne Fan",
+    "ExcludeFromCodex": true,
+    "Name": "On-lyne Fan",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Adversary",
+      "Technocyte Coda"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/CodaKillerTitle",
     "CodexSecret": true
   },
   "Lyon's Savior": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Lyon's Savior",
+    "Description": "Awarded for defending [[Lyon]] within [[The Descendia]] 3 times.",
     "Link": "Lyon's Savior",
+    "ExcludeFromCodex": true,
+    "Name": "Lyon's Savior",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Descendia"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/DefendLyonTitle",
     "CodexSecret": true
   },
   "Hotwired": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Hotwired",
+    "Description": "Awarded for stealing 20 Anarch Shuttles in [[The Perita Rebellion]].",
     "Link": "Hotwired",
+    "ExcludeFromCodex": true,
+    "Name": "Hotwired",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Perita"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/HotwiredTitle",
     "CodexSecret": true
   },
   "Big Spender": {
-    "ExcludeFromCodex": true,
-    "Description": "{{cc|100,000}}",
-    "Name": "Big Spender",
+    "Description": "",
     "Link": "Big Spender",
+    "Price": {
+      "cc": 100000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Big Spender",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleCreditsBig",
     "CodexSecret": true
   },
   "The Awoken Sword": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "The Awoken Sword",
     "Link": "The Awoken Sword",
+    "Price": {
+      "Alloy Plate": 500000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "The Awoken Sword",
     "Position": "Prefix",
+    "Tags": [
+      "Hunhow"
+    ],
     "Introduced": "43",
     "InternalName": "/Lotus/Types/Items/Titles/HunhowHonoria/TitleExcalibur",
     "CodexSecret": true
   },
   "Arbiter of Ink": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Arbiter of Ink",
+    "Description": "Help [[Aspirant Zorba]] read all five of Master Kozai's letters.",
     "Link": "Arbiter of Ink",
+    "ExcludeFromCodex": true,
+    "Name": "Arbiter of Ink",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Follie's Hunt"
+    ],
+    "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/FollieHuntCompleteTitle",
     "CodexSecret": true
   },
   "Diplomatic Merchant": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Diplomatic Merchant",
+    "Description": "Purchased from the [[Perrin Sequence]] at Rank 5 for {{sc|5000}}.",
     "Link": "Diplomatic Merchant",
+    "Price": {
+      "sc": 5000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Diplomatic Merchant",
     "Position": "Prefix",
+    "Tags": [
+      "Syndicate"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/PerrinSequenceTitle",
     "CodexSecret": true
   },
   "Keeper of Secrets": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Keeper of Secrets",
     "Link": "Keeper of Secrets",
+    "Price": {
+      "Bellow Voca": 50
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Keeper of Secrets",
     "Position": "Suffix",
+    "Tags": [
+      "Hunhow"
+    ],
     "Introduced": "43",
     "InternalName": "/Lotus/Types/Items/Titles/HunhowHonoria/TitleDanteDeluxe",
     "CodexSecret": true
   },
   "Double Trouble": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Double Trouble",
+    "Description": "Awarded for completing all 21 floors of [[The Descendia]] as [[Uriel]].",
     "Link": "Double Trouble",
+    "ExcludeFromCodex": true,
+    "Name": "Double Trouble",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Descendia"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/CompleteDescendiaUrielTitle",
     "CodexSecret": true
   },
   "Paper Crane": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Paper Crane",
+    "Description": "Awarded for [[Kinemantik Instant Messenger#Dating|beginning a relationship]] with [[Aoi]].",
     "Link": "Paper Crane",
+    "ExcludeFromCodex": true,
+    "Name": "Paper Crane",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "KIM"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/DateAoiTitle",
     "CodexSecret": true
   },
   "Chosen of Margulis": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Chosen of Margulis",
+    "Description": "Awarded for completing the Quest '[[The Old Peace]]'.",
     "Link": "Chosen of Margulis",
+    "ExcludeFromCodex": true,
+    "Name": "Chosen of Margulis",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Quest"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/OldPeaceTeaserTitle",
     "CodexSecret": true
   },
   "Perigone": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Perigone",
+    "Description": "Awarded for completing the Grandis XX Perigone challenge.",
     "Link": "Perigone",
+    "ExcludeFromCodex": true,
+    "Name": "Perigone",
     "Position": "Prefix",
+    "Tags": [
+      "Insign"
+    ],
     "Introduced": "41.0.5",
     "InternalName": "/Lotus/Types/Items/Titles/MedalRank20Title",
     "CodexSecret": true
   },
   "Dragon": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Dragon",
+    "Description": "Reach Mastery Rank 22.",
     "Link": "Dragon",
+    "ExcludeFromCodex": true,
+    "Name": "Dragon",
     "Position": "Prefix",
+    "Tags": [
+      "Mastery"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/MR22Title",
     "CodexSecret": true
   },
   "Executive Overrider": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Executive Overrider",
+    "Description": "Awarded for vanquishing a [[Sister of Parvos]].",
     "Link": "Executive Overrider",
+    "ExcludeFromCodex": true,
+    "Name": "Executive Overrider",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Adversary"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/SisterKillerTitle",
     "CodexSecret": true
   },
   "The Mechanic": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "The Mechanic",
+    "Description": "Awarded for collecting all 6 [[Accolade Glyphs]] from [[H-09 Apex]].",
     "Link": "The Mechanic",
+    "ExcludeFromCodex": true,
+    "Name": "The Mechanic",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Boss Fight"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/HardTankTitle",
     "CodexSecret": true
   },
   "Kalymos's Best Friend": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Kalymos's Best Friend",
+    "Description": "Awarded for interacting with [[Kalymos]] in the [[Backroom]].",
     "Link": "Kalymos's Best Friend",
+    "ExcludeFromCodex": true,
+    "Name": "Kalymos's Best Friend",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Miscellaneous"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/KalymosTitle",
     "CodexSecret": true
   },
   "l33t h4XX0r": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "l33t h4XX0r",
+    "Description": "Awarded for [[Kinemantik Instant Messenger#Dating|beginning a relationship]] with [[Amir]].",
     "Link": "l33t h4XX0r",
+    "ExcludeFromCodex": true,
+    "Name": "l33t h4XX0r",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "KIM"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/DateAmirTitle",
     "CodexSecret": true
   },
   "Lamenting One": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Lamenting One",
     "Link": "Lamenting One",
+    "Price": {
+      "Lamentus": 200
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Lamenting One",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleLamentus",
     "CodexSecret": true
   },
   "Ironclad": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Ironclad",
     "Link": "Ironclad",
+    "Price": {
+      "Ferrite": 400000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Ironclad",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleFerrite",
     "CodexSecret": true
   },
   "On-Lyne Superfan": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "On-Lyne Superfan",
+    "Description": "Reach Max Rank (40) with 5 [[Coda Weapons]].",
     "Link": "On-Lyne Superfan",
+    "ExcludeFromCodex": true,
+    "Name": "On-Lyne Superfan",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Adversary",
+      "Technocyte Coda"
+    ],
+    "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/CodaMasteryTitle",
     "CodexSecret": true
   },
   "Head Cracker": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Head Cracker",
     "Link": "Head Cracker",
+    "Price": {
+      "Experimental Arc-Relay": 500
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Head Cracker",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/FrumentariusTitle",
     "CodexSecret": true
   },
   "Spore Bearer": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Spore Bearer",
     "Link": "Spore Bearer",
+    "Price": {
+      "Nano Spores": 500000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Spore Bearer",
     "Position": "Prefix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleNanoSpores",
     "CodexSecret": true
   },
   "The Power of Harrow Compels Thee": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "The Power of Harrow Compels Thee",
+    "Description": "250 {{WF|Harrow}} Chassis Blueprints",
     "Link": "The Power of Harrow Compels Thee",
+    "ExcludeFromCodex": true,
+    "Name": "The Power of Harrow Compels Thee",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleHarrowChasisBlueprint",
     "CodexSecret": true
   },
   "Zenurik Vanguard": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Zenurik Vanguard",
     "Link": "Zenurik Vanguard",
+    "Price": {
+      "Focus": 5000000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Zenurik Vanguard",
     "Position": "Prefix",
+    "Tags": [
+      "Focus"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/ZenurikFocusHoarderTitle",
     "CodexSecret": true
   },
-  "Marie's Champion": {
+  "Biz's Business Partner": {
+    "Description": "Awarded for earning all 4 [[Conservation]] emblems.",
+    "Link": "Biz's Business Partner",
     "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Marie's Champion",
-    "Link": "Marie's Champion",
+    "Name": "Biz's Business Partner",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Open World"
+    ],
+    "Introduced": "43",
+    "InternalName": "/Lotus/Types/Items/Titles/AnimalLoverTitle",
+    "CodexSecret": true
+  },
+  "Marie's Champion": {
+    "Description": "Awarded for defending [[Marie]] within [[The Descendia]] 3 times.",
+    "Link": "Marie's Champion",
+    "ExcludeFromCodex": true,
+    "Name": "Marie's Champion",
+    "Position": "Suffix",
+    "Tags": [
+      "Descendia"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/DefendMarieTitle",
     "CodexSecret": true
   },
   "Minesweeper": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Minesweeper",
+    "Description": "Awarded for locating and defusing 81 buried mines in [[The Perita Rebellion]].",
     "Link": "Minesweeper",
+    "ExcludeFromCodex": true,
+    "Name": "Minesweeper",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Perita"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/MinesweeperTitle",
     "CodexSecret": true
   },
   "Worm Queen": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Worm Queen",
+    "Description": "Reach Max Rank (40) with 5 [[Kuva Weapons]].",
     "Link": "Worm Queen",
+    "ExcludeFromCodex": true,
+    "Name": "Worm Queen",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Adversary",
+      "Kuva"
+    ],
+    "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/KuvaMasteryTitle",
     "CodexSecret": true
   },
   "The Heir of Two Kingdoms": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "The Heir of Two Kingdoms",
     "Link": "The Heir of Two Kingdoms",
+    "Price": {
+      "Narmer Isoplast": 50
+    },
+    "ExcludeFromCodex": true,
+    "Name": "The Heir of Two Kingdoms",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleCaliban",
     "CodexSecret": true
   },
   "Madurai Vanguard": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Madurai Vanguard",
     "Link": "Madurai Vanguard",
+    "Price": {
+      "Focus": 5000000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Madurai Vanguard",
     "Position": "Prefix",
+    "Tags": [
+      "Focus"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/MaduraiFocusHoarderTitle",
     "CodexSecret": true
   },
   "Butterfingers": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Butterfingers",
+    "Description": "{{text||Collect a special piece of loot in [[Fables & Frontiers]].|hover=Obtain Sword of Greater Buttercutting on Day 2.}}",
     "Link": "Butterfingers",
+    "ExcludeFromCodex": true,
+    "Name": "Butterfingers",
     "Position": "Suffix",
+    "Tags": [
+      "KIM"
+    ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/AmirCampaignButterfingersTitle",
     "CodexSecret": true
   },
   "Tenens": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Tenens",
+    "Description": "Awarded for completing the Tenens IX Sporoi challenge.",
     "Link": "Tenens",
+    "ExcludeFromCodex": true,
+    "Name": "Tenens",
     "Position": "Suffix",
+    "Tags": [
+      "Insign"
+    ],
     "Introduced": "41.0.5",
     "InternalName": "/Lotus/Types/Items/Titles/MedalRank9Title",
     "CodexSecret": true
   },
   "Plague Doctor": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Plague Doctor",
+    "Description": "Defeat [[Phorid]] and get to extraction.",
     "Link": "Plague Doctor",
+    "ExcludeFromCodex": true,
+    "Name": "Plague Doctor",
     "Position": "Suffix",
+    "Tags": [
+      "Miscellaneous"
+    ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/KillPhoridTitle",
     "CodexSecret": true
   },
   "Naramon Vanguard": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Naramon Vanguard",
     "Link": "Naramon Vanguard",
+    "Price": {
+      "Focus": 5000000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Naramon Vanguard",
     "Position": "Prefix",
+    "Tags": [
+      "Focus"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/NaramonFocusHoarderTitle",
     "CodexSecret": true
   },
   "Hive-kin": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Hive-kin",
     "Link": "Hive-kin",
+    "Price": {
+      "Ascaris Prime": 20
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Hive-kin",
     "Position": "Prefix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleAscarisPrime",
     "CodexSecret": true
   },
   "Busy Monologuing": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Busy Monologuing",
+    "Description": "{{text||Collect a special piece of loot in [[Fables & Frontiers]].|hover=Obtain Commander Nach's Monologuing Head on Day 3.}}",
     "Link": "Busy Monologuing",
+    "ExcludeFromCodex": true,
+    "Name": "Busy Monologuing",
     "Position": "Suffix",
+    "Tags": [
+      "KIM"
+    ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/AmirCampaignLootTitle",
     "CodexSecret": true
   },
   "Legally Distinct": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Legally Distinct",
+    "Description": "{{text||Annoy Amir a great many times.|hover=Ring the bell to summon Amir numerous times. Each ring after the first randomly gives 3, 4, or 5 points, requires 1337 points.}}",
     "Link": "Legally Distinct",
+    "ExcludeFromCodex": true,
+    "Name": "Legally Distinct",
     "Position": "Prefix",
+    "Tags": [
+      "Miscellaneous"
+    ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/AmirCampaignAnnoyTitle",
     "CodexSecret": true
   },
   "Pas de Deux": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Pas de Deux",
+    "Description": "Awarded for completing all 21 floors of [[The Descendia]] as [[Wisp]].",
     "Link": "Pas de Deux",
+    "ExcludeFromCodex": true,
+    "Name": "Pas de Deux",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Descendia"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/CompleteDescendiaWispTitle",
     "CodexSecret": true
   },
   "Wolfmother": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Wolfmother",
     "Link": "Wolfmother",
+    "Price": {
+      "Lua Thrax Plasm": 150
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Wolfmother",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleVoruna",
     "CodexSecret": true
   },
   "Strikes Twice": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Strikes Twice",
     "Link": "Strikes Twice",
+    "Price": {
+      "Morphics": 500
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Strikes Twice",
     "Position": "Suffix",
+    "Tags": [
+      "Hunhow"
+    ],
     "Introduced": "43",
     "InternalName": "/Lotus/Types/Items/Titles/HunhowHonoria/TitleVolt",
     "CodexSecret": true
   },
   "Will Do Anything For Money": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Will Do Anything For Money",
+    "Description": "Earn Battle Pay from 5 unique Invasions.",
     "Link": "Will Do Anything For Money",
+    "ExcludeFromCodex": true,
+    "Name": "Will Do Anything For Money",
     "Position": "Suffix",
+    "Tags": [
+      "Miscellaneous"
+    ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/Mercenary5InvasionsTitle",
     "CodexSecret": true
   },
   "Harrow's Shadow": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Harrow's Shadow",
+    "Description": "Awarded for completing all 21 floors of [[The Descendia]] as [[Harrow]].",
     "Link": "Harrow's Shadow",
+    "ExcludeFromCodex": true,
+    "Name": "Harrow's Shadow",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Descendia"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/CompleteDescendiaHarrowTitle",
     "CodexSecret": true
   },
   "King of Duviri": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "King of Duviri",
+    "Description": "Awarded for completing '[[The Duviri Paradox]]'.",
     "Link": "King of Duviri",
+    "ExcludeFromCodex": true,
+    "Name": "King of Duviri",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Quest"
+    ],
+    "Introduced": "43",
     "InternalName": "/Lotus/Types/Items/Titles/DuviriKingQuestTitle",
     "CodexSecret": true
   },
   "Divine Comedian": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Divine Comedian",
+    "Description": "Awarded for completing all 21 floors of [[The Descendia]] as [[Dante]].",
     "Link": "Divine Comedian",
+    "ExcludeFromCodex": true,
+    "Name": "Divine Comedian",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Descendia"
+    ],
+    "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/DanteDescendiaTitle",
     "CodexSecret": true
   },
   "Orb Liquidator": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Orb Liquidator",
+    "Description": "Awarded for defeating [[Profit-Taker Orb|Profit-Taker]] and [[Exploiter Orb]]",
     "Link": "Orb Liquidator",
+    "ExcludeFromCodex": true,
+    "Name": "Orb Liquidator",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Boss Fight"
+    ],
+    "Introduced": "43",
     "InternalName": "/Lotus/Types/Items/Titles/OrbHunterTitle",
     "CodexSecret": true
   },
   "The Navigator": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "The Navigator",
     "Link": "The Navigator",
+    "Price": {
+      "Nav Coordinate": 1000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "The Navigator",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleNavCoordinates",
     "CodexSecret": true
   },
   "Sage": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Sage",
+    "Description": "Reach Mastery Rank 25.",
     "Link": "Sage",
+    "ExcludeFromCodex": true,
+    "Name": "Sage",
     "Position": "Suffix",
+    "Tags": [
+      "Mastery"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/MR25Title",
     "CodexSecret": true
   },
   "Conscientious Objector": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Conscientious Objector",
     "Link": "Conscientious Objector",
+    "Price": {
+      "Sola Toroid": 15
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Conscientious Objector",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/BaruukTitle",
     "CodexSecret": true
   },
   "Disciple Founder": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Disciple Founder",
+    "_IgnoreEntry": true,
+    "Description": "Awarded for [[Founders|being with us from the beginning]].",
     "Link": "Disciple Founder",
+    "ExcludeFromCodex": true,
+    "Name": "Disciple Founder",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Founder"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/FounderLvl1Title",
     "CodexSecret": true
   },
   "Heart Shot": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Heart Shot",
+    "Description": "Awarded for [[Kinemantik Instant Messenger#Dating|beginning a relationship]] with [[Quincy]].",
     "Link": "Heart Shot",
+    "ExcludeFromCodex": true,
+    "Name": "Heart Shot",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "KIM"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/DateQuincyTitle",
     "CodexSecret": true
   },
   "Was Never Here": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Was Never Here",
+    "Description": "Destroy 150 Security Cameras.",
     "Link": "Was Never Here",
+    "ExcludeFromCodex": true,
+    "Name": "Was Never Here",
     "Position": "Suffix",
+    "Tags": [
+      "Miscellaneous"
+    ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/TheCameraAdds100Title",
     "CodexSecret": true
   },
   "The God Above Knowledge": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "The God Above Knowledge",
     "Link": "The God Above Knowledge",
+    "Price": {
+      "Echo Voca": 10
+    },
+    "ExcludeFromCodex": true,
+    "Name": "The God Above Knowledge",
     "Position": "Prefix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleEchoVoca",
     "CodexSecret": true
   },
   "Unairu Vanguard": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Unairu Vanguard",
     "Link": "Unairu Vanguard",
+    "Price": {
+      "Focus": 5000000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Unairu Vanguard",
     "Position": "Prefix",
+    "Tags": [
+      "Focus"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/UnairuFocusHoarderTitle",
     "CodexSecret": true
   },
   "Voyager": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Voyager",
     "Link": "Voyager",
+    "Price": {
+      "Asterite": 5000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Voyager",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleRailjack",
     "CodexSecret": true
   },
   "Vazarin Vanguard": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Vazarin Vanguard",
     "Link": "Vazarin Vanguard",
+    "Price": {
+      "Focus": 5000000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Vazarin Vanguard",
     "Position": "Prefix",
+    "Tags": [
+      "Focus"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/VazarinFocusHoarderTitle",
     "CodexSecret": true
   },
   "Demoness": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Demoness",
     "Link": "Demoness",
+    "Price": {
+      "Maphica": 20
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Demoness",
     "Position": "Prefix",
-    "Introduced": "20",
+    "Tags": [
+      "Roathe"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleMaphica",
     "CodexSecret": true
   },
   "Tiger": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Tiger",
+    "Description": "Reach Mastery Rank 19.",
     "Link": "Tiger",
+    "ExcludeFromCodex": true,
+    "Name": "Tiger",
     "Position": "Prefix",
+    "Tags": [
+      "Mastery"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/MR19Title",
     "CodexSecret": true
   },
   "Ticker's Angel": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Ticker's Angel",
     "Link": "Ticker's Angel",
+    "Price": {
+      "Familial Debt-Bond": 100
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Ticker's Angel",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleDebtBond",
     "CodexSecret": true
   },
   "Conscience Painter": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Conscience Painter",
     "Link": "Conscience Painter",
+    "Price": {
+      "Atramentum": 1000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Conscience Painter",
     "Position": "Prefix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleFollie",
     "CodexSecret": true
   },
   "The Warden of Alchemy": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "The Warden of Alchemy",
     "Link": "The Warden of Alchemy",
+    "Price": {
+      "Xenorhast": 110
+    },
+    "ExcludeFromCodex": true,
+    "Name": "The Warden of Alchemy",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleLavos",
     "CodexSecret": true
   },
   "The Sunderer": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "The Sunderer",
     "Link": "The Sunderer",
+    "Price": {
+      "Riven Sliver": 200
+    },
+    "ExcludeFromCodex": true,
+    "Name": "The Sunderer",
     "Position": "Prefix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleRivenSilvers",
     "CodexSecret": true
   },
   "The Scavenger": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "The Scavenger",
     "Link": "The Scavenger",
+    "Price": {
+      "Salvage": 600000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "The Scavenger",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleSalvage",
     "CodexSecret": true
   },
   "Hot Sludge": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Hot Sludge",
     "Link": "Hot Sludge",
+    "Price": {
+      "Thermal Sludge": 200
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Hot Sludge",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleThermalSludge",
     "CodexSecret": true
   },
   "It Will Kill": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "It Will Kill",
+    "Description": "Craft your first [[Zaw]].",
     "Link": "It Will Kill",
+    "ExcludeFromCodex": true,
+    "Name": "It Will Kill",
     "Position": "Suffix",
+    "Tags": [
+      "Miscellaneous"
+    ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/ForgedInFireTitle",
     "CodexSecret": true
   },
   "Wave Rider": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Wave Rider",
+    "Description": "Complete every [[K-Drive Race]] in Orb Vallis.",
     "Link": "Wave Rider",
+    "ExcludeFromCodex": true,
+    "Name": "Wave Rider",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Open World"
+    ],
+    "Introduced": "43",
     "InternalName": "/Lotus/Types/Items/Titles/KRacerTitle",
     "CodexSecret": true
   },
   "Forever": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Forever",
     "Link": "Forever",
+    "Price": {
+      "Argon Crystal": 20
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Forever",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleArgon",
     "CodexSecret": true
   },
   "The Mad King": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "The Mad King",
     "Link": "The Mad King",
+    "Price": {
+      "Thrax Plasm": 1000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "The Mad King",
     "Position": "Prefix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleThraxPlasm",
     "CodexSecret": true
   },
   "Doctor": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Doctor",
     "Link": "Doctor",
+    "Price": {
+      "Squad Health Restore (Large)": 500
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Doctor",
     "Position": "Prefix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TrinityTitle",
     "CodexSecret": true
   },
   "Fire and Brimstone": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Fire and Brimstone",
     "Link": "Fire and Brimstone",
+    "Price": {
+      "Ignia": 1000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Fire and Brimstone",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleIgnia",
     "CodexSecret": true
   },
   "Feelin' Lucky": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Feelin' Lucky",
     "Link": "Feelin' Lucky",
+    "Price": {
+      "Mutalist Alad V Nav Coordinate": 10
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Feelin' Lucky",
     "Position": "Suffix",
+    "Tags": [
+      "Hunhow"
+    ],
     "Introduced": "43",
     "InternalName": "/Lotus/Types/Items/Titles/HunhowHonoria/TitleMesa",
     "CodexSecret": true
   },
-  "Nemesis Of Eris": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Nemesis Of Eris",
-    "Link": "Nemesis Of Eris",
-    "Position": "Suffix",
-    "Introduced": "",
-    "InternalName": "/Lotus/Types/Items/Titles/NemesisOfErisTitle",
-    "CodexSecret": true
-  },
   "Seeker of Truth": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Seeker of Truth",
+    "Description": "Purchased from the [[Arbiters of Hexis]] at Rank 5 for {{sc|5000}}.",
     "Link": "Seeker of Truth",
+    "Price": {
+      "sc": 5000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Seeker of Truth",
     "Position": "Prefix",
+    "Tags": [
+      "Syndicate"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/ArbitersOfHexisTitle",
     "CodexSecret": true
   },
-  "Hunter": {
+  "The Great & Terrible": {
+    "Description": "Awarded for completing the Quest '[[Jade Shadows]]'.",
+    "Link": "The Great & Terrible",
     "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Hunter",
+    "Name": "The Great & Terrible",
+    "Position": "Suffix",
+    "Tags": [
+      "Quest"
+    ],
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/JadeShadowsTitle",
+    "CodexSecret": true
+  },
+  "Hunter": {
+    "Description": "Reach Mastery Rank 13.",
     "Link": "Hunter",
+    "ExcludeFromCodex": true,
+    "Name": "Hunter",
     "Position": "Prefix",
+    "Tags": [
+      "Mastery"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/MR13Title",
     "CodexSecret": true
   },
   "On this Beach of an Earth": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "On this Beach of an Earth",
     "Link": "On this Beach of an Earth",
+    "Price": {
+      "Nakak Pearl": 300
+    },
+    "ExcludeFromCodex": true,
+    "Name": "On this Beach of an Earth",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Event",
+      "Dog Days"
+    ],
+    "Introduced": "43.0.7",
     "InternalName": "/Lotus/Types/Items/Titles/DogDaysTitle",
     "CodexSecret": true
   },
   "Disciple": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Disciple",
+    "Description": "Reach Mastery Rank 7.",
     "Link": "Disciple",
+    "ExcludeFromCodex": true,
+    "Name": "Disciple",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Mastery"
+    ],
+    "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/MR7Title",
     "CodexSecret": true
   },
-  "The Great & Terrible": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "The Great & Terrible",
-    "Link": "The Great & Terrible",
-    "Position": "Suffix",
-    "Introduced": "",
-    "InternalName": "/Lotus/Types/Items/Titles/JadeShadowsTitle",
-    "CodexSecret": true
-  },
   "The Gallant Gourmand": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "The Gallant Gourmand",
+    "Description": "Acquire [[Grendel Prime]].",
     "Link": "The Gallant Gourmand",
+    "ExcludeFromCodex": true,
+    "Name": "The Gallant Gourmand",
     "Position": "Suffix",
+    "Tags": [
+      "Prime"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/TitleGrendelPrime",
     "CodexSecret": true
   },
   "The Devil's Confessor": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "The Devil's Confessor",
+    "Description": "Awarded for listening to all 21 of [[Roathe]]'s Trauma logs.",
     "Link": "The Devil's Confessor",
+    "ExcludeFromCodex": true,
+    "Name": "The Devil's Confessor",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "KIM"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/UrielConfessionTitle",
     "CodexSecret": true
   },
   "The Demolitionist": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "The Demolitionist",
+    "Description": "Kill 10 or more enemies with a single explosion.",
     "Link": "The Demolitionist",
+    "ExcludeFromCodex": true,
+    "Name": "The Demolitionist",
     "Position": "Prefix",
+    "Tags": [
+      "Miscellaneous"
+    ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/KaboomTitle",
     "CodexSecret": true
   },
-  "As One": {
-    "ExcludeFromCodex": true,
+  "Matron of Malaise": {
     "Description": "",
-    "Name": "As One",
+    "Link": "Matron of Malaise",
+    "Price": {
+      "Judgement Points": 250
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Matron of Malaise",
+    "Position": "Prefix",
+    "Tags": [
+      "Roathe"
+    ],
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleSaryn",
+    "CodexSecret": true
+  },
+  "As One": {
+    "Description": "",
     "Link": "As One",
+    "Price": {
+      "Crimson Talent": 10,
+      "Emerald Talent": 10
+    },
+    "ExcludeFromCodex": true,
+    "Name": "As One",
     "Position": "Suffix",
+    "Tags": [
+      "Hunhow"
+    ],
     "Introduced": "43",
     "InternalName": "/Lotus/Types/Items/Titles/HunhowHonoria/TitleSiriusOrion",
     "CodexSecret": true
   },
   "Master of Minds": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Master of Minds",
     "Link": "Master of Minds",
+    "Price": {
+      "Tiametrite": 250
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Master of Minds",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/NyxTitle",
     "CodexSecret": true
   },
-  "Matron of Malaise": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Matron of Malaise",
-    "Link": "Matron of Malaise",
-    "Position": "Prefix",
-    "Introduced": "42",
-    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleSaryn",
-    "CodexSecret": true
-  },
   "The Arcanist": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "The Arcanist",
+    "Description": "Awarded for getting 20 [[Arcanes]] to Max Rank.",
     "Link": "The Arcanist",
+    "ExcludeFromCodex": true,
+    "Name": "The Arcanist",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Miscellaneous"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/ArcaneCollectorTitle",
     "CodexSecret": true
   },
-  "Exorcist": {
+  "Staff": {
+    "_IgnoreEntry": true,
+    "Description": "The mark of a Digital Extremes employee.",
+    "Link": "Staff",
     "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Exorcist",
+    "Name": "Staff",
+    "Position": "Prefix",
+    "Tags": [
+      "Staff"
+    ],
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/DeveloperTitle",
+    "CodexSecret": true
+  },
+  "Exorcist": {
+    "Description": "Awarded for defeating Roathe in [[The Descendia]] 21 times.",
     "Link": "Exorcist",
+    "ExcludeFromCodex": true,
+    "Name": "Exorcist",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Descendia"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/UrielKillerTitle",
     "CodexSecret": true
   },
   "Sworn Sister": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Sworn Sister",
     "Link": "Sworn Sister",
+    "Price": {
+      "Spectral Debris": 50
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Sworn Sister",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleSpectralDebris",
     "CodexSecret": true
   },
   "Jammer": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Jammer",
+    "Description": "Awarded for taking out 50 communication relays in [[The Perita Rebellion]].",
     "Link": "Jammer",
+    "ExcludeFromCodex": true,
+    "Name": "Jammer",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Perita"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/JammerTitle",
     "CodexSecret": true
   },
   "Sticker Master": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Sticker Master",
+    "Description": "Awarded for collecting every Peely Pix from [[Temporal Archimedea]].",
     "Link": "Sticker Master",
+    "ExcludeFromCodex": true,
+    "Name": "Sticker Master",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Miscellaneous"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/StickerConquestTitle",
     "CodexSecret": true
   },
   "My Light Goes With You": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "My Light Goes With You",
+    "Description": "Awarded for clearing [[The Guilty]].",
     "Link": "My Light Goes With You",
+    "ExcludeFromCodex": true,
+    "Name": "My Light Goes With You",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Boss Fight"
+    ],
+    "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/PeritaHardModeTitle",
     "CodexSecret": true
   },
   "Swordmaster": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Swordmaster",
+    "Description": "Awarded for obtaining [[Vexoric]] the Naramon Sword.",
     "Link": "Swordmaster",
+    "ExcludeFromCodex": true,
+    "Name": "Swordmaster",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Tektolyst Artifact"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/NaramonBladeTitle",
     "CodexSecret": true
   },
   "Supreme Operative": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Supreme Operative",
+    "Description": "Awarded for beating Amir's High Score in [[Caliber chicks]].",
     "Link": "Supreme Operative",
+    "ExcludeFromCodex": true,
+    "Name": "Supreme Operative",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Miscellaneous"
+    ],
+    "Introduced": "43",
     "InternalName": "/Lotus/Types/Items/Titles/CaliburChicksHighScoreTitle",
     "CodexSecret": true
   },
   "Master Founder": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Master Founder",
+    "_IgnoreEntry": true,
+    "Description": "Awarded for [[Founders|being with us from the beginning]].",
     "Link": "Master Founder",
+    "ExcludeFromCodex": true,
+    "Name": "Master Founder",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Founder"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/FounderLvl3Title",
     "CodexSecret": true
   },
   "Storm Archer": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Storm Archer",
+    "Description": "Awarded for obtaining [[Thara]] the Madurai Bow.",
     "Link": "Storm Archer",
+    "ExcludeFromCodex": true,
+    "Name": "Storm Archer",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Tektolyst Artifact"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/MaduraiBowTitle",
     "CodexSecret": true
   },
   "Steel Soldier": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Steel Soldier",
     "Link": "Steel Soldier",
+    "Price": {
+      "Steel Essence": 200
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Steel Soldier",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleSteelEssence",
     "CodexSecret": true
   },
   "Forever Fablemaster": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Forever Fablemaster",
+    "Description": "Complete the [[Fables & Frontiers]] Campaign.",
     "Link": "Forever Fablemaster",
+    "ExcludeFromCodex": true,
+    "Name": "Forever Fablemaster",
     "Position": "Suffix",
+    "Tags": [
+      "KIM"
+    ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/AmirCampaignCompleteTitle",
     "CodexSecret": true
   },
   "Sleeping in the Cold Below": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Sleeping in the Cold Below",
+    "Description": "Reach Max Rank (40) with 5 [[Tenet Weapons]].",
     "Link": "Sleeping in the Cold Below",
+    "ExcludeFromCodex": true,
+    "Name": "Sleeping in the Cold Below",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Adversary",
+      "Tenet"
+    ],
+    "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/TenetMasteryTitle",
     "CodexSecret": true
   },
   "Patriarch": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Patriarch",
     "Link": "Patriarch",
+    "Price": {
+      "Father Token": 75
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Patriarch",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleFatherTokens",
     "CodexSecret": true
   },
   "Eradicator of Corruption": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Eradicator of Corruption",
+    "Description": "Purchased from the [[Red Veil]] at Rank 5 for {{sc|5000}}.",
     "Link": "Eradicator of Corruption",
+    "Price": {
+      "sc": 5000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Eradicator of Corruption",
     "Position": "Suffix",
+    "Tags": [
+      "Syndicate"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/RedVeilTitle",
     "CodexSecret": true
   },
   "Dream Catcher": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Dream Catcher",
+    "Description": "Awarded for recruiting one Tenno via [[Referral Program]].",
     "Link": "Dream Catcher",
+    "ExcludeFromCodex": true,
+    "Name": "Dream Catcher",
     "Position": "Suffix",
+    "Tags": [
+      "Miscellaneous"
+    ],
     "Introduced": "43",
     "InternalName": "/Lotus/Types/Items/Titles/ReferAFriendTitle",
     "CodexSecret": true
   },
   "Yuvan Rising": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Yuvan Rising",
     "Link": "Yuvan Rising",
+    "Price": {
+      "Kuva": 100000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Yuvan Rising",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleKuva",
     "CodexSecret": true
   },
   "Sentinel of Passion": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Sentinel of Passion",
     "Link": "Sentinel of Passion",
+    "Price": {
+      "Rania Crystal Fragment": 200,
+      "Belric Crystal Fragment": 200
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Sentinel of Passion",
     "Position": "Prefix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleCitrine",
     "CodexSecret": true
   },
   "The Learned": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "The Learned",
     "Link": "The Learned",
+    "Price": {
+      "Vessel Capillaries": 150
+    },
+    "ExcludeFromCodex": true,
+    "Name": "The Learned",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleDante",
     "CodexSecret": true
   },
   "Seeker": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Seeker",
+    "Description": "Reach Mastery Rank 10.",
     "Link": "Seeker",
+    "ExcludeFromCodex": true,
+    "Name": "Seeker",
     "Position": "Prefix",
+    "Tags": [
+      "Mastery"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/MR10Title",
     "CodexSecret": true
   },
   "Savior of Perita": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Savior of Perita",
+    "Description": "Awarded for collecting all 6 [[Accolade Glyphs]] from [[The Guilty]].",
     "Link": "Savior of Perita",
+    "ExcludeFromCodex": true,
+    "Name": "Savior of Perita",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Boss Fight"
+    ],
+    "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/PeritaHardModeSoloTitle",
     "CodexSecret": true
   },
   "Hai-Luk's Wholesaler": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Hai-Luk's Wholesaler",
+    "Description": " Awarded for catching 10 different Rare or Legendary [[Fishing#Species|Fish]].",
     "Link": "Hai-Luk's Wholesaler",
+    "ExcludeFromCodex": true,
+    "Name": "Hai-Luk's Wholesaler",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Open World"
+    ],
+    "Introduced": "43",
     "InternalName": "/Lotus/Types/Items/Titles/FisherTitle",
     "CodexSecret": true
   },
   "Saint of Altra": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Saint of Altra",
     "Link": "Saint of Altra",
+    "Price": {
+      "Sentirum": 500
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Saint of Altra",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleGauss",
     "CodexSecret": true
   },
   "Initiate": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Initiate",
+    "Description": "Reach Mastery Rank 1.",
     "Link": "Initiate",
+    "ExcludeFromCodex": true,
+    "Name": "Initiate",
     "Position": "Prefix",
+    "Tags": [
+      "Mastery"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/MR1Title",
     "CodexSecret": true
   },
   "Jade's Guardian": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Jade's Guardian",
     "Link": "Jade's Guardian",
+    "Price": {
+      "Vestigial Motes": 200
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Jade's Guardian",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleJade",
     "CodexSecret": true
   },
   "Biggest Spender": {
-    "ExcludeFromCodex": true,
-    "Description": "{{cc|2,500,000}}",
-    "Name": "Biggest Spender",
+    "Description": "",
     "Link": "Biggest Spender",
+    "Price": {
+      "cc": "2,500,000"
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Biggest Spender",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Roathe"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleCreditsBiggest",
     "CodexSecret": true
   },
   "Pleasure and Pain": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Pleasure and Pain",
+    "Description": "Awarded for [[Kinemantik Instant Messenger#Dating|beginning a relationship]] with [[Leticia]].",
     "Link": "Pleasure and Pain",
+    "ExcludeFromCodex": true,
+    "Name": "Pleasure and Pain",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "KIM"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/DateLettieTitle",
     "CodexSecret": true
   },
   "Marty <NAME> McFlea": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Marty <NAME> McFlea",
+    "Description": "Awarded for completing the Quest '[[The Hex (Quest)|The Hex]]'.",
     "Link": "Marty <NAME> McFlea",
+    "ExcludeFromCodex": true,
+    "Name": "Marty <NAME> McFlea",
     "Position": "Suffix & Prefix",
+    "Tags": [
+      "Quest"
+    ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/TheHexCompleteTitle",
     "CodexSecret": true
   },
   "Early Lunch for": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Early Lunch for",
     "Link": "Early Lunch for",
+    "Price": {
+      "Goopolla Spleen": 100
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Early Lunch for",
     "Position": "Prefix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleKonzu",
     "CodexSecret": true
   },
   "The Persecuted": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "The Persecuted",
     "Link": "The Persecuted",
+    "Price": {
+      "Kullervo's Bane": 40
+    },
+    "ExcludeFromCodex": true,
+    "Name": "The Persecuted",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleKullervo",
     "CodexSecret": true
   },
   "Staffbearer": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Staffbearer",
+    "Description": "Awarded for obtaining [[Nidri]] the Vazarin Staff.",
     "Link": "Staffbearer",
+    "ExcludeFromCodex": true,
+    "Name": "Staffbearer",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Tektolyst Artifact"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/VazarinStaffTitle",
     "CodexSecret": true
   },
   "Pizza Time for": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Pizza Time for",
+    "Description": "Awarded for completing the Quest '[[The Hex (Quest)#Finale|The Hex Finale]]'.",
     "Link": "Pizza Time for",
+    "ExcludeFromCodex": true,
+    "Name": "Pizza Time for",
     "Position": "Suffix",
+    "Tags": [
+      "Quest"
+    ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/TheHexFinaleTitle",
     "CodexSecret": true
   },
   "Legendary Captain": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Legendary Captain",
+    "Description": "Awarded for raising all [[Railjack Intrinsics]] to Rank 10.",
     "Link": "Legendary Captain",
+    "ExcludeFromCodex": true,
+    "Name": "Legendary Captain",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Miscellaneous"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/MaxedRailjackTitle",
     "CodexSecret": true
   },
   "Leaves No Witnesses": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Leaves No Witnesses",
+    "Description": "Successfully perform 100 stealth kills.",
     "Link": "Leaves No Witnesses",
+    "ExcludeFromCodex": true,
+    "Name": "Leaves No Witnesses",
     "Position": "Suffix",
+    "Tags": [
+      "Miscellaneous"
+    ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/StealthKills100Title",
     "CodexSecret": true
   },
   "Silver Tongue": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Silver Tongue",
+    "Description": "Awarded for [[Kinemantik Instant Messenger#Dating|beginning a relationship]] with [[Eleanor]].",
     "Link": "Silver Tongue",
+    "ExcludeFromCodex": true,
+    "Name": "Silver Tongue",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "KIM"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/DateEleanorTitle",
     "CodexSecret": true
   },
   "Orokin Cell Executor": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Orokin Cell Executor",
     "Link": "Orokin Cell Executor",
+    "Price": {
+      "Orokin Cell": 150
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Orokin Cell Executor",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleOrokinCell",
     "CodexSecret": true
   },
   "Who Devours All": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Who Devours All",
     "Link": "Who Devours All",
+    "Price": {
+      "Common Condroc Tag": 110
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Who Devours All",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleGrendel",
     "CodexSecret": true
   },
   "Oraxia's Prey": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Oraxia's Prey",
+    "Description": "Awarded for vanquishing Oraxia in [[Isleweaver]].",
     "Link": "Oraxia's Prey",
+    "ExcludeFromCodex": true,
+    "Name": "Oraxia's Prey",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Boss Fight"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/OraxiaPreyTitle",
     "CodexSecret": true
   },
   "Once and Future": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Once and Future",
+    "Description": "Awarded for [[Kinemantik Instant Messenger#Dating|beginning a relationship]] with [[Arthur]].",
     "Link": "Once and Future",
+    "ExcludeFromCodex": true,
+    "Name": "Once and Future",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "KIM"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/DateArthurTitle",
     "CodexSecret": true
   },
   "On That Far Shore Forlorn": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "On That Far Shore Forlorn",
     "Link": "On That Far Shore Forlorn",
+    "Price": {
+      "Lyroic Bridge": 10
+    },
+    "ExcludeFromCodex": true,
+    "Name": "On That Far Shore Forlorn",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleLyoricBridge",
     "CodexSecret": true
   },
   "Ollie's Biggest Fan": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Ollie's Biggest Fan",
+    "Description": "Awarded for completing [[Ollie's Crash Course]] in under 1:30.",
     "Link": "Ollie's Biggest Fan",
+    "ExcludeFromCodex": true,
+    "Name": "Ollie's Biggest Fan",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Miscellaneous"
+    ],
+    "Introduced": "43",
     "InternalName": "/Lotus/Types/Items/Titles/OllieRacerTitle",
     "CodexSecret": true
   },
   "Like Father, Like Sons": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Like Father, Like Sons",
+    "Description": "Awarded for completing the Quest '[[Jade Shadows: Constellations]]'.",
     "Link": "Like Father, Like Sons",
+    "ExcludeFromCodex": true,
+    "Name": "Like Father, Like Sons",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Quest"
+    ],
+    "Introduced": "43",
     "InternalName": "/Lotus/Types/Items/Titles/JadeShadows2Title",
     "CodexSecret": true
   },
   "Make Your Own Fate": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Make Your Own Fate",
+    "Description": "Awarded for Devotion, Bravery, Sacrifice, and Death. <small>[[Honoria#D2Honoria|(see here)]]</small>",
     "Link": "Make Your Own Fate",
+    "ExcludeFromCodex": true,
+    "Name": "Make Your Own Fate",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "Event"
+    ],
+    "Introduced": "43",
     "InternalName": "/Lotus/Types/Items/Titles/GuardianTitle",
     "CodexSecret": true
   },
   "of the Old Blood": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "of the Old Blood",
+    "Description": "Awarded for vanquishing a [[Kuva Lich]].",
     "Link": "of the Old Blood",
+    "ExcludeFromCodex": true,
+    "Name": "of the Old Blood",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Adversary",
+      "Kuva"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/LichKillerTitle",
     "CodexSecret": true
   },
   "Of Golden Valor": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Of Golden Valor",
     "Link": "Of Golden Valor",
+    "Price": {
+      "Marks of Valiance": 80
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Of Golden Valor",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Event"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/ValorEventTitle",
     "CodexSecret": true
   },
   "Oblivion's Kiss": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Oblivion's Kiss",
     "Link": "Oblivion's Kiss",
+    "Price": {
+      "Höllvanian Pitchweave Fragment": 2600
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Oblivion's Kiss",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleCyteZeroNine",
     "CodexSecret": true
   },
   "Novice": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Novice",
+    "Description": "Reach Mastery Rank 4.",
     "Link": "Novice",
+    "ExcludeFromCodex": true,
+    "Name": "Novice",
     "Position": "Suffix",
+    "Tags": [
+      "Mastery"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/MR4Title",
     "CodexSecret": true
   },
   "Night Gardener": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Night Gardener",
     "Link": "Night Gardener",
+    "Price": {
+      "Fergolyte": 150
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Night Gardener",
     "Position": "Prefix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleNokko",
     "CodexSecret": true
   },
   "Mountain Soul": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Mountain Soul",
+    "Description": "Awarded for obtaining [[Cogron]] the Hammer of Unairu.",
     "Link": "Mountain Soul",
+    "ExcludeFromCodex": true,
+    "Name": "Mountain Soul",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Tektolyst Artifact"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/UnairuHammerTitle",
     "CodexSecret": true
   },
   "The Copper Kid": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "The Copper Kid",
     "Link": "The Copper Kid",
+    "Price": {
+      "Coprun": 200
+    },
+    "ExcludeFromCodex": true,
+    "Name": "The Copper Kid",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleCoprun",
     "CodexSecret": true
   },
   "Cryomancer": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Cryomancer",
     "Link": "Cryomancer",
+    "Price": {
+      "Cryotic": 5000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Cryomancer",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/FrostTitle",
     "CodexSecret": true
   },
   "Cœur Enflammé": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Cœur Enflammé",
+    "Description": "Awarded for [[Kinemantik Instant Messenger#Dating|beginning a relationship]] with [[Marie]].",
     "Link": "Cœur Enflammé",
+    "ExcludeFromCodex": true,
+    "Name": "Cœur Enflammé",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "KIM"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/DateMarieTitle",
     "CodexSecret": true
   },
   "Master": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Master",
+    "Description": "Reach Mastery Rank 28.",
     "Link": "Master",
+    "ExcludeFromCodex": true,
+    "Name": "Master",
     "Position": "Prefix",
+    "Tags": [
+      "Mastery"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/MR28Title",
     "CodexSecret": true
   },
   "Gyanbura": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Gyanbura",
     "Link": "Gyanbura",
+    "Price": {
+      "Fate Pearl": 150
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Gyanbura",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleKoumei",
     "CodexSecret": true
   },
   "Payer of the Ferryman": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Payer of the Ferryman",
     "Link": "Payer of the Ferryman",
+    "Price": {
+      "Entrati Obols": 100000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Payer of the Ferryman",
     "Position": "Prefix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleEntratiObols",
     "CodexSecret": true
   },
   "Kaithe Tamer of Duviri": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Kaithe Tamer of Duviri",
     "Link": "Kaithe Tamer of Duviri",
+    "Price": {
+      "Yao Shrub": 100
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Kaithe Tamer of Duviri",
     "Position": "Prefix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleYaoShrub",
     "CodexSecret": true
@@ -1820,6 +2611,9 @@
   "Abyssal Thorn": {
     "Description": "",
     "Link": "Abyssal Thorn",
+    "Price": {
+      "Vainthorn": 75
+    },
     "ExcludeFromCodex": true,
     "Name": "Abyssal Thorn",
     "Position": "Suffix",
@@ -1831,165 +2625,230 @@
     "CodexSecret": true
   },
   "Restless": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Restless",
+    "Description": "Survive a night on the [[Plains of Eidolon]].",
     "Link": "Restless",
+    "ExcludeFromCodex": true,
+    "Name": "Restless",
     "Position": "Suffix",
+    "Tags": [
+      "Open World"
+    ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/PoENightTitle",
     "CodexSecret": true
   },
   "Plague-bearer": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Plague-bearer",
     "Link": "Plague-bearer",
+    "Price": {
+      "Neurodes": 500
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Plague-bearer",
     "Position": "Prefix",
+    "Tags": [
+      "Hunhow"
+    ],
     "Introduced": "43",
     "InternalName": "/Lotus/Types/Items/Titles/HunhowHonoria/TitleNidus",
     "CodexSecret": true
   },
   "Clem": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Clem",
+    "Description": "Awarded for completing '[[A Man of Few Words]]'.",
     "Link": "Clem",
+    "ExcludeFromCodex": true,
+    "Name": "Clem",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Quest"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/ClemTitle",
     "CodexSecret": true
   },
   "Insign": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Insign",
+    "Description": " Awarded for purchasing the Insign Pack.",
     "Link": "Insign",
+    "ExcludeFromCodex": true,
+    "Name": "Insign",
     "Position": "Prefix",
+    "Tags": [
+      "Insign"
+    ],
     "Introduced": "41.0.5",
     "InternalName": "/Lotus/Types/Items/Titles/MedalRank1Title",
     "CodexSecret": true
   },
   "Along Came": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Along Came",
     "Link": "Along Came",
+    "Price": {
+      "Scuttler Husk": 100
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Along Came",
     "Position": "Prefix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleOraxia",
     "CodexSecret": true
   },
   "Rusalka's Hope": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Rusalka's Hope",
+    "Description": "Awarded for [[Kinemantik Instant Messenger#Chemistry|rekindling the love]] between [[Minerva]] and [[Velimir]].",
     "Link": "Rusalka's Hope",
+    "ExcludeFromCodex": true,
+    "Name": "Rusalka's Hope",
     "Position": "Prefix",
-    "Introduced": "",
+    "Tags": [
+      "KIM"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/MinVelTogetherTitle",
     "CodexSecret": true
   },
   "The Scarlet Queen": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "The Scarlet Queen",
     "Link": "The Scarlet Queen",
+    "Price": {
+      "Amarast": 130
+    },
+    "ExcludeFromCodex": true,
+    "Name": "The Scarlet Queen",
     "Position": "Prefix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleGaruda",
     "CodexSecret": true
   },
   "Heart of the Pack": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Heart of the Pack",
+    "Description": "Acquire [[Voruna Prime]].",
     "Link": "Heart of the Pack",
+    "ExcludeFromCodex": true,
+    "Name": "Heart of the Pack",
     "Position": "Suffix",
+    "Tags": [
+      "Prime"
+    ],
     "Introduced": "42.0.6",
     "InternalName": "/Lotus/Types/Items/Titles/TitleVorunaPrime",
     "CodexSecret": true
   },
   "Heart of Concrete": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Heart of Concrete",
     "Link": "Heart of Concrete",
+    "Price": {
+      "Stela": 470
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Heart of Concrete",
     "Position": "Prefix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleQorvex",
     "CodexSecret": true
   },
   "Marauder of the Deep": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Marauder of the Deep",
     "Link": "Marauder of the Deep",
+    "Price": {
+      "Fish Meat": 310
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Marauder of the Deep",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleHydroid",
     "CodexSecret": true
   },
   "Grandis": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Grandis",
+    "Description": "Awarded for completing the Grandis XVII Sporoi challenge.",
     "Link": "Grandis",
+    "ExcludeFromCodex": true,
+    "Name": "Grandis",
     "Position": "Prefix",
+    "Tags": [
+      "Insign"
+    ],
     "Introduced": "41.0.5",
     "InternalName": "/Lotus/Types/Items/Titles/MedalRank17Title",
     "CodexSecret": true
   },
   "90's Kid": {
-    "Description": "",
+    "Description": "Awarded for reaching Rank 29 in [[Nightwave/Amir's Shockwave|Nightwave: Amir's Shockwave]]",
     "Link": "90's Kid",
     "ExcludeFromCodex": true,
     "Name": "90's Kid",
     "Position": "Suffix",
     "Tags": [
-      "Amir",
-      "Fables & Frontiers"
+      "Nightwave"
     ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/ShockwaveTitle",
     "CodexSecret": true
   },
   "Drifter": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Drifter",
+    "Description": "Awarded for completing '[[The New War]]'.",
     "Link": "Drifter",
+    "ExcludeFromCodex": true,
+    "Name": "Drifter",
     "Position": "Suffix",
-    "Introduced": "",
+    "Tags": [
+      "Quest"
+    ],
+    "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/TheNewWarTitle",
     "CodexSecret": true
   },
   "Thirst for Knowledge": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Thirst for Knowledge",
+    "Description": "Purchased from [[Cephalon Suda]] at Rank 5 for {{sc|5000}}.",
     "Link": "Thirst for Knowledge",
+    "Price": {
+      "sc": 5000
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Thirst for Knowledge",
     "Position": "Prefix",
+    "Tags": [
+      "Syndicate"
+    ],
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/CephalonSudaTitle",
     "CodexSecret": true
   },
   "Angel of Death": {
-    "ExcludeFromCodex": true,
-    "Description": "",
-    "Name": "Angel of Death",
+    "Description": "Get 100 kills in a single mission.",
     "Link": "Angel of Death",
+    "ExcludeFromCodex": true,
+    "Name": "Angel of Death",
     "Position": "Suffix",
+    "Tags": [
+      "Miscellaneous"
+    ],
     "Introduced": "43.5",
     "InternalName": "/Lotus/Types/Items/Titles/Kills100Title",
     "CodexSecret": true
   },
   "Blazing Revolutionary": {
-    "ExcludeFromCodex": true,
     "Description": "",
-    "Name": "Blazing Revolutionary",
     "Link": "Blazing Revolutionary",
+    "Price": {
+      "Beating Heartstrings": 150
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Blazing Revolutionary",
     "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleTemple",
     "CodexSecret": true

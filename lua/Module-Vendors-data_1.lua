@@ -3429,13 +3429,13 @@ return {
 				--{ "Vanguard E1 Relic", "Relic", 1, Limit = 100 },
 				--{ "Vanguard M1 Relic", "Relic", 1, Limit = 100 },
 				--{ "Vanguard P1 Relic", "Relic", 1, Limit = 100 },
-				-- Revenant/Baruuk
-				{ "Lith T13 Relic", "Relic", 1 },
-				{ "Lith A9 Relic", "Relic", 1 },
-				{ "Meso R6 Relic", "Relic", 1 },
-				{ "Neo P8 Relic", "Relic", 1 },
-				{ "Axi C9 Relic", "Relic", 1 },
-				{ "Axi B9 Relic", "Relic", 1 },
+				-- Banshee/Mirage
+				{ "Lith K5 Relic", "Relic", 1 },
+				{ "Lith M7 Relic", "Relic", 1 },
+				{ "Meso E5 Relic", "Relic", 1 },
+				{ "Neo B6 Relic", "Relic", 1 },
+				{ "Axi H5 Relic", "Relic", 1 },
+				{ "Axi A12 Relic", "Relic", 1 },
 				-- Evergreen Items
 				{ "Burston Prime", "Weapon", { ["Regal Aya"] = 2 } },
 				{ "Braton Prime", "Weapon", { ["Regal Aya"] = 1 } },
