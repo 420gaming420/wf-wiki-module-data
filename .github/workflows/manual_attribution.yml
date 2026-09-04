@@ -68,12 +68,13 @@ jobs:
         run: |
           cd /tmp/scripts
           BEFORE=$(md5sum ignore_modules.json | awk '{print $1}')
-          echo "Before: $BEFORE"
+          echo "BEFORE=$BEFORE" >> $GITHUB_OUTPUT
 
       - name: Run manual attribution.py
         run: |
           python3 request.py
           python3 attribution.py --force --verbose
+        working-directory: /tmp/scripts
 
       - name: Show git status
         run: git status
