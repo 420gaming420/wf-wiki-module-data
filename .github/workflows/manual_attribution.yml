@@ -71,9 +71,9 @@ jobs:
           echo "Before: $BEFORE"
 
       - name: Run manual attribution.py
-      run: |
-        bash python3 request.py
-        bash python3 attribution.py --force --verbose
+        run: |
+          python3 request.py
+          python3 attribution.py --force --verbose
 
       - name: Show git status
         run: git status
