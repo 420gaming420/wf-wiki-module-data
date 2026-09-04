@@ -178,7 +178,7 @@ git submodule update --init --recursive
 
 This will clone the **entire** repository (all branches' history, including `html/`, `lua/`, `markdown/`, and `json/` folders).
 
-#### JSON-Only (Laxy Download)
+#### JSON-Only (Lazy Download)
 
 If you only need the `json/` and `custom/` data files, clone with blob filtering to get only metadata initially:
 
