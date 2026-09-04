@@ -3,10 +3,10 @@
     "source_url": "https://wiki.warframe.com/w/Module:Blueprints/data",
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
-    "converter_repo": "https://github.com/placeholder/placeholder",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
     "converted_at": "2026-09-03T02:18:06.905Z"
   },
-  "_comments": "",
+  "_comments": "\t\t\t--BPCost = ,\n\t\t-- [Warframe Name Here] = {\n\t\t-- \tCredits = 25000,\n\t\t-- \tMarketCost = 0,\n\t\t-- \tName = \"[Warframe Name Here] Blueprint\",\n\t\t-- \tParts = {\n\t\t-- \t\t{ Count = 1, Name = \"Neuroptics\", Type = \"Item\" },\n\t\t-- \t\t{ Count = 1, Name = \"Chassis\", Type = \"Item\" },\n\t\t-- \t\t{ Count = 1, Name = \"Systems\", Type = \"Item\" },\n\t\t-- \t\t{ Count = 1, Name = \"[PH]\", Type = \"Resource\" }\n\t\t-- \t},\n\t\t-- \tProductCategory = \"Suits\",\n\t\t-- \tResult = \"[Warframe Name Here]\",\n\t\t-- \tRush = 50,\n\t\t-- \tTime = 259200\n\t\t-- },\n\t\t-- [\"[Warframe Name Here] Chassis\"] = {\n\t\t-- \tCredits = 15000,\n\t\t-- \tName = \"[Warframe Name Here] Chassis Blueprint\",\n\t\t-- \t\t{ Count = 3, Name = \"[PH]\", Type = \"Resource\" },\n\t\t-- \t\t{ Count = 3250, Name = \"[PH]\", Type = \"Resource\" },\n\t\t-- \t\t{ Count = 100, Name = \"[PH]\", Type = \"Resource\" },\n\t\t-- \t\t{ Count = 5, Name = \"[PH]\", Type = \"Resource\" }\n\t\t-- \tResult = \"[Warframe Name Here] Chassis\",\n\t\t-- \tRush = 25,\n\t\t-- \tTime = 43200\n\t\t-- [\"[Warframe Name Here] Neuroptics\"] = {\n\t\t-- \tName = \"[Warframe Name Here] Neuroptics Blueprint\",\n\t\t-- \t\t{ Count = 2850, Name = \"[PH]\", Type = \"Resource\" },\n\t\t-- \t\t{ Count = 50, Name = \"[PH]\", Type = \"Resource\" },\n\t\t-- \tResult = \"[Warframe Name Here] Neuroptics\",\n\t\t-- [\"[Warframe Name Here] Systems\"] = {\n\t\t-- \tName = \"[Warframe Name Here] Systems Blueprint\",\n\t\t-- \t\t{ Count = 2500, Name = \"[PH]\", Type = \"Resource\" },\n\t\t-- \t\t{ Count = 10, Name = \"[PH]\", Type = \"Resource\" },\n\t\t-- \tResult = \"[Warframe Name Here] Systems\",\n\t\t--please add the correct infos when we know more--",
   "Blueprints": {
     "Pupacyst": {
       "Time": 86400,

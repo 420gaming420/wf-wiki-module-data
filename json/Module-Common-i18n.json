@@ -6,7 +6,7 @@
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
     "converted_at": "2026-08-30T18:53:54.728Z"
   },
-  "_comments": "-- <nowiki>",
+  "_comments": "-- ",
   "es": {
     "module": "{{plural:$1|módulo|módulos}}",
     "stylesheet": "{{plural:$1|hoja de estilo|hojas de estilo}}",

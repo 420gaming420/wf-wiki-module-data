@@ -6,7 +6,7 @@
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
     "converted_at": "2026-08-30T18:56:08.689Z"
   },
-  "_comments": "-- <nowiki>\n-- </nowiki>",
+  "_comments": "-- ",
   "tr": {
     "tag-warning": "{{plural:$1|Uyarı|Uyarılar}}",
     "tag-error": "{{plural:$1|Hata|Hatalar}}",

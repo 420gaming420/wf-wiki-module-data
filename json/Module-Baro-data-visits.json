@@ -6,7 +6,7 @@
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
     "converted_at": "2026-08-30T18:53:43.591Z"
   },
-  "_comments": "",
+  "_comments": "-- Indexing Baro offerings data by visit\n-- TODO: Apparently Orokin Catalysts are not offered by Baro during TennoCon visits so update \n-- the module to exclude this from TennoCon visits.\n-- Note that Baro visits started before Nintendo Switch build was released (November 12, 2018)\n-- Also console visits are four weeks behind\n\t\t-- Storing data as keys mapped to a dummy value to ensure\n\t\t-- that entries are not duplicated and for data to be organized in\n\t\t-- ascending order when processed table contents are dumped onto /doc\n-- Adding evergreen offerings\n-- On release of U18.5, Baro was made available outside his usual visit for one\n-- week to sell only the Sands of Inaros quest blueprint so players can get Inaros\n-- on his release\n\t\t-- Every TennoCon, Baro brings in all offerings he has sold before that\n\t\t-- TennoCon date",
   "ConsoleBaroVisits": {
     "2017-12-15": {
       "Quanta Vandal": true,

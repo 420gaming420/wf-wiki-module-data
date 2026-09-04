@@ -6,7 +6,7 @@
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
     "converted_at": "2026-08-30T18:53:27.432Z"
   },
-  "_comments": "-- <nowiki>",
+  "_comments": "-- ",
   "ru": {
     "error-value-func": "параметру \"valueFunc\" присвоено неверное значение (ожидается функция, предоставлено $1)",
     "error-overwrite-permission": "невозможно записать аргумент \"$1\": перезаписывать существующие аргументы запрещено",

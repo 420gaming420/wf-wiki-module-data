@@ -6,7 +6,7 @@
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
     "converted_at": "2026-08-30T19:00:40.106Z"
   },
-  "_comments": "-- <nowiki>\n--------------------------------------------------------------------------------\n-- Color scheme data for [[Module:WDS Button]].\n-- Helper function to make the same data available under multiple aliases.\n            -- Users should never see this.",
+  "_comments": "-- \n--------------------------------------------------------------------------------\n-- Color scheme data for [[Module:WDS Button]].\n-- Helper function to make the same data available under multiple aliases.\n            -- Users should never see this.",
   "beta": {
     "textColor": "white",
     "backgroundColor": "#ffba01",

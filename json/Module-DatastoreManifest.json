@@ -6,7 +6,7 @@
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
     "converted_at": "2026-08-30T18:56:00.283Z"
   },
-  "_comments": "---\tMapping item type to datastore locations on the wiki (e.g. 'Mod' to 'Module:Mods/data').\n--\t\n--\t@module\t\t\tdatastoremanifest\n--\t@attribution\t[[User:Cephalon Scientia|Cephalon Scientia]]\n--\t@attribution\t[[User:Gigamicro|Gigamicro]] (based on [[Module:Tooltips/icon]])\n--\t@release\t\tstable\n--\t<nowiki>\n\t\t-- Full list of collection name aliases can be found in [[Module:Cosmetics/data]]\n\t\t-- Full list of collection name aliases can be found in [[Module:Weapons/data]]",
+  "_comments": "---\tMapping item type to datastore locations on the wiki (e.g. 'Mod' to 'Module:Mods/data').\n--\t\n--\t@module\t\t\tdatastoremanifest\n--\t@attribution\t[[User:Cephalon Scientia|Cephalon Scientia]]\n--\t@attribution\t[[User:Gigamicro|Gigamicro]] (based on [[Module:Tooltips/icon]])\n--\t@release\t\tstable\n\t\t-- Full list of collection name aliases can be found in [[Module:Cosmetics/data]]\n\t\t-- Full list of collection name aliases can be found in [[Module:Weapons/data]]",
   "Cosmetic": {
     "Source": "Module:Cosmetics/data",
     "Description": "Cosmetic items",

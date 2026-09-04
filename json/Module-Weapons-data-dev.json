@@ -6,7 +6,7 @@
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
     "converted_at": "2026-08-31T21:33:29.271Z"
   },
-  "_comments": "",
+  "_comments": "-- READ THIS! \n-- If adding a new weapon entry that has not been released yet, please add _IgnoreEntry = true to their entry.\n-- TODO: Move Reload key to attack tables? Nagantaka and Ambassador have two different reload times depending on attack.\n-- ^ attacks should probably serve as overrides to the weapon stats anyway\n-- TODO: Since we are splitting this database into 8 separate ones, add support for a new Name key that has a table value of\n-- localized names like so:",
   "Weapons": {
     "Pupacyst": {
       "HeavySlamAttack": 1420,
