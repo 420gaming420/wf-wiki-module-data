@@ -1,4 +1,4 @@
-name: Sync WARFRAME Wiki Modules
+name: Manual Attribution Config Test
 
 on:
   workflow_dispatch:  # Allow manual trigger
