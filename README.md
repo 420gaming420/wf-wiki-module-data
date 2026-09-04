@@ -25,6 +25,105 @@ Changes made on the wiki will be automatically picked up by the converter script
 
 > **Tip**: `dev` receives automatic sync pull requests each day containing updated data files. `stable` contains the same data but only after manual review. Use whichever branch matches your needs.
 
+## Usage
+
+### Recommended: JSON-Only (Lazy Download)
+
+If you only need the `json/` and optionally the `custom/` data files, clone with no checkout and blob filtering to get only metadata initially:
+
+```bash
+# Clone metadata only (no file contents downloaded)
+git clone --no-checkout --filter=blob:none -b dev https://github.com/420gaming420/wf-wiki-module-data data
+
+# Enter the cloned directory
+cd data
+
+# Download only the folders you need
+git sparse-checkout set json custom
+```
+
+When you run `sparse-checkout set`, Git downloads only the blobs for `json/` and `custom/`, skipping `html/`, `lua/`, and `markdown/` entirely.
+
+### Raw URL Access (no Git required)
+
+The simplest way to access the files without git is via the raw GitHub URL. Replace `<BRANCH>` with `dev` or `stable`:
+
+```
+https://raw.githubusercontent.com/420gaming420/wf-wiki-module-data/<BRANCH>/json/Module-Ability-data.json
+```
+
+### Python: Fetching from Raw URL
+
+```python
+import json
+import urllib.request
+
+def load_wiki_data(module_name: str, branch: str = "stable") -> dict:
+    """Load a wiki module's JSON data directly from GitHub."""
+    url = (
+        f"https://raw.githubusercontent.com/420gaming420/"
+        f"wf-wiki-module-data/{branch}/json/{module_name}.json"
+    )
+    with urllib.request.urlopen(url) as response:
+        return json.loads(response.read().decode())
+
+# Example: load the Module:DropTables/JSON/Sorties data
+data = load_wiki_data("Module-DropTables-JSON-Sorties", branch="stable")
+print(data)
+```
+
+### Python: Using a Local Clone (submodule or git clone)
+
+If you have the repo cloned locally (see below), load files directly from disk:
+
+```python
+import json
+from pathlib import Path
+
+def load_local_wiki_data(module_name: str, base_path: str = "data/json") -> dict:
+    """Load a wiki module's JSON data from a local clone."""
+    file_path = Path(base_path) / f"{module_name}.json"
+    with open(file_path, "r") as f:
+        return json.load(f)
+
+# Example: load the Module:DropTables/JSON/Sorties data from a local clone
+data = load_local_wiki_data("Module-DropTables-JSON-Sorties", base_path="data/json")
+print(data)
+```
+
+### Git Submodule
+
+Add the repository as a submodule. Replace `<BRANCH>` with `dev` or `stable`:
+
+```bash
+# Clone your project and add the submodule
+git submodule add -b <BRANCH> https://github.com/420gaming420/wf-wiki-module-data data
+git submodule update --init --recursive
+```
+
+This will clone the **entire** repository (~300+ MB of all branches' history, including `html/`, `lua/`, `markdown/`, and `json/` folders).
+
+---
+
+## Sync Pipeline
+
+Data is synced automatically via a GitHub Action triggered by `sync.yml` on the **`dev`** branch. The action runs daily at 2AM UTC.
+
+To update the **`stable`** branch, a maintainer reviews the auto-generated PR on `dev`, then manually merges the reviewed changes into `stable` via a separate pull request.
+
+The full pipeline (documented in the [scripts repository](https://github.com/420gaming420/wf-wiki-module-scripts)) performs these steps:
+
+1. **`request.py`** — Queries the WARFRAME Wiki API for module timestamps
+2. **`download.py`** — Archives all wiki modules as HTML files to `data/html/`
+3. **`extract_lua.py`** — Extracts Lua source code from HTML to `data/lua/`
+4. **`extract_text.py`** — Converts HTML pages to Markdown documentation in `data/markdown/`
+5. **`convert_module.js`** — Uses Puppeteer to execute each stale module via the Scribunto Debug Console and extracts the JSON result
+6. **`attribution.py`** — Adds `_attribution` and `_comments` keys, reading source comments from local Lua files
+
+Failed modules are automatically pushed to `ignore_modules.json` in the scripts repo and skipped on subsequent runs. See the [scripts repository](https://github.com/420gaming420/wf-wiki-module-scripts) for more details.
+
+---
+
 ---
 
 ## What's Inside
@@ -114,105 +213,6 @@ wf-wiki-module-data/
 ├── ATTRIBUTION.md                 # Attribution guidelines
 └── README.md
 ```
-
----
-
-## Usage
-
-### Raw URL Access (no Git required)
-
-The simplest way to access the files without git is via the raw GitHub URL. Replace `<BRANCH>` with `dev` or `stable`:
-
-```
-https://raw.githubusercontent.com/420gaming420/wf-wiki-module-data/<BRANCH>/json/Module-Ability-data.json
-```
-
-### Python: Fetching from Raw URL
-
-```python
-import json
-import urllib.request
-
-def load_wiki_data(module_name: str, branch: str = "stable") -> dict:
-    """Load a wiki module's JSON data directly from GitHub."""
-    url = (
-        f"https://raw.githubusercontent.com/420gaming420/"
-        f"wf-wiki-module-data/{branch}/json/{module_name}.json"
-    )
-    with urllib.request.urlopen(url) as response:
-        return json.loads(response.read().decode())
-
-# Example: load the Ability module data
-data = load_wiki_data("Module-Ability-data", branch="stable")
-print(data["_attribution"]["source_url"])
-```
-
-### Python: Using a Local Clone (submodule or git clone)
-
-If you have the repo cloned locally (see below), load files directly from disk:
-
-```python
-import json
-from pathlib import Path
-
-def load_local_wiki_data(module_name: str, base_path: str = "data/json") -> dict:
-    """Load a wiki module's JSON data from a local clone."""
-    file_path = Path(base_path) / f"{module_name}.json"
-    with open(file_path, "r") as f:
-        return json.load(f)
-
-# Example: load the Ability module data from a local clone
-data = load_local_wiki_data("Module-Ability-data", base_path="data/json")
-print(data["_attribution"]["source_url"])
-```
-
-### Git Submodule
-
-Add the repository as a submodule. Replace `<BRANCH>` with `dev` or `stable`:
-
-```bash
-# Clone your project and add the submodule
-git submodule add -b <BRANCH> https://github.com/420gaming420/wf-wiki-module-data data
-git submodule update --init --recursive
-```
-
-This will clone the **entire** repository (all branches' history, including `html/`, `lua/`, `markdown/`, and `json/` folders).
-
-#### JSON-Only (Lazy Download)
-
-If you only need the `json/` and `custom/` data files, clone with blob filtering to get only metadata initially:
-
-```bash
-# Clone with metadata only (no file contents downloaded)
-git clone --filter=blob:none --depth 1 -b <BRANCH> https://github.com/420gaming420/wf-wiki-module-data data
-
-# Enter the cloned directory
-cd data
-
-# Download only the folders you need
-git sparse-checkout set json custom
-```
-
-When you run `sparse-checkout set`, Git downloads only the blobs for `json/` and `custom/`, skipping `html/`, `lua/`, and `markdown/` entirely.
-
----
-
-## Sync Pipeline
-
-Data is synced automatically via a GitHub Action triggered by `sync.yml` on the **`dev`** branch. The action runs daily at 2AM UTC.
-
-To update the **`stable`** branch, a maintainer reviews the auto-generated PR on `dev`, then manually merges the reviewed changes into `stable` via a separate pull request.
-
-The full pipeline (documented in the [scripts repository](https://github.com/420gaming420/wf-wiki-module-scripts)) performs these steps:
-
-1. **`request.py`** — Queries the WARFRAME Wiki API for module timestamps
-2. **`download.py`** — Archives all wiki modules as HTML files to `data/html/`
-3. **`extract_lua.py`** — Extracts Lua source code from HTML to `data/lua/`
-4. **`extract_text.py`** — Converts HTML pages to Markdown documentation in `data/markdown/`
-5. **`convert_module.js`** — Uses Puppeteer to execute each stale module via the Scribunto Debug Console and extracts the JSON result
-6. **`attribution.py`** — Adds `_attribution` and `_comments` keys, reading source comments from local Lua files
-
-Failed modules are automatically pushed to `ignore_modules.json` in the scripts repo and skipped on subsequent runs. See the [scripts repository](https://github.com/420gaming420/wf-wiki-module-scripts) for more details.
 
 ---
 
