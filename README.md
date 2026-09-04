@@ -14,6 +14,19 @@ To modify any data, edit the source module pages directly on the WARFRAME Wiki:
 
 Changes made on the wiki will be automatically picked up by the converter scripts on the next sync run (typically within 24 hours).
 
+---
+
+## Branches
+
+| Branch | Sync | Review | Best for |
+|---|---|---|---|
+| **`dev`** | Automatic (daily at 2AM UTC) | None — every commit is auto-merged | Latest data, development, testing |
+| **`stable`** | Manual (reviewed PRs from `dev`) | Reviewed before merge | Production use, stable reference |
+
+> **Tip**: `dev` receives automatic sync pull requests each day containing updated JSON files. `stable` contains the same data but only after manual review. Use whichever branch matches your needs.
+
+---
+
 ## What's Inside
 
 Each module page from the WARFRAME Wiki is converted into a standalone JSON file with:
@@ -22,6 +35,7 @@ Each module page from the WARFRAME Wiki is converted into a standalone JSON file
 - **Source attribution** — `_attribution` key with source URL, license, and conversion timestamp
 - **Source comments** — `_comments` key containing the original Lua source code comments
 - **Metadata** — Corresponding `.meta.json` file with wiki page revision timestamp and conversion details
+- **Custom additions** — `custom/` folder for manually curated or derived data
 
 ### File Naming
 
@@ -60,64 +74,149 @@ Each module page from the WARFRAME Wiki is converted into a standalone JSON file
 
 | Metric | Count |
 |---|---|
-| HTML archive files | 616 |
-| Lua source files | 952 |
-| Markdown documentation files | 615 |
-| Total JSON files | 184 |
-| Meta files | 184 (JSON) + 616 (HTML) + 502 (Lua) + 615 (Markdown) |
-| Ignored/skipped modules | 337 |
-| Total wiki modules tracked | 514 |
+| HTML archive files | ~600+ |
+| Lua source files | ~950+ |
+| Markdown documentation files | ~600+ |
+| Total JSON files | ~180+ |
+| Meta files | ~1 per module per format |
+| Ignored/skipped modules | ~300+ |
+| Total wiki modules tracked | ~500+ |
 
-> **Note:** The 337 ignored modules include `/doc` subpages, modules with unjsonifiable types (functions), and others that fail conversion. Failed modules are automatically added to `ignore_modules.json` and skipped on subsequent runs.
+> **Note:** All counts are approximate and change with each sync run. The ignored modules include `/doc` subpages, modules with unjsonifiable types (functions), and others that fail conversion. Failed modules are automatically added to `ignore_modules.json` and skipped on subsequent runs.
+
+> **Note:** Total file count across all formats is ~1k+ files.
 
 ## Repository Structure
 
 ```
 wf-wiki-module-data/
-├── html/                          # HTML archive of wiki module pages
-│   ├── Module-Ability-data.html   # Raw wiki HTML
-│   ├── Module-Ability-data.meta.json  # Download metadata
-│   ├── Module-Warframes-data.html
-│   └── ... (1,232 files total)
-├── lua/                           # Extracted Lua source code
-│   ├── Module-Ability-data_0.lua  # First code block
-│   ├── Module-Ability-data_1.lua  # Second code block (if any)
-│   ├── Module-Ability-data.meta.json  # Extraction metadata
-│   └── ... (1,454 files total)
-├── markdown/                      # Markdown documentation
-│   ├── Module-Ability-data.md     # Full page documentation
-│   ├── Module-Ability-data.meta.json  # Conversion metadata
-│   ├── Module-Warframes-data.md
-│   └── ... (1,230 files total)
-├── json/                          # Converted JSON data
+├── json/                          # Converted JSON data (main data files)
 │   ├── Module-Ability-data.json   # Main data file
 │   ├── Module-Ability-data.meta.json  # Conversion metadata
 │   ├── Module-Warframes-data.json
 │   ├── Module-Weapons-data.json
-│   └── ... (368 files total)
+│   └── ... (~180+ files)
+├── custom/                        # Manually curated or derived data
+├── html/                          # HTML archive of wiki module pages
+│   ├── Module-Ability-data.html   # Raw wiki HTML
+│   ├── Module-Ability-data.meta.json  # Download metadata
+│   ├── Module-Warframes-data.html
+│   └── ... (~600+ files)
+├── lua/                           # Extracted Lua source code
+│   ├── Module-Ability-data_0.lua  # First code block
+│   ├── Module-Ability-data_1.lua  # Second code block (if any)
+│   ├── Module-Ability-data.meta.json  # Extraction metadata
+│   └── ... (~950+ files)
+├── markdown/                      # Markdown documentation
+│   ├── Module-Ability-data.md     # Full page documentation
+│   ├── Module-Ability-data.meta.json  # Conversion metadata
+│   ├── Module-Warframes-data.md
+│   └── ... (~600+ files)
 ├── LICENSE                        # CC BY-NC-SA 3.0
 ├── ATTRIBUTION.md                 # Attribution guidelines
 └── README.md
 ```
 
+---
+
 ## Usage
 
-### Direct File Access
+### Raw URL Access (JSON only, no Git required)
+
+The simplest way to access a single file is via the raw GitHub URL. Replace `<BRANCH>` with `dev` or `stable`:
 
 ```
-https://raw.githubusercontent.com/420gaming420/wf-wiki-module-data/main/json/Module-Ability-data.json
+https://raw.githubusercontent.com/420gaming420/wf-wiki-module-data/<BRANCH>/json/Module-Ability-data.json
+```
+
+### Python: Fetching from Raw URL
+
+```python
+import json
+import urllib.request
+
+def load_wiki_data(module_name: str, branch: str = "stable") -> dict:
+    """Load a wiki module's JSON data directly from GitHub."""
+    url = (
+        f"https://raw.githubusercontent.com/420gaming420/"
+        f"wf-wiki-module-data/{branch}/json/{module_name}.json"
+    )
+    with urllib.request.urlopen(url) as response:
+        return json.loads(response.read().decode())
+
+# Example: load the Ability module data
+data = load_wiki_data("Module-Ability-data", branch="stable")
+print(data["_attribution"]["source_url"])
+```
+
+### Python: Using a Local Clone (submodule or git clone)
+
+If you have the repo cloned locally (see below), load files directly from disk:
+
+```python
+import json
+from pathlib import Path
+
+def load_local_wiki_data(module_name: str, base_path: str = "data/json") -> dict:
+    """Load a wiki module's JSON data from a local clone."""
+    file_path = Path(base_path) / f"{module_name}.json"
+    with open(file_path, "r") as f:
+        return json.load(f)
+
+# Example: load the Ability module data from a local clone
+data = load_local_wiki_data("Module-Ability-data", base_path="data/json")
+print(data["_attribution"]["source_url"])
 ```
 
 ### Git Submodule
 
+Add the repository as a submodule. Replace `<BRANCH>` with `dev` or `stable`:
+
 ```bash
-git submodule add https://github.com/420gaming420/wf-wiki-module-data data
+# Clone your project and add the submodule
+git submodule add -b <BRANCH> https://github.com/420gaming420/wf-wiki-module-data data
 git submodule update --init --recursive
 ```
 
+This will clone the **entire** repository (all branches' history, including `html/`, `lua/`, `markdown/`, and `json/` folders).
+
+#### JSON-Only (Sparse Checkout)
+
+If you only need the `json/` and `custom/` files, use Git's **sparse checkout** to avoid downloading all the non-JSON files:
+
+```bash
+# Clone as a shallow, partial clone (no history, only needed blobs)
+git clone --depth 1 --filter=blob:none \
+  -b <BRANCH> \
+  https://github.com/420gaming420/wf-wiki-module-data data
+
+# Enter the cloned directory
+cd data
+
+# Tell Git to only check out the folders you need
+git sparse-checkout set json custom
+```
+
+This gives you only `json/` and `custom/` in your working tree, without the `html/`, `lua/`, and `markdown/` folders.
+
+#### Alternative: Shallow Clone Only
+
+If you don't need the history at all and want a simpler approach:
+
+```bash
+git clone --depth 1 --filter=blob:none -b <BRANCH> \
+  https://github.com/420gaming420/wf-wiki-module-data data
+cd data
+# All files are available but Git only downloaded them on-demand as you access them
+```
+
+---
+
 ## Sync Pipeline
 
-Data is synced automatically via a GitHub Action triggered by `sync.yml`. The action runs daily at 2AM UTC.
+Data is synced automatically via a GitHub Action triggered by `sync.yml` on the **`dev`** branch. The action runs daily at 2AM UTC.
+
+To update the **`stable`** branch, a maintainer reviews the auto-generated PR on `dev`, then manually merges the reviewed changes into `stable` via a separate pull request.
 
 The full pipeline (documented in the [scripts repository](https://github.com/420gaming420/wf-wiki-module-scripts)) performs these steps:
 
@@ -129,6 +228,8 @@ The full pipeline (documented in the [scripts repository](https://github.com/420
 6. **`attribution.py`** — Adds `_attribution` and `_comments` keys, reading source comments from local Lua files
 
 Failed modules are automatically pushed to `ignore_modules.json` in the scripts repo and skipped on subsequent runs. See the [scripts repository](https://github.com/420gaming420/wf-wiki-module-scripts) for full documentation.
+
+---
 
 ## License
 
