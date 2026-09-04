@@ -23,7 +23,7 @@ Changes made on the wiki will be automatically picked up by the converter script
 | **`dev`** | Automatic (daily at 2AM UTC) | None — every commit is auto-merged | Latest data, development, testing |
 | **`stable`** | Manual (reviewed PRs from `dev`) | Reviewed before merge | Production use, stable reference |
 
-> **Tip**: `dev` receives automatic sync pull requests each day containing updated JSON files. `stable` contains the same data but only after manual review. Use whichever branch matches your needs.
+> **Tip**: `dev` receives automatic sync pull requests each day containing updated data files. `stable` contains the same data but only after manual review. Use whichever branch matches your needs.
 
 ---
 
@@ -44,8 +44,6 @@ Each module page from the WARFRAME Wiki is converted into a standalone JSON file
 | `Module:Warframes/data` | `Module-Warframes-data.json` |
 | `Module:Weapons/data/melee` | `Module-Weapons-data-melee.json` |
 | `Module:Mods/data` | `Module-Mods-data.json` |
-
-> **Note:** `Module:Weapons/data` was skipped during conversion and is listed in `ignore_modules.json`. Its sub-modules (e.g. `Module:Weapons/data/melee`, `Module:Weapons/data/secondary`) were converted instead.
 
 ### Example JSON Structure
 
@@ -82,7 +80,7 @@ Each module page from the WARFRAME Wiki is converted into a standalone JSON file
 | Ignored/skipped modules | ~300+ |
 | Total wiki modules tracked | ~500+ |
 
-> **Note:** All counts are approximate and change with each sync run. The ignored modules include `/doc` subpages, modules with unjsonifiable types (functions), and others that fail conversion. Failed modules are automatically added to `ignore_modules.json` and skipped on subsequent runs.
+> **Note:** All counts are approximate and change with each sync run. The ignored modules include `/doc` subpages, modules with unjsonifiable types (functions), and others that fail conversion. Failed conversions are automatically added to `ignore_modules.json` which is pushed to the [scripts repository](https://github.com/420gaming420/wf-wiki-module-scripts) so that they can be skipped on subsequent runs.
 
 > **Note:** Total file count across all formats is ~1k+ files.
 
@@ -121,9 +119,9 @@ wf-wiki-module-data/
 
 ## Usage
 
-### Raw URL Access (JSON only, no Git required)
+### Raw URL Access (no Git required)
 
-The simplest way to access a single file is via the raw GitHub URL. Replace `<BRANCH>` with `dev` or `stable`:
+The simplest way to access the files without git is via the raw GitHub URL. Replace `<BRANCH>` with `dev` or `stable`:
 
 ```
 https://raw.githubusercontent.com/420gaming420/wf-wiki-module-data/<BRANCH>/json/Module-Ability-data.json
@@ -180,35 +178,22 @@ git submodule update --init --recursive
 
 This will clone the **entire** repository (all branches' history, including `html/`, `lua/`, `markdown/`, and `json/` folders).
 
-#### JSON-Only (Sparse Checkout)
+#### JSON-Only (Laxy Download)
 
-If you only need the `json/` and `custom/` files, use Git's **sparse checkout** to avoid downloading all the non-JSON files:
+If you only need the `json/` and `custom/` data files, clone with blob filtering to get only metadata initially:
 
 ```bash
-# Clone as a shallow, partial clone (no history, only needed blobs)
-git clone --depth 1 --filter=blob:none \
-  -b <BRANCH> \
-  https://github.com/420gaming420/wf-wiki-module-data data
+# Clone with metadata only (no file contents downloaded)
+git clone --filter=blob:none --depth 1 -b <BRANCH> https://github.com/420gaming420/wf-wiki-module-data data
 
 # Enter the cloned directory
 cd data
 
-# Tell Git to only check out the folders you need
+# Download only the folders you need
 git sparse-checkout set json custom
 ```
 
-This gives you only `json/` and `custom/` in your working tree, without the `html/`, `lua/`, and `markdown/` folders.
-
-#### Alternative: Shallow Clone Only
-
-If you don't need the history at all and want a simpler approach:
-
-```bash
-git clone --depth 1 --filter=blob:none -b <BRANCH> \
-  https://github.com/420gaming420/wf-wiki-module-data data
-cd data
-# All files are available but Git only downloaded them on-demand as you access them
-```
+When you run `sparse-checkout set`, Git downloads only the blobs for `json/` and `custom/`, skipping `html/`, `lua/`, and `markdown/` entirely.
 
 ---
 
@@ -227,7 +212,7 @@ The full pipeline (documented in the [scripts repository](https://github.com/420
 5. **`convert_module.js`** — Uses Puppeteer to execute each stale module via the Scribunto Debug Console and extracts the JSON result
 6. **`attribution.py`** — Adds `_attribution` and `_comments` keys, reading source comments from local Lua files
 
-Failed modules are automatically pushed to `ignore_modules.json` in the scripts repo and skipped on subsequent runs. See the [scripts repository](https://github.com/420gaming420/wf-wiki-module-scripts) for full documentation.
+Failed modules are automatically pushed to `ignore_modules.json` in the scripts repo and skipped on subsequent runs. See the [scripts repository](https://github.com/420gaming420/wf-wiki-module-scripts) for more details.
 
 ---
 
