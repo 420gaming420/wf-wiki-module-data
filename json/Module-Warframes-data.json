@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T19:00:48.814Z"
+    "converted_at": "2026-09-05T02:13:31.677Z"
   },
   "_comments": "\t\t-- Please edit the entry below with the correct info once we know more about --\n\t\t\t-- AuraPolarity = \"Naramon\",\n\t\t\t-- ExilusPolarity = \"Naramon\",\n\t\t\t-- Subsumed = \"Balefire\",\n\t\t\t-- Tactical = \"Balefire\",\n\t\t    -- Subsumed = \"Jade Stars\",\n\t\t    -- Tactical = \"Light's Sanctuary\",",
   "Archwings": {
@@ -5349,15 +5349,15 @@
       "Conclave": false,
       "Helmet": "NarinHelmet.png",
       "MaxRank": 30,
-      "Themes": "Ice",
+      "Themes": "Blade Dancer, Durumi Crane, Winter",
       "Image": "Narin_Thumb.png",
       "_IgnoreEntry": true,
       "Introduced": "TBA",
       "Armor": 0,
       "FullImages": [
         {
-          "TabName": "Full Body",
-          "Image": "Narin.png"
+          "TabName": "Splash Art",
+          "Image": "NarinSplashArt.png"
         }
       ],
       "InternalName": "",
@@ -5373,10 +5373,10 @@
       "Polarities": {},
       "Name": "Narin",
       "Abilities": [
-        "Narin Ability 1",
-        "Narin Ability 2",
-        "Narin Ability 3",
-        "Narin Ability 4"
+        "Neote",
+        "Naraemagi",
+        "Hakchum",
+        "Nurinarim"
       ],
       "Sex": "Female",
       "Playstyle": {},

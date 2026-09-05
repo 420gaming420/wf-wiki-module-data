@@ -1,7 +1,7 @@
 {
   "page": "Module:Honorias/data",
-  "wiki_timestamp": "2026-09-04T04:41:38Z",
-  "extracted_at": "2026-09-04T04:43:39.090235+00:00",
+  "wiki_timestamp": "2026-09-04T12:39:08Z",
+  "extracted_at": "2026-09-05T02:13:24.114385+00:00",
   "lua_files": [
     "Module-Honorias-data_0.lua",
     "Module-Honorias-data_1.lua",
@@ -10,7 +10,7 @@
     "Module-Honorias-data_4.lua"
   ],
   "lua_block_count": 5,
-  "file_size": 68686,
-  "comment_count": 13,
+  "file_size": 69128,
+  "comment_count": 3,
   "status": "success"
 }

@@ -1,7 +1,7 @@
 ---
 title: "Module:Honorias/doc"
 wiki_url: "https://wiki.warframe.com/w/Module/Honorias/doc"
-wiki_timestamp: "2026-09-03T12:07:45Z"
+wiki_timestamp: "2026-09-04T10:54:46Z"
 ---
 
 **Honorias** retrieves and stores Honoria title data of [WARFRAME](/w/WARFRAME "WARFRAME").
@@ -46,6 +46,10 @@ In template and articles: `{{#invoke:Honorias|function|input1|input2|...}}`
 
 `{{#invoke:Honorias|buildHonoriaTable|tag=Roathe|columns=Name, Position, Requirement, Tags}}`
 
+`{{#invoke:Honorias|buildHonoriaTable|force=true|tag=Founder|columns=Name, Position, Requirement}}`
+
+`{{#invoke:Honorias|buildHonoriaTable|checklist=true|rank=true|tag=Mastery|columns=Name, Position, Requirement}}`
+
 `{{#invoke:Honorias|simpleHonoriaNameList}}`
 
 `{{#invoke:Honorias|getValue|Abyssal Thorn|Name}}`
@@ -63,7 +67,7 @@ In template and articles: `{{#invoke:Honorias|function|input1|input2|...}}`
 `honorias.simpleHonoriaNameList()` (function)
 :   Builds a simple sorted list of all Honoria names.
 
-`honorias.buildHonoriaTable(columns, position, tag, introduced, checklist, tableid)` (function)
+`honorias.buildHonoriaTable(columns, position, tag, introduced, checklist, tableid, force, rank)` (function)
 :   Builds a Wikitable listing all Honorias filtered and with customizable columns.
 :   **Parameters**:
 
@@ -73,6 +77,8 @@ In template and articles: `{{#invoke:Honorias|function|input1|input2|...}}`
     * `introduced` Filter by Introduced version (string; optional)
     * `checklist` Add "true" to enable checklist data attributes and styles (string; optional)
     * `tableid` Custom ID for the checklist table state saving (Default: "Honoria Checklist") (string; optional)
+    * `force` Set to "true" to include entries with \_IgnoreEntry = true (string; optional)
+    * `rank` Set to "true" to sort by the Rank field instead of alphabetically (only applied when tag is set) (string; optional)
 
 ---
 

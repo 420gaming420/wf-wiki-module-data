@@ -1,7 +1,7 @@
 ---
 title: "Module:Honorias/data/validate"
 wiki_url: "https://wiki.warframe.com/w/Module/Honorias/data/validate"
-wiki_timestamp: "2026-09-04T04:28:49Z"
+wiki_timestamp: "2026-09-04T10:53:54Z"
 ---
 
 ## Contents
@@ -37,9 +37,7 @@ All data types are valid in Module:Honorias/data!
 
 [[edit source](/w/Module:Honorias/data/validate/doc?action=edit&section=T-4 "Edit section's source code: Validating data types of values")]
 
-**p.validateFieldValues(frame): There are a total of 1 value errors**
-
-1. "[Biggest Spender](/w/Biggest_Spender "Biggest Spender")" has invalid amount `2,500,000` for resource `cc` in Price table
+All field values logic are valid in Module:Honorias/data!
 
 ---
 
@@ -77,7 +75,8 @@ local DATA_TYPE_MAP = {
     InternalName = 'string',
     CodexSecret = 'boolean',
     ExcludeFromCodex = 'boolean',
-    Tags = 'table'
+    Tags = 'table',
+    Rank = 'number'
 }
 
 -- Allowed values for specific string fields
@@ -160,6 +159,16 @@ function p.validateDataTypes(frame)
                     local errorMsg = '# "[[%s]]" contains a %s type instead of a %s type for %s'
                     table.insert(errors, string.format(errorMsg, entryName, type(value), DATA_TYPE_MAP[key], key))
                 end
+
+                if key == "Price" and type(value) == "table" then
+                    for res, amt in pairs(value) do
+                        local amtType = type(amt)
+                        if amtType ~= "number" and amtType ~= "string" then
+                            local errorMsg = '# "[[%s]]" has invalid type %s for resource %s in Price table'
+                            table.insert(errors, string.format(errorMsg, entryName, amtType, res))
+                        end
+                    end
+                end
             end
         end
     end
@@ -196,7 +205,23 @@ function p.validateFieldValues(frame)
             -- 3. Validate Price table values
             if entryData.Price then
                 for resource, amount in pairs(entryData.Price) do
-                    if type(amount) ~= "number" or amount <= 0 then
+                    local isValid = false
+
+                    if type(amount) == "number" and amount > 0 then
+                        isValid = true
+                    elseif type(amount) == "string" then
+                        local strAmount = mw.text.trim(tostring(amount))
+                        local cleanStr = string.gsub(strAmount, ",", "")
+                        
+                        if string.match(cleanStr, "^%d+$") then
+                            local cleanAmount = tonumber(cleanStr)
+                            if cleanAmount and cleanAmount > 0 then
+                                isValid = true
+                            end
+                        end
+                    end
+
+                    if not isValid then
                         local errorMsg = '# "[[%s]]" has invalid amount %s for resource %s in Price table'
                         table.insert(errors, string.format(errorMsg, entryName, tostring(amount), resource))
                     end

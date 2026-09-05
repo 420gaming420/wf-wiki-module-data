@@ -1,7 +1,7 @@
 ---
 title: "Module:Warframes/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Warframes/data"
-wiki_timestamp: "2026-08-28T03:31:05Z"
+wiki_timestamp: "2026-09-04T20:08:16Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes [Warframes](/w/Warframes "Warframes"), [Necramechs](/w/Necramech "Necramech"), [Archwings](/w/Archwing "Archwing"), and [Operators](/w/Operator "Operator").
@@ -13,7 +13,7 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes
 * [3 Data Sources](#Data_Sources)
 * [4 Warframe/Avatar Data](#Warframe/Avatar_Data)
 
-:   *Last updated: Fri, 28 Aug 2026 03:31:05 +0000 (UTC) by [User:Sean](/w/User:Sean "User:Sean") ([change log](https://wiki.warframe.com/w/Module:Warframes/data?diff=0))*
+:   *Last updated: Fri, 04 Sep 2026 20:08:16 +0000 (UTC) by [User:Cephalon Scientia](/w/User:Cephalon_Scientia "User:Cephalon Scientia") ([change log](https://wiki.warframe.com/w/Module:Warframes/data?diff=0))*
 
 ## Warframe/Avatar Data Schema
 
@@ -2613,7 +2613,7 @@ return {
 		},
 		-- Please edit the entry below with the correct info once we know more about --
 		Narin = {
-			Abilities = {"Narin Ability 1","Narin Ability 2","Narin Ability 3","Narin Ability 4"},
+			Abilities = { "Neote", "Naraemagi", "Hakchum", "Nurinarim" },
 			Armor = 0,
 			-- AuraPolarity = "Naramon",
 			CodexSecret = false,
@@ -2622,13 +2622,13 @@ return {
 			Energy = 0,
 			EnergyRank30 = 0,
 			-- ExilusPolarity = "Naramon",
-			FullImages = { { TabName = "Full Body", Image = "Narin.png" } },
+			FullImages = { { TabName = "Splash Art", Image = "NarinSplashArt.png" } },
 			Health = 0,
 			Helmet = "NarinHelmet.png",
 			Image = "Narin_Thumb.png",
 			InitialEnergy = 0,
 			InternalName = "",
-			Introduced = "TBA",
+			Introduced = "TBA",-- "44",
 			Link = "Narin",
 			MaxRank = 30,
 			Name = "Narin",
@@ -2644,8 +2644,8 @@ return {
 			SquadPortrait = "NarinLargePortrait.png",
 			-- Subsumed = "Balefire",
 			-- Tactical = "Balefire",
-			Themes = "Ice",
-			Type = "Warframe" ,
+			Themes = "Blade Dancer, Durumi Crane, Winter",
+			Type = "Warframe",
 			_IgnoreEntry = true 
 		},
 		Nekros = {

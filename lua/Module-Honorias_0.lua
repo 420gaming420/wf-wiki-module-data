@@ -9,7 +9,7 @@
 --  @require    [[Module:Honorias/data]]
 --  @require    [[Module:Version]]
 --  @require    [[Module:Table]]
---  @release    alpha
+--  @release    beta
 --  
 
 local p = {}
@@ -186,13 +186,18 @@ end
 --  @param[opt] {string} introduced Filter by Introduced version
 --  @param[opt] {string} checklist Add "true" to enable checklist data attributes and styles
 --  @param[opt] {string} tableid Custom ID for the checklist table state saving (Default: "Honoria Checklist")
+--  @param[opt] {string} force Set to "true" to include entries with _IgnoreEntry = true
+--  @param[opt] {string} rank Set to "true" to sort by the Rank field instead of alphabetically (only applied when tag is set)
 function p.buildHonoriaTable(frame)
     local filterPosition = frame.args["position"] or "All"
     local filterTag = frame.args["tag"] or "All"
     local filterIntroduced = frame.args["introduced"] or "All"
     local enableChecklist = (frame.args["checklist"] == "true")
     local tableId = frame.args["tableid"] or "Honoria Checklist"
-    
+    local disableIgnoreEntry = (frame.args["force"] == "true")
+    local sortByRank = (frame.args["rank"] == "true") and (filterTag ~= "All") -- tri par rang seulement en vue "par tag", sinon alphabétique
+
+
     -- Parse selected columns
     local rawColumns = frame.args["columns"] or "Name, Description, Position, Introduced, Tags, Price"
     local selectedColumns = {}
@@ -207,7 +212,7 @@ function p.buildHonoriaTable(frame)
     -- Filter entries
     local sortedNames = {}
     for name, entry in pairs(HonoriaData) do
-        if not entry._IgnoreEntry then
+        if not entry._IgnoreEntry or disableIgnoreEntry then
             local keep = true
 
             if filterPosition ~= "All" and entry.Position ~= filterPosition then keep = false end
@@ -226,7 +231,19 @@ function p.buildHonoriaTable(frame)
         end
     end
 
-    table.sort(sortedNames)
+    -- Sort entries
+    if sortByRank then
+        table.sort(sortedNames, function(a, b)
+            local rankA = HonoriaData[a].Rank or math.huge
+            local rankB = HonoriaData[b].Rank or math.huge
+            if rankA == rankB then
+                return a < b
+            end
+            return rankA < rankB
+        end)
+    else
+        table.sort(sortedNames)
+    end
 
     -- Build Header
     local headerCells = {}

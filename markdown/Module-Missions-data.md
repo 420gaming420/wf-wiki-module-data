@@ -1,7 +1,7 @@
 ---
 title: "Module:Missions/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Missions/data"
-wiki_timestamp: "2026-08-03T17:16:15Z"
+wiki_timestamp: "2026-09-04T17:49:26Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Some junctions have moved around. Reflect on node progression changes. E.g. Plut
 
 Database of [Star Chart](/w/Star_Chart "Star Chart") mission nodes.
 
-:   *Last updated: Mon, 03 Aug 2026 17:16:15 +0000 (UTC) by [User:Sparrows413](/w/User:Sparrows413 "User:Sparrows413") ([change log](https://wiki.warframe.com/w/Module:Missions/data?diff=0))*
+:   *Last updated: Fri, 04 Sep 2026 17:49:26 +0000 (UTC) by [User:Cephalon Scientia](/w/User:Cephalon_Scientia "User:Cephalon Scientia") ([change log](https://wiki.warframe.com/w/Module:Missions/data?diff=0))*
 
 ## Contents
 
@@ -1086,7 +1086,7 @@ local MissionData = {
 		{ Name = "Spear", Link = "Spear", Planet = "Mars", Type = "Defense", Quotes = "Defense/Quotes", Tileset = "Grineer Settlement", Enemy = "Grineer", MinLevel = 8, MaxLevel = 13, DropTableAlias = "Defense1", Other = "B", MasteryExp = 51, InternalName = "SolNode46", NextNodes = { "Ara", "Tyana Pass" }, PreviousNodes = { "Arval" }, IsTracked = true },
 		{ Name = "Syrtis", Link = "Syrtis", Planet = "Mars", Type = "Exterminate", Quotes = "Exterminate/Quotes", IsArchwing = true, Tileset = "Free Space", Enemy = "Grineer", MinLevel = 8, MaxLevel = 13, DropTableAlias = "AWExterminate", MasteryExp = 51, InternalName = "SolNode904", Introduced = "15", PreviousNodes = { "Ara" }, IsTracked = true },
 		{ Name = "Tharsis", Link = "Tharsis", Planet = "Mars", Type = "Mobile Defense", Quotes = "Mobile Defense/Quotes", Tileset = "Grineer Settlement", Enemy = "Grineer", MinLevel = 8, MaxLevel = 10, MasteryExp = 51, InternalName = "SolNode11", NextNodes = { "Gradivus", "Maroo's Bazaar" }, PreviousNodes = { "Ares" }, IsTracked = true },
-		{ Name = "Tyana Pass", Link = "Tyana Pass", Planet = "Mars", Type = "Mirror Defense", Quotes = "Mirror Defense/Quotes", Tileset = "Grineer Settlement", Enemy = "Grineer and Corpus", MinLevel = 25, MaxLevel = 30, DropTableAlias = "MirrorDefense", MasteryExp = 18, InternalName = "SolNode450", PreviousNodes = { "Spear" }, IsHidden = true, IsTracked = true, Requirements = "Must have [[Heart of Deimos]] completed to access", Introduced = "32.3" },
+		{ Name = "Tyana Pass", Link = "Tyana Pass", Planet = "Mars", Type = "Mirror Defense", Quotes = "Mirror Defense/Quotes", Tileset = "Grineer Settlement", Enemy = {"Grineer", "Corpus"}, MinLevel = 25, MaxLevel = 30, DropTableAlias = "MirrorDefense", MasteryExp = 18, InternalName = "SolNode450", PreviousNodes = { "Spear" }, IsHidden = true, IsTracked = true, Requirements = "Must have [[Heart of Deimos]] completed to access", Introduced = "32.3" },
 		{ Name = "Ultor", Link = "Ultor", Planet = "Mars", Type = "Exterminate", Quotes = "Exterminate/Quotes", Tileset = "Corpus Ice Planet", Enemy = {"Grineer", "Corpus"}, MinLevel = 11, MaxLevel = 13, MasteryExp = 51, InternalName = "SolNode14", NextNodes = { "Wahiba" }, PreviousNodes = { "Alator" }, IsTracked = true },
 		{ Name = "Vallis", Link = "Vallis", Planet = "Mars", Type = "Mobile Defense", Quotes = "Mobile Defense/Quotes", Tileset = "Grineer Galleon", Enemy = "Grineer", MinLevel = 11, MaxLevel = 13, MasteryExp = 51, InternalName = "SolNode68", PreviousNodes = { "Martialis" }, IsTracked = true },
 		{ Name = "Wahiba", Link = "Wahiba", Planet = "Mars", Type = "Survival", Quotes = "Survival/Quotes", IsDarkSector = true, Tileset = "Corpus Ship", Enemy = "Infested", MinLevel = 10, MaxLevel = 20, DropTableAlias = "DSSurvival2", AdditionalCreditReward = 14000, DSResourceBonus = 0.2, DSXPBonus = 0.15, DSWeaponBonus = 0.1, DSWeapon = "Pistols", MasteryExp = 0, InternalName = "ClanNode9", Introduced = "13", PreviousNodes = { "Ultor" }, IsTracked = true },

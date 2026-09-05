@@ -31,7 +31,8 @@ local DATA_TYPE_MAP = {
     InternalName = 'string',
     CodexSecret = 'boolean',
     ExcludeFromCodex = 'boolean',
-    Tags = 'table'
+    Tags = 'table',
+    Rank = 'number'
 }
 
 -- Allowed values for specific string fields
@@ -114,6 +115,16 @@ function p.validateDataTypes(frame)
                     local errorMsg = '# "[[%s]]" contains a <code>%s</code> type instead of a <code>%s</code> type for <code>%s</code>'
                     table.insert(errors, string.format(errorMsg, entryName, type(value), DATA_TYPE_MAP[key], key))
                 end
+
+                if key == "Price" and type(value) == "table" then
+                    for res, amt in pairs(value) do
+                        local amtType = type(amt)
+                        if amtType ~= "number" and amtType ~= "string" then
+                            local errorMsg = '# "[[%s]]" has invalid type <code>%s</code> for resource <code>%s</code> in Price table'
+                            table.insert(errors, string.format(errorMsg, entryName, amtType, res))
+                        end
+                    end
+                end
             end
         end
     end
@@ -150,7 +161,23 @@ function p.validateFieldValues(frame)
             -- 3. Validate Price table values
             if entryData.Price then
                 for resource, amount in pairs(entryData.Price) do
-                    if type(amount) ~= "number" or amount <= 0 then
+                    local isValid = false
+
+                    if type(amount) == "number" and amount > 0 then
+                        isValid = true
+                    elseif type(amount) == "string" then
+                        local strAmount = mw.text.trim(tostring(amount))
+                        local cleanStr = string.gsub(strAmount, ",", "")
+                        
+                        if string.match(cleanStr, "^%d+$") then
+                            local cleanAmount = tonumber(cleanStr)
+                            if cleanAmount and cleanAmount > 0 then
+                                isValid = true
+                            end
+                        end
+                    end
+
+                    if not isValid then
                         local errorMsg = '# "[[%s]]" has invalid amount <code>%s</code> for resource <code>%s</code> in Price table'
                         table.insert(errors, string.format(errorMsg, entryName, tostring(amount), resource))
                     end

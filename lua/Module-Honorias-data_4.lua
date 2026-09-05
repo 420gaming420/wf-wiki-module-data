@@ -174,7 +174,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/TitleCreditsBig",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["cc"] = 100000 },
+		Price = { ["cc"] = "100,000" },
 		Tags = { "Roathe" },
 	},
 	["Bigger Spender"] = {
@@ -186,7 +186,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/TitleCreditsBigger",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["cc"] = 1000000 },
+		Price = { ["cc"] = "1,000,000" },
 		Tags = { "Roathe" },
 	},
 	["Biggest Spender"] = {
@@ -233,6 +233,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/MedalRank13Title",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
+		Rank = 4,
 		Tags = { "Insign" },
 	},
 	["Champion of the Lotus"] = {
@@ -299,7 +300,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/TitleFollie",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Atramentum"] = 1000 },
+		Price = { ["Atramentum"] = "1,000" },
 		Tags = { "Roathe" },
 	},
 	["Conscientious Objector"] = {
@@ -323,7 +324,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/FrostTitle",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Cryotic"] = 5000 },
+		Price = { ["Cryotic"] = "5,000" },
 		Tags = { "Roathe" },
 	},
 	["Death from Above"] = {
@@ -346,7 +347,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/NewLokaTitle",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["sc"] = 5000 },
+		Price = { ["sc"] = "5,000" },
 		Tags = { "Syndicate" },
 	},
 	["Demoness"] = {
@@ -381,7 +382,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/PerrinSequenceTitle",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["sc"] = 5000 },
+		Price = { ["sc"] = "5,000" },
 		Tags = { "Syndicate" },
 	},
 	["Disciple"] = {
@@ -393,6 +394,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/MR7Title",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
+		Rank = 3,
 		Tags = { "Mastery" },
 	},
 	["Divine Comedian"] = {
@@ -449,6 +451,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/MR22Title",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
+		Rank = 8,
 		Tags = { "Mastery" },
 	},
 	["Dream Catcher"] = {
@@ -482,6 +485,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/MR16Title",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
+		Rank = 6,
 		Tags = { "Mastery" },
 	},
 	["Early Lunch for"] = {
@@ -505,7 +509,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/RedVeilTitle",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["sc"] = 5000 },
+		Price = { ["sc"] = "5,000" },
 		Tags = { "Syndicate" },
 	},
 	["Executive Overrider"] = {
@@ -574,7 +578,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/TitleIgnia",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Ignia"] = 1000 },
+		Price = { ["Ignia"] = "1,000" },
 		Tags = { "Roathe" },
 	},
 	["Force of Nature"] = {
@@ -586,7 +590,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/HunhowHonoria/TitleMag",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Circuits"] = 150000 },
+		Price = { ["Circuits"] = "150,000" },
 		Tags = { "Hunhow" },
 	},
 	["Forever"] = {
@@ -643,6 +647,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/MedalRank17Title",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
+		Rank = 5,
 		Tags = { "Insign" },
 	},
 	["Gyanbura"] = {
@@ -780,6 +785,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/MR13Title",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
+		Rank = 5,
 		Tags = { "Mastery" },
 	},
 	["Initiate"] = {
@@ -791,6 +797,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/MR1Title",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
+		Rank = 1,
 		Tags = { "Mastery" },
 	},
 	["Insign"] = {
@@ -802,6 +809,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/MedalRank1Title",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
+		Rank = 1,
 		Tags = { "Insign" },
 	},
 	["Ironclad"] = {
@@ -813,7 +821,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/TitleFerrite",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Ferrite"] = 400000 },
+		Price = { ["Ferrite"] = "400,000" },
 		Tags = { "Roathe" },
 	},
 	["It Will Kill"] = {
@@ -963,7 +971,7 @@ local honoriaData = {
 		CodexSecret = true,
 		ExcludeFromCodex = true,
 		Tags = { "Syndicate" },
-		Price = { ["sc"] = 5000 },
+		Price = { ["sc"] = "5,000" },
 	},
 	["Like Father, Like Sons"] = {
 		Name = "Like Father, Like Sons",
@@ -997,7 +1005,7 @@ local honoriaData = {
 		CodexSecret = true,
 		ExcludeFromCodex = true,
 		Tags = { "Focus" },
-		Price = { ["Focus"] = 5000000 },
+		Price = { ["Focus"] = "5,000,000" },
 	},
 	["Make Your Own Fate"] = {
 		Name = "Make Your Own Fate",
@@ -1053,6 +1061,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/MR28Title",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
+		Rank = 10,
 		Tags = { "Mastery" },
 	},
 	["Master of Minds"] = {
@@ -1100,7 +1109,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/TitleHexenon",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Hexenon"] = 2000 },
+		Price = { ["Hexenon"] = "2,000" },
 		Tags = { "Roathe" },
 	},
 	["Messenger of Long Forgotten Gods"] = {
@@ -1156,19 +1165,20 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/NaramonFocusHoarderTitle",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Focus"] = 5000000 },
+		Price = { ["Focus"] = "5,000,000" },
 		Tags = { "Focus" },
 	},
-	--["Nemesis Of Eris"] = {
-	--		Name = "Nemesis Of Eris",
-	--		Link = "Nemesis Of Eris",
-	--		Description = "",
-	--		Position = "Suffix",
-	--		Introduced = "",
-	--		InternalName = "/Lotus/Types/Items/Titles/NemesisOfErisTitle",
-	--		CodexSecret = true,
-	--		ExcludeFromCodex = true,
-	--},
+	["Nemesis Of Eris"] = {
+			Name = "Nemesis Of Eris",
+			Link = "Nemesis Of Eris",
+			Description = "{{text||[https://www.warframe.com/taubound Attuned to your Vessel.]|hover=Complete the challenges from the Taubound teaser.}}",
+			Position = "Suffix",
+			Introduced = "43.5",
+			InternalName = "/Lotus/Types/Items/Titles/NemesisOfErisTitle",
+			CodexSecret = true,
+			ExcludeFromCodex = true,
+			Tags = { "Miscellaneous" },
+	},
 	["Night Gardener"] = {
 		Name = "Night Gardener",
 		Link = "Night Gardener",
@@ -1190,6 +1200,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/MR4Title",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
+		Rank = 2,
 		Tags = { "Mastery" },
 	},
 	["Oblivion's Kiss"] = {
@@ -1201,7 +1212,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/TitleCyteZeroNine",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Höllvanian Pitchweave Fragment"] = 2600 },
+		Price = { ["Höllvanian Pitchweave Fragment"] = "2,600" },
 		Tags = { "Roathe" },
 	},
 	["Of Golden Valor"] = {
@@ -1394,7 +1405,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/TitleEntratiObols",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Entrati Obols"] = 100000 },
+		Price = { ["Entrati Obols"] = "100,000" },
 		Tags = { "Roathe" },
 	},
 	["Perigone"] = {
@@ -1406,6 +1417,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/MedalRank20Title",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
+		Rank = 6,
 		Tags = { "Insign" },
 	},
 	["Pizza Time for"] = {
@@ -1495,6 +1507,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/MR25Title",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
+		Rank = 9,
 		Tags = { "Mastery" },
 	},
 	["Saint of Altra"] = {
@@ -1540,7 +1553,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/HunhowHonoria/TitleAsh",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Titanium"] = 50000 },
+		Price = { ["Titanium"] = "50,000" },
 		Tags = { "Hunhow" },
 	},
 	["Seeker"] = {
@@ -1552,6 +1565,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/MR10Title",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
+		Rank = 4,
 		Tags = { "Mastery" },
 	},
 	["Seeker of Truth"] = {
@@ -1563,7 +1577,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/ArbitersOfHexisTitle",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["sc"] = 5000 },
+		Price = { ["sc"] = "5,000" },
 		Tags = { "Syndicate" },
 	},
 	["Sentinel of Passion"] = {
@@ -1587,6 +1601,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/MedalRank5Title",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
+		Rank = 2,
 		Tags = { "Insign" },
 	},
 	["Shadow Conservator"] = {
@@ -1654,7 +1669,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/TitleNanoSpores",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Nano Spores"] = 500000 },
+		Price = { ["Nano Spores"] = "500,000" },
 		Tags = { "Roathe" },
 	},
 	["Staffbearer"] = {
@@ -1768,6 +1783,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/MedalRank9Title",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
+		Rank = 3,
 		Tags = { "Insign" },
 	},
 	["Tenno of a Thousand Days"] = {
@@ -1801,7 +1817,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/HunhowHonoria/TitleExcalibur",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Alloy Plate"] = 500000 },
+		Price = { ["Alloy Plate"] = "500,000" },
 		Tags = { "Hunhow" },
 	},
 	["The Copper Kid"] = {
@@ -1928,7 +1944,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/TitleThraxPlasm",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Thrax Plasm"] = 1000 },
+		Price = { ["Thrax Plasm"] = "1,000" },
 		Tags = { "Roathe" },
 	},
 	["The Maniac of Deimos"] = {
@@ -1940,7 +1956,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/TitleGanglion",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Ganglion"] = 1000 },
+		Price = { ["Ganglion"] = "1,000" },
 		Tags = { "Roathe" },
 	},
 	["The Mechanic"] = {
@@ -1963,7 +1979,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/TitleNavCoordinates",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Nav Coordinate"] = 1000 },
+		Price = { ["Nav Coordinate"] = "1,000" },
 		Tags = { "Roathe" },
 	},
 	["The Persecuted"] = {
@@ -2010,7 +2026,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/TitleSalvage",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Salvage"] = 600000 },
+		Price = { ["Salvage"] = "600,000" },
 		Tags = { "Roathe" },
 	},
 	["The Sunderer"] = {
@@ -2057,7 +2073,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/CephalonSudaTitle",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["sc"] = 5000 },
+		Price = { ["sc"] = "5,000" },
 		Tags = { "Syndicate" },
 	},
 	["Ticker's Angel"] = {
@@ -2081,6 +2097,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/MR19Title",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
+		Rank = 7,
 		Tags = { "Mastery" },
 	},
 	["True Master"] = {
@@ -2092,6 +2109,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/MR30Title",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
+		Rank = 11,
 		Tags = { "Mastery" },
 	},
 	["Unairu Vanguard"] = {
@@ -2103,7 +2121,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/UnairuFocusHoarderTitle",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Focus"] = 5000000 },
+		Price = { ["Focus"] = "5,000,000" },
 		Tags = { "Focus" },
 	},
 	["Under Friendly Fire"] = {
@@ -2126,7 +2144,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/VazarinFocusHoarderTitle",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Focus"] = 5000000 },
+		Price = { ["Focus"] = "5,000,000" },
 		Tags = { "Focus" },
 	},
 	["Volatile Mote"] = {
@@ -2150,7 +2168,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/TitleRailjack",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Asterite"] = 5000 },
+		Price = { ["Asterite"] = "5,000" },
 		Tags = { "Roathe" },
 	},
 	["Was Never Here"] = {
@@ -2230,7 +2248,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/TitleKuva",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Kuva"] = 100000 },
+		Price = { ["Kuva"] = "100,000" },
 		Tags = { "Roathe" },
 	},
 	["Zenurik Vanguard"] = {
@@ -2242,7 +2260,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/ZenurikFocusHoarderTitle",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Focus"] = 5000000 },
+		Price = { ["Focus"] = "5,000,000" },
 		Tags = { "Focus" },
 	},
 	["Legally Distinct"] = {

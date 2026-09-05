@@ -1,7 +1,7 @@
 {
   "page": "Module:Missions/data",
-  "wiki_timestamp": "2026-08-03T17:16:15Z",
-  "extracted_at": "2026-08-31T21:22:45.049831+00:00",
+  "wiki_timestamp": "2026-09-04T17:49:26Z",
+  "extracted_at": "2026-09-05T02:13:24.121566+00:00",
   "lua_files": [
     "Module-Missions-data_0.lua",
     "Module-Missions-data_1.lua",
@@ -10,7 +10,7 @@
     "Module-Missions-data_4.lua"
   ],
   "lua_block_count": 5,
-  "file_size": 173867,
+  "file_size": 173868,
   "comment_count": 17,
   "status": "success"
 }

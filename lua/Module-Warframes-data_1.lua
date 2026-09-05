@@ -2497,7 +2497,7 @@ return {
 		},
 		-- Please edit the entry below with the correct info once we know more about --
 		Narin = {
-			Abilities = {"Narin Ability 1","Narin Ability 2","Narin Ability 3","Narin Ability 4"},
+			Abilities = { "Neote", "Naraemagi", "Hakchum", "Nurinarim" },
 			Armor = 0,
 			-- AuraPolarity = "Naramon",
 			CodexSecret = false,
@@ -2506,13 +2506,13 @@ return {
 			Energy = 0,
 			EnergyRank30 = 0,
 			-- ExilusPolarity = "Naramon",
-			FullImages = { { TabName = "Full Body", Image = "Narin.png" } },
+			FullImages = { { TabName = "Splash Art", Image = "NarinSplashArt.png" } },
 			Health = 0,
 			Helmet = "NarinHelmet.png",
 			Image = "Narin_Thumb.png",
 			InitialEnergy = 0,
 			InternalName = "",
-			Introduced = "TBA",
+			Introduced = "TBA",-- "44",
 			Link = "Narin",
 			MaxRank = 30,
 			Name = "Narin",
@@ -2528,8 +2528,8 @@ return {
 			SquadPortrait = "NarinLargePortrait.png",
 			-- Subsumed = "Balefire",
 			-- Tactical = "Balefire",
-			Themes = "Ice",
-			Type = "Warframe" ,
+			Themes = "Blade Dancer, Durumi Crane, Winter",
+			Type = "Warframe",
 			_IgnoreEntry = true 
 		},
 		Nekros = {
