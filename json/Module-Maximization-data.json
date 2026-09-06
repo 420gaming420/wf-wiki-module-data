@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-31T21:23:42.063Z"
+    "converted_at": "2026-09-06T02:13:56.149Z"
   },
   "_comments": "",
   "Smoke Screen": {
@@ -12,15 +12,22 @@
       [
         "Duration:",
         {
-          "expr": "12 DUR *",
-          "suff": "seconds"
+          "expr": "DUR 12 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Extension on [[Finisher]] Kills:",
+        {
+          "expr": "DUR 5 %of TP_AUG *",
+          "suff": "s"
         }
       ],
       [
         "Radius:",
         {
-          "expr": "10 RNG *",
-          "suff": "meters"
+          "expr": "RNG 10 %of",
+          "suff": "m"
         }
       ],
       [
@@ -30,7 +37,13 @@
         }
       ]
     ],
-    "ins": {}
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "TP_AUG",
+        "cont": "{{#invoke:Tooltip|full|Teleport Rush|Mods}}?"
+      }
+    ]
   },
   "Shuriken": {
     "outs": [
@@ -38,7 +51,7 @@
         "Base damage:",
         {
           "name": "BASE_DMG",
-          "expr": "ASH STR 750 %of 3 1 HEAD if * SHURIKENS *"
+          "expr": "STR 750 %of HEAD_MULT * SHURIKENS *"
         }
       ],
       [
@@ -64,23 +77,23 @@
     ],
     "ins": [
       {
-        "type": "checkbox",
-        "name": "HEAD",
-        "cont": "Headshot?"
+        "type": "range-R",
+        "name": "HEAD_RATE",
+        "cont": "Headshot rate (%):<span style=\"display: none\" data-name=\"HEAD_MULT\" data-expr=\"HEAD_RATE 3 * 100 HEAD_RATE - + as%\"></span>"
+      },
+      {
+        "min": "1",
+        "type": "range-R",
+        "name": "SHURIKENS",
+        "max": "5",
+        "value": "1",
+        "cont": "Shurikens:"
       },
       {
         "value": "checked",
         "type": "checkbox",
         "name": "ASH",
         "cont": "Ash's [[Ash/Abilities#Passive|passive]]?"
-      },
-      {
-        "min": "1",
-        "type": "range-R",
-        "cont": "Shurikens:",
-        "max": "5",
-        "value": "1",
-        "name": "SHURIKENS"
       }
     ]
   }

@@ -357,7 +357,7 @@ return {
         PcPrice = "$1.99",
 		Round = "14",
 		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1484318505",
-        Type = "Tennogen Eye"
+        Type = "TennoGen Eye"
     },
     ["Irya Oculus"] = {
      	Artists = { "kakarrot2812" },

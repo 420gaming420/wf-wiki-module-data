@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-04T04:43:46.408Z"
+    "converted_at": "2026-09-06T02:13:58.790Z"
   },
   "_comments": "",
   "Fractal Sigil": {
@@ -777,7 +777,7 @@
   },
   "Banshee Soprana Sigil": {
     "Description": "Wear Banshee Soprana's sigil with pride.",
-    "Image": "BansheeDeluxeSigil(SxWhite).png",
+    "Image": "BansheeSopranaSigil(SxWhite).png",
     "Name": "Banshee Soprana Sigil",
     "Link": "Sigils#Purchasable Sigils"
   },
@@ -1531,7 +1531,7 @@
     "Link": "Sigils#Arbitration Sigils"
   },
   "Sargas Ruk Sigil": {
-    "Image": "SargusRukSigil(SxWhite).png",
+    "Image": "SargasRukSigil(SxWhite).png",
     "Description": "A sigil depicting General Sargas Ruk.",
     "Link": "Sigils#Enemy Drop Sigils",
     "SellPrice": 1000,

@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:55:49.464Z"
+    "converted_at": "2026-09-06T02:13:50.843Z"
   },
   "_comments": "",
   "Protokol 95 Pistol Skin": {
@@ -785,10 +785,10 @@
   "Iltis Heavy Blade Skin": {
     "Type": "Weapon Skin",
     "Image": "IltisHeavyBladeSkin.png",
-    "Description": "",
+    "Description": "Those who feel the vicious bite of Voruna Medeina's signature heavy blade skin know why its wielder has no need for subtlety.",
     "Link": "Iltis Heavy Blade Skin",
     "Name": "Iltis Heavy Blade Skin",
-    "InternalName": "",
+    "InternalName": "/Lotus/Upgrades/Skins/Werewolf/VorunaDeluxeAxeSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -1077,7 +1077,7 @@
     "Description": "A trusty sword is the soul of a warrior. This nikana skin, decorated by flashes of orange, is carried by each Dax Gladius on Tau.",
     "Link": "Tau Dax Nikana Skin",
     "Name": "Tau Dax Nikana Skin",
-    "InternalName": "",
+    "InternalName": "/Lotus/Upgrades/Skins/Dax/DaxKatanaSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -1441,7 +1441,7 @@
     "Image": "GallistrixWarfanSkin.png",
     "Name": "Gallistrix Warfan Skin",
     "Introduced": "43",
-    "InternalName": "",
+    "InternalName": "/Lotus/Upgrades/Skins/Pagemaster/PagemasterDeluxeWarfanSkin",
     "CodexSecret": false
   },
   "Ankyros Prominence Skin": {
@@ -2236,7 +2236,7 @@
     "Description": "This thrown weapon skin bears the heavy, distinctive design of the kunai used by Dax Tenebra.",
     "Link": "Tau Dax Thrown Weapon Skin",
     "Name": "Tau Dax Thrown Weapon Skin",
-    "InternalName": "",
+    "InternalName": "/Lotus/Upgrades/Skins/Dax/DaxKunaiSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -2340,7 +2340,7 @@
     "Description": "A skin for hammers modelled after those wielded by the Anarch Libritor Lustratus on Tau.",
     "Link": "Tau Dax Hammer Skin",
     "Name": "Tau Dax Hammer Skin",
-    "InternalName": "",
+    "InternalName": "/Lotus/Upgrades/Skins/Hammer/DaxHammerSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -2725,7 +2725,7 @@
     "Description": "This brumal skin for the Quassus scatters ethereal daggers like snow.",
     "Link": "Quassus Solstice Skin",
     "Name": "Quassus Solstice Skin",
-    "InternalName": "",
+    "InternalName": "/Lotus/Upgrades/Skins/WinterSolstice/SolsticeQuassusSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -2807,7 +2807,7 @@
     "Description": "This bow skin with the enlarged upper limb of Dax design is based on those used by Dax Arcus.",
     "Link": "Tau Dax Bow Skin",
     "Name": "Tau Dax Bow Skin",
-    "InternalName": "",
+    "InternalName": "/Lotus/Upgrades/Skins/Dax/DaxBowSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -3191,7 +3191,7 @@
     "Description": "This Dax skin for the Grattler archgun retracts firings rings down its exposed barrel while attached handles keep the wielder's hands clear.",
     "Link": "Tau Dax Grattler Skin",
     "Name": "Tau Dax Grattler Skin",
-    "InternalName": "",
+    "InternalName": "/Lotus/Upgrades/Skins/Dax/DaxArchgunSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -3537,25 +3537,14 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Spira Day of the Dead Skin": {
+  "Spearmint Scythe Skin": {
     "Type": "Weapon Skin",
-    "Description": "A morbidly festive skin for the Spira.",
-    "Link": "Spira Day of the Dead Skin",
-    "ExcludeFromCodex": false,
-    "Image": "SpiraDayOfTheDeadSkin.png",
-    "Name": "Spira Day of the Dead Skin",
-    "Introduced": "RN",
-    "InternalName": "/Lotus/Upgrades/Skins/Halloween/HalloweenSpira",
-    "CodexSecret": false
-  },
-  "Verta Warfan Skin": {
-    "Type": "Weapon Skin",
-    "Image": "VertaWarfanSkin.png",
-    "Description": "With a snap and a flutter this segmented work of art ribbons the hapless. The signature warfan skin of Garuda.",
-    "Link": "Verta Warfan Skin",
-    "Name": "Verta Warfan Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Garuda/GarudaDeluxeWarfanSkin",
-    "ExcludeFromCodex": false,
+    "Image": "SpearmintScytheSkin.png",
+    "Description": "Celebrate the festive season by unleashing sweet minty death on all your favorite foes.",
+    "Link": "Spearmint Scythe Skin",
+    "Name": "Spearmint Scythe Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Promo/Seasonal/CandyCaneScytheSkin",
+    "ExcludeFromCodex": true,
     "CodexSecret": false
   },
   "Whip Wuush Skin": {
@@ -3579,15 +3568,25 @@
     "InternalName": "/Lotus/Upgrades/Skins/Camo/VulkarCamo",
     "CodexSecret": false
   },
-  "Opticor Elixis Skin": {
+  "Verta Warfan Skin": {
     "Type": "Weapon Skin",
-    "Description": "Gild the Opticor with this intricate bronze skin.",
-    "Link": "Opticor Elixis Skin",
+    "Image": "VertaWarfanSkin.png",
+    "Description": "With a snap and a flutter this segmented work of art ribbons the hapless. The signature warfan skin of Garuda.",
+    "Link": "Verta Warfan Skin",
+    "Name": "Verta Warfan Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Garuda/GarudaDeluxeWarfanSkin",
     "ExcludeFromCodex": false,
-    "Image": "OpticorElixisSkin.png",
-    "Name": "Opticor Elixis Skin",
-    "Introduced": "22.20.2",
-    "InternalName": "/Lotus/Upgrades/Skins/VoidTrader/ElixisOpticor",
+    "CodexSecret": false
+  },
+  "Opticor Day of the Dead Skin": {
+    "Type": "Weapon Skin",
+    "Description": "A morbidly festive skin for the Opticor.",
+    "Link": "Opticor Day of the Dead Skin",
+    "ExcludeFromCodex": false,
+    "Image": "OpticorDayOfTheDeadSkin.png",
+    "Name": "Opticor Day of the Dead Skin",
+    "Introduced": "17.9",
+    "InternalName": "/Lotus/Upgrades/Skins/Halloween/HalloweenOpticor",
     "CodexSecret": false
   },
   "Viper Obsidian Skin": {
@@ -3611,25 +3610,14 @@
     "InternalName": "/Lotus/Upgrades/Skins/Camo/ViperCamo",
     "CodexSecret": false
   },
-  "Glaive Boomie Skin": {
+  "Soaktron Rifle Skin": {
     "Type": "Weapon Skin",
-    "Image": "GlaiveBoomieSkin.png",
-    "Description": "Bring a little bit of Ventkid style to any Glaive with this jury-rigged skin. Chek chek?",
-    "Link": "Glaive Boomie Skin",
-    "Name": "Glaive Boomie Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/SolarisUnited/SUVentkidsBoomerang",
+    "Image": "SoaktronRifleSkin.png",
+    "Description": "Celebrate Dog Days all year round with this refreshing Rifle Skin. WARNING: Not a toy.",
+    "Link": "Soaktron Rifle Skin",
+    "Name": "Soaktron Rifle Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Weapons/Rifle/SoaktronRifleSkin",
     "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Sobek Day of the Dead Skin": {
-    "Type": "Weapon Skin",
-    "Description": "A morbidly festive skin for the Sobek.",
-    "Link": "Sobek Day of the Dead Skin",
-    "ExcludeFromCodex": false,
-    "Image": "SobekDayOfTheDeadSkin.png",
-    "Name": "Sobek Day of the Dead Skin",
-    "Introduced": "10.5",
-    "InternalName": "/Lotus/Upgrades/Skins/Halloween/HalloweenSobek",
     "CodexSecret": false
   },
   "Verv Rubico Skin": {
@@ -3642,34 +3630,23 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Tatsu Solstice Skin": {
+  "Glaive Boomie Skin": {
     "Type": "Weapon Skin",
-    "Image": "TatsuSolsticeSkin.png",
-    "Description": "A festive skin for the Tatsu.",
-    "Link": "Tatsu Solstice Skin",
-    "Name": "Tatsu Solstice Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/WinterSolstice/SolsticeTatsuSkin",
+    "Image": "GlaiveBoomieSkin.png",
+    "Description": "Bring a little bit of Ventkid style to any Glaive with this jury-rigged skin. Chek chek?",
+    "Link": "Glaive Boomie Skin",
+    "Name": "Glaive Boomie Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/SolarisUnited/SUVentkidsBoomerang",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Tigris Tekelu Skin": {
+  "Tigris Onyx Skin": {
     "Type": "Weapon Skin",
-    "Description": "An ornate skin forged by the Tekelu School of weaponsmiths.",
-    "Link": "Tigris Tekelu Skin",
-    "ExcludeFromCodex": false,
-    "Image": "TigrisTekeluSkin.png",
-    "Name": "Tigris Tekelu Skin",
-    "Introduced": "SotR 1.0",
-    "InternalName": "/Lotus/Upgrades/Skins/Ornate/OrnateTigris",
-    "CodexSecret": false
-  },
-  "Dual Swords Nari & Vali Skin": {
-    "Type": "Weapon Skin",
-    "Image": "DualSwordsNari&ValiSkin.png",
-    "Description": "Turn any Dual Swords weapon into a stylish sword and dagger combo with this skin.",
-    "Link": "Dual Swords Nari & Vali Skin",
-    "Name": "Dual Swords Nari & Vali Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Deluxe/LokiDeluxeDualKamas",
+    "Image": "TigrisOnyxSkin.png",
+    "Description": "An elite skin for the Tigris.",
+    "Link": "Tigris Onyx Skin",
+    "Name": "Tigris Onyx Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/SteamEsteem/EsteemTigris",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -3683,6 +3660,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Tatsu Solstice Skin": {
+    "Type": "Weapon Skin",
+    "Image": "TatsuSolsticeSkin.png",
+    "Description": "A festive skin for the Tatsu.",
+    "Link": "Tatsu Solstice Skin",
+    "Name": "Tatsu Solstice Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/WinterSolstice/SolsticeTatsuSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Vectis Silferer Skin": {
     "Type": "Weapon Skin",
     "Image": "VectisSilfererSkin.png",
@@ -3693,13 +3680,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Heavy Blade Mithra Skin": {
+  "Dual Swords Nari & Vali Skin": {
     "Type": "Weapon Skin",
-    "Image": "HeavyBladeMithraSkin.png",
-    "Description": "A unique heavy blade skin, designed by lukinu_u.",
-    "Link": "Heavy Blade Mithra Skin",
-    "Name": "Heavy Blade Mithra Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/GreatSwords/SWMithraGreatswordSkin",
+    "Image": "DualSwordsNari&ValiSkin.png",
+    "Description": "Turn any Dual Swords weapon into a stylish sword and dagger combo with this skin.",
+    "Link": "Dual Swords Nari & Vali Skin",
+    "Name": "Dual Swords Nari & Vali Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Deluxe/LokiDeluxeDualKamas",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -3713,15 +3700,24 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Silva & Aegis Eskhatos Skin": {
+  "Nikana Khatuun Skin": {
     "Type": "Weapon Skin",
-    "Description": "The flames emanating from this skin for the Silva & Aegis waver uncertainly, as though they might wish to be elsewhere.",
-    "Link": "Silva & Aegis Eskhatos Skin",
+    "Image": "NikanaKhatuunSkin.png",
+    "Description": "A unique Nikana skin, designed by VoidPunch.",
+    "Link": "Nikana Khatuun Skin",
+    "Name": "Nikana Khatuun Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Katana/SWKhatuunKatanaSkin",
     "ExcludeFromCodex": false,
-    "Image": "Silva&AegisEskhatosSkin.png",
-    "Name": "Silva & Aegis Eskhatos Skin",
-    "Introduced": "40.0.5",
-    "InternalName": "/Lotus/Upgrades/Skins/VoidTrader/EvilBaroSilvaAndAegis",
+    "CodexSecret": false
+  },
+  "Heavy Blade Mithra Skin": {
+    "Type": "Weapon Skin",
+    "Image": "HeavyBladeMithraSkin.png",
+    "Description": "A unique heavy blade skin, designed by lukinu_u.",
+    "Link": "Heavy Blade Mithra Skin",
+    "Name": "Heavy Blade Mithra Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/GreatSwords/SWMithraGreatswordSkin",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Vaenn Heavy Blade Skin": {
@@ -3731,6 +3727,26 @@
     "Link": "Vaenn Heavy Blade Skin",
     "Name": "Vaenn Heavy Blade Skin",
     "InternalName": "/Lotus/Upgrades/Skins/PaxDuviricus/KullervoTwoHandedSwordSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Two-Handed Nikana Ksara Skin": {
+    "Type": "Weapon Skin",
+    "Image": "Two-HandedNikanaKsaraSkin.png",
+    "Description": "A unique two-handed Nikana skin, designed by kakarrot2812.",
+    "Link": "Two-Handed Nikana Ksara Skin",
+    "Name": "Two-Handed Nikana Ksara Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/TwoHandKatana/SWKsaraTwoHandedKatanaSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Two-Handed Nikana Dogma Skin": {
+    "Type": "Weapon Skin",
+    "Image": "Two-HandedNikanaDogmaSkin.png",
+    "Description": "A unique two-handed nikana skin, designed by Felix Leonhart.",
+    "Link": "Two-Handed Nikana Dogma Skin",
+    "Name": "Two-Handed Nikana Dogma Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/TwoHandKatana/SWDogma",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -3755,14 +3771,15 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Two-Handed Nikana Ksara Skin": {
+  "Dark Split-Sword Day of the Dead Skin": {
     "Type": "Weapon Skin",
-    "Image": "Two-HandedNikanaKsaraSkin.png",
-    "Description": "A unique two-handed Nikana skin, designed by kakarrot2812.",
-    "Link": "Two-Handed Nikana Ksara Skin",
-    "Name": "Two-Handed Nikana Ksara Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/TwoHandKatana/SWKsaraTwoHandedKatanaSkin",
+    "Description": "A morbidly festive skin for the Dark Split-Sword.",
+    "Link": "Dark Split-Sword Day of the Dead Skin",
     "ExcludeFromCodex": false,
+    "Image": "DarkSplit-SwordDayOfTheDeadSkin.png",
+    "Name": "Dark Split-Sword Day of the Dead Skin",
+    "Introduced": "RN",
+    "InternalName": "/Lotus/Upgrades/Skins/Halloween/HalloweenDarkSplitSword",
     "CodexSecret": false
   },
   "Soma Day of the Dead Skin II": {
@@ -3776,46 +3793,25 @@
     "InternalName": "/Lotus/Upgrades/Skins/Halloween/Halloween2024DOTDSomaSkin",
     "CodexSecret": false
   },
-  "Two-Handed Nikana Dogma Skin": {
+  "Nikana Elixis Skin": {
     "Type": "Weapon Skin",
-    "Image": "Two-HandedNikanaDogmaSkin.png",
-    "Description": "A unique two-handed nikana skin, designed by Felix Leonhart.",
-    "Link": "Two-Handed Nikana Dogma Skin",
-    "Name": "Two-Handed Nikana Dogma Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/TwoHandKatana/SWDogma",
+    "Description": "Gild the Nikana with this intricate bronze skin.",
+    "Link": "Nikana Elixis Skin",
     "ExcludeFromCodex": false,
-    "CodexSecret": false
+    "Image": "NikanaElixisSkin.png",
+    "Name": "Nikana Elixis Skin",
+    "Introduced": "34.0.2",
+    "InternalName": "/Lotus/Upgrades/Skins/VoidTrader/ElixisNikana",
+    "CodexSecret": true
   },
-  "Dark Split-Sword Day of the Dead Skin": {
+  "Nusku Pistol Skin": {
     "Type": "Weapon Skin",
-    "Description": "A morbidly festive skin for the Dark Split-Sword.",
-    "Link": "Dark Split-Sword Day of the Dead Skin",
-    "ExcludeFromCodex": false,
-    "Image": "DarkSplit-SwordDayOfTheDeadSkin.png",
-    "Name": "Dark Split-Sword Day of the Dead Skin",
-    "Introduced": "RN",
-    "InternalName": "/Lotus/Upgrades/Skins/Halloween/HalloweenDarkSplitSword",
-    "CodexSecret": false
-  },
-  "Nikana Gemini Surt-Form Sheath": {
-    "Type": "Weapon Skin",
-    "Image": "NikanaGeminiSurt-FormSheath.png",
-    "Description": "Dragon Nikana causes the Gemini Sheath to rage with molten fury.",
-    "Link": "Nikana Gemini Surt-Form Sheath",
-    "Name": "Nikana Gemini Surt-Form Sheath",
-    "InternalName": "/Lotus/Upgrades/Skins/KatanaSheaths/DragonKatanaSheathLightning",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Obex Shock-Camo Skin": {
-    "Type": "Weapon Skin",
-    "Description": "The Shock-Camo skin for the Obex.",
-    "Link": "Obex Shock-Camo Skin",
-    "ExcludeFromCodex": false,
-    "Image": "ObexShock-CamoSkin.png",
-    "Name": "Obex Shock-Camo Skin",
-    "Introduced": "13",
-    "InternalName": "/Lotus/Upgrades/Skins/Dazzle/ObexDazzleCamo",
+    "Image": "NuskuPistolSkin.png",
+    "Description": "The signature pistol skin of Ember Vermillion.",
+    "Link": "Nusku Pistol Skin",
+    "Name": "Nusku Pistol Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Ember/EmberDeluxePistolSkin",
+    "ExcludeFromCodex": true,
     "CodexSecret": false
   },
   "Twin Grakatas Day of the Dead Skin": {
@@ -3835,7 +3831,7 @@
     "Description": "Eliminate your adversaries with fluid grace.",
     "Link": "Traciens Glaive Skin",
     "Name": "Traciens Glaive Skin",
-    "InternalName": "",
+    "InternalName": "/Lotus/Upgrades/Skins/Deluxe/ProteaDeluxeGlaiveSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -3846,6 +3842,27 @@
     "Link": "Tonkor Jade Skin",
     "Name": "Tonkor Jade Skin",
     "InternalName": "/Lotus/Upgrades/Skins/Promo/Microsoft/JadeTonkor",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Opticor Elixis Skin": {
+    "Type": "Weapon Skin",
+    "Description": "Gild the Opticor with this intricate bronze skin.",
+    "Link": "Opticor Elixis Skin",
+    "ExcludeFromCodex": false,
+    "Image": "OpticorElixisSkin.png",
+    "Name": "Opticor Elixis Skin",
+    "Introduced": "22.20.2",
+    "InternalName": "/Lotus/Upgrades/Skins/VoidTrader/ElixisOpticor",
+    "CodexSecret": false
+  },
+  "Dali Ballistica Skin": {
+    "Type": "Weapon Skin",
+    "Image": "DaliBallisticaSkin.png",
+    "Description": "Ivara Skathi signature skin for the Ballistica.",
+    "Link": "Dali Ballistica Skin",
+    "Name": "Dali Ballistica Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Archer/IvaraDeluxeBallisticaSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -3900,27 +3917,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Opticor Shock-Camo Skin": {
-    "Type": "Weapon Skin",
-    "Description": "The Shock-Camo skin for the Opticor.",
-    "Link": "Opticor Shock-Camo Skin",
-    "ExcludeFromCodex": false,
-    "Image": "OpticorShock-CamoSkin.png",
-    "Name": "Opticor Shock-Camo Skin",
-    "Introduced": "13",
-    "InternalName": "/Lotus/Upgrades/Skins/Dazzle/OpticorDazzleCamo",
-    "CodexSecret": false
-  },
-  "Dali Ballistica Skin": {
-    "Type": "Weapon Skin",
-    "Image": "DaliBallisticaSkin.png",
-    "Description": "Ivara Skathi signature skin for the Ballistica.",
-    "Link": "Dali Ballistica Skin",
-    "Name": "Dali Ballistica Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Archer/IvaraDeluxeBallisticaSkin",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Tonkor Conclave Skin": {
     "Type": "Weapon Skin",
     "Image": "TonkorConclaveSkin.png",
@@ -3962,6 +3958,27 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Tigris Tekelu Skin": {
+    "Type": "Weapon Skin",
+    "Description": "An ornate skin forged by the Tekelu School of weaponsmiths.",
+    "Link": "Tigris Tekelu Skin",
+    "ExcludeFromCodex": false,
+    "Image": "TigrisTekeluSkin.png",
+    "Name": "Tigris Tekelu Skin",
+    "Introduced": "SotR 1.0",
+    "InternalName": "/Lotus/Upgrades/Skins/Ornate/OrnateTigris",
+    "CodexSecret": false
+  },
+  "Tigris Prominence Skin": {
+    "Type": "Weapon Skin",
+    "Image": "TigrisProminenceSkin.png",
+    "Description": "Draw attention with the bold geometric patterns in this exclusive Tigris skin.",
+    "Link": "Tigris Prominence Skin",
+    "Name": "Tigris Prominence Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Promo/Twitch/TigrisTwitchSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Verv Redeemer Skin": {
     "Type": "Weapon Skin",
     "Image": "VervRedeemerSkin.png",
@@ -3979,26 +3996,6 @@
     "Link": "Oscira Bow Skin",
     "Name": "Oscira Bow Skin",
     "InternalName": "/Lotus/Upgrades/Skins/NewPlayerXP/NewPlayerXPParisSkin",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Tigris Prominence Skin": {
-    "Type": "Weapon Skin",
-    "Image": "TigrisProminenceSkin.png",
-    "Description": "Draw attention with the bold geometric patterns in this exclusive Tigris skin.",
-    "Link": "Tigris Prominence Skin",
-    "Name": "Tigris Prominence Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Promo/Twitch/TigrisTwitchSkin",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Tigris Onyx Skin": {
-    "Type": "Weapon Skin",
-    "Image": "TigrisOnyxSkin.png",
-    "Description": "An elite skin for the Tigris.",
-    "Link": "Tigris Onyx Skin",
-    "Name": "Tigris Onyx Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/SteamEsteem/EsteemTigris",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4034,6 +4031,26 @@
     "InternalName": "/Lotus/Upgrades/Skins/VoidTrader/ElixisTiberon",
     "CodexSecret": false
   },
+  "Paris Solstice Skin": {
+    "Type": "Weapon Skin",
+    "Image": "ParisSolsticeSkin.png",
+    "Description": "A festive skin for the Paris.",
+    "Link": "Paris Solstice Skin",
+    "Name": "Paris Solstice Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Promo/Seasonal/TennobaumParis",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Staves Volu Skin": {
+    "Type": "Weapon Skin",
+    "Image": "StavesVoluSkin.png",
+    "Description": "Enchant any staff with this skin",
+    "Link": "Staves Volu Skin",
+    "Name": "Staves Volu Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Weapons/Staff/TrinityDeluxeBo",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Ninurta Claw Skin": {
     "Type": "Weapon Skin",
     "Image": "NinurtaClawSkin.png",
@@ -4044,13 +4061,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Strun Conclave Skin": {
+  "Skana Obsidian Skin": {
     "Type": "Weapon Skin",
-    "Image": "StrunConclaveSkin.png",
-    "Description": "Bow to the Conclave with this weapon skin.",
-    "Link": "Strun Conclave Skin",
-    "Name": "Strun Conclave Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/PvP/LongGuns/PvPStrun",
+    "Image": "SkanaObsidianSkin.png",
+    "Description": "A next-generation skin for the Skana.",
+    "Link": "Skana Obsidian Skin",
+    "Name": "Skana Obsidian Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sony/PS4Skana",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4063,16 +4080,6 @@
     "Name": "Basmu Day of the Dead Skin",
     "Introduced": "29.2.4",
     "InternalName": "/Lotus/Upgrades/Skins/Halloween/HalloweenBasmu",
-    "CodexSecret": false
-  },
-  "Skiajati Solstice Skin": {
-    "Type": "Weapon Skin",
-    "Image": "SkiajatiSolsticeSkin.png",
-    "Description": "A festive skin for the Skiajati.",
-    "Link": "Skiajati Solstice Skin",
-    "Name": "Skiajati Solstice Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/WinterSolstice/SolsticeSkiajatiSkin",
-    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Daikyu Ormolu Skin": {
@@ -4096,33 +4103,44 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Strun Conclave Skin": {
+    "Type": "Weapon Skin",
+    "Image": "StrunConclaveSkin.png",
+    "Description": "Bow to the Conclave with this weapon skin.",
+    "Link": "Strun Conclave Skin",
+    "Name": "Strun Conclave Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/PvP/LongGuns/PvPStrun",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Tau Dax Staff Skin": {
     "Type": "Weapon Skin",
     "Image": "TauDaxStaffSkin.png",
     "Description": "A staff skin that replicates the weapon carried by Dax Capsarii into battle as a symbol of hope for victory.",
     "Link": "Tau Dax Staff Skin",
     "Name": "Tau Dax Staff Skin",
-    "InternalName": "",
+    "InternalName": "/Lotus/Upgrades/Skins/Dax/DaxMageStaffSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Staves Volu Skin": {
+  "Marelok Nightwatch Skin": {
     "Type": "Weapon Skin",
-    "Image": "StavesVoluSkin.png",
-    "Description": "Enchant any staff with this skin",
-    "Link": "Staves Volu Skin",
-    "Name": "Staves Volu Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Weapons/Staff/TrinityDeluxeBo",
+    "Description": "Emblazon the Marelok in the colors of the Grineer's most notorious unit.",
+    "Link": "Marelok Nightwatch Skin",
     "ExcludeFromCodex": false,
+    "Image": "MarelokNightwatchSkin.png",
+    "Name": "Marelok Nightwatch Skin",
+    "Introduced": "Hotfix: The Silver Grove 4",
+    "InternalName": "/Lotus/Upgrades/Skins/Nightwatch/NightwatchMarelok",
     "CodexSecret": false
   },
-  "Maruta Tonfa Skin": {
+  "Spira Obsidian Skin": {
     "Type": "Weapon Skin",
-    "Image": "MarutaTonfaSkin.png",
-    "Description": "Mag Pneuma’s signature skin for tonfa weapons.",
-    "Link": "Maruta Tonfa Skin",
-    "Name": "Maruta Tonfa Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Mag/MagDeluxeTonfaSkin",
+    "Image": "SpiraObsidianSkin.png",
+    "Description": "A next-generation skin for the Spira.",
+    "Link": "Spira Obsidian Skin",
+    "Name": "Spira Obsidian Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sony/ObsidianSpira",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4136,14 +4154,15 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Spira Obsidian Skin": {
+  "Spira Day of the Dead Skin": {
     "Type": "Weapon Skin",
-    "Image": "SpiraObsidianSkin.png",
-    "Description": "A next-generation skin for the Spira.",
-    "Link": "Spira Obsidian Skin",
-    "Name": "Spira Obsidian Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Sony/ObsidianSpira",
+    "Description": "A morbidly festive skin for the Spira.",
+    "Link": "Spira Day of the Dead Skin",
     "ExcludeFromCodex": false,
+    "Image": "SpiraDayOfTheDeadSkin.png",
+    "Name": "Spira Day of the Dead Skin",
+    "Introduced": "RN",
+    "InternalName": "/Lotus/Upgrades/Skins/Halloween/HalloweenSpira",
     "CodexSecret": false
   },
   "Xoris Elixis Skin": {
@@ -4175,16 +4194,6 @@
     "Name": "Nidoblast Kompressa Skin",
     "InternalName": "/Lotus/Upgrades/Skins/Yareli/KompressaDeluxeSkin",
     "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Spearmint Scythe Skin": {
-    "Type": "Weapon Skin",
-    "Image": "SpearmintScytheSkin.png",
-    "Description": "Celebrate the festive season by unleashing sweet minty death on all your favorite foes.",
-    "Link": "Spearmint Scythe Skin",
-    "Name": "Spearmint Scythe Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Promo/Seasonal/CandyCaneScytheSkin",
-    "ExcludeFromCodex": true,
     "CodexSecret": false
   },
   "Sonicor Festive Skin": {
@@ -4240,16 +4249,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/GrineerForest/GrineerForestSoma",
     "CodexSecret": false
   },
-  "Nefertym Rapier Skin": {
-    "Type": "Weapon Skin",
-    "Image": "NefertymRapierSkin.png",
-    "Description": "Unsheath your sword like a lotus in bloom.",
-    "Link": "Nefertym Rapier Skin",
-    "Name": "Nefertym Rapier Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Weapons/Rapier/TnLotusRapierSkin",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Soma Day of the Dead Skin": {
     "Type": "Weapon Skin",
     "Description": "A morbidly festive skin for the Soma.",
@@ -4259,6 +4258,16 @@
     "Name": "Soma Day of the Dead Skin",
     "Introduced": "10.5",
     "InternalName": "/Lotus/Upgrades/Skins/Halloween/HalloweenSoma",
+    "CodexSecret": false
+  },
+  "Nefertym Rapier Skin": {
+    "Type": "Weapon Skin",
+    "Image": "NefertymRapierSkin.png",
+    "Description": "Unsheath your sword like a lotus in bloom.",
+    "Link": "Nefertym Rapier Skin",
+    "Name": "Nefertym Rapier Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Weapons/Rapier/TnLotusRapierSkin",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Soma Conclave Skin": {
@@ -4282,6 +4291,17 @@
     "InternalName": "/Lotus/Upgrades/Skins/Camo/SobekCamo",
     "CodexSecret": false
   },
+  "Sobek Day of the Dead Skin": {
+    "Type": "Weapon Skin",
+    "Description": "A morbidly festive skin for the Sobek.",
+    "Link": "Sobek Day of the Dead Skin",
+    "ExcludeFromCodex": false,
+    "Image": "SobekDayOfTheDeadSkin.png",
+    "Name": "Sobek Day of the Dead Skin",
+    "Introduced": "10.5",
+    "InternalName": "/Lotus/Upgrades/Skins/Halloween/HalloweenSobek",
+    "CodexSecret": false
+  },
   "Nukor Daybreak Skin": {
     "Type": "Weapon Skin",
     "Description": "Make this sunrise your enemy’s last with this luminous Nukor Skin.",
@@ -4303,14 +4323,15 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Soaktron Rifle Skin": {
+  "Dual Cestra Shock-Camo Skin": {
     "Type": "Weapon Skin",
-    "Image": "SoaktronRifleSkin.png",
-    "Description": "Celebrate Dog Days all year round with this refreshing Rifle Skin. WARNING: Not a toy.",
-    "Link": "Soaktron Rifle Skin",
-    "Name": "Soaktron Rifle Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Weapons/Rifle/SoaktronRifleSkin",
+    "Description": "The Shock-Camo skin for the Dual Cestra.",
+    "Link": "Dual Cestra Shock-Camo Skin",
     "ExcludeFromCodex": false,
+    "Image": "DualCestraShock-CamoSkin.png",
+    "Name": "Dual Cestra Shock-Camo Skin",
+    "Introduced": "13",
+    "InternalName": "/Lotus/Upgrades/Skins/Dazzle/DualCestraDazzleCamo",
     "CodexSecret": false
   },
   "Hek Desert-Camo Skin": {
@@ -4324,13 +4345,13 @@
     "InternalName": "/Lotus/Upgrades/Skins/Camo/DesertHekSkin",
     "CodexSecret": false
   },
-  "Magnus Hivelight Skin": {
+  "Skiajati Solstice Skin": {
     "Type": "Weapon Skin",
-    "Image": "MagnusHivelightSkin.png",
-    "Description": "A prize-winning skin for the Magnus, designed by Verifitas.",
-    "Link": "Magnus Hivelight Skin",
-    "Name": "Magnus Hivelight Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Contests/Pistols/MagnusHiveLight",
+    "Image": "SkiajatiSolsticeSkin.png",
+    "Description": "A festive skin for the Skiajati.",
+    "Link": "Skiajati Solstice Skin",
+    "Name": "Skiajati Solstice Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/WinterSolstice/SolsticeSkiajatiSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4371,17 +4392,17 @@
     "Description": "The rifle skin recreates the standard issue firearm for Dax forces who fight for Tau.",
     "Link": "Tau Dax Rifle Skin",
     "Name": "Tau Dax Rifle Skin",
-    "InternalName": "",
+    "InternalName": "/Lotus/Upgrades/Skins/Dax/DaxLeverRifleSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Skana Obsidian Skin": {
+  "Skana Infested Skin": {
     "Type": "Weapon Skin",
-    "Image": "SkanaObsidianSkin.png",
-    "Description": "A next-generation skin for the Skana.",
-    "Link": "Skana Obsidian Skin",
-    "Name": "Skana Obsidian Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Sony/PS4Skana",
+    "Image": "SkanaInfestedSkin.png",
+    "Description": "A skin for the Skana sword, designed by Dencio Aggression.",
+    "Link": "Skana Infested Skin",
+    "Name": "Skana Infested Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Swords/SkanaInfestedSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4406,16 +4427,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/GrineerForest/GrineerForestDualZoren",
     "CodexSecret": false
   },
-  "Skana Infested Skin": {
-    "Type": "Weapon Skin",
-    "Image": "SkanaInfestedSkin.png",
-    "Description": "A skin for the Skana sword, designed by Dencio Aggression.",
-    "Link": "Skana Infested Skin",
-    "Name": "Skana Infested Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Swords/SkanaInfestedSkin",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Sirocco Amp Skin": {
     "Type": "Weapon Skin",
     "Image": "SiroccoAmpSkin.png",
@@ -4424,6 +4435,17 @@
     "Name": "Sirocco Amp Skin",
     "InternalName": "/Lotus/Upgrades/Skins/Operator/Amp/DrifterAmpSkin",
     "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Silva & Aegis Eskhatos Skin": {
+    "Type": "Weapon Skin",
+    "Description": "The flames emanating from this skin for the Silva & Aegis waver uncertainly, as though they might wish to be elsewhere.",
+    "Link": "Silva & Aegis Eskhatos Skin",
+    "ExcludeFromCodex": false,
+    "Image": "Silva&AegisEskhatosSkin.png",
+    "Name": "Silva & Aegis Eskhatos Skin",
+    "Introduced": "40.0.5",
+    "InternalName": "/Lotus/Upgrades/Skins/VoidTrader/EvilBaroSilvaAndAegis",
     "CodexSecret": false
   },
   "Vasto Tekelu Skin": {
@@ -4448,13 +4470,13 @@
     "InternalName": "/Lotus/Upgrades/Skins/Starry/StarryKunai",
     "CodexSecret": false
   },
-  "Glaive Conclave Skin": {
+  "Silicai Fist Skin": {
     "Type": "Weapon Skin",
-    "Image": "GlaiveConclaveSkin.png",
-    "Description": "Bow to the Conclave with this weapon skin.",
-    "Link": "Glaive Conclave Skin",
-    "Name": "Glaive Conclave Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/PvP/Melee/PvPGlaive",
+    "Image": "SilicaiFistSkin.png",
+    "Description": "A unique fists skin, designed by Captain Tagada and blazingcobalt",
+    "Link": "Silicai Fist Skin",
+    "Name": "Silicai Fist Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Fists/SWSilicaiFistsSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4465,16 +4487,6 @@
     "Link": "Acceltra Caduceus Skin",
     "Name": "Acceltra Caduceus Skin",
     "InternalName": "/Lotus/Upgrades/Skins/Runner/DeluxeAcceltraSkin",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Silicai Fist Skin": {
-    "Type": "Weapon Skin",
-    "Image": "SilicaiFistSkin.png",
-    "Description": "A unique fists skin, designed by Captain Tagada and blazingcobalt",
-    "Link": "Silicai Fist Skin",
-    "Name": "Silicai Fist Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Fists/SWSilicaiFistsSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4499,16 +4511,6 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Rapier Ferita Skin": {
-    "Type": "Weapon Skin",
-    "Image": "RapierFeritaSkin.png",
-    "Description": "A unique rapier skin, designed by Hitsu San and Reil.",
-    "Link": "Rapier Ferita Skin",
-    "Name": "Rapier Ferita Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Rapier/SWFeritaRapierSkin",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Serro Obsidian Skin": {
     "Type": "Weapon Skin",
     "Image": "SerroObsidianSkin.png",
@@ -4516,6 +4518,16 @@
     "Link": "Serro Obsidian Skin",
     "Name": "Serro Obsidian Skin",
     "InternalName": "/Lotus/Upgrades/Skins/Sony/ObsidianSerro",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Rapier Ferita Skin": {
+    "Type": "Weapon Skin",
+    "Image": "RapierFeritaSkin.png",
+    "Description": "A unique rapier skin, designed by Hitsu San and Reil.",
+    "Link": "Rapier Ferita Skin",
+    "Name": "Rapier Ferita Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Rapier/SWFeritaRapierSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4600,15 +4612,15 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Ogris Nightwatch Skin": {
+  "Obex Shock-Camo Skin": {
     "Type": "Weapon Skin",
-    "Description": "This camouflage pattern was employed by one of the most lethally efficient Grineer corps.",
-    "Link": "Ogris Nightwatch Skin",
+    "Description": "The Shock-Camo skin for the Obex.",
+    "Link": "Obex Shock-Camo Skin",
     "ExcludeFromCodex": false,
-    "Image": "OgrisNightwatchSkin.png",
-    "Name": "Ogris Nightwatch Skin",
-    "Introduced": "17.1",
-    "InternalName": "/Lotus/Upgrades/Skins/GrineerUrban/OgrisGrineerUrbanCamo",
+    "Image": "ObexShock-CamoSkin.png",
+    "Name": "Obex Shock-Camo Skin",
+    "Introduced": "13",
+    "InternalName": "/Lotus/Upgrades/Skins/Dazzle/ObexDazzleCamo",
     "CodexSecret": false
   },
   "Ravurex Gunblade Skin": {
@@ -4628,8 +4640,8 @@
     "ExcludeFromCodex": false,
     "Image": "RathanSword&ShieldSkin.png",
     "Name": "Rathan Sword & Shield Skin",
-    "Introduced": "",
-    "InternalName": "",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Upgrades/Skins/Pacifist/BaruukDeluxeIIMaceShield",
     "CodexSecret": false
   },
   "Rapier Tributaker Skin": {
@@ -4723,6 +4735,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Polearm Ulcerated Skin": {
+    "Type": "Weapon Skin",
+    "Image": "PolearmUlceratedSkin.png",
+    "Description": "A unique polearm skin, designed by Vulbjorn.",
+    "Link": "Polearm Ulcerated Skin",
+    "Name": "Polearm Ulcerated Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Polearm/SWUlceratedPolearm",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Epitaph Raya Skin": {
     "Type": "Weapon Skin",
     "Description": "This skin for Sevagoth’s signature pistol balances light and darkness, beauty and death.",
@@ -4732,16 +4754,6 @@
     "Name": "Epitaph Raya Skin",
     "Introduced": "38.6",
     "InternalName": "/Lotus/Upgrades/Skins/Nightwave/CosmosEpitaphSkin",
-    "CodexSecret": false
-  },
-  "Polearm Ulcerated Skin": {
-    "Type": "Weapon Skin",
-    "Image": "PolearmUlceratedSkin.png",
-    "Description": "A unique polearm skin, designed by Vulbjorn.",
-    "Link": "Polearm Ulcerated Skin",
-    "Name": "Polearm Ulcerated Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Polearm/SWUlceratedPolearm",
-    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Polearm Kalynex Skin": {
@@ -4774,15 +4786,25 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Orthos Day of the Dead Skin": {
+  "Opticor Shock-Camo Skin": {
     "Type": "Weapon Skin",
-    "Description": "A morbidly festive skin for the Orthos.",
-    "Link": "Orthos Day of the Dead Skin",
+    "Description": "The Shock-Camo skin for the Opticor.",
+    "Link": "Opticor Shock-Camo Skin",
     "ExcludeFromCodex": false,
-    "Image": "OrthosDayOfTheDeadSkin.png",
-    "Name": "Orthos Day of the Dead Skin",
-    "Introduced": "10.5",
-    "InternalName": "/Lotus/Upgrades/Skins/Halloween/HalloweenOrthos",
+    "Image": "OpticorShock-CamoSkin.png",
+    "Name": "Opticor Shock-Camo Skin",
+    "Introduced": "13",
+    "InternalName": "/Lotus/Upgrades/Skins/Dazzle/OpticorDazzleCamo",
+    "CodexSecret": false
+  },
+  "Perla Pistol Skin": {
+    "Type": "Weapon Skin",
+    "Image": "PerlaPistolSkin.png",
+    "Description": "Transform any pistol with this baroque revolver skin.",
+    "Link": "Perla Pistol Skin",
+    "Name": "Perla Pistol Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Cowgirl/MesaDeluxePistolSkin",
+    "ExcludeFromCodex": true,
     "CodexSecret": false
   },
   "Ivara Skathi Artemis Bow Skin": {
@@ -4795,14 +4817,15 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Perla Pistol Skin": {
+  "Paracesis Elixis Skin": {
     "Type": "Weapon Skin",
-    "Image": "PerlaPistolSkin.png",
-    "Description": "Transform any pistol with this baroque revolver skin.",
-    "Link": "Perla Pistol Skin",
-    "Name": "Perla Pistol Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Cowgirl/MesaDeluxePistolSkin",
-    "ExcludeFromCodex": true,
+    "Description": "Gild the Paracesis with this intricate bronze skin.",
+    "Link": "Paracesis Elixis Skin",
+    "ExcludeFromCodex": false,
+    "Image": "ParacesisElixisSkin.png",
+    "Name": "Paracesis Elixis Skin",
+    "Introduced": "26.0.8.1",
+    "InternalName": "/Lotus/Upgrades/Skins/VoidTrader/ElixisBallasSword",
     "CodexSecret": false
   },
   "Lecta Shock-Camo Skin": {
@@ -4816,16 +4839,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Dazzle/LectaDazzleCamo",
     "CodexSecret": false
   },
-  "Galatine Rubedo Plated Skin": {
-    "Type": "Weapon Skin",
-    "Image": "GalatineRubedoPlatedSkin.png",
-    "Description": "This Galatine has been adorned with a fine layer of Rubedo plating.",
-    "Link": "Galatine Rubedo Plated Skin",
-    "Name": "Galatine Rubedo Plated Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/ReferralSeriesTwo/RubedoGalatineCamo",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Pennant Obsidian Skin": {
     "Type": "Weapon Skin",
     "Image": "PennantObsidianSkin.png",
@@ -4836,13 +4849,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Paris Solstice Skin": {
+  "Tempera Amp Skin": {
     "Type": "Weapon Skin",
-    "Image": "ParisSolsticeSkin.png",
-    "Description": "A festive skin for the Paris.",
-    "Link": "Paris Solstice Skin",
-    "Name": "Paris Solstice Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Promo/Seasonal/TennobaumParis",
+    "Image": "TemperaAmpSkin.png",
+    "Description": "This sleek amp skin is a masterstroke of craftsmanship.",
+    "Link": "Tempera Amp Skin",
+    "Name": "Tempera Amp Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Amp/InkSiroccoAmpSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4856,6 +4869,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Paracyst Zebra Skin": {
+    "Type": "Weapon Skin",
+    "Image": "ParacystZebraSkin.png",
+    "Description": "A unique skin for the Paracyst.",
+    "Link": "Paracyst Zebra Skin",
+    "Name": "Paracyst Zebra Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Events/InfQuantaInfestedAladV",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Latron Solstice Skin": {
     "Type": "Weapon Skin",
     "Image": "LatronSolsticeSkin.png",
@@ -4866,13 +4889,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Paracyst Zebra Skin": {
+  "Galatine Rubedo Plated Skin": {
     "Type": "Weapon Skin",
-    "Image": "ParacystZebraSkin.png",
-    "Description": "A unique skin for the Paracyst.",
-    "Link": "Paracyst Zebra Skin",
-    "Name": "Paracyst Zebra Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Events/InfQuantaInfestedAladV",
+    "Image": "GalatineRubedoPlatedSkin.png",
+    "Description": "This Galatine has been adorned with a fine layer of Rubedo plating.",
+    "Link": "Galatine Rubedo Plated Skin",
+    "Name": "Galatine Rubedo Plated Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/ReferralSeriesTwo/RubedoGalatineCamo",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4886,15 +4909,14 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Paracesis Elixis Skin": {
+  "Oscira Rifle Skin": {
     "Type": "Weapon Skin",
-    "Description": "Gild the Paracesis with this intricate bronze skin.",
-    "Link": "Paracesis Elixis Skin",
+    "Image": "OsciraRifleSkin.png",
+    "Description": "A bold red Rifle skin with extra panache.",
+    "Link": "Oscira Rifle Skin",
+    "Name": "Oscira Rifle Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/NewPlayerXP/NewPlayerXPBratonSkin",
     "ExcludeFromCodex": false,
-    "Image": "ParacesisElixisSkin.png",
-    "Name": "Paracesis Elixis Skin",
-    "Introduced": "26.0.8.1",
-    "InternalName": "/Lotus/Upgrades/Skins/VoidTrader/ElixisBallasSword",
     "CodexSecret": false
   },
   "Latron Jade Skin": {
@@ -4918,16 +4940,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Weapons/UnrealTournament/OgrisRocketLauncherSkin",
     "CodexSecret": false
   },
-  "Oscira Rifle Skin": {
-    "Type": "Weapon Skin",
-    "Image": "OsciraRifleSkin.png",
-    "Description": "A bold red Rifle skin with extra panache.",
-    "Link": "Oscira Rifle Skin",
-    "Name": "Oscira Rifle Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/NewPlayerXP/NewPlayerXPBratonSkin",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Oscira Longsword Skin": {
     "Type": "Weapon Skin",
     "Image": "OsciraLongswordSkin.png",
@@ -4948,16 +4960,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Daecret Tonkor Skin": {
-    "Type": "Weapon Skin",
-    "Image": "DaecretTonkorSkin.png",
-    "Description": "Guardians of the highest order merit a dignified look.",
-    "Link": "Daecret Tonkor Skin",
-    "Name": "Daecret Tonkor Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Deluxe/ProteaDeluxeSkinTonkor",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Orthos Phased Skin": {
     "Type": "Weapon Skin",
     "Image": "OrthosPhasedSkin.png",
@@ -4967,6 +4969,16 @@
     "InternalName": "/Lotus/Upgrades/Skins/Events/BlackoutOrthos",
     "ExcludeFromCodex": false,
     "CodexSecret": true
+  },
+  "Daecret Tonkor Skin": {
+    "Type": "Weapon Skin",
+    "Image": "DaecretTonkorSkin.png",
+    "Description": "Guardians of the highest order merit a dignified look.",
+    "Link": "Daecret Tonkor Skin",
+    "Name": "Daecret Tonkor Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Deluxe/ProteaDeluxeSkinTonkor",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
   },
   "Orthos Magesty Skin": {
     "Type": "Weapon Skin",
@@ -4987,6 +4999,17 @@
     "Name": "Orthos Lunaeus Skin",
     "Introduced": "29.0",
     "InternalName": "/Lotus/Upgrades/Skins/LunarNewYear/Lunar2020OrthosSkin",
+    "CodexSecret": false
+  },
+  "Orthos Day of the Dead Skin": {
+    "Type": "Weapon Skin",
+    "Description": "A morbidly festive skin for the Orthos.",
+    "Link": "Orthos Day of the Dead Skin",
+    "ExcludeFromCodex": false,
+    "Image": "OrthosDayOfTheDeadSkin.png",
+    "Name": "Orthos Day of the Dead Skin",
+    "Introduced": "10.5",
+    "InternalName": "/Lotus/Upgrades/Skins/Halloween/HalloweenOrthos",
     "CodexSecret": false
   },
   "Hate Day of the Dead Skin": {
@@ -5053,17 +5076,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Halloween/HalloweenImperator",
     "CodexSecret": false
   },
-  "Opticor Day of the Dead Skin": {
-    "Type": "Weapon Skin",
-    "Description": "A morbidly festive skin for the Opticor.",
-    "Link": "Opticor Day of the Dead Skin",
-    "ExcludeFromCodex": false,
-    "Image": "OpticorDayOfTheDeadSkin.png",
-    "Name": "Opticor Day of the Dead Skin",
-    "Introduced": "17.9",
-    "InternalName": "/Lotus/Upgrades/Skins/Halloween/HalloweenOpticor",
-    "CodexSecret": false
-  },
   "Opticor Conclave Skin": {
     "Type": "Weapon Skin",
     "Image": "OpticorConclaveSkin.png",
@@ -5084,6 +5096,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Grakata Jade Skin": {
+    "Type": "Weapon Skin",
+    "Image": "GrakataJadeSkin.png",
+    "Description": "A next-generation skin for the Grakata.",
+    "Link": "Grakata Jade Skin",
+    "Name": "Grakata Jade Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Promo/Microsoft/JadeGrakata",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Akmagnus Tekelu Skin": {
     "Type": "Weapon Skin",
     "Description": "An ornate skin forged by the Tekelu School of weaponsmiths.",
@@ -5095,14 +5117,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Ornate/TekeluAkmagnusSkin",
     "CodexSecret": false
   },
-  "Grakata Jade Skin": {
+  "Ogris Nightwatch Skin": {
     "Type": "Weapon Skin",
-    "Image": "GrakataJadeSkin.png",
-    "Description": "A next-generation skin for the Grakata.",
-    "Link": "Grakata Jade Skin",
-    "Name": "Grakata Jade Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Promo/Microsoft/JadeGrakata",
+    "Description": "This camouflage pattern was employed by one of the most lethally efficient Grineer corps.",
+    "Link": "Ogris Nightwatch Skin",
     "ExcludeFromCodex": false,
+    "Image": "OgrisNightwatchSkin.png",
+    "Name": "Ogris Nightwatch Skin",
+    "Introduced": "17.1",
+    "InternalName": "/Lotus/Upgrades/Skins/GrineerUrban/OgrisGrineerUrbanCamo",
     "CodexSecret": false
   },
   "Ankyros Phased Skin": {
@@ -5136,16 +5159,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Nusku Pistol Skin": {
-    "Type": "Weapon Skin",
-    "Image": "NuskuPistolSkin.png",
-    "Description": "The signature pistol skin of Ember Vermillion.",
-    "Link": "Nusku Pistol Skin",
-    "Name": "Nusku Pistol Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Ember/EmberDeluxePistolSkin",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
   "Nusku Dual Pistol Skin": {
     "Type": "Weapon Skin",
     "Image": "NuskuDualPistolSkin.png",
@@ -5164,7 +5177,7 @@
     "Image": "NoctuaLophosSkin.png",
     "Name": "Noctua Lophos",
     "Introduced": "43",
-    "InternalName": "",
+    "InternalName": "/Lotus/Upgrades/Skins/Weapons/Grimoire/PagemasterDeluxeGrimoireSkin",
     "CodexSecret": false
   },
   "Dual Skana Conclave Skin": {
@@ -5219,6 +5232,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Glaive Conclave Skin": {
+    "Type": "Weapon Skin",
+    "Image": "GlaiveConclaveSkin.png",
+    "Description": "Bow to the Conclave with this weapon skin.",
+    "Link": "Glaive Conclave Skin",
+    "Name": "Glaive Conclave Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/PvP/Melee/PvPGlaive",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Silva & Aegis Day of the Dead Skin": {
     "Type": "Weapon Skin",
     "Description": "A morbidly festive skin for the Silva & Aegis.",
@@ -5228,16 +5251,6 @@
     "Name": "Silva & Aegis Day of the Dead Skin",
     "Introduced": "RN",
     "InternalName": "/Lotus/Upgrades/Skins/Halloween/HalloweenSilvaAndAegis",
-    "CodexSecret": false
-  },
-  "Nikana Khatuun Skin": {
-    "Type": "Weapon Skin",
-    "Image": "NikanaKhatuunSkin.png",
-    "Description": "A unique Nikana skin, designed by VoidPunch.",
-    "Link": "Nikana Khatuun Skin",
-    "Name": "Nikana Khatuun Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Katana/SWKhatuunKatanaSkin",
-    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Nikana Gemini Ymir-Form Sheath": {
@@ -5250,6 +5263,16 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
+  "Nikana Gemini Surt-Form Sheath": {
+    "Type": "Weapon Skin",
+    "Image": "NikanaGeminiSurt-FormSheath.png",
+    "Description": "Dragon Nikana causes the Gemini Sheath to rage with molten fury.",
+    "Link": "Nikana Gemini Surt-Form Sheath",
+    "Name": "Nikana Gemini Surt-Form Sheath",
+    "InternalName": "/Lotus/Upgrades/Skins/KatanaSheaths/DragonKatanaSheathLightning",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Twin Vipers Desert-Camo Skin": {
     "Type": "Weapon Skin",
     "Description": "Desert camouflage skin for the Twin Vipers.",
@@ -5260,17 +5283,6 @@
     "Introduced": "9.5",
     "InternalName": "/Lotus/Upgrades/Skins/Camo/AkimboViperCamo",
     "CodexSecret": false
-  },
-  "Nikana Elixis Skin": {
-    "Type": "Weapon Skin",
-    "Description": "Gild the Nikana with this intricate bronze skin.",
-    "Link": "Nikana Elixis Skin",
-    "ExcludeFromCodex": false,
-    "Image": "NikanaElixisSkin.png",
-    "Name": "Nikana Elixis Skin",
-    "Introduced": "34.0.2",
-    "InternalName": "/Lotus/Upgrades/Skins/VoidTrader/ElixisNikana",
-    "CodexSecret": true
   },
   "Nikana Day of the Dead Skin": {
     "Type": "Weapon Skin",
@@ -5293,6 +5305,17 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Kunai Day of the Dead Skin": {
+    "Type": "Weapon Skin",
+    "Description": "A morbidly festive skin for the Kunai.",
+    "Link": "Kunai Day of the Dead Skin",
+    "ExcludeFromCodex": false,
+    "Image": "KunaiDayOfTheDeadSkin.png",
+    "Name": "Kunai Day of the Dead Skin",
+    "Introduced": "17.9",
+    "InternalName": "/Lotus/Upgrades/Skins/Halloween/HalloweenKunai",
+    "CodexSecret": false
+  },
   "Latron Conclave Skin": {
     "Type": "Weapon Skin",
     "Image": "LatronConclaveSkin.png",
@@ -5303,15 +5326,14 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Kunai Day of the Dead Skin": {
+  "Mortier Heavy Blade Skin": {
     "Type": "Weapon Skin",
-    "Description": "A morbidly festive skin for the Kunai.",
-    "Link": "Kunai Day of the Dead Skin",
+    "Image": "MortierHeavyBladeSkin.png",
+    "Description": "Sunder all attackers with the signature weapon skin of Vauban Citadel.",
+    "Link": "Mortier Heavy Blade Skin",
+    "Name": "Mortier Heavy Blade Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Trapper/VaubanDeluxeAxe",
     "ExcludeFromCodex": false,
-    "Image": "KunaiDayOfTheDeadSkin.png",
-    "Name": "Kunai Day of the Dead Skin",
-    "Introduced": "17.9",
-    "InternalName": "/Lotus/Upgrades/Skins/Halloween/HalloweenKunai",
     "CodexSecret": false
   },
   "Bloodfrenzy Ballistica Skin": {
@@ -5325,13 +5347,13 @@
     "InternalName": "/Lotus/Upgrades/Skins/Weapons/Pistols/GarudaGeminiBallisticaSkin",
     "CodexSecret": true
   },
-  "Mortier Heavy Blade Skin": {
+  "Maruta Tonfa Skin": {
     "Type": "Weapon Skin",
-    "Image": "MortierHeavyBladeSkin.png",
-    "Description": "Sunder all attackers with the signature weapon skin of Vauban Citadel.",
-    "Link": "Mortier Heavy Blade Skin",
-    "Name": "Mortier Heavy Blade Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Trapper/VaubanDeluxeAxe",
+    "Image": "MarutaTonfaSkin.png",
+    "Description": "Mag Pneuma’s signature skin for tonfa weapons.",
+    "Link": "Maruta Tonfa Skin",
+    "Name": "Maruta Tonfa Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Mag/MagDeluxeTonfaSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -5346,15 +5368,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Weapons/UnrealTournament/StahltaShockRifleSkin",
     "CodexSecret": false
   },
-  "Marelok Nightwatch Skin": {
+  "Marelok Desert-Camo Skin": {
     "Type": "Weapon Skin",
-    "Description": "Emblazon the Marelok in the colors of the Grineer's most notorious unit.",
-    "Link": "Marelok Nightwatch Skin",
+    "Description": "Desert camouflage skin for the Marelok.",
+    "Link": "Marelok Desert-Camo Skin",
     "ExcludeFromCodex": false,
-    "Image": "MarelokNightwatchSkin.png",
-    "Name": "Marelok Nightwatch Skin",
-    "Introduced": "Hotfix: The Silver Grove 4",
-    "InternalName": "/Lotus/Upgrades/Skins/Nightwatch/NightwatchMarelok",
+    "Image": "MarelokDesert-CamoSkin.png",
+    "Name": "Marelok Desert-Camo Skin",
+    "Introduced": "24.3",
+    "InternalName": "/Lotus/Upgrades/Skins/Camo/DesertMarelokSkin",
     "CodexSecret": false
   },
   "Gammacor Day of the Dead Skin II": {
@@ -5366,17 +5388,6 @@
     "Name": "Gammacor Day of the Dead Skin II",
     "Introduced": "34.0",
     "InternalName": "/Lotus/Upgrades/Skins/Promo/Seasonal/Halloween2023SOULGammacorSkin",
-    "CodexSecret": false
-  },
-  "Marelok Desert-Camo Skin": {
-    "Type": "Weapon Skin",
-    "Description": "Desert camouflage skin for the Marelok.",
-    "Link": "Marelok Desert-Camo Skin",
-    "ExcludeFromCodex": false,
-    "Image": "MarelokDesert-CamoSkin.png",
-    "Name": "Marelok Desert-Camo Skin",
-    "Introduced": "24.3",
-    "InternalName": "/Lotus/Upgrades/Skins/Camo/DesertMarelokSkin",
     "CodexSecret": false
   },
   "Marelok Day of the Dead Skin": {
@@ -5400,6 +5411,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Magnus Hivelight Skin": {
+    "Type": "Weapon Skin",
+    "Image": "MagnusHivelightSkin.png",
+    "Description": "A prize-winning skin for the Magnus, designed by Verifitas.",
+    "Link": "Magnus Hivelight Skin",
+    "Name": "Magnus Hivelight Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Contests/Pistols/MagnusHiveLight",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Snipetron Shock-Camo Skin": {
     "Type": "Weapon Skin",
     "Description": "The Shock-Camo skin for the Snipetron.",
@@ -5411,15 +5432,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Dazzle/SnipetronDazzleCamo",
     "CodexSecret": false
   },
-  "Dual Cestra Shock-Camo Skin": {
+  "Jat Kittag Nightwatch Skin": {
     "Type": "Weapon Skin",
-    "Description": "The Shock-Camo skin for the Dual Cestra.",
-    "Link": "Dual Cestra Shock-Camo Skin",
+    "Description": "Emblazon the Jat Kittag in the colors of the Grineer's most notorious unit.",
+    "Link": "Jat Kittag Nightwatch Skin",
     "ExcludeFromCodex": false,
-    "Image": "DualCestraShock-CamoSkin.png",
-    "Name": "Dual Cestra Shock-Camo Skin",
-    "Introduced": "13",
-    "InternalName": "/Lotus/Upgrades/Skins/Dazzle/DualCestraDazzleCamo",
+    "Image": "JatKittagNightwatchSkin.png",
+    "Name": "Jat Kittag Nightwatch Skin",
+    "Introduced": "Hotfix: The Silver Grove 4",
+    "InternalName": "/Lotus/Upgrades/Skins/Nightwatch/NightwatchJatKittag",
     "CodexSecret": false
   },
   "Akbolto Ormolu Skin": {
@@ -5453,15 +5474,15 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Jat Kittag Nightwatch Skin": {
+  "Akomeogi Warfan Skin": {
     "Type": "Weapon Skin",
-    "Description": "Emblazon the Jat Kittag in the colors of the Grineer's most notorious unit.",
-    "Link": "Jat Kittag Nightwatch Skin",
+    "Description": "The deceptive delicacy of the warfan belies the danger within; this stark warfan skin is proof of both.",
+    "Link": "Akomeogi Warfan Skin",
     "ExcludeFromCodex": false,
-    "Image": "JatKittagNightwatchSkin.png",
-    "Name": "Jat Kittag Nightwatch Skin",
-    "Introduced": "Hotfix: The Silver Grove 4",
-    "InternalName": "/Lotus/Upgrades/Skins/Nightwatch/NightwatchJatKittag",
+    "Image": "AkomeogiWarfanSkin.png",
+    "Name": "Akomeogi Warfan Skin",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Upgrades/Skins/Koumei/KoumeiWarfanSkin",
     "CodexSecret": false
   },
   "Cedo Daybreak Skin": {
@@ -6046,7 +6067,7 @@
     "Description": "This bow skin is haunted by the spirits of the dead trapped within, and hungers to create more.",
     "Link": "Elfame Bow Skin",
     "Name": "Elfame Bow Skin",
-    "InternalName": "",
+    "InternalName": "/Lotus/Upgrades/Skins/Deluxe/CalibanDeluxeBowSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },

@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/facialaccessory"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/facialaccessory"
-wiki_timestamp: "2026-08-19T21:52:10Z"
+wiki_timestamp: "2026-09-05T03:01:30Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/facialaccessory/doc](/w/Module:Cosmetics/data/facialaccessory/doc?action=edit&redlink=1 "Module:Cosmetics/data/facialaccessory/doc (page does not exist)")*
@@ -366,7 +366,7 @@ return {
         PcPrice = "$1.99",
 		Round = "14",
 		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1484318505",
-        Type = "Tennogen Eye"
+        Type = "TennoGen Eye"
     },
     ["Irya Oculus"] = {
      	Artists = { "kakarrot2812" },

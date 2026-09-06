@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization"
-wiki_timestamp: "2026-08-31T23:23:05Z"
+wiki_timestamp: "2026-09-05T22:30:05Z"
 ---
 
 **Maximization** creates a stat maximization calculator for Warframe abilities.
@@ -113,9 +113,9 @@ for _, name in ipairs(names) do
 				end
 			end
 			exist[v.name] = true
-			ins[i] = '|'..table.concat(v, ' ')..'|'..cont
+			table.insert(ins, '|'..table.concat(v, ' ')..'|'..cont:gsub('{{#invoke:Tooltip|full|([^|]*)|([^}]*)}}', Tooltips.full))
 		else
-			ins[i] = '|'..v
+			table.insert(ins, '|'..v)
 		end
 	end
 end

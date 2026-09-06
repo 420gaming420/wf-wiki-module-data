@@ -1,7 +1,7 @@
 ---
 title: "Module:Sigils/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Sigils/data"
-wiki_timestamp: "2026-09-03T20:58:31Z"
+wiki_timestamp: "2026-09-05T05:27:03Z"
 ---
 
 Database for [Sigils](/w/Sigils "Sigils").
@@ -153,7 +153,7 @@ return {
 		Link = "Sigils#Conclave Sigils"
 	},
 	["Banshee Soprana Sigil"] = {
-		Image = "BansheeDeluxeSigil(SxWhite).png",
+		Image = "BansheeSopranaSigil(SxWhite).png",
 		Name = "Banshee Soprana Sigil",
 		Description = "Wear Banshee Soprana's sigil with pride.",
 		Link = "Sigils#Purchasable Sigils"
@@ -1370,7 +1370,7 @@ return {
 	},
 	["Sargas Ruk Sigil"] = {
 		Description = "A sigil depicting General Sargas Ruk.",
-		Image = "SargusRukSigil(SxWhite).png",
+		Image = "SargasRukSigil(SxWhite).png",
 		Name = "Sargas Ruk Sigil",
 		Link = "Sigils#Enemy Drop Sigils",
 		SellPrice = 1000,

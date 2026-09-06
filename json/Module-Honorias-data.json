@@ -4,9 +4,9 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-04T04:43:43.751Z"
+    "converted_at": "2026-09-06T02:13:53.514Z"
   },
-  "_comments": "--- Honorias data table for [[WARFRAME]] titles.\n-- @module Honorias/data\n-- \n\t--[\"Nemesis Of Eris\"] = {\n\t--\t\tName = \"Nemesis Of Eris\",\n\t--\t\tLink = \"Nemesis Of Eris\",\n\t--\t\tDescription = \"\",\n\t--\t\tPosition = \"Suffix\",\n\t--\t\tIntroduced = \"\",\n\t--\t\tInternalName = \"/Lotus/Types/Items/Titles/NemesisOfErisTitle\",\n\t--\t\tCodexSecret = true,\n\t--\t\tExcludeFromCodex = true,\n\t--},",
+  "_comments": "--- Honorias data table for [[WARFRAME]] titles.\n-- @module Honorias/data\n-- ",
   "Queen of Duviri": {
     "Description": "Awarded for completing '[[The Duviri Paradox]]'.",
     "Link": "Queen of Duviri",
@@ -24,7 +24,7 @@
     "Description": "Purchased from [[New Loka]] at Rank 5 for {{sc|5000}}.",
     "Link": "Defender of the Earth",
     "Price": {
-      "sc": 5000
+      "sc": "5,000"
     },
     "ExcludeFromCodex": true,
     "Name": "Defender of the Earth",
@@ -105,7 +105,10 @@
     "Description": "",
     "Link": "The Invincible",
     "Price": {
-      "Chitinous Husk": 50
+      "Pulsating Tubercles": 50,
+      "Severed Bile Sac": 50,
+      "Chitinous Husk": 50,
+      "Infected Palpators": 50
     },
     "ExcludeFromCodex": true,
     "Name": "The Invincible",
@@ -121,11 +124,12 @@
     "Description": "Awarded for completing the Servio V Sporoi challenge.",
     "Link": "Servio",
     "ExcludeFromCodex": true,
-    "Name": "Servio",
-    "Position": "Prefix",
     "Tags": [
       "Insign"
     ],
+    "Name": "Servio",
+    "Position": "Prefix",
+    "Rank": 2,
     "Introduced": "41.0.5",
     "InternalName": "/Lotus/Types/Items/Titles/MedalRank5Title",
     "CodexSecret": true
@@ -147,7 +151,7 @@
     "Description": "",
     "Link": "Bigger Spender",
     "Price": {
-      "cc": 1000000
+      "cc": "1,000,000"
     },
     "ExcludeFromCodex": true,
     "Name": "Bigger Spender",
@@ -163,7 +167,7 @@
     "Description": "",
     "Link": "Scoria's Saint",
     "Price": {
-      "Titanium": 50000
+      "Titanium": "50,000"
     },
     "ExcludeFromCodex": true,
     "Name": "Scoria's Saint",
@@ -192,11 +196,12 @@
     "Description": "Awarded for completing the Capit XIII Sporoi challenge.",
     "Link": "Capit",
     "ExcludeFromCodex": true,
-    "Name": "Capit",
-    "Position": "Prefix",
     "Tags": [
       "Insign"
     ],
+    "Name": "Capit",
+    "Position": "Prefix",
+    "Rank": 4,
     "Introduced": "41.0.5",
     "InternalName": "/Lotus/Types/Items/Titles/MedalRank13Title",
     "CodexSecret": true
@@ -244,7 +249,7 @@
     "Description": "Purchased from the [[Steel Meridian]] at Rank 5 for {{sc|5000}}.",
     "Link": "Liberated Grineer",
     "Price": {
-      "sc": 5000
+      "sc": "5,000"
     },
     "ExcludeFromCodex": true,
     "Name": "Liberated Grineer",
@@ -365,7 +370,7 @@
     "Description": "",
     "Link": "Force of Nature",
     "Price": {
-      "Circuits": 150000
+      "Circuits": "150,000"
     },
     "ExcludeFromCodex": true,
     "Name": "Force of Nature",
@@ -407,7 +412,7 @@
     "Description": "",
     "Link": "The Maniac of Deimos",
     "Price": {
-      "Ganglion": 1000
+      "Ganglion": "1,000"
     },
     "ExcludeFromCodex": true,
     "Name": "The Maniac of Deimos",
@@ -552,11 +557,12 @@
     "Description": "Reach Mastery Rank 16.",
     "Link": "Eagle",
     "ExcludeFromCodex": true,
-    "Name": "Eagle",
-    "Position": "Prefix",
     "Tags": [
       "Mastery"
     ],
+    "Name": "Eagle",
+    "Position": "Prefix",
+    "Rank": 6,
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/MR16Title",
     "CodexSecret": true
@@ -595,7 +601,7 @@
     "Description": "",
     "Link": "Mayor of Corpus City",
     "Price": {
-      "Hexenon": 2000
+      "Hexenon": "2,000"
     },
     "ExcludeFromCodex": true,
     "Name": "Mayor of Corpus City",
@@ -611,11 +617,12 @@
     "Description": "Reach Mastery Rank 30.",
     "Link": "True Master",
     "ExcludeFromCodex": true,
-    "Name": "True Master",
-    "Position": "Prefix",
     "Tags": [
       "Mastery"
     ],
+    "Name": "True Master",
+    "Position": "Prefix",
+    "Rank": 11,
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/MR30Title",
     "CodexSecret": true
@@ -664,7 +671,7 @@
     "Description": "",
     "Link": "Big Spender",
     "Price": {
-      "cc": 100000
+      "cc": "100,000"
     },
     "ExcludeFromCodex": true,
     "Name": "Big Spender",
@@ -680,7 +687,7 @@
     "Description": "",
     "Link": "The Awoken Sword",
     "Price": {
-      "Alloy Plate": 500000
+      "Alloy Plate": "500,000"
     },
     "ExcludeFromCodex": true,
     "Name": "The Awoken Sword",
@@ -709,7 +716,7 @@
     "Description": "Purchased from the [[Perrin Sequence]] at Rank 5 for {{sc|5000}}.",
     "Link": "Diplomatic Merchant",
     "Price": {
-      "sc": 5000
+      "sc": "5,000"
     },
     "ExcludeFromCodex": true,
     "Name": "Diplomatic Merchant",
@@ -780,11 +787,12 @@
     "Description": "Awarded for completing the Grandis XX Perigone challenge.",
     "Link": "Perigone",
     "ExcludeFromCodex": true,
-    "Name": "Perigone",
-    "Position": "Prefix",
     "Tags": [
       "Insign"
     ],
+    "Name": "Perigone",
+    "Position": "Prefix",
+    "Rank": 6,
     "Introduced": "41.0.5",
     "InternalName": "/Lotus/Types/Items/Titles/MedalRank20Title",
     "CodexSecret": true
@@ -793,11 +801,12 @@
     "Description": "Reach Mastery Rank 22.",
     "Link": "Dragon",
     "ExcludeFromCodex": true,
-    "Name": "Dragon",
-    "Position": "Prefix",
     "Tags": [
       "Mastery"
     ],
+    "Name": "Dragon",
+    "Position": "Prefix",
+    "Rank": 8,
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/MR22Title",
     "CodexSecret": true
@@ -874,7 +883,7 @@
     "Description": "",
     "Link": "Ironclad",
     "Price": {
-      "Ferrite": 400000
+      "Ferrite": "400,000"
     },
     "ExcludeFromCodex": true,
     "Name": "Ironclad",
@@ -920,7 +929,7 @@
     "Description": "",
     "Link": "Spore Bearer",
     "Price": {
-      "Nano Spores": 500000
+      "Nano Spores": "500,000"
     },
     "ExcludeFromCodex": true,
     "Name": "Spore Bearer",
@@ -949,7 +958,7 @@
     "Description": "",
     "Link": "Zenurik Vanguard",
     "Price": {
-      "Focus": 5000000
+      "Focus": "5,000,000"
     },
     "ExcludeFromCodex": true,
     "Name": "Zenurik Vanguard",
@@ -1034,7 +1043,7 @@
     "Description": "",
     "Link": "Madurai Vanguard",
     "Price": {
-      "Focus": 5000000
+      "Focus": "5,000,000"
     },
     "ExcludeFromCodex": true,
     "Name": "Madurai Vanguard",
@@ -1059,19 +1068,6 @@
     "InternalName": "/Lotus/Types/Items/Titles/AmirCampaignButterfingersTitle",
     "CodexSecret": true
   },
-  "Tenens": {
-    "Description": "Awarded for completing the Tenens IX Sporoi challenge.",
-    "Link": "Tenens",
-    "ExcludeFromCodex": true,
-    "Name": "Tenens",
-    "Position": "Suffix",
-    "Tags": [
-      "Insign"
-    ],
-    "Introduced": "41.0.5",
-    "InternalName": "/Lotus/Types/Items/Titles/MedalRank9Title",
-    "CodexSecret": true
-  },
   "Plague Doctor": {
     "Description": "Defeat [[Phorid]] and get to extraction.",
     "Link": "Plague Doctor",
@@ -1085,11 +1081,38 @@
     "InternalName": "/Lotus/Types/Items/Titles/KillPhoridTitle",
     "CodexSecret": true
   },
+  "Tenens": {
+    "Description": "Awarded for completing the Tenens IX Sporoi challenge.",
+    "Link": "Tenens",
+    "ExcludeFromCodex": true,
+    "Tags": [
+      "Insign"
+    ],
+    "Name": "Tenens",
+    "Position": "Suffix",
+    "Rank": 3,
+    "Introduced": "41.0.5",
+    "InternalName": "/Lotus/Types/Items/Titles/MedalRank9Title",
+    "CodexSecret": true
+  },
+  "Busy Monologuing": {
+    "Description": "{{text||Collect a special piece of loot in [[Fables & Frontiers]].|hover=Obtain Commander Nach's Monologuing Head on Day 3.}}",
+    "Link": "Busy Monologuing",
+    "ExcludeFromCodex": true,
+    "Name": "Busy Monologuing",
+    "Position": "Suffix",
+    "Tags": [
+      "KIM"
+    ],
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/AmirCampaignLootTitle",
+    "CodexSecret": true
+  },
   "Naramon Vanguard": {
     "Description": "",
     "Link": "Naramon Vanguard",
     "Price": {
-      "Focus": 5000000
+      "Focus": "5,000,000"
     },
     "ExcludeFromCodex": true,
     "Name": "Naramon Vanguard",
@@ -1115,19 +1138,6 @@
     ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleAscarisPrime",
-    "CodexSecret": true
-  },
-  "Busy Monologuing": {
-    "Description": "{{text||Collect a special piece of loot in [[Fables & Frontiers]].|hover=Obtain Commander Nach's Monologuing Head on Day 3.}}",
-    "Link": "Busy Monologuing",
-    "ExcludeFromCodex": true,
-    "Name": "Busy Monologuing",
-    "Position": "Suffix",
-    "Tags": [
-      "KIM"
-    ],
-    "Introduced": "43.5",
-    "InternalName": "/Lotus/Types/Items/Titles/AmirCampaignLootTitle",
     "CodexSecret": true
   },
   "Legally Distinct": {
@@ -1170,6 +1180,19 @@
     ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleVoruna",
+    "CodexSecret": true
+  },
+  "Orb Liquidator": {
+    "Description": "Awarded for defeating [[Profit-Taker Orb|Profit-Taker]] and [[Exploiter Orb]]",
+    "Link": "Orb Liquidator",
+    "ExcludeFromCodex": true,
+    "Name": "Orb Liquidator",
+    "Position": "Prefix",
+    "Tags": [
+      "Boss Fight"
+    ],
+    "Introduced": "43",
+    "InternalName": "/Lotus/Types/Items/Titles/OrbHunterTitle",
     "CodexSecret": true
   },
   "Strikes Twice": {
@@ -1240,44 +1263,45 @@
     "InternalName": "/Lotus/Types/Items/Titles/DanteDescendiaTitle",
     "CodexSecret": true
   },
-  "Orb Liquidator": {
-    "Description": "Awarded for defeating [[Profit-Taker Orb|Profit-Taker]] and [[Exploiter Orb]]",
-    "Link": "Orb Liquidator",
-    "ExcludeFromCodex": true,
-    "Name": "Orb Liquidator",
-    "Position": "Prefix",
-    "Tags": [
-      "Boss Fight"
-    ],
-    "Introduced": "43",
-    "InternalName": "/Lotus/Types/Items/Titles/OrbHunterTitle",
-    "CodexSecret": true
-  },
-  "The Navigator": {
+  "The Mad King": {
     "Description": "",
-    "Link": "The Navigator",
+    "Link": "The Mad King",
     "Price": {
-      "Nav Coordinate": 1000
+      "Thrax Plasm": "1,000"
     },
     "ExcludeFromCodex": true,
-    "Name": "The Navigator",
-    "Position": "Suffix",
+    "Name": "The Mad King",
+    "Position": "Prefix",
     "Tags": [
       "Roathe"
     ],
     "Introduced": "41",
-    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleNavCoordinates",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleThraxPlasm",
+    "CodexSecret": true
+  },
+  "Was Never Here": {
+    "Description": "Destroy 150 Security Cameras.",
+    "Link": "Was Never Here",
+    "ExcludeFromCodex": true,
+    "Name": "Was Never Here",
+    "Position": "Suffix",
+    "Tags": [
+      "Miscellaneous"
+    ],
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/TheCameraAdds100Title",
     "CodexSecret": true
   },
   "Sage": {
     "Description": "Reach Mastery Rank 25.",
     "Link": "Sage",
     "ExcludeFromCodex": true,
-    "Name": "Sage",
-    "Position": "Suffix",
     "Tags": [
       "Mastery"
     ],
+    "Name": "Sage",
+    "Position": "Suffix",
+    "Rank": 9,
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/MR25Title",
     "CodexSecret": true
@@ -1325,17 +1349,20 @@
     "InternalName": "/Lotus/Types/Items/Titles/DateQuincyTitle",
     "CodexSecret": true
   },
-  "Was Never Here": {
-    "Description": "Destroy 150 Security Cameras.",
-    "Link": "Was Never Here",
+  "Voyager": {
+    "Description": "",
+    "Link": "Voyager",
+    "Price": {
+      "Asterite": "5,000"
+    },
     "ExcludeFromCodex": true,
-    "Name": "Was Never Here",
+    "Name": "Voyager",
     "Position": "Suffix",
     "Tags": [
-      "Miscellaneous"
+      "Roathe"
     ],
-    "Introduced": "43.5",
-    "InternalName": "/Lotus/Types/Items/Titles/TheCameraAdds100Title",
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleRailjack",
     "CodexSecret": true
   },
   "The God Above Knowledge": {
@@ -1358,7 +1385,7 @@
     "Description": "",
     "Link": "Unairu Vanguard",
     "Price": {
-      "Focus": 5000000
+      "Focus": "5,000,000"
     },
     "ExcludeFromCodex": true,
     "Name": "Unairu Vanguard",
@@ -1370,27 +1397,11 @@
     "InternalName": "/Lotus/Types/Items/Titles/UnairuFocusHoarderTitle",
     "CodexSecret": true
   },
-  "Voyager": {
-    "Description": "",
-    "Link": "Voyager",
-    "Price": {
-      "Asterite": 5000
-    },
-    "ExcludeFromCodex": true,
-    "Name": "Voyager",
-    "Position": "Suffix",
-    "Tags": [
-      "Roathe"
-    ],
-    "Introduced": "41",
-    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleRailjack",
-    "CodexSecret": true
-  },
   "Vazarin Vanguard": {
     "Description": "",
     "Link": "Vazarin Vanguard",
     "Price": {
-      "Focus": 5000000
+      "Focus": "5,000,000"
     },
     "ExcludeFromCodex": true,
     "Name": "Vazarin Vanguard",
@@ -1400,6 +1411,20 @@
     ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/VazarinFocusHoarderTitle",
+    "CodexSecret": true
+  },
+  "Tiger": {
+    "Description": "Reach Mastery Rank 19.",
+    "Link": "Tiger",
+    "ExcludeFromCodex": true,
+    "Tags": [
+      "Mastery"
+    ],
+    "Name": "Tiger",
+    "Position": "Prefix",
+    "Rank": 7,
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/MR19Title",
     "CodexSecret": true
   },
   "Demoness": {
@@ -1416,19 +1441,6 @@
     ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleMaphica",
-    "CodexSecret": true
-  },
-  "Tiger": {
-    "Description": "Reach Mastery Rank 19.",
-    "Link": "Tiger",
-    "ExcludeFromCodex": true,
-    "Name": "Tiger",
-    "Position": "Prefix",
-    "Tags": [
-      "Mastery"
-    ],
-    "Introduced": "42",
-    "InternalName": "/Lotus/Types/Items/Titles/MR19Title",
     "CodexSecret": true
   },
   "Ticker's Angel": {
@@ -1451,7 +1463,7 @@
     "Description": "",
     "Link": "Conscience Painter",
     "Price": {
-      "Atramentum": 1000
+      "Atramentum": "1,000"
     },
     "ExcludeFromCodex": true,
     "Name": "Conscience Painter",
@@ -1499,7 +1511,7 @@
     "Description": "",
     "Link": "The Scavenger",
     "Price": {
-      "Salvage": 600000
+      "Salvage": "600,000"
     },
     "ExcludeFromCodex": true,
     "Name": "The Scavenger",
@@ -1540,6 +1552,22 @@
     "InternalName": "/Lotus/Types/Items/Titles/ForgedInFireTitle",
     "CodexSecret": true
   },
+  "The Navigator": {
+    "Description": "",
+    "Link": "The Navigator",
+    "Price": {
+      "Nav Coordinate": "1,000"
+    },
+    "ExcludeFromCodex": true,
+    "Name": "The Navigator",
+    "Position": "Suffix",
+    "Tags": [
+      "Roathe"
+    ],
+    "Introduced": "41",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleNavCoordinates",
+    "CodexSecret": true
+  },
   "Wave Rider": {
     "Description": "Complete every [[K-Drive Race]] in Orb Vallis.",
     "Link": "Wave Rider",
@@ -1569,20 +1597,20 @@
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleArgon",
     "CodexSecret": true
   },
-  "The Mad King": {
-    "Description": "",
-    "Link": "The Mad King",
+  "Seeker of Truth": {
+    "Description": "Purchased from the [[Arbiters of Hexis]] at Rank 5 for {{sc|5000}}.",
+    "Link": "Seeker of Truth",
     "Price": {
-      "Thrax Plasm": 1000
+      "sc": "5,000"
     },
     "ExcludeFromCodex": true,
-    "Name": "The Mad King",
+    "Name": "Seeker of Truth",
     "Position": "Prefix",
     "Tags": [
-      "Roathe"
+      "Syndicate"
     ],
-    "Introduced": "41",
-    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleThraxPlasm",
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/ArbitersOfHexisTitle",
     "CodexSecret": true
   },
   "Doctor": {
@@ -1605,7 +1633,7 @@
     "Description": "",
     "Link": "Fire and Brimstone",
     "Price": {
-      "Ignia": 1000
+      "Ignia": "1,000"
     },
     "ExcludeFromCodex": true,
     "Name": "Fire and Brimstone",
@@ -1633,20 +1661,17 @@
     "InternalName": "/Lotus/Types/Items/Titles/HunhowHonoria/TitleMesa",
     "CodexSecret": true
   },
-  "Seeker of Truth": {
-    "Description": "Purchased from the [[Arbiters of Hexis]] at Rank 5 for {{sc|5000}}.",
-    "Link": "Seeker of Truth",
-    "Price": {
-      "sc": 5000
-    },
+  "Nemesis Of Eris": {
+    "Description": "{{text||[https://www.warframe.com/taubound Attuned to your Vessel.]|hover=Complete the challenges from the Taubound teaser.}}",
+    "Link": "Nemesis Of Eris",
     "ExcludeFromCodex": true,
-    "Name": "Seeker of Truth",
-    "Position": "Prefix",
+    "Name": "Nemesis Of Eris",
+    "Position": "Suffix",
     "Tags": [
-      "Syndicate"
+      "Miscellaneous"
     ],
-    "Introduced": "42",
-    "InternalName": "/Lotus/Types/Items/Titles/ArbitersOfHexisTitle",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/NemesisOfErisTitle",
     "CodexSecret": true
   },
   "The Great & Terrible": {
@@ -1666,11 +1691,12 @@
     "Description": "Reach Mastery Rank 13.",
     "Link": "Hunter",
     "ExcludeFromCodex": true,
-    "Name": "Hunter",
-    "Position": "Prefix",
     "Tags": [
       "Mastery"
     ],
+    "Name": "Hunter",
+    "Position": "Prefix",
+    "Rank": 5,
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/MR13Title",
     "CodexSecret": true
@@ -1696,11 +1722,12 @@
     "Description": "Reach Mastery Rank 7.",
     "Link": "Disciple",
     "ExcludeFromCodex": true,
-    "Name": "Disciple",
-    "Position": "Prefix",
     "Tags": [
       "Mastery"
     ],
+    "Name": "Disciple",
+    "Position": "Prefix",
+    "Rank": 3,
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/MR7Title",
     "CodexSecret": true
@@ -2004,7 +2031,7 @@
     "Description": "Purchased from the [[Red Veil]] at Rank 5 for {{sc|5000}}.",
     "Link": "Eradicator of Corruption",
     "Price": {
-      "sc": 5000
+      "sc": "5,000"
     },
     "ExcludeFromCodex": true,
     "Name": "Eradicator of Corruption",
@@ -2033,7 +2060,7 @@
     "Description": "",
     "Link": "Yuvan Rising",
     "Price": {
-      "Kuva": 100000
+      "Kuva": "100,000"
     },
     "ExcludeFromCodex": true,
     "Name": "Yuvan Rising",
@@ -2082,11 +2109,12 @@
     "Description": "Reach Mastery Rank 10.",
     "Link": "Seeker",
     "ExcludeFromCodex": true,
-    "Name": "Seeker",
-    "Position": "Prefix",
     "Tags": [
       "Mastery"
     ],
+    "Name": "Seeker",
+    "Position": "Prefix",
+    "Rank": 4,
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/MR10Title",
     "CodexSecret": true
@@ -2137,11 +2165,12 @@
     "Description": "Reach Mastery Rank 1.",
     "Link": "Initiate",
     "ExcludeFromCodex": true,
-    "Name": "Initiate",
-    "Position": "Prefix",
     "Tags": [
       "Mastery"
     ],
+    "Name": "Initiate",
+    "Position": "Prefix",
+    "Rank": 1,
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/MR1Title",
     "CodexSecret": true
@@ -2448,7 +2477,7 @@
     "Description": "",
     "Link": "Oblivion's Kiss",
     "Price": {
-      "Höllvanian Pitchweave Fragment": 2600
+      "Höllvanian Pitchweave Fragment": "2,600"
     },
     "ExcludeFromCodex": true,
     "Name": "Oblivion's Kiss",
@@ -2464,11 +2493,12 @@
     "Description": "Reach Mastery Rank 4.",
     "Link": "Novice",
     "ExcludeFromCodex": true,
-    "Name": "Novice",
-    "Position": "Suffix",
     "Tags": [
       "Mastery"
     ],
+    "Name": "Novice",
+    "Position": "Suffix",
+    "Rank": 2,
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/MR4Title",
     "CodexSecret": true
@@ -2522,7 +2552,7 @@
     "Description": "",
     "Link": "Cryomancer",
     "Price": {
-      "Cryotic": 5000
+      "Cryotic": "5,000"
     },
     "ExcludeFromCodex": true,
     "Name": "Cryomancer",
@@ -2551,11 +2581,12 @@
     "Description": "Reach Mastery Rank 28.",
     "Link": "Master",
     "ExcludeFromCodex": true,
-    "Name": "Master",
-    "Position": "Prefix",
     "Tags": [
       "Mastery"
     ],
+    "Name": "Master",
+    "Position": "Prefix",
+    "Rank": 10,
     "Introduced": "42",
     "InternalName": "/Lotus/Types/Items/Titles/MR28Title",
     "CodexSecret": true
@@ -2580,7 +2611,7 @@
     "Description": "",
     "Link": "Payer of the Ferryman",
     "Price": {
-      "Entrati Obols": 100000
+      "Entrati Obols": "100,000"
     },
     "ExcludeFromCodex": true,
     "Name": "Payer of the Ferryman",
@@ -2670,11 +2701,12 @@
     "Description": " Awarded for purchasing the Insign Pack.",
     "Link": "Insign",
     "ExcludeFromCodex": true,
-    "Name": "Insign",
-    "Position": "Prefix",
     "Tags": [
       "Insign"
     ],
+    "Name": "Insign",
+    "Position": "Prefix",
+    "Rank": 1,
     "Introduced": "41.0.5",
     "InternalName": "/Lotus/Types/Items/Titles/MedalRank1Title",
     "CodexSecret": true
@@ -2773,11 +2805,12 @@
     "Description": "Awarded for completing the Grandis XVII Sporoi challenge.",
     "Link": "Grandis",
     "ExcludeFromCodex": true,
-    "Name": "Grandis",
-    "Position": "Prefix",
     "Tags": [
       "Insign"
     ],
+    "Name": "Grandis",
+    "Position": "Prefix",
+    "Rank": 5,
     "Introduced": "41.0.5",
     "InternalName": "/Lotus/Types/Items/Titles/MedalRank17Title",
     "CodexSecret": true
@@ -2812,7 +2845,7 @@
     "Description": "Purchased from [[Cephalon Suda]] at Rank 5 for {{sc|5000}}.",
     "Link": "Thirst for Knowledge",
     "Price": {
-      "sc": 5000
+      "sc": "5,000"
     },
     "ExcludeFromCodex": true,
     "Name": "Thirst for Knowledge",

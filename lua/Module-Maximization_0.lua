@@ -38,9 +38,9 @@ for _, name in ipairs(names) do
 				end
 			end
 			exist[v.name] = true
-			ins[i] = '|'..table.concat(v, ' ')..'|'..cont
+			table.insert(ins, '|'..table.concat(v, ' ')..'|'..cont:gsub('{{#invoke:Tooltip|full|([^|]*)|([^}]*)}}', Tooltips.full))
 		else
-			ins[i] = '|'..v
+			table.insert(ins, '|'..v)
 		end
 	end
 end

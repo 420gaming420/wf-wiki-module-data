@@ -1,12 +1,12 @@
 ---
 title: "Module:Honorias/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Honorias/data"
-wiki_timestamp: "2026-09-04T12:39:08Z"
+wiki_timestamp: "2026-09-05T22:31:51Z"
 ---
 
 Database for all [Honorias](/w/Honoria "Honoria") in [WARFRAME](/w/WARFRAME "WARFRAME"). Preferably put new honorias in the correct alphabetical order, but it is not necessary.
 
-:   *Last updated: Fri, 04 Sep 2026 12:39:08 +0000 (UTC) by [User:ArbitraryMary](/w/User:ArbitraryMary "User:ArbitraryMary") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
+:   *Last updated: Sat, 05 Sep 2026 22:31:51 +0000 (UTC) by [User:N90](/w/User:N90?action=edit&redlink=1 "User:N90 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
 
 ## Contents
 
@@ -1997,7 +1997,12 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/TitleJuggernaut",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Chitinous Husk"] = 50 },
+		Price = {
+			["Pulsating Tubercles"] = 50,
+			["Infected Palpators"] = 50,
+			["Chitinous Husk"] = 50,
+			["Severed Bile Sac"] = 50
+		},
 		Tags = { "Roathe" },
 	},
 	["The Learned"] = {

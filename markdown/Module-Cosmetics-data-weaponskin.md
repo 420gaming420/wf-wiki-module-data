@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/weaponskin"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/weaponskin"
-wiki_timestamp: "2026-08-28T01:07:43Z"
+wiki_timestamp: "2026-09-05T06:28:59Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/weaponskin/doc](/w/Module:Cosmetics/data/weaponskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/weaponskin/doc (page does not exist)")*
@@ -246,6 +246,17 @@ return {
         Introduced = "25.4.1",
         Link = "Akmagnus Tekelu Skin",
         Name = "Akmagnus Tekelu Skin",
+        Type = "Weapon Skin"
+    },
+    ["Akomeogi Warfan Skin"] = {
+        CodexSecret = false,
+        Description = "The deceptive delicacy of the warfan belies the danger within; this stark warfan skin is proof of both.",
+        ExcludeFromCodex = false,
+        Image = "AkomeogiWarfanSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/Koumei/KoumeiWarfanSkin",
+        Introduced = "42",
+        Link = "Akomeogi Warfan Skin",
+        Name = "Akomeogi Warfan Skin",
         Type = "Weapon Skin"
     },
     ["Akstiletto Conclave Skin"] = {
@@ -1695,7 +1706,7 @@ return {
         Description = "This bow skin is haunted by the spirits of the dead trapped within, and hungers to create more.",
         ExcludeFromCodex = false,
         Image = "ElfameBowSkin.png",
-        InternalName = "",
+        InternalName = "/Lotus/Upgrades/Skins/Deluxe/CalibanDeluxeBowSkin",
         Link = "Elfame Bow Skin",
         Name = "Elfame Bow Skin",
         Type = "Weapon Skin"
@@ -2003,7 +2014,7 @@ return {
 	    Description = "Death soars swiftly closer with Dante Tytonis' signature feathered warfan skin.",
 	    ExcludeFromCodex = false,
 	    Image = "GallistrixWarfanSkin.png",
-	    InternalName = "",
+	    InternalName = "/Lotus/Upgrades/Skins/Pagemaster/PagemasterDeluxeWarfanSkin",
 	    Introduced = "43",
 	    Link = "Gallistrix Warfan Skin",
 	    Name = "Gallistrix Warfan Skin",
@@ -2750,10 +2761,10 @@ return {
     },
     ["Iltis Heavy Blade Skin"] = {
     	CodexSecret = false,
-    	Description = "",
+    	Description = "Those who feel the vicious bite of Voruna Medeina's signature heavy blade skin know why its wielder has no need for subtlety.",
     	ExcludeFromCodex = false,
     	Image = "IltisHeavyBladeSkin.png",
-    	InternalName = "",
+    	InternalName = "/Lotus/Upgrades/Skins/Werewolf/VorunaDeluxeAxeSkin",
     	Link = "Iltis Heavy Blade Skin",
     	Name = "Iltis Heavy Blade Skin",
     	Type = "Weapon Skin",
@@ -3752,7 +3763,7 @@ return {
 	    Description = "The dark feathers of Dante Tytonis's Exalted Tome lift arcane secrets to the skies.",
 	    ExcludeFromCodex = false,
 	    Image = "NoctuaLophosSkin.png",
-	    InternalName = "",
+	    InternalName = "/Lotus/Upgrades/Skins/Weapons/Grimoire/PagemasterDeluxeGrimoireSkin",
 	    Introduced = "43",
 	    Link = "Noctua Lophos",
 	    Name = "Noctua Lophos",
@@ -4611,7 +4622,7 @@ return {
         Description = "This brumal skin for the Quassus scatters ethereal daggers like snow.",
         ExcludeFromCodex = false,
         Image = "QuassusSolsticeSkin.png",
-        InternalName = "",
+        InternalName = "/Lotus/Upgrades/Skins/WinterSolstice/SolsticeQuassusSkin",
         Link = "Quassus Solstice Skin",
         Name = "Quassus Solstice Skin",
         Type = "Weapon Skin"
@@ -4671,8 +4682,8 @@ return {
      	Description = "Baruuk Shaoshi’s signature Sword & Shield skin evokes the ancient arms carried by sacred guardians, those who embraced the balance between defense and attack.",
      	ExcludeFromCodex = false,
      	Image = "RathanSword&ShieldSkin.png",
-     	InternalName = "",
-     	Introduced = "",
+     	InternalName = "/Lotus/Upgrades/Skins/Pacifist/BaruukDeluxeIIMaceShield",
+     	Introduced = "43.5",
      	Link = "Rathan Sword & Shield Skin",
      	Name = "Rathan Sword & Shield Skin",
      	Type = "Weapon Skin"
@@ -5461,7 +5472,7 @@ return {
         Description = "This bow skin with the enlarged upper limb of Dax design is based on those used by Dax Arcus.",
         ExcludeFromCodex = false,
         Image = "TauDaxBowSkin.png",
-        InternalName = "",
+        InternalName = "/Lotus/Upgrades/Skins/Dax/DaxBowSkin",
         Link = "Tau Dax Bow Skin",
         Name = "Tau Dax Bow Skin",
         Type = "Weapon Skin"
@@ -5471,7 +5482,7 @@ return {
         Description = "A skin for hammers modelled after those wielded by the Anarch Libritor Lustratus on Tau.",
         ExcludeFromCodex = false,
         Image = "TauDaxHammerSkin.png",
-        InternalName = "",
+        InternalName = "/Lotus/Upgrades/Skins/Hammer/DaxHammerSkin",
         Link = "Tau Dax Hammer Skin",
         Name = "Tau Dax Hammer Skin",
         Type = "Weapon Skin"
@@ -5481,7 +5492,7 @@ return {
         Description = "This Dax skin for the Grattler archgun retracts firings rings down its exposed barrel while attached handles keep the wielder's hands clear.",
         ExcludeFromCodex = false,
         Image = "TauDaxGrattlerSkin.png",
-        InternalName = "",
+        InternalName = "/Lotus/Upgrades/Skins/Dax/DaxArchgunSkin",
         Link = "Tau Dax Grattler Skin",
         Name = "Tau Dax Grattler Skin",
         Type = "Weapon Skin"
@@ -5491,7 +5502,7 @@ return {
         Description = "A trusty sword is the soul of a warrior. This nikana skin, decorated by flashes of orange, is carried by each Dax Gladius on Tau.",
         ExcludeFromCodex = false,
         Image = "TauDaxNikanaSkin.png",
-        InternalName = "",
+        InternalName = "/Lotus/Upgrades/Skins/Dax/DaxKatanaSkin",
         Link = "Tau Dax Nikana Skin",
         Name = "Tau Dax Nikana Skin",
         Type = "Weapon Skin"
@@ -5501,7 +5512,7 @@ return {
         Description = "The rifle skin recreates the standard issue firearm for Dax forces who fight for Tau.",
         ExcludeFromCodex = false,
         Image = "TauDaxRifleSkin.png",
-        InternalName = "",
+        InternalName = "/Lotus/Upgrades/Skins/Dax/DaxLeverRifleSkin",
         Link = "Tau Dax Rifle Skin",
         Name = "Tau Dax Rifle Skin",
         Type = "Weapon Skin"
@@ -5511,7 +5522,7 @@ return {
         Description = "A staff skin that replicates the weapon carried by Dax Capsarii into battle as a symbol of hope for victory.",
         ExcludeFromCodex = false,
         Image = "TauDaxStaffSkin.png",
-        InternalName = "",
+        InternalName = "/Lotus/Upgrades/Skins/Dax/DaxMageStaffSkin",
         Link = "Tau Dax Staff Skin",
         Name = "Tau Dax Staff Skin",
         Type = "Weapon Skin"
@@ -5521,9 +5532,19 @@ return {
         Description = "This thrown weapon skin bears the heavy, distinctive design of the kunai used by Dax Tenebra.",
         ExcludeFromCodex = false,
         Image = "TauDaxThrownWeaponSkin.png",
-        InternalName = "",
+        InternalName = "/Lotus/Upgrades/Skins/Dax/DaxKunaiSkin",
         Link = "Tau Dax Thrown Weapon Skin",
         Name = "Tau Dax Thrown Weapon Skin",
+        Type = "Weapon Skin"
+    },
+    ["Tempera Amp Skin"] = {
+        CodexSecret = false,
+        Description = "This sleek amp skin is a masterstroke of craftsmanship.",
+        ExcludeFromCodex = false,
+        Image = "TemperaAmpSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/Operator/Amp/InkSiroccoAmpSkin",
+        Link = "Tempera Amp Skin",
+        Name = "Tempera Amp Skin",
         Type = "Weapon Skin"
     },
     ["Teng Dagger Skin"] = {
@@ -5799,7 +5820,7 @@ return {
         Description = "Eliminate your adversaries with fluid grace.",
         ExcludeFromCodex = false,
         Image = "TraciensGlaiveSkin.png",
-        InternalName = "",
+        InternalName = "/Lotus/Upgrades/Skins/Deluxe/ProteaDeluxeGlaiveSkin",
         Link = "Traciens Glaive Skin",
         Name = "Traciens Glaive Skin",
         Type = "Weapon Skin"

@@ -1,10 +1,10 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-08-31T09:06:54Z"
+wiki_timestamp: "2026-09-05T22:52:25Z"
 ---
 
-Database for [maximization](/w/Maximization "Maximization") of [Warframe](/w/Warframes "Warframes") stats and [abilities](/w/Abilities "Abilities").
+Database for [maximization](/w/Maximization "Maximization") of [warframe](/w/Warframes "Warframes") stats and [abilities](/w/Abilities "Abilities").
 
 ## Ability Entry Schema
 
@@ -28,6 +28,8 @@ Database for [maximization](/w/Maximization "Maximization") of [Warframe](/w/War
 
 All input/output object fields turn into `data-*` attributes for [MediaWiki:Gadget-MathVM](/w/MediaWiki:Gadget-MathVM "MediaWiki:Gadget-MathVM") (click to see the spec), except `cont` and `suff`.
 
+Each ability's data should contain calculations of innate stats (e.g. energy, damage, DoTs), and kit interactions (i.e. passive, abilities, and augments of the original warframe). Adding calculations for third-party buffs would bloat calculators. If the ability can be [infused](/w/Infused "Infused"), add toggles for calculations of original kit interactions (e.g. [![](/images/thumb/ShurikenIcon%28xWhite%29.png/32px-ShurikenIcon%28xWhite%29.png?f2322)](/w/Shuriken "Shuriken") [Shuriken](/w/Shuriken "Shuriken") doing less [![](/images/thumb/DmgSlashSmall64.png/32px-DmgSlashSmall64.png?bab47)](/w/Damage/Slash_Damage "Damage/Slash Damage") [Bleed](/w/Damage/Slash_Damage "Damage/Slash Damage") without [![](/images/thumb/Ash_Thumb.png/32px-Ash_Thumb.png?db305)](/w/Ash "Ash") [Ash](/w/Ash "Ash")'s passive) and do **not** add potential interactions with a new warframe.
+
 Ability Object
 
 | Key | Description |
@@ -47,6 +49,19 @@ Prebuilt Variables
 | `COST` | Scaling factor for [Ability Cost](/w/Ability_Efficiency#Mechanics "Ability Efficiency") |
 | `DRAIN` | Scaling factor for [Ability Drain](/w/Ability_Efficiency#Mechanics "Ability Efficiency") |
 
+Standard Units
+
+| Unit | Description |
+| --- | --- |
+| Time | |
+| `ms` | millisecond |
+| `s` | second |
+| `min` | minute |
+| `h` | hour |
+| Distance | |
+| `m` | metre |
+| `km` | kilometre |
+
 ## See Also
 
 [[edit source](/w/Module:Maximization/data/doc?action=edit&section=T-2 "Edit section's source code: See Also")]
@@ -60,22 +75,25 @@ local Tooltips = { full=function(a, b) return '{{#invoke:Tooltip|full|'..a..'|'.
 local Data = {
 	['Shuriken']={
 		ins={
-			{name='HEAD', type='checkbox', cont='Headshot?'},
-			{name='ASH', type='checkbox', value='checked', cont="Ash's [[Ash/Abilities#Passive|passive]]?"},
-			{cont='Shurikens:', name='SHURIKENS', type='range-R', min='1', max='5', value='1'},
+			{name='HEAD_RATE', cont='Headshot rate (%):', type='range-R'},
+			{name='SHURIKENS', cont='Shurikens:', type='range-R', min='1', max='5', value='1'},
+			{name='ASH', cont="Ash's [[Ash/Abilities#Passive|passive]]?", type='checkbox', value='checked'},
 		},
 		outs={
-			{'Base damage:' ,                                    {name='BASE_DMG', expr='ASH STR 750 %of 3 1 HEAD if * SHURIKENS *'}},
+			{'Base damage:' ,                                    {name='BASE_DMG', expr='STR 750 %of HEAD_MULT * SHURIKENS *'}},
 			{Tooltips.full('Bleed', 'DamageTypes')..' [[DoT]]:', {name='BLEED', expr='43.75 35 ASH if BASE_DMG %of', suff='/s'}},
 			{'Total damage:',                                    {expr='BLEED 9 6 ASH if * BASE_DMG +'}},
 			{Tooltips.full('Energy', 'Stats'),                   {expr='25 COST *'}},
 		}
 	},
 	['Smoke Screen']={
-		ins={},
+		ins={
+			{name='TP_AUG', cont=Tooltips.full('Teleport Rush', 'Mods')..'?', type='checkbox'},
+		},
 		outs={
-			{'Duration:', {expr='12 DUR *', suff='seconds'}},
-			{'Radius:', {expr='10 RNG *', suff='meters'}},
+			{'Duration:', {expr='DUR 12 %of', suff='s'}},
+			{'Extension on [[Finisher]] Kills:', {expr='DUR 5 %of TP_AUG *', suff='s'}},
+			{'Radius:', {expr='RNG 10 %of', suff='m'}},
 			{Tooltips.full('Energy', 'Stats'), {expr='35 COST *'}},
 		}
 	}

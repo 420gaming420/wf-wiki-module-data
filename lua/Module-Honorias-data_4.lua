@@ -1909,7 +1909,12 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/TitleJuggernaut",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Chitinous Husk"] = 50 },
+		Price = {
+			["Pulsating Tubercles"] = 50,
+			["Infected Palpators"] = 50,
+			["Chitinous Husk"] = 50,
+			["Severed Bile Sac"] = 50
+		},
 		Tags = { "Roathe" },
 	},
 	["The Learned"] = {

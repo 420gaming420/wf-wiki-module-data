@@ -2528,7 +2528,7 @@ return {
 			SquadPortrait = "NarinLargePortrait.png",
 			-- Subsumed = "Balefire",
 			-- Tactical = "Balefire",
-			Themes = "Blade Dancer, Durumi Crane, Winter",
+			Themes = "Blade Dancer, Red-Crowned Crane, Winter",
 			Type = "Warframe",
 			_IgnoreEntry = true 
 		},

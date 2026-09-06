@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/warframeskin"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/warframeskin"
-wiki_timestamp: "2026-08-28T15:19:50Z"
+wiki_timestamp: "2026-09-05T07:42:04Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/warframeskin/doc](/w/Module:Cosmetics/data/warframeskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/warframeskin/doc (page does not exist)")*
@@ -248,6 +248,16 @@ return {
 		Name = "Banshee Soprana Skin",
 		Type = "Skin"
 	},
+    ["Banshee Threnodia Skin"] = {
+    	CodexSecret = false,
+    	Description = "TBA",
+    	ExcludeFromCodex = false,
+    	Image = "BansheeThrenodiaSkin.png",
+    	InternalName = "",
+    	Link = "Banshee Threnodia Skin",
+    	Name = "Banshee Threnodia Skin",
+    	Type = "Skin",
+    },
 	["Banshee Voidshell Skin"] = {
 		CodexSecret = false,
 		Description = "Don with morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",
@@ -3349,6 +3359,16 @@ return {
 		Name = "Protea Voidshell Skin",
 		Type = "Skin"
 	},
+    ["Qorvex Basilica Skin"] = {
+    	CodexSecret = false,
+    	Description = "TBA",
+    	ExcludeFromCodex = true,
+    	Image = "QorvexBasilicaSkin.png",
+    	InternalName = "",
+    	Link = "Qorvex Basilica Skin",
+    	Name = "Qorvex Basilica Skin",
+    	Type = "Skin",
+    },
 	["Qorvex Skin"] = {
 		CodexSecret = false,
 		Description = "The standard issue skin for the Qorvex Warframe.",

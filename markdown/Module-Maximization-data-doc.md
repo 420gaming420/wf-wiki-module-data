@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data/doc"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data/doc"
-wiki_timestamp: "2026-09-01T03:23:06Z"
+wiki_timestamp: "2026-09-05T23:31:24Z"
 ---
 
 Database for [maximization](/w/Maximization "Maximization") of [warframe](/w/Warframes "Warframes") stats and [abilities](/w/Abilities "Abilities").
@@ -48,6 +48,19 @@ Prebuilt Variables
 | `DUR` | Value of  [Ability Duration](/w/Ability_Duration "Ability Duration") |
 | `COST` | Scaling factor for [Ability Cost](/w/Ability_Efficiency#Mechanics "Ability Efficiency") |
 | `DRAIN` | Scaling factor for [Ability Drain](/w/Ability_Efficiency#Mechanics "Ability Efficiency") |
+
+Standard Units
+
+| Unit | Description |
+| --- | --- |
+| Time | |
+| `ms` | millisecond |
+| `s` | second |
+| `min` | minute |
+| `h` | hour |
+| Distance | |
+| `m` | metre |
+| `km` | kilometre |
 
 ## See Also
 

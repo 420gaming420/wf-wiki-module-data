@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:54:31.096Z"
+    "converted_at": "2026-09-06T02:13:45.517Z"
   },
   "_comments": "",
   "Haemadys Mask": {
@@ -280,7 +280,7 @@
   },
   "Incognito Oculus": {
     "ConsolePrice": "35",
-    "Type": "Tennogen Eye",
+    "Type": "TennoGen Eye",
     "Description": "A unique oculus, designed by prosetisen.",
     "Link": "Incognito Oculus",
     "ExcludeFromCodex": false,
