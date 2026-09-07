@@ -1,12 +1,12 @@
 ---
 title: "Module:Honorias/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Honorias/data"
-wiki_timestamp: "2026-09-05T22:31:51Z"
+wiki_timestamp: "2026-09-06T08:20:55Z"
 ---
 
 Database for all [Honorias](/w/Honoria "Honoria") in [WARFRAME](/w/WARFRAME "WARFRAME"). Preferably put new honorias in the correct alphabetical order, but it is not necessary.
 
-:   *Last updated: Sat, 05 Sep 2026 22:31:51 +0000 (UTC) by [User:N90](/w/User:N90?action=edit&redlink=1 "User:N90 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
+:   *Last updated: Sun, 06 Sep 2026 08:20:55 +0000 (UTC) by [User:Evilflora](/w/User:Evilflora "User:Evilflora") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
 
 ## Contents
 
@@ -47,7 +47,7 @@ Database for all [Honorias](/w/Honoria "Honoria") in [WARFRAME](/w/WARFRAME "WAR
 | `Position` | N/A | N/A | N/A | String | ✔️ | Placement of the title relative to the player's username ("Prefix", "Suffix", or "Suffix & Prefix") | `"Suffix"` |
 | `Price` | N/A | N/A | N/A | Table (dictionary) | ❌ | Cost/resources required to purchase or craft the title, formatted as resource-quantity key-value pairs | `{ ["Vainthorn"] = 70 }` |
 | `Tags` | N/A | N/A | `Tags` | Table (array of strings) | ❌ | Classification tags associated with the title for filtering and categorization | `{ "Roathe" }` |
-| `Rank` | N/A | N/A | N/A | Number | ❌ | Display order bypassing the alphabetical one | `1` |
+| `Rank` | N/A | N/A | N/A | Number | ❌ | Display order bypassing the alphabetical one (only works when filtering by tag) | `1` |
 
 ## Data Validation
 
@@ -89,6 +89,12 @@ All field values logic are valid in Module:Honorias/data!
 --- Honorias data table for [[WARFRAME]] titles.
 -- @module Honorias/data
 -- 
+
+-- Entries from the Public Export currently not implemented or not discovered yet
+-- /Lotus/Types/Items/Titles/IncarnonMasteryTitle
+-- /Lotus/Types/Items/Titles/RailjackAshTitle
+-- /Lotus/Types/Items/Titles/RailjackGarudaTitle
+-- /Lotus/Types/Items/Titles/RememberTogetherTitle
 
 local honoriaData = {
 	["Disciple Founder"] = {
@@ -1257,15 +1263,15 @@ local honoriaData = {
 		Tags = { "Focus" },
 	},
 	["Nemesis Of Eris"] = {
-			Name = "Nemesis Of Eris",
-			Link = "Nemesis Of Eris",
-			Description = "{{text||[https://www.warframe.com/taubound Attuned to your Vessel.]|hover=Complete the challenges from the Taubound teaser.}}",
-			Position = "Suffix",
-			Introduced = "43.5",
-			InternalName = "/Lotus/Types/Items/Titles/NemesisOfErisTitle",
-			CodexSecret = true,
-			ExcludeFromCodex = true,
-			Tags = { "Miscellaneous" },
+		Name = "Nemesis Of Eris",
+		Link = "Nemesis Of Eris",
+		Description = "{{text||[https://www.warframe.com/taubound Attuned to your Vessel.]|hover=Complete the challenges from the Taubound teaser.}}",
+		Position = "Suffix",
+		Introduced = "43.5",
+		InternalName = "/Lotus/Types/Items/Titles/NemesisOfErisTitle",
+		CodexSecret = true,
+		ExcludeFromCodex = true,
+		Tags = { "Miscellaneous" },
 	},
 	["Night Gardener"] = {
 		Name = "Night Gardener",

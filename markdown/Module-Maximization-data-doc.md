@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data/doc"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data/doc"
-wiki_timestamp: "2026-09-05T23:31:24Z"
+wiki_timestamp: "2026-09-06T19:42:05Z"
 ---
 
 Database for [maximization](/w/Maximization "Maximization") of [warframe](/w/Warframes "Warframes") stats and [abilities](/w/Abilities "Abilities").
@@ -28,7 +28,10 @@ Database for [maximization](/w/Maximization "Maximization") of [warframe](/w/War
 
 All input/output object fields turn into `data-*` attributes for [MediaWiki:Gadget-MathVM](/w/MediaWiki:Gadget-MathVM "MediaWiki:Gadget-MathVM") (click to see the spec), except `cont` and `suff`.
 
-Each ability's data should contain calculations of innate stats (e.g. energy, damage, DoTs), and kit interactions (i.e. passive, abilities, and augments of the original warframe). Adding calculations for third-party buffs would bloat calculators. If the ability can be [infused](/w/Infused "Infused"), add toggles for calculations of original kit interactions (e.g. [![](/images/thumb/ShurikenIcon%28xWhite%29.png/32px-ShurikenIcon%28xWhite%29.png?f2322)](/w/Shuriken "Shuriken") [Shuriken](/w/Shuriken "Shuriken") doing less [![](/images/thumb/DmgSlashSmall64.png/32px-DmgSlashSmall64.png?bab47)](/w/Damage/Slash_Damage "Damage/Slash Damage") [Bleed](/w/Damage/Slash_Damage "Damage/Slash Damage") without [![](/images/thumb/Ash_Thumb.png/32px-Ash_Thumb.png?db305)](/w/Ash "Ash") [Ash](/w/Ash "Ash")'s passive) and do **not** add potential interactions with a new warframe.
+Each ability's data should contain calculations of innate stats (e.g. energy, damage, DoTs), and kit interactions (i.e. passive, abilities, and augments of the original warframe). Adding calculations for third-party buffs would bloat calculators.
+
+* If the ability can be [infused](/w/Infused "Infused"), add toggles for calculations of original kit interactions (e.g. [![](/images/thumb/ShurikenIcon%28xWhite%29.png/32px-ShurikenIcon%28xWhite%29.png?f2322)](/w/Shuriken "Shuriken") [Shuriken](/w/Shuriken "Shuriken") doing less [![](/images/thumb/DmgSlashSmall64.png/32px-DmgSlashSmall64.png?bab47)](/w/Damage/Slash_Damage "Damage/Slash Damage") [Bleed](/w/Damage/Slash_Damage "Damage/Slash Damage") without [![](/images/thumb/Ash_Thumb.png/32px-Ash_Thumb.png?db305)](/w/Ash "Ash") [Ash](/w/Ash "Ash")'s passive) and do **not** add potential interactions with a new warframe.
+* If multiple ability blocks are invoked together on a public page long-term, and some inputs represent the same thing but should not be synced - you should rename them at the source in the `INPUT_WARFRAME_KEY` format.
 
 Ability Object
 

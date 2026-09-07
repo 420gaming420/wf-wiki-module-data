@@ -1,7 +1,7 @@
 ---
 title: "Module:DamageTypes/data"
 wiki_url: "https://wiki.warframe.com/w/Module/DamageTypes/data"
-wiki_timestamp: "2026-07-04T03:04:30Z"
+wiki_timestamp: "2026-09-06T13:44:57Z"
 ---
 
 ## Contents
@@ -562,6 +562,16 @@ local DamageTypes = {
 			Link = "Damage/Anarchs",
             Name = "Anarchs",
 			Type = "Health" 
+		},
+		Armor = {
+			Bypass = { {"True",0}, {"Finisher",0}, {"Cinematic",0} },
+			Color = "60, 5%",
+			DarkModeColor = "#c2c25e",
+			Faction = { "Any" },
+			InternalName = "ARMOR",
+			Link = "Armor",
+			Name = "Armor",
+			Type = "Armor"
 		},
 		["Tenno Armor"] = {
 			Color = "60, 5%",
@@ -1244,7 +1254,8 @@ local DamageTypes = {
 			InternalName = "PT_BLEEDING",
 			Link = "Damage/Slash Damage",
 			Name = "Bleed",
-			Status = { "Bleed DoT as True damage" } 
+			Status = { "Bleed DoT as Cinematic damage" },
+			Bypass = { "Armor" }
 		},
 		Poison = {
 			Bypass = { "Tenno Shield" },
@@ -1330,7 +1341,7 @@ local DamageTypes = {
 			Types = { "Heat", "Cold" } 
 		},
 		Cinematic = {
-			Bypass = { "Tenno Armor" },
+			Bypass = { "Armor" },
 			Color = "#5d5d5d",
 			CSSBackgroundColorClass = "var(--dt-default-background-color)",
 			CSSBorderColorClass = "var(--dt-default-border-color)",
@@ -1411,14 +1422,17 @@ local DamageTypes = {
 			Name = "Energy Drain"
 		},
 		Finisher = {
+			Bypass = { "Armor", "Shield" },
+			BypassNotes = { 5 },
 			Color = "#5d5d5d",
 			CSSBackgroundColorClass = "var(--dt-default-background-color)",
 			CSSBorderColorClass = "var(--dt-default-border-color)",
 			CSSTextColorClass = "var(--dt-default-text-color)",
 			DarkModeColor = "#d5d5d5",
 			Icon = "Finisher_b.png",
-			Link = "Finisher",
-			Name = "Finisher" 
+			Link = "Damage#Unique Damage",
+			Name = "Finisher",
+			InternalName = "DT_FINISHER"
 		},
 		Gas = {
 			Color = "#063",
@@ -1602,7 +1616,7 @@ local DamageTypes = {
 			Status = { "Poison DoT" } 
 		},
 		True = {
-			Bypass = { "Tenno Armor" },
+			Bypass = { "Armor", "Shield" },
 			BypassNotes = { 5 },
 			Color = "#664d00",
 			ColorBackground = "#ddd6c7",
@@ -1613,7 +1627,7 @@ local DamageTypes = {
 			DarkModeColor = "#dda700",
 			GlyphImage = "EssentialTrueGlyph.png",
 			Icon = "DmgTrueSmall64.png",
-			InternalName = "DT_FINISHER",
+			InternalName = "DT_HEALTH_DRAIN",
 			Link = "Damage/True Damage",
 			Name = "True" 
 		},

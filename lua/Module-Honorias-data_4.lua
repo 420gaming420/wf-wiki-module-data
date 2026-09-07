@@ -2,6 +2,12 @@
 -- @module Honorias/data
 -- 
 
+-- Entries from the Public Export currently not implemented or not discovered yet
+-- /Lotus/Types/Items/Titles/IncarnonMasteryTitle
+-- /Lotus/Types/Items/Titles/RailjackAshTitle
+-- /Lotus/Types/Items/Titles/RailjackGarudaTitle
+-- /Lotus/Types/Items/Titles/RememberTogetherTitle
+
 local honoriaData = {
 	["Disciple Founder"] = {
 		_IgnoreEntry = true,
@@ -1169,15 +1175,15 @@ local honoriaData = {
 		Tags = { "Focus" },
 	},
 	["Nemesis Of Eris"] = {
-			Name = "Nemesis Of Eris",
-			Link = "Nemesis Of Eris",
-			Description = "{{text||[https://www.warframe.com/taubound Attuned to your Vessel.]|hover=Complete the challenges from the Taubound teaser.}}",
-			Position = "Suffix",
-			Introduced = "43.5",
-			InternalName = "/Lotus/Types/Items/Titles/NemesisOfErisTitle",
-			CodexSecret = true,
-			ExcludeFromCodex = true,
-			Tags = { "Miscellaneous" },
+		Name = "Nemesis Of Eris",
+		Link = "Nemesis Of Eris",
+		Description = "{{text||[https://www.warframe.com/taubound Attuned to your Vessel.]|hover=Complete the challenges from the Taubound teaser.}}",
+		Position = "Suffix",
+		Introduced = "43.5",
+		InternalName = "/Lotus/Types/Items/Titles/NemesisOfErisTitle",
+		CodexSecret = true,
+		ExcludeFromCodex = true,
+		Tags = { "Miscellaneous" },
 	},
 	["Night Gardener"] = {
 		Name = "Night Gardener",

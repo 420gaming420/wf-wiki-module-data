@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-06T02:13:56.149Z"
+    "converted_at": "2026-09-07T02:14:32.930Z"
   },
   "_comments": "",
   "Smoke Screen": {
@@ -17,7 +17,7 @@
         }
       ],
       [
-        "Extension on [[Finisher]] Kills:",
+        "Extension on [[Finisher]] kills:",
         {
           "expr": "DUR 5 %of TP_AUG *",
           "suff": "s"
@@ -51,7 +51,7 @@
         "Base damage:",
         {
           "name": "BASE_DMG",
-          "expr": "STR 750 %of HEAD_MULT * SHURIKENS *"
+          "expr": "STR 750 %of HEAD_MULT * SHURIKENS * 1.5 1 WEAK_TO_SLASH if *"
         }
       ],
       [
@@ -69,6 +69,20 @@
         }
       ],
       [
+        "Armor reduction:",
+        {
+          "expr": "STR 70 %of SEEKING_SHURIKEN *",
+          "suff": "%"
+        }
+      ],
+      [
+        "Armor reduction duration:",
+        {
+          "expr": "DUR 8 %of SEEKING_SHURIKEN *",
+          "suff": "s"
+        }
+      ],
+      [
         "{{#invoke:Tooltip|full|Energy|Stats}}",
         {
           "expr": "25 COST *"
@@ -79,7 +93,7 @@
       {
         "type": "range-R",
         "name": "HEAD_RATE",
-        "cont": "Headshot rate (%):<span style=\"display: none\" data-name=\"HEAD_MULT\" data-expr=\"HEAD_RATE 3 * 100 HEAD_RATE - + as%\"></span>"
+        "cont": "Headshot rate:<span style=\"display: none\" data-name=\"HEAD_MULT\" data-expr=\"HEAD_RATE 3 * 100 HEAD_RATE - + as%\"></span>"
       },
       {
         "min": "1",
@@ -90,11 +104,108 @@
         "cont": "Shurikens:"
       },
       {
+        "type": "checkbox",
+        "name": "WEAK_TO_SLASH",
+        "cont": "Enemy is weak to {{#invoke:Tooltip|full|Slash|DamageTypes}}?"
+      },
+      {
         "value": "checked",
         "type": "checkbox",
         "name": "ASH",
         "cont": "Ash's [[Ash/Abilities#Passive|passive]]?"
+      },
+      {
+        "type": "checkbox",
+        "name": "SEEKING_SHURIKEN",
+        "cont": "{{#invoke:Tooltip|full|Seeking Shuriken|Mods}}?"
       }
+    ]
+  },
+  "Blade Storm": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Finisher|DamageTypes}} damage:",
+        {
+          "expr": "\t\t\t\tMELEE_DMG_BONUS FINISHER_DMG_BONUS\n\t\t\t\tSTR 1500 %of %of %of COMBO_MULTI *\n\t\t\t"
+        }
+      ],
+      [
+        "Range:",
+        {
+          "expr": "RNG 50 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "Bonus Combo:",
+        {
+          "expr": "STR 4 %of RISING_STORM *",
+          "suff": "/attack"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}}",
+        {
+          "expr": "12 COST * 2 1 IS_INVISIBLE if /",
+          "suff": "/enemy"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "default": "100",
+        "type": "number",
+        "name": "MELEE_DMG_BONUS",
+        "cont": "[[Melee damage]] modifier:"
+      },
+      {
+        "default": "100",
+        "type": "number",
+        "name": "FINISHER_DMG_BONUS",
+        "cont": "[[Finisher damage]] modifier:"
+      },
+      {
+        "min": "1",
+        "type": "range-R",
+        "name": "COMBO_MULTI",
+        "max": "12",
+        "value": "1",
+        "cont": "[[Combo multiplier]]"
+      },
+      {
+        "type": "checkbox",
+        "name": "IS_INVISIBLE",
+        "cont": "Is Ash [[invisible]]?"
+      },
+      {
+        "type": "checkbox",
+        "name": "RISING_STORM",
+        "cont": "{{#invoke:Tooltip|full|Rising Storm|Mods}}?"
+      }
+    ]
+  },
+  "Teleport": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Finisher|DamageTypes}} damage bonus:",
+        {
+          "expr": "STR 200 %of",
+          "suff": "%"
+        }
+      ],
+      [
+        "Range:",
+        {
+          "expr": "RNG 60 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}}",
+        {
+          "expr": "25 COST *"
+        }
+      ]
     ]
   }
 }

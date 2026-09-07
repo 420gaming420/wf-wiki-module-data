@@ -1,12 +1,12 @@
 ---
 title: "Module:Resources/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Resources/data"
-wiki_timestamp: "2026-08-13T10:46:00Z"
+wiki_timestamp: "2026-09-06T13:02:23Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME") [Resources](/w/Resources "Resources"), items, and components. For blueprints which require resources to be crafted, see [Module:Blueprints/data](/w/Module:Blueprints/data "Module:Blueprints/data").
 
-:   *Last updated: Thu, 13 Aug 2026 10:46:00 +0000 (UTC) by [User:Sparrows413](/w/User:Sparrows413 "User:Sparrows413") ([change log](https://wiki.warframe.com/w/Module:Resources/data?diff=0))*
+:   *Last updated: Sun, 06 Sep 2026 13:02:23 +0000 (UTC) by [User:Twilight053](/w/User:Twilight053 "User:Twilight053") ([change log](https://wiki.warframe.com/w/Module:Resources/data?diff=0))*
 
 ## Contents
 
@@ -10477,7 +10477,7 @@ local ResourceData = {
 	},
 	["Synthetic Eidolon Shard"] = {
 		Amount = { 1, 1 },
-		Description = "",
+		Description = "Elite Sanctuary Onslaught, Rotation B gives 1 @ 8.43%\r\nSanctuary Onslaught, Rotation A gives 1 @ 7.14%\r\nSanctuary Onslaught, Rotation B gives 1 @ 7.14%",
 		Image = "SyntheticEidolonShard.png",
 		InternalName = "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/SentientShardSynthesizedItem",
 		Introduced = "22.18",

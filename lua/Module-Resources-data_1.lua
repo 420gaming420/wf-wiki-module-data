@@ -10247,7 +10247,7 @@ local ResourceData = {
 	},
 	["Synthetic Eidolon Shard"] = {
 		Amount = { 1, 1 },
-		Description = "",
+		Description = "Elite Sanctuary Onslaught, Rotation B gives 1 @ 8.43%\r\nSanctuary Onslaught, Rotation A gives 1 @ 7.14%\r\nSanctuary Onslaught, Rotation B gives 1 @ 7.14%",
 		Image = "SyntheticEidolonShard.png",
 		InternalName = "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/SentientShardSynthesizedItem",
 		Introduced = "22.18",

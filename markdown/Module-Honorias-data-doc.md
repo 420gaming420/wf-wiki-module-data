@@ -1,12 +1,12 @@
 ---
 title: "Module:Honorias/data/doc"
 wiki_url: "https://wiki.warframe.com/w/Module/Honorias/data/doc"
-wiki_timestamp: "2026-09-04T11:02:16Z"
+wiki_timestamp: "2026-09-06T14:19:11Z"
 ---
 
 Database for all [Honorias](/w/Honoria "Honoria") in [WARFRAME](/w/WARFRAME "WARFRAME"). Preferably put new honorias in the correct alphabetical order, but it is not necessary.
 
-:   *Last updated: Fri, 04 Sep 2026 11:02:16 +0000 (UTC) by [User:Evilflora](/w/User:Evilflora "User:Evilflora") ([change log](https://wiki.warframe.com/w/Module:Honorias/data/doc?diff=0))*
+:   *Last updated: Sun, 06 Sep 2026 14:18:37 +0000 (UTC) by [User:Evilflora](/w/User:Evilflora "User:Evilflora") ([change log](https://wiki.warframe.com/w/Module:Honorias/data/doc?diff=0))*
 
 ## Contents
 
@@ -47,7 +47,7 @@ Database for all [Honorias](/w/Honoria "Honoria") in [WARFRAME](/w/WARFRAME "WAR
 | `Position` | N/A | N/A | N/A | String | ✔️ | Placement of the title relative to the player's username ("Prefix", "Suffix", or "Suffix & Prefix") | `"Suffix"` |
 | `Price` | N/A | N/A | N/A | Table (dictionary) | ❌ | Cost/resources required to purchase or craft the title, formatted as resource-quantity key-value pairs | `{ ["Vainthorn"] = 70 }` |
 | `Tags` | N/A | N/A | `Tags` | Table (array of strings) | ❌ | Classification tags associated with the title for filtering and categorization | `{ "Roathe" }` |
-| `Rank` | N/A | N/A | N/A | Number | ❌ | Display order bypassing the alphabetical one | `1` |
+| `Rank` | N/A | N/A | N/A | Number | ❌ | Display order bypassing the alphabetical one (only works when filtering by tag) | `1` |
 
 ## Data Validation
 
