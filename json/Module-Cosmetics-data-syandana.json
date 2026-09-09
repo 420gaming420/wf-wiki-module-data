@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:55:30.453Z"
+    "converted_at": "2026-09-09T02:14:30.433Z"
   },
   "_comments": "",
   "TennoCon 2020 Syandana": {
@@ -1926,16 +1926,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWZamariuSyandana",
     "CodexSecret": false
   },
-  "Stezia Sumbha Syandana": {
-    "Type": "Syandana",
-    "Image": "SteziaSumbhaSyandana.png",
-    "Description": "Like a carnivorous flower, this alluring Syandana conceals a dangerous predator.",
-    "Link": "Stezia Sumbha Syandana",
-    "Name": "Stezia Sumbha Syandana",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/AmazonOniSyandana",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Zaikhya Syandana": {
     "ConsolePrice": "105",
     "Type": "TennoGen Syandana",
@@ -1953,6 +1943,16 @@
     "Name": "Zaikhya Syandana",
     "PcPrice": "$5.99",
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWZaikhyaScarf",
+    "CodexSecret": false
+  },
+  "Stezia Sumbha Syandana": {
+    "Type": "Syandana",
+    "Image": "SteziaSumbhaSyandana.png",
+    "Description": "Like a carnivorous flower, this alluring Syandana conceals a dangerous predator.",
+    "Link": "Stezia Sumbha Syandana",
+    "Name": "Stezia Sumbha Syandana",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/AmazonOniSyandana",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Yomo Syandana": {
@@ -1976,6 +1976,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Yamako Rubedo Plated Syandana": {
+    "Type": "Syandana",
+    "Image": "YamakoRubedoPlatedSyandana.png",
+    "Description": "This syandana has been adorned with a fine layer of Rubedo plating.",
+    "Link": "Yamako Rubedo Plated Syandana",
+    "Name": "Yamako Rubedo Plated Syandana",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/RubedoDinoSpikeScarf",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Cryona Syandana": {
     "ConsolePrice": "105",
     "Type": "TennoGen Syandana",
@@ -1994,33 +2004,24 @@
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWCryonaScarf",
     "CodexSecret": false
   },
-  "Yamako Rubedo Plated Syandana": {
+  "Revenant Mephisto Syandana": {
     "Type": "Syandana",
-    "Image": "YamakoRubedoPlatedSyandana.png",
-    "Description": "This syandana has been adorned with a fine layer of Rubedo plating.",
-    "Link": "Yamako Rubedo Plated Syandana",
-    "Name": "Yamako Rubedo Plated Syandana",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/RubedoDinoSpikeScarf",
-    "ExcludeFromCodex": false,
+    "Image": "RevenantMephistoSyandana.png",
+    "Description": "Default Syandana for Revenant Mephisto.",
+    "Link": "Revenant Mephisto Syandana",
+    "Name": "Revenant Mephisto Syandana",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/RevenantDeluxeCape",
+    "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Rhodora Syandana": {
-    "ConsolePrice": "105",
-    "Type": "TennoGen Syandana",
-    "Description": "A syandana for your Warframe, designed by Xtygian and led2012.",
-    "Link": "Rhodora Syandana",
+  "Wintercress Syandana": {
+    "Type": "Syandana",
+    "Image": "WintercressSyandana.png",
+    "Description": "A familiar Solstice Syandana re-imagined and renewed.",
+    "Link": "Wintercress Syandana",
+    "Name": "Wintercress Syandana",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/SolsticeNelumboCape",
     "ExcludeFromCodex": false,
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3140913204",
-    "Round": "TennoGen Shadows",
-    "Image": "RhodoraSyandana.png",
-    "Artists": [
-      "Xtygian",
-      "led2012"
-    ],
-    "Introduced": "36.1",
-    "Name": "Rhodora Syandana",
-    "PcPrice": "$5.99",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWRhodoraSyandana",
     "CodexSecret": false
   },
   "Jotunheim Music Syandana": {
@@ -2059,13 +2060,13 @@
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWRThreeAquirosScarf",
     "CodexSecret": false
   },
-  "Wintercress Syandana": {
+  "Volca Syandana": {
     "Type": "Syandana",
-    "Image": "WintercressSyandana.png",
-    "Description": "A familiar Solstice Syandana re-imagined and renewed.",
-    "Link": "Wintercress Syandana",
-    "Name": "Wintercress Syandana",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/SolsticeNelumboCape",
+    "Image": "VolcaSyandana.png",
+    "Description": "Ember's Fourth Law of Thermodynamics: look good doing it.",
+    "Link": "Volca Syandana",
+    "Name": "Volca Syandana",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/EmberDeluxeIISyandana",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -2085,16 +2086,6 @@
     "Name": "Jattuk Mantle",
     "PcPrice": "$5.99",
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWRThreeJattukScarf",
-    "CodexSecret": false
-  },
-  "Volca Syandana": {
-    "Type": "Syandana",
-    "Image": "VolcaSyandana.png",
-    "Description": "Ember's Fourth Law of Thermodynamics: look good doing it.",
-    "Link": "Volca Syandana",
-    "Name": "Volca Syandana",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/EmberDeluxeIISyandana",
-    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Vitam Syandana": {
@@ -2117,6 +2108,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Vexillus Cloak": {
+    "Type": "Syandana",
+    "Image": "VexillusCloak.png",
+    "Description": "March through the battlefield with this Corpus cloak.",
+    "Link": "Vexillus Cloak",
+    "Name": "Vexillus Cloak",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/CrpModularScarf",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Armalyst Syandana": {
     "ConsolePrice": "105",
     "Type": "TennoGen Syandana",
@@ -2136,14 +2137,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWArmalystSyandana",
     "CodexSecret": false
   },
-  "Vexillus Cloak": {
+  "Vaykor Syandana": {
     "Type": "Syandana",
-    "Image": "VexillusCloak.png",
-    "Description": "March through the battlefield with this Corpus cloak.",
-    "Link": "Vexillus Cloak",
-    "Name": "Vexillus Cloak",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/CrpModularScarf",
+    "Description": "The Vaykor Syandana flares up whenever the Tenno takes damage.",
+    "Link": "Vaykor Syandana",
     "ExcludeFromCodex": false,
+    "Image": "VaykorSyandana.png",
+    "Name": "Vaykor Syandana",
+    "Introduced": "15",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/SyndicateSMScarf",
     "CodexSecret": false
   },
   "Culpa Syandana": {
@@ -2212,17 +2214,6 @@
     "Name": "Merulina Prime Syandana",
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/PrimeMerulinaSyandana",
     "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Vaykor Syandana": {
-    "Type": "Syandana",
-    "Description": "The Vaykor Syandana flares up whenever the Tenno takes damage.",
-    "Link": "Vaykor Syandana",
-    "ExcludeFromCodex": false,
-    "Image": "VaykorSyandana.png",
-    "Name": "Vaykor Syandana",
-    "Introduced": "15",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/SyndicateSMScarf",
     "CodexSecret": false
   },
   "Udyat Syandana": {
@@ -2312,16 +2303,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Rhoptron Prime Syandana": {
-    "Type": "Syandana",
-    "Image": "RhoptronPrimeSyandana.png",
-    "Description": "Sumptuous details suit Parvos Granum's favored guardian.",
-    "Link": "Rhoptron Prime Syandana",
-    "Name": "Rhoptron Prime Syandana",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/PrimeRhoptronSyandana",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "TennoCon 2017 Syandana": {
     "Type": "Syandana",
     "Image": "TennoCon2017Syandana.png",
@@ -2329,6 +2310,16 @@
     "Link": "TennoCon 2017 Syandana",
     "Name": "TennoCon 2017 Syandana",
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/TennoCon2017Scarf",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Rhoptron Prime Syandana": {
+    "Type": "Syandana",
+    "Image": "RhoptronPrimeSyandana.png",
+    "Description": "Sumptuous details suit Parvos Granum's favored guardian.",
+    "Link": "Rhoptron Prime Syandana",
+    "Name": "Rhoptron Prime Syandana",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/PrimeRhoptronSyandana",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -2342,16 +2333,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Obsidian Sedai Syandana": {
-    "Type": "Syandana",
-    "Image": "ObsidianSedaiSyandana.png",
-    "Description": "Next-generation Tenno design, enviable and cutting-edge.",
-    "Link": "Obsidian Sedai Syandana",
-    "Name": "Obsidian Sedai Syandana",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/PS5Syandana",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
   "Khinn Syandana": {
     "Type": "Syandana",
     "Image": "KhinnSyandana.png",
@@ -2360,6 +2341,16 @@
     "Name": "Khinn Syandana",
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/BaruukDeluxeCape",
     "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Obsidian Sedai Syandana": {
+    "Type": "Syandana",
+    "Image": "ObsidianSedaiSyandana.png",
+    "Description": "Next-generation Tenno design, enviable and cutting-edge.",
+    "Link": "Obsidian Sedai Syandana",
+    "Name": "Obsidian Sedai Syandana",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/PS5Syandana",
+    "ExcludeFromCodex": true,
     "CodexSecret": false
   },
   "Synkra Syandana": {
@@ -2392,6 +2383,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Subhuti Syandana": {
+    "Type": "Syandana",
+    "Image": "SubhutiSyandana.png",
+    "Description": "Wukong Samadhi's signature syandana.",
+    "Link": "Subhuti Syandana",
+    "Name": "Subhuti Syandana",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/WukongDeluxeSyandana",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Cremata Syandana": {
     "Type": "Syandana",
     "Image": "CremataSyandana.png",
@@ -2402,14 +2403,24 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Subhuti Syandana": {
-    "Type": "Syandana",
-    "Image": "SubhutiSyandana.png",
-    "Description": "Wukong Samadhi's signature syandana.",
-    "Link": "Subhuti Syandana",
-    "Name": "Subhuti Syandana",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/WukongDeluxeSyandana",
+  "Styx Syandana": {
+    "ConsolePrice": "105",
+    "Type": "TennoGen Syandana",
+    "Description": "A syandana for your Warframe, designed by malaya, Scharkie and Jadie.",
+    "Link": "Styx Syandana",
     "ExcludeFromCodex": false,
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1503779007",
+    "Round": "14",
+    "Image": "StyxSyandana.png",
+    "Artists": [
+      "malaya",
+      "Scharkie",
+      "Jadie"
+    ],
+    "Introduced": "24.1",
+    "Name": "Styx Syandana",
+    "PcPrice": "$5.99",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWStyxSyandana",
     "CodexSecret": false
   },
   "Apoxys Syandana": {
@@ -2451,26 +2462,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWSetkaScarf",
     "CodexSecret": false
   },
-  "Styx Syandana": {
-    "ConsolePrice": "105",
-    "Type": "TennoGen Syandana",
-    "Description": "A syandana for your Warframe, designed by malaya, Scharkie and Jadie.",
-    "Link": "Styx Syandana",
-    "ExcludeFromCodex": false,
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1503779007",
-    "Round": "14",
-    "Image": "StyxSyandana.png",
-    "Artists": [
-      "malaya",
-      "Scharkie",
-      "Jadie"
-    ],
-    "Introduced": "24.1",
-    "Name": "Styx Syandana",
-    "PcPrice": "$5.99",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWStyxSyandana",
-    "CodexSecret": false
-  },
   "Stratum Syandana": {
     "Type": "Syandana",
     "Image": "StratumSyandana.png",
@@ -2491,16 +2482,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Kuva Solstice Cloak": {
-    "Type": "Syandana",
-    "Image": "KuvaSolsticeCloak.png",
-    "Description": "A Kuva Cloak that has been adorned with a festive design.",
-    "Link": "Kuva Solstice Cloak",
-    "Name": "Kuva Solstice Cloak",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/SolsticeGrnHoodedCape",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
   "Sovereign Syandana": {
     "ConsolePrice": "105",
     "Type": "TennoGen Syandana",
@@ -2517,6 +2498,16 @@
     "Name": "Sovereign Syandana",
     "PcPrice": "$5.99",
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWSovereignScarf",
+    "CodexSecret": false
+  },
+  "Kuva Solstice Cloak": {
+    "Type": "Syandana",
+    "Image": "KuvaSolsticeCloak.png",
+    "Description": "A Kuva Cloak that has been adorned with a festive design.",
+    "Link": "Kuva Solstice Cloak",
+    "Name": "Kuva Solstice Cloak",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/SolsticeGrnHoodedCape",
+    "ExcludeFromCodex": true,
     "CodexSecret": false
   },
   "Solida Syandana": {
@@ -2537,16 +2528,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWSolidaScarf",
     "CodexSecret": false
   },
-  "Jade Axa Syandana": {
-    "Type": "Syandana",
-    "Image": "JadeAxaSyandana.png",
-    "Description": "A next-generation syandana.",
-    "Link": "Jade Axa Syandana",
-    "Name": "Jade Axa Syandana",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/JadeSyandana",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
   "Sirius' Swaddle Syandana": {
     "Type": "Syandana",
     "Description": "Swaddling cloth of the infant Sirius, worn as a ragged badge of honor.",
@@ -2556,6 +2537,16 @@
     "Name": "Sirius' Swaddle Syandana",
     "Introduced": "43",
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/SiriusOrionRightSyandana",
+    "CodexSecret": false
+  },
+  "Jade Axa Syandana": {
+    "Type": "Syandana",
+    "Image": "JadeAxaSyandana.png",
+    "Description": "A next-generation syandana.",
+    "Link": "Jade Axa Syandana",
+    "Name": "Jade Axa Syandana",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/JadeSyandana",
+    "ExcludeFromCodex": true,
     "CodexSecret": false
   },
   "Serenidine Prime Syandana": {
@@ -2596,16 +2587,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWSenvictisSyandana",
     "CodexSecret": false
   },
-  "Prisma Uru Syandana": {
-    "Type": "Syandana",
-    "Image": "PrismaUruSyandana.png",
-    "Description": "Shimmering prisma crystals give this syandana a mesmerizing sheen.",
-    "Link": "Prisma Uru Syandana",
-    "Name": "Prisma Uru Syandana",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/PrismaRazorScarf",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Secura Syandana": {
     "Type": "Syandana",
     "Description": "This Secura Syandana pulses every time a Tenno picks up credits and glows brighter as their wealth increases.",
@@ -2615,6 +2596,16 @@
     "Name": "Secura Syandana",
     "Introduced": "15",
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/SyndicatePSScarf",
+    "CodexSecret": false
+  },
+  "Prisma Uru Syandana": {
+    "Type": "Syandana",
+    "Image": "PrismaUruSyandana.png",
+    "Description": "Shimmering prisma crystals give this syandana a mesmerizing sheen.",
+    "Link": "Prisma Uru Syandana",
+    "Name": "Prisma Uru Syandana",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/PrismaRazorScarf",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Scylla Syandana": {
@@ -2633,6 +2624,16 @@
     "Name": "Scylla Syandana",
     "PcPrice": "$5.99",
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWScyllaScarf",
+    "CodexSecret": false
+  },
+  "Scarab Syandana": {
+    "Type": "Syandana",
+    "Image": "ScarabSyandana.png",
+    "Description": "The signature syandana of Inaros Ramses.",
+    "Link": "Scarab Syandana",
+    "Name": "Scarab Syandana",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/InarosDlxCape",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Maggor Towsun Syandana": {
@@ -2655,26 +2656,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Scarab Syandana": {
-    "Type": "Syandana",
-    "Image": "ScarabSyandana.png",
-    "Description": "The signature syandana of Inaros Ramses.",
-    "Link": "Scarab Syandana",
-    "Name": "Scarab Syandana",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/InarosDlxCape",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Harkonar Wraith Cloak": {
-    "Type": "Syandana",
-    "Image": "HarkonarWraithCloak.png",
-    "Description": "A blood-red variant of this symbolic Grineer cloak.",
-    "Link": "Harkonar Wraith Cloak",
-    "Name": "Harkonar Wraith Cloak",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/WraithTurbinesScarf",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Scapulis Syandana": {
     "ConsolePrice": "105",
     "Type": "TennoGen Syandana",
@@ -2691,6 +2672,16 @@
     "Name": "Scapulis Syandana",
     "PcPrice": "$5.99",
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWScapulisScarf",
+    "CodexSecret": false
+  },
+  "Harkonar Wraith Cloak": {
+    "Type": "Syandana",
+    "Image": "HarkonarWraithCloak.png",
+    "Description": "A blood-red variant of this symbolic Grineer cloak.",
+    "Link": "Harkonar Wraith Cloak",
+    "Name": "Harkonar Wraith Cloak",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/WraithTurbinesScarf",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Saturn Six Day of the Dead Syandana": {
@@ -2731,13 +2722,13 @@
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWRSixSariScarf",
     "CodexSecret": false
   },
-  "Salix Syandana": {
+  "Salix Solstice Syandana": {
     "Type": "Syandana",
-    "Image": "SalixSyandana.png",
-    "Description": "Ivara's cocoon-like syandana.",
-    "Link": "Salix Syandana",
-    "Name": "Salix Syandana",
-    "InternalName": "/Lotus/Upgrades/Skins/Archer/ArcherCape",
+    "Image": "SalixSolsticeSyandana.png",
+    "Description": "A Salix Syandana adorned with a festive design.",
+    "Link": "Salix Solstice Syandana",
+    "Name": "Salix Solstice Syandana",
+    "InternalName": "/Lotus/Upgrades/Skins/Archer/WinterSolsticeSalix",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -2748,6 +2739,16 @@
     "Link": "Samia Syandana",
     "Name": "Samia Syandana",
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/TennoLeafDotCapeScarf",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Salix Syandana": {
+    "Type": "Syandana",
+    "Image": "SalixSyandana.png",
+    "Description": "Ivara's cocoon-like syandana.",
+    "Link": "Salix Syandana",
+    "Name": "Salix Syandana",
+    "InternalName": "/Lotus/Upgrades/Skins/Archer/ArcherCape",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -2762,14 +2763,22 @@
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/SyndicateNLScarf",
     "CodexSecret": false
   },
-  "Salix Solstice Syandana": {
-    "Type": "Syandana",
-    "Image": "SalixSolsticeSyandana.png",
-    "Description": "A Salix Syandana adorned with a festive design.",
-    "Link": "Salix Solstice Syandana",
-    "Name": "Salix Solstice Syandana",
-    "InternalName": "/Lotus/Upgrades/Skins/Archer/WinterSolsticeSalix",
+  "Rota Syandana": {
+    "ConsolePrice": "105",
+    "Type": "TennoGen Syandana",
+    "Description": "A syandana for your Warframe, designed by Master Noob.",
+    "Link": "Rota Syandana",
     "ExcludeFromCodex": false,
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=548723656",
+    "Round": "1",
+    "Image": "RotaSyandana.png",
+    "Artists": [
+      "Master Noob"
+    ],
+    "Introduced": "17.12",
+    "Name": "Rota Syandana",
+    "PcPrice": "$5.99",
+    "InternalName": "/Lotus/Upgrades/Skins/Tennogen/SWROneSyandanaItem",
     "CodexSecret": false
   },
   "Imperator Syandana": {
@@ -2802,24 +2811,6 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Rota Syandana": {
-    "ConsolePrice": "105",
-    "Type": "TennoGen Syandana",
-    "Description": "A syandana for your Warframe, designed by Master Noob.",
-    "Link": "Rota Syandana",
-    "ExcludeFromCodex": false,
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=548723656",
-    "Round": "1",
-    "Image": "RotaSyandana.png",
-    "Artists": [
-      "Master Noob"
-    ],
-    "Introduced": "17.12",
-    "Name": "Rota Syandana",
-    "PcPrice": "$5.99",
-    "InternalName": "/Lotus/Upgrades/Skins/Tennogen/SWROneSyandanaItem",
-    "CodexSecret": false
-  },
   "Kuva Braid": {
     "Type": "Syandana",
     "Image": "KuvaBraid.png",
@@ -2828,6 +2819,25 @@
     "Name": "Kuva Braid",
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/GrnQueenScarf",
     "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Rhodora Syandana": {
+    "ConsolePrice": "105",
+    "Type": "TennoGen Syandana",
+    "Description": "A syandana for your Warframe, designed by Xtygian and led2012.",
+    "Link": "Rhodora Syandana",
+    "ExcludeFromCodex": false,
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3140913204",
+    "Round": "TennoGen Shadows",
+    "Image": "RhodoraSyandana.png",
+    "Artists": [
+      "Xtygian",
+      "led2012"
+    ],
+    "Introduced": "36.1",
+    "Name": "Rhodora Syandana",
+    "PcPrice": "$5.99",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWRhodoraSyandana",
     "CodexSecret": false
   },
   "Xikonos Syandana": {
@@ -2879,16 +2889,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Revenant Mephisto Syandana": {
-    "Type": "Syandana",
-    "Image": "RevenantMephistoSyandana.png",
-    "Description": "Default Syandana for Revenant Mephisto.",
-    "Link": "Revenant Mephisto Syandana",
-    "Name": "Revenant Mephisto Syandana",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/RevenantDeluxeCape",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
   "Reshantur Cult Syandana": {
     "Type": "Syandana",
     "Image": "ReshanturCultSyandana.png",
@@ -2896,16 +2896,6 @@
     "Link": "Reshantur Cult Syandana",
     "Name": "Reshantur Cult Syandana",
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/NezhaLeverianCape",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Glacia Syandana": {
-    "Type": "Syandana",
-    "Image": "GlaciaSyandana.png",
-    "Description": "Jagged, crystalline spikes crown a shroud of snowy mist in this ice themed syandana.",
-    "Link": "Glacia Syandana",
-    "Name": "Glacia Syandana",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/IceSpikeCape",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -2925,6 +2915,35 @@
     "Name": "Repala Syandana",
     "PcPrice": "$5.99",
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWRepalaScarf",
+    "CodexSecret": false
+  },
+  "Glacia Syandana": {
+    "Type": "Syandana",
+    "Image": "GlaciaSyandana.png",
+    "Description": "Jagged, crystalline spikes crown a shroud of snowy mist in this ice themed syandana.",
+    "Link": "Glacia Syandana",
+    "Name": "Glacia Syandana",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/IceSpikeCape",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Reliquia Syandana": {
+    "ConsolePrice": "105",
+    "Type": "TennoGen Syandana",
+    "Description": "A syandana for your Warframe, designed by lex182 and Therion",
+    "Link": "Reliquia Syandana",
+    "ExcludeFromCodex": false,
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3654696814",
+    "Round": "TennoGen Iceblade",
+    "Image": "ReliquiaSyandana.png",
+    "Artists": [
+      "lex182",
+      "Therion"
+    ],
+    "Introduced": "TBA",
+    "Name": "Reliquia Syandana",
+    "PcPrice": "$5.99",
+    "InternalName": "",
     "CodexSecret": false
   },
   "Raya Sigma Syandana": {

@@ -1,7 +1,7 @@
 ---
 title: "Module:DevstreamParticipantsList"
 wiki_url: "https://wiki.warframe.com/w/Module/DevstreamParticipantsList"
-wiki_timestamp: "2026-08-21T09:10:40Z"
+wiki_timestamp: "2026-09-07T14:45:24Z"
 ---
 
 *Documentation for this module may be created at [Module:DevstreamParticipantsList/doc](/w/Module:DevstreamParticipantsList/doc?action=edit&redlink=1 "Module:DevstreamParticipantsList/doc (page does not exist)")*
@@ -13,10 +13,14 @@ local p = {}
 function p.main(frame)
 	--to let custom columns if needed , 4 by default / if not used
     local MAX_COLUMNS = tonumber(frame.args.maxcolumns) or 4
-
+    local Title = frame.args.title or "Participant(s)"
+    local Width = frame.args.width or "90%"
+    local Height = frame.args.height or "40px"
+    local PicsSize = frame.args.picssize or "125px"
+    
     local output = {
-        '{| class="wikitable mw-collapsible" style="margin-left:auto; margin-right:auto;width:90%;height:40px;text-align:center;"','|-',
-        '! colspan="' .. MAX_COLUMNS .. '" | Participants'
+        '{| class="wikitable mw-collapsible" style="margin-left:auto; margin-right:auto;width:'..Width..';height:'..Height..';text-align:center;"','|-',
+        '! colspan="' .. MAX_COLUMNS .. '" | ' .. Title
     }
 
     local participants = {}
@@ -41,8 +45,8 @@ function p.main(frame)
 -- Participant
 table.insert(output,
     '| style="vertical-align:top;" | ' .. frame:expandTemplate{
-        title = 'User:FAKIR/Template:DE_WhoIsWho',
-        args = { participants[i] }
+        title = 'Template:DE-Employee_ListOfNamesAndFaces',
+        args = { participants[i] , photosize=PicsSize}
             }
         )
     end

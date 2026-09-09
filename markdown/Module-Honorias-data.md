@@ -1,12 +1,12 @@
 ---
 title: "Module:Honorias/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Honorias/data"
-wiki_timestamp: "2026-09-06T08:20:55Z"
+wiki_timestamp: "2026-09-07T17:15:07Z"
 ---
 
 Database for all [Honorias](/w/Honoria "Honoria") in [WARFRAME](/w/WARFRAME "WARFRAME"). Preferably put new honorias in the correct alphabetical order, but it is not necessary.
 
-:   *Last updated: Sun, 06 Sep 2026 08:20:55 +0000 (UTC) by [User:Evilflora](/w/User:Evilflora "User:Evilflora") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
+:   *Last updated: Mon, 07 Sep 2026 17:15:07 +0000 (UTC) by [User:Kristoffer09](/w/User:Kristoffer09 "User:Kristoffer09") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
 
 ## Contents
 
@@ -1563,7 +1563,7 @@ local honoriaData = {
 		Name = "Queen of Duviri",
 		Link = "Queen of Duviri",
 		Description = "Awarded for completing '[[The Duviri Paradox]]'.",
-		Position = "Prefix",
+		Position = "Suffix",
 		Introduced = "43",
 		InternalName = "/Lotus/Types/Items/Titles/DuviriQueenQuestTitle",
 		CodexSecret = true,
@@ -1826,7 +1826,7 @@ local honoriaData = {
 	["Supreme Operative"] = {
 		Name = "Supreme Operative",
 		Link = "Supreme Operative",
-		Description = "Awarded for beating Amir's High Score in [[Caliber chicks]].",
+		Description = "Awarded for beating Amir's High Score in [[Caliber Chicks]].",
 		Position = "Suffix",
 		Introduced = "43",
 		InternalName = "/Lotus/Types/Items/Titles/CaliburChicksHighScoreTitle",

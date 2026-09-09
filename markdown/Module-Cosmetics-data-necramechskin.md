@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/necramechskin"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/necramechskin"
-wiki_timestamp: "2026-04-15T16:39:09Z"
+wiki_timestamp: "2026-09-08T07:33:25Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/necramechskin/doc](/w/Module:Cosmetics/data/necramechskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/necramechskin/doc (page does not exist)")*
@@ -102,7 +102,7 @@ return {
         CodexSecret = false,
         Description = "Make your Necramech even more fearsome with this helmet, based on early experimental designs that employed outer casings of Infested bone and meat.",
         ExcludeFromCodex = false,
-        Image = "InfestedPrimeMechHelmet.png",
+        Image = "Panel.png",
         InternalName = "/Lotus/Upgrades/Skins/Necramech/InfestedNecraMechHelmet",
         Link = "Karnolyth Necramech Helmet",
         Name = "Karnolyth Necramech Helmet",
@@ -112,7 +112,7 @@ return {
         CodexSecret = false,
         Description = "Make your Necramech even more fearsome with this skin, based on early experimental designs that employed outer casings of Infested bone and meat.",
         ExcludeFromCodex = false,
-        Image = "InfestedPrimeMechSkin.png",
+        Image = "KarnolythNecramechSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Necramech/InfestedNecraMechSkin",
         Link = "Karnolyth Necramech Skin",
         Name = "Karnolyth Necramech Skin",

@@ -1,5 +1,4 @@
 
---Missing Tennogen Shadows Round 3 (technically round 2), Tennogen Fates (U37), Tennogen 1999 (U38)
 return {
 	["Akmagnus Dakila Skin"] = {
 		Artists = { "MaaYuu" },
@@ -25,12 +24,12 @@ return {
 		Description = "A unique Akmagnus skin, designed by Verifitas.",
 		Type = "Weapon Skin"
 	},
-	["Arcosolium Arca Plasmor Skin"] = {
+	["Arca Plasmor Arcosolium Skin"] = {
 		Artists = { "Apollo Phoenix" },
 		ConsolePrice = "50",
 		Image = "ArcosoliumArcaPlasmorSkin.png",
-		Link = "Arcosolium Arca Plasmor Skin",
-		Name = "Arcosolium Arca Plasmor Skin",
+		Link = "Arca Plasmor Arcosolium Skin",
+		Name = "Arca Plasmor Arcosolium Skin",
 		PcPrice = "$5.99",
 		Round = "TennoGen Isleweaver",
 		Introduced = "38.6.3",
@@ -457,6 +456,32 @@ return {
      	Description = "A unique skin for the Citrine Warframe, designed by malaya, Awk'Q-Luz and Jadie.",
 		Type = "Deluxe"
     },
+    ["Citrine Heliotropia Helmet"] = {
+     	Artists = { "Ventralhound" },
+     	ConsolePrice = "TBA",
+     	Image = "CitrineHeliotropiaHelmet.png",
+     	Link = "Citrine Heliotropia Helmet",
+     	Name = "Citrine Heliotropia Helmet",
+     	PcPrice = "TBA",
+     	Round = "TennoGen Iceblade",
+     	Introduced = "TBA",
+     	SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=3624724373",
+     	Description = "A helmet for the Citrine Warframe, designed by Ventralhound",
+     	Type = "Helmet",
+    },
+    ["Claws Ninurta Skin"] = {
+    	Artists = { "Apollo Phoenix" },
+		ConsolePrice = "105",
+		Image = "NinurtaClawSkin.png",
+		Link = "Claws Ninurta Skin",
+		Name = "Claws Ninurta Skin",
+		PcPrice = "$5.99",
+		Round = "TennoGen Fates",
+		Introduced = "37",
+		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2996881663",
+		Description = "A unique claws skin, designed by Apollo Phoenix.",
+		Type = "Weapon Skin"
+    },
 	["Corachrix Shoulder Pauldrons"] = {
 		Artists = { "LostEpoch", "DasterCreations" },
 		ConsolePrice = "50",
@@ -861,6 +886,32 @@ return {
         Part = "Chest",
 		Type = "Armor"
 	},
+    ["Fist Impaktor Skin"] = {
+    	Artists = { "Travelling Merchant" },
+		ConsolePrice = "105",
+		Image = "ImpaktorFistSkin.png",
+		Link = "Fist Impaktor Skin",
+		Name = "Fist Impaktor Skin",
+		PcPrice = "$5.99",
+		Round = "TennoGen Shadows",
+		Introduced = "36.1",
+		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2890246393",
+		Description = "A unique fist skin, designed by Travelling Merchant.",
+		Type = "Weapon Skin"
+    },
+    ["Fists Silicai Skin"] = {
+    	Artists = { "Captain Tagda","blazingcobalt" },
+		ConsolePrice = "105",
+		Image = "SilicaiFistSkin.png",
+		Link = "Fists Silicai Skin",
+		Name = "Fists Silicai Skin",
+		PcPrice = "$5.99",
+		Round = "TennoGen Fates",
+		Introduced = "37",
+		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2936005244",
+		Description = "A unique fist skin, designed by Captain Tagda & blazingcobalt.",
+		Type = "Weapon Skin"
+    },
 	["Frost Emperor Skin"] = {
 		Artists = { "Hitsu San" },
 		ConsolePrice = "165",
@@ -1406,6 +1457,19 @@ return {
 		Description = "A unique Heavy Blade skin, designed by Arsenal.",
 		Type = "Weapon Skin"
 	},
+    ["Heavy Blade Kuvael Ximitotix Skin"] = {
+    	Artists = { "edwino22","Erneix" },
+		ConsolePrice = "105",
+		Image = "KuvaelXimitotixHeavyBladeSkin.png",
+		Link = "Heavy Blade Kuvael Ximitotix Skin",
+		Name = "Heavy Blade Kuvael Ximitotix Skin",
+		PcPrice = "$5.99",
+		Round = "TennoGen Shadows",
+		Introduced = "36.1",
+		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2938109433",
+		Description = "A unique Heavy Blade skin, designed by edwino22 & Erneix.",
+		Type = "Weapon Skin"
+    },
 	["Heavy Blade Mithra Skin"] = {
 		Artists = { "lukinu_u" },
 		ConsolePrice = "105",
@@ -1694,6 +1758,19 @@ return {
 		Description = "A unique skin for the Ivara Warframe, designed by led2012 and daemonstar.",
 		Type = "Deluxe"
 	},
+    ["Jade Coven Skin"] = {
+     	Artists = { "blazingcobalt" },
+     	ConsolePrice = "165",
+     	Image = "JadeCovenSkin.png",
+     	Link = "Jade Coven Skin",
+     	Name = "Jade Coven Skin",
+     	PcPrice = "TBA",
+     	Round = "TennoGen Iceblade",
+     	Introduced = "TBA",
+     	SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=3617376183",
+     	Description = "A unique skin for the Jade Warframe, designed by blazingcobalt",
+     	Type = "Deluxe",
+    },
 	["Jat Kittag Noxious Hammer Skin"] = {
 		Artists = { "Clyptic" },
 		ConsolePrice = "N/A",
@@ -2868,6 +2945,19 @@ return {
 		Introduced = "24.5",
 		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1615576826",
 		Description = "A unique Nikana skin, designed by Hitsu San and Reil.",
+		Type = "Weapon Skin"
+	},
+	["Nikana Undercutter Skin"] = {
+		Artists = { "Felix Leonhart" },
+		ConsolePrice = "105",
+		Image = "SWR19NikanaUndercutterSkin.png",
+		Link = "Undercutter Nikana Skin",
+		Name = "Undercutter Nikana Skin",
+		PcPrice = "$5.99",
+		Round = "19 [Batch 2]",
+		Introduced = "29.3.1",
+		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2170282300",
+		Description = "A unique Undercutter skin, designed by Felix Leonhart.",
 		Type = "Weapon Skin"
 	},
 	["Nikana Ungulata Skin"] = {
@@ -4251,6 +4341,19 @@ return {
 		Description = "A unique two-handed nikana skin, designed by Lubox.",
 		Type = "Weapon Skin"
 	},
+    ["Two-Handed Nikana Dogma Skin"] = {
+		Artists = { "Felix Leonhart" },
+		ConsolePrice = "105",
+		Image = "DogmaTwo-HandedNikanaSkin.png",
+		Link = "Two-Handed Nikana Dogma Skin",
+		Name = "Two-Handed Nikana Dogma Skin",
+		PcPrice = "$5.99",
+		Round = "20 [Batch 1]",
+		Introduced = "30.1",
+		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2394233895",
+		Description = "A unique Two-Handed Nikana skin, designed by Felix Leonhart.",
+		Type = "Weapon Skin"
+	},
 	["Two-Handed Nikana Ksara Skin"] = {
 		Artists = { "kakarrot2812" },
 		ConsolePrice = "105",
@@ -4262,19 +4365,6 @@ return {
 		Introduced = "31.1",
 		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2500078680",
 		Description = "A unique two-handed Nikana skin, designed by kakarrot2812.",
-		Type = "Weapon Skin"
-	},
-	["Undercutter Nikana Skin"] = {
-		Artists = { "Felix Leonhart" },
-		ConsolePrice = "105",
-		Image = "SWR19NikanaUndercutterSkin.png",
-		Link = "Undercutter Nikana Skin",
-		Name = "Undercutter Nikana Skin",
-		PcPrice = "$5.99",
-		Round = "19 [Batch 2]",
-		Introduced = "29.3.1",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2170282300",
-		Description = "A unique Undercutter skin, designed by Felix Leonhart.",
 		Type = "Weapon Skin"
 	},
 	["Valkyr Cheetah Helmet"] = {

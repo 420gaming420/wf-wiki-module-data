@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/signa"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/signa"
-wiki_timestamp: "2026-08-28T15:22:42Z"
+wiki_timestamp: "2026-09-08T19:08:56Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/signa/doc](/w/Module:Cosmetics/data/signa/doc?action=edit&redlink=1 "Module:Cosmetics/data/signa/doc (page does not exist)")*
@@ -119,6 +119,22 @@ return {
         Link = "Fumulo Signa",
         Name = "Fumulo Signa",
         Type = "Signa",
+    },
+    ["Gothica Signa"] = {
+     	Artists = { "Malaya", "Jadie", "Awk'Q-Luz" },
+     	CodexSecret = false,
+     	ConsolePrice = "60",
+     	Description = "A unique signa for your Warframe, designed by Malaya, Jadie and Awk'Q-Luz.",
+     	ExcludeFromCodex = true,
+     	Image = "GothicaSigna.png",
+     	InternalName = "",
+     	Introduced = "TBA",
+     	Link = "Gothica Signa",
+     	Name = "Gothica Signa",
+     	PcPrice = "$3.49",
+     	Round = "TennoGen Iceblade",
+     	SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=3612367583",
+     	Type = "TennoGen Signa",
     },
     ["Hana Ikada Signa"] = {
         CodexSecret = false,
@@ -319,6 +335,22 @@ return {
         Name = "Vauban Heirloom Signa",
         Type = "Signa",
     },
+    ["Vermis Signa"] = {
+     	Artists = { "Traveling Merchant", "Therion" },
+     	CodexSecret = false,
+     	ConsolePrice = "60",
+     	Description = "A unique signa for your Warframe, designed by Traveling Merchant and Therion.",
+     	ExcludeFromCodex = true,
+     	Image = "VermisSigna.png",
+     	InternalName = "",
+     	Introduced = "TBA",
+     	Link = "Vermis Signa",
+     	Name = "Vermis Signa",
+     	PcPrice = "$3.49",
+     	Round = "TennoGen Iceblade",
+     	SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=3618519785",
+     	Type = "TennoGen Signa",
+    },
     ["Vizor Signa"] = {
         CodexSecret = false,
         Description = "No speedster's look would be complete without Gauss Moto's signature signa.",
@@ -333,7 +365,7 @@ return {
 		Artists = { "led2012", "daemonstar" },
 		CodexSecret = false,
 		ConsolePrice = "60",
-		Description = "A unique signa for your Warframe, designed by led2012 and daemonstar",
+		Description = "A unique signa for your Warframe, designed by led2012 and daemonstar.",
 		ExcludeFromCodex = true,
 		Image = "ZamariuSigna.png",
 		InternalName = "/Lotus/Upgrades/Skins/Crowns/SWZamariuSignaCrown",

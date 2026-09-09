@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-07T02:14:30.294Z"
+    "converted_at": "2026-09-09T02:14:35.708Z"
   },
   "_comments": "--- Honorias data table for [[WARFRAME]] titles.\n-- @module Honorias/data\n-- \n-- Entries from the Public Export currently not implemented or not discovered yet\n-- /Lotus/Types/Items/Titles/IncarnonMasteryTitle\n-- /Lotus/Types/Items/Titles/RailjackAshTitle\n-- /Lotus/Types/Items/Titles/RailjackGarudaTitle\n-- /Lotus/Types/Items/Titles/RememberTogetherTitle",
   "Queen of Duviri": {
@@ -12,7 +12,7 @@
     "Link": "Queen of Duviri",
     "ExcludeFromCodex": true,
     "Name": "Queen of Duviri",
-    "Position": "Prefix",
+    "Position": "Suffix",
     "Tags": [
       "Quest"
     ],
@@ -1929,7 +1929,7 @@
     "CodexSecret": true
   },
   "Supreme Operative": {
-    "Description": "Awarded for beating Amir's High Score in [[Caliber chicks]].",
+    "Description": "Awarded for beating Amir's High Score in [[Caliber Chicks]].",
     "Link": "Supreme Operative",
     "ExcludeFromCodex": true,
     "Name": "Supreme Operative",

@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/syandana"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/syandana"
-wiki_timestamp: "2026-08-28T15:25:42Z"
+wiki_timestamp: "2026-09-08T19:16:11Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/syandana/doc](/w/Module:Cosmetics/data/syandana/doc?action=edit&redlink=1 "Module:Cosmetics/data/syandana/doc (page does not exist)")*
@@ -2365,6 +2365,22 @@ return {
         Link = "Raylta Syandana",
         Name = "Raylta Syandana",
         Type = "Syandana"
+    },
+    ["Reliquia Syandana"] = {
+     	Artists = { "lex182", "Therion" },
+     	CodexSecret = false,
+     	ConsolePrice = "105",
+     	Description = "A syandana for your Warframe, designed by lex182 and Therion",
+     	ExcludeFromCodex = false,
+     	Image = "ReliquiaSyandana.png",
+     	InternalName = "",
+     	Introduced = "TBA",
+     	Link = "Reliquia Syandana",
+     	Name = "Reliquia Syandana",
+     	PcPrice = "$5.99",
+     	Round = "TennoGen Iceblade",
+     	SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=3654696814",
+     	Type = "TennoGen Syandana",
     },
     ["Rencowl Syandana"] = {
         CodexSecret = false,

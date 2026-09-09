@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-07T02:14:27.652Z"
+    "converted_at": "2026-09-09T02:14:33.067Z"
   },
   "_comments": "\t\t--- Depreciated health/armor types as of U36; keeping to preserve links and template calls on wiki\n\t\t-- Unsure if PT_GLUE is associated with \"Slow\"\n--[==[creation script:\n--health type patch creation:\n\t\t\t--error(v[1])\n--[= =[\n\t\t\t--put patch script here\n\t\t\t\t--\t  total\t  [valname][other one]   +-val\n\t--HSL to RGB converter\n\t--mostly by u:gigamicro\n\t--C and m from https://www.rapidtables.com/convert/color/hsl-to-rgb.html\n\t--where the horizontal axis is H, _ is m, ‾ is C+m, and /\\ are linterps\n\t--r ‾\\__/‾\n\t--g /‾‾\\__\n\t--b __/‾‾\\\n\t--hex\n\t--t.Positives, t.Negatives, t.Bypass = t.Positives[1] and t.Positives, t.Negatives[1] and t.Negatives, t.Bypass[1] and t.Bypass -- empty lists -> nil\n--]==]",
   "Notes": [
@@ -636,18 +636,9 @@
       "ColorBackground": "#DADAD6",
       "ColorBorder": "#858579",
       "Bypass": [
-        [
-          "True",
-          0
-        ],
-        [
-          "Finisher",
-          0
-        ],
-        [
-          "Cinematic",
-          0
-        ],
+        "True",
+        "Finisher",
+        "Cinematic",
         [
           "Cinematic",
           50
@@ -852,6 +843,10 @@
         [
           "Puncture",
           20
+        ],
+        [
+          "Heat",
+          50
         ]
       ],
       "Type": "Shield",
@@ -962,10 +957,6 @@
     },
     "Tenno Shield": {
       "Negatives": [
-        [
-          "Heat",
-          50
-        ],
         [
           "Radiation",
           50
@@ -1377,7 +1368,7 @@
         "Armor"
       ],
       "Status": [
-        "Bleed DoT as Cinematic damage"
+        "Cinematic damage"
       ],
       "DarkModeColor": "#e69ca0",
       "CSSBackgroundColorClass": "var(--dt-slash-background-color)",
@@ -1718,14 +1709,21 @@
       "CSSBorderColorClass": "var(--dt-default-border-color)"
     },
     "Ignite": {
+      "Negatives": [
+        "Kuva Grineer",
+        "Shield"
+      ],
+      "CSSBorderColorClass": "var(--dt-heat-border-color)",
       "GlyphImage": "HeatModBundleIcon.png",
       "Link": "Damage/Heat Damage",
       "Color": "#994d00",
-      "CSSBorderColorClass": "var(--dt-heat-border-color)",
       "Status": [
-        "Fire DoT as Heat damage",
+        "Heat damage",
         "Panic",
-        "Armor reduction"
+        "Armor reduction (max 50%)"
+      ],
+      "Positives": [
+        "Infested"
       ],
       "DarkModeColor": "#fb9733",
       "CSSBackgroundColorClass": "var(--dt-heat-background-color)",
@@ -1807,22 +1805,10 @@
     }
   },
   "total": {
-    "Tenno Shield": {
-      "Puncture": -50,
-      "Corrosive": -50,
-      "Gas": -50,
-      "Slash": -50,
-      "Heat": -50,
-      "Magnetic": -50,
-      "Impact": -50,
-      "Blast": -50,
-      "Radiation": -50,
-      "Tau": -50,
-      "Toxin": 0,
-      "Void": -50,
-      "Electricity": -50,
-      "Viral": -50,
-      "Cold": -50
+    "The Murmur": {
+      "Radiation": 50,
+      "Electricity": 50,
+      "Viral": -50
     },
     "Overguard": {
       "Void": 50
@@ -1892,14 +1878,15 @@
       "Zariman": 50
     },
     "Heat": {
+      "Shield": -50,
       "Kuva Grineer": -50,
-      "Tenno Shield": -50,
       "Infested": 50
     },
     "Tenno Flesh": {},
     "Shield": {
-      "Finisher": 0,
-      "True": 0
+      "True": 0,
+      "Heat": -50,
+      "Finisher": 0
     },
     "Cinematic": {
       "Armor": 0
@@ -1957,10 +1944,21 @@
       "Orokin": -50,
       "The Murmur": 50
     },
-    "The Murmur": {
-      "Radiation": 50,
-      "Electricity": 50,
-      "Viral": -50
+    "Tenno Shield": {
+      "Puncture": -50,
+      "Viral": -50,
+      "Slash": -50,
+      "Gas": -50,
+      "Magnetic": -50,
+      "Impact": -50,
+      "Blast": -50,
+      "Corrosive": -50,
+      "Toxin": 0,
+      "Tau": -50,
+      "Void": -50,
+      "Electricity": -50,
+      "Radiation": -50,
+      "Cold": -50
     },
     "Infested": {
       "Slash": 50,
@@ -2188,7 +2186,7 @@
     "Heat": {
       "Negatives": [
         "Kuva Grineer",
-        "Tenno Shield"
+        "Shield"
       ],
       "GlyphImage": "HeatModBundleIcon.png",
       "Color": "#994d00",
@@ -2197,7 +2195,7 @@
       "Status": [
         "Ignite DoT",
         "Panic",
-        "Armor Reduction"
+        "Armor reduction (max 50%)"
       ],
       "StatusNotes": [
         1,

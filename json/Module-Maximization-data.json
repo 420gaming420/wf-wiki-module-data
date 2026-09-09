@@ -4,9 +4,9 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-07T02:14:32.930Z"
+    "converted_at": "2026-09-09T02:14:38.339Z"
   },
-  "_comments": "",
+  "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins",
   "Smoke Screen": {
     "outs": [
       [
@@ -48,16 +48,16 @@
   "Shuriken": {
     "outs": [
       [
-        "Base damage:",
+        "{{#invoke:Tooltip|full|Slash|DamageTypes}} damage:",
         {
-          "name": "BASE_DMG",
-          "expr": "STR 750 %of HEAD_MULT * SHURIKENS * 1.5 1 WEAK_TO_SLASH if *"
+          "name": "BASE_DMG_ASH_1",
+          "expr": "STR 750 %of HEAD_MULT * SHURIKENS *"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Bleed|DamageTypes}} [[DoT]]:",
         {
-          "expr": "43.75 35 ASH if BASE_DMG %of",
+          "expr": "43.75 35 ASH if BASE_DMG_ASH_1 %of",
           "name": "BLEED",
           "suff": "/s"
         }
@@ -65,7 +65,7 @@
       [
         "Total damage:",
         {
-          "expr": "BLEED 9 6 ASH if * BASE_DMG +"
+          "expr": "BLEED 9 6 ASH if * BASE_DMG_ASH_1 +"
         }
       ],
       [
@@ -104,11 +104,6 @@
         "cont": "Shurikens:"
       },
       {
-        "type": "checkbox",
-        "name": "WEAK_TO_SLASH",
-        "cont": "Enemy is weak to {{#invoke:Tooltip|full|Slash|DamageTypes}}?"
-      },
-      {
         "value": "checked",
         "type": "checkbox",
         "name": "ASH",
@@ -126,7 +121,30 @@
       [
         "{{#invoke:Tooltip|full|Finisher|DamageTypes}} damage:",
         {
-          "expr": "\t\t\t\tMELEE_DMG_BONUS FINISHER_DMG_BONUS\n\t\t\t\tSTR 1500 %of %of %of COMBO_MULTI *\n\t\t\t"
+          "name": "BASE_DMG_ASH_4",
+          "expr": "\t\t\t\tFACTION_DMG_MOD MELEE_DMG_MOD FINISHER_DMG_MOD STR \n\t\t\t\t1500 %of %of %of %of COMBO_MULT *\n\t\t\t"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Bleed|DamageTypes}} [[DoT]]:",
+        {
+          "expr": "FACTION_DMG_MOD 43.75 BASE_DMG_ASH_4 %of %of",
+          "name": "BLEED_DMG",
+          "suff": "/s"
+        }
+      ],
+      [
+        "Elemental damage:",
+        {
+          "name": "ELEMENT_DMG",
+          "expr": "ELEMENT_DMG_MOD BASE_DMG_ASH_4 %of"
+        }
+      ],
+      [
+        "Total damage:",
+        {
+          "name": "TOTAL_DMG",
+          "expr": "BASE_DMG_ASH_4 ELEMENT_DMG + BLEED_DMG 9 * +"
         }
       ],
       [
@@ -137,9 +155,9 @@
         }
       ],
       [
-        "Bonus Combo:",
+        "Combo:",
         {
-          "expr": "STR 4 %of RISING_STORM *",
+          "expr": "STR 4 %of RISING_STORM * 3 +",
           "suff": "/attack"
         }
       ],
@@ -155,27 +173,39 @@
       {
         "default": "100",
         "type": "number",
-        "name": "MELEE_DMG_BONUS",
+        "name": "MELEE_DMG_MOD",
         "cont": "[[Melee damage]] modifier:"
+      },
+      {
+        "default": "0",
+        "type": "number",
+        "name": "ELEMENT_DMG_MOD",
+        "cont": "[[Elemental damage]] modifier:"
       },
       {
         "default": "100",
         "type": "number",
-        "name": "FINISHER_DMG_BONUS",
+        "name": "FACTION_DMG_MOD",
+        "cont": "[[Faction damage]] modifier:"
+      },
+      {
+        "default": "100",
+        "type": "number",
+        "name": "FINISHER_DMG_MOD",
         "cont": "[[Finisher damage]] modifier:"
       },
       {
         "min": "1",
         "type": "range-R",
-        "name": "COMBO_MULTI",
+        "name": "COMBO_MULT",
         "max": "12",
         "value": "1",
-        "cont": "[[Combo multiplier]]"
+        "cont": "[[Combo multiplier]]:"
       },
       {
         "type": "checkbox",
         "name": "IS_INVISIBLE",
-        "cont": "Is Ash [[invisible]]?"
+        "cont": "Ash is [[invisible]]?"
       },
       {
         "type": "checkbox",

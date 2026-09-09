@@ -1,7 +1,7 @@
 ---
 title: "Module:Resources/infobox"
 wiki_url: "https://wiki.warframe.com/w/Module/Resources/infobox"
-wiki_timestamp: "2026-05-07T03:22:55Z"
+wiki_timestamp: "2026-09-08T08:47:37Z"
 ---
 
 *Documentation for this module may be created at [Module:Resources/infobox/doc](/w/Module:Resources/infobox/doc?action=edit&redlink=1 "Module:Resources/infobox/doc (page does not exist)")*
@@ -110,7 +110,7 @@ buildInfobox = function(frame)
 					)
 				)
 			)
-			:caption('BoosterNote', 'Boosters only applies to in-mission pickups. It will not apply to end-of-mission rewards.')
+			:caption('BoosterNote', 'Boosters only applies to in-mission pickups. It will not apply to bounty rewards and/or end-of-mission rewards.')
 		:done()
 	end
 	

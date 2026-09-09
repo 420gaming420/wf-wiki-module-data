@@ -1,13 +1,13 @@
 {
   "page": "Module:TennoGen/data",
-  "wiki_timestamp": "2026-08-21T20:04:34Z",
-  "extracted_at": "2026-08-31T21:22:45.360809+00:00",
+  "wiki_timestamp": "2026-09-08T19:34:14Z",
+  "extracted_at": "2026-09-09T02:14:18.544760+00:00",
   "lua_files": [
     "Module-TennoGen-data_0.lua",
     "Module-TennoGen-data_1.lua"
   ],
   "lua_block_count": 2,
-  "file_size": 167588,
-  "comment_count": 1,
+  "file_size": 170840,
+  "comment_count": 0,
   "status": "success"
 }

@@ -1,17 +1,38 @@
-local Tooltips = { full=function(a, b) return '{{#invoke:Tooltip|full|'..a..'|'..b..'}}'end,};
+local Tooltips = { full=function(a, b) return '{{#invoke:Tooltip|full|'..a..'|'..b..'}}'end};
+
+--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins
+local function merge(...) 
+	local res = {};
+	for _, ins in ipairs({...}) do
+		for __, v in ipairs(ins) do
+			table.insert(res, v);
+		end
+	end
+	return res;
+end 
+
+local GenericIns = {
+	ModdableMelee = {
+		{name='MELEE_DMG_MOD', cont='[[Melee damage]] modifier:', type='number', default='100'},
+		{name='ELEMENT_DMG_MOD', cont='[[Elemental damage]] modifier:', type='number', default='0'},
+		{name='FACTION_DMG_MOD', cont='[[Faction damage]] modifier:', type='number', default='100'},
+		{name='FINISHER_DMG_MOD', cont='[[Finisher damage]] modifier:', type='number', default='100'},
+		{name='COMBO_MULT', cont='[[Combo multiplier]]:', type='range-R', min='1', max='12', value='1'},
+	},
+};
+
 local Data = {
 	['Shuriken']={
 		ins={
 			{name='HEAD_RATE', cont='Headshot rate:<span style="display: none" data-name="HEAD_MULT" data-expr="HEAD_RATE 3 * 100 HEAD_RATE - + as%"></span>', type='range-R'},
 			{name='SHURIKENS', cont='Shurikens:', type='range-R', min='1', max='5', value='1'},
-			{name='WEAK_TO_SLASH', cont='Enemy is weak to '..Tooltips.full('Slash', 'DamageTypes')..'?', type='checkbox'},
 			{name='ASH', cont="Ash's [[Ash/Abilities#Passive|passive]]?", type='checkbox', value='checked'},
 			{name='SEEKING_SHURIKEN', cont=Tooltips.full('Seeking Shuriken', 'Mods')..'?', type='checkbox'},
 		},
 		outs={
-			{'Base damage:' ,                                    {name='BASE_DMG', expr='STR 750 %of HEAD_MULT * SHURIKENS * 1.5 1 WEAK_TO_SLASH if *'}},
-			{Tooltips.full('Bleed', 'DamageTypes')..' [[DoT]]:', {name='BLEED', expr='43.75 35 ASH if BASE_DMG %of', suff='/s'}},
-			{'Total damage:',                                    {expr='BLEED 9 6 ASH if * BASE_DMG +'}},
+			{Tooltips.full('Slash', 'DamageTypes')..' damage:' ,                                    {name='BASE_DMG_ASH_1', expr='STR 750 %of HEAD_MULT * SHURIKENS *'}},
+			{Tooltips.full('Bleed', 'DamageTypes')..' [[DoT]]:', {name='BLEED', expr='43.75 35 ASH if BASE_DMG_ASH_1 %of', suff='/s'}},
+			{'Total damage:',                                    {expr='BLEED 9 6 ASH if * BASE_DMG_ASH_1 +'}},
 			{'Armor reduction:',                                 {expr='STR 70 %of SEEKING_SHURIKEN *', suff='%'}},
 			{'Armor reduction duration:',                        {expr='DUR 8 %of SEEKING_SHURIKEN *', suff='s'}},
 			{Tooltips.full('Energy', 'Stats'),                   {expr='25 COST *'}},
@@ -36,20 +57,21 @@ local Data = {
 		},
 	},
 	['Blade Storm']={
-		ins={
-			{name='MELEE_DMG_BONUS', cont='[[Melee damage]] modifier:', type='number', default='100'},
-			{name='FINISHER_DMG_BONUS', cont='[[Finisher damage]] modifier:', type='number', default='100'},
-			{name='COMBO_MULTI', cont='[[Combo multiplier]]', type='range-R', min='1', max='12', value='1'},
-			{name='IS_INVISIBLE', cont='Is Ash [[invisible]]?', type='checkbox'},
-			{name='RISING_STORM', cont=Tooltips.full('Rising Storm', 'Mods')..'?', type='checkbox'},
-		},
+		ins=merge(
+			GenericIns.ModdableMelee, {
+			{name='IS_INVISIBLE', cont='Ash is [[invisible]]?', type='checkbox'},
+			{name='RISING_STORM', cont=Tooltips.full('Rising Storm', 'Mods')..'?', type='checkbox'}}
+		),
 		outs={
-			{Tooltips.full('Finisher', 'DamageTypes')..' damage:', {expr=[[
-				MELEE_DMG_BONUS FINISHER_DMG_BONUS
-				STR 1500 %of %of %of COMBO_MULTI *
+			{Tooltips.full('Finisher', 'DamageTypes')..' damage:', {name='BASE_DMG_ASH_4', expr=[[
+				FACTION_DMG_MOD MELEE_DMG_MOD FINISHER_DMG_MOD STR 
+				1500 %of %of %of %of COMBO_MULT *
 			]]}},
+			{Tooltips.full('Bleed', 'DamageTypes')..' [[DoT]]:', {name='BLEED_DMG', expr='FACTION_DMG_MOD 43.75 BASE_DMG_ASH_4 %of %of', suff='/s'}},
+			{'Elemental damage:', {name='ELEMENT_DMG', expr='ELEMENT_DMG_MOD BASE_DMG_ASH_4 %of'}},
+			{'Total damage:', {name='TOTAL_DMG', expr='BASE_DMG_ASH_4 ELEMENT_DMG + BLEED_DMG 9 * +'}},
 			{'Range:', {expr='RNG 50 %of', suff='m'}},
-			{'Bonus Combo:', {expr='STR 4 %of RISING_STORM *', suff='/attack'}},
+			{'Combo:', {expr='STR 4 %of RISING_STORM * 3 +', suff='/attack'}},
 			{Tooltips.full('Energy', 'Stats'), {expr='12 COST * 2 1 IS_INVISIBLE if /', suff='/enemy'}},
 		}
 	}

@@ -190,7 +190,7 @@ local DamageTypes = {
 			Type = "Health" 
 		},
 		Armor = {
-			Bypass = { {"True",0}, {"Finisher",0}, {"Cinematic",0} },
+			Bypass = { "True", "Finisher", "Cinematic" },
 			Color = "60, 5%",
 			DarkModeColor = "#c2c25e",
 			Faction = { "Any" },
@@ -607,7 +607,9 @@ local DamageTypes = {
 			InternalName = "PT_IMMOLATION",
 			Link = "Damage/Heat Damage",
 			Name = "Ignite",
-			Status = { "Fire DoT as Heat damage", "Panic", "Armor reduction" },
+			Negatives = { "Kuva Grineer", "Shield" },
+			Positives = { "Infested" },
+			Status = { "Heat damage", "Panic", "Armor reduction (max 50%)" },
 			StatusNotes = { 1, 2, 3 } 
 		},
 		Knockback = {
@@ -880,7 +882,7 @@ local DamageTypes = {
 			InternalName = "PT_BLEEDING",
 			Link = "Damage/Slash Damage",
 			Name = "Bleed",
-			Status = { "Bleed DoT as Cinematic damage" },
+			Status = { "Cinematic damage" },
 			Bypass = { "Armor" }
 		},
 		Poison = {
@@ -1092,10 +1094,10 @@ local DamageTypes = {
 			InternalName = "DT_FIRE",
 			Link = "Damage/Heat Damage",
 			Name = "Heat",
-			Negatives = { "Kuva Grineer", "Tenno Shield" },
+			Negatives = { "Kuva Grineer", "Shield" },
 			Positives = { "Infested" },
 			ProcInternalName = "PT_IMMOLATION",
-			Status = { "Ignite DoT", "Panic", "Armor Reduction" },
+			Status = { "Ignite DoT", "Panic", "Armor reduction (max 50%)" },
 			StatusNotes = { 1, 2, 3 } 
 		},
 		Impact = {

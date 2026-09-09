@@ -101,7 +101,7 @@ buildInfobox = function(frame)
 					)
 				)
 			)
-			:caption('BoosterNote', 'Boosters only applies to in-mission pickups. It will not apply to end-of-mission rewards.')
+			:caption('BoosterNote', 'Boosters only applies to in-mission pickups. It will not apply to bounty rewards and/or end-of-mission rewards.')
 		:done()
 	end
 	

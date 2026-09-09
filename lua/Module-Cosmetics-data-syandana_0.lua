@@ -2358,6 +2358,22 @@ return {
         Name = "Raylta Syandana",
         Type = "Syandana"
     },
+    ["Reliquia Syandana"] = {
+     	Artists = { "lex182", "Therion" },
+     	CodexSecret = false,
+     	ConsolePrice = "105",
+     	Description = "A syandana for your Warframe, designed by lex182 and Therion",
+     	ExcludeFromCodex = false,
+     	Image = "ReliquiaSyandana.png",
+     	InternalName = "",
+     	Introduced = "TBA",
+     	Link = "Reliquia Syandana",
+     	Name = "Reliquia Syandana",
+     	PcPrice = "$5.99",
+     	Round = "TennoGen Iceblade",
+     	SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=3654696814",
+     	Type = "TennoGen Syandana",
+    },
     ["Rencowl Syandana"] = {
         CodexSecret = false,
         Description = "A Syandana reminiscent of scriptoriums.",

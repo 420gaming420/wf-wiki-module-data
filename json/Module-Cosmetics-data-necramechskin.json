@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:55:03.436Z"
+    "converted_at": "2026-09-09T02:14:25.155Z"
   },
   "_comments": "",
   "Voidrig Necramech Skin": {
@@ -49,7 +49,7 @@
   },
   "Karnolyth Necramech Helmet": {
     "Type": "Necramech Helmet",
-    "Image": "InfestedPrimeMechHelmet.png",
+    "Image": "Panel.png",
     "Description": "Make your Necramech even more fearsome with this helmet, based on early experimental designs that employed outer casings of Infested bone and meat.",
     "Link": "Karnolyth Necramech Helmet",
     "Name": "Karnolyth Necramech Helmet",
@@ -99,7 +99,7 @@
   },
   "Karnolyth Necramech Skin": {
     "Type": "Necramech Skin",
-    "Image": "InfestedPrimeMechSkin.png",
+    "Image": "KarnolythNecramechSkin.png",
     "Description": "Make your Necramech even more fearsome with this skin, based on early experimental designs that employed outer casings of Infested bone and meat.",
     "Link": "Karnolyth Necramech Skin",
     "Name": "Karnolyth Necramech Skin",
