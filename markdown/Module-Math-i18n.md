@@ -1,12 +1,10 @@
 ---
 title: "Module:Math/i18n"
 wiki_url: "https://wiki.warframe.com/w/Module/Math/i18n"
-wiki_timestamp: "2021-10-15T04:46:03Z"
+wiki_timestamp: "2026-09-10T02:49:34Z"
 ---
 
 ## Warning!
-
-[[edit source](/w/Template:I18n_module?action=edit&section=T-1 "Edit section's source code: Warning!")]
 
 You are viewing a module with translations for the [Math](/w/Module:Math "Module:Math") module. **It is not advised to edit this page manually.** Instead, use the [translations editor](/w/Special:BlankPage/I18nEdit/Lua/Math "Special:BlankPage/I18nEdit/Lua/Math"). If there's something that has to be done that the translation editor cannot do or if the translation editor misbehaved please leave a message on [the I18nEdit talk page](https://dev.fandom.com/wiki/Talk:I18nEdit) about your issue.
 

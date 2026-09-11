@@ -1,7 +1,7 @@
 ---
 title: "Module:Mods/infobox"
 wiki_url: "https://wiki.warframe.com/w/Module/Mods/infobox"
-wiki_timestamp: "2025-12-21T13:16:28Z"
+wiki_timestamp: "2026-09-10T02:49:52Z"
 ---
 
 *Documentation for this module may be created at [Module:Mods/infobox/doc](/w/Module:Mods/infobox/doc?action=edit&redlink=1 "Module:Mods/infobox/doc (page does not exist)")*

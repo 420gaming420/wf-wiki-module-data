@@ -1,7 +1,7 @@
 ---
 title: "Module:VideoGallery"
 wiki_url: "https://wiki.warframe.com/w/Module/VideoGallery"
-wiki_timestamp: "2025-01-31T14:44:45Z"
+wiki_timestamp: "2026-09-10T02:49:43Z"
 ---
 
 *Documentation for this module may be created at [Module:VideoGallery/doc](/w/Module:VideoGallery/doc?action=edit&redlink=1 "Module:VideoGallery/doc (page does not exist)")*

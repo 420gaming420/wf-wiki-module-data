@@ -1,7 +1,7 @@
 {
   "page": "Module:Delay",
-  "wiki_timestamp": "2023-11-26T05:21:16Z",
-  "extracted_at": "2026-08-31T21:22:44.182611+00:00",
+  "wiki_timestamp": "2026-09-10T02:49:33Z",
+  "extracted_at": "2026-09-11T02:14:42.877076+00:00",
   "lua_files": [
     "Module-Delay_0.lua",
     "Module-Delay_1.lua"

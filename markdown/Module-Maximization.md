@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization"
-wiki_timestamp: "2026-09-07T01:18:10Z"
+wiki_timestamp: "2026-09-10T22:53:29Z"
 ---
 
 **Maximization** creates a stat maximization calculator for Warframe abilities.

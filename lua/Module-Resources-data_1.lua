@@ -7824,7 +7824,10 @@ local ResourceData = {
 		Introduced = "22.3",
 		Link = "Hemocyte Cystolith",
 		Name = "Hemocyte Cystolith",
-		Type = "Event" 
+		Type = "Event",
+		ResourceBoostAble = false,
+		ResourceDropChanceBoostAble = false,
+		RetrieverModAble = false,
 	},
 	["Hespazym Alloy"] = {
 		BuildPrice = 1000,

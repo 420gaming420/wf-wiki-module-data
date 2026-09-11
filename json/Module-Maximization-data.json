@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-09T02:14:38.339Z"
+    "converted_at": "2026-09-11T02:14:55.943Z"
   },
   "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins",
   "Smoke Screen": {
@@ -31,7 +31,7 @@
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Energy|Stats}}",
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
           "expr": "35 COST *"
         }
@@ -83,7 +83,7 @@
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Energy|Stats}}",
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
           "expr": "25 COST *"
         }
@@ -162,7 +162,7 @@
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Energy|Stats}}",
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
           "expr": "12 COST * 2 1 IS_INVISIBLE if /",
           "suff": "/enemy"
@@ -231,7 +231,7 @@
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Energy|Stats}}",
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
           "expr": "25 COST *"
         }

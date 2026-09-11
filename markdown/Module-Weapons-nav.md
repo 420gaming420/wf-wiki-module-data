@@ -1,7 +1,7 @@
 ---
 title: "Module:Weapons/nav"
 wiki_url: "https://wiki.warframe.com/w/Module/Weapons/nav"
-wiki_timestamp: "2026-09-01T10:31:38Z"
+wiki_timestamp: "2026-09-10T02:49:47Z"
 ---
 
 Submodule for generating weapon navigation box at bottom of weapon articles. See [Template:WeaponNav](/w/Template:WeaponNav "Template:WeaponNav") for the template that invokes this module.

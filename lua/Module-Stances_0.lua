@@ -654,7 +654,7 @@ function p.buildCompTable(frame)
 	-- local uniqueCombos = { Neutral=true, Forward=true, Block=true, ['Forward Block']=true }
 	
 	local tHeader = ([=[
-{| class="listtable sortable mw-collapsible" style="text-align:left; max-width:100%%; font-size:12px;"
+{| class="listtable sortable stickyHeader mw-collapsible" style="text-align:left; max-width:100%%; font-size:12px;"
 |-
 ! style="text-align:center;" | Stance<br/>Name
 ! style="text-align:center;" | Weapon<br/>Type

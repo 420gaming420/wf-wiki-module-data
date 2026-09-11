@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-07T02:14:35.602Z"
+    "converted_at": "2026-09-11T02:14:58.731Z"
   },
   "_comments": "-- For images that are shared between multiple resources; these would not have\n-- their own article on the wiki and will be used in crafting requirement tables.\n-- Generic blueprints will be ignored for now as their images are not used in crafting \n-- requirement tables.\n\t-- first used by Xoris\n\t-- trick for Miter and Shedu\n\t-- trick for Miter\n\t-- a resource in crafting the weapon Pathocyst\n\t\t--InternalName = \"/Lotus/Types/Restoratives/Consumable/XXX\",\n\t\t--Amount = { 1, 1 },\n\t\t-- Rarity = \"Common\",\n\t\t-- Rarity = \"Uncommon\",\n\t\t--Rarity = \"Rare\"\n\t---1999 start\n\t--- 1999 end\n\t-- Jade Shadows: Constellations --\n\t-- Redirecting o to ö",
   "GenericComponents": {
@@ -9240,9 +9240,11 @@
       "InternalName": "/Lotus/Types/Items/Gems/Solaris/SolarisRareOreAAlloyItem"
     },
     "Hemocyte Cystolith": {
+      "RetrieverModAble": false,
       "Type": "Event",
       "Description": "Torn from the bile duct of a fallen Hemocyte.\r\n\r\nLocation: Hemocytes found in Plague Star event Bounties in the Plains of Eidolon on Earth",
       "Link": "Hemocyte Cystolith",
+      "ResourceDropChanceBoostAble": false,
       "HelminthCategory": "Bile",
       "Image": "HemocyteCystolith.png",
       "Name": "Hemocyte Cystolith",
@@ -9250,6 +9252,7 @@
         1,
         1
       ],
+      "ResourceBoostAble": false,
       "Introduced": "22.3",
       "InternalName": "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/LephantisShardItem",
       "HelminthCost": 35

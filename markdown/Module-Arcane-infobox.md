@@ -1,7 +1,7 @@
 ---
 title: "Module:Arcane/infobox"
 wiki_url: "https://wiki.warframe.com/w/Module/Arcane/infobox"
-wiki_timestamp: "2026-01-31T22:14:03Z"
+wiki_timestamp: "2026-09-10T02:50:41Z"
 ---
 
 *Documentation for this module may be created at [Module:Arcane/infobox/doc](/w/Module:Arcane/infobox/doc?action=edit&redlink=1 "Module:Arcane/infobox/doc (page does not exist)")*

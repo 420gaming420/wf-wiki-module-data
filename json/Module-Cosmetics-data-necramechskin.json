@@ -4,12 +4,12 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-09T02:14:25.155Z"
+    "converted_at": "2026-09-11T02:14:50.667Z"
   },
   "_comments": "",
   "Voidrig Necramech Skin": {
     "Type": "Necramech Skin",
-    "Image": "NechroMech.png",
+    "Image": "Voidrig.png",
     "Description": "The standard issue skin for the Voidrig Necramech.",
     "Link": "Voidrig Necramech Skin",
     "Name": "Voidrig Necramech Skin",
@@ -19,7 +19,7 @@
   },
   "Iridos Voidrig Necramech Skin": {
     "Type": "Necramech Skin",
-    "Image": "VoidrigIridosSkin.png",
+    "Image": "IridosVoidrigNecramechSkin.png",
     "Description": "A chromatic upgrade to the standard issued skin for the Voidrig Necramech.",
     "Link": "Iridos Voidrig Necramech Skin",
     "Name": "Iridos Voidrig Necramech Skin",
@@ -29,7 +29,7 @@
   },
   "Proto Necramech Helmet": {
     "Type": "Necramech Helmet",
-    "Image": "VoidrigDSChromaHelmet.png",
+    "Image": "ProtoNecramechHelmet.png",
     "Description": "Proto Necramech's signature helmet.",
     "Link": "Proto Necramech Helmet",
     "Name": "Proto Necramech Helmet",
@@ -39,7 +39,7 @@
   },
   "Proto Necramech Skin": {
     "Type": "Necramech Skin",
-    "Image": "VoidrigDSChromaSkin.png",
+    "Image": "ProtoNecramechSkin.png",
     "Description": "The metallic substance that makes up this Voidrig casing is of ancient and mysterious origins. It seems to predate the Orokin empire itself.",
     "Link": "Proto Necramech Skin",
     "Name": "Proto Necramech Skin",
@@ -49,7 +49,7 @@
   },
   "Karnolyth Necramech Helmet": {
     "Type": "Necramech Helmet",
-    "Image": "Panel.png",
+    "Image": "KarnolythNecramechHelmet.png",
     "Description": "Make your Necramech even more fearsome with this helmet, based on early experimental designs that employed outer casings of Infested bone and meat.",
     "Link": "Karnolyth Necramech Helmet",
     "Name": "Karnolyth Necramech Helmet",
@@ -59,7 +59,7 @@
   },
   "Bruntspar Necramech Skin": {
     "Type": "Necramech Skin",
-    "Image": "NecraMechCSkin.png",
+    "Image": "NecramechBruntsparSkin.png",
     "Description": "Rediscover the brutal power of the earliest Necramech designs with this skin. Bruntspar is - in Father's words - 'not out to play nice and make friends.'",
     "Link": "Bruntspar Necramech Skin",
     "Name": "Bruntspar Necramech Skin",
@@ -69,7 +69,7 @@
   },
   "Cryptanaut Necramech Helmet": {
     "Type": "Necramech Helmet",
-    "Image": "NecramechHelmetB.png",
+    "Image": "NecramechCryptanautHelmet.png",
     "Description": "Venture into the unknown with the alternative Necramech helmet.",
     "Link": "Cryptanaut Necramech Helmet",
     "Name": "Cryptanaut Necramech Helmet",
@@ -79,7 +79,7 @@
   },
   "Bruntspar Necramech Helmet": {
     "Type": "Necramech Helmet",
-    "Image": "NecramechHelmetA.png",
+    "Image": "NecramechBruntsparHelmet.png",
     "Description": "Bear down on the enemy with this alternative Necramech helmet.",
     "Link": "Bruntspar Necramech Helmet",
     "Name": "Bruntspar Necramech Helmet",
@@ -89,7 +89,7 @@
   },
   "Snake Necramech Helmet": {
     "Type": "Necramech Helmet",
-    "Image": "NecramechSnakeSkin.png",
+    "Image": "SnakeVoidrigSkin.png",
     "Description": "Snake Necramech's signature helmet.",
     "Link": "Snake Necramech Helmet",
     "Name": "Snake Necramech Helmet",
@@ -109,7 +109,7 @@
   },
   "Iridos Voidrig Necramech Helmet": {
     "Type": "Necramech Helmet",
-    "Image": "VoidrigIridosHelmet.png",
+    "Image": "IridosVoidrigNecramechHelmet.png",
     "Description": "A chromatic variant of the Voidrig’s signature helmet.",
     "Link": "Iridos Voidrig Necramech Helmet",
     "Name": "Iridos Voidrig Necramech Helmet",
@@ -119,7 +119,7 @@
   },
   "Voidrig Necramech Helmet": {
     "Type": "Necramech Helmet",
-    "Image": "NechroMech.png",
+    "Image": "Voidrig.png",
     "Description": "Voidrig's signature helmet.",
     "Link": "Voidrig Necramech Helmet",
     "Name": "Voidrig Necramech Helmet",
@@ -129,7 +129,7 @@
   },
   "Bonewidow Necramech Skin": {
     "Type": "Necramech Skin",
-    "Image": "ThanoMech.png",
+    "Image": "Bonewidow.png",
     "Description": "The standard issue skin for the Bonewidow Necramech.",
     "Link": "Bonewidow Necramech Skin",
     "Name": "Bonewidow Necramech Skin",
@@ -139,7 +139,7 @@
   },
   "Snake Necramech Skin": {
     "Type": "Necramech Skin",
-    "Image": "NecramechSnakeSkin.png",
+    "Image": "SnakeVoidrigSkin.png",
     "Description": "Rusty but trusty. This skin revives the glory of the legendary Old War Necramech, Snake.",
     "Link": "Snake Necramech Skin",
     "Name": "Snake Necramech Skin",
@@ -149,7 +149,7 @@
   },
   "Day of the Dead Necramech Skin": {
     "Type": "Necramech Skin",
-    "Image": "VoidrigDOTDSkin.png",
+    "Image": "VoidrigDayoftheDeadSkin.png",
     "Description": "A morbidly festive skin for the Necramech.",
     "Link": "Day of the Dead Necramech Skin",
     "Name": "Day of the Dead Necramech Skin",
@@ -159,7 +159,7 @@
   },
   "Bonewidow Necramech Helmet": {
     "Type": "Necramech Helmet",
-    "Image": "ThanoMech.png",
+    "Image": "Bonewidow.png",
     "Description": "The standard issue helmet for the Bonewidow Necramech.",
     "Link": "Bonewidow Necramech Helmet",
     "Name": "Bonewidow Necramech Helmet",
@@ -169,7 +169,7 @@
   },
   "Day of the Dead Necramech Helmet": {
     "Type": "Necramech Helmet",
-    "Image": "VoidrigDOTDSkin.png",
+    "Image": "VoidrigDayoftheDeadSkin.png",
     "Description": "A morbidly festive helmet for the Necramech.",
     "Link": "Day of the Dead Necramech Helmet",
     "Name": "Day of the Dead Necramech Helmet",

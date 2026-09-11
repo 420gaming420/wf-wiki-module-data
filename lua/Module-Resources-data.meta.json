@@ -1,13 +1,13 @@
 {
   "page": "Module:Resources/data",
-  "wiki_timestamp": "2026-09-06T13:02:23Z",
-  "extracted_at": "2026-09-07T02:14:21.102376+00:00",
+  "wiki_timestamp": "2026-09-10T07:27:59Z",
+  "extracted_at": "2026-09-11T02:14:42.962660+00:00",
   "lua_files": [
     "Module-Resources-data_0.lua",
     "Module-Resources-data_1.lua"
   ],
   "lua_block_count": 2,
-  "file_size": 452770,
+  "file_size": 452866,
   "comment_count": 17,
   "status": "success"
 }

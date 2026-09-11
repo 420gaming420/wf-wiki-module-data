@@ -72,7 +72,7 @@ for _, name in ipairs(names) do
 		..'\n|-\n'..table.concat(outs, '\n|-\n')..'\n|}'..(max_inner and max_inner.post or ''))
 end
 	local max = ([=[
-<div class="js-calc">
+<div class="js-calc calc__container">
 {| class="wikitable calc__block"
 !Inputs
 |-

@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-09-08T11:23:32Z"
+wiki_timestamp: "2026-09-10T22:23:50Z"
 ---
 
 ## Contents
@@ -126,7 +126,7 @@ local Data = {
 			{'Total damage:',                                    {expr='BLEED 9 6 ASH if * BASE_DMG_ASH_1 +'}},
 			{'Armor reduction:',                                 {expr='STR 70 %of SEEKING_SHURIKEN *', suff='%'}},
 			{'Armor reduction duration:',                        {expr='DUR 8 %of SEEKING_SHURIKEN *', suff='s'}},
-			{Tooltips.full('Energy', 'Stats'),                   {expr='25 COST *'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:',                   {expr='25 COST *'}},
 		}
 	},
 	['Smoke Screen']={
@@ -137,14 +137,14 @@ local Data = {
 			{'Duration:', {expr='DUR 12 %of', suff='s'}},
 			{'Extension on [[Finisher]] kills:', {expr='DUR 5 %of TP_AUG *', suff='s'}},
 			{'Radius:', {expr='RNG 10 %of', suff='m'}},
-			{Tooltips.full('Energy', 'Stats'), {expr='35 COST *'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='35 COST *'}},
 		}
 	},
 	['Teleport']={
 		outs={
 			{Tooltips.full('Finisher', 'DamageTypes')..' damage bonus:', {expr='STR 200 %of', suff='%'}},
 			{'Range:', {expr='RNG 60 %of', suff='m'}},
-			{Tooltips.full('Energy', 'Stats'), {expr='25 COST *'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}},
 		},
 	},
 	['Blade Storm']={
@@ -163,7 +163,7 @@ local Data = {
 			{'Total damage:', {name='TOTAL_DMG', expr='BASE_DMG_ASH_4 ELEMENT_DMG + BLEED_DMG 9 * +'}},
 			{'Range:', {expr='RNG 50 %of', suff='m'}},
 			{'Combo:', {expr='STR 4 %of RISING_STORM * 3 +', suff='/attack'}},
-			{Tooltips.full('Energy', 'Stats'), {expr='12 COST * 2 1 IS_INVISIBLE if /', suff='/enemy'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='12 COST * 2 1 IS_INVISIBLE if /', suff='/enemy'}},
 		}
 	}
 };

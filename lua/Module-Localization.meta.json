@@ -1,7 +1,7 @@
 {
   "page": "Module:Localization",
-  "wiki_timestamp": "2026-01-19T21:45:15Z",
-  "extracted_at": "2026-08-31T21:22:44.955987+00:00",
+  "wiki_timestamp": "2026-09-10T02:49:57Z",
+  "extracted_at": "2026-09-11T02:14:42.929412+00:00",
   "lua_files": [
     "Module-Localization_0.lua",
     "Module-Localization_1.lua"

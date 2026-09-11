@@ -1,12 +1,12 @@
 ---
 title: "Module:Resources/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Resources/data"
-wiki_timestamp: "2026-09-06T13:02:23Z"
+wiki_timestamp: "2026-09-10T07:27:59Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME") [Resources](/w/Resources "Resources"), items, and components. For blueprints which require resources to be crafted, see [Module:Blueprints/data](/w/Module:Blueprints/data "Module:Blueprints/data").
 
-:   *Last updated: Sun, 06 Sep 2026 13:02:23 +0000 (UTC) by [User:Twilight053](/w/User:Twilight053 "User:Twilight053") ([change log](https://wiki.warframe.com/w/Module:Resources/data?diff=0))*
+:   *Last updated: Thu, 10 Sep 2026 07:27:59 +0000 (UTC) by [User:Twilight053](/w/User:Twilight053 "User:Twilight053") ([change log](https://wiki.warframe.com/w/Module:Resources/data?diff=0))*
 
 ## Contents
 
@@ -8054,7 +8054,10 @@ local ResourceData = {
 		Introduced = "22.3",
 		Link = "Hemocyte Cystolith",
 		Name = "Hemocyte Cystolith",
-		Type = "Event" 
+		Type = "Event",
+		ResourceBoostAble = false,
+		ResourceDropChanceBoostAble = false,
+		RetrieverModAble = false,
 	},
 	["Hespazym Alloy"] = {
 		BuildPrice = 1000,

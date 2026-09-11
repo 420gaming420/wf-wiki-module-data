@@ -1,7 +1,7 @@
 ---
 title: "Module:Resources/infobox"
 wiki_url: "https://wiki.warframe.com/w/Module/Resources/infobox"
-wiki_timestamp: "2026-09-08T08:47:37Z"
+wiki_timestamp: "2026-09-10T02:49:57Z"
 ---
 
 *Documentation for this module may be created at [Module:Resources/infobox/doc](/w/Module:Resources/infobox/doc?action=edit&redlink=1 "Module:Resources/infobox/doc (page does not exist)")*
