@@ -49,7 +49,7 @@ table.insert(output,
 
     table.insert(output, '|}')
 
-    return table.concat(output, '\n')
+    return table.concat(output, '\n')--.. '[[Category:Dev_Appearances]]'
 end
 
 return p

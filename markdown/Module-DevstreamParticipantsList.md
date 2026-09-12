@@ -1,7 +1,7 @@
 ---
 title: "Module:DevstreamParticipantsList"
 wiki_url: "https://wiki.warframe.com/w/Module/DevstreamParticipantsList"
-wiki_timestamp: "2026-09-10T09:11:14Z"
+wiki_timestamp: "2026-09-11T02:56:00Z"
 ---
 
 *Documentation for this module may be created at [Module:DevstreamParticipantsList/doc](/w/Module:DevstreamParticipantsList/doc?action=edit&redlink=1 "Module:DevstreamParticipantsList/doc (page does not exist)")*
@@ -58,7 +58,7 @@ table.insert(output,
 
     table.insert(output, '|}')
 
-    return table.concat(output, '\n')
+    return table.concat(output, '\n')--.. '[[Category:Dev_Appearances]]'
 end
 
 return p

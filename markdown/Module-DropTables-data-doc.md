@@ -1,7 +1,7 @@
 ---
 title: "Module:DropTables/data/doc"
 wiki_url: "https://wiki.warframe.com/w/Module/DropTables/data/doc"
-wiki_timestamp: "2025-02-23T20:17:51Z"
+wiki_timestamp: "2026-09-11T14:08:09Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -19,7 +19,7 @@ Manually updated fork of the public [Drop Tables](/w/Drop_Tables "Drop Tables") 
 
 See [Module:DropTables](/w/Module:DropTables "Module:DropTables") to see what various things this is being used for right now.
 
-:   *Last updated: Sun, 23 Feb 2025 20:17:51 +0000 (UTC) by [User:Cephalon Scientia](/w/User:Cephalon_Scientia "User:Cephalon Scientia") ([change log](https://wiki.warframe.com/w/Module:DropTables/data/doc?diff=0))*
+:   *Last updated: Fri, 11 Sep 2026 14:08:09 +0000 (UTC) by [User:SUPERCEREAL](/w/User:SUPERCEREAL "User:SUPERCEREAL") ([change log](https://wiki.warframe.com/w/Module:DropTables/data/doc?diff=0))*
 
 ## Contents
 
@@ -93,10 +93,10 @@ See [Module:DropTables](/w/Module:DropTables "Module:DropTables") to see what va
 }
 ```
 
-1. First element in each table element will be the mod's name as a string (required)
-2. Second element in each table element will be the item's type as a string (required)
-3. Third element in each table element will be the individual drop chance of said mod as a float (required)
-4. Forth element in each table element will represent drop count of [Endo](/w/Endo "Endo") as an integer (required if first element is "Endo")
+1. The first element in each table element will be the mod's name as a string (required)
+2. The second element in each table element will be the item's type as a string (required)
+3. The third element in each table element will be the individual drop chance of said mod as a float (required)
+4. The fourth element in each table element will represent the drop count of [Endo](/w/Endo "Endo") as an integer (required if the first element is "Endo")
 
 ## General Drop Table Schema
 
