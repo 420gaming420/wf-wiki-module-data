@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/syandana"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/syandana"
-wiki_timestamp: "2026-09-08T19:16:11Z"
+wiki_timestamp: "2026-09-13T18:28:51Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/syandana/doc](/w/Module:Cosmetics/data/syandana/doc?action=edit&redlink=1 "Module:Cosmetics/data/syandana/doc (page does not exist)")*
@@ -41,14 +41,14 @@ return {
         Type = "Syandana"
     },
     ["Aculea Syandana"] = {
-    	CodexSecret = false,
-    	Description = "Many a specimen has felt the sting of this wearable apparatus. Lavos Khymia’s signature syandana.",
-    	ExcludeFromCodex = false,
-    	Image = "AculeaSyandana.png",
-    	InternalName = "/Lotus/Upgrades/Skins/Scarves/LavosDeluxeSyandana",
-    	Link = "Aculea Syandana",
-    	Name = "Aculea Syandana",
-    	Type = "Syandana",
+        CodexSecret = false,
+        Description = "Many a specimen has felt the sting of this wearable apparatus. Lavos Khymia’s signature syandana.",
+        ExcludeFromCodex = false,
+        Image = "AculeaSyandana.png",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/LavosDeluxeSyandana",
+        Link = "Aculea Syandana",
+        Name = "Aculea Syandana",
+        Type = "Syandana"
     },
     ["Ahlto Syandana"] = {
         CodexSecret = false,
@@ -71,7 +71,7 @@ return {
         Type = "Syandana"
     },
     ["Ak-Sura Syandana"] = {
-     	Artists = { "malaya", "Cobalt" },
+        Artists = { "malaya", "Cobalt" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by malaya and Cobalt.",
@@ -82,12 +82,12 @@ return {
         Link = "Ak-Sura Syandana",
         Name = "Ak-Sura Syandana",
         PcPrice = "$5.99",
-		Round = "12",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1266378613",
+        Round = "12",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1266378613",
         Type = "TennoGen Syandana"
     },
     ["Alocana Syandana"] = {
-     	Artists = { "blazingcobalt" },
+        Artists = { "blazingcobalt" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by blazingcobalt.",
@@ -98,8 +98,8 @@ return {
         Link = "Alocana Syandana",
         Name = "Alocana Syandana",
         PcPrice = "$5.99",
-		Round = "23 [Batch 1]",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2833449435",
+        Round = "23 [Batch 1]",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2833449435",
         Type = "TennoGen Syandana"
     },
     ["Altra Prime Syandana"] = {
@@ -163,7 +163,7 @@ return {
         Type = "Syandana"
     },
     ["Aquiros Syandana"] = {
-     	Artists = { "led2012" },
+        Artists = { "led2012" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by led2012.",
@@ -174,12 +174,12 @@ return {
         Link = "Aquiros Syandana",
         Name = "Aquiros Syandana",
         PcPrice = "$5.99",
-		Round = "2",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=616760969",
+        Round = "2",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=616760969",
         Type = "TennoGen Syandana"
     },
     ["Arcturus Syandana"] = {
-     	Artists = { "FrellingHazmot" },
+        Artists = { "FrellingHazmot" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by FrellingHazmot.",
@@ -190,12 +190,12 @@ return {
         Link = "Arcturus Syandana",
         Name = "Arcturus Syandana",
         PcPrice = "$5.99",
-		Round = "7",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=839641825",
+        Round = "7",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=839641825",
         Type = "TennoGen Syandana"
     },
     ["Armalyst Syandana"] = {
-     	Artists = { "Faven", "Debbysheen" },
+        Artists = { "Faven", "Debbysheen" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Faven and Debbysheen.",
@@ -206,12 +206,12 @@ return {
         Link = "Armalyst Syandana",
         Name = "Armalyst Syandana",
         PcPrice = "$5.99",
-		Round = "18",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1835807920",
+        Round = "18",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1835807920",
         Type = "TennoGen Syandana"
     },
     ["Aropanex Syandana"] = {
-     	Artists = { "kakarrot2812" },
+        Artists = { "kakarrot2812" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by kakarrot2812.",
@@ -222,8 +222,8 @@ return {
         Link = "Aropanex Syandana",
         Name = "Aropanex Syandana",
         PcPrice = "$5.99",
-		Round = "20 [Batch 2]",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2106249846",
+        Round = "20 [Batch 2]",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2106249846",
         Type = "TennoGen Syandana"
     },
     ["Artifex Prime Syandana"] = {
@@ -328,7 +328,7 @@ return {
         Type = "Syandana"
     },
     ["Ayla Syandana"] = {
-     	Artists = { "Cobalt", "malaya" },
+        Artists = { "Cobalt", "malaya" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Cobalt and malaya.",
@@ -339,8 +339,8 @@ return {
         Link = "Ayla Syandana",
         Name = "Ayla Syandana",
         PcPrice = "$5.99",
-		Round = "4",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=727826440",
+        Round = "4",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=727826440",
         Type = "TennoGen Syandana"
     },
     ["Bennu Syandana"] = {
@@ -354,7 +354,7 @@ return {
         Type = "Syandana"
     },
     ["Bodo Syandana"] = {
-     	Artists = { "luchafurel" },
+        Artists = { "luchafurel" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by luchafurel.",
@@ -365,8 +365,8 @@ return {
         Link = "Bodo Syandana",
         Name = "Bodo Syandana",
         PcPrice = "$5.99",
-		Round = "7",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=816335327",
+        Round = "7",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=816335327",
         Type = "TennoGen Syandana"
     },
     ["Bolide Syandana"] = {
@@ -380,7 +380,7 @@ return {
         Type = "Syandana"
     },
     ["Boltara Syandana"] = {
-     	Artists = { "Faven", "Scharkie" },
+        Artists = { "Faven", "Scharkie" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Faven and Scharkie.",
@@ -391,8 +391,8 @@ return {
         Link = "Boltara Syandana",
         Name = "Boltara Syandana",
         PcPrice = "$5.99",
-		Round = "5",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=759305634",
+        Round = "5",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=759305634",
         Type = "TennoGen Syandana"
     },
     ["Bombyx Syandana"] = {
@@ -515,7 +515,7 @@ return {
         Link = "Celestia Syandana",
         Name = "Celestia Syandana",
         Type = "Syandana"
-    },		
+    },
     ["Centuria Syandana"] = {
         CodexSecret = false,
         Description = "Take command with this imposing cloak.",
@@ -537,9 +537,9 @@ return {
         Type = "Syandana"
     },
     ["Chemtank Syandana"] = {
-     	Artists = { "Erneix" },
+        Artists = { "Erneix" },
         CodexSecret = false,
-       	ConsolePrice = "105",
+        ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Erneix.",
         ExcludeFromCodex = false,
         Image = "ChemtankSyandana.png",
@@ -548,8 +548,8 @@ return {
         Link = "Chemtank Syandana",
         Name = "Chemtank Syandana",
         PcPrice = "$5.99",
-		Round = "22 [Batch 1]",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2763822731",
+        Round = "22 [Batch 1]",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2763822731",
         Type = "TennoGen Syandana"
     },
     ["Circadian Syandana"] = {
@@ -613,7 +613,7 @@ return {
         Type = "Syandana"
     },
     ["Corona Syandana"] = {
-     	Artists = { "Hitsu San" },
+        Artists = { "Hitsu San" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Hitsu San.",
@@ -624,12 +624,12 @@ return {
         Link = "Corona Syandana",
         Name = "Corona Syandana",
         PcPrice = "$5.99",
-		Round = "11 [Batch 2]",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1194837467",
+        Round = "11 [Batch 2]",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1194837467",
         Type = "TennoGen Syandana"
     },
     ["Covenant Syandana"] = {
-     	Artists = { "FrellingHazmot" },
+        Artists = { "FrellingHazmot" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by FrellingHazmot.",
@@ -640,8 +640,8 @@ return {
         Link = "Covenant Syandana",
         Name = "Covenant Syandana",
         PcPrice = "$5.99",
-		Round = "8",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=891464944",
+        Round = "8",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=891464944",
         Type = "TennoGen Syandana"
     },
     ["Cremata Syandana"] = {
@@ -665,7 +665,7 @@ return {
         Type = "Syandana"
     },
     ["Cryona Syandana"] = {
-    	Artists = { "led2012" },
+        Artists = { "led2012" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by led2012.",
@@ -676,8 +676,8 @@ return {
         Link = "Cryona Syandana",
         Name = "Cryona Syandana",
         PcPrice = "$5.99",
-		Round = "11 [Batch 1]",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=860937578",
+        Round = "11 [Batch 1]",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=860937578",
         Type = "TennoGen Syandana"
     },
     ["Culpa Syandana"] = {
@@ -752,7 +752,7 @@ return {
         Type = "Syandana"
     },
     ["Deru Syandana"] = {
-     	Artists = { "malaya" },
+        Artists = { "malaya" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by malaya.",
@@ -763,12 +763,12 @@ return {
         Link = "Deru Syandana",
         Name = "Deru Syandana",
         PcPrice = "$5.99",
-		Round = "5",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=757237861",
+        Round = "5",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=757237861",
         Type = "TennoGen Syandana"
     },
     ["Despot Cape Syandana"] = {
-     	Artists = { "Volkovyi", "Sab531" },
+        Artists = { "Volkovyi", "Sab531" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Volkovyi and Sab531.",
@@ -779,8 +779,8 @@ return {
         Link = "Despot Cape Syandana",
         Name = "Despot Cape Syandana",
         PcPrice = "$5.99",
-		Round = "12",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1335644908",
+        Round = "12",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1335644908",
         Type = "TennoGen Syandana"
     },
     ["Dessicata Syandana"] = {
@@ -804,7 +804,7 @@ return {
         Type = "Syandana"
     },
     ["Diablillo Syandana"] = {
-     	Artists = { "Volkovyi", "SabtheRobot" },
+        Artists = { "Volkovyi", "SabtheRobot" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Volkovyi and SabtheRobot.",
@@ -815,12 +815,12 @@ return {
         Link = "Diablillo Syandana",
         Name = "Diablillo Syandana",
         PcPrice = "$5.99",
-		Round = "16",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1617361399",
+        Round = "16",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1617361399",
         Type = "TennoGen Syandana"
     },
     ["Disconnect Syandana"] = {
-     	Artists = { "Faven" },
+        Artists = { "Faven" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Faven.",
@@ -831,12 +831,12 @@ return {
         Link = "Disconnect Syandana",
         Name = "Disconnect Syandana",
         PcPrice = "$5.99",
-		Round = "4",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=700564195",
+        Round = "4",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=700564195",
         Type = "TennoGen Syandana"
     },
     ["Dominus Syandana"] = {
-     	Artists = { "led2012", "jaeon009" },
+        Artists = { "led2012", "jaeon009" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by led2012 and jaeon009.",
@@ -847,8 +847,8 @@ return {
         Link = "Dominus Syandana",
         Name = "Dominus Syandana",
         PcPrice = "$5.99",
-		Round = "15",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1616333967",
+        Round = "15",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1616333967",
         Type = "TennoGen Syandana"
     },
     ["Domus Syandana"] = {
@@ -862,7 +862,7 @@ return {
         Type = "Syandana"
     },
     ["Draugen Syandana"] = {
-     	Artists = { "Goosmo" },
+        Artists = { "Goosmo" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Goosmo.",
@@ -873,12 +873,12 @@ return {
         Link = "Draugen Syandana",
         Name = "Draugen Syandana",
         PcPrice = "$5.99",
-		Round = "21 [Batch 1]",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2396418848",
+        Round = "21 [Batch 1]",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2396418848",
         Type = "TennoGen Syandana"
     },
     ["Due Volpi Syandana"] = {
-     	Artists = { "Volkovyi", "led2012" },
+        Artists = { "Volkovyi", "led2012" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Volkovyi and led2012.",
@@ -889,14 +889,14 @@ return {
         Link = "Due Volpi Syandana",
         Name = "Due Volpi Syandana",
         PcPrice = "$5.99",
-		Round = "12",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1282112343",
+        Round = "12",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1282112343",
         Type = "TennoGen Syandana"
     },
     ["Eklis Syandana"] = {
-     	Artists = { "Goosmo" },
+        Artists = { "Goosmo" },
         CodexSecret = false,
-       	ConsolePrice = "105",
+        ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Goosmo.",
         ExcludeFromCodex = false,
         Image = "EklisSyandana.png",
@@ -905,8 +905,8 @@ return {
         Link = "Eklis Syandana",
         Name = "Eklis Syandana",
         PcPrice = "$5.99",
-		Round = "21 [Batch 1]",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2257745097",
+        Round = "21 [Batch 1]",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2257745097",
         Type = "TennoGen Syandana"
     },
     ["Entheor Prime Syandana"] = {
@@ -930,7 +930,7 @@ return {
         Type = "Syandana"
     },
     ["Ezriel Syandana"] = {
-     	Artists = { "Goosmo" },
+        Artists = { "Goosmo" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Goosmo.",
@@ -941,12 +941,12 @@ return {
         Link = "Ezriel Syandana",
         Name = "Ezriel Syandana",
         PcPrice = "$5.99",
-		Round = "Tennogen Unbound",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2951529185",
+        Round = "Tennogen Unbound",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2951529185",
         Type = "TennoGen Syandana"
     },
     ["Fei Syandana"] = {
-     	Artists = { "malaya", "Jadie" },
+        Artists = { "malaya", "Jadie" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by malaya and Jadie.",
@@ -957,8 +957,8 @@ return {
         Link = "Fei Syandana",
         Name = "Fei Syandana",
         PcPrice = "$5.99",
-		Round = "21 [Batch 1]",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2487600066",
+        Round = "21 [Batch 1]",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2487600066",
         Type = "TennoGen Syandana"
     },
     ["Flox Syandana"] = {
@@ -1032,23 +1032,23 @@ return {
         Type = "Syandana"
     },
     ["Gothica Syandana"] = {
-     	Artists = { "malaya", "Awk'Q-Luz", "Jadie" },
-     	CodexSecret = false,
-     	ConsolePrice = "105",
-     	Description = "A syandana for your Warframe, designed by malaya, Awk'Q-Luz and Jadie.",
-     	ExcludeFromCodex = false,
-     	Image = "GothicaSyandana.png",
-     	InternalName = "/Lotus/Upgrades/Skins/Scarves/SWGothicaSyandana",
-     	Introduced = "40",
-     	Link = "Gothica Syandana",
-     	Name = "Gothica Syandana",
-     	PcPrice = "$5.99",
-     	Round = "TennoGen Undermind",
-     	SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=3046420137",
-		Type = "TennoGen Syandana"
+        Artists = { "malaya", "Awk'Q-Luz", "Jadie" },
+        CodexSecret = false,
+        ConsolePrice = "105",
+        Description = "A syandana for your Warframe, designed by malaya, Awk'Q-Luz and Jadie.",
+        ExcludeFromCodex = false,
+        Image = "GothicaSyandana.png",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/SWGothicaSyandana",
+        Introduced = "40",
+        Link = "Gothica Syandana",
+        Name = "Gothica Syandana",
+        PcPrice = "$5.99",
+        Round = "TennoGen Undermind",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=3046420137",
+        Type = "TennoGen Syandana"
     },
     ["Graxx Spitefire Syandana"] = {
-     	Artists = { "Faven" },
+        Artists = { "Faven" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Faven.",
@@ -1059,11 +1059,11 @@ return {
         Link = "Graxx Spitefire Syandana",
         Name = "Graxx Spitefire Syandana",
         PcPrice = "$5.99",
-		Round = "6",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=773024183",
+        Round = "6",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=773024183",
         Type = "TennoGen Syandana"
     },
-	["Hanteler Prime Syandana"] = {
+    ["Hanteler Prime Syandana"] = {
         CodexSecret = false,
         Description = "Wear the trophy of victories past with Voruna Prime's signature syandana.",
         ExcludeFromCodex = false,
@@ -1124,7 +1124,7 @@ return {
         Type = "Syandana"
     },
     ["Icarius Syandana"] = {
-     	Artists = { "malaya", "Scharkie", "Jadie" },
+        Artists = { "malaya", "Scharkie", "Jadie" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by malaya, Scharkie and Jadie.",
@@ -1135,8 +1135,8 @@ return {
         Link = "Icarius Syandana",
         Name = "Icarius Syandana",
         PcPrice = "$5.99",
-		Round = "13",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1346542404",
+        Round = "13",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1346542404",
         Type = "TennoGen Syandana"
     },
     ["Igaro Day of the Dead Syandana"] = {
@@ -1210,7 +1210,7 @@ return {
         Type = "Syandana"
     },
     ["Incubus Ribbon Syandana"] = {
-     	Artists = { "Volkovyi" },
+        Artists = { "Volkovyi" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Volkovyi.",
@@ -1221,8 +1221,8 @@ return {
         Link = "Incubus Ribbon Syandana",
         Name = "Incubus Ribbon Syandana",
         PcPrice = "$5.99",
-		Round = "8",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=839762184",
+        Round = "8",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=839762184",
         Type = "TennoGen Syandana"
     },
     ["Isabeau Prime Syandana"] = {
@@ -1307,7 +1307,7 @@ return {
         Type = "Syandana"
     },
     ["Jattuk Mantle"] = {
-     	Artists = { "Master Noob" },
+        Artists = { "Master Noob" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Master Noob.",
@@ -1318,8 +1318,8 @@ return {
         Link = "Jattuk Mantle",
         Name = "Jattuk Mantle",
         PcPrice = "$5.99",
-		Round = "2",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=618955744",
+        Round = "2",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=618955744",
         Type = "TennoGen Syandana"
     },
     ["Jindou Prime Syandana"] = {
@@ -1333,7 +1333,7 @@ return {
         Type = "Syandana"
     },
     ["Jotunheim Music Syandana"] = {
-     	Artists = { "Mz-3" },
+        Artists = { "Mz-3" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Mz-3.",
@@ -1344,12 +1344,12 @@ return {
         Link = "Jotunheim Music Syandana",
         Name = "Jotunheim Music Syandana",
         PcPrice = "$5.99",
-		Round = "20 [Batch 1]",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2389503649",
+        Round = "20 [Batch 1]",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2389503649",
         Type = "TennoGen Syandana"
     },
     ["Jotunheim Syandana"] = {
-     	Artists = { "Mz-3" },
+        Artists = { "Mz-3" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Mz-3.",
@@ -1360,8 +1360,8 @@ return {
         Link = "Jotunheim Syandana",
         Name = "Jotunheim Syandana",
         PcPrice = "$5.99",
-		Round = "17",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1711328911",
+        Round = "17",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1711328911",
         Type = "TennoGen Syandana"
     },
     ["Kahtuss Prime Syandana"] = {
@@ -1465,7 +1465,7 @@ return {
         Type = "Syandana"
     },
     ["Kunshu Syandana"] = {
-     	Artists = { "BeastBuster" },
+        Artists = { "BeastBuster" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by BeastBuster.",
@@ -1476,8 +1476,8 @@ return {
         Link = "Kunshu Syandana",
         Name = "Kunshu Syandana",
         PcPrice = "$5.99",
-		Round = "13",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1194262289",
+        Round = "13",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1194262289",
         Type = "TennoGen Syandana"
     },
     ["Kuva Braid"] = {
@@ -1581,18 +1581,18 @@ return {
         Type = "Syandana"
     },
     ["Lanex Prime Syandana"] = {
-	    CodexSecret = false,
-	    Description = "A syandana of gold and ethereal glory, for intimidation on the battlefield or celebration in the victory parade.",
-	    ExcludeFromCodex = false,
-	    Image = "LanexPrimeSyandana.png",
-	    InternalName = "/Lotus/Upgrades/Skins/Scarves/PrimeStyanaxSyandana",
-	    Introduced = "43",
-	    Link = "Lanex Prime Syandana",
-	    Name = "Lanex Prime Syandana",
-	    Type = "Syandana"
-	},
+        CodexSecret = false,
+        Description = "A syandana of gold and ethereal glory, for intimidation on the battlefield or celebration in the victory parade.",
+        ExcludeFromCodex = false,
+        Image = "LanexPrimeSyandana.png",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/PrimeStyanaxSyandana",
+        Introduced = "43",
+        Link = "Lanex Prime Syandana",
+        Name = "Lanex Prime Syandana",
+        Type = "Syandana"
+    },
     ["Laprosys Syandana"] = {
-     	Artists = { "FrellingHazmot" },
+        Artists = { "FrellingHazmot" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by FrellingHazmot.",
@@ -1603,8 +1603,8 @@ return {
         Link = "Laprosys Syandana",
         Name = "Laprosys Syandana",
         PcPrice = "$5.99",
-		Round = "21 [Batch 1]",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2390682469",
+        Round = "21 [Batch 1]",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2390682469",
         Type = "TennoGen Syandana"
     },
     ["Lodestar Syandana"] = {
@@ -1628,51 +1628,51 @@ return {
         Type = "Syandana"
     },
     ["Lumbox Tactical Syandana"] = {
-		CodexSecret = false,
-		Description = "Be prepared for anything from a firefight to a midnight snack with Grendel Turbis' signature syandana.",
-		ExcludeFromCodex = false,
-		Image = "LumboxTacticalSyandana.png",
-		InternalName = "/Lotus/Upgrades/Skins/Scarves/GrendelDeluxeIISyandana",
-		Link = "Lumbox Tactical Syandana",
-		Name = "Lumbox Tactical Syandana",
-		Type = "Syandana"
-	},
-	["Lunarius Syandana"] = {
-		Artists = { "lex182" },
-		CodexSecret = false,
-		ConsolePrice = "105",
-		Description = "A syandana for your Warframe, designed by lex182.",
-		ExcludeFromCodex = false,
-		Image = "LunariusSyandana.png",
-		InternalName = "/Lotus/Upgrades/Skins/Scarves/SWLunariusSyandana",
-		Introduced = "38.5",
-		Link = "Lunarius Syandana",
-		Name = "Lunarius Syandana",
-		PcPrice = "$5.99",
-		Round = "Tennogen Encore",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2770172769",
-		Type = "TennoGen Syandana"
-	},
+        CodexSecret = false,
+        Description = "Be prepared for anything from a firefight to a midnight snack with Grendel Turbis' signature syandana.",
+        ExcludeFromCodex = false,
+        Image = "LumboxTacticalSyandana.png",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/GrendelDeluxeIISyandana",
+        Link = "Lumbox Tactical Syandana",
+        Name = "Lumbox Tactical Syandana",
+        Type = "Syandana"
+    },
+    ["Lunarius Syandana"] = {
+        Artists = { "lex182" },
+        CodexSecret = false,
+        ConsolePrice = "105",
+        Description = "A syandana for your Warframe, designed by lex182.",
+        ExcludeFromCodex = false,
+        Image = "LunariusSyandana.png",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/SWLunariusSyandana",
+        Introduced = "38.5",
+        Link = "Lunarius Syandana",
+        Name = "Lunarius Syandana",
+        PcPrice = "$5.99",
+        Round = "Tennogen Encore",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2770172769",
+        Type = "TennoGen Syandana"
+    },
     ["Lustratus Conquest Syandana"] = {
-		CodexSecret = false,
-		Description = "Reclaimed from the battlefields of Tau, this battle-worn syandana reflects the cost of war.",
-		ExcludeFromCodex = false,
-		Image = "LustratusConquestSyandana.png",
-		InternalName = "/Lotus/Upgrades/Skins/Scarves/DaxSquareCape",
-		Link = "Lustratus Conquest Syandana",
-		Name = "Lustratus Conquest Syandana",
-		Type = "Syandana"
-	},
+        CodexSecret = false,
+        Description = "Reclaimed from the battlefields of Tau, this battle-worn syandana reflects the cost of war.",
+        ExcludeFromCodex = false,
+        Image = "LustratusConquestSyandana.png",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/DaxSquareCape",
+        Link = "Lustratus Conquest Syandana",
+        Name = "Lustratus Conquest Syandana",
+        Type = "Syandana"
+    },
     ["Lustratus Warbanner Syandana"] = {
-		CodexSecret = false,
-		Description = "A syandana once worn to distinguish Dax commanders on Tau; wear it now as a mark of pride.",
-		ExcludeFromCodex = false,
-		Image = "LustratusWarbannerSyandana.png",
-		InternalName = "/Lotus/Upgrades/Skins/Scarves/DaxTwoTailsCape",
-		Link = "Lustratus Warbanner Syandana",
-		Name = "Lustratus Warbanner Syandana",
-		Type = "Syandana"
-	},
+        CodexSecret = false,
+        Description = "A syandana once worn to distinguish Dax commanders on Tau; wear it now as a mark of pride.",
+        ExcludeFromCodex = false,
+        Image = "LustratusWarbannerSyandana.png",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/DaxTwoTailsCape",
+        Link = "Lustratus Warbanner Syandana",
+        Name = "Lustratus Warbanner Syandana",
+        Type = "Syandana"
+    },
     ["Lycanblight Syandana"] = {
         CodexSecret = false,
         Description = "Pursue your prey with a look that combines beast and Infestation.",
@@ -1704,7 +1704,7 @@ return {
         Type = "Syandana"
     },
     ["Maharliqa Syandana"] = {
-     	Artists = { "led2012" },
+        Artists = { "led2012" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by led2012.",
@@ -1715,8 +1715,8 @@ return {
         Link = "Maharliqa Syandana",
         Name = "Maharliqa Syandana",
         PcPrice = "$5.99",
-		Round = "4",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=726034842",
+        Round = "4",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=726034842",
         Type = "TennoGen Syandana"
     },
     ["Massif Prime Syandana"] = {
@@ -1760,7 +1760,7 @@ return {
         Type = "Syandana"
     },
     ["Mithra Syandana"] = {
-     	Artists = { "lukinu_u" },
+        Artists = { "lukinu_u" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by lukinu_u.",
@@ -1771,8 +1771,8 @@ return {
         Link = "Mithra Syandana",
         Name = "Mithra Syandana",
         PcPrice = "$5.99",
-		Round = "12",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1259052812",
+        Round = "12",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1259052812",
         Type = "TennoGen Syandana"
     },
     ["Monarcierro Day of the Dead Syandana"] = {
@@ -1806,7 +1806,7 @@ return {
         Type = "Syandana"
     },
     ["Mushussu Syandana"] = {
-     	Artists = { "Stenchfury" },
+        Artists = { "Stenchfury" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Stenchfury.",
@@ -1817,12 +1817,12 @@ return {
         Link = "Mushussu Syandana",
         Name = "Mushussu Syandana",
         PcPrice = "$5.99",
-		Round = "12",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1334762963",
+        Round = "12",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1334762963",
         Type = "TennoGen Syandana"
     },
     ["Naru Syandana"] = {
-     	Artists = { "malaya", "Jadie" },
+        Artists = { "malaya", "Jadie" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by malaya and Jadie.",
@@ -1833,8 +1833,8 @@ return {
         Link = "Naru Syandana",
         Name = "Naru Syandana",
         PcPrice = "$5.99",
-		Round = "9",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=951073654",
+        Round = "9",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=951073654",
         Type = "TennoGen Syandana"
     },
     ["Nave Prime Syandana"] = {
@@ -1888,7 +1888,7 @@ return {
         Type = "Syandana"
     },
     ["Night Hunter Syandana"] = {
-     	Artists = { "Mz-3" },
+        Artists = { "Mz-3" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Mz-3.",
@@ -1899,8 +1899,8 @@ return {
         Link = "Night Hunter Syandana",
         Name = "Night Hunter Syandana",
         PcPrice = "$5.99",
-		Round = "19 [Batch 1]",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1478716861",
+        Round = "19 [Batch 1]",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1478716861",
         Type = "TennoGen Syandana"
     },
     ["Noru Prime Syandana"] = {
@@ -1924,7 +1924,7 @@ return {
         Type = "Syandana"
     },
     ["Nsaru Syandana"] = {
-     	Artists = { "Master Noob" },
+        Artists = { "Master Noob" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Master Noob.",
@@ -1934,30 +1934,30 @@ return {
         Introduced = "18.6.3",
         Link = "Nsaru Syandana",
         Name = "Nsaru Syandana",
-       	PcPrice = "$5.99",
-		Round = "2",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=591556001",
+        PcPrice = "$5.99",
+        Round = "2",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=591556001",
         Type = "TennoGen Syandana"
     },
     ["Nulwarden Syandana"] = {
-     	CodexSecret = false,
-     	Description = "Stand guard against the allure of the Void with this opulent syandana.",
-     	ExcludeFromCodex = false,
-     	Image = "NulwardenSyandana.png",
-     	InternalName = "/Lotus/Upgrades/Skins/Scarves/TC2025OrokinScarf",
-     	Link = "Nulwarden Syandana",
-     	Name = "Nulwarden Syandana",
-     	Type = "Syandana"
+        CodexSecret = false,
+        Description = "Stand guard against the allure of the Void with this opulent syandana.",
+        ExcludeFromCodex = false,
+        Image = "NulwardenSyandana.png",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/TC2025OrokinScarf",
+        Link = "Nulwarden Syandana",
+        Name = "Nulwarden Syandana",
+        Type = "Syandana"
     },
     ["Nulwarden Syandana (Void-swept)"] = {
-     	CodexSecret = false,
-     	Description = "This tattered variant syandana displays the wearer's ability to manipulate the Void.",
-     	ExcludeFromCodex = false,
-     	Image = "NulwardenSyandanaVoidswept.png",
-     	InternalName = "/Lotus/Upgrades/Skins/Scarves/TC2025EvolvedOrokinScarf",
-     	Link = "Nulwarden Syandana (Void-swept)",
-     	Name = "Nulwarden Syandana (Void-swept)",
-     	Type = "Syandana"
+        CodexSecret = false,
+        Description = "This tattered variant syandana displays the wearer's ability to manipulate the Void.",
+        ExcludeFromCodex = false,
+        Image = "NulwardenSyandanaVoidswept.png",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/TC2025EvolvedOrokinScarf",
+        Link = "Nulwarden Syandana (Void-swept)",
+        Name = "Nulwarden Syandana (Void-swept)",
+        Type = "Syandana"
     },
     ["Oblivia Prime Syandana"] = {
         CodexSecret = false,
@@ -2020,7 +2020,7 @@ return {
         Type = "Syandana"
     },
     ["Officium Syandana"] = {
-     	Artists = { "Hitsu San", "Operative Shift" },
+        Artists = { "Hitsu San", "Operative Shift" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Hitsu San and Operative Shift.",
@@ -2031,8 +2031,8 @@ return {
         Link = "Officium Syandana",
         Name = "Officium Syandana",
         PcPrice = "$5.99",
-		Round = "5",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=735750664",
+        Round = "5",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=735750664",
         Type = "TennoGen Syandana"
     },
     ["Orion's Swaddle Syandana"] = {
@@ -2117,7 +2117,7 @@ return {
         Type = "Syandana"
     },
     ["Paxis Syandana"] = {
-      	Artists = { "malaya", "Jadie" },
+        Artists = { "malaya", "Jadie" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by malaya and Jadie.",
@@ -2128,12 +2128,12 @@ return {
         Link = "Paxis Syandana",
         Name = "Paxis Syandana",
         PcPrice = "$5.99",
-		Round = "17",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1833615473",
+        Round = "17",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1833615473",
         Type = "TennoGen Syandana"
     },
     ["Pistris Syandana"] = {
-     	Artists = { "Stenchfury" },
+        Artists = { "Stenchfury" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Stenchfury.",
@@ -2144,8 +2144,8 @@ return {
         Link = "Pistris Syandana",
         Name = "Pistris Syandana",
         PcPrice = "$5.99",
-		Round = "11 [Batch 1]",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=948291507",
+        Round = "11 [Batch 1]",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=948291507",
         Type = "TennoGen Syandana"
     },
     ["Portcull Syandana"] = {
@@ -2279,7 +2279,7 @@ return {
         Type = "Syandana"
     },
     ["Raiji Syandana"] = {
-    	Artists = { "led2012" },
+        Artists = { "led2012" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by led2012.",
@@ -2290,8 +2290,8 @@ return {
         Link = "Raiji Syandana",
         Name = "Raiji Syandana",
         PcPrice = "$5.99",
-		Round = "8",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=858577212",
+        Round = "8",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=858577212",
         Type = "TennoGen Syandana"
     },
     ["Rakta Syandana"] = {
@@ -2305,7 +2305,7 @@ return {
         Type = "Syandana"
     },
     ["Ranulyst Syandana"] = {
-     	Artists = { "led2012", "daemonstar" },
+        Artists = { "led2012", "daemonstar" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by led2012 and daemonstar.",
@@ -2316,8 +2316,8 @@ return {
         Link = "Ranulyst Syandana",
         Name = "Ranulyst Syandana",
         PcPrice = "$5.99",
-		Round = "19 [Batch 1]",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2157235904",
+        Round = "19 [Batch 1]",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2157235904",
         Type = "TennoGen Syandana"
     },
     ["Rath Kittag Cloak"] = {
@@ -2331,21 +2331,21 @@ return {
         Type = "Syandana"
     },
     ["Rau Syandana"] = {
-		Artists = { "blazingcobalt", "Ritens" },
-		CodexSecret = false,
-		ConsolePrice = "105",
-		Description = "A syandana for your Warframe, designed by blazingcobalt and Ritens.",
-		ExcludeFromCodex = false,
-		Image = "RauSyandana.png",
-		InternalName = "/Lotus/Upgrades/Skins/Scarves/SWRauSyandana",
-		Introduced = "38.5",
-		Link = "Rau Syandana",
-		Name = "Rau Syandana",
-		PcPrice = "$5.99",
-		Round = "Tennogen Encore",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=3057070731",
-		Type = "TennoGen Syandana"
-	},
+        Artists = { "blazingcobalt", "Ritens" },
+        CodexSecret = false,
+        ConsolePrice = "105",
+        Description = "A syandana for your Warframe, designed by blazingcobalt and Ritens.",
+        ExcludeFromCodex = false,
+        Image = "RauSyandana.png",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/SWRauSyandana",
+        Introduced = "38.5",
+        Link = "Rau Syandana",
+        Name = "Rau Syandana",
+        PcPrice = "$5.99",
+        Round = "Tennogen Encore",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=3057070731",
+        Type = "TennoGen Syandana"
+    },
     ["Raya Sigma Syandana"] = {
         CodexSecret = false,
         Description = "Flash across the battlefield with this syandana that elevates the original design of House Sigma.",
@@ -2367,20 +2367,19 @@ return {
         Type = "Syandana"
     },
     ["Reliquia Syandana"] = {
-     	Artists = { "lex182", "Therion" },
-     	CodexSecret = false,
-     	ConsolePrice = "105",
-     	Description = "A syandana for your Warframe, designed by lex182 and Therion",
-     	ExcludeFromCodex = false,
-     	Image = "ReliquiaSyandana.png",
-     	InternalName = "",
-     	Introduced = "TBA",
-     	Link = "Reliquia Syandana",
-     	Name = "Reliquia Syandana",
-     	PcPrice = "$5.99",
-     	Round = "TennoGen Iceblade",
-     	SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=3654696814",
-     	Type = "TennoGen Syandana",
+        Artists = { "lex182", "Therion" },
+        CodexSecret = false,
+        ConsolePrice = "105",
+        Description = "A syandana for your Warframe, designed by lex182 and Therion",
+        ExcludeFromCodex = false,
+        Image = "ReliquiaSyandana.png",
+        Introduced = "TBA",
+        Link = "Reliquia Syandana",
+        Name = "Reliquia Syandana",
+        PcPrice = "$5.99",
+        Round = "TennoGen Iceblade",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=3654696814",
+        Type = "TennoGen Syandana"
     },
     ["Rencowl Syandana"] = {
         CodexSecret = false,
@@ -2393,7 +2392,7 @@ return {
         Type = "Syandana"
     },
     ["Repala Syandana"] = {
-     	Artists = { "Master Noob" },
+        Artists = { "Master Noob" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Master Noob.",
@@ -2404,8 +2403,8 @@ return {
         Link = "Repala Syandana",
         Name = "Repala Syandana",
         PcPrice = "$5.99",
-		Round = "8",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=888942789",
+        Round = "8",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=888942789",
         Type = "TennoGen Syandana"
     },
     ["Reshantur Cult Syandana"] = {
@@ -2419,7 +2418,7 @@ return {
         Type = "Syandana"
     },
     ["Retrorolyst Syandana"] = {
-     	Artists = { "Erneix", "edwino22" },
+        Artists = { "Erneix", "edwino22" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by edwino22 and Erneix.",
@@ -2430,8 +2429,8 @@ return {
         Link = "Retrorolyst Syandana",
         Name = "Retrorolyst Syandana",
         PcPrice = "$5.99",
-		Round = "23 [Batch 1]",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2891989857",
+        Round = "23 [Batch 1]",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2891989857",
         Type = "TennoGen Syandana"
     },
     ["Revenant Mephisto Syandana"] = {
@@ -2445,7 +2444,7 @@ return {
         Type = "Syandana"
     },
     ["Rhodora Syandana"] = {
-     	Artists = { "Xtygian", "led2012" },
+        Artists = { "Xtygian", "led2012" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Xtygian and led2012.",
@@ -2456,8 +2455,8 @@ return {
         Link = "Rhodora Syandana",
         Name = "Rhodora Syandana",
         PcPrice = "$5.99",
-     	Round = "TennoGen Shadows",
-     	SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=3140913204",
+        Round = "TennoGen Shadows",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=3140913204",
         Type = "TennoGen Syandana"
     },
     ["Rhoptron Prime Syandana"] = {
@@ -2481,7 +2480,7 @@ return {
         Type = "Syandana"
     },
     ["Rota Syandana"] = {
-     	Artists = { "Master Noob" },
+        Artists = { "Master Noob" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Master Noob.",
@@ -2492,8 +2491,8 @@ return {
         Link = "Rota Syandana",
         Name = "Rota Syandana",
         PcPrice = "$5.99",
-		Round = "1",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=548723656",
+        Round = "1",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=548723656",
         Type = "TennoGen Syandana"
     },
     ["Salix Solstice Syandana"] = {
@@ -2548,7 +2547,7 @@ return {
         Type = "Syandana"
     },
     ["Sari Syandana"] = {
-     	Artists = { "malaya" },
+        Artists = { "malaya" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by malaya.",
@@ -2559,12 +2558,12 @@ return {
         Link = "Sari Syandana",
         Name = "Sari Syandana",
         PcPrice = "$5.99",
-		Round = "6",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=771585391",
+        Round = "6",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=771585391",
         Type = "TennoGen Syandana"
     },
     ["Sarva Harness Syandana"] = {
-     	Artists = { "Master Noob" },
+        Artists = { "Master Noob" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Master Noob.",
@@ -2575,8 +2574,8 @@ return {
         Link = "Sarva Harness Syandana",
         Name = "Sarva Harness Syandana",
         PcPrice = "$5.99",
-		Round = "11 [Batch 3]",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1083532271",
+        Round = "11 [Batch 3]",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1083532271",
         Type = "TennoGen Syandana"
     },
     ["Saturn Six Syandana"] = {
@@ -2600,7 +2599,7 @@ return {
         Type = "Syandana"
     },
     ["Scapulis Syandana"] = {
-     	Artists = { "lukinu_u" },
+        Artists = { "lukinu_u" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by lukinu_u.",
@@ -2611,8 +2610,8 @@ return {
         Link = "Scapulis Syandana",
         Name = "Scapulis Syandana",
         PcPrice = "$5.99",
-		Round = "9",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=811501984",
+        Round = "9",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=811501984",
         Type = "TennoGen Syandana"
     },
     ["Scarab Syandana"] = {
@@ -2626,7 +2625,7 @@ return {
         Type = "Syandana"
     },
     ["Sciathin Syandana"] = {
-     	Artists = { "Master Noob" },
+        Artists = { "Master Noob" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Master Noob.",
@@ -2637,12 +2636,12 @@ return {
         Link = "Sciathin Syandana",
         Name = "Sciathin Syandana",
         PcPrice = "$5.99",
-		Round = "4",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=727875983",
+        Round = "4",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=727875983",
         Type = "TennoGen Syandana"
     },
     ["Scylla Syandana"] = {
-     	Artists = { "Faven" },
+        Artists = { "Faven" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Faven.",
@@ -2653,8 +2652,8 @@ return {
         Link = "Scylla Syandana",
         Name = "Scylla Syandana",
         PcPrice = "$5.99",
-		Round = "19 [Batch 2]",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2031465132",
+        Round = "19 [Batch 2]",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2031465132",
         Type = "TennoGen Syandana"
     },
     ["Secura Syandana"] = {
@@ -2669,7 +2668,7 @@ return {
         Type = "Syandana"
     },
     ["Senvictis Syandana"] = {
-     	Artists = { "Lubox" },
+        Artists = { "Lubox" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Lubox.",
@@ -2680,12 +2679,12 @@ return {
         Link = "Senvictis Syandana",
         Name = "Senvictis Syandana",
         PcPrice = "$5.99",
-		Round = "16",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1559902487",
+        Round = "16",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1559902487",
         Type = "TennoGen Syandana"
     },
     ["Seraphim Syandana"] = {
-     	Artists = { "led2012", "jaeon009" },
+        Artists = { "led2012", "jaeon009" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by led2012 and jaeon009.",
@@ -2696,8 +2695,8 @@ return {
         Link = "Seraphim Syandana",
         Name = "Seraphim Syandana",
         PcPrice = "$5.99",
-		Round = "13",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1391720886",
+        Round = "13",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1391720886",
         Type = "TennoGen Syandana"
     },
     ["Serenidine Prime Syandana"] = {
@@ -2711,7 +2710,7 @@ return {
         Type = "Syandana"
     },
     ["Sethar Syandana"] = {
-     	Artists = { "led2012", "Kevin Glint" },
+        Artists = { "led2012", "Kevin Glint" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by led2012 and Kevin Glint.",
@@ -2721,13 +2720,13 @@ return {
         Introduced = "27.3.8",
         Link = "Sethar Syandana",
         Name = "Sethar Syandana",
-       	PcPrice = "$5.99",
-		Round = "18",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1789861119",
+        PcPrice = "$5.99",
+        Round = "18",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1789861119",
         Type = "TennoGen Syandana"
     },
     ["Setka Syandana"] = {
-     	Artists = { "Hitsu San" },
+        Artists = { "Hitsu San" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Hitsu San.",
@@ -2738,12 +2737,12 @@ return {
         Link = "Setka Syandana",
         Name = "Setka Syandana",
         PcPrice = "$5.99",
-		Round = "3",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=619687499",
+        Round = "3",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=619687499",
         Type = "TennoGen Syandana"
     },
     ["Shiroku Syandana"] = {
-     	Artists = { "BeastBuster" },
+        Artists = { "BeastBuster" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by BeastBuster.",
@@ -2754,12 +2753,12 @@ return {
         Link = "Shiroku Syandana",
         Name = "Shiroku Syandana",
         PcPrice = "$5.99",
-		Round = "20 [Batch 2]",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2396202016",
+        Round = "20 [Batch 2]",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2396202016",
         Type = "TennoGen Syandana"
     },
     ["Shurihoshi Syandana"] = {
-     	Artists = { "led2012", "daemonstar" },
+        Artists = { "led2012", "daemonstar" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by led2012 and daemonstar.",
@@ -2770,8 +2769,8 @@ return {
         Link = "Shurihoshi Syandana",
         Name = "Shurihoshi Syandana",
         PcPrice = "$5.99",
-		Round = "13",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1284268152",
+        Round = "13",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1284268152",
         Type = "TennoGen Syandana"
     },
     ["Sidereal Syandana"] = {
@@ -2795,7 +2794,7 @@ return {
         Type = "Syandana"
     },
     ["Sildarg Syandana"] = {
-     	Artists = { "led2012", "daemonstar" },
+        Artists = { "led2012", "daemonstar" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by led2012 and daemonstar.",
@@ -2806,8 +2805,8 @@ return {
         Link = "Sildarg Syandana",
         Name = "Sildarg Syandana",
         PcPrice = "$5.99",
-		Round = "13",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1307198461",
+        Round = "13",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1307198461",
         Type = "TennoGen Syandana"
     },
     ["Sirius' Swaddle Syandana"] = {
@@ -2822,7 +2821,7 @@ return {
         Type = "Syandana"
     },
     ["Solida Syandana"] = {
-     	Artists = { "Hitsu San" },
+        Artists = { "Hitsu San" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Hitsu San.",
@@ -2833,8 +2832,8 @@ return {
         Link = "Solida Syandana",
         Name = "Solida Syandana",
         PcPrice = "$5.99",
-		Round = "11 [Batch 3]",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1194751657",
+        Round = "11 [Batch 3]",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1194751657",
         Type = "TennoGen Syandana"
     },
     ["Solstice Centuria Syandana"] = {
@@ -2868,7 +2867,7 @@ return {
         Type = "Syandana"
     },
     ["Sovereign Syandana"] = {
-     	Artists = { "BeastBuster" },
+        Artists = { "BeastBuster" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Beast Buster.",
@@ -2879,8 +2878,8 @@ return {
         Link = "Sovereign Syandana",
         Name = "Sovereign Syandana",
         PcPrice = "$5.99",
-		Round = "12",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1194252668",
+        Round = "12",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1194252668",
         Type = "TennoGen Syandana"
     },
     ["Spektaka Prime Syandana"] = {
@@ -2924,7 +2923,7 @@ return {
         Type = "Syandana"
     },
     ["Styx Syandana"] = {
-     	Artists = { "malaya", "Scharkie", "Jadie" },
+        Artists = { "malaya", "Scharkie", "Jadie" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by malaya, Scharkie and Jadie.",
@@ -2935,8 +2934,8 @@ return {
         Link = "Styx Syandana",
         Name = "Styx Syandana",
         PcPrice = "$5.99",
-		Round = "14",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1503779007",
+        Round = "14",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1503779007",
         Type = "TennoGen Syandana"
     },
     ["Subhuti Syandana"] = {
@@ -3030,7 +3029,7 @@ return {
         Type = "Syandana"
     },
     ["Sydeko Syandana"] = {
-     	Artists = { "led2012", "daemonstar" },
+        Artists = { "led2012", "daemonstar" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by led2012 and daemonstar.",
@@ -3041,8 +3040,8 @@ return {
         Link = "Sydeko Syandana",
         Name = "Sydeko Syandana",
         PcPrice = "$5.99",
-		Round = "13",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1332984210",
+        Round = "13",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1332984210",
         Type = "TennoGen Syandana"
     },
     ["Synkra Syandana"] = {
@@ -3159,7 +3158,7 @@ return {
         Type = "Syandana"
     },
     ["Tenui Syandana"] = {
-     	Artists = { "led2012", "Justified114" },
+        Artists = { "led2012", "Justified114" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by led2012 and Justified114.",
@@ -3170,12 +3169,12 @@ return {
         Link = "Tenui Syandana",
         Name = "Tenui Syandana",
         PcPrice = "$5.99",
-		Round = "14",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1489879938",
+        Round = "14",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1489879938",
         Type = "TennoGen Syandana"
     },
     ["Teplo Syandana"] = {
-     	Artists = { "FrellingHazmot" },
+        Artists = { "FrellingHazmot" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by FrellingHazmot.",
@@ -3186,8 +3185,8 @@ return {
         Link = "Teplo Syandana",
         Name = "Teplo Syandana",
         PcPrice = "$5.99",
-		Round = "4",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=727041133",
+        Round = "4",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=727041133",
         Type = "TennoGen Syandana"
     },
     ["Thiazi Syandana"] = {
@@ -3211,7 +3210,7 @@ return {
         Type = "Syandana"
     },
     ["Tonaca Syandana"] = {
-     	Artists = { "Master Noob" },
+        Artists = { "Master Noob" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by Master Noob.",
@@ -3222,8 +3221,8 @@ return {
         Link = "Tonaca Syandana",
         Name = "Tonaca Syandana",
         PcPrice = "$5.99",
-		Round = "11 [Batch 2]",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1095795621",
+        Round = "11 [Batch 2]",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1095795621",
         Type = "TennoGen Syandana"
     },
     ["Triodic Syandana"] = {
@@ -3247,7 +3246,7 @@ return {
         Type = "Syandana"
     },
     ["Tsujinasa Syandana"] = {
-     	Artists = { "BeastBuster" },
+         Artists = { "BeastBuster" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by BeastBuster.",
@@ -3258,8 +3257,8 @@ return {
         Link = "Tsujinasa Syandana",
         Name = "Tsujinasa Syandana",
         PcPrice = "$5.99",
-		Round = "19 [Batch 1]",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1973983539",
+        Round = "19 [Batch 1]",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1973983539",
         Type = "TennoGen Syandana"
     },
     ["Udyat Iridos Syandana"] = {
@@ -3303,7 +3302,7 @@ return {
         Type = "Syandana"
     },
     ["Valesti Syandana"] = {
-     	Artists = { "led2012", "Xtygian" },
+        Artists = { "led2012", "Xtygian" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by led2012 and Xtygian.",
@@ -3314,8 +3313,8 @@ return {
         Link = "Valesti Syandana",
         Name = "Valesti Syandana",
         PcPrice = "$5.99",
-		Round = "19 [Batch 2]",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2170736183",
+        Round = "19 [Batch 2]",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2170736183",
         Type = "TennoGen Syandana"
     },
     ["Vanquished Banner"] = {
@@ -3450,20 +3449,20 @@ return {
         Type = "Syandana"
     },
     ["Xikonos Syandana"] = {
-     	Artists = { "led2012", "daemonstar" },
-     	CodexSecret = false,
-     	ConsolePrice = "105",
-     	Description = "A syandana for your Warframe, designed by led2012 and daemonstar.",
-     	ExcludeFromCodex = false,
-     	Image = "XikonosSyandana.png",
-     	InternalName = "/Lotus/Upgrades/Skins/Scarves/SWXikonosSyanadana",
-     	Introduced = "39.1",
-     	Link = "Xikonos Syandana",
-     	Name = "Xikonos Syandana",
-     	PcPrice = "$5.99",
-     	Round = "TennoGen Factions",
-     	SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=3159326756",
-		Type = "TennoGen Syandana"
+        Artists = { "led2012", "daemonstar" },
+        CodexSecret = false,
+        ConsolePrice = "105",
+        Description = "A syandana for your Warframe, designed by led2012 and daemonstar.",
+        ExcludeFromCodex = false,
+        Image = "XikonosSyandana.png",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/SWXikonosSyanadana",
+        Introduced = "39.1",
+        Link = "Xikonos Syandana",
+        Name = "Xikonos Syandana",
+        PcPrice = "$5.99",
+        Round = "TennoGen Factions",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=3159326756",
+        Type = "TennoGen Syandana"
     },
     ["Yamako Prime Syandana"] = {
         CodexSecret = false,
@@ -3517,7 +3516,7 @@ return {
         Type = "Syandana"
     },
     ["Zaikhya Syandana"] = {
-     	Artists = { "malaya", "Cobalt" },
+        Artists = { "malaya", "Cobalt" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by malaya and Cobalt.",
@@ -3528,12 +3527,12 @@ return {
         Link = "Zaikhya Syandana",
         Name = "Zaikhya Syandana",
         PcPrice = "$5.99",
-		Round = "8",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=873451087",
+        Round = "8",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=873451087",
         Type = "TennoGen Syandana"
     },
     ["Zamariu Syandana"] = {
-     	Artists = { "led2012", "daemonstar" },
+        Artists = { "led2012", "daemonstar" },
         CodexSecret = false,
         ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by led2012 and daemonstar.",
@@ -3544,10 +3543,10 @@ return {
         Link = "Zamariu Syandana",
         Name = "Zamariu Syandana",
         PcPrice = "$5.99",
-		Round = "18",
-		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1832616113",
+        Round = "18",
+        SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1832616113",
         Type = "TennoGen Syandana"
-    }
+    },
 }
 ```
 

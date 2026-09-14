@@ -72,12 +72,17 @@ function p.buildAttachmentGallery(frame)
 
     local result = {}
     table.insert(result, "<gallery>")
-    for _, attachmentName in ipairs(attachmentList) do
-    	local attachmentObject = CosmeticData["Cosmetics"][attachmentName]
-        local line = string.format("%s|link=%s|alt=%s image|[[%s|%s]]", 
-        	attachmentObject.Image, attachmentObject.Link, attachmentObject.Name, attachmentObject.Link, attachmentObject.Name)
-        table.insert(result, line)
-    end
+	for _, attachmentName in ipairs(attachmentList) do
+	    local attachmentObject = CosmeticData["Cosmetics"][attachmentName]
+	    if not attachmentObject then
+	        table.insert(result, "<!-- missing cosmetic entry: " .. tostring(attachmentName) .. " -->")
+	    elseif not (attachmentObject.Image and attachmentObject.Link and attachmentObject.Name) then
+	        table.insert(result, "<!-- incomplete data for: " .. tostring(attachmentName) .. " (Image=" .. tostring(attachmentObject.Image) .. ", Link=" .. tostring(attachmentObject.Link) .. ", Name=" .. tostring(attachmentObject.Name) .. ") -->")
+	    else
+	        local line = string.format("%s|link=%s|alt=%s image|[[%s|%s]]", attachmentObject.Image, attachmentObject.Link, attachmentObject.Name, attachmentObject.Link, attachmentObject.Name)
+	        table.insert(result, line)
+	    end
+	end
     table.insert(result, "</gallery>")
 
     return frame:preprocess(table.concat(result, "\n"))

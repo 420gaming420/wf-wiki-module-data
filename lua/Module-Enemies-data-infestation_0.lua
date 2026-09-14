@@ -105,7 +105,7 @@ return {
 			Health = 1200,
 			Affinity = 1000,
 			BaseLevel = 1,
-			SpawnLevel = 50,
+			SpawnLevel = 30,
 			--Multis = { "?" },
 		}
 	},
@@ -1812,7 +1812,7 @@ return {
 			Health = 1200,
 			Affinity = 1000,
 			BaseLevel = 1,
-			SpawnLevel = 50,
+			SpawnLevel = 30,
 			--Multis = { "?" },
 		}
 	},
@@ -1849,7 +1849,7 @@ return {
 			Health = 1200,
 			Affinity = 1000,
 			BaseLevel = 1,
-			SpawnLevel = 50,
+			SpawnLevel = 30,
 			--Multis = { "?" },
 		}
 	},
@@ -2312,7 +2312,7 @@ return {
 			Health = 3000,
 			Affinity = 3500,
 			BaseLevel = 1,
-			SpawnLevel = 50,
+			SpawnLevel = 30,
 			--Multis = { "?" },
 		}
 	},

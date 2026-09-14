@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/userdata"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/userdata"
-wiki_timestamp: "2026-08-15T10:57:35Z"
+wiki_timestamp: "2026-09-13T19:44:53Z"
 ---
 
 ## Users Data Schema
@@ -6484,7 +6484,7 @@ return {
 				"Lodestar Syandana",
 				"Lucra Syandana",
 				"Lustratus Conquest Syandana",
-				"Lustratus Warbannr Syandana",
+				"Lustratus Warbanner Syandana",
 				"Lycanblight Syandana",
 				"Maggor Syandana",
 				"Maggor Towsun Syandana",
@@ -6494,7 +6494,7 @@ return {
 				"Merulina Prime Syandana",
 				"Misa Prime Syandana",
 				"Mithra Syandana",
-				"Monarcierro Day Of The Dead Syandana",
+				"Monarcierro Day of the Dead Syandana",
 				"Mozi Syandana",
 				"Mucusk Syandana",
 				"Mushussu Syandana",
@@ -6560,7 +6560,7 @@ return {
 				"Sari Syandana",
 				"Sarva Harness Syandana",
 				"Saturn Six Syandana",
-				"Saturn Six Day Of The Dead Syandana",
+				"Saturn Six Day of the Dead Syandana",
 				"Scapulis Syandana",
 				"Scarab Syandana",
 				"Sciathin Syandana",

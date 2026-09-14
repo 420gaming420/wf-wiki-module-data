@@ -1525,7 +1525,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/TitleGauss",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Sentirum"] = 500 },
+		Price = { ["Sentirum"] = 110 },
 		Tags = { "Roathe" },
 	},
 	["Savior of Perita"] = {

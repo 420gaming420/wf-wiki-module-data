@@ -1,12 +1,12 @@
 ---
 title: "Module:Honorias/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Honorias/data"
-wiki_timestamp: "2026-09-07T17:15:07Z"
+wiki_timestamp: "2026-09-14T02:00:19Z"
 ---
 
 Database for all [Honorias](/w/Honoria "Honoria") in [WARFRAME](/w/WARFRAME "WARFRAME"). Preferably put new honorias in the correct alphabetical order, but it is not necessary.
 
-:   *Last updated: Mon, 07 Sep 2026 17:15:07 +0000 (UTC) by [User:Kristoffer09](/w/User:Kristoffer09 "User:Kristoffer09") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
+:   *Last updated: Mon, 14 Sep 2026 02:00:19 +0000 (UTC) by [User:Land Raider](/w/User:Land_Raider "User:Land Raider") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
 
 ## Contents
 
@@ -1613,7 +1613,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/TitleGauss",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Price = { ["Sentirum"] = 500 },
+		Price = { ["Sentirum"] = 110 },
 		Tags = { "Roathe" },
 	},
 	["Savior of Perita"] = {

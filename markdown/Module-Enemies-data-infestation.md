@@ -1,7 +1,7 @@
 ---
 title: "Module:Enemies/data/infestation"
 wiki_url: "https://wiki.warframe.com/w/Module/Enemies/data/infestation"
-wiki_timestamp: "2026-08-26T22:27:48Z"
+wiki_timestamp: "2026-09-13T04:26:29Z"
 ---
 
 *Documentation for this module may be created at [Module:Enemies/data/infestation/doc](/w/Module:Enemies/data/infestation/doc?action=edit&redlink=1 "Module:Enemies/data/infestation/doc (page does not exist)")*
@@ -114,7 +114,7 @@ return {
 			Health = 1200,
 			Affinity = 1000,
 			BaseLevel = 1,
-			SpawnLevel = 50,
+			SpawnLevel = 30,
 			--Multis = { "?" },
 		}
 	},
@@ -1821,7 +1821,7 @@ return {
 			Health = 1200,
 			Affinity = 1000,
 			BaseLevel = 1,
-			SpawnLevel = 50,
+			SpawnLevel = 30,
 			--Multis = { "?" },
 		}
 	},
@@ -1858,7 +1858,7 @@ return {
 			Health = 1200,
 			Affinity = 1000,
 			BaseLevel = 1,
-			SpawnLevel = 50,
+			SpawnLevel = 30,
 			--Multis = { "?" },
 		}
 	},
@@ -2321,7 +2321,7 @@ return {
 			Health = 3000,
 			Affinity = 3500,
 			BaseLevel = 1,
-			SpawnLevel = 50,
+			SpawnLevel = 30,
 			--Multis = { "?" },
 		}
 	},

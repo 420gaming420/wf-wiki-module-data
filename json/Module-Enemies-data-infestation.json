@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:57:04.471Z"
+    "converted_at": "2026-09-14T02:14:38.060Z"
   },
   "_comments": "\t\t\t--Multis = { \"?\" },\n\t\t\t--Introduced = \"?\",\n\t\t\t--Description = \"?\",\n\t\t\t--Scans = ?,",
   "Mutalist Osprey Carrier": {
@@ -2229,7 +2229,7 @@
       ],
       "Health": 3000,
       "BaseLevel": 1,
-      "SpawnLevel": 50,
+      "SpawnLevel": 30,
       "Affinity": 3500
     }
   },
@@ -2510,7 +2510,7 @@
       ],
       "Health": 1200,
       "BaseLevel": 1,
-      "SpawnLevel": 50,
+      "SpawnLevel": 30,
       "Affinity": 1000
     }
   },
@@ -3750,7 +3750,7 @@
       ],
       "Health": 1200,
       "BaseLevel": 1,
-      "SpawnLevel": 50,
+      "SpawnLevel": 30,
       "Affinity": 1000
     }
   },
@@ -3803,7 +3803,7 @@
       ],
       "Health": 1200,
       "BaseLevel": 1,
-      "SpawnLevel": 50,
+      "SpawnLevel": 30,
       "Affinity": 1000
     }
   },

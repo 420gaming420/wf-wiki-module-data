@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-09T02:14:35.708Z"
+    "converted_at": "2026-09-14T02:14:40.699Z"
   },
   "_comments": "--- Honorias data table for [[WARFRAME]] titles.\n-- @module Honorias/data\n-- \n-- Entries from the Public Export currently not implemented or not discovered yet\n-- /Lotus/Types/Items/Titles/IncarnonMasteryTitle\n-- /Lotus/Types/Items/Titles/RailjackAshTitle\n-- /Lotus/Types/Items/Titles/RailjackGarudaTitle\n-- /Lotus/Types/Items/Titles/RememberTogetherTitle",
   "Queen of Duviri": {
@@ -2149,7 +2149,7 @@
     "Description": "",
     "Link": "Saint of Altra",
     "Price": {
-      "Sentirum": 500
+      "Sentirum": 110
     },
     "ExcludeFromCodex": true,
     "Name": "Saint of Altra",

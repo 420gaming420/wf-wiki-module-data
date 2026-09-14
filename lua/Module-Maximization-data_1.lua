@@ -1,4 +1,17 @@
-local Tooltips = { full=function(a, b) return '{{#invoke:Tooltip|full|'..a..'|'..b..'}}'end};
+local Tooltips = setmetatable({},{__index=function(self,fun) return function(...)
+	local out = {}
+	local n_i = 1
+	for k, v in pairs( select('#',...)>1 and {...} or (...) ) do
+		if k == n_i then
+			n_i=n_i+1
+			table.insert(out, v)
+		else
+			table.insert(out, k..'='..v)
+		end
+	end
+	return '{{#invoke:Tooltip|'..fun..'|'..table.concat(out, '|')..'}}'
+end end})
+
 
 --- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins
 local function merge(...) 

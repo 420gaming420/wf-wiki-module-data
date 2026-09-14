@@ -16,6 +16,21 @@ local MaxData = mw.loadData [[Module:Maximization/data]]
 
 local p = {}
 
+-- replaces/expands '{{#invoke:Tooltip}}' stubs from [[Module:Maximization/data]]
+local function tooltipsub(st) return string.gsub(st,'{{#invoke:Tooltip|([^|]*)(|[^{}]*)}}',function(fun,s)
+	local args = {}
+	for arg in s:gmatch'|([^|]*)' do
+		local k, v = arg:match'^([^=]*)=(.*)$'
+		if k then
+			local num = tonumber(k)
+			table[num and (num % 1 == 0) and num or k] = v
+		else
+			table.insert(args, arg)
+		end
+	end
+	return Tooltips[fun](args)
+end)end
+
 --- Creates a maximization calculator for a specific Warframe ability based on formulas in [[Module:Maximization/data]].
 --  @function		p.ability
 --	@alias			p.main
@@ -39,7 +54,7 @@ for _, name in ipairs(names) do
 				end
 			end
 			exist[v.name] = true
-			table.insert(ins, next_prefix..table.concat(v, ' ')..'|'..cont:gsub('{{#invoke:Tooltip|full|([^|]*)|([^}]*)}}', Tooltips.full))
+			table.insert(ins, next_prefix..table.concat(v, ' ')..'|'..tooltipsub(cont))
 			next_prefix = '|'
 		else
 			table.insert(ins, next_prefix..v)
@@ -54,7 +69,7 @@ for _, name in ipairs(names) do
 	for i, v in ipairs(max_inner and max_inner.outs or {}) do
 		local function normalize(v)
 			if type(v) == 'string' then
-				return v:gsub('{{#invoke:Tooltip|full|([^|]*)|([^}]*)}}', Tooltips.full)
+				return tooltipsub(v)
 			end
 			if type(v) ~= 'table' then error('normalize(): expected string or table, got '..type(v)) end
 			local suff = v.suff
@@ -64,7 +79,7 @@ for _, name in ipairs(names) do
 				end
 			end
 			return '<span '..table.concat(v, ' ')..'></span>'
-			..(suff and suff:gsub('{{#invoke:Tooltip|full|([^|]*)|([^}]*)}}', Tooltips.full) or '')
+			..(suff and tooltipsub(suff) or '')
 		end
 		outs[i] = '|'..normalize(v[1])..'||'..normalize(v[2])
 	end
