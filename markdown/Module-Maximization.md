@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization"
-wiki_timestamp: "2026-09-13T05:18:19Z"
+wiki_timestamp: "2026-09-14T22:11:48Z"
 ---
 
 **Maximization** creates a stat maximization calculator for Warframe abilities.
@@ -138,6 +138,7 @@ for _, name in ipairs(names) do
 	end
 end
 	local outses = {}
+	local posts = {}
 for _, name in ipairs(names) do
 	local max_inner = MaxData[name]
 	local outs = {}
@@ -159,8 +160,16 @@ for _, name in ipairs(names) do
 		outs[i] = '|'..normalize(v[1])..'||'..normalize(v[2])
 	end
 	table.insert(outses, '{| class="wikitable calc__block"\n|-\n!colspan=2|'..Tooltips.full(name, 'Ability')
-		..'\n|-\n'..table.concat(outs, '\n|-\n')..'\n|}'..(max_inner and max_inner.post or ''))
+		..'\n|-\n'..table.concat(outs, '\n|-\n')..'\n|}')
+	if max_inner and max_inner.post then
+		table.insert(posts, '
+
+'..max_inner.post..'
+
+')
+	end
 end
+
 	local max = ([=[
 
 {| class="wikitable calc__block"
@@ -177,6 +186,7 @@ end
 %s
 |}
 %s
+%s
 
 ]=]):format(
 	Tooltips.full{'Ability Strength', 'Stats', r='Strength'},
@@ -185,6 +195,7 @@ end
 	Tooltips.full{'Ability Efficiency', 'Stats', r='Efficiency'},
 	table.concat(ins, '\n|-\n'),
 	table.concat(outses, '\n'),
+	table.concat(posts, '\n'),
 nil)
 
 	return max

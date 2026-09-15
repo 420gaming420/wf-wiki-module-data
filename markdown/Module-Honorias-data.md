@@ -1,12 +1,12 @@
 ---
 title: "Module:Honorias/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Honorias/data"
-wiki_timestamp: "2026-09-14T02:00:19Z"
+wiki_timestamp: "2026-09-14T22:32:30Z"
 ---
 
 Database for all [Honorias](/w/Honoria "Honoria") in [WARFRAME](/w/WARFRAME "WARFRAME"). Preferably put new honorias in the correct alphabetical order, but it is not necessary.
 
-:   *Last updated: Mon, 14 Sep 2026 02:00:19 +0000 (UTC) by [User:Land Raider](/w/User:Land_Raider "User:Land Raider") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
+:   *Last updated: Mon, 14 Sep 2026 22:32:30 +0000 (UTC) by [User:ArbitraryMary](/w/User:ArbitraryMary "User:ArbitraryMary") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
 
 ## Contents
 
@@ -1826,7 +1826,7 @@ local honoriaData = {
 	["Supreme Operative"] = {
 		Name = "Supreme Operative",
 		Link = "Supreme Operative",
-		Description = "Awarded for beating Amir's High Score in [[Caliber Chicks]].",
+		Description = "Awarded for beating Amir's High Score in [[Caliber Chicks 2]].",
 		Position = "Suffix",
 		Introduced = "43",
 		InternalName = "/Lotus/Types/Items/Titles/CaliburChicksHighScoreTitle",

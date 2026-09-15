@@ -63,6 +63,7 @@ for _, name in ipairs(names) do
 	end
 end
 	local outses = {}
+	local posts = {}
 for _, name in ipairs(names) do
 	local max_inner = MaxData[name]
 	local outs = {}
@@ -84,8 +85,12 @@ for _, name in ipairs(names) do
 		outs[i] = '|'..normalize(v[1])..'||'..normalize(v[2])
 	end
 	table.insert(outses, '{| class="wikitable calc__block"\n|-\n!colspan=2|'..Tooltips.full(name, 'Ability')
-		..'\n|-\n'..table.concat(outs, '\n|-\n')..'\n|}'..(max_inner and max_inner.post or ''))
+		..'\n|-\n'..table.concat(outs, '\n|-\n')..'\n|}')
+	if max_inner and max_inner.post then
+		table.insert(posts, '<div style="width: 100%">'..max_inner.post..'</div>')
+	end
 end
+
 	local max = ([=[
 <div class="js-calc calc__container" data-style-number="max-width: 8ch">
 {| class="wikitable calc__block"
@@ -103,6 +108,7 @@ end
 |-
 %s
 |}
+%s
 %s</div>]=]):format(
 	Tooltips.full{'Ability Strength', 'Stats', r='Strength'},
 	Tooltips.full{'Ability Duration', 'Stats', r='Duration'},
@@ -110,6 +116,7 @@ end
 	Tooltips.full{'Ability Efficiency', 'Stats', r='Efficiency'},
 	table.concat(ins, '\n|-\n'),
 	table.concat(outses, '\n'),
+	table.concat(posts, '\n'),
 nil)
 
 	return max
