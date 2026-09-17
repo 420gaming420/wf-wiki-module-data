@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:57:18.002Z"
+    "converted_at": "2026-09-17T02:14:13.552Z"
   },
   "_comments": "\t\t\t--Introduced = \"?\",\n\t\t\t--Multis = { ? },\n\t\t\t--Multis = { \"?\" },",
   "Hunhullus": {
@@ -21,7 +21,7 @@
       "Type": "Boss",
       "Scans": 1,
       "Image": "Hunhullus.png",
-      "Name": "Dactolyst",
+      "Name": "Hunhullus",
       "Faction": "Sentient",
       "Planets": [
         "Perita"

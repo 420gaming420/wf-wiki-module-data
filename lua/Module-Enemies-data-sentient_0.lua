@@ -488,7 +488,7 @@ return {
 			Introduced = "41",
 			Link = "Hunhullus",
 			Missions = { "The Perita Rebellion" },
-			Name = "Dactolyst",
+			Name = "Hunhullus",
 			Planets = { "Perita" },
 			Scans = 1,
 			TileSets = { "Perita" },

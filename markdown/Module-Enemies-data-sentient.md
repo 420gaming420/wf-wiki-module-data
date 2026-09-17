@@ -1,7 +1,7 @@
 ---
 title: "Module:Enemies/data/sentient"
 wiki_url: "https://wiki.warframe.com/w/Module/Enemies/data/sentient"
-wiki_timestamp: "2026-02-19T18:34:10Z"
+wiki_timestamp: "2026-09-16T21:24:54Z"
 ---
 
 *Documentation for this module may be created at [Module:Enemies/data/sentient/doc](/w/Module:Enemies/data/sentient/doc?action=edit&redlink=1 "Module:Enemies/data/sentient/doc (page does not exist)")*
@@ -497,7 +497,7 @@ return {
 			Introduced = "41",
 			Link = "Hunhullus",
 			Missions = { "The Perita Rebellion" },
-			Name = "Dactolyst",
+			Name = "Hunhullus",
 			Planets = { "Perita" },
 			Scans = 1,
 			TileSets = { "Perita" },
