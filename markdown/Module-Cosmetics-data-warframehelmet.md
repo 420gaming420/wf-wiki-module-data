@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/warframehelmet"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/warframehelmet"
-wiki_timestamp: "2026-08-28T15:18:20Z"
+wiki_timestamp: "2026-09-18T13:24:39Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/warframehelmet/doc](/w/Module:Cosmetics/data/warframehelmet/doc?action=edit&redlink=1 "Module:Cosmetics/data/warframehelmet/doc (page does not exist)")*
@@ -943,6 +943,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Dagath/DagathHelmet",
         Link = "Dagath Helmet",
         Name = "Dagath Helmet",
+        Type = "Helmet"
+    },
+    ["Dagath Immortal Helmet"] = {
+        CodexSecret = false,
+        Description = "The Immortal Helmet for the Dagath Warframe.",
+        ExcludeFromCodex = false,
+        Image = "DagathImmortalHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Dagath/DagathImmortalHelmet",
+        Link = "Dagath Immortal Skin",
+        Name = "Dagath Immortal Helmet",
         Type = "Helmet"
     },
     ["Dagath Yfari Helmet"] = {
@@ -2585,6 +2595,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Choir/ChoirHelmet",
         Link = "Jade Helmet",
         Name = "Jade Helmet",
+        Type = "Helmet"
+    },
+    ["Jade Immortal Helmet"] = {
+        CodexSecret = false,
+        Description = "The Immortal Helmet for the Jade Warframe.",
+        ExcludeFromCodex = false,
+        Image = "JadeImmortalHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Choir/JadeImmortalHelmet",
+        Link = "Jade Immortal Skin",
+        Name = "Jade Immortal Helmet",
         Type = "Helmet"
     },
     ["Khora Delphi Helmet"] = {

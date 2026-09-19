@@ -1404,18 +1404,21 @@ return {
 		Equipments = {
 			Armor = {
 				"Dagath Armor",
+				"Dagath Immortal Armor",
 				"Dagath Yhavan Armor",
 				"Dagath Yfari Armor",
 			},
 			Helmet = {
 				"Dagath Ganceann Helmet",
 				"Dagath Helmet",
+				"Dagath Immortal Helmet",
 				"Dagath Yhavan Helmet",
 				"Dagath Yfari Helmet",
 				"Dagath Voiddax Helmet",
 			},
 			Skin = {
 				"Dagath Skin",
+				"Dagath Immortal Skin",
 				"Dagath Yhavan Skin",
 				"Dagath Yfari Skin",
 			},
@@ -3161,9 +3164,11 @@ return {
 			Helmet = {
 				"Jade Aureolt Helmet",
 				"Jade Helmet",
+				"Jade Immortal Helmet",
 			},
 			Skin = {
 				"Jade Skin",
+				"Jade Immortal Skin",
 			},
 		},
 		Type = "Warframe",
@@ -5871,6 +5876,8 @@ return {
 	Signa = {
 		Equipments = {
 			Signa = {
+				"Acheta Signa",
+				"Centurio Signa",
 				"Dex Signa",
 				"Diraeus Signa",
 				"Ember Heirloom Signa",
@@ -5879,6 +5886,7 @@ return {
 				"Flankon Signa",
 				"Frost Heirloom Signa",
 				"Fumulo Signa",
+				"Gothica Signa",
 				"Hana Ikada Signa",
 				"Invictus Signa",
 				"Invictus Apex Signa",
@@ -5887,15 +5895,20 @@ return {
 				"Krios Signa",
 				"Ki'Teer Nobilis Signa",
 				"Kyzen Signa",
+				"Liania Signa",
 				"Mag Heirloom Signa",
 				"Maginav Prime Signa",
+				"Mesa Heirloom Signa",
 				"Motetique Signa",
+				"Pragmatica Signa",
 				"Rhino Heirloom Signa",
 				"Stardust Signa",
 				"Tomoe Signa",
 				"Valkyr Heirloom Signa",
+				"Vermis Signa",
 				"Vauban Heirloom Signa",
 				"Vizor Signa",
+				"Zamariu Signa"
 			},
 		},
 		Type = "Attachment",

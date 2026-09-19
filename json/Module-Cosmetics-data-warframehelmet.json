@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:55:44.019Z"
+    "converted_at": "2026-09-19T02:13:40.578Z"
   },
   "_comments": "",
   "Hildryn Sigrun Helmet": {
@@ -327,6 +327,16 @@
     "Link": "Styanax Voidshell Helmet",
     "Name": "Styanax Voidshell Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Hoplite/StyanaxVoidshellHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Dagath Immortal Helmet": {
+    "Type": "Helmet",
+    "Image": "DagathImmortalHelmet.png",
+    "Description": "The Immortal Helmet for the Dagath Warframe.",
+    "Link": "Dagath Immortal Skin",
+    "Name": "Dagath Immortal Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Dagath/DagathImmortalHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -3313,16 +3323,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Qorvex Raxpart Helmet": {
-    "Type": "Helmet",
-    "Image": "QorvexRaxpartHelmet.png",
-    "Description": "Resist the siege.",
-    "Link": "Qorvex Raxpart Helmet",
-    "Name": "Qorvex Raxpart Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/ConcreteFrame/ConcreteFrameAltHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Zephyr Strafe Helmet": {
     "Type": "Helmet",
     "Image": "ZephyrStrafeHelmet.png",
@@ -3330,6 +3330,16 @@
     "Link": "Zephyr Strafe Helmet",
     "Name": "Zephyr Strafe Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Tengu/SWStrafeHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Qorvex Raxpart Helmet": {
+    "Type": "Helmet",
+    "Image": "QorvexRaxpartHelmet.png",
+    "Description": "Resist the siege.",
+    "Link": "Qorvex Raxpart Helmet",
+    "Name": "Qorvex Raxpart Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/ConcreteFrame/ConcreteFrameAltHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -3350,6 +3360,16 @@
     "Link": "Zephyr Prime Helmet",
     "Name": "Zephyr Prime Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Tengu/ZephyrPrimeHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Zephyr Helmet": {
+    "Type": "Helmet",
+    "Image": "ZephyrHelmet.png",
+    "Description": "The standard issue helmet for the Zephyr Warframe.",
+    "Link": "Zephyr Helmet",
+    "Name": "Zephyr Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Tengu/TenguHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -3403,16 +3423,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Zephyr Helmet": {
-    "Type": "Helmet",
-    "Image": "ZephyrHelmet.png",
-    "Description": "The standard issue helmet for the Zephyr Warframe.",
-    "Link": "Zephyr Helmet",
-    "Name": "Zephyr Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Tengu/TenguHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Zephyr Harrier Helmet": {
     "Type": "Helmet",
     "Image": "ZephyrHarrierHelmet.png",
@@ -3423,23 +3433,23 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Sevagoth Helmet": {
+  "Sevagoth Glaukus Helmet": {
     "Type": "Helmet",
-    "Image": "SevagothHelmet.png",
-    "Description": "The standard issue helmet for the Sevagoth Warframe.",
-    "Link": "Sevagoth Helmet",
-    "Name": "Sevagoth Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Wraith/WraithHelmet",
+    "Image": "SevagothGlaukusHelmet.png",
+    "Description": "Sevagoth Glaukus' signature helmet.",
+    "Link": "Sevagoth Glaukus Helmet",
+    "Name": "Sevagoth Glaukus Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Wraith/SevagothDeluxeHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Wisp Damas Helmet": {
+  "Nidus Night Hunter Helmet": {
     "Type": "Helmet",
-    "Image": "WispDamasHelmet.png",
-    "Description": "A helmet for the Wisp Warframe, designed by FrellingHazmot.",
-    "Link": "Wisp Damas Helmet",
-    "Name": "Wisp Damas Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Wisp/SWDamasHelmet",
+    "Image": "NidusNightHunterHelmet.png",
+    "Description": "A helmet for the Nidus Warframe, designed by Mz-3.",
+    "Link": "Nidus Night Hunter Helmet",
+    "Name": "Nidus Night Hunter Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Infestation/SWNightHunterHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -3453,13 +3463,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Octavia Helmet": {
+  "Oberon Oryx Helmet": {
     "Type": "Helmet",
-    "Image": "OctaviaHelmet.png",
-    "Description": "The standard issue helmet for the Octavia Warframe.",
-    "Link": "Octavia Helmet",
-    "Name": "Octavia Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Bard/BardHelmet",
+    "Image": "OberonOryxHelmet.png",
+    "Description": "A uniquely-styled alternate helmet for Oberon.",
+    "Link": "Oberon Oryx Helmet",
+    "Name": "Oberon Oryx Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Paladin/PaladinHelmetAlt",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -3470,6 +3480,16 @@
     "Link": "Yareli Physalia Helmet",
     "Name": "Yareli Physalia Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Yareli/YareliAltHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ivara Obsidian Helmet": {
+    "Type": "Helmet",
+    "Image": "IvaraObsidianHelmet.png",
+    "Description": "A next-generation helmet for the Ivara Warframe.",
+    "Link": "Ivara Obsidian Helmet",
+    "Name": "Ivara Obsidian Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Archer/ObsidianIvaraHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -3493,13 +3513,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Excalibur Graxx-V2 Helmet": {
+  "Xaku Kagura Helmet": {
     "Type": "Helmet",
-    "Image": "ExcaliburGraxx-V2Helmet.png",
-    "Description": "A helmet for the Excalibur Warframe, designed by Faven.",
-    "Link": "Excalibur Graxx-V2 Helmet",
-    "Name": "Excalibur Graxx-V2 Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Excalibur/SWRFourGraxxAltHelmet",
+    "Image": "XakuKaguraHelmet.png",
+    "Description": "Xaku Kagura's signature helmet.",
+    "Link": "Xaku Kagura Helmet",
+    "Name": "Xaku Kagura Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/BrokenFrame/XakuDeluxeHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -3524,16 +3544,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Frost/FrostHelmetAltB",
     "CodexSecret": false
   },
-  "Xaku Kagura Helmet": {
-    "Type": "Helmet",
-    "Image": "XakuKaguraHelmet.png",
-    "Description": "Xaku Kagura's signature helmet.",
-    "Link": "Xaku Kagura Helmet",
-    "Name": "Xaku Kagura Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/BrokenFrame/XakuDeluxeHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Wukong Xingzhe Helmet": {
     "Type": "Helmet",
     "Image": "WukongXingzheHelmet.png",
@@ -3541,16 +3551,6 @@
     "Link": "Wukong Xingzhe Helmet",
     "Name": "Wukong Xingzhe Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/MonkeyKing/SWRFiveWukongXingzheHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Nezha Empyrean Helmet": {
-    "Type": "Helmet",
-    "Image": "NezhaEmpyreanHelmet.png",
-    "Description": "Nezha Empyrean's signature helmet.",
-    "Link": "Nezha Empyrean Helmet",
-    "Name": "Nezha Empyrean Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Nezha/NezhaDeluxeHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -3564,6 +3564,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Nezha Empyrean Helmet": {
+    "Type": "Helmet",
+    "Image": "NezhaEmpyreanHelmet.png",
+    "Description": "Nezha Empyrean's signature helmet.",
+    "Link": "Nezha Empyrean Helmet",
+    "Name": "Nezha Empyrean Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Nezha/NezhaDeluxeHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Wukong Piercing Eye Helmet": {
     "Type": "Helmet",
     "Image": "WukongPiercingEyeHelmet.png",
@@ -3571,6 +3581,16 @@
     "Link": "Wukong Piercing Eye Helmet",
     "Name": "Wukong Piercing Eye Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/MonkeyKing/SWPiercingEyeHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Wukong Macak Helmet": {
+    "Type": "Helmet",
+    "Image": "WukongMacakHelmet.png",
+    "Description": "An alternative helmet for the Wukong Warframe.",
+    "Link": "Wukong Macak Helmet",
+    "Name": "Wukong Macak Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/MonkeyKing/MonkeyKingAltHelmetB",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -3594,23 +3614,23 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Wukong Macak Helmet": {
+  "Mesa Prime Helmet": {
     "Type": "Helmet",
-    "Image": "WukongMacakHelmet.png",
-    "Description": "An alternative helmet for the Wukong Warframe.",
-    "Link": "Wukong Macak Helmet",
-    "Name": "Wukong Macak Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/MonkeyKing/MonkeyKingAltHelmetB",
+    "Image": "MesaPrimeHelmet.png",
+    "Description": "The standard issue helmet for the Mesa Prime Warframe.",
+    "Link": "Mesa Prime Helmet",
+    "Name": "Mesa Prime Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Cowgirl/MesaPrimeHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Mirage Graxx Helmet": {
+  "Wisp Prime Helmet": {
     "Type": "Helmet",
-    "Image": "MirageGraxxHelmet.png",
-    "Description": "A helmet for the Mirage Warframe, designed by Faven.",
-    "Link": "Mirage Graxx Helmet",
-    "Name": "Mirage Graxx Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Harlequin/SWRFourMirageGraxxHelmet",
+    "Image": "WispPrimeHelmet.png",
+    "Description": "The standard issue helmet for the Wisp Prime Warframe.",
+    "Link": "Wisp Prime Helmet",
+    "Name": "Wisp Prime Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Wisp/WispPrimeHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -3664,13 +3684,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Wisp Prime Helmet": {
+  "Volt Capacitor Helmet": {
     "Type": "Helmet",
-    "Image": "WispPrimeHelmet.png",
-    "Description": "The standard issue helmet for the Wisp Prime Warframe.",
-    "Link": "Wisp Prime Helmet",
-    "Name": "Wisp Prime Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Wisp/WispPrimeHelmet",
+    "Image": "VoltCapacitorHelmet.png",
+    "Description": "A helmet for the Volt Warframe, designed by Del.",
+    "Link": "Volt Capacitor Helmet",
+    "Name": "Volt Capacitor Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Volt/SWCapacitorHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -3684,16 +3704,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Volt Graxx Helmet": {
-    "Type": "Helmet",
-    "Image": "VoltGraxxHelmet.png",
-    "Description": "A helmet for the Volt Warframe, designed by Faven.",
-    "Link": "Volt Graxx Helmet",
-    "Name": "Volt Graxx Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Volt/SWRFourVoltGraxxHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Wisp Dex Helmet": {
     "Type": "Helmet",
     "Image": "WispDexHelmet.png",
@@ -3701,6 +3711,16 @@
     "Link": "Wisp Dex Helmet",
     "Name": "Wisp Dex Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Wisp/DexWispHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Wisp Damas Helmet": {
+    "Type": "Helmet",
+    "Image": "WispDamasHelmet.png",
+    "Description": "A helmet for the Wisp Warframe, designed by FrellingHazmot.",
+    "Link": "Wisp Damas Helmet",
+    "Name": "Wisp Damas Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Wisp/SWDamasHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -3714,23 +3734,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Nokko Mycorrhiza Helmet": {
-    "ExcludeFrlmCodex": false,
-    "Image": "NokkoMycorrhizaHelmet.png",
-    "Description": "Nokko’s alternate helm proves that the style of a warrior doesn’t have to sacrifice function.",
-    "Link": "Nokko Mycorrhiza Helmet",
+  "Volt Arrester Helmet": {
     "Type": "Helmet",
-    "Name": "Nokko Mycorrhiza Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Nokko/NokkoAltHelmet",
-    "CodexSecret": false
-  },
-  "Volt Capacitor Helmet": {
-    "Type": "Helmet",
-    "Image": "VoltCapacitorHelmet.png",
-    "Description": "A helmet for the Volt Warframe, designed by Del.",
-    "Link": "Volt Capacitor Helmet",
-    "Name": "Volt Capacitor Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Volt/SWCapacitorHelmet",
+    "Image": "VoltArresterHelmet.png",
+    "Description": "A helmet for the Volt Warframe, designed by Rekkou.",
+    "Link": "Volt Arrester Helmet",
+    "Name": "Volt Arrester Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Volt/SWArresterVoltHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -3764,6 +3774,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Volt Opal Helmet": {
+    "Type": "Helmet",
+    "Image": "VoltOpalHelmet.png",
+    "Description": "A next-generation helmet for the Volt Warframe.",
+    "Link": "Volt Opal Helmet",
+    "Name": "Volt Opal Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Volt/NintendoVoltHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Nyx Helmet": {
     "Type": "Helmet",
     "Image": "NyxHelmet.png",
@@ -3794,13 +3814,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Volt Opal Helmet": {
+  "Volt Graxx Helmet": {
     "Type": "Helmet",
-    "Image": "VoltOpalHelmet.png",
-    "Description": "A next-generation helmet for the Volt Warframe.",
-    "Link": "Volt Opal Helmet",
-    "Name": "Volt Opal Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Volt/NintendoVoltHelmet",
+    "Image": "VoltGraxxHelmet.png",
+    "Description": "A helmet for the Volt Warframe, designed by Faven.",
+    "Link": "Volt Graxx Helmet",
+    "Name": "Volt Graxx Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Volt/SWRFourVoltGraxxHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -3955,16 +3975,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Volt Arrester Helmet": {
-    "Type": "Helmet",
-    "Image": "VoltArresterHelmet.png",
-    "Description": "A helmet for the Volt Warframe, designed by Rekkou.",
-    "Link": "Volt Arrester Helmet",
-    "Name": "Volt Arrester Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Volt/SWArresterVoltHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Volt Amp Helmet": {
     "Type": "Helmet",
     "Image": "VoltAmpHelmet.png",
@@ -3985,16 +3995,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Banshee Helmet": {
-    "Type": "Helmet",
-    "Image": "BansheeHelmet.png",
-    "Description": "The standard issue helmet for the Banshee Warframe.",
-    "Link": "Banshee Helmet",
-    "Name": "Banshee Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Decree/DecreeHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Vauban Phased Helmet": {
     "Type": "Helmet",
     "Image": "VaubanPhasedHelmet.png",
@@ -4002,6 +4002,16 @@
     "Link": "Vauban Phased Helmet",
     "Name": "Vauban Phased Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Trapper/VaubanVoidSkinHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Banshee Helmet": {
+    "Type": "Helmet",
+    "Image": "BansheeHelmet.png",
+    "Description": "The standard issue helmet for the Banshee Warframe.",
+    "Link": "Banshee Helmet",
+    "Name": "Banshee Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Decree/DecreeHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4025,16 +4035,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Gara Adora Helmet": {
-    "Type": "Helmet",
-    "Image": "GaraAdoraHelmet.png",
-    "Description": "A helmet for the Gara Warframe, designed by That1Cactus and blazingcobalt.",
-    "Link": "Gara Adora Helmet",
-    "Name": "Gara Adora Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Glass/SWGaraAdoraHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Vauban Citadel Helmet": {
     "Type": "Helmet",
     "Image": "VaubanCitadelHelmet.png",
@@ -4042,6 +4042,16 @@
     "Link": "Vauban Citadel Helmet",
     "Name": "Vauban Citadel Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Trapper/VaubanDeluxeHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Gara Adora Helmet": {
+    "Type": "Helmet",
+    "Image": "GaraAdoraHelmet.png",
+    "Description": "A helmet for the Gara Warframe, designed by That1Cactus and blazingcobalt.",
+    "Link": "Gara Adora Helmet",
+    "Name": "Gara Adora Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Glass/SWGaraAdoraHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4055,16 +4065,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Khora Laveau Helmet": {
-    "Type": "Helmet",
-    "Image": "KhoraLaveauHelmet.png",
-    "Description": "A helmet for the Khora Warframe, designed by Volkovyi and led2012.",
-    "Link": "Khora Laveau Helmet",
-    "Name": "Khora Laveau Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Khora/SWLaveauHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Valkyr Kara Helmet": {
     "Type": "Helmet",
     "Image": "ValkyrKaraHelmet.png",
@@ -4072,6 +4072,16 @@
     "Link": "Valkyr Kara Helmet",
     "Name": "Valkyr Kara Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Berserker/ValkyrAltBHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Khora Laveau Helmet": {
+    "Type": "Helmet",
+    "Image": "KhoraLaveauHelmet.png",
+    "Description": "A helmet for the Khora Warframe, designed by Volkovyi and led2012.",
+    "Link": "Khora Laveau Helmet",
+    "Name": "Khora Laveau Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Khora/SWLaveauHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4085,6 +4095,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Valkyr Heirloom Helmet": {
+    "Type": "Helmet",
+    "Image": "ValkyrHeirloomHelmet.png",
+    "Description": "Valkyr Heirloom's signature helmet.",
+    "Link": "Valkyr Heirloom Helmet",
+    "Name": "Valkyr Heirloom Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Berserker/ValkyrHeirloomHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Arcane Reverb Helmet": {
     "Type": "Helmet",
     "Description": "This helmet is worn by Banshee, and grants Max Energy Boost, with a reduction to Health.",
@@ -4094,16 +4114,6 @@
     "Name": "Arcane Reverb Helmet",
     "Tradable": true,
     "InternalName": "/Lotus/Upgrades/Skins/Decree/DecreeAltHelmet",
-    "CodexSecret": false
-  },
-  "Valkyr Heirloom Helmet": {
-    "Type": "Helmet",
-    "Image": "ValkyrHeirloomHelmet.png",
-    "Description": "Valkyr Heirloom's signature helmet.",
-    "Link": "Valkyr Heirloom Helmet",
-    "Name": "Valkyr Heirloom Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Berserker/ValkyrHeirloomHelmet",
-    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Valkyr Graxx Helmet": {
@@ -4166,6 +4176,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Revenant Mephisto Helmet": {
+    "Type": "Helmet",
+    "Image": "RevenantMephistoHelmet.png",
+    "Description": "Hooded and horned, Revenant keeps his eternal vigil.",
+    "Link": "Revenant Mephisto Helmet",
+    "Name": "Revenant Mephisto Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Revenant/RevenantDeluxeHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Octavia Giocoso Helmet": {
     "Type": "Helmet",
     "Image": "OctaviaGiocosoHelmet.png",
@@ -4186,13 +4206,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Revenant Prime Helmet": {
+  "Trinity Meridian Helmet": {
     "Type": "Helmet",
-    "Image": "RevenantPrimeHelmet.png",
-    "Description": "The standard issue helmet for the Revenant Prime Warframe.",
-    "Link": "Revenant Prime Helmet",
-    "Name": "Revenant Prime Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Revenant/RevenantPrimeHelmet",
+    "Image": "TrinityMeridianHelmet.png",
+    "Description": "Meridian Helmet for the Trinity Warframe.",
+    "Link": "Trinity Meridian Helmet",
+    "Name": "Trinity Meridian Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Trinity/TrinityHelmetAltBStatless",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4226,16 +4246,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Trinity Meridian Helmet": {
-    "Type": "Helmet",
-    "Image": "TrinityMeridianHelmet.png",
-    "Description": "Meridian Helmet for the Trinity Warframe.",
-    "Link": "Trinity Meridian Helmet",
-    "Name": "Trinity Meridian Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Trinity/TrinityHelmetAltBStatless",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Trinity Knightess Helmet": {
     "Type": "Helmet",
     "Image": "TrinityKnightessHelmet.png",
@@ -4246,13 +4256,23 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Mag Prime Helmet": {
+  "Mag Orbit Helmet": {
     "Type": "Helmet",
-    "Image": "MagPrimeHelmet.png",
-    "Description": "The standard issue helmet for the Mag Prime Warframe.",
-    "Link": "Mag Prime Helmet",
-    "Name": "Mag Prime Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Mag/MagPrimeHelmet",
+    "Image": "MagOrbitHelmet.png",
+    "Description": "A helmet for the Mag Warframe, designed by drawingyourdreams.",
+    "Link": "Mag Orbit Helmet",
+    "Name": "Mag Orbit Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Mag/SWRThreeOrbitHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Trinity Blade Of The Lotus Helmet": {
+    "Type": "Helmet",
+    "Image": "TrinityBladeOfTheLotusHelmet.png",
+    "Description": "A helmet for the Trinity Warframe, designed by BeastBuster.",
+    "Link": "Trinity Blade Of The Lotus Helmet",
+    "Name": "Trinity Blade Of The Lotus Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Trinity/SWTrinityBotLHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4273,16 +4293,6 @@
     "Link": "Nova Asuri Helmet",
     "Name": "Nova Asuri Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/AntiMatter/NovaDeluxeHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Trinity Blade Of The Lotus Helmet": {
-    "Type": "Helmet",
-    "Image": "TrinityBladeOfTheLotusHelmet.png",
-    "Description": "A helmet for the Trinity Warframe, designed by BeastBuster.",
-    "Link": "Trinity Blade Of The Lotus Helmet",
-    "Name": "Trinity Blade Of The Lotus Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Trinity/SWTrinityBotLHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4326,16 +4336,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Rhino Thrak Helmet": {
-    "Type": "Helmet",
-    "Image": "RhinoThrakHelmet.png",
-    "Description": "Thrak Helmet for the Rhino Warframe.",
-    "Link": "Rhino Thrak Helmet",
-    "Name": "Rhino Thrak Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Rhino/RhinoHelmetAltStatless",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Titania Lympharis Helmet": {
     "Type": "Helmet",
     "Image": "TitaniaLympharisHelmet.png",
@@ -4343,6 +4343,16 @@
     "Link": "Titania Lympharis Helmet",
     "Name": "Titania Lympharis Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Fairy/SWLympharisHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Rhino Thrak Helmet": {
+    "Type": "Helmet",
+    "Image": "RhinoThrakHelmet.png",
+    "Description": "Thrak Helmet for the Rhino Warframe.",
+    "Link": "Rhino Thrak Helmet",
+    "Name": "Rhino Thrak Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Rhino/RhinoHelmetAltStatless",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4366,6 +4376,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Excalibur Graxx-V2 Helmet": {
+    "Type": "Helmet",
+    "Image": "ExcaliburGraxx-V2Helmet.png",
+    "Description": "A helmet for the Excalibur Warframe, designed by Faven.",
+    "Link": "Excalibur Graxx-V2 Helmet",
+    "Name": "Excalibur Graxx-V2 Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Excalibur/SWRFourGraxxAltHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Mag Coil Helmet": {
     "Type": "Helmet",
     "Image": "MagCoilHelmet.png",
@@ -4376,13 +4396,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Revenant Ahriman Helmet": {
+  "Khora Miyabi Helmet": {
     "Type": "Helmet",
-    "Image": "RevenantAhrimanHelmet.png",
-    "Description": "A helmet for the Revenant Warframe, designed by Vulbjorn.",
-    "Link": "Revenant Ahriman Helmet",
-    "Name": "Revenant Ahriman Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Revenant/SWAhrimanHelmet",
+    "Image": "KhoraMiyabiHelmet.png",
+    "Description": "A helmet for the Khora Warframe, designed by malaya and Awk'Q-Luz.",
+    "Link": "Khora Miyabi Helmet",
+    "Name": "Khora Miyabi Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Khora/SWKhoraOiranHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4406,13 +4426,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Gara Prime Helmet": {
+  "Styanax Prime Helmet": {
     "Type": "Helmet",
-    "Image": "GaraPrimeHelmet.png",
-    "Description": "The standard issue helmet for the Gara Prime Warframe.",
-    "Link": "Gara Prime Helmet",
-    "Name": "Gara Prime Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Glass/GaraPrimeHelmet",
+    "Image": "StyanaxPrimeHelmet.png",
+    "Description": "The standard issue helmet for the Styanax Prime Warframe.",
+    "Link": "Styanax Prime Helmet",
+    "Name": "Styanax Prime Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoplite/StyanaxPrimeHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4426,13 +4446,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Styanax Prime Helmet": {
+  "Styanax Prime Bare Helmet": {
     "Type": "Helmet",
-    "Image": "StyanaxPrimeHelmet.png",
-    "Description": "The standard issue helmet for the Styanax Prime Warframe.",
-    "Link": "Styanax Prime Helmet",
-    "Name": "Styanax Prime Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Hoplite/StyanaxPrimeHelmet",
+    "Image": "StyanaxPrimeBareHelmet.png",
+    "Description": "Styanax Prime's helmet, stripped down and ready to enter the melee.",
+    "Link": "Styanax Prime Bare Helmet",
+    "Name": "Styanax Prime Bare Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoplite/StyanaxPrimeHelmetNoCloth",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4446,13 +4466,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Styanax Prime Bare Helmet": {
+  "Styanax Helmet": {
     "Type": "Helmet",
-    "Image": "StyanaxPrimeBareHelmet.png",
-    "Description": "Styanax Prime's helmet, stripped down and ready to enter the melee.",
-    "Link": "Styanax Prime Bare Helmet",
-    "Name": "Styanax Prime Bare Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Hoplite/StyanaxPrimeHelmetNoCloth",
+    "Image": "StyanaxHelmet.png",
+    "Description": "The standard issue helmet for the Styanax Warframe.",
+    "Link": "Styanax Helmet",
+    "Name": "Styanax Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoplite/HopliteHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4466,13 +4486,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Styanax Helmet": {
+  "Gara Prime Helmet": {
     "Type": "Helmet",
-    "Image": "StyanaxHelmet.png",
-    "Description": "The standard issue helmet for the Styanax Warframe.",
-    "Link": "Styanax Helmet",
-    "Name": "Styanax Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Hoplite/HopliteHelmet",
+    "Image": "GaraPrimeHelmet.png",
+    "Description": "The standard issue helmet for the Gara Prime Warframe.",
+    "Link": "Gara Prime Helmet",
+    "Name": "Gara Prime Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Glass/GaraPrimeHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4493,16 +4513,6 @@
     "Link": "Styanax Synmora Helmet",
     "Name": "Styanax Synmora Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Hoplite/HopliteAltBHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Khora Miyabi Helmet": {
-    "Type": "Helmet",
-    "Image": "KhoraMiyabiHelmet.png",
-    "Description": "A helmet for the Khora Warframe, designed by malaya and Awk'Q-Luz.",
-    "Link": "Khora Miyabi Helmet",
-    "Name": "Khora Miyabi Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Khora/SWKhoraOiranHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4536,6 +4546,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Sevagoth Helmet": {
+    "Type": "Helmet",
+    "Image": "SevagothHelmet.png",
+    "Description": "The standard issue helmet for the Sevagoth Warframe.",
+    "Link": "Sevagoth Helmet",
+    "Name": "Sevagoth Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Wraith/WraithHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Mirage Nuwa Helmet": {
     "Type": "Helmet",
     "Image": "MirageNuwaHelmet.png",
@@ -4556,16 +4576,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Sevagoth Glaukus Helmet": {
-    "Type": "Helmet",
-    "Image": "SevagothGlaukusHelmet.png",
-    "Description": "Sevagoth Glaukus' signature helmet.",
-    "Link": "Sevagoth Glaukus Helmet",
-    "Name": "Sevagoth Glaukus Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Wraith/SevagothDeluxeHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Sevagoth Ezriel Helmet": {
     "Type": "Helmet",
     "Image": "SevagothEzrielHelmet.png",
@@ -4576,16 +4586,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Equinox Antonym Helmet": {
-    "Type": "Helmet",
-    "Image": "EquinoxAntonymHelmet.png",
-    "Description": "Equinox Antonym's signature helmet.",
-    "Link": "Equinox Antonym Helmet",
-    "Name": "Equinox Antonym Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/YinYang/EquinoxDeluxeHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Saryn Voidshell Helmet": {
     "Type": "Helmet",
     "Image": "SarynVoidshellHelmet.png",
@@ -4593,6 +4593,16 @@
     "Link": "Saryn Voidshell Helmet",
     "Name": "Saryn Voidshell Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Saryn/SarynChameleonBHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Equinox Antonym Helmet": {
+    "Type": "Helmet",
+    "Image": "EquinoxAntonymHelmet.png",
+    "Description": "Equinox Antonym's signature helmet.",
+    "Link": "Equinox Antonym Helmet",
+    "Name": "Equinox Antonym Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/YinYang/EquinoxDeluxeHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4616,16 +4626,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Excalibur Ion Helmet": {
-    "Type": "Helmet",
-    "Image": "ExcaliburIonHelmet.png",
-    "Description": "A helmet for the Excalibur Warframe, designed by Yatus.",
-    "Link": "Excalibur Ion Helmet",
-    "Name": "Excalibur Ion Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Excalibur/SWIonExcaliburHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Saryn Orphid Helmet": {
     "Type": "Helmet",
     "Image": "SarynOrphidHelmet.png",
@@ -4633,6 +4633,16 @@
     "Link": "Saryn Orphid Helmet",
     "Name": "Saryn Orphid Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Saryn/SarynDeluxeHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Excalibur Ion Helmet": {
+    "Type": "Helmet",
+    "Image": "ExcaliburIonHelmet.png",
+    "Description": "A helmet for the Excalibur Warframe, designed by Yatus.",
+    "Link": "Excalibur Ion Helmet",
+    "Name": "Excalibur Ion Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Excalibur/SWIonExcaliburHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4656,16 +4666,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Gyre Helmet": {
-    "Type": "Helmet",
-    "Image": "GyreHelmet.png",
-    "Description": "The standard issue helmet for the Gyre Warframe.",
-    "Link": "Gyre Helmet",
-    "Name": "Gyre Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Gyre/GyreHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Saryn Ion Helmet": {
     "Type": "Helmet",
     "Image": "SarynIonHelmet.png",
@@ -4676,13 +4676,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Saryn Integra Helmet": {
+  "Gyre Helmet": {
     "Type": "Helmet",
-    "Image": "SarynIntegraHelmet.png",
-    "Description": "A unique skin for the Saryn Warframe, designed by Cheshire.",
-    "Link": "Saryn Integra Helmet",
-    "Name": "Saryn Integra Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Saryn/SWIntegraHelmet",
+    "Image": "GyreHelmet.png",
+    "Description": "The standard issue helmet for the Gyre Warframe.",
+    "Link": "Gyre Helmet",
+    "Name": "Gyre Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Gyre/GyreHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4696,13 +4696,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Nidus Technocyst Helmet": {
+  "Saryn Integra Helmet": {
     "Type": "Helmet",
-    "Image": "NidusTechnocystHelmet.png",
-    "Description": "A helmet for the Nidus Warframe, designed by Master Noob.",
-    "Link": "Nidus Technocyst Helmet",
-    "Name": "Nidus Technocyst Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Infestation/SWTechnocystHelmet",
+    "Image": "SarynIntegraHelmet.png",
+    "Description": "A unique skin for the Saryn Warframe, designed by Cheshire.",
+    "Link": "Saryn Integra Helmet",
+    "Name": "Saryn Integra Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Saryn/SWIntegraHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4713,6 +4713,16 @@
     "Link": "Saryn Helmet",
     "Name": "Saryn Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Asp/AspHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Nidus Technocyst Helmet": {
+    "Type": "Helmet",
+    "Image": "NidusTechnocystHelmet.png",
+    "Description": "A helmet for the Nidus Warframe, designed by Master Noob.",
+    "Link": "Nidus Technocyst Helmet",
+    "Name": "Nidus Technocyst Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Infestation/SWTechnocystHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4736,6 +4746,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Mirage Mithra Helmet": {
+    "Type": "Helmet",
+    "Image": "MirageMithraHelmet.png",
+    "Description": "A helmet for the Mirage Warframe, designed by lukinu_u.",
+    "Link": "Mirage Mithra Helmet",
+    "Name": "Mirage Mithra Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Harlequin/SWMithraHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Nyx Athena Helmet": {
     "Type": "Helmet",
     "Image": "NyxAthenaHelmet.png",
@@ -4746,23 +4766,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Mirage Morgaine Helmet": {
+  "Nekros Charon Helmet": {
     "Type": "Helmet",
-    "Image": "MirageMorgaineHelmet.png",
-    "Description": "A helmet for the Mirage Warframe, designed by artarrwen.",
-    "Link": "Mirage Morgaine Helmet",
-    "Name": "Mirage Morgaine Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Harlequin/SWMorgaineHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Nekros Graxx Helmet": {
-    "Type": "Helmet",
-    "Image": "NekrosGraxxHelmet.png",
-    "Description": "A helmet for the Nekros Warframe, designed by Faven.",
-    "Link": "Nekros Graxx Helmet",
-    "Name": "Nekros Graxx Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Necro/SWNekrosGraxxHelmet",
+    "Image": "NekrosCharonHelmet.png",
+    "Description": "A helmet for the Nekros Warframe, designed by malaya and Scharkie.",
+    "Link": "Nekros Charon Helmet",
+    "Name": "Nekros Charon Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Necro/SWCharonHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4776,16 +4786,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Jade Aureolt Helmet": {
-    "Type": "Helmet",
-    "Image": "JadeAureoltHelmet.png",
-    "Description": "Affirm Jade’s sacred nature.",
-    "Link": "Jade Aureolt Helmet",
-    "Name": "Jade Aureolt Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Choir/ChoirAltHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Rhino Rubedo Plated Helmet": {
     "Type": "Helmet",
     "Image": "RhinoRubedoPlatedHelmet.png",
@@ -4793,6 +4793,16 @@
     "Link": "Rhino Rubedo Plated Helmet",
     "Name": "Rhino Rubedo Plated Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Rhino/RhinoRubedoSkinHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Jade Aureolt Helmet": {
+    "Type": "Helmet",
+    "Image": "JadeAureoltHelmet.png",
+    "Description": "Affirm Jade’s sacred nature.",
+    "Link": "Jade Aureolt Helmet",
+    "Name": "Jade Aureolt Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Choir/ChoirAltHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4826,6 +4836,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Mag Knaita Helmet": {
+    "Type": "Helmet",
+    "Image": "MagKnaitaHelmet.png",
+    "Description": "A helmet designed to match the Mag Knaita Skin, designed by prosetisen.",
+    "Link": "Mag Knaita Helmet",
+    "Name": "Mag Knaita Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Mag/SWROneMagHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Hildryn Helmet": {
     "Type": "Helmet",
     "Image": "HildrynHelmet.png",
@@ -4846,13 +4866,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Mag Orbit Helmet": {
+  "Rhino Heirloom Helmet": {
     "Type": "Helmet",
-    "Image": "MagOrbitHelmet.png",
-    "Description": "A helmet for the Mag Warframe, designed by drawingyourdreams.",
-    "Link": "Mag Orbit Helmet",
-    "Name": "Mag Orbit Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Mag/SWRThreeOrbitHelmet",
+    "Image": "RhinoHeirloomHelmet.png",
+    "Description": "Rhino Heirloom's signature helmet.",
+    "Link": "Rhino Heirloom Helmet",
+    "Name": "Rhino Heirloom Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Rhino/RhinoHeirloomHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4866,16 +4886,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Rhino Heirloom Helmet": {
-    "Type": "Helmet",
-    "Image": "RhinoHeirloomHelmet.png",
-    "Description": "Rhino Heirloom's signature helmet.",
-    "Link": "Rhino Heirloom Helmet",
-    "Name": "Rhino Heirloom Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Rhino/RhinoHeirloomHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Rhino Graxx Helmet": {
     "Type": "Helmet",
     "Image": "RhinoGraxxHelmet.png",
@@ -4883,16 +4893,6 @@
     "Link": "Rhino Graxx Helmet",
     "Name": "Rhino Graxx Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Rhino/SWRFourRhinoGraxxHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Hydroid Rorqual Helmet": {
-    "Type": "Helmet",
-    "Image": "HydroidRorqualHelmet.png",
-    "Description": "A helmet for the Hydroid Warframe, designed by Rekkou.",
-    "Link": "Hydroid Rorqual Helmet",
-    "Name": "Hydroid Rorqual Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Pirate/SWRorqualHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4906,6 +4906,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Hydroid Rorqual Helmet": {
+    "Type": "Helmet",
+    "Image": "HydroidRorqualHelmet.png",
+    "Description": "A helmet for the Hydroid Warframe, designed by Rekkou.",
+    "Link": "Hydroid Rorqual Helmet",
+    "Name": "Hydroid Rorqual Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Pirate/SWRorqualHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Revenant Tenebrus Helmet": {
     "Type": "Helmet",
     "Image": "RevenantTenebrusHelmet.png",
@@ -4916,6 +4926,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Revenant Prime Helmet": {
+    "Type": "Helmet",
+    "Image": "RevenantPrimeHelmet.png",
+    "Description": "The standard issue helmet for the Revenant Prime Warframe.",
+    "Link": "Revenant Prime Helmet",
+    "Name": "Revenant Prime Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Revenant/RevenantPrimeHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Trinity Messiah Helmet": {
     "Type": "Helmet",
     "Image": "TrinityMessiahHelmet.png",
@@ -4923,16 +4943,6 @@
     "Link": "Trinity Messiah Helmet",
     "Name": "Trinity Messiah Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Trinity/SWRFiveTrinityMessiahHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Revenant Mephisto Helmet": {
-    "Type": "Helmet",
-    "Image": "RevenantMephistoHelmet.png",
-    "Description": "Hooded and horned, Revenant keeps his eternal vigil.",
-    "Link": "Revenant Mephisto Helmet",
-    "Name": "Revenant Mephisto Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Revenant/RevenantDeluxeHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4953,6 +4963,16 @@
     "Link": "Revenant Draugen Helmet",
     "Name": "Revenant Draugen Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Revenant/SWDraugenHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Revenant Ahriman Helmet": {
+    "Type": "Helmet",
+    "Image": "RevenantAhrimanHelmet.png",
+    "Description": "A helmet for the Revenant Warframe, designed by Vulbjorn.",
+    "Link": "Revenant Ahriman Helmet",
+    "Name": "Revenant Ahriman Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Revenant/SWAhrimanHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -4986,13 +5006,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Ivara Obsidian Helmet": {
+  "Protea Mavv Helmet": {
     "Type": "Helmet",
-    "Image": "IvaraObsidianHelmet.png",
-    "Description": "A next-generation helmet for the Ivara Warframe.",
-    "Link": "Ivara Obsidian Helmet",
-    "Name": "Ivara Obsidian Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Archer/ObsidianIvaraHelmet",
+    "Image": "ProteaMavvHelmet.png",
+    "Description": "Ten obedient warriors are not worth one who can truly see. When the visor of Protea's Mavv helm clicks down it is both a salute... and a sentence.",
+    "Link": "Protea Mavv Helmet",
+    "Name": "Protea Mavv Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Odalisk/OdaliskAlt2Helmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -5003,16 +5023,6 @@
     "Link": "Nova Voidshell Helmet",
     "Name": "Nova Voidshell Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/AntiMatter/NovaVoidShellHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Protea Mavv Helmet": {
-    "Type": "Helmet",
-    "Image": "ProteaMavvHelmet.png",
-    "Description": "Ten obedient warriors are not worth one who can truly see. When the visor of Protea's Mavv helm clicks down it is both a salute... and a sentence.",
-    "Link": "Protea Mavv Helmet",
-    "Name": "Protea Mavv Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Odalisk/OdaliskAlt2Helmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -5046,6 +5056,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Octavia Iridos Mix Helmet": {
+    "Type": "Helmet",
+    "Image": "OctaviaIridosMixHelmet.png",
+    "Description": "Remaster Octavia’s deadly composition.",
+    "Link": "Octavia Iridos Mix Helmet",
+    "Name": "Octavia Iridos Mix Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Bard/BardTwitchAltHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
   "Nezha Devine Helmet": {
     "Type": "Helmet",
     "Image": "NezhaDevineHelmet.png",
@@ -5066,15 +5086,15 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Octavia Iridos Mix Helmet": {
+  "Octavia Helmet": {
     "Type": "Helmet",
-    "Image": "OctaviaIridosMixHelmet.png",
-    "Description": "Remaster Octavia’s deadly composition.",
-    "Link": "Octavia Iridos Mix Helmet",
-    "Name": "Octavia Iridos Mix Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Bard/BardTwitchAltHelmet",
+    "Image": "OctaviaHelmet.png",
+    "Description": "The standard issue helmet for the Octavia Warframe.",
+    "Link": "Octavia Helmet",
+    "Name": "Octavia Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Bard/BardHelmet",
     "ExcludeFromCodex": false,
-    "CodexSecret": true
+    "CodexSecret": false
   },
   "Zephyr Blade Of The Lotus Helmet": {
     "Type": "Helmet",
@@ -5083,16 +5103,6 @@
     "Link": "Zephyr Blade Of The Lotus Helmet",
     "Name": "Zephyr Blade Of The Lotus Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Tengu/SWZephyrBotLHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Oberon Oryx Helmet": {
-    "Type": "Helmet",
-    "Image": "OberonOryxHelmet.png",
-    "Description": "A uniquely-styled alternate helmet for Oberon.",
-    "Link": "Oberon Oryx Helmet",
-    "Name": "Oberon Oryx Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Paladin/PaladinHelmetAlt",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -5106,16 +5116,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Ivara Helmet": {
-    "Type": "Helmet",
-    "Image": "IvaraHelmet.png",
-    "Description": "The standard issue helmet for the Ivara Warframe.",
-    "Link": "Ivara Helmet",
-    "Name": "Ivara Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Ranger/RangerHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Oberon Obsidian Helmet": {
     "Type": "Helmet",
     "Image": "OberonObsidianHelmet.png",
@@ -5123,6 +5123,16 @@
     "Link": "Oberon Obsidian Helmet",
     "Name": "Oberon Obsidian Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Paladin/OberonPS4Helmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ivara Helmet": {
+    "Type": "Helmet",
+    "Image": "IvaraHelmet.png",
+    "Description": "The standard issue helmet for the Ivara Warframe.",
+    "Link": "Ivara Helmet",
+    "Name": "Ivara Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Ranger/RangerHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -5146,6 +5156,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Mag Prime Helmet": {
+    "Type": "Helmet",
+    "Image": "MagPrimeHelmet.png",
+    "Description": "The standard issue helmet for the Mag Prime Warframe.",
+    "Link": "Mag Prime Helmet",
+    "Name": "Mag Prime Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Mag/MagPrimeHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Loki Kodama Helmet": {
     "Type": "Helmet",
     "Image": "LokiKodamaHelmet.png",
@@ -5156,13 +5176,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Mesa Falcon Helmet": {
+  "Oberon Blade Of The Lotus Helmet": {
     "Type": "Helmet",
-    "Image": "MesaFalconHelmet.png",
-    "Description": "A helmet for the Mesa Warframe, designed by prosetisen.",
-    "Link": "Mesa Falcon Helmet",
-    "Name": "Mesa Falcon Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Cowgirl/SWRThreeFalconHelmet",
+    "Image": "OberonBladeOfTheLotusHelmet.png",
+    "Description": "A helmet for the Oberon Warframe, designed by BeastBuster.",
+    "Link": "Oberon Blade Of The Lotus Helmet",
+    "Name": "Oberon Blade Of The Lotus Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Paladin/SWOberonBotLHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -5186,23 +5206,23 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Oberon Blade Of The Lotus Helmet": {
+  "Mirage Sigyn Helmet": {
     "Type": "Helmet",
-    "Image": "OberonBladeOfTheLotusHelmet.png",
-    "Description": "A helmet for the Oberon Warframe, designed by BeastBuster.",
-    "Link": "Oberon Blade Of The Lotus Helmet",
-    "Name": "Oberon Blade Of The Lotus Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Paladin/SWOberonBotLHelmet",
+    "Image": "MirageSigynHelmet.png",
+    "Description": "A helmet for the Mirage Warframe, designed by novadragon01.",
+    "Link": "Mirage Sigyn Helmet",
+    "Name": "Mirage Sigyn Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Harlequin/SWRFourMirageSigynHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Nekros Charon Helmet": {
+  "Gauss Mag Helmet": {
     "Type": "Helmet",
-    "Image": "NekrosCharonHelmet.png",
-    "Description": "A helmet for the Nekros Warframe, designed by malaya and Scharkie.",
-    "Link": "Nekros Charon Helmet",
-    "Name": "Nekros Charon Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Necro/SWCharonHelmet",
+    "Image": "GaussMagHelmet.png",
+    "Description": "The signature helmet of Gauss.",
+    "Link": "Gauss Mag Helmet",
+    "Name": "Gauss Mag Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Runner/RunnerAltHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -5256,16 +5276,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Gauss Mag Helmet": {
-    "Type": "Helmet",
-    "Image": "GaussMagHelmet.png",
-    "Description": "The signature helmet of Gauss.",
-    "Link": "Gauss Mag Helmet",
-    "Name": "Gauss Mag Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Runner/RunnerAltHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Nyx Nemesis Helmet": {
     "Type": "Helmet",
     "Image": "NyxNemesisHelmet.png",
@@ -5283,6 +5293,16 @@
     "Link": "Nyx Menticide Helmet",
     "Name": "Nyx Menticide Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Jade/JadeHelmetAltStatless",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Nyx Carnifex Helmet": {
+    "Type": "Helmet",
+    "Image": "NyxCarnifexHelmet.png",
+    "Description": "A helmet for the Nyx Warframe, designed by Vulbjorn.",
+    "Link": "Nyx Carnifex Helmet",
+    "Name": "Nyx Carnifex Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Jade/SWCarnifexHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -5307,13 +5327,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Nyx Carnifex Helmet": {
+  "Nova Stinger Helmet": {
     "Type": "Helmet",
-    "Image": "NyxCarnifexHelmet.png",
-    "Description": "A helmet for the Nyx Warframe, designed by Vulbjorn.",
-    "Link": "Nyx Carnifex Helmet",
-    "Name": "Nyx Carnifex Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Jade/SWCarnifexHelmet",
+    "Image": "NovaStingerHelmet.png",
+    "Description": "A helmet for the Nova Warframe, designed by Cheshire.",
+    "Link": "Nova Stinger Helmet",
+    "Name": "Nova Stinger Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/AntiMatter/SWRThreeStingerHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -5334,16 +5354,6 @@
     "Link": "Garuda Successor Helmet",
     "Name": "Garuda Successor Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Garuda/SWSuccessorHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Nova Stinger Helmet": {
-    "Type": "Helmet",
-    "Image": "NovaStingerHelmet.png",
-    "Description": "A helmet for the Nova Warframe, designed by Cheshire.",
-    "Link": "Nova Stinger Helmet",
-    "Name": "Nova Stinger Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/AntiMatter/SWRThreeStingerHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -5387,16 +5397,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Mirage Kitsune Helmet": {
-    "Type": "Helmet",
-    "Image": "MirageKitsuneHelmet.png",
-    "Description": "A helmet for the Mirage Warframe, designed by kakarrot2812 and Skyeraikes.",
-    "Link": "Mirage Kitsune Helmet",
-    "Name": "Mirage Kitsune Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Harlequin/SWKitsuneHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Banshee Sonority Helmet": {
     "Type": "Helmet",
     "Image": "BansheeSonorityHelmet.png",
@@ -5407,6 +5407,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Mirage Kitsune Helmet": {
+    "Type": "Helmet",
+    "Image": "MirageKitsuneHelmet.png",
+    "Description": "A helmet for the Mirage Warframe, designed by kakarrot2812 and Skyeraikes.",
+    "Link": "Mirage Kitsune Helmet",
+    "Name": "Mirage Kitsune Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Harlequin/SWKitsuneHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Nova Cygni Helmet": {
     "Type": "Helmet",
     "Image": "NovaCygniHelmet.png",
@@ -5414,6 +5424,16 @@
     "Link": "Nova Cygni Helmet",
     "Name": "Nova Cygni Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/AntiMatter/SWRThreeCygniHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Nova Corpra Helmet": {
+    "Type": "Helmet",
+    "Image": "NovaCorpraHelmet.png",
+    "Description": "A helmet for the Nova Warframe, designed by FrellingHazmot.",
+    "Link": "Nova Corpra Helmet",
+    "Name": "Nova Corpra Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/AntiMatter/SWCorpraHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -5437,14 +5457,14 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Nova Corpra Helmet": {
+  "Nokko Mycorrhiza Helmet": {
+    "ExcludeFrlmCodex": false,
+    "Image": "NokkoMycorrhizaHelmet.png",
+    "Description": "Nokko’s alternate helm proves that the style of a warrior doesn’t have to sacrifice function.",
+    "Link": "Nokko Mycorrhiza Helmet",
     "Type": "Helmet",
-    "Image": "NovaCorpraHelmet.png",
-    "Description": "A helmet for the Nova Warframe, designed by FrellingHazmot.",
-    "Link": "Nova Corpra Helmet",
-    "Name": "Nova Corpra Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/AntiMatter/SWCorpraHelmet",
-    "ExcludeFromCodex": false,
+    "Name": "Nokko Mycorrhiza Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Nokko/NokkoAltHelmet",
     "CodexSecret": false
   },
   "Wisp Coven Helmet": {
@@ -5477,13 +5497,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Nidus Night Hunter Helmet": {
+  "Nidus Myxini Helmet": {
     "Type": "Helmet",
-    "Image": "NidusNightHunterHelmet.png",
-    "Description": "A helmet for the Nidus Warframe, designed by Mz-3.",
-    "Link": "Nidus Night Hunter Helmet",
-    "Name": "Nidus Night Hunter Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Infestation/SWNightHunterHelmet",
+    "Image": "NidusMyxiniHelmet.png",
+    "Description": "Evolution’s nightmare. Open wide with this alternate helm for Nidus.",
+    "Link": "Nidus Myxini Helmet",
+    "Name": "Nidus Myxini Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Infestation/NidusAltHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -5494,16 +5514,6 @@
     "Link": "Inaros Prime Helmet",
     "Name": "Inaros Prime Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Sandman/InarosPrimeHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Nidus Myxini Helmet": {
-    "Type": "Helmet",
-    "Image": "NidusMyxiniHelmet.png",
-    "Description": "Evolution’s nightmare. Open wide with this alternate helm for Nidus.",
-    "Link": "Nidus Myxini Helmet",
-    "Name": "Nidus Myxini Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Infestation/NidusAltHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -5547,6 +5557,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Nekros Graxx Helmet": {
+    "Type": "Helmet",
+    "Image": "NekrosGraxxHelmet.png",
+    "Description": "A helmet for the Nekros Warframe, designed by Faven.",
+    "Link": "Nekros Graxx Helmet",
+    "Name": "Nekros Graxx Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Necro/SWNekrosGraxxHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Equinox Helmet": {
     "Type": "Helmet",
     "Image": "EquinoxHelmet.png",
@@ -5587,16 +5607,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Mirage Sigyn Helmet": {
-    "Type": "Helmet",
-    "Image": "MirageSigynHelmet.png",
-    "Description": "A helmet for the Mirage Warframe, designed by novadragon01.",
-    "Link": "Mirage Sigyn Helmet",
-    "Name": "Mirage Sigyn Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Harlequin/SWRFourMirageSigynHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Mirage Prime Helmet": {
     "Type": "Helmet",
     "Image": "MiragePrimeHelmet.png",
@@ -5604,6 +5614,16 @@
     "Link": "Mirage Prime Helmet",
     "Name": "Mirage Prime Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Harlequin/MiragePrimeHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Mirage Morgaine Helmet": {
+    "Type": "Helmet",
+    "Image": "MirageMorgaineHelmet.png",
+    "Description": "A helmet for the Mirage Warframe, designed by artarrwen.",
+    "Link": "Mirage Morgaine Helmet",
+    "Name": "Mirage Morgaine Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Harlequin/SWMorgaineHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -5627,16 +5647,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Mirage Mithra Helmet": {
-    "Type": "Helmet",
-    "Image": "MirageMithraHelmet.png",
-    "Description": "A helmet for the Mirage Warframe, designed by lukinu_u.",
-    "Link": "Mirage Mithra Helmet",
-    "Name": "Mirage Mithra Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Harlequin/SWMithraHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Mirage Kuvael Jester Helmet": {
     "Type": "Helmet",
     "Image": "MirageKuvaelJesterHelmet.png",
@@ -5647,6 +5657,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Mirage Graxx Helmet": {
+    "Type": "Helmet",
+    "Image": "MirageGraxxHelmet.png",
+    "Description": "A helmet for the Mirage Warframe, designed by Faven.",
+    "Link": "Mirage Graxx Helmet",
+    "Name": "Mirage Graxx Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Harlequin/SWRFourMirageGraxxHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Wukong Helmet": {
     "Type": "Helmet",
     "Image": "WukongHelmet.png",
@@ -5654,16 +5674,6 @@
     "Link": "Wukong Helmet",
     "Name": "Wukong Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/MonkeyKing/MonkeyKingHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Mesa Prime Helmet": {
-    "Type": "Helmet",
-    "Image": "MesaPrimeHelmet.png",
-    "Description": "The standard issue helmet for the Mesa Prime Warframe.",
-    "Link": "Mesa Prime Helmet",
-    "Name": "Mesa Prime Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Cowgirl/MesaPrimeHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -5697,6 +5707,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Mesa Helmet": {
+    "Type": "Helmet",
+    "Image": "MesaHelmet.png",
+    "Description": "The standard issue helmet for the Mesa Warframe.",
+    "Link": "Mesa Helmet",
+    "Name": "Mesa Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Cowgirl/CowgirlHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Arcane Hemlock Helmet": {
     "Type": "Helmet",
     "Description": "This helmet is worn by Saryn, and increases Movement Speed, with a reduction to Health.",
@@ -5708,13 +5728,13 @@
     "InternalName": "/Lotus/Upgrades/Skins/Asp/AspAltHelmet",
     "CodexSecret": false
   },
-  "Mesa Helmet": {
+  "Mesa Falcon Helmet": {
     "Type": "Helmet",
-    "Image": "MesaHelmet.png",
-    "Description": "The standard issue helmet for the Mesa Warframe.",
-    "Link": "Mesa Helmet",
-    "Name": "Mesa Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Cowgirl/CowgirlHelmet",
+    "Image": "MesaFalconHelmet.png",
+    "Description": "A helmet for the Mesa Warframe, designed by prosetisen.",
+    "Link": "Mesa Falcon Helmet",
+    "Name": "Mesa Falcon Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Cowgirl/SWRThreeFalconHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -5745,16 +5765,6 @@
     "Link": "Rhino Ion Helmet",
     "Name": "Rhino Ion Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Rhino/SWIonRhinoHelmet",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Mag Knaita Helmet": {
-    "Type": "Helmet",
-    "Image": "MagKnaitaHelmet.png",
-    "Description": "A helmet designed to match the Mag Knaita Skin, designed by prosetisen.",
-    "Link": "Mag Knaita Helmet",
-    "Name": "Mag Knaita Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Mag/SWROneMagHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -5808,6 +5818,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Loki Helmet": {
+    "Type": "Helmet",
+    "Image": "LokiHelmet.png",
+    "Description": "The standard issue helmet for the Loki Warframe.",
+    "Link": "Loki Helmet",
+    "Name": "Loki Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Loki/LokiHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Loki Swindle Helmet": {
     "Type": "Helmet",
     "Image": "LokiSwindleHelmet.png",
@@ -5818,13 +5838,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Loki Helmet": {
+  "Jade Immortal Helmet": {
     "Type": "Helmet",
-    "Image": "LokiHelmet.png",
-    "Description": "The standard issue helmet for the Loki Warframe.",
-    "Link": "Loki Helmet",
-    "Name": "Loki Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Loki/LokiHelmet",
+    "Image": "JadeImmortalHelmet.png",
+    "Description": "The Immortal Helmet for the Jade Warframe.",
+    "Link": "Jade Immortal Skin",
+    "Name": "Jade Immortal Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Choir/JadeImmortalHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },

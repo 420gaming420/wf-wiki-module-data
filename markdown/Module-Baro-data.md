@@ -1,12 +1,12 @@
 ---
 title: "Module:Baro/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Baro/data"
-wiki_timestamp: "2026-09-04T13:03:35Z"
+wiki_timestamp: "2026-09-18T13:05:43Z"
 ---
 
 Database contents initially seeded based on wikitables in [Baro\_Ki'Teer/Trades](/w/Baro_Ki%27Teer/Trades "Baro Ki'Teer/Trades") and [Baro\_Ki'Teer/ConsoleTrades](/w/Baro_Ki%27Teer/ConsoleTrades "Baro Ki'Teer/ConsoleTrades"). For full history see, [User:Anexera](/w/User:Anexera "User:Anexera")'s [Google Sheets](https://docs.google.com/spreadsheets/d/1cdT7M2qbOhZ01AQT2RaH8_6VL1yww4BHkTRtLzqZ7_g/edit#gid=632835097). See [Module:Baro/data/visits](/w/Module:Baro/data/visits "Module:Baro/data/visits") for Baro's historical visits.
 
-:   *Last updated: Fri, 04 Sep 2026 13:03:35 +0000 (UTC) by [User:Anexera](/w/User:Anexera "User:Anexera") ([change log](https://wiki.warframe.com/w/Module:Baro/data?diff=0))*
+:   *Last updated: Fri, 18 Sep 2026 13:05:43 +0000 (UTC) by [User:Anexera](/w/User:Anexera "User:Anexera") ([change log](https://wiki.warframe.com/w/Module:Baro/data?diff=0))*
 
 ## Contents
 
@@ -576,7 +576,8 @@ return {
 				"2024-10-18",
 				"2025-05-30",
 				"2025-12-26",
-				"2026-02-20"
+				"2026-02-20",
+				"2026-09-18"
 			},
 			TennoConOfferingDates = {
 				"2025-07-19",
@@ -1135,7 +1136,8 @@ return {
 				"2025-10-17",
 				"2025-11-14",
 				"2026-05-15",
-				"2026-07-24"
+				"2026-07-24",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2020-08-28",
@@ -1398,7 +1400,8 @@ return {
 				"2023-09-08",
 				"2024-05-17",
 				"2025-02-21",
-				"2025-11-14"
+				"2025-11-14",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2022-05-06"
@@ -2260,6 +2263,17 @@ return {
 			},
 			Type = "Decoration"
 		},
+		["Dagath Immortal Skin"] = {
+			CreditCost = 100000,
+			DucatCost = 550,
+			Image = "DagathImmortalSkin.png",
+			Link = "Dagath Immortal Skin",
+			Name = "Dagath Immortal Skin",
+			OfferingDates = {
+				"2026-09-18"
+			},
+			Type = "Cosmetic (Warframe Skin)"
+		},
 		["Dante Unbound Login Music"] = {
 			CreditCost = 150000,
 			DucatCost = 150,
@@ -2629,7 +2643,8 @@ return {
 				"2024-03-22",
 				"2025-02-07",
 				"2025-11-14",
-				"2026-08-07"
+				"2026-08-07",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2020-11-20",
@@ -4232,7 +4247,8 @@ return {
 				"2025-06-27",
 				"2025-10-03",
 				"2025-10-31",
-				"2026-04-17"
+				"2026-04-17",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2020-06-05",
@@ -4286,7 +4302,8 @@ return {
 				"2024-05-31",
 				"2024-11-29",
 				"2025-06-27",
-				"2025-12-12"
+				"2025-12-12",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2018-06-29",
@@ -5834,7 +5851,8 @@ return {
 				"2026-02-06",
 				"2026-03-20",
 				"2026-05-29",
-				"2026-08-07"
+				"2026-08-07",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2018-01-26",
@@ -6112,7 +6130,8 @@ return {
 				"2025-04-25",
 				"2025-06-27",
 				"2025-11-28",
-				"2026-07-24"
+				"2026-07-24",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2016-11-18",
@@ -6181,7 +6200,8 @@ return {
 				"2025-05-02",
 				"2025-10-17",
 				"2026-03-06",
-				"2026-05-29"
+				"2026-05-29",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2018-10-05",
@@ -6812,7 +6832,8 @@ return {
 				"2025-04-04",
 				"2025-04-25",
 				"2025-10-03",
-				"2025-11-14"
+				"2025-11-14",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2016-05-06",
@@ -6884,7 +6905,8 @@ return {
 				"2025-04-25",
 				"2025-06-27",
 				"2025-11-28",
-				"2026-07-24"
+				"2026-07-24",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2016-12-30",
@@ -7459,7 +7481,8 @@ return {
 				"2025-04-25",
 				"2025-06-27",
 				"2025-11-28",
-				"2026-07-24"
+				"2026-07-24",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2016-12-02",
@@ -7752,7 +7775,8 @@ return {
 				"2025-04-25",
 				"2025-07-11",
 				"2025-12-26",
-				"2026-02-20"
+				"2026-02-20",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2017-01-13",
@@ -10232,7 +10256,8 @@ return {
 			Link = "Orbiter Decorations#Noggles",
 			Name = "Noggle Statue - Teshin",
 			OfferingDates = {
-				"2026-07-24"
+				"2026-07-24",
+				"2026-09-18"
 			},
 			Type = "Decoration"
 		},
@@ -10793,7 +10818,8 @@ return {
 				"2025-04-18",
 				"2025-06-13",
 				"2025-11-28",
-				"2026-08-07"
+				"2026-08-07",
+				"2026-09-18"
 			},
 			TennoConOfferingDates = {
 				"2023-08-26",
@@ -10967,7 +10993,8 @@ return {
 				"2024-12-13",
 				"2025-04-18",
 				"2025-07-25",
-				"2026-03-20"
+				"2026-03-20",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2021-09-24",
@@ -11393,7 +11420,8 @@ return {
 				"2025-10-24",
 				"2026-02-06",
 				"2026-03-20",
-				"2026-07-24"
+				"2026-07-24",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2021-03-12",
@@ -11686,7 +11714,8 @@ return {
 				"2025-04-04",
 				"2025-07-25",
 				"2025-11-14",
-				"2026-05-01"
+				"2026-05-01",
+				"2026-09-18"
 			},
 			TennoConOfferingDates = {
 				"2024-07-20",
@@ -11887,7 +11916,8 @@ return {
 				"2023-12-01",
 				"2025-02-21",
 				"2026-04-03",
-				"2026-04-10"
+				"2026-04-10",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2018-10-05",
@@ -12500,7 +12530,8 @@ return {
 				"2024-05-31",
 				"2024-12-27",
 				"2025-05-02",
-				"2026-02-20"
+				"2026-02-20",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2015-10-16",
@@ -12614,7 +12645,8 @@ return {
 				"2024-10-04",
 				"2026-02-06",
 				"2026-03-06",
-				"2026-07-24"
+				"2026-07-24",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2015-02-06",
@@ -13372,7 +13404,8 @@ return {
 				"2024-12-27",
 				"2026-01-23",
 				"2026-03-06",
-				"2026-08-07"
+				"2026-08-07",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2015-05-01",
@@ -13469,7 +13502,8 @@ return {
 				"2024-04-05",
 				"2024-11-29",
 				"2025-07-25",
-				"2026-04-17"
+				"2026-04-17",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2019-12-20",
@@ -13510,7 +13544,8 @@ return {
 				"2024-11-29",
 				"2025-08-08",
 				"2026-04-03",
-				"2026-04-10"
+				"2026-04-10",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2019-12-20",
@@ -14678,7 +14713,8 @@ return {
 				"2025-02-07",
 				"2025-04-11",
 				"2025-08-08",
-				"2025-12-12"
+				"2025-12-12",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2015-04-17",
@@ -15173,7 +15209,8 @@ return {
 			Link = "Atomicycle#Liveries",
 			Name = "Prisma Livery",
 			OfferingDates = {
-				"2025-12-12"
+				"2025-12-12",
+				"2026-09-18"
 			},
 			TennoConOfferingDates = {
 				"2026-07-11"
@@ -15377,7 +15414,8 @@ return {
 				"2025-07-25",
 				"2025-11-14",
 				"2026-04-17",
-				"2026-08-07"
+				"2026-08-07",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2021-07-02",
@@ -15871,7 +15909,8 @@ return {
 				"2025-06-27",
 				"2025-11-14",
 				"2026-02-06",
-				"2026-05-01"
+				"2026-05-01",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2015-05-29",
@@ -16458,7 +16497,8 @@ return {
 				"2024-04-19",
 				"2024-05-03",
 				"2025-02-21",
-				"2025-12-12"
+				"2025-12-12",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2019-10-25",
@@ -17014,7 +17054,8 @@ return {
 				"2024-03-08",
 				"2024-11-29",
 				"2025-07-25",
-				"2026-08-07"
+				"2026-08-07",
+				"2026-09-18"
 			},
 			TennoConOfferingDates = {
 				"2024-07-20",
@@ -17515,7 +17556,8 @@ return {
 			Name = "Scaldra Glyph",
 			OfferingDates = {
 				"2025-05-16",
-				"2025-11-28"
+				"2025-11-28",
+				"2026-09-18"
 			},
 			TennoConOfferingDates = {
 				"2025-07-19",
@@ -17725,7 +17767,8 @@ return {
 				"2023-05-05",
 				"2024-08-09",
 				"2026-02-20",
-				"2026-07-24"
+				"2026-07-24",
+				"2026-09-18"
 			},
 			PcOfferingDates = {
 				"2017-10-06",
@@ -18691,7 +18734,8 @@ return {
 			OfferingDates = {
 				"2025-04-18",
 				"2025-05-30",
-				"2025-12-12"
+				"2025-12-12",
+				"2026-09-18"
 			},
 			TennoConOfferingDates = {
 				"2024-07-20",

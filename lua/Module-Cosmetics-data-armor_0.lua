@@ -693,6 +693,17 @@ return {
         Part = "Arm",
         Type = "Armor"
     },
+    ["Dagath Immortal Armor"] = {
+        CodexSecret = false,
+        Description = "Default armor set for the Dagath Immortal Skin.",
+        ExcludeFromCodex = true,
+        Image = "DagathImmortalArmor.png",
+        InternalName = "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/DagathImmortalArmArmor",
+        Link = "Dagath Immortal Skin",
+        Name = "Dagath Immortal Armor",
+        Part = "Arm",
+        Type = "Armor"
+    },
         ["Dagath Yhavan Armor"] = {
         CodexSecret = false,
         Description = "A unique armor for the Dagath Warframe, designed by blazingcobalt.",

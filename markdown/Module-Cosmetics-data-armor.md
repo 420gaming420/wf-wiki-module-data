@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/armor"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/armor"
-wiki_timestamp: "2026-07-20T22:42:14Z"
+wiki_timestamp: "2026-09-18T13:27:37Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/armor/doc](/w/Module:Cosmetics/data/armor/doc?action=edit&redlink=1 "Module:Cosmetics/data/armor/doc (page does not exist)")*
@@ -698,6 +698,17 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/DagathArmArmor",
         Link = "Dagath Armor",
         Name = "Dagath Armor",
+        Part = "Arm",
+        Type = "Armor"
+    },
+    ["Dagath Immortal Armor"] = {
+        CodexSecret = false,
+        Description = "Default armor set for the Dagath Immortal Skin.",
+        ExcludeFromCodex = true,
+        Image = "DagathImmortalArmor.png",
+        InternalName = "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/DagathImmortalArmArmor",
+        Link = "Dagath Immortal Skin",
+        Name = "Dagath Immortal Armor",
         Part = "Arm",
         Type = "Armor"
     },

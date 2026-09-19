@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/warframeskin"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/warframeskin"
-wiki_timestamp: "2026-09-05T07:42:04Z"
+wiki_timestamp: "2026-09-18T13:20:20Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/warframeskin/doc](/w/Module:Cosmetics/data/warframeskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/warframeskin/doc (page does not exist)")*
@@ -546,6 +546,16 @@ return {
 		InternalName = "/Lotus/Upgrades/Skins/Dagath/DagathSkin",
 		Link = "Dagath Skin",
 		Name = "Dagath Skin",
+		Type = "Skin"
+	},
+	["Dagath Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal Skin for the Dagath Warframe.",
+		ExcludeFromCodex = false,
+		Image = "DagathImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Dagath/DagathImmortalSkin",
+		Link = "Dagath Immortal Skin",
+		Name = "Dagath Immortal Skin",
 		Type = "Skin"
 	},
 	["Dagath Yfari Skin"] = {

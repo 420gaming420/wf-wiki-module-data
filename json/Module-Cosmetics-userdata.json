@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-14T02:14:35.424Z"
+    "converted_at": "2026-09-19T02:13:45.875Z"
   },
   "_comments": "",
   "Ambassador": {
@@ -1772,18 +1772,21 @@
     "Equipments": {
       "Armor": [
         "Dagath Armor",
+        "Dagath Immortal Armor",
         "Dagath Yhavan Armor",
         "Dagath Yfari Armor"
       ],
       "Helmet": [
         "Dagath Ganceann Helmet",
         "Dagath Helmet",
+        "Dagath Immortal Helmet",
         "Dagath Yhavan Helmet",
         "Dagath Yfari Helmet",
         "Dagath Voiddax Helmet"
       ],
       "Skin": [
         "Dagath Skin",
+        "Dagath Immortal Skin",
         "Dagath Yhavan Skin",
         "Dagath Yfari Skin"
       ]
@@ -4375,6 +4378,8 @@
     "Type": "Attachment",
     "Equipments": {
       "Signa": [
+        "Acheta Signa",
+        "Centurio Signa",
         "Dex Signa",
         "Diraeus Signa",
         "Ember Heirloom Signa",
@@ -4383,6 +4388,7 @@
         "Flankon Signa",
         "Frost Heirloom Signa",
         "Fumulo Signa",
+        "Gothica Signa",
         "Hana Ikada Signa",
         "Invictus Signa",
         "Invictus Apex Signa",
@@ -4391,15 +4397,20 @@
         "Krios Signa",
         "Ki'Teer Nobilis Signa",
         "Kyzen Signa",
+        "Liania Signa",
         "Mag Heirloom Signa",
         "Maginav Prime Signa",
+        "Mesa Heirloom Signa",
         "Motetique Signa",
+        "Pragmatica Signa",
         "Rhino Heirloom Signa",
         "Stardust Signa",
         "Tomoe Signa",
         "Valkyr Heirloom Signa",
+        "Vermis Signa",
         "Vauban Heirloom Signa",
-        "Vizor Signa"
+        "Vizor Signa",
+        "Zamariu Signa"
       ]
     }
   },
@@ -6518,10 +6529,12 @@
     "Equipments": {
       "Helmet": [
         "Jade Aureolt Helmet",
-        "Jade Helmet"
+        "Jade Helmet",
+        "Jade Immortal Helmet"
       ],
       "Skin": [
-        "Jade Skin"
+        "Jade Skin",
+        "Jade Immortal Skin"
       ]
     }
   },

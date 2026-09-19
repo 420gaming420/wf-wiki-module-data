@@ -54,18 +54,27 @@ local Data = {
 	['Smoke Screen']={
 		ins={
 			{name='TP_AUG', cont=Tooltips.full('Teleport Rush', 'Mods')..'?', type='checkbox'},
+			{name='SMOKE_AUG', cont=Tooltips.full('Smoke Shadow', 'Mods')..'?', type='checkbox'},
 		},
 		outs={
 			{'Duration:', {expr='DUR 12 %of', suff='s'}},
 			{'Extension on [[Finisher]] kills:', {expr='DUR 5 %of TP_AUG *', suff='s'}},
 			{'Radius:', {expr='RNG 10 %of', suff='m'}},
+			{'Smoke Shadow duration:', {expr='DUR 12 %of 0 SMOKE_AUG if', suff='s'}},
+			{'Smoke Shadow radius:', {expr='RNG 15 %of 0 SMOKE_AUG if', suff='m'}},
+			{'Critical Chance bonus:', {expr='150 0 SMOKE_AUG if', suff='%'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='35 COST *'}},
 		}
 	},
 	['Teleport']={
+		ins={
+			{name='TP_AUG', cont=Tooltips.full('Teleport Rush', 'Mods')..'?', type='checkbox'},
+		},
 		outs={
 			{Tooltips.full('Finisher', 'DamageTypes')..' damage bonus:', {expr='STR 200 %of', suff='%'}},
 			{'Range:', {expr='RNG 60 %of', suff='m'}},
+			{'[[Parkour Velocity]] bonus:', {expr='30 0 TP_AUG if', suff='%'}},
+			{'Teleport Rush duration:', {expr='DUR 12 %of 0 TP_AUG if', suff='s'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}},
 		},
 	},

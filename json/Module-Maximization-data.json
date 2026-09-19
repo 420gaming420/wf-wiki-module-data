@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-15T02:16:01.703Z"
+    "converted_at": "2026-09-19T02:13:48.508Z"
   },
   "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins",
   "Smoke Screen": {
@@ -31,6 +31,27 @@
         }
       ],
       [
+        "Smoke Shadow duration:",
+        {
+          "expr": "DUR 12 %of 0 SMOKE_AUG if",
+          "suff": "s"
+        }
+      ],
+      [
+        "Smoke Shadow radius:",
+        {
+          "expr": "RNG 15 %of 0 SMOKE_AUG if",
+          "suff": "m"
+        }
+      ],
+      [
+        "Critical Chance bonus:",
+        {
+          "expr": "150 0 SMOKE_AUG if",
+          "suff": "%"
+        }
+      ],
+      [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
           "expr": "35 COST *"
@@ -42,6 +63,11 @@
         "type": "checkbox",
         "name": "TP_AUG",
         "cont": "{{#invoke:Tooltip|full|Teleport Rush|Mods}}?"
+      },
+      {
+        "type": "checkbox",
+        "name": "SMOKE_AUG",
+        "cont": "{{#invoke:Tooltip|full|Smoke Shadow|Mods}}?"
       }
     ]
   },
@@ -231,11 +257,32 @@
         }
       ],
       [
+        "[[Parkour Velocity]] bonus:",
+        {
+          "expr": "30 0 TP_AUG if",
+          "suff": "%"
+        }
+      ],
+      [
+        "Teleport Rush duration:",
+        {
+          "expr": "DUR 12 %of 0 TP_AUG if",
+          "suff": "s"
+        }
+      ],
+      [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
           "expr": "25 COST *"
         }
       ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "TP_AUG",
+        "cont": "{{#invoke:Tooltip|full|Teleport Rush|Mods}}?"
+      }
     ]
   }
 }

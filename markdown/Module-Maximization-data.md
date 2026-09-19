@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-09-14T22:12:24Z"
+wiki_timestamp: "2026-09-19T00:59:01Z"
 ---
 
 ## Contents
@@ -14,7 +14,7 @@ Database for [maximization](/w/Maximization "Maximization") of [warframe](/w/War
 
 ## Ability Entry Schema
 
-[[edit source](/w/Module:Maximization/data/doc?action=edit&section=T-1 "Edit section's source code: Ability Entry Schema")]
+[[edit page](/w/Module:Maximization/data/doc?action=edit&section=T-1 "Edit section's source code: Ability Entry Schema")]
 
 ```lua
 	["Ability Name"] = {
@@ -69,11 +69,12 @@ Standard Units
 
 ## Style Guide
 
-[[edit source](/w/Module:Maximization/data/doc?action=edit&section=T-2 "Edit section's source code: Style Guide")]
+[[edit page](/w/Module:Maximization/data/doc?action=edit&section=T-2 "Edit section's source code: Style Guide")]
 
-1. Each ability's data should contain calculations of innate stats (e.g. energy, damage, [DoTs](/w/DoT "DoT")), and kit interactions (i.e. passive, abilities, and augments of the original warframe). Adding calculations for third-party buffs would bloat calculators.
+1. Each ability's data should contain calculations of innate stats (e.g. energy, damage, [DoTs](/w/DoT "DoT")), and kit interactions (i.e. passive, abilities, and [augments](/w/Augments "Augments") of the original warframe). Adding calculations for third-party buffs would bloat calculators.
    * If the ability can be [infused](/w/Infused "Infused"), the calculator must contain toggles for original kit interactions (e.g. [![](/images/thumb/ShurikenIcon%28xWhite%29.png/32px-ShurikenIcon%28xWhite%29.png?f2322)](/w/Shuriken "Shuriken") [Shuriken](/w/Shuriken "Shuriken") doing less [![](/images/thumb/DmgSlashSmall64.png/32px-DmgSlashSmall64.png?bab47)](/w/Damage/Slash_Damage "Damage/Slash Damage") [Bleed](/w/Damage/Slash_Damage "Damage/Slash Damage") without [![](/images/thumb/Ash_Thumb.png/32px-Ash_Thumb.png?db305)](/w/Ash "Ash") [Ash](/w/Ash "Ash")'s passive) and must **not** contain potential interactions with a new warframe.
-   * For conciseness, users are expected to know their [damage type](/w/Damage_type "Damage type"), and to manually apply [faction weakness](/w/Faction_weakness "Faction weakness") (shown in tooltips) and enemy [damage reduction](/w/Damage_reduction "Damage reduction").
+   * Augment calculations should be present if any augment stat is affected by warframe stats or if the augment affects abilities, otherwise there is nothing to calculate.
+   * Users are expected to manually apply [faction weakness](/w/Faction_weakness "Faction weakness") (shown in tooltips), enemy [damage reduction](/w/Damage_reduction "Damage reduction"), and other external factors.
 2. The type of damage an ability does innately must be stated clearly (e.g. "[![](/images/thumb/DmgColdSmall64.png/32px-DmgColdSmall64.png?f2506)](/w/Damage/Cold_Damage "Damage/Cold Damage") [Cold](/w/Damage/Cold_Damage "Damage/Cold Damage") damage" for [![](/images/thumb/FreezeIcon%28xWhite%29.png/32px-FreezeIcon%28xWhite%29.png?73b01)](/w/Freeze "Freeze") [Freeze](/w/Freeze "Freeze")), same applies to procs (e.g. [![](/images/thumb/DmgSlashSmall64.png/32px-DmgSlashSmall64.png?bab47)](/w/Damage/Slash_Damage "Damage/Slash Damage") [Bleed](/w/Damage/Slash_Damage "Damage/Slash Damage") is not the same as [![](/images/thumb/DmgSlashSmall64.png/32px-DmgSlashSmall64.png?bab47)](/w/Damage/Slash_Damage "Damage/Slash Damage") [Slash](/w/Damage/Slash_Damage "Damage/Slash Damage")).
 3. Input and output text must clearly state the intent behind its value (e.g. "damage *bonus*" is additional damage %, "damage *modifier*" is total damage %, "damage" is exact damage).
 4. Text for inputs with values should end in ":", text for checkbox inputs should end in "?" but written like a statement instead of a question.
@@ -82,7 +83,7 @@ Standard Units
 
 ## See Also
 
-[[edit source](/w/Module:Maximization/data/doc?action=edit&section=T-3 "Edit section's source code: See Also")]
+[[edit page](/w/Module:Maximization/data/doc?action=edit&section=T-3 "Edit section's source code: See Also")]
 
 [Module:Maximization/data/doc](/w/Module:Maximization/data/doc "Module:Maximization/data/doc")
 
@@ -144,18 +145,27 @@ local Data = {
 	['Smoke Screen']={
 		ins={
 			{name='TP_AUG', cont=Tooltips.full('Teleport Rush', 'Mods')..'?', type='checkbox'},
+			{name='SMOKE_AUG', cont=Tooltips.full('Smoke Shadow', 'Mods')..'?', type='checkbox'},
 		},
 		outs={
 			{'Duration:', {expr='DUR 12 %of', suff='s'}},
 			{'Extension on [[Finisher]] kills:', {expr='DUR 5 %of TP_AUG *', suff='s'}},
 			{'Radius:', {expr='RNG 10 %of', suff='m'}},
+			{'Smoke Shadow duration:', {expr='DUR 12 %of 0 SMOKE_AUG if', suff='s'}},
+			{'Smoke Shadow radius:', {expr='RNG 15 %of 0 SMOKE_AUG if', suff='m'}},
+			{'Critical Chance bonus:', {expr='150 0 SMOKE_AUG if', suff='%'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='35 COST *'}},
 		}
 	},
 	['Teleport']={
+		ins={
+			{name='TP_AUG', cont=Tooltips.full('Teleport Rush', 'Mods')..'?', type='checkbox'},
+		},
 		outs={
 			{Tooltips.full('Finisher', 'DamageTypes')..' damage bonus:', {expr='STR 200 %of', suff='%'}},
 			{'Range:', {expr='RNG 60 %of', suff='m'}},
+			{'[[Parkour Velocity]] bonus:', {expr='30 0 TP_AUG if', suff='%'}},
+			{'Teleport Rush duration:', {expr='DUR 12 %of 0 TP_AUG if', suff='s'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}},
 		},
 	},

@@ -540,6 +540,16 @@ return {
 		Name = "Dagath Skin",
 		Type = "Skin"
 	},
+	["Dagath Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal Skin for the Dagath Warframe.",
+		ExcludeFromCodex = false,
+		Image = "DagathImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Dagath/DagathImmortalSkin",
+		Link = "Dagath Immortal Skin",
+		Name = "Dagath Immortal Skin",
+		Type = "Skin"
+	},
 	["Dagath Yfari Skin"] = {
 		CodexSecret = false,
 		Description = "Dagath Yfari alights with ghostly flames. Her phantom cavalry also assumes a new and macabre aspect, their haunting visitation betiding woe for those who unwisely turn them away.",

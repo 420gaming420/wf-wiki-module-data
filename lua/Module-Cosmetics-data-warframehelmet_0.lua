@@ -937,6 +937,16 @@ return {
         Name = "Dagath Helmet",
         Type = "Helmet"
     },
+    ["Dagath Immortal Helmet"] = {
+        CodexSecret = false,
+        Description = "The Immortal Helmet for the Dagath Warframe.",
+        ExcludeFromCodex = false,
+        Image = "DagathImmortalHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Dagath/DagathImmortalHelmet",
+        Link = "Dagath Immortal Skin",
+        Name = "Dagath Immortal Helmet",
+        Type = "Helmet"
+    },
     ["Dagath Yfari Helmet"] = {
 		CodexSecret = false,
 		Description = "Dagath Yfari's signature helmet",
@@ -2577,6 +2587,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Choir/ChoirHelmet",
         Link = "Jade Helmet",
         Name = "Jade Helmet",
+        Type = "Helmet"
+    },
+    ["Jade Immortal Helmet"] = {
+        CodexSecret = false,
+        Description = "The Immortal Helmet for the Jade Warframe.",
+        ExcludeFromCodex = false,
+        Image = "JadeImmortalHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Choir/JadeImmortalHelmet",
+        Link = "Jade Immortal Skin",
+        Name = "Jade Immortal Helmet",
         Type = "Helmet"
     },
     ["Khora Delphi Helmet"] = {
