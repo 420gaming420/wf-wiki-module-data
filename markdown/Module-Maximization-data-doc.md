@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data/doc"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data/doc"
-wiki_timestamp: "2026-09-19T00:27:03Z"
+wiki_timestamp: "2026-09-19T14:21:52Z"
 ---
 
 ## Contents
@@ -78,8 +78,8 @@ Standard Units
 2. The type of damage an ability does innately must be stated clearly (e.g. "[![](/images/thumb/DmgColdSmall64.png/32px-DmgColdSmall64.png?f2506)](/w/Damage/Cold_Damage "Damage/Cold Damage") [Cold](/w/Damage/Cold_Damage "Damage/Cold Damage") damage" for [![](/images/thumb/FreezeIcon%28xWhite%29.png/32px-FreezeIcon%28xWhite%29.png?73b01)](/w/Freeze "Freeze") [Freeze](/w/Freeze "Freeze")), same applies to procs (e.g. [![](/images/thumb/DmgSlashSmall64.png/32px-DmgSlashSmall64.png?bab47)](/w/Damage/Slash_Damage "Damage/Slash Damage") [Bleed](/w/Damage/Slash_Damage "Damage/Slash Damage") is not the same as [![](/images/thumb/DmgSlashSmall64.png/32px-DmgSlashSmall64.png?bab47)](/w/Damage/Slash_Damage "Damage/Slash Damage") [Slash](/w/Damage/Slash_Damage "Damage/Slash Damage")).
 3. Input and output text must clearly state the intent behind its value (e.g. "damage *bonus*" is additional damage %, "damage *modifier*" is total damage %, "damage" is exact damage).
 4. Text for inputs with values should end in ":", text for checkbox inputs should end in "?" but written like a statement instead of a question.
-5. If multiple ability blocks are invoked together, and some inputs or outputs represent the same concept but should not be synced or shadowed - you should rename them at the source, following the `NAME_WARFRAME_KEY` format.
-   * For example: both [![](/images/thumb/ShurikenIcon%28xWhite%29.png/32px-ShurikenIcon%28xWhite%29.png?f2322)](/w/Shuriken "Shuriken") [Shuriken](/w/Shuriken "Shuriken") and [![](/images/thumb/BladeStormIcon%28xWhite%29.png/32px-BladeStormIcon%28xWhite%29.png?77430)](/w/Blade_Storm "Blade Storm") [Blade Storm](/w/Blade_Storm "Blade Storm") belong to [![](/images/thumb/Ash_Thumb.png/32px-Ash_Thumb.png?db305)](/w/Ash "Ash") [Ash](/w/Ash "Ash") and have base damage outputs (`BASE_DMG`). They were renamed `BASE_DMG_ASH_1` and `BASE_DMG_ASH_4`.
+5. To avoid name conflicts between I/O, common concepts should be named following the `ABILITY_NAME``_``VARIABLE_NAME` format. This minimizes risk of conflicts both when invoking together a set of abilities of one warframe, and multiple abilities from multiple warframes.
+   * For example: both [![](/images/thumb/ShurikenIcon%28xWhite%29.png/32px-ShurikenIcon%28xWhite%29.png?f2322)](/w/Shuriken "Shuriken") [Shuriken](/w/Shuriken "Shuriken") and [![](/images/thumb/BladeStormIcon%28xWhite%29.png/32px-BladeStormIcon%28xWhite%29.png?77430)](/w/Blade_Storm "Blade Storm") [Blade Storm](/w/Blade_Storm "Blade Storm") belong to [![](/images/thumb/Ash_Thumb.png/32px-Ash_Thumb.png?db305)](/w/Ash "Ash") [Ash](/w/Ash "Ash") and need base damage outputs (`BASE_DMG`). They were renamed `SHURIKEN_BASE_DMG` and `BLADE_STORM_BASE_DMG`.
 
 ## See Also
 

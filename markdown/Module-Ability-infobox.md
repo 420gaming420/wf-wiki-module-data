@@ -1,7 +1,7 @@
 ---
 title: "Module:Ability/infobox"
 wiki_url: "https://wiki.warframe.com/w/Module/Ability/infobox"
-wiki_timestamp: "2026-09-10T02:50:01Z"
+wiki_timestamp: "2026-09-19T22:50:02Z"
 ---
 
 **Lua error in Module:Docbunto at line 577: attempt to concatenate local 'item\_name' (a nil value).**
@@ -381,7 +381,7 @@ nil)
 
 %s
 
-[[File:Expand.svg|30px|link=#%s|Expand/Collapse|class=rotate-c defColor]]
+[[File:Expand.svg|30px|link=#%s|Expand/Collapse|class=rotate-c defColor noSelect]]
 
 %s]=]):format(
 cardImage or 'Panel.png', link or name,

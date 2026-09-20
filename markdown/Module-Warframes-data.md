@@ -1,7 +1,7 @@
 ---
 title: "Module:Warframes/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Warframes/data"
-wiki_timestamp: "2026-09-05T03:33:13Z"
+wiki_timestamp: "2026-09-19T09:32:35Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes [Warframes](/w/Warframes "Warframes"), [Necramechs](/w/Necramech "Necramech"), [Archwings](/w/Archwing "Archwing"), and [Operators](/w/Operator "Operator").
@@ -13,11 +13,11 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes
 * [3 Data Sources](#Data_Sources)
 * [4 Warframe/Avatar Data](#Warframe/Avatar_Data)
 
-:   *Last updated: Sat, 05 Sep 2026 03:33:13 +0000 (UTC) by [User:6079Smith](/w/User:6079Smith "User:6079Smith") ([change log](https://wiki.warframe.com/w/Module:Warframes/data?diff=0))*
+:   *Last updated: Sat, 19 Sep 2026 09:32:35 +0000 (UTC) by [User:6079Smith](/w/User:6079Smith "User:6079Smith") ([change log](https://wiki.warframe.com/w/Module:Warframes/data?diff=0))*
 
 ## Warframe/Avatar Data Schema
 
-[[edit source](/w/Module:Warframes/data/doc?action=edit&section=T-1 "Edit section's source code: Warframe/Avatar Data Schema")]
+[[edit page](/w/Module:Warframes/data/doc?action=edit&section=T-1 "Edit section's source code: Warframe/Avatar Data Schema")]
 
 ```lua
 		["Warframe Name"] = {
@@ -95,7 +95,7 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes
 
 ## For Module Use
 
-[[edit source](/w/Module:Warframes/data/doc?action=edit&section=T-2 "Edit section's source code: For Module Use")]
+[[edit page](/w/Module:Warframes/data/doc?action=edit&section=T-2 "Edit section's source code: For Module Use")]
 
 | Key/Column Name | Data Type | Required? | Explanation/Description | Example(s) |
 | --- | --- | --- | --- | --- |
@@ -103,14 +103,14 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes
 
 ## Data Sources
 
-[[edit source](/w/Module:Warframes/data/doc?action=edit&section=T-3 "Edit section's source code: Data Sources")]
+[[edit page](/w/Module:Warframes/data/doc?action=edit&section=T-3 "Edit section's source code: Data Sources")]
 
 * See [Public Export](/w/Public_Export "Public Export").
 * Portrait images are created by the community: [WARFRAME Wiki:Warframe Portraits](/w/WARFRAME_Wiki:Warframe_Portraits "WARFRAME Wiki:Warframe Portraits").
 
 ## Warframe/Avatar Data
 
-[[edit source](/w/Module:Warframes/data/doc?action=edit&section=T-4 "Edit section's source code: Warframe/Avatar Data")]
+[[edit page](/w/Module:Warframes/data/doc?action=edit&section=T-4 "Edit section's source code: Warframe/Avatar Data")]
 
 ---
 
@@ -827,7 +827,7 @@ return {
 			Link = "Citrine",
 			MaxRank = 30,
 			Name = "Citrine",
-			Passive = "Citrine grants nearby allies 5 health regeneration per second. Pick up a Health Orb to increase regeneration by 0,1, up to a maximum of 25.",
+			Passive = "Citrine grants nearby allies 5 health regeneration per second. Pick up a Health Orb to increase regeneration by 0.1, up to a maximum of 25.",
 			Playstyle = { "Support" },
 			Polarities = { "Madurai", "Vazarin" },
 			Portrait = "Citrine_Thumb.png",

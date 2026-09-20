@@ -1,0 +1,489 @@
+{
+  "_attribution": {
+    "source_url": "https://wiki.warframe.com/w/Module:Synthesis/data",
+    "license": "CC BY-NC-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
+    "converted_at": "2026-09-20T02:14:10.599Z"
+  },
+  "_comments": "--- Synthesis targets table for [[Synthesis]] targets.\n-- @module Synthesis/data\n-- ",
+  "Ballista": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Mantle",
+      "Lex"
+    ],
+    "Standing": 2538,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "Boiler": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Cholistan",
+      "Isos",
+      "Horend"
+    ],
+    "Standing": 2538,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "Eviscerator": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Ara",
+      "Lex",
+      "Ker"
+    ],
+    "Standing": 2538,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "Ancient Disruptor": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Tikal",
+      "Terminus",
+      "Isos"
+    ],
+    "Standing": 2538,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "Commander": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Telesto"
+    ],
+    "Standing": -1,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "Hellion": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Ara",
+      "Lex",
+      "Rusalka"
+    ],
+    "Standing": 2563,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "Drahk Master": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Cassini",
+      "Anthe"
+    ],
+    "Standing": 2538,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "Ancient Healer": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Hepit"
+    ],
+    "Standing": 2538,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "Corrupted Crewman": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Hepit",
+      "Teshub"
+    ],
+    "Standing": 2513,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Small"
+  },
+  "Lancer": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Cambria",
+      "Caloris",
+      "Pantheon",
+      "Elion",
+      "Cassini",
+      "Kappa"
+    ],
+    "Standing": 2513,
+    "ScanPoints": 4,
+    "IsImprint": true,
+    "Size": "Small"
+  },
+  "Corrupted Nullifier": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Oxomoco",
+      "Marduk"
+    ],
+    "Standing": -1,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "Corrupted Ancient": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Hepit",
+      "Stribog",
+      "Ani"
+    ],
+    "Standing": 2538,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "Brood Mother": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Tikal",
+      "Gabii",
+      "Assur",
+      "Isos"
+    ],
+    "Standing": 2538,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "Bombard": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Lex",
+      "Nuovo",
+      "Ker",
+      "Exta",
+      "Bode"
+    ],
+    "Standing": 2625,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "Shield Lancer": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Pantheon",
+      "Caloris",
+      "Elion",
+      "Cassini"
+    ],
+    "Standing": 2513,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Small"
+  },
+  "Arid Eviscerator": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Ara"
+    ],
+    "Standing": -1,
+    "ScanPoints": 3,
+    "IsImprint": true,
+    "Size": "Big"
+  },
+  "Crewman": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Copernicus"
+    ],
+    "Standing": -1,
+    "ScanPoints": 4,
+    "IsImprint": true,
+    "Size": "Big"
+  },
+  "Elite Crewman": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Copernicus",
+      "Zeipel"
+    ],
+    "Standing": 2538,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "Butcher": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Caloris",
+      "Elion",
+      "Rusalka",
+      "Mantle"
+    ],
+    "Standing": 2513,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Small"
+  },
+  "Anti MOA": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Valefor",
+      "Baal",
+      "Zeipel"
+    ],
+    "Standing": 2550,
+    "ScanPoints": 3,
+    "IsImprint": true,
+    "Size": "Big"
+  },
+  "Corrupted Lancer": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Hepit",
+      "Ukko"
+    ],
+    "Standing": 2513,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Small"
+  },
+  "Runner": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Saxis",
+      "Phlegyas"
+    ],
+    "Standing": -1,
+    "ScanPoints": 3,
+    "IsImprint": true,
+    "Size": "Small"
+  },
+  "Corrupted Bombard": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Oxomoco",
+      "Marduk",
+      "Aten"
+    ],
+    "Standing": 2625,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "Scorch": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Cassini",
+      "Dione",
+      "Numa",
+      "Anthe"
+    ],
+    "Standing": 2625,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "Corrupted Butcher": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Hepit",
+      "Teshub"
+    ],
+    "Standing": 2513,
+    "ScanPoints": 3,
+    "IsImprint": false,
+    "Size": "Small"
+  },
+  "Seeker": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "E Prime",
+      "Lex",
+      "Nuovo",
+      "Kelpie"
+    ],
+    "Standing": 2538,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "MOA": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Venera",
+      "Linea",
+      "E Gate"
+    ],
+    "Standing": 2513,
+    "ScanPoints": 3,
+    "IsImprint": false,
+    "Size": "Small"
+  },
+  "Corrupted Heavy Gunner": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Hepit",
+      "Teshub",
+      "Ukko"
+    ],
+    "Standing": 2625,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "Frontier Seeker": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "E Prime",
+      "Lex",
+      "Nuovo",
+      "Kelpie"
+    ],
+    "Standing": 2538,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "Scorpion": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Lex",
+      "Cassini",
+      "Numa",
+      "Plato"
+    ],
+    "Standing": 2525,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Small"
+  },
+  "Nullifier Crewman": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Abaddon",
+      "Orias",
+      "Regna"
+    ],
+    "Standing": 2538,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "Napalm": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Cassini",
+      "Selkie",
+      "Naga"
+    ],
+    "Standing": 2625,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "Trooper": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Mantle",
+      "E Prime",
+      "Numa",
+      "Cassini"
+    ],
+    "Standing": 2525,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Small"
+  },
+  "Leaper": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Isos",
+      "Tikal"
+    ],
+    "Standing": 2509,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Small"
+  },
+  "Heavy Gunner": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Elion",
+      "Caloris",
+      "Lex",
+      "Rusalka"
+    ],
+    "Standing": 2625,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "Crawler": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Isos",
+      "Tikal",
+      "Armaros",
+      "Brugia"
+    ],
+    "Standing": 2509,
+    "ScanPoints": 3,
+    "IsImprint": false,
+    "Size": "Small"
+  },
+  "Fusion MOA": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Unda",
+      "Kokabiel",
+      "Abaddon",
+      "Galatea"
+    ],
+    "Standing": 2563,
+    "ScanPoints": 3,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "Guardsman": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Lex",
+      "Nuovo",
+      "Ludi"
+    ],
+    "Standing": 2525,
+    "ScanPoints": 4,
+    "IsImprint": true,
+    "Size": "Small"
+  },
+  "Swarm Mutalist MOA": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Armaros",
+      "Isos",
+      "Brugia"
+    ],
+    "Standing": 2538,
+    "ScanPoints": 3,
+    "IsImprint": false,
+    "Size": "Big"
+  },
+  "Charger": {
+    "_IgnoreEntry": false,
+    "Locations": [
+      "Terminus",
+      "M Prime",
+      "Isos"
+    ],
+    "Standing": 2513,
+    "ScanPoints": 4,
+    "IsImprint": false,
+    "Size": "Small"
+  }
+}

@@ -37,23 +37,23 @@ p.Modules = {
 	Ability = {--not plural
 		source = 'Module:Ability/data', 
 		loc = { 'Ability', 'Archived'},
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage light-invert]]'):format((v or { Icon = 'Panel.png' }).Icon, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format((v or { Icon = 'Panel.png' }).Icon, link) end,
 	},
 	Mods = {
 		source = 'Module:Mods/data',
 		loc = { 'Mods', 'Sets', 'DefaultUpgrades' },
-		-- icon = function(v, link) return '[[File:Mod TT 20px.png|12px|link='..link..'|class=icon notpageimage]]' end,
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(v.Image, link) end,
+		-- icon = function(v, link) return '[[File:Mod TT 20px.png|12px|link='..link..'|class=icon notpageimage noSelect]]' end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Image, link) end,
 	},
 	Warframes = {
 		source = 'Module:Warframes/data',
 		loc = { 'Warframes', 'Archwings', 'Necramechs' },
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(v.Portrait, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Portrait, link) end,
 	},
 	Companions = {
 		source = 'Module:Companions/data',
 		loc = 'Companions',
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(v.Image, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Image, link) end,
 	},
 	Void = {--not plural
 		source = 'Module:Void/data', 
@@ -67,40 +67,40 @@ p.Modules = {
 				Requiem = 'RequiemRelicIntact.png',
 				Vanguard = 'AxiRelicIntact.png'
 			}
-			return ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(relicImageMap[v.Tier], v.Name)
+			return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(relicImageMap[v.Tier], v.Name)
 		end,
 	},
 	Weapons = {
 		source = 'Module:Weapons/data',
 		loc = '',
 		require=true,
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(v.Image, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Image, link) end,
 	},
 	DamageTypes = {
 		source = 'Module:DamageTypes/data',
 		loc = {'Types', 'Health', 'Procs'},
-		icon = function(v, link) return v.Icon and ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(v.Icon or 'Spacer.png', link) end,
+		icon = function(v, link) return v.Icon and ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Icon or 'Spacer.png', link) end,
 		color = function(v) return (function(s) return s ~= '' and s or nil end)(v.CSSTextColorClass) end,
 	},
 	Arcane = {--not plural
 		source = 'Module:Arcane/data',
 		loc = 'Arcanes',
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(v.Image, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Image, link) end,
 	},
 	Resources = {
 		source = 'Module:Resources/data',
 		loc = {'Resources', 'GenericComponents'},
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(v.Image, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Image, link) end,
 	},
 	Focus = {
 		source = 'Module:Focus/data',
 		loc = {'Ways', 'Schools', 'Symbols'},
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon  notpageimage dark-invert]]'):format(v.Image, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Image, link) end,
 	},
 	Sigils = {
 		source = 'Module:Sigils/data',
 		loc = '',
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage light-invert]]'):format(v.Image, link or 'Sigils') end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Image, link or 'Sigils') end,
 	},
 	Blueprints = {--TODO i assume
 		source = 'Module:Placeholder',
@@ -110,33 +110,33 @@ p.Modules = {
 	Factions = {
 		source = 'Module:Factions/data',
 		loc = 'Factions',
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage light-invert]]'):format(v.Image, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Image, link) end,
 	},
 	Stats = {
 		source = 'Module:Icon/data',--note, this is the only non- 'Module:'..k..'/data'
 		loc = 'Buff',
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage %s]]'):format(v.Image, link, v.CssClasses) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage %s noSelect]]'):format(v.Image, link, v.CssClasses) end,
 	},
 	Enemies = {
 		source = 'Module:Enemies/data',
 		loc = '',
 		require=true,
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(v.General.Image, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.General.Image, link) end,
 	},
 	Decrees = {
 		source = 'Module:Decrees/data',
 		loc = '',
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(v.Icon, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Icon, link) end,
 	},
 	Keys = {
 		source = 'Module:Keys/data',
 		loc = '',
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(v.Image, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Image, link) end,
 	},
 	Cosmetics = {
 		source = 'Module:Cosmetics/data',
 		loc = 'Cosmetics',
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(v.Image, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Image, link) end,
 	}
 }
 

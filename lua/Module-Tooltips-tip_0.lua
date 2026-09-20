@@ -49,7 +49,7 @@ local function simpleTooltip(img, name, desc)
 |
 {| class="tt-subtable"
 |-
-| class="tt-image" | [[File:%s|160px]]
+| class="tt-image noSelect" | [[File:%s|160px]]
 |-
 | class="tt-spacer" |
 |-
@@ -179,7 +179,7 @@ Warframes = function(name)
 |
 <div style="position:relative;">
 {| class="tt-subtable" |-
-| class="tt-image" style="height:120px; padding-bottom:0;" | [[File:%s|120px]]
+| class="tt-image noSelect" style="height:120px; padding-bottom:0;" | [[File:%s|120px]]
 <div class="tt-top-text defColor">[[File:MasteryAffinity64.png|28px]]<div style="position:absolute;top:4px; left:%gpx;">%s</div></div>
 |-
 | class="tt-spacer" |
@@ -301,7 +301,7 @@ Companions = function(name)
 |
 <div style="position:relative;">
 {| class="tt-subtable" |-
-| class="tt-image" style="height:160px; padding-bottom:0;" | [[File:%s|160px]]
+| class="tt-image noSelect" style="height:160px; padding-bottom:0;" | [[File:%s|160px]]
 <div class="tt-top-text defColor" style="left: 5px;">[[File:MasteryAffinity64.png|28px]]<div style="margin-top:-26px;">%s</div></div>
 <div class="tt-top-text defColor" style="top:10px;right:12px;">%s</div>
 |-
@@ -399,7 +399,7 @@ Void = function(name)
 		
 		for i, drop in ipairs(Relic.Drops) do
 			result = result .. ([==[
-| class="tt-image" style="border: 2px solid %s;" | [[File:%s|x64px]]
+| class="tt-image noSelect" style="border: 2px solid %s;" | [[File:%s|x64px]]
 | style="vertical-align:center;  padding-left: 1em;" | %s%s<br/>%s [[File:Icon%s.png|x32px]]
 |-
 ]==]):format(
@@ -544,7 +544,7 @@ Weapons = function(name, slot)
 |<div style="position:relative;">
 {| class="tt-subtable"
 |-
-| class="tt-image" style="height:120px;" | <div style="position:relative;z-index:2;">[[File:%s|160px]]</div>
+| class="tt-image noSelect" style="height:120px;" | <div style="position:relative;z-index:2;">[[File:%s|160px]]</div>
 <div class="tt-top-text defColor" style="left: 5px;">[[File:MasteryAffinity64.png|28px]]<div style="margin-top:-26px;">%s</div></div>
 |-
 | class="tt-spacer" |
@@ -740,7 +740,7 @@ Arcane = function(name)
 |
 <div style="position:relative;">
 {|class="tt-subtable"|-
-|class="tt-image"|[[File:%s|160px|link=]]%s
+|class="tt-image noSelect"|[[File:%s|160px|link=]]%s
 |-
 |class="tt-spacer"|
 |-
@@ -1001,7 +1001,7 @@ Enemies = function(name)
 |
 <div style="position:relative;">
 {| class="tt-subtable" |-
-| class="tt-image" style="height:120px; padding-bottom:0;" | [[File:%s|120px]]
+| class="tt-image noSelect" style="height:120px; padding-bottom:0;" | [[File:%s|120px]]
 <div class="tt-top-text defColor" style="top:10px;right:12px;">[[File:%s|28px]]</div>
 |-
 | class="tt-spacer" |

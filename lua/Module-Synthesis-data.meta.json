@@ -1,0 +1,16 @@
+{
+  "page": "Module:Synthesis/data",
+  "wiki_timestamp": "2026-09-19T18:54:33Z",
+  "extracted_at": "2026-09-20T02:14:04.088734+00:00",
+  "lua_files": [
+    "Module-Synthesis-data_0.lua",
+    "Module-Synthesis-data_1.lua",
+    "Module-Synthesis-data_2.lua",
+    "Module-Synthesis-data_3.lua",
+    "Module-Synthesis-data_4.lua"
+  ],
+  "lua_block_count": 5,
+  "file_size": 7343,
+  "comment_count": 3,
+  "status": "success"
+}

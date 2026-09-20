@@ -1,7 +1,7 @@
 ---
 title: "Module:Tooltips/tip"
 wiki_url: "https://wiki.warframe.com/w/Module/Tooltips/tip"
-wiki_timestamp: "2026-09-02T10:13:14Z"
+wiki_timestamp: "2026-09-19T21:42:43Z"
 ---
 
 **Tooltips/tip** builds the tooltip box of a tooltip. CSS stylesheet for tooltips can be found on [MediaWiki:Gadget-Tooltips.css](/w/MediaWiki:Gadget-Tooltips.css "MediaWiki:Gadget-Tooltips.css").
@@ -55,7 +55,7 @@ Submodule of [Module:Tooltips](/w/Module:Tooltips "Module:Tooltips"). Not meant 
 
 |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| |  | | --- | | **Heat** | |  | | Infested +50% | |  | | Kuva Grineer -50%  Tenno Shield -50% | |  | | Ignite DoT Panic Armor Reduction | |
+| |  | | --- | | **Heat** | |  | | Infested +50% | |  | | Kuva Grineer -50%  Shield -50% | |  | | Ignite DoT Panic Armor reduction (max 50%) | |
 
 |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -65,9 +65,9 @@ Submodule of [Module:Tooltips](/w/Module:Tooltips "Module:Tooltips"). Not meant 
 | --- | --- | --- | --- | --- | --- |
 | |  | | --- | | **Flesh** | |  | | Viral +50%  Toxin +50%  Slash +25% | |  | | Gas -25%  Impact -25% | |
 
-|  |  |  |  |
-| --- | --- | --- | --- |
-| |  | | --- | | **Ignite** | |  | | Fire DoT as Heat damage Panic Armor reduction | |
+|  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | **Ignite** | |  | | Infested +50% | |  | | Kuva Grineer -50%  Shield -50% | |  | | Heat damage Panic Armor reduction (max 50%) | |
 
 ---
 
@@ -326,7 +326,7 @@ local function simpleTooltip(img, name, desc)
 |
 {| class="tt-subtable"
 |-
-| class="tt-image" | [[File:%s|160px]]
+| class="tt-image noSelect" | [[File:%s|160px]]
 |-
 | class="tt-spacer" |
 |-
@@ -462,7 +462,7 @@ Warframes = function(name)
 |
 
 {| class="tt-subtable" |-
-| class="tt-image" style="height:120px; padding-bottom:0;" | [[File:%s|120px]]
+| class="tt-image noSelect" style="height:120px; padding-bottom:0;" | [[File:%s|120px]]
 
 [[File:MasteryAffinity64.png|28px]]
 
@@ -588,7 +588,7 @@ Companions = function(name)
 |
 
 {| class="tt-subtable" |-
-| class="tt-image" style="height:160px; padding-bottom:0;" | [[File:%s|160px]]
+| class="tt-image noSelect" style="height:160px; padding-bottom:0;" | [[File:%s|160px]]
 
 [[File:MasteryAffinity64.png|28px]]
 
@@ -691,7 +691,7 @@ Void = function(name)
 		
 		for i, drop in ipairs(Relic.Drops) do
 			result = result .. ([==[
-| class="tt-image" style="border: 2px solid %s;" | [[File:%s|x64px]]
+| class="tt-image noSelect" style="border: 2px solid %s;" | [[File:%s|x64px]]
 | style="vertical-align:center;  padding-left: 1em;" | %s%s  
 %s [[File:Icon%s.png|x32px]]
 |-
@@ -838,7 +838,7 @@ Weapons = function(name, slot)
 
 {| class="tt-subtable"
 |-
-| class="tt-image" style="height:120px;" |
+| class="tt-image noSelect" style="height:120px;" |
 
 [[File:%s|160px]]
 
@@ -1042,7 +1042,7 @@ Arcane = function(name)
 |
 
 {|class="tt-subtable"|-
-|class="tt-image"|[[File:%s|160px|link=]]%s
+|class="tt-image noSelect"|[[File:%s|160px|link=]]%s
 |-
 |class="tt-spacer"|
 |-
@@ -1311,7 +1311,7 @@ Enemies = function(name)
 |
 
 {| class="tt-subtable" |-
-| class="tt-image" style="height:120px; padding-bottom:0;" | [[File:%s|120px]]
+| class="tt-image noSelect" style="height:120px; padding-bottom:0;" | [[File:%s|120px]]
 
 [[File:%s|28px]]
 

@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-06T02:14:01.455Z"
+    "converted_at": "2026-09-20T02:14:19.760Z"
   },
   "_comments": "\t\t-- Please edit the entry below with the correct info once we know more about --\n\t\t\t-- AuraPolarity = \"Naramon\",\n\t\t\t-- ExilusPolarity = \"Naramon\",\n\t\t\t-- Subsumed = \"Balefire\",\n\t\t\t-- Tactical = \"Balefire\",\n\t\t    -- Subsumed = \"Jade Stars\",\n\t\t    -- Tactical = \"Light's Sanctuary\",",
   "Archwings": {
@@ -3164,7 +3164,7 @@
       "Shield": 270,
       "Progenitor": "Magnetic",
       "SquadPortrait": "CitrineLargePortrait.png",
-      "Passive": "Citrine grants nearby allies 5 health regeneration per second. Pick up a Health Orb to increase regeneration by 0,1, up to a maximum of 25.",
+      "Passive": "Citrine grants nearby allies 5 health regeneration per second. Pick up a Health Orb to increase regeneration by 0.1, up to a maximum of 25.",
       "Link": "Citrine",
       "SellPrice": 25000,
       "Portrait": "Citrine_Thumb.png",

@@ -1,7 +1,7 @@
 ---
 title: "Module:Ability/infoboxTEST"
 wiki_url: "https://wiki.warframe.com/w/Module/Ability/infoboxTEST"
-wiki_timestamp: "2026-08-27T04:52:00Z"
+wiki_timestamp: "2026-09-19T22:50:09Z"
 ---
 
 *Documentation for this module may be created at [Module:Ability/infoboxTEST/doc](/w/Module:Ability/infoboxTEST/doc?action=edit&redlink=1 "Module:Ability/infoboxTEST/doc (page does not exist)")*
@@ -361,7 +361,7 @@ nil)
 
 %s
 
-[[File:Expand.svg|30px|link=#%s|Expand/Collapse|class=rotate-c defColor]]
+[[File:Expand.svg|30px|link=#%s|Expand/Collapse|class=rotate-c defColor noSelect]]
 
 %s]=]):format(
 cardImage or 'Panel.png', link or name,

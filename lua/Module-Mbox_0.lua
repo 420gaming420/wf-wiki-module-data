@@ -40,7 +40,7 @@ function Mbox.__main(frame)
         imagelink = imagelink .. imagelinkarg
     end
 
-    local imagewikitext = '[[File:' .. image .. '|class=notpageimage|' .. imagewidth  .. imageadjust .. imagelink .. ']]'
+    local imagewikitext = '[[File:' .. image .. '|class=notpageimage noSelect|' .. imagewidth  .. imageadjust .. imagelink .. ']]'
 
     -- id for closure
     local id = i18n:parameter('id', args) or 'mbox'
@@ -48,7 +48,7 @@ function Mbox.__main(frame)
 
     local container = mw.html.create('div')
         :addClass('mbox')
-        :addClass('noexcerpt notpageimage')
+        :addClass('noexcerpt notpageimage noSelect')
         :attr('id', id)
         :addClass(typeclass and ('mbox-type-' .. typeclass))
         :addClass(i18n:parameter('class', args))
@@ -119,7 +119,7 @@ function Mbox.__main(frame)
         :attr('title', 'Minimize')
         
     contentwrapper:tag('span')
-        :addClass('mbox__close')
+        :addClass('mbox__close noSelect')
         :attr('id', id)
         :attr('title', i18n:msg('dismiss'))
 

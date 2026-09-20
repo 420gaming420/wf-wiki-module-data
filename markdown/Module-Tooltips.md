@@ -1,7 +1,7 @@
 ---
 title: "Module:Tooltips"
 wiki_url: "https://wiki.warframe.com/w/Module/Tooltips"
-wiki_timestamp: "2026-09-10T02:42:09Z"
+wiki_timestamp: "2026-09-19T21:35:21Z"
 ---
 
 **Tooltips** builds tooltip links and icons. It can be used as a static or instantiated class.

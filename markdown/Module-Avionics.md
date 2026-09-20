@@ -1,7 +1,7 @@
 ---
 title: "Module:Avionics"
 wiki_url: "https://wiki.warframe.com/w/Module/Avionics"
-wiki_timestamp: "2025-06-14T09:05:01Z"
+wiki_timestamp: "2026-09-19T22:09:50Z"
 ---
 
 [![](/images/Lotusiconsmall.png?17208)](/w/WARFRAME_Wiki:Administrators "WARFRAME Wiki:Administrators")
@@ -66,7 +66,7 @@ You should always use the avionic's name without (Avionic) suffix.
 
 ## Other Templates
 
-[[edit source](/w/Template:Avi/doc?action=edit&section=T-1 "Edit section's source code: Other Templates")]
+[[edit page](/w/Template:Avi/doc?action=edit&section=T-1 "Edit section's source code: Other Templates")]
 
 ```lua
 {{#invoke:Avionics|AvionicTable|SortBy|Find|Image?}}
@@ -486,7 +486,7 @@ tooltipText = function(frame)
     
     if Avionic.House ~= nil then
         if showIcon == nil then
-            table.insert(tAvionic,'[[File:'..Avionic.Houseicon..'|20px|link='..Avionic.Link..']] ')
+            table.insert(tAvionic,'[[File:'..Avionic.Houseicon..'|20px|link='..Avionic.Link..'|class=noSelect]] ')
         elseif showIcon == "none" then
             --table.insert(tAvionic, '')
         elseif showIcon == "icon" then

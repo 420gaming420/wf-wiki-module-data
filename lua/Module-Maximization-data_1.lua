@@ -43,9 +43,9 @@ local Data = {
 			{name='SEEKING_SHURIKEN', cont=Tooltips.full('Seeking Shuriken', 'Mods')..'?', type='checkbox'},
 		},
 		outs={
-			{Tooltips.full('Slash', 'DamageTypes')..' damage:' ,                                    {name='BASE_DMG_ASH_1', expr='STR 750 %of HEAD_MULT * SHURIKENS *'}},
-			{Tooltips.full('Bleed', 'DamageTypes')..' [[DoT]]:', {name='BLEED', expr='43.75 35 ASH if BASE_DMG_ASH_1 %of', suff='/s'}},
-			{'Total damage:',                                    {expr='BLEED 9 6 ASH if * BASE_DMG_ASH_1 +'}},
+			{Tooltips.full('Slash', 'DamageTypes')..' damage:' ,                                    {name='SHURIKEN_BASE_DMG', expr='STR 750 %of HEAD_MULT * SHURIKENS *'}},
+			{Tooltips.full('Bleed', 'DamageTypes')..' [[DoT]]:', {name='BLEED', expr='43.75 35 ASH if SHURIKEN_BASE_DMG %of', suff='/s'}},
+			{'Total damage:',                                    {expr='BLEED 9 6 ASH if * SHURIKEN_BASE_DMG +'}},
 			{'Armor reduction:',                                 {expr='STR 70 %of SEEKING_SHURIKEN *', suff='%'}},
 			{'Armor reduction duration:',                        {expr='DUR 8 %of SEEKING_SHURIKEN *', suff='s'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:',                   {expr='25 COST *'}},
@@ -53,28 +53,28 @@ local Data = {
 	},
 	['Smoke Screen']={
 		ins={
-			{name='TP_AUG', cont=Tooltips.full('Teleport Rush', 'Mods')..'?', type='checkbox'},
-			{name='SMOKE_AUG', cont=Tooltips.full('Smoke Shadow', 'Mods')..'?', type='checkbox'},
+			{name='TELEPORT_RUSH', cont=Tooltips.full('Teleport Rush', 'Mods')..'?', type='checkbox'},
+			{name='SMOKE_SHADOW', cont=Tooltips.full('Smoke Shadow', 'Mods')..'?', type='checkbox'},
 		},
 		outs={
 			{'Duration:', {expr='DUR 12 %of', suff='s'}},
-			{'Extension on [[Finisher]] kills:', {expr='DUR 5 %of TP_AUG *', suff='s'}},
+			{'Extension on [[Finisher]] kills:', {expr='DUR 5 %of TELEPORT_RUSH *', suff='s'}},
 			{'Radius:', {expr='RNG 10 %of', suff='m'}},
-			{'Smoke Shadow duration:', {expr='DUR 12 %of 0 SMOKE_AUG if', suff='s'}},
-			{'Smoke Shadow radius:', {expr='RNG 15 %of 0 SMOKE_AUG if', suff='m'}},
-			{'Critical Chance bonus:', {expr='150 0 SMOKE_AUG if', suff='%'}},
+			{'Smoke Shadow duration:', {expr='DUR 12 %of 0 SMOKE_SHADOW if', suff='s'}},
+			{'Smoke Shadow radius:', {expr='RNG 15 %of 0 SMOKE_SHADOW if', suff='m'}},
+			{'Critical Chance bonus:', {expr='150 0 SMOKE_SHADOW if', suff='%'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='35 COST *'}},
 		}
 	},
 	['Teleport']={
 		ins={
-			{name='TP_AUG', cont=Tooltips.full('Teleport Rush', 'Mods')..'?', type='checkbox'},
+			{name='TELEPORT_RUSH', cont=Tooltips.full('Teleport Rush', 'Mods')..'?', type='checkbox'},
 		},
 		outs={
 			{Tooltips.full('Finisher', 'DamageTypes')..' damage bonus:', {expr='STR 200 %of', suff='%'}},
 			{'Range:', {expr='RNG 60 %of', suff='m'}},
-			{'[[Parkour Velocity]] bonus:', {expr='30 0 TP_AUG if', suff='%'}},
-			{'Teleport Rush duration:', {expr='DUR 12 %of 0 TP_AUG if', suff='s'}},
+			{'[[Parkour Velocity]] bonus:', {expr='30 0 TELEPORT_RUSH if', suff='%'}},
+			{'Teleport Rush duration:', {expr='DUR 12 %of 0 TELEPORT_RUSH if', suff='s'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}},
 		},
 	},
@@ -82,19 +82,39 @@ local Data = {
 		ins=merge(
 			GenericIns.ModdableMelee, {
 			{name='IS_INVISIBLE', cont='Ash is [[invisible]]?', type='checkbox'},
-			{name='RISING_STORM', cont=Tooltips.full('Rising Storm', 'Mods')..'?', type='checkbox'}}
-		),
+			{name='RISING_STORM', cont=Tooltips.full('Rising Storm', 'Mods')..'?', type='checkbox'}
+		}),
 		outs={
-			{Tooltips.full('Finisher', 'DamageTypes')..' damage:', {name='BASE_DMG_ASH_4', expr=[[
+			{Tooltips.full('Finisher', 'DamageTypes')..' damage:', {name='BLADE_STORM_BASE_DMG', expr=[[
 				FACTION_DMG_MOD MELEE_DMG_MOD FINISHER_DMG_MOD STR 
 				1500 %of %of %of %of COMBO_MULT *
 			]]}},
-			{Tooltips.full('Bleed', 'DamageTypes')..' [[DoT]]:', {name='BLEED_DMG', expr='FACTION_DMG_MOD 43.75 BASE_DMG_ASH_4 %of %of', suff='/s'}},
-			{'Elemental damage:', {name='ELEMENT_DMG', expr='ELEMENT_DMG_MOD BASE_DMG_ASH_4 %of'}},
-			{'Total damage:', {name='TOTAL_DMG', expr='BASE_DMG_ASH_4 ELEMENT_DMG + BLEED_DMG 9 * +'}},
+			{Tooltips.full('Bleed', 'DamageTypes')..' [[DoT]]:', {name='BLEED_DMG', expr='FACTION_DMG_MOD 43.75 BLADE_STORM_BASE_DMG %of %of', suff='/s'}},
+			{'Elemental damage:', {name='ELEMENT_DMG', expr='ELEMENT_DMG_MOD BLADE_STORM_BASE_DMG %of'}},
+			{'Total damage:', {name='TOTAL_DMG', expr='BLADE_STORM_BASE_DMG ELEMENT_DMG + BLEED_DMG 9 * +'}},
 			{'Range:', {expr='RNG 50 %of', suff='m'}},
 			{'Combo:', {expr='STR 4 %of RISING_STORM * 3 +', suff='/attack'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='12 COST * 2 1 IS_INVISIBLE if /', suff='/enemy'}},
+		}
+	},
+	['Landslide']={
+		ins=merge(
+			GenericIns.ModdableMelee, {
+			{name='PUNCH_NUMBER', cont='Punch number:', type='range-R', min='1', max='3', default='1'},
+			{name='RUBBLE_HEAP', cont=Tooltips.full('Rubble Heap', 'Mods').." and '''1400''' Rubble?", type='checkbox'},
+			{name='PATH_OF_STATUES', cont=Tooltips.full('Path of Statues', 'Mods')..'?', type='checkbox'}
+		}),
+		outs={
+			{Tooltips.full('Impact', 'DamageTypes')..' damage:', {name='BASE_DMG', expr=[[
+				FACTION_DMG_MOD MELEE_DMG_MOD STR 100 0 RUBBLE_HEAP if + 350 %of %of %of COMBO_MULT *
+			]]}},
+			{'Elemental damage:', {name='ELEMENT_DMG', expr='ELEMENT_DMG_MOD BASE_DMG %of'}},
+			{'Total damage:', {name='TOTAL_DMG', expr='BASE_DMG ELEMENT_DMG +'}},
+			{'Range:', {expr='12 24 RUBBLE_HEAP if', suff='m'}},
+			{'Punch radius:', {expr='RNG 4 2 6 3 8 PUNCH_NUMBER 3 v_match:= %of', suff='m'}},
+			{'Path duration:', {name='PATH_DUR', expr='DUR 12 %of 0 PATH_OF_STATUES if ', suff='s'}},
+			{'Petrify duration:', {expr='PATH_DUR 2 /', suff='s'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 0 { 1 2 2 3 4 PUNCH_NUMBER 3 v_match:= / COST } RUBBLE_HEAP if run *'}},
 		}
 	}
 };

@@ -320,7 +320,7 @@ font-size:12px;">%s</b>]]]=]):format(hotkey ~= '' and hotkey or 'N/A')
 |}
 <div id="mw-customcollapsible-%s" class="tabber-borderless mw-collapsible %s">%s</div>
 <div class="mw-customtoggle-%s button-c">
-[[File:Expand.svg|30px|link=#%s|Expand/Collapse|class=rotate-c defColor]]
+[[File:Expand.svg|30px|link=#%s|Expand/Collapse|class=rotate-c defColor noSelect]]
 </div>
 %s]=]):format(
 cardImage or 'Panel.png', link or name,

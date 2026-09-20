@@ -711,7 +711,7 @@ return {
 			Link = "Citrine",
 			MaxRank = 30,
 			Name = "Citrine",
-			Passive = "Citrine grants nearby allies 5 health regeneration per second. Pick up a Health Orb to increase regeneration by 0,1, up to a maximum of 25.",
+			Passive = "Citrine grants nearby allies 5 health regeneration per second. Pick up a Health Orb to increase regeneration by 0.1, up to a maximum of 25.",
 			Playstyle = { "Support" },
 			Polarities = { "Madurai", "Vazarin" },
 			Portrait = "Citrine_Thumb.png",

@@ -189,7 +189,7 @@ tooltipText = function(frame)
     
     if Avionic.House ~= nil then
         if showIcon == nil then
-            table.insert(tAvionic,'[[File:'..Avionic.Houseicon..'|20px|link='..Avionic.Link..']]&nbsp;')
+            table.insert(tAvionic,'[[File:'..Avionic.Houseicon..'|20px|link='..Avionic.Link..'|class=noSelect]]&nbsp;')
         elseif showIcon == "none" then
             --table.insert(tAvionic, '')
         elseif showIcon == "icon" then

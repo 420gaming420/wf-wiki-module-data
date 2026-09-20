@@ -84,7 +84,7 @@ InfoboxBuilder.group = function(self, collapse, id)
 	id = id or ('PH_INFOBOX %x'):format(math.random()*0xffff)
 	return self
 	:tag('div'):addClass('button-c-pre mw-customtoggle-'..id:gsub('[ "]','_'))
-		:wikitext('[[File:Expand.svg|30px|link=|Expand/Collapse '..id..'|class=rotate-c light-invert]]')
+		:wikitext('[[File:Expand.svg|30px|link=|Expand/Collapse '..id..'|class=rotate-c noSelect]]')
 	:done()
 	:tag('div'):addClass('group')
 	:attr('id','mw-customcollapsible-'..id:gsub('[ "]','_')):addClass('mw-collapsible'):addClass(collapse and 'mw-collapsed' or nil)

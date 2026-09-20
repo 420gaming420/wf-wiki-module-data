@@ -1,7 +1,7 @@
 ---
 title: "Module:Tooltips/icon"
 wiki_url: "https://wiki.warframe.com/w/Module/Tooltips/icon"
-wiki_timestamp: "2026-07-14T15:56:41Z"
+wiki_timestamp: "2026-09-19T21:37:26Z"
 ---
 
 Submodule of [Module:Tooltips](/w/Module:Tooltips "Module:Tooltips") responsible for storing details about the tooltip text and icon. The actual tooltip box format is defined in [Module:Tooltips/tip](/w/Module:Tooltips/tip "Module:Tooltips/tip").
@@ -61,7 +61,7 @@ Submodule of [Module:Tooltips](/w/Module:Tooltips "Module:Tooltips"). Not meant 
 | [Drop Tables](/w/Drop_Tables "Drop Tables") | [M:Acquisition](/w/Module:Acquisition "Module:Acquisition") ([/data](/w/Module:Acquisition/data "Module:Acquisition/data")) • [M:DropTables](/w/Module:DropTables "Module:DropTables") ([/data](/w/Module:DropTables/data "Module:DropTables/data")) • [M:Void](/w/Module:Void "Module:Void") ([/data](/w/Module:Void/data "Module:Void/data")) |
 | Vendors | [M:Baro](/w/Module:Baro "Module:Baro") ([/data](/w/Module:Baro/data "Module:Baro/data")) • [M:Vendors](/w/Module:Vendors "Module:Vendors") ([/data](/w/Module:Vendors/data "Module:Vendors/data")) |
 | Crafting | [M:Blueprints/data](/w/Module:Blueprints/data "Module:Blueprints/data") • [M:Cost](/w/Module:Cost "Module:Cost") • [M:Research](/w/Module:Research?action=edit&redlink=1 "Module:Research (page does not exist)") ([/data](/w/Module:Research/data "Module:Research/data")) • [M:Resources](/w/Module:Resources "Module:Resources") ([/data](/w/Module:Resources/data "Module:Resources/data")) |
-| Cosmetics | [M:Decorations](/w/Module:Decorations "Module:Decorations") ([/data](/w/Module:Decorations/data "Module:Decorations/data")) • [M:Cosmetics](/w/Module:Cosmetics "Module:Cosmetics") ([/data](/w/Module:Cosmetics/data "Module:Cosmetics/data")) • [M:Sigils/data](/w/Module:Sigils/data "Module:Sigils/data") • [M:TennoGen](/w/Module:TennoGen "Module:TennoGen") ([/data](/w/Module:TennoGen/data "Module:TennoGen/data")) |
+| Cosmetics | [M:Cosmetics](/w/Module:Cosmetics "Module:Cosmetics") ([/data](/w/Module:Cosmetics/data "Module:Cosmetics/data")) • [M:Decorations](/w/Module:Decorations "Module:Decorations") ([/data](/w/Module:Decorations/data "Module:Decorations/data")) • [Module:Honorias](/w/Module:Honorias "Module:Honorias") ([/data](/w/Module:Honorias/data "Module:Honorias/data")) • [M:Sigils/data](/w/Module:Sigils/data "Module:Sigils/data") • [M:TennoGen](/w/Module:TennoGen "Module:TennoGen") ([/data](/w/Module:TennoGen/data "Module:TennoGen/data")) |
 | Infoboxes | [M:Animal/infobox](/w/Module:Animal/infobox "Module:Animal/infobox") • [M:Arcane/infobox](/w/Module:Arcane/infobox "Module:Arcane/infobox") • [M:ArchModBox](/w/Module:ArchModBox "Module:ArchModBox") • [Module:Companions/infobox](/w/Module:Companions/infobox "Module:Companions/infobox") • [M:Conservation/infobox](/w/Module:Conservation/infobox "Module:Conservation/infobox") • [M:Cosmetics/infobox](/w/Module:Cosmetics/infobox "Module:Cosmetics/infobox") • [M:Enemies/infobox](/w/Module:Enemies/infobox "Module:Enemies/infobox") • [M:Missions/infobox](/w/Module:Missions/infobox "Module:Missions/infobox") • [M:Mods/infobox](/w/Module:Mods/infobox "Module:Mods/infobox") • [M:Resources/infobox](/w/Module:Resources/infobox "Module:Resources/infobox") • [M:Vehicles/infobox](/w/Module:Vehicles/infobox "Module:Vehicles/infobox") • [M:Void/page](/w/Module:Void/page "Module:Void/page") • [M:Warframes/infobox](/w/Module:Warframes/infobox "Module:Warframes/infobox") • [M:Weapons/infobox](/w/Module:Weapons/infobox "Module:Weapons/infobox") | |
 | Wiki | [Dev Wiki](https://dev.fandom.com/wiki/Fandom_Developers_Wiki) Fork | [Module:Common](/w/Module:Common "Module:Common") ([/i18n](/w/Module:Common/i18n "Module:Common/i18n")) • [M:Docbunto](/w/Module:Docbunto "Module:Docbunto") ([/cli](/w/Module:Docbunto/cli "Module:Docbunto/cli"), [/i18n](/w/Module:Docbunto/i18n "Module:Docbunto/i18n")) • [M:Entrypoint](/w/Module:Entrypoint "Module:Entrypoint") • [M:I18n](/w/Module:I18n "Module:I18n") • [M:Infobox](/w/Module:Infobox "Module:Infobox") ([/i18n](/w/Module:Infobox/i18n "Module:Infobox/i18n")) • [M:LanguageList](/w/Module:LanguageList "Module:LanguageList") • [M:Mbox](/w/Module:Mbox "Module:Mbox") ([/i18n](/w/Module:Mbox/i18n "Module:Mbox/i18n")) • [M:ModuleTest](/w/Module:ModuleTest "Module:ModuleTest") • [M:Reference](/w/Module:Reference "Module:Reference") • [M:ReleaseStatus](/w/Module:ReleaseStatus "Module:ReleaseStatus") ([/i18n](/w/Module:ReleaseStatus/i18n "Module:ReleaseStatus/i18n")) • [M:TestHarness](/w/Module:TestHarness "Module:TestHarness") ([/i18n](/w/Module:TestHarness/i18n "Module:TestHarness/i18n")) • [M:WDSButton](/w/Module:WDSButton "Module:WDSButton") ([/data](/w/Module:WDSButton/data "Module:WDSButton/data")) |
 | [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia "wikipedia:Wikipedia") Fork | [M:Arguments](/w/Module:Arguments "Module:Arguments") ([/i18n](/w/Module:Arguments/i18n "Module:Arguments/i18n")) • [M:FallbackList](/w/Module:FallbackList "Module:FallbackList") • [M:Yesno](/w/Module:Yesno "Module:Yesno") |
@@ -115,23 +115,23 @@ p.Modules = {
 	Ability = {--not plural
 		source = 'Module:Ability/data', 
 		loc = { 'Ability', 'Archived'},
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage light-invert]]'):format((v or { Icon = 'Panel.png' }).Icon, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format((v or { Icon = 'Panel.png' }).Icon, link) end,
 	},
 	Mods = {
 		source = 'Module:Mods/data',
 		loc = { 'Mods', 'Sets', 'DefaultUpgrades' },
-		-- icon = function(v, link) return '[[File:Mod TT 20px.png|12px|link='..link..'|class=icon notpageimage]]' end,
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(v.Image, link) end,
+		-- icon = function(v, link) return '[[File:Mod TT 20px.png|12px|link='..link..'|class=icon notpageimage noSelect]]' end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Image, link) end,
 	},
 	Warframes = {
 		source = 'Module:Warframes/data',
 		loc = { 'Warframes', 'Archwings', 'Necramechs' },
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(v.Portrait, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Portrait, link) end,
 	},
 	Companions = {
 		source = 'Module:Companions/data',
 		loc = 'Companions',
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(v.Image, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Image, link) end,
 	},
 	Void = {--not plural
 		source = 'Module:Void/data', 
@@ -145,40 +145,40 @@ p.Modules = {
 				Requiem = 'RequiemRelicIntact.png',
 				Vanguard = 'AxiRelicIntact.png'
 			}
-			return ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(relicImageMap[v.Tier], v.Name)
+			return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(relicImageMap[v.Tier], v.Name)
 		end,
 	},
 	Weapons = {
 		source = 'Module:Weapons/data',
 		loc = '',
 		require=true,
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(v.Image, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Image, link) end,
 	},
 	DamageTypes = {
 		source = 'Module:DamageTypes/data',
 		loc = {'Types', 'Health', 'Procs'},
-		icon = function(v, link) return v.Icon and ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(v.Icon or 'Spacer.png', link) end,
+		icon = function(v, link) return v.Icon and ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Icon or 'Spacer.png', link) end,
 		color = function(v) return (function(s) return s ~= '' and s or nil end)(v.CSSTextColorClass) end,
 	},
 	Arcane = {--not plural
 		source = 'Module:Arcane/data',
 		loc = 'Arcanes',
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(v.Image, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Image, link) end,
 	},
 	Resources = {
 		source = 'Module:Resources/data',
 		loc = {'Resources', 'GenericComponents'},
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(v.Image, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Image, link) end,
 	},
 	Focus = {
 		source = 'Module:Focus/data',
 		loc = {'Ways', 'Schools', 'Symbols'},
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon  notpageimage dark-invert]]'):format(v.Image, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Image, link) end,
 	},
 	Sigils = {
 		source = 'Module:Sigils/data',
 		loc = '',
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage light-invert]]'):format(v.Image, link or 'Sigils') end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Image, link or 'Sigils') end,
 	},
 	Blueprints = {--TODO i assume
 		source = 'Module:Placeholder',
@@ -188,33 +188,33 @@ p.Modules = {
 	Factions = {
 		source = 'Module:Factions/data',
 		loc = 'Factions',
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage light-invert]]'):format(v.Image, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Image, link) end,
 	},
 	Stats = {
 		source = 'Module:Icon/data',--note, this is the only non- 'Module:'..k..'/data'
 		loc = 'Buff',
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage %s]]'):format(v.Image, link, v.CssClasses) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage %s noSelect]]'):format(v.Image, link, v.CssClasses) end,
 	},
 	Enemies = {
 		source = 'Module:Enemies/data',
 		loc = '',
 		require=true,
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(v.General.Image, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.General.Image, link) end,
 	},
 	Decrees = {
 		source = 'Module:Decrees/data',
 		loc = '',
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(v.Icon, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Icon, link) end,
 	},
 	Keys = {
 		source = 'Module:Keys/data',
 		loc = '',
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(v.Image, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Image, link) end,
 	},
 	Cosmetics = {
 		source = 'Module:Cosmetics/data',
 		loc = 'Cosmetics',
-		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage]]'):format(v.Image, link) end,
+		icon = function(v, link) return ('[[File:%s|x32px|link=%s|class=icon notpageimage noSelect]]'):format(v.Image, link) end,
 	}
 }
 
