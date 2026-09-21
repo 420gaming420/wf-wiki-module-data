@@ -1,7 +1,7 @@
 ---
 title: "Module:Mbox"
 wiki_url: "https://wiki.warframe.com/w/Module/Mbox"
-wiki_timestamp: "2026-09-19T22:20:07Z"
+wiki_timestamp: "2026-09-21T00:13:57Z"
 ---
 
 **Mbox** is a module for creating message boxes. On this Wiki, Mbox is used in:
@@ -116,7 +116,7 @@ function Mbox.__main(frame)
 
     local container = mw.html.create('div')
         :addClass('mbox')
-        :addClass('noexcerpt notpageimage noSelect')
+        :addClass('noexcerpt notpageimage textSelect')
         :attr('id', id)
         :addClass(typeclass and ('mbox-type-' .. typeclass))
         :addClass(i18n:parameter('class', args))

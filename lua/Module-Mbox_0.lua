@@ -48,7 +48,7 @@ function Mbox.__main(frame)
 
     local container = mw.html.create('div')
         :addClass('mbox')
-        :addClass('noexcerpt notpageimage noSelect')
+        :addClass('noexcerpt notpageimage textSelect')
         :attr('id', id)
         :addClass(typeclass and ('mbox-type-' .. typeclass))
         :addClass(i18n:parameter('class', args))

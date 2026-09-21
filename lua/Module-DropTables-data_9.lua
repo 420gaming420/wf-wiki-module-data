@@ -6118,7 +6118,7 @@ local DropData = {
 			ResourceChance = 7,
 			Resources = { { "Region Resource", "Resource", 100 } } 
 		},
-		["Hyena Ln2"] = {
+		["Hyena LN2"] = {
 			ModChance = 60,
 			Mods = {
 				{ "Trick Mag", "Mod", 38.72 },
@@ -6126,13 +6126,13 @@ local DropData = {
 				{ "Hit And Run", "Mod", 11.28 },
 				{ "North Wind", "Mod", 11.28 } 
 			},
-			Name = "Hyena Ln2",
+			Name = "Hyena LN2",
 			ResourceChance = 100,
 			Resources = { { "Region Resource", "Resource", 97.42 }, { "Orokin Cell", "Resource", 2.58 } },
 			SigilChance = 100,
 			Sigils = { { "Hyena Sigil", "Sigil", 100 } } 
 		},
-		["Hyena Ng"] = {
+		["Hyena NG"] = {
 			ModChance = 60,
 			Mods = {
 				{ "Trick Mag", "Mod", 38.72 },
@@ -6140,7 +6140,7 @@ local DropData = {
 				{ "Hit And Run", "Mod", 11.28 },
 				{ "North Wind", "Mod", 11.28 } 
 			},
-			Name = "Hyena Ng",
+			Name = "Hyena NG",
 			ResourceChance = 100,
 			Resources = { { "Region Resource", "Resource", 97.42 }, { "Orokin Cell", "Resource", 2.58 } },
 			SigilChance = 100,
@@ -6160,7 +6160,7 @@ local DropData = {
 			SigilChance = 100,
 			Sigils = { { "Hyena Sigil", "Sigil", 100 } } 
 		},
-		["Hyena Pb"] = {
+		["Hyena PB"] = {
 			ModChance = 60,
 			Mods = {
 				{ "Trick Mag", "Mod", 38.72 },
@@ -6168,13 +6168,13 @@ local DropData = {
 				{ "Hit And Run", "Mod", 11.28 },
 				{ "North Wind", "Mod", 11.28 } 
 			},
-			Name = "Hyena Pb",
+			Name = "Hyena PB",
 			ResourceChance = 100,
 			Resources = { { "Region Resource", "Resource", 97.42 }, { "Orokin Cell", "Resource", 2.58 } },
 			SigilChance = 100,
 			Sigils = { { "Hyena Sigil", "Sigil", 100 } } 
 		},
-		["Hyena Th"] = {
+		["Hyena TH"] = {
 			ModChance = 60,
 			Mods = {
 				{ "Trick Mag", "Mod", 38.72 },
@@ -6182,7 +6182,7 @@ local DropData = {
 				{ "Hit And Run", "Mod", 11.28 },
 				{ "North Wind", "Mod", 11.28 } 
 			},
-			Name = "Hyena Th",
+			Name = "Hyena TH",
 			ResourceChance = 100,
 			Resources = { { "Region Resource", "Resource", 97.42 }, { "Orokin Cell", "Resource", 2.58 } },
 			SigilChance = 100,

@@ -4,86 +4,22 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-19T02:13:48.508Z"
+    "converted_at": "2026-09-21T02:14:05.580Z"
   },
   "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins",
-  "Smoke Screen": {
-    "outs": [
-      [
-        "Duration:",
-        {
-          "expr": "DUR 12 %of",
-          "suff": "s"
-        }
-      ],
-      [
-        "Extension on [[Finisher]] kills:",
-        {
-          "expr": "DUR 5 %of TP_AUG *",
-          "suff": "s"
-        }
-      ],
-      [
-        "Radius:",
-        {
-          "expr": "RNG 10 %of",
-          "suff": "m"
-        }
-      ],
-      [
-        "Smoke Shadow duration:",
-        {
-          "expr": "DUR 12 %of 0 SMOKE_AUG if",
-          "suff": "s"
-        }
-      ],
-      [
-        "Smoke Shadow radius:",
-        {
-          "expr": "RNG 15 %of 0 SMOKE_AUG if",
-          "suff": "m"
-        }
-      ],
-      [
-        "Critical Chance bonus:",
-        {
-          "expr": "150 0 SMOKE_AUG if",
-          "suff": "%"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "35 COST *"
-        }
-      ]
-    ],
-    "ins": [
-      {
-        "type": "checkbox",
-        "name": "TP_AUG",
-        "cont": "{{#invoke:Tooltip|full|Teleport Rush|Mods}}?"
-      },
-      {
-        "type": "checkbox",
-        "name": "SMOKE_AUG",
-        "cont": "{{#invoke:Tooltip|full|Smoke Shadow|Mods}}?"
-      }
-    ]
-  },
   "Shuriken": {
     "outs": [
       [
         "{{#invoke:Tooltip|full|Slash|DamageTypes}} damage:",
         {
-          "name": "BASE_DMG_ASH_1",
+          "name": "SHURIKEN_BASE_DMG",
           "expr": "STR 750 %of HEAD_MULT * SHURIKENS *"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Bleed|DamageTypes}} [[DoT]]:",
         {
-          "expr": "43.75 35 ASH if BASE_DMG_ASH_1 %of",
+          "expr": "43.75 35 ASH if SHURIKEN_BASE_DMG %of",
           "name": "BLEED",
           "suff": "/s"
         }
@@ -91,7 +27,7 @@
       [
         "Total damage:",
         {
-          "expr": "BLEED 9 6 ASH if * BASE_DMG_ASH_1 +"
+          "expr": "BLEED 9 6 ASH if * SHURIKEN_BASE_DMG +"
         }
       ],
       [
@@ -142,19 +78,240 @@
       }
     ]
   },
+  "Landslide": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Impact|DamageTypes}} damage:",
+        {
+          "name": "BASE_DMG",
+          "expr": "\t\t\t\tFACTION_DMG_MOD MELEE_DMG_MOD STR 100 0 RUBBLE_HEAP if + 350 %of %of %of COMBO_MULT *\n\t\t\t"
+        }
+      ],
+      [
+        "Elemental damage:",
+        {
+          "name": "ELEMENT_DMG",
+          "expr": "ELEMENT_DMG_MOD BASE_DMG %of"
+        }
+      ],
+      [
+        "Total damage:",
+        {
+          "name": "TOTAL_DMG",
+          "expr": "BASE_DMG ELEMENT_DMG +"
+        }
+      ],
+      [
+        "Range:",
+        {
+          "expr": "12 24 RUBBLE_HEAP if",
+          "suff": "m"
+        }
+      ],
+      [
+        "Punch radius:",
+        {
+          "expr": "RNG 4 2 6 3 8 PUNCH_NUMBER 3 v_match:= %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "Path duration:",
+        {
+          "expr": "DUR 12 %of 0 PATH_OF_STATUES if ",
+          "name": "PATH_DUR",
+          "suff": "s"
+        }
+      ],
+      [
+        "Petrify duration:",
+        {
+          "expr": "PATH_DUR 2 /",
+          "suff": "s"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "25 0 { 1 2 2 3 4 PUNCH_NUMBER 3 v_match:= / COST } RUBBLE_HEAP if run *"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "default": "100",
+        "type": "number",
+        "name": "MELEE_DMG_MOD",
+        "cont": "[[Melee damage]] modifier:"
+      },
+      {
+        "default": "0",
+        "type": "number",
+        "name": "ELEMENT_DMG_MOD",
+        "cont": "[[Elemental damage]] modifier:"
+      },
+      {
+        "default": "100",
+        "type": "number",
+        "name": "FACTION_DMG_MOD",
+        "cont": "[[Faction damage]] modifier:"
+      },
+      {
+        "default": "100",
+        "type": "number",
+        "name": "FINISHER_DMG_MOD",
+        "cont": "[[Finisher damage]] modifier:"
+      },
+      {
+        "min": "1",
+        "type": "range-R",
+        "name": "COMBO_MULT",
+        "max": "12",
+        "value": "1",
+        "cont": "[[Combo multiplier]]:"
+      },
+      {
+        "min": "1",
+        "type": "range-R",
+        "name": "PUNCH_NUMBER",
+        "max": "3",
+        "default": "1",
+        "cont": "Punch number:"
+      },
+      {
+        "type": "checkbox",
+        "name": "RUBBLE_HEAP",
+        "cont": "{{#invoke:Tooltip|full|Rubble Heap|Mods}} and '''1400''' Rubble?"
+      },
+      {
+        "type": "checkbox",
+        "name": "PATH_OF_STATUES",
+        "cont": "{{#invoke:Tooltip|full|Path of Statues|Mods}}?"
+      }
+    ]
+  },
+  "Teleport": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Finisher|DamageTypes}} damage bonus:",
+        {
+          "expr": "STR 200 %of",
+          "suff": "%"
+        }
+      ],
+      [
+        "Range:",
+        {
+          "expr": "RNG 60 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "[[Parkour Velocity]] bonus:",
+        {
+          "expr": "30 0 TELEPORT_RUSH if",
+          "suff": "%"
+        }
+      ],
+      [
+        "Teleport Rush duration:",
+        {
+          "expr": "DUR 12 %of 0 TELEPORT_RUSH if",
+          "suff": "s"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "25 COST *"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "TELEPORT_RUSH",
+        "cont": "{{#invoke:Tooltip|full|Teleport Rush|Mods}}?"
+      }
+    ]
+  },
+  "Smoke Screen": {
+    "outs": [
+      [
+        "Duration:",
+        {
+          "expr": "DUR 12 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Extension on [[Finisher]] kills:",
+        {
+          "expr": "DUR 5 %of TELEPORT_RUSH *",
+          "suff": "s"
+        }
+      ],
+      [
+        "Radius:",
+        {
+          "expr": "RNG 10 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "Smoke Shadow duration:",
+        {
+          "expr": "DUR 12 %of 0 SMOKE_SHADOW if",
+          "suff": "s"
+        }
+      ],
+      [
+        "Smoke Shadow radius:",
+        {
+          "expr": "RNG 15 %of 0 SMOKE_SHADOW if",
+          "suff": "m"
+        }
+      ],
+      [
+        "Critical Chance bonus:",
+        {
+          "expr": "150 0 SMOKE_SHADOW if",
+          "suff": "%"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "35 COST *"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "TELEPORT_RUSH",
+        "cont": "{{#invoke:Tooltip|full|Teleport Rush|Mods}}?"
+      },
+      {
+        "type": "checkbox",
+        "name": "SMOKE_SHADOW",
+        "cont": "{{#invoke:Tooltip|full|Smoke Shadow|Mods}}?"
+      }
+    ]
+  },
   "Blade Storm": {
     "outs": [
       [
         "{{#invoke:Tooltip|full|Finisher|DamageTypes}} damage:",
         {
-          "name": "BASE_DMG_ASH_4",
+          "name": "BLADE_STORM_BASE_DMG",
           "expr": "\t\t\t\tFACTION_DMG_MOD MELEE_DMG_MOD FINISHER_DMG_MOD STR \n\t\t\t\t1500 %of %of %of %of COMBO_MULT *\n\t\t\t"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Bleed|DamageTypes}} [[DoT]]:",
         {
-          "expr": "FACTION_DMG_MOD 43.75 BASE_DMG_ASH_4 %of %of",
+          "expr": "FACTION_DMG_MOD 43.75 BLADE_STORM_BASE_DMG %of %of",
           "name": "BLEED_DMG",
           "suff": "/s"
         }
@@ -163,14 +320,14 @@
         "Elemental damage:",
         {
           "name": "ELEMENT_DMG",
-          "expr": "ELEMENT_DMG_MOD BASE_DMG_ASH_4 %of"
+          "expr": "ELEMENT_DMG_MOD BLADE_STORM_BASE_DMG %of"
         }
       ],
       [
         "Total damage:",
         {
           "name": "TOTAL_DMG",
-          "expr": "BASE_DMG_ASH_4 ELEMENT_DMG + BLEED_DMG 9 * +"
+          "expr": "BLADE_STORM_BASE_DMG ELEMENT_DMG + BLEED_DMG 9 * +"
         }
       ],
       [
@@ -237,51 +394,6 @@
         "type": "checkbox",
         "name": "RISING_STORM",
         "cont": "{{#invoke:Tooltip|full|Rising Storm|Mods}}?"
-      }
-    ]
-  },
-  "Teleport": {
-    "outs": [
-      [
-        "{{#invoke:Tooltip|full|Finisher|DamageTypes}} damage bonus:",
-        {
-          "expr": "STR 200 %of",
-          "suff": "%"
-        }
-      ],
-      [
-        "Range:",
-        {
-          "expr": "RNG 60 %of",
-          "suff": "m"
-        }
-      ],
-      [
-        "[[Parkour Velocity]] bonus:",
-        {
-          "expr": "30 0 TP_AUG if",
-          "suff": "%"
-        }
-      ],
-      [
-        "Teleport Rush duration:",
-        {
-          "expr": "DUR 12 %of 0 TP_AUG if",
-          "suff": "s"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "25 COST *"
-        }
-      ]
-    ],
-    "ins": [
-      {
-        "type": "checkbox",
-        "name": "TP_AUG",
-        "cont": "{{#invoke:Tooltip|full|Teleport Rush|Mods}}?"
       }
     ]
   }

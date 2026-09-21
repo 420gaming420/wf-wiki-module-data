@@ -290,8 +290,8 @@ local function buildGallery(ItemEntries)
 			entry.Image or 'UnidentifiedItem.png',
 			entry.Link or entry.Name,
 			displayName,
-			'[[File:OrokinDucats.png|x20px|link=Ducats]]', Lang:formatNum(entry.DucatCost or 0),
-			'[[File:Credits64.png|x20px|link=Credits]]', Lang:formatNum(entry.CreditCost or 0)
+			'[[File:OrokinDucats.png|x20px|link=Ducats|class=textSelect]]', Lang:formatNum(entry.DucatCost or 0),
+			'[[File:Credits64.png|x20px|link=Credits|class=textSelect]]', Lang:formatNum(entry.CreditCost or 0)
 		))
 	end
 
