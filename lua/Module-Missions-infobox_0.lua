@@ -103,7 +103,7 @@ buildInfobox = function(frame)
 		:done()
 	
 	Infobox:group():header('%s', 'official-drop-tables')
-		:caption('official-drop-tables', 'https://www.warframe.com/droptables', 'official-drop-tables')
+		:caption('official-drop-tables', 'https://warframe.com/droptables', 'official-drop-tables')
 	:done()
 	:group():header('%s', 'maintenance')
 		:caption('UpdateInfoboxData', '[[Module:Missions/data|📝 %s]]', 'update-infobox-data')

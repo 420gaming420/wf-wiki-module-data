@@ -113,7 +113,7 @@ buildInfobox = function(frame)
 	end
 	
 	Infobox:group():header('%s', 'official-drop-tables')
-		:caption('official-drop-tables', 'https://www.warframe.com/droptables', 'official-drop-tables')
+		:caption('official-drop-tables', 'https://warframe.com/droptables', 'official-drop-tables')
 	:done()
 	
 	Infobox:group():header('%s', 'maintenance')

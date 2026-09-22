@@ -1,7 +1,7 @@
 ---
 title: "Module:Mods/infobox"
 wiki_url: "https://wiki.warframe.com/w/Module/Mods/infobox"
-wiki_timestamp: "2026-09-10T02:49:52Z"
+wiki_timestamp: "2026-09-21T08:12:10Z"
 ---
 
 *Documentation for this module may be created at [Module:Mods/infobox/doc](/w/Module:Mods/infobox/doc?action=edit&redlink=1 "Module:Mods/infobox/doc (page does not exist)")*
@@ -151,7 +151,7 @@ buildInfobox = function(frame)
 ', 'Offerings')
 	:done()
 	:group():header('%s', 'official-drop-tables')
-		:caption('official-drop-tables', 'https://www.warframe.com/droptables', 'official-drop-tables')
+		:caption('official-drop-tables', 'https://warframe.com/droptables', 'official-drop-tables')
 	:done()
 	:group():header('%s', 'maintenance')
 		:caption('UpdateInfoboxData', '[[Module:Mods/data|📝 %s]]', 'update-infobox-data')

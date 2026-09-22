@@ -5938,7 +5938,7 @@ return {
 				MaxSpread = 0,
 				MinSpread = 0,
 				Multishot = 1,
-				Shotspeed = 80,
+				ShotSpeed = 80,
 				ShotType = "Projectile",
 				StatusChance = 0.25,
 				Trigger = "Auto" 

@@ -1,7 +1,7 @@
 ---
 title: "Module:Missions/infobox"
 wiki_url: "https://wiki.warframe.com/w/Module/Missions/infobox"
-wiki_timestamp: "2026-06-18T03:38:58Z"
+wiki_timestamp: "2026-09-21T08:11:47Z"
 ---
 
 *Documentation for this module may be created at [Module:Missions/infobox/doc](/w/Module:Missions/infobox/doc?action=edit&redlink=1 "Module:Missions/infobox/doc (page does not exist)")*
@@ -119,7 +119,7 @@ buildInfobox = function(frame)
 		:done()
 	
 	Infobox:group():header('%s', 'official-drop-tables')
-		:caption('official-drop-tables', 'https://www.warframe.com/droptables', 'official-drop-tables')
+		:caption('official-drop-tables', 'https://warframe.com/droptables', 'official-drop-tables')
 	:done()
 	:group():header('%s', 'maintenance')
 		:caption('UpdateInfoboxData', '[[Module:Missions/data|📝 %s]]', 'update-infobox-data')

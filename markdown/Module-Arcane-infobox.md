@@ -1,7 +1,7 @@
 ---
 title: "Module:Arcane/infobox"
 wiki_url: "https://wiki.warframe.com/w/Module/Arcane/infobox"
-wiki_timestamp: "2026-09-10T02:50:41Z"
+wiki_timestamp: "2026-09-21T08:11:12Z"
 ---
 
 *Documentation for this module may be created at [Module:Arcane/infobox/doc](/w/Module:Arcane/infobox/doc?action=edit&redlink=1 "Module:Arcane/infobox/doc (page does not exist)")*
@@ -77,7 +77,7 @@ buildInfobox = function(frame)
 		:value(vendorStr, 'Offerings')
 	:done()
 	:group():header('%s', 'official-drop-tables')
-		:caption('official-drop-tables', 'https://www.warframe.com/droptables', 'official-drop-tables')
+		:caption('official-drop-tables', 'https://warframe.com/droptables', 'official-drop-tables')
 	:done()
 	:group():header('%s', 'maintenance')
 		:caption('UpdateInfoboxData', '[[Module:Arcane/data|📝 %s]]', 'update-infobox-data')

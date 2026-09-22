@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-03T02:18:28.303Z"
+    "converted_at": "2026-09-22T02:14:14.715Z"
   },
   "_comments": "",
   "Castanas": {
@@ -10675,7 +10675,7 @@
         "StatusChance": 0.25,
         "Trigger": "Auto",
         "IsSilent": false,
-        "Shotspeed": 80,
+        "ShotSpeed": 80,
         "FireRate": 1.5,
         "Multishot": 1,
         "MinSpread": 0,

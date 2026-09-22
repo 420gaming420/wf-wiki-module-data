@@ -1,7 +1,7 @@
 ---
 title: "Module:Resources/infobox"
 wiki_url: "https://wiki.warframe.com/w/Module/Resources/infobox"
-wiki_timestamp: "2026-09-10T02:49:57Z"
+wiki_timestamp: "2026-09-21T08:11:40Z"
 ---
 
 *Documentation for this module may be created at [Module:Resources/infobox/doc](/w/Module:Resources/infobox/doc?action=edit&redlink=1 "Module:Resources/infobox/doc (page does not exist)")*
@@ -122,7 +122,7 @@ buildInfobox = function(frame)
 	end
 	
 	Infobox:group():header('%s', 'official-drop-tables')
-		:caption('official-drop-tables', 'https://www.warframe.com/droptables', 'official-drop-tables')
+		:caption('official-drop-tables', 'https://warframe.com/droptables', 'official-drop-tables')
 	:done()
 	
 	Infobox:group():header('%s', 'maintenance')

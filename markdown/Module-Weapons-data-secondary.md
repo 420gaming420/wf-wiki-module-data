@@ -1,7 +1,7 @@
 ---
 title: "Module:Weapons/data/secondary"
 wiki_url: "https://wiki.warframe.com/w/Module/Weapons/data/secondary"
-wiki_timestamp: "2026-09-01T08:37:57Z"
+wiki_timestamp: "2026-09-21T05:13:03Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s [Secondary Weapons](/w/Secondary_Weapon "Secondary Weapon").
@@ -54,11 +54,11 @@ Thanks, you're awesome!
 * [11 Weapon Data](#Weapon_Data)
 * [12 References](#References)
 
-:   *Last updated: Tue, 01 Sep 2026 08:37:57 +0000 (UTC) by [User:N90](/w/User:N90?action=edit&redlink=1 "User:N90 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/secondary?diff=0))*
+:   *Last updated: Mon, 21 Sep 2026 05:13:03 +0000 (UTC) by [User:Mike199515](/w/User:Mike199515?action=edit&redlink=1 "User:Mike199515 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/secondary?diff=0))*
 
 ## Horizontal Partitions (and where to update data)
 
-[[edit source](/w/Module:Weapons/data/doc?action=edit&section=T-1 "Edit section's source code: Horizontal Partitions (and where to update data)")]
+[[edit](/w/Module:Weapons/data/doc?action=edit&section=T-1 "Edit Section using Source Editor: Horizontal Partitions (and where to update data)")]
 
 * [Module:Weapons/data/primary](/w/Module:Weapons/data/primary "Module:Weapons/data/primary") - [Primary Weapons](/w/Primary_Weapon "Primary Weapon")
 * Module:Weapons/data/secondary - [Secondary Weapons](/w/Secondary_Weapon "Secondary Weapon")
@@ -77,7 +77,7 @@ For [Conclave](/w/Conclave "Conclave") data:
 
 ## Attack Data Schema
 
-[[edit source](/w/Module:Weapons/data/doc?action=edit&section=T-2 "Edit section's source code: Attack Data Schema")]
+[[edit](/w/Module:Weapons/data/doc?action=edit&section=T-2 "Edit Section using Source Editor: Attack Data Schema")]
 
 ```lua
 	{
@@ -132,7 +132,7 @@ For [Conclave](/w/Conclave "Conclave") data:
 
 ## Gun Entry Schema
 
-[[edit source](/w/Module:Weapons/data/doc?action=edit&section=T-3 "Edit section's source code: Gun Entry Schema")]
+[[edit](/w/Module:Weapons/data/doc?action=edit&section=T-3 "Edit Section using Source Editor: Gun Entry Schema")]
 
 ```lua
 ["Long Gun Weapon Name"] = {
@@ -233,7 +233,7 @@ For [Conclave](/w/Conclave "Conclave") data:
 
 ## Melee Entry Schema
 
-[[edit source](/w/Module:Weapons/data/doc?action=edit&section=T-4 "Edit section's source code: Melee Entry Schema")]
+[[edit](/w/Module:Weapons/data/doc?action=edit&section=T-4 "Edit Section using Source Editor: Melee Entry Schema")]
 
 ```lua
 ["Melee Weapon Name"] = {
@@ -345,7 +345,7 @@ For [Conclave](/w/Conclave "Conclave") data:
 
 ## For Module Use
 
-[[edit source](/w/Module:Weapons/data/doc?action=edit&section=T-5 "Edit section's source code: For Module Use")]
+[[edit](/w/Module:Weapons/data/doc?action=edit&section=T-5 "Edit Section using Source Editor: For Module Use")]
 
 | Key/Column Name | Data Type | Required? | Explanation/Description | Example(s) |
 | --- | --- | --- | --- | --- |
@@ -356,13 +356,13 @@ For [Conclave](/w/Conclave "Conclave") data:
 
 ## Preprocessed Data
 
-[[edit source](/w/Module:Weapons/data/doc?action=edit&section=T-6 "Edit section's source code: Preprocessed Data")]
+[[edit](/w/Module:Weapons/data/doc?action=edit&section=T-6 "Edit Section using Source Editor: Preprocessed Data")]
 
 If you want data on the relative stat rankings (percentile-based) of each weapon for each weapon stat, see [Module:Weapons/ppdata](/w/Module:Weapons/ppdata "Module:Weapons/ppdata").
 
 ## Export Data
 
-[[edit source](/w/Module:Weapons/data/doc?action=edit&section=T-7 "Edit section's source code: Export Data")]
+[[edit](/w/Module:Weapons/data/doc?action=edit&section=T-7 "Edit Section using Source Editor: Export Data")]
 
 [![](/images/thumb/CephalonSimaris.jpg/60px-CephalonSimaris.jpg?4a8c5)](/w/Cephalon_Simaris "Cephalon Simaris")
 
@@ -401,7 +401,7 @@ Alternatively, you can use [MediaWiki's Action API](https://www.mediawiki.org/wi
 
 ## Weapon Edge Cases
 
-[[edit source](/w/Module:Weapons/data/doc?action=edit&section=T-8 "Edit section's source code: Weapon Edge Cases")]
+[[edit](/w/Module:Weapons/data/doc?action=edit&section=T-8 "Edit Section using Source Editor: Weapon Edge Cases")]
 
 Some weapons have complicated mechanics or behaviors that are not currently compatible with the wiki's weapon entry schema:
 
@@ -409,7 +409,7 @@ Some weapons have complicated mechanics or behaviors that are not currently comp
 
 ## Where To Source Weapon Data
 
-[[edit source](/w/Module:Weapons/data/doc?action=edit&section=T-9 "Edit section's source code: Where To Source Weapon Data")]
+[[edit](/w/Module:Weapons/data/doc?action=edit&section=T-9 "Edit Section using Source Editor: Where To Source Weapon Data")]
 
 Some notes on where editors can source weapon data:
 
@@ -424,7 +424,7 @@ Some notes on where editors can source weapon data:
 
 ### Where To Find Weapon Metadata
 
-[[edit source](/w/Module:Weapons/data/doc?action=edit&section=T-10 "Edit section's source code: Where To Find Weapon Metadata")]
+[[edit](/w/Module:Weapons/data/doc?action=edit&section=T-10 "Edit Section using Source Editor: Where To Find Weapon Metadata")]
 
 The in-game UI does not thoroughly present all the data and interactions that is provided from a weapon. Here are some methods and sources to get more insight on the internal mechanics on weapons:
 
@@ -654,11 +654,11 @@ The in-game UI does not thoroughly present all the data and interactions that is
 
 ## Data Validation
 
-[[edit source](/w/Module:Weapons/data/doc?action=edit&section=T-11 "Edit section's source code: Data Validation")]
+[[edit](/w/Module:Weapons/data/doc?action=edit&section=T-11 "Edit Section using Source Editor: Data Validation")]
 
 ### Validate data types of key-value pairs
 
-[[edit source](/w/Module:Weapons/data/doc?action=edit&section=T-12 "Edit section's source code: Validate data types of key-value pairs")]
+[[edit](/w/Module:Weapons/data/doc?action=edit&section=T-12 "Edit Section using Source Editor: Validate data types of key-value pairs")]
 
 **p.validateDataTypes(frame): There are a total of 737 key-value errors**
 
@@ -1402,19 +1402,19 @@ The in-game UI does not thoroughly present all the data and interactions that is
 
 ### Checking missing keys
 
-[[edit source](/w/Module:Weapons/data/doc?action=edit&section=T-13 "Edit section's source code: Checking missing keys")]
+[[edit](/w/Module:Weapons/data/doc?action=edit&section=T-13 "Edit Section using Source Editor: Checking missing keys")]
 
 **p.checkForMissingData(frame): There are a total of 0 key-value errors**
 
 ### Validate `Attack` tables
 
-[[edit source](/w/Module:Weapons/data/doc?action=edit&section=T-14 "Edit section's source code: Validate Attack tables")]
+[[edit](/w/Module:Weapons/data/doc?action=edit&section=T-14 "Edit Section using Source Editor: Validate Attack tables")]
 
 **p.validateAttacks(frame): There are a total of 0 key-value errors**
 
 ### Validate required weapon table keys
 
-[[edit source](/w/Module:Weapons/data/doc?action=edit&section=T-15 "Edit section's source code: Validate required weapon table keys")]
+[[edit](/w/Module:Weapons/data/doc?action=edit&section=T-15 "Edit Section using Source Editor: Validate required weapon table keys")]
 
 **p.validateRequiredKeys(frame): There are a total of 447 key-value errors**
 
@@ -1868,11 +1868,11 @@ The in-game UI does not thoroughly present all the data and interactions that is
 
 ## Weapon Data
 
-[[edit source](/w/Module:Weapons/data/doc?action=edit&section=T-16 "Edit section's source code: Weapon Data")]
+[[edit](/w/Module:Weapons/data/doc?action=edit&section=T-16 "Edit Section using Source Editor: Weapon Data")]
 
 ## References
 
-[[edit source](/w/Module:Weapons/data/doc?action=edit&section=T-17 "Edit section's source code: References")]
+[[edit](/w/Module:Weapons/data/doc?action=edit&section=T-17 "Edit Section using Source Editor: References")]
 
 1. [↑](#cite_ref-1) As of [Hotfix 32.0.12](/w/Update_32#Hotfix_32.0.12 "Update 32") (2022-10-12), this may not be accurate (last checked 2022-11-01 and first noticed a weapon data schema change ~2 months ago). This key is absent on most weapons and if it is present, then equivalent data is under `UpgradeType` key like for [![](/images/thumb/TatsuPrime.png/32px-TatsuPrime.png?7a830)](/w/Tatsu_Prime "Tatsu Prime") [Tatsu Prime](/w/Tatsu_Prime "Tatsu Prime") (see script tag with id "\_\_NEXT\_DATA\_\_" under HTML source on <https://overframe.gg/build/new/5979/tatsu-prime/>). Treat this information as speculation however.
 
@@ -7818,7 +7818,7 @@ return {
 				MaxSpread = 0,
 				MinSpread = 0,
 				Multishot = 1,
-				Shotspeed = 80,
+				ShotSpeed = 80,
 				ShotType = "Projectile",
 				StatusChance = 0.25,
 				Trigger = "Auto" 

@@ -1,7 +1,7 @@
 ---
 title: "Module:Enemies/infobox/dev"
 wiki_url: "https://wiki.warframe.com/w/Module/Enemies/infobox/dev"
-wiki_timestamp: "2026-03-14T23:53:05Z"
+wiki_timestamp: "2026-09-21T08:13:22Z"
 ---
 
 *Documentation for this module may be created at [Module:Enemies/infobox/dev/doc](/w/Module:Enemies/infobox/dev/doc?action=edit&redlink=1 "Module:Enemies/infobox/dev/doc (page does not exist)")*
@@ -696,7 +696,7 @@ JavaScript not loaded. Please make sure the ⧼gadget-enemyinfoboxslider⧽ is e
 '))
 		:done()
 		:group():header('%s', 'official-drop-tables')
-			:caption('official-drop-tables', 'https://www.warframe.com/droptables', 'official-drop-tables')
+			:caption('official-drop-tables', 'https://warframe.com/droptables', 'official-drop-tables')
 		:done()
 		:group():header('%s', 'maintenance')
 			:caption('UpdateInfoboxData', '[[Module:Enemies/data|📝 %s]]', 'update-infobox-data')

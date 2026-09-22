@@ -1,7 +1,7 @@
 ---
 title: "Module:Void/page"
 wiki_url: "https://wiki.warframe.com/w/Module/Void/page"
-wiki_timestamp: "2026-09-10T02:50:39Z"
+wiki_timestamp: "2026-09-21T08:12:19Z"
 ---
 
 **Void/page** creates infoboxes, message boxes, and drop tables for [Void Relic](/w/Void_Relic "Void Relic") pages. On this Wiki, Void/page is used in:
@@ -365,7 +365,7 @@ function p.buildRelicInfobox(frame)
 ', 'Offerings')
 	:done()
 	:group():header('%s', 'official-drop-tables')
-		:caption('official-drop-tables', 'https://www.warframe.com/droptables', 'official-drop-tables')
+		:caption('official-drop-tables', 'https://warframe.com/droptables', 'official-drop-tables')
 	:done()
 	:group():header('%s', 'update-infobox-data')
 		:caption('update-infobox-data', '[[Module:Void/data]] / [[Module:DropTables/data]]', 'update-infobox-data')

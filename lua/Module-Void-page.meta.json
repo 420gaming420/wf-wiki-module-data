@@ -1,12 +1,12 @@
 {
   "page": "Module:Void/page",
-  "wiki_timestamp": "2026-09-10T02:50:39Z",
-  "extracted_at": "2026-09-11T02:14:42.978944+00:00",
+  "wiki_timestamp": "2026-09-21T08:12:19Z",
+  "extracted_at": "2026-09-22T02:14:09.467972+00:00",
   "lua_files": [
     "Module-Void-page_0.lua"
   ],
   "lua_block_count": 1,
-  "file_size": 19346,
+  "file_size": 19342,
   "comment_count": 86,
   "status": "success"
 }

@@ -1,7 +1,7 @@
 ---
 title: "Module:DropTables/data/doc"
 wiki_url: "https://wiki.warframe.com/w/Module/DropTables/data/doc"
-wiki_timestamp: "2026-09-11T14:08:09Z"
+wiki_timestamp: "2026-09-21T08:13:14Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -15,11 +15,11 @@ wiki_timestamp: "2026-09-11T14:08:09Z"
 Manually updated fork of the public [Drop Tables](/w/Drop_Tables "Drop Tables") provided by DE:
 
 * <https://warframe-web-assets.nyc3.cdn.digitaloceanspaces.com/uploads/cms/hnfvc0o3jnfvc873njb03enrf56.html> or
-* <https://www.warframe.com/droptables>
+* <https://warframe.com/droptables>
 
 See [Module:DropTables](/w/Module:DropTables "Module:DropTables") to see what various things this is being used for right now.
 
-:   *Last updated: Fri, 11 Sep 2026 14:08:09 +0000 (UTC) by [User:SUPERCEREAL](/w/User:SUPERCEREAL "User:SUPERCEREAL") ([change log](https://wiki.warframe.com/w/Module:DropTables/data/doc?diff=0))*
+:   *Last updated: Mon, 21 Sep 2026 08:13:14 +0000 (UTC) by [User:Sean](/w/User:Sean "User:Sean") ([change log](https://wiki.warframe.com/w/Module:DropTables/data/doc?diff=0))*
 
 ## Contents
 
@@ -44,7 +44,7 @@ See [Module:DropTables](/w/Module:DropTables "Module:DropTables") to see what va
 
 ## How To Update Drop Tables
 
-[[edit source](/w/Module:DropTables/data/doc?action=edit&section=1 "Edit section's source code: How To Update Drop Tables")]
+[[edit](/w/Module:DropTables/data/doc?action=edit&section=1 "Edit Section using Source Editor: How To Update Drop Tables")]
 
 1. Login to your wiki account and click "Edit Source" at the top right corner of the page. These pages are usually protected from anonymous editors.
    * If you are an anon and don't want to make an account, you can contribute by writing exactly what you want changed in reference to the official drop tables on the talk page ([Module talk:DropTables/data](/w/Module_talk:DropTables/data "Module talk:DropTables/data")) to streamline the update process for editors.
@@ -80,7 +80,7 @@ See [Module:DropTables](/w/Module:DropTables "Module:DropTables") to see what va
 
 ## Mod Drop Table Schema
 
-[[edit source](/w/Module:DropTables/data/doc?action=edit&section=2 "Edit section's source code: Mod Drop Table Schema")]
+[[edit](/w/Module:DropTables/data/doc?action=edit&section=2 "Edit Section using Source Editor: Mod Drop Table Schema")]
 
 ```lua
 {
@@ -100,7 +100,7 @@ See [Module:DropTables](/w/Module:DropTables "Module:DropTables") to see what va
 
 ## General Drop Table Schema
 
-[[edit source](/w/Module:DropTables/data/doc?action=edit&section=3 "Edit section's source code: General Drop Table Schema")]
+[[edit](/w/Module:DropTables/data/doc?action=edit&section=3 "Edit Section using Source Editor: General Drop Table Schema")]
 
 ```lua
 {
@@ -121,7 +121,7 @@ See [Module:DropTables](/w/Module:DropTables "Module:DropTables") to see what va
 
 ## Enemies Entry Schema
 
-[[edit source](/w/Module:DropTables/data/doc?action=edit&section=4 "Edit section's source code: Enemies Entry Schema")]
+[[edit](/w/Module:DropTables/data/doc?action=edit&section=4 "Edit Section using Source Editor: Enemies Entry Schema")]
 
 ```lua
 		["Enemy Name"] = {
@@ -157,7 +157,7 @@ See [Module:DropTables](/w/Module:DropTables "Module:DropTables") to see what va
 
 ## Missions Entry Schema
 
-[[edit source](/w/Module:DropTables/data/doc?action=edit&section=5 "Edit section's source code: Missions Entry Schema")]
+[[edit](/w/Module:DropTables/data/doc?action=edit&section=5 "Edit Section using Source Editor: Missions Entry Schema")]
 
 ```lua
 		Spy1 = {
@@ -212,7 +212,7 @@ See [Module:DropTables](/w/Module:DropTables "Module:DropTables") to see what va
 
 ## Rewards Subtable Collection
 
-[[edit source](/w/Module:DropTables/data/doc?action=edit&section=6 "Edit section's source code: Rewards Subtable Collection")]
+[[edit](/w/Module:DropTables/data/doc?action=edit&section=6 "Edit Section using Source Editor: Rewards Subtable Collection")]
 
 Any reward entries added to the `Enemies` and `Missions` collections are automatically populated into the Rewards collection, indexed by item name and with the following schema:
 
@@ -222,7 +222,7 @@ Any reward entries added to the `Enemies` and `Missions` collections are automat
 
 ### Viewing Contents via API Call
 
-[[edit source](/w/Module:DropTables/data/doc?action=edit&section=7 "Edit section's source code: Viewing Contents via API Call")]
+[[edit](/w/Module:DropTables/data/doc?action=edit&section=7 "Edit Section using Source Editor: Viewing Contents via API Call")]
 
 [![](/images/thumb/CephalonSimaris.jpg/60px-CephalonSimaris.jpg?4a8c5)](/w/Cephalon_Simaris "Cephalon Simaris")
 
@@ -268,7 +268,7 @@ fetch(url)
 
 ## Differences Between Official Repo And Wiki's Drop Tables
 
-[[edit source](/w/Module:DropTables/data/doc?action=edit&section=8 "Edit section's source code: Differences Between Official Repo And Wiki's Drop Tables")]
+[[edit](/w/Module:DropTables/data/doc?action=edit&section=8 "Edit Section using Source Editor: Differences Between Official Repo And Wiki's Drop Tables")]
 
 **The official drop table repository and the wiki's repo are not one-to-one, just as the official repo is not one-to-one with actual in-game drop tables.** Entries are manually edited and audited for the purposes of rendering content properly on the wiki. **DO NOT ASSUME THIS IS THE SAME AS THE OFFICIAL REPO OR IN-GAME DROP TABLES.**
 
@@ -300,7 +300,7 @@ Official repo
 
 ## Updating Relic Drop Locations Notes
 
-[[edit source](/w/Module:DropTables/data/doc?action=edit&section=9 "Edit section's source code: Updating Relic Drop Locations Notes")]
+[[edit](/w/Module:DropTables/data/doc?action=edit&section=9 "Edit Section using Source Editor: Updating Relic Drop Locations Notes")]
 
 *This section is [transcluded](https://en.wikipedia.org/wiki/Help:Transclusion "wikipedia:Help:Transclusion") from [Module:Void/data/doc § Updating Notes](/w/Module:Void/data/doc#Updating_Notes "Module:Void/data/doc"). To change it, please [edit the transcluded page](https://wiki.warframe.com/w/Module:Void/data/doc?action=edit).*
 
@@ -312,7 +312,7 @@ Updating the vaulted status of relics here will automatically tag the appropriat
 
 ### Prime Item Ducat Sell Price
 
-[[edit source](/w/Module:Void/data/doc?action=edit&section=T-1 "Edit section's source code: Prime Item Ducat Sell Price")]
+[[edit](/w/Module:Void/data/doc?action=edit&section=T-1 "Edit Section using Source Editor: Prime Item Ducat Sell Price")]
 
 Editors do not need to add [![](/images/thumb/OrokinDucats.png/32px-OrokinDucats.png?23930)](/w/Orokin_Ducats "Orokin Ducats") [Orokin Ducats](/w/Orokin_Ducats "Orokin Ducats") sell prices to every item manually. Prices can be determined based on drop rarity:
 
@@ -327,13 +327,13 @@ If there is item that deviates from this rule, please update the `DUCAT_EXCEPTIO
 
 ### Creating New Void Relic Pages
 
-[[edit source](/w/Module:Void/data/doc?action=edit&section=T-2 "Edit section's source code: Creating New Void Relic Pages")]
+[[edit](/w/Module:Void/data/doc?action=edit&section=T-2 "Edit Section using Source Editor: Creating New Void Relic Pages")]
 
 Use [Template:VoidRelicArticle](/w/Template:VoidRelicArticle "Template:VoidRelicArticle") as reference for creating new Void Relic articles. See [WARFRAME Wiki:Creating New Pages#Create New Void Relic Article](/w/WARFRAME_Wiki:Creating_New_Pages#Create_New_Void_Relic_Article "WARFRAME Wiki:Creating New Pages") for a sample text input to article wizard.
 
 ### Module:DropTables/data
 
-[[edit source](/w/Module:Void/data/doc?action=edit&section=T-3 "Edit section's source code: Module:DropTables/data")]
+[[edit](/w/Module:Void/data/doc?action=edit&section=T-3 "Edit Section using Source Editor: Module:DropTables/data")]
 
 A simple find & replace should be enough to keep relic drops in [Module:DropTables/data](/w/Module:DropTables/data "Module:DropTables/data") up-to-date with the latest [Prime Access](/w/Prime_Access "Prime Access")/[Prime Resurgence](/w/Prime_Resurgence "Prime Resurgence"). This is especially true if the number of relics introduced is equal to the number of relics removed from drop tables. However, there had been times where there is an unequal number of removed/added relics (mainly because some Prime weapons have varying numbers of parts associated with its crafting recipe; Prime parts are distributed across relics so that only one part from a unique weapon may be present in any given relic) which requires editors to manually go through each relevant mission drop table to audit for accuracy.
 
@@ -351,11 +351,11 @@ Notable patterns in relic drop distribution:
 
 #### Examples
 
-[[edit source](/w/Module:Void/data/doc?action=edit&section=T-4 "Edit section's source code: Examples")]
+[[edit](/w/Module:Void/data/doc?action=edit&section=T-4 "Edit Section using Source Editor: Examples")]
 
 ##### U31.7 - Khora Prime
 
-[[edit source](/w/Module:Void/data/doc?action=edit&section=T-5 "Edit section's source code: U31.7 - Khora Prime")]
+[[edit](/w/Module:Void/data/doc?action=edit&section=T-5 "Edit Section using Source Editor: U31.7 - Khora Prime")]
 
 [Update 31.7](/w/Update_31#Update_31.7 "Update 31") (2022-07-16) relic drop locations update for [![](/images/thumb/KhoraPrime_Thumb.png/32px-KhoraPrime_Thumb.png?730fb)](/w/Khora/Prime "Khora/Prime") [Khora Prime](/w/Khora/Prime "Khora/Prime")/[![](/images/thumb/HystrixPrime.png/32px-HystrixPrime.png?51199)](/w/Hystrix_Prime "Hystrix Prime") [Hystrix Prime](/w/Hystrix_Prime "Hystrix Prime")/[![](/images/thumb/DualKeresPrime.png/32px-DualKeresPrime.png?e0ad8)](/w/Dual_Keres_Prime "Dual Keres Prime") [Dual Keres Prime](/w/Dual_Keres_Prime "Dual Keres Prime") relics ([![](/images/thumb/InarosPrime_Thumb.png/32px-InarosPrime_Thumb.png?cd69a)](/w/Inaros/Prime "Inaros/Prime") [Inaros Prime](/w/Inaros/Prime "Inaros/Prime")/[![](/images/thumb/PantheraPrime.png/32px-PantheraPrime.png?a55ec)](/w/Panthera_Prime "Panthera Prime") [Panthera Prime](/w/Panthera_Prime "Panthera Prime")/[![](/images/thumb/KarystPrime.png/32px-KarystPrime.png?ba1c9)](/w/Karyst_Prime "Karyst Prime") [Karyst Prime](/w/Karyst_Prime "Karyst Prime") vaulted):
 
@@ -389,7 +389,7 @@ Notable patterns in relic drop distribution:
 
 ##### U31.3 - Garuda Prime
 
-[[edit source](/w/Module:Void/data/doc?action=edit&section=T-6 "Edit section's source code: U31.3 - Garuda Prime")]
+[[edit](/w/Module:Void/data/doc?action=edit&section=T-6 "Edit Section using Source Editor: U31.3 - Garuda Prime")]
 
 [Update 31.3](/w/Update_31#Update_31.3 "Update 31") (2022-03-28) relic drop locations update for [![](/images/thumb/GarudaPrime_Thumb.png/32px-GarudaPrime_Thumb.png?13f16)](/w/Garuda/Prime "Garuda/Prime") [Garuda Prime](/w/Garuda/Prime "Garuda/Prime")/[![](/images/thumb/NagantakaPrime.png/32px-NagantakaPrime.png?8eb34)](/w/Nagantaka_Prime "Nagantaka Prime") [Nagantaka Prime](/w/Nagantaka_Prime "Nagantaka Prime")/[![](/images/thumb/CorvasPrime.png/32px-CorvasPrime.png?290fd)](/w/Corvas_Prime "Corvas Prime") [Corvas Prime](/w/Corvas_Prime "Corvas Prime") relics ([![](/images/thumb/TitaniaPrime_Thumb.png/32px-TitaniaPrime_Thumb.png?a33ec)](/w/Titania/Prime "Titania/Prime") [Titania Prime](/w/Titania/Prime "Titania/Prime")/[![](/images/thumb/CorinthPrime.png/32px-CorinthPrime.png?5c1bb)](/w/Corinth_Prime "Corinth Prime") [Corinth Prime](/w/Corinth_Prime "Corinth Prime")/[![](/images/thumb/PangolinPrime.png/32px-PangolinPrime.png?51917)](/w/Pangolin_Prime "Pangolin Prime") [Pangolin Prime](/w/Pangolin_Prime "Pangolin Prime") vaulted):
 
@@ -413,7 +413,7 @@ Notable patterns in relic drop distribution:
 
 ##### U31.0 - Harrow Prime
 
-[[edit source](/w/Module:Void/data/doc?action=edit&section=T-7 "Edit section's source code: U31.0 - Harrow Prime")]
+[[edit](/w/Module:Void/data/doc?action=edit&section=T-7 "Edit Section using Source Editor: U31.0 - Harrow Prime")]
 
 [Update 31.0](/w/Update_31#Update_31.0 "Update 31") (2021-12-15) relic drop locations update for [![](/images/thumb/HarrowPrime_Thumb.png/32px-HarrowPrime_Thumb.png?9cd5a)](/w/Harrow/Prime "Harrow/Prime") [Harrow Prime](/w/Harrow/Prime "Harrow/Prime")/[![](/images/thumb/ScourgePrime.png/32px-ScourgePrime.png?a0ef5)](/w/Scourge_Prime "Scourge Prime") [Scourge Prime](/w/Scourge_Prime "Scourge Prime")/[![](/images/thumb/KnellPrime.png/32px-KnellPrime.png?08b42)](/w/Knell_Prime "Knell Prime") [Knell Prime](/w/Knell_Prime "Knell Prime") relics ([![](/images/thumb/IvaraPrime_Thumb.png/32px-IvaraPrime_Thumb.png?59590)](/w/Ivara/Prime "Ivara/Prime") [Ivara Prime](/w/Ivara/Prime "Ivara/Prime")/[![](/images/thumb/BazaPrime.png/32px-BazaPrime.png?c1df2)](/w/Baza_Prime "Baza Prime") [Baza Prime](/w/Baza_Prime "Baza Prime")/[![](/images/thumb/AksomatiPrime.png/32px-AksomatiPrime.png?ce035)](/w/Aksomati_Prime "Aksomati Prime") [Aksomati Prime](/w/Aksomati_Prime "Aksomati Prime") vaulted):
 
@@ -439,7 +439,7 @@ Notable patterns in relic drop distribution:
 
 ## References
 
-[[edit source](/w/Module:DropTables/data/doc?action=edit&section=10 "Edit section's source code: References")]
+[[edit](/w/Module:DropTables/data/doc?action=edit&section=10 "Edit Section using Source Editor: References")]
 
 1. [↑](#cite_ref-1) (2022, December 14). *[Official Drop Table Repo](https://www.warframe.com/droptables)*. Digital Extremes. Accessed 2022-12-22. [Archived](https://web.archive.org/web/20221217011721/https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb03enrf56.html) from the original on 2022-12-17.
 2. [↑](#cite_ref-2) (2022, December 14). *[Official Drop Table Repo](https://www.warframe.com/droptables)*. Digital Extremes. Accessed 2022-12-26. [Archived](https://web.archive.org/web/20221217011721/https://n8k6e2y6.ssl.hwcdn.net/repos/hnfvc0o3jnfvc873njb03enrf56.html) from the original on 2022-12-17. Lith A5, Lith V9, Meso T6, Meso V8, Neo A7, Neo D6, and Axi F1 are included in 2022-12-14 update of drop table repo, representing a future Atlas/Vauban Prime rerun.
@@ -447,5 +447,5 @@ Notable patterns in relic drop distribution:
 
 ## Drop Table Data
 
-[[edit source](/w/Module:DropTables/data/doc?action=edit&section=11 "Edit section's source code: Drop Table Data")]
+[[edit](/w/Module:DropTables/data/doc?action=edit&section=11 "Edit Section using Source Editor: Drop Table Data")]
 
