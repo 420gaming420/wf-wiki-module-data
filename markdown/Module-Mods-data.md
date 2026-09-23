@@ -1,12 +1,12 @@
 ---
 title: "Module:Mods/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Mods/data"
-wiki_timestamp: "2026-08-21T13:22:53Z"
+wiki_timestamp: "2026-09-22T19:23:44Z"
 ---
 
 Database for all [Mods](/w/Mod "Mod") in [WARFRAME](/w/WARFRAME "WARFRAME") (with the exception of unveiled [Riven Mods](/w/Riven_Mods "Riven Mods")). Preferably put new mods in the correct alphabetical order, but it is not necessary.
 
-:   *Last updated: Fri, 21 Aug 2026 13:22:53 +0000 (UTC) by [User:Anexera](/w/User:Anexera "User:Anexera") ([change log](https://wiki.warframe.com/w/Module:Mods/data?diff=0))*
+:   *Last updated: Tue, 22 Sep 2026 19:23:44 +0000 (UTC) by [User:ArbitraryMary](/w/User:ArbitraryMary "User:ArbitraryMary") ([change log](https://wiki.warframe.com/w/Module:Mods/data?diff=0))*
 
 ## Contents
 
@@ -26,7 +26,7 @@ Database for all [Mods](/w/Mod "Mod") in [WARFRAME](/w/WARFRAME "WARFRAME") (wit
 
 ## Mod Entry Schema
 
-[[edit source](/w/Module:Mods/data/doc?action=edit&section=T-1 "Edit section's source code: Mod Entry Schema")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-1 "Edit Section using Source Editor: Mod Entry Schema")]
 
 ```lua
 	["Mod Name"] = {
@@ -86,7 +86,7 @@ Database for all [Mods](/w/Mod "Mod") in [WARFRAME](/w/WARFRAME "WARFRAME") (wit
 
 ## Mod Collections
 
-[[edit source](/w/Module:Mods/data/doc?action=edit&section=T-2 "Edit section's source code: Mod Collections")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-2 "Edit Section using Source Editor: Mod Collections")]
 
 There are three main collections that store mod data:
 
@@ -96,7 +96,7 @@ There are three main collections that store mod data:
 
 ## Mod Images
 
-[[edit source](/w/Module:Mods/data/doc?action=edit&section=T-3 "Edit section's source code: Mod Images")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-3 "Edit Section using Source Editor: Mod Images")]
 
 Mod images without border styling, image filter, and description text can be sourced from [Public Export](/w/Public_Export "Public Export"). However, full mod images are NOT provided by Digital Extremes since they are generated within the engine (presumably they are modularly built to support different localizations and styling).[[1]](#cite_note-1)[[2]](#cite_note-2) There are two ways to source full mod images:
 
@@ -105,7 +105,7 @@ Mod images without border styling, image filter, and description text can be sou
 
 ### Programmatically Creating Mod Cards
 
-[[edit source](/w/Module:Mods/data/doc?action=edit&section=T-4 "Edit section's source code: Programmatically Creating Mod Cards")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-4 "Edit Section using Source Editor: Programmatically Creating Mod Cards")]
 
 It is possible to programmatically build mod cards using individual image assets sourced from [Public Export](/w/Public_Export "Public Export") (mod image) and [Warframe Arsenal Twitch Extension](/w/Warframe_Arsenal_Twitch_Extension "Warframe Arsenal Twitch Extension") (mod image frames and background). For example, see the following resources as reference for mimicking the [![](/images/thumb/SerrationMod.png/22px-SerrationMod.png?0b8ff)](/w/Serration "Serration") [Serration](/w/Serration "Serration") mod card:
 
@@ -116,13 +116,13 @@ One benefit of this method is to be flexible to different localizations that WAR
 
 #### Assets
 
-[[edit source](/w/Module:Mods/data/doc?action=edit&section=T-5 "Edit section's source code: Assets")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-5 "Edit Section using Source Editor: Assets")]
 
 :   *Main article: [Mod/Assets](/w/Mod/Assets "Mod/Assets")*
 
 ## Where To Find Mod Metadata
 
-[[edit source](/w/Module:Mods/data/doc?action=edit&section=T-6 "Edit section's source code: Where To Find Mod Metadata")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-6 "Edit Section using Source Editor: Where To Find Mod Metadata")]
 
 The in-game UI does not thoroughly present all the data and interactions that is provided from a mod (or any [Upgrade](/w/Upgrade "Upgrade") for that matter). Here are some methods and sources to get more insight on the internal mechanics on mods:
 
@@ -255,11 +255,11 @@ The in-game UI does not thoroughly present all the data and interactions that is
 
 ## Data Validation
 
-[[edit source](/w/Module:Mods/data/doc?action=edit&section=T-7 "Edit section's source code: Data Validation")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-7 "Edit Section using Source Editor: Data Validation")]
 
 ### Checking for required keys
 
-[[edit source](/w/Module:Mods/data/doc?action=edit&section=T-8 "Edit section's source code: Checking for required keys")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-8 "Edit Section using Source Editor: Checking for required keys")]
 
 **p.checkRequiredKeysExist(frame): There are a total of 9 key-value errors**
 
@@ -275,13 +275,13 @@ The in-game UI does not thoroughly present all the data and interactions that is
 
 ### Validating data types of values
 
-[[edit source](/w/Module:Mods/data/doc?action=edit&section=T-9 "Edit section's source code: Validating data types of values")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-9 "Edit Section using Source Editor: Validating data types of values")]
 
 **p.validateDataTypes(frame): There are a total of 0 key-value errors**
 
 ### Checking naming scheme of image names
 
-[[edit source](/w/Module:Mods/data/doc?action=edit&section=T-10 "Edit section's source code: Checking naming scheme of image names")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-10 "Edit Section using Source Editor: Checking naming scheme of image names")]
 
 **p.checkImageName(frame): There are a total of 20 image names that do not follow mod image naming scheme ModNameMod.png**
 
@@ -308,20 +308,20 @@ The in-game UI does not thoroughly present all the data and interactions that is
 
 ### Validating mod incompatibility graphs for circular references
 
-[[edit source](/w/Module:Mods/data/doc?action=edit&section=T-11 "Edit section's source code: Validating mod incompatibility graphs for circular references")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-11 "Edit Section using Source Editor: Validating mod incompatibility graphs for circular references")]
 
 **p.validateIncompatibilityEdges(frame): There are a total of 0 `Incompatible` table errors**
 
 ## References
 
-[[edit source](/w/Module:Mods/data/doc?action=edit&section=T-12 "Edit section's source code: References")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-12 "Edit Section using Source Editor: References")]
 
 1. [↑](#cite_ref-1) <https://warframe.fandom.com/f/p/2290994351439873490>
 2. [↑](#cite_ref-2) Jeloxale (2014, September 12). *[I've talked to a DE member about this but it takes too long. Only option for them is to go trough them 1 by 1 and screencap everything. That's how they did it the last time, but this time it ain't gonna work.](https://forums.warframe.com/topic/308747-mods-image-for-wiki/?do=findComment&comment=3500491)*. Warframe Forums. Accessed 2022-10-06. [Archived](https://web.archive.org/web/20221006011831/https://forums.warframe.com/topic/308747-mods-image-for-wiki/) from the original on 2022-10-06. [User:Jeloxale](/w/User:Jeloxale "User:Jeloxale"), former wiki moderator, commenting on DE's old way of providing full mod image assets.
 
 ## Mod Data
 
-[[edit source](/w/Module:Mods/data/doc?action=edit&section=T-13 "Edit section's source code: Mod Data")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-13 "Edit Section using Source Editor: Mod Data")]
 
 ---
 
@@ -6707,7 +6707,8 @@ local modData = {
 			Rarity = "Rare",
 			Tradable = true,
 			Transmutable = false,
-			Type = "Magnus" 
+			Type = "Magnus",
+			UpgradeTypes = { "WEAPON_CRIT_CHANCE_BODY_PART" }
 		},
 		["Deadly Sequence"] = {
 			BaseDrain = 4,

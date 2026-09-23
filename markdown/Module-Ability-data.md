@@ -1,7 +1,7 @@
 ---
 title: "Module:Ability/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Ability/data"
-wiki_timestamp: "2026-07-29T23:49:20Z"
+wiki_timestamp: "2026-09-22T03:44:48Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Add [Railjack](/w/Railjack "Railjack") abilities like [Phoenix Blaze](/w/Phoenix
 
 Database of abilities in [WARFRAME](/w/WARFRAME "WARFRAME").
 
-:   *Last updated: Wed, 29 Jul 2026 23:49:20 +0000 (UTC) by [User:Engineeeeer](/w/User:Engineeeeer?action=edit&redlink=1 "User:Engineeeeer (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Ability/data?diff=0))*
+:   *Last updated: Tue, 22 Sep 2026 03:44:48 +0000 (UTC) by [User:~2026-WorldCityOfWheresThe49944](/w/User:~2026-WorldCityOfWheresThe49944?action=edit&redlink=1 "User:~2026-WorldCityOfWheresThe49944 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Ability/data?diff=0))*
 
 ## Contents
 
@@ -23,7 +23,7 @@ Database of abilities in [WARFRAME](/w/WARFRAME "WARFRAME").
 
 ## Ability Entry Schema
 
-[[edit source](/w/Module:Ability/data/doc?action=edit&section=T-1 "Edit section's source code: Ability Entry Schema")]
+[[edit](/w/Module:Ability/data/doc?action=edit&section=T-1 "Edit Section using Source Editor: Ability Entry Schema")]
 
 ```lua
 	["Ability Name"] = {
@@ -64,7 +64,7 @@ Database of abilities in [WARFRAME](/w/WARFRAME "WARFRAME").
 
 ## Ability Data
 
-[[edit source](/w/Module:Ability/data/doc?action=edit&section=T-2 "Edit section's source code: Ability Data")]
+[[edit](/w/Module:Ability/data/doc?action=edit&section=T-2 "Edit Section using Source Editor: Ability Data")]
 
 ---
 
@@ -735,7 +735,7 @@ local AbilityData = {
 			Preview = "CelestialClashPreview.webm",
 			PreviewFallback = "CelestialClashPreview.jpg",
 			Cost = 100,
-			Description = "Sirius & Orion take to the skies in a cosmic duel. Each attack consumes a Constellation Star to inflict colossal collateral Blast damage. Match the star's color to the Warframes color to gain increased Critical Chance.\r\n\r\n|LEFT_ATTACK| Sirius attacks\r\n|RIGHT_ATTACK| Orion attacks\r\n\r\nGenerate Constellation Stars by using abilities. No more than two stars of the same color can be added in a row.",
+			Description = "Sirius & Orion take to the skies in a cosmic duel. Each attack consumes a Constellation Star to inflict colossal collateral Heat or Slash damage. Match the star's color to the Warframes color to gain increased Critical Chance.\r\n\r\n|LEFT_ATTACK| Sirius attacks\r\n|RIGHT_ATTACK| Orion attacks\r\n\r\nGenerate Constellation Stars by using abilities. No more than two stars of the same color can be added in a row.",
 			Icon = "CelestialClashIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusOrionUltimateAbility",
 			Introduced = "43",

@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization"
-wiki_timestamp: "2026-09-14T22:11:48Z"
+wiki_timestamp: "2026-09-22T20:41:00Z"
 ---
 
 **Maximization** creates a stat maximization calculator for Warframe abilities.
@@ -161,15 +161,27 @@ for _, name in ipairs(names) do
 	end
 	table.insert(outses, '{| class="wikitable calc__block"\n|-\n!colspan=2|'..Tooltips.full(name, 'Ability')
 		..'\n|-\n'..table.concat(outs, '\n|-\n')..'\n|}')
-	if max_inner and max_inner.post then
-		table.insert(posts, '
+	if max_inner then
+		if  max_inner.post then
+			table.insert(posts, '
 
 '..max_inner.post..'
+
+')
+		end
+	else
+		table.insert(posts, '
+
+'.."''Help create a maximization calculator for "..Tooltips.full(name, 'Ability').." and its augments by adding data to [[Module:Maximization/data]].''"..'
 
 ')
 	end
 end
 
+--[[
+	https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context 
+	adding a wrapper with "display: flow-root" to fit nicely with random elements on the page (stop it from taking 100% of the page)
+]]--
 	local max = ([=[
 
 {| class="wikitable calc__block"

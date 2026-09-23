@@ -86,13 +86,21 @@ for _, name in ipairs(names) do
 	end
 	table.insert(outses, '{| class="wikitable calc__block"\n|-\n!colspan=2|'..Tooltips.full(name, 'Ability')
 		..'\n|-\n'..table.concat(outs, '\n|-\n')..'\n|}')
-	if max_inner and max_inner.post then
-		table.insert(posts, '<div style="width: 100%">'..max_inner.post..'</div>')
+	if max_inner then
+		if  max_inner.post then
+			table.insert(posts, '<div style="width: 100%">'..max_inner.post..'</div>')
+		end
+	else
+		table.insert(posts, '<div style="width: 100%">'.."''Help create a maximization calculator for "..Tooltips.full(name, 'Ability').." and its augments by adding data to [[Module:Maximization/data]].''"..'</div>')
 	end
 end
 
+--[[
+	https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context 
+	adding a wrapper with "display: flow-root" to fit nicely with random elements on the page (stop it from taking 100% of the page)
+]]--
 	local max = ([=[
-<div class="js-calc calc__container" data-style-number="max-width: 8ch">
+<div style="display: flow-root"><div class="js-calc calc__container" data-style-number="max-width: 8ch">
 {| class="wikitable calc__block"
 !Inputs
 |-
@@ -109,7 +117,7 @@ end
 %s
 |}
 %s
-%s</div>]=]):format(
+%s</div></div>]=]):format(
 	Tooltips.full{'Ability Strength', 'Stats', r='Strength'},
 	Tooltips.full{'Ability Duration', 'Stats', r='Duration'},
 	Tooltips.full{'Ability Range', 'Stats', r='Range'},

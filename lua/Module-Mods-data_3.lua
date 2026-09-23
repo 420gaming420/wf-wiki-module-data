@@ -6380,7 +6380,8 @@ local modData = {
 			Rarity = "Rare",
 			Tradable = true,
 			Transmutable = false,
-			Type = "Magnus" 
+			Type = "Magnus",
+			UpgradeTypes = { "WEAPON_CRIT_CHANCE_BODY_PART" }
 		},
 		["Deadly Sequence"] = {
 			BaseDrain = 4,
