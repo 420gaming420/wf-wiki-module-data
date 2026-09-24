@@ -1,12 +1,12 @@
 ---
 title: "Module:Baro/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Baro/data"
-wiki_timestamp: "2026-09-18T13:05:43Z"
+wiki_timestamp: "2026-09-23T23:54:11Z"
 ---
 
 Database contents initially seeded based on wikitables in [Baro\_Ki'Teer/Trades](/w/Baro_Ki%27Teer/Trades "Baro Ki'Teer/Trades") and [Baro\_Ki'Teer/ConsoleTrades](/w/Baro_Ki%27Teer/ConsoleTrades "Baro Ki'Teer/ConsoleTrades"). For full history see, [User:Anexera](/w/User:Anexera "User:Anexera")'s [Google Sheets](https://docs.google.com/spreadsheets/d/1cdT7M2qbOhZ01AQT2RaH8_6VL1yww4BHkTRtLzqZ7_g/edit#gid=632835097). See [Module:Baro/data/visits](/w/Module:Baro/data/visits "Module:Baro/data/visits") for Baro's historical visits.
 
-:   *Last updated: Fri, 18 Sep 2026 13:05:43 +0000 (UTC) by [User:Anexera](/w/User:Anexera "User:Anexera") ([change log](https://wiki.warframe.com/w/Module:Baro/data?diff=0))*
+:   *Last updated: Wed, 23 Sep 2026 23:54:11 +0000 (UTC) by [User:Anexera](/w/User:Anexera "User:Anexera") ([change log](https://wiki.warframe.com/w/Module:Baro/data?diff=0))*
 
 ## Contents
 
@@ -16,7 +16,8 @@ Database contents initially seeded based on wikitables in [Baro\_Ki'Teer/Trades]
 
 ## Notes
 
-[[edit source](/w/Module:Baro/data/doc?action=edit&section=T-1 "Edit section's source code: Notes")]
+[[edit](/w/Module:Baro/data/doc?action=edit&section=T-1 "Edit Section using Source Editor:
+Notes")]
 
 * ~~Console offerings are typically 3 visits (6 weeks) behind PC offerings; this note will be useful in validating this data~~ This is not true for Baro visits after 2022-07-29 because of <https://forums.warframe.com/topic/1318141-baro-ki%E2%80%99teer-cross-platform-inventory-sync-event/>.
 * On [TennoCon](/w/TennoCon "TennoCon"), all previous offerings are made available; these dates are not noted and these visits are irregular in length (over 48 hours)
@@ -37,7 +38,8 @@ Database contents initially seeded based on wikitables in [Baro\_Ki'Teer/Trades]
 
 ## Item Entry Schema
 
-[[edit source](/w/Module:Baro/data/doc?action=edit&section=T-2 "Edit section's source code: Item Entry Schema")]
+[[edit](/w/Module:Baro/data/doc?action=edit&section=T-2 "Edit Section using Source Editor:
+Item Entry Schema")]
 
 ```lua
 	["Item name"] = {
@@ -73,7 +75,8 @@ Database contents initially seeded based on wikitables in [Baro\_Ki'Teer/Trades]
 
 ## Offerings Data
 
-[[edit source](/w/Module:Baro/data/doc?action=edit&section=T-3 "Edit section's source code: Offerings Data")]
+[[edit](/w/Module:Baro/data/doc?action=edit&section=T-3 "Edit Section using Source Editor:
+Offerings Data")]
 
 ---
 
@@ -12845,7 +12848,7 @@ return {
 			OfferingDates = {
 				"2026-08-21"
 			},
-			Type = "Mod (Archgun)"
+			Type = "Primed Mod (Archgun)"
 		},
 		["Primed Pressure Point"] = {
 			ConsoleOfferingDates = {

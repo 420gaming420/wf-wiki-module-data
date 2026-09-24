@@ -70,6 +70,8 @@ local VALID_TAGS = {
 	["Tenet"] = true,				-- 
 	["Insign"] = true,				-- 
 	["Tektolyst Artifact"] = true,	-- 
+	["Melica"] = true,              -- Cephalon Melica, Yuvan's Peak
+	["Trials"] = true,              -- Trials before they were retired
 }
 
 --- Checks if each Honoria entry has all mandatory keys.

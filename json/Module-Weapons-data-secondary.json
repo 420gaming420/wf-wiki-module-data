@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-22T02:14:14.715Z"
+    "converted_at": "2026-09-24T07:26:23.635Z"
   },
   "_comments": "",
   "Castanas": {
@@ -439,7 +439,7 @@
     "Link": "Sagek Prime",
     "Mastery": 14,
     "AmmoMax": 450,
-    "Disposition": 0.8,
+    "Disposition": 0.9,
     "AmmoType": "Secondary"
   },
   "Bolto": {
@@ -724,7 +724,7 @@
     ],
     "Family": "Pox",
     "AmmoMax": 40,
-    "Disposition": 1,
+    "Disposition": 1.05,
     "AmmoType": "Secondary"
   },
   "Spira": {
@@ -1449,7 +1449,7 @@
     ],
     "Family": "Zylok",
     "AmmoMax": 210,
-    "Disposition": 0.9,
+    "Disposition": 0.95,
     "AmmoType": "Secondary"
   },
   "Quatz": {
@@ -2380,7 +2380,7 @@
     ],
     "Family": "Onos",
     "AmmoMax": 210,
-    "Disposition": 0.8,
+    "Disposition": 0.85,
     "CodexSecret": false
   },
   "Akjagara": {
@@ -3960,7 +3960,7 @@
     ],
     "Family": "Hystrix",
     "AmmoMax": 320,
-    "Disposition": 1,
+    "Disposition": 1.05,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Pistols/QuillDartgun/QuillDartgunInnateUpgrade"
     ]
@@ -4017,6 +4017,58 @@
     "Family": "Ocucor",
     "AmmoMax": 300,
     "Disposition": 1.2,
+    "AmmoType": "Secondary"
+  },
+  "Aksondol": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Dual Pistols",
+    "MaxRank": 30,
+    "GripType": "DUAL_GUN_GUN",
+    "Introduced": "44.0",
+    "Polarities": [
+      "Naramon"
+    ],
+    "InternalName": "[PH]",
+    "Attacks": [
+      {
+        "CritChance": 0.24,
+        "StatusChance": 0.22,
+        "FireRate": 10,
+        "MinSpread": 0.5,
+        "IsSilent": false,
+        "Range": 300,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 7,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 70,
+          "Cold": 70
+        },
+        "CritMultiplier": 2.6
+      }
+    ],
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Secondary",
+    "SellPrice": 5000,
+    "Accuracy": 23.5,
+    "Trigger": "Semi-Auto",
+    "ExilusPolarity": "Madurai",
+    "Link": "Aksondol",
+    "Reload": 2.6,
+    "AmmoPickup": 60,
+    "Magazine": 8,
+    "Name": "Aksondol",
+    "Image": "Aksondol.png",
+    "Mastery": 14,
+    "AmmoMax": 210,
+    "Disposition": 1,
     "AmmoType": "Secondary"
   },
   "Angstrum": {
@@ -6701,7 +6753,7 @@
     ],
     "Family": "Aksomati",
     "AmmoMax": 880,
-    "Disposition": 1.05,
+    "Disposition": 1.1,
     "AmmoType": "Secondary"
   },
   "Kompressa": {
@@ -6940,7 +6992,7 @@
     ],
     "Family": "Scyotid",
     "AmmoMax": 320,
-    "Disposition": 0.7,
+    "Disposition": 0.75,
     "AmmoType": "Secondary"
   },
   "Sonicor": {
@@ -10631,7 +10683,7 @@
     ],
     "Family": "Catabolyst",
     "AmmoMax": 155,
-    "Disposition": 0.65,
+    "Disposition": 0.7,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Infested/Pistols/InfBeamPistol/InfBeamPistolReloadFromEmptyMod"
     ]
@@ -11400,7 +11452,7 @@
     ],
     "Family": "Athodai",
     "AmmoMax": 72,
-    "Disposition": 0.5,
+    "Disposition": 0.65,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Pistols/PrimeAthodai/PrimeAthodaiInnateMod"
     ]

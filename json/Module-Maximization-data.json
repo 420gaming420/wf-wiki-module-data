@@ -4,9 +4,9 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-21T02:14:05.580Z"
+    "converted_at": "2026-09-24T07:25:59.087Z"
   },
-  "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins",
+  "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins\n-- mapping warframe names to ability names",
   "Shuriken": {
     "outs": [
       [
@@ -297,6 +297,20 @@
         "name": "SMOKE_SHADOW",
         "cont": "{{#invoke:Tooltip|full|Smoke Shadow|Mods}}?"
       }
+    ]
+  },
+  "Warframe": {
+    "Ash": [
+      "Shuriken",
+      "Smoke Screen",
+      "Teleport",
+      "Blade Storm"
+    ],
+    "Atlas": [
+      "Landslide",
+      "Tectonics",
+      "Petrify",
+      "Rumblers"
     ]
   },
   "Blade Storm": {

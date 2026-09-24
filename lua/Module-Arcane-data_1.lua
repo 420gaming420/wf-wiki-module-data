@@ -661,7 +661,7 @@ return {
 		},
 		["Arcane Precision"] = {
 			CodexSecret = true,
-			Description = "On Headshot:\r\n+300% Damage for 18s on Secondary Weapon",
+			Description = "On Weak Point Hit:\r\n+300% Damage for 18s on Secondary Weapon",
 			Dissolution = 28,
 			Icon = "ArcanePrecision64x.png",
 			Image = "ArcanePrecision.png",

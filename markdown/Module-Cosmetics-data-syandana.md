@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/syandana"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/syandana"
-wiki_timestamp: "2026-09-13T18:28:51Z"
+wiki_timestamp: "2026-09-24T06:22:05Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/syandana/doc](/w/Module:Cosmetics/data/syandana/doc?action=edit&redlink=1 "Module:Cosmetics/data/syandana/doc (page does not exist)")*
@@ -893,6 +893,16 @@ return {
         SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=1282112343",
         Type = "TennoGen Syandana"
     },
+    ["Durumi Syandana"] = {
+        CodexSecret = false,
+        Description = "The wish for a long life is carried upon the noble wings of Narin's signature syandana.",
+        ExcludeFromCodex = false,
+        Image = "DurumiSyandana.png",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/",
+        Link = "Durumi Syandana",
+        Name = "Durumi Syandana",
+        Type = "Syandana"
+    },
     ["Eklis Syandana"] = {
         Artists = { "Goosmo" },
         CodexSecret = false,
@@ -989,6 +999,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Scarves/TitaniaPrimeShortSyandana",
         Link = "Gigelor Prime Syandana",
         Name = "Gigelor Prime Syandana",
+        Type = "Syandana"
+    },
+    ["Garkulek Syandana"] = {
+        CodexSecret = false,
+        Description = "Qorvex Basilica's signature syandana perches on your shoulders, keeping a sharp eye over all.",
+        ExcludeFromCodex = false,
+        Image = "GarkulekSyandana.png",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/",
+        Link = "Garkulek Syandana",
+        Name = "Garkulek Syandana",
         Type = "Syandana"
     },
     ["Gigelorum Prime Syandana"] = {
@@ -2890,6 +2910,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Scarves/TwitchPrimeScarf",
         Link = "Spektaka Prime Syandana",
         Name = "Spektaka Prime Syandana",
+        Type = "Syandana"
+    },
+    ["Sphatika Prime Syandana"] = {
+        CodexSecret = false,
+        Description = "Citrine Prime's signature Syandana sparkles with a brilliant luster.",
+        ExcludeFromCodex = false,
+        Image = "SphatikaPrimeSyandana.png",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/PrimeCitrineSyandana",
+        Link = "Sphatika Prime Syandana",
+        Name = "Sphatika Prime Syandana",
         Type = "Syandana"
     },
     ["Stelflare Syandana"] = {

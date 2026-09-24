@@ -1,7 +1,7 @@
 ---
 title: "Module:Honorias/data/validate"
 wiki_url: "https://wiki.warframe.com/w/Module/Honorias/data/validate"
-wiki_timestamp: "2026-09-04T10:53:54Z"
+wiki_timestamp: "2026-09-24T04:12:14Z"
 ---
 
 ## Contents
@@ -13,7 +13,8 @@ wiki_timestamp: "2026-09-04T10:53:54Z"
 
 ## Examples
 
-[[edit source](/w/Module:Honorias/data/validate/doc?action=edit&section=T-1 "Edit section's source code: Examples")]
+[[edit](/w/Module:Honorias/data/validate/doc?action=edit&section=T-1 "Edit Section using Source Editor:
+Examples")]
 
 `{{#invoke:Honorias/data/validate|checkRequiredKeysExist}}`
 
@@ -23,19 +24,22 @@ wiki_timestamp: "2026-09-04T10:53:54Z"
 
 ### Checking for required keys
 
-[[edit source](/w/Module:Honorias/data/validate/doc?action=edit&section=T-2 "Edit section's source code: Checking for required keys")]
+[[edit](/w/Module:Honorias/data/validate/doc?action=edit&section=T-2 "Edit Section using Source Editor:
+Checking for required keys")]
 
 No missing required keys found in Module:Honorias/data!
 
 ### Validating data types of values
 
-[[edit source](/w/Module:Honorias/data/validate/doc?action=edit&section=T-3 "Edit section's source code: Validating data types of values")]
+[[edit](/w/Module:Honorias/data/validate/doc?action=edit&section=T-3 "Edit Section using Source Editor:
+Validating data types of values")]
 
 All data types are valid in Module:Honorias/data!
 
 ### Validating data types of values
 
-[[edit source](/w/Module:Honorias/data/validate/doc?action=edit&section=T-4 "Edit section's source code: Validating data types of values")]
+[[edit](/w/Module:Honorias/data/validate/doc?action=edit&section=T-4 "Edit Section using Source Editor:
+Validating data types of values")]
 
 All field values logic are valid in Module:Honorias/data!
 
@@ -114,6 +118,8 @@ local VALID_TAGS = {
 	["Tenet"] = true,				-- 
 	["Insign"] = true,				-- 
 	["Tektolyst Artifact"] = true,	-- 
+	["Melica"] = true,              -- Cephalon Melica, Yuvan's Peak
+	["Trials"] = true,              -- Trials before they were retired
 }
 
 --- Checks if each Honoria entry has all mandatory keys.

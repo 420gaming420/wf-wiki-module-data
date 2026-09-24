@@ -1,12 +1,12 @@
 {
   "page": "Module:Ability/infobox",
-  "wiki_timestamp": "2026-09-19T22:50:02Z",
-  "extracted_at": "2026-09-20T02:14:04.068417+00:00",
+  "wiki_timestamp": "2026-09-23T07:56:32Z",
+  "extracted_at": "2026-09-24T07:25:29.004220+00:00",
   "lua_files": [
     "Module-Ability-infobox_0.lua"
   ],
   "lua_block_count": 1,
-  "file_size": 16379,
-  "comment_count": 89,
+  "file_size": 16499,
+  "comment_count": 90,
   "status": "success"
 }

@@ -1723,6 +1723,19 @@ local AbilityData = {
 			Key = 2,
 			Powersuit = "Drifter"
 		},
+		["Hakchum"] = {
+			Name = "Hakchum",
+			CardImage = "Hakchumx256.png",
+			Preview = "HakchumPreview.webm",
+			PreviewFallback = "HakchumPreview.jpg",
+			Cost = 75,
+			Description = "Tap to leap into the air, tap again to land at target location. Applies Cold Damage Vulnerability and Status Effect in a large radius upon landing. Gain Ice for each enemy hit.",
+			Icon = "Hakchum(xWhite).png",
+			InternalName = "/Lotus/Powersuits/Duelist/Abilities/",
+			Introduced = "44",
+			Key = 3,
+			Powersuit = "Narin" 
+		},
 		["Hall of Mirrors"] = {
 			Name = "Hall of Mirrors",
 			Augments = { "Hall of Malevolence" },
@@ -2358,6 +2371,20 @@ local AbilityData = {
 			Powersuit = "Saryn",
 			Subsumable = true
 		},
+		["Naraemagi"] = {
+			Name = "Naraemagi",
+			CardImage = "Naraemagix256.png",
+			Preview = "NaraemagiPreview.webm",
+			PreviewFallback = "NaraemagiPreview.jpg",
+			Cost = 50,
+			Description = "Recover Shields by absorbing Cold Status Effect from nearby enemies. Gain Overguard if at full Shields. Gain Ice for each enemy hit.",
+			Icon = "Naraemagi(xWhite).png",
+			InternalName = "/Lotus/Powersuits/Duelist/Abilities/",
+			Introduced = "44",
+			Key = 2,
+			Powersuit = "Narin",
+			Subsumable = true
+		},
 		["Navigator"] = {
 			Name = "Navigator",
 			Augments = { "Piercing Navigator" },
@@ -2384,6 +2411,19 @@ local AbilityData = {
 			Introduced = "29",
 			Key = 1,
 			Powersuit = "Voidrig" 
+		},
+		["Neote"] = {
+			Name = "Neote",
+			CardImage = "Neotex256.png",
+			Preview = "NeotePreview.webm",
+			PreviewFallback = "NeotePreview.jpg",
+			Cost = 25,
+			Description = "Lunge with Narin's ice rapier Neote, inflicting Cold Damage and Cold and Puncture Status Effect on foes directly ahead of her. Gain Ice for each enemy hit.",
+			Icon = "Neote(xWhite).png",
+			InternalName = "/Lotus/Powersuits/Duelist/Abilities/",
+			Introduced = "44",
+			Key = 1,
+			Powersuit = "Narin"
 		},
 		["Neutralize"] = {
 			Name = "Neutralize",
@@ -2443,6 +2483,19 @@ local AbilityData = {
 			Key = 1,
 			Powersuit = "Nova",
 			Subsumable = true
+		},
+		["Nurinarim"] = {
+			Name = "Nurinarim",
+			CardImage = "Nurinarimx256.png",
+			Preview = "NurinarimPreview.webm",
+			PreviewFallback = "NurinarimPreview.jpg",
+			Cost = 25,
+			Description = "Requires full Ice to cast. An ancestral spirit descends upon Narin and she begins sword dancing for continuous nearby damage. Press Attack on the marked targets to launch shattering icy slashes that deplete Armor and Shields. Hitting Frozen enemies causes them to explode, dealing massive radial Cold Damage.",
+			Icon = "Nurinarim(xWhite).png",
+			InternalName = "/Lotus/Powersuits/Duelist/Abilities/",
+			Introduced = "44",
+			Key = 4,
+			Powersuit = "Narin"
 		},
 		["Omamori"] = {
 			Name = "Omamori",

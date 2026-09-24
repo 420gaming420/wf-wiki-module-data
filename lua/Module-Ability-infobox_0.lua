@@ -16,6 +16,7 @@ local AbilityData = mw.loadData([[Module:Ability/data]])
 local Tooltips = require([[Module:Tooltips]])
 local Version = require([[Module:Version]])
 local TextIcons = require([[Module:TextIcons]])
+local Maximization = require([[Module:Maximization]])
 
 --Stuff that should go elsewhere
 --TODO!
@@ -123,7 +124,7 @@ buildInfobox = function(frame)
 	local sub = (args.sub or ''):gsub('%[%[(Ability [SDRE][a-z]+)|<span style="[^"]+">[A-Z][a-z]+</span>%]%]',Tooltips'Stats''full')
 	:gsub('<span style="color:white;">Misc</span>','<b style="color:white;border-bottom:1px dotted;" title="Stats unlisted in-game, not affected by Mods">Misc</b>')
 	local strength, duration, range, efficiency, misc = args.strength, args.duration, args.range, args.efficiency, args.misc
-	local info, attributes, tips, max, bugs, interactions, helminth, localization = args.info, args.attributes, args.tips, args.max, args.bugs, args.interactions, args.helminth, args.localization
+	local info, attributes, tips, bugs, interactions, helminth, localization = args.info, args.attributes, args.tips, args.bugs, args.interactions, args.helminth, args.localization
 	-- drain = args.drain
 	
 	-- TODO: AbilityDurationBuff.png is a flat white icon and needs to be inverted on light theme
@@ -185,6 +186,11 @@ buildInfobox = function(frame)
 	--todo these in another place
 	weapon = weapon or (specialWeap[abilityid] or {})[1] or mw.log('weapon fail: '..abilityid) or weapon
 	stance = stance or (specialWeap[abilityid] or {})[2] or mw.log('stance fail: '..abilityid) or stance
+
+
+	-- Old maximization deprecated since 2022 (see [[User_blog:Cephalon_Scientia/Sunsetting_of_Maximization_Calculators]])
+	-- New DSL since 2026
+	local max = Maximization.ability(name);
 
 	local function tab(s, c)
 		return c and c ~= '' and ('|-|%s=<b style="display:none;">%s<br />\n</b>\n%s'):format(s, s, c) or ''
@@ -331,7 +337,7 @@ frame:callParserFunction('#tag:tabber',''
 ..tab('Helminth', helminth)
 ..tab('Augment', augment)
 ..tab('Tips & Tricks', tips)
--- ..tab('Maximization', max)	-- Deprecated since 2022 (see [[User_blog:Cephalon_Scientia/Sunsetting_of_Maximization_Calculators]])
+..tab('Maximization', max)
 ..tab('Bugs', bugs)
 ..tab('Localization', localization)
 ),

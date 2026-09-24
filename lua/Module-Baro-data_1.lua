@@ -12766,7 +12766,7 @@ return {
 			OfferingDates = {
 				"2026-08-21"
 			},
-			Type = "Mod (Archgun)"
+			Type = "Primed Mod (Archgun)"
 		},
 		["Primed Pressure Point"] = {
 			ConsoleOfferingDates = {

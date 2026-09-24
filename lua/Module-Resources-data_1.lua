@@ -8178,6 +8178,18 @@ local ResourceData = {
 		ResourceDropChanceBoostAble = false,
 		RetrieverModAble = false,
 	},
+	["Entropic Kuva"] = {
+		Description = "A dangerous and erratic type of Kuva.\r\n\r\nObtained from Zariman missions.",
+		Image = "Entropic_Kuva.png",
+		InternalName = "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem",
+		Introduced = "44",
+		Link = "Entropic Kuva (Resource)",
+		Name = "Entropic Kuva",
+		Type = "Resource",
+		ResourceBoostAble = false,--unsure please correct it--
+		ResourceDropChanceBoostAble = false,
+		RetrieverModAble = false,
+	},
 	["Lazulite Toroid"] = {
 		Amount = { 1, 1 },
 		Description = "A device of undetermined function and origin. Prized by Vox Solaris and the Quills.\r\n\r\nEarn Lazulite Toroids by defeating the Exploiter Orb on the Orb Vallis (Venus).",

@@ -19194,6 +19194,19 @@ local Versions = {
 		ArchiveDate = "",
 		Timestamp = 1787177125	
 	},
+	{
+		Name = "Update 44.0",
+		Link = "Update 44: Iceblade of Narin",
+		Aliases = { "44", "44.0", "Iceblade of Narin" },
+		ShortName = "U44.0",
+		Date = "2026-09-23",
+		Parent = "44.0",
+		ForumLink = "https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/",
+		ArchiveLink = "https://web.archive.org/web/20260923160723/https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/",
+		ArchiveDate = "2026-09-23",
+		Timestamp = 1790175780,
+		Subtitle = "Iceblade of Narin"
+	},
 }
 
 -- Building additional indexes from data

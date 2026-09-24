@@ -1,13 +1,13 @@
 {
   "page": "Module:Baro/data",
-  "wiki_timestamp": "2026-09-18T13:05:43Z",
-  "extracted_at": "2026-09-19T02:13:30.701139+00:00",
+  "wiki_timestamp": "2026-09-23T23:54:11Z",
+  "extracted_at": "2026-09-24T07:25:29.027737+00:00",
   "lua_files": [
     "Module-Baro-data_0.lua",
     "Module-Baro-data_1.lua"
   ],
   "lua_block_count": 2,
-  "file_size": 388347,
+  "file_size": 388354,
   "comment_count": 6,
   "status": "success"
 }

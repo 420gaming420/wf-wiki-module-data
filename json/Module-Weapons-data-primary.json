@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-03T02:18:23.011Z"
+    "converted_at": "2026-09-24T07:26:21.000Z"
   },
   "_comments": "\t\t--Users = { },",
   "Tenet Tetra": {
@@ -935,7 +935,7 @@
     ],
     "Family": "Kuva Bramma",
     "AmmoMax": 5,
-    "Disposition": 0.65,
+    "Disposition": 0.7,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
       "/Lotus/Weapons/Grineer/Bows/GrnBow/GrnBowInnateMod"
@@ -2439,7 +2439,7 @@
     ],
     "Family": "Afentis",
     "AmmoMax": 12,
-    "Disposition": 0.5,
+    "Disposition": 0.65,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/LongGuns/GrnFlameSpear/GunSpearInnateMod",
       "/Lotus/Weapons/Tenno/LongGuns/TnHopliteSpear/TnHopliteGunSpearInnateMod"
@@ -3220,6 +3220,86 @@
     ],
     "Family": "Corinth",
     "AmmoMax": 120,
+    "Disposition": 1,
+    "AmmoType": "Primary"
+  },
+  "Nunchasa": {
+    "Conclave": true,
+    "_TooltipAttackDisplay": 2,
+    "Class": "Bow",
+    "MaxRank": 30,
+    "GripType": "BOW",
+    "Users": [
+      "[PH]"
+    ],
+    "Introduced": "44.0",
+    "Polarities": [
+      "Naramon"
+    ],
+    "Link": "Nunchasa",
+    "InternalName": "[PH]",
+    "Traits": [
+      "Tenno"
+    ],
+    "Slot": "Primary",
+    "SellPrice": 7500,
+    "Attacks": [
+      {
+        "ShotSpeed": 70,
+        "CritChance": 0.32,
+        "StatusChance": 0.32,
+        "FireRate": 1,
+        "Trigger": "Charge",
+        "IsSilent": true,
+        "MinSpread": 0,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 12,
+        "AttackIndex": 1,
+        "AttackName": "Charged Shot",
+        "PunchThrough": 1.4,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 200,
+          "Cold": 200
+        },
+        "CritMultiplier": 2.4
+      },
+      {
+        "ChargeTime": 1.5,
+        "CritChance": 0.36,
+        "StatusChance": 0.36,
+        "Trigger": "Charge",
+        "FireRate": 1,
+        "ShotSpeed": 85,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": true,
+        "AttackIndex": 2,
+        "AttackName": "Alt-Fire",
+        "PunchThrough": 2,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 250,
+          "Slash": 250,
+          "Cold": 500
+        },
+        "CritMultiplier": 3
+      }
+    ],
+    "Accuracy": 0,
+    "Trigger": "Charge",
+    "ExilusPolarity": "Madurai",
+    "CompatibilityTags": [
+      "PROJECTILE"
+    ],
+    "Reload": 0.6,
+    "AmmoPickup": 15,
+    "Magazine": 1,
+    "Name": "Nunchasa",
+    "Image": "Nunchasa.png",
+    "Mastery": 14,
+    "AmmoMax": 50,
     "Disposition": 1,
     "AmmoType": "Primary"
   },
@@ -4173,7 +4253,7 @@
     ],
     "Family": "Haalvu",
     "AmmoMax": 0,
-    "Disposition": 0.5,
+    "Disposition": 0.6,
     "AmmoType": "None"
   },
   "Dera Vandal": {
@@ -5483,7 +5563,7 @@
     ],
     "Family": "Alternox",
     "AmmoMax": 540,
-    "Disposition": 1.15,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/LongGuns/GyreRifle/GyreRifleInnateUpgrade"
     ]
@@ -6517,7 +6597,7 @@
     ],
     "Family": "Purgator 1",
     "AmmoMax": 20,
-    "Disposition": 1.15,
+    "Disposition": 1.2,
     "AmmoType": "Primary"
   },
   "Zhuge Prime": {
@@ -8070,7 +8150,7 @@
     ],
     "Family": "Alternox",
     "AmmoMax": 540,
-    "Disposition": 0.8,
+    "Disposition": 0.95,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/LongGuns/GyreRifle/GyreRifleInnateUpgrade"
     ]
@@ -8700,7 +8780,7 @@
     ],
     "Family": "Vadarya Prime",
     "AmmoMax": 72,
-    "Disposition": 0.75,
+    "Disposition": 0.8,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/LongGuns/PrimeLightningGun/VadaryaPrimePassiveDescUpgrade"
     ]
@@ -9282,7 +9362,7 @@
     ],
     "Family": "Hema",
     "AmmoMax": 0,
-    "Disposition": 0.95,
+    "Disposition": 1,
     "AmmoType": "Primary"
   },
   "Tigris": {
@@ -9992,7 +10072,7 @@
     ],
     "Family": "Quanta",
     "AmmoMax": 540,
-    "Disposition": 0.75,
+    "Disposition": 0.85,
     "CodexSecret": true
   },
   "Braton Prime": {
@@ -10210,7 +10290,7 @@
     ],
     "Family": "Thornbak",
     "AmmoMax": 540,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "AmmoType": "Primary"
   },
   "Drakgoon": {
@@ -10667,7 +10747,7 @@
     ],
     "Family": "Enkaus",
     "AmmoMax": 60,
-    "Disposition": 0.7,
+    "Disposition": 0.8,
     "AmmoType": "Primary"
   },
   "Artemis Bow Prime": {
@@ -12902,7 +12982,7 @@
     ],
     "Family": "Perigale",
     "AmmoMax": 32,
-    "Disposition": 0.65,
+    "Disposition": 0.8,
     "AmmoType": "Primary"
   },
   "Grakata": {
@@ -14094,7 +14174,7 @@
     ],
     "Family": "Daikyu",
     "AmmoMax": 72,
-    "Disposition": 0.9,
+    "Disposition": 1,
     "AmmoType": "Primary"
   },
   "Phantasma Prime": {
@@ -17337,7 +17417,7 @@
     ],
     "Family": "Bubonico",
     "AmmoMax": 0,
-    "Disposition": 0.55,
+    "Disposition": 0.6,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Sentients/Shedu/SheduInnateUpgrade"
     ]
@@ -18044,7 +18124,7 @@
     ],
     "Family": "Arca Plasmor",
     "AmmoMax": 40,
-    "Disposition": 0.55,
+    "Disposition": 0.6,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
     ]

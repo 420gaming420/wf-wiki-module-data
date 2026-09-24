@@ -1,12 +1,12 @@
 ---
 title: "Module:Honorias/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Honorias/data"
-wiki_timestamp: "2026-09-14T22:32:30Z"
+wiki_timestamp: "2026-09-23T22:06:06Z"
 ---
 
 Database for all [Honorias](/w/Honoria "Honoria") in [WARFRAME](/w/WARFRAME "WARFRAME"). Preferably put new honorias in the correct alphabetical order, but it is not necessary.
 
-:   *Last updated: Mon, 14 Sep 2026 22:32:30 +0000 (UTC) by [User:ArbitraryMary](/w/User:ArbitraryMary "User:ArbitraryMary") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
+:   *Last updated: Wed, 23 Sep 2026 22:06:06 +0000 (UTC) by [User:Haze9114](/w/User:Haze9114?action=edit&redlink=1 "User:Haze9114 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
 
 ## Contents
 
@@ -17,7 +17,8 @@ Database for all [Honorias](/w/Honoria "Honoria") in [WARFRAME](/w/WARFRAME "WAR
 
 ## Honoria Entry Schema
 
-[[edit source](/w/Module:Honorias/data/doc?action=edit&section=T-1 "Edit section's source code: Honoria Entry Schema")]
+[[edit](/w/Module:Honorias/data/doc?action=edit&section=T-1 "Edit Section using Source Editor:
+Honoria Entry Schema")]
 
 ```lua
     ["Honoria Name"] = {
@@ -51,7 +52,8 @@ Database for all [Honorias](/w/Honoria "Honoria") in [WARFRAME](/w/WARFRAME "WAR
 
 ## Data Validation
 
-[[edit source](/w/Module:Honorias/data/doc?action=edit&section=T-2 "Edit section's source code: Data Validation")]
+[[edit](/w/Module:Honorias/data/doc?action=edit&section=T-2 "Edit Section using Source Editor:
+Data Validation")]
 
 ```lua
 Checking for required keys
@@ -77,11 +79,13 @@ All field values logic are valid in Module:Honorias/data!
 
 ## References
 
-[[edit source](/w/Module:Honorias/data/doc?action=edit&section=T-3 "Edit section's source code: References")]
+[[edit](/w/Module:Honorias/data/doc?action=edit&section=T-3 "Edit Section using Source Editor:
+References")]
 
 ## Honoria Data
 
-[[edit source](/w/Module:Honorias/data/doc?action=edit&section=T-4 "Edit section's source code: Honoria Data")]
+[[edit](/w/Module:Honorias/data/doc?action=edit&section=T-4 "Edit Section using Source Editor:
+Honoria Data")]
 
 ---
 
@@ -1952,7 +1956,7 @@ local honoriaData = {
 		Name = "The Gallant Gourmand",
 		Link = "The Gallant Gourmand",
 		Description = "Acquire [[Grendel Prime]].",
-		Position = "Suffix",
+		Position = "Prefix",
 		Introduced = "42",
 		InternalName = "/Lotus/Types/Items/Titles/TitleGrendelPrime",
 		CodexSecret = true,
@@ -1963,7 +1967,7 @@ local honoriaData = {
 		Name = "The God Above Knowledge",
 		Link = "The God Above Knowledge",
 		Description = "",
-		Position = "Prefix",
+		Position = "Suffix",
 		Introduced = "41",
 		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/TitleEchoVoca",
 		CodexSecret = true,
@@ -2405,6 +2409,94 @@ local honoriaData = {
 		CodexSecret = true,
 		ExcludeFromCodex = true,
 		Tags = { "KIM" },
+	},
+	["Retributor"] = {
+		Name = "Retributor",
+		Link = "Retributor",
+		Description = "Obtained from having completed the [[Law of Retribution]] Trial.",
+		Position = "Prefix",
+		Introduced = "44",
+		InternalName = "/Lotus/Types/Items/Titles/GrineerTrialsTitle",
+		CodexSecret = true,
+		ExcludeFromCodex = true,
+		Tags = { "Trials" },
+	},
+	["Vay Hek's Nightmare"] = {
+		Name = "Vay Hek's Nightmare",
+		Link = "Vay Hek's Nightmare",
+		Description = "Obtained from having completed the Nightmare [[Law of Retribution]] Trial.",
+		Position = "Suffix",
+		Introduced = "44",
+		InternalName = "/Lotus/Types/Items/Titles/GrineerNightmareTrialsTitle",
+		CodexSecret = true,
+		ExcludeFromCodex = true,
+		Tags = { "Trials" },
+	},
+	["The Final Verdict"] = {
+		Name = "The Final Verdict",
+		Link = "The Final Verdict",
+		Description = "Obtained from having completed the [[Jordas Verdict]] Trial.",
+		Position = "Prefix",
+		Introduced = "44",
+		InternalName = "/Lotus/Types/Items/Titles/GolemTrialsTitle",
+		CodexSecret = true,
+		ExcludeFromCodex = true,
+		Tags = { "Trials" },
+	},
+	["Tried and True"] = {
+		Name = "Tried and True",
+		Link = "Tried and True",
+		Description = "Obtained from having completed both the [[Law of Retribution]] and [[Jordas Verdict]] Trials.",
+		Position = "Prefix",
+		Introduced = "44",
+		InternalName = "/Lotus/Types/Items/Titles/AllLegacyTrialsTitle",
+		CodexSecret = true,
+		ExcludeFromCodex = true,
+		Tags = { "Trials" },
+	},
+	["Clionadh"] = {
+		Name = "Clionadh",
+		Link = "Clionadh",
+		Price = { ["Javlok Capacitor"] = "50" },
+		Position = "Prefix",
+		Introduced = "44",
+		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/BansheeDeluxeTitle",
+		CodexSecret = true,
+		ExcludeFromCodex = true,
+		Tags = { "Roathe" },
+	},
+	["Berserk Crucible"] = {
+		Name = "Berserk Crucible",
+		Link = "Berserk Crucible",
+		Price = { ["Entrati Lanthorn"] = "200" },
+		Position = "Prefix",
+		Introduced = "44",
+		InternalName = "/Lotus/Types/Items/Titles/RoatheTitles/QorvexDeluxeTitle",
+		CodexSecret = true,
+		ExcludeFromCodex = true,
+		Tags = { "Roathe" },
+	},
+	["Crystal Bastion"] = {
+		Name = "Crystal Bastion",
+		Link = "Crystal Bastion",
+		Description = "Acquire [[Citrine Prime]].",
+		Position = "Prefix",
+		Introduced = "44",
+		InternalName = "/Lotus/Types/Items/Titles/CitrinePrimeTitle",
+		CodexSecret = true,
+		ExcludeFromCodex = true,
+		Tags = { "Prime" },
+	},
+	["On Wings of Ice"] = {
+		Name = "On Wings of Ice",
+		Link = "On Wings of Ice",
+		Price = { ["Entropic Kuva"] = "500" },
+		Position = "Suffix",
+		Introduced = "44",
+		InternalName = "/Lotus/Types/Items/Titles/NarinTitle",
+		CodexSecret = true,
+		ExcludeFromCodex = true,
+		Tags = { "Melica" },
 	},
 }
 

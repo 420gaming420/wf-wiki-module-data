@@ -1,7 +1,7 @@
 ---
 title: "Module:Arcane/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Arcane/data"
-wiki_timestamp: "2026-06-30T07:42:26Z"
+wiki_timestamp: "2026-09-23T23:31:15Z"
 ---
 
 Database of [Arcane Enhancements](/w/Arcane_Enhancement "Arcane Enhancement").
@@ -13,11 +13,12 @@ Database of [Arcane Enhancements](/w/Arcane_Enhancement "Arcane Enhancement").
   + [2.1 Checking for required keys](#Checking_for_required_keys)
   + [2.2 Validating data types of values](#Validating_data_types_of_values)
 
-:   *Last updated: Tue, 30 Jun 2026 07:42:26 +0000 (UTC) by [User:Twilight053](/w/User:Twilight053 "User:Twilight053") ([change log](https://wiki.warframe.com/w/Module:Arcane/data?diff=0))*
+:   *Last updated: Wed, 23 Sep 2026 23:31:15 +0000 (UTC) by [User:~2026-GreenTotallyWheresThe43263](/w/User:~2026-GreenTotallyWheresThe43263?action=edit&redlink=1 "User:~2026-GreenTotallyWheresThe43263 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Arcane/data?diff=0))*
 
 ## Arcane Entry Schema
 
-[[edit source](/w/Module:Arcane/data/doc?action=edit&section=T-1 "Edit section's source code: Arcane Entry Schema")]
+[[edit](/w/Module:Arcane/data/doc?action=edit&section=T-1 "Edit Section using Source Editor:
+Arcane Entry Schema")]
 
 ```lua
 	["Arcane Name"] = {
@@ -57,17 +58,20 @@ Database of [Arcane Enhancements](/w/Arcane_Enhancement "Arcane Enhancement").
 
 ## Data Validation
 
-[[edit source](/w/Module:Arcane/data/doc?action=edit&section=T-2 "Edit section's source code: Data Validation")]
+[[edit](/w/Module:Arcane/data/doc?action=edit&section=T-2 "Edit Section using Source Editor:
+Data Validation")]
 
 ### Checking for required keys
 
-[[edit source](/w/Module:Arcane/data/doc?action=edit&section=T-3 "Edit section's source code: Checking for required keys")]
+[[edit](/w/Module:Arcane/data/doc?action=edit&section=T-3 "Edit Section using Source Editor:
+Checking for required keys")]
 
 **Script error: No such module "Arcane/data/validate".**
 
 ### Validating data types of values
 
-[[edit source](/w/Module:Arcane/data/doc?action=edit&section=T-4 "Edit section's source code: Validating data types of values")]
+[[edit](/w/Module:Arcane/data/doc?action=edit&section=T-4 "Edit Section using Source Editor:
+Validating data types of values")]
 
 **Script error: No such module "Arcane/data/validate".**
 
@@ -737,7 +741,7 @@ return {
 		},
 		["Arcane Precision"] = {
 			CodexSecret = true,
-			Description = "On Headshot:\r\n+300% Damage for 18s on Secondary Weapon",
+			Description = "On Weak Point Hit:\r\n+300% Damage for 18s on Secondary Weapon",
 			Dissolution = 28,
 			Icon = "ArcanePrecision64x.png",
 			Image = "ArcanePrecision.png",

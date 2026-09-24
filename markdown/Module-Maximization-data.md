@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-09-19T14:23:20Z"
+wiki_timestamp: "2026-09-23T11:34:01Z"
 ---
 
 ## Contents
@@ -14,7 +14,8 @@ Database for [maximization](/w/Maximization "Maximization") of [warframe](/w/War
 
 ## Ability Entry Schema
 
-[[edit page](/w/Module:Maximization/data/doc?action=edit&section=T-1 "Edit section's source code: Ability Entry Schema")]
+[[edit](/w/Module:Maximization/data/doc?action=edit&section=T-1 "Edit Section using Source Editor:
+Ability Entry Schema")]
 
 ```lua
 	["Ability Name"] = {
@@ -69,7 +70,8 @@ Standard Units
 
 ## Style Guide
 
-[[edit page](/w/Module:Maximization/data/doc?action=edit&section=T-2 "Edit section's source code: Style Guide")]
+[[edit](/w/Module:Maximization/data/doc?action=edit&section=T-2 "Edit Section using Source Editor:
+Style Guide")]
 
 1. Each ability's data should contain calculations of innate stats (e.g. energy, damage, [DoTs](/w/DoT "DoT")), and kit interactions (i.e. passive, abilities, and [augments](/w/Augments "Augments") of the original warframe). Adding calculations for third-party buffs would bloat calculators.
    * If the ability can be [infused](/w/Infused "Infused"), the calculator must contain toggles for original kit interactions (e.g. [![](/images/thumb/ShurikenIcon%28xWhite%29.png/32px-ShurikenIcon%28xWhite%29.png?f2322)](/w/Shuriken "Shuriken") [Shuriken](/w/Shuriken "Shuriken") doing less [![](/images/thumb/DmgSlashSmall64.png/32px-DmgSlashSmall64.png?bab47)](/w/Damage/Slash_Damage "Damage/Slash Damage") [Bleed](/w/Damage/Slash_Damage "Damage/Slash Damage") without [![](/images/thumb/Ash_Thumb.png/32px-Ash_Thumb.png?db305)](/w/Ash "Ash") [Ash](/w/Ash "Ash")'s passive) and must **not** contain potential interactions with a new warframe.
@@ -83,7 +85,8 @@ Standard Units
 
 ## See Also
 
-[[edit page](/w/Module:Maximization/data/doc?action=edit&section=T-3 "Edit section's source code: See Also")]
+[[edit](/w/Module:Maximization/data/doc?action=edit&section=T-3 "Edit Section using Source Editor:
+See Also")]
 
 [Module:Maximization/data/doc](/w/Module:Maximization/data/doc "Module:Maximization/data/doc")
 
@@ -125,7 +128,14 @@ local GenericIns = {
 	},
 };
 
+-- mapping warframe names to ability names
+local Warframe = {
+	['Ash']={'Shuriken', 'Smoke Screen', 'Teleport', 'Blade Storm'},
+	['Atlas']={'Landslide', 'Tectonics', 'Petrify', 'Rumblers'},
+};
+
 local Data = {
+	Warframe = Warframe,
 	['Shuriken']={
 		ins={
 			{name='HEAD_RATE', cont='Headshot rate:', type='range-R'},

@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/ephemera"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/ephemera"
-wiki_timestamp: "2026-08-12T15:35:12Z"
+wiki_timestamp: "2026-09-24T06:11:21Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/ephemera/doc](/w/Module:Cosmetics/data/ephemera/doc?action=edit&redlink=1 "Module:Cosmetics/data/ephemera/doc (page does not exist)")*
@@ -46,6 +46,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Effects/EphemeraNezhaPrime",
         Link = "Baurahn Prime Ephemera",
         Name = "Baurahn Prime Ephemera",
+        Type = "Ephemera"
+    },
+    ["Belfri Ephemera"] = {
+        CodexSecret = false,
+        Description = "Beckon Qorvex Basilica's fluttering fellows to your side with his signature ephemera.",
+        ExcludeFromCodex = false,
+        Image = "BelfriEphemera.png",
+        InternalName = "/Lotus/Upgrades/Skins/Effects/",
+        Link = "Belfri Ephemera",
+        Name = "Belfri Ephemera",
         Type = "Ephemera"
     },
     ["Blazing Step Ephemera"] = {
@@ -248,6 +258,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Effects/SnowEphemera",
         Link = "Frostfall Ephemera",
         Name = "Frostfall Ephemera",
+        Type = "Ephemera"
+    },
+    ["Gangrim Ephemera"] = {
+        CodexSecret = false,
+        Description = "May a chill descend upon you with the frozen embrace of Narin's signature ephemera.",
+        ExcludeFromCodex = false,
+        Image = "GangrimEphemera.png",
+        InternalName = "/Lotus/Upgrades/Skins/Effects/",
+        Link = "Gangrim Ephemera",
+        Name = "Gangrim Ephemera",
         Type = "Ephemera"
     },
     ["Gloriana Ephemera"] = {
@@ -702,6 +722,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Effects/FootstepsPetals",
         Link = "Seeding Step Ephemera",
         Name = "Seeding Step Ephemera",
+        Type = "Ephemera"
+    },
+    ["Seonang Ephemera"] = {
+        CodexSecret = false,
+        Description = "Call on a frosty spirit to swirl around you.",
+        ExcludeFromCodex = false,
+        Image = "SeonangEphemera.png",
+        InternalName = "/Lotus/Upgrades/Skins/Effects/",
+        Link = "Seonang Ephemera",
+        Name = "Seonang Ephemera",
         Type = "Ephemera"
     },
     ["Seraphayre Ephemera"] = {

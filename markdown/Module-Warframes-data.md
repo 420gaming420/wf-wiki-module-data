@@ -1,7 +1,7 @@
 ---
 title: "Module:Warframes/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Warframes/data"
-wiki_timestamp: "2026-09-19T09:32:35Z"
+wiki_timestamp: "2026-09-24T06:58:07Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes [Warframes](/w/Warframes "Warframes"), [Necramechs](/w/Necramech "Necramech"), [Archwings](/w/Archwing "Archwing"), and [Operators](/w/Operator "Operator").
@@ -13,11 +13,12 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes
 * [3 Data Sources](#Data_Sources)
 * [4 Warframe/Avatar Data](#Warframe/Avatar_Data)
 
-:   *Last updated: Sat, 19 Sep 2026 09:32:35 +0000 (UTC) by [User:6079Smith](/w/User:6079Smith "User:6079Smith") ([change log](https://wiki.warframe.com/w/Module:Warframes/data?diff=0))*
+:   *Last updated: Thu, 24 Sep 2026 06:58:07 +0000 (UTC) by [User:~2026-UCanGreenWhale50602](/w/User:~2026-UCanGreenWhale50602?action=edit&redlink=1 "User:~2026-UCanGreenWhale50602 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Warframes/data?diff=0))*
 
 ## Warframe/Avatar Data Schema
 
-[[edit page](/w/Module:Warframes/data/doc?action=edit&section=T-1 "Edit section's source code: Warframe/Avatar Data Schema")]
+[[edit](/w/Module:Warframes/data/doc?action=edit&section=T-1 "Edit Section using Source Editor:
+Warframe/Avatar Data Schema")]
 
 ```lua
 		["Warframe Name"] = {
@@ -95,7 +96,8 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes
 
 ## For Module Use
 
-[[edit page](/w/Module:Warframes/data/doc?action=edit&section=T-2 "Edit section's source code: For Module Use")]
+[[edit](/w/Module:Warframes/data/doc?action=edit&section=T-2 "Edit Section using Source Editor:
+For Module Use")]
 
 | Key/Column Name | Data Type | Required? | Explanation/Description | Example(s) |
 | --- | --- | --- | --- | --- |
@@ -103,14 +105,16 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes
 
 ## Data Sources
 
-[[edit page](/w/Module:Warframes/data/doc?action=edit&section=T-3 "Edit section's source code: Data Sources")]
+[[edit](/w/Module:Warframes/data/doc?action=edit&section=T-3 "Edit Section using Source Editor:
+Data Sources")]
 
 * See [Public Export](/w/Public_Export "Public Export").
 * Portrait images are created by the community: [WARFRAME Wiki:Warframe Portraits](/w/WARFRAME_Wiki:Warframe_Portraits "WARFRAME Wiki:Warframe Portraits").
 
 ## Warframe/Avatar Data
 
-[[edit page](/w/Module:Warframes/data/doc?action=edit&section=T-4 "Edit section's source code: Warframe/Avatar Data")]
+[[edit](/w/Module:Warframes/data/doc?action=edit&section=T-4 "Edit Section using Source Editor:
+Warframe/Avatar Data")]
 
 ---
 
@@ -838,6 +842,38 @@ return {
 			Sprint = 1,
 			SquadPortrait = "CitrineLargePortrait.png",
 			Subsumed = "Fractured Blast",
+			Tactical = "Prismatic Gem",
+			Themes = "Crystalline, Geode, Mineral Manipulation",
+			Type = "Warframe"
+		},
+		["Citrine Prime"] = {
+			Abilities = { "Fractured Blast", "Preserving Shell", "Prismatic Gem", "Crystallize" },
+			Armor = 325,
+			AuraPolarity = "Naramon",
+			CodexSecret = false,
+			Conclave = false,
+			Description = "The crystalline citadel ascends. Citrine Prime captivates with refined radiance, her brilliant gems set within the finest gold filigree",
+			Energy = 150,
+			FullImages = { { TabName = "Full Body", Image = "CitrinePrime.png" } },
+			Health = 400,
+			Helmet = "CitrinePrimeHelmet.png",
+			Image = "CitrinePrime_Thumb.png",
+			InitialEnergy = 50,
+			InternalName = "/Lotus/Powersuits/Geode/CitrinePrime",
+			Introduced = "44.0",
+			Link = "Citrine/Prime",
+			MaxRank = 30,
+			Name = "Citrine Prime",
+			Passive = "Citrine grants nearby allies 5 health regeneration per second. Pick up a Health Orb to increase regeneration by 0.1, up to a maximum of 25.",
+			Playstyle = { "Support" },
+			Polarities = { "Vazarin", "Madurai", "Naramon" },
+			Portrait = "CitrinePrime_Thumb.png",
+			Progenitor = "Magnetic",
+			SellPrice = 25000,
+			Sex = "Female",
+			Shield = 270,
+			Sprint = 1,
+			SquadPortrait = "CitrinePrimeLargePortrait.png",
 			Tactical = "Prismatic Gem",
 			Themes = "Crystalline, Geode, Mineral Manipulation",
 			Type = "Warframe"
@@ -1805,7 +1841,7 @@ return {
 		},
 		Hydroid = {
 			Abilities = { "Tempest Barrage", "Tidal Surge", "Plunder", "Tentacle Swarm" },
-			Armor = 240,
+			Armor = 365,
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = true,
@@ -1828,7 +1864,7 @@ return {
 			Progenitor = "Magnetic",
 			SellPrice = 10000,
 			Sex = "Male",
-			Shield = 365,
+			Shield = 140,
 			Sprint = 1.05,
 			SquadPortrait = "HydroidLargePortrait.png",
 			Subsumed = "Tempest Barrage",
@@ -1838,7 +1874,7 @@ return {
 		},
 		["Hydroid Prime"] = {
 			Abilities = { "Tempest Barrage", "Tidal Surge", "Plunder", "Tentacle Swarm" },
-			Armor = 290,
+			Armor = 650,
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = true,
@@ -1862,7 +1898,7 @@ return {
 			Progenitor = "Magnetic",
 			SellPrice = 10000,
 			Sex = "Male",
-			Shield = 550,
+			Shield = 190,
 			Sprint = 1.05,
 			SquadPortrait = "HydroidPrimeLargePortrait.png",
 			Tactical = "Tempest Barrage",
@@ -2614,39 +2650,37 @@ return {
 		-- Please edit the entry below with the correct info once we know more about --
 		Narin = {
 			Abilities = { "Neote", "Naraemagi", "Hakchum", "Nurinarim" },
-			Armor = 0,
-			-- AuraPolarity = "Naramon",
+			Armor = 165,
+			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
-			Description = "Narin descritpion goes here.",
-			Energy = 0,
+			Description = "Narin descends in swirling eddies, her blade keen and deadly as an icy wind. She wields ice to defend as deftly as her swift rapier strikes.",
+			Energy = 200,
 			EnergyRank30 = 0,
-			-- ExilusPolarity = "Naramon",
 			FullImages = { { TabName = "Splash Art", Image = "NarinSplashArt.png" } },
-			Health = 0,
+			Health = 270,
 			Helmet = "NarinHelmet.png",
 			Image = "Narin_Thumb.png",
-			InitialEnergy = 0,
-			InternalName = "",
-			Introduced = "TBA",-- "44",
+			InitialEnergy = 200,
+			InternalName = "/Lotus/Powersuits/Duelist/Duelist",
+			Introduced = "44.0",
 			Link = "Narin",
 			MaxRank = 30,
 			Name = "Narin",
-			Passive = "Narin passive goes here",
-			Playstyle = { }, -- { "Damage", "Crowd Control" },
-			Polarities = { }, -- { "Vazarin", "Vazarin" },
+			Passive = "Frozen enemies drop Cold Ammo Packs when killed, bestowing Cold Damage on Primary and Secondary weapons for a short time.",
+			Playstyle = { "Damage", "Crowd Control" },
+			Polarities = { "Madurai", "Vazarin" },
 			Portrait = "Narin_Thumb.png",
-			Progenitor = "Impact",
-			SellPrice = 0,
+			Progenitor = "Freeze",
+			SellPrice = 25000,
 			Sex = "Female",
-			Shield = 0,
-			Sprint = 0,
+			Shield = 550,
+			Sprint = 1.1,
 			SquadPortrait = "NarinLargePortrait.png",
-			-- Subsumed = "Balefire",
+			Subsumed = "Neote",
 			-- Tactical = "Balefire",
 			Themes = "Blade Dancer, Red-Crowned Crane, Winter",
-			Type = "Warframe",
-			_IgnoreEntry = true 
+			Type = "Warframe"
 		},
 		Nekros = {
 			Abilities = { "Soul Punch", "Terrify", "Desecrate", "Shadows of the Dead" },
@@ -4526,7 +4560,7 @@ return {
 			Tactical = "The Lost",
 			Themes = "Broken, Void Manipulation",
 			Type = "Warframe",
-			Vaulted = false 
+			Vaulted = true 
 		},
 		Yareli = {
 			Abilities = { "Sea Snares", "Merulina", "Aquablades", "Riptide" },

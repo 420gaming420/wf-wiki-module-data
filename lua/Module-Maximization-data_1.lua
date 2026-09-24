@@ -34,7 +34,14 @@ local GenericIns = {
 	},
 };
 
+-- mapping warframe names to ability names
+local Warframe = {
+	['Ash']={'Shuriken', 'Smoke Screen', 'Teleport', 'Blade Storm'},
+	['Atlas']={'Landslide', 'Tectonics', 'Petrify', 'Rumblers'},
+};
+
 local Data = {
+	Warframe = Warframe,
 	['Shuriken']={
 		ins={
 			{name='HEAD_RATE', cont='Headshot rate:<span style="display: none" data-name="HEAD_MULT" data-expr="HEAD_RATE 3 * 100 HEAD_RATE - + as%"></span>', type='range-R'},

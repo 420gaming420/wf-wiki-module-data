@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:53:22.104Z"
+    "converted_at": "2026-09-24T07:25:39.124Z"
   },
   "_comments": "\t\t\t--IncompatibilityTags = {  },\n\t\t\t--UpgradeTypes = {  }\n\t\t\t--IncompatibilityTags = { \"OPERATOR_SUIT\" },\n\t\t\t--UpgradeTypes = { \"\" }\n\t\t\t--IncompatibilityTags = { \"\" },",
   "Arcanes": {
@@ -110,7 +110,7 @@
     },
     "Arcane Precision": {
       "Type": "Warframe",
-      "Description": "On Headshot:\r\n+300% Damage for 18s on Secondary Weapon",
+      "Description": "On Weak Point Hit:\r\n+300% Damage for 18s on Secondary Weapon",
       "Link": "Arcane Precision",
       "Rarity": "Rare",
       "UpgradeTypes": [

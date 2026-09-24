@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-15T02:15:59.070Z"
+    "converted_at": "2026-09-24T07:25:56.459Z"
   },
   "_comments": "--- Honorias data table for [[WARFRAME]] titles.\n-- @module Honorias/data\n-- \n-- Entries from the Public Export currently not implemented or not discovered yet\n-- /Lotus/Types/Items/Titles/IncarnonMasteryTitle\n-- /Lotus/Types/Items/Titles/RailjackAshTitle\n-- /Lotus/Types/Items/Titles/RailjackGarudaTitle\n-- /Lotus/Types/Items/Titles/RememberTogetherTitle",
   "Queen of Duviri": {
@@ -424,6 +424,21 @@
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleGanglion",
     "CodexSecret": true
   },
+  "Berserk Crucible": {
+    "Link": "Berserk Crucible",
+    "Price": {
+      "Entrati Lanthorn": "200"
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Berserk Crucible",
+    "Position": "Prefix",
+    "Tags": [
+      "Roathe"
+    ],
+    "Introduced": "44",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/QorvexDeluxeTitle",
+    "CodexSecret": true
+  },
   "Matriarch": {
     "Description": "",
     "Link": "Matriarch",
@@ -811,6 +826,34 @@
     "InternalName": "/Lotus/Types/Items/Titles/MR22Title",
     "CodexSecret": true
   },
+  "On Wings of Ice": {
+    "Link": "On Wings of Ice",
+    "Price": {
+      "Entropic Kuva": "500"
+    },
+    "ExcludeFromCodex": true,
+    "Name": "On Wings of Ice",
+    "Position": "Suffix",
+    "Tags": [
+      "Melica"
+    ],
+    "Introduced": "44",
+    "InternalName": "/Lotus/Types/Items/Titles/NarinTitle",
+    "CodexSecret": true
+  },
+  "The Demolitionist": {
+    "Description": "Kill 10 or more enemies with a single explosion.",
+    "Link": "The Demolitionist",
+    "ExcludeFromCodex": true,
+    "Name": "The Demolitionist",
+    "Position": "Prefix",
+    "Tags": [
+      "Miscellaneous"
+    ],
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/KaboomTitle",
+    "CodexSecret": true
+  },
   "Executive Overrider": {
     "Description": "Awarded for vanquishing a [[Sister of Parvos]].",
     "Link": "Executive Overrider",
@@ -861,6 +904,21 @@
     ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/DateAmirTitle",
+    "CodexSecret": true
+  },
+  "Clionadh": {
+    "Link": "Clionadh",
+    "Price": {
+      "Javlok Capacitor": "50"
+    },
+    "ExcludeFromCodex": true,
+    "Name": "Clionadh",
+    "Position": "Prefix",
+    "Tags": [
+      "Roathe"
+    ],
+    "Introduced": "44",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/BansheeDeluxeTitle",
     "CodexSecret": true
   },
   "Lamenting One": {
@@ -925,6 +983,19 @@
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/FrumentariusTitle",
     "CodexSecret": true
   },
+  "Tried and True": {
+    "Description": "Obtained from having completed both the [[Law of Retribution]] and [[Jordas Verdict]] Trials.",
+    "Link": "Tried and True",
+    "ExcludeFromCodex": true,
+    "Name": "Tried and True",
+    "Position": "Prefix",
+    "Tags": [
+      "Trials"
+    ],
+    "Introduced": "44",
+    "InternalName": "/Lotus/Types/Items/Titles/AllLegacyTrialsTitle",
+    "CodexSecret": true
+  },
   "Spore Bearer": {
     "Description": "",
     "Link": "Spore Bearer",
@@ -952,6 +1023,19 @@
     ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleHarrowChasisBlueprint",
+    "CodexSecret": true
+  },
+  "The Final Verdict": {
+    "Description": "Obtained from having completed the [[Jordas Verdict]] Trial.",
+    "Link": "The Final Verdict",
+    "ExcludeFromCodex": true,
+    "Name": "The Final Verdict",
+    "Position": "Prefix",
+    "Tags": [
+      "Trials"
+    ],
+    "Introduced": "44",
+    "InternalName": "/Lotus/Types/Items/Titles/GolemTrialsTitle",
     "CodexSecret": true
   },
   "Zenurik Vanguard": {
@@ -1039,6 +1123,19 @@
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleCaliban",
     "CodexSecret": true
   },
+  "Vay Hek's Nightmare": {
+    "Description": "Obtained from having completed the Nightmare [[Law of Retribution]] Trial.",
+    "Link": "Vay Hek's Nightmare",
+    "ExcludeFromCodex": true,
+    "Name": "Vay Hek's Nightmare",
+    "Position": "Suffix",
+    "Tags": [
+      "Trials"
+    ],
+    "Introduced": "44",
+    "InternalName": "/Lotus/Types/Items/Titles/GrineerNightmareTrialsTitle",
+    "CodexSecret": true
+  },
   "Madurai Vanguard": {
     "Description": "",
     "Link": "Madurai Vanguard",
@@ -1053,6 +1150,19 @@
     ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/MaduraiFocusHoarderTitle",
+    "CodexSecret": true
+  },
+  "Retributor": {
+    "Description": "Obtained from having completed the [[Law of Retribution]] Trial.",
+    "Link": "Retributor",
+    "ExcludeFromCodex": true,
+    "Name": "Retributor",
+    "Position": "Prefix",
+    "Tags": [
+      "Trials"
+    ],
+    "Introduced": "44",
+    "InternalName": "/Lotus/Types/Items/Titles/GrineerTrialsTitle",
     "CodexSecret": true
   },
   "Butterfingers": {
@@ -1373,7 +1483,7 @@
     },
     "ExcludeFromCodex": true,
     "Name": "The God Above Knowledge",
-    "Position": "Prefix",
+    "Position": "Suffix",
     "Tags": [
       "Roathe"
     ],
@@ -1737,7 +1847,7 @@
     "Link": "The Gallant Gourmand",
     "ExcludeFromCodex": true,
     "Name": "The Gallant Gourmand",
-    "Position": "Suffix",
+    "Position": "Prefix",
     "Tags": [
       "Prime"
     ],
@@ -1758,17 +1868,17 @@
     "InternalName": "/Lotus/Types/Items/Titles/UrielConfessionTitle",
     "CodexSecret": true
   },
-  "The Demolitionist": {
-    "Description": "Kill 10 or more enemies with a single explosion.",
-    "Link": "The Demolitionist",
+  "Crystal Bastion": {
+    "Description": "Acquire [[Citrine Prime]].",
+    "Link": "Crystal Bastion",
     "ExcludeFromCodex": true,
-    "Name": "The Demolitionist",
+    "Name": "Crystal Bastion",
     "Position": "Prefix",
     "Tags": [
-      "Miscellaneous"
+      "Prime"
     ],
-    "Introduced": "43.5",
-    "InternalName": "/Lotus/Types/Items/Titles/KaboomTitle",
+    "Introduced": "44",
+    "InternalName": "/Lotus/Types/Items/Titles/CitrinePrimeTitle",
     "CodexSecret": true
   },
   "Matron of Malaise": {

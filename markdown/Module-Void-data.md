@@ -1,7 +1,7 @@
 ---
 title: "Module:Void/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Void/data"
-wiki_timestamp: "2026-06-23T19:45:54Z"
+wiki_timestamp: "2026-09-23T22:33:25Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -16,7 +16,7 @@ Note that no drop chances are stored here since all relics of the same refinemen
 
 Also the place to update if a Prime part's [![](/images/thumb/OrokinDucats.png/32px-OrokinDucats.png?23930)](/w/Orokin_Ducats "Orokin Ducats") [Orokin Ducats](/w/Orokin_Ducats "Orokin Ducats") trade-in value is an anomaly for their rarity. See [#Prime Item Ducat Sell Price](#Prime_Item_Ducat_Sell_Price).
 
-:   *Last updated: Tue, 23 Jun 2026 19:45:54 +0000 (UTC) by [User:Spiderman r m](/w/User:Spiderman_r_m "User:Spiderman r m") ([change log](https://wiki.warframe.com/w/Module:Void/data?diff=0))*
+:   *Last updated: Wed, 23 Sep 2026 22:33:25 +0000 (UTC) by [User:Spiderman r m](/w/User:Spiderman_r_m "User:Spiderman r m") ([change log](https://wiki.warframe.com/w/Module:Void/data?diff=0))*
 
 ## Contents
 
@@ -36,7 +36,8 @@ Also the place to update if a Prime part's [![](/images/thumb/OrokinDucats.png/3
 
 ## Relic Entry Schema
 
-[[edit source](/w/Module:Void/data/doc?action=edit&section=T-1 "Edit section's source code: Relic Entry Schema")]
+[[edit](/w/Module:Void/data/doc?action=edit&section=T-1 "Edit Section using Source Editor:
+Relic Entry Schema")]
 
 ```lua
 	["Neo D3"] = {
@@ -67,7 +68,8 @@ Also the place to update if a Prime part's [![](/images/thumb/OrokinDucats.png/3
 
 ## Prime Item Entry Schema
 
-[[edit source](/w/Module:Void/data/doc?action=edit&section=T-2 "Edit section's source code: Prime Item Entry Schema")]
+[[edit](/w/Module:Void/data/doc?action=edit&section=T-2 "Edit Section using Source Editor:
+Prime Item Entry Schema")]
 
 Any entry added to `RelicData` will have its contents automatically inserted into in another subtable under `PrimeData` with the schema:
 
@@ -94,7 +96,8 @@ Any entry added to `RelicData` will have its contents automatically inserted int
 
 ### Viewing Contents via API Call
 
-[[edit source](/w/Module:Void/data/doc?action=edit&section=T-3 "Edit section's source code: Viewing Contents via API Call")]
+[[edit](/w/Module:Void/data/doc?action=edit&section=T-3 "Edit Section using Source Editor:
+Viewing Contents via API Call")]
 
 [![](/images/thumb/CephalonSimaris.jpg/60px-CephalonSimaris.jpg?4a8c5)](/w/Cephalon_Simaris "Cephalon Simaris")
 
@@ -138,7 +141,8 @@ fetch(url)
 
 ## Updating Notes
 
-[[edit source](/w/Module:Void/data/doc?action=edit&section=T-4 "Edit section's source code: Updating Notes")]
+[[edit](/w/Module:Void/data/doc?action=edit&section=T-4 "Edit Section using Source Editor:
+Updating Notes")]
 
 Every [Prime Access](/w/Prime_Access "Prime Access") (once every ~3 months or financial quarter), DE will release new Void Relics that will contain at least one component/blueprint of the new Primes released. In addition, the oldest available Primes' relics will be removed from the game's [Drop Tables](/w/Drop_Table "Drop Table") to make room for the new relics and to not dilute the drop tables further. In some cases, newer/recent Prime items' parts would be unavailable to farm when DE removes these old relics, so they will add additional relics (separate from the newly released Primes) to make these items farmable.
 
@@ -148,7 +152,8 @@ Updating the vaulted status of relics here will automatically tag the appropriat
 
 ### Prime Item Ducat Sell Price
 
-[[edit source](/w/Module:Void/data/doc?action=edit&section=T-5 "Edit section's source code: Prime Item Ducat Sell Price")]
+[[edit](/w/Module:Void/data/doc?action=edit&section=T-5 "Edit Section using Source Editor:
+Prime Item Ducat Sell Price")]
 
 Editors do not need to add [![](/images/thumb/OrokinDucats.png/32px-OrokinDucats.png?23930)](/w/Orokin_Ducats "Orokin Ducats") [Orokin Ducats](/w/Orokin_Ducats "Orokin Ducats") sell prices to every item manually. Prices can be determined based on drop rarity:
 
@@ -163,13 +168,15 @@ If there is item that deviates from this rule, please update the `DUCAT_EXCEPTIO
 
 ### Creating New Void Relic Pages
 
-[[edit source](/w/Module:Void/data/doc?action=edit&section=T-6 "Edit section's source code: Creating New Void Relic Pages")]
+[[edit](/w/Module:Void/data/doc?action=edit&section=T-6 "Edit Section using Source Editor:
+Creating New Void Relic Pages")]
 
 Use [Template:VoidRelicArticle](/w/Template:VoidRelicArticle "Template:VoidRelicArticle") as reference for creating new Void Relic articles. See [WARFRAME Wiki:Creating New Pages#Create New Void Relic Article](/w/WARFRAME_Wiki:Creating_New_Pages#Create_New_Void_Relic_Article "WARFRAME Wiki:Creating New Pages") for a sample text input to article wizard.
 
 ### Module:DropTables/data
 
-[[edit source](/w/Module:Void/data/doc?action=edit&section=T-7 "Edit section's source code: Module:DropTables/data")]
+[[edit](/w/Module:Void/data/doc?action=edit&section=T-7 "Edit Section using Source Editor:
+Module:DropTables/data")]
 
 A simple find & replace should be enough to keep relic drops in [Module:DropTables/data](/w/Module:DropTables/data "Module:DropTables/data") up-to-date with the latest [Prime Access](/w/Prime_Access "Prime Access")/[Prime Resurgence](/w/Prime_Resurgence "Prime Resurgence"). This is especially true if the number of relics introduced is equal to the number of relics removed from drop tables. However, there had been times where there is an unequal number of removed/added relics (mainly because some Prime weapons have varying numbers of parts associated with its crafting recipe; Prime parts are distributed across relics so that only one part from a unique weapon may be present in any given relic) which requires editors to manually go through each relevant mission drop table to audit for accuracy.
 
@@ -187,11 +194,13 @@ Notable patterns in relic drop distribution:
 
 #### Examples
 
-[[edit source](/w/Module:Void/data/doc?action=edit&section=T-8 "Edit section's source code: Examples")]
+[[edit](/w/Module:Void/data/doc?action=edit&section=T-8 "Edit Section using Source Editor:
+Examples")]
 
 ##### U31.7 - Khora Prime
 
-[[edit source](/w/Module:Void/data/doc?action=edit&section=T-9 "Edit section's source code: U31.7 - Khora Prime")]
+[[edit](/w/Module:Void/data/doc?action=edit&section=T-9 "Edit Section using Source Editor:
+U31.7 - Khora Prime")]
 
 [Update 31.7](/w/Update_31#Update_31.7 "Update 31") (2022-07-16) relic drop locations update for [![](/images/thumb/KhoraPrime_Thumb.png/32px-KhoraPrime_Thumb.png?730fb)](/w/Khora/Prime "Khora/Prime") [Khora Prime](/w/Khora/Prime "Khora/Prime")/[![](/images/thumb/HystrixPrime.png/32px-HystrixPrime.png?51199)](/w/Hystrix_Prime "Hystrix Prime") [Hystrix Prime](/w/Hystrix_Prime "Hystrix Prime")/[![](/images/thumb/DualKeresPrime.png/32px-DualKeresPrime.png?e0ad8)](/w/Dual_Keres_Prime "Dual Keres Prime") [Dual Keres Prime](/w/Dual_Keres_Prime "Dual Keres Prime") relics ([![](/images/thumb/InarosPrime_Thumb.png/32px-InarosPrime_Thumb.png?cd69a)](/w/Inaros/Prime "Inaros/Prime") [Inaros Prime](/w/Inaros/Prime "Inaros/Prime")/[![](/images/thumb/PantheraPrime.png/32px-PantheraPrime.png?a55ec)](/w/Panthera_Prime "Panthera Prime") [Panthera Prime](/w/Panthera_Prime "Panthera Prime")/[![](/images/thumb/KarystPrime.png/32px-KarystPrime.png?ba1c9)](/w/Karyst_Prime "Karyst Prime") [Karyst Prime](/w/Karyst_Prime "Karyst Prime") vaulted):
 
@@ -225,7 +234,8 @@ Notable patterns in relic drop distribution:
 
 ##### U31.3 - Garuda Prime
 
-[[edit source](/w/Module:Void/data/doc?action=edit&section=T-10 "Edit section's source code: U31.3 - Garuda Prime")]
+[[edit](/w/Module:Void/data/doc?action=edit&section=T-10 "Edit Section using Source Editor:
+U31.3 - Garuda Prime")]
 
 [Update 31.3](/w/Update_31#Update_31.3 "Update 31") (2022-03-28) relic drop locations update for [![](/images/thumb/GarudaPrime_Thumb.png/32px-GarudaPrime_Thumb.png?13f16)](/w/Garuda/Prime "Garuda/Prime") [Garuda Prime](/w/Garuda/Prime "Garuda/Prime")/[![](/images/thumb/NagantakaPrime.png/32px-NagantakaPrime.png?8eb34)](/w/Nagantaka_Prime "Nagantaka Prime") [Nagantaka Prime](/w/Nagantaka_Prime "Nagantaka Prime")/[![](/images/thumb/CorvasPrime.png/32px-CorvasPrime.png?290fd)](/w/Corvas_Prime "Corvas Prime") [Corvas Prime](/w/Corvas_Prime "Corvas Prime") relics ([![](/images/thumb/TitaniaPrime_Thumb.png/32px-TitaniaPrime_Thumb.png?a33ec)](/w/Titania/Prime "Titania/Prime") [Titania Prime](/w/Titania/Prime "Titania/Prime")/[![](/images/thumb/CorinthPrime.png/32px-CorinthPrime.png?5c1bb)](/w/Corinth_Prime "Corinth Prime") [Corinth Prime](/w/Corinth_Prime "Corinth Prime")/[![](/images/thumb/PangolinPrime.png/32px-PangolinPrime.png?51917)](/w/Pangolin_Prime "Pangolin Prime") [Pangolin Prime](/w/Pangolin_Prime "Pangolin Prime") vaulted):
 
@@ -249,7 +259,8 @@ Notable patterns in relic drop distribution:
 
 ##### U31.0 - Harrow Prime
 
-[[edit source](/w/Module:Void/data/doc?action=edit&section=T-11 "Edit section's source code: U31.0 - Harrow Prime")]
+[[edit](/w/Module:Void/data/doc?action=edit&section=T-11 "Edit Section using Source Editor:
+U31.0 - Harrow Prime")]
 
 [Update 31.0](/w/Update_31#Update_31.0 "Update 31") (2021-12-15) relic drop locations update for [![](/images/thumb/HarrowPrime_Thumb.png/32px-HarrowPrime_Thumb.png?9cd5a)](/w/Harrow/Prime "Harrow/Prime") [Harrow Prime](/w/Harrow/Prime "Harrow/Prime")/[![](/images/thumb/ScourgePrime.png/32px-ScourgePrime.png?a0ef5)](/w/Scourge_Prime "Scourge Prime") [Scourge Prime](/w/Scourge_Prime "Scourge Prime")/[![](/images/thumb/KnellPrime.png/32px-KnellPrime.png?08b42)](/w/Knell_Prime "Knell Prime") [Knell Prime](/w/Knell_Prime "Knell Prime") relics ([![](/images/thumb/IvaraPrime_Thumb.png/32px-IvaraPrime_Thumb.png?59590)](/w/Ivara/Prime "Ivara/Prime") [Ivara Prime](/w/Ivara/Prime "Ivara/Prime")/[![](/images/thumb/BazaPrime.png/32px-BazaPrime.png?c1df2)](/w/Baza_Prime "Baza Prime") [Baza Prime](/w/Baza_Prime "Baza Prime")/[![](/images/thumb/AksomatiPrime.png/32px-AksomatiPrime.png?ce035)](/w/Aksomati_Prime "Aksomati Prime") [Aksomati Prime](/w/Aksomati_Prime "Aksomati Prime") vaulted):
 
@@ -275,13 +286,15 @@ Notable patterns in relic drop distribution:
 
 ## References
 
-[[edit source](/w/Module:Void/data/doc?action=edit&section=T-12 "Edit section's source code: References")]
+[[edit](/w/Module:Void/data/doc?action=edit&section=T-12 "Edit Section using Source Editor:
+References")]
 
 1. [↑](#cite_ref-1) [DE]Momaw (2022, December 20). *[PSA: Future change in Ducat value for Baza Prime Blueprint](https://forums.warframe.com/topic/1335674-psa-future-change-in-ducat-value-for-baza-prime-blueprint/)*. Warframe Forums. Accessed 2022-12-20. [Archived](https://web.archive.org/web/20221220171327/https://forums.warframe.com/topic/1335674-psa-future-change-in-ducat-value-for-baza-prime-blueprint/) from the original on 2022-12-20.
 
 ## Void Relic Data
 
-[[edit source](/w/Module:Void/data/doc?action=edit&section=T-13 "Edit section's source code: Void Relic Data")]
+[[edit](/w/Module:Void/data/doc?action=edit&section=T-13 "Edit Section using Source Editor:
+Void Relic Data")]
 
 ---
 
@@ -1967,6 +1980,43 @@ RelicData = {
 		Name = "Axi C11",
 		Tier = "Axi",
 		Vaulted = "43.0",
+	},
+	["Axi C12"] = {
+		Drops = {
+			{
+				Item = "Alternox Prime",
+				Part = "Receiver",
+				Rarity = "Common",
+			},
+			{
+				Item = "Vadarya Prime",
+				Part = "Stock",
+				Rarity = "Common",
+			},
+			{
+				Item = "Daikyu Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Corufell Prime",
+				Part = "Handle",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Kestrel Prime",
+				Part = "Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Citrine Prime",
+				Part = "Neuroptics Blueprint",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Axi C12",
+		Tier = "Axi",
 	},
 	["Axi D1"] = {
 		Drops = {
@@ -6400,6 +6450,45 @@ RelicData = {
 		Introduced = "42.0.6",
 		Name = "Axi S20",
 		Tier = "Axi",
+		Vaulted = "44.0",
+	},
+	["Axi S21"] = {
+		Drops = {
+			{
+				Item = "Cedo Prime",
+				Part = "Stock",
+				Rarity = "Common",
+			},
+			{
+				Item = "Caliban Prime",
+				Part = "Chassis Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Dual Zoren Prime",
+				Part = "Handle",
+				Rarity = "Common",
+			},
+			{
+				Item = "Gyre Prime",
+				Part = "Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Forma",
+				ItemCount = 2,
+				Part = "Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Steflos Prime",
+				Part = "Barrel",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Axi S21",
+		Tier = "Axi",
 	},
 	["Axi T1"] = {
 		Drops = {
@@ -6898,6 +6987,7 @@ RelicData = {
 		Introduced = "41",
 		Name = "Axi T13",
 		Tier = "Axi",
+		Vaulted = "44.0",
 	},	
 	["Axi V1"] = {
 		Drops = {
@@ -8155,6 +8245,44 @@ RelicData = {
 		Introduced = "43.0",
 		Name = "Lith A12",
 		Tier = "Lith",
+		Vaulted = "44.0",
+	},
+	["Lith A13"] = {
+		Drops = {
+			{
+				Item = "Fang Prime",
+				Part = "Blade",
+				Rarity = "Common",
+			},
+			{
+				Item = "Steflos Prime",
+				Part = "Receiver",
+				Rarity = "Common",
+			},
+			{
+				Item = "Paris Prime",
+				Part = "Lower Limb",
+				Rarity = "Common",
+			},
+			{
+				Item = "Dual Zoren Prime",
+				Part = "Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Gyre Prime",
+				Part = "Chassis Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Alternox Prime",
+				Part = "Blueprint",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Lith A13",
+		Tier = "Lith",
 	},
 	["Lith B1"] = {
 		Drops = {
@@ -9106,6 +9234,44 @@ RelicData = {
 		Name = "Lith C14",
 		Tier = "Lith",
 		Vaulted = "43.0",
+	},
+	["Lith C15"] = {
+		Drops = {
+			{
+				Item = "Daikyu Prime",
+				Part = "String",
+				Rarity = "Common",
+			},
+			{
+				Item = "Corufell Prime",
+				Part = "Stock",
+				Rarity = "Common",
+			},
+			{
+				Item = "Burston Prime",
+				Part = "Receiver",
+				Rarity = "Common",
+			},
+			{
+				Item = "Forma",
+				ItemCount= 2,
+				Part = "Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Yareli Prime",
+				Part = "Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Cedo Prime",
+				Part = "Blueprint",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Lith C15",
+		Tier = "Lith",
 	},
 	["Lith D1"] = {
 		Drops = {
@@ -10978,6 +11144,7 @@ RelicData = {
 		Introduced = "39.1",
 		Name = "Lith K12",
 		Tier = "Lith",
+		Vaulted = "44.0",
 	},
 	["Lith L1"] = {
 		Drops = {
@@ -11244,6 +11411,43 @@ RelicData = {
 		Name = "Lith L7",
 		Tier = "Lith",
 		Vaulted = "42.0.6",
+	},	
+	["Lith L8"] = {
+		Drops = {
+			{
+				Item = "Orthos Prime",
+				Part = "Handle",
+				Rarity = "Common",
+			},
+			{
+				Item = "Kestrel Prime",
+				Part = "Blade",
+				Rarity = "Common",
+			},
+			{
+				Item = "Perigale Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Alternox Prime",
+				Part = "Barrel",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Akbolto Prime",
+				Part = "Link",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Lavos Prime",
+				Part = "Systems Blueprint",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Lith L8",
+		Tier = "Lith",
 	},	
 	["Lith M1"] = {
 		Drops = {
@@ -12965,6 +13169,7 @@ RelicData = {
 		Introduced = "43.0",
 		Name = "Lith Q3",
 		Tier = "Lith",
+		Vaulted = "44.0",
 	},
 	["Lith R1"] = {
 		Drops = {
@@ -13842,6 +14047,43 @@ RelicData = {
 		Name = "Lith S18",
 		Tier = "Lith",
 	},
+	["Lith S19"] = {
+		Drops = {
+			{
+				Item = "Bronco Prime",
+				Part = "Receiver",
+				Rarity = "Common",
+			},
+			{
+				Item = "Forma",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Braton Prime",
+				Part = "Barrel",
+				Rarity = "Common",
+			},
+			{
+				Item = "Citrine Prime",
+				Part = "Systems Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Orthos Prime",
+				Part = "Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Sarofang Prime",
+				Part = "Blade",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Lith S19",
+		Tier = "Lith",
+	},
 	["Lith T1"] = {
 		Drops = {
 			{
@@ -14374,6 +14616,7 @@ RelicData = {
 		Introduced = "43.0",
 		Name = "Lith T14",
 		Tier = "Lith",
+		Vaulted = "44.0",
 	},
 	["Lith V1"] = {
 		Drops = {
@@ -16397,6 +16640,44 @@ RelicData = {
 		Tier = "Meso",
 		Vaulted = "35.1.2",
 	},
+	["Meso C11"] = {
+		Drops = {
+			{
+				Item = "Kompressa Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Lavos Prime",
+				Part = "Chassis Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Paris Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Forma",
+				ItemCount = 2,
+				Part = "Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Daikyu Prime",
+				Part = "Upper Limb",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Citrine Prime",
+				Part = "Blueprint",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Meso C11",
+		Tier = "Meso",
+	},
 	["Meso D1"] = {
 		Drops = {
 			{
@@ -16699,6 +16980,43 @@ RelicData = {
 		},
 		Introduced = "42.0.6",
 		Name = "Meso D8",
+		Tier = "Meso",
+	},
+	["Meso D9"] = {
+		Drops = {
+			{
+				Item = "Paris Prime",
+				Part = "Upper Limb",
+				Rarity = "Common",
+			},
+			{
+				Item = "Afentis Prime",
+				Part = "Handle",
+				Rarity = "Common",
+			},
+			{
+				Item = "Burston Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Cedo Prime",
+				Part = "Receiver",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Steflos Prime",
+				Part = "Stock",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Dual Zoren Prime",
+				Part = "Blade",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Meso D9",
 		Tier = "Meso",
 	},
 	["Meso E1"] = {
@@ -18232,6 +18550,7 @@ RelicData = {
 		Introduced = "43.0",
 		Name = "Meso K8",
 		Tier = "Meso",
+		Vaulted = "44.0",
 	},
 	["Meso L1"] = {
 		Drops = {
@@ -18421,6 +18740,7 @@ RelicData = {
 		Introduced = "43.0",
 		Name = "Meso L5",
 		Tier = "Meso",
+		Vaulted = "44.0",
 	},
 	["Meso M1"] = {
 		Drops = {
@@ -21820,6 +22140,82 @@ RelicData = {
 		Introduced = "42.0.6",
 		Name = "Meso V15",
 		Tier = "Meso",
+		Vaulted = "44.0",
+	},
+	["Meso V16"] = {
+		Drops = {
+			{
+				Item = "Forma",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Baza Prime",
+				Part = "Receiver",
+				Rarity = "Common",
+			},
+			{
+				Item = "Burston Prime",
+				Part = "Stock",
+				Rarity = "Common",
+			},
+			{
+				Item = "Okina Prime",
+				Part = "Handle",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Ivara Prime",
+				Part = "Systems Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Velox Prime",
+				Part = "Barrel",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "29.9",
+		Name = "Meso V16",
+		Tier = "Meso",
+		Vaulted = "31.0",
+	},
+	["Meso V17"] = {
+		Drops = {
+			{
+				Item = "Forma",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Corufell Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Akbronco Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Lavos Prime",
+				Part = "Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Paris Prime",
+				Part = "Grip",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Voruna Prime",
+				Part = "Systems Blueprint",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Meso V17",
+		Tier = "Meso",
 	},
 	["Meso W1"] = {
 		Drops = {
@@ -22048,6 +22444,7 @@ RelicData = {
 		Introduced = "41",
 		Name = "Meso X1",
 		Tier = "Meso",
+		Vaulted = "44.0",
 	},
 	["Meso Y1"] = {
 		Drops = {
@@ -23606,6 +24003,7 @@ RelicData = {
 		Introduced = "43.0",
 		Name = "Neo C8",
 		Tier = "Neo",
+		Vaulted = "44.0",
 	},	
 	["Neo C9"] = {
 		Drops = {
@@ -23642,6 +24040,81 @@ RelicData = {
 		},
 		Introduced = "43.0",
 		Name = "Neo C9",
+		Tier = "Neo",
+		Vaulted = "44.0",
+	},	
+	["Neo C10"] = {
+		Drops = {
+			{
+				Item = "Braton Prime",
+				Part = "Stock",
+				Rarity = "Common",
+			},
+			{
+				Item = "Forma",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Caliban Prime",
+				Part = "Chassis Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Afentis Prime",
+				Part = "Barrel",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Styanax Prime",
+				Part = "Systems Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Corufell Prime",
+				Part = "Receiver",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Neo C10",
+		Tier = "Neo",
+	},	
+	["Neo C11"] = {
+		Drops = {
+			{
+				Item = "Daikyu Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Citrine Prime",
+				Part = "Chassis Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Lex Prime",
+				Part = "Receiver",
+				Rarity = "Common",
+			},
+			{
+				Item = "Vadarya Prime",
+				Part = "Receiver",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Cedo Prime",
+				Part = "Barrel",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Caliban Prime",
+				Part = "Systems Blueprint",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Neo C11",
 		Tier = "Neo",
 	},	
 	["Neo D1"] = {
@@ -25283,6 +25756,43 @@ RelicData = {
 		Name = "Neo K9",
 		Tier = "Neo",
 		Vaulted = "43.0",
+	},	
+	["Neo K10"] = {
+		Drops = {
+			{
+				Item = "Gyre Prime",
+				Part = "Systems Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Bronco Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Forma",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Daikyu Prime",
+				Part = "Lower Limb",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Venato Prime",
+				Part = "Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Kompressa Prime",
+				Part = "Barrel",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Neo K10",
+		Tier = "Neo",
 	},	
 	["Neo L1"] = {
 		Drops = {
@@ -28457,6 +28967,7 @@ RelicData = {
 		Introduced = "43.0",
 		Name = "Neo T11",
 		Tier = "Neo",
+		Vaulted = "44.0",
 	},	
 	["Neo V1"] = {
 		Drops = {
@@ -28915,6 +29426,45 @@ RelicData = {
 		Introduced = "43.0",
 		Name = "Neo V12",
 		Tier = "Neo",
+		Vaulted = "44.0",
+	},
+	["Neo V13"] = {
+		Drops = {
+			{
+				Item = "Styanax Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Paris Prime",
+				Part = "String",
+				Rarity = "Common",
+			},
+			{
+				Item = "Sarofang Prime",
+				Part = "Handle",
+				Rarity = "Common",
+			},
+			{
+				Item = "Forma",
+				ItemCount = 2,
+				Part = "Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Lavos Prime",
+				Part = "Neuroptics Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Vadarya Prime",
+				Part = "Blueprint",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Neo V13",
+		Tier = "Neo",
 	},
 	["Neo W1"] = {
 		Drops = {
@@ -29068,6 +29618,45 @@ RelicData = {
 		},
 		Introduced = "43.0",
 		Name = "Neo Y1",
+		Tier = "Neo",
+		Vaulted = "44.0",
+	},
+	["Neo Y2"] = {
+		Drops = {
+			{
+				Item = "Lex Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Burston Prime",
+				Part = "Stock",
+				Rarity = "Common",
+			},
+			{
+				Item = "Venato Prime",
+				Part = "Handle",
+				Rarity = "Common",
+			},
+			{
+				Item = "Forma",
+				ItemCount = 2,
+				Part = "Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Steflos Prime",
+				Part = "Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Yareli Prime",
+				Part = "Systems Blueprint",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Neo Y2",
 		Tier = "Neo",
 	},
 	["Neo Z1"] = {

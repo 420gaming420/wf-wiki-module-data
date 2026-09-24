@@ -1,7 +1,7 @@
 ---
 title: "Module:Blueprints/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Blueprints/data"
-wiki_timestamp: "2026-09-01T21:34:25Z"
+wiki_timestamp: "2026-09-24T06:13:07Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Database for blueprint recipes. Includes crafting requirements for [Railjack](/w
 
 Costs for Dojo [Decorations](/w/Decorations "Decorations") can be found in [Module:Decorations/data](/w/Module:Decorations/data "Module:Decorations/data") instead.
 
-:   *Last updated: Tue, 01 Sep 2026 21:34:25 +0000 (UTC) by [User:CephalonAtrox](/w/User:CephalonAtrox?action=edit&redlink=1 "User:CephalonAtrox (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Blueprints/data?diff=0))*
+:   *Last updated: Thu, 24 Sep 2026 06:13:07 +0000 (UTC) by [User:Roteq](/w/User:Roteq?action=edit&redlink=1 "User:Roteq (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Blueprints/data?diff=0))*
 
 ## Contents
 
@@ -28,7 +28,8 @@ Costs for Dojo [Decorations](/w/Decorations "Decorations") can be found in [Modu
 
 ## Blueprint Entry Schema
 
-[[edit source](/w/Module:Blueprints/data/doc?action=edit&section=T-1 "Edit section's source code: Blueprint Entry Schema")]
+[[edit](/w/Module:Blueprints/data/doc?action=edit&section=T-1 "Edit Section using Source Editor:
+Blueprint Entry Schema")]
 
 ```lua
 	["Item Name"] = {
@@ -65,13 +66,15 @@ Costs for Dojo [Decorations](/w/Decorations "Decorations") can be found in [Modu
 
 ## Templates
 
-[[edit source](/w/Module:Blueprints/data/doc?action=edit&section=T-2 "Edit section's source code: Templates")]
+[[edit](/w/Module:Blueprints/data/doc?action=edit&section=T-2 "Edit Section using Source Editor:
+Templates")]
 
 For copying and pasting:
 
 ### Generic Item
 
-[[edit source](/w/Module:Blueprints/data/doc?action=edit&section=T-3 "Edit section's source code: Generic Item")]
+[[edit](/w/Module:Blueprints/data/doc?action=edit&section=T-3 "Edit Section using Source Editor:
+Generic Item")]
 
 ```lua
 		["Item Name"] = {
@@ -91,7 +94,8 @@ For copying and pasting:
 
 ### New Warframe
 
-[[edit source](/w/Module:Blueprints/data/doc?action=edit&section=T-4 "Edit section's source code: New Warframe")]
+[[edit](/w/Module:Blueprints/data/doc?action=edit&section=T-4 "Edit Section using Source Editor:
+New Warframe")]
 
 ```lua
 		Warframe = {
@@ -156,7 +160,8 @@ For copying and pasting:
 
 ### New Prime Warframe
 
-[[edit source](/w/Module:Blueprints/data/doc?action=edit&section=T-5 "Edit section's source code: New Prime Warframe")]
+[[edit](/w/Module:Blueprints/data/doc?action=edit&section=T-5 "Edit Section using Source Editor:
+New Prime Warframe")]
 
 ```lua
 		["Warframe Prime"] = {
@@ -219,7 +224,8 @@ For copying and pasting:
 
 ## Collections
 
-[[edit source](/w/Module:Blueprints/data/doc?action=edit&section=T-6 "Edit section's source code: Collections")]
+[[edit](/w/Module:Blueprints/data/doc?action=edit&section=T-6 "Edit Section using Source Editor:
+Collections")]
 
 Data store has two collections:
 
@@ -228,7 +234,8 @@ Data store has two collections:
 
 ## Data
 
-[[edit source](/w/Module:Blueprints/data/doc?action=edit&section=T-7 "Edit section's source code: Data")]
+[[edit](/w/Module:Blueprints/data/doc?action=edit&section=T-7 "Edit Section using Source Editor:
+Data")]
 
 ---
 
@@ -613,6 +620,64 @@ return {
 			},
 			Result = "Aksomati Prime",
 			Rush = 50,
+			Time = 43200 
+		},
+			Aksondol = {
+			Credits = 15000,
+			MarketCost = 230,
+			Name = "Aksondol Blueprint",
+			Parts = {
+				{
+					Cost = {
+						Credits = 10000,
+						Parts = {
+							{ Count = 650, Name = "Polymer Bundle", Type = "Resource" },
+							{ Count = 1, Name = "Entrati Lanthorn", Type = "Resource" },
+							{ Count = 1200, Name = "Alloy Plate", Type = "Resource" },
+							{ Count = 100, Name = "Cryotic", Type = "Resource" } 
+						},
+						Rush = 25,
+						Time = 21600 
+					},
+					Count = 2,
+					Name = "Barrel",
+					Type = "Item" 
+				},
+				{
+					Cost = {
+						Credits = 10000,
+						Parts = {
+							{ Count = 400, Name = "Rubedo", Type = "Resource" },
+							{ Count = 40, Name = "Voidgel Orb", Type = "Resource" },
+							{ Count = 1, Name = "Neurodes", Type = "Resource" },
+							{ Count = 900, Name = "Salvage", Type = "Resource" } 
+						},
+						Rush = 25,
+						Time = 21600 
+					},
+					Count = 2,
+					Name = "Receiver",
+					Type = "Item" 
+				},
+				{
+					Cost = {
+						Credits = 10000,
+						Parts = {
+							{ Count = 50, Name = "Thrax Plasm", Type = "Resource" },
+							{ Count = 8200, Name = "Nano Spores", Type = "Resource" },
+							{ Count = 600, Name = "Circuits", Type = "Resource" },
+							{ Count = 2600, Name = "Ferrite", Type = "Resource" } 
+						},
+						Rush = 25,
+						Time = 21600 
+					},
+					Count = 1,
+					Name = "Link",
+					Type = "Item" 
+				} 
+			},
+			Result = "Aksondol",
+			Rush = 35,
 			Time = 43200 
 		},
 		Akstiletto = {
@@ -2066,6 +2131,19 @@ return {
 				{ Count = 3, Name = "Orokin Cell", Type = "Resource" } 
 			},
 			Result = "Corufell",
+			Rush = 50,
+			Time = 43200 
+		},
+		["Corufell Prime"] = {
+			Credits = 15000,
+			Name = "Corufell Prime Blueprint",
+			Parts = {
+				{ Count = 1, Name = "Barrel", Type = "PrimePart" },
+				{ Count = 1, Name = "Receiver", Type = "PrimePart" },
+				{ Count = 1, Name = "Handle", Type = "PrimePart" },
+				{ Count = 15, Name = "Orokin Cell", Type = "Resource" } 
+			},
+			Result = "Corufell Prime",
 			Rush = 50,
 			Time = 43200 
 		},
@@ -6112,6 +6190,80 @@ return {
 			Rush = 35,
 			Time = 86400 
 		},
+		Nunchasa = {
+			Credits = 20000,
+			MarketCost = 230,
+			Name = "Nunchasa Blueprint",
+			Parts = {
+				{
+					Cost = {
+						Credits = 15000,
+						Parts = {
+							{ Count = 1700, Name = "Alloy Plate", Type = "Resource" },
+							{ Count = 30, Name = "Voidgel Orb", Type = "Resource" },
+							{ Count = 2, Name = "Voidplume Pinion", Type = "Resource" },
+							{ Count = 800, Name = "Plastids", Type = "Resource" } 
+						},
+						Rush = 25,
+						Time = 43200 
+					},
+					Count = 1,
+					Name = "Upper Limb",
+					Type = "Item" 
+				},
+				{
+					Cost = {
+						Credits = 15000,
+						Parts = {
+							{ Count = 1700, Name = "Alloy Plate", Type = "Resource" },
+							{ Count = 30, Name = "Voidgel Orb", Type = "Resource" },
+							{ Count = 2, Name = "Voidplume Pinion", Type = "Resource" },
+							{ Count = 800, Name = "Plastids", Type = "Resource" }
+						},
+						Rush = 25,
+						Time = 43200
+					},
+					Count = 1,
+					Name = "Lower Limb",
+					Type = "Item"
+				},
+				{
+					Cost = {
+						Credits = 15000,
+						Parts = {
+							{ Count = 750, Name = "Polymer Bundle", Type = "Resource" },
+							{ Count = 4, Name = "Gallium", Type = "Resource" },
+							{ Count = 100, Name = "Oxium", Type = "Resource" },
+							{ Count = 2, Name = "Neurodes", Type = "Resource" } 
+						},
+						Rush = 25,
+						Time = 43200 
+					},
+					Count = 1,
+					Name = "String",
+					Type = "Item" 
+				},
+				{
+					Cost = {
+						Credits = 15000,
+						Parts = {
+							{ Count = 400, Name = "Cryotic", Type = "Resource" },
+							{ Count = 2500, Name = "Salvage", Type = "Resource" },
+							{ Count = 2, Name = "Entrati Lanthorn", Type = "Resource" },
+							{ Count = 5, Name = "Morphics", Type = "Resource" } 
+						},
+						Rush = 25,
+						Time = 43200 
+					},
+					Count = 1,
+					Name = "Grip",
+					Type = "Item" 
+				} 
+			},
+			Result = "Nunchasa",
+			Rush = 35,
+			Time = 86400 
+		},
 		Obex = {
 			BPCost = 15000,
 			Credits = 30000,
@@ -8237,6 +8389,19 @@ return {
 				{ Count = 4, Name = "Neurodes", Type = "Resource" } 
 			},
 			Result = "Steflos",
+			Rush = 50,
+			Time = 43200 
+		},
+		["Steflos Prime"] = {
+			Credits = 15000,
+			Name = "Steflos Prime Blueprint",
+			Parts = {
+				{ Count = 1, Name = "Barrel", Type = "PrimePart" },
+				{ Count = 1, Name = "Receiver", Type = "PrimePart" },
+				{ Count = 1, Name = "Stock", Type = "PrimePart" }, 
+				{ Count = 10, Name = "Orokin Cell", Type = "Resource" }
+			},
+			Result = "Steflos Prime",
 			Rush = 50,
 			Time = 43200 
 		},
@@ -11455,7 +11620,63 @@ return {
 			Result = "Caliban Prime Systems",
 			Rush = 25,
 			Time = 43200 
-		},	
+		},
+		["Citrine Prime"] = {
+			Credits = 25000,
+			Name = "Citrine Prime Blueprint",
+			Parts = {
+				{ Count = 1, Name = "Prime Neuroptics", Type = "Item" },
+				{ Count = 1, Name = "Prime Chassis", Type = "Item" },
+				{ Count = 1, Name = "Prime Systems", Type = "Item" },
+				{ Count = 5, Name = "Orokin Cell", Type = "Resource" } 
+			},
+			ProductCategory = "Suits",
+			Result = "Citrine Prime",
+			Rush = 50,
+			Time = 259200 
+		},
+		["Citrine Prime Chassis"] = {
+			Credits = 15000,
+			Name = "Citrine Prime Chassis Blueprint",
+			Parts = {
+				{ Count = 2, Name = "Nitain Extract", Type = "Resource" },
+				{ Count = 10, Name = "Control Module", Type = "Resource" },
+				{ Count = 1600, Name = "Rubedo", Type = "Resource" },
+				{ Count = 7800, Name = "Salvage", Type = "Resource" } 
+			},
+			ProductCategory = "Suits",
+			Result = "Citrine Prime Chassis",
+			Rush = 25,
+			Time = 43200 
+		},
+		["Citrine Prime Neuroptics"] = {
+			Credits = 15000,
+			Name = "Citrine Prime Neuroptics Blueprint",
+			Parts = {
+				{ Count = 4, Name = "Neurodes", Type = "Resource" },
+				{ Count = 1750, Name = "Circuits", Type = "Resource" },
+				{ Count = 450, Name = "Plastids", Type = "Resource" },
+				{ Count = 4750, Name = "Nano Spores", Type = "Resource" } 
+			},
+			ProductCategory = "Suits",
+			Result = "Citrine Prime Neuroptics",
+			Rush = 25,
+			Time = 43200 
+		},
+		["Citrine Prime Systems"] = {
+			Credits = 15000,
+			Name = "Citrine Prime Systems Blueprint",
+			Parts = {
+				{ Count = 2, Name = "Argon Crystal", Type = "Resource" },
+				{ Count = 5, Name = "Neural Sensors", Type = "Resource" },
+				{ Count = 1775, Name = "Polymer Bundle", Type = "Resource" },
+				{ Count = 4000, Name = "Ferrite", Type = "Resource" } 
+			},
+			ProductCategory = "Suits",
+			Result = "Citrine Prime Systems",
+			Rush = 25,
+			Time = 43200 
+		},
 		Chroma = {
 			Credits = 25000,
 			MarketCost = 375,
@@ -14325,7 +14546,7 @@ return {
 				{ Count = 1, Name = "Neuroptics", Type = "Item" },
 				{ Count = 1, Name = "Chassis", Type = "Item" },
 				{ Count = 1, Name = "Systems", Type = "Item" },
-				{ Count = 1, Name = "[PH]", Type = "Resource" }
+				{ Count = 1, Name = "Orokin Cell", Type = "Resource" }
 			},
 			ProductCategory = "Suits",
 			Result = "Narin",
@@ -14336,10 +14557,10 @@ return {
 			Credits = 15000,
 			Name = "Narin Chassis Blueprint",
 			Parts = {
-				{ Count = 3, Name = "[PH]", Type = "Resource" },
-				{ Count = 3250, Name = "[PH]", Type = "Resource" },
-				{ Count = 100, Name = "[PH]", Type = "Resource" },
-				{ Count = 5, Name = "[PH]", Type = "Resource" }
+				{ Count = 3300, Name = "Alloy Plate", Type = "Resource" },
+				{ Count = 1200, Name = "Polymer Bundle", Type = "Resource" },
+				{ Count = 800, Name = "Cryotic", Type = "Resource" },
+				{ Count = 10, Name = "Morphics", Type = "Resource" }
 			},
 			ProductCategory = "Suits",
 			Result = "Narin Chassis",
@@ -14350,10 +14571,10 @@ return {
 			Credits = 15000,
 			Name = "Narin Neuroptics Blueprint",
 			Parts = {
-				{ Count = 3, Name = "[PH]", Type = "Resource" },
-				{ Count = 2850, Name = "[PH]", Type = "Resource" },
-				{ Count = 50, Name = "[PH]", Type = "Resource" },
-				{ Count = 5, Name = "[PH]", Type = "Resource" }
+				{ Count = 2900, Name = "Plastids", Type = "Resource" },
+				{ Count = 4, Name = "Neural Sensors", Type = "Resource" },
+				{ Count = 6, Name = "Entrati Lanthorn", Type = "Resource" },
+				{ Count = 400, Name = "Thrax Plasm", Type = "Resource" }
 			},
 			ProductCategory = "Suits",
 			Result = "Narin Neuroptics",
@@ -14364,10 +14585,10 @@ return {
 			Credits = 15000,
 			Name = "Narin Systems Blueprint",
 			Parts = {
-				{ Count = 3, Name = "[PH]", Type = "Resource" },
-				{ Count = 2500, Name = "[PH]", Type = "Resource" },
-				{ Count = 10, Name = "[PH]", Type = "Resource" },
-				{ Count = 5, Name = "[PH]", Type = "Resource" } 
+				{ Count = 55, Name = "Voidgel Orb", Type = "Resource" },
+				{ Count = 2, Name = "Argon Crystal", Type = "Resource" },
+				{ Count = 2100, Name = "Circuits", Type = "Resource" },
+				{ Count = 10, Name = "Control Module", Type = "Resource" } 
 			},
 			ProductCategory = "Suits",
 			Result = "Narin Systems",
@@ -17568,7 +17789,7 @@ return {
 			Rush = 25,
 			Time = 43200 
 		}
-	} 
+	}
 }
 ```
 

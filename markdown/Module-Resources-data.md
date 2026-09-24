@@ -1,12 +1,12 @@
 ---
 title: "Module:Resources/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Resources/data"
-wiki_timestamp: "2026-09-10T07:27:59Z"
+wiki_timestamp: "2026-09-23T16:43:35Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME") [Resources](/w/Resources "Resources"), items, and components. For blueprints which require resources to be crafted, see [Module:Blueprints/data](/w/Module:Blueprints/data "Module:Blueprints/data").
 
-:   *Last updated: Thu, 10 Sep 2026 07:27:59 +0000 (UTC) by [User:Twilight053](/w/User:Twilight053 "User:Twilight053") ([change log](https://wiki.warframe.com/w/Module:Resources/data?diff=0))*
+:   *Last updated: Wed, 23 Sep 2026 16:43:35 +0000 (UTC) by [User:FAKIR](/w/User:FAKIR "User:FAKIR") ([change log](https://wiki.warframe.com/w/Module:Resources/data?diff=0))*
 
 ## Contents
 
@@ -17,7 +17,8 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME") [Resources](/w/Resources "Resourc
 
 ## Resource Entry Schema
 
-[[edit source](/w/Module:Resources/data/doc?action=edit&section=T-1 "Edit section's source code: Resource Entry Schema")]
+[[edit](/w/Module:Resources/data/doc?action=edit&section=T-1 "Edit Section using Source Editor:
+Resource Entry Schema")]
 
 ```lua
 	["Resource Name"] = {
@@ -63,13 +64,15 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME") [Resources](/w/Resources "Resourc
 
 ## Data Validation
 
-[[edit source](/w/Module:Resources/data/doc?action=edit&section=T-2 "Edit section's source code: Data Validation")]
+[[edit](/w/Module:Resources/data/doc?action=edit&section=T-2 "Edit Section using Source Editor:
+Data Validation")]
 
 ### Checking naming scheme of image names
 
-[[edit source](/w/Module:Resources/data/doc?action=edit&section=T-3 "Edit section's source code: Checking naming scheme of image names")]
+[[edit](/w/Module:Resources/data/doc?action=edit&section=T-3 "Edit Section using Source Editor:
+Checking naming scheme of image names")]
 
-**p.checkImageName(frame): There are a total of 150 image names that do not follow mod image naming scheme ItemName.png**
+**p.checkImageName(frame): There are a total of 151 image names that do not follow mod image naming scheme ItemName.png**
 
 1. "[/Lotus/Language/Items/Relayreconstructionitemaname](/w/Module:Resources/data/Lotus/Language/Items/Relayreconstructionitemaname?action=edit&redlink=1 "Module:Resources/data/Lotus/Language/Items/Relayreconstructionitemaname (page does not exist)")": "[LotusLanguageItemsRelayreconstructionitemaname.png](/w/File:LotusLanguageItemsRelayreconstructionitemaname.png?action=edit&redlink=1 "File:LotusLanguageItemsRelayreconstructionitemaname.png (page does not exist)")"
 2. "[/Lotus/Language/Items/Relayreconstructionitembname](/w/Module:Resources/data/Lotus/Language/Items/Relayreconstructionitembname?action=edit&redlink=1 "Module:Resources/data/Lotus/Language/Items/Relayreconstructionitembname (page does not exist)")": "[LotusLanguageItemsRelayreconstructionitembname.png](/w/File:LotusLanguageItemsRelayreconstructionitembname.png?action=edit&redlink=1 "File:LotusLanguageItemsRelayreconstructionitembname.png (page does not exist)")"
@@ -112,119 +115,121 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME") [Resources](/w/Resources "Resourc
 39. "[Elysium Blue Pigment](/w/Elysium_Blue_Pigment "Elysium Blue Pigment")": "[PigmentElysiumBlue.png](/w/File:PigmentElysiumBlue.png "File:PigmentElysiumBlue.png")"
 40. "[Ember Systems](/w/Ember_Systems?action=edit&redlink=1 "Ember Systems (page does not exist)")": "[Systems.png](/w/File:Systems.png "File:Systems.png")"
 41. "[Emissary Cred](/w/Emissary_Cred?action=edit&redlink=1 "Emissary Cred (page does not exist)")": "[EmissaryCred64.png](/w/File:EmissaryCred64.png "File:EmissaryCred64.png")"
-42. "[Equinox Day Aspect](/w/Equinox_Day_Aspect?action=edit&redlink=1 "Equinox Day Aspect (page does not exist)")": "[AnimusAspect.png](/w/File:AnimusAspect.png "File:AnimusAspect.png")"
-43. "[Equinox Night Aspect](/w/Equinox_Night_Aspect?action=edit&redlink=1 "Equinox Night Aspect (page does not exist)")": "[AnimaAspect.png](/w/File:AnimaAspect.png "File:AnimaAspect.png")"
-44. "[False Orange Pigment](/w/False_Orange_Pigment "False Orange Pigment")": "[PigmentFalseOrange.png](/w/File:PigmentFalseOrange.png "File:PigmentFalseOrange.png")"
-45. "[Focus](/w/Focus "Focus")": "[FocusLensFocus.png](/w/File:FocusLensFocus.png "File:FocusLensFocus.png")"
-46. "[Frost Systems](/w/Frost_Systems "Frost Systems")": "[Systems.png](/w/File:Systems.png "File:Systems.png")"
-47. "[Gamma Beacon](/w/Gamma_Beacon "Gamma Beacon")": "[NavCodeVayHekB.png](/w/File:NavCodeVayHekB.png "File:NavCodeVayHekB.png")"
-48. "[Garuda Systems](/w/Garuda_Systems "Garuda Systems")": "[Systems.png](/w/File:Systems.png "File:Systems.png")"
-49. "[Glacial Blue Pigment](/w/Glacial_Blue_Pigment "Glacial Blue Pigment")": "[PigmentGlacialBlue.png](/w/File:PigmentGlacialBlue.png "File:PigmentGlacialBlue.png")"
-50. "[Glyph Prism](/w/Glyph_Prism "Glyph Prism")": "[LotusSymbolGlyph.png](/w/File:LotusSymbolGlyph.png "File:LotusSymbolGlyph.png")"
-51. "[Greater Madurai Lens](/w/Greater_Madurai_Lens "Greater Madurai Lens")": "[GreaterFocusLens.png](/w/File:GreaterFocusLens.png "File:GreaterFocusLens.png")"
-52. "[Greater Naramon Lens](/w/Greater_Naramon_Lens "Greater Naramon Lens")": "[GreaterFocusLens.png](/w/File:GreaterFocusLens.png "File:GreaterFocusLens.png")"
-53. "[Greater Unairu Lens](/w/Greater_Unairu_Lens "Greater Unairu Lens")": "[GreaterFocusLens.png](/w/File:GreaterFocusLens.png "File:GreaterFocusLens.png")"
-54. "[Greater Vazarin Lens](/w/Greater_Vazarin_Lens "Greater Vazarin Lens")": "[GreaterFocusLens.png](/w/File:GreaterFocusLens.png "File:GreaterFocusLens.png")"
-55. "[Greater Zenurik Lens](/w/Greater_Zenurik_Lens "Greater Zenurik Lens")": "[GreaterFocusLens.png](/w/File:GreaterFocusLens.png "File:GreaterFocusLens.png")"
-56. "[Harmony Green Pigment](/w/Harmony_Green_Pigment "Harmony Green Pigment")": "[PigmentHarmonyGreen.png](/w/File:PigmentHarmonyGreen.png "File:PigmentHarmonyGreen.png")"
-57. "[Health Restore](/w/Health_Restore "Health Restore")": "[HealthRestore(Large).png](/w/File:HealthRestore(Large).png "File:HealthRestore(Large).png")"
-58. "[Hesperia Brown Pigment](/w/Hesperia_Brown_Pigment "Hesperia Brown Pigment")": "[PigmentHesperiaBrown.png](/w/File:PigmentHesperiaBrown.png "File:PigmentHesperiaBrown.png")"
-59. "[Höllars](/w/H%C3%B6llars "Höllars")": "[Hollars.png](/w/File:Hollars.png "File:Hollars.png")"
-60. "[Höllvanian Pitchweave Fragment](/w/H%C3%B6llvanian_Pitchweave_Fragment "Höllvanian Pitchweave Fragment")": "[HollvanianPitchweaveFragment.png](/w/File:HollvanianPitchweaveFragment.png "File:HollvanianPitchweaveFragment.png")"
-61. "[Intermission I Cred](/w/Intermission_I_Cred?action=edit&redlink=1 "Intermission I Cred (page does not exist)")": "[NoraCred64.png](/w/File:NoraCred64.png "File:NoraCred64.png")"
-62. "[Intermission II Cred](/w/Intermission_II_Cred?action=edit&redlink=1 "Intermission II Cred (page does not exist)")": "[Nora2Cred64.png](/w/File:Nora2Cred64.png "File:Nora2Cred64.png")"
-63. "[Intermission III Cred](/w/Intermission_III_Cred?action=edit&redlink=1 "Intermission III Cred (page does not exist)")": "[Nora3Cred64.png](/w/File:Nora3Cred64.png "File:Nora3Cred64.png")"
-64. "[Jackal Yellow Pigment](/w/Jackal_Yellow_Pigment "Jackal Yellow Pigment")": "[PigmentJackalYellow.png](/w/File:PigmentJackalYellow.png "File:PigmentJackalYellow.png")"
-65. "[Jordas Golem Assassinate](/w/Jordas_Golem_Assassinate "Jordas Golem Assassinate")": "[J3Golem.png](/w/File:J3Golem.png "File:J3Golem.png")"
-66. "[Kappa Beacon](/w/Kappa_Beacon "Kappa Beacon")": "[NavCodeVayHekC.png](/w/File:NavCodeVayHekC.png "File:NavCodeVayHekC.png")"
-67. "[Leaf Red Pigment](/w/Leaf_Red_Pigment "Leaf Red Pigment")": "[PigmentLeafRed.png](/w/File:PigmentLeafRed.png "File:PigmentLeafRed.png")"
-68. "[Leech Green Pigment](/w/Leech_Green_Pigment "Leech Green Pigment")": "[PigmentLeechGreen.png](/w/File:PigmentLeechGreen.png "File:PigmentLeechGreen.png")"
-69. "[Lua Madurai Lens](/w/Lua_Madurai_Lens "Lua Madurai Lens")": "[LuaLens.png](/w/File:LuaLens.png "File:LuaLens.png")"
-70. "[Lua Naramon Lens](/w/Lua_Naramon_Lens "Lua Naramon Lens")": "[LuaLens.png](/w/File:LuaLens.png "File:LuaLens.png")"
-71. "[Lua Unairu Lens](/w/Lua_Unairu_Lens "Lua Unairu Lens")": "[LuaLens.png](/w/File:LuaLens.png "File:LuaLens.png")"
-72. "[Lua Vazarin Lens](/w/Lua_Vazarin_Lens "Lua Vazarin Lens")": "[LuaLens.png](/w/File:LuaLens.png "File:LuaLens.png")"
-73. "[Lua Zenurik Lens](/w/Lua_Zenurik_Lens "Lua Zenurik Lens")": "[LuaLens.png](/w/File:LuaLens.png "File:LuaLens.png")"
-74. "[Madurai Lens](/w/Madurai_Lens "Madurai Lens")": "[FocusLens.png](/w/File:FocusLens.png "File:FocusLens.png")"
-75. "[Marks of Valiance](/w/Marks_of_Valiance "Marks of Valiance")": "[MarksOfValiance.png](/w/File:MarksOfValiance.png "File:MarksOfValiance.png")"
-76. "[Memoriam Purple Pigment](/w/Memoriam_Purple_Pigment "Memoriam Purple Pigment")": "[PigmentMemoriamPurple.png](/w/File:PigmentMemoriamPurple.png "File:PigmentMemoriamPurple.png")"
-77. "[Mergoo Pheromone Oota](/w/Mergoo_Pheromone_Oota "Mergoo Pheromone Oota")": "[KuakaPheromoneOota.png](/w/File:KuakaPheromoneOota.png "File:KuakaPheromoneOota.png")"
-78. "[Moa Green Pigment](/w/Moa_Green_Pigment "Moa Green Pigment")": "[PigmentMoaGreen.png](/w/File:PigmentMoaGreen.png "File:PigmentMoaGreen.png")"
-79. "[Morning Yellow Pigment](/w/Morning_Yellow_Pigment "Morning Yellow Pigment")": "[PigmentMorningYellow.png](/w/File:PigmentMorningYellow.png "File:PigmentMorningYellow.png")"
-80. "[Mortus Pink Pigment](/w/Mortus_Pink_Pigment "Mortus Pink Pigment")": "[PigmentMortusPink.png](/w/File:PigmentMortusPink.png "File:PigmentMortusPink.png")"
-81. "[Mutalist Alad V Assassinate](/w/Mutalist_Alad_V_Assassinate "Mutalist Alad V Assassinate")": "[PatientZero.png](/w/File:PatientZero.png "File:PatientZero.png")"
-82. "[Mutalist Red Pigment](/w/Mutalist_Red_Pigment "Mutalist Red Pigment")": "[PigmentMutalistRed.png](/w/File:PigmentMutalistRed.png "File:PigmentMutalistRed.png")"
-83. "[Nai-Zhen Kubrow Collar](/w/Nai-Zhen_Kubrow_Collar?action=edit&redlink=1 "Nai-Zhen Kubrow Collar (page does not exist)")": "[KubrowCollar.png](/w/File:KubrowCollar.png?action=edit&redlink=1 "File:KubrowCollar.png (page does not exist)")"
-84. "[Nanite Blue Pigment](/w/Nanite_Blue_Pigment "Nanite Blue Pigment")": "[PigmentNaniteBlue.png](/w/File:PigmentNaniteBlue.png "File:PigmentNaniteBlue.png")"
-85. "[Naramon Lens](/w/Naramon_Lens "Naramon Lens")": "[FocusLens.png](/w/File:FocusLens.png "File:FocusLens.png")"
-86. "[Nautilus Carapace](/w/Nautilus_Carapace?action=edit&redlink=1 "Nautilus Carapace (page does not exist)")": "[Chassis.png](/w/File:Chassis.png "File:Chassis.png")"
-87. "[Nautilus Cerebrum](/w/Nautilus_Cerebrum?action=edit&redlink=1 "Nautilus Cerebrum (page does not exist)")": "[Helmet.png](/w/File:Helmet.png "File:Helmet.png")"
-88. "[Nautilus Systems](/w/Nautilus_Systems?action=edit&redlink=1 "Nautilus Systems (page does not exist)")": "[Systems.png](/w/File:Systems.png "File:Systems.png")"
-89. "[Neo Pink Pigment](/w/Neo_Pink_Pigment "Neo Pink Pigment")": "[PigmentNeoPink.png](/w/File:PigmentNeoPink.png "File:PigmentNeoPink.png")"
-90. "[Night Blue Pigment](/w/Night_Blue_Pigment "Night Blue Pigment")": "[PigmentNightBlue.png](/w/File:PigmentNightBlue.png "File:PigmentNightBlue.png")"
-91. "[Nora's Choice Cred](/w/Nora%27s_Choice_Cred?action=edit&redlink=1 "Nora's Choice Cred (page does not exist)")": "[NoraCredOfferings.png](/w/File:NoraCredOfferings.png "File:NoraCredOfferings.png")"
-92. "[Nora's Mix Vol. 1 Cred](/w/Nora%27s_Mix_Vol._1_Cred?action=edit&redlink=1 "Nora's Mix Vol. 1 Cred (page does not exist)")": "[Nora'sMixVol1Cred.png](/w/File:Nora%27sMixVol1Cred.png "File:Nora'sMixVol1Cred.png")"
-93. "[Nora's Mix Vol. 2 Cred](/w/Nora%27s_Mix_Vol._2_Cred?action=edit&redlink=1 "Nora's Mix Vol. 2 Cred (page does not exist)")": "[Nora'sMixVol2Cred.png](/w/File:Nora%27sMixVol2Cred.png "File:Nora'sMixVol2Cred.png")"
-94. "[Nora's Mix Vol. 3 Cred](/w/Nora%27s_Mix_Vol._3_Cred?action=edit&redlink=1 "Nora's Mix Vol. 3 Cred (page does not exist)")": "[Nora'sMixVol2Cred.png](/w/File:Nora%27sMixVol2Cred.png "File:Nora'sMixVol2Cred.png")"
-95. "[Nora's Mix Vol. 4 Cred](/w/Nora%27s_Mix_Vol._4_Cred?action=edit&redlink=1 "Nora's Mix Vol. 4 Cred (page does not exist)")": "[Nora'sMixVol4Cred.png](/w/File:Nora%27sMixVol4Cred.png "File:Nora'sMixVol4Cred.png")"
-96. "[Nora's Mix Vol. 5 Cred](/w/Nora%27s_Mix_Vol._5_Cred?action=edit&redlink=1 "Nora's Mix Vol. 5 Cred (page does not exist)")": "[Nora'sMixVol5Cred.png](/w/File:Nora%27sMixVol5Cred.png "File:Nora'sMixVol5Cred.png")"
-97. "[Nora's Mix Vol. 6 Cred](/w/Nora%27s_Mix_Vol._6_Cred?action=edit&redlink=1 "Nora's Mix Vol. 6 Cred (page does not exist)")": "[Nora'sMixVol6Cred.png](/w/File:Nora%27sMixVol6Cred.png "File:Nora'sMixVol6Cred.png")"
-98. "[Nora's Mix Vol. 7 Cred](/w/Nora%27s_Mix_Vol._7_Cred?action=edit&redlink=1 "Nora's Mix Vol. 7 Cred (page does not exist)")": "[Nora'sMixVol7Cred.png](/w/File:Nora%27sMixVol7Cred.png "File:Nora'sMixVol7Cred.png")"
-99. "[Nora's Mix Vol. 8 Cred](/w/Nora%27s_Mix_Vol._8_Cred?action=edit&redlink=1 "Nora's Mix Vol. 8 Cred (page does not exist)")": "[Nora'sMixVol8Cred.png](/w/File:Nora%27sMixVol8Cred.png "File:Nora'sMixVol8Cred.png")"
-100. "[Nora's Mix Vol. 9 Cred](/w/Nora%27s_Mix_Vol._9_Cred?action=edit&redlink=1 "Nora's Mix Vol. 9 Cred (page does not exist)")": "[Nora'sMixVol9Cred.png](/w/File:Nora%27sMixVol9Cred.png "File:Nora'sMixVol9Cred.png")"
-101. "[Nora's Mix: Dreams of the Dead Cred](/w/Nora%27s_Mix:_Dreams_of_the_Dead_Cred?action=edit&redlink=1 "Nora's Mix: Dreams of the Dead Cred (page does not exist)")": "[Nora'sMixDreamsoftheDeadCred.png](/w/File:Nora%27sMixDreamsoftheDeadCred.png "File:Nora'sMixDreamsoftheDeadCred.png")"
-102. "[Nora's Mix: Time Tempests Cred](/w/Nora%27s_Mix:_Time_Tempests_Cred?action=edit&redlink=1 "Nora's Mix: Time Tempests Cred (page does not exist)")": "[Nora'sMixTimeTempestsCred.png](/w/File:Nora%27sMixTimeTempestsCred.png "File:Nora'sMixTimeTempestsCred.png")"
-103. "[Oak Brown Pigment](/w/Oak_Brown_Pigment "Oak Brown Pigment")": "[PigmentOakBrown.png](/w/File:PigmentOakBrown.png "File:PigmentOakBrown.png")"
-104. "[Oberon Systems](/w/Oberon_Systems?action=edit&redlink=1 "Oberon Systems (page does not exist)")": "[Systems.png](/w/File:Systems.png "File:Systems.png")"
-105. "[Olympus Blue Pigment](/w/Olympus_Blue_Pigment "Olympus Blue Pigment")": "[PigmentOlympusBlue.png](/w/File:PigmentOlympusBlue.png "File:PigmentOlympusBlue.png")"
-106. "[Omega Beacon](/w/Omega_Beacon "Omega Beacon")": "[NavCodeVayHekD.png](/w/File:NavCodeVayHekD.png "File:NavCodeVayHekD.png")"
-107. "[Omni Ammo Box](/w/Omni_Ammo_Box "Omni Ammo Box")": "[AmmoBox.png](/w/File:AmmoBox.png "File:AmmoBox.png")"
-108. "[Omni Forma](/w/Omni_Forma "Omni Forma")": "[AuraForma.png](/w/File:AuraForma.png "File:AuraForma.png")"
-109. "[Orokin Archive](/w/Orokin_Archive "Orokin Archive")": "[NavCoordinate.png](/w/File:NavCoordinate.png "File:NavCoordinate.png")"
-110. "[Pigment](/w/Pigment "Pigment")": "[GenericDojoColorPigment.png](/w/File:GenericDojoColorPigment.png "File:GenericDojoColorPigment.png")"
-111. "[Platinum](/w/Platinum "Platinum")": "[PlatinumLarge.png](/w/File:PlatinumLarge.png "File:PlatinumLarge.png")"
-112. "[Potent Pherliac Pods](/w/Potent_Pherliac_Pods "Potent Pherliac Pods")": "[PherliacPods.png](/w/File:PherliacPods.png "File:PherliacPods.png")"
-113. "[Proof Fragment](/w/Proof_Fragment "Proof Fragment")": "[NavCoordinate.png](/w/File:NavCoordinate.png "File:NavCoordinate.png")"
-114. "[Railgun Blue Pigment](/w/Railgun_Blue_Pigment "Railgun Blue Pigment")": "[PigmentRailgunBlue.png](/w/File:PigmentRailgunBlue.png "File:PigmentRailgunBlue.png")"
-115. "[Relay Strut Component](/w/Relay_Strut_Component "Relay Strut Component")": "[ThermicStrut.png](/w/File:ThermicStrut.png "File:ThermicStrut.png")"
-116. "[Remote Observer](/w/Remote_Observer "Remote Observer")": "[GenericComponentPlug.png](/w/File:GenericComponentPlug.png "File:GenericComponentPlug.png")"
-117. "[River Blue Pigment](/w/River_Blue_Pigment "River Blue Pigment")": "[PigmentRiverBlue.png](/w/File:PigmentRiverBlue.png "File:PigmentRiverBlue.png")"
-118. "[Sand Yellow Pigment](/w/Sand_Yellow_Pigment "Sand Yellow Pigment")": "[PigmentSandYellow.png](/w/File:PigmentSandYellow.png "File:PigmentSandYellow.png")"
-119. "[Scorched Beacon](/w/Scorched_Beacon?action=edit&redlink=1 "Scorched Beacon (page does not exist)")": "[ScorchedBeacon64.png](/w/File:ScorchedBeacon64.png "File:ScorchedBeacon64.png")"
-120. "[Shard Black Pigment](/w/Shard_Black_Pigment "Shard Black Pigment")": "[PigmentShardBlack.png](/w/File:PigmentShardBlack.png "File:PigmentShardBlack.png")"
-121. "[Sisters of Parvos Token](/w/Sisters_of_Parvos_Token?action=edit&redlink=1 "Sisters of Parvos Token (page does not exist)")": "[SistersOfParvosToken.png](/w/File:SistersOfParvosToken.png?action=edit&redlink=1 "File:SistersOfParvosToken.png (page does not exist)")"
-122. "[Squad Ammo Restore (Large)](/w/Squad_Ammo_Restore_(Large) "Squad Ammo Restore (Large)")": "[LargeTeamAmmoPack.png](/w/File:LargeTeamAmmoPack.png "File:LargeTeamAmmoPack.png")"
-123. "[Squad Ammo Restore (Medium)](/w/Squad_Ammo_Restore_(Medium) "Squad Ammo Restore (Medium)")": "[AmmoTotemMediumBundle.png](/w/File:AmmoTotemMediumBundle.png "File:AmmoTotemMediumBundle.png")"
-124. "[Squad Ammo Restore (Small)](/w/Squad_Ammo_Restore_(Small) "Squad Ammo Restore (Small)")": "[TeamAmmoRestore.png](/w/File:TeamAmmoRestore.png "File:TeamAmmoRestore.png")"
-125. "[Squad Energy Restore (Large)](/w/Squad_Energy_Restore_(Large) "Squad Energy Restore (Large)")": "[LargeTeamEnergyPack.png](/w/File:LargeTeamEnergyPack.png "File:LargeTeamEnergyPack.png")"
-126. "[Squad Energy Restore (Medium)](/w/Squad_Energy_Restore_(Medium) "Squad Energy Restore (Medium)")": "[EnergyTotemMediumBundle.png](/w/File:EnergyTotemMediumBundle.png "File:EnergyTotemMediumBundle.png")"
-127. "[Squad Energy Restore (Small)](/w/Squad_Energy_Restore_(Small) "Squad Energy Restore (Small)")": "[TeamEnergyRestore.png](/w/File:TeamEnergyRestore.png "File:TeamEnergyRestore.png")"
-128. "[Squad Health Restore (Large)](/w/Squad_Health_Restore_(Large) "Squad Health Restore (Large)")": "[LargeTeamHealPack.png](/w/File:LargeTeamHealPack.png "File:LargeTeamHealPack.png")"
-129. "[Squad Health Restore (Medium)](/w/Squad_Health_Restore_(Medium) "Squad Health Restore (Medium)")": "[HealthTotemMediumBundle.png](/w/File:HealthTotemMediumBundle.png "File:HealthTotemMediumBundle.png")"
-130. "[Squad Health Restore (Small)](/w/Squad_Health_Restore_(Small) "Squad Health Restore (Small)")": "[TeamHealRestore.png](/w/File:TeamHealRestore.png "File:TeamHealRestore.png")"
-131. "[Squad Shield Restore (Large)](/w/Squad_Shield_Restore_(Large) "Squad Shield Restore (Large)")": "[LargeTeamShieldPack.png](/w/File:LargeTeamShieldPack.png "File:LargeTeamShieldPack.png")"
-132. "[Squad Shield Restore (Medium)](/w/Squad_Shield_Restore_(Medium) "Squad Shield Restore (Medium)")": "[ShieldTotemMediumBundle.png](/w/File:ShieldTotemMediumBundle.png "File:ShieldTotemMediumBundle.png")"
-133. "[Squad Shield Restore (Small)](/w/Squad_Shield_Restore_(Small) "Squad Shield Restore (Small)")": "[TeamShieldRestore.png](/w/File:TeamShieldRestore.png "File:TeamShieldRestore.png")"
-134. "[Standing](/w/Standing "Standing")": "[ReputationLarge.png](/w/File:ReputationLarge.png "File:ReputationLarge.png")"
-135. "[Stock (Kahl)](/w/Stock_(Kahl) "Stock (Kahl)")": "[KahlStock.png](/w/File:KahlStock.png "File:KahlStock.png")"
-136. "[Syrtis Orange Pigment](/w/Syrtis_Orange_Pigment "Syrtis Orange Pigment")": "[PigmentSyrtisOrange.png](/w/File:PigmentSyrtisOrange.png "File:PigmentSyrtisOrange.png")"
-137. "[Tempest Brown Pigment](/w/Tempest_Brown_Pigment "Tempest Brown Pigment")": "[PigmentTempestBrown.png](/w/File:PigmentTempestBrown.png "File:PigmentTempestBrown.png")"
-138. "[Tharsis Brown Pigment](/w/Tharsis_Brown_Pigment "Tharsis Brown Pigment")": "[PigmentTharsisBrown.png](/w/File:PigmentTharsisBrown.png "File:PigmentTharsisBrown.png")"
-139. "[Tower White Pigment](/w/Tower_White_Pigment "Tower White Pigment")": "[PigmentTowerWhite.png](/w/File:PigmentTowerWhite.png "File:PigmentTowerWhite.png")"
-140. "[Trade](/w/Trade "Trade")": "[TradableIconxWhite.png](/w/File:TradableIconxWhite.png "File:TradableIconxWhite.png")"
-141. "[Tree Green Pigment](/w/Tree_Green_Pigment "Tree Green Pigment")": "[PigmentTreeGreen.png](/w/File:PigmentTreeGreen.png "File:PigmentTreeGreen.png")"
-142. "[Unairu Lens](/w/Unairu_Lens "Unairu Lens")": "[FocusLens.png](/w/File:FocusLens.png "File:FocusLens.png")"
-143. "[Vazarin Lens](/w/Vazarin_Lens "Vazarin Lens")": "[FocusLens.png](/w/File:FocusLens.png "File:FocusLens.png")"
-144. "[Veiled Riven Cipher](/w/Veiled_Riven_Cipher "Veiled Riven Cipher")": "[RivenCipher.png](/w/File:RivenCipher.png "File:RivenCipher.png")"
-145. "[Veldt Yellow Pigment](/w/Veldt_Yellow_Pigment "Veldt Yellow Pigment")": "[PigmentVeldtYellow.png](/w/File:PigmentVeldtYellow.png "File:PigmentVeldtYellow.png")"
-146. "[Volt Systems](/w/Volt_Systems?action=edit&redlink=1 "Volt Systems (page does not exist)")": "[Systems.png](/w/File:Systems.png "File:Systems.png")"
-147. "[Wisp Grey Pigment](/w/Wisp_Grey_Pigment "Wisp Grey Pigment")": "[PigmentWispGrey.png](/w/File:PigmentWispGrey.png "File:PigmentWispGrey.png")"
-148. "[Wolf Cred](/w/Wolf_Cred?action=edit&redlink=1 "Wolf Cred (page does not exist)")": "[WolfCred64.png](/w/File:WolfCred64.png "File:WolfCred64.png")"
-149. "[Zenurik Lens](/w/Zenurik_Lens "Zenurik Lens")": "[FocusLens.png](/w/File:FocusLens.png "File:FocusLens.png")"
-150. "[[[PH]]]": "[Panel.png](/w/File:Panel.png "File:Panel.png")"
+42. "[Entropic Kuva](/w/Entropic_Kuva "Entropic Kuva")": "[Entropic\_Kuva.png](/w/File:Entropic_Kuva.png "File:Entropic Kuva.png")"
+43. "[Equinox Day Aspect](/w/Equinox_Day_Aspect?action=edit&redlink=1 "Equinox Day Aspect (page does not exist)")": "[AnimusAspect.png](/w/File:AnimusAspect.png "File:AnimusAspect.png")"
+44. "[Equinox Night Aspect](/w/Equinox_Night_Aspect?action=edit&redlink=1 "Equinox Night Aspect (page does not exist)")": "[AnimaAspect.png](/w/File:AnimaAspect.png "File:AnimaAspect.png")"
+45. "[False Orange Pigment](/w/False_Orange_Pigment "False Orange Pigment")": "[PigmentFalseOrange.png](/w/File:PigmentFalseOrange.png "File:PigmentFalseOrange.png")"
+46. "[Focus](/w/Focus "Focus")": "[FocusLensFocus.png](/w/File:FocusLensFocus.png "File:FocusLensFocus.png")"
+47. "[Frost Systems](/w/Frost_Systems "Frost Systems")": "[Systems.png](/w/File:Systems.png "File:Systems.png")"
+48. "[Gamma Beacon](/w/Gamma_Beacon "Gamma Beacon")": "[NavCodeVayHekB.png](/w/File:NavCodeVayHekB.png "File:NavCodeVayHekB.png")"
+49. "[Garuda Systems](/w/Garuda_Systems "Garuda Systems")": "[Systems.png](/w/File:Systems.png "File:Systems.png")"
+50. "[Glacial Blue Pigment](/w/Glacial_Blue_Pigment "Glacial Blue Pigment")": "[PigmentGlacialBlue.png](/w/File:PigmentGlacialBlue.png "File:PigmentGlacialBlue.png")"
+51. "[Glyph Prism](/w/Glyph_Prism "Glyph Prism")": "[LotusSymbolGlyph.png](/w/File:LotusSymbolGlyph.png "File:LotusSymbolGlyph.png")"
+52. "[Greater Madurai Lens](/w/Greater_Madurai_Lens "Greater Madurai Lens")": "[GreaterFocusLens.png](/w/File:GreaterFocusLens.png "File:GreaterFocusLens.png")"
+53. "[Greater Naramon Lens](/w/Greater_Naramon_Lens "Greater Naramon Lens")": "[GreaterFocusLens.png](/w/File:GreaterFocusLens.png "File:GreaterFocusLens.png")"
+54. "[Greater Unairu Lens](/w/Greater_Unairu_Lens "Greater Unairu Lens")": "[GreaterFocusLens.png](/w/File:GreaterFocusLens.png "File:GreaterFocusLens.png")"
+55. "[Greater Vazarin Lens](/w/Greater_Vazarin_Lens "Greater Vazarin Lens")": "[GreaterFocusLens.png](/w/File:GreaterFocusLens.png "File:GreaterFocusLens.png")"
+56. "[Greater Zenurik Lens](/w/Greater_Zenurik_Lens "Greater Zenurik Lens")": "[GreaterFocusLens.png](/w/File:GreaterFocusLens.png "File:GreaterFocusLens.png")"
+57. "[Harmony Green Pigment](/w/Harmony_Green_Pigment "Harmony Green Pigment")": "[PigmentHarmonyGreen.png](/w/File:PigmentHarmonyGreen.png "File:PigmentHarmonyGreen.png")"
+58. "[Health Restore](/w/Health_Restore "Health Restore")": "[HealthRestore(Large).png](/w/File:HealthRestore(Large).png "File:HealthRestore(Large).png")"
+59. "[Hesperia Brown Pigment](/w/Hesperia_Brown_Pigment "Hesperia Brown Pigment")": "[PigmentHesperiaBrown.png](/w/File:PigmentHesperiaBrown.png "File:PigmentHesperiaBrown.png")"
+60. "[Höllars](/w/H%C3%B6llars "Höllars")": "[Hollars.png](/w/File:Hollars.png "File:Hollars.png")"
+61. "[Höllvanian Pitchweave Fragment](/w/H%C3%B6llvanian_Pitchweave_Fragment "Höllvanian Pitchweave Fragment")": "[HollvanianPitchweaveFragment.png](/w/File:HollvanianPitchweaveFragment.png "File:HollvanianPitchweaveFragment.png")"
+62. "[Intermission I Cred](/w/Intermission_I_Cred?action=edit&redlink=1 "Intermission I Cred (page does not exist)")": "[NoraCred64.png](/w/File:NoraCred64.png "File:NoraCred64.png")"
+63. "[Intermission II Cred](/w/Intermission_II_Cred?action=edit&redlink=1 "Intermission II Cred (page does not exist)")": "[Nora2Cred64.png](/w/File:Nora2Cred64.png "File:Nora2Cred64.png")"
+64. "[Intermission III Cred](/w/Intermission_III_Cred?action=edit&redlink=1 "Intermission III Cred (page does not exist)")": "[Nora3Cred64.png](/w/File:Nora3Cred64.png "File:Nora3Cred64.png")"
+65. "[Jackal Yellow Pigment](/w/Jackal_Yellow_Pigment "Jackal Yellow Pigment")": "[PigmentJackalYellow.png](/w/File:PigmentJackalYellow.png "File:PigmentJackalYellow.png")"
+66. "[Jordas Golem Assassinate](/w/Jordas_Golem_Assassinate "Jordas Golem Assassinate")": "[J3Golem.png](/w/File:J3Golem.png "File:J3Golem.png")"
+67. "[Kappa Beacon](/w/Kappa_Beacon "Kappa Beacon")": "[NavCodeVayHekC.png](/w/File:NavCodeVayHekC.png "File:NavCodeVayHekC.png")"
+68. "[Leaf Red Pigment](/w/Leaf_Red_Pigment "Leaf Red Pigment")": "[PigmentLeafRed.png](/w/File:PigmentLeafRed.png "File:PigmentLeafRed.png")"
+69. "[Leech Green Pigment](/w/Leech_Green_Pigment "Leech Green Pigment")": "[PigmentLeechGreen.png](/w/File:PigmentLeechGreen.png "File:PigmentLeechGreen.png")"
+70. "[Lua Madurai Lens](/w/Lua_Madurai_Lens "Lua Madurai Lens")": "[LuaLens.png](/w/File:LuaLens.png "File:LuaLens.png")"
+71. "[Lua Naramon Lens](/w/Lua_Naramon_Lens "Lua Naramon Lens")": "[LuaLens.png](/w/File:LuaLens.png "File:LuaLens.png")"
+72. "[Lua Unairu Lens](/w/Lua_Unairu_Lens "Lua Unairu Lens")": "[LuaLens.png](/w/File:LuaLens.png "File:LuaLens.png")"
+73. "[Lua Vazarin Lens](/w/Lua_Vazarin_Lens "Lua Vazarin Lens")": "[LuaLens.png](/w/File:LuaLens.png "File:LuaLens.png")"
+74. "[Lua Zenurik Lens](/w/Lua_Zenurik_Lens "Lua Zenurik Lens")": "[LuaLens.png](/w/File:LuaLens.png "File:LuaLens.png")"
+75. "[Madurai Lens](/w/Madurai_Lens "Madurai Lens")": "[FocusLens.png](/w/File:FocusLens.png "File:FocusLens.png")"
+76. "[Marks of Valiance](/w/Marks_of_Valiance "Marks of Valiance")": "[MarksOfValiance.png](/w/File:MarksOfValiance.png "File:MarksOfValiance.png")"
+77. "[Memoriam Purple Pigment](/w/Memoriam_Purple_Pigment "Memoriam Purple Pigment")": "[PigmentMemoriamPurple.png](/w/File:PigmentMemoriamPurple.png "File:PigmentMemoriamPurple.png")"
+78. "[Mergoo Pheromone Oota](/w/Mergoo_Pheromone_Oota "Mergoo Pheromone Oota")": "[KuakaPheromoneOota.png](/w/File:KuakaPheromoneOota.png "File:KuakaPheromoneOota.png")"
+79. "[Moa Green Pigment](/w/Moa_Green_Pigment "Moa Green Pigment")": "[PigmentMoaGreen.png](/w/File:PigmentMoaGreen.png "File:PigmentMoaGreen.png")"
+80. "[Morning Yellow Pigment](/w/Morning_Yellow_Pigment "Morning Yellow Pigment")": "[PigmentMorningYellow.png](/w/File:PigmentMorningYellow.png "File:PigmentMorningYellow.png")"
+81. "[Mortus Pink Pigment](/w/Mortus_Pink_Pigment "Mortus Pink Pigment")": "[PigmentMortusPink.png](/w/File:PigmentMortusPink.png "File:PigmentMortusPink.png")"
+82. "[Mutalist Alad V Assassinate](/w/Mutalist_Alad_V_Assassinate "Mutalist Alad V Assassinate")": "[PatientZero.png](/w/File:PatientZero.png "File:PatientZero.png")"
+83. "[Mutalist Red Pigment](/w/Mutalist_Red_Pigment "Mutalist Red Pigment")": "[PigmentMutalistRed.png](/w/File:PigmentMutalistRed.png "File:PigmentMutalistRed.png")"
+84. "[Nai-Zhen Kubrow Collar](/w/Nai-Zhen_Kubrow_Collar?action=edit&redlink=1 "Nai-Zhen Kubrow Collar (page does not exist)")": "[KubrowCollar.png](/w/File:KubrowCollar.png?action=edit&redlink=1 "File:KubrowCollar.png (page does not exist)")"
+85. "[Nanite Blue Pigment](/w/Nanite_Blue_Pigment "Nanite Blue Pigment")": "[PigmentNaniteBlue.png](/w/File:PigmentNaniteBlue.png "File:PigmentNaniteBlue.png")"
+86. "[Naramon Lens](/w/Naramon_Lens "Naramon Lens")": "[FocusLens.png](/w/File:FocusLens.png "File:FocusLens.png")"
+87. "[Nautilus Carapace](/w/Nautilus_Carapace?action=edit&redlink=1 "Nautilus Carapace (page does not exist)")": "[Chassis.png](/w/File:Chassis.png "File:Chassis.png")"
+88. "[Nautilus Cerebrum](/w/Nautilus_Cerebrum?action=edit&redlink=1 "Nautilus Cerebrum (page does not exist)")": "[Helmet.png](/w/File:Helmet.png "File:Helmet.png")"
+89. "[Nautilus Systems](/w/Nautilus_Systems?action=edit&redlink=1 "Nautilus Systems (page does not exist)")": "[Systems.png](/w/File:Systems.png "File:Systems.png")"
+90. "[Neo Pink Pigment](/w/Neo_Pink_Pigment "Neo Pink Pigment")": "[PigmentNeoPink.png](/w/File:PigmentNeoPink.png "File:PigmentNeoPink.png")"
+91. "[Night Blue Pigment](/w/Night_Blue_Pigment "Night Blue Pigment")": "[PigmentNightBlue.png](/w/File:PigmentNightBlue.png "File:PigmentNightBlue.png")"
+92. "[Nora's Choice Cred](/w/Nora%27s_Choice_Cred?action=edit&redlink=1 "Nora's Choice Cred (page does not exist)")": "[NoraCredOfferings.png](/w/File:NoraCredOfferings.png "File:NoraCredOfferings.png")"
+93. "[Nora's Mix Vol. 1 Cred](/w/Nora%27s_Mix_Vol._1_Cred?action=edit&redlink=1 "Nora's Mix Vol. 1 Cred (page does not exist)")": "[Nora'sMixVol1Cred.png](/w/File:Nora%27sMixVol1Cred.png "File:Nora'sMixVol1Cred.png")"
+94. "[Nora's Mix Vol. 2 Cred](/w/Nora%27s_Mix_Vol._2_Cred?action=edit&redlink=1 "Nora's Mix Vol. 2 Cred (page does not exist)")": "[Nora'sMixVol2Cred.png](/w/File:Nora%27sMixVol2Cred.png "File:Nora'sMixVol2Cred.png")"
+95. "[Nora's Mix Vol. 3 Cred](/w/Nora%27s_Mix_Vol._3_Cred?action=edit&redlink=1 "Nora's Mix Vol. 3 Cred (page does not exist)")": "[Nora'sMixVol2Cred.png](/w/File:Nora%27sMixVol2Cred.png "File:Nora'sMixVol2Cred.png")"
+96. "[Nora's Mix Vol. 4 Cred](/w/Nora%27s_Mix_Vol._4_Cred?action=edit&redlink=1 "Nora's Mix Vol. 4 Cred (page does not exist)")": "[Nora'sMixVol4Cred.png](/w/File:Nora%27sMixVol4Cred.png "File:Nora'sMixVol4Cred.png")"
+97. "[Nora's Mix Vol. 5 Cred](/w/Nora%27s_Mix_Vol._5_Cred?action=edit&redlink=1 "Nora's Mix Vol. 5 Cred (page does not exist)")": "[Nora'sMixVol5Cred.png](/w/File:Nora%27sMixVol5Cred.png "File:Nora'sMixVol5Cred.png")"
+98. "[Nora's Mix Vol. 6 Cred](/w/Nora%27s_Mix_Vol._6_Cred?action=edit&redlink=1 "Nora's Mix Vol. 6 Cred (page does not exist)")": "[Nora'sMixVol6Cred.png](/w/File:Nora%27sMixVol6Cred.png "File:Nora'sMixVol6Cred.png")"
+99. "[Nora's Mix Vol. 7 Cred](/w/Nora%27s_Mix_Vol._7_Cred?action=edit&redlink=1 "Nora's Mix Vol. 7 Cred (page does not exist)")": "[Nora'sMixVol7Cred.png](/w/File:Nora%27sMixVol7Cred.png "File:Nora'sMixVol7Cred.png")"
+100. "[Nora's Mix Vol. 8 Cred](/w/Nora%27s_Mix_Vol._8_Cred?action=edit&redlink=1 "Nora's Mix Vol. 8 Cred (page does not exist)")": "[Nora'sMixVol8Cred.png](/w/File:Nora%27sMixVol8Cred.png "File:Nora'sMixVol8Cred.png")"
+101. "[Nora's Mix Vol. 9 Cred](/w/Nora%27s_Mix_Vol._9_Cred?action=edit&redlink=1 "Nora's Mix Vol. 9 Cred (page does not exist)")": "[Nora'sMixVol9Cred.png](/w/File:Nora%27sMixVol9Cred.png "File:Nora'sMixVol9Cred.png")"
+102. "[Nora's Mix: Dreams of the Dead Cred](/w/Nora%27s_Mix:_Dreams_of_the_Dead_Cred?action=edit&redlink=1 "Nora's Mix: Dreams of the Dead Cred (page does not exist)")": "[Nora'sMixDreamsoftheDeadCred.png](/w/File:Nora%27sMixDreamsoftheDeadCred.png "File:Nora'sMixDreamsoftheDeadCred.png")"
+103. "[Nora's Mix: Time Tempests Cred](/w/Nora%27s_Mix:_Time_Tempests_Cred?action=edit&redlink=1 "Nora's Mix: Time Tempests Cred (page does not exist)")": "[Nora'sMixTimeTempestsCred.png](/w/File:Nora%27sMixTimeTempestsCred.png "File:Nora'sMixTimeTempestsCred.png")"
+104. "[Oak Brown Pigment](/w/Oak_Brown_Pigment "Oak Brown Pigment")": "[PigmentOakBrown.png](/w/File:PigmentOakBrown.png "File:PigmentOakBrown.png")"
+105. "[Oberon Systems](/w/Oberon_Systems?action=edit&redlink=1 "Oberon Systems (page does not exist)")": "[Systems.png](/w/File:Systems.png "File:Systems.png")"
+106. "[Olympus Blue Pigment](/w/Olympus_Blue_Pigment "Olympus Blue Pigment")": "[PigmentOlympusBlue.png](/w/File:PigmentOlympusBlue.png "File:PigmentOlympusBlue.png")"
+107. "[Omega Beacon](/w/Omega_Beacon "Omega Beacon")": "[NavCodeVayHekD.png](/w/File:NavCodeVayHekD.png "File:NavCodeVayHekD.png")"
+108. "[Omni Ammo Box](/w/Omni_Ammo_Box "Omni Ammo Box")": "[AmmoBox.png](/w/File:AmmoBox.png "File:AmmoBox.png")"
+109. "[Omni Forma](/w/Omni_Forma "Omni Forma")": "[AuraForma.png](/w/File:AuraForma.png "File:AuraForma.png")"
+110. "[Orokin Archive](/w/Orokin_Archive "Orokin Archive")": "[NavCoordinate.png](/w/File:NavCoordinate.png "File:NavCoordinate.png")"
+111. "[Pigment](/w/Pigment "Pigment")": "[GenericDojoColorPigment.png](/w/File:GenericDojoColorPigment.png "File:GenericDojoColorPigment.png")"
+112. "[Platinum](/w/Platinum "Platinum")": "[PlatinumLarge.png](/w/File:PlatinumLarge.png "File:PlatinumLarge.png")"
+113. "[Potent Pherliac Pods](/w/Potent_Pherliac_Pods "Potent Pherliac Pods")": "[PherliacPods.png](/w/File:PherliacPods.png "File:PherliacPods.png")"
+114. "[Proof Fragment](/w/Proof_Fragment "Proof Fragment")": "[NavCoordinate.png](/w/File:NavCoordinate.png "File:NavCoordinate.png")"
+115. "[Railgun Blue Pigment](/w/Railgun_Blue_Pigment "Railgun Blue Pigment")": "[PigmentRailgunBlue.png](/w/File:PigmentRailgunBlue.png "File:PigmentRailgunBlue.png")"
+116. "[Relay Strut Component](/w/Relay_Strut_Component "Relay Strut Component")": "[ThermicStrut.png](/w/File:ThermicStrut.png "File:ThermicStrut.png")"
+117. "[Remote Observer](/w/Remote_Observer "Remote Observer")": "[GenericComponentPlug.png](/w/File:GenericComponentPlug.png "File:GenericComponentPlug.png")"
+118. "[River Blue Pigment](/w/River_Blue_Pigment "River Blue Pigment")": "[PigmentRiverBlue.png](/w/File:PigmentRiverBlue.png "File:PigmentRiverBlue.png")"
+119. "[Sand Yellow Pigment](/w/Sand_Yellow_Pigment "Sand Yellow Pigment")": "[PigmentSandYellow.png](/w/File:PigmentSandYellow.png "File:PigmentSandYellow.png")"
+120. "[Scorched Beacon](/w/Scorched_Beacon?action=edit&redlink=1 "Scorched Beacon (page does not exist)")": "[ScorchedBeacon64.png](/w/File:ScorchedBeacon64.png "File:ScorchedBeacon64.png")"
+121. "[Shard Black Pigment](/w/Shard_Black_Pigment "Shard Black Pigment")": "[PigmentShardBlack.png](/w/File:PigmentShardBlack.png "File:PigmentShardBlack.png")"
+122. "[Sisters of Parvos Token](/w/Sisters_of_Parvos_Token?action=edit&redlink=1 "Sisters of Parvos Token (page does not exist)")": "[SistersOfParvosToken.png](/w/File:SistersOfParvosToken.png?action=edit&redlink=1 "File:SistersOfParvosToken.png (page does not exist)")"
+123. "[Squad Ammo Restore (Large)](/w/Squad_Ammo_Restore_(Large) "Squad Ammo Restore (Large)")": "[LargeTeamAmmoPack.png](/w/File:LargeTeamAmmoPack.png "File:LargeTeamAmmoPack.png")"
+124. "[Squad Ammo Restore (Medium)](/w/Squad_Ammo_Restore_(Medium) "Squad Ammo Restore (Medium)")": "[AmmoTotemMediumBundle.png](/w/File:AmmoTotemMediumBundle.png "File:AmmoTotemMediumBundle.png")"
+125. "[Squad Ammo Restore (Small)](/w/Squad_Ammo_Restore_(Small) "Squad Ammo Restore (Small)")": "[TeamAmmoRestore.png](/w/File:TeamAmmoRestore.png "File:TeamAmmoRestore.png")"
+126. "[Squad Energy Restore (Large)](/w/Squad_Energy_Restore_(Large) "Squad Energy Restore (Large)")": "[LargeTeamEnergyPack.png](/w/File:LargeTeamEnergyPack.png "File:LargeTeamEnergyPack.png")"
+127. "[Squad Energy Restore (Medium)](/w/Squad_Energy_Restore_(Medium) "Squad Energy Restore (Medium)")": "[EnergyTotemMediumBundle.png](/w/File:EnergyTotemMediumBundle.png "File:EnergyTotemMediumBundle.png")"
+128. "[Squad Energy Restore (Small)](/w/Squad_Energy_Restore_(Small) "Squad Energy Restore (Small)")": "[TeamEnergyRestore.png](/w/File:TeamEnergyRestore.png "File:TeamEnergyRestore.png")"
+129. "[Squad Health Restore (Large)](/w/Squad_Health_Restore_(Large) "Squad Health Restore (Large)")": "[LargeTeamHealPack.png](/w/File:LargeTeamHealPack.png "File:LargeTeamHealPack.png")"
+130. "[Squad Health Restore (Medium)](/w/Squad_Health_Restore_(Medium) "Squad Health Restore (Medium)")": "[HealthTotemMediumBundle.png](/w/File:HealthTotemMediumBundle.png "File:HealthTotemMediumBundle.png")"
+131. "[Squad Health Restore (Small)](/w/Squad_Health_Restore_(Small) "Squad Health Restore (Small)")": "[TeamHealRestore.png](/w/File:TeamHealRestore.png "File:TeamHealRestore.png")"
+132. "[Squad Shield Restore (Large)](/w/Squad_Shield_Restore_(Large) "Squad Shield Restore (Large)")": "[LargeTeamShieldPack.png](/w/File:LargeTeamShieldPack.png "File:LargeTeamShieldPack.png")"
+133. "[Squad Shield Restore (Medium)](/w/Squad_Shield_Restore_(Medium) "Squad Shield Restore (Medium)")": "[ShieldTotemMediumBundle.png](/w/File:ShieldTotemMediumBundle.png "File:ShieldTotemMediumBundle.png")"
+134. "[Squad Shield Restore (Small)](/w/Squad_Shield_Restore_(Small) "Squad Shield Restore (Small)")": "[TeamShieldRestore.png](/w/File:TeamShieldRestore.png "File:TeamShieldRestore.png")"
+135. "[Standing](/w/Standing "Standing")": "[ReputationLarge.png](/w/File:ReputationLarge.png "File:ReputationLarge.png")"
+136. "[Stock (Kahl)](/w/Stock_(Kahl) "Stock (Kahl)")": "[KahlStock.png](/w/File:KahlStock.png "File:KahlStock.png")"
+137. "[Syrtis Orange Pigment](/w/Syrtis_Orange_Pigment "Syrtis Orange Pigment")": "[PigmentSyrtisOrange.png](/w/File:PigmentSyrtisOrange.png "File:PigmentSyrtisOrange.png")"
+138. "[Tempest Brown Pigment](/w/Tempest_Brown_Pigment "Tempest Brown Pigment")": "[PigmentTempestBrown.png](/w/File:PigmentTempestBrown.png "File:PigmentTempestBrown.png")"
+139. "[Tharsis Brown Pigment](/w/Tharsis_Brown_Pigment "Tharsis Brown Pigment")": "[PigmentTharsisBrown.png](/w/File:PigmentTharsisBrown.png "File:PigmentTharsisBrown.png")"
+140. "[Tower White Pigment](/w/Tower_White_Pigment "Tower White Pigment")": "[PigmentTowerWhite.png](/w/File:PigmentTowerWhite.png "File:PigmentTowerWhite.png")"
+141. "[Trade](/w/Trade "Trade")": "[TradableIconxWhite.png](/w/File:TradableIconxWhite.png "File:TradableIconxWhite.png")"
+142. "[Tree Green Pigment](/w/Tree_Green_Pigment "Tree Green Pigment")": "[PigmentTreeGreen.png](/w/File:PigmentTreeGreen.png "File:PigmentTreeGreen.png")"
+143. "[Unairu Lens](/w/Unairu_Lens "Unairu Lens")": "[FocusLens.png](/w/File:FocusLens.png "File:FocusLens.png")"
+144. "[Vazarin Lens](/w/Vazarin_Lens "Vazarin Lens")": "[FocusLens.png](/w/File:FocusLens.png "File:FocusLens.png")"
+145. "[Veiled Riven Cipher](/w/Veiled_Riven_Cipher "Veiled Riven Cipher")": "[RivenCipher.png](/w/File:RivenCipher.png "File:RivenCipher.png")"
+146. "[Veldt Yellow Pigment](/w/Veldt_Yellow_Pigment "Veldt Yellow Pigment")": "[PigmentVeldtYellow.png](/w/File:PigmentVeldtYellow.png "File:PigmentVeldtYellow.png")"
+147. "[Volt Systems](/w/Volt_Systems?action=edit&redlink=1 "Volt Systems (page does not exist)")": "[Systems.png](/w/File:Systems.png "File:Systems.png")"
+148. "[Wisp Grey Pigment](/w/Wisp_Grey_Pigment "Wisp Grey Pigment")": "[PigmentWispGrey.png](/w/File:PigmentWispGrey.png "File:PigmentWispGrey.png")"
+149. "[Wolf Cred](/w/Wolf_Cred?action=edit&redlink=1 "Wolf Cred (page does not exist)")": "[WolfCred64.png](/w/File:WolfCred64.png "File:WolfCred64.png")"
+150. "[Zenurik Lens](/w/Zenurik_Lens "Zenurik Lens")": "[FocusLens.png](/w/File:FocusLens.png "File:FocusLens.png")"
+151. "[[[PH]]]": "[Panel.png](/w/File:Panel.png "File:Panel.png")"
 
 ## Resource Data
 
-[[edit source](/w/Module:Resources/data/doc?action=edit&section=T-4 "Edit section's source code: Resource Data")]
+[[edit](/w/Module:Resources/data/doc?action=edit&section=T-4 "Edit Section using Source Editor:
+Resource Data")]
 
 ---
 
@@ -8405,6 +8410,18 @@ local ResourceData = {
 		Name = "Kuva",
 		Type = "Resource",
 		ResourceBoostAble = false,
+		ResourceDropChanceBoostAble = false,
+		RetrieverModAble = false,
+	},
+	["Entropic Kuva"] = {
+		Description = "A dangerous and erratic type of Kuva.\r\n\r\nObtained from Zariman missions.",
+		Image = "Entropic_Kuva.png",
+		InternalName = "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem",
+		Introduced = "44",
+		Link = "Entropic Kuva (Resource)",
+		Name = "Entropic Kuva",
+		Type = "Resource",
+		ResourceBoostAble = false,--unsure please correct it--
 		ResourceDropChanceBoostAble = false,
 		RetrieverModAble = false,
 	},

@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-03T02:18:20.359Z"
+    "converted_at": "2026-09-24T07:26:15.733Z"
   },
   "_comments": "",
   "Dakra Prime": {
@@ -1395,7 +1395,7 @@
     "Image": "Wrath.png",
     "Family": "Wrath",
     "FollowThrough": 0.4,
-    "Disposition": 0.5,
+    "Disposition": 0.7,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnOrionInnateBuff"
     ]
@@ -2158,7 +2158,7 @@
     "Image": "WarPrime.png",
     "Family": "War",
     "FollowThrough": 0.6,
-    "Disposition": 0.5,
+    "Disposition": 0.65,
     "CodexSecret": true
   },
   "War": {
@@ -6032,7 +6032,7 @@
     "Image": "Tonkkatt.png",
     "Family": "Tonkkatt",
     "FollowThrough": 0.6,
-    "Disposition": 0.85,
+    "Disposition": 0.95,
     "CodexSecret": true
   },
   "Valkyr Prime Talons": {
@@ -6701,7 +6701,7 @@
     "Mastery": 11,
     "Family": "Kestrel",
     "Image": "KestrelPrime.png",
-    "Disposition": 0.75,
+    "Disposition": 0.85,
     "FollowThrough": 0.7
   },
   "Coda Caustacyst": {
@@ -8596,7 +8596,7 @@
     "Mastery": 13,
     "Family": "Dual Zoren",
     "Image": "DualZorenPrime.png",
-    "Disposition": 0.9,
+    "Disposition": 0.95,
     "FollowThrough": 0.5
   },
   "Sarofang Prime": {
@@ -8692,7 +8692,7 @@
     "Mastery": 16,
     "Family": "Sarofang",
     "Image": "SarofangPrime.png",
-    "Disposition": 0.65,
+    "Disposition": 0.75,
     "FollowThrough": 0.6
   },
   "Dual Kamas Prime": {
@@ -10461,7 +10461,7 @@
     "Image": "Tak&Lug.png",
     "Family": "Tak & Lug",
     "FollowThrough": 0.6,
-    "Disposition": 0.95,
+    "Disposition": 1.05,
     "CodexSecret": true
   },
   "Synoid Heliocor": {
@@ -10972,7 +10972,7 @@
     "Mastery": 12,
     "Family": "Spinnerex",
     "Image": "Spinnerex.png",
-    "Disposition": 0.75,
+    "Disposition": 0.85,
     "FollowThrough": 0.5
   },
   "Broken Scepter": {
@@ -12935,7 +12935,7 @@
     "Image": "Thalys.png",
     "Family": "Thalys",
     "FollowThrough": 0.4,
-    "Disposition": 0.6,
+    "Disposition": 0.65,
     "DefaultUpgrades": {}
   },
   "Krohkur": {
@@ -17710,7 +17710,7 @@
     "Image": "Pride.png",
     "Family": "Pride",
     "FollowThrough": 0.4,
-    "Disposition": 0.5,
+    "Disposition": 0.7,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Melee/HeavyScythe/TnOrionSiriusScythe/TnSiriusInnateBuff"
     ]
@@ -22439,7 +22439,7 @@
     "Mastery": 14,
     "Family": "Gram",
     "Image": "GramPrime.png",
-    "Disposition": 0.75,
+    "Disposition": 0.8,
     "FollowThrough": 0.6
   },
   "Dual Zoren": {
@@ -23308,7 +23308,7 @@
     "Image": "KuvaShildeg.png",
     "Family": "Kuva Shildeg",
     "FollowThrough": 0.4,
-    "Disposition": 0.8,
+    "Disposition": 0.85,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
     ]
@@ -24166,7 +24166,7 @@
     "Image": "KuvaGhoulsaw.png",
     "Family": "Ghoulsaw",
     "FollowThrough": 1,
-    "Disposition": 0.7,
+    "Disposition": 0.8,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
     ]
@@ -24370,7 +24370,7 @@
     "Image": "VenatoPrime.png",
     "Family": "Venato",
     "FollowThrough": 0.6,
-    "Disposition": 0.6,
+    "Disposition": 0.65,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Melee/Scythe/PrimeVento/PrimeVentoProcOnProcUpgrade",
       "/Lotus/Weapons/Sentients/SentJointedScythe/SentJointedScytheInnateUpgrade"
@@ -25182,7 +25182,7 @@
     "Mastery": 14,
     "Family": "Galariak Prime",
     "Image": "GalariakPrime.png",
-    "Disposition": 0.8,
+    "Disposition": 0.9,
     "FollowThrough": 0.6
   },
   "Whipclaw": {

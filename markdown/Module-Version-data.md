@@ -1,7 +1,7 @@
 ---
 title: "Module:Version/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Version/data"
-wiki_timestamp: "2026-08-19T18:49:47Z"
+wiki_timestamp: "2026-09-23T16:11:39Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Include official index links in schema like <https://www.warframe.com/patch-note
 
 Database for [Module:Version](/w/Module:Version "Module:Version"). Entries are in order by date in ascending order and are indexed by `Name` and each element in `Aliases` tables.
 
-:   *Last updated: Wed, 19 Aug 2026 18:49:47 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Version/data?diff=0))*
+:   *Last updated: Wed, 23 Sep 2026 16:11:39 +0000 (UTC) by [User:Spiderman r m](/w/User:Spiderman_r_m "User:Spiderman r m") ([change log](https://wiki.warframe.com/w/Module:Version/data?diff=0))*
 
 ## Contents
 
@@ -27,7 +27,8 @@ Database for [Module:Version](/w/Module:Version "Module:Version"). Entries are i
 
 ## Version Entry Schema
 
-[[edit source](/w/Module:Version/data/doc?action=edit&section=T-1 "Edit section's source code: Version Entry Schema")]
+[[edit](/w/Module:Version/data/doc?action=edit&section=T-1 "Edit Section using Source Editor:
+Version Entry Schema")]
 
 ```lua
 	{
@@ -61,13 +62,15 @@ Database for [Module:Version](/w/Module:Version "Module:Version"). Entries are i
 
 ## Getting Timestamp of Forum Post
 
-[[edit source](/w/Module:Version/data/doc?action=edit&section=T-2 "Edit section's source code: Getting Timestamp of Forum Post")]
+[[edit](/w/Module:Version/data/doc?action=edit&section=T-2 "Edit Section using Source Editor:
+Getting Timestamp of Forum Post")]
 
 On the official Warframe post, open your browser's element inspecter (default F12) and highlight over the post's timestamp (e.g. "Posted 2 hours ago") and look at the `time` tag's `datetime` attribute (e.g. `<time datetime="2022-01-25T18:57:47Z" title="2022-01-25 10:57 AM" data-short="2 hr">2 hours ago</time>`). You can convert the datetime string into Unix time using your desired online converter or parse the string in JavaScript using `Date.parse("timestamp string") / 1000`.
 
 ## Update vs. Hotfix (Warframe Development Cycle)
 
-[[edit source](/w/Module:Version/data/doc?action=edit&section=T-3 "Edit section's source code: Update vs. Hotfix (Warframe Development Cycle)")]
+[[edit](/w/Module:Version/data/doc?action=edit&section=T-3 "Edit Section using Source Editor:
+Update vs. Hotfix (Warframe Development Cycle)")]
 
 > “**What is a cert update? What is a hotfix?**
 >
@@ -93,7 +96,8 @@ On the official Warframe post, open your browser's element inspecter (default F1
 
 ## Full Version List
 
-[[edit source](/w/Module:Version/data/doc?action=edit&section=T-4 "Edit section's source code: Full Version List")]
+[[edit](/w/Module:Version/data/doc?action=edit&section=T-4 "Edit Section using Source Editor:
+Full Version List")]
 
 | Version Name | Parent Version | Short Name | Subtitle | Aliases | Is Mainline? | Release Date | Forum Link | Forum Post Unix Timestamp | Archive Link | Archive Date |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -658,6 +662,7 @@ On the official Warframe post, open your browser's element inspecter (default F1
 | [Update 18.4](/w/Update_18#Update_18.4 "Update 18") | 18.4 | U18.4 | Trinity Deluxe Strega Collection |  | ✔️ | 2016-01-22 | <https://forums.warframe.com/topic/597888-update-1840/> | 1453422263 | <https://web.archive.org/web/20210508075720/https://forums.warframe.com/topic/597888-update-1840/> | 2021-05-08 |
 | [Update 17.3](/w/Update_17#Update_17.3 "Update 17") | 17.3 | U17.3 | Tenno Reinforcements: Syndicate Weapons and Diriga |  | ✔️ | 2015-09-02 | <https://forums.warframe.com/topic/521781-update-1730/> | 1441227406 | <https://web.archive.org/web/20210508041801/https://forums.warframe.com/topic/521781-update-1730/> | 2021-05-08 |
 | [Hotfix 10.5.6](/w/Update_10#Hotfix_10.5.6 "Update 10") | 10.5 | H10.5.6 |  |  | ❌ | 2013-10-29 | <https://forums.warframe.com/topic/125633-hotfix-1056/> | 1383067211 | <https://web.archive.org/web/20220129234220/https://forums.warframe.com/topic/125633-hotfix-1056/> | 2022-01-29 |
+| [Update 44.0](/w/Update_44:_Iceblade_of_Narin "Update 44: Iceblade of Narin") | 44.0 | U44.0 | Iceblade of Narin |  | ✔️ | 2026-09-23 | <https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/> | 1790175780 | <https://web.archive.org/web/20260923160723/https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/> | 2026-09-23 |
 | [Hotfix 19.0.5](/w/Update_19#Hotfix_19.0.5 "Update 19") | 19.0 | H19.0.5 |  |  | ❌ | 2016-11-18 | <https://forums.warframe.com/topic/721283-hotfix-1905/> | 1479485369 | <https://web.archive.org/web/20191028153442/https://forums.warframe.com/topic/721283-hotfix-1905/> | 2019-10-28 |
 | [Hotfix 43.5.4](/w/Update_43#Hotfix_43.5.4 "Update 43") | 43.0 | H43.5.4 |  |  | ❌ | 2026-08-19 | <https://forums.warframe.com/topic/1520771-amir%E2%80%99s-shockwave-hotfix-4354/> | 1787177125 |  |  |
 | [Hotfix 43.5.3](/w/Update_43#Hotfix_43.5.3 "Update 43") | 43.0 | H43.5.3 |  |  | ❌ | 2026-08-18 | <https://forums.warframe.com/topic/1520640-amir%E2%80%99s-shockwave-hotfix-4353/> | 1787094285 |  |  |
@@ -1658,13 +1663,15 @@ On the official Warframe post, open your browser's element inspecter (default F1
 
 ## References
 
-[[edit source](/w/Module:Version/data/doc?action=edit&section=T-5 "Edit section's source code: References")]
+[[edit](/w/Module:Version/data/doc?action=edit&section=T-5 "Edit Section using Source Editor:
+References")]
 
 1. [↑](#cite_ref-1) [DE]Momaw (2023, February 22). *[PSA: Citrine’s Last Wish Known Issues](https://forums.warframe.com/topic/1341201-psa-citrine%E2%80%99s-last-wish-known-issues/)*. Warframe Forums. Accessed 2023-02-25. [Archived](https://web.archive.org/web/20230225003243/https://forums.warframe.com/topic/1341201-psa-citrine%E2%80%99s-last-wish-known-issues/) from the original on 2023-02-25.
 
 ## Data
 
-[[edit source](/w/Module:Version/data/doc?action=edit&section=T-6 "Edit section's source code: Data")]
+[[edit](/w/Module:Version/data/doc?action=edit&section=T-6 "Edit Section using Source Editor:
+Data")]
 
 ---
 
@@ -20863,6 +20870,19 @@ local Versions = {
 		ArchiveLink = "",
 		ArchiveDate = "",
 		Timestamp = 1787177125	
+	},
+	{
+		Name = "Update 44.0",
+		Link = "Update 44: Iceblade of Narin",
+		Aliases = { "44", "44.0", "Iceblade of Narin" },
+		ShortName = "U44.0",
+		Date = "2026-09-23",
+		Parent = "44.0",
+		ForumLink = "https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/",
+		ArchiveLink = "https://web.archive.org/web/20260923160723/https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/",
+		ArchiveDate = "2026-09-23",
+		Timestamp = 1790175780,
+		Subtitle = "Iceblade of Narin"
 	},
 }
 

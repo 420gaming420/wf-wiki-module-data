@@ -4,22 +4,25 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T19:00:26.758Z"
+    "converted_at": "2026-09-24T07:26:05.173Z"
   },
   "_comments": "-- Building additional indexes from data",
   "LatestVersion": {
-    "Link": "Update 43#Hotfix 43.5.4",
-    "Date": "2026-08-19",
+    "Subtitle": "Iceblade of Narin",
+    "Link": "Update 44: Iceblade of Narin",
+    "Date": "2026-09-23",
     "Aliases": [
-      "43.5.4"
+      "44",
+      "44.0",
+      "Iceblade of Narin"
     ],
-    "Timestamp": 1787177125,
-    "Name": "Hotfix 43.5.4",
-    "ShortName": "H43.5.4",
-    "ForumLink": "https://forums.warframe.com/topic/1520771-amir%E2%80%99s-shockwave-hotfix-4354/",
-    "ArchiveDate": "",
-    "ArchiveLink": "",
-    "Parent": "43.0"
+    "Timestamp": 1790175780,
+    "Name": "Update 44.0",
+    "ShortName": "U44.0",
+    "ForumLink": "https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/",
+    "ArchiveDate": "2026-09-23",
+    "ArchiveLink": "https://web.archive.org/web/20260923160723/https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/",
+    "Parent": "44.0"
   },
   "Versions": {
     "Hotfix 6.1.2": {
@@ -8238,6 +8241,23 @@
       "ArchiveDate": "2022-01-29",
       "ArchiveLink": "https://web.archive.org/web/20220129234220/https://forums.warframe.com/topic/125633-hotfix-1056/",
       "Parent": "10.5"
+    },
+    "Update 44.0": {
+      "Subtitle": "Iceblade of Narin",
+      "Link": "Update 44: Iceblade of Narin",
+      "Date": "2026-09-23",
+      "Aliases": [
+        "44",
+        "44.0",
+        "Iceblade of Narin"
+      ],
+      "Timestamp": 1790175780,
+      "Name": "Update 44.0",
+      "ShortName": "U44.0",
+      "ForumLink": "https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/",
+      "ArchiveDate": "2026-09-23",
+      "ArchiveLink": "https://web.archive.org/web/20260923160723/https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/",
+      "Parent": "44.0"
     },
     "Hotfix 19.0.5": {
       "Link": "Update 19#Hotfix 19.0.5",
@@ -23450,6 +23470,25 @@
         "ArchiveDate": "2020-11-12",
         "ArchiveLink": "https://web.archive.org/web/20201112030739/https://forums.warframe.com/topic/1035481-fortuna-hotfix-24010/",
         "Parent": "24.0"
+      }
+    ],
+    "44.0": [
+      {
+        "Subtitle": "Iceblade of Narin",
+        "Link": "Update 44: Iceblade of Narin",
+        "Date": "2026-09-23",
+        "Aliases": [
+          "44",
+          "44.0",
+          "Iceblade of Narin"
+        ],
+        "Timestamp": 1790175780,
+        "Name": "Update 44.0",
+        "ShortName": "U44.0",
+        "ForumLink": "https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/",
+        "ArchiveDate": "2026-09-23",
+        "ArchiveLink": "https://web.archive.org/web/20260923160723/https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/",
+        "Parent": "44.0"
       }
     ],
     "29.3": [
@@ -46627,6 +46666,23 @@
       "ArchiveLink": "",
       "Parent": "43.0"
     },
+    "44": {
+      "Subtitle": "Iceblade of Narin",
+      "Link": "Update 44: Iceblade of Narin",
+      "Date": "2026-09-23",
+      "Aliases": [
+        "44",
+        "44.0",
+        "Iceblade of Narin"
+      ],
+      "Timestamp": 1790175780,
+      "Name": "Update 44.0",
+      "ShortName": "U44.0",
+      "ForumLink": "https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/",
+      "ArchiveDate": "2026-09-23",
+      "ArchiveLink": "https://web.archive.org/web/20260923160723/https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/",
+      "Parent": "44.0"
+    },
     "999": {
       "Link": "Upcoming Features",
       "Date": "0000-00-00",
@@ -59688,6 +59744,51 @@
       "ArchiveLink": "https://web.archive.org/web/20211020172145/https://forums.warframe.com/topic/854253-warframe-update-22-plains-of-eidolon/",
       "Parent": "22.0"
     },
+    "Iceblade of Narin": {
+      "Subtitle": "Iceblade of Narin",
+      "Link": "Update 44: Iceblade of Narin",
+      "Date": "2026-09-23",
+      "Aliases": [
+        "44",
+        "44.0",
+        "Iceblade of Narin"
+      ],
+      "Timestamp": 1790175780,
+      "Name": "Update 44.0",
+      "ShortName": "U44.0",
+      "ForumLink": "https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/",
+      "ArchiveDate": "2026-09-23",
+      "ArchiveLink": "https://web.archive.org/web/20260923160723/https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/",
+      "Parent": "44.0"
+    },
+    "43.0.4": {
+      "Link": "Update 43#Hotfix 43.0.4",
+      "Date": "2026-06-23",
+      "Aliases": [
+        "43.0.4"
+      ],
+      "Timestamp": 1782241689,
+      "Name": "Hotfix 43.0.4",
+      "ShortName": "H43.0.4",
+      "ForumLink": "https://forums.warframe.com/topic/1513074-jade-shadows-constellations-hotfix-4304/",
+      "ArchiveDate": "",
+      "ArchiveLink": "",
+      "Parent": "43.0"
+    },
+    "22.17.2": {
+      "Link": "Update 22#Hotfix 22.17.2",
+      "Date": "2018-04-10",
+      "Aliases": [
+        "22.17.2"
+      ],
+      "Timestamp": 1523383154,
+      "Name": "Hotfix 22.17.2",
+      "ShortName": "H22.17.2",
+      "ForumLink": "https://forums.warframe.com/topic/943833-shrine-of-the-eidolon-hotfix-22172/",
+      "ArchiveDate": "2022-01-07",
+      "ArchiveLink": "https://web.archive.org/web/20220107230630/https://forums.warframe.com/topic/943833-shrine-of-the-eidolon-hotfix-22172/",
+      "Parent": "22.17"
+    },
     "U12.2": {
       "Subtitle": "Tenno Reinforcements: Castanas",
       "Link": "Update 12#Update 12.2",
@@ -60330,19 +60431,22 @@
       "ArchiveLink": "",
       "Parent": "43.0"
     },
-    "43.0.4": {
-      "Link": "Update 43#Hotfix 43.0.4",
-      "Date": "2026-06-23",
+    "44.0": {
+      "Subtitle": "Iceblade of Narin",
+      "Link": "Update 44: Iceblade of Narin",
+      "Date": "2026-09-23",
       "Aliases": [
-        "43.0.4"
+        "44",
+        "44.0",
+        "Iceblade of Narin"
       ],
-      "Timestamp": 1782241689,
-      "Name": "Hotfix 43.0.4",
-      "ShortName": "H43.0.4",
-      "ForumLink": "https://forums.warframe.com/topic/1513074-jade-shadows-constellations-hotfix-4304/",
-      "ArchiveDate": "",
-      "ArchiveLink": "",
-      "Parent": "43.0"
+      "Timestamp": 1790175780,
+      "Name": "Update 44.0",
+      "ShortName": "U44.0",
+      "ForumLink": "https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/",
+      "ArchiveDate": "2026-09-23",
+      "ArchiveLink": "https://web.archive.org/web/20260923160723/https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/",
+      "Parent": "44.0"
     },
     "H43.0.4": {
       "Link": "Update 43#Hotfix 43.0.4",
@@ -87231,19 +87335,22 @@
       "ArchiveLink": "https://web.archive.org/web/20220111212920/https://forums.warframe.com/topic/490942-hotfix-16115/",
       "Parent": "16.11"
     },
-    "22.17.2": {
-      "Link": "Update 22#Hotfix 22.17.2",
-      "Date": "2018-04-10",
+    "U44.0": {
+      "Subtitle": "Iceblade of Narin",
+      "Link": "Update 44: Iceblade of Narin",
+      "Date": "2026-09-23",
       "Aliases": [
-        "22.17.2"
+        "44",
+        "44.0",
+        "Iceblade of Narin"
       ],
-      "Timestamp": 1523383154,
-      "Name": "Hotfix 22.17.2",
-      "ShortName": "H22.17.2",
-      "ForumLink": "https://forums.warframe.com/topic/943833-shrine-of-the-eidolon-hotfix-22172/",
-      "ArchiveDate": "2022-01-07",
-      "ArchiveLink": "https://web.archive.org/web/20220107230630/https://forums.warframe.com/topic/943833-shrine-of-the-eidolon-hotfix-22172/",
-      "Parent": "22.17"
+      "Timestamp": 1790175780,
+      "Name": "Update 44.0",
+      "ShortName": "U44.0",
+      "ForumLink": "https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/",
+      "ArchiveDate": "2026-09-23",
+      "ArchiveLink": "https://web.archive.org/web/20260923160723/https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/",
+      "Parent": "44.0"
     },
     "H32.0.12": {
       "Link": "Update 32#Hotfix 32.0.12",

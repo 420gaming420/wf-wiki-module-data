@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T19:01:07.532Z"
+    "converted_at": "2026-09-24T07:26:18.362Z"
   },
   "_comments": "\t------------------------------------Amps----------------------------------------\n\t------------------------------------Kitguns-------------------------------------\n\t---------------------------------Zaws-------------------------------------------",
   "Pencha Scaffold": {
@@ -292,7 +292,7 @@
     ],
     "Family": "Gaze",
     "AmmoMax": 200,
-    "Disposition": 1,
+    "Disposition": 1.05,
     "AmmoType": "Secondary"
   },
   "Shraksun Scaffold": {
@@ -675,7 +675,7 @@
     "Introduced": "22.3",
     "Family": "Plague Keewar",
     "Link": "Plague Keewar",
-    "Disposition": 0.85,
+    "Disposition": 0.9,
     "InternalName": "/Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Tips/InfestedTipTwo"
   },
   "Rattleguts (Secondary)": {
@@ -869,7 +869,7 @@
     ],
     "Family": "Tombfinger",
     "AmmoMax": 210,
-    "Disposition": 0.85,
+    "Disposition": 0.9,
     "AmmoType": "Secondary"
   },
   "Sepfahn": {
@@ -1401,7 +1401,7 @@
     "Introduced": "22",
     "Family": "Cyath",
     "Link": "Cyath",
-    "Disposition": 1,
+    "Disposition": 1.05,
     "InternalName": "/Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipFour"
   },
   "Lega Prism": {
