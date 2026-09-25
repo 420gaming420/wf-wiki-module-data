@@ -629,7 +629,7 @@ return {
 		},
 		["Arcane Pistoleer"] = {
 			CodexSecret = true,
-			Description = "On Pistol Headshot Kill:\r\n60% chance for +102% Ammo Efficiency for 12s",
+			Description = "On Pistol Weak Point Kill:\r\n60% chance for +102% Ammo Efficiency for 12s",
 			Dissolution = 20,
 			Icon = "ArcanePistoleer64x.png",
 			Image = "ArcanePistoleer.png",
@@ -1307,7 +1307,7 @@ return {
 		},
 		["Longbow Sharpshot"] = {
 			CodexSecret = false,
-			Description = "On Headshot: Gain +300% damage on your next shot.",
+			Description = "On Weak Point Hit: Gain +300% damage on your next shot.",
 			Dissolution = 84,
 			Icon = "LongbowSharpshot64x.png",
 			Image = "LongbowSharpshot.png",
@@ -2001,7 +2001,7 @@ return {
 		},
 		["Primary Deadhead"] = {
 			CodexSecret = true,
-			Description = "On Headshot Kill:\r\n+120% Damage for 24s. Stacks up to 3x.\r\n+30% to Headshot Multiplier\r\n-50% Weapon Recoil",
+			Description = "On Weak Point Kill:\r\n+120% Damage for 24s. Stacks up to 3x.\r\n+30% to Headshot Multiplier\r\n-50% Weapon Recoil",
 			Dissolution = 20,
 			Icon = "PrimaryDeadhead64x.png",
 			Image = "PrimaryDeadhead.png",
@@ -2231,7 +2231,7 @@ return {
 		},
 		["Secondary Deadhead"] = {
 			CodexSecret = true,
-			Description = "On Precision Headshot Kill:\r\n+120% Damage for 24s. Stacks up to 3x.\r\n+30% to Headshot Multiplier\r\n-50% Weapon Recoil",
+			Description = "On Weak Point Kill:\r\n+120% Damage for 24s. Stacks up to 3x.\r\n+30% to Headshot Multiplier\r\n-50% Weapon Recoil",
 			Dissolution = 20,
 			Icon = "SecondaryDeadhead64x.png",
 			Image = "SecondaryDeadhead.png",

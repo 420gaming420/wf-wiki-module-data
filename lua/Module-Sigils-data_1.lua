@@ -1523,6 +1523,12 @@ return {
 		Name = "Tagfer Sigil",
 		Link = "Sigils#Event Sigils"
 	},
+	["Taubound Sigil"] = {
+		Image = "TauboundSigil(SxWhite).png",
+		Name = "Taubound Sigil",
+		Description = "Proclaim your participation in the death of Eris and Epoch Operation: Taubound with this sigil.",
+		Link = "Sigils#Event Sigils"
+	},
 	["Temple Sigil"] = {
 		Description = "A sigil celebrating Temple and their music.",
 		Image = "TempleSigil(SxWhite).png",

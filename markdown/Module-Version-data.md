@@ -1,7 +1,7 @@
 ---
 title: "Module:Version/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Version/data"
-wiki_timestamp: "2026-09-23T16:11:39Z"
+wiki_timestamp: "2026-09-24T20:12:38Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Include official index links in schema like <https://www.warframe.com/patch-note
 
 Database for [Module:Version](/w/Module:Version "Module:Version"). Entries are in order by date in ascending order and are indexed by `Name` and each element in `Aliases` tables.
 
-:   *Last updated: Wed, 23 Sep 2026 16:11:39 +0000 (UTC) by [User:Spiderman r m](/w/User:Spiderman_r_m "User:Spiderman r m") ([change log](https://wiki.warframe.com/w/Module:Version/data?diff=0))*
+:   *Last updated: Thu, 24 Sep 2026 20:12:38 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Version/data?diff=0))*
 
 ## Contents
 
@@ -477,6 +477,7 @@ Full Version List")]
 | [Update 15.12](/w/Update_15#Update_15.12 "Update 15") | 15.12 | U15.12 |  |  | ✔️ | 2015-01-30 | <https://forums.warframe.com/topic/393115-update-15120/> | 1422569669 | <https://web.archive.org/web/20160411123901/https://forums.warframe.com/topic/393115-update-15120/> | 2016-04-11 |
 | [Hotfix 12.4.6](/w/Update_12#Hotfix_12.4.6 "Update 12") | 12.4 | H12.4.6 | Luck O' The Lotus! |  | ❌ | 2014-03-17 | <https://forums.warframe.com/topic/197103-hotfix-1246-luck-o-the-lotus/> | 1395072414 | <https://web.archive.org/web/20220127044359/https://forums.warframe.com/topic/197103-hotfix-1246-luck-o-the-lotus/> | 2022-01-27 |
 | [Update 29.8](/w/Update_29#Update_29.8 "Update 29") | 29.8 | U29.8 | Star Days |  | ✔️ | 2021-02-11 | <https://forums.warframe.com/topic/1248934-star-days-update-2980/> | 1613069850 | <https://web.archive.org/web/20210212011314/https://forums.warframe.com/topic/1248934-star-days-update-2980/> | 2021-02-12 |
+| [Hotfix 44.0.1](/w/Update_44:_Iceblade_of_Narin "Update 44: Iceblade of Narin") | 44.0 | H44.0.1 | Iceblade of Narin |  | ❌ | 2026-09-24 | <https://forums.warframe.com/topic/1524660-iceblade-of-narin-hotfix-4401/> | 1790294355 | <https://web.archive.org/web/20260924200629/https://forums.warframe.com/topic/1524660-iceblade-of-narin-hotfix-4401/> | 2026-09-24 |
 | [Hotfix 30.3.4](/w/Update_30#Hotfix_30.3.4 "Update 30") | 30.3 | H30.3.4 |  |  | ❌ | 2021-06-02 | <https://forums.warframe.com/topic/1266345-gara-prime-hotfix-3034/> | 1622661305 | <https://web.archive.org/web/20210602200615/https://forums.warframe.com/topic/1266345-gara-prime-hotfix-3034/> | 2021-06-02 |
 | [Update 22.8](/w/Update_22#Update_22.8 "Update 22") | 22.8 | U22.8 | Ghoul Purge Bounties |  | ✔️ | 2017-12-21 | <https://forums.warframe.com/topic/897989-plains-of-eidolon-update-2280-hotfix-22801/> | 1513882115 | <https://web.archive.org/web/20211020195710/https://forums.warframe.com/topic/897989-plains-of-eidolon-update-2280-hotfix-22801/> | 2021-10-20 |
 | [Hotfix 21.3.1](/w/Update_21#Hotfix_21.3.1 "Update 21") | 21.3 | H21.3.1 |  |  | ❌ | 2017-08-04 | <https://forums.warframe.com/topic/827047-chains-of-harrow-hotfix-2131/> | 1501877426 | <https://web.archive.org/web/20201020235956/https://forums.warframe.com/topic/827047-chains-of-harrow-hotfix-2131/> | 2020-10-20 |
@@ -20882,6 +20883,19 @@ local Versions = {
 		ArchiveLink = "https://web.archive.org/web/20260923160723/https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/",
 		ArchiveDate = "2026-09-23",
 		Timestamp = 1790175780,
+		Subtitle = "Iceblade of Narin"
+	},
+	{
+		Name = "Hotfix 44.0.1",
+		Link = "Update 44: Iceblade of Narin",
+		Aliases = { "44.0.1" },
+		ShortName = "H44.0.1",
+		Date = "2026-09-24",
+		Parent = "44.0",
+		ForumLink = "https://forums.warframe.com/topic/1524660-iceblade-of-narin-hotfix-4401/",
+		ArchiveLink = "https://web.archive.org/web/20260924200629/https://forums.warframe.com/topic/1524660-iceblade-of-narin-hotfix-4401/",
+		ArchiveDate = "2026-09-24",
+		Timestamp = 1790294355,
 		Subtitle = "Iceblade of Narin"
 	},
 }

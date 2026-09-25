@@ -4,16 +4,16 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:55:19.654Z"
+    "converted_at": "2026-09-25T07:20:54.278Z"
   },
   "_comments": "",
-  "Helios Simaris Skin": {
+  "Gast Sentinel Skin": {
     "Type": "Sentinel Skin",
-    "Image": "HeliosSimarisSkin.png",
-    "Description": "The Cephalon Simaris skin for the Helios sentinel.",
-    "Link": "Helios Simaris Skin",
-    "Name": "Helios Simaris Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/LibrarianHelios",
+    "Image": "GastSentinelSkin.png",
+    "Description": "An eerily twisted skin for your sentinel pet.",
+    "Link": "Gast Sentinel Skin",
+    "Name": "Gast Sentinel Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/BansheeDlxSentSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -249,23 +249,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Ordis Sentinel Skin": {
+  "Nautilus Prime Default Skin": {
     "Type": "Sentinel Skin",
-    "Image": "OrdisSentinelSkin.png",
-    "Description": "Cephalon Ordis has always delighted in talking with the Operator. Now he can delight in accompanying the Operator in any situation.",
-    "Link": "Ordis Sentinel Skin",
-    "Name": "Ordis Sentinel Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/OwlSentinelSkin",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Carrier Skin": {
-    "Type": "Sentinel Skin",
-    "Image": "Carrier.png",
-    "Description": "The standard issue skin for the Carrier Sentinel.",
-    "Link": "Carrier Skin",
-    "Name": "Carrier Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/Defaults/DefaultCarrierSkin",
+    "Image": "NautilusPrime.png",
+    "Description": "The standard issue skin for the Nautilus Prime Sentinel.",
+    "Link": "Nautilus Prime Default Skin",
+    "Name": "Nautilus Prime Default Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/Defaults/DefaultNautilusPrimeSentinelSkin",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
@@ -279,6 +269,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Carrier Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "Carrier.png",
+    "Description": "The standard issue skin for the Carrier Sentinel.",
+    "Link": "Carrier Skin",
+    "Name": "Carrier Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/Defaults/DefaultCarrierSkin",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
   "Para Carrier": {
     "Type": "Sentinel Skin",
     "Image": "ParaCarrier.png",
@@ -286,6 +286,16 @@
     "Link": "Para Carrier",
     "Name": "Para Carrier",
     "InternalName": "/Lotus/Upgrades/Skins/Sentinels/ParrotCarrierSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Ordis Sentinel Skin": {
+    "Type": "Sentinel Skin",
+    "Image": "OrdisSentinelSkin.png",
+    "Description": "Cephalon Ordis has always delighted in talking with the Operator. Now he can delight in accompanying the Operator in any situation.",
+    "Link": "Ordis Sentinel Skin",
+    "Name": "Ordis Sentinel Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/OwlSentinelSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -339,14 +349,14 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Nautilus Prime Default Skin": {
+  "Kerulyst Sentinel Skin": {
     "Type": "Sentinel Skin",
-    "Image": "NautilusPrime.png",
-    "Description": "The standard issue skin for the Nautilus Prime Sentinel.",
-    "Link": "Nautilus Prime Default Skin",
-    "Name": "Nautilus Prime Default Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/Defaults/DefaultNautilusPrimeSentinelSkin",
-    "ExcludeFromCodex": true,
+    "Image": "KerulystSentinelSkin.png",
+    "Description": "Give your Sentinel the appearance of a Kerulyst, diminutive Sentients that evolved to become robust laborers in the Tau System.",
+    "Link": "Kerulyst Sentinel Skin",
+    "Name": "Kerulyst Sentinel Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/HeliosDeluxe",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Diriga Desert-Camo Skin": {
@@ -360,13 +370,13 @@
     "InternalName": "/Lotus/Upgrades/Skins/Camo/DesertDirigaSkin",
     "CodexSecret": false
   },
-  "Kerulyst Sentinel Skin": {
+  "Helios Simaris Skin": {
     "Type": "Sentinel Skin",
-    "Image": "KerulystSentinelSkin.png",
-    "Description": "Give your Sentinel the appearance of a Kerulyst, diminutive Sentients that evolved to become robust laborers in the Tau System.",
-    "Link": "Kerulyst Sentinel Skin",
-    "Name": "Kerulyst Sentinel Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/HeliosDeluxe",
+    "Image": "HeliosSimarisSkin.png",
+    "Description": "The Cephalon Simaris skin for the Helios sentinel.",
+    "Link": "Helios Simaris Skin",
+    "Name": "Helios Simaris Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/LibrarianHelios",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   }

@@ -33,7 +33,6 @@ buildInfobox = function(frame)
 	local sexCategoryMap = {
 	  ["Male"] = "Males",
 	  ["Female"] = "Females",
-	  ["Non-binary"] = "Non-binary"
 	}
 	
 	local sexCategory = sexCategoryMap[warframe.Sex] or warframe.Sex
@@ -78,6 +77,12 @@ buildInfobox = function(frame)
 		end
 	end
 	auraPolarity = table.concat(auraPolarity, ' ')
+	
+	local augmentShops = {}
+	for _, shop in ipairs(warframe.AugmentShop or {}) do
+		table.insert(augmentShops, Tooltip.full(shop, 'Factions'))
+	end
+	augmentShops = table.concat(augmentShops, ', ')
 	
 	local compatibilityTags = {}
 	for _, tag in ipairs(warframe.CompatibilityTags or {}) do
@@ -128,6 +133,7 @@ buildInfobox = function(frame)
 			:row('Progenitor', '[[Adversary System#Progenitor Warframe|%s]]', warframe.Progenitor and Tooltip.full(warframe.Progenitor, 'DamageTypes'), 'progenitor-element')
 			:row('Subsumed', '[[Helminth#Ability Replacement|%s]]', warframe.Subsumed and Tooltip.full(warframe.Subsumed, 'Ability'), 'subsumed-ability')
 			:row('Tactical', '[[Railjack/Tactical Menu#Ability Kinesis|%s]]', warframe.Tactical and Tooltip.full(warframe.Tactical, 'Ability'), 'tactical-ability')
+			:row('AugmentShops', '[[Warframe Augment Mods|%s]]', augmentShops~='' and augmentShops, 'augment-shops')
 			:row('CompatibilityTags', '[[Compatibility Tag|%s]]', warframe.CompatibilityTags and compatibilityTags, 'compatibility-tags')
 			:row('SellPrice', '%s', warframe.SellPrice and (Tooltip.icon('Credits', 'Resources')..' '..Lang:formatNum(warframe.SellPrice)), 'sell-price')
 		:done()

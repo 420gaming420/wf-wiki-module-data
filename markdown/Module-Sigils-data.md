@@ -1,14 +1,15 @@
 ---
 title: "Module:Sigils/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Sigils/data"
-wiki_timestamp: "2026-09-05T05:27:03Z"
+wiki_timestamp: "2026-09-24T10:58:52Z"
 ---
 
 Database for [Sigils](/w/Sigils "Sigils").
 
 ## Sigil Entry Schema
 
-[[edit source](/w/Module:Sigils/data/doc?action=edit&section=T-1 "Edit section's source code: Sigil Entry Schema")]
+[[edit](/w/Module:Sigils/data/doc?action=edit&section=T-1 "Edit Section using Source Editor:
+Sigil Entry Schema")]
 
 ```lua
 	["Sigil Name"] = {
@@ -30,7 +31,8 @@ Database for [Sigils](/w/Sigils "Sigils").
 
 ## Sigil Data
 
-[[edit source](/w/Module:Sigils/data/doc?action=edit&section=T-2 "Edit section's source code: Sigil Data")]
+[[edit](/w/Module:Sigils/data/doc?action=edit&section=T-2 "Edit Section using Source Editor:
+Sigil Data")]
 
 ---
 
@@ -1558,6 +1560,12 @@ return {
 	["Tagfer Sigil"] = {
 		Image = "TagferSigil(SxWhite).png",
 		Name = "Tagfer Sigil",
+		Link = "Sigils#Event Sigils"
+	},
+	["Taubound Sigil"] = {
+		Image = "TauboundSigil(SxWhite).png",
+		Name = "Taubound Sigil",
+		Description = "Proclaim your participation in the death of Eris and Epoch Operation: Taubound with this sigil.",
 		Link = "Sigils#Event Sigils"
 	},
 	["Temple Sigil"] = {

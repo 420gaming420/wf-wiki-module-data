@@ -289,6 +289,16 @@ return {
         Name = "Emissary Emblem",
         Type = "Emblem"
     },
+    ["Epoch Operation Vessel Emblem"] = {
+        CodexSecret = false,
+        Description = "Bear the visage of the Eris killer as an emblem of your dedication to Epoch Operation: Taubound.",
+        ExcludeFromCodex = false,
+        Image = "EpochOperationVesselEmblem(ExWhite).png",
+        InternalName = "/Lotus/Upgrades/Skins/Clan/EpochOperationEmblemItem",
+        Link = "Epoch Operation Vessel Emblem",
+        Name = "Epoch Operation Vessel Emblem",
+        Type = "Emblem"
+    },
     ["Erznung Emblem"] = {
         CodexSecret = false,
         Description = "An insignia awarded to the Tenno Elite who proved themselves during the Tohtchi Variant.",

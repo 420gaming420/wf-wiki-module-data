@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/sentinelskin"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/sentinelskin"
-wiki_timestamp: "2026-08-07T15:07:22Z"
+wiki_timestamp: "2026-09-24T12:21:26Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/sentinelskin/doc](/w/Module:Cosmetics/data/sentinelskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/sentinelskin/doc (page does not exist)")*
@@ -149,7 +149,17 @@ return {
         Name = "Dragondance Sentinel Skin",
         Type = "Sentinel Skin"
     },
-       ["Helios Elixis Skin"] = {
+    ["Gast Sentinel Skin"] = {
+        CodexSecret = false,
+        Description = "An eerily twisted skin for your sentinel pet.",
+        ExcludeFromCodex = false,
+        Image = "GastSentinelSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/Sentinels/Skins/BansheeDlxSentSkin",
+        Link = "Gast Sentinel Skin",
+        Name = "Gast Sentinel Skin",
+        Type = "Sentinel Skin"
+    },
+    ["Helios Elixis Skin"] = {
         CodexSecret = false,
         Description = "Invigorate in style with this bronzed Elixis skin for the Helios.",
         ExcludeFromCodex = false,

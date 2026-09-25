@@ -11855,6 +11855,15 @@ local ResourceData = {
 		ResourceDropChanceBoostAble = true,
 		RetrieverModAble = true,
 	},
+	["Riven Splicer"] = { 
+		Description = "Used in the Mod Workbench to splice Riven traits into a new trait from a special pool of possibilities.",
+		Image = "RivenSplicer.png",
+		InternalName = "/Lotus/Types/Items/MiscItems/RivenSplicer",
+		Introduced = "44",
+		Link = "Riven Splicer",
+		Name = "Riven Splicer",
+		Type = "Resource",
+	},
 	
 	-- Jade Shadows: Constellations --
 	["Crimson Talent"] = {
@@ -11876,6 +11885,20 @@ local ResourceData = {
 		Introduced = "43",
 		Link = "Emerald Talent",
 		Name = "Emerald Talent",
+		Type = "Resource",
+		ResourceBoostAble = false,
+		ResourceDropChanceBoostAble = false,
+		RetrieverModAble = false,
+	},
+
+	-- Epoch Operation: Taubound --
+	["Moonflesh"] = {
+		-- Description = "Eris, carved up and presented to Praghasa in bite sized chunks.\r\n\r\nObtained from Infested nodes on Eris during Epoch Operation: Taubound.", -- Do not uncomment until event releases, keep it unspoiled
+		Image = "Moonflesh.png",
+		InternalName = "/Lotus/Types/Gameplay/Events/RoadToTauEvent/RoadToTauEventResource",
+		Introduced = "44",
+		Link = "Moonflesh",
+		Name = "Moonflesh",
 		Type = "Resource",
 		ResourceBoostAble = false,
 		ResourceDropChanceBoostAble = false,

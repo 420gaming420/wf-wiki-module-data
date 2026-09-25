@@ -14917,7 +14917,7 @@ local DropData = {
 			Name = "Zariman Exterminate",
 			Rewards = {
 				A = {
-					{ "Credits Cache", "Credits", 37.21, 10000 },
+					{ "Credits Cache", "Credits", 32.56, 10000 },
 					{ "Endo", "Resource", 16.28, 900 },
 					{ "Voidgel Orb", "Resource", 9.30 },
 					{ "Entrati Lanthorn", "Resource", 9.30 },
@@ -14930,7 +14930,7 @@ local DropData = {
 					{ "Meso A12", "Relic", 2.33 },
 					{ "Meso D9", "Relic", 2.33 },
 					{ "Meso C11", "Relic", 2.33 },
-					{ "Narin Blueprint", "Blueprint", 4.65 },
+					{ "Narin Blueprint", "Blueprint", 9.30 },
 				},
 			},
 			Tier = "Zariman",
@@ -15045,7 +15045,7 @@ local DropData = {
 			Name = "Zariman Mobile Defense",
 			Rewards = {
 				A = {
-					{ "Credits Cache", "Credits", 37.21, 10000 },
+					{ "Credits Cache", "Credits", 32.56, 10000 },
 					{ "Endo", "Resource", 16.28, 900 },
 					{ "Voidgel Orb", "Resource", 9.30 },
 					{ "Entrati Lanthorn", "Resource", 9.30 },
@@ -15058,7 +15058,7 @@ local DropData = {
 					{ "Meso A12", "Relic", 2.33 },
 					{ "Meso D9", "Relic", 2.33 },
 					{ "Meso C11", "Relic", 2.33 },
-					{ "Narin Blueprint", "Blueprint", 4.65 },
+					{ "Narin Blueprint", "Blueprint", 9.30 },
 				},
 			},
 			Tier = "Zariman",

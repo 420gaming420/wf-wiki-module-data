@@ -1,7 +1,7 @@
 ---
 title: "Module:Ability/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Ability/data"
-wiki_timestamp: "2026-09-24T03:53:50Z"
+wiki_timestamp: "2026-09-24T22:11:53Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Add [Railjack](/w/Railjack "Railjack") abilities like [Phoenix Blaze](/w/Phoenix
 
 Database of abilities in [WARFRAME](/w/WARFRAME "WARFRAME").
 
-:   *Last updated: Thu, 24 Sep 2026 03:53:50 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Ability/data?diff=0))*
+:   *Last updated: Thu, 24 Sep 2026 22:11:53 +0000 (UTC) by [User:Stygian](/w/User:Stygian "User:Stygian") ([change log](https://wiki.warframe.com/w/Module:Ability/data?diff=0))*
 
 ## Contents
 
@@ -1800,13 +1800,13 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 		},
 		["Hakchum"] = {
 			Name = "Hakchum",
-			CardImage = "Hakchumx256.png",
+			CardImage = "Hakchum(xWhite).png",
 			Preview = "HakchumPreview.webm",
 			PreviewFallback = "HakchumPreview.jpg",
 			Cost = 75,
-			Description = "Tap to leap into the air, tap again to land at target location. Applies Cold Damage Vulnerability and Status Effect in a large radius upon landing. Gain Ice for each enemy hit.",
+			Description = "Tap to leap into the air, tap again to land at target location. Applies  Cold Damage Vulnerability and Status Effect in a large radius upon landing.\r\n\r\nGain Ice for each enemy hit.",
 			Icon = "Hakchum(xWhite).png",
-			InternalName = "/Lotus/Powersuits/Duelist/Abilities/",
+			InternalName = "/Lotus/Powersuits/Duelist/Abilities/DuelistLeapAbility",
 			Introduced = "44",
 			Key = 3,
 			Powersuit = "Narin" 
@@ -1926,6 +1926,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 		},
 		["Infernalis"] = {
 			Name = "Infernalis",
+			Augments = { "Infernum" },
 			CardImage = "UrielInfernalis.png",
 			Preview = "UrielInfernalisPreview.webm",
 			PreviewFallback = "UrielInfernalisPreview.jpg",
@@ -2448,17 +2449,16 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 		},
 		["Naraemagi"] = {
 			Name = "Naraemagi",
-			CardImage = "Naraemagix256.png",
+			CardImage = "Naraemagi(xWhite).png",
 			Preview = "NaraemagiPreview.webm",
 			PreviewFallback = "NaraemagiPreview.jpg",
 			Cost = 50,
-			Description = "Recover Shields by absorbing Cold Status Effect from nearby enemies. Gain Overguard if at full Shields. Gain Ice for each enemy hit.",
+			Description = "Recover Shields by absorbing  Cold Status Effect from nearby enemies. Gain  Overguard if at full Shields.\r\n\r\nGain Ice for each enemy hit.",
 			Icon = "Naraemagi(xWhite).png",
-			InternalName = "/Lotus/Powersuits/Duelist/Abilities/",
+			InternalName = "/Lotus/Powersuits/Duelist/Abilities/DuelistRiposteAbility",
 			Introduced = "44",
 			Key = 2,
 			Powersuit = "Narin",
-			Subsumable = true
 		},
 		["Navigator"] = {
 			Name = "Navigator",
@@ -2489,16 +2489,17 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 		},
 		["Neote"] = {
 			Name = "Neote",
-			CardImage = "Neotex256.png",
+			CardImage = "Neote(xWhite).png",
 			Preview = "NeotePreview.webm",
 			PreviewFallback = "NeotePreview.jpg",
 			Cost = 25,
-			Description = "Lunge with Narin's ice rapier Neote, inflicting Cold Damage and Cold and Puncture Status Effect on foes directly ahead of her. Gain Ice for each enemy hit.",
+			Description = "Lunge with Narin's ice rapier Neote, inflicting  Cold Damage and  Cold and  Puncture Status Effect on foes directly ahead of her.\r\n\r\nGain Ice for each enemy hit.",
 			Icon = "Neote(xWhite).png",
-			InternalName = "/Lotus/Powersuits/Duelist/Abilities/",
+			InternalName = "/Lotus/Powersuits/Duelist/Abilities/DuelistThrustAbility",
 			Introduced = "44",
 			Key = 1,
-			Powersuit = "Narin"
+			Powersuit = "Narin",
+			Subsumable = true
 		},
 		["Neutralize"] = {
 			Name = "Neutralize",
@@ -2561,13 +2562,13 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 		},
 		["Nurinarim"] = {
 			Name = "Nurinarim",
-			CardImage = "Nurinarimx256.png",
+			CardImage = "Nurinarim(xWhite).png",
 			Preview = "NurinarimPreview.webm",
 			PreviewFallback = "NurinarimPreview.jpg",
 			Cost = 25,
-			Description = "Requires full Ice to cast. An ancestral spirit descends upon Narin and she begins sword dancing for continuous nearby damage. Press Attack on the marked targets to launch shattering icy slashes that deplete Armor and Shields. Hitting Frozen enemies causes them to explode, dealing massive radial Cold Damage.",
+			Description = "Requires full Ice to cast. An ancestral spirit descends upon Narin and she begins sword dancing for continuous nearby damage. Press Attack on the marked targets to launch shattering icy slashes that deplete Armor and Shields. Hitting Frozen enemies causes them to explode, dealing massive radial  Cold Damage.",
 			Icon = "Nurinarim(xWhite).png",
-			InternalName = "/Lotus/Powersuits/Duelist/Abilities/",
+			InternalName = "/Lotus/Powersuits/Duelist/Abilities/DuelistBladeDanceAbility",
 			Introduced = "44",
 			Key = 4,
 			Powersuit = "Narin"
@@ -3807,7 +3808,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Preview = "SilencePreview.webm",
 			PreviewFallback = "SilencePreview.jpg",
 			Cost = 75,
-			Description = "Using Silence surrounds Banshee in an aura that stuns enemies and will limit their perceptions and tactical response to gunfire and Warframe attacks.",
+			Description = "Using Silence surrounds Banshee in an aura that stuns enemies, limits their perception and tactical response to gunfire and Warframe attacks, and renders them unable to activate their abilities.",
 			Icon = "SilenceIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Banshee/Abilities/SilenceAbility",
 			Introduced = "7",
@@ -3918,7 +3919,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 		},
 		["Snow Globe"] = {
 			Name = "Snow Globe",
-			Augments = { "Chilling Globe" },
+			Augments = { "Chilling Globe", "Cold Front" },
 			CardImage = "SnowGlobeModx256.png",
 			Preview = "SnowGlobePreview.webm",
 			PreviewFallback = "SnowGlobePreview.jpg",
@@ -3951,7 +3952,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Preview = "SonarPreview.webm",
 			PreviewFallback = "SonarPreview.jpg",
 			Cost = 50,
-			Description = "Using acoustic location, Banshee's Sonar power finds and tracks enemies, and exposes critical weak spots to everyone in your squad.",
+			Description = "Using acoustic location, Banshee's Sonar power finds and tracks enemies, and exposes critical weak points to everyone in your squad.",
 			Icon = "SonarIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Banshee/Abilities/SonarAbility",
 			Introduced = "7",
@@ -3960,12 +3961,12 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 		},
 		["Sonic Boom"] = {
 			Name = "Sonic Boom",
-			Augments = { "Sonic Fracture" },
+			Augments = { "Sonic Siphon" },
 			CardImage = "SonicBoomModx256.png",
 			Preview = "SonicBoomPreview.webm",
 			PreviewFallback = "SonicBoomPreview.jpg",
 			Cost = 25,
-			Description = "Banshee emits a sonic shockwave that pushes targets in range with enough force to incapacitate or kill attackers.",
+			Description = "Banshee emits a sonic shockwave that pushes targets in range with enough force to incapacitate attackers and reduce their Armor.",
 			Icon = "SonicBoomIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Banshee/Abilities/PushAbility",
 			Introduced = "7",
@@ -3988,12 +3989,12 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 		},
 		["Sound Quake"] = {
 			Name = "Sound Quake",
-			Augments = { "Resonating Quake" },
+			Augments = { "Gaseous Quake" },
 			CardImage = "SoundQuakeModx256.png",
 			Preview = "SoundQuakePreview.webm",
 			PreviewFallback = "SoundQuakePreview.jpg",
-			Cost = 25,
-			Description = "Channeling all of her acoustic energy into the environment, Banshee uses ultrasonic reverberations to violently shake the ground.",
+			Cost = 75,
+			Description = "Channeling all of her acoustic energy into the environment, Banshee uses ultrasonic reverberations to violently shake the ground in a targeted area.",
 			Icon = "SoundQuakeIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Banshee/Abilities/SonicEarthQuakeAbility",
 			Introduced = "7",
@@ -4781,6 +4782,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 		},
 		["Widow's Brood"] = {
 			Name = "Widow's Brood",
+			Augments = { "Brood's Oversurge" },
 			CardImage = "Widow'sBrood.png",
 			Preview = "Widow'sBroodPreview.webm",
 			PreviewFallback = "Widow'sBroodPreview.jpg",

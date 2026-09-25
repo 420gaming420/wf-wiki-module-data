@@ -451,6 +451,17 @@ return {
         Part = "Arm",
         Type = "Armor"
     },
+    ["Banshee Threnodia Shoulder Armor (Left)"] = {
+        CodexSecret = false,
+        Description = "Default armor for Banshee Threnodia.",
+        ExcludeFromCodex = true,
+        Image = "BansheeThrenodiaArmor.png",
+        InternalName = "/Lotus/Upgrades/Skins/Decree/BansheeDeluxeBArmLeftArmor",
+        Link = "Banshee Threnodia Shoulder Armor (Left)",
+        Name = "Banshee Threnodia Shoulder Armor (Left)",
+        Part = "Arm",
+        Type = "Armor"
+    },
     ["Banshee Voidshell Armor (Left)"] = {
         CodexSecret = false,
         Description = "Don with morphic material created in the Zariman Void Jump. The material manifests chemical structures from liquid to stone.",

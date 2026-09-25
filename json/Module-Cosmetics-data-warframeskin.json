@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-19T02:13:43.237Z"
+    "converted_at": "2026-09-25T07:21:02.208Z"
   },
   "_comments": "",
   "Nyx Athena Skin": {
@@ -2681,10 +2681,10 @@
   "Banshee Threnodia Skin": {
     "Type": "Skin",
     "Image": "BansheeThrenodiaSkin.png",
-    "Description": "TBA",
+    "Description": "Banshee Threnodia's stark visage is an inexorable omen of death. Her mournful apparition brings despair to the wicked, her song the dirge of defeat.",
     "Link": "Banshee Threnodia Skin",
     "Name": "Banshee Threnodia Skin",
-    "InternalName": "",
+    "InternalName": "/Lotus/Upgrades/Skins/Decree/BansheeDeluxeBSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -3212,10 +3212,10 @@
   "Qorvex Basilica Skin": {
     "Type": "Skin",
     "Image": "QorvexBasilicaSkin.png",
-    "Description": "TBA",
+    "Description": "Avert the gaze of evildoers with the intricately carved spires of Qorvex Basilica. His grim shadow is a symbol of protection for his allies.",
     "Link": "Qorvex Basilica Skin",
     "Name": "Qorvex Basilica Skin",
-    "InternalName": "",
+    "InternalName": "/Lotus/Upgrades/Skins/ConcreteFrame/QorvexDeluxeSkin",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },

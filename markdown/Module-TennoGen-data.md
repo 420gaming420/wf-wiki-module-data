@@ -1,14 +1,15 @@
 ---
 title: "Module:TennoGen/data"
 wiki_url: "https://wiki.warframe.com/w/Module/TennoGen/data"
-wiki_timestamp: "2026-09-08T19:34:14Z"
+wiki_timestamp: "2026-09-24T07:51:19Z"
 ---
 
 Database of [TennoGen](/w/TennoGen "TennoGen") items. For more canonical data related to TennoGen cosmetics see [Module:Cosmetics/data](/w/Module:Cosmetics/data "Module:Cosmetics/data").
 
 ## TennoGen Item Schema
 
-[[edit source](/w/Module:TennoGen/data/doc?action=edit&section=T-1 "Edit section's source code: TennoGen Item Schema")]
+[[edit](/w/Module:TennoGen/data/doc?action=edit&section=T-1 "Edit Section using Source Editor:
+TennoGen Item Schema")]
 
 ```lua
 ["Item Name"] = {
@@ -501,13 +502,13 @@ return {
     },
     ["Citrine Heliotropia Helmet"] = {
      	Artists = { "Ventralhound" },
-     	ConsolePrice = "TBA",
+     	ConsolePrice = "65",
      	Image = "CitrineHeliotropiaHelmet.png",
      	Link = "Citrine Heliotropia Helmet",
      	Name = "Citrine Heliotropia Helmet",
-     	PcPrice = "TBA",
+     	PcPrice = "$5.99",
      	Round = "TennoGen Iceblade",
-     	Introduced = "TBA",
+     	Introduced = "44",
      	SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=3624724373",
      	Description = "A helmet for the Citrine Warframe, designed by Ventralhound",
      	Type = "Helmet",
@@ -1803,13 +1804,13 @@ return {
 	},
     ["Jade Coven Skin"] = {
      	Artists = { "blazingcobalt" },
-     	ConsolePrice = "165",
+     	ConsolePrice = "105",
      	Image = "JadeCovenSkin.png",
      	Link = "Jade Coven Skin",
      	Name = "Jade Coven Skin",
-     	PcPrice = "TBA",
+     	PcPrice = "$6.99",
      	Round = "TennoGen Iceblade",
-     	Introduced = "TBA",
+     	Introduced = "44",
      	SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=3617376183",
      	Description = "A unique skin for the Jade Warframe, designed by blazingcobalt",
      	Type = "Deluxe",

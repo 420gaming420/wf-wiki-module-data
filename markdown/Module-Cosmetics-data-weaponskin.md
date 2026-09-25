@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/weaponskin"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/weaponskin"
-wiki_timestamp: "2026-09-05T06:28:59Z"
+wiki_timestamp: "2026-09-24T13:13:23Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/weaponskin/doc](/w/Module:Cosmetics/data/weaponskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/weaponskin/doc (page does not exist)")*
@@ -3410,6 +3410,16 @@ return {
         Name = "Magnus Tekelu Skin",
         Type = "Weapon Skin"
     },
+    ["Mandonel Chythedra Skin"] = {
+        CodexSecret = false,
+        Description = "The Mandonel archgun, chiseled from the same ancient stone as Qorvex Basilica.",
+        ExcludeFromCodex = false,
+        Image = "MandonelChythedraSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/ConcreteFrame/QorvexDeluxeArchGunSkin",
+        Link = "Mandonel Chythedra Skin",
+        Name = "Mandonel Chythedra Skin",
+        Type = "Weapon Skin"
+    },
     ["Marelok Conclave Skin"] = {
         CodexSecret = false,
         Description = "Bow to the Conclave with this weapon skin.",
@@ -3573,6 +3583,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Rapier/TnLotusRapierSkin",
         Link = "Nefertym Rapier Skin",
         Name = "Nefertym Rapier Skin",
+        Type = "Weapon Skin"
+    },
+    ["Neote Rapier Skin"] = {
+        CodexSecret = false,
+        Description = "Narin's frozen rapier skin, bestowed upon only those whom she deems worthy.",
+        ExcludeFromCodex = false,
+        Image = "NeoteRapierSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/Weapons/Rapier/",
+        Link = "Neote Rapier Skin",
+        Name = "Neote Rapier Skin",
         Type = "Weapon Skin"
     },
     ["Nidoblast Kompressa Skin"] = {

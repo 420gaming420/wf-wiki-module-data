@@ -248,6 +248,7 @@ return {
 		Ash = {
 			Abilities = { "Shuriken", "Smoke Screen", "Teleport", "Blade Storm" },
 			Armor = 105,
+			AugmentShop = { "Arbiters of Hexis", "Red Veil" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = true,
@@ -281,6 +282,7 @@ return {
 		["Ash Prime"] = {
 			Abilities = { "Shuriken", "Smoke Screen", "Teleport", "Blade Storm" },
 			Armor = 185,
+			AugmentShop = { "Arbiters of Hexis", "Red Veil" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = true,
@@ -314,6 +316,7 @@ return {
 		Atlas = {
 			Abilities = { "Landslide", "Tectonics", "Petrify", "Rumblers" },
 			Armor = 475,
+			AugmentShop = { "Red Veil", "Steel Meridian" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = true,
@@ -347,6 +350,7 @@ return {
 		["Atlas Prime"] = {
 			Abilities = { "Landslide", "Tectonics", "Petrify", "Rumblers" },
 			Armor = 500,
+			AugmentShop = { "Red Veil", "Steel Meridian" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = true,
@@ -380,6 +384,7 @@ return {
 		Banshee = {
 			Abilities = { "Sonic Boom", "Sonar", "Silence", "Sound Quake" },
 			Armor = 105,
+			AugmentShop = { "Cephalon Suda", "The Perrin Sequence" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = true,
@@ -413,6 +418,7 @@ return {
 		["Banshee Prime"] = {
 			Abilities = { "Sonic Boom", "Sonar", "Silence", "Sound Quake" },
 			Armor = 135,
+			AugmentShop = { "Cephalon Suda", "The Perrin Sequence" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = true,
@@ -447,6 +453,7 @@ return {
 		Baruuk = {
 			Abilities = { "Elude", "Lull", "Desolate Hands", "Serene Storm" },
 			Armor = 185,
+			AugmentShop = { "Arbiters of Hexis", "New Loka" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -482,6 +489,7 @@ return {
 		["Baruuk Prime"] = {
 			Abilities = { "Elude", "Lull", "Desolate Hands", "Serene Storm" },
 			Armor = 240,
+			AugmentShop = { "Arbiters of Hexis", "New Loka" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -518,6 +526,7 @@ return {
 		Brysko = {
 			Abilities = { "Brysko ability 1","Brysko ability 2","Brysko ability 3","Brysko ability 4" },
 			Armor = 0,
+			AugmentShop = {},
 			-- AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -554,6 +563,7 @@ return {
 		Caliban = {
 			Abilities = { "Razor Gyre", "Sentient Wrath", "Lethal Progeny", "Fusion Strike" },
 			Armor = 290,
+			AugmentShop = { "Cephalon Suda", "The Perrin Sequence" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -587,6 +597,7 @@ return {
 		["Caliban Prime"] = {
 			Abilities = { "Razor Gyre", "Sentient Wrath", "Lethal Progeny", "Fusion Strike" },
 			Armor = 290,
+			AugmentShop = { "Cephalon Suda", "The Perrin Sequence" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -622,6 +633,7 @@ return {
 		Chroma = {
 			Abilities = { "Spectral Scream", "Elemental Ward", "Vex Armor", "Effigy" },
 			Armor = 370,
+			AugmentShop = { "Cephalon Suda", "The Perrin Sequence" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = true,
@@ -658,6 +670,7 @@ return {
 		["Chroma Prime"] = {
 			Abilities = { "Spectral Scream", "Elemental Ward", "Vex Armor", "Effigy" },
 			Armor = 450,
+			AugmentShop = { "Cephalon Suda", "The Perrin Sequence" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = true,
@@ -696,6 +709,7 @@ return {
 		Citrine = {
 			Abilities = { "Fractured Blast", "Preserving Shell", "Prismatic Gem", "Crystallize" },
 			Armor = 265,
+			AugmentShop = { "Red Veil", "Steel Meridian" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -729,6 +743,7 @@ return {
 		["Citrine Prime"] = {
 			Abilities = { "Fractured Blast", "Preserving Shell", "Prismatic Gem", "Crystallize" },
 			Armor = 325,
+			AugmentShop = { "Red Veil", "Steel Meridian" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -761,6 +776,7 @@ return {
 		["Cyte-09"] = {
 			Abilities = { "Seek", "Resupply", "Evade", "Neutralize" },
 			Armor = 150,
+			AugmentShop = {},
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = false,
@@ -794,6 +810,7 @@ return {
 		Dagath = {
 			Abilities = { "Wyrd Scythes", "Doom", "Grave Spirit", "Rakhali's Cavalry" },
 			Armor = 125,
+			AugmentShop = { "Red Veil", "The Perrin Sequence" },
 			AuraPolarity = "Zenurik",
 			CodexSecret = false,
 			Conclave = false,
@@ -827,6 +844,7 @@ return {
 		Dante = {
 			Abilities = { "Noctua", "Light Verse", "Dark Verse", "Final Verse" },
 			Armor = 145,
+			AugmentShop = { "Arbiters of Hexis", "Cephalon Suda" },
 			AuraPolarity = "Aura",
 			CodexSecret = false,
 			Conclave = false,
@@ -863,6 +881,7 @@ return {
 		Ember = {
 			Abilities = { "Fireball", "Immolation", "Fire Blast", "Inferno" },
 			Armor = 135,
+			AugmentShop = { "Red Veil", "Steel Meridian" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = false,
@@ -896,6 +915,7 @@ return {
 		["Ember Prime"] = {
 			Abilities = { "Fireball", "Immolation", "Fire Blast", "Inferno" },
 			Armor = 160,
+			AugmentShop = { "Red Veil", "Steel Meridian" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = false,
@@ -929,6 +949,7 @@ return {
 		Equinox = {
 			Abilities = { "Metamorphosis", "Rest & Rage", "Pacify & Provoke", "Mend & Maim" },
 			Armor = 135,
+			AugmentShop = { "Arbiters of Hexis", "New Loka" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = true,
@@ -966,6 +987,7 @@ return {
 		["Equinox Prime"] = {
 			Abilities = { "Metamorphosis", "Rest & Rage", "Pacify & Provoke", "Mend & Maim" },
 			Armor = 160,
+			AugmentShop = { "Arbiters of Hexis", "New Loka" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = true,
@@ -1004,6 +1026,7 @@ return {
 		Excalibur = {
 			Abilities = { "Slash Dash", "Radial Blind", "Radial Javelin", "Exalted Blade" },
 			Armor = 240,
+			AugmentShop = { "Arbiters of Hexis", "Steel Meridian" },
 			CodexSecret = false,
 			Conclave = true,
 			Description = "Excalibur epitomizes the warrior spirit. His master swordsmanship deals high damage. He is the embodiment of martial excellence.",
@@ -1036,6 +1059,7 @@ return {
 		["Excalibur Prime"] = {
 			Abilities = { "Slash Dash", "Radial Blind", "Radial Javelin", "Exalted Blade" },
 			Armor = 315,
+			AugmentShop = { "Arbiters of Hexis", "Steel Meridian" },
 			AuraPolarity = "Madurai",
 			CodexSecret = true,
 			Conclave = true,
@@ -1069,6 +1093,7 @@ return {
 		["Excalibur Umbra"] = {
 			Abilities = { "Slash Dash", "Radial Howl", "Radial Javelin", "Exalted Blade" },
 			Armor = 315,
+			AugmentShop = { "Arbiters of Hexis", "Red Veil", "Steel Meridian" },
 			AuraPolarity = "Madurai",
 			CodexSecret = true,
 			Conclave = true,
@@ -1102,6 +1127,7 @@ return {
 		["Excalibur Umbra Prime"] = {
 			Abilities = { "Slash Dash", "Radial Blind", "Radial Javelin", "Exalted Blade" },
 			Armor = 315,
+			AugmentShop = { "Arbiters of Hexis", "Steel Meridian" },
 			AuraPolarity = "Naramon",
 			CodexSecret = true,
 			Conclave = false,
@@ -1135,6 +1161,7 @@ return {
 		Follie = {
 			Abilities = { "Forced Perspective", "Shadowgraph", "Self Portrait", "Plein Air" },
 			Armor = 325,
+			AugmentShop = {},
 			AuraPolarity = "Vazarin",
 			CodexSecret = false,
 			Conclave = false,
@@ -1170,6 +1197,7 @@ return {
 		Frost = {
 			Abilities = { "Freeze", "Ice Wave", "Snow Globe", "Avalanche" },
 			Armor = 315,
+			AugmentShop = { "Cephalon Suda", "Steel Meridian" },
 			AuraPolarity = "Vazarin",
 			CodexSecret = false,
 			Conclave = true,
@@ -1203,6 +1231,7 @@ return {
 		["Frost Prime"] = {
 			Abilities = { "Freeze", "Ice Wave", "Snow Globe", "Avalanche" },
 			Armor = 315,
+			AugmentShop = { "Cephalon Suda", "Steel Meridian" },
 			AuraPolarity = "Vazarin",
 			CodexSecret = false,
 			Conclave = true,
@@ -1236,6 +1265,7 @@ return {
 		Gara = {
 			Abilities = { "Shattered Lash", "Splinter Storm", "Spectrorage", "Mass Vitrify" },
 			Armor = 160,
+			AugmentShop = { "Arbiters of Hexis", "New Loka" },
 			AuraPolarity = "Vazarin",
 			CodexSecret = false,
 			Conclave = true,
@@ -1269,6 +1299,7 @@ return {
 		["Gara Prime"] = {
 			Abilities = { "Shattered Lash", "Splinter Storm", "Spectrorage", "Mass Vitrify" },
 			Armor = 200,
+			AugmentShop = { "Arbiters of Hexis", "New Loka" },
 			AuraPolarity = "Vazarin",
 			CodexSecret = false,
 			Conclave = true,
@@ -1302,6 +1333,7 @@ return {
 		Garuda = {
 			Abilities = { "Dread Mirror", "Blood Altar", "Bloodletting", "Seeking Talons" },
 			Armor = 315,
+			AugmentShop = { "Red Veil", "Steel Meridian" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = false,
@@ -1336,6 +1368,7 @@ return {
 		["Garuda Prime"] = {
 			Abilities = { "Dread Mirror", "Blood Altar", "Bloodletting", "Seeking Talons" },
 			Armor = 420,
+			AugmentShop = { "Red Veil", "Steel Meridian" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = false,
@@ -1370,6 +1403,7 @@ return {
 		Gauss = {
 			Abilities = { "Mach Rush", "Kinetic Plating", "Thermal Sunder", "Redline" },
 			Armor = 185,
+			AugmentShop = { "Arbiters of Hexis", "The Perrin Sequence" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -1407,6 +1441,7 @@ return {
 		['Gauss Prime'] = {
 			Abilities = { "Mach Rush", "Kinetic Plating", "Thermal Sunder", "Redline" },
 			Armor = 185,
+			AugmentShop = { "Arbiters of Hexis", "The Perrin Sequence" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -1445,6 +1480,7 @@ return {
 		Grendel = {
 			Abilities = { "Feast", "Nourish", "Pulverize", "Regurgitate" },
 			Armor = 370,
+			AugmentShop = { "Red Veil", "Steel Meridian" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -1480,6 +1516,7 @@ return {
 		['Grendel Prime'] = {
 			Abilities = { "Feast", "Nourish", "Pulverize", "Regurgitate" },
 			Armor = 400,
+			AugmentShop = { "Red Veil", "Steel Meridian" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -1516,6 +1553,7 @@ return {
 		Gyre = {
 			Abilities = { "Arcsphere", "Coil Horizon", "Cathode Grace", "Rotorswell" },
 			Armor = 105,
+			AugmentShop = { "Arbiters of Hexis", "The Perrin Sequence" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -1549,6 +1587,7 @@ return {
 		['Gyre Prime'] = {
 			Abilities = { "Arcsphere", "Coil Horizon", "Cathode Grace", "Rotorswell" },
 			Armor = 105,
+			AugmentShop = { "Arbiters of Hexis", "The Perrin Sequence" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -1582,6 +1621,7 @@ return {
 		Harrow = {
 			Abilities = { "Condemn", "Penance", "Thurible", "Covenant" },
 			Armor = 185,
+			AugmentShop = { "Arbiters of Hexis", "Red Veil" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = true,
@@ -1615,6 +1655,7 @@ return {
 		["Harrow Prime"] = {
 			Abilities = { "Condemn", "Penance", "Thurible", "Covenant" },
 			Armor = 185,
+			AugmentShop = { "Arbiters of Hexis", "Red Veil" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -1649,6 +1690,7 @@ return {
 		Hildryn = {
 			Abilities = { "Balefire", "Pillage", "Haven", "Aegis Storm" },
 			Armor = 315,
+			AugmentShop = { "Cephalon Suda", "The Perrin Sequence" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -1685,6 +1727,7 @@ return {
 		["Hildryn Prime"] = {
 			Abilities = { "Balefire", "Pillage", "Haven", "Aegis Storm" },
 			Armor = 315,
+			AugmentShop = { "Cephalon Suda", "The Perrin Sequence" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -1722,6 +1765,7 @@ return {
 		Hydroid = {
 			Abilities = { "Tempest Barrage", "Tidal Surge", "Plunder", "Tentacle Swarm" },
 			Armor = 365,
+			AugmentShop = { "Cephalon Suda", "New Loka" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = true,
@@ -1755,6 +1799,7 @@ return {
 		["Hydroid Prime"] = {
 			Abilities = { "Tempest Barrage", "Tidal Surge", "Plunder", "Tentacle Swarm" },
 			Armor = 650,
+			AugmentShop = { "Cephalon Suda", "New Loka" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = true,
@@ -1789,6 +1834,7 @@ return {
 		Inaros = {
 			Abilities = { "Desiccation", "Sandstorm", "Scarab Shell", "Scarab Swarm" },
 			Armor = 240,
+			AugmentShop = { "Arbiters of Hexis", "The Perrin Sequence" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			CompatibilityTags = { "SANDMAN" },
@@ -1829,6 +1875,7 @@ return {
 		["Inaros Prime"] = {
 			Abilities = { "Desiccation", "Sandstorm", "Scarab Shell", "Scarab Swarm" },
 			Armor = 240,
+			AugmentShop = { "Arbiters of Hexis", "The Perrin Sequence" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			CompatibilityTags = { "SANDMAN" },
@@ -1869,6 +1916,7 @@ return {
 		Ivara = {
 			Abilities = { "Quiver", "Navigator", "Prowl", "Artemis Bow" },
 			Armor = 105,
+			AugmentShop = { "Cephalon Suda", "The Perrin Sequence" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = true,
@@ -1902,6 +1950,7 @@ return {
 		["Ivara Prime"] = {
 			Abilities = { "Quiver", "Navigator", "Prowl", "Artemis Bow" },
 			Armor = 135,
+			AugmentShop = { "Cephalon Suda", "The Perrin Sequence" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = true,
@@ -1935,6 +1984,7 @@ return {
 		Jade = {
 			Abilities = { "Light's Judgment", "Symphony of Mercy", "Ophanim Eyes", "Glory on High" },
 			Armor = 135,
+			AugmentShop = { "Arbiters of Hexis", "Red Veil" },
 			AuraPolarity = { "Aura", "Vazarin" },
 			CodexSecret = false,
 			Conclave = false,
@@ -1971,6 +2021,7 @@ return {
 		Khora = {
 			Abilities = { "Whipclaw", "Ensnare", "Venari", "Strangledome" },
 			Armor = 290,
+			AugmentShop = { "Red Veil", "Steel Meridian" },
 			AuraPolarity = "Vazarin",
 			CodexSecret = false,
 			Conclave = true,
@@ -2010,6 +2061,7 @@ return {
 		["Khora Prime"] = {
 			Abilities = { "Whipclaw", "Ensnare", "Venari", "Strangledome" },
 			Armor = 345,
+			AugmentShop = { "Red Veil", "Steel Meridian" },
 			AuraPolarity = "Vazarin",
 			CodexSecret = false,
 			Conclave = true,
@@ -2050,6 +2102,7 @@ return {
 		Koumei = {
 			Abilities = { "Kumihimo", "Omikuji", "Omamori", "Bunraku" },
 			Armor = 444,
+			AugmentShop = { "Arbiters of Hexis", "New Loka" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = false,
@@ -2086,6 +2139,7 @@ return {
 			Abilities = { "Wrathful Advance", "Recompense", "Collective Curse", "Storm of Ukko" },
 			Armor = 550,
 			ArmorRank30 = 650,
+			AugmentShop = { "New Loka", "Steel Meridian" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -2124,6 +2178,7 @@ return {
 			AdditionalNotes = { "Ability Duration affects proc duration from abilities" },
 			Armor = 575,
 			ArmorRank30 = 675,
+			AugmentShop = { "New Loka", "Red Veil" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -2161,6 +2216,7 @@ return {
 			AdditionalNotes = { "Ability Duration affects proc duration from abilities" },
 			Armor = 575,
 			ArmorRank30 = 675,
+			AugmentShop = { "New Loka", "Red Veil" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -2197,6 +2253,7 @@ return {
 		Limbo = {
 			Abilities = { "Banish", "Stasis", "Rift Surge", "Cataclysm" },
 			Armor = 105,
+			AugmentShop = { "Arbiters of Hexis", "Cephalon Suda" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -2230,6 +2287,7 @@ return {
 		["Limbo Prime"] = {
 			Abilities = { "Banish", "Stasis", "Rift Surge", "Cataclysm" },
 			Armor = 135,
+			AugmentShop = { "Arbiters of Hexis", "Cephalon Suda" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -2264,6 +2322,7 @@ return {
 		Loki = {
 			Abilities = { "Decoy", "Invisibility", "Switch Teleport", "Radial Disarm" },
 			Armor = 105,
+			AugmentShop = { "Arbiters of Hexis", "Red Veil" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = true,
@@ -2297,6 +2356,7 @@ return {
 		["Loki Prime"] = {
 			Abilities = { "Decoy", "Invisibility", "Switch Teleport", "Radial Disarm" },
 			Armor = 135,
+			AugmentShop = { "Arbiters of Hexis", "Red Veil" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = true,
@@ -2330,6 +2390,7 @@ return {
 		Mag = {
 			Abilities = { "Pull", "Magnetize", "Polarize", "Crush" },
 			Armor = 105,
+			AugmentShop = { "New Loka", "The Perrin Sequence" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = true,
@@ -2363,6 +2424,7 @@ return {
 		["Mag Prime"] = {
 			Abilities = { "Pull", "Magnetize", "Polarize", "Crush" },
 			Armor = 135,
+			AugmentShop = { "New Loka", "The Perrin Sequence" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = true,
@@ -2396,6 +2458,7 @@ return {
 		Mesa = {
 			Abilities = { "Ballistic Battery", "Shooting Gallery", "Shatter Shield", "Peacemaker" },
 			Armor = 105,
+			AugmentShop = { "Red Veil", "Steel Meridian" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = true,
@@ -2429,6 +2492,7 @@ return {
 		["Mesa Prime"] = {
 			Abilities = { "Ballistic Battery", "Shooting Gallery", "Shatter Shield", "Peacemaker" },
 			Armor = 135,
+			AugmentShop = { "Red Veil", "Steel Meridian" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = true,
@@ -2463,6 +2527,7 @@ return {
 		Mirage = {
 			Abilities = { "Hall of Mirrors", "Sleight of Hand", "Eclipse", "Prism" },
 			Armor = 105,
+			AugmentShop = { "Arbiters of Hexis", "Cephalon Suda" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = true,
@@ -2496,6 +2561,7 @@ return {
 		["Mirage Prime"] = {
 			Abilities = { "Hall of Mirrors", "Sleight of Hand", "Eclipse", "Prism" },
 			Armor = 185,
+			AugmentShop = { "Arbiters of Hexis", "Cephalon Suda" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = true,
@@ -2531,6 +2597,7 @@ return {
 		Narin = {
 			Abilities = { "Neote", "Naraemagi", "Hakchum", "Nurinarim" },
 			Armor = 165,
+			AugmentShop = {},
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -2551,7 +2618,7 @@ return {
 			Playstyle = { "Damage", "Crowd Control" },
 			Polarities = { "Madurai", "Vazarin" },
 			Portrait = "Narin_Thumb.png",
-			Progenitor = "Freeze",
+			Progenitor = "Cold",
 			SellPrice = 25000,
 			Sex = "Female",
 			Shield = 550,
@@ -2565,6 +2632,7 @@ return {
 		Nekros = {
 			Abilities = { "Soul Punch", "Terrify", "Desecrate", "Shadows of the Dead" },
 			Armor = 105,
+			AugmentShop = { "Red Veil", "The Perrin Sequence" },
 			CodexSecret = false,
 			Conclave = true,
 			Description = "There is a reaper whose name is Nekros. He provides deathly crowd control. Erstwhile enemies become allies when Nekros calls up recruits from the dead.",
@@ -2597,6 +2665,7 @@ return {
 		["Nekros Prime"] = {
 			Abilities = { "Soul Punch", "Terrify", "Desecrate", "Shadows of the Dead" },
 			Armor = 135,
+			AugmentShop = { "Red Veil", "The Perrin Sequence" },
 			CodexSecret = false,
 			Conclave = true,
 			Description = "Death's new master. Featuring altered mod polarities allow for greater customization.",
@@ -2629,6 +2698,7 @@ return {
 		Nezha = {
 			Abilities = { "Fire Walker", "Blazing Chakram", "Warding Halo", "Divine Spears" },
 			Armor = 200,
+			AugmentShop = { "Cephalon Suda", "Steel Meridian" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = true,
@@ -2663,6 +2733,7 @@ return {
 		["Nezha Prime"] = {
 			Abilities = { "Fire Walker", "Blazing Chakram", "Warding Halo", "Divine Spears" },
 			Armor = 265,
+			AugmentShop = { "Cephalon Suda", "Steel Meridian" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = true,
@@ -2699,6 +2770,7 @@ return {
 			AdditionalNotes = { "+10 Health/s Regeneration at max rank" },
 			Armor = 350,
 			ArmorRank30 = 450,
+			AugmentShop = { "Steel Meridian", "The Perrin Sequence" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			CompatibilityTags = { "SANDMAN" },
@@ -2739,6 +2811,7 @@ return {
 			AdditionalNotes = { "+10 Health/s Regeneration at max rank" },
 			Armor = 425,
 			ArmorRank30 = 525,
+			AugmentShop = { "Steel Meridian", "The Perrin Sequence" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			CompatibilityTags = { "SANDMAN" },
@@ -2777,6 +2850,7 @@ return {
 		Nokko = {
 			Abilities = { "Stinkbrain", "Brightbonnet", "Reroot", "Sporespring" },
 			Armor = 135,
+			AugmentShop = { "Red Veil", "The Perrin Sequence" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = false,
@@ -2813,6 +2887,7 @@ return {
 		Nova = {
 			Abilities = { "Null Star", "Antimatter Drop", "Wormhole", "Molecular Prime" },
 			Armor = 105,
+			AugmentShop = { "Cephalon Suda","Steel Meridian" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = true,
@@ -2846,6 +2921,7 @@ return {
 		["Nova Prime"] = {
 			Abilities = { "Null Star", "Antimatter Drop", "Wormhole", "Molecular Prime" },
 			Armor = 135,
+			AugmentShop = { "Cephalon Suda","Steel Meridian" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = true,
@@ -2879,6 +2955,7 @@ return {
 		Nyx = {
 			Abilities = { "Mind Control", "Psychic Bolts", "Chaos", "Absorb" },
 			Armor = 105,
+			AugmentShop = { "Arbiters of Hexis", "New Loka" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = true,
@@ -2912,6 +2989,7 @@ return {
 		["Nyx Prime"] = {
 			Abilities = { "Mind Control", "Psychic Bolts", "Chaos", "Absorb" },
 			Armor = 135,
+			AugmentShop = { "Arbiters of Hexis", "New Loka" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = true,
@@ -2945,6 +3023,7 @@ return {
 		Oberon = {
 			Abilities = { "Smite", "Hallowed Ground", "Renewal", "Reckoning" },
 			Armor = 385,
+			AugmentShop = { "New Loka", "Steel Meridian" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = true,
@@ -2978,6 +3057,7 @@ return {
 		["Oberon Prime"] = {
 			Abilities = { "Smite", "Hallowed Ground", "Renewal", "Reckoning" },
 			Armor = 450,
+			AugmentShop = { "New Loka", "Steel Meridian" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = true,
@@ -3012,6 +3092,7 @@ return {
 		Octavia = {
 			Abilities = { "Mallet", "Resonator", "Metronome", "Amp" },
 			Armor = 160,
+			AugmentShop = { "Cephalon Suda", "New Loka" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = true,
@@ -3046,6 +3127,7 @@ return {
 		["Octavia Prime"] = {
 			Abilities = { "Mallet", "Resonator", "Metronome", "Amp" },
 			Armor = 160,
+			AugmentShop = { "Cephalon Suda", "New Loka" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = true,
@@ -3080,6 +3162,7 @@ return {
 		Oraxia = {
 			Abilities = { "Mercy's Kiss", "Webbed Embrace", "Widow's Brood", "Silken Stride" },
 			Armor = 125,
+			AugmentShop = { "Cephalon Suda", "New Loka" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = false,
@@ -3113,6 +3196,7 @@ return {
 		Orion = {
 			Abilities = { "Gravitic Slash", "Astral Shell", "Event Horizon", "Celestial Clash" },
 			Armor = 300,
+			AugmentShop = {},
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -3147,6 +3231,7 @@ return {
 		Protea = {
 			Abilities = { "Grenade Fan", "Blaze Artillery", "Dispensary", "Temporal Anchor" },
 			Armor = 135,
+			AugmentShop = { "Arbiters of Hexis", "The Perrin Sequence" },
 			AuraPolarity = "Aura",
 			CodexSecret = false,
 			Conclave = false,
@@ -3180,6 +3265,7 @@ return {
 		["Protea Prime"] = {
 			Abilities = { "Grenade Fan", "Blaze Artillery", "Dispensary", "Temporal Anchor" },
 			Armor = 185,
+			AugmentShop = { "Arbiters of Hexis", "The Perrin Sequence" },
 			AuraPolarity = "Aura",
 			CodexSecret = false,
 			Conclave = false,
@@ -3214,6 +3300,7 @@ return {
 		Qorvex = {
 			Abilities = { "Chyrinka Pillar", "Containment Wall", "Disometric Guard", "Crucible Blast" },
 			Armor = 875,
+			AugmentShop = { "Cephalon Suda", "Steel Meridian" },
 			AuraPolarity = "Vazarin",
 			CodexSecret = false,
 			Conclave = false,
@@ -3247,6 +3334,7 @@ return {
 		Revenant = {
 			Abilities = { "Enthrall", "Mesmer Skin", "Reave", "Danse Macabre" },
 			Armor = 135,
+			AugmentShop = { "Cephalon Suda", "The Perrin Sequence" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -3280,6 +3368,7 @@ return {
 		["Revenant Prime"] = {
 			Abilities = { "Enthrall", "Mesmer Skin", "Reave", "Danse Macabre" },
 			Armor = 135,
+			AugmentShop = { "Cephalon Suda", "The Perrin Sequence" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -3313,6 +3402,7 @@ return {
 		Rhino = {
 			Abilities = { "Rhino Charge", "Iron Skin", "Roar", "Rhino Stomp" },
 			Armor = 240,
+			AugmentShop = { "Steel Meridian", "The Perrin Sequence" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = true,
@@ -3349,6 +3439,7 @@ return {
 		["Rhino Prime"] = {
 			Abilities = { "Rhino Charge", "Iron Skin", "Roar", "Rhino Stomp" },
 			Armor = 290,
+			AugmentShop = { "Steel Meridian", "The Perrin Sequence" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = true,
@@ -3385,6 +3476,7 @@ return {
 		Saryn = {
 			Abilities = { "Spores", "Molt", "Toxic Lash", "Miasma" },
 			Armor = 240,
+			AugmentShop = { "Red Veil", "Steel Meridian" },
 			AuraPolarity = "Vazarin",
 			CodexSecret = false,
 			Conclave = true,
@@ -3418,6 +3510,7 @@ return {
 		["Saryn Prime"] = {
 			Abilities = { "Spores", "Molt", "Toxic Lash", "Miasma" },
 			Armor = 315,
+			AugmentShop = { "Red Veil", "Steel Meridian" },
 			AuraPolarity = "Vazarin",
 			CodexSecret = false,
 			Conclave = true,
@@ -3452,6 +3545,7 @@ return {
 		Sevagoth = {
 			Abilities = { "Reap", "Sow", "Gloom", "Exalted Shadow" },
 			Armor = 160,
+			AugmentShop = { "Cephalon Suda", "The Perrin Sequence" },
 			CodexSecret = false,
 			Conclave = false,
 			Description = "No longer adrift in the Void, Sevagoth has returned. He and his Shadow deal heavy damage and have high survivability. They are sustained by the reaping of wayward souls.",
@@ -3484,6 +3578,7 @@ return {
 		["Sevagoth's Shadow"] = {
 			Abilities = { "Embrace", "Consume", "Death's Harvest", "Reunite" },
 			Armor = 475,
+			AugmentShop = { "Cephalon Suda", "The Perrin Sequence" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = false,
@@ -3519,6 +3614,7 @@ return {
 		["Sevagoth Prime"] = {
 			Abilities = { "Reap", "Sow", "Gloom", "Exalted Shadow" },
 			Armor = 185,
+			AugmentShop = { "Cephalon Suda", "The Perrin Sequence" },
 			CodexSecret = false,
 			Conclave = false,
 			Description = "The gilded helmsman emerges from the tempest, his shadow a lure for doomed souls.",
@@ -3552,6 +3648,7 @@ return {
 		["Sevagoth Prime's Shadow"] = {
 			Abilities = { "Embrace", "Consume", "Death's Harvest", "Reunite" },
 			Armor = 475,
+			AugmentShop = { "Cephalon Suda", "The Perrin Sequence" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = false,
@@ -3587,6 +3684,7 @@ return {
 		Sirius = {
 			Abilities = { "Coronal Ejection", "Jade Stars", "Light's Sanctuary", "Celestial Clash" },
 			Armor = 160,
+			AugmentShop = {},
 			AuraPolarity = "Vazarin",
 			CodexSecret = false,
 			Conclave = false,
@@ -3621,6 +3719,7 @@ return {
 		["Sirius & Orion"] = { -- NOTE: Use "Sirius" and "Orion" individually to populate page data instead.
 		    Abilities = { "Coronal Ejection", "Gravitic Slash", "Jade Stars", "Astral Shell", "Light's Sanctuary", "Event Horizon", "Celestial Clash" },
 		    Armor = 160,
+		    AugmentShop = {},
 		    AuraPolarity = { "Vazarin", "Naramon" },
 		    CodexSecret = false,
 		    Conclave = false,
@@ -3654,6 +3753,7 @@ return {
 		Stalker = {
 			Abilities = { "Teleport (Stalker)", "Marked", "Smoke Screen (Stalker)", "Punishment" },
 			Armor = 135,
+			AugmentShop = {},
 			CodexSecret = true,
 			Conclave = false,
 			Description = "An ally from an unknown time and place. Stalker is a powerful force within the shadows.",
@@ -3686,6 +3786,7 @@ return {
 		Styanax = {
 			Abilities = { "Axios Javelin", "Tharros Strike", "Rally Point", "Final Stand" },
 			Armor = 265,
+			AugmentShop = { "Arbiters of Hexis", "New Loka" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -3722,6 +3823,7 @@ return {
 		["Styanax Prime"] = {
 			Abilities = { "Axios Javelin", "Tharros Strike", "Rally Point", "Final Stand" },
 			Armor = 265,
+			AugmentShop = { "Arbiters of Hexis", "New Loka" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -3757,6 +3859,7 @@ return {
 		Temple = {
 			Abilities = { "Pyrotechnics", "Overdrive", "Ripper's Wail", "Exalted Solo" },
 			Armor = 325,
+			AugmentShop = { "New Loka", "Steel Meridian" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -3790,6 +3893,7 @@ return {
 		Titania = {
 			Abilities = { "Spellbind", "Tribute", "Lantern", "Razorwing" },
 			Armor = 105,
+			AugmentShop = { "New Loka", "Red Veil" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = true,
@@ -3823,6 +3927,7 @@ return {
 		["Titania Prime"] = {
 			Abilities = { "Spellbind", "Tribute", "Lantern", "Razorwing" },
 			Armor = 135,
+			AugmentShop = { "New Loka", "Red Veil" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = false,
@@ -3857,6 +3962,7 @@ return {
 		Trinity = {
 			Abilities = { "Well of Life", "Energy Vampire", "Link", "Blessing" },
 			Armor = 105,
+			AugmentShop = { "New Loka", "The Perrin Sequence" },
 			AuraPolarity = "Vazarin",
 			CodexSecret = false,
 			Conclave = true,
@@ -3890,6 +3996,7 @@ return {
 		["Trinity Prime"] = {
 			Abilities = { "Well of Life", "Energy Vampire", "Link", "Blessing" },
 			Armor = 135,
+			AugmentShop = { "New Loka", "The Perrin Sequence" },
 			AuraPolarity = "Vazarin",
 			CodexSecret = false,
 			Conclave = true,
@@ -3923,6 +4030,7 @@ return {
 		Uriel = {
 			Abilities = { "Infernalis", "Remedium", "Demonium", "Brimstone" },
 			Armor = 105,
+			AugmentShop = { "Steel Meridian", "The Perrin Sequence" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = false,
@@ -3956,6 +4064,7 @@ return {
 		Valkyr = {
 			Abilities = { "Rip Line", "Warcry", "Paralysis", "Hysteria" },
 			Armor = 855,
+			AugmentShop = { "New Loka", "The Perrin Sequence" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = true,
@@ -3993,6 +4102,7 @@ return {
 		["Valkyr Prime"] = {
 			Abilities = { "Rip Line", "Warcry", "Paralysis", "Hysteria" },
 			Armor = 1000,
+			AugmentShop = { "New Loka", "The Perrin Sequence" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = true,
@@ -4030,6 +4140,7 @@ return {
 		Vauban = {
 			Abilities = { "Tesla Nervos", "Minelayer", "Photon Strike", "Bastille" },
 			Armor = 160,
+			AugmentShop = { "Cephalon Suda", "The Perrin Sequence" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -4063,6 +4174,7 @@ return {
 		["Vauban Prime"] = {
 			Abilities = { "Tesla Nervos", "Minelayer", "Photon Strike", "Bastille" },
 			Armor = 210,
+			AugmentShop = { "Cephalon Suda", "The Perrin Sequence" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -4096,6 +4208,7 @@ return {
 		Volt = {
 			Abilities = { "Shock", "Speed", "Electric Shield", "Discharge" },
 			Armor = 105,
+			AugmentShop = { "Arbiters of Hexis", "Red Veil" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = true,
@@ -4129,6 +4242,7 @@ return {
 		["Volt Prime"] = {
 			Abilities = { "Shock", "Speed", "Electric Shield", "Discharge" },
 			Armor = 135,
+			AugmentShop = { "Arbiters of Hexis", "Red Veil" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = true,
@@ -4163,6 +4277,7 @@ return {
 		Voruna = {
 			Abilities = { "Shroud of Dynar", "Fangs of Raksh", "Lycath's Hunt", "Ulfrun's Descent" },
 			Armor = 200,
+			AugmentShop = { "Red Veil", "Steel Meridian" },
 			AuraPolarity = "Vazarin",
 			CodexSecret = false,
 			Conclave = false,
@@ -4196,6 +4311,7 @@ return {
 		["Voruna Prime"] = {
 			Abilities = { "Shroud of Dynar", "Fangs of Raksh", "Lycath's Hunt", "Ulfrun's Descent" },
 			Armor = 265,
+			AugmentShop = { "Red Veil", "Steel Meridian" },
 			AuraPolarity = "Vazarin",
 			CodexSecret = false,
 			Conclave = false,
@@ -4228,6 +4344,7 @@ return {
 		Wisp = {
 			Abilities = { "Reservoirs", "Wil-O-Wisp", "Breach Surge", "Sol Gate" },
 			Armor = 185,
+			AugmentShop = { "Cephalon Suda", "New Loka" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -4262,6 +4379,7 @@ return {
 		["Wisp Prime"]= {
 			Abilities = { "Reservoirs", "Wil-O-Wisp", "Breach Surge", "Sol Gate" },
 			Armor = 210,
+			AugmentShop = { "Cephalon Suda", "New Loka" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -4296,6 +4414,7 @@ return {
 		Wukong = {
 			Abilities = { "Celestial Twin", "Cloud Walker", "Defy", "Primal Fury" },
 			Armor = 265,
+			AugmentShop = { "Arbiters of Hexis", "New Loka" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = false,
@@ -4329,6 +4448,7 @@ return {
 		["Wukong Prime"] = {
 			Abilities = { "Celestial Twin", "Cloud Walker", "Defy", "Primal Fury" },
 			Armor = 290,
+			AugmentShop = { "Arbiters of Hexis", "New Loka" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = false,
@@ -4363,6 +4483,7 @@ return {
 		Xaku = {
 			Abilities = { "Xata's Whisper", "Grasp of Lohk", "The Lost", "The Vast Untime" },
 			Armor = 146,
+			AugmentShop = { "Cephalon Suda", "Steel Meridian" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -4404,6 +4525,7 @@ return {
 		["Xaku Prime"] = {
 			Abilities = { "Xata's Whisper", "Grasp of Lohk", "The Lost", "The Vast Untime" },
 			Armor = 167,
+			AugmentShop = { "Cephalon Suda", "Steel Meridian" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
 			Conclave = false,
@@ -4445,6 +4567,7 @@ return {
 		Yareli = {
 			Abilities = { "Sea Snares", "Merulina", "Aquablades", "Riptide" },
 			Armor = 105,
+			AugmentShop = { "Cephalon Suda", "New Loka" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = false,
@@ -4483,6 +4606,7 @@ return {
 		["Yareli Prime"] = {
 			Abilities = { "Sea Snares", "Merulina", "Aquablades", "Riptide" },
 			Armor = 105,
+			AugmentShop = { "Cephalon Suda", "New Loka" },
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = false,
@@ -4521,6 +4645,7 @@ return {
 		Zephyr = {
 			Abilities = { "Tail Wind", "Airburst", "Turbulence", "Tornado" },
 			Armor = 105,
+			AugmentShop = { "New Loka", "Red Veil" },
 			AuraPolarity = "Vazarin",
 			CodexSecret = false,
 			Conclave = true,
@@ -4554,6 +4679,7 @@ return {
 		["Zephyr Prime"] = {
 			Abilities = { "Tail Wind", "Airburst", "Turbulence", "Tornado" },
 			Armor = 135,
+			AugmentShop = { "New Loka", "Red Veil" },
 			AuraPolarity = "Vazarin",
 			CodexSecret = false,
 			Conclave = true,

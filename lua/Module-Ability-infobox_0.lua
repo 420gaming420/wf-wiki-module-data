@@ -60,7 +60,7 @@ local drains = {
 	['Renewal'      ] = { {v=true}, {v=3.5, u='/s'}, },
 	['Silken Stride'] = { {v=true}, {v=5, u='/s'}, },
 	['Sol Gate'     ] = { {v=true}, {v='12-24', u='/s'}, },
-	['Sound Quake'  ] = { {v=true}, {v=byRank(25,18,15,12), u='/s'}, },
+	-- ['Sound Quake'  ] = { {v=true}, {v=byRank(25,18,15,12), u='/s'}, }, --
 	['Spectral Scream'] = { {v=true}, {v=3, u='/s'}, },
 	['Tail Wind'    ] = { {v=true}, {v=-12.5, u=' (airborne)'}, {v=5, u='/s hovering'}, }, -- WIP
 	['Undertow'     ] = { {v=true}, {v=6, u='/s'}, {v=5, u='/grab'}, {v=5, u='/m'--[[eter']]}, },

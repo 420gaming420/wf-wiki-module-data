@@ -998,7 +998,7 @@ return {
         Description = "Qorvex Basilica's signature syandana perches on your shoulders, keeping a sharp eye over all.",
         ExcludeFromCodex = false,
         Image = "GarkulekSyandana.png",
-        InternalName = "/Lotus/Upgrades/Skins/Scarves/",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/QorvexDeluxeSyandana",
         Link = "Garkulek Syandana",
         Name = "Garkulek Syandana",
         Type = "Syandana"
@@ -2381,11 +2381,11 @@ return {
     ["Reliquia Syandana"] = {
         Artists = { "lex182", "Therion" },
         CodexSecret = false,
-        ConsolePrice = "105",
+        ConsolePrice = "100",
         Description = "A syandana for your Warframe, designed by lex182 and Therion",
         ExcludeFromCodex = false,
         Image = "ReliquiaSyandana.png",
-        Introduced = "TBA",
+        Introduced = "44",
         Link = "Reliquia Syandana",
         Name = "Reliquia Syandana",
         PcPrice = "$5.99",

@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/armor"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/armor"
-wiki_timestamp: "2026-09-18T13:27:37Z"
+wiki_timestamp: "2026-09-24T13:01:01Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/armor/doc](/w/Module:Cosmetics/data/armor/doc?action=edit&redlink=1 "Module:Cosmetics/data/armor/doc (page does not exist)")*
@@ -456,6 +456,17 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Decree/BansheeDeluxeArmLeftArmor",
         Link = "Banshee Soprana Shoulder Armor (Left)",
         Name = "Banshee Soprana Shoulder Armor (Left)",
+        Part = "Arm",
+        Type = "Armor"
+    },
+    ["Banshee Threnodia Shoulder Armor (Left)"] = {
+        CodexSecret = false,
+        Description = "Default armor for Banshee Threnodia.",
+        ExcludeFromCodex = true,
+        Image = "BansheeThrenodiaArmor.png",
+        InternalName = "/Lotus/Upgrades/Skins/Decree/BansheeDeluxeBArmLeftArmor",
+        Link = "Banshee Threnodia Shoulder Armor (Left)",
+        Name = "Banshee Threnodia Shoulder Armor (Left)",
         Part = "Arm",
         Type = "Armor"
     },

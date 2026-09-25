@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/ephemera"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/ephemera"
-wiki_timestamp: "2026-09-24T06:11:21Z"
+wiki_timestamp: "2026-09-24T13:03:51Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/ephemera/doc](/w/Module:Cosmetics/data/ephemera/doc?action=edit&redlink=1 "Module:Cosmetics/data/ephemera/doc (page does not exist)")*
@@ -53,7 +53,7 @@ return {
         Description = "Beckon Qorvex Basilica's fluttering fellows to your side with his signature ephemera.",
         ExcludeFromCodex = false,
         Image = "BelfriEphemera.png",
-        InternalName = "/Lotus/Upgrades/Skins/Effects/",
+        InternalName = "/Lotus/Upgrades/Skins/Effects/QorvexDeluxeEphemera",
         Link = "Belfri Ephemera",
         Name = "Belfri Ephemera",
         Type = "Ephemera"

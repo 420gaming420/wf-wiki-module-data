@@ -1,12 +1,12 @@
 ---
 title: "Module:Resources/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Resources/data"
-wiki_timestamp: "2026-09-23T16:43:35Z"
+wiki_timestamp: "2026-09-24T15:23:32Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME") [Resources](/w/Resources "Resources"), items, and components. For blueprints which require resources to be crafted, see [Module:Blueprints/data](/w/Module:Blueprints/data "Module:Blueprints/data").
 
-:   *Last updated: Wed, 23 Sep 2026 16:43:35 +0000 (UTC) by [User:FAKIR](/w/User:FAKIR "User:FAKIR") ([change log](https://wiki.warframe.com/w/Module:Resources/data?diff=0))*
+:   *Last updated: Thu, 24 Sep 2026 15:23:32 +0000 (UTC) by [User:Twilight053](/w/User:Twilight053 "User:Twilight053") ([change log](https://wiki.warframe.com/w/Module:Resources/data?diff=0))*
 
 ## Contents
 
@@ -12090,6 +12090,15 @@ local ResourceData = {
 		ResourceDropChanceBoostAble = true,
 		RetrieverModAble = true,
 	},
+	["Riven Splicer"] = { 
+		Description = "Used in the Mod Workbench to splice Riven traits into a new trait from a special pool of possibilities.",
+		Image = "RivenSplicer.png",
+		InternalName = "/Lotus/Types/Items/MiscItems/RivenSplicer",
+		Introduced = "44",
+		Link = "Riven Splicer",
+		Name = "Riven Splicer",
+		Type = "Resource",
+	},
 	
 	-- Jade Shadows: Constellations --
 	["Crimson Talent"] = {
@@ -12111,6 +12120,20 @@ local ResourceData = {
 		Introduced = "43",
 		Link = "Emerald Talent",
 		Name = "Emerald Talent",
+		Type = "Resource",
+		ResourceBoostAble = false,
+		ResourceDropChanceBoostAble = false,
+		RetrieverModAble = false,
+	},
+
+	-- Epoch Operation: Taubound --
+	["Moonflesh"] = {
+		-- Description = "Eris, carved up and presented to Praghasa in bite sized chunks.\r\n\r\nObtained from Infested nodes on Eris during Epoch Operation: Taubound.", -- Do not uncomment until event releases, keep it unspoiled
+		Image = "Moonflesh.png",
+		InternalName = "/Lotus/Types/Gameplay/Events/RoadToTauEvent/RoadToTauEventResource",
+		Introduced = "44",
+		Link = "Moonflesh",
+		Name = "Moonflesh",
 		Type = "Resource",
 		ResourceBoostAble = false,
 		ResourceDropChanceBoostAble = false,

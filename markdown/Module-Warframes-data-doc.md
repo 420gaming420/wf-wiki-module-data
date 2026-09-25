@@ -1,7 +1,7 @@
 ---
 title: "Module:Warframes/data/doc"
 wiki_url: "https://wiki.warframe.com/w/Module/Warframes/data/doc"
-wiki_timestamp: "2026-06-13T03:05:11Z"
+wiki_timestamp: "2026-09-25T04:23:11Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes [Warframes](/w/Warframes "Warframes"), [Necramechs](/w/Necramech "Necramech"), [Archwings](/w/Archwing "Archwing"), and [Operators](/w/Operator "Operator").
@@ -13,17 +13,19 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes
 * [3 Data Sources](#Data_Sources)
 * [4 Warframe/Avatar Data](#Warframe/Avatar_Data)
 
-:   *Last updated: Sat, 13 Jun 2026 03:05:11 +0000 (UTC) by [User:Cephalon Scientia](/w/User:Cephalon_Scientia "User:Cephalon Scientia") ([change log](https://wiki.warframe.com/w/Module:Warframes/data/doc?diff=0))*
+:   *Last updated: Fri, 25 Sep 2026 04:22:54 +0000 (UTC) by [User:Grunslik](/w/User:Grunslik?action=edit&redlink=1 "User:Grunslik (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Warframes/data/doc?diff=0))*
 
 ## Warframe/Avatar Data Schema
 
-[[edit source](/w/Module:Warframes/data/doc?action=edit&section=1 "Edit section's source code: Warframe/Avatar Data Schema")]
+[[edit](/w/Module:Warframes/data/doc?action=edit&section=1 "Edit Section using Source Editor:
+Warframe/Avatar Data Schema")]
 
 ```lua
 		["Warframe Name"] = {
 			_IgnoreEntry = true,
 			Abilities = { "1", "2", "3", "4" },
 			Armor = 100,
+			AugmentShop = { "Cephalon Suda", "The Perrin Sequence" },
 			AuraPolarity = "Madurai",
 			Conclave = false,
 			CodexSecret = false,
@@ -58,6 +60,7 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes
 | `Abilities` | N/A | `abilities` | `AbilityTypes` | Table (of strings) | ✔️ | Names of the abilities in the order of unlock | `{ "Tail Wind", "Airburst", "Turbulence", "Tornado" }` |
 | `Armor` | Armor | `armor` | `ArmourRatingOverride` | Number (integer) | ✔️ | Warframe/Avatar's base [Armor](/w/Armor "Armor") at Rank 0 | `100` |
 | `ArmorRank30` | Armor | N/A | N/A | Number (integer) | ❌ | Warframe/Avatar's unmodded [Armor](/w/Armor "Armor") at Rank 30 (not base armor) | `300` |
+| `AugmentShop` | N/A | N/A | N/A | Table (array of strings) | ❌ | Which Syndicates sell the Warframe's augments | `{ "Cephalon Suda", "The Perrin Sequence" }` |
 | `AuraPolarity` | N/A | N/A | `ArtifactSlots` | String or Table (array of strings) | ✔️ | [Polarity](/w/Polarity "Polarity") of Aura slot | `"V"` or `"Madurai"` |
 | `CodexSecret` | N/A | `codexSecret` | `CodexSecret` | Boolean | ✔️ | Whether or not the Warframe/Avatar has an entry in the [Codex](/w/Codex "Codex") before the player acquires it; defaults to false | `false` |
 | `CompatibilityTags` | N/A | N/A | `CompatibilityTags` | Table (array of strings) | ❌ | Tags that denote item compatibility. In other words, items with these tags can/cannot have a particular mod installed with the same tag. | `{ "SANDMAN" }` |
@@ -95,7 +98,8 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes
 
 ## For Module Use
 
-[[edit source](/w/Module:Warframes/data/doc?action=edit&section=2 "Edit section's source code: For Module Use")]
+[[edit](/w/Module:Warframes/data/doc?action=edit&section=2 "Edit Section using Source Editor:
+For Module Use")]
 
 | Key/Column Name | Data Type | Required? | Explanation/Description | Example(s) |
 | --- | --- | --- | --- | --- |
@@ -103,12 +107,14 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes
 
 ## Data Sources
 
-[[edit source](/w/Module:Warframes/data/doc?action=edit&section=3 "Edit section's source code: Data Sources")]
+[[edit](/w/Module:Warframes/data/doc?action=edit&section=3 "Edit Section using Source Editor:
+Data Sources")]
 
 * See [Public Export](/w/Public_Export "Public Export").
 * Portrait images are created by the community: [WARFRAME Wiki:Warframe Portraits](/w/WARFRAME_Wiki:Warframe_Portraits "WARFRAME Wiki:Warframe Portraits").
 
 ## Warframe/Avatar Data
 
-[[edit source](/w/Module:Warframes/data/doc?action=edit&section=4 "Edit section's source code: Warframe/Avatar Data")]
+[[edit](/w/Module:Warframes/data/doc?action=edit&section=4 "Edit Section using Source Editor:
+Warframe/Avatar Data")]
 

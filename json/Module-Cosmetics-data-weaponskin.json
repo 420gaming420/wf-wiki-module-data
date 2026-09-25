@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-06T02:13:50.843Z"
+    "converted_at": "2026-09-25T07:21:04.858Z"
   },
   "_comments": "",
   "Protokol 95 Pistol Skin": {
@@ -208,6 +208,16 @@
     "InternalName": "/Lotus/Upgrades/Skins/Weapons/Throwable/TennoCon2024NinjaStarSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": true
+  },
+  "Neote Rapier Skin": {
+    "Type": "Weapon Skin",
+    "Image": "NeoteRapierSkin.png",
+    "Description": "Narin's frozen rapier skin, bestowed upon only those whom she deems worthy.",
+    "Link": "Neote Rapier Skin",
+    "Name": "Neote Rapier Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Weapons/Rapier/",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
   },
   "Galatine Magesty Skin": {
     "Type": "Weapon Skin",
@@ -2851,6 +2861,16 @@
     "Name": "Baza Tekelu Skin",
     "Introduced": "25.4.1",
     "InternalName": "/Lotus/Upgrades/Skins/Ornate/TekeluBazaSkin",
+    "CodexSecret": false
+  },
+  "Mandonel Chythedra Skin": {
+    "Type": "Weapon Skin",
+    "Image": "MandonelChythedraSkin.png",
+    "Description": "The Mandonel archgun, chiseled from the same ancient stone as Qorvex Basilica.",
+    "Link": "Mandonel Chythedra Skin",
+    "Name": "Mandonel Chythedra Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/ConcreteFrame/QorvexDeluxeArchGunSkin",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Thanatos Scythe Skin": {

@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:54:20.272Z"
+    "converted_at": "2026-09-25T07:20:48.987Z"
   },
   "_comments": "",
   "Ambulas Reborn Emblem": {
@@ -137,6 +137,16 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
+  "TennoCon Emblem": {
+    "Type": "Emblem",
+    "Image": "TennoCon2016Badge.png",
+    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2016.",
+    "Link": "TennoCon Emblem",
+    "Name": "TennoCon Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/TennoCon2016BadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
   "Naramon Emblem": {
     "Type": "Emblem",
     "Image": "NaramonEmblem.png",
@@ -167,16 +177,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "TennoCon Emblem": {
-    "Type": "Emblem",
-    "Image": "TennoCon2016Badge.png",
-    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2016.",
-    "Link": "TennoCon Emblem",
-    "Name": "TennoCon Emblem",
-    "InternalName": "/Lotus/Upgrades/Skins/Clan/TennoCon2016BadgeItem",
-    "ExcludeFromCodex": false,
-    "CodexSecret": true
-  },
   "Vitus Emblem": {
     "Type": "Emblem",
     "Image": "EliteAlertIcon.png",
@@ -184,16 +184,6 @@
     "Link": "Vitus Emblem",
     "Name": "Vitus Emblem",
     "InternalName": "/Lotus/Upgrades/Skins/Clan/EliteAlertBadgeItem",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Emblem of the Hunt": {
-    "Type": "Emblem",
-    "Image": "InfestationEventBadge.png",
-    "Description": "An emblem awarded to the Tenno who hunted down Alad V.",
-    "Link": "Emblem of the Hunt",
-    "Name": "Emblem of the Hunt",
-    "InternalName": "/Lotus/Upgrades/Skins/Clan/InfestationEventEmblemItem",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -207,13 +197,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Tenno Chronicler Emblem": {
+  "Emblem of the Hunt": {
     "Type": "Emblem",
-    "Image": "WikiaBadge.png",
-    "Description": "A special emblem worn only by a select few Tenno.",
-    "Link": "Tenno Chronicler Emblem",
-    "Name": "Tenno Chronicler Emblem",
-    "InternalName": "/Lotus/Upgrades/Skins/Clan/WikiaBadgeItem",
+    "Image": "InfestationEventBadge.png",
+    "Description": "An emblem awarded to the Tenno who hunted down Alad V.",
+    "Link": "Emblem of the Hunt",
+    "Name": "Emblem of the Hunt",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/InfestationEventEmblemItem",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -227,6 +217,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Tenno Chronicler Emblem": {
+    "Type": "Emblem",
+    "Image": "WikiaBadge.png",
+    "Description": "A special emblem worn only by a select few Tenno.",
+    "Link": "Tenno Chronicler Emblem",
+    "Name": "Tenno Chronicler Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/WikiaBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Vasero Sekhara": {
     "Type": "Emblem",
     "Image": "ZarimanEvolvingSekharaA.png",
@@ -234,6 +234,16 @@
     "Link": "Vasero Sekhara",
     "Name": "Vasero Sekhara",
     "InternalName": "/Lotus/Upgrades/Skins/Clan/ZarimanEvolvingSekharaBadgeItemA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Tethra's Doom Emblem": {
+    "Type": "Emblem",
+    "Image": "ShipyardsEventBadge.png",
+    "Description": "An insignia awarded to the Tenno who distinguished themselves during Tethra's Doom event.",
+    "Link": "Tethra's Doom Emblem",
+    "Name": "Tethra's Doom Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ShipyardsEventBadgeItem",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -287,13 +297,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Tethra's Doom Emblem": {
+  "Tethra's Doom Quantum Emblem": {
     "Type": "Emblem",
-    "Image": "ShipyardsEventBadge.png",
+    "Image": "TethraQuantumBadge.png",
     "Description": "An insignia awarded to the Tenno who distinguished themselves during Tethra's Doom event.",
-    "Link": "Tethra's Doom Emblem",
-    "Name": "Tethra's Doom Emblem",
-    "InternalName": "/Lotus/Upgrades/Skins/Clan/ShipyardsEventBadgeItem",
+    "Link": "Tethra's Doom Quantum Emblem",
+    "Name": "Tethra's Doom Quantum Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ShipyardsEventQuantumBadgeItem",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -337,16 +347,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Tethra's Doom Quantum Emblem": {
-    "Type": "Emblem",
-    "Image": "TethraQuantumBadge.png",
-    "Description": "An insignia awarded to the Tenno who distinguished themselves during Tethra's Doom event.",
-    "Link": "Tethra's Doom Quantum Emblem",
-    "Name": "Tethra's Doom Quantum Emblem",
-    "InternalName": "/Lotus/Upgrades/Skins/Clan/ShipyardsEventQuantumBadgeItem",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Vallis Beast And Bird Emblem": {
     "Type": "Emblem",
     "Image": "ConservationBadgeB.png",
@@ -367,16 +367,6 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Clan Emblem": {
-    "Type": "Emblem",
-    "Image": "ClanEmblemHolo.png",
-    "Description": "An insignia that projects a holographic image of the clan emblem. Requires your clan's Warlord to upload an image of the clan emblem.",
-    "Link": "Clan Emblem",
-    "Name": "Clan Emblem",
-    "InternalName": "/Lotus/Upgrades/Skins/Clan/ClanEmblemItem",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Tubemen Of Regor Emblem": {
     "Type": "Emblem",
     "Image": "GrnSeaLabEventBadge.png",
@@ -387,14 +377,14 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Gargoyle's Cry Emblem": {
+  "Clan Emblem": {
     "Type": "Emblem",
-    "Image": "CaviaEventEyeEmblem.png",
-    "Description": "Tenno who bear this insignia resisted the Murmur during Operation Gargoyle's Cry.",
-    "Link": "Gargoyle's Cry Emblem",
-    "Name": "Gargoyle's Cry Emblem",
-    "InternalName": "/Lotus/Upgrades/Skins/Clan/EntratiEventEmblemItem",
-    "ExcludeFromCodex": true,
+    "Image": "ClanEmblemHolo.png",
+    "Description": "An insignia that projects a holographic image of the clan emblem. Requires your clan's Warlord to upload an image of the clan emblem.",
+    "Link": "Clan Emblem",
+    "Name": "Clan Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ClanEmblemItem",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Bronze Skull Emblem": {
@@ -407,6 +397,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Gargoyle's Cry Emblem": {
+    "Type": "Emblem",
+    "Image": "CaviaEventEyeEmblem.png",
+    "Description": "Tenno who bear this insignia resisted the Murmur during Operation Gargoyle's Cry.",
+    "Link": "Gargoyle's Cry Emblem",
+    "Name": "Gargoyle's Cry Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/EntratiEventEmblemItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
   "The Pacifism Defect Emblem": {
     "Type": "Emblem",
     "Image": "DefectorRescueEventBadge.png",
@@ -415,6 +415,16 @@
     "Name": "The Pacifism Defect Emblem",
     "InternalName": "/Lotus/Upgrades/Skins/Clan/DefectorRescueEventBadgeItem",
     "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Solaris Emblem": {
+    "Type": "Emblem",
+    "Image": "SolarisBadge.png",
+    "Description": "The emblem of the Solaris, the indebted workers of Fortuna. We all lift together.",
+    "Link": "Solaris Emblem",
+    "Name": "Solaris Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/SolarisBadgeItem",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Lunar Renewal Rabbit Emblem": {
@@ -437,13 +447,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Solaris Emblem": {
+  "Epoch Operation Vessel Emblem": {
     "Type": "Emblem",
-    "Image": "SolarisBadge.png",
-    "Description": "The emblem of the Solaris, the indebted workers of Fortuna. We all lift together.",
-    "Link": "Solaris Emblem",
-    "Name": "Solaris Emblem",
-    "InternalName": "/Lotus/Upgrades/Skins/Clan/SolarisBadgeItem",
+    "Image": "EpochOperationVesselEmblem(ExWhite).png",
+    "Description": "Bear the visage of the Eris killer as an emblem of your dedication to Epoch Operation: Taubound.",
+    "Link": "Epoch Operation Vessel Emblem",
+    "Name": "Epoch Operation Vessel Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/EpochOperationEmblemItem",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },

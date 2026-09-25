@@ -1,12 +1,12 @@
 {
   "page": "Module:Cosmetics/data/weaponskin",
-  "wiki_timestamp": "2026-09-05T06:28:59Z",
-  "extracted_at": "2026-09-06T02:13:40.707015+00:00",
+  "wiki_timestamp": "2026-09-24T13:13:23Z",
+  "extracted_at": "2026-09-25T07:20:38.363892+00:00",
   "lua_files": [
     "Module-Cosmetics-data-weaponskin_0.lua"
   ],
   "lua_block_count": 1,
-  "file_size": 259499,
+  "file_size": 260358,
   "comment_count": 0,
   "status": "success"
 }

@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-19T02:13:40.578Z"
+    "converted_at": "2026-09-25T07:20:59.561Z"
   },
   "_comments": "",
   "Hildryn Sigrun Helmet": {
@@ -397,6 +397,16 @@
     "Link": "Frost Heirloom Helmet",
     "Name": "Frost Heirloom Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Frost/FrostHeirloomHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Banshee Threnodia Helmet": {
+    "Type": "Helmet",
+    "Image": "BansheeThrenodiaHelmet.png",
+    "Description": "Banshee Threnodia's signature helmet.",
+    "Link": "Banshee Threnodia Helmet",
+    "Name": "Banshee Threnodia Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Decree/BansheeDeluxeBHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -1662,6 +1672,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Narin Baridegi Helmet": {
+    "Type": "Helmet",
+    "Image": "NarinBaridegiHelmet.png",
+    "Description": "This alternate helmet for Narin evokes an otherworldly flower of frost, accentuating her finesse and grace.",
+    "Link": "Narin Baridegi Helmet",
+    "Name": "Narin Baridegi Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Duelist/DuelistAltHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Loki Voidshell Helmet": {
     "Type": "Helmet",
     "Image": "LokiVoidshellHelmet.png",
@@ -2561,6 +2581,16 @@
     "Link": "Mag Opal Helmet",
     "Name": "Mag Opal Helmet",
     "InternalName": "/Lotus/Upgrades/Skins/Mag/NintendoMagHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Qorvex Basilica Helmet": {
+    "Type": "Helmet",
+    "Image": "QorvexBasilicaHelmet.png",
+    "Description": "Qorvex Basilica's signature helmet.",
+    "Link": "Qorvex Basilica Helmet",
+    "Name": "Qorvex Basilica Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/ConcreteFrame/QorvexDeluxeHelmet",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },

@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/syandana"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/syandana"
-wiki_timestamp: "2026-09-24T06:22:05Z"
+wiki_timestamp: "2026-09-24T13:05:10Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/syandana/doc](/w/Module:Cosmetics/data/syandana/doc?action=edit&redlink=1 "Module:Cosmetics/data/syandana/doc (page does not exist)")*
@@ -1006,7 +1006,7 @@ return {
         Description = "Qorvex Basilica's signature syandana perches on your shoulders, keeping a sharp eye over all.",
         ExcludeFromCodex = false,
         Image = "GarkulekSyandana.png",
-        InternalName = "/Lotus/Upgrades/Skins/Scarves/",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/QorvexDeluxeSyandana",
         Link = "Garkulek Syandana",
         Name = "Garkulek Syandana",
         Type = "Syandana"
@@ -2389,11 +2389,11 @@ return {
     ["Reliquia Syandana"] = {
         Artists = { "lex182", "Therion" },
         CodexSecret = false,
-        ConsolePrice = "105",
+        ConsolePrice = "100",
         Description = "A syandana for your Warframe, designed by lex182 and Therion",
         ExcludeFromCodex = false,
         Image = "ReliquiaSyandana.png",
-        Introduced = "TBA",
+        Introduced = "44",
         Link = "Reliquia Syandana",
         Name = "Reliquia Syandana",
         PcPrice = "$5.99",

@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-06T02:13:58.790Z"
+    "converted_at": "2026-09-25T07:21:10.511Z"
   },
   "_comments": "",
   "Fractal Sigil": {
@@ -419,6 +419,12 @@
     "Image": "Dante'sNoctuaSigil(SxWhite).png",
     "Name": "Dante's Noctua Sigil",
     "Description": "A sigil depicting Dante's treasured Tome."
+  },
+  "Taubound Sigil": {
+    "Description": "Proclaim your participation in the death of Eris and Epoch Operation: Taubound with this sigil.",
+    "Image": "TauboundSigil(SxWhite).png",
+    "Name": "Taubound Sigil",
+    "Link": "Sigils#Event Sigils"
   },
   "Narmer Eye Sigil": {
     "Image": "NarmerEyeSigil(SxWhite).png",

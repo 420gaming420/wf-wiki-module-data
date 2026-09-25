@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/signa"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/signa"
-wiki_timestamp: "2026-09-08T19:08:56Z"
+wiki_timestamp: "2026-09-24T07:50:24Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/signa/doc](/w/Module:Cosmetics/data/signa/doc?action=edit&redlink=1 "Module:Cosmetics/data/signa/doc (page does not exist)")*
@@ -123,12 +123,12 @@ return {
     ["Gothica Signa"] = {
      	Artists = { "Malaya", "Jadie", "Awk'Q-Luz" },
      	CodexSecret = false,
-     	ConsolePrice = "60",
+     	ConsolePrice = "85",
      	Description = "A unique signa for your Warframe, designed by Malaya, Jadie and Awk'Q-Luz.",
      	ExcludeFromCodex = true,
      	Image = "GothicaSigna.png",
      	InternalName = "",
-     	Introduced = "TBA",
+     	Introduced = "44",
      	Link = "Gothica Signa",
      	Name = "Gothica Signa",
      	PcPrice = "$3.49",
@@ -175,6 +175,17 @@ return {
         Link = "Invictus Emergent Signa",
         Name = "Invictus Emergent Signa",
         Type = "Signa",
+    },
+    ["Isageum Signa"] = {
+    	CodexSecret = false,
+    	Description = "A circlet from ancient times, its ornamentation signifying wisdom and strength.",
+    	ExcludeFromCodex = true,
+    	Image = "IsageumSigna.png",
+    	InternalName = "",
+    	Introduced = "44",
+    	Link = "Isageum Signa",
+    	Name = "Isageum Signa",
+    	Type = "Signa",
     },
     ["Ki'Teer Nobilis Signa"] = {
         CodexSecret = false,
@@ -338,12 +349,12 @@ return {
     ["Vermis Signa"] = {
      	Artists = { "Traveling Merchant", "Therion" },
      	CodexSecret = false,
-     	ConsolePrice = "60",
+     	ConsolePrice = "85",
      	Description = "A unique signa for your Warframe, designed by Traveling Merchant and Therion.",
      	ExcludeFromCodex = true,
      	Image = "VermisSigna.png",
      	InternalName = "",
-     	Introduced = "TBA",
+     	Introduced = "44",
      	Link = "Vermis Signa",
      	Name = "Vermis Signa",
      	PcPrice = "$3.49",

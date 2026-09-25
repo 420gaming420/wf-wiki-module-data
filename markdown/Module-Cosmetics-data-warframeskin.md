@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/warframeskin"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/warframeskin"
-wiki_timestamp: "2026-09-18T13:20:20Z"
+wiki_timestamp: "2026-09-24T13:22:59Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/warframeskin/doc](/w/Module:Cosmetics/data/warframeskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/warframeskin/doc (page does not exist)")*
@@ -249,14 +249,14 @@ return {
 		Type = "Skin"
 	},
     ["Banshee Threnodia Skin"] = {
-    	CodexSecret = false,
-    	Description = "TBA",
-    	ExcludeFromCodex = false,
-    	Image = "BansheeThrenodiaSkin.png",
-    	InternalName = "",
-    	Link = "Banshee Threnodia Skin",
-    	Name = "Banshee Threnodia Skin",
-    	Type = "Skin",
+		CodexSecret = false,
+		Description = "Banshee Threnodia's stark visage is an inexorable omen of death. Her mournful apparition brings despair to the wicked, her song the dirge of defeat.",
+		ExcludeFromCodex = false,
+		Image = "BansheeThrenodiaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Decree/BansheeDeluxeBSkin",
+		Link = "Banshee Threnodia Skin",
+		Name = "Banshee Threnodia Skin",
+		Type = "Skin",
     },
 	["Banshee Voidshell Skin"] = {
 		CodexSecret = false,
@@ -3370,14 +3370,14 @@ return {
 		Type = "Skin"
 	},
     ["Qorvex Basilica Skin"] = {
-    	CodexSecret = false,
-    	Description = "TBA",
-    	ExcludeFromCodex = true,
-    	Image = "QorvexBasilicaSkin.png",
-    	InternalName = "",
-    	Link = "Qorvex Basilica Skin",
-    	Name = "Qorvex Basilica Skin",
-    	Type = "Skin",
+		CodexSecret = false,
+		Description = "Avert the gaze of evildoers with the intricately carved spires of Qorvex Basilica. His grim shadow is a symbol of protection for his allies.",
+		ExcludeFromCodex = true,
+		Image = "QorvexBasilicaSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/ConcreteFrame/QorvexDeluxeSkin",
+		Link = "Qorvex Basilica Skin",
+		Name = "Qorvex Basilica Skin",
+		Type = "Skin",
     },
 	["Qorvex Skin"] = {
 		CodexSecret = false,

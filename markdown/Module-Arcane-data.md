@@ -1,7 +1,7 @@
 ---
 title: "Module:Arcane/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Arcane/data"
-wiki_timestamp: "2026-09-23T23:31:15Z"
+wiki_timestamp: "2026-09-24T14:38:40Z"
 ---
 
 Database of [Arcane Enhancements](/w/Arcane_Enhancement "Arcane Enhancement").
@@ -13,7 +13,7 @@ Database of [Arcane Enhancements](/w/Arcane_Enhancement "Arcane Enhancement").
   + [2.1 Checking for required keys](#Checking_for_required_keys)
   + [2.2 Validating data types of values](#Validating_data_types_of_values)
 
-:   *Last updated: Wed, 23 Sep 2026 23:31:15 +0000 (UTC) by [User:~2026-GreenTotallyWheresThe43263](/w/User:~2026-GreenTotallyWheresThe43263?action=edit&redlink=1 "User:~2026-GreenTotallyWheresThe43263 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Arcane/data?diff=0))*
+:   *Last updated: Thu, 24 Sep 2026 14:38:40 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Arcane/data?diff=0))*
 
 ## Arcane Entry Schema
 
@@ -709,7 +709,7 @@ return {
 		},
 		["Arcane Pistoleer"] = {
 			CodexSecret = true,
-			Description = "On Pistol Headshot Kill:\r\n60% chance for +102% Ammo Efficiency for 12s",
+			Description = "On Pistol Weak Point Kill:\r\n60% chance for +102% Ammo Efficiency for 12s",
 			Dissolution = 20,
 			Icon = "ArcanePistoleer64x.png",
 			Image = "ArcanePistoleer.png",
@@ -1387,7 +1387,7 @@ return {
 		},
 		["Longbow Sharpshot"] = {
 			CodexSecret = false,
-			Description = "On Headshot: Gain +300% damage on your next shot.",
+			Description = "On Weak Point Hit: Gain +300% damage on your next shot.",
 			Dissolution = 84,
 			Icon = "LongbowSharpshot64x.png",
 			Image = "LongbowSharpshot.png",
@@ -2081,7 +2081,7 @@ return {
 		},
 		["Primary Deadhead"] = {
 			CodexSecret = true,
-			Description = "On Headshot Kill:\r\n+120% Damage for 24s. Stacks up to 3x.\r\n+30% to Headshot Multiplier\r\n-50% Weapon Recoil",
+			Description = "On Weak Point Kill:\r\n+120% Damage for 24s. Stacks up to 3x.\r\n+30% to Headshot Multiplier\r\n-50% Weapon Recoil",
 			Dissolution = 20,
 			Icon = "PrimaryDeadhead64x.png",
 			Image = "PrimaryDeadhead.png",
@@ -2311,7 +2311,7 @@ return {
 		},
 		["Secondary Deadhead"] = {
 			CodexSecret = true,
-			Description = "On Precision Headshot Kill:\r\n+120% Damage for 24s. Stacks up to 3x.\r\n+30% to Headshot Multiplier\r\n-50% Weapon Recoil",
+			Description = "On Weak Point Kill:\r\n+120% Damage for 24s. Stacks up to 3x.\r\n+30% to Headshot Multiplier\r\n-50% Weapon Recoil",
 			Dissolution = 20,
 			Icon = "SecondaryDeadhead64x.png",
 			Image = "SecondaryDeadhead.png",

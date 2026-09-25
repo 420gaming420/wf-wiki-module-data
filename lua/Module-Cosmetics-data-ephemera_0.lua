@@ -44,7 +44,7 @@ return {
         Description = "Beckon Qorvex Basilica's fluttering fellows to your side with his signature ephemera.",
         ExcludeFromCodex = false,
         Image = "BelfriEphemera.png",
-        InternalName = "/Lotus/Upgrades/Skins/Effects/",
+        InternalName = "/Lotus/Upgrades/Skins/Effects/QorvexDeluxeEphemera",
         Link = "Belfri Ephemera",
         Name = "Belfri Ephemera",
         Type = "Ephemera"

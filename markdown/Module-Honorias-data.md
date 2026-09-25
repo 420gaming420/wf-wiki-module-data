@@ -1,12 +1,12 @@
 ---
 title: "Module:Honorias/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Honorias/data"
-wiki_timestamp: "2026-09-23T22:06:06Z"
+wiki_timestamp: "2026-09-24T11:27:13Z"
 ---
 
 Database for all [Honorias](/w/Honoria "Honoria") in [WARFRAME](/w/WARFRAME "WARFRAME"). Preferably put new honorias in the correct alphabetical order, but it is not necessary.
 
-:   *Last updated: Wed, 23 Sep 2026 22:06:06 +0000 (UTC) by [User:Haze9114](/w/User:Haze9114?action=edit&redlink=1 "User:Haze9114 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
+:   *Last updated: Thu, 24 Sep 2026 11:27:13 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
 
 ## Contents
 
@@ -2497,6 +2497,17 @@ local honoriaData = {
 		CodexSecret = true,
 		ExcludeFromCodex = true,
 		Tags = { "Melica" },
+	},
+	["The Legend Of The Void"] = {
+		Name = "The Legend Of The Void",
+		Link = "The Legend Of The Void",
+		Description = "{{text||Prove yourself worthy.|hover=Obtain the Neote Rapier Skin.}}",
+		Position = "Suffix",
+		Introduced = "44",
+		InternalName = "/Lotus/Types/Items/Titles/IcebladeTitle",
+		CodexSecret = false,
+		ExcludeFromCodex = true,
+		Tags = { "Miscellaneous" },
 	},
 }
 

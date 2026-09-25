@@ -1,13 +1,13 @@
 {
   "page": "Module:Ability/data",
-  "wiki_timestamp": "2026-09-24T03:53:50Z",
-  "extracted_at": "2026-09-24T07:25:29.000982+00:00",
+  "wiki_timestamp": "2026-09-24T22:11:53Z",
+  "extracted_at": "2026-09-25T07:20:38.289959+00:00",
   "lua_files": [
     "Module-Ability-data_0.lua",
     "Module-Ability-data_1.lua"
   ],
   "lua_block_count": 2,
-  "file_size": 197532,
+  "file_size": 197938,
   "comment_count": 8,
   "status": "success"
 }

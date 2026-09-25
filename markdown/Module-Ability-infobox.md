@@ -1,7 +1,7 @@
 ---
 title: "Module:Ability/infobox"
 wiki_url: "https://wiki.warframe.com/w/Module/Ability/infobox"
-wiki_timestamp: "2026-09-23T07:56:32Z"
+wiki_timestamp: "2026-09-24T23:11:22Z"
 ---
 
 **Lua error in Module:Docbunto at line 577: attempt to concatenate local 'item\_name' (a nil value).**
@@ -109,7 +109,7 @@ t = time at max heat in seconds'}, }, -- WIP? too long?
 	['Renewal'      ] = { {v=true}, {v=3.5, u='/s'}, },
 	['Silken Stride'] = { {v=true}, {v=5, u='/s'}, },
 	['Sol Gate'     ] = { {v=true}, {v='12-24', u='/s'}, },
-	['Sound Quake'  ] = { {v=true}, {v=byRank(25,18,15,12), u='/s'}, },
+	-- ['Sound Quake'  ] = { {v=true}, {v=byRank(25,18,15,12), u='/s'}, }, --
 	['Spectral Scream'] = { {v=true}, {v=3, u='/s'}, },
 	['Tail Wind'    ] = { {v=true}, {v=-12.5, u=' (airborne)'}, {v=5, u='/s hovering'}, }, -- WIP
 	['Undertow'     ] = { {v=true}, {v=6, u='/s'}, {v=5, u='/grab'}, {v=5, u='/m'--[[eter']]}, },

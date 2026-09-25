@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/sentinelarmor"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/sentinelarmor"
-wiki_timestamp: "2026-07-05T01:30:01Z"
+wiki_timestamp: "2026-09-24T12:26:44Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/sentinelarmor/doc](/w/Module:Cosmetics/data/sentinelarmor/doc?action=edit&redlink=1 "Module:Cosmetics/data/sentinelarmor/doc (page does not exist)")*
@@ -246,6 +246,36 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Sentinels/Wings/LNYDragonWings",
         Link = "Dragondance Sentinel Wings",
         Name = "Dragondance Sentinel Wings",
+        Type = "Wing"
+    },
+    ["Gast Sentinel Mask"] = {
+        CodexSecret = true,
+        Description = "An eerily twisted mask attachment for your sentinel pet.",
+        ExcludeFromCodex = false,
+        Image = "GastSentinelMask.png",
+        InternalName = "/Lotus/Upgrades/Skins/Sentinels/Masks/BansheeDlxSentMask",
+        Link = "Gast Sentinel Mask",
+        Name = "Gast Sentinel Mask",
+        Type = "Mask"
+    },
+    ["Gast Sentinel Tail"] = {
+        CodexSecret = true,
+        Description = "An eerily twisted tail attachment for your sentinel pet.",
+        ExcludeFromCodex = false,
+        Image = "GastSentinelTail.png",
+        InternalName = "/Lotus/Upgrades/Skins/Sentinels/Tails/BansheeDlxSentTail",
+        Link = "Gast Sentinel Tail",
+        Name = "Gast Sentinel Tail",
+        Type = "Tail"
+    },
+    ["Gast Sentinel Wings"] = {
+        CodexSecret = true,
+        Description = "An eerily twisted wing attachment for your sentinel pet.",
+        ExcludeFromCodex = false,
+        Image = "GastSentinelWings.png",
+        InternalName = "/Lotus/Upgrades/Skins/Sentinels/Wings/BansheeDlxSentWings",
+        Link = "Gast Sentinel Wings",
+        Name = "Gast Sentinel Wings",
         Type = "Wing"
     },
     ["Heimt Prime Sentinel Mask"] = {

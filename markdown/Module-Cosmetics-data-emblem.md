@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/emblem"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/emblem"
-wiki_timestamp: "2026-04-15T14:12:51Z"
+wiki_timestamp: "2026-09-24T11:44:38Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/emblem/doc](/w/Module:Cosmetics/data/emblem/doc?action=edit&redlink=1 "Module:Cosmetics/data/emblem/doc (page does not exist)")*
@@ -296,6 +296,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Clan/NoraSeasonTwoBadgeItem",
         Link = "Emissary Emblem",
         Name = "Emissary Emblem",
+        Type = "Emblem"
+    },
+    ["Epoch Operation Vessel Emblem"] = {
+        CodexSecret = false,
+        Description = "Bear the visage of the Eris killer as an emblem of your dedication to Epoch Operation: Taubound.",
+        ExcludeFromCodex = false,
+        Image = "EpochOperationVesselEmblem(ExWhite).png",
+        InternalName = "/Lotus/Upgrades/Skins/Clan/EpochOperationEmblemItem",
+        Link = "Epoch Operation Vessel Emblem",
+        Name = "Epoch Operation Vessel Emblem",
         Type = "Emblem"
     },
     ["Erznung Emblem"] = {

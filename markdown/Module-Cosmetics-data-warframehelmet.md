@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/warframehelmet"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/warframehelmet"
-wiki_timestamp: "2026-09-18T13:24:39Z"
+wiki_timestamp: "2026-09-24T17:00:16Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/warframehelmet/doc](/w/Module:Cosmetics/data/warframehelmet/doc?action=edit&redlink=1 "Module:Cosmetics/data/warframehelmet/doc (page does not exist)")*
@@ -603,6 +603,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Decree/BansheeDeluxeHelmet",
         Link = "Banshee Soprana Helmet",
         Name = "Banshee Soprana Helmet",
+        Type = "Helmet"
+    },
+    ["Banshee Threnodia Helmet"] = {
+        CodexSecret = false,
+        Description = "Banshee Threnodia's signature helmet.",
+        ExcludeFromCodex = false,
+        Image = "BansheeThrenodiaHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Decree/BansheeDeluxeBHelmet",
+        Link = "Banshee Threnodia Helmet",
+        Name = "Banshee Threnodia Helmet",
         Type = "Helmet"
     },
     ["Banshee Voidshell Helmet"] = {
@@ -3557,6 +3567,16 @@ return {
         Name = "Mirage Voidshell Helmet",
         Type = "Helmet"
     },
+    ["Narin Baridegi Helmet"] = {
+        CodexSecret = false,
+        Description = "This alternate helmet for Narin evokes an otherworldly flower of frost, accentuating her finesse and grace.",
+        ExcludeFromCodex = false,
+        Image = "NarinBaridegiHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Duelist/DuelistAltHelmet",
+        Link = "Narin Baridegi Helmet",
+        Name = "Narin Baridegi Helmet",
+        Type = "Helmet"
+    },
     ["Nekros Ausirylyst Helmet"] = {
         CodexSecret = false,
         Description = "A helmet for the Nekros Warframe, designed by LostEpoch.",
@@ -4546,6 +4566,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/ConcreteFrame/ConcreteFrameHelmet",
         Link = "Qorvex Helmet",
         Name = "Qorvex Helmet",
+        Type = "Helmet"
+    },
+    ["Qorvex Basilica Helmet"] = {
+        CodexSecret = false,
+        Description = "Qorvex Basilica's signature helmet.",
+        ExcludeFromCodex = false,
+        Image = "QorvexBasilicaHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/ConcreteFrame/QorvexDeluxeHelmet",
+        Link = "Qorvex Basilica Helmet",
+        Name = "Qorvex Basilica Helmet",
         Type = "Helmet"
     },
     ["Qorvex Raxpart Helmet"] = {

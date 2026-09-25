@@ -1,12 +1,12 @@
 ---
 title: "Module:Mods/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Mods/data"
-wiki_timestamp: "2026-09-22T19:23:44Z"
+wiki_timestamp: "2026-09-24T09:12:08Z"
 ---
 
 Database for all [Mods](/w/Mod "Mod") in [WARFRAME](/w/WARFRAME "WARFRAME") (with the exception of unveiled [Riven Mods](/w/Riven_Mods "Riven Mods")). Preferably put new mods in the correct alphabetical order, but it is not necessary.
 
-:   *Last updated: Tue, 22 Sep 2026 19:23:44 +0000 (UTC) by [User:ArbitraryMary](/w/User:ArbitraryMary "User:ArbitraryMary") ([change log](https://wiki.warframe.com/w/Module:Mods/data?diff=0))*
+:   *Last updated: Thu, 24 Sep 2026 09:12:08 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Mods/data?diff=0))*
 
 ## Contents
 
@@ -26,7 +26,8 @@ Database for all [Mods](/w/Mod "Mod") in [WARFRAME](/w/WARFRAME "WARFRAME") (wit
 
 ## Mod Entry Schema
 
-[[edit](/w/Module:Mods/data/doc?action=edit&section=T-1 "Edit Section using Source Editor: Mod Entry Schema")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-1 "Edit Section using Source Editor:
+Mod Entry Schema")]
 
 ```lua
 	["Mod Name"] = {
@@ -86,7 +87,8 @@ Database for all [Mods](/w/Mod "Mod") in [WARFRAME](/w/WARFRAME "WARFRAME") (wit
 
 ## Mod Collections
 
-[[edit](/w/Module:Mods/data/doc?action=edit&section=T-2 "Edit Section using Source Editor: Mod Collections")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-2 "Edit Section using Source Editor:
+Mod Collections")]
 
 There are three main collections that store mod data:
 
@@ -96,7 +98,8 @@ There are three main collections that store mod data:
 
 ## Mod Images
 
-[[edit](/w/Module:Mods/data/doc?action=edit&section=T-3 "Edit Section using Source Editor: Mod Images")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-3 "Edit Section using Source Editor:
+Mod Images")]
 
 Mod images without border styling, image filter, and description text can be sourced from [Public Export](/w/Public_Export "Public Export"). However, full mod images are NOT provided by Digital Extremes since they are generated within the engine (presumably they are modularly built to support different localizations and styling).[[1]](#cite_note-1)[[2]](#cite_note-2) There are two ways to source full mod images:
 
@@ -105,7 +108,8 @@ Mod images without border styling, image filter, and description text can be sou
 
 ### Programmatically Creating Mod Cards
 
-[[edit](/w/Module:Mods/data/doc?action=edit&section=T-4 "Edit Section using Source Editor: Programmatically Creating Mod Cards")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-4 "Edit Section using Source Editor:
+Programmatically Creating Mod Cards")]
 
 It is possible to programmatically build mod cards using individual image assets sourced from [Public Export](/w/Public_Export "Public Export") (mod image) and [Warframe Arsenal Twitch Extension](/w/Warframe_Arsenal_Twitch_Extension "Warframe Arsenal Twitch Extension") (mod image frames and background). For example, see the following resources as reference for mimicking the [![](/images/thumb/SerrationMod.png/22px-SerrationMod.png?0b8ff)](/w/Serration "Serration") [Serration](/w/Serration "Serration") mod card:
 
@@ -116,13 +120,15 @@ One benefit of this method is to be flexible to different localizations that WAR
 
 #### Assets
 
-[[edit](/w/Module:Mods/data/doc?action=edit&section=T-5 "Edit Section using Source Editor: Assets")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-5 "Edit Section using Source Editor:
+Assets")]
 
 :   *Main article: [Mod/Assets](/w/Mod/Assets "Mod/Assets")*
 
 ## Where To Find Mod Metadata
 
-[[edit](/w/Module:Mods/data/doc?action=edit&section=T-6 "Edit Section using Source Editor: Where To Find Mod Metadata")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-6 "Edit Section using Source Editor:
+Where To Find Mod Metadata")]
 
 The in-game UI does not thoroughly present all the data and interactions that is provided from a mod (or any [Upgrade](/w/Upgrade "Upgrade") for that matter). Here are some methods and sources to get more insight on the internal mechanics on mods:
 
@@ -255,11 +261,13 @@ The in-game UI does not thoroughly present all the data and interactions that is
 
 ## Data Validation
 
-[[edit](/w/Module:Mods/data/doc?action=edit&section=T-7 "Edit Section using Source Editor: Data Validation")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-7 "Edit Section using Source Editor:
+Data Validation")]
 
 ### Checking for required keys
 
-[[edit](/w/Module:Mods/data/doc?action=edit&section=T-8 "Edit Section using Source Editor: Checking for required keys")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-8 "Edit Section using Source Editor:
+Checking for required keys")]
 
 **p.checkRequiredKeysExist(frame): There are a total of 9 key-value errors**
 
@@ -275,13 +283,15 @@ The in-game UI does not thoroughly present all the data and interactions that is
 
 ### Validating data types of values
 
-[[edit](/w/Module:Mods/data/doc?action=edit&section=T-9 "Edit Section using Source Editor: Validating data types of values")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-9 "Edit Section using Source Editor:
+Validating data types of values")]
 
 **p.validateDataTypes(frame): There are a total of 0 key-value errors**
 
 ### Checking naming scheme of image names
 
-[[edit](/w/Module:Mods/data/doc?action=edit&section=T-10 "Edit Section using Source Editor: Checking naming scheme of image names")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-10 "Edit Section using Source Editor:
+Checking naming scheme of image names")]
 
 **p.checkImageName(frame): There are a total of 20 image names that do not follow mod image naming scheme ModNameMod.png**
 
@@ -308,20 +318,23 @@ The in-game UI does not thoroughly present all the data and interactions that is
 
 ### Validating mod incompatibility graphs for circular references
 
-[[edit](/w/Module:Mods/data/doc?action=edit&section=T-11 "Edit Section using Source Editor: Validating mod incompatibility graphs for circular references")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-11 "Edit Section using Source Editor:
+Validating mod incompatibility graphs for circular references")]
 
 **p.validateIncompatibilityEdges(frame): There are a total of 0 `Incompatible` table errors**
 
 ## References
 
-[[edit](/w/Module:Mods/data/doc?action=edit&section=T-12 "Edit Section using Source Editor: References")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-12 "Edit Section using Source Editor:
+References")]
 
 1. [↑](#cite_ref-1) <https://warframe.fandom.com/f/p/2290994351439873490>
 2. [↑](#cite_ref-2) Jeloxale (2014, September 12). *[I've talked to a DE member about this but it takes too long. Only option for them is to go trough them 1 by 1 and screencap everything. That's how they did it the last time, but this time it ain't gonna work.](https://forums.warframe.com/topic/308747-mods-image-for-wiki/?do=findComment&comment=3500491)*. Warframe Forums. Accessed 2022-10-06. [Archived](https://web.archive.org/web/20221006011831/https://forums.warframe.com/topic/308747-mods-image-for-wiki/) from the original on 2022-10-06. [User:Jeloxale](/w/User:Jeloxale "User:Jeloxale"), former wiki moderator, commenting on DE's old way of providing full mod image assets.
 
 ## Mod Data
 
-[[edit](/w/Module:Mods/data/doc?action=edit&section=T-13 "Edit Section using Source Editor: Mod Data")]
+[[edit](/w/Module:Mods/data/doc?action=edit&section=T-13 "Edit Section using Source Editor:
+Mod Data")]
 
 ---
 
@@ -4280,6 +4293,25 @@ local modData = {
 			Type = "Shotgun",
 			UpgradeTypes = { "WEAPON_ZOOM" }
 		},
+		["Brood's Oversurge"] = {
+			BaseDrain = 6,
+			CodexSecret = false,
+			Conclave = false,
+			Description = "Widow's Brood Augment: Scuttlers are galvanized with Electricity. Hold to direct all Scuttlers at the aimed target, inflicting 2000  Electricity Damage and Status Effect in a radius.",
+			Icon = "Brood'sOversurge.jpg",
+			Image = "Brood'sOversurgeMod.png",
+			InternalName = "/Lotus/Powersuits/Oraxia/OraxiaSpidersAugmentCard",
+			Introduced = "44",
+			IsAbilityAugment = true,
+			Link = "Brood's Oversurge",
+			MaxRank = 3,
+			Name = "Brood's Oversurge",
+			Polarity = "Zenurik",
+			Rarity = "Rare",
+			Tradable = true,
+			Transmutable = false,
+			Type = "Oraxia" 
+		},
 		["Brutal Tide"] = {
 			BaseDrain = -2,
 			CompatibilityTags = { "SPARRING_STANCE" },
@@ -5294,6 +5326,25 @@ local modData = {
 			Tradable = true,
 			Transmutable = false,
 			Type = "K-Drive" 
+		},
+		["Cold Front"] = {
+			BaseDrain = 6,
+			Description = "Snow Globe Augment: Snow Globe is now attached to Frost with a smaller radius while increasing your mobility. Kills on frozen enemies increase the Globe health by 4% per kill.",
+			Icon = "ColdFront.jpg",
+			Image = "ColdFrontMod.png",
+			InternalName = "/Lotus/Powersuits/Frost/IceShieldAugment2Card",
+			Introduced = "44",
+			CodexSecret = false,
+			IsAbilityAugment = true,
+			IsExilus = true,
+			Link = "Cold Front",
+			MaxRank = 3,
+			Name = "Cold Front",
+			Polarity = "Zenurik",
+			Rarity = "Rare",
+			Tradable = true,
+			Transmutable = false,
+			Type = "Frost" 
 		},
 		["Cold Snap"] = {
 			BaseDrain = 6,
@@ -12318,6 +12369,24 @@ local modData = {
 			Transmutable = false,
 			Type = "Melee" 
 		},
+			["Gaseous Quake"] = {
+			BaseDrain = 6,
+			CodexSecret = false,
+			Description = "Sound Quake Augment: Channel  Gas Damage and Status Effect leaks with a 2.75x Damage Multiplier that increases every second on enemies in your sight.",
+			Icon = "ResonatingQuake.png", --Mod icon didn't change, only description--
+			Image = "GaseousQuakeMod.png",
+			InternalName = "/Lotus/Powersuits/Banshee/EarthQuakeAugmentCard",
+			Introduced = "44",
+			IsAbilityAugment = true,
+			Link = "Gaseous Quake",
+			MaxRank = 3,
+			Name = "Gaseous Quake",
+			Polarity = "Zenurik",
+			Rarity = "Rare",
+			Tradable = true,
+			Transmutable = false,
+			Type = "Banshee" 
+		},
 		Gastro = {
 			BaseDrain = 6,
 			CodexSecret = false,
@@ -12331,6 +12400,25 @@ local modData = {
 			Link = "Gastro",
 			MaxRank = 3,
 			Name = "Gastro",
+			Polarity = "Zenurik",
+			Rarity = "Rare",
+			Tradable = true,
+			Transmutable = false,
+			Type = "Grendel" 
+		},
+		Gastroparesis = {
+			BaseDrain = 6,
+			CodexSecret = false,
+			Conclave = false,
+			Description = "Passive Augment: Each enemy consumed adds 15%  Extra Gas Damage to Primary and Secondary Weapons",
+			Icon = "Gastroparesis.jpg",
+			Image = "GastroparesisMod.png",
+			InternalName = "/Lotus/Powersuits/Devourer/DevourerPassiveAugmentCard",
+			Introduced = "44",
+			IsAbilityAugment = true,
+			Link = "Gastroparesis",
+			MaxRank = 3,
+			Name = "Gastroparesis",
 			Polarity = "Zenurik",
 			Rarity = "Rare",
 			Tradable = true,
@@ -14256,6 +14344,25 @@ local modData = {
 			Tradable = true,
 			Transmutable = false,
 			Type = "Aura" 
+		},
+		Infernum = {
+			BaseDrain = 6,
+			CodexSecret = false,
+			Conclave = false,
+			Description = "Infernalis Augment: Release Fireballs for 1500  Heat Damage with larger volleys when grabbing Vythelas' Runes during flight. Hits from Fireballs slowly charge Brimstone.",
+			Icon = "Infernum.jpg",
+			Image = "InfernumMod.png",
+			InternalName = "/Lotus/Powersuits/DemonFrame/DemonFrameFireBallAugmentCard",
+			Introduced = "44",
+			IsAbilityAugment = true,
+			Link = "Infernum",
+			MaxRank = 3,
+			Name = "Infernum",
+			Polarity = "Zenurik",
+			Rarity = "Rare",
+			Tradable = true,
+			Transmutable = false,
+			Type = "Uriel" 
 		},
 		Infiltrate = {
 			BaseDrain = 6,
@@ -25594,18 +25701,18 @@ local modData = {
 			Transmutable = false,
 			Type = "K-Drive" 
 		},
-		["Sonic Fracture"] = {
+		["Sonic Siphon"] = {
 			BaseDrain = 6,
 			CodexSecret = false,
-			Description = "Sonic Boom Augment: Enemy Armor is reduced by 70%.",
+			Description = "Sonic Boom Augment: Gain armor for each enemy hit by Sonic Boom for 20s.",
 			Icon = "SonicFracture.png",
-			Image = "SonicFractureMod.png",
+			Image = "SonicSiphonMod.png",
 			InternalName = "/Lotus/Powersuits/Banshee/PushAugmentCard",
-			Introduced = "16.6",
+			Introduced = "44",
 			IsAbilityAugment = true,
-			Link = "Sonic Fracture",
+			Link = "Sonic Siphon",
 			MaxRank = 3,
-			Name = "Sonic Fracture",
+			Name = "Sonic Siphon",
 			Polarity = "Zenurik",
 			Rarity = "Rare",
 			Tradable = true,

@@ -2406,6 +2406,17 @@ local honoriaData = {
 		ExcludeFromCodex = true,
 		Tags = { "Melica" },
 	},
+	["The Legend Of The Void"] = {
+		Name = "The Legend Of The Void",
+		Link = "The Legend Of The Void",
+		Description = "{{text||Prove yourself worthy.|hover=Obtain the Neote Rapier Skin.}}",
+		Position = "Suffix",
+		Introduced = "44",
+		InternalName = "/Lotus/Types/Items/Titles/IcebladeTitle",
+		CodexSecret = false,
+		ExcludeFromCodex = true,
+		Tags = { "Miscellaneous" },
+	},
 }
 
 return honoriaData

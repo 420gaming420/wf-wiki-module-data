@@ -2,6 +2,7 @@
 			_IgnoreEntry = true,
 			Abilities = { "1", "2", "3", "4" },
 			Armor = 100,
+			AugmentShop = { "Cephalon Suda", "The Perrin Sequence" },
 			AuraPolarity = "Madurai",
 			Conclave = false,
 			CodexSecret = false,

@@ -140,7 +140,17 @@ return {
         Name = "Dragondance Sentinel Skin",
         Type = "Sentinel Skin"
     },
-       ["Helios Elixis Skin"] = {
+    ["Gast Sentinel Skin"] = {
+        CodexSecret = false,
+        Description = "An eerily twisted skin for your sentinel pet.",
+        ExcludeFromCodex = false,
+        Image = "GastSentinelSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/Sentinels/Skins/BansheeDlxSentSkin",
+        Link = "Gast Sentinel Skin",
+        Name = "Gast Sentinel Skin",
+        Type = "Sentinel Skin"
+    },
+    ["Helios Elixis Skin"] = {
         CodexSecret = false,
         Description = "Invigorate in style with this bronzed Elixis skin for the Helios.",
         ExcludeFromCodex = false,

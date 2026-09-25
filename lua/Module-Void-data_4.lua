@@ -1261,6 +1261,44 @@ RelicData = {
 		Tier = "Axi",
 		Vaulted = "38.6.3",
 	},
+	["Axi B10"] = {
+		Drops = {
+			{
+				Item = "Forma",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Nautilus Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Burston Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Sevagoth Prime",
+				Part = "Systems Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Epitaph Prime",
+				Part = "Barrel",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Ballistica Prime",
+				Part = "Blueprint",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Axi B10",
+		Tier = "Axi",
+		Vaulted = "44.0",
+	},
 	["Axi C1"] = {
 		Drops = {
 			{
@@ -4549,6 +4587,44 @@ RelicData = {
 		Name = "Axi N13",
 		Tier = "Axi",
 		Vaulted = "42.0.6",
+	},
+	["Axi N14"] = {
+		Drops = {
+			{
+				Item = "Forma",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Hydroid Prime",
+				Part = "Chassis Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Bronco Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Ballistica Prime",
+				Part = "Upper Limb",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Nautilus Prime",
+				Part = "Carapace",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Nami Skyla Prime",
+				Part = "Blade",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Axi N14",
+		Tier = "Axi",
+		Vaulted = "44.0",
 	},
 	["Axi O1"] = {
 		Drops = {
@@ -8401,6 +8477,44 @@ RelicData = {
 		Name = "Lith B11",
 		Tier = "Lith",
 		Vaulted = "34",
+	},
+	["Lith B12"] = {
+		Drops = {
+			{
+				Item = "Forma",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Aksomati Prime",
+				Part = "Receiver",
+				Rarity = "Common",
+			},
+			{
+				Item = "Braton Prime",
+				Part = "Barrel",
+				Rarity = "Common",
+			},
+			{
+				Item = "Velox Prime",
+				Part = "Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Ivara Prime",
+				Part = "Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Baza Prime",
+				Part = "Stock",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Lith B12",
+		Tier = "Lith",
+		Vaulted = "44.0",
 	},
 	["Lith C1"] = {
 		Drops = {
@@ -13784,6 +13898,44 @@ RelicData = {
 		Name = "Lith S19",
 		Tier = "Lith",
 	},
+	["Lith S20"] = {
+		Drops = {
+			{
+				Item = "Forma",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Ballistica Prime",
+				Part = "Receiver",
+				Rarity = "Common",
+			},
+			{
+				Item = "Burston Prime",
+				Part = "Receiver",
+				Rarity = "Common",
+			},
+			{
+				Item = "Bronco Prime",
+				Part = "Barrel",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Hydroid Prime",
+				Part = "Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Sevagoth Prime",
+				Part = "Blueprint",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Lith S20",
+		Tier = "Lith",
+		Vaulted = "44.0",
+	},
 	["Lith T1"] = {
 		Drops = {
 			{
@@ -16986,6 +17138,44 @@ RelicData = {
 		Tier = "Meso",
 		Vaulted = "43.0",
 	},
+	["Meso E8"] = {
+		Drops = {
+			{
+				Item = "Forma",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Sevagoth Prime",
+				Part = "Neuroptics Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Bronco Prime",
+				Part = "Receiver",
+				Rarity = "Common",
+			},
+			{
+				Item = "Hydroid Prime",
+				Part = "Neuroptics Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Ballistica Prime",
+				Part = "Lower Limb",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Epitaph Prime",
+				Part = "Receiver",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Meso E8",
+		Tier = "Meso",
+		Vaulted = "44.0",
+	},
 	["Meso F1"] = {
 		Drops = {
 			{
@@ -18251,6 +18441,43 @@ RelicData = {
 		Name = "Meso K8",
 		Tier = "Meso",
 		Vaulted = "44.0",
+	},
+	["Meso K9"] = {
+		Drops = {
+			{
+				Item = "Yareli Prime",
+				Part = "Chassis Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Athodai Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Fang Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Perigale Prime",
+				Part = "Receiver",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Caliban Prime",
+				Part = "Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Kestrel Prime",
+				Part = "Grip",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Meso K9",
+		Tier = "Meso",
 	},
 	["Meso L1"] = {
 		Drops = {
@@ -25000,6 +25227,44 @@ RelicData = {
 		Tier = "Neo",
 		Vaulted = "40.0.5.1",
 	},
+	["Neo H5"] = {
+		Drops = {
+			{
+				Item = "Forma",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Burston Prime",
+				Part = "Stock",
+				Rarity = "Common",
+			},
+			{
+				Item = "Nami Skyla Prime",
+				Part = "Handle",
+				Rarity = "Common",
+			},
+			{
+				Item = "Nautilus Prime",
+				Part = "Systems",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Sevagoth Prime",
+				Part = "Chassis Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Hydroid Prime",
+				Part = "Systems Blueprint",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Neo H5",
+		Tier = "Neo",
+		Vaulted = "44.0",
+	},
 	["Neo I1"] = {
 		Drops = {
 			{
@@ -26797,6 +27062,44 @@ RelicData = {
 		Tier = "Neo",
 		Vaulted = "43.0",
 	},
+	["Neo N25"] = {
+		Drops = {
+			{
+				Item = "Forma",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Epitaph Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Ballistica Prime",
+				Part = "String",
+				Rarity = "Common",
+			},
+			{
+				Item = "Burston Prime",
+				Part = "Barrel",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Nami Skyla Prime",
+				Part = "Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Nautilus Prime",
+				Part = "Cerebrum",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Neo N25",
+		Tier = "Neo",
+		Vaulted = "44.0",
+	},
 	["Neo O1"] = {
 		Drops = {
 			{
@@ -26910,6 +27213,44 @@ RelicData = {
 		Name = "Neo O3",
 		Tier = "Neo",
 		Vaulted = "42.0.6",
+	},	
+	["Neo O4"] = {
+		Drops = {
+			{
+				Item = "Forma",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Ivara Prime",
+				Part = "Neuroptics Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Protea Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Braton Prime",
+				Part = "Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Baza Prime",
+				Part = "Barrel",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Okina Prime",
+				Part = "Blueprint",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Neo O4",
+		Tier = "Neo",
+		Vaulted = "44.0",
 	},	
 	["Neo P1"] = {
 		Drops = {
@@ -27292,6 +27633,44 @@ RelicData = {
 		Name = "Neo P10",
 		Tier = "Neo",
 		Vaulted = "43.0",
+	},	
+	["Neo P11"] = {
+		Drops = {
+			{
+				Item = "Forma",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Okina Prime",
+				Part = "Blade",
+				Rarity = "Common",
+			},
+			{
+				Item = "Burston Prime",
+				Part = "Receiver",
+				Rarity = "Common",
+			},
+			{
+				Item = "Braton Prime",
+				Part = "Receiver",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Aksomati Prime",
+				Part = "Barrel",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Protea Prime",
+				Part = "Chassis Blueprint",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Neo P11",
+		Tier = "Neo",
+		Vaulted = "44.0",
 	},	
 	["Neo Q1"] = {
 		Drops = {

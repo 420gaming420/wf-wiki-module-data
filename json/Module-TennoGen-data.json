@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-09T02:14:40.990Z"
+    "converted_at": "2026-09-25T07:21:13.149Z"
   },
   "_comments": "",
   "Dagath Voiddax Helmet": {
@@ -2266,7 +2266,7 @@
     "Name": "Limbo Venari Helmet"
   },
   "Citrine Heliotropia Helmet": {
-    "ConsolePrice": "TBA",
+    "ConsolePrice": "65",
     "Type": "Helmet",
     "Description": "A helmet for the Citrine Warframe, designed by Ventralhound",
     "Link": "Citrine Heliotropia Helmet",
@@ -2275,8 +2275,8 @@
     "Artists": [
       "Ventralhound"
     ],
-    "Introduced": "TBA",
-    "PcPrice": "TBA",
+    "Introduced": "44",
+    "PcPrice": "$5.99",
     "Round": "TennoGen Iceblade",
     "Name": "Citrine Heliotropia Helmet"
   },
@@ -2923,7 +2923,7 @@
     "Name": "Saryn Blade Of The Lotus Skin"
   },
   "Jade Coven Skin": {
-    "ConsolePrice": "165",
+    "ConsolePrice": "105",
     "Type": "Deluxe",
     "Description": "A unique skin for the Jade Warframe, designed by blazingcobalt",
     "Link": "Jade Coven Skin",
@@ -2932,8 +2932,8 @@
     "Artists": [
       "blazingcobalt"
     ],
-    "Introduced": "TBA",
-    "PcPrice": "TBA",
+    "Introduced": "44",
+    "PcPrice": "$6.99",
     "Round": "TennoGen Iceblade",
     "Name": "Jade Coven Skin"
   },

@@ -1,7 +1,7 @@
 ---
 title: "Module:DropTables/data"
 wiki_url: "https://wiki.warframe.com/w/Module/DropTables/data"
-wiki_timestamp: "2026-09-23T19:36:53Z"
+wiki_timestamp: "2026-09-25T01:44:41Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -19,7 +19,7 @@ Manually updated fork of the public [Drop Tables](/w/Drop_Tables "Drop Tables") 
 
 See [Module:DropTables](/w/Module:DropTables "Module:DropTables") to see what various things this is being used for right now.
 
-:   *Last updated: Wed, 23 Sep 2026 19:36:53 +0000 (UTC) by [User:Sk9c00](/w/User:Sk9c00?action=edit&redlink=1 "User:Sk9c00 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:DropTables/data?diff=0))*
+:   *Last updated: Fri, 25 Sep 2026 01:44:41 +0000 (UTC) by [User:TheTomeWyrm](/w/User:TheTomeWyrm "User:TheTomeWyrm") ([change log](https://wiki.warframe.com/w/Module:DropTables/data?diff=0))*
 
 ## Contents
 
@@ -15388,7 +15388,7 @@ local DropData = {
 			Name = "Zariman Exterminate",
 			Rewards = {
 				A = {
-					{ "Credits Cache", "Credits", 37.21, 10000 },
+					{ "Credits Cache", "Credits", 32.56, 10000 },
 					{ "Endo", "Resource", 16.28, 900 },
 					{ "Voidgel Orb", "Resource", 9.30 },
 					{ "Entrati Lanthorn", "Resource", 9.30 },
@@ -15401,7 +15401,7 @@ local DropData = {
 					{ "Meso A12", "Relic", 2.33 },
 					{ "Meso D9", "Relic", 2.33 },
 					{ "Meso C11", "Relic", 2.33 },
-					{ "Narin Blueprint", "Blueprint", 4.65 },
+					{ "Narin Blueprint", "Blueprint", 9.30 },
 				},
 			},
 			Tier = "Zariman",
@@ -15516,7 +15516,7 @@ local DropData = {
 			Name = "Zariman Mobile Defense",
 			Rewards = {
 				A = {
-					{ "Credits Cache", "Credits", 37.21, 10000 },
+					{ "Credits Cache", "Credits", 32.56, 10000 },
 					{ "Endo", "Resource", 16.28, 900 },
 					{ "Voidgel Orb", "Resource", 9.30 },
 					{ "Entrati Lanthorn", "Resource", 9.30 },
@@ -15529,7 +15529,7 @@ local DropData = {
 					{ "Meso A12", "Relic", 2.33 },
 					{ "Meso D9", "Relic", 2.33 },
 					{ "Meso C11", "Relic", 2.33 },
-					{ "Narin Blueprint", "Blueprint", 4.65 },
+					{ "Narin Blueprint", "Blueprint", 9.30 },
 				},
 			},
 			Tier = "Zariman",

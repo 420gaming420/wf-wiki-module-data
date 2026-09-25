@@ -239,6 +239,36 @@ return {
         Name = "Dragondance Sentinel Wings",
         Type = "Wing"
     },
+    ["Gast Sentinel Mask"] = {
+        CodexSecret = true,
+        Description = "An eerily twisted mask attachment for your sentinel pet.",
+        ExcludeFromCodex = false,
+        Image = "GastSentinelMask.png",
+        InternalName = "/Lotus/Upgrades/Skins/Sentinels/Masks/BansheeDlxSentMask",
+        Link = "Gast Sentinel Mask",
+        Name = "Gast Sentinel Mask",
+        Type = "Mask"
+    },
+    ["Gast Sentinel Tail"] = {
+        CodexSecret = true,
+        Description = "An eerily twisted tail attachment for your sentinel pet.",
+        ExcludeFromCodex = false,
+        Image = "GastSentinelTail.png",
+        InternalName = "/Lotus/Upgrades/Skins/Sentinels/Tails/BansheeDlxSentTail",
+        Link = "Gast Sentinel Tail",
+        Name = "Gast Sentinel Tail",
+        Type = "Tail"
+    },
+    ["Gast Sentinel Wings"] = {
+        CodexSecret = true,
+        Description = "An eerily twisted wing attachment for your sentinel pet.",
+        ExcludeFromCodex = false,
+        Image = "GastSentinelWings.png",
+        InternalName = "/Lotus/Upgrades/Skins/Sentinels/Wings/BansheeDlxSentWings",
+        Link = "Gast Sentinel Wings",
+        Name = "Gast Sentinel Wings",
+        Type = "Wing"
+    },
     ["Heimt Prime Sentinel Mask"] = {
         CodexSecret = false,
         Description = "A finely crafted accessory for your sentinel.",
