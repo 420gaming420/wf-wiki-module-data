@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization"
-wiki_timestamp: "2026-09-24T07:19:46Z"
+wiki_timestamp: "2026-09-26T06:03:29Z"
 ---
 
 **Maximization** creates a stat maximization calculator for Warframe abilities.
@@ -87,6 +87,13 @@ In articles: `{{MaximizationCalculator|ability_name}}`
 
 local Tooltips = require([[Module:Tooltips]]);
 local MaxData = mw.loadData([[Module:Maximization/data]]);
+local WarframesData = mw.loadData([[Module:Warframes/data]]);
+local AbilitySets = setmetatable({}, { -- this proxy pulls sets of ability names from multiple sources
+	__index = function(_, name)
+		return WarframesData.Warframes[name] and WarframesData.Warframes[name].Abilities
+		or MaxData.AbilitySets[name];
+	end
+});
 local p = {};
 
 -- replaces/expands '{{#invoke:Tooltip}}' stubs from [[Module:Maximization/data]]
@@ -220,26 +227,32 @@ nil)
 
 	return max
 end
-
 p.main = p.ability;
 
--- checks for a warframe mapping and calls p.ability() with related abilities, otherwise returns error text
-function p.WarframeAbilities(...)
+-- checks for ability sets by owner name and calls p.ability() with related abilities, otherwise returns error text
+function p.ability_set(...)
 	local warframe_names = (...).args or {...};
 	local ability_names = {};
 	ability_names.args = ability_names;
 	
 	for _, name in ipairs(warframe_names) do
-		local data = MaxData.Warframe[name];
+		local data = AbilitySets[name];
 		if data then
 			for __, ability in ipairs(data) do table.insert(ability_names, ability); end
 		else 
 			return '[[Module:Maximization|Maximization]] error: warframe abilities mapping for "'
-			..tostring(name)..'" was not found in [[Module:Maximization/data]].[[Category:Pages with script errors]][[Category:Pages with maximization errors]]';
+			..tostring(name)..'" was not found in [[Module:Maximization#L-16|AbilitySets]].[[Category:Pages with script errors]][[Category:Pages with maximization errors]]';
 		end
 	end
 	return p.ability(ability_names);
 end
+
+-- TODO: Helminth original abilities
+-- TODO: Warframe stats
+-- TODO: gear like Archwings, cornbots, hoverboards
+-- TODO: craftable combo gear like kitguns, amps
+-- TODO: weapons and Arch-weapons
+-- TODO: enemies
 
 function p._exists(name) return MaxData[name] and true or false end
 

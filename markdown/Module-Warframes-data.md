@@ -1,7 +1,7 @@
 ---
 title: "Module:Warframes/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Warframes/data"
-wiki_timestamp: "2026-09-25T05:32:43Z"
+wiki_timestamp: "2026-09-25T22:52:24Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes [Warframes](/w/Warframes "Warframes"), [Necramechs](/w/Necramech "Necramech"), [Archwings](/w/Archwing "Archwing"), and [Operators](/w/Operator "Operator").
@@ -13,7 +13,7 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes
 * [3 Data Sources](#Data_Sources)
 * [4 Warframe/Avatar Data](#Warframe/Avatar_Data)
 
-:   *Last updated: Fri, 25 Sep 2026 05:32:43 +0000 (UTC) by [User:Grunslik](/w/User:Grunslik?action=edit&redlink=1 "User:Grunslik (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Warframes/data?diff=0))*
+:   *Last updated: Fri, 25 Sep 2026 22:52:24 +0000 (UTC) by [User:Unlucky Kitsune](/w/User:Unlucky_Kitsune?action=edit&redlink=1 "User:Unlucky Kitsune (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Warframes/data?diff=0))*
 
 ## Warframe/Avatar Data Schema
 
@@ -875,7 +875,7 @@ return {
 			Health = 400,
 			Helmet = "CitrinePrimeHelmet.png",
 			Image = "CitrinePrime_Thumb.png",
-			InitialEnergy = 50,
+			InitialEnergy = 75,
 			InternalName = "/Lotus/Powersuits/Geode/CitrinePrime",
 			Introduced = "44.0",
 			Link = "Citrine/Prime",
@@ -1886,7 +1886,7 @@ return {
 		},
 		Hydroid = {
 			Abilities = { "Tempest Barrage", "Tidal Surge", "Plunder", "Tentacle Swarm" },
-			Armor = 365,
+			Armor = 240,
 			AugmentShop = { "Cephalon Suda", "New Loka" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
@@ -1894,7 +1894,7 @@ return {
 			Description = "Hydroid summons the power of the ocean depths. He provides crowd control with aqueous attacks. His enemies will meet a watery demise.",
 			Energy = 140,
 			FullImages = { { TabName = "Full Body", Image = "Hydroid.png" } },
-			Health = 270,
+			Health = 365,
 			Helmet = "HydroidHelmet.png",
 			Image = "Hydroid_Thumb.png",
 			InitialEnergy = 75,
@@ -1910,7 +1910,7 @@ return {
 			Progenitor = "Magnetic",
 			SellPrice = 10000,
 			Sex = "Male",
-			Shield = 140,
+			Shield = 270,
 			Sprint = 1.05,
 			SquadPortrait = "HydroidLargePortrait.png",
 			Subsumed = "Tempest Barrage",
@@ -1920,7 +1920,7 @@ return {
 		},
 		["Hydroid Prime"] = {
 			Abilities = { "Tempest Barrage", "Tidal Surge", "Plunder", "Tentacle Swarm" },
-			Armor = 650,
+			Armor = 290,
 			AugmentShop = { "Cephalon Suda", "New Loka" },
 			AuraPolarity = "Naramon",
 			CodexSecret = false,
@@ -1928,7 +1928,7 @@ return {
 			Description = "Command the ocean’s fury with this king of gold and silver. Featuring altered mod polarities for greater customization.",
 			Energy = 175,
 			FullImages = { { TabName = "Full Body", Image = "HydroidPrime.png" } },
-			Health = 270,
+			Health = 550,
 			Helmet = "HydroidPrimeHelmet.png",
 			Image = "HydroidPrime_Thumb.png",
 			InitialEnergy = 100,
@@ -1945,7 +1945,7 @@ return {
 			Progenitor = "Magnetic",
 			SellPrice = 10000,
 			Sex = "Male",
-			Shield = 190,
+			Shield = 270,
 			Sprint = 1.05,
 			SquadPortrait = "HydroidPrimeLargePortrait.png",
 			Tactical = "Tempest Barrage",
@@ -2726,22 +2726,22 @@ return {
 			Description = "Narin descends in swirling eddies, her blade keen and deadly as an icy wind. She wields ice to defend as deftly as her swift rapier strikes.",
 			Energy = 200,
 			EnergyRank30 = 0,
-			FullImages = { { TabName = "Splash Art", Image = "NarinSplashArt.png" } },
+			FullImages = { { TabName = "Full Body", Image = "Narin.png" } },
 			Health = 270,
 			Helmet = "NarinHelmet.png",
 			Image = "Narin_Thumb.png",
-			InitialEnergy = 200,
+			InitialEnergy = 50,
 			InternalName = "/Lotus/Powersuits/Duelist/Duelist",
 			Introduced = "44.0",
 			Link = "Narin",
 			MaxRank = 30,
 			Name = "Narin",
-			Passive = "Frozen enemies drop Cold Ammo Packs when killed, bestowing Cold Damage on Primary and Secondary weapons for a short time.",
+			Passive = "Each stack of Cold Status Effect on enemies increase chance to spawn Sangodae pickup by 1%, granting Extra Cold Damage on Primary and Secondary weapons for 10s. Narin also gains Cold Damage for her abilities.",
 			Playstyle = { "Damage", "Crowd Control" },
 			Polarities = { "Madurai", "Vazarin" },
 			Portrait = "Narin_Thumb.png",
 			Progenitor = "Cold",
-			SellPrice = 25000,
+			SellPrice = 10000,
 			Sex = "Female",
 			Shield = 550,
 			Sprint = 1.1,

@@ -24,12 +24,12 @@ return {
 		Description = "A unique Akmagnus skin, designed by Verifitas.",
 		Type = "Weapon Skin"
 	},
-	["Arca Plasmor Arcosolium Skin"] = {
+	["Arcosolium Arca Plasmor Skin"] = {
 		Artists = { "Apollo Phoenix" },
 		ConsolePrice = "50",
 		Image = "ArcosoliumArcaPlasmorSkin.png",
-		Link = "Arca Plasmor Arcosolium Skin",
-		Name = "Arca Plasmor Arcosolium Skin",
+		Link = "Arcosolium Arca Plasmor Skin",
+		Name = "Arcosolium Arca Plasmor Skin",
 		PcPrice = "$5.99",
 		Round = "TennoGen Isleweaver",
 		Introduced = "38.6.3",

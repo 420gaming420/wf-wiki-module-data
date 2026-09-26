@@ -1,7 +1,7 @@
 ---
 title: "Module:TennoGen/data"
 wiki_url: "https://wiki.warframe.com/w/Module/TennoGen/data"
-wiki_timestamp: "2026-09-24T07:51:19Z"
+wiki_timestamp: "2026-09-25T09:46:27Z"
 ---
 
 Database of [TennoGen](/w/TennoGen "TennoGen") items. For more canonical data related to TennoGen cosmetics see [Module:Cosmetics/data](/w/Module:Cosmetics/data "Module:Cosmetics/data").
@@ -68,12 +68,12 @@ return {
 		Description = "A unique Akmagnus skin, designed by Verifitas.",
 		Type = "Weapon Skin"
 	},
-	["Arca Plasmor Arcosolium Skin"] = {
+	["Arcosolium Arca Plasmor Skin"] = {
 		Artists = { "Apollo Phoenix" },
 		ConsolePrice = "50",
 		Image = "ArcosoliumArcaPlasmorSkin.png",
-		Link = "Arca Plasmor Arcosolium Skin",
-		Name = "Arca Plasmor Arcosolium Skin",
+		Link = "Arcosolium Arca Plasmor Skin",
+		Name = "Arcosolium Arca Plasmor Skin",
 		PcPrice = "$5.99",
 		Round = "TennoGen Isleweaver",
 		Introduced = "38.6.3",

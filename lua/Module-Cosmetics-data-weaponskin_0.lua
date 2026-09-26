@@ -5549,6 +5549,16 @@ return {
         Name = "Tau Dax Thrown Weapon Skin",
         Type = "Weapon Skin"
     },
+    ["Tecton Sparring Skin"] = {
+		CodexSecret = false,
+		Description = "With seismic force shatter and sunder, blow upon blow. Enemies quake at the sight of these signature sparring weapon skins.",
+		ExcludeFromCodex = false,
+		Image = "TectonSparringSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Deluxe/AtlasDeluxeSparring",
+		Link = "Tecton Sparring Skin",
+		Name = "Tecton Sparring Skin",
+		Type = "Skin"
+	},
     ["Tempera Amp Skin"] = {
         CodexSecret = false,
         Description = "This sleek amp skin is a masterstroke of craftsmanship.",

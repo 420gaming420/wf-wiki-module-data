@@ -3569,6 +3569,16 @@ return {
         Name = "Narin Baridegi Helmet",
         Type = "Helmet"
     },
+    ["Narin Helmet"] = {
+        CodexSecret = false,
+        Description = "The standard issue helmet for the Narin Warframe.",
+        ExcludeFromCodex = false,
+        Image = "NarinHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Duelist/DuelistHelmet",
+        Link = "Narin Helmet",
+        Name = "Narin Helmet",
+        Type = "Helmet"
+    },
     ["Nekros Ausirylyst Helmet"] = {
         CodexSecret = false,
         Description = "A helmet for the Nekros Warframe, designed by LostEpoch.",

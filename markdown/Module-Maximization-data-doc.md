@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data/doc"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data/doc"
-wiki_timestamp: "2026-09-19T14:21:52Z"
+wiki_timestamp: "2026-09-26T04:16:44Z"
 ---
 
 ## Contents
@@ -10,11 +10,12 @@ wiki_timestamp: "2026-09-19T14:21:52Z"
 * [2 Style Guide](#Style_Guide)
 * [3 See Also](#See_Also)
 
-Database for [maximization](/w/Maximization "Maximization") of [warframe](/w/Warframes "Warframes") stats and [abilities](/w/Abilities "Abilities").
+Database for [maximization](/w/Maximization "Maximization") of [Warframe](/w/Warframes "Warframes") stats and [Abilities](/w/Abilities "Abilities"). For all formulas we assume that values are at max Ability rank.
 
 ## Ability Entry Schema
 
-[[edit page](/w/Module:Maximization/data/doc?action=edit&section=1 "Edit section's source code: Ability Entry Schema")]
+[[edit](/w/Module:Maximization/data/doc?action=edit&section=1 "Edit Section using Source Editor:
+Ability Entry Schema")]
 
 ```lua
 	["Ability Name"] = {
@@ -69,7 +70,8 @@ Standard Units
 
 ## Style Guide
 
-[[edit page](/w/Module:Maximization/data/doc?action=edit&section=2 "Edit section's source code: Style Guide")]
+[[edit](/w/Module:Maximization/data/doc?action=edit&section=2 "Edit Section using Source Editor:
+Style Guide")]
 
 1. Each ability's data should contain calculations of innate stats (e.g. energy, damage, [DoTs](/w/DoT "DoT")), and kit interactions (i.e. passive, abilities, and [augments](/w/Augments "Augments") of the original warframe). Adding calculations for third-party buffs would bloat calculators.
    * If the ability can be [infused](/w/Infused "Infused"), the calculator must contain toggles for original kit interactions (e.g. [![](/images/thumb/ShurikenIcon%28xWhite%29.png/32px-ShurikenIcon%28xWhite%29.png?f2322)](/w/Shuriken "Shuriken") [Shuriken](/w/Shuriken "Shuriken") doing less [![](/images/thumb/DmgSlashSmall64.png/32px-DmgSlashSmall64.png?bab47)](/w/Damage/Slash_Damage "Damage/Slash Damage") [Bleed](/w/Damage/Slash_Damage "Damage/Slash Damage") without [![](/images/thumb/Ash_Thumb.png/32px-Ash_Thumb.png?db305)](/w/Ash "Ash") [Ash](/w/Ash "Ash")'s passive) and must **not** contain potential interactions with a new warframe.
@@ -83,7 +85,8 @@ Standard Units
 
 ## See Also
 
-[[edit page](/w/Module:Maximization/data/doc?action=edit&section=3 "Edit section's source code: See Also")]
+[[edit](/w/Module:Maximization/data/doc?action=edit&section=3 "Edit Section using Source Editor:
+See Also")]
 
 Module:Maximization/data/doc
 

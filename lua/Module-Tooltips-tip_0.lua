@@ -209,6 +209,9 @@ Warframes = function(name)
 |
 {| class="tt-data" style="font-size:12px;" |-
 | class="tt-data" style="padding:4px; text-align:left;"|%s
+|-
+| class="tt-data" style="text-align:center;"|%s
+|-
 |}
 |}
 </div>
@@ -225,7 +228,8 @@ Warframes = function(name)
 		type(warframe.AuraPolarity) == 'table' and Polarity._pols(warframe.AuraPolarity, true) or Polarity._polarity(warframe.AuraPolarity or 'None', true),
 		Polarity._polarity(warframe.ExilusPolarity or 'None', true),
 		Polarity._pols(warframe.Polarities, true),
-		abils
+		abils,
+		table.concat(warframe.AugmentShop, ', ')
 	)
 end,
 

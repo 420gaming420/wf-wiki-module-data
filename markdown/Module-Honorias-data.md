@@ -1,12 +1,12 @@
 ---
 title: "Module:Honorias/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Honorias/data"
-wiki_timestamp: "2026-09-24T11:27:13Z"
+wiki_timestamp: "2026-09-25T17:15:50Z"
 ---
 
 Database for all [Honorias](/w/Honoria "Honoria") in [WARFRAME](/w/WARFRAME "WARFRAME"). Preferably put new honorias in the correct alphabetical order, but it is not necessary.
 
-:   *Last updated: Thu, 24 Sep 2026 11:27:13 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
+:   *Last updated: Fri, 25 Sep 2026 17:15:50 +0000 (UTC) by [User:~2026-CryMoreTrustIndustrial50436](/w/User:~2026-CryMoreTrustIndustrial50436?action=edit&redlink=1 "User:~2026-CryMoreTrustIndustrial50436 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
 
 ## Contents
 
@@ -2436,7 +2436,7 @@ local honoriaData = {
 		Name = "The Final Verdict",
 		Link = "The Final Verdict",
 		Description = "Obtained from having completed the [[Jordas Verdict]] Trial.",
-		Position = "Prefix",
+		Position = "Suffix",
 		Introduced = "44",
 		InternalName = "/Lotus/Types/Items/Titles/GolemTrialsTitle",
 		CodexSecret = true,
@@ -2447,7 +2447,7 @@ local honoriaData = {
 		Name = "Tried and True",
 		Link = "Tried and True",
 		Description = "Obtained from having completed both the [[Law of Retribution]] and [[Jordas Verdict]] Trials.",
-		Position = "Prefix",
+		Position = "Suffix",
 		Introduced = "44",
 		InternalName = "/Lotus/Types/Items/Titles/AllLegacyTrialsTitle",
 		CodexSecret = true,
@@ -2509,6 +2509,78 @@ local honoriaData = {
 		ExcludeFromCodex = true,
 		Tags = { "Miscellaneous" },
 	},
+	--["Conquera"] = {
+	--	_IgnoreEntry = true,
+	--	Name = "Conquera",
+	--	Link = "Conquera",
+	--	Description = "?",
+	--	Position = "?",
+	--	Introduced = "44", -- currently, 44 is is the version where is was added to the PE
+	--	InternalName = "/Lotus/Types/Items/Titles/ConqueraTitle",
+	--	CodexSecret = false,
+	--	ExcludeFromCodex = true,
+	--	Tags = { "Hidden" },
+	--},
+	--["The Haunted"] = {
+	--	_IgnoreEntry = true,
+	--	Name = "The Haunted",
+	--	Link = "The Haunted",
+	--	Description = "?",
+	--	Position = "?",
+	--	Introduced = "44",-- currently, 44 is is the version where is was added to the PE
+	--	InternalName = "/Lotus/Types/Items/Titles/EvilBaroTitle",
+	--	CodexSecret = false,
+	--	ExcludeFromCodex = true,
+	--	Tags = { "Hidden" },
+	--},
+	--["Moon Devourer"] = {
+	--	_IgnoreEntry = true,
+	--	Name = "Moon Devourer",
+	--	Link = "Moon Devourer",
+	--	Description = "?",
+	--	Position = "?",
+	--	Introduced = "44",-- currently, 44 is is the version where is was added to the PE
+	--	InternalName = "/Lotus/Types/Items/Titles/MoonDevourerTitle",
+	--	CodexSecret = false,
+	--	ExcludeFromCodex = true,
+	--	Tags = { "Hidden" },
+	--},
+	--["The Moon Killer"] = {
+	--	_IgnoreEntry = true,
+	--	Name = "The Moon Killer",
+	--	Link = "The Moon Killer",
+	--	Description = "?",
+	--	Position = "?",
+	--	Introduced = "44",-- currently, 44 is is the version where is was added to the PE
+	--	InternalName = "/Lotus/Types/Items/Titles/MoonfleshTitle",
+	--	CodexSecret = false,
+	--	ExcludeFromCodex = true,
+	--	Tags = { "Hidden" },
+	--},
+	--["Railmaker"] = {
+	--	_IgnoreEntry = true,
+	--	Name = "Railmaker",
+	--	Link = "Railmaker",
+	--	Description = "?",
+	--	Position = "?",
+	--	Introduced = "44",-- currently, 44 is is the version where is was added to the PE
+	--	InternalName = "/Lotus/Types/Items/Titles/RailmakerTitle",
+	--	CodexSecret = false,
+	--	ExcludeFromCodex = true,
+	--	Tags = { "Hidden" },
+	--},
+	--["Taubound"] = {
+	--	_IgnoreEntry = true,
+	--	Name = "Taubound",
+	--	Link = "Taubound",
+	--	Description = "?",
+	--	Position = "?",
+	--	Introduced = "44",-- currently, 44 is is the version where is was added to the PE
+	--	InternalName = "/Lotus/Types/Items/Titles/RoadToTauTitle",
+	--	CodexSecret = false,
+	--	ExcludeFromCodex = true,
+	--	Tags = { "Hidden" },
+	--},
 }
 
 return honoriaData

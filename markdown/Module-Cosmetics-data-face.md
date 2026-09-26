@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/face"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/face"
-wiki_timestamp: "2026-05-06T08:38:29Z"
+wiki_timestamp: "2026-09-25T09:33:32Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/face/doc](/w/Module:Cosmetics/data/face/doc?action=edit&redlink=1 "Module:Cosmetics/data/face/doc (page does not exist)")*
@@ -988,6 +988,16 @@ return {
         Name = "MaleHeadM",
         Type = "Face"
     },
+	["Ryoku's Hairstyle"] = {
+		CodexSecret = false,
+		Description = "Ryoku's signature hairstyle.",
+		ExcludeFromCodex = false,
+		Image = "Ryoku'sHairstyle.png",
+		InternalName = "/Lotus/Upgrades/Skins/Operator/Hair/Hair1999Ash",
+		Link = "Ryoku's Hairstyle",
+		Name = "Ryoku's Hairstyle",
+		Type = "Hair"
+	},
 	["Somatics Asa-03"] = {
 		CodexSecret = false,
 		Description = "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
@@ -1097,6 +1107,16 @@ return {
 		Link = "Somatics Zz-70",
 		Name = "Somatics Zz-70",
 		Type = "Markings"
+	},
+	["Vena's Hairstyle"] = {
+		CodexSecret = false,
+		Description = "Vena's signature hairstyle.",
+		ExcludeFromCodex = false,
+		Image = "Vena'sHairstyle.png",
+		InternalName = "/Lotus/Upgrades/Skins/Operator/Hair/Hair1999Garuda",
+		Link = "Vena's Hairstyle",
+		Name = "Vena's Hairstyle",
+		Type = "Hair"
 	},
 }
 ```

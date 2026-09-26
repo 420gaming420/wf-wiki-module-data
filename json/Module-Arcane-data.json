@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-24T07:25:39.124Z"
+    "converted_at": "2026-09-26T07:16:24.690Z"
   },
   "_comments": "\t\t\t--IncompatibilityTags = {  },\n\t\t\t--UpgradeTypes = {  }\n\t\t\t--IncompatibilityTags = { \"OPERATOR_SUIT\" },\n\t\t\t--UpgradeTypes = { \"\" }\n\t\t\t--IncompatibilityTags = { \"\" },",
   "Arcanes": {
@@ -278,7 +278,7 @@
     },
     "Secondary Deadhead": {
       "Type": "Secondary",
-      "Description": "On Precision Headshot Kill:\r\n+120% Damage for 24s. Stacks up to 3x.\r\n+30% to Headshot Multiplier\r\n-50% Weapon Recoil",
+      "Description": "On Weak Point Kill:\r\n+120% Damage for 24s. Stacks up to 3x.\r\n+30% to Headshot Multiplier\r\n-50% Weapon Recoil",
       "Link": "Secondary Deadhead",
       "Rarity": "Rare",
       "UpgradeTypes": [
@@ -933,7 +933,7 @@
     },
     "Arcane Pistoleer": {
       "Type": "Warframe",
-      "Description": "On Pistol Headshot Kill:\r\n60% chance for +102% Ammo Efficiency for 12s",
+      "Description": "On Pistol Weak Point Kill:\r\n60% chance for +102% Ammo Efficiency for 12s",
       "Link": "Arcane Pistoleer",
       "Rarity": "Rare",
       "UpgradeTypes": [
@@ -2301,7 +2301,7 @@
     },
     "Primary Deadhead": {
       "Type": "Primary",
-      "Description": "On Headshot Kill:\r\n+120% Damage for 24s. Stacks up to 3x.\r\n+30% to Headshot Multiplier\r\n-50% Weapon Recoil",
+      "Description": "On Weak Point Kill:\r\n+120% Damage for 24s. Stacks up to 3x.\r\n+30% to Headshot Multiplier\r\n-50% Weapon Recoil",
       "Link": "Primary Deadhead",
       "UpgradeTypes": [
         "WEAPON_DAMAGE_AMOUNT",
@@ -2929,7 +2929,7 @@
     },
     "Longbow Sharpshot": {
       "Type": "Bow",
-      "Description": "On Headshot: Gain +300% damage on your next shot.",
+      "Description": "On Weak Point Hit: Gain +300% damage on your next shot.",
       "Link": "Longbow Sharpshot",
       "MaxRank": 5,
       "Rarity": "Legendary",

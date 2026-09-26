@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/weaponskin"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/weaponskin"
-wiki_timestamp: "2026-09-24T13:13:23Z"
+wiki_timestamp: "2026-09-26T04:13:53Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/weaponskin/doc](/w/Module:Cosmetics/data/weaponskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/weaponskin/doc (page does not exist)")*
@@ -5557,6 +5557,16 @@ return {
         Name = "Tau Dax Thrown Weapon Skin",
         Type = "Weapon Skin"
     },
+    ["Tecton Sparring Skin"] = {
+		CodexSecret = false,
+		Description = "With seismic force shatter and sunder, blow upon blow. Enemies quake at the sight of these signature sparring weapon skins.",
+		ExcludeFromCodex = false,
+		Image = "TectonSparringSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Deluxe/AtlasDeluxeSparring",
+		Link = "Tecton Sparring Skin",
+		Name = "Tecton Sparring Skin",
+		Type = "Skin"
+	},
     ["Tempera Amp Skin"] = {
         CodexSecret = false,
         Description = "This sleek amp skin is a masterstroke of craftsmanship.",

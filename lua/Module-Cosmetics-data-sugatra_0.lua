@@ -1,4 +1,14 @@
 return {
+    ["Alumeti Prime Sugatra"] = {
+        CodexSecret = false,
+        Description = "Adorn your weapon with the splendence of Citrine Prime's signature sugatra.",
+        ExcludeFromCodex = false,
+        Image = "AlumetiPrimeSugatra.png",
+        InternalName = "/Lotus/Upgrades/Skins/MeleeDangles/PrimeCitrineSugatra",
+        Link = "Alumeti Prime Sugatra",
+        Name = "Alumeti Prime Sugatra",
+        Type = "Sugatra"
+    },
     ["Alumeti Sugatra"] = {
         CodexSecret = false,
         Description = "Citrine's signature adornment invokes her fractal beauty.",

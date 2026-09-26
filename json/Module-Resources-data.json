@@ -4,9 +4,9 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-24T07:26:01.741Z"
+    "converted_at": "2026-09-26T07:16:50.015Z"
   },
-  "_comments": "-- For images that are shared between multiple resources; these would not have\n-- their own article on the wiki and will be used in crafting requirement tables.\n-- Generic blueprints will be ignored for now as their images are not used in crafting \n-- requirement tables.\n\t-- first used by Xoris\n\t-- trick for Miter and Shedu\n\t-- trick for Miter\n\t-- a resource in crafting the weapon Pathocyst\n\t\t--InternalName = \"/Lotus/Types/Restoratives/Consumable/XXX\",\n\t\t--Amount = { 1, 1 },\n\t\t-- Rarity = \"Common\",\n\t\t-- Rarity = \"Uncommon\",\n\t\t--Rarity = \"Rare\"\n\t---1999 start\n\t--- 1999 end\n\t-- Jade Shadows: Constellations --\n\t-- Redirecting o to ö",
+  "_comments": "-- For images that are shared between multiple resources; these would not have\n-- their own article on the wiki and will be used in crafting requirement tables.\n-- Generic blueprints will be ignored for now as their images are not used in crafting \n-- requirement tables.\n\t-- first used by Xoris\n\t-- trick for Miter and Shedu\n\t-- trick for Miter\n\t-- a resource in crafting the weapon Pathocyst\n\t\t--InternalName = \"/Lotus/Types/Restoratives/Consumable/XXX\",\n\t\t--Amount = { 1, 1 },\n\t\t-- Rarity = \"Common\",\n\t\t-- Rarity = \"Uncommon\",\n\t\t--Rarity = \"Rare\"\n\t---1999 start\n\t--- 1999 end\n\t-- Jade Shadows: Constellations --\n\t-- Epoch Operation: Taubound --\n\t\t-- Description = \"Eris, carved up and presented to Praghasa in bite sized chunks.\\r\\n\\r\\nObtained from Infested nodes on Eris during Epoch Operation: Taubound.\", -- Do not uncomment until event releases, keep it unspoiled\n\t-- Redirecting o to ö",
   "GenericComponents": {
     "Prime Grip": {
       "Image": "GenericComponentPrimeLatch.png",
@@ -2682,6 +2682,22 @@
       "InternalName": "/Lotus/Upgrades/Focus/TacticLensLua",
       "Link": "Lua Lens"
     },
+    "Hollvanian Pitchweave Fragment": {
+      "RetrieverModAble": true,
+      "Type": "Resource",
+      "Description": "An Efervon-resistant material used to craft Scaldra uniforms.\r\n\r\nLocation: 1999 (Höllvania)",
+      "Link": "Höllvanian Pitchweave Fragment",
+      "ContainerImage": "HöllvanianPitchweaveTarps.png",
+      "HelminthCategory": "Biotics",
+      "ResourceDropChanceBoostAble": true,
+      "Image": "HollvanianPitchweaveFragment.png",
+      "Name": "Höllvanian Pitchweave Fragment",
+      "Introduced": "38",
+      "ResourceBoostAble": true,
+      "Rarity": "Common",
+      "InternalName": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceCommonB",
+      "HelminthCost": 700
+    },
     "Spring Popper": {
       "RetrieverModAble": false,
       "Type": "Resource",
@@ -2778,6 +2794,17 @@
       "InternalName": "/Lotus/Types/Items/MiscItems/NoraWolfTwoCreds",
       "Tradable": false
     },
+    "Hollars": {
+      "Type": "Currency",
+      "Description": "Warframe's standard currency. Obtain Blueprints, Equipment, and other Credit items from the Market.\r\n\r\nEarn Credits by playing Warframe.",
+      "Link": "Credits",
+      "SellPrice": 1,
+      "Image": "Hollars.png",
+      "Name": "Höllars",
+      "Introduced": "38",
+      "InternalName": "",
+      "Tradable": false
+    },
     "Namaes": {
       "RetrieverModAble": false,
       "Type": "Fish",
@@ -2790,32 +2817,28 @@
       "InternalName": "/Lotus/Types/Gameplay/Duviri/Resource/Fish/DuviriFishDItem",
       "ResourceBoostAble": false
     },
-    "Hollvanian Pitchweave Fragment": {
-      "RetrieverModAble": true,
-      "Type": "Resource",
-      "Description": "An Efervon-resistant material used to craft Scaldra uniforms.\r\n\r\nLocation: 1999 (Höllvania)",
-      "Link": "Höllvanian Pitchweave Fragment",
-      "ContainerImage": "HöllvanianPitchweaveTarps.png",
-      "HelminthCategory": "Biotics",
+    "Devar Grey Pigment": {
+      "Type": "Pigment",
+      "Description": "Devar Grey pigments drop from the following enemies:\nTusk Mortar Bombard",
+      "Link": "Pigment",
       "ResourceDropChanceBoostAble": true,
-      "Image": "HollvanianPitchweaveFragment.png",
-      "Name": "Höllvanian Pitchweave Fragment",
-      "Introduced": "38",
-      "ResourceBoostAble": true,
-      "Rarity": "Common",
-      "InternalName": "/Lotus/Types/Gameplay/1999Wf/Resources/1999ResourceCommonB",
-      "HelminthCost": 700
-    },
-    "Hollars": {
-      "Type": "Currency",
-      "Description": "Warframe's standard currency. Obtain Blueprints, Equipment, and other Credit items from the Market.\r\n\r\nEarn Credits by playing Warframe.",
-      "Link": "Credits",
-      "SellPrice": 1,
-      "Image": "Hollars.png",
-      "Name": "Höllars",
-      "Introduced": "38",
+      "Image": "PigmentDevarGrey.png",
+      "Name": "Devar Grey Pigment",
+      "Introduced": "22.20",
       "InternalName": "",
-      "Tradable": false
+      "ResourceBoostAble": true
+    },
+    "Emerald Talent": {
+      "RetrieverModAble": false,
+      "Type": "Resource",
+      "Description": "A heavy token from Sirius' tortured future.\r\n\r\nSource: Support Ryoku against Vena (The Kuva Wytch, Uranus Proxima)",
+      "Link": "Emerald Talent",
+      "ResourceDropChanceBoostAble": false,
+      "Image": "EmeraldTalent.png",
+      "Name": "Emerald Talent",
+      "Introduced": "43",
+      "InternalName": "",
+      "ResourceBoostAble": false
     },
     "Flagellocanth": {
       "RetrieverModAble": true,
@@ -2831,17 +2854,14 @@
       "InternalName": "/Lotus/Types/Items/Fish/Deimos/InfestedRareAFishItem",
       "Rarity": "Rare"
     },
-    "Emerald Talent": {
-      "RetrieverModAble": false,
+    "Riven Splicer": {
+      "Image": "RivenSplicer.png",
+      "Description": "Used in the Mod Workbench to splice Riven traits into a new trait from a special pool of possibilities.",
+      "Introduced": "44",
       "Type": "Resource",
-      "Description": "A heavy token from Sirius' tortured future.\r\n\r\nSource: Support Ryoku against Vena (The Kuva Wytch, Uranus Proxima)",
-      "Link": "Emerald Talent",
-      "ResourceDropChanceBoostAble": false,
-      "Image": "EmeraldTalent.png",
-      "Name": "Emerald Talent",
-      "Introduced": "43",
-      "InternalName": "",
-      "ResourceBoostAble": false
+      "Name": "Riven Splicer",
+      "InternalName": "/Lotus/Types/Items/MiscItems/RivenSplicer",
+      "Link": "Riven Splicer"
     },
     "Seram Beetle Shell": {
       "RetrieverModAble": true,
@@ -10084,16 +10104,16 @@
       "InternalName": "/Lotus/Types/Gameplay/JadeShadows/Resources/BioplasmaItem",
       "Link": "Bioplasma"
     },
-    "Devar Grey Pigment": {
-      "Type": "Pigment",
-      "Description": "Devar Grey pigments drop from the following enemies:\nTusk Mortar Bombard",
-      "Link": "Pigment",
-      "ResourceDropChanceBoostAble": true,
-      "Image": "PigmentDevarGrey.png",
-      "Name": "Devar Grey Pigment",
-      "Introduced": "22.20",
-      "InternalName": "",
-      "ResourceBoostAble": true
+    "Moonflesh": {
+      "RetrieverModAble": false,
+      "Type": "Resource",
+      "Link": "Moonflesh",
+      "ResourceDropChanceBoostAble": false,
+      "Image": "Moonflesh.png",
+      "Name": "Moonflesh",
+      "Introduced": "44",
+      "InternalName": "/Lotus/Types/Gameplay/Events/RoadToTauEvent/RoadToTauEventResource",
+      "ResourceBoostAble": false
     },
     "Devar": {
       "RetrieverModAble": true,

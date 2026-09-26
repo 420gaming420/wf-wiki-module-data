@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-24T07:25:49.708Z"
+    "converted_at": "2026-09-26T07:16:38.075Z"
   },
   "_comments": "",
   "TennoCon 2020 Syandana": {
@@ -43,7 +43,7 @@
     "Description": "Qorvex Basilica's signature syandana perches on your shoulders, keeping a sharp eye over all.",
     "Link": "Garkulek Syandana",
     "Name": "Garkulek Syandana",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/QorvexDeluxeSyandana",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -2946,7 +2946,7 @@
     "CodexSecret": false
   },
   "Reliquia Syandana": {
-    "ConsolePrice": "105",
+    "ConsolePrice": "100",
     "Type": "TennoGen Syandana",
     "Description": "A syandana for your Warframe, designed by lex182 and Therion",
     "Link": "Reliquia Syandana",
@@ -2957,7 +2957,7 @@
       "lex182",
       "Therion"
     ],
-    "Introduced": "TBA",
+    "Introduced": "44",
     "Round": "TennoGen Iceblade",
     "PcPrice": "$5.99",
     "Name": "Reliquia Syandana",

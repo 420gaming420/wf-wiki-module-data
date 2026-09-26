@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-24T07:25:36.493Z"
+    "converted_at": "2026-09-26T07:16:22.052Z"
   },
   "_comments": "-- CTRL + F \"Warframe Name\" to immediately go to the location of that \n-- Warframe/Necramech/Helminth's abilities\n-- Note that [\"Warframe\"] subtable indexes ability by the Warframe they belong to\n-- You can define alternate cost ( ex shields , health , mutation etc using CostType = , its defined in Module:Ability/infobox)\n\t\t\t--Augments = { \"\" },\n\t\t\t-- Weapon = {\"Dex Pixia\", \"Diwata\"}\n\t\t\t-- Weapon = \"Exalted Blade\"\n    -- v.Name, v.Link = v.Name or k, v.Link or k",
   "Archived": {
@@ -701,6 +701,9 @@
     "Infernalis": {
       "Description": "Manifest an aura of flames inflicting <DT_FIRE_COLOR>Heat Damage and Status Effect on nearby enemies.\r\n\r\nTap Dodge while airborne to take flight as a flaming meteor of destruction.",
       "Cost": 25,
+      "Augments": [
+        "Infernum"
+      ],
       "Powersuit": "Uriel",
       "Link": "Infernalis",
       "Key": 1,
@@ -1077,14 +1080,14 @@
       "Icon": "BlessingIcon(xWhite).png"
     },
     "Nurinarim": {
-      "Description": "Requires full Ice to cast. An ancestral spirit descends upon Narin and she begins sword dancing for continuous nearby damage. Press Attack on the marked targets to launch shattering icy slashes that deplete Armor and Shields. Hitting Frozen enemies causes them to explode, dealing massive radial Cold Damage.",
+      "Description": "Requires full Ice to cast. An ancestral spirit descends upon Narin and she begins sword dancing for continuous nearby damage. Press Attack on the marked targets to launch shattering icy slashes that deplete Armor and Shields. Hitting Frozen enemies causes them to explode, dealing massive radial <DT_FREEZE_COLOR> Cold Damage.",
       "Cost": 25,
       "Powersuit": "Narin",
       "Key": 4,
-      "CardImage": "Nurinarimx256.png",
+      "CardImage": "Nurinarim(xWhite).png",
       "Name": "Nurinarim",
       "Introduced": "44",
-      "InternalName": "/Lotus/Powersuits/Duelist/Abilities/",
+      "InternalName": "/Lotus/Powersuits/Duelist/Abilities/DuelistBladeDanceAbility",
       "Preview": "NurinarimPreview.webm",
       "PreviewFallback": "NurinarimPreview.jpg",
       "Icon": "Nurinarim(xWhite).png"
@@ -1424,10 +1427,10 @@
       "Icon": "KineticPlatingIcon(xWhite).png"
     },
     "Sonic Boom": {
-      "Description": "Banshee emits a sonic shockwave that pushes targets in range with enough force to incapacitate or kill attackers.",
+      "Description": "Banshee emits a sonic shockwave that pushes targets in range with enough force to incapacitate attackers and reduce their Armor.",
       "Cost": 25,
       "Augments": [
-        "Sonic Fracture"
+        "Sonic Siphon"
       ],
       "Powersuit": "Banshee",
       "Key": 1,
@@ -2248,7 +2251,8 @@
       "Description": "Frost deep freezes any vapor and moisture in the area, creating a protective sphere with brief invulnerability to boost its strength.",
       "Cost": 50,
       "Augments": [
-        "Chilling Globe"
+        "Chilling Globe",
+        "Cold Front"
       ],
       "Powersuit": "Frost",
       "Key": 3,
@@ -2668,10 +2672,10 @@
       "Icon": "Death'sHarvestIcon(xWhite).png"
     },
     "Sound Quake": {
-      "Description": "Channeling all of her acoustic energy into the environment, Banshee uses ultrasonic reverberations to violently shake the ground.",
-      "Cost": 25,
+      "Description": "Channeling all of her acoustic energy into the environment, Banshee uses ultrasonic reverberations to violently shake the ground in a targeted area.",
+      "Cost": 75,
       "Augments": [
-        "Resonating Quake"
+        "Gaseous Quake"
       ],
       "Powersuit": "Banshee",
       "Key": 4,
@@ -2727,7 +2731,7 @@
       "CostType": "time"
     },
     "Sonar": {
-      "Description": "Using acoustic location, Banshee's Sonar power finds and tracks enemies, and exposes critical weak spots to everyone in your squad.",
+      "Description": "Using acoustic location, Banshee's Sonar power finds and tracks enemies, and exposes critical weak points to everyone in your squad.",
       "Cost": 50,
       "Augments": [
         "Resonance"
@@ -3771,15 +3775,14 @@
       "Icon": "ThuribleIcon(xWhite).png"
     },
     "Naraemagi": {
-      "Description": "Recover Shields by absorbing Cold Status Effect from nearby enemies. Gain Overguard if at full Shields. Gain Ice for each enemy hit.",
+      "Description": "Recover Shields by absorbing <DT_FREEZE_COLOR> Cold Status Effect from nearby enemies. Gain <OVERGUARD_GAIN> Overguard if at full Shields.\r\n\r\nGain Ice for each enemy hit.",
       "Cost": 50,
-      "Subsumable": true,
       "Powersuit": "Narin",
       "Key": 2,
-      "CardImage": "Naraemagix256.png",
+      "CardImage": "Naraemagi(xWhite).png",
       "Name": "Naraemagi",
       "Introduced": "44",
-      "InternalName": "/Lotus/Powersuits/Duelist/Abilities/",
+      "InternalName": "/Lotus/Powersuits/Duelist/Abilities/DuelistRiposteAbility",
       "Preview": "NaraemagiPreview.webm",
       "PreviewFallback": "NaraemagiPreview.jpg",
       "Icon": "Naraemagi(xWhite).png"
@@ -4047,14 +4050,15 @@
       "Icon": "StrangledomeIcon(xWhite).png"
     },
     "Neote": {
-      "Description": "Lunge with Narin's ice rapier Neote, inflicting Cold Damage and Cold and Puncture Status Effect on foes directly ahead of her. Gain Ice for each enemy hit.",
+      "Description": "Lunge with Narin's ice rapier Neote, inflicting <DT_FREEZE_COLOR> Cold Damage and <DT_FREEZE_COLOR> Cold and <DT_PUNCTURE_COLOR> Puncture Status Effect on foes directly ahead of her.\r\n\r\nGain Ice for each enemy hit.",
       "Cost": 25,
+      "Subsumable": true,
       "Powersuit": "Narin",
       "Key": 1,
-      "CardImage": "Neotex256.png",
+      "CardImage": "Neote(xWhite).png",
       "Name": "Neote",
       "Introduced": "44",
-      "InternalName": "/Lotus/Powersuits/Duelist/Abilities/",
+      "InternalName": "/Lotus/Powersuits/Duelist/Abilities/DuelistThrustAbility",
       "Preview": "NeotePreview.webm",
       "PreviewFallback": "NeotePreview.jpg",
       "Icon": "Neote(xWhite).png"
@@ -4062,6 +4066,9 @@
     "Widow's Brood": {
       "Description": "Oraxia launches a barrage of stinging darts in front of her that applies <DT_POISON_COLOR> Toxin Status Effect. Poisoned enemies spawn Scuttlers when killed.",
       "Cost": 50,
+      "Augments": [
+        "Brood's Oversurge"
+      ],
       "Powersuit": "Oraxia",
       "Key": 3,
       "CardImage": "Widow'sBrood.png",
@@ -4360,14 +4367,14 @@
       "Icon": "SmokeScreenIcon(xWhite).png"
     },
     "Hakchum": {
-      "Description": "Tap to leap into the air, tap again to land at target location. Applies Cold Damage Vulnerability and Status Effect in a large radius upon landing. Gain Ice for each enemy hit.",
+      "Description": "Tap to leap into the air, tap again to land at target location. Applies <DT_FREEZE_COLOR> Cold Damage Vulnerability and Status Effect in a large radius upon landing.\r\n\r\nGain Ice for each enemy hit.",
       "Cost": 75,
       "Powersuit": "Narin",
       "Key": 3,
-      "CardImage": "Hakchumx256.png",
+      "CardImage": "Hakchum(xWhite).png",
       "Name": "Hakchum",
       "Introduced": "44",
-      "InternalName": "/Lotus/Powersuits/Duelist/Abilities/",
+      "InternalName": "/Lotus/Powersuits/Duelist/Abilities/DuelistLeapAbility",
       "Preview": "HakchumPreview.webm",
       "PreviewFallback": "HakchumPreview.jpg",
       "Icon": "Hakchum(xWhite).png"
@@ -4419,7 +4426,7 @@
       "CostType": "time"
     },
     "Silence": {
-      "Description": "Using Silence surrounds Banshee in an aura that stuns enemies and will limit their perceptions and tactical response to gunfire and Warframe attacks.",
+      "Description": "Using Silence surrounds Banshee in an aura that stuns enemies, limits their perception and tactical response to gunfire and Warframe attacks, and renders them unable to activate their abilities.",
       "Cost": 75,
       "Augments": [
         "Savage Silence"

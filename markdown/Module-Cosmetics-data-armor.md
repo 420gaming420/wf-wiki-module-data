@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/armor"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/armor"
-wiki_timestamp: "2026-09-24T13:01:01Z"
+wiki_timestamp: "2026-09-25T08:47:43Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/armor/doc](/w/Module:Cosmetics/data/armor/doc?action=edit&redlink=1 "Module:Cosmetics/data/armor/doc (page does not exist)")*
@@ -4477,6 +4477,39 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Armor/TennoCon2022Armor/TennoCon2022AArmor",
         Link = "TennoCon 2022 Shoulder Plates",
         Name = "TennoCon 2022 Shoulder Plates",
+        Part = "Arm",
+        Type = "Armor"
+    },
+    ["Tidon Chest Medallion"] = {
+        CodexSecret = false,
+        Description = "With tassels that dance like snowflakes in the wind, these elegant clasps are worn by the people of Tethys to promote balance and harmony.",
+        ExcludeFromCodex = false,
+        Image = "TidonChestMedallion.png",
+        InternalName = "/Lotus/Upgrades/Skins/Armor/DuelistArmour/DuelistArmourC",
+        Link = "Tidon Chest Medallion",
+        Name = "Tidon Chest Medallion",
+        Part = "Chest",
+        Type = "Armor"
+    },
+    ["Tidon Leg Medallion"] = {
+        CodexSecret = false,
+        Description = "With tassels that dance like snowflakes in the wind, these elegant clasps are worn by the people of Tethys to promote balance and harmony.",
+        ExcludeFromCodex = false,
+        Image = "TidonLegMedallion.png",
+        InternalName = "/Lotus/Upgrades/Skins/Armor/DuelistArmour/DuelistArmourL",
+        Link = "Tidon Leg Medallion",
+        Name = "Tidon Leg Medallion",
+        Part = "Leg",
+        Type = "Armor"
+    },
+    ["Tidon Shoulder Medallion"] = {
+        CodexSecret = false,
+        Description = "With tassels that dance like snowflakes in the wind, these elegant clasps are worn by the people of Tethys to promote balance and harmony.",
+        ExcludeFromCodex = false,
+        Image = "TidonShoulderMedallion.png",
+        InternalName = "/Lotus/Upgrades/Skins/Armor/DuelistArmour/DuelistArmourA",
+        Link = "Tidon Shoulder Medallion",
+        Name = "Tidon Shoulder Medallion",
         Part = "Arm",
         Type = "Armor"
     },

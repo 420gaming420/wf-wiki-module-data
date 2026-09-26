@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-24T07:26:21.000Z"
+    "converted_at": "2026-09-26T07:17:03.974Z"
   },
   "_comments": "\t\t--Users = { },",
   "Tenet Tetra": {
@@ -3229,20 +3229,31 @@
     "Class": "Bow",
     "MaxRank": 30,
     "GripType": "BOW",
-    "Users": [
-      "[PH]"
-    ],
+    "AmmoType": "Primary",
     "Introduced": "44.0",
     "Polarities": [
-      "Naramon"
+      "Madurai",
+      "Madurai"
     ],
-    "Link": "Nunchasa",
-    "InternalName": "[PH]",
     "Traits": [
       "Tenno"
     ],
+    "InternalName": "/Lotus/Weapons/Tenno/Bows/DuelistBow/DuelistBow",
     "Slot": "Primary",
     "SellPrice": 7500,
+    "Magazine": 1,
+    "Image": "Nunchasa.png",
+    "Accuracy": 100,
+    "Trigger": "Charge",
+    "ExilusPolarity": "Naramon",
+    "CompatibilityTags": [
+      "PROJECTILE",
+      "DUELISTBOW"
+    ],
+    "Reload": 0.6,
+    "AmmoPickup": 15,
+    "Link": "Nunchasa",
+    "Name": "Nunchasa",
     "Attacks": [
       {
         "ShotSpeed": 70,
@@ -3287,21 +3298,12 @@
         "CritMultiplier": 3
       }
     ],
-    "Accuracy": 0,
-    "Trigger": "Charge",
-    "ExilusPolarity": "Madurai",
-    "CompatibilityTags": [
-      "PROJECTILE"
-    ],
-    "Reload": 0.6,
-    "AmmoPickup": 15,
-    "Magazine": 1,
-    "Name": "Nunchasa",
-    "Image": "Nunchasa.png",
     "Mastery": 14,
     "AmmoMax": 50,
-    "Disposition": 1,
-    "AmmoType": "Primary"
+    "Disposition": 0.5,
+    "DefaultUpgrades": [
+      "DuelistBowPassiveDescUpgrade"
+    ]
   },
   "Boltor Prime": {
     "Mastery": 13,
@@ -6429,6 +6431,96 @@
     "Disposition": 1.3,
     "CodexSecret": true
   },
+  "Zhuge Prime": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Crossbow",
+    "MaxRank": 30,
+    "Magazine": 30,
+    "Traits": [
+      "Prime"
+    ],
+    "GripType": "",
+    "Tradable": 2,
+    "Introduced": "25.3",
+    "Polarities": [
+      "Madurai",
+      "Madurai",
+      "Madurai"
+    ],
+    "Slot": "Primary",
+    "InternalName": "/Lotus/Weapons/Tenno/LongGuns/PrimeZhuge/PrimeZhugeCrossbow",
+    "SellPrice": 7500,
+    "Link": "Zhuge Prime",
+    "AmmoType": "Primary",
+    "Mastery": 14,
+    "Accuracy": 40,
+    "Trigger": "Auto",
+    "ExilusPolarity": "Madurai",
+    "CompatibilityTags": [
+      "PROJECTILE",
+      "ZHUGE",
+      "CROSSBOW"
+    ],
+    "Reload": 3,
+    "AmmoPickup": 60,
+    "Image": "ZhugePrime.png",
+    "Name": "Zhuge Prime",
+    "Attacks": [
+      {
+        "CritChance": 0.26,
+        "StatusChance": 0.3,
+        "FireRate": 5.5,
+        "ShotSpeed": 80,
+        "IsSilent": true,
+        "MinSpread": 0,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 5,
+        "AttackIndex": 1,
+        "AttackName": "Arrow Impact",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 22.5,
+          "Slash": 17.5,
+          "Impact": 10
+        },
+        "CritMultiplier": 2
+      },
+      {
+        "CritChance": 0.26,
+        "StatusChance": 0.3,
+        "ShotType": "AoE",
+        "Falloff": {
+          "EndRange": 2.6,
+          "Reduction": 0.3,
+          "StartRange": 0
+        },
+        "AttackParentIndex": 1,
+        "Range": 2.6,
+        "FireRate": 5.5,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Arrow Explosion",
+        "PunchThrough": 0,
+        "ExplosionDelay": 0.6,
+        "Damage": {
+          "Puncture": 4,
+          "Slash": 24.8,
+          "Impact": 11.2
+        },
+        "CritMultiplier": 2
+      }
+    ],
+    "Family": "Zhuge",
+    "AmmoMax": 270,
+    "Disposition": 1.15,
+    "DefaultUpgrades": [
+      "/Lotus/Weapons/Tenno/LongGuns/PrimeZhuge/ZhugePrimeReloadFromEmptyMod"
+    ]
+  },
   "Cedo Prime": {
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
@@ -6600,95 +6692,85 @@
     "Disposition": 1.2,
     "AmmoType": "Primary"
   },
-  "Zhuge Prime": {
+  "Zenith": {
     "Conclave": false,
-    "_TooltipAttackDisplay": 1,
-    "Class": "Crossbow",
+    "_TooltipAttackDisplay": 2,
+    "Class": "Rifle",
     "MaxRank": 30,
-    "Magazine": 30,
-    "Traits": [
-      "Prime"
-    ],
     "GripType": "",
-    "Tradable": 2,
-    "Introduced": "25.3",
+    "Introduced": "20.2",
     "Polarities": [
-      "Madurai",
-      "Madurai",
+      "Naramon",
       "Madurai"
     ],
+    "Mastery": 10,
+    "InternalName": "/Lotus/Weapons/Tenno/LongGuns/LoginPrimary/SundialRifle",
+    "Traits": [
+      "Tenno"
+    ],
     "Slot": "Primary",
-    "InternalName": "/Lotus/Weapons/Tenno/LongGuns/PrimeZhuge/PrimeZhugeCrossbow",
-    "SellPrice": 7500,
-    "Link": "Zhuge Prime",
-    "AmmoType": "Primary",
-    "Mastery": 14,
-    "Accuracy": 40,
-    "Trigger": "Auto",
+    "Magazine": 90,
+    "Image": "Zenith.png",
+    "Accuracy": 33.33,
+    "Trigger": "Auto / Semi",
     "ExilusPolarity": "Madurai",
     "CompatibilityTags": [
-      "PROJECTILE",
-      "ZHUGE",
-      "CROSSBOW"
+      "ASSAULT_AMMO"
     ],
-    "Reload": 3,
-    "AmmoPickup": 60,
-    "Image": "ZhugePrime.png",
-    "Name": "Zhuge Prime",
+    "Reload": 1.6,
+    "AmmoPickup": 80,
+    "Link": "Zenith",
+    "Name": "Zenith",
     "Attacks": [
       {
-        "CritChance": 0.26,
-        "StatusChance": 0.3,
-        "FireRate": 5.5,
-        "ShotSpeed": 80,
-        "IsSilent": true,
-        "MinSpread": 0,
+        "CritChance": 0.1,
+        "StatusChance": 0.34,
+        "FireRate": 10.83,
+        "MinSpread": 2,
+        "IsSilent": false,
+        "Range": 300,
         "AmmoCost": 1,
         "Multishot": 1,
-        "MaxSpread": 5,
+        "MaxSpread": 4,
         "AttackIndex": 1,
-        "AttackName": "Arrow Impact",
+        "AttackName": "Auto Mode",
         "PunchThrough": 0,
-        "ShotType": "Projectile",
+        "ShotType": "Hit-Scan",
         "Damage": {
-          "Puncture": 22.5,
-          "Slash": 17.5,
-          "Impact": 10
+          "Puncture": 6,
+          "Slash": 19.5,
+          "Impact": 4.5
         },
         "CritMultiplier": 2
       },
       {
-        "CritChance": 0.26,
-        "StatusChance": 0.3,
-        "ShotType": "AoE",
-        "Falloff": {
-          "EndRange": 2.6,
-          "Reduction": 0.3,
-          "StartRange": 0
-        },
-        "AttackParentIndex": 1,
-        "Range": 2.6,
-        "FireRate": 5.5,
+        "CritChance": 0.35,
+        "Range": 300,
+        "FireRate": 3,
         "Multishot": 1,
-        "IsSilent": false,
         "AttackIndex": 2,
-        "AttackName": "Arrow Explosion",
-        "PunchThrough": 0,
-        "ExplosionDelay": 0.6,
+        "AttackName": "Semi-Auto Mode",
+        "ShotType": "Hit-Scan",
+        "CritMultiplier": 2.5,
+        "Trigger": "Semi-Auto",
+        "AmmoCost": 3,
+        "MaxSpread": 4,
+        "Reload": 1.4,
+        "MinSpread": 2,
+        "PunchThrough": 99999,
+        "StatusChance": 0.08,
+        "IsSilent": false,
         "Damage": {
-          "Puncture": 4,
-          "Slash": 24.8,
-          "Impact": 11.2
-        },
-        "CritMultiplier": 2
+          "Puncture": 120,
+          "Slash": 15,
+          "Impact": 15
+        }
       }
     ],
-    "Family": "Zhuge",
-    "AmmoMax": 270,
-    "Disposition": 1.15,
-    "DefaultUpgrades": [
-      "/Lotus/Weapons/Tenno/LongGuns/PrimeZhuge/ZhugePrimeReloadFromEmptyMod"
-    ]
+    "Family": "Zenith",
+    "AmmoMax": 540,
+    "Disposition": 1.1,
+    "AmmoType": "Primary"
   },
   "Quanta": {
     "Conclave": false,
@@ -7309,153 +7391,73 @@
     "Disposition": 1.3,
     "AmmoType": "Primary"
   },
-  "Zenith": {
-    "Conclave": false,
-    "_TooltipAttackDisplay": 2,
-    "Class": "Rifle",
-    "MaxRank": 30,
-    "GripType": "",
-    "Introduced": "20.2",
-    "Polarities": [
-      "Naramon",
-      "Madurai"
-    ],
-    "Mastery": 10,
-    "InternalName": "/Lotus/Weapons/Tenno/LongGuns/LoginPrimary/SundialRifle",
-    "Traits": [
-      "Tenno"
-    ],
+  "Strun": {
     "Slot": "Primary",
-    "Magazine": 90,
-    "Image": "Zenith.png",
-    "Accuracy": 33.33,
-    "Trigger": "Auto / Semi",
-    "ExilusPolarity": "Madurai",
-    "CompatibilityTags": [
-      "ASSAULT_AMMO"
-    ],
-    "Reload": 1.6,
-    "AmmoPickup": 80,
-    "Link": "Zenith",
-    "Name": "Zenith",
-    "Attacks": [
-      {
-        "CritChance": 0.1,
-        "StatusChance": 0.34,
-        "FireRate": 10.83,
-        "MinSpread": 2,
-        "IsSilent": false,
-        "Range": 300,
-        "AmmoCost": 1,
-        "Multishot": 1,
-        "MaxSpread": 4,
-        "AttackIndex": 1,
-        "AttackName": "Auto Mode",
-        "PunchThrough": 0,
-        "ShotType": "Hit-Scan",
-        "Damage": {
-          "Puncture": 6,
-          "Slash": 19.5,
-          "Impact": 4.5
-        },
-        "CritMultiplier": 2
-      },
-      {
-        "CritChance": 0.35,
-        "Range": 300,
-        "FireRate": 3,
-        "Multishot": 1,
-        "AttackIndex": 2,
-        "AttackName": "Semi-Auto Mode",
-        "ShotType": "Hit-Scan",
-        "CritMultiplier": 2.5,
-        "Trigger": "Semi-Auto",
-        "AmmoCost": 3,
-        "MaxSpread": 4,
-        "Reload": 1.4,
-        "MinSpread": 2,
-        "PunchThrough": 99999,
-        "StatusChance": 0.08,
-        "IsSilent": false,
-        "Damage": {
-          "Puncture": 120,
-          "Slash": 15,
-          "Impact": 15
-        }
-      }
-    ],
-    "Family": "Zenith",
-    "AmmoMax": 540,
-    "Disposition": 1.1,
-    "AmmoType": "Primary"
-  },
-  "Strun Prime": {
-    "MaxRank": 30,
-    "Conclave": false,
+    "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Shotgun",
     "IncarnonChargeGain": 1,
+    "MaxRank": 30,
     "Traits": [
-      "Prime"
+      "Tenno"
     ],
-    "Tradable": 2,
     "GripType": "",
-    "Slot": "Primary",
-    "Introduced": "30.7",
+    "Users": [
+      "Corrupted Crewman"
+    ],
+    "Introduced": "Vanilla",
     "Polarities": [
-      "Naramon",
-      "Madurai",
-      "Madurai"
+      "Naramon"
     ],
     "SellPrice": 7500,
-    "InternalName": "/Lotus/Weapons/Tenno/LongGuns/PrimeStrun/PrimeStrunWeapon",
+    "InternalName": "/Lotus/Weapons/Tenno/Shotgun/Shotgun",
     "ReloadStyle": "ByRound",
-    "Magazine": 10,
-    "IncarnonImage": "StrunPrimeIncarnon.png",
-    "Image": "StrunPrime.png",
-    "Accuracy": 9.1,
+    "Magazine": 6,
+    "IncarnonImage": "StrunIncarnon.png",
+    "Image": "Strun.png",
+    "Accuracy": 4,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
-    "Mastery": 14,
-    "Reload": 4.6,
+    "Mastery": 1,
+    "Reload": 3.75,
     "AmmoPickup": 15,
-    "Link": "Strun Prime",
-    "Name": "Strun Prime",
+    "Link": "Strun",
+    "Name": "Strun",
     "Attacks": [
       {
-        "StatusChance": 0.0667,
-        "CritChance": 0.24,
-        "FireRate": 3.33,
-        "MinSpread": 7,
+        "StatusChance": 0.05,
+        "CritChance": 0.075,
+        "FireRate": 2.5,
+        "MinSpread": 15,
         "IsSilent": false,
         "Falloff": {
-          "EndRange": 52,
-          "Reduction": 0.78,
-          "StartRange": 26
+          "EndRange": 25,
+          "Reduction": 0.4,
+          "StartRange": 12
         },
         "Range": 300,
         "AmmoCost": 1,
         "Multishot": 12,
-        "MaxSpread": 15,
+        "MaxSpread": 35,
         "AttackIndex": 1,
         "AttackName": "Normal Attack",
-        "PunchThrough": 0.8,
+        "PunchThrough": 0,
         "ShotType": "Hit-Scan",
         "Damage": {
-          "Puncture": 8.1,
-          "Slash": 21.6,
-          "Impact": 24.3
+          "Puncture": 3.75,
+          "Slash": 7.5,
+          "Impact": 13.75
         },
-        "CritMultiplier": 2.2
+        "CritMultiplier": 1.5
       },
       {
-        "CritChance": 0.48,
-        "FireRate": 2.5,
+        "CritChance": 0.44,
+        "FireRate": 2,
         "Multishot": 1,
         "AttackIndex": 2,
         "AttackName": "Incarnon Form",
         "ShotType": "Projectile",
-        "CritMultiplier": 3.4,
+        "CritMultiplier": 2.8,
         "Accuracy": 100,
         "IncarnonCharges": 40,
         "AmmoCost": 1,
@@ -7464,7 +7466,7 @@
         "MaxSpread": 0,
         "MinSpread": 0,
         "PunchThrough": 0,
-        "StatusChance": 0.46,
+        "StatusChance": 0.4,
         "ForcedProcs": [
           "Impact"
         ],
@@ -7473,8 +7475,8 @@
         }
       },
       {
-        "CritChance": 0.48,
-        "StatusChance": 0.46,
+        "CritChance": 0.44,
+        "StatusChance": 0.4,
         "Falloff": {
           "EndRange": 4,
           "Reduction": 0.2,
@@ -7485,7 +7487,7 @@
         ],
         "AttackParentIndex": 2,
         "Range": 4,
-        "FireRate": 2.5,
+        "FireRate": 2,
         "Multishot": 1,
         "IsSilent": false,
         "AttackIndex": 3,
@@ -7494,15 +7496,89 @@
         "ShotType": "AoE",
         "Damage": {
           "Blast": 60,
-          "Slash": 100,
-          "Puncture": 40
+          "Slash": 80,
+          "Puncture": 30
         },
-        "CritMultiplier": 3.4
+        "CritMultiplier": 2.8
       }
     ],
     "Family": "Strun",
     "AmmoMax": 120,
-    "Disposition": 1.2,
+    "Disposition": 1.4,
+    "AmmoType": "Primary"
+  },
+  "Vulkar": {
+    "_TooltipAttackDisplay": 1,
+    "Conclave": true,
+    "SniperComboReset": 2,
+    "Class": "Sniper Rifle",
+    "MaxRank": 30,
+    "Magazine": 6,
+    "Mastery": 3,
+    "GripType": "",
+    "Users": [
+      "Ballista",
+      "Grineer Warden",
+      "Harkonar"
+    ],
+    "Introduced": "8.0",
+    "Traits": [
+      "Grineer"
+    ],
+    "SniperComboMin": 2,
+    "InternalName": "/Lotus/Weapons/Grineer/LongGuns/GrineerSniperRifle/GrnSniperRifle",
+    "Slot": "Primary",
+    "SellPrice": 7500,
+    "Zoom": [
+      "2.5x zoom (+35% Headshot Damage)",
+      "4x zoom (+55% Headshot Damage)",
+      "8x zoom (+70% Headshot Damage)"
+    ],
+    "Image": "Vulkar.png",
+    "Accuracy": 13.3,
+    "Trigger": "Semi-Auto",
+    "ExilusPolarity": "Madurai",
+    "CompatibilityTags": [
+      "SNIPER_AMMO"
+    ],
+    "Reload": 3,
+    "AmmoPickup": 15,
+    "Link": "Vulkar",
+    "Name": "Vulkar",
+    "Attacks": [
+      {
+        "CritChance": 0.2,
+        "Falloff": {
+          "EndRange": 600,
+          "Reduction": 0.5,
+          "StartRange": 400
+        },
+        "Range": 1000,
+        "FireRate": 1.5,
+        "Multishot": 1,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "ShotType": "Hit-Scan",
+        "CritMultiplier": 2,
+        "AmmoCost": 1,
+        "IsSilent": false,
+        "MaxSpread": 15,
+        "MinSpread": 0,
+        "PunchThrough": 1,
+        "StatusChance": 0.25,
+        "ForcedProcs": [
+          "Big Stagger"
+        ],
+        "Damage": {
+          "Puncture": 33.8,
+          "Slash": 11.2,
+          "Impact": 180
+        }
+      }
+    ],
+    "Family": "Vulkar",
+    "AmmoMax": 72,
+    "Disposition": 1.45,
     "AmmoType": "Primary"
   },
   "Soma": {
@@ -7722,78 +7798,59 @@
     "Disposition": 1.2,
     "AmmoType": "Primary"
   },
-  "Vulkar": {
-    "_TooltipAttackDisplay": 1,
+  "Veldt": {
     "Conclave": true,
-    "SniperComboReset": 2,
-    "Class": "Sniper Rifle",
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
     "MaxRank": 30,
-    "Magazine": 6,
-    "Mastery": 3,
     "GripType": "",
-    "Users": [
-      "Ballista",
-      "Grineer Warden",
-      "Harkonar"
+    "Introduced": "22.18",
+    "Polarities": [
+      "Naramon"
     ],
-    "Introduced": "8.0",
-    "Traits": [
-      "Grineer"
-    ],
-    "SniperComboMin": 2,
-    "InternalName": "/Lotus/Weapons/Grineer/LongGuns/GrineerSniperRifle/GrnSniperRifle",
+    "Mastery": 8,
+    "InternalName": "/Lotus/Weapons/Tenno/LongGuns/TnRevolverRifle/TnRevolverRifleGun",
     "Slot": "Primary",
     "SellPrice": 7500,
-    "Zoom": [
-      "2.5x zoom (+35% Headshot Damage)",
-      "4x zoom (+55% Headshot Damage)",
-      "8x zoom (+70% Headshot Damage)"
-    ],
-    "Image": "Vulkar.png",
-    "Accuracy": 13.3,
+    "Magazine": 26,
+    "Image": "Veldt.png",
+    "Accuracy": 32,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
     "CompatibilityTags": [
-      "SNIPER_AMMO"
+      "PROJECTILE",
+      "ASSAULT_AMMO"
     ],
-    "Reload": 3,
-    "AmmoPickup": 15,
-    "Link": "Vulkar",
-    "Name": "Vulkar",
+    "Reload": 1.8,
+    "AmmoPickup": 80,
+    "Link": "Veldt",
+    "Name": "Veldt",
     "Attacks": [
       {
-        "CritChance": 0.2,
-        "Falloff": {
-          "EndRange": 600,
-          "Reduction": 0.5,
-          "StartRange": 400
-        },
-        "Range": 1000,
-        "FireRate": 1.5,
+        "CritChance": 0.22,
+        "StatusChance": 0.22,
+        "FireRate": 3.67,
+        "MinSpread": 0.25,
+        "IsSilent": false,
+        "Range": 300,
+        "AmmoCost": 1,
         "Multishot": 1,
+        "MaxSpread": 6,
         "AttackIndex": 1,
         "AttackName": "Normal Attack",
+        "PunchThrough": 0,
         "ShotType": "Hit-Scan",
-        "CritMultiplier": 2,
-        "AmmoCost": 1,
-        "IsSilent": false,
-        "MaxSpread": 15,
-        "MinSpread": 0,
-        "PunchThrough": 1,
-        "StatusChance": 0.25,
-        "ForcedProcs": [
-          "Big Stagger"
-        ],
         "Damage": {
-          "Puncture": 33.8,
-          "Slash": 11.2,
-          "Impact": 180
-        }
+          "Puncture": 23.4,
+          "Slash": 43.2,
+          "Impact": 23.4
+        },
+        "CritMultiplier": 2.2
       }
     ],
-    "Family": "Vulkar",
-    "AmmoMax": 72,
-    "Disposition": 1.45,
+    "Family": "Veldt",
+    "AmmoMax": 546,
+    "Disposition": 1.3,
     "AmmoType": "Primary"
   },
   "Panthera Prime": {
@@ -8155,61 +8212,6 @@
       "/Lotus/Weapons/Tenno/LongGuns/GyreRifle/GyreRifleInnateUpgrade"
     ]
   },
-  "Veldt": {
-    "Conclave": true,
-    "_TooltipAttackDisplay": 1,
-    "Class": "Rifle",
-    "MaxRank": 30,
-    "GripType": "",
-    "Introduced": "22.18",
-    "Polarities": [
-      "Naramon"
-    ],
-    "Mastery": 8,
-    "InternalName": "/Lotus/Weapons/Tenno/LongGuns/TnRevolverRifle/TnRevolverRifleGun",
-    "Slot": "Primary",
-    "SellPrice": 7500,
-    "Magazine": 26,
-    "Image": "Veldt.png",
-    "Accuracy": 32,
-    "Trigger": "Semi-Auto",
-    "ExilusPolarity": "Madurai",
-    "CompatibilityTags": [
-      "PROJECTILE",
-      "ASSAULT_AMMO"
-    ],
-    "Reload": 1.8,
-    "AmmoPickup": 80,
-    "Link": "Veldt",
-    "Name": "Veldt",
-    "Attacks": [
-      {
-        "CritChance": 0.22,
-        "StatusChance": 0.22,
-        "FireRate": 3.67,
-        "MinSpread": 0.25,
-        "IsSilent": false,
-        "Range": 300,
-        "AmmoCost": 1,
-        "Multishot": 1,
-        "MaxSpread": 6,
-        "AttackIndex": 1,
-        "AttackName": "Normal Attack",
-        "PunchThrough": 0,
-        "ShotType": "Hit-Scan",
-        "Damage": {
-          "Puncture": 23.4,
-          "Slash": 43.2,
-          "Impact": 23.4
-        },
-        "CritMultiplier": 2.2
-      }
-    ],
-    "Family": "Veldt",
-    "AmmoMax": 546,
-    "Disposition": 1.3,
-    "AmmoType": "Primary"
-  },
   "Vectis Prime": {
     "IncarnonChargeGain": 10,
     "GripType": "",
@@ -8360,6 +8362,64 @@
     ],
     "AmmoType": "Primary"
   },
+  "Gotva Prime": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "Mastery": 14,
+    "GripType": "",
+    "Traits": [
+      "Prime"
+    ],
+    "Introduced": "33.6.6",
+    "Polarities": [
+      "Madurai",
+      "Madurai",
+      "Naramon"
+    ],
+    "Tradable": 1,
+    "InternalName": "/Lotus/Weapons/Grineer/LongGuns/GrnOrokinRifle/GrnOrokinRifleWeapon",
+    "Slot": "Primary",
+    "SellPrice": 7500,
+    "Magazine": 84,
+    "Image": "GotvaPrime.png",
+    "Accuracy": 100,
+    "Trigger": "Auto",
+    "ExilusPolarity": "Naramon",
+    "CompatibilityTags": [
+      "ASSAULT_AMMO"
+    ],
+    "Reload": 2,
+    "AmmoPickup": 80,
+    "Link": "Gotva Prime",
+    "Name": "Gotva Prime",
+    "Attacks": [
+      {
+        "CritChance": 0.23,
+        "StatusChance": 0.27,
+        "FireRate": 13.33,
+        "MinSpread": 0,
+        "IsSilent": false,
+        "Range": 300,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 0,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0.5,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 25
+        },
+        "CritMultiplier": 2.5
+      }
+    ],
+    "Family": "Gotva",
+    "AmmoMax": 840,
+    "Disposition": 0.85,
+    "AmmoType": "Primary"
+  },
   "Tenet Envoy": {
     "Conclave": false,
     "_TooltipAttackDisplay": 2,
@@ -8442,64 +8502,6 @@
       "/Lotus/Weapons/Corpus/LongGuns/CrpBriefcaseLauncher/CrpBriefcaseLauncherInnateMod"
     ]
   },
-  "Gotva Prime": {
-    "Conclave": false,
-    "_TooltipAttackDisplay": 1,
-    "Class": "Rifle",
-    "MaxRank": 30,
-    "Mastery": 14,
-    "GripType": "",
-    "Traits": [
-      "Prime"
-    ],
-    "Introduced": "33.6.6",
-    "Polarities": [
-      "Madurai",
-      "Madurai",
-      "Naramon"
-    ],
-    "Tradable": 1,
-    "InternalName": "/Lotus/Weapons/Grineer/LongGuns/GrnOrokinRifle/GrnOrokinRifleWeapon",
-    "Slot": "Primary",
-    "SellPrice": 7500,
-    "Magazine": 84,
-    "Image": "GotvaPrime.png",
-    "Accuracy": 100,
-    "Trigger": "Auto",
-    "ExilusPolarity": "Naramon",
-    "CompatibilityTags": [
-      "ASSAULT_AMMO"
-    ],
-    "Reload": 2,
-    "AmmoPickup": 80,
-    "Link": "Gotva Prime",
-    "Name": "Gotva Prime",
-    "Attacks": [
-      {
-        "CritChance": 0.23,
-        "StatusChance": 0.27,
-        "FireRate": 13.33,
-        "MinSpread": 0,
-        "IsSilent": false,
-        "Range": 300,
-        "AmmoCost": 1,
-        "Multishot": 1,
-        "MaxSpread": 0,
-        "AttackIndex": 1,
-        "AttackName": "Normal Attack",
-        "PunchThrough": 0.5,
-        "ShotType": "Hit-Scan",
-        "Damage": {
-          "Puncture": 25
-        },
-        "CritMultiplier": 2.5
-      }
-    ],
-    "Family": "Gotva",
-    "AmmoMax": 840,
-    "Disposition": 0.85,
-    "AmmoType": "Primary"
-  },
   "Vaykor Hek": {
     "Conclave": true,
     "_TooltipAttackDisplay": 1,
@@ -8566,6 +8568,69 @@
     "AmmoMax": 120,
     "Disposition": 1.15,
     "AmmoType": "Primary"
+  },
+  "Vadarya Prime": {
+    "_TooltipAttackDisplay": 1,
+    "Magazine": 16,
+    "Conclave": false,
+    "SniperComboReset": 2,
+    "Class": "Sniper Rifle",
+    "MaxRank": 30,
+    "Traits": [
+      ""
+    ],
+    "Tradable": 2,
+    "GripType": "",
+    "Slot": "Primary",
+    "Introduced": "39.1",
+    "Polarities": [
+      "Madurai",
+      "Naramon"
+    ],
+    "SniperComboMin": 3,
+    "InternalName": "/Lotus/Weapons/Tenno/LongGuns/PrimeLightningGun/PrimeLightningGun",
+    "SellPrice": 7500,
+    "Link": "Vadarya Prime",
+    "AmmoType": "Primary",
+    "Mastery": 15,
+    "Accuracy": 100,
+    "Trigger": "Auto Charge",
+    "ExilusPolarity": "Naramon",
+    "CompatibilityTags": [
+      ""
+    ],
+    "Reload": 2.6,
+    "AmmoPickup": 80,
+    "Image": "VadaryaPrime.png",
+    "Name": "Vadarya Prime",
+    "Attacks": [
+      {
+        "ChargeTime": 0.75,
+        "CritChance": 0.4,
+        "StatusChance": 0.18,
+        "FireRate": 2.8,
+        "MinSpread": 0,
+        "IsSilent": false,
+        "Range": 300,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 0,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Electricity": 400
+        },
+        "CritMultiplier": 2.8
+      }
+    ],
+    "Family": "Vadarya Prime",
+    "AmmoMax": 72,
+    "Disposition": 0.8,
+    "DefaultUpgrades": [
+      "/Lotus/Weapons/Tenno/LongGuns/PrimeLightningGun/VadaryaPrimePassiveDescUpgrade"
+    ]
   },
   "Nagantaka Prime": {
     "Conclave": false,
@@ -8722,67 +8787,124 @@
     "Disposition": 1.46,
     "AmmoType": "Primary"
   },
-  "Vadarya Prime": {
-    "_TooltipAttackDisplay": 1,
-    "Magazine": 16,
+  "Trumna": {
     "Conclave": false,
-    "SniperComboReset": 2,
-    "Class": "Sniper Rifle",
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
     "MaxRank": 30,
-    "Traits": [
-      ""
-    ],
-    "Tradable": 2,
+    "Magazine": 200,
     "GripType": "",
-    "Slot": "Primary",
-    "Introduced": "39.1",
-    "Polarities": [
-      "Madurai",
-      "Naramon"
+    "Traits": [
+      "Entrati"
     ],
-    "SniperComboMin": 3,
-    "InternalName": "/Lotus/Weapons/Tenno/LongGuns/PrimeLightningGun/PrimeLightningGun",
+    "Introduced": "29",
+    "Polarities": {},
+    "Slot": "Primary",
+    "InternalName": "/Lotus/Weapons/Thanotech/ThanoRifle/ThanotechRifle",
     "SellPrice": 7500,
-    "Link": "Vadarya Prime",
+    "Link": "Trumna",
     "AmmoType": "Primary",
-    "Mastery": 15,
-    "Accuracy": 100,
-    "Trigger": "Auto Charge",
+    "Mastery": 13,
+    "Accuracy": 200,
+    "Trigger": "Auto / Semi",
     "ExilusPolarity": "Naramon",
     "CompatibilityTags": [
-      ""
+      "ASSAULT_AMMO",
+      "PROJECTILE",
+      "AOE"
     ],
-    "Reload": 2.6,
-    "AmmoPickup": 80,
-    "Image": "VadaryaPrime.png",
-    "Name": "Vadarya Prime",
+    "Reload": 5,
+    "AmmoPickup": 60,
+    "Image": "Trumna.png",
+    "Name": "Trumna",
     "Attacks": [
       {
-        "ChargeTime": 0.75,
-        "CritChance": 0.4,
-        "StatusChance": 0.18,
-        "FireRate": 2.8,
-        "MinSpread": 0,
+        "MinSpread": 0.3,
+        "CritChance": 0.24,
+        "StatusChance": 0.3,
+        "FireRate": 4.67,
+        "Trigger": "Auto",
         "IsSilent": false,
         "Range": 300,
         "AmmoCost": 1,
         "Multishot": 1,
-        "MaxSpread": 0,
+        "MaxSpread": 0.7,
         "AttackIndex": 1,
-        "AttackName": "Normal Attack",
+        "AttackName": "Auto",
         "PunchThrough": 0,
         "ShotType": "Hit-Scan",
         "Damage": {
-          "Electricity": 400
+          "Impact": 29,
+          "Heat": 53
         },
-        "CritMultiplier": 2.8
+        "CritMultiplier": 2.2
+      },
+      {
+        "CritChance": 0.24,
+        "StatusChance": 0.3,
+        "Falloff": {
+          "EndRange": 1.6,
+          "Reduction": 0.15,
+          "StartRange": 0
+        },
+        "Range": 1.6,
+        "FireRate": 4.67,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 2,
+        "AttackName": "Auto AoE",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Heat": 50
+        },
+        "CritMultiplier": 2.2
+      },
+      {
+        "CritChance": 0.38,
+        "Accuracy": 9.1,
+        "Trigger": "Semi-Auto",
+        "IsSilent": false,
+        "MaxSpread": 16,
+        "FireRate": 1.33,
+        "Multishot": 1,
+        "MinSpread": 6,
+        "AttackIndex": 3,
+        "AttackName": "Grenade Impact",
+        "PunchThrough": 0,
+        "StatusChance": 0.5,
+        "Damage": {
+          "Impact": 100
+        },
+        "CritMultiplier": 2.4
+      },
+      {
+        "CritChance": 0.38,
+        "StatusChance": 0.5,
+        "Falloff": {
+          "EndRange": 6,
+          "Reduction": 0.4,
+          "StartRange": 0
+        },
+        "Range": 6,
+        "FireRate": 1.33,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 4,
+        "AttackName": "Grenade Bounce AoE",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Heat": 1000
+        },
+        "CritMultiplier": 2.4
       }
     ],
-    "Family": "Vadarya Prime",
-    "AmmoMax": 72,
-    "Disposition": 0.8,
+    "Family": "Trumna",
+    "AmmoMax": 400,
+    "Disposition": 0.85,
     "DefaultUpgrades": [
-      "/Lotus/Weapons/Tenno/LongGuns/PrimeLightningGun/VadaryaPrimePassiveDescUpgrade"
+      "/Lotus/Weapons/Thanotech/ThanoRifle/ThanotechRifleWeaponInnateMod"
     ]
   },
   "Panthera": {
@@ -8929,195 +9051,6 @@
     "Disposition": 1.1,
     "AmmoType": "Primary"
   },
-  "Trumna": {
-    "Conclave": false,
-    "_TooltipAttackDisplay": 1,
-    "Class": "Rifle",
-    "MaxRank": 30,
-    "Magazine": 200,
-    "GripType": "",
-    "Traits": [
-      "Entrati"
-    ],
-    "Introduced": "29",
-    "Polarities": {},
-    "Slot": "Primary",
-    "InternalName": "/Lotus/Weapons/Thanotech/ThanoRifle/ThanotechRifle",
-    "SellPrice": 7500,
-    "Link": "Trumna",
-    "AmmoType": "Primary",
-    "Mastery": 13,
-    "Accuracy": 200,
-    "Trigger": "Auto / Semi",
-    "ExilusPolarity": "Naramon",
-    "CompatibilityTags": [
-      "ASSAULT_AMMO",
-      "PROJECTILE",
-      "AOE"
-    ],
-    "Reload": 5,
-    "AmmoPickup": 60,
-    "Image": "Trumna.png",
-    "Name": "Trumna",
-    "Attacks": [
-      {
-        "MinSpread": 0.3,
-        "CritChance": 0.24,
-        "StatusChance": 0.3,
-        "FireRate": 4.67,
-        "Trigger": "Auto",
-        "IsSilent": false,
-        "Range": 300,
-        "AmmoCost": 1,
-        "Multishot": 1,
-        "MaxSpread": 0.7,
-        "AttackIndex": 1,
-        "AttackName": "Auto",
-        "PunchThrough": 0,
-        "ShotType": "Hit-Scan",
-        "Damage": {
-          "Impact": 29,
-          "Heat": 53
-        },
-        "CritMultiplier": 2.2
-      },
-      {
-        "CritChance": 0.24,
-        "StatusChance": 0.3,
-        "Falloff": {
-          "EndRange": 1.6,
-          "Reduction": 0.15,
-          "StartRange": 0
-        },
-        "Range": 1.6,
-        "FireRate": 4.67,
-        "Multishot": 1,
-        "IsSilent": false,
-        "AttackIndex": 2,
-        "AttackName": "Auto AoE",
-        "PunchThrough": 0,
-        "ShotType": "AoE",
-        "Damage": {
-          "Heat": 50
-        },
-        "CritMultiplier": 2.2
-      },
-      {
-        "CritChance": 0.38,
-        "Accuracy": 9.1,
-        "Trigger": "Semi-Auto",
-        "IsSilent": false,
-        "MaxSpread": 16,
-        "FireRate": 1.33,
-        "Multishot": 1,
-        "MinSpread": 6,
-        "AttackIndex": 3,
-        "AttackName": "Grenade Impact",
-        "PunchThrough": 0,
-        "StatusChance": 0.5,
-        "Damage": {
-          "Impact": 100
-        },
-        "CritMultiplier": 2.4
-      },
-      {
-        "CritChance": 0.38,
-        "StatusChance": 0.5,
-        "Falloff": {
-          "EndRange": 6,
-          "Reduction": 0.4,
-          "StartRange": 0
-        },
-        "Range": 6,
-        "FireRate": 1.33,
-        "Multishot": 1,
-        "IsSilent": false,
-        "AttackIndex": 4,
-        "AttackName": "Grenade Bounce AoE",
-        "PunchThrough": 0,
-        "ShotType": "AoE",
-        "Damage": {
-          "Heat": 1000
-        },
-        "CritMultiplier": 2.4
-      }
-    ],
-    "Family": "Trumna",
-    "AmmoMax": 400,
-    "Disposition": 0.85,
-    "DefaultUpgrades": [
-      "/Lotus/Weapons/Thanotech/ThanoRifle/ThanotechRifleWeaponInnateMod"
-    ]
-  },
-  "Higasa": {
-    "Conclave": false,
-    "_TooltipAttackDisplay": 1,
-    "Class": "Rifle",
-    "MaxRank": 30,
-    "GripType": "",
-    "Users": {},
-    "Introduced": "37",
-    "Polarities": [
-      "Vazarin"
-    ],
-    "InternalName": "/Lotus/Weapons/Tenno/LongGuns/Gunbrella/ShrineMaidenGunbrellaWeapon",
-    "Mastery": 2,
-    "Traits": [
-      "Tenno"
-    ],
-    "Slot": "Primary",
-    "SellPrice": 7500,
-    "Accuracy": 100,
-    "Trigger": "Burst / Charge",
-    "ExilusPolarity": "Naramon",
-    "Link": "Higasa",
-    "Reload": 2.5,
-    "AmmoPickup": 80,
-    "Magazine": 90,
-    "Name": "Higasa",
-    "Image": "Higasa.png",
-    "Family": "Higasa",
-    "AmmoMax": 540,
-    "Disposition": 1.25,
-    "Attacks": [
-      {
-        "CritChance": 0.24,
-        "Trigger": "Burst",
-        "StatusChance": 0.18,
-        "BurstCount": 5,
-        "FireRate": 2.5,
-        "BurstDelay": 0.1,
-        "AmmoCost": 1,
-        "ShotSpeed": 100,
-        "MinSpread": 0,
-        "AttackIndex": 1,
-        "AttackName": "Auto",
-        "MaxSpread": 2,
-        "ShotType": "Projectile",
-        "Damage": {
-          "Puncture": 15.6,
-          "Slash": 10.4
-        },
-        "CritMultiplier": 2
-      },
-      {
-        "ChargeTime": 1,
-        "CritChance": 0.24,
-        "Trigger": "Charge",
-        "AmmoCost": 0,
-        "StatusChance": 0.18,
-        "FireRate": 1.2,
-        "AttackIndex": 2,
-        "AttackName": "Charged Shot",
-        "PunchThrough": 2,
-        "ShotType": "Hit-Scan",
-        "Damage": {
-          "Blast": 390
-        },
-        "CritMultiplier": 2
-      }
-    ]
-  },
   "Torid": {
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
@@ -9219,89 +9152,135 @@
     "Disposition": 1.3,
     "AmmoType": "Primary"
   },
-  "Sybaris": {
-    "Conclave": true,
+  "Higasa": {
+    "Conclave": false,
     "_TooltipAttackDisplay": 1,
     "Class": "Rifle",
-    "IncarnonChargeGain": 8,
-    "Mastery": 5,
+    "MaxRank": 30,
     "GripType": "",
+    "Users": {},
+    "Introduced": "37",
+    "Polarities": [
+      "Vazarin"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/LongGuns/Gunbrella/ShrineMaidenGunbrellaWeapon",
+    "Mastery": 2,
     "Traits": [
       "Tenno"
     ],
-    "Introduced": "13.3",
     "Slot": "Primary",
     "SellPrice": 7500,
-    "InternalName": "/Lotus/Weapons/Tenno/LongGuns/TnoLeverAction/TnoLeverActionRifle",
-    "Magazine": 10,
-    "Image": "Sybaris.png",
-    "IncarnonImage": "SybarisIncarnon.png",
-    "MaxRank": 30,
-    "Accuracy": 28.6,
-    "Trigger": "Burst",
-    "ExilusPolarity": "Madurai",
-    "CompatibilityTags": [
-      "ASSAULT_AMMO"
-    ],
-    "Reload": 2,
+    "Accuracy": 100,
+    "Trigger": "Burst / Charge",
+    "ExilusPolarity": "Naramon",
+    "Link": "Higasa",
+    "Reload": 2.5,
     "AmmoPickup": 80,
-    "Link": "Sybaris",
-    "Name": "Sybaris",
+    "Magazine": 90,
+    "Name": "Higasa",
+    "Image": "Higasa.png",
+    "Family": "Higasa",
+    "AmmoMax": 540,
+    "Disposition": 1.25,
     "Attacks": [
       {
-        "CritChance": 0.25,
-        "BurstCount": 2,
-        "Range": 300,
-        "FireRate": 3.33,
-        "Multishot": 1,
-        "AttackIndex": 1,
-        "AttackName": "Normal Attack",
-        "ShotType": "Hit-Scan",
-        "CritMultiplier": 2,
-        "BurstDelay": 0.101,
+        "CritChance": 0.24,
+        "Trigger": "Burst",
+        "StatusChance": 0.18,
+        "BurstCount": 5,
+        "FireRate": 2.5,
+        "BurstDelay": 0.1,
         "AmmoCost": 1,
-        "MaxSpread": 5,
-        "MinSpread": 2,
-        "PunchThrough": 0,
-        "StatusChance": 0.1,
-        "IsSilent": false,
+        "ShotSpeed": 100,
+        "MinSpread": 0,
+        "AttackIndex": 1,
+        "AttackName": "Auto",
+        "MaxSpread": 2,
+        "ShotType": "Projectile",
         "Damage": {
-          "Puncture": 26.4,
-          "Slash": 27.2,
-          "Impact": 26.4
-        }
+          "Puncture": 15.6,
+          "Slash": 10.4
+        },
+        "CritMultiplier": 2
       },
       {
-        "CritChance": 0.2,
-        "BurstCount": 4,
-        "Range": 300,
-        "FireRate": 3.33,
-        "Multishot": 1,
+        "ChargeTime": 1,
+        "CritChance": 0.24,
+        "Trigger": "Charge",
+        "AmmoCost": 0,
+        "StatusChance": 0.18,
+        "FireRate": 1.2,
         "AttackIndex": 2,
-        "AttackName": "Incarnon Form",
+        "AttackName": "Charged Shot",
+        "PunchThrough": 2,
         "ShotType": "Hit-Scan",
-        "CritMultiplier": 3,
-        "BurstDelay": 0.101,
-        "AmmoCost": 1,
-        "IncarnonCharges": 200,
-        "IsSilent": false,
-        "MaxSpread": 5,
-        "MinSpread": 2,
-        "PunchThrough": 0,
-        "StatusChance": 0.2,
-        "ForcedProcs": [
-          "Blast"
-        ],
         "Damage": {
-          "Puncture": 29.7,
-          "Slash": 30.6,
-          "Impact": 29.7
-        }
+          "Blast": 390
+        },
+        "CritMultiplier": 2
+      }
+    ]
+  },
+  "Supra Vandal": {
+    "Conclave": true,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "Mastery": 14,
+    "Traits": [
+      "Corpus",
+      "Vandal"
+    ],
+    "GripType": "",
+    "Tradable": 1,
+    "Introduced": "20.4",
+    "Polarities": [
+      "Madurai",
+      "Madurai"
+    ],
+    "Spool": 4,
+    "InternalName": "/Lotus/Weapons/Corpus/LongGuns/Machinegun/SupraVandal",
+    "Slot": "Primary",
+    "SellPrice": 7500,
+    "Magazine": 300,
+    "Image": "SupraVandal.png",
+    "Accuracy": 28.6,
+    "Trigger": "Auto-Spool",
+    "ExilusPolarity": "Madurai",
+    "CompatibilityTags": [
+      "PROJECTILE",
+      "ASSAULT_AMMO"
+    ],
+    "Reload": 3,
+    "AmmoPickup": 80,
+    "Link": "Supra Vandal",
+    "Name": "Supra Vandal",
+    "Attacks": [
+      {
+        "CritChance": 0.16,
+        "StatusChance": 0.3,
+        "FireRate": 12.5,
+        "ShotSpeed": 100,
+        "IsSilent": false,
+        "MinSpread": 3,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 4,
+        "AttackIndex": 1,
+        "AttackName": "Fully Spooled",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
+        "Damage": {
+          "Puncture": 30,
+          "Slash": 6,
+          "Impact": 4
+        },
+        "CritMultiplier": 2
       }
     ],
-    "Family": "Sybaris",
-    "AmmoMax": 540,
-    "Disposition": 1.3,
+    "Family": "Supra",
+    "AmmoMax": 1600,
+    "Disposition": 1,
     "AmmoType": "Primary"
   },
   "Coda Hema": {
@@ -9427,100 +9406,84 @@
     "Disposition": 1.1,
     "AmmoType": "Primary"
   },
-  "Kuva Kohm": {
-    "Magazine": 209,
-    "Spool": 5,
-    "Conclave": false,
+  "Cernos": {
+    "Conclave": true,
     "_TooltipAttackDisplay": 2,
-    "Class": "Shotgun",
-    "MaxRank": 40,
-    "Traits": [
-      "Grineer",
-      "Kuva Lich"
-    ],
-    "Tradable": 3,
-    "GripType": "",
-    "Users": [
-      "Kuva Lich"
-    ],
-    "Introduced": "26",
+    "Class": "Bow",
+    "MaxRank": 30,
+    "GripType": "BOW",
+    "Mastery": 6,
+    "Introduced": "11.1",
     "Polarities": [
-      "Vazarin"
+      "Madurai"
     ],
+    "Traits": [
+      "Tenno"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Bows/AntlerBow/AntlerBow",
     "Slot": "Primary",
-    "InternalName": "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Kohm/KuvaKohm",
     "SellPrice": 7500,
-    "IsLichWeapon": true,
-    "AmmoType": "Primary",
-    "Mastery": 13,
-    "Accuracy": 8,
-    "Trigger": "Auto-Spool",
-    "ExilusPolarity": "Madurai",
-    "Link": "Kuva Kohm",
-    "Reload": 2,
-    "AmmoPickup": 40,
-    "Image": "KuvaKohm.png",
-    "Name": "Kuva Kohm",
+    "Magazine": 1,
+    "Image": "Cernos.png",
+    "Accuracy": 16.7,
+    "Trigger": "Charge",
+    "ExilusPolarity": "Naramon",
+    "CompatibilityTags": [
+      "PROJECTILE"
+    ],
+    "Reload": 0.6,
+    "AmmoPickup": 15,
+    "Link": "Cernos",
+    "Name": "Cernos",
     "Attacks": [
       {
-        "StatusChance": 0.9,
-        "CritChance": 0.19,
-        "FireRate": 0.8333,
-        "MinSpread": 5,
-        "IsSilent": false,
-        "Falloff": {
-          "EndRange": 26,
-          "Reduction": 0.9,
-          "StartRange": 13
-        },
-        "Range": 300,
+        "ShotSpeed": 70,
+        "CritChance": 0.36,
+        "StatusChance": 0.18,
+        "FireRate": 1,
+        "Trigger": "Semi-Auto",
+        "IsSilent": true,
+        "MinSpread": 0,
         "AmmoCost": 1,
         "Multishot": 1,
-        "MaxSpread": 20,
+        "MaxSpread": 12,
         "AttackIndex": 1,
-        "AttackName": "Single Pellet",
-        "PunchThrough": 1.5,
-        "ShotType": "Hit-Scan",
+        "AttackName": "Uncharged Shot",
+        "PunchThrough": 0,
+        "ShotType": "Projectile",
         "Damage": {
-          "Puncture": 4,
-          "Slash": 12,
-          "Impact": 4
+          "Puncture": 9.5,
+          "Slash": 9.5,
+          "Impact": 171
         },
-        "CritMultiplier": 2.3
+        "CritMultiplier": 2
       },
       {
-        "StatusChance": 0.075,
-        "CritChance": 0.19,
-        "FireRate": 4.17,
-        "MinSpread": 5,
-        "IsSilent": false,
-        "Falloff": {
-          "EndRange": 26,
-          "Reduction": 0.9,
-          "StartRange": 13
-        },
-        "Range": 300,
-        "AmmoCost": 4,
-        "Multishot": 12,
-        "MaxSpread": 20,
+        "ChargeTime": 0.5,
+        "CritChance": 0.36,
+        "StatusChance": 0.18,
+        "Trigger": "Charge",
+        "FireRate": 1,
+        "ShotSpeed": 90,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "IsSilent": true,
         "AttackIndex": 2,
-        "AttackName": "Fully Spooled",
-        "PunchThrough": 1.5,
-        "ShotType": "Hit-Scan",
+        "AttackName": "Charged Shot",
+        "PunchThrough": 1,
+        "ShotType": "Projectile",
         "Damage": {
-          "Puncture": 4,
-          "Slash": 12,
-          "Impact": 4
+          "Puncture": 19,
+          "Slash": 19,
+          "Impact": 342
         },
-        "CritMultiplier": 2.3
+        "CritMultiplier": 2
       }
     ],
-    "Family": "Kohm",
-    "AmmoMax": 836,
-    "Disposition": 0.9,
-    "DefaultUpgrades": [
-      "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
-    ]
+    "Family": "Cernos",
+    "AmmoMax": 72,
+    "Disposition": 1.3,
+    "AmmoType": "Primary"
   },
   "Tetra": {
     "Conclave": true,
@@ -9580,6 +9543,94 @@
     "AmmoMax": 540,
     "Disposition": 1.5,
     "AmmoType": "Primary"
+  },
+  "Tenora Prime": {
+    "Magazine": 200,
+    "Conclave": true,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 30,
+    "Traits": [
+      "Prime",
+      "Vaulted"
+    ],
+    "Tradable": 2,
+    "GripType": "",
+    "Spool": 9,
+    "Introduced": "29.9",
+    "Polarities": [
+      "Madurai",
+      "Madurai"
+    ],
+    "Slot": "Primary",
+    "InternalName": "/Lotus/Weapons/Tenno/LongGuns/PrimeTenora/TenoraPrimeWeapon",
+    "SellPrice": 7500,
+    "Link": "Tenora Prime",
+    "AmmoType": "Primary",
+    "Mastery": 14,
+    "Accuracy": 12.5,
+    "Trigger": "Auto-Spool / Charge",
+    "ExilusPolarity": "Madurai",
+    "CompatibilityTags": [
+      "ASSAULT_AMMO"
+    ],
+    "Reload": 2.5,
+    "AmmoPickup": 80,
+    "Image": "TenoraPrime.png",
+    "Name": "Tenora Prime",
+    "Attacks": [
+      {
+        "MinSpread": 0,
+        "CritChance": 0.3,
+        "StatusChance": 0.24,
+        "FireRate": 12.67,
+        "Trigger": "Auto-Spool",
+        "IsSilent": false,
+        "Range": 300,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 16,
+        "AttackIndex": 1,
+        "AttackName": "Fully Spooled",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 11.2,
+          "Slash": 8.4,
+          "Impact": 8.4
+        },
+        "CritMultiplier": 2.2
+      },
+      {
+        "CritChance": 0.4,
+        "Range": 300,
+        "FireRate": 2,
+        "Multishot": 1,
+        "AttackIndex": 2,
+        "AttackName": "Charged Attack",
+        "ShotType": "Hit-Scan",
+        "CritMultiplier": 3,
+        "ChargeTime": 0.8,
+        "Trigger": "Charge",
+        "AmmoCost": 10,
+        "MaxSpread": 16,
+        "MinSpread": 0,
+        "PunchThrough": 1,
+        "StatusChance": 0.2,
+        "IsSilent": false,
+        "Damage": {
+          "Puncture": 168,
+          "Slash": 56,
+          "Impact": 56
+        }
+      }
+    ],
+    "Family": "Tenora",
+    "AmmoMax": 1000,
+    "Disposition": 1.05,
+    "DefaultUpgrades": [
+      "/Lotus/Weapons/Tenno/LongGuns/TnBardRifle/TnBardRifleInnateUpgrade"
+    ]
   },
   "Synapse": {
     "Conclave": true,
@@ -9762,192 +9813,6 @@
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
     ]
   },
-  "Tenora Prime": {
-    "Magazine": 200,
-    "Conclave": true,
-    "_TooltipAttackDisplay": 1,
-    "Class": "Rifle",
-    "MaxRank": 30,
-    "Traits": [
-      "Prime",
-      "Vaulted"
-    ],
-    "Tradable": 2,
-    "GripType": "",
-    "Spool": 9,
-    "Introduced": "29.9",
-    "Polarities": [
-      "Madurai",
-      "Madurai"
-    ],
-    "Slot": "Primary",
-    "InternalName": "/Lotus/Weapons/Tenno/LongGuns/PrimeTenora/TenoraPrimeWeapon",
-    "SellPrice": 7500,
-    "Link": "Tenora Prime",
-    "AmmoType": "Primary",
-    "Mastery": 14,
-    "Accuracy": 12.5,
-    "Trigger": "Auto-Spool / Charge",
-    "ExilusPolarity": "Madurai",
-    "CompatibilityTags": [
-      "ASSAULT_AMMO"
-    ],
-    "Reload": 2.5,
-    "AmmoPickup": 80,
-    "Image": "TenoraPrime.png",
-    "Name": "Tenora Prime",
-    "Attacks": [
-      {
-        "MinSpread": 0,
-        "CritChance": 0.3,
-        "StatusChance": 0.24,
-        "FireRate": 12.67,
-        "Trigger": "Auto-Spool",
-        "IsSilent": false,
-        "Range": 300,
-        "AmmoCost": 1,
-        "Multishot": 1,
-        "MaxSpread": 16,
-        "AttackIndex": 1,
-        "AttackName": "Fully Spooled",
-        "PunchThrough": 0,
-        "ShotType": "Hit-Scan",
-        "Damage": {
-          "Puncture": 11.2,
-          "Slash": 8.4,
-          "Impact": 8.4
-        },
-        "CritMultiplier": 2.2
-      },
-      {
-        "CritChance": 0.4,
-        "Range": 300,
-        "FireRate": 2,
-        "Multishot": 1,
-        "AttackIndex": 2,
-        "AttackName": "Charged Attack",
-        "ShotType": "Hit-Scan",
-        "CritMultiplier": 3,
-        "ChargeTime": 0.8,
-        "Trigger": "Charge",
-        "AmmoCost": 10,
-        "MaxSpread": 16,
-        "MinSpread": 0,
-        "PunchThrough": 1,
-        "StatusChance": 0.2,
-        "IsSilent": false,
-        "Damage": {
-          "Puncture": 168,
-          "Slash": 56,
-          "Impact": 56
-        }
-      }
-    ],
-    "Family": "Tenora",
-    "AmmoMax": 1000,
-    "Disposition": 1.05,
-    "DefaultUpgrades": [
-      "/Lotus/Weapons/Tenno/LongGuns/TnBardRifle/TnBardRifleInnateUpgrade"
-    ]
-  },
-  "Braton": {
-    "Conclave": true,
-    "_TooltipAttackDisplay": 1,
-    "Class": "Rifle",
-    "IncarnonChargeGain": 10,
-    "Mastery": 0,
-    "GripType": "",
-    "Traits": [
-      "Tenno"
-    ],
-    "Introduced": "Vanilla",
-    "Slot": "Primary",
-    "SellPrice": 7500,
-    "InternalName": "/Lotus/Weapons/Tenno/Rifle/Rifle",
-    "Magazine": 45,
-    "Image": "Braton.png",
-    "IncarnonImage": "BratonIncarnon.png",
-    "MaxRank": 30,
-    "Accuracy": 28.6,
-    "Trigger": "Auto",
-    "ExilusPolarity": "Naramon",
-    "CompatibilityTags": [
-      "ASSAULT_AMMO"
-    ],
-    "Reload": 2,
-    "AmmoPickup": 80,
-    "Link": "Braton",
-    "Name": "Braton",
-    "Attacks": [
-      {
-        "CritChance": 0.12,
-        "StatusChance": 0.06,
-        "FireRate": 8.75,
-        "MinSpread": 2,
-        "IsSilent": false,
-        "Range": 300,
-        "AmmoCost": 1,
-        "Multishot": 1,
-        "MaxSpread": 5,
-        "AttackIndex": 1,
-        "AttackName": "Normal Attack",
-        "PunchThrough": 0,
-        "ShotType": "Hit-Scan",
-        "Damage": {
-          "Puncture": 7.92,
-          "Slash": 8.16,
-          "Impact": 7.92
-        },
-        "CritMultiplier": 1.6
-      },
-      {
-        "IncarnonCharges": 200,
-        "CritChance": 0.3,
-        "StatusChance": 0.12,
-        "Accuracy": 200,
-        "Trigger": "Auto",
-        "MinSpread": 0.3,
-        "Range": 300,
-        "FireRate": 5,
-        "Multishot": 1,
-        "MaxSpread": 0.7,
-        "AttackIndex": 2,
-        "AttackName": "Incarnon Form",
-        "IsSilent": false,
-        "ShotType": "Hit-Scan",
-        "Damage": {
-          "Puncture": 2,
-          "Slash": 28,
-          "Impact": 20
-        },
-        "CritMultiplier": 3
-      },
-      {
-        "CritChance": 0.3,
-        "Falloff": {
-          "EndRange": 3,
-          "Reduction": 0.1,
-          "StartRange": 0
-        },
-        "Range": 3,
-        "FireRate": 5,
-        "Multishot": 1,
-        "StatusChance": 0.12,
-        "AttackIndex": 3,
-        "AttackName": "Incarnon Form AoE",
-        "IsSilent": false,
-        "ShotType": "AoE",
-        "Damage": {
-          "Heat": 50
-        },
-        "CritMultiplier": 3
-      }
-    ],
-    "Family": "Braton",
-    "AmmoMax": 540,
-    "Disposition": 1.35,
-    "AmmoType": "Primary"
-  },
   "Tenet Quanta": {
     "Link": "Tenet Quanta",
     "Conclave": false,
@@ -10075,6 +9940,163 @@
     "Disposition": 0.85,
     "CodexSecret": true
   },
+  "Braton": {
+    "Conclave": true,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "IncarnonChargeGain": 10,
+    "Mastery": 0,
+    "GripType": "",
+    "Traits": [
+      "Tenno"
+    ],
+    "Introduced": "Vanilla",
+    "Slot": "Primary",
+    "SellPrice": 7500,
+    "InternalName": "/Lotus/Weapons/Tenno/Rifle/Rifle",
+    "Magazine": 45,
+    "Image": "Braton.png",
+    "IncarnonImage": "BratonIncarnon.png",
+    "MaxRank": 30,
+    "Accuracy": 28.6,
+    "Trigger": "Auto",
+    "ExilusPolarity": "Naramon",
+    "CompatibilityTags": [
+      "ASSAULT_AMMO"
+    ],
+    "Reload": 2,
+    "AmmoPickup": 80,
+    "Link": "Braton",
+    "Name": "Braton",
+    "Attacks": [
+      {
+        "CritChance": 0.12,
+        "StatusChance": 0.06,
+        "FireRate": 8.75,
+        "MinSpread": 2,
+        "IsSilent": false,
+        "Range": 300,
+        "AmmoCost": 1,
+        "Multishot": 1,
+        "MaxSpread": 5,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 7.92,
+          "Slash": 8.16,
+          "Impact": 7.92
+        },
+        "CritMultiplier": 1.6
+      },
+      {
+        "IncarnonCharges": 200,
+        "CritChance": 0.3,
+        "StatusChance": 0.12,
+        "Accuracy": 200,
+        "Trigger": "Auto",
+        "MinSpread": 0.3,
+        "Range": 300,
+        "FireRate": 5,
+        "Multishot": 1,
+        "MaxSpread": 0.7,
+        "AttackIndex": 2,
+        "AttackName": "Incarnon Form",
+        "IsSilent": false,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 2,
+          "Slash": 28,
+          "Impact": 20
+        },
+        "CritMultiplier": 3
+      },
+      {
+        "CritChance": 0.3,
+        "Falloff": {
+          "EndRange": 3,
+          "Reduction": 0.1,
+          "StartRange": 0
+        },
+        "Range": 3,
+        "FireRate": 5,
+        "Multishot": 1,
+        "StatusChance": 0.12,
+        "AttackIndex": 3,
+        "AttackName": "Incarnon Form AoE",
+        "IsSilent": false,
+        "ShotType": "AoE",
+        "Damage": {
+          "Heat": 50
+        },
+        "CritMultiplier": 3
+      }
+    ],
+    "Family": "Braton",
+    "AmmoMax": 540,
+    "Disposition": 1.35,
+    "AmmoType": "Primary"
+  },
+  "Tenet Glaxion": {
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "MaxRank": 40,
+    "Link": "Tenet Glaxion",
+    "Traits": [
+      "Corpus",
+      "Tenet"
+    ],
+    "GripType": "",
+    "Tradable": 3,
+    "Introduced": "35.6",
+    "Slot": "Primary",
+    "SellPrice": 7500,
+    "InternalName": "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEGlaxion/CrpBEGlaxion",
+    "IsLichWeapon": true,
+    "AmmoType": "Primary",
+    "Mastery": 16,
+    "Magazine": 90,
+    "Accuracy": 100,
+    "Trigger": "Held",
+    "ExilusPolarity": "Madurai",
+    "CompatibilityTags": [
+      "BEAM",
+      "ASSAULT_AMMO"
+    ],
+    "Reload": 2,
+    "AmmoPickup": 80,
+    "Image": "TenetGlaxion.png",
+    "Name": "Tenet Glaxion",
+    "Attacks": [
+      {
+        "CritChance": 0.2,
+        "StatusChance": 0.4,
+        "FireRate": 12,
+        "MinSpread": 0,
+        "IsSilent": false,
+        "Range": 30,
+        "AmmoCost": 0.5,
+        "Multishot": 1,
+        "MaxSpread": 0,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Cold": 34
+        },
+        "CritMultiplier": 2.2
+      }
+    ],
+    "Family": "Glaxion",
+    "AmmoMax": 810,
+    "Disposition": 0.65,
+    "DefaultUpgrades": [
+      "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
+    ]
+  },
   "Braton Prime": {
     "Conclave": true,
     "_TooltipAttackDisplay": 1,
@@ -10175,61 +10197,97 @@
     "Disposition": 1.25,
     "AmmoType": "Primary"
   },
-  "Tenet Glaxion": {
+  "Kuva Kohm": {
+    "Magazine": 209,
+    "Spool": 5,
     "Conclave": false,
-    "_TooltipAttackDisplay": 1,
-    "Class": "Rifle",
+    "_TooltipAttackDisplay": 2,
+    "Class": "Shotgun",
     "MaxRank": 40,
-    "Link": "Tenet Glaxion",
     "Traits": [
-      "Corpus",
-      "Tenet"
+      "Grineer",
+      "Kuva Lich"
     ],
-    "GripType": "",
     "Tradable": 3,
-    "Introduced": "35.6",
+    "GripType": "",
+    "Users": [
+      "Kuva Lich"
+    ],
+    "Introduced": "26",
+    "Polarities": [
+      "Vazarin"
+    ],
     "Slot": "Primary",
+    "InternalName": "/Lotus/Weapons/Grineer/KuvaLich/LongGuns/Kohm/KuvaKohm",
     "SellPrice": 7500,
-    "InternalName": "/Lotus/Weapons/Corpus/BoardExec/Primary/CrpBEGlaxion/CrpBEGlaxion",
     "IsLichWeapon": true,
     "AmmoType": "Primary",
-    "Mastery": 16,
-    "Magazine": 90,
-    "Accuracy": 100,
-    "Trigger": "Held",
+    "Mastery": 13,
+    "Accuracy": 8,
+    "Trigger": "Auto-Spool",
     "ExilusPolarity": "Madurai",
-    "CompatibilityTags": [
-      "BEAM",
-      "ASSAULT_AMMO"
-    ],
+    "Link": "Kuva Kohm",
     "Reload": 2,
-    "AmmoPickup": 80,
-    "Image": "TenetGlaxion.png",
-    "Name": "Tenet Glaxion",
+    "AmmoPickup": 40,
+    "Image": "KuvaKohm.png",
+    "Name": "Kuva Kohm",
     "Attacks": [
       {
-        "CritChance": 0.2,
-        "StatusChance": 0.4,
-        "FireRate": 12,
-        "MinSpread": 0,
+        "StatusChance": 0.9,
+        "CritChance": 0.19,
+        "FireRate": 0.8333,
+        "MinSpread": 5,
         "IsSilent": false,
-        "Range": 30,
-        "AmmoCost": 0.5,
+        "Falloff": {
+          "EndRange": 26,
+          "Reduction": 0.9,
+          "StartRange": 13
+        },
+        "Range": 300,
+        "AmmoCost": 1,
         "Multishot": 1,
-        "MaxSpread": 0,
+        "MaxSpread": 20,
         "AttackIndex": 1,
-        "AttackName": "Normal Attack",
-        "PunchThrough": 0,
+        "AttackName": "Single Pellet",
+        "PunchThrough": 1.5,
         "ShotType": "Hit-Scan",
         "Damage": {
-          "Cold": 34
+          "Puncture": 4,
+          "Slash": 12,
+          "Impact": 4
         },
-        "CritMultiplier": 2.2
+        "CritMultiplier": 2.3
+      },
+      {
+        "StatusChance": 0.075,
+        "CritChance": 0.19,
+        "FireRate": 4.17,
+        "MinSpread": 5,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 26,
+          "Reduction": 0.9,
+          "StartRange": 13
+        },
+        "Range": 300,
+        "AmmoCost": 4,
+        "Multishot": 12,
+        "MaxSpread": 20,
+        "AttackIndex": 2,
+        "AttackName": "Fully Spooled",
+        "PunchThrough": 1.5,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 4,
+          "Slash": 12,
+          "Impact": 4
+        },
+        "CritMultiplier": 2.3
       }
     ],
-    "Family": "Glaxion",
-    "AmmoMax": 810,
-    "Disposition": 0.65,
+    "Family": "Kohm",
+    "AmmoMax": 836,
+    "Disposition": 0.9,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
     ]
@@ -10371,83 +10429,90 @@
     "Disposition": 1.4,
     "AmmoType": "Primary"
   },
-  "Cernos": {
+  "Telos Boltor": {
+    "Traits": [
+      "Syndicate",
+      "Arbiters of Hexis"
+    ],
+    "Mastery": 12,
     "Conclave": true,
-    "_TooltipAttackDisplay": 2,
-    "Class": "Bow",
-    "MaxRank": 30,
-    "GripType": "BOW",
-    "Mastery": 6,
-    "Introduced": "11.1",
+    "_TooltipAttackDisplay": 1,
+    "Class": "Rifle",
+    "IncarnonChargeGain": 8,
+    "Tradable": 1,
+    "SyndicateEffect": "Truth",
+    "GripType": "",
+    "Slot": "Primary",
+    "Introduced": "17.3",
     "Polarities": [
+      "Vazarin",
       "Madurai"
     ],
-    "Traits": [
-      "Tenno"
-    ],
-    "InternalName": "/Lotus/Weapons/Tenno/Bows/AntlerBow/AntlerBow",
-    "Slot": "Primary",
     "SellPrice": 7500,
-    "Magazine": 1,
-    "Image": "Cernos.png",
-    "Accuracy": 16.7,
-    "Trigger": "Charge",
+    "InternalName": "/Lotus/Weapons/Syndicates/ArbitersOfHexis/LongGuns/AHBoltor",
+    "Magazine": 90,
+    "Image": "TelosBoltor.png",
+    "IncarnonImage": "TelosBoltorIncarnon.png",
+    "MaxRank": 30,
+    "Accuracy": 25,
+    "Trigger": "Auto",
     "ExilusPolarity": "Naramon",
     "CompatibilityTags": [
-      "PROJECTILE"
+      "PROJECTILE",
+      "ASSAULT_AMMO"
     ],
-    "Reload": 0.6,
-    "AmmoPickup": 15,
-    "Link": "Cernos",
-    "Name": "Cernos",
+    "Reload": 2.4,
+    "AmmoPickup": 80,
+    "Link": "Telos Boltor",
+    "Name": "Telos Boltor",
     "Attacks": [
       {
-        "ShotSpeed": 70,
-        "CritChance": 0.36,
-        "StatusChance": 0.18,
-        "FireRate": 1,
-        "Trigger": "Semi-Auto",
-        "IsSilent": true,
-        "MinSpread": 0,
+        "CritChance": 0.3,
+        "StatusChance": 0.16,
+        "FireRate": 9.33,
+        "ShotSpeed": 90,
+        "IsSilent": false,
+        "MinSpread": 2,
         "AmmoCost": 1,
         "Multishot": 1,
-        "MaxSpread": 12,
+        "MaxSpread": 6,
         "AttackIndex": 1,
-        "AttackName": "Uncharged Shot",
+        "AttackName": "Normal Attack",
         "PunchThrough": 0,
         "ShotType": "Projectile",
         "Damage": {
-          "Puncture": 9.5,
-          "Slash": 9.5,
-          "Impact": 171
+          "Puncture": 27,
+          "Impact": 3
         },
-        "CritMultiplier": 2
+        "CritMultiplier": 2.4
       },
       {
-        "ChargeTime": 0.5,
         "CritChance": 0.36,
-        "StatusChance": 0.18,
-        "Trigger": "Charge",
-        "FireRate": 1,
-        "ShotSpeed": 90,
-        "AmmoCost": 1,
-        "Multishot": 1,
-        "IsSilent": true,
+        "FireRate": 10.33,
+        "Multishot": 3,
         "AttackIndex": 2,
-        "AttackName": "Charged Shot",
-        "PunchThrough": 1,
+        "AttackName": "Incarnon Form",
         "ShotType": "Projectile",
+        "CritMultiplier": 3.2,
+        "Accuracy": 10,
+        "Trigger": "Auto",
+        "IsSilent": false,
+        "ShotSpeed": 85,
+        "MaxSpread": 12,
+        "MinSpread": 8,
+        "PunchThrough": 0.6,
+        "StatusChance": 0.1067,
+        "IncarnonCharges": 160,
         "Damage": {
-          "Puncture": 19,
-          "Slash": 19,
-          "Impact": 342
-        },
-        "CritMultiplier": 2
+          "Puncture": 6,
+          "Slash": 12,
+          "Impact": 2
+        }
       }
     ],
-    "Family": "Cernos",
-    "AmmoMax": 72,
-    "Disposition": 1.3,
+    "Family": "Boltor",
+    "AmmoMax": 540,
+    "Disposition": 1.2,
     "AmmoType": "Primary"
   },
   "Aeolak": {
@@ -10563,88 +10628,94 @@
     "Disposition": 1.2,
     "AmmoType": "Primary"
   },
-  "Telos Boltor": {
-    "Traits": [
-      "Syndicate",
-      "Arbiters of Hexis"
-    ],
+  "Sybaris Prime": {
     "Mastery": 12,
     "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Rifle",
     "IncarnonChargeGain": 8,
-    "Tradable": 1,
-    "SyndicateEffect": "Truth",
+    "Traits": [
+      "Prime",
+      "Vaulted"
+    ],
+    "Tradable": 2,
     "GripType": "",
     "Slot": "Primary",
-    "Introduced": "17.3",
+    "Introduced": "20.6.2",
     "Polarities": [
-      "Vazarin",
+      "Naramon",
+      "Naramon",
       "Madurai"
     ],
     "SellPrice": 7500,
-    "InternalName": "/Lotus/Weapons/Syndicates/ArbitersOfHexis/LongGuns/AHBoltor",
-    "Magazine": 90,
-    "Image": "TelosBoltor.png",
-    "IncarnonImage": "TelosBoltorIncarnon.png",
+    "InternalName": "/Lotus/Weapons/Tenno/LongGuns/PrimeSybaris/PrimeSybarisRifle",
+    "Magazine": 20,
+    "Image": "SybarisPrime.png",
+    "IncarnonImage": "SybarisPrimeIncarnon.png",
     "MaxRank": 30,
     "Accuracy": 25,
-    "Trigger": "Auto",
+    "Trigger": "Burst",
     "ExilusPolarity": "Naramon",
     "CompatibilityTags": [
-      "PROJECTILE",
       "ASSAULT_AMMO"
     ],
-    "Reload": 2.4,
+    "Reload": 2,
     "AmmoPickup": 80,
-    "Link": "Telos Boltor",
-    "Name": "Telos Boltor",
+    "Link": "Sybaris Prime",
+    "Name": "Sybaris Prime",
     "Attacks": [
       {
         "CritChance": 0.3,
-        "StatusChance": 0.16,
-        "FireRate": 9.33,
-        "ShotSpeed": 90,
-        "IsSilent": false,
-        "MinSpread": 2,
-        "AmmoCost": 1,
+        "BurstCount": 2,
+        "Range": 300,
+        "FireRate": 3.33,
         "Multishot": 1,
-        "MaxSpread": 6,
         "AttackIndex": 1,
         "AttackName": "Normal Attack",
+        "ShotType": "Hit-Scan",
+        "CritMultiplier": 2,
+        "BurstDelay": 0.062,
+        "AmmoCost": 1,
+        "MaxSpread": 8,
+        "MinSpread": 0,
         "PunchThrough": 0,
-        "ShotType": "Projectile",
+        "StatusChance": 0.25,
+        "IsSilent": false,
         "Damage": {
-          "Puncture": 27,
-          "Impact": 3
-        },
-        "CritMultiplier": 2.4
+          "Puncture": 29.04,
+          "Slash": 29.92,
+          "Impact": 29.04
+        }
       },
       {
-        "CritChance": 0.36,
-        "FireRate": 10.33,
-        "Multishot": 3,
+        "CritChance": 0.25,
+        "BurstCount": 4,
+        "Range": 300,
+        "FireRate": 3.33,
+        "Multishot": 1,
         "AttackIndex": 2,
         "AttackName": "Incarnon Form",
-        "ShotType": "Projectile",
-        "CritMultiplier": 3.2,
-        "Accuracy": 10,
-        "Trigger": "Auto",
+        "ShotType": "Hit-Scan",
+        "CritMultiplier": 3,
+        "BurstDelay": 0.062,
+        "AmmoCost": 1,
+        "IncarnonCharges": 200,
         "IsSilent": false,
-        "ShotSpeed": 85,
-        "MaxSpread": 12,
-        "MinSpread": 8,
-        "PunchThrough": 0.6,
-        "StatusChance": 0.1067,
-        "IncarnonCharges": 160,
+        "MaxSpread": 8,
+        "MinSpread": 0,
+        "PunchThrough": 0,
+        "StatusChance": 0.3,
+        "ForcedProcs": [
+          "Blast"
+        ],
         "Damage": {
-          "Puncture": 6,
-          "Slash": 12,
-          "Impact": 2
+          "Puncture": 36.3,
+          "Slash": 37.4,
+          "Impact": 36.3
         }
       }
     ],
-    "Family": "Boltor",
+    "Family": "Sybaris",
     "AmmoMax": 540,
     "Disposition": 1.2,
     "AmmoType": "Primary"
@@ -10927,44 +10998,37 @@
     ],
     "AmmoType": "Energy"
   },
-  "Sybaris Prime": {
-    "Mastery": 12,
+  "Sybaris": {
     "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Rifle",
     "IncarnonChargeGain": 8,
-    "Traits": [
-      "Prime",
-      "Vaulted"
-    ],
-    "Tradable": 2,
+    "Mastery": 5,
     "GripType": "",
-    "Slot": "Primary",
-    "Introduced": "20.6.2",
-    "Polarities": [
-      "Naramon",
-      "Naramon",
-      "Madurai"
+    "Traits": [
+      "Tenno"
     ],
+    "Introduced": "13.3",
+    "Slot": "Primary",
     "SellPrice": 7500,
-    "InternalName": "/Lotus/Weapons/Tenno/LongGuns/PrimeSybaris/PrimeSybarisRifle",
-    "Magazine": 20,
-    "Image": "SybarisPrime.png",
-    "IncarnonImage": "SybarisPrimeIncarnon.png",
+    "InternalName": "/Lotus/Weapons/Tenno/LongGuns/TnoLeverAction/TnoLeverActionRifle",
+    "Magazine": 10,
+    "Image": "Sybaris.png",
+    "IncarnonImage": "SybarisIncarnon.png",
     "MaxRank": 30,
-    "Accuracy": 25,
+    "Accuracy": 28.6,
     "Trigger": "Burst",
-    "ExilusPolarity": "Naramon",
+    "ExilusPolarity": "Madurai",
     "CompatibilityTags": [
       "ASSAULT_AMMO"
     ],
     "Reload": 2,
     "AmmoPickup": 80,
-    "Link": "Sybaris Prime",
-    "Name": "Sybaris Prime",
+    "Link": "Sybaris",
+    "Name": "Sybaris",
     "Attacks": [
       {
-        "CritChance": 0.3,
+        "CritChance": 0.25,
         "BurstCount": 2,
         "Range": 300,
         "FireRate": 3.33,
@@ -10973,21 +11037,21 @@
         "AttackName": "Normal Attack",
         "ShotType": "Hit-Scan",
         "CritMultiplier": 2,
-        "BurstDelay": 0.062,
+        "BurstDelay": 0.101,
         "AmmoCost": 1,
-        "MaxSpread": 8,
-        "MinSpread": 0,
+        "MaxSpread": 5,
+        "MinSpread": 2,
         "PunchThrough": 0,
-        "StatusChance": 0.25,
+        "StatusChance": 0.1,
         "IsSilent": false,
         "Damage": {
-          "Puncture": 29.04,
-          "Slash": 29.92,
-          "Impact": 29.04
+          "Puncture": 26.4,
+          "Slash": 27.2,
+          "Impact": 26.4
         }
       },
       {
-        "CritChance": 0.25,
+        "CritChance": 0.2,
         "BurstCount": 4,
         "Range": 300,
         "FireRate": 3.33,
@@ -10996,27 +11060,27 @@
         "AttackName": "Incarnon Form",
         "ShotType": "Hit-Scan",
         "CritMultiplier": 3,
-        "BurstDelay": 0.062,
+        "BurstDelay": 0.101,
         "AmmoCost": 1,
         "IncarnonCharges": 200,
         "IsSilent": false,
-        "MaxSpread": 8,
-        "MinSpread": 0,
+        "MaxSpread": 5,
+        "MinSpread": 2,
         "PunchThrough": 0,
-        "StatusChance": 0.3,
+        "StatusChance": 0.2,
         "ForcedProcs": [
           "Blast"
         ],
         "Damage": {
-          "Puncture": 36.3,
-          "Slash": 37.4,
-          "Impact": 36.3
+          "Puncture": 29.7,
+          "Slash": 30.6,
+          "Impact": 29.7
         }
       }
     ],
     "Family": "Sybaris",
     "AmmoMax": 540,
-    "Disposition": 1.2,
+    "Disposition": 1.3,
     "AmmoType": "Primary"
   },
   "Ignis Wraith": {
@@ -11221,68 +11285,6 @@
     "Family": "Tonkor",
     "AmmoMax": 30,
     "Disposition": 1.3,
-    "AmmoType": "Primary"
-  },
-  "Supra Vandal": {
-    "Conclave": true,
-    "_TooltipAttackDisplay": 1,
-    "Class": "Rifle",
-    "MaxRank": 30,
-    "Mastery": 14,
-    "Traits": [
-      "Corpus",
-      "Vandal"
-    ],
-    "GripType": "",
-    "Tradable": 1,
-    "Introduced": "20.4",
-    "Polarities": [
-      "Madurai",
-      "Madurai"
-    ],
-    "Spool": 4,
-    "InternalName": "/Lotus/Weapons/Corpus/LongGuns/Machinegun/SupraVandal",
-    "Slot": "Primary",
-    "SellPrice": 7500,
-    "Magazine": 300,
-    "Image": "SupraVandal.png",
-    "Accuracy": 28.6,
-    "Trigger": "Auto-Spool",
-    "ExilusPolarity": "Madurai",
-    "CompatibilityTags": [
-      "PROJECTILE",
-      "ASSAULT_AMMO"
-    ],
-    "Reload": 3,
-    "AmmoPickup": 80,
-    "Link": "Supra Vandal",
-    "Name": "Supra Vandal",
-    "Attacks": [
-      {
-        "CritChance": 0.16,
-        "StatusChance": 0.3,
-        "FireRate": 12.5,
-        "ShotSpeed": 100,
-        "IsSilent": false,
-        "MinSpread": 3,
-        "AmmoCost": 1,
-        "Multishot": 1,
-        "MaxSpread": 4,
-        "AttackIndex": 1,
-        "AttackName": "Fully Spooled",
-        "PunchThrough": 0,
-        "ShotType": "Projectile",
-        "Damage": {
-          "Puncture": 30,
-          "Slash": 6,
-          "Impact": 4
-        },
-        "CritMultiplier": 2
-      }
-    ],
-    "Family": "Supra",
-    "AmmoMax": 1600,
-    "Disposition": 1,
     "AmmoType": "Primary"
   },
   "Komorex": {
@@ -11499,6 +11501,122 @@
     "Disposition": 1.35,
     "CodexSecret": true
   },
+  "Strun Prime": {
+    "MaxRank": 30,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Shotgun",
+    "IncarnonChargeGain": 1,
+    "Traits": [
+      "Prime"
+    ],
+    "Tradable": 2,
+    "GripType": "",
+    "Slot": "Primary",
+    "Introduced": "30.7",
+    "Polarities": [
+      "Naramon",
+      "Madurai",
+      "Madurai"
+    ],
+    "SellPrice": 7500,
+    "InternalName": "/Lotus/Weapons/Tenno/LongGuns/PrimeStrun/PrimeStrunWeapon",
+    "ReloadStyle": "ByRound",
+    "Magazine": 10,
+    "IncarnonImage": "StrunPrimeIncarnon.png",
+    "Image": "StrunPrime.png",
+    "Accuracy": 9.1,
+    "Trigger": "Semi-Auto",
+    "ExilusPolarity": "Madurai",
+    "Mastery": 14,
+    "Reload": 4.6,
+    "AmmoPickup": 15,
+    "Link": "Strun Prime",
+    "Name": "Strun Prime",
+    "Attacks": [
+      {
+        "StatusChance": 0.0667,
+        "CritChance": 0.24,
+        "FireRate": 3.33,
+        "MinSpread": 7,
+        "IsSilent": false,
+        "Falloff": {
+          "EndRange": 52,
+          "Reduction": 0.78,
+          "StartRange": 26
+        },
+        "Range": 300,
+        "AmmoCost": 1,
+        "Multishot": 12,
+        "MaxSpread": 15,
+        "AttackIndex": 1,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0.8,
+        "ShotType": "Hit-Scan",
+        "Damage": {
+          "Puncture": 8.1,
+          "Slash": 21.6,
+          "Impact": 24.3
+        },
+        "CritMultiplier": 2.2
+      },
+      {
+        "CritChance": 0.48,
+        "FireRate": 2.5,
+        "Multishot": 1,
+        "AttackIndex": 2,
+        "AttackName": "Incarnon Form",
+        "ShotType": "Projectile",
+        "CritMultiplier": 3.4,
+        "Accuracy": 100,
+        "IncarnonCharges": 40,
+        "AmmoCost": 1,
+        "ShotSpeed": 200,
+        "IsSilent": false,
+        "MaxSpread": 0,
+        "MinSpread": 0,
+        "PunchThrough": 0,
+        "StatusChance": 0.46,
+        "ForcedProcs": [
+          "Impact"
+        ],
+        "Damage": {
+          "Impact": 100
+        }
+      },
+      {
+        "CritChance": 0.48,
+        "StatusChance": 0.46,
+        "Falloff": {
+          "EndRange": 4,
+          "Reduction": 0.2,
+          "StartRange": 0
+        },
+        "ForcedProcs": [
+          "Impact"
+        ],
+        "AttackParentIndex": 2,
+        "Range": 4,
+        "FireRate": 2.5,
+        "Multishot": 1,
+        "IsSilent": false,
+        "AttackIndex": 3,
+        "AttackName": "Incarnon Form AoE",
+        "PunchThrough": 0,
+        "ShotType": "AoE",
+        "Damage": {
+          "Blast": 60,
+          "Slash": 100,
+          "Puncture": 40
+        },
+        "CritMultiplier": 3.4
+      }
+    ],
+    "Family": "Strun",
+    "AmmoMax": 120,
+    "Disposition": 1.2,
+    "AmmoType": "Primary"
+  },
   "Vulkar Wraith": {
     "_TooltipAttackDisplay": 1,
     "Magazine": 8,
@@ -11573,120 +11691,68 @@
     "Disposition": 1.4,
     "AmmoType": "Primary"
   },
-  "Strun": {
-    "Slot": "Primary",
-    "Conclave": true,
+  "Steflos Prime": {
+    "Conclave": false,
     "_TooltipAttackDisplay": 1,
     "Class": "Shotgun",
-    "IncarnonChargeGain": 1,
     "MaxRank": 30,
+    "Mastery": 15,
+    "GripType": "",
     "Traits": [
       "Tenno"
     ],
-    "GripType": "",
-    "Users": [
-      "Corrupted Crewman"
-    ],
-    "Introduced": "Vanilla",
+    "Introduced": "44.0",
     "Polarities": [
-      "Naramon"
+      "Madurai",
+      "Madurai"
     ],
+    "Tradable": 2,
+    "InternalName": "/Lotus/Weapons/Tenno/LongGuns/PrimeSteflos/PrimeSteflosShotgun",
+    "Slot": "Primary",
     "SellPrice": 7500,
-    "InternalName": "/Lotus/Weapons/Tenno/Shotgun/Shotgun",
-    "ReloadStyle": "ByRound",
-    "Magazine": 6,
-    "IncarnonImage": "StrunIncarnon.png",
-    "Image": "Strun.png",
-    "Accuracy": 4,
+    "Magazine": 12,
+    "Image": "SteflosPrime.png",
+    "Accuracy": 100,
     "Trigger": "Semi-Auto",
-    "ExilusPolarity": "Madurai",
-    "Mastery": 1,
-    "Reload": 3.75,
+    "ExilusPolarity": "Naramon",
+    "CompatibilityTags": [
+      "PROJECTILE",
+      "ASSAULT_AMMO"
+    ],
+    "Reload": 2.4,
     "AmmoPickup": 15,
-    "Link": "Strun",
-    "Name": "Strun",
+    "Link": "Steflos Prime",
+    "Name": "Steflos Prime",
     "Attacks": [
       {
-        "StatusChance": 0.05,
-        "CritChance": 0.075,
-        "FireRate": 2.5,
-        "MinSpread": 15,
+        "StatusChance": 0.28,
+        "CritChance": 0.18,
+        "FireRate": 3,
+        "ShotSpeed": 20,
         "IsSilent": false,
         "Falloff": {
-          "EndRange": 25,
-          "Reduction": 0.4,
-          "StartRange": 12
+          "EndRange": 24,
+          "Reduction": 0.96875,
+          "StartRange": 8
         },
-        "Range": 300,
+        "MinSpread": 0,
         "AmmoCost": 1,
-        "Multishot": 12,
-        "MaxSpread": 35,
+        "Multishot": 1,
+        "MaxSpread": 0,
         "AttackIndex": 1,
         "AttackName": "Normal Attack",
         "PunchThrough": 0,
-        "ShotType": "Hit-Scan",
-        "Damage": {
-          "Puncture": 3.75,
-          "Slash": 7.5,
-          "Impact": 13.75
-        },
-        "CritMultiplier": 1.5
-      },
-      {
-        "CritChance": 0.44,
-        "FireRate": 2,
-        "Multishot": 1,
-        "AttackIndex": 2,
-        "AttackName": "Incarnon Form",
         "ShotType": "Projectile",
-        "CritMultiplier": 2.8,
-        "Accuracy": 100,
-        "IncarnonCharges": 40,
-        "AmmoCost": 1,
-        "ShotSpeed": 200,
-        "IsSilent": false,
-        "MaxSpread": 0,
-        "MinSpread": 0,
-        "PunchThrough": 0,
-        "StatusChance": 0.4,
-        "ForcedProcs": [
-          "Impact"
-        ],
         "Damage": {
-          "Impact": 100
-        }
-      },
-      {
-        "CritChance": 0.44,
-        "StatusChance": 0.4,
-        "Falloff": {
-          "EndRange": 4,
-          "Reduction": 0.2,
-          "StartRange": 0
+          "Impact": 195,
+          "Heat": 285
         },
-        "ForcedProcs": [
-          "Impact"
-        ],
-        "AttackParentIndex": 2,
-        "Range": 4,
-        "FireRate": 2,
-        "Multishot": 1,
-        "IsSilent": false,
-        "AttackIndex": 3,
-        "AttackName": "Incarnon Form AoE",
-        "PunchThrough": 0,
-        "ShotType": "AoE",
-        "Damage": {
-          "Blast": 60,
-          "Slash": 80,
-          "Puncture": 30
-        },
-        "CritMultiplier": 2.8
+        "CritMultiplier": 2.2
       }
     ],
-    "Family": "Strun",
-    "AmmoMax": 120,
-    "Disposition": 1.4,
+    "Family": "Steflos",
+    "AmmoMax": 36,
+    "Disposition": 0.5,
     "AmmoType": "Primary"
   },
   "Steflos": {

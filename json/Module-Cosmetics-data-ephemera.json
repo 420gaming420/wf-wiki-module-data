@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-24T07:25:47.072Z"
+    "converted_at": "2026-09-26T07:16:27.327Z"
   },
   "_comments": "",
   "Eskhatos Ki'Teer Ephemera": {
@@ -889,7 +889,7 @@
     "Description": "Beckon Qorvex Basilica's fluttering fellows to your side with his signature ephemera.",
     "Link": "Belfri Ephemera",
     "Name": "Belfri Ephemera",
-    "InternalName": "/Lotus/Upgrades/Skins/Effects/",
+    "InternalName": "/Lotus/Upgrades/Skins/Effects/QorvexDeluxeEphemera",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },

@@ -1,12 +1,12 @@
 ---
 title: "Module:Mods/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Mods/data"
-wiki_timestamp: "2026-09-24T09:12:08Z"
+wiki_timestamp: "2026-09-26T04:06:12Z"
 ---
 
 Database for all [Mods](/w/Mod "Mod") in [WARFRAME](/w/WARFRAME "WARFRAME") (with the exception of unveiled [Riven Mods](/w/Riven_Mods "Riven Mods")). Preferably put new mods in the correct alphabetical order, but it is not necessary.
 
-:   *Last updated: Thu, 24 Sep 2026 09:12:08 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Mods/data?diff=0))*
+:   *Last updated: Sat, 26 Sep 2026 04:06:12 +0000 (UTC) by [User:Ya](/w/User:Ya "User:Ya") ([change log](https://wiki.warframe.com/w/Module:Mods/data?diff=0))*
 
 ## Contents
 
@@ -25705,7 +25705,7 @@ local modData = {
 			BaseDrain = 6,
 			CodexSecret = false,
 			Description = "Sonic Boom Augment: Gain armor for each enemy hit by Sonic Boom for 20s.",
-			Icon = "SonicFracture.png",
+			Icon = "SonicSiphon.png",
 			Image = "SonicSiphonMod.png",
 			InternalName = "/Lotus/Powersuits/Banshee/PushAugmentCard",
 			Introduced = "44",

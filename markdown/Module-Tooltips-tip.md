@@ -1,7 +1,7 @@
 ---
 title: "Module:Tooltips/tip"
 wiki_url: "https://wiki.warframe.com/w/Module/Tooltips/tip"
-wiki_timestamp: "2026-09-19T21:42:43Z"
+wiki_timestamp: "2026-09-26T05:07:41Z"
 ---
 
 **Tooltips/tip** builds the tooltip box of a tooltip. CSS stylesheet for tooltips can be found on [MediaWiki:Gadget-Tooltips.css](/w/MediaWiki:Gadget-Tooltips.css "MediaWiki:Gadget-Tooltips.css").
@@ -29,9 +29,9 @@ Submodule of [Module:Tooltips](/w/Module:Tooltips "Module:Tooltips"). Not meant 
 
 ---
 
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| |  | | --- | | 0 | |  | | Mirage | |  | | |  |  | | --- | --- | | Playstyle Damage | | | Health 200 (300) | Armor 105 | | Shield 200 (300) | Energy 175 (225) | | Aura Pol | Exilus Pol | | Polarities | | | |  | | |  | | --- | | Hall of Mirrors  Sleight of Hand  Eclipse  Prism | | |
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | 0 | |  | | Mirage | |  | | |  |  | | --- | --- | | Playstyle Damage | | | Health 200 (300) | Armor 105 | | Shield 200 (300) | Energy 175 (225) | | Aura Pol | Exilus Pol | | Polarities | | | |  | | |  | | --- | | Hall of Mirrors  Sleight of Hand  Eclipse  Prism | |  | | |
 
 ---
 
@@ -496,6 +496,9 @@ Warframes = function(name)
 |
 {| class="tt-data" style="font-size:12px;" |-
 | class="tt-data" style="padding:4px; text-align:left;"|%s
+|-
+| class="tt-data" style="text-align:center;"|%s
+|-
 |}
 |}
 
@@ -512,7 +515,8 @@ Warframes = function(name)
 		type(warframe.AuraPolarity) == 'table' and Polarity._pols(warframe.AuraPolarity, true) or Polarity._polarity(warframe.AuraPolarity or 'None', true),
 		Polarity._polarity(warframe.ExilusPolarity or 'None', true),
 		Polarity._pols(warframe.Polarities, true),
-		abils
+		abils,
+		table.concat(warframe.AugmentShop, ', ')
 	)
 end,
 

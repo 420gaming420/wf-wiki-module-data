@@ -1,12 +1,12 @@
 {
   "page": "Module:Cosmetics/data/face",
-  "wiki_timestamp": "2026-05-06T08:38:29Z",
-  "extracted_at": "2026-08-31T21:22:43.698361+00:00",
+  "wiki_timestamp": "2026-09-25T09:33:32Z",
+  "extracted_at": "2026-09-26T07:16:15.321571+00:00",
   "lua_files": [
     "Module-Cosmetics-data-face_0.lua"
   ],
   "lua_block_count": 1,
-  "file_size": 35086,
+  "file_size": 35700,
   "comment_count": 0,
   "status": "success"
 }

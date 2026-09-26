@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/facialaccessory"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/facialaccessory"
-wiki_timestamp: "2026-09-05T03:01:30Z"
+wiki_timestamp: "2026-09-25T08:55:21Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/facialaccessory/doc](/w/Module:Cosmetics/data/facialaccessory/doc?action=edit&redlink=1 "Module:Cosmetics/data/facialaccessory/doc (page does not exist)")*
@@ -871,6 +871,36 @@ return {
 		Round = "TennoGen Shadows",
 		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2908707082",
         Type = "TennoGen Eye"
+    },
+    ["Spinele Prime Oculus"] = {
+        CodexSecret = false,
+        Description = "Look sharp with this lavish set of facial accessories for both the Drifter and Operator.",
+        ExcludeFromCodex = false,
+        Image = "SpinelePrimeOculus.png",
+        InternalName = "/Lotus/Upgrades/Skins/Operator/Accessories/CitrinePrimeEyepiece",
+        Link = "Spinele Prime Oculus",
+        Name = "Spinele Prime Oculus",
+        Type = "Eye"
+    },
+    ["Spinele Prime Earpiece"] = {
+        CodexSecret = false,
+        Description = "Look sharp with this lavish set of facial accessories for both the Drifter and Operator.",
+        ExcludeFromCodex = false,
+        Image = "SpinelePrimeEarpiece.png",
+        InternalName = "/Lotus/Upgrades/Skins/Operator/Accessories/CitrinePrimeEarpiece",
+        Link = "Spinele Prime Earpiece",
+        Name = "Spinele Prime Earpiece",
+        Type = "Ear"
+    },
+    ["Spinele Prime Facial Accessory"] = {
+        CodexSecret = false,
+        Description = "Look sharp with this lavish set of facial accessories for both the Drifter and Operator.",
+        ExcludeFromCodex = false,
+        Image = "SpinelePrimeFacialAccessory.png",
+        InternalName = "/Lotus/Upgrades/Skins/Operator/Accessories/CitrinePrimeMouthPiece",
+        Link = "Spinele Prime Facial Accessory",
+        Name = "Spinele Prime Facial Accessory",
+        Type = "Facial"
     },
     ["Star-Child Diadem"] = {
         CodexSecret = false,

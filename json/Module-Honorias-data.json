@@ -4,9 +4,9 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-24T07:25:56.459Z"
+    "converted_at": "2026-09-26T07:16:44.713Z"
   },
-  "_comments": "--- Honorias data table for [[WARFRAME]] titles.\n-- @module Honorias/data\n-- \n-- Entries from the Public Export currently not implemented or not discovered yet\n-- /Lotus/Types/Items/Titles/IncarnonMasteryTitle\n-- /Lotus/Types/Items/Titles/RailjackAshTitle\n-- /Lotus/Types/Items/Titles/RailjackGarudaTitle\n-- /Lotus/Types/Items/Titles/RememberTogetherTitle",
+  "_comments": "--- Honorias data table for [[WARFRAME]] titles.\n-- @module Honorias/data\n-- \n-- Entries from the Public Export currently not implemented or not discovered yet\n-- /Lotus/Types/Items/Titles/IncarnonMasteryTitle\n-- /Lotus/Types/Items/Titles/RailjackAshTitle\n-- /Lotus/Types/Items/Titles/RailjackGarudaTitle\n-- /Lotus/Types/Items/Titles/RememberTogetherTitle\n\t--[\"Conquera\"] = {\n\t--\t_IgnoreEntry = true,\n\t--\tName = \"Conquera\",\n\t--\tLink = \"Conquera\",\n\t--\tDescription = \"?\",\n\t--\tPosition = \"?\",\n\t--\tIntroduced = \"44\", -- currently, 44 is is the version where is was added to the PE\n\t--\tInternalName = \"/Lotus/Types/Items/Titles/ConqueraTitle\",\n\t--\tCodexSecret = false,\n\t--\tExcludeFromCodex = true,\n\t--\tTags = { \"Hidden\" },\n\t--},\n\t--[\"The Haunted\"] = {\n\t--\tName = \"The Haunted\",\n\t--\tLink = \"The Haunted\",\n\t--\tIntroduced = \"44\",-- currently, 44 is is the version where is was added to the PE\n\t--\tInternalName = \"/Lotus/Types/Items/Titles/EvilBaroTitle\",\n\t--[\"Moon Devourer\"] = {\n\t--\tName = \"Moon Devourer\",\n\t--\tLink = \"Moon Devourer\",\n\t--\tInternalName = \"/Lotus/Types/Items/Titles/MoonDevourerTitle\",\n\t--[\"The Moon Killer\"] = {\n\t--\tName = \"The Moon Killer\",\n\t--\tLink = \"The Moon Killer\",\n\t--\tInternalName = \"/Lotus/Types/Items/Titles/MoonfleshTitle\",\n\t--[\"Railmaker\"] = {\n\t--\tName = \"Railmaker\",\n\t--\tLink = \"Railmaker\",\n\t--\tInternalName = \"/Lotus/Types/Items/Titles/RailmakerTitle\",\n\t--[\"Taubound\"] = {\n\t--\tName = \"Taubound\",\n\t--\tLink = \"Taubound\",\n\t--\tInternalName = \"/Lotus/Types/Items/Titles/RoadToTauTitle\",",
   "Queen of Duviri": {
     "Description": "Awarded for completing '[[The Duviri Paradox]]'.",
     "Link": "Queen of Duviri",
@@ -826,6 +826,19 @@
     "InternalName": "/Lotus/Types/Items/Titles/MR22Title",
     "CodexSecret": true
   },
+  "The Legend Of The Void": {
+    "Description": "{{text||Prove yourself worthy.|hover=Obtain the Neote Rapier Skin.}}",
+    "Link": "The Legend Of The Void",
+    "ExcludeFromCodex": true,
+    "Name": "The Legend Of The Void",
+    "Position": "Suffix",
+    "Tags": [
+      "Miscellaneous"
+    ],
+    "Introduced": "44",
+    "InternalName": "/Lotus/Types/Items/Titles/IcebladeTitle",
+    "CodexSecret": false
+  },
   "On Wings of Ice": {
     "Link": "On Wings of Ice",
     "Price": {
@@ -988,7 +1001,7 @@
     "Link": "Tried and True",
     "ExcludeFromCodex": true,
     "Name": "Tried and True",
-    "Position": "Prefix",
+    "Position": "Suffix",
     "Tags": [
       "Trials"
     ],
@@ -1030,7 +1043,7 @@
     "Link": "The Final Verdict",
     "ExcludeFromCodex": true,
     "Name": "The Final Verdict",
-    "Position": "Prefix",
+    "Position": "Suffix",
     "Tags": [
       "Trials"
     ],

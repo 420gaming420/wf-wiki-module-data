@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-24T07:26:23.635Z"
+    "converted_at": "2026-09-26T07:17:06.618Z"
   },
   "_comments": "",
   "Castanas": {
@@ -4025,11 +4025,30 @@
     "Class": "Dual Pistols",
     "MaxRank": 30,
     "GripType": "DUAL_GUN_GUN",
+    "AmmoType": "Secondary",
     "Introduced": "44.0",
     "Polarities": [
-      "Naramon"
+      "Vazarin"
     ],
-    "InternalName": "[PH]",
+    "Traits": [
+      "Tenno"
+    ],
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/DuelistPistols/DuelistPistols",
+    "Slot": "Secondary",
+    "SellPrice": 5000,
+    "Magazine": 8,
+    "Image": "Aksondol.png",
+    "Accuracy": 23.5,
+    "Trigger": "Semi-Auto",
+    "ExilusPolarity": "Naramon",
+    "CompatibilityTags": [
+      "PROJECTILE",
+      "SEMI_AUTO"
+    ],
+    "Reload": 2.6,
+    "AmmoPickup": 60,
+    "Link": "Aksondol",
+    "Name": "Aksondol",
     "Attacks": [
       {
         "CritChance": 0.24,
@@ -4052,24 +4071,12 @@
         "CritMultiplier": 2.6
       }
     ],
-    "Traits": [
-      "Tenno"
-    ],
-    "Slot": "Secondary",
-    "SellPrice": 5000,
-    "Accuracy": 23.5,
-    "Trigger": "Semi-Auto",
-    "ExilusPolarity": "Madurai",
-    "Link": "Aksondol",
-    "Reload": 2.6,
-    "AmmoPickup": 60,
-    "Magazine": 8,
-    "Name": "Aksondol",
-    "Image": "Aksondol.png",
     "Mastery": 14,
     "AmmoMax": 210,
-    "Disposition": 1,
-    "AmmoType": "Secondary"
+    "Disposition": 0.5,
+    "DefaultUpgrades": [
+      "DuelistPistolsPassiveDescUpgrade"
+    ]
   },
   "Angstrum": {
     "Slot": "Secondary",

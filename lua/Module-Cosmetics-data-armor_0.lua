@@ -4472,6 +4472,39 @@ return {
         Part = "Arm",
         Type = "Armor"
     },
+    ["Tidon Chest Medallion"] = {
+        CodexSecret = false,
+        Description = "With tassels that dance like snowflakes in the wind, these elegant clasps are worn by the people of Tethys to promote balance and harmony.",
+        ExcludeFromCodex = false,
+        Image = "TidonChestMedallion.png",
+        InternalName = "/Lotus/Upgrades/Skins/Armor/DuelistArmour/DuelistArmourC",
+        Link = "Tidon Chest Medallion",
+        Name = "Tidon Chest Medallion",
+        Part = "Chest",
+        Type = "Armor"
+    },
+    ["Tidon Leg Medallion"] = {
+        CodexSecret = false,
+        Description = "With tassels that dance like snowflakes in the wind, these elegant clasps are worn by the people of Tethys to promote balance and harmony.",
+        ExcludeFromCodex = false,
+        Image = "TidonLegMedallion.png",
+        InternalName = "/Lotus/Upgrades/Skins/Armor/DuelistArmour/DuelistArmourL",
+        Link = "Tidon Leg Medallion",
+        Name = "Tidon Leg Medallion",
+        Part = "Leg",
+        Type = "Armor"
+    },
+    ["Tidon Shoulder Medallion"] = {
+        CodexSecret = false,
+        Description = "With tassels that dance like snowflakes in the wind, these elegant clasps are worn by the people of Tethys to promote balance and harmony.",
+        ExcludeFromCodex = false,
+        Image = "TidonShoulderMedallion.png",
+        InternalName = "/Lotus/Upgrades/Skins/Armor/DuelistArmour/DuelistArmourA",
+        Link = "Tidon Shoulder Medallion",
+        Name = "Tidon Shoulder Medallion",
+        Part = "Arm",
+        Type = "Armor"
+    },
     ["Torvon Chest Armor"] = {
         CodexSecret = false,
         Description = "How much armor is too much armor? With Grendel Turbis' signature chestplate, more is more.",

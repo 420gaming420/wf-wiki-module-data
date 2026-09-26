@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-24T07:25:53.823Z"
+    "converted_at": "2026-09-26T07:16:42.071Z"
   },
   "_comments": "\t\t-- Update 42: The Shadowgrapher\n\t\t-- Update 43: Jade Shadows: Constellations\n\t\t\t-- InternalName = \"/Lotus/Types/Game/MissionDecks/JadeShadowsConstellationsRewards/JS2KuvaWytchRewardsExtra\",\n-- TODO: This data should just be in the data by default instead of generated since we\n-- will eventually bump into issues with weapons that share similar suffixes. For example,\n-- if DE releases a weapon named Dorma, then it will conflict with Forma entries.\n-- Any reward names that start with these strings are not found in Missions tables\n-- Only include weapons with parts (i.e. 'Broken War' and 'Twin Kohmak' can be safely omitted)\n\t-- ['roken War'] = true,\t-- Broken War parts is dropped by enemies\n\t-- ['win Kohmak'] = true,\t-- Twin Kohmak\n\t-- or sk:find'^Eidolon'",
   "Rewards": {
@@ -18355,7 +18355,7 @@
                 14.29
               ],
               [
-                "Meso X1",
+                "Meso V17",
                 "Relic",
                 14.29
               ],
@@ -18375,19 +18375,19 @@
                 14.29
               ],
               [
-                "Meso L5",
+                "Meso D9",
                 "Relic",
                 14.29
               ],
               [
-                "Meso K8",
+                "Meso C11",
                 "Relic",
                 14.29
               ]
             ],
             "C": [
               [
-                "Axi S20",
+                "Axi S21",
                 "Relic",
                 10.2
               ],
@@ -18422,7 +18422,7 @@
                 5.1
               ],
               [
-                "Axi T13",
+                "Axi C12",
                 "Relic",
                 10.2
               ],
@@ -18454,27 +18454,27 @@
                 14.29
               ],
               [
-                "Neo Y1",
+                "Neo Y2",
                 "Relic",
                 14.29
               ],
               [
-                "Neo T11",
+                "Neo C11",
                 "Relic",
                 14.29
               ],
               [
-                "Neo V12",
+                "Neo K10",
                 "Relic",
                 14.29
               ],
               [
-                "Neo C8",
+                "Neo V13",
                 "Relic",
                 14.29
               ],
               [
-                "Neo C9",
+                "Neo C10",
                 "Relic",
                 14.29
               ]
@@ -62946,7 +62946,7 @@
                 14.29
               ],
               [
-                "Meso X1",
+                "Meso V17",
                 "Relic",
                 14.29
               ],
@@ -62966,19 +62966,19 @@
                 14.29
               ],
               [
-                "Meso L5",
+                "Meso D9",
                 "Relic",
                 14.29
               ],
               [
-                "Meso K8",
+                "Meso C11",
                 "Relic",
                 14.29
               ]
             ],
             "C": [
               [
-                "Axi S20",
+                "Axi S21",
                 "Relic",
                 10.2
               ],
@@ -63013,7 +63013,7 @@
                 5.1
               ],
               [
-                "Axi T13",
+                "Axi C12",
                 "Relic",
                 10.2
               ],
@@ -63045,27 +63045,27 @@
                 14.29
               ],
               [
-                "Neo Y1",
+                "Neo Y2",
                 "Relic",
                 14.29
               ],
               [
-                "Neo T11",
+                "Neo C11",
                 "Relic",
                 14.29
               ],
               [
-                "Neo V12",
+                "Neo K10",
                 "Relic",
                 14.29
               ],
               [
-                "Neo C8",
+                "Neo V13",
                 "Relic",
                 14.29
               ],
               [
-                "Neo C9",
+                "Neo C10",
                 "Relic",
                 14.29
               ]
@@ -72630,7 +72630,7 @@
                 14.29
               ],
               [
-                "Meso X1",
+                "Meso V17",
                 "Relic",
                 14.29
               ],
@@ -72650,19 +72650,19 @@
                 14.29
               ],
               [
-                "Meso L5",
+                "Meso D9",
                 "Relic",
                 14.29
               ],
               [
-                "Meso K8",
+                "Meso C11",
                 "Relic",
                 14.29
               ]
             ],
             "C": [
               [
-                "Axi S20",
+                "Axi S21",
                 "Relic",
                 10.2
               ],
@@ -72697,7 +72697,7 @@
                 5.1
               ],
               [
-                "Axi T13",
+                "Axi C12",
                 "Relic",
                 10.2
               ],
@@ -72729,27 +72729,27 @@
                 14.29
               ],
               [
-                "Neo Y1",
+                "Neo Y2",
                 "Relic",
                 14.29
               ],
               [
-                "Neo T11",
+                "Neo C11",
                 "Relic",
                 14.29
               ],
               [
-                "Neo V12",
+                "Neo K10",
                 "Relic",
                 14.29
               ],
               [
-                "Neo C8",
+                "Neo V13",
                 "Relic",
                 14.29
               ],
               [
-                "Neo C9",
+                "Neo C10",
                 "Relic",
                 14.29
               ]
@@ -186382,7 +186382,7 @@
         "Entry": [
           "Narin Blueprint",
           "Blueprint",
-          4.65
+          9.3
         ],
         "Source": {
           "Type": "Exterminate",
@@ -186394,7 +186394,7 @@
               [
                 "Credits Cache",
                 "Credits",
-                37.21,
+                32.56,
                 10000
               ],
               [
@@ -186461,14 +186461,14 @@
               [
                 "Narin Blueprint",
                 "Blueprint",
-                4.65
+                9.3
               ]
             ]
           },
           "Alias": "ZarimanExterminate",
           "InternalName": "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/ZarimanExterminateRewards"
         },
-        "Probability": 0.0465
+        "Probability": 0.093
       },
       {
         "1": "Missions",
@@ -186478,7 +186478,7 @@
         "Entry": [
           "Narin Blueprint",
           "Blueprint",
-          4.65
+          9.3
         ],
         "Source": {
           "Type": "Mobile Defense",
@@ -186490,7 +186490,7 @@
               [
                 "Credits Cache",
                 "Credits",
-                37.21,
+                32.56,
                 10000
               ],
               [
@@ -186557,14 +186557,14 @@
               [
                 "Narin Blueprint",
                 "Blueprint",
-                4.65
+                9.3
               ]
             ]
           },
           "Alias": "ZarimanMobileDefense",
           "InternalName": "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/ZarimanMobileDefenseRewards"
         },
-        "Probability": 0.0465
+        "Probability": 0.093
       }
     ],
     "Lavan Laith Mk III": [
@@ -325574,7 +325574,7 @@
           [
             "Credits Cache",
             "Credits",
-            37.21,
+            32.56,
             10000
           ],
           [
@@ -325641,7 +325641,7 @@
           [
             "Narin Blueprint",
             "Blueprint",
-            4.65
+            9.3
           ]
         ]
       },
@@ -331285,22 +331285,22 @@
       "Rewards": {
         "A": [
           [
-            "Lith Q3",
+            "Lith L8",
             "Relic",
             14.29
           ],
           [
-            "Lith A12",
+            "Lith A13",
             "Relic",
             14.29
           ],
           [
-            "Lith K12",
+            "Lith C15",
             "Relic",
             14.29
           ],
           [
-            "Lith T14",
+            "Lith S19",
             "Relic",
             14.29
           ],
@@ -331327,7 +331327,7 @@
             14.29
           ],
           [
-            "Meso X1",
+            "Meso V17",
             "Relic",
             14.29
           ],
@@ -331347,34 +331347,34 @@
             14.29
           ],
           [
-            "Meso L5",
+            "Meso D9",
             "Relic",
             14.29
           ],
           [
-            "Meso K8",
+            "Meso C11",
             "Relic",
             14.29
           ]
         ],
         "B": [
           [
-            "Lith Q3",
+            "Lith L8",
             "Relic",
             14.29
           ],
           [
-            "Lith A12",
+            "Lith A13",
             "Relic",
             14.29
           ],
           [
-            "Lith K12",
+            "Lith C15",
             "Relic",
             14.29
           ],
           [
-            "Lith T14",
+            "Lith S19",
             "Relic",
             14.29
           ],
@@ -332699,7 +332699,7 @@
             14.29
           ],
           [
-            "Meso X1",
+            "Meso V17",
             "Relic",
             14.29
           ],
@@ -332719,19 +332719,19 @@
             14.29
           ],
           [
-            "Meso L5",
+            "Meso D9",
             "Relic",
             14.29
           ],
           [
-            "Meso K8",
+            "Meso C11",
             "Relic",
             14.29
           ]
         ],
         "C": [
           [
-            "Axi S20",
+            "Axi S21",
             "Relic",
             10.2
           ],
@@ -332766,7 +332766,7 @@
             5.1
           ],
           [
-            "Axi T13",
+            "Axi C12",
             "Relic",
             10.2
           ],
@@ -332798,27 +332798,27 @@
             14.29
           ],
           [
-            "Neo Y1",
+            "Neo Y2",
             "Relic",
             14.29
           ],
           [
-            "Neo T11",
+            "Neo C11",
             "Relic",
             14.29
           ],
           [
-            "Neo V12",
+            "Neo K10",
             "Relic",
             14.29
           ],
           [
-            "Neo C8",
+            "Neo V13",
             "Relic",
             14.29
           ],
           [
-            "Neo C9",
+            "Neo C10",
             "Relic",
             14.29
           ]
@@ -341243,7 +341243,7 @@
           [
             "Credits Cache",
             "Credits",
-            37.21,
+            32.56,
             10000
           ],
           [
@@ -341310,7 +341310,7 @@
           [
             "Narin Blueprint",
             "Blueprint",
-            4.65
+            9.3
           ]
         ]
       },
@@ -347400,7 +347400,7 @@
             14.29
           ],
           [
-            "Meso X1",
+            "Meso V17",
             "Relic",
             14.29
           ],
@@ -347420,12 +347420,12 @@
             14.29
           ],
           [
-            "Meso L5",
+            "Meso D9",
             "Relic",
             14.29
           ],
           [
-            "Meso K8",
+            "Meso C11",
             "Relic",
             14.29
           ]
@@ -347442,7 +347442,7 @@
             13.56
           ],
           [
-            "Neo Y1",
+            "Neo Y2",
             "Relic",
             13.56
           ],
@@ -347452,22 +347452,22 @@
             5.08
           ],
           [
-            "Neo T11",
+            "Neo C11",
             "Relic",
             13.56
           ],
           [
-            "Neo V12",
+            "Neo K10",
             "Relic",
             13.56
           ],
           [
-            "Neo C8",
+            "Neo V13",
             "Relic",
             13.56
           ],
           [
-            "Neo C9",
+            "Neo C10",
             "Relic",
             13.56
           ]
@@ -347484,27 +347484,27 @@
             14.29
           ],
           [
-            "Neo Y1",
+            "Neo Y2",
             "Relic",
             14.29
           ],
           [
-            "Neo T11",
+            "Neo C11",
             "Relic",
             14.29
           ],
           [
-            "Neo V12",
+            "Neo K10",
             "Relic",
             14.29
           ],
           [
-            "Neo C8",
+            "Neo V13",
             "Relic",
             14.29
           ],
           [
-            "Neo C9",
+            "Neo C10",
             "Relic",
             14.29
           ]
@@ -354858,7 +354858,7 @@
             5.56
           ],
           [
-            "Meso X1",
+            "Meso V17",
             "Relic",
             5.56
           ],
@@ -354893,12 +354893,12 @@
             5.56
           ],
           [
-            "Meso L5",
+            "Meso D9",
             "Relic",
             5.56
           ],
           [
-            "Meso K8",
+            "Meso C11",
             "Relic",
             5.56
           ]
@@ -354911,7 +354911,7 @@
             15
           ],
           [
-            "Axi S20",
+            "Axi S21",
             "Relic",
             5
           ],
@@ -354946,7 +354946,7 @@
             5
           ],
           [
-            "Axi T13",
+            "Axi C12",
             "Relic",
             5
           ],
@@ -354984,7 +354984,7 @@
             5.56
           ],
           [
-            "Neo Y1",
+            "Neo Y2",
             "Relic",
             5.56
           ],
@@ -355004,22 +355004,22 @@
             11.11
           ],
           [
-            "Neo T11",
+            "Neo C11",
             "Relic",
             5.56
           ],
           [
-            "Neo V12",
+            "Neo K10",
             "Relic",
             5.56
           ],
           [
-            "Neo C8",
+            "Neo V13",
             "Relic",
             5.56
           ],
           [
-            "Neo C9",
+            "Neo C10",
             "Relic",
             5.56
           ]

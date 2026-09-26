@@ -1,7 +1,7 @@
 ---
 title: "Module:Weapons/data/primary"
 wiki_url: "https://wiki.warframe.com/w/Module/Weapons/data/primary"
-wiki_timestamp: "2026-09-23T23:03:44Z"
+wiki_timestamp: "2026-09-26T05:33:26Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s [Primary Weapons](/w/Primary_Weapon "Primary Weapon").
@@ -54,7 +54,7 @@ Thanks, you're awesome!
 * [11 Weapon Data](#Weapon_Data)
 * [12 References](#References)
 
-:   *Last updated: Wed, 23 Sep 2026 23:03:44 +0000 (UTC) by [User:BlueWolf1444](/w/User:BlueWolf1444 "User:BlueWolf1444") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/primary?diff=0))*
+:   *Last updated: Sat, 26 Sep 2026 05:33:26 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/primary?diff=0))*
 
 ## Horizontal Partitions (and where to update data)
 
@@ -672,7 +672,7 @@ Data Validation")]
 [[edit](/w/Module:Weapons/data/doc?action=edit&section=T-12 "Edit Section using Source Editor:
 Validate data types of key-value pairs")]
 
-**p.validateDataTypes(frame): There are a total of 739 key-value errors**
+**p.validateDataTypes(frame): There are a total of 741 key-value errors**
 
 1. "[AX-52](/w/AX-52 "AX-52")" contains an unsupported key `GripType`
 2. "[Acceltra](/w/Acceltra "Acceltra")" contains an unsupported key `GripType`
@@ -824,595 +824,597 @@ Validate data types of key-value pairs")]
 148. "[Cortege](/w/Cortege "Cortege")" contains an unsupported key `GripType`
 149. "[Cortege (Atmosphere)](/w/Cortege_(Atmosphere)?action=edit&redlink=1 "Cortege (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
 150. "[Corufell](/w/Corufell "Corufell")" contains an unsupported key `GripType`
-151. "[Corvas](/w/Corvas "Corvas")" contains an unsupported key `GripType`
-152. "[Corvas (Atmosphere)](/w/Corvas_(Atmosphere)?action=edit&redlink=1 "Corvas (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-153. "[Corvas Prime](/w/Corvas_Prime "Corvas Prime")" contains an unsupported key `GripType`
-154. "[Corvas Prime (Atmosphere)](/w/Corvas_Prime_(Atmosphere)?action=edit&redlink=1 "Corvas Prime (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-155. "[Cronus](/w/Cronus "Cronus")" contains an unsupported key `GripType`
-156. "[Cyanex](/w/Cyanex "Cyanex")" contains an unsupported key `GripType`
-157. "[Cycron](/w/Cycron "Cycron")" contains an unsupported key `GripType`
-158. "[Cyngas](/w/Cyngas "Cyngas")" contains an unsupported key `GripType`
-159. "[Cyngas (Atmosphere)](/w/Cyngas_(Atmosphere)?action=edit&redlink=1 "Cyngas (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-160. "[Daikyu](/w/Daikyu "Daikyu")" contains an unsupported key `GripType`
-161. "[Daikyu Prime](/w/Daikyu_Prime "Daikyu Prime")" contains an unsupported key `GripType`
-162. "[Dakra Prime](/w/Dakra_Prime "Dakra Prime")" contains an unsupported key `GripType`
-163. "[Dark Dagger](/w/Dark_Dagger "Dark Dagger")" contains an unsupported key `GripType`
-164. "[Dark Split-Sword (Dual Swords)](/w/Dark_Split-Sword_(Dual_Swords) "Dark Split-Sword (Dual Swords)")" contains an unsupported key `GripType`
-165. "[Dark Split-Sword (Heavy Blade)](/w/Dark_Split-Sword_(Heavy_Blade) "Dark Split-Sword (Heavy Blade)")" contains an unsupported key `GripType`
-166. "[Dark Sword](/w/Dark_Sword "Dark Sword")" contains an unsupported key `GripType`
-167. "[Dera](/w/Dera "Dera")" contains an unsupported key `IncarnonChargeGain`
-168. "[Dera](/w/Dera "Dera")" contains an unsupported key `GripType`
-169. "[Dera Vandal](/w/Dera_Vandal "Dera Vandal")" contains an unsupported key `IncarnonChargeGain`
-170. "[Dera Vandal](/w/Dera_Vandal "Dera Vandal")" contains an unsupported key `GripType`
-171. "[Despair](/w/Despair "Despair")" contains an unsupported key `IncarnonChargeGain`
-172. "[Despair](/w/Despair "Despair")" contains an unsupported key `GripType`
-173. "[Destreza](/w/Destreza "Destreza")" contains an unsupported key `GripType`
-174. "[Destreza](/w/Destreza "Destreza")" contains an unsupported key `IncarnonDuration`
-175. "[Destreza Prime](/w/Destreza_Prime "Destreza Prime")" contains an unsupported key `GripType`
-176. "[Destreza Prime](/w/Destreza_Prime "Destreza Prime")" contains an unsupported key `IncarnonDuration`
-177. "[Detron](/w/Detron "Detron")" contains an unsupported key `GripType`
-178. "[Dex Dakra](/w/Dex_Dakra "Dex Dakra")" contains an unsupported key `GripType`
-179. "[Dex Furis](/w/Dex_Furis "Dex Furis")" contains an unsupported key `GripType`
-180. "[Dex Nikana](/w/Dex_Nikana "Dex Nikana")" contains an unsupported key `GripType`
-181. "[Dex Pixia](/w/Dex_Pixia "Dex Pixia")" contains an unsupported key `GripType`
-182. "[Dex Pixia Prime](/w/Dex_Pixia_Prime "Dex Pixia Prime")" contains an unsupported key `GripType`
-183. "[Dex Sybaris](/w/Dex_Sybaris "Dex Sybaris")" contains an unsupported key `IncarnonChargeGain`
-184. "[Dex Sybaris](/w/Dex_Sybaris "Dex Sybaris")" contains an unsupported key `GripType`
-185. "[Dorrclave](/w/Dorrclave "Dorrclave")" contains an unsupported key `GripType`
-186. "[Dragon Nikana](/w/Dragon_Nikana "Dragon Nikana")" contains an unsupported key `GripType`
-187. "[Drakgoon](/w/Drakgoon "Drakgoon")" contains an unsupported key `GripType`
-188. "[Dread](/w/Dread "Dread")" contains an unsupported key `IncarnonChargeGain`
-189. "[Dread](/w/Dread "Dread")" contains an unsupported key `GripType`
-190. "[Dual Cestra](/w/Dual_Cestra "Dual Cestra")" contains an unsupported key `GripType`
-191. "[Dual Cleavers](/w/Dual_Cleavers "Dual Cleavers")" contains an unsupported key `GripType`
-192. "[Dual Coda Torxica](/w/Dual_Coda_Torxica "Dual Coda Torxica")" contains an unsupported key `GripType`
-193. "[Dual Decurion](/w/Dual_Decurion "Dual Decurion")" contains an unsupported key `GripType`
-194. "[Dual Decurion (Atmosphere)](/w/Dual_Decurion_(Atmosphere)?action=edit&redlink=1 "Dual Decurion (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-195. "[Dual Ether](/w/Dual_Ether "Dual Ether")" contains an unsupported key `GripType`
-196. "[Dual Heat Swords](/w/Dual_Heat_Swords "Dual Heat Swords")" contains an unsupported key `GripType`
-197. "[Dual Ichor](/w/Dual_Ichor "Dual Ichor")" contains an unsupported key `GripType`
-198. "[Dual Ichor](/w/Dual_Ichor "Dual Ichor")" contains an unsupported key `IncarnonDuration`
-199. "[Dual Kamas](/w/Dual_Kamas "Dual Kamas")" contains an unsupported key `GripType`
-200. "[Dual Kamas Prime](/w/Dual_Kamas_Prime "Dual Kamas Prime")" contains an unsupported key `GripType`
-201. "[Dual Keres](/w/Dual_Keres "Dual Keres")" contains an unsupported key `GripType`
-202. "[Dual Keres Prime](/w/Dual_Keres_Prime "Dual Keres Prime")" contains an unsupported key `GripType`
-203. "[Dual Raza](/w/Dual_Raza "Dual Raza")" contains an unsupported key `GripType`
-204. "[Dual Skana](/w/Dual_Skana "Dual Skana")" contains an unsupported key `GripType`
-205. "[Dual Toxocyst](/w/Dual_Toxocyst "Dual Toxocyst")" contains an unsupported key `IncarnonChargeGain`
-206. "[Dual Toxocyst](/w/Dual_Toxocyst "Dual Toxocyst")" contains an unsupported key `GripType`
-207. "[Dual Viciss](/w/Dual_Viciss "Dual Viciss")" contains an unsupported key `GripType`
-208. "[Dual Zoren](/w/Dual_Zoren "Dual Zoren")" contains an unsupported key `GripType`
-209. "[Dual Zoren Prime](/w/Dual_Zoren_Prime "Dual Zoren Prime")" contains an unsupported key `GripType`
-210. "[EFV-5 Jupiter](/w/EFV-5_Jupiter "EFV-5 Jupiter")" contains an unsupported key `GripType`
-211. "[EFV-8 Mars](/w/EFV-8_Mars "EFV-8 Mars")" contains an unsupported key `GripType`
-212. "[Edun](/w/Edun "Edun")" contains an unsupported key `GripType`
-213. "[Ekhein](/w/Ekhein "Ekhein")" contains an unsupported key `GripType`
-214. "[Embolist](/w/Embolist "Embolist")" contains an unsupported key `GripType`
-215. "[Endura](/w/Endura "Endura")" contains an unsupported key `GripType`
-216. "[Enkaus](/w/Enkaus "Enkaus")" contains an unsupported key `GripType`
-217. "[Epitaph](/w/Epitaph "Epitaph")" contains an unsupported key `GripType`
-218. "[Epitaph Prime](/w/Epitaph_Prime "Epitaph Prime")" contains an unsupported key `GripType`
-219. "[Ether Daggers](/w/Ether_Daggers "Ether Daggers")" contains an unsupported key `GripType`
-220. "[Ether Reaper](/w/Ether_Reaper "Ether Reaper")" contains an unsupported key `GripType`
-221. "[Ether Sword](/w/Ether_Sword "Ether Sword")" contains an unsupported key `GripType`
-222. "[Euphona Prime](/w/Euphona_Prime "Euphona Prime")" contains an unsupported key `GripType`
-223. "[Evensong](/w/Evensong "Evensong")" contains an unsupported key `GripType`
-224. "[Exalted Blade](/w/Exalted_Blade "Exalted Blade")" contains an unsupported key `GripType`
-225. "[Exalted Prime Blade](/w/Exalted_Prime_Blade "Exalted Prime Blade")" contains an unsupported key `GripType`
-226. "[Exalted Umbra Blade](/w/Exalted_Umbra_Blade "Exalted Umbra Blade")" contains an unsupported key `GripType`
-227. "[Exergis](/w/Exergis "Exergis")" contains an unsupported key `GripType`
-228. "[Falcor](/w/Falcor "Falcor")" contains an unsupported key `GripType`
-229. "[Fang](/w/Fang "Fang")" contains an unsupported key `GripType`
-230. "[Fang Prime](/w/Fang_Prime "Fang Prime")" contains an unsupported key `GripType`
-231. "[Felarx](/w/Felarx "Felarx")" contains an unsupported key `IncarnonChargeGain`
-232. "[Felarx](/w/Felarx "Felarx")" contains an unsupported key `GripType`
-233. "[Ferrox](/w/Ferrox "Ferrox")" contains an unsupported key `GripType`
-234. "[Fluctus](/w/Fluctus "Fluctus")" contains an unsupported key `GripType`
-235. "[Fluctus (Atmosphere)](/w/Fluctus_(Atmosphere)?action=edit&redlink=1 "Fluctus (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-236. "[Flux Rifle](/w/Flux_Rifle "Flux Rifle")" contains an unsupported key `GripType`
-237. "[Fragor](/w/Fragor "Fragor")" contains an unsupported key `GripType`
-238. "[Fragor Prime](/w/Fragor_Prime "Fragor Prime")" contains an unsupported key `GripType`
-239. "[Fulmin](/w/Fulmin "Fulmin")" contains an unsupported key `GripType`
-240. "[Fulmin Prime](/w/Fulmin_Prime "Fulmin Prime")" contains an unsupported key `GripType`
-241. "[Furax](/w/Furax "Furax")" contains an unsupported key `GripType`
-242. "[Furax](/w/Furax "Furax")" contains an unsupported key `IncarnonDuration`
-243. "[Furax Wraith](/w/Furax_Wraith "Furax Wraith")" contains an unsupported key `GripType`
-244. "[Furax Wraith](/w/Furax_Wraith "Furax Wraith")" contains an unsupported key `IncarnonDuration`
-245. "[Furis](/w/Furis "Furis")" contains an unsupported key `IncarnonChargeGain`
-246. "[Furis](/w/Furis "Furis")" contains an unsupported key `GripType`
-247. "[Fusilai](/w/Fusilai "Fusilai")" contains an unsupported key `GripType`
-248. "[Galariak Prime](/w/Galariak_Prime "Galariak Prime")" contains an unsupported key `GripType`
-249. "[Galatine](/w/Galatine "Galatine")" contains an unsupported key `GripType`
-250. "[Galatine Prime](/w/Galatine_Prime "Galatine Prime")" contains an unsupported key `GripType`
-251. "[Galvacord](/w/Galvacord "Galvacord")" contains an unsupported key `GripType`
-252. "[Gammacor](/w/Gammacor "Gammacor")" contains an unsupported key `IncarnonChargeGain`
-253. "[Gammacor](/w/Gammacor "Gammacor")" contains an unsupported key `GripType`
-254. "[Gazal Machete](/w/Gazal_Machete "Gazal Machete")" contains an unsupported key `GripType`
-255. "[Ghoulsaw](/w/Ghoulsaw "Ghoulsaw")" contains an unsupported key `GripType`
-256. "[Glaive](/w/Glaive "Glaive")" contains an unsupported key `GripType`
-257. "[Glaive Prime](/w/Glaive_Prime "Glaive Prime")" contains an unsupported key `GripType`
-258. "[Glaxion](/w/Glaxion "Glaxion")" contains an unsupported key `GripType`
-259. "[Glaxion Vandal](/w/Glaxion_Vandal "Glaxion Vandal")" contains an unsupported key `GripType`
-260. "[Glory](/w/Glory "Glory")" contains an unsupported key `GripType`
-261. "[Gorgon](/w/Gorgon "Gorgon")" contains an unsupported key `IncarnonChargeGain`
-262. "[Gorgon](/w/Gorgon "Gorgon")" contains an unsupported key `GripType`
-263. "[Gorgon Wraith](/w/Gorgon_Wraith "Gorgon Wraith")" contains an unsupported key `IncarnonChargeGain`
-264. "[Gorgon Wraith](/w/Gorgon_Wraith "Gorgon Wraith")" contains an unsupported key `GripType`
-265. "[Gotva Prime](/w/Gotva_Prime "Gotva Prime")" contains an unsupported key `GripType`
-266. "[Grakata](/w/Grakata "Grakata")" contains an unsupported key `GripType`
-267. "[Gram](/w/Gram "Gram")" contains an unsupported key `GripType`
-268. "[Gram Prime](/w/Gram_Prime "Gram Prime")" contains an unsupported key `GripType`
-269. "[Grattler](/w/Grattler "Grattler")" contains an unsupported key `GripType`
-270. "[Grattler (Atmosphere)](/w/Grattler_(Atmosphere)?action=edit&redlink=1 "Grattler (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-271. "[Grimoire](/w/Grimoire "Grimoire")" contains an unsupported key `GripType`
-272. "[Grinlok](/w/Grinlok "Grinlok")" contains an unsupported key `GripType`
-273. "[Guandao](/w/Guandao "Guandao")" contains an unsupported key `GripType`
-274. "[Guandao Prime](/w/Guandao_Prime "Guandao Prime")" contains an unsupported key `GripType`
-275. "[Gunsen](/w/Gunsen "Gunsen")" contains an unsupported key `GripType`
-276. "[Gunsen Prime](/w/Gunsen_Prime "Gunsen Prime")" contains an unsupported key `GripType`
-277. "[Haalvu](/w/Haalvu "Haalvu")" contains an unsupported key `GripType`
-278. "[Halikar](/w/Halikar "Halikar")" contains an unsupported key `GripType`
-279. "[Halikar Wraith](/w/Halikar_Wraith "Halikar Wraith")" contains an unsupported key `GripType`
-280. "[Harmony](/w/Harmony "Harmony")" contains an unsupported key `GripType`
-281. "[Harpak](/w/Harpak "Harpak")" contains an unsupported key `GripType`
-282. "[Hate](/w/Hate "Hate")" contains an unsupported key `GripType`
-283. "[Hate](/w/Hate "Hate")" contains an unsupported key `IncarnonDuration`
-284. "[Heat Dagger](/w/Heat_Dagger "Heat Dagger")" contains an unsupported key `GripType`
-285. "[Heat Sword](/w/Heat_Sword "Heat Sword")" contains an unsupported key `GripType`
-286. "[Hek](/w/Hek "Hek")" contains an unsupported key `GripType`
-287. "[Heliocor](/w/Heliocor "Heliocor")" contains an unsupported key `GripType`
-288. "[Hema](/w/Hema "Hema")" contains an unsupported key `GripType`
-289. "[Hespar](/w/Hespar "Hespar")" contains an unsupported key `GripType`
-290. "[Higasa](/w/Higasa "Higasa")" contains an unsupported key `GripType`
-291. "[Hikou](/w/Hikou "Hikou")" contains an unsupported key `GripType`
-292. "[Hikou Prime](/w/Hikou_Prime "Hikou Prime")" contains an unsupported key `GripType`
-293. "[Hind](/w/Hind "Hind")" contains an unsupported key `GripType`
-294. "[Hirudo](/w/Hirudo "Hirudo")" contains an unsupported key `GripType`
-295. "[Hystrix](/w/Hystrix "Hystrix")" contains an unsupported key `GripType`
-296. "[Hystrix Prime](/w/Hystrix_Prime "Hystrix Prime")" contains an unsupported key `GripType`
-297. "[Ignis](/w/Ignis "Ignis")" contains an unsupported key `GripType`
-298. "[Ignis Wraith](/w/Ignis_Wraith "Ignis Wraith")" contains an unsupported key `GripType`
-299. "[Imperator](/w/Imperator "Imperator")" contains an unsupported key `GripType`
-300. "[Imperator (Atmosphere)](/w/Imperator_(Atmosphere)?action=edit&redlink=1 "Imperator (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-301. "[Imperator Vandal](/w/Imperator_Vandal "Imperator Vandal")" contains an unsupported key `GripType`
-302. "[Imperator Vandal (Atmosphere)](/w/Imperator_Vandal_(Atmosphere)?action=edit&redlink=1 "Imperator Vandal (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-303. "[Innodem](/w/Innodem "Innodem")" contains an unsupported key `GripType`
-304. "[Iron Staff](/w/Iron_Staff "Iron Staff")" contains an unsupported key `GripType`
-305. "[Iron Staff Prime](/w/Iron_Staff_Prime "Iron Staff Prime")" contains an unsupported key `GripType`
-306. "[Ironbride](/w/Ironbride "Ironbride")" contains an unsupported key `GripType`
-307. "[Jat Kittag](/w/Jat_Kittag "Jat Kittag")" contains an unsupported key `GripType`
-308. "[Jat Kusar](/w/Jat_Kusar "Jat Kusar")" contains an unsupported key `GripType`
-309. "[Javlok](/w/Javlok "Javlok")" contains an unsupported key `GripType`
-310. "[Jaw Sword](/w/Jaw_Sword "Jaw Sword")" contains an unsupported key `GripType`
-311. "[Kama](/w/Kama "Kama")" contains an unsupported key `GripType`
-312. "[Karak](/w/Karak "Karak")" contains an unsupported key `GripType`
-313. "[Karak Wraith](/w/Karak_Wraith "Karak Wraith")" contains an unsupported key `GripType`
-314. "[Karyst](/w/Karyst "Karyst")" contains an unsupported key `GripType`
-315. "[Karyst Prime](/w/Karyst_Prime "Karyst Prime")" contains an unsupported key `GripType`
-316. "[Kaszas](/w/Kaszas "Kaszas")" contains an unsupported key `GripType`
-317. "[Keratinos](/w/Keratinos "Keratinos")" contains an unsupported key `GripType`
-318. "[Kesheg](/w/Kesheg "Kesheg")" contains an unsupported key `GripType`
-319. "[Kestrel](/w/Kestrel "Kestrel")" contains an unsupported key `GripType`
-320. "[Kestrel Prime](/w/Kestrel_Prime "Kestrel Prime")" contains an unsupported key `GripType`
-321. "[Knell](/w/Knell "Knell")" contains an unsupported key `GripType`
-322. "[Knell Prime](/w/Knell_Prime "Knell Prime")" contains an unsupported key `GripType`
-323. "[Knux](/w/Knux "Knux")" contains an unsupported key `GripType`
-324. "[Kogake](/w/Kogake "Kogake")" contains an unsupported key `GripType`
-325. "[Kogake Prime](/w/Kogake_Prime "Kogake Prime")" contains an unsupported key `GripType`
-326. "[Kohm](/w/Kohm "Kohm")" contains an unsupported key `GripType`
-327. "[Kohmak](/w/Kohmak "Kohmak")" contains an unsupported key `GripType`
-328. "[Komorex](/w/Komorex "Komorex")" contains an unsupported key `GripType`
-329. "[Kompressa](/w/Kompressa "Kompressa")" contains an unsupported key `GripType`
-330. "[Kompressa Prime](/w/Kompressa_Prime "Kompressa Prime")" contains an unsupported key `GripType`
-331. "[Korrudo](/w/Korrudo "Korrudo")" contains an unsupported key `GripType`
-332. "[Korumm](/w/Korumm "Korumm")" contains an unsupported key `GripType`
-333. "[Kraken](/w/Kraken "Kraken")" contains an unsupported key `GripType`
-334. "[Kreska](/w/Kreska "Kreska")" contains an unsupported key `GripType`
-335. "[Krohkur](/w/Krohkur "Krohkur")" contains an unsupported key `GripType`
-336. "[Kronen](/w/Kronen "Kronen")" contains an unsupported key `GripType`
-337. "[Kronen Prime](/w/Kronen_Prime "Kronen Prime")" contains an unsupported key `GripType`
-338. "[Kulstar](/w/Kulstar "Kulstar")" contains an unsupported key `GripType`
-339. "[Kunai](/w/Kunai "Kunai")" contains an unsupported key `IncarnonChargeGain`
-340. "[Kunai](/w/Kunai "Kunai")" contains an unsupported key `GripType`
-341. "[Kuva Ayanga](/w/Kuva_Ayanga "Kuva Ayanga")" contains an unsupported key `GripType`
-342. "[Kuva Ayanga (Atmosphere)](/w/Kuva_Ayanga_(Atmosphere)?action=edit&redlink=1 "Kuva Ayanga (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-343. "[Kuva Brakk](/w/Kuva_Brakk "Kuva Brakk")" contains an unsupported key `GripType`
-344. "[Kuva Bramma](/w/Kuva_Bramma "Kuva Bramma")" contains an unsupported key `GripType`
-345. "[Kuva Chakkhurr](/w/Kuva_Chakkhurr "Kuva Chakkhurr")" contains an unsupported key `GripType`
-346. "[Kuva Drakgoon](/w/Kuva_Drakgoon "Kuva Drakgoon")" contains an unsupported key `GripType`
-347. "[Kuva Ghoulsaw](/w/Kuva_Ghoulsaw "Kuva Ghoulsaw")" contains an unsupported key `GripType`
-348. "[Kuva Grattler](/w/Kuva_Grattler "Kuva Grattler")" contains an unsupported key `GripType`
-349. "[Kuva Grattler (Atmosphere)](/w/Kuva_Grattler_(Atmosphere)?action=edit&redlink=1 "Kuva Grattler (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-350. "[Kuva Hek](/w/Kuva_Hek "Kuva Hek")" contains an unsupported key `GripType`
-351. "[Kuva Hind](/w/Kuva_Hind "Kuva Hind")" contains an unsupported key `GripType`
-352. "[Kuva Karak](/w/Kuva_Karak "Kuva Karak")" contains an unsupported key `GripType`
-353. "[Kuva Kohm](/w/Kuva_Kohm "Kuva Kohm")" contains an unsupported key `GripType`
-354. "[Kuva Kraken](/w/Kuva_Kraken "Kuva Kraken")" contains an unsupported key `GripType`
-355. "[Kuva Nukor](/w/Kuva_Nukor "Kuva Nukor")" contains an unsupported key `GripType`
-356. "[Kuva Ogris](/w/Kuva_Ogris "Kuva Ogris")" contains an unsupported key `GripType`
-357. "[Kuva Quartakk](/w/Kuva_Quartakk "Kuva Quartakk")" contains an unsupported key `GripType`
-358. "[Kuva Seer](/w/Kuva_Seer "Kuva Seer")" contains an unsupported key `GripType`
-359. "[Kuva Shildeg](/w/Kuva_Shildeg "Kuva Shildeg")" contains an unsupported key `GripType`
-360. "[Kuva Sobek](/w/Kuva_Sobek "Kuva Sobek")" contains an unsupported key `GripType`
-361. "[Kuva Tonkor](/w/Kuva_Tonkor "Kuva Tonkor")" contains an unsupported key `GripType`
-362. "[Kuva Twin Stubbas](/w/Kuva_Twin_Stubbas "Kuva Twin Stubbas")" contains an unsupported key `GripType`
-363. "[Kuva Zarr](/w/Kuva_Zarr "Kuva Zarr")" contains an unsupported key `GripType`
-364. "[Lacera](/w/Lacera "Lacera")" contains an unsupported key `GripType`
-365. "[Laetum](/w/Laetum "Laetum")" contains an unsupported key `IncarnonChargeGain`
-366. "[Laetum](/w/Laetum "Laetum")" contains an unsupported key `GripType`
-367. "[Landslide Fists](/w/Landslide_Fists "Landslide Fists")" contains an unsupported key `GripType`
-368. "[Landslide Fists Prime](/w/Landslide_Fists_Prime "Landslide Fists Prime")" contains an unsupported key `GripType`
-369. "[Lanka](/w/Lanka "Lanka")" contains an unsupported key `GripType`
-370. "[Larkspur](/w/Larkspur "Larkspur")" contains an unsupported key `GripType`
-371. "[Larkspur (Atmosphere)](/w/Larkspur_(Atmosphere)?action=edit&redlink=1 "Larkspur (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-372. "[Larkspur Prime](/w/Larkspur_Prime "Larkspur Prime")" contains an unsupported key `GripType`
-373. "[Larkspur Prime (Atmosphere)](/w/Larkspur_Prime_(Atmosphere)?action=edit&redlink=1 "Larkspur Prime (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-374. "[Lato](/w/Lato "Lato")" contains an unsupported key `IncarnonChargeGain`
-375. "[Lato](/w/Lato "Lato")" contains an unsupported key `GripType`
-376. "[Lato Prime](/w/Lato_Prime "Lato Prime")" contains an unsupported key `IncarnonChargeGain`
-377. "[Lato Prime](/w/Lato_Prime "Lato Prime")" contains an unsupported key `GripType`
-378. "[Lato Vandal](/w/Lato_Vandal "Lato Vandal")" contains an unsupported key `IncarnonChargeGain`
-379. "[Lato Vandal](/w/Lato_Vandal "Lato Vandal")" contains an unsupported key `GripType`
-380. "[Latron](/w/Latron "Latron")" contains an unsupported key `IncarnonChargeGain`
-381. "[Latron](/w/Latron "Latron")" contains an unsupported key `GripType`
-382. "[Latron Prime](/w/Latron_Prime "Latron Prime")" contains an unsupported key `IncarnonChargeGain`
-383. "[Latron Prime](/w/Latron_Prime "Latron Prime")" contains an unsupported key `GripType`
-384. "[Latron Wraith](/w/Latron_Wraith "Latron Wraith")" contains an unsupported key `IncarnonChargeGain`
-385. "[Latron Wraith](/w/Latron_Wraith "Latron Wraith")" contains an unsupported key `GripType`
-386. "[Lecta](/w/Lecta "Lecta")" contains an unsupported key `GripType`
-387. "[Lenz](/w/Lenz "Lenz")" contains an unsupported key `GripType`
-388. "[Lesion](/w/Lesion "Lesion")" contains an unsupported key `GripType`
-389. "[Lex](/w/Lex "Lex")" contains an unsupported key `IncarnonChargeGain`
-390. "[Lex](/w/Lex "Lex")" contains an unsupported key `GripType`
-391. "[Lex Prime](/w/Lex_Prime "Lex Prime")" contains an unsupported key `IncarnonChargeGain`
-392. "[Lex Prime](/w/Lex_Prime "Lex Prime")" contains an unsupported key `GripType`
-393. "[Lizzie](/w/Lizzie "Lizzie")" contains an unsupported key `GripType`
-394. "[Machete](/w/Machete "Machete")" contains an unsupported key `GripType`
-395. "[Machete Wraith](/w/Machete_Wraith "Machete Wraith")" contains an unsupported key `GripType`
-396. "[Magistar](/w/Magistar "Magistar")" contains an unsupported key `GripType`
-397. "[Magistar](/w/Magistar "Magistar")" contains an unsupported key `IncarnonDuration`
-398. "[Magnus](/w/Magnus "Magnus")" contains an unsupported key `GripType`
-399. "[Magnus Prime](/w/Magnus_Prime "Magnus Prime")" contains an unsupported key `GripType`
-400. "[Mandonel](/w/Mandonel "Mandonel")" contains an unsupported key `GripType`
-401. "[Mandonel (Atmosphere)](/w/Mandonel_(Atmosphere)?action=edit&redlink=1 "Mandonel (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-402. "[Mara Detron](/w/Mara_Detron "Mara Detron")" contains an unsupported key `GripType`
-403. "[Marelok](/w/Marelok "Marelok")" contains an unsupported key `GripType`
-404. "[Masseter](/w/Masseter "Masseter")" contains an unsupported key `GripType`
-405. "[Masseter Prime](/w/Masseter_Prime "Masseter Prime")" contains an unsupported key `GripType`
-406. "[Mausolon](/w/Mausolon "Mausolon")" contains an unsupported key `GripType`
-407. "[Mausolon (Atmosphere)](/w/Mausolon_(Atmosphere)?action=edit&redlink=1 "Mausolon (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-408. "[Mios](/w/Mios "Mios")" contains an unsupported key `GripType`
-409. "[Mire](/w/Mire "Mire")" contains an unsupported key `GripType`
-410. "[Miter](/w/Miter "Miter")" contains an unsupported key `IncarnonChargeGain`
-411. "[Miter](/w/Miter "Miter")" contains an unsupported key `GripType`
-412. "[Mk1-Bo](/w/Mk1-Bo "Mk1-Bo")" contains an unsupported key `GripType`
-413. "[Mk1-Bo](/w/Mk1-Bo "Mk1-Bo")" contains an unsupported key `IncarnonDuration`
-414. "[Mk1-Braton](/w/Mk1-Braton "Mk1-Braton")" contains an unsupported key `IncarnonChargeGain`
-415. "[Mk1-Braton](/w/Mk1-Braton "Mk1-Braton")" contains an unsupported key `GripType`
-416. "[Mk1-Furax](/w/Mk1-Furax "Mk1-Furax")" contains an unsupported key `GripType`
-417. "[Mk1-Furax](/w/Mk1-Furax "Mk1-Furax")" contains an unsupported key `IncarnonDuration`
-418. "[Mk1-Furis](/w/Mk1-Furis "Mk1-Furis")" contains an unsupported key `IncarnonChargeGain`
-419. "[Mk1-Furis](/w/Mk1-Furis "Mk1-Furis")" contains an unsupported key `GripType`
-420. "[Mk1-Kunai](/w/Mk1-Kunai "Mk1-Kunai")" contains an unsupported key `IncarnonChargeGain`
-421. "[Mk1-Kunai](/w/Mk1-Kunai "Mk1-Kunai")" contains an unsupported key `GripType`
-422. "[Mk1-Paris](/w/Mk1-Paris "Mk1-Paris")" contains an unsupported key `IncarnonChargeGain`
-423. "[Mk1-Paris](/w/Mk1-Paris "Mk1-Paris")" contains an unsupported key `GripType`
-424. "[Mk1-Strun](/w/Mk1-Strun "Mk1-Strun")" contains an unsupported key `IncarnonChargeGain`
-425. "[Mk1-Strun](/w/Mk1-Strun "Mk1-Strun")" contains an unsupported key `GripType`
-426. "[Morgha](/w/Morgha "Morgha")" contains an unsupported key `GripType`
-427. "[Morgha (Atmosphere)](/w/Morgha_(Atmosphere)?action=edit&redlink=1 "Morgha (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-428. "[Mutalist Cernos](/w/Mutalist_Cernos "Mutalist Cernos")" contains an unsupported key `GripType`
-429. "[Mutalist Quanta](/w/Mutalist_Quanta "Mutalist Quanta")" contains an unsupported key `GripType`
-430. "[Nagantaka](/w/Nagantaka "Nagantaka")" contains an unsupported key `GripType`
-431. "[Nagantaka Prime](/w/Nagantaka_Prime "Nagantaka Prime")" contains an unsupported key `GripType`
-432. "[Nami Skyla](/w/Nami_Skyla "Nami Skyla")" contains an unsupported key `GripType`
-433. "[Nami Skyla Prime](/w/Nami_Skyla_Prime "Nami Skyla Prime")" contains an unsupported key `GripType`
-434. "[Nami Solo](/w/Nami_Solo "Nami Solo")" contains an unsupported key `GripType`
-435. "[Nami Solo](/w/Nami_Solo "Nami Solo")" contains an unsupported key `IncarnonDuration`
-436. "[Nataruk](/w/Nataruk "Nataruk")" contains an unsupported key `GripType`
-437. "[Nepheri](/w/Nepheri "Nepheri")" contains an unsupported key `GripType`
-438. "[Neutralizer](/w/Neutralizer "Neutralizer")" contains an unsupported key `GripType`
-439. "[Nikana](/w/Nikana "Nikana")" contains an unsupported key `GripType`
-440. "[Nikana Prime](/w/Nikana_Prime "Nikana Prime")" contains an unsupported key `GripType`
-441. "[Ninkondi](/w/Ninkondi "Ninkondi")" contains an unsupported key `GripType`
-442. "[Ninkondi Prime](/w/Ninkondi_Prime "Ninkondi Prime")" contains an unsupported key `GripType`
-443. "[Noctua](/w/Noctua "Noctua")" contains an unsupported key `GripType`
-444. "[Nukor](/w/Nukor "Nukor")" contains an unsupported key `GripType`
-445. "[Nunchasa](/w/Nunchasa "Nunchasa")" contains an unsupported key `GripType`
-446. "[Obex](/w/Obex "Obex")" contains an unsupported key `GripType`
-447. "[Obex](/w/Obex "Obex")" contains an unsupported key `IncarnonDuration`
-448. "[Ocucor](/w/Ocucor "Ocucor")" contains an unsupported key `GripType`
-449. "[Ogris](/w/Ogris "Ogris")" contains an unsupported key `GripType`
-450. "[Ohma](/w/Ohma "Ohma")" contains an unsupported key `GripType`
-451. "[Okina](/w/Okina "Okina")" contains an unsupported key `GripType`
-452. "[Okina](/w/Okina "Okina")" contains an unsupported key `IncarnonDuration`
-453. "[Okina Prime](/w/Okina_Prime "Okina Prime")" contains an unsupported key `GripType`
-454. "[Okina Prime](/w/Okina_Prime "Okina Prime")" contains an unsupported key `IncarnonDuration`
-455. "[Onorix](/w/Onorix "Onorix")" contains an unsupported key `GripType`
-456. "[Onos](/w/Onos "Onos")" contains an unsupported key `IncarnonChargeGain`
-457. "[Onos](/w/Onos "Onos")" contains an unsupported key `GripType`
-458. "[Opticor](/w/Opticor "Opticor")" contains an unsupported key `GripType`
-459. "[Opticor Vandal](/w/Opticor_Vandal "Opticor Vandal")" contains an unsupported key `GripType`
-460. "[Orthos](/w/Orthos "Orthos")" contains an unsupported key `GripType`
-461. "[Orthos Prime](/w/Orthos_Prime "Orthos Prime")" contains an unsupported key `GripType`
-462. "[Orvius](/w/Orvius "Orvius")" contains an unsupported key `GripType`
-463. "[Pandero](/w/Pandero "Pandero")" contains an unsupported key `GripType`
-464. "[Pandero Prime](/w/Pandero_Prime "Pandero Prime")" contains an unsupported key `GripType`
-465. "[Pangolin Prime](/w/Pangolin_Prime "Pangolin Prime")" contains an unsupported key `GripType`
-466. "[Pangolin Sword](/w/Pangolin_Sword "Pangolin Sword")" contains an unsupported key `GripType`
-467. "[Panthera](/w/Panthera "Panthera")" contains an unsupported key `GripType`
-468. "[Panthera Prime](/w/Panthera_Prime "Panthera Prime")" contains an unsupported key `GripType`
-469. "[Paracesis](/w/Paracesis "Paracesis")" contains an unsupported key `GripType`
-470. "[Paracyst](/w/Paracyst "Paracyst")" contains an unsupported key `GripType`
-471. "[Paris](/w/Paris "Paris")" contains an unsupported key `IncarnonChargeGain`
-472. "[Paris](/w/Paris "Paris")" contains an unsupported key `GripType`
-473. "[Paris Prime](/w/Paris_Prime "Paris Prime")" contains an unsupported key `IncarnonChargeGain`
-474. "[Paris Prime](/w/Paris_Prime "Paris Prime")" contains an unsupported key `GripType`
-475. "[Pathocyst](/w/Pathocyst "Pathocyst")" contains an unsupported key `GripType`
-476. "[Pennant](/w/Pennant "Pennant")" contains an unsupported key `GripType`
-477. "[Penta](/w/Penta "Penta")" contains an unsupported key `GripType`
-478. "[Perigale](/w/Perigale "Perigale")" contains an unsupported key `GripType`
-479. "[Perigale Prime](/w/Perigale_Prime "Perigale Prime")" contains an unsupported key `GripType`
-480. "[Phaedra](/w/Phaedra "Phaedra")" contains an unsupported key `GripType`
-481. "[Phaedra (Atmosphere)](/w/Phaedra_(Atmosphere)?action=edit&redlink=1 "Phaedra (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-482. "[Phage](/w/Phage "Phage")" contains an unsupported key `GripType`
-483. "[Phantasma](/w/Phantasma "Phantasma")" contains an unsupported key `GripType`
-484. "[Phantasma Prime](/w/Phantasma_Prime "Phantasma Prime")" contains an unsupported key `GripType`
-485. "[Phenmor](/w/Phenmor "Phenmor")" contains an unsupported key `IncarnonChargeGain`
-486. "[Phenmor](/w/Phenmor "Phenmor")" contains an unsupported key `GripType`
-487. "[Plasma Sword](/w/Plasma_Sword "Plasma Sword")" contains an unsupported key `GripType`
-488. "[Plinx](/w/Plinx "Plinx")" contains an unsupported key `GripType`
-489. "[Pox](/w/Pox "Pox")" contains an unsupported key `GripType`
-490. "[Praedos](/w/Praedos "Praedos")" contains an unsupported key `GripType`
-491. "[Pride](/w/Pride "Pride")" contains an unsupported key `GripType`
-492. "[Prisma Angstrum](/w/Prisma_Angstrum "Prisma Angstrum")" contains an unsupported key `IncarnonChargeGain`
-493. "[Prisma Angstrum](/w/Prisma_Angstrum "Prisma Angstrum")" contains an unsupported key `GripType`
-494. "[Prisma Dual Cleavers](/w/Prisma_Dual_Cleavers "Prisma Dual Cleavers")" contains an unsupported key `GripType`
-495. "[Prisma Dual Decurions](/w/Prisma_Dual_Decurions "Prisma Dual Decurions")" contains an unsupported key `GripType`
-496. "[Prisma Dual Decurions (Atmosphere)](/w/Prisma_Dual_Decurions_(Atmosphere)?action=edit&redlink=1 "Prisma Dual Decurions (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-497. "[Prisma Gorgon](/w/Prisma_Gorgon "Prisma Gorgon")" contains an unsupported key `IncarnonChargeGain`
-498. "[Prisma Gorgon](/w/Prisma_Gorgon "Prisma Gorgon")" contains an unsupported key `GripType`
-499. "[Prisma Grakata](/w/Prisma_Grakata "Prisma Grakata")" contains an unsupported key `GripType`
-500. "[Prisma Grinlok](/w/Prisma_Grinlok "Prisma Grinlok")" contains an unsupported key `GripType`
-501. "[Prisma Lenz](/w/Prisma_Lenz "Prisma Lenz")" contains an unsupported key `GripType`
-502. "[Prisma Machete](/w/Prisma_Machete "Prisma Machete")" contains an unsupported key `GripType`
-503. "[Prisma Obex](/w/Prisma_Obex "Prisma Obex")" contains an unsupported key `GripType`
-504. "[Prisma Obex](/w/Prisma_Obex "Prisma Obex")" contains an unsupported key `IncarnonDuration`
-505. "[Prisma Ohma](/w/Prisma_Ohma "Prisma Ohma")" contains an unsupported key `GripType`
-506. "[Prisma Skana](/w/Prisma_Skana "Prisma Skana")" contains an unsupported key `GripType`
-507. "[Prisma Skana](/w/Prisma_Skana "Prisma Skana")" contains an unsupported key `IncarnonDuration`
-508. "[Prisma Tetra](/w/Prisma_Tetra "Prisma Tetra")" contains an unsupported key `GripType`
-509. "[Prisma Twin Gremlins](/w/Prisma_Twin_Gremlins "Prisma Twin Gremlins")" contains an unsupported key `GripType`
-510. "[Prisma Veritux](/w/Prisma_Veritux "Prisma Veritux")" contains an unsupported key `GripType`
-511. "[Proboscis Cernos](/w/Proboscis_Cernos "Proboscis Cernos")" contains an unsupported key `GripType`
-512. "[Prova](/w/Prova "Prova")" contains an unsupported key `GripType`
-513. "[Prova Vandal](/w/Prova_Vandal "Prova Vandal")" contains an unsupported key `GripType`
-514. "[Pulmonars](/w/Pulmonars "Pulmonars")" contains an unsupported key `GripType`
-515. "[Pupacyst](/w/Pupacyst "Pupacyst")" contains an unsupported key `GripType`
-516. "[Purgator 1](/w/Purgator_1 "Purgator 1")" contains an unsupported key `GripType`
-517. "[Pyrana](/w/Pyrana "Pyrana")" contains an unsupported key `GripType`
-518. "[Pyrana Prime](/w/Pyrana_Prime "Pyrana Prime")" contains an unsupported key `GripType`
-519. "[Quanta](/w/Quanta "Quanta")" contains an unsupported key `GripType`
-520. "[Quanta Vandal](/w/Quanta_Vandal "Quanta Vandal")" contains an unsupported key `GripType`
-521. "[Quartakk](/w/Quartakk "Quartakk")" contains an unsupported key `GripType`
-522. "[Quassus](/w/Quassus "Quassus")" contains an unsupported key `GripType`
-523. "[Quassus Prime](/w/Quassus_Prime "Quassus Prime")" contains an unsupported key `GripType`
-524. "[Quatz](/w/Quatz "Quatz")" contains an unsupported key `GripType`
-525. "[Quellor](/w/Quellor "Quellor")" contains an unsupported key `GripType`
-526. "[Rakta Ballistica](/w/Rakta_Ballistica "Rakta Ballistica")" contains an unsupported key `IncarnonChargeGain`
-527. "[Rakta Ballistica](/w/Rakta_Ballistica "Rakta Ballistica")" contains an unsupported key `GripType`
-528. "[Rakta Cernos](/w/Rakta_Cernos "Rakta Cernos")" contains an unsupported key `GripType`
-529. "[Rakta Dark Dagger](/w/Rakta_Dark_Dagger "Rakta Dark Dagger")" contains an unsupported key `GripType`
-530. "[Rathbone](/w/Rathbone "Rathbone")" contains an unsupported key `GripType`
-531. "[Rauta](/w/Rauta "Rauta")" contains an unsupported key `GripType`
-532. "[Reaper Prime](/w/Reaper_Prime "Reaper Prime")" contains an unsupported key `GripType`
-533. "[Reconifex](/w/Reconifex "Reconifex")" contains an unsupported key `GripType`
-534. "[Redeemer](/w/Redeemer "Redeemer")" contains an unsupported key `GripType`
-535. "[Redeemer Prime](/w/Redeemer_Prime "Redeemer Prime")" contains an unsupported key `GripType`
-536. "[Regulators](/w/Regulators "Regulators")" contains an unsupported key `GripType`
-537. "[Regulators Prime](/w/Regulators_Prime "Regulators Prime")" contains an unsupported key `GripType`
-538. "[Riot-848](/w/Riot-848 "Riot-848")" contains an unsupported key `GripType`
-539. "[Ripkas](/w/Ripkas "Ripkas")" contains an unsupported key `GripType`
-540. "[Rubico](/w/Rubico "Rubico")" contains an unsupported key `GripType`
-541. "[Rubico Prime](/w/Rubico_Prime "Rubico Prime")" contains an unsupported key `GripType`
-542. "[Rumblejack](/w/Rumblejack "Rumblejack")" contains an unsupported key `GripType`
-543. "[Ruvox](/w/Ruvox "Ruvox")" contains an unsupported key `GripType`
-544. "[Sampotes](/w/Sampotes "Sampotes")" contains an unsupported key `GripType`
-545. "[Sancti Castanas](/w/Sancti_Castanas "Sancti Castanas")" contains an unsupported key `GripType`
-546. "[Sancti Magistar](/w/Sancti_Magistar "Sancti Magistar")" contains an unsupported key `GripType`
-547. "[Sancti Magistar](/w/Sancti_Magistar "Sancti Magistar")" contains an unsupported key `IncarnonDuration`
-548. "[Sancti Tigris](/w/Sancti_Tigris "Sancti Tigris")" contains an unsupported key `GripType`
-549. "[Sarofang](/w/Sarofang "Sarofang")" contains an unsupported key `GripType`
-550. "[Sarofang Prime](/w/Sarofang_Prime "Sarofang Prime")" contains an unsupported key `GripType`
-551. "[Sarpa](/w/Sarpa "Sarpa")" contains an unsupported key `GripType`
-552. "[Scindo](/w/Scindo "Scindo")" contains an unsupported key `GripType`
-553. "[Scindo Prime](/w/Scindo_Prime "Scindo Prime")" contains an unsupported key `GripType`
-554. "[Scoliac](/w/Scoliac "Scoliac")" contains an unsupported key `GripType`
-555. "[Scourge](/w/Scourge "Scourge")" contains an unsupported key `GripType`
-556. "[Scourge Prime](/w/Scourge_Prime "Scourge Prime")" contains an unsupported key `GripType`
-557. "[Scyotid](/w/Scyotid "Scyotid")" contains an unsupported key `GripType`
-558. "[Secura Dual Cestra](/w/Secura_Dual_Cestra "Secura Dual Cestra")" contains an unsupported key `GripType`
-559. "[Secura Lecta](/w/Secura_Lecta "Secura Lecta")" contains an unsupported key `GripType`
-560. "[Secura Penta](/w/Secura_Penta "Secura Penta")" contains an unsupported key `GripType`
-561. "[Seer](/w/Seer "Seer")" contains an unsupported key `GripType`
-562. "[Sepulcrum](/w/Sepulcrum "Sepulcrum")" contains an unsupported key `GripType`
-563. "[Serro](/w/Serro "Serro")" contains an unsupported key `GripType`
-564. "[Shadow Claws](/w/Shadow_Claws "Shadow Claws")" contains an unsupported key `GripType`
-565. "[Shadow Claws Prime](/w/Shadow_Claws_Prime?action=edit&redlink=1 "Shadow Claws Prime (page does not exist)")" contains an unsupported key `GripType`
-566. "[Shadow Clones](/w/Shadow_Clones "Shadow Clones")" contains an unsupported key `GripType`
-567. "[Shadow Clones Prime](/w/Shadow_Clones_Prime?action=edit&redlink=1 "Shadow Clones Prime (page does not exist)")" contains an unsupported key `GripType`
-568. "[Shaku](/w/Shaku "Shaku")" contains an unsupported key `GripType`
-569. "[Shattered Lash](/w/Shattered_Lash "Shattered Lash")" contains an unsupported key `GripType`
-570. "[Shattered Lash Prime](/w/Shattered_Lash_Prime?action=edit&redlink=1 "Shattered Lash Prime (page does not exist)")" contains an unsupported key `GripType`
-571. "[Shedu](/w/Shedu "Shedu")" contains an unsupported key `GripType`
-572. "[Sheev](/w/Sheev "Sheev")" contains an unsupported key `GripType`
-573. "[Sibear](/w/Sibear "Sibear")" contains an unsupported key `GripType`
-574. "[Sibear](/w/Sibear "Sibear")" contains an unsupported key `IncarnonDuration`
-575. "[Sicarus](/w/Sicarus "Sicarus")" contains an unsupported key `IncarnonChargeGain`
-576. "[Sicarus](/w/Sicarus "Sicarus")" contains an unsupported key `GripType`
-577. "[Sicarus Prime](/w/Sicarus_Prime "Sicarus Prime")" contains an unsupported key `IncarnonChargeGain`
-578. "[Sicarus Prime](/w/Sicarus_Prime "Sicarus Prime")" contains an unsupported key `GripType`
-579. "[Sigma & Octantis](/w/Sigma_%26_Octantis "Sigma & Octantis")" contains an unsupported key `GripType`
-580. "[Silva & Aegis](/w/Silva_%26_Aegis "Silva & Aegis")" contains an unsupported key `GripType`
-581. "[Silva & Aegis Prime](/w/Silva_%26_Aegis_Prime "Silva & Aegis Prime")" contains an unsupported key `GripType`
-582. "[Simulor](/w/Simulor "Simulor")" contains an unsupported key `GripType`
-583. "[Skana](/w/Skana "Skana")" contains an unsupported key `GripType`
-584. "[Skana](/w/Skana "Skana")" contains an unsupported key `IncarnonDuration`
-585. "[Skana Prime](/w/Skana_Prime "Skana Prime")" contains an unsupported key `GripType`
-586. "[Skana Prime](/w/Skana_Prime "Skana Prime")" contains an unsupported key `IncarnonDuration`
-587. "[Skiajati](/w/Skiajati "Skiajati")" contains an unsupported key `GripType`
-588. "[Slaytra](/w/Slaytra "Slaytra")" contains an unsupported key `GripType`
-589. "[Snipetron](/w/Snipetron "Snipetron")" contains an unsupported key `GripType`
-590. "[Snipetron Vandal](/w/Snipetron_Vandal "Snipetron Vandal")" contains an unsupported key `GripType`
-591. "[Sobek](/w/Sobek "Sobek")" contains an unsupported key `GripType`
-592. "[Soma](/w/Soma "Soma")" contains an unsupported key `IncarnonChargeGain`
-593. "[Soma](/w/Soma "Soma")" contains an unsupported key `GripType`
-594. "[Soma Prime](/w/Soma_Prime "Soma Prime")" contains an unsupported key `IncarnonChargeGain`
-595. "[Soma Prime](/w/Soma_Prime "Soma Prime")" contains an unsupported key `GripType`
-596. "[Sonicor](/w/Sonicor "Sonicor")" contains an unsupported key `GripType`
-597. "[Spectra](/w/Spectra "Spectra")" contains an unsupported key `GripType`
-598. "[Spectra Vandal](/w/Spectra_Vandal "Spectra Vandal")" contains an unsupported key `GripType`
-599. "[Spinnerex](/w/Spinnerex "Spinnerex")" contains an unsupported key `GripType`
-600. "[Spira](/w/Spira "Spira")" contains an unsupported key `GripType`
-601. "[Spira Prime](/w/Spira_Prime "Spira Prime")" contains an unsupported key `GripType`
-602. "[Sporothrix](/w/Sporothrix "Sporothrix")" contains an unsupported key `GripType`
-603. "[Stahlta](/w/Stahlta "Stahlta")" contains an unsupported key `GripType`
-604. "[Staticor](/w/Staticor "Staticor")" contains an unsupported key `GripType`
-605. "[Steflos](/w/Steflos "Steflos")" contains an unsupported key `GripType`
-606. "[Stradavar](/w/Stradavar "Stradavar")" contains an unsupported key `GripType`
-607. "[Stradavar Prime](/w/Stradavar_Prime "Stradavar Prime")" contains an unsupported key `GripType`
-608. "[Stropha](/w/Stropha "Stropha")" contains an unsupported key `GripType`
-609. "[Strun](/w/Strun "Strun")" contains an unsupported key `IncarnonChargeGain`
-610. "[Strun](/w/Strun "Strun")" contains an unsupported key `GripType`
-611. "[Strun Prime](/w/Strun_Prime "Strun Prime")" contains an unsupported key `IncarnonChargeGain`
-612. "[Strun Prime](/w/Strun_Prime "Strun Prime")" contains an unsupported key `GripType`
-613. "[Strun Wraith](/w/Strun_Wraith "Strun Wraith")" contains an unsupported key `IncarnonChargeGain`
-614. "[Strun Wraith](/w/Strun_Wraith "Strun Wraith")" contains an unsupported key `GripType`
-615. "[Stubba](/w/Stubba "Stubba")" contains an unsupported key `GripType`
-616. "[Stug](/w/Stug "Stug")" contains an unsupported key `GripType`
-617. "[Sun & Moon](/w/Sun_%26_Moon "Sun & Moon")" contains an unsupported key `GripType`
-618. "[Supra](/w/Supra "Supra")" contains an unsupported key `GripType`
-619. "[Supra Vandal](/w/Supra_Vandal "Supra Vandal")" contains an unsupported key `GripType`
-620. "[Syam](/w/Syam "Syam")" contains an unsupported key `GripType`
-621. "[Sybaris](/w/Sybaris "Sybaris")" contains an unsupported key `IncarnonChargeGain`
-622. "[Sybaris](/w/Sybaris "Sybaris")" contains an unsupported key `GripType`
-623. "[Sybaris Prime](/w/Sybaris_Prime "Sybaris Prime")" contains an unsupported key `IncarnonChargeGain`
-624. "[Sybaris Prime](/w/Sybaris_Prime "Sybaris Prime")" contains an unsupported key `GripType`
-625. "[Sydon](/w/Sydon "Sydon")" contains an unsupported key `GripType`
-626. "[Synapse](/w/Synapse "Synapse")" contains an unsupported key `GripType`
-627. "[Synoid Gammacor](/w/Synoid_Gammacor "Synoid Gammacor")" contains an unsupported key `IncarnonChargeGain`
-628. "[Synoid Gammacor](/w/Synoid_Gammacor "Synoid Gammacor")" contains an unsupported key `GripType`
-629. "[Synoid Heliocor](/w/Synoid_Heliocor "Synoid Heliocor")" contains an unsupported key `GripType`
-630. "[Synoid Simulor](/w/Synoid_Simulor "Synoid Simulor")" contains an unsupported key `GripType`
-631. "[Tak & Lug](/w/Tak_%26_Lug "Tak & Lug")" contains an unsupported key `GripType`
-632. "[Talons](/w/Talons "Talons")" contains an unsupported key `GripType`
-633. "[Tatsu](/w/Tatsu "Tatsu")" contains an unsupported key `GripType`
-634. "[Tatsu Prime](/w/Tatsu_Prime "Tatsu Prime")" contains an unsupported key `GripType`
-635. "[Tekko](/w/Tekko "Tekko")" contains an unsupported key `GripType`
-636. "[Tekko Prime](/w/Tekko_Prime "Tekko Prime")" contains an unsupported key `GripType`
-637. "[Telos Akbolto](/w/Telos_Akbolto "Telos Akbolto")" contains an unsupported key `GripType`
-638. "[Telos Boltace](/w/Telos_Boltace "Telos Boltace")" contains an unsupported key `GripType`
-639. "[Telos Boltor](/w/Telos_Boltor "Telos Boltor")" contains an unsupported key `IncarnonChargeGain`
-640. "[Telos Boltor](/w/Telos_Boltor "Telos Boltor")" contains an unsupported key `GripType`
-641. "[Tenet Agendus](/w/Tenet_Agendus "Tenet Agendus")" contains an unsupported key `GripType`
-642. "[Tenet Arca Plasmor](/w/Tenet_Arca_Plasmor "Tenet Arca Plasmor")" contains an unsupported key `GripType`
-643. "[Tenet Cycron](/w/Tenet_Cycron "Tenet Cycron")" contains an unsupported key `GripType`
-644. "[Tenet Detron](/w/Tenet_Detron "Tenet Detron")" contains an unsupported key `GripType`
-645. "[Tenet Diplos](/w/Tenet_Diplos "Tenet Diplos")" contains an unsupported key `GripType`
-646. "[Tenet Envoy](/w/Tenet_Envoy "Tenet Envoy")" contains an unsupported key `GripType`
-647. "[Tenet Exec](/w/Tenet_Exec "Tenet Exec")" contains an unsupported key `GripType`
-648. "[Tenet Ferrox](/w/Tenet_Ferrox "Tenet Ferrox")" contains an unsupported key `GripType`
-649. "[Tenet Flux Rifle](/w/Tenet_Flux_Rifle "Tenet Flux Rifle")" contains an unsupported key `GripType`
-650. "[Tenet Glaxion](/w/Tenet_Glaxion "Tenet Glaxion")" contains an unsupported key `GripType`
-651. "[Tenet Grigori](/w/Tenet_Grigori "Tenet Grigori")" contains an unsupported key `GripType`
-652. "[Tenet Livia](/w/Tenet_Livia "Tenet Livia")" contains an unsupported key `GripType`
-653. "[Tenet Plinx](/w/Tenet_Plinx "Tenet Plinx")" contains an unsupported key `GripType`
-654. "[Tenet Quanta](/w/Tenet_Quanta "Tenet Quanta")" contains an unsupported key `GripType`
-655. "[Tenet Spirex](/w/Tenet_Spirex "Tenet Spirex")" contains an unsupported key `GripType`
-656. "[Tenet Tetra](/w/Tenet_Tetra "Tenet Tetra")" contains an unsupported key `GripType`
-657. "[Tenora](/w/Tenora "Tenora")" contains an unsupported key `GripType`
-658. "[Tenora Prime](/w/Tenora_Prime "Tenora Prime")" contains an unsupported key `GripType`
-659. "[Tetra](/w/Tetra "Tetra")" contains an unsupported key `GripType`
-660. "[Thalys](/w/Thalys "Thalys")" contains an unsupported key `GripType`
-661. "[Thornbak](/w/Thornbak "Thornbak")" contains an unsupported key `GripType`
-662. "[Tiberon](/w/Tiberon "Tiberon")" contains an unsupported key `GripType`
-663. "[Tiberon Prime](/w/Tiberon_Prime "Tiberon Prime")" contains an unsupported key `GripType`
-664. "[Tigris](/w/Tigris "Tigris")" contains an unsupported key `GripType`
-665. "[Tigris Prime](/w/Tigris_Prime "Tigris Prime")" contains an unsupported key `GripType`
-666. "[Tipedo](/w/Tipedo "Tipedo")" contains an unsupported key `GripType`
-667. "[Tipedo Prime](/w/Tipedo_Prime "Tipedo Prime")" contains an unsupported key `GripType`
-668. "[Tonbo](/w/Tonbo "Tonbo")" contains an unsupported key `GripType`
-669. "[Tonkkatt](/w/Tonkkatt "Tonkkatt")" contains an unsupported key `GripType`
-670. "[Tonkor](/w/Tonkor "Tonkor")" contains an unsupported key `GripType`
-671. "[Torid](/w/Torid "Torid")" contains an unsupported key `IncarnonChargeGain`
-672. "[Torid](/w/Torid "Torid")" contains an unsupported key `GripType`
-673. "[Trumna](/w/Trumna "Trumna")" contains an unsupported key `GripType`
-674. "[Trumna Prime](/w/Trumna_Prime "Trumna Prime")" contains an unsupported key `GripType`
-675. "[Twin Basolk](/w/Twin_Basolk "Twin Basolk")" contains an unsupported key `GripType`
-676. "[Twin Grakatas](/w/Twin_Grakatas "Twin Grakatas")" contains an unsupported key `GripType`
-677. "[Twin Gremlins](/w/Twin_Gremlins "Twin Gremlins")" contains an unsupported key `GripType`
-678. "[Twin Kohmak](/w/Twin_Kohmak "Twin Kohmak")" contains an unsupported key `GripType`
-679. "[Twin Krohkur](/w/Twin_Krohkur "Twin Krohkur")" contains an unsupported key `GripType`
-680. "[Twin Rogga](/w/Twin_Rogga "Twin Rogga")" contains an unsupported key `GripType`
-681. "[Twin Vipers](/w/Twin_Vipers "Twin Vipers")" contains an unsupported key `GripType`
-682. "[Twin Vipers Wraith](/w/Twin_Vipers_Wraith "Twin Vipers Wraith")" contains an unsupported key `GripType`
-683. "[Tysis](/w/Tysis "Tysis")" contains an unsupported key `GripType`
-684. "[Vadarya Prime](/w/Vadarya_Prime "Vadarya Prime")" contains an unsupported key `GripType`
-685. "[Valkyr Prime Talons](/w/Valkyr_Prime_Talons "Valkyr Prime Talons")" contains an unsupported key `GripType`
-686. "[Valkyr Talons](/w/Valkyr_Talons "Valkyr Talons")" contains an unsupported key `GripType`
-687. "[Vastilok](/w/Vastilok "Vastilok")" contains an unsupported key `GripType`
-688. "[Vasto](/w/Vasto "Vasto")" contains an unsupported key `IncarnonChargeGain`
-689. "[Vasto](/w/Vasto "Vasto")" contains an unsupported key `GripType`
-690. "[Vasto Prime](/w/Vasto_Prime "Vasto Prime")" contains an unsupported key `IncarnonChargeGain`
-691. "[Vasto Prime](/w/Vasto_Prime "Vasto Prime")" contains an unsupported key `GripType`
-692. "[Vaykor Hek](/w/Vaykor_Hek "Vaykor Hek")" contains an unsupported key `GripType`
-693. "[Vaykor Marelok](/w/Vaykor_Marelok "Vaykor Marelok")" contains an unsupported key `GripType`
-694. "[Vaykor Sydon](/w/Vaykor_Sydon "Vaykor Sydon")" contains an unsupported key `GripType`
-695. "[Vectis](/w/Vectis "Vectis")" contains an unsupported key `IncarnonChargeGain`
-696. "[Vectis](/w/Vectis "Vectis")" contains an unsupported key `GripType`
-697. "[Vectis Prime](/w/Vectis_Prime "Vectis Prime")" contains an unsupported key `IncarnonChargeGain`
-698. "[Vectis Prime](/w/Vectis_Prime "Vectis Prime")" contains an unsupported key `GripType`
-699. "[Veldt](/w/Veldt "Veldt")" contains an unsupported key `GripType`
-700. "[Velocitus](/w/Velocitus "Velocitus")" contains an unsupported key `GripType`
-701. "[Velocitus (Atmosphere)](/w/Velocitus_(Atmosphere)?action=edit&redlink=1 "Velocitus (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-702. "[Velox](/w/Velox "Velox")" contains an unsupported key `GripType`
-703. "[Velox Prime](/w/Velox_Prime "Velox Prime")" contains an unsupported key `GripType`
-704. "[Venato](/w/Venato "Venato")" contains an unsupported key `GripType`
-705. "[Venato Prime](/w/Venato_Prime "Venato Prime")" contains an unsupported key `GripType`
-706. "[Venka](/w/Venka "Venka")" contains an unsupported key `GripType`
-707. "[Venka Prime](/w/Venka_Prime "Venka Prime")" contains an unsupported key `GripType`
-708. "[Verdilac](/w/Verdilac "Verdilac")" contains an unsupported key `GripType`
-709. "[Vericres](/w/Vericres "Vericres")" contains an unsupported key `GripType`
-710. "[Veritux](/w/Veritux "Veritux")" contains an unsupported key `GripType`
-711. "[Vesper 77](/w/Vesper_77 "Vesper 77")" contains an unsupported key `GripType`
-712. "[Vinquibus (Melee)](/w/Vinquibus_(Melee) "Vinquibus (Melee)")" contains an unsupported key `GripType`
-713. "[Vinquibus (Primary)](/w/Vinquibus_(Primary) "Vinquibus (Primary)")" contains an unsupported key `GripType`
-714. "[Viper](/w/Viper "Viper")" contains an unsupported key `GripType`
-715. "[Viper Wraith](/w/Viper_Wraith "Viper Wraith")" contains an unsupported key `GripType`
-716. "[Vitrica](/w/Vitrica "Vitrica")" contains an unsupported key `GripType`
-717. "[Volnus](/w/Volnus "Volnus")" contains an unsupported key `GripType`
-718. "[Volnus Prime](/w/Volnus_Prime "Volnus Prime")" contains an unsupported key `GripType`
-719. "[Vulkar](/w/Vulkar "Vulkar")" contains an unsupported key `GripType`
-720. "[Vulkar Wraith](/w/Vulkar_Wraith "Vulkar Wraith")" contains an unsupported key `GripType`
-721. "[War](/w/War "War")" contains an unsupported key `GripType`
-722. "[War Prime](/w/War_Prime "War Prime")" contains an unsupported key `GripType`
-723. "[Whipclaw](/w/Whipclaw "Whipclaw")" contains an unsupported key `GripType`
-724. "[Whipclaw Prime](/w/Whipclaw_Prime?action=edit&redlink=1 "Whipclaw Prime (page does not exist)")" contains an unsupported key `GripType`
-725. "[Wolf Sledge](/w/Wolf_Sledge "Wolf Sledge")" contains an unsupported key `GripType`
-726. "[Wrath](/w/Wrath "Wrath")" contains an unsupported key `GripType`
-727. "[Xoris](/w/Xoris "Xoris")" contains an unsupported key `GripType`
-728. "[Zakti](/w/Zakti "Zakti")" contains an unsupported key `GripType`
-729. "[Zakti Prime](/w/Zakti_Prime "Zakti Prime")" contains an unsupported key `GripType`
-730. "[Zarr](/w/Zarr "Zarr")" contains an unsupported key `GripType`
-731. "[Zenistar](/w/Zenistar "Zenistar")" contains an unsupported key `GripType`
-732. "[Zenith](/w/Zenith "Zenith")" contains an unsupported key `GripType`
-733. "[Zhuge](/w/Zhuge "Zhuge")" contains an unsupported key `GripType`
-734. "[Zhuge Prime](/w/Zhuge_Prime "Zhuge Prime")" contains an unsupported key `GripType`
-735. "[Zylok](/w/Zylok "Zylok")" contains an unsupported key `IncarnonChargeGain`
-736. "[Zylok](/w/Zylok "Zylok")" contains an unsupported key `GripType`
-737. "[Zylok Prime](/w/Zylok_Prime "Zylok Prime")" contains an unsupported key `IncarnonChargeGain`
-738. "[Zylok Prime](/w/Zylok_Prime "Zylok Prime")" contains an unsupported key `GripType`
-739. "[Zymos](/w/Zymos "Zymos")" contains an unsupported key `GripType`
+151. "[Corufell Prime](/w/Corufell_Prime "Corufell Prime")" contains an unsupported key `GripType`
+152. "[Corvas](/w/Corvas "Corvas")" contains an unsupported key `GripType`
+153. "[Corvas (Atmosphere)](/w/Corvas_(Atmosphere)?action=edit&redlink=1 "Corvas (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
+154. "[Corvas Prime](/w/Corvas_Prime "Corvas Prime")" contains an unsupported key `GripType`
+155. "[Corvas Prime (Atmosphere)](/w/Corvas_Prime_(Atmosphere)?action=edit&redlink=1 "Corvas Prime (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
+156. "[Cronus](/w/Cronus "Cronus")" contains an unsupported key `GripType`
+157. "[Cyanex](/w/Cyanex "Cyanex")" contains an unsupported key `GripType`
+158. "[Cycron](/w/Cycron "Cycron")" contains an unsupported key `GripType`
+159. "[Cyngas](/w/Cyngas "Cyngas")" contains an unsupported key `GripType`
+160. "[Cyngas (Atmosphere)](/w/Cyngas_(Atmosphere)?action=edit&redlink=1 "Cyngas (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
+161. "[Daikyu](/w/Daikyu "Daikyu")" contains an unsupported key `GripType`
+162. "[Daikyu Prime](/w/Daikyu_Prime "Daikyu Prime")" contains an unsupported key `GripType`
+163. "[Dakra Prime](/w/Dakra_Prime "Dakra Prime")" contains an unsupported key `GripType`
+164. "[Dark Dagger](/w/Dark_Dagger "Dark Dagger")" contains an unsupported key `GripType`
+165. "[Dark Split-Sword (Dual Swords)](/w/Dark_Split-Sword_(Dual_Swords) "Dark Split-Sword (Dual Swords)")" contains an unsupported key `GripType`
+166. "[Dark Split-Sword (Heavy Blade)](/w/Dark_Split-Sword_(Heavy_Blade) "Dark Split-Sword (Heavy Blade)")" contains an unsupported key `GripType`
+167. "[Dark Sword](/w/Dark_Sword "Dark Sword")" contains an unsupported key `GripType`
+168. "[Dera](/w/Dera "Dera")" contains an unsupported key `IncarnonChargeGain`
+169. "[Dera](/w/Dera "Dera")" contains an unsupported key `GripType`
+170. "[Dera Vandal](/w/Dera_Vandal "Dera Vandal")" contains an unsupported key `IncarnonChargeGain`
+171. "[Dera Vandal](/w/Dera_Vandal "Dera Vandal")" contains an unsupported key `GripType`
+172. "[Despair](/w/Despair "Despair")" contains an unsupported key `IncarnonChargeGain`
+173. "[Despair](/w/Despair "Despair")" contains an unsupported key `GripType`
+174. "[Destreza](/w/Destreza "Destreza")" contains an unsupported key `GripType`
+175. "[Destreza](/w/Destreza "Destreza")" contains an unsupported key `IncarnonDuration`
+176. "[Destreza Prime](/w/Destreza_Prime "Destreza Prime")" contains an unsupported key `GripType`
+177. "[Destreza Prime](/w/Destreza_Prime "Destreza Prime")" contains an unsupported key `IncarnonDuration`
+178. "[Detron](/w/Detron "Detron")" contains an unsupported key `GripType`
+179. "[Dex Dakra](/w/Dex_Dakra "Dex Dakra")" contains an unsupported key `GripType`
+180. "[Dex Furis](/w/Dex_Furis "Dex Furis")" contains an unsupported key `GripType`
+181. "[Dex Nikana](/w/Dex_Nikana "Dex Nikana")" contains an unsupported key `GripType`
+182. "[Dex Pixia](/w/Dex_Pixia "Dex Pixia")" contains an unsupported key `GripType`
+183. "[Dex Pixia Prime](/w/Dex_Pixia_Prime "Dex Pixia Prime")" contains an unsupported key `GripType`
+184. "[Dex Sybaris](/w/Dex_Sybaris "Dex Sybaris")" contains an unsupported key `IncarnonChargeGain`
+185. "[Dex Sybaris](/w/Dex_Sybaris "Dex Sybaris")" contains an unsupported key `GripType`
+186. "[Dorrclave](/w/Dorrclave "Dorrclave")" contains an unsupported key `GripType`
+187. "[Dragon Nikana](/w/Dragon_Nikana "Dragon Nikana")" contains an unsupported key `GripType`
+188. "[Drakgoon](/w/Drakgoon "Drakgoon")" contains an unsupported key `GripType`
+189. "[Dread](/w/Dread "Dread")" contains an unsupported key `IncarnonChargeGain`
+190. "[Dread](/w/Dread "Dread")" contains an unsupported key `GripType`
+191. "[Dual Cestra](/w/Dual_Cestra "Dual Cestra")" contains an unsupported key `GripType`
+192. "[Dual Cleavers](/w/Dual_Cleavers "Dual Cleavers")" contains an unsupported key `GripType`
+193. "[Dual Coda Torxica](/w/Dual_Coda_Torxica "Dual Coda Torxica")" contains an unsupported key `GripType`
+194. "[Dual Decurion](/w/Dual_Decurion "Dual Decurion")" contains an unsupported key `GripType`
+195. "[Dual Decurion (Atmosphere)](/w/Dual_Decurion_(Atmosphere)?action=edit&redlink=1 "Dual Decurion (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
+196. "[Dual Ether](/w/Dual_Ether "Dual Ether")" contains an unsupported key `GripType`
+197. "[Dual Heat Swords](/w/Dual_Heat_Swords "Dual Heat Swords")" contains an unsupported key `GripType`
+198. "[Dual Ichor](/w/Dual_Ichor "Dual Ichor")" contains an unsupported key `GripType`
+199. "[Dual Ichor](/w/Dual_Ichor "Dual Ichor")" contains an unsupported key `IncarnonDuration`
+200. "[Dual Kamas](/w/Dual_Kamas "Dual Kamas")" contains an unsupported key `GripType`
+201. "[Dual Kamas Prime](/w/Dual_Kamas_Prime "Dual Kamas Prime")" contains an unsupported key `GripType`
+202. "[Dual Keres](/w/Dual_Keres "Dual Keres")" contains an unsupported key `GripType`
+203. "[Dual Keres Prime](/w/Dual_Keres_Prime "Dual Keres Prime")" contains an unsupported key `GripType`
+204. "[Dual Raza](/w/Dual_Raza "Dual Raza")" contains an unsupported key `GripType`
+205. "[Dual Skana](/w/Dual_Skana "Dual Skana")" contains an unsupported key `GripType`
+206. "[Dual Toxocyst](/w/Dual_Toxocyst "Dual Toxocyst")" contains an unsupported key `IncarnonChargeGain`
+207. "[Dual Toxocyst](/w/Dual_Toxocyst "Dual Toxocyst")" contains an unsupported key `GripType`
+208. "[Dual Viciss](/w/Dual_Viciss "Dual Viciss")" contains an unsupported key `GripType`
+209. "[Dual Zoren](/w/Dual_Zoren "Dual Zoren")" contains an unsupported key `GripType`
+210. "[Dual Zoren Prime](/w/Dual_Zoren_Prime "Dual Zoren Prime")" contains an unsupported key `GripType`
+211. "[EFV-5 Jupiter](/w/EFV-5_Jupiter "EFV-5 Jupiter")" contains an unsupported key `GripType`
+212. "[EFV-8 Mars](/w/EFV-8_Mars "EFV-8 Mars")" contains an unsupported key `GripType`
+213. "[Edun](/w/Edun "Edun")" contains an unsupported key `GripType`
+214. "[Ekhein](/w/Ekhein "Ekhein")" contains an unsupported key `GripType`
+215. "[Embolist](/w/Embolist "Embolist")" contains an unsupported key `GripType`
+216. "[Endura](/w/Endura "Endura")" contains an unsupported key `GripType`
+217. "[Enkaus](/w/Enkaus "Enkaus")" contains an unsupported key `GripType`
+218. "[Epitaph](/w/Epitaph "Epitaph")" contains an unsupported key `GripType`
+219. "[Epitaph Prime](/w/Epitaph_Prime "Epitaph Prime")" contains an unsupported key `GripType`
+220. "[Ether Daggers](/w/Ether_Daggers "Ether Daggers")" contains an unsupported key `GripType`
+221. "[Ether Reaper](/w/Ether_Reaper "Ether Reaper")" contains an unsupported key `GripType`
+222. "[Ether Sword](/w/Ether_Sword "Ether Sword")" contains an unsupported key `GripType`
+223. "[Euphona Prime](/w/Euphona_Prime "Euphona Prime")" contains an unsupported key `GripType`
+224. "[Evensong](/w/Evensong "Evensong")" contains an unsupported key `GripType`
+225. "[Exalted Blade](/w/Exalted_Blade "Exalted Blade")" contains an unsupported key `GripType`
+226. "[Exalted Prime Blade](/w/Exalted_Prime_Blade "Exalted Prime Blade")" contains an unsupported key `GripType`
+227. "[Exalted Umbra Blade](/w/Exalted_Umbra_Blade "Exalted Umbra Blade")" contains an unsupported key `GripType`
+228. "[Exergis](/w/Exergis "Exergis")" contains an unsupported key `GripType`
+229. "[Falcor](/w/Falcor "Falcor")" contains an unsupported key `GripType`
+230. "[Fang](/w/Fang "Fang")" contains an unsupported key `GripType`
+231. "[Fang Prime](/w/Fang_Prime "Fang Prime")" contains an unsupported key `GripType`
+232. "[Felarx](/w/Felarx "Felarx")" contains an unsupported key `IncarnonChargeGain`
+233. "[Felarx](/w/Felarx "Felarx")" contains an unsupported key `GripType`
+234. "[Ferrox](/w/Ferrox "Ferrox")" contains an unsupported key `GripType`
+235. "[Fluctus](/w/Fluctus "Fluctus")" contains an unsupported key `GripType`
+236. "[Fluctus (Atmosphere)](/w/Fluctus_(Atmosphere)?action=edit&redlink=1 "Fluctus (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
+237. "[Flux Rifle](/w/Flux_Rifle "Flux Rifle")" contains an unsupported key `GripType`
+238. "[Fragor](/w/Fragor "Fragor")" contains an unsupported key `GripType`
+239. "[Fragor Prime](/w/Fragor_Prime "Fragor Prime")" contains an unsupported key `GripType`
+240. "[Fulmin](/w/Fulmin "Fulmin")" contains an unsupported key `GripType`
+241. "[Fulmin Prime](/w/Fulmin_Prime "Fulmin Prime")" contains an unsupported key `GripType`
+242. "[Furax](/w/Furax "Furax")" contains an unsupported key `GripType`
+243. "[Furax](/w/Furax "Furax")" contains an unsupported key `IncarnonDuration`
+244. "[Furax Wraith](/w/Furax_Wraith "Furax Wraith")" contains an unsupported key `GripType`
+245. "[Furax Wraith](/w/Furax_Wraith "Furax Wraith")" contains an unsupported key `IncarnonDuration`
+246. "[Furis](/w/Furis "Furis")" contains an unsupported key `IncarnonChargeGain`
+247. "[Furis](/w/Furis "Furis")" contains an unsupported key `GripType`
+248. "[Fusilai](/w/Fusilai "Fusilai")" contains an unsupported key `GripType`
+249. "[Galariak Prime](/w/Galariak_Prime "Galariak Prime")" contains an unsupported key `GripType`
+250. "[Galatine](/w/Galatine "Galatine")" contains an unsupported key `GripType`
+251. "[Galatine Prime](/w/Galatine_Prime "Galatine Prime")" contains an unsupported key `GripType`
+252. "[Galvacord](/w/Galvacord "Galvacord")" contains an unsupported key `GripType`
+253. "[Gammacor](/w/Gammacor "Gammacor")" contains an unsupported key `IncarnonChargeGain`
+254. "[Gammacor](/w/Gammacor "Gammacor")" contains an unsupported key `GripType`
+255. "[Gazal Machete](/w/Gazal_Machete "Gazal Machete")" contains an unsupported key `GripType`
+256. "[Ghoulsaw](/w/Ghoulsaw "Ghoulsaw")" contains an unsupported key `GripType`
+257. "[Glaive](/w/Glaive "Glaive")" contains an unsupported key `GripType`
+258. "[Glaive Prime](/w/Glaive_Prime "Glaive Prime")" contains an unsupported key `GripType`
+259. "[Glaxion](/w/Glaxion "Glaxion")" contains an unsupported key `GripType`
+260. "[Glaxion Vandal](/w/Glaxion_Vandal "Glaxion Vandal")" contains an unsupported key `GripType`
+261. "[Glory](/w/Glory "Glory")" contains an unsupported key `GripType`
+262. "[Gorgon](/w/Gorgon "Gorgon")" contains an unsupported key `IncarnonChargeGain`
+263. "[Gorgon](/w/Gorgon "Gorgon")" contains an unsupported key `GripType`
+264. "[Gorgon Wraith](/w/Gorgon_Wraith "Gorgon Wraith")" contains an unsupported key `IncarnonChargeGain`
+265. "[Gorgon Wraith](/w/Gorgon_Wraith "Gorgon Wraith")" contains an unsupported key `GripType`
+266. "[Gotva Prime](/w/Gotva_Prime "Gotva Prime")" contains an unsupported key `GripType`
+267. "[Grakata](/w/Grakata "Grakata")" contains an unsupported key `GripType`
+268. "[Gram](/w/Gram "Gram")" contains an unsupported key `GripType`
+269. "[Gram Prime](/w/Gram_Prime "Gram Prime")" contains an unsupported key `GripType`
+270. "[Grattler](/w/Grattler "Grattler")" contains an unsupported key `GripType`
+271. "[Grattler (Atmosphere)](/w/Grattler_(Atmosphere)?action=edit&redlink=1 "Grattler (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
+272. "[Grimoire](/w/Grimoire "Grimoire")" contains an unsupported key `GripType`
+273. "[Grinlok](/w/Grinlok "Grinlok")" contains an unsupported key `GripType`
+274. "[Guandao](/w/Guandao "Guandao")" contains an unsupported key `GripType`
+275. "[Guandao Prime](/w/Guandao_Prime "Guandao Prime")" contains an unsupported key `GripType`
+276. "[Gunsen](/w/Gunsen "Gunsen")" contains an unsupported key `GripType`
+277. "[Gunsen Prime](/w/Gunsen_Prime "Gunsen Prime")" contains an unsupported key `GripType`
+278. "[Haalvu](/w/Haalvu "Haalvu")" contains an unsupported key `GripType`
+279. "[Halikar](/w/Halikar "Halikar")" contains an unsupported key `GripType`
+280. "[Halikar Wraith](/w/Halikar_Wraith "Halikar Wraith")" contains an unsupported key `GripType`
+281. "[Harmony](/w/Harmony "Harmony")" contains an unsupported key `GripType`
+282. "[Harpak](/w/Harpak "Harpak")" contains an unsupported key `GripType`
+283. "[Hate](/w/Hate "Hate")" contains an unsupported key `GripType`
+284. "[Hate](/w/Hate "Hate")" contains an unsupported key `IncarnonDuration`
+285. "[Heat Dagger](/w/Heat_Dagger "Heat Dagger")" contains an unsupported key `GripType`
+286. "[Heat Sword](/w/Heat_Sword "Heat Sword")" contains an unsupported key `GripType`
+287. "[Hek](/w/Hek "Hek")" contains an unsupported key `GripType`
+288. "[Heliocor](/w/Heliocor "Heliocor")" contains an unsupported key `GripType`
+289. "[Hema](/w/Hema "Hema")" contains an unsupported key `GripType`
+290. "[Hespar](/w/Hespar "Hespar")" contains an unsupported key `GripType`
+291. "[Higasa](/w/Higasa "Higasa")" contains an unsupported key `GripType`
+292. "[Hikou](/w/Hikou "Hikou")" contains an unsupported key `GripType`
+293. "[Hikou Prime](/w/Hikou_Prime "Hikou Prime")" contains an unsupported key `GripType`
+294. "[Hind](/w/Hind "Hind")" contains an unsupported key `GripType`
+295. "[Hirudo](/w/Hirudo "Hirudo")" contains an unsupported key `GripType`
+296. "[Hystrix](/w/Hystrix "Hystrix")" contains an unsupported key `GripType`
+297. "[Hystrix Prime](/w/Hystrix_Prime "Hystrix Prime")" contains an unsupported key `GripType`
+298. "[Ignis](/w/Ignis "Ignis")" contains an unsupported key `GripType`
+299. "[Ignis Wraith](/w/Ignis_Wraith "Ignis Wraith")" contains an unsupported key `GripType`
+300. "[Imperator](/w/Imperator "Imperator")" contains an unsupported key `GripType`
+301. "[Imperator (Atmosphere)](/w/Imperator_(Atmosphere)?action=edit&redlink=1 "Imperator (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
+302. "[Imperator Vandal](/w/Imperator_Vandal "Imperator Vandal")" contains an unsupported key `GripType`
+303. "[Imperator Vandal (Atmosphere)](/w/Imperator_Vandal_(Atmosphere)?action=edit&redlink=1 "Imperator Vandal (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
+304. "[Innodem](/w/Innodem "Innodem")" contains an unsupported key `GripType`
+305. "[Iron Staff](/w/Iron_Staff "Iron Staff")" contains an unsupported key `GripType`
+306. "[Iron Staff Prime](/w/Iron_Staff_Prime "Iron Staff Prime")" contains an unsupported key `GripType`
+307. "[Ironbride](/w/Ironbride "Ironbride")" contains an unsupported key `GripType`
+308. "[Jat Kittag](/w/Jat_Kittag "Jat Kittag")" contains an unsupported key `GripType`
+309. "[Jat Kusar](/w/Jat_Kusar "Jat Kusar")" contains an unsupported key `GripType`
+310. "[Javlok](/w/Javlok "Javlok")" contains an unsupported key `GripType`
+311. "[Jaw Sword](/w/Jaw_Sword "Jaw Sword")" contains an unsupported key `GripType`
+312. "[Kama](/w/Kama "Kama")" contains an unsupported key `GripType`
+313. "[Karak](/w/Karak "Karak")" contains an unsupported key `GripType`
+314. "[Karak Wraith](/w/Karak_Wraith "Karak Wraith")" contains an unsupported key `GripType`
+315. "[Karyst](/w/Karyst "Karyst")" contains an unsupported key `GripType`
+316. "[Karyst Prime](/w/Karyst_Prime "Karyst Prime")" contains an unsupported key `GripType`
+317. "[Kaszas](/w/Kaszas "Kaszas")" contains an unsupported key `GripType`
+318. "[Keratinos](/w/Keratinos "Keratinos")" contains an unsupported key `GripType`
+319. "[Kesheg](/w/Kesheg "Kesheg")" contains an unsupported key `GripType`
+320. "[Kestrel](/w/Kestrel "Kestrel")" contains an unsupported key `GripType`
+321. "[Kestrel Prime](/w/Kestrel_Prime "Kestrel Prime")" contains an unsupported key `GripType`
+322. "[Knell](/w/Knell "Knell")" contains an unsupported key `GripType`
+323. "[Knell Prime](/w/Knell_Prime "Knell Prime")" contains an unsupported key `GripType`
+324. "[Knux](/w/Knux "Knux")" contains an unsupported key `GripType`
+325. "[Kogake](/w/Kogake "Kogake")" contains an unsupported key `GripType`
+326. "[Kogake Prime](/w/Kogake_Prime "Kogake Prime")" contains an unsupported key `GripType`
+327. "[Kohm](/w/Kohm "Kohm")" contains an unsupported key `GripType`
+328. "[Kohmak](/w/Kohmak "Kohmak")" contains an unsupported key `GripType`
+329. "[Komorex](/w/Komorex "Komorex")" contains an unsupported key `GripType`
+330. "[Kompressa](/w/Kompressa "Kompressa")" contains an unsupported key `GripType`
+331. "[Kompressa Prime](/w/Kompressa_Prime "Kompressa Prime")" contains an unsupported key `GripType`
+332. "[Korrudo](/w/Korrudo "Korrudo")" contains an unsupported key `GripType`
+333. "[Korumm](/w/Korumm "Korumm")" contains an unsupported key `GripType`
+334. "[Kraken](/w/Kraken "Kraken")" contains an unsupported key `GripType`
+335. "[Kreska](/w/Kreska "Kreska")" contains an unsupported key `GripType`
+336. "[Krohkur](/w/Krohkur "Krohkur")" contains an unsupported key `GripType`
+337. "[Kronen](/w/Kronen "Kronen")" contains an unsupported key `GripType`
+338. "[Kronen Prime](/w/Kronen_Prime "Kronen Prime")" contains an unsupported key `GripType`
+339. "[Kulstar](/w/Kulstar "Kulstar")" contains an unsupported key `GripType`
+340. "[Kunai](/w/Kunai "Kunai")" contains an unsupported key `IncarnonChargeGain`
+341. "[Kunai](/w/Kunai "Kunai")" contains an unsupported key `GripType`
+342. "[Kuva Ayanga](/w/Kuva_Ayanga "Kuva Ayanga")" contains an unsupported key `GripType`
+343. "[Kuva Ayanga (Atmosphere)](/w/Kuva_Ayanga_(Atmosphere)?action=edit&redlink=1 "Kuva Ayanga (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
+344. "[Kuva Brakk](/w/Kuva_Brakk "Kuva Brakk")" contains an unsupported key `GripType`
+345. "[Kuva Bramma](/w/Kuva_Bramma "Kuva Bramma")" contains an unsupported key `GripType`
+346. "[Kuva Chakkhurr](/w/Kuva_Chakkhurr "Kuva Chakkhurr")" contains an unsupported key `GripType`
+347. "[Kuva Drakgoon](/w/Kuva_Drakgoon "Kuva Drakgoon")" contains an unsupported key `GripType`
+348. "[Kuva Ghoulsaw](/w/Kuva_Ghoulsaw "Kuva Ghoulsaw")" contains an unsupported key `GripType`
+349. "[Kuva Grattler](/w/Kuva_Grattler "Kuva Grattler")" contains an unsupported key `GripType`
+350. "[Kuva Grattler (Atmosphere)](/w/Kuva_Grattler_(Atmosphere)?action=edit&redlink=1 "Kuva Grattler (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
+351. "[Kuva Hek](/w/Kuva_Hek "Kuva Hek")" contains an unsupported key `GripType`
+352. "[Kuva Hind](/w/Kuva_Hind "Kuva Hind")" contains an unsupported key `GripType`
+353. "[Kuva Karak](/w/Kuva_Karak "Kuva Karak")" contains an unsupported key `GripType`
+354. "[Kuva Kohm](/w/Kuva_Kohm "Kuva Kohm")" contains an unsupported key `GripType`
+355. "[Kuva Kraken](/w/Kuva_Kraken "Kuva Kraken")" contains an unsupported key `GripType`
+356. "[Kuva Nukor](/w/Kuva_Nukor "Kuva Nukor")" contains an unsupported key `GripType`
+357. "[Kuva Ogris](/w/Kuva_Ogris "Kuva Ogris")" contains an unsupported key `GripType`
+358. "[Kuva Quartakk](/w/Kuva_Quartakk "Kuva Quartakk")" contains an unsupported key `GripType`
+359. "[Kuva Seer](/w/Kuva_Seer "Kuva Seer")" contains an unsupported key `GripType`
+360. "[Kuva Shildeg](/w/Kuva_Shildeg "Kuva Shildeg")" contains an unsupported key `GripType`
+361. "[Kuva Sobek](/w/Kuva_Sobek "Kuva Sobek")" contains an unsupported key `GripType`
+362. "[Kuva Tonkor](/w/Kuva_Tonkor "Kuva Tonkor")" contains an unsupported key `GripType`
+363. "[Kuva Twin Stubbas](/w/Kuva_Twin_Stubbas "Kuva Twin Stubbas")" contains an unsupported key `GripType`
+364. "[Kuva Zarr](/w/Kuva_Zarr "Kuva Zarr")" contains an unsupported key `GripType`
+365. "[Lacera](/w/Lacera "Lacera")" contains an unsupported key `GripType`
+366. "[Laetum](/w/Laetum "Laetum")" contains an unsupported key `IncarnonChargeGain`
+367. "[Laetum](/w/Laetum "Laetum")" contains an unsupported key `GripType`
+368. "[Landslide Fists](/w/Landslide_Fists "Landslide Fists")" contains an unsupported key `GripType`
+369. "[Landslide Fists Prime](/w/Landslide_Fists_Prime "Landslide Fists Prime")" contains an unsupported key `GripType`
+370. "[Lanka](/w/Lanka "Lanka")" contains an unsupported key `GripType`
+371. "[Larkspur](/w/Larkspur "Larkspur")" contains an unsupported key `GripType`
+372. "[Larkspur (Atmosphere)](/w/Larkspur_(Atmosphere)?action=edit&redlink=1 "Larkspur (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
+373. "[Larkspur Prime](/w/Larkspur_Prime "Larkspur Prime")" contains an unsupported key `GripType`
+374. "[Larkspur Prime (Atmosphere)](/w/Larkspur_Prime_(Atmosphere)?action=edit&redlink=1 "Larkspur Prime (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
+375. "[Lato](/w/Lato "Lato")" contains an unsupported key `IncarnonChargeGain`
+376. "[Lato](/w/Lato "Lato")" contains an unsupported key `GripType`
+377. "[Lato Prime](/w/Lato_Prime "Lato Prime")" contains an unsupported key `IncarnonChargeGain`
+378. "[Lato Prime](/w/Lato_Prime "Lato Prime")" contains an unsupported key `GripType`
+379. "[Lato Vandal](/w/Lato_Vandal "Lato Vandal")" contains an unsupported key `IncarnonChargeGain`
+380. "[Lato Vandal](/w/Lato_Vandal "Lato Vandal")" contains an unsupported key `GripType`
+381. "[Latron](/w/Latron "Latron")" contains an unsupported key `IncarnonChargeGain`
+382. "[Latron](/w/Latron "Latron")" contains an unsupported key `GripType`
+383. "[Latron Prime](/w/Latron_Prime "Latron Prime")" contains an unsupported key `IncarnonChargeGain`
+384. "[Latron Prime](/w/Latron_Prime "Latron Prime")" contains an unsupported key `GripType`
+385. "[Latron Wraith](/w/Latron_Wraith "Latron Wraith")" contains an unsupported key `IncarnonChargeGain`
+386. "[Latron Wraith](/w/Latron_Wraith "Latron Wraith")" contains an unsupported key `GripType`
+387. "[Lecta](/w/Lecta "Lecta")" contains an unsupported key `GripType`
+388. "[Lenz](/w/Lenz "Lenz")" contains an unsupported key `GripType`
+389. "[Lesion](/w/Lesion "Lesion")" contains an unsupported key `GripType`
+390. "[Lex](/w/Lex "Lex")" contains an unsupported key `IncarnonChargeGain`
+391. "[Lex](/w/Lex "Lex")" contains an unsupported key `GripType`
+392. "[Lex Prime](/w/Lex_Prime "Lex Prime")" contains an unsupported key `IncarnonChargeGain`
+393. "[Lex Prime](/w/Lex_Prime "Lex Prime")" contains an unsupported key `GripType`
+394. "[Lizzie](/w/Lizzie "Lizzie")" contains an unsupported key `GripType`
+395. "[Machete](/w/Machete "Machete")" contains an unsupported key `GripType`
+396. "[Machete Wraith](/w/Machete_Wraith "Machete Wraith")" contains an unsupported key `GripType`
+397. "[Magistar](/w/Magistar "Magistar")" contains an unsupported key `GripType`
+398. "[Magistar](/w/Magistar "Magistar")" contains an unsupported key `IncarnonDuration`
+399. "[Magnus](/w/Magnus "Magnus")" contains an unsupported key `GripType`
+400. "[Magnus Prime](/w/Magnus_Prime "Magnus Prime")" contains an unsupported key `GripType`
+401. "[Mandonel](/w/Mandonel "Mandonel")" contains an unsupported key `GripType`
+402. "[Mandonel (Atmosphere)](/w/Mandonel_(Atmosphere)?action=edit&redlink=1 "Mandonel (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
+403. "[Mara Detron](/w/Mara_Detron "Mara Detron")" contains an unsupported key `GripType`
+404. "[Marelok](/w/Marelok "Marelok")" contains an unsupported key `GripType`
+405. "[Masseter](/w/Masseter "Masseter")" contains an unsupported key `GripType`
+406. "[Masseter Prime](/w/Masseter_Prime "Masseter Prime")" contains an unsupported key `GripType`
+407. "[Mausolon](/w/Mausolon "Mausolon")" contains an unsupported key `GripType`
+408. "[Mausolon (Atmosphere)](/w/Mausolon_(Atmosphere)?action=edit&redlink=1 "Mausolon (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
+409. "[Mios](/w/Mios "Mios")" contains an unsupported key `GripType`
+410. "[Mire](/w/Mire "Mire")" contains an unsupported key `GripType`
+411. "[Miter](/w/Miter "Miter")" contains an unsupported key `IncarnonChargeGain`
+412. "[Miter](/w/Miter "Miter")" contains an unsupported key `GripType`
+413. "[Mk1-Bo](/w/Mk1-Bo "Mk1-Bo")" contains an unsupported key `GripType`
+414. "[Mk1-Bo](/w/Mk1-Bo "Mk1-Bo")" contains an unsupported key `IncarnonDuration`
+415. "[Mk1-Braton](/w/Mk1-Braton "Mk1-Braton")" contains an unsupported key `IncarnonChargeGain`
+416. "[Mk1-Braton](/w/Mk1-Braton "Mk1-Braton")" contains an unsupported key `GripType`
+417. "[Mk1-Furax](/w/Mk1-Furax "Mk1-Furax")" contains an unsupported key `GripType`
+418. "[Mk1-Furax](/w/Mk1-Furax "Mk1-Furax")" contains an unsupported key `IncarnonDuration`
+419. "[Mk1-Furis](/w/Mk1-Furis "Mk1-Furis")" contains an unsupported key `IncarnonChargeGain`
+420. "[Mk1-Furis](/w/Mk1-Furis "Mk1-Furis")" contains an unsupported key `GripType`
+421. "[Mk1-Kunai](/w/Mk1-Kunai "Mk1-Kunai")" contains an unsupported key `IncarnonChargeGain`
+422. "[Mk1-Kunai](/w/Mk1-Kunai "Mk1-Kunai")" contains an unsupported key `GripType`
+423. "[Mk1-Paris](/w/Mk1-Paris "Mk1-Paris")" contains an unsupported key `IncarnonChargeGain`
+424. "[Mk1-Paris](/w/Mk1-Paris "Mk1-Paris")" contains an unsupported key `GripType`
+425. "[Mk1-Strun](/w/Mk1-Strun "Mk1-Strun")" contains an unsupported key `IncarnonChargeGain`
+426. "[Mk1-Strun](/w/Mk1-Strun "Mk1-Strun")" contains an unsupported key `GripType`
+427. "[Morgha](/w/Morgha "Morgha")" contains an unsupported key `GripType`
+428. "[Morgha (Atmosphere)](/w/Morgha_(Atmosphere)?action=edit&redlink=1 "Morgha (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
+429. "[Mutalist Cernos](/w/Mutalist_Cernos "Mutalist Cernos")" contains an unsupported key `GripType`
+430. "[Mutalist Quanta](/w/Mutalist_Quanta "Mutalist Quanta")" contains an unsupported key `GripType`
+431. "[Nagantaka](/w/Nagantaka "Nagantaka")" contains an unsupported key `GripType`
+432. "[Nagantaka Prime](/w/Nagantaka_Prime "Nagantaka Prime")" contains an unsupported key `GripType`
+433. "[Nami Skyla](/w/Nami_Skyla "Nami Skyla")" contains an unsupported key `GripType`
+434. "[Nami Skyla Prime](/w/Nami_Skyla_Prime "Nami Skyla Prime")" contains an unsupported key `GripType`
+435. "[Nami Solo](/w/Nami_Solo "Nami Solo")" contains an unsupported key `GripType`
+436. "[Nami Solo](/w/Nami_Solo "Nami Solo")" contains an unsupported key `IncarnonDuration`
+437. "[Nataruk](/w/Nataruk "Nataruk")" contains an unsupported key `GripType`
+438. "[Nepheri](/w/Nepheri "Nepheri")" contains an unsupported key `GripType`
+439. "[Neutralizer](/w/Neutralizer "Neutralizer")" contains an unsupported key `GripType`
+440. "[Nikana](/w/Nikana "Nikana")" contains an unsupported key `GripType`
+441. "[Nikana Prime](/w/Nikana_Prime "Nikana Prime")" contains an unsupported key `GripType`
+442. "[Ninkondi](/w/Ninkondi "Ninkondi")" contains an unsupported key `GripType`
+443. "[Ninkondi Prime](/w/Ninkondi_Prime "Ninkondi Prime")" contains an unsupported key `GripType`
+444. "[Noctua](/w/Noctua "Noctua")" contains an unsupported key `GripType`
+445. "[Nukor](/w/Nukor "Nukor")" contains an unsupported key `GripType`
+446. "[Nunchasa](/w/Nunchasa "Nunchasa")" contains an unsupported key `GripType`
+447. "[Obex](/w/Obex "Obex")" contains an unsupported key `GripType`
+448. "[Obex](/w/Obex "Obex")" contains an unsupported key `IncarnonDuration`
+449. "[Ocucor](/w/Ocucor "Ocucor")" contains an unsupported key `GripType`
+450. "[Ogris](/w/Ogris "Ogris")" contains an unsupported key `GripType`
+451. "[Ohma](/w/Ohma "Ohma")" contains an unsupported key `GripType`
+452. "[Okina](/w/Okina "Okina")" contains an unsupported key `GripType`
+453. "[Okina](/w/Okina "Okina")" contains an unsupported key `IncarnonDuration`
+454. "[Okina Prime](/w/Okina_Prime "Okina Prime")" contains an unsupported key `GripType`
+455. "[Okina Prime](/w/Okina_Prime "Okina Prime")" contains an unsupported key `IncarnonDuration`
+456. "[Onorix](/w/Onorix "Onorix")" contains an unsupported key `GripType`
+457. "[Onos](/w/Onos "Onos")" contains an unsupported key `IncarnonChargeGain`
+458. "[Onos](/w/Onos "Onos")" contains an unsupported key `GripType`
+459. "[Opticor](/w/Opticor "Opticor")" contains an unsupported key `GripType`
+460. "[Opticor Vandal](/w/Opticor_Vandal "Opticor Vandal")" contains an unsupported key `GripType`
+461. "[Orthos](/w/Orthos "Orthos")" contains an unsupported key `GripType`
+462. "[Orthos Prime](/w/Orthos_Prime "Orthos Prime")" contains an unsupported key `GripType`
+463. "[Orvius](/w/Orvius "Orvius")" contains an unsupported key `GripType`
+464. "[Pandero](/w/Pandero "Pandero")" contains an unsupported key `GripType`
+465. "[Pandero Prime](/w/Pandero_Prime "Pandero Prime")" contains an unsupported key `GripType`
+466. "[Pangolin Prime](/w/Pangolin_Prime "Pangolin Prime")" contains an unsupported key `GripType`
+467. "[Pangolin Sword](/w/Pangolin_Sword "Pangolin Sword")" contains an unsupported key `GripType`
+468. "[Panthera](/w/Panthera "Panthera")" contains an unsupported key `GripType`
+469. "[Panthera Prime](/w/Panthera_Prime "Panthera Prime")" contains an unsupported key `GripType`
+470. "[Paracesis](/w/Paracesis "Paracesis")" contains an unsupported key `GripType`
+471. "[Paracyst](/w/Paracyst "Paracyst")" contains an unsupported key `GripType`
+472. "[Paris](/w/Paris "Paris")" contains an unsupported key `IncarnonChargeGain`
+473. "[Paris](/w/Paris "Paris")" contains an unsupported key `GripType`
+474. "[Paris Prime](/w/Paris_Prime "Paris Prime")" contains an unsupported key `IncarnonChargeGain`
+475. "[Paris Prime](/w/Paris_Prime "Paris Prime")" contains an unsupported key `GripType`
+476. "[Pathocyst](/w/Pathocyst "Pathocyst")" contains an unsupported key `GripType`
+477. "[Pennant](/w/Pennant "Pennant")" contains an unsupported key `GripType`
+478. "[Penta](/w/Penta "Penta")" contains an unsupported key `GripType`
+479. "[Perigale](/w/Perigale "Perigale")" contains an unsupported key `GripType`
+480. "[Perigale Prime](/w/Perigale_Prime "Perigale Prime")" contains an unsupported key `GripType`
+481. "[Phaedra](/w/Phaedra "Phaedra")" contains an unsupported key `GripType`
+482. "[Phaedra (Atmosphere)](/w/Phaedra_(Atmosphere)?action=edit&redlink=1 "Phaedra (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
+483. "[Phage](/w/Phage "Phage")" contains an unsupported key `GripType`
+484. "[Phantasma](/w/Phantasma "Phantasma")" contains an unsupported key `GripType`
+485. "[Phantasma Prime](/w/Phantasma_Prime "Phantasma Prime")" contains an unsupported key `GripType`
+486. "[Phenmor](/w/Phenmor "Phenmor")" contains an unsupported key `IncarnonChargeGain`
+487. "[Phenmor](/w/Phenmor "Phenmor")" contains an unsupported key `GripType`
+488. "[Plasma Sword](/w/Plasma_Sword "Plasma Sword")" contains an unsupported key `GripType`
+489. "[Plinx](/w/Plinx "Plinx")" contains an unsupported key `GripType`
+490. "[Pox](/w/Pox "Pox")" contains an unsupported key `GripType`
+491. "[Praedos](/w/Praedos "Praedos")" contains an unsupported key `GripType`
+492. "[Pride](/w/Pride "Pride")" contains an unsupported key `GripType`
+493. "[Prisma Angstrum](/w/Prisma_Angstrum "Prisma Angstrum")" contains an unsupported key `IncarnonChargeGain`
+494. "[Prisma Angstrum](/w/Prisma_Angstrum "Prisma Angstrum")" contains an unsupported key `GripType`
+495. "[Prisma Dual Cleavers](/w/Prisma_Dual_Cleavers "Prisma Dual Cleavers")" contains an unsupported key `GripType`
+496. "[Prisma Dual Decurions](/w/Prisma_Dual_Decurions "Prisma Dual Decurions")" contains an unsupported key `GripType`
+497. "[Prisma Dual Decurions (Atmosphere)](/w/Prisma_Dual_Decurions_(Atmosphere)?action=edit&redlink=1 "Prisma Dual Decurions (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
+498. "[Prisma Gorgon](/w/Prisma_Gorgon "Prisma Gorgon")" contains an unsupported key `IncarnonChargeGain`
+499. "[Prisma Gorgon](/w/Prisma_Gorgon "Prisma Gorgon")" contains an unsupported key `GripType`
+500. "[Prisma Grakata](/w/Prisma_Grakata "Prisma Grakata")" contains an unsupported key `GripType`
+501. "[Prisma Grinlok](/w/Prisma_Grinlok "Prisma Grinlok")" contains an unsupported key `GripType`
+502. "[Prisma Lenz](/w/Prisma_Lenz "Prisma Lenz")" contains an unsupported key `GripType`
+503. "[Prisma Machete](/w/Prisma_Machete "Prisma Machete")" contains an unsupported key `GripType`
+504. "[Prisma Obex](/w/Prisma_Obex "Prisma Obex")" contains an unsupported key `GripType`
+505. "[Prisma Obex](/w/Prisma_Obex "Prisma Obex")" contains an unsupported key `IncarnonDuration`
+506. "[Prisma Ohma](/w/Prisma_Ohma "Prisma Ohma")" contains an unsupported key `GripType`
+507. "[Prisma Skana](/w/Prisma_Skana "Prisma Skana")" contains an unsupported key `GripType`
+508. "[Prisma Skana](/w/Prisma_Skana "Prisma Skana")" contains an unsupported key `IncarnonDuration`
+509. "[Prisma Tetra](/w/Prisma_Tetra "Prisma Tetra")" contains an unsupported key `GripType`
+510. "[Prisma Twin Gremlins](/w/Prisma_Twin_Gremlins "Prisma Twin Gremlins")" contains an unsupported key `GripType`
+511. "[Prisma Veritux](/w/Prisma_Veritux "Prisma Veritux")" contains an unsupported key `GripType`
+512. "[Proboscis Cernos](/w/Proboscis_Cernos "Proboscis Cernos")" contains an unsupported key `GripType`
+513. "[Prova](/w/Prova "Prova")" contains an unsupported key `GripType`
+514. "[Prova Vandal](/w/Prova_Vandal "Prova Vandal")" contains an unsupported key `GripType`
+515. "[Pulmonars](/w/Pulmonars "Pulmonars")" contains an unsupported key `GripType`
+516. "[Pupacyst](/w/Pupacyst "Pupacyst")" contains an unsupported key `GripType`
+517. "[Purgator 1](/w/Purgator_1 "Purgator 1")" contains an unsupported key `GripType`
+518. "[Pyrana](/w/Pyrana "Pyrana")" contains an unsupported key `GripType`
+519. "[Pyrana Prime](/w/Pyrana_Prime "Pyrana Prime")" contains an unsupported key `GripType`
+520. "[Quanta](/w/Quanta "Quanta")" contains an unsupported key `GripType`
+521. "[Quanta Vandal](/w/Quanta_Vandal "Quanta Vandal")" contains an unsupported key `GripType`
+522. "[Quartakk](/w/Quartakk "Quartakk")" contains an unsupported key `GripType`
+523. "[Quassus](/w/Quassus "Quassus")" contains an unsupported key `GripType`
+524. "[Quassus Prime](/w/Quassus_Prime "Quassus Prime")" contains an unsupported key `GripType`
+525. "[Quatz](/w/Quatz "Quatz")" contains an unsupported key `GripType`
+526. "[Quellor](/w/Quellor "Quellor")" contains an unsupported key `GripType`
+527. "[Rakta Ballistica](/w/Rakta_Ballistica "Rakta Ballistica")" contains an unsupported key `IncarnonChargeGain`
+528. "[Rakta Ballistica](/w/Rakta_Ballistica "Rakta Ballistica")" contains an unsupported key `GripType`
+529. "[Rakta Cernos](/w/Rakta_Cernos "Rakta Cernos")" contains an unsupported key `GripType`
+530. "[Rakta Dark Dagger](/w/Rakta_Dark_Dagger "Rakta Dark Dagger")" contains an unsupported key `GripType`
+531. "[Rathbone](/w/Rathbone "Rathbone")" contains an unsupported key `GripType`
+532. "[Rauta](/w/Rauta "Rauta")" contains an unsupported key `GripType`
+533. "[Reaper Prime](/w/Reaper_Prime "Reaper Prime")" contains an unsupported key `GripType`
+534. "[Reconifex](/w/Reconifex "Reconifex")" contains an unsupported key `GripType`
+535. "[Redeemer](/w/Redeemer "Redeemer")" contains an unsupported key `GripType`
+536. "[Redeemer Prime](/w/Redeemer_Prime "Redeemer Prime")" contains an unsupported key `GripType`
+537. "[Regulators](/w/Regulators "Regulators")" contains an unsupported key `GripType`
+538. "[Regulators Prime](/w/Regulators_Prime "Regulators Prime")" contains an unsupported key `GripType`
+539. "[Riot-848](/w/Riot-848 "Riot-848")" contains an unsupported key `GripType`
+540. "[Ripkas](/w/Ripkas "Ripkas")" contains an unsupported key `GripType`
+541. "[Rubico](/w/Rubico "Rubico")" contains an unsupported key `GripType`
+542. "[Rubico Prime](/w/Rubico_Prime "Rubico Prime")" contains an unsupported key `GripType`
+543. "[Rumblejack](/w/Rumblejack "Rumblejack")" contains an unsupported key `GripType`
+544. "[Ruvox](/w/Ruvox "Ruvox")" contains an unsupported key `GripType`
+545. "[Sampotes](/w/Sampotes "Sampotes")" contains an unsupported key `GripType`
+546. "[Sancti Castanas](/w/Sancti_Castanas "Sancti Castanas")" contains an unsupported key `GripType`
+547. "[Sancti Magistar](/w/Sancti_Magistar "Sancti Magistar")" contains an unsupported key `GripType`
+548. "[Sancti Magistar](/w/Sancti_Magistar "Sancti Magistar")" contains an unsupported key `IncarnonDuration`
+549. "[Sancti Tigris](/w/Sancti_Tigris "Sancti Tigris")" contains an unsupported key `GripType`
+550. "[Sarofang](/w/Sarofang "Sarofang")" contains an unsupported key `GripType`
+551. "[Sarofang Prime](/w/Sarofang_Prime "Sarofang Prime")" contains an unsupported key `GripType`
+552. "[Sarpa](/w/Sarpa "Sarpa")" contains an unsupported key `GripType`
+553. "[Scindo](/w/Scindo "Scindo")" contains an unsupported key `GripType`
+554. "[Scindo Prime](/w/Scindo_Prime "Scindo Prime")" contains an unsupported key `GripType`
+555. "[Scoliac](/w/Scoliac "Scoliac")" contains an unsupported key `GripType`
+556. "[Scourge](/w/Scourge "Scourge")" contains an unsupported key `GripType`
+557. "[Scourge Prime](/w/Scourge_Prime "Scourge Prime")" contains an unsupported key `GripType`
+558. "[Scyotid](/w/Scyotid "Scyotid")" contains an unsupported key `GripType`
+559. "[Secura Dual Cestra](/w/Secura_Dual_Cestra "Secura Dual Cestra")" contains an unsupported key `GripType`
+560. "[Secura Lecta](/w/Secura_Lecta "Secura Lecta")" contains an unsupported key `GripType`
+561. "[Secura Penta](/w/Secura_Penta "Secura Penta")" contains an unsupported key `GripType`
+562. "[Seer](/w/Seer "Seer")" contains an unsupported key `GripType`
+563. "[Sepulcrum](/w/Sepulcrum "Sepulcrum")" contains an unsupported key `GripType`
+564. "[Serro](/w/Serro "Serro")" contains an unsupported key `GripType`
+565. "[Shadow Claws](/w/Shadow_Claws "Shadow Claws")" contains an unsupported key `GripType`
+566. "[Shadow Claws Prime](/w/Shadow_Claws_Prime?action=edit&redlink=1 "Shadow Claws Prime (page does not exist)")" contains an unsupported key `GripType`
+567. "[Shadow Clones](/w/Shadow_Clones "Shadow Clones")" contains an unsupported key `GripType`
+568. "[Shadow Clones Prime](/w/Shadow_Clones_Prime?action=edit&redlink=1 "Shadow Clones Prime (page does not exist)")" contains an unsupported key `GripType`
+569. "[Shaku](/w/Shaku "Shaku")" contains an unsupported key `GripType`
+570. "[Shattered Lash](/w/Shattered_Lash "Shattered Lash")" contains an unsupported key `GripType`
+571. "[Shattered Lash Prime](/w/Shattered_Lash_Prime?action=edit&redlink=1 "Shattered Lash Prime (page does not exist)")" contains an unsupported key `GripType`
+572. "[Shedu](/w/Shedu "Shedu")" contains an unsupported key `GripType`
+573. "[Sheev](/w/Sheev "Sheev")" contains an unsupported key `GripType`
+574. "[Sibear](/w/Sibear "Sibear")" contains an unsupported key `GripType`
+575. "[Sibear](/w/Sibear "Sibear")" contains an unsupported key `IncarnonDuration`
+576. "[Sicarus](/w/Sicarus "Sicarus")" contains an unsupported key `IncarnonChargeGain`
+577. "[Sicarus](/w/Sicarus "Sicarus")" contains an unsupported key `GripType`
+578. "[Sicarus Prime](/w/Sicarus_Prime "Sicarus Prime")" contains an unsupported key `IncarnonChargeGain`
+579. "[Sicarus Prime](/w/Sicarus_Prime "Sicarus Prime")" contains an unsupported key `GripType`
+580. "[Sigma & Octantis](/w/Sigma_%26_Octantis "Sigma & Octantis")" contains an unsupported key `GripType`
+581. "[Silva & Aegis](/w/Silva_%26_Aegis "Silva & Aegis")" contains an unsupported key `GripType`
+582. "[Silva & Aegis Prime](/w/Silva_%26_Aegis_Prime "Silva & Aegis Prime")" contains an unsupported key `GripType`
+583. "[Simulor](/w/Simulor "Simulor")" contains an unsupported key `GripType`
+584. "[Skana](/w/Skana "Skana")" contains an unsupported key `GripType`
+585. "[Skana](/w/Skana "Skana")" contains an unsupported key `IncarnonDuration`
+586. "[Skana Prime](/w/Skana_Prime "Skana Prime")" contains an unsupported key `GripType`
+587. "[Skana Prime](/w/Skana_Prime "Skana Prime")" contains an unsupported key `IncarnonDuration`
+588. "[Skiajati](/w/Skiajati "Skiajati")" contains an unsupported key `GripType`
+589. "[Slaytra](/w/Slaytra "Slaytra")" contains an unsupported key `GripType`
+590. "[Snipetron](/w/Snipetron "Snipetron")" contains an unsupported key `GripType`
+591. "[Snipetron Vandal](/w/Snipetron_Vandal "Snipetron Vandal")" contains an unsupported key `GripType`
+592. "[Sobek](/w/Sobek "Sobek")" contains an unsupported key `GripType`
+593. "[Soma](/w/Soma "Soma")" contains an unsupported key `IncarnonChargeGain`
+594. "[Soma](/w/Soma "Soma")" contains an unsupported key `GripType`
+595. "[Soma Prime](/w/Soma_Prime "Soma Prime")" contains an unsupported key `IncarnonChargeGain`
+596. "[Soma Prime](/w/Soma_Prime "Soma Prime")" contains an unsupported key `GripType`
+597. "[Sonicor](/w/Sonicor "Sonicor")" contains an unsupported key `GripType`
+598. "[Spectra](/w/Spectra "Spectra")" contains an unsupported key `GripType`
+599. "[Spectra Vandal](/w/Spectra_Vandal "Spectra Vandal")" contains an unsupported key `GripType`
+600. "[Spinnerex](/w/Spinnerex "Spinnerex")" contains an unsupported key `GripType`
+601. "[Spira](/w/Spira "Spira")" contains an unsupported key `GripType`
+602. "[Spira Prime](/w/Spira_Prime "Spira Prime")" contains an unsupported key `GripType`
+603. "[Sporothrix](/w/Sporothrix "Sporothrix")" contains an unsupported key `GripType`
+604. "[Stahlta](/w/Stahlta "Stahlta")" contains an unsupported key `GripType`
+605. "[Staticor](/w/Staticor "Staticor")" contains an unsupported key `GripType`
+606. "[Steflos](/w/Steflos "Steflos")" contains an unsupported key `GripType`
+607. "[Steflos Prime](/w/Steflos_Prime "Steflos Prime")" contains an unsupported key `GripType`
+608. "[Stradavar](/w/Stradavar "Stradavar")" contains an unsupported key `GripType`
+609. "[Stradavar Prime](/w/Stradavar_Prime "Stradavar Prime")" contains an unsupported key `GripType`
+610. "[Stropha](/w/Stropha "Stropha")" contains an unsupported key `GripType`
+611. "[Strun](/w/Strun "Strun")" contains an unsupported key `IncarnonChargeGain`
+612. "[Strun](/w/Strun "Strun")" contains an unsupported key `GripType`
+613. "[Strun Prime](/w/Strun_Prime "Strun Prime")" contains an unsupported key `IncarnonChargeGain`
+614. "[Strun Prime](/w/Strun_Prime "Strun Prime")" contains an unsupported key `GripType`
+615. "[Strun Wraith](/w/Strun_Wraith "Strun Wraith")" contains an unsupported key `IncarnonChargeGain`
+616. "[Strun Wraith](/w/Strun_Wraith "Strun Wraith")" contains an unsupported key `GripType`
+617. "[Stubba](/w/Stubba "Stubba")" contains an unsupported key `GripType`
+618. "[Stug](/w/Stug "Stug")" contains an unsupported key `GripType`
+619. "[Sun & Moon](/w/Sun_%26_Moon "Sun & Moon")" contains an unsupported key `GripType`
+620. "[Supra](/w/Supra "Supra")" contains an unsupported key `GripType`
+621. "[Supra Vandal](/w/Supra_Vandal "Supra Vandal")" contains an unsupported key `GripType`
+622. "[Syam](/w/Syam "Syam")" contains an unsupported key `GripType`
+623. "[Sybaris](/w/Sybaris "Sybaris")" contains an unsupported key `IncarnonChargeGain`
+624. "[Sybaris](/w/Sybaris "Sybaris")" contains an unsupported key `GripType`
+625. "[Sybaris Prime](/w/Sybaris_Prime "Sybaris Prime")" contains an unsupported key `IncarnonChargeGain`
+626. "[Sybaris Prime](/w/Sybaris_Prime "Sybaris Prime")" contains an unsupported key `GripType`
+627. "[Sydon](/w/Sydon "Sydon")" contains an unsupported key `GripType`
+628. "[Synapse](/w/Synapse "Synapse")" contains an unsupported key `GripType`
+629. "[Synoid Gammacor](/w/Synoid_Gammacor "Synoid Gammacor")" contains an unsupported key `IncarnonChargeGain`
+630. "[Synoid Gammacor](/w/Synoid_Gammacor "Synoid Gammacor")" contains an unsupported key `GripType`
+631. "[Synoid Heliocor](/w/Synoid_Heliocor "Synoid Heliocor")" contains an unsupported key `GripType`
+632. "[Synoid Simulor](/w/Synoid_Simulor "Synoid Simulor")" contains an unsupported key `GripType`
+633. "[Tak & Lug](/w/Tak_%26_Lug "Tak & Lug")" contains an unsupported key `GripType`
+634. "[Talons](/w/Talons "Talons")" contains an unsupported key `GripType`
+635. "[Tatsu](/w/Tatsu "Tatsu")" contains an unsupported key `GripType`
+636. "[Tatsu Prime](/w/Tatsu_Prime "Tatsu Prime")" contains an unsupported key `GripType`
+637. "[Tekko](/w/Tekko "Tekko")" contains an unsupported key `GripType`
+638. "[Tekko Prime](/w/Tekko_Prime "Tekko Prime")" contains an unsupported key `GripType`
+639. "[Telos Akbolto](/w/Telos_Akbolto "Telos Akbolto")" contains an unsupported key `GripType`
+640. "[Telos Boltace](/w/Telos_Boltace "Telos Boltace")" contains an unsupported key `GripType`
+641. "[Telos Boltor](/w/Telos_Boltor "Telos Boltor")" contains an unsupported key `IncarnonChargeGain`
+642. "[Telos Boltor](/w/Telos_Boltor "Telos Boltor")" contains an unsupported key `GripType`
+643. "[Tenet Agendus](/w/Tenet_Agendus "Tenet Agendus")" contains an unsupported key `GripType`
+644. "[Tenet Arca Plasmor](/w/Tenet_Arca_Plasmor "Tenet Arca Plasmor")" contains an unsupported key `GripType`
+645. "[Tenet Cycron](/w/Tenet_Cycron "Tenet Cycron")" contains an unsupported key `GripType`
+646. "[Tenet Detron](/w/Tenet_Detron "Tenet Detron")" contains an unsupported key `GripType`
+647. "[Tenet Diplos](/w/Tenet_Diplos "Tenet Diplos")" contains an unsupported key `GripType`
+648. "[Tenet Envoy](/w/Tenet_Envoy "Tenet Envoy")" contains an unsupported key `GripType`
+649. "[Tenet Exec](/w/Tenet_Exec "Tenet Exec")" contains an unsupported key `GripType`
+650. "[Tenet Ferrox](/w/Tenet_Ferrox "Tenet Ferrox")" contains an unsupported key `GripType`
+651. "[Tenet Flux Rifle](/w/Tenet_Flux_Rifle "Tenet Flux Rifle")" contains an unsupported key `GripType`
+652. "[Tenet Glaxion](/w/Tenet_Glaxion "Tenet Glaxion")" contains an unsupported key `GripType`
+653. "[Tenet Grigori](/w/Tenet_Grigori "Tenet Grigori")" contains an unsupported key `GripType`
+654. "[Tenet Livia](/w/Tenet_Livia "Tenet Livia")" contains an unsupported key `GripType`
+655. "[Tenet Plinx](/w/Tenet_Plinx "Tenet Plinx")" contains an unsupported key `GripType`
+656. "[Tenet Quanta](/w/Tenet_Quanta "Tenet Quanta")" contains an unsupported key `GripType`
+657. "[Tenet Spirex](/w/Tenet_Spirex "Tenet Spirex")" contains an unsupported key `GripType`
+658. "[Tenet Tetra](/w/Tenet_Tetra "Tenet Tetra")" contains an unsupported key `GripType`
+659. "[Tenora](/w/Tenora "Tenora")" contains an unsupported key `GripType`
+660. "[Tenora Prime](/w/Tenora_Prime "Tenora Prime")" contains an unsupported key `GripType`
+661. "[Tetra](/w/Tetra "Tetra")" contains an unsupported key `GripType`
+662. "[Thalys](/w/Thalys "Thalys")" contains an unsupported key `GripType`
+663. "[Thornbak](/w/Thornbak "Thornbak")" contains an unsupported key `GripType`
+664. "[Tiberon](/w/Tiberon "Tiberon")" contains an unsupported key `GripType`
+665. "[Tiberon Prime](/w/Tiberon_Prime "Tiberon Prime")" contains an unsupported key `GripType`
+666. "[Tigris](/w/Tigris "Tigris")" contains an unsupported key `GripType`
+667. "[Tigris Prime](/w/Tigris_Prime "Tigris Prime")" contains an unsupported key `GripType`
+668. "[Tipedo](/w/Tipedo "Tipedo")" contains an unsupported key `GripType`
+669. "[Tipedo Prime](/w/Tipedo_Prime "Tipedo Prime")" contains an unsupported key `GripType`
+670. "[Tonbo](/w/Tonbo "Tonbo")" contains an unsupported key `GripType`
+671. "[Tonkkatt](/w/Tonkkatt "Tonkkatt")" contains an unsupported key `GripType`
+672. "[Tonkor](/w/Tonkor "Tonkor")" contains an unsupported key `GripType`
+673. "[Torid](/w/Torid "Torid")" contains an unsupported key `IncarnonChargeGain`
+674. "[Torid](/w/Torid "Torid")" contains an unsupported key `GripType`
+675. "[Trumna](/w/Trumna "Trumna")" contains an unsupported key `GripType`
+676. "[Trumna Prime](/w/Trumna_Prime "Trumna Prime")" contains an unsupported key `GripType`
+677. "[Twin Basolk](/w/Twin_Basolk "Twin Basolk")" contains an unsupported key `GripType`
+678. "[Twin Grakatas](/w/Twin_Grakatas "Twin Grakatas")" contains an unsupported key `GripType`
+679. "[Twin Gremlins](/w/Twin_Gremlins "Twin Gremlins")" contains an unsupported key `GripType`
+680. "[Twin Kohmak](/w/Twin_Kohmak "Twin Kohmak")" contains an unsupported key `GripType`
+681. "[Twin Krohkur](/w/Twin_Krohkur "Twin Krohkur")" contains an unsupported key `GripType`
+682. "[Twin Rogga](/w/Twin_Rogga "Twin Rogga")" contains an unsupported key `GripType`
+683. "[Twin Vipers](/w/Twin_Vipers "Twin Vipers")" contains an unsupported key `GripType`
+684. "[Twin Vipers Wraith](/w/Twin_Vipers_Wraith "Twin Vipers Wraith")" contains an unsupported key `GripType`
+685. "[Tysis](/w/Tysis "Tysis")" contains an unsupported key `GripType`
+686. "[Vadarya Prime](/w/Vadarya_Prime "Vadarya Prime")" contains an unsupported key `GripType`
+687. "[Valkyr Prime Talons](/w/Valkyr_Prime_Talons "Valkyr Prime Talons")" contains an unsupported key `GripType`
+688. "[Valkyr Talons](/w/Valkyr_Talons "Valkyr Talons")" contains an unsupported key `GripType`
+689. "[Vastilok](/w/Vastilok "Vastilok")" contains an unsupported key `GripType`
+690. "[Vasto](/w/Vasto "Vasto")" contains an unsupported key `IncarnonChargeGain`
+691. "[Vasto](/w/Vasto "Vasto")" contains an unsupported key `GripType`
+692. "[Vasto Prime](/w/Vasto_Prime "Vasto Prime")" contains an unsupported key `IncarnonChargeGain`
+693. "[Vasto Prime](/w/Vasto_Prime "Vasto Prime")" contains an unsupported key `GripType`
+694. "[Vaykor Hek](/w/Vaykor_Hek "Vaykor Hek")" contains an unsupported key `GripType`
+695. "[Vaykor Marelok](/w/Vaykor_Marelok "Vaykor Marelok")" contains an unsupported key `GripType`
+696. "[Vaykor Sydon](/w/Vaykor_Sydon "Vaykor Sydon")" contains an unsupported key `GripType`
+697. "[Vectis](/w/Vectis "Vectis")" contains an unsupported key `IncarnonChargeGain`
+698. "[Vectis](/w/Vectis "Vectis")" contains an unsupported key `GripType`
+699. "[Vectis Prime](/w/Vectis_Prime "Vectis Prime")" contains an unsupported key `IncarnonChargeGain`
+700. "[Vectis Prime](/w/Vectis_Prime "Vectis Prime")" contains an unsupported key `GripType`
+701. "[Veldt](/w/Veldt "Veldt")" contains an unsupported key `GripType`
+702. "[Velocitus](/w/Velocitus "Velocitus")" contains an unsupported key `GripType`
+703. "[Velocitus (Atmosphere)](/w/Velocitus_(Atmosphere)?action=edit&redlink=1 "Velocitus (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
+704. "[Velox](/w/Velox "Velox")" contains an unsupported key `GripType`
+705. "[Velox Prime](/w/Velox_Prime "Velox Prime")" contains an unsupported key `GripType`
+706. "[Venato](/w/Venato "Venato")" contains an unsupported key `GripType`
+707. "[Venato Prime](/w/Venato_Prime "Venato Prime")" contains an unsupported key `GripType`
+708. "[Venka](/w/Venka "Venka")" contains an unsupported key `GripType`
+709. "[Venka Prime](/w/Venka_Prime "Venka Prime")" contains an unsupported key `GripType`
+710. "[Verdilac](/w/Verdilac "Verdilac")" contains an unsupported key `GripType`
+711. "[Vericres](/w/Vericres "Vericres")" contains an unsupported key `GripType`
+712. "[Veritux](/w/Veritux "Veritux")" contains an unsupported key `GripType`
+713. "[Vesper 77](/w/Vesper_77 "Vesper 77")" contains an unsupported key `GripType`
+714. "[Vinquibus (Melee)](/w/Vinquibus_(Melee) "Vinquibus (Melee)")" contains an unsupported key `GripType`
+715. "[Vinquibus (Primary)](/w/Vinquibus_(Primary) "Vinquibus (Primary)")" contains an unsupported key `GripType`
+716. "[Viper](/w/Viper "Viper")" contains an unsupported key `GripType`
+717. "[Viper Wraith](/w/Viper_Wraith "Viper Wraith")" contains an unsupported key `GripType`
+718. "[Vitrica](/w/Vitrica "Vitrica")" contains an unsupported key `GripType`
+719. "[Volnus](/w/Volnus "Volnus")" contains an unsupported key `GripType`
+720. "[Volnus Prime](/w/Volnus_Prime "Volnus Prime")" contains an unsupported key `GripType`
+721. "[Vulkar](/w/Vulkar "Vulkar")" contains an unsupported key `GripType`
+722. "[Vulkar Wraith](/w/Vulkar_Wraith "Vulkar Wraith")" contains an unsupported key `GripType`
+723. "[War](/w/War "War")" contains an unsupported key `GripType`
+724. "[War Prime](/w/War_Prime "War Prime")" contains an unsupported key `GripType`
+725. "[Whipclaw](/w/Whipclaw "Whipclaw")" contains an unsupported key `GripType`
+726. "[Whipclaw Prime](/w/Whipclaw_Prime?action=edit&redlink=1 "Whipclaw Prime (page does not exist)")" contains an unsupported key `GripType`
+727. "[Wolf Sledge](/w/Wolf_Sledge "Wolf Sledge")" contains an unsupported key `GripType`
+728. "[Wrath](/w/Wrath "Wrath")" contains an unsupported key `GripType`
+729. "[Xoris](/w/Xoris "Xoris")" contains an unsupported key `GripType`
+730. "[Zakti](/w/Zakti "Zakti")" contains an unsupported key `GripType`
+731. "[Zakti Prime](/w/Zakti_Prime "Zakti Prime")" contains an unsupported key `GripType`
+732. "[Zarr](/w/Zarr "Zarr")" contains an unsupported key `GripType`
+733. "[Zenistar](/w/Zenistar "Zenistar")" contains an unsupported key `GripType`
+734. "[Zenith](/w/Zenith "Zenith")" contains an unsupported key `GripType`
+735. "[Zhuge](/w/Zhuge "Zhuge")" contains an unsupported key `GripType`
+736. "[Zhuge Prime](/w/Zhuge_Prime "Zhuge Prime")" contains an unsupported key `GripType`
+737. "[Zylok](/w/Zylok "Zylok")" contains an unsupported key `IncarnonChargeGain`
+738. "[Zylok](/w/Zylok "Zylok")" contains an unsupported key `GripType`
+739. "[Zylok Prime](/w/Zylok_Prime "Zylok Prime")" contains an unsupported key `IncarnonChargeGain`
+740. "[Zylok Prime](/w/Zylok_Prime "Zylok Prime")" contains an unsupported key `GripType`
+741. "[Zymos](/w/Zymos "Zymos")" contains an unsupported key `GripType`
 
 ### Checking missing keys
 
@@ -9982,7 +9984,7 @@ return {
 		_TooltipAttackDisplay = 1
 	},
 	Nunchasa = {
-		Accuracy = 0,
+		Accuracy = 100,
 		AmmoMax = 50,
 		AmmoPickup = 15,
 		AmmoType = "Primary",
@@ -10024,26 +10026,26 @@ return {
 			}
 		},
 		Class = "Bow",
-		CompatibilityTags = { "PROJECTILE" },
+		CompatibilityTags = { "PROJECTILE", "DUELISTBOW" },
 		Conclave = true,
-		Disposition = 1,
-		ExilusPolarity = "Madurai",
+		DefaultUpgrades = { "DuelistBowPassiveDescUpgrade" },
+		Disposition = 0.5,
+		ExilusPolarity = "Naramon",
 		GripType = "BOW",
 		Image = "Nunchasa.png",
-		InternalName = "[PH]",
+		InternalName = "/Lotus/Weapons/Tenno/Bows/DuelistBow/DuelistBow",
 		Introduced = "44.0",
 		Link = "Nunchasa",
 		Magazine = 1,
 		Mastery = 14,
 		MaxRank = 30,
 		Name = "Nunchasa",
-		Polarities = { "Naramon" },
+		Polarities = { "Madurai", "Madurai" },
 		Reload = 0.6,
 		SellPrice = 7500,
 		Slot = "Primary",
 		Traits = { "Tenno" },
 		Trigger = "Charge",
-		Users = { "[PH]" },
 		_TooltipAttackDisplay = 2
 	},
 	Ogris = {
@@ -13225,6 +13227,55 @@ return {
 		MaxRank = 30,
 		Name = "Steflos",
 		Polarities = { "Madurai" },
+		Reload = 2.4,
+		SellPrice = 7500,
+		Slot = "Primary",
+		Tradable = 2,
+		Traits = { "Tenno" },
+		Trigger = "Semi-Auto",
+		_TooltipAttackDisplay = 1
+	},
+	["Steflos Prime"] = {
+		Accuracy = 100,
+		AmmoMax = 36,
+		AmmoPickup = 15,
+		AmmoType = "Primary",
+		Attacks = {
+			{
+				AmmoCost = 1,
+				AttackIndex = 1,
+				AttackName = "Normal Attack",
+				CritChance = 0.18,
+				CritMultiplier = 2.2,
+				Damage = { Heat = 285, Impact = 195 },
+				Falloff = { EndRange = 24, Reduction = 0.96875, StartRange = 8 },
+				FireRate = 3.0,
+				IsSilent = false,
+				MaxSpread = 0,
+				MinSpread = 0,
+				Multishot = 1,
+				PunchThrough = 0,
+				ShotSpeed = 20,
+				ShotType = "Projectile",
+				StatusChance = 0.28
+			}
+		},
+		Class = "Shotgun",
+		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO" },
+		Conclave = false,
+		Disposition = 0.5,
+		ExilusPolarity = "Naramon",
+		Family = "Steflos",
+		GripType = "",
+		Image = "SteflosPrime.png",
+		InternalName = "/Lotus/Weapons/Tenno/LongGuns/PrimeSteflos/PrimeSteflosShotgun",
+		Introduced = "44.0",
+		Link = "Steflos Prime",
+		Magazine = 12,
+		Mastery = 15,
+		MaxRank = 30,
+		Name = "Steflos Prime",
+		Polarities = { "Madurai", "Madurai" },
 		Reload = 2.4,
 		SellPrice = 7500,
 		Slot = "Primary",

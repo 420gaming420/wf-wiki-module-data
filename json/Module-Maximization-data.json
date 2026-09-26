@@ -4,9 +4,203 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-24T07:25:59.087Z"
+    "converted_at": "2026-09-26T07:16:47.347Z"
   },
-  "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins\n-- mapping warframe names to ability names",
+  "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins\n-- this contains mappings for what we couldn't pull from preexisting modules",
+  "AbilitySets": {},
+  "Smoke Screen": {
+    "outs": [
+      [
+        "Duration:",
+        {
+          "expr": "DUR 12 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Extension on [[Finisher]] kills:",
+        {
+          "expr": "DUR 5 %of TELEPORT_RUSH *",
+          "suff": "s"
+        }
+      ],
+      [
+        "Radius:",
+        {
+          "expr": "RNG 10 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "Smoke Shadow duration:",
+        {
+          "expr": "DUR 12 %of 0 SMOKE_SHADOW if",
+          "suff": "s"
+        }
+      ],
+      [
+        "Smoke Shadow radius:",
+        {
+          "expr": "RNG 15 %of 0 SMOKE_SHADOW if",
+          "suff": "m"
+        }
+      ],
+      [
+        "Critical Chance bonus:",
+        {
+          "expr": "150 0 SMOKE_SHADOW if",
+          "suff": "%"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "35 COST *"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "TELEPORT_RUSH",
+        "cont": "{{#invoke:Tooltip|full|Teleport Rush|Mods}}?"
+      },
+      {
+        "type": "checkbox",
+        "name": "SMOKE_SHADOW",
+        "cont": "{{#invoke:Tooltip|full|Smoke Shadow|Mods}}?"
+      }
+    ]
+  },
+  "Neote": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Cold|DamageTypes}} damage per hit:",
+        {
+          "name": "BASE_NEOTE_DMG",
+          "expr": "STR 400 %of"
+        }
+      ],
+      [
+        "Total {{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
+        {
+          "expr": "BASE_NEOTE_DMG 5 *"
+        }
+      ],
+      [
+        "Range:",
+        {
+          "expr": "RNG 12 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "25 COST *"
+        }
+      ]
+    ],
+    "ins": {}
+  },
+  "Blade Storm": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Finisher|DamageTypes}} damage:",
+        {
+          "name": "BLADE_STORM_BASE_DMG",
+          "expr": "\t\t\t\tFACTION_DMG_MOD MELEE_DMG_MOD FINISHER_DMG_MOD STR \n\t\t\t\t1500 %of %of %of %of COMBO_MULT *\n\t\t\t"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Bleed|DamageTypes}} [[DoT]]:",
+        {
+          "expr": "FACTION_DMG_MOD 43.75 BLADE_STORM_BASE_DMG %of %of",
+          "name": "BLEED_DMG",
+          "suff": "/s"
+        }
+      ],
+      [
+        "Elemental damage:",
+        {
+          "name": "ELEMENT_DMG",
+          "expr": "ELEMENT_DMG_MOD BLADE_STORM_BASE_DMG %of"
+        }
+      ],
+      [
+        "Total damage:",
+        {
+          "name": "TOTAL_DMG",
+          "expr": "BLADE_STORM_BASE_DMG ELEMENT_DMG + BLEED_DMG 9 * +"
+        }
+      ],
+      [
+        "Range:",
+        {
+          "expr": "RNG 50 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "Combo:",
+        {
+          "expr": "STR 4 %of RISING_STORM * 3 +",
+          "suff": "/attack"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "12 COST * 2 1 IS_INVISIBLE if /",
+          "suff": "/enemy"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "default": "100",
+        "type": "number",
+        "name": "MELEE_DMG_MOD",
+        "cont": "[[Melee damage]] modifier:"
+      },
+      {
+        "default": "0",
+        "type": "number",
+        "name": "ELEMENT_DMG_MOD",
+        "cont": "[[Elemental damage]] modifier:"
+      },
+      {
+        "default": "100",
+        "type": "number",
+        "name": "FACTION_DMG_MOD",
+        "cont": "[[Faction damage]] modifier:"
+      },
+      {
+        "default": "100",
+        "type": "number",
+        "name": "FINISHER_DMG_MOD",
+        "cont": "[[Finisher damage]] modifier:"
+      },
+      {
+        "min": "1",
+        "type": "range-R",
+        "name": "COMBO_MULT",
+        "max": "12",
+        "value": "1",
+        "cont": "[[Combo multiplier]]:"
+      },
+      {
+        "type": "checkbox",
+        "name": "IS_INVISIBLE",
+        "cont": "Ash is [[invisible]]?"
+      },
+      {
+        "type": "checkbox",
+        "name": "RISING_STORM",
+        "cont": "{{#invoke:Tooltip|full|Rising Storm|Mods}}?"
+      }
+    ]
+  },
   "Shuriken": {
     "outs": [
       [
@@ -235,179 +429,152 @@
       }
     ]
   },
-  "Smoke Screen": {
+  "Hakchum": {
     "outs": [
       [
-        "Duration:",
+        "{{#invoke:Tooltip|full|Cold|DamageTypes}} Landing damage:",
         {
-          "expr": "DUR 12 %of",
+          "expr": "STR 1000 %of"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Cold|DamageTypes}} DoT:",
+        {
+          "expr": "STR 100 %of",
+          "suff": "/s"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Cold|DamageTypes}} Damage Vulnerability:",
+        {
+          "expr": "STR 150 %of",
+          "suff": "%"
+        }
+      ],
+      [
+        "Ice storm duration:",
+        {
+          "expr": "DUR 10 %of",
           "suff": "s"
         }
       ],
       [
-        "Extension on [[Finisher]] kills:",
-        {
-          "expr": "DUR 5 %of TELEPORT_RUSH *",
-          "suff": "s"
-        }
-      ],
-      [
-        "Radius:",
+        "Ice storm radius:",
         {
           "expr": "RNG 10 %of",
           "suff": "m"
         }
       ],
       [
-        "Smoke Shadow duration:",
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "DUR 12 %of 0 SMOKE_SHADOW if",
-          "suff": "s"
+          "expr": "75 COST *"
+        }
+      ]
+    ],
+    "ins": {}
+  },
+  "Naraemagi": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Shield|Stats}} or {{#invoke:Tooltip|full|Overguard|DamageTypes}} per {{#invoke:Tooltip|full|Cold|DamageTypes}} Status absorbed:",
+        {
+          "expr": "STR 75 %of NUM_COLD_STATUS_ABSORBED *"
         }
       ],
       [
-        "Smoke Shadow radius:",
+        "Radius:",
         {
-          "expr": "RNG 15 %of 0 SMOKE_SHADOW if",
+          "expr": "RNG 14 %of",
           "suff": "m"
-        }
-      ],
-      [
-        "Critical Chance bonus:",
-        {
-          "expr": "150 0 SMOKE_SHADOW if",
-          "suff": "%"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "35 COST *"
+          "expr": "50 COST *"
         }
       ]
     ],
     "ins": [
       {
-        "type": "checkbox",
-        "name": "TELEPORT_RUSH",
-        "cont": "{{#invoke:Tooltip|full|Teleport Rush|Mods}}?"
-      },
-      {
-        "type": "checkbox",
-        "name": "SMOKE_SHADOW",
-        "cont": "{{#invoke:Tooltip|full|Smoke Shadow|Mods}}?"
+        "default": "1",
+        "name": "NUM_COLD_STATUS_ABSORBED",
+        "cont": "{{#invoke:Tooltip|full|Cold|DamageTypes}} Status Effects absorbed:"
       }
     ]
   },
-  "Warframe": {
-    "Ash": [
-      "Shuriken",
-      "Smoke Screen",
-      "Teleport",
-      "Blade Storm"
-    ],
-    "Atlas": [
-      "Landslide",
-      "Tectonics",
-      "Petrify",
-      "Rumblers"
-    ]
-  },
-  "Blade Storm": {
+  "Nurinarim": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Finisher|DamageTypes}} damage:",
+        "{{#invoke:Tooltip|full|Cold|DamageTypes}} ice aura radial damage:",
         {
-          "name": "BLADE_STORM_BASE_DMG",
-          "expr": "\t\t\t\tFACTION_DMG_MOD MELEE_DMG_MOD FINISHER_DMG_MOD STR \n\t\t\t\t1500 %of %of %of %of COMBO_MULT *\n\t\t\t"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Bleed|DamageTypes}} [[DoT]]:",
-        {
-          "expr": "FACTION_DMG_MOD 43.75 BLADE_STORM_BASE_DMG %of %of",
-          "name": "BLEED_DMG",
+          "expr": "STR 500 %of",
           "suff": "/s"
         }
       ],
       [
-        "Elemental damage:",
+        "Ice aura radius:",
         {
-          "name": "ELEMENT_DMG",
-          "expr": "ELEMENT_DMG_MOD BLADE_STORM_BASE_DMG %of"
-        }
-      ],
-      [
-        "Total damage:",
-        {
-          "name": "TOTAL_DMG",
-          "expr": "BLADE_STORM_BASE_DMG ELEMENT_DMG + BLEED_DMG 9 * +"
-        }
-      ],
-      [
-        "Range:",
-        {
-          "expr": "RNG 50 %of",
+          "expr": "RNG 8 %of",
           "suff": "m"
         }
       ],
       [
-        "Combo:",
+        "Max duration:",
         {
-          "expr": "STR 4 %of RISING_STORM * 3 +",
-          "suff": "/attack"
+          "expr": "DUR 15 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Cold|DamageTypes}} Icy Slash damage:",
+        {
+          "expr": "STR 40000 %of"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Cold|DamageTypes}} Explosion damage:",
+        {
+          "expr": "STR 20000 %of"
+        }
+      ],
+      [
+        "Frozen enemy explosion radius:",
+        {
+          "expr": "RNG 10 %of",
+          "suff": "m"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "12 COST * 2 1 IS_INVISIBLE if /",
-          "suff": "/enemy"
+          "expr": "25 COST *"
+        }
+      ],
+      [
+        "Percentage of {{#invoke:Tooltip|full|Shield|Stats}} stripped:",
+        {
+          "expr": "5 COLD_STATUS_COUNT *",
+          "suff": "%"
+        }
+      ],
+      [
+        "Percentage of {{#invoke:Tooltip|full|Armor|Stats}} stripped:",
+        {
+          "expr": "5 COLD_STATUS_COUNT *",
+          "suff": "%"
         }
       ]
     ],
     "ins": [
       {
-        "default": "100",
-        "type": "number",
-        "name": "MELEE_DMG_MOD",
-        "cont": "[[Melee damage]] modifier:"
-      },
-      {
-        "default": "0",
-        "type": "number",
-        "name": "ELEMENT_DMG_MOD",
-        "cont": "[[Elemental damage]] modifier:"
-      },
-      {
-        "default": "100",
-        "type": "number",
-        "name": "FACTION_DMG_MOD",
-        "cont": "[[Faction damage]] modifier:"
-      },
-      {
-        "default": "100",
-        "type": "number",
-        "name": "FINISHER_DMG_MOD",
-        "cont": "[[Finisher damage]] modifier:"
-      },
-      {
         "min": "1",
         "type": "range-R",
-        "name": "COMBO_MULT",
-        "max": "12",
-        "value": "1",
-        "cont": "[[Combo multiplier]]:"
-      },
-      {
-        "type": "checkbox",
-        "name": "IS_INVISIBLE",
-        "cont": "Ash is [[invisible]]?"
-      },
-      {
-        "type": "checkbox",
-        "name": "RISING_STORM",
-        "cont": "{{#invoke:Tooltip|full|Rising Storm|Mods}}?"
+        "name": "COLD_STATUS_COUNT",
+        "max": "10",
+        "default": "1",
+        "cont": "Number of {{#invoke:Tooltip|full|Cold|DamageTypes}} Status Effects on single enemy: "
       }
     ]
   }

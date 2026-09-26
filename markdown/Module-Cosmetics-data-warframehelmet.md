@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/warframehelmet"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/warframehelmet"
-wiki_timestamp: "2026-09-24T17:00:16Z"
+wiki_timestamp: "2026-09-25T09:06:38Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/warframehelmet/doc](/w/Module:Cosmetics/data/warframehelmet/doc?action=edit&redlink=1 "Module:Cosmetics/data/warframehelmet/doc (page does not exist)")*
@@ -3575,6 +3575,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Duelist/DuelistAltHelmet",
         Link = "Narin Baridegi Helmet",
         Name = "Narin Baridegi Helmet",
+        Type = "Helmet"
+    },
+    ["Narin Helmet"] = {
+        CodexSecret = false,
+        Description = "The standard issue helmet for the Narin Warframe.",
+        ExcludeFromCodex = false,
+        Image = "NarinHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Duelist/DuelistHelmet",
+        Link = "Narin Helmet",
+        Name = "Narin Helmet",
         Type = "Helmet"
     },
     ["Nekros Ausirylyst Helmet"] = {

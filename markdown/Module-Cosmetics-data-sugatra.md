@@ -1,13 +1,23 @@
 ---
 title: "Module:Cosmetics/data/sugatra"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/sugatra"
-wiki_timestamp: "2026-07-07T20:23:33Z"
+wiki_timestamp: "2026-09-25T08:51:21Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/sugatra/doc](/w/Module:Cosmetics/data/sugatra/doc?action=edit&redlink=1 "Module:Cosmetics/data/sugatra/doc (page does not exist)")*
 
 ```lua
 return {
+    ["Alumeti Prime Sugatra"] = {
+        CodexSecret = false,
+        Description = "Adorn your weapon with the splendence of Citrine Prime's signature sugatra.",
+        ExcludeFromCodex = false,
+        Image = "AlumetiPrimeSugatra.png",
+        InternalName = "/Lotus/Upgrades/Skins/MeleeDangles/PrimeCitrineSugatra",
+        Link = "Alumeti Prime Sugatra",
+        Name = "Alumeti Prime Sugatra",
+        Type = "Sugatra"
+    },
     ["Alumeti Sugatra"] = {
         CodexSecret = false,
         Description = "Citrine's signature adornment invokes her fractal beauty.",

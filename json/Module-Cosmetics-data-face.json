@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:54:28.388Z"
+    "converted_at": "2026-09-26T07:16:30.104Z"
   },
   "_comments": "",
   "BeardC": {
@@ -297,6 +297,16 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
+  "Vena's Hairstyle": {
+    "Type": "Hair",
+    "Image": "Vena'sHairstyle.png",
+    "Description": "Vena's signature hairstyle.",
+    "Link": "Vena's Hairstyle",
+    "Name": "Vena's Hairstyle",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/Hair1999Garuda",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Somatics Tt-11": {
     "Type": "Markings",
     "Image": "SomaticsZz-70.png",
@@ -314,6 +324,16 @@
     "Link": "HairM",
     "Name": "HairM",
     "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/HairM",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Somatics Zz-70": {
+    "Type": "Markings",
+    "Image": "SomaticsZz-70.png",
+    "Description": "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
+    "Link": "Somatics Zz-70",
+    "Name": "Somatics Zz-70",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingJ",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
@@ -337,13 +357,13 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Somatics Zz-70": {
+  "Somatics Rev-16": {
     "Type": "Markings",
-    "Image": "SomaticsZz-70.png",
+    "Image": "SomaticsRev-16.png",
     "Description": "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
-    "Link": "Somatics Zz-70",
-    "Name": "Somatics Zz-70",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingJ",
+    "Link": "Somatics Rev-16",
+    "Name": "Somatics Rev-16",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingI",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
@@ -357,14 +377,14 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Somatics Rev-16": {
-    "Type": "Markings",
-    "Image": "SomaticsRev-16.png",
-    "Description": "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
-    "Link": "Somatics Rev-16",
-    "Name": "Somatics Rev-16",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/FacialMarkings/FacialMarkingI",
-    "ExcludeFromCodex": true,
+  "Ryoku's Hairstyle": {
+    "Type": "Hair",
+    "Image": "Ryoku'sHairstyle.png",
+    "Description": "Ryoku's signature hairstyle.",
+    "Link": "Ryoku's Hairstyle",
+    "Name": "Ryoku's Hairstyle",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Hair/Hair1999Ash",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "AdultMaleHeadD": {
