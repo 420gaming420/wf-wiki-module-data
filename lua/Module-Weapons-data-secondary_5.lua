@@ -975,7 +975,7 @@ return {
 				CritChance = 0.24,
 				CritMultiplier = 2.6,
 				Damage = { Puncture = 70, Cold = 70 },
-				FireRate = 10,
+				FireRate = 4,
 				IsSilent = false,
 				MaxSpread = 7,
 				MinSpread = 0.5,

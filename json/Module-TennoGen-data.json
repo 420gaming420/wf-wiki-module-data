@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-25T07:21:13.149Z"
+    "converted_at": "2026-09-27T07:48:57.047Z"
   },
   "_comments": "",
   "Dagath Voiddax Helmet": {
@@ -958,6 +958,21 @@
     "PcPrice": "$6.99",
     "Round": "15",
     "Name": "Garuda Successor Skin"
+  },
+  "Arcosolium Arca Plasmor Skin": {
+    "ConsolePrice": "50",
+    "Type": "Weapon Skin",
+    "Description": "A unique Arca Plasmor skin, designed by Apollo Phoenix.",
+    "Link": "Arcosolium Arca Plasmor Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3211565808",
+    "Image": "ArcosoliumArcaPlasmorSkin.png",
+    "Artists": [
+      "Apollo Phoenix"
+    ],
+    "Introduced": "38.6.3",
+    "PcPrice": "$5.99",
+    "Round": "TennoGen Isleweaver",
+    "Name": "Arcosolium Arca Plasmor Skin"
   },
   "Rhino Mastodon Skin": {
     "ConsolePrice": "165",
@@ -2295,6 +2310,21 @@
     "Round": "10",
     "Name": "Valkyr Ion Helmet"
   },
+  "Frost Vojnik Skin": {
+    "ConsolePrice": "N/A",
+    "Type": "Skin",
+    "Description": "A unique skin for the Frost Warframe, designed by Volkovyi.",
+    "Link": "Frost Vojnik Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=665327123",
+    "Image": "FrostVojnikSkin.png",
+    "Artists": [
+      "Volkovyi"
+    ],
+    "Introduced": "18.13",
+    "PcPrice": "$4.99",
+    "Round": "3",
+    "Name": "Frost Vojnik Skin"
+  },
   "Zhivira Shoulder Armor": {
     "ConsolePrice": "50",
     "Type": "Armor",
@@ -2311,21 +2341,6 @@
     "Round": "23 [Batch 2]",
     "Name": "Zhivira Shoulder Armor"
   },
-  "Frost Vojnik Skin": {
-    "ConsolePrice": "N/A",
-    "Type": "Skin",
-    "Description": "A unique skin for the Frost Warframe, designed by Volkovyi.",
-    "Link": "Frost Vojnik Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=665327123",
-    "Image": "FrostVojnikSkin.png",
-    "Artists": [
-      "Volkovyi"
-    ],
-    "Introduced": "18.13",
-    "PcPrice": "$4.99",
-    "Round": "3",
-    "Name": "Frost Vojnik Skin"
-  },
   "Volt Arrester Helmet": {
     "ConsolePrice": "75",
     "Type": "Helmet",
@@ -2340,21 +2355,6 @@
     "PcPrice": "$5.99",
     "Round": "Polycount",
     "Name": "Volt Arrester Helmet"
-  },
-  "Zephyr Monsoon Helmet": {
-    "ConsolePrice": "N/A",
-    "Type": "Helmet",
-    "Description": "A helmet for the Zephyr Warframe, designed by artarrwen.",
-    "Link": "Zephyr Monsoon Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=605985394",
-    "Image": "ZephyrMonsoonHelmet.png",
-    "Artists": [
-      "artarrwen"
-    ],
-    "Introduced": "18.6.3",
-    "PcPrice": "$5.99",
-    "Round": "2",
-    "Name": "Zephyr Monsoon Helmet"
   },
   "Harrow Profitas Skin": {
     "ConsolePrice": "165",
@@ -2372,6 +2372,21 @@
     "Round": "TennoGen Fables & Frontiers",
     "Name": "Harrow Profitas Skin"
   },
+  "Zephyr Monsoon Helmet": {
+    "ConsolePrice": "N/A",
+    "Type": "Helmet",
+    "Description": "A helmet for the Zephyr Warframe, designed by artarrwen.",
+    "Link": "Zephyr Monsoon Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=605985394",
+    "Image": "ZephyrMonsoonHelmet.png",
+    "Artists": [
+      "artarrwen"
+    ],
+    "Introduced": "18.6.3",
+    "PcPrice": "$5.99",
+    "Round": "2",
+    "Name": "Zephyr Monsoon Helmet"
+  },
   "Zephyr Migisi Helmet": {
     "ConsolePrice": "N/A",
     "Type": "Helmet",
@@ -2386,21 +2401,6 @@
     "PcPrice": "$5.99",
     "Round": "4",
     "Name": "Zephyr Migisi Helmet"
-  },
-  "Khora Mithra Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Khora Warframe, designed by lukinu_u.",
-    "Link": "Khora Mithra Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1420061655",
-    "Image": "KhoraMithraSkin.png",
-    "Artists": [
-      "lukinu_u"
-    ],
-    "Introduced": "25.1",
-    "PcPrice": "$6.99",
-    "Round": "16",
-    "Name": "Khora Mithra Skin"
   },
   "Gara Adora Helmet": {
     "ConsolePrice": "105",
@@ -2433,20 +2433,20 @@
     "Round": "13",
     "Name": "Nova Corpra Skin"
   },
-  "Zephyr Graxx Skin": {
+  "Khora Mithra Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
-    "Description": "A unique skin for the Zephyr Warframe, designed by Faven.",
-    "Link": "Zephyr Graxx Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1309153880",
-    "Image": "ZephyrGraxxSkin.png",
+    "Description": "A unique skin for the Khora Warframe, designed by lukinu_u.",
+    "Link": "Khora Mithra Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1420061655",
+    "Image": "KhoraMithraSkin.png",
     "Artists": [
-      "Faven"
+      "lukinu_u"
     ],
-    "Introduced": "24.1",
+    "Introduced": "25.1",
     "PcPrice": "$6.99",
-    "Round": "14",
-    "Name": "Zephyr Graxx Skin"
+    "Round": "16",
+    "Name": "Khora Mithra Skin"
   },
   "Khora Laveau Helmet": {
     "ConsolePrice": "105",
@@ -2495,6 +2495,35 @@
     "Round": "9",
     "Name": "Equinox Insomnia Skin"
   },
+  "Zephyr Graxx Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Zephyr Warframe, designed by Faven.",
+    "Link": "Zephyr Graxx Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1309153880",
+    "Image": "ZephyrGraxxSkin.png",
+    "Artists": [
+      "Faven"
+    ],
+    "Introduced": "24.1",
+    "PcPrice": "$6.99",
+    "Round": "14",
+    "Name": "Zephyr Graxx Skin"
+  },
+  "Oraxia Agamva Helmet": {
+    "ConsolePrice": "105",
+    "Type": "Helmet",
+    "Description": "A helmet for the Oraxia Warframe, designed by led2012",
+    "Link": "Oraxia Agamva Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3639514760",
+    "Image": "OraxiaAgamvaHelmet.png",
+    "Artists": [
+      "led2012"
+    ],
+    "PcPrice": "$5.99",
+    "Round": "TennoGen Fables & Frontiers",
+    "Name": "Oraxia Agamva Helmet"
+  },
   "Zephyr Blade Of The Lotus Skin": {
     "ConsolePrice": "165",
     "Type": "Deluxe",
@@ -2510,19 +2539,20 @@
     "Round": "19 [Batch 1]",
     "Name": "Zephyr Blade Of The Lotus Skin"
   },
-  "Oraxia Agamva Helmet": {
+  "Hammer Maulleus Skin": {
     "ConsolePrice": "105",
-    "Type": "Helmet",
-    "Description": "A helmet for the Oraxia Warframe, designed by led2012",
-    "Link": "Oraxia Agamva Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3639514760",
-    "Image": "OraxiaAgamvaHelmet.png",
+    "Type": "Weapon Skin",
+    "Description": "A unique Hammer skin, designed by Vhynnz.",
+    "Link": "Maulleus Hammer Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3638709134",
+    "Image": "MaulleusHammerSkin.png",
     "Artists": [
-      "led2012"
+      "Vhynnz"
     ],
+    "Introduced": "42",
     "PcPrice": "$5.99",
-    "Round": "TennoGen Fables & Frontiers",
-    "Name": "Oraxia Agamva Helmet"
+    "Round": "TennoGen Shadowgrapher",
+    "Name": "Maulleus Hammer Skin"
   },
   "Xulatu Chest Armor": {
     "ConsolePrice": "45",
@@ -2540,21 +2570,6 @@
     "Round": "19 [Batch 1]",
     "Name": "Xulatu Chest Armor"
   },
-  "Hammer Maulleus Skin": {
-    "ConsolePrice": "105",
-    "Type": "Weapon Skin",
-    "Description": "A unique Hammer skin, designed by Vhynnz.",
-    "Link": "Maulleus Hammer Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3638709134",
-    "Image": "MaulleusHammerSkin.png",
-    "Artists": [
-      "Vhynnz"
-    ],
-    "Introduced": "42",
-    "PcPrice": "$5.99",
-    "Round": "TennoGen Shadowgrapher",
-    "Name": "Maulleus Hammer Skin"
-  },
   "Xiphos Lilieae Skin": {
     "ConsolePrice": "90",
     "Type": "Landing Craft",
@@ -2568,22 +2583,6 @@
     "PcPrice": "$4.99",
     "Round": "21 [Batch 2]",
     "Name": "Xiphos Lilieae Skin"
-  },
-  "Heavy Blade Karv'r Skin": {
-    "ConsolePrice": "105",
-    "Type": "Weapon Skin",
-    "Description": "A unique Heavy Blade skin, designed by Faven and Scharkie.",
-    "Link": "Heavy Blade Karv'r Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1446787169",
-    "Image": "SWRFourteenKarvrGreatswordSkin.png",
-    "Artists": [
-      "Faven",
-      "Scharkie"
-    ],
-    "Introduced": "24.1",
-    "PcPrice": "$5.99",
-    "Round": "14",
-    "Name": "Heavy Blade Karv'r Skin"
   },
   "Banshee Blade Of The Lotus Skin": {
     "ConsolePrice": "165",
@@ -2631,6 +2630,22 @@
     "Round": "20 [Batch 1]",
     "Name": "Octavia Giocoso Helmet"
   },
+  "Heavy Blade Karv'r Skin": {
+    "ConsolePrice": "105",
+    "Type": "Weapon Skin",
+    "Description": "A unique Heavy Blade skin, designed by Faven and Scharkie.",
+    "Link": "Heavy Blade Karv'r Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1446787169",
+    "Image": "SWRFourteenKarvrGreatswordSkin.png",
+    "Artists": [
+      "Faven",
+      "Scharkie"
+    ],
+    "Introduced": "24.1",
+    "PcPrice": "$5.99",
+    "Round": "14",
+    "Name": "Heavy Blade Karv'r Skin"
+  },
   "Xairaks Chest Armor": {
     "ConsolePrice": "45",
     "Type": "Armor",
@@ -2647,21 +2662,6 @@
     "PcPrice": "$2.49",
     "Round": "TennoGen Factions",
     "Name": "Xairaks Chest Armor"
-  },
-  "Xaku Deathea Skin": {
-    "ConsolePrice": "165",
-    "Type": "Deluxe",
-    "Description": "A unique skin for the Xaku Warframe, designed by kakarrot2812.",
-    "Link": "Xaku Deathea Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2877135903",
-    "Image": "XakuDeatheaSkin.png",
-    "Artists": [
-      "kakarrot2812"
-    ],
-    "Introduced": "33",
-    "PcPrice": "$6.99",
-    "Round": "23 [Batch 1]",
-    "Name": "Xaku Deathea Skin"
   },
   "Paxis Shoulder Armor": {
     "ConsolePrice": "50",
@@ -2680,20 +2680,20 @@
     "Round": "22 [Batch 2]",
     "Name": "Paxis Shoulder Armor"
   },
-  "Wukong Xingzhe Helmet": {
-    "ConsolePrice": "75",
-    "Type": "Helmet",
-    "Description": "A helmet for the Wukong Warframe, designed by Rekkou.",
-    "Link": "Wukong Xingzhe Helmet",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=740966643",
-    "Image": "WukongXingzheHelmet.png",
+  "Xaku Deathea Skin": {
+    "ConsolePrice": "165",
+    "Type": "Deluxe",
+    "Description": "A unique skin for the Xaku Warframe, designed by kakarrot2812.",
+    "Link": "Xaku Deathea Skin",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2877135903",
+    "Image": "XakuDeatheaSkin.png",
     "Artists": [
-      "Rekkou"
+      "kakarrot2812"
     ],
-    "Introduced": "The Index Preview",
-    "PcPrice": "$5.99",
-    "Round": "5",
-    "Name": "Wukong Xingzhe Helmet"
+    "Introduced": "33",
+    "PcPrice": "$6.99",
+    "Round": "23 [Batch 1]",
+    "Name": "Xaku Deathea Skin"
   },
   "Mag Knaita Skin": {
     "ConsolePrice": "90",
@@ -2709,6 +2709,21 @@
     "PcPrice": "$4.99",
     "Round": "1",
     "Name": "Mag Knaita Skin"
+  },
+  "Wukong Xingzhe Helmet": {
+    "ConsolePrice": "75",
+    "Type": "Helmet",
+    "Description": "A helmet for the Wukong Warframe, designed by Rekkou.",
+    "Link": "Wukong Xingzhe Helmet",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=740966643",
+    "Image": "WukongXingzheHelmet.png",
+    "Artists": [
+      "Rekkou"
+    ],
+    "Introduced": "The Index Preview",
+    "PcPrice": "$5.99",
+    "Round": "5",
+    "Name": "Wukong Xingzhe Helmet"
   },
   "Wukong Piercing Eye Skin": {
     "ConsolePrice": "165",
@@ -2739,21 +2754,6 @@
     "PcPrice": "$6.99",
     "Round": "16",
     "Name": "Wukong Mithra Skin"
-  },
-  "Arca Plasmor Arcosolium Skin": {
-    "ConsolePrice": "50",
-    "Type": "Weapon Skin",
-    "Description": "A unique Arca Plasmor skin, designed by Apollo Phoenix.",
-    "Link": "Arca Plasmor Arcosolium Skin",
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=3211565808",
-    "Image": "ArcosoliumArcaPlasmorSkin.png",
-    "Artists": [
-      "Apollo Phoenix"
-    ],
-    "Introduced": "38.6.3",
-    "PcPrice": "$5.99",
-    "Round": "TennoGen Isleweaver",
-    "Name": "Arca Plasmor Arcosolium Skin"
   },
   "Wukong Auman Skin": {
     "ConsolePrice": "165",

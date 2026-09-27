@@ -2625,7 +2625,7 @@ return {
 			Sprint = 1.1,
 			SquadPortrait = "NarinLargePortrait.png",
 			Subsumed = "Neote",
-			-- Tactical = "Balefire",
+			Tactical = "Hakchum",
 			Themes = "Blade Dancer, Red-Crowned Crane, Winter",
 			Type = "Warframe"
 		},

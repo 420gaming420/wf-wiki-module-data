@@ -2319,6 +2319,7 @@ local honoriaData = {
 		Tags = { "KIM" },
 	},
 	["Retributor"] = {
+		_IgnoreEntry = true,
 		Name = "Retributor",
 		Link = "Retributor",
 		Description = "Obtained from having completed the [[Law of Retribution]] Trial.",
@@ -2330,6 +2331,7 @@ local honoriaData = {
 		Tags = { "Trials" },
 	},
 	["Vay Hek's Nightmare"] = {
+		_IgnoreEntry = true,
 		Name = "Vay Hek's Nightmare",
 		Link = "Vay Hek's Nightmare",
 		Description = "Obtained from having completed the Nightmare [[Law of Retribution]] Trial.",
@@ -2341,6 +2343,7 @@ local honoriaData = {
 		Tags = { "Trials" },
 	},
 	["The Final Verdict"] = {
+		_IgnoreEntry = true,
 		Name = "The Final Verdict",
 		Link = "The Final Verdict",
 		Description = "Obtained from having completed the [[Jordas Verdict]] Trial.",
@@ -2352,6 +2355,7 @@ local honoriaData = {
 		Tags = { "Trials" },
 	},
 	["Tried and True"] = {
+		_IgnoreEntry = true,
 		Name = "Tried and True",
 		Link = "Tried and True",
 		Description = "Obtained from having completed both the [[Law of Retribution]] and [[Jordas Verdict]] Trials.",

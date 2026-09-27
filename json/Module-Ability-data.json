@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-26T07:16:22.052Z"
+    "converted_at": "2026-09-27T07:48:38.368Z"
   },
   "_comments": "-- CTRL + F \"Warframe Name\" to immediately go to the location of that \n-- Warframe/Necramech/Helminth's abilities\n-- Note that [\"Warframe\"] subtable indexes ability by the Warframe they belong to\n-- You can define alternate cost ( ex shields , health , mutation etc using CostType = , its defined in Module:Ability/infobox)\n\t\t\t--Augments = { \"\" },\n\t\t\t-- Weapon = {\"Dex Pixia\", \"Diwata\"}\n\t\t\t-- Weapon = \"Exalted Blade\"\n    -- v.Name, v.Link = v.Name or k, v.Link or k",
   "Archived": {
@@ -2170,7 +2170,7 @@
       "Icon": "PleinAirIcon(xWhite).png"
     },
     "Covenant": {
-      "Description": "Protect nearby allies with an energy force that absorbs all damage and converts it to a Critical Chance bonus for all those under the Covenant. Headshots are amplified even further.",
+      "Description": "Protect nearby allies with an energy force that absorbs all damage and converts it to a Critical Chance bonus for all those under the Covenant. Weak Points are amplified even further.",
       "Cost": 100,
       "Augments": [
         "Lasting Covenant"
@@ -3759,7 +3759,7 @@
       "Icon": "Lycath'sHuntIcon(xWhite).png"
     },
     "Thurible": {
-      "Description": "Channel Harrow's energy into the Thurible to generate a buff. Once finished, kill enemies to bestow nearby allies with bursts of energy. The more energy channeled the greater the reward for each kill. Headshots produce extra energy.",
+      "Description": "Channel Harrow's energy into the Thurible to generate a buff. Once finished, kill enemies to bestow nearby allies with bursts of energy. The more energy channeled the greater the reward for each kill. Weak Points produce extra energy.",
       "Cost": 25,
       "Augments": [
         "Warding Thurible"

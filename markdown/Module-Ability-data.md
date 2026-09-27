@@ -1,7 +1,7 @@
 ---
 title: "Module:Ability/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Ability/data"
-wiki_timestamp: "2026-09-24T22:11:53Z"
+wiki_timestamp: "2026-09-27T06:46:17Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Add [Railjack](/w/Railjack "Railjack") abilities like [Phoenix Blaze](/w/Phoenix
 
 Database of abilities in [WARFRAME](/w/WARFRAME "WARFRAME").
 
-:   *Last updated: Thu, 24 Sep 2026 22:11:53 +0000 (UTC) by [User:Stygian](/w/User:Stygian "User:Stygian") ([change log](https://wiki.warframe.com/w/Module:Ability/data?diff=0))*
+:   *Last updated: Sun, 27 Sep 2026 06:46:17 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Ability/data?diff=0))*
 
 ## Contents
 
@@ -918,7 +918,7 @@ local AbilityData = {
 			Preview = "CovenantPreview.webm",
 			PreviewFallback = "CovenantPreview.jpg",
 			Cost = 100,
-			Description = "Protect nearby allies with an energy force that absorbs all damage and converts it to a Critical Chance bonus for all those under the Covenant. Headshots are amplified even further.",
+			Description = "Protect nearby allies with an energy force that absorbs all damage and converts it to a Critical Chance bonus for all those under the Covenant. Weak Points are amplified even further.",
 			Icon = "CovenantIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Priest/Abilities/PriestPactAbility",
 			Introduced = "21",
@@ -4457,7 +4457,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Preview = "ThuriblePreview.webm",
 			PreviewFallback = "ThuriblePreview.jpg",
 			Cost = 25,
-			Description = "Channel Harrow's energy into the Thurible to generate a buff. Once finished, kill enemies to bestow nearby allies with bursts of energy. The more energy channeled the greater the reward for each kill. Headshots produce extra energy.",
+			Description = "Channel Harrow's energy into the Thurible to generate a buff. Once finished, kill enemies to bestow nearby allies with bursts of energy. The more energy channeled the greater the reward for each kill. Weak Points produce extra energy.",
 			Icon = "ThuribleIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Priest/Abilities/PriestRavageAbility",
 			Introduced = "21",

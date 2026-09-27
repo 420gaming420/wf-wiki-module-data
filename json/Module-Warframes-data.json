@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-26T07:16:58.675Z"
+    "converted_at": "2026-09-27T07:48:59.696Z"
   },
   "_comments": "\t\t-- Please edit the entry below with the correct info once we know more about --\n\t\t\t-- AuraPolarity = \"Naramon\",\n\t\t\t-- ExilusPolarity = \"Naramon\",\n\t\t\t-- Subsumed = \"Balefire\",\n\t\t\t-- Tactical = \"Balefire\",\n\t\t    -- Subsumed = \"Jade Stars\",\n\t\t    -- Tactical = \"Light's Sanctuary\",",
   "Archwings": {
@@ -5787,19 +5787,16 @@
       "Name": "Nidus"
     },
     "Narin": {
-      "Sprint": 1.1,
       "EnergyRank30": 0,
-      "Description": "Narin descends in swirling eddies, her blade keen and deadly as an icy wind. She wields ice to defend as deftly as her swift rapier strikes.",
-      "Conclave": false,
-      "Helmet": "NarinHelmet.png",
-      "Type": "Warframe",
       "MaxRank": 30,
       "Themes": "Blade Dancer, Red-Crowned Crane, Winter",
-      "Name": "Narin",
-      "Image": "Narin_Thumb.png",
-      "AugmentShop": {},
+      "Tactical": "Hakchum",
+      "Passive": "Each stack of <DT_FREEZE_COLOR>Cold Status Effect on enemies increase chance to spawn Sangodae pickup by 1%, granting <DT_FREEZE_COLOR>Extra Cold Damage on Primary and Secondary weapons for 10s. Narin also gains Cold Damage for her abilities.",
       "Introduced": "44.0",
-      "Armor": 165,
+      "Polarities": [
+        "Madurai",
+        "Vazarin"
+      ],
       "FullImages": [
         {
           "TabName": "Full Body",
@@ -5807,17 +5804,24 @@
         }
       ],
       "InternalName": "/Lotus/Powersuits/Duelist/Duelist",
-      "Shield": 550,
+      "Type": "Warframe",
+      "Link": "Narin",
+      "Health": 270,
+      "Playstyle": [
+        "Damage",
+        "Crowd Control"
+      ],
+      "CodexSecret": false,
+      "Sprint": 1.1,
+      "Description": "Narin descends in swirling eddies, her blade keen and deadly as an icy wind. She wields ice to defend as deftly as her swift rapier strikes.",
+      "Conclave": false,
+      "Helmet": "NarinHelmet.png",
+      "Image": "Narin_Thumb.png",
+      "AugmentShop": {},
+      "Armor": 165,
       "Progenitor": "Cold",
       "SquadPortrait": "NarinLargePortrait.png",
-      "Passive": "Each stack of <DT_FREEZE_COLOR>Cold Status Effect on enemies increase chance to spawn Sangodae pickup by 1%, granting <DT_FREEZE_COLOR>Extra Cold Damage on Primary and Secondary weapons for 10s. Narin also gains Cold Damage for her abilities.",
-      "Link": "Narin",
-      "SellPrice": 10000,
-      "Portrait": "Narin_Thumb.png",
-      "Polarities": [
-        "Madurai",
-        "Vazarin"
-      ],
+      "Shield": 550,
       "InitialEnergy": 50,
       "Subsumed": "Neote",
       "AuraPolarity": "Naramon",
@@ -5828,13 +5832,10 @@
         "Nurinarim"
       ],
       "Sex": "Female",
-      "Playstyle": [
-        "Damage",
-        "Crowd Control"
-      ],
-      "Health": 270,
+      "SellPrice": 10000,
+      "Portrait": "Narin_Thumb.png",
       "Energy": 200,
-      "CodexSecret": false
+      "Name": "Narin"
     },
     "Nezha Prime": {
       "ShieldRank30": 185,

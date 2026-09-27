@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-26T07:17:06.618Z"
+    "converted_at": "2026-09-27T07:49:02.339Z"
   },
   "_comments": "",
   "Castanas": {
@@ -4053,7 +4053,7 @@
       {
         "CritChance": 0.24,
         "StatusChance": 0.22,
-        "FireRate": 10,
+        "FireRate": 4,
         "MinSpread": 0.5,
         "IsSilent": false,
         "Range": 300,

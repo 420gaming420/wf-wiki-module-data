@@ -1,7 +1,7 @@
 ---
 title: "Module:Weapons/data/secondary"
 wiki_url: "https://wiki.warframe.com/w/Module/Weapons/data/secondary"
-wiki_timestamp: "2026-09-26T05:23:41Z"
+wiki_timestamp: "2026-09-26T12:24:58Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s [Secondary Weapons](/w/Secondary_Weapon "Secondary Weapon").
@@ -54,7 +54,7 @@ Thanks, you're awesome!
 * [11 Weapon Data](#Weapon_Data)
 * [12 References](#References)
 
-:   *Last updated: Sat, 26 Sep 2026 05:23:41 +0000 (UTC) by [User:Cephalon Scientia](/w/User:Cephalon_Scientia "User:Cephalon Scientia") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/secondary?diff=0))*
+:   *Last updated: Sat, 26 Sep 2026 12:24:58 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/secondary?diff=0))*
 
 ## Horizontal Partitions (and where to update data)
 
@@ -2876,7 +2876,7 @@ return {
 				CritChance = 0.24,
 				CritMultiplier = 2.6,
 				Damage = { Puncture = 70, Cold = 70 },
-				FireRate = 10,
+				FireRate = 4,
 				IsSilent = false,
 				MaxSpread = 7,
 				MinSpread = 0.5,

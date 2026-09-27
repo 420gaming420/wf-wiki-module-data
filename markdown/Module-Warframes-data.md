@@ -1,7 +1,7 @@
 ---
 title: "Module:Warframes/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Warframes/data"
-wiki_timestamp: "2026-09-25T22:52:24Z"
+wiki_timestamp: "2026-09-26T20:10:42Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes [Warframes](/w/Warframes "Warframes"), [Necramechs](/w/Necramech "Necramech"), [Archwings](/w/Archwing "Archwing"), and [Operators](/w/Operator "Operator").
@@ -13,7 +13,7 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes
 * [3 Data Sources](#Data_Sources)
 * [4 Warframe/Avatar Data](#Warframe/Avatar_Data)
 
-:   *Last updated: Fri, 25 Sep 2026 22:52:24 +0000 (UTC) by [User:Unlucky Kitsune](/w/User:Unlucky_Kitsune?action=edit&redlink=1 "User:Unlucky Kitsune (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Warframes/data?diff=0))*
+:   *Last updated: Sat, 26 Sep 2026 20:10:42 +0000 (UTC) by [User:CasualDon](/w/User:CasualDon "User:CasualDon") ([change log](https://wiki.warframe.com/w/Module:Warframes/data?diff=0))*
 
 ## Warframe/Avatar Data Schema
 
@@ -2747,7 +2747,7 @@ return {
 			Sprint = 1.1,
 			SquadPortrait = "NarinLargePortrait.png",
 			Subsumed = "Neote",
-			-- Tactical = "Balefire",
+			Tactical = "Hakchum",
 			Themes = "Blade Dancer, Red-Crowned Crane, Winter",
 			Type = "Warframe"
 		},

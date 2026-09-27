@@ -1,12 +1,12 @@
 ---
 title: "Module:Honorias/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Honorias/data"
-wiki_timestamp: "2026-09-25T17:15:50Z"
+wiki_timestamp: "2026-09-26T19:45:30Z"
 ---
 
 Database for all [Honorias](/w/Honoria "Honoria") in [WARFRAME](/w/WARFRAME "WARFRAME"). Preferably put new honorias in the correct alphabetical order, but it is not necessary.
 
-:   *Last updated: Fri, 25 Sep 2026 17:15:50 +0000 (UTC) by [User:~2026-CryMoreTrustIndustrial50436](/w/User:~2026-CryMoreTrustIndustrial50436?action=edit&redlink=1 "User:~2026-CryMoreTrustIndustrial50436 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
+:   *Last updated: Sat, 26 Sep 2026 19:45:30 +0000 (UTC) by [User:ArbitraryMary](/w/User:ArbitraryMary "User:ArbitraryMary") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
 
 ## Contents
 
@@ -2411,6 +2411,7 @@ local honoriaData = {
 		Tags = { "KIM" },
 	},
 	["Retributor"] = {
+		_IgnoreEntry = true,
 		Name = "Retributor",
 		Link = "Retributor",
 		Description = "Obtained from having completed the [[Law of Retribution]] Trial.",
@@ -2422,6 +2423,7 @@ local honoriaData = {
 		Tags = { "Trials" },
 	},
 	["Vay Hek's Nightmare"] = {
+		_IgnoreEntry = true,
 		Name = "Vay Hek's Nightmare",
 		Link = "Vay Hek's Nightmare",
 		Description = "Obtained from having completed the Nightmare [[Law of Retribution]] Trial.",
@@ -2433,6 +2435,7 @@ local honoriaData = {
 		Tags = { "Trials" },
 	},
 	["The Final Verdict"] = {
+		_IgnoreEntry = true,
 		Name = "The Final Verdict",
 		Link = "The Final Verdict",
 		Description = "Obtained from having completed the [[Jordas Verdict]] Trial.",
@@ -2444,6 +2447,7 @@ local honoriaData = {
 		Tags = { "Trials" },
 	},
 	["Tried and True"] = {
+		_IgnoreEntry = true,
 		Name = "Tried and True",
 		Link = "Tried and True",
 		Description = "Obtained from having completed both the [[Law of Retribution]] and [[Jordas Verdict]] Trials.",
