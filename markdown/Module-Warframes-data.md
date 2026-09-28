@@ -1,7 +1,7 @@
 ---
 title: "Module:Warframes/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Warframes/data"
-wiki_timestamp: "2026-09-26T20:10:42Z"
+wiki_timestamp: "2026-09-27T14:48:22Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes [Warframes](/w/Warframes "Warframes"), [Necramechs](/w/Necramech "Necramech"), [Archwings](/w/Archwing "Archwing"), and [Operators](/w/Operator "Operator").
@@ -13,7 +13,7 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes
 * [3 Data Sources](#Data_Sources)
 * [4 Warframe/Avatar Data](#Warframe/Avatar_Data)
 
-:   *Last updated: Sat, 26 Sep 2026 20:10:42 +0000 (UTC) by [User:CasualDon](/w/User:CasualDon "User:CasualDon") ([change log](https://wiki.warframe.com/w/Module:Warframes/data?diff=0))*
+:   *Last updated: Sun, 27 Sep 2026 14:48:22 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Warframes/data?diff=0))*
 
 ## Warframe/Avatar Data Schema
 
@@ -2715,7 +2715,6 @@ return {
 			Type = "Warframe",
 			Vaulted = true 
 		},
-		-- Please edit the entry below with the correct info once we know more about --
 		Narin = {
 			Abilities = { "Neote", "Naraemagi", "Hakchum", "Nurinarim" },
 			Armor = 165,
@@ -2725,7 +2724,7 @@ return {
 			Conclave = false,
 			Description = "Narin descends in swirling eddies, her blade keen and deadly as an icy wind. She wields ice to defend as deftly as her swift rapier strikes.",
 			Energy = 200,
-			EnergyRank30 = 0,
+			EnergyRank30 = 290,
 			FullImages = { { TabName = "Full Body", Image = "Narin.png" } },
 			Health = 270,
 			Helmet = "NarinHelmet.png",

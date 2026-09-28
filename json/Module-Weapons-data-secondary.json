@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-27T07:49:02.339Z"
+    "converted_at": "2026-09-28T08:26:15.516Z"
   },
   "_comments": "",
   "Castanas": {
@@ -4051,9 +4051,10 @@
     "Name": "Aksondol",
     "Attacks": [
       {
-        "CritChance": 0.24,
         "StatusChance": 0.22,
+        "CritChance": 0.24,
         "FireRate": 4,
+        "ShotSpeed": 110,
         "MinSpread": 0.5,
         "IsSilent": false,
         "Range": 300,
@@ -4063,7 +4064,7 @@
         "AttackIndex": 1,
         "AttackName": "Normal Attack",
         "PunchThrough": 0,
-        "ShotType": "Hit-Scan",
+        "ShotType": "Projectile",
         "Damage": {
           "Puncture": 70,
           "Cold": 70

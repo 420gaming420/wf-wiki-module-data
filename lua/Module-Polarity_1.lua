@@ -55,7 +55,7 @@ p.POLARITY_NICKNAME_MAP = {
 --							  icon will only be inverted on dark theme
 --	@return			{string} Wikitext link of image of polarity
 function p._polarity(pol, lightIconOnly)
-	return string.format('[[File:%s|20px|class=icon noSelect '..(lightIconOnly and 'invert' or 'dark-invert')..']]', 
+	return string.format('[[File:%s|20px|link=Polarity|class=icon noSelect '..(lightIconOnly and 'invert' or 'dark-invert')..']]', 
 		p.IMAGE_MAP[p.POLARITY_NICKNAME_MAP[pol] or pol] or error('p._polarity(pol): Could not find polarity: '..mw.dumpObject(pol)))
 end
 

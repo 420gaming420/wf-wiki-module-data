@@ -1,7 +1,7 @@
 ---
 title: "Module:Arcane/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Arcane/data"
-wiki_timestamp: "2026-09-24T14:38:40Z"
+wiki_timestamp: "2026-09-27T16:45:14Z"
 ---
 
 Database of [Arcane Enhancements](/w/Arcane_Enhancement "Arcane Enhancement").
@@ -13,7 +13,7 @@ Database of [Arcane Enhancements](/w/Arcane_Enhancement "Arcane Enhancement").
   + [2.1 Checking for required keys](#Checking_for_required_keys)
   + [2.2 Validating data types of values](#Validating_data_types_of_values)
 
-:   *Last updated: Thu, 24 Sep 2026 14:38:40 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Arcane/data?diff=0))*
+:   *Last updated: Sun, 27 Sep 2026 16:45:14 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Arcane/data?diff=0))*
 
 ## Arcane Entry Schema
 
@@ -1064,7 +1064,7 @@ return {
 		},
 		["Cascadia Accuracy"] = {
 			CodexSecret = false,
-			Description = "On Roll:\r\n+300% Critical Chance on Weakpoint Hits for 4s",
+			Description = "On Roll:\r\n+300% Critical Chance on Weak Point Hits for 4s",
 			Dissolution = 22,
 			Icon = "CascadiaAccuracy64x.png",
 			Image = "CascadiaAccuracy.png",

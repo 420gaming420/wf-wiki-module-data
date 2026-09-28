@@ -2593,7 +2593,6 @@ return {
 			Type = "Warframe",
 			Vaulted = true 
 		},
-		-- Please edit the entry below with the correct info once we know more about --
 		Narin = {
 			Abilities = { "Neote", "Naraemagi", "Hakchum", "Nurinarim" },
 			Armor = 165,
@@ -2603,7 +2602,7 @@ return {
 			Conclave = false,
 			Description = "Narin descends in swirling eddies, her blade keen and deadly as an icy wind. She wields ice to defend as deftly as her swift rapier strikes.",
 			Energy = 200,
-			EnergyRank30 = 0,
+			EnergyRank30 = 290,
 			FullImages = { { TabName = "Full Body", Image = "Narin.png" } },
 			Health = 270,
 			Helmet = "NarinHelmet.png",

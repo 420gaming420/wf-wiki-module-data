@@ -984,7 +984,7 @@ return {
 		},
 		["Cascadia Accuracy"] = {
 			CodexSecret = false,
-			Description = "On Roll:\r\n+300% Critical Chance on Weakpoint Hits for 4s",
+			Description = "On Roll:\r\n+300% Critical Chance on Weak Point Hits for 4s",
 			Dissolution = 22,
 			Icon = "CascadiaAccuracy64x.png",
 			Image = "CascadiaAccuracy.png",

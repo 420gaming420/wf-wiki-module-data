@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-26T07:16:42.071Z"
+    "converted_at": "2026-09-28T08:26:02.218Z"
   },
   "_comments": "\t\t-- Update 42: The Shadowgrapher\n\t\t-- Update 43: Jade Shadows: Constellations\n\t\t\t-- InternalName = \"/Lotus/Types/Game/MissionDecks/JadeShadowsConstellationsRewards/JS2KuvaWytchRewardsExtra\",\n-- TODO: This data should just be in the data by default instead of generated since we\n-- will eventually bump into issues with weapons that share similar suffixes. For example,\n-- if DE releases a weapon named Dorma, then it will conflict with Forma entries.\n-- Any reward names that start with these strings are not found in Missions tables\n-- Only include weapons with parts (i.e. 'Broken War' and 'Twin Kohmak' can be safely omitted)\n\t-- ['roken War'] = true,\t-- Broken War parts is dropped by enemies\n\t-- ['win Kohmak'] = true,\t-- Twin Kohmak\n\t-- or sk:find'^Eidolon'",
   "Rewards": {
@@ -186382,7 +186382,7 @@
         "Entry": [
           "Narin Blueprint",
           "Blueprint",
-          9.3
+          8.89
         ],
         "Source": {
           "Type": "Exterminate",
@@ -186394,81 +186394,81 @@
               [
                 "Credits Cache",
                 "Credits",
-                32.56,
+                35.56,
                 10000
               ],
               [
                 "Endo",
                 "Resource",
-                16.28,
+                15.56,
                 900
               ],
               [
                 "Voidgel Orb",
                 "Resource",
-                9.3
+                8.89
               ],
               [
                 "Entrati Lanthorn",
                 "Resource",
-                9.3
+                8.89
               ],
               [
                 "Galeforce Dawn",
                 "Mod",
-                4.65
+                4.44
               ],
               [
                 "Meso Y2",
                 "Relic",
-                2.33
+                2.22
               ],
               [
                 "Meso K9",
                 "Relic",
-                2.33
+                2.22
               ],
               [
                 "Meso V17",
                 "Relic",
-                2.33
+                2.22
               ],
               [
                 "Meso D8",
                 "Relic",
-                2.33
+                2.22
               ],
               [
                 "Meso V13",
                 "Relic",
-                2.33
+                2.22
               ],
               [
                 "Meso A12",
                 "Relic",
-                2.33
+                2.22
               ],
               [
                 "Meso D9",
                 "Relic",
-                2.33
+                2.22
               ],
               [
                 "Meso C11",
                 "Relic",
-                2.33
+                2.22
               ],
               [
                 "Narin Blueprint",
                 "Blueprint",
-                9.3
+                8.89
               ]
             ]
           },
           "Alias": "ZarimanExterminate",
           "InternalName": "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/ZarimanExterminateRewards"
         },
-        "Probability": 0.093
+        "Probability": 0.0889
       },
       {
         "1": "Missions",
@@ -186478,7 +186478,7 @@
         "Entry": [
           "Narin Blueprint",
           "Blueprint",
-          9.3
+          8.89
         ],
         "Source": {
           "Type": "Mobile Defense",
@@ -186490,81 +186490,81 @@
               [
                 "Credits Cache",
                 "Credits",
-                32.56,
+                35.56,
                 10000
               ],
               [
                 "Endo",
                 "Resource",
-                16.28,
+                15.56,
                 900
               ],
               [
                 "Voidgel Orb",
                 "Resource",
-                9.3
+                8.89
               ],
               [
                 "Entrati Lanthorn",
                 "Resource",
-                9.3
+                8.89
               ],
               [
                 "Galeforce Dawn",
                 "Mod",
-                4.65
+                4.44
               ],
               [
                 "Meso Y2",
                 "Relic",
-                2.33
+                2.22
               ],
               [
                 "Meso K9",
                 "Relic",
-                2.33
+                2.22
               ],
               [
                 "Meso V17",
                 "Relic",
-                2.33
+                2.22
               ],
               [
                 "Meso D8",
                 "Relic",
-                2.33
+                2.22
               ],
               [
                 "Meso V13",
                 "Relic",
-                2.33
+                2.22
               ],
               [
                 "Meso A12",
                 "Relic",
-                2.33
+                2.22
               ],
               [
                 "Meso D9",
                 "Relic",
-                2.33
+                2.22
               ],
               [
                 "Meso C11",
                 "Relic",
-                2.33
+                2.22
               ],
               [
                 "Narin Blueprint",
                 "Blueprint",
-                9.3
+                8.89
               ]
             ]
           },
           "Alias": "ZarimanMobileDefense",
           "InternalName": "/Lotus/Types/Game/MissionDecks/ZarimanMissionRewards/ZarimanMobileDefenseRewards"
         },
-        "Probability": 0.093
+        "Probability": 0.0889
       }
     ],
     "Lavan Laith Mk III": [
@@ -325574,74 +325574,74 @@
           [
             "Credits Cache",
             "Credits",
-            32.56,
+            35.56,
             10000
           ],
           [
             "Endo",
             "Resource",
-            16.28,
+            15.56,
             900
           ],
           [
             "Voidgel Orb",
             "Resource",
-            9.3
+            8.89
           ],
           [
             "Entrati Lanthorn",
             "Resource",
-            9.3
+            8.89
           ],
           [
             "Galeforce Dawn",
             "Mod",
-            4.65
+            4.44
           ],
           [
             "Meso Y2",
             "Relic",
-            2.33
+            2.22
           ],
           [
             "Meso K9",
             "Relic",
-            2.33
+            2.22
           ],
           [
             "Meso V17",
             "Relic",
-            2.33
+            2.22
           ],
           [
             "Meso D8",
             "Relic",
-            2.33
+            2.22
           ],
           [
             "Meso V13",
             "Relic",
-            2.33
+            2.22
           ],
           [
             "Meso A12",
             "Relic",
-            2.33
+            2.22
           ],
           [
             "Meso D9",
             "Relic",
-            2.33
+            2.22
           ],
           [
             "Meso C11",
             "Relic",
-            2.33
+            2.22
           ],
           [
             "Narin Blueprint",
             "Blueprint",
-            9.3
+            8.89
           ]
         ]
       },
@@ -341243,74 +341243,74 @@
           [
             "Credits Cache",
             "Credits",
-            32.56,
+            35.56,
             10000
           ],
           [
             "Endo",
             "Resource",
-            16.28,
+            15.56,
             900
           ],
           [
             "Voidgel Orb",
             "Resource",
-            9.3
+            8.89
           ],
           [
             "Entrati Lanthorn",
             "Resource",
-            9.3
+            8.89
           ],
           [
             "Galeforce Dawn",
             "Mod",
-            4.65
+            4.44
           ],
           [
             "Meso Y2",
             "Relic",
-            2.33
+            2.22
           ],
           [
             "Meso K9",
             "Relic",
-            2.33
+            2.22
           ],
           [
             "Meso V17",
             "Relic",
-            2.33
+            2.22
           ],
           [
             "Meso D8",
             "Relic",
-            2.33
+            2.22
           ],
           [
             "Meso V13",
             "Relic",
-            2.33
+            2.22
           ],
           [
             "Meso A12",
             "Relic",
-            2.33
+            2.22
           ],
           [
             "Meso D9",
             "Relic",
-            2.33
+            2.22
           ],
           [
             "Meso C11",
             "Relic",
-            2.33
+            2.22
           ],
           [
             "Narin Blueprint",
             "Blueprint",
-            9.3
+            8.89
           ]
         ]
       },

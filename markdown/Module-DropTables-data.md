@@ -1,7 +1,7 @@
 ---
 title: "Module:DropTables/data"
 wiki_url: "https://wiki.warframe.com/w/Module/DropTables/data"
-wiki_timestamp: "2026-09-26T00:53:38Z"
+wiki_timestamp: "2026-09-27T13:19:23Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -19,7 +19,7 @@ Manually updated fork of the public [Drop Tables](/w/Drop_Tables "Drop Tables") 
 
 See [Module:DropTables](/w/Module:DropTables "Module:DropTables") to see what various things this is being used for right now.
 
-:   *Last updated: Sat, 26 Sep 2026 00:53:38 +0000 (UTC) by [User:Gahro nahvah](/w/User:Gahro_nahvah?action=edit&redlink=1 "User:Gahro nahvah (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:DropTables/data?diff=0))*
+:   *Last updated: Sun, 27 Sep 2026 13:19:23 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:DropTables/data?diff=0))*
 
 ## Contents
 
@@ -15388,20 +15388,20 @@ local DropData = {
 			Name = "Zariman Exterminate",
 			Rewards = {
 				A = {
-					{ "Credits Cache", "Credits", 32.56, 10000 },
-					{ "Endo", "Resource", 16.28, 900 },
-					{ "Voidgel Orb", "Resource", 9.30 },
-					{ "Entrati Lanthorn", "Resource", 9.30 },
-					{ "Galeforce Dawn", "Mod", 4.65 },
-					{ "Meso Y2", "Relic", 2.33 },
-					{ "Meso K9", "Relic", 2.33 },
-					{ "Meso V17", "Relic", 2.33 },
-					{ "Meso D8", "Relic", 2.33 },
-					{ "Meso V13", "Relic", 2.33 },
-					{ "Meso A12", "Relic", 2.33 },
-					{ "Meso D9", "Relic", 2.33 },
-					{ "Meso C11", "Relic", 2.33 },
-					{ "Narin Blueprint", "Blueprint", 9.30 },
+					{ "Credits Cache", "Credits", 35.56, 10000 },
+					{ "Endo", "Resource", 15.56, 900 },
+					{ "Voidgel Orb", "Resource", 8.89 },
+					{ "Entrati Lanthorn", "Resource", 8.89 },
+					{ "Galeforce Dawn", "Mod", 4.44 },
+					{ "Meso Y2", "Relic", 2.22 },
+					{ "Meso K9", "Relic", 2.22 },
+					{ "Meso V17", "Relic", 2.22 },
+					{ "Meso D8", "Relic", 2.22 },
+					{ "Meso V13", "Relic", 2.22 },
+					{ "Meso A12", "Relic", 2.22 },
+					{ "Meso D9", "Relic", 2.22 },
+					{ "Meso C11", "Relic", 2.22 },
+					{ "Narin Blueprint", "Blueprint", 8.89 },
 				},
 			},
 			Tier = "Zariman",
@@ -15516,20 +15516,20 @@ local DropData = {
 			Name = "Zariman Mobile Defense",
 			Rewards = {
 				A = {
-					{ "Credits Cache", "Credits", 32.56, 10000 },
-					{ "Endo", "Resource", 16.28, 900 },
-					{ "Voidgel Orb", "Resource", 9.30 },
-					{ "Entrati Lanthorn", "Resource", 9.30 },
-					{ "Galeforce Dawn", "Mod", 4.65 },
-					{ "Meso Y2", "Relic", 2.33 },
-					{ "Meso K9", "Relic", 2.33 },
-					{ "Meso V17", "Relic", 2.33 },
-					{ "Meso D8", "Relic", 2.33 },
-					{ "Meso V13", "Relic", 2.33 },
-					{ "Meso A12", "Relic", 2.33 },
-					{ "Meso D9", "Relic", 2.33 },
-					{ "Meso C11", "Relic", 2.33 },
-					{ "Narin Blueprint", "Blueprint", 9.30 },
+					{ "Credits Cache", "Credits", 35.56, 10000 },
+					{ "Endo", "Resource", 15.56, 900 },
+					{ "Voidgel Orb", "Resource", 8.89 },
+					{ "Entrati Lanthorn", "Resource", 8.89 },
+					{ "Galeforce Dawn", "Mod", 4.44 },
+					{ "Meso Y2", "Relic", 2.22 },
+					{ "Meso K9", "Relic", 2.22 },
+					{ "Meso V17", "Relic", 2.22 },
+					{ "Meso D8", "Relic", 2.22 },
+					{ "Meso V13", "Relic", 2.22 },
+					{ "Meso A12", "Relic", 2.22 },
+					{ "Meso D9", "Relic", 2.22 },
+					{ "Meso C11", "Relic", 2.22 },
+					{ "Narin Blueprint", "Blueprint", 8.89 },
 				},
 			},
 			Tier = "Zariman",

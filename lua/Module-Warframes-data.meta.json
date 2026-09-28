@@ -1,13 +1,13 @@
 {
   "page": "Module:Warframes/data",
-  "wiki_timestamp": "2026-09-26T20:10:42Z",
-  "extracted_at": "2026-09-27T07:48:33.704406+00:00",
+  "wiki_timestamp": "2026-09-27T14:48:22Z",
+  "extracted_at": "2026-09-28T08:25:51.911568+00:00",
   "lua_files": [
     "Module-Warframes-data_0.lua",
     "Module-Warframes-data_1.lua"
   ],
   "lua_block_count": 2,
-  "file_size": 169766,
+  "file_size": 169686,
   "comment_count": 7,
   "status": "success"
 }

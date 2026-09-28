@@ -982,7 +982,8 @@ return {
 				Multishot = 1,
 				PunchThrough = 0,
 				Range = 300,
-				ShotType = "Hit-Scan",
+				ShotSpeed = 110,
+				ShotType = "Projectile",
 				StatusChance = 0.22 
 			} 
 		},

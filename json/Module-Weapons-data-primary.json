@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-26T07:17:03.974Z"
+    "converted_at": "2026-09-28T08:26:12.873Z"
   },
   "_comments": "\t\t--Users = { },",
   "Tenet Tetra": {
@@ -11732,7 +11732,7 @@
         "IsSilent": false,
         "Falloff": {
           "EndRange": 24,
-          "Reduction": 0.96875,
+          "Reduction": 0.625,
           "StartRange": 8
         },
         "MinSpread": 0,

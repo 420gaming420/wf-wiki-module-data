@@ -1,7 +1,7 @@
 ---
 title: "Module:Polarity"
 wiki_url: "https://wiki.warframe.com/w/Module/Polarity"
-wiki_timestamp: "2026-09-19T22:06:26Z"
+wiki_timestamp: "2026-09-28T03:25:08Z"
 ---
 
 **Polarity** maps [WARFRAME](/w/WARFRAME "WARFRAME")'s [polarity](/w/Polarity "Polarity") names to their appropriate image on the wiki.
@@ -155,7 +155,7 @@ p.POLARITY_NICKNAME_MAP = {
 --							  icon will only be inverted on dark theme
 --	@return			{string} Wikitext link of image of polarity
 function p._polarity(pol, lightIconOnly)
-	return string.format('[[File:%s|20px|class=icon noSelect '..(lightIconOnly and 'invert' or 'dark-invert')..']]', 
+	return string.format('[[File:%s|20px|link=Polarity|class=icon noSelect '..(lightIconOnly and 'invert' or 'dark-invert')..']]', 
 		p.IMAGE_MAP[p.POLARITY_NICKNAME_MAP[pol] or pol] or error('p._polarity(pol): Could not find polarity: '..mw.dumpObject(pol)))
 end
 

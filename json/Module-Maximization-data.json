@@ -4,9 +4,211 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-26T07:16:47.347Z"
+    "converted_at": "2026-09-28T08:26:04.856Z"
   },
-  "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins\n-- this contains mappings for what we couldn't pull from preexisting modules",
+  "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins\n-- this contains mappings for what we couldn't pull from preexisting modules\n\t-- Ash\n\t-- Atlas\n\t-- Narin\n\t-- Nidus",
+  "Ravenous": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Health|Stats}} regeneration:",
+        {
+          "expr": "STR 75 %of",
+          "suff": "/s"
+        }
+      ],
+      [
+        "Duration:",
+        {
+          "expr": "DUR 40 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Field radius:",
+        {
+          "expr": "RNG 8 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "Maggot {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        {
+          "expr": "STR 150 %of 1 MUTATION_STACKS + *"
+        }
+      ],
+      [
+        "Maggot {{#invoke:Tooltip|full|Toxin|DamageTypes}} damage:",
+        {
+          "expr": "10 1 MUTATION_STACKS + *"
+        }
+      ],
+      [
+        "Maggot explosion radius:",
+        {
+          "expr": "RNG 4 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "Bonus Mutation Stack chance:",
+        {
+          "expr": "STR 60 %of 0 INSATIABLE if",
+          "suff": "%"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "min": "0",
+        "type": "range-R",
+        "name": "MUTATION_STACKS",
+        "max": "500",
+        "default": "0",
+        "cont": "Mutation Stacks:"
+      },
+      {
+        "type": "checkbox",
+        "name": "INSATIABLE",
+        "cont": "{{#invoke:Tooltip|full|Insatiable|Mods}}?"
+      }
+    ]
+  },
+  "Larva": {
+    "outs": [
+      [
+        "Mutation Stack chance:",
+        {
+          "expr": "0 STR 50 %of LARVA_INFUSED if 100 min",
+          "suff": "%"
+        }
+      ],
+      [
+        "Duration:",
+        {
+          "expr": "DUR 7 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Grab radius:",
+        {
+          "expr": "RNG 8 12 LARVA_INFUSED if %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Toxin|DamageTypes}} damage:",
+        {
+          "expr": "STR 600 %of 0 LARVA_BURST if",
+          "name": "LARVA_BURST_BASE_DMG",
+          "suff": "/enemy"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Poison|DamageTypes}} damage:",
+        {
+          "expr": "0.5 LARVA_BURST_BASE_DMG *",
+          "suff": "/enemy"
+        }
+      ],
+      [
+        "Larva Burst radius:",
+        {
+          "expr": "RNG 8 %of 0 LARVA_BURST if"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "25 COST *"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "LARVA_BURST",
+        "cont": "{{#invoke:Tooltip|full|Larva Burst|Mods}}?"
+      },
+      {
+        "type": "checkbox",
+        "name": "LARVA_INFUSED",
+        "cont": "[[Infused]]?"
+      }
+    ]
+  },
+  "Parasitic Link": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Ability Strength|Stats}} multiplier:",
+        {
+          "expr": "STR 0.25 %of 1 +"
+        }
+      ],
+      [
+        "Damage multiplier:",
+        {
+          "expr": "STR 0.25 %of 1 +"
+        }
+      ],
+      [
+        "Damage redirection:",
+        {
+          "expr": "STR 50 %of 90 min",
+          "suff": "%"
+        }
+      ],
+      [
+        "Duration:",
+        {
+          "expr": "DUR 60 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Ally maximum range:",
+        {
+          "expr": "RNG 40 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "Enemy maximum range:",
+        {
+          "expr": "RNG 20 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "Health bonus:",
+        {
+          "expr": "STR 4 MUTATION_STACKS * %of 0 PARASITIC_VITALITY if",
+          "suff": "%"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "25 COST *"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "min": "0",
+        "type": "range-R",
+        "name": "MUTATION_STACKS",
+        "max": "500",
+        "default": "0",
+        "cont": "Mutation Stacks:"
+      },
+      {
+        "type": "checkbox",
+        "name": "PARASITIC_VITALITY",
+        "cont": "{{#invoke:Tooltip|full|Parasitic Vitality|Mods}}?"
+      }
+    ]
+  },
   "AbilitySets": {},
   "Smoke Screen": {
     "outs": [
@@ -32,6 +234,13 @@
         }
       ],
       [
+        "Critical Chance bonus:",
+        {
+          "expr": "150 0 SMOKE_SHADOW if",
+          "suff": "%"
+        }
+      ],
+      [
         "Smoke Shadow duration:",
         {
           "expr": "DUR 12 %of 0 SMOKE_SHADOW if",
@@ -43,13 +252,6 @@
         {
           "expr": "RNG 15 %of 0 SMOKE_SHADOW if",
           "suff": "m"
-        }
-      ],
-      [
-        "Critical Chance bonus:",
-        {
-          "expr": "150 0 SMOKE_SHADOW if",
-          "suff": "%"
         }
       ],
       [
@@ -75,10 +277,11 @@
   "Neote": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Cold|DamageTypes}} damage per hit:",
+        "{{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
         {
+          "expr": "STR 400 %of",
           "name": "BASE_NEOTE_DMG",
-          "expr": "STR 400 %of"
+          "suff": "/hit"
         }
       ],
       [
@@ -113,7 +316,7 @@
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Bleed|DamageTypes}} [[DoT]]:",
+        "{{#invoke:Tooltip|full|Bleed|DamageTypes}} DoT:",
         {
           "expr": "FACTION_DMG_MOD 43.75 BLADE_STORM_BASE_DMG %of %of",
           "name": "BLEED_DMG",
@@ -201,6 +404,153 @@
       }
     ]
   },
+  "Virulence": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Puncture|DamageTypes}} contact damage:",
+        {
+          "expr": "STR 200 %of 1 MUTATION_STACKS + *"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Viral|DamageTypes}} lingering damage:",
+        {
+          "expr": "STR 100 %of 1 MUTATION_STACKS + *"
+        }
+      ],
+      [
+        "Lingering field duration:",
+        {
+          "expr": "DUR 5 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Length:",
+        {
+          "expr": "RNG 16 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "Primary Weapon Critical Chance bonus:",
+        {
+          "expr": "STR 200 %of 0 TEEMING_VIRULENCE if",
+          "suff": "%"
+        }
+      ],
+      [
+        "Teeming Virulence duration:",
+        {
+          "expr": "DUR 15 %of 0 TEEMING_VIRULENCE if",
+          "suff": "s"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "name": "VIRULENCE_COST",
+          "expr": "40 COST *"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} restored:",
+        {
+          "expr": "VIRULENCE_COST 4 /",
+          "suff": "/hit"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "min": "0",
+        "type": "range-R",
+        "name": "MUTATION_STACKS",
+        "max": "500",
+        "default": "0",
+        "cont": "Mutation Stacks:"
+      },
+      {
+        "type": "checkbox",
+        "name": "TEEMING_VIRULENCE",
+        "cont": "{{#invoke:Tooltip|full|Teeming Virulence|Mods}}?"
+      }
+    ]
+  },
+  "Nurinarim": {
+    "outs": [
+      [
+        "Ice aura {{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
+        {
+          "expr": "STR 500 %of",
+          "suff": "/s"
+        }
+      ],
+      [
+        "Icy Slash{{#invoke:Tooltip|full|Cold|DamageTypes}}  damage:",
+        {
+          "expr": "STR 40000 %of"
+        }
+      ],
+      [
+        "Frozen enemy explosion {{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
+        {
+          "expr": "STR 20000 %of"
+        }
+      ],
+      [
+        "Max duration:",
+        {
+          "expr": "DUR 15 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Ice aura radius:",
+        {
+          "expr": "RNG 8 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "Frozen enemy explosion radius:",
+        {
+          "expr": "RNG 10 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Shield|Stats}} stripped:",
+        {
+          "expr": "5 COLD_STATUS_COUNT *",
+          "suff": "%"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Armor|Stats}} stripped:",
+        {
+          "expr": "5 COLD_STATUS_COUNT *",
+          "suff": "%"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "25 COST *"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "min": "1",
+        "type": "range-R",
+        "name": "COLD_STATUS_COUNT",
+        "max": "10",
+        "default": "1",
+        "cont": "Number of {{#invoke:Tooltip|full|Cold|DamageTypes}} procs on enemy: "
+      }
+    ]
+  },
   "Shuriken": {
     "outs": [
       [
@@ -211,7 +561,7 @@
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Bleed|DamageTypes}} [[DoT]]:",
+        "{{#invoke:Tooltip|full|Bleed|DamageTypes}} DoT:",
         {
           "expr": "43.75 35 ASH if SHURIKEN_BASE_DMG %of",
           "name": "BLEED",
@@ -384,51 +734,6 @@
       }
     ]
   },
-  "Teleport": {
-    "outs": [
-      [
-        "{{#invoke:Tooltip|full|Finisher|DamageTypes}} damage bonus:",
-        {
-          "expr": "STR 200 %of",
-          "suff": "%"
-        }
-      ],
-      [
-        "Range:",
-        {
-          "expr": "RNG 60 %of",
-          "suff": "m"
-        }
-      ],
-      [
-        "[[Parkour Velocity]] bonus:",
-        {
-          "expr": "30 0 TELEPORT_RUSH if",
-          "suff": "%"
-        }
-      ],
-      [
-        "Teleport Rush duration:",
-        {
-          "expr": "DUR 12 %of 0 TELEPORT_RUSH if",
-          "suff": "s"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "25 COST *"
-        }
-      ]
-    ],
-    "ins": [
-      {
-        "type": "checkbox",
-        "name": "TELEPORT_RUSH",
-        "cont": "{{#invoke:Tooltip|full|Teleport Rush|Mods}}?"
-      }
-    ]
-  },
   "Hakchum": {
     "outs": [
       [
@@ -477,9 +782,10 @@
   "Naraemagi": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Shield|Stats}} or {{#invoke:Tooltip|full|Overguard|DamageTypes}} per {{#invoke:Tooltip|full|Cold|DamageTypes}} Status absorbed:",
+        "{{#invoke:Tooltip|full|Shield|Stats}} or {{#invoke:Tooltip|full|Overguard|DamageTypes}}:",
         {
-          "expr": "STR 75 %of NUM_COLD_STATUS_ABSORBED *"
+          "expr": "STR 75 %of NUM_COLD_STATUS_ABSORBED *",
+          "suff": "/{{#invoke:Tooltip|full|Cold|DamageTypes}} proc"
         }
       ],
       [
@@ -498,52 +804,41 @@
     ],
     "ins": [
       {
+        "min": "0",
         "default": "1",
         "name": "NUM_COLD_STATUS_ABSORBED",
-        "cont": "{{#invoke:Tooltip|full|Cold|DamageTypes}} Status Effects absorbed:"
+        "cont": "{{#invoke:Tooltip|full|Cold|DamageTypes}} procs absorbed:"
       }
     ]
   },
-  "Nurinarim": {
+  "Teleport": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Cold|DamageTypes}} ice aura radial damage:",
+        "{{#invoke:Tooltip|full|Finisher|DamageTypes}} damage bonus:",
         {
-          "expr": "STR 500 %of",
-          "suff": "/s"
+          "expr": "STR 200 %of",
+          "suff": "%"
         }
       ],
       [
-        "Ice aura radius:",
+        "Range:",
         {
-          "expr": "RNG 8 %of",
+          "expr": "RNG 60 %of",
           "suff": "m"
         }
       ],
       [
-        "Max duration:",
+        "[[Parkour Velocity]] bonus:",
         {
-          "expr": "DUR 15 %of",
+          "expr": "30 0 TELEPORT_RUSH if",
+          "suff": "%"
+        }
+      ],
+      [
+        "Teleport Rush duration:",
+        {
+          "expr": "DUR 12 %of 0 TELEPORT_RUSH if",
           "suff": "s"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Cold|DamageTypes}} Icy Slash damage:",
-        {
-          "expr": "STR 40000 %of"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Cold|DamageTypes}} Explosion damage:",
-        {
-          "expr": "STR 20000 %of"
-        }
-      ],
-      [
-        "Frozen enemy explosion radius:",
-        {
-          "expr": "RNG 10 %of",
-          "suff": "m"
         }
       ],
       [
@@ -551,30 +846,115 @@
         {
           "expr": "25 COST *"
         }
-      ],
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "TELEPORT_RUSH",
+        "cont": "{{#invoke:Tooltip|full|Teleport Rush|Mods}}?"
+      }
+    ]
+  },
+  "Tectonics": {
+    "outs": [
       [
-        "Percentage of {{#invoke:Tooltip|full|Shield|Stats}} stripped:",
+        "Bulwark health:",
         {
-          "expr": "5 COLD_STATUS_COUNT *",
-          "suff": "%"
+          "expr": "ATLAS_ARMOR 5 * 1500 + STR %of ABSORBED_DAMAGE +"
         }
       ],
       [
-        "Percentage of {{#invoke:Tooltip|full|Armor|Stats}} stripped:",
+        "Bulwark inflicted{{#invoke:Tooltip|full|Slash|DamageTypes}} damage multiplier:",
         {
-          "expr": "5 COLD_STATUS_COUNT *",
-          "suff": "%"
+          "expr": "STR 1 %of",
+          "suff": "%",
+          "fmt": "2sig"
+        }
+      ],
+      [
+        "Boulder rolling {{#invoke:Tooltip|full|Impact|DamageTypes}} damage:",
+        {
+          "expr": "STR 600 %of"
+        }
+      ],
+      [
+        "Boulder explosion {{#invoke:Tooltip|full|Puncture|DamageTypes}} damage:",
+        {
+          "expr": "STR 500 %of"
+        }
+      ],
+      [
+        "Boulder explosion radius:",
+        {
+          "expr": "RNG 5 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "50 COST *"
         }
       ]
     ],
     "ins": [
       {
-        "min": "1",
-        "type": "range-R",
-        "name": "COLD_STATUS_COUNT",
-        "max": "10",
-        "default": "1",
-        "cont": "Number of {{#invoke:Tooltip|full|Cold|DamageTypes}} Status Effects on single enemy: "
+        "min": "0",
+        "default": "475",
+        "name": "ATLAS_ARMOR",
+        "cont": "Atlas' {{#invoke:Tooltip|full|Armor|Stats}}:"
+      },
+      {
+        "min": "0",
+        "default": "0",
+        "name": "ABSORBED_DAMAGE",
+        "cont": "Absorbed damage:"
+      }
+    ]
+  },
+  "Petrify": {
+    "outs": [
+      [
+        "Rumbler health restored:",
+        {
+          "expr": "STR 100 %of",
+          "suff": "%"
+        }
+      ],
+      [
+        "Petrify duration:",
+        {
+          "expr": "DUR 20 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Targeting cone range:",
+        {
+          "expr": "RNG 14 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "Chance to drop additional loot when killed:",
+        {
+          "expr": "STR 25 %of 0 ORE_GAZE_AUGMENT if",
+          "suff": "%"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "75 COST *"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "ORE_GAZE_AUGMENT",
+        "cont": "{{#invoke:Tooltip|full|Ore Gaze|Mods}}?"
       }
     ]
   }

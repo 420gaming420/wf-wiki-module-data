@@ -1,7 +1,7 @@
 ---
 title: "Module:Weapons/data/primary"
 wiki_url: "https://wiki.warframe.com/w/Module/Weapons/data/primary"
-wiki_timestamp: "2026-09-26T05:33:26Z"
+wiki_timestamp: "2026-09-27T16:00:53Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s [Primary Weapons](/w/Primary_Weapon "Primary Weapon").
@@ -54,7 +54,7 @@ Thanks, you're awesome!
 * [11 Weapon Data](#Weapon_Data)
 * [12 References](#References)
 
-:   *Last updated: Sat, 26 Sep 2026 05:33:26 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/primary?diff=0))*
+:   *Last updated: Sun, 27 Sep 2026 16:00:53 +0000 (UTC) by [User:ArbitraryMary](/w/User:ArbitraryMary "User:ArbitraryMary") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/primary?diff=0))*
 
 ## Horizontal Partitions (and where to update data)
 
@@ -13248,7 +13248,7 @@ return {
 				CritChance = 0.18,
 				CritMultiplier = 2.2,
 				Damage = { Heat = 285, Impact = 195 },
-				Falloff = { EndRange = 24, Reduction = 0.96875, StartRange = 8 },
+				Falloff = { EndRange = 24, Reduction = 0.625, StartRange = 8 },
 				FireRate = 3.0,
 				IsSilent = false,
 				MaxSpread = 0,

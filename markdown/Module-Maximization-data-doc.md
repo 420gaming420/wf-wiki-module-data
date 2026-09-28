@@ -1,14 +1,15 @@
 ---
 title: "Module:Maximization/data/doc"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data/doc"
-wiki_timestamp: "2026-09-26T04:16:44Z"
+wiki_timestamp: "2026-09-28T00:17:12Z"
 ---
 
 ## Contents
 
 * [1 Ability Entry Schema](#Ability_Entry_Schema)
 * [2 Style Guide](#Style_Guide)
-* [3 See Also](#See_Also)
+* [3 Template](#Template)
+* [4 See Also](#See_Also)
 
 Database for [maximization](/w/Maximization "Maximization") of [Warframe](/w/Warframes "Warframes") stats and [Abilities](/w/Abilities "Abilities"). For all formulas we assume that values are at max Ability rank.
 
@@ -33,7 +34,8 @@ Ability Entry Schema")]
 
 [Module:Maximization](/w/Module:Maximization "Module:Maximization") constructs the overall HTML structure (using wikitext), currently it's a table with prebuilt Warframe stat inputs.
 
-All input/output object fields turn into `data-*` attributes for [MediaWiki:Gadget-MathVM](/w/MediaWiki:Gadget-MathVM "MediaWiki:Gadget-MathVM") (click to see the spec), except `cont` and `suff`.
+All input/output object fields turn into `data-*` attributes for [MediaWiki:Gadget-MathVM](/w/MediaWiki:Gadget-MathVM "MediaWiki:Gadget-MathVM") (click to see the spec), except `cont` and `suff`.  
+`(!) Caution`: all field values must be strings (e.g. `min='0'`).
 
 Ability Object
 
@@ -78,14 +80,36 @@ Style Guide")]
    * Augment calculations should be present if any augment stat is affected by warframe stats or if the augment affects abilities, otherwise there is nothing to calculate.
    * Users are expected to manually apply [faction weakness](/w/Faction_weakness "Faction weakness") (shown in tooltips), enemy [damage reduction](/w/Damage_reduction "Damage reduction"), and other external factors.
 2. The type of damage an ability does innately must be stated clearly (e.g. "[![](/images/thumb/DmgColdSmall64.png/32px-DmgColdSmall64.png?f2506)](/w/Damage/Cold_Damage "Damage/Cold Damage") [Cold](/w/Damage/Cold_Damage "Damage/Cold Damage") damage" for [![](/images/thumb/FreezeIcon%28xWhite%29.png/32px-FreezeIcon%28xWhite%29.png?73b01)](/w/Freeze "Freeze") [Freeze](/w/Freeze "Freeze")), same applies to procs (e.g. [![](/images/thumb/DmgSlashSmall64.png/32px-DmgSlashSmall64.png?bab47)](/w/Damage/Slash_Damage "Damage/Slash Damage") [Bleed](/w/Damage/Slash_Damage "Damage/Slash Damage") is not the same as [![](/images/thumb/DmgSlashSmall64.png/32px-DmgSlashSmall64.png?bab47)](/w/Damage/Slash_Damage "Damage/Slash Damage") [Slash](/w/Damage/Slash_Damage "Damage/Slash Damage")).
-3. Input and output text must clearly state the intent behind its value (e.g. "damage *bonus*" is additional damage %, "damage *modifier*" is total damage %, "damage" is exact damage).
-4. Text for inputs with values should end in ":", text for checkbox inputs should end in "?" but written like a statement instead of a question.
-5. To avoid name conflicts between I/O, common concepts should be named following the `ABILITY_NAME``_``VARIABLE_NAME` format. This minimizes risk of conflicts both when invoking together a set of abilities of one warframe, and multiple abilities from multiple warframes.
+3. The preferable order of outputs is similar to what is seen in ability infoboxes (for visual consistency):
+   1. Ability stats (scaled by [![](/images/thumb/AbilityStrengthBuff%28xWhite%29.png/32px-AbilityStrengthBuff%28xWhite%29.png?3d71c)](/w/Ability_Strength "Ability Strength") [Ability Strength](/w/Ability_Strength "Ability Strength"), [![](/images/thumb/AbilityDurationBuff%28xWhite%29.png/32px-AbilityDurationBuff%28xWhite%29.png?d3e3b)](/w/Ability_Duration "Ability Duration") [Ability Duration](/w/Ability_Duration "Ability Duration"), [![](/images/thumb/AbilityRangeBuff%28xWhite%29.png/32px-AbilityRangeBuff%28xWhite%29.png?12f85)](/w/Ability_Range "Ability Range") [Ability Range](/w/Ability_Range "Ability Range")).
+   2. Any additional stats (misc and augment stats in the same order of scalers).
+   3. [![](/images/thumb/EnergyOrb.png/32px-EnergyOrb.png?bcca9)](/w/Energy_Capacity "Energy Capacity") [Energy](/w/Energy_Capacity "Energy Capacity") cost and drain.
+4. Input and output text must clearly state the intent behind its value (e.g. "damage *bonus*" is additional damage %, "damage *modifier*" is total damage %, "damage" is exact damage).
+5. Text for inputs with values should end in ":", text for checkbox inputs should end in "?" but written like a statement instead of a question.
+6. Outputs that say "something per x" should instead have a `suff` that says "/x".
+7. To avoid name conflicts between I/O, common concepts should be named following the `ABILITY_NAME``_``VARIABLE_NAME` format. This minimizes risk of conflicts both when invoking together a set of abilities of one warframe, and multiple abilities from multiple warframes.
    * For example: both [![](/images/thumb/ShurikenIcon%28xWhite%29.png/32px-ShurikenIcon%28xWhite%29.png?f2322)](/w/Shuriken "Shuriken") [Shuriken](/w/Shuriken "Shuriken") and [![](/images/thumb/BladeStormIcon%28xWhite%29.png/32px-BladeStormIcon%28xWhite%29.png?77430)](/w/Blade_Storm "Blade Storm") [Blade Storm](/w/Blade_Storm "Blade Storm") belong to [![](/images/thumb/Ash_Thumb.png/32px-Ash_Thumb.png?db305)](/w/Ash "Ash") [Ash](/w/Ash "Ash") and need base damage outputs (`BASE_DMG`). They were renamed `SHURIKEN_BASE_DMG` and `BLADE_STORM_BASE_DMG`.
+
+## Template
+
+[[edit](/w/Module:Maximization/data/doc?action=edit&section=3 "Edit Section using Source Editor:
+Template")]
+
+```lua
+	['Ability Name']={
+		ins={},
+		outs={
+			{'Damage:' , {expr='STR 1500 %of'}},
+			{'Duration:', {expr='DUR 15 %of', suff='s'}},
+			{'Radius:', {expr='RNG 10 %of', suff='m'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}},
+		}
+	},
+```
 
 ## See Also
 
-[[edit](/w/Module:Maximization/data/doc?action=edit&section=3 "Edit Section using Source Editor:
+[[edit](/w/Module:Maximization/data/doc?action=edit&section=4 "Edit Section using Source Editor:
 See Also")]
 
 Module:Maximization/data/doc

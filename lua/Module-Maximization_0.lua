@@ -11,42 +11,35 @@
 --  
 
 local Tooltips = require([[Module:Tooltips]]);
+local Delay = require([[Module:Delay]]);
 local MaxData = mw.loadData([[Module:Maximization/data]]);
-local WarframesData = mw.loadData([[Module:Warframes/data]]);
-local AbilitySets = setmetatable({}, { -- this proxy pulls sets of ability names from multiple sources
-	__index = function(_, name)
-		return WarframesData.Warframes[name] and WarframesData.Warframes[name].Abilities
-		or MaxData.AbilitySets[name];
-	end
-});
+local WarframesData = Delay.mw.loadData([[Module:Warframes/data]]);
 local p = {};
 
 -- replaces/expands '{{#invoke:Tooltip}}' stubs from [[Module:Maximization/data]]
-local function tooltipsub(stub) return string.gsub(stub, '{{#invoke:Tooltip|([^|]*)(|[^{}]*)}}',
-	function(fun, String)
-		local args = {};
-		for arg in String:gmatch'|([^|]*)' do
-			local key, value = arg:match'^([^=]*)=(.*)$';
-			if key then
-				local num = tonumber(key);
-				table[num and (num % 1 == 0) and num or key] = value;
-			else table.insert(args, arg); end
-		end
+local function tooltipsub(stubs) return string.gsub(stubs, '{{#invoke:Tooltip|([^|]*)(|[^{}]*)}}', function(fun, argstr)
+	local args = {};
+	for arg in argstr:gmatch'|([^|]*)' do
+		local key, value = arg:match'^([^=]*)=(.*)$';
+		if key then
+			local num = tonumber(key);
+			table[num and (num % 1 == 0) and num or key] = value;
+		else table.insert(args, arg); end
+	end
 	return Tooltips[fun](args);
 end)end
 
-local function normalize_outs(Output)
-	if type(Output) == 'string' then return tooltipsub(Output); end
-	if type(Output) == 'table' then
-		local suff = Output.suff;
-		for key, value in pairs(Output) do
-			if type(key) == 'string' and key ~= 'suff' then
-				table.insert(Output, 'data-'..key..'="'..value:gsub('[\\"]','\\%0')..'"');
-			end
-		end
-		return '<span '..table.concat(Output, ' ')..'></span>'..(suff and tooltipsub(suff) or '');
+local function normalize_outs(outs)
+	if type(outs) == 'string' then return tooltipsub(outs); end
+	if type(outs) ~= 'table' then
+		error('normalize_outs(): expected string or table, got '..type(outs));
 	end
-	error('normalize(): expected string or table, got '..type(Output));
+	for key, value in pairs(outs) do
+		if type(key) == 'string' and key ~= 'suff' then
+			table.insert(outs, 'data-'..key..'="'..value:gsub('[\\"]','\\%0')..'"');
+		end
+	end
+	return '<span '..table.concat(outs, ' ')..'></span>'..(outs.suff and tooltipsub(outs.suff) or '');
 end
 
 --- Creates a maximization calculator for a specific Warframe ability based on formulas in [[Module:Maximization/data]].
@@ -56,58 +49,55 @@ end
 --  @return			{string} Wikitable with the CSS classes and HTML data attributes for the calculator
 function p.ability(...)
 	local names = (...).args or {...};
-	local ins = {};
-	local visited_ins = {};
-	local output_tables = {};
-	local posts = {};
-	local invoked_single_name = not names[2]; -- if invoked >1 names, will put ability-specific ins under ability output blocks instead of the generic input block
+	local single = not names[2]; -- if invoked >1 names, will put ability-specific ins under ability output blocks instead of the generic input block
+	local single_prefix = single and '' or 'colspan=2 ';
+
+	-- local ins = {};
+	local existing_ins = {};
+	local blocks = {};
+	local posttexts = {};
 	
 for _, name in ipairs(names) do
 	local data = MaxData[name];
-	local next_prefix = '| style="border-top:2px solid var(--wikitable-header-bg)" ';
-	local outs = {};
+	local block = {};
 
-	if (data) then
-		if data.outs then
-			for _, Output in ipairs(data.outs) do
-				table.insert(outs, '|'..normalize_outs(Output[1])..'||'..normalize_outs(Output[2]));
-			end
+	if data and data.outs then
+		for _, Output in ipairs(data.outs) do
+			table.insert(block, '|'..normalize_outs(Output[1])..'||'..normalize_outs(Output[2]));
 		end
-		-- do ins after outs to have the option to distribute them between output blocks
-		if data.ins then
-			for _, Input in ipairs(data.ins) do
-				if Input.name and visited_ins[Input.name] then--skip
-				elseif type(Input) == 'table' then
-					local cont = Input.cont or '';
-					for key, value in pairs(Input) do
-						if type(key) == 'string' and key ~= 'cont' then
-							table.insert(Input, 'data-'..key..'="'..value:gsub('[\\"]','\\%0')..'"');
-						end
-					end
-					visited_ins[Input.name or ''] = true;
-					if invoked_single_name then
-						table.insert(ins, next_prefix..table.concat(Input, ' ')..'|'..tooltipsub(cont));
-					else 
-						table.insert(outs, next_prefix..'colspan=2 '..table.concat(Input, ' ')..'|'..tooltipsub(cont));
-					end
-					next_prefix = '|';
-				else 
-					if invoked_single_name then
-						table.insert(ins, next_prefix..Input);
-					else 
-						table.insert(outs, next_prefix..'colspan=2 '..Input);
-					end 
-					next_prefix = '|';
-				end
-			end
-		end
-		if data.post then table.insert(posts, '<div style="width: 100%">'..data.post..'</div>'); end
-	else--if no data, show a note
-		table.insert(posts, '<div style="width: 100%">'.."''Help create a maximization calculator for "
-			..Tooltips.full(name, 'Ability').." and its augments by adding data to [[Module:Maximization/data]].''"..'</div>');
 	end
-	table.insert(output_tables, '{| class="wikitable calc__block"\n|-\n!colspan=2|'
-		..Tooltips.full(name, 'Ability')..'\n|-\n'..table.concat(outs, '\n|-\n')..'\n|}');
+	-- do ins after outs to have the option to distribute them between output blocks
+	local next_prefix = '| style="border-top:2px solid var(--wikitable-header-bg)" ';
+	if data and data.ins then
+		for _, Input in ipairs(data.ins) do
+			if Input.name and existing_ins[Input.name] then--skip
+			elseif type(Input) == 'table' then
+				if Input.name then existing_ins[Input.name] = true end
+				for key, value in pairs(Input) do
+					if type(key) == 'string' and key ~= 'cont' then
+						table.insert(Input, 'data-'..key..'="'..value:gsub('[\\"]','\\%0')..'"');
+					end
+				end
+				table.insert(block, next_prefix..single_prefix
+					..table.concat(Input, ' ')..'|'..tooltipsub(Input.cont));
+				next_prefix = '|';
+			else
+				table.insert(block, next_prefix..single_prefix..Input);
+				next_prefix = '|';
+			end
+		end
+	end
+	if data and data.post then
+		table.insert(posttexts, '<div style="width: 100%">'..data.post..'</div>');
+	end
+	if not data then
+		table.insert(posttexts, '<div style="width: 100%">'.."''Help create a maximization calculator for "
+			..Tooltips.full(name, 'Ability').." and its augments by adding data to [[Module:Maximization/data]].''"
+			..'</div>');
+	end
+
+	table.insert(blocks, '{| class="wikitable calc__block"\n|-\n!colspan=2|'
+		..Tooltips.full(name, 'Ability')..'\n|-\n'..table.concat(block, '\n|-\n')..'\n|}');
 end
 
 --[[
@@ -137,9 +127,9 @@ end
 	Tooltips.full{'Ability Duration', 'Stats', r='Duration'},
 	Tooltips.full{'Ability Range', 'Stats', r='Range'},
 	Tooltips.full{'Ability Efficiency', 'Stats', r='Efficiency'},
-	table.concat(ins, '\n|-\n'),
-	table.concat(output_tables, '\n'),
-	table.concat(posts, '\n'),
+	'',-- table.concat(ins, '\n|-\n'),
+	table.concat(blocks, '\n'),
+	table.concat(posttexts, '\n'),
 nil)
 
 	return max
@@ -153,7 +143,8 @@ function p.ability_set(...)
 	ability_names.args = ability_names;
 	
 	for _, name in ipairs(warframe_names) do
-		local data = AbilitySets[name];
+		local data = WarframesData.Warframes[name] and WarframesData.Warframes[name].Abilities
+		or MaxData.AbilitySets[name];
 		if data then
 			for __, ability in ipairs(data) do table.insert(ability_names, ability); end
 		else 

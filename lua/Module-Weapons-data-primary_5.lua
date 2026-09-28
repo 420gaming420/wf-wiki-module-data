@@ -11347,7 +11347,7 @@ return {
 				CritChance = 0.18,
 				CritMultiplier = 2.2,
 				Damage = { Heat = 285, Impact = 195 },
-				Falloff = { EndRange = 24, Reduction = 0.96875, StartRange = 8 },
+				Falloff = { EndRange = 24, Reduction = 0.625, StartRange = 8 },
 				FireRate = 3.0,
 				IsSilent = false,
 				MaxSpread = 0,

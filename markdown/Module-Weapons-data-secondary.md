@@ -1,7 +1,7 @@
 ---
 title: "Module:Weapons/data/secondary"
 wiki_url: "https://wiki.warframe.com/w/Module/Weapons/data/secondary"
-wiki_timestamp: "2026-09-26T12:24:58Z"
+wiki_timestamp: "2026-09-27T16:22:43Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s [Secondary Weapons](/w/Secondary_Weapon "Secondary Weapon").
@@ -54,7 +54,7 @@ Thanks, you're awesome!
 * [11 Weapon Data](#Weapon_Data)
 * [12 References](#References)
 
-:   *Last updated: Sat, 26 Sep 2026 12:24:58 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/secondary?diff=0))*
+:   *Last updated: Sun, 27 Sep 2026 16:22:43 +0000 (UTC) by [User:ArbitraryMary](/w/User:ArbitraryMary "User:ArbitraryMary") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/secondary?diff=0))*
 
 ## Horizontal Partitions (and where to update data)
 
@@ -2883,7 +2883,8 @@ return {
 				Multishot = 1,
 				PunchThrough = 0,
 				Range = 300,
-				ShotType = "Hit-Scan",
+				ShotSpeed = 110,
+				ShotType = "Projectile",
 				StatusChance = 0.22 
 			} 
 		},

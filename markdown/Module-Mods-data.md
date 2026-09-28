@@ -1,12 +1,12 @@
 ---
 title: "Module:Mods/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Mods/data"
-wiki_timestamp: "2026-09-26T04:06:12Z"
+wiki_timestamp: "2026-09-27T09:09:04Z"
 ---
 
 Database for all [Mods](/w/Mod "Mod") in [WARFRAME](/w/WARFRAME "WARFRAME") (with the exception of unveiled [Riven Mods](/w/Riven_Mods "Riven Mods")). Preferably put new mods in the correct alphabetical order, but it is not necessary.
 
-:   *Last updated: Sat, 26 Sep 2026 04:06:12 +0000 (UTC) by [User:Ya](/w/User:Ya "User:Ya") ([change log](https://wiki.warframe.com/w/Module:Mods/data?diff=0))*
+:   *Last updated: Sun, 27 Sep 2026 09:09:04 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Mods/data?diff=0))*
 
 ## Contents
 
@@ -2671,7 +2671,7 @@ local modData = {
 		},
 		["Argon Scope"] = {
 			BaseDrain = 2,
-			Description = "On Headshot:\r\n+135% Critical Chance when Aiming for 9s",
+			Description = "On Weak Point Hit:\r\n+135% Critical Chance when Aiming for 9s",
 			Image = "ArgonScopeMod.png",
 			Incompatible = { "Galvanized Scope" },
 			IncompatibilityTags = { "POWER_WEAPON" },
@@ -5035,6 +5035,7 @@ local modData = {
 			BaseDrain = 6,
 			Description = "Snow Globe Augment: Enemies that enter have a 50% chance to become frozen solid for 10s.",
 			Image = "ChillingGlobeMod.png",
+			Incompatible = { "Cold Front" },
 			InternalName = "/Lotus/Powersuits/Frost/IceShieldAugmentCard",
 			Introduced = "16",
 			CodexSecret = false,
@@ -5332,6 +5333,7 @@ local modData = {
 			Description = "Snow Globe Augment: Snow Globe is now attached to Frost with a smaller radius while increasing your mobility. Kills on frozen enemies increase the Globe health by 4% per kill.",
 			Icon = "ColdFront.jpg",
 			Image = "ColdFrontMod.png",
+			Incompatible = { "Chilling Globe" },
 			InternalName = "/Lotus/Powersuits/Frost/IceShieldAugment2Card",
 			Introduced = "44",
 			CodexSecret = false,
@@ -12174,7 +12176,7 @@ local modData = {
 			Class = "Galvanized",
 			CodexSecret = false,
 			Conclave = false,
-			Description = "On Headshot:\r\n+120% Critical Chance when Aiming for 12s\r\nOn Headshot Kill:\r\n+40% Critical Chance when Aiming for 12s. Stacks up to 5x.",
+			Description = "On Weak Point Hit:\r\n+120% Critical Chance when Aiming for 12s\r\nOn Weak Point Kill:\r\n+40% Critical Chance when Aiming for 12s. Stacks up to 5x.",
 			Icon = "GalvanizedCrosshairs.png",
 			Image = "GalvanizedCrosshairsMod.png",
 			Incompatible = { "Hydraulic Crosshairs" },
@@ -12307,7 +12309,7 @@ local modData = {
 			Class = "Galvanized",
 			CodexSecret = false,
 			Conclave = false,
-			Description = "On Headshot:\r\n+120% Critical Chance when Aiming for 12s\r\nOn Headshot Kill:\r\n+40% Critical Chance when Aiming for 12s. Stacks up to 5x.",
+			Description = "On Weak Point Hit:\r\n+120% Critical Chance when Aiming for 12s\r\nOn Weak Point Kill:\r\n+40% Critical Chance when Aiming for 12s. Stacks up to 5x.",
 			Icon = "GalvanizedScope.png",
 			Image = "GalvanizedScopeMod.png",
 			Incompatible = { "Argon Scope" },
@@ -13877,7 +13879,7 @@ local modData = {
 		["Hydraulic Crosshairs"] = {
 			BaseDrain = 2,
 			CodexSecret = false,
-			Description = "On Headshot:\r\n+135% Critical Chance when Aiming for 9s",
+			Description = "On Weak Point Hit:\r\n+135% Critical Chance when Aiming for 9s",
 			Icon = "HydraulicCrosshairs.png",
 			Image = "HydraulicCrosshairsMod.png",
 			Incompatible = { "Galvanized Crosshairs" },
@@ -15178,7 +15180,7 @@ local modData = {
 		["Laser Sight"] = {
 			BaseDrain = 4,
 			CodexSecret = false,
-			Description = "On Headshot:\r\n+120% Critical Chance when Aiming for 9s",
+			Description = "On Weak Point Hit:\r\n+120% Critical Chance when Aiming for 9s",
 			Icon = "LaserSight.png",
 			Image = "LaserSightMod.png",
 			IncompatibilityTags = { "POWER_WEAPON" },
@@ -24518,7 +24520,7 @@ local modData = {
 		Sharpshooter = {
 			BaseDrain = 2,
 			CodexSecret = false,
-			Description = "On Headshot Kill:\r\n+15 Energy",
+			Description = "On Weak Point Kill:\r\n+15 Energy",
 			Icon = "Sharpshooter.png",
 			Image = "SharpshooterMod.png",
 			InternalName = "/Lotus/Upgrades/Mods/Rifle/EnergyOnHeadshotRifle",
