@@ -1,7 +1,7 @@
 ---
 title: "Module:Stances/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Stances/data"
-wiki_timestamp: "2026-08-23T20:03:42Z"
+wiki_timestamp: "2026-09-29T06:57:17Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,11 +14,12 @@ Add support for Slams and Heavy Slams
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s [Stance](/w/Stance "Stance") movement sets for melee weapons.
 
-:   *Last updated: Sun, 23 Aug 2026 20:03:42 +0000 (UTC) by [User:Verr](/w/User:Verr?action=edit&redlink=1 "User:Verr (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Stances/data?diff=0))*
+:   *Last updated: Tue, 29 Sep 2026 06:57:17 +0000 (UTC) by [User:~2026-LoFiBrigadierVisionholder52521](/w/User:~2026-LoFiBrigadierVisionholder52521?action=edit&redlink=1 "User:~2026-LoFiBrigadierVisionholder52521 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Stances/data?diff=0))*
 
 ## Complex Combos
 
-[[edit source](/w/Module:Stances/data/doc?action=edit&section=T-1 "Edit section's source code: Complex Combos")]
+[[edit](/w/Module:Stances/data/doc?action=edit&section=T-1 "Edit Section using Source Editor:
+Complex Combos")]
 
 Combos with additional effects or deviates from standard stance behavior, many of which are noted in the respective stance page's Notes section. Therefore, these entries may have additional information omitted from this database due to incompatibility with the schema.
 
@@ -40,11 +41,12 @@ Combos with additional effects or deviates from standard stance behavior, many o
 * [![](/images/thumb/ExaltedBladeStanceMod.png/22px-ExaltedBladeStanceMod.png?3a36e)](/w/Exalted_Blade_(Stance) "Exalted Blade (Stance)") [Exalted Blade](/w/Exalted_Blade_(Stance) "Exalted Blade (Stance)") Judged Severance
 * [![](/images/thumb/HysteriaStanceMod.png/22px-HysteriaStanceMod.png?d0b06)](/w/Hysteria_(Stance) "Hysteria (Stance)") [Hysteria](/w/Hysteria_(Stance) "Hysteria (Stance)") Roaring Drums
 * [![](/images/thumb/PrimalFuryStanceMod.png/22px-PrimalFuryStanceMod.png?16af3)](/w/Primal_Fury_(Stance) "Primal Fury (Stance)") [Primal Fury](/w/Primal_Fury_(Stance) "Primal Fury (Stance)") Rolling Boulder Rush
-* [![](/images/thumb/Butcher%27sRevelryMod.png/22px-Butcher%27sRevelryMod.png?0e677)](/w/Butcher%27s_Revelry "Butcher's Revelry") [Butcher's Revelry](/w/Butcher%27s_Revelry "Butcher's Revelry") Rip 'N Ride
+* [![](/images/thumb/Butcher%27sRevelryMod.png/22px-Butcher%27sRevelryMod.png?39b49)](/w/Butcher%27s_Revelry "Butcher's Revelry") [Butcher's Revelry](/w/Butcher%27s_Revelry "Butcher's Revelry") Rip 'N Ride
 
 ## Stance Entry Schema
 
-[[edit source](/w/Module:Stances/data/doc?action=edit&section=T-2 "Edit section's source code: Stance Entry Schema")]
+[[edit](/w/Module:Stances/data/doc?action=edit&section=T-2 "Edit Section using Source Editor:
+Stance Entry Schema")]
 
 ```lua
 ["Stance Name"] = {
@@ -173,7 +175,8 @@ Table value restrictions:
 
 ## Stance Data
 
-[[edit source](/w/Module:Stances/data/doc?action=edit&section=T-3 "Edit section's source code: Stance Data")]
+[[edit](/w/Module:Stances/data/doc?action=edit&section=T-3 "Edit Section using Source Editor:
+Stance Data")]
 
 ---
 
@@ -8025,7 +8028,7 @@ local StanceData = {
 			},
 			Duration = 1.85,
 			Image = "ReapingSpiralCombo1.gif",
-			Name = "Reclamation" 
+			Name = "Reclaimation" 
 		},
 		["Forward Block"] = {
 			Attacks = {

@@ -1897,7 +1897,7 @@ return {
 			Credits = 15000,
 			Name = "Corufell Prime Blueprint",
 			Parts = {
-				{ Count = 1, Name = "Barrel", Type = "PrimePart" },
+				{ Count = 1, Name = "Stock", Type = "PrimePart" },
 				{ Count = 1, Name = "Receiver", Type = "PrimePart" },
 				{ Count = 1, Name = "Handle", Type = "PrimePart" },
 				{ Count = 15, Name = "Orokin Cell", Type = "Resource" } 

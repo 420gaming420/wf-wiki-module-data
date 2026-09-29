@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-26T07:16:38.075Z"
+    "converted_at": "2026-09-29T08:05:12.736Z"
   },
   "_comments": "",
   "TennoCon 2020 Syandana": {
@@ -161,7 +161,7 @@
     "Description": "This flowing cape transitions into its tattered Void-swept form when the TennoCon Riftguard Emote is used. Created to celebrate ten years of TennoCon in 2025.",
     "Link": "TennoCon Riftguard Syandana",
     "Name": "TennoCon Riftguard Syandana",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/TennoConRiftguardScarf",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/TC2025Scarf",
     "ExcludeFromCodex": false,
     "CodexSecret": true
   },
@@ -1466,7 +1466,7 @@
     "Description": "The wish for a long life is carried upon the noble wings of Narin's signature syandana.",
     "Link": "Durumi Syandana",
     "Name": "Durumi Syandana",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/DuelistSyandana",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -2894,7 +2894,7 @@
     "Introduced": "39.1",
     "Name": "Xikonos Syandana",
     "PcPrice": "$5.99",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWXikonosSyanadana",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWXikonosSyandana",
     "CodexSecret": false
   },
   "Dex Nouchali Syandana": {

@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization"
-wiki_timestamp: "2026-09-28T05:23:28Z"
+wiki_timestamp: "2026-09-29T03:39:53Z"
 ---
 
 **Maximization** creates a stat maximization calculator for Warframe abilities.
@@ -125,43 +125,73 @@ end
 function p.ability(...)
 	local names = (...).args or {...};
 	local single = not names[2]; -- if invoked >1 names, will put ability-specific ins under ability output blocks instead of the generic input block
-	local single_prefix = single and '' or 'colspan=2 ';
+	local colspan = single and '' or 'colspan=2 ';
 
-	-- local ins = {};
-	local existing_ins = {};
+	local ins_block = {};
 	local blocks = {};
 	local posttexts = {};
 	
+	local name_set = {}; -- individual counts, later `false` for already-emitted globals
+	local name_count = 0; -- number of entries in the set
+
+	for _, name in ipairs(names) do
+		for _, input in ipairs(MaxData[name] and MaxData[name].ins or {}) do
+			local iname = input.name
+			if iname then
+				local prev_entry = name_set[iname]
+				if not prev_entry then
+					name_count = name_count + 1
+					name_set[iname] = 1
+				else
+					name_set[iname] = prev_entry + 1
+				end
+			end
+		end
+	end
+	local threshold = 2
+
 for _, name in ipairs(names) do
 	local data = MaxData[name];
 	local block = {};
 
-	if data and data.outs then
-		for _, Output in ipairs(data.outs) do
-			table.insert(block, '|'..normalize_outs(Output[1])..'||'..normalize_outs(Output[2]));
-		end
+	for _, output in ipairs(data and data.outs or {}) do
+		table.insert(block, '|'..normalize_outs(output[1])..'||'..normalize_outs(output[2]));
 	end
-	-- do ins after outs to have the option to distribute them between output blocks
+
 	local next_prefix = '| style="border-top:2px solid var(--wikitable-header-bg)" ';
-	if data and data.ins then
-		for _, Input in ipairs(data.ins) do
-			if Input.name and existing_ins[Input.name] then--skip
-			elseif type(Input) == 'table' then
-				if Input.name then existing_ins[Input.name] = true end
-				for key, value in pairs(Input) do
-					if type(key) == 'string' and key ~= 'cont' then
-						table.insert(Input, 'data-'..key..'="'..value:gsub('[\\"]','\\%0')..'"');
-					end
+	local next_global_prefix = next_prefix;
+	for _, input in ipairs(data and data.ins or {}) do
+		local prevalence = input.name and name_set[input.name]
+		local globalize = prevalence and prevalence >= threshold
+		if globalize then name_set[input.name] = false end
+		
+		local ins_receiver = (globalize or single) and ins_block or block
+		
+		if input.name and not prevalence then -- skip
+		elseif type(input) == 'table' then
+			local attrs = {}
+			for key, value in pairs(input) do
+				if type(key) == 'string' and key ~= 'cont' then
+					table.insert(attrs, 'data-'..key..'="'..value:gsub('[\\"]','\\%0')..'"');
 				end
-				table.insert(block, next_prefix..single_prefix
-					..table.concat(Input, ' ')..'|'..tooltipsub(Input.cont));
-				next_prefix = '|';
-			else
-				table.insert(block, next_prefix..single_prefix..Input);
-				next_prefix = '|';
 			end
+			local prefix
+			if globalize then
+				prefix = next_global_prefix; next_global_prefix = '|'
+			else
+				prefix = next_prefix; next_prefix = '|'
+			end
+			table.insert(ins_receiver, prefix..colspan
+				..table.concat(attrs, ' ')..'|'..tooltipsub(input.cont));
+		else
+			table.insert(ins_receiver, next_prefix..colspan..input);
+			next_prefix = '|';
 		end
 	end
+
+	table.insert(blocks, '{| class="wikitable calc__block"\n|-\n!colspan=2|'
+		..Tooltips.full(name, 'Ability')..'\n|-\n'..table.concat(block, '\n|-\n')..'\n|}');
+
 	if data and data.post then
 		table.insert(posttexts, '
 
@@ -178,10 +208,8 @@ for _, name in ipairs(names) do
 
 ');
 	end
-
-	table.insert(blocks, '{| class="wikitable calc__block"\n|-\n!colspan=2|'
-		..Tooltips.full(name, 'Ability')..'\n|-\n'..table.concat(block, '\n|-\n')..'\n|}');
 end
+	mw.logObject(name_set)
 
 --[[
 	https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context 
@@ -210,7 +238,7 @@ end
 	Tooltips.full{'Ability Duration', 'Stats', r='Duration'},
 	Tooltips.full{'Ability Range', 'Stats', r='Range'},
 	Tooltips.full{'Ability Efficiency', 'Stats', r='Efficiency'},
-	'',-- table.concat(ins, '\n|-\n'),
+	table.concat(ins_block, '\n|-\n'),
 	table.concat(blocks, '\n'),
 	table.concat(posttexts, '\n'),
 nil)

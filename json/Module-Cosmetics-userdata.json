@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-19T02:13:45.875Z"
+    "converted_at": "2026-09-29T08:05:18.020Z"
   },
   "_comments": "",
   "Ambassador": {
@@ -156,7 +156,8 @@
     "Equipments": {
       "Skin": [
         "Dark Split-Sword Day of the Dead Skin",
-        "Dark Split-Sword Dulus Skin"
+        "Dark Split-Sword Dulus Skin",
+        "Niveus Dark Split-Sword Skin"
       ]
     }
   },
@@ -462,6 +463,14 @@
       "Lex Prime"
     ],
     "Type": "Weapons"
+  },
+  "Nepheri": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Niveus Nepheri Skin"
+      ]
+    }
   },
   "Octavia": {
     "Equipments": {
@@ -1005,6 +1014,7 @@
         "Madurai Sumdali",
         "Manus Sumdali",
         "Naramon Sumdali",
+        "Niveus Sumdali",
         "Stalker's Mark Sumdali",
         "True Master Sumdali",
         "Unairu Sumdali",
@@ -1254,6 +1264,8 @@
         "Mirage Noble Animation Set",
         "Mirage Oneiro Agile Animation Set",
         "Mirage Oneiro Noble Animation Set",
+        "Narin Agile Animation Set",
+        "Narin Noble Animation Set",
         "Nekros Agile Animation Set",
         "Nekros Noble Animation Set",
         "Nezha Agile Animation Set",
@@ -1810,6 +1822,7 @@
         "Banshee Prime Armor",
         "Banshee Sonority Armor",
         "Banshee Soprana Shoulder Armor",
+        "Banshee Threnodia Shoulder Armor",
         "Banshee Voidshell Armor"
       ],
       "Helmet": [
@@ -1824,6 +1837,7 @@
         "Banshee Reverb Helmet",
         "Banshee Sonority Helmet",
         "Banshee Soprana Helmet",
+        "Banshee Threnodia Helmet",
         "Banshee Voidshell Helmet"
       ],
       "Skin": [
@@ -1833,6 +1847,7 @@
         "Banshee Skin",
         "Banshee Sonority Skin",
         "Banshee Soprana Skin",
+        "Banshee Threnodia Skin",
         "Banshee Voidshell Skin"
       ]
     },
@@ -1893,6 +1908,7 @@
     "Equipments": {
       "Sugatra": [
         "Alumeti Sugatra",
+        "Alumeti Prime Sugatra",
         "Anpu Sugatra",
         "Aroka Prime Sugatra",
         "Baochun Sugatra",
@@ -1956,7 +1972,8 @@
         "Paracesis Elixis Skin",
         "Paracesis Jade Skin",
         "Paracesis Obsidian Skin",
-        "Paracesis Opal Skin"
+        "Paracesis Opal Skin",
+        "Niveus Paracesis Skin"
       ]
     }
   },
@@ -1992,10 +2009,10 @@
     }
   },
   "Citrine": {
-    "Type": "Warframe",
     "Equipments": {
       "Helmet": [
         "Citrine Helmet",
+        "Citrine Heliotropia Helmet",
         "Citrine Kalite Helmet",
         "Citrine Aphrodita Helmet",
         "Citrine Celestis Helmet"
@@ -2005,7 +2022,11 @@
         "Citrine Aphrodita Skin",
         "Citrine Celestis Skin"
       ]
-    }
+    },
+    "Variants": [
+      "Citrine Prime"
+    ],
+    "Type": "Warframe"
   },
   "Carrier": {
     "Equipments": {
@@ -2420,7 +2441,8 @@
   "Dark Dagger": {
     "Equipments": {
       "Skin": [
-        "Dark Dagger Day of the Dead Skin"
+        "Dark Dagger Day of the Dead Skin",
+        "Niveus Dark Dagger Skin"
       ]
     },
     "Variants": [
@@ -3114,76 +3136,6 @@
     ],
     "Type": "Companion"
   },
-  "Dethcube": {
-    "Equipments": {
-      "Skin": [
-        "Carabus Dethcube",
-        "Dethcube Forest-Camo Skin",
-        "Dethcube Jade Skin",
-        "Dethcube Prime Skin",
-        "Dethcube Skin"
-      ]
-    },
-    "Variants": [
-      "Dethcube Prime"
-    ],
-    "Type": "Companion"
-  },
-  "Uriel": {
-    "Type": "Warframe",
-    "Equipments": {
-      "Helmet": [
-        "Uriel Asmodion Helmet",
-        "Uriel Helmet"
-      ],
-      "Skin": [
-        "Uriel Skin",
-        "Roathe Gemini Skin"
-      ]
-    }
-  },
-  "Wisp": {
-    "Equipments": {
-      "Auxiliary": [
-        "Wisp Prime Shroud",
-        "Marie's Cowl"
-      ],
-      "Helmet": [
-        "Wisp Celestis Helmet",
-        "Wisp Coven Helmet",
-        "Wisp Damas Helmet",
-        "Wisp Delusion Helmet",
-        "Wisp Dex Helmet",
-        "Wisp Gaoth Helmet",
-        "Wisp Graxx Helmet",
-        "Wisp Helmet",
-        "Wisp Prime Helmet",
-        "Wisp Raevuz Helmet",
-        "Wisp Somnium Helmet",
-        "Wisp Sycorax Helmet",
-        "Wisp Zamariu Helmet"
-      ],
-      "Skin": [
-        "Wisp Celestis Skin",
-        "Wisp Coven Skin",
-        "Wisp Delusion Skin",
-        "Wisp Dex Skin",
-        "Wisp Graxx Skin",
-        "Wisp Immortal Skin",
-        "Wisp Prime Skin",
-        "Wisp Raevuz Skin",
-        "Wisp Skin",
-        "Wisp Somnium Skin",
-        "Wisp Sycorax Skin",
-        "Wisp Zamariu Skin",
-        "Marie Gemini Skin"
-      ]
-    },
-    "Variants": [
-      "Wisp Prime"
-    ],
-    "Type": "Warframe"
-  },
   "Wukong": {
     "Equipments": {
       "Armor": [
@@ -3216,1627 +3168,6 @@
       "Wukong Prime"
     ],
     "Type": "Warframe"
-  },
-  "Orvius": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Orvius Dax Skin"
-      ]
-    }
-  },
-  "Oxylus": {
-    "Type": "Companion",
-    "Equipments": {
-      "Skin": [
-        "Oxylus Skin"
-      ]
-    }
-  },
-  "Akbolto": {
-    "Equipments": {
-      "Skin": [
-        "Akbolto Ormolu Skin"
-      ]
-    },
-    "Variants": [
-      "Telos Akbolto",
-      "Akbolto Prime"
-    ],
-    "Type": "Weapons"
-  },
-  "Kohm": {
-    "Equipments": {
-      "Skin": [
-        "Kohm Harkonar Skin"
-      ]
-    },
-    "Variants": [
-      "Kuva Kohm"
-    ],
-    "Type": "Weapons"
-  },
-  "Styanax": {
-    "Equipments": {
-      "Auxiliary": [
-        "Styanax Tonatiuh Embellishments"
-      ],
-      "Helmet": [
-        "Styanax Agogean Helmet",
-        "Styanax Ares Helmet",
-        "Styanax Gerousic Helmet",
-        "Styanax Helmet",
-        "Styanax Synmora Helmet",
-        "Styanax Tonatiuh Helmet",
-        "Styanax Voidshell Helmet",
-        "Styanax Prime Helmet"
-      ],
-      "Skin": [
-        "Styanax Ares Skin",
-        "Styanax Skin",
-        "Styanax Tonatiuh Skin",
-        "Styanax Voidshell Skin",
-        "Styanax Prime Skin"
-      ]
-    },
-    "Variants": [
-      "Styanax Prime"
-    ],
-    "Type": "Warframe"
-  },
-  "Grendel": {
-    "Equipments": {
-      "Helmet": [
-        "Grendel Glutt Helmet",
-        "Grendel Helmet",
-        "Grendel Moloch Helmet",
-        "Grendel Nian Helmet",
-        "Grendel Prime Helmet",
-        "Grendel Voidshell Helmet",
-        "Grendel Turbis Helmet"
-      ],
-      "Skin": [
-        "Grendel Moloch Skin",
-        "Grendel Nian Skin",
-        "Grendel Prime Skin",
-        "Grendel Skin",
-        "Grendel Voidshell Skin",
-        "Grendel Turbis Skin"
-      ]
-    },
-    "Variants": [
-      "Grendel Prime"
-    ],
-    "Type": "Warframe"
-  },
-  "Heat Dagger": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Heat Dagger Forest-Camo Skin",
-        "Heat Dagger Jade Skin"
-      ]
-    }
-  },
-  "Skana": {
-    "Equipments": {
-      "Skin": [
-        "Skana Conclave Skin",
-        "Skana Day of the Dead Skin",
-        "Skana Infested Skin",
-        "Skana Kintsugi Skin",
-        "Skana Nocturne Skin",
-        "Skana Obsidian Skin"
-      ]
-    },
-    "Variants": [
-      "Prisma Skana",
-      "Skana Prime"
-    ],
-    "Type": "Weapons"
-  },
-  "Vulkar": {
-    "Equipments": {
-      "Skin": [
-        "Vulkar Desert-Camo Skin"
-      ]
-    },
-    "Variants": [
-      "Vulkar Wraith"
-    ],
-    "Type": "Weapons"
-  },
-  "Voruna": {
-    "Equipments": {
-      "Armor": [
-        "Voruna Armor",
-        "Voruna Voidshell Armor",
-        "Voruna Prime Armor",
-        "Voruna Medeina Armor",
-        "Voruna Demionna Armor",
-        "Voruna Kuvael Drahkaanis Armor"
-      ],
-      "Auxiliary": [
-        "Glow-Cloak (Voruna)",
-        "Semi-Cloak (Voruna)"
-      ],
-      "Helmet": [
-        "Voruna Anukas Helmet",
-        "Voruna Helmet",
-        "Voruna Voidshell Helmet",
-        "Voruna Prime Helmet",
-        "Voruna Medeina Helmet",
-        "Voruna Demionna Helmet",
-        "Voruna Kuvael Drahkaanis Helmet"
-      ],
-      "Skin": [
-        "Voruna Skin",
-        "Voruna Voidshell Skin",
-        "Voruna Prime Skin",
-        "Voruna Medeina Skin",
-        "Voruna Demionna Skin",
-        "Voruna Kuvael Drahkaanis Skin"
-      ]
-    },
-    "Variants": [
-      "Voruna Prime"
-    ],
-    "Type": "Warframe"
-  },
-  "Dex Dakra": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Dex Dakra Jade Skin",
-        "Dex Dakra Obsidian Skin",
-        "Dex Dakra Opal Skin"
-      ]
-    }
-  },
-  "Dark Sword": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Dark Sword Day of the Dead Skin"
-      ]
-    }
-  },
-  "Twin Vipers": {
-    "Equipments": {
-      "Skin": [
-        "Twin Vipers Conclave Skin",
-        "Twin Vipers Desert-Camo Skin",
-        "Twin Vipers Obsidian Skin",
-        "Twin Vipers Rubedo Plated Skin"
-      ]
-    },
-    "Variants": [
-      "Twin Vipers Wraith"
-    ],
-    "Type": "Weapons"
-  },
-  "Rapier": {
-    "Type": "Weapon Class",
-    "Equipments": {
-      "Skin": [
-        "Nefertym Rapier Skin",
-        "Rapier Arashi Skin",
-        "Rapier Ferita Skin",
-        "Rapier Ni'duhl Skin",
-        "Rapier Tributaker Skin"
-      ],
-      "Holster": [
-        "Rapier Standard Holster",
-        "Rapier Upper Back Holster"
-      ]
-    }
-  },
-  "Volt": {
-    "Equipments": {
-      "Armor": [
-        "Volt Armor",
-        "Volt Prime Armor",
-        "Volt Voidshell Armor"
-      ],
-      "Auxiliary": [
-        "Amir's Shades",
-        "Volt Raijin Sleeves"
-      ],
-      "Helmet": [
-        "Arcane Pulse Helmet",
-        "Arcane Storm Helmet",
-        "Volt Amethyst Helmet",
-        "Volt Amp Helmet",
-        "Volt Arrester Helmet",
-        "Volt Capacitor Helmet",
-        "Volt Electrolyst Helmet",
-        "Volt Fulgursor Helmet",
-        "Volt Graxx Helmet",
-        "Volt Helmet",
-        "Volt Opal Helmet",
-        "Volt Prime Helmet",
-        "Volt Prominence Helmet",
-        "Volt Proto Helmet",
-        "Volt Pulse Helmet",
-        "Volt Raijin Helmet",
-        "Volt Relay Helmet",
-        "Volt Storm Helmet",
-        "Volt Technoshock Helmet",
-        "Volt Thales Helmet",
-        "Volt Voidshell Helmet",
-        "Volt Zener Helmet"
-      ],
-      "Skin": [
-        "Amir Gemini Skin",
-        "Volt Amethyst Skin",
-        "Volt Amp Skin",
-        "Volt Capacitor Skin",
-        "Volt Electrolyst Skin",
-        "Volt Fulgursor Skin",
-        "Volt Graxx Skin",
-        "Volt Immortal Skin",
-        "Volt Opal Skin",
-        "Volt Prime Skin",
-        "Volt Prominence Skin",
-        "Volt Proto Skin",
-        "Volt Raijin Skin",
-        "Volt Skin",
-        "Volt Technoshock Skin",
-        "Volt Voidshell Skin",
-        "Volt Zener Skin"
-      ]
-    },
-    "Variants": [
-      "Volt Prime"
-    ],
-    "Type": "Warframe"
-  },
-  "Voidrig": {
-    "Type": "Necramech",
-    "Equipments": {
-      "Helmet": [
-        "Iridos Voidrig Necramech Helmet",
-        "Voidrig Necramech Helmet",
-        "Proto Necramech Helmet"
-      ],
-      "Skin": [
-        "Iridos Voidrig Necramech Skin",
-        "Voidrig Necramech Skin",
-        "Proto Necramech Skin"
-      ]
-    }
-  },
-  "Baza": {
-    "Equipments": {
-      "Skin": [
-        "Baza Tekelu Skin"
-      ]
-    },
-    "Variants": [
-      "Baza Prime"
-    ],
-    "Type": "Weapons"
-  },
-  "Temple": {
-    "Type": "Warframe",
-    "Equipments": {
-      "Helmet": [
-        "Temple Rockett Helmet",
-        "Temple Helmet"
-      ],
-      "Skin": [
-        "Temple Skin",
-        "Flare Gemini Skin"
-      ]
-    }
-  },
-  "Arca Plasmor": {
-    "Equipments": {
-      "Skin": [
-        "Arca Plasmor Solstice Skin"
-      ]
-    },
-    "Variants": [
-      "Tenet Arca Plasmor"
-    ],
-    "Type": "Weapons"
-  },
-  "Venari": {
-    "Equipments": {
-      "Skin": [
-        "Maculatia Venari Skin",
-        "Venari Prime Skin",
-        "Venari Skin"
-      ]
-    },
-    "Variants": [
-      "Venari Prime"
-    ],
-    "Type": "Companion"
-  },
-  "Pandero": {
-    "Equipments": {
-      "Skin": [
-        "Pandero Ceramica Skin"
-      ]
-    },
-    "Variants": [
-      "Pandero Prime"
-    ],
-    "Type": "Weapons"
-  },
-  "Flux Rifle": {
-    "Equipments": {
-      "Skin": [
-        "Flux Rifle Shock-Camo Skin"
-      ]
-    },
-    "Variants": [
-      "Tenet Flux Rifle"
-    ],
-    "Type": "Weapons"
-  },
-  "Halberd": {
-    "Type": "Weapon Class",
-    "Equipments": {
-      "Holster": [
-        "Halberd Standard Holster"
-      ]
-    }
-  },
-  "Vasto": {
-    "Equipments": {
-      "Skin": [
-        "Vasto Conclave Skin",
-        "Vasto Day of the Dead Skin",
-        "Vasto Forest-Camo Skin",
-        "Vasto Phased Skin",
-        "Vasto Tekelu Skin"
-      ]
-    },
-    "Variants": [
-      "Vasto Prime"
-    ],
-    "Type": "Weapons"
-  },
-  "Syandana": {
-    "Type": "Attachment",
-    "Equipments": {
-      "Syandana": [
-        "Abbera Prime Syandana",
-        "Abrasys Day of the Dead Syandana",
-        "Abrasys Syandana",
-        "Ahlto Syandana",
-        "Akrabu Syandana",
-        "Ak-Sura Syandana",
-        "Alocana Syandana",
-        "Altra Prime Syandana",
-        "Altra Syandana",
-        "Amphor Syandana",
-        "Apavada Prime Syandana",
-        "Apis Syandana",
-        "Apoxys Syandana",
-        "Aquiros Syandana",
-        "Arcturus Syandana",
-        "Armalyst Syandana",
-        "Aropanex Syandana",
-        "Artifex Syandana",
-        "Artifex Prime Syandana",
-        "Asa Phased Syandana",
-        "Asa Syandana",
-        "Asila Prime Syandana",
-        "Asita Rakta Syandana",
-        "Aspirant Syandana",
-        "Aurimus Prime Syandana",
-        "Avia Prime Syandana",
-        "Awlspan Syandana",
-        "Ayla Syandana",
-        "Bennu Syandana",
-        "Bodo Syandana",
-        "Bolide Syandana",
-        "Boltara Syandana",
-        "Bombyx Syandana",
-        "Boolean Syandana",
-        "Brising Syandana",
-        "Broca Prominence Syandana",
-        "Broca Solstice Syandana",
-        "Broca Syandana",
-        "Burangara Longcoat",
-        "Buzhou Syandana",
-        "Capella Prime Syandana",
-        "Cathode Syandana",
-        "Celestia Syandana",
-        "Centuria Syandana",
-        "Centuria Towsun Syandana",
-        "Chemtank Syandana",
-        "Circadian Syandana",
-        "Citadella Prime Syandana",
-        "Conquera Syandana",
-        "Conquera Uplift Syandana",
-        "Constella Syandana",
-        "Corona Syandana",
-        "Covenant Syandana",
-        "Cremata Syandana",
-        "Crinoid Prime Syandana",
-        "Cryona Syandana",
-        "Cumulus Syandana",
-        "Cycuta Prime Syandana",
-        "Danavi Syandana",
-        "Dax Syandana",
-        "Daybreak Vanquished Banner",
-        "Deru Syandana",
-        "Despot Cape Syandana",
-        "Dessicata Syandana",
-        "Dex Nouchali Syandana",
-        "Diablillo Syandana",
-        "Disconnect Syandana",
-        "Dominus Syandana",
-        "Domus Syandana",
-        "Draugen Syandana",
-        "Due Volpi Syandana",
-        "Eklis Syandana",
-        "Entheor Prime Syandana",
-        "Enthra Syandana",
-        "Ezriel Syandana",
-        "Fei Syandana",
-        "Flox Syandana",
-        "Foxglove Syandana",
-        "Gigelor Prime Syandana",
-        "Gigelorum Prime Syandana",
-        "Glacia Syandana",
-        "Glistor Syandana",
-        "Graxx Spitefire Syandana",
-        "Hanteler Prime Syandana",
-        "Harkonar Cloak",
-        "Harkonar Wraith Cloak",
-        "Hecate Syandana",
-        "Huitzilin Syandana",
-        "Hyalus Syandana",
-        "Icarius Syandana",
-        "Igaro Day of the Dead Syandana",
-        "Igaro Syandana",
-        "Iliac Syandana",
-        "Imperator Festive Syandana",
-        "Imperator Jade Syandana",
-        "Imperator Syandana",
-        "Impetus Prime Syandana",
-        "Incubus Ribbon Syandana",
-        "Isabeau Prime Syandana",
-        "Izvara Day of the Dead Syandana",
-        "Izvara Solstice Syandana",
-        "Izvara Syandana",
-        "Jade Axa Syandana",
-        "Jade Bombyx Syandana",
-        "Jade Broca Syandana",
-        "Jade's Victory Syandana",
-        "Jattuk Mantle",
-        "Jindou Prime Syandana",
-        "Jotunheim Music Syandana",
-        "Jotunheim Syandana",
-        "Kahtuss Prime Syandana",
-        "Kerata Prime Syandana",
-        "Kerata Syandana",
-        "Khinn Syandana",
-        "Khrusos Syandana",
-        "Ki'Teer Diax Syandana",
-        "Ki'Teer Razza Syandana",
-        "Ki'Teer Solstice Syandana",
-        "Ki'Teer Straed Syandana",
-        "Ki'Teer Syandana",
-        "Kunshu Syandana",
-        "Kuva Braid",
-        "Kuva Cloak",
-        "Kuva Solstice Cloak",
-        "Kyroptera Day of the Dead Syandana",
-        "Kyroptera Ormolu Syandana",
-        "Kyroptera Panoply Syandana",
-        "Kyroptera Syandana",
-        "Laddak Cloak",
-        "Lanex Syandana",
-        "Lanex Prime Syandana",
-        "Laprosys Syandana",
-        "Lodestar Syandana",
-        "Lucra Syandana",
-        "Lustratus Conquest Syandana",
-        "Lustratus Warbanner Syandana",
-        "Lycanblight Syandana",
-        "Maggor Syandana",
-        "Maggor Towsun Syandana",
-        "Maharliqa Syandana",
-        "Massif Prime Syandana",
-        "Merulina Syandana",
-        "Merulina Prime Syandana",
-        "Misa Prime Syandana",
-        "Mithra Syandana",
-        "Monarcierro Day of the Dead Syandana",
-        "Mozi Syandana",
-        "Mucusk Syandana",
-        "Mushussu Syandana",
-        "Naru Syandana",
-        "Nave Prime Syandana",
-        "Nave Syandana",
-        "Nelumbo Syandana",
-        "Neurovyre Syandana",
-        "Neurovyre Prime Syandana",
-        "Night Hunter Syandana",
-        "Noru Prime Syandana",
-        "Nosos Syandana",
-        "Nsaru Syandana",
-        "Oblivia Prime Syandana",
-        "Obsidian Azura Syandana",
-        "Obsidian Corvus Syandana",
-        "Obsidian Kyroptera Syandana",
-        "Obsidian Samia Syandana",
-        "Obsidian Sedai Syandana",
-        "Officium Syandana",
-        "Opal Imperator Syandana",
-        "Opulas Robe",
-        "Orion's Swaddle Syandana",
-        "Oscira Syandana",
-        "Pakal Syandana",
-        "Palatine Syandana",
-        "Palla Syandana",
-        "Parotia Syandana",
-        "Paxis Syandana",
-        "Pistris Syandana",
-        "Portcull Syandana",
-        "Prisma Hecate Syandana",
-        "Prisma Uru Syandana",
-        "Prisma Yamako Syandana",
-        "Protovyre Apex Syandana",
-        "Protovyre Emergent Syandana",
-        "Protovyre Syandana",
-        "Pulchranopsis Syandana",
-        "Pyra Prime Syandana",
-        "Pyra Syandana",
-        "Quaro Syandana",
-        "Radia Syandana",
-        "Raiji Syandana",
-        "Rakta Syandana",
-        "Ranulyst Syandana",
-        "Rath Kittag Cloak",
-        "Raya Sigma Syandana",
-        "Raylta Syandana",
-        "Rencowl Syandana",
-        "Repala Syandana",
-        "Reshantur Cult Syandana",
-        "Retrorolyst Syandana",
-        "Revenant Mephisto Syandana",
-        "Rhodora Syandana",
-        "Rhoptron Prime Syandana",
-        "Rhoptron Syandana",
-        "Rota Syandana",
-        "Salix Solstice Syandana",
-        "Salix Syandana",
-        "Samia Syandana",
-        "Samia Towsun Syandana",
-        "Sancti Syandana",
-        "Sari Syandana",
-        "Sarva Harness Syandana",
-        "Saturn Six Syandana",
-        "Saturn Six Day of the Dead Syandana",
-        "Scapulis Syandana",
-        "Scarab Syandana",
-        "Sciathin Syandana",
-        "Scylla Syandana",
-        "Secura Syandana",
-        "Senvictis Syandana",
-        "Seraphim Syandana",
-        "Serenidine Prime Syandana",
-        "Sethar Syandana",
-        "Setka Syandana",
-        "Shiroku Syandana",
-        "Shurihoshi Syandana",
-        "Sidereal Syandana",
-        "Sigma Series Syandana",
-        "Sildarg Syandana",
-        "Sirius' Swaddle Syandana",
-        "Solida Syandana",
-        "Solstice Centuria Syandana",
-        "Solstice Vanquished Banner",
-        "Sordario Syandana",
-        "Sovereign Syandana",
-        "Spektaka Prime Syandana",
-        "Stelflare Syandana",
-        "Stezia Sumbha Syandana",
-        "Stratum Syandana",
-        "Styx Syandana",
-        "Subhuti Syandana",
-        "Subvolv Syandana",
-        "Sukira Prime Syandana",
-        "Sumbha Prime Syandana",
-        "Sumbha Syandana",
-        "Suparna Day of the Dead Syandana",
-        "Suparna Syandana",
-        "Surator Prime Syandana",
-        "Surator Syandana",
-        "Sydeko Syandana",
-        "Synkra Syandana",
-        "Synoid Syandana",
-        "Telos Syandana",
-        "TennoCon 2016 Syandana",
-        "TennoCon 2017 Syandana",
-        "TennoCon 2020 Syandana",
-        "TennoCon 2023 Syandana",
-        "TennoCon 2024 Syandana",
-        "Tenui Syandana",
-        "Teplo Syandana",
-        "Thiazi Syandana",
-        "Thorac Syandana",
-        "Tonaca Syandana",
-        "Triodic Syandana",
-        "Tsujinasa Syandana",
-        "Udyat Iridos Syandana",
-        "Udyat Syandana",
-        "Uru Prime Syandana",
-        "Uru Syandana",
-        "Valesti Syandana",
-        "Vanquished Banner",
-        "Vanquished Banner Day of the Dead",
-        "Vasa Syandana",
-        "Vaykor Syandana",
-        "Verismo Syandana",
-        "Verv Atelia Syandana",
-        "Vexillus Cloak",
-        "Vistapa Prime Syandana",
-        "Vitam Syandana",
-        "Vitam Prime Syandana",
-        "Vithil Syandana",
-        "Volca Syandana",
-        "Wintercress Syandana",
-        "Yamako Prime Syandana",
-        "Yamako Rubedo Plated Syandana",
-        "Yamako Syandana",
-        "Yomo Obsidian Syandana",
-        "Yomo Syandana",
-        "Zaikhya Syandana",
-        "Zamariu Syandana"
-      ]
-    }
-  },
-  "Corinth": {
-    "Equipments": {
-      "Skin": [
-        "Corinth Obsidian Skin",
-        "Corinth Opal Skin",
-        "Corinth Solstice Skin"
-      ]
-    },
-    "Variants": [
-      "Corinth Prime"
-    ],
-    "Type": "Weapons"
-  },
-  "Twin Rogga": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Twin Rogga Towsun Skin"
-      ]
-    }
-  },
-  "Cernos": {
-    "Equipments": {
-      "Skin": [
-        "Cernos Lunaeus Skin"
-      ]
-    },
-    "Variants": [
-      "Cernos Prime",
-      "Rakta Cernos"
-    ],
-    "Type": "Weapons"
-  },
-  "Kompressa": {
-    "Equipments": {
-      "Skin": [
-        "Nidoblast Kompressa Skin"
-      ]
-    },
-    "Variants": [
-      "Kompressa Prime"
-    ],
-    "Type": "Weapons"
-  },
-  "Cortege": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Cortege Supulchrax Skin"
-      ]
-    }
-  },
-  "Trinity": {
-    "Equipments": {
-      "Helmet": [
-        "Arcane Aura Helmet",
-        "Arcane Meridian Helmet",
-        "Trinity Ancyra Helmet",
-        "Trinity Aura Helmet",
-        "Trinity Blade of the Lotus Helmet",
-        "Trinity Helmet",
-        "Trinity Knightess Helmet",
-        "Trinity Meridian Helmet",
-        "Trinity Messiah Helmet",
-        "Trinity Nightingale Helmet",
-        "Trinity Prime Helmet",
-        "Trinity Strega Helmet"
-      ],
-      "Skin": [
-        "Lettie Gemini Skin",
-        "Trinity Blade of the Lotus Skin",
-        "Trinity Immortal Skin",
-        "Trinity Knightess Skin",
-        "Trinity Nightingale Skin",
-        "Trinity Prime Skin",
-        "Trinity Skin",
-        "Trinity Strega Skin"
-      ]
-    },
-    "Variants": [
-      "Trinity Prime"
-    ],
-    "Type": "Warframe"
-  },
-  "Tonfa": {
-    "Type": "Weapon Class",
-    "Equipments": {
-      "Skin": [
-        "Ceramica Tonfa Skin",
-        "Maruta Tonfa Skin",
-        "Tonfa Ba'geth Skin",
-        "Tonfa Hades Skin",
-        "Tonfa Yamex Skin"
-      ],
-      "Holster": [
-        "Tonfa Hip Holster",
-        "Tonfa Reverse Holster",
-        "Tonfa Standard Holster"
-      ]
-    }
-  },
-  "Titania": {
-    "Equipments": {
-      "Helmet": [
-        "Titania Aurai Helmet",
-        "Titania Donann Helmet",
-        "Titania Empress Helmet",
-        "Titania Helmet",
-        "Titania Lympharis Helmet",
-        "Titania Mab Helmet",
-        "Titania Pixialyst Helmet",
-        "Titania Prime Helmet",
-        "Titania Unseelie Helmet",
-        "Titania Viraji Helmet"
-      ],
-      "Wing": [
-        "Titania Moyturan Wings"
-      ],
-      "Skin": [
-        "Titania Donann Skin",
-        "Titania Empress Skin",
-        "Titania Lympharis Skin",
-        "Titania Pixialyst Skin",
-        "Titania Prime Skin",
-        "Titania Skin",
-        "Titania Solstice Skin",
-        "Titania Unseelie Skin"
-      ]
-    },
-    "Variants": [
-      "Titania Prime"
-    ],
-    "Type": "Warframe"
-  },
-  "Tipedo": {
-    "Equipments": {
-      "Skin": [
-        "Tipedo Conclave Skin",
-        "Tipedo Ormolu Skin"
-      ]
-    },
-    "Variants": [
-      "Tipedo Prime"
-    ],
-    "Type": "Weapons"
-  },
-  "Tigris": {
-    "Equipments": {
-      "Skin": [
-        "Tigris Elixis Skin",
-        "Tigris Onyx Skin",
-        "Tigris Phased Skin",
-        "Tigris Prominence Skin",
-        "Tigris Tekelu Skin"
-      ]
-    },
-    "Variants": [
-      "Tigris Prime",
-      "Sancti Tigris"
-    ],
-    "Type": "Weapons"
-  },
-  "Hildryn": {
-    "Equipments": {
-      "Armor": [
-        "Hildryn Prime Chest Plate"
-      ],
-      "Helmet": [
-        "Hildryn Asuron Helmet",
-        "Hildryn Einheri Helmet",
-        "Hildryn Helmet",
-        "Hildryn Prime Helmet",
-        "Hildryn Sigrun Helmet",
-        "Hildryn Sarcostema Helmet"
-      ],
-      "Skin": [
-        "Hildryn Einheri Skin",
-        "Hildryn Prime Skin",
-        "Hildryn Sigrun Skin",
-        "Hildryn Skin",
-        "Hildryn Sarcostema Skin"
-      ]
-    },
-    "Variants": [
-      "Hildryn Prime"
-    ],
-    "Type": "Warframe"
-  },
-  "Dual Swords": {
-    "Type": "Weapon Class",
-    "Equipments": {
-      "Skin": [
-        "Dual Swords Cyskis Skin",
-        "Dual Swords Frysta Skin",
-        "Dual Sword Lemnas Skin",
-        "Dual Swords Lunaeus Skin",
-        "Dual Swords Nari & Vali Skin",
-        "Dual Swords Stavika Skin"
-      ],
-      "Holster": [
-        "Dual Blades Hip Holster",
-        "Dual Blades Shoulder Holster",
-        "Dual Blades Standard Holster"
-      ]
-    }
-  },
-  "Paracyst": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Paracyst Zebra Skin"
-      ]
-    }
-  },
-  "Thrown": {
-    "Type": "Weapon Class",
-    "Equipments": {
-      "Skin": [
-        "Monitivus Thrown Weapon Skin",
-        "Oscira Thrown Weapon Skin",
-        "Protokol Hira Thrown Weapon Skin",
-        "Tarock Thrown Weapon Skin"
-      ]
-    }
-  },
-  "Tetra": {
-    "Equipments": {
-      "Skin": [
-        "Tetra Shock-Camo Skin"
-      ]
-    },
-    "Variants": [
-      "Prisma Tetra",
-      "Tenet Tetra"
-    ],
-    "Type": "Weapons"
-  },
-  "Viper": {
-    "Equipments": {
-      "Skin": [
-        "Viper Conclave Skin",
-        "Viper Desert-Camo Skin",
-        "Viper Obsidian Skin",
-        "Viper Rubedo Plated Skin"
-      ]
-    },
-    "Variants": [
-      "Viper Wraith"
-    ],
-    "Type": "Weapons"
-  },
-  "Ogris": {
-    "Equipments": {
-      "Skin": [
-        "Ogris Iridos Skin",
-        "Ogris Lunaeus Skin",
-        "Ogris Nightwatch Skin",
-        "Ogris Rocket Launcher Skin"
-      ]
-    },
-    "Variants": [
-      "Kuva Ogris"
-    ],
-    "Type": "Weapons"
-  },
-  "Taxon": {
-    "Type": "Companion",
-    "Equipments": {
-      "Skin": [
-        "Taxon Desert-Camo Skin",
-        "Taxon Skin"
-      ]
-    }
-  },
-  "Tatsu": {
-    "Equipments": {
-      "Skin": [
-        "Tatsu Solstice Skin"
-      ]
-    },
-    "Variants": [
-      "Tatsu Prime"
-    ],
-    "Type": "Weapons"
-  },
-  "Sybaris": {
-    "Equipments": {
-      "Skin": [
-        "Sybaris Conclave Skin",
-        "Sybaris Overload Skin"
-      ]
-    },
-    "Variants": [
-      "Sybaris Prime",
-      "Dex Sybaris"
-    ],
-    "Type": "Weapons"
-  },
-  "Two-Handed Nikana": {
-    "Type": "Weapon Class",
-    "Equipments": {
-      "Skin": [
-        "Orison Two-Handed Nikana Skin",
-        "Two-Handed Nikana Arashi Skin",
-        "Two-Handed Nikana Dogma Skin",
-        "Two-Handed Nikana Ksara Skin",
-        "Two-Handed Nikana Maligna Skin"
-      ],
-      "Holster": [
-        "Two-Handed Nikana Standard Holster"
-      ]
-    }
-  },
-  "Sword and Shield": {
-    "Type": "Weapon Class",
-    "Equipments": {
-      "Skin": [
-        "Astreos Sword and Shield Skin",
-        "Gaforn Sword and Shield Skin",
-        "Sword And Shield Danaus Skin"
-      ],
-      "Holster": [
-        "Sword And Shield High Draw",
-        "Sword And Shield Low Draw",
-        "Sword And Shield Standard Draw"
-      ]
-    }
-  },
-  "Gauss": {
-    "Equipments": {
-      "Helmet": [
-        "Gauss Agito Helmet",
-        "Gauss Graxx Helmet",
-        "Gauss Helmet",
-        "Gauss Kresnik Helmet",
-        "Gauss Mag Helmet",
-        "Gauss Nitrolyst Helmet",
-        "Gauss Prime Blazargaze Helmet",
-        "Gauss Prime Helmet",
-        "Gauss Moto Helmet",
-        "Gauss Profitas Helmet"
-      ],
-      "Skin": [
-        "Gauss Agito Skin",
-        "Gauss Graxx Skin",
-        "Gauss Kresnik Skin",
-        "Gauss Nitrolyst Skin",
-        "Gauss Prime Skin",
-        "Gauss Skin",
-        "Gauss Moto Skin",
-        "Gauss Profitas Skin"
-      ]
-    },
-    "Variants": [
-      "Gauss Prime"
-    ],
-    "Type": "Warframe"
-  },
-  "Limbo": {
-    "Equipments": {
-      "Helmet": [
-        "Limbo Aristeas Helmet",
-        "Limbo Aureolus Helmet",
-        "Limbo Graxx Helmet",
-        "Limbo Helmet",
-        "Limbo Limina Helmet",
-        "Limbo Magrite Helmet",
-        "Limbo Prime Helmet",
-        "Limbo Vasiona Helmet",
-        "Limbo Venari Helmet",
-        "Limbo Vistyxio Helmet",
-        "Limbo Voidshell Helmet"
-      ],
-      "Skin": [
-        "Limbo Graxx Skin",
-        "Limbo Immortal Skin",
-        "Limbo Limina Skin",
-        "Limbo Prime Skin",
-        "Limbo Skin",
-        "Limbo Vasiona Skin",
-        "Limbo Vistyxio Skin",
-        "Limbo Voidshell Skin"
-      ]
-    },
-    "Variants": [
-      "Limbo Prime"
-    ],
-    "Type": "Warframe"
-  },
-  "Sword": {
-    "Type": "Weapon Class",
-    "Equipments": {
-      "Skin": [
-        "Longsword Arit Skin",
-        "Longsword Dero Skin",
-        "Longsword Eisen Skin",
-        "Longsword Ezriel Skin",
-        "Longsword Frysta Skin",
-        "Longsword Insidia Skin",
-        "Longsword Ion Skin",
-        "Longsword Kopesh Skin",
-        "Longsword Tengushen Skin",
-        "Oscira Longsword Skin",
-        "Protokol Longsword Skin",
-        "Rephrax Longsword Skin",
-        "Tannukai Longsword Skin"
-      ],
-      "Holster": [
-        "Sword Left Hip Holster",
-        "Sword Right Hip Holster",
-        "Sword Standard Holster"
-      ]
-    }
-  },
-  "Orthos": {
-    "Equipments": {
-      "Skin": [
-        "Orthos Day of the Dead Skin",
-        "Orthos Forest-Camo Skin",
-        "Orthos Lunaeus Skin",
-        "Orthos Magesty Skin",
-        "Orthos Onyx Skin",
-        "Orthos Phased Skin",
-        "Orthos Tekelu Skin"
-      ]
-    },
-    "Variants": [
-      "Orthos Prime"
-    ],
-    "Type": "Weapons"
-  },
-  "Stubba": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Stubba Towsun Skin"
-      ]
-    }
-  },
-  "Strun": {
-    "Equipments": {
-      "Skin": [
-        "Strun Conclave Skin"
-      ]
-    },
-    "Variants": [
-      "Strun Prime",
-      "Strun Wraith",
-      "Mk1-Strun"
-    ],
-    "Type": "Weapons"
-  },
-  "Atlas": {
-    "Equipments": {
-      "Helmet": [
-        "Atlas Arhat Helmet",
-        "Atlas Blade of the Lotus Helmet",
-        "Atlas Graxx Helmet",
-        "Atlas Helmet",
-        "Atlas Karst Helmet",
-        "Atlas Monolith Helmet",
-        "Atlas Prime Helmet",
-        "Atlas Shikoro Helmet",
-        "Atlas Tartarus Helmet",
-        "Atlas Telamon Helmet"
-      ],
-      "Skin": [
-        "Atlas Blade of the Lotus Skin",
-        "Atlas Graxx Skin",
-        "Atlas Karst Skin",
-        "Atlas Monolith Skin",
-        "Atlas Prime Skin",
-        "Atlas Skin"
-      ]
-    },
-    "Variants": [
-      "Atlas Prime"
-    ],
-    "Type": "Warframe"
-  },
-  "Signa": {
-    "Type": "Attachment",
-    "Equipments": {
-      "Signa": [
-        "Acheta Signa",
-        "Centurio Signa",
-        "Dex Signa",
-        "Diraeus Signa",
-        "Ember Heirloom Signa",
-        "Envine Signa",
-        "Erato Signa",
-        "Flankon Signa",
-        "Frost Heirloom Signa",
-        "Fumulo Signa",
-        "Gothica Signa",
-        "Hana Ikada Signa",
-        "Invictus Signa",
-        "Invictus Apex Signa",
-        "Invictus Emergent Signa",
-        "Karotic Signa",
-        "Krios Signa",
-        "Ki'Teer Nobilis Signa",
-        "Kyzen Signa",
-        "Liania Signa",
-        "Mag Heirloom Signa",
-        "Maginav Prime Signa",
-        "Mesa Heirloom Signa",
-        "Motetique Signa",
-        "Pragmatica Signa",
-        "Rhino Heirloom Signa",
-        "Stardust Signa",
-        "Tomoe Signa",
-        "Valkyr Heirloom Signa",
-        "Vermis Signa",
-        "Vauban Heirloom Signa",
-        "Vizor Signa",
-        "Zamariu Signa"
-      ]
-    }
-  },
-  "Heliocor": {
-    "Equipments": {
-      "Skin": [
-        "Heliocor Solstice Skin"
-      ]
-    },
-    "Variants": [
-      "Synoid Heliocor"
-    ],
-    "Type": "Weapons"
-  },
-  "Grimoire": {
-    "Equipments": {
-      "Skin": [
-        "Grimoire Day of the Dead Skin",
-        "Eskhatos Grimoire Skin",
-        "Noctua Lophos",
-        "Necratech Tome Skin",
-        "Vitreum Tome Skin"
-      ]
-    },
-    "Variants": [
-      "Noctua"
-    ],
-    "Type": "Weapons"
-  },
-  "Staff": {
-    "Type": "Weapon Class",
-    "Equipments": {
-      "Skin": [
-        "Anpu Staff Skin",
-        "Eklypsa Staff Skin",
-        "Lemnas Staff Skin",
-        "Oscira Staff Skin",
-        "SINGLE STAFF SKIN",
-        "Staves Volu Skin"
-      ],
-      "Holster": [
-        "Staff Lower Back Holster",
-        "Staff Standard Holster",
-        "Staff Straight Holster"
-      ]
-    }
-  },
-  "Spira": {
-    "Equipments": {
-      "Skin": [
-        "Spira Day of the Dead Skin",
-        "Spira Obsidian Skin"
-      ]
-    },
-    "Variants": [
-      "Spira Prime"
-    ],
-    "Type": "Weapons"
-  },
-  "Speargun": {
-    "Type": "Weapon Class",
-    "Equipments": {
-      "Skin": [
-        "Ascension Speargun Skin",
-        "Carcinus Speargun Skin",
-        "Renuntio Speargun Skin"
-      ]
-    }
-  },
-  "Tiberon": {
-    "Equipments": {
-      "Skin": [
-        "Tiberon Elixis Skin",
-        "Tiberon Obsidian Skin"
-      ]
-    },
-    "Variants": [
-      "Tiberon Prime"
-    ],
-    "Type": "Weapons"
-  },
-  "Excalibur": {
-    "Equipments": {
-      "Armor": [
-        "Umbra Arm Armor",
-        "Umbra Chest Armor",
-        "Umbra Leg Armor"
-      ],
-      "Helmet": [
-        "Arcane Avalon Helmet",
-        "Arcane Pendragon Helmet",
-        "Excalibur Amethyst Helmet",
-        "Excalibur Apex Helmet",
-        "Excalibur Arturius Helmet",
-        "Excalibur Avalon Helmet",
-        "Excalibur Blade of the Lotus Helmet",
-        "Excalibur Caduto Helmet",
-        "Excalibur Corpra Helmet",
-        "Excalibur Dex Helmet",
-        "Excalibur Exaltation Helmet",
-        "Excalibur Graxx Helmet",
-        "Excalibur Graxx-V2 Helmet",
-        "Excalibur Helmet",
-        "Excalibur Ion Helmet",
-        "Excalibur Isurus Helmet",
-        "Excalibur Jade Helmet",
-        "Excalibur Mordred Helmet",
-        "Excalibur Obsidian Azura Helmet",
-        "Excalibur Obsidian Helmet",
-        "Excalibur Ogrant Helmet",
-        "Excalibur Onyx Helmet",
-        "Excalibur Opal Helmet",
-        "Excalibur Pendragon Helmet",
-        "Excalibur Prime Helmet",
-        "Excalibur Prisma Avalon Helmet",
-        "Excalibur Prisma Helmet",
-        "Excalibur Prisma Pendragon Helmet",
-        "Excalibur Prominence Helmet",
-        "Excalibur Proto-Armor Helmet",
-        "Excalibur Ronin Helmet",
-        "Excalibur Sentient Slayer Helmet",
-        "Excalibur Umbra Helmet",
-        "Excalibur Umbra Sunder Helmet",
-        "Excalibur Umbra Therion Helmet",
-        "Excalibur Vespula Helmet",
-        "Excalibur Voidshell Helmet",
-        "Excalibur Zato Helmet"
-      ],
-      "Skin": [
-        "Arthur Gemini Skin",
-        "Excalibur Alabaster Skin",
-        "Excalibur Amethyst Skin",
-        "Excalibur Apex Skin",
-        "Excalibur Blade of the Lotus Skin",
-        "Excalibur Caduto Skin",
-        "Excalibur Corpra Skin",
-        "Excalibur Dex Skin",
-        "Excalibur Exaltation Skin",
-        "Excalibur Graxx Skin",
-        "Excalibur Immortal Skin",
-        "Excalibur Ion Skin",
-        "Excalibur Jade Skin",
-        "Excalibur Obsidian",
-        "Excalibur Obsidian Azura Skin",
-        "Excalibur Onyx Skin",
-        "Excalibur Opal Skin",
-        "Excalibur Prime Skin",
-        "Excalibur Prisma Skin",
-        "Excalibur Prominence Skin",
-        "Excalibur Proto-Armor Skin",
-        "Excalibur Ronin Skin",
-        "Excalibur Sentient Slayer Skin",
-        "Excalibur Skin",
-        "Excalibur Umbra Skin",
-        "Excalibur Vespula Skin",
-        "Excalibur Voidshell Skin",
-        "Excalibur Zato Skin"
-      ]
-    },
-    "Variants": [
-      "Excalibur Prime",
-      "Excalibur Umbra",
-      "Excalibur Umbra Prime"
-    ],
-    "Type": "Warframe"
-  },
-  "Sobek": {
-    "Equipments": {
-      "Skin": [
-        "Sobek Day of the Dead Skin",
-        "Sobek Desert-Camo Skin"
-      ]
-    },
-    "Variants": [
-      "Kuva Sobek"
-    ],
-    "Type": "Weapons"
-  },
-  "Kaithe": {
-    "Type": "Vehicle",
-    "Equipments": {
-      "Pedigree": [
-        "Aetigo Kaithe",
-        "Histornam Kaithe",
-        "Psyacus Kaithe"
-      ],
-      "Wing": [
-        "Exorion Wings"
-      ],
-      "Chamfron": [
-        "Aethon Chamfron",
-        "Dyrncaul Chamfron",
-        "Irdeni Chamfron",
-        "Kheyur Chamfron",
-        "Sviari Chamfron"
-      ],
-      "Tail": [
-        "Aebolg Tail",
-        "Aethon Tail",
-        "Aetigo Tail",
-        "Caersid Tail",
-        "Heoro Tail",
-        "Histornam Tail",
-        "Psyacus Tail",
-        "Velific Tail"
-      ],
-      "Saddle": [
-        "Aethon Saddle",
-        "Dovin Saddle",
-        "Sohseki Saddle",
-        "Vaidurian Saddle"
-      ],
-      "Coronet": [
-        "Dauntair Coronet",
-        "Enverve Coronet",
-        "Myrthen Coronet",
-        "Vexage Coronet",
-        "Wistfall Coronet"
-      ]
-    }
-  },
-  "Mesa": {
-    "Equipments": {
-      "Helmet": [
-        "Mesa Dead Eye Helmet",
-        "Mesa Devil Ranger Helmet",
-        "Mesa Falcon Helmet",
-        "Mesa Graxx Helmet",
-        "Mesa Helmet",
-        "Mesa Insomnia Helmet",
-        "Mesa Kudegra Helmet",
-        "Mesa Longhorn Helmet",
-        "Mesa Marlet Helmet",
-        "Mesa Mesnificent Helmet",
-        "Mesa Ovis Helmet",
-        "Mesa Presidio Helmet",
-        "Mesa Prime Helmet",
-        "Mesa Prime Montesa Helmet",
-        "Mesa Projectilyst Helmet",
-        "Mesa Voidshell Helmet"
-      ],
-      "Skin": [
-        "Mesa Devil Ranger Skin",
-        "Mesa Graxx Skin",
-        "Mesa Immortal Skin",
-        "Mesa Insomnia Skin",
-        "Mesa Kudegra Skin",
-        "Mesa Marlet Skin",
-        "Mesa Mesnificent Skin",
-        "Mesa Presidio Skin",
-        "Mesa Prime Skin",
-        "Mesa Projectilyst Skin",
-        "Mesa Skin",
-        "Mesa Voidshell Skin"
-      ]
-    },
-    "Variants": [
-      "Mesa Prime"
-    ],
-    "Type": "Warframe"
-  },
-  "Scindo": {
-    "Equipments": {
-      "Skin": [
-        "Scindo Combustion Skin",
-        "Scindo Dagger-Axe Skin",
-        "Scindo Day of the Dead Skin",
-        "Scindo Forest-Camo Skin",
-        "Scindo Kuberus Skin",
-        "Scindo Manticore Skin",
-        "Scindo Solstice Skin"
-      ],
-      "Holster": [
-        "Heavy Weapon Left Hip Holster",
-        "Heavy Weapon Lower Back Holster",
-        "Heavy Weapon Right Hip Holster",
-        "Heavy Weapon Standard Holster"
-      ]
-    },
-    "Variants": [
-      "Scindo Prime"
-    ],
-    "Type": "Weapons"
-  },
-  "Scoliac": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Scoliac Obsidian Skin"
-      ]
-    }
-  },
-  "Hydroid": {
-    "Equipments": {
-      "Armor": [
-        "Hydroid Prime Armor"
-      ],
-      "Helmet": [
-        "Hydroid Graxx Helmet",
-        "Hydroid Helmet",
-        "Hydroid Karkinos Helmet",
-        "Hydroid Ketos Helmet",
-        "Hydroid Poseidon Helmet",
-        "Hydroid Prime Helmet",
-        "Hydroid Rakkam Helmet",
-        "Hydroid Rorqual Helmet",
-        "Hydroid Triton Helmet"
-      ],
-      "Skin": [
-        "Hydroid Graxx Skin",
-        "Hydroid Immortal Skin",
-        "Hydroid Poseidon Skin",
-        "Hydroid Prime Skin",
-        "Hydroid Rakkam Skin",
-        "Hydroid Skin"
-      ]
-    },
-    "Variants": [
-      "Hydroid Prime"
-    ],
-    "Type": "Warframe"
-  },
-  "Skiajati": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Skiajati Day of the Dead Skin",
-        "Skiajati Solstice Skin"
-      ]
-    }
-  },
-  "Skaut": {
-    "Type": "Landing Craft",
-    "Equipments": {
-      "Skin": [
-        "Skaut Skin"
-      ]
-    }
-  },
-  "Warfan": {
-    "Type": "Weapon Class",
-    "Equipments": {
-      "Skin": [
-        "Verta Warfan Skin",
-        "Gallistrix Warfan Skin"
-      ]
-    }
-  },
-  "Stahlta": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Stahlta Shock Rifle Skin"
-      ]
-    }
-  },
-  "Equinox": {
-    "Equipments": {
-      "Helmet": [
-        "Equinox Antonym Helmet",
-        "Equinox Clisthert Helmet",
-        "Equinox Divisa Helmet",
-        "Equinox Helmet",
-        "Equinox Insomnia Helmet",
-        "Equinox Megaera Helmet",
-        "Equinox Omni Helmet",
-        "Equinox Prime Helmet",
-        "Equinox Solstice Helmet"
-      ],
-      "Skin": [
-        "Equinox Antonym Skin",
-        "Equinox Divisa Skin",
-        "Equinox Insomnia Skin",
-        "Equinox Megaera Skin",
-        "Equinox Prime Skin",
-        "Equinox Skin"
-      ]
-    },
-    "Variants": [
-      "Equinox Prime"
-    ],
-    "Type": "Warframe"
-  },
-  "Braton": {
-    "Equipments": {
-      "Skin": [
-        "Braton Conclave Skin",
-        "Braton Day of the Dead Skin",
-        "Braton Forest-Camo Skin",
-        "Braton Kintsugi Skin",
-        "Braton Nocturne Skin",
-        "Braton Obsidian Skin",
-        "Braton Shock-Camo Skin",
-        "Iahgames Braton",
-        "Nvidia Braton",
-        "Bladeswarm Braton Skin"
-      ]
-    },
-    "Variants": [
-      "Braton Prime",
-      "Braton Vandal",
-      "Mk1-Braton"
-    ],
-    "Type": "Weapons"
-  },
-  "Balefire Charger": {
-    "Equipments": {
-      "Skin": [
-        "Einheri Balefire Charger Skin"
-      ]
-    },
-    "Variants": [
-      "Balefire Charger Prime"
-    ],
-    "Type": "Weapons"
-  },
-  "Twin Grakatas": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Twin Grakatas Day of the Dead Skin",
-        "Twin Grakatas Jade Skin",
-        "Twin Grakatas Opal Skin",
-        "Twin Grakatas Towsun Skin"
-      ]
-    }
   },
   "Sevagoth": {
     "Equipments": {
@@ -4872,609 +3203,6 @@
       "Sevagoth Prime"
     ],
     "Type": "Warframe"
-  },
-  "Scythe": {
-    "Type": "Weapon Class",
-    "Equipments": {
-      "Skin": [
-        "Seighe Scythe Skin",
-        "Spearmint Scythe Skin",
-        "Thanatos Scythe Skin"
-      ]
-    }
-  },
-  "Snipetron": {
-    "Equipments": {
-      "Skin": [
-        "Snipetron Shock-Camo Skin"
-      ]
-    },
-    "Variants": [
-      "Snipetron Vandal"
-    ],
-    "Type": "Weapons"
-  },
-  "Panthera": {
-    "Equipments": {
-      "Skin": [
-        "Panthera Tekelu Skin"
-      ]
-    },
-    "Variants": [
-      "Panthera Prime"
-    ],
-    "Type": "Weapons"
-  },
-  "Lotus": {
-    "Type": "Avatar",
-    "Equipments": {
-      "Skin": [
-        "Eidolon Lotus",
-        "Lotus",
-        "Lotus Amaga",
-        "Lotus Radiant",
-        "Margulis",
-        "Naberus Lotus",
-        "Natah"
-      ]
-    }
-  },
-  "Saryn": {
-    "Equipments": {
-      "Helmet": [
-        "Arcane Chlora Helmet",
-        "Arcane Hemlock Helmet",
-        "Saryn Amalgama Helmet",
-        "Saryn Belladonna Helmet",
-        "Saryn Blade of the Lotus Helmet",
-        "Saryn Chlora Helmet",
-        "Saryn Graxx Helmet",
-        "Saryn Helmet",
-        "Saryn Hemlock Helmet",
-        "Saryn Integra Helmet",
-        "Saryn Ion Helmet",
-        "Saryn Napellus Helmet",
-        "Saryn Night Hunter Helmet",
-        "Saryn Nita's Moda Helmet",
-        "Saryn Orphid Helmet",
-        "Saryn Prime Helmet",
-        "Saryn Velenosa Helmet",
-        "Saryn Voidshell Helmet",
-        "Saryn Yuheng Helmet"
-      ],
-      "Skin": [
-        "Saryn Amalgama Skin",
-        "Saryn Blade of the Lotus Skin",
-        "Saryn Graxx Skin",
-        "Saryn Immortal Skin",
-        "Saryn Integra Skin",
-        "Saryn Ion Skin",
-        "Saryn Napellus Skin",
-        "Saryn Night Hunter Skin",
-        "Saryn Nita's Moda Skin",
-        "Saryn Orphid Skin",
-        "Saryn Prime Skin",
-        "Saryn Skin",
-        "Saryn Velenosa Skin",
-        "Saryn Voidshell Skin",
-        "Saryn Yuheng Skin"
-      ]
-    },
-    "Variants": [
-      "Saryn Prime"
-    ],
-    "Type": "Warframe"
-  },
-  "Nukor": {
-    "Equipments": {
-      "Skin": [
-        "Nukor Day of the Dead Skin",
-        "Nukor Daybreak Skin",
-        "Nukor Lunaeus Skin",
-        "Nukor Nightwatch Skin"
-      ]
-    },
-    "Variants": [
-      "Kuva Nukor"
-    ],
-    "Type": "Weapons"
-  },
-  "Gyre": {
-    "Equipments": {
-      "Armor": [
-        "Gyre Prime Armor"
-      ],
-      "Helmet": [
-        "Gyre Automaton Helmet",
-        "Gyre Helmet",
-        "Gyre Kuvael Monarch Helmet",
-        "Gyre Prime Helmet",
-        "Gyre Vortengeist Helmet"
-      ],
-      "Skin": [
-        "Gyre Kuvael Monarch Skin",
-        "Gyre Skin",
-        "Gyre Prime Skin",
-        "Gyre Vortengeist Skin"
-      ]
-    },
-    "Variants": [
-      "Gyre Prime"
-    ],
-    "Type": "Warframe"
-  },
-  "Rifle": {
-    "Type": "Weapon Class",
-    "Equipments": {
-      "Skin": [
-        "Justice Rifle Skin",
-        "Oscira Rifle Skin",
-        "Soaktron Rifle Skin"
-      ]
-    }
-  },
-  "Glaive": {
-    "Equipments": {
-      "Skin": [
-        "Glaive Conclave Skin",
-        "Glaive Day of the Dead Skin",
-        "Glaive Daybreak Skin",
-        "Glaive Obsidian Skin",
-        "Glaive Tekelu Skin"
-      ]
-    },
-    "Variants": [
-      "Glaive Prime"
-    ],
-    "Type": "Weapons"
-  },
-  "Rhino": {
-    "Equipments": {
-      "Auxiliary": [
-        "Deathwatch Iron Skin Override",
-        "Heirloom Iron Skin Override",
-        "Invisible Iron Skin Override",
-        "Palatine Iron Skin Override",
-        "Prime Iron Skin Override",
-        "Rhino Deathwatch Wings"
-      ],
-      "Helmet": [
-        "Arcane Thrak Helmet",
-        "Arcane Vanguard Helmet",
-        "BRONZE RHINO HELMET",
-        "Rhino Blade of the Lotus Helmet",
-        "Rhino Deathwatch Helmet",
-        "Rhino Dex Helmet",
-        "Rhino Graxx Helmet",
-        "Rhino Heirloom Helmet",
-        "Rhino Helmet",
-        "Rhino Ion Helmet",
-        "Rhino Jade Helmet",
-        "Rhino Mastodon Helmet",
-        "Rhino Palatine Helmet",
-        "Rhino Prime Helmet",
-        "Rhino Rubedo Plated Helmet",
-        "Rhino Scarab Sect Helmet",
-        "Rhino Teutonic Helmet",
-        "Rhino Thrak Helmet",
-        "Rhino Vanguard Helmet",
-        "Rhino Voidshell Helmet",
-        "Rhino Warlust Helmet"
-      ],
-      "Skin": [
-        "Rhino Blade of the Lotus Skin",
-        "RHINO BRONZE SKIN",
-        "Rhino Deathwatch Skin",
-        "Rhino Dex Skin",
-        "Rhino Graxx Skin",
-        "Rhino Heirloom Skin",
-        "Rhino Immortal Skin",
-        "Rhino Ion Skin",
-        "Rhino Jade Skin",
-        "Rhino Mastodon Skin",
-        "Rhino Palatine Skin",
-        "Rhino Prime Skin",
-        "Rhino Rubedo Plated Skin",
-        "Rhino Scarab Sect Skin",
-        "Rhino Skin",
-        "Rhino Voidshell Skin",
-        "Rhino Vojnik Skin"
-      ]
-    },
-    "Variants": [
-      "Rhino Prime"
-    ],
-    "Type": "Warframe"
-  },
-  "Morgha": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Morgha Supulchrax Skin"
-      ]
-    }
-  },
-  "Quartakk": {
-    "Equipments": {
-      "Skin": [
-        "Quartakk Towsun Skin"
-      ]
-    },
-    "Variants": [
-      "Kuva Quartakk"
-    ],
-    "Type": "Weapons"
-  },
-  "Koumei": {
-    "Type": "Warframe",
-    "Equipments": {
-      "Helmet": [
-        "Koumei Helmet",
-        "Koumei Orihime Helmet"
-      ],
-      "Skin": [
-        "Koumei Skin"
-      ]
-    }
-  },
-  "Dante": {
-    "Type": "Warframe",
-    "Equipments": {
-      "Armor": [
-        "Dante Tytonis Feathered Pauldron"
-      ],
-      "Helmet": [
-        "Dante Cantist Helmet",
-        "Dante Helmet",
-        "Dante Tytonis Helmet"
-      ],
-      "Skin": [
-        "Dante Skin",
-        "Dante Tytonis Skin"
-      ]
-    }
-  },
-  "Helios": {
-    "Equipments": {
-      "Skin": [
-        "Helios Obsidian Skin",
-        "Helios Prime Skin",
-        "Helios Simaris Skin",
-        "Helios Skin"
-      ]
-    },
-    "Variants": [
-      "Helios Prime"
-    ],
-    "Type": "Companion"
-  },
-  "Dual Kamas": {
-    "Equipments": {
-      "Skin": [
-        "Dual Kamas Jade Skin"
-      ]
-    },
-    "Variants": [
-      "Dual Kamas Prime"
-    ],
-    "Type": "Weapons"
-  },
-  "Qorvex": {
-    "Type": "Warframe",
-    "Equipments": {
-      "Helmet": [
-        "Qorvex Helmet",
-        "Qorvex Raxpart Helmet",
-        "Qorvex Sarcophago Helmet"
-      ],
-      "Skin": [
-        "Qorvex Skin"
-      ]
-    }
-  },
-  "Polearm": {
-    "Type": "Weapon Class",
-    "Equipments": {
-      "Skin": [
-        "Heuris Polearm Skin",
-        "Polearm Aphria Skin",
-        "Polearm Diva Skin",
-        "Polearm Ion Skin",
-        "Polearm Jotunheim Skin",
-        "Polearm Kalynex Skin",
-        "Polearm Lahnss Skin",
-        "Polearm Lympharis Skin",
-        "Polearm Osiris Skin",
-        "Polearm Phorcys Skin",
-        "Polearm Skopos Skin",
-        "Polearm Ulcerated Skin",
-        "Rashasi Polearm Skin",
-        "Tequihua Polearm Skin"
-      ]
-    }
-  },
-  "Falcor": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Falcor Shock-Camo Skin"
-      ]
-    }
-  },
-  "Kubrow": {
-    "Type": "Beast",
-    "Equipments": {
-      "Gene-Masking Kit": [
-        "Alad Blue",
-        "Ambulas Black",
-        "Anyo Grey",
-        "Arid Brown (Kubrow)",
-        "Ash Grey",
-        "Bombard White (Kubrow)",
-        "Brokk Brown",
-        "Condroc Brown",
-        "Conspirator Green",
-        "Corpus Grey",
-        "Corrupted Gold",
-        "Courtier Red",
-        "Crewman Grey",
-        "Darvo Blue",
-        "Derelict Black",
-        "Derelict White",
-        "Dusk Pink",
-        "Earth Brown",
-        "Eris Black",
-        "Evening Purple",
-        "Fomorian Grey",
-        "Forest Grey",
-        "Gallium Grey",
-        "Grustrag Grey",
-        "Harbinger Red",
-        "Hek Green",
-        "Inaros Brown",
-        "Infested Black",
-        "Jadeleaf Green",
-        "Jupiter Brown",
-        "Kavasa White",
-        "Ki'Teer Grey",
-        "Kril Brown",
-        "Liset Grey",
-        "Lotus Purple",
-        "Lotus White",
-        "Maggot Pink",
-        "Manic Black (Kubrow)",
-        "Mars Red",
-        "Mercury Brown",
-        "Mirage Purple",
-        "Mirage Red",
-        "Mirage White",
-        "Morning Yellow",
-        "Mud Puddle Brown",
-        "Nova Grey",
-        "Nova White",
-        "Ordis Grey",
-        "Origin Brown",
-        "Orokin Gold",
-        "Osprey Blue",
-        "Ostron Brown",
-        "Perrin Blue",
-        "Phobos Brown",
-        "Phorid Red",
-        "Princely Gold",
-        "Rakta Red",
-        "Rhino Brown",
-        "Rubedo Red",
-        "Sargas Brown",
-        "Saturn Brown",
-        "Sedna Grey",
-        "Shadow Grey",
-        "Singularity Black",
-        "Specter White",
-        "Star White",
-        "Tenno Red",
-        "Tidal Blue",
-        "Trinity Red",
-        "Valkyr Brown",
-        "Vandal Blue",
-        "Vaykor White",
-        "Venus Brown",
-        "Void Black",
-        "Wukong Blue (Kubrow)",
-        "Wyrm Blue"
-      ],
-      "Pattern": [
-        "Arklut Fur Pattern",
-        "Atrox Fur Pattern",
-        "Brindle Fur Pattern",
-        "Crimson Nose Pattern",
-        "Daybreak Kubrow Fur Pattern",
-        "Domino Fur Pattern",
-        "Drahk Kubrow Pattern",
-        "Fabled Kubrow Fur Pattern",
-        "Heino Kubrow Fur Pattern",
-        "Hound Fur Pattern",
-        "Kavasa Prime Fur Pattern",
-        "Lotus Fur Pattern",
-        "Merle Fur Pattern",
-        "Mottled Fur Pattern",
-        "Nart-Deer Pattern",
-        "Neura Fur Pattern (Kubrow)",
-        "Nexus Fur Pattern",
-        "Nistlebrush Pattern",
-        "Patchy Fur Pattern",
-        "Solstice Kubrow Fur Pattern",
-        "Striped Fur Pattern",
-        "Tang Prime Kubrow Fur Pattern",
-        "Tigrol Fur Pattern",
-        "Underbrush Kubrow Pattern"
-      ],
-      "Skin": [
-        "Helminth Charger Metus Skin",
-        "Reshantur Cult Spear Skin"
-      ],
-      "Armor": [
-        "Amphatz Kubrow Armor",
-        "Boltor Kubrow Armor",
-        "Bruja Kubrow Armor",
-        "Euphrates Kubrow Armor",
-        "Harka Kubrow Armor",
-        "Ifrit Kubrow Armor",
-        "Kavasa Prime Kubrow Armor",
-        "Ki'Teer Kubrow Armor",
-        "Kuva Kubrow Armor",
-        "Metus Kubrow Armor",
-        "Moondance Kubrow Armor",
-        "Pakal Kubrow Armor",
-        "Prisma Rostam Kubrow Armor",
-        "Rostam Kubrow Armor",
-        "Sanzang Prime Kubrow Armor",
-        "Sloughi Kubrow Armor",
-        "Umbra Kubrow Armor",
-        "Valinn Jade Kubrow Armor",
-        "Valinn Kubrow Armor",
-        "Verv Ifrit Kubrow Armor"
-      ],
-      "Collar": [
-        "Kavasa Prime Kubrow Collar",
-        "Little Helper Hat",
-        "Taichen Kubrow Collar"
-      ]
-    }
-  },
-  "Kesheg": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Kesheg Towsun Skin"
-      ],
-      "Holster": [
-        "Halberd Standard Holster"
-      ]
-    }
-  },
-  "Dual Heat Swords": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Dual Heat Swords Forest-Camo Skin",
-        "Dual Heat Swords Jade Skin"
-      ]
-    }
-  },
-  "Pennant": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Pennant Obsidian Skin"
-      ]
-    }
-  },
-  "Lanka": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Lanka Shock-Camo Skin"
-      ]
-    }
-  },
-  "Parallax": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Parallax Albodix Skin",
-        "Parallax Dorsat Skin",
-        "Parallax Fremutar Skin",
-        "Parallax Mesaen Skin",
-        "Parallax Skin"
-      ]
-    }
-  },
-  "Ivara": {
-    "Equipments": {
-      "Auxiliary": [
-        "Glow-Cloak (Ivara)",
-        "Semi-Cloak (Ivara)"
-      ],
-      "Helmet": [
-        "Ivara Arcuata Helmet",
-        "Ivara Astrea Helmet",
-        "Ivara Graxx Helmet",
-        "Ivara Helmet",
-        "Ivara Kuvael Huntress Helmet",
-        "Ivara Loxley Helmet",
-        "Ivara Obsidian Helmet",
-        "Ivara Prime Helmet",
-        "Ivara Skathi Helmet",
-        "Ivara Youkai Helmet",
-        "Ivara Zamariu Helmet",
-        "Ivara Zirastra Helmet"
-      ],
-      "Skin": [
-        "Ivara Arcuata Skin",
-        "Ivara Astrea Skin",
-        "Ivara Graxx Skin",
-        "Ivara Kuvael Huntress Skin",
-        "Ivara Obsidian Skin",
-        "Ivara Prime Skin",
-        "Ivara Skathi Skin",
-        "Ivara Skin",
-        "Ivara Youkai Skin",
-        "Ivara Zamariu Skin"
-      ]
-    },
-    "Variants": [
-      "Ivara Prime"
-    ],
-    "Type": "Warframe"
-  },
-  "Scimitar": {
-    "Type": "Landing Craft",
-    "Equipments": {
-      "Skin": [
-        "Scimitar Cydonia Skin",
-        "Scimitar Echo Skin",
-        "Scimitar Kuva Skin",
-        "Scimitar Magus Skin",
-        "Scimitar Nami Skin",
-        "Scimitar Prisma Skin",
-        "Scimitar Skin",
-        "Scimitar Sotz Skin"
-      ]
-    }
-  },
-  "Warframe": {
-    "Type": "Avatar",
-    "Equipments": {
-      "Auxiliary": [
-        "Lepus Headgear",
-        "Ostarus Headgear",
-        "The Baron",
-        "The Dastard",
-        "The Gentleman",
-        "The Illusionist",
-        "The Inventor",
-        "The Magnum",
-        "The Master",
-        "The Shopkeep",
-        "The Tusker",
-        "The Villain"
-      ],
-      "Helmet": [
-        "Dullahan Mask"
-      ]
-    }
-  },
-  "Oraxia": {
-    "Type": "Warframe",
-    "Equipments": {
-      "Helmet": [
-        "Oraxia Chelicera Helmet",
-        "Oraxia Helmet"
-      ],
-      "Skin": [
-        "Oraxia Skin"
-      ]
-    }
   },
   "Operator": {
     "Type": "Avatar",
@@ -5890,159 +3618,1303 @@
       ]
     }
   },
-  "Grattler": {
+  "Dethcube": {
     "Equipments": {
       "Skin": [
-        "Grattler Obsidian Skin"
+        "Carabus Dethcube",
+        "Dethcube Forest-Camo Skin",
+        "Dethcube Jade Skin",
+        "Dethcube Prime Skin",
+        "Dethcube Skin"
       ]
     },
     "Variants": [
-      "Kuva Grattler"
+      "Dethcube Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Companion"
   },
-  "Dual Pistols": {
-    "Type": "Weapon Class",
+  "Uriel": {
+    "Type": "Warframe",
     "Equipments": {
+      "Helmet": [
+        "Uriel Asmodion Helmet",
+        "Uriel Helmet"
+      ],
       "Skin": [
-        "Nusku Dual Pistol Skin",
-        "Perla Dual Pistol Skin",
-        "Zundi Dual Pistol Skin"
+        "Uriel Skin",
+        "Roathe Gemini Skin"
       ]
     }
   },
-  "Obex": {
+  "Wisp": {
     "Equipments": {
-      "Skin": [
-        "Obex Shock-Camo Skin"
-      ]
-    },
-    "Variants": [
-      "Prisma Obex"
-    ],
-    "Type": "Weapons"
-  },
-  "Fragor": {
-    "Equipments": {
-      "Skin": [
-        "Fragor Brokk Skin",
-        "Fragor Jade Skin",
-        "Fragor Opal Skin",
-        "Fragor Tekelu Skin"
-      ]
-    },
-    "Variants": [
-      "Fragor Prime"
-    ],
-    "Type": "Weapons"
-  },
-  "Nyx": {
-    "Equipments": {
+      "Auxiliary": [
+        "Wisp Prime Shroud",
+        "Marie's Cowl"
+      ],
       "Helmet": [
-        "Arcane Menticide Helmet",
-        "Arcane Vespa Helmet",
-        "Nyx Ampulex Helmet",
-        "Nyx Ascophilia Helmet",
-        "Nyx Athena Helmet",
-        "Nyx Aurelia Helmet",
-        "Nyx Aures Helmet",
-        "Nyx Carnifex Helmet",
-        "Nyx Graxx Helmet",
-        "Nyx Helmet",
-        "Nyx Menticide Helmet",
-        "Nyx Nemesis Helmet",
-        "Nyx Pasithea Helmet",
-        "Nyx Prime Helmet",
-        "Nyx Saikou Helmet",
-        "Nyx Technopsyche Helmet",
-        "Nyx Vespa Helmet"
+        "Wisp Celestis Helmet",
+        "Wisp Coven Helmet",
+        "Wisp Damas Helmet",
+        "Wisp Delusion Helmet",
+        "Wisp Dex Helmet",
+        "Wisp Gaoth Helmet",
+        "Wisp Graxx Helmet",
+        "Wisp Helmet",
+        "Wisp Prime Helmet",
+        "Wisp Raevuz Helmet",
+        "Wisp Somnium Helmet",
+        "Wisp Sycorax Helmet",
+        "Wisp Zamariu Helmet"
       ],
       "Skin": [
-        "Eleanor Gemini Skin",
-        "Nyx Ascophilia Skin",
-        "Nyx Athena Skin",
-        "Nyx Aurelia Skin",
-        "Nyx Aures Skin",
-        "Nyx Carnifex Skin",
-        "Nyx Graxx Skin",
-        "Nyx Immortal Skin",
-        "Nyx Nemesis Skin",
-        "Nyx Pasithea Skin",
-        "Nyx Prime Skin",
-        "Nyx Saikou Skin",
-        "Nyx Skin",
-        "Nyx Technopsyche Skin"
+        "Wisp Celestis Skin",
+        "Wisp Coven Skin",
+        "Wisp Delusion Skin",
+        "Wisp Dex Skin",
+        "Wisp Graxx Skin",
+        "Wisp Immortal Skin",
+        "Wisp Prime Skin",
+        "Wisp Raevuz Skin",
+        "Wisp Skin",
+        "Wisp Somnium Skin",
+        "Wisp Sycorax Skin",
+        "Wisp Zamariu Skin",
+        "Marie Gemini Skin"
       ]
     },
     "Variants": [
-      "Nyx Prime"
+      "Wisp Prime"
     ],
     "Type": "Warframe"
   },
-  "Baruuk": {
+  "Vulkar": {
     "Equipments": {
-      "Helmet": [
-        "Baruuk Bedouin Helmet",
-        "Baruuk Blade of the Lotus Helmet",
-        "Baruuk Doan Helmet",
-        "Baruuk Graxx Helmet",
-        "Baruuk Helmet",
-        "Baruuk Meroe Helmet",
-        "Baruuk Peacemaker Helmet",
-        "Baruuk Prime Helmet",
-        "Baruuk Shiraan Helmet",
-        "Baruuk Zamariu Helmet"
-      ],
       "Skin": [
-        "Baruuk Bedouin Skin",
-        "Baruuk Blade of the Lotus Skin",
-        "Baruuk Doan Skin",
-        "Baruuk Graxx Skin",
-        "Baruuk Immortal Skin",
-        "Baruuk Peacemaker Skin",
-        "Baruuk Prime Skin",
-        "Baruuk Shiraan Skin",
-        "Baruuk Skin",
-        "Baruuk Zamariu Skin"
+        "Vulkar Desert-Camo Skin"
       ]
     },
     "Variants": [
-      "Baruuk Prime"
-    ],
-    "Type": "Warframe"
-  },
-  "Lato": {
-    "Equipments": {
-      "Skin": [
-        "Lato Conclave Skin",
-        "Lato Day of the Dead Skin",
-        "Lato Kintsugi Skin",
-        "Lato Nocturne Skin",
-        "Lato Obsidian Skin",
-        "Lato Opal Skin"
-      ]
-    },
-    "Variants": [
-      "Lato Prime",
-      "Lato Vandal"
+      "Vulkar Wraith"
     ],
     "Type": "Weapons"
   },
-  "Sarpa": {
+  "Voruna": {
+    "Equipments": {
+      "Armor": [
+        "Voruna Armor",
+        "Voruna Voidshell Armor",
+        "Voruna Prime Armor",
+        "Voruna Medeina Armor",
+        "Voruna Demionna Armor",
+        "Voruna Kuvael Drahkaanis Armor"
+      ],
+      "Auxiliary": [
+        "Glow-Cloak (Voruna)",
+        "Semi-Cloak (Voruna)"
+      ],
+      "Helmet": [
+        "Voruna Anukas Helmet",
+        "Voruna Helmet",
+        "Voruna Voidshell Helmet",
+        "Voruna Prime Helmet",
+        "Voruna Medeina Helmet",
+        "Voruna Demionna Helmet",
+        "Voruna Kuvael Drahkaanis Helmet"
+      ],
+      "Skin": [
+        "Voruna Skin",
+        "Voruna Voidshell Skin",
+        "Voruna Prime Skin",
+        "Voruna Medeina Skin",
+        "Voruna Demionna Skin",
+        "Voruna Kuvael Drahkaanis Skin"
+      ]
+    },
+    "Variants": [
+      "Voruna Prime"
+    ],
+    "Type": "Warframe"
+  },
+  "Oxylus": {
+    "Type": "Companion",
+    "Equipments": {
+      "Skin": [
+        "Oxylus Skin"
+      ]
+    }
+  },
+  "Akbolto": {
+    "Equipments": {
+      "Skin": [
+        "Akbolto Ormolu Skin"
+      ]
+    },
+    "Variants": [
+      "Telos Akbolto",
+      "Akbolto Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Kohm": {
+    "Equipments": {
+      "Skin": [
+        "Kohm Harkonar Skin"
+      ]
+    },
+    "Variants": [
+      "Kuva Kohm"
+    ],
+    "Type": "Weapons"
+  },
+  "Styanax": {
+    "Equipments": {
+      "Auxiliary": [
+        "Styanax Tonatiuh Embellishments"
+      ],
+      "Helmet": [
+        "Styanax Agogean Helmet",
+        "Styanax Ares Helmet",
+        "Styanax Gerousic Helmet",
+        "Styanax Helmet",
+        "Styanax Synmora Helmet",
+        "Styanax Tonatiuh Helmet",
+        "Styanax Voidshell Helmet",
+        "Styanax Prime Helmet"
+      ],
+      "Skin": [
+        "Styanax Ares Skin",
+        "Styanax Skin",
+        "Styanax Tonatiuh Skin",
+        "Styanax Voidshell Skin",
+        "Styanax Prime Skin"
+      ]
+    },
+    "Variants": [
+      "Styanax Prime"
+    ],
+    "Type": "Warframe"
+  },
+  "Grendel": {
+    "Equipments": {
+      "Helmet": [
+        "Grendel Glutt Helmet",
+        "Grendel Helmet",
+        "Grendel Moloch Helmet",
+        "Grendel Nian Helmet",
+        "Grendel Prime Helmet",
+        "Grendel Voidshell Helmet",
+        "Grendel Turbis Helmet"
+      ],
+      "Skin": [
+        "Grendel Moloch Skin",
+        "Grendel Nian Skin",
+        "Grendel Prime Skin",
+        "Grendel Skin",
+        "Grendel Voidshell Skin",
+        "Grendel Turbis Skin"
+      ]
+    },
+    "Variants": [
+      "Grendel Prime"
+    ],
+    "Type": "Warframe"
+  },
+  "Heat Dagger": {
     "Type": "Weapons",
     "Equipments": {
       "Skin": [
-        "Sarpa Day of the Dead Skin"
+        "Heat Dagger Forest-Camo Skin",
+        "Heat Dagger Jade Skin"
       ]
     }
   },
-  "Nightwave": {
-    "Type": "Landing Craft",
+  "Volt": {
     "Equipments": {
+      "Armor": [
+        "Volt Armor",
+        "Volt Prime Armor",
+        "Volt Voidshell Armor"
+      ],
+      "Auxiliary": [
+        "Amir's Shades",
+        "Volt Raijin Sleeves"
+      ],
+      "Helmet": [
+        "Arcane Pulse Helmet",
+        "Arcane Storm Helmet",
+        "Volt Amethyst Helmet",
+        "Volt Amp Helmet",
+        "Volt Arrester Helmet",
+        "Volt Capacitor Helmet",
+        "Volt Electrolyst Helmet",
+        "Volt Fulgursor Helmet",
+        "Volt Graxx Helmet",
+        "Volt Helmet",
+        "Volt Opal Helmet",
+        "Volt Prime Helmet",
+        "Volt Prominence Helmet",
+        "Volt Proto Helmet",
+        "Volt Pulse Helmet",
+        "Volt Raijin Helmet",
+        "Volt Relay Helmet",
+        "Volt Storm Helmet",
+        "Volt Technoshock Helmet",
+        "Volt Thales Helmet",
+        "Volt Voidshell Helmet",
+        "Volt Zener Helmet"
+      ],
       "Skin": [
-        "Nightwave Skin"
+        "Amir Gemini Skin",
+        "Volt Amethyst Skin",
+        "Volt Amp Skin",
+        "Volt Capacitor Skin",
+        "Volt Electrolyst Skin",
+        "Volt Fulgursor Skin",
+        "Volt Graxx Skin",
+        "Volt Immortal Skin",
+        "Volt Opal Skin",
+        "Volt Prime Skin",
+        "Volt Prominence Skin",
+        "Volt Proto Skin",
+        "Volt Raijin Skin",
+        "Volt Skin",
+        "Volt Technoshock Skin",
+        "Volt Voidshell Skin",
+        "Volt Zener Skin"
+      ]
+    },
+    "Variants": [
+      "Volt Prime"
+    ],
+    "Type": "Warframe"
+  },
+  "Voidrig": {
+    "Type": "Necramech",
+    "Equipments": {
+      "Helmet": [
+        "Iridos Voidrig Necramech Helmet",
+        "Voidrig Necramech Helmet",
+        "Proto Necramech Helmet"
+      ],
+      "Skin": [
+        "Iridos Voidrig Necramech Skin",
+        "Voidrig Necramech Skin",
+        "Proto Necramech Skin"
       ]
     }
+  },
+  "Sybaris": {
+    "Equipments": {
+      "Skin": [
+        "Sybaris Conclave Skin",
+        "Sybaris Overload Skin"
+      ]
+    },
+    "Variants": [
+      "Sybaris Prime",
+      "Dex Sybaris"
+    ],
+    "Type": "Weapons"
+  },
+  "Dex Dakra": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Dex Dakra Jade Skin",
+        "Dex Dakra Obsidian Skin",
+        "Dex Dakra Opal Skin"
+      ]
+    }
+  },
+  "Dark Sword": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Dark Sword Day of the Dead Skin",
+        "Niveus Dark Sword Skin"
+      ]
+    }
+  },
+  "Twin Vipers": {
+    "Equipments": {
+      "Skin": [
+        "Twin Vipers Conclave Skin",
+        "Twin Vipers Desert-Camo Skin",
+        "Twin Vipers Obsidian Skin",
+        "Twin Vipers Rubedo Plated Skin"
+      ]
+    },
+    "Variants": [
+      "Twin Vipers Wraith"
+    ],
+    "Type": "Weapons"
+  },
+  "Rapier": {
+    "Type": "Weapon Class",
+    "Equipments": {
+      "Skin": [
+        "Nefertym Rapier Skin",
+        "Rapier Arashi Skin",
+        "Rapier Ferita Skin",
+        "Rapier Ni'duhl Skin",
+        "Rapier Tributaker Skin"
+      ],
+      "Holster": [
+        "Rapier Standard Holster",
+        "Rapier Upper Back Holster"
+      ]
+    }
+  },
+  "Venari": {
+    "Equipments": {
+      "Skin": [
+        "Maculatia Venari Skin",
+        "Venari Prime Skin",
+        "Venari Skin"
+      ]
+    },
+    "Variants": [
+      "Venari Prime"
+    ],
+    "Type": "Companion"
+  },
+  "Flux Rifle": {
+    "Equipments": {
+      "Skin": [
+        "Flux Rifle Shock-Camo Skin"
+      ]
+    },
+    "Variants": [
+      "Tenet Flux Rifle"
+    ],
+    "Type": "Weapons"
+  },
+  "Baza": {
+    "Equipments": {
+      "Skin": [
+        "Baza Tekelu Skin"
+      ]
+    },
+    "Variants": [
+      "Baza Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Vasto": {
+    "Equipments": {
+      "Skin": [
+        "Vasto Conclave Skin",
+        "Vasto Day of the Dead Skin",
+        "Vasto Forest-Camo Skin",
+        "Vasto Phased Skin",
+        "Vasto Tekelu Skin"
+      ]
+    },
+    "Variants": [
+      "Vasto Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Arca Plasmor": {
+    "Equipments": {
+      "Skin": [
+        "Arca Plasmor Solstice Skin"
+      ]
+    },
+    "Variants": [
+      "Tenet Arca Plasmor"
+    ],
+    "Type": "Weapons"
+  },
+  "Stubba": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Stubba Towsun Skin"
+      ]
+    }
+  },
+  "Pandero": {
+    "Equipments": {
+      "Skin": [
+        "Pandero Ceramica Skin"
+      ]
+    },
+    "Variants": [
+      "Pandero Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Twin Rogga": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Twin Rogga Towsun Skin"
+      ]
+    }
+  },
+  "Halberd": {
+    "Type": "Weapon Class",
+    "Equipments": {
+      "Holster": [
+        "Halberd Standard Holster"
+      ]
+    }
+  },
+  "Cernos": {
+    "Equipments": {
+      "Skin": [
+        "Cernos Lunaeus Skin"
+      ]
+    },
+    "Variants": [
+      "Cernos Prime",
+      "Rakta Cernos"
+    ],
+    "Type": "Weapons"
+  },
+  "Scindo": {
+    "Equipments": {
+      "Skin": [
+        "Scindo Combustion Skin",
+        "Scindo Dagger-Axe Skin",
+        "Scindo Day of the Dead Skin",
+        "Scindo Forest-Camo Skin",
+        "Scindo Kuberus Skin",
+        "Scindo Manticore Skin",
+        "Scindo Solstice Skin"
+      ],
+      "Holster": [
+        "Heavy Weapon Left Hip Holster",
+        "Heavy Weapon Lower Back Holster",
+        "Heavy Weapon Right Hip Holster",
+        "Heavy Weapon Standard Holster"
+      ]
+    },
+    "Variants": [
+      "Scindo Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Corinth": {
+    "Equipments": {
+      "Skin": [
+        "Corinth Obsidian Skin",
+        "Corinth Opal Skin",
+        "Corinth Solstice Skin"
+      ]
+    },
+    "Variants": [
+      "Corinth Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Trinity": {
+    "Equipments": {
+      "Helmet": [
+        "Arcane Aura Helmet",
+        "Arcane Meridian Helmet",
+        "Trinity Ancyra Helmet",
+        "Trinity Aura Helmet",
+        "Trinity Blade of the Lotus Helmet",
+        "Trinity Helmet",
+        "Trinity Knightess Helmet",
+        "Trinity Meridian Helmet",
+        "Trinity Messiah Helmet",
+        "Trinity Nightingale Helmet",
+        "Trinity Prime Helmet",
+        "Trinity Strega Helmet"
+      ],
+      "Skin": [
+        "Lettie Gemini Skin",
+        "Trinity Blade of the Lotus Skin",
+        "Trinity Immortal Skin",
+        "Trinity Knightess Skin",
+        "Trinity Nightingale Skin",
+        "Trinity Prime Skin",
+        "Trinity Skin",
+        "Trinity Strega Skin"
+      ]
+    },
+    "Variants": [
+      "Trinity Prime"
+    ],
+    "Type": "Warframe"
+  },
+  "Tonfa": {
+    "Type": "Weapon Class",
+    "Equipments": {
+      "Skin": [
+        "Ceramica Tonfa Skin",
+        "Maruta Tonfa Skin",
+        "Tonfa Ba'geth Skin",
+        "Tonfa Hades Skin",
+        "Tonfa Yamex Skin"
+      ],
+      "Holster": [
+        "Tonfa Hip Holster",
+        "Tonfa Reverse Holster",
+        "Tonfa Standard Holster"
+      ]
+    }
+  },
+  "Titania": {
+    "Equipments": {
+      "Helmet": [
+        "Titania Aurai Helmet",
+        "Titania Donann Helmet",
+        "Titania Empress Helmet",
+        "Titania Helmet",
+        "Titania Lympharis Helmet",
+        "Titania Mab Helmet",
+        "Titania Pixialyst Helmet",
+        "Titania Prime Helmet",
+        "Titania Unseelie Helmet",
+        "Titania Viraji Helmet"
+      ],
+      "Wing": [
+        "Titania Moyturan Wings"
+      ],
+      "Skin": [
+        "Titania Donann Skin",
+        "Titania Empress Skin",
+        "Titania Lympharis Skin",
+        "Titania Pixialyst Skin",
+        "Titania Prime Skin",
+        "Titania Skin",
+        "Titania Solstice Skin",
+        "Titania Unseelie Skin"
+      ]
+    },
+    "Variants": [
+      "Titania Prime"
+    ],
+    "Type": "Warframe"
+  },
+  "Cortege": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Cortege Supulchrax Skin"
+      ]
+    }
+  },
+  "Tipedo": {
+    "Equipments": {
+      "Skin": [
+        "Tipedo Conclave Skin",
+        "Tipedo Ormolu Skin"
+      ]
+    },
+    "Variants": [
+      "Tipedo Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Tigris": {
+    "Equipments": {
+      "Skin": [
+        "Tigris Elixis Skin",
+        "Tigris Onyx Skin",
+        "Tigris Phased Skin",
+        "Tigris Prominence Skin",
+        "Tigris Tekelu Skin"
+      ]
+    },
+    "Variants": [
+      "Tigris Prime",
+      "Sancti Tigris"
+    ],
+    "Type": "Weapons"
+  },
+  "Sniper": {
+    "Type": "Weapon Class",
+    "Equipments": {
+      "Skin": [
+        "Alamos Sniper Skin",
+        "Avex Sniper Skin"
+      ]
+    }
+  },
+  "Thrown": {
+    "Type": "Weapon Class",
+    "Equipments": {
+      "Skin": [
+        "Monitivus Thrown Weapon Skin",
+        "Oscira Thrown Weapon Skin",
+        "Protokol Hira Thrown Weapon Skin",
+        "Tarock Thrown Weapon Skin"
+      ]
+    }
+  },
+  "Tetra": {
+    "Equipments": {
+      "Skin": [
+        "Tetra Shock-Camo Skin"
+      ]
+    },
+    "Variants": [
+      "Prisma Tetra",
+      "Tenet Tetra"
+    ],
+    "Type": "Weapons"
+  },
+  "Temple": {
+    "Type": "Warframe",
+    "Equipments": {
+      "Helmet": [
+        "Temple Rockett Helmet",
+        "Temple Helmet"
+      ],
+      "Skin": [
+        "Temple Skin",
+        "Flare Gemini Skin"
+      ]
+    }
+  },
+  "Dual Swords": {
+    "Type": "Weapon Class",
+    "Equipments": {
+      "Skin": [
+        "Dual Swords Cyskis Skin",
+        "Dual Swords Frysta Skin",
+        "Dual Sword Lemnas Skin",
+        "Dual Swords Lunaeus Skin",
+        "Dual Swords Nari & Vali Skin",
+        "Dual Swords Stavika Skin"
+      ],
+      "Holster": [
+        "Dual Blades Hip Holster",
+        "Dual Blades Shoulder Holster",
+        "Dual Blades Standard Holster"
+      ]
+    }
+  },
+  "Paracyst": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Paracyst Zebra Skin"
+      ]
+    }
+  },
+  "Taxon": {
+    "Type": "Companion",
+    "Equipments": {
+      "Skin": [
+        "Taxon Desert-Camo Skin",
+        "Taxon Skin"
+      ]
+    }
+  },
+  "Tatsu": {
+    "Equipments": {
+      "Skin": [
+        "Tatsu Solstice Skin"
+      ]
+    },
+    "Variants": [
+      "Tatsu Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Viper": {
+    "Equipments": {
+      "Skin": [
+        "Viper Conclave Skin",
+        "Viper Desert-Camo Skin",
+        "Viper Obsidian Skin",
+        "Viper Rubedo Plated Skin"
+      ]
+    },
+    "Variants": [
+      "Viper Wraith"
+    ],
+    "Type": "Weapons"
+  },
+  "Ogris": {
+    "Equipments": {
+      "Skin": [
+        "Ogris Iridos Skin",
+        "Ogris Lunaeus Skin",
+        "Ogris Nightwatch Skin",
+        "Ogris Rocket Launcher Skin"
+      ]
+    },
+    "Variants": [
+      "Kuva Ogris"
+    ],
+    "Type": "Weapons"
+  },
+  "Syandana": {
+    "Type": "Attachment",
+    "Equipments": {
+      "Syandana": [
+        "Abbera Prime Syandana",
+        "Abrasys Day of the Dead Syandana",
+        "Abrasys Syandana",
+        "Ahlto Syandana",
+        "Akrabu Syandana",
+        "Ak-Sura Syandana",
+        "Alocana Syandana",
+        "Altra Prime Syandana",
+        "Altra Syandana",
+        "Amphor Syandana",
+        "Apavada Prime Syandana",
+        "Apis Syandana",
+        "Apoxys Syandana",
+        "Aquiros Syandana",
+        "Arcturus Syandana",
+        "Armalyst Syandana",
+        "Aropanex Syandana",
+        "Artifex Syandana",
+        "Artifex Prime Syandana",
+        "Asa Phased Syandana",
+        "Asa Syandana",
+        "Asila Prime Syandana",
+        "Asita Rakta Syandana",
+        "Aspirant Syandana",
+        "Aurimus Prime Syandana",
+        "Avia Prime Syandana",
+        "Awlspan Syandana",
+        "Ayla Syandana",
+        "Bennu Syandana",
+        "Bodo Syandana",
+        "Bolide Syandana",
+        "Boltara Syandana",
+        "Bombyx Syandana",
+        "Boolean Syandana",
+        "Brising Syandana",
+        "Broca Prominence Syandana",
+        "Broca Solstice Syandana",
+        "Broca Syandana",
+        "Burangara Longcoat",
+        "Buzhou Syandana",
+        "Capella Prime Syandana",
+        "Cathode Syandana",
+        "Celestia Syandana",
+        "Centuria Syandana",
+        "Centuria Towsun Syandana",
+        "Chemtank Syandana",
+        "Circadian Syandana",
+        "Citadella Prime Syandana",
+        "Conquera Syandana",
+        "Conquera Uplift Syandana",
+        "Constella Syandana",
+        "Corona Syandana",
+        "Covenant Syandana",
+        "Cremata Syandana",
+        "Crinoid Prime Syandana",
+        "Cryona Syandana",
+        "Cumulus Syandana",
+        "Cycuta Prime Syandana",
+        "Danavi Syandana",
+        "Dax Syandana",
+        "Daybreak Vanquished Banner",
+        "Deru Syandana",
+        "Despot Cape Syandana",
+        "Dessicata Syandana",
+        "Dex Nouchali Syandana",
+        "Diablillo Syandana",
+        "Disconnect Syandana",
+        "Dominus Syandana",
+        "Domus Syandana",
+        "Draugen Syandana",
+        "Due Volpi Syandana",
+        "Durumi Syandana",
+        "Eklis Syandana",
+        "Entheor Prime Syandana",
+        "Enthra Syandana",
+        "Ezriel Syandana",
+        "Fei Syandana",
+        "Flox Syandana",
+        "Foxglove Syandana",
+        "Garkulek Syandana",
+        "Gigelor Prime Syandana",
+        "Gigelorum Prime Syandana",
+        "Glacia Syandana",
+        "Glistor Syandana",
+        "Graxx Spitefire Syandana",
+        "Hanteler Prime Syandana",
+        "Harkonar Cloak",
+        "Harkonar Wraith Cloak",
+        "Hecate Syandana",
+        "Huitzilin Syandana",
+        "Hyalus Syandana",
+        "Icarius Syandana",
+        "Igaro Day of the Dead Syandana",
+        "Igaro Syandana",
+        "Iliac Syandana",
+        "Imperator Festive Syandana",
+        "Imperator Jade Syandana",
+        "Imperator Syandana",
+        "Impetus Prime Syandana",
+        "Incubus Ribbon Syandana",
+        "Isabeau Prime Syandana",
+        "Izvara Day of the Dead Syandana",
+        "Izvara Solstice Syandana",
+        "Izvara Syandana",
+        "Jade Axa Syandana",
+        "Jade Bombyx Syandana",
+        "Jade Broca Syandana",
+        "Jade's Victory Syandana",
+        "Jattuk Mantle",
+        "Jindou Prime Syandana",
+        "Jotunheim Music Syandana",
+        "Jotunheim Syandana",
+        "Kahtuss Prime Syandana",
+        "Kerata Prime Syandana",
+        "Kerata Syandana",
+        "Khinn Syandana",
+        "Khrusos Syandana",
+        "Ki'Teer Diax Syandana",
+        "Ki'Teer Razza Syandana",
+        "Ki'Teer Solstice Syandana",
+        "Ki'Teer Straed Syandana",
+        "Ki'Teer Syandana",
+        "Kunshu Syandana",
+        "Kuva Braid",
+        "Kuva Cloak",
+        "Kuva Solstice Cloak",
+        "Kyroptera Day of the Dead Syandana",
+        "Kyroptera Ormolu Syandana",
+        "Kyroptera Panoply Syandana",
+        "Kyroptera Syandana",
+        "Laddak Cloak",
+        "Lanex Syandana",
+        "Lanex Prime Syandana",
+        "Laprosys Syandana",
+        "Lodestar Syandana",
+        "Lucra Syandana",
+        "Lustratus Conquest Syandana",
+        "Lustratus Warbanner Syandana",
+        "Lycanblight Syandana",
+        "Maggor Syandana",
+        "Maggor Towsun Syandana",
+        "Maharliqa Syandana",
+        "Massif Prime Syandana",
+        "Merulina Syandana",
+        "Merulina Prime Syandana",
+        "Misa Prime Syandana",
+        "Mithra Syandana",
+        "Monarcierro Day of the Dead Syandana",
+        "Mozi Syandana",
+        "Mucusk Syandana",
+        "Mushussu Syandana",
+        "Naru Syandana",
+        "Nave Prime Syandana",
+        "Nave Syandana",
+        "Nelumbo Syandana",
+        "Neurovyre Syandana",
+        "Neurovyre Prime Syandana",
+        "Night Hunter Syandana",
+        "Noru Prime Syandana",
+        "Nosos Syandana",
+        "Nsaru Syandana",
+        "Oblivia Prime Syandana",
+        "Obsidian Azura Syandana",
+        "Obsidian Corvus Syandana",
+        "Obsidian Kyroptera Syandana",
+        "Obsidian Samia Syandana",
+        "Obsidian Sedai Syandana",
+        "Officium Syandana",
+        "Opal Imperator Syandana",
+        "Opulas Robe",
+        "Orion's Swaddle Syandana",
+        "Oscira Syandana",
+        "Pakal Syandana",
+        "Palatine Syandana",
+        "Palla Syandana",
+        "Parotia Syandana",
+        "Paxis Syandana",
+        "Pistris Syandana",
+        "Portcull Syandana",
+        "Prisma Hecate Syandana",
+        "Prisma Uru Syandana",
+        "Prisma Yamako Syandana",
+        "Protovyre Apex Syandana",
+        "Protovyre Emergent Syandana",
+        "Protovyre Syandana",
+        "Pulchranopsis Syandana",
+        "Pyra Prime Syandana",
+        "Pyra Syandana",
+        "Quaro Syandana",
+        "Radia Syandana",
+        "Raiji Syandana",
+        "Rakta Syandana",
+        "Ranulyst Syandana",
+        "Rath Kittag Cloak",
+        "Raya Sigma Syandana",
+        "Raylta Syandana",
+        "Rencowl Syandana",
+        "Repala Syandana",
+        "Reliquia Syandana",
+        "Reshantur Cult Syandana",
+        "Retrorolyst Syandana",
+        "Revenant Mephisto Syandana",
+        "Rhodora Syandana",
+        "Rhoptron Prime Syandana",
+        "Rhoptron Syandana",
+        "Rota Syandana",
+        "Salix Solstice Syandana",
+        "Salix Syandana",
+        "Samia Syandana",
+        "Samia Towsun Syandana",
+        "Sancti Syandana",
+        "Sari Syandana",
+        "Sarva Harness Syandana",
+        "Saturn Six Syandana",
+        "Saturn Six Day of the Dead Syandana",
+        "Scapulis Syandana",
+        "Scarab Syandana",
+        "Sciathin Syandana",
+        "Scylla Syandana",
+        "Secura Syandana",
+        "Senvictis Syandana",
+        "Seraphim Syandana",
+        "Serenidine Prime Syandana",
+        "Sethar Syandana",
+        "Setka Syandana",
+        "Shiroku Syandana",
+        "Shurihoshi Syandana",
+        "Sidereal Syandana",
+        "Sigma Series Syandana",
+        "Sildarg Syandana",
+        "Sirius' Swaddle Syandana",
+        "Solida Syandana",
+        "Solstice Centuria Syandana",
+        "Solstice Vanquished Banner",
+        "Sordario Syandana",
+        "Sovereign Syandana",
+        "Spektaka Prime Syandana",
+        "Sphatika Prime Syandana",
+        "Stelflare Syandana",
+        "Stezia Sumbha Syandana",
+        "Stratum Syandana",
+        "Styx Syandana",
+        "Subhuti Syandana",
+        "Subvolv Syandana",
+        "Sukira Prime Syandana",
+        "Sumbha Prime Syandana",
+        "Sumbha Syandana",
+        "Suparna Day of the Dead Syandana",
+        "Suparna Syandana",
+        "Surator Prime Syandana",
+        "Surator Syandana",
+        "Sydeko Syandana",
+        "Synkra Syandana",
+        "Synoid Syandana",
+        "Telos Syandana",
+        "TennoCon 2016 Syandana",
+        "TennoCon 2017 Syandana",
+        "TennoCon 2020 Syandana",
+        "TennoCon 2023 Syandana",
+        "TennoCon 2024 Syandana",
+        "Tenui Syandana",
+        "Teplo Syandana",
+        "Thiazi Syandana",
+        "Thorac Syandana",
+        "Tonaca Syandana",
+        "Triodic Syandana",
+        "Tsujinasa Syandana",
+        "Udyat Iridos Syandana",
+        "Udyat Syandana",
+        "Uru Prime Syandana",
+        "Uru Syandana",
+        "Valesti Syandana",
+        "Vanquished Banner",
+        "Vanquished Banner Day of the Dead",
+        "Vasa Syandana",
+        "Vaykor Syandana",
+        "Verismo Syandana",
+        "Verv Atelia Syandana",
+        "Vexillus Cloak",
+        "Vistapa Prime Syandana",
+        "Vitam Syandana",
+        "Vitam Prime Syandana",
+        "Vithil Syandana",
+        "Volca Syandana",
+        "Wintercress Syandana",
+        "Yamako Prime Syandana",
+        "Yamako Rubedo Plated Syandana",
+        "Yamako Syandana",
+        "Yomo Obsidian Syandana",
+        "Yomo Syandana",
+        "Zaikhya Syandana",
+        "Zamariu Syandana"
+      ]
+    }
+  },
+  "Sword and Shield": {
+    "Type": "Weapon Class",
+    "Equipments": {
+      "Skin": [
+        "Astreos Sword and Shield Skin",
+        "Gaforn Sword and Shield Skin",
+        "Sword And Shield Danaus Skin"
+      ],
+      "Holster": [
+        "Sword And Shield High Draw",
+        "Sword And Shield Low Draw",
+        "Sword And Shield Standard Draw"
+      ]
+    }
+  },
+  "Sword": {
+    "Type": "Weapon Class",
+    "Equipments": {
+      "Skin": [
+        "Longsword Arit Skin",
+        "Longsword Dero Skin",
+        "Longsword Eisen Skin",
+        "Longsword Ezriel Skin",
+        "Longsword Frysta Skin",
+        "Longsword Insidia Skin",
+        "Longsword Ion Skin",
+        "Longsword Kopesh Skin",
+        "Longsword Tengushen Skin",
+        "Oscira Longsword Skin",
+        "Protokol Longsword Skin",
+        "Rephrax Longsword Skin",
+        "Tannukai Longsword Skin"
+      ],
+      "Holster": [
+        "Sword Left Hip Holster",
+        "Sword Right Hip Holster",
+        "Sword Standard Holster"
+      ]
+    }
+  },
+  "Two-Handed Nikana": {
+    "Type": "Weapon Class",
+    "Equipments": {
+      "Skin": [
+        "Orison Two-Handed Nikana Skin",
+        "Two-Handed Nikana Arashi Skin",
+        "Two-Handed Nikana Dogma Skin",
+        "Two-Handed Nikana Ksara Skin",
+        "Two-Handed Nikana Maligna Skin"
+      ],
+      "Holster": [
+        "Two-Handed Nikana Standard Holster"
+      ]
+    }
+  },
+  "Strun": {
+    "Equipments": {
+      "Skin": [
+        "Strun Conclave Skin"
+      ]
+    },
+    "Variants": [
+      "Strun Prime",
+      "Strun Wraith",
+      "Mk1-Strun"
+    ],
+    "Type": "Weapons"
+  },
+  "Gauss": {
+    "Equipments": {
+      "Helmet": [
+        "Gauss Agito Helmet",
+        "Gauss Graxx Helmet",
+        "Gauss Helmet",
+        "Gauss Kresnik Helmet",
+        "Gauss Mag Helmet",
+        "Gauss Nitrolyst Helmet",
+        "Gauss Prime Blazargaze Helmet",
+        "Gauss Prime Helmet",
+        "Gauss Moto Helmet",
+        "Gauss Profitas Helmet"
+      ],
+      "Skin": [
+        "Gauss Agito Skin",
+        "Gauss Graxx Skin",
+        "Gauss Kresnik Skin",
+        "Gauss Nitrolyst Skin",
+        "Gauss Prime Skin",
+        "Gauss Skin",
+        "Gauss Moto Skin",
+        "Gauss Profitas Skin"
+      ]
+    },
+    "Variants": [
+      "Gauss Prime"
+    ],
+    "Type": "Warframe"
+  },
+  "Limbo": {
+    "Equipments": {
+      "Helmet": [
+        "Limbo Aristeas Helmet",
+        "Limbo Aureolus Helmet",
+        "Limbo Graxx Helmet",
+        "Limbo Helmet",
+        "Limbo Limina Helmet",
+        "Limbo Magrite Helmet",
+        "Limbo Prime Helmet",
+        "Limbo Vasiona Helmet",
+        "Limbo Venari Helmet",
+        "Limbo Vistyxio Helmet",
+        "Limbo Voidshell Helmet"
+      ],
+      "Skin": [
+        "Limbo Graxx Skin",
+        "Limbo Immortal Skin",
+        "Limbo Limina Skin",
+        "Limbo Prime Skin",
+        "Limbo Skin",
+        "Limbo Vasiona Skin",
+        "Limbo Vistyxio Skin",
+        "Limbo Voidshell Skin"
+      ]
+    },
+    "Variants": [
+      "Limbo Prime"
+    ],
+    "Type": "Warframe"
+  },
+  "Scythe": {
+    "Type": "Weapon Class",
+    "Equipments": {
+      "Skin": [
+        "Seighe Scythe Skin",
+        "Spearmint Scythe Skin",
+        "Thanatos Scythe Skin"
+      ]
+    }
+  },
+  "Orthos": {
+    "Equipments": {
+      "Skin": [
+        "Orthos Day of the Dead Skin",
+        "Orthos Forest-Camo Skin",
+        "Orthos Lunaeus Skin",
+        "Orthos Magesty Skin",
+        "Orthos Onyx Skin",
+        "Orthos Phased Skin",
+        "Orthos Tekelu Skin"
+      ]
+    },
+    "Variants": [
+      "Orthos Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Staff": {
+    "Type": "Weapon Class",
+    "Equipments": {
+      "Skin": [
+        "Anpu Staff Skin",
+        "Eklypsa Staff Skin",
+        "Lemnas Staff Skin",
+        "Oscira Staff Skin",
+        "SINGLE STAFF SKIN",
+        "Staves Volu Skin"
+      ],
+      "Holster": [
+        "Staff Lower Back Holster",
+        "Staff Standard Holster",
+        "Staff Straight Holster"
+      ]
+    }
+  },
+  "Spira": {
+    "Equipments": {
+      "Skin": [
+        "Spira Day of the Dead Skin",
+        "Spira Obsidian Skin"
+      ]
+    },
+    "Variants": [
+      "Spira Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Atlas": {
+    "Equipments": {
+      "Helmet": [
+        "Atlas Arhat Helmet",
+        "Atlas Blade of the Lotus Helmet",
+        "Atlas Graxx Helmet",
+        "Atlas Helmet",
+        "Atlas Karst Helmet",
+        "Atlas Monolith Helmet",
+        "Atlas Prime Helmet",
+        "Atlas Shikoro Helmet",
+        "Atlas Tartarus Helmet",
+        "Atlas Telamon Helmet"
+      ],
+      "Skin": [
+        "Atlas Blade of the Lotus Skin",
+        "Atlas Graxx Skin",
+        "Atlas Karst Skin",
+        "Atlas Monolith Skin",
+        "Atlas Prime Skin",
+        "Atlas Skin"
+      ]
+    },
+    "Variants": [
+      "Atlas Prime"
+    ],
+    "Type": "Warframe"
+  },
+  "Speargun": {
+    "Type": "Weapon Class",
+    "Equipments": {
+      "Skin": [
+        "Ascension Speargun Skin",
+        "Carcinus Speargun Skin",
+        "Renuntio Speargun Skin"
+      ]
+    }
+  },
+  "Heliocor": {
+    "Equipments": {
+      "Skin": [
+        "Heliocor Solstice Skin"
+      ]
+    },
+    "Variants": [
+      "Synoid Heliocor"
+    ],
+    "Type": "Weapons"
+  },
+  "Grimoire": {
+    "Equipments": {
+      "Skin": [
+        "Grimoire Day of the Dead Skin",
+        "Eskhatos Grimoire Skin",
+        "Noctua Lophos",
+        "Necratech Tome Skin",
+        "Vitreum Tome Skin"
+      ]
+    },
+    "Variants": [
+      "Noctua"
+    ],
+    "Type": "Weapons"
+  },
+  "Hespar": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Hespar Lunaeus Skin"
+      ]
+    }
+  },
+  "Sobek": {
+    "Equipments": {
+      "Skin": [
+        "Sobek Day of the Dead Skin",
+        "Sobek Desert-Camo Skin"
+      ]
+    },
+    "Variants": [
+      "Kuva Sobek"
+    ],
+    "Type": "Weapons"
   },
   "Djinn": {
     "Type": "Companion",
@@ -6053,303 +4925,266 @@
       ]
     }
   },
-  "Nezha": {
+  "Tiberon": {
     "Equipments": {
-      "Helmet": [
-        "Nezha Circa Helmet",
-        "Nezha Devine Helmet",
-        "Nezha Dracun Helmet",
-        "Nezha Empyrean Helmet",
-        "Nezha Helmet",
-        "Nezha Jinza Helmet",
-        "Nezha Prime Helmet",
-        "Nezha Yaksha Helmet"
-      ],
       "Skin": [
-        "Nezha Devine Skin",
-        "Nezha Dracun Skin",
-        "Nezha Empyrean Skin",
-        "Nezha Prime Skin",
-        "Nezha Skin",
-        "Nezha Yaksha Skin"
+        "Tiberon Elixis Skin",
+        "Tiberon Obsidian Skin"
       ]
     },
     "Variants": [
-      "Nezha Prime"
+      "Tiberon Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Excalibur": {
+    "Equipments": {
+      "Armor": [
+        "Umbra Arm Armor",
+        "Umbra Chest Armor",
+        "Umbra Leg Armor"
+      ],
+      "Helmet": [
+        "Arcane Avalon Helmet",
+        "Arcane Pendragon Helmet",
+        "Excalibur Amethyst Helmet",
+        "Excalibur Apex Helmet",
+        "Excalibur Arturius Helmet",
+        "Excalibur Avalon Helmet",
+        "Excalibur Blade of the Lotus Helmet",
+        "Excalibur Caduto Helmet",
+        "Excalibur Corpra Helmet",
+        "Excalibur Dex Helmet",
+        "Excalibur Exaltation Helmet",
+        "Excalibur Graxx Helmet",
+        "Excalibur Graxx-V2 Helmet",
+        "Excalibur Helmet",
+        "Excalibur Ion Helmet",
+        "Excalibur Isurus Helmet",
+        "Excalibur Jade Helmet",
+        "Excalibur Mordred Helmet",
+        "Excalibur Obsidian Azura Helmet",
+        "Excalibur Obsidian Helmet",
+        "Excalibur Ogrant Helmet",
+        "Excalibur Onyx Helmet",
+        "Excalibur Opal Helmet",
+        "Excalibur Pendragon Helmet",
+        "Excalibur Prime Helmet",
+        "Excalibur Prisma Avalon Helmet",
+        "Excalibur Prisma Helmet",
+        "Excalibur Prisma Pendragon Helmet",
+        "Excalibur Prominence Helmet",
+        "Excalibur Proto-Armor Helmet",
+        "Excalibur Ronin Helmet",
+        "Excalibur Sentient Slayer Helmet",
+        "Excalibur Umbra Helmet",
+        "Excalibur Umbra Sunder Helmet",
+        "Excalibur Umbra Therion Helmet",
+        "Excalibur Vespula Helmet",
+        "Excalibur Voidshell Helmet",
+        "Excalibur Zato Helmet"
+      ],
+      "Skin": [
+        "Arthur Gemini Skin",
+        "Excalibur Alabaster Skin",
+        "Excalibur Amethyst Skin",
+        "Excalibur Apex Skin",
+        "Excalibur Blade of the Lotus Skin",
+        "Excalibur Caduto Skin",
+        "Excalibur Corpra Skin",
+        "Excalibur Dex Skin",
+        "Excalibur Exaltation Skin",
+        "Excalibur Graxx Skin",
+        "Excalibur Immortal Skin",
+        "Excalibur Ion Skin",
+        "Excalibur Jade Skin",
+        "Excalibur Obsidian",
+        "Excalibur Obsidian Azura Skin",
+        "Excalibur Onyx Skin",
+        "Excalibur Opal Skin",
+        "Excalibur Prime Skin",
+        "Excalibur Prisma Skin",
+        "Excalibur Prominence Skin",
+        "Excalibur Proto-Armor Skin",
+        "Excalibur Ronin Skin",
+        "Excalibur Sentient Slayer Skin",
+        "Excalibur Skin",
+        "Excalibur Umbra Skin",
+        "Excalibur Vespula Skin",
+        "Excalibur Voidshell Skin",
+        "Excalibur Zato Skin"
+      ]
+    },
+    "Variants": [
+      "Excalibur Prime",
+      "Excalibur Umbra",
+      "Excalibur Umbra Prime"
     ],
     "Type": "Warframe"
   },
-  "Nikana (Weapon Type)": {
-    "Type": "Weapon Class",
+  "Skiajati": {
+    "Type": "Weapons",
     "Equipments": {
       "Skin": [
-        "Nikana Conclave Skin",
-        "Nikana Dax Skin",
-        "Nikana Day of the Dead Skin",
-        "Nikana Elixis Skin",
-        "Nikana Gemini Surt-Form Sheath",
-        "Nikana Gemini Ymir-Form Sheath",
-        "Nikana Khatuun Skin",
-        "Nikana Krtrima Skin",
-        "Nikana Minos Skin",
-        "Nikana Mithra Skin",
-        "Nikana Obsidian Skin",
-        "Nikana Ryu Skin",
-        "Nikana Shinigami Skin",
-        "Nikana Tekelu Skin",
-        "Nikana Undercutter Skin",
-        "Nikana Ungulata Skin",
-        "Oku Nikana Skin",
-        "Tiandi Sun & Moon Skin",
-        "Tau Dax Nikana Skin"
-      ],
-      "Holster": [
-        "Nikana Left Shoulder Holster",
-        "Nikana Right Shoulder Holster",
-        "Nikana Standard Holster"
+        "Skiajati Day of the Dead Skin",
+        "Skiajati Solstice Skin"
       ]
     }
   },
-  "Nova": {
-    "Equipments": {
-      "Helmet": [
-        "Arcane Flux Helmet",
-        "Nova Aozakura Helmet",
-        "Nova Asuri Helmet",
-        "Nova Atomica Helmet",
-        "Nova Corpra Helmet",
-        "Nova Cygni Helmet",
-        "Nova Device Helmet",
-        "Nova Flux Helmet",
-        "Nova Fusion Helmet",
-        "Nova Gnova Helmet",
-        "Nova Graxx Helmet",
-        "Nova Helmet",
-        "Nova Lamia Helmet",
-        "Nova Mithra Helmet",
-        "Nova Prime Helmet",
-        "Nova Quantum Helmet",
-        "Nova Slipstream Helmet",
-        "Nova Stinger Helmet",
-        "Nova Tachyon Helmet",
-        "Nova Visage Helmet",
-        "Nova Voidshell Helmet"
-      ],
-      "Skin": [
-        "Nova Aozakura Skin",
-        "Nova Asuri Skin",
-        "Nova Atomica Skin",
-        "Nova Corpra Skin",
-        "Nova Cygni Skin",
-        "Nova Device Skin",
-        "Nova Gnova Skin",
-        "Nova Graxx Skin",
-        "Nova Immortal Skin",
-        "Nova Lamia Skin",
-        "Nova Mithra Skin",
-        "Nova Prime Skin",
-        "Nova Skin",
-        "Nova Stinger Skin",
-        "Nova Visage Skin",
-        "Nova Voidshell Skin"
-      ]
-    },
-    "Variants": [
-      "Nova Prime"
-    ],
-    "Type": "Warframe"
-  },
-  "Nautilus": {
-    "Equipments": {
-      "Skin": [
-        "Nautilus Prime Default Skin"
-      ]
-    },
-    "Variants": [
-      "Nautilus Prime"
-    ],
-    "Type": "Companion"
-  },
-  "Railjack": {
+  "Kaithe": {
     "Type": "Vehicle",
     "Equipments": {
-      "Skin": [
-        "Caballero Railjack Skin",
-        "Railjack Skin",
-        "Sungem Railjack Skin",
-        "Tempestarii Railjack Skin"
-      ]
-    }
-  },
-  "Hespar": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Hespar Lunaeus Skin"
-      ]
-    }
-  },
-  "Magnus": {
-    "Equipments": {
-      "Skin": [
-        "Magnus Dakila Skin",
-        "Magnus Hivelight Skin",
-        "Magnus Obsidian Skin",
-        "Magnus Tekelu Skin"
-      ]
-    },
-    "Variants": [
-      "Magnus Prime"
-    ],
-    "Type": "Weapons"
-  },
-  "Dex Furis": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Dex Furis Jade Skin",
-        "Dex Furis Obsidian Skin"
-      ]
-    }
-  },
-  "Harrow": {
-    "Equipments": {
-      "Auxiliary": [
-        "Lyon's Mitre"
+      "Pedigree": [
+        "Aetigo Kaithe",
+        "Histornam Kaithe",
+        "Psyacus Kaithe"
       ],
+      "Wing": [
+        "Exorion Wings"
+      ],
+      "Chamfron": [
+        "Aethon Chamfron",
+        "Dyrncaul Chamfron",
+        "Irdeni Chamfron",
+        "Kheyur Chamfron",
+        "Sviari Chamfron"
+      ],
+      "Tail": [
+        "Aebolg Tail",
+        "Aethon Tail",
+        "Aetigo Tail",
+        "Caersid Tail",
+        "Heoro Tail",
+        "Histornam Tail",
+        "Psyacus Tail",
+        "Velific Tail"
+      ],
+      "Saddle": [
+        "Aethon Saddle",
+        "Dovin Saddle",
+        "Sohseki Saddle",
+        "Vaidurian Saddle"
+      ],
+      "Coronet": [
+        "Dauntair Coronet",
+        "Enverve Coronet",
+        "Myrthen Coronet",
+        "Vexage Coronet",
+        "Wistfall Coronet"
+      ]
+    }
+  },
+  "Mesa": {
+    "Equipments": {
       "Helmet": [
-        "Harrow Algalyst Helmet",
-        "Harrow Crucis Helmet",
-        "Harrow Graxx Helmet",
-        "Harrow Helmet",
-        "Harrow Hieropha Helmet",
-        "Harrow Prime Helmet",
-        "Harrow Reliquary Helmet",
-        "Harrow Suffragan Helmet",
-        "Harrow Veles Helmet"
+        "Mesa Dead Eye Helmet",
+        "Mesa Devil Ranger Helmet",
+        "Mesa Falcon Helmet",
+        "Mesa Graxx Helmet",
+        "Mesa Helmet",
+        "Mesa Insomnia Helmet",
+        "Mesa Kudegra Helmet",
+        "Mesa Longhorn Helmet",
+        "Mesa Marlet Helmet",
+        "Mesa Mesnificent Helmet",
+        "Mesa Ovis Helmet",
+        "Mesa Presidio Helmet",
+        "Mesa Prime Helmet",
+        "Mesa Prime Montesa Helmet",
+        "Mesa Projectilyst Helmet",
+        "Mesa Voidshell Helmet"
       ],
       "Skin": [
-        "Harrow Algalyst Skin",
-        "Harrow Graxx Skin",
-        "Harrow Prime Skin",
-        "Harrow Reliquary Skin",
-        "Harrow Skin",
-        "Harrow Veles Skin",
-        "Lyon Gemini Skin"
+        "Mesa Devil Ranger Skin",
+        "Mesa Graxx Skin",
+        "Mesa Immortal Skin",
+        "Mesa Insomnia Skin",
+        "Mesa Kudegra Skin",
+        "Mesa Marlet Skin",
+        "Mesa Mesnificent Skin",
+        "Mesa Presidio Skin",
+        "Mesa Prime Skin",
+        "Mesa Projectilyst Skin",
+        "Mesa Skin",
+        "Mesa Voidshell Skin"
       ]
     },
     "Variants": [
-      "Harrow Prime"
+      "Mesa Prime"
     ],
     "Type": "Warframe"
   },
-  "Javlok": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Javlok Harkonar Skin"
-      ]
-    }
-  },
-  "Dual Zoren": {
-    "Equipments": {
-      "Skin": [
-        "Dual Zoren Combustion Skin",
-        "Dual Zoren Dagger-Axe Skin",
-        "Dual Zoren Day of the Dead Skin",
-        "Dual Zoren Forest-Camo Skin",
-        "Dual Zoren Kuberus Skin"
-      ]
-    },
-    "Variants": [
-      "Dual Zoren Prime"
-    ],
-    "Type": "Weapons"
-  },
-  "Lenz": {
-    "Equipments": {
-      "Skin": [
-        "Lenz Solstice Skin"
-      ]
-    },
-    "Variants": [
-      "Prisma Lenz"
-    ],
-    "Type": "Weapons"
-  },
-  "Kullervo": {
-    "Type": "Warframe",
-    "Equipments": {
-      "Auxiliary": [
-        "Baneful Blades",
-        "Kullervo Apostate Baneful Blades"
-      ],
-      "Helmet": [
-        "Kullervo Helmet",
-        "Kullervo Usvah Helmet",
-        "Kullervo Apostate Helmet"
-      ],
-      "Skin": [
-        "Kullervo Skin",
-        "Kullervo Apostate Skin"
-      ]
-    }
-  },
-  "Akmagnus": {
-    "Equipments": {
-      "Skin": [
-        "Akmagnus Dakila Skin",
-        "Akmagnus Hivelight Skin",
-        "Akmagnus Obsidian Skin",
-        "Akmagnus Tekelu Skin"
-      ]
-    },
-    "Variants": [
-      "Akmagnus Prime"
-    ],
-    "Type": "Weapons"
-  },
-  "Liset": {
+  "Skaut": {
     "Type": "Landing Craft",
     "Equipments": {
       "Skin": [
-        "Charger Liset Skin",
-        "Liset Athari Skin",
-        "Liset Cydonia Skin",
-        "Liset Day of the Dead Skin",
-        "Liset Dex Skin",
-        "Liset Hellkite Skin",
-        "Liset Herulyst Skin",
-        "Liset Hima Skin",
-        "Liset Jade Skin",
-        "Liset Kotara Skin",
-        "Liset Kuva Skin",
-        "Liset Kuza Skin",
-        "Liset Maltzur Oculus Skin",
-        "Liset Mithra Skin",
-        "Liset Obsidian Skin",
-        "Liset Pahta Skin",
-        "Liset Prime Skin",
-        "Liset Prisma Skin",
-        "Liset Protege Skin",
-        "Liset Quilate Skin",
-        "Liset Skin",
-        "Liset Vammatar Skin",
-        "Liset Verv Skin",
-        "Liset Zikha Skin",
-        "Lumis Liset Skin",
-        "Spektaka Liset Skin",
-        "Bloodfrenzy Liset Skin",
-        "Bladeswarm Liset Skin"
+        "Skaut Skin"
       ]
     }
   },
-  "Shotgun": {
-    "Type": "Weapon Class",
+  "Scoliac": {
+    "Type": "Weapons",
     "Equipments": {
       "Skin": [
-        "Hecaton Shotgun Skin",
-        "Zobov Shotgun Skin"
+        "Scoliac Obsidian Skin"
+      ]
+    }
+  },
+  "Skana": {
+    "Equipments": {
+      "Skin": [
+        "Skana Conclave Skin",
+        "Skana Day of the Dead Skin",
+        "Skana Infested Skin",
+        "Skana Kintsugi Skin",
+        "Skana Nocturne Skin",
+        "Skana Obsidian Skin"
+      ]
+    },
+    "Variants": [
+      "Prisma Skana",
+      "Skana Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Signa": {
+    "Type": "Attachment",
+    "Equipments": {
+      "Signa": [
+        "Acheta Signa",
+        "Centurio Signa",
+        "Dex Signa",
+        "Diraeus Signa",
+        "Ember Heirloom Signa",
+        "Envine Signa",
+        "Erato Signa",
+        "Flankon Signa",
+        "Frost Heirloom Signa",
+        "Fumulo Signa",
+        "Gothica Signa",
+        "Hana Ikada Signa",
+        "Invictus Signa",
+        "Invictus Apex Signa",
+        "Invictus Emergent Signa",
+        "Isageum Signa",
+        "Karotic Signa",
+        "Krios Signa",
+        "Ki'Teer Nobilis Signa",
+        "Kyzen Signa",
+        "Liania Signa",
+        "Mag Heirloom Signa",
+        "Maginav Prime Signa",
+        "Mesa Heirloom Signa",
+        "Motetique Signa",
+        "Pragmatica Signa",
+        "Rhino Heirloom Signa",
+        "Stardust Signa",
+        "Tomoe Signa",
+        "Valkyr Heirloom Signa",
+        "Vermis Signa",
+        "Vauban Heirloom Signa",
+        "Vizor Signa",
+        "Zamariu Signa"
       ]
     }
   },
@@ -6474,6 +5309,1181 @@
       ]
     }
   },
+  "Warfan": {
+    "Type": "Weapon Class",
+    "Equipments": {
+      "Skin": [
+        "Verta Warfan Skin",
+        "Gallistrix Warfan Skin"
+      ]
+    }
+  },
+  "Stahlta": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Stahlta Shock Rifle Skin"
+      ]
+    }
+  },
+  "Equinox": {
+    "Equipments": {
+      "Helmet": [
+        "Equinox Antonym Helmet",
+        "Equinox Clisthert Helmet",
+        "Equinox Divisa Helmet",
+        "Equinox Helmet",
+        "Equinox Insomnia Helmet",
+        "Equinox Megaera Helmet",
+        "Equinox Omni Helmet",
+        "Equinox Prime Helmet",
+        "Equinox Solstice Helmet"
+      ],
+      "Skin": [
+        "Equinox Antonym Skin",
+        "Equinox Divisa Skin",
+        "Equinox Insomnia Skin",
+        "Equinox Megaera Skin",
+        "Equinox Prime Skin",
+        "Equinox Skin"
+      ]
+    },
+    "Variants": [
+      "Equinox Prime"
+    ],
+    "Type": "Warframe"
+  },
+  "Braton": {
+    "Equipments": {
+      "Skin": [
+        "Braton Conclave Skin",
+        "Braton Day of the Dead Skin",
+        "Braton Forest-Camo Skin",
+        "Braton Kintsugi Skin",
+        "Braton Nocturne Skin",
+        "Braton Obsidian Skin",
+        "Braton Shock-Camo Skin",
+        "Iahgames Braton",
+        "Nvidia Braton",
+        "Bladeswarm Braton Skin"
+      ]
+    },
+    "Variants": [
+      "Braton Prime",
+      "Braton Vandal",
+      "Mk1-Braton"
+    ],
+    "Type": "Weapons"
+  },
+  "Balefire Charger": {
+    "Equipments": {
+      "Skin": [
+        "Einheri Balefire Charger Skin"
+      ]
+    },
+    "Variants": [
+      "Balefire Charger Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Twin Grakatas": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Twin Grakatas Day of the Dead Skin",
+        "Twin Grakatas Jade Skin",
+        "Twin Grakatas Opal Skin",
+        "Twin Grakatas Towsun Skin"
+      ]
+    }
+  },
+  "Oraxia": {
+    "Type": "Warframe",
+    "Equipments": {
+      "Helmet": [
+        "Oraxia Chelicera Helmet",
+        "Oraxia Helmet"
+      ],
+      "Skin": [
+        "Oraxia Skin"
+      ]
+    }
+  },
+  "Saryn": {
+    "Equipments": {
+      "Helmet": [
+        "Arcane Chlora Helmet",
+        "Arcane Hemlock Helmet",
+        "Saryn Amalgama Helmet",
+        "Saryn Belladonna Helmet",
+        "Saryn Blade of the Lotus Helmet",
+        "Saryn Chlora Helmet",
+        "Saryn Graxx Helmet",
+        "Saryn Helmet",
+        "Saryn Hemlock Helmet",
+        "Saryn Integra Helmet",
+        "Saryn Ion Helmet",
+        "Saryn Napellus Helmet",
+        "Saryn Night Hunter Helmet",
+        "Saryn Nita's Moda Helmet",
+        "Saryn Orphid Helmet",
+        "Saryn Prime Helmet",
+        "Saryn Velenosa Helmet",
+        "Saryn Voidshell Helmet",
+        "Saryn Yuheng Helmet"
+      ],
+      "Skin": [
+        "Saryn Amalgama Skin",
+        "Saryn Blade of the Lotus Skin",
+        "Saryn Graxx Skin",
+        "Saryn Immortal Skin",
+        "Saryn Integra Skin",
+        "Saryn Ion Skin",
+        "Saryn Napellus Skin",
+        "Saryn Night Hunter Skin",
+        "Saryn Nita's Moda Skin",
+        "Saryn Orphid Skin",
+        "Saryn Prime Skin",
+        "Saryn Skin",
+        "Saryn Velenosa Skin",
+        "Saryn Voidshell Skin",
+        "Saryn Yuheng Skin"
+      ]
+    },
+    "Variants": [
+      "Saryn Prime"
+    ],
+    "Type": "Warframe"
+  },
+  "Snipetron": {
+    "Equipments": {
+      "Skin": [
+        "Snipetron Shock-Camo Skin"
+      ]
+    },
+    "Variants": [
+      "Snipetron Vandal"
+    ],
+    "Type": "Weapons"
+  },
+  "Rifle": {
+    "Type": "Weapon Class",
+    "Equipments": {
+      "Skin": [
+        "Justice Rifle Skin",
+        "Oscira Rifle Skin",
+        "Soaktron Rifle Skin"
+      ]
+    }
+  },
+  "Lotus": {
+    "Type": "Avatar",
+    "Equipments": {
+      "Skin": [
+        "Eidolon Lotus",
+        "Lotus",
+        "Lotus Amaga",
+        "Lotus Radiant",
+        "Margulis",
+        "Naberus Lotus",
+        "Natah"
+      ]
+    }
+  },
+  "Rhino": {
+    "Equipments": {
+      "Auxiliary": [
+        "Deathwatch Iron Skin Override",
+        "Heirloom Iron Skin Override",
+        "Invisible Iron Skin Override",
+        "Palatine Iron Skin Override",
+        "Prime Iron Skin Override",
+        "Rhino Deathwatch Wings"
+      ],
+      "Helmet": [
+        "Arcane Thrak Helmet",
+        "Arcane Vanguard Helmet",
+        "BRONZE RHINO HELMET",
+        "Rhino Blade of the Lotus Helmet",
+        "Rhino Deathwatch Helmet",
+        "Rhino Dex Helmet",
+        "Rhino Graxx Helmet",
+        "Rhino Heirloom Helmet",
+        "Rhino Helmet",
+        "Rhino Ion Helmet",
+        "Rhino Jade Helmet",
+        "Rhino Mastodon Helmet",
+        "Rhino Palatine Helmet",
+        "Rhino Prime Helmet",
+        "Rhino Rubedo Plated Helmet",
+        "Rhino Scarab Sect Helmet",
+        "Rhino Teutonic Helmet",
+        "Rhino Thrak Helmet",
+        "Rhino Vanguard Helmet",
+        "Rhino Voidshell Helmet",
+        "Rhino Warlust Helmet"
+      ],
+      "Skin": [
+        "Rhino Blade of the Lotus Skin",
+        "RHINO BRONZE SKIN",
+        "Rhino Deathwatch Skin",
+        "Rhino Dex Skin",
+        "Rhino Graxx Skin",
+        "Rhino Heirloom Skin",
+        "Rhino Immortal Skin",
+        "Rhino Ion Skin",
+        "Rhino Jade Skin",
+        "Rhino Mastodon Skin",
+        "Rhino Palatine Skin",
+        "Rhino Prime Skin",
+        "Rhino Rubedo Plated Skin",
+        "Rhino Scarab Sect Skin",
+        "Rhino Skin",
+        "Rhino Voidshell Skin",
+        "Rhino Vojnik Skin"
+      ]
+    },
+    "Variants": [
+      "Rhino Prime"
+    ],
+    "Type": "Warframe"
+  },
+  "Guandao": {
+    "Equipments": {
+      "Skin": [
+        "Guandao Opal Skin",
+        "Guandao Solstice Skin",
+        "Guandao Synoid Skin"
+      ]
+    },
+    "Variants": [
+      "Guandao Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Gyre": {
+    "Equipments": {
+      "Armor": [
+        "Gyre Prime Armor"
+      ],
+      "Helmet": [
+        "Gyre Automaton Helmet",
+        "Gyre Helmet",
+        "Gyre Kuvael Monarch Helmet",
+        "Gyre Prime Helmet",
+        "Gyre Vortengeist Helmet"
+      ],
+      "Skin": [
+        "Gyre Kuvael Monarch Skin",
+        "Gyre Skin",
+        "Gyre Prime Skin",
+        "Gyre Vortengeist Skin"
+      ]
+    },
+    "Variants": [
+      "Gyre Prime"
+    ],
+    "Type": "Warframe"
+  },
+  "Quellor": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Niveus Quellor Skin"
+      ]
+    }
+  },
+  "Glaive": {
+    "Equipments": {
+      "Skin": [
+        "Glaive Conclave Skin",
+        "Glaive Day of the Dead Skin",
+        "Glaive Daybreak Skin",
+        "Glaive Obsidian Skin",
+        "Glaive Tekelu Skin"
+      ]
+    },
+    "Variants": [
+      "Glaive Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Quartakk": {
+    "Equipments": {
+      "Skin": [
+        "Quartakk Towsun Skin"
+      ]
+    },
+    "Variants": [
+      "Kuva Quartakk"
+    ],
+    "Type": "Weapons"
+  },
+  "Qorvex": {
+    "Type": "Warframe",
+    "Equipments": {
+      "Helmet": [
+        "Qorvex Helmet",
+        "Qorvex Basilica Helmet",
+        "Qorvex Raxpart Helmet",
+        "Qorvex Sarcophago Helmet"
+      ],
+      "Skin": [
+        "Qorvex Skin",
+        "Qorvex Basilica Skin"
+      ]
+    }
+  },
+  "Polearm": {
+    "Type": "Weapon Class",
+    "Equipments": {
+      "Skin": [
+        "Heuris Polearm Skin",
+        "Polearm Aphria Skin",
+        "Polearm Diva Skin",
+        "Polearm Ion Skin",
+        "Polearm Jotunheim Skin",
+        "Polearm Kalynex Skin",
+        "Polearm Lahnss Skin",
+        "Polearm Lympharis Skin",
+        "Polearm Osiris Skin",
+        "Polearm Phorcys Skin",
+        "Polearm Skopos Skin",
+        "Polearm Ulcerated Skin",
+        "Rashasi Polearm Skin",
+        "Tequihua Polearm Skin"
+      ]
+    }
+  },
+  "Koumei": {
+    "Type": "Warframe",
+    "Equipments": {
+      "Helmet": [
+        "Koumei Helmet",
+        "Koumei Orihime Helmet"
+      ],
+      "Skin": [
+        "Koumei Skin"
+      ]
+    }
+  },
+  "Dante": {
+    "Type": "Warframe",
+    "Equipments": {
+      "Armor": [
+        "Dante Tytonis Feathered Pauldron"
+      ],
+      "Helmet": [
+        "Dante Cantist Helmet",
+        "Dante Helmet",
+        "Dante Tytonis Helmet"
+      ],
+      "Skin": [
+        "Dante Skin",
+        "Dante Tytonis Skin"
+      ]
+    }
+  },
+  "Helios": {
+    "Equipments": {
+      "Skin": [
+        "Helios Obsidian Skin",
+        "Helios Prime Skin",
+        "Helios Simaris Skin",
+        "Helios Skin"
+      ]
+    },
+    "Variants": [
+      "Helios Prime"
+    ],
+    "Type": "Companion"
+  },
+  "Dual Kamas": {
+    "Equipments": {
+      "Skin": [
+        "Dual Kamas Jade Skin"
+      ]
+    },
+    "Variants": [
+      "Dual Kamas Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Dual Heat Swords": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Dual Heat Swords Forest-Camo Skin",
+        "Dual Heat Swords Jade Skin"
+      ]
+    }
+  },
+  "Pennant": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Pennant Obsidian Skin"
+      ]
+    }
+  },
+  "Falcor": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Falcor Shock-Camo Skin"
+      ]
+    }
+  },
+  "Kubrow": {
+    "Type": "Beast",
+    "Equipments": {
+      "Gene-Masking Kit": [
+        "Alad Blue",
+        "Ambulas Black",
+        "Anyo Grey",
+        "Arid Brown (Kubrow)",
+        "Ash Grey",
+        "Bombard White (Kubrow)",
+        "Brokk Brown",
+        "Condroc Brown",
+        "Conspirator Green",
+        "Corpus Grey",
+        "Corrupted Gold",
+        "Courtier Red",
+        "Crewman Grey",
+        "Darvo Blue",
+        "Derelict Black",
+        "Derelict White",
+        "Dusk Pink",
+        "Earth Brown",
+        "Eris Black",
+        "Evening Purple",
+        "Fomorian Grey",
+        "Forest Grey",
+        "Gallium Grey",
+        "Grustrag Grey",
+        "Harbinger Red",
+        "Hek Green",
+        "Inaros Brown",
+        "Infested Black",
+        "Jadeleaf Green",
+        "Jupiter Brown",
+        "Kavasa White",
+        "Ki'Teer Grey",
+        "Kril Brown",
+        "Liset Grey",
+        "Lotus Purple",
+        "Lotus White",
+        "Maggot Pink",
+        "Manic Black (Kubrow)",
+        "Mars Red",
+        "Mercury Brown",
+        "Mirage Purple",
+        "Mirage Red",
+        "Mirage White",
+        "Morning Yellow",
+        "Mud Puddle Brown",
+        "Nova Grey",
+        "Nova White",
+        "Ordis Grey",
+        "Origin Brown",
+        "Orokin Gold",
+        "Osprey Blue",
+        "Ostron Brown",
+        "Perrin Blue",
+        "Phobos Brown",
+        "Phorid Red",
+        "Princely Gold",
+        "Rakta Red",
+        "Rhino Brown",
+        "Rubedo Red",
+        "Sargas Brown",
+        "Saturn Brown",
+        "Sedna Grey",
+        "Shadow Grey",
+        "Singularity Black",
+        "Specter White",
+        "Star White",
+        "Tenno Red",
+        "Tidal Blue",
+        "Trinity Red",
+        "Valkyr Brown",
+        "Vandal Blue",
+        "Vaykor White",
+        "Venus Brown",
+        "Void Black",
+        "Wukong Blue (Kubrow)",
+        "Wyrm Blue"
+      ],
+      "Pattern": [
+        "Arklut Fur Pattern",
+        "Atrox Fur Pattern",
+        "Brindle Fur Pattern",
+        "Crimson Nose Pattern",
+        "Daybreak Kubrow Fur Pattern",
+        "Domino Fur Pattern",
+        "Drahk Kubrow Pattern",
+        "Fabled Kubrow Fur Pattern",
+        "Heino Kubrow Fur Pattern",
+        "Hound Fur Pattern",
+        "Kavasa Prime Fur Pattern",
+        "Lotus Fur Pattern",
+        "Merle Fur Pattern",
+        "Mottled Fur Pattern",
+        "Nart-Deer Pattern",
+        "Neura Fur Pattern (Kubrow)",
+        "Nexus Fur Pattern",
+        "Nistlebrush Pattern",
+        "Patchy Fur Pattern",
+        "Solstice Kubrow Fur Pattern",
+        "Striped Fur Pattern",
+        "Tang Prime Kubrow Fur Pattern",
+        "Tigrol Fur Pattern",
+        "Underbrush Kubrow Pattern"
+      ],
+      "Skin": [
+        "Helminth Charger Metus Skin",
+        "Reshantur Cult Spear Skin"
+      ],
+      "Armor": [
+        "Amphatz Kubrow Armor",
+        "Boltor Kubrow Armor",
+        "Bruja Kubrow Armor",
+        "Euphrates Kubrow Armor",
+        "Harka Kubrow Armor",
+        "Ifrit Kubrow Armor",
+        "Kavasa Prime Kubrow Armor",
+        "Ki'Teer Kubrow Armor",
+        "Kuva Kubrow Armor",
+        "Metus Kubrow Armor",
+        "Moondance Kubrow Armor",
+        "Pakal Kubrow Armor",
+        "Prisma Rostam Kubrow Armor",
+        "Rostam Kubrow Armor",
+        "Sanzang Prime Kubrow Armor",
+        "Sloughi Kubrow Armor",
+        "Umbra Kubrow Armor",
+        "Valinn Jade Kubrow Armor",
+        "Valinn Kubrow Armor",
+        "Verv Ifrit Kubrow Armor"
+      ],
+      "Collar": [
+        "Kavasa Prime Kubrow Collar",
+        "Little Helper Hat",
+        "Taichen Kubrow Collar"
+      ]
+    }
+  },
+  "Kesheg": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Kesheg Towsun Skin"
+      ],
+      "Holster": [
+        "Halberd Standard Holster"
+      ]
+    }
+  },
+  "Parallax": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Parallax Albodix Skin",
+        "Parallax Dorsat Skin",
+        "Parallax Fremutar Skin",
+        "Parallax Mesaen Skin",
+        "Parallax Skin"
+      ]
+    }
+  },
+  "Panthera": {
+    "Equipments": {
+      "Skin": [
+        "Panthera Tekelu Skin"
+      ]
+    },
+    "Variants": [
+      "Panthera Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Lanka": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Lanka Shock-Camo Skin"
+      ]
+    }
+  },
+  "Orvius": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Orvius Dax Skin",
+        "Niveus Orvius Skin"
+      ]
+    }
+  },
+  "Ivara": {
+    "Equipments": {
+      "Auxiliary": [
+        "Glow-Cloak (Ivara)",
+        "Semi-Cloak (Ivara)"
+      ],
+      "Helmet": [
+        "Ivara Arcuata Helmet",
+        "Ivara Astrea Helmet",
+        "Ivara Graxx Helmet",
+        "Ivara Helmet",
+        "Ivara Kuvael Huntress Helmet",
+        "Ivara Loxley Helmet",
+        "Ivara Obsidian Helmet",
+        "Ivara Prime Helmet",
+        "Ivara Skathi Helmet",
+        "Ivara Youkai Helmet",
+        "Ivara Zamariu Helmet",
+        "Ivara Zirastra Helmet"
+      ],
+      "Skin": [
+        "Ivara Arcuata Skin",
+        "Ivara Astrea Skin",
+        "Ivara Graxx Skin",
+        "Ivara Kuvael Huntress Skin",
+        "Ivara Obsidian Skin",
+        "Ivara Prime Skin",
+        "Ivara Skathi Skin",
+        "Ivara Skin",
+        "Ivara Youkai Skin",
+        "Ivara Zamariu Skin"
+      ]
+    },
+    "Variants": [
+      "Ivara Prime"
+    ],
+    "Type": "Warframe"
+  },
+  "Scimitar": {
+    "Type": "Landing Craft",
+    "Equipments": {
+      "Skin": [
+        "Scimitar Cydonia Skin",
+        "Scimitar Echo Skin",
+        "Scimitar Kuva Skin",
+        "Scimitar Magus Skin",
+        "Scimitar Nami Skin",
+        "Scimitar Prisma Skin",
+        "Scimitar Skin",
+        "Scimitar Sotz Skin"
+      ]
+    }
+  },
+  "Warframe": {
+    "Type": "Avatar",
+    "Equipments": {
+      "Auxiliary": [
+        "Lepus Headgear",
+        "Ostarus Headgear",
+        "The Baron",
+        "The Dastard",
+        "The Gentleman",
+        "The Illusionist",
+        "The Inventor",
+        "The Magnum",
+        "The Master",
+        "The Shopkeep",
+        "The Tusker",
+        "The Villain"
+      ],
+      "Helmet": [
+        "Dullahan Mask"
+      ]
+    }
+  },
+  "Obex": {
+    "Equipments": {
+      "Skin": [
+        "Obex Shock-Camo Skin"
+      ]
+    },
+    "Variants": [
+      "Prisma Obex"
+    ],
+    "Type": "Weapons"
+  },
+  "Nyx": {
+    "Equipments": {
+      "Helmet": [
+        "Arcane Menticide Helmet",
+        "Arcane Vespa Helmet",
+        "Nyx Ampulex Helmet",
+        "Nyx Ascophilia Helmet",
+        "Nyx Athena Helmet",
+        "Nyx Aurelia Helmet",
+        "Nyx Aures Helmet",
+        "Nyx Carnifex Helmet",
+        "Nyx Graxx Helmet",
+        "Nyx Helmet",
+        "Nyx Menticide Helmet",
+        "Nyx Nemesis Helmet",
+        "Nyx Pasithea Helmet",
+        "Nyx Prime Helmet",
+        "Nyx Saikou Helmet",
+        "Nyx Technopsyche Helmet",
+        "Nyx Vespa Helmet"
+      ],
+      "Skin": [
+        "Eleanor Gemini Skin",
+        "Nyx Ascophilia Skin",
+        "Nyx Athena Skin",
+        "Nyx Aurelia Skin",
+        "Nyx Aures Skin",
+        "Nyx Carnifex Skin",
+        "Nyx Graxx Skin",
+        "Nyx Immortal Skin",
+        "Nyx Nemesis Skin",
+        "Nyx Pasithea Skin",
+        "Nyx Prime Skin",
+        "Nyx Saikou Skin",
+        "Nyx Skin",
+        "Nyx Technopsyche Skin"
+      ]
+    },
+    "Variants": [
+      "Nyx Prime"
+    ],
+    "Type": "Warframe"
+  },
+  "Grattler": {
+    "Equipments": {
+      "Skin": [
+        "Grattler Obsidian Skin"
+      ]
+    },
+    "Variants": [
+      "Kuva Grattler"
+    ],
+    "Type": "Weapons"
+  },
+  "Dual Pistols": {
+    "Type": "Weapon Class",
+    "Equipments": {
+      "Skin": [
+        "Nusku Dual Pistol Skin",
+        "Perla Dual Pistol Skin",
+        "Zundi Dual Pistol Skin"
+      ]
+    }
+  },
+  "Nukor": {
+    "Equipments": {
+      "Skin": [
+        "Nukor Day of the Dead Skin",
+        "Nukor Daybreak Skin",
+        "Nukor Lunaeus Skin",
+        "Nukor Nightwatch Skin"
+      ]
+    },
+    "Variants": [
+      "Kuva Nukor"
+    ],
+    "Type": "Weapons"
+  },
+  "Fragor": {
+    "Equipments": {
+      "Skin": [
+        "Fragor Brokk Skin",
+        "Fragor Jade Skin",
+        "Fragor Opal Skin",
+        "Fragor Tekelu Skin"
+      ]
+    },
+    "Variants": [
+      "Fragor Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Hildryn": {
+    "Equipments": {
+      "Armor": [
+        "Hildryn Prime Chest Plate"
+      ],
+      "Helmet": [
+        "Hildryn Asuron Helmet",
+        "Hildryn Einheri Helmet",
+        "Hildryn Helmet",
+        "Hildryn Prime Helmet",
+        "Hildryn Sigrun Helmet",
+        "Hildryn Sarcostema Helmet"
+      ],
+      "Skin": [
+        "Hildryn Einheri Skin",
+        "Hildryn Prime Skin",
+        "Hildryn Sigrun Skin",
+        "Hildryn Skin",
+        "Hildryn Sarcostema Skin"
+      ]
+    },
+    "Variants": [
+      "Hildryn Prime"
+    ],
+    "Type": "Warframe"
+  },
+  "Baruuk": {
+    "Equipments": {
+      "Helmet": [
+        "Baruuk Bedouin Helmet",
+        "Baruuk Blade of the Lotus Helmet",
+        "Baruuk Doan Helmet",
+        "Baruuk Graxx Helmet",
+        "Baruuk Helmet",
+        "Baruuk Meroe Helmet",
+        "Baruuk Peacemaker Helmet",
+        "Baruuk Prime Helmet",
+        "Baruuk Shiraan Helmet",
+        "Baruuk Zamariu Helmet"
+      ],
+      "Skin": [
+        "Baruuk Bedouin Skin",
+        "Baruuk Blade of the Lotus Skin",
+        "Baruuk Doan Skin",
+        "Baruuk Graxx Skin",
+        "Baruuk Immortal Skin",
+        "Baruuk Peacemaker Skin",
+        "Baruuk Prime Skin",
+        "Baruuk Shiraan Skin",
+        "Baruuk Skin",
+        "Baruuk Zamariu Skin"
+      ]
+    },
+    "Variants": [
+      "Baruuk Prime"
+    ],
+    "Type": "Warframe"
+  },
+  "Lato": {
+    "Equipments": {
+      "Skin": [
+        "Lato Conclave Skin",
+        "Lato Day of the Dead Skin",
+        "Lato Kintsugi Skin",
+        "Lato Nocturne Skin",
+        "Lato Obsidian Skin",
+        "Lato Opal Skin"
+      ]
+    },
+    "Variants": [
+      "Lato Prime",
+      "Lato Vandal"
+    ],
+    "Type": "Weapons"
+  },
+  "Sarpa": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Sarpa Day of the Dead Skin"
+      ]
+    }
+  },
+  "Nikana (Weapon Type)": {
+    "Type": "Weapon Class",
+    "Equipments": {
+      "Skin": [
+        "Nikana Conclave Skin",
+        "Nikana Dax Skin",
+        "Nikana Day of the Dead Skin",
+        "Nikana Elixis Skin",
+        "Nikana Gemini Surt-Form Sheath",
+        "Nikana Gemini Ymir-Form Sheath",
+        "Nikana Khatuun Skin",
+        "Nikana Krtrima Skin",
+        "Nikana Minos Skin",
+        "Nikana Mithra Skin",
+        "Nikana Obsidian Skin",
+        "Nikana Ryu Skin",
+        "Nikana Shinigami Skin",
+        "Nikana Tekelu Skin",
+        "Nikana Undercutter Skin",
+        "Nikana Ungulata Skin",
+        "Oku Nikana Skin",
+        "Tiandi Sun & Moon Skin",
+        "Tau Dax Nikana Skin"
+      ],
+      "Holster": [
+        "Nikana Left Shoulder Holster",
+        "Nikana Right Shoulder Holster",
+        "Nikana Standard Holster"
+      ]
+    }
+  },
+  "Nightwave": {
+    "Type": "Landing Craft",
+    "Equipments": {
+      "Skin": [
+        "Nightwave Skin"
+      ]
+    }
+  },
+  "Nezha": {
+    "Equipments": {
+      "Helmet": [
+        "Nezha Circa Helmet",
+        "Nezha Devine Helmet",
+        "Nezha Dracun Helmet",
+        "Nezha Empyrean Helmet",
+        "Nezha Helmet",
+        "Nezha Jinza Helmet",
+        "Nezha Prime Helmet",
+        "Nezha Yaksha Helmet"
+      ],
+      "Skin": [
+        "Nezha Devine Skin",
+        "Nezha Dracun Skin",
+        "Nezha Empyrean Skin",
+        "Nezha Prime Skin",
+        "Nezha Skin",
+        "Nezha Yaksha Skin"
+      ]
+    },
+    "Variants": [
+      "Nezha Prime"
+    ],
+    "Type": "Warframe"
+  },
+  "Nautilus": {
+    "Equipments": {
+      "Skin": [
+        "Nautilus Prime Default Skin"
+      ]
+    },
+    "Variants": [
+      "Nautilus Prime"
+    ],
+    "Type": "Companion"
+  },
+  "Nova": {
+    "Equipments": {
+      "Helmet": [
+        "Arcane Flux Helmet",
+        "Nova Aozakura Helmet",
+        "Nova Asuri Helmet",
+        "Nova Atomica Helmet",
+        "Nova Corpra Helmet",
+        "Nova Cygni Helmet",
+        "Nova Device Helmet",
+        "Nova Flux Helmet",
+        "Nova Fusion Helmet",
+        "Nova Gnova Helmet",
+        "Nova Graxx Helmet",
+        "Nova Helmet",
+        "Nova Lamia Helmet",
+        "Nova Mithra Helmet",
+        "Nova Prime Helmet",
+        "Nova Quantum Helmet",
+        "Nova Slipstream Helmet",
+        "Nova Stinger Helmet",
+        "Nova Tachyon Helmet",
+        "Nova Visage Helmet",
+        "Nova Voidshell Helmet"
+      ],
+      "Skin": [
+        "Nova Aozakura Skin",
+        "Nova Asuri Skin",
+        "Nova Atomica Skin",
+        "Nova Corpra Skin",
+        "Nova Cygni Skin",
+        "Nova Device Skin",
+        "Nova Gnova Skin",
+        "Nova Graxx Skin",
+        "Nova Immortal Skin",
+        "Nova Lamia Skin",
+        "Nova Mithra Skin",
+        "Nova Prime Skin",
+        "Nova Skin",
+        "Nova Stinger Skin",
+        "Nova Visage Skin",
+        "Nova Voidshell Skin"
+      ]
+    },
+    "Variants": [
+      "Nova Prime"
+    ],
+    "Type": "Warframe"
+  },
+  "Morgha": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Morgha Supulchrax Skin"
+      ]
+    }
+  },
+  "Railjack": {
+    "Type": "Vehicle",
+    "Equipments": {
+      "Skin": [
+        "Caballero Railjack Skin",
+        "Railjack Skin",
+        "Sungem Railjack Skin",
+        "Tempestarii Railjack Skin"
+      ]
+    }
+  },
+  "Magnus": {
+    "Equipments": {
+      "Skin": [
+        "Magnus Dakila Skin",
+        "Magnus Hivelight Skin",
+        "Magnus Obsidian Skin",
+        "Magnus Tekelu Skin"
+      ]
+    },
+    "Variants": [
+      "Magnus Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Kompressa": {
+    "Equipments": {
+      "Skin": [
+        "Nidoblast Kompressa Skin"
+      ]
+    },
+    "Variants": [
+      "Kompressa Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Dex Furis": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Dex Furis Jade Skin",
+        "Dex Furis Obsidian Skin"
+      ]
+    }
+  },
+  "Lenz": {
+    "Equipments": {
+      "Skin": [
+        "Lenz Solstice Skin"
+      ]
+    },
+    "Variants": [
+      "Prisma Lenz"
+    ],
+    "Type": "Weapons"
+  },
+  "Javlok": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Javlok Harkonar Skin"
+      ]
+    }
+  },
+  "Dual Zoren": {
+    "Equipments": {
+      "Skin": [
+        "Dual Zoren Combustion Skin",
+        "Dual Zoren Dagger-Axe Skin",
+        "Dual Zoren Day of the Dead Skin",
+        "Dual Zoren Forest-Camo Skin",
+        "Dual Zoren Kuberus Skin"
+      ]
+    },
+    "Variants": [
+      "Dual Zoren Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Kullervo": {
+    "Type": "Warframe",
+    "Equipments": {
+      "Auxiliary": [
+        "Baneful Blades",
+        "Kullervo Apostate Baneful Blades"
+      ],
+      "Helmet": [
+        "Kullervo Helmet",
+        "Kullervo Usvah Helmet",
+        "Kullervo Apostate Helmet"
+      ],
+      "Skin": [
+        "Kullervo Skin",
+        "Kullervo Apostate Skin"
+      ]
+    }
+  },
+  "Hate": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Enlightened Hate Skin",
+        "Hate Day of the Dead Skin"
+      ]
+    }
+  },
+  "Akmagnus": {
+    "Equipments": {
+      "Skin": [
+        "Akmagnus Dakila Skin",
+        "Akmagnus Hivelight Skin",
+        "Akmagnus Obsidian Skin",
+        "Akmagnus Tekelu Skin"
+      ]
+    },
+    "Variants": [
+      "Akmagnus Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Liset": {
+    "Type": "Landing Craft",
+    "Equipments": {
+      "Skin": [
+        "Charger Liset Skin",
+        "Liset Athari Skin",
+        "Liset Cydonia Skin",
+        "Liset Day of the Dead Skin",
+        "Liset Dex Skin",
+        "Liset Hellkite Skin",
+        "Liset Herulyst Skin",
+        "Liset Hima Skin",
+        "Liset Jade Skin",
+        "Liset Kotara Skin",
+        "Liset Kuva Skin",
+        "Liset Kuza Skin",
+        "Liset Maltzur Oculus Skin",
+        "Liset Mithra Skin",
+        "Liset Obsidian Skin",
+        "Liset Pahta Skin",
+        "Liset Prime Skin",
+        "Liset Prisma Skin",
+        "Liset Protege Skin",
+        "Liset Quilate Skin",
+        "Liset Skin",
+        "Liset Vammatar Skin",
+        "Liset Verv Skin",
+        "Liset Zikha Skin",
+        "Lumis Liset Skin",
+        "Niveus Liset Skin",
+        "Spektaka Liset Skin",
+        "Bloodfrenzy Liset Skin",
+        "Bladeswarm Liset Skin"
+      ]
+    }
+  },
+  "Shotgun": {
+    "Type": "Weapon Class",
+    "Equipments": {
+      "Skin": [
+        "Hecaton Shotgun Skin",
+        "Zobov Shotgun Skin"
+      ]
+    }
+  },
   "Kama": {
     "Type": "Weapons",
     "Equipments": {
@@ -6530,20 +6540,55 @@
       "Helmet": [
         "Jade Aureolt Helmet",
         "Jade Helmet",
+        "Jade Coven Helmet",
         "Jade Immortal Helmet"
       ],
       "Skin": [
         "Jade Skin",
+        "Jade Coven Skin",
         "Jade Immortal Skin"
       ]
     }
   },
-  "Sniper": {
-    "Type": "Weapon Class",
+  "Hydroid": {
     "Equipments": {
+      "Armor": [
+        "Hydroid Prime Armor"
+      ],
+      "Helmet": [
+        "Hydroid Graxx Helmet",
+        "Hydroid Helmet",
+        "Hydroid Karkinos Helmet",
+        "Hydroid Ketos Helmet",
+        "Hydroid Poseidon Helmet",
+        "Hydroid Prime Helmet",
+        "Hydroid Rakkam Helmet",
+        "Hydroid Rorqual Helmet",
+        "Hydroid Triton Helmet"
+      ],
       "Skin": [
-        "Alamos Sniper Skin",
-        "Avex Sniper Skin"
+        "Hydroid Graxx Skin",
+        "Hydroid Immortal Skin",
+        "Hydroid Poseidon Skin",
+        "Hydroid Prime Skin",
+        "Hydroid Rakkam Skin",
+        "Hydroid Skin"
+      ]
+    },
+    "Variants": [
+      "Hydroid Prime"
+    ],
+    "Type": "Warframe"
+  },
+  "Narin": {
+    "Type": "Warframe",
+    "Equipments": {
+      "Helmet": [
+        "Narin Helmet",
+        "Narin Baridegi Helmet"
+      ],
+      "Skin": [
+        "Narin Skin"
       ]
     }
   },
@@ -6567,6 +6612,7 @@
         "Aspirus Emergent Ephemera",
         "Aspirus Ephemera",
         "Baurahn Prime Ephemera",
+        "Belfri Ephemera",
         "Blazing Step Ephemera",
         "Bleeding Body Ephemera",
         "Catena Prime Ephemera",
@@ -6586,6 +6632,7 @@
         "Fog Of War Ephemera",
         "Freezing Step Ephemera",
         "Frostfall Ephemera",
+        "Gangrim Ephemera",
         "Gloriana Ephemera",
         "Heart-Beat Ephemera",
         "Heart-Throb Ephemera",
@@ -6627,6 +6674,7 @@
         "Rizoma Ephemera",
         "Sands Of Mars Ephemera",
         "Sanguinax Prime Ephemera",
+        "Seonang Ephemera",
         "Seeding Step Ephemera",
         "Seraphayre Ephemera",
         "Shard Bane Ephemera",
@@ -6693,14 +6741,36 @@
     ],
     "Type": "Weapons"
   },
-  "Hate": {
-    "Type": "Weapons",
+  "Harrow": {
     "Equipments": {
+      "Auxiliary": [
+        "Lyon's Mitre"
+      ],
+      "Helmet": [
+        "Harrow Algalyst Helmet",
+        "Harrow Crucis Helmet",
+        "Harrow Graxx Helmet",
+        "Harrow Helmet",
+        "Harrow Hieropha Helmet",
+        "Harrow Prime Helmet",
+        "Harrow Reliquary Helmet",
+        "Harrow Suffragan Helmet",
+        "Harrow Veles Helmet"
+      ],
       "Skin": [
-        "Enlightened Hate Skin",
-        "Hate Day of the Dead Skin"
+        "Harrow Algalyst Skin",
+        "Harrow Graxx Skin",
+        "Harrow Prime Skin",
+        "Harrow Reliquary Skin",
+        "Harrow Skin",
+        "Harrow Veles Skin",
+        "Lyon Gemini Skin"
       ]
-    }
+    },
+    "Variants": [
+      "Harrow Prime"
+    ],
+    "Type": "Warframe"
   },
   "Heavy Blade": {
     "Type": "Weapon Class",
@@ -6731,19 +6801,6 @@
       ]
     }
   },
-  "Guandao": {
-    "Equipments": {
-      "Skin": [
-        "Guandao Opal Skin",
-        "Guandao Solstice Skin",
-        "Guandao Synoid Skin"
-      ]
-    },
-    "Variants": [
-      "Guandao Prime"
-    ],
-    "Type": "Weapons"
-  },
   "Grakata": {
     "Equipments": {
       "Skin": [
@@ -6757,166 +6814,6 @@
       "Prisma Grakata"
     ],
     "Type": "Weapons"
-  },
-  "Vectis": {
-    "Equipments": {
-      "Skin": [
-        "Vectis Forest-Camo Skin",
-        "Vectis Sharpshooter Skin",
-        "Vectis Silferer Skin",
-        "Vectis Tekelu Skin",
-        "Bladeswarm Vectis Skin"
-      ]
-    },
-    "Variants": [
-      "Vectis Prime"
-    ],
-    "Type": "Weapons"
-  },
-  "Flamethrower": {
-    "Type": "Weapon Class",
-    "Equipments": {
-      "Skin": [
-        "Flamethrower Plazm Skin",
-        "Freedom Flamethrower Skin"
-      ]
-    }
-  },
-  "Emblem": {
-    "Type": "Attachment",
-    "Equipments": {
-      "Emblem": [
-        "17173 EMBLEM",
-        "Acolyte Emblem",
-        "Alliance Emblem",
-        "Ambulas Reborn Emblem",
-        "Arid Fear Emblem",
-        "Armilla Emblem",
-        "Aseron Sekhara",
-        "Belly of the Beast Emblem",
-        "Boiler Emblem",
-        "Breeding Grounds Emblem",
-        "Bronze Skull Emblem",
-        "Brood Mother Emblem",
-        "Buried Debts Emblem",
-        "Cicero Crisis Emblem",
-        "Clan Emblem",
-        "COMMEMORATIVE EMBLEM",
-        "Community 10 Year Anniversary Emblem",
-        "Conquera Emblem",
-        "Cryotic Front Emblem",
-        "DEIMOS CONSERVATION EMBLEM",
-        "Despair Emblem",
-        "Disciple's Emblem",
-        "Dog Days Emblem",
-        "Drip Squad 4 Life Emblem",
-        "Dropkick Drahk Emblem",
-        "DUOWAN EMBLEM",
-        "Emblem of the Hunt",
-        "Emissary Emblem",
-        "Erznung Emblem",
-        "Eyes of Blight Emblem",
-        "False Profit Emblem",
-        "Frightening Flock Emblem",
-        "Gargoyle's Cry Emblem",
-        "Gate Crash Emblem",
-        "Gauvan Umbra Sekhara",
-        "Ghost Leader Emblem",
-        "Glaring Emblem",
-        "Glassmaker Emblem",
-        "Gold Skull Emblem",
-        "Gradivus: Loyalty Emblem",
-        "Gradivus: Sacrifice Emblem",
-        "Grand Master Emblem",
-        "Hostile Mergers Emblem",
-        "Hunter's Emblem",
-        "INFINITY EMBLEM",
-        "Invati Sekhara",
-        "Jade Clem Emblem",
-        "Jordas Sekhara",
-        "Ki'Teer Sekhara",
-        "Kuria Emblem",
-        "Lunar Renewal Dragon Emblem",
-        "Lunar Renewal Ox Emblem",
-        "Lunar Renewal Rabbit Emblem",
-        "Lunar Renewal Snake Emblem",
-        "Lunar Renewal Tiger Emblem",
-        "Madurai Emblem",
-        "Master's Emblem",
-        "Moon Leader Emblem",
-        "Mountain Leader Emblem",
-        "Mutalist Incursions Emblem",
-        "Naramon Emblem",
-        "Necraseal Emblem",
-        "Nightwave Emblem",
-        "Okina Emblem",
-        "Old Blood Emblem",
-        "Operation Orphix Venom Emblem",
-        "Orb Vallis Conservation Emblem",
-        "Pack Leader Emblem",
-        "Plague Star Emblem",
-        "Plains Of Eidolon Conservation Emblem",
-        "PLAY EMBLEM",
-        "President King Corgi Emblem",
-        "Prisma Lotus Emblem",
-        "Pungchai Emblem",
-        "Rathuum Emblem",
-        "Saturn Six Emblem",
-        "Scarlet Spear Condrix I Emblem",
-        "Scarlet Spear Condrix II Emblem",
-        "Scarlet Spear Condrix III Emblem",
-        "Scarlet Spear Murex I Emblem",
-        "Scarlet Spear Murex II Emblem",
-        "Scarlet Spear Murex III Emblem",
-        "Scarlet Spear Operations I Emblem",
-        "Scarlet Spear Operations II Emblem",
-        "Scarlet Spear Operations III Emblem",
-        "Sevati Sekhara",
-        "Shadow Leader Emblem",
-        "Silver Skull Emblem",
-        "Sisterhood Emblem",
-        "Sling Stone Emblem",
-        "Solaris Emblem",
-        "Solstice Conclave Emblem",
-        "Specters of Liberty Emblem",
-        "Storm Leader Emblem",
-        "Stratos Emblem",
-        "Survival Emblem",
-        "Swarm Mutalist Moa Emblem",
-        "Tar Mutalist Moa Emblem",
-        "Taunting Tamm Emblem",
-        "Ten Year Anniversary Emblem",
-        "Tenno Chronicler Emblem",
-        "Tenno Mentor Emblem",
-        "Tenno Translator Emblem",
-        "TennoCon Emblem",
-        "TennoGen Emblem",
-        "Tethra's Doom Emblem",
-        "Tethra's Doom Quantum Emblem",
-        "The Index Emblem",
-        "The Pacifism Defect Emblem",
-        "Tiberon Obsidian Emblem",
-        "Tubemen Of Regor Emblem",
-        "Unairu Emblem",
-        "Vallis Beast And Bird Emblem",
-        "Vasero Apex Sekhara",
-        "Vasero Emergent Sekhara",
-        "Vasero Sekhara",
-        "Vazarin Emblem",
-        "Verv Emblem",
-        "Vitus Emblem",
-        "Zenurik Emblem",
-        "Zwillfah Emblem"
-      ]
-    }
-  },
-  "Cassowar": {
-    "Type": "Weapons",
-    "Equipments": {
-      "Skin": [
-        "Cassowar Jade Skin"
-      ]
-    }
   },
   "Armor": {
     "Type": "Attachment",
@@ -7297,6 +7194,9 @@
         "TennoCon 2022 Chest Plate",
         "TennoCon 2022 Leg Plates",
         "TennoCon 2022 Shoulder Plates",
+        "Tidon Shoulder Medallion",
+        "Tidon Chest Medallion",
+        "Tidon Leg Medallion",
         "Unairu Badge",
         "Vanda Prime Chest Armor",
         "Vanda Prime Leg Armor",
@@ -7322,6 +7222,177 @@
         "Zhivira Shoulder Armor"
       ]
     }
+  },
+  "Vectis": {
+    "Equipments": {
+      "Skin": [
+        "Vectis Forest-Camo Skin",
+        "Vectis Sharpshooter Skin",
+        "Vectis Silferer Skin",
+        "Vectis Tekelu Skin",
+        "Bladeswarm Vectis Skin"
+      ]
+    },
+    "Variants": [
+      "Vectis Prime"
+    ],
+    "Type": "Weapons"
+  },
+  "Flamethrower": {
+    "Type": "Weapon Class",
+    "Equipments": {
+      "Skin": [
+        "Flamethrower Plazm Skin",
+        "Freedom Flamethrower Skin"
+      ]
+    }
+  },
+  "Emblem": {
+    "Type": "Attachment",
+    "Equipments": {
+      "Emblem": [
+        "17173 EMBLEM",
+        "Acolyte Emblem",
+        "Alliance Emblem",
+        "Ambulas Reborn Emblem",
+        "Arid Fear Emblem",
+        "Armilla Emblem",
+        "Aseron Sekhara",
+        "Belly of the Beast Emblem",
+        "Boiler Emblem",
+        "Breeding Grounds Emblem",
+        "Bronze Skull Emblem",
+        "Brood Mother Emblem",
+        "Buried Debts Emblem",
+        "Cicero Crisis Emblem",
+        "Clan Emblem",
+        "COMMEMORATIVE EMBLEM",
+        "Community 10 Year Anniversary Emblem",
+        "Conquera Emblem",
+        "Cryotic Front Emblem",
+        "DEIMOS CONSERVATION EMBLEM",
+        "Despair Emblem",
+        "Disciple's Emblem",
+        "Dog Days Emblem",
+        "Drip Squad 4 Life Emblem",
+        "Dropkick Drahk Emblem",
+        "DUOWAN EMBLEM",
+        "Emblem of the Hunt",
+        "Emissary Emblem",
+        "Erznung Emblem",
+        "Eyes of Blight Emblem",
+        "False Profit Emblem",
+        "Frightening Flock Emblem",
+        "Gargoyle's Cry Emblem",
+        "Gate Crash Emblem",
+        "Gauvan Umbra Sekhara",
+        "Ghost Leader Emblem",
+        "Glaring Emblem",
+        "Glassmaker Emblem",
+        "Gold Skull Emblem",
+        "Gradivus: Loyalty Emblem",
+        "Gradivus: Sacrifice Emblem",
+        "Grand Master Emblem",
+        "Hostile Mergers Emblem",
+        "Hunter's Emblem",
+        "INFINITY EMBLEM",
+        "Invati Sekhara",
+        "Jade Clem Emblem",
+        "Jordas Sekhara",
+        "Ki'Teer Sekhara",
+        "Kuria Emblem",
+        "Lunar Renewal Dragon Emblem",
+        "Lunar Renewal Ox Emblem",
+        "Lunar Renewal Rabbit Emblem",
+        "Lunar Renewal Snake Emblem",
+        "Lunar Renewal Tiger Emblem",
+        "Madurai Emblem",
+        "Master's Emblem",
+        "Moon Leader Emblem",
+        "Mountain Leader Emblem",
+        "Mutalist Incursions Emblem",
+        "Naramon Emblem",
+        "Necraseal Emblem",
+        "Nightwave Emblem",
+        "Okina Emblem",
+        "Old Blood Emblem",
+        "Operation Orphix Venom Emblem",
+        "Orb Vallis Conservation Emblem",
+        "Pack Leader Emblem",
+        "Plague Star Emblem",
+        "Plains Of Eidolon Conservation Emblem",
+        "PLAY EMBLEM",
+        "President King Corgi Emblem",
+        "Prisma Lotus Emblem",
+        "Pungchai Emblem",
+        "Rathuum Emblem",
+        "Saturn Six Emblem",
+        "Scarlet Spear Condrix I Emblem",
+        "Scarlet Spear Condrix II Emblem",
+        "Scarlet Spear Condrix III Emblem",
+        "Scarlet Spear Murex I Emblem",
+        "Scarlet Spear Murex II Emblem",
+        "Scarlet Spear Murex III Emblem",
+        "Scarlet Spear Operations I Emblem",
+        "Scarlet Spear Operations II Emblem",
+        "Scarlet Spear Operations III Emblem",
+        "Sevati Sekhara",
+        "Shadow Leader Emblem",
+        "Silver Skull Emblem",
+        "Sisterhood Emblem",
+        "Sling Stone Emblem",
+        "Solaris Emblem",
+        "Solstice Conclave Emblem",
+        "Specters of Liberty Emblem",
+        "Storm Leader Emblem",
+        "Stratos Emblem",
+        "Survival Emblem",
+        "Swarm Mutalist Moa Emblem",
+        "Tar Mutalist Moa Emblem",
+        "Taunting Tamm Emblem",
+        "Ten Year Anniversary Emblem",
+        "Tenno Chronicler Emblem",
+        "Tenno Mentor Emblem",
+        "Tenno Translator Emblem",
+        "TennoCon Emblem",
+        "TennoGen Emblem",
+        "Tethra's Doom Emblem",
+        "Tethra's Doom Quantum Emblem",
+        "The Index Emblem",
+        "The Pacifism Defect Emblem",
+        "Tiberon Obsidian Emblem",
+        "Tubemen Of Regor Emblem",
+        "Unairu Emblem",
+        "Vallis Beast And Bird Emblem",
+        "Vasero Apex Sekhara",
+        "Vasero Emergent Sekhara",
+        "Vasero Sekhara",
+        "Vazarin Emblem",
+        "Verv Emblem",
+        "Vitus Emblem",
+        "Zenurik Emblem",
+        "Zwillfah Emblem"
+      ]
+    }
+  },
+  "Cassowar": {
+    "Type": "Weapons",
+    "Equipments": {
+      "Skin": [
+        "Cassowar Jade Skin"
+      ]
+    }
+  },
+  "Galaxion": {
+    "Equipments": {
+      "Skin": [
+        "Niveus Glaxion Skin"
+      ]
+    },
+    "Variants": [
+      "Tenet Galaxion"
+    ],
+    "Type": "Weapons"
   },
   "Plinx": {
     "Equipments": {

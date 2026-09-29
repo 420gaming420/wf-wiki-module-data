@@ -775,7 +775,7 @@ local function getValue(Type,PrimaryName,SecondaryName,TertiaryName,ValName,AsSt
 				result=result*(1+ModularData[Type][TertiaryType][TertiaryName]["Health"]*2)
 				armor=armor*(1+ModularData[Type][TertiaryType][TertiaryName]["Armor"]*2)
 				shield=shield*(1+ModularData[Type][TertiaryType][TertiaryName]["Shield"]*2)
-				result=result*((armor+300)/300)+shield*2
+				result=result*((armor+300)/300)+shield
 			else
 				result=result+ModularData[Type][TertiaryType][TertiaryName]["Health"]
 				armor=armor+ModularData[Type][TertiaryType][TertiaryName]["Armor"]
@@ -806,8 +806,8 @@ local function getValue(Type,PrimaryName,SecondaryName,TertiaryName,ValName,AsSt
 			if Type=="Hound" then
 				result=result*(1+ModularData[Type][TertiaryType][TertiaryName]["Health"]*2)
 				armor=armor*(1+ModularData[Type][TertiaryType][TertiaryName]["Armor"]*2)
-				shield=shield*(1+ModularData[Type][TertiaryType][TertiaryName]["Shield"]*2)
-				result=result*((armor+300)/300)+shield*2*3.5
+				shield=shield*(1+2.5+ModularData[Type][TertiaryType][TertiaryName]["Shield"]*2)
+				result=result*((armor+300)/300)+shield
 			else
 				result=result+ModularData[Type][TertiaryType][TertiaryName]["Health"]
 				armor=armor+ModularData[Type][TertiaryType][TertiaryName]["Armor"]

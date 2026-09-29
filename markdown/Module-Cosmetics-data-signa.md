@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/signa"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/signa"
-wiki_timestamp: "2026-09-24T07:50:24Z"
+wiki_timestamp: "2026-09-28T12:26:06Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/signa/doc](/w/Module:Cosmetics/data/signa/doc?action=edit&redlink=1 "Module:Cosmetics/data/signa/doc (page does not exist)")*
@@ -40,6 +40,16 @@ return {
 		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=3641769055",
 		Type = "TennoGen Signa",
 	},
+	["Conquera Cateura Signa"] = {
+        CodexSecret = false,
+        Description = "Support the Princess Margaret Cancer Foundation Quest with this playful set of Kavat ears.",
+        ExcludeFromCodex = true,
+        Image = "ConqueraCateuraSigna.png",
+        InternalName = "/Lotus/Upgrades/Skins/Crowns/QTCCCatSignaCrown",
+        Link = "Conquera Cateura Signa",
+        Name = "Conquera Cateura Signa",
+        Type = "Signa",
+    },
     ["Dex Signa"] = {
         CodexSecret = false,
         Description = "A gift from the Lotus to commemorate the thirteenth anniversary of the first Tenno waking from Cryo stasis.",

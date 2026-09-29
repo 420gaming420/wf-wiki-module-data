@@ -1,7 +1,7 @@
 ---
 title: "Module:Blueprints/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Blueprints/data"
-wiki_timestamp: "2026-09-24T06:13:07Z"
+wiki_timestamp: "2026-09-28T20:46:12Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Database for blueprint recipes. Includes crafting requirements for [Railjack](/w
 
 Costs for Dojo [Decorations](/w/Decorations "Decorations") can be found in [Module:Decorations/data](/w/Module:Decorations/data "Module:Decorations/data") instead.
 
-:   *Last updated: Thu, 24 Sep 2026 06:13:07 +0000 (UTC) by [User:Roteq](/w/User:Roteq?action=edit&redlink=1 "User:Roteq (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Blueprints/data?diff=0))*
+:   *Last updated: Mon, 28 Sep 2026 20:46:12 +0000 (UTC) by [User:~2026-BlacklightHavemercyNatural52110](/w/User:~2026-BlacklightHavemercyNatural52110?action=edit&redlink=1 "User:~2026-BlacklightHavemercyNatural52110 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Blueprints/data?diff=0))*
 
 ## Contents
 
@@ -2138,7 +2138,7 @@ return {
 			Credits = 15000,
 			Name = "Corufell Prime Blueprint",
 			Parts = {
-				{ Count = 1, Name = "Barrel", Type = "PrimePart" },
+				{ Count = 1, Name = "Stock", Type = "PrimePart" },
 				{ Count = 1, Name = "Receiver", Type = "PrimePart" },
 				{ Count = 1, Name = "Handle", Type = "PrimePart" },
 				{ Count = 15, Name = "Orokin Cell", Type = "Resource" } 

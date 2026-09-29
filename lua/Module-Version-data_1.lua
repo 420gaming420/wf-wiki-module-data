@@ -19220,6 +19220,19 @@ local Versions = {
 		Timestamp = 1790294355,
 		Subtitle = "Iceblade of Narin"
 	},
+	{
+		Name = "Hotfix 44.0.2",
+		Link = "Update 44: Iceblade of Narin",
+		Aliases = { "44.0.2" },
+		ShortName = "H44.0.2",
+		Date = "2026-09-28",
+		Parent = "44.0",
+		ForumLink = "https://forums.warframe.com/topic/1525835-iceblade-of-narin-hotfix-4402/",
+		ArchiveLink = "https://web.archive.org/web/20260928191357/https://forums.warframe.com/topic/1525835-iceblade-of-narin-hotfix-4402/",
+		ArchiveDate = "2026-09-24",
+		Timestamp = 1790636822,
+		Subtitle = "Iceblade of Narin"
+	},
 }
 
 -- Building additional indexes from data

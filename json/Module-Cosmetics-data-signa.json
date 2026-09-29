@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-25T07:20:56.913Z"
+    "converted_at": "2026-09-29T08:05:10.094Z"
   },
   "_comments": "",
   "Vermis Signa": {
@@ -46,13 +46,13 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Maginav Prime Signa": {
+  "Conquera Cateura Signa": {
     "Type": "Signa",
-    "Image": "MaginavPrimeSigna.png",
-    "Description": "Present yourself as an esteemed captain with Sevagoth Prime’s signature Signa.",
-    "Link": "Maginav Prime Signa",
-    "Name": "Maginav Prime Signa",
-    "InternalName": "/Lotus/Upgrades/Skins/Crowns/PrimeSevagothHaloCrown",
+    "Image": "ConqueraCateuraSigna.png",
+    "Description": "Support the Princess Margaret Cancer Foundation Quest with this playful set of Kavat ears.",
+    "Link": "Conquera Cateura Signa",
+    "Name": "Conquera Cateura Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/QTCCCatSignaCrown",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
@@ -243,6 +243,16 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
+  "Vizor Signa": {
+    "Type": "Signa",
+    "Image": "VizorSigna.png",
+    "Description": "No speedster's look would be complete without Gauss Moto's signature signa.",
+    "Link": "Vizor Signa",
+    "Name": "Vizor Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/GaussDeluxeIICrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
   "Isageum Signa": {
     "Type": "Signa",
     "Description": "A circlet from ancient times, its ornamentation signifying wisdom and strength.",
@@ -254,23 +264,13 @@
     "InternalName": "",
     "CodexSecret": false
   },
-  "Vizor Signa": {
+  "Rhino Heirloom Signa": {
     "Type": "Signa",
-    "Image": "VizorSigna.png",
-    "Description": "No speedster's look would be complete without Gauss Moto's signature signa.",
-    "Link": "Vizor Signa",
-    "Name": "Vizor Signa",
-    "InternalName": "/Lotus/Upgrades/Skins/Crowns/GaussDeluxeIICrown",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Tomoe Signa": {
-    "Type": "Signa",
-    "Image": "TomoeSigna.png",
-    "Description": "Crown yourself with the majesty of the storm.",
-    "Link": "Tomoe Signa",
-    "Name": "Tomoe Signa",
-    "InternalName": "/Lotus/Upgrades/Skins/Crowns/VoltDeluxeRaijinCrown",
+    "Image": "RhinoHeirloomSigna.png",
+    "Description": "Horns of primordial power crown Rhino with the majesty of the beast.",
+    "Link": "Rhino Heirloom Signa",
+    "Name": "Rhino Heirloom Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/HeirloomRhinoCrown",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
@@ -284,6 +284,16 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
+  "Tomoe Signa": {
+    "Type": "Signa",
+    "Image": "TomoeSigna.png",
+    "Description": "Crown yourself with the majesty of the storm.",
+    "Link": "Tomoe Signa",
+    "Name": "Tomoe Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/VoltDeluxeRaijinCrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
   "Vauban Heirloom Signa": {
     "Type": "Signa",
     "Image": "VaubanHeirloomSigna.png",
@@ -291,26 +301,6 @@
     "Link": "Vauban Heirloom Signa",
     "Name": "Vauban Heirloom Signa",
     "InternalName": "/Lotus/Upgrades/Skins/Crowns/HeirloomVaubanCrown",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Rhino Heirloom Signa": {
-    "Type": "Signa",
-    "Image": "RhinoHeirloomSigna.png",
-    "Description": "Horns of primordial power crown Rhino with the majesty of the beast.",
-    "Link": "Rhino Heirloom Signa",
-    "Name": "Rhino Heirloom Signa",
-    "InternalName": "/Lotus/Upgrades/Skins/Crowns/HeirloomRhinoCrown",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Hana Ikada Signa": {
-    "Type": "Signa",
-    "Image": "HanaIkadaSigna.png",
-    "Description": "Show strength through elegance.",
-    "Link": "Hana Ikada Signa",
-    "Name": "Hana Ikada Signa",
-    "InternalName": "/Lotus/Upgrades/Skins/Crowns/NovaDeluxeAoandonCrown",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
@@ -324,6 +314,16 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
+  "Hana Ikada Signa": {
+    "Type": "Signa",
+    "Image": "HanaIkadaSigna.png",
+    "Description": "Show strength through elegance.",
+    "Link": "Hana Ikada Signa",
+    "Name": "Hana Ikada Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/NovaDeluxeAoandonCrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
   "Mesa Heirloom Signa": {
     "Type": "Signa",
     "Image": "MesaHeirloomSigna.png",
@@ -331,6 +331,16 @@
     "Link": "Mesa Heirloom Signa",
     "Name": "Mesa Heirloom Signa",
     "InternalName": "/Lotus/Upgrades/Skins/Crowns/HeirloomMesaCrown",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Maginav Prime Signa": {
+    "Type": "Signa",
+    "Image": "MaginavPrimeSigna.png",
+    "Description": "Present yourself as an esteemed captain with Sevagoth Prime’s signature Signa.",
+    "Link": "Maginav Prime Signa",
+    "Name": "Maginav Prime Signa",
+    "InternalName": "/Lotus/Upgrades/Skins/Crowns/PrimeSevagothHaloCrown",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },

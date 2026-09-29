@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/warframeskin"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/warframeskin"
-wiki_timestamp: "2026-09-26T04:35:18Z"
+wiki_timestamp: "2026-09-28T19:17:29Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/warframeskin/doc](/w/Module:Cosmetics/data/warframeskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/warframeskin/doc (page does not exist)")*
@@ -1074,7 +1074,7 @@ return {
 		Description = "The standard issue skin for the Follie Warframe.",
 		ExcludeFromCodex = true,
 		Image = "Follie_Thumb.png",
-		InternalName = "/Lotus/Upgrades/Skins/Inkblot/InkbotSkin",
+		InternalName = "/Lotus/Upgrades/Skins/Inkblot/InkblotSkin",
 		Link = "Follie Skin",
 		Name = "Follie Skin",
 		Type = "Skin"
@@ -1554,7 +1554,7 @@ return {
 		Description = "A unique skin for the Harrow Warframe, designed by Malaya, Jadie and Noxxr.",
 		ExcludeFromCodex = true,
 		Image = "HarrowProfitasSkin.png",
-		InternalName = "/Lotus/Upgrades/Skins/Priest/SWHarrowProfitasSkin",
+		InternalName = "/Lotus/Upgrades/Skins/Priest/SWProfitasHarrowSkin",
 		Link = "Harrow Profitas Skin",
 		Name = "Harrow Profitas Skin",
 		Type = "Skin"
@@ -1854,7 +1854,7 @@ return {
 		Description = "A unique skin for the Jade Warframe, designed by blazingcobalt.",
 		ExcludeFromCodex = true,
 		Image = "JadeCovenSkin.png",
-		InternalName = "/Lotus/Upgrades/Skins/Choir/SWJadeCovenSkin",
+		InternalName = "/Lotus/Upgrades/Skins/Choir/SWCovenJadeSkin",
 		Link = "Jade Coven Skin",
 		Name = "Jade Coven Skin",
 		Type = "Skin"
@@ -1974,7 +1974,7 @@ return {
 		Description = "A unique skin for the Kullvero Warframe, designed by Erneix.",
 		ExcludeFromCodex = true,
 		Image = "KullervoAscophiliaSkin.png",
-		InternalName = "/Lotus/Upgrades/Skins/PaxDuviricus/SWKullervoAscophiliaSkin",
+		InternalName = "/Lotus/Upgrades/Skins/PaxDuviricus/SWPaxAscophiliaSkin",
 		Link = "Kullervo Ascophilia Skin",
 		Name = "Kullervo Ascophilia Skin",
 		Type = "Skin"

@@ -7846,7 +7846,7 @@ local StanceData = {
 			},
 			Duration = 1.85,
 			Image = "ReapingSpiralCombo1.gif",
-			Name = "Reclamation" 
+			Name = "Reclaimation" 
 		},
 		["Forward Block"] = {
 			Attacks = {

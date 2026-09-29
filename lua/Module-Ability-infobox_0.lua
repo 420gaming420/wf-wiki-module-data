@@ -190,7 +190,7 @@ buildInfobox = function(frame)
 
 	-- Old maximization deprecated since 2022 (see [[User_blog:Cephalon_Scientia/Sunsetting_of_Maximization_Calculators]])
 	-- New DSL since 2026
-	local max = Maximization.ability(name);
+	local __max_success, max = pcall(Maximization.ability, name);
 
 	local function tab(s, c)
 		return c and c ~= '' and ('|-|%s=<b style="display:none;">%s<br />\n</b>\n%s'):format(s, s, c) or ''

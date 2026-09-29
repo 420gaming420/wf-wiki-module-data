@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/syandana"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/syandana"
-wiki_timestamp: "2026-09-24T13:05:10Z"
+wiki_timestamp: "2026-09-28T12:46:38Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/syandana/doc](/w/Module:Cosmetics/data/syandana/doc?action=edit&redlink=1 "Module:Cosmetics/data/syandana/doc (page does not exist)")*
@@ -898,7 +898,7 @@ return {
         Description = "The wish for a long life is carried upon the noble wings of Narin's signature syandana.",
         ExcludeFromCodex = false,
         Image = "DurumiSyandana.png",
-        InternalName = "/Lotus/Upgrades/Skins/Scarves/",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/DuelistSyandana",
         Link = "Durumi Syandana",
         Name = "Durumi Syandana",
         Type = "Syandana"
@@ -3172,7 +3172,7 @@ return {
         Description = "This flowing cape transitions into its tattered Void-swept form when the TennoCon Riftguard Emote is used. Created to celebrate ten years of TennoCon in 2025.",
         ExcludeFromCodex = false,
         Image = "TennoConRiftguardSyandana.png",
-        InternalName = "/Lotus/Upgrades/Skins/Scarves/TennoConRiftguardScarf",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/TC2025Scarf",
         Link = "TennoCon Riftguard Syandana",
         Name = "TennoCon Riftguard Syandana",
         Type = "Syandana"
@@ -3485,7 +3485,7 @@ return {
         Description = "A syandana for your Warframe, designed by led2012 and daemonstar.",
         ExcludeFromCodex = false,
         Image = "XikonosSyandana.png",
-        InternalName = "/Lotus/Upgrades/Skins/Scarves/SWXikonosSyanadana",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/SWXikonosSyandana",
         Introduced = "39.1",
         Link = "Xikonos Syandana",
         Name = "Xikonos Syandana",

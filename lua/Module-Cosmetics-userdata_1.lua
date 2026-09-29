@@ -254,6 +254,8 @@ return {
 				"Mirage Noble Animation Set",
 				"Mirage Oneiro Agile Animation Set",
 				"Mirage Oneiro Noble Animation Set",
+				"Narin Agile Animation Set",
+				"Narin Noble Animation Set",
 				"Nekros Agile Animation Set",
 				"Nekros Noble Animation Set",
 				"Nezha Agile Animation Set",
@@ -753,6 +755,9 @@ return {
 				"TennoCon 2022 Chest Plate",
 				"TennoCon 2022 Leg Plates",
 				"TennoCon 2022 Shoulder Plates",
+				"Tidon Shoulder Medallion",
+				"Tidon Chest Medallion",
+				"Tidon Leg Medallion",
 				"Unairu Badge",
 				"Vanda Prime Chest Armor",
 				"Vanda Prime Leg Armor",
@@ -960,6 +965,7 @@ return {
 				"Banshee Prime Armor",
 				"Banshee Sonority Armor",
 				"Banshee Soprana Shoulder Armor",
+				"Banshee Threnodia Shoulder Armor",
 				"Banshee Voidshell Armor",
 			},
 			Helmet = {
@@ -974,6 +980,7 @@ return {
 				"Banshee Reverb Helmet",
 				"Banshee Sonority Helmet",
 				"Banshee Soprana Helmet",
+				"Banshee Threnodia Helmet",
 				"Banshee Voidshell Helmet",
 			},
 			Skin = {
@@ -983,6 +990,7 @@ return {
 				"Banshee Skin",
 				"Banshee Sonority Skin",
 				"Banshee Soprana Skin",
+				"Banshee Threnodia Skin",
 				"Banshee Voidshell Skin",
 			},
 		},
@@ -1313,6 +1321,7 @@ return {
 		Equipments = {
 			Helmet = {
 				"Citrine Helmet",
+				"Citrine Heliotropia Helmet",
 				"Citrine Kalite Helmet",
 				"Citrine Aphrodita Helmet",
 				"Citrine Celestis Helmet",
@@ -1322,6 +1331,9 @@ return {
 				"Citrine Aphrodita Skin",
 				"Citrine Celestis Skin",
 			},
+		},
+		Variants = {
+			"Citrine Prime",
 		},
 		Type = "Warframe",
 	},
@@ -1472,6 +1484,7 @@ return {
 		Equipments = {
 			Skin = {
 				"Dark Dagger Day of the Dead Skin",
+				"Niveus Dark Dagger Skin",
 			},
 		},
 		Variants = {
@@ -1484,6 +1497,7 @@ return {
 			Skin = {
 				"Dark Split-Sword Day of the Dead Skin",
 				"Dark Split-Sword Dulus Skin",
+				"Niveus Dark Split-Sword Skin",
 			},
 		},
 		Type = "Weapons",
@@ -1492,6 +1506,7 @@ return {
 		Equipments = {
 			Skin = {
 				"Dark Sword Day of the Dead Skin",
+				"Niveus Dark Sword Skin",
 			},
 		},
 		Type = "Weapons",
@@ -2103,6 +2118,7 @@ return {
 				"Aspirus Emergent Ephemera",
 				"Aspirus Ephemera",
 				"Baurahn Prime Ephemera",
+				"Belfri Ephemera",
 				"Blazing Step Ephemera",
 				"Bleeding Body Ephemera",
 				"Catena Prime Ephemera",
@@ -2122,6 +2138,7 @@ return {
 				"Fog Of War Ephemera",
 				"Freezing Step Ephemera",
 				"Frostfall Ephemera",
+				"Gangrim Ephemera",
 				"Gloriana Ephemera",
 				"Heart-Beat Ephemera",
 				"Heart-Throb Ephemera",
@@ -2163,6 +2180,7 @@ return {
 				"Rizoma Ephemera",
 				"Sands Of Mars Ephemera",
 				"Sanguinax Prime Ephemera",
+				"Seonang Ephemera",
 				"Seeding Step Ephemera",
 				"Seraphayre Ephemera",
 				"Shard Bane Ephemera",
@@ -2520,6 +2538,17 @@ return {
 		},
 		Variants = {
 			"Galatine Prime",
+		},
+		Type = "Weapons",
+	},
+	Galaxion = {
+		Equipments = {
+			Skin = {
+				"Niveus Glaxion Skin",
+			},
+		},
+		Variants = {
+			"Tenet Galaxion",
 		},
 		Type = "Weapons",
 	},
@@ -3164,10 +3193,12 @@ return {
 			Helmet = {
 				"Jade Aureolt Helmet",
 				"Jade Helmet",
+				"Jade Coven Helmet",
 				"Jade Immortal Helmet",
 			},
 			Skin = {
 				"Jade Skin",
+				"Jade Coven Skin",
 				"Jade Immortal Skin",
 			},
 		},
@@ -3764,6 +3795,7 @@ return {
 				"Madurai Sumdali",
 				"Manus Sumdali",
 				"Naramon Sumdali",
+				"Niveus Sumdali",
 				"Stalker's Mark Sumdali",
 				"True Master Sumdali",
 				"Unairu Sumdali",
@@ -3936,6 +3968,7 @@ return {
 				"Liset Verv Skin",
 				"Liset Zikha Skin",
 				"Lumis Liset Skin",
+				"Niveus Liset Skin",
 				"Spektaka Liset Skin",
 				"Bloodfrenzy Liset Skin",
 				"Bladeswarm Liset Skin",
@@ -4252,6 +4285,18 @@ return {
 		},
 		Type = "Weapons",
 	},
+	Narin = {
+		Equipments = {
+			Helmet = {
+				"Narin Helmet",
+				"Narin Baridegi Helmet",
+			},
+			Skin = {
+				"Narin Skin",
+			},
+		},
+		Type = "Warframe",
+	},
 	Nautilus = {
 		Equipments = {
 			Skin = {
@@ -4316,6 +4361,14 @@ return {
 			"Nekros Prime",
 		},
 		Type = "Warframe",
+	},
+	Nepheri = {
+		Equipments = {
+			Skin = {
+				"Niveus Nepheri Skin",
+			},
+		},
+		Type = "Weapons",
 	},
 	Nezha = {
 		Equipments = {
@@ -5150,6 +5203,7 @@ return {
 		Equipments = {
 			Skin = {
 				"Orvius Dax Skin",
+				"Niveus Orvius Skin",
 			},
 		},
 		Type = "Weapons",
@@ -5191,6 +5245,7 @@ return {
 				"Paracesis Jade Skin",
 				"Paracesis Obsidian Skin",
 				"Paracesis Opal Skin",
+				"Niveus Paracesis Skin",
 			},
 		},
 		Type = "Weapons",
@@ -5374,11 +5429,13 @@ return {
 		Equipments = {
 			Helmet = {
 				"Qorvex Helmet",
+				"Qorvex Basilica Helmet",
 				"Qorvex Raxpart Helmet",
 				"Qorvex Sarcophago Helmet",
 			},
 			Skin = {
 				"Qorvex Skin",
+				"Qorvex Basilica Skin",
 			},
 		},
 		Type = "Warframe",
@@ -5414,6 +5471,14 @@ return {
 		},
 		Variants = {
 			"Quassus Prime",
+		},
+		Type = "Weapons",
+	},
+	Quellor = {
+		Equipments = {
+			Skin = {
+				"Niveus Quellor Skin",
+			},
 		},
 		Type = "Weapons",
 	},
@@ -5891,6 +5956,7 @@ return {
 				"Invictus Signa",
 				"Invictus Apex Signa",
 				"Invictus Emergent Signa",
+				"Isageum Signa",
 				"Karotic Signa",
 				"Krios Signa",
 				"Ki'Teer Nobilis Signa",
@@ -6166,6 +6232,7 @@ return {
 		Equipments = {
 			Sugatra = {
 				"Alumeti Sugatra",
+				"Alumeti Prime Sugatra",
 				"Anpu Sugatra",
 				"Aroka Prime Sugatra",
 				"Baochun Sugatra",
@@ -6348,6 +6415,7 @@ return {
 				"Domus Syandana",
 				"Draugen Syandana",
 				"Due Volpi Syandana",
+				"Durumi Syandana",
 				"Eklis Syandana",
 				"Entheor Prime Syandana",
 				"Enthra Syandana",
@@ -6355,6 +6423,7 @@ return {
 				"Fei Syandana",
 				"Flox Syandana",
 				"Foxglove Syandana",
+				"Garkulek Syandana",
 				"Gigelor Prime Syandana",
 				"Gigelorum Prime Syandana",
 				"Glacia Syandana",
@@ -6473,6 +6542,7 @@ return {
 				"Raylta Syandana",
 				"Rencowl Syandana",
 				"Repala Syandana",
+				"Reliquia Syandana",
 				"Reshantur Cult Syandana",
 				"Retrorolyst Syandana",
 				"Revenant Mephisto Syandana",
@@ -6511,6 +6581,7 @@ return {
 				"Sordario Syandana",
 				"Sovereign Syandana",
 				"Spektaka Prime Syandana",
+				"Sphatika Prime Syandana",
 				"Stelflare Syandana",
 				"Stezia Sumbha Syandana",
 				"Stratum Syandana",

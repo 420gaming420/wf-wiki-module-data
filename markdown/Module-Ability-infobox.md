@@ -1,7 +1,7 @@
 ---
 title: "Module:Ability/infobox"
 wiki_url: "https://wiki.warframe.com/w/Module/Ability/infobox"
-wiki_timestamp: "2026-09-24T23:11:22Z"
+wiki_timestamp: "2026-09-28T21:37:58Z"
 ---
 
 **Lua error in Module:Docbunto at line 577: attempt to concatenate local 'item\_name' (a nil value).**
@@ -254,7 +254,7 @@ buildInfobox = function(frame)
 
 	-- Old maximization deprecated since 2022 (see [[User_blog:Cephalon_Scientia/Sunsetting_of_Maximization_Calculators]])
 	-- New DSL since 2026
-	local max = Maximization.ability(name);
+	local __max_success, max = pcall(Maximization.ability, name);
 
 	local function tab(s, c)
 		return c and c ~= '' and ('|-|%s=%s  
