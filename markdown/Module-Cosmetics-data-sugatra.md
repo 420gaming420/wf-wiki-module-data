@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/sugatra"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/sugatra"
-wiki_timestamp: "2026-09-25T08:51:21Z"
+wiki_timestamp: "2026-09-29T11:01:40Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/sugatra/doc](/w/Module:Cosmetics/data/sugatra/doc?action=edit&redlink=1 "Module:Cosmetics/data/sugatra/doc (page does not exist)")*
@@ -158,6 +158,16 @@ return {
         Name = "Eminence Sugatra",
         Type = "Sugatra"
     },
+    ["Eskhatos Sugatra"] = {
+        CodexSecret = false,
+        Description = "This intricately knotted sugatra may have adorned the weapons of the Queen's Guard in a not-so-distant future.",
+        ExcludeFromCodex = true,
+        Image = "EskhatosSugatra.png",
+        InternalName = "/Lotus/Upgrades/Skins/MeleeDangles/EvilBaroSugatraMeleeDangle",
+        Link = "Eskhatos Sugatra",
+        Name = "Eskhatos Sugatra",
+        Type = "Sugatra"
+    },
     ["Immortal Breath Sugatra"] = {
         CodexSecret = false,
         Description = "Wukong Qitian’s signature sugatra bestows dignity and poise upon any weapon.",
@@ -186,6 +196,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/MeleeDangles/XBoxSugatra2MeleeDangle",
         Link = "Jade Follox Sugatra",
         Name = "Jade Follox Sugatra",
+        Type = "Sugatra"
+    },
+    ["Jack o'Naut Keychain Sugatra"] = {
+        CodexSecret = false,
+        Description = "A hallowed nightmare of a sugatra.",
+        ExcludeFromCodex = true,
+        Image = "JackO'NautKeychainSugatra.png",
+        InternalName = "/Lotus/Upgrades/Skins/MeleeDangles/PumpkinMeleeDangle",
+        Link = "Jack o'Naut Keychain Sugatra",
+        Name = "Jack o'Naut Keychain Sugatra",
         Type = "Sugatra"
     },
     ["Jade Patika Sugatra"] = {

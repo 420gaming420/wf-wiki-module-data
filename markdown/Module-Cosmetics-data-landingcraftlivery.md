@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/landingcraftlivery"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/landingcraftlivery"
-wiki_timestamp: "2026-05-06T07:22:51Z"
+wiki_timestamp: "2026-09-29T10:17:48Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/landingcraftlivery/doc](/w/Module:Cosmetics/data/landingcraftlivery/doc?action=edit&redlink=1 "Module:Cosmetics/data/landingcraftlivery/doc (page does not exist)")*
@@ -36,6 +36,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Liset/LisetSkinRelayEvent",
         Link = "Liset Athari Skin",
         Name = "Liset Athari Skin",
+        Type = "Landing Craft Livery"
+    },
+    ["Liset Calaverita Skin"] = {
+        CodexSecret = false,
+        Description = "Approaching battle becomes a pause for celebration with this festively painted Liset skin.",
+        ExcludeFromCodex = false,
+        Image = "LisetCalaveritaSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/Liset/LisetDOTDSkin",
+        Link = "Liset Calaverita Skin",
+        Name = "Liset Calaverita Skin",
         Type = "Landing Craft Livery"
     },
     ["Liset Cydonia Skin"] = {

@@ -458,7 +458,7 @@ return {
     },
     ["Citrine Heliotropia Helmet"] = {
      	Artists = { "Ventralhound" },
-     	ConsolePrice = "65",
+     	ConsolePrice = "105",
      	Image = "CitrineHeliotropiaHelmet.png",
      	Link = "Citrine Heliotropia Helmet",
      	Name = "Citrine Heliotropia Helmet",
@@ -1760,7 +1760,7 @@ return {
 	},
     ["Jade Coven Skin"] = {
      	Artists = { "blazingcobalt" },
-     	ConsolePrice = "105",
+     	ConsolePrice = "165",
      	Image = "JadeCovenSkin.png",
      	Link = "Jade Coven Skin",
      	Name = "Jade Coven Skin",

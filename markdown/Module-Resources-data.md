@@ -1,12 +1,12 @@
 ---
 title: "Module:Resources/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Resources/data"
-wiki_timestamp: "2026-09-24T15:23:32Z"
+wiki_timestamp: "2026-09-29T13:59:59Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME") [Resources](/w/Resources "Resources"), items, and components. For blueprints which require resources to be crafted, see [Module:Blueprints/data](/w/Module:Blueprints/data "Module:Blueprints/data").
 
-:   *Last updated: Thu, 24 Sep 2026 15:23:32 +0000 (UTC) by [User:Twilight053](/w/User:Twilight053 "User:Twilight053") ([change log](https://wiki.warframe.com/w/Module:Resources/data?diff=0))*
+:   *Last updated: Tue, 29 Sep 2026 13:59:59 +0000 (UTC) by [User:BlueWolf1444](/w/User:BlueWolf1444 "User:BlueWolf1444") ([change log](https://wiki.warframe.com/w/Module:Resources/data?diff=0))*
 
 ## Contents
 
@@ -12094,7 +12094,7 @@ local ResourceData = {
 		Description = "Used in the Mod Workbench to splice Riven traits into a new trait from a special pool of possibilities.",
 		Image = "RivenSplicer.png",
 		InternalName = "/Lotus/Types/Items/MiscItems/RivenSplicer",
-		Introduced = "44",
+		Introduced = "TBA",
 		Link = "Riven Splicer",
 		Name = "Riven Splicer",
 		Type = "Resource",

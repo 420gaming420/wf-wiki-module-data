@@ -99,6 +99,16 @@ return {
         Name = "Conquera II Ephemera",
         Type = "Ephemera"
     },
+    ["Conquera III Ephemera"] = {
+        CodexSecret = false,
+        Description = "Wear this streaming ephemera as a symbol of support of the Princess Margaret Cancer Foundation Quest.",
+        ExcludeFromCodex = false,
+        Image = "ConqueraIIIEphemera.png",
+        InternalName = "/Lotus/Upgrades/Skins/Effects/Conquera2026Ephemera",
+        Link = "Conquera III Ephemera",
+        Name = "Conquera III Ephemera",
+        Type = "Ephemera"
+    },
     ["Corposant Prime Ephemera"] = {
         CodexSecret = false,
         Description = "Luminous plasma leaps off surfaces in your presence.",
@@ -189,6 +199,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Effects/BaroEvilEphemera",
         Link = "Eskhatos Ki'Teer Ephemera",
         Name = "Eskhatos Ki'Teer Ephemera",
+        Type = "Ephemera"
+    },
+    ["Eskhatos Infinitas Ephemera"] = {
+        CodexSecret = false,
+        Description = "This ephemera is an endless source of sinister style.",
+        ExcludeFromCodex = true,
+        Image = "EskhatosInfinitasEphemera.png",
+        InternalName = "/Lotus/Upgrades/Skins/Effects/BaroEvilEphemeraB",
+        Link = "Eskhatos Infinitas Ephemera",
+        Name = "Eskhatos Infinitas Ephemera",
         Type = "Ephemera"
     },
     ["Fae Path Ephemera"] = {

@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:55:27.753Z"
+    "converted_at": "2026-09-30T08:12:16.675Z"
   },
   "_comments": "",
   "Janus Key Sumdali": {
@@ -27,26 +27,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": true
   },
-  "Naramon Sumdali": {
-    "Type": "Sumdali",
-    "Image": "NaramonSumdali.png",
-    "Description": "Adorn your Landing Craft with the Naramon tree.",
-    "Link": "Naramon Sumdali",
-    "Name": "Naramon Sumdali",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/NaramonHoodOrnament",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Tusker Sumdali": {
-    "Type": "Sumdali",
-    "Image": "TuskerSumdali.png",
-    "Description": "Display this stylish Lander hull ornament proudly.",
-    "Link": "Tusker Sumdali",
-    "Name": "Tusker Sumdali",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/Mustache05HoodOrnament",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Zenurik Sumdali": {
     "Type": "Sumdali",
     "Image": "ZenurikSumdali.png",
@@ -54,36 +34,6 @@
     "Link": "Zenurik Sumdali",
     "Name": "Zenurik Sumdali",
     "InternalName": "/Lotus/Upgrades/Skins/Liset/ZenurikHoodOrnament",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Unairu Sumdali": {
-    "Type": "Sumdali",
-    "Image": "UnairuSumdali.png",
-    "Description": "Adorn your Landing Craft with the Unairu mountains.",
-    "Link": "Unairu Sumdali",
-    "Name": "Unairu Sumdali",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/UnairuHoodOrnament",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Vazarin Sumdali": {
-    "Type": "Sumdali",
-    "Image": "VazarinSumdali.png",
-    "Description": "Adorn your Landing Craft with the Vazarin wave.",
-    "Link": "Vazarin Sumdali",
-    "Name": "Vazarin Sumdali",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/VazarinHoodOrnament",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "True Master Sumdali": {
-    "Type": "Sumdali",
-    "Image": "TrueMasterSumdali.png",
-    "Description": "This Sumdali hull ornament is awarded exclusively to Tenno who have earned the rank of True Master.",
-    "Link": "True Master Sumdali",
-    "Name": "True Master Sumdali",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/MasteryHoodOrnament",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -107,6 +57,76 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Archimedean Eye Sumdali": {
+    "Type": "Sumdali",
+    "Image": "ArchimedeanEyeSumdali.png",
+    "Description": "An ornament awarded only to the most dedicated of researchers. Said by some to be representative of the eye of an ancient deity, sacrificed in return for wisdom.",
+    "Link": "Archimedean Eye Sumdali",
+    "Name": "Archimedean Eye Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/ConquestHoodOrnament",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Cryobell Sumdali": {
+    "Type": "Sumdali",
+    "Image": "CryobellSumdali.png",
+    "Description": "A mysterious glacial bell, awarded to commemorate defiance in the face of adversity.",
+    "Link": "Cryobell Sumdali",
+    "Name": "Cryobell Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/CryobellHoodOrnament",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Unairu Sumdali": {
+    "Type": "Sumdali",
+    "Image": "UnairuSumdali.png",
+    "Description": "Adorn your Landing Craft with the Unairu mountains.",
+    "Link": "Unairu Sumdali",
+    "Name": "Unairu Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/UnairuHoodOrnament",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Naramon Sumdali": {
+    "Type": "Sumdali",
+    "Image": "NaramonSumdali.png",
+    "Description": "Adorn your Landing Craft with the Naramon tree.",
+    "Link": "Naramon Sumdali",
+    "Name": "Naramon Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/NaramonHoodOrnament",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vazarin Sumdali": {
+    "Type": "Sumdali",
+    "Image": "VazarinSumdali.png",
+    "Description": "Adorn your Landing Craft with the Vazarin wave.",
+    "Link": "Vazarin Sumdali",
+    "Name": "Vazarin Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/VazarinHoodOrnament",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Tusker Sumdali": {
+    "Type": "Sumdali",
+    "Image": "TuskerSumdali.png",
+    "Description": "Display this stylish Lander hull ornament proudly.",
+    "Link": "Tusker Sumdali",
+    "Name": "Tusker Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/Mustache05HoodOrnament",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "True Master Sumdali": {
+    "Type": "Sumdali",
+    "Image": "TrueMasterSumdali.png",
+    "Description": "This Sumdali hull ornament is awarded exclusively to Tenno who have earned the rank of True Master.",
+    "Link": "True Master Sumdali",
+    "Name": "True Master Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/MasteryHoodOrnament",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Mentor Ayatan Sumdali": {
     "Type": "Sumdali",
     "Image": "MentorAyatanSumdali.png",
@@ -127,15 +147,15 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Archimedean Eye Sumdali": {
+  "Chivaler Sumdali": {
     "Type": "Sumdali",
-    "Image": "ArchimedeanEyeSumdali.png",
-    "Description": "An ornament awarded only to the most dedicated of researchers. Said by some to be representative of the eye of an ancient deity, sacrificed in return for wisdom.",
-    "Link": "Archimedean Eye Sumdali",
-    "Name": "Archimedean Eye Sumdali",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/ConquestHoodOrnament",
+    "Image": "ChivalerSumdali.png",
+    "Description": "Lead the charge with this chivalrous sumdali.",
+    "Link": "Chivaler Sumdali",
+    "Name": "Chivaler Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/OrfeoHoodOrnament",
     "ExcludeFromCodex": false,
-    "CodexSecret": true
+    "CodexSecret": false
   },
   "Manus Sumdali": {
     "Type": "Sumdali",
@@ -147,14 +167,14 @@
     "ExcludeFromCodex": false,
     "CodexSecret": true
   },
-  "Chivaler Sumdali": {
+  "Khadati Sumdali": {
     "Type": "Sumdali",
-    "Image": "ChivalerSumdali.png",
-    "Description": "Lead the charge with this chivalrous sumdali.",
-    "Link": "Chivaler Sumdali",
-    "Name": "Chivaler Sumdali",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/OrfeoHoodOrnament",
+    "Image": "KhadatiSumdali.png",
+    "Description": "A broken shard of Praghasa, splintered from her body and now adorning your landing craft.",
+    "Link": "Khadati Sumdali",
+    "Name": "Khadati Sumdali",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/PraghasaHoodOrnament",
     "ExcludeFromCodex": false,
-    "CodexSecret": false
+    "CodexSecret": true
   }
 }

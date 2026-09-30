@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/syandana"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/syandana"
-wiki_timestamp: "2026-09-28T12:46:38Z"
+wiki_timestamp: "2026-09-29T10:19:46Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/syandana/doc](/w/Module:Cosmetics/data/syandana/doc?action=edit&redlink=1 "Module:Cosmetics/data/syandana/doc (page does not exist)")*
@@ -801,6 +801,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Scarves/DexScarf",
         Link = "Dex Nouchali Syandana",
         Name = "Dex Nouchali Syandana",
+        Type = "Syandana"
+    },
+    ["Dhampyre Syandana"] = {
+        CodexSecret = false,
+        Description = "Own the night with this sinister syandana.",
+        ExcludeFromCodex = false,
+        Image = "DhampyreSyandana.png",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/DraculaCapeSyandana",
+        Link = "Dhampyre Syandana",
+        Name = "Dhampyre Syandana",
         Type = "Syandana"
     },
     ["Diablillo Syandana"] = {

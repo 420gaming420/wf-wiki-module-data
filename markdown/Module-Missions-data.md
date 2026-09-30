@@ -1,7 +1,7 @@
 ---
 title: "Module:Missions/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Missions/data"
-wiki_timestamp: "2026-09-04T17:49:26Z"
+wiki_timestamp: "2026-09-29T18:35:15Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Some junctions have moved around. Reflect on node progression changes. E.g. Plut
 
 Database of [Star Chart](/w/Star_Chart "Star Chart") mission nodes.
 
-:   *Last updated: Fri, 04 Sep 2026 17:49:26 +0000 (UTC) by [User:Cephalon Scientia](/w/User:Cephalon_Scientia "User:Cephalon Scientia") ([change log](https://wiki.warframe.com/w/Module:Missions/data?diff=0))*
+:   *Last updated: Tue, 29 Sep 2026 18:35:15 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Missions/data?diff=0))*
 
 ## Contents
 
@@ -30,7 +30,8 @@ Database of [Star Chart](/w/Star_Chart "Star Chart") mission nodes.
 
 ## Mission Node Entry Schema
 
-[[edit source](/w/Module:Missions/data/doc?action=edit&section=T-1 "Edit section's source code: Mission Node Entry Schema")]
+[[edit](/w/Module:Missions/data/doc?action=edit&section=T-1 "Edit Section using Source Editor:
+Mission Node Entry Schema")]
 
 ```lua
 {
@@ -94,7 +95,8 @@ Database of [Star Chart](/w/Star_Chart "Star Chart") mission nodes.
 
 ## Mission Type Entry Schema
 
-[[edit source](/w/Module:Missions/data/doc?action=edit&section=T-2 "Edit section's source code: Mission Type Entry Schema")]
+[[edit](/w/Module:Missions/data/doc?action=edit&section=T-2 "Edit Section using Source Editor:
+Mission Type Entry Schema")]
 
 ```lua
 		Assassination = {
@@ -120,7 +122,8 @@ Database of [Star Chart](/w/Star_Chart "Star Chart") mission nodes.
 
 ## Mission Modifier Entry Schema
 
-[[edit source](/w/Module:Missions/data/doc?action=edit&section=T-3 "Edit section's source code: Mission Modifier Entry Schema")]
+[[edit](/w/Module:Missions/data/doc?action=edit&section=T-3 "Edit Section using Source Editor:
+Mission Modifier Entry Schema")]
 
 ```lua
 		["Arcana Isolation Vault Bounty"] = {
@@ -138,7 +141,8 @@ Database of [Star Chart](/w/Star_Chart "Star Chart") mission nodes.
 
 ## Different Methods Of Indexing Data
 
-[[edit source](/w/Module:Missions/data/doc?action=edit&section=T-4 "Edit section's source code: Different Methods Of Indexing Data")]
+[[edit](/w/Module:Missions/data/doc?action=edit&section=T-4 "Edit Section using Source Editor:
+Different Methods Of Indexing Data")]
 
 This module will also provide additional subtables under the `p.by` key that help developers access one or more mission nodes' data entries based on certain key-value matches:
 
@@ -163,7 +167,8 @@ MissionData.by.Name["Hydron"]
 
 ## Node Mastery EXP Research
 
-[[edit source](/w/Module:Missions/data/doc?action=edit&section=T-5 "Edit section's source code: Node Mastery EXP Research")]
+[[edit](/w/Module:Missions/data/doc?action=edit&section=T-5 "Edit Section using Source Editor:
+Node Mastery EXP Research")]
 
 Some sources for research on Mastery EXP given by each node on first completion:
 
@@ -172,23 +177,27 @@ Some sources for research on Mastery EXP given by each node on first completion:
 
 ## Data Validation
 
-[[edit source](/w/Module:Missions/data/doc?action=edit&section=T-6 "Edit section's source code: Data Validation")]
+[[edit](/w/Module:Missions/data/doc?action=edit&section=T-6 "Edit Section using Source Editor:
+Data Validation")]
 
 ### Checking for required keys
 
-[[edit source](/w/Module:Missions/data/doc?action=edit&section=T-7 "Edit section's source code: Checking for required keys")]
+[[edit](/w/Module:Missions/data/doc?action=edit&section=T-7 "Edit Section using Source Editor:
+Checking for required keys")]
 
 **Script error: No such module "Missions/data/validate".**
 
 ### Validating data types of values
 
-[[edit source](/w/Module:Missions/data/doc?action=edit&section=T-8 "Edit section's source code: Validating data types of values")]
+[[edit](/w/Module:Missions/data/doc?action=edit&section=T-8 "Edit Section using Source Editor:
+Validating data types of values")]
 
 **Script error: No such module "Missions/data/validate".**
 
 ## Mission Node Data
 
-[[edit source](/w/Module:Missions/data/doc?action=edit&section=T-9 "Edit section's source code: Mission Node Data")]
+[[edit](/w/Module:Missions/data/doc?action=edit&section=T-9 "Edit Section using Source Editor:
+Mission Node Data")]
 
 ---
 
@@ -819,6 +828,11 @@ local MissionData = {
 			Name = "Ghoul Bounty",
 			Link = "Ghoul Purge",
 			LocationNote = "*[[Plains of Eidolon]]/[[Cetus]], [[Earth]] during [[Ghoul Purge]] event"
+		},
+		["The Icebind"] = {
+			Name = "The Icebind",
+			Link = "The Icebind",
+			LocationNote = "*[[Yuvan Peak]], [[Earth]]; talk to [[Cephalon Melica]]; Must complete [[Angels in the Zariman]] quest, [[Whispers in the Walls]] quest, and unlocked [[Elite Archimedea]] to access."
 		},
 		["Granum Void"] = {
 			Name = "Granum Void",

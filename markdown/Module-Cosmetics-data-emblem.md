@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/emblem"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/emblem"
-wiki_timestamp: "2026-09-24T11:44:38Z"
+wiki_timestamp: "2026-09-29T10:49:26Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/emblem/doc](/w/Module:Cosmetics/data/emblem/doc?action=edit&redlink=1 "Module:Cosmetics/data/emblem/doc (page does not exist)")*
@@ -316,6 +316,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Clan/ZawVariantBadgeItemC",
         Link = "Erznung Emblem",
         Name = "Erznung Emblem",
+        Type = "Emblem"
+    },
+    ["Eskhatos Sekhara"] = {
+        CodexSecret = false,
+        Description = "This forbidding sekhara marks the wearer as one touched by echoes of the future.",
+        ExcludeFromCodex = true,
+        Image = "EskhatosSekhara.png",
+        InternalName = "/Lotus/Upgrades/Skins/Clan/EvilBaroHaloBadgeItem",
+        Link = "Eskhatos Sekhara",
+        Name = "Eskhatos Sekhara",
         Type = "Emblem"
     },
     ["Eyes of Blight Emblem"] = {

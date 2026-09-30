@@ -1755,6 +1755,16 @@ return {
         Name = "Eskhatos Grimoire Skin",
         Type = "Weapon Skin"
     },
+    ["Eskhatos Mausolon Skin"] = {
+        CodexSecret = false,
+        Description = "This Mausolon skin eschews Entrati's design in favor of an even more ominous one of unknown provenance.",
+        ExcludeFromCodex = false,
+        Image = "EskhatosMausolonSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/Necramech/MechWeapon/EvilBaroMausolonSkin",
+        Link = "Eskhatos Mausolon Skin",
+        Name = "Eskhatos Mausolon Skin",
+        Type = "Weapon Skin"
+    },
     ["Eukar Claw Skin"] = {
         CodexSecret = true,
         Description = "A biotic look for claw weapons.",
@@ -5979,6 +5989,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Nightwave/InfTwoHandedKatanaSkin",
         Link = "Two-Handed Nikana Maligna Skin",
         Name = "Two-Handed Nikana Maligna Skin",
+        Type = "Weapon Skin"
+    },
+    ["Vacis Amp Skin"] = {
+        CodexSecret = false,
+        Description = "A custom Operator Amp skin extensively modified by House Entrati.",
+        ExcludeFromCodex = false,
+        Image = "VacisAmpSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/Operator/Amp/EntratiAmpSkin",
+        Link = "Vacis Amp Skin",
+        Name = "Vacis Amp Skin",
         Type = "Weapon Skin"
     },
     ["Vaenn Heavy Blade Skin"] = {

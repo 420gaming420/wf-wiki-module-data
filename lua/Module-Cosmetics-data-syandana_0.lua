@@ -795,6 +795,16 @@ return {
         Name = "Dex Nouchali Syandana",
         Type = "Syandana"
     },
+    ["Dhampyre Syandana"] = {
+        CodexSecret = false,
+        Description = "Own the night with this sinister syandana.",
+        ExcludeFromCodex = false,
+        Image = "DhampyreSyandana.png",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/DraculaCapeSyandana",
+        Link = "Dhampyre Syandana",
+        Name = "Dhampyre Syandana",
+        Type = "Syandana"
+    },
     ["Diablillo Syandana"] = {
         Artists = { "Volkovyi", "SabtheRobot" },
         CodexSecret = false,

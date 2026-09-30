@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/weaponskin"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/weaponskin"
-wiki_timestamp: "2026-09-26T04:13:53Z"
+wiki_timestamp: "2026-09-29T11:12:30Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/weaponskin/doc](/w/Module:Cosmetics/data/weaponskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/weaponskin/doc (page does not exist)")*
@@ -1761,6 +1761,16 @@ return {
         Introduced = "40.0.4",
         Link = "Eskhatos Grimoire Skin",
         Name = "Eskhatos Grimoire Skin",
+        Type = "Weapon Skin"
+    },
+    ["Eskhatos Mausolon Skin"] = {
+        CodexSecret = false,
+        Description = "This Mausolon skin eschews Entrati's design in favor of an even more ominous one of unknown provenance.",
+        ExcludeFromCodex = false,
+        Image = "EskhatosMausolonSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/Necramech/MechWeapon/EvilBaroMausolonSkin",
+        Link = "Eskhatos Mausolon Skin",
+        Name = "Eskhatos Mausolon Skin",
         Type = "Weapon Skin"
     },
     ["Eukar Claw Skin"] = {
@@ -5987,6 +5997,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Nightwave/InfTwoHandedKatanaSkin",
         Link = "Two-Handed Nikana Maligna Skin",
         Name = "Two-Handed Nikana Maligna Skin",
+        Type = "Weapon Skin"
+    },
+    ["Vacis Amp Skin"] = {
+        CodexSecret = false,
+        Description = "A custom Operator Amp skin extensively modified by House Entrati.",
+        ExcludeFromCodex = false,
+        Image = "VacisAmpSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/Operator/Amp/EntratiAmpSkin",
+        Link = "Vacis Amp Skin",
+        Name = "Vacis Amp Skin",
         Type = "Weapon Skin"
     },
     ["Vaenn Heavy Blade Skin"] = {

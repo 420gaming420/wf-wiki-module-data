@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-29T08:05:12.736Z"
+    "converted_at": "2026-09-30T08:12:19.321Z"
   },
   "_comments": "",
   "TennoCon 2020 Syandana": {
@@ -172,6 +172,16 @@
     "Link": "Triodic Syandana",
     "Name": "Triodic Syandana",
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/TnGyreCape",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Dhampyre Syandana": {
+    "Type": "Syandana",
+    "Image": "DhampyreSyandana.png",
+    "Description": "Own the night with this sinister syandana.",
+    "Link": "Dhampyre Syandana",
+    "Name": "Dhampyre Syandana",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/DraculaCapeSyandana",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },

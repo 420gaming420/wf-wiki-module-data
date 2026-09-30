@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:54:55.340Z"
+    "converted_at": "2026-09-30T08:12:06.082Z"
   },
   "_comments": "",
   "Scimitar Magus Skin": {
@@ -37,6 +37,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Scimitar Prisma Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "ScimitarPrismaSkin.png",
+    "Description": "A unique skin for the Scimitar landing craft.",
+    "Link": "Scimitar Prisma Skin",
+    "Name": "Scimitar Prisma Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetBlueSkySkinPrimeTrader",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Charger Liset Skin": {
     "Type": "Landing Craft Livery",
     "Image": "ChargerLisetSkin.png",
@@ -57,16 +67,6 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Scimitar Skin": {
-    "Type": "Landing Craft Livery",
-    "Image": "Scimitar.png",
-    "Description": "This blade-like landing craft is armed with Carpet Bomb air-support.",
-    "Link": "Scimitar Skin",
-    "Name": "Scimitar Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetBlueSkyDefault",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
   "Xiphos Prisma Skin": {
     "Type": "Landing Craft Livery",
     "Image": "XiphosPrismaSkin.png",
@@ -75,6 +75,16 @@
     "Name": "Xiphos Prisma Skin",
     "InternalName": "/Lotus/Upgrades/Skins/Liset/Gyroscope/LisetGyroscopeSkinPrimeTrader",
     "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Xiphos Lilieae Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "XiphosLilieaeSkin.png",
+    "Description": "A unique Xiphos skin, designed by MaceMadunusus.",
+    "Link": "Xiphos Lilieae Skin",
+    "Name": "Xiphos Lilieae Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/Gyroscope/SWXiphosLilieaeSkin",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Liset Skin": {
@@ -107,13 +117,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Parallax Dorsat Skin": {
+  "Xiphos Kuva Skin": {
     "Type": "Landing Craft Livery",
-    "Image": "ParallaxDorsatSkin.png",
-    "Description": "The Parallax would have been adorned with the Dorsat skin when its passengers left the Zariman to study Tau regions with rocky or barren terrain.",
-    "Link": "Parallax Dorsat Skin",
-    "Name": "Parallax Dorsat Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/ZarimanShip/LisetZarimanShipSkinA",
+    "Image": "XiphosKuvaSkin.png",
+    "Description": "A Kuva themed skin for your landing craft",
+    "Link": "Xiphos Kuva Skin",
+    "Name": "Xiphos Kuva Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/Gyroscope/LisetGyroscopeGrineerQueens",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -127,14 +137,14 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Xiphos Kuva Skin": {
+  "Spektaka Liset Skin": {
     "Type": "Landing Craft Livery",
-    "Image": "XiphosKuvaSkin.png",
-    "Description": "A Kuva themed skin for your landing craft",
-    "Link": "Xiphos Kuva Skin",
-    "Name": "Xiphos Kuva Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/Gyroscope/LisetGyroscopeGrineerQueens",
-    "ExcludeFromCodex": false,
+    "Image": "SpektakaLisetSkin.png",
+    "Description": "Blast through the Origin System with this alluring Liset skin.",
+    "Link": "Spektaka Liset Skin",
+    "Name": "Spektaka Liset Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinTwitchPrime",
+    "ExcludeFromCodex": true,
     "CodexSecret": false
   },
   "Arclite Landing Craft Skin": {
@@ -157,14 +167,14 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Terror Landing Craft Skin": {
+  "Xiphos Henipa Skin": {
     "Type": "Landing Craft Livery",
-    "Image": "TerrorLandingCraftSkin.png",
-    "Description": "Transform your Landing Craft into a perfect match for Stalker’s.",
-    "Link": "Terror Landing Craft Skin",
-    "Name": "Terror Landing Craft Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/StalkerShipDeluxeSkin",
-    "ExcludeFromCodex": false,
+    "Image": "XiphosHenipaSkin.png",
+    "Description": "A unique skin for the Xiphos landing craft.",
+    "Link": "Xiphos Henipa Skin",
+    "Name": "Xiphos Henipa Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/Gyroscope/LisetGyroscopeSkinNekrognos",
+    "ExcludeFromCodex": true,
     "CodexSecret": false
   },
   "Liset Obsidian Skin": {
@@ -187,14 +197,14 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Xiphos Henipa Skin": {
+  "Terror Landing Craft Skin": {
     "Type": "Landing Craft Livery",
-    "Image": "XiphosHenipaSkin.png",
-    "Description": "A unique skin for the Xiphos landing craft.",
-    "Link": "Xiphos Henipa Skin",
-    "Name": "Xiphos Henipa Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/Gyroscope/LisetGyroscopeSkinNekrognos",
-    "ExcludeFromCodex": true,
+    "Image": "TerrorLandingCraftSkin.png",
+    "Description": "Transform your Landing Craft into a perfect match for Stalker’s.",
+    "Link": "Terror Landing Craft Skin",
+    "Name": "Terror Landing Craft Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/StalkerShipDeluxeSkin",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Xiphos Ifrit Skin": {
@@ -207,16 +217,6 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Spektaka Liset Skin": {
-    "Type": "Landing Craft Livery",
-    "Image": "SpektakaLisetSkin.png",
-    "Description": "Blast through the Origin System with this alluring Liset skin.",
-    "Link": "Spektaka Liset Skin",
-    "Name": "Spektaka Liset Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinTwitchPrime",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
   "Skaut Skin": {
     "Type": "Landing Craft Livery",
     "Image": "Skaut.png",
@@ -224,6 +224,16 @@
     "Link": "Skaut Skin",
     "Name": "Skaut Skin",
     "InternalName": "/Lotus/Upgrades/Skins/Liset/GrineerShip/LisetGrineerShipDefault",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Scimitar Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "Scimitar.png",
+    "Description": "This blade-like landing craft is armed with Carpet Bomb air-support.",
+    "Link": "Scimitar Skin",
+    "Name": "Scimitar Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetBlueSkyDefault",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
@@ -277,23 +287,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Scimitar Prisma Skin": {
+  "Parallax Dorsat Skin": {
     "Type": "Landing Craft Livery",
-    "Image": "ScimitarPrismaSkin.png",
-    "Description": "A unique skin for the Scimitar landing craft.",
-    "Link": "Scimitar Prisma Skin",
-    "Name": "Scimitar Prisma Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetBlueSkySkinPrimeTrader",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Parallax Fremutar Skin": {
-    "Type": "Landing Craft Livery",
-    "Image": "ParallaxFremutarSkin.png",
-    "Description": "The Parallax would have been adorned with the Fremutar skin when its passengers left the Zariman to study Tau regions with water and other resources that support life.",
-    "Link": "Parallax Fremutar Skin",
-    "Name": "Parallax Fremutar Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/ZarimanShip/LisetZarimanShipSkinC",
+    "Image": "ParallaxDorsatSkin.png",
+    "Description": "The Parallax would have been adorned with the Dorsat skin when its passengers left the Zariman to study Tau regions with rocky or barren terrain.",
+    "Link": "Parallax Dorsat Skin",
+    "Name": "Parallax Dorsat Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/ZarimanShip/LisetZarimanShipSkinA",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -317,6 +317,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Parallax Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "Parallax.png",
+    "Description": "The Parallax was designed for Zariman interplanetary research. It can deploy the advanced Orokin Eye air support, which would have allowed colonizers to study areas rich in rare resources before landing.",
+    "Link": "Parallax Skin",
+    "Name": "Parallax Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/ZarimanShip/LisetZarimanShipDefault",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
   "Liset Kuva Skin": {
     "Type": "Landing Craft Livery",
     "Image": "LisetKuvaSkin.png",
@@ -327,14 +337,14 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Parallax Skin": {
+  "Parallax Mesaen Skin": {
     "Type": "Landing Craft Livery",
-    "Image": "Parallax.png",
-    "Description": "The Parallax was designed for Zariman interplanetary research. It can deploy the advanced Orokin Eye air support, which would have allowed colonizers to study areas rich in rare resources before landing.",
-    "Link": "Parallax Skin",
-    "Name": "Parallax Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/ZarimanShip/LisetZarimanShipDefault",
-    "ExcludeFromCodex": true,
+    "Image": "ParallaxMesaenSkin.png",
+    "Description": "The Parallax would have been adorned with the Mesaen skin when its passengers left the Zariman to study hot and volcanic regions of Tau.",
+    "Link": "Parallax Mesaen Skin",
+    "Name": "Parallax Mesaen Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/ZarimanShip/LisetZarimanShipSkinB",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Mantis Gloam Skin": {
@@ -347,13 +357,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Parallax Mesaen Skin": {
+  "Parallax Fremutar Skin": {
     "Type": "Landing Craft Livery",
-    "Image": "ParallaxMesaenSkin.png",
-    "Description": "The Parallax would have been adorned with the Mesaen skin when its passengers left the Zariman to study hot and volcanic regions of Tau.",
-    "Link": "Parallax Mesaen Skin",
-    "Name": "Parallax Mesaen Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/ZarimanShip/LisetZarimanShipSkinB",
+    "Image": "ParallaxFremutarSkin.png",
+    "Description": "The Parallax would have been adorned with the Fremutar skin when its passengers left the Zariman to study Tau regions with water and other resources that support life.",
+    "Link": "Parallax Fremutar Skin",
+    "Name": "Parallax Fremutar Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/ZarimanShip/LisetZarimanShipSkinC",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -417,13 +427,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Xiphos Lilieae Skin": {
+  "Liset Calaverita Skin": {
     "Type": "Landing Craft Livery",
-    "Image": "XiphosLilieaeSkin.png",
-    "Description": "A unique Xiphos skin, designed by MaceMadunusus.",
-    "Link": "Xiphos Lilieae Skin",
-    "Name": "Xiphos Lilieae Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/Gyroscope/SWXiphosLilieaeSkin",
+    "Image": "LisetCalaveritaSkin.png",
+    "Description": "Approaching battle becomes a pause for celebration with this festively painted Liset skin.",
+    "Link": "Liset Calaverita Skin",
+    "Name": "Liset Calaverita Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetDOTDSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },

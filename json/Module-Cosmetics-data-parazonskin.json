@@ -4,9 +4,19 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:55:06.138Z"
+    "converted_at": "2026-09-30T08:12:11.370Z"
   },
   "_comments": "",
+  "Eskhatos Parazon Skin": {
+    "Type": "Parazon Skin",
+    "Image": "EskhatosParazonSkin.png",
+    "Description": "This nefarious parazon model bears the marks of battle, Void travel, or both.",
+    "Link": "Eskhatos Parazon Skin",
+    "Name": "Eskhatos Parazon Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Parazon/EvilBaroParazonSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Phelonyx Parazon Skin": {
     "Type": "Parazon Skin",
     "Image": "PhelonyxParazonSkin.png",

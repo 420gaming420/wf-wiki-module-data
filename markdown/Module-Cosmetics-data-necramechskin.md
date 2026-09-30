@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/necramechskin"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/necramechskin"
-wiki_timestamp: "2026-09-10T17:16:23Z"
+wiki_timestamp: "2026-09-29T10:55:29Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/necramechskin/doc](/w/Module:Cosmetics/data/necramechskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/necramechskin/doc (page does not exist)")*
@@ -76,6 +76,26 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Necramech/VoidrigDOTDSkin",
         Link = "Day of the Dead Necramech Skin",
         Name = "Day of the Dead Necramech Skin",
+        Type = "Necramech Skin"
+    },
+    ["Eskhatos Necramech Helmet"] = {
+        CodexSecret = false,
+        Description = "This Necramech helmet is derived from models that fought amongst dying stars.",
+        ExcludeFromCodex = false,
+        Image = "EskhatosNecramechHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Necramech/EvilBaroNecramechHelmet",
+        Link = "Eskhatos Necramech Helmet",
+        Name = "Eskhatos Necramech Helmet",
+        Type = "Necramech Skin"
+    },
+    ["Eskhatos Necramech Skin"] = {
+        CodexSecret = false,
+        Description = "This Necramech skin is derived from models that fought amongst dying stars.",
+        ExcludeFromCodex = false,
+        Image = "EskhatosNecramechSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/Necramech/EvilBaroNecramechSkin",
+        Link = "Eskhatos Necramech Skin",
+        Name = "Eskhatos Necramech Skin",
         Type = "Necramech Skin"
     },
     ["Iridos Voidrig Necramech Helmet"] = {

@@ -29,6 +29,16 @@ return {
         Name = "Chivaler Sumdali",
         Type = "Sumdali"
     },
+    ["Cryobell Sumdali"] = {
+        CodexSecret = false,
+        Description = "A mysterious glacial bell, awarded to commemorate defiance in the face of adversity.",
+        ExcludeFromCodex = false,
+        Image = "CryobellSumdali.png",
+        InternalName = "/Lotus/Upgrades/Skins/Liset/CryobellHoodOrnament",
+        Link = "Cryobell Sumdali",
+        Name = "Cryobell Sumdali",
+        Type = "Sumdali"
+    },
     ["H-09 Apex Turret Sumdali"] = {
         CodexSecret = true,
         Description = "The smoldering turret of an H-09 Apex Scaldra tank shall adorn your Landing Craft.",
@@ -47,6 +57,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Liset/VoidKeyHoodOrnament",
         Link = "Janus Key Sumdali",
         Name = "Janus Key Sumdali",
+        Type = "Sumdali"
+    },
+    ["Khadati Sumdali"] = {
+        CodexSecret = true,
+        Description = "A broken shard of Praghasa, splintered from her body and now adorning your landing craft.",
+        ExcludeFromCodex = false,
+        Image = "KhadatiSumdali.png",
+        InternalName = "/Lotus/Upgrades/Skins/Liset/PraghasaHoodOrnament",
+        Link = "Khadati Sumdali",
+        Name = "Khadati Sumdali",
         Type = "Sumdali"
     },
     ["Madurai Sumdali"] = {

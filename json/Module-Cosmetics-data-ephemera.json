@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-26T07:16:27.327Z"
+    "converted_at": "2026-09-30T08:12:03.433Z"
   },
   "_comments": "",
   "Eskhatos Ki'Teer Ephemera": {
@@ -298,6 +298,16 @@
     "InternalName": "/Lotus/Upgrades/Skins/Effects/InfestedLichEphemeraD",
     "CodexSecret": false
   },
+  "Sanguinax Prime Ephemera": {
+    "Type": "Ephemera",
+    "Image": "SanguinaxPrimeEphemera.png",
+    "Description": "Spread Garuda Prime's wings of slaughter with this flowing Ephemera.",
+    "Link": "Sanguinax Prime Ephemera",
+    "Name": "Sanguinax Prime Ephemera",
+    "InternalName": "/Lotus/Upgrades/Skins/Effects/GarudaPrimeEphemera",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Oni Prime Ephemera": {
     "Type": "Ephemera",
     "Image": "OniPrimeEphemera.png",
@@ -306,6 +316,17 @@
     "Name": "Oni Prime Ephemera",
     "InternalName": "/Lotus/Upgrades/Skins/Effects/GrendelPrimeEphemera",
     "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Zarina Ephemera": {
+    "Type": "Ephemera",
+    "Description": "A blazingly regal Ephemera seized from a converted or vanquished Sister of Parvos.",
+    "Link": "Zarina Ephemera",
+    "ExcludeFromCodex": false,
+    "Image": "ZarinaEphemera.png",
+    "Name": "Zarina Ephemera",
+    "Introduced": "30",
+    "InternalName": "/Lotus/Upgrades/Skins/Effects/CorpusLichEphemeraB",
     "CodexSecret": false
   },
   "Malaen Ephemera": {
@@ -328,13 +349,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Sanguinax Prime Ephemera": {
+  "Xianglong Ephemera": {
     "Type": "Ephemera",
-    "Image": "SanguinaxPrimeEphemera.png",
-    "Description": "Spread Garuda Prime's wings of slaughter with this flowing Ephemera.",
-    "Link": "Sanguinax Prime Ephemera",
-    "Name": "Sanguinax Prime Ephemera",
-    "InternalName": "/Lotus/Upgrades/Skins/Effects/GarudaPrimeEphemera",
+    "Image": "XianglongEphemera.png",
+    "Description": "A dragon’s spirit graces your path.",
+    "Link": "Xianglong Ephemera",
+    "Name": "Xianglong Ephemera",
+    "InternalName": "/Lotus/Upgrades/Skins/Effects/LNYDragonEphemera",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -348,15 +369,14 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Zarina Ephemera": {
+  "Wirematrix Ephemera": {
     "Type": "Ephemera",
-    "Description": "A blazingly regal Ephemera seized from a converted or vanquished Sister of Parvos.",
-    "Link": "Zarina Ephemera",
+    "Image": "WirematrixEphemera.png",
+    "Description": "Embrace the look of 1999’s most cutting edge video game technology with this wireframe themed ephemera.",
+    "Link": "Wirematrix Ephemera",
+    "Name": "Wirematrix Ephemera",
+    "InternalName": "/Lotus/Upgrades/Skins/Effects/NightwaveDigitalEphemera",
     "ExcludeFromCodex": false,
-    "Image": "ZarinaEphemera.png",
-    "Name": "Zarina Ephemera",
-    "Introduced": "30",
-    "InternalName": "/Lotus/Upgrades/Skins/Effects/CorpusLichEphemeraB",
     "CodexSecret": false
   },
   "Dog Days Ephemera": {
@@ -379,36 +399,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Xianglong Ephemera": {
-    "Type": "Ephemera",
-    "Image": "XianglongEphemera.png",
-    "Description": "A dragon’s spirit graces your path.",
-    "Link": "Xianglong Ephemera",
-    "Name": "Xianglong Ephemera",
-    "InternalName": "/Lotus/Upgrades/Skins/Effects/LNYDragonEphemera",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Wirematrix Ephemera": {
-    "Type": "Ephemera",
-    "Image": "WirematrixEphemera.png",
-    "Description": "Embrace the look of 1999’s most cutting edge video game technology with this wireframe themed ephemera.",
-    "Link": "Wirematrix Ephemera",
-    "Name": "Wirematrix Ephemera",
-    "InternalName": "/Lotus/Upgrades/Skins/Effects/NightwaveDigitalEphemera",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Sands Of Mars Ephemera": {
-    "Type": "Ephemera",
-    "Image": "SandsOfMarsEphemera.png",
-    "Description": "Let the familiar sands of Mars accompany you.",
-    "Link": "Sands Of Mars Ephemera",
-    "Name": "Sands Of Mars Ephemera",
-    "InternalName": "/Lotus/Upgrades/Skins/Effects/SandmanEphemera",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Viserakta Ephemera": {
     "Type": "Ephemera",
     "Description": "Bathe in the life essence of your enemies.",
@@ -418,26 +408,6 @@
     "Name": "Viserakta Ephemera",
     "Introduced": "43",
     "InternalName": "/Lotus/Upgrades/Skins/Effects/GarudaBloodEphemera",
-    "CodexSecret": false
-  },
-  "Fraktur Ephemera": {
-    "Type": "Ephemera",
-    "Image": "FrakturEphemera.png",
-    "Description": "The ground trembles to herald your arrival. Grendel Turbis' signature ephemera.",
-    "Link": "Fraktur Ephemera",
-    "Name": "Fraktur Ephemera",
-    "InternalName": "/Lotus/Upgrades/Skins/Effects/GrendelDeluxeIIFootstepsEphemera",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Smoking Body Ephemera": {
-    "Type": "Ephemera",
-    "Image": "SmokeEphemera.png",
-    "Description": "A hazy smoke trail emanates from your Warframe.",
-    "Link": "Smoking Body Ephemera",
-    "Name": "Smoking Body Ephemera",
-    "InternalName": "/Lotus/Upgrades/Skins/Effects/AvatarSmokeA",
-    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Verv Ephemera": {
@@ -450,14 +420,14 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Lotus Ephemera": {
+  "Sands Of Mars Ephemera": {
     "Type": "Ephemera",
-    "Image": "LotusEphemera.png",
-    "Description": "Your Warframe leaves a trail of fragrant petals in its wake.",
-    "Link": "Lotus Ephemera",
-    "Name": "Lotus Ephemera",
-    "InternalName": "/Lotus/Upgrades/Skins/Effects/LotusFlowers",
-    "ExcludeFromCodex": true,
+    "Image": "SandsOfMarsEphemera.png",
+    "Description": "Let the familiar sands of Mars accompany you.",
+    "Link": "Sands Of Mars Ephemera",
+    "Name": "Sands Of Mars Ephemera",
+    "InternalName": "/Lotus/Upgrades/Skins/Effects/SandmanEphemera",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Vengeful Trickster Ephemera": {
@@ -471,6 +441,26 @@
     "InternalName": "/Lotus/Upgrades/Skins/Effects/Kuva/KuvaTricksterEphemera",
     "CodexSecret": false
   },
+  "Fraktur Ephemera": {
+    "Type": "Ephemera",
+    "Image": "FrakturEphemera.png",
+    "Description": "The ground trembles to herald your arrival. Grendel Turbis' signature ephemera.",
+    "Link": "Fraktur Ephemera",
+    "Name": "Fraktur Ephemera",
+    "InternalName": "/Lotus/Upgrades/Skins/Effects/GrendelDeluxeIIFootstepsEphemera",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Conquera III Ephemera": {
+    "Type": "Ephemera",
+    "Image": "ConqueraIIIEphemera.png",
+    "Description": "Wear this streaming ephemera as a symbol of support of the Princess Margaret Cancer Foundation Quest.",
+    "Link": "Conquera III Ephemera",
+    "Name": "Conquera III Ephemera",
+    "InternalName": "/Lotus/Upgrades/Skins/Effects/Conquera2026Ephemera",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Fog Of War Ephemera": {
     "Type": "Ephemera",
     "Image": "FogOfWarEphemera.png",
@@ -478,6 +468,37 @@
     "Link": "Fog Of War Ephemera",
     "Name": "Fog Of War Ephemera",
     "InternalName": "/Lotus/Upgrades/Skins/Effects/SmokeEphemera",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Lotus Ephemera": {
+    "Type": "Ephemera",
+    "Image": "LotusEphemera.png",
+    "Description": "Your Warframe leaves a trail of fragrant petals in its wake.",
+    "Link": "Lotus Ephemera",
+    "Name": "Lotus Ephemera",
+    "InternalName": "/Lotus/Upgrades/Skins/Effects/LotusFlowers",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Vengeful Pull Ephemera": {
+    "Type": "Ephemera",
+    "Description": "A magnetic ephemera seized from a converted or vanquished Kuva Lich.",
+    "Link": "Vengeful Pull Ephemera",
+    "ExcludeFromCodex": false,
+    "Image": "VengefulPullEphemera.png",
+    "Name": "Vengeful Pull Ephemera",
+    "Introduced": "26",
+    "InternalName": "/Lotus/Upgrades/Skins/Effects/Kuva/KuvaMagneticEphemera",
+    "CodexSecret": false
+  },
+  "Catena Prime Ephemera": {
+    "Type": "Ephemera",
+    "Image": "CatenaPrimeEphemera.png",
+    "Description": "Levitating crystals weave a web of luminous connections. Gara Prime’s signature ephemera.",
+    "Link": "Catena Prime Ephemera",
+    "Name": "Catena Prime Ephemera",
+    "InternalName": "/Lotus/Upgrades/Skins/Effects/EphemeraGaraPrime",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -502,15 +523,15 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Vengeful Pull Ephemera": {
+  "Vengeful Charge Ephemera": {
     "Type": "Ephemera",
-    "Description": "A magnetic ephemera seized from a converted or vanquished Kuva Lich.",
-    "Link": "Vengeful Pull Ephemera",
+    "Description": "A shocking ephemera seized from a converted or vanquished Kuva Lich.",
+    "Link": "Vengeful Charge Ephemera",
     "ExcludeFromCodex": false,
-    "Image": "VengefulPullEphemera.png",
-    "Name": "Vengeful Pull Ephemera",
+    "Image": "VengefulChargeEphemera.png",
+    "Name": "Vengeful Charge Ephemera",
     "Introduced": "26",
-    "InternalName": "/Lotus/Upgrades/Skins/Effects/Kuva/KuvaMagneticEphemera",
+    "InternalName": "/Lotus/Upgrades/Skins/Effects/Kuva/KuvaLightningEphemera",
     "CodexSecret": false
   },
   "Hunhullus Ephemera": {
@@ -545,13 +566,13 @@
     "InternalName": "/Lotus/Upgrades/Skins/Effects/InfestedLichEphemeraG",
     "CodexSecret": false
   },
-  "Catena Prime Ephemera": {
+  "Vaaditum Prime Ephemera": {
     "Type": "Ephemera",
-    "Image": "CatenaPrimeEphemera.png",
-    "Description": "Levitating crystals weave a web of luminous connections. Gara Prime’s signature ephemera.",
-    "Link": "Catena Prime Ephemera",
-    "Name": "Catena Prime Ephemera",
-    "InternalName": "/Lotus/Upgrades/Skins/Effects/EphemeraGaraPrime",
+    "Image": "VaaditumPrimeEphemera.png",
+    "Description": "Honor your serenity and that of others as you display Baruuk's symbol. In relays, temporarily bestow the Vaaditum Prime Ephemera upon others.",
+    "Link": "Vaaditum Prime Ephemera",
+    "Name": "Vaaditum Prime Ephemera",
+    "InternalName": "/Lotus/Upgrades/Skins/Effects/BaruukPrimeEphemera",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -575,25 +596,14 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Vengeful Charge Ephemera": {
+  "Eskhatos Infinitas Ephemera": {
     "Type": "Ephemera",
-    "Description": "A shocking ephemera seized from a converted or vanquished Kuva Lich.",
-    "Link": "Vengeful Charge Ephemera",
-    "ExcludeFromCodex": false,
-    "Image": "VengefulChargeEphemera.png",
-    "Name": "Vengeful Charge Ephemera",
-    "Introduced": "26",
-    "InternalName": "/Lotus/Upgrades/Skins/Effects/Kuva/KuvaLightningEphemera",
-    "CodexSecret": false
-  },
-  "Vaaditum Prime Ephemera": {
-    "Type": "Ephemera",
-    "Image": "VaaditumPrimeEphemera.png",
-    "Description": "Honor your serenity and that of others as you display Baruuk's symbol. In relays, temporarily bestow the Vaaditum Prime Ephemera upon others.",
-    "Link": "Vaaditum Prime Ephemera",
-    "Name": "Vaaditum Prime Ephemera",
-    "InternalName": "/Lotus/Upgrades/Skins/Effects/BaruukPrimeEphemera",
-    "ExcludeFromCodex": false,
+    "Image": "EskhatosInfinitasEphemera.png",
+    "Description": "This ephemera is an endless source of sinister style.",
+    "Link": "Eskhatos Infinitas Ephemera",
+    "Name": "Eskhatos Infinitas Ephemera",
+    "InternalName": "/Lotus/Upgrades/Skins/Effects/BaroEvilEphemeraB",
+    "ExcludeFromCodex": true,
     "CodexSecret": false
   },
   "Trio Orbit Ephemera": {
@@ -606,16 +616,6 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Eidolon Ephemera": {
-    "Type": "Ephemera",
-    "Image": "EidolonEphemera.png",
-    "Description": "Move as the Eidolons and burn the ground coldly with footsteps of shimmering Void energy.",
-    "Link": "Eidolon Ephemera",
-    "Name": "Eidolon Ephemera",
-    "InternalName": "/Lotus/Upgrades/Skins/Effects/FootstepsEidolon",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Thalassa Prime Ephemera": {
     "Type": "Ephemera",
     "Image": "ThalassaPrimeEphemera.png",
@@ -623,6 +623,16 @@
     "Link": "Thalassa Prime Ephemera",
     "Name": "Thalassa Prime Ephemera",
     "InternalName": "/Lotus/Upgrades/Skins/Effects/YareliPrimeEphemera",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Eidolon Ephemera": {
+    "Type": "Ephemera",
+    "Image": "EidolonEphemera.png",
+    "Description": "Move as the Eidolons and burn the ground coldly with footsteps of shimmering Void energy.",
+    "Link": "Eidolon Ephemera",
+    "Name": "Eidolon Ephemera",
+    "InternalName": "/Lotus/Upgrades/Skins/Effects/FootstepsEidolon",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -656,16 +666,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Lohk's Embrace Ephemera": {
-    "Type": "Ephemera",
-    "Image": "Lohk'sEmbraceEphemera.png",
-    "Description": "Feel the whisper of the Void.",
-    "Link": "Lohk's Embrace Ephemera",
-    "Name": "Lohk's Embrace Ephemera",
-    "InternalName": "/Lotus/Upgrades/Skins/Effects/XakuDeluxeEphemera",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Syndir Ephemera": {
     "Type": "Ephemera",
     "Description": "Obscure the identity of the killer within with this translucent ephemera. The mark of a Scoria assassin.",
@@ -675,6 +675,16 @@
     "Name": "Syndir Ephemera",
     "Introduced": "43",
     "InternalName": "/Lotus/Upgrades/Skins/Effects/AshGeminiEphemera",
+    "CodexSecret": false
+  },
+  "Lohk's Embrace Ephemera": {
+    "Type": "Ephemera",
+    "Image": "Lohk'sEmbraceEphemera.png",
+    "Description": "Feel the whisper of the Void.",
+    "Link": "Lohk's Embrace Ephemera",
+    "Name": "Lohk's Embrace Ephemera",
+    "InternalName": "/Lotus/Upgrades/Skins/Effects/XakuDeluxeEphemera",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Sybillina Ephemera": {
@@ -688,16 +698,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Effects/CorpusLichEphemeraA",
     "CodexSecret": false
   },
-  "Spring Step Ephemera": {
-    "Type": "Ephemera",
-    "Image": "SpringStepEphemera.png",
-    "Description": "Mark the path to a new season with a trail of decorative eggs - only for a limited time!",
-    "Link": "Spring Step Ephemera",
-    "Name": "Spring Step Ephemera",
-    "InternalName": "/Lotus/Upgrades/Skins/Effects/FootstepsEasterEggs",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Didyma Ephemera": {
     "Type": "Ephemera",
     "Description": "Leave lingering sparks in the hearts of all you encounter with Citrine Aphrodita's signature ephemera.",
@@ -707,6 +707,16 @@
     "Name": "Didyma Ephemera",
     "Introduced": "39",
     "InternalName": "/Lotus/Upgrades/Skins/Effects/CitrineDeluxeEphemera",
+    "CodexSecret": false
+  },
+  "Spring Step Ephemera": {
+    "Type": "Ephemera",
+    "Image": "SpringStepEphemera.png",
+    "Description": "Mark the path to a new season with a trail of decorative eggs - only for a limited time!",
+    "Link": "Spring Step Ephemera",
+    "Name": "Spring Step Ephemera",
+    "InternalName": "/Lotus/Upgrades/Skins/Effects/FootstepsEasterEggs",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Hypatia Ephemera": {
@@ -727,6 +737,16 @@
     "Link": "Spinneret Ephemera",
     "Name": "Spinneret Ephemera",
     "InternalName": "/Lotus/Upgrades/Skins/Effects/WebEphemera",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Soaker Ephemera": {
+    "Type": "Ephemera",
+    "Image": "SoakerEphemera.png",
+    "Description": "Jump in, the water’s fine.",
+    "Link": "Soaker Ephemera",
+    "Name": "Soaker Ephemera",
+    "InternalName": "/Lotus/Upgrades/Skins/Effects/HydroidDeluxeEphemera",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -802,13 +822,13 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Soaker Ephemera": {
+  "Smoking Body Ephemera": {
     "Type": "Ephemera",
-    "Image": "SoakerEphemera.png",
-    "Description": "Jump in, the water’s fine.",
-    "Link": "Soaker Ephemera",
-    "Name": "Soaker Ephemera",
-    "InternalName": "/Lotus/Upgrades/Skins/Effects/HydroidDeluxeEphemera",
+    "Image": "SmokeEphemera.png",
+    "Description": "A hazy smoke trail emanates from your Warframe.",
+    "Link": "Smoking Body Ephemera",
+    "Name": "Smoking Body Ephemera",
+    "InternalName": "/Lotus/Upgrades/Skins/Effects/AvatarSmokeA",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },

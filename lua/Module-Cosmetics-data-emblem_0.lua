@@ -309,6 +309,16 @@ return {
         Name = "Erznung Emblem",
         Type = "Emblem"
     },
+    ["Eskhatos Sekhara"] = {
+        CodexSecret = false,
+        Description = "This forbidding sekhara marks the wearer as one touched by echoes of the future.",
+        ExcludeFromCodex = true,
+        Image = "EskhatosSekhara.png",
+        InternalName = "/Lotus/Upgrades/Skins/Clan/EvilBaroHaloBadgeItem",
+        Link = "Eskhatos Sekhara",
+        Name = "Eskhatos Sekhara",
+        Type = "Emblem"
+    },
     ["Eyes of Blight Emblem"] = {
         CodexSecret = false,
         Description = "An insignia awarded to the Tenno Elite who proved themselves during Operation Eyes of Blight.",

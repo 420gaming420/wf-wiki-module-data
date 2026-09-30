@@ -1,4 +1,14 @@
 return {
+	["Eskhatos Parazon Skin"] = {
+        CodexSecret = false,
+        Description = "This nefarious parazon model bears the marks of battle, Void travel, or both.",
+        ExcludeFromCodex = false,
+        Image = "EskhatosParazonSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/Parazon/EvilBaroParazonSkin",
+        Link = "Eskhatos Parazon Skin",
+        Name = "Eskhatos Parazon Skin",
+        Type = "Parazon Skin"
+    },
     ["Phelonyx Parazon Skin"] = {
         CodexSecret = false,
         Description = "The parazon, reimagined as a dagger of the Duviri Dax by the surreal creative power of the land itself.",

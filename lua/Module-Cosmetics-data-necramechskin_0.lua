@@ -69,6 +69,26 @@ return {
         Name = "Day of the Dead Necramech Skin",
         Type = "Necramech Skin"
     },
+    ["Eskhatos Necramech Helmet"] = {
+        CodexSecret = false,
+        Description = "This Necramech helmet is derived from models that fought amongst dying stars.",
+        ExcludeFromCodex = false,
+        Image = "EskhatosNecramechHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Necramech/EvilBaroNecramechHelmet",
+        Link = "Eskhatos Necramech Helmet",
+        Name = "Eskhatos Necramech Helmet",
+        Type = "Necramech Skin"
+    },
+    ["Eskhatos Necramech Skin"] = {
+        CodexSecret = false,
+        Description = "This Necramech skin is derived from models that fought amongst dying stars.",
+        ExcludeFromCodex = false,
+        Image = "EskhatosNecramechSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/Necramech/EvilBaroNecramechSkin",
+        Link = "Eskhatos Necramech Skin",
+        Name = "Eskhatos Necramech Skin",
+        Type = "Necramech Skin"
+    },
     ["Iridos Voidrig Necramech Helmet"] = {
         CodexSecret = false,
         Description = "A chromatic variant of the Voidrig’s signature helmet.",

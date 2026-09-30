@@ -29,6 +29,16 @@ return {
         Name = "Liset Athari Skin",
         Type = "Landing Craft Livery"
     },
+    ["Liset Calaverita Skin"] = {
+        CodexSecret = false,
+        Description = "Approaching battle becomes a pause for celebration with this festively painted Liset skin.",
+        ExcludeFromCodex = false,
+        Image = "LisetCalaveritaSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/Liset/LisetDOTDSkin",
+        Link = "Liset Calaverita Skin",
+        Name = "Liset Calaverita Skin",
+        Type = "Landing Craft Livery"
+    },
     ["Liset Cydonia Skin"] = {
         CodexSecret = false,
         Description = "Turn the Liset into a desert king’s chariot with this bold new exterior.",

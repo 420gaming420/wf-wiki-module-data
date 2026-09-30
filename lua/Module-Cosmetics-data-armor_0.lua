@@ -649,6 +649,39 @@ return {
         Part = "Arm",
         Type = "Armor"
     },
+    ["Contegorus Chest Plate"] = {
+        CodexSecret = false,
+        Description = "Salvaged and refitted Necramech parts, a testament to House Entrati's masterful designs.",
+        ExcludeFromCodex = false,
+        Image = "ContegorusChestPlate.png",
+        InternalName = "/Lotus/Upgrades/Skins/Armor/EntNecraArmorTwo/EntNecraArmorTwoC",
+        Link = "Contegorus Chest Plate",
+        Name = "Contegorus Chest Plate",
+        Part = "Chest",
+        Type = "Armor"
+    },
+    ["Contegorus Pauldrons"] = {
+        CodexSecret = false,
+        Description = "Salvaged and refitted Necramech parts, a testament to House Entrati's masterful designs.",
+        ExcludeFromCodex = false,
+        Image = "ContegorusPauldrons.png",
+        InternalName = "/Lotus/Upgrades/Skins/Armor/EntNecraArmorTwo/EntNecraArmorTwoA",
+        Link = "Contegorus Pauldrons",
+        Name = "Contegorus Pauldrons",
+        Part = "Arm",
+        Type = "Armor"
+    },
+    ["Contegorus Greaves"] = {
+        CodexSecret = false,
+        Description = "Salvaged and refitted Necramech parts, a testament to House Entrati's masterful designs.",
+        ExcludeFromCodex = false,
+        Image = "ContegorusGreaves.png",
+        InternalName = "/Lotus/Upgrades/Skins/Armor/EntNecraArmorTwo/EntNecraArmorTwoL",
+        Link = "Contegorus Greaves",
+        Name = "Contegorus Greaves",
+        Part = "Arm",
+        Type = "Armor"
+    },
     ["Corachrix Shoulder Pauldrons"] = {
         CodexSecret = false,
         Description = "A unique shoulder armor for your Warframe, designed by LostEpoch and DasterCreations.",
@@ -1189,6 +1222,17 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Armor/CrpHighArmor/EvilBaroArcaArmorA",
         Link = "Eskhatos Ki'Teer Shoulder Guards",
         Name = "Eskhatos Ki'Teer Shoulder Guards",
+        Part = "Arm",
+        Type = "Armor"
+    },
+    ["Eskhatos Pauldrons"] = {
+        CodexSecret = false,
+        Description = "An unnervingly familiar shoulder plate that calls to mind the regalia of a doomed court.",
+        ExcludeFromCodex = true,
+        Image = "EskhatosPauldrons.png",
+        InternalName = "/Lotus/Upgrades/Skins/Armor/EvilBaroArmour/EvilBaroArmourA",
+        Link = "Eskhatos Pauldrons",
+        Name = "Eskhatos Pauldrons",
         Part = "Arm",
         Type = "Armor"
     },

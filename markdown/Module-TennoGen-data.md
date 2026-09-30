@@ -1,7 +1,7 @@
 ---
 title: "Module:TennoGen/data"
 wiki_url: "https://wiki.warframe.com/w/Module/TennoGen/data"
-wiki_timestamp: "2026-09-25T09:46:27Z"
+wiki_timestamp: "2026-09-30T03:23:18Z"
 ---
 
 Database of [TennoGen](/w/TennoGen "TennoGen") items. For more canonical data related to TennoGen cosmetics see [Module:Cosmetics/data](/w/Module:Cosmetics/data "Module:Cosmetics/data").
@@ -502,7 +502,7 @@ return {
     },
     ["Citrine Heliotropia Helmet"] = {
      	Artists = { "Ventralhound" },
-     	ConsolePrice = "65",
+     	ConsolePrice = "105",
      	Image = "CitrineHeliotropiaHelmet.png",
      	Link = "Citrine Heliotropia Helmet",
      	Name = "Citrine Heliotropia Helmet",
@@ -1804,7 +1804,7 @@ return {
 	},
     ["Jade Coven Skin"] = {
      	Artists = { "blazingcobalt" },
-     	ConsolePrice = "105",
+     	ConsolePrice = "165",
      	Image = "JadeCovenSkin.png",
      	Link = "Jade Coven Skin",
      	Name = "Jade Coven Skin",

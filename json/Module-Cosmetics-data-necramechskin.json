@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-11T02:14:50.667Z"
+    "converted_at": "2026-09-30T08:12:08.733Z"
   },
   "_comments": "",
   "Voidrig Necramech Skin": {
@@ -44,6 +44,16 @@
     "Link": "Proto Necramech Skin",
     "Name": "Proto Necramech Skin",
     "InternalName": "/Lotus/Upgrades/Skins/Necramech/VoidrigDSChromaSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Eskhatos Necramech Skin": {
+    "Type": "Necramech Skin",
+    "Image": "EskhatosNecramechSkin.png",
+    "Description": "This Necramech skin is derived from models that fought amongst dying stars.",
+    "Link": "Eskhatos Necramech Skin",
+    "Name": "Eskhatos Necramech Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Necramech/EvilBaroNecramechSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -107,6 +117,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Voidrig Necramech Helmet": {
+    "Type": "Necramech Helmet",
+    "Image": "Voidrig.png",
+    "Description": "Voidrig's signature helmet.",
+    "Link": "Voidrig Necramech Helmet",
+    "Name": "Voidrig Necramech Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Necramech/NecramechVoidRigDefaultHelmet",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Iridos Voidrig Necramech Helmet": {
     "Type": "Necramech Helmet",
     "Image": "IridosVoidrigNecramechHelmet.png",
@@ -117,14 +137,14 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Voidrig Necramech Helmet": {
-    "Type": "Necramech Helmet",
-    "Image": "Voidrig.png",
-    "Description": "Voidrig's signature helmet.",
-    "Link": "Voidrig Necramech Helmet",
-    "Name": "Voidrig Necramech Helmet",
-    "InternalName": "/Lotus/Upgrades/Skins/Necramech/NecramechVoidRigDefaultHelmet",
-    "ExcludeFromCodex": false,
+  "Snake Necramech Skin": {
+    "Type": "Necramech Skin",
+    "Image": "SnakeVoidrigSkin.png",
+    "Description": "Rusty but trusty. This skin revives the glory of the legendary Old War Necramech, Snake.",
+    "Link": "Snake Necramech Skin",
+    "Name": "Snake Necramech Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Necramech/NecramechSnakeSkin",
+    "ExcludeFromCodex": true,
     "CodexSecret": false
   },
   "Bonewidow Necramech Skin": {
@@ -137,14 +157,14 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Snake Necramech Skin": {
+  "Eskhatos Necramech Helmet": {
     "Type": "Necramech Skin",
-    "Image": "SnakeVoidrigSkin.png",
-    "Description": "Rusty but trusty. This skin revives the glory of the legendary Old War Necramech, Snake.",
-    "Link": "Snake Necramech Skin",
-    "Name": "Snake Necramech Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Necramech/NecramechSnakeSkin",
-    "ExcludeFromCodex": true,
+    "Image": "EskhatosNecramechHelmet.png",
+    "Description": "This Necramech helmet is derived from models that fought amongst dying stars.",
+    "Link": "Eskhatos Necramech Helmet",
+    "Name": "Eskhatos Necramech Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Necramech/EvilBaroNecramechHelmet",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Day of the Dead Necramech Skin": {
