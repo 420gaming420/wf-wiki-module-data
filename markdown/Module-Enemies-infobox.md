@@ -1,7 +1,7 @@
 ---
 title: "Module:Enemies/infobox"
 wiki_url: "https://wiki.warframe.com/w/Module/Enemies/infobox"
-wiki_timestamp: "2026-09-21T08:12:32Z"
+wiki_timestamp: "2026-09-30T12:17:03Z"
 ---
 
 Creates the infobox for enemies for use on [Template:EnemyInfobox](/w/Template:EnemyInfobox "Template:EnemyInfobox") and [Template:EnemyInfoboxHorizontal](/w/Template:EnemyInfoboxHorizontal "Template:EnemyInfoboxHorizontal"). This infobox is more complex than other infoboxes on the wiki since it has an interactive [Enemy Level Scaling](/w/Enemy_Level_Scaling "Enemy Level Scaling") slider that utilizes [MediaWiki:Gadget-enemyinfoboxslider.js](/w/MediaWiki:Gadget-enemyinfoboxslider.js "MediaWiki:Gadget-enemyinfoboxslider.js"). The module determines the necessary parameters that the slider will use and embeds them in the HTML source of the infobox.
@@ -187,6 +187,57 @@ setmetatable(overguard_vals, {
 	} end
 })
 
+local damage_vals = {
+	["Default"] = {
+		f1_coef = 0.015,
+		f1_expo = 1.55,
+		f2_coef = 0,
+		f2_expo = 0,
+		final_mult = 1,
+	},
+	["Grineer"] = {
+		f1_coef = 0.015,
+		f1_expo = 1.75,
+		f2_coef = 0.0075,
+		f2_expo = 1.55,
+		final_mult = 2,
+	},
+	["Corpus"] = {
+		f1_coef = 0.015,
+		f1_expo = 1.75,
+		f2_coef = 0.0075,
+		f2_expo = 1.55,
+		final_mult = 2,
+	},
+	["Techrot"] = {
+		f1_coef = 0.015,
+		f1_expo = 1.75,
+		f2_coef = 0.0075,
+		f2_expo = 1.55,
+		final_mult = 2,
+	},
+	["Infestation"] = {
+		f1_coef = 0.015,
+		f1_expo = 1.55,
+		f2_coef = 0,
+		f2_expo = 0,
+		final_mult = 3,
+	}
+}
+damage_vals["Kuva Grineer"] = damage_vals["Grineer"]
+damage_vals["Corpus Amalgam"] = damage_vals["Corpus"]
+damage_vals["Infested"] = damage_vals["Infestation"]
+damage_vals["Infested Deimos"] = damage_vals["Infestation"]
+setmetatable(damage_vals, {
+	__index = function () return {
+		f1_coef = 0.015,
+		f1_expo = 1.55,
+		f2_coef = 0,
+		f2_expo = 0,
+		final_mult = 1,
+	} end
+})
+
 local function concatif(stat, str)
 	return stat and stat..str
 end
@@ -196,65 +247,146 @@ end
 --	@param			{InfoboxBuilder} Infobox InfoboxBuilder object reference
 --	@param			{table} enemy Enemy entry as seen in M:Enemies/data
 local function attackGroup(Infobox, enemy)
+	-- if not enemy.Stats.Attacks or #enemy.Stats.Attacks == 0 then
+	--     return
+	-- end
+	
+	Infobox=Infobox:group():header("Attacks")
+	Infobox=Infobox:row('DamageMultiplier', '[[Enemy_Level_Scaling#Damage|Damage Scale]]', '--', 'damage-multiplier')
+			
 	-- for i, attackData in ipairs(enemy.Stats.Attacks or {}) do
 	-- 	local attack = 'Attack'..i
-
+	-- 	local elementOrder = {
+	-- 		Impact = 1, Puncture = 2, Slash = 3, Heat = 4, Toxin = 5,
+	-- 		Electricity = 6, Cold = 7, Blast = 8, Corrosive = 9, Gas = 10,
+	-- 		Magnetic = 11, Radiation = 12, Viral = 13, Void = 14,
+	-- 		Tau = 15, True = 16
+	-- 	}
 	-- 	local elems = {}
+		
 	-- 	local highestDmgDistr = -1
 	-- 	local highestDmgDistrType
 	-- 	for damageType, distr in pairs(attackData.DamageDistribution) do
 	-- 		if highestDmgDistr < distr then
 	-- 			highestDmgDistr = distr
 	-- 			highestDmgDistrType = damageType
+	-- 		-- Code to cover damage distribution bias according to elementOrder, if there's two distribution of the same value
+	-- 		elseif highestDmgDistr == distr and elementOrder[damageType] < elementOrder[highestDmgDistrType] then 
+	-- 			highestDmgDistrType = damageType
 	-- 		end
-	-- 		if damageType ~= 'Impact' and damageType ~= 'Puncture' and damageType ~= 'Slash' then
-	-- 			table.insert(elems, damageType)
-	-- 		end
+	-- 		table.insert(elems, damageType)
 	-- 	end
+		
+	-- 	table.sort(elems, function(a, b)
+	-- 		local orderA = elementOrder[a] or 999
+	-- 		local orderB = elementOrder[b] or 999
+	-- 		if orderA == orderB then
+	-- 			return tostring(a) < tostring(b) -- alphabetical for unlisted (or ties)
+	-- 		else
+	-- 			return orderA < orderB
+	-- 		end
+	-- 	end)
 		
 	-- 	local total = attackData.TotalDamage
 	-- 	local multishot = attackData.Multishot or 1
+	-- 	local multihit = attackData.Multihit or 1
+	-- 	local note = attackData.Note or ''
+	-- 	local fixedDamage = attackData.FixedDamage and 'true' or 'false'
+	-- 	local attackStatistics = ''
+		
+	-- 	if (attackData.Multishot) then
+	-- 		attackStatistics = attackStatistics .. ('  
+[[Multishot]]: %d (%s DMG / Shot)'):format(
+	-- 			attackData.Multishot, 
+	-- 			fixedDamage,
+	-- 			Math.round(total, 0.01),
+	-- 			Math.round(total, 0.01)
+	-- 		)
+	-- 	end
+		
+	-- 	if (attackData.Multihit) then
+	-- 		attackStatistics = attackStatistics .. ('  
+[[Multihit]]: %d (%s DMG / Hit)'):format(
+	-- 			attackData.Multihit, 
+	-- 			fixedDamage,
+	-- 			Math.round(total, 0.01),
+	-- 			Math.round(total, 0.01)
+	-- 		)
+	-- 	end
+		
+	-- 	if (attackData.BurstCount) then
+	-- 		attackStatistics = attackStatistics .. ('  
+[[:Category:Burst Weapons|Burst Count]]: %d'):format(attackData.BurstCount)
+	-- 	end
+		
+	-- 	if (attackData.StatusChance) then
+	-- 		attackStatistics = attackStatistics .. ('  
+[[Status Chance]]: %.2f%%'):format(100 * attackData.StatusChance)
+	-- 	end
+		
+	-- 	if (fixedDamage == "true") then
+	-- 		attackStatistics = attackStatistics .. '  
+Damage is Fixed'
+	-- 	end
+		
+	-- 	if (attackData.Note) then
+	-- 		attackStatistics = attackStatistics .. ('  
+%s'):format(attackData.Note)
+	-- 	end
 
 	-- 	Infobox=Infobox
-	-- 	:group():header(attackData.AttackName)
-	-- 		:hgroup()
-	-- 			:row(attack..'Impact', nil, attackData.DamageDistribution.Impact and 
-	-- 				Tooltip.icon('Impact', 'DamageTypes', true)..Math.formatnum(attackData.DamageDistribution.Impact * total), 'impact')
-	-- 			:row(attack..'Puncture', nil, attackData.DamageDistribution.Puncture and 
-	-- 				Tooltip.icon('Puncture', 'DamageTypes', true)..Math.formatnum(attackData.DamageDistribution.Puncture * total), 'puncture')
-	-- 			:row(attack..'Slash', nil, attackData.DamageDistribution.Slash and 
-	-- 				Tooltip.icon('Slash', 'DamageTypes', true)..Math.formatnum(attackData.DamageDistribution.Slash * total), 'slash')
-
-	-- 			for _, elem in ipairs(elems) do Infobox=Infobox
-	-- 			:row(attack..elem, nil, attackData.DamageDistribution[elem] and 
-	-- 				Tooltip.icon(elem, 'DamageTypes', true)..Math.formatnum(attackData.DamageDistribution[elem] * total), elem)
-	-- 			end Infobox=Infobox
-	-- 		:done()
-	-- 		:row(attack..'Total', '[[Damage|%s]]',
-	-- 			highestDmgDistr == 1 and Math.formatnum(total * multishot)..'[[Category:'..highestDmgDistrType..' Damage Enemies]]'
-	-- 			or ('%s (%s%s%%)[[Category:%s Damage Enemies]]'):format(
-	-- 				Math.formatnum(total * multishot),
+	-- 		-- Total Damage
+	-- 		:row(
+	-- 			attack..'TotalDamage', 
+	-- 			attackData.AttackName,
+	-- 			('%s (%s%s%%)[[Category:%s Damage Enemies]]%s'):format(
+	-- 				fixedDamage,
+	-- 				Math.formatnum(total * multishot * multihit),
+	-- 				Math.formatnum(total * multishot * multihit),
 	-- 				Tooltip.icon(highestDmgDistrType,'DamageTypes', true),
 	-- 				Math.round(100 * highestDmgDistr, 0.01),
-	-- 				highestDmgDistrType
-	-- 			), 'total-damage')
-	-- 		:row(attack..'BurstCount', '%s', attackData.BurstCount, 'burst-count')
-	-- 		:row(attack..'ChargeTime', '[[Fire Rate#Charged Weapons|%s]]', concatif(attackData.ChargeTime, ' s'), 'charge-time')
+	-- 				highestDmgDistrType,
+	-- 				attackStatistics
+	-- 			), 
+	-- 			'total-damage'
+	-- 		)
+			
+	-- 	-- Damage Distribution Breakdown
+	-- 	-- if highestDmgDistr ~= 1 then
+	-- 	Infobox=Infobox:hgroup()
+	-- 		for _, elem in ipairs(elems) do Infobox=Infobox
+	-- 			:row(
+	-- 				attack..elem,
+	-- 				nil, 
+	-- 				attackData.DamageDistribution[elem] and Tooltip.icon(elem, 'DamageTypes', true) ..
+	-- 					('%s'):format(
+	-- 						fixedDamage,
+	-- 						Math.formatnum(attackData.DamageDistribution[elem] * total),
+	-- 						Math.formatnum(attackData.DamageDistribution[elem] * total)
+	-- 					), 
+	-- 				elem
+	-- 			)
+	-- 		end Infobox=Infobox
+	-- 		:done()
+	-- 	-- end
+		
 	-- 		-- As of 35.0.9, enemies no longer deal critical damage. 
 	-- 		--:row(attack..'CritChance', '[[Critical Hit|%s]]', attackData.CritChance and Math.round(100 * attackData.CritChance, 0.01)..'%', 'crit-chance')
 	-- 		--:row(attack..'CritMultiplier', '[[Critical Hit|%s]]', concatif(attackData.CritMultiplier, 'x'), 'crit-multiplier')
-	-- 		:row(attack..'Falloff', '[[Damage Falloff|%s]]', attackData.Falloff and ('100%% damage up to %s m  
+	-- 		-- Update 40.0.2: Temporarily hiding the stats below.
+	-- 		-- :row(attack..'BurstCount', '%s', attackData.BurstCount, 'burst-count')
+	-- 		-- :row(attack..'ChargeTime', '[[Fire Rate#Charged Weapons|%s]]', concatif(attackData.ChargeTime, ' s'), 'charge-time')
+	-- 		-- :row(attack..'Falloff', '[[Damage Falloff|%s]]', attackData.Falloff and ('100%% damage up to %s m  
 %.0f%% damage at %s m  
 %.0f%% max reduction'):format(attackData.Falloff.StartRange, 100 * (1 - (attackData.Falloff.Reduction or 1)), attackData.Falloff.EndRange, 100 * (attackData.Falloff.Reduction or 1)), 'damage-falloff')
-	-- 		:row(attack..'Multishot', '[[Multishot|%s]]', attackData.Multishot and ('%d (%s damage per projectile)'):format(attackData.Multishot, Math.round(total, 0.01)), 'multishot')
-	-- 		:row(attack..'Range', '%s', concatif(attackData.Range, ' m'), 'range')
-	-- 		:row(attack..'Magazine', '[[Ammo#Magazine Capacity|%s]]', attackData.Magazine, 'magazine-size')
-	-- 		:row(attack..'Reload', '[[Reload|%s]]', concatif(attackData.Reload, ' s'), 'reload-time')
-	-- 		:row(attack..'StatusChance', '[[Status Chance|%s]]', attackData.StatusChance and Math.round(100*attackData.StatusChance, 0.01)..'%', 'status-chance')
-	-- 		:row(attack..'ShotSpeed', '[[Projectile Speed|%s]]', concatif(attackData.ShotSpeed, ' m/s'), 'projectile-speed')
-	-- 		:row(attack..'ShotType', '%s', attackData.ShotType, 'projectile-type')
-	-- 	:done()
+	-- 		-- :row(attack..'Multishot', '[[Multishot|%s]]', attackData.Multishot and ('%d (%s damage per projectile)'):format(attackData.Multishot, Math.round(total, 0.01)), 'multishot')
+	-- 		-- :row(attack..'Range', '%s', concatif(attackData.Range, ' m'), 'range')
+	-- 		-- :row(attack..'Magazine', '[[Ammo#Magazine Capacity|%s]]', attackData.Magazine, 'magazine-size')
+	-- 		-- :row(attack..'Reload', '[[Reload|%s]]', concatif(attackData.Reload, ' s'), 'reload-time')
+	-- 		-- :row(attack..'ShotSpeed', '[[Projectile Speed|%s]]', concatif(attackData.ShotSpeed, ' m/s'), 'projectile-speed')
+	-- 		-- :row(attack..'ShotType', '%s', attackData.ShotType, 'projectile-type')
 	-- end
+	Infobox=Infobox:done()
 end
 
 return {
@@ -399,6 +531,12 @@ buildInfobox = function(frame)
 		''..overguard_vals[factionScaling].f1_expo..'',
 		''..overguard_vals[factionScaling].f2_coef..'',
 		''..overguard_vals[factionScaling].f2_expo..'',
+		
+		''..damage_vals[faction].f1_coef..'',
+		''..damage_vals[faction].f1_expo..'',
+		''..damage_vals[faction].f2_coef..'',
+		''..damage_vals[faction].f2_expo..'',
+		''..damage_vals[faction].final_mult..'',
 		
 		''..(eximusDefault and '1' or '0')..'',
 		''..(steelPathDefault and '1' or '0')..'',

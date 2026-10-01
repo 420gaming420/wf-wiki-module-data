@@ -4,9 +4,19 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:54:17.555Z"
+    "converted_at": "2026-10-01T08:33:08.586Z"
   },
-  "_comments": "",
+  "_comments": "\t-- [\"Glow-Cloak\"] = {\n\t-- \tCodexSecret = false,\n\t-- \tDescription = \"An alternate, opaque glow, for when this Warframe is cloaked. Does not alter enemy perception.\",\n\t-- \tExcludeFromCodex = true,\n\t-- \tImage = \"InvisOverrideAshB.png\",\n\t-- \tInternalName = \"/Lotus/Upgrades/Skins/Ninja/NinjaAltCloakB\",\n\t-- \tLink = \"Glow-Cloak\",\n\t-- \tName = \"Glow-Cloak\",\n\t-- \tType = \"Auxiliary\"\n\t-- },\n\t-- \tImage = \"InvisOverrideFrumentariusB.png\",\n\t-- \tInternalName = \"/Lotus/Upgrades/Skins/Frumentarius/FrumentariusAltCloakB\",\n\t-- \tImage = \"InvisOverrideIvaraB.png\",\n\t-- \tInternalName = \"/Lotus/Upgrades/Skins/Ranger/RangerAltCloakB\",\n\t-- \tImage = \"InvisOverrideLokiB.png\",\n\t-- \tInternalName = \"/Lotus/Upgrades/Skins/Loki/LokiAltCloakB\",\n\t-- \tImage = \"InvisOverrideOctaviaB.png\",\n\t-- \tInternalName = \"/Lotus/Upgrades/Skins/Bard/BardAltCloakB\",\n\t-- \tImage = \"InvisOverrideVorunaB.png\",\n\t-- \tInternalName = \"/Lotus/Upgrades/Skins/Werewolf/WerewolfAltCloakB\",\n\t-- [\"Semi-Cloak\"] = {\n\t-- \tDescription = \"A semi-transparent look when this Warframe is cloaked. Does not alter enemy perception.\",\n\t-- \tImage = \"InvisOverrideAshA.png\",\n\t-- \tInternalName = \"/Lotus/Upgrades/Skins/Ninja/NinjaAltCloakA\",\n\t-- \tLink = \"Semi-Cloak\",\n\t-- \tName = \"Semi-Cloak\",\n\t-- \tImage = \"InvisOverrideFrumentariusA.png\",\n\t-- \tInternalName = \"/Lotus/Upgrades/Skins/Frumentarius/FrumentariusAltCloakA\",\n\t-- \tImage = \"InvisOverrideIvaraA.png\",\n\t-- \tInternalName = \"/Lotus/Upgrades/Skins/Ranger/RangerAltCloakA\",\n\t-- \tImage = \"InvisOverrideLokiA.png\",\n\t-- \tInternalName = \"/Lotus/Upgrades/Skins/Loki/LokiAltCloakA\",\n\t-- \tImage = \"InvisOverrideOctaviaA.png\",\n\t-- \tInternalName = \"/Lotus/Upgrades/Skins/Bard/BardAltCloakA\",\n\t-- \tImage = \"InvisOverrideVorunaA.png\",\n\t-- \tInternalName = \"/Lotus/Upgrades/Skins/Werewolf/WerewolfAltCloakA\",",
+  "Skeletal": {
+    "Type": "Auxiliary",
+    "Image": "Skeletal.png",
+    "Description": "Xaku will constantly remain in skeletal form.",
+    "Link": "Skeletal",
+    "Name": "Skeletal",
+    "InternalName": "/Lotus/Upgrades/Skins/BrokenFrame/XakuBrokenAlways",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
   "Amir's Shades": {
     "Type": "Auxiliary",
     "Image": "Amir'sShades.png",
@@ -27,256 +37,6 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Semi-Cloak": {
-    "Type": "Auxiliary",
-    "Image": "InvisOverrideVorunaA.png",
-    "Description": "A semi-transparent look when this Warframe is cloaked. Does not alter enemy perception.",
-    "Link": "Semi-Cloak",
-    "Name": "Semi-Cloak",
-    "InternalName": "/Lotus/Upgrades/Skins/Werewolf/WerewolfAltCloakA",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Glow-Cloak": {
-    "Type": "Auxiliary",
-    "Image": "InvisOverrideVorunaB.png",
-    "Description": "An alternate, opaque glow, for when this Warframe is cloaked. Does not alter enemy perception.",
-    "Link": "Glow-Cloak",
-    "Name": "Glow-Cloak",
-    "InternalName": "/Lotus/Upgrades/Skins/Werewolf/WerewolfAltCloakB",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "The Villain": {
-    "Type": "Auxiliary",
-    "Image": "MustacheVillain.png",
-    "Description": "A stylish moustache for your Warframe.",
-    "Link": "The Villain",
-    "Name": "The Villain",
-    "InternalName": "/Lotus/Upgrades/Skins/Mustache/Stache04",
-    "ExcludeFromCodex": false,
-    "CodexSecret": true
-  },
-  "The Gentleman": {
-    "Type": "Auxiliary",
-    "Image": "MustacheGentleman.png",
-    "Description": "A stylish moustache for your Warframe.",
-    "Link": "The Gentleman",
-    "Name": "The Gentleman",
-    "InternalName": "/Lotus/Upgrades/Skins/Mustache/Stache",
-    "ExcludeFromCodex": false,
-    "CodexSecret": true
-  },
-  "Valkyr's Bonds": {
-    "Type": "Auxiliary",
-    "Image": "Valkyr'sBonds.png",
-    "Description": "Remnants of the bonds that restrained the original Valkyr during her time in 'the lab'. A reminder to never forget the torment.",
-    "Link": "Valkyr's Bonds",
-    "Name": "Valkyr's Bonds",
-    "InternalName": "/Lotus/Upgrades/Skins/Berserker/BerserkerDangles",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Nekros Irkalla Binds": {
-    "Type": "Auxiliary",
-    "Image": "NekrosIrkallaBinds.png",
-    "Description": "The signature binds of Nekros Irkalla.",
-    "Link": "Nekros Irkalla Binds",
-    "Name": "Nekros Irkalla Binds",
-    "InternalName": "/Lotus/Upgrades/Skins/Necro/NekrosDeluxeDangles",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Mesa Heirloom Duster": {
-    "Type": "Auxiliary",
-    "Image": "MesaHeirloomDuster.png",
-    "Description": "Mesa Heirloom's signature duster.",
-    "Link": "Mesa Heirloom Duster",
-    "Name": "Mesa Heirloom Duster",
-    "InternalName": "/Lotus/Upgrades/Skins/Cowgirl/MesaHeirloomPoncho",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Heirloom Iron Skin Override": {
-    "Type": "Auxiliary",
-    "Image": "HeirloomIronSkinOverride.png",
-    "Description": "Show Rhino Heirloom's Iron Skin look when the ability is triggered.",
-    "Link": "Heirloom Iron Skin Override",
-    "Name": "Heirloom Iron Skin Override",
-    "InternalName": "/Lotus/Upgrades/Skins/Rhino/RhinoIronSkinHeirloom",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Minerva's Shades (Up)": {
-    "Type": "Auxiliary",
-    "Image": "Minerva'sShades.png",
-    "Description": "Minerva's signature sunglasses.",
-    "Link": "Minerva's Shades (Up)",
-    "Name": "Minerva's Shades (Up)",
-    "InternalName": "/Lotus/Upgrades/Skins/Saryn/WF1999SarynAuxHat",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Corporeal": {
-    "Type": "Auxiliary",
-    "Image": "Corporeal.png",
-    "Description": "Xaku will constantly remain in corporeal form.",
-    "Link": "Corporeal",
-    "Name": "Corporeal",
-    "InternalName": "/Lotus/Upgrades/Skins/BrokenFrame/XakuBrokenNever",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Styanax Tonatiuh Embellishments": {
-    "Type": "Auxiliary",
-    "Image": "StyanaxTonatiuhEmbellishments.png",
-    "Description": "Styanax Tonatiuh's signature embellishments.",
-    "Link": "Styanax Tonatiuh Embellishments",
-    "Name": "Styanax Tonatiuh Embellishments",
-    "InternalName": "/Lotus/Upgrades/Skins/Hoplite/StyanaxDeluxeAuxChest",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Caliban Prime Pinions": {
-    "Type": "Auxiliary",
-    "Image": "CalibanPrimePinions.png",
-    "Description": "Caliban Prime's floating Sentient wings.",
-    "Link": "Caliban Prime Pinions",
-    "Name": "Caliban Prime Pinions",
-    "InternalName": "/Lotus/Upgrades/Skins/Sentient/CalibanPrimeAuxFloater",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Vauban Heirloom Overcoat": {
-    "Type": "Auxiliary",
-    "Image": "VaubanHeirloomOvercoat.png",
-    "Description": "Vauban Heirloom's signature overcoat.",
-    "Link": "Vauban Heirloom Overcoat",
-    "Name": "Vauban Heirloom Overcoat",
-    "InternalName": "/Lotus/Upgrades/Skins/Trapper/VaubanHeirloomAux",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Minerva's Shades (Down)": {
-    "Type": "Auxiliary",
-    "Image": "Minerva'sShades(Down).png",
-    "Description": "Minerva's signature sunglasses.",
-    "Link": "Minerva's Shades (Down)",
-    "Name": "Minerva's Shades (Down)",
-    "InternalName": "/Lotus/Upgrades/Skins/Saryn/WF1999SarynAuxHatClosed",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Deathwatch Iron Skin Override": {
-    "Type": "Auxiliary",
-    "Image": "DeathwatchIronSkinOverride.png",
-    "Description": "Show Rhino Deathwatch's Iron Skin look when the ability is triggered.",
-    "Link": "Deathwatch Iron Skin Override",
-    "Name": "Deathwatch Iron Skin Override",
-    "InternalName": "/Lotus/Upgrades/Skins/Rhino/RhinoIronSkinDeluxeTwo",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Quincy's Beret": {
-    "Type": "Auxiliary",
-    "Image": "Quincy'sBeret.png",
-    "Description": "Quincy's favorite cap.",
-    "Link": "Quincy's Beret",
-    "Name": "Quincy's Beret",
-    "InternalName": "/Lotus/Upgrades/Skins/Frumentarius/WF1999FrumentariusAuxHat",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Vena's Bolero": {
-    "Type": "Auxiliary",
-    "Image": "Vena'sBolero.png",
-    "Description": "Vena's signature bolero.",
-    "Link": "Vena's Bolero",
-    "Name": "Vena's Bolero",
-    "InternalName": "/Lotus/Upgrades/Skins/Garuda/GarudaGeminiChest",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Rhino Deathwatch Wings": {
-    "Type": "Auxiliary",
-    "Image": "RhinoDeathwatchWings.png",
-    "Description": "The harbinger stretches his wings.",
-    "Link": "Rhino Deathwatch Wings",
-    "Name": "Rhino Deathwatch Wings",
-    "InternalName": "/Lotus/Upgrades/Skins/Rhino/RhinoDeluxeV2Wings",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Lepus Headgear": {
-    "Type": "Auxiliary",
-    "Image": "BunnyEars.png",
-    "Description": "A stylish accessory for your Warframe.",
-    "Link": "Lepus Headgear",
-    "Name": "Lepus Headgear",
-    "InternalName": "/Lotus/Upgrades/Skins/Events/BunnyEars",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "The Inventor": {
-    "Type": "Auxiliary",
-    "Image": "MustacheAnvil.png",
-    "Description": "A stylish moustache for your Warframe.",
-    "Link": "The Inventor",
-    "Name": "The Inventor",
-    "InternalName": "/Lotus/Upgrades/Skins/Mustache/Stache10",
-    "ExcludeFromCodex": false,
-    "CodexSecret": true
-  },
-  "The Baron": {
-    "Type": "Auxiliary",
-    "Image": "MustacheBaron.png",
-    "Description": "A stylish moustache for your Warframe.",
-    "Link": "The Baron",
-    "Name": "The Baron",
-    "InternalName": "/Lotus/Upgrades/Skins/Mustache/Stache05",
-    "ExcludeFromCodex": false,
-    "CodexSecret": true
-  },
-  "The Dastard": {
-    "Type": "Auxiliary",
-    "Image": "MustacheDastard.png",
-    "Description": "A stylish moustache for your Warframe.",
-    "Link": "The Dastard",
-    "Name": "The Dastard",
-    "InternalName": "/Lotus/Upgrades/Skins/Mustache/Stache06",
-    "ExcludeFromCodex": false,
-    "CodexSecret": true
-  },
-  "Wisp Prime Shroud": {
-    "Type": "Auxiliary",
-    "Image": "WispPrime.png",
-    "Description": "Wisp Prime's signature adornment.",
-    "Link": "Wisp Prime Shroud",
-    "Name": "Wisp Prime Shroud",
-    "InternalName": "/Lotus/Upgrades/Skins/Wisp/WispPrimeDefaultCape",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Skeletal": {
-    "Type": "Auxiliary",
-    "Image": "Skeletal.png",
-    "Description": "Xaku will constantly remain in skeletal form.",
-    "Link": "Skeletal",
-    "Name": "Skeletal",
-    "InternalName": "/Lotus/Upgrades/Skins/BrokenFrame/XakuBrokenAlways",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Lyon's Mitre": {
-    "Type": "Auxiliary",
-    "Image": "Lyon'sMitre.png",
-    "Description": "Lyon's signature headgear.",
-    "Link": "Lyon's Mitre",
-    "Name": "Lyon's Mitre",
-    "InternalName": "/Lotus/Upgrades/Skins/Priest/HarrowGeminiAuxHat",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
   "Invisible Iron Skin Override": {
     "Type": "Auxiliary",
     "Image": "InvisibleIronSkinOverride.png",
@@ -286,6 +46,16 @@
     "InternalName": "/Lotus/Upgrades/Skins/Rhino/RhinoIronSkinNoEffects",
     "ExcludeFromCodex": true,
     "CodexSecret": false
+  },
+  "The Shopkeep": {
+    "Type": "Auxiliary",
+    "Image": "MustacheShopkeep.png",
+    "Description": "A stylish moustache for your Warframe.",
+    "Link": "The Shopkeep",
+    "Name": "The Shopkeep",
+    "InternalName": "/Lotus/Upgrades/Skins/Mustache/Stache07",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
   },
   "Kullervo Apostate Baneful Blades": {
     "Type": "Auxiliary",
@@ -327,6 +97,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": true
   },
+  "The Villain": {
+    "Type": "Auxiliary",
+    "Image": "MustacheVillain.png",
+    "Description": "A stylish moustache for your Warframe.",
+    "Link": "The Villain",
+    "Name": "The Villain",
+    "InternalName": "/Lotus/Upgrades/Skins/Mustache/Stache04",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
   "Chroma Dynasty Wings": {
     "Type": "Auxiliary",
     "Image": "ChromaDynastyWings.png",
@@ -347,6 +127,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Wisp Prime Shroud": {
+    "Type": "Auxiliary",
+    "Image": "WispPrime.png",
+    "Description": "Wisp Prime's signature adornment.",
+    "Link": "Wisp Prime Shroud",
+    "Name": "Wisp Prime Shroud",
+    "InternalName": "/Lotus/Upgrades/Skins/Wisp/WispPrimeDefaultCape",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
   "The Magnum": {
     "Type": "Auxiliary",
     "Image": "MustacheMagnum.png",
@@ -356,6 +146,26 @@
     "InternalName": "/Lotus/Upgrades/Skins/Mustache/Stache03",
     "ExcludeFromCodex": false,
     "CodexSecret": true
+  },
+  "Volt Raijin Sleeves": {
+    "Type": "Auxiliary",
+    "Image": "VoltRaijinSleeves.png",
+    "Description": "Volt Raijin's signature embellishments.",
+    "Link": "Volt Raijin Sleeves",
+    "Name": "Volt Raijin Sleeves",
+    "InternalName": "/Lotus/Upgrades/Skins/Volt/VoltDeluxeRaijinAuxChest",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Vena's Bolero": {
+    "Type": "Auxiliary",
+    "Image": "Vena'sBolero.png",
+    "Description": "Vena's signature bolero.",
+    "Link": "Vena's Bolero",
+    "Name": "Vena's Bolero",
+    "InternalName": "/Lotus/Upgrades/Skins/Garuda/GarudaGeminiChest",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
   },
   "Caliban Orfeo Scapulus": {
     "Type": "Auxiliary",
@@ -387,6 +197,16 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
+  "Mesa Heirloom Duster": {
+    "Type": "Auxiliary",
+    "Image": "MesaHeirloomDuster.png",
+    "Description": "Mesa Heirloom's signature duster.",
+    "Link": "Mesa Heirloom Duster",
+    "Name": "Mesa Heirloom Duster",
+    "InternalName": "/Lotus/Upgrades/Skins/Cowgirl/MesaHeirloomPoncho",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
   "The Illusionist": {
     "Type": "Auxiliary",
     "Image": "MustacheIllusionist.png",
@@ -397,6 +217,56 @@
     "ExcludeFromCodex": false,
     "CodexSecret": true
   },
+  "Heirloom Iron Skin Override": {
+    "Type": "Auxiliary",
+    "Image": "HeirloomIronSkinOverride.png",
+    "Description": "Show Rhino Heirloom's Iron Skin look when the ability is triggered.",
+    "Link": "Heirloom Iron Skin Override",
+    "Name": "Heirloom Iron Skin Override",
+    "InternalName": "/Lotus/Upgrades/Skins/Rhino/RhinoIronSkinHeirloom",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "The Gentleman": {
+    "Type": "Auxiliary",
+    "Image": "MustacheGentleman.png",
+    "Description": "A stylish moustache for your Warframe.",
+    "Link": "The Gentleman",
+    "Name": "The Gentleman",
+    "InternalName": "/Lotus/Upgrades/Skins/Mustache/Stache",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Minerva's Shades (Up)": {
+    "Type": "Auxiliary",
+    "Image": "Minerva'sShades.png",
+    "Description": "Minerva's signature sunglasses.",
+    "Link": "Minerva's Shades (Up)",
+    "Name": "Minerva's Shades (Up)",
+    "InternalName": "/Lotus/Upgrades/Skins/Saryn/WF1999SarynAuxHat",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Mortos Binds": {
+    "Type": "Auxiliary",
+    "Image": "MortosBinds.png",
+    "Description": "Only Nekros is permitted to wear the Mortos Binds.",
+    "Link": "Mortos Binds",
+    "Name": "Mortos Binds",
+    "InternalName": "/Lotus/Upgrades/Skins/Necro/NecroDangles",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Corporeal": {
+    "Type": "Auxiliary",
+    "Image": "Corporeal.png",
+    "Description": "Xaku will constantly remain in corporeal form.",
+    "Link": "Corporeal",
+    "Name": "Corporeal",
+    "InternalName": "/Lotus/Upgrades/Skins/BrokenFrame/XakuBrokenNever",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
   "Velimir's Coolant Tank": {
     "Type": "Auxiliary",
     "Image": "Velimir'sCoolantTank.png",
@@ -405,6 +275,16 @@
     "Name": "Velimir's Coolant Tank",
     "InternalName": "/Lotus/Upgrades/Skins/Frost/WF1999FrostAuxHat",
     "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Valkyr's Bonds": {
+    "Type": "Auxiliary",
+    "Image": "Valkyr'sBonds.png",
+    "Description": "Remnants of the bonds that restrained the original Valkyr during her time in 'the lab'. A reminder to never forget the torment.",
+    "Link": "Valkyr's Bonds",
+    "Name": "Valkyr's Bonds",
+    "InternalName": "/Lotus/Upgrades/Skins/Berserker/BerserkerDangles",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Kullervo Ascophilia Baneful Blades": {
@@ -417,43 +297,23 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Reshef Vipaza": {
+  "Styanax Tonatiuh Embellishments": {
     "Type": "Auxiliary",
-    "Image": "NidusDeluxeHipCloth.png",
-    "Description": "The signature vipaza of Nidus Phryke.",
-    "Link": "Reshef Vipaza",
-    "Name": "Reshef Vipaza",
-    "InternalName": "/Lotus/Upgrades/Skins/Infestation/NidusDeluxeHipCloth",
+    "Image": "StyanaxTonatiuhEmbellishments.png",
+    "Description": "Styanax Tonatiuh's signature embellishments.",
+    "Link": "Styanax Tonatiuh Embellishments",
+    "Name": "Styanax Tonatiuh Embellishments",
+    "InternalName": "/Lotus/Upgrades/Skins/Hoplite/StyanaxDeluxeAuxChest",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Vauban Heirloom Sleeveless Overcoat": {
+  "Caliban Prime Pinions": {
     "Type": "Auxiliary",
-    "Image": "VaubanHeirloomSleevelessOvercoat.png",
-    "Description": "Vauban Heirloom's signature overcoat without sleeves.",
-    "Link": "Vauban Heirloom Sleeveless Overcoat",
-    "Name": "Vauban Heirloom Sleeveless Overcoat",
-    "InternalName": "/Lotus/Upgrades/Skins/Trapper/VaubanHeirloomAuxSleeveless",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Glaukus Halyard": {
-    "Type": "Auxiliary",
-    "Image": "GlaukusHalyard.png",
-    "Description": "The signature adornment of Sevagoth Glaukus.",
-    "Link": "Glaukus Halyard",
-    "Name": "Glaukus Halyard",
-    "InternalName": "/Lotus/Upgrades/Skins/Wraith/SevagothDeluxeRopeAnchor",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Volt Raijin Sleeves": {
-    "Type": "Auxiliary",
-    "Image": "VoltRaijinSleeves.png",
-    "Description": "Volt Raijin's signature embellishments.",
-    "Link": "Volt Raijin Sleeves",
-    "Name": "Volt Raijin Sleeves",
-    "InternalName": "/Lotus/Upgrades/Skins/Volt/VoltDeluxeRaijinAuxChest",
+    "Image": "CalibanPrimePinions.png",
+    "Description": "Caliban Prime's floating Sentient wings.",
+    "Link": "Caliban Prime Pinions",
+    "Name": "Caliban Prime Pinions",
+    "InternalName": "/Lotus/Upgrades/Skins/Sentient/CalibanPrimeAuxFloater",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
@@ -467,25 +327,55 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Khora's Spikes": {
+  "Glaukus Halyard": {
     "Type": "Auxiliary",
-    "Image": "Khora'sSpikes.png",
-    "Description": "Khora's standard back spikes.",
-    "Link": "Khora's Spikes",
-    "Name": "Khora's Spikes",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/QuillCanistersSyandana",
+    "Image": "GlaukusHalyard.png",
+    "Description": "The signature adornment of Sevagoth Glaukus.",
+    "Link": "Glaukus Halyard",
+    "Name": "Glaukus Halyard",
+    "InternalName": "/Lotus/Upgrades/Skins/Wraith/SevagothDeluxeRopeAnchor",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "The Shopkeep": {
+  "Palatine Iron Skin Override": {
     "Type": "Auxiliary",
-    "Image": "MustacheShopkeep.png",
-    "Description": "A stylish moustache for your Warframe.",
-    "Link": "The Shopkeep",
-    "Name": "The Shopkeep",
-    "InternalName": "/Lotus/Upgrades/Skins/Mustache/Stache07",
+    "Image": "PalatineIronSkinOverride.png",
+    "Description": "Show Rhino Palatine's Iron Skin look when the ability is triggered.",
+    "Link": "Palatine Iron Skin Override",
+    "Name": "Palatine Iron Skin Override",
+    "InternalName": "/Lotus/Upgrades/Skins/Rhino/RhinoIronSkinDeluxe",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Vauban Heirloom Overcoat": {
+    "Type": "Auxiliary",
+    "Image": "VaubanHeirloomOvercoat.png",
+    "Description": "Vauban Heirloom's signature overcoat.",
+    "Link": "Vauban Heirloom Overcoat",
+    "Name": "Vauban Heirloom Overcoat",
+    "InternalName": "/Lotus/Upgrades/Skins/Trapper/VaubanHeirloomAux",
     "ExcludeFromCodex": false,
-    "CodexSecret": true
+    "CodexSecret": false
+  },
+  "Lyon's Mitre": {
+    "Type": "Auxiliary",
+    "Image": "Lyon'sMitre.png",
+    "Description": "Lyon's signature headgear.",
+    "Link": "Lyon's Mitre",
+    "Name": "Lyon's Mitre",
+    "InternalName": "/Lotus/Upgrades/Skins/Priest/HarrowGeminiAuxHat",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Vauban Heirloom Sleeveless Overcoat": {
+    "Type": "Auxiliary",
+    "Image": "VaubanHeirloomSleevelessOvercoat.png",
+    "Description": "Vauban Heirloom's signature overcoat without sleeves.",
+    "Link": "Vauban Heirloom Sleeveless Overcoat",
+    "Name": "Vauban Heirloom Sleeveless Overcoat",
+    "InternalName": "/Lotus/Upgrades/Skins/Trapper/VaubanHeirloomAuxSleeveless",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
   },
   "Starglaze Shards": {
     "Type": "Auxiliary",
@@ -507,6 +397,66 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
+  "Minerva's Shades (Down)": {
+    "Type": "Auxiliary",
+    "Image": "Minerva'sShades(Down).png",
+    "Description": "Minerva's signature sunglasses.",
+    "Link": "Minerva's Shades (Down)",
+    "Name": "Minerva's Shades (Down)",
+    "InternalName": "/Lotus/Upgrades/Skins/Saryn/WF1999SarynAuxHatClosed",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Deathwatch Iron Skin Override": {
+    "Type": "Auxiliary",
+    "Image": "DeathwatchIronSkinOverride.png",
+    "Description": "Show Rhino Deathwatch's Iron Skin look when the ability is triggered.",
+    "Link": "Deathwatch Iron Skin Override",
+    "Name": "Deathwatch Iron Skin Override",
+    "InternalName": "/Lotus/Upgrades/Skins/Rhino/RhinoIronSkinDeluxeTwo",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Reshef Vipaza": {
+    "Type": "Auxiliary",
+    "Image": "NidusDeluxeHipCloth.png",
+    "Description": "The signature vipaza of Nidus Phryke.",
+    "Link": "Reshef Vipaza",
+    "Name": "Reshef Vipaza",
+    "InternalName": "/Lotus/Upgrades/Skins/Infestation/NidusDeluxeHipCloth",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Quincy's Beret": {
+    "Type": "Auxiliary",
+    "Image": "Quincy'sBeret.png",
+    "Description": "Quincy's favorite cap.",
+    "Link": "Quincy's Beret",
+    "Name": "Quincy's Beret",
+    "InternalName": "/Lotus/Upgrades/Skins/Frumentarius/WF1999FrumentariusAuxHat",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Citrine Prime Adornments": {
+    "Type": "Auxiliary",
+    "Image": "CitrinePrime_Thumb.png",
+    "Description": "Citrine Prime's signature adornments.",
+    "Link": "Citrine Prime Adornments",
+    "Name": "Citrine Prime Adornments",
+    "InternalName": "/Lotus/Upgrades/Skins/Geode/CitrinePrimeAux",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Rhino Deathwatch Wings": {
+    "Type": "Auxiliary",
+    "Image": "RhinoDeathwatchWings.png",
+    "Description": "The harbinger stretches his wings.",
+    "Link": "Rhino Deathwatch Wings",
+    "Name": "Rhino Deathwatch Wings",
+    "InternalName": "/Lotus/Upgrades/Skins/Rhino/RhinoDeluxeV2Wings",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Prime Iron Skin Override": {
     "Type": "Auxiliary",
     "Image": "PrimeIronSkinOverride.png",
@@ -517,25 +467,55 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Palatine Iron Skin Override": {
+  "Lepus Headgear": {
     "Type": "Auxiliary",
-    "Image": "PalatineIronSkinOverride.png",
-    "Description": "Show Rhino Palatine's Iron Skin look when the ability is triggered.",
-    "Link": "Palatine Iron Skin Override",
-    "Name": "Palatine Iron Skin Override",
-    "InternalName": "/Lotus/Upgrades/Skins/Rhino/RhinoIronSkinDeluxe",
+    "Image": "BunnyEars.png",
+    "Description": "A stylish accessory for your Warframe.",
+    "Link": "Lepus Headgear",
+    "Name": "Lepus Headgear",
+    "InternalName": "/Lotus/Upgrades/Skins/Events/BunnyEars",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "The Inventor": {
+    "Type": "Auxiliary",
+    "Image": "MustacheAnvil.png",
+    "Description": "A stylish moustache for your Warframe.",
+    "Link": "The Inventor",
+    "Name": "The Inventor",
+    "InternalName": "/Lotus/Upgrades/Skins/Mustache/Stache10",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
+  "Nekros Irkalla Binds": {
+    "Type": "Auxiliary",
+    "Image": "NekrosIrkallaBinds.png",
+    "Description": "The signature binds of Nekros Irkalla.",
+    "Link": "Nekros Irkalla Binds",
+    "Name": "Nekros Irkalla Binds",
+    "InternalName": "/Lotus/Upgrades/Skins/Necro/NekrosDeluxeDangles",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Mortos Binds": {
+  "The Baron": {
     "Type": "Auxiliary",
-    "Image": "MortosBinds.png",
-    "Description": "Only Nekros is permitted to wear the Mortos Binds.",
-    "Link": "Mortos Binds",
-    "Name": "Mortos Binds",
-    "InternalName": "/Lotus/Upgrades/Skins/Necro/NecroDangles",
+    "Image": "MustacheBaron.png",
+    "Description": "A stylish moustache for your Warframe.",
+    "Link": "The Baron",
+    "Name": "The Baron",
+    "InternalName": "/Lotus/Upgrades/Skins/Mustache/Stache05",
     "ExcludeFromCodex": false,
-    "CodexSecret": false
+    "CodexSecret": true
+  },
+  "The Dastard": {
+    "Type": "Auxiliary",
+    "Image": "MustacheDastard.png",
+    "Description": "A stylish moustache for your Warframe.",
+    "Link": "The Dastard",
+    "Name": "The Dastard",
+    "InternalName": "/Lotus/Upgrades/Skins/Mustache/Stache06",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
   },
   "Lavos Khymia Shoulder Vial": {
     "Type": "Auxiliary",
@@ -545,6 +525,16 @@
     "Name": "Lavos Khymia Shoulder Vial",
     "InternalName": "/Lotus/Upgrades/Skins/Alchemist/AlchemistDeluxeAuxShoulder",
     "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Khora's Spikes": {
+    "Type": "Auxiliary",
+    "Image": "Khora'sSpikes.png",
+    "Description": "Khora's standard back spikes.",
+    "Link": "Khora's Spikes",
+    "Name": "Khora's Spikes",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/QuillCanistersSyandana",
+    "ExcludeFromCodex": true,
     "CodexSecret": false
   },
   "The Tusker": {

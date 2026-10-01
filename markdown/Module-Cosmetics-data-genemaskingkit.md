@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/genemaskingkit"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/genemaskingkit"
-wiki_timestamp: "2026-04-15T14:31:09Z"
+wiki_timestamp: "2026-09-30T13:44:39Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/genemaskingkit/doc](/w/Module:Cosmetics/data/genemaskingkit/doc?action=edit&redlink=1 "Module:Cosmetics/data/genemaskingkit/doc (page does not exist)")*
@@ -88,7 +88,7 @@ return {
         Name = "Argon Violet",
         Type = "Gene-Masking Kit"
     },
-    ["Arid Brown"] = {
+    ["Arid Brown (Kavat)"] = {
         CodexSecret = true,
         Description = "Splices the genes in your pet Kavat to change the color of its fur.",
         ExcludeFromCodex = false,
@@ -98,7 +98,7 @@ return {
         Name = "Arid Brown",
         Type = "Gene-Masking Kit"
     },
-    ["Arid Brown"] = {
+    ["Arid Brown (Kubrow)"] = {
         CodexSecret = true,
         Description = "Splices the genes in your pet Kubrow to change the color of its fur.",
         ExcludeFromCodex = false,
@@ -198,7 +198,7 @@ return {
         Name = "Boiler Red",
         Type = "Gene-Masking Kit"
     },
-    ["Bombard White"] = {
+    ["Bombard White (Kavat)"] = {
         CodexSecret = true,
         Description = "Splices the genes in your pet Kavat to change the color of its fur.",
         ExcludeFromCodex = false,
@@ -208,7 +208,7 @@ return {
         Name = "Bombard White",
         Type = "Gene-Masking Kit"
     },
-    ["Bombard White"] = {
+    ["Bombard White (Kubrow)"] = {
         CodexSecret = true,
         Description = "Splices the genes in your pet Kubrow to change the color of its fur.",
         ExcludeFromCodex = false,
@@ -488,7 +488,7 @@ return {
         Name = "Evening Purple",
         Type = "Gene-Masking Kit"
     },
-    ["Executioner Grey"] = {
+    ["Executioner Grey (Kavat)"] = {
         CodexSecret = true,
         Description = "Splices the genes in your pet Kavat to change the color of its fur.",
         ExcludeFromCodex = false,
@@ -498,7 +498,7 @@ return {
         Name = "Executioner Grey",
         Type = "Gene-Masking Kit"
     },
-    ["Executioner Grey"] = {
+    ["Executioner Grey (Kubrow)"] = {
         CodexSecret = true,
         Description = "Splices the genes in your pet Kavat to change the color of its fur.",
         ExcludeFromCodex = false,
@@ -638,7 +638,7 @@ return {
         Name = "Horizon Pink",
         Type = "Gene-Masking Kit"
     },
-    ["Hyacinth Blue"] = {
+    ["Hyacinth Blue (Kavat)"] = {
         CodexSecret = true,
         Description = "Splices the genes in your pet Kavat to change the color of its fur.",
         ExcludeFromCodex = false,
@@ -648,7 +648,7 @@ return {
         Name = "Hyacinth Blue",
         Type = "Gene-Masking Kit"
     },
-    ["Hyacinth Blue"] = {
+    ["Hyacinth Blue (Kubrow)"] = {
         CodexSecret = true,
         Description = "Splices the genes in your pet Kavat to change the color of its fur.",
         ExcludeFromCodex = false,
@@ -828,7 +828,7 @@ return {
         Name = "Maipal Yellow",
         Type = "Gene-Masking Kit"
     },
-    ["Manic Black"] = {
+    ["Manic Black (Kavat)"] = {
         CodexSecret = true,
         Description = "Splices the genes in your pet Kavat to change the color of its fur.",
         ExcludeFromCodex = false,
@@ -838,7 +838,7 @@ return {
         Name = "Manic Black",
         Type = "Gene-Masking Kit"
     },
-    ["Manic Black"] = {
+    ["Manic Black (Kubrow)"] = {
         CodexSecret = true,
         Description = "Splices the genes in your pet Kubrow to change the color of its fur.",
         ExcludeFromCodex = false,
@@ -1158,7 +1158,7 @@ return {
         Name = "Rakta Red",
         Type = "Gene-Masking Kit"
     },
-    ["Regor Green"] = {
+    ["Regor Green (Kavat)"] = {
         CodexSecret = true,
         Description = "Splices the genes in your pet Kavat to change the color of its fur.",
         ExcludeFromCodex = false,
@@ -1168,7 +1168,7 @@ return {
         Name = "Regor Green",
         Type = "Gene-Masking Kit"
     },
-    ["Regor Green"] = {
+    ["Regor Green (Kubrow)"] = {
         CodexSecret = true,
         Description = "Splices the genes in your pet Kavat to change the color of its fur.",
         ExcludeFromCodex = false,
@@ -1468,7 +1468,7 @@ return {
         Name = "Watershed Blue",
         Type = "Gene-Masking Kit"
     },
-    ["Wukong Blue"] = {
+    ["Wukong Blue (Kavat)"] = {
         CodexSecret = true,
         Description = "Splices the genes in your pet Kavat to change the color of its fur.",
         ExcludeFromCodex = false,
@@ -1478,7 +1478,7 @@ return {
         Name = "Wukong Blue",
         Type = "Gene-Masking Kit"
     },
-    ["Wukong Blue"] = {
+    ["Wukong Blue (Kubrow)"] = {
         CodexSecret = true,
         Description = "Splices the genes in your pet Kubrow to change the color of its fur.",
         ExcludeFromCodex = false,

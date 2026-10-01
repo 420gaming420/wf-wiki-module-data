@@ -280,7 +280,7 @@ return {
         Name = "Nesyr Fur Pattern",
         Type = "Pattern"
     },
-    ["Neura Fur Pattern"] = {
+    ["Neura Fur Pattern (Kavat)"] = {
         CodexSecret = false,
         Description = "Eye-catching and asymmetrical Kavat fur-patterning straight from the Weave.",
         ExcludeFromCodex = false,
@@ -290,7 +290,7 @@ return {
         Name = "Neura Fur Pattern",
         Type = "Pattern"
     },
-    ["Neura Fur Pattern"] = {
+    ["Neura Fur Pattern (Kubrow)"] = {
         CodexSecret = false,
         Description = "Eye-catching and asymmetrical Kubrow fur-patterning straight from the Weave.",
         ExcludeFromCodex = false,

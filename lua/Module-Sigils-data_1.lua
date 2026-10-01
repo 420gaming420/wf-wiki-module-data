@@ -1394,9 +1394,9 @@ return {
 		Name = "Seed Sigil",
 		Link = "Sigils#New Loka"
 	},
-	["Shroud of Dynar Sigil Sigil"] = {
+	["Shroud of Dynar Sigil"] = {
 		Image = "ShroudofDynarSigil(SxWhite).png",
-		Name = "Shroud of Dynar Sigil Sigil",
+		Name = "Shroud of Dynar Sigil",
 		Link = "Sigil#Event Sigils",
 		Description = "A morbidly festive sigil."
 	},
@@ -1856,9 +1856,9 @@ return {
 		Name = "Will Sigil",
 		Link = "Sigils##Arbiters of Hexis"
 	},
-	["Winter Solstice Sigil"] = {
+	["Solstice Sigil"] = {
 		Image = "WinterSolsticeSigil(SxWhite).png",
-		Name = "Winter Solstice Sigil",
+		Name = "Solstice Sigil",
 		Description = "A festive sigil.",
 		Link = "Sigils#Community Event Sigils"
 	},

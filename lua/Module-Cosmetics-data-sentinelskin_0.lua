@@ -220,14 +220,14 @@ return {
         Name = "Loid Sentinel Skin",
         Type = "Sentinel Skin"
     },
-    ["Nautilus Prime Default Skin"] = {
+    ["Nautilus Prime Skin"] = {
         CodexSecret = false,
         Description = "The standard issue skin for the Nautilus Prime Sentinel.",
         ExcludeFromCodex = true,
         Image = "NautilusPrime.png",
         InternalName = "/Lotus/Upgrades/Skins/Sentinels/Skins/Defaults/DefaultNautilusPrimeSentinelSkin",
-        Link = "Nautilus Prime Default Skin",
-        Name = "Nautilus Prime Default Skin",
+        Link = "Nautilus Prime Skin",
+        Name = "Nautilus Prime Skin",
         Type = "Sentinel Skin"
     },
     ["Ordis Sentinel Skin"] = {

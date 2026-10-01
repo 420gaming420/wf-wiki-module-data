@@ -1,12 +1,12 @@
 ---
 title: "Module:Honorias/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Honorias/data"
-wiki_timestamp: "2026-09-26T19:45:30Z"
+wiki_timestamp: "2026-09-30T15:29:32Z"
 ---
 
 Database for all [Honorias](/w/Honoria "Honoria") in [WARFRAME](/w/WARFRAME "WARFRAME"). Preferably put new honorias in the correct alphabetical order, but it is not necessary.
 
-:   *Last updated: Sat, 26 Sep 2026 19:45:30 +0000 (UTC) by [User:ArbitraryMary](/w/User:ArbitraryMary "User:ArbitraryMary") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
+:   *Last updated: Wed, 30 Sep 2026 15:29:32 +0000 (UTC) by [User:ArbitraryMary](/w/User:ArbitraryMary "User:ArbitraryMary") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
 
 ## Contents
 
@@ -619,7 +619,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/SisterKillerTitle",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Tags = { "Adversary" },
+		Tags = { "Adversary", "Tenet" },
 	},
 	["Exorcist"] = {
 		Name = "Exorcist",

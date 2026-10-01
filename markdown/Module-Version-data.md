@@ -1,7 +1,7 @@
 ---
 title: "Module:Version/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Version/data"
-wiki_timestamp: "2026-09-28T19:15:29Z"
+wiki_timestamp: "2026-09-30T23:16:01Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Include official index links in schema like <https://www.warframe.com/patch-note
 
 Database for [Module:Version](/w/Module:Version "Module:Version"). Entries are in order by date in ascending order and are indexed by `Name` and each element in `Aliases` tables.
 
-:   *Last updated: Mon, 28 Sep 2026 19:15:29 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Version/data?diff=0))*
+:   *Last updated: Wed, 30 Sep 2026 23:16:01 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Version/data?diff=0))*
 
 ## Contents
 
@@ -663,7 +663,8 @@ Full Version List")]
 | [Update 18.4](/w/Update_18#Update_18.4 "Update 18") | 18.4 | U18.4 | Trinity Deluxe Strega Collection |  | ✔️ | 2016-01-22 | <https://forums.warframe.com/topic/597888-update-1840/> | 1453422263 | <https://web.archive.org/web/20210508075720/https://forums.warframe.com/topic/597888-update-1840/> | 2021-05-08 |
 | [Update 17.3](/w/Update_17#Update_17.3 "Update 17") | 17.3 | U17.3 | Tenno Reinforcements: Syndicate Weapons and Diriga |  | ✔️ | 2015-09-02 | <https://forums.warframe.com/topic/521781-update-1730/> | 1441227406 | <https://web.archive.org/web/20210508041801/https://forums.warframe.com/topic/521781-update-1730/> | 2021-05-08 |
 | [Hotfix 10.5.6](/w/Update_10#Hotfix_10.5.6 "Update 10") | 10.5 | H10.5.6 |  |  | ❌ | 2013-10-29 | <https://forums.warframe.com/topic/125633-hotfix-1056/> | 1383067211 | <https://web.archive.org/web/20220129234220/https://forums.warframe.com/topic/125633-hotfix-1056/> | 2022-01-29 |
-| [Hotfix 44.0.2](/w/Update_44:_Iceblade_of_Narin "Update 44: Iceblade of Narin") | 44.0 | H44.0.2 | Iceblade of Narin |  | ❌ | 2026-09-28 | <https://forums.warframe.com/topic/1525835-iceblade-of-narin-hotfix-4402/> | 1790636822 | <https://web.archive.org/web/20260928191357/https://forums.warframe.com/topic/1525835-iceblade-of-narin-hotfix-4402/> | 2026-09-24 |
+| [Hotfix 44.0.3](/w/Update_44:_Iceblade_of_Narin "Update 44: Iceblade of Narin") | 44.0 | H44.0.3 | Iceblade of Narin |  | ❌ | 2026-09-30 | <https://forums.warframe.com/topic/1526292-iceblade-of-narin-hotfix-4403/> | 1790813194 | <https://web.archive.org/web/20260930231247/https://forums.warframe.com/topic/1526292-iceblade-of-narin-hotfix-4403/> | 2026-09-30 |
+| [Hotfix 44.0.2](/w/Update_44:_Iceblade_of_Narin "Update 44: Iceblade of Narin") | 44.0 | H44.0.2 | Iceblade of Narin |  | ❌ | 2026-09-28 | <https://forums.warframe.com/topic/1525835-iceblade-of-narin-hotfix-4402/> | 1790636822 | <https://web.archive.org/web/20260928191357/https://forums.warframe.com/topic/1525835-iceblade-of-narin-hotfix-4402/> | 2026-09-28 |
 | [Update 44.0](/w/Update_44:_Iceblade_of_Narin "Update 44: Iceblade of Narin") | 44.0 | U44.0 | Iceblade of Narin |  | ✔️ | 2026-09-23 | <https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/> | 1790175780 | <https://web.archive.org/web/20260923160723/https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/> | 2026-09-23 |
 | [Hotfix 19.0.5](/w/Update_19#Hotfix_19.0.5 "Update 19") | 19.0 | H19.0.5 |  |  | ❌ | 2016-11-18 | <https://forums.warframe.com/topic/721283-hotfix-1905/> | 1479485369 | <https://web.archive.org/web/20191028153442/https://forums.warframe.com/topic/721283-hotfix-1905/> | 2019-10-28 |
 | [Hotfix 43.5.4](/w/Update_43#Hotfix_43.5.4 "Update 43") | 43.0 | H43.5.4 |  |  | ❌ | 2026-08-19 | <https://forums.warframe.com/topic/1520771-amir%E2%80%99s-shockwave-hotfix-4354/> | 1787177125 |  |  |
@@ -20908,8 +20909,21 @@ local Versions = {
 		Parent = "44.0",
 		ForumLink = "https://forums.warframe.com/topic/1525835-iceblade-of-narin-hotfix-4402/",
 		ArchiveLink = "https://web.archive.org/web/20260928191357/https://forums.warframe.com/topic/1525835-iceblade-of-narin-hotfix-4402/",
-		ArchiveDate = "2026-09-24",
+		ArchiveDate = "2026-09-28",
 		Timestamp = 1790636822,
+		Subtitle = "Iceblade of Narin"
+	},
+	{
+		Name = "Hotfix 44.0.3",
+		Link = "Update 44: Iceblade of Narin",
+		Aliases = { "44.0.3" },
+		ShortName = "H44.0.3",
+		Date = "2026-09-30",
+		Parent = "44.0",
+		ForumLink = "https://forums.warframe.com/topic/1526292-iceblade-of-narin-hotfix-4403/",
+		ArchiveLink = "https://web.archive.org/web/20260930231247/https://forums.warframe.com/topic/1526292-iceblade-of-narin-hotfix-4403/",
+		ArchiveDate = "2026-09-30",
+		Timestamp = 1790813194,
 		Subtitle = "Iceblade of Narin"
 	},
 }

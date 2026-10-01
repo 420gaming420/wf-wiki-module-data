@@ -433,7 +433,7 @@ return {
         Description = "Elevate the Arca Titron with glowing line work reminiscent of calligraphy.",
         ExcludeFromCodex = false,
         Image = "ArcaTitronRayaSkin.png",
-        InternalName = "/Lotus/Upgrades/Skins/Nightwave/CosmosArcaTitronSkin ",
+        InternalName = "/Lotus/Upgrades/Skins/Nightwave/CosmosArcaTitronSkin",
         Introduced = "38.6",
         Link = "Arca Titron Raya Skin",
         Name = "Arca Titron Raya Skin",
@@ -603,7 +603,7 @@ return {
         Description = "This Karyst skin bears the markings of a long forgotten assassin's order, the Scoria.",
         ExcludeFromCodex = false,
         Image = "BladeswarmKarystSkin.png",
-        InternalName = "/Lotus/Upgrades/Skins/Weapons/LongGuns/AshGeminiVectisSkin",
+        InternalName = "/Lotus/Upgrades/Skins/Weapons/Daggers/AshGeminiDaggerSkin",
         Introduced = "43",
         Link = "Bladeswarm Karyst Skin",
         Name = "Bladeswarm Karyst Skin",
@@ -625,7 +625,7 @@ return {
         Description = "This Vectis skin's camouflage is designed for long stakeouts, an essential part of any assassin's toolkit.",
         ExcludeFromCodex = false,
         Image = "BladeswarmVectisSkin.png",
-        InternalName = "/Lotus/Upgrades/Skins/Weapons/Daggers/AshGeminiDaggerSkin",
+        InternalName = "/Lotus/Upgrades/Skins/Weapons/LongGuns/AshGeminiVectisSkin",
         Introduced = "43",
         Link = "Bladeswarm Vectis Skin",
         Name = "Bladeswarm Vectis Skin",
@@ -3592,7 +3592,7 @@ return {
         Description = "Narin's frozen rapier skin, bestowed upon only those whom she deems worthy.",
         ExcludeFromCodex = false,
         Image = "NeoteRapierSkin.png",
-        InternalName = "/Lotus/Upgrades/Skins/Weapons/Rapier/",
+        InternalName = "/Lotus/Upgrades/Skins/Weapons/Rapier/IcebladeRapierSkin",
         Link = "Neote Rapier Skin",
         Name = "Neote Rapier Skin",
         Type = "Weapon Skin"
@@ -5297,7 +5297,7 @@ return {
         Description = "Celebrate the festive season by unleashing sweet minty death on all your favorite foes.",
         ExcludeFromCodex = true,
         Image = "SpearmintScytheSkin.png",
-        InternalName = "/Lotus/Upgrades/Skins/Promo/Seasonal/CandyCaneScytheSkin",
+        InternalName = "/Lotus/Upgrades/Skins/Promo/Seasonal/CandyCaneEtherReaperSkin",
         Link = "Spearmint Scythe Skin",
         Name = "Spearmint Scythe Skin",
         Type = "Weapon Skin"
@@ -5567,7 +5567,7 @@ return {
 		InternalName = "/Lotus/Upgrades/Skins/Deluxe/AtlasDeluxeSparring",
 		Link = "Tecton Sparring Skin",
 		Name = "Tecton Sparring Skin",
-		Type = "Skin"
+		Type = "Weapon Skin"
 	},
     ["Tempera Amp Skin"] = {
         CodexSecret = false,
@@ -6111,7 +6111,7 @@ return {
         Description = "Vena's signature talons.",
         ExcludeFromCodex = false,
         Image = "Vena'sTalons.png",
-        InternalName = "/Lotus/Upgrades/Skins/Garuda/GarudaGeminiClawsSkin",
+        InternalName = "/Lotus/Upgrades/Skins/Garuda/GarudaGeminiSkin",
         Link = "Vena Gemini Skin",
         Name = "Vena Gemini Skin",
         Type = "Weapon Skin"

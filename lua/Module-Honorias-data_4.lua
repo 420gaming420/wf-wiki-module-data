@@ -527,7 +527,7 @@ local honoriaData = {
 		InternalName = "/Lotus/Types/Items/Titles/SisterKillerTitle",
 		CodexSecret = true,
 		ExcludeFromCodex = true,
-		Tags = { "Adversary" },
+		Tags = { "Adversary", "Tenet" },
 	},
 	["Exorcist"] = {
 		Name = "Exorcist",

@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:55:08.844Z"
+    "converted_at": "2026-10-01T08:33:16.508Z"
   },
   "_comments": "\t-- companion patterns\n\t-- companion skins",
   "Hyacinth Fur Pattern": {
@@ -74,6 +74,16 @@
     "Link": "Solstice Kubrow Fur Pattern",
     "Name": "Solstice Kubrow Fur Pattern",
     "InternalName": "/Lotus/Upgrades/Skins/Kubrows/Fur/SolsticeKubrowFur",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Neura Fur Pattern (Kavat)": {
+    "Type": "Pattern",
+    "Image": "KavatFurPatternCeph.png",
+    "Description": "Eye-catching and asymmetrical Kavat fur-patterning straight from the Weave.",
+    "Link": "Neura Fur Pattern",
+    "Name": "Neura Fur Pattern",
+    "InternalName": "/Lotus/Upgrades/Skins/Catbrows/CephalonCatbrowFur",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -187,13 +197,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Patchy Fur Pattern": {
+  "Neura Fur Pattern (Kubrow)": {
     "Type": "Pattern",
-    "Image": "KubrowPetPatternB.png",
-    "Description": "A patchy fur pattern for your Kubrow.",
-    "Link": "Patchy Fur Pattern",
-    "Name": "Patchy Fur Pattern",
-    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternB",
+    "Image": "KubrowPetPatternCeph.png",
+    "Description": "Eye-catching and asymmetrical Kubrow fur-patterning straight from the Weave.",
+    "Link": "Neura Fur Pattern",
+    "Name": "Neura Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternCephalon",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -347,6 +357,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Patchy Fur Pattern": {
+    "Type": "Pattern",
+    "Image": "KubrowPetPatternB.png",
+    "Description": "A patchy fur pattern for your Kubrow.",
+    "Link": "Patchy Fur Pattern",
+    "Name": "Patchy Fur Pattern",
+    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternB",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Nexus Fur Pattern": {
     "Type": "Pattern",
     "Image": "KubrowPetPatternPrimeTraderA.png",
@@ -354,16 +374,6 @@
     "Link": "Nexus Fur Pattern",
     "Name": "Nexus Fur Pattern",
     "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternPrimeTraderA",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Neura Fur Pattern": {
-    "Type": "Pattern",
-    "Image": "KubrowPetPatternCeph.png",
-    "Description": "Eye-catching and asymmetrical Kubrow fur-patterning straight from the Weave.",
-    "Link": "Neura Fur Pattern",
-    "Name": "Neura Fur Pattern",
-    "InternalName": "/Lotus/Types/Game/KubrowPet/Patterns/KubrowPetPatternCephalon",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },

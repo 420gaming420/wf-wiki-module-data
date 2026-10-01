@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-25T07:21:10.511Z"
+    "converted_at": "2026-10-01T08:33:29.778Z"
   },
   "_comments": "",
   "Fractal Sigil": {
@@ -254,12 +254,6 @@
     "Image": "BladesSigil(SxWhite).png",
     "Description": "A sigil representing prestige gained with the Red Veil.",
     "Link": "Sigils#Red Veil"
-  },
-  "Winter Solstice Sigil": {
-    "Description": "A festive sigil.",
-    "Image": "WinterSolsticeSigil(SxWhite).png",
-    "Name": "Winter Solstice Sigil",
-    "Link": "Sigils#Community Event Sigils"
   },
   "False Profit Sigil": {
     "Description": "This sigil commemorates the Tenno victory over the machinations of Nef Anyo.",
@@ -922,17 +916,17 @@
     "Name": "Ostron Kin Sigil",
     "Link": "Sigils#Ostron"
   },
-  "Zariman Sigil": {
-    "Image": "ZarimanSigil(SxWhite).png",
-    "Description": "Represent the Zariman spirit of comradery and ingenuity.",
-    "Name": "Zariman Sigil"
-  },
   "Raptor Sigil": {
     "Image": "RaptorSigil(SxWhite).png",
     "Description": "A sigil depicting the Raptor.",
     "Link": "Sigils#Enemy Drop Sigils",
     "SellPrice": 1000,
     "Name": "Raptor Sigil"
+  },
+  "Zariman Sigil": {
+    "Image": "ZarimanSigil(SxWhite).png",
+    "Description": "Represent the Zariman spirit of comradery and ingenuity.",
+    "Name": "Zariman Sigil"
   },
   "Yareli Aquablade Sigil": {
     "Image": "YareliAquabladeSigil(SxWhite).png",
@@ -944,6 +938,11 @@
     "Image": "WukongQitianSigil(SxWhite).png",
     "Description": "Show due respect for Wukong Qitian’s power and cunning with this sigil.",
     "Link": "Sigils#Purchasable Sigils"
+  },
+  "Wreath Sigil": {
+    "Image": "WreathSigil(SxWhite).png",
+    "Name": "Wreath Sigil",
+    "Link": "Sigil#Tactical Alert Sigils"
   },
   "Eight Claw Sigil": {
     "Name": "Eight Claw Sigil",
@@ -957,10 +956,11 @@
     "Name": "Lunar Renewal Prowl Sigil",
     "Link": "Sigils#Purchasable Sigils"
   },
-  "Wreath Sigil": {
-    "Image": "WreathSigil(SxWhite).png",
-    "Name": "Wreath Sigil",
-    "Link": "Sigil#Tactical Alert Sigils"
+  "Solstice Sigil": {
+    "Description": "A festive sigil.",
+    "Image": "WinterSolsticeSigil(SxWhite).png",
+    "Name": "Solstice Sigil",
+    "Link": "Sigils#Community Event Sigils"
   },
   "Will Sigil": {
     "Name": "Will Sigil",
@@ -1163,10 +1163,10 @@
     "Name": "Tolling Sigil",
     "Link": "Sigil#Tactical Alert Sigils"
   },
-  "Shroud of Dynar Sigil Sigil": {
+  "Shroud of Dynar Sigil": {
     "Description": "A morbidly festive sigil.",
     "Image": "ShroudofDynarSigil(SxWhite).png",
-    "Name": "Shroud of Dynar Sigil Sigil",
+    "Name": "Shroud of Dynar Sigil",
     "Link": "Sigil#Event Sigils"
   },
   "The Index Sigil": {

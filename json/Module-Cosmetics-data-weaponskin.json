@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-30T08:12:21.975Z"
+    "converted_at": "2026-10-01T08:33:21.800Z"
   },
   "_comments": "",
   "Protokol 95 Pistol Skin": {
@@ -215,7 +215,7 @@
     "Description": "Narin's frozen rapier skin, bestowed upon only those whom she deems worthy.",
     "Link": "Neote Rapier Skin",
     "Name": "Neote Rapier Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Weapons/Rapier/",
+    "InternalName": "/Lotus/Upgrades/Skins/Weapons/Rapier/IcebladeRapierSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -572,7 +572,7 @@
     "Description": "Vena's signature talons.",
     "Link": "Vena Gemini Skin",
     "Name": "Vena Gemini Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Garuda/GarudaGeminiClawsSkin",
+    "InternalName": "/Lotus/Upgrades/Skins/Garuda/GarudaGeminiSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -1648,7 +1648,7 @@
     "Image": "ArcaTitronRayaSkin.png",
     "Name": "Arca Titron Raya Skin",
     "Introduced": "38.6",
-    "InternalName": "/Lotus/Upgrades/Skins/Nightwave/CosmosArcaTitronSkin ",
+    "InternalName": "/Lotus/Upgrades/Skins/Nightwave/CosmosArcaTitronSkin",
     "CodexSecret": false
   },
   "Soma Huntsman Skin": {
@@ -2594,7 +2594,7 @@
     "CodexSecret": false
   },
   "Tecton Sparring Skin": {
-    "Type": "Skin",
+    "Type": "Weapon Skin",
     "Image": "TectonSparringSkin.png",
     "Description": "With seismic force shatter and sunder, blow upon blow. Enemies quake at the sight of these signature sparring weapon skins.",
     "Link": "Tecton Sparring Skin",
@@ -3098,7 +3098,7 @@
     "Image": "BladeswarmKarystSkin.png",
     "Name": "Bladeswarm Karyst Skin",
     "Introduced": "43",
-    "InternalName": "/Lotus/Upgrades/Skins/Weapons/LongGuns/AshGeminiVectisSkin",
+    "InternalName": "/Lotus/Upgrades/Skins/Weapons/Daggers/AshGeminiDaggerSkin",
     "CodexSecret": true
   },
   "Penta Shock-Camo Skin": {
@@ -3263,7 +3263,7 @@
     "Image": "BladeswarmVectisSkin.png",
     "Name": "Bladeswarm Vectis Skin",
     "Introduced": "43",
-    "InternalName": "/Lotus/Upgrades/Skins/Weapons/Daggers/AshGeminiDaggerSkin",
+    "InternalName": "/Lotus/Upgrades/Skins/Weapons/LongGuns/AshGeminiVectisSkin",
     "CodexSecret": true
   },
   "Gorgon Obsidian Skin": {
@@ -4209,7 +4209,7 @@
     "Description": "Celebrate the festive season by unleashing sweet minty death on all your favorite foes.",
     "Link": "Spearmint Scythe Skin",
     "Name": "Spearmint Scythe Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Promo/Seasonal/CandyCaneScytheSkin",
+    "InternalName": "/Lotus/Upgrades/Skins/Promo/Seasonal/CandyCaneEtherReaperSkin",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },

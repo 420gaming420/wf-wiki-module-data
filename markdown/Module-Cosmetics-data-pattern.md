@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/pattern"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/pattern"
-wiki_timestamp: "2026-07-22T15:41:45Z"
+wiki_timestamp: "2026-09-30T22:45:40Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/pattern/doc](/w/Module:Cosmetics/data/pattern/doc?action=edit&redlink=1 "Module:Cosmetics/data/pattern/doc (page does not exist)")*
@@ -289,7 +289,7 @@ return {
         Name = "Nesyr Fur Pattern",
         Type = "Pattern"
     },
-    ["Neura Fur Pattern"] = {
+    ["Neura Fur Pattern (Kavat)"] = {
         CodexSecret = false,
         Description = "Eye-catching and asymmetrical Kavat fur-patterning straight from the Weave.",
         ExcludeFromCodex = false,
@@ -299,7 +299,7 @@ return {
         Name = "Neura Fur Pattern",
         Type = "Pattern"
     },
-    ["Neura Fur Pattern"] = {
+    ["Neura Fur Pattern (Kubrow)"] = {
         CodexSecret = false,
         Description = "Eye-catching and asymmetrical Kubrow fur-patterning straight from the Weave.",
         ExcludeFromCodex = false,

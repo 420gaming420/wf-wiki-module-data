@@ -19229,8 +19229,21 @@ local Versions = {
 		Parent = "44.0",
 		ForumLink = "https://forums.warframe.com/topic/1525835-iceblade-of-narin-hotfix-4402/",
 		ArchiveLink = "https://web.archive.org/web/20260928191357/https://forums.warframe.com/topic/1525835-iceblade-of-narin-hotfix-4402/",
-		ArchiveDate = "2026-09-24",
+		ArchiveDate = "2026-09-28",
 		Timestamp = 1790636822,
+		Subtitle = "Iceblade of Narin"
+	},
+	{
+		Name = "Hotfix 44.0.3",
+		Link = "Update 44: Iceblade of Narin",
+		Aliases = { "44.0.3" },
+		ShortName = "H44.0.3",
+		Date = "2026-09-30",
+		Parent = "44.0",
+		ForumLink = "https://forums.warframe.com/topic/1526292-iceblade-of-narin-hotfix-4403/",
+		ArchiveLink = "https://web.archive.org/web/20260930231247/https://forums.warframe.com/topic/1526292-iceblade-of-narin-hotfix-4403/",
+		ArchiveDate = "2026-09-30",
+		Timestamp = 1790813194,
 		Subtitle = "Iceblade of Narin"
 	},
 }

@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-25T07:20:54.278Z"
+    "converted_at": "2026-10-01T08:33:19.153Z"
   },
   "_comments": "",
   "Gast Sentinel Skin": {
@@ -249,12 +249,12 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Nautilus Prime Default Skin": {
+  "Nautilus Prime Skin": {
     "Type": "Sentinel Skin",
     "Image": "NautilusPrime.png",
     "Description": "The standard issue skin for the Nautilus Prime Sentinel.",
-    "Link": "Nautilus Prime Default Skin",
-    "Name": "Nautilus Prime Default Skin",
+    "Link": "Nautilus Prime Skin",
+    "Name": "Nautilus Prime Skin",
     "InternalName": "/Lotus/Upgrades/Skins/Sentinels/Skins/Defaults/DefaultNautilusPrimeSentinelSkin",
     "ExcludeFromCodex": true,
     "CodexSecret": false

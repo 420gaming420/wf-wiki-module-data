@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-09-28T00:08:48Z"
+wiki_timestamp: "2026-10-01T04:36:04Z"
 ---
 
 ## Contents
@@ -302,11 +302,12 @@ local Data = {
 	['Nurinarim']={
 		ins={
 			{name='COLD_STATUS_COUNT', cont='Number of '..Tooltips.full('Cold', 'DamageTypes')..' procs on enemy: ', type='range-R', min='1', max='10', default='1'},
+			{name='ENEMY_IS_MARKED', cont='Enemy is marked?', type='checkbox'},
 		},
 		outs={
 			{'Ice aura '..Tooltips.full('Cold', 'DamageTypes')..' damage:' , {expr='STR 500 %of', suff='/s'}},
-			{'Icy Slash'..Tooltips.full('Cold', 'DamageTypes')..'  damage:' , {expr='STR 40000 %of'}},
-			{'Frozen enemy explosion '..Tooltips.full('Cold', 'DamageTypes')..' damage:' , {expr='STR 20000 %of'}},
+			{'Icy Slash'..Tooltips.full('Cold', 'DamageTypes')..'  damage:' , {expr='STR 20000 %of 2 1 ENEMY_IS_MARKED if *'}},
+			{'Frozen enemy explosion '..Tooltips.full('Cold', 'DamageTypes')..' damage:' , {expr='STR 10000 %of 2 1 ENEMY_IS_MARKED if *'}},
 			{'Max duration:', {expr='DUR 15 %of', suff='s'}},
 			{'Ice aura radius:', {expr='RNG 8 %of', suff='m'}},
 			{'Frozen enemy explosion radius:', {expr='RNG 10 %of', suff='m'}},

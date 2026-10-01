@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-28T08:26:04.856Z"
+    "converted_at": "2026-10-01T08:33:27.087Z"
   },
   "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins\n-- this contains mappings for what we couldn't pull from preexisting modules\n\t-- Ash\n\t-- Atlas\n\t-- Narin\n\t-- Nidus",
   "Ravenous": {
@@ -489,13 +489,13 @@
       [
         "Icy Slash{{#invoke:Tooltip|full|Cold|DamageTypes}}  damage:",
         {
-          "expr": "STR 40000 %of"
+          "expr": "STR 20000 %of 2 1 ENEMY_IS_MARKED if *"
         }
       ],
       [
         "Frozen enemy explosion {{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
         {
-          "expr": "STR 20000 %of"
+          "expr": "STR 10000 %of 2 1 ENEMY_IS_MARKED if *"
         }
       ],
       [
@@ -548,6 +548,11 @@
         "max": "10",
         "default": "1",
         "cont": "Number of {{#invoke:Tooltip|full|Cold|DamageTypes}} procs on enemy: "
+      },
+      {
+        "type": "checkbox",
+        "name": "ENEMY_IS_MARKED",
+        "cont": "Enemy is marked?"
       }
     ]
   },

@@ -259,44 +259,74 @@ return {
         Name = "AdultMaleHeadM",
         Type = "Face"
     },
-    ["BeardA"] = {
+    ["Drifter Facial Hair 001"] = {
 		CodexSecret = false,
 		Description = "Facial hair for Drifter.",
 		ExcludeFromCodex = true,
-		Image = "BeardA.png",
+		Image = "DrifterFacialHair001.png",
+		InternalName = "/Lotus/Upgrades/Skins/Operator/Beards/Beard001Cap",
+		Link = "Drifter/Customization#Facial_Hair",
+		Name = "Drifter Facial Hair 001",
+		Type = "Beard"
+	},
+    ["Drifter Facial Hair 002"] = {
+		CodexSecret = false,
+		Description = "Facial hair for Drifter.",
+		ExcludeFromCodex = true,
+		Image = "DrifterFacialHair002.png",
 		InternalName = "/Lotus/Upgrades/Skins/Operator/Beards/BeardA",
-		Link = "BeardA",
-		Name = "BeardA",
+		Link = "Drifter/Customization#Facial_Hair",
+		Name = "Drifter Facial Hair 002",
 		Type = "Beard"
 	},
-	["BeardB"] = {
+    ["Drifter Facial Hair 003"] = {
 		CodexSecret = false,
 		Description = "Facial hair for Drifter.",
 		ExcludeFromCodex = true,
-		Image = "BeardB.png",
+		Image = "DrifterFacialHair003.png",
 		InternalName = "/Lotus/Upgrades/Skins/Operator/Beards/BeardB",
-		Link = "BeardB",
-		Name = "BeardB",
+		Link = "Drifter/Customization#Facial_Hair",
+		Name = "Drifter Facial Hair 003",
 		Type = "Beard"
 	},
-	["BeardC"] = {
+    ["Drifter Facial Hair 004"] = {
 		CodexSecret = false,
 		Description = "Facial hair for Drifter.",
 		ExcludeFromCodex = true,
-		Image = "BeardC.png",
+		Image = "DrifterFacialHair004.png",
 		InternalName = "/Lotus/Upgrades/Skins/Operator/Beards/BeardC",
-		Link = "BeardC",
-		Name = "BeardC",
+		Link = "Drifter/Customization#Facial_Hair",
+		Name = "Drifter Facial Hair 004",
 		Type = "Beard"
 	},
-	["BeardN"] = {
+    ["Drifter Facial Hair 005"] = {
 		CodexSecret = false,
 		Description = "Facial hair for Drifter.",
 		ExcludeFromCodex = true,
-		Image = "BeardN.png",
+		Image = "DrifterFacialHair005.png",
+		InternalName = "/Lotus/Upgrades/Skins/Operator/Beards/BeardD",
+		Link = "Drifter/Customization#Facial_Hair",
+		Name = "Drifter Facial Hair 005",
+		Type = "Beard"
+	},
+    ["Drifter Facial Hair 006"] = {
+		CodexSecret = false,
+		Description = "Facial hair for Drifter.",
+		ExcludeFromCodex = true,
+		Image = "DrifterFacialHair006.png",
+		InternalName = "/Lotus/Upgrades/Skins/Operator/Beards/BeardE",
+		Link = "Drifter/Customization#Facial_Hair",
+		Name = "Drifter Facial Hair 006",
+		Type = "Beard"
+	},
+    ["Drifter Facial Hair 007"] = {
+		CodexSecret = false,
+		Description = "Facial hair for Drifter.",
+		ExcludeFromCodex = true,
+		Image = "DrifterFacialHair007.png",
 		InternalName = "/Lotus/Upgrades/Skins/Operator/Beards/BeardN",
-		Link = "BeardN",
-		Name = "BeardN",
+		Link = "Drifter/Customization#Facial_Hair",
+		Name = "Drifter Facial Hair 007",
 		Type = "Beard"
 	},
     ["FemaleHeadA"] = {

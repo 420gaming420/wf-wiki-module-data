@@ -79,6 +79,16 @@ return {
         Name = "Chroma Zunlong Wings",
         Type = "Auxiliary"
     },
+    ["Citrine Prime Adornments"] = {
+		CodexSecret = false,
+		Description = "Citrine Prime's signature adornments.",
+		ExcludeFromCodex = true,
+		Image = "CitrinePrime_Thumb.png",
+		InternalName = "/Lotus/Upgrades/Skins/Geode/CitrinePrimeAux",
+		Link = "Citrine Prime Adornments",
+		Name = "Citrine Prime Adornments",
+		Type = "Auxiliary"
+	},
 	["Corporeal"] = {
 		CodexSecret = false,
 		Description = "Xaku will constantly remain in corporeal form.",
@@ -109,66 +119,66 @@ return {
 		Name = "Glaukus Halyard",
 		Type = "Auxiliary"
 	},
-	["Glow-Cloak"] = {
-		CodexSecret = false,
-		Description = "An alternate, opaque glow, for when this Warframe is cloaked. Does not alter enemy perception.",
-		ExcludeFromCodex = true,
-		Image = "InvisOverrideAshB.png",
-		InternalName = "/Lotus/Upgrades/Skins/Ninja/NinjaAltCloakB",
-		Link = "Glow-Cloak",
-		Name = "Glow-Cloak",
-		Type = "Auxiliary"
-	},
-	["Glow-Cloak"] = {
-		CodexSecret = false,
-		Description = "An alternate, opaque glow, for when this Warframe is cloaked. Does not alter enemy perception.",
-		ExcludeFromCodex = true,
-		Image = "InvisOverrideFrumentariusB.png",
-		InternalName = "/Lotus/Upgrades/Skins/Frumentarius/FrumentariusAltCloakB",
-		Link = "Glow-Cloak",
-		Name = "Glow-Cloak",
-		Type = "Auxiliary"
-	},
-	["Glow-Cloak"] = {
-		CodexSecret = false,
-		Description = "An alternate, opaque glow, for when this Warframe is cloaked. Does not alter enemy perception.",
-		ExcludeFromCodex = true,
-		Image = "InvisOverrideIvaraB.png",
-		InternalName = "/Lotus/Upgrades/Skins/Ranger/RangerAltCloakB",
-		Link = "Glow-Cloak",
-		Name = "Glow-Cloak",
-		Type = "Auxiliary"
-	},
-	["Glow-Cloak"] = {
-		CodexSecret = false,
-		Description = "An alternate, opaque glow, for when this Warframe is cloaked. Does not alter enemy perception.",
-		ExcludeFromCodex = true,
-		Image = "InvisOverrideLokiB.png",
-		InternalName = "/Lotus/Upgrades/Skins/Loki/LokiAltCloakB",
-		Link = "Glow-Cloak",
-		Name = "Glow-Cloak",
-		Type = "Auxiliary"
-	},
-	["Glow-Cloak"] = {
-		CodexSecret = false,
-		Description = "An alternate, opaque glow, for when this Warframe is cloaked. Does not alter enemy perception.",
-		ExcludeFromCodex = true,
-		Image = "InvisOverrideOctaviaB.png",
-		InternalName = "/Lotus/Upgrades/Skins/Bard/BardAltCloakB",
-		Link = "Glow-Cloak",
-		Name = "Glow-Cloak",
-		Type = "Auxiliary"
-	},
-	["Glow-Cloak"] = {
-		CodexSecret = false,
-		Description = "An alternate, opaque glow, for when this Warframe is cloaked. Does not alter enemy perception.",
-		ExcludeFromCodex = true,
-		Image = "InvisOverrideVorunaB.png",
-		InternalName = "/Lotus/Upgrades/Skins/Werewolf/WerewolfAltCloakB",
-		Link = "Glow-Cloak",
-		Name = "Glow-Cloak",
-		Type = "Auxiliary"
-	},
+	-- ["Glow-Cloak"] = {
+	-- 	CodexSecret = false,
+	-- 	Description = "An alternate, opaque glow, for when this Warframe is cloaked. Does not alter enemy perception.",
+	-- 	ExcludeFromCodex = true,
+	-- 	Image = "InvisOverrideAshB.png",
+	-- 	InternalName = "/Lotus/Upgrades/Skins/Ninja/NinjaAltCloakB",
+	-- 	Link = "Glow-Cloak",
+	-- 	Name = "Glow-Cloak",
+	-- 	Type = "Auxiliary"
+	-- },
+	-- ["Glow-Cloak"] = {
+	-- 	CodexSecret = false,
+	-- 	Description = "An alternate, opaque glow, for when this Warframe is cloaked. Does not alter enemy perception.",
+	-- 	ExcludeFromCodex = true,
+	-- 	Image = "InvisOverrideFrumentariusB.png",
+	-- 	InternalName = "/Lotus/Upgrades/Skins/Frumentarius/FrumentariusAltCloakB",
+	-- 	Link = "Glow-Cloak",
+	-- 	Name = "Glow-Cloak",
+	-- 	Type = "Auxiliary"
+	-- },
+	-- ["Glow-Cloak"] = {
+	-- 	CodexSecret = false,
+	-- 	Description = "An alternate, opaque glow, for when this Warframe is cloaked. Does not alter enemy perception.",
+	-- 	ExcludeFromCodex = true,
+	-- 	Image = "InvisOverrideIvaraB.png",
+	-- 	InternalName = "/Lotus/Upgrades/Skins/Ranger/RangerAltCloakB",
+	-- 	Link = "Glow-Cloak",
+	-- 	Name = "Glow-Cloak",
+	-- 	Type = "Auxiliary"
+	-- },
+	-- ["Glow-Cloak"] = {
+	-- 	CodexSecret = false,
+	-- 	Description = "An alternate, opaque glow, for when this Warframe is cloaked. Does not alter enemy perception.",
+	-- 	ExcludeFromCodex = true,
+	-- 	Image = "InvisOverrideLokiB.png",
+	-- 	InternalName = "/Lotus/Upgrades/Skins/Loki/LokiAltCloakB",
+	-- 	Link = "Glow-Cloak",
+	-- 	Name = "Glow-Cloak",
+	-- 	Type = "Auxiliary"
+	-- },
+	-- ["Glow-Cloak"] = {
+	-- 	CodexSecret = false,
+	-- 	Description = "An alternate, opaque glow, for when this Warframe is cloaked. Does not alter enemy perception.",
+	-- 	ExcludeFromCodex = true,
+	-- 	Image = "InvisOverrideOctaviaB.png",
+	-- 	InternalName = "/Lotus/Upgrades/Skins/Bard/BardAltCloakB",
+	-- 	Link = "Glow-Cloak",
+	-- 	Name = "Glow-Cloak",
+	-- 	Type = "Auxiliary"
+	-- },
+	-- ["Glow-Cloak"] = {
+	-- 	CodexSecret = false,
+	-- 	Description = "An alternate, opaque glow, for when this Warframe is cloaked. Does not alter enemy perception.",
+	-- 	ExcludeFromCodex = true,
+	-- 	Image = "InvisOverrideVorunaB.png",
+	-- 	InternalName = "/Lotus/Upgrades/Skins/Werewolf/WerewolfAltCloakB",
+	-- 	Link = "Glow-Cloak",
+	-- 	Name = "Glow-Cloak",
+	-- 	Type = "Auxiliary"
+	-- },
 	["Heirloom Iron Skin Override"] = {
 		CodexSecret = false,
 		Description = "Show Rhino Heirloom's Iron Skin look when the ability is triggered.",
@@ -389,66 +399,66 @@ return {
 		Name = "Ryoku's Cowl",
 		Type = "Auxiliary"
 	},
-	["Semi-Cloak"] = {
-		CodexSecret = false,
-		Description = "A semi-transparent look when this Warframe is cloaked. Does not alter enemy perception.",
-		ExcludeFromCodex = true,
-		Image = "InvisOverrideAshA.png",
-		InternalName = "/Lotus/Upgrades/Skins/Ninja/NinjaAltCloakA",
-		Link = "Semi-Cloak",
-		Name = "Semi-Cloak",
-		Type = "Auxiliary"
-	},
-	["Semi-Cloak"] = {
-		CodexSecret = false,
-		Description = "A semi-transparent look when this Warframe is cloaked. Does not alter enemy perception.",
-		ExcludeFromCodex = true,
-		Image = "InvisOverrideFrumentariusA.png",
-		InternalName = "/Lotus/Upgrades/Skins/Frumentarius/FrumentariusAltCloakA",
-		Link = "Semi-Cloak",
-		Name = "Semi-Cloak",
-		Type = "Auxiliary"
-	},
-	["Semi-Cloak"] = {
-		CodexSecret = false,
-		Description = "A semi-transparent look when this Warframe is cloaked. Does not alter enemy perception.",
-		ExcludeFromCodex = true,
-		Image = "InvisOverrideIvaraA.png",
-		InternalName = "/Lotus/Upgrades/Skins/Ranger/RangerAltCloakA",
-		Link = "Semi-Cloak",
-		Name = "Semi-Cloak",
-		Type = "Auxiliary"
-	},
-	["Semi-Cloak"] = {
-		CodexSecret = false,
-		Description = "A semi-transparent look when this Warframe is cloaked. Does not alter enemy perception.",
-		ExcludeFromCodex = true,
-		Image = "InvisOverrideLokiA.png",
-		InternalName = "/Lotus/Upgrades/Skins/Loki/LokiAltCloakA",
-		Link = "Semi-Cloak",
-		Name = "Semi-Cloak",
-		Type = "Auxiliary"
-	},
-	["Semi-Cloak"] = {
-		CodexSecret = false,
-		Description = "A semi-transparent look when this Warframe is cloaked. Does not alter enemy perception.",
-		ExcludeFromCodex = true,
-		Image = "InvisOverrideOctaviaA.png",
-		InternalName = "/Lotus/Upgrades/Skins/Bard/BardAltCloakA",
-		Link = "Semi-Cloak",
-		Name = "Semi-Cloak",
-		Type = "Auxiliary"
-	},
-	["Semi-Cloak"] = {
-		CodexSecret = false,
-		Description = "A semi-transparent look when this Warframe is cloaked. Does not alter enemy perception.",
-		ExcludeFromCodex = true,
-		Image = "InvisOverrideVorunaA.png",
-		InternalName = "/Lotus/Upgrades/Skins/Werewolf/WerewolfAltCloakA",
-		Link = "Semi-Cloak",
-		Name = "Semi-Cloak",
-		Type = "Auxiliary"
-	},
+	-- ["Semi-Cloak"] = {
+	-- 	CodexSecret = false,
+	-- 	Description = "A semi-transparent look when this Warframe is cloaked. Does not alter enemy perception.",
+	-- 	ExcludeFromCodex = true,
+	-- 	Image = "InvisOverrideAshA.png",
+	-- 	InternalName = "/Lotus/Upgrades/Skins/Ninja/NinjaAltCloakA",
+	-- 	Link = "Semi-Cloak",
+	-- 	Name = "Semi-Cloak",
+	-- 	Type = "Auxiliary"
+	-- },
+	-- ["Semi-Cloak"] = {
+	-- 	CodexSecret = false,
+	-- 	Description = "A semi-transparent look when this Warframe is cloaked. Does not alter enemy perception.",
+	-- 	ExcludeFromCodex = true,
+	-- 	Image = "InvisOverrideFrumentariusA.png",
+	-- 	InternalName = "/Lotus/Upgrades/Skins/Frumentarius/FrumentariusAltCloakA",
+	-- 	Link = "Semi-Cloak",
+	-- 	Name = "Semi-Cloak",
+	-- 	Type = "Auxiliary"
+	-- },
+	-- ["Semi-Cloak"] = {
+	-- 	CodexSecret = false,
+	-- 	Description = "A semi-transparent look when this Warframe is cloaked. Does not alter enemy perception.",
+	-- 	ExcludeFromCodex = true,
+	-- 	Image = "InvisOverrideIvaraA.png",
+	-- 	InternalName = "/Lotus/Upgrades/Skins/Ranger/RangerAltCloakA",
+	-- 	Link = "Semi-Cloak",
+	-- 	Name = "Semi-Cloak",
+	-- 	Type = "Auxiliary"
+	-- },
+	-- ["Semi-Cloak"] = {
+	-- 	CodexSecret = false,
+	-- 	Description = "A semi-transparent look when this Warframe is cloaked. Does not alter enemy perception.",
+	-- 	ExcludeFromCodex = true,
+	-- 	Image = "InvisOverrideLokiA.png",
+	-- 	InternalName = "/Lotus/Upgrades/Skins/Loki/LokiAltCloakA",
+	-- 	Link = "Semi-Cloak",
+	-- 	Name = "Semi-Cloak",
+	-- 	Type = "Auxiliary"
+	-- },
+	-- ["Semi-Cloak"] = {
+	-- 	CodexSecret = false,
+	-- 	Description = "A semi-transparent look when this Warframe is cloaked. Does not alter enemy perception.",
+	-- 	ExcludeFromCodex = true,
+	-- 	Image = "InvisOverrideOctaviaA.png",
+	-- 	InternalName = "/Lotus/Upgrades/Skins/Bard/BardAltCloakA",
+	-- 	Link = "Semi-Cloak",
+	-- 	Name = "Semi-Cloak",
+	-- 	Type = "Auxiliary"
+	-- },
+	-- ["Semi-Cloak"] = {
+	-- 	CodexSecret = false,
+	-- 	Description = "A semi-transparent look when this Warframe is cloaked. Does not alter enemy perception.",
+	-- 	ExcludeFromCodex = true,
+	-- 	Image = "InvisOverrideVorunaA.png",
+	-- 	InternalName = "/Lotus/Upgrades/Skins/Werewolf/WerewolfAltCloakA",
+	-- 	Link = "Semi-Cloak",
+	-- 	Name = "Semi-Cloak",
+	-- 	Type = "Auxiliary"
+	-- },
 	["Skeletal"] = {
 		CodexSecret = false,
 		Description = "Xaku will constantly remain in skeletal form.",

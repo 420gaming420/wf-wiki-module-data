@@ -1,7 +1,7 @@
 ---
 title: "Module:Sigils/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Sigils/data"
-wiki_timestamp: "2026-09-24T10:58:52Z"
+wiki_timestamp: "2026-09-30T12:20:13Z"
 ---
 
 Database for [Sigils](/w/Sigils "Sigils").
@@ -1433,9 +1433,9 @@ return {
 		Name = "Seed Sigil",
 		Link = "Sigils#New Loka"
 	},
-	["Shroud of Dynar Sigil Sigil"] = {
+	["Shroud of Dynar Sigil"] = {
 		Image = "ShroudofDynarSigil(SxWhite).png",
-		Name = "Shroud of Dynar Sigil Sigil",
+		Name = "Shroud of Dynar Sigil",
 		Link = "Sigil#Event Sigils",
 		Description = "A morbidly festive sigil."
 	},
@@ -1895,9 +1895,9 @@ return {
 		Name = "Will Sigil",
 		Link = "Sigils##Arbiters of Hexis"
 	},
-	["Winter Solstice Sigil"] = {
+	["Solstice Sigil"] = {
 		Image = "WinterSolsticeSigil(SxWhite).png",
-		Name = "Winter Solstice Sigil",
+		Name = "Solstice Sigil",
 		Description = "A festive sigil.",
 		Link = "Sigils#Community Event Sigils"
 	},
