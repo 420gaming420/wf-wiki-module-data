@@ -29,17 +29,18 @@ local function tooltipsub(stubs) return string.gsub(stubs, '{{#invoke:Tooltip|([
 	return Tooltips[fun](args);
 end)end
 
-local function normalize_outs(outs)
-	if type(outs) == 'string' then return tooltipsub(outs); end
-	if type(outs) ~= 'table' then
-		error('normalize_outs(): expected string or table, got '..type(outs));
+--- make a data-* span from a table, or passthrough a string
+local function normalize_out(out)
+	if type(out) == 'string' then return tooltipsub(out); end
+	if type(out) ~= 'table' then
+		error('normalize_out(): expected string or table, got '..type(out));
 	end
-	for key, value in pairs(outs) do
+	for key, value in pairs(out) do
 		if type(key) == 'string' and key ~= 'suff' then
-			table.insert(outs, 'data-'..key..'="'..value:gsub('[\\"]','\\%0')..'"');
+			table.insert(out, 'data-'..key..'="'..value:gsub('[\\"]','\\%0')..'"');
 		end
 	end
-	return '<span '..table.concat(outs, ' ')..'></span>'..(outs.suff and tooltipsub(outs.suff) or '');
+	return '<span '..table.concat(out, ' ')..'></span>'..(out.suff and tooltipsub(out.suff) or '');
 end
 
 --- Creates a maximization calculator for a specific Warframe ability based on formulas in [[Module:Maximization/data]].
@@ -80,10 +81,17 @@ for _, name in ipairs(names) do
 	local block = {};
 
 	for _, output in ipairs(data and data.outs or {}) do
-		table.insert(block, '|'..normalize_outs(output[1])..'||'..normalize_outs(output[2]));
+		local key_attrs = {}
+		for k, v in pairs(output) do
+			if type(k) == 'string' then
+				table.insert(key_attrs, k..'="'..value:gsub('[\\"]','\\%0')..'"')
+			end
+		end
+		key_attrs = table.concat(key_attrs, ' ')
+		table.insert(block, '|- '..key_attrs..'\n|'..normalize_out(output[1])..'||'..normalize_out(output[2]));
 	end
 
-	local next_prefix = '| style="border-top:2px solid var(--wikitable-header-bg)" ';
+	local next_prefix = '|-\n| style="border-top:2px solid var(--wikitable-header-bg)" ';
 	local next_global_prefix = next_prefix;
 	for _, input in ipairs(data and data.ins or {}) do
 		local prevalence = input.name and name_set[input.name]
@@ -102,20 +110,20 @@ for _, name in ipairs(names) do
 			end
 			local prefix
 			if globalize then
-				prefix = next_global_prefix; next_global_prefix = '|'
+				prefix = next_global_prefix; next_global_prefix = '|-\n|'
 			else
-				prefix = next_prefix; next_prefix = '|'
+				prefix = next_prefix; next_prefix = '|-\n|'
 			end
 			table.insert(ins_receiver, prefix..colspan
 				..table.concat(attrs, ' ')..'|'..tooltipsub(input.cont));
 		else
 			table.insert(ins_receiver, next_prefix..colspan..input);
-			next_prefix = '|';
+			next_prefix = '|-\n|';
 		end
 	end
 
 	table.insert(blocks, '{| class="wikitable calc__block"\n|-\n!colspan=2|'
-		..Tooltips.full(name, 'Ability')..'\n|-\n'..table.concat(block, '\n|-\n')..'\n|}');
+		..Tooltips.full(name, 'Ability')..'\n|-\n'..table.concat(block, '\n')..'\n|}');
 
 	if data and data.post then
 		table.insert(posttexts, '<div style="width: 100%">'..data.post..'</div>');
@@ -126,7 +134,6 @@ for _, name in ipairs(names) do
 			..'</div>');
 	end
 end
-	mw.logObject(name_set)
 
 --[[
 	https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context 
@@ -155,7 +162,7 @@ end
 	Tooltips.full{'Ability Duration', 'Stats', r='Duration'},
 	Tooltips.full{'Ability Range', 'Stats', r='Range'},
 	Tooltips.full{'Ability Efficiency', 'Stats', r='Efficiency'},
-	table.concat(ins_block, '\n|-\n'),
+	table.concat(ins_block, '\n'),
 	table.concat(blocks, '\n'),
 	table.concat(posttexts, '\n'),
 nil)
@@ -182,6 +189,7 @@ function p.ability_set(...)
 	end
 	return p.ability(ability_names);
 end
+p.WarframeAbilities = p.ability_set;
 
 -- TODO: Helminth original abilities
 -- TODO: Warframe stats

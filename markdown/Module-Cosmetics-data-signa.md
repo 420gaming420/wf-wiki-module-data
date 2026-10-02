@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/signa"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/signa"
-wiki_timestamp: "2026-09-28T12:26:06Z"
+wiki_timestamp: "2026-10-01T20:56:45Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/signa/doc](/w/Module:Cosmetics/data/signa/doc?action=edit&redlink=1 "Module:Cosmetics/data/signa/doc (page does not exist)")*
@@ -133,7 +133,7 @@ return {
     ["Gothica Signa"] = {
      	Artists = { "Malaya", "Jadie", "Awk'Q-Luz" },
      	CodexSecret = false,
-     	ConsolePrice = "85",
+     	ConsolePrice = "60",
      	Description = "A unique signa for your Warframe, designed by Malaya, Jadie and Awk'Q-Luz.",
      	ExcludeFromCodex = true,
      	Image = "GothicaSigna.png",
@@ -359,7 +359,7 @@ return {
     ["Vermis Signa"] = {
      	Artists = { "Traveling Merchant", "Therion" },
      	CodexSecret = false,
-     	ConsolePrice = "85",
+     	ConsolePrice = "60",
      	Description = "A unique signa for your Warframe, designed by Traveling Merchant and Therion.",
      	ExcludeFromCodex = true,
      	Image = "VermisSigna.png",

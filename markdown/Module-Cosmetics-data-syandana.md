@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/syandana"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/syandana"
-wiki_timestamp: "2026-09-29T10:19:46Z"
+wiki_timestamp: "2026-10-01T20:55:37Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/syandana/doc](/w/Module:Cosmetics/data/syandana/doc?action=edit&redlink=1 "Module:Cosmetics/data/syandana/doc (page does not exist)")*
@@ -2399,7 +2399,7 @@ return {
     ["Reliquia Syandana"] = {
         Artists = { "lex182", "Therion" },
         CodexSecret = false,
-        ConsolePrice = "100",
+        ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by lex182 and Therion",
         ExcludeFromCodex = false,
         Image = "ReliquiaSyandana.png",

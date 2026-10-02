@@ -1,7 +1,7 @@
 {
   "page": "Module:Void/data",
-  "wiki_timestamp": "2026-09-25T03:31:25Z",
-  "extracted_at": "2026-09-25T07:20:38.495505+00:00",
+  "wiki_timestamp": "2026-10-01T20:20:02Z",
+  "extracted_at": "2026-10-02T08:08:33.392217+00:00",
   "lua_files": [
     "Module-Void-data_0.lua",
     "Module-Void-data_1.lua",
@@ -10,7 +10,7 @@
     "Module-Void-data_4.lua"
   ],
   "lua_block_count": 5,
-  "file_size": 515357,
+  "file_size": 516623,
   "comment_count": 75,
   "status": "success"
 }

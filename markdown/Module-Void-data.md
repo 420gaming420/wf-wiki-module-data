@@ -1,7 +1,7 @@
 ---
 title: "Module:Void/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Void/data"
-wiki_timestamp: "2026-09-25T03:31:25Z"
+wiki_timestamp: "2026-10-01T20:20:02Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -16,7 +16,7 @@ Note that no drop chances are stored here since all relics of the same refinemen
 
 Also the place to update if a Prime part's [![](/images/thumb/OrokinDucats.png/32px-OrokinDucats.png?23930)](/w/Orokin_Ducats "Orokin Ducats") [Orokin Ducats](/w/Orokin_Ducats "Orokin Ducats") trade-in value is an anomaly for their rarity. See [#Prime Item Ducat Sell Price](#Prime_Item_Ducat_Sell_Price).
 
-:   *Last updated: Fri, 25 Sep 2026 03:31:25 +0000 (UTC) by [User:Laundrysauce](/w/User:Laundrysauce?action=edit&redlink=1 "User:Laundrysauce (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Void/data?diff=0))*
+:   *Last updated: Thu, 01 Oct 2026 20:20:02 +0000 (UTC) by [User:Sk9c00](/w/User:Sk9c00?action=edit&redlink=1 "User:Sk9c00 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Void/data?diff=0))*
 
 ## Contents
 
@@ -306,7 +306,7 @@ Void Relic Data")]
 -- that it can be dropped from are vaulted.
 
 -- Normally, relics that have been vaulted will not be unvaulted in the future.
--- Exceptions are:
+-- Exceptions are:n
 -- * 2016, 2019, and 2020 Frost & Ember Prime Vault with Lith G1, Meso F2, Neo S5, and Axi E1
 -- * 2018, 2019, and 2021 Nyx & Rhino Prime Vault Lith B4, Meso N6, Neo R1, and Axi S3
 -- * Baro relics Neo O1, Axi A2, Axi A5, Axi M5, Axi V8
@@ -1217,6 +1217,44 @@ RelicData = {
 		Introduced = "43.0",
 		Name = "Axi A22",
 		Tier = "Axi",
+	},	
+	["Axi A23"] = {
+		Drops = {
+			{
+				Item = "Burston Prime",
+				Part = "Stock",
+				Rarity = "Common",
+			},
+			{
+				Item = "Forma",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Velox Prime",
+				Part = "Receiver",
+				Rarity = "Common",
+			},
+			{
+				Item = "Burston Prime",
+				Part = "Barrel",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Protea Prime",
+				Part = "Neuroptics Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Aksomati Prime",
+				Part = "Link",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Axi A23",
+		Tier = "Axi",
+		Vaulted = "44.0",
 	},	
 	["Axi B1"] = {
 		Drops = {
@@ -8781,11 +8819,6 @@ RelicData = {
 	["Lith B12"] = {
 		Drops = {
 			{
-				Item = "Forma",
-				Part = "Blueprint",
-				Rarity = "Common",
-			},
-			{
 				Item = "Aksomati Prime",
 				Part = "Receiver",
 				Rarity = "Common",
@@ -8796,12 +8829,18 @@ RelicData = {
 				Rarity = "Common",
 			},
 			{
-				Item = "Velox Prime",
+				Item = "Forma",
 				Part = "Blueprint",
-				Rarity = "Uncommon",
+				Rarity = "Common",
 			},
 			{
 				Item = "Ivara Prime",
+				Part = "Blueprint",
+				Rarity = "Uncommon",
+
+			},
+			{
+				Item = "Velox Prime",
 				Part = "Blueprint",
 				Rarity = "Uncommon",
 			},
@@ -18434,6 +18473,44 @@ RelicData = {
 		Tier = "Meso",
 		Vaulted = "31.7",
 	},
+	["Meso I3"] = {
+		Drops = {
+			{
+				Item = "Aksomati Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Burston Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Forma",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Baza Prime",
+				Part = "Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Protea Prime",
+				Part = "Systems Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Ivara Prime",
+				Part = "Chassis Blueprint",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.0",
+		Name = "Meso I3",
+		Tier = "Meso",
+		Vaulted = "44.0",
+	},
 	["Meso K1"] = {
 		Drops = {
 			{
@@ -22372,11 +22449,6 @@ RelicData = {
 	["Meso V16"] = {
 		Drops = {
 			{
-				Item = "Forma",
-				Part = "Blueprint",
-				Rarity = "Common",
-			},
-			{
 				Item = "Baza Prime",
 				Part = "Receiver",
 				Rarity = "Common",
@@ -22386,14 +22458,19 @@ RelicData = {
 				Part = "Stock",
 				Rarity = "Common",
 			},
-			{
-				Item = "Okina Prime",
-				Part = "Handle",
-				Rarity = "Uncommon",
+			{	
+				Item = "Forma",
+				Part = "Blueprint",
+				Rarity = "Common",
 			},
 			{
 				Item = "Ivara Prime",
 				Part = "Systems Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Okina Prime",
+				Part = "Handle",
 				Rarity = "Uncommon",
 			},
 			{
@@ -22402,10 +22479,10 @@ RelicData = {
 				Rarity = "Rare",
 			},
 		},
-		Introduced = "29.9",
+		Introduced = "44.0",
 		Name = "Meso V16",
 		Tier = "Meso",
-		Vaulted = "31.0",
+		Vaulted = "44.0",
 	},
 	["Meso V17"] = {
 		Drops = {
@@ -27532,13 +27609,13 @@ RelicData = {
 				Rarity = "Common",
 			},
 			{
-				Item = "Braton Prime",
-				Part = "Blueprint",
+				Item = "Baza Prime",
+				Part = "Barrel",
 				Rarity = "Uncommon",
 			},
 			{
-				Item = "Baza Prime",
-				Part = "Barrel",
+				Item = "Braton Prime",
+				Part = "Blueprint",
 				Rarity = "Uncommon",
 			},
 			{
@@ -27937,6 +28014,11 @@ RelicData = {
 	["Neo P11"] = {
 		Drops = {
 			{
+				Item = "Burston Prime",
+				Part = "Receiver",
+				Rarity = "Common",
+			},
+			{
 				Item = "Forma",
 				Part = "Blueprint",
 				Rarity = "Common",
@@ -27947,18 +28029,13 @@ RelicData = {
 				Rarity = "Common",
 			},
 			{
-				Item = "Burston Prime",
-				Part = "Receiver",
-				Rarity = "Common",
+				Item = "Aksomati Prime",
+				Part = "Barrel",
+				Rarity = "Uncommon",
 			},
 			{
 				Item = "Braton Prime",
 				Part = "Receiver",
-				Rarity = "Uncommon",
-			},
-			{
-				Item = "Aksomati Prime",
-				Part = "Barrel",
 				Rarity = "Uncommon",
 			},
 			{

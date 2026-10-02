@@ -3108,6 +3108,39 @@ return {
         Part = "Arm",
         Type = "Armor"
     },
+    ["Opula Chest Armor"] = {
+        CodexSecret = false,
+        Description = "Dazzle the eye with the iridescent flames of this armor set.",
+        ExcludeFromCodex = true,
+        Image = "OpulaChestArmor.png",
+        InternalName = "/Lotus/Upgrades/Skins/Armor/Opula/OpulaArmorC",
+        Link = "Opula Chest Armor",
+        Name = "Opula Chest Armor",
+        Part = "Chest",
+        Type = "Armor"
+    },
+    ["Opula Shoulder Armor"] = {
+        CodexSecret = false,
+        Description = "Dazzle the eye with the iridescent flames of this armor set.",
+        ExcludeFromCodex = true,
+        Image = "OpulaShoulderArmor.png",
+        InternalName = "/Lotus/Upgrades/Skins/Armor/Opula/OpulaArmorA",
+        Link = "Opula Shoulder Armor",
+        Name = "Opula Shoulder Armor",
+        Part = "Arm",
+        Type = "Armor"
+    },
+    ["Opula Leg Armor"] = {
+        CodexSecret = false,
+        Description = "Dazzle the eye with the iridescent flames of this armor set.",
+        ExcludeFromCodex = true,
+        Image = "OpulaLegArmor.png",
+        InternalName = "/Lotus/Upgrades/Skins/Armor/Opula/OpulaArmorL",
+        Link = "Opula Leg Armor",
+        Name = "Opula Leg Armor",
+        Part = "Leg",
+        Type = "Armor"
+    },
     ["Oranist Chest Plate"] = {
         CodexSecret = false,
         Description = "Armor reminiscent of gilded vellum pages.",

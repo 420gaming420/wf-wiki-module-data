@@ -1050,7 +1050,7 @@ local DamageTypes = {
 			Name = "Energy Drain"
 		},
 		Finisher = {
-			Bypass = { "Armor", "Shield" },
+			Bypass = { "Armor" },
 			BypassNotes = { 5 },
 			Color = "#5d5d5d",
 			CSSBackgroundColorClass = "var(--dt-default-background-color)",

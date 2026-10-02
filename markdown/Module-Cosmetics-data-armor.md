@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/armor"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/armor"
-wiki_timestamp: "2026-09-29T10:45:10Z"
+wiki_timestamp: "2026-10-01T17:01:36Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/armor/doc](/w/Module:Cosmetics/data/armor/doc?action=edit&redlink=1 "Module:Cosmetics/data/armor/doc (page does not exist)")*
@@ -3114,6 +3114,39 @@ return {
         Link = "Obsidian Deko Shoulder Plates",
         Name = "Obsidian Deko Shoulder Plates",
         Part = "Arm",
+        Type = "Armor"
+    },
+    ["Opula Chest Armor"] = {
+        CodexSecret = false,
+        Description = "Dazzle the eye with the iridescent flames of this armor set.",
+        ExcludeFromCodex = true,
+        Image = "OpulaChestArmor.png",
+        InternalName = "/Lotus/Upgrades/Skins/Armor/Opula/OpulaArmorC",
+        Link = "Opula Chest Armor",
+        Name = "Opula Chest Armor",
+        Part = "Chest",
+        Type = "Armor"
+    },
+    ["Opula Shoulder Armor"] = {
+        CodexSecret = false,
+        Description = "Dazzle the eye with the iridescent flames of this armor set.",
+        ExcludeFromCodex = true,
+        Image = "OpulaShoulderArmor.png",
+        InternalName = "/Lotus/Upgrades/Skins/Armor/Opula/OpulaArmorA",
+        Link = "Opula Shoulder Armor",
+        Name = "Opula Shoulder Armor",
+        Part = "Arm",
+        Type = "Armor"
+    },
+    ["Opula Leg Armor"] = {
+        CodexSecret = false,
+        Description = "Dazzle the eye with the iridescent flames of this armor set.",
+        ExcludeFromCodex = true,
+        Image = "OpulaLegArmor.png",
+        InternalName = "/Lotus/Upgrades/Skins/Armor/Opula/OpulaArmorL",
+        Link = "Opula Leg Armor",
+        Name = "Opula Leg Armor",
+        Part = "Leg",
         Type = "Armor"
     },
     ["Oranist Chest Plate"] = {

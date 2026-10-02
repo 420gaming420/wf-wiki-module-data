@@ -1,7 +1,7 @@
 ---
 title: "Module:DamageTypes/data"
 wiki_url: "https://wiki.warframe.com/w/Module/DamageTypes/data"
-wiki_timestamp: "2026-09-08T22:46:31Z"
+wiki_timestamp: "2026-10-01T14:59:13Z"
 ---
 
 ## Contents
@@ -14,7 +14,8 @@ wiki_timestamp: "2026-09-08T22:46:31Z"
 
 ## Health Class Entry Schema
 
-[[edit source](/w/Module:DamageTypes/data/doc?action=edit&section=T-1 "Edit section's source code: Health Class Entry Schema")]
+[[edit](/w/Module:DamageTypes/data/doc?action=edit&section=T-1 "Edit Section using Source Editor:
+Health Class Entry Schema")]
 
 ```lua
 		["Health Class"] = {
@@ -48,7 +49,8 @@ wiki_timestamp: "2026-09-08T22:46:31Z"
 
 ## Status Effect Entry Schema
 
-[[edit source](/w/Module:DamageTypes/data/doc?action=edit&section=T-2 "Edit section's source code: Status Effect Entry Schema")]
+[[edit](/w/Module:DamageTypes/data/doc?action=edit&section=T-2 "Edit Section using Source Editor:
+Status Effect Entry Schema")]
 
 ```lua
 		["Status Effect"] = {
@@ -86,7 +88,8 @@ wiki_timestamp: "2026-09-08T22:46:31Z"
 
 ## Damage Type Entry Schema
 
-[[edit source](/w/Module:DamageTypes/data/doc?action=edit&section=T-3 "Edit section's source code: Damage Type Entry Schema")]
+[[edit](/w/Module:DamageTypes/data/doc?action=edit&section=T-3 "Edit Section using Source Editor:
+Damage Type Entry Schema")]
 
 ```lua
 		["Damage Type"] = {
@@ -130,7 +133,8 @@ wiki_timestamp: "2026-09-08T22:46:31Z"
 
 ## Visual Tests
 
-[[edit source](/w/Module:DamageTypes/data/doc?action=edit&section=T-4 "Edit section's source code: Visual Tests")]
+[[edit](/w/Module:DamageTypes/data/doc?action=edit&section=T-4 "Edit Section using Source Editor:
+Visual Tests")]
 
 Against article background
 
@@ -330,6 +334,20 @@ Against T:AbilityU10.3 background
 | 2 | 6 | 8 |
 | 3 | 8 | 9 |
 
+**Maximization**
+
+| Inputs |
+| --- |
+| [Strength](/w/Ability_Strength "Ability Strength"): |
+| [Duration](/w/Ability_Duration "Ability Duration"): |
+| [Range](/w/Ability_Range "Ability Range"): |
+| [Efficiency](/w/Ability_Efficiency "Ability Efficiency"): |
+
+| [Slash Dash](/w/Slash_Dash "Slash Dash") | |
+| --- | --- |
+
+*Help create a maximization calculator for [![](/images/thumb/SlashDashIcon%28xWhite%29.png/32px-SlashDashIcon%28xWhite%29.png?d1c9a)](/w/Slash_Dash "Slash Dash") [Slash Dash](/w/Slash_Dash "Slash Dash") and its augments by adding data to [Module:Maximization/data](/w/Module:Maximization/data "Module:Maximization/data").*
+
 [![Expand/Collapse](/images/Expand%28xWhite%29.svg?c1073)](#Slash_Dash "Expand/Collapse")
 
 Against `emodtable` table header background
@@ -367,7 +385,8 @@ Against T:Codex background
 
 ## DamageType Data
 
-[[edit source](/w/Module:DamageTypes/data/doc?action=edit&section=T-5 "Edit section's source code: DamageType Data")]
+[[edit](/w/Module:DamageTypes/data/doc?action=edit&section=T-5 "Edit Section using Source Editor:
+DamageType Data")]
 
 ---
 
@@ -1424,7 +1443,7 @@ local DamageTypes = {
 			Name = "Energy Drain"
 		},
 		Finisher = {
-			Bypass = { "Armor", "Shield" },
+			Bypass = { "Armor" },
 			BypassNotes = { 5 },
 			Color = "#5d5d5d",
 			CSSBackgroundColorClass = "var(--dt-default-background-color)",

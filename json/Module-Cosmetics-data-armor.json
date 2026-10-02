@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-30T08:11:58.160Z"
+    "converted_at": "2026-10-02T08:08:40.078Z"
   },
   "_comments": "    -- Insign Bundle Start Here\n    -- Insign Bundle End Here",
   "Pakal Shoulder Plates": {
@@ -678,6 +678,17 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/PrimeGyreArmor/PrimeGyreArmorA",
     "CodexSecret": false
   },
+  "Grandis XX Perigone": {
+    "Type": "Armor",
+    "Description": "Orokin military title, awarded to recognize acts of exceptional heroism in battle.",
+    "Link": "Grandis XX Perigone",
+    "Part": "Chest",
+    "ExcludeFromCodex": false,
+    "Image": "GrandisXXPerigone.png",
+    "Name": "Grandis XX Perigone",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal20C",
+    "CodexSecret": false
+  },
   "Ki'Teer Leg Plates": {
     "Type": "Armor",
     "Description": "This decorative armored plate is a Ki’Teer original.",
@@ -698,6 +709,17 @@
     "Image": "CeramicaLegPlate.png",
     "Name": "Ceramica Leg Plate",
     "InternalName": "/Lotus/Upgrades/Skins/Armor/TnCeramicArmor/TnCeramicArmorL",
+    "CodexSecret": false
+  },
+  "Ki'Teer Greth Chest Plate": {
+    "Type": "Armor",
+    "Description": "Become the very picture of regard with this Ki'Teer original armor.",
+    "Link": "Ki'Teer Greth Chest Plate",
+    "Part": "Chest",
+    "ExcludeFromCodex": true,
+    "Image": "Ki'TeerGrethChestPlate.png",
+    "Name": "Ki'Teer Greth Chest Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/BaroArmourThree/BaroArmourThreeC",
     "CodexSecret": false
   },
   "Hildryn Prime Chest Plate": {
@@ -744,6 +766,17 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/TnLatronArmor/TnLatronChestArmorPrisma",
     "CodexSecret": false
   },
+  "Nidina Armor Solstice Leg Plate": {
+    "Type": "Armor",
+    "Description": "The swooping curves of the Nidina armor set, now rendered in icy style.",
+    "Link": "Nidina Armor Solstice Leg Plate",
+    "Part": "Leg",
+    "ExcludeFromCodex": false,
+    "Image": "NidinaArmorSolsticeLegPlate.png",
+    "Name": "Nidina Armor Solstice Leg Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TnArmorCurve/SolsticeTnArmorCurveL",
+    "CodexSecret": false
+  },
   "Kullervo Apostate Shoulder Spikes": {
     "Type": "Armor",
     "Description": "Kullervo Apostate's signature pauldrons.",
@@ -788,26 +821,26 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauPurpleHeartMedalC",
     "CodexSecret": false
   },
-  "Grandis XX Perigone": {
+  "Grandis XVII Sporoi": {
     "Type": "Armor",
     "Description": "Orokin military title, awarded to recognize acts of exceptional heroism in battle.",
-    "Link": "Grandis XX Perigone",
+    "Link": "Grandis XVII Sporoi",
     "Part": "Chest",
     "ExcludeFromCodex": false,
-    "Image": "GrandisXXPerigone.png",
-    "Name": "Grandis XX Perigone",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal20C",
+    "Image": "GrandisXVIISporoi.png",
+    "Name": "Grandis XVII Sporoi",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal17C",
     "CodexSecret": false
   },
-  "Ki'Teer Greth Chest Plate": {
+  "Nidina Armor Solstice Chest Plate": {
     "Type": "Armor",
-    "Description": "Become the very picture of regard with this Ki'Teer original armor.",
-    "Link": "Ki'Teer Greth Chest Plate",
+    "Description": "The swooping curves of the Nidina armor set, now rendered in icy style.",
+    "Link": "Nidina Armor Solstice Chest Plate",
     "Part": "Chest",
-    "ExcludeFromCodex": true,
-    "Image": "Ki'TeerGrethChestPlate.png",
-    "Name": "Ki'Teer Greth Chest Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/BaroArmourThree/BaroArmourThreeC",
+    "ExcludeFromCodex": false,
+    "Image": "NidinaArmorSolsticeChestPlate.png",
+    "Name": "Nidina Armor Solstice Chest Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TnArmorCurve/SolsticeTnArmorCurveC",
     "CodexSecret": false
   },
   "Volt Prime Armor": {
@@ -843,15 +876,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/FurisArmor/FurisCArmor",
     "CodexSecret": false
   },
-  "TennoCon 2021 Chest Plate": {
+  "Capit XV Phloios": {
     "Type": "Armor",
-    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2021.",
-    "Link": "TennoCon 2021 Chest Plate",
+    "Description": "Orokin military title, awarded to recognize acts of exceptional heroism in battle.",
+    "Link": "Capit XV Phloios",
     "Part": "Chest",
-    "ExcludeFromCodex": true,
-    "Image": "TennoCon2021ChestPlate.png",
-    "Name": "TennoCon 2021 Chest Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TennoCon2021Armor/TennoCon2021CArmor",
+    "ExcludeFromCodex": false,
+    "Image": "CapitXVPhloios.png",
+    "Name": "Capit XV Phloios",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal15C",
     "CodexSecret": false
   },
   "Dex Raksaka Chest Guard": {
@@ -887,26 +920,26 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/CrpHighArmor/EvilBaroArcaArmorC",
     "CodexSecret": false
   },
-  "Grandis XVII Sporoi": {
+  "Capit XIV Kalika": {
     "Type": "Armor",
     "Description": "Orokin military title, awarded to recognize acts of exceptional heroism in battle.",
-    "Link": "Grandis XVII Sporoi",
+    "Link": "Capit XIV Kalika",
     "Part": "Chest",
     "ExcludeFromCodex": false,
-    "Image": "GrandisXVIISporoi.png",
-    "Name": "Grandis XVII Sporoi",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal17C",
+    "Image": "CapitXIVKalika.png",
+    "Name": "Capit XIV Kalika",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal14C",
     "CodexSecret": false
   },
-  "Nidina Armor Solstice Chest Plate": {
+  "Capit XIII Sporoi": {
     "Type": "Armor",
-    "Description": "The swooping curves of the Nidina armor set, now rendered in icy style.",
-    "Link": "Nidina Armor Solstice Chest Plate",
+    "Description": "Orokin military title, awarded to recognize acts of exceptional heroism in battle.",
+    "Link": "Capit XIII Sporoi",
     "Part": "Chest",
     "ExcludeFromCodex": false,
-    "Image": "NidinaArmorSolsticeChestPlate.png",
-    "Name": "Nidina Armor Solstice Chest Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TnArmorCurve/SolsticeTnArmorCurveC",
+    "Image": "CapitXIIISporoi.png",
+    "Name": "Capit XIII Sporoi",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal13C",
     "CodexSecret": false
   },
   "Dendra Obsidian Shoulder Guard": {
@@ -954,26 +987,26 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/PrimeSetTwo/PrimeSetTwoChestArmor",
     "CodexSecret": false
   },
-  "Capit XV Phloios": {
+  "Tenens XII Perigone": {
     "Type": "Armor",
     "Description": "Orokin military title, awarded to recognize acts of exceptional heroism in battle.",
-    "Link": "Capit XV Phloios",
+    "Link": "Tenens XII Perigone",
     "Part": "Chest",
     "ExcludeFromCodex": false,
-    "Image": "CapitXVPhloios.png",
-    "Name": "Capit XV Phloios",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal15C",
+    "Image": "TenensXIIPerigone.png",
+    "Name": "Tenens XII Perigone",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal12C",
     "CodexSecret": false
   },
-  "Capit XIV Kalika": {
+  "Vetala Chest Plate": {
     "Type": "Armor",
-    "Description": "Orokin military title, awarded to recognize acts of exceptional heroism in battle.",
-    "Link": "Capit XIV Kalika",
+    "Description": "Make Revenant whole with his signature armor.",
+    "Link": "Vetala Chest Plate",
     "Part": "Chest",
     "ExcludeFromCodex": false,
-    "Image": "CapitXIVKalika.png",
-    "Name": "Capit XIV Kalika",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal14C",
+    "Image": "VetalaChestPlate.png",
+    "Name": "Vetala Chest Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/RevenantArmor/RevenantArmorC",
     "CodexSecret": false
   },
   "Hydroid Prime Armor": {
@@ -1009,26 +1042,26 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/SWVikasaPlatingShoulderArmor/SWVikasaPlatingShoulderArmor",
     "CodexSecret": false
   },
-  "Capit XIII Sporoi": {
+  "Tenens X Kalika": {
     "Type": "Armor",
     "Description": "Orokin military title, awarded to recognize acts of exceptional heroism in battle.",
-    "Link": "Capit XIII Sporoi",
+    "Link": "Tenens X Kalika",
     "Part": "Chest",
     "ExcludeFromCodex": false,
-    "Image": "CapitXIIISporoi.png",
-    "Name": "Capit XIII Sporoi",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal13C",
+    "Image": "TenensXKalika.png",
+    "Name": "Tenens X Kalika",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal10C",
     "CodexSecret": false
   },
-  "Tenens XII Perigone": {
+  "Tenens IX Sporoi": {
     "Type": "Armor",
     "Description": "Orokin military title, awarded to recognize acts of exceptional heroism in battle.",
-    "Link": "Tenens XII Perigone",
+    "Link": "Tenens IX Sporoi",
     "Part": "Chest",
     "ExcludeFromCodex": false,
-    "Image": "TenensXIIPerigone.png",
-    "Name": "Tenens XII Perigone",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal12C",
+    "Image": "TenensIXSporoi.png",
+    "Name": "Tenens IX Sporoi",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal9C",
     "CodexSecret": false
   },
   "Glissanda Prime Chest Plate": {
@@ -1053,15 +1086,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/SentEvoArmor/SentEvoArmor1A",
     "CodexSecret": false
   },
-  "Tidon Shoulder Medallion": {
+  "Servio VIII Perigone": {
     "Type": "Armor",
-    "Description": "With tassels that dance like snowflakes in the wind, these elegant clasps are worn by the people of Tethys to promote balance and harmony.",
-    "Link": "Tidon Shoulder Medallion",
-    "Part": "Arm",
+    "Description": "Orokin military title, awarded to recognize acts of exceptional heroism in battle.",
+    "Link": "Servio VIII Perigone",
+    "Part": "Chest",
     "ExcludeFromCodex": false,
-    "Image": "TidonShoulderMedallion.png",
-    "Name": "Tidon Shoulder Medallion",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/DuelistArmour/DuelistArmourA",
+    "Image": "ServioVIIIPerigone.png",
+    "Name": "Servio VIII Perigone",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal8C",
     "CodexSecret": false
   },
   "Galvanik Leg Plates": {
@@ -1119,15 +1152,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/KuvaLichSetD/KuvaLichArmourDChest",
     "CodexSecret": false
   },
-  "Tenens X Kalika": {
+  "TennoCon 2018 Shoulder Plates": {
     "Type": "Armor",
-    "Description": "Orokin military title, awarded to recognize acts of exceptional heroism in battle.",
-    "Link": "Tenens X Kalika",
-    "Part": "Chest",
+    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2018.",
+    "Link": "TennoCon 2018 Shoulder Plates",
+    "Part": "Arm",
     "ExcludeFromCodex": false,
-    "Image": "TenensXKalika.png",
-    "Name": "Tenens X Kalika",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal10C",
+    "Image": "TennoCon2018ShoulderPlates.png",
+    "Name": "TennoCon 2018 Shoulder Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TennoCon2018Armor/TennoCon2018ArmorA",
     "CodexSecret": false
   },
   "Maggor Chest Armor": {
@@ -1141,15 +1174,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/GrineerVHArmour/GrineerVHC",
     "CodexSecret": false
   },
-  "Tenens IX Sporoi": {
+  "Krtrima Shoulder Armor": {
     "Type": "Armor",
-    "Description": "Orokin military title, awarded to recognize acts of exceptional heroism in battle.",
-    "Link": "Tenens IX Sporoi",
-    "Part": "Chest",
+    "Description": "A unique shoulder armor for your Warframe, designed by kakarrot2812.",
+    "Link": "Krtrima Shoulder Armor",
+    "Part": "Arm",
     "ExcludeFromCodex": false,
-    "Image": "TenensIXSporoi.png",
-    "Name": "Tenens IX Sporoi",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal9C",
+    "Image": "KrtrimaShoulderArmor.png",
+    "Name": "Krtrima Shoulder Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/SWKrtrimaArmor/SWKrtrimaArmorA",
     "CodexSecret": false
   },
   "Prisma Latron Leg Plate": {
@@ -1185,15 +1218,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Decree/BansheeVoidShellArmLeftArmor",
     "CodexSecret": false
   },
-  "Servio VIII Perigone": {
+  "Mittahk Prime Shoulder Plates": {
     "Type": "Armor",
-    "Description": "Orokin military title, awarded to recognize acts of exceptional heroism in battle.",
-    "Link": "Servio VIII Perigone",
-    "Part": "Chest",
+    "Description": "A resplendent armor set and a ward against death.",
+    "Link": "Mittahk Prime Shoulder Plates",
+    "Part": "Arm",
     "ExcludeFromCodex": false,
-    "Image": "ServioVIIIPerigone.png",
-    "Name": "Servio VIII Perigone",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal8C",
+    "Image": "MittahkPrimeShoulderPlates.png",
+    "Name": "Mittahk Prime Shoulder Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/PrimeInarosArmor/PrimeInarosArmorA",
     "CodexSecret": false
   },
   "Dante Tytonis Feathered Pauldron": {
@@ -1241,15 +1274,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/SentEvoArmor/SentEvoArmor2A",
     "CodexSecret": false
   },
-  "TennoCon 2019 Shoulder Plates": {
+  "Insign IV Perigone": {
     "Type": "Armor",
-    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2019.",
-    "Link": "TennoCon 2019 Shoulder Plates",
-    "Part": "Arm",
-    "ExcludeFromCodex": true,
-    "Image": "TennoCon2019ShoulderPlates.png",
-    "Name": "TennoCon 2019 Shoulder Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TennoCon2019Armor/TennoCon2019AArmor",
+    "Description": "Orokin military title, awarded to recognize acts of exceptional heroism in battle.",
+    "Link": "Insign IV Perigone",
+    "Part": "Chest",
+    "ExcludeFromCodex": false,
+    "Image": "InsignIVPerigone.png",
+    "Name": "Insign IV Perigone",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal4C",
     "CodexSecret": false
   },
   "Gillychap Shoulder Plate": {
@@ -1263,26 +1296,26 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/SevagothDlxFishArmour/SevagothDlxFishArmourA",
     "CodexSecret": false
   },
-  "Krtrima Shoulder Armor": {
+  "Insign II Kalika": {
     "Type": "Armor",
-    "Description": "A unique shoulder armor for your Warframe, designed by kakarrot2812.",
-    "Link": "Krtrima Shoulder Armor",
-    "Part": "Arm",
+    "Description": "Orokin military title, awarded to recognize acts of exceptional heroism in battle.",
+    "Link": "Insign II Kalika",
+    "Part": "Chest",
     "ExcludeFromCodex": false,
-    "Image": "KrtrimaShoulderArmor.png",
-    "Name": "Krtrima Shoulder Armor",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/SWKrtrimaArmor/SWKrtrimaArmorA",
+    "Image": "InsignIIKalika.png",
+    "Name": "Insign II Kalika",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal2C",
     "CodexSecret": false
   },
-  "Mittahk Prime Shoulder Plates": {
+  "Porta Shoulder Plate": {
     "Type": "Armor",
-    "Description": "A resplendent armor set and a ward against death.",
-    "Link": "Mittahk Prime Shoulder Plates",
+    "Description": "Decorative shoulder plates for your Warframe.",
+    "Link": "Porta Shoulder Plate",
     "Part": "Arm",
-    "ExcludeFromCodex": false,
-    "Image": "MittahkPrimeShoulderPlates.png",
-    "Name": "Mittahk Prime Shoulder Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/PrimeInarosArmor/PrimeInarosArmorA",
+    "ExcludeFromCodex": true,
+    "Image": "PortaShoulderPlate.png",
+    "Name": "Porta Shoulder Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/CrpCircleArmour/CrpCircA",
     "CodexSecret": false
   },
   "Daybreak Leg Plates": {
@@ -1296,15 +1329,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/Daybreak/DaybreakArmourL",
     "CodexSecret": false
   },
-  "Insign IV Perigone": {
+  "Zhivira Shoulder Armor": {
     "Type": "Armor",
-    "Description": "Orokin military title, awarded to recognize acts of exceptional heroism in battle.",
-    "Link": "Insign IV Perigone",
-    "Part": "Chest",
+    "Description": "A unique shoulder armor for your Warframe, designed by blazingcobalt.",
+    "Link": "Zhivira Shoulder Armor",
+    "Part": "Arm",
     "ExcludeFromCodex": false,
-    "Image": "InsignIVPerigone.png",
-    "Name": "Insign IV Perigone",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal4C",
+    "Image": "ZhiviraShoulderArmor.png",
+    "Name": "Zhivira Shoulder Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/SWZhiviraShoulderArmor/SWZhiviraShoulderArmorA",
     "CodexSecret": false
   },
   "Kukri Prime Leg Guards": {
@@ -1329,39 +1362,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/FrostEmperorArmArmor",
     "CodexSecret": false
   },
-  "Insign II Kalika": {
-    "Type": "Armor",
-    "Description": "Orokin military title, awarded to recognize acts of exceptional heroism in battle.",
-    "Link": "Insign II Kalika",
-    "Part": "Chest",
-    "ExcludeFromCodex": false,
-    "Image": "InsignIIKalika.png",
-    "Name": "Insign II Kalika",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal2C",
-    "CodexSecret": false
-  },
-  "Prisma Naberus (Shoulders)": {
-    "Type": "Armor",
-    "Description": "Mesmerize onlookers with swirling Void energy embedded in this exclusive armor.",
-    "Link": "Prisma Naberus (Shoulders)",
-    "Part": "Arm",
-    "ExcludeFromCodex": false,
-    "Image": "PrismaNaberus.png",
-    "Name": "Prisma Naberus (Shoulders)",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/Halloween2014Wings/PrismaNaberusArmArmor",
-    "CodexSecret": false
-  },
-  "Zhivira Shoulder Armor": {
-    "Type": "Armor",
-    "Description": "A unique shoulder armor for your Warframe, designed by blazingcobalt.",
-    "Link": "Zhivira Shoulder Armor",
-    "Part": "Arm",
-    "ExcludeFromCodex": false,
-    "Image": "ZhiviraShoulderArmor.png",
-    "Name": "Zhivira Shoulder Armor",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/SWZhiviraShoulderArmor/SWZhiviraShoulderArmorA",
-    "CodexSecret": false
-  },
   "Zato Shoulder Plate": {
     "Type": "Armor",
     "Description": "The skull of a monstrous Kubrodon Incarnadine was made into this, Excalibur Zato's prize shoulder plate. The story behind the taking of this particular trophy remains a mystery.",
@@ -1371,28 +1371,6 @@
     "Image": "ZatoShoulderPlate.png",
     "Name": "Zato Shoulder Plate",
     "InternalName": "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/ExcaliburDeluxeArmArmor",
-    "CodexSecret": false
-  },
-  "Edo Shoulder Plates": {
-    "Type": "Armor",
-    "Description": "Decorative shoulder plates for your Warframe.",
-    "Link": "Edo Shoulder Plates",
-    "Part": "Arm",
-    "ExcludeFromCodex": true,
-    "Image": "EdoShoulderPlates.png",
-    "Name": "Edo Shoulder Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/SetTwoSamurai/SetTwoArmArmor",
-    "CodexSecret": false
-  },
-  "Pakal Chest Plate": {
-    "Type": "Armor",
-    "Description": "Formed from the bones of Sentient fighters and given to the Stalker by Hunhow.",
-    "Link": "Pakal Chest Plate",
-    "Part": "Chest",
-    "ExcludeFromCodex": true,
-    "Image": "PakalChestPlate.png",
-    "Name": "Pakal Chest Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/StalkArmour/StalkC",
     "CodexSecret": false
   },
   "Xulatu Chest Armor": {
@@ -1428,6 +1406,28 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/VorunaPrimeArmArmor",
     "CodexSecret": false
   },
+  "Edo Shoulder Plates": {
+    "Type": "Armor",
+    "Description": "Decorative shoulder plates for your Warframe.",
+    "Link": "Edo Shoulder Plates",
+    "Part": "Arm",
+    "ExcludeFromCodex": true,
+    "Image": "EdoShoulderPlates.png",
+    "Name": "Edo Shoulder Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/SetTwoSamurai/SetTwoArmArmor",
+    "CodexSecret": false
+  },
+  "Pakal Chest Plate": {
+    "Type": "Armor",
+    "Description": "Formed from the bones of Sentient fighters and given to the Stalker by Hunhow.",
+    "Link": "Pakal Chest Plate",
+    "Part": "Chest",
+    "ExcludeFromCodex": true,
+    "Image": "PakalChestPlate.png",
+    "Name": "Pakal Chest Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/StalkArmour/StalkC",
+    "CodexSecret": false
+  },
   "Voruna Medeina Armor": {
     "Type": "Armor",
     "Description": "Default armor set for the Voruna Medeina Skin.",
@@ -1448,6 +1448,39 @@
     "Image": "VorunaKuvaelDrahkaanisArmor.png",
     "Name": "Voruna Kuvael Drahkaanis Armor",
     "InternalName": "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/SWKuvaelArmArmor",
+    "CodexSecret": false
+  },
+  "Voruna Demionna Armor": {
+    "Type": "Armor",
+    "Description": "A unique armor for the Voruna Warframe, designed by kakarrot2812.",
+    "Link": "Voruna Demionna Armor",
+    "Part": "Arm",
+    "ExcludeFromCodex": true,
+    "Image": "VorunaDemionnaArmor.png",
+    "Name": "Voruna Demionna Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/SWWerewolfDemionnaArmArmor",
+    "CodexSecret": false
+  },
+  "Voruna Armor": {
+    "Type": "Armor",
+    "Description": "Default armor set for the Voruna Warframe.",
+    "Link": "Voruna Armor",
+    "Part": "Arm",
+    "ExcludeFromCodex": true,
+    "Image": "VorunaArmor.png",
+    "Name": "Voruna Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/WerewolfArmArmor",
+    "CodexSecret": false
+  },
+  "Volt Voidshell Armor": {
+    "Type": "Armor",
+    "Description": "Default armor set for the Volt Voidshell Skin.",
+    "Link": "Volt Voidshell Armor",
+    "Part": "Arm",
+    "ExcludeFromCodex": true,
+    "Image": "VoltVoidshellArmor.png",
+    "Name": "Volt Voidshell Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/VoltChameleonArmArmor",
     "CodexSecret": false
   },
   "Prisma Edo Chest Plate": {
@@ -1472,15 +1505,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/NWIIIBossArmor/NWIIIBossAArmor",
     "CodexSecret": false
   },
-  "Voruna Demionna Armor": {
+  "Volt Armor": {
     "Type": "Armor",
-    "Description": "A unique armor for the Voruna Warframe, designed by kakarrot2812.",
-    "Link": "Voruna Demionna Armor",
+    "Description": "Default armor set for the Volt Warframe.",
+    "Link": "Volt Armor",
     "Part": "Arm",
     "ExcludeFromCodex": true,
-    "Image": "VorunaDemionnaArmor.png",
-    "Name": "Voruna Demionna Armor",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/SWWerewolfDemionnaArmArmor",
+    "Image": "VoltArmor.png",
+    "Name": "Volt Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/VoltArmArmor",
     "CodexSecret": false
   },
   "Gazal Shoulder Guard": {
@@ -1505,15 +1538,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/CrpHighArmor/CrpHighArmorA",
     "CodexSecret": false
   },
-  "Voruna Armor": {
+  "Suda Leg Spurs": {
     "Type": "Armor",
-    "Description": "Default armor set for the Voruna Warframe.",
-    "Link": "Voruna Armor",
-    "Part": "Arm",
-    "ExcludeFromCodex": true,
-    "Image": "VorunaArmor.png",
-    "Name": "Voruna Armor",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/WerewolfArmArmor",
+    "Description": "From knowledge: creation. An armor set forged to exacting Precepts.",
+    "Link": "Suda Leg Spurs",
+    "Part": "Leg",
+    "ExcludeFromCodex": false,
+    "Image": "SudaLegSpurs.png",
+    "Name": "Suda Leg Spurs",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/CephArmor/CephArmorL",
     "CodexSecret": false
   },
   "Right Eos Prime Spurs": {
@@ -1538,26 +1571,26 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/TnPagemasterArmor/TnPagemasterArmorA",
     "CodexSecret": false
   },
-  "Volt Voidshell Armor": {
+  "Vetala Shoulder Plate": {
     "Type": "Armor",
-    "Description": "Default armor set for the Volt Voidshell Skin.",
-    "Link": "Volt Voidshell Armor",
+    "Description": "Make Revenant whole with his signature armor.",
+    "Link": "Vetala Shoulder Plate",
     "Part": "Arm",
-    "ExcludeFromCodex": true,
-    "Image": "VoltVoidshellArmor.png",
-    "Name": "Volt Voidshell Armor",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/VoltChameleonArmArmor",
+    "ExcludeFromCodex": false,
+    "Image": "VetalaShoulderPlate.png",
+    "Name": "Vetala Shoulder Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/RevenantArmor/RevenantArmorA",
     "CodexSecret": false
   },
-  "Volt Armor": {
+  "Vetala Prime Shoulder Plates": {
     "Type": "Armor",
-    "Description": "Default armor set for the Volt Warframe.",
-    "Link": "Volt Armor",
+    "Description": "Revenant Prime's signature armor invokes the Unum's grace.",
+    "Link": "Vetala Prime Shoulder Plates",
     "Part": "Arm",
-    "ExcludeFromCodex": true,
-    "Image": "VoltArmor.png",
-    "Name": "Volt Armor",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/VoltArmArmor",
+    "ExcludeFromCodex": false,
+    "Image": "VetalaPrimeShoulderPlates.png",
+    "Name": "Vetala Prime Shoulder Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/PrimeRevenantArmour/PrimeRevenantArmourA",
     "CodexSecret": false
   },
   "Alastorn Shoulder Plates": {
@@ -1582,39 +1615,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/CrpHighArmor/WinterSolsticeArcaArmourL",
     "CodexSecret": false
   },
-  "Saturn Six Day of the Dead Knee Plates": {
-    "Type": "Armor",
-    "Description": "Honor the legacy of the infamous Wolf with this festive armor set.",
-    "Link": "Saturn Six Day of the Dead Knee Plates",
-    "Part": "Leg",
-    "ExcludeFromCodex": false,
-    "Image": "SaturnSixDayOfTheDeadKneePlates.png",
-    "Name": "Saturn Six Day of the Dead Knee Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/Wolf/DOTDWolfLArmor",
-    "CodexSecret": false
-  },
-  "Vetala Shoulder Plate": {
-    "Type": "Armor",
-    "Description": "Make Revenant whole with his signature armor.",
-    "Link": "Vetala Shoulder Plate",
-    "Part": "Arm",
-    "ExcludeFromCodex": false,
-    "Image": "VetalaShoulderPlate.png",
-    "Name": "Vetala Shoulder Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/RevenantArmor/RevenantArmorA",
-    "CodexSecret": false
-  },
-  "Vetala Prime Shoulder Plates": {
-    "Type": "Armor",
-    "Description": "Revenant Prime's signature armor invokes the Unum's grace.",
-    "Link": "Vetala Prime Shoulder Plates",
-    "Part": "Arm",
-    "ExcludeFromCodex": false,
-    "Image": "VetalaPrimeShoulderPlates.png",
-    "Name": "Vetala Prime Shoulder Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/PrimeRevenantArmour/PrimeRevenantArmourA",
-    "CodexSecret": false
-  },
   "Vetala Prime Leg Plate": {
     "Type": "Armor",
     "Description": "Revenant Prime's signature armor invokes the Unum's grace.",
@@ -1624,6 +1624,39 @@
     "Image": "VetalaPrimeLegPlate.png",
     "Name": "Vetala Prime Leg Plate",
     "InternalName": "/Lotus/Upgrades/Skins/Armor/PrimeRevenantArmour/PrimeRevenantArmourL",
+    "CodexSecret": false
+  },
+  "Naberus Shoulder Armor": {
+    "Type": "Armor",
+    "Description": "Strike fear into the hearts of your enemies by cladding your Warframe in this ancient battle attire.",
+    "Link": "Naberus Shoulder Armor",
+    "Part": "Arm",
+    "ExcludeFromCodex": false,
+    "Image": "NaberusShoulders.png",
+    "Name": "Naberus Shoulder Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/Halloween2014Wings/Halloween2014ArmArmor",
+    "CodexSecret": false
+  },
+  "Ransha Prime Leg Plates": {
+    "Type": "Armor",
+    "Description": "Battle dress suitable for the Prince of Flame.",
+    "Link": "Ransha Prime Leg Plates",
+    "Part": "Leg",
+    "ExcludeFromCodex": false,
+    "Image": "RanshaPrimeLegPlates.png",
+    "Name": "Ransha Prime Leg Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/PrimeNezhaArmor/PrimeNezhaArmorL",
+    "CodexSecret": false
+  },
+  "Vetala Day Of The Dead Ankle Plates": {
+    "Type": "Armor",
+    "Description": "Strike fear into the hearts of your enemies by cladding your Warframe in this ancient battle attire.",
+    "Link": "Vetala Day Of The Dead Ankle Plates",
+    "Part": "Leg",
+    "ExcludeFromCodex": false,
+    "Image": "VetalaDayOfTheDeadAnklePlates.png",
+    "Name": "Vetala Day Of The Dead Ankle Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Promo/Seasonal/Halloween2023DOTDVetalaRevenantArmorL",
     "CodexSecret": false
   },
   "Suda Chest Piece": {
@@ -1659,61 +1692,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/FurisArmor/SolsticeFurisCArmor",
     "CodexSecret": false
   },
-  "Red Veil Chest Piece": {
-    "Type": "Armor",
-    "Description": "Lightweight and unobtrusive. The armor of Red Veil assassins.",
-    "Link": "Red Veil Chest Piece",
-    "Part": "Chest",
-    "ExcludeFromCodex": false,
-    "Image": "RedVeilChestPiece.png",
-    "Name": "Red Veil Chest Piece",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/RedVeilArmor/RedVeilCArmor",
-    "CodexSecret": false
-  },
-  "Vetala Day Of The Dead Ankle Plates": {
-    "Type": "Armor",
-    "Description": "Strike fear into the hearts of your enemies by cladding your Warframe in this ancient battle attire.",
-    "Link": "Vetala Day Of The Dead Ankle Plates",
-    "Part": "Leg",
-    "ExcludeFromCodex": false,
-    "Image": "VetalaDayOfTheDeadAnklePlates.png",
-    "Name": "Vetala Day Of The Dead Ankle Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Promo/Seasonal/Halloween2023DOTDVetalaRevenantArmorL",
-    "CodexSecret": false
-  },
-  "Killian Shoulder Pad": {
-    "Type": "Armor",
-    "Description": "Protect your shoulders with Killian approved gear.",
-    "Link": "Killian Shoulder Pad",
-    "Part": "Arm",
-    "ExcludeFromCodex": false,
-    "Image": "KillianShoulderPad.png",
-    "Name": "Killian Shoulder Pad",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/CaliberChicksArmour/CaliberChicksArmourA",
-    "CodexSecret": false
-  },
-  "Vetala Chest Plate": {
-    "Type": "Armor",
-    "Description": "Make Revenant whole with his signature armor.",
-    "Link": "Vetala Chest Plate",
-    "Part": "Chest",
-    "ExcludeFromCodex": false,
-    "Image": "VetalaChestPlate.png",
-    "Name": "Vetala Chest Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/RevenantArmor/RevenantArmorC",
-    "CodexSecret": false
-  },
-  "Dex Raksaka Knee Guards": {
-    "Type": "Armor",
-    "Description": "A celebratory armor set presented by Ordis to commemorate the anniversary of the first Tenno awakening from Cryo stasis.",
-    "Link": "Dex Raksaka Knee Guards",
-    "Part": "Leg",
-    "ExcludeFromCodex": true,
-    "Image": "DexRaksakaKneeGuards.png",
-    "Name": "Dex Raksaka Knee Guards",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/Dex2020Armor/Dex2020ArmorLArmor",
-    "CodexSecret": false
-  },
   "Verv Shoulder Plates": {
     "Type": "Armor",
     "Description": "Fight in impenetrable style.",
@@ -1736,6 +1714,17 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/Twitch2021Armor/TwitchArmor2021L",
     "CodexSecret": false
   },
+  "Killian Shoulder Pad": {
+    "Type": "Armor",
+    "Description": "Protect your shoulders with Killian approved gear.",
+    "Link": "Killian Shoulder Pad",
+    "Part": "Arm",
+    "ExcludeFromCodex": false,
+    "Image": "KillianShoulderPad.png",
+    "Name": "Killian Shoulder Pad",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/CaliberChicksArmour/CaliberChicksArmourA",
+    "CodexSecret": false
+  },
   "Vanda Prime Leg Armor": {
     "Type": "Armor",
     "Description": "Gleaming with galvanic crystals, Gyre Prime's signature armor crackles with elegance.",
@@ -1745,6 +1734,17 @@
     "Image": "VandaPrimeLegArmor.png",
     "Name": "Vanda Prime Leg Armor",
     "InternalName": "/Lotus/Upgrades/Skins/Armor/PrimeGyreArmor/PrimeGyreArmorL",
+    "CodexSecret": false
+  },
+  "Dex Raksaka Knee Guards": {
+    "Type": "Armor",
+    "Description": "A celebratory armor set presented by Ordis to commemorate the anniversary of the first Tenno awakening from Cryo stasis.",
+    "Link": "Dex Raksaka Knee Guards",
+    "Part": "Leg",
+    "ExcludeFromCodex": true,
+    "Image": "DexRaksakaKneeGuards.png",
+    "Name": "Dex Raksaka Knee Guards",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/Dex2020Armor/Dex2020ArmorLArmor",
     "CodexSecret": false
   },
   "Vanda Prime Chest Armor": {
@@ -1767,6 +1767,39 @@
     "Image": "UmbraLegArmor.png",
     "Name": "Umbra Leg Armor",
     "InternalName": "/Lotus/Upgrades/Skins/Armor/UmbraArmour/UmbraLArmor",
+    "CodexSecret": false
+  },
+  "Umbra Chest Armor": {
+    "Type": "Armor",
+    "Description": "The signature armor of Excalibur Umbra.",
+    "Link": "Umbra Chest Armor",
+    "Part": "Chest",
+    "ExcludeFromCodex": true,
+    "Image": "UmbraChestArmor.png",
+    "Name": "Umbra Chest Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/UmbraArmour/UmbraCArmor",
+    "CodexSecret": false
+  },
+  "Umbra Arm Armor": {
+    "Type": "Armor",
+    "Description": "The signature armor of Excalibur Umbra.",
+    "Link": "Umbra Arm Armor",
+    "Part": "Arm",
+    "ExcludeFromCodex": true,
+    "Image": "UmbraArmArmor.png",
+    "Name": "Umbra Arm Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/UmbraArmour/UmbraAArmor",
+    "CodexSecret": false
+  },
+  "TennoCon 2019 Shoulder Plates": {
+    "Type": "Armor",
+    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2019.",
+    "Link": "TennoCon 2019 Shoulder Plates",
+    "Part": "Arm",
+    "ExcludeFromCodex": true,
+    "Image": "TennoCon2019ShoulderPlates.png",
+    "Name": "TennoCon 2019 Shoulder Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TennoCon2019Armor/TennoCon2019AArmor",
     "CodexSecret": false
   },
   "Iliac Shoulder Plate": {
@@ -1813,15 +1846,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/TnHvArmour/TnHvArmourA",
     "CodexSecret": false
   },
-  "Umbra Chest Armor": {
+  "Tidon Shoulder Medallion": {
     "Type": "Armor",
-    "Description": "The signature armor of Excalibur Umbra.",
-    "Link": "Umbra Chest Armor",
-    "Part": "Chest",
-    "ExcludeFromCodex": true,
-    "Image": "UmbraChestArmor.png",
-    "Name": "Umbra Chest Armor",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/UmbraArmour/UmbraCArmor",
+    "Description": "With tassels that dance like snowflakes in the wind, these elegant clasps are worn by the people of Tethys to promote balance and harmony.",
+    "Link": "Tidon Shoulder Medallion",
+    "Part": "Arm",
+    "ExcludeFromCodex": false,
+    "Image": "TidonShoulderMedallion.png",
+    "Name": "Tidon Shoulder Medallion",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/DuelistArmour/DuelistArmourA",
     "CodexSecret": false
   },
   "Meridian Chest Plate": {
@@ -1846,15 +1879,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/TnShinaiArmor/TnShinaiArmorL",
     "CodexSecret": false
   },
-  "Umbra Arm Armor": {
+  "Tidon Leg Medallion": {
     "Type": "Armor",
-    "Description": "The signature armor of Excalibur Umbra.",
-    "Link": "Umbra Arm Armor",
-    "Part": "Arm",
-    "ExcludeFromCodex": true,
-    "Image": "UmbraArmArmor.png",
-    "Name": "Umbra Arm Armor",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/UmbraArmour/UmbraAArmor",
+    "Description": "With tassels that dance like snowflakes in the wind, these elegant clasps are worn by the people of Tethys to promote balance and harmony.",
+    "Link": "Tidon Leg Medallion",
+    "Part": "Leg",
+    "ExcludeFromCodex": false,
+    "Image": "TidonLegMedallion.png",
+    "Name": "Tidon Leg Medallion",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/DuelistArmour/DuelistArmourL",
     "CodexSecret": false
   },
   "Perrin Arm Guards": {
@@ -1903,15 +1936,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/PrimeSetTwo/PrimeSetTwoArmArmor",
     "CodexSecret": false
   },
-  "TennoCon 2021 Shoulder Plates": {
+  "Tidon Chest Medallion": {
     "Type": "Armor",
-    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2021.",
-    "Link": "TennoCon 2021 Shoulder Plates",
-    "Part": "Arm",
-    "ExcludeFromCodex": true,
-    "Image": "TennoCon2021ShoulderPlates.png",
-    "Name": "TennoCon 2021 Shoulder Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TennoCon2021Armor/TennoCon2021AArmor",
+    "Description": "With tassels that dance like snowflakes in the wind, these elegant clasps are worn by the people of Tethys to promote balance and harmony.",
+    "Link": "Tidon Chest Medallion",
+    "Part": "Chest",
+    "ExcludeFromCodex": false,
+    "Image": "TidonChestMedallion.png",
+    "Name": "Tidon Chest Medallion",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/DuelistArmour/DuelistArmourC",
     "CodexSecret": false
   },
   "Vetala Prime Chest Plate": {
@@ -1936,15 +1969,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/PrimeSetMirage/PrimeSetMirageC",
     "CodexSecret": false
   },
-  "Tidon Leg Medallion": {
+  "TennoCon 2022 Leg Plates": {
     "Type": "Armor",
-    "Description": "With tassels that dance like snowflakes in the wind, these elegant clasps are worn by the people of Tethys to promote balance and harmony.",
-    "Link": "Tidon Leg Medallion",
+    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2022.",
+    "Link": "TennoCon 2022 Leg Plates",
     "Part": "Leg",
     "ExcludeFromCodex": false,
-    "Image": "TidonLegMedallion.png",
-    "Name": "Tidon Leg Medallion",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/DuelistArmour/DuelistArmourL",
+    "Image": "TennoCon2022LegPlates.png",
+    "Name": "TennoCon 2022 Leg Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TennoCon2022Armor/TennoCon2022LArmor",
     "CodexSecret": false
   },
   "Edo Shin Plates": {
@@ -1969,15 +2002,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Decree/BansheeDeluxeArmLeftArmor",
     "CodexSecret": false
   },
-  "Tidon Chest Medallion": {
+  "TennoCon 2022 Chest Plate": {
     "Type": "Armor",
-    "Description": "With tassels that dance like snowflakes in the wind, these elegant clasps are worn by the people of Tethys to promote balance and harmony.",
-    "Link": "Tidon Chest Medallion",
+    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2022.",
+    "Link": "TennoCon 2022 Chest Plate",
     "Part": "Chest",
     "ExcludeFromCodex": false,
-    "Image": "TidonChestMedallion.png",
-    "Name": "Tidon Chest Medallion",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/DuelistArmour/DuelistArmourC",
+    "Image": "TennoCon2022ChestPlate.png",
+    "Name": "TennoCon 2022 Chest Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TennoCon2022Armor/TennoCon2022CArmor",
     "CodexSecret": false
   },
   "Itzal Armor Leg Plate": {
@@ -1991,15 +2024,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/RailjackArmor/ItzalArmourL",
     "CodexSecret": false
   },
-  "Naberus Shoulder Armor": {
+  "TennoCon 2021 Shoulder Plates": {
     "Type": "Armor",
-    "Description": "Strike fear into the hearts of your enemies by cladding your Warframe in this ancient battle attire.",
-    "Link": "Naberus Shoulder Armor",
+    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2021.",
+    "Link": "TennoCon 2021 Shoulder Plates",
     "Part": "Arm",
-    "ExcludeFromCodex": false,
-    "Image": "NaberusShoulders.png",
-    "Name": "Naberus Shoulder Armor",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/Halloween2014Wings/Halloween2014ArmArmor",
+    "ExcludeFromCodex": true,
+    "Image": "TennoCon2021ShoulderPlates.png",
+    "Name": "TennoCon 2021 Shoulder Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TennoCon2021Armor/TennoCon2021AArmor",
     "CodexSecret": false
   },
   "Paxis Chest Plate": {
@@ -2145,26 +2178,26 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/Sony/OAArmorL",
     "CodexSecret": false
   },
-  "TennoCon 2022 Leg Plates": {
+  "TennoCon 2021 Leg Plates": {
     "Type": "Armor",
-    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2022.",
-    "Link": "TennoCon 2022 Leg Plates",
+    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2021.",
+    "Link": "TennoCon 2021 Leg Plates",
     "Part": "Leg",
-    "ExcludeFromCodex": false,
-    "Image": "TennoCon2022LegPlates.png",
-    "Name": "TennoCon 2022 Leg Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TennoCon2022Armor/TennoCon2022LArmor",
+    "ExcludeFromCodex": true,
+    "Image": "TennoCon2021LegPlates.png",
+    "Name": "TennoCon 2021 Leg Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TennoCon2021Armor/TennoCon2021LArmor",
     "CodexSecret": false
   },
-  "TennoCon 2022 Chest Plate": {
+  "TennoCon 2021 Chest Plate": {
     "Type": "Armor",
-    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2022.",
-    "Link": "TennoCon 2022 Chest Plate",
+    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2021.",
+    "Link": "TennoCon 2021 Chest Plate",
     "Part": "Chest",
-    "ExcludeFromCodex": false,
-    "Image": "TennoCon2022ChestPlate.png",
-    "Name": "TennoCon 2022 Chest Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TennoCon2022Armor/TennoCon2022CArmor",
+    "ExcludeFromCodex": true,
+    "Image": "TennoCon2021ChestPlate.png",
+    "Name": "TennoCon 2021 Chest Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TennoCon2021Armor/TennoCon2021CArmor",
     "CodexSecret": false
   },
   "Frost Ion Armor": {
@@ -2222,15 +2255,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/FrostArmArmor",
     "CodexSecret": false
   },
-  "TennoCon 2021 Leg Plates": {
+  "TennoCon 2019 Leg Plates": {
     "Type": "Armor",
-    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2021.",
-    "Link": "TennoCon 2021 Leg Plates",
+    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2019.",
+    "Link": "TennoCon 2019 Leg Plates",
     "Part": "Leg",
     "ExcludeFromCodex": true,
-    "Image": "TennoCon2021LegPlates.png",
-    "Name": "TennoCon 2021 Leg Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TennoCon2021Armor/TennoCon2021LArmor",
+    "Image": "TennoCon2019LegPlates.png",
+    "Name": "TennoCon 2019 Leg Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TennoCon2019Armor/TennoCon2019LArmor",
     "CodexSecret": false
   },
   "Grandis XVIII Kalika": {
@@ -2266,15 +2299,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/TnBayonettaArmor/TnDeimosSupporterArmorC",
     "CodexSecret": false
   },
-  "TennoCon 2019 Leg Plates": {
+  "TennoCon 2018 Chest Plate": {
     "Type": "Armor",
-    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2019.",
-    "Link": "TennoCon 2019 Leg Plates",
-    "Part": "Leg",
-    "ExcludeFromCodex": true,
-    "Image": "TennoCon2019LegPlates.png",
-    "Name": "TennoCon 2019 Leg Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TennoCon2019Armor/TennoCon2019LArmor",
+    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2018.",
+    "Link": "TennoCon 2018 Chest Plate",
+    "Part": "Chest",
+    "ExcludeFromCodex": false,
+    "Image": "TennoCon2018ChestPlate.png",
+    "Name": "TennoCon 2018 Chest Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TennoCon2018Armor/TennoCon2018ArmorC",
     "CodexSecret": false
   },
   "Diva Chest Plate": {
@@ -2299,39 +2332,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/SWEucyonArmor/SWEucyonChestArmor",
     "CodexSecret": false
   },
-  "Nidina Armor Solstice Leg Plate": {
-    "Type": "Armor",
-    "Description": "The swooping curves of the Nidina armor set, now rendered in icy style.",
-    "Link": "Nidina Armor Solstice Leg Plate",
-    "Part": "Leg",
-    "ExcludeFromCodex": false,
-    "Image": "NidinaArmorSolsticeLegPlate.png",
-    "Name": "Nidina Armor Solstice Leg Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TnArmorCurve/SolsticeTnArmorCurveL",
-    "CodexSecret": false
-  },
-  "TennoCon 2018 Shoulder Plates": {
-    "Type": "Armor",
-    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2018.",
-    "Link": "TennoCon 2018 Shoulder Plates",
-    "Part": "Arm",
-    "ExcludeFromCodex": false,
-    "Image": "TennoCon2018ShoulderPlates.png",
-    "Name": "TennoCon 2018 Shoulder Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TennoCon2018Armor/TennoCon2018ArmorA",
-    "CodexSecret": false
-  },
-  "TennoCon 2018 Chest Plate": {
-    "Type": "Armor",
-    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2018.",
-    "Link": "TennoCon 2018 Chest Plate",
-    "Part": "Chest",
-    "ExcludeFromCodex": false,
-    "Image": "TennoCon2018ChestPlate.png",
-    "Name": "TennoCon 2018 Chest Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TennoCon2018Armor/TennoCon2018ArmorC",
-    "CodexSecret": false
-  },
   "Techrot Shoulder Plates": {
     "Type": "Armor",
     "Description": "Get the look of Techrot without catching a nasty, life-destroying infection.",
@@ -2341,28 +2341,6 @@
     "Image": "TechrotShoulderPlates.png",
     "Name": "Techrot Shoulder Plates",
     "InternalName": "/Lotus/Upgrades/Skins/Armor/Inf1999Armor/Inf1999ArmorA",
-    "CodexSecret": false
-  },
-  "Tannukai Chest Plate": {
-    "Type": "Armor",
-    "Description": "Honor the Tenno legacy with this finely crafted set of training armor, as worn during the annual Origin System ceremonial games.",
-    "Link": "Tannukai Chest Plate",
-    "Part": "Chest",
-    "ExcludeFromCodex": false,
-    "Image": "TannukaiChestPlate.png",
-    "Name": "Tannukai Chest Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TnShinaiArmor/TnShinaiArmorC",
-    "CodexSecret": false
-  },
-  "Conquera Shoulder Ribbon": {
-    "Type": "Armor",
-    "Description": "Wear this ribbon Shoulder armor as a symbol of support in the Quest to Conquer Cancer.",
-    "Link": "Conquera Shoulder Ribbon",
-    "Part": "Arm",
-    "ExcludeFromCodex": false,
-    "Image": "ConqueraShoulderRibbon.png",
-    "Name": "Conquera Shoulder Ribbon",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TnCharityRibbonArmor/ConqueraArmorA",
     "CodexSecret": false
   },
   "Techrot Leg Plates": {
@@ -2387,17 +2365,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/Inf1999Armor/Inf1999ArmorC",
     "CodexSecret": false
   },
-  "Avyrdi Shoulder Armor": {
-    "Type": "Armor",
-    "Description": "A unique shoulder armor for your Warframe, designed by led2012 and lex182.",
-    "Link": "Avyrdi Shoulder Armor",
-    "Part": "Arm",
-    "ExcludeFromCodex": false,
-    "Image": "AvyrdiShoulderArmor.png",
-    "Name": "Avyrdi Shoulder Armor",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/SWAvyrdiShoulderArmor/SWAvyrdiShoulderArmorA",
-    "CodexSecret": false
-  },
   "Targis Prime Shoulder Plates": {
     "Type": "Armor",
     "Description": "Decorative shoulder plates for your Warframe.",
@@ -2409,15 +2376,37 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/PrimeSetOne/PrimeSetOneArmArmor",
     "CodexSecret": false
   },
-  "Ostron Arm Guards": {
+  "Tannukai Chest Plate": {
     "Type": "Armor",
-    "Description": "An Ostron armor set crafted from Orokin tower salvage.",
-    "Link": "Ostron Arm Guards",
+    "Description": "Honor the Tenno legacy with this finely crafted set of training armor, as worn during the annual Origin System ceremonial games.",
+    "Link": "Tannukai Chest Plate",
+    "Part": "Chest",
+    "ExcludeFromCodex": false,
+    "Image": "TannukaiChestPlate.png",
+    "Name": "Tannukai Chest Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TnShinaiArmor/TnShinaiArmorC",
+    "CodexSecret": false
+  },
+  "Conquera Shoulder Ribbon": {
+    "Type": "Armor",
+    "Description": "Wear this ribbon Shoulder armor as a symbol of support in the Quest to Conquer Cancer.",
+    "Link": "Conquera Shoulder Ribbon",
     "Part": "Arm",
     "ExcludeFromCodex": false,
-    "Image": "OstronArmGuards.png",
-    "Name": "Ostron Arm Guards",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/OstronCrewArmor/OstronCrewArmorA",
+    "Image": "ConqueraShoulderRibbon.png",
+    "Name": "Conquera Shoulder Ribbon",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TnCharityRibbonArmor/ConqueraArmorA",
+    "CodexSecret": false
+  },
+  "Opula Leg Armor": {
+    "Type": "Armor",
+    "Description": "Dazzle the eye with the iridescent flames of this armor set.",
+    "Link": "Opula Leg Armor",
+    "Part": "Leg",
+    "ExcludeFromCodex": true,
+    "Image": "OpulaLegArmor.png",
+    "Name": "Opula Leg Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/Opula/OpulaArmorL",
     "CodexSecret": false
   },
   "Glissanda Prime Shoulder Plates": {
@@ -2429,6 +2418,50 @@
     "Image": "GlissandaPrimeShoulderPlates.png",
     "Name": "Glissanda Prime Shoulder Plates",
     "InternalName": "/Lotus/Upgrades/Skins/Armor/PrimeOctaviaArmour/PrimeOctaviaArmourA",
+    "CodexSecret": false
+  },
+  "Avyrdi Shoulder Armor": {
+    "Type": "Armor",
+    "Description": "A unique shoulder armor for your Warframe, designed by led2012 and lex182.",
+    "Link": "Avyrdi Shoulder Armor",
+    "Part": "Arm",
+    "ExcludeFromCodex": false,
+    "Image": "AvyrdiShoulderArmor.png",
+    "Name": "Avyrdi Shoulder Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/SWAvyrdiShoulderArmor/SWAvyrdiShoulderArmorA",
+    "CodexSecret": false
+  },
+  "Saturn Six Chest Plate": {
+    "Type": "Armor",
+    "Description": "The signature battle armor of the only lunatic fearsome enough to have escaped the Saturn Six Max-Pen.",
+    "Link": "Saturn Six Chest Plate",
+    "Part": "Chest",
+    "ExcludeFromCodex": false,
+    "Image": "SaturnSixChestPlate.png",
+    "Name": "Saturn Six Chest Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/Wolf/TennoWolfCArmor",
+    "CodexSecret": false
+  },
+  "Syrinx Leg Plates": {
+    "Type": "Armor",
+    "Description": "Styled to match the Baza submachine gun and the Cassowar polearm, this armor gives a regal look to any Warframe.",
+    "Link": "Syrinx Leg Plates",
+    "Part": "Leg",
+    "ExcludeFromCodex": true,
+    "Image": "SyrinxLegPlates.png",
+    "Name": "Syrinx Leg Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TnHvArmour/TnHvArmourL",
+    "CodexSecret": false
+  },
+  "Syrinx Chest Plate": {
+    "Type": "Armor",
+    "Description": "Styled to match the Baza submachine gun and the Cassowar polearm, this armor gives a regal look to any Warframe.",
+    "Link": "Syrinx Chest Plate",
+    "Part": "Chest",
+    "ExcludeFromCodex": true,
+    "Image": "SyrinxChestPlate.png",
+    "Name": "Syrinx Chest Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TnHvArmour/TnHvArmourC",
     "CodexSecret": false
   },
   "Prisma Avia Chest Plate": {
@@ -2475,26 +2508,26 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/SWSeraphimArmor/SWSeraphimChestArmor",
     "CodexSecret": false
   },
-  "Syrinx Leg Plates": {
+  "Suda Arm Spurs": {
     "Type": "Armor",
-    "Description": "Styled to match the Baza submachine gun and the Cassowar polearm, this armor gives a regal look to any Warframe.",
-    "Link": "Syrinx Leg Plates",
-    "Part": "Leg",
-    "ExcludeFromCodex": true,
-    "Image": "SyrinxLegPlates.png",
-    "Name": "Syrinx Leg Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TnHvArmour/TnHvArmourL",
+    "Description": "From knowledge: creation. An armor set forged to exacting Precepts.",
+    "Link": "Suda Arm Spurs",
+    "Part": "Arm",
+    "ExcludeFromCodex": false,
+    "Image": "SudaArmSpurs.png",
+    "Name": "Suda Arm Spurs",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/CephArmor/CephArmorA",
     "CodexSecret": false
   },
-  "Syrinx Chest Plate": {
+  "Spritsail Prime Shoulder Guard": {
     "Type": "Armor",
-    "Description": "Styled to match the Baza submachine gun and the Cassowar polearm, this armor gives a regal look to any Warframe.",
-    "Link": "Syrinx Chest Plate",
-    "Part": "Chest",
-    "ExcludeFromCodex": true,
-    "Image": "SyrinxChestPlate.png",
-    "Name": "Syrinx Chest Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TnHvArmour/TnHvArmourC",
+    "Description": "The swooping lines of this prime armor evoke a ship at sea.",
+    "Link": "Spritsail Prime Shoulder Guard",
+    "Part": "Arm",
+    "ExcludeFromCodex": false,
+    "Image": "SpritsailPrimeShoulderGuard.png",
+    "Name": "Spritsail Prime Shoulder Guard",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/PrimeSetFour/PrimeSetFourA",
     "CodexSecret": false
   },
   "Provvok Obsidian Shoulder Guard": {
@@ -2508,15 +2541,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/GrnFaceMaskArmour/ObsidianFaceMaskArmour",
     "CodexSecret": false
   },
-  "Suda Leg Spurs": {
+  "Spritsail Prime Chest Plate": {
     "Type": "Armor",
-    "Description": "From knowledge: creation. An armor set forged to exacting Precepts.",
-    "Link": "Suda Leg Spurs",
-    "Part": "Leg",
+    "Description": "The swooping lines of this prime armor evoke a ship at sea.",
+    "Link": "Spritsail Prime Chest Plate",
+    "Part": "Chest",
     "ExcludeFromCodex": false,
-    "Image": "SudaLegSpurs.png",
-    "Name": "Suda Leg Spurs",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/CephArmor/CephArmorL",
+    "Image": "SpritsailPrimeChestPlate.png",
+    "Name": "Spritsail Prime Chest Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/PrimeSetFour/PrimeSetFourC",
     "CodexSecret": false
   },
   "Aesopex Chest Plate": {
@@ -2574,26 +2607,26 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/LokiDeluxeArmour/LokiDeluxeAArmor",
     "CodexSecret": false
   },
-  "Suda Arm Spurs": {
+  "Spicularis Spurs": {
     "Type": "Armor",
-    "Description": "From knowledge: creation. An armor set forged to exacting Precepts.",
-    "Link": "Suda Arm Spurs",
-    "Part": "Arm",
+    "Description": "A unique leg armor for your Warframe, designed by Ventralhound.",
+    "Link": "Spicularis Spurs",
+    "Part": "Leg",
     "ExcludeFromCodex": false,
-    "Image": "SudaArmSpurs.png",
-    "Name": "Suda Arm Spurs",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/CephArmor/CephArmorA",
+    "Image": "SpicularisSpurs.png",
+    "Name": "Spicularis Spurs",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/SWSpicularisSpurs/SWSpicularisSpursArmorL",
     "CodexSecret": false
   },
-  "Spritsail Prime Shoulder Guard": {
+  "Sorex Shoulder Guards": {
     "Type": "Armor",
-    "Description": "The swooping lines of this prime armor evoke a ship at sea.",
-    "Link": "Spritsail Prime Shoulder Guard",
+    "Description": "For where your treasure is, there your heart will be also.",
+    "Link": "Sorex Shoulder Guards",
     "Part": "Arm",
     "ExcludeFromCodex": false,
-    "Image": "SpritsailPrimeShoulderGuard.png",
-    "Name": "Spritsail Prime Shoulder Guard",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/PrimeSetFour/PrimeSetFourA",
+    "Image": "SorexShoulderGuards.png",
+    "Name": "Sorex Shoulder Guards",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/CrpSisters/CrpSistersA",
     "CodexSecret": false
   },
   "Ki'Teer Greth Shoulder Plates": {
@@ -2629,15 +2662,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/GrineerVHArmour/GrineerVHA",
     "CodexSecret": false
   },
-  "Spritsail Prime Chest Plate": {
+  "Sorex Leg Guards": {
     "Type": "Armor",
-    "Description": "The swooping lines of this prime armor evoke a ship at sea.",
-    "Link": "Spritsail Prime Chest Plate",
-    "Part": "Chest",
+    "Description": "For where your treasure is, there your heart will be also.",
+    "Link": "Sorex Leg Guards",
+    "Part": "Leg",
     "ExcludeFromCodex": false,
-    "Image": "SpritsailPrimeChestPlate.png",
-    "Name": "Spritsail Prime Chest Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/PrimeSetFour/PrimeSetFourC",
+    "Image": "SorexLegGuards.png",
+    "Name": "Sorex Leg Guards",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/CrpSisters/CrpSistersL",
     "CodexSecret": false
   },
   "Iliac Chest Plate": {
@@ -2651,37 +2684,37 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/InfestedFins/InfestedFinsChestArmor",
     "CodexSecret": false
   },
-  "Spicularis Spurs": {
-    "Type": "Armor",
-    "Description": "A unique leg armor for your Warframe, designed by Ventralhound.",
-    "Link": "Spicularis Spurs",
-    "Part": "Leg",
-    "ExcludeFromCodex": false,
-    "Image": "SpicularisSpurs.png",
-    "Name": "Spicularis Spurs",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/SWSpicularisSpurs/SWSpicularisSpursArmorL",
-    "CodexSecret": false
-  },
-  "Sorex Shoulder Guards": {
+  "Sorex Chest Plate": {
     "Type": "Armor",
     "Description": "For where your treasure is, there your heart will be also.",
-    "Link": "Sorex Shoulder Guards",
+    "Link": "Sorex Chest Plate",
+    "Part": "Chest",
+    "ExcludeFromCodex": false,
+    "Image": "SorexChestPlate.png",
+    "Name": "Sorex Chest Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/CrpSisters/CrpSistersC",
+    "CodexSecret": false
+  },
+  "Solstice Daedalus Shoulder Plates": {
+    "Type": "Armor",
+    "Description": "Festive shoulder plates for your Warframe.",
+    "Link": "Solstice Daedalus Shoulder Plates",
     "Part": "Arm",
     "ExcludeFromCodex": false,
-    "Image": "SorexShoulderGuards.png",
-    "Name": "Sorex Shoulder Guards",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/CrpSisters/CrpSistersA",
+    "Image": "SolsticeDaedalusShoulderPlates.png",
+    "Name": "Solstice Daedalus Shoulder Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/SetThreeWinged/SolsticeSetThreeArmArmor",
     "CodexSecret": false
   },
-  "Sorex Leg Guards": {
+  "Solstice Daedalus Knee Plates": {
     "Type": "Armor",
-    "Description": "For where your treasure is, there your heart will be also.",
-    "Link": "Sorex Leg Guards",
+    "Description": "Festive leg plates for your Warframe.",
+    "Link": "Solstice Daedalus Knee Plates",
     "Part": "Leg",
     "ExcludeFromCodex": false,
-    "Image": "SorexLegGuards.png",
-    "Name": "Sorex Leg Guards",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/CrpSisters/CrpSistersL",
+    "Image": "SolsticeDaedalusKneePlates.png",
+    "Name": "Solstice Daedalus Knee Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/SetThreeWinged/SolsticeSetThreeLegArmor",
     "CodexSecret": false
   },
   "Corachrix Shoulder Pauldrons": {
@@ -2695,15 +2728,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/SWCorachrixPauldrons/SWCorachrixPauldrons",
     "CodexSecret": false
   },
-  "Sorex Chest Plate": {
+  "Solaris Leg Spurs": {
     "Type": "Armor",
-    "Description": "For where your treasure is, there your heart will be also.",
-    "Link": "Sorex Chest Plate",
-    "Part": "Chest",
+    "Description": "Repurposed and reliable, strap on Solaris armor and everything's green.",
+    "Link": "Solaris Leg Spurs",
+    "Part": "Leg",
     "ExcludeFromCodex": false,
-    "Image": "SorexChestPlate.png",
-    "Name": "Sorex Chest Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/CrpSisters/CrpSistersC",
+    "Image": "SolarisLegSpurs.png",
+    "Name": "Solaris Leg Spurs",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/SolarisUnitedArmor/SolarisUnitedLArmor",
     "CodexSecret": false
   },
   "Embolist Shoulder Growths": {
@@ -2717,15 +2750,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/InfEmbolistArmor/InfEmbolistArmorA",
     "CodexSecret": false
   },
-  "Solstice Daedalus Shoulder Plates": {
+  "Solaris Chest Marker": {
     "Type": "Armor",
-    "Description": "Festive shoulder plates for your Warframe.",
-    "Link": "Solstice Daedalus Shoulder Plates",
-    "Part": "Arm",
+    "Description": "Repurposed and reliable, strap on Solaris armor and everything's green.",
+    "Link": "Solaris Chest Marker",
+    "Part": "Chest",
     "ExcludeFromCodex": false,
-    "Image": "SolsticeDaedalusShoulderPlates.png",
-    "Name": "Solstice Daedalus Shoulder Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/SetThreeWinged/SolsticeSetThreeArmArmor",
+    "Image": "SolarisChestMarker.png",
+    "Name": "Solaris Chest Marker",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/SolarisUnitedArmor/SolarisUnitedCArmor",
     "CodexSecret": false
   },
   "Meridian Arm Spurs": {
@@ -2750,15 +2783,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/KuvaLichSetB/KuvaLichArmourBChest",
     "CodexSecret": false
   },
-  "Solstice Daedalus Knee Plates": {
+  "Right Prisma Edo Shoulder Plates": {
     "Type": "Armor",
-    "Description": "Festive leg plates for your Warframe.",
-    "Link": "Solstice Daedalus Knee Plates",
-    "Part": "Leg",
-    "ExcludeFromCodex": false,
-    "Image": "SolsticeDaedalusKneePlates.png",
-    "Name": "Solstice Daedalus Knee Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/SetThreeWinged/SolsticeSetThreeLegArmor",
+    "Description": "Decorative shoulder plates for your Warframe.",
+    "Link": "Right Prisma Edo Shoulder Plates",
+    "Part": "Arm",
+    "ExcludeFromCodex": true,
+    "Image": "RightPrismaEdoShoulderPlates.png",
+    "Name": "Right Prisma Edo Shoulder Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/SetTwoSamurai/VTSetTwoArmRightArmor",
     "CodexSecret": false
   },
   "Ember Prime Armor": {
@@ -2805,61 +2838,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/SetThreeWinged/SetThreeLegArmor",
     "CodexSecret": false
   },
-  "Solaris Leg Spurs": {
-    "Type": "Armor",
-    "Description": "Repurposed and reliable, strap on Solaris armor and everything's green.",
-    "Link": "Solaris Leg Spurs",
-    "Part": "Leg",
-    "ExcludeFromCodex": false,
-    "Image": "SolarisLegSpurs.png",
-    "Name": "Solaris Leg Spurs",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/SolarisUnitedArmor/SolarisUnitedLArmor",
-    "CodexSecret": false
-  },
-  "Solaris Chest Marker": {
-    "Type": "Armor",
-    "Description": "Repurposed and reliable, strap on Solaris armor and everything's green.",
-    "Link": "Solaris Chest Marker",
-    "Part": "Chest",
-    "ExcludeFromCodex": false,
-    "Image": "SolarisChestMarker.png",
-    "Name": "Solaris Chest Marker",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/SolarisUnitedArmor/SolarisUnitedCArmor",
-    "CodexSecret": false
-  },
-  "Paxis Shoulder Armor": {
-    "Type": "Armor",
-    "Description": "A unique shoulder armor for your Warframe, designed by malaya and Jadie.",
-    "Link": "Paxis Shoulder Armor",
-    "Part": "Arm",
-    "ExcludeFromCodex": false,
-    "Image": "PaxisShoulderArmor.png",
-    "Name": "Paxis Shoulder Armor",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/SWPaxisShoulderArmor/SWPaxisShoulderArmor",
-    "CodexSecret": false
-  },
-  "Riv Elite-Guard Arm": {
-    "Type": "Armor",
-    "Description": "Decorative Lunaro padding.",
-    "Link": "Riv Elite-Guard Arm",
-    "Part": "Arm",
-    "ExcludeFromCodex": true,
-    "Image": "RivElite-GuardArm.png",
-    "Name": "Riv Elite-Guard Arm",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/LunaroSetC/LunaroSetCA",
-    "CodexSecret": false
-  },
-  "Avia Solstice Shoulder Plate": {
-    "Type": "Armor",
-    "Description": "Avia Armor that has been adorned with a festive design.",
-    "Link": "Avia Solstice Shoulder Plate",
-    "Part": "Arm",
-    "ExcludeFromCodex": true,
-    "Image": "AviaSolsticeShoulderPlate.png",
-    "Name": "Avia Solstice Shoulder Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/FurisArmor/SolsticeFurisAArmor",
-    "CodexSecret": false
-  },
   "Sigma Series Leg Plate": {
     "Type": "Armor",
     "Description": "The hardened Sigma Series Armor was recognized battle dress for Old War Railjack crews.",
@@ -2869,17 +2847,6 @@
     "Image": "SigmaSeriesLegPlate.png",
     "Name": "Sigma Series Leg Plate",
     "InternalName": "/Lotus/Upgrades/Skins/Armor/RailjackArmor/RailjackLArmor",
-    "CodexSecret": false
-  },
-  "Dax Lustratus Shoulder Plates": {
-    "Type": "Armor",
-    "Description": "Embellished shoulder guards worn by Dax commanders on Tau to signify their elevated rank.",
-    "Link": "Dax Lustratus Shoulder Plates",
-    "Part": "Chest",
-    "ExcludeFromCodex": false,
-    "Image": "DaxLustratusShoulderPlates.png",
-    "Name": "Dax Lustratus Shoulder Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/DaxFlaredArmor/DaxFlaredAArmor",
     "CodexSecret": false
   },
   "Sigma Series Chest Plate": {
@@ -2893,6 +2860,17 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/RailjackArmor/RailjackCArmor",
     "CodexSecret": false
   },
+  "Paxis Shoulder Armor": {
+    "Type": "Armor",
+    "Description": "A unique shoulder armor for your Warframe, designed by malaya and Jadie.",
+    "Link": "Paxis Shoulder Armor",
+    "Part": "Arm",
+    "ExcludeFromCodex": false,
+    "Image": "PaxisShoulderArmor.png",
+    "Name": "Paxis Shoulder Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/SWPaxisShoulderArmor/SWPaxisShoulderArmor",
+    "CodexSecret": false
+  },
   "Shi Shoulder Plates": {
     "Type": "Armor",
     "Description": "Corpus craftsmanship applied to ancient principles creates this masterwork of defensive and aesthetic design. 'Accept death, and escape it.'",
@@ -2902,6 +2880,61 @@
     "Image": "ShiShoulderPlates.png",
     "Name": "Shi Shoulder Plates",
     "InternalName": "/Lotus/Upgrades/Skins/Armor/CrpCubinatorArmor/CrpCubinatorArmorA",
+    "CodexSecret": false
+  },
+  "Avia Solstice Shoulder Plate": {
+    "Type": "Armor",
+    "Description": "Avia Armor that has been adorned with a festive design.",
+    "Link": "Avia Solstice Shoulder Plate",
+    "Part": "Arm",
+    "ExcludeFromCodex": true,
+    "Image": "AviaSolsticeShoulderPlate.png",
+    "Name": "Avia Solstice Shoulder Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/FurisArmor/SolsticeFurisAArmor",
+    "CodexSecret": false
+  },
+  "Sevagoth Glaukus Shoulder Armor": {
+    "Type": "Armor",
+    "Description": "Default arm armor for Sevagoth Glaukus",
+    "Link": "Sevagoth Glaukus Shoulder Armor",
+    "Part": "Arm",
+    "ExcludeFromCodex": false,
+    "Image": "SevagothGlaukusShoulderArmor.png",
+    "Name": "Sevagoth Glaukus Shoulder Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Wraith/SevagothDeluxeArmRightArmor",
+    "CodexSecret": false
+  },
+  "Dax Lustratus Shoulder Plates": {
+    "Type": "Armor",
+    "Description": "Embellished shoulder guards worn by Dax commanders on Tau to signify their elevated rank.",
+    "Link": "Dax Lustratus Shoulder Plates",
+    "Part": "Chest",
+    "ExcludeFromCodex": false,
+    "Image": "DaxLustratusShoulderPlates.png",
+    "Name": "Dax Lustratus Shoulder Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/DaxFlaredArmor/DaxFlaredAArmor",
+    "CodexSecret": false
+  },
+  "Saturn Six Day of the Dead Shoulder Plates": {
+    "Type": "Armor",
+    "Description": "Honor the legacy of the infamous Wolf with this festive armor set.",
+    "Link": "Saturn Six Day of the Dead Shoulder Plates",
+    "Part": "Arm",
+    "ExcludeFromCodex": false,
+    "Image": "SaturnSixDayOfTheDeadShoulderPlates.png",
+    "Name": "Saturn Six Day of the Dead Shoulder Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/Wolf/DOTDWolfAArmor",
+    "CodexSecret": false
+  },
+  "Saturn Six Day of the Dead Knee Plates": {
+    "Type": "Armor",
+    "Description": "Honor the legacy of the infamous Wolf with this festive armor set.",
+    "Link": "Saturn Six Day of the Dead Knee Plates",
+    "Part": "Leg",
+    "ExcludeFromCodex": false,
+    "Image": "SaturnSixDayOfTheDeadKneePlates.png",
+    "Name": "Saturn Six Day of the Dead Knee Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/Wolf/DOTDWolfLArmor",
     "CodexSecret": false
   },
   "Embolist Leg Growths": {
@@ -2981,15 +3014,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/HarrowDeluxe/HarrowDeluxeAArmor",
     "CodexSecret": false
   },
-  "Sevagoth Glaukus Shoulder Armor": {
+  "Saturn Six Day of the Dead Chest Plate": {
     "Type": "Armor",
-    "Description": "Default arm armor for Sevagoth Glaukus",
-    "Link": "Sevagoth Glaukus Shoulder Armor",
-    "Part": "Arm",
+    "Description": "Honor the legacy of the infamous Wolf with this festive armor set.",
+    "Link": "Saturn Six Day of the Dead Chest Plate",
+    "Part": "Chest",
     "ExcludeFromCodex": false,
-    "Image": "SevagothGlaukusShoulderArmor.png",
-    "Name": "Sevagoth Glaukus Shoulder Armor",
-    "InternalName": "/Lotus/Upgrades/Skins/Wraith/SevagothDeluxeArmRightArmor",
+    "Image": "SaturnSixDayOfTheDeadChestPlate.png",
+    "Name": "Saturn Six Day of the Dead Chest Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/Wolf/DOTDWolfCArmor",
     "CodexSecret": false
   },
   "Daybreak Chest Plate": {
@@ -3014,15 +3047,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/ArbiterOfHexisArmor/ArbiterOfHexisArmorL",
     "CodexSecret": false
   },
-  "Saturn Six Day of the Dead Shoulder Plates": {
+  "Saturn Six Knee Plates": {
     "Type": "Armor",
-    "Description": "Honor the legacy of the infamous Wolf with this festive armor set.",
-    "Link": "Saturn Six Day of the Dead Shoulder Plates",
-    "Part": "Arm",
+    "Description": "The signature battle armor of the only lunatic fearsome enough to have escaped the Saturn Six Max-Pen.",
+    "Link": "Saturn Six Knee Plates",
+    "Part": "Leg",
     "ExcludeFromCodex": false,
-    "Image": "SaturnSixDayOfTheDeadShoulderPlates.png",
-    "Name": "Saturn Six Day of the Dead Shoulder Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/Wolf/DOTDWolfAArmor",
+    "Image": "SaturnSixKneePlates.png",
+    "Name": "Saturn Six Knee Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/Wolf/TennoWolfLArmor",
     "CodexSecret": false
   },
   "Banshee Sonority Armor (Left)": {
@@ -3058,37 +3091,37 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/CrpHighArmor/EvilBaroArcaArmorA",
     "CodexSecret": false
   },
-  "Saturn Six Day of the Dead Chest Plate": {
+  "Riv Min-Guard Leg": {
     "Type": "Armor",
-    "Description": "Honor the legacy of the infamous Wolf with this festive armor set.",
-    "Link": "Saturn Six Day of the Dead Chest Plate",
-    "Part": "Chest",
-    "ExcludeFromCodex": false,
-    "Image": "SaturnSixDayOfTheDeadChestPlate.png",
-    "Name": "Saturn Six Day of the Dead Chest Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/Wolf/DOTDWolfCArmor",
-    "CodexSecret": false
-  },
-  "Saturn Six Knee Plates": {
-    "Type": "Armor",
-    "Description": "The signature battle armor of the only lunatic fearsome enough to have escaped the Saturn Six Max-Pen.",
-    "Link": "Saturn Six Knee Plates",
+    "Description": "Decorative Lunaro padding.",
+    "Link": "Riv Min-Guard Leg",
     "Part": "Leg",
-    "ExcludeFromCodex": false,
-    "Image": "SaturnSixKneePlates.png",
-    "Name": "Saturn Six Knee Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/Wolf/TennoWolfLArmor",
+    "ExcludeFromCodex": true,
+    "Image": "RivMin-GuardLeg.png",
+    "Name": "Riv Min-Guard Leg",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/LunaroSetA/LunaroSetAL",
     "CodexSecret": false
   },
-  "Saturn Six Chest Plate": {
+  "Kuva Shoulder Plate": {
     "Type": "Armor",
-    "Description": "The signature battle armor of the only lunatic fearsome enough to have escaped the Saturn Six Max-Pen.",
-    "Link": "Saturn Six Chest Plate",
-    "Part": "Chest",
+    "Description": "Decorative shoulder plates for your Warframe.",
+    "Link": "Kuva Shoulder Plate",
+    "Part": "Arm",
     "ExcludeFromCodex": false,
-    "Image": "SaturnSixChestPlate.png",
-    "Name": "Saturn Six Chest Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/Wolf/TennoWolfCArmor",
+    "Image": "KuvaShoulderPlate.png",
+    "Name": "Kuva Shoulder Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/GrineerQueenArmour/GrineerQueenArmourA",
+    "CodexSecret": false
+  },
+  "Riv Min-Guard Arm": {
+    "Type": "Armor",
+    "Description": "Decorative Lunaro padding.",
+    "Link": "Riv Min-Guard Arm",
+    "Part": "Arm",
+    "ExcludeFromCodex": true,
+    "Image": "RivMin-GuardArm.png",
+    "Name": "Riv Min-Guard Arm",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/LunaroSetA/LunaroSetAA",
     "CodexSecret": false
   },
   "Naramon Badge": {
@@ -3135,37 +3168,37 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/GyreDeluxeArmorSet/GyreDeluxeArmorSetK/GyreDeluxeArmorSetKArmor",
     "CodexSecret": false
   },
-  "Riv Min-Guard Leg": {
+  "Riv Elite-Guard Arm": {
     "Type": "Armor",
     "Description": "Decorative Lunaro padding.",
-    "Link": "Riv Min-Guard Leg",
-    "Part": "Leg",
-    "ExcludeFromCodex": true,
-    "Image": "RivMin-GuardLeg.png",
-    "Name": "Riv Min-Guard Leg",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/LunaroSetA/LunaroSetAL",
-    "CodexSecret": false
-  },
-  "Kuva Shoulder Plate": {
-    "Type": "Armor",
-    "Description": "Decorative shoulder plates for your Warframe.",
-    "Link": "Kuva Shoulder Plate",
+    "Link": "Riv Elite-Guard Arm",
     "Part": "Arm",
-    "ExcludeFromCodex": false,
-    "Image": "KuvaShoulderPlate.png",
-    "Name": "Kuva Shoulder Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/GrineerQueenArmour/GrineerQueenArmourA",
+    "ExcludeFromCodex": true,
+    "Image": "RivElite-GuardArm.png",
+    "Name": "Riv Elite-Guard Arm",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/LunaroSetC/LunaroSetCA",
     "CodexSecret": false
   },
-  "Riv Min-Guard Arm": {
+  "Riv Comp-Guard Chest": {
     "Type": "Armor",
     "Description": "Decorative Lunaro padding.",
-    "Link": "Riv Min-Guard Arm",
+    "Link": "Riv Comp-Guard Chest",
+    "Part": "Chest",
+    "ExcludeFromCodex": true,
+    "Image": "RivComp-GuardChest.png",
+    "Name": "Riv Comp-Guard Chest",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/LunaroSetB/LunaroSetBC",
+    "CodexSecret": false
+  },
+  "Riv Comp-Guard Arm": {
+    "Type": "Armor",
+    "Description": "Decorative Lunaro padding.",
+    "Link": "Riv Comp-Guard Arm",
     "Part": "Arm",
     "ExcludeFromCodex": true,
-    "Image": "RivMin-GuardArm.png",
-    "Name": "Riv Min-Guard Arm",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/LunaroSetA/LunaroSetAA",
+    "Image": "RivComp-GuardArm.png",
+    "Name": "Riv Comp-Guard Arm",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/LunaroSetB/LunaroSetBA",
     "CodexSecret": false
   },
   "Jade Axa Shoulder Plate": {
@@ -3257,26 +3290,26 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/SolarisUnitedArmor/SolarisUnitedAArmor",
     "CodexSecret": false
   },
-  "Riv Comp-Guard Chest": {
+  "Right Prisma Edo Knee Plates": {
     "Type": "Armor",
-    "Description": "Decorative Lunaro padding.",
-    "Link": "Riv Comp-Guard Chest",
-    "Part": "Chest",
+    "Description": "Decorative leg plates for your Warframe.",
+    "Link": "Right Prisma Edo Knee Plates",
+    "Part": "Leg",
     "ExcludeFromCodex": true,
-    "Image": "RivComp-GuardChest.png",
-    "Name": "Riv Comp-Guard Chest",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/LunaroSetB/LunaroSetBC",
+    "Image": "RightPrismaEdoKneePlates.png",
+    "Name": "Right Prisma Edo Knee Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/SetTwoSamurai/VTSetTwoLegRightArmor",
     "CodexSecret": false
   },
-  "Riv Comp-Guard Arm": {
+  "Right Prisma Daedalus Shoulder Guard": {
     "Type": "Armor",
-    "Description": "Decorative Lunaro padding.",
-    "Link": "Riv Comp-Guard Arm",
+    "Description": "Decorative shoulder plates for your Warframe.",
+    "Link": "Right Prisma Daedalus Shoulder Guard",
     "Part": "Arm",
     "ExcludeFromCodex": true,
-    "Image": "RivComp-GuardArm.png",
-    "Name": "Riv Comp-Guard Arm",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/LunaroSetB/LunaroSetBA",
+    "Image": "RightPrismaDaedalusShoulderGuard.png",
+    "Name": "Right Prisma Daedalus Shoulder Guard",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/SetThreeWinged/VTSetThreeArmRightArmor",
     "CodexSecret": false
   },
   "Daedalus Shoulder Plates": {
@@ -3301,50 +3334,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/PrimeLavosArmor/PrimeLavosArmorA",
     "CodexSecret": false
   },
-  "Right Prisma Edo Shoulder Plates": {
-    "Type": "Armor",
-    "Description": "Decorative shoulder plates for your Warframe.",
-    "Link": "Right Prisma Edo Shoulder Plates",
-    "Part": "Arm",
-    "ExcludeFromCodex": true,
-    "Image": "RightPrismaEdoShoulderPlates.png",
-    "Name": "Right Prisma Edo Shoulder Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/SetTwoSamurai/VTSetTwoArmRightArmor",
-    "CodexSecret": false
-  },
-  "Protosomid Shoulder Guard": {
-    "Type": "Armor",
-    "Description": "A benign Infestation existing symbiotically with its Warframe host.",
-    "Link": "Protosomid Shoulder Guard",
-    "Part": "Arm",
-    "ExcludeFromCodex": true,
-    "Image": "ProtosomidShoulderGuard.png",
-    "Name": "Protosomid Shoulder Guard",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/InfestedShoulderArmor/InfestedShoulderArmorA",
-    "CodexSecret": false
-  },
-  "Right Prisma Edo Knee Plates": {
-    "Type": "Armor",
-    "Description": "Decorative leg plates for your Warframe.",
-    "Link": "Right Prisma Edo Knee Plates",
-    "Part": "Leg",
-    "ExcludeFromCodex": true,
-    "Image": "RightPrismaEdoKneePlates.png",
-    "Name": "Right Prisma Edo Knee Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/SetTwoSamurai/VTSetTwoLegRightArmor",
-    "CodexSecret": false
-  },
-  "Right Prisma Daedalus Shoulder Guard": {
-    "Type": "Armor",
-    "Description": "Decorative shoulder plates for your Warframe.",
-    "Link": "Right Prisma Daedalus Shoulder Guard",
-    "Part": "Arm",
-    "ExcludeFromCodex": true,
-    "Image": "RightPrismaDaedalusShoulderGuard.png",
-    "Name": "Right Prisma Daedalus Shoulder Guard",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/SetThreeWinged/VTSetThreeArmRightArmor",
-    "CodexSecret": false
-  },
   "Right Prisma Daedalus Knee Plates": {
     "Type": "Armor",
     "Description": "Decorative leg plates for your Warframe.",
@@ -3356,15 +3345,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/SetThreeWinged/VTSetThreeLegRightArmor",
     "CodexSecret": false
   },
-  "Arca Solstice Chest Guard": {
+  "Protosomid Shoulder Guard": {
     "Type": "Armor",
-    "Description": "Arca Armor that has been adorned with a festive design.",
-    "Link": "Arca Solstice Chest Guard",
-    "Part": "Chest",
+    "Description": "A benign Infestation existing symbiotically with its Warframe host.",
+    "Link": "Protosomid Shoulder Guard",
+    "Part": "Arm",
     "ExcludeFromCodex": true,
-    "Image": "ArcaSolsticeChestGuard.png",
-    "Name": "Arca Solstice Chest Guard",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/CrpHighArmor/WinterSolsticeArcaArmourC",
+    "Image": "ProtosomidShoulderGuard.png",
+    "Name": "Protosomid Shoulder Guard",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/InfestedShoulderArmor/InfestedShoulderArmorA",
     "CodexSecret": false
   },
   "Right Eos Prime Shoulder Plates": {
@@ -3387,6 +3376,50 @@
     "Image": "RedVeilKneeGuards.png",
     "Name": "Red Veil Knee Guards",
     "InternalName": "/Lotus/Upgrades/Skins/Armor/RedVeilArmor/RedVeilLArmor",
+    "CodexSecret": false
+  },
+  "Red Veil Chest Piece": {
+    "Type": "Armor",
+    "Description": "Lightweight and unobtrusive. The armor of Red Veil assassins.",
+    "Link": "Red Veil Chest Piece",
+    "Part": "Chest",
+    "ExcludeFromCodex": false,
+    "Image": "RedVeilChestPiece.png",
+    "Name": "Red Veil Chest Piece",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/RedVeilArmor/RedVeilCArmor",
+    "CodexSecret": false
+  },
+  "Arca Solstice Chest Guard": {
+    "Type": "Armor",
+    "Description": "Arca Armor that has been adorned with a festive design.",
+    "Link": "Arca Solstice Chest Guard",
+    "Part": "Chest",
+    "ExcludeFromCodex": true,
+    "Image": "ArcaSolsticeChestGuard.png",
+    "Name": "Arca Solstice Chest Guard",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/CrpHighArmor/WinterSolsticeArcaArmourC",
+    "CodexSecret": false
+  },
+  "Brazontik Chest Plate": {
+    "Type": "Armor",
+    "Description": "Experimental Vortengeist technology spawned many curious calibrators and dispersion probes.",
+    "Link": "Brazontik Chest Plate",
+    "Part": "Chest",
+    "ExcludeFromCodex": false,
+    "Image": "BrazontikChestPlate.png",
+    "Name": "Brazontik Chest Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/GyreDeluxeArmorSet/GyreDeluxeArmorSetK/GyreDeluxeArmorSetCArmor",
+    "CodexSecret": false
+  },
+  "Low Guardian Chest Plate": {
+    "Type": "Armor",
+    "Description": "Before he became the Stalker, the Low Guardian Sorren was awarded this mark of valor and loyalty by his Orokin masters. Now, it is yours to claim in acknowledgment of the Orokin's downfall.",
+    "Link": "Low Guardian Chest Plate",
+    "Part": "Chest",
+    "ExcludeFromCodex": false,
+    "Image": "LowGuardianChestPlate.png",
+    "Name": "Low Guardian Chest Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/StalkerMedallion/StalkerMedallionArmorC",
     "CodexSecret": false
   },
   "Vetala Day Of The Dead Shoulder Plate": {
@@ -3422,15 +3455,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/KuvaLichSetA/KuvaLichArmourAChest",
     "CodexSecret": false
   },
-  "Brazontik Chest Plate": {
+  "Ransha Prime Chest Plates": {
     "Type": "Armor",
-    "Description": "Experimental Vortengeist technology spawned many curious calibrators and dispersion probes.",
-    "Link": "Brazontik Chest Plate",
+    "Description": "Battle dress suitable for the Prince of Flame.",
+    "Link": "Ransha Prime Chest Plates",
     "Part": "Chest",
     "ExcludeFromCodex": false,
-    "Image": "BrazontikChestPlate.png",
-    "Name": "Brazontik Chest Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/GyreDeluxeArmorSet/GyreDeluxeArmorSetK/GyreDeluxeArmorSetCArmor",
+    "Image": "RanshaPrimeChestPlates.png",
+    "Name": "Ransha Prime Chest Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/PrimeNezhaArmor/PrimeNezhaArmorC",
     "CodexSecret": false
   },
   "Perrin Chest Piece": {
@@ -3455,15 +3488,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/BansheeArmLeftArmor",
     "CodexSecret": false
   },
-  "Lodestar Leg Plates": {
+  "Raigo Chest Armor": {
     "Type": "Armor",
-    "Description": "Guide your Warframe with this complete Lodestar armor set.",
-    "Link": "Lodestar Leg Plates",
-    "Part": "Leg",
-    "ExcludeFromCodex": true,
-    "Image": "LodestarLegPlates.png",
-    "Name": "Lodestar Leg Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/Sundial/SundialL",
+    "Description": "A unique chest armor for your Warframe, designed by led2012 and lex182.",
+    "Link": "Raigo Chest Armor",
+    "Part": "Chest",
+    "ExcludeFromCodex": false,
+    "Image": "RaigoChestArmor.png",
+    "Name": "Raigo Chest Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/SWRaigoChestArmor/SWRaigoChestArmor",
     "CodexSecret": false
   },
   "Asteria Chest Armor": {
@@ -3477,37 +3510,37 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/SWAsteriaChestArmor/SWAsteriaChestArmorC",
     "CodexSecret": false
   },
-  "Ransha Prime Leg Plates": {
+  "Quaro Shoulder Armor": {
     "Type": "Armor",
-    "Description": "Battle dress suitable for the Prince of Flame.",
-    "Link": "Ransha Prime Leg Plates",
-    "Part": "Leg",
-    "ExcludeFromCodex": false,
-    "Image": "RanshaPrimeLegPlates.png",
-    "Name": "Ransha Prime Leg Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/PrimeNezhaArmor/PrimeNezhaArmorL",
+    "Description": "This mechanized decorative armor is emblematic of the Corpus design aesthetic.",
+    "Link": "Quaro Shoulder Armor",
+    "Part": "Arm",
+    "ExcludeFromCodex": true,
+    "Image": "QuaroShoulderArmor.png",
+    "Name": "Quaro Shoulder Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/CrpIndexTwo/CrpIndexTwoAArmor",
     "CodexSecret": false
   },
-  "Ransha Prime Chest Plates": {
+  "Provvok Shoulder Guard": {
     "Type": "Armor",
-    "Description": "Battle dress suitable for the Prince of Flame.",
-    "Link": "Ransha Prime Chest Plates",
-    "Part": "Chest",
-    "ExcludeFromCodex": false,
-    "Image": "RanshaPrimeChestPlates.png",
-    "Name": "Ransha Prime Chest Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/PrimeNezhaArmor/PrimeNezhaArmorC",
+    "Description": "Cobbled together from vanquished Grineer, this Steel Meridian armor sends a clear message to the enemy.",
+    "Link": "Provvok Shoulder Guard",
+    "Part": "Arm",
+    "ExcludeFromCodex": true,
+    "Image": "ProvvokShoulderGuard.png",
+    "Name": "Provvok Shoulder Guard",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/GrnFaceMaskArmour/GrnFaceMaskArmour",
     "CodexSecret": false
   },
-  "Raigo Chest Armor": {
+  "Krtrima Chest Armor": {
     "Type": "Armor",
-    "Description": "A unique chest armor for your Warframe, designed by led2012 and lex182.",
-    "Link": "Raigo Chest Armor",
+    "Description": "A unique chest armor for your Warframe, designed by kakarrot2812.",
+    "Link": "Krtrima Chest Armor",
     "Part": "Chest",
     "ExcludeFromCodex": false,
-    "Image": "RaigoChestArmor.png",
-    "Name": "Raigo Chest Armor",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/SWRaigoChestArmor/SWRaigoChestArmor",
+    "Image": "KrtrimaChestArmor.png",
+    "Name": "Krtrima Chest Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/SWKrtrimaArmor/SWKrtrimaArmorC",
     "CodexSecret": false
   },
   "Ki'Teer Chest Plate": {
@@ -3565,15 +3598,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/CrpHighArmor/EvilBaroArcaArmorL",
     "CodexSecret": false
   },
-  "Quaro Shoulder Armor": {
+  "Protovyre Emergent Leg Plate Armor": {
     "Type": "Armor",
-    "Description": "This mechanized decorative armor is emblematic of the Corpus design aesthetic.",
-    "Link": "Quaro Shoulder Armor",
-    "Part": "Arm",
-    "ExcludeFromCodex": true,
-    "Image": "QuaroShoulderArmor.png",
-    "Name": "Quaro Shoulder Armor",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/CrpIndexTwo/CrpIndexTwoAArmor",
+    "Description": "An evolving armor set that draws upon Sentient technology. Defeat Sentient enemies with this Armor equipped to unlock an additional look. ",
+    "Link": "Protovyre Emergent Leg Plate Armor",
+    "Part": "Leg",
+    "ExcludeFromCodex": false,
+    "Image": "ProtovyreEmergentLegPlateArmor.png",
+    "Name": "Protovyre Emergent Leg Plate Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/SentEvoArmor/SentEvoArmor2L",
     "CodexSecret": false
   },
   "Arca Knee Guards": {
@@ -3598,39 +3631,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/PS5Armor/PS5ArmorC",
     "CodexSecret": false
   },
-  "Provvok Shoulder Guard": {
-    "Type": "Armor",
-    "Description": "Cobbled together from vanquished Grineer, this Steel Meridian armor sends a clear message to the enemy.",
-    "Link": "Provvok Shoulder Guard",
-    "Part": "Arm",
-    "ExcludeFromCodex": true,
-    "Image": "ProvvokShoulderGuard.png",
-    "Name": "Provvok Shoulder Guard",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/GrnFaceMaskArmour/GrnFaceMaskArmour",
-    "CodexSecret": false
-  },
-  "Krtrima Chest Armor": {
-    "Type": "Armor",
-    "Description": "A unique chest armor for your Warframe, designed by kakarrot2812.",
-    "Link": "Krtrima Chest Armor",
-    "Part": "Chest",
-    "ExcludeFromCodex": false,
-    "Image": "KrtrimaChestArmor.png",
-    "Name": "Krtrima Chest Armor",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/SWKrtrimaArmor/SWKrtrimaArmorC",
-    "CodexSecret": false
-  },
-  "Protovyre Emergent Leg Plate Armor": {
-    "Type": "Armor",
-    "Description": "An evolving armor set that draws upon Sentient technology. Defeat Sentient enemies with this Armor equipped to unlock an additional look. ",
-    "Link": "Protovyre Emergent Leg Plate Armor",
-    "Part": "Leg",
-    "ExcludeFromCodex": false,
-    "Image": "ProtovyreEmergentLegPlateArmor.png",
-    "Name": "Protovyre Emergent Leg Plate Armor",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/SentEvoArmor/SentEvoArmor2L",
-    "CodexSecret": false
-  },
   "Protovyre Apex Chest Armor": {
     "Type": "Armor",
     "Description": "An evolving armor set that draws upon Sentient technology. ",
@@ -3642,15 +3642,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/SentEvoArmor/SentEvoArmor3C",
     "CodexSecret": false
   },
-  "Insign I Sporoi": {
+  "Prisma Naberus (Shoulders)": {
     "Type": "Armor",
-    "Description": "Orokin military title, awarded to recognize acts of exceptional heroism in battle.",
-    "Link": "Insign I Sporoi",
-    "Part": "Chest",
+    "Description": "Mesmerize onlookers with swirling Void energy embedded in this exclusive armor.",
+    "Link": "Prisma Naberus (Shoulders)",
+    "Part": "Arm",
     "ExcludeFromCodex": false,
-    "Image": "InsignISporoi.png",
-    "Name": "Insign I Sporoi",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal1C",
+    "Image": "PrismaNaberus.png",
+    "Name": "Prisma Naberus (Shoulders)",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/Halloween2014Wings/PrismaNaberusArmArmor",
     "CodexSecret": false
   },
   "Prisma Avia Shoulder Plate": {
@@ -3664,6 +3664,39 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/FurisArmor/PrismaFurisAArmor",
     "CodexSecret": false
   },
+  "Prisma Avia Ankle Plate": {
+    "Type": "Armor",
+    "Description": "Streamlined Prisma armor in the style of the Furis and Sybaris.",
+    "Link": "Prisma Avia Ankle Plate",
+    "Part": "Leg",
+    "ExcludeFromCodex": false,
+    "Image": "PrismaAviaAnklePlate.png",
+    "Name": "Prisma Avia Ankle Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/FurisArmor/PrismaFurisLArmor",
+    "CodexSecret": false
+  },
+  "Insign I Sporoi": {
+    "Type": "Armor",
+    "Description": "Orokin military title, awarded to recognize acts of exceptional heroism in battle.",
+    "Link": "Insign I Sporoi",
+    "Part": "Chest",
+    "ExcludeFromCodex": false,
+    "Image": "InsignISporoi.png",
+    "Name": "Insign I Sporoi",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TauRankMedal/TauRankMedal1C",
+    "CodexSecret": false
+  },
+  "Opula Shoulder Armor": {
+    "Type": "Armor",
+    "Description": "Dazzle the eye with the iridescent flames of this armor set.",
+    "Link": "Opula Shoulder Armor",
+    "Part": "Arm",
+    "ExcludeFromCodex": true,
+    "Image": "OpulaShoulderArmor.png",
+    "Name": "Opula Shoulder Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/Opula/OpulaArmorA",
+    "CodexSecret": false
+  },
   "Gyre Prime Armor": {
     "Type": "Armor",
     "Description": "Default armor set for the Gyre Prime Warframe.",
@@ -3675,15 +3708,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/WarframeDefaults/GyrePrimeArmArmor",
     "CodexSecret": false
   },
-  "Prisma Avia Ankle Plate": {
+  "Porta Day Of The Dead Shoulder Plate": {
     "Type": "Armor",
-    "Description": "Streamlined Prisma armor in the style of the Furis and Sybaris.",
-    "Link": "Prisma Avia Ankle Plate",
-    "Part": "Leg",
+    "Description": "Morbidly festive shoulder plates for your Warframe.",
+    "Link": "Porta Day Of The Dead Shoulder Plate",
+    "Part": "Arm",
     "ExcludeFromCodex": false,
-    "Image": "PrismaAviaAnklePlate.png",
-    "Name": "Prisma Avia Ankle Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/FurisArmor/PrismaFurisLArmor",
+    "Image": "PortaDayOfTheDeadShoulderPlate.png",
+    "Name": "Porta Day Of The Dead Shoulder Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/CrpCircleArmour/HalloweenCrpCircA",
     "CodexSecret": false
   },
   "Alastorn Chest Plate": {
@@ -3719,61 +3752,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/KuvaLichSetF/KuvaLichArmourFChest",
     "CodexSecret": false
   },
-  "Porta Shoulder Plate": {
-    "Type": "Armor",
-    "Description": "Decorative shoulder plates for your Warframe.",
-    "Link": "Porta Shoulder Plate",
-    "Part": "Arm",
-    "ExcludeFromCodex": true,
-    "Image": "PortaShoulderPlate.png",
-    "Name": "Porta Shoulder Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/CrpCircleArmour/CrpCircA",
-    "CodexSecret": false
-  },
-  "Oscira Shoulder Plates": {
-    "Type": "Armor",
-    "Description": "Augment your Warframe with this subtle and sturdy armor set.",
-    "Link": "Oscira Shoulder Plates",
-    "Part": "Arm",
-    "ExcludeFromCodex": false,
-    "Image": "OsciraShoulderPlates.png",
-    "Name": "Oscira Shoulder Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TnNewPlayerArmor/TnNewPlayerAArmor",
-    "CodexSecret": false
-  },
-  "Ceramica Day Of The Dead Shoulder Plate": {
-    "Type": "Armor",
-    "Description": "Celebrate the departed with this ancient battle attire.",
-    "Link": "Ceramica Day Of The Dead Shoulder Plate",
-    "Part": "Arm",
-    "ExcludeFromCodex": false,
-    "Image": "CeramicaDayOfTheDeadShoulderPlate.png",
-    "Name": "Ceramica Day Of The Dead Shoulder Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TnCeramicArmor/Halloween2024CeramicArmorA",
-    "CodexSecret": false
-  },
-  "Porta Day Of The Dead Shoulder Plate": {
-    "Type": "Armor",
-    "Description": "Morbidly festive shoulder plates for your Warframe.",
-    "Link": "Porta Day Of The Dead Shoulder Plate",
-    "Part": "Arm",
-    "ExcludeFromCodex": false,
-    "Image": "PortaDayOfTheDeadShoulderPlate.png",
-    "Name": "Porta Day Of The Dead Shoulder Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/CrpCircleArmour/HalloweenCrpCircA",
-    "CodexSecret": false
-  },
-  "Arachna Chest Armor": {
-    "Type": "Armor",
-    "Description": "The chitinous spines of Oraxia’s armor lend a menacing aura to any Tenno.",
-    "Link": "Arachna Chest Armor",
-    "Part": "Chest",
-    "ExcludeFromCodex": false,
-    "Image": "ArachnaChestArmor.png",
-    "Name": "Arachna Chest Armor",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TnOraxiaArmor/TnOraxiaArmorC",
-    "CodexSecret": false
-  },
   "Porta Chest Plate": {
     "Type": "Armor",
     "Description": "A decorative breastplate for your Warframe.",
@@ -3794,6 +3772,61 @@
     "Image": "PiercingEyeShoulderArmor.png",
     "Name": "Piercing Eye Shoulder Armor",
     "InternalName": "/Lotus/Upgrades/Skins/Armor/SWPiercingEyeShoulderArmor/SWPiercingEyeShoulderArmor",
+    "CodexSecret": false
+  },
+  "Ceramica Day Of The Dead Shoulder Plate": {
+    "Type": "Armor",
+    "Description": "Celebrate the departed with this ancient battle attire.",
+    "Link": "Ceramica Day Of The Dead Shoulder Plate",
+    "Part": "Arm",
+    "ExcludeFromCodex": false,
+    "Image": "CeramicaDayOfTheDeadShoulderPlate.png",
+    "Name": "Ceramica Day Of The Dead Shoulder Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TnCeramicArmor/Halloween2024CeramicArmorA",
+    "CodexSecret": false
+  },
+  "Lodestar Leg Plates": {
+    "Type": "Armor",
+    "Description": "Guide your Warframe with this complete Lodestar armor set.",
+    "Link": "Lodestar Leg Plates",
+    "Part": "Leg",
+    "ExcludeFromCodex": true,
+    "Image": "LodestarLegPlates.png",
+    "Name": "Lodestar Leg Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/Sundial/SundialL",
+    "CodexSecret": false
+  },
+  "Arachna Chest Armor": {
+    "Type": "Armor",
+    "Description": "The chitinous spines of Oraxia’s armor lend a menacing aura to any Tenno.",
+    "Link": "Arachna Chest Armor",
+    "Part": "Chest",
+    "ExcludeFromCodex": false,
+    "Image": "ArachnaChestArmor.png",
+    "Name": "Arachna Chest Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TnOraxiaArmor/TnOraxiaArmorC",
+    "CodexSecret": false
+  },
+  "Perrin Leg Guards": {
+    "Type": "Armor",
+    "Description": "The armor of the Perrin Sequence is clean and economically designed.",
+    "Link": "Perrin Leg Guards",
+    "Part": "Leg",
+    "ExcludeFromCodex": false,
+    "Image": "PerrinLegGuards.png",
+    "Name": "Perrin Leg Guards",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/PerrinSequenceArmor/PerrinSequenceArmorL",
+    "CodexSecret": false
+  },
+  "Paradiso Shoulder Plates": {
+    "Type": "Armor",
+    "Description": "Seemingly infused with mystical power, the chosen Armor of graceful warriors.",
+    "Link": "Paradiso Shoulder Plates",
+    "Part": "Arm",
+    "ExcludeFromCodex": false,
+    "Image": "ParadisoShoulderPlates.png",
+    "Name": "Paradiso Shoulder Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TnBayonettaArmor/TnDeimosSupporterArmorA",
     "CodexSecret": false
   },
   "Ransha Prime Shoulder Plates": {
@@ -3840,50 +3873,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/BillowingArmor/BillowingArmorC",
     "CodexSecret": false
   },
-  "Perrin Leg Guards": {
-    "Type": "Armor",
-    "Description": "The armor of the Perrin Sequence is clean and economically designed.",
-    "Link": "Perrin Leg Guards",
-    "Part": "Leg",
-    "ExcludeFromCodex": false,
-    "Image": "PerrinLegGuards.png",
-    "Name": "Perrin Leg Guards",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/PerrinSequenceArmor/PerrinSequenceArmorL",
-    "CodexSecret": false
-  },
-  "Paradiso Shoulder Plates": {
-    "Type": "Armor",
-    "Description": "Seemingly infused with mystical power, the chosen Armor of graceful warriors.",
-    "Link": "Paradiso Shoulder Plates",
-    "Part": "Arm",
-    "ExcludeFromCodex": false,
-    "Image": "ParadisoShoulderPlates.png",
-    "Name": "Paradiso Shoulder Plates",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TnBayonettaArmor/TnDeimosSupporterArmorA",
-    "CodexSecret": false
-  },
-  "Low Guardian Chest Plate": {
-    "Type": "Armor",
-    "Description": "Before he became the Stalker, the Low Guardian Sorren was awarded this mark of valor and loyalty by his Orokin masters. Now, it is yours to claim in acknowledgment of the Orokin's downfall.",
-    "Link": "Low Guardian Chest Plate",
-    "Part": "Chest",
-    "ExcludeFromCodex": false,
-    "Image": "LowGuardianChestPlate.png",
-    "Name": "Low Guardian Chest Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/StalkerMedallion/StalkerMedallionArmorC",
-    "CodexSecret": false
-  },
-  "Kaya's Reactors": {
-    "Type": "Armor",
-    "Description": "Kaya fashioned these tiny reactors to experiment with her newfound powers, but more than anything, she just likes how cool they look.",
-    "Link": "Kaya's Reactors",
-    "Part": "Chest",
-    "ExcludeFromCodex": true,
-    "Image": "Kaya'sReactors.png",
-    "Name": "Kaya's Reactors",
-    "InternalName": "/Lotus/Upgrades/Skins/AntiMatter/WF1999NovaAuxHat",
-    "CodexSecret": false
-  },
   "Pakal Leg Guard": {
     "Type": "Armor",
     "Description": "Formed from the bones of Sentient fighters and given to the Stalker by Hunhow.",
@@ -3915,6 +3904,50 @@
     "Image": "KishikamiChestArmor.png",
     "Name": "Kishikami Chest Armor",
     "InternalName": "/Lotus/Upgrades/Skins/Armor/SWKishikamiArmor/SWKishikamiC",
+    "CodexSecret": false
+  },
+  "Kaya's Reactors": {
+    "Type": "Armor",
+    "Description": "Kaya fashioned these tiny reactors to experiment with her newfound powers, but more than anything, she just likes how cool they look.",
+    "Link": "Kaya's Reactors",
+    "Part": "Chest",
+    "ExcludeFromCodex": true,
+    "Image": "Kaya'sReactors.png",
+    "Name": "Kaya's Reactors",
+    "InternalName": "/Lotus/Upgrades/Skins/AntiMatter/WF1999NovaAuxHat",
+    "CodexSecret": false
+  },
+  "Ostron Arm Guards": {
+    "Type": "Armor",
+    "Description": "An Ostron armor set crafted from Orokin tower salvage.",
+    "Link": "Ostron Arm Guards",
+    "Part": "Arm",
+    "ExcludeFromCodex": false,
+    "Image": "OstronArmGuards.png",
+    "Name": "Ostron Arm Guards",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/OstronCrewArmor/OstronCrewArmorA",
+    "CodexSecret": false
+  },
+  "Oscira Shoulder Plates": {
+    "Type": "Armor",
+    "Description": "Augment your Warframe with this subtle and sturdy armor set.",
+    "Link": "Oscira Shoulder Plates",
+    "Part": "Arm",
+    "ExcludeFromCodex": false,
+    "Image": "OsciraShoulderPlates.png",
+    "Name": "Oscira Shoulder Plates",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TnNewPlayerArmor/TnNewPlayerAArmor",
+    "CodexSecret": false
+  },
+  "Oscira Chest Plate": {
+    "Type": "Armor",
+    "Description": "Augment your Warframe with this subtle and sturdy armor set.",
+    "Link": "Oscira Chest Plate",
+    "Part": "Chest",
+    "ExcludeFromCodex": false,
+    "Image": "OsciraChestPlate.png",
+    "Name": "Oscira Chest Plate",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/TnNewPlayerArmor/TnNewPlayerCArmor",
     "CodexSecret": false
   },
   "Frost Prime Armor": {
@@ -3983,15 +4016,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Armor/SWAsakageArmor/SWAsakageA",
     "CodexSecret": false
   },
-  "Oscira Chest Plate": {
+  "Opula Chest Armor": {
     "Type": "Armor",
-    "Description": "Augment your Warframe with this subtle and sturdy armor set.",
-    "Link": "Oscira Chest Plate",
+    "Description": "Dazzle the eye with the iridescent flames of this armor set.",
+    "Link": "Opula Chest Armor",
     "Part": "Chest",
-    "ExcludeFromCodex": false,
-    "Image": "OsciraChestPlate.png",
-    "Name": "Oscira Chest Plate",
-    "InternalName": "/Lotus/Upgrades/Skins/Armor/TnNewPlayerArmor/TnNewPlayerCArmor",
+    "ExcludeFromCodex": true,
+    "Image": "OpulaChestArmor.png",
+    "Name": "Opula Chest Armor",
+    "InternalName": "/Lotus/Upgrades/Skins/Armor/Opula/OpulaArmorC",
     "CodexSecret": false
   },
   "Obsidian Deko Shoulder Plates": {

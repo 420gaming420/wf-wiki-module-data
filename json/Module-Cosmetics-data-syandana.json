@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-30T08:12:19.321Z"
+    "converted_at": "2026-10-02T08:08:45.369Z"
   },
   "_comments": "",
   "TennoCon 2020 Syandana": {
@@ -2956,7 +2956,7 @@
     "CodexSecret": false
   },
   "Reliquia Syandana": {
-    "ConsolePrice": "100",
+    "ConsolePrice": "105",
     "Type": "TennoGen Syandana",
     "Description": "A syandana for your Warframe, designed by lex182 and Therion",
     "Link": "Reliquia Syandana",

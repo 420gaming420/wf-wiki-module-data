@@ -2391,7 +2391,7 @@ return {
     ["Reliquia Syandana"] = {
         Artists = { "lex182", "Therion" },
         CodexSecret = false,
-        ConsolePrice = "100",
+        ConsolePrice = "105",
         Description = "A syandana for your Warframe, designed by lex182 and Therion",
         ExcludeFromCodex = false,
         Image = "ReliquiaSyandana.png",

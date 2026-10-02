@@ -124,7 +124,7 @@ return {
     ["Gothica Signa"] = {
      	Artists = { "Malaya", "Jadie", "Awk'Q-Luz" },
      	CodexSecret = false,
-     	ConsolePrice = "85",
+     	ConsolePrice = "60",
      	Description = "A unique signa for your Warframe, designed by Malaya, Jadie and Awk'Q-Luz.",
      	ExcludeFromCodex = true,
      	Image = "GothicaSigna.png",
@@ -350,7 +350,7 @@ return {
     ["Vermis Signa"] = {
      	Artists = { "Traveling Merchant", "Therion" },
      	CodexSecret = false,
-     	ConsolePrice = "85",
+     	ConsolePrice = "60",
      	Description = "A unique signa for your Warframe, designed by Traveling Merchant and Therion.",
      	ExcludeFromCodex = true,
      	Image = "VermisSigna.png",
