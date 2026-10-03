@@ -84,7 +84,7 @@ for _, name in ipairs(names) do
 		local key_attrs = {}
 		for k, v in pairs(output) do
 			if type(k) == 'string' then
-				table.insert(key_attrs, k..'="'..value:gsub('[\\"]','\\%0')..'"')
+				table.insert(key_attrs, k..'="'..string.gsub(v, '[\\"]','\\%0')..'"')
 			end
 		end
 		key_attrs = table.concat(key_attrs, ' ')

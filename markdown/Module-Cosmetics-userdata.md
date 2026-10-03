@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/userdata"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/userdata"
-wiki_timestamp: "2026-10-01T23:38:12Z"
+wiki_timestamp: "2026-10-02T13:35:54Z"
 ---
 
 ## Users Data Schema
@@ -7675,6 +7675,17 @@ return {
 			"Zephyr Prime",
 		},
 		Type = "Warframe",
+	},
+	Zylok = {
+		Equipments = {
+			Skin = {
+				"Zylok Elixis Skin",
+			},
+		},
+		Variants = {
+			"Zylok Prime",
+		},
+		Type = "Weapons",
 	},
 }
 ```

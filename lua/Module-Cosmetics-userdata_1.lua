@@ -7590,4 +7590,15 @@ return {
 		},
 		Type = "Warframe",
 	},
+	Zylok = {
+		Equipments = {
+			Skin = {
+				"Zylok Elixis Skin",
+			},
+		},
+		Variants = {
+			"Zylok Prime",
+		},
+		Type = "Weapons",
+	},
 }

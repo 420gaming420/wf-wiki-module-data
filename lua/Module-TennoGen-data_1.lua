@@ -1289,7 +1289,7 @@ return {
 		Description = "A unique Hammer skin, designed by Erneix.",
 		Type = "Weapon Skin"
 	},
-	["Hammer Maulleus Skin"] = {
+	["Maulleus Hammer Skin"] = {
 		Artists = { "Vhynnz" },
 		ConsolePrice = "105",
 		Image = "MaulleusHammerSkin.png",
@@ -1460,7 +1460,7 @@ return {
     ["Heavy Blade Kuvael Ximitotix Skin"] = {
     	Artists = { "edwino22","Erneix" },
 		ConsolePrice = "105",
-		Image = "KuvaelXimitotixHeavyBladeSkin.png",
+		Image = "HeavyBladeKuvaelXimitotixSkin.png",
 		Link = "Heavy Blade Kuvael Ximitotix Skin",
 		Name = "Heavy Blade Kuvael Ximitotix Skin",
 		PcPrice = "$5.99",

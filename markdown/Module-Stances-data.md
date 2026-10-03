@@ -1,7 +1,7 @@
 ---
 title: "Module:Stances/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Stances/data"
-wiki_timestamp: "2026-09-29T06:57:17Z"
+wiki_timestamp: "2026-10-02T11:57:23Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Add support for Slams and Heavy Slams
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s [Stance](/w/Stance "Stance") movement sets for melee weapons.
 
-:   *Last updated: Tue, 29 Sep 2026 06:57:17 +0000 (UTC) by [User:~2026-LoFiBrigadierVisionholder52521](/w/User:~2026-LoFiBrigadierVisionholder52521?action=edit&redlink=1 "User:~2026-LoFiBrigadierVisionholder52521 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Stances/data?diff=0))*
+:   *Last updated: Fri, 02 Oct 2026 11:57:23 +0000 (UTC) by [User:Happy2Help](/w/User:Happy2Help?action=edit&redlink=1 "User:Happy2Help (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Stances/data?diff=0))*
 
 ## Complex Combos
 
@@ -2100,7 +2100,7 @@ local StanceData = {
 				{
 					Dmg = { 500 },
 					Hits = { 1 },
-					Procs = { { "Knockdown", "Bleed" } },
+					Procs = { { "Bleed", "Knockdown" } },
 					Shape = "Heavy" 
 				} 
 			},

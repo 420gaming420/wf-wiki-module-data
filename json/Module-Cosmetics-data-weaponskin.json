@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-10-01T08:33:21.800Z"
+    "converted_at": "2026-10-03T07:47:30.948Z"
   },
   "_comments": "",
   "Protokol 95 Pistol Skin": {
@@ -311,6 +311,17 @@
     "Name": "Furis Verv Skin",
     "InternalName": "/Lotus/Upgrades/Skins/Promo/Twitch/Twitch2021FurisSkin",
     "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Zylok Elixis Skin": {
+    "Type": "Weapon Skin",
+    "Description": "This bronzed Elixis skin for the Zylok is a heavy hitter of style.",
+    "Link": "Zylok Elixis Skin",
+    "ExcludeFromCodex": false,
+    "Image": "ZylokElixisSkin.png",
+    "Name": "Zylok Elixis Skin",
+    "Introduced": "44.0.3",
+    "InternalName": "/Lotus/Upgrades/Skins/Weapons/Pistols/ZylokExilisSkin",
     "CodexSecret": false
   },
   "Kunai Kintsugi Skin": {

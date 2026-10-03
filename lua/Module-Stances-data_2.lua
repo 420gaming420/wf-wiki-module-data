@@ -1918,7 +1918,7 @@ local StanceData = {
 				{
 					Dmg = { 500 },
 					Hits = { 1 },
-					Procs = { { "Knockdown", "Bleed" } },
+					Procs = { { "Bleed", "Knockdown" } },
 					Shape = "Heavy" 
 				} 
 			},

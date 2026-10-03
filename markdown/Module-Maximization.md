@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization"
-wiki_timestamp: "2026-10-02T07:14:12Z"
+wiki_timestamp: "2026-10-02T08:22:32Z"
 ---
 
 **Maximization** creates a stat maximization calculator for Warframe abilities.
@@ -159,7 +159,7 @@ for _, name in ipairs(names) do
 		local key_attrs = {}
 		for k, v in pairs(output) do
 			if type(k) == 'string' then
-				table.insert(key_attrs, k..'="'..value:gsub('[\\"]','\\%0')..'"')
+				table.insert(key_attrs, k..'="'..string.gsub(v, '[\\"]','\\%0')..'"')
 			end
 		end
 		key_attrs = table.concat(key_attrs, ' ')

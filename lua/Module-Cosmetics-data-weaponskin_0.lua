@@ -6322,4 +6322,15 @@ return {
         Name = "Zundi Pistol Skin",
         Type = "Weapon Skin"
     },
+    ["Zylok Elixis Skin"] = {
+        CodexSecret = false,
+        Description = "This bronzed Elixis skin for the Zylok is a heavy hitter of style.",
+        ExcludeFromCodex = false,
+        Image = "ZylokElixisSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/Weapons/Pistols/ZylokExilisSkin",
+        Introduced = "44.0.3",
+        Link = "Zylok Elixis Skin",
+        Name = "Zylok Elixis Skin",
+        Type = "Weapon Skin"
+    },
 }

@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/weaponskin"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/weaponskin"
-wiki_timestamp: "2026-09-30T12:45:31Z"
+wiki_timestamp: "2026-10-02T13:32:58Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/weaponskin/doc](/w/Module:Cosmetics/data/weaponskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/weaponskin/doc (page does not exist)")*
@@ -6328,6 +6328,17 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Pistols/TnSubmachinegunPistolSkin",
         Link = "Zundi Pistol Skin",
         Name = "Zundi Pistol Skin",
+        Type = "Weapon Skin"
+    },
+    ["Zylok Elixis Skin"] = {
+        CodexSecret = false,
+        Description = "This bronzed Elixis skin for the Zylok is a heavy hitter of style.",
+        ExcludeFromCodex = false,
+        Image = "ZylokElixisSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/Weapons/Pistols/ZylokExilisSkin",
+        Introduced = "44.0.3",
+        Link = "Zylok Elixis Skin",
+        Name = "Zylok Elixis Skin",
         Type = "Weapon Skin"
     },
 }

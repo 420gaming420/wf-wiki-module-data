@@ -1,7 +1,7 @@
 ---
 title: "Module:TennoGen/data"
 wiki_url: "https://wiki.warframe.com/w/Module/TennoGen/data"
-wiki_timestamp: "2026-09-30T03:23:18Z"
+wiki_timestamp: "2026-10-02T22:36:48Z"
 ---
 
 Database of [TennoGen](/w/TennoGen "TennoGen") items. For more canonical data related to TennoGen cosmetics see [Module:Cosmetics/data](/w/Module:Cosmetics/data "Module:Cosmetics/data").
@@ -1333,7 +1333,7 @@ return {
 		Description = "A unique Hammer skin, designed by Erneix.",
 		Type = "Weapon Skin"
 	},
-	["Hammer Maulleus Skin"] = {
+	["Maulleus Hammer Skin"] = {
 		Artists = { "Vhynnz" },
 		ConsolePrice = "105",
 		Image = "MaulleusHammerSkin.png",
@@ -1504,7 +1504,7 @@ return {
     ["Heavy Blade Kuvael Ximitotix Skin"] = {
     	Artists = { "edwino22","Erneix" },
 		ConsolePrice = "105",
-		Image = "KuvaelXimitotixHeavyBladeSkin.png",
+		Image = "HeavyBladeKuvaelXimitotixSkin.png",
 		Link = "Heavy Blade Kuvael Ximitotix Skin",
 		Name = "Heavy Blade Kuvael Ximitotix Skin",
 		PcPrice = "$5.99",
