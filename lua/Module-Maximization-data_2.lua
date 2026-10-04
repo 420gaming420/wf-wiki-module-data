@@ -149,6 +149,56 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}},
 		}
 	},
+	-- Citrine
+	['Fractured Blast']={
+		ins={
+			{name='FRACTURED_BLAST_INFUSED', cont='[[Infused]]?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Impact', 'DamageTypes')..' and '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {name='FRACTURED_BLAST_BASE_DMG', expr='STR 250 500 FRACTURED_BLAST_INFUSED if %of'}},
+			{Tooltips.full('Bleed', 'DamageTypes')..' damage:', {expr='0.35 FRACTURED_BLAST_BASE_DMG *'}},
+			{'[[Health Orb]] drop chance:', {expr='STR 25 50 FRACTURED_BLAST_INFUSED if %of', suff='%'}},
+			{'[[Energy Orb]] drop chance:', {expr='STR 10 20 FRACTURED_BLAST_INFUSED if %of', suff='%'}},
+			{'Range:', {expr='RNG 14 %of', suff='m'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+		}
+	},
+	['Preserving Shell']={
+		ins={},
+		outs={
+			{'Initial damage reduction:', {expr='STR 40 %of 90 min', suff='%'}},
+			{'Damage reduction per kill:', {expr='STR 3 %of', suff='%/kill'}},
+			{'Damage reduction per assist:', {expr='STR 1 %of', suff='%/assist'}},
+			{'Duration:', {expr='DUR 25 %of', suff='s'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+		}
+	},
+	['Prismatic Gem']={
+		ins={
+			{name='PRISMATIC_COMPANION', cont=Tooltips.full('Prismatic Companion', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Heat', 'DamageTypes')..', '..Tooltips.full('Cold', 'DamageTypes')..', '..Tooltips.full('Electricity', 'DamageTypes')..' and '..Tooltips.full('Toxin', 'DamageTypes')..' damage:', {name='PRISMATIC_GEM_BASE_DMG', expr='STR 1000 %of'}},
+			{Tooltips.full('Ignite', 'DamageTypes')..', '..Tooltips.full('Tesla Chain', 'DamageTypes')..' and '..Tooltips.full('Poison', 'DamageTypes')..' damage:', {expr='0.5 PRISMATIC_GEM_BASE_DMG *'}},
+			{'[[Status Chance]] bonus:', {expr='STR 100 %of', suff='%'}},
+			{'[[Status Duration]] bonus:', {expr='DUR 50 0 PRISMATIC_COMPANION if + 100 %of', suff='%'}},
+			{'Duration:', {expr='DUR 50 0 PRISMATIC_COMPANION if + 30 %of', suff='s'}},
+			{'Radius:', {expr='RNG 15 %of', suff='m'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
+		}
+	},
+	['Crystallize']={
+		ins={
+			{name='RECRYSTALIZE', cont=Tooltips.full('Recrystalize', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
+			{'Duration:', {expr='DUR 8 %of', suff='s'}},
+			{'Range:', {expr='RNG 30 %of', suff='m'}},
+			{'Recrystalize radius:', {expr='RNG 16 %of 0 RECRYSTALIZE if', suff='m'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+		}
+	},
 	-- Narin
 	['Neote']={
 		ins={},

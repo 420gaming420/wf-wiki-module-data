@@ -323,7 +323,7 @@ RelicData = {
 			},
 			{
 				Item = "Carrier Prime",
-				Part = "Systems",
+				Part = "System",
 				Rarity = "Common",
 			},
 			{

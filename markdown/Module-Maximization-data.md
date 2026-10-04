@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-10-01T19:18:55Z"
+wiki_timestamp: "2026-10-04T02:50:14Z"
 ---
 
 ## Contents
@@ -25,8 +25,8 @@ Ability Entry Schema")]
 		    'Input wikitext string',
 		},
 		outs = {
-		    { 'Right column wikitext', { name='Output Name', expr='Output Formula', suff='Text placed after the output (e.g. units)' }},
-		    { { expr='Output Formula', fmt='7sig' }, 'Left column wikitext' }
+		    { 'Left column wikitext', { name='Output Name', expr='Output Formula', suff='Text placed after the output (e.g. units)' }},
+		    { { expr='Output Formula', fmt='7sig' }, 'Right column wikitext', style="background: pink" }
 		},
 		post = 'Any wikitext to insert after the calculator'
 	},
@@ -42,7 +42,7 @@ Ability Object
 | Key | Description |
 | --- | --- |
 | `ins` | Contains **additional** inputs as objects or strings. Object form contains a special `cont` field used as descripion of the input. |
-| `outs` | Contains **all** of the outputs as 2-wide arrays of outputs as objects or strings. Object form contains a special `suff` field used as units after the output. |
+| `outs` | Contains **all** of the outputs as 2-wide arrays of outputs as objects or strings. Object form contains a special `suff` field used as units after the output. Named entries iside the `outs` object will become inline properties of the table row (e.g. `|- style="background: pink"`). |
 | `post` | Contains content inserted after the calculator. |
 
 Prebuilt Variables
@@ -80,6 +80,9 @@ Style Guide")]
    * Augment calculations should be present if any augment stat is affected by warframe stats or if the augment affects abilities, otherwise there is nothing to calculate.
    * Users are expected to manually apply [faction weakness](/w/Faction_weakness "Faction weakness") (shown in tooltips), enemy [damage reduction](/w/Damage_reduction "Damage reduction"), and other external factors.
 2. The type of damage an ability does innately must be stated clearly (e.g. "[![](/images/thumb/DmgColdSmall64.png/32px-DmgColdSmall64.png?f2506)](/w/Damage/Cold_Damage "Damage/Cold Damage") [Cold](/w/Damage/Cold_Damage "Damage/Cold Damage") damage" for [![](/images/thumb/FreezeIcon%28xWhite%29.png/32px-FreezeIcon%28xWhite%29.png?73b01)](/w/Freeze "Freeze") [Freeze](/w/Freeze "Freeze")), same applies to procs (e.g. [![](/images/thumb/DmgSlashSmall64.png/32px-DmgSlashSmall64.png?bab47)](/w/Damage/Slash_Damage "Damage/Slash Damage") [Bleed](/w/Damage/Slash_Damage "Damage/Slash Damage") is not the same as [![](/images/thumb/DmgSlashSmall64.png/32px-DmgSlashSmall64.png?bab47)](/w/Damage/Slash_Damage "Damage/Slash Damage") [Slash](/w/Damage/Slash_Damage "Damage/Slash Damage")).
+   * Proc calculations should be present only under specific conditions:
+     + if the proc changes duration or damage because of a kit interaction (e.g. passive, ability, augment),
+     + or if the proc deals damage of a type different from the ability.
 3. The preferable order of outputs is similar to what is seen in ability infoboxes (for visual consistency):
    1. Ability stats (scaled by [![](/images/thumb/AbilityStrengthBuff%28xWhite%29.png/32px-AbilityStrengthBuff%28xWhite%29.png?3d71c)](/w/Ability_Strength "Ability Strength") [Ability Strength](/w/Ability_Strength "Ability Strength"), [![](/images/thumb/AbilityDurationBuff%28xWhite%29.png/32px-AbilityDurationBuff%28xWhite%29.png?d3e3b)](/w/Ability_Duration "Ability Duration") [Ability Duration](/w/Ability_Duration "Ability Duration"), [![](/images/thumb/AbilityRangeBuff%28xWhite%29.png/32px-AbilityRangeBuff%28xWhite%29.png?12f85)](/w/Ability_Range "Ability Range") [Ability Range](/w/Ability_Range "Ability Range")).
    2. Any additional stats (misc and augment stats in the same order of scalers).
@@ -103,7 +106,7 @@ Template")]
 			{'Duration:', {expr='DUR 15 %of', suff='s'}},
 			{'Radius:', {expr='RNG 10 %of', suff='m'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}},
-		}
+		},
 	},
 ```
 
@@ -266,6 +269,56 @@ local Data = {
 			{'Targeting cone range:', {expr='RNG 14 %of', suff='m'}},
 			{'Chance to drop additional loot when killed:', {expr='STR 25 %of 0 ORE_GAZE_AUGMENT if', suff='%'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}},
+		}
+	},
+	-- Citrine
+	['Fractured Blast']={
+		ins={
+			{name='FRACTURED_BLAST_INFUSED', cont='[[Infused]]?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Impact', 'DamageTypes')..' and '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {name='FRACTURED_BLAST_BASE_DMG', expr='STR 250 500 FRACTURED_BLAST_INFUSED if %of'}},
+			{Tooltips.full('Bleed', 'DamageTypes')..' damage:', {expr='0.35 FRACTURED_BLAST_BASE_DMG *'}},
+			{'[[Health Orb]] drop chance:', {expr='STR 25 50 FRACTURED_BLAST_INFUSED if %of', suff='%'}},
+			{'[[Energy Orb]] drop chance:', {expr='STR 10 20 FRACTURED_BLAST_INFUSED if %of', suff='%'}},
+			{'Range:', {expr='RNG 14 %of', suff='m'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+		}
+	},
+	['Preserving Shell']={
+		ins={},
+		outs={
+			{'Initial damage reduction:', {expr='STR 40 %of 90 min', suff='%'}},
+			{'Damage reduction per kill:', {expr='STR 3 %of', suff='%/kill'}},
+			{'Damage reduction per assist:', {expr='STR 1 %of', suff='%/assist'}},
+			{'Duration:', {expr='DUR 25 %of', suff='s'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+		}
+	},
+	['Prismatic Gem']={
+		ins={
+			{name='PRISMATIC_COMPANION', cont=Tooltips.full('Prismatic Companion', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Heat', 'DamageTypes')..', '..Tooltips.full('Cold', 'DamageTypes')..', '..Tooltips.full('Electricity', 'DamageTypes')..' and '..Tooltips.full('Toxin', 'DamageTypes')..' damage:', {name='PRISMATIC_GEM_BASE_DMG', expr='STR 1000 %of'}},
+			{Tooltips.full('Ignite', 'DamageTypes')..', '..Tooltips.full('Tesla Chain', 'DamageTypes')..' and '..Tooltips.full('Poison', 'DamageTypes')..' damage:', {expr='0.5 PRISMATIC_GEM_BASE_DMG *'}},
+			{'[[Status Chance]] bonus:', {expr='STR 100 %of', suff='%'}},
+			{'[[Status Duration]] bonus:', {expr='DUR 50 0 PRISMATIC_COMPANION if + 100 %of', suff='%'}},
+			{'Duration:', {expr='DUR 50 0 PRISMATIC_COMPANION if + 30 %of', suff='s'}},
+			{'Radius:', {expr='RNG 15 %of', suff='m'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
+		}
+	},
+	['Crystallize']={
+		ins={
+			{name='RECRYSTALIZE', cont=Tooltips.full('Recrystalize', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
+			{'Duration:', {expr='DUR 8 %of', suff='s'}},
+			{'Range:', {expr='RNG 30 %of', suff='m'}},
+			{'Recrystalize radius:', {expr='RNG 16 %of 0 RECRYSTALIZE if', suff='m'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
 		}
 	},
 	-- Narin

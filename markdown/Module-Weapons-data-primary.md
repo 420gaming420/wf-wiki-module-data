@@ -1,7 +1,7 @@
 ---
 title: "Module:Weapons/data/primary"
 wiki_url: "https://wiki.warframe.com/w/Module/Weapons/data/primary"
-wiki_timestamp: "2026-09-27T16:00:53Z"
+wiki_timestamp: "2026-10-03T12:01:43Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s [Primary Weapons](/w/Primary_Weapon "Primary Weapon").
@@ -54,7 +54,7 @@ Thanks, you're awesome!
 * [11 Weapon Data](#Weapon_Data)
 * [12 References](#References)
 
-:   *Last updated: Sun, 27 Sep 2026 16:00:53 +0000 (UTC) by [User:ArbitraryMary](/w/User:ArbitraryMary "User:ArbitraryMary") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/primary?diff=0))*
+:   *Last updated: Sat, 03 Oct 2026 12:01:43 +0000 (UTC) by [User:Xikto](/w/User:Xikto?action=edit&redlink=1 "User:Xikto (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/primary?diff=0))*
 
 ## Horizontal Partitions (and where to update data)
 
@@ -9993,6 +9993,7 @@ return {
 				AmmoCost = 1,
 				AttackIndex = 1,
 				AttackName = "Charged Shot",
+				ChargeTime = 0.6,
 				CritChance = 0.32,
 				CritMultiplier = 2.4,
 				Damage = { Puncture = 200,	Cold = 200 },

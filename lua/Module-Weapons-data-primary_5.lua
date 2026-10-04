@@ -8092,6 +8092,7 @@ return {
 				AmmoCost = 1,
 				AttackIndex = 1,
 				AttackName = "Charged Shot",
+				ChargeTime = 0.6,
 				CritChance = 0.32,
 				CritMultiplier = 2.4,
 				Damage = { Puncture = 200,	Cold = 200 },

@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-28T08:26:12.873Z"
+    "converted_at": "2026-10-04T07:56:31.903Z"
   },
   "_comments": "\t\t--Users = { },",
   "Tenet Tetra": {
@@ -3256,25 +3256,26 @@
     "Name": "Nunchasa",
     "Attacks": [
       {
-        "ShotSpeed": 70,
         "CritChance": 0.32,
-        "StatusChance": 0.32,
         "FireRate": 1,
-        "Trigger": "Charge",
-        "IsSilent": true,
-        "MinSpread": 0,
-        "AmmoCost": 1,
         "Multishot": 1,
-        "MaxSpread": 12,
         "AttackIndex": 1,
         "AttackName": "Charged Shot",
-        "PunchThrough": 1.4,
         "ShotType": "Projectile",
+        "CritMultiplier": 2.4,
+        "ChargeTime": 0.6,
+        "Trigger": "Charge",
+        "AmmoCost": 1,
+        "MaxSpread": 12,
+        "ShotSpeed": 70,
+        "MinSpread": 0,
+        "PunchThrough": 1.4,
+        "StatusChance": 0.32,
+        "IsSilent": true,
         "Damage": {
           "Puncture": 200,
           "Cold": 200
-        },
-        "CritMultiplier": 2.4
+        }
       },
       {
         "ChargeTime": 1.5,
