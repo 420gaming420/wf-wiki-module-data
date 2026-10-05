@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-10-04T02:50:14Z"
+wiki_timestamp: "2026-10-04T22:00:43Z"
 ---
 
 ## Contents
@@ -269,6 +269,56 @@ local Data = {
 			{'Targeting cone range:', {expr='RNG 14 %of', suff='m'}},
 			{'Chance to drop additional loot when killed:', {expr='STR 25 %of 0 ORE_GAZE_AUGMENT if', suff='%'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}},
+		}
+	},
+	-- Banshee
+	['Sonic Boom']={
+		ins={
+			{name='SONIC_SIPHON', cont=Tooltips.full('Sonic Siphon', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 250 %of'}},
+			{Tooltips.full('Armor', 'Stats')..' reduction:', {expr='STR 70 %of 100 min', suff='%'}},
+			{'Push Force:', {expr='STR 5 %of'}},
+			{'Range:', {expr='RNG 15 %of', suff='m'}},
+			{'Sonic Siphon '..Tooltips.full('Armor', 'Stats')..' bonus:', {expr='STR 50 %of 0 SONIC_SIPHON if 1500 min', suff='/hit'}},
+			{'Hits required for 1500 '..Tooltips.full('Armor', 'Stats')..':', {expr='30 STR as% / ceil 0 SONIC_SIPHON if'}},
+			{'Sonic Siphon duration:', {expr='DUR 20 %of', suff='s'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+		}
+	},
+	['Sonar']={
+		ins={},
+		outs={
+			{'Damage multiplier:', {expr='STR 5 %of'}},
+			{'Duration:', {expr='DUR 30 %of', suff='s'}},
+			{'Radius:', {expr='RNG 35 %of', suff='m'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+		}
+	},
+	['Silence']={
+		ins={
+			{name='SAVAGE_SILENCE', cont=Tooltips.full('Savage Silence', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Duration:', {expr='DUR 30 %of', suff='s'}},
+			{'Radius:', {expr='RNG 20 %of', suff='m'}},
+			{'[[Finisher damage]] modifier:', {expr='STR 300 %of 0 SAVAGE_SILENCE if', suff='%'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
+		}
+	},
+	['Sound Quake']={
+		ins={
+			{name='GASEOUS_QUAKE', cont=Tooltips.full('Gaseous Quake', 'Mods')..'?', type='checkbox'},
+			{name='GASEOUS_QUAKE_DURATION', cont='Seconds spent channeling Gaseous Quake:', min='0', default='0'}
+		},
+		outs={
+			{Tooltips.full('Blast', 'DamageTypes')..' or '..Tooltips.full('Gas', 'DamageTypes')..' damage:', {name='SOUND_QUAKE_BASE_DMG', expr='STR 200 %of 2.75 GASEOUS_QUAKE_DURATION 10 min ^ 1 GASEOUS_QUAKE if *'}},
+			{Tooltips.full('Gas Cloud', 'DamageTypes')..' damage:', {expr='0.5 SOUND_QUAKE_BASE_DMG * 0 GASEOUS_QUAKE if'}},
+			{'Zone duration:', {expr='DUR 6.25 25 GASEOUS_QUAKE if %of', suff='s'}},
+			{'Radius:', {expr='RNG 20 %of', suff='m'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 75 GASEOUS_QUAKE if COST *'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='16 DRAIN * 1.2 GASEOUS_QUAKE_DURATION ^ * 0 GASEOUS_QUAKE if'}}
 		}
 	},
 	-- Citrine

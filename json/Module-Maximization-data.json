@@ -4,9 +4,9 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-10-04T07:56:26.582Z"
+    "converted_at": "2026-10-05T08:38:40.818Z"
   },
-  "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins\n-- this contains mappings for what we couldn't pull from preexisting modules\n\t-- Ash\n\t-- Atlas\n\t-- Citrine\n\t-- Narin\n\t-- Nidus\n\t-- Uriel",
+  "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins\n-- this contains mappings for what we couldn't pull from preexisting modules\n\t-- Ash\n\t-- Atlas\n\t-- Banshee\n\t-- Citrine\n\t-- Narin\n\t-- Nidus\n\t-- Uriel",
   "Naraemagi": {
     "outs": [
       [
@@ -160,95 +160,75 @@
       }
     ]
   },
-  "Hakchum": {
+  "Sonar": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Cold|DamageTypes}} Landing damage:",
+        "Damage multiplier:",
         {
-          "expr": "STR 1000 %of"
+          "expr": "STR 5 %of"
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Cold|DamageTypes}} DoT:",
+        "Duration:",
         {
-          "expr": "STR 100 %of",
-          "suff": "/s"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Cold|DamageTypes}} Damage Vulnerability:",
-        {
-          "expr": "STR 150 %of",
-          "suff": "%"
-        }
-      ],
-      [
-        "Ice storm duration:",
-        {
-          "expr": "DUR 10 %of",
+          "expr": "DUR 30 %of",
           "suff": "s"
         }
       ],
       [
-        "Ice storm radius:",
+        "Radius:",
         {
-          "expr": "RNG 10 %of",
+          "expr": "RNG 35 %of",
           "suff": "m"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "75 COST *"
+          "expr": "50 COST *"
         }
       ]
     ],
     "ins": {}
   },
-  "Teleport": {
+  "Preserving Shell": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Finisher|DamageTypes}} damage bonus:",
+        "Initial damage reduction:",
         {
-          "expr": "STR 200 %of",
+          "expr": "STR 40 %of 90 min",
           "suff": "%"
         }
       ],
       [
-        "Range:",
+        "Damage reduction per kill:",
         {
-          "expr": "RNG 60 %of",
-          "suff": "m"
+          "expr": "STR 3 %of",
+          "suff": "%/kill"
         }
       ],
       [
-        "[[Parkour Velocity]] bonus:",
+        "Damage reduction per assist:",
         {
-          "expr": "30 0 TELEPORT_RUSH if",
-          "suff": "%"
+          "expr": "STR 1 %of",
+          "suff": "%/assist"
         }
       ],
       [
-        "Teleport Rush duration:",
+        "Duration:",
         {
-          "expr": "DUR 12 %of 0 TELEPORT_RUSH if",
+          "expr": "DUR 25 %of",
           "suff": "s"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "50 COST *"
         }
       ]
     ],
-    "ins": [
-      {
-        "type": "checkbox",
-        "name": "TELEPORT_RUSH",
-        "cont": "{{#invoke:Tooltip|full|Teleport Rush|Mods}}?"
-      }
-    ]
+    "ins": {}
   },
   "Demonium": {
     "outs": [
@@ -302,53 +282,105 @@
     ],
     "ins": {}
   },
-  "Ravenous": {
+  "Hakchum": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Health|Stats}} regeneration:",
+        "{{#invoke:Tooltip|full|Cold|DamageTypes}} Landing damage:",
         {
-          "expr": "STR 75 %of",
+          "expr": "STR 1000 %of"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Cold|DamageTypes}} DoT:",
+        {
+          "expr": "STR 100 %of",
           "suff": "/s"
         }
       ],
       [
-        "Duration:",
+        "{{#invoke:Tooltip|full|Cold|DamageTypes}} Damage Vulnerability:",
         {
-          "expr": "DUR 40 %of",
+          "expr": "STR 150 %of",
+          "suff": "%"
+        }
+      ],
+      [
+        "Ice storm duration:",
+        {
+          "expr": "DUR 10 %of",
           "suff": "s"
         }
       ],
       [
-        "Field radius:",
+        "Ice storm radius:",
         {
-          "expr": "RNG 8 %of",
+          "expr": "RNG 10 %of",
           "suff": "m"
         }
       ],
       [
-        "Maggot {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "STR 150 %of 1 MUTATION_STACKS + *"
+          "expr": "75 COST *"
+        }
+      ]
+    ],
+    "ins": {}
+  },
+  "Virulence": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Puncture|DamageTypes}} contact damage:",
+        {
+          "expr": "STR 200 %of 1 MUTATION_STACKS + *"
         }
       ],
       [
-        "Maggot {{#invoke:Tooltip|full|Toxin|DamageTypes}} damage:",
+        "{{#invoke:Tooltip|full|Viral|DamageTypes}} lingering damage:",
         {
-          "expr": "10 1 MUTATION_STACKS + *"
+          "expr": "STR 100 %of 1 MUTATION_STACKS + *"
         }
       ],
       [
-        "Maggot explosion radius:",
+        "Lingering field duration:",
         {
-          "expr": "RNG 4 %of",
+          "expr": "DUR 5 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Length:",
+        {
+          "expr": "RNG 16 %of",
           "suff": "m"
         }
       ],
       [
-        "Bonus Mutation Stack chance:",
+        "Primary Weapon Critical Chance bonus:",
         {
-          "expr": "STR 60 %of 0 INSATIABLE if",
+          "expr": "STR 200 %of 0 TEEMING_VIRULENCE if",
           "suff": "%"
+        }
+      ],
+      [
+        "Teeming Virulence duration:",
+        {
+          "expr": "DUR 15 %of 0 TEEMING_VIRULENCE if",
+          "suff": "s"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "name": "VIRULENCE_COST",
+          "expr": "40 COST *"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} restored:",
+        {
+          "expr": "VIRULENCE_COST 4 /",
+          "suff": "/hit"
         }
       ]
     ],
@@ -363,38 +395,31 @@
       },
       {
         "type": "checkbox",
-        "name": "INSATIABLE",
-        "cont": "{{#invoke:Tooltip|full|Insatiable|Mods}}?"
+        "name": "TEEMING_VIRULENCE",
+        "cont": "{{#invoke:Tooltip|full|Teeming Virulence|Mods}}?"
       }
     ]
   },
-  "Petrify": {
+  "Silence": {
     "outs": [
       [
-        "Rumbler health restored:",
+        "Duration:",
         {
-          "expr": "STR 100 %of",
-          "suff": "%"
-        }
-      ],
-      [
-        "Petrify duration:",
-        {
-          "expr": "DUR 20 %of",
+          "expr": "DUR 30 %of",
           "suff": "s"
         }
       ],
       [
-        "Targeting cone range:",
+        "Radius:",
         {
-          "expr": "RNG 14 %of",
+          "expr": "RNG 20 %of",
           "suff": "m"
         }
       ],
       [
-        "Chance to drop additional loot when killed:",
+        "[[Finisher damage]] modifier:",
         {
-          "expr": "STR 25 %of 0 ORE_GAZE_AUGMENT if",
+          "expr": "STR 300 %of 0 SAVAGE_SILENCE if",
           "suff": "%"
         }
       ],
@@ -408,8 +433,8 @@
     "ins": [
       {
         "type": "checkbox",
-        "name": "ORE_GAZE_AUGMENT",
-        "cont": "{{#invoke:Tooltip|full|Ore Gaze|Mods}}?"
+        "name": "SAVAGE_SILENCE",
+        "cont": "{{#invoke:Tooltip|full|Savage Silence|Mods}}?"
       }
     ]
   },
@@ -522,6 +547,189 @@
         "type": "checkbox",
         "name": "INFERNUM",
         "cont": "{{#invoke:Tooltip|full|Infernum|Mods}}?"
+      }
+    ]
+  },
+  "Ravenous": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Health|Stats}} regeneration:",
+        {
+          "expr": "STR 75 %of",
+          "suff": "/s"
+        }
+      ],
+      [
+        "Duration:",
+        {
+          "expr": "DUR 40 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Field radius:",
+        {
+          "expr": "RNG 8 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "Maggot {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        {
+          "expr": "STR 150 %of 1 MUTATION_STACKS + *"
+        }
+      ],
+      [
+        "Maggot {{#invoke:Tooltip|full|Toxin|DamageTypes}} damage:",
+        {
+          "expr": "10 1 MUTATION_STACKS + *"
+        }
+      ],
+      [
+        "Maggot explosion radius:",
+        {
+          "expr": "RNG 4 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "Bonus Mutation Stack chance:",
+        {
+          "expr": "STR 60 %of 0 INSATIABLE if",
+          "suff": "%"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "min": "0",
+        "type": "range-R",
+        "name": "MUTATION_STACKS",
+        "max": "500",
+        "default": "0",
+        "cont": "Mutation Stacks:"
+      },
+      {
+        "type": "checkbox",
+        "name": "INSATIABLE",
+        "cont": "{{#invoke:Tooltip|full|Insatiable|Mods}}?"
+      }
+    ]
+  },
+  "Petrify": {
+    "outs": [
+      [
+        "Rumbler health restored:",
+        {
+          "expr": "STR 100 %of",
+          "suff": "%"
+        }
+      ],
+      [
+        "Petrify duration:",
+        {
+          "expr": "DUR 20 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Targeting cone range:",
+        {
+          "expr": "RNG 14 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "Chance to drop additional loot when killed:",
+        {
+          "expr": "STR 25 %of 0 ORE_GAZE_AUGMENT if",
+          "suff": "%"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "75 COST *"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "ORE_GAZE_AUGMENT",
+        "cont": "{{#invoke:Tooltip|full|Ore Gaze|Mods}}?"
+      }
+    ]
+  },
+  "Parasitic Link": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Ability Strength|Stats}} multiplier:",
+        {
+          "expr": "STR 0.25 %of 1 +"
+        }
+      ],
+      [
+        "Damage multiplier:",
+        {
+          "expr": "STR 0.25 %of 1 +"
+        }
+      ],
+      [
+        "Damage redirection:",
+        {
+          "expr": "STR 50 %of 90 min",
+          "suff": "%"
+        }
+      ],
+      [
+        "Duration:",
+        {
+          "expr": "DUR 60 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Ally maximum range:",
+        {
+          "expr": "RNG 40 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "Enemy maximum range:",
+        {
+          "expr": "RNG 20 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "Health bonus:",
+        {
+          "expr": "STR 4 MUTATION_STACKS * %of 0 PARASITIC_VITALITY if",
+          "suff": "%"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "25 COST *"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "min": "0",
+        "type": "range-R",
+        "name": "MUTATION_STACKS",
+        "max": "500",
+        "default": "0",
+        "cont": "Mutation Stacks:"
+      },
+      {
+        "type": "checkbox",
+        "name": "PARASITIC_VITALITY",
+        "cont": "{{#invoke:Tooltip|full|Parasitic Vitality|Mods}}?"
       }
     ]
   },
@@ -675,53 +883,34 @@
     ]
   },
   "AbilitySets": {},
-  "Parasitic Link": {
+  "Teleport": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Ability Strength|Stats}} multiplier:",
+        "{{#invoke:Tooltip|full|Finisher|DamageTypes}} damage bonus:",
         {
-          "expr": "STR 0.25 %of 1 +"
-        }
-      ],
-      [
-        "Damage multiplier:",
-        {
-          "expr": "STR 0.25 %of 1 +"
-        }
-      ],
-      [
-        "Damage redirection:",
-        {
-          "expr": "STR 50 %of 90 min",
+          "expr": "STR 200 %of",
           "suff": "%"
         }
       ],
       [
-        "Duration:",
+        "Range:",
         {
-          "expr": "DUR 60 %of",
+          "expr": "RNG 60 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "[[Parkour Velocity]] bonus:",
+        {
+          "expr": "30 0 TELEPORT_RUSH if",
+          "suff": "%"
+        }
+      ],
+      [
+        "Teleport Rush duration:",
+        {
+          "expr": "DUR 12 %of 0 TELEPORT_RUSH if",
           "suff": "s"
-        }
-      ],
-      [
-        "Ally maximum range:",
-        {
-          "expr": "RNG 40 %of",
-          "suff": "m"
-        }
-      ],
-      [
-        "Enemy maximum range:",
-        {
-          "expr": "RNG 20 %of",
-          "suff": "m"
-        }
-      ],
-      [
-        "Health bonus:",
-        {
-          "expr": "STR 4 MUTATION_STACKS * %of 0 PARASITIC_VITALITY if",
-          "suff": "%"
         }
       ],
       [
@@ -733,17 +922,9 @@
     ],
     "ins": [
       {
-        "min": "0",
-        "type": "range-R",
-        "name": "MUTATION_STACKS",
-        "max": "500",
-        "default": "0",
-        "cont": "Mutation Stacks:"
-      },
-      {
         "type": "checkbox",
-        "name": "PARASITIC_VITALITY",
-        "cont": "{{#invoke:Tooltip|full|Parasitic Vitality|Mods}}?"
+        "name": "TELEPORT_RUSH",
+        "cont": "{{#invoke:Tooltip|full|Teleport Rush|Mods}}?"
       }
     ]
   },
@@ -954,78 +1135,37 @@
       }
     ]
   },
-  "Virulence": {
+  "Neote": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Puncture|DamageTypes}} contact damage:",
+        "{{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
         {
-          "expr": "STR 200 %of 1 MUTATION_STACKS + *"
+          "expr": "STR 400 %of",
+          "name": "BASE_NEOTE_DMG",
+          "suff": "/hit"
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Viral|DamageTypes}} lingering damage:",
+        "Total {{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
         {
-          "expr": "STR 100 %of 1 MUTATION_STACKS + *"
+          "expr": "BASE_NEOTE_DMG 5 *"
         }
       ],
       [
-        "Lingering field duration:",
+        "Range:",
         {
-          "expr": "DUR 5 %of",
-          "suff": "s"
-        }
-      ],
-      [
-        "Length:",
-        {
-          "expr": "RNG 16 %of",
+          "expr": "RNG 12 %of",
           "suff": "m"
-        }
-      ],
-      [
-        "Primary Weapon Critical Chance bonus:",
-        {
-          "expr": "STR 200 %of 0 TEEMING_VIRULENCE if",
-          "suff": "%"
-        }
-      ],
-      [
-        "Teeming Virulence duration:",
-        {
-          "expr": "DUR 15 %of 0 TEEMING_VIRULENCE if",
-          "suff": "s"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "name": "VIRULENCE_COST",
-          "expr": "40 COST *"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} restored:",
-        {
-          "expr": "VIRULENCE_COST 4 /",
-          "suff": "/hit"
+          "expr": "25 COST *"
         }
       ]
     ],
-    "ins": [
-      {
-        "min": "0",
-        "type": "range-R",
-        "name": "MUTATION_STACKS",
-        "max": "500",
-        "default": "0",
-        "cont": "Mutation Stacks:"
-      },
-      {
-        "type": "checkbox",
-        "name": "TEEMING_VIRULENCE",
-        "cont": "{{#invoke:Tooltip|full|Teeming Virulence|Mods}}?"
-      }
-    ]
+    "ins": {}
   },
   "Shuriken": {
     "outs": [
@@ -1307,27 +1447,108 @@
     ],
     "ins": {}
   },
-  "Neote": {
+  "Sound Quake": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
+        "{{#invoke:Tooltip|full|Blast|DamageTypes}} or {{#invoke:Tooltip|full|Gas|DamageTypes}} damage:",
         {
-          "expr": "STR 400 %of",
-          "name": "BASE_NEOTE_DMG",
-          "suff": "/hit"
+          "name": "SOUND_QUAKE_BASE_DMG",
+          "expr": "STR 200 %of 2.75 GASEOUS_QUAKE_DURATION 10 min ^ 1 GASEOUS_QUAKE if *"
         }
       ],
       [
-        "Total {{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
+        "{{#invoke:Tooltip|full|Gas Cloud|DamageTypes}} damage:",
         {
-          "expr": "BASE_NEOTE_DMG 5 *"
+          "expr": "0.5 SOUND_QUAKE_BASE_DMG * 0 GASEOUS_QUAKE if"
+        }
+      ],
+      [
+        "Zone duration:",
+        {
+          "expr": "DUR 6.25 25 GASEOUS_QUAKE if %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Radius:",
+        {
+          "expr": "RNG 20 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "100 75 GASEOUS_QUAKE if COST *"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
+        {
+          "expr": "16 DRAIN * 1.2 GASEOUS_QUAKE_DURATION ^ * 0 GASEOUS_QUAKE if"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "GASEOUS_QUAKE",
+        "cont": "{{#invoke:Tooltip|full|Gaseous Quake|Mods}}?"
+      },
+      {
+        "min": "0",
+        "default": "0",
+        "name": "GASEOUS_QUAKE_DURATION",
+        "cont": "Seconds spent channeling Gaseous Quake:"
+      }
+    ]
+  },
+  "Sonic Boom": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Impact|DamageTypes}} damage:",
+        {
+          "expr": "STR 250 %of"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Armor|Stats}} reduction:",
+        {
+          "expr": "STR 70 %of 100 min",
+          "suff": "%"
+        }
+      ],
+      [
+        "Push Force:",
+        {
+          "expr": "STR 5 %of"
         }
       ],
       [
         "Range:",
         {
-          "expr": "RNG 12 %of",
+          "expr": "RNG 15 %of",
           "suff": "m"
+        }
+      ],
+      [
+        "Sonic Siphon {{#invoke:Tooltip|full|Armor|Stats}} bonus:",
+        {
+          "expr": "STR 50 %of 0 SONIC_SIPHON if 1500 min",
+          "suff": "/hit"
+        }
+      ],
+      [
+        "Hits required for 1500 {{#invoke:Tooltip|full|Armor|Stats}}:",
+        {
+          "expr": "30 STR as% / ceil 0 SONIC_SIPHON if"
+        }
+      ],
+      [
+        "Sonic Siphon duration:",
+        {
+          "expr": "DUR 20 %of",
+          "suff": "s"
         }
       ],
       [
@@ -1337,46 +1558,13 @@
         }
       ]
     ],
-    "ins": {}
-  },
-  "Preserving Shell": {
-    "outs": [
-      [
-        "Initial damage reduction:",
-        {
-          "expr": "STR 40 %of 90 min",
-          "suff": "%"
-        }
-      ],
-      [
-        "Damage reduction per kill:",
-        {
-          "expr": "STR 3 %of",
-          "suff": "%/kill"
-        }
-      ],
-      [
-        "Damage reduction per assist:",
-        {
-          "expr": "STR 1 %of",
-          "suff": "%/assist"
-        }
-      ],
-      [
-        "Duration:",
-        {
-          "expr": "DUR 25 %of",
-          "suff": "s"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "50 COST *"
-        }
-      ]
-    ],
-    "ins": {}
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "SONIC_SIPHON",
+        "cont": "{{#invoke:Tooltip|full|Sonic Siphon|Mods}}?"
+      }
+    ]
   },
   "Nurinarim": {
     "outs": [

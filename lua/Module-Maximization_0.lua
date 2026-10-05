@@ -43,7 +43,7 @@ local function normalize_out(out)
 	return '<span '..table.concat(out, ' ')..'></span>'..(out.suff and tooltipsub(out.suff) or '');
 end
 
---- Creates a maximization calculator for a specific Warframe ability based on formulas in [[Module:Maximization/data]].
+--- Creates a maximization calculator for one or more Warframe abilities based on formulas in [[Module:Maximization/data]].
 --  @function		p.ability
 --	@alias			p.main
 --  @param			{table} frame Frame object with the ability names as the arguments
@@ -171,7 +171,11 @@ nil)
 end
 p.main = p.ability;
 
--- checks for ability sets by owner name and calls p.ability() with related abilities, otherwise returns error text
+--- Creates a maximization calculator for one or more Warframes abilities by resolving names and calling p.ability()
+--  @function		p.ability_set
+--	@alias			p.WarframeAbilities
+--  @param			{table} frame Frame object with the Warframe names as the arguments
+--  @return			{string} Wikitable with the CSS classes and HTML data attributes for the calculator
 function p.ability_set(...)
 	local warframe_names = (...).args or {...};
 	local ability_names = {};

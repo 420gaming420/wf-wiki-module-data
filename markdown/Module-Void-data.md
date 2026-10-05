@@ -1,7 +1,7 @@
 ---
 title: "Module:Void/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Void/data"
-wiki_timestamp: "2026-10-03T23:16:00Z"
+wiki_timestamp: "2026-10-04T12:14:51Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -16,7 +16,7 @@ Note that no drop chances are stored here since all relics of the same refinemen
 
 Also the place to update if a Prime part's [![](/images/thumb/OrokinDucats.png/32px-OrokinDucats.png?23930)](/w/Orokin_Ducats "Orokin Ducats") [Orokin Ducats](/w/Orokin_Ducats "Orokin Ducats") trade-in value is an anomaly for their rarity. See [#Prime Item Ducat Sell Price](#Prime_Item_Ducat_Sell_Price).
 
-:   *Last updated: Sat, 03 Oct 2026 23:16:00 +0000 (UTC) by [User:~2026-PolymodalJoinUsHootie53692](/w/User:~2026-PolymodalJoinUsHootie53692?action=edit&redlink=1 "User:~2026-PolymodalJoinUsHootie53692 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Void/data?diff=0))*
+:   *Last updated: Sun, 04 Oct 2026 12:14:51 +0000 (UTC) by [User:Headbox8424](/w/User:Headbox8424 "User:Headbox8424") ([change log](https://wiki.warframe.com/w/Module:Void/data?diff=0))*
 
 ## Contents
 
@@ -623,7 +623,7 @@ RelicData = {
 			},
 			{
 				Item = "Carrier Prime",
-				Part = "System",
+				Part = "Systems",
 				Rarity = "Common",
 			},
 			{

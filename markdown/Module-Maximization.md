@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization"
-wiki_timestamp: "2026-10-02T08:22:32Z"
+wiki_timestamp: "2026-10-04T22:18:13Z"
 ---
 
 **Maximization** creates a stat maximization calculator for Warframe abilities.
@@ -32,8 +32,13 @@ In articles: `{{MaximizationCalculator|ability_name}}`
 ### Package items
 
 `p.main(frame)` (function)
-:   Creates a maximization calculator for a specific Warframe ability based on formulas in [Module:Maximization/data](/w/Module:Maximization/data "Module:Maximization/data").
+:   Creates a maximization calculator for one or more Warframe abilities based on formulas in [Module:Maximization/data](/w/Module:Maximization/data "Module:Maximization/data").
 :   **Parameter**: `frame` Frame object with the ability names as the arguments (table)
+:   **Returns**: Wikitable with the CSS classes and HTML data attributes for the calculator (string)
+
+`p.WarframeAbilities(frame)` (function)
+:   Creates a maximization calculator for one or more Warframes abilities by resolving names and calling p. ability()
+:   **Parameter**: `frame` Frame object with the Warframe names as the arguments (table)
 :   **Returns**: Wikitable with the CSS classes and HTML data attributes for the calculator (string)
 
 ---
@@ -118,7 +123,7 @@ local function normalize_out(out)
 	return ''..(out.suff and tooltipsub(out.suff) or '');
 end
 
---- Creates a maximization calculator for a specific Warframe ability based on formulas in [[Module:Maximization/data]].
+--- Creates a maximization calculator for one or more Warframe abilities based on formulas in [[Module:Maximization/data]].
 --  @function		p.ability
 --	@alias			p.main
 --  @param			{table} frame Frame object with the ability names as the arguments
@@ -254,7 +259,11 @@ nil)
 end
 p.main = p.ability;
 
--- checks for ability sets by owner name and calls p.ability() with related abilities, otherwise returns error text
+--- Creates a maximization calculator for one or more Warframes abilities by resolving names and calling p.ability()
+--  @function		p.ability_set
+--	@alias			p.WarframeAbilities
+--  @param			{table} frame Frame object with the Warframe names as the arguments
+--  @return			{string} Wikitable with the CSS classes and HTML data attributes for the calculator
 function p.ability_set(...)
 	local warframe_names = (...).args or {...};
 	local ability_names = {};
