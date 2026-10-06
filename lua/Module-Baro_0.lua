@@ -240,27 +240,34 @@ end
 
 --- Internal function to calculate totals from an array of item entries.
 --	@function		_getTotal
---	@param			{table} ItemEntries Array of item entries
---	@param			{boolean|nil} returnString If true, returns the formatted string
---	@return			{string|table} A formatted string, or a hash table containing the totals by default
-local function _getTotal(ItemEntries, returnString)
+--	@param			{table} entries Array of item entries
+--	@param			{boolean|string} returnString Controls the return format: (optional)
+--		- true: Returns the default formatted string
+--		- string: Acts as a custom template for the formatted string
+--		- false/nil: Returns the raw hash table
+--	@return			{string|table} A formatted string, or the raw totals table
+local function _getTotal(entries, returnString)
 	local count, credits, ducats = 0, 0, 0
 
-	for _, entry in ipairs(ItemEntries) do
-		if entry.Image then
+	for _, entry in ipairs(entries) do
+		if entry.Image then -- Lightweight check for a valid entry
 			count = count + 1; credits = credits + (entry.CreditCost or 0); ducats = ducats + (entry.DucatCost or 0)
 		end
 	end
 
-	if returnString then
-		return string.format('Total Items: <b>%s</b> &#124; Cost: %s <b>%s</b> + %s <b>%s</b>',
-			Lang:formatNum(count),
-			Tooltip.icon('Credits', 'Resources'), Lang:formatNum(credits),
-			Tooltip.icon('Orokin Ducats', 'Resources'), Lang:formatNum(ducats)
-		)
-	end
+	local res = { count = count, credit = credits, ducat = ducats,
+		creditIcon = Tooltip.icon('Credits', 'Resources'), ducatIcon = Tooltip.icon('Orokin Ducats', 'Resources')
+	}
 
-	return { count = count, credit = credits, ducat = ducats }
+	if returnString then
+		local default = 'Total Items: <b>{count}</b> &#124; Cost: {creditIcon} <b>{credit}</b> + {ducatIcon} <b>{ducat}</b>'
+		local template = type(returnString) == 'string' and returnString or default
+		local function fmtVal(k) return type(res[k]) == 'number' and Lang:formatNum(res[k]) or res[k] end
+
+		return template:gsub("{([%w_]+)}", fmtVal)
+	else
+		return res
+	end
 end
 
 ---	Builds current offerings display in a gallery format using gallery tags.

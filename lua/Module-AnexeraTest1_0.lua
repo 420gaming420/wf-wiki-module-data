@@ -71,7 +71,7 @@ end
 -- 						Required only for 'collapsible' mode to separate independent lists or create custom toggle groups
 -- @return		{string|table} Wikitext syntax, fallback plain text, or raw table depending on the mode
 local function formatDataList(list, mode, caption, id)
-	if type(list) ~= 'table' then return end
+	list = type(list) == 'table' and list or {list}
 	if mode == 'table' then return list end
 	if mode == 'list' then return table.concat(list, '<br />') end
 	if mode == 'wikitable' then
@@ -92,7 +92,7 @@ local function formatDataList(list, mode, caption, id)
 				("￣"):rep(width) .. '\\n' .. table.concat(list, '\\n', startIndex), displayLabel
 			)
 		elseif mode == 'collapsible' then
-			local collapsibleId = id or mode .. 'List'
+			local collapsibleId = id or 'collapsibleList'
 			return string.format(
 				'<span class="mw-customtoggle-%s">%s ▼</span><span class="mw-collapsible mw-collapsed" id="mw-customcollapsible-%s"><br />%s</span>',
 				collapsibleId, displayLabel, collapsibleId, table.concat(list, '<br />', startIndex)
@@ -106,28 +106,25 @@ end
 --- Core logic to process Baro history dates and generate tooltip or plain text.
 -- @function				_getItemDates
 -- @param					{table} options Configuration table containing:
--- * '''item''' 			(table|string): ItemEntry array or ItemName string (supports comma-separated values). (optional if extraDates is provided)
---								All dates will be merged and deduplicated into a single list.
+-- * '''item''' 			(table|string): Single ItemEntry/ItemName, or an array of them (optional if extraDates is provided)
+--								All dates will be merged and deduplicated into a single list
 -- * '''platform'''			(string): Filter platform, e.g., 'All', 'PC', 'Consoles', 'SharedOnly', 'PcOnly', 'ConsolesOnly' (default: 'PC')
--- * '''mode'''				(string): Output mode, 'table' (default), 'list', 'tooltip', 'collapsible', or 'wikitable'
+-- * '''mode'''				(string): Output mode, 'table', 'list', 'tooltip', 'collapsible', or 'wikitable' (default: 'table')
 -- * '''limit'''			(number): Maximum number of elements to fetch (optional)
 -- * '''asc'''				(boolean): Sorting order, true for ASC, false for DESC (optional, default: true)
 -- * '''platformLabel'''	(boolean): Whether to append platform names as suffixes to dates (optional, default: false)
--- * '''tennocon'''	(boolean): Whether to include TennoCon dates (optional)
+-- * '''tennocon'''			(boolean): Whether to include TennoCon dates (optional)
 -- * '''extraDates'''		(table|string): Additional comma-separated string or array of dates (optional if item is provided)
 -- * '''caption'''			(string): Display title or label for 'tooltip', 'collapsible', or 'wikitable' modes header (optional)
 -- * '''id'''				{string}: Wikitext element ID for 'collapsible' mode (recommended)
 -- @return					{table|string} Table array of dates or formatted HTML/plain text based on mode
 local function _getItemDates(options)
-	local itemInput		= options.item
-	itemInput			= (type(itemInput) == 'string' and string.find(itemInput, ",")) and mw.text.split(itemInput, '%s*,%s*') or itemInput
-
 	-- Normalize optional parameters
+	local itemInput		= options.item
 	local platform		= options.platform or "PC"
-	local mode			= options.mode or "table"
-	local limit			= options.limit and tonumber(options.limit)
-	local asc			= options.asc ~= false and options.asc ~= 'false'
-	local platformLabel	= options.platformLabel == true or options.platformLabel == 'true'
+	local limit			= options.limit
+	local asc			= options.asc ~= false
+	local platformLabel	= options.platformLabel == true
 	local extraDates	= options.extraDates
 	assert(itemInput or extraDates, '_getItemDates(options): item or extraDates cannot be nil')
 
@@ -139,30 +136,29 @@ local function _getItemDates(options)
 	for i=1, isArray and #itemInput or 1 do
 		if not itemInput then break end
 		local item			= isArray and itemInput[i] or itemInput
-		local ItemEntry		= type(item) == 'table' and item or BaroItems[item]
-		assert(ItemEntry, string.format('_getItemDates(options): "%s" does not exist in [[Module:Baro/data]].', tostring(item)))
-		assert(ItemEntry.Name, '_getItemDates(options): Invalid ItemEntry object structure (missing "Name").')
+		local entry			= type(item) == 'table' and item or BaroItems[item]
+		assert(entry, string.format('_getItemDates(options): "%s" does not exist in [[Module:Baro/data]].', tostring(item)))
+		assert(entry.Name, '_getItemDates(options): Invalid ItemEntry object structure (missing "Name").')
 
-		local dateKey	= ItemEntry.IsAlways and 'Introduced' or 'OfferingDates'
+		local dateKey	= entry.IsAlways and 'Introduced' or 'OfferingDates'
 		if platform == 'All' or platform == 'PC' or platform == 'PcOnly' then
-			mergeData(ItemEntry['Pc' .. dateKey], dates, limit, asc, platformLabel and ' (PC only)'); mergeCount = mergeCount + 1
+			mergeData(entry['Pc' .. dateKey], dates, limit, asc, platformLabel and ' (PC only)'); mergeCount = mergeCount + 1
 		end
 		if platform == 'All' or platform == 'Consoles' or platform == 'ConsolesOnly' then
-			mergeData(ItemEntry['Console' .. dateKey], dates, limit, asc, platformLabel and ' (Consoles only)'); mergeCount = mergeCount + 1
+			mergeData(entry['Console' .. dateKey], dates, limit, asc, platformLabel and ' (Consoles only)'); mergeCount = mergeCount + 1
 		end
 		if platform == 'All' or platform == 'PC' or platform == 'Consoles' or platform == 'SharedOnly' then
-			mergeData(ItemEntry[dateKey], dates, limit, asc); mergeCount = mergeCount + 1
+			mergeData(entry[dateKey], dates, limit, asc); mergeCount = mergeCount + 1
 		end
-		if options.tennocon then
-			mergeData(ItemEntry.TennoConOfferingDates, dates, limit, asc); mergeCount = mergeCount + 1
+		if options.tennocon == true or platform == 'TennoCon' then
+			mergeData(entry.TennoConOfferingDates, dates, limit, asc); mergeCount = mergeCount + 1
 		end
-		assert(mergeCount > 0, string.format('_getItemDates(options): Invalid platform %q', platform))
+		assert(mergeCount > 0, string.format('_getItemDates(options): Invalid platform "%s"', platform))
 	end
 
 	-- Merge extraDates
 	if extraDates then
-		local extraDatesArray = type(extraDates) == 'string' and mw.text.split(extraDates, '%s*,%s*') or extraDates
-		mergeData(extraDatesArray, dates, nil, asc); mergeCount = mergeCount + 5
+		mergeData(extraDates, dates, nil, asc); mergeCount = mergeCount + 5
 	end
 
 	-- Sorting
@@ -177,138 +173,89 @@ local function _getItemDates(options)
 		for i = #dates, limit + 1, -1 do dates[i] = nil end
 	end
 
-	return formatDataList(dates, mode, options.caption, options.id)
-end
-
----	Template entry point for #invoke. Standardizes frame arguments.
---	@function		p.getItemDates
---	@param			{table} frame Frame object
---	@return			{string} formatted plain text based on mode
---	@see			_getItemDates
-function p.getItemDates(frame)
-	local args = Args.getArgs(frame)
-	if args.mode == 'table' then args.mode = 'wikitable' end
-
-	return _getItemDates(args)
+	return formatDataList(dates, options.mode or "table", options.caption, options.id)
 end
 
 --- Internal function to calculate totals from an array of item entries.
 --	@function		_getTotal
---	@param			{table} ItemEntries Array of item entries
---	@param			{boolean|nil} returnString If true, returns the formatted string
---	@return			{string|table} A formatted string, or a hash table containing the totals by default
-local function _getTotal(ItemEntries, returnString)
+--	@param			{table} entries Array of item entries
+--	@param			{boolean|string} returnString Controls the return format: (optional)
+--		- true: Returns the default formatted string
+--		- string: Acts as a custom template for the formatted string
+--		- false/nil: Returns the raw hash table
+--	@return			{string|table} A formatted string, or the raw totals table
+local function _getTotal(entries, returnString)
 	local count, credits, ducats = 0, 0, 0
 
-	for _, entry in ipairs(ItemEntries) do
-		if entry.Image then
+	for _, entry in ipairs(entries) do
+		if entry.Image then -- Lightweight check for a valid entry
 			count = count + 1; credits = credits + (entry.CreditCost or 0); ducats = ducats + (entry.DucatCost or 0)
 		end
 	end
 
+	local res = { count = count, credit = credits, ducat = ducats,
+		creditIcon = Tooltip.icon('Credits', 'Resources'), ducatIcon = Tooltip.icon('Orokin Ducats', 'Resources')
+	}
+
 	if returnString then
-		return string.format('Total Items: <b>%s</b> &#124; Cost: %s <b>%s</b> + %s <b>%s</b>',
-			Lang:formatNum(count),
-			Tooltip.icon('Credits', 'Resources'), Lang:formatNum(credits),
-			Tooltip.icon('Orokin Ducats', 'Resources'), Lang:formatNum(ducats)
-		)
+		local default = 'Total Items: <b>{count}</b> &#124; Cost: {creditIcon} <b>{credit}</b> + {ducatIcon} <b>{ducat}</b>'
+		local template = type(returnString) == 'string' and returnString or default
+		local function fmtVal(k) return type(res[k]) == 'number' and Lang:formatNum(res[k]) or res[k] end
+
+		return (template:gsub("{([%w_]+)}", fmtVal))
+	else
+		return res
 	end
-
-	return { count = count, credit = credits, ducat = ducats }
-end
-
---- Main entry point to get totals of Baro offerings.
--- Supports both Scribunto #invoke from wikitext and direct require() calls from other Lua modules.
--- @function		p.getTotal
--- @param			{table} frame MediaWiki frame object, or a standard arguments table for inter-module calls.
--- @param[opt]		{string} frame.args.platform Platform filter: 'PC' (default), 'Consoles', or 'All'.
--- @param[opt]		{string} frame.args.name Item name pattern (supports Lua regular expression patterns).
--- @param[opt]		{string} frame.args.type Item type pattern (supports Lua regular expression patterns).
--- @param[opt]		{string} frame.args.format Custom output format string with tokens like {count}, {credit}, {cucat}.
--- @return			{string|table} Formatted string when invoked from wikitext; Raw data hash table when called by other modules without format.
-function p.getTotal(frame)
-	assert(type(frame) == 'table', 'p.getTotal(frame): Argument must be a table or a frame object')
-	local isInvoke = type(frame) == 'table' and type(frame.preprocess) == 'function'
-	local args = isInvoke and Args.getArgs(frame) or frame
-	local platform = args.platform or 'PC'
-	local namePattern = args.name
-	local typePattern = args.type
-	local format = args.format
-	local platformMap = { All = 'All', PC = "Pc", Consoles = "Console" }
-	assert(platformMap[platform], 'p.getTotal(frame): Invalid platform')
-
-	local ItemEntries = {}
-	local exactItem = BaroItems[namePattern]
-	if exactItem then
-		ItemEntries[1] = exactItem
-	else -- Filter Items
-		local dateKey = platformMap[platform] .. 'OfferingDates'
-		for _, v in pairs(BaroItems) do
-			if platform == 'All' or v.OfferingDates or v[dateKey] or v.IsAlways then
-				local matchName = not namePattern or (v.Name and string.find(v.Name, namePattern))
-				local matchType = not typePattern or (v.Type and string.find(v.Type, typePattern))
-				if matchType and matchName then table.insert(ItemEntries, v) end
-			end
-		end
-	end
-
-	local stats = _getTotal(ItemEntries, not format and isInvoke)
-
-	if format then
-		for k, v in pairs(stats) do stats[k]=Lang:formatNum(v) end
-		return frame:preprocess(string.gsub(format, "{([%w_]+)}", stats))
-	end
-
-	return stats
 end
 
 ---	Builds offerings display in a custom gallery format.
 --	@function		p.buildGallery
---	@param			{table} ItemEntries Array of item entries, case sensitive; assuming no duplicate values
+--	@param			{table} entries Array of item entries, case sensitive; assuming no duplicate values
 --	@return			{string} Wikitext of gallery
-local function buildGallery(ItemEntries)
+local function buildGallery(entries)
 	local galleryUl		= '<ul class="gallery mw-gallery-traditional" style="display:flex; flex-wrap:wrap; margin:2px;">%s</ul>'
 	local galleryBoxLi	= '<li class="gallerybox" style="list-style:none; width:150px; padding:4px;">%s</li>'
-	local thumbDiv		= '<div class="thumb" style="width:150px; height:150px; display:flex; align-items:center; justify-content:center;">%s</div>'
-	local tooltipSpan	= '<span class="tooltip tooltip-full" data-param-name="%s" data-param-source="%s" aria-label="Tooltip for %s">%%s</span>'
+	local thumbDiv		= '<div class="thumb hoverbox" style="position:relative; width:150px; height:150px; display:flex; align-items:center; justify-content:center;">%s</div>'
+	local tipspan		= '<span class="hoveritem2 selected" style="position:absolute; width:100%%; background-color:rgba(0,0,0,0.7); text-align:center; overflow-wrap:break-word; z-index:1; %s">%s</span>'
+	local tooltipSpan	= '<span class="tooltip tooltip-full" data-param-name="%s" data-param-source="%s" aria-label="Tooltip for %s">%s</span>'
 	local textDiv		= '<div class="gallerytext" style="font-size:12px;">%s</div>'
 	local galleryBoxes	= {}
-	
-	for _, entry in ipairs(ItemEntries) do
+
+	for _, entry in ipairs(entries) do
 		local itemName		= entry.Name
 		local itemLink		= entry.Link or itemName
-		local tooltipModule	= (TypeConfigs[entry.Type or ''] or {}).TooltipModule
+		local tooltipModule	= (TypeConfigs[entry.Type] or {}).TooltipModule
 		local displayName	= entry.Image and
 			'[[' .. (itemLink ~= itemName and itemLink .. '|' .. itemName or itemName) .. ']]' or
-			string.format('<span style="color:red; font-weight:bold;">"%s" does not exist in [[Module:Baro/data]].</span>', entry.Name)
-	
-		local thumb = thumbDiv
-			:format(tooltipModule and tooltipSpan:format(itemLink, tooltipModule, itemName) or '%s')
-			:format('[[File:%s|120x120px|link=%s]]')
-			:format(entry.Image or 'UnidentifiedItem.png', itemLink)
-	
-		local text = textDiv
-			:format('%s<br /><b>[[File:OrokinDucats.png|20px|link=Ducats]]&nbsp;%s</b><br /><b>[[File:Credits64.png|20px|link=Credits]]&nbsp;%s</b>')
-			:format(displayName, Lang:formatNum(entry.DucatCost or 0), Lang:formatNum(entry.CreditCost or 0))
-	
+				string.format('<span style="color:red; font-weight:bold;">"%s" does not exist in [[Module:Baro/data]].</span>', itemName)
+
+		local file = ('[[File:%s|120x120px|link=%s]]'):format(entry.Image or 'UnidentifiedItem.png', itemLink)
+		local thumb = string.format(thumbDiv,
+			(entry.Condition and tipspan:format('font-size:0.8em; font-weight:bold; color:#ffbc00;', entry.Condition) or '') ..
+			(tooltipModule and tooltipSpan:format(itemLink, tooltipModule, itemName, file) or file)
+		)
+
+		local text = string.format(textDiv,
+			('%s<br /><b>[[File:OrokinDucats.png|20px|link=Ducats]]&nbsp;%s</b><br /><b>[[File:Credits64.png|20px|link=Credits]]&nbsp;%s</b>')
+				:format(displayName, Lang:formatNum(entry.DucatCost or 0), Lang:formatNum(entry.CreditCost or 0))
+		)
+
 		table.insert(galleryBoxes, galleryBoxLi:format(thumb .. text))
 	end
-	
-	return _getTotal(ItemEntries, true) .. '\n' .. galleryUl:format('\n' .. table.concat(galleryBoxes, '\n'))
+
+	return _getTotal(entries, true) .. '\n' .. galleryUl:format('\n' .. table.concat(galleryBoxes, '\n'))
 end
 
 ---	Renders a sortable store table from a array of item entries.
---	@function				buildHistoryTable
---	@param					{table} ItemEntries Array of item entries:
---	* ItemEntries.tabName	{string} (Metadata) Current tab name used for element ID
---	* ItemEntries.config	{table} (Metadata) Configuration object passed from the parent builder:
---		* ItemEntries.config.itemDates	{table} Map of item names to their respective history date arrays
+--	@function				buildTable
+--	@param					{table} entries Array of item entries:
+--	* entries.tabName	{string} (Metadata) Current tab name
+--	* entries.itemDates	{table} Map of item names to their respective history date arrays
 --	@return 				{string} Wikitext of table
-local function buildHistoryTable(ItemEntries)
-	local config		= ItemEntries.config or error('buildHistoryTable(ItemEntries): missing ItemEntries.config')
-	local tabName		= ItemEntries.tabName
-	local itemDates		= config.itemDates
-	local historyTable	= { ([=[<span class="mw-customtoggle-BaroTable-Image mw-ui-button" style="float: right;">Toggle Image</span>
+local function buildTable(entries)
+	local tabName		= entries.tabName
+	local itemDates		= entries.itemDates
+	local tableRows	= { ([=[<span class="mw-customtoggle-BaroTable-Image mw-ui-button" style="float: right;">Toggle Image</span>
 {| class="wikitable sortable lighttable store-table stickyHeader" style="width: 100%%; margin-left: auto; margin-right: auto; text-align: center;" data-tableid="%s"
 |-
 ! style="width: 24%%;" | Item
@@ -317,7 +264,7 @@ local function buildHistoryTable(ItemEntries)
 ! style="width: 12%%;" | %s Ducat
 ! style="width: 17%%;" | Introduced
 ! style="width: 17%%;" | Date(s) Offered
-|-]=]):format('BaroTable' .. (tabName == 'All' and '-All' or ''), Tooltip.icon('Credits', 'Resources'), Tooltip.icon('Orokin Ducats', 'Resources')) }
+|-]=]):format('BaroTable', Tooltip.icon('Credits', 'Resources'), Tooltip.icon('Orokin Ducats', 'Resources')) }
 
 	local rowTemplate	= [=[
 |- data-rowid="%s"
@@ -330,17 +277,17 @@ local function buildHistoryTable(ItemEntries)
 
 	local tooltipSpan	= '<span class="tooltip tooltip-full" data-param-name="%s" data-param-source="%s" aria-label="Tooltip for %s">%s</span>'
 
-	for _, entry in ipairs(ItemEntries) do
+	for _, entry in ipairs(entries) do
 		local itemName		= entry.Name
 		local itemLink		= entry.Link or itemName
 		local credit		= entry.CreditCost or 0
 		local ducat			= entry.DucatCost or 0
-		local dates			= itemDates[itemName]
-		local tooltipModule	= (TypeConfigs[entry.Type or ''] or {}).TooltipModule
+		local dates			= itemDates[entry]
+		local tooltipModule	= (TypeConfigs[entry.Type] or {}).TooltipModule
 		local item			= ('<span class="mw-collapsible" id="mw-customcollapsible-BaroTable-Image">[[File:%s|150x220px|link=%s]]<br /></span>%s')
 			:format(entry.Image or 'UnidentifiedItem.png', itemLink, '[[' .. (itemLink ~= itemName and itemLink .. '|' .. itemName or itemName) .. ']]')
 
-		table.insert(historyTable, string.format(rowTemplate,
+		table.insert(tableRows, string.format(rowTemplate,
 			itemName,
 			tooltipModule and tooltipSpan:format(itemLink, tooltipModule, itemName, item) or item,
 			entry.Type or '',
@@ -352,7 +299,7 @@ local function buildHistoryTable(ItemEntries)
 		))
 	end
 
-	return _getTotal(ItemEntries, true) .. '\n' .. table.concat(historyTable, '\n') .. '\n|}'
+	return _getTotal(entries, true) .. '\n' .. table.concat(tableRows, '\n') .. '\n|}'
 end
 
 ---	Organizes items into categories and builds a tabber display using a provided configuration object.
@@ -360,18 +307,18 @@ end
 --	@param			{table} ItemEntries Array of item entries to be categorized
 --	@param			{table} config Configuration object containing tabs, getItemCat, and render functions
 --	@return			{string} Wikitext of the nested tabber containing categorized content and summaries
-local function buildTabbers(ItemEntries, config)
+local function buildTabbers(entries, config)
 	mw.log(string.format('T+%.4fs |   buildTabbers()', os.clock() - startTime))
 	local cats = {}
 	for _, catName in ipairs(config.tabs) do cats[catName] = {} end
 
-	for _, ItemEntry in ipairs(ItemEntries) do
-		if ItemEntry.IsDiscont and cats['Discontinued'] then
-			table.insert(cats['Discontinued'], ItemEntry)
+	for _, entry in ipairs(entries) do
+		if entry.IsDiscont and cats['Discontinued'] then
+			table.insert(cats['Discontinued'], entry)
 		else
-			local itemCat = config.getItemCat(ItemEntry)
-			if cats['All'] then table.insert(cats['All'], ItemEntry) end
-			if cats[itemCat] then table.insert(cats[itemCat], ItemEntry) end
+			local itemCat = config.getItemCat(entry) or 'Unknown'
+			if cats['All'] then table.insert(cats['All'], entry) end
+			if cats[itemCat] then table.insert(cats[itemCat], entry) end
 		end
 	end
 
@@ -380,132 +327,154 @@ local function buildTabbers(ItemEntries, config)
 		local data = cats[catName]
 		if #data > 0 then
 			data.tabName = catName
-			data.config = config
+			data.itemDates = entries.itemDates
 			mw.log(string.format('T+%.4fs |     building content for %s', os.clock() - startTime, catName))
-			local content = config.render(data)
+			local content = config.render(data, config.args and unpack(config.args))
 			table.insert(tabberParts, string.format("%s=\n%s", catName, content))
 		end
 	end
-	for k in pairs(seenPool) do seenPool[k] = nil end
+	assert(#tabberParts > 0, 'buildTabbers(): No matched items')
 
-	if #tabberParts == 0 then return '<strong class="error">No matched items</strong>' end
-	
 	return '<tabber>\n|-|' .. table.concat(tabberParts, '\n|-|') .. '\n</tabber>'
 end
 
----	Builds current cross-platform offerings display in a gallery format.
---	@function		p.buildCurrentOfferings
---	@param			{table} frame Frame arguments will be the item names that Baro is offering, case sensitive
---	@return			{string} Wikitext of gallery
-function p.buildCurrentOfferings(frame)
-	mw.log(string.format('T+%.4fs | p.buildCurrentOfferings()', os.clock() - startTime))
-	local args = frame.args--Args.getArgs(frame)
-	assert(args, 'p.buildCurrentOfferings(frame): cannot have empty arguments; arguments must be item names, case sensitive')
-
-	local buildgalleryConfig = {
-		tabs = { 'All', 'Mods', 'Appearance', 'Weapons', 'Miscellaneous' },
-		getItemCat = function(entry) return (TypeConfigs[entry.Type or ''] or {}).GalleryCategory or 'Unknown' end,
-		render = buildGallery
-	}
-
-	mw.log(string.format('T+%.4fs |   filtering', os.clock() - startTime))
-	local ItemEntries = {}
-	local extraItems = { -- Always available items, not included in the API.
-		{ Condition = "Requires Inaros Prime (Equipped)", CreditCost = 25000, DucatCost = 100,
-		 	Image = "BaroVoid-Signal.png", Name = "Baro Void-Signal", Type = "Mission Locator" },
-	}
-
-	if args.allItems == 'true' then
-		for _,  v in pairs(BaroItems) do
-			if not v.IsDiscont then table.insert(ItemEntries, v) end
-		end
-		table.sort(ItemEntries, function(a, b) return a.Type == b.Type and a.Name < b.Name or a.Type < b.Type end)
-	else
-		for _, itemName in ipairs(args) do
-			table.insert(ItemEntries, BaroItems[itemName:match('^%s*(.-)%s*$')] or { Name = itemName:match('^%s*(.-)%s*$') })
-		end
+local function castArgs(args)
+	local function parseTable(str)
+		local matchedStr = string.match(str, '^{%s*(.-)%s*}$')
+		return matchedStr and (matchedStr == '' and {} or mw.text.split(matchedStr, '%s*,%s*')) or str
 	end
 
-	if args.extraItems == 'true' then
-		for i = 1, #extraItems do ItemEntries[#ItemEntries + 1] = extraItems[i] end
+	local cleanArgs = {}
+		for k, v in pairs(args) do
+		if type(v) == "string" then
+			v = tonumber(v) or (v == 'true' and true) or (v ~= 'false' and (v ~= 'nil' and parseTable(v) or nil))
+		end
+		cleanArgs[k] = v
 	end
 
-	local wikiText = buildTabbers(ItemEntries, buildgalleryConfig)
-	mw.log(string.format('T+%.4fs |   framePreprocessing', os.clock() - startTime))
-	local result = frame:preprocess(wikiText)
-	mw.log(string.format('T+%.4fs |   finish', os.clock() - startTime))
-
-	return result
+	return cleanArgs
 end
 
----	Builds Baro's offering history tabber wikitable.
---	@function			p.buildOfferingHistoryTable
---	@param				{frame} frame MediaWiki frame object containing template arguments:
---	* frame.args[1]		{string} Target platform: 'PC' (default), 'Consoles', or 'All'.
---	* frame.args[2]		{string} Categorization mode: 'HistoryCategory' (default), 'GalleryCategory', 'ItemType', 'Year'.
---	* frame.args[3]		{string} (Optional) Filter key:
---		* nil - (Default) Dynamic aggregation, loops through all categories.
---		* 'All' - Forces aggregation into a single unified 'All' tab only.
---		* 'Name' - Renders a single specific tab (e.g., 'Weapon').
---		* 'Name, Name' - Comma-separated list to render multiple specific tabs simultaneously
---	@returns		(string) Wikitext of the tabbed history tables.
-function p.buildOfferingHistoryTable(frame)
-	mw.log(string.format('T+%.4fs | p.buildOfferingHistoryTable()', os.clock() - startTime))
-	local args = frame.args--Args.getArgs(frame)
-	local platform = args[1] or 'PC'
-	local cat = args[2] or 'HistoryCategory'
-	local key = args[3]
-	local platformMap = { All = 'All', PC = "Pc", Consoles = "Console" }
-	assert(platformMap[platform], 'p.buildOfferingHistoryTable(frame): Invalid first argument')
+---	Template entry point for #invoke. Standardizes frame arguments.
+--	@function		p.getItemDates
+--	@param			{table} frame Frame object
+--	@return			{string} formatted plain text based on mode
+--	@see			_getItemDates
+function p.getItemDates(frame)
+	local args = castArgs(Args.getArgs(frame))
+	if args.mode == 'table' then args.mode = 'wikitable' end
+
+	return _getItemDates(args)
+end
+
+function p.buildOfferings(frame)
+	mw.log(string.format('T+%.4fs | p.buildOfferings()', os.clock() - startTime))
+	local args = castArgs(Args.getArgs(frame))
+	local f_platform, f_name, f_type, f_date = args.platform, args.name, args.type, args.date
+	local f_discont, f_seasonal = args.discontinued, args.seasonal
+	local tabs, cat = args.tabs, args.cat
+
+	local platformKey = ({ All = 'All', PC = "Pc", Consoles = "Console", TennoCon = 'TennoCon' })[f_platform]
+	local renderFunc = ({ buildGallery = buildGallery, buildTable = buildTable, getTotal = _getTotal})[args.render]
+
+	assert(not f_platform or platformKey, string.format('p.buildOfferings(frame): Invalid platform "%s"', tostring(f_platform)))
+	assert(renderFunc, string.format('p.buildOfferings(frame): Invalid render function "%s"', tostring(args.render)))
+	assert(not tabs or #tabs > 0, 'p.buildOfferings(frame): Argument.tabs can not be an empty array')
+
+	local datesCfg = { platform = f_platform, asc = false, platformLabel = true }
+	local itemDates = {}
+	setmetatable(itemDates, {
+		__index = function(t, entry)
+			datesCfg.item = entry
+			local computedDates = _getItemDates(datesCfg)
+			rawset(t, entry, computedDates)
+			return computedDates
+		end
+	})
+
+	local entries = { itemDates = itemDates }
+	-- Filter Items
+	if f_platform or f_name or f_type or f_date or f_discont or f_seasonal then
+		-- Filter preprocessing
+		mw.log(string.format('T+%.4fs |   Preparing filter', os.clock() - startTime))
+		local function getMatcher(arg)
+			if not arg then return nil end
+			local pattern = (type(arg) ~= 'table' and tostring(arg)) or (#arg == 1 and arg[1])
+			return pattern and function(s) return s:find(pattern) end or
+				function(s) for i=1, #arg do local res = s:find(arg[i]) if res then return res end end end
+		end
+
+		local dateKey = f_platform and platformKey .. 'OfferingDates'
+		local matchName, matchType = getMatcher(f_name), getMatcher(f_type)
+		f_discont, f_seasonal = f_discont ~= 'include' and f_discont, f_seasonal ~= 'include' and f_seasonal
+
+		-- Parsing operator and date value from args.date
+		local eq, gt, lt
+		if f_date then
+			local op, val = f_date:match('^([<>=]*)%s*(.*)$')
+			local d1, d2 = val:match('^(.-)%s*%.%.%s*(.*)$')
+			op = (d1 and '') or (op == '' and '=') or op
+			eq, gt, lt = op:find('=') and val, d1 or (op:find('>') and val), d2 or (op:find('<') and val)
+		end
+
+		-- Filtering
+		mw.log(string.format('T+%.4fs |   Processing filter items', os.clock() - startTime))
+		for _, v in pairs(BaroItems) do
+			local d = f_date and itemDates[v]
+			if
+				(not f_platform or f_platform == 'All' or (f_platform ~= 'TennoCon' and v.OfferingDates) or v[dateKey] or v.IsAlways) and
+				(not f_name or matchName(v.Name)) and
+				(not f_type or matchType(v.Type)) and
+				(not f_date or d[#d] and ((eq and d[#d] == eq) or ((gt or lt) and (not gt or d[#d] > gt) and (not lt or d[#d] < lt)))) and
+				(not f_discont or (f_discont == 'only' and v.IsDiscont) or (f_discont == 'exclude' and not v.IsDiscont)) and
+				(not f_seasonal or (f_seasonal == 'only' and v.IsSeasonal) or (f_seasonal == 'exclude' and not v.IsSeasonal))
+			then
+				table.insert(entries, v)
+			end
+		end
+		table.sort(entries, function(a, b) return a.Type == b.Type and a.Name < b.Name or a.Type < b.Type end)
+	end
+	-- Manual Items
+	mw.log(string.format('T+%.4fs |   Processing manual items', os.clock() - startTime))
+	for _, item in ipairs(args) do
+		table.insert(entries, BaroItems[item] or { Name = item })
+	end
+	-- Extra Items
+	if args.extraItem then
+		mw.log(string.format('T+%.4fs |   Processing extra items', os.clock() - startTime))
+		for _, item in ipairs(args.extraItems) do
+			table.insert(entries, BaroData.ExtraItems[item])
+		end
+	end
+	assert(#entries > 0, 'p.buildOfferings(frame): No matched items')
+
+	if not cat then
+		mw.log(string.format('T+%.4fs |   finish', os.clock() - startTime))
+		return renderFunc(entries, args.args and unpack(args.args))
+	end
 
 	-- Categories Configuration
-	local categories = key == nil and {} or mw.text.split(key, '%s*,%s**')
-	local buildHistoryConfig = { platform = platform, tabs = categories, render = buildHistoryTable, itemDates = {}}
-	local getItemDatesConfig = { platform = platform, asc = false, platformLabel = true }
-
-	if cat == 'HistoryCategory' or cat == 'GalleryCategory' or cat == 'ItemType' then
-		if key == nil then
-			if cat == 'ItemType' then
-				for k in pairs(TypeConfigs) do table.insert(categories, k) end
-			else
-				for _, v in pairs(TypeConfigs) do mergeData(v[cat], categories) end
-			end
-			table.sort(categories)
-			table.insert(categories, 1, 'All')
-			table.insert(categories, 'Discontinued')
-		end
-		buildHistoryConfig.getItemCat = cat == 'ItemType' and
-			function(entry) return entry.Type or 'Unknown' end or
-			function(entry) return (TypeConfigs[entry.Type or ''] or {})[cat] or 'Unknown' end
-
-	elseif cat == 'Year' then
-		if key == nil then
-			local startYear = platform == 'Consoles' and 2015 or 2014
-			for year = os.date('!*t').year, startYear , -1 do
-				table.insert(categories, tostring(year))
-			end
-		end
-		buildHistoryConfig.getItemCat = function(entry)
-			local dates = buildHistoryConfig.itemDates[entry.Name]
-			return #dates >0 and string.sub(dates[#dates], 1, 4) or 'Unknown'
-		end
+	local buildTabs, getCat
+	if cat == 'year' then
+		buildTabs = function(t) for y = os.date('!*t').year, 2014 , -1 do table.insert(t, tostring(y)) end end
+		getCat = function(e) local d = itemDates[e] return #d > 0 and string.sub(d[#d], 1, 4) end
+	elseif cat == 'type' then
+		buildTabs = function(t) for k in pairs(TypeConfigs) do table.insert(t, k) end end
+		getCat = function(e) return e.Type end
 	else
-		error('p.buildOfferingHistoryTable(frame): Invalid second argument')
+		buildTabs = function(t) for _, v in pairs(TypeConfigs) do mergeData(v[cat], t) end end
+		getCat = function(e) return (TypeConfigs[e.Type] or {})[cat] end
 	end
 
-	mw.log(string.format('T+%.4fs |   filtering', os.clock() - startTime))
-	-- Filter Platform
-	local ItemEntries = {}
-	local dateKey = platformMap[platform] .. 'OfferingDates'
-	for k, v in pairs(BaroItems) do
-		if platform == 'All' or v['OfferingDates'] or v[dateKey] or v.IsAlways then
-			getItemDatesConfig.item = v
-			buildHistoryConfig.itemDates[k] = _getItemDates(getItemDatesConfig)
-			table.insert(ItemEntries, v)
-		end
+	if not tabs then
+		tabs = {}
+		buildTabs(tabs)
+		if cat ~= 'year' then table.sort(tabs) end
 	end
+	assert(#tabs > 0, string.format('p.buildOfferings(frame): Invalid category "%s"', tostring(cat)))
 
-	local wikiText = buildTabbers(ItemEntries, buildHistoryConfig)
+	local tabCfg = { tabs = tabs, getItemCat = getCat, render = renderFunc, args = args.args}
+	local wikiText = buildTabbers(entries, tabCfg)
 	mw.log(string.format('T+%.4fs |   framePreprocessing', os.clock() - startTime))
 	local result = frame:preprocess(wikiText)
 	mw.log(string.format('T+%.4fs |   finish', os.clock() - startTime))

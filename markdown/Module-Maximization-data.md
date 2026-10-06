@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-10-04T22:00:43Z"
+wiki_timestamp: "2026-10-05T22:42:19Z"
 ---
 
 ## Contents
@@ -290,9 +290,10 @@ local Data = {
 	['Sonar']={
 		ins={},
 		outs={
-			{'Damage multiplier:', {expr='STR 5 %of'}},
+			{'Damage multiplier:', {expr='STR 5 %of', fmt='2dec'}},
 			{'Duration:', {expr='DUR 30 %of', suff='s'}},
-			{'Radius:', {expr='RNG 35 %of', suff='m'}},
+			{'Radius:', {name='SONAR_RADIUS', expr='RNG 35 %of', suff='m', fmt='1dec'}},
+			{'Time to fully propagate:', {expr='SONAR_RADIUS 20 /', suff='s', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
 		}
 	},
@@ -371,6 +372,106 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
 		}
 	},
+	-- Khora
+	['Whipclaw']={
+		ins={
+			{name='MELEE_DMG_MOD', cont='[[Melee damage]] modifier:', type='number', default='100'},
+			{name='ELEMENT_DMG_MOD', cont='[[Elemental damage]] modifier:', type='number', default='0'},
+			{name='FACTION_DMG_MOD', cont='[[Faction damage]] modifier:', type='number', default='100'},
+			{name='MELEE_RANGE_MOD', cont='[[Melee range]] modifier:', type='number', default='0'},
+			{name='COMBO_MULT', cont='[[Combo multiplier]]:', type='range-R', min='1', max='12', value='1'},
+			{name='ACCUMULATING_WHIPCLAW_BONUS', cont=Tooltips.full('Accumulating Whipclaw', 'Mods')..' bonus:', min='0', default='0', max='350'}
+		},
+		outs={
+			{Tooltips.full('Impact', 'DamageTypes')..', '..Tooltips.full('Puncture', 'DamageTypes')..' and '..Tooltips.full('Slash', 'DamageTypes')..' damage:',
+				{name='BASE_DMG', expr='FACTION_DMG_MOD MELEE_DMG_MOD STR ACCUMULATING_WHIPCLAW_BONUS + 150 %of %of %of COMBO_MULT *'}
+			},
+			{'Elemental damage:', {name='ELEMENT_DMG', expr='ELEMENT_DMG_MOD BASE_DMG %of'}},
+			{'Total damage:', {name='TOTAL_DMG', expr='BASE_DMG ELEMENT_DMG +'}},
+			{'Whip length:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
+			{'Whipcrack radius:', {expr='RNG 5 %of 10 min MELEE_RANGE_MOD +', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+		}
+	},
+	['Ensnare']={
+		ins={},
+		outs={
+			{'Duration:', {expr='DUR 15 %of', suff='s'}},
+			{'Propagation delay:', {expr='0.5 DUR as% /', suff='s', fmt='2dec'}},
+			{'Cast range:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
+			{'Propagation radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+		},
+	},
+	['Venari']={
+		ins={},
+		outs={
+			{'Passive [[Movement Speed]] bonus:', {expr='STR 15 %of', suff='%'}},
+			{'Snare '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 350 %of'}},
+			{Tooltips.full('Health', 'Stats')..' restoration:', {expr='STR 50 %of', suff='/s'}},
+			{'Mark '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}},
+			{'Maximum revive '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+		}
+	},
+	['Strangledome']={
+		ins={},
+		outs={
+			{Tooltips.full('Impact', 'DamageTypes')..', '..Tooltips.full('Puncture', 'DamageTypes')..' and '..Tooltips.full('Slash', 'DamageTypes')..' damage:',
+				{expr='STR 250 %of'}
+			},
+			{'Duration:', {expr='DUR 20 %of', suff='s'}},
+			{'Dome radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
+			{'Grab radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+		}
+	},
+	-- Limbo
+	['Banish']={
+		ins={
+			{name='RIFT_HAVEN', cont=Tooltips.full('Rift Haven', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 250 %of'}},
+			{'Duration:', {expr='DUR 25 %of', suff='s'}},
+			{'Range:', {expr='RNG 35 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Health', 'Stats')..' restored:', {expr='STR 25 %of 0 RIFT_HAVEN if', suff='%/s'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+		}
+	},
+	['Stasis']={
+		ins={},
+		outs={
+			{'Duration:', {expr='DUR 15 %of', suff='s'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+		}
+	},
+	['Rift Surge']={
+		ins={
+			{name='RIFT_TORRENT', cont=Tooltips.full('Rift Torrent', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Surge duration:', {expr='DUR 25 %of', suff='s'}},
+			{'Banish duration:', {expr='DUR 18 %of', suff='s'}},
+			{'Cast radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{'Surge transfer radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{'Banish radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
+			{'Rift Torrent damage bonus:', {expr='STR 30 %of 0 RIFT_TORRENT if', suff='%/enemy'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+		}
+	},
+	['Cataclysm']={
+		ins={
+			{name='CATACLYSMIC_CONTINUUM_DURATION', cont='Duration added by '..Tooltips.full('Cataclysmic Continuum', 'Mods')..':', min='0', default='0'}
+		},
+		outs={
+			{'Base '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
+			{'Base duration:', {name='CATACLYSM_BASE_DURATION', expr='DUR 30 %of', suff='s'}},
+			{'Initial radius:', {name='CATACLYSM_INITIAL_RADIUS', expr='RNG 16 %of', suff='m', fmt='1dec'}},
+			{'Minimum radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
+			{'Shrinking rate:', {expr='2 CATACLYSM_INITIAL_RADIUS * 3 CATACLYSM_BASE_DURATION * CATACLYSMIC_CONTINUUM_DURATION + /', suff='m/s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+		}
+	},
 	-- Narin
 	['Neote']={
 		ins={},
@@ -429,7 +530,7 @@ local Data = {
 			{Tooltips.full('Puncture', 'DamageTypes')..' contact damage:', {expr='STR 200 %of 1 MUTATION_STACKS + *'}},
 			{Tooltips.full('Viral', 'DamageTypes')..' lingering damage:', {expr='STR 100 %of 1 MUTATION_STACKS + *'}},
 			{'Lingering field duration:', {expr='DUR 5 %of', suff='s'}},
-			{'Length:', {expr='RNG 16 %of', suff='m'}},
+			{'Length:', {expr='RNG 16 %of', suff='m', fmt='1dec'}},
 			{'Primary Weapon Critical Chance bonus:', {expr='STR 200 %of 0 TEEMING_VIRULENCE if', suff='%'}},
 			{'Teeming Virulence duration:', {expr='DUR 15 %of 0 TEEMING_VIRULENCE if', suff='s'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {name='VIRULENCE_COST', expr='40 COST *'}},
@@ -444,10 +545,10 @@ local Data = {
 		outs={
 			{'Mutation Stack chance:', {expr='0 STR 50 %of LARVA_INFUSED if 100 min', suff='%'}},
 			{'Duration:', {expr='DUR 7 %of', suff='s'}},
-			{'Grab radius:', {expr='RNG 8 12 LARVA_INFUSED if %of', suff='m'}},
+			{'Grab radius:', {expr='RNG 8 12 LARVA_INFUSED if %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Toxin', 'DamageTypes')..' damage:', {name='LARVA_BURST_BASE_DMG', expr='STR 600 %of 0 LARVA_BURST if', suff='/enemy'}},
 			{Tooltips.full('Poison', 'DamageTypes')..' damage:', {expr='0.5 LARVA_BURST_BASE_DMG *', suff='/enemy'}},
-			{'Larva Burst radius:', {expr='RNG 8 %of 0 LARVA_BURST if'}},
+			{'Larva Burst radius:', {expr='RNG 8 %of 0 LARVA_BURST if', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
 		}
 	},
@@ -457,12 +558,12 @@ local Data = {
 			{name='PARASITIC_VITALITY', cont=Tooltips.full('Parasitic Vitality', 'Mods')..'?', type='checkbox'}
 		},
 		outs={
-			{Tooltips.full('Ability Strength', 'Stats')..' multiplier:', {expr='STR 0.25 %of 1 +'}},
-			{'Damage multiplier:', {expr='STR 0.25 %of 1 +'}},
+			{Tooltips.full('Ability Strength', 'Stats')..' multiplier:', {expr='STR 0.25 %of 1 +', fmt='2dec'}},
+			{'Damage multiplier:', {expr='STR 0.25 %of 1 +', fmt='2dec'}},
 			{'Damage redirection:', {expr='STR 50 %of 90 min', suff='%'}},
 			{'Duration:', {expr='DUR 60 %of', suff='s'}},
-			{'Ally maximum range:', {expr='RNG 40 %of', suff='m'}},
-			{'Enemy maximum range:', {expr='RNG 20 %of', suff='m'}},
+			{'Ally maximum range:', {expr='RNG 40 %of', suff='m', fmt='1dec'}},
+			{'Enemy maximum range:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
 			{'Health bonus:', {expr='STR 4 MUTATION_STACKS * %of 0 PARASITIC_VITALITY if', suff='%'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
 		}
@@ -475,10 +576,10 @@ local Data = {
 		outs={
 			{Tooltips.full('Health', 'Stats')..' regeneration:', {expr='STR 75 %of', suff='/s'}},
 			{'Duration:', {expr='DUR 40 %of', suff='s'}},
-			{'Field radius:', {expr='RNG 8 %of', suff='m'}},
+			{'Field radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
 			{'Maggot '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 150 %of 1 MUTATION_STACKS + *'}},
 			{'Maggot '..Tooltips.full('Toxin', 'DamageTypes')..' damage:', {expr='10 1 MUTATION_STACKS + *'}},
-			{'Maggot explosion radius:', {expr='RNG 4 %of', suff='m'}},
+			{'Maggot explosion radius:', {expr='RNG 4 %of', suff='m', fmt='1dec'}},
 			{'Bonus Mutation Stack chance:', {expr='STR 60 %of 0 INSATIABLE if', suff='%'}}
 		}
 	},
