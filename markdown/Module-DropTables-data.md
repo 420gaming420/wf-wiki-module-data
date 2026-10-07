@@ -1,7 +1,7 @@
 ---
 title: "Module:DropTables/data"
 wiki_url: "https://wiki.warframe.com/w/Module/DropTables/data"
-wiki_timestamp: "2026-09-27T13:19:23Z"
+wiki_timestamp: "2026-10-07T01:43:07Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -19,7 +19,7 @@ Manually updated fork of the public [Drop Tables](/w/Drop_Tables "Drop Tables") 
 
 See [Module:DropTables](/w/Module:DropTables "Module:DropTables") to see what various things this is being used for right now.
 
-:   *Last updated: Sun, 27 Sep 2026 13:19:23 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:DropTables/data?diff=0))*
+:   *Last updated: Wed, 07 Oct 2026 01:43:07 +0000 (UTC) by [User:~2026-AnchovyCityOfCorrupted45577](/w/User:~2026-AnchovyCityOfCorrupted45577?action=edit&redlink=1 "User:~2026-AnchovyCityOfCorrupted45577 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:DropTables/data?diff=0))*
 
 ## Contents
 
@@ -23838,11 +23838,11 @@ local DropData = {
 			Rewards = {
 				A = {
 					{ "Gyromag Systems", "Resource", 25, 5 },
-					{ "Lith Q3 (Radiant)", "Relic", 15 },
+					{ "Lith L8 (Radiant)", "Relic", 15 },
 					{ "Quick Reload", "Mod", 15 },
 					{ "Atmo Systems", "Resource", 10, 5 },
 					{ "Vega Toroid", "Resource", 12.5, 3 },
-					{ "Lith A12 (Radiant)", "Relic", 12.5 },
+					{ "Lith A13 (Radiant)", "Relic", 12.5 },
 					{ "Repeller Systems", "Resource", 7.5, 3 },
 					{ "Deadly Efficiency", "Mod", 1.25 },
 					{ "Strain Eruption", "Mod", 1.25 } 
@@ -23858,7 +23858,7 @@ local DropData = {
 			Rewards = {
 				A = {
 					{ "Gyromag Systems", "Resource", 25, 5 },
-					{ "Lith K12 (Radiant)", "Relic", 15 },
+					{ "Lith C15 (Radiant)", "Relic", 15 },
 					{ "Resolute Focus", "Mod", 15 },
 					{ "Atmo Systems", "Resource", 10, 5 },
 					{ "Calda Toroid", "Resource", 12.5, 3 },
@@ -23901,7 +23901,7 @@ local DropData = {
 					{ "Neo A16 (Radiant)", "Relic", 17.14 },
 					{ "Ammo Chain", "Mod", 17.14 },
 					{ "Atmo Systems", "Resource", 11.43, 5 },
-					{ "Axi S20 (Radiant)", "Relic", 14.29 },
+					{ "Axi S21 (Radiant)", "Relic", 14.29 },
 					{ "Repeller Systems", "Resource", 8.57, 3 },
 					{ "Critical Focus", "Mod", 1.43 },
 					{ "Strain Consume", "Mod", 1.43 } 

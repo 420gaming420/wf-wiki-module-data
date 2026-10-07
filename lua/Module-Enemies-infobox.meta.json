@@ -1,12 +1,12 @@
 {
   "page": "Module:Enemies/infobox",
-  "wiki_timestamp": "2026-09-30T12:17:03Z",
-  "extracted_at": "2026-10-01T08:33:03.620306+00:00",
+  "wiki_timestamp": "2026-10-07T01:07:12Z",
+  "extracted_at": "2026-10-07T08:19:01.187288+00:00",
   "lua_files": [
     "Module-Enemies-infobox_0.lua"
   ],
   "lua_block_count": 1,
-  "file_size": 46617,
+  "file_size": 47009,
   "comment_count": 127,
   "status": "success"
 }

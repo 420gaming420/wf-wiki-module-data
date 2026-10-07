@@ -1,7 +1,7 @@
 ---
 title: "Module:Enemies/infobox"
 wiki_url: "https://wiki.warframe.com/w/Module/Enemies/infobox"
-wiki_timestamp: "2026-09-30T12:17:03Z"
+wiki_timestamp: "2026-10-07T01:07:12Z"
 ---
 
 Creates the infobox for enemies for use on [Template:EnemyInfobox](/w/Template:EnemyInfobox "Template:EnemyInfobox") and [Template:EnemyInfoboxHorizontal](/w/Template:EnemyInfoboxHorizontal "Template:EnemyInfoboxHorizontal"). This infobox is more complex than other infoboxes on the wiki since it has an interactive [Enemy Level Scaling](/w/Enemy_Level_Scaling "Enemy Level Scaling") slider that utilizes [MediaWiki:Gadget-enemyinfoboxslider.js](/w/MediaWiki:Gadget-enemyinfoboxslider.js "MediaWiki:Gadget-enemyinfoboxslider.js"). The module determines the necessary parameters that the slider will use and embeds them in the HTML source of the infobox.
@@ -443,7 +443,7 @@ buildInfobox = function(frame)
 
 	local faction, overguard, shield, health, armor, affinity, baseLevel, spawnLevel, steelPathHealthBonus, steelPathShieldBonus, archimedeaHealthBonus
 	local eximusAffinity, eximusShield, eximusHealth, eximusArmor, eximusOverguard
-	local isOverguardEnemy, eximusDefault, steelPathDefault, empoweredDefault, factionScaling
+	local isOverguardEnemy, eximusDefault, steelPathDefault, empoweredDefault, icebindDefault, factionScaling
 	
 	-- Retrieve arguments from input, if any.
 	shield = (args['Shields'] or ''):gsub(',', '')
@@ -487,6 +487,7 @@ buildInfobox = function(frame)
 	eximusDefault = enemy.General.EximusDefault
 	steelPathDefault = enemy.General.SteelPathDefault
 	empoweredDefault = enemy.General.EmpoweredDefault
+	icebindDefault = enemy.General.IcebindDefault
 	factionScaling = (enemy.Stats.FactionScaling) or faction
 
 	-- [[MediaWiki:Gadget-enemyinfoboxslider.js]] will try to update all ids at once so adding
@@ -501,7 +502,7 @@ buildInfobox = function(frame)
 		(not(armor) or armor == 0) and '0' or '',
 		(not(baseLevel) or baseLevel == 0) and '0' or '',
 		(not(spawnLevel) or spawnLevel == 0 or spawnLevel == baseLevel) and '0' or '',
-		'500',
+		'999',
 		(not(steelPathHealthBonus) or steelPathHealthBonus == 0) and '0' or '',
 		(not(steelPathShieldBonus) or steelPathShieldBonus == 0) and '0' or '',
 		(not(archimedeaHealthBonus) or archimedeaHealthBonus == 0) and '0' or '',
@@ -541,6 +542,7 @@ buildInfobox = function(frame)
 		''..(eximusDefault and '1' or '0')..'',
 		''..(steelPathDefault and '1' or '0')..'',
 		''..(empoweredDefault and '1' or '0')..'',
+		''..(icebindDefault and '1' or '0')..'',
 	}
 
 	local mods, resources, relics, blueprints, missionDrops, sigils, items, pigments, others = {}, {}, {}, {}, {}, {}, {}, {}, {}
@@ -684,8 +686,9 @@ JavaScript not loaded. Please make sure the ⧼gadget-enemyinfoboxslider⧽ is e
 			:srow('SelectedLevel', Text._text('Selected Level', { hoverText = 'For higher enemy levels input the value manually.', cursor='help' }), 'out_lvl', '––', '')
 			:srow('IsEximus', '[[Eximus]]', 'is_eximus', '––')
 			:srow('IsSteelPath', '[[Steel Path]]', 'is_steel_path', '––')
-			:srow('IsEmpowered', '[[Empowered Enemies]]', 'is_empowered', '––')
-			:srow('PlayerCount', Text._text('Player Count', { hoverText = 'If Empowered Enemies is enabled, the Health and Shields of enemies will multiply depending on how many players are in a squad. 1 Player: 2.5x, 2 Players: 3.0x, 3 Players: 3.5x, 4 Players: 4.0x.', cursor='help' }), 'player_count', '––')
+			:srow('IsEmpowered', '[[Archon Hunt]], [[Netracell]] or [[Archimedea]]', 'is_empowered', '––')
+			:srow('IsIcebind', '[[The Icebind]]', 'is_icebind', '––')
+			:srow('PlayerCount', Text._text('Player Count', { hoverText = 'Some game modes multiply the Health, Shields (and in some cases) Armors of enemies depending on how many players are in a squad.', cursor='help' }), 'player_count', '––')
 		:done()
 
 		:group():header('%s', 'miscellaneous')
@@ -789,7 +792,7 @@ buildInfoboxHorizontal = function(frame)
 	
 	local faction, overguard, shield, health, armor, affinity, baseLevel, spawnLevel, steelPathHealthBonus, steelPathShieldBonus, archimedeaHealthBonus
 	local eximusAffinity, eximusShield, eximusHealth, eximusArmor, eximusOverguard
-	local isOverguardEnemy, eximusDefault, steelPathDefault, empoweredDefault, factionScaling
+	local isOverguardEnemy, eximusDefault, steelPathDefault, empoweredDefault, icebindDefault, factionScaling
 
 	-- Fallback to default values in [[Module:Enemies/data]] if input not provided.
 	faction = enemy.General.Faction
@@ -813,6 +816,7 @@ buildInfoboxHorizontal = function(frame)
 	eximusDefault = enemy.General.EximusDefault
 	steelPathDefault = enemy.General.SteelPathDefault
 	empoweredDefault = enemy.General.EmpoweredDefault
+	icebindDefault = enemy.General.IcebindDefault
 	factionScaling = (enemy.Stats.FactionScaling) or faction
 
 	-- [[MediaWiki:Gadget-enemyinfoboxslider.js]] will try to update all ids at once so adding
@@ -827,7 +831,7 @@ buildInfoboxHorizontal = function(frame)
 		(not(armor) or armor == 0) and '0' or '',
 		(not(baseLevel) or baseLevel == 0) and '0' or '',
 		(not(spawnLevel) or spawnLevel == 0 or spawnLevel == baseLevel) and '0' or '',
-		'500',
+		'999',
 		(not(steelPathHealthBonus) or steelPathHealthBonus == 0) and '0' or '',
 		(not(steelPathShieldBonus) or steelPathShieldBonus == 0) and '0' or '',
 		(not(archimedeaHealthBonus) or archimedeaHealthBonus == 0) and '0' or '',
@@ -861,6 +865,7 @@ buildInfoboxHorizontal = function(frame)
 		''..(eximusDefault and '1' or '0')..'',
 		''..(steelPathDefault and '1' or '0')..'',
 		''..(empoweredDefault and '1' or '0')..'',
+		''..(icebindDefault and '1' or '0')..'',
 	}
 	
 	local mods, resources, relics, blueprints, missionDrops, sigils, items, pigments, others = {}, {}, {}, {}, {}, {}, {}, {}, {}
@@ -1017,8 +1022,9 @@ JavaScript not loaded. Please make sure the ⧼gadget-enemyinfoboxslider⧽ is e
 			:srow('SelectedLevel', Text._text('Selected Level', { hoverText = 'For higher enemy levels input the value manually.', cursor='help' }), 'out_lvl', '––', '')
 			:srow('IsEximus', '[[Eximus]]', 'is_eximus', '––')
 			:srow('IsSteelPath', '[[Steel Path]]', 'is_steel_path', '––')
-			:srow('IsEmpowered', '[[Empowered Enemies]]', 'is_empowered', '––')
-			:srow('PlayerCount', Text._text('Player Count', { hoverText = 'If Empowered Enemies is enabled, the Health and Shields of enemies will multiply depending on how many players are in a squad. 1 Player: 2.5x, 2 Players: 3.0x, 3 Players: 3.5x, 4 Players: 4.0x.', cursor='help' }), 'player_count', '––')
+			:srow('IsEmpowered', '[[Netracell]] / [[Archon Hunt]] / [[Archimedea]]', 'is_empowered', '––')
+			:srow('IsIcebind', '[[The Icebind]]', 'is_icebind', '––')
+			:srow('PlayerCount', Text._text('Player Count', { hoverText = 'Some game modes multiply the Health, Shields (and in some cases) Armors of enemies depending on how many players are in a squad.', cursor='help' }), 'player_count', '––')
 		:done()
 	
 	Infobox:column()

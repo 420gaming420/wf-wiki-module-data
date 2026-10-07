@@ -23367,11 +23367,11 @@ local DropData = {
 			Rewards = {
 				A = {
 					{ "Gyromag Systems", "Resource", 25, 5 },
-					{ "Lith Q3 (Radiant)", "Relic", 15 },
+					{ "Lith L8 (Radiant)", "Relic", 15 },
 					{ "Quick Reload", "Mod", 15 },
 					{ "Atmo Systems", "Resource", 10, 5 },
 					{ "Vega Toroid", "Resource", 12.5, 3 },
-					{ "Lith A12 (Radiant)", "Relic", 12.5 },
+					{ "Lith A13 (Radiant)", "Relic", 12.5 },
 					{ "Repeller Systems", "Resource", 7.5, 3 },
 					{ "Deadly Efficiency", "Mod", 1.25 },
 					{ "Strain Eruption", "Mod", 1.25 } 
@@ -23387,7 +23387,7 @@ local DropData = {
 			Rewards = {
 				A = {
 					{ "Gyromag Systems", "Resource", 25, 5 },
-					{ "Lith K12 (Radiant)", "Relic", 15 },
+					{ "Lith C15 (Radiant)", "Relic", 15 },
 					{ "Resolute Focus", "Mod", 15 },
 					{ "Atmo Systems", "Resource", 10, 5 },
 					{ "Calda Toroid", "Resource", 12.5, 3 },
@@ -23430,7 +23430,7 @@ local DropData = {
 					{ "Neo A16 (Radiant)", "Relic", 17.14 },
 					{ "Ammo Chain", "Mod", 17.14 },
 					{ "Atmo Systems", "Resource", 11.43, 5 },
-					{ "Axi S20 (Radiant)", "Relic", 14.29 },
+					{ "Axi S21 (Radiant)", "Relic", 14.29 },
 					{ "Repeller Systems", "Resource", 8.57, 3 },
 					{ "Critical Focus", "Mod", 1.43 },
 					{ "Strain Consume", "Mod", 1.43 } 

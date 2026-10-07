@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-10-05T22:42:19Z"
+wiki_timestamp: "2026-10-06T16:29:26Z"
 ---
 
 ## Contents
@@ -581,6 +581,165 @@ local Data = {
 			{'Maggot '..Tooltips.full('Toxin', 'DamageTypes')..' damage:', {expr='10 1 MUTATION_STACKS + *'}},
 			{'Maggot explosion radius:', {expr='RNG 4 %of', suff='m', fmt='1dec'}},
 			{'Bonus Mutation Stack chance:', {expr='STR 60 %of 0 INSATIABLE if', suff='%'}}
+		}
+	},
+	-- Oberon
+	['Smite']={
+		ins={
+			{name='SMITE_INFUSION', cont=Tooltips.full('Smite Infusion', 'Mods')..'?', type='checkbox'},
+			{name='SMITE_INFUSED', cont='[[Infused]]?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
+			{'Percentage damage to target:', {expr='STR 35 %of 50 75 SMITE_INFUSED if min', suff='%'}},
+			{'AoE damage:', {expr='STR 10 %of 20 30 SMITE_INFUSED if min', suff='% of target\'s Health'}},
+			{'Cast range:', {expr='RNG 50 %of', suff='m', fmt='1dec'}},
+			{'AoE radius:', {expr='RNG 6 %of', suff='m', fmt='1dec'}},
+			{'Smite Infusion '..Tooltips.full('Radiation', 'DamageTypes')..' damage bonus:', {expr='STR 100 %of 0 SMITE_INFUSION if', suff='%'}},
+			{'Smite Infusion duration:', {expr='DUR 40 %of 0 SMITE_INFUSION if', suff='s'}},
+			{'Smite Infusion radius:', {expr='RNG 15 %of 0 SMITE_INFUSION if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+		}
+	},
+	['Hallowed Ground']={
+		ins={
+			{name='HALLOWED_ERUPTION', cont=Tooltips.full('Hallowed Eruption', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Radiation', 'DamageTypes')..' damage:', {name='HALLOWED_GROUND_BASE_DMG', expr='STR 100 %of'}},
+			{'Duration:', {name='HALLOWED_GROUND_DURATION', expr='DUR 200 0 HALLOWED_ERUPTION if + 20 %of', suff='s'}},
+			{'Radius:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{'Maximum Hallowed Eruption '..Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='HALLOWED_GROUND_BASE_DMG HALLOWED_GROUND_DURATION * 0 HALLOWED_ERUPTION if'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+		}
+	},
+	['Renewal']={
+		ins={
+			{name='PHOENIX_RENEWAL', cont=Tooltips.full('Phoenix Renewal', 'Mods')..'?', type='checkbox'},
+			{name='CURRENT_ARMOR', cont='Current '..Tooltips.full('Armor', 'Stats')..':', min='0', value='385'}
+		},
+		outs={
+			{Tooltips.full('Health', 'Stats')..' restored on cast:', {expr='STR 125 %of'}},
+			{Tooltips.full('Health', 'Stats')..' restored over time:', {expr='STR 40 %of', suff='/s'}},
+			{Tooltips.full('Armor', 'Stats')..' bonus to self:', {name='RENEWAL_ARMOR', expr='STR 50 %of 100 min', suff='%'}},
+			{Tooltips.full('Armor', 'Stats')..' bonus to allies:', {expr='CURRENT_ARMOR RENEWAL_ARMOR as% 1 + * CURRENT_ARMOR - 2 *'}},
+			{'[[Bleedout]] reduction:', {expr='DUR 45 %of 90 min', suff='%'}},
+			{Tooltips.full('Health', 'Stats')..' restored on Phoenix Renewal:', {expr='STR 50 %of 100 min 0 PHOENIX_RENEWAL if', suff='%'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='3.5 DRAIN *'}}
+		}
+	},
+	['Reckoning']={
+		ins={
+			{name='HALLOWED_RECKONING', cont=Tooltips.full('Hallowed Reckoning', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Armor', 'Stats')..' reduction:', {expr='STR 60 %of 100 min', suff='%'}},
+			{'Base '..Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='STR 7500 %of'}},
+			{'Added '..Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='STR 750 %of', suff='/'..Tooltips.full('Confusion', 'DamageTypes')..' stack'}},
+			{'Base '..Tooltips.full('Armor', 'Stats')..' bonus:', {expr='STR 10 %of', suff='/enemy'}},
+			{'Added '..Tooltips.full('Armor', 'Stats')..' bonus:', {expr='STR 5 %of', suff='/'..Tooltips.full('Confusion', 'DamageTypes')..' stack'}},
+			{Tooltips.full('Armor', 'Stats')..' bonus duration:', {expr='DUR 30 %of', suff='s'}},
+			{'Radius:', {expr='RNG 40 0 HALLOWED_RECKONING if + 15 %of', suff='m', fmt='1dec'}},
+			{'Hallowed Reckoning '..Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='STR 300 %of 0 HALLOWED_RECKONING if', suff='/tick'}},
+			{'Hallowed Reckoning '..Tooltips.full('Armor', 'Stats')..' bonus:', {expr='STR 250 %of 0 HALLOWED_RECKONING if'}},
+			{'Hallowed Reckoning radius:', {expr='RNG 40 + 3 %of 0 HALLOWED_RECKONING if', suff='m', fmt='1dec'}},
+			{'Hallowed Reckoning area duration:', {expr='DUR 10 %of 0 HALLOWED_RECKONING if', suff='s'}},
+			{'Hallowed Reckoning '..Tooltips.full('Armor', 'Stats')..' bonus duration:', {expr='DUR 3 %of 0 HALLOWED_RECKONING if', suff='s'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+		}
+	},
+	-- Octavia
+	['Mallet']={
+		ins={
+			{name='PERCUSSION_COUNT', cont='Number of Percussive beats:', min='1', max='64', value='26'},
+			{name='PARTITIONED_MALLET', cont=Tooltips.full('Partitioned Mallet', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Damage multiplier:', {expr='STR 2.5 %of', fmt='2dec'}},
+			{'Stored damage decay:', {expr='PERCUSSION_COUNT mulin 100 *', suff='%/beat', fmt='2dec'}},
+			{'Duration:', {expr='DUR 20 %of', suff='s'}},
+			{'Base radius:', {name='MALLET_BASE_RADIUS', expr='80 100 PARTITIONED_MALLET if RNG 10 %of %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Amp', 'Ability')..' radius:', {expr='2 MALLET_BASE_RADIUS *', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+		}
+	},
+	['Resonator']={
+		ins={
+			{name='BASS_COUNT', cont='Number of Bass beats:', min='1', max='64', value='18'}
+		},
+		outs={
+			{Tooltips.full('Blast', 'DamageTypes')..' damage per loop:', {name='RESONATOR_FULL_DMG', expr='STR 125 %of', suff='/loop/enemy'}},
+			{Tooltips.full('Blast', 'DamageTypes')..' damage per beat:', {expr='RESONATOR_FULL_DMG BASS_COUNT /', suff='/beat/enemy'}},
+			{'Duration:', {expr='DUR 20 %of', suff='s'}},
+			{'Minimum range:', {expr='RNG 6 %of', suff='m', fmt='1dec'}},
+			{'Maximum range:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+		}
+	},
+	['Metronome']={
+		ins={},
+		outs={
+			{Tooltips.full('Armor', 'Stats')..' bonus:', {expr='STR 35 %of', suff='%'}},
+			{'Vivace [[Movement Speed]] bonus:', {expr='STR 30 %of', suff='%'}},
+			{'Opera [[Multishot]] bonus:', {expr='STR 30 %of', suff='%'}},
+			{'Forte [[Melee Damage]] bonus:', {expr='STR 30 %of', suff='%'}},
+			{'Metronome duration:', {expr='DUR 20 %of', suff='s'}},
+			{'Vivace, Opera, Forte and Nocturne duration:', {expr='DUR 15 %of', suff='s'}},
+			{'Radius:', {expr='RNG 12 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
+		}
+	},
+	['Amp']={
+		ins={},
+		outs={
+			{'Minimum weapon damage bonus:', {expr='STR 25 %of', suff='%'}},
+			{'Maximum weapon damage bonus:', {expr='STR 125 %of', suff='%'}},
+			{'Duration:', {expr='DUR 30 %of', suff='s'}},
+			{'Radius:', {expr='RNG 14 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+		}
+	},
+	-- Sevagoth
+	['Reap']={
+		ins={
+			{name='DAMAGE_VULNERABILITY', cont=Tooltips.full('Reap', 'Ability')..' debuff?', type='checkbox'},
+			{name='HOLD_CAST', cont='Hold Cast?', type='checkbox'},
+			{name='AIMING', cont='Aiming?', type='checkbox'}
+		},
+		outs={
+			{'[[Damage Vulnerability]]:', {expr='STR 50 %of', suff='%'}},
+			{'Debuff duration:', {expr='DUR 10 %of', suff='s'}},
+			{Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='STR 250 %of'}},
+			{'Shadow flight duration:', {expr='DUR 6 %of', suff='s'}},
+			{'Shadow debuff radius:', {expr='RNG 8 %of', suff='m'}},
+			{'Shadow flight speed:', {expr='20 10 HOLD_CAST if', suff='m/s'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+		}
+	},
+	['Sow']={
+		ins={
+			{name='DAMAGE_VULNERABILITY', cont=Tooltips.full('Reap', 'Ability')..' debuff?', type='checkbox'},
+		},
+		outs={
+			{Tooltips.full('True', 'DamageTypes')..' damage:', {expr='STR 250 %of', suff='/s'}},
+			{'Duration:', {expr='DUR 10 %of', suff='s'}},
+			{'Radius:', {expr='RNG 16 %of', suff='m'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+		}
+	},
+	['Gloom']={
+		ins={
+			{name='ENEMY_COUNT', cont='Enemies:', type='range-R', min='0', max='10', default='1'}
+		},
+		outs={
+			{Tooltips.full('Slow', 'DamageTypes')..':', {expr='STR 35 %of', suff='%'}},
+			{'Max Radius:', {expr='RNG 16 %of', suff='m'}},
+			{'Initial Radius:', {expr='RNG 4 %of', suff='m'}},
+			{'Growth Rate:', {expr='DUR 2 %of', suff='m/s'}},
+			{'Life Steal:', {expr='STR 5 %of', suff='%'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='ENEMY_COUNT 0.75 COST *'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
 		}
 	},
 	-- Uriel

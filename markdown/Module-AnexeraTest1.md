@@ -1,7 +1,7 @@
 ---
 title: "Module:AnexeraTest1"
 wiki_url: "https://wiki.warframe.com/w/Module/AnexeraTest1"
-wiki_timestamp: "2026-10-05T21:26:07Z"
+wiki_timestamp: "2026-10-06T22:26:25Z"
 ---
 
 *Documentation for this module may be created at [Module:AnexeraTest1/doc](/w/Module:AnexeraTest1/doc?action=edit&redlink=1 "Module:AnexeraTest1/doc (page does not exist)")*
@@ -397,16 +397,14 @@ end
 function p.buildOfferings(frame)
 	mw.log(string.format('T+%.4fs | p.buildOfferings()', os.clock() - startTime))
 	local args = castArgs(Args.getArgs(frame))
-	local f_platform, f_name, f_type, f_date = args.platform, args.name, args.type, args.date
+	local f_platform, f_name, f_type, f_date, f_date_target = args.platform, args.name, args.type, args.date, args.date_target
 	local f_discont, f_seasonal = args.discontinued, args.seasonal
 	local tabs, cat = args.tabs, args.cat
 
 	local platformKey = ({ All = 'All', PC = "Pc", Consoles = "Console", TennoCon = 'TennoCon' })[f_platform]
 	local renderFunc = ({ buildGallery = buildGallery, buildTable = buildTable, getTotal = _getTotal})[args.render]
-
 	assert(not f_platform or platformKey, string.format('p.buildOfferings(frame): Invalid platform "%s"', tostring(f_platform)))
 	assert(renderFunc, string.format('p.buildOfferings(frame): Invalid render function "%s"', tostring(args.render)))
-	assert(not tabs or #tabs > 0, 'p.buildOfferings(frame): Argument.tabs can not be an empty array')
 
 	local datesCfg = { platform = f_platform, asc = false, platformLabel = true }
 	local itemDates = {}
@@ -425,10 +423,9 @@ function p.buildOfferings(frame)
 		-- Filter preprocessing
 		mw.log(string.format('T+%.4fs |   Preparing filter', os.clock() - startTime))
 		local function getMatcher(arg)
-			if not arg then return nil end
-			local pattern = (type(arg) ~= 'table' and tostring(arg)) or (#arg == 1 and arg[1])
-			return pattern and function(s) return s:find(pattern) end or
-				function(s) for i=1, #arg do local res = s:find(arg[i]) if res then return res end end end
+			if not arg then return end
+			local t = type(arg) == 'table' and arg or {tostring(arg)}
+			return function(s) for i=1, #t do local res = s:find(t[i]) if res then return res end end end
 		end
 
 		local dateKey = f_platform and platformKey .. 'OfferingDates'
@@ -444,17 +441,24 @@ function p.buildOfferings(frame)
 			eq, gt, lt = op:find('=') and val, d1 or (op:find('>') and val), d2 or (op:find('<') and val)
 		end
 
-		-- Filtering
+		local function matchDate(t)
+			if #t == 0 then return end
+			for i = (f_date_target == 'first' and #t or 1), (f_date_target == 'any' and #t or 1) do
+				local res = (eq and t[i] == eq) or ((gt or lt) and (not gt or t[i] > gt) and (not lt or t[i] < lt))
+				if res then return res end
+			end
+		end
+
+		-- Start filtering
 		mw.log(string.format('T+%.4fs |   Processing filter items', os.clock() - startTime))
 		for _, v in pairs(BaroItems) do
-			local d = f_date and itemDates[v]
 			if
+				(not f_discont or (f_discont == 'only' and v.IsDiscont) or (f_discont == 'exclude' and not v.IsDiscont)) and
+				(not f_seasonal or (f_seasonal == 'only' and v.IsSeasonal) or (f_seasonal == 'exclude' and not v.IsSeasonal)) and
 				(not f_platform or f_platform == 'All' or (f_platform ~= 'TennoCon' and v.OfferingDates) or v[dateKey] or v.IsAlways) and
 				(not f_name or matchName(v.Name)) and
 				(not f_type or matchType(v.Type)) and
-				(not f_date or d[#d] and ((eq and d[#d] == eq) or ((gt or lt) and (not gt or d[#d] > gt) and (not lt or d[#d] < lt)))) and
-				(not f_discont or (f_discont == 'only' and v.IsDiscont) or (f_discont == 'exclude' and not v.IsDiscont)) and
-				(not f_seasonal or (f_seasonal == 'only' and v.IsSeasonal) or (f_seasonal == 'exclude' and not v.IsSeasonal))
+				(not f_date or matchDate(itemDates[v]))
 			then
 				table.insert(entries, v)
 			end
@@ -467,7 +471,7 @@ function p.buildOfferings(frame)
 		table.insert(entries, BaroItems[item] or { Name = item })
 	end
 	-- Extra Items
-	if args.extraItem then
+	if args.extraItems then
 		mw.log(string.format('T+%.4fs |   Processing extra items', os.clock() - startTime))
 		for _, item in ipairs(args.extraItems) do
 			table.insert(entries, BaroData.ExtraItems[item])
@@ -476,8 +480,9 @@ function p.buildOfferings(frame)
 	assert(#entries > 0, 'p.buildOfferings(frame): No matched items')
 
 	if not cat then
+		local result = renderFunc(entries, args.args and unpack(args.args))
 		mw.log(string.format('T+%.4fs |   finish', os.clock() - startTime))
-		return renderFunc(entries, args.args and unpack(args.args))
+		return result
 	end
 
 	-- Categories Configuration
@@ -491,14 +496,15 @@ function p.buildOfferings(frame)
 	else
 		buildTabs = function(t) for _, v in pairs(TypeConfigs) do mergeData(v[cat], t) end end
 		getCat = function(e) return (TypeConfigs[e.Type] or {})[cat] end
+		assert(TypeConfigs.Glyph[cat], string.format('p.buildOfferings(frame): Invalid category "%s"', tostring(cat)))
 	end
+	assert(not tabs or type(tabs) == "table", 'p.buildOfferings(frame): Argument.tabs must be a table')
 
-	if not tabs then
-		tabs = {}
+	if not tabs or #tabs == 0 then
+		tabs = tabs or {}
 		buildTabs(tabs)
 		if cat ~= 'year' then table.sort(tabs) end
 	end
-	assert(#tabs > 0, string.format('p.buildOfferings(frame): Invalid category "%s"', tostring(cat)))
 
 	local tabCfg = { tabs = tabs, getItemCat = getCat, render = renderFunc, args = args.args}
 	local wikiText = buildTabbers(entries, tabCfg)
