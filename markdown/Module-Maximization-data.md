@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-10-06T16:29:26Z"
+wiki_timestamp: "2026-10-07T17:54:40Z"
 ---
 
 ## Contents
@@ -320,6 +320,58 @@ local Data = {
 			{'Radius:', {expr='RNG 20 %of', suff='m'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 75 GASEOUS_QUAKE if COST *'}},
 			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='16 DRAIN * 1.2 GASEOUS_QUAKE_DURATION ^ * 0 GASEOUS_QUAKE if'}}
+		}
+	},
+	-- Caliban
+	['Razor Gyre']={
+		ins={
+			{name='RAZOR_MORTAR', cont=Tooltips.full('Razor Mortar', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Tau', 'DamageTypes')..' damage:', {expr='STR 500 %of', suff='/s'}},
+			{Tooltips.full('Tau', 'DamageTypes')..' damage to enemies in '..Tooltips.full('Sentient Wrath', 'Ability')..':', {expr='STR 1000 %of', suff='/s'}},
+			{'Healing:', {expr='STR 30 %of', suff='/enemy'}},
+			{'Damage radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Lethal Progeny', 'Ability')..' Ortholyst '..Tooltips.full('Electricity', 'DamageTypes')..' and [[Fire Rate]] bonus:', {expr='STR 70 %of 0 RAZOR_MORTAR if', suff='%'}},
+			{'Razor Mortar duration:', {expr='DUR 6 %of 0 RAZOR_MORTAR if', suff='s'}},
+			{'Razor Mortar radius:', {expr='RNG 5 %of 0 RAZOR_MORTAR if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}},
+			{Tooltips.full('Energy', 'Stats')..' restoration:', {expr='25 COST * 4 /', suff='/enemy', fmt='1dec'}}
+		}
+	},
+	['Sentient Wrath']={
+		ins={},
+		outs={
+			{Tooltips.full('Tau', 'DamageTypes')..' damage:', {expr='STR 2000 %of'}},
+			{'[[Damage Vulnerability]]:', {expr='STR 35 %of', suff='%'}},
+			{'Radius:', {expr='RNG 22 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+		}
+	},
+	['Lethal Progeny']={
+		ins={},
+		outs={
+			{'Level at Rank 30:', {name='LETHAL_PROGENY_LEVEL', expr='STR 30 %of floor'}},
+			{'Damage multiplier:', {name='LETHAL_PROGENY_DMG_MULT', expr='STR 2.5 %of', fmt='2dec'}},
+			{'Health multiplier:', {expr='STR 2 %of', fmt='2dec'}},
+			{Tooltips.full('Shield', 'Stats')..' restoration:', {expr='STR 25 %of', suff='/s/Summon'}},
+			{'Duration:', {expr='DUR 45 %of', suff='s'}},
+			{Tooltips.full('Shield', 'Stats')..' restoration range:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+		},
+	},
+	['Fusion Strike']={
+		ins={},
+		outs={
+			{'Laser '..Tooltips.full('Tau', 'DamageTypes')..' damage:', {expr='STR 15000 %of', suff='/s'}},
+			{'Enemy detonation '..Tooltips.full('Tau', 'DamageTypes')..' damage:', {expr='STR 5000 %of'}},
+			{'Convergence '..Tooltips.full('Tau', 'DamageTypes')..' damage:', {expr='STR 750 %of'}},
+			{'Defense reduction:', {expr='STR 50 %of 100 min', suff='%'}},
+			{'Duration:', {expr='DUR 15 %of', suff='s'}},
+			{'Laser length:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
+			{'Enemy detonation radius:', {expr='RNG 2 %of', suff='m', fmt='1dec'}},
+			{'Explosion and fallout radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
 		}
 	},
 	-- Citrine

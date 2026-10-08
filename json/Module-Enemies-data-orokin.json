@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:57:09.860Z"
+    "converted_at": "2026-10-08T08:35:07.026Z"
   },
   "_comments": "\t\t\t--Introduced = \"?\",\n\t\t\t--Scans = ?,\n\t\t\t--Multis = { \"?\" },\n\t\t\t\t\t\t-- Puncture = 0.1,\n\t\t\t\t\t\t-- Slash = 0.8,",
   "Orokin Sentry": {
@@ -655,7 +655,7 @@
       "Scans": 1,
       "Image": "Volt_Thumb.png",
       "Name": "Volt Specter",
-      "Faction": "Anarch",
+      "Faction": "Anarchs",
       "Planets": [
         "Earth"
       ],
@@ -984,7 +984,7 @@
       "Scans": 1,
       "Image": "Ember_Thumb.png",
       "Name": "Ember Specter",
-      "Faction": "Anarch",
+      "Faction": "Anarchs",
       "Planets": [
         "Jupiter"
       ],
@@ -1307,7 +1307,7 @@
       "Scans": 1,
       "Image": "Mesa_Thumb.png",
       "Name": "Mesa Specter",
-      "Faction": "Anarch",
+      "Faction": "Anarchs",
       "Planets": [
         "Pluto"
       ],

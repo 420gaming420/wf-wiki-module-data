@@ -1,12 +1,12 @@
 ---
 title: "Module:Resources/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Resources/data"
-wiki_timestamp: "2026-10-06T21:42:44Z"
+wiki_timestamp: "2026-10-08T02:06:07Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME") [Resources](/w/Resources "Resources"), items, and components. For blueprints which require resources to be crafted, see [Module:Blueprints/data](/w/Module:Blueprints/data "Module:Blueprints/data").
 
-:   *Last updated: Tue, 06 Oct 2026 21:42:44 +0000 (UTC) by [User:BlueWolf1444](/w/User:BlueWolf1444 "User:BlueWolf1444") ([change log](https://wiki.warframe.com/w/Module:Resources/data?diff=0))*
+:   *Last updated: Thu, 08 Oct 2026 02:06:07 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Resources/data?diff=0))*
 
 ## Contents
 
@@ -2979,6 +2979,16 @@ local ResourceData = {
 		InternalName = "/Lotus/Types/Items/MiscItems/FormaAura",
 		Link = "Omni Forma",
 		Name = "Omni Forma",
+		Tradable = false,
+		Type = "Item"
+	},
+	["Forma Bundle"] = {
+		Description = "A collection of three Formas.",
+		Image = "FormaBundle.png",
+		Introduced = "18.6",
+		InternalName = "/Lotus/Types/StoreItems/Packages/FormaPack",
+		Link = "Forma Bundle",
+		Name = "Forma Bundle",
 		Tradable = false,
 		Type = "Item"
 	},
@@ -8414,14 +8424,14 @@ local ResourceData = {
 		RetrieverModAble = false,
 	},
 	["Entropic Kuva"] = {
-		Description = "A dangerous and erratic type of Kuva.\r\n\r\nObtained from Zariman missions.",
+		Description = "A dangerous and erratic type of Kuva.\r\n\r\nObtained from Entropic Eximus in Zariman missions.",
 		Image = "Entropic_Kuva.png",
 		InternalName = "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem",
 		Introduced = "44",
 		Link = "Entropic Kuva (Resource)",
 		Name = "Entropic Kuva",
 		Type = "Resource",
-		ResourceBoostAble = false,--unsure please correct it--
+		ResourceBoostAble = false,
 		ResourceDropChanceBoostAble = false,
 		RetrieverModAble = false,
 	},
@@ -12094,7 +12104,7 @@ local ResourceData = {
 		Description = "Used in the Mod Workbench to splice Riven traits into a new trait from a special pool of possibilities.",
 		Image = "RivenSplicer.png",
 		InternalName = "/Lotus/Types/Items/MiscItems/RivenSplicer",
-		Introduced = "TBA",
+		Introduced = "44.1",
 		Link = "Riven Splicer",
 		Name = "Riven Splicer",
 		Type = "Resource",

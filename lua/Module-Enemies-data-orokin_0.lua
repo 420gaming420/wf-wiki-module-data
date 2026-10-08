@@ -484,7 +484,7 @@ return {
 		General = {
 			Description = "",
 			ExcludedFromSimulacrum = true,
-			Faction = "Anarch",
+			Faction = "Anarchs",
 			FactionDamageOverride = "",
 			Image = "Ember_Thumb.png",
 			InternalName = "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantEmberAgent",
@@ -872,7 +872,7 @@ return {
 		General = {
 			Description = "",
 			ExcludedFromSimulacrum = true,
-			Faction = "Anarch",
+			Faction = "Anarchs",
 			FactionDamageOverride = "",
 			Image = "Mesa_Thumb.png",
 			InternalName = "/Lotus/Types/Enemies/TennoReplicants/JunctionRework/MesaJunctionBossAvatar",
@@ -1329,7 +1329,7 @@ return {
 		General = {
 			Description = "",
 			ExcludedFromSimulacrum = true,
-			Faction = "Anarch",
+			Faction = "Anarchs",
 			FactionDamageOverride = "",
 			Image = "Volt_Thumb.png",
 			InternalName = "/Lotus/Types/Enemies/TennoReplicants/JunctionRework/VoltJunctionBossAvatar",

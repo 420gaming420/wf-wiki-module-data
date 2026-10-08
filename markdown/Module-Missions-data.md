@@ -1,7 +1,7 @@
 ---
 title: "Module:Missions/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Missions/data"
-wiki_timestamp: "2026-09-29T18:35:15Z"
+wiki_timestamp: "2026-10-08T01:54:55Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Some junctions have moved around. Reflect on node progression changes. E.g. Plut
 
 Database of [Star Chart](/w/Star_Chart "Star Chart") mission nodes.
 
-:   *Last updated: Tue, 29 Sep 2026 18:35:15 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Missions/data?diff=0))*
+:   *Last updated: Thu, 08 Oct 2026 01:54:55 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Missions/data?diff=0))*
 
 ## Contents
 
@@ -832,7 +832,7 @@ local MissionData = {
 		["The Icebind"] = {
 			Name = "The Icebind",
 			Link = "The Icebind",
-			LocationNote = "*[[Yuvan Peak]], [[Earth]]; talk to [[Cephalon Melica]]; Must complete [[Angels in the Zariman]] quest, [[Whispers in the Walls]] quest, and unlocked [[Elite Archimedea]] to access."
+			LocationNote = "*[[Yuvan Peak]], [[Earth]]; talk to [[Cephalon Melica]]; Must complete [[Angels of the Zariman]] quest, [[Whispers in the Walls]] quest, and unlocked [[Elite Archimedea]] to access."
 		},
 		["Granum Void"] = {
 			Name = "Granum Void",

@@ -26859,6 +26859,68 @@ local DropData = {
 			Tier = "Uranus Proxima",
 			Type = "Skirmish" 
 		},
+	
+		--Update 44.1: Iceblade of Narin: The Icebind
+		["The Icebind: Crested Frozen Chests"] = {
+			Alias = "The Icebind: Crested Frozen Chests",
+			InternalName = "",
+			Link = "The Icebind",
+			Name = "The Icebind",
+			Rewards = {
+				A = {
+					{ "Riven Transmuter", "Resource", 5.0 },
+					{ "Veiled Riven Cipher", "Resource", 5.0 },
+					{ "Omni Forma", "Resource", 10.0 },
+					{ "Forma Bundle", "Resource", 10.0 },
+					{ "Melee Riven Mod", "Mod", 10.5 },
+					{ "Pistol Riven Mod", "Mod", 8.75 },
+					{ "Rifle Riven Mod", "Mod", 8.75 },
+					{ "Shotgun Riven Mod", "Mod", 4.55 },
+					{ "Archgun Riven Mod", "Mod", 1.22 },
+					{ "Companion Weapon Riven Mod", "Mod", 1.22 },
+					{ "Azure Archon Shard", "Resource", 11.67 },
+					{ "Crimson Archon Shard", "Resource", 11.67 },
+					{ "Amber Archon Shard", "Resource", 11.67 },
+				},
+				B = {
+					{ "Kuva", "Resource", 69.0, 7500 },
+					{ "Kuva", "Resource", 30.0, 17500 },
+					{ "Kuva", "Resource", 1.0, 100000 },
+				},
+			},
+			Tier = "Earth",
+			Type = "The Icebind" 
+		},
+		["The Icebind: Frozen Chests"] = {
+			Alias = "The Icebind: Frozen Chests",
+			InternalName = "",
+			Link = "The Icebind",
+			Name = "The Icebind",
+			Rewards = {
+				A = {
+					{ "Forma", "Resource", 16.88 },
+					{ "Vosfor", "Resource", 16.88, 200 },
+					{ "Melee Riven Mod", "Mod", 11.81 },
+					{ "Pistol Riven Mod", "Mod", 8.44 },
+					{ "Rifle Riven Mod", "Mod", 8.44 },
+					{ "3 Day Affinity Booster", "Resource", 5.63 },
+					{ "3 Day Resource Drop Chance Booster", "Resource", 5.63 },
+					{ "3 Day Resource Booster", "Resource", 5.63 },
+					{ "3 Day Credit Booster", "Resource", 5.63 },
+					{ "Shotgun Riven Mod", "Mod", 5.06 },
+					{ "Azure Archon Shard", "Resource", 3.33 },
+					{ "Crimson Archon Shard", "Resource", 3.33 },
+					{ "Amber Archon Shard", "Resource", 3.33 },
+				},
+				B = {
+					{ "Kuva", "Resource", 65.0, 1750 },
+					{ "Kuva", "Resource", 30.0, 3500 },
+					{ "Kuva", "Resource", 5.0, 7000 },
+				},
+			},
+			Tier = "Earth",
+			Type = "The Icebind" 
+		},
 	},
 	Rewards = {},
 }

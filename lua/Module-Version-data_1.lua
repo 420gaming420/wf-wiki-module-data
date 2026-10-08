@@ -19209,7 +19209,7 @@ local Versions = {
 	},
 	{
 		Name = "Hotfix 44.0.1",
-		Link = "Update 44: Iceblade of Narin",
+		Link = "Update 44#Hotfix 44.0.1",
 		Aliases = { "44.0.1" },
 		ShortName = "H44.0.1",
 		Date = "2026-09-24",
@@ -19218,11 +19218,10 @@ local Versions = {
 		ArchiveLink = "https://web.archive.org/web/20260924200629/https://forums.warframe.com/topic/1524660-iceblade-of-narin-hotfix-4401/",
 		ArchiveDate = "2026-09-24",
 		Timestamp = 1790294355,
-		Subtitle = "Iceblade of Narin"
 	},
 	{
 		Name = "Hotfix 44.0.2",
-		Link = "Update 44: Iceblade of Narin",
+		Link = "Update 44#Hotfix 44.0.2",
 		Aliases = { "44.0.2" },
 		ShortName = "H44.0.2",
 		Date = "2026-09-28",
@@ -19231,11 +19230,10 @@ local Versions = {
 		ArchiveLink = "https://web.archive.org/web/20260928191357/https://forums.warframe.com/topic/1525835-iceblade-of-narin-hotfix-4402/",
 		ArchiveDate = "2026-09-28",
 		Timestamp = 1790636822,
-		Subtitle = "Iceblade of Narin"
 	},
 	{
 		Name = "Hotfix 44.0.3",
-		Link = "Update 44: Iceblade of Narin",
+		Link = "Update 44#Hotfix 44.0.3",
 		Aliases = { "44.0.3" },
 		ShortName = "H44.0.3",
 		Date = "2026-09-30",
@@ -19244,7 +19242,19 @@ local Versions = {
 		ArchiveLink = "https://web.archive.org/web/20260930231247/https://forums.warframe.com/topic/1526292-iceblade-of-narin-hotfix-4403/",
 		ArchiveDate = "2026-09-30",
 		Timestamp = 1790813194,
-		Subtitle = "Iceblade of Narin"
+	},
+	{
+		Name = "Update 44.1",
+		Link = "Update 44#Update 44.1",
+		Aliases = { "44.1" },
+		ShortName = "U44.1",
+		Date = "2026-10-07",
+		Parent = "44",
+		ForumLink = "https://forums.warframe.com/topic/1527298-update-4410-iceblade-of-narin-the-icebind/",
+		ArchiveLink = "[PH]",
+		ArchiveDate = "[PH]",
+		Timestamp = 1791399657,
+		Subtitle = "The Icebind"
 	},
 }
 

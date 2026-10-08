@@ -629,7 +629,7 @@ local MissionData = {
 		["The Icebind"] = {
 			Name = "The Icebind",
 			Link = "The Icebind",
-			LocationNote = "*[[Yuvan Peak]], [[Earth]]; talk to [[Cephalon Melica]]; Must complete [[Angels in the Zariman]] quest, [[Whispers in the Walls]] quest, and unlocked [[Elite Archimedea]] to access."
+			LocationNote = "*[[Yuvan Peak]], [[Earth]]; talk to [[Cephalon Melica]]; Must complete [[Angels of the Zariman]] quest, [[Whispers in the Walls]] quest, and unlocked [[Elite Archimedea]] to access."
 		},
 		["Granum Void"] = {
 			Name = "Granum Void",

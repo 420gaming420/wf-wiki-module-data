@@ -1,7 +1,7 @@
 ---
 title: "Module:Enemies/data/orokin"
 wiki_url: "https://wiki.warframe.com/w/Module/Enemies/data/orokin"
-wiki_timestamp: "2026-08-23T20:23:22Z"
+wiki_timestamp: "2026-10-08T01:54:49Z"
 ---
 
 *Documentation for this module may be created at [Module:Enemies/data/orokin/doc](/w/Module:Enemies/data/orokin/doc?action=edit&redlink=1 "Module:Enemies/data/orokin/doc (page does not exist)")*
@@ -493,7 +493,7 @@ return {
 		General = {
 			Description = "",
 			ExcludedFromSimulacrum = true,
-			Faction = "Anarch",
+			Faction = "Anarchs",
 			FactionDamageOverride = "",
 			Image = "Ember_Thumb.png",
 			InternalName = "/Lotus/Types/Enemies/TennoReplicants/RelayBoss/TennoReplicantEmberAgent",
@@ -881,7 +881,7 @@ return {
 		General = {
 			Description = "",
 			ExcludedFromSimulacrum = true,
-			Faction = "Anarch",
+			Faction = "Anarchs",
 			FactionDamageOverride = "",
 			Image = "Mesa_Thumb.png",
 			InternalName = "/Lotus/Types/Enemies/TennoReplicants/JunctionRework/MesaJunctionBossAvatar",
@@ -1338,7 +1338,7 @@ return {
 		General = {
 			Description = "",
 			ExcludedFromSimulacrum = true,
-			Faction = "Anarch",
+			Faction = "Anarchs",
 			FactionDamageOverride = "",
 			Image = "Volt_Thumb.png",
 			InternalName = "/Lotus/Types/Enemies/TennoReplicants/JunctionRework/VoltJunctionBossAvatar",

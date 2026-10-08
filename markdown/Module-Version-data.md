@@ -1,7 +1,7 @@
 ---
 title: "Module:Version/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Version/data"
-wiki_timestamp: "2026-09-30T23:16:01Z"
+wiki_timestamp: "2026-10-07T18:09:19Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Include official index links in schema like <https://www.warframe.com/patch-note
 
 Database for [Module:Version](/w/Module:Version "Module:Version"). Entries are in order by date in ascending order and are indexed by `Name` and each element in `Aliases` tables.
 
-:   *Last updated: Wed, 30 Sep 2026 23:16:01 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Version/data?diff=0))*
+:   *Last updated: Wed, 07 Oct 2026 18:09:19 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Version/data?diff=0))*
 
 ## Contents
 
@@ -72,10 +72,9 @@ On the official Warframe post, open your browser's element inspecter (default F1
 [[edit](/w/Module:Version/data/doc?action=edit&section=T-3 "Edit Section using Source Editor:
 Update vs. Hotfix (Warframe Development Cycle)")]
 
-> “**What is a cert update? What is a hotfix?**
+> **What is a cert update? What is a hotfix?**
 >
-> Warframe updates in one of two ways; **cert updates** and **hotfixes**. A **cert update** generally means a big title update that has been validated across all platforms. In other words, we make changes to the game’s code that must be “certified” by our platform partners before release. A **hotfix** on the other hand involves changes to non-code content, meaning we are able to launch a hotfix at any time without the certification process.”  
-> —[DE]Momaw[[1]](#cite_note-1)
+> Warframe updates in one of two ways; **cert updates** and **hotfixes**. A **cert update** generally means a big title update that has been validated across all platforms. In other words, we make changes to the game’s code that must be “certified” by our platform partners before release. A **hotfix** on the other hand involves changes to non-code content, meaning we are able to launch a hotfix at any time without the certification process.—[DE]Momaw[[1]](#cite_note-1)
 
 * Certification updates are also known as mainline updates. Mainline updates have to go through certification processes on console platforms to ensure that Warframe's code follows console partner's requirements.
 * When "code" is mentioned, the developers are referring to game engine code ("low-level code") rather than gameplay scripts, game assets, server-side changes, or game data that interface with the engine.
@@ -477,7 +476,7 @@ Full Version List")]
 | [Update 15.12](/w/Update_15#Update_15.12 "Update 15") | 15.12 | U15.12 |  |  | ✔️ | 2015-01-30 | <https://forums.warframe.com/topic/393115-update-15120/> | 1422569669 | <https://web.archive.org/web/20160411123901/https://forums.warframe.com/topic/393115-update-15120/> | 2016-04-11 |
 | [Hotfix 12.4.6](/w/Update_12#Hotfix_12.4.6 "Update 12") | 12.4 | H12.4.6 | Luck O' The Lotus! |  | ❌ | 2014-03-17 | <https://forums.warframe.com/topic/197103-hotfix-1246-luck-o-the-lotus/> | 1395072414 | <https://web.archive.org/web/20220127044359/https://forums.warframe.com/topic/197103-hotfix-1246-luck-o-the-lotus/> | 2022-01-27 |
 | [Update 29.8](/w/Update_29#Update_29.8 "Update 29") | 29.8 | U29.8 | Star Days |  | ✔️ | 2021-02-11 | <https://forums.warframe.com/topic/1248934-star-days-update-2980/> | 1613069850 | <https://web.archive.org/web/20210212011314/https://forums.warframe.com/topic/1248934-star-days-update-2980/> | 2021-02-12 |
-| [Hotfix 44.0.1](/w/Update_44:_Iceblade_of_Narin "Update 44: Iceblade of Narin") | 44.0 | H44.0.1 | Iceblade of Narin |  | ❌ | 2026-09-24 | <https://forums.warframe.com/topic/1524660-iceblade-of-narin-hotfix-4401/> | 1790294355 | <https://web.archive.org/web/20260924200629/https://forums.warframe.com/topic/1524660-iceblade-of-narin-hotfix-4401/> | 2026-09-24 |
+| [Hotfix 44.0.1](/w/Update_44#Hotfix_44.0.1 "Update 44") | 44.0 | H44.0.1 |  |  | ❌ | 2026-09-24 | <https://forums.warframe.com/topic/1524660-iceblade-of-narin-hotfix-4401/> | 1790294355 | <https://web.archive.org/web/20260924200629/https://forums.warframe.com/topic/1524660-iceblade-of-narin-hotfix-4401/> | 2026-09-24 |
 | [Hotfix 30.3.4](/w/Update_30#Hotfix_30.3.4 "Update 30") | 30.3 | H30.3.4 |  |  | ❌ | 2021-06-02 | <https://forums.warframe.com/topic/1266345-gara-prime-hotfix-3034/> | 1622661305 | <https://web.archive.org/web/20210602200615/https://forums.warframe.com/topic/1266345-gara-prime-hotfix-3034/> | 2021-06-02 |
 | [Update 22.8](/w/Update_22#Update_22.8 "Update 22") | 22.8 | U22.8 | Ghoul Purge Bounties |  | ✔️ | 2017-12-21 | <https://forums.warframe.com/topic/897989-plains-of-eidolon-update-2280-hotfix-22801/> | 1513882115 | <https://web.archive.org/web/20211020195710/https://forums.warframe.com/topic/897989-plains-of-eidolon-update-2280-hotfix-22801/> | 2021-10-20 |
 | [Hotfix 21.3.1](/w/Update_21#Hotfix_21.3.1 "Update 21") | 21.3 | H21.3.1 |  |  | ❌ | 2017-08-04 | <https://forums.warframe.com/topic/827047-chains-of-harrow-hotfix-2131/> | 1501877426 | <https://web.archive.org/web/20201020235956/https://forums.warframe.com/topic/827047-chains-of-harrow-hotfix-2131/> | 2020-10-20 |
@@ -663,8 +662,9 @@ Full Version List")]
 | [Update 18.4](/w/Update_18#Update_18.4 "Update 18") | 18.4 | U18.4 | Trinity Deluxe Strega Collection |  | ✔️ | 2016-01-22 | <https://forums.warframe.com/topic/597888-update-1840/> | 1453422263 | <https://web.archive.org/web/20210508075720/https://forums.warframe.com/topic/597888-update-1840/> | 2021-05-08 |
 | [Update 17.3](/w/Update_17#Update_17.3 "Update 17") | 17.3 | U17.3 | Tenno Reinforcements: Syndicate Weapons and Diriga |  | ✔️ | 2015-09-02 | <https://forums.warframe.com/topic/521781-update-1730/> | 1441227406 | <https://web.archive.org/web/20210508041801/https://forums.warframe.com/topic/521781-update-1730/> | 2021-05-08 |
 | [Hotfix 10.5.6](/w/Update_10#Hotfix_10.5.6 "Update 10") | 10.5 | H10.5.6 |  |  | ❌ | 2013-10-29 | <https://forums.warframe.com/topic/125633-hotfix-1056/> | 1383067211 | <https://web.archive.org/web/20220129234220/https://forums.warframe.com/topic/125633-hotfix-1056/> | 2022-01-29 |
-| [Hotfix 44.0.3](/w/Update_44:_Iceblade_of_Narin "Update 44: Iceblade of Narin") | 44.0 | H44.0.3 | Iceblade of Narin |  | ❌ | 2026-09-30 | <https://forums.warframe.com/topic/1526292-iceblade-of-narin-hotfix-4403/> | 1790813194 | <https://web.archive.org/web/20260930231247/https://forums.warframe.com/topic/1526292-iceblade-of-narin-hotfix-4403/> | 2026-09-30 |
-| [Hotfix 44.0.2](/w/Update_44:_Iceblade_of_Narin "Update 44: Iceblade of Narin") | 44.0 | H44.0.2 | Iceblade of Narin |  | ❌ | 2026-09-28 | <https://forums.warframe.com/topic/1525835-iceblade-of-narin-hotfix-4402/> | 1790636822 | <https://web.archive.org/web/20260928191357/https://forums.warframe.com/topic/1525835-iceblade-of-narin-hotfix-4402/> | 2026-09-28 |
+| [Hotfix 43.0.4](/w/Update_43#Hotfix_43.0.4 "Update 43") | 43.0 | H43.0.4 |  |  | ❌ | 2026-06-23 | <https://forums.warframe.com/topic/1513074-jade-shadows-constellations-hotfix-4304/> | 1782241689 |  |  |
+| [Hotfix 44.0.3](/w/Update_44#Hotfix_44.0.3 "Update 44") | 44.0 | H44.0.3 |  |  | ❌ | 2026-09-30 | <https://forums.warframe.com/topic/1526292-iceblade-of-narin-hotfix-4403/> | 1790813194 | <https://web.archive.org/web/20260930231247/https://forums.warframe.com/topic/1526292-iceblade-of-narin-hotfix-4403/> | 2026-09-30 |
+| [Hotfix 44.0.2](/w/Update_44#Hotfix_44.0.2 "Update 44") | 44.0 | H44.0.2 |  |  | ❌ | 2026-09-28 | <https://forums.warframe.com/topic/1525835-iceblade-of-narin-hotfix-4402/> | 1790636822 | <https://web.archive.org/web/20260928191357/https://forums.warframe.com/topic/1525835-iceblade-of-narin-hotfix-4402/> | 2026-09-28 |
 | [Update 44.0](/w/Update_44:_Iceblade_of_Narin "Update 44: Iceblade of Narin") | 44.0 | U44.0 | Iceblade of Narin |  | ✔️ | 2026-09-23 | <https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/> | 1790175780 | <https://web.archive.org/web/20260923160723/https://forums.warframe.com/topic/1523956-update-44-iceblade-of-narin/> | 2026-09-23 |
 | [Hotfix 19.0.5](/w/Update_19#Hotfix_19.0.5 "Update 19") | 19.0 | H19.0.5 |  |  | ❌ | 2016-11-18 | <https://forums.warframe.com/topic/721283-hotfix-1905/> | 1479485369 | <https://web.archive.org/web/20191028153442/https://forums.warframe.com/topic/721283-hotfix-1905/> | 2019-10-28 |
 | [Hotfix 43.5.4](/w/Update_43#Hotfix_43.5.4 "Update 43") | 43.0 | H43.5.4 |  |  | ❌ | 2026-08-19 | <https://forums.warframe.com/topic/1520771-amir%E2%80%99s-shockwave-hotfix-4354/> | 1787177125 |  |  |
@@ -682,7 +682,7 @@ Full Version List")]
 | [Hotfix 17.1.2](/w/Update_17#Hotfix_17.1.2 "Update 17") | 17.1 | H17.1.2 |  |  | ❌ | 2015-08-12 | <https://forums.warframe.com/topic/509640-update-1710-1714/> | 1439413725 | <https://web.archive.org/web/20210508031909/https://forums.warframe.com/topic/509640-update-1710-1714/> | 2021-05-08 |
 | [Hotfix 43.0.7](/w/Update_43#Hotfix_43.0.7 "Update 43") | 43.0 | H43.0.7 | Mesa Heirloom |  | ❌ | 2026-07-11 | <https://forums.warframe.com/topic/1516048-mesa-heirloom-hotfix-4307/> | 1783780320 |  |  |
 | [Hotfix 43.0.5](/w/Update_43#Hotfix_43.0.5 "Update 43") | 43.0 | H43.0.5 |  |  | ❌ | 2026-06-25 | <https://forums.warframe.com/topic/1513670-jade-shadows-constellations-hotfix-4305/> | 1782413611 |  |  |
-| [Hotfix 43.0.4](/w/Update_43#Hotfix_43.0.4 "Update 43") | 43.0 | H43.0.4 |  |  | ❌ | 2026-06-23 | <https://forums.warframe.com/topic/1513074-jade-shadows-constellations-hotfix-4304/> | 1782241689 |  |  |
+| [Update 44.1](/w/Update_44#Update_44.1 "Update 44") | 44 | U44.1 | The Icebind |  | ✔️ | 2026-10-07 | <https://forums.warframe.com/topic/1527298-update-4410-iceblade-of-narin-the-icebind/> | 1791399657 | [PH] | [PH] |
 | [Hotfix 43.0.1](/w/Update_43#Hotfix_43.0.1 "Update 43") | 43.0 | H43.0.1 |  |  | ❌ | 2026-06-17 | <https://forums.warframe.com/topic/1510149-jade-shadows-constellations-hotfix-4301/> | 1781736948 |  |  |
 | [Hotfix 16.11.2](/w/Update_16#Hotfix_16.11.2 "Update 16") | 16.11 | H16.11.2 |  |  | ❌ | 2015-07-08 | <https://forums.warframe.com/topic/486780-hotfix-16112/> | 1436368883 | <https://web.archive.org/web/20201020232259/https://forums.warframe.com/topic/486780-hotfix-16112/> | 2020-10-20 |
 | [Hotfix 42.0.9](/w/Update_42#Hotfix_42.0.9 "Update 42") | 42.0 | H42.0.9 |  |  | ❌ | 2026-05-04 | <https://forums.warframe.com/topic/1505376-voruna-prime-hotfix-4209/> | 1777906835 |  |  |
@@ -20889,7 +20889,7 @@ local Versions = {
 	},
 	{
 		Name = "Hotfix 44.0.1",
-		Link = "Update 44: Iceblade of Narin",
+		Link = "Update 44#Hotfix 44.0.1",
 		Aliases = { "44.0.1" },
 		ShortName = "H44.0.1",
 		Date = "2026-09-24",
@@ -20898,11 +20898,10 @@ local Versions = {
 		ArchiveLink = "https://web.archive.org/web/20260924200629/https://forums.warframe.com/topic/1524660-iceblade-of-narin-hotfix-4401/",
 		ArchiveDate = "2026-09-24",
 		Timestamp = 1790294355,
-		Subtitle = "Iceblade of Narin"
 	},
 	{
 		Name = "Hotfix 44.0.2",
-		Link = "Update 44: Iceblade of Narin",
+		Link = "Update 44#Hotfix 44.0.2",
 		Aliases = { "44.0.2" },
 		ShortName = "H44.0.2",
 		Date = "2026-09-28",
@@ -20911,11 +20910,10 @@ local Versions = {
 		ArchiveLink = "https://web.archive.org/web/20260928191357/https://forums.warframe.com/topic/1525835-iceblade-of-narin-hotfix-4402/",
 		ArchiveDate = "2026-09-28",
 		Timestamp = 1790636822,
-		Subtitle = "Iceblade of Narin"
 	},
 	{
 		Name = "Hotfix 44.0.3",
-		Link = "Update 44: Iceblade of Narin",
+		Link = "Update 44#Hotfix 44.0.3",
 		Aliases = { "44.0.3" },
 		ShortName = "H44.0.3",
 		Date = "2026-09-30",
@@ -20924,7 +20922,19 @@ local Versions = {
 		ArchiveLink = "https://web.archive.org/web/20260930231247/https://forums.warframe.com/topic/1526292-iceblade-of-narin-hotfix-4403/",
 		ArchiveDate = "2026-09-30",
 		Timestamp = 1790813194,
-		Subtitle = "Iceblade of Narin"
+	},
+	{
+		Name = "Update 44.1",
+		Link = "Update 44#Update 44.1",
+		Aliases = { "44.1" },
+		ShortName = "U44.1",
+		Date = "2026-10-07",
+		Parent = "44",
+		ForumLink = "https://forums.warframe.com/topic/1527298-update-4410-iceblade-of-narin-the-icebind/",
+		ArchiveLink = "[PH]",
+		ArchiveDate = "[PH]",
+		Timestamp = 1791399657,
+		Subtitle = "The Icebind"
 	},
 }
 

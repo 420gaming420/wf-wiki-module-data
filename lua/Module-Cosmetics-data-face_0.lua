@@ -836,6 +836,16 @@ return {
         Name = "Complexion B-17",
         Type = "Complexion (Operator)"
     },
+    ["Complexion B-17 [Legacy] (Operator)"] = {
+        CodexSecret = false,
+        Description = "Customize coloration using complexion tint.",
+        ExcludeFromCodex = true,
+        Image = "ComplexionB17Legacy.png",
+        InternalName = "/Lotus/Upgrades/Skins/Operator/Heads/ExtraAlbedoC",
+        Link = "Complexion B-17 [Legacy]",
+        Name = "Complexion B-17 [Legacy]",
+        Type = "Complexion (Operator)"
+    },
     ["Complexion C-24 (Operator)"] = {
         CodexSecret = false,
         Description = "Customize coloration using complexion tint.",
@@ -1036,6 +1046,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Operator/Heads/ExtraAdultAlbedoB",
         Link = "Complexion B-17",
         Name = "Complexion B-17",
+        Type = "Complexion (Drifter)"
+    },
+    ["Complexion B-17 [Legacy] (Drifter)"] = {
+        CodexSecret = false,
+        Description = "Customize coloration using complexion tint.",
+        ExcludeFromCodex = true,
+        Image = "ComplexionB17Legacy.png",
+        InternalName = "/Lotus/Upgrades/Skins/Operator/Heads/ExtraAdultAlbedoC",
+        Link = "Complexion B-17 [Legacy]",
+        Name = "Complexion B-17 [Legacy]",
         Type = "Complexion (Drifter)"
     },
     ["Complexion C-24 (Drifter)"] = {

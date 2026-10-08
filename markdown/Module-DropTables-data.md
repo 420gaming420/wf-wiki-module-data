@@ -1,7 +1,7 @@
 ---
 title: "Module:DropTables/data"
 wiki_url: "https://wiki.warframe.com/w/Module/DropTables/data"
-wiki_timestamp: "2026-10-07T01:43:07Z"
+wiki_timestamp: "2026-10-08T02:07:25Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -19,7 +19,7 @@ Manually updated fork of the public [Drop Tables](/w/Drop_Tables "Drop Tables") 
 
 See [Module:DropTables](/w/Module:DropTables "Module:DropTables") to see what various things this is being used for right now.
 
-:   *Last updated: Wed, 07 Oct 2026 01:43:07 +0000 (UTC) by [User:~2026-AnchovyCityOfCorrupted45577](/w/User:~2026-AnchovyCityOfCorrupted45577?action=edit&redlink=1 "User:~2026-AnchovyCityOfCorrupted45577 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:DropTables/data?diff=0))*
+:   *Last updated: Thu, 08 Oct 2026 02:07:25 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:DropTables/data?diff=0))*
 
 ## Contents
 
@@ -63,7 +63,7 @@ How To Update Drop Tables")]
 | Endless | [Alchemy](/w/Alchemy "Alchemy") • [Defection](/w/Defection "Defection") • [Disruption](/w/Disruption "Disruption") • [Defense](/w/Defense "Defense") ([Mirror](/w/Mirror_Defense "Mirror Defense")) • [Excavation](/w/Excavation "Excavation") • [Infested Salvage](/w/Infested_Salvage "Infested Salvage") • [Interception](/w/Interception "Interception") • [Legacyte Harvest](/w/Legacyte_Harvest "Legacyte Harvest") • [Survival](/w/Survival "Survival") ([Conjunction](/w/Conjunction_Survival "Conjunction Survival"), [Hell-Scrub](/w/Hell-Scrub "Hell-Scrub")) • [Void Armageddon](/w/Void_Armageddon "Void Armageddon") • [Void Cascade](/w/Void_Cascade "Void Cascade") • [Void Flood](/w/Void_Flood "Void Flood") |
 | [Free Roam](/w/Landscape "Landscape") | [Bounty](/w/Bounty "Bounty") ([Isolation Vault](/w/Isolation_Vault "Isolation Vault"), [Heist](/w/Heist "Heist")) |
 | [Arena](/w/Arena "Arena") | [The Index](/w/The_Index "The Index") • [Rathuum](/w/Rathuum "Rathuum") |
-| Special | [Ascension](/w/Ascension "Ascension") • [Faceoff](/w/Faceoff "Faceoff") • [Follie's Hunt](/w/Follie%27s_Hunt "Follie's Hunt") • [Granum Void](/w/Granum_Void "Granum Void") • [Junction](/w/Junction "Junction") • [Netracells](/w/Netracells "Netracells") • [Recovery](/w/Recovery "Recovery") • [Sanctuary Onslaught](/w/Sanctuary_Onslaught "Sanctuary Onslaught") • [Shrine Defense](/w/Shrine_Defense "Shrine Defense") |
+| Special | [Ascension](/w/Ascension "Ascension") • [Faceoff](/w/Faceoff "Faceoff") • [Follie's Hunt](/w/Follie%27s_Hunt "Follie's Hunt") • [Granum Void](/w/Granum_Void "Granum Void") • [Junction](/w/Junction "Junction") • [Netracells](/w/Netracells "Netracells") • [Recovery](/w/Recovery "Recovery") • [Sanctuary Onslaught](/w/Sanctuary_Onslaught "Sanctuary Onslaught") • [Shrine Defense](/w/Shrine_Defense "Shrine Defense") • [The Icebind](/w/The_Icebind "The Icebind") |
 | Archimedea | [Deep Archimedea](/w/Deep_Archimedea "Deep Archimedea") • [Temporal Archimedea](/w/Temporal_Archimedea "Temporal Archimedea") |
 | [Dark Refractory](/w/Dark_Refractory "Dark Refractory") | [The Descendia](/w/The_Descendia "The Descendia") • [The Perita Rebellion](/w/The_Perita_Rebellion "The Perita Rebellion") • [The Guilty](/w/The_Guilty "The Guilty") |
 | [Archwing](/w/Archwing "Archwing") | [Exterminate](/w/Exterminate "Exterminate") • [Interception](/w/Interception "Interception") • [Mobile Defense](/w/Mobile_Defense "Mobile Defense") • [Pursuit](/w/Pursuit "Pursuit") • [Rush](/w/Rush_(Archwing) "Rush (Archwing)") • [Sabotage](/w/Sabotage#Archwing_Reactor_Sabotage "Sabotage") |
@@ -27329,6 +27329,68 @@ local DropData = {
 			},
 			Tier = "Uranus Proxima",
 			Type = "Skirmish" 
+		},
+	
+		--Update 44.1: Iceblade of Narin: The Icebind
+		["The Icebind: Crested Frozen Chests"] = {
+			Alias = "The Icebind: Crested Frozen Chests",
+			InternalName = "",
+			Link = "The Icebind",
+			Name = "The Icebind",
+			Rewards = {
+				A = {
+					{ "Riven Transmuter", "Resource", 5.0 },
+					{ "Veiled Riven Cipher", "Resource", 5.0 },
+					{ "Omni Forma", "Resource", 10.0 },
+					{ "Forma Bundle", "Resource", 10.0 },
+					{ "Melee Riven Mod", "Mod", 10.5 },
+					{ "Pistol Riven Mod", "Mod", 8.75 },
+					{ "Rifle Riven Mod", "Mod", 8.75 },
+					{ "Shotgun Riven Mod", "Mod", 4.55 },
+					{ "Archgun Riven Mod", "Mod", 1.22 },
+					{ "Companion Weapon Riven Mod", "Mod", 1.22 },
+					{ "Azure Archon Shard", "Resource", 11.67 },
+					{ "Crimson Archon Shard", "Resource", 11.67 },
+					{ "Amber Archon Shard", "Resource", 11.67 },
+				},
+				B = {
+					{ "Kuva", "Resource", 69.0, 7500 },
+					{ "Kuva", "Resource", 30.0, 17500 },
+					{ "Kuva", "Resource", 1.0, 100000 },
+				},
+			},
+			Tier = "Earth",
+			Type = "The Icebind" 
+		},
+		["The Icebind: Frozen Chests"] = {
+			Alias = "The Icebind: Frozen Chests",
+			InternalName = "",
+			Link = "The Icebind",
+			Name = "The Icebind",
+			Rewards = {
+				A = {
+					{ "Forma", "Resource", 16.88 },
+					{ "Vosfor", "Resource", 16.88, 200 },
+					{ "Melee Riven Mod", "Mod", 11.81 },
+					{ "Pistol Riven Mod", "Mod", 8.44 },
+					{ "Rifle Riven Mod", "Mod", 8.44 },
+					{ "3 Day Affinity Booster", "Resource", 5.63 },
+					{ "3 Day Resource Drop Chance Booster", "Resource", 5.63 },
+					{ "3 Day Resource Booster", "Resource", 5.63 },
+					{ "3 Day Credit Booster", "Resource", 5.63 },
+					{ "Shotgun Riven Mod", "Mod", 5.06 },
+					{ "Azure Archon Shard", "Resource", 3.33 },
+					{ "Crimson Archon Shard", "Resource", 3.33 },
+					{ "Amber Archon Shard", "Resource", 3.33 },
+				},
+				B = {
+					{ "Kuva", "Resource", 65.0, 1750 },
+					{ "Kuva", "Resource", 30.0, 3500 },
+					{ "Kuva", "Resource", 5.0, 7000 },
+				},
+			},
+			Tier = "Earth",
+			Type = "The Icebind" 
 		},
 	},
 	Rewards = {},

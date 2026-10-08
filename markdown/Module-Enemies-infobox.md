@@ -1,7 +1,7 @@
 ---
 title: "Module:Enemies/infobox"
 wiki_url: "https://wiki.warframe.com/w/Module/Enemies/infobox"
-wiki_timestamp: "2026-10-07T01:07:12Z"
+wiki_timestamp: "2026-10-08T04:36:35Z"
 ---
 
 Creates the infobox for enemies for use on [Template:EnemyInfobox](/w/Template:EnemyInfobox "Template:EnemyInfobox") and [Template:EnemyInfoboxHorizontal](/w/Template:EnemyInfoboxHorizontal "Template:EnemyInfoboxHorizontal"). This infobox is more complex than other infoboxes on the wiki since it has an interactive [Enemy Level Scaling](/w/Enemy_Level_Scaling "Enemy Level Scaling") slider that utilizes [MediaWiki:Gadget-enemyinfoboxslider.js](/w/MediaWiki:Gadget-enemyinfoboxslider.js "MediaWiki:Gadget-enemyinfoboxslider.js"). The module determines the necessary parameters that the slider will use and embeds them in the HTML source of the infobox.
@@ -670,7 +670,7 @@ buildInfobox = function(frame)
 			
 			:srow('SteelPathHealthBonus', '[[The Steel Path|SP]] [[Health]] Bonus', 'steel_path_health_bonus', steelPathHealthBonus)
 			:srow('SteelPathShieldBonus', '[[The Steel Path|SP]] [[Shield]] Bonus', 'steel_path_shield_bonus', steelPathShieldBonus)
-			:srow('ArchimedeaHealthBonus', '[[Archimedea|Arch.]] [[Health]] Bonus', 'archimedea_health_bonus', archimedeaHealthBonus)
+			:srow('ArchimedeaHealthBonus', '[[Archimedea (Mission)|Arch.]] [[Health]] Bonus', 'archimedea_health_bonus', archimedeaHealthBonus)
 			
 			:srow('EHP', Text._text('Effective Hit Points (EHP)', { hoverText='Effective amount of hit points, taking health, armor and shields into account.', cursor='help' }), 'out_ehp', '––')
 		:done()
@@ -686,7 +686,7 @@ JavaScript not loaded. Please make sure the ⧼gadget-enemyinfoboxslider⧽ is e
 			:srow('SelectedLevel', Text._text('Selected Level', { hoverText = 'For higher enemy levels input the value manually.', cursor='help' }), 'out_lvl', '––', '')
 			:srow('IsEximus', '[[Eximus]]', 'is_eximus', '––')
 			:srow('IsSteelPath', '[[Steel Path]]', 'is_steel_path', '––')
-			:srow('IsEmpowered', '[[Archon Hunt]], [[Netracell]] or [[Archimedea]]', 'is_empowered', '––')
+			:srow('IsEmpowered', '[[Archon Hunt]], [[Netracell]] or [[Archimedea (Mission)|Archimedea]]', 'is_empowered', '––')
 			:srow('IsIcebind', '[[The Icebind]]', 'is_icebind', '––')
 			:srow('PlayerCount', Text._text('Player Count', { hoverText = 'Some game modes multiply the Health, Shields (and in some cases) Armors of enemies depending on how many players are in a squad.', cursor='help' }), 'player_count', '––')
 		:done()
@@ -1007,7 +1007,7 @@ buildInfoboxHorizontal = function(frame)
 			
 			:srow('SteelPathHealthBonus', '[[The Steel Path|SP]] [[Health]] Bonus', 'steel_path_health_bonus', steelPathHealthBonus)
 			:srow('SteelPathShieldBonus', '[[The Steel Path|SP]] [[Shield]] Bonus', 'steel_path_shield_bonus', steelPathShieldBonus)
-			:srow('ArchimedeaHealthBonus', '[[Archimedea|Arch.]] [[Health]] Bonus', 'archimedea_health_bonus', archimedeaHealthBonus)
+			:srow('ArchimedeaHealthBonus', '[[Archimedea (Mission)|Arch.]] [[Health]] Bonus', 'archimedea_health_bonus', archimedeaHealthBonus)
 			
 			:srow('EHP', Text._text('Effective Hit Points (EHP)', { hoverText='Effective amount of hit points, taking health, armor and shields into account.', cursor='help' }), 'out_ehp', '––')
 		:done()
@@ -1022,7 +1022,7 @@ JavaScript not loaded. Please make sure the ⧼gadget-enemyinfoboxslider⧽ is e
 			:srow('SelectedLevel', Text._text('Selected Level', { hoverText = 'For higher enemy levels input the value manually.', cursor='help' }), 'out_lvl', '––', '')
 			:srow('IsEximus', '[[Eximus]]', 'is_eximus', '––')
 			:srow('IsSteelPath', '[[Steel Path]]', 'is_steel_path', '––')
-			:srow('IsEmpowered', '[[Netracell]] / [[Archon Hunt]] / [[Archimedea]]', 'is_empowered', '––')
+			:srow('IsEmpowered', '[[Netracell]] / [[Archon Hunt]] / [[Archimedea (Mission)|Archimedea]]', 'is_empowered', '––')
 			:srow('IsIcebind', '[[The Icebind]]', 'is_icebind', '––')
 			:srow('PlayerCount', Text._text('Player Count', { hoverText = 'Some game modes multiply the Health, Shields (and in some cases) Armors of enemies depending on how many players are in a squad.', cursor='help' }), 'player_count', '––')
 		:done()

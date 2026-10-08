@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-10-03T07:47:28.297Z"
+    "converted_at": "2026-10-08T08:35:00.257Z"
   },
   "_comments": "    -- Beard\n    -- Hairstyle\n    -- Marking\n    -- Complexion (Operator)\n    -- Complexion (Drifter)\n    -- Face (Operator)\n    -- Visage (Voyageur)",
   "Visage 80 (Drifter)": {
@@ -327,13 +327,13 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Complexion T-68 (Drifter)": {
-    "Type": "Complexion (Drifter)",
-    "Image": "ComplexionT68.png",
+  "Complexion B-17 [Legacy] (Operator)": {
+    "Type": "Complexion (Operator)",
+    "Image": "ComplexionB17Legacy.png",
     "Description": "Customize coloration using complexion tint.",
-    "Link": "Complexion T-68",
-    "Name": "Complexion T-68",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultAlbedoT",
+    "Link": "Complexion B-17 [Legacy]",
+    "Name": "Complexion B-17 [Legacy]",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/ExtraAlbedoC",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
@@ -957,6 +957,26 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
+  "Visage 82 (Drifter)": {
+    "Type": "Face (Drifter)",
+    "Image": "DrifterVisage82.png",
+    "Description": "A face for the Drifter.",
+    "Link": "Visage 82",
+    "Name": "Visage 82",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultHeadORemastered",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Complexion T-68 (Drifter)": {
+    "Type": "Complexion (Drifter)",
+    "Image": "ComplexionT68.png",
+    "Description": "Customize coloration using complexion tint.",
+    "Link": "Complexion T-68",
+    "Name": "Complexion T-68",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultAlbedoT",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
   "Short Left Flip": {
     "Type": "Hair",
     "Image": "ShortLeftFlip.png",
@@ -967,13 +987,13 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Visage 82 (Drifter)": {
+  "Visage 70 (Drifter)": {
     "Type": "Face (Drifter)",
-    "Image": "DrifterVisage82.png",
+    "Image": "DrifterVisage70.png",
     "Description": "A face for the Drifter.",
-    "Link": "Visage 82",
-    "Name": "Visage 82",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultHeadORemastered",
+    "Link": "Visage 70",
+    "Name": "Visage 70",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultHeadLRemastered",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
@@ -987,13 +1007,13 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Visage 20 (Operator)": {
-    "Type": "Face (Operator)",
-    "Image": "OperatorVisage20.png",
-    "Description": "A face for the Operator.",
-    "Link": "Visage 20",
-    "Name": "Visage 20",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/HeadGRemastered",
+  "Visage 67 (Drifter)": {
+    "Type": "Face (Drifter)",
+    "Image": "DrifterVisage67.png",
+    "Description": "A face for the Drifter.",
+    "Link": "Visage 67",
+    "Name": "Visage 67",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultHeadFRemastered",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
@@ -1014,26 +1034,6 @@
     "Link": "Braid Forelocks",
     "Name": "Braid Forelocks",
     "InternalName": "",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Visage 70 (Drifter)": {
-    "Type": "Face (Drifter)",
-    "Image": "DrifterVisage70.png",
-    "Description": "A face for the Drifter.",
-    "Link": "Visage 70",
-    "Name": "Visage 70",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultHeadLRemastered",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Visage 67 (Drifter)": {
-    "Type": "Face (Drifter)",
-    "Image": "DrifterVisage67.png",
-    "Description": "A face for the Drifter.",
-    "Link": "Visage 67",
-    "Name": "Visage 67",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultHeadFRemastered",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
@@ -1067,33 +1067,13 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Complexion I-29 (Drifter)": {
-    "Type": "Complexion (Drifter)",
-    "Image": "ComplexionI29.png",
-    "Description": "Customize coloration using complexion tint.",
-    "Link": "Complexion I-29",
-    "Name": "Complexion I-29",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultAlbedoG",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Tied Back Short Kaithetail": {
+  "Tied Back High Kaithetail": {
     "Type": "Hair",
-    "Image": "TiedBackShortKaithetail.png",
+    "Image": "TiedBackHighKaithetail.png",
     "Description": "A distinct hair style.",
-    "Link": "Tied Back Short Kaithetail",
-    "Name": "Tied Back Short Kaithetail",
+    "Link": "Tied Back High Kaithetail",
+    "Name": "Tied Back High Kaithetail",
     "InternalName": "",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Complexion A-92 (Operator)": {
-    "Type": "Complexion (Operator)",
-    "Image": "ComplexionA92.png",
-    "Description": "Customize coloration using complexion tint.",
-    "Link": "Complexion A-92",
-    "Name": "Complexion A-92",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/ExtraAlbedoA",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
@@ -1114,6 +1094,26 @@
     "Link": "Visage 15",
     "Name": "Visage 15",
     "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultHeadQRemastered",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Tied Back Short Kaithetail": {
+    "Type": "Hair",
+    "Image": "TiedBackShortKaithetail.png",
+    "Description": "A distinct hair style.",
+    "Link": "Tied Back Short Kaithetail",
+    "Name": "Tied Back Short Kaithetail",
+    "InternalName": "",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Complexion A-92 (Operator)": {
+    "Type": "Complexion (Operator)",
+    "Image": "ComplexionA92.png",
+    "Description": "Customize coloration using complexion tint.",
+    "Link": "Complexion A-92",
+    "Name": "Complexion A-92",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/ExtraAlbedoA",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
@@ -1167,16 +1167,6 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Complexion D-58 (Drifter)": {
-    "Type": "Complexion (Drifter)",
-    "Image": "ComplexionD58.png",
-    "Description": "Customize coloration using complexion tint.",
-    "Link": "Complexion D-58",
-    "Name": "Complexion D-58",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultAlbedoB",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
   "Visage 47 (Operator)": {
     "Type": "Face (Operator)",
     "Image": "OperatorVisage47.png",
@@ -1197,6 +1187,16 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
+  "Complexion D-58 (Drifter)": {
+    "Type": "Complexion (Drifter)",
+    "Image": "ComplexionD58.png",
+    "Description": "Customize coloration using complexion tint.",
+    "Link": "Complexion D-58",
+    "Name": "Complexion D-58",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultAlbedoB",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
   "Visage 39 (Operator)": {
     "Type": "Face (Operator)",
     "Image": "OperatorVisage39.png",
@@ -1204,6 +1204,26 @@
     "Link": "Visage 39",
     "Name": "Visage 39",
     "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/HeadKRemastered",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Visage 20 (Operator)": {
+    "Type": "Face (Operator)",
+    "Image": "OperatorVisage20.png",
+    "Description": "A face for the Operator.",
+    "Link": "Visage 20",
+    "Name": "Visage 20",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/HeadGRemastered",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Visage 18 (Operator)": {
+    "Type": "Face (Operator)",
+    "Image": "OperatorVisage18.png",
+    "Description": "A face for the Operator.",
+    "Link": "Visage 18",
+    "Name": "Visage 18",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/HeadTRemastered",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
@@ -1237,13 +1257,13 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Visage 18 (Operator)": {
-    "Type": "Face (Operator)",
-    "Image": "OperatorVisage18.png",
-    "Description": "A face for the Operator.",
-    "Link": "Visage 18",
-    "Name": "Visage 18",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/HeadTRemastered",
+  "Complexion Q-40 (Drifter)": {
+    "Type": "Complexion (Drifter)",
+    "Image": "ComplexionQ40.png",
+    "Description": "Customize coloration using complexion tint.",
+    "Link": "Complexion Q-40",
+    "Name": "Complexion Q-40",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultAlbedoQ",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
@@ -1287,13 +1307,13 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Complexion Q-40 (Drifter)": {
+  "Complexion N-5 (Drifter)": {
     "Type": "Complexion (Drifter)",
-    "Image": "ComplexionQ40.png",
+    "Image": "ComplexionN5.png",
     "Description": "Customize coloration using complexion tint.",
-    "Link": "Complexion Q-40",
-    "Name": "Complexion Q-40",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultAlbedoQ",
+    "Link": "Complexion N-5",
+    "Name": "Complexion N-5",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultAlbedoK",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
@@ -1304,16 +1324,6 @@
     "Link": "Complexion P-9",
     "Name": "Complexion P-9",
     "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultAlbedoN",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Complexion N-5 (Drifter)": {
-    "Type": "Complexion (Drifter)",
-    "Image": "ComplexionN5.png",
-    "Description": "Customize coloration using complexion tint.",
-    "Link": "Complexion N-5",
-    "Name": "Complexion N-5",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultAlbedoK",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
@@ -1357,6 +1367,16 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
+  "Complexion I-29 (Drifter)": {
+    "Type": "Complexion (Drifter)",
+    "Image": "ComplexionI29.png",
+    "Description": "Customize coloration using complexion tint.",
+    "Link": "Complexion I-29",
+    "Name": "Complexion I-29",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultAlbedoG",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
   "Visage 33 (Drifter)": {
     "Type": "Face (Drifter)",
     "Image": "DrifterVisage33.png",
@@ -1364,16 +1384,6 @@
     "Link": "Visage 33",
     "Name": "Visage 33",
     "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultHeadNRemastered",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Tied Back High Kaithetail": {
-    "Type": "Hair",
-    "Image": "TiedBackHighKaithetail.png",
-    "Description": "A distinct hair style.",
-    "Link": "Tied Back High Kaithetail",
-    "Name": "Tied Back High Kaithetail",
-    "InternalName": "",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
@@ -1404,6 +1414,16 @@
     "Link": "Complexion E-92",
     "Name": "Complexion E-92",
     "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/AdultAlbedoC",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Complexion B-17 [Legacy] (Drifter)": {
+    "Type": "Complexion (Drifter)",
+    "Image": "ComplexionB17Legacy.png",
+    "Description": "Customize coloration using complexion tint.",
+    "Link": "Complexion B-17 [Legacy]",
+    "Name": "Complexion B-17 [Legacy]",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Heads/ExtraAdultAlbedoC",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },

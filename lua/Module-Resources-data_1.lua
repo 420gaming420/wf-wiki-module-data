@@ -2747,6 +2747,16 @@ local ResourceData = {
 		Tradable = false,
 		Type = "Item"
 	},
+	["Forma Bundle"] = {
+		Description = "A collection of three Formas.",
+		Image = "FormaBundle.png",
+		Introduced = "18.6",
+		InternalName = "/Lotus/Types/StoreItems/Packages/FormaPack",
+		Link = "Forma Bundle",
+		Name = "Forma Bundle",
+		Tradable = false,
+		Type = "Item"
+	},
 	["Stance Forma"] = {
 		Description = "Modifies a Stance slot on a melee weapon to be compatible with any Mod Polarity.",
 		Image = "StanceForma.png",
@@ -8179,14 +8189,14 @@ local ResourceData = {
 		RetrieverModAble = false,
 	},
 	["Entropic Kuva"] = {
-		Description = "A dangerous and erratic type of Kuva.\r\n\r\nObtained from Zariman missions.",
+		Description = "A dangerous and erratic type of Kuva.\r\n\r\nObtained from Entropic Eximus in Zariman missions.",
 		Image = "Entropic_Kuva.png",
 		InternalName = "/Lotus/Types/Gameplay/Zariman/Resources/EntropicKuvaItem",
 		Introduced = "44",
 		Link = "Entropic Kuva (Resource)",
 		Name = "Entropic Kuva",
 		Type = "Resource",
-		ResourceBoostAble = false,--unsure please correct it--
+		ResourceBoostAble = false,
 		ResourceDropChanceBoostAble = false,
 		RetrieverModAble = false,
 	},
@@ -11859,7 +11869,7 @@ local ResourceData = {
 		Description = "Used in the Mod Workbench to splice Riven traits into a new trait from a special pool of possibilities.",
 		Image = "RivenSplicer.png",
 		InternalName = "/Lotus/Types/Items/MiscItems/RivenSplicer",
-		Introduced = "TBA",
+		Introduced = "44.1",
 		Link = "Riven Splicer",
 		Name = "Riven Splicer",
 		Type = "Resource",
