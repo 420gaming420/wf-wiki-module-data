@@ -1,7 +1,7 @@
 ---
 title: "Module:Version/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Version/data"
-wiki_timestamp: "2026-10-07T18:09:19Z"
+wiki_timestamp: "2026-10-08T21:13:34Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Include official index links in schema like <https://www.warframe.com/patch-note
 
 Database for [Module:Version](/w/Module:Version "Module:Version"). Entries are in order by date in ascending order and are indexed by `Name` and each element in `Aliases` tables.
 
-:   *Last updated: Wed, 07 Oct 2026 18:09:19 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Version/data?diff=0))*
+:   *Last updated: Thu, 08 Oct 2026 21:13:34 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Version/data?diff=0))*
 
 ## Contents
 
@@ -661,6 +661,7 @@ Full Version List")]
 | [Hotfix 19.4.2.1](/w/Update_19#Hotfix_19.4.2.1 "Update 19") | 19.0 | H19.4.2.1 |  |  | ❌ | 2016-12-20 | <https://forums.warframe.com/topic/737306-the-war-within-update-1942-19421/> | 1482277076 | <https://web.archive.org/web/20211125042920/https://forums.warframe.com/topic/737306-the-war-within-update-1942-19421/> | 2021-11-25 |
 | [Update 18.4](/w/Update_18#Update_18.4 "Update 18") | 18.4 | U18.4 | Trinity Deluxe Strega Collection |  | ✔️ | 2016-01-22 | <https://forums.warframe.com/topic/597888-update-1840/> | 1453422263 | <https://web.archive.org/web/20210508075720/https://forums.warframe.com/topic/597888-update-1840/> | 2021-05-08 |
 | [Update 17.3](/w/Update_17#Update_17.3 "Update 17") | 17.3 | U17.3 | Tenno Reinforcements: Syndicate Weapons and Diriga |  | ✔️ | 2015-09-02 | <https://forums.warframe.com/topic/521781-update-1730/> | 1441227406 | <https://web.archive.org/web/20210508041801/https://forums.warframe.com/topic/521781-update-1730/> | 2021-05-08 |
+| [Hotfix 44.1.1](/w/Update_44#Hotfix_44.1.1 "Update 44") | 44 | H44.1.1 |  |  | ❌ | 2026-10-08 | <https://forums.warframe.com/topic/1527669-iceblade-of-narin-the-icebind-hotfix-4411/> | 1791501288 | [PH] | [PH] |
 | [Hotfix 10.5.6](/w/Update_10#Hotfix_10.5.6 "Update 10") | 10.5 | H10.5.6 |  |  | ❌ | 2013-10-29 | <https://forums.warframe.com/topic/125633-hotfix-1056/> | 1383067211 | <https://web.archive.org/web/20220129234220/https://forums.warframe.com/topic/125633-hotfix-1056/> | 2022-01-29 |
 | [Hotfix 43.0.4](/w/Update_43#Hotfix_43.0.4 "Update 43") | 43.0 | H43.0.4 |  |  | ❌ | 2026-06-23 | <https://forums.warframe.com/topic/1513074-jade-shadows-constellations-hotfix-4304/> | 1782241689 |  |  |
 | [Hotfix 44.0.3](/w/Update_44#Hotfix_44.0.3 "Update 44") | 44.0 | H44.0.3 |  |  | ❌ | 2026-09-30 | <https://forums.warframe.com/topic/1526292-iceblade-of-narin-hotfix-4403/> | 1790813194 | <https://web.archive.org/web/20260930231247/https://forums.warframe.com/topic/1526292-iceblade-of-narin-hotfix-4403/> | 2026-09-30 |
@@ -20935,6 +20936,18 @@ local Versions = {
 		ArchiveDate = "[PH]",
 		Timestamp = 1791399657,
 		Subtitle = "The Icebind"
+	},
+	{
+		Name = "Hotfix 44.1.1",
+		Link = "Update 44#Hotfix 44.1.1",
+		Aliases = { "44.1.1" },
+		ShortName = "H44.1.1",
+		Date = "2026-10-08",
+		Parent = "44",
+		ForumLink = "https://forums.warframe.com/topic/1527669-iceblade-of-narin-the-icebind-hotfix-4411/",
+		ArchiveLink = "[PH]",
+		ArchiveDate = "[PH]",
+		Timestamp = 1791501288,
 	},
 }
 

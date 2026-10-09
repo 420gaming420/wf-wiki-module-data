@@ -1,7 +1,7 @@
 {
   "page": "Module:DropTables/data",
-  "wiki_timestamp": "2026-10-08T02:07:25Z",
-  "extracted_at": "2026-10-08T08:34:54.104329+00:00",
+  "wiki_timestamp": "2026-10-08T21:35:35Z",
+  "extracted_at": "2026-10-09T08:39:53.262901+00:00",
   "lua_files": [
     "Module-DropTables-data_0.lua",
     "Module-DropTables-data_1.lua",
@@ -15,7 +15,7 @@
     "Module-DropTables-data_9.lua"
   ],
   "lua_block_count": 10,
-  "file_size": 875712,
+  "file_size": 875846,
   "comment_count": 12,
   "status": "success"
 }

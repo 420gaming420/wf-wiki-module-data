@@ -4,9 +4,9 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:57:15.297Z"
+    "converted_at": "2026-10-09T08:40:09.334Z"
   },
-  "_comments": "\t\t\t--SpawnLevel = ?,\n\t\t\t--Multis = { \"Head: ?x\" },\n\t\t\t-- TODO\n\t\t\t-- EximusDefault = false,",
+  "_comments": "\t\t\t--SpawnLevel = ?,\n\t\t\t--Multis = { \"Head: ?x\" },\n\t\t\t-- EximusDefault = false,",
   "Scaldra Dedicant": {
     "General": {
       "Actor": "",
@@ -319,10 +319,34 @@
   },
   "H-04 Efervon Tank": {
     "General": {
+      "Actor": "",
+      "Description": "",
+      "Missions": [
+        "Assassination",
+        "Victory Plaza"
+      ],
+      "Introduced": "38",
+      "Type": "Boss",
+      "Scans": 3,
+      "Link": "H-04 Efervon Tank",
+      "Name": "H-04 Efervon Tank",
       "Image": "LasrianTank.png",
-      "Faction": "Scaldra"
+      "Abilities": {},
+      "Faction": "Scaldra",
+      "Planets": [
+        "Höllvania"
+      ],
+      "Weapons": {},
+      "InternalName": "/Lotus/Types/Enemies/WF1999Lasrian/LasrianTank/LasrianTankQuestAgent",
+      "CodexSecret": false
     },
-    "Stats": {}
+    "Stats": {
+      "ProcResists": {},
+      "Health": 18000,
+      "BaseLevel": 1,
+      "Armor": 100,
+      "Affinity": 1000
+    }
   },
   "Scaldra Jaeger": {
     "General": {

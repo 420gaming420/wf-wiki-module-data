@@ -447,6 +447,16 @@ return {
 		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2850145441",
         Type = "TennoGen Ear"
     },
+    ["Kayota Day of the Dead Mask"] = {
+        CodexSecret = false,
+        Description = "Become the cunning wolf with this festively painted mask.",
+        ExcludeFromCodex = false,
+        Image = "KayotaDayoftheDeadMask.png",
+        InternalName = "/Lotus/Upgrades/Skins/Halloween/DOTD2025OperatorMask",
+        Link = "Kayota Day of the Dead Mask",
+        Name = "Kayota Day of the Dead Mask",
+        Type = "Facial"
+    },
     ["Kiritsune Oculus"] = {
      	Artists = { "Actionman" },
         CodexSecret = false,

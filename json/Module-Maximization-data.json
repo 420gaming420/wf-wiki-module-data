@@ -4,9 +4,9 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-10-08T08:35:09.661Z"
+    "converted_at": "2026-10-09T08:40:11.969Z"
   },
-  "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins\n-- this contains mappings for what we couldn't pull from preexisting modules\n\t-- Ash\n\t-- Atlas\n\t-- Banshee\n\t-- Caliban\n\t-- Citrine\n\t-- Khora\n\t-- Limbo\n\t-- Narin\n\t-- Nidus\n\t-- Oberon\n\t-- Octavia\n\t-- Sevagoth\n\t-- Uriel",
+  "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins\n-- this contains mappings for what we couldn't pull from preexisting modules\n\t-- Ash\n\t-- Atlas\n\t-- Banshee\n\t-- Caliban\n\t-- Citrine\n\t-- Khora\n\t-- Limbo\n\t-- Narin\n\t-- Nidus\n\t-- Nova\n\t-- Oberon\n\t-- Octavia\n\t-- Sevagoth\n\t-- Uriel",
   "Stasis": {
     "outs": [
       [
@@ -624,6 +624,82 @@
       }
     ]
   },
+  "Razor Gyre": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Tau|DamageTypes}} damage:",
+        {
+          "expr": "STR 500 %of",
+          "suff": "/s"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Tau|DamageTypes}} damage to enemies in {{#invoke:Tooltip|full|Sentient Wrath|Ability}}:",
+        {
+          "expr": "STR 1000 %of",
+          "suff": "/s"
+        }
+      ],
+      [
+        "Healing:",
+        {
+          "expr": "STR 30 %of",
+          "suff": "/enemy"
+        }
+      ],
+      [
+        "Damage radius:",
+        {
+          "expr": "RNG 10 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Lethal Progeny|Ability}} Ortholyst {{#invoke:Tooltip|full|Electricity|DamageTypes}} and [[Fire Rate]] bonus:",
+        {
+          "expr": "STR 70 %of 0 RAZOR_MORTAR if",
+          "suff": "%"
+        }
+      ],
+      [
+        "Razor Mortar duration:",
+        {
+          "expr": "DUR 6 %of 0 RAZOR_MORTAR if",
+          "suff": "s"
+        }
+      ],
+      [
+        "Razor Mortar radius:",
+        {
+          "expr": "RNG 5 %of 0 RAZOR_MORTAR if",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "25 COST *"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} restoration:",
+        {
+          "expr": "25 COST * 4 /",
+          "suff": "/enemy",
+          "fmt": "1dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "RAZOR_MORTAR",
+        "cont": "{{#invoke:Tooltip|full|Razor Mortar|Mods}}?"
+      }
+    ]
+  },
   "Banish": {
     "outs": [
       [
@@ -765,6 +841,38 @@
         "cont": "[[Infused]]?"
       }
     ]
+  },
+  "Neote": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
+        {
+          "expr": "STR 400 %of",
+          "name": "BASE_NEOTE_DMG",
+          "suff": "/hit"
+        }
+      ],
+      [
+        "Total {{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
+        {
+          "expr": "BASE_NEOTE_DMG 5 *"
+        }
+      ],
+      [
+        "Range:",
+        {
+          "expr": "RNG 12 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "25 COST *"
+        }
+      ]
+    ],
+    "ins": {}
   },
   "Sound Quake": {
     "outs": [
@@ -940,114 +1048,6 @@
         "cont": "Duration added by {{#invoke:Tooltip|full|Cataclysmic Continuum|Mods}}:"
       }
     ]
-  },
-  "Razor Gyre": {
-    "outs": [
-      [
-        "{{#invoke:Tooltip|full|Tau|DamageTypes}} damage:",
-        {
-          "expr": "STR 500 %of",
-          "suff": "/s"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Tau|DamageTypes}} damage to enemies in {{#invoke:Tooltip|full|Sentient Wrath|Ability}}:",
-        {
-          "expr": "STR 1000 %of",
-          "suff": "/s"
-        }
-      ],
-      [
-        "Healing:",
-        {
-          "expr": "STR 30 %of",
-          "suff": "/enemy"
-        }
-      ],
-      [
-        "Damage radius:",
-        {
-          "expr": "RNG 10 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Lethal Progeny|Ability}} Ortholyst {{#invoke:Tooltip|full|Electricity|DamageTypes}} and [[Fire Rate]] bonus:",
-        {
-          "expr": "STR 70 %of 0 RAZOR_MORTAR if",
-          "suff": "%"
-        }
-      ],
-      [
-        "Razor Mortar duration:",
-        {
-          "expr": "DUR 6 %of 0 RAZOR_MORTAR if",
-          "suff": "s"
-        }
-      ],
-      [
-        "Razor Mortar radius:",
-        {
-          "expr": "RNG 5 %of 0 RAZOR_MORTAR if",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "25 COST *"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} restoration:",
-        {
-          "expr": "25 COST * 4 /",
-          "suff": "/enemy",
-          "fmt": "1dec"
-        }
-      ]
-    ],
-    "ins": [
-      {
-        "type": "checkbox",
-        "name": "RAZOR_MORTAR",
-        "cont": "{{#invoke:Tooltip|full|Razor Mortar|Mods}}?"
-      }
-    ]
-  },
-  "Neote": {
-    "outs": [
-      [
-        "{{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
-        {
-          "expr": "STR 400 %of",
-          "name": "BASE_NEOTE_DMG",
-          "suff": "/hit"
-        }
-      ],
-      [
-        "Total {{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
-        {
-          "expr": "BASE_NEOTE_DMG 5 *"
-        }
-      ],
-      [
-        "Range:",
-        {
-          "expr": "RNG 12 %of",
-          "suff": "m"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "25 COST *"
-        }
-      ]
-    ],
-    "ins": {}
   },
   "Gloom": {
     "outs": [
@@ -1251,70 +1251,6 @@
       }
     ]
   },
-  "Smoke Screen": {
-    "outs": [
-      [
-        "Duration:",
-        {
-          "expr": "DUR 12 %of",
-          "suff": "s"
-        }
-      ],
-      [
-        "Extension on [[Finisher]] kills:",
-        {
-          "expr": "DUR 5 %of TELEPORT_RUSH *",
-          "suff": "s"
-        }
-      ],
-      [
-        "Radius:",
-        {
-          "expr": "RNG 10 %of",
-          "suff": "m"
-        }
-      ],
-      [
-        "Critical Chance bonus:",
-        {
-          "expr": "150 0 SMOKE_SHADOW if",
-          "suff": "%"
-        }
-      ],
-      [
-        "Smoke Shadow duration:",
-        {
-          "expr": "DUR 12 %of 0 SMOKE_SHADOW if",
-          "suff": "s"
-        }
-      ],
-      [
-        "Smoke Shadow radius:",
-        {
-          "expr": "RNG 15 %of 0 SMOKE_SHADOW if",
-          "suff": "m"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "35 COST *"
-        }
-      ]
-    ],
-    "ins": [
-      {
-        "type": "checkbox",
-        "name": "TELEPORT_RUSH",
-        "cont": "{{#invoke:Tooltip|full|Teleport Rush|Mods}}?"
-      },
-      {
-        "type": "checkbox",
-        "name": "SMOKE_SHADOW",
-        "cont": "{{#invoke:Tooltip|full|Smoke Shadow|Mods}}?"
-      }
-    ]
-  },
   "Reckoning": {
     "outs": [
       [
@@ -1413,6 +1349,321 @@
         "type": "checkbox",
         "name": "HALLOWED_RECKONING",
         "cont": "{{#invoke:Tooltip|full|Hallowed Reckoning|Mods}}?"
+      }
+    ]
+  },
+  "Preserving Shell": {
+    "outs": [
+      [
+        "Initial damage reduction:",
+        {
+          "expr": "STR 40 %of 90 min",
+          "suff": "%"
+        }
+      ],
+      [
+        "Damage reduction per kill:",
+        {
+          "expr": "STR 3 %of",
+          "suff": "%/kill"
+        }
+      ],
+      [
+        "Damage reduction per assist:",
+        {
+          "expr": "STR 1 %of",
+          "suff": "%/assist"
+        }
+      ],
+      [
+        "Duration:",
+        {
+          "expr": "DUR 25 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "50 COST *"
+        }
+      ]
+    ],
+    "ins": {}
+  },
+  "Smite": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Radiation|DamageTypes}} damage:",
+        {
+          "expr": "STR 500 %of"
+        }
+      ],
+      [
+        "Percentage damage to target:",
+        {
+          "expr": "STR 35 %of 50 75 SMITE_INFUSED if min",
+          "suff": "%"
+        }
+      ],
+      [
+        "AoE damage:",
+        {
+          "expr": "STR 10 %of 20 30 SMITE_INFUSED if min",
+          "suff": "% of target's Health"
+        }
+      ],
+      [
+        "Cast range:",
+        {
+          "expr": "RNG 50 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "AoE radius:",
+        {
+          "expr": "RNG 6 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Smite Infusion {{#invoke:Tooltip|full|Radiation|DamageTypes}} damage bonus:",
+        {
+          "expr": "STR 100 %of 0 SMITE_INFUSION if",
+          "suff": "%"
+        }
+      ],
+      [
+        "Smite Infusion duration:",
+        {
+          "expr": "DUR 40 %of 0 SMITE_INFUSION if",
+          "suff": "s"
+        }
+      ],
+      [
+        "Smite Infusion radius:",
+        {
+          "expr": "RNG 15 %of 0 SMITE_INFUSION if",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "25 COST *"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "SMITE_INFUSION",
+        "cont": "{{#invoke:Tooltip|full|Smite Infusion|Mods}}?"
+      },
+      {
+        "type": "checkbox",
+        "name": "SMITE_INFUSED",
+        "cont": "[[Infused]]?"
+      }
+    ]
+  },
+  "Molecular Prime": {
+    "outs": [
+      [
+        "Slow or speed:",
+        {
+          "expr": "STR 50 %of 75 min",
+          "suff": "%",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        {
+          "expr": "STR 800 %of"
+        }
+      ],
+      [
+        "Wave duration:",
+        {
+          "expr": "DUR 6 %of",
+          "name": "MOLECULAR_PRIME_WAVE_DUR",
+          "suff": "s"
+        }
+      ],
+      [
+        "Priming duration:",
+        {
+          "expr": "DUR 30 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Explosion radius:",
+        {
+          "expr": "RNG 10 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Maximum wave range:",
+        {
+          "expr": "MOLECULAR_PRIME_WAVE_DUR 5 * 5 +",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "100 COST *"
+        }
+      ]
+    ],
+    "ins": {}
+  },
+  "Smoke Screen": {
+    "outs": [
+      [
+        "Duration:",
+        {
+          "expr": "DUR 12 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Extension on [[Finisher]] kills:",
+        {
+          "expr": "DUR 5 %of TELEPORT_RUSH *",
+          "suff": "s"
+        }
+      ],
+      [
+        "Radius:",
+        {
+          "expr": "RNG 10 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "Critical Chance bonus:",
+        {
+          "expr": "150 0 SMOKE_SHADOW if",
+          "suff": "%"
+        }
+      ],
+      [
+        "Smoke Shadow duration:",
+        {
+          "expr": "DUR 12 %of 0 SMOKE_SHADOW if",
+          "suff": "s"
+        }
+      ],
+      [
+        "Smoke Shadow radius:",
+        {
+          "expr": "RNG 15 %of 0 SMOKE_SHADOW if",
+          "suff": "m"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "35 COST *"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "TELEPORT_RUSH",
+        "cont": "{{#invoke:Tooltip|full|Teleport Rush|Mods}}?"
+      },
+      {
+        "type": "checkbox",
+        "name": "SMOKE_SHADOW",
+        "cont": "{{#invoke:Tooltip|full|Smoke Shadow|Mods}}?"
+      }
+    ]
+  },
+  "Parasitic Link": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Ability Strength|Stats}} multiplier:",
+        {
+          "expr": "STR 0.25 %of 1 +",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Damage multiplier:",
+        {
+          "expr": "STR 0.25 %of 1 +",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Damage redirection:",
+        {
+          "expr": "STR 50 %of 90 min",
+          "suff": "%"
+        }
+      ],
+      [
+        "Duration:",
+        {
+          "expr": "DUR 60 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Ally maximum range:",
+        {
+          "expr": "RNG 40 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Enemy maximum range:",
+        {
+          "expr": "RNG 20 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Health bonus:",
+        {
+          "expr": "STR 4 MUTATION_STACKS * %of 0 PARASITIC_VITALITY if",
+          "suff": "%"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "25 COST *"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "min": "0",
+        "type": "range-R",
+        "name": "MUTATION_STACKS",
+        "max": "500",
+        "default": "0",
+        "cont": "Mutation Stacks:"
+      },
+      {
+        "type": "checkbox",
+        "name": "PARASITIC_VITALITY",
+        "cont": "{{#invoke:Tooltip|full|Parasitic Vitality|Mods}}?"
       }
     ]
   },
@@ -1552,34 +1803,49 @@
     ],
     "ins": {}
   },
-  "Preserving Shell": {
+  "Antimatter Drop": {
     "outs": [
       [
-        "Initial damage reduction:",
+        "Base explosion {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
         {
-          "expr": "STR 40 %of 90 min",
-          "suff": "%"
+          "name": "ANTIMATTER_DROP_BASE_DMG",
+          "expr": "STR 200 %of"
         }
       ],
       [
-        "Damage reduction per kill:",
+        "Absorb damage multiplier:",
         {
-          "expr": "STR 3 %of",
-          "suff": "%/kill"
+          "expr": "STR 8 %of",
+          "name": "ANTIMATTER_DROP_MULT",
+          "fmt": "2dec"
         }
       ],
       [
-        "Damage reduction per assist:",
+        "Maximum explosion {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
         {
-          "expr": "STR 1 %of",
-          "suff": "%/assist"
+          "expr": "ANTIMATTER_DROP_MULT 25000 * ANTIMATTER_DROP_BASE_DMG +"
         }
       ],
       [
-        "Duration:",
+        "Contact {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
         {
-          "expr": "DUR 25 %of",
-          "suff": "s"
+          "expr": "STR 10 %of"
+        }
+      ],
+      [
+        "Explosion radius:",
+        {
+          "expr": "RNG 15 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Antimatter Absorb radius:",
+        {
+          "expr": "RNG 5 %of 0 ANTIMATTER_ABSORB if",
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
@@ -1589,7 +1855,13 @@
         }
       ]
     ],
-    "ins": {}
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "ANTIMATTER_ABSORB",
+        "cont": "{{#invoke:Tooltip|full|Antimatter Absorb|Mods}}?"
+      }
+    ]
   },
   "Ensnare": {
     "outs": [
@@ -1633,30 +1905,82 @@
     ],
     "ins": {}
   },
-  "Smite": {
+  "Null Star": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Radiation|DamageTypes}} damage:",
+        "{{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
         {
-          "expr": "STR 500 %of"
+          "expr": "STR 300 %of"
         }
       ],
       [
-        "Percentage damage to target:",
+        "Particle count:",
         {
-          "expr": "STR 35 %of 50 75 SMITE_INFUSED if min",
+          "name": "NULL_STAR_COUNT",
+          "expr": "DUR 12 %of floor"
+        }
+      ],
+      [
+        "Damage reduction:",
+        {
+          "expr": "STR 5 %of",
+          "name": "NULL_STAR_DR",
+          "suff": "%/particle"
+        }
+      ],
+      [
+        "Maximum damage reduction:",
+        {
+          "expr": "NULL_STAR_COUNT NULL_STAR_DR * 75 90 NULL_STAR_INFUSED if min",
           "suff": "%"
         }
       ],
       [
-        "AoE damage:",
+        "Targeting radius",
         {
-          "expr": "STR 10 %of 20 30 SMITE_INFUSED if min",
-          "suff": "% of target's Health"
+          "expr": "RNG 10 %of",
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
-        "Cast range:",
+        "{{#invoke:Tooltip|full|Heat|DamageTypes}} damage:",
+        {
+          "expr": "STR 240 %of 0 NEUTRON_STAR if"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Heat|DamageTypes}} damage radius:",
+        {
+          "expr": "RNG 8 %of 0 NEUTRON_STAR if",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "25 COST *"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "NEUTRON_STAR",
+        "cont": "{{#invoke:Tooltip|full|Neutron Star|Mods}}?"
+      },
+      {
+        "type": "checkbox",
+        "name": "NULL_STAR_INFUSED",
+        "cont": "[[Infused]]?"
+      }
+    ]
+  },
+  "Wormhole": {
+    "outs": [
+      [
+        "Range:",
         {
           "expr": "RNG 50 %of",
           "suff": "m",
@@ -1664,128 +1988,25 @@
         }
       ],
       [
-        "AoE radius:",
+        "[[Movement Speed]] bonus duration:",
         {
-          "expr": "RNG 6 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "Smite Infusion {{#invoke:Tooltip|full|Radiation|DamageTypes}} damage bonus:",
-        {
-          "expr": "STR 100 %of 0 SMITE_INFUSION if",
-          "suff": "%"
-        }
-      ],
-      [
-        "Smite Infusion duration:",
-        {
-          "expr": "DUR 40 %of 0 SMITE_INFUSION if",
-          "suff": "s"
-        }
-      ],
-      [
-        "Smite Infusion radius:",
-        {
-          "expr": "RNG 15 %of 0 SMITE_INFUSION if",
-          "suff": "m",
+          "expr": "DUR 7 %of 0 ESCAPE_VELOCITY if",
+          "suff": "s",
           "fmt": "1dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "75 COST *"
         }
       ]
     ],
     "ins": [
       {
         "type": "checkbox",
-        "name": "SMITE_INFUSION",
-        "cont": "{{#invoke:Tooltip|full|Smite Infusion|Mods}}?"
-      },
-      {
-        "type": "checkbox",
-        "name": "SMITE_INFUSED",
-        "cont": "[[Infused]]?"
-      }
-    ]
-  },
-  "Parasitic Link": {
-    "outs": [
-      [
-        "{{#invoke:Tooltip|full|Ability Strength|Stats}} multiplier:",
-        {
-          "expr": "STR 0.25 %of 1 +",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "Damage multiplier:",
-        {
-          "expr": "STR 0.25 %of 1 +",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "Damage redirection:",
-        {
-          "expr": "STR 50 %of 90 min",
-          "suff": "%"
-        }
-      ],
-      [
-        "Duration:",
-        {
-          "expr": "DUR 60 %of",
-          "suff": "s"
-        }
-      ],
-      [
-        "Ally maximum range:",
-        {
-          "expr": "RNG 40 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "Enemy maximum range:",
-        {
-          "expr": "RNG 20 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "Health bonus:",
-        {
-          "expr": "STR 4 MUTATION_STACKS * %of 0 PARASITIC_VITALITY if",
-          "suff": "%"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "25 COST *"
-        }
-      ]
-    ],
-    "ins": [
-      {
-        "min": "0",
-        "type": "range-R",
-        "name": "MUTATION_STACKS",
-        "max": "500",
-        "default": "0",
-        "cont": "Mutation Stacks:"
-      },
-      {
-        "type": "checkbox",
-        "name": "PARASITIC_VITALITY",
-        "cont": "{{#invoke:Tooltip|full|Parasitic Vitality|Mods}}?"
+        "name": "ESCAPE_VELOCITY",
+        "cont": "{{#invoke:Tooltip|full|Escape Velocity|Mods}}?"
       }
     ]
   },

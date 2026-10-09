@@ -1,7 +1,7 @@
 ---
 title: "Module:AnexeraTest1"
 wiki_url: "https://wiki.warframe.com/w/Module/AnexeraTest1"
-wiki_timestamp: "2026-10-06T22:26:25Z"
+wiki_timestamp: "2026-10-08T20:53:32Z"
 ---
 
 *Documentation for this module may be created at [Module:AnexeraTest1/doc](/w/Module:AnexeraTest1/doc?action=edit&redlink=1 "Module:AnexeraTest1/doc (page does not exist)")*
@@ -236,7 +236,7 @@ local function buildGallery(entries)
 %s
 
 '
-	local tipspan		= '%s'
+	local labelSpan 	= '%s'
 	local tooltipSpan	= '%s'
 	local textDiv		= '
 
@@ -249,23 +249,22 @@ local function buildGallery(entries)
 		local itemName		= entry.Name
 		local itemLink		= entry.Link or itemName
 		local tooltipModule	= (TypeConfigs[entry.Type] or {}).TooltipModule
-		local displayName	= entry.Image and
-			'[[' .. (itemLink ~= itemName and itemLink .. '|' .. itemName or itemName) .. ']]' or
-				string.format('"%s" does not exist in [[Module:Baro/data]].', itemName)
 
-		local file = ('[[File:%s|120x120px|link=%s]]'):format(entry.Image or 'UnidentifiedItem.png', itemLink)
-		local thumb = string.format(thumbDiv,
-			(entry.Condition and tipspan:format('font-size:0.8em; font-weight:bold; color:#ffbc00;', entry.Condition) or '') ..
-			(tooltipModule and tooltipSpan:format(itemLink, tooltipModule, itemName, file) or file)
+		local file			= ('[[File:%s|120x120px|link=%s]]'):format(entry.Image or 'UnidentifiedItem.png', itemLink)
+		local label			= entry.Condition and labelSpan:format('font-size:0.8em; font-weight:bold; color:#ffbc00;', entry.Condition)
+		local tooltip		= tooltipModule and tooltipSpan:format(itemLink, tooltipModule, itemName, file)
+		local displayName	= not entry.Image and
+			('"%s" does not exist in [[Module:Baro/data]].'):format(itemName) or
+			itemLink ~= itemName and ('[[%s|%s]]'):format(itemLink, itemName) or ('[[%s]]'):format(itemName)
+		local textInner		= ('%s  
+%s %s  
+%s %s'):format(displayName,
+			'[[File:OrokinDucats.png|x20px|link=Ducats|class=textSelect]]', Lang:formatNum(entry.DucatCost or 0),
+			'[[File:Credits64.png|x20px|link=Credits|class=textSelect]]', Lang:formatNum(entry.CreditCost or 0)
 		)
 
-		local text = string.format(textDiv,
-			('%s  
-[[File:OrokinDucats.png|20px|link=Ducats]] %s  
-[[File:Credits64.png|20px|link=Credits]] %s')
-				:format(displayName, Lang:formatNum(entry.DucatCost or 0), Lang:formatNum(entry.CreditCost or 0))
-		)
-
+		local thumb	= thumbDiv:format(label and ((tooltip or file) .. label) or (tooltip or file))
+		local text	= textDiv:format(textInner)
 		table.insert(galleryBoxes, galleryBoxLi:format(thumb .. text))
 	end
 
@@ -312,7 +311,7 @@ local function buildTable(entries)
 		local tooltipModule	= (TypeConfigs[entry.Type] or {}).TooltipModule
 		local item			= ('[[File:%s|150x220px|link=%s]]  
 %s')
-			:format(entry.Image or 'UnidentifiedItem.png', itemLink, '[[' .. (itemLink ~= itemName and itemLink .. '|' .. itemName or itemName) .. ']]')
+			:format(entry.Image or 'UnidentifiedItem.png', itemLink, itemLink ~= itemName and ('[[%s|%s]]'):format(itemLink, itemName) or ('[[%s]]'):format(itemName))
 
 		table.insert(tableRows, string.format(rowTemplate,
 			itemName,
@@ -367,17 +366,20 @@ end
 
 local function castArgs(args)
 	local function parseTable(str)
-		local matchedStr = string.match(str, '^{%s*(.-)%s*}$')
+		local matchedStr = string.match(str, '^{%s*(.-)[%s,]*}$')
 		return matchedStr and (matchedStr == '' and {} or mw.text.split(matchedStr, '%s*,%s*')) or str
 	end
 
-	local cleanArgs = {}
-		for k, v in pairs(args) do
-		if type(v) == "string" then
-			v = tonumber(v) or (v == 'true' and true) or (v ~= 'false' and (v ~= 'nil' and parseTable(v) or nil))
+	local function cast(v)
+		v = tonumber(v) or (v == 'true' and true) or (v ~= 'false' and (v ~= 'nil' and parseTable(v) or nil))
+		if type(v) == "table" then
+			for k, innerV in pairs(v) do v[k] = cast(innerV) end
 		end
-		cleanArgs[k] = v
+		return v
 	end
+
+	local cleanArgs = {}
+	for k, v in pairs(args) do cleanArgs[k] = type(v) ~= "string" and v or cast(v) end
 
 	return cleanArgs
 end
@@ -402,7 +404,7 @@ function p.buildOfferings(frame)
 	local tabs, cat = args.tabs, args.cat
 
 	local platformKey = ({ All = 'All', PC = "Pc", Consoles = "Console", TennoCon = 'TennoCon' })[f_platform]
-	local renderFunc = ({ buildGallery = buildGallery, buildTable = buildTable, getTotal = _getTotal})[args.render]
+	local renderFunc = ({ gallery = buildGallery, table = buildTable, cost = _getTotal})[args.render]
 	assert(not f_platform or platformKey, string.format('p.buildOfferings(frame): Invalid platform "%s"', tostring(f_platform)))
 	assert(renderFunc, string.format('p.buildOfferings(frame): Invalid render function "%s"', tostring(args.render)))
 
@@ -417,15 +419,15 @@ function p.buildOfferings(frame)
 		end
 	})
 
-	local entries = { itemDates = itemDates }
+	local items = { itemDates = itemDates }
 	-- Filter Items
 	if f_platform or f_name or f_type or f_date or f_discont or f_seasonal then
 		-- Filter preprocessing
-		mw.log(string.format('T+%.4fs |   Preparing filter', os.clock() - startTime))
+		mw.log(string.format('T+%.4fs |   preparing filter', os.clock() - startTime))
 		local function getMatcher(arg)
 			if not arg then return end
-			local t = type(arg) == 'table' and arg or {tostring(arg)}
-			return function(s) for i=1, #t do local res = s:find(t[i]) if res then return res end end end
+			local t = type(arg) == 'table' and arg or {arg}
+			return function(s) for i=1, #t do local res = s:find(tostring(t[i])) if res then return res end end end
 		end
 
 		local dateKey = f_platform and platformKey .. 'OfferingDates'
@@ -435,7 +437,7 @@ function p.buildOfferings(frame)
 		-- Parsing operator and date value from args.date
 		local eq, gt, lt
 		if f_date then
-			local op, val = f_date:match('^([<>=]*)%s*(.*)$')
+			local op, val = tostring(f_date):match('^([<>=]*)%s*(.*)$')
 			local d1, d2 = val:match('^(.-)%s*%.%.%s*(.*)$')
 			op = (d1 and '') or (op == '' and '=') or op
 			eq, gt, lt = op:find('=') and val, d1 or (op:find('>') and val), d2 or (op:find('<') and val)
@@ -443,14 +445,14 @@ function p.buildOfferings(frame)
 
 		local function matchDate(t)
 			if #t == 0 then return end
-			for i = (f_date_target == 'first' and #t or 1), (f_date_target == 'any' and #t or 1) do
-				local res = (eq and t[i] == eq) or ((gt or lt) and (not gt or t[i] > gt) and (not lt or t[i] < lt))
+			for i = (f_date_target == 'first' and #t or 1), (f_date_target ~= 'last' and #t or 1) do
+				local res = (eq and t[i]:sub(1, #eq) == eq) or ((gt or lt) and (not gt or t[i] > gt) and (not lt or t[i] < lt))
 				if res then return res end
 			end
 		end
 
 		-- Start filtering
-		mw.log(string.format('T+%.4fs |   Processing filter items', os.clock() - startTime))
+		mw.log(string.format('T+%.4fs |   processing filter items', os.clock() - startTime))
 		for _, v in pairs(BaroItems) do
 			if
 				(not f_discont or (f_discont == 'only' and v.IsDiscont) or (f_discont == 'exclude' and not v.IsDiscont)) and
@@ -460,37 +462,37 @@ function p.buildOfferings(frame)
 				(not f_type or matchType(v.Type)) and
 				(not f_date or matchDate(itemDates[v]))
 			then
-				table.insert(entries, v)
+				table.insert(items, v)
 			end
 		end
-		table.sort(entries, function(a, b) return a.Type == b.Type and a.Name < b.Name or a.Type < b.Type end)
+		table.sort(items, function(a, b) return a.Type == b.Type and a.Name < b.Name or a.Type < b.Type end)
 	end
 	-- Manual Items
-	mw.log(string.format('T+%.4fs |   Processing manual items', os.clock() - startTime))
+	mw.log(string.format('T+%.4fs |   processing manual items', os.clock() - startTime))
 	for _, item in ipairs(args) do
-		table.insert(entries, BaroItems[item] or { Name = item })
+		table.insert(items, BaroItems[item] or { Name = item })
 	end
 	-- Extra Items
 	if args.extraItems then
 		mw.log(string.format('T+%.4fs |   Processing extra items', os.clock() - startTime))
 		for _, item in ipairs(args.extraItems) do
-			table.insert(entries, BaroData.ExtraItems[item])
+			table.insert(items, BaroData.ExtraItems[item])
 		end
 	end
-	assert(#entries > 0, 'p.buildOfferings(frame): No matched items')
+	assert(#items > 0, 'p.buildOfferings(frame): No matched items')
 
 	if not cat then
-		local result = renderFunc(entries, args.args and unpack(args.args))
+		local result = renderFunc(items, args.args and unpack(args.args))
 		mw.log(string.format('T+%.4fs |   finish', os.clock() - startTime))
 		return result
 	end
 
-	-- Categories Configuration
+	-- Category Configuration
 	local buildTabs, getCat
-	if cat == 'year' then
+	if cat == 'Year' then
 		buildTabs = function(t) for y = os.date('!*t').year, 2014 , -1 do table.insert(t, tostring(y)) end end
 		getCat = function(e) local d = itemDates[e] return #d > 0 and string.sub(d[#d], 1, 4) end
-	elseif cat == 'type' then
+	elseif cat == 'Type' then
 		buildTabs = function(t) for k in pairs(TypeConfigs) do table.insert(t, k) end end
 		getCat = function(e) return e.Type end
 	else
@@ -507,7 +509,7 @@ function p.buildOfferings(frame)
 	end
 
 	local tabCfg = { tabs = tabs, getItemCat = getCat, render = renderFunc, args = args.args}
-	local wikiText = buildTabbers(entries, tabCfg)
+	local wikiText = buildTabbers(items, tabCfg)
 	mw.log(string.format('T+%.4fs |   framePreprocessing', os.clock() - startTime))
 	local result = frame:preprocess(wikiText)
 	mw.log(string.format('T+%.4fs |   finish', os.clock() - startTime))

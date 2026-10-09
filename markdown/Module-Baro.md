@@ -1,7 +1,7 @@
 ---
 title: "Module:Baro"
 wiki_url: "https://wiki.warframe.com/w/Module/Baro"
-wiki_timestamp: "2026-10-05T12:01:22Z"
+wiki_timestamp: "2026-10-08T15:39:08Z"
 ---
 
 **Baro** stores [Baro Ki'Teer](/w/Baro_Ki%27Teer "Baro Ki'Teer")'s offering history.
@@ -410,16 +410,15 @@ local function _getTotal(entries, returnString)
 		end
 	end
 
-	local res = { count = count, credit = credits, ducat = ducats,
-		creditIcon = Tooltip.icon('Credits', 'Resources'), ducatIcon = Tooltip.icon('Orokin Ducats', 'Resources')
-	}
+	local creditIcon, ducatIcon = Tooltip.icon('Credits', 'Resources'), Tooltip.icon('Orokin Ducats', 'Resources')
+	local res = { count = count, credit = credits, ducat = ducats, creditIcon = creditIcon, ducatIcon = ducatIcon}
 
 	if returnString then
 		local default = 'Total Items: {count} | Cost: {creditIcon} {credit} + {ducatIcon} {ducat}'
 		local template = type(returnString) == 'string' and returnString or default
 		local function fmtVal(k) return type(res[k]) == 'number' and Lang:formatNum(res[k]) or res[k] end
 
-		return template:gsub("{([%w_]+)}", fmtVal)
+		return (template:gsub("{([%w_]+)}", fmtVal))
 	else
 		return res
 	end

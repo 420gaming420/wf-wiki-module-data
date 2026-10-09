@@ -1,12 +1,12 @@
 {
   "page": "Module:Cosmetics/data/landingcraftlivery",
-  "wiki_timestamp": "2026-09-29T10:17:48Z",
-  "extracted_at": "2026-09-30T08:11:53.535969+00:00",
+  "wiki_timestamp": "2026-10-09T07:43:29Z",
+  "extracted_at": "2026-10-09T08:39:53.236311+00:00",
   "lua_files": [
     "Module-Cosmetics-data-landingcraftlivery_0.lua"
   ],
   "lua_block_count": 1,
-  "file_size": 25750,
+  "file_size": 26231,
   "comment_count": 0,
   "status": "success"
 }

@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/facialaccessory"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/facialaccessory"
-wiki_timestamp: "2026-09-25T08:55:21Z"
+wiki_timestamp: "2026-10-09T07:36:06Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/facialaccessory/doc](/w/Module:Cosmetics/data/facialaccessory/doc?action=edit&redlink=1 "Module:Cosmetics/data/facialaccessory/doc (page does not exist)")*
@@ -455,6 +455,16 @@ return {
 		Round = "23 [Batch 1]",
 		SteamLink = "https://steamcommunity.com/sharedfiles/filedetails/?id=2850145441",
         Type = "TennoGen Ear"
+    },
+    ["Kayota Day of the Dead Mask"] = {
+        CodexSecret = false,
+        Description = "Become the cunning wolf with this festively painted mask.",
+        ExcludeFromCodex = false,
+        Image = "KayotaDayoftheDeadMask.png",
+        InternalName = "/Lotus/Upgrades/Skins/Halloween/DOTD2025OperatorMask",
+        Link = "Kayota Day of the Dead Mask",
+        Name = "Kayota Day of the Dead Mask",
+        Type = "Facial"
     },
     ["Kiritsune Oculus"] = {
      	Artists = { "Actionman" },

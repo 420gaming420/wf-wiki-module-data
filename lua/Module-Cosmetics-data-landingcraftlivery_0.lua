@@ -529,6 +529,16 @@ return {
         Name = "Skaut Skin",
         Type = "Landing Craft Livery"
     },
+    ["Skaut Day of the Dead Skin"] = {
+        CodexSecret = false,
+        Description = "Decorate the Skaut's functional Grineer design with colorful paint and festive designs.",
+        ExcludeFromCodex = true,
+        Image = "SkautDayoftheDeadSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/Liset/GrineerShip/LisetGrineerShipDOTD",
+        Link = "Skaut Day of the Dead Skin",
+        Name = "Skaut Day of the Dead Skin",
+        Type = "Landing Craft Livery"
+    },
     ["Spektaka Liset Skin"] = {
         CodexSecret = false,
         Description = "Blast through the Origin System with this alluring Liset skin.",

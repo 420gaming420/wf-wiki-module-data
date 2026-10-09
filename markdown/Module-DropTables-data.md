@@ -1,7 +1,7 @@
 ---
 title: "Module:DropTables/data"
 wiki_url: "https://wiki.warframe.com/w/Module/DropTables/data"
-wiki_timestamp: "2026-10-08T02:07:25Z"
+wiki_timestamp: "2026-10-08T21:35:35Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -19,7 +19,7 @@ Manually updated fork of the public [Drop Tables](/w/Drop_Tables "Drop Tables") 
 
 See [Module:DropTables](/w/Module:DropTables "Module:DropTables") to see what various things this is being used for right now.
 
-:   *Last updated: Thu, 08 Oct 2026 02:07:25 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:DropTables/data?diff=0))*
+:   *Last updated: Thu, 08 Oct 2026 21:35:35 +0000 (UTC) by [User:ThetrueOzon](/w/User:ThetrueOzon "User:ThetrueOzon") ([change log](https://wiki.warframe.com/w/Module:DropTables/data?diff=0))*
 
 ## Contents
 
@@ -27334,7 +27334,7 @@ local DropData = {
 		--Update 44.1: Iceblade of Narin: The Icebind
 		["The Icebind: Crested Frozen Chests"] = {
 			Alias = "The Icebind: Crested Frozen Chests",
-			InternalName = "",
+			InternalName = "/Lotus/Types/Game/MissionDecks/KuvaPathRewards/KuvaPathGoldRewards",
 			Link = "The Icebind",
 			Name = "The Icebind",
 			Rewards = {
@@ -27364,7 +27364,7 @@ local DropData = {
 		},
 		["The Icebind: Frozen Chests"] = {
 			Alias = "The Icebind: Frozen Chests",
-			InternalName = "",
+			InternalName = "/Lotus/Types/Game/MissionDecks/KuvaPathRewards/KuvaPathSilverRewards",
 			Link = "The Icebind",
 			Name = "The Icebind",
 			Rewards = {

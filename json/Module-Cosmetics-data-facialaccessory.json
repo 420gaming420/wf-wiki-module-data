@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-26T07:16:32.793Z"
+    "converted_at": "2026-10-09T08:39:59.903Z"
   },
   "_comments": "",
   "Haemadys Mask": {
@@ -393,14 +393,33 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Lasar Earrings": {
-    "Type": "Ear",
-    "Image": "1999Y2KEarC.png",
-    "Description": "A fashionable accessory for your Operator or Drifter.",
-    "Link": "Lasar Earrings",
-    "Name": "Lasar Earrings",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/SW1999Y2kAccCEar",
+  "Kayota Day of the Dead Mask": {
+    "Type": "Facial",
+    "Image": "KayotaDayoftheDeadMask.png",
+    "Description": "Become the cunning wolf with this festively painted mask.",
+    "Link": "Kayota Day of the Dead Mask",
+    "Name": "Kayota Day of the Dead Mask",
+    "InternalName": "/Lotus/Upgrades/Skins/Halloween/DOTD2025OperatorMask",
     "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Zenoriu Oculus": {
+    "ConsolePrice": "35",
+    "Type": "TennoGen Eye",
+    "Description": "A unique oculus, designed by led2012 and daemonstar.",
+    "Link": "Zenoriu Oculus",
+    "ExcludeFromCodex": false,
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1494801018",
+    "Round": "14",
+    "Image": "ZenoriuOculus.png",
+    "Artists": [
+      "led2012",
+      "daemonstar"
+    ],
+    "Introduced": "24.1",
+    "Name": "Zenoriu Oculus",
+    "PcPrice": "$1.99",
+    "InternalName": "/Lotus/Upgrades/Skins/SteamWorkshop/Operator/Accessories/SWZenoriuEyeAccessory",
     "CodexSecret": false
   },
   "Eye-Guard": {
@@ -450,23 +469,23 @@
     "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/SWGarasuEarAcc",
     "CodexSecret": false
   },
-  "Zenoriu Oculus": {
+  "Zenoriu Earpiece": {
     "ConsolePrice": "35",
-    "Type": "TennoGen Eye",
-    "Description": "A unique oculus, designed by led2012 and daemonstar.",
-    "Link": "Zenoriu Oculus",
+    "Type": "TennoGen Ear",
+    "Description": "A unique pair of earpieces, designed by led2012 and daemonstar.",
+    "Link": "Zenoriu Earpiece",
     "ExcludeFromCodex": false,
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1494801018",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1494797974",
     "Round": "14",
-    "Image": "ZenoriuOculus.png",
+    "Image": "ZenoriuEarpiece.png",
     "Artists": [
       "led2012",
       "daemonstar"
     ],
     "Introduced": "24.1",
-    "Name": "Zenoriu Oculus",
+    "Name": "Zenoriu Earpiece",
     "PcPrice": "$1.99",
-    "InternalName": "/Lotus/Upgrades/Skins/SteamWorkshop/Operator/Accessories/SWZenoriuEyeAccessory",
+    "InternalName": "/Lotus/Upgrades/Skins/SteamWorkshop/Operator/Accessories/SWZenoriuEarAccessory",
     "CodexSecret": false
   },
   "Caerulea Oculus": {
@@ -488,25 +507,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/SWCaeruleaVisorEyeAcc",
     "CodexSecret": false
   },
-  "Zenoriu Earpiece": {
-    "ConsolePrice": "35",
-    "Type": "TennoGen Ear",
-    "Description": "A unique pair of earpieces, designed by led2012 and daemonstar.",
-    "Link": "Zenoriu Earpiece",
-    "ExcludeFromCodex": false,
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1494797974",
-    "Round": "14",
-    "Image": "ZenoriuEarpiece.png",
-    "Artists": [
-      "led2012",
-      "daemonstar"
-    ],
-    "Introduced": "24.1",
-    "Name": "Zenoriu Earpiece",
-    "PcPrice": "$1.99",
-    "InternalName": "/Lotus/Upgrades/Skins/SteamWorkshop/Operator/Accessories/SWZenoriuEarAccessory",
-    "CodexSecret": false
-  },
   "Zato Facial Accessory": {
     "Type": "Facial",
     "Image": "ExcaliburDeluxeMouthpiece.png",
@@ -514,6 +514,16 @@
     "Link": "Zato Facial Accessory",
     "Name": "Zato Facial Accessory",
     "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/ExcaliburDeluxeMouthPiece",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Zato Earpiece": {
+    "Type": "Ear",
+    "Image": "ExcaliburDeluxeEarpiece.png",
+    "Description": "A fashionable accessory for your Operator.",
+    "Link": "Zato Earpiece",
+    "Name": "Zato Earpiece",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/ExcaliburDeluxeEarpiece",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -537,36 +547,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Zato Earpiece": {
-    "Type": "Ear",
-    "Image": "ExcaliburDeluxeEarpiece.png",
-    "Description": "A fashionable accessory for your Operator.",
-    "Link": "Zato Earpiece",
-    "Name": "Zato Earpiece",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/ExcaliburDeluxeEarpiece",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Revenant Mephisto Diadem": {
-    "Type": "Facial",
-    "Image": "RevenantDeluxeCrown.png",
-    "Description": "Adorn the Operator with these horns, an ancient symbol of power, both sacred and profane.",
-    "Link": "Revenant Mephisto Diadem",
-    "Name": "Revenant Mephisto Diadem",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/RevenantDeluxeCrown",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Masem Earpieces": {
-    "Type": "Ear",
-    "Image": "EarpieceA.png",
-    "Description": "A fashionable accessory for your Operator.",
-    "Link": "Masem Earpieces",
-    "Name": "Masem Earpieces",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/EarpieceA",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Lumis Oculus": {
     "ConsolePrice": "35",
     "Type": "TennoGen Eye",
@@ -583,6 +563,44 @@
     "Name": "Lumis Oculus",
     "PcPrice": "$1.99",
     "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/SWLumisEyeAcc",
+    "CodexSecret": false
+  },
+  "Revenant Mephisto Diadem": {
+    "Type": "Facial",
+    "Image": "RevenantDeluxeCrown.png",
+    "Description": "Adorn the Operator with these horns, an ancient symbol of power, both sacred and profane.",
+    "Link": "Revenant Mephisto Diadem",
+    "Name": "Revenant Mephisto Diadem",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/RevenantDeluxeCrown",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Lasar Earrings": {
+    "Type": "Ear",
+    "Image": "1999Y2KEarC.png",
+    "Description": "A fashionable accessory for your Operator or Drifter.",
+    "Link": "Lasar Earrings",
+    "Name": "Lasar Earrings",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/SW1999Y2kAccCEar",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Spicularis Mandible Mask": {
+    "ConsolePrice": "35",
+    "Type": "TennoGen Facial",
+    "Description": "A unique mask, designed by Ventralhound.",
+    "Link": "Spicularis Mandible Mask",
+    "ExcludeFromCodex": false,
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2908707448",
+    "Round": "TennoGen Shadows",
+    "Image": "SpicularisMandibleMask.png",
+    "Artists": [
+      "Ventralhound"
+    ],
+    "Introduced": "36",
+    "Name": "Spicularis Mandible Mask",
+    "PcPrice": "$1.99",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/SWSpicularisFacialAcc",
     "CodexSecret": false
   },
   "Garasu Diadem": {
@@ -652,35 +670,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/SWAuresEarAcc",
     "CodexSecret": false
   },
-  "Spinele Prime Oculus": {
-    "Type": "Eye",
-    "Image": "SpinelePrimeOculus.png",
-    "Description": "Look sharp with this lavish set of facial accessories for both the Drifter and Operator.",
-    "Link": "Spinele Prime Oculus",
-    "Name": "Spinele Prime Oculus",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/CitrinePrimeEyepiece",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Praesidum Mask": {
-    "ConsolePrice": "35",
-    "Type": "TennoGen Facial",
-    "Description": "A unique mask, designed by HariPear and lukinu_u.",
-    "Link": "Praesidum Mask",
-    "ExcludeFromCodex": false,
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2396823430",
-    "Round": "20 [Batch 1]",
-    "Image": "PraesidumMask.png",
-    "Artists": [
-      "HariPear",
-      "lukinu_u"
-    ],
-    "Introduced": "30.1",
-    "Name": "Praesidum Mask",
-    "PcPrice": "$2.99",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/SWPraesidiumFacialAcc",
-    "CodexSecret": false
-  },
   "Stygean Oculus": {
     "ConsolePrice": "35",
     "Type": "TennoGen Eye",
@@ -700,6 +689,16 @@
     "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/SWStygeanEyeAcc",
     "CodexSecret": false
   },
+  "Dual Oculus": {
+    "Type": "Eye",
+    "Image": "EyepieceA.png",
+    "Description": "A fashionable accessory for your Operator.",
+    "Link": "Dual Oculus",
+    "Name": "Dual Oculus",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/EyepieceA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Umbra Diadem": {
     "Type": "Facial",
     "Image": "UmbraCirclet.png",
@@ -717,6 +716,16 @@
     "Link": "Umbra Blindfold",
     "Name": "Umbra Blindfold",
     "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/UmbraBlindfold",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Pernicus Earrings": {
+    "Type": "Ear",
+    "Image": "1999Y2KEarB.png",
+    "Description": "A fashionable accessory for your Operator or Drifter.",
+    "Link": "Pernicus Earrings",
+    "Name": "Pernicus Earrings",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/SW1999Y2kAccBEar",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -750,16 +759,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Dual Oculus": {
-    "Type": "Eye",
-    "Image": "EyepieceA.png",
-    "Description": "A fashionable accessory for your Operator.",
-    "Link": "Dual Oculus",
-    "Name": "Dual Oculus",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/EyepieceA",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Spinele Prime Facial Accessory": {
     "Type": "Facial",
     "Image": "SpinelePrimeFacialAccessory.png",
@@ -767,6 +766,16 @@
     "Link": "Spinele Prime Facial Accessory",
     "Name": "Spinele Prime Facial Accessory",
     "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/CitrinePrimeMouthPiece",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Spinele Prime Oculus": {
+    "Type": "Eye",
+    "Image": "SpinelePrimeOculus.png",
+    "Description": "Look sharp with this lavish set of facial accessories for both the Drifter and Operator.",
+    "Link": "Spinele Prime Oculus",
+    "Name": "Spinele Prime Oculus",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/CitrinePrimeEyepiece",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -788,24 +797,6 @@
     "Name": "Anten Prime Earpiece",
     "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/PrimeAccessoriesCEar",
     "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Spicularis Mandible Mask": {
-    "ConsolePrice": "35",
-    "Type": "TennoGen Facial",
-    "Description": "A unique mask, designed by Ventralhound.",
-    "Link": "Spicularis Mandible Mask",
-    "ExcludeFromCodex": false,
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2908707448",
-    "Round": "TennoGen Shadows",
-    "Image": "SpicularisMandibleMask.png",
-    "Artists": [
-      "Ventralhound"
-    ],
-    "Introduced": "36",
-    "Name": "Spicularis Mandible Mask",
-    "PcPrice": "$1.99",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/SWSpicularisFacialAcc",
     "CodexSecret": false
   },
   "Sofren Diadem": {
@@ -846,23 +837,23 @@
     "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/SWScleraOculusEyeAcc",
     "CodexSecret": false
   },
-  "Papillon Oculus": {
+  "Optima Oculus": {
     "ConsolePrice": "35",
     "Type": "TennoGen Eye",
-    "Description": "A unique oculus, designed by HariPear and lukinu_u.",
-    "Link": "Papillon Oculus",
+    "Description": "A unique oculus, designed by DeadNexus_ and Swanky Swaggernaut.",
+    "Link": "Optima Oculus",
     "ExcludeFromCodex": false,
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2574751544",
-    "Round": "21 [Batch 2]",
-    "Image": "PapillonOculus.png",
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1500717075",
+    "Round": "15",
+    "Image": "OptimaOculus.png",
     "Artists": [
-      "HariPear",
-      "lukinu_u"
+      "DeadNexus_",
+      "Swanky Swaggernaut"
     ],
-    "Introduced": "31.1.7",
-    "Name": "Papillon Oculus",
-    "PcPrice": "$2.99",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/SWPapillonEyeAcc",
+    "Introduced": "24.5",
+    "Name": "Optima Oculus",
+    "PcPrice": "$1.99",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/SWOptimaEyeAcc",
     "CodexSecret": false
   },
   "Respa Prime Mask": {
@@ -885,16 +876,6 @@
     "ExcludeFromCodex": true,
     "CodexSecret": true
   },
-  "Ki'Teer Earpiece": {
-    "Type": "Ear",
-    "Image": "EarpieceBaroA.png",
-    "Description": "A stunning pair of the finest Ki'Teer jewelry.",
-    "Link": "Ki'Teer Earpiece",
-    "Name": "Ki'Teer Earpiece",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/EarpieceBaroA",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Reckoning Mask": {
     "Type": "Facial",
     "Image": "StalkerMask.png",
@@ -904,6 +885,16 @@
     "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/StalkerAccessoriesMask",
     "ExcludeFromCodex": true,
     "CodexSecret": true
+  },
+  "Ki'Teer Earpiece": {
+    "Type": "Ear",
+    "Image": "EarpieceBaroA.png",
+    "Description": "A stunning pair of the finest Ki'Teer jewelry.",
+    "Link": "Ki'Teer Earpiece",
+    "Name": "Ki'Teer Earpiece",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/EarpieceBaroA",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
   },
   "Reckoning Earpiece": {
     "Type": "Ear",
@@ -915,6 +906,25 @@
     "ExcludeFromCodex": true,
     "CodexSecret": true
   },
+  "Praesidum Mask": {
+    "ConsolePrice": "35",
+    "Type": "TennoGen Facial",
+    "Description": "A unique mask, designed by HariPear and lukinu_u.",
+    "Link": "Praesidum Mask",
+    "ExcludeFromCodex": false,
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2396823430",
+    "Round": "20 [Batch 1]",
+    "Image": "PraesidumMask.png",
+    "Artists": [
+      "HariPear",
+      "lukinu_u"
+    ],
+    "Introduced": "30.1",
+    "Name": "Praesidum Mask",
+    "PcPrice": "$2.99",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/SWPraesidiumFacialAcc",
+    "CodexSecret": false
+  },
   "Udo Piercings": {
     "Type": "Ear",
     "Image": "PiercingA.png",
@@ -925,14 +935,23 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Pernicus Earrings": {
-    "Type": "Ear",
-    "Image": "1999Y2KEarB.png",
-    "Description": "A fashionable accessory for your Operator or Drifter.",
-    "Link": "Pernicus Earrings",
-    "Name": "Pernicus Earrings",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/SW1999Y2kAccBEar",
+  "Papillon Oculus": {
+    "ConsolePrice": "35",
+    "Type": "TennoGen Eye",
+    "Description": "A unique oculus, designed by HariPear and lukinu_u.",
+    "Link": "Papillon Oculus",
     "ExcludeFromCodex": false,
+    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=2574751544",
+    "Round": "21 [Batch 2]",
+    "Image": "PapillonOculus.png",
+    "Artists": [
+      "HariPear",
+      "lukinu_u"
+    ],
+    "Introduced": "31.1.7",
+    "Name": "Papillon Oculus",
+    "PcPrice": "$2.99",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/SWPapillonEyeAcc",
     "CodexSecret": false
   },
   "Revenant Mephisto Mask": {
@@ -945,23 +964,14 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Optima Oculus": {
-    "ConsolePrice": "35",
-    "Type": "TennoGen Eye",
-    "Description": "A unique oculus, designed by DeadNexus_ and Swanky Swaggernaut.",
-    "Link": "Optima Oculus",
+  "Ki'Teer Atmos Earpiece": {
+    "Type": "Ear",
+    "Image": "BaroEarpieceC.png",
+    "Description": "Add a hint of playful mischief with these luxury earpieces.",
+    "Link": "Ki'Teer Atmos Earpiece",
+    "Name": "Ki'Teer Atmos Earpiece",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/EarpieceBaroC",
     "ExcludeFromCodex": false,
-    "SteamLink": "https://steamcommunity.com/sharedfiles/filedetails/?id=1500717075",
-    "Round": "15",
-    "Image": "OptimaOculus.png",
-    "Artists": [
-      "DeadNexus_",
-      "Swanky Swaggernaut"
-    ],
-    "Introduced": "24.5",
-    "Name": "Optima Oculus",
-    "PcPrice": "$1.99",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/SWOptimaEyeAcc",
     "CodexSecret": false
   },
   "Ki'Teer Solo Earpiece": {
@@ -1002,16 +1012,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Ki'Teer Atmos Earpiece": {
-    "Type": "Ear",
-    "Image": "BaroEarpieceC.png",
-    "Description": "Add a hint of playful mischief with these luxury earpieces.",
-    "Link": "Ki'Teer Atmos Earpiece",
-    "Name": "Ki'Teer Atmos Earpiece",
-    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/EarpieceBaroC",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Millennium Visor Diadem": {
     "ConsolePrice": "35",
     "Type": "TennoGen Facial",
@@ -1029,6 +1029,16 @@
     "Name": "Millennium Visor Diadem",
     "PcPrice": "$1.99",
     "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/SWMillenniumVisorFacialAcc",
+    "CodexSecret": false
+  },
+  "Masem Earpieces": {
+    "Type": "Ear",
+    "Image": "EarpieceA.png",
+    "Description": "A fashionable accessory for your Operator.",
+    "Link": "Masem Earpieces",
+    "Name": "Masem Earpieces",
+    "InternalName": "/Lotus/Upgrades/Skins/Operator/Accessories/EarpieceA",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Yakini Diadem": {

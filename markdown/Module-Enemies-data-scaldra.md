@@ -1,7 +1,7 @@
 ---
 title: "Module:Enemies/data/scaldra"
 wiki_url: "https://wiki.warframe.com/w/Module/Enemies/data/scaldra"
-wiki_timestamp: "2026-05-10T14:35:41Z"
+wiki_timestamp: "2026-10-08T22:41:26Z"
 ---
 
 *Documentation for this module may be created at [Module:Enemies/data/scaldra/doc](/w/Module:Enemies/data/scaldra/doc?action=edit&redlink=1 "Module:Enemies/data/scaldra/doc (page does not exist)")*
@@ -258,11 +258,30 @@ return {
 	},
 	["H-04 Efervon Tank"] = {
 		General = {
+			Abilities = {},
+			Actor = "",
+			CodexSecret = false,
+			Description = "",
 			Faction = "Scaldra",
+			Missions = {"Assassination", "Victory Plaza"},
 			Image = "LasrianTank.png",
-		},
+			InternalName = "/Lotus/Types/Enemies/WF1999Lasrian/LasrianTank/LasrianTankQuestAgent",
+			Introduced = "38",
+			Link = "H-04 Efervon Tank",
+			Name = "H-04 Efervon Tank",
+			Planets = {"Höllvania"},
+			Scans = 3,
+			Type = "Boss",
+			Weapons = { },
+			},
 		Stats = {
-			-- TODO
+			Affinity = 1000,
+			Armor = 100,
+			BaseLevel = 1,
+			Health = 18000,
+			--Multis = { "Head: ?x" },
+			ProcResists = {},
+			--SpawnLevel = ?,
 		},
 	},
 	["H-09 Apex"] = {

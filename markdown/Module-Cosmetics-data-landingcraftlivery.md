@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/landingcraftlivery"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/landingcraftlivery"
-wiki_timestamp: "2026-09-29T10:17:48Z"
+wiki_timestamp: "2026-10-09T07:43:29Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/landingcraftlivery/doc](/w/Module:Cosmetics/data/landingcraftlivery/doc?action=edit&redlink=1 "Module:Cosmetics/data/landingcraftlivery/doc (page does not exist)")*
@@ -536,6 +536,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Liset/GrineerShip/LisetGrineerShipDefault",
         Link = "Skaut Skin",
         Name = "Skaut Skin",
+        Type = "Landing Craft Livery"
+    },
+    ["Skaut Day of the Dead Skin"] = {
+        CodexSecret = false,
+        Description = "Decorate the Skaut's functional Grineer design with colorful paint and festive designs.",
+        ExcludeFromCodex = true,
+        Image = "SkautDayoftheDeadSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/Liset/GrineerShip/LisetGrineerShipDOTD",
+        Link = "Skaut Day of the Dead Skin",
+        Name = "Skaut Day of the Dead Skin",
         Type = "Landing Craft Livery"
     },
     ["Spektaka Liset Skin"] = {

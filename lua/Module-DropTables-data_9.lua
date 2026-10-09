@@ -26863,7 +26863,7 @@ local DropData = {
 		--Update 44.1: Iceblade of Narin: The Icebind
 		["The Icebind: Crested Frozen Chests"] = {
 			Alias = "The Icebind: Crested Frozen Chests",
-			InternalName = "",
+			InternalName = "/Lotus/Types/Game/MissionDecks/KuvaPathRewards/KuvaPathGoldRewards",
 			Link = "The Icebind",
 			Name = "The Icebind",
 			Rewards = {
@@ -26893,7 +26893,7 @@ local DropData = {
 		},
 		["The Icebind: Frozen Chests"] = {
 			Alias = "The Icebind: Frozen Chests",
-			InternalName = "",
+			InternalName = "/Lotus/Types/Game/MissionDecks/KuvaPathRewards/KuvaPathSilverRewards",
 			Link = "The Icebind",
 			Name = "The Icebind",
 			Rewards = {

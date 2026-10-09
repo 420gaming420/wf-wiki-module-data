@@ -255,16 +255,15 @@ local function _getTotal(entries, returnString)
 		end
 	end
 
-	local res = { count = count, credit = credits, ducat = ducats,
-		creditIcon = Tooltip.icon('Credits', 'Resources'), ducatIcon = Tooltip.icon('Orokin Ducats', 'Resources')
-	}
+	local creditIcon, ducatIcon = Tooltip.icon('Credits', 'Resources'), Tooltip.icon('Orokin Ducats', 'Resources')
+	local res = { count = count, credit = credits, ducat = ducats, creditIcon = creditIcon, ducatIcon = ducatIcon}
 
 	if returnString then
 		local default = 'Total Items: <b>{count}</b> &#124; Cost: {creditIcon} <b>{credit}</b> + {ducatIcon} <b>{ducat}</b>'
 		local template = type(returnString) == 'string' and returnString or default
 		local function fmtVal(k) return type(res[k]) == 'number' and Lang:formatNum(res[k]) or res[k] end
 
-		return template:gsub("{([%w_]+)}", fmtVal)
+		return (template:gsub("{([%w_]+)}", fmtVal))
 	else
 		return res
 	end

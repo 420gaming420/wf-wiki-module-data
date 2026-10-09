@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-10-07T17:54:40Z"
+wiki_timestamp: "2026-10-08T14:55:37Z"
 ---
 
 ## Contents
@@ -633,6 +633,59 @@ local Data = {
 			{'Maggot '..Tooltips.full('Toxin', 'DamageTypes')..' damage:', {expr='10 1 MUTATION_STACKS + *'}},
 			{'Maggot explosion radius:', {expr='RNG 4 %of', suff='m', fmt='1dec'}},
 			{'Bonus Mutation Stack chance:', {expr='STR 60 %of 0 INSATIABLE if', suff='%'}}
+		}
+	},
+	-- Nova
+	['Null Star']={
+		ins={
+			{name='NEUTRON_STAR', cont=Tooltips.full('Neutron Star', 'Mods')..'?', type='checkbox'},
+			{name='NULL_STAR_INFUSED', cont='[[Infused]]?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 300 %of'}},
+			{'Particle count:', {name='NULL_STAR_COUNT', expr='DUR 12 %of floor'}},
+			{'Damage reduction:', {name='NULL_STAR_DR', expr='STR 5 %of', suff='%/particle'}},
+			{'Maximum damage reduction:', {expr='NULL_STAR_COUNT NULL_STAR_DR * 75 90 NULL_STAR_INFUSED if min', suff='%'}},
+			{'Targeting radius', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 240 %of 0 NEUTRON_STAR if'}},
+			{Tooltips.full('Heat', 'DamageTypes')..' damage radius:', {expr='RNG 8 %of 0 NEUTRON_STAR if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+		}
+	},
+	['Antimatter Drop']={
+		ins={
+			{name='ANTIMATTER_ABSORB', cont=Tooltips.full('Antimatter Absorb', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Base explosion '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {name='ANTIMATTER_DROP_BASE_DMG', expr='STR 200 %of'}},
+			{'Absorb damage multiplier:', {name='ANTIMATTER_DROP_MULT', expr='STR 8 %of', fmt='2dec'}},
+			{'Maximum explosion '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='ANTIMATTER_DROP_MULT 25000 * ANTIMATTER_DROP_BASE_DMG +'}},
+			{'Contact '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 10 %of'}},
+			{'Explosion radius:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{'Antimatter Absorb radius:', {expr='RNG 5 %of 0 ANTIMATTER_ABSORB if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+		}
+	},
+	['Wormhole']={
+		ins={
+			{name='ESCAPE_VELOCITY', cont=Tooltips.full('Escape Velocity', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Range:', {expr='RNG 50 %of', suff='m', fmt='1dec'}},
+			{'[[Movement Speed]] bonus duration:', {expr='DUR 7 %of 0 ESCAPE_VELOCITY if', suff='s', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
+		}
+	},
+	['Molecular Prime']={
+		ins={},
+		outs={
+			{'Slow or speed:', {expr='STR 50 %of 75 min', suff='%', fmt='1dec'}},
+			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 800 %of'}},
+			{'Wave duration:', {name='MOLECULAR_PRIME_WAVE_DUR', expr='DUR 6 %of', suff='s'}},
+			{'Priming duration:', {expr='DUR 30 %of', suff='s'}},
+			{'Explosion radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
+			{'Maximum wave range:', {expr='MOLECULAR_PRIME_WAVE_DUR 5 * 5 +', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
 		}
 	},
 	-- Oberon

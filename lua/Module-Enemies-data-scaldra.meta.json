@@ -1,12 +1,12 @@
 {
   "page": "Module:Enemies/data/scaldra",
-  "wiki_timestamp": "2026-05-10T14:35:41Z",
-  "extracted_at": "2026-08-31T21:22:44.510699+00:00",
+  "wiki_timestamp": "2026-10-08T22:41:26Z",
+  "extracted_at": "2026-10-09T08:39:53.265495+00:00",
   "lua_files": [
     "Module-Enemies-data-scaldra_0.lua"
   ],
   "lua_block_count": 1,
-  "file_size": 7975,
-  "comment_count": 4,
+  "file_size": 8491,
+  "comment_count": 3,
   "status": "success"
 }

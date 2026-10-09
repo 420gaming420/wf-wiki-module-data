@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-30T08:12:06.082Z"
+    "converted_at": "2026-10-09T08:40:02.534Z"
   },
   "_comments": "",
   "Scimitar Magus Skin": {
@@ -47,6 +47,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Xiphos Prisma Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "XiphosPrismaSkin.png",
+    "Description": "A unique skin for the Xiphos landing craft.",
+    "Link": "Xiphos Prisma Skin",
+    "Name": "Xiphos Prisma Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/Gyroscope/LisetGyroscopeSkinPrimeTrader",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
   "Charger Liset Skin": {
     "Type": "Landing Craft Livery",
     "Image": "ChargerLisetSkin.png",
@@ -67,16 +77,6 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Xiphos Prisma Skin": {
-    "Type": "Landing Craft Livery",
-    "Image": "XiphosPrismaSkin.png",
-    "Description": "A unique skin for the Xiphos landing craft.",
-    "Link": "Xiphos Prisma Skin",
-    "Name": "Xiphos Prisma Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/Gyroscope/LisetGyroscopeSkinPrimeTrader",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
   "Xiphos Lilieae Skin": {
     "Type": "Landing Craft Livery",
     "Image": "XiphosLilieaeSkin.png",
@@ -84,6 +84,16 @@
     "Link": "Xiphos Lilieae Skin",
     "Name": "Xiphos Lilieae Skin",
     "InternalName": "/Lotus/Upgrades/Skins/Liset/Gyroscope/SWXiphosLilieaeSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Xiphos Kuva Skin": {
+    "Type": "Landing Craft Livery",
+    "Image": "XiphosKuvaSkin.png",
+    "Description": "A Kuva themed skin for your landing craft",
+    "Link": "Xiphos Kuva Skin",
+    "Name": "Xiphos Kuva Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/Gyroscope/LisetGyroscopeGrineerQueens",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -117,13 +127,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Xiphos Kuva Skin": {
+  "Liset Prisma Skin": {
     "Type": "Landing Craft Livery",
-    "Image": "XiphosKuvaSkin.png",
-    "Description": "A Kuva themed skin for your landing craft",
-    "Link": "Xiphos Kuva Skin",
-    "Name": "Xiphos Kuva Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/Gyroscope/LisetGyroscopeGrineerQueens",
+    "Image": "LisetPrismaSkin.png",
+    "Description": "A customized exterior for your Liset.",
+    "Link": "Liset Prisma Skin",
+    "Name": "Liset Prisma Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinVoidTrader",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -137,13 +147,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Spektaka Liset Skin": {
+  "Xiphos Henipa Skin": {
     "Type": "Landing Craft Livery",
-    "Image": "SpektakaLisetSkin.png",
-    "Description": "Blast through the Origin System with this alluring Liset skin.",
-    "Link": "Spektaka Liset Skin",
-    "Name": "Spektaka Liset Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinTwitchPrime",
+    "Image": "XiphosHenipaSkin.png",
+    "Description": "A unique skin for the Xiphos landing craft.",
+    "Link": "Xiphos Henipa Skin",
+    "Name": "Xiphos Henipa Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/Gyroscope/LisetGyroscopeSkinNekrognos",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
@@ -167,14 +177,14 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Xiphos Henipa Skin": {
+  "Terror Landing Craft Skin": {
     "Type": "Landing Craft Livery",
-    "Image": "XiphosHenipaSkin.png",
-    "Description": "A unique skin for the Xiphos landing craft.",
-    "Link": "Xiphos Henipa Skin",
-    "Name": "Xiphos Henipa Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/Gyroscope/LisetGyroscopeSkinNekrognos",
-    "ExcludeFromCodex": true,
+    "Image": "TerrorLandingCraftSkin.png",
+    "Description": "Transform your Landing Craft into a perfect match for Stalker’s.",
+    "Link": "Terror Landing Craft Skin",
+    "Name": "Terror Landing Craft Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/StalkerShipDeluxeSkin",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Liset Obsidian Skin": {
@@ -197,14 +207,14 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Terror Landing Craft Skin": {
+  "Spektaka Liset Skin": {
     "Type": "Landing Craft Livery",
-    "Image": "TerrorLandingCraftSkin.png",
-    "Description": "Transform your Landing Craft into a perfect match for Stalker’s.",
-    "Link": "Terror Landing Craft Skin",
-    "Name": "Terror Landing Craft Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/StalkerShipDeluxeSkin",
-    "ExcludeFromCodex": false,
+    "Image": "SpektakaLisetSkin.png",
+    "Description": "Blast through the Origin System with this alluring Liset skin.",
+    "Link": "Spektaka Liset Skin",
+    "Name": "Spektaka Liset Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinTwitchPrime",
+    "ExcludeFromCodex": true,
     "CodexSecret": false
   },
   "Xiphos Ifrit Skin": {
@@ -577,14 +587,14 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Liset Prisma Skin": {
+  "Skaut Day of the Dead Skin": {
     "Type": "Landing Craft Livery",
-    "Image": "LisetPrismaSkin.png",
-    "Description": "A customized exterior for your Liset.",
-    "Link": "Liset Prisma Skin",
-    "Name": "Liset Prisma Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/Liset/LisetSkinVoidTrader",
-    "ExcludeFromCodex": false,
+    "Image": "SkautDayoftheDeadSkin.png",
+    "Description": "Decorate the Skaut's functional Grineer design with colorful paint and festive designs.",
+    "Link": "Skaut Day of the Dead Skin",
+    "Name": "Skaut Day of the Dead Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Liset/GrineerShip/LisetGrineerShipDOTD",
+    "ExcludeFromCodex": true,
     "CodexSecret": false
   },
   "Liset Quilate Skin": {

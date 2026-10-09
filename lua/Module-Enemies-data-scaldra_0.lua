@@ -249,11 +249,30 @@ return {
 	},
 	["H-04 Efervon Tank"] = {
 		General = {
+			Abilities = {},
+			Actor = "",
+			CodexSecret = false,
+			Description = "",
 			Faction = "Scaldra",
+			Missions = {"Assassination", "Victory Plaza"},
 			Image = "LasrianTank.png",
-		},
+			InternalName = "/Lotus/Types/Enemies/WF1999Lasrian/LasrianTank/LasrianTankQuestAgent",
+			Introduced = "38",
+			Link = "H-04 Efervon Tank",
+			Name = "H-04 Efervon Tank",
+			Planets = {"Höllvania"},
+			Scans = 3,
+			Type = "Boss",
+			Weapons = { },
+			},
 		Stats = {
-			-- TODO
+			Affinity = 1000,
+			Armor = 100,
+			BaseLevel = 1,
+			Health = 18000,
+			--Multis = { "Head: ?x" },
+			ProcResists = {},
+			--SpawnLevel = ?,
 		},
 	},
 	["H-09 Apex"] = {

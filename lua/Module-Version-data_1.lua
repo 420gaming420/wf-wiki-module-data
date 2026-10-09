@@ -19256,6 +19256,18 @@ local Versions = {
 		Timestamp = 1791399657,
 		Subtitle = "The Icebind"
 	},
+	{
+		Name = "Hotfix 44.1.1",
+		Link = "Update 44#Hotfix 44.1.1",
+		Aliases = { "44.1.1" },
+		ShortName = "H44.1.1",
+		Date = "2026-10-08",
+		Parent = "44",
+		ForumLink = "https://forums.warframe.com/topic/1527669-iceblade-of-narin-the-icebind-hotfix-4411/",
+		ArchiveLink = "[PH]",
+		ArchiveDate = "[PH]",
+		Timestamp = 1791501288,
+	},
 }
 
 -- Building additional indexes from data
