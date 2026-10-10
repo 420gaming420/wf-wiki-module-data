@@ -1,7 +1,7 @@
 ---
 title: "Module:Weapons/data/primary"
 wiki_url: "https://wiki.warframe.com/w/Module/Weapons/data/primary"
-wiki_timestamp: "2026-10-03T12:01:43Z"
+wiki_timestamp: "2026-10-09T19:21:34Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s [Primary Weapons](/w/Primary_Weapon "Primary Weapon").
@@ -54,7 +54,7 @@ Thanks, you're awesome!
 * [11 Weapon Data](#Weapon_Data)
 * [12 References](#References)
 
-:   *Last updated: Sat, 03 Oct 2026 12:01:43 +0000 (UTC) by [User:Xikto](/w/User:Xikto?action=edit&redlink=1 "User:Xikto (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/primary?diff=0))*
+:   *Last updated: Fri, 09 Oct 2026 19:21:34 +0000 (UTC) by [User:Cephalon Scientia](/w/User:Cephalon_Scientia "User:Cephalon Scientia") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/primary?diff=0))*
 
 ## Horizontal Partitions (and where to update data)
 
@@ -2129,7 +2129,7 @@ return {
 				ShotSpeed = 60,
 				ShotType = "Projectile",
 				StatusChance = 0.33,
-				Trigger = "Auto Charge"
+				Trigger = "Auto-Charge"
 			},
 			{
 				AttackIndex = 3,
@@ -3356,7 +3356,7 @@ return {
 				ShotSpeed = 120,
 				ShotType = "Projectile",
 				StatusChance = 0.18,
-				Trigger = "Auto Burst"
+				Trigger = "Auto-Burst"
 			},
 			{
 				Accuracy = 100,
@@ -3375,7 +3375,7 @@ return {
 				Range = 300,
 				ShotType = "Hit-Scan",
 				StatusChance = 0.08,
-				Trigger = "Auto Charge"
+				Trigger = "Auto-Charge"
 			},
 			{
 				AttackIndex = 3,
@@ -3413,7 +3413,7 @@ return {
 		SellPrice = 7500,
 		Slot = "Primary",
 		Traits = { "Corpus" },
-		Trigger = "Auto Burst / Charge",
+		Trigger = "Auto-Burst / Charge",
 		_TooltipAttackDisplay = 1
 	},
 	Baza = {
@@ -5903,7 +5903,7 @@ return {
 				PunchThrough = 0,
 				ShotType = "Hit-Scan",
 				StatusChance = 0.0573,
-				Trigger = "Auto Charge"
+				Trigger = "Auto-Charge"
 			}
 		},
 		Class = "Rifle",
@@ -6644,7 +6644,7 @@ return {
 				ShotSpeed = 120,
 				ShotType = "Projectile",
 				StatusChance = 0.19,
-				Trigger = "Auto Charge"
+				Trigger = "Auto-Charge"
 			},
 			{
 				AttackIndex = 3,
@@ -6734,7 +6734,7 @@ return {
 				ShotSpeed = 120,
 				ShotType = "Projectile",
 				StatusChance = 0.27,
-				Trigger = "Auto Charge"
+				Trigger = "Auto-Charge"
 			},
 			{
 				AttackIndex = 3,
@@ -7488,7 +7488,7 @@ return {
 		SellPrice = 7500,
 		Slot = "Primary",
 		Traits = { "Grineer" },
-		Trigger = "Auto Charge",
+		Trigger = "Auto-Charge",
 		_TooltipAttackDisplay = 1
 	},
 	Karak = {
@@ -11280,7 +11280,7 @@ return {
 				ShotSpeed = 120,
 				ShotType = "Projectile",
 				StatusChance = 0.21,
-				Trigger = "Auto Charge"
+				Trigger = "Auto-Charge"
 			},
 			{
 				AttackIndex = 3,
@@ -11984,7 +11984,7 @@ return {
 				ShotSpeed = 200,
 				ShotType = "Projectile",
 				StatusChance = 0.1,
-				Trigger = "Auto Charge"
+				Trigger = "Auto-Charge"
 			}
 		},
 		Class = "Rifle",
@@ -15499,7 +15499,7 @@ return {
 		SniperComboReset = 2,
 		Tradable = 2,
 		Traits = { "" },
-		Trigger = "Auto Charge",
+		Trigger = "Auto-Charge",
 		_TooltipAttackDisplay = 1
 	},
 	["Vaykor Hek"] = {

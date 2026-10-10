@@ -2049,7 +2049,7 @@ return {
 		ReloadRate = 500,
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
-		Trigger = "Auto Burst",
+		Trigger = "Auto-Burst",
 		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
@@ -2092,7 +2092,7 @@ return {
 		ReloadRate = 500,
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
-		Trigger = "Auto Burst",
+		Trigger = "Auto-Burst",
 		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
@@ -2135,7 +2135,7 @@ return {
 		ReloadRate = 500,
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
-		Trigger = "Auto Burst",
+		Trigger = "Auto-Burst",
 		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
@@ -2177,7 +2177,7 @@ return {
 		ReloadRate = 500,
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
-		Trigger = "Auto Burst",
+		Trigger = "Auto-Burst",
 		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
@@ -2890,7 +2890,7 @@ return {
 		ReloadRate = 500,
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
-		Trigger = "Auto Burst",
+		Trigger = "Auto-Burst",
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
 	},
@@ -2931,7 +2931,7 @@ return {
 		ReloadRate = 500,
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
-		Trigger = "Auto Burst",
+		Trigger = "Auto-Burst",
 		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
@@ -2973,7 +2973,7 @@ return {
 		ReloadRate = 500,
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
-		Trigger = "Auto Burst",
+		Trigger = "Auto-Burst",
 		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
@@ -3015,7 +3015,7 @@ return {
 		ReloadRate = 500,
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
-		Trigger = "Auto Burst",
+		Trigger = "Auto-Burst",
 		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
@@ -4458,7 +4458,7 @@ return {
 		ReloadRate = 500,
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
-		Trigger = "Auto Burst",
+		Trigger = "Auto-Burst",
 		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
@@ -4501,7 +4501,7 @@ return {
 		ReloadRate = 500,
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
-		Trigger = "Auto Burst",
+		Trigger = "Auto-Burst",
 		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
@@ -4544,7 +4544,7 @@ return {
 		ReloadRate = 500,
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
-		Trigger = "Auto Burst",
+		Trigger = "Auto-Burst",
 		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
@@ -4586,7 +4586,7 @@ return {
 		ReloadRate = 500,
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
-		Trigger = "Auto Burst",
+		Trigger = "Auto-Burst",
 		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
@@ -6171,7 +6171,7 @@ return {
 		ReloadRate = 500,
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
-		Trigger = "Auto Burst",
+		Trigger = "Auto-Burst",
 		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
@@ -6214,7 +6214,7 @@ return {
 		ReloadRate = 500,
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
-		Trigger = "Auto Burst",
+		Trigger = "Auto-Burst",
 		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
@@ -6257,7 +6257,7 @@ return {
 		ReloadRate = 500,
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
-		Trigger = "Auto Burst",
+		Trigger = "Auto-Burst",
 		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 
@@ -6299,7 +6299,7 @@ return {
 		ReloadRate = 500,
 		ReloadStyle = "Regenerate/Cooldown",
 		Slot = "Railjack Turret",
-		Trigger = "Auto Burst",
+		Trigger = "Auto-Burst",
 		_IgnoreEntry = true,
 		_IgnoreInMasteryCount = true,
 		_TooltipAttackDisplay = 1 

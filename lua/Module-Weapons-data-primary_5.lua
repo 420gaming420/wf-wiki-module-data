@@ -228,7 +228,7 @@ return {
 				ShotSpeed = 60,
 				ShotType = "Projectile",
 				StatusChance = 0.33,
-				Trigger = "Auto Charge"
+				Trigger = "Auto-Charge"
 			},
 			{
 				AttackIndex = 3,
@@ -1455,7 +1455,7 @@ return {
 				ShotSpeed = 120,
 				ShotType = "Projectile",
 				StatusChance = 0.18,
-				Trigger = "Auto Burst"
+				Trigger = "Auto-Burst"
 			},
 			{
 				Accuracy = 100,
@@ -1474,7 +1474,7 @@ return {
 				Range = 300,
 				ShotType = "Hit-Scan",
 				StatusChance = 0.08,
-				Trigger = "Auto Charge"
+				Trigger = "Auto-Charge"
 			},
 			{
 				AttackIndex = 3,
@@ -1512,7 +1512,7 @@ return {
 		SellPrice = 7500,
 		Slot = "Primary",
 		Traits = { "Corpus" },
-		Trigger = "Auto Burst / Charge",
+		Trigger = "Auto-Burst / Charge",
 		_TooltipAttackDisplay = 1
 	},
 	Baza = {
@@ -4002,7 +4002,7 @@ return {
 				PunchThrough = 0,
 				ShotType = "Hit-Scan",
 				StatusChance = 0.0573,
-				Trigger = "Auto Charge"
+				Trigger = "Auto-Charge"
 			}
 		},
 		Class = "Rifle",
@@ -4743,7 +4743,7 @@ return {
 				ShotSpeed = 120,
 				ShotType = "Projectile",
 				StatusChance = 0.19,
-				Trigger = "Auto Charge"
+				Trigger = "Auto-Charge"
 			},
 			{
 				AttackIndex = 3,
@@ -4833,7 +4833,7 @@ return {
 				ShotSpeed = 120,
 				ShotType = "Projectile",
 				StatusChance = 0.27,
-				Trigger = "Auto Charge"
+				Trigger = "Auto-Charge"
 			},
 			{
 				AttackIndex = 3,
@@ -5587,7 +5587,7 @@ return {
 		SellPrice = 7500,
 		Slot = "Primary",
 		Traits = { "Grineer" },
-		Trigger = "Auto Charge",
+		Trigger = "Auto-Charge",
 		_TooltipAttackDisplay = 1
 	},
 	Karak = {
@@ -9379,7 +9379,7 @@ return {
 				ShotSpeed = 120,
 				ShotType = "Projectile",
 				StatusChance = 0.21,
-				Trigger = "Auto Charge"
+				Trigger = "Auto-Charge"
 			},
 			{
 				AttackIndex = 3,
@@ -10083,7 +10083,7 @@ return {
 				ShotSpeed = 200,
 				ShotType = "Projectile",
 				StatusChance = 0.1,
-				Trigger = "Auto Charge"
+				Trigger = "Auto-Charge"
 			}
 		},
 		Class = "Rifle",
@@ -13598,7 +13598,7 @@ return {
 		SniperComboReset = 2,
 		Tradable = 2,
 		Traits = { "" },
-		Trigger = "Auto Charge",
+		Trigger = "Auto-Charge",
 		_TooltipAttackDisplay = 1
 	},
 	["Vaykor Hek"] = {

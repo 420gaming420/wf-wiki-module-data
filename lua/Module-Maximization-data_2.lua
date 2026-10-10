@@ -683,6 +683,56 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
 		}
 	},
+	-- Rhino
+	['Rhino Charge']={
+		ins={
+			{name='RHINO_CHARGE_NUMBER', cont='Charge number:', type='range-R', min='1', max='3', value='1'},
+			{name='IRONCLAD_CHARGE', cont=Tooltips.full('Ironclad Charge', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Impact', 'DamageTypes')..' damage:', {name='RHINO_CHARGE_BASE_DMG', expr='STR 650 %of 2 RHINO_CHARGE_NUMBER 1 - ^ *'}},
+			{Tooltips.full('Impact', 'DamageTypes')..' damage to enemies in'..Tooltips.full('Rhino Stomp', 'Ability')..':', {expr='RHINO_CHARGE_BASE_DMG 2 *'}},
+			{'Combo window duration:', {expr='DUR 1 %of', suff='s', fmt='2dec'}},
+			{'Charge distance:', {expr='RNG 12 %of RHINO_CHARGE_NUMBER 1 - 0.25 * 1 + *', suff='m', fmt='1dec'}},
+			{'Impact radius:', {expr='RNG 2 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Armor', 'Stats')..' bonus:', {expr='STR 50 %of 0 IRONCLAD_CHARGE if', suff='%/hit'}},
+			{Tooltips.full('Armor', 'Stats')..' bonus duration:', {expr='DUR 10 %of 0 IRONCLAD_CHARGE if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST * 2 RHINO_CHARGE_NUMBER 1 - addin ^ *', fmt='2dec'}}
+		}
+	},
+	['Iron Skin']={
+		ins={
+			{name='RHINO_ARMOR', cont='Current '..Tooltips.full('Armor', 'Stats')..':', min='0', value='240'},
+			{name='IRON_SHRAPNEL', cont=Tooltips.full('Iron Shrapnel', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Base '..Tooltips.full('Overguard', 'DamageTypes')..':', {expr='STR 1200 2.5 RHINO_ARMOR * + %of'}},
+			{'Iron Shrapnel radius:', {expr='RNG 8 %of 0 IRON_SHRAPNEL if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Roar']={
+		ins={
+			{name='PIERCING_ROAR', cont=Tooltips.full('Piercing Roar', 'Mods')..'?', type='checkbox'},
+			{name='ROAR_INFUSED', cont='[[Infused]]?', type='checkbox'}
+		},
+		outs={
+			{'[[Faction Damage Bonus]]:', {expr='STR 30 50 ROAR_INFUSED if %of', suff='%', fmt='1dec'}},
+			{'Duration:', {expr='DUR 30 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 40 0 PIERCING_ROAR if + 25 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Weakened', 'DamageTypes')..' duration:', {expr='DUR 1 %of 10 * 0 PIERCING_ROAR if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Rhino Stomp']={
+		ins={},
+		outs={
+			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 800 %of'}},
+			{'Duration:', {expr='DUR 8 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		}
+	},
 	-- Sevagoth
 	['Reap']={
 		ins={
@@ -691,12 +741,12 @@ local Data = {
 			{name='AIMING', cont='Aiming?', type='checkbox'}
 		},
 		outs={
-			{'[[Damage Vulnerability]]:', {expr='STR 50 %of', suff='%'}},
-			{'Debuff duration:', {expr='DUR 10 %of', suff='s'}},
+			{'[[Damage Vulnerability]]:', {expr='STR 50 %of', suff='%', fmt='2dec'}},
+			{'Debuff duration:', {expr='DUR 10 %of', suff='s', fmt='1dec'}},
 			{Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='STR 250 %of'}},
-			{'Shadow flight duration:', {expr='DUR 6 %of', suff='s'}},
-			{'Shadow debuff radius:', {expr='RNG 8 %of', suff='m'}},
-			{'Shadow flight speed:', {expr='20 10 HOLD_CAST if', suff='m/s'}},
+			{'Shadow flight duration:', {expr='DUR 6 %of', suff='s', fmt='1dec'}},
+			{'Shadow debuff radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
+			{'Shadow flight speed:', {expr='10 2 1 HOLD_CAST if * 1.5 1 AIMING if *', suff='m/s'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
 		}
 	},
@@ -713,16 +763,43 @@ local Data = {
 	},
 	['Gloom']={
 		ins={
-			{name='ENEMY_COUNT', cont='Enemies:', type='range-R', min='0', max='10', default='1'}
+			{name='ENEMY_COUNT', cont='Enemies Inside Gloom:', type='range-R', min='0', max='10', default='1', value='1'}
 		},
 		outs={
-			{Tooltips.full('Slow', 'DamageTypes')..':', {expr='STR 35 %of', suff='%'}},
-			{'Max Radius:', {expr='RNG 16 %of', suff='m'}},
-			{'Initial Radius:', {expr='RNG 4 %of', suff='m'}},
-			{'Growth Rate:', {expr='DUR 2 %of', suff='m/s'}},
+			{Tooltips.full('Slow', 'DamageTypes')..':', {name='SLOW', expr='STR 35 %of 95 min', suff='%', fmt='2dec'}},
+			{'Effective Slow:', {expr='100 100 SLOW - /', suff='x', fmt='2'}},
+			{'Initial Radius:', {expr='RNG 4 %of', suff='m', fmt='1dec'}},
+			{'Max Radius:', {expr='RNG 16 %of', suff='m', fmt='1dec'}},
+			{'Growth Rate:', {expr='DUR 2 %of RNG 1 %of *', suff='m/s', fmt='1dec'}},
+			{'Time to reach Max Radius', {expr='6 1 DUR %of /', suff='s', fmt='1dec'}},
 			{'Life Steal:', {expr='STR 5 %of', suff='%'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='ENEMY_COUNT 0.75 COST *'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='0.75 DRAIN * 1 ENEMY_COUNT *', suff='/s', fmt='2dec'}}
+		}
+	},
+	-- Sevagoth's Shadow
+	['Embrace']={
+		ins={},
+		outs={
+			{'Grab Duration:', {expr='DUR 8 %of', suff='s'}},
+			{'Grab Range:', {expr='RNG 20 %of', suff='m'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+		}
+	},
+	['Consume']={
+		ins={},
+		outs={
+			{'Heal Value:', {expr='STR 0.25 %of STR 2500 %of', suff='HP'}},
+			{'Targeting Range:', {expr='RNG 14', suff='m'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+		}
+	},
+	['Death\'s Harvest']={
+		ins={},
+		outs={
+			{'[[Damage Vulnerability]]:', {expr='STR 50 %of', suff='%'}},
+			{'Debuff duration:', {expr='DUR 10 %of', suff='s'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
 		}
 	},
 	-- Uriel
