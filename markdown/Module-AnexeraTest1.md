@@ -1,7 +1,7 @@
 ---
 title: "Module:AnexeraTest1"
 wiki_url: "https://wiki.warframe.com/w/Module/AnexeraTest1"
-wiki_timestamp: "2026-10-08T20:53:32Z"
+wiki_timestamp: "2026-10-10T10:15:34Z"
 ---
 
 *Documentation for this module may be created at [Module:AnexeraTest1/doc](/w/Module:AnexeraTest1/doc?action=edit&redlink=1 "Module:AnexeraTest1/doc (page does not exist)")*
@@ -225,47 +225,53 @@ end
 --	@param			{table} entries Array of item entries, case sensitive; assuming no duplicate values
 --	@return			{string} Wikitext of gallery
 local function buildGallery(entries)
-	local galleryUl		= '
+	local galleryUl			= '
 
 %s
 '
-	local galleryBoxLi	= '- %s
-'
-	local thumbDiv		= '
+	local labelSpan 		= '%s'
+	local tooltipSpan		= '%s'
+	local costTemplate		= '
 
-%s
-
-'
-	local labelSpan 	= '%s'
-	local tooltipSpan	= '%s'
-	local textDiv		= '
-
-%s
+[[File:%s|x20px|link=%s|class=textSelect]] %%s
 
 '
-	local galleryBoxes	= {}
+	local creditTemplate	= costTemplate:format('credit', 'Credits64.png', 'Credits')
+	local ducatTemplate 	= costTemplate:format('ducat', 'OrokinDucats.png', 'Ducats')
+	local galleryBoxes		= {}
 
 	for _, entry in ipairs(entries) do
 		local itemName		= entry.Name
 		local itemLink		= entry.Link or itemName
 		local tooltipModule	= (TypeConfigs[entry.Type] or {}).TooltipModule
+		local displayName	= entry.Image and
+			(itemLink ~= itemName and ('[[%s|%s]]'):format(itemLink, itemName) or ('[[%s]]'):format(itemName)) or
+			('"%s" does not exist in [[Module:Baro/data]].'):format(itemName)
 
 		local file			= ('[[File:%s|120x120px|link=%s]]'):format(entry.Image or 'UnidentifiedItem.png', itemLink)
-		local label			= entry.Condition and labelSpan:format('font-size:0.8em; font-weight:bold; color:#ffbc00;', entry.Condition)
+		local label			= entry.Condition and labelSpan:format(entry.Condition)
 		local tooltip		= tooltipModule and tooltipSpan:format(itemLink, tooltipModule, itemName, file)
-		local displayName	= not entry.Image and
-			('"%s" does not exist in [[Module:Baro/data]].'):format(itemName) or
-			itemLink ~= itemName and ('[[%s|%s]]'):format(itemLink, itemName) or ('[[%s]]'):format(itemName)
-		local textInner		= ('%s  
-%s %s  
-%s %s'):format(displayName,
-			'[[File:OrokinDucats.png|x20px|link=Ducats|class=textSelect]]', Lang:formatNum(entry.DucatCost or 0),
-			'[[File:Credits64.png|x20px|link=Credits|class=textSelect]]', Lang:formatNum(entry.CreditCost or 0)
-		)
 
-		local thumb	= thumbDiv:format(label and ((tooltip or file) .. label) or (tooltip or file))
-		local text	= textDiv:format(textInner)
-		table.insert(galleryBoxes, galleryBoxLi:format(thumb .. text))
+		local name			=  ('
+
+%s
+
+'):format(displayName)
+		local credit		= creditTemplate:format(Lang:formatNum(entry.CreditCost or 0))
+		local ducat			= ducatTemplate:format(Lang:formatNum(entry.DucatCost or 0))
+
+		local thumb			= ('
+
+%s
+
+'):format(label and ((tooltip or file) .. label) or (tooltip or file))
+		local profile		= ('
+
+%s
+
+'):format(name .. ducat .. credit)
+		table.insert(galleryBoxes, ('- %s
+'):format(thumb .. profile))
 	end
 
 	return _getTotal(entries, true) .. '\n' .. galleryUl:format('\n' .. table.concat(galleryBoxes, '\n'))
@@ -445,7 +451,7 @@ function p.buildOfferings(frame)
 
 		local function matchDate(t)
 			if #t == 0 then return end
-			for i = (f_date_target == 'first' and #t or 1), (f_date_target ~= 'last' and #t or 1) do
+			for i = (f_date_target == 'first' and #t or 1), (f_date_target ~= 'last' and #t or 1) do -- assume array is descending
 				local res = (eq and t[i]:sub(1, #eq) == eq) or ((gt or lt) and (not gt or t[i] > gt) and (not lt or t[i] < lt))
 				if res then return res end
 			end
@@ -505,7 +511,7 @@ function p.buildOfferings(frame)
 	if not tabs or #tabs == 0 then
 		tabs = tabs or {}
 		buildTabs(tabs)
-		if cat ~= 'year' then table.sort(tabs) end
+		if cat ~= 'Year' then table.sort(tabs) end
 	end
 
 	local tabCfg = { tabs = tabs, getItemCat = getCat, render = renderFunc, args = args.args}

@@ -1,7 +1,7 @@
 ---
 title: "Module:Baro"
 wiki_url: "https://wiki.warframe.com/w/Module/Baro"
-wiki_timestamp: "2026-10-08T15:39:08Z"
+wiki_timestamp: "2026-10-10T13:31:15Z"
 ---
 
 **Baro** stores [Baro Ki'Teer](/w/Baro_Ki%27Teer "Baro Ki'Teer")'s offering history.
@@ -281,29 +281,6 @@ local function formatDataList(list, mode, caption, id)
 	return displayLabel or ''
 end
 
----	Formats the item display with appropriate links or tooltip.
---	@function		formatItemName
---	@param			{table} ItemEntry The item object containing Name, Type, and Link
---	@return			{string} Formatted output (Wikitext link or Tooltip HTML)
-local function formatItemName(ItemEntry)
-	local moduleName = (TypeConfigs[ItemEntry.Type or ''] or {}).TooltipModule
-	local itemName = ItemEntry.Name
-	local itemLink = ItemEntry.Link or itemName
-
-	local condition = ItemEntry.Condition and
-		('
-
-%s
-
-🔒 '):format(ItemEntry.Condition) or ''
-
-	if moduleName then
-		return condition .. Tooltip.full({ itemLink, moduleName, r = itemName })
-	else
-		return condition .. '[[' .. (itemLink ~= itemName and itemLink .. '|' .. itemName or itemName) .. ']]' 
-	end
-end
-
 --- Core logic to process Baro history dates and generate tooltip or plain text.
 -- @function				_getItemDates
 -- @param					{table} options Configuration table containing:
@@ -424,44 +401,61 @@ local function _getTotal(entries, returnString)
 	end
 end
 
----	Builds current offerings display in a gallery format using gallery tags.
---	@function		p.buildGallery
---	@param			{table} ItemEntries Array of item entries that Baro is offering, case sensitive; assuming no duplicate values
+---	Builds offerings display in a custom gallery format.
+--	@function		buildGallery
+--	@param			{table} entries Array of item entries, case sensitive; assuming no duplicate values
 --	@return			{string} Wikitext of gallery
-local function buildGallery(ItemEntries)
-	local container = mw.html.create('div')
-	local gallery = mw.html.create('gallery')
-	local galInner = { '' }
+local function buildGallery(entries)
+	local galleryUl			= '
 
-	gallery:attr({
-		['captionposition'] = 'below',
-		['captionalign'] = 'center',
-		['hideaddbutton'] = 'true',
-		['spacing'] = 'small',
-		['position'] = 'center',
-		['bordersize'] = 'none',
-		['widths'] = '125px',
-	})
+%s
+'
+	local labelSpan 		= '%s'
+	local tooltipSpan		= '%s'
+	local costTemplate		= '
 
-	for _, entry in ipairs(ItemEntries) do
-		local displayName = entry.Image and formatItemName(entry) or
-			string.format('"%s" does not exist in [[Module:Baro/data]].', entry.Name)
+[[File:%s|x20px|link=%s|class=textSelect]] %%s
 
-		table.insert(galInner, string.format('%s|link=%s|%s  
-%s %s  
-%s %s',
-			entry.Image or 'UnidentifiedItem.png',
-			entry.Link or entry.Name,
-			displayName,
-			'[[File:OrokinDucats.png|x20px|link=Ducats|class=textSelect]]', Lang:formatNum(entry.DucatCost or 0),
-			'[[File:Credits64.png|x20px|link=Credits|class=textSelect]]', Lang:formatNum(entry.CreditCost or 0)
-		))
+'
+	local creditTemplate	= costTemplate:format('credit', 'Credits64.png', 'Credits')
+	local ducatTemplate 	= costTemplate:format('ducat', 'OrokinDucats.png', 'Ducats')
+	local galleryBoxes		= {}
+
+	for _, entry in ipairs(entries) do
+		local itemName		= entry.Name
+		local itemLink		= entry.Link or itemName
+		local tooltipModule	= (TypeConfigs[entry.Type] or {}).TooltipModule
+		local displayName	= entry.Image and
+			(itemLink ~= itemName and ('[[%s|%s]]'):format(itemLink, itemName) or ('[[%s]]'):format(itemName)) or
+			('"%s" does not exist in [[Module:Baro/data]].'):format(itemName)
+
+		local file			= ('[[File:%s|120x120px|link=%s]]'):format(entry.Image or 'UnidentifiedItem.png', itemLink)
+		local label			= entry.Condition and labelSpan:format(entry.Condition)
+		local tooltip		= tooltipModule and tooltipSpan:format(itemLink, tooltipModule, itemName, file)
+
+		local name			=  ('
+
+%s
+
+'):format(displayName)
+		local credit		= creditTemplate:format(Lang:formatNum(entry.CreditCost or 0))
+		local ducat			= ducatTemplate:format(Lang:formatNum(entry.DucatCost or 0))
+
+		local thumb			= ('
+
+%s
+
+'):format(label and ((tooltip or file) .. label) or (tooltip or file))
+		local profile		= ('
+
+%s
+
+'):format(name .. ducat .. credit)
+		table.insert(galleryBoxes, ('- %s
+'):format(thumb .. profile))
 	end
 
-	galInner = table.concat(galInner, '\n')
-	gallery:wikitext(galInner .. '\n')
-	container:node(gallery)
-	return _getTotal(ItemEntries, true) .. '\n' .. tostring(container)
+	return _getTotal(entries, true) .. '\n' .. galleryUl:format('\n' .. table.concat(galleryBoxes, '\n'))
 end
 
 ---	Renders a sortable store table from a array of item entries.
@@ -578,10 +572,6 @@ function p.buildCurrentOfferings(frame)
 	}
 
 	local ItemEntries = {}
-	local extraItems = { -- Always available items, not included in the API.
-		 { Condition = "Requires Inaros Prime (Equipped)", CreditCost = 25000, DucatCost = 100,
-		 	Image = "BaroVoid-Signal.png", Name = "Baro Void-Signal", Type = "Mission Locator" },
-	}
 
 	if args.allItems == 'true' then
 		for _, v in pairs(BaroItems) do
@@ -595,7 +585,7 @@ function p.buildCurrentOfferings(frame)
 	end
 
 	if args.extraItems == 'true' then
-		for i = 1, #extraItems do ItemEntries[#ItemEntries + 1] = extraItems[i] end
+		ItemEntries[#ItemEntries + 1] = BaroData.ExtraItems['Baro Void-Signal']
 	end
 
 	return frame:preprocess(buildTabbers(ItemEntries, buildgalleryConfig))

@@ -1,12 +1,12 @@
 ---
 title: "Module:Baro/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Baro/data"
-wiki_timestamp: "2026-10-02T13:03:22Z"
+wiki_timestamp: "2026-10-10T12:36:57Z"
 ---
 
 Database contents initially seeded based on wikitables in [Baro\_Ki'Teer/Trades](/w/Baro_Ki%27Teer/Trades "Baro Ki'Teer/Trades") and [Baro\_Ki'Teer/ConsoleTrades](/w/Baro_Ki%27Teer/ConsoleTrades "Baro Ki'Teer/ConsoleTrades"). For full history see, [User:Anexera](/w/User:Anexera "User:Anexera")'s [Google Sheets](https://docs.google.com/spreadsheets/d/1cdT7M2qbOhZ01AQT2RaH8_6VL1yww4BHkTRtLzqZ7_g/edit#gid=632835097). See [Module:Baro/data/visits](/w/Module:Baro/data/visits "Module:Baro/data/visits") for Baro's historical visits.
 
-:   *Last updated: Fri, 02 Oct 2026 13:03:22 +0000 (UTC) by [User:Anexera](/w/User:Anexera "User:Anexera") ([change log](https://wiki.warframe.com/w/Module:Baro/data?diff=0))*
+:   *Last updated: Sat, 10 Oct 2026 12:36:57 +0000 (UTC) by [User:Anexera](/w/User:Anexera "User:Anexera") ([change log](https://wiki.warframe.com/w/Module:Baro/data?diff=0))*
 
 ## Contents
 
@@ -92,7 +92,7 @@ return {
 	["AlwaysAvailable"] = { ["Sands of Inaros Blueprint"] = true, ["Fae Path Ephemera"] = true, ["Void Surplus"] = true }, --deprecated
 	["ExtraItems"] = { -- Conditional unlock items (ones that are not included in the API)
 		["Baro Void-Signal"] = {
-			Condition = "Requires Inaros Prime (Equipped)",
+			Condition = "🔒 Requires Inaros Prime (Equipped)",
 			CreditCost = 25000,
 			DucatCost = 100,
 			Image = "BaroVoid-Signal.png",

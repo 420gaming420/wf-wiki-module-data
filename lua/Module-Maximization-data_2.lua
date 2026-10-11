@@ -196,8 +196,8 @@ local Data = {
 			{Tooltips.full('Gas Cloud', 'DamageTypes')..' damage:', {expr='0.5 SOUND_QUAKE_BASE_DMG * 0 GASEOUS_QUAKE if'}},
 			{'Zone duration:', {expr='DUR 6.25 25 GASEOUS_QUAKE if %of', suff='s'}},
 			{'Radius:', {expr='RNG 20 %of', suff='m'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 75 GASEOUS_QUAKE if COST *'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='16 DRAIN * 1.2 GASEOUS_QUAKE_DURATION ^ * 0 GASEOUS_QUAKE if'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 75 GASEOUS_QUAKE if COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='16 DRAIN * 1.2 GASEOUS_QUAKE_DURATION ^ * 0 GASEOUS_QUAKE if', fmt='2dec'}}
 		}
 	},
 	-- Caliban
@@ -353,6 +353,56 @@ local Data = {
 			{'Dome radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
 			{'Grab radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+		}
+	},
+	-- Lavos
+	['Ophidian Bite']={
+		ins={
+			{name='SWIFT_BITE', cont=Tooltips.full('Swift Bite', 'Mods')..' and hit 4 enemies?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Toxin', 'DamageTypes')..' damage:', {expr='STR 1000 %of'}},
+			{'Imbued elemental damage:', {expr='STR 1000 %of'}},
+			{'Damage to '..Tooltips.full('Health', 'Stats')..' conversion:', {expr='STR 15 %of', suff='%'}},
+			{'Range:', {expr='RNG 30 0 SWIFT_BITE if + 10 %of', suff='m', fmt='1dec'}},
+			{'Cooldown reduction:', {expr='EFF 4 %of 0 SWIFT_BITE if', suff='s', fmt='2dec'}}
+		}
+	},
+	['Vial Rush']={
+		ins={},
+		outs={
+			{Tooltips.full('Cold', 'DamageTypes')..' damage:', {expr='STR 250 %of'}},
+			{'Imbued elemental damage:', {expr='STR 250 %of'}},
+			{'Trail duration:', {expr='DUR 8 %of', suff='s', fmt='2dec'}},
+			{'Charge distance:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
+			{'Number of vials:', {expr='RNG 24 %of floor'}},
+			{'Vial explosion radius:', {expr='RNG 9 %of', suff='m', fmt='1dec'}}
+		}
+	},
+	['Transmutation Probe']={
+		ins={
+			{name='LINGERING_TRANSMUTATION', cont=Tooltips.full('Lingering Transmutation', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Electricity', 'DamageTypes')..' damage:', {expr='STR 250 %of'}},
+			{'Imbued elemental damage:', {expr='STR 250 %of'}},
+			{'Radius:', {expr='RNG 6 %of', suff='m', fmt='1dec'}},
+			{'Cooldown reduction:', {expr='EFF 1.5 %of', suff='s/enemy', fmt='2dec'}},
+			{'Lingering Probe duration:', {expr='DUR 15 %of 0 LINGERING_TRANSMUTATION if', suff='s', fmt='2dec'}}
+		}
+	},
+	['Catalyze']={
+		ins={
+			{name='CATALYZE_PROC_COUNT', cont='Number of [[Status Effect]]s on target:', min='0', value='0'},
+			{name='CATALYZE_IMBUED', cont='Imbued?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 2000 %of'}},
+			{'Imbued elemental damage:', {expr='STR 2000 %of'}},
+			{'Damage multiplier:', {expr='2 CATALYZE_PROC_COUNT ^'}},
+			{'Total damage:', {expr='STR 2000 %of 2 1 CATALYZE_IMBUED if * 2 CATALYZE_PROC_COUNT ^ *'}},
+			{'Probe travel distance:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{'Probe travel speed:', {expr='RNG 8.33 %of', suff='m/s', fmt='2dec'}},
 		}
 	},
 	-- Limbo
@@ -608,8 +658,8 @@ local Data = {
 			{Tooltips.full('Armor', 'Stats')..' bonus to allies:', {expr='CURRENT_ARMOR RENEWAL_ARMOR as% 1 + * CURRENT_ARMOR - 2 *'}},
 			{'[[Bleedout]] reduction:', {expr='DUR 45 %of 90 min', suff='%'}},
 			{Tooltips.full('Health', 'Stats')..' restored on Phoenix Renewal:', {expr='STR 50 %of 100 min 0 PHOENIX_RENEWAL if', suff='%'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='3.5 DRAIN *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='3.5 DRAIN *', fmt='2dec'}}
 		}
 	},
 	['Reckoning']={
@@ -681,6 +731,79 @@ local Data = {
 			{'Duration:', {expr='DUR 30 %of', suff='s'}},
 			{'Radius:', {expr='RNG 14 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+		}
+	},
+	-- Protea
+	['Grenade Fan']={
+		ins={
+			{name='PROTEA_PASSIVE', cont='[[Protea/Abilities/Passive|Passive]] active?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 100 0 PROTEA_PASSIVE if + 500 %of', fmt='1dec'}},
+			{Tooltips.full('Shield', 'Stats')..' restoration on attach:', {expr='STR 100 0 PROTEA_PASSIVE if + 500 %of', fmt='1dec'}},
+			{Tooltips.full('Shield', 'Stats')..' restoration over time:', {expr='STR 100 0 PROTEA_PASSIVE if + 50 %of', suff='/s', fmt='1dec'}},
+			{'Duration:', {expr='DUR 13 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		},
+	},
+	['Blaze Artillery']={
+		ins={
+			{name='PROTEA_PASSIVE', cont='[[Protea/Abilities/Passive|Passive]] active?', type='checkbox'},
+			{name='TEMPORAL_ARTILLERY', cont='Turret attached by '..Tooltips.full('Temporal Artillery', 'Mods')..'?', type='checkbox'},
+			{name='BLAZE_ARTILLERY_COMBO', cont='Current turret combo count:', min='1', value='1'}
+		},
+		outs={
+			{'Base '..Tooltips.full('Heat', 'DamageTypes')..' damage:',
+				{name='BLAZE_ARTILLERY_BASE_DMG', expr='STR 100 0 PROTEA_PASSIVE if + 500 %of', fmt='1dec'}
+			},
+			{Tooltips.full('Heat', 'DamageTypes')..' damage after multiplier:',
+				{expr='20 BLAZE_ARTILLERY_COMBO BLAZE_ARTILLERY_COMBO 20 > TEMPORAL_ARTILLERY and if BLAZE_ARTILLERY_BASE_DMG *', fmt='1dec'}
+			},
+			{'Duration:', {expr='DUR 3 %of', suff='s', fmt='2dec'}},
+			{'Targeting radius:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		},
+	},
+	['Dispensary']={
+		ins={
+			{name='REPAIR_DISPENSARY', cont=Tooltips.full('Repair Dispensary', 'Mods')..'?', type='checkbox'},
+			{name='PROTEA_PASSIVE', cont=Tooltips.full('Protea', 'Warframes')..'\'s [[Protea/Abilities/Passive|passive]] active?', type='checkbox'},
+			{name='DISPENSARY_INFUSED', cont='[[Infused]]?', type='checkbox'}
+		},
+		outs={
+			{'Extra pickup chance:',
+				{name='DISPENSARY_EXTRA_CHANCE', expr='STR 100 0 PROTEA_PASSIVE DISPENSARY_INFUSED not and if + 25 %of', suff='%'}
+			},
+			{'Duration:', {name='DISPENSARY_DURATION', expr='DUR 12.5 25 DISPENSARY_INFUSED if %of', suff='s', fmt='2dec'}},
+			{'Expected number of empowered [[Health Orb]]s:',
+				{expr='DISPENSARY_DURATION 2 - 8 6 REPAIR_DISPENSARY if / ceil DISPENSARY_EXTRA_CHANCE as% 1 + * 0 max', fmt='2dec'}
+			},
+			{'Expected number of [[Universal Ammo Pack]]s:',
+				{expr='DISPENSARY_DURATION 4 - 8 6 REPAIR_DISPENSARY if / ceil DISPENSARY_EXTRA_CHANCE as% 1 + * 0 max', fmt='2dec'}
+			},
+			{'Expected number of [[Energy Orb]]s:',
+				{expr='DISPENSARY_DURATION 6 - 8 6 REPAIR_DISPENSARY if / ceil DISPENSARY_EXTRA_CHANCE as% 1 + * 0 max', fmt='2dec'}
+			},
+			{'Expected number of Repair Dispensary pickups:',
+				{expr='DISPENSARY_DURATION 8 - 8 / ceil DISPENSARY_EXTRA_CHANCE as% 1 + * 0 max 0 REPAIR_DISPENSARY if', fmt='2dec'}
+			},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Temporal Anchor']={
+		ins={
+			{name='PROTEA_PASSIVE', cont='[[Protea/Abilities/Passive|Passive]] active?', type='checkbox'},
+			{name='TEMPORAL_EROSION', cont=Tooltips.full('Temporal Erosion', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Percentage of damage recorded:', {expr='STR 100 0 PROTEA_PASSIVE if + 25 %of', suff='%'}},
+			{'Duration:', {expr='DUR 8 %of', suff='s', fmt='2dec'}},
+			{'Implosion radius:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{'Temporal Erosion '..Tooltips.full('Armor', 'Stats')..' reduction:',
+				{expr='STR 100 0 PROTEA_PASSIVE if + 10 %of 0 TEMPORAL_EROSION if', suff='%'}
+			},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},
 	-- Rhino
@@ -773,8 +896,8 @@ local Data = {
 			{'Growth Rate:', {expr='DUR 2 %of RNG 1 %of *', suff='m/s', fmt='1dec'}},
 			{'Time to reach Max Radius', {expr='6 1 DUR %of /', suff='s', fmt='1dec'}},
 			{'Life Steal:', {expr='STR 5 %of', suff='%'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='0.75 DRAIN * 1 ENEMY_COUNT *', suff='/s', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='0.75 DRAIN * ENEMY_COUNT *', suff='/s', fmt='2dec'}}
 		}
 	},
 	-- Sevagoth's Shadow

@@ -213,33 +213,33 @@ end
 --	@param			{table} entries Array of item entries, case sensitive; assuming no duplicate values
 --	@return			{string} Wikitext of gallery
 local function buildGallery(entries)
-	local galleryUl		= '<ul class="gallery mw-gallery-traditional" style="display:flex; flex-wrap:wrap; margin:2px;">%s</ul>'
-	local galleryBoxLi	= '<li class="gallerybox" style="list-style:none; width:150px; padding:4px;">%s</li>'
-	local thumbDiv		= '<div class="thumb hoverbox" style="position:relative; width:150px; height:150px; display:flex; align-items:center; justify-content:center;">%s</div>'
-	local labelSpan 	= '<span class="hoveritem2 selected" style="position:absolute; width:100%%; background-color:rgba(0,0,0,0.7); text-align:center; overflow-wrap:break-word; %s">%s</span>'
-	local tooltipSpan	= '<span class="tooltip tooltip-full" data-param-name="%s" data-param-source="%s" aria-label="Tooltip for %s">%s</span>'
-	local textDiv		= '<div class="gallerytext" style="font-size:12px;">%s</div>'
-	local galleryBoxes	= {}
+	local galleryUl			= '<ul class="baro-gallery">%s</ul>'
+	local labelSpan 		= '<span class="baro-label">%s</span>'
+	local tooltipSpan		= '<span class="tooltip tooltip-full" data-param-name="%s" data-param-source="%s" aria-label="Tooltip for %s">%s</span>'
+	local costTemplate		= '<div class="baro-%s">[[File:%s|x20px|link=%s|class=textSelect]]&nbsp;<b>%%s</b></div>'
+	local creditTemplate	= costTemplate:format('credit', 'Credits64.png', 'Credits')
+	local ducatTemplate 	= costTemplate:format('ducat', 'OrokinDucats.png', 'Ducats')
+	local galleryBoxes		= {}
 
 	for _, entry in ipairs(entries) do
 		local itemName		= entry.Name
 		local itemLink		= entry.Link or itemName
 		local tooltipModule	= (TypeConfigs[entry.Type] or {}).TooltipModule
+		local displayName	= entry.Image and
+			(itemLink ~= itemName and ('[[%s|%s]]'):format(itemLink, itemName) or ('[[%s]]'):format(itemName)) or
+			('<strong class="baro-missing">"%s" does not exist in [[Module:Baro/data]].</strong>'):format(itemName)
 
 		local file			= ('[[File:%s|120x120px|link=%s]]'):format(entry.Image or 'UnidentifiedItem.png', itemLink)
-		local label			= entry.Condition and labelSpan:format('font-size:0.8em; font-weight:bold; color:#ffbc00;', entry.Condition)
+		local label			= entry.Condition and labelSpan:format(entry.Condition)
 		local tooltip		= tooltipModule and tooltipSpan:format(itemLink, tooltipModule, itemName, file)
-		local displayName	= not entry.Image and
-			('<strong style="color:red;">"%s" does not exist in [[Module:Baro/data]].</strong>'):format(itemName) or
-			itemLink ~= itemName and ('[[%s|%s]]'):format(itemLink, itemName) or ('[[%s]]'):format(itemName)
-		local textInner		= ('%s<br /><b>%s&nbsp;%s</b><br /><b>%s&nbsp;%s</b>'):format(displayName,
-			'[[File:OrokinDucats.png|x20px|link=Ducats|class=textSelect]]', Lang:formatNum(entry.DucatCost or 0),
-			'[[File:Credits64.png|x20px|link=Credits|class=textSelect]]', Lang:formatNum(entry.CreditCost or 0)
-		)
 
-		local thumb	= thumbDiv:format(label and ((tooltip or file) .. label) or (tooltip or file))
-		local text	= textDiv:format(textInner)
-		table.insert(galleryBoxes, galleryBoxLi:format(thumb .. text))
+		local name			=  ('<div class="baro-name">%s</div>'):format(displayName)
+		local credit		= creditTemplate:format(Lang:formatNum(entry.CreditCost or 0))
+		local ducat			= ducatTemplate:format(Lang:formatNum(entry.DucatCost or 0))
+
+		local thumb			= ('<div class="baro-thumb">%s</div>'):format(label and ((tooltip or file) .. label) or (tooltip or file))
+		local profile		= ('<div class="baro-profile">%s</div>'):format(name .. ducat .. credit)
+		table.insert(galleryBoxes, ('<li class="baro-card">%s</li>'):format(thumb .. profile))
 	end
 
 	return _getTotal(entries, true) .. '\n' .. galleryUl:format('\n' .. table.concat(galleryBoxes, '\n'))
@@ -418,7 +418,7 @@ function p.buildOfferings(frame)
 
 		local function matchDate(t)
 			if #t == 0 then return end
-			for i = (f_date_target == 'first' and #t or 1), (f_date_target ~= 'last' and #t or 1) do
+			for i = (f_date_target == 'first' and #t or 1), (f_date_target ~= 'last' and #t or 1) do -- assume array is descending
 				local res = (eq and t[i]:sub(1, #eq) == eq) or ((gt or lt) and (not gt or t[i] > gt) and (not lt or t[i] < lt))
 				if res then return res end
 			end
@@ -478,7 +478,7 @@ function p.buildOfferings(frame)
 	if not tabs or #tabs == 0 then
 		tabs = tabs or {}
 		buildTabs(tabs)
-		if cat ~= 'year' then table.sort(tabs) end
+		if cat ~= 'Year' then table.sort(tabs) end
 	end
 
 	local tabCfg = { tabs = tabs, getItemCat = getCat, render = renderFunc, args = args.args}

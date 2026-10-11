@@ -10,7 +10,7 @@ return {
 	["AlwaysAvailable"] = { ["Sands of Inaros Blueprint"] = true, ["Fae Path Ephemera"] = true, ["Void Surplus"] = true }, --deprecated
 	["ExtraItems"] = { -- Conditional unlock items (ones that are not included in the API)
 		["Baro Void-Signal"] = {
-			Condition = "Requires Inaros Prime (Equipped)",
+			Condition = "🔒 Requires Inaros Prime (Equipped)",
 			CreditCost = 25000,
 			DucatCost = 100,
 			Image = "BaroVoid-Signal.png",
