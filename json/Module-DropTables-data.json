@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-10-09T08:40:06.696Z"
+    "converted_at": "2026-10-12T08:50:24.289Z"
   },
   "_comments": "\t\t-- Update 42: The Shadowgrapher\n\t\t-- Update 43: Jade Shadows: Constellations\n\t\t\t-- InternalName = \"/Lotus/Types/Game/MissionDecks/JadeShadowsConstellationsRewards/JS2KuvaWytchRewardsExtra\",\n\t\t--Update 44.1: Iceblade of Narin: The Icebind\n-- TODO: This data should just be in the data by default instead of generated since we\n-- will eventually bump into issues with weapons that share similar suffixes. For example,\n-- if DE releases a weapon named Dorma, then it will conflict with Forma entries.\n-- Any reward names that start with these strings are not found in Missions tables\n-- Only include weapons with parts (i.e. 'Broken War' and 'Twin Kohmak' can be safely omitted)\n\t-- ['roken War'] = true,\t-- Broken War parts is dropped by enemies\n\t-- ['win Kohmak'] = true,\t-- Twin Kohmak\n\t-- or sk:find'^Eidolon'",
   "Rewards": {
@@ -34742,12 +34742,12 @@
                 9.09
               ],
               [
-                "Meso V15",
+                "Meso K9",
                 "Relic",
                 9.09
               ],
               [
-                "Meso X1",
+                "Meso V17",
                 "Relic",
                 9.09
               ],
@@ -34767,12 +34767,12 @@
                 9.09
               ],
               [
-                "Meso L5",
+                "Meso D9",
                 "Relic",
                 9.09
               ],
               [
-                "Meso K8",
+                "Meso C11",
                 "Relic",
                 9.09
               ],
@@ -34790,7 +34790,7 @@
                 1200
               ],
               [
-                "Axi S20",
+                "Axi S21",
                 "Relic",
                 10
               ],
@@ -34805,7 +34805,7 @@
                 10
               ],
               [
-                "Axi T13",
+                "Axi C12",
                 "Relic",
                 10
               ],
@@ -34858,27 +34858,27 @@
                 10
               ],
               [
-                "Neo Y1",
+                "Neo Y2",
                 "Relic",
                 10
               ],
               [
-                "Neo T11",
+                "Neo C11",
                 "Relic",
                 10
               ],
               [
-                "Neo V12",
+                "Neo K10",
                 "Relic",
                 10
               ],
               [
-                "Neo C8",
+                "Neo V13",
                 "Relic",
                 10
               ],
               [
-                "Neo C9",
+                "Neo C10",
                 "Relic",
                 10
               ],
@@ -41543,12 +41543,12 @@
                 9.09
               ],
               [
-                "Meso V15",
+                "Meso K9",
                 "Relic",
                 9.09
               ],
               [
-                "Meso X1",
+                "Meso V17",
                 "Relic",
                 9.09
               ],
@@ -41568,12 +41568,12 @@
                 9.09
               ],
               [
-                "Meso L5",
+                "Meso D9",
                 "Relic",
                 9.09
               ],
               [
-                "Meso K8",
+                "Meso C11",
                 "Relic",
                 9.09
               ],
@@ -41591,7 +41591,7 @@
                 1200
               ],
               [
-                "Axi S20",
+                "Axi S21",
                 "Relic",
                 10
               ],
@@ -41606,7 +41606,7 @@
                 10
               ],
               [
-                "Axi T13",
+                "Axi C12",
                 "Relic",
                 10
               ],
@@ -41659,27 +41659,27 @@
                 10
               ],
               [
-                "Neo Y1",
+                "Neo Y2",
                 "Relic",
                 10
               ],
               [
-                "Neo T11",
+                "Neo C11",
                 "Relic",
                 10
               ],
               [
-                "Neo V12",
+                "Neo K10",
                 "Relic",
                 10
               ],
               [
-                "Neo C8",
+                "Neo V13",
                 "Relic",
                 10
               ],
               [
-                "Neo C9",
+                "Neo C10",
                 "Relic",
                 10
               ],
@@ -43169,12 +43169,12 @@
                 9.09
               ],
               [
-                "Meso V15",
+                "Meso K9",
                 "Relic",
                 9.09
               ],
               [
-                "Meso X1",
+                "Meso V17",
                 "Relic",
                 9.09
               ],
@@ -43194,12 +43194,12 @@
                 9.09
               ],
               [
-                "Meso L5",
+                "Meso D9",
                 "Relic",
                 9.09
               ],
               [
-                "Meso K8",
+                "Meso C11",
                 "Relic",
                 9.09
               ],
@@ -43217,7 +43217,7 @@
                 1200
               ],
               [
-                "Axi S20",
+                "Axi S21",
                 "Relic",
                 10
               ],
@@ -43232,7 +43232,7 @@
                 10
               ],
               [
-                "Axi T13",
+                "Axi C12",
                 "Relic",
                 10
               ],
@@ -43285,27 +43285,27 @@
                 10
               ],
               [
-                "Neo Y1",
+                "Neo Y2",
                 "Relic",
                 10
               ],
               [
-                "Neo T11",
+                "Neo C11",
                 "Relic",
                 10
               ],
               [
-                "Neo V12",
+                "Neo K10",
                 "Relic",
                 10
               ],
               [
-                "Neo C8",
+                "Neo V13",
                 "Relic",
                 10
               ],
               [
-                "Neo C9",
+                "Neo C10",
                 "Relic",
                 10
               ],
@@ -69350,12 +69350,12 @@
                 4.76
               ],
               [
-                "Meso V15",
+                "Meso K9",
                 "Relic",
                 4.76
               ],
               [
-                "Meso X1",
+                "Meso V17",
                 "Relic",
                 4.76
               ],
@@ -69375,12 +69375,12 @@
                 4.76
               ],
               [
-                "Meso L5",
+                "Meso D9",
                 "Relic",
                 4.76
               ],
               [
-                "Meso K8",
+                "Meso C11",
                 "Relic",
                 4.76
               ]
@@ -69466,27 +69466,27 @@
                 7.5
               ],
               [
-                "Neo Y1",
+                "Neo Y2",
                 "Relic",
                 7.5
               ],
               [
-                "Neo T11",
+                "Neo C11",
                 "Relic",
                 7.5
               ],
               [
-                "Neo V12",
+                "Neo K10",
                 "Relic",
                 7.5
               ],
               [
-                "Neo C8",
+                "Neo V13",
                 "Relic",
                 7.5
               ],
               [
-                "Neo C9",
+                "Neo C10",
                 "Relic",
                 7.5
               ],
@@ -69549,12 +69549,12 @@
                 4.76
               ],
               [
-                "Meso V15",
+                "Meso K9",
                 "Relic",
                 4.76
               ],
               [
-                "Meso X1",
+                "Meso V17",
                 "Relic",
                 4.76
               ],
@@ -69574,12 +69574,12 @@
                 4.76
               ],
               [
-                "Meso L5",
+                "Meso D9",
                 "Relic",
                 4.76
               ],
               [
-                "Meso K8",
+                "Meso C11",
                 "Relic",
                 4.76
               ]
@@ -69650,27 +69650,27 @@
                 7.5
               ],
               [
-                "Neo Y1",
+                "Neo Y2",
                 "Relic",
                 7.5
               ],
               [
-                "Neo T11",
+                "Neo C11",
                 "Relic",
                 7.5
               ],
               [
-                "Neo V12",
+                "Neo K10",
                 "Relic",
                 7.5
               ],
               [
-                "Neo C8",
+                "Neo V13",
                 "Relic",
                 7.5
               ],
               [
-                "Neo C9",
+                "Neo C10",
                 "Relic",
                 7.5
               ],
@@ -72499,12 +72499,12 @@
                 9.09
               ],
               [
-                "Meso V15",
+                "Meso K9",
                 "Relic",
                 9.09
               ],
               [
-                "Meso X1",
+                "Meso V17",
                 "Relic",
                 9.09
               ],
@@ -72524,12 +72524,12 @@
                 9.09
               ],
               [
-                "Meso L5",
+                "Meso D9",
                 "Relic",
                 9.09
               ],
               [
-                "Meso K8",
+                "Meso C11",
                 "Relic",
                 9.09
               ],
@@ -72547,7 +72547,7 @@
                 1200
               ],
               [
-                "Axi S20",
+                "Axi S21",
                 "Relic",
                 10
               ],
@@ -72562,7 +72562,7 @@
                 10
               ],
               [
-                "Axi T13",
+                "Axi C12",
                 "Relic",
                 10
               ],
@@ -72615,27 +72615,27 @@
                 10
               ],
               [
-                "Neo Y1",
+                "Neo Y2",
                 "Relic",
                 10
               ],
               [
-                "Neo T11",
+                "Neo C11",
                 "Relic",
                 10
               ],
               [
-                "Neo V12",
+                "Neo K10",
                 "Relic",
                 10
               ],
               [
-                "Neo C8",
+                "Neo V13",
                 "Relic",
                 10
               ],
               [
-                "Neo C9",
+                "Neo C10",
                 "Relic",
                 10
               ],
@@ -80001,12 +80001,12 @@
                 9.09
               ],
               [
-                "Meso V15",
+                "Meso K9",
                 "Relic",
                 9.09
               ],
               [
-                "Meso X1",
+                "Meso V17",
                 "Relic",
                 9.09
               ],
@@ -80026,12 +80026,12 @@
                 9.09
               ],
               [
-                "Meso L5",
+                "Meso D9",
                 "Relic",
                 9.09
               ],
               [
-                "Meso K8",
+                "Meso C11",
                 "Relic",
                 9.09
               ],
@@ -80049,7 +80049,7 @@
                 1200
               ],
               [
-                "Axi S20",
+                "Axi S21",
                 "Relic",
                 10
               ],
@@ -80064,7 +80064,7 @@
                 10
               ],
               [
-                "Axi T13",
+                "Axi C12",
                 "Relic",
                 10
               ],
@@ -80117,27 +80117,27 @@
                 10
               ],
               [
-                "Neo Y1",
+                "Neo Y2",
                 "Relic",
                 10
               ],
               [
-                "Neo T11",
+                "Neo C11",
                 "Relic",
                 10
               ],
               [
-                "Neo V12",
+                "Neo K10",
                 "Relic",
                 10
               ],
               [
-                "Neo C8",
+                "Neo V13",
                 "Relic",
                 10
               ],
               [
-                "Neo C9",
+                "Neo C10",
                 "Relic",
                 10
               ],
@@ -126842,12 +126842,12 @@
                 4.76
               ],
               [
-                "Meso V15",
+                "Meso K9",
                 "Relic",
                 4.76
               ],
               [
-                "Meso X1",
+                "Meso V17",
                 "Relic",
                 4.76
               ],
@@ -126867,12 +126867,12 @@
                 4.76
               ],
               [
-                "Meso L5",
+                "Meso D9",
                 "Relic",
                 4.76
               ],
               [
-                "Meso K8",
+                "Meso C11",
                 "Relic",
                 4.76
               ]
@@ -126958,27 +126958,27 @@
                 7.5
               ],
               [
-                "Neo Y1",
+                "Neo Y2",
                 "Relic",
                 7.5
               ],
               [
-                "Neo T11",
+                "Neo C11",
                 "Relic",
                 7.5
               ],
               [
-                "Neo V12",
+                "Neo K10",
                 "Relic",
                 7.5
               ],
               [
-                "Neo C8",
+                "Neo V13",
                 "Relic",
                 7.5
               ],
               [
-                "Neo C9",
+                "Neo C10",
                 "Relic",
                 7.5
               ],
@@ -127041,12 +127041,12 @@
                 4.76
               ],
               [
-                "Meso V15",
+                "Meso K9",
                 "Relic",
                 4.76
               ],
               [
-                "Meso X1",
+                "Meso V17",
                 "Relic",
                 4.76
               ],
@@ -127066,12 +127066,12 @@
                 4.76
               ],
               [
-                "Meso L5",
+                "Meso D9",
                 "Relic",
                 4.76
               ],
               [
-                "Meso K8",
+                "Meso C11",
                 "Relic",
                 4.76
               ]
@@ -127142,27 +127142,27 @@
                 7.5
               ],
               [
-                "Neo Y1",
+                "Neo Y2",
                 "Relic",
                 7.5
               ],
               [
-                "Neo T11",
+                "Neo C11",
                 "Relic",
                 7.5
               ],
               [
-                "Neo V12",
+                "Neo K10",
                 "Relic",
                 7.5
               ],
               [
-                "Neo C8",
+                "Neo V13",
                 "Relic",
                 7.5
               ],
               [
-                "Neo C9",
+                "Neo C10",
                 "Relic",
                 7.5
               ],
@@ -184280,12 +184280,12 @@
                 9.09
               ],
               [
-                "Meso V15",
+                "Meso K9",
                 "Relic",
                 9.09
               ],
               [
-                "Meso X1",
+                "Meso V17",
                 "Relic",
                 9.09
               ],
@@ -184305,12 +184305,12 @@
                 9.09
               ],
               [
-                "Meso L5",
+                "Meso D9",
                 "Relic",
                 9.09
               ],
               [
-                "Meso K8",
+                "Meso C11",
                 "Relic",
                 9.09
               ],
@@ -184328,7 +184328,7 @@
                 1200
               ],
               [
-                "Axi S20",
+                "Axi S21",
                 "Relic",
                 10
               ],
@@ -184343,7 +184343,7 @@
                 10
               ],
               [
-                "Axi T13",
+                "Axi C12",
                 "Relic",
                 10
               ],
@@ -184396,27 +184396,27 @@
                 10
               ],
               [
-                "Neo Y1",
+                "Neo Y2",
                 "Relic",
                 10
               ],
               [
-                "Neo T11",
+                "Neo C11",
                 "Relic",
                 10
               ],
               [
-                "Neo V12",
+                "Neo K10",
                 "Relic",
                 10
               ],
               [
-                "Neo C8",
+                "Neo V13",
                 "Relic",
                 10
               ],
               [
-                "Neo C9",
+                "Neo C10",
                 "Relic",
                 10
               ],
@@ -212126,12 +212126,12 @@
                 9.09
               ],
               [
-                "Meso V15",
+                "Meso K9",
                 "Relic",
                 9.09
               ],
               [
-                "Meso X1",
+                "Meso V17",
                 "Relic",
                 9.09
               ],
@@ -212151,12 +212151,12 @@
                 9.09
               ],
               [
-                "Meso L5",
+                "Meso D9",
                 "Relic",
                 9.09
               ],
               [
-                "Meso K8",
+                "Meso C11",
                 "Relic",
                 9.09
               ],
@@ -212174,7 +212174,7 @@
                 1200
               ],
               [
-                "Axi S20",
+                "Axi S21",
                 "Relic",
                 10
               ],
@@ -212189,7 +212189,7 @@
                 10
               ],
               [
-                "Axi T13",
+                "Axi C12",
                 "Relic",
                 10
               ],
@@ -212242,27 +212242,27 @@
                 10
               ],
               [
-                "Neo Y1",
+                "Neo Y2",
                 "Relic",
                 10
               ],
               [
-                "Neo T11",
+                "Neo C11",
                 "Relic",
                 10
               ],
               [
-                "Neo V12",
+                "Neo K10",
                 "Relic",
                 10
               ],
               [
-                "Neo C8",
+                "Neo V13",
                 "Relic",
                 10
               ],
               [
-                "Neo C9",
+                "Neo C10",
                 "Relic",
                 10
               ],
@@ -235794,12 +235794,12 @@
                 4.76
               ],
               [
-                "Meso V15",
+                "Meso K9",
                 "Relic",
                 4.76
               ],
               [
-                "Meso X1",
+                "Meso V17",
                 "Relic",
                 4.76
               ],
@@ -235819,12 +235819,12 @@
                 4.76
               ],
               [
-                "Meso L5",
+                "Meso D9",
                 "Relic",
                 4.76
               ],
               [
-                "Meso K8",
+                "Meso C11",
                 "Relic",
                 4.76
               ]
@@ -235910,27 +235910,27 @@
                 7.5
               ],
               [
-                "Neo Y1",
+                "Neo Y2",
                 "Relic",
                 7.5
               ],
               [
-                "Neo T11",
+                "Neo C11",
                 "Relic",
                 7.5
               ],
               [
-                "Neo V12",
+                "Neo K10",
                 "Relic",
                 7.5
               ],
               [
-                "Neo C8",
+                "Neo V13",
                 "Relic",
                 7.5
               ],
               [
-                "Neo C9",
+                "Neo C10",
                 "Relic",
                 7.5
               ],
@@ -235993,12 +235993,12 @@
                 4.76
               ],
               [
-                "Meso V15",
+                "Meso K9",
                 "Relic",
                 4.76
               ],
               [
-                "Meso X1",
+                "Meso V17",
                 "Relic",
                 4.76
               ],
@@ -236018,12 +236018,12 @@
                 4.76
               ],
               [
-                "Meso L5",
+                "Meso D9",
                 "Relic",
                 4.76
               ],
               [
-                "Meso K8",
+                "Meso C11",
                 "Relic",
                 4.76
               ]
@@ -236094,27 +236094,27 @@
                 7.5
               ],
               [
-                "Neo Y1",
+                "Neo Y2",
                 "Relic",
                 7.5
               ],
               [
-                "Neo T11",
+                "Neo C11",
                 "Relic",
                 7.5
               ],
               [
-                "Neo V12",
+                "Neo K10",
                 "Relic",
                 7.5
               ],
               [
-                "Neo C8",
+                "Neo V13",
                 "Relic",
                 7.5
               ],
               [
-                "Neo C9",
+                "Neo C10",
                 "Relic",
                 7.5
               ],
@@ -253177,12 +253177,12 @@
                 9.09
               ],
               [
-                "Meso V15",
+                "Meso K9",
                 "Relic",
                 9.09
               ],
               [
-                "Meso X1",
+                "Meso V17",
                 "Relic",
                 9.09
               ],
@@ -253202,12 +253202,12 @@
                 9.09
               ],
               [
-                "Meso L5",
+                "Meso D9",
                 "Relic",
                 9.09
               ],
               [
-                "Meso K8",
+                "Meso C11",
                 "Relic",
                 9.09
               ],
@@ -253225,7 +253225,7 @@
                 1200
               ],
               [
-                "Axi S20",
+                "Axi S21",
                 "Relic",
                 10
               ],
@@ -253240,7 +253240,7 @@
                 10
               ],
               [
-                "Axi T13",
+                "Axi C12",
                 "Relic",
                 10
               ],
@@ -253293,27 +253293,27 @@
                 10
               ],
               [
-                "Neo Y1",
+                "Neo Y2",
                 "Relic",
                 10
               ],
               [
-                "Neo T11",
+                "Neo C11",
                 "Relic",
                 10
               ],
               [
-                "Neo V12",
+                "Neo K10",
                 "Relic",
                 10
               ],
               [
-                "Neo C8",
+                "Neo V13",
                 "Relic",
                 10
               ],
               [
-                "Neo C9",
+                "Neo C10",
                 "Relic",
                 10
               ],
@@ -328507,12 +328507,12 @@
             9.09
           ],
           [
-            "Meso V15",
+            "Meso K9",
             "Relic",
             9.09
           ],
           [
-            "Meso X1",
+            "Meso V17",
             "Relic",
             9.09
           ],
@@ -328532,12 +328532,12 @@
             9.09
           ],
           [
-            "Meso L5",
+            "Meso D9",
             "Relic",
             9.09
           ],
           [
-            "Meso K8",
+            "Meso C11",
             "Relic",
             9.09
           ],
@@ -328555,7 +328555,7 @@
             1200
           ],
           [
-            "Axi S20",
+            "Axi S21",
             "Relic",
             10
           ],
@@ -328570,7 +328570,7 @@
             10
           ],
           [
-            "Axi T13",
+            "Axi C12",
             "Relic",
             10
           ],
@@ -328623,27 +328623,27 @@
             10
           ],
           [
-            "Neo Y1",
+            "Neo Y2",
             "Relic",
             10
           ],
           [
-            "Neo T11",
+            "Neo C11",
             "Relic",
             10
           ],
           [
-            "Neo V12",
+            "Neo K10",
             "Relic",
             10
           ],
           [
-            "Neo C8",
+            "Neo V13",
             "Relic",
             10
           ],
           [
-            "Neo C9",
+            "Neo C10",
             "Relic",
             10
           ],
@@ -331348,12 +331348,12 @@
             4.76
           ],
           [
-            "Meso V15",
+            "Meso K9",
             "Relic",
             4.76
           ],
           [
-            "Meso X1",
+            "Meso V17",
             "Relic",
             4.76
           ],
@@ -331373,12 +331373,12 @@
             4.76
           ],
           [
-            "Meso L5",
+            "Meso D9",
             "Relic",
             4.76
           ],
           [
-            "Meso K8",
+            "Meso C11",
             "Relic",
             4.76
           ]
@@ -331464,27 +331464,27 @@
             7.5
           ],
           [
-            "Neo Y1",
+            "Neo Y2",
             "Relic",
             7.5
           ],
           [
-            "Neo T11",
+            "Neo C11",
             "Relic",
             7.5
           ],
           [
-            "Neo V12",
+            "Neo K10",
             "Relic",
             7.5
           ],
           [
-            "Neo C8",
+            "Neo V13",
             "Relic",
             7.5
           ],
           [
-            "Neo C9",
+            "Neo C10",
             "Relic",
             7.5
           ],
@@ -358086,12 +358086,12 @@
             3.03
           ],
           [
-            "Meso V15",
+            "Meso K9",
             "Relic",
             3.03
           ],
           [
-            "Meso X1",
+            "Meso V17",
             "Relic",
             3.03
           ],
@@ -358111,12 +358111,12 @@
             3.03
           ],
           [
-            "Meso L5",
+            "Meso D9",
             "Relic",
             3.03
           ],
           [
-            "Meso K8",
+            "Meso C11",
             "Relic",
             3.03
           ]
@@ -358407,12 +358407,12 @@
             4.76
           ],
           [
-            "Meso V15",
+            "Meso K9",
             "Relic",
             4.76
           ],
           [
-            "Meso X1",
+            "Meso V17",
             "Relic",
             4.76
           ],
@@ -358432,12 +358432,12 @@
             4.76
           ],
           [
-            "Meso L5",
+            "Meso D9",
             "Relic",
             4.76
           ],
           [
-            "Meso K8",
+            "Meso C11",
             "Relic",
             4.76
           ]
@@ -358508,27 +358508,27 @@
             7.5
           ],
           [
-            "Neo Y1",
+            "Neo Y2",
             "Relic",
             7.5
           ],
           [
-            "Neo T11",
+            "Neo C11",
             "Relic",
             7.5
           ],
           [
-            "Neo V12",
+            "Neo K10",
             "Relic",
             7.5
           ],
           [
-            "Neo C8",
+            "Neo V13",
             "Relic",
             7.5
           ],
           [
-            "Neo C9",
+            "Neo C10",
             "Relic",
             7.5
           ],

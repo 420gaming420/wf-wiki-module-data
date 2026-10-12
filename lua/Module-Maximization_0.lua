@@ -152,7 +152,7 @@ end
 |-
 |data-name="EFF" data-value="100"|%s:<!--
 --><span style="display:none" data-name=COST data-expr="200 EFF - 25 max as%%"></span><!--
---><span style="display:none" data-name=DRAIN data-expr="200 EFF - DUR / 25 max as%%"></span>
+--><span style="display:none" data-name=DRAIN data-expr="200 EFF - DUR / 25 as%% max"></span>
 |-
 %s
 |}

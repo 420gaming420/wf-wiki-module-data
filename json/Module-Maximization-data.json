@@ -4,9 +4,9 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-10-11T08:29:02.945Z"
+    "converted_at": "2026-10-12T08:50:29.570Z"
   },
-  "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins\n-- this contains mappings for what we couldn't pull from preexisting modules\n\t-- Ash\n\t-- Atlas\n\t-- Banshee\n\t-- Caliban\n\t-- Citrine\n\t-- Khora\n\t-- Lavos\n\t-- Limbo\n\t-- Narin\n\t-- Nidus\n\t-- Nova\n\t-- Oberon\n\t-- Octavia\n\t-- Protea\n\t-- Rhino\n\t-- Sevagoth\n\t-- Sevagoth's Shadow\n\t-- Uriel",
+  "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins\n-- this contains mappings for what we couldn't pull from preexisting modules\n\t-- Ash\n\t-- Atlas\n\t-- Banshee\n\t-- Caliban\n\t-- Citrine\n\t-- Khora\n\t-- Lavos\n\t-- Limbo\n\t-- Narin\n\t-- Nidus\n\t-- Nova\n\t-- Oberon\n\t-- Octavia\n\t-- Protea\n\t-- Rhino\n\t-- Sevagoth\n\t-- Sevagoth's Shadow\n\t-- Trinity\n\t-- Uriel",
   "Stasis": {
     "outs": [
       [
@@ -1697,6 +1697,54 @@
     ],
     "ins": {}
   },
+  "Blessing": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Health|Stats}} and {{#invoke:Tooltip|full|Shield|Stats}} restoration:",
+        {
+          "expr": "STR 80 %of 100 min",
+          "suff": "%"
+        }
+      ],
+      [
+        "[[Damage Reduction]]:",
+        {
+          "expr": "STR 50 %of 75 min",
+          "suff": "%"
+        }
+      ],
+      [
+        "Damage Reduction duration:",
+        {
+          "expr": "DUR 15 %of",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "[[Critical Chance]] bonus duration:",
+        {
+          "expr": "DUR 30 %of 0 CHAMPIONS_BLESSING if",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "100 COST *",
+          "fmt": "2dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "CHAMPIONS_BLESSING",
+        "cont": "{{#invoke:Tooltip|full|Champion's Blessing|Mods}}?"
+      }
+    ]
+  },
   "Fusion Strike": {
     "outs": [
       [
@@ -2105,6 +2153,53 @@
       }
     ]
   },
+  "Link": {
+    "outs": [
+      [
+        "Affected enemies:",
+        {
+          "expr": "STR 3 %of floor"
+        }
+      ],
+      [
+        "Duration:",
+        {
+          "expr": "DUR 20 %of",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Radius:",
+        {
+          "expr": "RNG 20 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Armor|Stats}} reduction:",
+        {
+          "expr": "STR 60 %of 100 min 0 ABATING_LINK if",
+          "suff": "%"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "75 COST *",
+          "fmt": "2dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "ABATING_LINK",
+        "cont": "{{#invoke:Tooltip|full|Abating Link|Mods}}?"
+      }
+    ]
+  },
   "Banish": {
     "outs": [
       [
@@ -2324,6 +2419,164 @@
         "type": "checkbox",
         "name": "SMITE_INFUSED",
         "cont": "[[Infused]]?"
+      }
+    ]
+  },
+  "Energy Vampire": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} restoration:",
+        {
+          "expr": "STR 25 %of",
+          "fmt": "2dec",
+          "name": "ENERGY_VAMPIRE_PULSE",
+          "suff": "/pulse"
+        }
+      ],
+      [
+        "Total {{#invoke:Tooltip|full|Energy|Stats}} restoration:",
+        {
+          "expr": "ENERGY_VAMPIRE_PULSE ENERGY_VAMPIRE_PULSE_NUMBER *",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|True|DamageTypes}} damage:",
+        {
+          "expr": "STR 6.25 %of",
+          "suff": "% of current Health/pulse",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Minimum Health threshold:",
+        {
+          "expr": "STR 25 %of",
+          "suff": "% of maximum health",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Duration:",
+        {
+          "expr": "DUR 9 %of",
+          "fmt": "2dec",
+          "name": "ENERGY_VAMPIRE_DUR",
+          "suff": "s"
+        }
+      ],
+      [
+        "Pulse interval:",
+        {
+          "expr": "DUR 2.25 %of 2.25 min",
+          "fmt": "2dec",
+          "name": "ENERGY_VAMPIRE_INTERVAL",
+          "suff": "s"
+        }
+      ],
+      [
+        "Number of pulses:",
+        {
+          "name": "ENERGY_VAMPIRE_PULSE_NUMBER",
+          "expr": "ENERGY_VAMPIRE_DUR ENERGY_VAMPIRE_INTERVAL //"
+        }
+      ],
+      [
+        "Targeting range:",
+        {
+          "expr": "RNG 100 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Pulse radius:",
+        {
+          "expr": "RNG 25 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Maximum {{#invoke:Tooltip|full|Shield|Stats}} restoration:",
+        {
+          "expr": "225 ENERGY_VAMPIRE_PULSE %of 0 VAMPIRE_LEECH if",
+          "suff": "/pulse"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "50 COST *",
+          "fmt": "2dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "VAMPIRE_LEECH",
+        "cont": "{{#invoke:Tooltip|full|Vampire Leech|Mods}}?"
+      }
+    ]
+  },
+  "Antimatter Drop": {
+    "outs": [
+      [
+        "Base explosion {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        {
+          "name": "ANTIMATTER_DROP_BASE_DMG",
+          "expr": "STR 200 %of"
+        }
+      ],
+      [
+        "Absorb damage multiplier:",
+        {
+          "expr": "STR 8 %of",
+          "name": "ANTIMATTER_DROP_MULT",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Maximum explosion {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        {
+          "expr": "ANTIMATTER_DROP_MULT 25000 * ANTIMATTER_DROP_BASE_DMG +"
+        }
+      ],
+      [
+        "Contact {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        {
+          "expr": "STR 10 %of"
+        }
+      ],
+      [
+        "Explosion radius:",
+        {
+          "expr": "RNG 15 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Antimatter Absorb radius:",
+        {
+          "expr": "RNG 5 %of 0 ANTIMATTER_ABSORB if",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "50 COST *"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "ANTIMATTER_ABSORB",
+        "cont": "{{#invoke:Tooltip|full|Antimatter Absorb|Mods}}?"
       }
     ]
   },
@@ -3418,63 +3671,67 @@
       }
     ]
   },
-  "Antimatter Drop": {
+  "Well of Life": {
     "outs": [
       [
-        "Base explosion {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        "{{#invoke:Tooltip|full|Health|Stats}} recovered passively:",
         {
-          "name": "ANTIMATTER_DROP_BASE_DMG",
-          "expr": "STR 200 %of"
+          "expr": "STR 100 %of",
+          "suff": "/s"
         }
       ],
       [
-        "Absorb damage multiplier:",
+        "Damage to {{#invoke:Tooltip|full|Health|Stats}} conversion:",
         {
-          "expr": "STR 8 %of",
-          "name": "ANTIMATTER_DROP_MULT",
+          "expr": "STR 1 %of",
+          "suff": "%",
           "fmt": "2dec"
         }
       ],
       [
-        "Maximum explosion {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        "Duration:",
         {
-          "expr": "ANTIMATTER_DROP_MULT 25000 * ANTIMATTER_DROP_BASE_DMG +"
+          "expr": "DUR 20 %of",
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
-        "Contact {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        "Targeting range:",
         {
-          "expr": "STR 10 %of"
-        }
-      ],
-      [
-        "Explosion radius:",
-        {
-          "expr": "RNG 15 %of",
+          "expr": "RNG 100 %of",
           "suff": "m",
           "fmt": "1dec"
         }
       ],
       [
-        "Antimatter Absorb radius:",
+        "Well radius:",
         {
-          "expr": "RNG 5 %of 0 ANTIMATTER_ABSORB if",
+          "expr": "RNG 20 %of",
           "suff": "m",
           "fmt": "1dec"
+        }
+      ],
+      [
+        "[[Energy Orb]] drop chance:",
+        {
+          "expr": "STR 100 %of 0 POOL_OF_LIFE if",
+          "suff": "%"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *"
+          "expr": "25 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
     "ins": [
       {
         "type": "checkbox",
-        "name": "ANTIMATTER_ABSORB",
-        "cont": "{{#invoke:Tooltip|full|Antimatter Absorb|Mods}}?"
+        "name": "POOL_OF_LIFE",
+        "cont": "{{#invoke:Tooltip|full|Pool of Life|Mods}}?"
       }
     ]
   },

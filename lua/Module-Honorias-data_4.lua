@@ -1290,9 +1290,9 @@ local honoriaData = {
 		ExcludeFromCodex = true,
 		Tags = { "Adversary", "Technocyte Coda" },
 	},
-	["On-Lyne Superfan"] = {
-		Name = "On-Lyne Superfan",
-		Link = "On-Lyne Superfan",
+	["On-lyne Superfan"] = {
+		Name = "On-lyne Superfan",
+		Link = "On-lyne Superfan",
 		Description = "Reach Max Rank (40) with 5 [[Coda Weapons]].",
 		Position = "Prefix",
 		Introduced = "42",

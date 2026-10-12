@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-10-01T08:33:24.448Z"
+    "converted_at": "2026-10-12T08:50:26.932Z"
   },
   "_comments": "--- Honorias data table for [[WARFRAME]] titles.\n-- @module Honorias/data\n-- \n-- Entries from the Public Export currently not implemented or not discovered yet\n-- /Lotus/Types/Items/Titles/IncarnonMasteryTitle\n-- /Lotus/Types/Items/Titles/RailjackAshTitle\n-- /Lotus/Types/Items/Titles/RailjackGarudaTitle\n-- /Lotus/Types/Items/Titles/RememberTogetherTitle\n\t--[\"Conquera\"] = {\n\t--\t_IgnoreEntry = true,\n\t--\tName = \"Conquera\",\n\t--\tLink = \"Conquera\",\n\t--\tDescription = \"?\",\n\t--\tPosition = \"?\",\n\t--\tIntroduced = \"44\", -- currently, 44 is is the version where is was added to the PE\n\t--\tInternalName = \"/Lotus/Types/Items/Titles/ConqueraTitle\",\n\t--\tCodexSecret = false,\n\t--\tExcludeFromCodex = true,\n\t--\tTags = { \"Hidden\" },\n\t--},\n\t--[\"The Haunted\"] = {\n\t--\tName = \"The Haunted\",\n\t--\tLink = \"The Haunted\",\n\t--\tIntroduced = \"44\",-- currently, 44 is is the version where is was added to the PE\n\t--\tInternalName = \"/Lotus/Types/Items/Titles/EvilBaroTitle\",\n\t--[\"Moon Devourer\"] = {\n\t--\tName = \"Moon Devourer\",\n\t--\tLink = \"Moon Devourer\",\n\t--\tInternalName = \"/Lotus/Types/Items/Titles/MoonDevourerTitle\",\n\t--[\"The Moon Killer\"] = {\n\t--\tName = \"The Moon Killer\",\n\t--\tLink = \"The Moon Killer\",\n\t--\tInternalName = \"/Lotus/Types/Items/Titles/MoonfleshTitle\",\n\t--[\"Railmaker\"] = {\n\t--\tName = \"Railmaker\",\n\t--\tLink = \"Railmaker\",\n\t--\tInternalName = \"/Lotus/Types/Items/Titles/RailmakerTitle\",\n\t--[\"Taubound\"] = {\n\t--\tName = \"Taubound\",\n\t--\tLink = \"Taubound\",\n\t--\tInternalName = \"/Lotus/Types/Items/Titles/RoadToTauTitle\",",
   "Queen of Duviri": {
@@ -118,6 +118,20 @@
     ],
     "Introduced": "41",
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleJuggernaut",
+    "CodexSecret": true
+  },
+  "On-lyne Superfan": {
+    "Description": "Reach Max Rank (40) with 5 [[Coda Weapons]].",
+    "Link": "On-lyne Superfan",
+    "ExcludeFromCodex": true,
+    "Name": "On-lyne Superfan",
+    "Position": "Prefix",
+    "Tags": [
+      "Adversary",
+      "Technocyte Coda"
+    ],
+    "Introduced": "42",
+    "InternalName": "/Lotus/Types/Items/Titles/CodaMasteryTitle",
     "CodexSecret": true
   },
   "Servio": {
@@ -854,19 +868,6 @@
     "InternalName": "/Lotus/Types/Items/Titles/NarinTitle",
     "CodexSecret": true
   },
-  "The Demolitionist": {
-    "Description": "Kill 10 or more enemies with a single explosion.",
-    "Link": "The Demolitionist",
-    "ExcludeFromCodex": true,
-    "Name": "The Demolitionist",
-    "Position": "Prefix",
-    "Tags": [
-      "Miscellaneous"
-    ],
-    "Introduced": "43.5",
-    "InternalName": "/Lotus/Types/Items/Titles/KaboomTitle",
-    "CodexSecret": true
-  },
   "Executive Overrider": {
     "Description": "Awarded for vanquishing a [[Sister of Parvos]].",
     "Link": "Executive Overrider",
@@ -920,19 +921,17 @@
     "InternalName": "/Lotus/Types/Items/Titles/DateAmirTitle",
     "CodexSecret": true
   },
-  "Clionadh": {
-    "Link": "Clionadh",
-    "Price": {
-      "Javlok Capacitor": "50"
-    },
+  "The Demolitionist": {
+    "Description": "Kill 10 or more enemies with a single explosion.",
+    "Link": "The Demolitionist",
     "ExcludeFromCodex": true,
-    "Name": "Clionadh",
+    "Name": "The Demolitionist",
     "Position": "Prefix",
     "Tags": [
-      "Roathe"
+      "Miscellaneous"
     ],
-    "Introduced": "44",
-    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/BansheeDeluxeTitle",
+    "Introduced": "43.5",
+    "InternalName": "/Lotus/Types/Items/Titles/KaboomTitle",
     "CodexSecret": true
   },
   "Lamenting One": {
@@ -967,18 +966,19 @@
     "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/TitleFerrite",
     "CodexSecret": true
   },
-  "On-Lyne Superfan": {
-    "Description": "Reach Max Rank (40) with 5 [[Coda Weapons]].",
-    "Link": "On-Lyne Superfan",
+  "Clionadh": {
+    "Link": "Clionadh",
+    "Price": {
+      "Javlok Capacitor": "50"
+    },
     "ExcludeFromCodex": true,
-    "Name": "On-Lyne Superfan",
+    "Name": "Clionadh",
     "Position": "Prefix",
     "Tags": [
-      "Adversary",
-      "Technocyte Coda"
+      "Roathe"
     ],
-    "Introduced": "42",
-    "InternalName": "/Lotus/Types/Items/Titles/CodaMasteryTitle",
+    "Introduced": "44",
+    "InternalName": "/Lotus/Types/Items/Titles/RoatheTitles/BansheeDeluxeTitle",
     "CodexSecret": true
   },
   "Head Cracker": {

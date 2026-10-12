@@ -1,7 +1,7 @@
 ---
 title: "Module:DropTables/data"
 wiki_url: "https://wiki.warframe.com/w/Module/DropTables/data"
-wiki_timestamp: "2026-10-08T21:35:35Z"
+wiki_timestamp: "2026-10-11T13:01:09Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -19,7 +19,7 @@ Manually updated fork of the public [Drop Tables](/w/Drop_Tables "Drop Tables") 
 
 See [Module:DropTables](/w/Module:DropTables "Module:DropTables") to see what various things this is being used for right now.
 
-:   *Last updated: Thu, 08 Oct 2026 21:35:35 +0000 (UTC) by [User:ThetrueOzon](/w/User:ThetrueOzon "User:ThetrueOzon") ([change log](https://wiki.warframe.com/w/Module:DropTables/data?diff=0))*
+:   *Last updated: Sun, 11 Oct 2026 13:01:09 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:DropTables/data?diff=0))*
 
 ## Contents
 
@@ -19400,24 +19400,24 @@ local DropData = {
 					{ "Entrati Obols", "Resource", 14.29, 150 },
 					{ "Necracoil", "Resource", 9.52, 15 },
 					{ "Meso Y2", "Relic", 4.76 },
-					{ "Meso V15", "Relic", 4.76 },
-					{ "Meso X1", "Relic", 4.76 },
+					{ "Meso K9", "Relic", 4.76 },
+					{ "Meso V17", "Relic", 4.76 },
 					{ "Meso D8", "Relic", 4.76 },
 					{ "Meso V13", "Relic", 4.76 },
 					{ "Meso A12", "Relic", 4.76 },
-					{ "Meso L5", "Relic", 4.76 },
-					{ "Meso K8", "Relic", 4.76 },
+					{ "Meso D9", "Relic", 4.76 },
+					{ "Meso C11", "Relic", 4.76 },
 				},
 				B = {
 					{ "Credits Cache", "Credits", 25.0, 7500 },
 					{ "Mandonel Barrel", "Blueprint", 17.5 },
 					{ "Neo C7", "Relic", 7.5 },
 					{ "Neo A16", "Relic", 7.5 },
-					{ "Neo Y1", "Relic", 7.5 },
-					{ "Neo T11", "Relic", 7.5 },
-					{ "Neo V12", "Relic", 7.5 },
-					{ "Neo C8", "Relic", 7.5 },
-					{ "Neo C9", "Relic", 7.5 },
+					{ "Neo Y2", "Relic", 7.5 },
+					{ "Neo C11", "Relic", 7.5 },
+					{ "Neo K10", "Relic", 7.5 },
+					{ "Neo V13", "Relic", 7.5 },
+					{ "Neo C10", "Relic", 7.5 },
 					{ "Entrati Lanthorn", "Resource", 5.0 },
 				},
 				C = {
@@ -19446,13 +19446,13 @@ local DropData = {
 					{ "Entrati Obols", "Resource", 9.09, 150 },
 					{ "Necracoil", "Resource", 6.06, 15 },
 					{ "Meso Y2", "Relic", 3.03 },
-					{ "Meso V15", "Relic", 3.03 },
-					{ "Meso X1", "Relic", 3.03 },
+					{ "Meso K9", "Relic", 3.03 },
+					{ "Meso V17", "Relic", 3.03 },
 					{ "Meso D8", "Relic", 3.03 },
 					{ "Meso V13", "Relic", 3.03 },
 					{ "Meso A12", "Relic", 3.03 },
-					{ "Meso L5", "Relic", 3.03 },
-					{ "Meso K8", "Relic", 3.03 },
+					{ "Meso D9", "Relic", 3.03 },
+					{ "Meso C11", "Relic", 3.03 },
 				},
 			},
 			Tier = "Entrati",
@@ -19470,24 +19470,24 @@ local DropData = {
 					{ "Entrati Obols", "Resource", 14.29, 150 },
 					{ "Necracoil", "Resource", 9.52, 15 },
 					{ "Meso Y2", "Relic", 4.76 },
-					{ "Meso V15", "Relic", 4.76 },
-					{ "Meso X1", "Relic", 4.76 },
+					{ "Meso K9", "Relic", 4.76 },
+					{ "Meso V17", "Relic", 4.76 },
 					{ "Meso D8", "Relic", 4.76 },
 					{ "Meso V13", "Relic", 4.76 },
 					{ "Meso A12", "Relic", 4.76 },
-					{ "Meso L5", "Relic", 4.76 },
-					{ "Meso K8", "Relic", 4.76 },
+					{ "Meso D9", "Relic", 4.76 },
+					{ "Meso C11", "Relic", 4.76 },
 				},
 				B = {
 					{ "Credits Cache", "Credits", 25.0, 7500 },
 					{ "Mandonel Receiver", "Blueprint", 17.5 },
 					{ "Neo C7", "Relic", 7.5 },
 					{ "Neo A16", "Relic", 7.5 },
-					{ "Neo Y1", "Relic", 7.5 },
-					{ "Neo T11", "Relic", 7.5 },
-					{ "Neo V12", "Relic", 7.5 },
-					{ "Neo C8", "Relic", 7.5 },
-					{ "Neo C9", "Relic", 7.5 },
+					{ "Neo Y2", "Relic", 7.5 },
+					{ "Neo C11", "Relic", 7.5 },
+					{ "Neo K10", "Relic", 7.5 },
+					{ "Neo V13", "Relic", 7.5 },
+					{ "Neo C10", "Relic", 7.5 },
 					{ "Entrati Lanthorn", "Resource", 5.0 },
 				},
 				C = {
@@ -19516,24 +19516,24 @@ local DropData = {
 				A = {
 					{ "Endo", "Resource", 18.18, 600 },
 					{ "Meso Y2", "Relic", 9.09 },
-					{ "Meso V15", "Relic", 9.09 },
-					{ "Meso X1", "Relic", 9.09 },
+					{ "Meso K9", "Relic", 9.09 },
+					{ "Meso V17", "Relic", 9.09 },
 					{ "Meso D8", "Relic", 9.09 },
 					{ "Meso V13", "Relic", 9.09 },
 					{ "Meso A12", "Relic", 9.09 },
-					{ "Meso L5", "Relic", 9.09 },
-					{ "Meso K8", "Relic", 9.09 },
+					{ "Meso D9", "Relic", 9.09 },
+					{ "Meso C11", "Relic", 9.09 },
 					{ "Shrill Voca", "Resource", 9.09 },
 				},
 				B = {
 					{ "Endo", "Resource", 10.0, 900 },
 					{ "Neo C7", "Relic", 10.0 },
 					{ "Neo A16", "Relic", 10.0 },
-					{ "Neo Y1", "Relic", 10.0 },
-					{ "Neo T11", "Relic", 10.0 },
-					{ "Neo V12", "Relic", 10.0 },
-					{ "Neo C8", "Relic", 10.0 },
-					{ "Neo C9", "Relic", 10.0 },
+					{ "Neo Y2", "Relic", 10.0 },
+					{ "Neo C11", "Relic", 10.0 },
+					{ "Neo K10", "Relic", 10.0 },
+					{ "Neo V13", "Relic", 10.0 },
+					{ "Neo C10", "Relic", 10.0 },
 					{ "Onos Blueprint", "Blueprint", 5.0 },
 					{ "Ruvox Blueprint", "Blueprint", 5.0 },
 					{ "Ruvox Blade Blueprint", "Blueprint", 5.0 },
@@ -19541,10 +19541,10 @@ local DropData = {
 				},
 				C = {
 					{ "Endo", "Resource", 17.5, 1200 },
-					{ "Axi S20", "Relic", 10.0 },
+					{ "Axi S21", "Relic", 10.0 },
 					{ "Axi D6", "Relic", 10.0 },
 					{ "Axi V14", "Relic", 10.0 },
-					{ "Axi T13", "Relic", 10.0 },
+					{ "Axi C12", "Relic", 10.0 },
 					{ "Axi A21", "Relic", 10.0 },
 					{ "Axi A22", "Relic", 10.0 },
 					{ "Dante Blueprint", "Blueprint", 7.5 },

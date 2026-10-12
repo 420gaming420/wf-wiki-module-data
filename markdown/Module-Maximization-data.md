@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-10-11T00:29:53Z"
+wiki_timestamp: "2026-10-11T15:59:22Z"
 ---
 
 ## Contents
@@ -1045,6 +1045,63 @@ local Data = {
 			{'[[Damage Vulnerability]]:', {expr='STR 50 %of', suff='%'}},
 			{'Debuff duration:', {expr='DUR 10 %of', suff='s'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
+		}
+	},
+	-- Trinity
+	['Well of Life']={
+		ins={
+			{name='POOL_OF_LIFE', cont=Tooltips.full('Pool of Life', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Health', 'Stats')..' recovered passively:', {expr='STR 100 %of', suff='/s'}},
+			{'Damage to '..Tooltips.full('Health', 'Stats')..' conversion:', {expr='STR 1 %of', suff='%', fmt='2dec'}},
+			{'Duration:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
+			{'Targeting range:', {expr='RNG 100 %of', suff='m', fmt='1dec'}},
+			{'Well radius:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
+			{'[[Energy Orb]] drop chance:', {expr='STR 100 %of 0 POOL_OF_LIFE if', suff='%'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Energy Vampire']={
+		ins={
+			{name='VAMPIRE_LEECH', cont=Tooltips.full('Vampire Leech', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Energy', 'Stats')..' restoration:', {name='ENERGY_VAMPIRE_PULSE', expr='STR 25 %of', suff='/pulse', fmt='2dec'}},
+			{'Total '..Tooltips.full('Energy', 'Stats')..' restoration:', {expr='ENERGY_VAMPIRE_PULSE ENERGY_VAMPIRE_PULSE_NUMBER *', fmt='2dec'}},
+			{Tooltips.full('True', 'DamageTypes')..' damage:', {expr='STR 6.25 %of', suff='% of current Health/pulse', fmt='2dec'}},
+			{'Minimum Health threshold:', {expr='STR 25 %of', suff='% of maximum health', fmt='2dec'}},
+			{'Duration:', {name='ENERGY_VAMPIRE_DUR', expr='DUR 9 %of', suff='s', fmt='2dec'}},
+			{'Pulse interval:', {name='ENERGY_VAMPIRE_INTERVAL', expr='DUR 2.25 %of 2.25 min', suff='s', fmt='2dec'}},
+			{'Number of pulses:', {name='ENERGY_VAMPIRE_PULSE_NUMBER', expr='ENERGY_VAMPIRE_DUR ENERGY_VAMPIRE_INTERVAL //'}},
+			{'Targeting range:', {expr='RNG 100 %of', suff='m', fmt='1dec'}},
+			{'Pulse radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{'Maximum '..Tooltips.full('Shield', 'Stats')..' restoration:', {expr='225 ENERGY_VAMPIRE_PULSE %of 0 VAMPIRE_LEECH if', suff='/pulse'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Link']={
+		ins={
+			{name='ABATING_LINK', cont=Tooltips.full('Abating Link', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Affected enemies:', {expr='STR 3 %of floor'}},
+			{'Duration:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Armor', 'Stats')..' reduction:', {expr='STR 60 %of 100 min 0 ABATING_LINK if', suff='%'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Blessing']={
+		ins={
+			{name='CHAMPIONS_BLESSING', cont=Tooltips.full('Champion\'s Blessing', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Health', 'Stats')..' and '..Tooltips.full('Shield', 'Stats')..' restoration:', {expr='STR 80 %of 100 min', suff='%'}},
+			{'[[Damage Reduction]]:', {expr='STR 50 %of 75 min', suff='%'}},
+			{'Damage Reduction duration:', {expr='DUR 15 %of', suff='s', fmt='2dec'}},
+			{'[[Critical Chance]] bonus duration:', {expr='DUR 30 %of 0 CHAMPIONS_BLESSING if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},
 	-- Uriel

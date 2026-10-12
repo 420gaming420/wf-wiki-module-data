@@ -1,7 +1,7 @@
 ---
 title: "Module:Warframes/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Warframes/data"
-wiki_timestamp: "2026-09-27T14:48:22Z"
+wiki_timestamp: "2026-10-11T09:40:58Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes [Warframes](/w/Warframes "Warframes"), [Necramechs](/w/Necramech "Necramech"), [Archwings](/w/Archwing "Archwing"), and [Operators](/w/Operator "Operator").
@@ -13,7 +13,7 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes
 * [3 Data Sources](#Data_Sources)
 * [4 Warframe/Avatar Data](#Warframe/Avatar_Data)
 
-:   *Last updated: Sun, 27 Sep 2026 14:48:22 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Warframes/data?diff=0))*
+:   *Last updated: Sun, 11 Oct 2026 09:40:58 +0000 (UTC) by [User:Headbox8424](/w/User:Headbox8424 "User:Headbox8424") ([change log](https://wiki.warframe.com/w/Module:Warframes/data?diff=0))*
 
 ## Warframe/Avatar Data Schema
 
@@ -510,7 +510,7 @@ return {
 			AuraPolarity = "Madurai",
 			CodexSecret = false,
 			Conclave = true,
-			Description = "Banshee’s call heralds death. She maintains crowd control and identifies enemy weak points with sonic attacks. Few can hold their position when struck by her force.",
+			Description = "Banshee's call heralds death. She maintains crowd control and identifies enemy weak points with sonic attacks. Few can hold their position when struck by her force.",
 			Energy = 175,
 			FullImages = { { TabName = "Full Body", Image = "Banshee.png" } },
 			Health = 270,
@@ -522,7 +522,7 @@ return {
 			Link = "Banshee",
 			MaxRank = 30,
 			Name = "Banshee",
-			Passive = "Weapon noises are hushed so that enemies cannot hear them.",
+			Passive = "Banshee pierces the ears of enemies within a 20m radius when casting Abilities, applying max Puncture Status Effect. Additionally, Banshee's weapon noise is hushed.",
 			Playstyle = { "Crowd Control" },
 			Polarities = { "Madurai", "Madurai" },
 			Portrait = "Banshee_Thumb.png",
@@ -557,7 +557,7 @@ return {
 			Mastery = 0,
 			MaxRank = 30,
 			Name = "Banshee Prime",
-			Passive = "Weapon noises are hushed so that enemies cannot hear them.",
+			Passive = "Banshee pierces the ears of enemies within a 20m radius when casting Abilities, applying max Puncture Status Effect. Additionally, Banshee's weapon noise is hushed.",
 			Playstyle = { "Crowd Control" },
 			Polarities = { "Madurai", "Madurai", "Naramon" },
 			Portrait = "BansheePrime_Thumb.png",
