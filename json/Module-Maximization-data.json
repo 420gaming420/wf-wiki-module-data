@@ -4,9 +4,9 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-10-12T08:50:29.570Z"
+    "converted_at": "2026-10-13T09:07:10.458Z"
   },
-  "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins\n-- this contains mappings for what we couldn't pull from preexisting modules\n\t-- Ash\n\t-- Atlas\n\t-- Banshee\n\t-- Caliban\n\t-- Citrine\n\t-- Khora\n\t-- Lavos\n\t-- Limbo\n\t-- Narin\n\t-- Nidus\n\t-- Nova\n\t-- Oberon\n\t-- Octavia\n\t-- Protea\n\t-- Rhino\n\t-- Sevagoth\n\t-- Sevagoth's Shadow\n\t-- Trinity\n\t-- Uriel",
+  "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins\n-- this contains mappings for what we couldn't pull from preexisting modules\n\t-- Ash\n\t-- Atlas\n\t-- Banshee\n\t-- Caliban\n\t-- Citrine\n\t-- Ember\n\t-- Khora\n\t-- Lavos\n\t-- Limbo\n\t-- Narin\n\t-- Nekros\n\t-- Nidus\n\t-- Nova\n\t-- Oberon\n\t-- Octavia\n\t-- Protea\n\t-- Rhino\n\t-- Sevagoth\n\t-- Sevagoth's Shadow\n\t-- Trinity\n\t-- Uriel",
   "Stasis": {
     "outs": [
       [
@@ -300,8 +300,9 @@
         "[[Damage Vulnerability]]:",
         {
           "expr": "STR 50 %of",
-          "suff": "%",
-          "fmt": "2dec"
+          "fmt": "1dec",
+          "name": "DMG_VULN",
+          "suff": "%"
         }
       ],
       [
@@ -315,7 +316,14 @@
       [
         "{{#invoke:Tooltip|full|Radiation|DamageTypes}} damage:",
         {
-          "expr": "STR 250 %of"
+          "expr": "STR 250 %of DMG_VULN 100 / 1 + 1 REAP_DMG_VULN if *"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|True|DamageTypes}} / {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        {
+          "expr": "25 DMG_VULN 100 / 1 + 1 REAP_DMG_VULN if * 0 SOW_AND_REAP if",
+          "suff": "% of current health"
         }
       ],
       [
@@ -351,8 +359,13 @@
     "ins": [
       {
         "type": "checkbox",
-        "name": "DAMAGE_VULNERABILITY",
-        "cont": "{{#invoke:Tooltip|full|Reap|Ability}} debuff?"
+        "name": "REAP_DMG_VULN",
+        "cont": "{{#invoke:Tooltip|full|Reap|Ability}}'s debuff?"
+      },
+      {
+        "type": "checkbox",
+        "name": "SOW_AND_REAP",
+        "cont": "Sow&Reap?"
       },
       {
         "type": "checkbox",
@@ -366,6 +379,61 @@
       }
     ]
   },
+  "Inferno": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Impact|DamageTypes}} and {{#invoke:Tooltip|full|Heat|DamageTypes}} contact damage:",
+        {
+          "expr": "STR 2500 %of"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Heat|DamageTypes}} ring damage:",
+        {
+          "expr": "IMMOLATION_LEVEL 100 + STR 350 %of %of"
+        }
+      ],
+      [
+        "Duration:",
+        {
+          "expr": "DUR 15 %of",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Targeting radius:",
+        {
+          "expr": "RNG 25 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "10 COST * INFERNO_TARGETS 10 min *",
+          "fmt": "2dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "min": "0",
+        "type": "range-R",
+        "name": "IMMOLATION_LEVEL",
+        "max": "100",
+        "value": "0",
+        "cont": "{{#invoke:Tooltip|full|Immolation|Ability}} level:"
+      },
+      {
+        "min": "0",
+        "value": "1",
+        "name": "INFERNO_TARGETS",
+        "cont": "Number of targets:"
+      }
+    ]
+  },
   "Embrace": {
     "outs": [
       [
@@ -376,10 +444,11 @@
         }
       ],
       [
-        "Grab Range:",
+        "Grab Radius:",
         {
           "expr": "RNG 20 %of",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
@@ -391,69 +460,43 @@
     ],
     "ins": {}
   },
-  "Larva": {
+  "Desecrate": {
     "outs": [
       [
-        "Mutation Stack chance:",
+        "Radius:",
         {
-          "expr": "0 STR 50 %of LARVA_INFUSED if 100 min",
-          "suff": "%"
-        }
-      ],
-      [
-        "Duration:",
-        {
-          "expr": "DUR 7 %of",
-          "suff": "s"
-        }
-      ],
-      [
-        "Grab radius:",
-        {
-          "expr": "RNG 8 12 LARVA_INFUSED if %of",
+          "expr": "RNG 25 %of",
           "suff": "m",
           "fmt": "1dec"
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Toxin|DamageTypes}} damage:",
+        "Casting {{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "STR 600 %of 0 LARVA_BURST if",
-          "name": "LARVA_BURST_BASE_DMG",
-          "suff": "/enemy"
+          "expr": "0 10 COST * DESPOIL if",
+          "fmt": "2dec"
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Poison|DamageTypes}} damage:",
+        "Desecration {{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "0.5 LARVA_BURST_BASE_DMG *",
-          "suff": "/enemy"
+          "expr": "0 10 COST * DESPOIL if",
+          "fmt": "2dec"
         }
       ],
       [
-        "Larva Burst radius:",
+        "Desecration {{#invoke:Tooltip|full|Health|Stats}} cost:",
         {
-          "expr": "RNG 8 %of 0 LARVA_BURST if",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "25 COST *"
+          "expr": "10 COST * 0 DESPOIL if",
+          "fmt": "2dec"
         }
       ]
     ],
     "ins": [
       {
         "type": "checkbox",
-        "name": "LARVA_BURST",
-        "cont": "{{#invoke:Tooltip|full|Larva Burst|Mods}}?"
-      },
-      {
-        "type": "checkbox",
-        "name": "LARVA_INFUSED",
-        "cont": "[[Infused]]?"
+        "name": "DESPOIL",
+        "cont": "{{#invoke:Tooltip|full|Despoil|Mods}}?"
       }
     ]
   },
@@ -559,37 +602,126 @@
       }
     ]
   },
-  "Neote": {
+  "Soul Punch": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
+        "Cast {{#invoke:Tooltip|full|Impact|DamageTypes}} damage:",
         {
-          "expr": "STR 400 %of",
-          "name": "BASE_NEOTE_DMG",
-          "suff": "/hit"
+          "expr": "STR 500 %of"
         }
       ],
       [
-        "Total {{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
+        "Projectile direct {{#invoke:Tooltip|full|Impact|DamageTypes}} damage:",
         {
-          "expr": "BASE_NEOTE_DMG 5 *"
+          "expr": "50 2 SOUL_PUNCH_HITS ^ *"
         }
       ],
       [
-        "Range:",
+        "Targeting range:",
         {
-          "expr": "RNG 12 %of",
-          "suff": "m"
+          "expr": "RNG 50 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Health|Stats}} restored to revived target:",
+        {
+          "expr": "STR 30 %of 100 min 0 SOUL_SURVIVOR if",
+          "suff": "%"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "25 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
-    "ins": {}
+    "ins": [
+      {
+        "min": "0",
+        "value": "0",
+        "name": "SOUL_PUNCH_HITS",
+        "cont": "Number of enemies hit by projectile:"
+      },
+      {
+        "type": "checkbox",
+        "name": "SOUL_SURVIVOR",
+        "cont": "{{#invoke:Tooltip|full|Soul Survivor|Mods}}?"
+      }
+    ]
+  },
+  "Immolation": {
+    "outs": [
+      [
+        "Minimum [[Damage Reduction]]:",
+        {
+          "expr": "STR 40 %of 50 min",
+          "name": "IMMOLATION_MIN_DR",
+          "suff": "%"
+        }
+      ],
+      [
+        "Maximum Damage Reduction:",
+        {
+          "expr": "STR 85 %of 90 min",
+          "name": "IMMOLATION_MAX_DR",
+          "suff": "%"
+        }
+      ],
+      [
+        "Current Damage Reduction:",
+        {
+          "expr": "IMMOLATION_LEVEL IMMOLATION_MAX_DR * 100 IMMOLATION_LEVEL - IMMOLATION_MIN_DR * + as%",
+          "name": "IMMOLATION_CURR_DR",
+          "suff": "%"
+        }
+      ],
+      [
+        "Shared Damage Reduction:",
+        {
+          "expr": "50 IMMOLATION_CURR_DR %of 0 IMMOLATED_RADIANCE if",
+          "suff": "%"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "50 COST *",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
+        {
+          "expr": "IMMOLATION_TIME 0.4 DRAIN * *",
+          "fmt": "2dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "min": "0",
+        "type": "range-R",
+        "name": "IMMOLATION_LEVEL",
+        "max": "100",
+        "value": "0",
+        "cont": "Immolation level:"
+      },
+      {
+        "min": "0",
+        "value": "0",
+        "name": "IMMOLATION_TIME",
+        "cont": "Seconds spent at maximum Immolation:"
+      },
+      {
+        "type": "checkbox",
+        "name": "IMMOLATED_RADIANCE",
+        "cont": "{{#invoke:Tooltip|full|Immolated Radiance|Mods}}?"
+      }
+    ]
   },
   "Death's Harvest": {
     "outs": [
@@ -597,7 +729,8 @@
         "[[Damage Vulnerability]]:",
         {
           "expr": "STR 50 %of",
-          "suff": "%"
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -605,6 +738,14 @@
         {
           "expr": "DUR 10 %of",
           "suff": "s"
+        }
+      ],
+      [
+        "Debuff radius:",
+        {
+          "expr": "RNG 8 %of",
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
@@ -843,6 +984,83 @@
         "type": "checkbox",
         "name": "TEMPORAL_EROSION",
         "cont": "{{#invoke:Tooltip|full|Temporal Erosion|Mods}}?"
+      }
+    ]
+  },
+  "Fireball": {
+    "outs": [
+      [
+        "Direct {{#invoke:Tooltip|full|Heat|DamageTypes}} damage:",
+        {
+          "expr": "STR 400 FIREBALL_COMBO 1 + * %of"
+        }
+      ],
+      [
+        "Radial {{#invoke:Tooltip|full|Heat|DamageTypes}} damage:",
+        {
+          "expr": "STR 150 FIREBALL_COMBO 1 + * %of"
+        }
+      ],
+      [
+        "Combo window:",
+        {
+          "expr": "DUR 1.5 %of",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Damage radius:",
+        {
+          "expr": "RNG 3 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Heat|DamageTypes}} damage bonus:",
+        {
+          "expr": "STR 100 %of 0 FIREBALL_FRENZY if",
+          "suff": "%"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Heat|DamageTypes}} damage bonus duration:",
+        {
+          "expr": "DUR 40 %of 0 FIREBALL_FRENZY if",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Heat|DamageTypes}} damage bonus radius:",
+        {
+          "expr": "RNG 15 %of 0 FIREBALL_FRENZY if",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "25 COST *",
+          "fmt": "2dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "min": "1",
+        "type": "range-R",
+        "name": "FIREBALL_COMBO",
+        "max": "12",
+        "value": "1",
+        "cont": "Combo meter:"
+      },
+      {
+        "type": "checkbox",
+        "name": "FIREBALL_FRENZY",
+        "cont": "{{#invoke:Tooltip|full|Fireball Frenzy|Mods}}?"
       }
     ]
   },
@@ -2067,6 +2285,76 @@
       }
     ]
   },
+  "Shadows of the Dead": {
+    "outs": [
+      [
+        "Damage bonus:",
+        {
+          "expr": "STR 150 %of",
+          "suff": "%"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Shield|Stats}} bonus:",
+        {
+          "expr": "STR 100 %of",
+          "suff": "%"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Health|Stats}} bonus:",
+        {
+          "expr": "STR 100 %of",
+          "suff": "%"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Health|Stats}} decay:",
+        {
+          "expr": "3 DUR as% /",
+          "suff": "%/s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "[[Damage Redirection]]:",
+        {
+          "expr": "STR 6 %of 0 SHIELD_OF_SHADOWS if",
+          "name": "SHADOWS_OF_THE_DEAD_DR",
+          "suff": "%/linked Shadow"
+        }
+      ],
+      [
+        "Damage Redirection at 7 links:",
+        {
+          "expr": "SHADOWS_OF_THE_DEAD_DR 7 * 90 min",
+          "suff": "%"
+        }
+      ],
+      [
+        "Linking radius:",
+        {
+          "expr": "RNG 50 %of 0 SHIELD_OF_SHADOWS if",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "100 COST *",
+          "fmt": "2dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "SHIELD_OF_SHADOWS",
+        "cont": "{{#invoke:Tooltip|full|Shield of Shadows|Mods}}?"
+      }
+    ]
+  },
   "Gloom": {
     "outs": [
       [
@@ -2128,8 +2416,7 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *",
-          "fmt": "2dec"
+          "expr": "50 COST *"
         }
       ],
       [
@@ -2342,86 +2629,6 @@
       }
     ]
   },
-  "Smite": {
-    "outs": [
-      [
-        "{{#invoke:Tooltip|full|Radiation|DamageTypes}} damage:",
-        {
-          "expr": "STR 500 %of"
-        }
-      ],
-      [
-        "Percentage damage to target:",
-        {
-          "expr": "STR 35 %of 50 75 SMITE_INFUSED if min",
-          "suff": "%"
-        }
-      ],
-      [
-        "AoE damage:",
-        {
-          "expr": "STR 10 %of 20 30 SMITE_INFUSED if min",
-          "suff": "% of target's Health"
-        }
-      ],
-      [
-        "Cast range:",
-        {
-          "expr": "RNG 50 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "AoE radius:",
-        {
-          "expr": "RNG 6 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "Smite Infusion {{#invoke:Tooltip|full|Radiation|DamageTypes}} damage bonus:",
-        {
-          "expr": "STR 100 %of 0 SMITE_INFUSION if",
-          "suff": "%"
-        }
-      ],
-      [
-        "Smite Infusion duration:",
-        {
-          "expr": "DUR 40 %of 0 SMITE_INFUSION if",
-          "suff": "s"
-        }
-      ],
-      [
-        "Smite Infusion radius:",
-        {
-          "expr": "RNG 15 %of 0 SMITE_INFUSION if",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "25 COST *"
-        }
-      ]
-    ],
-    "ins": [
-      {
-        "type": "checkbox",
-        "name": "SMITE_INFUSION",
-        "cont": "{{#invoke:Tooltip|full|Smite Infusion|Mods}}?"
-      },
-      {
-        "type": "checkbox",
-        "name": "SMITE_INFUSED",
-        "cont": "[[Infused]]?"
-      }
-    ]
-  },
   "Energy Vampire": {
     "outs": [
       [
@@ -2520,47 +2727,62 @@
       }
     ]
   },
-  "Antimatter Drop": {
+  "Smite": {
     "outs": [
       [
-        "Base explosion {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        "{{#invoke:Tooltip|full|Radiation|DamageTypes}} damage:",
         {
-          "name": "ANTIMATTER_DROP_BASE_DMG",
-          "expr": "STR 200 %of"
+          "expr": "STR 500 %of"
         }
       ],
       [
-        "Absorb damage multiplier:",
+        "Percentage damage to target:",
         {
-          "expr": "STR 8 %of",
-          "name": "ANTIMATTER_DROP_MULT",
-          "fmt": "2dec"
+          "expr": "STR 35 %of 50 75 SMITE_INFUSED if min",
+          "suff": "%"
         }
       ],
       [
-        "Maximum explosion {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        "AoE damage:",
         {
-          "expr": "ANTIMATTER_DROP_MULT 25000 * ANTIMATTER_DROP_BASE_DMG +"
+          "expr": "STR 10 %of 20 30 SMITE_INFUSED if min",
+          "suff": "% of target's Health"
         }
       ],
       [
-        "Contact {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        "Cast range:",
         {
-          "expr": "STR 10 %of"
-        }
-      ],
-      [
-        "Explosion radius:",
-        {
-          "expr": "RNG 15 %of",
+          "expr": "RNG 50 %of",
           "suff": "m",
           "fmt": "1dec"
         }
       ],
       [
-        "Antimatter Absorb radius:",
+        "AoE radius:",
         {
-          "expr": "RNG 5 %of 0 ANTIMATTER_ABSORB if",
+          "expr": "RNG 6 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Smite Infusion {{#invoke:Tooltip|full|Radiation|DamageTypes}} damage bonus:",
+        {
+          "expr": "STR 100 %of 0 SMITE_INFUSION if",
+          "suff": "%"
+        }
+      ],
+      [
+        "Smite Infusion duration:",
+        {
+          "expr": "DUR 40 %of 0 SMITE_INFUSION if",
+          "suff": "s"
+        }
+      ],
+      [
+        "Smite Infusion radius:",
+        {
+          "expr": "RNG 15 %of 0 SMITE_INFUSION if",
           "suff": "m",
           "fmt": "1dec"
         }
@@ -2568,32 +2790,170 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *"
+          "expr": "25 COST *"
         }
       ]
     ],
     "ins": [
       {
         "type": "checkbox",
-        "name": "ANTIMATTER_ABSORB",
-        "cont": "{{#invoke:Tooltip|full|Antimatter Absorb|Mods}}?"
+        "name": "SMITE_INFUSION",
+        "cont": "{{#invoke:Tooltip|full|Smite Infusion|Mods}}?"
+      },
+      {
+        "type": "checkbox",
+        "name": "SMITE_INFUSED",
+        "cont": "[[Infused]]?"
+      }
+    ]
+  },
+  "Terrify": {
+    "outs": [
+      [
+        "Affected enemies:",
+        {
+          "expr": "STR 20 %of floor"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Armor|Stats}} reduction:",
+        {
+          "expr": "STR 60 %of 100 min",
+          "suff": "%"
+        }
+      ],
+      [
+        "Duration:",
+        {
+          "expr": "DUR 25 %of",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Radius:",
+        {
+          "expr": "RNG 15 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Slow|DamageTypes}}:",
+        {
+          "expr": "STR 60 %of 80 min 0 CREEPING_TERRIFY if",
+          "suff": "%"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "75 COST *",
+          "fmt": "2dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "CREEPING_TERRIFY",
+        "cont": "{{#invoke:Tooltip|full|Creeping Terrify|Mods}}?"
+      }
+    ]
+  },
+  "Nurinarim": {
+    "outs": [
+      [
+        "Ice aura {{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
+        {
+          "expr": "STR 500 %of",
+          "suff": "/s"
+        }
+      ],
+      [
+        "Icy Slash{{#invoke:Tooltip|full|Cold|DamageTypes}}  damage:",
+        {
+          "expr": "STR 20000 %of 2 1 ENEMY_IS_MARKED if *"
+        }
+      ],
+      [
+        "Frozen enemy explosion {{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
+        {
+          "expr": "STR 10000 %of 2 1 ENEMY_IS_MARKED if *"
+        }
+      ],
+      [
+        "Max duration:",
+        {
+          "expr": "DUR 15 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Ice aura radius:",
+        {
+          "expr": "RNG 8 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "Frozen enemy explosion radius:",
+        {
+          "expr": "RNG 10 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Shield|Stats}} stripped:",
+        {
+          "expr": "5 COLD_STATUS_COUNT *",
+          "suff": "%"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Armor|Stats}} stripped:",
+        {
+          "expr": "5 COLD_STATUS_COUNT *",
+          "suff": "%"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "25 COST *"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "min": "1",
+        "type": "range-R",
+        "name": "COLD_STATUS_COUNT",
+        "max": "10",
+        "default": "1",
+        "cont": "Number of {{#invoke:Tooltip|full|Cold|DamageTypes}} procs on enemy: "
+      },
+      {
+        "type": "checkbox",
+        "name": "ENEMY_IS_MARKED",
+        "cont": "Enemy is marked?"
       }
     ]
   },
   "Consume": {
     "outs": [
       [
-        "Heal Value:",
+        "{{#invoke:Tooltip|full|Health|Stats}} restored:",
         {
-          "expr": "STR 0.25 %of STR 2500 %of",
-          "suff": "HP"
+          "expr": "STR 0.25 %of STR 2500 %of *"
         }
       ],
       [
-        "Targeting Range:",
+        "Targeting distance:",
         {
-          "expr": "RNG 14",
-          "suff": "m"
+          "expr": "RNG 14 %of",
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
@@ -2610,8 +2970,15 @@
       [
         "{{#invoke:Tooltip|full|True|DamageTypes}} damage:",
         {
-          "expr": "STR 250 %of",
+          "expr": "STR 250 %of STR 50 %of 100 / 1 + 1 REAP_DMG_VULN if *",
           "suff": "/s"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|True|DamageTypes}} / {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        {
+          "expr": "25 STR 50 %of 100 / 1 + 1 REAP_DMG_VULN if * 0 SOW_AND_REAP if",
+          "suff": "% of current health"
         }
       ],
       [
@@ -2625,7 +2992,16 @@
         "Radius:",
         {
           "expr": "RNG 16 %of",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Spread radius",
+        {
+          "expr": "RNG 15 %of 0 DARK_PROPAGATION if",
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
@@ -2638,8 +3014,252 @@
     "ins": [
       {
         "type": "checkbox",
-        "name": "DAMAGE_VULNERABILITY",
-        "cont": "{{#invoke:Tooltip|full|Reap|Ability}} debuff?"
+        "name": "REAP_DMG_VULN",
+        "cont": "{{#invoke:Tooltip|full|Reap|Ability}}'s debuff?"
+      },
+      {
+        "type": "checkbox",
+        "name": "SOW_AND_REAP",
+        "cont": "Sow&Reap?"
+      },
+      {
+        "type": "checkbox",
+        "name": "DARK_PROPAGATION",
+        "cont": "{{#invoke:Tooltip|full|Dark Propagation|Mods}}?"
+      }
+    ]
+  },
+  "Sonic Boom": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Impact|DamageTypes}} damage:",
+        {
+          "expr": "STR 250 %of"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Armor|Stats}} reduction:",
+        {
+          "expr": "STR 70 %of 100 min",
+          "suff": "%"
+        }
+      ],
+      [
+        "Push Force:",
+        {
+          "expr": "STR 5 %of"
+        }
+      ],
+      [
+        "Range:",
+        {
+          "expr": "RNG 15 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "Sonic Siphon {{#invoke:Tooltip|full|Armor|Stats}} bonus:",
+        {
+          "expr": "STR 50 %of 0 SONIC_SIPHON if 1500 min",
+          "suff": "/hit"
+        }
+      ],
+      [
+        "Hits required for 1500 {{#invoke:Tooltip|full|Armor|Stats}}:",
+        {
+          "expr": "30 STR as% / ceil 0 SONIC_SIPHON if"
+        }
+      ],
+      [
+        "Sonic Siphon duration:",
+        {
+          "expr": "DUR 20 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "25 COST *"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "SONIC_SIPHON",
+        "cont": "{{#invoke:Tooltip|full|Sonic Siphon|Mods}}?"
+      }
+    ]
+  },
+  "Roar": {
+    "outs": [
+      [
+        "[[Faction Damage Bonus]]:",
+        {
+          "expr": "STR 30 50 ROAR_INFUSED if %of",
+          "suff": "%",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Duration:",
+        {
+          "expr": "DUR 30 %of",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Radius:",
+        {
+          "expr": "RNG 40 0 PIERCING_ROAR if + 25 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Weakened|DamageTypes}} duration:",
+        {
+          "expr": "DUR 1 %of 10 * 0 PIERCING_ROAR if",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "75 COST *",
+          "fmt": "2dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "PIERCING_ROAR",
+        "cont": "{{#invoke:Tooltip|full|Piercing Roar|Mods}}?"
+      },
+      {
+        "type": "checkbox",
+        "name": "ROAR_INFUSED",
+        "cont": "[[Infused]]?"
+      }
+    ]
+  },
+  "Iron Skin": {
+    "outs": [
+      [
+        "Base {{#invoke:Tooltip|full|Overguard|DamageTypes}}:",
+        {
+          "expr": "STR 1200 2.5 RHINO_ARMOR * + %of"
+        }
+      ],
+      [
+        "Iron Shrapnel radius:",
+        {
+          "expr": "RNG 8 %of 0 IRON_SHRAPNEL if",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "50 COST *",
+          "fmt": "2dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "min": "0",
+        "value": "240",
+        "name": "RHINO_ARMOR",
+        "cont": "Current {{#invoke:Tooltip|full|Armor|Stats}}:"
+      },
+      {
+        "type": "checkbox",
+        "name": "IRON_SHRAPNEL",
+        "cont": "{{#invoke:Tooltip|full|Iron Shrapnel|Mods}}?"
+      }
+    ]
+  },
+  "Rhino Charge": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Impact|DamageTypes}} damage:",
+        {
+          "name": "RHINO_CHARGE_BASE_DMG",
+          "expr": "STR 650 %of 2 RHINO_CHARGE_NUMBER 1 - ^ *"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Impact|DamageTypes}} damage to enemies in{{#invoke:Tooltip|full|Rhino Stomp|Ability}}:",
+        {
+          "expr": "RHINO_CHARGE_BASE_DMG 2 *"
+        }
+      ],
+      [
+        "Combo window duration:",
+        {
+          "expr": "DUR 1 %of",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Charge distance:",
+        {
+          "expr": "RNG 12 %of RHINO_CHARGE_NUMBER 1 - 0.25 * 1 + *",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Impact radius:",
+        {
+          "expr": "RNG 2 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Armor|Stats}} bonus:",
+        {
+          "expr": "STR 50 %of 0 IRONCLAD_CHARGE if",
+          "suff": "%/hit"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Armor|Stats}} bonus duration:",
+        {
+          "expr": "DUR 10 %of 0 IRONCLAD_CHARGE if",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "25 COST * 2 RHINO_CHARGE_NUMBER 1 - addin ^ *",
+          "fmt": "2dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "min": "1",
+        "type": "range-R",
+        "name": "RHINO_CHARGE_NUMBER",
+        "max": "3",
+        "value": "1",
+        "cont": "Charge number:"
+      },
+      {
+        "type": "checkbox",
+        "name": "IRONCLAD_CHARGE",
+        "cont": "{{#invoke:Tooltip|full|Ironclad Charge|Mods}}?"
       }
     ]
   },
@@ -2744,68 +3364,60 @@
       }
     ]
   },
-  "Sonic Boom": {
+  "Lethal Progeny": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Impact|DamageTypes}} damage:",
+        "Level at Rank 30:",
         {
-          "expr": "STR 250 %of"
+          "name": "LETHAL_PROGENY_LEVEL",
+          "expr": "STR 30 %of floor"
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Armor|Stats}} reduction:",
+        "Damage multiplier:",
         {
-          "expr": "STR 70 %of 100 min",
-          "suff": "%"
+          "expr": "STR 2.5 %of",
+          "name": "LETHAL_PROGENY_DMG_MULT",
+          "fmt": "2dec"
         }
       ],
       [
-        "Push Force:",
+        "Health multiplier:",
         {
-          "expr": "STR 5 %of"
+          "expr": "STR 2 %of",
+          "fmt": "2dec"
         }
       ],
       [
-        "Range:",
+        "{{#invoke:Tooltip|full|Shield|Stats}} restoration:",
         {
-          "expr": "RNG 15 %of",
-          "suff": "m"
+          "expr": "STR 25 %of",
+          "suff": "/s/Summon"
         }
       ],
       [
-        "Sonic Siphon {{#invoke:Tooltip|full|Armor|Stats}} bonus:",
+        "Duration:",
         {
-          "expr": "STR 50 %of 0 SONIC_SIPHON if 1500 min",
-          "suff": "/hit"
-        }
-      ],
-      [
-        "Hits required for 1500 {{#invoke:Tooltip|full|Armor|Stats}}:",
-        {
-          "expr": "30 STR as% / ceil 0 SONIC_SIPHON if"
-        }
-      ],
-      [
-        "Sonic Siphon duration:",
-        {
-          "expr": "DUR 20 %of",
+          "expr": "DUR 45 %of",
           "suff": "s"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Shield|Stats}} restoration range:",
+        {
+          "expr": "RNG 25 %of",
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "50 COST *"
         }
       ]
     ],
-    "ins": [
-      {
-        "type": "checkbox",
-        "name": "SONIC_SIPHON",
-        "cont": "{{#invoke:Tooltip|full|Sonic Siphon|Mods}}?"
-      }
-    ]
+    "ins": {}
   },
   "Tectonics": {
     "outs": [
@@ -2864,60 +3476,45 @@
       }
     ]
   },
-  "Roar": {
+  "Amp": {
     "outs": [
       [
-        "[[Faction Damage Bonus]]:",
+        "Minimum weapon damage bonus:",
         {
-          "expr": "STR 30 50 ROAR_INFUSED if %of",
-          "suff": "%",
-          "fmt": "1dec"
+          "expr": "STR 25 %of",
+          "suff": "%"
+        }
+      ],
+      [
+        "Maximum weapon damage bonus:",
+        {
+          "expr": "STR 125 %of",
+          "suff": "%"
         }
       ],
       [
         "Duration:",
         {
           "expr": "DUR 30 %of",
-          "suff": "s",
-          "fmt": "2dec"
+          "suff": "s"
         }
       ],
       [
         "Radius:",
         {
-          "expr": "RNG 40 0 PIERCING_ROAR if + 25 %of",
+          "expr": "RNG 14 %of",
           "suff": "m",
           "fmt": "1dec"
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Weakened|DamageTypes}} duration:",
-        {
-          "expr": "DUR 1 %of 10 * 0 PIERCING_ROAR if",
-          "suff": "s",
-          "fmt": "2dec"
-        }
-      ],
-      [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "75 COST *",
-          "fmt": "2dec"
+          "expr": "100 COST *"
         }
       ]
     ],
-    "ins": [
-      {
-        "type": "checkbox",
-        "name": "PIERCING_ROAR",
-        "cont": "{{#invoke:Tooltip|full|Piercing Roar|Mods}}?"
-      },
-      {
-        "type": "checkbox",
-        "name": "ROAR_INFUSED",
-        "cont": "[[Infused]]?"
-      }
-    ]
+    "ins": {}
   },
   "Venari": {
     "outs": [
@@ -3055,18 +3652,43 @@
     ],
     "ins": {}
   },
-  "Iron Skin": {
+  "Mallet": {
     "outs": [
       [
-        "Base {{#invoke:Tooltip|full|Overguard|DamageTypes}}:",
+        "Damage multiplier:",
         {
-          "expr": "STR 1200 2.5 RHINO_ARMOR * + %of"
+          "expr": "STR 2.5 %of",
+          "fmt": "2dec"
         }
       ],
       [
-        "Iron Shrapnel radius:",
+        "Stored damage decay:",
         {
-          "expr": "RNG 8 %of 0 IRON_SHRAPNEL if",
+          "expr": "PERCUSSION_COUNT mulin 100 *",
+          "suff": "%/beat",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Duration:",
+        {
+          "expr": "DUR 20 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Base radius:",
+        {
+          "expr": "80 100 PARTITIONED_MALLET if RNG 10 %of %of",
+          "fmt": "1dec",
+          "name": "MALLET_BASE_RADIUS",
+          "suff": "m"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Amp|Ability}} radius:",
+        {
+          "expr": "2 MALLET_BASE_RADIUS *",
           "suff": "m",
           "fmt": "1dec"
         }
@@ -3074,132 +3696,123 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *",
-          "fmt": "2dec"
-        }
-      ]
-    ],
-    "ins": [
-      {
-        "min": "0",
-        "value": "240",
-        "name": "RHINO_ARMOR",
-        "cont": "Current {{#invoke:Tooltip|full|Armor|Stats}}:"
-      },
-      {
-        "type": "checkbox",
-        "name": "IRON_SHRAPNEL",
-        "cont": "{{#invoke:Tooltip|full|Iron Shrapnel|Mods}}?"
-      }
-    ]
-  },
-  "Rhino Charge": {
-    "outs": [
-      [
-        "{{#invoke:Tooltip|full|Impact|DamageTypes}} damage:",
-        {
-          "name": "RHINO_CHARGE_BASE_DMG",
-          "expr": "STR 650 %of 2 RHINO_CHARGE_NUMBER 1 - ^ *"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Impact|DamageTypes}} damage to enemies in{{#invoke:Tooltip|full|Rhino Stomp|Ability}}:",
-        {
-          "expr": "RHINO_CHARGE_BASE_DMG 2 *"
-        }
-      ],
-      [
-        "Combo window duration:",
-        {
-          "expr": "DUR 1 %of",
-          "suff": "s",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "Charge distance:",
-        {
-          "expr": "RNG 12 %of RHINO_CHARGE_NUMBER 1 - 0.25 * 1 + *",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "Impact radius:",
-        {
-          "expr": "RNG 2 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Armor|Stats}} bonus:",
-        {
-          "expr": "STR 50 %of 0 IRONCLAD_CHARGE if",
-          "suff": "%/hit"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Armor|Stats}} bonus duration:",
-        {
-          "expr": "DUR 10 %of 0 IRONCLAD_CHARGE if",
-          "suff": "s",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "25 COST * 2 RHINO_CHARGE_NUMBER 1 - addin ^ *",
-          "fmt": "2dec"
+          "expr": "25 COST *"
         }
       ]
     ],
     "ins": [
       {
         "min": "1",
-        "type": "range-R",
-        "name": "RHINO_CHARGE_NUMBER",
-        "max": "3",
-        "value": "1",
-        "cont": "Charge number:"
+        "name": "PERCUSSION_COUNT",
+        "max": "64",
+        "value": "26",
+        "cont": "Number of Percussive beats:"
       },
       {
         "type": "checkbox",
-        "name": "IRONCLAD_CHARGE",
-        "cont": "{{#invoke:Tooltip|full|Ironclad Charge|Mods}}?"
+        "name": "PARTITIONED_MALLET",
+        "cont": "{{#invoke:Tooltip|full|Partitioned Mallet|Mods}}?"
       }
     ]
   },
-  "Lethal Progeny": {
+  "Neote": {
     "outs": [
       [
-        "Level at Rank 30:",
+        "{{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
         {
-          "name": "LETHAL_PROGENY_LEVEL",
-          "expr": "STR 30 %of floor"
+          "expr": "STR 400 %of",
+          "name": "BASE_NEOTE_DMG",
+          "suff": "/hit"
         }
       ],
       [
-        "Damage multiplier:",
+        "Total {{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
         {
-          "expr": "STR 2.5 %of",
-          "name": "LETHAL_PROGENY_DMG_MULT",
-          "fmt": "2dec"
+          "expr": "BASE_NEOTE_DMG 5 *"
         }
       ],
       [
-        "Health multiplier:",
+        "Range:",
         {
-          "expr": "STR 2 %of",
-          "fmt": "2dec"
+          "expr": "RNG 12 %of",
+          "suff": "m"
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Shield|Stats}} restoration:",
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "STR 25 %of",
-          "suff": "/s/Summon"
+          "expr": "25 COST *"
+        }
+      ]
+    ],
+    "ins": {}
+  },
+  "Rumblers": {
+    "outs": [
+      [
+        "Base health:",
+        {
+          "name": "RUMBLERS_BASE_HEALTH",
+          "expr": "STR 1200 %of"
+        }
+      ],
+      [
+        "Total health:",
+        {
+          "name": "RUMBLERS_TOTAL_HEALTH",
+          "expr": "RUMBLERS_BASE_HEALTH 1 STR + PERCENT_HEALTH_BONUS + PERCENT_SHIELD_BONUS + * 100 1 PERCENT_HEALTH_BONUS + * + FLAT_HEALTH_BONUS + 100 1 PERCENT_SHIELD_BONUS + * +"
+        }
+      ],
+      [
+        "Base armor:",
+        {
+          "name": "RUMBLERS_BASE_ARMOR",
+          "expr": "STR 500 %of"
+        }
+      ],
+      [
+        "Total armor:",
+        {
+          "name": "RUMBLERS_TOTAL_ARMOR",
+          "expr": "RUMBLERS_BASE_ARMOR 1 STR + PERCENT_ARMOR_BONUS + * FLAT_ARMOR_BONUS +"
+        }
+      ],
+      [
+        "Effective health:",
+        {
+          "expr": "RUMBLERS_TOTAL_ARMOR 300 + 300 / RUMBLERS_TOTAL_HEALTH *"
+        }
+      ],
+      [
+        "Melee {{#invoke:Tooltip|full|Impact|DamageTypes}} damage:",
+        {
+          "expr": "STR 2000 %of"
+        }
+      ],
+      [
+        "Rock throw {{#invoke:Tooltip|full|Impact|DamageTypes}} damage:",
+        {
+          "expr": "STR 500 %of"
+        }
+      ],
+      [
+        "Rock radius",
+        {
+          "expr": "RNG 6 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "Self destruct {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        {
+          "expr": "STR 1250 %of"
+        }
+      ],
+      [
+        "Self destruct radius",
+        {
+          "expr": "RNG 6 %of",
+          "suff": "m"
         }
       ],
       [
@@ -3210,49 +3823,85 @@
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Shield|Stats}} restoration range:",
+        "Speed multiplier:",
         {
-          "expr": "RNG 25 %of",
-          "suff": "m",
-          "fmt": "1dec"
+          "expr": "RNG 1 %of",
+          "suff": "x"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *"
+          "expr": "100 COST *"
         }
       ]
     ],
-    "ins": {}
+    "ins": [
+      {
+        "name": "PERCENT_HEALTH_BONUS",
+        "cont": "Percent health bonus:"
+      },
+      {
+        "name": "FLAT_HEALTH_BONUS",
+        "cont": "Flat health bonus:"
+      },
+      {
+        "name": "PERCENT_SHIELD_BONUS",
+        "cont": "Percent shield bonus:"
+      },
+      {
+        "name": "PERCENT_ARMOR_BONUS",
+        "cont": "Percent armor bonus:"
+      },
+      {
+        "name": "FLAT_ARMOR_BONUS",
+        "cont": "Flat armor bonus:"
+      }
+    ]
   },
-  "Amp": {
+  "Molecular Prime": {
     "outs": [
       [
-        "Minimum weapon damage bonus:",
+        "Slow or speed:",
         {
-          "expr": "STR 25 %of",
-          "suff": "%"
+          "expr": "STR 50 %of 75 min",
+          "suff": "%",
+          "fmt": "1dec"
         }
       ],
       [
-        "Maximum weapon damage bonus:",
+        "{{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
         {
-          "expr": "STR 125 %of",
-          "suff": "%"
+          "expr": "STR 800 %of"
         }
       ],
       [
-        "Duration:",
+        "Wave duration:",
+        {
+          "expr": "DUR 6 %of",
+          "name": "MOLECULAR_PRIME_WAVE_DUR",
+          "suff": "s"
+        }
+      ],
+      [
+        "Priming duration:",
         {
           "expr": "DUR 30 %of",
           "suff": "s"
         }
       ],
       [
-        "Radius:",
+        "Explosion radius:",
         {
-          "expr": "RNG 14 %of",
+          "expr": "RNG 10 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Maximum wave range:",
+        {
+          "expr": "MOLECULAR_PRIME_WAVE_DUR 5 * 5 +",
           "suff": "m",
           "fmt": "1dec"
         }
@@ -3343,43 +3992,47 @@
     ],
     "ins": {}
   },
-  "Mallet": {
+  "Antimatter Drop": {
     "outs": [
       [
-        "Damage multiplier:",
+        "Base explosion {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
         {
-          "expr": "STR 2.5 %of",
+          "name": "ANTIMATTER_DROP_BASE_DMG",
+          "expr": "STR 200 %of"
+        }
+      ],
+      [
+        "Absorb damage multiplier:",
+        {
+          "expr": "STR 8 %of",
+          "name": "ANTIMATTER_DROP_MULT",
           "fmt": "2dec"
         }
       ],
       [
-        "Stored damage decay:",
+        "Maximum explosion {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
         {
-          "expr": "PERCUSSION_COUNT mulin 100 *",
-          "suff": "%/beat",
-          "fmt": "2dec"
+          "expr": "ANTIMATTER_DROP_MULT 25000 * ANTIMATTER_DROP_BASE_DMG +"
         }
       ],
       [
-        "Duration:",
+        "Contact {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
         {
-          "expr": "DUR 20 %of",
-          "suff": "s"
+          "expr": "STR 10 %of"
         }
       ],
       [
-        "Base radius:",
+        "Explosion radius:",
         {
-          "expr": "80 100 PARTITIONED_MALLET if RNG 10 %of %of",
-          "fmt": "1dec",
-          "name": "MALLET_BASE_RADIUS",
-          "suff": "m"
+          "expr": "RNG 15 %of",
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Amp|Ability}} radius:",
+        "Antimatter Absorb radius:",
         {
-          "expr": "2 MALLET_BASE_RADIUS *",
+          "expr": "RNG 5 %of 0 ANTIMATTER_ABSORB if",
           "suff": "m",
           "fmt": "1dec"
         }
@@ -3387,22 +4040,15 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "50 COST *"
         }
       ]
     ],
     "ins": [
       {
-        "min": "1",
-        "name": "PERCUSSION_COUNT",
-        "max": "64",
-        "value": "26",
-        "cont": "Number of Percussive beats:"
-      },
-      {
         "type": "checkbox",
-        "name": "PARTITIONED_MALLET",
-        "cont": "{{#invoke:Tooltip|full|Partitioned Mallet|Mods}}?"
+        "name": "ANTIMATTER_ABSORB",
+        "cont": "{{#invoke:Tooltip|full|Antimatter Absorb|Mods}}?"
       }
     ]
   },
@@ -3483,61 +4129,71 @@
     ]
   },
   "AbilitySets": {},
-  "Molecular Prime": {
+  "Larva": {
     "outs": [
       [
-        "Slow or speed:",
+        "Mutation Stack chance:",
         {
-          "expr": "STR 50 %of 75 min",
-          "suff": "%",
-          "fmt": "1dec"
+          "expr": "0 STR 50 %of LARVA_INFUSED if 100 min",
+          "suff": "%"
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        "Duration:",
         {
-          "expr": "STR 800 %of"
-        }
-      ],
-      [
-        "Wave duration:",
-        {
-          "expr": "DUR 6 %of",
-          "name": "MOLECULAR_PRIME_WAVE_DUR",
+          "expr": "DUR 7 %of",
           "suff": "s"
         }
       ],
       [
-        "Priming duration:",
+        "Grab radius:",
         {
-          "expr": "DUR 30 %of",
-          "suff": "s"
-        }
-      ],
-      [
-        "Explosion radius:",
-        {
-          "expr": "RNG 10 %of",
+          "expr": "RNG 8 12 LARVA_INFUSED if %of",
           "suff": "m",
           "fmt": "1dec"
         }
       ],
       [
-        "Maximum wave range:",
+        "{{#invoke:Tooltip|full|Toxin|DamageTypes}} damage:",
         {
-          "expr": "MOLECULAR_PRIME_WAVE_DUR 5 * 5 +",
-          "suff": "m",
+          "expr": "STR 600 %of 0 LARVA_BURST if",
+          "name": "LARVA_BURST_BASE_DMG",
+          "suff": "/enemy"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Poison|DamageTypes}} damage:",
+        {
+          "expr": "0.5 LARVA_BURST_BASE_DMG *",
+          "suff": "/enemy"
+        }
+      ],
+      [
+        "Larva Burst radius:",
+        {
+          "expr": "RNG 8 %of 0 LARVA_BURST if",
           "fmt": "1dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "100 COST *"
+          "expr": "25 COST *"
         }
       ]
     ],
-    "ins": {}
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "LARVA_BURST",
+        "cont": "{{#invoke:Tooltip|full|Larva Burst|Mods}}?"
+      },
+      {
+        "type": "checkbox",
+        "name": "LARVA_INFUSED",
+        "cont": "[[Infused]]?"
+      }
+    ]
   },
   "Prismatic Gem": {
     "outs": [
@@ -3807,85 +4463,6 @@
       }
     ]
   },
-  "Nurinarim": {
-    "outs": [
-      [
-        "Ice aura {{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
-        {
-          "expr": "STR 500 %of",
-          "suff": "/s"
-        }
-      ],
-      [
-        "Icy Slash{{#invoke:Tooltip|full|Cold|DamageTypes}}  damage:",
-        {
-          "expr": "STR 20000 %of 2 1 ENEMY_IS_MARKED if *"
-        }
-      ],
-      [
-        "Frozen enemy explosion {{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
-        {
-          "expr": "STR 10000 %of 2 1 ENEMY_IS_MARKED if *"
-        }
-      ],
-      [
-        "Max duration:",
-        {
-          "expr": "DUR 15 %of",
-          "suff": "s"
-        }
-      ],
-      [
-        "Ice aura radius:",
-        {
-          "expr": "RNG 8 %of",
-          "suff": "m"
-        }
-      ],
-      [
-        "Frozen enemy explosion radius:",
-        {
-          "expr": "RNG 10 %of",
-          "suff": "m"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Shield|Stats}} stripped:",
-        {
-          "expr": "5 COLD_STATUS_COUNT *",
-          "suff": "%"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Armor|Stats}} stripped:",
-        {
-          "expr": "5 COLD_STATUS_COUNT *",
-          "suff": "%"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "25 COST *"
-        }
-      ]
-    ],
-    "ins": [
-      {
-        "min": "1",
-        "type": "range-R",
-        "name": "COLD_STATUS_COUNT",
-        "max": "10",
-        "default": "1",
-        "cont": "Number of {{#invoke:Tooltip|full|Cold|DamageTypes}} procs on enemy: "
-      },
-      {
-        "type": "checkbox",
-        "name": "ENEMY_IS_MARKED",
-        "cont": "Enemy is marked?"
-      }
-    ]
-  },
   "Vial Rush": {
     "outs": [
       [
@@ -4064,6 +4641,100 @@
         "max": "350",
         "default": "0",
         "cont": "{{#invoke:Tooltip|full|Accumulating Whipclaw|Mods}} bonus:"
+      }
+    ]
+  },
+  "Fire Blast": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Heat|DamageTypes}} damage:",
+        {
+          "expr": "STR 200 %of"
+        }
+      ],
+      [
+        "Minimum {{#invoke:Tooltip|full|Armor|Stats}} reduction:",
+        {
+          "expr": "STR 75 %of 75 min STR 50 %of 50 min FIRE_BLAST_INFUSED if",
+          "name": "FIRE_BLAST_MIN_STRIP",
+          "suff": "%"
+        }
+      ],
+      [
+        "Maximum {{#invoke:Tooltip|full|Armor|Stats}} reduction:",
+        {
+          "expr": "FIRE_BLAST_MIN_STRIP STR 100 %of 100 min FIRE_BLAST_INFUSED if",
+          "name": "FIRE_BLAST_MAX_STRIP",
+          "suff": "%"
+        }
+      ],
+      [
+        "Current {{#invoke:Tooltip|full|Armor|Stats}} reduction:",
+        {
+          "expr": "FIRE_BLAST_MIN_STRIP IMMOLATION_LEVEL 100 + FIRE_BLAST_MIN_STRIP %of FIRE_BLAST_INFUSED if",
+          "suff": "%"
+        }
+      ],
+      [
+        "Radius:",
+        {
+          "expr": "RNG 25 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Health|Stats}} restored:",
+        {
+          "expr": "50 IMMOLATION_LEVEL FIRE_BLAST_INFUSED if 100 + 25 %of 0 HEALING_FLAME if",
+          "suff": "/hit"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Overguard|DamageTypes}} cap:",
+        {
+          "expr": "STR 10000 %of 0 HEALING_FLAME FIRE_BLAST_INFUSED not and if"
+        }
+      ],
+      [
+        "[[Status Effect]] immunity duration:",
+        {
+          "expr": "DUR 4 %of 0 PURIFYING_FLAMES if",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "75 COST *",
+          "fmt": "2dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "min": "0",
+        "type": "range-R",
+        "name": "IMMOLATION_LEVEL",
+        "max": "100",
+        "value": "0",
+        "cont": "{{#invoke:Tooltip|full|Immolation|Ability}} level:"
+      },
+      {
+        "type": "checkbox",
+        "name": "FIRE_BLAST_INFUSED",
+        "cont": "[[Infused]]?"
+      },
+      {
+        "type": "checkbox",
+        "name": "HEALING_FLAME",
+        "cont": "{{#invoke:Tooltip|full|Healing Flame|Mods}}?"
+      },
+      {
+        "type": "checkbox",
+        "name": "PURIFYING_FLAMES",
+        "cont": "{{#invoke:Tooltip|full|Purifying Flames|Mods}}?"
       }
     ]
   },

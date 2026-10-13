@@ -149,6 +149,30 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}},
 		}
 	},
+	['Rumblers']={
+		ins={
+			{name='PERCENT_HEALTH_BONUS', cont='Percent health bonus:'},
+			{name='FLAT_HEALTH_BONUS', cont='Flat health bonus:'},
+			{name='PERCENT_SHIELD_BONUS', cont='Percent shield bonus:'},
+			{name='PERCENT_ARMOR_BONUS', cont='Percent armor bonus:'},
+			{name='FLAT_ARMOR_BONUS', cont='Flat armor bonus:'},
+		},
+		outs={
+			{'Base health:', {name='RUMBLERS_BASE_HEALTH', expr='STR 1200 %of'}},
+			{'Total health:', {name='RUMBLERS_TOTAL_HEALTH', expr='RUMBLERS_BASE_HEALTH 1 STR + PERCENT_HEALTH_BONUS + PERCENT_SHIELD_BONUS + * 100 1 PERCENT_HEALTH_BONUS + * + FLAT_HEALTH_BONUS + 100 1 PERCENT_SHIELD_BONUS + * +'}},
+			{'Base armor:', {name='RUMBLERS_BASE_ARMOR', expr='STR 500 %of'}},
+			{'Total armor:', {name='RUMBLERS_TOTAL_ARMOR', expr='RUMBLERS_BASE_ARMOR 1 STR + PERCENT_ARMOR_BONUS + * FLAT_ARMOR_BONUS +'}},
+			{'Effective health:', {expr='RUMBLERS_TOTAL_ARMOR 300 + 300 / RUMBLERS_TOTAL_HEALTH *'}},
+			{'Melee '..Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 2000 %of'}},
+			{'Rock throw '..Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
+			{'Rock radius', {expr='RNG 6 %of', suff='m'}},
+			{'Self destruct '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 1250 %of'}},
+			{'Self destruct radius', {expr='RNG 6 %of', suff='m'}},
+			{'Duration:', {expr='DUR 45 %of', suff='s'}},
+			{'Speed multiplier:', {expr='RNG 1 %of', suff='x'}},	-- min of 0.5 and max of 1.5
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}},
+		}
+	},
 	-- Banshee
 	['Sonic Boom']={
 		ins={
@@ -300,6 +324,80 @@ local Data = {
 			{'Range:', {expr='RNG 30 %of', suff='m'}},
 			{'Recrystalize radius:', {expr='RNG 16 %of 0 RECRYSTALIZE if', suff='m'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+		}
+	},
+	-- Ember
+	['Fireball']={
+		ins={
+			{name='FIREBALL_COMBO', cont='Combo meter:', type='range-R', min='1', max='12', value='1'},
+			{name='FIREBALL_FRENZY', cont=Tooltips.full('Fireball Frenzy', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Direct '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 400 FIREBALL_COMBO 1 + * %of'}},
+			{'Radial '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 150 FIREBALL_COMBO 1 + * %of'}},
+			{'Combo window:', {expr='DUR 1.5 %of', suff='s', fmt='2dec'}},
+			{'Damage radius:', {expr='RNG 3 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Heat', 'DamageTypes')..' damage bonus:', {expr='STR 100 %of 0 FIREBALL_FRENZY if', suff='%'}},
+			{Tooltips.full('Heat', 'DamageTypes')..' damage bonus duration:', {expr='DUR 40 %of 0 FIREBALL_FRENZY if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Heat', 'DamageTypes')..' damage bonus radius:', {expr='RNG 15 %of 0 FIREBALL_FRENZY if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Immolation']={
+		ins={
+			{name='IMMOLATION_LEVEL', cont='Immolation level:', type='range-R', min='0', max='100', value='0'},
+			{name='IMMOLATION_TIME', cont='Seconds spent at maximum Immolation:', min='0', value='0'},
+			{name='IMMOLATED_RADIANCE', cont=Tooltips.full('Immolated Radiance', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Minimum [[Damage Reduction]]:', {name='IMMOLATION_MIN_DR', expr='STR 40 %of 50 min', suff='%'}},
+			{'Maximum Damage Reduction:', {name='IMMOLATION_MAX_DR', expr='STR 85 %of 90 min', suff='%'}},
+			{'Current Damage Reduction:',
+				{name='IMMOLATION_CURR_DR', expr='IMMOLATION_LEVEL IMMOLATION_MAX_DR * 100 IMMOLATION_LEVEL - IMMOLATION_MIN_DR * + as%', suff='%'}
+			},
+			{'Shared Damage Reduction:', {expr='50 IMMOLATION_CURR_DR %of 0 IMMOLATED_RADIANCE if', suff='%'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='IMMOLATION_TIME 0.4 DRAIN * *', fmt='2dec'}}
+		}
+	},
+	['Fire Blast']={
+		ins={
+			{name='IMMOLATION_LEVEL', cont=Tooltips.full('Immolation', 'Ability')..' level:', type='range-R', min='0', max='100', value='0'},
+			{name='FIRE_BLAST_INFUSED', cont='[[Infused]]?', type='checkbox'},
+			{name='HEALING_FLAME', cont=Tooltips.full('Healing Flame', 'Mods')..'?', type='checkbox'},
+			{name='PURIFYING_FLAMES', cont=Tooltips.full('Purifying Flames', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 200 %of'}},
+			{'Minimum '..Tooltips.full('Armor', 'Stats')..' reduction:',
+				{name='FIRE_BLAST_MIN_STRIP', expr='STR 75 %of 75 min STR 50 %of 50 min FIRE_BLAST_INFUSED if', suff='%'}
+			},
+			{'Maximum '..Tooltips.full('Armor', 'Stats')..' reduction:',
+				{name='FIRE_BLAST_MAX_STRIP', expr='FIRE_BLAST_MIN_STRIP STR 100 %of 100 min FIRE_BLAST_INFUSED if', suff='%'}
+			},
+			{'Current '..Tooltips.full('Armor', 'Stats')..' reduction:',
+				{expr='FIRE_BLAST_MIN_STRIP IMMOLATION_LEVEL 100 + FIRE_BLAST_MIN_STRIP %of FIRE_BLAST_INFUSED if', suff='%'}
+			},
+			{'Radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Health', 'Stats')..' restored:', {expr='50 IMMOLATION_LEVEL FIRE_BLAST_INFUSED if 100 + 25 %of 0 HEALING_FLAME if', suff='/hit'}},
+			{Tooltips.full('Overguard', 'DamageTypes')..' cap:', {expr='STR 10000 %of 0 HEALING_FLAME FIRE_BLAST_INFUSED not and if'}},
+			{'[[Status Effect]] immunity duration:', {expr='DUR 4 %of 0 PURIFYING_FLAMES if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Inferno']={
+		ins={
+			{name='IMMOLATION_LEVEL', cont=Tooltips.full('Immolation', 'Ability')..' level:', type='range-R', min='0', max='100', value='0'},
+			{name='INFERNO_TARGETS', cont='Number of targets:', min='0', value='1'}
+		},
+		outs={
+			{Tooltips.full('Impact', 'DamageTypes')..' and '..Tooltips.full('Heat', 'DamageTypes')..' contact damage:',
+				{expr='STR 2500 %of'}
+			},
+			{Tooltips.full('Heat', 'DamageTypes')..' ring damage:', {expr='IMMOLATION_LEVEL 100 + STR 350 %of %of'}},
+			{'Duration:', {expr='DUR 15 %of', suff='s', fmt='2dec'}},
+			{'Targeting radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='10 COST * INFERNO_TARGETS 10 min *', fmt='2dec'}}
 		}
 	},
 	-- Khora
@@ -498,6 +596,59 @@ local Data = {
 			{Tooltips.full('Shield', 'Stats')..' stripped:', {expr='5 COLD_STATUS_COUNT *', suff='%'}},
 			{Tooltips.full('Armor', 'Stats')..' stripped:', {expr='5 COLD_STATUS_COUNT *', suff='%'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}},
+		}
+	},
+	-- Nekros
+	['Soul Punch']={
+		ins={
+			{name='SOUL_PUNCH_HITS', cont='Number of enemies hit by projectile:', min='0', value='0'},
+			{name='SOUL_SURVIVOR', cont=Tooltips.full('Soul Survivor', 'Mods')..'?', type='checkbox'},
+		},
+		outs={
+			{'Cast '..Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
+			{'Projectile direct '..Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='50 2 SOUL_PUNCH_HITS ^ *'}},
+			{'Targeting range:', {expr='RNG 50 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Health', 'Stats')..' restored to revived target:', {expr='STR 30 %of 100 min 0 SOUL_SURVIVOR if', suff='%'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+		}
+	},
+	['Terrify']={
+		ins={
+			{name='CREEPING_TERRIFY', cont=Tooltips.full('Creeping Terrify', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Affected enemies:', {expr='STR 20 %of floor'}},
+			{Tooltips.full('Armor', 'Stats')..' reduction:', {expr='STR 60 %of 100 min', suff='%'}},
+			{'Duration:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Slow', 'DamageTypes')..':', {expr='STR 60 %of 80 min 0 CREEPING_TERRIFY if', suff='%'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Desecrate']={
+		ins={
+			{name='DESPOIL', cont=Tooltips.full('Despoil', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{'Casting '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='0 10 COST * DESPOIL if', fmt='2dec'}},
+			{'Desecration '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='0 10 COST * DESPOIL if', fmt='2dec'}},
+			{'Desecration '..Tooltips.full('Health', 'Stats')..' cost:', {expr='10 COST * 0 DESPOIL if', fmt='2dec'}}
+		}
+	},
+	['Shadows of the Dead']={
+		ins={
+			{name='SHIELD_OF_SHADOWS', cont=Tooltips.full('Shield of Shadows', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Damage bonus:', {expr='STR 150 %of', suff='%'}},
+			{Tooltips.full('Shield', 'Stats')..' bonus:', {expr='STR 100 %of', suff='%'}},
+			{Tooltips.full('Health', 'Stats')..' bonus:', {expr='STR 100 %of', suff='%'}},
+			{Tooltips.full('Health', 'Stats')..' decay:', {expr='3 DUR as% /', suff='%/s', fmt='2dec'}},
+			{'[[Damage Redirection]]:', {name='SHADOWS_OF_THE_DEAD_DR', expr='STR 6 %of 0 SHIELD_OF_SHADOWS if', suff='%/linked Shadow'}},
+			{'Damage Redirection at 7 links:', {expr='SHADOWS_OF_THE_DEAD_DR 7 * 90 min', suff='%'}},
+			{'Linking radius:', {expr='RNG 50 %of 0 SHIELD_OF_SHADOWS if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}},
 		}
 	},
 	-- Nidus
@@ -859,14 +1010,16 @@ local Data = {
 	-- Sevagoth
 	['Reap']={
 		ins={
-			{name='DAMAGE_VULNERABILITY', cont=Tooltips.full('Reap', 'Ability')..' debuff?', type='checkbox'},
+			{name='REAP_DMG_VULN', cont=Tooltips.full('Reap', 'Ability')..'\'s debuff?', type='checkbox'},
+			{name='SOW_AND_REAP', cont='Sow&Reap?', type='checkbox'},
 			{name='HOLD_CAST', cont='Hold Cast?', type='checkbox'},
 			{name='AIMING', cont='Aiming?', type='checkbox'}
 		},
 		outs={
-			{'[[Damage Vulnerability]]:', {expr='STR 50 %of', suff='%', fmt='2dec'}},
+			{'[[Damage Vulnerability]]:', {name='DMG_VULN', expr='STR 50 %of', suff='%', fmt='1dec'}},
 			{'Debuff duration:', {expr='DUR 10 %of', suff='s', fmt='1dec'}},
-			{Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='STR 250 %of'}},
+			{Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='STR 250 %of DMG_VULN 100 / 1 + 1 REAP_DMG_VULN if *'}},
+			{Tooltips.full('True', 'DamageTypes')..' / '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='25 DMG_VULN 100 / 1 + 1 REAP_DMG_VULN if * 0 SOW_AND_REAP if', suff='% of current health'}},
 			{'Shadow flight duration:', {expr='DUR 6 %of', suff='s', fmt='1dec'}},
 			{'Shadow debuff radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
 			{'Shadow flight speed:', {expr='10 2 1 HOLD_CAST if * 1.5 1 AIMING if *', suff='m/s'}},
@@ -875,12 +1028,16 @@ local Data = {
 	},
 	['Sow']={
 		ins={
-			{name='DAMAGE_VULNERABILITY', cont=Tooltips.full('Reap', 'Ability')..' debuff?', type='checkbox'},
+			{name='REAP_DMG_VULN', cont=Tooltips.full('Reap', 'Ability')..'\'s debuff?', type='checkbox'},
+			{name='SOW_AND_REAP', cont='Sow&Reap?', type='checkbox'},
+			{name='DARK_PROPAGATION', cont=Tooltips.full('Dark Propagation', 'Mods')..'?', type='checkbox'}
 		},
 		outs={
-			{Tooltips.full('True', 'DamageTypes')..' damage:', {expr='STR 250 %of', suff='/s'}},
+			{Tooltips.full('True', 'DamageTypes')..' damage:', {expr='STR 250 %of STR 50 %of 100 / 1 + 1 REAP_DMG_VULN if *', suff='/s'}},
+			{Tooltips.full('True', 'DamageTypes')..' / '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='25 STR 50 %of 100 / 1 + 1 REAP_DMG_VULN if * 0 SOW_AND_REAP if', suff='% of current health'}},
 			{'Duration:', {expr='DUR 10 %of', suff='s'}},
-			{'Radius:', {expr='RNG 16 %of', suff='m'}},
+			{'Radius:', {expr='RNG 16 %of', suff='m', fmt='1dec'}},
+			{'Spread radius', {expr='RNG 15 %of 0 DARK_PROPAGATION if', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
 		}
 	},
@@ -896,7 +1053,7 @@ local Data = {
 			{'Growth Rate:', {expr='DUR 2 %of RNG 1 %of *', suff='m/s', fmt='1dec'}},
 			{'Time to reach Max Radius', {expr='6 1 DUR %of /', suff='s', fmt='1dec'}},
 			{'Life Steal:', {expr='STR 5 %of', suff='%'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}},
 			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='0.75 DRAIN * ENEMY_COUNT *', suff='/s', fmt='2dec'}}
 		}
 	},
@@ -905,23 +1062,24 @@ local Data = {
 		ins={},
 		outs={
 			{'Grab Duration:', {expr='DUR 8 %of', suff='s'}},
-			{'Grab Range:', {expr='RNG 20 %of', suff='m'}},
+			{'Grab Radius:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
 		}
 	},
 	['Consume']={
 		ins={},
 		outs={
-			{'Heal Value:', {expr='STR 0.25 %of STR 2500 %of', suff='HP'}},
-			{'Targeting Range:', {expr='RNG 14', suff='m'}},
+			{Tooltips.full('Health', 'Stats').. ' restored:', {expr='STR 0.25 %of STR 2500 %of *'}},
+			{'Targeting distance:', {expr='RNG 14 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
 		}
 	},
 	['Death\'s Harvest']={
 		ins={},
 		outs={
-			{'[[Damage Vulnerability]]:', {expr='STR 50 %of', suff='%'}},
+			{'[[Damage Vulnerability]]:', {expr='STR 50 %of', suff='%', fmt='2dec'}},
 			{'Debuff duration:', {expr='DUR 10 %of', suff='s'}},
+			{'Debuff radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
 		}
 	},
