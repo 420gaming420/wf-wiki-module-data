@@ -188,7 +188,7 @@ function p.ability_set(...)
 			for __, ability in ipairs(data) do table.insert(ability_names, ability); end
 		else 
 			return '<strong class="error scribunto-error">[[Module:Maximization|Maximization]] error: warframe abilities mapping for "'
-			..tostring(name)..'" was not found in [[Module:Maximization#L-16|AbilitySets]].</strong>[[Category:Pages with script errors]][[Category:Pages with maximization errors]]';
+			..tostring(name)..'" was not found in [[Module:Maximization/data#L-38|AbilitySets]].</strong>[[Category:Pages with script errors]][[Category:Pages with maximization errors]]';
 		end
 	end
 	return p.ability(ability_names);

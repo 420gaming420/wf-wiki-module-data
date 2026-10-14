@@ -1,12 +1,12 @@
 {
   "page": "Module:Missions/infobox",
-  "wiki_timestamp": "2026-09-21T08:11:47Z",
-  "extracted_at": "2026-09-22T02:14:09.463784+00:00",
+  "wiki_timestamp": "2026-10-14T04:50:51Z",
+  "extracted_at": "2026-10-14T07:17:06.699849+00:00",
   "lua_files": [
     "Module-Missions-infobox_0.lua"
   ],
   "lua_block_count": 1,
-  "file_size": 6124,
+  "file_size": 6126,
   "comment_count": 16,
   "status": "success"
 }

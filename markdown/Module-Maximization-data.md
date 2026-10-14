@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-10-12T23:23:34Z"
+wiki_timestamp: "2026-10-14T04:45:59Z"
 ---
 
 ## Contents
@@ -157,7 +157,12 @@ local GenericIns = {
 };
 
 -- this contains mappings for what we couldn't pull from preexisting modules
-local AbilitySets = {};
+local AbilitySets = {
+	Helminth={
+		'Empower', 'Infested Mobility', "Master's Summons", 'Rebuild Shields', 'Perspicacity', 'Energized Munitions', 'Marked For Death',
+		'Expedite Suffering', 'Parasitic Armor', 'Hideous Resistance', 'Voracious Metastasis', 'Sickening Pulse', 'Golden Instinct',
+	},
+};
 
 local Data = {
 	AbilitySets = AbilitySets,
@@ -273,11 +278,11 @@ local Data = {
 	},
 	['Rumblers']={
 		ins={
-			{name='PERCENT_HEALTH_BONUS', cont='Percent health bonus:'},
-			{name='FLAT_HEALTH_BONUS', cont='Flat health bonus:'},
-			{name='PERCENT_SHIELD_BONUS', cont='Percent shield bonus:'},
-			{name='PERCENT_ARMOR_BONUS', cont='Percent armor bonus:'},
-			{name='FLAT_ARMOR_BONUS', cont='Flat armor bonus:'},
+			{name='PERCENT_HEALTH_BONUS', cont='Percent health bonus:', default='0'},
+			{name='FLAT_HEALTH_BONUS', cont='Flat health bonus:', default='0'},
+			{name='PERCENT_SHIELD_BONUS', cont='Percent shield bonus:', default='0'},
+			{name='PERCENT_ARMOR_BONUS', cont='Percent armor bonus:', default='0'},
+			{name='FLAT_ARMOR_BONUS', cont='Flat armor bonus:', default='0'},
 		},
 		outs={
 			{'Base health:', {name='RUMBLERS_BASE_HEALTH', expr='STR 1200 %of'}},
@@ -291,7 +296,7 @@ local Data = {
 			{'Self destruct '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 1250 %of'}},
 			{'Self destruct radius', {expr='RNG 6 %of', suff='m'}},
 			{'Duration:', {expr='DUR 45 %of', suff='s'}},
-			{'Speed multiplier:', {expr='RNG 1 %of', suff='x'}},	-- min of 0.5 and max of 1.5
+			{'Speed multiplier:', {expr='RNG 1 %of 0.5 max 1.5 min', suff='x'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}},
 		}
 	},
@@ -312,7 +317,6 @@ local Data = {
 		}
 	},
 	['Sonar']={
-		ins={},
 		outs={
 			{'Damage multiplier:', {expr='STR 5 %of', fmt='2dec'}},
 			{'Duration:', {expr='DUR 30 %of', suff='s'}},
@@ -364,7 +368,6 @@ local Data = {
 		}
 	},
 	['Sentient Wrath']={
-		ins={},
 		outs={
 			{Tooltips.full('Tau', 'DamageTypes')..' damage:', {expr='STR 2000 %of'}},
 			{'[[Damage Vulnerability]]:', {expr='STR 35 %of', suff='%'}},
@@ -373,7 +376,6 @@ local Data = {
 		}
 	},
 	['Lethal Progeny']={
-		ins={},
 		outs={
 			{'Level at Rank 30:', {name='LETHAL_PROGENY_LEVEL', expr='STR 30 %of floor'}},
 			{'Damage multiplier:', {name='LETHAL_PROGENY_DMG_MULT', expr='STR 2.5 %of', fmt='2dec'}},
@@ -385,7 +387,6 @@ local Data = {
 		},
 	},
 	['Fusion Strike']={
-		ins={},
 		outs={
 			{'Laser '..Tooltips.full('Tau', 'DamageTypes')..' damage:', {expr='STR 15000 %of', suff='/s'}},
 			{'Enemy detonation '..Tooltips.full('Tau', 'DamageTypes')..' damage:', {expr='STR 5000 %of'}},
@@ -413,7 +414,6 @@ local Data = {
 		}
 	},
 	['Preserving Shell']={
-		ins={},
 		outs={
 			{'Initial damage reduction:', {expr='STR 40 %of 90 min', suff='%'}},
 			{'Damage reduction per kill:', {expr='STR 3 %of', suff='%/kill'}},
@@ -544,7 +544,6 @@ local Data = {
 		}
 	},
 	['Ensnare']={
-		ins={},
 		outs={
 			{'Duration:', {expr='DUR 15 %of', suff='s'}},
 			{'Propagation delay:', {expr='0.5 DUR as% /', suff='s', fmt='2dec'}},
@@ -554,7 +553,6 @@ local Data = {
 		},
 	},
 	['Venari']={
-		ins={},
 		outs={
 			{'Passive [[Movement Speed]] bonus:', {expr='STR 15 %of', suff='%'}},
 			{'Snare '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 350 %of'}},
@@ -564,7 +562,6 @@ local Data = {
 		}
 	},
 	['Strangledome']={
-		ins={},
 		outs={
 			{Tooltips.full('Impact', 'DamageTypes')..', '..Tooltips.full('Puncture', 'DamageTypes')..' and '..Tooltips.full('Slash', 'DamageTypes')..' damage:',
 				{expr='STR 250 %of'}
@@ -589,7 +586,6 @@ local Data = {
 		}
 	},
 	['Vial Rush']={
-		ins={},
 		outs={
 			{Tooltips.full('Cold', 'DamageTypes')..' damage:', {expr='STR 250 %of'}},
 			{'Imbued elemental damage:', {expr='STR 250 %of'}},
@@ -639,7 +635,6 @@ local Data = {
 		}
 	},
 	['Stasis']={
-		ins={},
 		outs={
 			{'Duration:', {expr='DUR 15 %of', suff='s'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
@@ -674,7 +669,6 @@ local Data = {
 	},
 	-- Narin
 	['Neote']={
-		ins={},
 		outs={
 			{Tooltips.full('Cold', 'DamageTypes')..' damage:' , {name='BASE_NEOTE_DMG', expr='STR 400 %of', suff='/hit'}},
 			{'Total '..Tooltips.full('Cold', 'DamageTypes')..' damage:', {expr='BASE_NEOTE_DMG 5 *'}},
@@ -693,7 +687,6 @@ local Data = {
 		}
 	},
 	['Hakchum']={
-		ins={},
 		outs={
 			{Tooltips.full('Cold', 'DamageTypes')..' Landing damage:' , {expr='STR 1000 %of'}},
 			{Tooltips.full('Cold', 'DamageTypes')..' DoT:' , {expr='STR 100 %of', suff='/s'}},
@@ -878,7 +871,6 @@ local Data = {
 		}
 	},
 	['Molecular Prime']={
-		ins={},
 		outs={
 			{'Slow or speed:', {expr='STR 50 %of 75 min', suff='%', fmt='1dec'}},
 			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 800 %of'}},
@@ -984,7 +976,6 @@ local Data = {
 		}
 	},
 	['Metronome']={
-		ins={},
 		outs={
 			{Tooltips.full('Armor', 'Stats')..' bonus:', {expr='STR 35 %of', suff='%'}},
 			{'Vivace [[Movement Speed]] bonus:', {expr='STR 30 %of', suff='%'}},
@@ -997,13 +988,49 @@ local Data = {
 		}
 	},
 	['Amp']={
-		ins={},
 		outs={
 			{'Minimum weapon damage bonus:', {expr='STR 25 %of', suff='%'}},
 			{'Maximum weapon damage bonus:', {expr='STR 125 %of', suff='%'}},
 			{'Duration:', {expr='DUR 30 %of', suff='s'}},
 			{'Radius:', {expr='RNG 14 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+		}
+	},
+	-- Orion
+	['Gravitic Slash']={
+		ins={
+			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive|Switch]] Passive?', type='checkbox'},
+		},
+		outs={
+			{Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 1500 %of'}},
+			{Tooltips.full('Armor', 'Stats')..'/'..Tooltips.full('Shield', 'Stats')..' reduction:', {expr='STR 50 %of', suff='%'}},
+			{'Status chance:', {expr='STR 100 %of', suff='%'}},
+			{'Radius', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 15 *'}}
+		}
+	},
+	['Astral Shell']={
+		ins={
+			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive|Switch]] Passive?', type='checkbox'},
+		},
+		outs={
+			{'Decoy\'s '..Tooltips.full('Blast', 'DamageTypes')..':', {expr='STR 200 %of'}},
+			{'Buff Duration:', {expr='DUR 35 %of', suff='s'}},
+			{'Decoy Duration:', {expr='DUR 5 %of', suff='s'}},
+			{'Explosion radius:', {expr='RNG 5 %of'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 50 *'}}
+		}
+	},
+	['Event Horizon']={
+		ins={
+			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive|Switch]] Passive?', type='checkbox'},
+		},
+		outs={
+			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 750 %of'}},
+			{'Duration:', {expr='DUR 18 %of', suff='s', fmt='1dec'}},
+			{'Bonus duration:', {expr='DUR 5 %of', suff='s', fmt='1dec'}},
+			{'Radius:', {expr='RNG 8 %of', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 50 *'}}
 		}
 	},
 	-- Protea
@@ -1121,7 +1148,6 @@ local Data = {
 		}
 	},
 	['Rhino Stomp']={
-		ins={},
 		outs={
 			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 800 %of'}},
 			{'Duration:', {expr='DUR 8 %of', suff='s', fmt='2dec'}},
@@ -1181,7 +1207,6 @@ local Data = {
 	},
 	-- Sevagoth's Shadow
 	['Embrace']={
-		ins={},
 		outs={
 			{'Grab Duration:', {expr='DUR 8 %of', suff='s'}},
 			{'Grab Radius:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
@@ -1189,7 +1214,6 @@ local Data = {
 		}
 	},
 	['Consume']={
-		ins={},
 		outs={
 			{Tooltips.full('Health', 'Stats').. ' restored:', {expr='STR 0.25 %of STR 2500 %of *'}},
 			{'Targeting distance:', {expr='RNG 14 %of', suff='m', fmt='1dec'}},
@@ -1197,12 +1221,50 @@ local Data = {
 		}
 	},
 	['Death\'s Harvest']={
-		ins={},
 		outs={
 			{'[[Damage Vulnerability]]:', {expr='STR 50 %of', suff='%', fmt='2dec'}},
 			{'Debuff duration:', {expr='DUR 10 %of', suff='s'}},
 			{'Debuff radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
+		}
+	},
+	-- Sirius
+	['Coronal Ejection']={
+		ins={
+			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive|Switch]] Passive?', type='checkbox'},
+		},
+		outs={
+			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 1500 %of'}},
+			{'Status chance:', {expr='STR 100 %of', suff='%'}},
+			{'Radius', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 15 *'}}
+		}
+	},
+	['Jade Stars']={
+		ins={
+			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive|Switch]] Passive?', type='checkbox'},
+		},
+		outs={
+			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
+			{'Status chance:', {expr='STR 100 %of', suff='%'}},
+			{'Buff duration', {expr='DUR 35 %of', suff='s'}},
+			{'Explosion radius', {expr='RNG 4 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 50 *'}}
+		}
+	},
+	['Light\'s Sanctuary']={
+		ins={
+			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive|Switch]] Passive?', type='checkbox'},
+		},
+		outs={
+			{'Initial '..Tooltips.full('Health', 'Stats')..' restored:', {expr='STR 25 %of', suff='/s'}},
+			{'Final '..Tooltips.full('Health', 'Stats')..' restored:', {expr='STR 55 %of', suff='/s'}},
+			{'Initial '..[[Damage Reduction]]..':', {expr='STR 15 %of', suff='%'}},
+			{'Final '..[[Damage Reduction]]..':', {expr='STR 45 %of 75 min', suff='%'}},
+			{'Duration:', {expr='DUR 30 %of'}},
+			{'Initial radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
+			{'Final radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 50 *'}}
 		}
 	},
 	-- Trinity
@@ -1304,7 +1366,6 @@ local Data = {
 		}
 	},
 	['Demonium']={
-		ins={},
 		outs={
 			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 250 %of'}},
 			{'[[Damage Vulnerability]]:', {expr='STR 50 %of', suff='%'}},
@@ -1316,7 +1377,6 @@ local Data = {
 		}
 	},
 	['Brimstone']={
-		ins={},
 		outs={
 			{'Initial '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {name='BRIMSTONE_BASE_DMG', expr='STR 750 %of', suff='/tick'}},
 			{'Initial '..Tooltips.full('Ignite', 'DamageTypes')..' damage:', {expr='0.5 BRIMSTONE_BASE_DMG *'}},
@@ -1325,6 +1385,144 @@ local Data = {
 			{'Duration:', {expr='DUR 10 %of', suff='s'}},
 			{'Radius:', {expr='RNG 15 %of', suff='m'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
+		}
+	},
+	-- Zephyr
+	['Tail Wind']={
+		ins={
+			{name='ZEPHYR_AIRBORNE', cont='Airborne?', type='checkbox'},
+			{name='TAIL_WIND_HEIGHT', cont='Dive bomb height (meters):', min='0', value='0'},
+			{name='TARGET_FIXATION_BONUS', cont=Tooltips.full('Target Fixation', 'Mods')..' damage bonus:', min='0', value='0', step='100'},
+		},
+		outs={
+			{'Dash '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='TARGET_FIXATION_BONUS 100 + STR 750 %of %of'}},
+			{'Dive bomb '..Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='TARGET_FIXATION_BONUS 100 + STR 4500 %of 0.2 TAIL_WIND_HEIGHT * 1 max * %of'}},
+			{'Dash speed:', {expr='DUR 30 %of', suff='m/s', fmt='1dec'}},
+			{'Initial dive bomb speed:', {expr='DUR 5 %of', suff='m/s', fmt='1dec'}},
+			{'Dash contact radius:', {expr='RNG 2 %of', suff='m', fmt='1dec'}},
+			{'Dive bomb radius:', {expr='RNG 7 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='12.5 25 ZEPHYR_AIRBORNE if COST *', fmt='2dec'}},
+			{'Hover '..Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 COST *', fmt='2dec'}}
+		}
+	},
+	['Airburst']={
+		ins={
+			{name='ZEPHYR_AIRBORNE', cont='Airborne?', type='checkbox'},
+			{name='AIRBURST_HITS', cont='Number of hits:', min='0', value='0'},
+			{name='AIRBURST_ROUNDS', cont=Tooltips.full('Airburst Rounds', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Impact', 'DamageTypes')..', '..Tooltips.full('Puncture', 'DamageTypes')..' and '..Tooltips.full('Slash', 'DamageTypes')..' damage:',
+				{expr='100 35 AIRBURST_HITS * + STR 500 %of %of'}
+			},
+			{'Radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
+			{'Secondary weapon damage bonus:', {expr='AIRBURST_HITS STR 40 %of * 500 min 0 AIRBURST_ROUNDS if', suff='%'}},
+			{'Secondary weapon damage bonus duration:', {expr='DUR 14 %of 0 AIRBURST_ROUNDS if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 50 ZEPHYR_AIRBORNE if COST *', fmt='2dec'}}
+		}
+	},
+	['Turbulence']={
+		ins={
+			{name='JET_STREAM', cont=Tooltips.full('Jet Stream', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Duration:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 6 %of', suff='m', fmt='1dec'}},
+			{'[[Movement Speed]] bonus:', {expr='STR 40 %of 0 JET_STREAM if', suff='%'}},
+			{'[[Projectile Speed]] bonus:', {expr='STR 100 %of 0 JET_STREAM if', suff='%'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Tornado']={
+		outs={
+			{'Damage:', {expr='STR 160 %of'}},
+			{'Duration:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
+			{'Spawn radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		}
+	},
+	-- Helminth
+	['Empower']={
+		outs={
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Infested Mobility']={
+		outs={
+			{'[[Sprint Speed]] bonus:', {expr='STR 60 %of', suff='%'}},
+			{'[[Parkour Velocity]] bonus:', {expr='STR 30 %of', suff='%'}},
+			{'Duration:', {expr='DUR 8 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	["Master's Summons"]={
+		outs={
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Rebuild Shields']={
+		outs={
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Perspicacity']={
+		outs={
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Energized Munitions']={
+		outs={
+			{'Duration:', {expr='DUR 5 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Marked For Death']={
+		outs={
+			{'Damage percentage:', {expr='STR 75 %of 150 min', suff='%'}},
+			{'Cast range:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
+			{'Explosion range:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Expedite Suffering']={
+		outs={
+			{'Damage multiplier:', {expr='STR 1 %of', fmt='2dec'}},
+			{'Radius:', {expr='RNG 12 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Parasitic Armor']={
+		outs={
+			{Tooltips.full('Shield', 'Stats')..' to '..Tooltips.full('Armor', 'Stats')..' conversion:', {expr='STR 100 %of', suff='%'}},
+			{'Duration:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Hideous Resistance']={
+		outs={
+			{'[[Status Effect]] immunity charges:', {expr='STR 10 %of', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Voracious Metastasis']={
+		outs={
+			{Tooltips.full('Health', 'Stats')..' restoration:', {expr='STR 500 %of'}},
+			{Tooltips.full('Energy', 'Stats')..' restoration to allies:', {expr='VORACIOUS_METASTASIS_COST', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {name='VORACIOUS_METASTASIS_COST', expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Sickening Pulse']={
+		outs={
+			{'Pulse duration:', {name='SICKENING_PULSE_DUR', expr='DUR 2 %of', suff='s', fmt='2dec'}},
+			{'Initial pulse radius:', {name='SICKENING_PULSE_RNG', expr='RNG 8 %of', suff='m', fmt='1dec'}},
+			{'Total pulse radius:', {expr='SICKENING_PULSE_RNG 20 SICKENING_PULSE_DUR * +', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Golden Instinct']={
+		outs={
+			{'Radius:', {expr='RNG 200 %of', suff='m', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
 };

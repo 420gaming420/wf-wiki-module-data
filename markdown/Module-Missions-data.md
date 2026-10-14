@@ -1,7 +1,7 @@
 ---
 title: "Module:Missions/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Missions/data"
-wiki_timestamp: "2026-10-08T01:54:55Z"
+wiki_timestamp: "2026-10-13T22:41:02Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Some junctions have moved around. Reflect on node progression changes. E.g. Plut
 
 Database of [Star Chart](/w/Star_Chart "Star Chart") mission nodes.
 
-:   *Last updated: Thu, 08 Oct 2026 01:54:55 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Missions/data?diff=0))*
+:   *Last updated: Tue, 13 Oct 2026 22:41:02 +0000 (UTC) by [User:Sparrows413](/w/User:Sparrows413 "User:Sparrows413") ([change log](https://wiki.warframe.com/w/Module:Missions/data?diff=0))*
 
 ## Contents
 
@@ -1131,7 +1131,7 @@ local MissionData = {
 		{ Name = "Terrorem", Link = "Terrorem", Planet = "Deimos", Type = "Survival", Quotes = "Survival/Quotes", Tileset = "Orokin Derelict", Enemy = "Infested", MinLevel = 25, MaxLevel = 35, DropTableAlias = "DerelictSurvival", MasteryExp = 0, InternalName = "SolNode711", Introduced = "29", NextNodes = { "Exequias" }, PreviousNodes = { "Magnacidium" }, IsTracked = true },
 		{ Name = "Exequias", Link = "Exequias", Planet = "Deimos", Type = "Assassination", Quotes = "Zealoid Prelate/Quotes", Tileset = "Orokin Derelict", Enemy = "Infested", MinLevel = 30, MaxLevel = 35, Boss = "Zealoid Prelate", Pic = "ZealoidPrelate.png", Drops = {"Pathocyst"}, MasteryExp = 0, InternalName = "SolNode713", Introduced = "29", PreviousNodes = { "Terrorem" }, IsTracked = true },
 		{ Name = "Sanctum Anatomica", Link = "Sanctum Anatomica", Image = "SanctumAnatomicaSplashArt.jpg", Planet = "Deimos", Type = "Hub", Quotes = "Sanctum Anatomica/Quotes", Tileset = "Albrecht's Laboratories", Enemy = "Tenno", MinLevel = 0, MaxLevel = 0, MasteryExp = 0, InternalName = "EntratiLabHub", Introduced = "35", NextNodes = { "Effervo", "Nex", "Persto", "Cambire", "Munio", "Testudo", "Armatus" }, PreviousNodes = { "Necralisk" }, CreditReward = 0 , IsTracked = false },
-		{ Name = "Effervo", Link = "Effervo", Planet = "Deimos", Type = "Assassination", Quotes = "The Fragmented/Quotes", Tileset = "Albrecht's Laboratories", Enemy = "The Murmur", MinLevel = 55, MaxLevel = 60, DropTableAlias = "The Fragmented", Boss = "The Fragmented", Pic = "TheFragmentedSuzerain.png", Drops = {}, MasteryExp = 0, InternalName = "SolNode715", Introduced = "35", PreviousNodes = { "Sanctum Anatomica" }, IsTracked = false, Requirements = "Must have [[Whispers in the Walls]] completed to access" },
+		{ Name = "Effervo", Link = "Effervo", Planet = "Deimos", Type = "Assassination", Quotes = "Effervo/Quotes", Tileset = "Albrecht's Laboratories", Enemy = "The Murmur", MinLevel = 55, MaxLevel = 60, DropTableAlias = "The Fragmented", Boss = "The Fragmented", Pic = "TheFragmentedSuzerain.png", Drops = {}, MasteryExp = 0, InternalName = "SolNode715", Introduced = "35", PreviousNodes = { "Sanctum Anatomica" }, IsTracked = false, Requirements = "Must have [[Whispers in the Walls]] completed to access" },
 		{ Name = "Nex", Link = "Nex", Planet = "Deimos", Type = "Exterminate", Quotes = "Exterminate/Quotes", Tileset = "Albrecht's Laboratories", Enemy = "The Murmur", MinLevel = 55, MaxLevel = 60, DropTableAlias = "EntratiExterminate", MasteryExp = 0, InternalName = "SolNode716", Introduced = "35", PreviousNodes = { "Sanctum Anatomica" }, IsTracked = false, Requirements = "Must have [[Whispers in the Walls]] completed to access" },
 		{ Name = "Persto", Link = "Persto", Planet = "Deimos", Type = "Survival", Quotes = "Survival/Quotes", Tileset = "Albrecht's Laboratories", Enemy = "The Murmur", MinLevel = 55, MaxLevel = 60, DropTableAlias = "EntratiSurvival", MasteryExp = 0, InternalName = "SolNode717", Introduced = "35", PreviousNodes = { "Sanctum Anatomica" }, IsTracked = false, Requirements = "Must have [[Whispers in the Walls]] completed to access" },
 		{ Name = "Cambire", Link = "Cambire", Planet = "Deimos", Type = "Alchemy", Quotes = "Alchemy/Quotes", Tileset = "Albrecht's Laboratories", Enemy = "The Murmur", MinLevel = 55, MaxLevel = 60, DropTableAlias = "EntratiAlchemy", MasteryExp = 0, InternalName = "SolNode718", Introduced = "35", PreviousNodes = { "Sanctum Anatomica" }, IsTracked = false, Requirements = "Must have [[Whispers in the Walls]] completed to access" },

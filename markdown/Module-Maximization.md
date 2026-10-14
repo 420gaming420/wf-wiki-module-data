@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization"
-wiki_timestamp: "2026-10-11T21:59:01Z"
+wiki_timestamp: "2026-10-13T15:55:38Z"
 ---
 
 **Maximization** creates a stat maximization calculator for Warframe abilities.
@@ -276,7 +276,7 @@ function p.ability_set(...)
 			for __, ability in ipairs(data) do table.insert(ability_names, ability); end
 		else 
 			return '[[Module:Maximization|Maximization]] error: warframe abilities mapping for "'
-			..tostring(name)..'" was not found in [[Module:Maximization#L-16|AbilitySets]].[[Category:Pages with script errors]][[Category:Pages with maximization errors]]';
+			..tostring(name)..'" was not found in [[Module:Maximization/data#L-38|AbilitySets]].[[Category:Pages with script errors]][[Category:Pages with maximization errors]]';
 		end
 	end
 	return p.ability(ability_names);

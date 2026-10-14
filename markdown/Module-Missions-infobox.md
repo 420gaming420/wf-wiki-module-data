@@ -1,7 +1,7 @@
 ---
 title: "Module:Missions/infobox"
 wiki_url: "https://wiki.warframe.com/w/Module/Missions/infobox"
-wiki_timestamp: "2026-09-21T08:11:47Z"
+wiki_timestamp: "2026-10-14T04:50:51Z"
 ---
 
 *Documentation for this module may be created at [Module:Missions/infobox/doc](/w/Module:Missions/infobox/doc?action=edit&redlink=1 "Module:Missions/infobox/doc (page does not exist)")*
@@ -88,13 +88,13 @@ buildInfobox = function(frame)
 ')
 	
 	local Infobox = InfoboxBuilder('WARFRAME Wiki:L10n/general.json', 'WARFRAME Wiki:L10n/meta.json')
-		:title(name..'[[Category:Mission Node]]')
+		:title(name..'[[Category:Mission Nodes]]')
 		:image(nodeEntry.Image or nodeEntry.Pic or nodeEntry.FactionImage, nil, not nodeEntry.Image and not nodeEntry.Pic and 'dark-invert')
 
 		:group():header('%s', 'general-information')
 			:row('Region', '%s', nodeEntry.Planet and '[['..nodeEntry.Planet..']][[Category:'..nodeEntry.Planet..']]', 'region')
 			-- TODO: Refactor out MissionTypeData[nodeEntry.Type] into its own variable
-			:row('MissionType', '%s', nodeEntry.Type and '[['..MissionTypeData[nodeEntry.Type].Link..'|'..nodeEntry.Type..']][[Category:'..nodeEntry.Type..' Mission]]', 'mission-type')
+			:row('MissionType', '%s', nodeEntry.Type and '[['..MissionTypeData[nodeEntry.Type].Link..'|'..nodeEntry.Type..']][[Category:'..nodeEntry.Type..' Missions]]', 'mission-type')
 			:row('IsEndless', '%s', MissionTypeData[nodeEntry.Type].IsEndless and '✔️' or '❌', 'is-endless')
 			:row('RewardRotation', '%s', MissionTypeData[nodeEntry.Type].IsEndless and 
 					(MissionTypeData[nodeEntry.Type].RewardRotation or error('Error: Missing RewardRotation key in [[Module:Missions/data]]'))
