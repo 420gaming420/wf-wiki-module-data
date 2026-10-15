@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-10-14T04:45:59Z"
+wiki_timestamp: "2026-10-14T14:24:13Z"
 ---
 
 ## Contents
@@ -521,6 +521,62 @@ local Data = {
 			{'Targeting radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='10 COST * INFERNO_TARGETS 10 min *', fmt='2dec'}}
 		}
+	},
+	-- Equinox
+	['Metamorphosis']={
+		ins={
+			{name='DUALITY', cont=Tooltips.full('Duality', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Day to Night maximum '..Tooltips.full('Armor', 'Stats')..' bonus:', {expr='STR 250 %of'}},
+			{'Day to Night maximum '..Tooltips.full('Shield', 'Stats')..' bonus:', {expr='STR 150 %of'}},
+			{'Night to Day maximum [[Weapon Damage]] bonus:', {expr='STR 25 %of', suff='%'}},
+			{'Night to Day maximum [[Movement Speed]] bonus:', {expr='STR 15 %of', suff='%'}},
+			{'Buff duration:', {name='METAMORPHOSIS_DURATION', expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{'Buff decay rate:', {expr='100 METAMORPHOSIS_DURATION /', suff='%/s', fmt='2dec'}},
+			{'Duality duration:', {expr='DUR 10 %of 0 DUALITY if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Rest & Rage']={
+		ins={
+			{name='CALM_AND_FRENZY', cont=Tooltips.full('Calm & Frenzy', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Rage [[Damage Vulnerability]]:', {expr='STR 50 %of', suff='%'}},
+			{'Rage speed bonus:', {expr='STR 20 %of', suff='%'}},
+			{'Duration:', {expr='DUR 22 %of', suff='s', fmt='2dec'}},
+			{'Cast range:', {expr='RNG 50 %of', suff='m', fmt='1dec'}},
+			{'Effect radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
+			{'Spread radius:', {expr='RNG 5 %of 0 CALM_AND_FRENZY if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Pacify & Provoke']={
+		ins={
+			{name='PEACEFUL_PROVOCATION', cont=Tooltips.full('Peaceful Provocation', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Pacify maximum damage multiplier:', {expr='0.5 STR as% /', fmt='2dec'}},
+			{'Provoke maximum '..Tooltips.full('Ability Strength', 'Stats')..' bonus:', {expr='STR 20 %of 50 min STR 15 %of 30 min 0 PEACEFUL_PROVOCATION if +', suff='%'}},
+			{'Pacify maximum '..Tooltips.full('Slow', 'DamageTypes')..':', {expr='STR 40 %of 80 min 0 PEACEFUL_PROVOCATION if', suff='%'}},
+			{'Outer radius:', {name='PACIFY_AND_PROVOKE_RNG', expr='RNG 16 %of', suff='m', fmt='1dec'}},
+			{'3rd inner radius:', {expr='PACIFY_AND_PROVOKE_RNG 3 * 4 /', suff='m', fmt='1dec'}},
+			{'2nd inner radius:', {expr='PACIFY_AND_PROVOKE_RNG 2 /', suff='m', fmt='1dec'}},
+			{'1st inner radius:', {expr='PACIFY_AND_PROVOKE_RNG 4 /', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='10 COST *', fmt='2dec'}},
+			{'Pacify '..Tooltips.full('Energy', 'Stats')..' drain:', {expr='0.5 COST *', suff='/s/enemy', fmt='2dec'}},
+			{'Provoke '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='3 COST *', suff='/ability', fmt='2dec'}}
+		}
+	},
+	['Mend & Maim']={
+		outs={
+			{'Mend '..Tooltips.full('Shield', 'Stats')..' restoration:', {expr='STR 25 %of', suff='/kill'}},
+			{'Maim '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 150 %of'}},
+			{'Radius:', {expr='RNG 18 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='3.5 DRAIN *', fmt='2dec'}}
+		}	
 	},
 	-- Khora
 	['Whipclaw']={

@@ -11288,7 +11288,7 @@ RelicData = {
 				Rarity = "Uncommon",
 			},
 			{
-				Item = "Akbolto Prime",
+				Item = "Akbronco Prime",
 				Part = "Link",
 				Rarity = "Uncommon",
 			},

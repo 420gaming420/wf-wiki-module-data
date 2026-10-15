@@ -1,12 +1,12 @@
 ---
 title: "Module:Mods/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Mods/data"
-wiki_timestamp: "2026-09-27T09:09:04Z"
+wiki_timestamp: "2026-10-15T02:05:31Z"
 ---
 
 Database for all [Mods](/w/Mod "Mod") in [WARFRAME](/w/WARFRAME "WARFRAME") (with the exception of unveiled [Riven Mods](/w/Riven_Mods "Riven Mods")). Preferably put new mods in the correct alphabetical order, but it is not necessary.
 
-:   *Last updated: Sun, 27 Sep 2026 09:09:04 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Mods/data?diff=0))*
+:   *Last updated: Thu, 15 Oct 2026 02:05:31 +0000 (UTC) by [User:ArbitraryMary](/w/User:ArbitraryMary "User:ArbitraryMary") ([change log](https://wiki.warframe.com/w/Module:Mods/data?diff=0))*
 
 ## Contents
 
@@ -21205,9 +21205,8 @@ local modData = {
 			Image = "PrimedStreamlineMod.png",
 			Incompatible = { "Streamline", "Flawed Streamline" },
 			InternalName = "/Lotus/Upgrades/Mods/Warframe/Expert/AvatarAbilityEfficiencyModExpert",
-			Introduced = "TBA",
 			Link = "Primed Streamline",
-			MaxRank = 14,
+			MaxRank = 10,
 			Name = "Primed Streamline",
 			Polarity = "Naramon",
 			Rarity = "Legendary",
