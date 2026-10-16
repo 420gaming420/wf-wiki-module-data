@@ -11903,10 +11903,10 @@ local ResourceData = {
 
 	-- Epoch Operation: Taubound --
 	["Moonflesh"] = {
-		-- Description = "Eris, carved up and presented to Praghasa in bite sized chunks.\r\n\r\nObtained from Infested nodes on Eris during Epoch Operation: Taubound.", -- Do not uncomment until event releases, keep it unspoiled
+		Description = "Eris, carved up and presented to Praghasa in bite sized chunks.\r\n\r\nObtained from Infested nodes on Eris during Epoch Operation: Taubound.",
 		Image = "Moonflesh.png",
 		InternalName = "/Lotus/Types/Gameplay/Events/RoadToTauEvent/RoadToTauEventResource",
-		Introduced = "TBA",
+		Introduced = "44.1.2",
 		Link = "Moonflesh",
 		Name = "Moonflesh",
 		Type = "Resource",

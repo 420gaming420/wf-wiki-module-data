@@ -2421,6 +2421,17 @@ local honoriaData = {
 		ExcludeFromCodex = true,
 		Tags = { "Miscellaneous" },
 	},
+	["The Moon Killer"] = {
+		Name = "The Moon Killer",
+		Link = "The Moon Killer",
+		Price = { ["Moonflesh"] = "175" },
+		Position = "Suffix",
+		Introduced = "44.1.2", -- exist since 44 but was available since 44.1.2
+		InternalName = "/Lotus/Types/Items/Titles/MoonfleshTitle",
+		CodexSecret = false,
+		ExcludeFromCodex = true,
+		Tags = { "Praghasa", "Event" },
+	},
 	--["Conquera"] = {
 	--	_IgnoreEntry = true,
 	--	Name = "Conquera",
@@ -2453,18 +2464,6 @@ local honoriaData = {
 	--	Position = "?",
 	--	Introduced = "44",-- currently, 44 is is the version where is was added to the PE
 	--	InternalName = "/Lotus/Types/Items/Titles/MoonDevourerTitle",
-	--	CodexSecret = false,
-	--	ExcludeFromCodex = true,
-	--	Tags = { "Hidden" },
-	--},
-	--["The Moon Killer"] = {
-	--	_IgnoreEntry = true,
-	--	Name = "The Moon Killer",
-	--	Link = "The Moon Killer",
-	--	Description = "?",
-	--	Position = "?",
-	--	Introduced = "44",-- currently, 44 is is the version where is was added to the PE
-	--	InternalName = "/Lotus/Types/Items/Titles/MoonfleshTitle",
 	--	CodexSecret = false,
 	--	ExcludeFromCodex = true,
 	--	Tags = { "Hidden" },

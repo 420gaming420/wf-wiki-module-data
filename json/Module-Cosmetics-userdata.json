@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-10-04T07:56:23.890Z"
+    "converted_at": "2026-10-16T06:52:30.038Z"
   },
   "_comments": "",
   "Ambassador": {
@@ -1682,7 +1682,8 @@
     "Type": "Weapons",
     "Equipments": {
       "Skin": [
-        "Sirocco Amp Skin"
+        "Sirocco Amp Skin",
+        "Vacis Amp Skin"
       ]
     }
   },
@@ -4484,6 +4485,7 @@
         "Despot Cape Syandana",
         "Dessicata Syandana",
         "Dex Nouchali Syandana",
+        "Dhampyre Syandana",
         "Diablillo Syandana",
         "Disconnect Syandana",
         "Dominus Syandana",
@@ -4693,6 +4695,7 @@
         "Valesti Syandana",
         "Vanquished Banner",
         "Vanquished Banner Day of the Dead",
+        "Valdur's Syandana",
         "Vasa Syandana",
         "Vaykor Syandana",
         "Verismo Syandana",
@@ -6939,6 +6942,9 @@
         "Conquera Leg Ribbon",
         "Conquera Ribbon",
         "Conquera Shoulder Ribbon",
+        "Contegorus Chest Plate",
+        "Contegorus Pauldrons",
+        "Contegorus Greaves",
         "Corachrix Shoulder Pauldrons",
         "Daedalus Chest Plate",
         "Daedalus Shoulder Plates",
@@ -7110,6 +7116,9 @@
         "Naimore Chest Plate",
         "Naimore Leg Plates",
         "Naimore Shoulder Plates",
+        "Naktavyre Chest Armor",
+        "Naktavyre Shoulder Armor",
+        "Naktavyre Leg Armor",
         "Naramon Badge",
         "Narvarr Prime Chest Plate",
         "Narvarr Prime Leg Plates",
@@ -7352,6 +7361,7 @@
         "DUOWAN EMBLEM",
         "Emblem of the Hunt",
         "Emissary Emblem",
+        "Epoch Operation Vessel Emblem",
         "Erznung Emblem",
         "Eyes of Blight Emblem",
         "False Profit Emblem",

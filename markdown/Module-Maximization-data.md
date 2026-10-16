@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-10-14T14:24:13Z"
+wiki_timestamp: "2026-10-16T00:58:44Z"
 ---
 
 ## Contents
@@ -576,7 +576,52 @@ local Data = {
 			{'Radius:', {expr='RNG 18 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='3.5 DRAIN *', fmt='2dec'}}
-		}	
+		}
+	},
+	-- Garuda
+	['Dread Mirror']={
+		ins={
+			{name='DREAD_WARD', cont=Tooltips.full('Dread Ward', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Captured damage multiplier:', {expr='STR 2 %of', fmt='2dec'}},
+			{'Shield duration:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
+			{'Targeting range:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
+			{'Explosion radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
+			{'Dread Ward duration:', {expr='DUR 8 %of 0 DREAD_WARD if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Blood Altar']={
+		outs={
+			{'Missing '..Tooltips.full('Health', 'Stats')..' restoration:', {expr='STR 25 %of', suff='%/s'}},
+			{'Duration:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
+			{'Targeting range:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
+			{'Altar radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}},
+		}
+	},
+	['Bloodletting']={
+		ins={
+			{name='BLOODLETTING_CURRENT_HP', cont='Current '..Tooltips.full('Health', 'Stats')..' percentage:', type='range-R', min='0', max='100', value='100'}
+		},
+		outs={
+			{Tooltips.full('Health', 'Stats')..' cost:', {name='BLOODLETTING_COST', expr='BLOODLETTING_CURRENT_HP 50 min', suff='%'}},
+			{Tooltips.full('Energy', 'Stats')..' restoration:', {expr='BLOODLETTING_COST 2 * 40 2 EFF as% - / %of 100 min', suff='%'}}
+		}
+	},
+	['Seeking Talons']={
+		ins={
+			{name='BLENDING_TALONS', cont=Tooltips.full('Blending Talons', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 300 %of'}},
+			{'Chance of forcing '..Tooltips.full('Bleed', 'DamageTypes')..':', {expr='STR 75 %of 100 min', suff='%'}},
+			{'Mark duration:', {expr='DUR 10 %of', suff='s', fmt='2dec'}},
+			{'Blending Talons radius:', {expr='RNG 9 %of 0 BLENDING_TALONS if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		}
 	},
 	-- Khora
 	['Whipclaw']={
@@ -721,6 +766,64 @@ local Data = {
 			{'Minimum radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
 			{'Shrinking rate:', {expr='2 CATACLYSM_INITIAL_RADIUS * 3 CATACLYSM_BASE_DURATION * CATACLYSMIC_CONTINUUM_DURATION + /', suff='m/s', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+		}
+	},
+	-- Mirage
+	['Hall of Mirrors']={
+		ins={
+			{name='HALL_OF_MALEVOLENCE', cont=Tooltips.full('Hall of Malevolence', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Maximum doppelganger damage multiplier:', {expr='STR 20 %of 1.5 1 HALL_OF_MALEVOLENCE if *', suff='%'}},
+			{'Doppelganger Critical and Status Chance multiplier:', {expr='STR 40 %of', suff='%'}},
+			{'Duration:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Sleight of Hand']={
+		ins={
+			{name='EXPLOSIVE_LEGERDEMAIN', cont=Tooltips.full('Explosive Legerdemain', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Light jewel '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 200 %of'}},
+			{'Pickup explosion damage:', {expr='STR 1000 200 EXPLOSIVE_LEGERDEMAIN if %of'}},
+			{'Booby trap duration:', {expr='DUR 18 %of', suff='s', fmt='2dec'}},
+			{'Dark jewel '..Tooltips.full('Blind', 'DamageTypes')..' duration:', {expr='DUR 5 %of', suff='s', fmt='2dec'}},
+			{'Booby trap radius:', {expr='RNG 40 %of', suff='m', fmt='1dec'}},
+			{'Jewel charm radius:', {expr='RNG 12 %of', suff='m', fmt='1dec'}},
+			{'Jewel explosion radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
+			{'Pickup explosion radius:', {expr='RNG 20 8 EXPLOSIVE_LEGERDEMAIN if %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Eclipse']={
+		ins={
+			{name='TOTAL_ECLIPSE', cont=Tooltips.full('Total Eclipse', 'Mods')..'?', type='checkbox'},
+			{name='ECLIPSE_INFUSED', cont='[[Infused]]?', type='checkbox'}
+		},
+		outs={
+			{'[[Weapon Damage]] multiplier:', {expr='STR 30 200 ECLIPSE_INFUSED if %of', suff='%'}},
+			{'[[Damage Reduction]]:', {expr='STR 75 %of 75 90 ECLIPSE_INFUSED if min', suff='%'}},
+			{'Duration:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{'Buff radius:', {expr='RNG 15 %of 0 TOTAL_ECLIPSE if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Prism']={
+		ins={
+			{name='PRISM_GUARD', cont=Tooltips.full('Prism Guard', 'Mods')..'?', type='checkbox'},
+			{name='PRISM_SOLAR', cont='Solar '..Tooltips.full('Eclipse', 'Ability')..'?', type='checkbox'},
+			{name='PRISM_LUNAR', cont='Lunar '..Tooltips.full('Eclipse', 'Ability')..'?', type='checkbox'},
+			{name='PRISM_HITS', cont='Number of hits:', min='0', value='0'}
+		},
+		outs={
+			{Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='STR 250 %of 50 25 PRISM_SOLAR if PRISM_HITS * 100 + %of'}},
+			{'Prism duration:', {expr='DUR 4 12 PRISM_GUARD if %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Blind', 'DamageTypes')..' duration:', {expr='DUR 15 %of', suff='s', fmt='2dec'}},
+			{'Laser targeting range:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Blind', 'DamageTypes')..' radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 50 PRISM_LUNAR if COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 10 PRISM_LUNAR if DRAIN *', fmt='2dec'}}
 		}
 	},
 	-- Narin

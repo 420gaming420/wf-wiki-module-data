@@ -4,12 +4,12 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-30T08:12:00.798Z"
+    "converted_at": "2026-10-16T06:52:24.768Z"
   },
   "_comments": "",
   "Ambulas Reborn Emblem": {
     "Type": "Emblem",
-    "Image": "AmbulasEventBadge.png",
+    "Image": "AmbulasRebornEmblem(ExWhite).png",
     "Description": "An emblem commemorating the fight against the Ambulas incursion.",
     "Link": "Ambulas Reborn Emblem",
     "Name": "Ambulas Reborn Emblem",
@@ -29,7 +29,7 @@
   },
   "Ghost Leader Emblem": {
     "Type": "Emblem",
-    "Image": "LeaderBadgeGhostHolo.png",
+    "Image": "GhostLeaderEmblem.png",
     "Description": "Designates the wearer as the highest ranking soldier amongst Ghost-Tier Clans this era.",
     "Link": "Ghost Leader Emblem",
     "Name": "Ghost Leader Emblem",
@@ -39,7 +39,7 @@
   },
   "Conquera Emblem": {
     "Type": "Emblem",
-    "Image": "QTCC2024Emblem.png",
+    "Image": "ConqueraEmblem.png",
     "Description": "Wear this Emblem as a symbol of support in the Quest to Conquer Cancer.",
     "Link": "Conquera Emblem",
     "Name": "Conquera Emblem",
@@ -49,7 +49,7 @@
   },
   "Sisterhood Emblem": {
     "Type": "Emblem",
-    "Image": "CorpusLichEmblem.png",
+    "Image": "SisterhoodEmblem.png",
     "Description": "An Emblem to honor the Sisters of Parvos.",
     "Link": "Sisterhood Emblem",
     "Name": "Sisterhood Emblem",
@@ -59,7 +59,7 @@
   },
   "Scarlet Spear Operations I Emblem": {
     "Type": "Emblem",
-    "Image": "ScarletSpearMedallionsOperations1.png",
+    "Image": "ScarletSpearOperationsIEmblem.png",
     "Description": "Awarded for exemplary performance in Operation Scarlet Spear.",
     "Link": "Scarlet Spear Operations I Emblem",
     "Name": "Scarlet Spear Operations I Emblem",
@@ -69,7 +69,7 @@
   },
   "Scarlet Spear Murex III Emblem": {
     "Type": "Emblem",
-    "Image": "ScarletSpearMedallionsSpace3.png",
+    "Image": "ScarletSpearMurexIIIEmblem.png",
     "Description": "Earned through Railjack raids against the Sentient Murex during Operation Scarlet Spear.",
     "Link": "Scarlet Spear Murex III Emblem",
     "Name": "Scarlet Spear Murex III Emblem",
@@ -79,7 +79,7 @@
   },
   "Saturn Six Emblem": {
     "Type": "Emblem",
-    "Image": "WolfBadge_d.png",
+    "Image": "SaturnSixEmblem(ExWhite).png",
     "Description": "The mark of an outlaw, once locked away six leagues deep in the gas.",
     "Link": "Saturn Six Emblem",
     "Name": "Saturn Six Emblem",
@@ -89,7 +89,7 @@
   },
   "Cryotic Front Emblem": {
     "Type": "Emblem",
-    "Image": "ExcavationEventBadge.png",
+    "Image": "CryoticFrontEmblem(ExWhite).png",
     "Description": "Awarded to Tenno for their contribution to the Cryotic Front event.",
     "Link": "Cryotic Front Emblem",
     "Name": "Cryotic Front Emblem",
@@ -99,7 +99,7 @@
   },
   "Jade Clem Emblem": {
     "Type": "Emblem",
-    "Image": "XboneJadeClemEmblem.png",
+    "Image": "JadeClemEmblem(ExWhite).png",
     "Description": "A next-generation emblem.",
     "Link": "Jade Clem Emblem",
     "Name": "Jade Clem Emblem",
@@ -109,7 +109,7 @@
   },
   "Zwillfah Emblem": {
     "Type": "Emblem",
-    "Image": "ZawInspiredEmblemB.png",
+    "Image": "ZwillfahEmblem.png",
     "Description": "An insignia awarded to the Tenno Elite who proved themselves during the Tohtchi Variant.",
     "Link": "Zwillfah Emblem",
     "Name": "Zwillfah Emblem",
@@ -129,7 +129,7 @@
   },
   "Plains Of Eidolon Conservation Emblem": {
     "Type": "Emblem",
-    "Image": "ConservationBadgeC.png",
+    "Image": "PlainsOfEidolonConservationEmblem.png",
     "Description": "Awarded for the diligent preservation of the Kuakas, Condrocs and Mergoos of the Plains of Eidolon.",
     "Link": "Plains Of Eidolon Conservation Emblem",
     "Name": "Plains Of Eidolon Conservation Emblem",
@@ -139,7 +139,7 @@
   },
   "Tenno Translator Emblem": {
     "Type": "Emblem",
-    "Image": "TranslatorEmblem.png",
+    "Image": "TennoTranslatorEmblem.png",
     "Description": "A special emblem worn only by a select few Tenno.",
     "Link": "Tenno Translator Emblem",
     "Name": "Tenno Translator Emblem",
@@ -149,7 +149,7 @@
   },
   "Vitus Emblem": {
     "Type": "Emblem",
-    "Image": "EliteAlertIcon.png",
+    "Image": "VitusEmblem(ExWhite).png",
     "Description": "A symbol of survival. Worn by those who have entered Arbitration and lived.",
     "Link": "Vitus Emblem",
     "Name": "Vitus Emblem",
@@ -169,7 +169,7 @@
   },
   "Gradivus: Sacrifice Emblem": {
     "Type": "Emblem",
-    "Image": "CorpusAggressionEventHolo.png",
+    "Image": "GradivusSacrificeEmblem(ExWhite).png",
     "Description": "An insignia marking Tenno who aligned with the Corpus during the Gradivus Dilemma.",
     "Link": "Gradivus: Sacrifice Emblem",
     "Name": "Gradivus: Sacrifice Emblem",
@@ -179,7 +179,7 @@
   },
   "Scarlet Spear Operations III Emblem": {
     "Type": "Emblem",
-    "Image": "ScarletSpearMedallionsOperations3.png",
+    "Image": "ScarletSpearOperationsIIIEmblem.png",
     "Description": "Awarded for exemplary performance in Operation Scarlet Spear.",
     "Link": "Scarlet Spear Operations III Emblem",
     "Name": "Scarlet Spear Operations III Emblem",
@@ -189,7 +189,7 @@
   },
   "Scarlet Spear Condrix II Emblem": {
     "Type": "Emblem",
-    "Image": "ScarletSpearMedallionsGround2.png",
+    "Image": "ScarletSpearCondrixIIEmblem.png",
     "Description": "Earned through ground assaults against the Sentient Condrix during Operation Scarlet Spear.",
     "Link": "Scarlet Spear Condrix II Emblem",
     "Name": "Scarlet Spear Condrix II Emblem",
@@ -209,7 +209,7 @@
   },
   "Emblem of the Hunt": {
     "Type": "Emblem",
-    "Image": "InfestationEventBadge.png",
+    "Image": "EmblemOfTheHunt(ExWhite).png",
     "Description": "An emblem awarded to the Tenno who hunted down Alad V.",
     "Link": "Emblem of the Hunt",
     "Name": "Emblem of the Hunt",
@@ -219,7 +219,7 @@
   },
   "Vasero Sekhara": {
     "Type": "Emblem",
-    "Image": "ZarimanEvolvingSekharaA.png",
+    "Image": "VaseroSekhara.png",
     "Description": "The Void left its mark on this evolving Sekhara during the Zariman Void Jump. Defeat enemies as the Operator with this Sekhara equipped and unlock two additional looks.",
     "Link": "Vasero Sekhara",
     "Name": "Vasero Sekhara",
@@ -229,7 +229,7 @@
   },
   "Tenno Chronicler Emblem": {
     "Type": "Emblem",
-    "Image": "WikiaBadge.png",
+    "Image": "TennoChroniclerSigil.png",
     "Description": "A special emblem worn only by a select few Tenno.",
     "Link": "Tenno Chronicler Emblem",
     "Name": "Tenno Chronicler Emblem",
@@ -239,7 +239,7 @@
   },
   "TennoGen Emblem": {
     "Type": "Emblem",
-    "Image": "TennoGenEmblem.png",
+    "Image": "TennoGenEmblem(ExWhite).png",
     "Description": "A special emblem worn only by a select few Tenno.",
     "Link": "TennoGen Emblem",
     "Name": "TennoGen Emblem",
@@ -249,7 +249,7 @@
   },
   "Tethra's Doom Emblem": {
     "Type": "Emblem",
-    "Image": "ShipyardsEventBadge.png",
+    "Image": "Tethra'sDoomEmblem(ExWhite).png",
     "Description": "An insignia awarded to the Tenno who distinguished themselves during Tethra's Doom event.",
     "Link": "Tethra's Doom Emblem",
     "Name": "Tethra's Doom Emblem",
@@ -259,7 +259,7 @@
   },
   "Gold Skull Emblem": {
     "Type": "Emblem",
-    "Image": "SkullBadgeGold.png",
+    "Image": "GoldSkullEmblem.png",
     "Description": "Awarded to Tenno who achieved a Gold Rank on the retired Global Leaderboards.",
     "Link": "Gold Skull Emblem",
     "Name": "Gold Skull Emblem",
@@ -269,7 +269,7 @@
   },
   "Lunar Renewal Snake Emblem": {
     "Type": "Emblem",
-    "Image": "Cny2025SnakeEmblem.png",
+    "Image": "LunarRenewalSnakeEmblem(ExRed).png",
     "Description": "Celebrate the Lunar Renewal with the wisdom of the snake.",
     "Link": "Lunar Renewal Snake Emblem",
     "Name": "Lunar Renewal Snake Emblem",
@@ -279,7 +279,7 @@
   },
   "Frightening Flock Emblem": {
     "Type": "Emblem",
-    "Image": "HalloweenEmblem2023Owl.png",
+    "Image": "FrighteningFlockEmblem(ExWhite).png",
     "Description": "A haunting emblem paying homage to Duviri.",
     "Link": "Frightening Flock Emblem",
     "Name": "Frightening Flock Emblem",
@@ -289,7 +289,7 @@
   },
   "Specters of Liberty Emblem": {
     "Type": "Emblem",
-    "Image": "RescueEventBadge.png",
+    "Image": "SpectersOfLibertyEmblem(ExWhite).png",
     "Description": "Awarded for the safe return of Red Veil Operatives during the Specters of Liberty operation.",
     "Link": "Specters of Liberty Emblem",
     "Name": "Specters of Liberty Emblem",
@@ -299,7 +299,7 @@
   },
   "Solstice Conclave Emblem": {
     "Type": "Emblem",
-    "Image": "HolidayDeathMatchBadge.png",
+    "Image": "SolsticeConclaveEmblem.png",
     "Description": "A festive Conclave emblem.",
     "Link": "Solstice Conclave Emblem",
     "Name": "Solstice Conclave Emblem",
@@ -309,7 +309,7 @@
   },
   "Vallis Beast And Bird Emblem": {
     "Type": "Emblem",
-    "Image": "ConservationBadgeB.png",
+    "Image": "VallisBeastAndBirdEmblem.png",
     "Description": "Awarded for the diligent preservation of the Horrasques, Sawgaws and Stovers of the Orb Vallis.",
     "Link": "Vallis Beast And Bird Emblem",
     "Name": "Vallis Beast And Bird Emblem",
@@ -329,7 +329,7 @@
   },
   "Glassmaker Emblem": {
     "Type": "Emblem",
-    "Image": "GlassmakerEmblemItem.png",
+    "Image": "GlassmakerEmblem(ExWhite)).png",
     "Description": "An emblem commemorating your grim descent into the madness of the Glassmaker.",
     "Link": "Glassmaker Emblem",
     "Name": "Glassmaker Emblem",
@@ -339,7 +339,7 @@
   },
   "Invati Sekhara": {
     "Type": "Emblem",
-    "Image": "SevantiLegacyHaloBadgeItem.png",
+    "Image": "InvatiSekhara.png",
     "Description": "An emblem to honor all those who raised a blade in the mayhem of the Trials Missions.",
     "Link": "Invati Sekhara",
     "Name": "Invati Sekhara",
@@ -349,7 +349,7 @@
   },
   "Arid Fear Emblem": {
     "Type": "Emblem",
-    "Image": "CorpusVoidEventHolo.png",
+    "Image": "AridFearEmblem(ExWhite).png",
     "Description": "An insignia awarded to the Tenno who proved themselves during Arid Fear event.",
     "Link": "Arid Fear Emblem",
     "Name": "Arid Fear Emblem",
@@ -369,7 +369,7 @@
   },
   "Tubemen Of Regor Emblem": {
     "Type": "Emblem",
-    "Image": "GrnSeaLabEventBadge.png",
+    "Image": "TubemenOfRegorEmblem(ExBlack).png",
     "Description": "An emblem awarded the Tenno who fought to destroy Tyl Regor's cloning labs.",
     "Link": "Tubemen Of Regor Emblem",
     "Name": "Tubemen Of Regor Emblem",
@@ -379,7 +379,7 @@
   },
   "Bronze Skull Emblem": {
     "Type": "Emblem",
-    "Image": "SkullBadgeBronze.png",
+    "Image": "BronzeSkullEmblem.png",
     "Description": "Awarded to Tenno who achieved a Bronze Rank on the retired Global Leaderboards.",
     "Link": "Bronze Skull Emblem",
     "Name": "Bronze Skull Emblem",
@@ -389,7 +389,7 @@
   },
   "Clan Emblem": {
     "Type": "Emblem",
-    "Image": "ClanEmblemHolo.png",
+    "Image": "ClanEmblem.png",
     "Description": "An insignia that projects a holographic image of the clan emblem. Requires your clan's Warlord to upload an image of the clan emblem.",
     "Link": "Clan Emblem",
     "Name": "Clan Emblem",
@@ -399,7 +399,7 @@
   },
   "The Pacifism Defect Emblem": {
     "Type": "Emblem",
-    "Image": "DefectorRescueEventBadge.png",
+    "Image": "ThePacifismDefectEmblem.png",
     "Description": "An insignia awarded to the Tenno who proved themselves during the Pacifism Defect operation.",
     "Link": "The Pacifism Defect Emblem",
     "Name": "The Pacifism Defect Emblem",
@@ -409,7 +409,7 @@
   },
   "Gargoyle's Cry Emblem": {
     "Type": "Emblem",
-    "Image": "CaviaEventEyeEmblem.png",
+    "Image": "GargoylesCryEmblem.png",
     "Description": "Tenno who bear this insignia resisted the Murmur during Operation Gargoyle's Cry.",
     "Link": "Gargoyle's Cry Emblem",
     "Name": "Gargoyle's Cry Emblem",
@@ -419,7 +419,7 @@
   },
   "Silver Skull Emblem": {
     "Type": "Emblem",
-    "Image": "SkullBadgeSilver.png",
+    "Image": "SilverSkullEmblem.png",
     "Description": "Awarded to Tenno who achieved a Silver Rank on the retired Global Leaderboards.",
     "Link": "Silver Skull Emblem",
     "Name": "Silver Skull Emblem",
@@ -429,7 +429,7 @@
   },
   "Tethra's Doom Quantum Emblem": {
     "Type": "Emblem",
-    "Image": "TethraQuantumBadge.png",
+    "Image": "Tethra'sDoomQuantumEmblem.png",
     "Description": "An insignia awarded to the Tenno who distinguished themselves during Tethra's Doom event.",
     "Link": "Tethra's Doom Quantum Emblem",
     "Name": "Tethra's Doom Quantum Emblem",
@@ -439,7 +439,7 @@
   },
   "Lunar Renewal Rabbit Emblem": {
     "Type": "Emblem",
-    "Image": "Cny2023RabbitEmblem.png",
+    "Image": "LunarRenewalRabbitEmblem.png",
     "Description": "Celebrate Lunar Renewal with the kind heart of the gentle rabbit.",
     "Link": "Lunar Renewal Rabbit Emblem",
     "Name": "Lunar Renewal Rabbit Emblem",
@@ -449,7 +449,7 @@
   },
   "Sling Stone Emblem": {
     "Type": "Emblem",
-    "Image": "SlingStoneEmblemHolo.png",
+    "Image": "SlingStoneEmblem(ExWhite).png",
     "Description": "An insignia awarded to the Tenno Elite who proved themselves during Operation Sling-Stone.",
     "Link": "Sling Stone Emblem",
     "Name": "Sling Stone Emblem",
@@ -469,7 +469,7 @@
   },
   "Vasero Apex Sekhara": {
     "Type": "Emblem",
-    "Image": "ZarimanEvolvingSekharaC.png",
+    "Image": "VaseroApexSekhara.png",
     "Description": "The Void left its mark on this evolving Sekhara during the Zariman Void Jump.",
     "Link": "Vasero Apex Sekhara",
     "Name": "Vasero Apex Sekhara",
@@ -479,7 +479,7 @@
   },
   "Drip Squad 4 Life Emblem": {
     "Type": "Emblem",
-    "Image": "1999CommunityARGEmblem.png",
+    "Image": "DripSquad4LifeEmblem(ExWhite).png",
     "Description": "A badge of honor befitting one of the genuine truth-seekers. From another time, in another world...",
     "Link": "Drip Squad 4 Life Emblem",
     "Name": "Drip Squad 4 Life Emblem",
@@ -489,7 +489,7 @@
   },
   "Vasero Emergent Sekhara": {
     "Type": "Emblem",
-    "Image": "ZarimanEvolvingSekharaB.png",
+    "Image": "VaseroEmergentSekhara.png",
     "Description": "The Void left its mark on this evolving Sekhara during the Zariman Void Jump. Defeat enemies as the Operator with this Sekhara equipped and unlock an additional look.",
     "Link": "Vasero Emergent Sekhara",
     "Name": "Vasero Emergent Sekhara",
@@ -499,7 +499,7 @@
   },
   "TennoCon Emblem": {
     "Type": "Emblem",
-    "Image": "TennoCon2016Badge.png",
+    "Image": "TennoConEmblem(ExWhite).png",
     "Description": "Bestowed upon those who joined together in celebration at TennoCon 2016.",
     "Link": "TennoCon Emblem",
     "Name": "TennoCon Emblem",
@@ -509,7 +509,7 @@
   },
   "Dropkick Drahk Emblem": {
     "Type": "Emblem",
-    "Image": "DogDays2024Emblem.png",
+    "Image": "DropkickDrahkEmblem.png",
     "Description": "You know what The Drahk is cooking.",
     "Link": "Dropkick Drahk Emblem",
     "Name": "Dropkick Drahk Emblem",
@@ -529,7 +529,7 @@
   },
   "Taunting Tamm Emblem": {
     "Type": "Emblem",
-    "Image": "HalloweenEmblem2023Ram.png",
+    "Image": "TauntingTammEmblem(ExWhite).png",
     "Description": "A haunting emblem paying homage to Duviri.",
     "Link": "Taunting Tamm Emblem",
     "Name": "Taunting Tamm Emblem",
@@ -539,7 +539,7 @@
   },
   "Rathuum Emblem": {
     "Type": "Emblem",
-    "Image": "KelaEventBadge.png",
+    "Image": "RathuumEmblem(ExWhite).png",
     "Description": "Awarded to those who stood against Kela De Thaym and her Executioners.",
     "Link": "Rathuum Emblem",
     "Name": "Rathuum Emblem",
@@ -549,7 +549,7 @@
   },
   "Eyes of Blight Emblem": {
     "Type": "Emblem",
-    "Image": "SlingStone2EmblemItem.png",
+    "Image": "EyesOfBlightEmblem(ExWhite).png",
     "Description": "An insignia awarded to the Tenno Elite who proved themselves during Operation Eyes of Blight.",
     "Link": "Eyes of Blight Emblem",
     "Name": "Eyes of Blight Emblem",
@@ -559,7 +559,7 @@
   },
   "Hostile Mergers Emblem": {
     "Type": "Emblem",
-    "Image": "AmalgamEventBadge.png",
+    "Image": "HostileMergersEmblem(ExWhite).png",
     "Description": "Tenno bearing this insignia brought the fight to Alad V's monstrous Amalgam Project.",
     "Link": "Hostile Mergers Emblem",
     "Name": "Hostile Mergers Emblem",
@@ -569,7 +569,7 @@
   },
   "Moon Leader Emblem": {
     "Type": "Emblem",
-    "Image": "LeaderBadgeMoonHolo.png",
+    "Image": "MoonLeaderEmblem.png",
     "Description": "Designates the wearer as the highest ranking soldier amongst Moon-Tier Clans this era.",
     "Link": "Moon Leader Emblem",
     "Name": "Moon Leader Emblem",
@@ -589,7 +589,7 @@
   },
   "Despair Emblem": {
     "Type": "Emblem",
-    "Image": "StalkerEmblem.png",
+    "Image": "DespairEmblem(ExWhite).png",
     "Description": "Who do you hunt, Shadow?",
     "Link": "Despair Emblem",
     "Name": "Despair Emblem",
@@ -609,7 +609,7 @@
   },
   "Scarlet Spear Murex II Emblem": {
     "Type": "Emblem",
-    "Image": "ScarletSpearMedallionsSpace2.png",
+    "Image": "ScarletSpearMurexIIEmblem.png",
     "Description": "Earned through Railjack raids against the Sentient Murex during Operation Scarlet Spear.",
     "Link": "Scarlet Spear Murex II Emblem",
     "Name": "Scarlet Spear Murex II Emblem",
@@ -619,7 +619,7 @@
   },
   "Tar Mutalist Moa Emblem": {
     "Type": "Emblem",
-    "Image": "InfTacAlertSlowBombMoa.png",
+    "Image": "TarMutalistMoaEmblem(ExWhite).png",
     "Description": "Awarded to Tenno who participated in the Mutalist Incursions event.",
     "Link": "Tar Mutalist Moa Emblem",
     "Name": "Tar Mutalist Moa Emblem",
@@ -629,7 +629,7 @@
   },
   "Plague Star Emblem": {
     "Type": "Emblem",
-    "Image": "PlagueStarEventBadge.png",
+    "Image": "PlagueStarEmblem(ExWhite).png",
     "Description": "To commemorate Tenno who helped defend Cetus from the Infested scourge.",
     "Link": "Plague Star Emblem",
     "Name": "Plague Star Emblem",
@@ -649,7 +649,7 @@
   },
   "Survival Emblem": {
     "Type": "Emblem",
-    "Image": "SurvivalEventHolo.png",
+    "Image": "SurvivalEmblem.png",
     "Description": "An insignia awarded to the Tenno who proved themselves during Survival event.",
     "Link": "Survival Emblem",
     "Name": "Survival Emblem",
@@ -659,7 +659,7 @@
   },
   "Operation Orphix Venom Emblem": {
     "Type": "Emblem",
-    "Image": "EmblemMechEvent.png",
+    "Image": "OperationOrphixVenomEmblem(ExWhite).png",
     "Description": "An emblem for veterans of the Operation: Orphix Venom.",
     "Link": "Operation Orphix Venom Emblem",
     "Name": "Operation Orphix Venom Emblem",
@@ -669,7 +669,7 @@
   },
   "Orb Vallis Conservation Emblem": {
     "Type": "Emblem",
-    "Image": "ConservationBadge.png",
+    "Image": "OrbVallisConservationEmblem.png",
     "Description": "A symbol of your dedication to the safety and security of all creatures on the Orb Vallis.",
     "Link": "Orb Vallis Conservation Emblem",
     "Name": "Orb Vallis Conservation Emblem",
@@ -679,7 +679,7 @@
   },
   "Pungchai Emblem": {
     "Type": "Emblem",
-    "Image": "ZawInspiredEmblemA.png",
+    "Image": "PungchaiEmblem.png",
     "Description": "An insignia awarded to the Tenno Elite who proved themselves during the Tohtchi Variant.",
     "Link": "Pungchai Emblem",
     "Name": "Pungchai Emblem",
@@ -689,7 +689,7 @@
   },
   "Solaris Emblem": {
     "Type": "Emblem",
-    "Image": "SolarisBadge.png",
+    "Image": "SolarisEmblem(ExWhite).png",
     "Description": "The emblem of the Solaris, the indebted workers of Fortuna. We all lift together.",
     "Link": "Solaris Emblem",
     "Name": "Solaris Emblem",
@@ -699,7 +699,7 @@
   },
   "The Index Emblem": {
     "Type": "Emblem",
-    "Image": "IndexEventBadge.png",
+    "Image": "TheIndexEmblem(ExWhite).png",
     "Description": "A memento of The Index.",
     "Link": "The Index Emblem",
     "Name": "The Index Emblem",
@@ -709,7 +709,7 @@
   },
   "Armilla Emblem": {
     "Type": "Emblem",
-    "Image": "PvPRepBadgeItem.png",
+    "Image": "PvPRepBadgeItem(ExWhite).png",
     "Description": "The holographic interface on this emblem will update to display the rank achieved through exemplary dedication to Conclave Alerts.",
     "Link": "Armilla Emblem",
     "Name": "Armilla Emblem",
@@ -719,7 +719,7 @@
   },
   "Sevati Sekhara": {
     "Type": "Emblem",
-    "Image": "PrototypeRaidHalo.png",
+    "Image": "SevatiSekhara.png",
     "Description": "Those who risked everything to exact justice for the Tenno are honored with this Sekhara.",
     "Link": "Sevati Sekhara",
     "Name": "Sevati Sekhara",
@@ -729,7 +729,7 @@
   },
   "Scarlet Spear Operations II Emblem": {
     "Type": "Emblem",
-    "Image": "ScarletSpearMedallionsOperations2.png",
+    "Image": "ScarletSpearOperationsIIEmblem.png",
     "Description": "Awarded for exemplary performance in Operation Scarlet Spear.",
     "Link": "Scarlet Spear Operations II Emblem",
     "Name": "Scarlet Spear Operations II Emblem",
@@ -739,7 +739,7 @@
   },
   "Cicero Crisis Emblem": {
     "Type": "Emblem",
-    "Image": "JungleEventBadge.png",
+    "Image": "CiceroCrisisEmblem(Exwhite).png",
     "Description": "An emblem awarded to all those who helped destroy the Grineer toxin during the Cicero Crisis.",
     "Link": "Cicero Crisis Emblem",
     "Name": "Cicero Crisis Emblem",
@@ -749,7 +749,7 @@
   },
   "Shadow Leader Emblem": {
     "Type": "Emblem",
-    "Image": "LeaderBadgeShadowHolo.png",
+    "Image": "ShadowLeaderEmblem.png",
     "Description": "Designates the wearer as the highest ranking soldier amongst Shadow-Tier Clans this era.",
     "Link": "Shadow Leader Emblem",
     "Name": "Shadow Leader Emblem",
@@ -759,7 +759,7 @@
   },
   "False Profit Emblem": {
     "Type": "Emblem",
-    "Image": "FalseProfitEventBadge.png",
+    "Image": "FalseProfitEmblem(ExWhite).png",
     "Description": "An emblem awarded to all those who helped foil the machinations of Nef Anyo.",
     "Link": "False Profit Emblem",
     "Name": "False Profit Emblem",
@@ -769,7 +769,7 @@
   },
   "Scarlet Spear Condrix III Emblem": {
     "Type": "Emblem",
-    "Image": "ScarletSpearMedallionsGround3.png",
+    "Image": "ScarletSpearCondrixIIIEmblem.png",
     "Description": "Earned through ground assaults against the Sentient Condrix during Operation Scarlet Spear.",
     "Link": "Scarlet Spear Condrix III Emblem",
     "Name": "Scarlet Spear Condrix III Emblem",
@@ -779,7 +779,7 @@
   },
   "Verv Emblem": {
     "Type": "Emblem",
-    "Image": "TwitchPromo2021Emblem.png",
+    "Image": "VervEmblem(ExWhite).png",
     "Description": "A compelling badge of honor for the Tenno.",
     "Link": "Verv Emblem",
     "Name": "Verv Emblem",
@@ -789,7 +789,7 @@
   },
   "Scarlet Spear Condrix I Emblem": {
     "Type": "Emblem",
-    "Image": "ScarletSpearMedallionsGround1.png",
+    "Image": "ScarletSpearCondrixIEmblem.png",
     "Description": "Earned through ground assaults against the Sentient Condrix during Operation Scarlet Spear.",
     "Link": "Scarlet Spear Condrix I Emblem",
     "Name": "Scarlet Spear Condrix I Emblem",
@@ -799,7 +799,7 @@
   },
   "Storm Leader Emblem": {
     "Type": "Emblem",
-    "Image": "LeaderBadgeStormHolo.png",
+    "Image": "StormLeaderEmblem.png",
     "Description": "Designates the wearer as the highest ranking soldier amongst Storm-Tier Clans this era.",
     "Link": "Storm Leader Emblem",
     "Name": "Storm Leader Emblem",
@@ -809,7 +809,7 @@
   },
   "Necraseal Emblem": {
     "Type": "Emblem",
-    "Image": "TwitchNecraloidEmblem.png",
+    "Image": "NecrasealEmblem(ExWhite).png",
     "Description": "Some things are best left unseen.",
     "Link": "Necraseal Emblem",
     "Name": "Necraseal Emblem",
@@ -819,7 +819,7 @@
   },
   "President King Corgi Emblem": {
     "Type": "Emblem",
-    "Image": "CaliberChicksCorgi.png",
+    "Image": "PresidentKingCorgiEmblem.png",
     "Description": "President King Corgi acknowledges your unending dedication to thwarting Anna Ki and the G.O.B.",
     "Link": "President King Corgi Emblem",
     "Name": "President King Corgi Emblem",
@@ -829,7 +829,7 @@
   },
   "Dagath Emblem": {
     "Type": "Emblem",
-    "Image": "HalloweenEmblem2024Dagath.png",
+    "Image": "DagathEmblem(ExWhite).png",
     "Description": "An emblem worn in honor of the mirror that accuses.",
     "Link": "Dagath Emblem",
     "Name": "Dagath Emblem",
@@ -839,7 +839,7 @@
   },
   "Disciple's Emblem": {
     "Type": "Emblem",
-    "Image": "FoundersBadgeDiscipleHolo.png",
+    "Image": "Disciple'sEmblem.png",
     "Description": "This emblem signifies the wearer as being a Disciple within the Tenno ranks.",
     "Link": "Disciple's Emblem",
     "Name": "Disciple's Emblem",
@@ -849,7 +849,7 @@
   },
   "Lunar Renewal Dragon Emblem": {
     "Type": "Emblem",
-    "Image": "Cny2024DragonEmblem.png",
+    "Image": "LunarRenewalDragonEmblem.png",
     "Description": "Celebrate the Lunar Renewal with the honor of the dragon.",
     "Link": "Lunar Renewal Dragon Emblem",
     "Name": "Lunar Renewal Dragon Emblem",
@@ -859,7 +859,7 @@
   },
   "Swarm Mutalist Moa Emblem": {
     "Type": "Emblem",
-    "Image": "InfTacAlertNaniteMoa.png",
+    "Image": "SwarmMutalistMoaEmblem(ExWhite).png",
     "Description": "Awarded to Tenno who participated in the Mutalist Incursions event.",
     "Link": "Swarm Mutalist Moa Emblem",
     "Name": "Swarm Mutalist Moa Emblem",
@@ -869,7 +869,7 @@
   },
   "Pack Leader Emblem": {
     "Type": "Emblem",
-    "Image": "BaroKubrowEmblem.png",
+    "Image": "PackLeaderEmblem(ExWhite).png",
     "Description": "An emblem representing your Kubrow allegiance.",
     "Link": "Pack Leader Emblem",
     "Name": "Pack Leader Emblem",
@@ -879,7 +879,7 @@
   },
   "Glaring Emblem": {
     "Type": "Emblem",
-    "Image": "BaroKavatEmblem.png",
+    "Image": "GlaringEmblem(ExWhite).png",
     "Description": "An emblem representing your Kavat allegiance.",
     "Link": "Glaring Emblem",
     "Name": "Glaring Emblem",
@@ -889,7 +889,7 @@
   },
   "Stratos Emblem": {
     "Type": "Emblem",
-    "Image": "BountyHunterBadge.png",
+    "Image": "StratosEmblem(ExWhite).png",
     "Description": "The holographic interface on this emblem will update to display the rank achieved through exemplary dedication to Tactical Alerts.",
     "Link": "Stratos Emblem",
     "Name": "Stratos Emblem",
@@ -899,7 +899,7 @@
   },
   "Old Blood Emblem": {
     "Type": "Emblem",
-    "Image": "LichKillerEmblem.png",
+    "Image": "OldBloodEmblem.png",
     "Description": "The emblem of one who has bested an inhuman adversary born of the Old Blood: a Kuva Lich.",
     "Link": "Old Blood Emblem",
     "Name": "Old Blood Emblem",
@@ -909,7 +909,7 @@
   },
   "Buried Debts Emblem": {
     "Type": "Emblem",
-    "Image": "OrbBadgeItem.png",
+    "Image": "BuriedDebtsEmblem(ExWhite).png",
     "Description": "The mark of one who works to preserve Fortuna from the ravages of thermia fractures.",
     "Link": "Buried Debts Emblem",
     "Name": "Buried Debts Emblem",
@@ -929,7 +929,7 @@
   },
   "Grand Master Emblem": {
     "Type": "Emblem",
-    "Image": "FoundersBadgeGrandMasterHolo.png",
+    "Image": "GrandMasterEmblem.png",
     "Description": "This emblem signifies the wearer as being a Grand Master within the Tenno ranks.",
     "Link": "Grand Master Emblem",
     "Name": "Grand Master Emblem",
@@ -949,7 +949,7 @@
   },
   "Mutalist Incursions Emblem": {
     "Type": "Emblem",
-    "Image": "MutalistIncursionsBadge.png",
+    "Image": "MutalistIncursionsEmblem(ExWhite).png",
     "Description": "Awarded to Tenno who participated in the Mutalist Incursions event.",
     "Link": "Mutalist Incursions Emblem",
     "Name": "Mutalist Incursions Emblem",
@@ -959,7 +959,7 @@
   },
   "Gradivus: Loyalty Emblem": {
     "Type": "Emblem",
-    "Image": "GrineerAggressionEventHolo.png",
+    "Image": "GradivusLoyaltyEmblem(ExWhite).png",
     "Description": "An insignia marking Tenno who aligned with the Grineer during the Gradivus Dilemma.",
     "Link": "Gradivus: Loyalty Emblem",
     "Name": "Gradivus: Loyalty Emblem",
@@ -969,7 +969,7 @@
   },
   "Mountain Leader Emblem": {
     "Type": "Emblem",
-    "Image": "LeaderBadgeMountainHolo.png",
+    "Image": "MountainLeaderEmblem.png",
     "Description": "Designates the wearer as the highest ranking soldier amongst Mountain-Tier Clans this era.",
     "Link": "Mountain Leader Emblem",
     "Name": "Mountain Leader Emblem",
@@ -979,7 +979,7 @@
   },
   "Master's Emblem": {
     "Type": "Emblem",
-    "Image": "FoundersBadgeMasterHolo.png",
+    "Image": "Master'sEmblem.png",
     "Description": "This emblem signifies the wearer as being a Master within the Tenno ranks.",
     "Link": "Master's Emblem",
     "Name": "Master's Emblem",
@@ -989,7 +989,7 @@
   },
   "Breeding Grounds Emblem": {
     "Type": "Emblem",
-    "Image": "HiveSabotageEventBadge.png",
+    "Image": "BreedingGroundsEmblem(ExWhite).png",
     "Description": "Awarded to Tenno for the contributions they made during the Breeding Grounds event.",
     "Link": "Breeding Grounds Emblem",
     "Name": "Breeding Grounds Emblem",
@@ -999,7 +999,7 @@
   },
   "Boiler Emblem": {
     "Type": "Emblem",
-    "Image": "InfTacAlertPussAncient.png",
+    "Image": "BoilerEmblem(Exwhite).png",
     "Description": "Awarded to Tenno who participated in the Mutalist Incursions event.",
     "Link": "Boiler Emblem",
     "Name": "Boiler Emblem",
@@ -1009,7 +1009,7 @@
   },
   "Ten Year Anniversary Emblem": {
     "Type": "Emblem",
-    "Image": "TenYearAnniversaryBadge.png",
+    "Image": "TenYearAnniversaryEmblem.png",
     "Description": "An emblem to commemorate ten years of Warframe.",
     "Link": "Ten Year Anniversary Emblem",
     "Name": "Ten Year Anniversary Emblem",
@@ -1019,7 +1019,7 @@
   },
   "Scarlet Spear Murex I Emblem": {
     "Type": "Emblem",
-    "Image": "ScarletSpearMedallionsSpace1.png",
+    "Image": "ScarletSpearMurexIEmblem.png",
     "Description": "Earned through Railjack raids against the Sentient Murex during Operation Scarlet Spear.",
     "Link": "Scarlet Spear Murex I Emblem",
     "Name": "Scarlet Spear Murex I Emblem",
@@ -1029,7 +1029,7 @@
   },
   "Erznung Emblem": {
     "Type": "Emblem",
-    "Image": "ZawInspiredEmblemC.png",
+    "Image": "ErznungEmblem.png",
     "Description": "An insignia awarded to the Tenno Elite who proved themselves during the Tohtchi Variant.",
     "Link": "Erznung Emblem",
     "Name": "Erznung Emblem",
@@ -1039,7 +1039,7 @@
   },
   "Jordas Sekhara": {
     "Type": "Emblem",
-    "Image": "GolemRaidBadge.png",
+    "Image": "JordasSekhara.png",
     "Description": "A fragment of the Jordas Golem worn as a trophy by those who defeated him.",
     "Link": "Jordas Sekhara",
     "Name": "Jordas Sekhara",
@@ -1049,7 +1049,7 @@
   },
   "Ki'Teer Sekhara": {
     "Type": "Emblem",
-    "Image": "BaroBadge.png",
+    "Image": "Ki'Teer Sekhara.png",
     "Description": "Stand apart from the crowd with this Ki'Teer original.",
     "Link": "Ki'Teer Sekhara",
     "Name": "Ki'Teer Sekhara",
@@ -1059,7 +1059,7 @@
   },
   "Kuria Emblem": {
     "Type": "Emblem",
-    "Image": "OrokittyBadge.png",
+    "Image": "KuriaEmblem.png",
     "Description": "A mysterious emblem of unknown origin.",
     "Link": "Kuria Emblem",
     "Name": "Kuria Emblem",
@@ -1079,7 +1079,7 @@
   },
   "Hunter's Emblem": {
     "Type": "Emblem",
-    "Image": "FoundersBadgeHunterHolo.png",
+    "Image": "Hunter'sEmblem.png",
     "Description": "This emblem signifies the wearer as being a Hunter within the Tenno ranks.",
     "Link": "Hunter's Emblem",
     "Name": "Hunter's Emblem",
@@ -1089,7 +1089,7 @@
   },
   "Nightwave Emblem": {
     "Type": "Emblem",
-    "Image": "RadioLegionEmblem.png",
+    "Image": "NightwaveEmblem(ExWhite).png",
     "Description": "For the Sleepless, the Dreamers.",
     "Link": "Nightwave Emblem",
     "Name": "Nightwave Emblem",
@@ -1099,7 +1099,7 @@
   },
   "Acolyte Emblem": {
     "Type": "Emblem",
-    "Image": "ProjectSinisterBadge.png",
+    "Image": "AcolyteEmblem(ExWhite).png",
     "Description": "An insignia dropped by an Acolyte of the Stalker.",
     "Link": "Acolyte Emblem",
     "Name": "Acolyte Emblem",
@@ -1109,7 +1109,7 @@
   },
   "Aseron Sekhara": {
     "Type": "Emblem",
-    "Image": "NightmareRaidSekhara.png",
+    "Image": "AseronSekhara.png",
     "Description": "Created as a meditation on the ever expanding ribbon of energy that runs through the universe.",
     "Link": "Aseron Sekhara",
     "Name": "Aseron Sekhara",
@@ -1119,7 +1119,7 @@
   },
   "Gauvan Umbra Sekhara": {
     "Type": "Emblem",
-    "Image": "UmbraBadge.png",
+    "Image": "GauvanUmbraSekhara.png",
     "Description": "A symbol held sacred by a shadowy order of Tenno.",
     "Link": "Gauvan Umbra Sekhara",
     "Name": "Gauvan Umbra Sekhara",
@@ -1129,7 +1129,7 @@
   },
   "Gate Crash Emblem": {
     "Type": "Emblem",
-    "Image": "OrokinSabotageBadge.png",
+    "Image": "GateCrashEmblem(ExWhite).png",
     "Description": "Awarded to Tenno for their contribution during Operation Gate Crash.",
     "Link": "Gate Crash Emblem",
     "Name": "Gate Crash Emblem",
@@ -1139,7 +1139,7 @@
   },
   "Lunar Renewal Tiger Emblem": {
     "Type": "Emblem",
-    "Image": "Cny2022TigerEmblem.png",
+    "Image": "LunarRenewalTigerEmblem.png",
     "Description": "Celebrate the Lunar Renewal with the strength of the tiger.",
     "Link": "Lunar Renewal Tiger Emblem",
     "Name": "Lunar Renewal Tiger Emblem",
@@ -1149,7 +1149,7 @@
   },
   "Brood Mother Emblem": {
     "Type": "Emblem",
-    "Image": "InfTacAlertDiseasedAncient.png",
+    "Image": "BroodMotherEmblem(ExWhite).png",
     "Description": "Awarded to Tenno who participated in the Mutalist Incursions event.",
     "Link": "Brood Mother Emblem",
     "Name": "Brood Mother Emblem",
@@ -1169,7 +1169,7 @@
   },
   "Lunar Renewal Ox Emblem": {
     "Type": "Emblem",
-    "Image": "Cny2021OxEmblem.png",
+    "Image": "LunarRenewalOxEmblem.png",
     "Description": "Celebrate the New Lunar Year with the power of the noble ox.",
     "Link": "Lunar Renewal Ox Emblem",
     "Name": "Lunar Renewal Ox Emblem",
@@ -1179,7 +1179,7 @@
   },
   "Emissary Emblem": {
     "Type": "Emblem",
-    "Image": "EmissarySigil_d.png",
+    "Image": "EmissaryEmblem.png",
     "Description": "Display the mark of Arlo’s devoted with this Emblem.",
     "Link": "Emissary Emblem",
     "Name": "Emissary Emblem",
@@ -1189,7 +1189,7 @@
   },
   "Tiberon Obsidian Emblem": {
     "Type": "Emblem",
-    "Image": "DrakeRifleEmblem.png",
+    "Image": "TiberonObsidianEmblem.png",
     "Description": "An insignia worn by proficient Tenno sharpshooters.",
     "Link": "Tiberon Obsidian Emblem",
     "Name": "Tiberon Obsidian Emblem",
@@ -1199,7 +1199,7 @@
   },
   "DEIMOS CONSERVATION EMBLEM": {
     "Type": "Emblem",
-    "Image": "ConservationBadgeDeimos.png",
+    "Image": "DeimosConservationEmblem.png",
     "Description": "A symbol of your dedication to the safety of all creatures on Deimos.",
     "Link": "DEIMOS CONSERVATION EMBLEM",
     "Name": "DEIMOS CONSERVATION EMBLEM",
@@ -1209,7 +1209,7 @@
   },
   "Alliance Emblem": {
     "Type": "Emblem",
-    "Image": "ClanEmblemHolo.png",
+    "Image": "ClanEmblem.png",
     "Description": "An insignia that projects a holographic image of your alliance emblem. Requires a Warlord in the clan that created the alliance to upload an image of the alliance emblem.",
     "Link": "Alliance Emblem",
     "Name": "Alliance Emblem",
@@ -1229,7 +1229,7 @@
   },
   "Dog Days Emblem": {
     "Type": "Emblem",
-    "Image": "SplashEventIcon.png",
+    "Image": "DogDaysEmblem(ExWhite).png",
     "Description": "Beat the heat with this unique emblem.",
     "Link": "Dog Days Emblem",
     "Name": "Dog Days Emblem",
@@ -1239,7 +1239,7 @@
   },
   "Belly of the Beast Emblem": {
     "Type": "Emblem",
-    "Image": "JadeEmblem.png",
+    "Image": "BellyOfTheBeastEmblem(ExWhite).png",
     "Description": "An emblem available to clan members who kept Jade’s Volatile Motes out of the hands of Parvos Granum in Operation: Belly of the Beast.",
     "Link": "Belly of the Beast Emblem",
     "Name": "Belly of the Beast Emblem",

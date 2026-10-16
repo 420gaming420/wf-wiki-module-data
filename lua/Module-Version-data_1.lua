@@ -19268,6 +19268,30 @@ local Versions = {
 		ArchiveDate = "[PH]",
 		Timestamp = 1791501288,
 	},
+	{
+		Name = "Hotfix 44.1.2",
+		Link = "Update 44#Hotfix 44.1.2",
+		Aliases = { "44.1.2" },
+		ShortName = "H44.1.2",
+		Date = "2026-10-15",
+		Parent = "44",
+		ForumLink = "https://forums.warframe.com/topic/1528620-iceblade-of-narin-the-icebind-hotfix-4412-2/",
+		ArchiveLink = "[PH]",
+		ArchiveDate = "[PH]",
+		Timestamp = 1792090504,
+	},
+	{
+		Name = "Hotfix 44.1.2.1",
+		Link = "Update 44#Hotfix 44.1.2.1",
+		Aliases = { "44.1.2.1" },
+		ShortName = "H44.1.2.1",
+		Date = "2026-10-15",
+		Parent = "44",
+		ForumLink = "https://forums.warframe.com/topic/1528620-iceblade-of-narin-the-icebind-hotfix-4412-21/",
+		ArchiveLink = "[PH]",
+		ArchiveDate = "[PH]",
+		Timestamp = 1792103652,
+	},
 }
 
 -- Building additional indexes from data

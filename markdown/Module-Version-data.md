@@ -1,7 +1,7 @@
 ---
 title: "Module:Version/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Version/data"
-wiki_timestamp: "2026-10-08T21:13:34Z"
+wiki_timestamp: "2026-10-15T19:00:58Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Include official index links in schema like <https://www.warframe.com/patch-note
 
 Database for [Module:Version](/w/Module:Version "Module:Version"). Entries are in order by date in ascending order and are indexed by `Name` and each element in `Aliases` tables.
 
-:   *Last updated: Thu, 08 Oct 2026 21:13:34 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Version/data?diff=0))*
+:   *Last updated: Thu, 15 Oct 2026 19:00:58 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Version/data?diff=0))*
 
 ## Contents
 
@@ -661,6 +661,8 @@ Full Version List")]
 | [Hotfix 19.4.2.1](/w/Update_19#Hotfix_19.4.2.1 "Update 19") | 19.0 | H19.4.2.1 |  |  | ❌ | 2016-12-20 | <https://forums.warframe.com/topic/737306-the-war-within-update-1942-19421/> | 1482277076 | <https://web.archive.org/web/20211125042920/https://forums.warframe.com/topic/737306-the-war-within-update-1942-19421/> | 2021-11-25 |
 | [Update 18.4](/w/Update_18#Update_18.4 "Update 18") | 18.4 | U18.4 | Trinity Deluxe Strega Collection |  | ✔️ | 2016-01-22 | <https://forums.warframe.com/topic/597888-update-1840/> | 1453422263 | <https://web.archive.org/web/20210508075720/https://forums.warframe.com/topic/597888-update-1840/> | 2021-05-08 |
 | [Update 17.3](/w/Update_17#Update_17.3 "Update 17") | 17.3 | U17.3 | Tenno Reinforcements: Syndicate Weapons and Diriga |  | ✔️ | 2015-09-02 | <https://forums.warframe.com/topic/521781-update-1730/> | 1441227406 | <https://web.archive.org/web/20210508041801/https://forums.warframe.com/topic/521781-update-1730/> | 2021-05-08 |
+| [Hotfix 24.1.4](/w/Update_24#Hotfix_24.1.4 "Update 24") | 24.1 | H24.1.4 |  |  | ❌ | 2018-12-10 | <https://forums.warframe.com/topic/1042413-fortuna-hotfix-2414/> | 1544472554 | <https://web.archive.org/web/20201112013655/https://forums.warframe.com/topic/1042413-fortuna-hotfix-2414/> | 2020-11-12 |
+| [Hotfix 29.6.1](/w/Update_29#Hotfix_29.6.1 "Update 29") | 29.6 | H29.6.1 |  |  | ❌ | 2020-12-18 | <https://forums.warframe.com/topic/1241287-orphix-venom-hotfix-2961/> | 1608324540 | <https://web.archive.org/web/20210123122757/https://forums.warframe.com/topic/1241287-orphix-venom-hotfix-2961/> | 2021-01-23 |
 | [Hotfix 44.1.1](/w/Update_44#Hotfix_44.1.1 "Update 44") | 44 | H44.1.1 |  |  | ❌ | 2026-10-08 | <https://forums.warframe.com/topic/1527669-iceblade-of-narin-the-icebind-hotfix-4411/> | 1791501288 | [PH] | [PH] |
 | [Hotfix 10.5.6](/w/Update_10#Hotfix_10.5.6 "Update 10") | 10.5 | H10.5.6 |  |  | ❌ | 2013-10-29 | <https://forums.warframe.com/topic/125633-hotfix-1056/> | 1383067211 | <https://web.archive.org/web/20220129234220/https://forums.warframe.com/topic/125633-hotfix-1056/> | 2022-01-29 |
 | [Hotfix 43.0.4](/w/Update_43#Hotfix_43.0.4 "Update 43") | 43.0 | H43.0.4 |  |  | ❌ | 2026-06-23 | <https://forums.warframe.com/topic/1513074-jade-shadows-constellations-hotfix-4304/> | 1782241689 |  |  |
@@ -997,7 +999,7 @@ Full Version List")]
 | [Hotfix 33.0.7](/w/Update_33#Hotfix_33.0.7 "Update 33") | 33.0 | H33.0.7 |  |  | ❌ | 2023-05-09 | <https://forums.warframe.com/topic/1351843-the-duviri-paradox-hotfix-3307/> | 1683667437 | <https://web.archive.org/web/20230509212934/https://forums.warframe.com/topic/1351843-the-duviri-paradox-hotfix-3307/> | 2023-05-09 |
 | [Update 22.12](/w/Update_22#Update_22.12 "Update 22") | 22.12 | U22.12 | Shrine of the Eidolon |  | ✔️ | 2018-02-09 | <https://forums.warframe.com/topic/918482-shrine-of-the-eidolon-update-22120/> | 1518219466 | <https://web.archive.org/web/20211020195657/https://forums.warframe.com/topic/918482-shrine-of-the-eidolon-update-22120/> | 2021-10-20 |
 | [Hotfix 31.1.1](/w/Update_31#Hotfix_31.1.1 "Update 31") | 31.0 | H31.1.1 |  |  | ❌ | 2022-02-09 | <https://forums.warframe.com/topic/1299718-echoes-of-war-hotfix-3111/> | 1644441587 | <https://web.archive.org/web/20220209213823/https://forums.warframe.com/topic/1299718-echoes-of-war-hotfix-3111/> | 2022-02-09 |
-| [Hotfix 24.1.4](/w/Update_24#Hotfix_24.1.4 "Update 24") | 24.1 | H24.1.4 |  |  | ❌ | 2018-12-10 | <https://forums.warframe.com/topic/1042413-fortuna-hotfix-2414/> | 1544472554 | <https://web.archive.org/web/20201112013655/https://forums.warframe.com/topic/1042413-fortuna-hotfix-2414/> | 2020-11-12 |
+| [Hotfix 44.1.2.1](/w/Update_44#Hotfix_44.1.2.1 "Update 44") | 44 | H44.1.2.1 |  |  | ❌ | 2026-10-15 | <https://forums.warframe.com/topic/1528620-iceblade-of-narin-the-icebind-hotfix-4412-21/> | 1792103652 | [PH] | [PH] |
 | [Update 10.8](/w/Update_10#Update_10.8 "Update 10") | 10.8 | U10.8 | Nekros/Nova Cosmetic Helmets |  | ✔️ | 2013-11-13 | <https://forums.warframe.com/topic/130600-update-1080/> | 1384368481 | <https://web.archive.org/web/20220129234449/https://forums.warframe.com/topic/130600-update-1080/> | 2022-01-29 |
 | [Hotfix 29.6.7.1](/w/Update_29#Hotfix_29.6.7.1 "Update 29") | 29.6 | H29.6.7.1 |  |  | ❌ | 2021-01-14 | <https://forums.warframe.com/topic/1245021-orphix-venom-hotfix-2967-29671/> | 1610549220 | <https://web.archive.org/web/20210303090535/https://forums.warframe.com/topic/1245021-orphix-venom-hotfix-2967-29671/> | 2021-03-03 |
 | [Update 22.7](/w/Update_22#Update_22.7 "Update 22") | 22.7 | U22.7 | Mirage Prime |  | ✔️ | 2017-12-12 | <https://forums.warframe.com/topic/893859-plains-of-eidolon-mirage-prime-2270/> | 1513105059 | <https://web.archive.org/web/20210226185719/https://forums.warframe.com/topic/893859-plains-of-eidolon-mirage-prime-2270/> | 2021-02-26 |
@@ -1115,7 +1117,7 @@ Full Version List")]
 | [Hotfix 22.20.9.1](/w/Update_22#Hotfix_22.20.9.1 "Update 22") | 22.20 | H22.20.9.1 |  |  | ❌ | 2018-06-07 | <https://forums.warframe.com/topic/964770-beasts-of-the-sanctuary-hotfix-22209-222091-222092/> | 1528392987 | <https://web.archive.org/web/20201125223955/https://forums.warframe.com/topic/964770-beasts-of-the-sanctuary-hotfix-22209-222091-222092/> | 2020-11-25 |
 | [Hotfix 11.3.3](/w/Update_11#Hotfix_11.3.3 "Update 11") | 11.3 | H11.3.3 |  |  | ❌ | 2013-12-13 | <https://forums.warframe.com/topic/147899-hotfix-1133/> | 1386976927 | <https://web.archive.org/web/20220129222234/https://forums.warframe.com/topic/147899-hotfix-1133/> | 2022-01-29 |
 | [Update 19.1](/w/Update_19#Update_19.1 "Update 19") | 19.0 | U19.1 | Ash Revisited |  | ✔️ | 2016-11-25 | <https://forums.warframe.com/topic/725159-the-war-within-1910-ash-revisited/> | 1480103488 | <https://web.archive.org/web/20201111224658/https://forums.warframe.com/topic/725159-the-war-within-1910-ash-revisited/> | 2020-11-11 |
-| [Hotfix 29.6.1](/w/Update_29#Hotfix_29.6.1 "Update 29") | 29.6 | H29.6.1 |  |  | ❌ | 2020-12-18 | <https://forums.warframe.com/topic/1241287-orphix-venom-hotfix-2961/> | 1608324540 | <https://web.archive.org/web/20210123122757/https://forums.warframe.com/topic/1241287-orphix-venom-hotfix-2961/> | 2021-01-23 |
+| [Hotfix 44.1.2](/w/Update_44#Hotfix_44.1.2 "Update 44") | 44 | H44.1.2 |  |  | ❌ | 2026-10-15 | <https://forums.warframe.com/topic/1528620-iceblade-of-narin-the-icebind-hotfix-4412-2/> | 1792090504 | [PH] | [PH] |
 | [Hotfix 29.5.8](/w/Update_29#Hotfix_29.5.8 "Update 29") | 29.5 | H29.5.8 |  |  | ❌ | 2020-12-11 | <https://forums.warframe.com/topic/1240154-hotfix-2958/> | 1607731680 | <https://web.archive.org/web/20210123111406/https://forums.warframe.com/topic/1240154-hotfix-2958/> | 2021-01-23 |
 | [Hotfix 29.5.7](/w/Update_29#Hotfix_29.5.7 "Update 29") | 29.5 | H29.5.7 |  |  | ❌ | 2020-12-10 | <https://forums.warframe.com/topic/1239954-deimos-arcana-hotfix-2957/> | 1607635615 | <https://web.archive.org/web/20210121231659/https://forums.warframe.com/topic/1239954-deimos-arcana-hotfix-2957/> | 2021-01-21 |
 | [Hotfix 29.5.5](/w/Update_29#Hotfix_29.5.5 "Update 29") | 29.5 | H29.5.5 |  |  | ❌ | 2020-11-27 | <https://forums.warframe.com/topic/1238119-deimos-arcana-hotfix-2955-29551/> | 1606526880 | <https://web.archive.org/web/20210123122118/https://forums.warframe.com/topic/1238119-deimos-arcana-hotfix-2955-29551/> | 2021-01-23 |
@@ -20948,6 +20950,30 @@ local Versions = {
 		ArchiveLink = "[PH]",
 		ArchiveDate = "[PH]",
 		Timestamp = 1791501288,
+	},
+	{
+		Name = "Hotfix 44.1.2",
+		Link = "Update 44#Hotfix 44.1.2",
+		Aliases = { "44.1.2" },
+		ShortName = "H44.1.2",
+		Date = "2026-10-15",
+		Parent = "44",
+		ForumLink = "https://forums.warframe.com/topic/1528620-iceblade-of-narin-the-icebind-hotfix-4412-2/",
+		ArchiveLink = "[PH]",
+		ArchiveDate = "[PH]",
+		Timestamp = 1792090504,
+	},
+	{
+		Name = "Hotfix 44.1.2.1",
+		Link = "Update 44#Hotfix 44.1.2.1",
+		Aliases = { "44.1.2.1" },
+		ShortName = "H44.1.2.1",
+		Date = "2026-10-15",
+		Parent = "44",
+		ForumLink = "https://forums.warframe.com/topic/1528620-iceblade-of-narin-the-icebind-hotfix-4412-21/",
+		ArchiveLink = "[PH]",
+		ArchiveDate = "[PH]",
+		Timestamp = 1792103652,
 	},
 }
 

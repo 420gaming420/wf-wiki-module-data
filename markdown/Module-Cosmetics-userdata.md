@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/userdata"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/userdata"
-wiki_timestamp: "2026-10-02T13:35:54Z"
+wiki_timestamp: "2026-10-16T06:09:58Z"
 ---
 
 ## Users Data Schema
@@ -230,6 +230,7 @@ return {
 		Equipments = {
 			Skin = {
 				"Sirocco Amp Skin",
+				"Vacis Amp Skin",
 			},
 		},
 		Type = "Weapons",
@@ -516,6 +517,9 @@ return {
 				"Conquera Leg Ribbon",
 				"Conquera Ribbon",
 				"Conquera Shoulder Ribbon",
+				"Contegorus Chest Plate",
+				"Contegorus Pauldrons",
+				"Contegorus Greaves",
 				"Corachrix Shoulder Pauldrons",
 				"Daedalus Chest Plate",
 				"Daedalus Shoulder Plates",
@@ -687,6 +691,9 @@ return {
 				"Naimore Chest Plate",
 				"Naimore Leg Plates",
 				"Naimore Shoulder Plates",
+				"Naktavyre Chest Armor",
+				"Naktavyre Shoulder Armor",
+				"Naktavyre Leg Armor",
 				"Naramon Badge",
 				"Narvarr Prime Chest Plate",
 				"Narvarr Prime Leg Plates",
@@ -2122,6 +2129,7 @@ return {
 				"DUOWAN EMBLEM",
 				"Emblem of the Hunt",
 				"Emissary Emblem",
+				"Epoch Operation Vessel Emblem",
 				"Erznung Emblem",
 				"Eyes of Blight Emblem",
 				"False Profit Emblem",
@@ -6557,6 +6565,7 @@ return {
 				"Despot Cape Syandana",
 				"Dessicata Syandana",
 				"Dex Nouchali Syandana",
+				"Dhampyre Syandana",
 				"Diablillo Syandana",
 				"Disconnect Syandana",
 				"Dominus Syandana",
@@ -6766,6 +6775,7 @@ return {
 				"Valesti Syandana",
 				"Vanquished Banner",
 				"Vanquished Banner Day of the Dead",
+				"Valdur's Syandana",
 				"Vasa Syandana",
 				"Vaykor Syandana",
 				"Verismo Syandana",

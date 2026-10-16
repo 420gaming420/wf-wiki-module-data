@@ -1,12 +1,12 @@
 ---
 title: "Module:Honorias/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Honorias/data"
-wiki_timestamp: "2026-10-11T14:30:39Z"
+wiki_timestamp: "2026-10-15T18:44:07Z"
 ---
 
 Database for all [Honorias](/w/Honoria "Honoria") in [WARFRAME](/w/WARFRAME "WARFRAME"). Preferably put new honorias in the correct alphabetical order, but it is not necessary.
 
-:   *Last updated: Sun, 11 Oct 2026 14:30:39 +0000 (UTC) by [User:ArbitraryMary](/w/User:ArbitraryMary "User:ArbitraryMary") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
+:   *Last updated: Thu, 15 Oct 2026 18:44:07 +0000 (UTC) by [User:ArbitraryMary](/w/User:ArbitraryMary "User:ArbitraryMary") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
 
 ## Contents
 
@@ -75,7 +75,9 @@ All data types are valid in Module:Honorias/data!
 Validating data types of values
 ```
 
-All field values logic are valid in Module:Honorias/data!
+**p.validateFieldValues(frame): There are a total of 1 value errors**
+
+1. "[The Moon Killer](/w/The_Moon_Killer?action=edit&redlink=1 "The Moon Killer (page does not exist)")" contains invalid tag `Praghasa` in Tags table
 
 ## References
 
@@ -2513,6 +2515,17 @@ local honoriaData = {
 		ExcludeFromCodex = true,
 		Tags = { "Miscellaneous" },
 	},
+	["The Moon Killer"] = {
+		Name = "The Moon Killer",
+		Link = "The Moon Killer",
+		Price = { ["Moonflesh"] = "175" },
+		Position = "Suffix",
+		Introduced = "44.1.2", -- exist since 44 but was available since 44.1.2
+		InternalName = "/Lotus/Types/Items/Titles/MoonfleshTitle",
+		CodexSecret = false,
+		ExcludeFromCodex = true,
+		Tags = { "Praghasa", "Event" },
+	},
 	--["Conquera"] = {
 	--	_IgnoreEntry = true,
 	--	Name = "Conquera",
@@ -2545,18 +2558,6 @@ local honoriaData = {
 	--	Position = "?",
 	--	Introduced = "44",-- currently, 44 is is the version where is was added to the PE
 	--	InternalName = "/Lotus/Types/Items/Titles/MoonDevourerTitle",
-	--	CodexSecret = false,
-	--	ExcludeFromCodex = true,
-	--	Tags = { "Hidden" },
-	--},
-	--["The Moon Killer"] = {
-	--	_IgnoreEntry = true,
-	--	Name = "The Moon Killer",
-	--	Link = "The Moon Killer",
-	--	Description = "?",
-	--	Position = "?",
-	--	Introduced = "44",-- currently, 44 is is the version where is was added to the PE
-	--	InternalName = "/Lotus/Types/Items/Titles/MoonfleshTitle",
 	--	CodexSecret = false,
 	--	ExcludeFromCodex = true,
 	--	Tags = { "Hidden" },

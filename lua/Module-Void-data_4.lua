@@ -27,7 +27,7 @@ local DUCAT_EXCEPTIONS = {
 		["Saryn Prime"] = { ["Neuroptics Blueprint"] = 45 },
 		["Soma Prime"] = { Blueprint = 15 },
 		["Mesa Prime"] = { ["Systems Blueprint"] = 100 },
-		["Bronco Prime"] = { Barrel = 45 },
+		["Bronco Prime"] = { Barrel = 25 },
 		["Gauss Prime"] = {["Blueprint"] = 25 },
 		["Panthera Prime"] = { Receiver = 100 },
 		["Fang Prime"] = { Blueprint = 15 },

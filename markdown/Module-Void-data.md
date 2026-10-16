@@ -1,7 +1,7 @@
 ---
 title: "Module:Void/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Void/data"
-wiki_timestamp: "2026-10-14T14:38:22Z"
+wiki_timestamp: "2026-10-16T04:47:16Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -16,7 +16,7 @@ Note that no drop chances are stored here since all relics of the same refinemen
 
 Also the place to update if a Prime part's [![](/images/thumb/OrokinDucats.png/32px-OrokinDucats.png?23930)](/w/Orokin_Ducats "Orokin Ducats") [Orokin Ducats](/w/Orokin_Ducats "Orokin Ducats") trade-in value is an anomaly for their rarity. See [#Prime Item Ducat Sell Price](#Prime_Item_Ducat_Sell_Price).
 
-:   *Last updated: Wed, 14 Oct 2026 14:38:22 +0000 (UTC) by [User:Arubin](/w/User:Arubin?action=edit&redlink=1 "User:Arubin (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Void/data?diff=0))*
+:   *Last updated: Fri, 16 Oct 2026 04:47:16 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Void/data?diff=0))*
 
 ## Contents
 
@@ -327,7 +327,7 @@ local DUCAT_EXCEPTIONS = {
 		["Saryn Prime"] = { ["Neuroptics Blueprint"] = 45 },
 		["Soma Prime"] = { Blueprint = 15 },
 		["Mesa Prime"] = { ["Systems Blueprint"] = 100 },
-		["Bronco Prime"] = { Barrel = 45 },
+		["Bronco Prime"] = { Barrel = 25 },
 		["Gauss Prime"] = {["Blueprint"] = 25 },
 		["Panthera Prime"] = { Receiver = 100 },
 		["Fang Prime"] = { Blueprint = 15 },

@@ -1,7 +1,7 @@
 ---
 title: "Module:Ability/data/doc"
 wiki_url: "https://wiki.warframe.com/w/Module/Ability/data/doc"
-wiki_timestamp: "2026-07-23T15:35:12Z"
+wiki_timestamp: "2026-10-15T13:27:32Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Add [Railjack](/w/Railjack "Railjack") abilities like [Phoenix Blaze](/w/Phoenix
 
 Database of abilities in [WARFRAME](/w/WARFRAME "WARFRAME").
 
-:   *Last updated: Thu, 23 Jul 2026 15:35:12 +0000 (UTC) by [User:FAKIR](/w/User:FAKIR "User:FAKIR") ([change log](https://wiki.warframe.com/w/Module:Ability/data/doc?diff=0))*
+:   *Last updated: Thu, 15 Oct 2026 13:27:32 +0000 (UTC) by [User:Yazuh](/w/User:Yazuh "User:Yazuh") ([change log](https://wiki.warframe.com/w/Module:Ability/data/doc?diff=0))*
 
 ## Contents
 
@@ -23,7 +23,8 @@ Database of abilities in [WARFRAME](/w/WARFRAME "WARFRAME").
 
 ## Ability Entry Schema
 
-[[edit source](/w/Module:Ability/data/doc?action=edit&section=1 "Edit section's source code: Ability Entry Schema")]
+[[edit](/w/Module:Ability/data/doc?action=edit&section=1 "Edit Section using Source Editor:
+Ability Entry Schema")]
 
 ```lua
 	["Ability Name"] = {
@@ -34,6 +35,7 @@ Database of abilities in [WARFRAME](/w/WARFRAME "WARFRAME").
 		Icon = "AbilityIcon.png",
   		InternalName = "/Lotus/Powersuits/PowersuitAbilities/",
 		Introduced = "29",
+		IsChanneled = true,
 		Key = 4,
 		Link = "Page Name",
 		Name = "Ability Name",
@@ -54,6 +56,7 @@ Database of abilities in [WARFRAME](/w/WARFRAME "WARFRAME").
 | `Icon` | String | ✔️ | Image file name of the ability icon as uploaded to the wiki; icon must be in black | `"Airburst130xDark.png"` |
 | `InternalName` | String | ✔️ | The full unique name of an ability formatted as a file path | `"/Lotus/Powersuits/PowersuitAbilities/HelminthStrengthAbility"` |
 | `Introduced` | String | ✔️ | The game version in which the ability was first introduced in the global build of [WARFRAME](/w/WARFRAME "WARFRAME"). `Introduced` keys can be cross-referenced with [Module:Warframes/data](/w/Module:Warframes/data "Module:Warframes/data"), but note that some abilities were introduced later on with Warframe reworks or are not associated with an individual Warframe at all (e.g. [Helminth](/w/Helminth "Helminth") abilities). | `"30.5"` or `"Specters of the Rail"` |
+| `IsChanneled` | Boolean | ❌ | For abilities in the group of [Channeled Abilities](/w/Channeled_Abilities "Channeled Abilities") | `true` |
 | `Key` | Number (int) | ✔️ | Default [key binding](/w/Key_Bindings "Key Bindings") on PC for ability | `4` |
 | `Link` | String | ✔️ | Page/article link to the ability on the wiki | `"Amp (Ability)"` |
 | `Name` | String | ✔️ | Name of ability | `"Amp"` |
@@ -64,5 +67,6 @@ Database of abilities in [WARFRAME](/w/WARFRAME "WARFRAME").
 
 ## Ability Data
 
-[[edit source](/w/Module:Ability/data/doc?action=edit&section=2 "Edit section's source code: Ability Data")]
+[[edit](/w/Module:Ability/data/doc?action=edit&section=2 "Edit Section using Source Editor:
+Ability Data")]
 

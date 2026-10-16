@@ -1,12 +1,12 @@
 ---
 title: "Module:Resources/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Resources/data"
-wiki_timestamp: "2026-10-08T02:06:07Z"
+wiki_timestamp: "2026-10-15T15:14:42Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME") [Resources](/w/Resources "Resources"), items, and components. For blueprints which require resources to be crafted, see [Module:Blueprints/data](/w/Module:Blueprints/data "Module:Blueprints/data").
 
-:   *Last updated: Thu, 08 Oct 2026 02:06:07 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Resources/data?diff=0))*
+:   *Last updated: Thu, 15 Oct 2026 15:14:42 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Resources/data?diff=0))*
 
 ## Contents
 
@@ -12138,10 +12138,10 @@ local ResourceData = {
 
 	-- Epoch Operation: Taubound --
 	["Moonflesh"] = {
-		-- Description = "Eris, carved up and presented to Praghasa in bite sized chunks.\r\n\r\nObtained from Infested nodes on Eris during Epoch Operation: Taubound.", -- Do not uncomment until event releases, keep it unspoiled
+		Description = "Eris, carved up and presented to Praghasa in bite sized chunks.\r\n\r\nObtained from Infested nodes on Eris during Epoch Operation: Taubound.",
 		Image = "Moonflesh.png",
 		InternalName = "/Lotus/Types/Gameplay/Events/RoadToTauEvent/RoadToTauEventResource",
-		Introduced = "TBA",
+		Introduced = "44.1.2",
 		Link = "Moonflesh",
 		Name = "Moonflesh",
 		Type = "Resource",

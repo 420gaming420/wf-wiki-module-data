@@ -3333,6 +3333,17 @@ return {
         Name = "Uru Syandana",
         Type = "Syandana"
     },
+    ["Valdur's Syandana"] = {
+        CodexSecret = false,
+        Description = "Honor a great commander by wearing his distinctive syandana.",
+        ExcludeFromCodex = false,
+        Image = "ValdursSyandana.png",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/ValdurBackCape",
+        Introduced = "41.0",
+        Link = "Valdur's Syandana",
+        Name = "Valdur's Syandana",
+        Type = "Syandana"
+    },
     ["Valesti Syandana"] = {
         Artists = { "led2012", "Xtygian" },
         CodexSecret = false,

@@ -1,7 +1,7 @@
 ---
 title: "Module:Ability/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Ability/data"
-wiki_timestamp: "2026-09-27T06:46:17Z"
+wiki_timestamp: "2026-10-15T13:25:18Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Add [Railjack](/w/Railjack "Railjack") abilities like [Phoenix Blaze](/w/Phoenix
 
 Database of abilities in [WARFRAME](/w/WARFRAME "WARFRAME").
 
-:   *Last updated: Sun, 27 Sep 2026 06:46:17 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Ability/data?diff=0))*
+:   *Last updated: Thu, 15 Oct 2026 13:25:18 +0000 (UTC) by [User:Yazuh](/w/User:Yazuh "User:Yazuh") ([change log](https://wiki.warframe.com/w/Module:Ability/data?diff=0))*
 
 ## Contents
 
@@ -35,6 +35,7 @@ Ability Entry Schema")]
 		Icon = "AbilityIcon.png",
   		InternalName = "/Lotus/Powersuits/PowersuitAbilities/",
 		Introduced = "29",
+		IsChanneled = true,
 		Key = 4,
 		Link = "Page Name",
 		Name = "Ability Name",
@@ -55,6 +56,7 @@ Ability Entry Schema")]
 | `Icon` | String | ✔️ | Image file name of the ability icon as uploaded to the wiki; icon must be in black | `"Airburst130xDark.png"` |
 | `InternalName` | String | ✔️ | The full unique name of an ability formatted as a file path | `"/Lotus/Powersuits/PowersuitAbilities/HelminthStrengthAbility"` |
 | `Introduced` | String | ✔️ | The game version in which the ability was first introduced in the global build of [WARFRAME](/w/WARFRAME "WARFRAME"). `Introduced` keys can be cross-referenced with [Module:Warframes/data](/w/Module:Warframes/data "Module:Warframes/data"), but note that some abilities were introduced later on with Warframe reworks or are not associated with an individual Warframe at all (e.g. [Helminth](/w/Helminth "Helminth") abilities). | `"30.5"` or `"Specters of the Rail"` |
+| `IsChanneled` | Boolean | ❌ | For abilities in the group of [Channeled Abilities](/w/Channeled_Abilities "Channeled Abilities") | `true` |
 | `Key` | Number (int) | ✔️ | Default [key binding](/w/Key_Bindings "Key Bindings") on PC for ability | `4` |
 | `Link` | String | ✔️ | Page/article link to the ability on the wiki | `"Amp (Ability)"` |
 | `Name` | String | ✔️ | Name of ability | `"Amp"` |
@@ -209,6 +211,7 @@ local AbilityData = {
 			Icon = "UndertowIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/PowersuitAbilities/LiquifyAbility",
 			Introduced = "13",
+			IsChanneled = true,
 			Key = 3,
 			Powersuit = "Hydroid" 
 		},
@@ -262,6 +265,7 @@ local AbilityData = {
 			Icon = "AegisStormIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/IronFrame/Abilities/IronFrameEruptionAbility",
 			Introduced = "24.4",
+			IsChanneled = true,
 			Key = 4,
 			Powersuit = "Hildryn" 
 		},
@@ -361,6 +365,7 @@ local AbilityData = {
 			Icon = "ArtemisBowIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Ranger/Abilities/RangerBowAbility",
 			Introduced = "18",
+			IsChanneled = true,
 			Key = 4,
 			Powersuit = "Ivara",
 			Weapon = "Artemis Bow"
@@ -1061,6 +1066,7 @@ local AbilityData = {
 			Icon = "DesecrateIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Necro/Abilities/SearchTheDeadAbility",
 			Introduced = "10",
+			IsChanneled = true,
 			Key = 3,
 			Powersuit = "Nekros" 
 		},
@@ -1214,6 +1220,7 @@ local AbilityData = {
 			Icon = "EffigyIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Dragon/Abilities/DragonPeltAbility",
 			Introduced = "16",
+			IsChanneled = true,
 			Key = 4,
 			Powersuit = "Chroma" 
 		},
@@ -1257,6 +1264,7 @@ local AbilityData = {
 			Icon = "EludeIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Pacifist/Abilities/PacifistDodgeAbility",
 			Introduced = "24.2",
+			IsChanneled = true,
 			Key = 1,
 			Powersuit = "Baruuk" 
 		},
@@ -1396,6 +1404,7 @@ local AbilityData = {
 			Icon = "ExaltedBladeIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Excalibur/Abilities/SwordOfDoomAbility",
 			Introduced = "16.9",
+			IsChanneled = true,
 			Key = 4,
 			Powersuit = "Excalibur",
 			Weapon = "Exalted Blade"
@@ -1410,6 +1419,7 @@ local AbilityData = {
 			Icon = "ExaltedIronbrideIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechSwordAbility",
 			Introduced = "29.5",
+			IsChanneled = true,
 			Key = 4,
 			Powersuit = "Bonewidow",
 			Weapon = "Ironbride"
@@ -1673,6 +1683,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "GloomIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Wraith/Abilities/WraithGloomAbility",
 			Introduced = "30",
+			IsChanneled = true,
 			Key = 3,
 			Powersuit = "Sevagoth",
 			Subsumable = true
@@ -1687,6 +1698,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "GloryOnHighIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Choir/Abilities/ChoirEruptAbility",
 			Introduced = "36",
+			IsChanneled = true,
 			Key = 4,
 			Powersuit = "Jade", 
 			Weapon = "Glory"
@@ -1781,6 +1793,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "GuardModeIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechTurretModeAbility",
 			Introduced = "29",
+			IsChanneled = true,
 			Key = 4,
 			Powersuit = "Voidrig" 
 		},
@@ -1891,6 +1904,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "HysteriaIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Berserker/Abilities/LastStandAbility",
 			Introduced = "11",
+			IsChanneled = true,
 			Key = 4,
 			Powersuit = "Valkyr",
 			Weapon = "Valkyr Talons"
@@ -1921,6 +1935,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "ImmolationIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Ember/Abilities/EmberImmolationAbility",
 			Introduced = "26",
+			IsChanneled = true,
 			Key = 2,
 			Powersuit = "Ember" 
 		},
@@ -2186,6 +2201,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "MachRushIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Runner/Abilities/RunnerRushAbility",
 			Introduced = "25.7",
+			IsChanneled = true,
 			Key = 1,
 			Powersuit = "Gauss" 
 		},
@@ -2266,6 +2282,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "MassVitrifyIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Glass/Abilities/GlassRingAbility",
 			Introduced = "22",
+			IsChanneled = true,
 			Key = 4,
 			Powersuit = "Gara" 
 		},
@@ -2306,6 +2323,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "MendMaimIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/YinYang/Abilities/YinYangBurstAbility",
 			Introduced = "17",
+			IsChanneled = true,
 			Key = 4,
 			Powersuit = "Equinox" 
 		},
@@ -2471,6 +2489,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "NavigatorIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Ranger/Abilities/RangerControlAbility",
 			Introduced = "18",
+			IsChanneled = true,
 			Key = 2,
 			Powersuit = "Ivara" 
 		},
@@ -2654,6 +2673,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "PacifyProvokeIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/YinYang/Abilities/YinYangAuraAbility",
 			Introduced = "17",
+			IsChanneled = true,
 			Key = 3,
 			Powersuit = "Equinox" 
 		},
@@ -2709,6 +2729,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "PeacemakerIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Cowgirl/Abilities/GunFuAbility",
 			Introduced = "15.5",
+			IsChanneled = true,
 			Key = 4,
 			Powersuit = "Mesa",
 			Weapon = "Regulators"
@@ -2736,6 +2757,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "PenumbraIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Archwing/ArchwingAbilities/CloakingAbility",
 			Introduced = "15.7.2",
+			IsChanneled = true,
 			Key = 2,
 			Powersuit = "Itzal" 
 		},
@@ -2876,6 +2898,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "PrimalFuryIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/MonkeyKing/Abilities/MonkeyStaffAbility",
 			Introduced = "17.12",
+			IsChanneled = true,
 			Key = 4,
 			Powersuit = "Wukong",
 			Weapon = "Iron Staff"
@@ -2891,6 +2914,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "PrismIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Harlequin/Abilities/Prism",
 			Introduced = "14",
+			IsChanneled = true,
 			Key = 4,
 			Powersuit = "Mirage" 
 		},
@@ -2919,6 +2943,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "ProwlIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Ranger/Abilities/RangerStealAbility",
 			Introduced = "18",
+			IsChanneled = true,
 			Key = 3,
 			Powersuit = "Ivara" 
 		},
@@ -2962,6 +2987,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "PulverizeIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Devourer/Abilities/DevourerBowlAbility",
 			Introduced = "26",
+			IsChanneled = true,
 			Key = 3,
 			Powersuit = "Grendel" 
 		},
@@ -3130,6 +3156,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "RazorwingIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Fairy/Abilities/FairyFlightAbility",
 			Introduced = "The Silver Grove",
+			IsChanneled = true,
 			Key = 4,
 			Powersuit = "Titania",
 			-- Weapon = {"Dex Pixia", "Diwata"}
@@ -3257,6 +3284,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "RenewalIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Paladin/Abilities/RegenerationAbility",
 			Introduced = "11.5",
+			IsChanneled = true,
 			Key = 3,
 			Powersuit = "Oberon" 
 		},
@@ -3798,6 +3826,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "SilkenStrideIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Oraxia/Abilities/OraxiaClimbAbility",
 			Introduced = "39",
+			IsChanneled = true,
 			Key = 4,
 			Powersuit = "Oraxia" 
 		},
@@ -3942,6 +3971,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "SolGateIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Wisp/Abilities/WispSunAbility",
 			Introduced = "25",
+			IsChanneled = true,
 			Key = 4,
 			Powersuit = "Wisp" 
 		},
@@ -3998,6 +4028,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "SoundQuakeIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Banshee/Abilities/SonicEarthQuakeAbility",
 			Introduced = "7",
+			IsChanneled = true,
 			Key = 4,
 			Powersuit = "Banshee" 
 		},
@@ -4026,6 +4057,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "SpectralScreamIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Dragon/Abilities/DragonBreathAbility",
 			Introduced = "16",
+			IsChanneled = true,
 			Key = 1,
 			Powersuit = "Chroma" 
 		},
@@ -4693,6 +4725,7 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 			Icon = "WardingGraceIcon(xWhite).png",
 			InternalName = "/Lotus/Powersuits/Archwing/ArchwingAbilities/SupportWardAbility",
 			Introduced = "Specters of the Rail 0.0",
+			IsChanneled = true,
 			Key = 3,
 			Powersuit = "Amesha" 
 		},

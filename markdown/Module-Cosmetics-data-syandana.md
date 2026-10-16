@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/syandana"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/syandana"
-wiki_timestamp: "2026-10-01T20:55:37Z"
+wiki_timestamp: "2026-10-15T16:59:41Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/syandana/doc](/w/Module:Cosmetics/data/syandana/doc?action=edit&redlink=1 "Module:Cosmetics/data/syandana/doc (page does not exist)")*
@@ -3339,6 +3339,17 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Scarves/RazorScarf",
         Link = "Uru Syandana",
         Name = "Uru Syandana",
+        Type = "Syandana"
+    },
+    ["Valdur's Syandana"] = {
+        CodexSecret = false,
+        Description = "Honor a great commander by wearing his distinctive syandana.",
+        ExcludeFromCodex = false,
+        Image = "ValdursSyandana.png",
+        InternalName = "/Lotus/Upgrades/Skins/Scarves/ValdurBackCape",
+        Introduced = "41.0",
+        Link = "Valdur's Syandana",
+        Name = "Valdur's Syandana",
         Type = "Syandana"
     },
     ["Valesti Syandana"] = {

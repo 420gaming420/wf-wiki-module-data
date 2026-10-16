@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-10-02T08:08:45.369Z"
+    "converted_at": "2026-10-16T06:52:27.405Z"
   },
   "_comments": "",
   "TennoCon 2020 Syandana": {
@@ -1889,16 +1889,6 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Nosos Syandana": {
-    "Type": "Syandana",
-    "Image": "NososSyandana.png",
-    "Description": "The signature Syandana of Nidus Phryke.",
-    "Link": "Nosos Syandana",
-    "Name": "Nosos Syandana",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/NidusDeluxeScarf",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Zamariu Syandana": {
     "ConsolePrice": "105",
     "Type": "TennoGen Syandana",
@@ -1916,6 +1906,16 @@
     "Name": "Zamariu Syandana",
     "PcPrice": "$5.99",
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWZamariuSyandana",
+    "CodexSecret": false
+  },
+  "Nosos Syandana": {
+    "Type": "Syandana",
+    "Image": "NososSyandana.png",
+    "Description": "The signature Syandana of Nidus Phryke.",
+    "Link": "Nosos Syandana",
+    "Name": "Nosos Syandana",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/NidusDeluxeScarf",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Zaikhya Syandana": {
@@ -1937,16 +1937,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWZaikhyaScarf",
     "CodexSecret": false
   },
-  "Vistapa Prime Syandana": {
-    "Type": "Syandana",
-    "Image": "VistapaPrimeSyandana.png",
-    "Description": "Twin bands symbolize the balance all Tenno are sworn to uphold.",
-    "Link": "Vistapa Prime Syandana",
-    "Name": "Vistapa Prime Syandana",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/PrimeTwitchScarf",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Yomo Syandana": {
     "Type": "Syandana",
     "Description": "A traditional garment, popular with high ranking Tenno.",
@@ -1956,6 +1946,16 @@
     "Name": "Yomo Syandana",
     "Introduced": "10",
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/ArmScarf",
+    "CodexSecret": false
+  },
+  "Vistapa Prime Syandana": {
+    "Type": "Syandana",
+    "Image": "VistapaPrimeSyandana.png",
+    "Description": "Twin bands symbolize the balance all Tenno are sworn to uphold.",
+    "Link": "Vistapa Prime Syandana",
+    "Name": "Vistapa Prime Syandana",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/PrimeTwitchScarf",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Yamako Syandana": {
@@ -1978,16 +1978,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Stezia Sumbha Syandana": {
-    "Type": "Syandana",
-    "Image": "SteziaSumbhaSyandana.png",
-    "Description": "Like a carnivorous flower, this alluring Syandana conceals a dangerous predator.",
-    "Link": "Stezia Sumbha Syandana",
-    "Name": "Stezia Sumbha Syandana",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/AmazonOniSyandana",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Reshantur Cult Syandana": {
     "Type": "Syandana",
     "Image": "ReshanturCultSyandana.png",
@@ -1995,6 +1985,16 @@
     "Link": "Reshantur Cult Syandana",
     "Name": "Reshantur Cult Syandana",
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/NezhaLeverianCape",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Stezia Sumbha Syandana": {
+    "Type": "Syandana",
+    "Image": "SteziaSumbhaSyandana.png",
+    "Description": "Like a carnivorous flower, this alluring Syandana conceals a dangerous predator.",
+    "Link": "Stezia Sumbha Syandana",
+    "Name": "Stezia Sumbha Syandana",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/AmazonOniSyandana",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -2018,6 +2018,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Vitam Syandana": {
+    "Type": "Syandana",
+    "Image": "VitamSyandana.png",
+    "Description": "Lavos' signature Syandana has been engineered for life in the lab and the battlefield.",
+    "Link": "Vitam Syandana",
+    "Name": "Vitam Syandana",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/TnAlchemistSyandana",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Cryona Syandana": {
     "ConsolePrice": "105",
     "Type": "TennoGen Syandana",
@@ -2036,16 +2046,6 @@
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWCryonaScarf",
     "CodexSecret": false
   },
-  "Vitam Syandana": {
-    "Type": "Syandana",
-    "Image": "VitamSyandana.png",
-    "Description": "Lavos' signature Syandana has been engineered for life in the lab and the battlefield.",
-    "Link": "Vitam Syandana",
-    "Name": "Vitam Syandana",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/TnAlchemistSyandana",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Vitam Prime Syandana": {
     "Type": "Syandana",
     "Image": "VitamPrimeSyandana.png",
@@ -2053,6 +2053,16 @@
     "Link": "Vitam Prime Syandana",
     "Name": "Vitam Prime Syandana",
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/VitamPrimeSyandana",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Vexillus Cloak": {
+    "Type": "Syandana",
+    "Image": "VexillusCloak.png",
+    "Description": "March through the battlefield with this Corpus cloak.",
+    "Link": "Vexillus Cloak",
+    "Name": "Vexillus Cloak",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/CrpModularScarf",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -2092,14 +2102,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWRThreeAquirosScarf",
     "CodexSecret": false
   },
-  "Vexillus Cloak": {
+  "Vaykor Syandana": {
     "Type": "Syandana",
-    "Image": "VexillusCloak.png",
-    "Description": "March through the battlefield with this Corpus cloak.",
-    "Link": "Vexillus Cloak",
-    "Name": "Vexillus Cloak",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/CrpModularScarf",
+    "Description": "The Vaykor Syandana flares up whenever the Tenno takes damage.",
+    "Link": "Vaykor Syandana",
     "ExcludeFromCodex": false,
+    "Image": "VaykorSyandana.png",
+    "Name": "Vaykor Syandana",
+    "Introduced": "15",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/SyndicateSMScarf",
     "CodexSecret": false
   },
   "Jattuk Mantle": {
@@ -2120,15 +2131,15 @@
     "InternalName": "/Lotus/Upgrades/Skins/Scarves/SWRThreeJattukScarf",
     "CodexSecret": false
   },
-  "Vaykor Syandana": {
+  "Valdur's Syandana": {
     "Type": "Syandana",
-    "Description": "The Vaykor Syandana flares up whenever the Tenno takes damage.",
-    "Link": "Vaykor Syandana",
+    "Description": "Honor a great commander by wearing his distinctive syandana.",
+    "Link": "Valdur's Syandana",
     "ExcludeFromCodex": false,
-    "Image": "VaykorSyandana.png",
-    "Name": "Vaykor Syandana",
-    "Introduced": "15",
-    "InternalName": "/Lotus/Upgrades/Skins/Scarves/SyndicateSMScarf",
+    "Image": "ValdursSyandana.png",
+    "Name": "Valdur's Syandana",
+    "Introduced": "41.0",
+    "InternalName": "/Lotus/Upgrades/Skins/Scarves/ValdurBackCape",
     "CodexSecret": false
   },
   "Thorac Syandana": {

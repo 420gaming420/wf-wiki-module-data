@@ -45,6 +45,8 @@ end
 
 --- Creates a maximization calculator for one or more Warframe abilities based on formulas in [[Module:Maximization/data]].
 --  @function		p.ability
+--  @alias			p.ability
+--  @alias			p.Abilities
 --	@alias			p.main
 --  @param			{table} frame Frame object with the ability names as the arguments
 --  @return			{string} Wikitable with the CSS classes and HTML data attributes for the calculator
@@ -173,6 +175,7 @@ p.main = p.ability;
 
 --- Creates a maximization calculator for one or more Warframes abilities by resolving names and calling p.ability()
 --  @function		p.ability_set
+--  @alias			p.ability_set
 --	@alias			p.WarframeAbilities
 --  @param			{table} frame Frame object with the Warframe names as the arguments
 --  @return			{string} Wikitable with the CSS classes and HTML data attributes for the calculator
@@ -195,7 +198,12 @@ function p.ability_set(...)
 end
 p.WarframeAbilities = p.ability_set;
 
--- TODO: Helminth original abilities
+--- Creates a maximization calculator for Helminth ability set by being a wrapper for p.ability_set()
+--  @function		p.HelminthAbilities
+--  @alias			p.HelminthAbilities
+--  @return			{string} Wikitable with the CSS classes and HTML data attributes for the calculator
+function p.HelminthAbilities() return p.ability_set('Helminth') end
+
 -- TODO: Warframe stats
 -- TODO: gear like Archwings, cornbots, hoverboards
 -- TODO: craftable combo gear like kitguns, amps

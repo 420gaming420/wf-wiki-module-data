@@ -32,4 +32,38 @@ function p.EfficiencyModifier(frame)--(value, modifier)
 	return (pcall(function() return (2-(math.min(frame.args[2], 175)/100))*frame.args[1] end) and (2-(math.min(frame.args[2], 175)/100))*frame.args[1]) or frame.args[1]
 end
 
+
+--- Builds a tabber containing all channeled abilities sorted alphabetically.
+--  @function		p.buildChanneledAbilitiesTabber
+--  @param			{table} frame MediaWiki frame object
+--  @return			{string} Wikitext containing the rendered tabber extension tag
+function p.buildChanneledAbilitiesTabber(frame)
+	local channeledAbilities = {}
+	
+	-- Get only Channeled Abilities
+	for name, data in pairs(AbilityData["Ability"]) do
+		if type(data) == "table" and data.IsChanneled then
+			table.insert(channeledAbilities, name)
+		end
+	end
+	
+	table.sort(channeledAbilities)
+	
+	local tabs = {}
+	for _, name in ipairs(channeledAbilities) do
+		-- Format entries into tabs
+		table.insert(tabs, name .. " =\n{{:" .. name .. "}}")
+	end
+	
+	-- Assemble all tabs separated by the tabber delimiter
+	local tabberContent = table.concat(tabs, "\n|-|\n")
+	
+	-- Return the tabber extension tag rendered by MediaWiki
+	return frame:extensionTag{
+		name = "tabber",
+		content = "\n" .. tabberContent .. "\n"
+	}
+end
+
+
 return p

@@ -6,6 +6,7 @@
 		Icon = "AbilityIcon.png",
   		InternalName = "/Lotus/Powersuits/PowersuitAbilities/",
 		Introduced = "29",
+		IsChanneled = true,
 		Key = 4,
 		Link = "Page Name",
 		Name = "Ability Name",
