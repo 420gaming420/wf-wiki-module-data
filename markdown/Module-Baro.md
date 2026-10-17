@@ -1,7 +1,7 @@
 ---
 title: "Module:Baro"
 wiki_url: "https://wiki.warframe.com/w/Module/Baro"
-wiki_timestamp: "2026-10-10T13:31:15Z"
+wiki_timestamp: "2026-10-16T17:02:28Z"
 ---
 
 **Baro** stores [Baro Ki'Teer](/w/Baro_Ki%27Teer "Baro Ki'Teer")'s offering history.
@@ -138,7 +138,7 @@ In articles: `{{template|function|input1|input2|...}}`
 | [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia "wikipedia:Wikipedia") Fork | [M:Arguments](/w/Module:Arguments "Module:Arguments") ([/i18n](/w/Module:Arguments/i18n "Module:Arguments/i18n")) • [M:FallbackList](/w/Module:FallbackList "Module:FallbackList") • [M:Yesno](/w/Module:Yesno "Module:Yesno") |
 | Third-Party Fork | [M:Codec](/w/Module:Codec "Module:Codec") • [M:CSV](/w/Module:CSV "Module:CSV") • [M:Date](/w/Module:Date "Module:Date") • [M:Inspect](/w/Module:Inspect "Module:Inspect") • [M:JSON](/w/Module:JSON "Module:JSON") • [M:Lexer](/w/Module:Lexer "Module:Lexer") • [M:LuaClassSystem](/w/Module:LuaClassSystem "Module:LuaClassSystem") • [M:LuaSerializer](/w/Module:LuaSerializer "Module:LuaSerializer") • [M:Navbox](/w/Module:Navbox "Module:Navbox") • [M:Navigation](/w/Module:Navigation "Module:Navigation") • [M:Unindent](/w/Module:Unindent "Module:Unindent") |
 | Wiki-Unique | [M:Database](/w/Module:Database "Module:Database") • [M:DatastoreManifest](/w/Module:DatastoreManifest "Module:DatastoreManifest") • [M:Delay](/w/Module:Delay "Module:Delay") • [M:DependencyGraph](/w/Module:DependencyGraph "Module:DependencyGraph") • [M:InfoboxBuilder](/w/Module:InfoboxBuilder "Module:InfoboxBuilder") • [M:Lua](/w/Module:Lua "Module:Lua") • [M:Map](/w/Module:Map "Module:Map") • [M:Placeholder](/w/Module:Placeholder "Module:Placeholder") • [M:RemoveCategory](/w/Module:RemoveCategory "Module:RemoveCategory") • [M:StatObject](/w/Module:StatObject "Module:StatObject") • [M:Text](/w/Module:Text "Module:Text") • [M:Tooltips](/w/Module:Tooltips "Module:Tooltips") |
-| Other | [M:Enum/data](/w/Module:Enum/data "Module:Enum/data") • [M:InternalNames](/w/Module:InternalNames "Module:InternalNames") • [M:MasteryRank](/w/Module:MasteryRank "Module:MasteryRank") • [M:Polarity](/w/Module:Polarity "Module:Polarity") • [M:Sandbox](/w/Module:Sandbox "Module:Sandbox") • [M:WarframeUsageData2020/data](/w/Module:WarframeUsageData2020/data "Module:WarframeUsageData2020/data") | |
+| Other | [M:Enum/data](/w/Module:Enum/data "Module:Enum/data") • [M:InternalNames](/w/Module:InternalNames "Module:InternalNames") • [M:MasteryRank](/w/Module:MasteryRank "Module:MasteryRank") • [M:Polarity](/w/Module:Polarity "Module:Polarity") • [M:Sandbox](/w/Module:Sandbox "Module:Sandbox") • [M:Trading](/w/Module:Trading "Module:Trading") • [M:WarframeUsageData2020/data](/w/Module:WarframeUsageData2020/data "Module:WarframeUsageData2020/data") | |
 | Archived/Deprecated | [M:Avionics](/w/Module:Avionics "Module:Avionics") ([/data](/w/Module:Avionics/data "Module:Avionics/data")) • [M:BuildRequire](/w/Module:BuildRequire "Module:BuildRequire") • [M:FormatingTool](/w/Module:FormatingTool "Module:FormatingTool") • [M:Gallery](/w/Module:Gallery "Module:Gallery") • [M:NightwaveActs](/w/Module:NightwaveActs "Module:NightwaveActs") • [M:Shared](/w/Module:Shared "Module:Shared") • [M:Syndicates/data](/w/Module:Syndicates/data "Module:Syndicates/data") • [M:TennoScript](/w/Module:TennoScript "Module:TennoScript") • [M:TranslationExamples](/w/Module:TranslationExamples "Module:TranslationExamples") • [M:VoidByReward](/w/Module:VoidByReward "Module:VoidByReward") • [M:WorldState](/w/Module:WorldState "Module:WorldState") ([/data](/w/Module:Worldstate/data "Module:Worldstate/data")) | |
 | [Bug Reports](/w/WARFRAME_Wiki:Bug_Reports "WARFRAME Wiki:Bug Reports") • [Development Guide](/w/WARFRAME_Wiki:Development_Guide "WARFRAME Wiki:Development Guide") • [Localization Guide](/w/WARFRAME_Wiki:Localization_Guide "WARFRAME Wiki:Localization Guide") ([L10n Message Data Stores](/w/WARFRAME_Wiki:L10n "WARFRAME Wiki:L10n")) • [Programming Standards](/w/WARFRAME_Wiki:Programming_Standards "WARFRAME Wiki:Programming Standards") • [Projects & Current Backlog](/w/WARFRAME_Wiki:Projects "WARFRAME Wiki:Projects") • [Updating Databases](/w/WARFRAME_Wiki:Updating_Databases "WARFRAME Wiki:Updating Databases") • [Full Module List](/w/Special:AllPages/Module: "Special:AllPages/Module:") • [Lua Reference Manual](https://www.mediawiki.org/wiki/Extension:Scribunto/Lua_reference_manual "mw:Extension:Scribunto/Lua reference manual") | | |
 
@@ -430,7 +430,7 @@ local function buildGallery(entries)
 			('"%s" does not exist in [[Module:Baro/data]].'):format(itemName)
 
 		local file			= ('[[File:%s|120x120px|link=%s]]'):format(entry.Image or 'UnidentifiedItem.png', itemLink)
-		local label			= entry.Condition and labelSpan:format(entry.Condition)
+		local label			= entry.RequirementText and labelSpan:format(entry.RequirementText)
 		local tooltip		= tooltipModule and tooltipSpan:format(itemLink, tooltipModule, itemName, file)
 
 		local name			=  ('
@@ -530,7 +530,7 @@ local function buildTabbers(ItemEntries, config)
 	for _, catName in ipairs(config.tabs) do cats[catName] = {} end
 
 	for _, ItemEntry in ipairs(ItemEntries) do
-		if ItemEntry.IsDiscont and cats['Discontinued'] then
+		if ItemEntry.IsDiscontinued and cats['Discontinued'] then
 			table.insert(cats['Discontinued'], ItemEntry)
 		else
 			local itemCat = config.getItemCat(ItemEntry)
@@ -575,7 +575,7 @@ function p.buildCurrentOfferings(frame)
 
 	if args.allItems == 'true' then
 		for _, v in pairs(BaroItems) do
-			if not v.IsDiscont then table.insert(ItemEntries, v) end
+			if not v.IsDiscontinued then table.insert(ItemEntries, v) end
 		end
 		table.sort(ItemEntries, function(a, b) return a.Type == b.Type and a.Name < b.Name or a.Type < b.Type end)
 	else
@@ -756,7 +756,7 @@ end
 --	@return			{string} List of dates in wikitext or an empty string if Baro never sold this particular item
 function p._buildBaroSourceStrings(name)
 	local ItemEntry = BaroItems[name]
-	if (ItemEntry == nil) or (ItemEntry.IsDiscont == true) then return '' end
+	if (ItemEntry == nil) or (ItemEntry.IsDiscontinued == true) then return '' end
 
 	local currencyStr = ('%s%s%s  
 '):format(

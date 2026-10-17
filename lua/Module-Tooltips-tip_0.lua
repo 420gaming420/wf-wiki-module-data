@@ -174,6 +174,12 @@ Warframes = function(name)
 	end
 	playstyle = table.concat(playstyle, ', ')
 	
+	local augmentShop = {}
+	for _, as in ipairs(warframe.AugmentShop or {}) do
+		table.insert(augmentShop, as)
+	end
+	augmentShop = table.concat(augmentShop, ', ')	
+	
 	return ([==[
 {| class="tt-tooltip-container" |-
 |
@@ -229,7 +235,7 @@ Warframes = function(name)
 		Polarity._polarity(warframe.ExilusPolarity or 'None', true),
 		Polarity._pols(warframe.Polarities, true),
 		abils,
-		table.concat(warframe.AugmentShop, ', ')
+		augmentShop
 	)
 end,
 

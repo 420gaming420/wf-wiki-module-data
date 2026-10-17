@@ -456,6 +456,85 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='3.5 DRAIN *', fmt='2dec'}}
 		}
 	},
+	-- Gara
+	['Shattered Lash']={
+		ins={
+			{name='MELEE_DMG_MOD', cont='[[Melee damage]] modifier:', type='number', default='100'},
+			{name='ELEMENT_DMG_MOD', cont='[[Elemental damage]] modifier:', type='number', default='0'},
+			{name='FACTION_DMG_MOD', cont='[[Faction damage]] modifier:', type='number', default='100'},
+			{name='MELEE_RANGE_MOD', cont='[[Melee range]] modifier:', type='number', default='0'},
+			{name='COMBO_MULT', cont='[[Combo multiplier]]:', type='range-R', min='1', max='12', value='1'},
+		},
+		outs={
+			{Tooltips.full('Puncture', 'DamageTypes')..' or '..Tooltips.full('Slash', 'DamageTypes')..' damage:',
+				{name='BASE_DMG', expr='FACTION_DMG_MOD MELEE_DMG_MOD STR 400 %of %of %of COMBO_MULT *'}
+			},
+			{'Elemental damage:', {name='ELEMENT_DMG', expr='ELEMENT_DMG_MOD BASE_DMG %of'}},
+			{'Total damage:', {name='TOTAL_DMG', expr='BASE_DMG ELEMENT_DMG +'}},
+			{'Range:', {expr='RNG 12 %of MELEE_RANGE_MOD +', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Splinter Storm']={
+		ins={
+			{name='MENDING_SPLINTERS', cont=Tooltips.full('Mending Splinters', 'Mods')..'?', type='checkbox'},
+			{name='SPLINTER_STORM_TARGETS', cont='Number of targets:', min='0', value='1'}
+		},
+		outs={
+			{'Base '..Tooltips.full('Impact', 'DamageTypes')..', '..Tooltips.full('Puncture', 'DamageTypes')..' and '..Tooltips.full('Slash', 'DamageTypes')..' damage:',
+				{expr='STR 200 %of'}
+			},
+			{'[[Damage Reduction]]:', {expr='STR 70 %of 90 min', suff='%'}},
+			{'[[Damage Vulnerability]]:', {expr='STR 35 %of', suff='%'}},
+			{'Duration:', {expr='DUR 22 %of', suff='s', fmt='2dec'}},
+			{'Cast range:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
+			{'Storm radius:', {expr='RNG 2.5 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Health', 'Stats')..' restoration:', {expr='STR 15 %of SPLINTER_STORM_TARGETS * 0 MENDING_SPLINTERS if', suff='/s'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Spectrorage']={
+		outs={
+			{'Mirror break '..Tooltips.full('Impact', 'DamageTypes')..', '..Tooltips.full('Puncture', 'DamageTypes')..' and '..Tooltips.full('Slash', 'DamageTypes')..' damage:',
+				{name='SPECTRORAGE_MIRROR_DMG', expr='STR 800 %of'}
+			},
+			{'Damage added to '..Tooltips.full('Splinter Storm', 'Ability')..':',
+				{expr='SPECTRORAGE_MIRROR_DMG 2 /'}
+			},
+			{'Carousel collapse '..Tooltips.full('Impact', 'DamageTypes')..', '..Tooltips.full('Puncture', 'DamageTypes')..' and '..Tooltips.full('Slash', 'DamageTypes')..' damage:',
+				{expr='STR 1500 %of'}
+			},
+			{'Duration:', {expr='DUR 22 %of', suff='s', fmt='2dec'}},
+			{'Maximum mirror count:', {name='SPECTRORAGE_MIRROR_COUNT', expr='RNG 12 %of floor'}},
+			{'Minimum mirror count:', {expr='SPECTRORAGE_MIRROR_COUNT 2 //'}},
+			{'Charm radius:', {expr='RNG 4 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Mass Vitrify']={
+		ins={
+			{name='SHATTERED_LASH_TOTAL_DMG', cont=Tooltips.full('Shattered Lash', 'Ability')..' total damage:', min='0', value='400'},
+			{name='GARA_ARMOR', cont='Current '..Tooltips.full('Armor', 'Stats')..':', min='0', value='160'}
+		},
+		outs={
+			{'[[Damage Vulnerability]]:', {expr='STR 50 %of', suff='%'}},
+			{'Health added by Armor:', {name='MASS_VITRIFY_ARMOR', expr='STR 5 %of GARA_ARMOR *'}},
+			{'Segment health:', {expr='STR 1600 %of MASS_VITRIFY_ARMOR +'}},
+			{'Minimum segment health gained:', {expr='STR 320 %of MASS_VITRIFY_ARMOR +', suff='/enemy'}},
+			{'Segment explosion damage:', {expr='STR 400 %of'}},
+			{'Ring explosion damage:', {name='MASS_VITRIFY_RING_DMG', expr='STR 800 %of SHATTERED_LASH_TOTAL_DMG +'}},
+			{'Damage added to '..Tooltips.full('Splinter Storm', 'Ability')..':', {expr='MASS_VITRIFY_RING_DMG 2 /'}},
+			{'Expansion duration:', {name='MASS_VITRIFY_EXPANSION_DUR', expr='DUR 3 %of', suff='s', fmt='2dec'}},
+			{'Crystalization duration:', {expr='DUR 16 %of', suff='s', fmt='2dec'}},
+			{'Minimum ring radius:', {name='MASS_VITRIFY_MIN_RNG', expr='RNG 2 %of', suff='m', fmt='1dec'}},
+			{'Maximum ring radius:', {expr='MASS_VITRIFY_MIN_RNG MASS_VITRIFY_SPEED MASS_VITRIFY_EXPANSION_DUR * +', suff='m', fmt='1dec'}},
+			{'Ring expansion rate:', {name='MASS_VITRIFY_SPEED', expr='RNG 3 %of', suff='m/s', fmt='1dec'}},
+			{'Explosion radius:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}},
+			{'Minimum '..Tooltips.full('Energy', 'Stats')..' drain:', {expr='3 DRAIN *', fmt='2dec'}},
+			{'Maximum '..Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', fmt='2dec'}}
+		}
+	},
 	-- Garuda
 	['Dread Mirror']={
 		ins={
@@ -992,7 +1071,7 @@ local Data = {
 		},
 		outs={
 			{'Damage multiplier:', {expr='STR 2.5 %of', fmt='2dec'}},
-			{'Stored damage decay:', {expr='PERCUSSION_COUNT mulin 100 *', suff='%/beat', fmt='2dec'}},
+			{'Stored damage decay:', {expr='PERCUSSION_COUNT mulin', suff='/beat', fmt='2%'}},
 			{'Duration:', {expr='DUR 20 %of', suff='s'}},
 			{'Base radius:', {name='MALLET_BASE_RADIUS', expr='80 100 PARTITIONED_MALLET if RNG 10 %of %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Amp', 'Ability')..' radius:', {expr='2 MALLET_BASE_RADIUS *', suff='m', fmt='1dec'}},
@@ -1141,6 +1220,52 @@ local Data = {
 				{expr='STR 100 0 PROTEA_PASSIVE if + 10 %of 0 TEMPORAL_EROSION if', suff='%'}
 			},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		}
+	},
+	-- Qorvex
+	['Chyrinka Pillar']={
+		outs={
+			{Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='STR 1000 %of', suff='/pulse'}},
+			{'Duration:', {expr='DUR 35 %of', suff='s', fmt='2dec'}},
+			{'Empowerment duration:', {expr='DUR 5 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Containment Wall']={
+		ins={
+			{name='WRECKING_WALL', cont=Tooltips.full('Wrecking Wall', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Total '..Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='STR 200 %of 7 *'}},
+			{Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 3500 %of'}},
+			{'[[Damage Vulnerability]]:', {expr='STR 25 %of', suff='%'}},
+			{'Wall length:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
+			{'Defense reduction:', {expr='STR 50 %of 100 min 0 WRECKING_WALL if', suff='%'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Disometric Guard']={
+		outs={
+			{Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
+			{'Stacks gained on cast:', {expr='STR 5 %of floor'}},
+			{'Maximum stack count:', {expr='STR 10 %of floor'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Crucible Blast']={
+		ins={
+			{name='FUSED_CRUCIBLE', cont=Tooltips.full('Fused Crucible', 'Mods')..'?', type='checkbox'},
+			{name='FUSED_CRUCIBLE_DURATION', cont='Seconds spent channeling Fused Crucible:', min='0', value='0'}
+		},
+		outs={
+			{'Beam '..Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='STR 10000 %of', suff='/s'}},
+			{'Explosion '..Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
+			{'Explosion '..Tooltips.full('Radiation', 'DamageTypes')..' damage bonus:', {expr='STR 250 %of', suff='/'..Tooltips.full('Confusion', 'DamageTypes')..' stack'}},
+			{'Beam length:', {expr='RNG 40 %of', suff='m', fmt='1dec'}},
+			{'Explosion radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 100 FUSED_CRUCIBLE if COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='20 FUSED_CRUCIBLE_DURATION 0.5 * + DRAIN * 0 FUSED_CRUCIBLE if', fmt='2dec'}}
 		}
 	},
 	-- Rhino

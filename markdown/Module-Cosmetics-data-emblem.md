@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/emblem"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/emblem"
-wiki_timestamp: "2026-10-15T20:40:18Z"
+wiki_timestamp: "2026-10-16T07:48:42Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/emblem/doc](/w/Module:Cosmetics/data/emblem/doc?action=edit&redlink=1 "Module:Cosmetics/data/emblem/doc (page does not exist)")*
@@ -142,7 +142,7 @@ return {
         CodexSecret = false,
         Description = "An emblem awarded to all those who helped destroy the Grineer toxin during the Cicero Crisis.",
         ExcludeFromCodex = false,
-        Image = "CiceroCrisisEmblem(Exwhite).png",
+        Image = "CiceroCrisisEmblem(ExWhite).png",
         InternalName = "/Lotus/Upgrades/Skins/Clan/JungleEventBadgeItem",
         Link = "Cicero Crisis Emblem",
         Name = "Cicero Crisis Emblem",
@@ -958,14 +958,14 @@ return {
         Name = "Solstice Conclave Emblem",
         Type = "Emblem"
     },
-    ["Specters of Liberty Emblem"] = {
+    ["Specters Of Liberty Emblem"] = {
         CodexSecret = false,
         Description = "Awarded for the safe return of Red Veil Operatives during the Specters of Liberty operation.",
         ExcludeFromCodex = false,
         Image = "SpectersOfLibertyEmblem(ExWhite).png",
         InternalName = "/Lotus/Upgrades/Skins/Clan/RescueEventBadgeItem",
-        Link = "Specters of Liberty Emblem",
-        Name = "Specters of Liberty Emblem",
+        Link = "Specters Of Liberty Emblem",
+        Name = "Specters Of Liberty Emblem",
         Type = "Emblem"
     },
     ["Storm Leader Emblem"] = {

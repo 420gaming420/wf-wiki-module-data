@@ -10,7 +10,6 @@ return {
 	["AlwaysAvailable"] = { ["Sands of Inaros Blueprint"] = true, ["Fae Path Ephemera"] = true, ["Void Surplus"] = true }, --deprecated
 	["ExtraItems"] = { -- Conditional unlock items (ones that are not included in the API)
 		["Baro Void-Signal"] = {
-			Condition = "🔒 Requires Inaros Prime (Equipped)",
 			CreditCost = 25000,
 			DucatCost = 100,
 			Image = "BaroVoid-Signal.png",
@@ -18,6 +17,7 @@ return {
 			Introduced = "2020-07-14",
 			IsAlways = true,
 			Name = "Baro Void-Signal",
+			RequirementText = "🔒 Requires Inaros Prime (Equipped)",
 			Type = "Mission Locator",
 		},
 	},
@@ -52,7 +52,8 @@ return {
 				"2025-01-10",
 				"2025-04-25",
 				"2025-08-08",
-				"2026-01-09"
+				"2026-01-09",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2016-11-04",
@@ -106,7 +107,7 @@ return {
 		["1999 Drippy Glyph"] = {
 			CreditCost = 1,
 			Image = "1999DrippyGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "1999 Drippy Glyph",
 			OfferingDates = {
 				"2026-03-20",
@@ -376,7 +377,8 @@ return {
 				"2024-11-29",
 				"2025-03-07",
 				"2025-04-18",
-				"2025-08-22"
+				"2025-08-22",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2016-01-22",
@@ -421,7 +423,7 @@ return {
 			CreditCost = 50000,
 			DucatCost = 100,
 			Image = "CorruptedBombardSpecter.png",
-			IsDiscont = true,
+			IsDiscontinued = true,
 			Link = "Specter#Miscellaneous Specters",
 			Name = "5 x Corrupted Bombard Specter",
 			OfferingDates = {
@@ -946,7 +948,7 @@ return {
 			CreditCost = 33333,
 			DucatCost = 20,
 			Image = "Ava-ClemCommunityGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Ava-Clem Community Glyph",
 			OfferingDates = {
 				"2025-10-17",
@@ -1090,7 +1092,7 @@ return {
 			CreditCost = 55000,
 			DucatCost = 125,
 			Image = "AxiRelicIntact.png",
-			IsDiscont = true,
+			IsDiscontinued = true,
 			Link = "Axi A8",
 			Name = "Axi A8 Relic",
 			Type = "Void Relic"
@@ -1158,7 +1160,8 @@ return {
 				"2025-11-28",
 				"2025-12-26",
 				"2026-01-09",
-				"2026-01-23"
+				"2026-01-23",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2018-03-09",
@@ -1221,7 +1224,7 @@ return {
 			CreditCost = 50000,
 			DucatCost = 80,
 			Image = "BaroKi'TeerGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Baro Ki'Teer Glyph",
 			OfferingDates = {
 				"2022-09-23",
@@ -1272,7 +1275,7 @@ return {
 			CreditCost = 60000,
 			DucatCost = 75,
 			Image = "BaruukDoanSilhouetteGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Baruuk Doan Silhouette Glyph",
 			OfferingDates = {
 				"2024-06-14",
@@ -1881,7 +1884,7 @@ return {
 		["Community Clem Comic Glyph"] = {
 			CreditCost = 1,
 			Image = "CommunityClemComicGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Community Clem Comic Glyph",
 			OfferingDates = {
 				"2026-03-20",
@@ -1924,6 +1927,7 @@ return {
 			CreditCost = 50000,
 			DucatCost = 80,
 			Image = "CookieKavatGlyph.png",
+			IsSeasonal = true,
 			Link = "Glyph#Cookie",
 			Name = "Cookie Kavat Glyph",
 			OfferingDates = {
@@ -1974,6 +1978,7 @@ return {
 			CreditCost = 50000,
 			DucatCost = 80,
 			Image = "CookieKubrowGlyph.png",
+			IsSeasonal = true,
 			Link = "Glyph#Cookie",
 			Name = "Cookie Kubrow Glyph",
 			OfferingDates = {
@@ -2019,7 +2024,7 @@ return {
 			CreditCost = 55000,
 			DucatCost = 70,
 			Image = "CorpusGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Corpus Glyph",
 			OfferingDates = {
 				"2025-04-18",
@@ -2127,7 +2132,8 @@ return {
 				"2022-10-21",
 				"2024-02-23",
 				"2025-10-24",
-				"2026-06-12"
+				"2026-06-12",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2016-02-26",
@@ -2232,6 +2238,7 @@ return {
 			CreditCost = 250000,
 			DucatCost = 320,
 			Image = "DarkSwordDayOfTheDeadSkin.png",
+			IsSeasonal = true,
 			Link = "Dark Sword Day of the Dead Skin",
 			Name = "Dark Sword Day of the Dead Skin",
 			OfferingDates = {
@@ -2255,7 +2262,8 @@ return {
 				"2025-10-03",
 				"2025-10-17",
 				"2025-10-24",
-				"2025-10-31"
+				"2025-10-31",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2015-10-30",
@@ -2860,7 +2868,8 @@ return {
 				"2025-02-07",
 				"2025-04-25",
 				"2026-02-06",
-				"2026-02-20"
+				"2026-02-20",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2020-04-24",
@@ -2987,7 +2996,8 @@ return {
 				"2024-04-05",
 				"2025-01-24",
 				"2025-12-12",
-				"2026-08-07"
+				"2026-08-07",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2022-03-11"
@@ -3016,7 +3026,7 @@ return {
 			CreditCost = 100000,
 			DucatCost = 500,
 			Image = "DragonModPackPlaceholder.png",
-			IsDiscont = true,
+			IsDiscontinued = true,
 			Link = "Mod Pack#Dragon Mod Pack",
 			Name = "Dragon Mod Pack",
 			OfferingDates = {
@@ -3048,6 +3058,7 @@ return {
 			CreditCost = 275000,
 			DucatCost = 300,
 			Image = "DreadDayOfTheDeadSkin.png",
+			IsSeasonal = true,
 			Link = "Dread Day of the Dead Skin",
 			Name = "Dread Day of the Dead Skin",
 			OfferingDates = {
@@ -3067,7 +3078,8 @@ return {
 				"2025-10-03",
 				"2025-10-17",
 				"2025-10-24",
-				"2025-10-31"
+				"2025-10-31",
+				"2026-10-16"
 			},
 			TennoConOfferingDates = {
 				"2020-07-11",
@@ -3177,6 +3189,7 @@ return {
 			CreditCost = 200000,
 			DucatCost = 275,
 			Image = "ElixisLatronChestPlate.png",
+			IsDiscontinued = true,
 			Link = "Elixis Latron Chest Plate",
 			Name = "Elixis Latron Chest Plate",
 			TennoConOfferingDates = {
@@ -3193,6 +3206,7 @@ return {
 			CreditCost = 175000,
 			DucatCost = 300,
 			Image = "ElixisLatronLegPlate.png",
+			IsDiscontinued = true,
 			Link = "Elixis Latron Leg Plate",
 			Name = "Elixis Latron Leg Plate",
 			TennoConOfferingDates = {
@@ -3253,6 +3267,7 @@ return {
 			CreditCost = 220000,
 			DucatCost = 325,
 			Image = "ElixisLatronShoulderPlate.png",
+			IsDiscontinued = true,
 			Link = "Elixis Latron Shoulder Plate (Left)",
 			Name = "Elixis Latron Shoulder Plate (Left)",
 			TennoConOfferingDates = {
@@ -3383,7 +3398,7 @@ return {
 			CreditCost = 1900,
 			DucatCost = 99,
 			Image = "EntratiEyeGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Entrati Eye Glyph",
 			OfferingDates = {
 				"2025-04-04",
@@ -3543,12 +3558,14 @@ return {
 			CreditCost = 302000,
 			DucatCost = 227,
 			Image = "EskhatosGrimoireSkin.png",
+			IsSeasonal = true,
 			Link = "Eskhatos Grimoire Skin",
 			Name = "Eskhatos Grimoire Skin",
 			OfferingDates = {
 				"2025-10-24",
 				"2025-10-31",
-				"2025-11-07"
+				"2025-11-07",
+				"2026-10-16"
 			},
 			Type = "Cosmetic (Weapon Skin)"
 		},
@@ -3561,7 +3578,8 @@ return {
 			OfferingDates = {
 				"2025-10-24",
 				"2025-10-31",
-				"2025-11-07"
+				"2025-11-07",
+				"2026-10-16"
 			},
 			Type = "Cosmetic (Armor)"
 		},
@@ -3569,15 +3587,41 @@ return {
 			CreditCost = 109000,
 			DucatCost = 69,
 			Image = "EskhatosKi'TeerEphemera.png",
+			IsSeasonal = true,
 			Link = "Eskhatos Ki'Teer Ephemera",
 			Name = "Eskhatos Ki'Teer Ephemera",
 			OfferingDates = {
 				"2025-10-17",
 				"2025-10-24",
 				"2025-10-31",
-				"2025-11-07"
+				"2025-11-07",
+				"2026-10-16"
 			},
 			Type = "Cosmetic (Ephemera)"
+		},
+		["Eskhatos Ki'Teer Floof"] = {
+			CreditCost = 111111,
+			DucatCost = 111,
+			Image = "EskhatosKi'TeerFloof.png",
+			IsSeasonal = true,
+			Link = "Orbiter Decorations#Floofs",
+			Name = "Eskhatos Ki'Teer Floof",
+			OfferingDates = {
+				"2026-10-16"
+			},
+			Type = "Decoration"
+		},
+		["Eskhatos Ki'Teer Glyph"] = {
+			CreditCost = 67,
+			DucatCost = 67,
+			Image = "EskhatosKi'TeerGlyph.png",
+			IsSeasonal = true,
+			Link = "Glyph#Baro Ki'Teer Glyphs",
+			Name = "Eskhatos Ki'Teer Glyph",
+			OfferingDates = {
+				"2026-10-16"
+			},
+			Type = "Glyph"
 		},
 		["Eskhatos Ki'Teer Knee Guards"] = {
 			CreditCost = 251000,
@@ -3587,7 +3631,8 @@ return {
 			Name = "Eskhatos Ki'Teer Knee Guards",
 			OfferingDates = {
 				"2025-10-31",
-				"2025-11-07"
+				"2025-11-07",
+				"2026-10-16"
 			},
 			Type = "Cosmetic (Armor)"
 		},
@@ -3601,7 +3646,8 @@ return {
 				"2025-10-17",
 				"2025-10-24",
 				"2025-10-31",
-				"2025-11-07"
+				"2025-11-07",
+				"2026-10-16"
 			},
 			Type = "Cosmetic (Armor)"
 		},
@@ -3609,24 +3655,51 @@ return {
 			CreditCost = 61000,
 			DucatCost = 34,
 			Image = "EskhatosNecraloidSigil.png",
+			IsSeasonal = true,
 			Link = "Sigils#Baro Ki'Teer Sigils",
 			Name = "Eskhatos Necraloid Sigil",
 			OfferingDates = {
-				"2025-11-07"
+				"2025-11-07",
+				"2026-10-16"
 			},
 			Type = "Cosmetic (Sigil)"
+		},
+		["Eskhatos Necramech Skin"] = {
+			CreditCost = 448114,
+			DucatCost = 236,
+			Image = "EskhatosNecramechSkin.png",
+			IsSeasonal = true,
+			Link = "Eskhatos Necramech Skin",
+			Name = "Eskhatos Necramech Skin",
+			OfferingDates = {
+				"2026-10-16"
+			},
+			Type = "Cosmetic (Necramech)"
+		},
+		["Eskhatos Sugatra"] = {
+			CreditCost = 209066,
+			DucatCost = 181,
+			Image = "EskhatosSugatra.png",
+			IsSeasonal = true,
+			Link = "Eskhatos Sugatra",
+			Name = "Eskhatos Sugatra",
+			OfferingDates = {
+				"2026-10-16"
+			},
+			Type = "Cosmetic (Weapon)"
 		},
 		["Excalibur Proto-Armor in Action Glyph"] = {
 			CreditCost = 60000,
 			DucatCost = 75,
 			Image = "ExcaliburProto-ArmorInActionGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Excalibur Proto-Armor in Action Glyph",
 			OfferingDates = {
 				"2024-04-19",
 				"2024-12-13",
 				"2025-05-30",
-				"2025-12-12"
+				"2025-12-12",
+				"2026-10-16"
 			},
 			TennoConOfferingDates = {
 				"2024-07-20",
@@ -3708,7 +3781,7 @@ return {
 			CreditCost = 50000,
 			DucatCost = 250,
 			Image = "FalconModPackPlaceholder.png",
-			IsDiscont = true,
+			IsDiscontinued = true,
 			Link = "Mod Pack#Falcon Mod Pack",
 			Name = "Falcon Mod Pack",
 			OfferingDates = {
@@ -3842,6 +3915,7 @@ return {
 			CreditCost = 45000,
 			DucatCost = 55,
 			Image = "FeastingHamsterGlyph.png",
+			IsSeasonal = true,
 			Link = "Glyph#Lunar New Year",
 			Name = "Feasting Hamster Glyph",
 			OfferingDates = {
@@ -4042,6 +4116,7 @@ return {
 			CreditCost = 45000,
 			DucatCost = 55,
 			Image = "GivingSnakeGlyph.png",
+			IsSeasonal = true,
 			Link = "Glyph#Lunar New Year",
 			Name = "Giving Snake Glyph",
 			OfferingDates = {
@@ -4349,7 +4424,7 @@ return {
 			CreditCost = 65000,
 			DucatCost = 75,
 			Image = "GrineerGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Grineer Glyph",
 			OfferingDates = {
 				"2026-06-12"
@@ -4452,6 +4527,7 @@ return {
 			CreditCost = 45000,
 			DucatCost = 55,
 			Image = "GuimaoGlyph.png",
+			IsSeasonal = true,
 			Link = "Glyph#Lunar New Year",
 			Name = "Guimao Glyph",
 			OfferingDates = {
@@ -4821,7 +4897,8 @@ return {
 				"2024-06-14",
 				"2025-02-07",
 				"2025-11-14",
-				"2026-07-24"
+				"2026-07-24",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2015-05-15",
@@ -5038,7 +5115,8 @@ return {
 			CreditCost = 50000,
 			DucatCost = 80,
 			Image = "InMahBellyGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			IsSeasonal = true,
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "In Mah Belly Glyph",
 			OfferingDates = {
 				"2020-10-09",
@@ -5055,7 +5133,8 @@ return {
 				"2025-10-03",
 				"2025-10-17",
 				"2025-10-24",
-				"2025-10-31"
+				"2025-10-31",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2019-10-11",
@@ -5081,7 +5160,8 @@ return {
 			Name = "Inaros Floof",
 			OfferingDates = {
 				"2025-04-18",
-				"2026-02-20"
+				"2026-02-20",
+				"2026-10-16"
 			},
 			TennoConOfferingDates = {
 				"2025-07-19",
@@ -5160,7 +5240,7 @@ return {
 			CreditCost = 60000,
 			DucatCost = 75,
 			Image = "IvaraInActionGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Ivara in Action Glyph",
 			OfferingDates = {
 				"2024-04-05",
@@ -5312,6 +5392,7 @@ return {
 			CreditCost = 45000,
 			DucatCost = 55,
 			Image = "JiachenGlyph.png",
+			IsSeasonal = true,
 			Link = "Glyph#Lunar New Year",
 			Name = "Jiachen Glyph",
 			OfferingDates = {
@@ -7535,6 +7616,7 @@ return {
 			CreditCost = 200000,
 			DucatCost = 425,
 			Image = "Ki'TeerSolsticeSyandana.png",
+			IsSeasonal = true,
 			Link = "Ki'Teer Solstice Syandana",
 			Name = "Ki'Teer Solstice Syandana",
 			OfferingDates = {
@@ -7838,7 +7920,7 @@ return {
 			CreditCost = 50000,
 			DucatCost = 80,
 			Image = "Ki'TeerTributeGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Ki'Teer Tribute Glyph",
 			OfferingDates = {
 				"2022-07-29",
@@ -7891,7 +7973,7 @@ return {
 			CreditCost = 200000,
 			DucatCost = 200,
 			Image = "KoiSentinelTail.png",
-			IsDiscont = true,
+			IsDiscontinued = true,
 			Link = "Sentinel Cosmetics#Attachments",
 			Name = "Koi Sentinel Tail",
 			Type = "Cosmetic (Sentinel)"
@@ -7900,7 +7982,7 @@ return {
 			CreditCost = 55000,
 			DucatCost = 80,
 			Image = "KoumeiDiceGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Koumei Dice Glyph",
 			OfferingDates = {
 				"2026-01-23"
@@ -7914,7 +7996,7 @@ return {
 			CreditCost = 50000,
 			DucatCost = 75,
 			Image = "KuvaGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Kuva Glyph",
 			OfferingDates = {
 				"2025-11-14",
@@ -8697,6 +8779,7 @@ return {
 			CreditCost = 45000,
 			DucatCost = 55,
 			Image = "LunarRenewalDragonEmblem.png",
+			IsSeasonal = true,
 			Link = "Emblems#Lunar Renewal Emblems",
 			Name = "Lunar Renewal Dragon Emblem",
 			OfferingDates = {
@@ -8719,6 +8802,7 @@ return {
 		["Lunar Renewal Horse Emblem"] = {
 			CreditCost = 1,
 			Image = "LunarRenewalHorseEmblem.png",
+			IsSeasonal = true,
 			Link = "Emblems#Lunar Renewal Emblems",
 			Name = "Lunar Renewal Horse Emblem",
 			OfferingDates = {
@@ -8735,6 +8819,7 @@ return {
 			CreditCost = 45000,
 			DucatCost = 55,
 			Image = "LunarRenewalOxSigil.png",
+			IsSeasonal = true,
 			Link = "Sigils#Baro Ki'Teer Sigils",
 			Name = "Lunar Renewal Ox Sigil",
 			OfferingDates = {
@@ -8769,6 +8854,7 @@ return {
 			CreditCost = 45000,
 			DucatCost = 55,
 			Image = "LunarRenewalRabbitEmblem.png",
+			IsSeasonal = true,
 			Link = "Emblems#Lunar Renewal Emblems",
 			Name = "Lunar Renewal Rabbit Emblem",
 			OfferingDates = {
@@ -8795,6 +8881,7 @@ return {
 			CreditCost = 45000,
 			DucatCost = 55,
 			Image = "LunarRenewalSnakeEmblem.png",
+			IsSeasonal = true,
 			Link = "Emblems#Lunar Renewal Emblems",
 			Name = "Lunar Renewal Snake Emblem",
 			OfferingDates = {
@@ -8811,6 +8898,7 @@ return {
 			CreditCost = 45000,
 			DucatCost = 55,
 			Image = "LunarRenewalTigerEmblem.png",
+			IsSeasonal = true,
 			Link = "Emblems#Lunar Renewal Emblems",
 			Name = "Lunar Renewal Tiger Emblem",
 			OfferingDates = {
@@ -8841,6 +8929,7 @@ return {
 			CreditCost = 45000,
 			DucatCost = 55,
 			Image = "LunarRenewalTigerSigil.png",
+			IsSeasonal = true,
 			Link = "Sigils#Baro Ki'Teer Sigils",
 			Name = "Lunar Renewal Tiger Sigil",
 			OfferingDates = {
@@ -8896,7 +8985,8 @@ return {
 				"2025-02-07",
 				"2025-07-11",
 				"2025-12-26",
-				"2026-02-20"
+				"2026-02-20",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2019-08-02",
@@ -9075,7 +9165,8 @@ return {
 				"2024-05-17",
 				"2024-08-23",
 				"2026-02-20",
-				"2026-06-26"
+				"2026-06-26",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2016-03-11",
@@ -9197,7 +9288,8 @@ return {
 				"2024-11-29",
 				"2024-12-27",
 				"2025-04-11",
-				"2025-10-31"
+				"2025-10-31",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2016-09-23",
@@ -9366,7 +9458,8 @@ return {
 				"2026-04-03",
 				"2026-04-10",
 				"2026-06-12",
-				"2026-08-21"
+				"2026-08-21",
+				"2026-10-16"
 			},
 			TennoConOfferingDates = {
 				"2023-08-26",
@@ -9451,7 +9544,8 @@ return {
 				"2026-04-03",
 				"2026-04-10",
 				"2026-06-12",
-				"2026-08-21"
+				"2026-08-21",
+				"2026-10-16"
 			},
 			TennoConOfferingDates = {
 				"2023-08-26",
@@ -9696,7 +9790,7 @@ return {
 			CreditCost = 75000,
 			DucatCost = 60,
 			Image = "TheMurmurIconColor.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Murmur Glyph",
 			OfferingDates = {
 				"2026-03-06"
@@ -9710,10 +9804,12 @@ return {
 			CreditCost = 88000,
 			DucatCost = 21,
 			Image = "NaberusFloatingCandles.png",
+			IsSeasonal = true,
 			Link = "Orbiter Decorations#Baro Ki'Teer",
 			Name = "Naberus Floating Candles",
 			OfferingDates = {
-				"2025-11-07"
+				"2025-11-07",
+				"2026-10-16"
 			},
 			Type = "Decoration"
 		},
@@ -10451,7 +10547,7 @@ return {
 			CreditCost = 400000,
 			DucatCost = 700,
 			Image = "OrokinCatalyst.png",
-			IsDiscont = true,
+			IsDiscontinued = true,
 			Link = "Orokin Catalyst",
 			Name = "Orokin Catalyst",
 			PcOfferingDates = {
@@ -10797,10 +10893,12 @@ return {
 			CreditCost = 1000001,
 			DucatCost = 228,
 			Image = "PeculiarEndMod.png",
+			IsSeasonal = true,
 			Link = "Peculiar End",
 			Name = "Peculiar End",
 			OfferingDates = {
-				"2025-11-07"
+				"2025-11-07",
+				"2026-10-16"
 			},
 			Type = "Mod (Warframe)"
 		},
@@ -11094,7 +11192,8 @@ return {
 				"2023-02-24",
 				"2023-09-22",
 				"2025-01-10",
-				"2026-05-01"
+				"2026-05-01",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2016-01-22",
@@ -11392,7 +11491,8 @@ return {
 				"2024-05-17",
 				"2024-12-13",
 				"2025-09-05",
-				"2026-05-15"
+				"2026-05-15",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2020-05-08",
@@ -11511,7 +11611,8 @@ return {
 				"2025-03-21",
 				"2025-10-03",
 				"2026-02-06",
-				"2026-05-01"
+				"2026-05-01",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2020-05-08",
@@ -11900,7 +12001,8 @@ return {
 			OfferingDates = {
 				"2023-10-20",
 				"2025-02-07",
-				"2026-05-15"
+				"2026-05-15",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2018-10-05",
@@ -12081,7 +12183,8 @@ return {
 				"2025-02-21",
 				"2025-06-27",
 				"2025-12-12",
-				"2026-05-29"
+				"2026-05-29",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2017-11-17",
@@ -12662,7 +12765,8 @@ return {
 				"2025-10-03",
 				"2025-10-24",
 				"2026-01-09",
-				"2026-05-29"
+				"2026-05-29",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2015-06-26",
@@ -13021,7 +13125,8 @@ return {
 				"2025-05-02",
 				"2025-08-08",
 				"2025-12-12",
-				"2026-05-29"
+				"2026-05-29",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2015-02-06",
@@ -13113,7 +13218,8 @@ return {
 				"2024-09-06",
 				"2024-12-27",
 				"2025-06-13",
-				"2026-05-01"
+				"2026-05-01",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2017-01-13",
@@ -13172,7 +13278,8 @@ return {
 				"2022-10-07",
 				"2023-12-29",
 				"2025-06-27",
-				"2026-05-29"
+				"2026-05-29",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2015-11-13",
@@ -14789,7 +14896,7 @@ return {
 			CreditCost = 50000,
 			DucatCost = 80,
 			Image = "PrismaKavatGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Prisma Kavat Glyph",
 			OfferingDates = {
 				"2022-07-29",
@@ -14932,7 +15039,7 @@ return {
 			CreditCost = 50000,
 			DucatCost = 80,
 			Image = "PrismaKubrowGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Prisma Kubrow Glyph",
 			OfferingDates = {
 				"2022-10-21",
@@ -15257,7 +15364,7 @@ return {
 			CreditCost = 50000,
 			DucatCost = 80,
 			Image = "PrismaLotusGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Prisma Lotus Glyph",
 			OfferingDates = {
 				"2022-09-09",
@@ -15634,7 +15741,8 @@ return {
 				"2024-11-15",
 				"2024-12-27",
 				"2025-04-11",
-				"2025-10-24"
+				"2025-10-24",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2018-12-28",
@@ -15935,7 +16043,8 @@ return {
 				"2025-04-11",
 				"2025-07-25",
 				"2025-11-28",
-				"2026-05-01"
+				"2026-05-01",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2015-08-07",
@@ -16027,7 +16136,8 @@ return {
 				"2025-04-11",
 				"2025-08-08",
 				"2025-12-12",
-				"2026-05-29"
+				"2026-05-29",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2018-08-24",
@@ -16241,7 +16351,8 @@ return {
 				"2025-04-11",
 				"2025-04-18",
 				"2025-10-17",
-				"2026-05-01"
+				"2026-05-01",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2015-02-20",
@@ -16744,7 +16855,8 @@ return {
 			OfferingDates = {
 				"2025-01-24",
 				"2025-07-25",
-				"2026-01-09"
+				"2026-01-09",
+				"2026-10-16"
 			},
 			TennoConOfferingDates = {
 				"2025-07-19",
@@ -16806,7 +16918,8 @@ return {
 				"2025-04-25",
 				"2025-07-11",
 				"2025-12-26",
-				"2026-02-20"
+				"2026-02-20",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2015-11-27",
@@ -17499,7 +17612,7 @@ return {
 			CreditCost = 1906,
 			DucatCost = 93,
 			Image = "ScaldraGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Scaldra Glyph",
 			OfferingDates = {
 				"2025-05-16",
@@ -17783,7 +17896,8 @@ return {
 				"2023-06-02",
 				"2024-05-03",
 				"2025-01-10",
-				"2025-11-07"
+				"2025-11-07",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2022-07-15"
@@ -17869,11 +17983,13 @@ return {
 			CreditCost = 298000,
 			DucatCost = 132,
 			Image = "Silva&AegisEskhatosSkin.png",
+			IsSeasonal = true,
 			Link = "Silva & Aegis Eskhatos Skin",
 			Name = "Silva & Aegis Eskhatos Skin",
 			OfferingDates = {
 				"2025-10-31",
-				"2025-11-07"
+				"2025-11-07",
+				"2026-10-16"
 			},
 			Type = "Cosmetic (Weapon Skin)"
 		},
@@ -17924,7 +18040,7 @@ return {
 			CreditCost = 2026,
 			DucatCost = 20,
 			Image = "SingingLotusCommunityGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Singing Lotus Community Glyph",
 			OfferingDates = {
 				"2026-07-24",
@@ -18322,7 +18438,8 @@ return {
 				"2025-07-25",
 				"2025-12-26",
 				"2026-04-03",
-				"2026-04-10"
+				"2026-04-10",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2021-11-05",
@@ -18356,7 +18473,8 @@ return {
 				"2025-07-25",
 				"2025-12-26",
 				"2026-04-03",
-				"2026-04-10"
+				"2026-04-10",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2021-11-05",
@@ -18424,7 +18542,8 @@ return {
 				"2025-07-25",
 				"2025-12-26",
 				"2026-04-03",
-				"2026-04-10"
+				"2026-04-10",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2021-11-05",
@@ -18499,7 +18618,7 @@ return {
 			CreditCost = 1901,
 			DucatCost = 98,
 			Image = "TechrotGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Techrot Glyph",
 			OfferingDates = {
 				"2025-07-11",
@@ -18679,7 +18798,7 @@ return {
 			CreditCost = 1000,
 			DucatCost = 15,
 			Image = "TennoConCrtGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "TennoCon Crt Glyph",
 			OfferingDates = {
 				"2025-04-18",
@@ -18755,7 +18874,8 @@ return {
 			Link = "Somachord",
 			Name = "The Sacrifice Login Music",
 			OfferingDates = {
-				"2026-03-20"
+				"2026-03-20",
+				"2026-10-16"
 			},
 			TennoConOfferingDates = {
 				"2026-07-11"
@@ -19137,7 +19257,8 @@ return {
 				"2025-05-02",
 				"2025-08-22",
 				"2025-12-26",
-				"2026-05-01"
+				"2026-05-01",
+				"2026-10-16"
 			},
 			TennoConOfferingDates = {
 				"2023-08-26",
@@ -19342,7 +19463,7 @@ return {
 			CreditCost = 50000,
 			DucatCost = 80,
 			Image = "VoidAngelGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Void Angel Glyph",
 			OfferingDates = {
 				"2024-11-29",
@@ -19575,7 +19696,7 @@ return {
 			CreditCost = 50000,
 			DucatCost = 80,
 			Image = "Vome-FassGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Vome-Fass Glyph",
 			OfferingDates = {
 				"2022-07-29",
@@ -19611,7 +19732,7 @@ return {
 			CreditCost = 60000,
 			DucatCost = 75,
 			Image = "VorunaInActionGlyph.png",
-			Link = "Glyph#Other Glyphs",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Voruna in Action Glyph",
 			OfferingDates = {
 				"2025-03-07",
@@ -19744,6 +19865,7 @@ return {
 			CreditCost = 275000,
 			DucatCost = 325,
 			Image = "WintercressSyandana.png",
+			IsSeasonal = true,
 			Link = "Wintercress Syandana",
 			Name = "Wintercress Syandana",
 			OfferingDates = {
@@ -19811,6 +19933,7 @@ return {
 			CreditCost = 175000,
 			DucatCost = 400,
 			Image = "DOTDWysarKavatArmor.png",
+			IsSeasonal = true,
 			Link = "Kavat Cosmetics#Armor",
 			Name = "Wysar Day of the Dead Kavat Armor",
 			OfferingDates = {
@@ -19834,7 +19957,8 @@ return {
 				"2025-10-03",
 				"2025-10-17",
 				"2025-10-24",
-				"2025-10-31"
+				"2025-10-31",
+				"2026-10-16"
 			},
 			PcOfferingDates = {
 				"2016-10-21",
@@ -19979,6 +20103,7 @@ return {
 			CreditCost = 45000,
 			DucatCost = 55,
 			Image = "YisiGlyph.png",
+			IsSeasonal = true,
 			Link = "Glyph#Lunar New Year",
 			Name = "Yisi Glyph",
 			OfferingDates = {

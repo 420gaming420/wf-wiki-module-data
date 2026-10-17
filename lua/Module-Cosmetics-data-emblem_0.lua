@@ -133,7 +133,7 @@ return {
         CodexSecret = false,
         Description = "An emblem awarded to all those who helped destroy the Grineer toxin during the Cicero Crisis.",
         ExcludeFromCodex = false,
-        Image = "CiceroCrisisEmblem(Exwhite).png",
+        Image = "CiceroCrisisEmblem(ExWhite).png",
         InternalName = "/Lotus/Upgrades/Skins/Clan/JungleEventBadgeItem",
         Link = "Cicero Crisis Emblem",
         Name = "Cicero Crisis Emblem",
@@ -949,14 +949,14 @@ return {
         Name = "Solstice Conclave Emblem",
         Type = "Emblem"
     },
-    ["Specters of Liberty Emblem"] = {
+    ["Specters Of Liberty Emblem"] = {
         CodexSecret = false,
         Description = "Awarded for the safe return of Red Veil Operatives during the Specters of Liberty operation.",
         ExcludeFromCodex = false,
         Image = "SpectersOfLibertyEmblem(ExWhite).png",
         InternalName = "/Lotus/Upgrades/Skins/Clan/RescueEventBadgeItem",
-        Link = "Specters of Liberty Emblem",
-        Name = "Specters of Liberty Emblem",
+        Link = "Specters Of Liberty Emblem",
+        Name = "Specters Of Liberty Emblem",
         Type = "Emblem"
     },
     ["Storm Leader Emblem"] = {

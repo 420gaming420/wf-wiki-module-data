@@ -270,7 +270,7 @@ local function buildGallery(entries)
 			('<strong class="baro-missing">"%s" does not exist in [[Module:Baro/data]].</strong>'):format(itemName)
 
 		local file			= ('[[File:%s|120x120px|link=%s]]'):format(entry.Image or 'UnidentifiedItem.png', itemLink)
-		local label			= entry.Condition and labelSpan:format(entry.Condition)
+		local label			= entry.RequirementText and labelSpan:format(entry.RequirementText)
 		local tooltip		= tooltipModule and tooltipSpan:format(itemLink, tooltipModule, itemName, file)
 
 		local name			=  ('<div class="baro-name">%s</div>'):format(displayName)
@@ -356,7 +356,7 @@ local function buildTabbers(ItemEntries, config)
 	for _, catName in ipairs(config.tabs) do cats[catName] = {} end
 
 	for _, ItemEntry in ipairs(ItemEntries) do
-		if ItemEntry.IsDiscont and cats['Discontinued'] then
+		if ItemEntry.IsDiscontinued and cats['Discontinued'] then
 			table.insert(cats['Discontinued'], ItemEntry)
 		else
 			local itemCat = config.getItemCat(ItemEntry)
@@ -401,7 +401,7 @@ function p.buildCurrentOfferings(frame)
 
 	if args.allItems == 'true' then
 		for _, v in pairs(BaroItems) do
-			if not v.IsDiscont then table.insert(ItemEntries, v) end
+			if not v.IsDiscontinued then table.insert(ItemEntries, v) end
 		end
 		table.sort(ItemEntries, function(a, b) return a.Type == b.Type and a.Name < b.Name or a.Type < b.Type end)
 	else
@@ -582,7 +582,7 @@ end
 --	@return			{string} List of dates in wikitext or an empty string if Baro never sold this particular item
 function p._buildBaroSourceStrings(name)
 	local ItemEntry = BaroItems[name]
-	if (ItemEntry == nil) or (ItemEntry.IsDiscont == true) then return '' end
+	if (ItemEntry == nil) or (ItemEntry.IsDiscontinued == true) then return '' end
 
 	local currencyStr = ('%s%s%s<br />'):format(
 		ItemEntry.DucatCost and Tooltip.icon('Orokin Ducats', 'Resources') .. ' ' .. Lang:formatNum(ItemEntry.DucatCost) or '',

@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/userdata"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/userdata"
-wiki_timestamp: "2026-10-16T06:09:58Z"
+wiki_timestamp: "2026-10-16T13:29:20Z"
 ---
 
 ## Users Data Schema
@@ -4431,6 +4431,7 @@ return {
 				"Bruntspar Necramech Helmet",
 				"Cryptanaut Necramech Helmet",
 				"Day of the Dead Necramech Helmet",
+				"Eskhatos Necramech Helmet",
 				"Karnolyth Necramech Helmet",
 				"Proto Necramech Helmet",
 				"Snake Necramech Helmet",
@@ -4438,6 +4439,7 @@ return {
 			Skin = {
 				"Bruntspar Necramech Skin",
 				"Day of the Dead Necramech Skin",
+				"Eskhatos Necramech Skin",
 				"Karnolyth Necramech Skin",
 				"Proto Necramech Skin",
 				"Snake Necramech Skin",
@@ -5428,6 +5430,7 @@ return {
 	Parazon = {
 		Equipments = {
 			Skin = {
+				"Eskhatos Parazon Skin",
 				"Sigma Series Parazon Skin",
 			},
 		},
@@ -6402,6 +6405,7 @@ return {
 				"Daman Prime Sugatra",
 				"Daman Sugatra",
 				"Eminence Sugatra",
+				"Eskhatos Sugatra",
 				"Immortal Breath Sugatra",
 				"Interga Sugatra",
 				"Jade Follox Sugatra",
