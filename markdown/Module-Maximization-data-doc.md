@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data/doc"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data/doc"
-wiki_timestamp: "2026-10-03T19:33:51Z"
+wiki_timestamp: "2026-10-17T17:49:29Z"
 ---
 
 ## Contents
@@ -83,6 +83,7 @@ Style Guide")]
    * Proc calculations should be present only under specific conditions:
      + if the proc changes duration or damage because of a kit interaction (e.g. passive, ability, augment),
      + or if the proc deals damage of a type different from the ability.
+   * Proc calculations must be displayed in a `[damage] * [duration]s = [total damage]` format. This helps users apply external factors, and makes clear what scales.
 3. The preferable order of outputs is similar to what is seen in ability infoboxes (for visual consistency):
    1. Ability stats (scaled by [![](/images/thumb/AbilityStrengthBuff%28xWhite%29.png/32px-AbilityStrengthBuff%28xWhite%29.png?3d71c)](/w/Ability_Strength "Ability Strength") [Ability Strength](/w/Ability_Strength "Ability Strength"), [![](/images/thumb/AbilityDurationBuff%28xWhite%29.png/32px-AbilityDurationBuff%28xWhite%29.png?d3e3b)](/w/Ability_Duration "Ability Duration") [Ability Duration](/w/Ability_Duration "Ability Duration"), [![](/images/thumb/AbilityRangeBuff%28xWhite%29.png/32px-AbilityRangeBuff%28xWhite%29.png?12f85)](/w/Ability_Range "Ability Range") [Ability Range](/w/Ability_Range "Ability Range")).
    2. Any additional stats (misc and augment stats in the same order of scalers).

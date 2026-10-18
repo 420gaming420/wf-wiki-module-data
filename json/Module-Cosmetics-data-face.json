@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-10-08T08:35:00.257Z"
+    "converted_at": "2026-10-18T07:05:00.748Z"
   },
   "_comments": "    -- Beard\n    -- Hairstyle\n    -- Marking\n    -- Complexion (Operator)\n    -- Complexion (Drifter)\n    -- Face (Operator)\n    -- Visage (Voyageur)",
   "Visage 80 (Drifter)": {
@@ -109,7 +109,7 @@
   },
   "Somatics Rev-16": {
     "Type": "Marking",
-    "Image": "SomaticsRev16.png",
+    "Image": "SomaticsRev-16.png",
     "Description": "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
     "Link": "Somatics Rev-16",
     "Name": "Somatics Rev-16",
@@ -499,7 +499,7 @@
   },
   "Somatics Asa-03": {
     "Type": "Marking",
-    "Image": "SomaticsAsa03.png",
+    "Image": "SomaticsAsa-03.png",
     "Description": "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
     "Link": "Somatics Asa-03",
     "Name": "Somatics Asa-03",
@@ -519,7 +519,7 @@
   },
   "Somatics Asa-23": {
     "Type": "Marking",
-    "Image": "SomaticsAsa23.png",
+    "Image": "SomaticsAsa-23.png",
     "Description": "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
     "Link": "Somatics Asa-23",
     "Name": "Somatics Asa-23",
@@ -639,7 +639,7 @@
   },
   "Somatics Zz-70": {
     "Type": "Marking",
-    "Image": "SomaticsZz70.png",
+    "Image": "SomaticsZz-70.png",
     "Description": "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
     "Link": "Somatics Zz-70",
     "Name": "Somatics Zz-70",
@@ -749,7 +749,7 @@
   },
   "Somatics Dev-64": {
     "Type": "Marking",
-    "Image": "SomaticsDev64.png",
+    "Image": "SomaticsDev-64.png",
     "Description": "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
     "Link": "Somatics Dev-64",
     "Name": "Somatics Dev-64",
@@ -1339,7 +1339,7 @@
   },
   "Somatics Tt-11": {
     "Type": "Marking",
-    "Image": "SomaticsTt11.png",
+    "Image": "SomaticsTt-11.png",
     "Description": "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
     "Link": "Somatics Tt-11",
     "Name": "Somatics Tt-11",
@@ -1549,7 +1549,7 @@
   },
   "Somatics Fa-13": {
     "Type": "Marking",
-    "Image": "SomaticsFa13.png",
+    "Image": "SomaticsFa-13.png",
     "Description": "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
     "Link": "Somatics Fa-13",
     "Name": "Somatics Fa-13",
@@ -1559,7 +1559,7 @@
   },
   "Somatics J-02": {
     "Type": "Marking",
-    "Image": "SomaticsJ02.png",
+    "Image": "SomaticsJ-02.png",
     "Description": "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
     "Link": "Somatics J-02",
     "Name": "Somatics J-02",

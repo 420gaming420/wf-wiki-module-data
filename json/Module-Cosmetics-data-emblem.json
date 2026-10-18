@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-10-16T06:52:24.768Z"
+    "converted_at": "2026-10-18T07:04:58.113Z"
   },
   "_comments": "",
   "Ambulas Reborn Emblem": {
@@ -137,13 +137,13 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Tenno Translator Emblem": {
+  "Tenno Mentor Emblem": {
     "Type": "Emblem",
-    "Image": "TennoTranslatorEmblem.png",
-    "Description": "A special emblem worn only by a select few Tenno.",
-    "Link": "Tenno Translator Emblem",
-    "Name": "Tenno Translator Emblem",
-    "InternalName": "/Lotus/Upgrades/Skins/Clan/TranslatorBadgeItem",
+    "Image": "LotusGuideBadge.png",
+    "Description": "Awarded to Tenno who assist the Lotus by helping other Tenno.",
+    "Link": "Tenno Mentor Emblem",
+    "Name": "Tenno Mentor Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/LotusGuideBadgeItem",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -197,13 +197,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Madurai Emblem": {
+  "Tar Mutalist Moa Emblem": {
     "Type": "Emblem",
-    "Image": "MaduraiEmblem.png",
-    "Description": "A prestigious emblem for Tenno of the Madurai School.",
-    "Link": "Madurai Emblem",
-    "Name": "Madurai Emblem",
-    "InternalName": "/Lotus/Upgrades/Skins/Clan/Focus/MaduraiBadgeItem",
+    "Image": "TarMutalistMoaEmblem(ExWhite).png",
+    "Description": "Awarded to Tenno who participated in the Mutalist Incursions event.",
+    "Link": "Tar Mutalist Moa Emblem",
+    "Name": "Tar Mutalist Moa Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/InfTacAlertSlowBombMoaAncientBadgeItem",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -237,6 +237,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "TennoCon Emblem": {
+    "Type": "Emblem",
+    "Image": "TennoConEmblem(ExWhite).png",
+    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2016.",
+    "Link": "TennoCon Emblem",
+    "Name": "TennoCon Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/TennoCon2016BadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": true
+  },
   "TennoGen Emblem": {
     "Type": "Emblem",
     "Image": "TennoGenEmblem(ExWhite).png",
@@ -245,16 +255,6 @@
     "Name": "TennoGen Emblem",
     "InternalName": "/Lotus/Upgrades/Skins/Clan/TennoGenBadgeItem",
     "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Tethra's Doom Emblem": {
-    "Type": "Emblem",
-    "Image": "Tethra'sDoomEmblem(ExWhite).png",
-    "Description": "An insignia awarded to the Tenno who distinguished themselves during Tethra's Doom event.",
-    "Link": "Tethra's Doom Emblem",
-    "Name": "Tethra's Doom Emblem",
-    "InternalName": "/Lotus/Upgrades/Skins/Clan/ShipyardsEventBadgeItem",
-    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Gold Skull Emblem": {
@@ -287,14 +287,14 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Specters of Liberty Emblem": {
+  "Vallis Beast And Bird Emblem": {
     "Type": "Emblem",
-    "Image": "SpectersOfLibertyEmblem(ExWhite).png",
-    "Description": "Awarded for the safe return of Red Veil Operatives during the Specters of Liberty operation.",
-    "Link": "Specters of Liberty Emblem",
-    "Name": "Specters of Liberty Emblem",
-    "InternalName": "/Lotus/Upgrades/Skins/Clan/RescueEventBadgeItem",
-    "ExcludeFromCodex": false,
+    "Image": "VallisBeastAndBirdEmblem.png",
+    "Description": "Awarded for the diligent preservation of the Horrasques, Sawgaws and Stovers of the Orb Vallis.",
+    "Link": "Vallis Beast And Bird Emblem",
+    "Name": "Vallis Beast And Bird Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ConservationBadgeBItem",
+    "ExcludeFromCodex": true,
     "CodexSecret": false
   },
   "Solstice Conclave Emblem": {
@@ -307,13 +307,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Vallis Beast And Bird Emblem": {
+  "Unairu Emblem": {
     "Type": "Emblem",
-    "Image": "VallisBeastAndBirdEmblem.png",
-    "Description": "Awarded for the diligent preservation of the Horrasques, Sawgaws and Stovers of the Orb Vallis.",
-    "Link": "Vallis Beast And Bird Emblem",
-    "Name": "Vallis Beast And Bird Emblem",
-    "InternalName": "/Lotus/Upgrades/Skins/Clan/ConservationBadgeBItem",
+    "Image": "UnairuEmblem.png",
+    "Description": "A prestigious emblem for Tenno of the Unairu School.",
+    "Link": "Unairu Emblem",
+    "Name": "Unairu Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/Focus/UnairuBadgeItem",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
@@ -357,16 +357,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Unairu Emblem": {
-    "Type": "Emblem",
-    "Image": "UnairuEmblem.png",
-    "Description": "A prestigious emblem for Tenno of the Unairu School.",
-    "Link": "Unairu Emblem",
-    "Name": "Unairu Emblem",
-    "InternalName": "/Lotus/Upgrades/Skins/Clan/Focus/UnairuBadgeItem",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
   "Tubemen Of Regor Emblem": {
     "Type": "Emblem",
     "Image": "TubemenOfRegorEmblem(ExBlack).png",
@@ -387,16 +377,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Clan Emblem": {
-    "Type": "Emblem",
-    "Image": "ClanEmblem.png",
-    "Description": "An insignia that projects a holographic image of the clan emblem. Requires your clan's Warlord to upload an image of the clan emblem.",
-    "Link": "Clan Emblem",
-    "Name": "Clan Emblem",
-    "InternalName": "/Lotus/Upgrades/Skins/Clan/ClanEmblemItem",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "The Pacifism Defect Emblem": {
     "Type": "Emblem",
     "Image": "ThePacifismDefectEmblem.png",
@@ -407,14 +387,14 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Gargoyle's Cry Emblem": {
+  "Clan Emblem": {
     "Type": "Emblem",
-    "Image": "GargoylesCryEmblem.png",
-    "Description": "Tenno who bear this insignia resisted the Murmur during Operation Gargoyle's Cry.",
-    "Link": "Gargoyle's Cry Emblem",
-    "Name": "Gargoyle's Cry Emblem",
-    "InternalName": "/Lotus/Upgrades/Skins/Clan/EntratiEventEmblemItem",
-    "ExcludeFromCodex": true,
+    "Image": "ClanEmblem.png",
+    "Description": "An insignia that projects a holographic image of the clan emblem. Requires your clan's Warlord to upload an image of the clan emblem.",
+    "Link": "Clan Emblem",
+    "Name": "Clan Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ClanEmblemItem",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Silver Skull Emblem": {
@@ -427,6 +407,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Gargoyle's Cry Emblem": {
+    "Type": "Emblem",
+    "Image": "GargoylesCryEmblem.png",
+    "Description": "Tenno who bear this insignia resisted the Murmur during Operation Gargoyle's Cry.",
+    "Link": "Gargoyle's Cry Emblem",
+    "Name": "Gargoyle's Cry Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/EntratiEventEmblemItem",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
   "Tethra's Doom Quantum Emblem": {
     "Type": "Emblem",
     "Image": "Tethra'sDoomQuantumEmblem.png",
@@ -434,6 +424,16 @@
     "Link": "Tethra's Doom Quantum Emblem",
     "Name": "Tethra's Doom Quantum Emblem",
     "InternalName": "/Lotus/Upgrades/Skins/Clan/ShipyardsEventQuantumBadgeItem",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Tethra's Doom Emblem": {
+    "Type": "Emblem",
+    "Image": "Tethra'sDoomEmblem(ExWhite).png",
+    "Description": "An insignia awarded to the Tenno who distinguished themselves during Tethra's Doom event.",
+    "Link": "Tethra's Doom Emblem",
+    "Name": "Tethra's Doom Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/ShipyardsEventBadgeItem",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -497,15 +497,15 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "TennoCon Emblem": {
+  "Tenno Translator Emblem": {
     "Type": "Emblem",
-    "Image": "TennoConEmblem(ExWhite).png",
-    "Description": "Bestowed upon those who joined together in celebration at TennoCon 2016.",
-    "Link": "TennoCon Emblem",
-    "Name": "TennoCon Emblem",
-    "InternalName": "/Lotus/Upgrades/Skins/Clan/TennoCon2016BadgeItem",
+    "Image": "TennoTranslatorEmblem.png",
+    "Description": "A special emblem worn only by a select few Tenno.",
+    "Link": "Tenno Translator Emblem",
+    "Name": "Tenno Translator Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/TranslatorBadgeItem",
     "ExcludeFromCodex": false,
-    "CodexSecret": true
+    "CodexSecret": false
   },
   "Dropkick Drahk Emblem": {
     "Type": "Emblem",
@@ -577,13 +577,13 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Tenno Mentor Emblem": {
+  "Madurai Emblem": {
     "Type": "Emblem",
-    "Image": "LotusGuideBadge.png",
-    "Description": "Awarded to Tenno who assist the Lotus by helping other Tenno.",
-    "Link": "Tenno Mentor Emblem",
-    "Name": "Tenno Mentor Emblem",
-    "InternalName": "/Lotus/Upgrades/Skins/Clan/LotusGuideBadgeItem",
+    "Image": "MaduraiEmblem.png",
+    "Description": "A prestigious emblem for Tenno of the Madurai School.",
+    "Link": "Madurai Emblem",
+    "Name": "Madurai Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/Focus/MaduraiBadgeItem",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -617,16 +617,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Tar Mutalist Moa Emblem": {
-    "Type": "Emblem",
-    "Image": "TarMutalistMoaEmblem(ExWhite).png",
-    "Description": "Awarded to Tenno who participated in the Mutalist Incursions event.",
-    "Link": "Tar Mutalist Moa Emblem",
-    "Name": "Tar Mutalist Moa Emblem",
-    "InternalName": "/Lotus/Upgrades/Skins/Clan/InfTacAlertSlowBombMoaAncientBadgeItem",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Plague Star Emblem": {
     "Type": "Emblem",
     "Image": "PlagueStarEmblem(ExWhite).png",
@@ -635,6 +625,16 @@
     "Name": "Plague Star Emblem",
     "InternalName": "/Lotus/Upgrades/Skins/Clan/PlagueStarBadgeItem",
     "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Survival Emblem": {
+    "Type": "Emblem",
+    "Image": "SurvivalEmblem.png",
+    "Description": "An insignia awarded to the Tenno who proved themselves during Survival event.",
+    "Link": "Survival Emblem",
+    "Name": "Survival Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/SurvivalEventBadgeItem",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "COMMEMORATIVE EMBLEM": {
@@ -647,13 +647,13 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Survival Emblem": {
+  "Specters Of Liberty Emblem": {
     "Type": "Emblem",
-    "Image": "SurvivalEmblem.png",
-    "Description": "An insignia awarded to the Tenno who proved themselves during Survival event.",
-    "Link": "Survival Emblem",
-    "Name": "Survival Emblem",
-    "InternalName": "/Lotus/Upgrades/Skins/Clan/SurvivalEventBadgeItem",
+    "Image": "SpectersOfLibertyEmblem(ExWhite).png",
+    "Description": "Awarded for the safe return of Red Veil Operatives during the Specters of Liberty operation.",
+    "Link": "Specters Of Liberty Emblem",
+    "Name": "Specters Of Liberty Emblem",
+    "InternalName": "/Lotus/Upgrades/Skins/Clan/RescueEventBadgeItem",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -739,7 +739,7 @@
   },
   "Cicero Crisis Emblem": {
     "Type": "Emblem",
-    "Image": "CiceroCrisisEmblem(Exwhite).png",
+    "Image": "CiceroCrisisEmblem(ExWhite).png",
     "Description": "An emblem awarded to all those who helped destroy the Grineer toxin during the Cicero Crisis.",
     "Link": "Cicero Crisis Emblem",
     "Name": "Cicero Crisis Emblem",

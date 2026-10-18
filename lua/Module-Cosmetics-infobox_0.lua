@@ -89,11 +89,17 @@ buildInfobox = function(frame)
 	if (vendorStr ~= "" or baroStr ~= "") then
 		showVendorSources = true
 	end
+
+	local helmetImage = args.Helmet or cosmeticData.HelmetImage
+	if not helmetImage and (cosmeticData.Type == 'Skin' or cosmeticData.Type == 'Deluxe' or cosmeticData.Type == 'Necramech Skin') then
+		local helmetName, count = name:gsub('Skin$', 'Helmet')
+		helmetImage = count > 0 and (CosmeticData.Cosmetics[helmetName] or {}).Image
+	end
 	
 	-- Build Infobox.
 	local Infobox = InfoboxBuilder('WARFRAME Wiki:L10n/general.json', 'WARFRAME Wiki:L10n/meta.json')
 		:title(name..'[[Category:Cosmetics]]')
-		:image(cosmeticData.ContainerImage and { {image=cosmeticData.Image,label='Pickup'}, {image=cosmeticData.ContainerImage,label='Deposit'} }
+		:image(helmetImage and { {image=cosmeticData.Image,label='Portrait'}, {image=helmetImage,label='Helmet'} }
 			or cosmeticData.Image
 			or 'Panel.png')
 		:group()

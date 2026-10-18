@@ -26179,7 +26179,7 @@ local DropData = {
 					{ "Lith K12", "Relic", 11.06 },
 					{ "Lith G14", "Relic", 11.06 },
 					{ "Lith S18", "Relic", 11.06 },
-					{ "Lith V11", "Relic", 22.12 },
+					{ "Lith V11", "Relic", 11.06 },
 					{ "Meso Y2", "Relic", 1.8799999999999997 },
 					{ "Meso V15", "Relic", 1.8799999999999997 },
 					{ "Meso X1", "Relic", 3.7599999999999993 },

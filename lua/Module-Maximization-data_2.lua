@@ -580,6 +580,74 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},
+	-- Jade
+	["Light's Judgment"]={
+		ins={
+			{name='JUDGMENT_DEBUFF', cont='Enemy has [[Jade/Abilities/Passive|Judgment]]?', type='checkbox', value='checked'},
+			{name='JADES_JUDGMENT', cont=Tooltips.full("Jade's Judgment", 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 500 %of 1.5 1 JUDGMENT_DEBUFF if *'}},
+			{Tooltips.full('Health', 'Stats')..' restoration:', {expr='STR 8 %of', suff='%/s', fmt='2dec'}},
+			{'Well duration:', {expr='DUR 10 %of', suff='s', fmt='2dec'}},
+			{'Buff duration:', {expr='DUR 10 %of', suff='s', fmt='2dec'}},
+			{'Well radius:', {expr='RNG 6 %of', suff='m', fmt='1dec'}},
+			{'Chance of Jade Light beam:', {expr='STR 5 %of 0 JADES_JUDGMENT if', suff='%', fmt='2dec'}},
+			{'Jade Light beam duration:', {name='LIGHTS_JUDGMENT_BEAM_DUR', expr='DUR 3 %of 0 JADES_JUDGMENT if', suff='s', fmt='2dec'}},
+			-- Epsilon represents the 1 frame delay
+			{'Total beam hits:', {name='LIGHTS_JUDGMENT_BEAM_HITS', expr='LIGHTS_JUDGMENT_BEAM_DUR 0.5 EPSILON + // 1 + 0 JADES_JUDGMENT if'}},
+			{'Total beam '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='2 LIGHTS_JUDGMENT_BEAM_HITS ^ 1 - 100 * 1.5 1 JUDGMENT_DEBUFF if *'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Symphony of Mercy']={
+		outs={
+			{'Base duration:', {name='SYMPHONY_OF_MERCY_DUR', expr='DUR 30 %of', suff='s', fmt='2dec'}},
+			{'Maximum duration:', {expr='SYMPHONY_OF_MERCY_DUR 2 *', suff='s', fmt='2dec'}},
+			{'Power of the Seven '..Tooltips.full('Ability Strength', 'Stats')..' bonus:', {expr='STR 25 %of 150 min', suff='%'}},
+			{'Deathbringer [[Weapon Damage]] bonus:', {expr='STR 100 %of', suff='%'}},
+			{'Spirit of Resilience '..Tooltips.full('Shield', 'Stats')..' restoration:', {expr='STR 10 %of', suff='%/s'}},
+			{'Spirit of Resilience [[Shield Recharge Delay]] decrease:', {expr='STR 10 %of 80 min', suff='%'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Ophanim Eyes']={
+		ins={
+			{name='JUDGMENT_DEBUFF', cont='Enemy has [[Jade/Abilities/Passive|Judgment]]?', type='checkbox'},
+		},
+		outs={
+			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 50 %of 1.5 1 JUDGMENT_DEBUFF if *'}},
+			{'Defense reduction:', {name='OPHANIM_EYES_STRIP', expr='STR 5 %of', suff='%/hit'}},
+			{'Base duration:', {expr='DUR 30 %of', suff='s', fmt='2dec'}},
+			{'Time until full defense strip:', {expr='50 OPHANIM_EYES_STRIP /', suff='s', fmt='2dec'}},
+			{'Range:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Glory on High']={
+		ins={
+			{name='WEAPON_DMG_MOD', cont='[[Weapon Damage]] modifier:', type='number', default='100'},
+			{name='ELEMENT_DMG_MOD', cont='[[Elemental damage]] modifier:', type='number', default='0'},
+			{name='FACTION_DMG_MOD', cont='[[Faction damage]] modifier:', type='number', default='100'},
+			{name='BLAST_RADIUS_MOD', cont='[[Blast Radius]] modifier:', default='0'},
+			{name='JUDGMENT_DEBUFF', cont='Enemy has [[Jade/Abilities/Passive|Judgment]]?', type='checkbox'},
+		},
+		outs={
+			{'Primary fire base '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {name='GLORY_BASE_DMG', expr='FACTION_DMG_MOD WEAPON_DMG_MOD STR 150 %of %of %of'}},
+			{'Primary fire elemental damage:', {name='GLORY_ELEMENT_DMG', expr='ELEMENT_DMG_MOD GLORY_BASE_DMG %of'}},
+			{'Primary fire total damage:', {expr='GLORY_BASE_DMG GLORY_ELEMENT_DMG + 1.5 1 JUDGMENT_DEBUFF if *'}},
+			{'Detonation base '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {name='GLORY_DETONATION_BASE_DMG', expr='FACTION_DMG_MOD STR 1500 %of %of'}},
+			{'Detonation elemental damage:', {name='GLORY_DETONATION_ELEMENT_DMG', expr='ELEMENT_DMG_MOD GLORY_DETONATION_BASE_DMG %of'}},
+			{'Detonation total damage:', {expr='GLORY_DETONATION_BASE_DMG GLORY_DETONATION_ELEMENT_DMG + 1.5 1 JUDGMENT_DEBUFF if *'}},
+			{'[[Damage Reduction]]:', {expr='STR 35 %of 50 min', suff='%'}},
+			{'Glory blast radius:', {expr='RNG BLAST_RADIUS_MOD + 2 %of', suff='m', fmt='1dec'}},
+			{'Detonation radius:', {expr='RNG 4 %of', suff='m', fmt='1dec'}},
+			{'Empowered detonation radius:', {expr='RNG 6 %of', suff='m', fmt='1dec'}},
+			{'Cast '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+			{'Detonation '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', fmt='2dec'}}
+		}
+	},
 	-- Khora
 	['Whipclaw']={
 		ins={
@@ -880,6 +948,62 @@ local Data = {
 			{'Damage Redirection at 7 links:', {expr='SHADOWS_OF_THE_DEAD_DR 7 * 90 min', suff='%'}},
 			{'Linking radius:', {expr='RNG 50 %of 0 SHIELD_OF_SHADOWS if', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}},
+		}
+	},
+	-- Nezha
+	['Fire Walker']={
+		ins={
+			{name='PYROCLASTIC_FLOW', cont=Tooltips.full('Pyroclastic Flow', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Heat', 'DamageTypes')..' trail damage:', {expr='STR 100 %of'}},
+			{Tooltips.full('Heat', 'DamageTypes')..' explosion damage:', {expr='STR 1250 %of'}},
+			{'Duration:', {expr='DUR 30 %of', suff='s', fmt='2dec'}},
+			{'Trail duration:', {expr='DUR 10 %of', suff='s', fmt='2dec'}},
+			{'Explosion radius:', {expr='RNG 6 %of', suff='m', fmt='1dec'}},
+			{'Pyroclastic Flow duration:', {expr='DUR 10 %of 0 PYROCLASTIC_FLOW if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Blazing Chakram']={
+		ins={
+			{name='REAPING_CHAKRAM', cont=Tooltips.full('Reaping Chakram', 'Mods')..'?', type='checkbox'},
+			{name='BLAZING_CHAKRAM_HITS', cont='Number of hits:', min='0', value='0'}
+		},
+		outs={
+			{'Base '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 250 %of 2 BLAZING_CHAKRAM_HITS ^ 1 REAPING_CHAKRAM if *'}},
+			{'Maximum '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 1000 %of 2 BLAZING_CHAKRAM_HITS ^ 1 REAPING_CHAKRAM if *'}},
+			{'[[Damage Vulnerability]]:', {expr='STR 100 %of', suff='%'}},
+			{'Damage Vulnerability duration:', {expr='DUR 15 %of', suff='s', fmt='2dec'}},
+			{'Expected [[Health Orb]]s on death:', {expr='1 0.25 BLAZING_CHAKRAM_HITS * 0 REAPING_CHAKRAM if +', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Warding Halo']={
+		ins={
+			{name='NEZHA_ARMOR', cont='Current '..Tooltips.full('Armor', 'Stats')..':', min='0', value='200'},
+			{name='SAFEGUARD', cont='Casting '..Tooltips.full('Safeguard', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Health added by Armor:', {name='WARDING_HALO_ARMOR', expr='STR 2.5 %of NEZHA_ARMOR *'}},
+			{'Health before damage absorption:', {expr='STR 1000 %of WARDING_HALO_ARMOR + 2 1 SAFEGUARD if /'}},
+			{'Absorbed damage multiplier:', {expr='STR 2.5 %of 2 1 SAFEGUARD if /', fmt='2dec'}},
+			{Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 125 %of'}},
+			{'Damage radius:', {expr='RNG 2 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Divine Spears']={
+		ins={
+			{name='DIVINE_RETRIBUTION', cont=Tooltips.full('Divine Retribution', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Puncture', 'DamageTypes')..' damage:', {expr='STR 600 %of'}},
+			{Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 600 %of'}},
+			{'Duration:', {expr='DUR 12 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 14 19 DIVINE_RETRIBUTION if %of', suff='m', fmt='1dec'}},
+			{'[[Status Effect]] damage multiplier:', {expr='STR 1.5 %of 0 DIVINE_RETRIBUTION if', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},
 	-- Nidus

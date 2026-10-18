@@ -1,7 +1,7 @@
 ---
 title: "Module:DropTables/data"
 wiki_url: "https://wiki.warframe.com/w/Module/DropTables/data"
-wiki_timestamp: "2026-10-11T13:01:09Z"
+wiki_timestamp: "2026-10-17T16:55:19Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -19,7 +19,7 @@ Manually updated fork of the public [Drop Tables](/w/Drop_Tables "Drop Tables") 
 
 See [Module:DropTables](/w/Module:DropTables "Module:DropTables") to see what various things this is being used for right now.
 
-:   *Last updated: Sun, 11 Oct 2026 13:01:09 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:DropTables/data?diff=0))*
+:   *Last updated: Sat, 17 Oct 2026 16:55:19 +0000 (UTC) by [User:Ivi104](/w/User:Ivi104?action=edit&redlink=1 "User:Ivi104 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:DropTables/data?diff=0))*
 
 ## Contents
 
@@ -26650,7 +26650,7 @@ local DropData = {
 					{ "Lith K12", "Relic", 11.06 },
 					{ "Lith G14", "Relic", 11.06 },
 					{ "Lith S18", "Relic", 11.06 },
-					{ "Lith V11", "Relic", 22.12 },
+					{ "Lith V11", "Relic", 11.06 },
 					{ "Meso Y2", "Relic", 1.8799999999999997 },
 					{ "Meso V15", "Relic", 1.8799999999999997 },
 					{ "Meso X1", "Relic", 3.7599999999999993 },

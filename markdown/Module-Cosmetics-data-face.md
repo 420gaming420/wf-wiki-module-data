@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/face"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/face"
-wiki_timestamp: "2026-10-07T19:18:56Z"
+wiki_timestamp: "2026-10-18T05:20:05Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/face/doc](/w/Module:Cosmetics/data/face/doc?action=edit&redlink=1 "Module:Cosmetics/data/face/doc (page does not exist)")*
@@ -717,7 +717,7 @@ return {
         CodexSecret = false,
         Description = "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
         ExcludeFromCodex = true,
-        Image = "SomaticsAsa03.png",
+        Image = "SomaticsAsa-03.png",
         InternalName = "/Lotus/Upgrades/Skins/Operator/FacialMarkings/NewFacialMarkingB",
         Link = "Somatics Asa-03",
         Name = "Somatics Asa-03",
@@ -727,7 +727,7 @@ return {
 		CodexSecret = false,
 		Description = "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
 		ExcludeFromCodex = true,
-		Image = "SomaticsAsa23.png",
+		Image = "SomaticsAsa-23.png",
 		InternalName = "/Lotus/Upgrades/Skins/Operator/FacialMarkings/NewFacialMarkingE",
 		Link = "Somatics Asa-23",
 		Name = "Somatics Asa-23",
@@ -747,7 +747,7 @@ return {
 		CodexSecret = false,
 		Description = "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
 		ExcludeFromCodex = true,
-		Image = "SomaticsDev64.png",
+		Image = "SomaticsDev-64.png",
 		InternalName = "/Lotus/Upgrades/Skins/Operator/FacialMarkings/NewFacialMarkingD",
 		Link = "Somatics Dev-64",
 		Name = "Somatics Dev-64",
@@ -757,7 +757,7 @@ return {
 		CodexSecret = false,
 		Description = "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
 		ExcludeFromCodex = true,
-		Image = "SomaticsFa13.png",
+		Image = "SomaticsFa-13.png",
 		InternalName = "/Lotus/Upgrades/Skins/Operator/FacialMarkings/NewFacialMarkingH",
 		Link = "Somatics Fa-13",
 		Name = "Somatics Fa-13",
@@ -767,7 +767,7 @@ return {
 		CodexSecret = false,
 		Description = "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
 		ExcludeFromCodex = true,
-		Image = "SomaticsJ02.png",
+		Image = "SomaticsJ-02.png",
 		InternalName = "/Lotus/Upgrades/Skins/Operator/FacialMarkings/NewFacialMarkingC",
 		Link = "Somatics J-02",
 		Name = "Somatics J-02",
@@ -797,7 +797,7 @@ return {
 		CodexSecret = false,
 		Description = "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
 		ExcludeFromCodex = true,
-		Image = "SomaticsRev16.png",
+		Image = "SomaticsRev-16.png",
 		InternalName = "/Lotus/Upgrades/Skins/Operator/FacialMarkings/NewFacialMarkingI",
 		Link = "Somatics Rev-16",
 		Name = "Somatics Rev-16",
@@ -807,7 +807,7 @@ return {
 		CodexSecret = false,
 		Description = "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
 		ExcludeFromCodex = true,
-		Image = "SomaticsTt11.png",
+		Image = "SomaticsTt-11.png",
 		InternalName = "/Lotus/Upgrades/Skins/Operator/FacialMarkings/NewFacialMarkingJ",
 		Link = "Somatics Tt-11",
 		Name = "Somatics Tt-11",
@@ -817,7 +817,7 @@ return {
 		CodexSecret = false,
 		Description = "Externalized Somatic Link hardware and resulting facial markings crafted by artisans in the time of The Old War.",
 		ExcludeFromCodex = true,
-		Image = "SomaticsZz70.png",
+		Image = "SomaticsZz-70.png",
 		InternalName = "/Lotus/Upgrades/Skins/Operator/FacialMarkings/NewFacialMarkingK",
 		Link = "Somatics Zz-70",
 		Name = "Somatics Zz-70",

@@ -3783,7 +3783,7 @@ return {
         CodexSecret = false,
         Description = "A helmet for the Nidus Warframe, designed by Erneix.",
         ExcludeFromCodex = false,
-        Image = "NidusKuvaelScroungerHelmet.png",
+        Image = "NidusKuavelScroungerHelmet.png",
         InternalName = "/Lotus/Upgrades/Skins/Infestation/SWKuvealScoungerHelmet",
         Link = "Nidus Kuvael Scrounger Helmet",
         Name = "Nidus Kuvael Scrounger Helmet",

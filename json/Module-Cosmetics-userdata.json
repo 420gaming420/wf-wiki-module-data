@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-10-16T06:52:30.038Z"
+    "converted_at": "2026-10-18T07:05:08.684Z"
   },
   "_comments": "",
   "Ambassador": {
@@ -1392,6 +1392,7 @@
     "Type": "Weapons",
     "Equipments": {
       "Skin": [
+        "Eskhatos Parazon Skin",
         "Sigma Series Parazon Skin"
       ]
     }
@@ -1463,6 +1464,7 @@
         "Bruntspar Necramech Helmet",
         "Cryptanaut Necramech Helmet",
         "Day of the Dead Necramech Helmet",
+        "Eskhatos Necramech Helmet",
         "Karnolyth Necramech Helmet",
         "Proto Necramech Helmet",
         "Snake Necramech Helmet"
@@ -1470,6 +1472,7 @@
       "Skin": [
         "Bruntspar Necramech Skin",
         "Day of the Dead Necramech Skin",
+        "Eskhatos Necramech Skin",
         "Karnolyth Necramech Skin",
         "Proto Necramech Skin",
         "Snake Necramech Skin"
@@ -1942,6 +1945,7 @@
         "Daman Prime Sugatra",
         "Daman Sugatra",
         "Eminence Sugatra",
+        "Eskhatos Sugatra",
         "Immortal Breath Sugatra",
         "Interga Sugatra",
         "Jade Follox Sugatra",
