@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/warframehelmet"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/warframehelmet"
-wiki_timestamp: "2026-10-18T05:58:20Z"
+wiki_timestamp: "2026-10-18T09:09:07Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/warframehelmet/doc](/w/Module:Cosmetics/data/warframehelmet/doc?action=edit&redlink=1 "Module:Cosmetics/data/warframehelmet/doc (page does not exist)")*
@@ -3791,7 +3791,7 @@ return {
         CodexSecret = false,
         Description = "A helmet for the Nidus Warframe, designed by Erneix.",
         ExcludeFromCodex = false,
-        Image = "NidusKuavelScroungerHelmet.png",
+        Image = "NidusKuvaelScroungerHelmet.png",
         InternalName = "/Lotus/Upgrades/Skins/Infestation/SWKuvealScoungerHelmet",
         Link = "Nidus Kuvael Scrounger Helmet",
         Name = "Nidus Kuvael Scrounger Helmet",

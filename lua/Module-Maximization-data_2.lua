@@ -456,6 +456,50 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='3.5 DRAIN *', fmt='2dec'}}
 		}
 	},
+	-- Follie
+	['Forced Perspective']={
+		outs={
+			{Tooltips.full('Corrosive', 'DamageTypes')..' damage:', {expr='STR 750 %of'}},
+			{'Splash radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='15 COST *', fmt='2dec'}}
+		}
+	},
+	['Shadowgraph']={
+		outs={
+			{Tooltips.full('Corrosive', 'DamageTypes')..' damage:', {expr='STR 250 %of'}},
+			{'Item lifetime:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
+			{'Splash radius:', {expr='RNG 4 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Self Portrait']={
+		ins={
+			{name='SELF_PORTRAIT_INFUSED', cont='[[Infused]]?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Corrosive', 'DamageTypes')..' damage:', {expr='STR 550 %of'}},
+			{'Maximum [[Damage Reduction]]:', {name='SELF_PORTRAIT_DR', expr='STR 0.5 %of 0.75 0.9 SELF_PORTRAIT_INFUSED if min', fmt='%'}},
+			{'Damage Reduction increase:', {expr='SELF_PORTRAIT_DR 0.1 - 15 /', suff='/kill', fmt='%'}},
+			{'Base duration:', {expr='DUR 30 %of', suff='s', fmt='2dec'}},
+			{'Maximum duration:', {expr='DUR 60 %of', suff='s', fmt='2dec'}},
+			{'Duration increase:', {expr='DUR 3 %of', suff='s/kill', fmt='2dec'}},
+			{'Base radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
+			{'Maximum radius:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
+			{'Radius increase:', {expr='RNG 0.8 %of', suff='m/kill', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Plein Air']={
+		outs={
+			{'Minimum '..Tooltips.full('Corrosive', 'DamageTypes')..' damage:', {expr='STR 250 %of'}},
+			{'Maximum '..Tooltips.full('Corrosive', 'DamageTypes')..' damage:', {expr='STR 25000 %of'}},
+			{'Defense reduction:', {expr='STR 0.5 %of 1 min', fmt='%'}},
+			{'Duration:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{'Targeting radius:', {expr='RNG 18 %of', suff='m', fmt='1dec'}},
+			{'Splash radius:', {expr='RNG 4 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
 	-- Gara
 	['Shattered Lash']={
 		ins={
@@ -579,6 +623,25 @@ local Data = {
 			{'Blending Talons radius:', {expr='RNG 9 %of 0 BLENDING_TALONS if', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
+	},
+	-- Grendel
+	['Nourish'] = {
+		ins = {
+			{ name='SUBSUMED', cont='Subsumed (Helminth):', type='checkbox' }
+		},
+		outs = {
+			{ Tooltips.full('Energy', 'Stats')..' cost:', { expr='50 COST *' } },
+			{ 'Self heal:', { expr='0 STR 1000 %of SUBSUMED if', suff='HP' } },
+			{ 'Target max health & shields damage:', { expr='STR 20 %of', suff='%' } },
+			{ 'Buff duration:', { expr='DUR 25 %of', suff='s' } },
+			{ 'Buff radius:', { expr='RNG 25 %of', suff='m' } },
+			{ 'Energy multiplier:', { expr='STR 0.6 %of 1 + STR 1 %of 1 + SUBSUMED if', fmt='2dec', suff='x' } },
+			{ 'Viral weapon bonus:', { expr='STR 45 %of STR 75 %of SUBSUMED if', suff='%' } },
+			{ 'Explosion radius:', { expr='RNG 12 %of', suff='m' } },
+			{ 'Explosion viral damage:', { expr='STR 250 %of', suff='Viral' } },
+			{ 'Explosion viral procs:', { expr='1 10 SUBSUMED if', suff='Stacks' } }
+		},
+		post = 'Grants an energy multiplier on all sources, bonus Viral weapon damage (additive with elemental mods), and a retaliatory Viral explosion (2s cooldown) when taking damage. Requires at least 1 enemy in gut when cast by Grendel.'
 	},
 	-- Jade
 	["Light's Judgment"]={
@@ -1067,6 +1130,61 @@ local Data = {
 			{'Maggot '..Tooltips.full('Toxin', 'DamageTypes')..' damage:', {expr='10 1 MUTATION_STACKS + *'}},
 			{'Maggot explosion radius:', {expr='RNG 4 %of', suff='m', fmt='1dec'}},
 			{'Bonus Mutation Stack chance:', {expr='STR 60 %of 0 INSATIABLE if', suff='%'}}
+		}
+	},
+	-- Nokko
+	['Stinkbrain']={
+		ins={
+			{name='STINKBRAIN_EMPOWERED', cont='Empowered?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Viral', 'DamageTypes')..' damage:', {expr='STR 250 %of', suff='/pulse'}},
+			{'Base duration:', {name='STINKBRAIN_DUR', expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{'Pulse radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
+			{'Minimum pulse count:', {expr='STINKBRAIN_DUR 1.5 3 STINKBRAIN_EMPOWERED if //'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Brightbonnet']={
+		ins={
+			{name='BRIGHTBONNET_EMPOWERED', cont='Empowered?', type='checkbox'},
+			{name='BRIGHTBONNET_INFUSED', cont='[[Infused]]?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Energy', 'Stats')..' restoration:', {expr='STR 10 15 BRIGHTBONNET_INFUSED if %of', suff='/pulse'}},
+			{Tooltips.full('Ability Strength', 'Stats')..' bonus:',
+				{expr='STR 20 %of 100 min STR 30 %of 150 min BRIGHTBONNET_INFUSED if 2 1 BRIGHTBONNET_EMPOWERED if *', suff='%'}
+			},
+			{'Mushroom duration:', {name='BRIGHTBONNET_DUR', expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Ability Strength', 'Stats')..' bonus duration:', {expr='DUR 5 %of', suff='s', fmt='2dec'}},
+			{'Pulse radius:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{'Minimum pulse count:', {expr='BRIGHTBONNET_DUR 1.5 3 BRIGHTBONNET_EMPOWERED if //'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Reroot']={
+		ins={
+			{name='REROOT_RAMPAGE', cont=Tooltips.full('Reroot Rampage', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Health', 'Stats')..' or '..Tooltips.full('Shield', 'Stats')..' restoration over time:', {expr='STR 10 %of', suff='/s'}},
+			{Tooltips.full('Health', 'Stats')..' or '..Tooltips.full('Shield', 'Stats')..' restoration from orbs:', {expr='STR 80 %of'}},
+			{'Duration:', {expr='DUR 10 %of', suff='s', fmt='2dec'}},
+			{'Sprodling '..Tooltips.full('Toxin', 'DamageTypes')..' damage:', {expr='STR 250 %of 0 REROOT_RAMPAGE if'}},
+			{'Sprodling damage radius:', {expr='RNG 8 %of 0 REROOT_RAMPAGE if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Sporespring']={
+		ins={
+			{name='SPORESPRING_BOUNCES', cont='Bounce number:', type='range-R', min='1', max='10', value='1'}
+		},
+		outs={
+			{Tooltips.full('Toxin', 'DamageTypes')..' damage:', {expr='STR 2500 %of 1.5 SPORESPRING_BOUNCES 1 - ^ *'}},
+			{'[[Critical Chance]]:', {expr='75 25 SPORESPRING_BOUNCES 1 - * +', suff='%'}},
+			{'Explosion radius:', {expr='RNG 3 %of', suff='m', fmt='1dec'}},
+			{'Bounce range:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
 		}
 	},
 	-- Nova

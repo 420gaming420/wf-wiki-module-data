@@ -2414,7 +2414,7 @@ local honoriaData = {
 		Name = "The Legend Of The Void",
 		Link = "The Legend Of The Void",
 		Description = "{{text||Prove yourself worthy.|hover=Obtain the Neote Rapier Skin.}}",
-		Position = "Suffix",
+		Position = "Prefix",
 		Introduced = "44",
 		InternalName = "/Lotus/Types/Items/Titles/IcebladeTitle",
 		CodexSecret = false,

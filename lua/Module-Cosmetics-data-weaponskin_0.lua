@@ -5085,7 +5085,7 @@ return {
         CodexSecret = false,
         Description = "A skin for the Skana sword, designed by Dencio Aggression.",
         ExcludeFromCodex = false,
-        Image = "SWRPolyInfestedSkana.png",
+        Image = "SkanaInfestedSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Swords/SkanaInfestedSkin",
         Link = "Skana Infested Skin",
         Name = "Skana Infested Skin",

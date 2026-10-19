@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-10-18T07:05:15.176Z"
+    "converted_at": "2026-10-19T07:29:21.414Z"
   },
   "_comments": "--- Honorias data table for [[WARFRAME]] titles.\n-- @module Honorias/data\n-- \n-- Entries from the Public Export currently not implemented or not discovered yet\n-- /Lotus/Types/Items/Titles/IncarnonMasteryTitle\n-- /Lotus/Types/Items/Titles/RailjackAshTitle\n-- /Lotus/Types/Items/Titles/RailjackGarudaTitle\n-- /Lotus/Types/Items/Titles/RememberTogetherTitle\n\t--[\"Conquera\"] = {\n\t--\t_IgnoreEntry = true,\n\t--\tName = \"Conquera\",\n\t--\tLink = \"Conquera\",\n\t--\tDescription = \"?\",\n\t--\tPosition = \"?\",\n\t--\tIntroduced = \"44\", -- currently, 44 is is the version where is was added to the PE\n\t--\tInternalName = \"/Lotus/Types/Items/Titles/ConqueraTitle\",\n\t--\tCodexSecret = false,\n\t--\tExcludeFromCodex = true,\n\t--\tTags = { \"Hidden\" },\n\t--},\n\t--[\"The Haunted\"] = {\n\t--\tName = \"The Haunted\",\n\t--\tLink = \"The Haunted\",\n\t--\tIntroduced = \"44\",-- currently, 44 is is the version where is was added to the PE\n\t--\tInternalName = \"/Lotus/Types/Items/Titles/EvilBaroTitle\",\n\t--[\"Moon Devourer\"] = {\n\t--\tName = \"Moon Devourer\",\n\t--\tLink = \"Moon Devourer\",\n\t--\tInternalName = \"/Lotus/Types/Items/Titles/MoonDevourerTitle\",\n\t--[\"Railmaker\"] = {\n\t--\tName = \"Railmaker\",\n\t--\tLink = \"Railmaker\",\n\t--\tInternalName = \"/Lotus/Types/Items/Titles/RailmakerTitle\",\n\t--[\"Taubound\"] = {\n\t--\tName = \"Taubound\",\n\t--\tLink = \"Taubound\",\n\t--\tInternalName = \"/Lotus/Types/Items/Titles/RoadToTauTitle\",",
   "Queen of Duviri": {
@@ -861,7 +861,7 @@
     "Link": "The Legend Of The Void",
     "ExcludeFromCodex": true,
     "Name": "The Legend Of The Void",
-    "Position": "Suffix",
+    "Position": "Prefix",
     "Tags": [
       "Miscellaneous"
     ],

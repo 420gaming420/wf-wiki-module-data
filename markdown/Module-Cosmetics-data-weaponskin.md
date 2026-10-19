@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/weaponskin"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/weaponskin"
-wiki_timestamp: "2026-10-18T05:50:28Z"
+wiki_timestamp: "2026-10-18T09:13:52Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/weaponskin/doc](/w/Module:Cosmetics/data/weaponskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/weaponskin/doc (page does not exist)")*
@@ -5093,7 +5093,7 @@ return {
         CodexSecret = false,
         Description = "A skin for the Skana sword, designed by Dencio Aggression.",
         ExcludeFromCodex = false,
-        Image = "SWRPolyInfestedSkana.png",
+        Image = "SkanaInfestedSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Swords/SkanaInfestedSkin",
         Link = "Skana Infested Skin",
         Name = "Skana Infested Skin",

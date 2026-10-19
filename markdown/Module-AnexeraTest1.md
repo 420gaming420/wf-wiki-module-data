@@ -1,7 +1,7 @@
 ---
 title: "Module:AnexeraTest1"
 wiki_url: "https://wiki.warframe.com/w/Module/AnexeraTest1"
-wiki_timestamp: "2026-10-12T19:57:24Z"
+wiki_timestamp: "2026-10-18T22:31:36Z"
 ---
 
 *Documentation for this module may be created at [Module:AnexeraTest1/doc](/w/Module:AnexeraTest1/doc?action=edit&redlink=1 "Module:AnexeraTest1/doc (page does not exist)")*
@@ -405,16 +405,15 @@ end
 function p.buildOfferings(frame)
 	mw.log(string.format('T+%.4fs | p.buildOfferings()', os.clock() - startTime))
 	local args = castArgs(Args.getArgs(frame))
-	local f_platform, f_name, f_type, f_date, f_date_target = args.platform, args.name, args.type, args.date, args.date_target
-	local f_discont, f_seasonal = args.discontinued, args.seasonal
+	local platform, discontinued, seasonal = args.platform, args.discontinued, args.seasonal
 	local tabs, cat = args.tabs, args.cat
 
-	local platformKey = ({ All = 'All', PC = "Pc", Consoles = "Console", TennoCon = 'TennoCon' })[f_platform]
+	local platformKey = ({ All = 'All', PC = "Pc", Consoles = "Console", TennoCon = 'TennoCon' })[platform]
 	local renderFunc = ({ gallery = buildGallery, table = buildTable, cost = _getTotal})[args.render]
-	assert(not f_platform or platformKey, string.format('p.buildOfferings(frame): Invalid platform "%s"', tostring(f_platform)))
+	assert(not platform or platformKey, string.format('p.buildOfferings(frame): Invalid platform "%s"', tostring(platform)))
 	assert(renderFunc, string.format('p.buildOfferings(frame): Invalid render function "%s"', tostring(args.render)))
 
-	local datesCfg = { platform = f_platform, asc = false, platformLabel = true }
+	local datesCfg = { platform = platform, asc = false, platformLabel = true }
 	local itemDates = {}
 	setmetatable(itemDates, {
 		__index = function(t, entry)
@@ -427,46 +426,54 @@ function p.buildOfferings(frame)
 
 	local items = { itemDates = itemDates }
 	-- Filter Items
-	if f_platform or f_name or f_type or f_date or f_discont or f_seasonal then
+	if platform or discontinued or seasonal or args.name or args.type or args.date or args.credit or args.ducat then
 		-- Filter preprocessing
 		mw.log(string.format('T+%.4fs |   preparing filter', os.clock() - startTime))
-		local function getMatcher(arg)
-			if not arg then return end
-			local t = type(arg) == 'table' and arg or {arg}
+		local function newMatcher(pattern)
+			if not pattern then return end
+			local t = type(pattern) == 'table' and pattern or {pattern}
 			return function(s) for i=1, #t do local res = s:find(tostring(t[i])) if res then return res end end end
 		end
 
-		local dateKey = f_platform and platformKey .. 'OfferingDates'
-		local matchName, matchType = getMatcher(f_name), getMatcher(f_type)
-		f_discont, f_seasonal = f_discont ~= 'include' and f_discont, f_seasonal ~= 'include' and f_seasonal
+		local function newComparator(pattern, isRawStr, targetPos)
+			if not pattern then return end
+			-- Parsing operator and value for filter arguments {date, credit, ducat}
+			local op, val = tostring(pattern):match('^([<>=]*)%s*(.*)$')
+			local v1, v2 = val:match('^(.-)%s*%.%.%s*(.*)$')
+			op = (v1 and '') or (op == '' and '=') or op
+			if not isRawStr then val, v1, v2 = tonumber(val), tonumber(v1), tonumber(v2) end
+			local eq, gt, lt = op:find('=') and val, v1 or (op:find('>') and val), v2 or (op:find('<') and val)
 
-		-- Parsing operator and date value from args.date
-		local eq, gt, lt
-		if f_date then
-			local op, val = tostring(f_date):match('^([<>=]*)%s*(.*)$')
-			local d1, d2 = val:match('^(.-)%s*%.%.%s*(.*)$')
-			op = (d1 and '') or (op == '' and '=') or op
-			eq, gt, lt = op:find('=') and val, d1 or (op:find('>') and val), d2 or (op:find('<') and val)
-		end
-
-		local function matchDate(t)
-			if #t == 0 then return end
-			for i = (f_date_target == 'first' and #t or 1), (f_date_target ~= 'last' and #t or 1) do -- assume array is descending
-				local res = (eq and t[i]:sub(1, #eq) == eq) or ((gt or lt) and (not gt or t[i] > gt) and (not lt or t[i] < lt))
-				if res then return res end
+			return function (vals)
+				local arrLen = type(vals) == 'table' and #vals
+				if not vals or arrLen == 0 then return end
+				for i = (targetPos == 'first' and arrLen or 1), (targetPos ~= 'last' and arrLen or 1) do -- assume array is descending
+					local v = arrLen and vals[i] or vals
+					local isEq = eq and (isRawStr and v:sub(1, #eq) or v) == eq
+					local res = isEq or ((gt or lt) and (not gt or v > gt) and (not lt or v < lt))
+					if res then return res end
+				end
 			end
 		end
+
+		local dateKey = platform and platformKey .. 'OfferingDates'
+		local matchName, matchType = newMatcher(args.name), newMatcher(args.type)
+		local compareCredit, compareDucat = newComparator(args.credit), newComparator(args.ducat)
+		local compareDate = newComparator(args.date, true, args.date_target)
+		discontinued, seasonal = discontinued ~= 'include' and discontinued, seasonal ~= 'include' and seasonal
 
 		-- Start filtering
 		mw.log(string.format('T+%.4fs |   processing filter items', os.clock() - startTime))
 		for _, v in pairs(BaroItems) do
 			if
-				(not f_discont or (f_discont == 'only' and v.IsDiscont) or (f_discont == 'exclude' and not v.IsDiscont)) and
-				(not f_seasonal or (f_seasonal == 'only' and v.IsSeasonal) or (f_seasonal == 'exclude' and not v.IsSeasonal)) and
-				(not f_platform or f_platform == 'All' or (f_platform ~= 'TennoCon' and v.OfferingDates) or v[dateKey] or v.IsAlways) and
-				(not f_name or matchName(v.Name)) and
-				(not f_type or matchType(v.Type)) and
-				(not f_date or matchDate(itemDates[v]))
+				(not discontinued or (discontinued == 'only' and v.IsDiscontinued) or (discontinued == 'exclude' and not v.IsDiscontinued)) and
+				(not seasonal or (seasonal == 'only' and v.IsSeasonal) or (seasonal == 'exclude' and not v.IsSeasonal)) and
+				(not platform or platform == 'All' or (platform ~= 'TennoCon' and v.OfferingDates) or v[dateKey] or v.IsAlways) and
+				(not matchName or matchName(v.Name)) and
+				(not matchType or matchType(v.Type)) and
+				(not compareCredit or compareCredit(v.CreditCost)) and
+				(not compareDucat or compareDucat(v.DucatCost)) and
+				(not compareDate or compareDate(itemDates[v]))
 			then
 				table.insert(items, v)
 			end
