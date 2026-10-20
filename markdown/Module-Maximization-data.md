@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-10-19T04:48:55Z"
+wiki_timestamp: "2026-10-20T01:08:39Z"
 ---
 
 ## Contents
@@ -623,6 +623,26 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
 		}
 	},
+	-- Frost
+	['Avalanche'] = {
+		ins={
+			{name='FROST_ARMOR', cont='Current '..Tooltips.full('Armor', 'Stats')..':', min='0', value='300'},
+			{name='ICY_AVALANCHE', cont=Tooltips.full('Icy Avalanche', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Initial '..Tooltips.full('Cold', 'DamageTypes')..' damage:', {expr='STR 1500 %of'}},
+			{'Shatter '..Tooltips.full('Cold', 'DamageTypes')..' damage:', {expr='STR 400 %of'}},
+			{Tooltips.full('Armor', 'Stats')..' reduction:', {expr='STR 0.6 %of 1 min', fmt='%'}},
+			{Tooltips.full('Freeze', 'DamageTypes')..' duration:', {expr='DUR 8 %of', suff='s', fmt='2dec'}},
+			{'Casting radius:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{'Shatter radius:', {expr='RNG 4.5 %of', suff='m', fmt='1dec'}},
+			{'Armor to Overguard conversion rate:', {name='ICY_AVALANCHE_CONVERSION', expr='STR 0.2 %of 0 ICY_AVALANCHE if', fmt='%'}},
+			{Tooltips.full('Overguard', 'DamageTypes')..' from new targets:', {expr='ICY_AVALANCHE_CONVERSION FROST_ARMOR * ICY_AVALANCHE_BASE +', suff='/new enemy', fmt='1dec'}},
+			{Tooltips.full('Overguard', 'DamageTypes')..' from repeat targets:', {name='ICY_AVALANCHE_BASE', expr='STR 60 %of 0 ICY_AVALANCHE if', suff='/repeat enemy', fmt='1dec'}},
+			{Tooltips.full('Overguard', 'DamageTypes')..' cap:', {expr='STR 15000 %of 0 ICY_AVALANCHE if'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		}
+	},
 	-- Gara
 	['Shattered Lash']={
 		ins={
@@ -749,22 +769,23 @@ local Data = {
 	},
 	-- Grendel
 	['Nourish'] = {
-		ins = {
-			{ name='SUBSUMED', cont='Subsumed (Helminth):', type='checkbox' }
+		ins={
+			{name='HEARTY_NOURISHMENT', cont=Tooltips.full('Hearty Nourishment', 'Mods')..'?', type='checkbox'},
+			{name='NOURISH_INFUSED', cont='[[Infused]]?', type='checkbox'}
 		},
-		outs = {
-			{ Tooltips.full('Energy', 'Stats')..' cost:', { expr='50 COST *' } },
-			{ 'Self heal:', { expr='0 STR 1000 %of SUBSUMED if', suff='HP' } },
-			{ 'Target max health & shields damage:', { expr='STR 20 %of', suff='%' } },
-			{ 'Buff duration:', { expr='DUR 25 %of', suff='s' } },
-			{ 'Buff radius:', { expr='RNG 25 %of', suff='m' } },
-			{ 'Energy multiplier:', { expr='STR 0.6 %of 1 + STR 1 %of 1 + SUBSUMED if', fmt='2dec', suff='x' } },
-			{ 'Viral weapon bonus:', { expr='STR 45 %of STR 75 %of SUBSUMED if', suff='%' } },
-			{ 'Explosion radius:', { expr='RNG 12 %of', suff='m' } },
-			{ 'Explosion viral damage:', { expr='STR 250 %of', suff='Viral' } },
-			{ 'Explosion viral procs:', { expr='1 10 SUBSUMED if', suff='Stacks' } }
-		},
-		post = 'Grants an energy multiplier on all sources, bonus Viral weapon damage (additive with elemental mods), and a retaliatory Viral explosion (2s cooldown) when taking damage. Requires at least 1 enemy in gut when cast by Grendel.'
+		outs={
+			{Tooltips.full('Health', 'Stats')..' restoration:', {expr='0 STR 1000 %of NOURISH_INFUSED if'}},
+			{Tooltips.full('Viral', 'DamageTypes')..' [[Weapon Damage]] bonus:', {expr='STR 0.45 0.75 NOURISH_INFUSED if %of', fmt='%'}},
+			{Tooltips.full('Energy', 'Stats')..' multiplier:', {expr='STR 0.6 1 NOURISH_INFUSED if %of 1 +', fmt='2dec'}},
+			{'Digestion damage:', {expr='0 STR 0.2 %of NOURISH_INFUSED if', fmt='%'}},
+			{'Explosion '..Tooltips.full('Viral', 'DamageTypes')..' damage:', {expr='STR 250 %of'}},
+			{'Duration:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{'Buff radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{'Explosion radius:', {expr='RNG 12 %of', suff='m', fmt='1dec'}},
+			{'Explosion '..Tooltips.full('Virus', 'DamageTypes')..' stacks:', {expr='1 10 NOURISH_INFUSED if'}},
+			{'[[Status Effect]] immunity duration:', {expr='DUR 5 %of 0 HEARTY_NOURISHMENT if', suff='s/enemy', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
 	},
 	-- Jade
 	["Light's Judgment"]={
@@ -882,6 +903,41 @@ local Data = {
 			{'Dome radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
 			{'Grab radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+		}
+	},
+	-- Koumei
+	['Kumihimo']={
+		ins={
+			{name='KOUMEI_DICE', cont='Dice roll:', type='range-R', min='5', max='30', value='5'},
+			{name='KOUMEI_SIXES', cont='Triple sixes?', type='checkbox'}
+		},
+		outs={
+			{'Star elemental damage:', {expr='STR 2750 25 KOUMEI_SIXES if %of KOUMEI_DICE *'}},
+			{'Thread elemental damage:', {expr='STR 25 %of KOUMEI_DICE *'}},
+			{'Thread duration:', {expr='DUR 12 %of', suff='s', fmt='2dec'}},
+			{'Star travel distance:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
+			{'Thread length:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{'Threads formed:', {expr='RNG 15 %of floor 30 min'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Omikuji']={
+		outs={
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Omamori']={
+		outs={
+			{'Damage to healing conversion multiplier:', {expr='STR 1 %of', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Bunraku']={
+		outs={
+			{Tooltips.full('Puncture', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
+			{'Duration:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},
 	-- Lavos
@@ -1475,6 +1531,61 @@ local Data = {
 			{'Duration:', {expr='DUR 30 %of', suff='s'}},
 			{'Radius:', {expr='RNG 14 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+		}
+	},
+	-- Oraxia
+	["Mercy's Kiss"]={
+		outs={
+			{Tooltips.full('Toxin', 'DamageTypes')..' damage:', {expr='STR 4000 %of'}},
+			{'[[Health Orb]] chance on kill:', {expr='STR 2 %of', fmt='%'}},
+			{'[[Energy Orb]] chance on kill:', {expr='STR 0.5 %of', fmt='%'}},
+			{'Targeting range:', {expr='RNG 40 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Webbed Embrace']={
+		ins={
+			{name='WEBBED_EMBRACE_INFUSED', cont='[[Infused]]?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Toxin', 'DamageTypes')..' damage:', {expr='STR 250 %of'}},
+			{'[[Damage Vulnerability]]:', {expr='STR 0.5 %of', fmt='%'}},
+			{'Duration:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 6.67 10 WEBBED_EMBRACE_INFUSED if %of', suff='m', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	["Widow's Brood"]={
+		ins={
+			{name='SCUTTLER_LEVEL', cont='Scuttler level:', min='1', value='30'},
+			{name='BROODS_OVERSURGE', cont=Tooltips.full("Brood's Oversurge", 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Dart '..Tooltips.full('Toxin', 'DamageTypes')..' damage:', {expr='STR 250 %of'}},
+			{'Scuttler '..Tooltips.full('Toxin', 'DamageTypes')..' or '..Tooltips.full('Electricity', 'DamageTypes')..' damage:',
+				{expr='SCUTTLER_LEVEL 1 - 1.55 ^ 0.015 * 1 + 50 *'}
+			},
+			{'Mark duration:', {expr='DUR 15 %of', suff='s', fmt='2dec'}},
+			{'Scuttler Health drain:', {expr='1 SCUTTLER_DUR /', suff='/s', fmt='%'}},
+			{'Maximum Scuttler lifetime:', {name='SCUTTLER_DUR', expr='DUR 45 %of', suff='s', fmt='2dec'}},
+			{'Dart targeting range:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{'Oversurge '..Tooltips.full('Electricity', 'DamageTypes')..' damage:', {expr='STR 2000 %of 0 BROODS_OVERSURGE if'}},
+			{'Oversurge radius:', {expr='RNG 5 %of 0 BROODS_OVERSURGE if', suff='m', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Silken Stride']={
+		ins={
+			{name='WALL_LATCHING', cont='[[Wall Latch]]ing?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Health', 'Stats')..' multiplier:', {expr='STR 2 %of', fmt='2dec'}},
+			{Tooltips.full('Toxin', 'DamageTypes')..' [[Extra Hit]]:', {expr='STR 0.4 %of 2 1 WALL_LATCHING if *', fmt='%'}},
+			{Tooltips.full('Toxin', 'DamageTypes')..' burst damage:', {expr='STR 500 %of'}},
+			{'Burst radius:', {expr='RNG 5 %of', suff='m', fmt='2dec'}},
+			{'Silken Thread range:', {expr='RNG 75 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', fmt='2dec'}}
 		}
 	},
 	-- Orion

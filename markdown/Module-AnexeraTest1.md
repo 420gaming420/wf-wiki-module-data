@@ -1,7 +1,7 @@
 ---
 title: "Module:AnexeraTest1"
 wiki_url: "https://wiki.warframe.com/w/Module/AnexeraTest1"
-wiki_timestamp: "2026-10-18T22:31:36Z"
+wiki_timestamp: "2026-10-19T14:58:18Z"
 ---
 
 *Documentation for this module may be created at [Module:AnexeraTest1/doc](/w/Module:AnexeraTest1/doc?action=edit&redlink=1 "Module:AnexeraTest1/doc (page does not exist)")*
@@ -471,8 +471,8 @@ function p.buildOfferings(frame)
 				(not platform or platform == 'All' or (platform ~= 'TennoCon' and v.OfferingDates) or v[dateKey] or v.IsAlways) and
 				(not matchName or matchName(v.Name)) and
 				(not matchType or matchType(v.Type)) and
-				(not compareCredit or compareCredit(v.CreditCost)) and
-				(not compareDucat or compareDucat(v.DucatCost)) and
+				(not compareCredit or compareCredit(v.CreditCost or 0)) and
+				(not compareDucat or compareDucat(v.DucatCost or 0)) and
 				(not compareDate or compareDate(itemDates[v]))
 			then
 				table.insert(items, v)
@@ -528,6 +528,12 @@ function p.buildOfferings(frame)
 	mw.log(string.format('T+%.4fs |   finish', os.clock() - startTime))
 
 	return result
+end
+
+function p.printArgs(frame)
+	for k, v in pairs(frame.args) do
+		mw.logObject(v, k)
+	end
 end
 
 p.__main = Entrypoint(p);

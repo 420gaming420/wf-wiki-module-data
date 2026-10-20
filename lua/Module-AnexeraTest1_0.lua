@@ -438,8 +438,8 @@ function p.buildOfferings(frame)
 				(not platform or platform == 'All' or (platform ~= 'TennoCon' and v.OfferingDates) or v[dateKey] or v.IsAlways) and
 				(not matchName or matchName(v.Name)) and
 				(not matchType or matchType(v.Type)) and
-				(not compareCredit or compareCredit(v.CreditCost)) and
-				(not compareDucat or compareDucat(v.DucatCost)) and
+				(not compareCredit or compareCredit(v.CreditCost or 0)) and
+				(not compareDucat or compareDucat(v.DucatCost or 0)) and
 				(not compareDate or compareDate(itemDates[v]))
 			then
 				table.insert(items, v)
@@ -495,6 +495,12 @@ function p.buildOfferings(frame)
 	mw.log(string.format('T+%.4fs |   finish', os.clock() - startTime))
 
 	return result
+end
+
+function p.printArgs(frame)
+	for k, v in pairs(frame.args) do
+		mw.logObject(v, k)
+	end
 end
 
 p.__main = Entrypoint(p);
