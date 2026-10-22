@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization"
-wiki_timestamp: "2026-10-15T15:23:40Z"
+wiki_timestamp: "2026-10-21T22:43:30Z"
 ---
 
 **Maximization** creates a stat maximization calculator for Warframe abilities.
@@ -24,25 +24,29 @@ wiki_timestamp: "2026-10-15T15:23:40Z"
 
 ### Template
 
-In template: `{{#invoke:Maximization|ability|ability_name}}`  
-In articles: `{{MaximizationCalculator|ability_name}}`
+|  |  |
+| --- | --- |
+| In templates: | Any abilities: `{{#invoke:Maximization|Abilities|ability_name}}` |
+| List of abilities by [Warframes](/w/Warframes "Warframes"): `{{#invoke:Maximization|WarframeAbilities|warframe_name}}` |
+| List of [Helminth](/w/Helminth "Helminth") abilities: `{{#invoke:Maximization|HelminthAbilities}}` |
+| In articles: | `{{MaximizationCalculator|ability_name}}` |
 
 ## Documentation
 
 ### Package items
 
 `p.ability(frame)` (function)
-:   Creates a maximization calculator for one or more Warframe abilities based on formulas in [Module:Maximization/data](/w/Module:Maximization/data "Module:Maximization/data").
+:   Creates a maximization calculator for one or more Warframe abilities based on formulas in [Module:Maximization/data](/w/Module:Maximization/data "Module:Maximization/data"). **Aliases:** `p.Abilities`, `p.main`.
 :   **Parameter**: `frame` Frame object with the ability names as the arguments (table)
 :   **Returns**: Wikitable with the CSS classes and HTML data attributes for the calculator (string)
 
 `p.ability_set(frame)` (function)
-:   Creates a maximization calculator for one or more Warframes abilities by resolving names and calling p. ability()
+:   Creates a maximization calculator for one or more Warframes abilities by resolving names and calling `p. ability`. **Aliases:** `p.WarframeAbilities`.
 :   **Parameter**: `frame` Frame object with the Warframe names as the arguments (table)
 :   **Returns**: Wikitable with the CSS classes and HTML data attributes for the calculator (string)
 
 `p.HelminthAbilities()` (function)
-:   Creates a maximization calculator for Helminth ability set by being a wrapper for p. ability\_set()
+:   Creates a maximization calculator for Helminth ability set by calling `p. ability_set`.
 :   **Returns**: Wikitable with the CSS classes and HTML data attributes for the calculator (string)
 
 ---
@@ -128,6 +132,8 @@ local function normalize_out(out)
 end
 
 --- Creates a maximization calculator for one or more Warframe abilities based on formulas in [[Module:Maximization/data]].
+--
+-- **Aliases:** `p.Abilities`, `p.main`.
 --  @function		p.ability
 --  @alias			p.ability
 --  @alias			p.Abilities
@@ -265,7 +271,9 @@ nil)
 end
 p.main = p.ability;
 
---- Creates a maximization calculator for one or more Warframes abilities by resolving names and calling p.ability()
+--- Creates a maximization calculator for one or more Warframes abilities by resolving names and calling @{p.ability}.
+--
+-- **Aliases:** `p.WarframeAbilities`.
 --  @function		p.ability_set
 --  @alias			p.ability_set
 --	@alias			p.WarframeAbilities
@@ -290,7 +298,7 @@ function p.ability_set(...)
 end
 p.WarframeAbilities = p.ability_set;
 
---- Creates a maximization calculator for Helminth ability set by being a wrapper for p.ability_set()
+--- Creates a maximization calculator for Helminth ability set by calling @{p.ability_set}.
 --  @function		p.HelminthAbilities
 --  @alias			p.HelminthAbilities
 --  @return			{string} Wikitable with the CSS classes and HTML data attributes for the calculator

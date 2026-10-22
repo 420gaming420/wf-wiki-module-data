@@ -502,9 +502,52 @@ local Data = {
 		}
 	},
 	-- Frost
-	['Avalanche'] = {
+	['Freeze']={
 		ins={
-			{name='FROST_ARMOR', cont='Current '..Tooltips.full('Armor', 'Stats')..':', min='0', value='300'},
+			{name='FREEZE_FORCE', cont=Tooltips.full('Freeze Force', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Direct '..Tooltips.full('Cold', 'DamageTypes')..' damage:', {expr='STR 350 %of'}},
+			{'Radial '..Tooltips.full('Cold', 'DamageTypes')..' damage:', {expr='STR 150 %of'}},
+			{Tooltips.full('Freeze', 'DamageTypes')..' duration:', {expr='DUR 15 %of', fmt='2dec'}},
+			{'Radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Cold', 'DamageTypes')..' damage bonus:', {expr='STR 1 %of 0 FREEZE_FORCE if', fmt='%'}},
+			{'Freeze Force duration:', {expr='DUR 40 %of 0 FREEZE_FORCE if', suff='s', fmt='2dec'}},
+			{'Freeze Force radius:', {expr='RNG 15 %of 0 FREEZE_FORCE if', suff='m', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Ice Wave']={
+		ins={
+			{name='ICE_WAVE_IMPEDANCE', cont=Tooltips.full('Ice Wave Impedance', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Cold', 'DamageTypes')..' damage:', {expr='STR 700 %of'}},
+			{Tooltips.full('Freeze', 'DamageTypes')..' duration:', {expr='DUR 10 %of', suff='s', fmt='2dec'}},
+			{'Initial width:', {expr='RNG 3 %of', suff='m', fmt='1dec'}},
+			{'Length:', {name='ICE_WAVE_LENGTH', expr='RNG 20 %of', suff='m', fmt='1dec'}},
+			{'Angle:', {name='ICE_WAVE_ANGLE', expr='RNG 45 %of 60 min', suff='°', fmt='2dec'}},
+			{'Frozen trail duration:', {expr='DUR 12 %of 0 ICE_WAVE_IMPEDANCE if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Snow Globe']={
+		ins={
+			{name='FROST_ARMOR', cont='Current '..Tooltips.full('Armor', 'Stats')..':', min='0', value='310'},
+			{name='COLD_FRONT', cont=Tooltips.full('Cold Front', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Health added by Armor:', {name='SNOW_GLOBE_ARMOR', expr='STR 5 %of FROST_ARMOR *'}},
+			{'Health before damage absorption:', {expr='STR 3500 %of SNOW_GLOBE_ARMOR +'}},
+			{Tooltips.full('Cold', 'DamageTypes')..' damage on break:', {expr='STR 150 %of'}},
+			{Tooltips.full('Freeze', 'DamageTypes')..' duration:', {expr='DUR 10 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 2.25 5 COLD_FRONT if %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Avalanche']={
+		ins={
+			{name='FROST_ARMOR', cont='Current '..Tooltips.full('Armor', 'Stats')..':', min='0', value='310'},
 			{name='ICY_AVALANCHE', cont=Tooltips.full('Icy Avalanche', 'Mods')..'?', type='checkbox'}
 		},
 		outs={
@@ -1296,6 +1339,66 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
 		}
 	},
+	-- Nyx
+	['Mind Control']={
+		ins={
+			{name='MIND_FREAK', cont=Tooltips.full('Mind Freak', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Initial damage bonus:', {expr='STR 10 %of 0 MIND_FREAK if 7.5 +', fmt='%'}},
+			{'Duration:', {expr='DUR 60 %of', suff='s', fmt='2dec'}},
+			{'Targeting range:', {expr='RNG 60 %of', suff='m', fmt='1dec'}},
+			{'Movement Speed and Attack Speed bonus:', {expr='STR 0.25 %of 0 MIND_FREAK if', fmt='%'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Psychic Bolts']={
+		ins={
+			{name='PACIFYING_BOLTS', cont=Tooltips.full('Pacifying Bolts', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Defense Reduction:', {expr='STR 0.8 %of 1 min', fmt='%'}},
+			{Tooltips.full('Slow', 'DamageTypes')..' to '..Tooltips.full('Infested', 'Factions')..':',
+				{expr='STR 0.2 %of', fmt='%'}
+			},
+			{Tooltips.full('Armor', 'Stats')..' stolen:', {expr='STR 25 %of', suff='/armored enemy'}},
+			{Tooltips.full('Shield', 'Stats')..' stolen:', {expr='STR 75 %of', suff='/shielded enemy'}},
+			{Tooltips.full('Overguard', 'DamageTypes')..' stolen:', {expr='STR 500 %of', suff='/Overguarded enemy'}},
+			{Tooltips.full('Armor', 'Stats')..' cap:', {expr='STR 1000 %of'}},
+			{Tooltips.full('Overguard', 'DamageTypes')..' cap:', {expr='STR 7500 %of'}},
+			{'Defense Reduction duration:', {expr='DUR 11 %of', suff='s', fmt='2dec'}},
+			{'Stolen '..Tooltips.full('Armor', 'Stats')..' duration:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Confusion', 'DamageTypes')..' duration:', {expr='DUR 10 %of 0 PACIFYING_BOLTS if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Chaos']={
+		ins={
+			{name='CHAOS_SHPERE', cont=Tooltips.full('Chaos Sphere', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Confusion', 'DamageTypes')..' duration:', {name='CHAOS_DUR', expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{'Chaos Sphere duration:', {expr='50 CHAOS_DUR %of 0 CHAOS_SHPERE if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Absorb']={
+		ins={
+			{name='ASSIMILATE', cont=Tooltips.full('Assimilate', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Minimum '..Tooltips.full('Magnetic', 'DamageTypes')..' damage:', {expr='STR 1500 %of'}},
+			{'Absorbed damage to [[Weapon Damage]] bonus conversion:', {name='ABSORB_CONVERSION', expr='STR 0.00025 %of', fmt='3%'}},
+			{'Duration:', {expr='Inf DUR 5 %of ASSIMILATE if', suff='s', fmt='2dec'}},
+			{'Weapon Damage bonus duration:', {expr='DUR 8 %of', suff='s', fmt='2dec'}},
+			{'Minimum radius:', {name='ABSORB_RNG', expr='RNG 7.5 15 ASSIMILATE if %of 50 min', suff='m', fmt='1dec'}},
+			{'Damage for 400% Weapon Damage bonus:', {expr='4 ABSORB_CONVERSION sqrt / 2 ^'}},
+			{'Damage for 50m radius:', {expr='50 ABSORB_RNG - 50 * 5 sqrt / 2 ^'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='6.5 DRAIN * 0 ASSIMILATE if', fmt='2dec'}}
+		}
+	},
 	-- Oberon
 	['Smite']={
 		ins={
@@ -1464,43 +1567,6 @@ local Data = {
 			{'Silken Thread range:', {expr='RNG 75 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', fmt='2dec'}}
-		}
-	},
-	-- Orion
-	['Gravitic Slash']={
-		ins={
-			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive|Switch]] Passive?', type='checkbox'},
-		},
-		outs={
-			{Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 1500 %of'}},
-			{Tooltips.full('Armor', 'Stats')..'/'..Tooltips.full('Shield', 'Stats')..' reduction:', {expr='STR 50 %of', suff='%'}},
-			{'Status chance:', {expr='STR 100 %of', suff='%'}},
-			{'Radius', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 15 *'}}
-		}
-	},
-	['Astral Shell']={
-		ins={
-			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive|Switch]] Passive?', type='checkbox'},
-		},
-		outs={
-			{'Decoy\'s '..Tooltips.full('Blast', 'DamageTypes')..':', {expr='STR 200 %of'}},
-			{'Buff Duration:', {expr='DUR 35 %of', suff='s'}},
-			{'Decoy Duration:', {expr='DUR 5 %of', suff='s'}},
-			{'Explosion radius:', {expr='RNG 5 %of'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 50 *'}}
-		}
-	},
-	['Event Horizon']={
-		ins={
-			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive|Switch]] Passive?', type='checkbox'},
-		},
-		outs={
-			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 750 %of'}},
-			{'Duration:', {expr='DUR 18 %of', suff='s', fmt='1dec'}},
-			{'Bonus duration:', {expr='DUR 5 %of', suff='s', fmt='1dec'}},
-			{'Radius:', {expr='RNG 8 %of', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 50 *'}}
 		}
 	},
 	-- Protea
@@ -1721,6 +1787,25 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='0.75 DRAIN * ENEMY_COUNT *', suff='/s', fmt='2dec'}}
 		}
 	},
+	['Exalted Shadow']={
+		ins={
+			{name='MELEE_DMG_MOD', cont='[[Melee damage]] modifier:', type='number', default='100'},
+			{name='ELEMENT_DMG_MOD', cont='[[Elemental damage]] modifier:', type='number', default='0'},
+			{name='FACTION_DMG_MOD', cont='[[Faction damage]] modifier:', type='number', default='100'},
+			{name='MELEE_RANGE_MOD', cont='[[Melee range]] modifier:', type='number', default='0'},
+			{name='COMBO_MULT', cont='[[Combo multiplier]]:', type='range-R', min='1', max='12', value='1'},
+			{name='HEAVY_ATTACK', cont='Ground [[Melee#Heavy attack|Heavy Attack]]?', type='checkbox', default='false'},
+			{name='REAP_DMG_VULN', cont=Tooltips.full('Reap', 'Ability')..'\'s debuff?', type='checkbox', default='false'},
+		},
+		outs={
+			{Tooltips.full('Impact', 'DamageTypes')..', '..Tooltips.full('Puncture', 'DamageTypes')..' and '..Tooltips.full('Slash', 'DamageTypes')..' damage:',
+				{name='BASE_DMG', expr='FACTION_DMG_MOD MELEE_DMG_MOD STR 250 %of %of %of COMBO_MULT * 9 1 HEAVY_ATTACK if *'}
+			},
+			{'Elemental damage:', {name='ELEMENT_DMG', expr='ELEMENT_DMG_MOD BASE_DMG %of'}},
+			{'Total damage:', {name='TOTAL_DMG', expr='BASE_DMG ELEMENT_DMG + STR 50 %of 100 / 1 + 1 REAP_DMG_VULN if *'}},
+			{'Range:', {expr='RNG 1.5 %of MELEE_RANGE_MOD +', suff='m', fmt='1dec'}},
+		}
+	},
 	-- Sevagoth's Shadow
 	['Embrace']={
 		outs={
@@ -1744,10 +1829,10 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
 		}
 	},
-	-- Sirius
+	-- Sirius & Orion
 	['Coronal Ejection']={
 		ins={
-			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive|Switch]] Passive?', type='checkbox'},
+			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive#Switching|Switching]] passive?', type='checkbox'},
 		},
 		outs={
 			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 1500 %of'}},
@@ -1756,9 +1841,21 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 15 *'}}
 		}
 	},
+	['Gravitic Slash']={
+		ins={
+			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive#Switching|Switching]] passive?', type='checkbox'},
+		},
+		outs={
+			{Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 1500 %of'}},
+			{Tooltips.full('Armor', 'Stats')..'/'..Tooltips.full('Shield', 'Stats')..' reduction:', {expr='STR 50 %of', suff='%'}},
+			{'Status chance:', {expr='STR 100 %of', suff='%'}},
+			{'Radius', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 15 *'}}
+		}
+	},
 	['Jade Stars']={
 		ins={
-			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive|Switch]] Passive?', type='checkbox'},
+			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive#Switching|Switching]] passive?', type='checkbox'},
 		},
 		outs={
 			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
@@ -1768,9 +1865,21 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 50 *'}}
 		}
 	},
+	['Astral Shell']={
+		ins={
+			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive#Switching|Switching]] passive?', type='checkbox'},
+		},
+		outs={
+			{'Decoy\'s '..Tooltips.full('Blast', 'DamageTypes')..':', {expr='STR 200 %of'}},
+			{'Buff Duration:', {expr='DUR 35 %of', suff='s'}},
+			{'Decoy Duration:', {expr='DUR 5 %of', suff='s'}},
+			{'Explosion radius:', {expr='RNG 5 %of'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 50 *'}}
+		}
+	},
 	['Light\'s Sanctuary']={
 		ins={
-			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive|Switch]] Passive?', type='checkbox'},
+			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive#Switching|Switching]] passive?', type='checkbox'},
 		},
 		outs={
 			{'Initial '..Tooltips.full('Health', 'Stats')..' restored:', {expr='STR 25 %of', suff='/s'}},
@@ -1781,6 +1890,32 @@ local Data = {
 			{'Initial radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
 			{'Final radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 50 *'}}
+		}
+	},
+	['Event Horizon']={
+		ins={
+			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive#Switching|Switching]] passive?', type='checkbox'},
+		},
+		outs={
+			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 750 %of'}},
+			{'Duration:', {expr='DUR 18 %of', suff='s', fmt='1dec'}},
+			{'Bonus duration:', {expr='DUR 5 %of', suff='s', fmt='1dec'}},
+			{'Radius:', {expr='RNG 8 %of', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 50 *'}}
+		}
+	},
+	['Celestial Clash']={
+		ins={
+			{name='CONSTELLATION', cont='[[Sirius_%26_Orion/Abilities/Passive#Constellation Stars|Constellation Stars]] combo:', 
+				type='range-R', min='0', max='7', default='0'},
+			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive#Switching|Switching]] passive?', type='checkbox'},
+		},
+		outs={
+			{'Average '..Tooltips.full('Heat', 'DamageTypes')..' or '.. Tooltips.full('Slash', 'DamageTypes')..' damage:', 
+				{expr='STR 10000 %of CONSTELLATION 1.5 * 1 + * 0.5 CONSTELLATION * 1 + *'}},
+			{'[[Critical Chance]]:', {expr='50 CONSTELLATION *', suff='%'}},
+			{'Radius:', {expr='RNG 26 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 100 *'}}
 		}
 	},
 	-- Trinity

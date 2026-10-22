@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data/doc"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data/doc"
-wiki_timestamp: "2026-10-17T17:49:29Z"
+wiki_timestamp: "2026-10-21T22:52:09Z"
 ---
 
 ## Contents

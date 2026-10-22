@@ -44,6 +44,8 @@ local function normalize_out(out)
 end
 
 --- Creates a maximization calculator for one or more Warframe abilities based on formulas in [[Module:Maximization/data]].
+--
+-- **Aliases:** `p.Abilities`, `p.main`.
 --  @function		p.ability
 --  @alias			p.ability
 --  @alias			p.Abilities
@@ -173,7 +175,9 @@ nil)
 end
 p.main = p.ability;
 
---- Creates a maximization calculator for one or more Warframes abilities by resolving names and calling p.ability()
+--- Creates a maximization calculator for one or more Warframes abilities by resolving names and calling @{p.ability}.
+--
+-- **Aliases:** `p.WarframeAbilities`.
 --  @function		p.ability_set
 --  @alias			p.ability_set
 --	@alias			p.WarframeAbilities
@@ -198,7 +202,7 @@ function p.ability_set(...)
 end
 p.WarframeAbilities = p.ability_set;
 
---- Creates a maximization calculator for Helminth ability set by being a wrapper for p.ability_set()
+--- Creates a maximization calculator for Helminth ability set by calling @{p.ability_set}.
 --  @function		p.HelminthAbilities
 --  @alias			p.HelminthAbilities
 --  @return			{string} Wikitable with the CSS classes and HTML data attributes for the calculator
