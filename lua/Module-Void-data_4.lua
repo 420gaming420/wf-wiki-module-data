@@ -1794,6 +1794,43 @@ RelicData = {
 		Name = "Axi C12",
 		Tier = "Axi",
 	},
+	["Axi C13"] = {
+		Drops = {
+			{
+				Item = "Bronco Prime",
+				Part = "Barrel",
+				Rarity = "Common",
+			},
+			{
+				Item = "Sarofang Prime",
+				Part = "Handle",
+				Rarity = "Common",
+			},
+			{
+				Item = "Forma",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Braton Prime",
+				Part = "Receiver",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Voruna Prime",
+				Part = "Chassis Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Caliban Prime",
+				Part = "Neuroptics Blueprint",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.1.3",
+		Name = "Axi C13",
+		Tier = "Axi",
+	},
 	["Axi D1"] = {
 		Drops = {
 			{

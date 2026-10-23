@@ -46,7 +46,7 @@
 	Class = "Two-Handed Nikana",
 	ComboDur = 5,
 	Conclave = false,
-	Disposition = 0.5,
+	Disposition = 1.2,
 	Family = "Tatsu",
 	FollowThrough = 0.7,
 	HeavyAttack = 1284,

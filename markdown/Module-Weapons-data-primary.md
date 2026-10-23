@@ -1,7 +1,7 @@
 ---
 title: "Module:Weapons/data/primary"
 wiki_url: "https://wiki.warframe.com/w/Module/Weapons/data/primary"
-wiki_timestamp: "2026-10-09T19:21:34Z"
+wiki_timestamp: "2026-10-22T19:14:41Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s [Primary Weapons](/w/Primary_Weapon "Primary Weapon").
@@ -54,7 +54,7 @@ Thanks, you're awesome!
 * [11 Weapon Data](#Weapon_Data)
 * [12 References](#References)
 
-:   *Last updated: Fri, 09 Oct 2026 19:21:34 +0000 (UTC) by [User:Cephalon Scientia](/w/User:Cephalon_Scientia "User:Cephalon Scientia") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/primary?diff=0))*
+:   *Last updated: Thu, 22 Oct 2026 19:14:41 +0000 (UTC) by [User:Twilight053](/w/User:Twilight053 "User:Twilight053") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/primary?diff=0))*
 
 ## Horizontal Partitions (and where to update data)
 
@@ -167,7 +167,7 @@ Gun Entry Schema")]
 	},
 	Class = "Sniper Rifle",
 	Conclave = false,
-	Disposition = 0.5,
+	Disposition = 1.2,
 	ExilusPolarity = "Madurai",
 	Family = "",
 	Image = "Weapon.png",
@@ -203,7 +203,7 @@ Gun Entry Schema")]
 | `CompatibilityTags` | N/A | N/A | `CompatibilityTags` | Table (array of strings) | ❌ | Tags that denote item compatibility. In other words, items with these tags can/cannot have a particular mod installed with the same tag. | `{ "POWER_WEAPON" }` |
 | `Conclave` | N/A | N/A | `AvailableOnPvp` | Boolean | ❌ | Whether or not the weapon can be used in [Conclave](/w/Conclave "Conclave") | `false` |
 | `DefaultUpgrades` | N/A | N/A | `DefaultUpgrades`[[1]](#cite_note-1) | Table (array of strings) | ❌ | Additional upgrades that are innate to the weapon | `{ "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" }` |
-| `Disposition` | Riven Disposition | `omegaAttenuation` | `OmegaAttenuation` | Number (float) | ✔️ | [Riven Mod](/w/Riven_Mods "Riven Mods") Disposition value | `0.5` |
+| `Disposition` | Riven Disposition | `omegaAttenuation` | `OmegaAttenuation` | Number (float) | ✔️ | [Riven Disposition](/w/Riven_Disposition "Riven Disposition") value | `1.2` |
 | `ExilusPolarity` | N/A | N/A | `ArtifactSlots` | String | ❌ | Polarity on Exilus slot | `"Madurai"` |
 | `Family` | N/A | N/A | N/A | String | ❌ | Weapon family that it belongs to, corresponding to the [Riven Mod](/w/Riven_Mods "Riven Mods") compatibility | `"Latron"` |
 | `IncarnonChargeGain` | N/A | N/A | N/A | Number (integer) | ❌ | For guns, the number of Incarnon shots gained by hitting a [Weak Point](/w/Weak_Point "Weak Point") | 10 |
@@ -288,7 +288,7 @@ Melee Entry Schema")]
 	Class = "Two-Handed Nikana",
 	ComboDur = 5,
 	Conclave = false,
-	Disposition = 0.5,
+	Disposition = 1.2,
 	Family = "Tatsu",
 	FollowThrough = 0.7,
 	HeavyAttack = 1284,
@@ -320,7 +320,7 @@ Melee Entry Schema")]
 | `CompatibilityTags` | N/A | N/A | `CompatibilityTags` | Table (array of strings) | ❌ | Tags that denote item compatibility. In other words, items with these tags can/cannot have a particular mod installed with the same tag. | `{ "POWER_WEAPON" }` |
 | `Conclave` | N/A | N/A | `AvailableOnPvp` | Boolean | ❌ | Whether or not the weapon can be used in [Conclave](/w/Conclave "Conclave") | `false` |
 | `DefaultUpgrades` | N/A | N/A | `DefaultUpgrades` | Table (array of strings) | ❌ | Additional upgrades that are innate to the weapon | `{ "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" }` |
-| `Disposition` | Riven Disposition | `omegaAttenuation` | `OmegaAttenuation` | Number (float) | ✔️ | [Riven Mod](/w/Riven_Mods "Riven Mods") Disposition value | `0.5` |
+| `Disposition` | Riven Disposition | `omegaAttenuation` | `OmegaAttenuation` | Number (float) | ✔️ | [Riven Disposition](/w/Riven_Disposition "Riven Disposition") value | `0.5` |
 | `Family` | N/A | N/A | N/A | String | ❌ | Weapon family that it belongs to, corresponding to the [Riven Mod](/w/Riven_Mods "Riven Mods") compatibility | `"Machete"` |
 | `FollowThrough` | Follow Through | `followThrough` | N/A | Number (float) | ✔️ | Melee's base follow through multiplier as a decimal | `0.6` |
 | `HeavyAttack` | Heavy Attack | `heavyAttackDamage` | N/A | Number (float) | ✔️ | Melee's base heavy attack damage. For Kuva/Tenet weapons include minimum +25% Progenitor bonus in damage value. | `1284` |
@@ -672,749 +672,7 @@ Data Validation")]
 [[edit](/w/Module:Weapons/data/doc?action=edit&section=T-12 "Edit Section using Source Editor:
 Validate data types of key-value pairs")]
 
-**p.validateDataTypes(frame): There are a total of 741 key-value errors**
-
-1. "[AX-52](/w/AX-52 "AX-52")" contains an unsupported key `GripType`
-2. "[Acceltra](/w/Acceltra "Acceltra")" contains an unsupported key `GripType`
-3. "[Acceltra Prime](/w/Acceltra_Prime "Acceltra Prime")" contains an unsupported key `GripType`
-4. "[Ack & Brunt](/w/Ack_%26_Brunt "Ack & Brunt")" contains an unsupported key `GripType`
-5. "[Ack & Brunt](/w/Ack_%26_Brunt "Ack & Brunt")" contains an unsupported key `IncarnonDuration`
-6. "[Acrid](/w/Acrid "Acrid")" contains an unsupported key `GripType`
-7. "[Aegrit](/w/Aegrit "Aegrit")" contains an unsupported key `GripType`
-8. "[Aeolak](/w/Aeolak "Aeolak")" contains an unsupported key `GripType`
-9. "[Afentis](/w/Afentis "Afentis")" contains an unsupported key `GripType`
-10. "[Afentis Prime](/w/Afentis_Prime "Afentis Prime")" contains an unsupported key `GripType`
-11. "[Afuris](/w/Afuris "Afuris")" contains an unsupported key `GripType`
-12. "[Afuris Prime](/w/Afuris_Prime "Afuris Prime")" contains an unsupported key `GripType`
-13. "[Agkuza](/w/Agkuza "Agkuza")" contains an unsupported key `GripType`
-14. "[Akarius](/w/Akarius "Akarius")" contains an unsupported key `GripType`
-15. "[Akarius Prime](/w/Akarius_Prime "Akarius Prime")" contains an unsupported key `GripType`
-16. "[Akbolto](/w/Akbolto "Akbolto")" contains an unsupported key `GripType`
-17. "[Akbolto Prime](/w/Akbolto_Prime "Akbolto Prime")" contains an unsupported key `GripType`
-18. "[Akbronco](/w/Akbronco "Akbronco")" contains an unsupported key `GripType`
-19. "[Akbronco Prime](/w/Akbronco_Prime "Akbronco Prime")" contains an unsupported key `GripType`
-20. "[Akjagara](/w/Akjagara "Akjagara")" contains an unsupported key `GripType`
-21. "[Akjagara Prime](/w/Akjagara_Prime "Akjagara Prime")" contains an unsupported key `GripType`
-22. "[Aklato](/w/Aklato "Aklato")" contains an unsupported key `GripType`
-23. "[Aklex](/w/Aklex "Aklex")" contains an unsupported key `GripType`
-24. "[Aklex Prime](/w/Aklex_Prime "Aklex Prime")" contains an unsupported key `GripType`
-25. "[Akmagnus](/w/Akmagnus "Akmagnus")" contains an unsupported key `GripType`
-26. "[Akmagnus Prime](/w/Akmagnus_Prime "Akmagnus Prime")" contains an unsupported key `GripType`
-27. "[Aksomati](/w/Aksomati "Aksomati")" contains an unsupported key `GripType`
-28. "[Aksomati Prime](/w/Aksomati_Prime "Aksomati Prime")" contains an unsupported key `GripType`
-29. "[Aksondol](/w/Aksondol "Aksondol")" contains an unsupported key `GripType`
-30. "[Akstiletto](/w/Akstiletto "Akstiletto")" contains an unsupported key `GripType`
-31. "[Akstiletto Prime](/w/Akstiletto_Prime "Akstiletto Prime")" contains an unsupported key `GripType`
-32. "[Akvasto](/w/Akvasto "Akvasto")" contains an unsupported key `GripType`
-33. "[Akvasto Prime](/w/Akvasto_Prime "Akvasto Prime")" contains an unsupported key `GripType`
-34. "[Akzani](/w/Akzani "Akzani")" contains an unsupported key `GripType`
-35. "[Alternox](/w/Alternox "Alternox")" contains an unsupported key `GripType`
-36. "[Alternox Prime](/w/Alternox_Prime "Alternox Prime")" contains an unsupported key `GripType`
-37. "[Amanata](/w/Amanata "Amanata")" contains an unsupported key `GripType`
-38. "[Ambassador](/w/Ambassador "Ambassador")" contains an unsupported key `GripType`
-39. "[Amphis](/w/Amphis "Amphis")" contains an unsupported key `GripType`
-40. "[Amprex](/w/Amprex "Amprex")" contains an unsupported key `GripType`
-41. "[Angstrum](/w/Angstrum "Angstrum")" contains an unsupported key `IncarnonChargeGain`
-42. "[Angstrum](/w/Angstrum "Angstrum")" contains an unsupported key `GripType`
-43. "[Anku](/w/Anku "Anku")" contains an unsupported key `GripType`
-44. "[Anku](/w/Anku "Anku")" contains an unsupported key `IncarnonDuration`
-45. "[Ankyros](/w/Ankyros "Ankyros")" contains an unsupported key `GripType`
-46. "[Ankyros Prime](/w/Ankyros_Prime "Ankyros Prime")" contains an unsupported key `GripType`
-47. "[Arbucep](/w/Arbucep "Arbucep")" contains an unsupported key `GripType`
-48. "[Arbucep (Atmosphere)](/w/Arbucep_(Atmosphere)?action=edit&redlink=1 "Arbucep (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-49. "[Arca Plasmor](/w/Arca_Plasmor "Arca Plasmor")" contains an unsupported key `GripType`
-50. "[Arca Scisco](/w/Arca_Scisco "Arca Scisco")" contains an unsupported key `GripType`
-51. "[Arca Titron](/w/Arca_Titron "Arca Titron")" contains an unsupported key `GripType`
-52. "[Argo & Vel](/w/Argo_%26_Vel "Argo & Vel")" contains an unsupported key `GripType`
-53. "[Argonak](/w/Argonak "Argonak")" contains an unsupported key `GripType`
-54. "[Arquebex](/w/Arquebex "Arquebex")" contains an unsupported key `GripType`
-55. "[Artemis Bow](/w/Artemis_Bow "Artemis Bow")" contains an unsupported key `GripType`
-56. "[Artemis Bow Prime](/w/Artemis_Bow_Prime "Artemis Bow Prime")" contains an unsupported key `GripType`
-57. "[Arum Spinosa](/w/Arum_Spinosa "Arum Spinosa")" contains an unsupported key `GripType`
-58. "[Astilla](/w/Astilla "Astilla")" contains an unsupported key `GripType`
-59. "[Astilla Prime](/w/Astilla_Prime "Astilla Prime")" contains an unsupported key `GripType`
-60. "[Athodai](/w/Athodai "Athodai")" contains an unsupported key `GripType`
-61. "[Athodai Prime](/w/Athodai_Prime "Athodai Prime")" contains an unsupported key `GripType`
-62. "[Atomos](/w/Atomos "Atomos")" contains an unsupported key `IncarnonChargeGain`
-63. "[Atomos](/w/Atomos "Atomos")" contains an unsupported key `GripType`
-64. "[Atterax](/w/Atterax "Atterax")" contains an unsupported key `GripType`
-65. "[Attica](/w/Attica "Attica")" contains an unsupported key `GripType`
-66. "[Azima](/w/Azima "Azima")" contains an unsupported key `GripType`
-67. "[Azothane](/w/Azothane "Azothane")" contains an unsupported key `GripType`
-68. "[Balefire Charger](/w/Balefire_Charger "Balefire Charger")" contains an unsupported key `GripType`
-69. "[Balefire Charger Prime](/w/Balefire_Charger_Prime "Balefire Charger Prime")" contains an unsupported key `GripType`
-70. "[Ballistica](/w/Ballistica "Ballistica")" contains an unsupported key `IncarnonChargeGain`
-71. "[Ballistica](/w/Ballistica "Ballistica")" contains an unsupported key `GripType`
-72. "[Ballistica Prime](/w/Ballistica_Prime "Ballistica Prime")" contains an unsupported key `IncarnonChargeGain`
-73. "[Ballistica Prime](/w/Ballistica_Prime "Ballistica Prime")" contains an unsupported key `GripType`
-74. "[Basmu](/w/Basmu "Basmu")" contains an unsupported key `GripType`
-75. "[Battacor](/w/Battacor "Battacor")" contains an unsupported key `GripType`
-76. "[Baza](/w/Baza "Baza")" contains an unsupported key `GripType`
-77. "[Baza Prime](/w/Baza_Prime "Baza Prime")" contains an unsupported key `GripType`
-78. "[Bo](/w/Bo "Bo")" contains an unsupported key `GripType`
-79. "[Bo](/w/Bo "Bo")" contains an unsupported key `IncarnonDuration`
-80. "[Bo Prime](/w/Bo_Prime "Bo Prime")" contains an unsupported key `GripType`
-81. "[Bo Prime](/w/Bo_Prime "Bo Prime")" contains an unsupported key `IncarnonDuration`
-82. "[Boar](/w/Boar "Boar")" contains an unsupported key `IncarnonChargeGain`
-83. "[Boar](/w/Boar "Boar")" contains an unsupported key `GripType`
-84. "[Boar Prime](/w/Boar_Prime "Boar Prime")" contains an unsupported key `IncarnonChargeGain`
-85. "[Boar Prime](/w/Boar_Prime "Boar Prime")" contains an unsupported key `GripType`
-86. "[Boltace](/w/Boltace "Boltace")" contains an unsupported key `GripType`
-87. "[Bolto](/w/Bolto "Bolto")" contains an unsupported key `GripType`
-88. "[Boltor](/w/Boltor "Boltor")" contains an unsupported key `IncarnonChargeGain`
-89. "[Boltor](/w/Boltor "Boltor")" contains an unsupported key `GripType`
-90. "[Boltor Prime](/w/Boltor_Prime "Boltor Prime")" contains an unsupported key `IncarnonChargeGain`
-91. "[Boltor Prime](/w/Boltor_Prime "Boltor Prime")" contains an unsupported key `GripType`
-92. "[Brakk](/w/Brakk "Brakk")" contains an unsupported key `GripType`
-93. "[Braton](/w/Braton "Braton")" contains an unsupported key `IncarnonChargeGain`
-94. "[Braton](/w/Braton "Braton")" contains an unsupported key `GripType`
-95. "[Braton Prime](/w/Braton_Prime "Braton Prime")" contains an unsupported key `IncarnonChargeGain`
-96. "[Braton Prime](/w/Braton_Prime "Braton Prime")" contains an unsupported key `GripType`
-97. "[Braton Vandal](/w/Braton_Vandal "Braton Vandal")" contains an unsupported key `IncarnonChargeGain`
-98. "[Braton Vandal](/w/Braton_Vandal "Braton Vandal")" contains an unsupported key `GripType`
-99. "[Broken Scepter](/w/Broken_Scepter "Broken Scepter")" contains an unsupported key `GripType`
-100. "[Broken War](/w/Broken_War "Broken War")" contains an unsupported key `GripType`
-101. "[Bronco](/w/Bronco "Bronco")" contains an unsupported key `IncarnonChargeGain`
-102. "[Bronco](/w/Bronco "Bronco")" contains an unsupported key `GripType`
-103. "[Bronco Prime](/w/Bronco_Prime "Bronco Prime")" contains an unsupported key `IncarnonChargeGain`
-104. "[Bronco Prime](/w/Bronco_Prime "Bronco Prime")" contains an unsupported key `GripType`
-105. "[Bubonico](/w/Bubonico "Bubonico")" contains an unsupported key `GripType`
-106. "[Burston](/w/Burston "Burston")" contains an unsupported key `IncarnonChargeGain`
-107. "[Burston](/w/Burston "Burston")" contains an unsupported key `GripType`
-108. "[Burston Prime](/w/Burston_Prime "Burston Prime")" contains an unsupported key `IncarnonChargeGain`
-109. "[Burston Prime](/w/Burston_Prime "Burston Prime")" contains an unsupported key `GripType`
-110. "[Buzlok](/w/Buzlok "Buzlok")" contains an unsupported key `GripType`
-111. "[Cadus](/w/Cadus "Cadus")" contains an unsupported key `GripType`
-112. "[Cantare](/w/Cantare "Cantare")" contains an unsupported key `GripType`
-113. "[Carmine Penta](/w/Carmine_Penta "Carmine Penta")" contains an unsupported key `GripType`
-114. "[Cassowar](/w/Cassowar "Cassowar")" contains an unsupported key `GripType`
-115. "[Castanas](/w/Castanas "Castanas")" contains an unsupported key `GripType`
-116. "[Catabolyst](/w/Catabolyst "Catabolyst")" contains an unsupported key `GripType`
-117. "[Caustacyst](/w/Caustacyst "Caustacyst")" contains an unsupported key `GripType`
-118. "[Cedo](/w/Cedo "Cedo")" contains an unsupported key `GripType`
-119. "[Cedo Prime](/w/Cedo_Prime "Cedo Prime")" contains an unsupported key `GripType`
-120. "[Centaur](/w/Centaur "Centaur")" contains an unsupported key `GripType`
-121. "[Ceramic Dagger](/w/Ceramic_Dagger "Ceramic Dagger")" contains an unsupported key `GripType`
-122. "[Ceramic Dagger](/w/Ceramic_Dagger "Ceramic Dagger")" contains an unsupported key `IncarnonDuration`
-123. "[Cerata](/w/Cerata "Cerata")" contains an unsupported key `GripType`
-124. "[Cernos](/w/Cernos "Cernos")" contains an unsupported key `GripType`
-125. "[Cernos Prime](/w/Cernos_Prime "Cernos Prime")" contains an unsupported key `GripType`
-126. "[Cestra](/w/Cestra "Cestra")" contains an unsupported key `IncarnonChargeGain`
-127. "[Cestra](/w/Cestra "Cestra")" contains an unsupported key `GripType`
-128. "[Ceti Lacera](/w/Ceti_Lacera "Ceti Lacera")" contains an unsupported key `GripType`
-129. "[Cinta](/w/Cinta "Cinta")" contains an unsupported key `GripType`
-130. "[Cobra & Crane](/w/Cobra_%26_Crane "Cobra & Crane")" contains an unsupported key `GripType`
-131. "[Cobra & Crane Prime](/w/Cobra_%26_Crane_Prime "Cobra & Crane Prime")" contains an unsupported key `GripType`
-132. "[Coda Bassocyst](/w/Coda_Bassocyst "Coda Bassocyst")" contains an unsupported key `GripType`
-133. "[Coda Bubonico](/w/Coda_Bubonico "Coda Bubonico")" contains an unsupported key `GripType`
-134. "[Coda Catabolyst](/w/Coda_Catabolyst "Coda Catabolyst")" contains an unsupported key `GripType`
-135. "[Coda Caustacyst](/w/Coda_Caustacyst "Coda Caustacyst")" contains an unsupported key `GripType`
-136. "[Coda Hema](/w/Coda_Hema "Coda Hema")" contains an unsupported key `GripType`
-137. "[Coda Hirudo](/w/Coda_Hirudo "Coda Hirudo")" contains an unsupported key `GripType`
-138. "[Coda Mire](/w/Coda_Mire "Coda Mire")" contains an unsupported key `GripType`
-139. "[Coda Motovore](/w/Coda_Motovore "Coda Motovore")" contains an unsupported key `GripType`
-140. "[Coda Pathocyst](/w/Coda_Pathocyst "Coda Pathocyst")" contains an unsupported key `GripType`
-141. "[Coda Pox](/w/Coda_Pox "Coda Pox")" contains an unsupported key `GripType`
-142. "[Coda Sporothrix](/w/Coda_Sporothrix "Coda Sporothrix")" contains an unsupported key `GripType`
-143. "[Coda Synapse](/w/Coda_Synapse "Coda Synapse")" contains an unsupported key `GripType`
-144. "[Coda Tysis](/w/Coda_Tysis "Coda Tysis")" contains an unsupported key `GripType`
-145. "[Convectrix](/w/Convectrix "Convectrix")" contains an unsupported key `GripType`
-146. "[Corinth](/w/Corinth "Corinth")" contains an unsupported key `GripType`
-147. "[Corinth Prime](/w/Corinth_Prime "Corinth Prime")" contains an unsupported key `GripType`
-148. "[Cortege](/w/Cortege "Cortege")" contains an unsupported key `GripType`
-149. "[Cortege (Atmosphere)](/w/Cortege_(Atmosphere)?action=edit&redlink=1 "Cortege (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-150. "[Corufell](/w/Corufell "Corufell")" contains an unsupported key `GripType`
-151. "[Corufell Prime](/w/Corufell_Prime "Corufell Prime")" contains an unsupported key `GripType`
-152. "[Corvas](/w/Corvas "Corvas")" contains an unsupported key `GripType`
-153. "[Corvas (Atmosphere)](/w/Corvas_(Atmosphere)?action=edit&redlink=1 "Corvas (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-154. "[Corvas Prime](/w/Corvas_Prime "Corvas Prime")" contains an unsupported key `GripType`
-155. "[Corvas Prime (Atmosphere)](/w/Corvas_Prime_(Atmosphere)?action=edit&redlink=1 "Corvas Prime (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-156. "[Cronus](/w/Cronus "Cronus")" contains an unsupported key `GripType`
-157. "[Cyanex](/w/Cyanex "Cyanex")" contains an unsupported key `GripType`
-158. "[Cycron](/w/Cycron "Cycron")" contains an unsupported key `GripType`
-159. "[Cyngas](/w/Cyngas "Cyngas")" contains an unsupported key `GripType`
-160. "[Cyngas (Atmosphere)](/w/Cyngas_(Atmosphere)?action=edit&redlink=1 "Cyngas (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-161. "[Daikyu](/w/Daikyu "Daikyu")" contains an unsupported key `GripType`
-162. "[Daikyu Prime](/w/Daikyu_Prime "Daikyu Prime")" contains an unsupported key `GripType`
-163. "[Dakra Prime](/w/Dakra_Prime "Dakra Prime")" contains an unsupported key `GripType`
-164. "[Dark Dagger](/w/Dark_Dagger "Dark Dagger")" contains an unsupported key `GripType`
-165. "[Dark Split-Sword (Dual Swords)](/w/Dark_Split-Sword_(Dual_Swords) "Dark Split-Sword (Dual Swords)")" contains an unsupported key `GripType`
-166. "[Dark Split-Sword (Heavy Blade)](/w/Dark_Split-Sword_(Heavy_Blade) "Dark Split-Sword (Heavy Blade)")" contains an unsupported key `GripType`
-167. "[Dark Sword](/w/Dark_Sword "Dark Sword")" contains an unsupported key `GripType`
-168. "[Dera](/w/Dera "Dera")" contains an unsupported key `IncarnonChargeGain`
-169. "[Dera](/w/Dera "Dera")" contains an unsupported key `GripType`
-170. "[Dera Vandal](/w/Dera_Vandal "Dera Vandal")" contains an unsupported key `IncarnonChargeGain`
-171. "[Dera Vandal](/w/Dera_Vandal "Dera Vandal")" contains an unsupported key `GripType`
-172. "[Despair](/w/Despair "Despair")" contains an unsupported key `IncarnonChargeGain`
-173. "[Despair](/w/Despair "Despair")" contains an unsupported key `GripType`
-174. "[Destreza](/w/Destreza "Destreza")" contains an unsupported key `GripType`
-175. "[Destreza](/w/Destreza "Destreza")" contains an unsupported key `IncarnonDuration`
-176. "[Destreza Prime](/w/Destreza_Prime "Destreza Prime")" contains an unsupported key `GripType`
-177. "[Destreza Prime](/w/Destreza_Prime "Destreza Prime")" contains an unsupported key `IncarnonDuration`
-178. "[Detron](/w/Detron "Detron")" contains an unsupported key `GripType`
-179. "[Dex Dakra](/w/Dex_Dakra "Dex Dakra")" contains an unsupported key `GripType`
-180. "[Dex Furis](/w/Dex_Furis "Dex Furis")" contains an unsupported key `GripType`
-181. "[Dex Nikana](/w/Dex_Nikana "Dex Nikana")" contains an unsupported key `GripType`
-182. "[Dex Pixia](/w/Dex_Pixia "Dex Pixia")" contains an unsupported key `GripType`
-183. "[Dex Pixia Prime](/w/Dex_Pixia_Prime "Dex Pixia Prime")" contains an unsupported key `GripType`
-184. "[Dex Sybaris](/w/Dex_Sybaris "Dex Sybaris")" contains an unsupported key `IncarnonChargeGain`
-185. "[Dex Sybaris](/w/Dex_Sybaris "Dex Sybaris")" contains an unsupported key `GripType`
-186. "[Dorrclave](/w/Dorrclave "Dorrclave")" contains an unsupported key `GripType`
-187. "[Dragon Nikana](/w/Dragon_Nikana "Dragon Nikana")" contains an unsupported key `GripType`
-188. "[Drakgoon](/w/Drakgoon "Drakgoon")" contains an unsupported key `GripType`
-189. "[Dread](/w/Dread "Dread")" contains an unsupported key `IncarnonChargeGain`
-190. "[Dread](/w/Dread "Dread")" contains an unsupported key `GripType`
-191. "[Dual Cestra](/w/Dual_Cestra "Dual Cestra")" contains an unsupported key `GripType`
-192. "[Dual Cleavers](/w/Dual_Cleavers "Dual Cleavers")" contains an unsupported key `GripType`
-193. "[Dual Coda Torxica](/w/Dual_Coda_Torxica "Dual Coda Torxica")" contains an unsupported key `GripType`
-194. "[Dual Decurion](/w/Dual_Decurion "Dual Decurion")" contains an unsupported key `GripType`
-195. "[Dual Decurion (Atmosphere)](/w/Dual_Decurion_(Atmosphere)?action=edit&redlink=1 "Dual Decurion (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-196. "[Dual Ether](/w/Dual_Ether "Dual Ether")" contains an unsupported key `GripType`
-197. "[Dual Heat Swords](/w/Dual_Heat_Swords "Dual Heat Swords")" contains an unsupported key `GripType`
-198. "[Dual Ichor](/w/Dual_Ichor "Dual Ichor")" contains an unsupported key `GripType`
-199. "[Dual Ichor](/w/Dual_Ichor "Dual Ichor")" contains an unsupported key `IncarnonDuration`
-200. "[Dual Kamas](/w/Dual_Kamas "Dual Kamas")" contains an unsupported key `GripType`
-201. "[Dual Kamas Prime](/w/Dual_Kamas_Prime "Dual Kamas Prime")" contains an unsupported key `GripType`
-202. "[Dual Keres](/w/Dual_Keres "Dual Keres")" contains an unsupported key `GripType`
-203. "[Dual Keres Prime](/w/Dual_Keres_Prime "Dual Keres Prime")" contains an unsupported key `GripType`
-204. "[Dual Raza](/w/Dual_Raza "Dual Raza")" contains an unsupported key `GripType`
-205. "[Dual Skana](/w/Dual_Skana "Dual Skana")" contains an unsupported key `GripType`
-206. "[Dual Toxocyst](/w/Dual_Toxocyst "Dual Toxocyst")" contains an unsupported key `IncarnonChargeGain`
-207. "[Dual Toxocyst](/w/Dual_Toxocyst "Dual Toxocyst")" contains an unsupported key `GripType`
-208. "[Dual Viciss](/w/Dual_Viciss "Dual Viciss")" contains an unsupported key `GripType`
-209. "[Dual Zoren](/w/Dual_Zoren "Dual Zoren")" contains an unsupported key `GripType`
-210. "[Dual Zoren Prime](/w/Dual_Zoren_Prime "Dual Zoren Prime")" contains an unsupported key `GripType`
-211. "[EFV-5 Jupiter](/w/EFV-5_Jupiter "EFV-5 Jupiter")" contains an unsupported key `GripType`
-212. "[EFV-8 Mars](/w/EFV-8_Mars "EFV-8 Mars")" contains an unsupported key `GripType`
-213. "[Edun](/w/Edun "Edun")" contains an unsupported key `GripType`
-214. "[Ekhein](/w/Ekhein "Ekhein")" contains an unsupported key `GripType`
-215. "[Embolist](/w/Embolist "Embolist")" contains an unsupported key `GripType`
-216. "[Endura](/w/Endura "Endura")" contains an unsupported key `GripType`
-217. "[Enkaus](/w/Enkaus "Enkaus")" contains an unsupported key `GripType`
-218. "[Epitaph](/w/Epitaph "Epitaph")" contains an unsupported key `GripType`
-219. "[Epitaph Prime](/w/Epitaph_Prime "Epitaph Prime")" contains an unsupported key `GripType`
-220. "[Ether Daggers](/w/Ether_Daggers "Ether Daggers")" contains an unsupported key `GripType`
-221. "[Ether Reaper](/w/Ether_Reaper "Ether Reaper")" contains an unsupported key `GripType`
-222. "[Ether Sword](/w/Ether_Sword "Ether Sword")" contains an unsupported key `GripType`
-223. "[Euphona Prime](/w/Euphona_Prime "Euphona Prime")" contains an unsupported key `GripType`
-224. "[Evensong](/w/Evensong "Evensong")" contains an unsupported key `GripType`
-225. "[Exalted Blade](/w/Exalted_Blade "Exalted Blade")" contains an unsupported key `GripType`
-226. "[Exalted Prime Blade](/w/Exalted_Prime_Blade "Exalted Prime Blade")" contains an unsupported key `GripType`
-227. "[Exalted Umbra Blade](/w/Exalted_Umbra_Blade "Exalted Umbra Blade")" contains an unsupported key `GripType`
-228. "[Exergis](/w/Exergis "Exergis")" contains an unsupported key `GripType`
-229. "[Falcor](/w/Falcor "Falcor")" contains an unsupported key `GripType`
-230. "[Fang](/w/Fang "Fang")" contains an unsupported key `GripType`
-231. "[Fang Prime](/w/Fang_Prime "Fang Prime")" contains an unsupported key `GripType`
-232. "[Felarx](/w/Felarx "Felarx")" contains an unsupported key `IncarnonChargeGain`
-233. "[Felarx](/w/Felarx "Felarx")" contains an unsupported key `GripType`
-234. "[Ferrox](/w/Ferrox "Ferrox")" contains an unsupported key `GripType`
-235. "[Fluctus](/w/Fluctus "Fluctus")" contains an unsupported key `GripType`
-236. "[Fluctus (Atmosphere)](/w/Fluctus_(Atmosphere)?action=edit&redlink=1 "Fluctus (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-237. "[Flux Rifle](/w/Flux_Rifle "Flux Rifle")" contains an unsupported key `GripType`
-238. "[Fragor](/w/Fragor "Fragor")" contains an unsupported key `GripType`
-239. "[Fragor Prime](/w/Fragor_Prime "Fragor Prime")" contains an unsupported key `GripType`
-240. "[Fulmin](/w/Fulmin "Fulmin")" contains an unsupported key `GripType`
-241. "[Fulmin Prime](/w/Fulmin_Prime "Fulmin Prime")" contains an unsupported key `GripType`
-242. "[Furax](/w/Furax "Furax")" contains an unsupported key `GripType`
-243. "[Furax](/w/Furax "Furax")" contains an unsupported key `IncarnonDuration`
-244. "[Furax Wraith](/w/Furax_Wraith "Furax Wraith")" contains an unsupported key `GripType`
-245. "[Furax Wraith](/w/Furax_Wraith "Furax Wraith")" contains an unsupported key `IncarnonDuration`
-246. "[Furis](/w/Furis "Furis")" contains an unsupported key `IncarnonChargeGain`
-247. "[Furis](/w/Furis "Furis")" contains an unsupported key `GripType`
-248. "[Fusilai](/w/Fusilai "Fusilai")" contains an unsupported key `GripType`
-249. "[Galariak Prime](/w/Galariak_Prime "Galariak Prime")" contains an unsupported key `GripType`
-250. "[Galatine](/w/Galatine "Galatine")" contains an unsupported key `GripType`
-251. "[Galatine Prime](/w/Galatine_Prime "Galatine Prime")" contains an unsupported key `GripType`
-252. "[Galvacord](/w/Galvacord "Galvacord")" contains an unsupported key `GripType`
-253. "[Gammacor](/w/Gammacor "Gammacor")" contains an unsupported key `IncarnonChargeGain`
-254. "[Gammacor](/w/Gammacor "Gammacor")" contains an unsupported key `GripType`
-255. "[Gazal Machete](/w/Gazal_Machete "Gazal Machete")" contains an unsupported key `GripType`
-256. "[Ghoulsaw](/w/Ghoulsaw "Ghoulsaw")" contains an unsupported key `GripType`
-257. "[Glaive](/w/Glaive "Glaive")" contains an unsupported key `GripType`
-258. "[Glaive Prime](/w/Glaive_Prime "Glaive Prime")" contains an unsupported key `GripType`
-259. "[Glaxion](/w/Glaxion "Glaxion")" contains an unsupported key `GripType`
-260. "[Glaxion Vandal](/w/Glaxion_Vandal "Glaxion Vandal")" contains an unsupported key `GripType`
-261. "[Glory](/w/Glory "Glory")" contains an unsupported key `GripType`
-262. "[Gorgon](/w/Gorgon "Gorgon")" contains an unsupported key `IncarnonChargeGain`
-263. "[Gorgon](/w/Gorgon "Gorgon")" contains an unsupported key `GripType`
-264. "[Gorgon Wraith](/w/Gorgon_Wraith "Gorgon Wraith")" contains an unsupported key `IncarnonChargeGain`
-265. "[Gorgon Wraith](/w/Gorgon_Wraith "Gorgon Wraith")" contains an unsupported key `GripType`
-266. "[Gotva Prime](/w/Gotva_Prime "Gotva Prime")" contains an unsupported key `GripType`
-267. "[Grakata](/w/Grakata "Grakata")" contains an unsupported key `GripType`
-268. "[Gram](/w/Gram "Gram")" contains an unsupported key `GripType`
-269. "[Gram Prime](/w/Gram_Prime "Gram Prime")" contains an unsupported key `GripType`
-270. "[Grattler](/w/Grattler "Grattler")" contains an unsupported key `GripType`
-271. "[Grattler (Atmosphere)](/w/Grattler_(Atmosphere)?action=edit&redlink=1 "Grattler (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-272. "[Grimoire](/w/Grimoire "Grimoire")" contains an unsupported key `GripType`
-273. "[Grinlok](/w/Grinlok "Grinlok")" contains an unsupported key `GripType`
-274. "[Guandao](/w/Guandao "Guandao")" contains an unsupported key `GripType`
-275. "[Guandao Prime](/w/Guandao_Prime "Guandao Prime")" contains an unsupported key `GripType`
-276. "[Gunsen](/w/Gunsen "Gunsen")" contains an unsupported key `GripType`
-277. "[Gunsen Prime](/w/Gunsen_Prime "Gunsen Prime")" contains an unsupported key `GripType`
-278. "[Haalvu](/w/Haalvu "Haalvu")" contains an unsupported key `GripType`
-279. "[Halikar](/w/Halikar "Halikar")" contains an unsupported key `GripType`
-280. "[Halikar Wraith](/w/Halikar_Wraith "Halikar Wraith")" contains an unsupported key `GripType`
-281. "[Harmony](/w/Harmony "Harmony")" contains an unsupported key `GripType`
-282. "[Harpak](/w/Harpak "Harpak")" contains an unsupported key `GripType`
-283. "[Hate](/w/Hate "Hate")" contains an unsupported key `GripType`
-284. "[Hate](/w/Hate "Hate")" contains an unsupported key `IncarnonDuration`
-285. "[Heat Dagger](/w/Heat_Dagger "Heat Dagger")" contains an unsupported key `GripType`
-286. "[Heat Sword](/w/Heat_Sword "Heat Sword")" contains an unsupported key `GripType`
-287. "[Hek](/w/Hek "Hek")" contains an unsupported key `GripType`
-288. "[Heliocor](/w/Heliocor "Heliocor")" contains an unsupported key `GripType`
-289. "[Hema](/w/Hema "Hema")" contains an unsupported key `GripType`
-290. "[Hespar](/w/Hespar "Hespar")" contains an unsupported key `GripType`
-291. "[Higasa](/w/Higasa "Higasa")" contains an unsupported key `GripType`
-292. "[Hikou](/w/Hikou "Hikou")" contains an unsupported key `GripType`
-293. "[Hikou Prime](/w/Hikou_Prime "Hikou Prime")" contains an unsupported key `GripType`
-294. "[Hind](/w/Hind "Hind")" contains an unsupported key `GripType`
-295. "[Hirudo](/w/Hirudo "Hirudo")" contains an unsupported key `GripType`
-296. "[Hystrix](/w/Hystrix "Hystrix")" contains an unsupported key `GripType`
-297. "[Hystrix Prime](/w/Hystrix_Prime "Hystrix Prime")" contains an unsupported key `GripType`
-298. "[Ignis](/w/Ignis "Ignis")" contains an unsupported key `GripType`
-299. "[Ignis Wraith](/w/Ignis_Wraith "Ignis Wraith")" contains an unsupported key `GripType`
-300. "[Imperator](/w/Imperator "Imperator")" contains an unsupported key `GripType`
-301. "[Imperator (Atmosphere)](/w/Imperator_(Atmosphere)?action=edit&redlink=1 "Imperator (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-302. "[Imperator Vandal](/w/Imperator_Vandal "Imperator Vandal")" contains an unsupported key `GripType`
-303. "[Imperator Vandal (Atmosphere)](/w/Imperator_Vandal_(Atmosphere)?action=edit&redlink=1 "Imperator Vandal (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-304. "[Innodem](/w/Innodem "Innodem")" contains an unsupported key `GripType`
-305. "[Iron Staff](/w/Iron_Staff "Iron Staff")" contains an unsupported key `GripType`
-306. "[Iron Staff Prime](/w/Iron_Staff_Prime "Iron Staff Prime")" contains an unsupported key `GripType`
-307. "[Ironbride](/w/Ironbride "Ironbride")" contains an unsupported key `GripType`
-308. "[Jat Kittag](/w/Jat_Kittag "Jat Kittag")" contains an unsupported key `GripType`
-309. "[Jat Kusar](/w/Jat_Kusar "Jat Kusar")" contains an unsupported key `GripType`
-310. "[Javlok](/w/Javlok "Javlok")" contains an unsupported key `GripType`
-311. "[Jaw Sword](/w/Jaw_Sword "Jaw Sword")" contains an unsupported key `GripType`
-312. "[Kama](/w/Kama "Kama")" contains an unsupported key `GripType`
-313. "[Karak](/w/Karak "Karak")" contains an unsupported key `GripType`
-314. "[Karak Wraith](/w/Karak_Wraith "Karak Wraith")" contains an unsupported key `GripType`
-315. "[Karyst](/w/Karyst "Karyst")" contains an unsupported key `GripType`
-316. "[Karyst Prime](/w/Karyst_Prime "Karyst Prime")" contains an unsupported key `GripType`
-317. "[Kaszas](/w/Kaszas "Kaszas")" contains an unsupported key `GripType`
-318. "[Keratinos](/w/Keratinos "Keratinos")" contains an unsupported key `GripType`
-319. "[Kesheg](/w/Kesheg "Kesheg")" contains an unsupported key `GripType`
-320. "[Kestrel](/w/Kestrel "Kestrel")" contains an unsupported key `GripType`
-321. "[Kestrel Prime](/w/Kestrel_Prime "Kestrel Prime")" contains an unsupported key `GripType`
-322. "[Knell](/w/Knell "Knell")" contains an unsupported key `GripType`
-323. "[Knell Prime](/w/Knell_Prime "Knell Prime")" contains an unsupported key `GripType`
-324. "[Knux](/w/Knux "Knux")" contains an unsupported key `GripType`
-325. "[Kogake](/w/Kogake "Kogake")" contains an unsupported key `GripType`
-326. "[Kogake Prime](/w/Kogake_Prime "Kogake Prime")" contains an unsupported key `GripType`
-327. "[Kohm](/w/Kohm "Kohm")" contains an unsupported key `GripType`
-328. "[Kohmak](/w/Kohmak "Kohmak")" contains an unsupported key `GripType`
-329. "[Komorex](/w/Komorex "Komorex")" contains an unsupported key `GripType`
-330. "[Kompressa](/w/Kompressa "Kompressa")" contains an unsupported key `GripType`
-331. "[Kompressa Prime](/w/Kompressa_Prime "Kompressa Prime")" contains an unsupported key `GripType`
-332. "[Korrudo](/w/Korrudo "Korrudo")" contains an unsupported key `GripType`
-333. "[Korumm](/w/Korumm "Korumm")" contains an unsupported key `GripType`
-334. "[Kraken](/w/Kraken "Kraken")" contains an unsupported key `GripType`
-335. "[Kreska](/w/Kreska "Kreska")" contains an unsupported key `GripType`
-336. "[Krohkur](/w/Krohkur "Krohkur")" contains an unsupported key `GripType`
-337. "[Kronen](/w/Kronen "Kronen")" contains an unsupported key `GripType`
-338. "[Kronen Prime](/w/Kronen_Prime "Kronen Prime")" contains an unsupported key `GripType`
-339. "[Kulstar](/w/Kulstar "Kulstar")" contains an unsupported key `GripType`
-340. "[Kunai](/w/Kunai "Kunai")" contains an unsupported key `IncarnonChargeGain`
-341. "[Kunai](/w/Kunai "Kunai")" contains an unsupported key `GripType`
-342. "[Kuva Ayanga](/w/Kuva_Ayanga "Kuva Ayanga")" contains an unsupported key `GripType`
-343. "[Kuva Ayanga (Atmosphere)](/w/Kuva_Ayanga_(Atmosphere)?action=edit&redlink=1 "Kuva Ayanga (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-344. "[Kuva Brakk](/w/Kuva_Brakk "Kuva Brakk")" contains an unsupported key `GripType`
-345. "[Kuva Bramma](/w/Kuva_Bramma "Kuva Bramma")" contains an unsupported key `GripType`
-346. "[Kuva Chakkhurr](/w/Kuva_Chakkhurr "Kuva Chakkhurr")" contains an unsupported key `GripType`
-347. "[Kuva Drakgoon](/w/Kuva_Drakgoon "Kuva Drakgoon")" contains an unsupported key `GripType`
-348. "[Kuva Ghoulsaw](/w/Kuva_Ghoulsaw "Kuva Ghoulsaw")" contains an unsupported key `GripType`
-349. "[Kuva Grattler](/w/Kuva_Grattler "Kuva Grattler")" contains an unsupported key `GripType`
-350. "[Kuva Grattler (Atmosphere)](/w/Kuva_Grattler_(Atmosphere)?action=edit&redlink=1 "Kuva Grattler (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-351. "[Kuva Hek](/w/Kuva_Hek "Kuva Hek")" contains an unsupported key `GripType`
-352. "[Kuva Hind](/w/Kuva_Hind "Kuva Hind")" contains an unsupported key `GripType`
-353. "[Kuva Karak](/w/Kuva_Karak "Kuva Karak")" contains an unsupported key `GripType`
-354. "[Kuva Kohm](/w/Kuva_Kohm "Kuva Kohm")" contains an unsupported key `GripType`
-355. "[Kuva Kraken](/w/Kuva_Kraken "Kuva Kraken")" contains an unsupported key `GripType`
-356. "[Kuva Nukor](/w/Kuva_Nukor "Kuva Nukor")" contains an unsupported key `GripType`
-357. "[Kuva Ogris](/w/Kuva_Ogris "Kuva Ogris")" contains an unsupported key `GripType`
-358. "[Kuva Quartakk](/w/Kuva_Quartakk "Kuva Quartakk")" contains an unsupported key `GripType`
-359. "[Kuva Seer](/w/Kuva_Seer "Kuva Seer")" contains an unsupported key `GripType`
-360. "[Kuva Shildeg](/w/Kuva_Shildeg "Kuva Shildeg")" contains an unsupported key `GripType`
-361. "[Kuva Sobek](/w/Kuva_Sobek "Kuva Sobek")" contains an unsupported key `GripType`
-362. "[Kuva Tonkor](/w/Kuva_Tonkor "Kuva Tonkor")" contains an unsupported key `GripType`
-363. "[Kuva Twin Stubbas](/w/Kuva_Twin_Stubbas "Kuva Twin Stubbas")" contains an unsupported key `GripType`
-364. "[Kuva Zarr](/w/Kuva_Zarr "Kuva Zarr")" contains an unsupported key `GripType`
-365. "[Lacera](/w/Lacera "Lacera")" contains an unsupported key `GripType`
-366. "[Laetum](/w/Laetum "Laetum")" contains an unsupported key `IncarnonChargeGain`
-367. "[Laetum](/w/Laetum "Laetum")" contains an unsupported key `GripType`
-368. "[Landslide Fists](/w/Landslide_Fists "Landslide Fists")" contains an unsupported key `GripType`
-369. "[Landslide Fists Prime](/w/Landslide_Fists_Prime "Landslide Fists Prime")" contains an unsupported key `GripType`
-370. "[Lanka](/w/Lanka "Lanka")" contains an unsupported key `GripType`
-371. "[Larkspur](/w/Larkspur "Larkspur")" contains an unsupported key `GripType`
-372. "[Larkspur (Atmosphere)](/w/Larkspur_(Atmosphere)?action=edit&redlink=1 "Larkspur (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-373. "[Larkspur Prime](/w/Larkspur_Prime "Larkspur Prime")" contains an unsupported key `GripType`
-374. "[Larkspur Prime (Atmosphere)](/w/Larkspur_Prime_(Atmosphere)?action=edit&redlink=1 "Larkspur Prime (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-375. "[Lato](/w/Lato "Lato")" contains an unsupported key `IncarnonChargeGain`
-376. "[Lato](/w/Lato "Lato")" contains an unsupported key `GripType`
-377. "[Lato Prime](/w/Lato_Prime "Lato Prime")" contains an unsupported key `IncarnonChargeGain`
-378. "[Lato Prime](/w/Lato_Prime "Lato Prime")" contains an unsupported key `GripType`
-379. "[Lato Vandal](/w/Lato_Vandal "Lato Vandal")" contains an unsupported key `IncarnonChargeGain`
-380. "[Lato Vandal](/w/Lato_Vandal "Lato Vandal")" contains an unsupported key `GripType`
-381. "[Latron](/w/Latron "Latron")" contains an unsupported key `IncarnonChargeGain`
-382. "[Latron](/w/Latron "Latron")" contains an unsupported key `GripType`
-383. "[Latron Prime](/w/Latron_Prime "Latron Prime")" contains an unsupported key `IncarnonChargeGain`
-384. "[Latron Prime](/w/Latron_Prime "Latron Prime")" contains an unsupported key `GripType`
-385. "[Latron Wraith](/w/Latron_Wraith "Latron Wraith")" contains an unsupported key `IncarnonChargeGain`
-386. "[Latron Wraith](/w/Latron_Wraith "Latron Wraith")" contains an unsupported key `GripType`
-387. "[Lecta](/w/Lecta "Lecta")" contains an unsupported key `GripType`
-388. "[Lenz](/w/Lenz "Lenz")" contains an unsupported key `GripType`
-389. "[Lesion](/w/Lesion "Lesion")" contains an unsupported key `GripType`
-390. "[Lex](/w/Lex "Lex")" contains an unsupported key `IncarnonChargeGain`
-391. "[Lex](/w/Lex "Lex")" contains an unsupported key `GripType`
-392. "[Lex Prime](/w/Lex_Prime "Lex Prime")" contains an unsupported key `IncarnonChargeGain`
-393. "[Lex Prime](/w/Lex_Prime "Lex Prime")" contains an unsupported key `GripType`
-394. "[Lizzie](/w/Lizzie "Lizzie")" contains an unsupported key `GripType`
-395. "[Machete](/w/Machete "Machete")" contains an unsupported key `GripType`
-396. "[Machete Wraith](/w/Machete_Wraith "Machete Wraith")" contains an unsupported key `GripType`
-397. "[Magistar](/w/Magistar "Magistar")" contains an unsupported key `GripType`
-398. "[Magistar](/w/Magistar "Magistar")" contains an unsupported key `IncarnonDuration`
-399. "[Magnus](/w/Magnus "Magnus")" contains an unsupported key `GripType`
-400. "[Magnus Prime](/w/Magnus_Prime "Magnus Prime")" contains an unsupported key `GripType`
-401. "[Mandonel](/w/Mandonel "Mandonel")" contains an unsupported key `GripType`
-402. "[Mandonel (Atmosphere)](/w/Mandonel_(Atmosphere)?action=edit&redlink=1 "Mandonel (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-403. "[Mara Detron](/w/Mara_Detron "Mara Detron")" contains an unsupported key `GripType`
-404. "[Marelok](/w/Marelok "Marelok")" contains an unsupported key `GripType`
-405. "[Masseter](/w/Masseter "Masseter")" contains an unsupported key `GripType`
-406. "[Masseter Prime](/w/Masseter_Prime "Masseter Prime")" contains an unsupported key `GripType`
-407. "[Mausolon](/w/Mausolon "Mausolon")" contains an unsupported key `GripType`
-408. "[Mausolon (Atmosphere)](/w/Mausolon_(Atmosphere)?action=edit&redlink=1 "Mausolon (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-409. "[Mios](/w/Mios "Mios")" contains an unsupported key `GripType`
-410. "[Mire](/w/Mire "Mire")" contains an unsupported key `GripType`
-411. "[Miter](/w/Miter "Miter")" contains an unsupported key `IncarnonChargeGain`
-412. "[Miter](/w/Miter "Miter")" contains an unsupported key `GripType`
-413. "[Mk1-Bo](/w/Mk1-Bo "Mk1-Bo")" contains an unsupported key `GripType`
-414. "[Mk1-Bo](/w/Mk1-Bo "Mk1-Bo")" contains an unsupported key `IncarnonDuration`
-415. "[Mk1-Braton](/w/Mk1-Braton "Mk1-Braton")" contains an unsupported key `IncarnonChargeGain`
-416. "[Mk1-Braton](/w/Mk1-Braton "Mk1-Braton")" contains an unsupported key `GripType`
-417. "[Mk1-Furax](/w/Mk1-Furax "Mk1-Furax")" contains an unsupported key `GripType`
-418. "[Mk1-Furax](/w/Mk1-Furax "Mk1-Furax")" contains an unsupported key `IncarnonDuration`
-419. "[Mk1-Furis](/w/Mk1-Furis "Mk1-Furis")" contains an unsupported key `IncarnonChargeGain`
-420. "[Mk1-Furis](/w/Mk1-Furis "Mk1-Furis")" contains an unsupported key `GripType`
-421. "[Mk1-Kunai](/w/Mk1-Kunai "Mk1-Kunai")" contains an unsupported key `IncarnonChargeGain`
-422. "[Mk1-Kunai](/w/Mk1-Kunai "Mk1-Kunai")" contains an unsupported key `GripType`
-423. "[Mk1-Paris](/w/Mk1-Paris "Mk1-Paris")" contains an unsupported key `IncarnonChargeGain`
-424. "[Mk1-Paris](/w/Mk1-Paris "Mk1-Paris")" contains an unsupported key `GripType`
-425. "[Mk1-Strun](/w/Mk1-Strun "Mk1-Strun")" contains an unsupported key `IncarnonChargeGain`
-426. "[Mk1-Strun](/w/Mk1-Strun "Mk1-Strun")" contains an unsupported key `GripType`
-427. "[Morgha](/w/Morgha "Morgha")" contains an unsupported key `GripType`
-428. "[Morgha (Atmosphere)](/w/Morgha_(Atmosphere)?action=edit&redlink=1 "Morgha (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-429. "[Mutalist Cernos](/w/Mutalist_Cernos "Mutalist Cernos")" contains an unsupported key `GripType`
-430. "[Mutalist Quanta](/w/Mutalist_Quanta "Mutalist Quanta")" contains an unsupported key `GripType`
-431. "[Nagantaka](/w/Nagantaka "Nagantaka")" contains an unsupported key `GripType`
-432. "[Nagantaka Prime](/w/Nagantaka_Prime "Nagantaka Prime")" contains an unsupported key `GripType`
-433. "[Nami Skyla](/w/Nami_Skyla "Nami Skyla")" contains an unsupported key `GripType`
-434. "[Nami Skyla Prime](/w/Nami_Skyla_Prime "Nami Skyla Prime")" contains an unsupported key `GripType`
-435. "[Nami Solo](/w/Nami_Solo "Nami Solo")" contains an unsupported key `GripType`
-436. "[Nami Solo](/w/Nami_Solo "Nami Solo")" contains an unsupported key `IncarnonDuration`
-437. "[Nataruk](/w/Nataruk "Nataruk")" contains an unsupported key `GripType`
-438. "[Nepheri](/w/Nepheri "Nepheri")" contains an unsupported key `GripType`
-439. "[Neutralizer](/w/Neutralizer "Neutralizer")" contains an unsupported key `GripType`
-440. "[Nikana](/w/Nikana "Nikana")" contains an unsupported key `GripType`
-441. "[Nikana Prime](/w/Nikana_Prime "Nikana Prime")" contains an unsupported key `GripType`
-442. "[Ninkondi](/w/Ninkondi "Ninkondi")" contains an unsupported key `GripType`
-443. "[Ninkondi Prime](/w/Ninkondi_Prime "Ninkondi Prime")" contains an unsupported key `GripType`
-444. "[Noctua](/w/Noctua "Noctua")" contains an unsupported key `GripType`
-445. "[Nukor](/w/Nukor "Nukor")" contains an unsupported key `GripType`
-446. "[Nunchasa](/w/Nunchasa "Nunchasa")" contains an unsupported key `GripType`
-447. "[Obex](/w/Obex "Obex")" contains an unsupported key `GripType`
-448. "[Obex](/w/Obex "Obex")" contains an unsupported key `IncarnonDuration`
-449. "[Ocucor](/w/Ocucor "Ocucor")" contains an unsupported key `GripType`
-450. "[Ogris](/w/Ogris "Ogris")" contains an unsupported key `GripType`
-451. "[Ohma](/w/Ohma "Ohma")" contains an unsupported key `GripType`
-452. "[Okina](/w/Okina "Okina")" contains an unsupported key `GripType`
-453. "[Okina](/w/Okina "Okina")" contains an unsupported key `IncarnonDuration`
-454. "[Okina Prime](/w/Okina_Prime "Okina Prime")" contains an unsupported key `GripType`
-455. "[Okina Prime](/w/Okina_Prime "Okina Prime")" contains an unsupported key `IncarnonDuration`
-456. "[Onorix](/w/Onorix "Onorix")" contains an unsupported key `GripType`
-457. "[Onos](/w/Onos "Onos")" contains an unsupported key `IncarnonChargeGain`
-458. "[Onos](/w/Onos "Onos")" contains an unsupported key `GripType`
-459. "[Opticor](/w/Opticor "Opticor")" contains an unsupported key `GripType`
-460. "[Opticor Vandal](/w/Opticor_Vandal "Opticor Vandal")" contains an unsupported key `GripType`
-461. "[Orthos](/w/Orthos "Orthos")" contains an unsupported key `GripType`
-462. "[Orthos Prime](/w/Orthos_Prime "Orthos Prime")" contains an unsupported key `GripType`
-463. "[Orvius](/w/Orvius "Orvius")" contains an unsupported key `GripType`
-464. "[Pandero](/w/Pandero "Pandero")" contains an unsupported key `GripType`
-465. "[Pandero Prime](/w/Pandero_Prime "Pandero Prime")" contains an unsupported key `GripType`
-466. "[Pangolin Prime](/w/Pangolin_Prime "Pangolin Prime")" contains an unsupported key `GripType`
-467. "[Pangolin Sword](/w/Pangolin_Sword "Pangolin Sword")" contains an unsupported key `GripType`
-468. "[Panthera](/w/Panthera "Panthera")" contains an unsupported key `GripType`
-469. "[Panthera Prime](/w/Panthera_Prime "Panthera Prime")" contains an unsupported key `GripType`
-470. "[Paracesis](/w/Paracesis "Paracesis")" contains an unsupported key `GripType`
-471. "[Paracyst](/w/Paracyst "Paracyst")" contains an unsupported key `GripType`
-472. "[Paris](/w/Paris "Paris")" contains an unsupported key `IncarnonChargeGain`
-473. "[Paris](/w/Paris "Paris")" contains an unsupported key `GripType`
-474. "[Paris Prime](/w/Paris_Prime "Paris Prime")" contains an unsupported key `IncarnonChargeGain`
-475. "[Paris Prime](/w/Paris_Prime "Paris Prime")" contains an unsupported key `GripType`
-476. "[Pathocyst](/w/Pathocyst "Pathocyst")" contains an unsupported key `GripType`
-477. "[Pennant](/w/Pennant "Pennant")" contains an unsupported key `GripType`
-478. "[Penta](/w/Penta "Penta")" contains an unsupported key `GripType`
-479. "[Perigale](/w/Perigale "Perigale")" contains an unsupported key `GripType`
-480. "[Perigale Prime](/w/Perigale_Prime "Perigale Prime")" contains an unsupported key `GripType`
-481. "[Phaedra](/w/Phaedra "Phaedra")" contains an unsupported key `GripType`
-482. "[Phaedra (Atmosphere)](/w/Phaedra_(Atmosphere)?action=edit&redlink=1 "Phaedra (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-483. "[Phage](/w/Phage "Phage")" contains an unsupported key `GripType`
-484. "[Phantasma](/w/Phantasma "Phantasma")" contains an unsupported key `GripType`
-485. "[Phantasma Prime](/w/Phantasma_Prime "Phantasma Prime")" contains an unsupported key `GripType`
-486. "[Phenmor](/w/Phenmor "Phenmor")" contains an unsupported key `IncarnonChargeGain`
-487. "[Phenmor](/w/Phenmor "Phenmor")" contains an unsupported key `GripType`
-488. "[Plasma Sword](/w/Plasma_Sword "Plasma Sword")" contains an unsupported key `GripType`
-489. "[Plinx](/w/Plinx "Plinx")" contains an unsupported key `GripType`
-490. "[Pox](/w/Pox "Pox")" contains an unsupported key `GripType`
-491. "[Praedos](/w/Praedos "Praedos")" contains an unsupported key `GripType`
-492. "[Pride](/w/Pride "Pride")" contains an unsupported key `GripType`
-493. "[Prisma Angstrum](/w/Prisma_Angstrum "Prisma Angstrum")" contains an unsupported key `IncarnonChargeGain`
-494. "[Prisma Angstrum](/w/Prisma_Angstrum "Prisma Angstrum")" contains an unsupported key `GripType`
-495. "[Prisma Dual Cleavers](/w/Prisma_Dual_Cleavers "Prisma Dual Cleavers")" contains an unsupported key `GripType`
-496. "[Prisma Dual Decurions](/w/Prisma_Dual_Decurions "Prisma Dual Decurions")" contains an unsupported key `GripType`
-497. "[Prisma Dual Decurions (Atmosphere)](/w/Prisma_Dual_Decurions_(Atmosphere)?action=edit&redlink=1 "Prisma Dual Decurions (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-498. "[Prisma Gorgon](/w/Prisma_Gorgon "Prisma Gorgon")" contains an unsupported key `IncarnonChargeGain`
-499. "[Prisma Gorgon](/w/Prisma_Gorgon "Prisma Gorgon")" contains an unsupported key `GripType`
-500. "[Prisma Grakata](/w/Prisma_Grakata "Prisma Grakata")" contains an unsupported key `GripType`
-501. "[Prisma Grinlok](/w/Prisma_Grinlok "Prisma Grinlok")" contains an unsupported key `GripType`
-502. "[Prisma Lenz](/w/Prisma_Lenz "Prisma Lenz")" contains an unsupported key `GripType`
-503. "[Prisma Machete](/w/Prisma_Machete "Prisma Machete")" contains an unsupported key `GripType`
-504. "[Prisma Obex](/w/Prisma_Obex "Prisma Obex")" contains an unsupported key `GripType`
-505. "[Prisma Obex](/w/Prisma_Obex "Prisma Obex")" contains an unsupported key `IncarnonDuration`
-506. "[Prisma Ohma](/w/Prisma_Ohma "Prisma Ohma")" contains an unsupported key `GripType`
-507. "[Prisma Skana](/w/Prisma_Skana "Prisma Skana")" contains an unsupported key `GripType`
-508. "[Prisma Skana](/w/Prisma_Skana "Prisma Skana")" contains an unsupported key `IncarnonDuration`
-509. "[Prisma Tetra](/w/Prisma_Tetra "Prisma Tetra")" contains an unsupported key `GripType`
-510. "[Prisma Twin Gremlins](/w/Prisma_Twin_Gremlins "Prisma Twin Gremlins")" contains an unsupported key `GripType`
-511. "[Prisma Veritux](/w/Prisma_Veritux "Prisma Veritux")" contains an unsupported key `GripType`
-512. "[Proboscis Cernos](/w/Proboscis_Cernos "Proboscis Cernos")" contains an unsupported key `GripType`
-513. "[Prova](/w/Prova "Prova")" contains an unsupported key `GripType`
-514. "[Prova Vandal](/w/Prova_Vandal "Prova Vandal")" contains an unsupported key `GripType`
-515. "[Pulmonars](/w/Pulmonars "Pulmonars")" contains an unsupported key `GripType`
-516. "[Pupacyst](/w/Pupacyst "Pupacyst")" contains an unsupported key `GripType`
-517. "[Purgator 1](/w/Purgator_1 "Purgator 1")" contains an unsupported key `GripType`
-518. "[Pyrana](/w/Pyrana "Pyrana")" contains an unsupported key `GripType`
-519. "[Pyrana Prime](/w/Pyrana_Prime "Pyrana Prime")" contains an unsupported key `GripType`
-520. "[Quanta](/w/Quanta "Quanta")" contains an unsupported key `GripType`
-521. "[Quanta Vandal](/w/Quanta_Vandal "Quanta Vandal")" contains an unsupported key `GripType`
-522. "[Quartakk](/w/Quartakk "Quartakk")" contains an unsupported key `GripType`
-523. "[Quassus](/w/Quassus "Quassus")" contains an unsupported key `GripType`
-524. "[Quassus Prime](/w/Quassus_Prime "Quassus Prime")" contains an unsupported key `GripType`
-525. "[Quatz](/w/Quatz "Quatz")" contains an unsupported key `GripType`
-526. "[Quellor](/w/Quellor "Quellor")" contains an unsupported key `GripType`
-527. "[Rakta Ballistica](/w/Rakta_Ballistica "Rakta Ballistica")" contains an unsupported key `IncarnonChargeGain`
-528. "[Rakta Ballistica](/w/Rakta_Ballistica "Rakta Ballistica")" contains an unsupported key `GripType`
-529. "[Rakta Cernos](/w/Rakta_Cernos "Rakta Cernos")" contains an unsupported key `GripType`
-530. "[Rakta Dark Dagger](/w/Rakta_Dark_Dagger "Rakta Dark Dagger")" contains an unsupported key `GripType`
-531. "[Rathbone](/w/Rathbone "Rathbone")" contains an unsupported key `GripType`
-532. "[Rauta](/w/Rauta "Rauta")" contains an unsupported key `GripType`
-533. "[Reaper Prime](/w/Reaper_Prime "Reaper Prime")" contains an unsupported key `GripType`
-534. "[Reconifex](/w/Reconifex "Reconifex")" contains an unsupported key `GripType`
-535. "[Redeemer](/w/Redeemer "Redeemer")" contains an unsupported key `GripType`
-536. "[Redeemer Prime](/w/Redeemer_Prime "Redeemer Prime")" contains an unsupported key `GripType`
-537. "[Regulators](/w/Regulators "Regulators")" contains an unsupported key `GripType`
-538. "[Regulators Prime](/w/Regulators_Prime "Regulators Prime")" contains an unsupported key `GripType`
-539. "[Riot-848](/w/Riot-848 "Riot-848")" contains an unsupported key `GripType`
-540. "[Ripkas](/w/Ripkas "Ripkas")" contains an unsupported key `GripType`
-541. "[Rubico](/w/Rubico "Rubico")" contains an unsupported key `GripType`
-542. "[Rubico Prime](/w/Rubico_Prime "Rubico Prime")" contains an unsupported key `GripType`
-543. "[Rumblejack](/w/Rumblejack "Rumblejack")" contains an unsupported key `GripType`
-544. "[Ruvox](/w/Ruvox "Ruvox")" contains an unsupported key `GripType`
-545. "[Sampotes](/w/Sampotes "Sampotes")" contains an unsupported key `GripType`
-546. "[Sancti Castanas](/w/Sancti_Castanas "Sancti Castanas")" contains an unsupported key `GripType`
-547. "[Sancti Magistar](/w/Sancti_Magistar "Sancti Magistar")" contains an unsupported key `GripType`
-548. "[Sancti Magistar](/w/Sancti_Magistar "Sancti Magistar")" contains an unsupported key `IncarnonDuration`
-549. "[Sancti Tigris](/w/Sancti_Tigris "Sancti Tigris")" contains an unsupported key `GripType`
-550. "[Sarofang](/w/Sarofang "Sarofang")" contains an unsupported key `GripType`
-551. "[Sarofang Prime](/w/Sarofang_Prime "Sarofang Prime")" contains an unsupported key `GripType`
-552. "[Sarpa](/w/Sarpa "Sarpa")" contains an unsupported key `GripType`
-553. "[Scindo](/w/Scindo "Scindo")" contains an unsupported key `GripType`
-554. "[Scindo Prime](/w/Scindo_Prime "Scindo Prime")" contains an unsupported key `GripType`
-555. "[Scoliac](/w/Scoliac "Scoliac")" contains an unsupported key `GripType`
-556. "[Scourge](/w/Scourge "Scourge")" contains an unsupported key `GripType`
-557. "[Scourge Prime](/w/Scourge_Prime "Scourge Prime")" contains an unsupported key `GripType`
-558. "[Scyotid](/w/Scyotid "Scyotid")" contains an unsupported key `GripType`
-559. "[Secura Dual Cestra](/w/Secura_Dual_Cestra "Secura Dual Cestra")" contains an unsupported key `GripType`
-560. "[Secura Lecta](/w/Secura_Lecta "Secura Lecta")" contains an unsupported key `GripType`
-561. "[Secura Penta](/w/Secura_Penta "Secura Penta")" contains an unsupported key `GripType`
-562. "[Seer](/w/Seer "Seer")" contains an unsupported key `GripType`
-563. "[Sepulcrum](/w/Sepulcrum "Sepulcrum")" contains an unsupported key `GripType`
-564. "[Serro](/w/Serro "Serro")" contains an unsupported key `GripType`
-565. "[Shadow Claws](/w/Shadow_Claws "Shadow Claws")" contains an unsupported key `GripType`
-566. "[Shadow Claws Prime](/w/Shadow_Claws_Prime?action=edit&redlink=1 "Shadow Claws Prime (page does not exist)")" contains an unsupported key `GripType`
-567. "[Shadow Clones](/w/Shadow_Clones "Shadow Clones")" contains an unsupported key `GripType`
-568. "[Shadow Clones Prime](/w/Shadow_Clones_Prime?action=edit&redlink=1 "Shadow Clones Prime (page does not exist)")" contains an unsupported key `GripType`
-569. "[Shaku](/w/Shaku "Shaku")" contains an unsupported key `GripType`
-570. "[Shattered Lash](/w/Shattered_Lash "Shattered Lash")" contains an unsupported key `GripType`
-571. "[Shattered Lash Prime](/w/Shattered_Lash_Prime?action=edit&redlink=1 "Shattered Lash Prime (page does not exist)")" contains an unsupported key `GripType`
-572. "[Shedu](/w/Shedu "Shedu")" contains an unsupported key `GripType`
-573. "[Sheev](/w/Sheev "Sheev")" contains an unsupported key `GripType`
-574. "[Sibear](/w/Sibear "Sibear")" contains an unsupported key `GripType`
-575. "[Sibear](/w/Sibear "Sibear")" contains an unsupported key `IncarnonDuration`
-576. "[Sicarus](/w/Sicarus "Sicarus")" contains an unsupported key `IncarnonChargeGain`
-577. "[Sicarus](/w/Sicarus "Sicarus")" contains an unsupported key `GripType`
-578. "[Sicarus Prime](/w/Sicarus_Prime "Sicarus Prime")" contains an unsupported key `IncarnonChargeGain`
-579. "[Sicarus Prime](/w/Sicarus_Prime "Sicarus Prime")" contains an unsupported key `GripType`
-580. "[Sigma & Octantis](/w/Sigma_%26_Octantis "Sigma & Octantis")" contains an unsupported key `GripType`
-581. "[Silva & Aegis](/w/Silva_%26_Aegis "Silva & Aegis")" contains an unsupported key `GripType`
-582. "[Silva & Aegis Prime](/w/Silva_%26_Aegis_Prime "Silva & Aegis Prime")" contains an unsupported key `GripType`
-583. "[Simulor](/w/Simulor "Simulor")" contains an unsupported key `GripType`
-584. "[Skana](/w/Skana "Skana")" contains an unsupported key `GripType`
-585. "[Skana](/w/Skana "Skana")" contains an unsupported key `IncarnonDuration`
-586. "[Skana Prime](/w/Skana_Prime "Skana Prime")" contains an unsupported key `GripType`
-587. "[Skana Prime](/w/Skana_Prime "Skana Prime")" contains an unsupported key `IncarnonDuration`
-588. "[Skiajati](/w/Skiajati "Skiajati")" contains an unsupported key `GripType`
-589. "[Slaytra](/w/Slaytra "Slaytra")" contains an unsupported key `GripType`
-590. "[Snipetron](/w/Snipetron "Snipetron")" contains an unsupported key `GripType`
-591. "[Snipetron Vandal](/w/Snipetron_Vandal "Snipetron Vandal")" contains an unsupported key `GripType`
-592. "[Sobek](/w/Sobek "Sobek")" contains an unsupported key `GripType`
-593. "[Soma](/w/Soma "Soma")" contains an unsupported key `IncarnonChargeGain`
-594. "[Soma](/w/Soma "Soma")" contains an unsupported key `GripType`
-595. "[Soma Prime](/w/Soma_Prime "Soma Prime")" contains an unsupported key `IncarnonChargeGain`
-596. "[Soma Prime](/w/Soma_Prime "Soma Prime")" contains an unsupported key `GripType`
-597. "[Sonicor](/w/Sonicor "Sonicor")" contains an unsupported key `GripType`
-598. "[Spectra](/w/Spectra "Spectra")" contains an unsupported key `GripType`
-599. "[Spectra Vandal](/w/Spectra_Vandal "Spectra Vandal")" contains an unsupported key `GripType`
-600. "[Spinnerex](/w/Spinnerex "Spinnerex")" contains an unsupported key `GripType`
-601. "[Spira](/w/Spira "Spira")" contains an unsupported key `GripType`
-602. "[Spira Prime](/w/Spira_Prime "Spira Prime")" contains an unsupported key `GripType`
-603. "[Sporothrix](/w/Sporothrix "Sporothrix")" contains an unsupported key `GripType`
-604. "[Stahlta](/w/Stahlta "Stahlta")" contains an unsupported key `GripType`
-605. "[Staticor](/w/Staticor "Staticor")" contains an unsupported key `GripType`
-606. "[Steflos](/w/Steflos "Steflos")" contains an unsupported key `GripType`
-607. "[Steflos Prime](/w/Steflos_Prime "Steflos Prime")" contains an unsupported key `GripType`
-608. "[Stradavar](/w/Stradavar "Stradavar")" contains an unsupported key `GripType`
-609. "[Stradavar Prime](/w/Stradavar_Prime "Stradavar Prime")" contains an unsupported key `GripType`
-610. "[Stropha](/w/Stropha "Stropha")" contains an unsupported key `GripType`
-611. "[Strun](/w/Strun "Strun")" contains an unsupported key `IncarnonChargeGain`
-612. "[Strun](/w/Strun "Strun")" contains an unsupported key `GripType`
-613. "[Strun Prime](/w/Strun_Prime "Strun Prime")" contains an unsupported key `IncarnonChargeGain`
-614. "[Strun Prime](/w/Strun_Prime "Strun Prime")" contains an unsupported key `GripType`
-615. "[Strun Wraith](/w/Strun_Wraith "Strun Wraith")" contains an unsupported key `IncarnonChargeGain`
-616. "[Strun Wraith](/w/Strun_Wraith "Strun Wraith")" contains an unsupported key `GripType`
-617. "[Stubba](/w/Stubba "Stubba")" contains an unsupported key `GripType`
-618. "[Stug](/w/Stug "Stug")" contains an unsupported key `GripType`
-619. "[Sun & Moon](/w/Sun_%26_Moon "Sun & Moon")" contains an unsupported key `GripType`
-620. "[Supra](/w/Supra "Supra")" contains an unsupported key `GripType`
-621. "[Supra Vandal](/w/Supra_Vandal "Supra Vandal")" contains an unsupported key `GripType`
-622. "[Syam](/w/Syam "Syam")" contains an unsupported key `GripType`
-623. "[Sybaris](/w/Sybaris "Sybaris")" contains an unsupported key `IncarnonChargeGain`
-624. "[Sybaris](/w/Sybaris "Sybaris")" contains an unsupported key `GripType`
-625. "[Sybaris Prime](/w/Sybaris_Prime "Sybaris Prime")" contains an unsupported key `IncarnonChargeGain`
-626. "[Sybaris Prime](/w/Sybaris_Prime "Sybaris Prime")" contains an unsupported key `GripType`
-627. "[Sydon](/w/Sydon "Sydon")" contains an unsupported key `GripType`
-628. "[Synapse](/w/Synapse "Synapse")" contains an unsupported key `GripType`
-629. "[Synoid Gammacor](/w/Synoid_Gammacor "Synoid Gammacor")" contains an unsupported key `IncarnonChargeGain`
-630. "[Synoid Gammacor](/w/Synoid_Gammacor "Synoid Gammacor")" contains an unsupported key `GripType`
-631. "[Synoid Heliocor](/w/Synoid_Heliocor "Synoid Heliocor")" contains an unsupported key `GripType`
-632. "[Synoid Simulor](/w/Synoid_Simulor "Synoid Simulor")" contains an unsupported key `GripType`
-633. "[Tak & Lug](/w/Tak_%26_Lug "Tak & Lug")" contains an unsupported key `GripType`
-634. "[Talons](/w/Talons "Talons")" contains an unsupported key `GripType`
-635. "[Tatsu](/w/Tatsu "Tatsu")" contains an unsupported key `GripType`
-636. "[Tatsu Prime](/w/Tatsu_Prime "Tatsu Prime")" contains an unsupported key `GripType`
-637. "[Tekko](/w/Tekko "Tekko")" contains an unsupported key `GripType`
-638. "[Tekko Prime](/w/Tekko_Prime "Tekko Prime")" contains an unsupported key `GripType`
-639. "[Telos Akbolto](/w/Telos_Akbolto "Telos Akbolto")" contains an unsupported key `GripType`
-640. "[Telos Boltace](/w/Telos_Boltace "Telos Boltace")" contains an unsupported key `GripType`
-641. "[Telos Boltor](/w/Telos_Boltor "Telos Boltor")" contains an unsupported key `IncarnonChargeGain`
-642. "[Telos Boltor](/w/Telos_Boltor "Telos Boltor")" contains an unsupported key `GripType`
-643. "[Tenet Agendus](/w/Tenet_Agendus "Tenet Agendus")" contains an unsupported key `GripType`
-644. "[Tenet Arca Plasmor](/w/Tenet_Arca_Plasmor "Tenet Arca Plasmor")" contains an unsupported key `GripType`
-645. "[Tenet Cycron](/w/Tenet_Cycron "Tenet Cycron")" contains an unsupported key `GripType`
-646. "[Tenet Detron](/w/Tenet_Detron "Tenet Detron")" contains an unsupported key `GripType`
-647. "[Tenet Diplos](/w/Tenet_Diplos "Tenet Diplos")" contains an unsupported key `GripType`
-648. "[Tenet Envoy](/w/Tenet_Envoy "Tenet Envoy")" contains an unsupported key `GripType`
-649. "[Tenet Exec](/w/Tenet_Exec "Tenet Exec")" contains an unsupported key `GripType`
-650. "[Tenet Ferrox](/w/Tenet_Ferrox "Tenet Ferrox")" contains an unsupported key `GripType`
-651. "[Tenet Flux Rifle](/w/Tenet_Flux_Rifle "Tenet Flux Rifle")" contains an unsupported key `GripType`
-652. "[Tenet Glaxion](/w/Tenet_Glaxion "Tenet Glaxion")" contains an unsupported key `GripType`
-653. "[Tenet Grigori](/w/Tenet_Grigori "Tenet Grigori")" contains an unsupported key `GripType`
-654. "[Tenet Livia](/w/Tenet_Livia "Tenet Livia")" contains an unsupported key `GripType`
-655. "[Tenet Plinx](/w/Tenet_Plinx "Tenet Plinx")" contains an unsupported key `GripType`
-656. "[Tenet Quanta](/w/Tenet_Quanta "Tenet Quanta")" contains an unsupported key `GripType`
-657. "[Tenet Spirex](/w/Tenet_Spirex "Tenet Spirex")" contains an unsupported key `GripType`
-658. "[Tenet Tetra](/w/Tenet_Tetra "Tenet Tetra")" contains an unsupported key `GripType`
-659. "[Tenora](/w/Tenora "Tenora")" contains an unsupported key `GripType`
-660. "[Tenora Prime](/w/Tenora_Prime "Tenora Prime")" contains an unsupported key `GripType`
-661. "[Tetra](/w/Tetra "Tetra")" contains an unsupported key `GripType`
-662. "[Thalys](/w/Thalys "Thalys")" contains an unsupported key `GripType`
-663. "[Thornbak](/w/Thornbak "Thornbak")" contains an unsupported key `GripType`
-664. "[Tiberon](/w/Tiberon "Tiberon")" contains an unsupported key `GripType`
-665. "[Tiberon Prime](/w/Tiberon_Prime "Tiberon Prime")" contains an unsupported key `GripType`
-666. "[Tigris](/w/Tigris "Tigris")" contains an unsupported key `GripType`
-667. "[Tigris Prime](/w/Tigris_Prime "Tigris Prime")" contains an unsupported key `GripType`
-668. "[Tipedo](/w/Tipedo "Tipedo")" contains an unsupported key `GripType`
-669. "[Tipedo Prime](/w/Tipedo_Prime "Tipedo Prime")" contains an unsupported key `GripType`
-670. "[Tonbo](/w/Tonbo "Tonbo")" contains an unsupported key `GripType`
-671. "[Tonkkatt](/w/Tonkkatt "Tonkkatt")" contains an unsupported key `GripType`
-672. "[Tonkor](/w/Tonkor "Tonkor")" contains an unsupported key `GripType`
-673. "[Torid](/w/Torid "Torid")" contains an unsupported key `IncarnonChargeGain`
-674. "[Torid](/w/Torid "Torid")" contains an unsupported key `GripType`
-675. "[Trumna](/w/Trumna "Trumna")" contains an unsupported key `GripType`
-676. "[Trumna Prime](/w/Trumna_Prime "Trumna Prime")" contains an unsupported key `GripType`
-677. "[Twin Basolk](/w/Twin_Basolk "Twin Basolk")" contains an unsupported key `GripType`
-678. "[Twin Grakatas](/w/Twin_Grakatas "Twin Grakatas")" contains an unsupported key `GripType`
-679. "[Twin Gremlins](/w/Twin_Gremlins "Twin Gremlins")" contains an unsupported key `GripType`
-680. "[Twin Kohmak](/w/Twin_Kohmak "Twin Kohmak")" contains an unsupported key `GripType`
-681. "[Twin Krohkur](/w/Twin_Krohkur "Twin Krohkur")" contains an unsupported key `GripType`
-682. "[Twin Rogga](/w/Twin_Rogga "Twin Rogga")" contains an unsupported key `GripType`
-683. "[Twin Vipers](/w/Twin_Vipers "Twin Vipers")" contains an unsupported key `GripType`
-684. "[Twin Vipers Wraith](/w/Twin_Vipers_Wraith "Twin Vipers Wraith")" contains an unsupported key `GripType`
-685. "[Tysis](/w/Tysis "Tysis")" contains an unsupported key `GripType`
-686. "[Vadarya Prime](/w/Vadarya_Prime "Vadarya Prime")" contains an unsupported key `GripType`
-687. "[Valkyr Prime Talons](/w/Valkyr_Prime_Talons "Valkyr Prime Talons")" contains an unsupported key `GripType`
-688. "[Valkyr Talons](/w/Valkyr_Talons "Valkyr Talons")" contains an unsupported key `GripType`
-689. "[Vastilok](/w/Vastilok "Vastilok")" contains an unsupported key `GripType`
-690. "[Vasto](/w/Vasto "Vasto")" contains an unsupported key `IncarnonChargeGain`
-691. "[Vasto](/w/Vasto "Vasto")" contains an unsupported key `GripType`
-692. "[Vasto Prime](/w/Vasto_Prime "Vasto Prime")" contains an unsupported key `IncarnonChargeGain`
-693. "[Vasto Prime](/w/Vasto_Prime "Vasto Prime")" contains an unsupported key `GripType`
-694. "[Vaykor Hek](/w/Vaykor_Hek "Vaykor Hek")" contains an unsupported key `GripType`
-695. "[Vaykor Marelok](/w/Vaykor_Marelok "Vaykor Marelok")" contains an unsupported key `GripType`
-696. "[Vaykor Sydon](/w/Vaykor_Sydon "Vaykor Sydon")" contains an unsupported key `GripType`
-697. "[Vectis](/w/Vectis "Vectis")" contains an unsupported key `IncarnonChargeGain`
-698. "[Vectis](/w/Vectis "Vectis")" contains an unsupported key `GripType`
-699. "[Vectis Prime](/w/Vectis_Prime "Vectis Prime")" contains an unsupported key `IncarnonChargeGain`
-700. "[Vectis Prime](/w/Vectis_Prime "Vectis Prime")" contains an unsupported key `GripType`
-701. "[Veldt](/w/Veldt "Veldt")" contains an unsupported key `GripType`
-702. "[Velocitus](/w/Velocitus "Velocitus")" contains an unsupported key `GripType`
-703. "[Velocitus (Atmosphere)](/w/Velocitus_(Atmosphere)?action=edit&redlink=1 "Velocitus (Atmosphere) (page does not exist)")" contains an unsupported key `GripType`
-704. "[Velox](/w/Velox "Velox")" contains an unsupported key `GripType`
-705. "[Velox Prime](/w/Velox_Prime "Velox Prime")" contains an unsupported key `GripType`
-706. "[Venato](/w/Venato "Venato")" contains an unsupported key `GripType`
-707. "[Venato Prime](/w/Venato_Prime "Venato Prime")" contains an unsupported key `GripType`
-708. "[Venka](/w/Venka "Venka")" contains an unsupported key `GripType`
-709. "[Venka Prime](/w/Venka_Prime "Venka Prime")" contains an unsupported key `GripType`
-710. "[Verdilac](/w/Verdilac "Verdilac")" contains an unsupported key `GripType`
-711. "[Vericres](/w/Vericres "Vericres")" contains an unsupported key `GripType`
-712. "[Veritux](/w/Veritux "Veritux")" contains an unsupported key `GripType`
-713. "[Vesper 77](/w/Vesper_77 "Vesper 77")" contains an unsupported key `GripType`
-714. "[Vinquibus (Melee)](/w/Vinquibus_(Melee) "Vinquibus (Melee)")" contains an unsupported key `GripType`
-715. "[Vinquibus (Primary)](/w/Vinquibus_(Primary) "Vinquibus (Primary)")" contains an unsupported key `GripType`
-716. "[Viper](/w/Viper "Viper")" contains an unsupported key `GripType`
-717. "[Viper Wraith](/w/Viper_Wraith "Viper Wraith")" contains an unsupported key `GripType`
-718. "[Vitrica](/w/Vitrica "Vitrica")" contains an unsupported key `GripType`
-719. "[Volnus](/w/Volnus "Volnus")" contains an unsupported key `GripType`
-720. "[Volnus Prime](/w/Volnus_Prime "Volnus Prime")" contains an unsupported key `GripType`
-721. "[Vulkar](/w/Vulkar "Vulkar")" contains an unsupported key `GripType`
-722. "[Vulkar Wraith](/w/Vulkar_Wraith "Vulkar Wraith")" contains an unsupported key `GripType`
-723. "[War](/w/War "War")" contains an unsupported key `GripType`
-724. "[War Prime](/w/War_Prime "War Prime")" contains an unsupported key `GripType`
-725. "[Whipclaw](/w/Whipclaw "Whipclaw")" contains an unsupported key `GripType`
-726. "[Whipclaw Prime](/w/Whipclaw_Prime?action=edit&redlink=1 "Whipclaw Prime (page does not exist)")" contains an unsupported key `GripType`
-727. "[Wolf Sledge](/w/Wolf_Sledge "Wolf Sledge")" contains an unsupported key `GripType`
-728. "[Wrath](/w/Wrath "Wrath")" contains an unsupported key `GripType`
-729. "[Xoris](/w/Xoris "Xoris")" contains an unsupported key `GripType`
-730. "[Zakti](/w/Zakti "Zakti")" contains an unsupported key `GripType`
-731. "[Zakti Prime](/w/Zakti_Prime "Zakti Prime")" contains an unsupported key `GripType`
-732. "[Zarr](/w/Zarr "Zarr")" contains an unsupported key `GripType`
-733. "[Zenistar](/w/Zenistar "Zenistar")" contains an unsupported key `GripType`
-734. "[Zenith](/w/Zenith "Zenith")" contains an unsupported key `GripType`
-735. "[Zhuge](/w/Zhuge "Zhuge")" contains an unsupported key `GripType`
-736. "[Zhuge Prime](/w/Zhuge_Prime "Zhuge Prime")" contains an unsupported key `GripType`
-737. "[Zylok](/w/Zylok "Zylok")" contains an unsupported key `IncarnonChargeGain`
-738. "[Zylok](/w/Zylok "Zylok")" contains an unsupported key `GripType`
-739. "[Zylok Prime](/w/Zylok_Prime "Zylok Prime")" contains an unsupported key `IncarnonChargeGain`
-740. "[Zylok Prime](/w/Zylok_Prime "Zylok Prime")" contains an unsupported key `GripType`
-741. "[Zymos](/w/Zymos "Zymos")" contains an unsupported key `GripType`
+**p.validateDataTypes(frame): There are a total of 0 key-value errors**
 
 ### Checking missing keys
 
@@ -1435,455 +693,690 @@ Validate Attack tables")]
 [[edit](/w/Module:Weapons/data/doc?action=edit&section=T-15 "Edit Section using Source Editor:
 Validate required weapon table keys")]
 
-**p.validateRequiredKeys(frame): There are a total of 447 key-value errors**
+**p.validateRequiredKeys(frame): There are a total of 682 key-value errors**
 
 1. "[Adarza Claws](/w/Adarza_Claws?action=edit&redlink=1 "Adarza Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
 2. "[Adarza Claws](/w/Adarza_Claws?action=edit&redlink=1 "Adarza Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
-3. "[Adarza Claws](/w/Adarza_Claws?action=edit&redlink=1 "Adarza Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
-4. "[Adarza Claws](/w/Adarza_Claws?action=edit&redlink=1 "Adarza Claws (page does not exist)")" Magazine must be a value above 0
-5. "[Adarza Claws](/w/Adarza_Claws?action=edit&redlink=1 "Adarza Claws (page does not exist)")" Missing reload time or reload time has to be above 0
-6. "[Adarza Claws](/w/Adarza_Claws?action=edit&redlink=1 "Adarza Claws (page does not exist)")" Missing trigger type of weapon
-7. "[Amanata](/w/Amanata "Amanata")" Heavy attack must be greater than 0
-8. "[Apoc](/w/Apoc "Apoc")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
-9. "[Apoc Mk I](/w/Apoc_Mk_I "Apoc Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
-10. "[Apoc Mk II](/w/Apoc_Mk_II "Apoc Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
-11. "[Apoc Mk III](/w/Apoc_Mk_III "Apoc Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
-12. "[Arbucep (Atmosphere)](/w/Arbucep_(Atmosphere)?action=edit&redlink=1 "Arbucep (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Arbucep.png
-13. "[Artax](/w/Artax "Artax")" AmmoPickup must be a value greater than or equal to 0
-14. "[Burst Laser](/w/Burst_Laser "Burst Laser")" AmmoPickup must be a value greater than or equal to 0
-15. "[Burst Laser Prime](/w/Burst_Laser_Prime "Burst Laser Prime")" AmmoPickup must be a value greater than or equal to 0
-16. "[Cantic Prism](/w/Cantic_Prism "Cantic Prism")" AmmoPickup must be a value greater than or equal to 0
-17. "[Carcinnox](/w/Carcinnox "Carcinnox")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
-18. "[Carcinnox Mk I](/w/Carcinnox_Mk_I "Carcinnox Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
-19. "[Carcinnox Mk II](/w/Carcinnox_Mk_II "Carcinnox Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
-20. "[Carcinnox Mk III](/w/Carcinnox_Mk_III "Carcinnox Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
-21. "[Catchmoon (Primary)](/w/Catchmoon_(Primary) "Catchmoon (Primary)")" Image should be in the form of "WeaponName.png"; current value: Catchmoon.png
-22. "[Catchmoon (Primary)](/w/Catchmoon_(Primary) "Catchmoon (Primary)")" Magazine must be a value above 0
-23. "[Catchmoon (Primary)](/w/Catchmoon_(Primary) "Catchmoon (Primary)")" Missing reload time or reload time has to be above 0
-24. "[Catchmoon (Secondary)](/w/Catchmoon_(Secondary) "Catchmoon (Secondary)")" Image should be in the form of "WeaponName.png"; current value: Catchmoon.png
-25. "[Catchmoon (Secondary)](/w/Catchmoon_(Secondary) "Catchmoon (Secondary)")" Magazine must be a value above 0
-26. "[Catchmoon (Secondary)](/w/Catchmoon_(Secondary) "Catchmoon (Secondary)")" Missing reload time or reload time has to be above 0
-27. "[Cerata](/w/Cerata "Cerata")" Heavy attack must be greater than 0
-28. "[Chesa Claws](/w/Chesa_Claws?action=edit&redlink=1 "Chesa Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
-29. "[Chesa Claws](/w/Chesa_Claws?action=edit&redlink=1 "Chesa Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
-30. "[Chesa Claws](/w/Chesa_Claws?action=edit&redlink=1 "Chesa Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
-31. "[Chesa Claws](/w/Chesa_Claws?action=edit&redlink=1 "Chesa Claws (page does not exist)")" Magazine must be a value above 0
-32. "[Chesa Claws](/w/Chesa_Claws?action=edit&redlink=1 "Chesa Claws (page does not exist)")" Missing reload time or reload time has to be above 0
-33. "[Chesa Claws](/w/Chesa_Claws?action=edit&redlink=1 "Chesa Claws (page does not exist)")" Missing trigger type of weapon
-34. "[Coda Pathocyst](/w/Coda_Pathocyst "Coda Pathocyst")" Heavy attack must be greater than 0
-35. "[Cortege](/w/Cortege "Cortege")" AmmoPickup must be a value greater than or equal to 0
-36. "[Cortege (Atmosphere)](/w/Cortege_(Atmosphere)?action=edit&redlink=1 "Cortege (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Cortege.png
-37. "[Corvas](/w/Corvas "Corvas")" AmmoPickup must be a value greater than or equal to 0
-38. "[Corvas (Atmosphere)](/w/Corvas_(Atmosphere)?action=edit&redlink=1 "Corvas (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Corvas.png
-39. "[Corvas Prime](/w/Corvas_Prime "Corvas Prime")" AmmoPickup must be a value greater than or equal to 0
-40. "[Corvas Prime (Atmosphere)](/w/Corvas_Prime_(Atmosphere)?action=edit&redlink=1 "Corvas Prime (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: CorvasPrime.png
-41. "[Crescent Claws](/w/Crescent_Claws?action=edit&redlink=1 "Crescent Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
-42. "[Crescent Claws](/w/Crescent_Claws?action=edit&redlink=1 "Crescent Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
-43. "[Crescent Claws](/w/Crescent_Claws?action=edit&redlink=1 "Crescent Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
-44. "[Crescent Claws](/w/Crescent_Claws?action=edit&redlink=1 "Crescent Claws (page does not exist)")" Magazine must be a value above 0
-45. "[Crescent Claws](/w/Crescent_Claws?action=edit&redlink=1 "Crescent Claws (page does not exist)")" Missing reload time or reload time has to be above 0
-46. "[Crescent Claws](/w/Crescent_Claws?action=edit&redlink=1 "Crescent Claws (page does not exist)")" Missing trigger type of weapon
-47. "[Cryophon](/w/Cryophon "Cryophon")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
-48. "[Cryophon Mk I](/w/Cryophon_Mk_I "Cryophon Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
-49. "[Cryophon Mk II](/w/Cryophon_Mk_II "Cryophon Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
-50. "[Cryophon Mk III](/w/Cryophon_Mk_III "Cryophon Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
-51. "[Cryotra](/w/Cryotra "Cryotra")" AmmoPickup must be a value greater than or equal to 0
-52. "[Cyngas](/w/Cyngas "Cyngas")" AmmoPickup must be a value greater than or equal to 0
-53. "[Cyngas (Atmosphere)](/w/Cyngas_(Atmosphere)?action=edit&redlink=1 "Cyngas (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Cyngas.png
-54. "[Dargyn](/w/Dargyn "Dargyn")" AmmoPickup must be a value greater than or equal to 0
-55. "[Dargyn](/w/Dargyn "Dargyn")" Disposition must be between 0.5-1.55; default should be 0.5
-56. "[Dargyn](/w/Dargyn "Dargyn")" Image should be in the form of "WeaponName.png"; current value: GrnSkiffMissile.png
-57. "[Dargyn](/w/Dargyn "Dargyn")" Missing InternalName
-58. "[Dargyn](/w/Dargyn "Dargyn")" Missing mastery rank unlock and mastery has to between 0 and 17 inclusive
-59. "[Deconstructor](/w/Deconstructor "Deconstructor")" AmmoPickup must be a value greater than or equal to 0
-60. "[Deconstructor Prime](/w/Deconstructor_Prime "Deconstructor Prime")" AmmoPickup must be a value greater than or equal to 0
-61. "[Deth Machine Rifle](/w/Deth_Machine_Rifle "Deth Machine Rifle")" AmmoPickup must be a value greater than or equal to 0
-62. "[Deth Machine Rifle Prime](/w/Deth_Machine_Rifle_Prime "Deth Machine Rifle Prime")" AmmoPickup must be a value greater than or equal to 0
-63. "[Dissic Scaffold](/w/Dissic_Scaffold "Dissic Scaffold")" AmmoPickup must be a value greater than or equal to 0
-64. "[Dual Decurion](/w/Dual_Decurion "Dual Decurion")" AmmoPickup must be a value greater than or equal to 0
-65. "[Dual Decurion (Atmosphere)](/w/Dual_Decurion_(Atmosphere)?action=edit&redlink=1 "Dual Decurion (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: DualDecurion.png
-66. "[Exard Scaffold](/w/Exard_Scaffold "Exard Scaffold")" AmmoPickup must be a value greater than or equal to 0
-67. "[Falcor](/w/Falcor "Falcor")" Heavy attack must be greater than 0
-68. "[Fluctus](/w/Fluctus "Fluctus")" AmmoPickup must be a value greater than or equal to 0
-69. "[Fluctus (Atmosphere)](/w/Fluctus_(Atmosphere)?action=edit&redlink=1 "Fluctus (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Fluctus.png
-70. "[Galvarc](/w/Galvarc "Galvarc")" Image should be in the form of "WeaponName.png"; current value: OrdnanceGalvarc.png
-71. "[Galvarc Mk I](/w/Galvarc_Mk_I "Galvarc Mk I")" Image should be in the form of "WeaponName.png"; current value: OrdnanceGalvarc.png
-72. "[Galvarc Mk II](/w/Galvarc_Mk_II "Galvarc Mk II")" Image should be in the form of "WeaponName.png"; current value: OrdnanceGalvarc.png
-73. "[Galvarc Mk III](/w/Galvarc_Mk_III "Galvarc Mk III")" Image should be in the form of "WeaponName.png"; current value: OrdnanceGalvarc.png
-74. "[Garuda Prime Talons](/w/Garuda_Prime_Talons "Garuda Prime Talons")" Disposition must be between 0.5-1.55; default should be 0.5
-75. "[Garuda Talons](/w/Garuda_Talons "Garuda Talons")" Disposition must be between 0.5-1.55; default should be 0.5
-76. "[Gaze (Primary)](/w/Gaze_(Primary) "Gaze (Primary)")" Image should be in the form of "WeaponName.png"; current value: Gaze.png
-77. "[Gaze (Primary)](/w/Gaze_(Primary) "Gaze (Primary)")" Magazine must be a value above 0
-78. "[Gaze (Primary)](/w/Gaze_(Primary) "Gaze (Primary)")" Missing reload time or reload time has to be above 0
-79. "[Gaze (Secondary)](/w/Gaze_(Secondary) "Gaze (Secondary)")" Image should be in the form of "WeaponName.png"; current value: Gaze.png
-80. "[Gaze (Secondary)](/w/Gaze_(Secondary) "Gaze (Secondary)")" Magazine must be a value above 0
-81. "[Gaze (Secondary)](/w/Gaze_(Secondary) "Gaze (Secondary)")" Missing reload time or reload time has to be above 0
-82. "[Glaive](/w/Glaive "Glaive")" Heavy attack must be greater than 0
-83. "[Glaive Prime](/w/Glaive_Prime "Glaive Prime")" Heavy attack must be greater than 0
-84. "[Glazio](/w/Glazio "Glazio")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
-85. "[Glazio Mk I](/w/Glazio_Mk_I "Glazio Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
-86. "[Glazio Mk II](/w/Glazio_Mk_II "Glazio Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
-87. "[Glazio Mk III](/w/Glazio_Mk_III "Glazio Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
-88. "[Granmu Prism](/w/Granmu_Prism "Granmu Prism")" AmmoPickup must be a value greater than or equal to 0
-89. "[Grattler](/w/Grattler "Grattler")" AmmoPickup must be a value greater than or equal to 0
-90. "[Grattler (Atmosphere)](/w/Grattler_(Atmosphere)?action=edit&redlink=1 "Grattler (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Grattler.png
-91. "[Grimoire](/w/Grimoire "Grimoire")" Magazine must be a value above 0
-92. "[Grimoire](/w/Grimoire "Grimoire")" Missing reload time or reload time has to be above 0
-93. "[Halikar](/w/Halikar "Halikar")" Heavy attack must be greater than 0
-94. "[Halikar Wraith](/w/Halikar_Wraith "Halikar Wraith")" Heavy attack must be greater than 0
-95. "[Hand Grenade](/w/Hand_Grenade "Hand Grenade")" AmmoMax must be a value greater than or equal to 0
-96. "[Hand Grenade](/w/Hand_Grenade "Hand Grenade")" AmmoPickup must be a value greater than or equal to 0
-97. "[Hand Grenade](/w/Hand_Grenade "Hand Grenade")" Magazine must be a value above 0
-98. "[Hand Grenade](/w/Hand_Grenade "Hand Grenade")" Missing reload time or reload time has to be above 0
-99. "[Hand Grenade](/w/Hand_Grenade "Hand Grenade")" Missing trigger type of weapon
-100. "[Helminth Claws](/w/Helminth_Claws "Helminth Claws")" AmmoMax must be a value greater than or equal to 0
-101. "[Helminth Claws](/w/Helminth_Claws "Helminth Claws")" AmmoPickup must be a value greater than or equal to 0
-102. "[Helminth Claws](/w/Helminth_Claws "Helminth Claws")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
-103. "[Helminth Claws](/w/Helminth_Claws "Helminth Claws")" Magazine must be a value above 0
-104. "[Helminth Claws](/w/Helminth_Claws "Helminth Claws")" Missing reload time or reload time has to be above 0
-105. "[Helminth Claws](/w/Helminth_Claws "Helminth Claws")" Missing trigger type of weapon
-106. "[Helstrum](/w/Helstrum "Helstrum")" AmmoPickup must be a value greater than or equal to 0
-107. "[Huras Claws](/w/Huras_Claws?action=edit&redlink=1 "Huras Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
-108. "[Huras Claws](/w/Huras_Claws?action=edit&redlink=1 "Huras Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
-109. "[Huras Claws](/w/Huras_Claws?action=edit&redlink=1 "Huras Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
-110. "[Huras Claws](/w/Huras_Claws?action=edit&redlink=1 "Huras Claws (page does not exist)")" Magazine must be a value above 0
-111. "[Huras Claws](/w/Huras_Claws?action=edit&redlink=1 "Huras Claws (page does not exist)")" Missing reload time or reload time has to be above 0
-112. "[Huras Claws](/w/Huras_Claws?action=edit&redlink=1 "Huras Claws (page does not exist)")" Missing trigger type of weapon
-113. "[Imperator](/w/Imperator "Imperator")" AmmoPickup must be a value greater than or equal to 0
-114. "[Imperator (Atmosphere)](/w/Imperator_(Atmosphere)?action=edit&redlink=1 "Imperator (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Imperator.png
-115. "[Imperator Vandal](/w/Imperator_Vandal "Imperator Vandal")" AmmoPickup must be a value greater than or equal to 0
-116. "[Imperator Vandal (Atmosphere)](/w/Imperator_Vandal_(Atmosphere)?action=edit&redlink=1 "Imperator Vandal (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: ImperatorVandal.png
-117. "[Kestrel](/w/Kestrel "Kestrel")" Heavy attack must be greater than 0
-118. "[Kestrel Prime](/w/Kestrel_Prime "Kestrel Prime")" Heavy attack must be greater than 0
-119. "[Klamora Prism](/w/Klamora_Prism "Klamora Prism")" AmmoPickup must be a value greater than or equal to 0
-120. "[Klebrik Scaffold](/w/Klebrik_Scaffold "Klebrik Scaffold")" AmmoPickup must be a value greater than or equal to 0
-121. "[Kuva Ayanga](/w/Kuva_Ayanga "Kuva Ayanga")" AmmoPickup must be a value greater than or equal to 0
-122. "[Kuva Ayanga (Atmosphere)](/w/Kuva_Ayanga_(Atmosphere)?action=edit&redlink=1 "Kuva Ayanga (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: KuvaAyanga.png
-123. "[Kuva Grattler](/w/Kuva_Grattler "Kuva Grattler")" AmmoPickup must be a value greater than or equal to 0
-124. "[Kuva Grattler (Atmosphere)](/w/Kuva_Grattler_(Atmosphere)?action=edit&redlink=1 "Kuva Grattler (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: KuvaGrattler.png
-125. "[Laith](/w/Laith "Laith")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
-126. "[Laith Mk I](/w/Laith_Mk_I "Laith Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
-127. "[Laith Mk II](/w/Laith_Mk_II "Laith Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
-128. "[Laith Mk III](/w/Laith_Mk_III "Laith Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
-129. "[Larkspur](/w/Larkspur "Larkspur")" AmmoPickup must be a value greater than or equal to 0
-130. "[Larkspur (Atmosphere)](/w/Larkspur_(Atmosphere)?action=edit&redlink=1 "Larkspur (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Larkspur.png
-131. "[Larkspur Prime](/w/Larkspur_Prime "Larkspur Prime")" AmmoPickup must be a value greater than or equal to 0
-132. "[Larkspur Prime (Atmosphere)](/w/Larkspur_Prime_(Atmosphere)?action=edit&redlink=1 "Larkspur Prime (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: LarkspurPrime.png
-133. "[Laser Rifle](/w/Laser_Rifle "Laser Rifle")" AmmoPickup must be a value greater than or equal to 0
-134. "[Lavan Apoc Mk I](/w/Lavan_Apoc_Mk_I "Lavan Apoc Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
-135. "[Lavan Apoc Mk II](/w/Lavan_Apoc_Mk_II "Lavan Apoc Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
-136. "[Lavan Apoc Mk III](/w/Lavan_Apoc_Mk_III "Lavan Apoc Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
-137. "[Lavan Apoc Mk IV](/w/Lavan_Apoc_Mk_IV?action=edit&redlink=1 "Lavan Apoc Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
-138. "[Lavan Carcinnox Mk I](/w/Lavan_Carcinnox_Mk_I "Lavan Carcinnox Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
-139. "[Lavan Carcinnox Mk II](/w/Lavan_Carcinnox_Mk_II "Lavan Carcinnox Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
-140. "[Lavan Carcinnox Mk III](/w/Lavan_Carcinnox_Mk_III "Lavan Carcinnox Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
-141. "[Lavan Carcinnox Mk IV](/w/Lavan_Carcinnox_Mk_IV?action=edit&redlink=1 "Lavan Carcinnox Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
-142. "[Lavan Cryophon Mk I](/w/Lavan_Cryophon_Mk_I "Lavan Cryophon Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
-143. "[Lavan Cryophon Mk II](/w/Lavan_Cryophon_Mk_II "Lavan Cryophon Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
-144. "[Lavan Cryophon Mk III](/w/Lavan_Cryophon_Mk_III "Lavan Cryophon Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
-145. "[Lavan Cryophon Mk IV](/w/Lavan_Cryophon_Mk_IV?action=edit&redlink=1 "Lavan Cryophon Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
-146. "[Lavan Glazio Mk I](/w/Lavan_Glazio_Mk_I "Lavan Glazio Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
-147. "[Lavan Glazio Mk II](/w/Lavan_Glazio_Mk_II "Lavan Glazio Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
-148. "[Lavan Glazio Mk III](/w/Lavan_Glazio_Mk_III "Lavan Glazio Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
-149. "[Lavan Glazio Mk IV](/w/Lavan_Glazio_Mk_IV?action=edit&redlink=1 "Lavan Glazio Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
-150. "[Lavan Laith Mk I](/w/Lavan_Laith_Mk_I "Lavan Laith Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
-151. "[Lavan Laith Mk II](/w/Lavan_Laith_Mk_II "Lavan Laith Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
-152. "[Lavan Laith Mk III](/w/Lavan_Laith_Mk_III "Lavan Laith Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
-153. "[Lavan Laith Mk IV](/w/Lavan_Laith_Mk_IV?action=edit&redlink=1 "Lavan Laith Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
-154. "[Lavan Photor Mk I](/w/Lavan_Photor_Mk_I "Lavan Photor Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
-155. "[Lavan Photor Mk II](/w/Lavan_Photor_Mk_II "Lavan Photor Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
-156. "[Lavan Photor Mk III](/w/Lavan_Photor_Mk_III "Lavan Photor Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
-157. "[Lavan Photor Mk IV](/w/Lavan_Photor_Mk_IV?action=edit&redlink=1 "Lavan Photor Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
-158. "[Lavan Pulsar Mk I](/w/Lavan_Pulsar_Mk_I "Lavan Pulsar Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
-159. "[Lavan Pulsar Mk II](/w/Lavan_Pulsar_Mk_II "Lavan Pulsar Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
-160. "[Lavan Pulsar Mk III](/w/Lavan_Pulsar_Mk_III "Lavan Pulsar Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
-161. "[Lavan Pulsar Mk IV](/w/Lavan_Pulsar_Mk_IV?action=edit&redlink=1 "Lavan Pulsar Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
-162. "[Lavan Talyn Mk I](/w/Lavan_Talyn_Mk_I "Lavan Talyn Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
-163. "[Lavan Talyn Mk II](/w/Lavan_Talyn_Mk_II "Lavan Talyn Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
-164. "[Lavan Talyn Mk III](/w/Lavan_Talyn_Mk_III "Lavan Talyn Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
-165. "[Lavan Talyn Mk IV](/w/Lavan_Talyn_Mk_IV?action=edit&redlink=1 "Lavan Talyn Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
-166. "[Lavan Vort Mk I](/w/Lavan_Vort_Mk_I "Lavan Vort Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
-167. "[Lavan Vort Mk II](/w/Lavan_Vort_Mk_II "Lavan Vort Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
-168. "[Lavan Vort Mk III](/w/Lavan_Vort_Mk_III "Lavan Vort Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
-169. "[Lavan Vort Mk IV](/w/Lavan_Vort_Mk_IV?action=edit&redlink=1 "Lavan Vort Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
-170. "[Lega Prism](/w/Lega_Prism "Lega Prism")" AmmoPickup must be a value greater than or equal to 0
-171. "[Lob Blobs](/w/Lob_Blobs "Lob Blobs")" AmmoPickup must be a value greater than or equal to 0
-172. "[Lob Blobs](/w/Lob_Blobs "Lob Blobs")" Missing InternalName
-173. "[Lob Blobs](/w/Lob_Blobs "Lob Blobs")" Missing reload time or reload time has to be above 0
-174. "[Mandonel](/w/Mandonel "Mandonel")" AmmoPickup must be a value greater than or equal to 0
-175. "[Mandonel](/w/Mandonel "Mandonel")" Missing InternalName
-176. "[Mandonel (Atmosphere)](/w/Mandonel_(Atmosphere)?action=edit&redlink=1 "Mandonel (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Mandonel.png
-177. "[Mandonel (Atmosphere)](/w/Mandonel_(Atmosphere)?action=edit&redlink=1 "Mandonel (Atmosphere) (page does not exist)")" Missing InternalName
-178. "[Mausolon](/w/Mausolon "Mausolon")" AmmoPickup must be a value greater than or equal to 0
-179. "[Mausolon (Atmosphere)](/w/Mausolon_(Atmosphere)?action=edit&redlink=1 "Mausolon (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Mausolon.png
-180. "[Medjay Claws](/w/Medjay_Claws?action=edit&redlink=1 "Medjay Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
-181. "[Medjay Claws](/w/Medjay_Claws?action=edit&redlink=1 "Medjay Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
-182. "[Medjay Claws](/w/Medjay_Claws?action=edit&redlink=1 "Medjay Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
-183. "[Medjay Claws](/w/Medjay_Claws?action=edit&redlink=1 "Medjay Claws (page does not exist)")" Magazine must be a value above 0
-184. "[Medjay Claws](/w/Medjay_Claws?action=edit&redlink=1 "Medjay Claws (page does not exist)")" Missing reload time or reload time has to be above 0
-185. "[Medjay Claws](/w/Medjay_Claws?action=edit&redlink=1 "Medjay Claws (page does not exist)")" Missing trigger type of weapon
-186. "[Milati](/w/Milati "Milati")" Image should be in the form of "WeaponName.png"; current value: OrdnanceMilati.png
-187. "[Milati Mk I](/w/Milati_Mk_I "Milati Mk I")" Image should be in the form of "WeaponName.png"; current value: OrdnanceMilati.png
-188. "[Milati Mk II](/w/Milati_Mk_II "Milati Mk II")" Image should be in the form of "WeaponName.png"; current value: OrdnanceMilati.png
-189. "[Milati Mk III](/w/Milati_Mk_III "Milati Mk III")" Image should be in the form of "WeaponName.png"; current value: OrdnanceMilati.png
-190. "[Mk1-Braton](/w/Mk1-Braton "Mk1-Braton")" Image should be in the form of "WeaponName.png"; current value: Braton.png
-191. "[Mk1-Furis](/w/Mk1-Furis "Mk1-Furis")" Image should be in the form of "WeaponName.png"; current value: Furis.png
-192. "[Mk1-Kunai](/w/Mk1-Kunai "Mk1-Kunai")" Image should be in the form of "WeaponName.png"; current value: Kunai.png
-193. "[Mk1-Paris](/w/Mk1-Paris "Mk1-Paris")" Image should be in the form of "WeaponName.png"; current value: Paris.png
-194. "[Mk1-Strun](/w/Mk1-Strun "Mk1-Strun")" Image should be in the form of "WeaponName.png"; current value: Strun.png
-195. "[Morgha](/w/Morgha "Morgha")" AmmoPickup must be a value greater than or equal to 0
-196. "[Morgha (Atmosphere)](/w/Morgha_(Atmosphere)?action=edit&redlink=1 "Morgha (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Morgha.png
-197. "[Mote Amp](/w/Mote_Amp "Mote Amp")" AmmoPickup must be a value greater than or equal to 0
-198. "[Multron](/w/Multron "Multron")" AmmoPickup must be a value greater than or equal to 0
-199. "[Noodletron](/w/Noodletron "Noodletron")" AmmoPickup must be a value greater than or equal to 0
-200. "[Noodletron](/w/Noodletron "Noodletron")" Missing InternalName
-201. "[Noodletron](/w/Noodletron "Noodletron")" Magazine must be a value above 0
-202. "[Noodletron](/w/Noodletron "Noodletron")" Missing reload time or reload time has to be above 0
-203. "[Orvius](/w/Orvius "Orvius")" Heavy attack must be greater than 0
-204. "[Panzer Claws](/w/Panzer_Claws?action=edit&redlink=1 "Panzer Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
-205. "[Panzer Claws](/w/Panzer_Claws?action=edit&redlink=1 "Panzer Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
-206. "[Panzer Claws](/w/Panzer_Claws?action=edit&redlink=1 "Panzer Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
-207. "[Panzer Claws](/w/Panzer_Claws?action=edit&redlink=1 "Panzer Claws (page does not exist)")" Magazine must be a value above 0
-208. "[Panzer Claws](/w/Panzer_Claws?action=edit&redlink=1 "Panzer Claws (page does not exist)")" Missing reload time or reload time has to be above 0
-209. "[Panzer Claws](/w/Panzer_Claws?action=edit&redlink=1 "Panzer Claws (page does not exist)")" Missing trigger type of weapon
-210. "[Parazon](/w/Parazon "Parazon")" AmmoMax must be a value greater than or equal to 0
-211. "[Parazon](/w/Parazon "Parazon")" AmmoPickup must be a value greater than or equal to 0
-212. "[Parazon](/w/Parazon "Parazon")" Magazine must be a value above 0
-213. "[Parazon](/w/Parazon "Parazon")" Missing reload time or reload time has to be above 0
-214. "[Parazon](/w/Parazon "Parazon")" Missing trigger type of weapon
-215. "[Pathocyst](/w/Pathocyst "Pathocyst")" Heavy attack must be greater than 0
-216. "[Pencha Scaffold](/w/Pencha_Scaffold "Pencha Scaffold")" AmmoPickup must be a value greater than or equal to 0
-217. "[Phaedra](/w/Phaedra "Phaedra")" AmmoPickup must be a value greater than or equal to 0
-218. "[Phaedra (Atmosphere)](/w/Phaedra_(Atmosphere)?action=edit&redlink=1 "Phaedra (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Phaedra.png
-219. "[Phahd Scaffold](/w/Phahd_Scaffold "Phahd Scaffold")" AmmoPickup must be a value greater than or equal to 0
-220. "[Pharaoh Claws](/w/Pharaoh_Claws?action=edit&redlink=1 "Pharaoh Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
-221. "[Pharaoh Claws](/w/Pharaoh_Claws?action=edit&redlink=1 "Pharaoh Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
-222. "[Pharaoh Claws](/w/Pharaoh_Claws?action=edit&redlink=1 "Pharaoh Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
-223. "[Pharaoh Claws](/w/Pharaoh_Claws?action=edit&redlink=1 "Pharaoh Claws (page does not exist)")" Magazine must be a value above 0
-224. "[Pharaoh Claws](/w/Pharaoh_Claws?action=edit&redlink=1 "Pharaoh Claws (page does not exist)")" Missing reload time or reload time has to be above 0
-225. "[Pharaoh Claws](/w/Pharaoh_Claws?action=edit&redlink=1 "Pharaoh Claws (page does not exist)")" Missing trigger type of weapon
-226. "[Photor](/w/Photor "Photor")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
-227. "[Photor Mk I](/w/Photor_Mk_I "Photor Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
-228. "[Photor Mk II](/w/Photor_Mk_II "Photor Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
-229. "[Photor Mk III](/w/Photor_Mk_III "Photor Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
-230. "[Prime Laser Rifle](/w/Prime_Laser_Rifle "Prime Laser Rifle")" AmmoPickup must be a value greater than or equal to 0
-231. "[Prisma Burst Laser](/w/Prisma_Burst_Laser "Prisma Burst Laser")" AmmoPickup must be a value greater than or equal to 0
-232. "[Prisma Dual Decurions](/w/Prisma_Dual_Decurions "Prisma Dual Decurions")" AmmoPickup must be a value greater than or equal to 0
-233. "[Prisma Dual Decurions (Atmosphere)](/w/Prisma_Dual_Decurions_(Atmosphere)?action=edit&redlink=1 "Prisma Dual Decurions (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: PrismaDualDecurions.png
-234. "[Propa Scaffold](/w/Propa_Scaffold "Propa Scaffold")" AmmoPickup must be a value greater than or equal to 0
-235. "[Pugil](/w/Pugil "Pugil")" AmmoMax must be a value greater than or equal to 0
-236. "[Pugil](/w/Pugil "Pugil")" AmmoPickup must be a value greater than or equal to 0
-237. "[Pugil](/w/Pugil "Pugil")" Missing InternalName
-238. "[Pugil](/w/Pugil "Pugil")" Magazine must be a value above 0
-239. "[Pugil](/w/Pugil "Pugil")" Missing reload time or reload time has to be above 0
-240. "[Pugil](/w/Pugil "Pugil")" Missing trigger type of weapon
-241. "[Pulsar](/w/Pulsar "Pulsar")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
-242. "[Pulsar Mk I](/w/Pulsar_Mk_I "Pulsar Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
-243. "[Pulsar Mk II](/w/Pulsar_Mk_II "Pulsar Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
-244. "[Pulsar Mk III](/w/Pulsar_Mk_III "Pulsar Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
-245. "[Rahn Prism](/w/Rahn_Prism "Rahn Prism")" AmmoPickup must be a value greater than or equal to 0
-246. "[Raksa Claws](/w/Raksa_Claws?action=edit&redlink=1 "Raksa Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
-247. "[Raksa Claws](/w/Raksa_Claws?action=edit&redlink=1 "Raksa Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
-248. "[Raksa Claws](/w/Raksa_Claws?action=edit&redlink=1 "Raksa Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
-249. "[Raksa Claws](/w/Raksa_Claws?action=edit&redlink=1 "Raksa Claws (page does not exist)")" Magazine must be a value above 0
-250. "[Raksa Claws](/w/Raksa_Claws?action=edit&redlink=1 "Raksa Claws (page does not exist)")" Missing reload time or reload time has to be above 0
-251. "[Raksa Claws](/w/Raksa_Claws?action=edit&redlink=1 "Raksa Claws (page does not exist)")" Missing trigger type of weapon
-252. "[Rampart](/w/Rampart "Rampart")" AmmoPickup must be a value greater than or equal to 0
-253. "[Rampart](/w/Rampart "Rampart")" Disposition must be between 0.5-1.55; default should be 0.5
-254. "[Rampart](/w/Rampart "Rampart")" Missing InternalName
-255. "[Rampart](/w/Rampart "Rampart")" Missing mastery rank unlock and mastery has to between 0 and 17 inclusive
-256. "[Raplak Prism](/w/Raplak_Prism "Raplak Prism")" AmmoPickup must be a value greater than or equal to 0
-257. "[Rattleguts (Primary)](/w/Rattleguts_(Primary) "Rattleguts (Primary)")" Image should be in the form of "WeaponName.png"; current value: Rattleguts.png
-258. "[Rattleguts (Primary)](/w/Rattleguts_(Primary) "Rattleguts (Primary)")" Magazine must be a value above 0
-259. "[Rattleguts (Primary)](/w/Rattleguts_(Primary) "Rattleguts (Primary)")" Missing reload time or reload time has to be above 0
-260. "[Rattleguts (Secondary)](/w/Rattleguts_(Secondary) "Rattleguts (Secondary)")" Image should be in the form of "WeaponName.png"; current value: Rattleguts.png
-261. "[Rattleguts (Secondary)](/w/Rattleguts_(Secondary) "Rattleguts (Secondary)")" Magazine must be a value above 0
-262. "[Rattleguts (Secondary)](/w/Rattleguts_(Secondary) "Rattleguts (Secondary)")" Missing reload time or reload time has to be above 0
-263. "[Razorflies](/w/Razorflies "Razorflies")" AmmoMax must be a value greater than or equal to 0
-264. "[Razorflies](/w/Razorflies "Razorflies")" AmmoPickup must be a value greater than or equal to 0
-265. "[Razorflies](/w/Razorflies "Razorflies")" Image should be in the form of "WeaponName.png"; current value: Razorfly.png
-266. "[Razorflies](/w/Razorflies "Razorflies")" Magazine must be a value above 0
-267. "[Razorflies](/w/Razorflies "Razorflies")" Missing reload time or reload time has to be above 0
-268. "[Razorflies](/w/Razorflies "Razorflies")" Missing trigger type of weapon
-269. "[Sahasa Claws](/w/Sahasa_Claws?action=edit&redlink=1 "Sahasa Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
-270. "[Sahasa Claws](/w/Sahasa_Claws?action=edit&redlink=1 "Sahasa Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
-271. "[Sahasa Claws](/w/Sahasa_Claws?action=edit&redlink=1 "Sahasa Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
-272. "[Sahasa Claws](/w/Sahasa_Claws?action=edit&redlink=1 "Sahasa Claws (page does not exist)")" Magazine must be a value above 0
-273. "[Sahasa Claws](/w/Sahasa_Claws?action=edit&redlink=1 "Sahasa Claws (page does not exist)")" Missing reload time or reload time has to be above 0
-274. "[Sahasa Claws](/w/Sahasa_Claws?action=edit&redlink=1 "Sahasa Claws (page does not exist)")" Missing trigger type of weapon
-275. "[Shraksun Scaffold](/w/Shraksun_Scaffold "Shraksun Scaffold")" AmmoPickup must be a value greater than or equal to 0
-276. "[Shwaak Prism](/w/Shwaak_Prism "Shwaak Prism")" AmmoPickup must be a value greater than or equal to 0
-277. "[Sirocco](/w/Sirocco "Sirocco")" AmmoPickup must be a value greater than or equal to 0
-278. "[Sly Claws](/w/Sly_Claws?action=edit&redlink=1 "Sly Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
-279. "[Sly Claws](/w/Sly_Claws?action=edit&redlink=1 "Sly Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
-280. "[Sly Claws](/w/Sly_Claws?action=edit&redlink=1 "Sly Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
-281. "[Sly Claws](/w/Sly_Claws?action=edit&redlink=1 "Sly Claws (page does not exist)")" Magazine must be a value above 0
-282. "[Sly Claws](/w/Sly_Claws?action=edit&redlink=1 "Sly Claws (page does not exist)")" Missing reload time or reload time has to be above 0
-283. "[Sly Claws](/w/Sly_Claws?action=edit&redlink=1 "Sly Claws (page does not exist)")" Missing trigger type of weapon
-284. "[Smeeta Claws](/w/Smeeta_Claws "Smeeta Claws")" AmmoMax must be a value greater than or equal to 0
-285. "[Smeeta Claws](/w/Smeeta_Claws "Smeeta Claws")" AmmoPickup must be a value greater than or equal to 0
-286. "[Smeeta Claws](/w/Smeeta_Claws "Smeeta Claws")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
-287. "[Smeeta Claws](/w/Smeeta_Claws "Smeeta Claws")" Magazine must be a value above 0
-288. "[Smeeta Claws](/w/Smeeta_Claws "Smeeta Claws")" Missing reload time or reload time has to be above 0
-289. "[Smeeta Claws](/w/Smeeta_Claws "Smeeta Claws")" Missing trigger type of weapon
-290. "[Soaktron](/w/Soaktron "Soaktron")" AmmoPickup must be a value greater than or equal to 0
-291. "[Soaktron](/w/Soaktron "Soaktron")" Missing InternalName
-292. "[Sporelacer (Primary)](/w/Sporelacer_(Primary) "Sporelacer (Primary)")" Image should be in the form of "WeaponName.png"; current value: Sporelacer.png
-293. "[Sporelacer (Primary)](/w/Sporelacer_(Primary) "Sporelacer (Primary)")" Magazine must be a value above 0
-294. "[Sporelacer (Primary)](/w/Sporelacer_(Primary) "Sporelacer (Primary)")" Missing reload time or reload time has to be above 0
-295. "[Sporelacer (Secondary)](/w/Sporelacer_(Secondary) "Sporelacer (Secondary)")" Image should be in the form of "WeaponName.png"; current value: Sporelacer.png
-296. "[Sporelacer (Secondary)](/w/Sporelacer_(Secondary) "Sporelacer (Secondary)")" Magazine must be a value above 0
-297. "[Sporelacer (Secondary)](/w/Sporelacer_(Secondary) "Sporelacer (Secondary)")" Missing reload time or reload time has to be above 0
-298. "[Stinger](/w/Stinger "Stinger")" AmmoPickup must be a value greater than or equal to 0
-299. "[Sunika Claws](/w/Sunika_Claws?action=edit&redlink=1 "Sunika Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
-300. "[Sunika Claws](/w/Sunika_Claws?action=edit&redlink=1 "Sunika Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
-301. "[Sunika Claws](/w/Sunika_Claws?action=edit&redlink=1 "Sunika Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
-302. "[Sunika Claws](/w/Sunika_Claws?action=edit&redlink=1 "Sunika Claws (page does not exist)")" Magazine must be a value above 0
-303. "[Sunika Claws](/w/Sunika_Claws?action=edit&redlink=1 "Sunika Claws (page does not exist)")" Missing reload time or reload time has to be above 0
-304. "[Sunika Claws](/w/Sunika_Claws?action=edit&redlink=1 "Sunika Claws (page does not exist)")" Missing trigger type of weapon
-305. "[Sweeper](/w/Sweeper "Sweeper")" AmmoPickup must be a value greater than or equal to 0
-306. "[Sweeper Prime](/w/Sweeper_Prime "Sweeper Prime")" AmmoPickup must be a value greater than or equal to 0
-307. "[Talyn](/w/Talyn "Talyn")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
-308. "[Talyn Mk I](/w/Talyn_Mk_I "Talyn Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
-309. "[Talyn Mk II](/w/Talyn_Mk_II "Talyn Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
-310. "[Talyn Mk III](/w/Talyn_Mk_III "Talyn Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
-311. "[Tazicor](/w/Tazicor "Tazicor")" AmmoPickup must be a value greater than or equal to 0
-312. "[Thermian RPG](/w/Thermian_RPG "Thermian RPG")" Disposition must be between 0.5-1.55; default should be 0.5
-313. "[Thermian RPG](/w/Thermian_RPG "Thermian RPG")" Missing mastery rank unlock and mastery has to between 0 and 17 inclusive
-314. "[Tombfinger (Primary)](/w/Tombfinger_(Primary) "Tombfinger (Primary)")" Image should be in the form of "WeaponName.png"; current value: Tombfinger.png
-315. "[Tombfinger (Primary)](/w/Tombfinger_(Primary) "Tombfinger (Primary)")" Magazine must be a value above 0
-316. "[Tombfinger (Primary)](/w/Tombfinger_(Primary) "Tombfinger (Primary)")" Missing reload time or reload time has to be above 0
-317. "[Tombfinger (Secondary)](/w/Tombfinger_(Secondary) "Tombfinger (Secondary)")" Image should be in the form of "WeaponName.png"; current value: Tombfinger.png
-318. "[Tombfinger (Secondary)](/w/Tombfinger_(Secondary) "Tombfinger (Secondary)")" Magazine must be a value above 0
-319. "[Tombfinger (Secondary)](/w/Tombfinger_(Secondary) "Tombfinger (Secondary)")" Missing reload time or reload time has to be above 0
-320. "[Tycho Seeker](/w/Tycho_Seeker "Tycho Seeker")" Image should be in the form of "WeaponName.png"; current value: OrdnanceTychoSeeker.png
-321. "[Tycho Seeker Mk I](/w/Tycho_Seeker_Mk_I "Tycho Seeker Mk I")" Image should be in the form of "WeaponName.png"; current value: OrdnanceTychoSeeker.png
-322. "[Tycho Seeker Mk II](/w/Tycho_Seeker_Mk_II "Tycho Seeker Mk II")" Image should be in the form of "WeaponName.png"; current value: OrdnanceTychoSeeker.png
-323. "[Tycho Seeker Mk III](/w/Tycho_Seeker_Mk_III "Tycho Seeker Mk III")" Image should be in the form of "WeaponName.png"; current value: OrdnanceTychoSeeker.png
-324. "[Unarmed](/w/Unarmed "Unarmed")" AmmoMax must be a value greater than or equal to 0
-325. "[Unarmed](/w/Unarmed "Unarmed")" AmmoPickup must be a value greater than or equal to 0
-326. "[Unarmed](/w/Unarmed "Unarmed")" Image should be in the form of "WeaponName.png"; current value: Blank.png
-327. "[Unarmed](/w/Unarmed "Unarmed")" Missing InternalName
-328. "[Unarmed](/w/Unarmed "Unarmed")" Magazine must be a value above 0
-329. "[Unarmed](/w/Unarmed "Unarmed")" Missing reload time or reload time has to be above 0
-330. "[Unarmed](/w/Unarmed "Unarmed")" Missing trigger type of weapon
-331. "[Vasca Claws](/w/Vasca_Claws?action=edit&redlink=1 "Vasca Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
-332. "[Vasca Claws](/w/Vasca_Claws?action=edit&redlink=1 "Vasca Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
-333. "[Vasca Claws](/w/Vasca_Claws?action=edit&redlink=1 "Vasca Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
-334. "[Vasca Claws](/w/Vasca_Claws?action=edit&redlink=1 "Vasca Claws (page does not exist)")" Magazine must be a value above 0
-335. "[Vasca Claws](/w/Vasca_Claws?action=edit&redlink=1 "Vasca Claws (page does not exist)")" Missing reload time or reload time has to be above 0
-336. "[Vasca Claws](/w/Vasca_Claws?action=edit&redlink=1 "Vasca Claws (page does not exist)")" Missing trigger type of weapon
-337. "[Velocitus](/w/Velocitus "Velocitus")" AmmoPickup must be a value greater than or equal to 0
-338. "[Velocitus (Atmosphere)](/w/Velocitus_(Atmosphere)?action=edit&redlink=1 "Velocitus (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Velocitus.png
-339. "[Venari Claws](/w/Venari_Claws?action=edit&redlink=1 "Venari Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
-340. "[Venari Claws](/w/Venari_Claws?action=edit&redlink=1 "Venari Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
-341. "[Venari Claws](/w/Venari_Claws?action=edit&redlink=1 "Venari Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
-342. "[Venari Claws](/w/Venari_Claws?action=edit&redlink=1 "Venari Claws (page does not exist)")" Magazine must be a value above 0
-343. "[Venari Claws](/w/Venari_Claws?action=edit&redlink=1 "Venari Claws (page does not exist)")" Missing reload time or reload time has to be above 0
-344. "[Venari Claws](/w/Venari_Claws?action=edit&redlink=1 "Venari Claws (page does not exist)")" Missing trigger type of weapon
-345. "[Venari Prime Claws](/w/Venari_Prime_Claws?action=edit&redlink=1 "Venari Prime Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
-346. "[Venari Prime Claws](/w/Venari_Prime_Claws?action=edit&redlink=1 "Venari Prime Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
-347. "[Venari Prime Claws](/w/Venari_Prime_Claws?action=edit&redlink=1 "Venari Prime Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
-348. "[Venari Prime Claws](/w/Venari_Prime_Claws?action=edit&redlink=1 "Venari Prime Claws (page does not exist)")" Magazine must be a value above 0
-349. "[Venari Prime Claws](/w/Venari_Prime_Claws?action=edit&redlink=1 "Venari Prime Claws (page does not exist)")" Missing reload time or reload time has to be above 0
-350. "[Venari Prime Claws](/w/Venari_Prime_Claws?action=edit&redlink=1 "Venari Prime Claws (page does not exist)")" Missing trigger type of weapon
-351. "[Verglas](/w/Verglas "Verglas")" AmmoPickup must be a value greater than or equal to 0
-352. "[Verglas Prime](/w/Verglas_Prime "Verglas Prime")" AmmoPickup must be a value greater than or equal to 0
-353. "[Vermisplicer (Primary)](/w/Vermisplicer_(Primary) "Vermisplicer (Primary)")" Image should be in the form of "WeaponName.png"; current value: Vermisplicer.png
-354. "[Vermisplicer (Primary)](/w/Vermisplicer_(Primary) "Vermisplicer (Primary)")" Magazine must be a value above 0
-355. "[Vermisplicer (Primary)](/w/Vermisplicer_(Primary) "Vermisplicer (Primary)")" Missing reload time or reload time has to be above 0
-356. "[Vermisplicer (Secondary)](/w/Vermisplicer_(Secondary) "Vermisplicer (Secondary)")" Image should be in the form of "WeaponName.png"; current value: Vermisplicer.png
-357. "[Vermisplicer (Secondary)](/w/Vermisplicer_(Secondary) "Vermisplicer (Secondary)")" Magazine must be a value above 0
-358. "[Vermisplicer (Secondary)](/w/Vermisplicer_(Secondary) "Vermisplicer (Secondary)")" Missing reload time or reload time has to be above 0
-359. "[Vidar Apoc Mk I](/w/Vidar_Apoc_Mk_I "Vidar Apoc Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
-360. "[Vidar Apoc Mk II](/w/Vidar_Apoc_Mk_II "Vidar Apoc Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
-361. "[Vidar Apoc Mk III](/w/Vidar_Apoc_Mk_III "Vidar Apoc Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
-362. "[Vidar Apoc Mk IV](/w/Vidar_Apoc_Mk_IV?action=edit&redlink=1 "Vidar Apoc Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
-363. "[Vidar Carcinnox Mk I](/w/Vidar_Carcinnox_Mk_I "Vidar Carcinnox Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
-364. "[Vidar Carcinnox Mk II](/w/Vidar_Carcinnox_Mk_II "Vidar Carcinnox Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
-365. "[Vidar Carcinnox Mk III](/w/Vidar_Carcinnox_Mk_III "Vidar Carcinnox Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
-366. "[Vidar Carcinnox Mk IV](/w/Vidar_Carcinnox_Mk_IV?action=edit&redlink=1 "Vidar Carcinnox Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
-367. "[Vidar Cryophon Mk I](/w/Vidar_Cryophon_Mk_I "Vidar Cryophon Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
-368. "[Vidar Cryophon Mk II](/w/Vidar_Cryophon_Mk_II "Vidar Cryophon Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
-369. "[Vidar Cryophon Mk III](/w/Vidar_Cryophon_Mk_III "Vidar Cryophon Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
-370. "[Vidar Cryophon Mk IV](/w/Vidar_Cryophon_Mk_IV?action=edit&redlink=1 "Vidar Cryophon Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
-371. "[Vidar Glazio Mk I](/w/Vidar_Glazio_Mk_I "Vidar Glazio Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
-372. "[Vidar Glazio Mk II](/w/Vidar_Glazio_Mk_II "Vidar Glazio Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
-373. "[Vidar Glazio Mk III](/w/Vidar_Glazio_Mk_III "Vidar Glazio Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
-374. "[Vidar Glazio Mk IV](/w/Vidar_Glazio_Mk_IV?action=edit&redlink=1 "Vidar Glazio Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
-375. "[Vidar Laith Mk I](/w/Vidar_Laith_Mk_I "Vidar Laith Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
-376. "[Vidar Laith Mk II](/w/Vidar_Laith_Mk_II "Vidar Laith Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
-377. "[Vidar Laith Mk III](/w/Vidar_Laith_Mk_III "Vidar Laith Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
-378. "[Vidar Laith Mk IV](/w/Vidar_Laith_Mk_IV?action=edit&redlink=1 "Vidar Laith Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
-379. "[Vidar Photor Mk I](/w/Vidar_Photor_Mk_I "Vidar Photor Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
-380. "[Vidar Photor Mk II](/w/Vidar_Photor_Mk_II "Vidar Photor Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
-381. "[Vidar Photor Mk III](/w/Vidar_Photor_Mk_III "Vidar Photor Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
-382. "[Vidar Photor Mk IV](/w/Vidar_Photor_Mk_IV?action=edit&redlink=1 "Vidar Photor Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
-383. "[Vidar Pulsar Mk I](/w/Vidar_Pulsar_Mk_I "Vidar Pulsar Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
-384. "[Vidar Pulsar Mk II](/w/Vidar_Pulsar_Mk_II "Vidar Pulsar Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
-385. "[Vidar Pulsar Mk III](/w/Vidar_Pulsar_Mk_III "Vidar Pulsar Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
-386. "[Vidar Pulsar Mk IV](/w/Vidar_Pulsar_Mk_IV?action=edit&redlink=1 "Vidar Pulsar Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
-387. "[Vidar Talyn Mk I](/w/Vidar_Talyn_Mk_I "Vidar Talyn Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
-388. "[Vidar Talyn Mk II](/w/Vidar_Talyn_Mk_II "Vidar Talyn Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
-389. "[Vidar Talyn Mk III](/w/Vidar_Talyn_Mk_III "Vidar Talyn Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
-390. "[Vidar Talyn Mk IV](/w/Vidar_Talyn_Mk_IV?action=edit&redlink=1 "Vidar Talyn Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
-391. "[Vidar Vort Mk I](/w/Vidar_Vort_Mk_I "Vidar Vort Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
-392. "[Vidar Vort Mk II](/w/Vidar_Vort_Mk_II "Vidar Vort Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
-393. "[Vidar Vort Mk III](/w/Vidar_Vort_Mk_III "Vidar Vort Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
-394. "[Vidar Vort Mk IV](/w/Vidar_Vort_Mk_IV?action=edit&redlink=1 "Vidar Vort Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
-395. "[Vinquibus (Melee)](/w/Vinquibus_(Melee) "Vinquibus (Melee)")" Block angle must be a value between 0 exclusive and 100 inclusive
-396. "[Vinquibus (Primary)](/w/Vinquibus_(Primary) "Vinquibus (Primary)")" Image should be in the form of "WeaponName.png"; current value: Vinquibus.png
-397. "[Vizier Claws](/w/Vizier_Claws?action=edit&redlink=1 "Vizier Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
-398. "[Vizier Claws](/w/Vizier_Claws?action=edit&redlink=1 "Vizier Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
-399. "[Vizier Claws](/w/Vizier_Claws?action=edit&redlink=1 "Vizier Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
-400. "[Vizier Claws](/w/Vizier_Claws?action=edit&redlink=1 "Vizier Claws (page does not exist)")" Magazine must be a value above 0
-401. "[Vizier Claws](/w/Vizier_Claws?action=edit&redlink=1 "Vizier Claws (page does not exist)")" Missing reload time or reload time has to be above 0
-402. "[Vizier Claws](/w/Vizier_Claws?action=edit&redlink=1 "Vizier Claws (page does not exist)")" Missing trigger type of weapon
-403. "[Vort](/w/Vort "Vort")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
-404. "[Vort Mk I](/w/Vort_Mk_I "Vort Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
-405. "[Vort Mk II](/w/Vort_Mk_II "Vort Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
-406. "[Vort Mk III](/w/Vort_Mk_III "Vort Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
-407. "[Vulcax](/w/Vulcax "Vulcax")" AmmoPickup must be a value greater than or equal to 0
-408. "[Vulklok](/w/Vulklok "Vulklok")" AmmoPickup must be a value greater than or equal to 0
-409. "[War](/w/War "War")" Slide attack must be greater than 0
-410. "[War Prime](/w/War_Prime "War Prime")" Slide attack must be greater than 0
-411. "[Xoris](/w/Xoris "Xoris")" Heavy attack must be greater than 0
-412. "[Zetki Apoc Mk I](/w/Zetki_Apoc_Mk_I "Zetki Apoc Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
-413. "[Zetki Apoc Mk II](/w/Zetki_Apoc_Mk_II "Zetki Apoc Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
-414. "[Zetki Apoc Mk III](/w/Zetki_Apoc_Mk_III "Zetki Apoc Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
-415. "[Zetki Apoc Mk IV](/w/Zetki_Apoc_Mk_IV?action=edit&redlink=1 "Zetki Apoc Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
-416. "[Zetki Carcinnox Mk I](/w/Zetki_Carcinnox_Mk_I "Zetki Carcinnox Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
-417. "[Zetki Carcinnox Mk II](/w/Zetki_Carcinnox_Mk_II "Zetki Carcinnox Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
-418. "[Zetki Carcinnox Mk III](/w/Zetki_Carcinnox_Mk_III "Zetki Carcinnox Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
-419. "[Zetki Carcinnox Mk IV](/w/Zetki_Carcinnox_Mk_IV?action=edit&redlink=1 "Zetki Carcinnox Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
-420. "[Zetki Cryophon Mk I](/w/Zetki_Cryophon_Mk_I "Zetki Cryophon Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
-421. "[Zetki Cryophon Mk II](/w/Zetki_Cryophon_Mk_II "Zetki Cryophon Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
-422. "[Zetki Cryophon Mk III](/w/Zetki_Cryophon_Mk_III "Zetki Cryophon Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
-423. "[Zetki Cryophon Mk IV](/w/Zetki_Cryophon_Mk_IV?action=edit&redlink=1 "Zetki Cryophon Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
-424. "[Zetki Glazio Mk I](/w/Zetki_Glazio_Mk_I "Zetki Glazio Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
-425. "[Zetki Glazio Mk II](/w/Zetki_Glazio_Mk_II "Zetki Glazio Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
-426. "[Zetki Glazio Mk III](/w/Zetki_Glazio_Mk_III "Zetki Glazio Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
-427. "[Zetki Glazio Mk IV](/w/Zetki_Glazio_Mk_IV?action=edit&redlink=1 "Zetki Glazio Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
-428. "[Zetki Laith Mk I](/w/Zetki_Laith_Mk_I "Zetki Laith Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
-429. "[Zetki Laith Mk II](/w/Zetki_Laith_Mk_II "Zetki Laith Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
-430. "[Zetki Laith Mk III](/w/Zetki_Laith_Mk_III "Zetki Laith Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
-431. "[Zetki Laith Mk IV](/w/Zetki_Laith_Mk_IV?action=edit&redlink=1 "Zetki Laith Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
-432. "[Zetki Photor Mk I](/w/Zetki_Photor_Mk_I "Zetki Photor Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
-433. "[Zetki Photor Mk II](/w/Zetki_Photor_Mk_II "Zetki Photor Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
-434. "[Zetki Photor Mk III](/w/Zetki_Photor_Mk_III "Zetki Photor Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
-435. "[Zetki Photor Mk IV](/w/Zetki_Photor_Mk_IV?action=edit&redlink=1 "Zetki Photor Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
-436. "[Zetki Pulsar Mk I](/w/Zetki_Pulsar_Mk_I "Zetki Pulsar Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
-437. "[Zetki Pulsar Mk II](/w/Zetki_Pulsar_Mk_II "Zetki Pulsar Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
-438. "[Zetki Pulsar Mk III](/w/Zetki_Pulsar_Mk_III "Zetki Pulsar Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
-439. "[Zetki Pulsar Mk IV](/w/Zetki_Pulsar_Mk_IV?action=edit&redlink=1 "Zetki Pulsar Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
-440. "[Zetki Talyn Mk I](/w/Zetki_Talyn_Mk_I "Zetki Talyn Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
-441. "[Zetki Talyn Mk II](/w/Zetki_Talyn_Mk_II "Zetki Talyn Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
-442. "[Zetki Talyn Mk III](/w/Zetki_Talyn_Mk_III "Zetki Talyn Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
-443. "[Zetki Talyn Mk IV](/w/Zetki_Talyn_Mk_IV?action=edit&redlink=1 "Zetki Talyn Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
-444. "[Zetki Vort Mk I](/w/Zetki_Vort_Mk_I "Zetki Vort Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
-445. "[Zetki Vort Mk II](/w/Zetki_Vort_Mk_II "Zetki Vort Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
-446. "[Zetki Vort Mk III](/w/Zetki_Vort_Mk_III "Zetki Vort Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
-447. "[Zetki Vort Mk IV](/w/Zetki_Vort_Mk_IV?action=edit&redlink=1 "Zetki Vort Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
+3. "[Adarza Claws](/w/Adarza_Claws?action=edit&redlink=1 "Adarza Claws (page does not exist)")" Missing GripType
+4. "[Adarza Claws](/w/Adarza_Claws?action=edit&redlink=1 "Adarza Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
+5. "[Adarza Claws](/w/Adarza_Claws?action=edit&redlink=1 "Adarza Claws (page does not exist)")" Magazine must be a value above 0
+6. "[Adarza Claws](/w/Adarza_Claws?action=edit&redlink=1 "Adarza Claws (page does not exist)")" Missing reload time or reload time has to be above 0
+7. "[Adarza Claws](/w/Adarza_Claws?action=edit&redlink=1 "Adarza Claws (page does not exist)")" Missing trigger type of weapon
+8. "[Amanata](/w/Amanata "Amanata")" Heavy attack must be greater than 0
+9. "[Apoc](/w/Apoc "Apoc")" Missing GripType
+10. "[Apoc](/w/Apoc "Apoc")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
+11. "[Apoc Mk I](/w/Apoc_Mk_I "Apoc Mk I")" Missing GripType
+12. "[Apoc Mk I](/w/Apoc_Mk_I "Apoc Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
+13. "[Apoc Mk II](/w/Apoc_Mk_II "Apoc Mk II")" Missing GripType
+14. "[Apoc Mk II](/w/Apoc_Mk_II "Apoc Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
+15. "[Apoc Mk III](/w/Apoc_Mk_III "Apoc Mk III")" Missing GripType
+16. "[Apoc Mk III](/w/Apoc_Mk_III "Apoc Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
+17. "[Arbucep (Atmosphere)](/w/Arbucep_(Atmosphere)?action=edit&redlink=1 "Arbucep (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Arbucep.png
+18. "[Artax](/w/Artax "Artax")" AmmoPickup must be a value greater than or equal to 0
+19. "[Artax](/w/Artax "Artax")" Missing GripType
+20. "[Burst Laser](/w/Burst_Laser "Burst Laser")" AmmoPickup must be a value greater than or equal to 0
+21. "[Burst Laser](/w/Burst_Laser "Burst Laser")" Missing GripType
+22. "[Burst Laser Prime](/w/Burst_Laser_Prime "Burst Laser Prime")" AmmoPickup must be a value greater than or equal to 0
+23. "[Burst Laser Prime](/w/Burst_Laser_Prime "Burst Laser Prime")" Missing GripType
+24. "[Cantic Prism](/w/Cantic_Prism "Cantic Prism")" AmmoPickup must be a value greater than or equal to 0
+25. "[Cantic Prism](/w/Cantic_Prism "Cantic Prism")" Missing GripType
+26. "[Carcinnox](/w/Carcinnox "Carcinnox")" Missing GripType
+27. "[Carcinnox](/w/Carcinnox "Carcinnox")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
+28. "[Carcinnox Mk I](/w/Carcinnox_Mk_I "Carcinnox Mk I")" Missing GripType
+29. "[Carcinnox Mk I](/w/Carcinnox_Mk_I "Carcinnox Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
+30. "[Carcinnox Mk II](/w/Carcinnox_Mk_II "Carcinnox Mk II")" Missing GripType
+31. "[Carcinnox Mk II](/w/Carcinnox_Mk_II "Carcinnox Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
+32. "[Carcinnox Mk III](/w/Carcinnox_Mk_III "Carcinnox Mk III")" Missing GripType
+33. "[Carcinnox Mk III](/w/Carcinnox_Mk_III "Carcinnox Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
+34. "[Catchmoon (Primary)](/w/Catchmoon_(Primary) "Catchmoon (Primary)")" Missing GripType
+35. "[Catchmoon (Primary)](/w/Catchmoon_(Primary) "Catchmoon (Primary)")" Image should be in the form of "WeaponName.png"; current value: Catchmoon.png
+36. "[Catchmoon (Primary)](/w/Catchmoon_(Primary) "Catchmoon (Primary)")" Magazine must be a value above 0
+37. "[Catchmoon (Primary)](/w/Catchmoon_(Primary) "Catchmoon (Primary)")" Missing reload time or reload time has to be above 0
+38. "[Catchmoon (Secondary)](/w/Catchmoon_(Secondary) "Catchmoon (Secondary)")" Missing GripType
+39. "[Catchmoon (Secondary)](/w/Catchmoon_(Secondary) "Catchmoon (Secondary)")" Image should be in the form of "WeaponName.png"; current value: Catchmoon.png
+40. "[Catchmoon (Secondary)](/w/Catchmoon_(Secondary) "Catchmoon (Secondary)")" Magazine must be a value above 0
+41. "[Catchmoon (Secondary)](/w/Catchmoon_(Secondary) "Catchmoon (Secondary)")" Missing reload time or reload time has to be above 0
+42. "[Cerata](/w/Cerata "Cerata")" Heavy attack must be greater than 0
+43. "[Chesa Claws](/w/Chesa_Claws?action=edit&redlink=1 "Chesa Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
+44. "[Chesa Claws](/w/Chesa_Claws?action=edit&redlink=1 "Chesa Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
+45. "[Chesa Claws](/w/Chesa_Claws?action=edit&redlink=1 "Chesa Claws (page does not exist)")" Missing GripType
+46. "[Chesa Claws](/w/Chesa_Claws?action=edit&redlink=1 "Chesa Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
+47. "[Chesa Claws](/w/Chesa_Claws?action=edit&redlink=1 "Chesa Claws (page does not exist)")" Magazine must be a value above 0
+48. "[Chesa Claws](/w/Chesa_Claws?action=edit&redlink=1 "Chesa Claws (page does not exist)")" Missing reload time or reload time has to be above 0
+49. "[Chesa Claws](/w/Chesa_Claws?action=edit&redlink=1 "Chesa Claws (page does not exist)")" Missing trigger type of weapon
+50. "[Coda Pathocyst](/w/Coda_Pathocyst "Coda Pathocyst")" Heavy attack must be greater than 0
+51. "[Cortege](/w/Cortege "Cortege")" AmmoPickup must be a value greater than or equal to 0
+52. "[Cortege (Atmosphere)](/w/Cortege_(Atmosphere)?action=edit&redlink=1 "Cortege (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Cortege.png
+53. "[Corvas](/w/Corvas "Corvas")" AmmoPickup must be a value greater than or equal to 0
+54. "[Corvas (Atmosphere)](/w/Corvas_(Atmosphere)?action=edit&redlink=1 "Corvas (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Corvas.png
+55. "[Corvas Prime](/w/Corvas_Prime "Corvas Prime")" AmmoPickup must be a value greater than or equal to 0
+56. "[Corvas Prime (Atmosphere)](/w/Corvas_Prime_(Atmosphere)?action=edit&redlink=1 "Corvas Prime (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: CorvasPrime.png
+57. "[Crescent Claws](/w/Crescent_Claws?action=edit&redlink=1 "Crescent Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
+58. "[Crescent Claws](/w/Crescent_Claws?action=edit&redlink=1 "Crescent Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
+59. "[Crescent Claws](/w/Crescent_Claws?action=edit&redlink=1 "Crescent Claws (page does not exist)")" Missing GripType
+60. "[Crescent Claws](/w/Crescent_Claws?action=edit&redlink=1 "Crescent Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
+61. "[Crescent Claws](/w/Crescent_Claws?action=edit&redlink=1 "Crescent Claws (page does not exist)")" Magazine must be a value above 0
+62. "[Crescent Claws](/w/Crescent_Claws?action=edit&redlink=1 "Crescent Claws (page does not exist)")" Missing reload time or reload time has to be above 0
+63. "[Crescent Claws](/w/Crescent_Claws?action=edit&redlink=1 "Crescent Claws (page does not exist)")" Missing trigger type of weapon
+64. "[Cryophon](/w/Cryophon "Cryophon")" Missing GripType
+65. "[Cryophon](/w/Cryophon "Cryophon")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
+66. "[Cryophon Mk I](/w/Cryophon_Mk_I "Cryophon Mk I")" Missing GripType
+67. "[Cryophon Mk I](/w/Cryophon_Mk_I "Cryophon Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
+68. "[Cryophon Mk II](/w/Cryophon_Mk_II "Cryophon Mk II")" Missing GripType
+69. "[Cryophon Mk II](/w/Cryophon_Mk_II "Cryophon Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
+70. "[Cryophon Mk III](/w/Cryophon_Mk_III "Cryophon Mk III")" Missing GripType
+71. "[Cryophon Mk III](/w/Cryophon_Mk_III "Cryophon Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
+72. "[Cryotra](/w/Cryotra "Cryotra")" AmmoPickup must be a value greater than or equal to 0
+73. "[Cryotra](/w/Cryotra "Cryotra")" Missing GripType
+74. "[Cyngas](/w/Cyngas "Cyngas")" AmmoPickup must be a value greater than or equal to 0
+75. "[Cyngas (Atmosphere)](/w/Cyngas_(Atmosphere)?action=edit&redlink=1 "Cyngas (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Cyngas.png
+76. "[Dargyn](/w/Dargyn "Dargyn")" AmmoPickup must be a value greater than or equal to 0
+77. "[Dargyn](/w/Dargyn "Dargyn")" Disposition must be between 0.5-1.55; default should be 0.5
+78. "[Dargyn](/w/Dargyn "Dargyn")" Missing GripType
+79. "[Dargyn](/w/Dargyn "Dargyn")" Image should be in the form of "WeaponName.png"; current value: GrnSkiffMissile.png
+80. "[Dargyn](/w/Dargyn "Dargyn")" Missing InternalName
+81. "[Dargyn](/w/Dargyn "Dargyn")" Missing mastery rank unlock and mastery has to between 0 and 17 inclusive
+82. "[Deconstructor](/w/Deconstructor "Deconstructor")" AmmoPickup must be a value greater than or equal to 0
+83. "[Deconstructor](/w/Deconstructor "Deconstructor")" Missing GripType
+84. "[Deconstructor Prime](/w/Deconstructor_Prime "Deconstructor Prime")" AmmoPickup must be a value greater than or equal to 0
+85. "[Deconstructor Prime](/w/Deconstructor_Prime "Deconstructor Prime")" Missing GripType
+86. "[Deth Machine Rifle](/w/Deth_Machine_Rifle "Deth Machine Rifle")" AmmoPickup must be a value greater than or equal to 0
+87. "[Deth Machine Rifle](/w/Deth_Machine_Rifle "Deth Machine Rifle")" Missing GripType
+88. "[Deth Machine Rifle Prime](/w/Deth_Machine_Rifle_Prime "Deth Machine Rifle Prime")" AmmoPickup must be a value greater than or equal to 0
+89. "[Deth Machine Rifle Prime](/w/Deth_Machine_Rifle_Prime "Deth Machine Rifle Prime")" Missing GripType
+90. "[Dissic Scaffold](/w/Dissic_Scaffold "Dissic Scaffold")" AmmoPickup must be a value greater than or equal to 0
+91. "[Dissic Scaffold](/w/Dissic_Scaffold "Dissic Scaffold")" Missing GripType
+92. "[Dual Decurion](/w/Dual_Decurion "Dual Decurion")" AmmoPickup must be a value greater than or equal to 0
+93. "[Dual Decurion (Atmosphere)](/w/Dual_Decurion_(Atmosphere)?action=edit&redlink=1 "Dual Decurion (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: DualDecurion.png
+94. "[Exard Scaffold](/w/Exard_Scaffold "Exard Scaffold")" AmmoPickup must be a value greater than or equal to 0
+95. "[Exard Scaffold](/w/Exard_Scaffold "Exard Scaffold")" Missing GripType
+96. "[Falcor](/w/Falcor "Falcor")" Heavy attack must be greater than 0
+97. "[Fluctus](/w/Fluctus "Fluctus")" AmmoPickup must be a value greater than or equal to 0
+98. "[Fluctus (Atmosphere)](/w/Fluctus_(Atmosphere)?action=edit&redlink=1 "Fluctus (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Fluctus.png
+99. "[Galvarc](/w/Galvarc "Galvarc")" Missing GripType
+100. "[Galvarc](/w/Galvarc "Galvarc")" Image should be in the form of "WeaponName.png"; current value: OrdnanceGalvarc.png
+101. "[Galvarc Mk I](/w/Galvarc_Mk_I "Galvarc Mk I")" Missing GripType
+102. "[Galvarc Mk I](/w/Galvarc_Mk_I "Galvarc Mk I")" Image should be in the form of "WeaponName.png"; current value: OrdnanceGalvarc.png
+103. "[Galvarc Mk II](/w/Galvarc_Mk_II "Galvarc Mk II")" Missing GripType
+104. "[Galvarc Mk II](/w/Galvarc_Mk_II "Galvarc Mk II")" Image should be in the form of "WeaponName.png"; current value: OrdnanceGalvarc.png
+105. "[Galvarc Mk III](/w/Galvarc_Mk_III "Galvarc Mk III")" Missing GripType
+106. "[Galvarc Mk III](/w/Galvarc_Mk_III "Galvarc Mk III")" Image should be in the form of "WeaponName.png"; current value: OrdnanceGalvarc.png
+107. "[Garuda Prime Talons](/w/Garuda_Prime_Talons "Garuda Prime Talons")" Missing GripType
+108. "[Garuda Talons](/w/Garuda_Talons "Garuda Talons")" Missing GripType
+109. "[Gaze (Primary)](/w/Gaze_(Primary) "Gaze (Primary)")" Missing GripType
+110. "[Gaze (Primary)](/w/Gaze_(Primary) "Gaze (Primary)")" Image should be in the form of "WeaponName.png"; current value: Gaze.png
+111. "[Gaze (Primary)](/w/Gaze_(Primary) "Gaze (Primary)")" Magazine must be a value above 0
+112. "[Gaze (Primary)](/w/Gaze_(Primary) "Gaze (Primary)")" Missing reload time or reload time has to be above 0
+113. "[Gaze (Secondary)](/w/Gaze_(Secondary) "Gaze (Secondary)")" Missing GripType
+114. "[Gaze (Secondary)](/w/Gaze_(Secondary) "Gaze (Secondary)")" Image should be in the form of "WeaponName.png"; current value: Gaze.png
+115. "[Gaze (Secondary)](/w/Gaze_(Secondary) "Gaze (Secondary)")" Magazine must be a value above 0
+116. "[Gaze (Secondary)](/w/Gaze_(Secondary) "Gaze (Secondary)")" Missing reload time or reload time has to be above 0
+117. "[Glaive](/w/Glaive "Glaive")" Heavy attack must be greater than 0
+118. "[Glaive Prime](/w/Glaive_Prime "Glaive Prime")" Heavy attack must be greater than 0
+119. "[Glazio](/w/Glazio "Glazio")" Missing GripType
+120. "[Glazio](/w/Glazio "Glazio")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
+121. "[Glazio Mk I](/w/Glazio_Mk_I "Glazio Mk I")" Missing GripType
+122. "[Glazio Mk I](/w/Glazio_Mk_I "Glazio Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
+123. "[Glazio Mk II](/w/Glazio_Mk_II "Glazio Mk II")" Missing GripType
+124. "[Glazio Mk II](/w/Glazio_Mk_II "Glazio Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
+125. "[Glazio Mk III](/w/Glazio_Mk_III "Glazio Mk III")" Missing GripType
+126. "[Glazio Mk III](/w/Glazio_Mk_III "Glazio Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
+127. "[Granmu Prism](/w/Granmu_Prism "Granmu Prism")" AmmoPickup must be a value greater than or equal to 0
+128. "[Granmu Prism](/w/Granmu_Prism "Granmu Prism")" Missing GripType
+129. "[Grattler](/w/Grattler "Grattler")" AmmoPickup must be a value greater than or equal to 0
+130. "[Grattler (Atmosphere)](/w/Grattler_(Atmosphere)?action=edit&redlink=1 "Grattler (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Grattler.png
+131. "[Grimoire](/w/Grimoire "Grimoire")" Magazine must be a value above 0
+132. "[Grimoire](/w/Grimoire "Grimoire")" Missing reload time or reload time has to be above 0
+133. "[Halikar](/w/Halikar "Halikar")" Heavy attack must be greater than 0
+134. "[Halikar Wraith](/w/Halikar_Wraith "Halikar Wraith")" Heavy attack must be greater than 0
+135. "[Hand Grenade](/w/Hand_Grenade "Hand Grenade")" AmmoMax must be a value greater than or equal to 0
+136. "[Hand Grenade](/w/Hand_Grenade "Hand Grenade")" AmmoPickup must be a value greater than or equal to 0
+137. "[Hand Grenade](/w/Hand_Grenade "Hand Grenade")" Missing GripType
+138. "[Hand Grenade](/w/Hand_Grenade "Hand Grenade")" Magazine must be a value above 0
+139. "[Hand Grenade](/w/Hand_Grenade "Hand Grenade")" Missing reload time or reload time has to be above 0
+140. "[Hand Grenade](/w/Hand_Grenade "Hand Grenade")" Missing trigger type of weapon
+141. "[Helminth Claws](/w/Helminth_Claws "Helminth Claws")" AmmoMax must be a value greater than or equal to 0
+142. "[Helminth Claws](/w/Helminth_Claws "Helminth Claws")" AmmoPickup must be a value greater than or equal to 0
+143. "[Helminth Claws](/w/Helminth_Claws "Helminth Claws")" Missing GripType
+144. "[Helminth Claws](/w/Helminth_Claws "Helminth Claws")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
+145. "[Helminth Claws](/w/Helminth_Claws "Helminth Claws")" Magazine must be a value above 0
+146. "[Helminth Claws](/w/Helminth_Claws "Helminth Claws")" Missing reload time or reload time has to be above 0
+147. "[Helminth Claws](/w/Helminth_Claws "Helminth Claws")" Missing trigger type of weapon
+148. "[Helstrum](/w/Helstrum "Helstrum")" AmmoPickup must be a value greater than or equal to 0
+149. "[Helstrum](/w/Helstrum "Helstrum")" Missing GripType
+150. "[Huras Claws](/w/Huras_Claws?action=edit&redlink=1 "Huras Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
+151. "[Huras Claws](/w/Huras_Claws?action=edit&redlink=1 "Huras Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
+152. "[Huras Claws](/w/Huras_Claws?action=edit&redlink=1 "Huras Claws (page does not exist)")" Missing GripType
+153. "[Huras Claws](/w/Huras_Claws?action=edit&redlink=1 "Huras Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
+154. "[Huras Claws](/w/Huras_Claws?action=edit&redlink=1 "Huras Claws (page does not exist)")" Magazine must be a value above 0
+155. "[Huras Claws](/w/Huras_Claws?action=edit&redlink=1 "Huras Claws (page does not exist)")" Missing reload time or reload time has to be above 0
+156. "[Huras Claws](/w/Huras_Claws?action=edit&redlink=1 "Huras Claws (page does not exist)")" Missing trigger type of weapon
+157. "[Imperator](/w/Imperator "Imperator")" AmmoPickup must be a value greater than or equal to 0
+158. "[Imperator (Atmosphere)](/w/Imperator_(Atmosphere)?action=edit&redlink=1 "Imperator (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Imperator.png
+159. "[Imperator Vandal](/w/Imperator_Vandal "Imperator Vandal")" AmmoPickup must be a value greater than or equal to 0
+160. "[Imperator Vandal (Atmosphere)](/w/Imperator_Vandal_(Atmosphere)?action=edit&redlink=1 "Imperator Vandal (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: ImperatorVandal.png
+161. "[Kestrel](/w/Kestrel "Kestrel")" Heavy attack must be greater than 0
+162. "[Kestrel Prime](/w/Kestrel_Prime "Kestrel Prime")" Heavy attack must be greater than 0
+163. "[Klamora Prism](/w/Klamora_Prism "Klamora Prism")" AmmoPickup must be a value greater than or equal to 0
+164. "[Klamora Prism](/w/Klamora_Prism "Klamora Prism")" Missing GripType
+165. "[Klebrik Scaffold](/w/Klebrik_Scaffold "Klebrik Scaffold")" AmmoPickup must be a value greater than or equal to 0
+166. "[Klebrik Scaffold](/w/Klebrik_Scaffold "Klebrik Scaffold")" Missing GripType
+167. "[Kuva Ayanga](/w/Kuva_Ayanga "Kuva Ayanga")" AmmoPickup must be a value greater than or equal to 0
+168. "[Kuva Ayanga (Atmosphere)](/w/Kuva_Ayanga_(Atmosphere)?action=edit&redlink=1 "Kuva Ayanga (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: KuvaAyanga.png
+169. "[Kuva Grattler](/w/Kuva_Grattler "Kuva Grattler")" AmmoPickup must be a value greater than or equal to 0
+170. "[Kuva Grattler (Atmosphere)](/w/Kuva_Grattler_(Atmosphere)?action=edit&redlink=1 "Kuva Grattler (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: KuvaGrattler.png
+171. "[Laith](/w/Laith "Laith")" Missing GripType
+172. "[Laith](/w/Laith "Laith")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
+173. "[Laith Mk I](/w/Laith_Mk_I "Laith Mk I")" Missing GripType
+174. "[Laith Mk I](/w/Laith_Mk_I "Laith Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
+175. "[Laith Mk II](/w/Laith_Mk_II "Laith Mk II")" Missing GripType
+176. "[Laith Mk II](/w/Laith_Mk_II "Laith Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
+177. "[Laith Mk III](/w/Laith_Mk_III "Laith Mk III")" Missing GripType
+178. "[Laith Mk III](/w/Laith_Mk_III "Laith Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
+179. "[Larkspur](/w/Larkspur "Larkspur")" AmmoPickup must be a value greater than or equal to 0
+180. "[Larkspur (Atmosphere)](/w/Larkspur_(Atmosphere)?action=edit&redlink=1 "Larkspur (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Larkspur.png
+181. "[Larkspur Prime](/w/Larkspur_Prime "Larkspur Prime")" AmmoPickup must be a value greater than or equal to 0
+182. "[Larkspur Prime (Atmosphere)](/w/Larkspur_Prime_(Atmosphere)?action=edit&redlink=1 "Larkspur Prime (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: LarkspurPrime.png
+183. "[Laser Rifle](/w/Laser_Rifle "Laser Rifle")" AmmoPickup must be a value greater than or equal to 0
+184. "[Laser Rifle](/w/Laser_Rifle "Laser Rifle")" Missing GripType
+185. "[Lavan Apoc Mk I](/w/Lavan_Apoc_Mk_I "Lavan Apoc Mk I")" Missing GripType
+186. "[Lavan Apoc Mk I](/w/Lavan_Apoc_Mk_I "Lavan Apoc Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
+187. "[Lavan Apoc Mk II](/w/Lavan_Apoc_Mk_II "Lavan Apoc Mk II")" Missing GripType
+188. "[Lavan Apoc Mk II](/w/Lavan_Apoc_Mk_II "Lavan Apoc Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
+189. "[Lavan Apoc Mk III](/w/Lavan_Apoc_Mk_III "Lavan Apoc Mk III")" Missing GripType
+190. "[Lavan Apoc Mk III](/w/Lavan_Apoc_Mk_III "Lavan Apoc Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
+191. "[Lavan Apoc Mk IV](/w/Lavan_Apoc_Mk_IV?action=edit&redlink=1 "Lavan Apoc Mk IV (page does not exist)")" Missing GripType
+192. "[Lavan Apoc Mk IV](/w/Lavan_Apoc_Mk_IV?action=edit&redlink=1 "Lavan Apoc Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
+193. "[Lavan Carcinnox Mk I](/w/Lavan_Carcinnox_Mk_I "Lavan Carcinnox Mk I")" Missing GripType
+194. "[Lavan Carcinnox Mk I](/w/Lavan_Carcinnox_Mk_I "Lavan Carcinnox Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
+195. "[Lavan Carcinnox Mk II](/w/Lavan_Carcinnox_Mk_II "Lavan Carcinnox Mk II")" Missing GripType
+196. "[Lavan Carcinnox Mk II](/w/Lavan_Carcinnox_Mk_II "Lavan Carcinnox Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
+197. "[Lavan Carcinnox Mk III](/w/Lavan_Carcinnox_Mk_III "Lavan Carcinnox Mk III")" Missing GripType
+198. "[Lavan Carcinnox Mk III](/w/Lavan_Carcinnox_Mk_III "Lavan Carcinnox Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
+199. "[Lavan Carcinnox Mk IV](/w/Lavan_Carcinnox_Mk_IV?action=edit&redlink=1 "Lavan Carcinnox Mk IV (page does not exist)")" Missing GripType
+200. "[Lavan Carcinnox Mk IV](/w/Lavan_Carcinnox_Mk_IV?action=edit&redlink=1 "Lavan Carcinnox Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
+201. "[Lavan Cryophon Mk I](/w/Lavan_Cryophon_Mk_I "Lavan Cryophon Mk I")" Missing GripType
+202. "[Lavan Cryophon Mk I](/w/Lavan_Cryophon_Mk_I "Lavan Cryophon Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
+203. "[Lavan Cryophon Mk II](/w/Lavan_Cryophon_Mk_II "Lavan Cryophon Mk II")" Missing GripType
+204. "[Lavan Cryophon Mk II](/w/Lavan_Cryophon_Mk_II "Lavan Cryophon Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
+205. "[Lavan Cryophon Mk III](/w/Lavan_Cryophon_Mk_III "Lavan Cryophon Mk III")" Missing GripType
+206. "[Lavan Cryophon Mk III](/w/Lavan_Cryophon_Mk_III "Lavan Cryophon Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
+207. "[Lavan Cryophon Mk IV](/w/Lavan_Cryophon_Mk_IV?action=edit&redlink=1 "Lavan Cryophon Mk IV (page does not exist)")" Missing GripType
+208. "[Lavan Cryophon Mk IV](/w/Lavan_Cryophon_Mk_IV?action=edit&redlink=1 "Lavan Cryophon Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
+209. "[Lavan Glazio Mk I](/w/Lavan_Glazio_Mk_I "Lavan Glazio Mk I")" Missing GripType
+210. "[Lavan Glazio Mk I](/w/Lavan_Glazio_Mk_I "Lavan Glazio Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
+211. "[Lavan Glazio Mk II](/w/Lavan_Glazio_Mk_II "Lavan Glazio Mk II")" Missing GripType
+212. "[Lavan Glazio Mk II](/w/Lavan_Glazio_Mk_II "Lavan Glazio Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
+213. "[Lavan Glazio Mk III](/w/Lavan_Glazio_Mk_III "Lavan Glazio Mk III")" Missing GripType
+214. "[Lavan Glazio Mk III](/w/Lavan_Glazio_Mk_III "Lavan Glazio Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
+215. "[Lavan Glazio Mk IV](/w/Lavan_Glazio_Mk_IV?action=edit&redlink=1 "Lavan Glazio Mk IV (page does not exist)")" Missing GripType
+216. "[Lavan Glazio Mk IV](/w/Lavan_Glazio_Mk_IV?action=edit&redlink=1 "Lavan Glazio Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
+217. "[Lavan Laith Mk I](/w/Lavan_Laith_Mk_I "Lavan Laith Mk I")" Missing GripType
+218. "[Lavan Laith Mk I](/w/Lavan_Laith_Mk_I "Lavan Laith Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
+219. "[Lavan Laith Mk II](/w/Lavan_Laith_Mk_II "Lavan Laith Mk II")" Missing GripType
+220. "[Lavan Laith Mk II](/w/Lavan_Laith_Mk_II "Lavan Laith Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
+221. "[Lavan Laith Mk III](/w/Lavan_Laith_Mk_III "Lavan Laith Mk III")" Missing GripType
+222. "[Lavan Laith Mk III](/w/Lavan_Laith_Mk_III "Lavan Laith Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
+223. "[Lavan Laith Mk IV](/w/Lavan_Laith_Mk_IV?action=edit&redlink=1 "Lavan Laith Mk IV (page does not exist)")" Missing GripType
+224. "[Lavan Laith Mk IV](/w/Lavan_Laith_Mk_IV?action=edit&redlink=1 "Lavan Laith Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
+225. "[Lavan Photor Mk I](/w/Lavan_Photor_Mk_I "Lavan Photor Mk I")" Missing GripType
+226. "[Lavan Photor Mk I](/w/Lavan_Photor_Mk_I "Lavan Photor Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
+227. "[Lavan Photor Mk II](/w/Lavan_Photor_Mk_II "Lavan Photor Mk II")" Missing GripType
+228. "[Lavan Photor Mk II](/w/Lavan_Photor_Mk_II "Lavan Photor Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
+229. "[Lavan Photor Mk III](/w/Lavan_Photor_Mk_III "Lavan Photor Mk III")" Missing GripType
+230. "[Lavan Photor Mk III](/w/Lavan_Photor_Mk_III "Lavan Photor Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
+231. "[Lavan Photor Mk IV](/w/Lavan_Photor_Mk_IV?action=edit&redlink=1 "Lavan Photor Mk IV (page does not exist)")" Missing GripType
+232. "[Lavan Photor Mk IV](/w/Lavan_Photor_Mk_IV?action=edit&redlink=1 "Lavan Photor Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
+233. "[Lavan Pulsar Mk I](/w/Lavan_Pulsar_Mk_I "Lavan Pulsar Mk I")" Missing GripType
+234. "[Lavan Pulsar Mk I](/w/Lavan_Pulsar_Mk_I "Lavan Pulsar Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
+235. "[Lavan Pulsar Mk II](/w/Lavan_Pulsar_Mk_II "Lavan Pulsar Mk II")" Missing GripType
+236. "[Lavan Pulsar Mk II](/w/Lavan_Pulsar_Mk_II "Lavan Pulsar Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
+237. "[Lavan Pulsar Mk III](/w/Lavan_Pulsar_Mk_III "Lavan Pulsar Mk III")" Missing GripType
+238. "[Lavan Pulsar Mk III](/w/Lavan_Pulsar_Mk_III "Lavan Pulsar Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
+239. "[Lavan Pulsar Mk IV](/w/Lavan_Pulsar_Mk_IV?action=edit&redlink=1 "Lavan Pulsar Mk IV (page does not exist)")" Missing GripType
+240. "[Lavan Pulsar Mk IV](/w/Lavan_Pulsar_Mk_IV?action=edit&redlink=1 "Lavan Pulsar Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
+241. "[Lavan Talyn Mk I](/w/Lavan_Talyn_Mk_I "Lavan Talyn Mk I")" Missing GripType
+242. "[Lavan Talyn Mk I](/w/Lavan_Talyn_Mk_I "Lavan Talyn Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
+243. "[Lavan Talyn Mk II](/w/Lavan_Talyn_Mk_II "Lavan Talyn Mk II")" Missing GripType
+244. "[Lavan Talyn Mk II](/w/Lavan_Talyn_Mk_II "Lavan Talyn Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
+245. "[Lavan Talyn Mk III](/w/Lavan_Talyn_Mk_III "Lavan Talyn Mk III")" Missing GripType
+246. "[Lavan Talyn Mk III](/w/Lavan_Talyn_Mk_III "Lavan Talyn Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
+247. "[Lavan Talyn Mk IV](/w/Lavan_Talyn_Mk_IV?action=edit&redlink=1 "Lavan Talyn Mk IV (page does not exist)")" Missing GripType
+248. "[Lavan Talyn Mk IV](/w/Lavan_Talyn_Mk_IV?action=edit&redlink=1 "Lavan Talyn Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
+249. "[Lavan Vort Mk I](/w/Lavan_Vort_Mk_I "Lavan Vort Mk I")" Missing GripType
+250. "[Lavan Vort Mk I](/w/Lavan_Vort_Mk_I "Lavan Vort Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
+251. "[Lavan Vort Mk II](/w/Lavan_Vort_Mk_II "Lavan Vort Mk II")" Missing GripType
+252. "[Lavan Vort Mk II](/w/Lavan_Vort_Mk_II "Lavan Vort Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
+253. "[Lavan Vort Mk III](/w/Lavan_Vort_Mk_III "Lavan Vort Mk III")" Missing GripType
+254. "[Lavan Vort Mk III](/w/Lavan_Vort_Mk_III "Lavan Vort Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
+255. "[Lavan Vort Mk IV](/w/Lavan_Vort_Mk_IV?action=edit&redlink=1 "Lavan Vort Mk IV (page does not exist)")" Missing GripType
+256. "[Lavan Vort Mk IV](/w/Lavan_Vort_Mk_IV?action=edit&redlink=1 "Lavan Vort Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
+257. "[Lega Prism](/w/Lega_Prism "Lega Prism")" AmmoPickup must be a value greater than or equal to 0
+258. "[Lega Prism](/w/Lega_Prism "Lega Prism")" Missing GripType
+259. "[Lob Blobs](/w/Lob_Blobs "Lob Blobs")" AmmoPickup must be a value greater than or equal to 0
+260. "[Lob Blobs](/w/Lob_Blobs "Lob Blobs")" Missing GripType
+261. "[Lob Blobs](/w/Lob_Blobs "Lob Blobs")" Missing InternalName
+262. "[Lob Blobs](/w/Lob_Blobs "Lob Blobs")" Missing reload time or reload time has to be above 0
+263. "[Mandonel](/w/Mandonel "Mandonel")" AmmoPickup must be a value greater than or equal to 0
+264. "[Mandonel](/w/Mandonel "Mandonel")" Missing InternalName
+265. "[Mandonel (Atmosphere)](/w/Mandonel_(Atmosphere)?action=edit&redlink=1 "Mandonel (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Mandonel.png
+266. "[Mandonel (Atmosphere)](/w/Mandonel_(Atmosphere)?action=edit&redlink=1 "Mandonel (Atmosphere) (page does not exist)")" Missing InternalName
+267. "[Mausolon](/w/Mausolon "Mausolon")" AmmoPickup must be a value greater than or equal to 0
+268. "[Mausolon (Atmosphere)](/w/Mausolon_(Atmosphere)?action=edit&redlink=1 "Mausolon (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Mausolon.png
+269. "[Medjay Claws](/w/Medjay_Claws?action=edit&redlink=1 "Medjay Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
+270. "[Medjay Claws](/w/Medjay_Claws?action=edit&redlink=1 "Medjay Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
+271. "[Medjay Claws](/w/Medjay_Claws?action=edit&redlink=1 "Medjay Claws (page does not exist)")" Missing GripType
+272. "[Medjay Claws](/w/Medjay_Claws?action=edit&redlink=1 "Medjay Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
+273. "[Medjay Claws](/w/Medjay_Claws?action=edit&redlink=1 "Medjay Claws (page does not exist)")" Magazine must be a value above 0
+274. "[Medjay Claws](/w/Medjay_Claws?action=edit&redlink=1 "Medjay Claws (page does not exist)")" Missing reload time or reload time has to be above 0
+275. "[Medjay Claws](/w/Medjay_Claws?action=edit&redlink=1 "Medjay Claws (page does not exist)")" Missing trigger type of weapon
+276. "[Milati](/w/Milati "Milati")" Missing GripType
+277. "[Milati](/w/Milati "Milati")" Image should be in the form of "WeaponName.png"; current value: OrdnanceMilati.png
+278. "[Milati Mk I](/w/Milati_Mk_I "Milati Mk I")" Missing GripType
+279. "[Milati Mk I](/w/Milati_Mk_I "Milati Mk I")" Image should be in the form of "WeaponName.png"; current value: OrdnanceMilati.png
+280. "[Milati Mk II](/w/Milati_Mk_II "Milati Mk II")" Missing GripType
+281. "[Milati Mk II](/w/Milati_Mk_II "Milati Mk II")" Image should be in the form of "WeaponName.png"; current value: OrdnanceMilati.png
+282. "[Milati Mk III](/w/Milati_Mk_III "Milati Mk III")" Missing GripType
+283. "[Milati Mk III](/w/Milati_Mk_III "Milati Mk III")" Image should be in the form of "WeaponName.png"; current value: OrdnanceMilati.png
+284. "[Mk1-Braton](/w/Mk1-Braton "Mk1-Braton")" Image should be in the form of "WeaponName.png"; current value: Braton.png
+285. "[Mk1-Furis](/w/Mk1-Furis "Mk1-Furis")" Image should be in the form of "WeaponName.png"; current value: Furis.png
+286. "[Mk1-Kunai](/w/Mk1-Kunai "Mk1-Kunai")" Image should be in the form of "WeaponName.png"; current value: Kunai.png
+287. "[Mk1-Paris](/w/Mk1-Paris "Mk1-Paris")" Image should be in the form of "WeaponName.png"; current value: Paris.png
+288. "[Mk1-Strun](/w/Mk1-Strun "Mk1-Strun")" Image should be in the form of "WeaponName.png"; current value: Strun.png
+289. "[Morgha](/w/Morgha "Morgha")" AmmoPickup must be a value greater than or equal to 0
+290. "[Morgha (Atmosphere)](/w/Morgha_(Atmosphere)?action=edit&redlink=1 "Morgha (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Morgha.png
+291. "[Mote Amp](/w/Mote_Amp "Mote Amp")" AmmoPickup must be a value greater than or equal to 0
+292. "[Mote Amp](/w/Mote_Amp "Mote Amp")" Missing GripType
+293. "[Multron](/w/Multron "Multron")" AmmoPickup must be a value greater than or equal to 0
+294. "[Multron](/w/Multron "Multron")" Missing GripType
+295. "[Noodletron](/w/Noodletron "Noodletron")" AmmoPickup must be a value greater than or equal to 0
+296. "[Noodletron](/w/Noodletron "Noodletron")" Missing GripType
+297. "[Noodletron](/w/Noodletron "Noodletron")" Missing InternalName
+298. "[Noodletron](/w/Noodletron "Noodletron")" Magazine must be a value above 0
+299. "[Noodletron](/w/Noodletron "Noodletron")" Missing reload time or reload time has to be above 0
+300. "[Orvius](/w/Orvius "Orvius")" Heavy attack must be greater than 0
+301. "[Panzer Claws](/w/Panzer_Claws?action=edit&redlink=1 "Panzer Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
+302. "[Panzer Claws](/w/Panzer_Claws?action=edit&redlink=1 "Panzer Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
+303. "[Panzer Claws](/w/Panzer_Claws?action=edit&redlink=1 "Panzer Claws (page does not exist)")" Missing GripType
+304. "[Panzer Claws](/w/Panzer_Claws?action=edit&redlink=1 "Panzer Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
+305. "[Panzer Claws](/w/Panzer_Claws?action=edit&redlink=1 "Panzer Claws (page does not exist)")" Magazine must be a value above 0
+306. "[Panzer Claws](/w/Panzer_Claws?action=edit&redlink=1 "Panzer Claws (page does not exist)")" Missing reload time or reload time has to be above 0
+307. "[Panzer Claws](/w/Panzer_Claws?action=edit&redlink=1 "Panzer Claws (page does not exist)")" Missing trigger type of weapon
+308. "[Parazon](/w/Parazon "Parazon")" AmmoMax must be a value greater than or equal to 0
+309. "[Parazon](/w/Parazon "Parazon")" AmmoPickup must be a value greater than or equal to 0
+310. "[Parazon](/w/Parazon "Parazon")" Missing GripType
+311. "[Parazon](/w/Parazon "Parazon")" Magazine must be a value above 0
+312. "[Parazon](/w/Parazon "Parazon")" Missing reload time or reload time has to be above 0
+313. "[Parazon](/w/Parazon "Parazon")" Missing trigger type of weapon
+314. "[Pathocyst](/w/Pathocyst "Pathocyst")" Heavy attack must be greater than 0
+315. "[Pencha Scaffold](/w/Pencha_Scaffold "Pencha Scaffold")" AmmoPickup must be a value greater than or equal to 0
+316. "[Pencha Scaffold](/w/Pencha_Scaffold "Pencha Scaffold")" Missing GripType
+317. "[Phaedra](/w/Phaedra "Phaedra")" AmmoPickup must be a value greater than or equal to 0
+318. "[Phaedra (Atmosphere)](/w/Phaedra_(Atmosphere)?action=edit&redlink=1 "Phaedra (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Phaedra.png
+319. "[Phahd Scaffold](/w/Phahd_Scaffold "Phahd Scaffold")" AmmoPickup must be a value greater than or equal to 0
+320. "[Phahd Scaffold](/w/Phahd_Scaffold "Phahd Scaffold")" Missing GripType
+321. "[Pharaoh Claws](/w/Pharaoh_Claws?action=edit&redlink=1 "Pharaoh Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
+322. "[Pharaoh Claws](/w/Pharaoh_Claws?action=edit&redlink=1 "Pharaoh Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
+323. "[Pharaoh Claws](/w/Pharaoh_Claws?action=edit&redlink=1 "Pharaoh Claws (page does not exist)")" Missing GripType
+324. "[Pharaoh Claws](/w/Pharaoh_Claws?action=edit&redlink=1 "Pharaoh Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
+325. "[Pharaoh Claws](/w/Pharaoh_Claws?action=edit&redlink=1 "Pharaoh Claws (page does not exist)")" Magazine must be a value above 0
+326. "[Pharaoh Claws](/w/Pharaoh_Claws?action=edit&redlink=1 "Pharaoh Claws (page does not exist)")" Missing reload time or reload time has to be above 0
+327. "[Pharaoh Claws](/w/Pharaoh_Claws?action=edit&redlink=1 "Pharaoh Claws (page does not exist)")" Missing trigger type of weapon
+328. "[Photor](/w/Photor "Photor")" Missing GripType
+329. "[Photor](/w/Photor "Photor")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
+330. "[Photor Mk I](/w/Photor_Mk_I "Photor Mk I")" Missing GripType
+331. "[Photor Mk I](/w/Photor_Mk_I "Photor Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
+332. "[Photor Mk II](/w/Photor_Mk_II "Photor Mk II")" Missing GripType
+333. "[Photor Mk II](/w/Photor_Mk_II "Photor Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
+334. "[Photor Mk III](/w/Photor_Mk_III "Photor Mk III")" Missing GripType
+335. "[Photor Mk III](/w/Photor_Mk_III "Photor Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
+336. "[Prime Laser Rifle](/w/Prime_Laser_Rifle "Prime Laser Rifle")" AmmoPickup must be a value greater than or equal to 0
+337. "[Prime Laser Rifle](/w/Prime_Laser_Rifle "Prime Laser Rifle")" Missing GripType
+338. "[Prisma Burst Laser](/w/Prisma_Burst_Laser "Prisma Burst Laser")" AmmoPickup must be a value greater than or equal to 0
+339. "[Prisma Burst Laser](/w/Prisma_Burst_Laser "Prisma Burst Laser")" Missing GripType
+340. "[Prisma Dual Decurions](/w/Prisma_Dual_Decurions "Prisma Dual Decurions")" AmmoPickup must be a value greater than or equal to 0
+341. "[Prisma Dual Decurions (Atmosphere)](/w/Prisma_Dual_Decurions_(Atmosphere)?action=edit&redlink=1 "Prisma Dual Decurions (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: PrismaDualDecurions.png
+342. "[Propa Scaffold](/w/Propa_Scaffold "Propa Scaffold")" AmmoPickup must be a value greater than or equal to 0
+343. "[Propa Scaffold](/w/Propa_Scaffold "Propa Scaffold")" Missing GripType
+344. "[Pugil](/w/Pugil "Pugil")" AmmoMax must be a value greater than or equal to 0
+345. "[Pugil](/w/Pugil "Pugil")" AmmoPickup must be a value greater than or equal to 0
+346. "[Pugil](/w/Pugil "Pugil")" Missing GripType
+347. "[Pugil](/w/Pugil "Pugil")" Missing InternalName
+348. "[Pugil](/w/Pugil "Pugil")" Magazine must be a value above 0
+349. "[Pugil](/w/Pugil "Pugil")" Missing reload time or reload time has to be above 0
+350. "[Pugil](/w/Pugil "Pugil")" Missing trigger type of weapon
+351. "[Pulsar](/w/Pulsar "Pulsar")" Missing GripType
+352. "[Pulsar](/w/Pulsar "Pulsar")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
+353. "[Pulsar Mk I](/w/Pulsar_Mk_I "Pulsar Mk I")" Missing GripType
+354. "[Pulsar Mk I](/w/Pulsar_Mk_I "Pulsar Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
+355. "[Pulsar Mk II](/w/Pulsar_Mk_II "Pulsar Mk II")" Missing GripType
+356. "[Pulsar Mk II](/w/Pulsar_Mk_II "Pulsar Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
+357. "[Pulsar Mk III](/w/Pulsar_Mk_III "Pulsar Mk III")" Missing GripType
+358. "[Pulsar Mk III](/w/Pulsar_Mk_III "Pulsar Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
+359. "[Rahn Prism](/w/Rahn_Prism "Rahn Prism")" AmmoPickup must be a value greater than or equal to 0
+360. "[Rahn Prism](/w/Rahn_Prism "Rahn Prism")" Missing GripType
+361. "[Raksa Claws](/w/Raksa_Claws?action=edit&redlink=1 "Raksa Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
+362. "[Raksa Claws](/w/Raksa_Claws?action=edit&redlink=1 "Raksa Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
+363. "[Raksa Claws](/w/Raksa_Claws?action=edit&redlink=1 "Raksa Claws (page does not exist)")" Missing GripType
+364. "[Raksa Claws](/w/Raksa_Claws?action=edit&redlink=1 "Raksa Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
+365. "[Raksa Claws](/w/Raksa_Claws?action=edit&redlink=1 "Raksa Claws (page does not exist)")" Magazine must be a value above 0
+366. "[Raksa Claws](/w/Raksa_Claws?action=edit&redlink=1 "Raksa Claws (page does not exist)")" Missing reload time or reload time has to be above 0
+367. "[Raksa Claws](/w/Raksa_Claws?action=edit&redlink=1 "Raksa Claws (page does not exist)")" Missing trigger type of weapon
+368. "[Rampart](/w/Rampart "Rampart")" AmmoPickup must be a value greater than or equal to 0
+369. "[Rampart](/w/Rampart "Rampart")" Disposition must be between 0.5-1.55; default should be 0.5
+370. "[Rampart](/w/Rampart "Rampart")" Missing GripType
+371. "[Rampart](/w/Rampart "Rampart")" Missing InternalName
+372. "[Rampart](/w/Rampart "Rampart")" Missing mastery rank unlock and mastery has to between 0 and 17 inclusive
+373. "[Raplak Prism](/w/Raplak_Prism "Raplak Prism")" AmmoPickup must be a value greater than or equal to 0
+374. "[Raplak Prism](/w/Raplak_Prism "Raplak Prism")" Missing GripType
+375. "[Rattleguts (Primary)](/w/Rattleguts_(Primary) "Rattleguts (Primary)")" Missing GripType
+376. "[Rattleguts (Primary)](/w/Rattleguts_(Primary) "Rattleguts (Primary)")" Image should be in the form of "WeaponName.png"; current value: Rattleguts.png
+377. "[Rattleguts (Primary)](/w/Rattleguts_(Primary) "Rattleguts (Primary)")" Magazine must be a value above 0
+378. "[Rattleguts (Primary)](/w/Rattleguts_(Primary) "Rattleguts (Primary)")" Missing reload time or reload time has to be above 0
+379. "[Rattleguts (Secondary)](/w/Rattleguts_(Secondary) "Rattleguts (Secondary)")" Missing GripType
+380. "[Rattleguts (Secondary)](/w/Rattleguts_(Secondary) "Rattleguts (Secondary)")" Image should be in the form of "WeaponName.png"; current value: Rattleguts.png
+381. "[Rattleguts (Secondary)](/w/Rattleguts_(Secondary) "Rattleguts (Secondary)")" Magazine must be a value above 0
+382. "[Rattleguts (Secondary)](/w/Rattleguts_(Secondary) "Rattleguts (Secondary)")" Missing reload time or reload time has to be above 0
+383. "[Razorflies](/w/Razorflies "Razorflies")" AmmoMax must be a value greater than or equal to 0
+384. "[Razorflies](/w/Razorflies "Razorflies")" AmmoPickup must be a value greater than or equal to 0
+385. "[Razorflies](/w/Razorflies "Razorflies")" Missing GripType
+386. "[Razorflies](/w/Razorflies "Razorflies")" Image should be in the form of "WeaponName.png"; current value: Razorfly.png
+387. "[Razorflies](/w/Razorflies "Razorflies")" Magazine must be a value above 0
+388. "[Razorflies](/w/Razorflies "Razorflies")" Missing reload time or reload time has to be above 0
+389. "[Razorflies](/w/Razorflies "Razorflies")" Missing trigger type of weapon
+390. "[Sagek Prime](/w/Sagek_Prime "Sagek Prime")" Missing GripType
+391. "[Sahasa Claws](/w/Sahasa_Claws?action=edit&redlink=1 "Sahasa Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
+392. "[Sahasa Claws](/w/Sahasa_Claws?action=edit&redlink=1 "Sahasa Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
+393. "[Sahasa Claws](/w/Sahasa_Claws?action=edit&redlink=1 "Sahasa Claws (page does not exist)")" Missing GripType
+394. "[Sahasa Claws](/w/Sahasa_Claws?action=edit&redlink=1 "Sahasa Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
+395. "[Sahasa Claws](/w/Sahasa_Claws?action=edit&redlink=1 "Sahasa Claws (page does not exist)")" Magazine must be a value above 0
+396. "[Sahasa Claws](/w/Sahasa_Claws?action=edit&redlink=1 "Sahasa Claws (page does not exist)")" Missing reload time or reload time has to be above 0
+397. "[Sahasa Claws](/w/Sahasa_Claws?action=edit&redlink=1 "Sahasa Claws (page does not exist)")" Missing trigger type of weapon
+398. "[Shraksun Scaffold](/w/Shraksun_Scaffold "Shraksun Scaffold")" AmmoPickup must be a value greater than or equal to 0
+399. "[Shraksun Scaffold](/w/Shraksun_Scaffold "Shraksun Scaffold")" Missing GripType
+400. "[Shwaak Prism](/w/Shwaak_Prism "Shwaak Prism")" AmmoPickup must be a value greater than or equal to 0
+401. "[Shwaak Prism](/w/Shwaak_Prism "Shwaak Prism")" Missing GripType
+402. "[Sirocco](/w/Sirocco "Sirocco")" AmmoPickup must be a value greater than or equal to 0
+403. "[Sirocco](/w/Sirocco "Sirocco")" Missing GripType
+404. "[Sly Claws](/w/Sly_Claws?action=edit&redlink=1 "Sly Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
+405. "[Sly Claws](/w/Sly_Claws?action=edit&redlink=1 "Sly Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
+406. "[Sly Claws](/w/Sly_Claws?action=edit&redlink=1 "Sly Claws (page does not exist)")" Missing GripType
+407. "[Sly Claws](/w/Sly_Claws?action=edit&redlink=1 "Sly Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
+408. "[Sly Claws](/w/Sly_Claws?action=edit&redlink=1 "Sly Claws (page does not exist)")" Magazine must be a value above 0
+409. "[Sly Claws](/w/Sly_Claws?action=edit&redlink=1 "Sly Claws (page does not exist)")" Missing reload time or reload time has to be above 0
+410. "[Sly Claws](/w/Sly_Claws?action=edit&redlink=1 "Sly Claws (page does not exist)")" Missing trigger type of weapon
+411. "[Smeeta Claws](/w/Smeeta_Claws "Smeeta Claws")" AmmoMax must be a value greater than or equal to 0
+412. "[Smeeta Claws](/w/Smeeta_Claws "Smeeta Claws")" AmmoPickup must be a value greater than or equal to 0
+413. "[Smeeta Claws](/w/Smeeta_Claws "Smeeta Claws")" Missing GripType
+414. "[Smeeta Claws](/w/Smeeta_Claws "Smeeta Claws")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
+415. "[Smeeta Claws](/w/Smeeta_Claws "Smeeta Claws")" Magazine must be a value above 0
+416. "[Smeeta Claws](/w/Smeeta_Claws "Smeeta Claws")" Missing reload time or reload time has to be above 0
+417. "[Smeeta Claws](/w/Smeeta_Claws "Smeeta Claws")" Missing trigger type of weapon
+418. "[Soaktron](/w/Soaktron "Soaktron")" AmmoPickup must be a value greater than or equal to 0
+419. "[Soaktron](/w/Soaktron "Soaktron")" Missing GripType
+420. "[Soaktron](/w/Soaktron "Soaktron")" Missing InternalName
+421. "[Sporelacer (Primary)](/w/Sporelacer_(Primary) "Sporelacer (Primary)")" Missing GripType
+422. "[Sporelacer (Primary)](/w/Sporelacer_(Primary) "Sporelacer (Primary)")" Image should be in the form of "WeaponName.png"; current value: Sporelacer.png
+423. "[Sporelacer (Primary)](/w/Sporelacer_(Primary) "Sporelacer (Primary)")" Magazine must be a value above 0
+424. "[Sporelacer (Primary)](/w/Sporelacer_(Primary) "Sporelacer (Primary)")" Missing reload time or reload time has to be above 0
+425. "[Sporelacer (Secondary)](/w/Sporelacer_(Secondary) "Sporelacer (Secondary)")" Missing GripType
+426. "[Sporelacer (Secondary)](/w/Sporelacer_(Secondary) "Sporelacer (Secondary)")" Image should be in the form of "WeaponName.png"; current value: Sporelacer.png
+427. "[Sporelacer (Secondary)](/w/Sporelacer_(Secondary) "Sporelacer (Secondary)")" Magazine must be a value above 0
+428. "[Sporelacer (Secondary)](/w/Sporelacer_(Secondary) "Sporelacer (Secondary)")" Missing reload time or reload time has to be above 0
+429. "[Stinger](/w/Stinger "Stinger")" AmmoPickup must be a value greater than or equal to 0
+430. "[Stinger](/w/Stinger "Stinger")" Missing GripType
+431. "[Sunika Claws](/w/Sunika_Claws?action=edit&redlink=1 "Sunika Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
+432. "[Sunika Claws](/w/Sunika_Claws?action=edit&redlink=1 "Sunika Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
+433. "[Sunika Claws](/w/Sunika_Claws?action=edit&redlink=1 "Sunika Claws (page does not exist)")" Missing GripType
+434. "[Sunika Claws](/w/Sunika_Claws?action=edit&redlink=1 "Sunika Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
+435. "[Sunika Claws](/w/Sunika_Claws?action=edit&redlink=1 "Sunika Claws (page does not exist)")" Magazine must be a value above 0
+436. "[Sunika Claws](/w/Sunika_Claws?action=edit&redlink=1 "Sunika Claws (page does not exist)")" Missing reload time or reload time has to be above 0
+437. "[Sunika Claws](/w/Sunika_Claws?action=edit&redlink=1 "Sunika Claws (page does not exist)")" Missing trigger type of weapon
+438. "[Sweeper](/w/Sweeper "Sweeper")" AmmoPickup must be a value greater than or equal to 0
+439. "[Sweeper](/w/Sweeper "Sweeper")" Missing GripType
+440. "[Sweeper Prime](/w/Sweeper_Prime "Sweeper Prime")" AmmoPickup must be a value greater than or equal to 0
+441. "[Sweeper Prime](/w/Sweeper_Prime "Sweeper Prime")" Missing GripType
+442. "[Talyn](/w/Talyn "Talyn")" Missing GripType
+443. "[Talyn](/w/Talyn "Talyn")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
+444. "[Talyn Mk I](/w/Talyn_Mk_I "Talyn Mk I")" Missing GripType
+445. "[Talyn Mk I](/w/Talyn_Mk_I "Talyn Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
+446. "[Talyn Mk II](/w/Talyn_Mk_II "Talyn Mk II")" Missing GripType
+447. "[Talyn Mk II](/w/Talyn_Mk_II "Talyn Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
+448. "[Talyn Mk III](/w/Talyn_Mk_III "Talyn Mk III")" Missing GripType
+449. "[Talyn Mk III](/w/Talyn_Mk_III "Talyn Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
+450. "[Tazicor](/w/Tazicor "Tazicor")" AmmoPickup must be a value greater than or equal to 0
+451. "[Tazicor](/w/Tazicor "Tazicor")" Missing GripType
+452. "[Thermian RPG](/w/Thermian_RPG "Thermian RPG")" Disposition must be between 0.5-1.55; default should be 0.5
+453. "[Thermian RPG](/w/Thermian_RPG "Thermian RPG")" Missing GripType
+454. "[Thermian RPG](/w/Thermian_RPG "Thermian RPG")" Missing mastery rank unlock and mastery has to between 0 and 17 inclusive
+455. "[Tombfinger (Primary)](/w/Tombfinger_(Primary) "Tombfinger (Primary)")" Missing GripType
+456. "[Tombfinger (Primary)](/w/Tombfinger_(Primary) "Tombfinger (Primary)")" Image should be in the form of "WeaponName.png"; current value: Tombfinger.png
+457. "[Tombfinger (Primary)](/w/Tombfinger_(Primary) "Tombfinger (Primary)")" Magazine must be a value above 0
+458. "[Tombfinger (Primary)](/w/Tombfinger_(Primary) "Tombfinger (Primary)")" Missing reload time or reload time has to be above 0
+459. "[Tombfinger (Secondary)](/w/Tombfinger_(Secondary) "Tombfinger (Secondary)")" Missing GripType
+460. "[Tombfinger (Secondary)](/w/Tombfinger_(Secondary) "Tombfinger (Secondary)")" Image should be in the form of "WeaponName.png"; current value: Tombfinger.png
+461. "[Tombfinger (Secondary)](/w/Tombfinger_(Secondary) "Tombfinger (Secondary)")" Magazine must be a value above 0
+462. "[Tombfinger (Secondary)](/w/Tombfinger_(Secondary) "Tombfinger (Secondary)")" Missing reload time or reload time has to be above 0
+463. "[Tunguska Cannon](/w/Tunguska_Cannon "Tunguska Cannon")" Missing GripType
+464. "[Tycho Seeker](/w/Tycho_Seeker "Tycho Seeker")" Missing GripType
+465. "[Tycho Seeker](/w/Tycho_Seeker "Tycho Seeker")" Image should be in the form of "WeaponName.png"; current value: OrdnanceTychoSeeker.png
+466. "[Tycho Seeker Mk I](/w/Tycho_Seeker_Mk_I "Tycho Seeker Mk I")" Missing GripType
+467. "[Tycho Seeker Mk I](/w/Tycho_Seeker_Mk_I "Tycho Seeker Mk I")" Image should be in the form of "WeaponName.png"; current value: OrdnanceTychoSeeker.png
+468. "[Tycho Seeker Mk II](/w/Tycho_Seeker_Mk_II "Tycho Seeker Mk II")" Missing GripType
+469. "[Tycho Seeker Mk II](/w/Tycho_Seeker_Mk_II "Tycho Seeker Mk II")" Image should be in the form of "WeaponName.png"; current value: OrdnanceTychoSeeker.png
+470. "[Tycho Seeker Mk III](/w/Tycho_Seeker_Mk_III "Tycho Seeker Mk III")" Missing GripType
+471. "[Tycho Seeker Mk III](/w/Tycho_Seeker_Mk_III "Tycho Seeker Mk III")" Image should be in the form of "WeaponName.png"; current value: OrdnanceTychoSeeker.png
+472. "[Unarmed](/w/Unarmed "Unarmed")" AmmoMax must be a value greater than or equal to 0
+473. "[Unarmed](/w/Unarmed "Unarmed")" AmmoPickup must be a value greater than or equal to 0
+474. "[Unarmed](/w/Unarmed "Unarmed")" Missing GripType
+475. "[Unarmed](/w/Unarmed "Unarmed")" Image should be in the form of "WeaponName.png"; current value: Blank.png
+476. "[Unarmed](/w/Unarmed "Unarmed")" Missing InternalName
+477. "[Unarmed](/w/Unarmed "Unarmed")" Magazine must be a value above 0
+478. "[Unarmed](/w/Unarmed "Unarmed")" Missing reload time or reload time has to be above 0
+479. "[Unarmed](/w/Unarmed "Unarmed")" Missing trigger type of weapon
+480. "[Vasca Claws](/w/Vasca_Claws?action=edit&redlink=1 "Vasca Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
+481. "[Vasca Claws](/w/Vasca_Claws?action=edit&redlink=1 "Vasca Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
+482. "[Vasca Claws](/w/Vasca_Claws?action=edit&redlink=1 "Vasca Claws (page does not exist)")" Missing GripType
+483. "[Vasca Claws](/w/Vasca_Claws?action=edit&redlink=1 "Vasca Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
+484. "[Vasca Claws](/w/Vasca_Claws?action=edit&redlink=1 "Vasca Claws (page does not exist)")" Magazine must be a value above 0
+485. "[Vasca Claws](/w/Vasca_Claws?action=edit&redlink=1 "Vasca Claws (page does not exist)")" Missing reload time or reload time has to be above 0
+486. "[Vasca Claws](/w/Vasca_Claws?action=edit&redlink=1 "Vasca Claws (page does not exist)")" Missing trigger type of weapon
+487. "[Velocitus](/w/Velocitus "Velocitus")" AmmoPickup must be a value greater than or equal to 0
+488. "[Velocitus (Atmosphere)](/w/Velocitus_(Atmosphere)?action=edit&redlink=1 "Velocitus (Atmosphere) (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: Velocitus.png
+489. "[Venari Claws](/w/Venari_Claws?action=edit&redlink=1 "Venari Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
+490. "[Venari Claws](/w/Venari_Claws?action=edit&redlink=1 "Venari Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
+491. "[Venari Claws](/w/Venari_Claws?action=edit&redlink=1 "Venari Claws (page does not exist)")" Missing GripType
+492. "[Venari Claws](/w/Venari_Claws?action=edit&redlink=1 "Venari Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
+493. "[Venari Claws](/w/Venari_Claws?action=edit&redlink=1 "Venari Claws (page does not exist)")" Magazine must be a value above 0
+494. "[Venari Claws](/w/Venari_Claws?action=edit&redlink=1 "Venari Claws (page does not exist)")" Missing reload time or reload time has to be above 0
+495. "[Venari Claws](/w/Venari_Claws?action=edit&redlink=1 "Venari Claws (page does not exist)")" Missing trigger type of weapon
+496. "[Venari Prime Claws](/w/Venari_Prime_Claws?action=edit&redlink=1 "Venari Prime Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
+497. "[Venari Prime Claws](/w/Venari_Prime_Claws?action=edit&redlink=1 "Venari Prime Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
+498. "[Venari Prime Claws](/w/Venari_Prime_Claws?action=edit&redlink=1 "Venari Prime Claws (page does not exist)")" Missing GripType
+499. "[Venari Prime Claws](/w/Venari_Prime_Claws?action=edit&redlink=1 "Venari Prime Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
+500. "[Venari Prime Claws](/w/Venari_Prime_Claws?action=edit&redlink=1 "Venari Prime Claws (page does not exist)")" Magazine must be a value above 0
+501. "[Venari Prime Claws](/w/Venari_Prime_Claws?action=edit&redlink=1 "Venari Prime Claws (page does not exist)")" Missing reload time or reload time has to be above 0
+502. "[Venari Prime Claws](/w/Venari_Prime_Claws?action=edit&redlink=1 "Venari Prime Claws (page does not exist)")" Missing trigger type of weapon
+503. "[Verglas](/w/Verglas "Verglas")" AmmoPickup must be a value greater than or equal to 0
+504. "[Verglas](/w/Verglas "Verglas")" Missing GripType
+505. "[Verglas Prime](/w/Verglas_Prime "Verglas Prime")" AmmoPickup must be a value greater than or equal to 0
+506. "[Verglas Prime](/w/Verglas_Prime "Verglas Prime")" Missing GripType
+507. "[Vermisplicer (Primary)](/w/Vermisplicer_(Primary) "Vermisplicer (Primary)")" Missing GripType
+508. "[Vermisplicer (Primary)](/w/Vermisplicer_(Primary) "Vermisplicer (Primary)")" Image should be in the form of "WeaponName.png"; current value: Vermisplicer.png
+509. "[Vermisplicer (Primary)](/w/Vermisplicer_(Primary) "Vermisplicer (Primary)")" Magazine must be a value above 0
+510. "[Vermisplicer (Primary)](/w/Vermisplicer_(Primary) "Vermisplicer (Primary)")" Missing reload time or reload time has to be above 0
+511. "[Vermisplicer (Secondary)](/w/Vermisplicer_(Secondary) "Vermisplicer (Secondary)")" Missing GripType
+512. "[Vermisplicer (Secondary)](/w/Vermisplicer_(Secondary) "Vermisplicer (Secondary)")" Image should be in the form of "WeaponName.png"; current value: Vermisplicer.png
+513. "[Vermisplicer (Secondary)](/w/Vermisplicer_(Secondary) "Vermisplicer (Secondary)")" Magazine must be a value above 0
+514. "[Vermisplicer (Secondary)](/w/Vermisplicer_(Secondary) "Vermisplicer (Secondary)")" Missing reload time or reload time has to be above 0
+515. "[Vidar Apoc Mk I](/w/Vidar_Apoc_Mk_I "Vidar Apoc Mk I")" Missing GripType
+516. "[Vidar Apoc Mk I](/w/Vidar_Apoc_Mk_I "Vidar Apoc Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
+517. "[Vidar Apoc Mk II](/w/Vidar_Apoc_Mk_II "Vidar Apoc Mk II")" Missing GripType
+518. "[Vidar Apoc Mk II](/w/Vidar_Apoc_Mk_II "Vidar Apoc Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
+519. "[Vidar Apoc Mk III](/w/Vidar_Apoc_Mk_III "Vidar Apoc Mk III")" Missing GripType
+520. "[Vidar Apoc Mk III](/w/Vidar_Apoc_Mk_III "Vidar Apoc Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
+521. "[Vidar Apoc Mk IV](/w/Vidar_Apoc_Mk_IV?action=edit&redlink=1 "Vidar Apoc Mk IV (page does not exist)")" Missing GripType
+522. "[Vidar Apoc Mk IV](/w/Vidar_Apoc_Mk_IV?action=edit&redlink=1 "Vidar Apoc Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
+523. "[Vidar Carcinnox Mk I](/w/Vidar_Carcinnox_Mk_I "Vidar Carcinnox Mk I")" Missing GripType
+524. "[Vidar Carcinnox Mk I](/w/Vidar_Carcinnox_Mk_I "Vidar Carcinnox Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
+525. "[Vidar Carcinnox Mk II](/w/Vidar_Carcinnox_Mk_II "Vidar Carcinnox Mk II")" Missing GripType
+526. "[Vidar Carcinnox Mk II](/w/Vidar_Carcinnox_Mk_II "Vidar Carcinnox Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
+527. "[Vidar Carcinnox Mk III](/w/Vidar_Carcinnox_Mk_III "Vidar Carcinnox Mk III")" Missing GripType
+528. "[Vidar Carcinnox Mk III](/w/Vidar_Carcinnox_Mk_III "Vidar Carcinnox Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
+529. "[Vidar Carcinnox Mk IV](/w/Vidar_Carcinnox_Mk_IV?action=edit&redlink=1 "Vidar Carcinnox Mk IV (page does not exist)")" Missing GripType
+530. "[Vidar Carcinnox Mk IV](/w/Vidar_Carcinnox_Mk_IV?action=edit&redlink=1 "Vidar Carcinnox Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
+531. "[Vidar Cryophon Mk I](/w/Vidar_Cryophon_Mk_I "Vidar Cryophon Mk I")" Missing GripType
+532. "[Vidar Cryophon Mk I](/w/Vidar_Cryophon_Mk_I "Vidar Cryophon Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
+533. "[Vidar Cryophon Mk II](/w/Vidar_Cryophon_Mk_II "Vidar Cryophon Mk II")" Missing GripType
+534. "[Vidar Cryophon Mk II](/w/Vidar_Cryophon_Mk_II "Vidar Cryophon Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
+535. "[Vidar Cryophon Mk III](/w/Vidar_Cryophon_Mk_III "Vidar Cryophon Mk III")" Missing GripType
+536. "[Vidar Cryophon Mk III](/w/Vidar_Cryophon_Mk_III "Vidar Cryophon Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
+537. "[Vidar Cryophon Mk IV](/w/Vidar_Cryophon_Mk_IV?action=edit&redlink=1 "Vidar Cryophon Mk IV (page does not exist)")" Missing GripType
+538. "[Vidar Cryophon Mk IV](/w/Vidar_Cryophon_Mk_IV?action=edit&redlink=1 "Vidar Cryophon Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
+539. "[Vidar Glazio Mk I](/w/Vidar_Glazio_Mk_I "Vidar Glazio Mk I")" Missing GripType
+540. "[Vidar Glazio Mk I](/w/Vidar_Glazio_Mk_I "Vidar Glazio Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
+541. "[Vidar Glazio Mk II](/w/Vidar_Glazio_Mk_II "Vidar Glazio Mk II")" Missing GripType
+542. "[Vidar Glazio Mk II](/w/Vidar_Glazio_Mk_II "Vidar Glazio Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
+543. "[Vidar Glazio Mk III](/w/Vidar_Glazio_Mk_III "Vidar Glazio Mk III")" Missing GripType
+544. "[Vidar Glazio Mk III](/w/Vidar_Glazio_Mk_III "Vidar Glazio Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
+545. "[Vidar Glazio Mk IV](/w/Vidar_Glazio_Mk_IV?action=edit&redlink=1 "Vidar Glazio Mk IV (page does not exist)")" Missing GripType
+546. "[Vidar Glazio Mk IV](/w/Vidar_Glazio_Mk_IV?action=edit&redlink=1 "Vidar Glazio Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
+547. "[Vidar Laith Mk I](/w/Vidar_Laith_Mk_I "Vidar Laith Mk I")" Missing GripType
+548. "[Vidar Laith Mk I](/w/Vidar_Laith_Mk_I "Vidar Laith Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
+549. "[Vidar Laith Mk II](/w/Vidar_Laith_Mk_II "Vidar Laith Mk II")" Missing GripType
+550. "[Vidar Laith Mk II](/w/Vidar_Laith_Mk_II "Vidar Laith Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
+551. "[Vidar Laith Mk III](/w/Vidar_Laith_Mk_III "Vidar Laith Mk III")" Missing GripType
+552. "[Vidar Laith Mk III](/w/Vidar_Laith_Mk_III "Vidar Laith Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
+553. "[Vidar Laith Mk IV](/w/Vidar_Laith_Mk_IV?action=edit&redlink=1 "Vidar Laith Mk IV (page does not exist)")" Missing GripType
+554. "[Vidar Laith Mk IV](/w/Vidar_Laith_Mk_IV?action=edit&redlink=1 "Vidar Laith Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
+555. "[Vidar Photor Mk I](/w/Vidar_Photor_Mk_I "Vidar Photor Mk I")" Missing GripType
+556. "[Vidar Photor Mk I](/w/Vidar_Photor_Mk_I "Vidar Photor Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
+557. "[Vidar Photor Mk II](/w/Vidar_Photor_Mk_II "Vidar Photor Mk II")" Missing GripType
+558. "[Vidar Photor Mk II](/w/Vidar_Photor_Mk_II "Vidar Photor Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
+559. "[Vidar Photor Mk III](/w/Vidar_Photor_Mk_III "Vidar Photor Mk III")" Missing GripType
+560. "[Vidar Photor Mk III](/w/Vidar_Photor_Mk_III "Vidar Photor Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
+561. "[Vidar Photor Mk IV](/w/Vidar_Photor_Mk_IV?action=edit&redlink=1 "Vidar Photor Mk IV (page does not exist)")" Missing GripType
+562. "[Vidar Photor Mk IV](/w/Vidar_Photor_Mk_IV?action=edit&redlink=1 "Vidar Photor Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
+563. "[Vidar Pulsar Mk I](/w/Vidar_Pulsar_Mk_I "Vidar Pulsar Mk I")" Missing GripType
+564. "[Vidar Pulsar Mk I](/w/Vidar_Pulsar_Mk_I "Vidar Pulsar Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
+565. "[Vidar Pulsar Mk II](/w/Vidar_Pulsar_Mk_II "Vidar Pulsar Mk II")" Missing GripType
+566. "[Vidar Pulsar Mk II](/w/Vidar_Pulsar_Mk_II "Vidar Pulsar Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
+567. "[Vidar Pulsar Mk III](/w/Vidar_Pulsar_Mk_III "Vidar Pulsar Mk III")" Missing GripType
+568. "[Vidar Pulsar Mk III](/w/Vidar_Pulsar_Mk_III "Vidar Pulsar Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
+569. "[Vidar Pulsar Mk IV](/w/Vidar_Pulsar_Mk_IV?action=edit&redlink=1 "Vidar Pulsar Mk IV (page does not exist)")" Missing GripType
+570. "[Vidar Pulsar Mk IV](/w/Vidar_Pulsar_Mk_IV?action=edit&redlink=1 "Vidar Pulsar Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
+571. "[Vidar Talyn Mk I](/w/Vidar_Talyn_Mk_I "Vidar Talyn Mk I")" Missing GripType
+572. "[Vidar Talyn Mk I](/w/Vidar_Talyn_Mk_I "Vidar Talyn Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
+573. "[Vidar Talyn Mk II](/w/Vidar_Talyn_Mk_II "Vidar Talyn Mk II")" Missing GripType
+574. "[Vidar Talyn Mk II](/w/Vidar_Talyn_Mk_II "Vidar Talyn Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
+575. "[Vidar Talyn Mk III](/w/Vidar_Talyn_Mk_III "Vidar Talyn Mk III")" Missing GripType
+576. "[Vidar Talyn Mk III](/w/Vidar_Talyn_Mk_III "Vidar Talyn Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
+577. "[Vidar Talyn Mk IV](/w/Vidar_Talyn_Mk_IV?action=edit&redlink=1 "Vidar Talyn Mk IV (page does not exist)")" Missing GripType
+578. "[Vidar Talyn Mk IV](/w/Vidar_Talyn_Mk_IV?action=edit&redlink=1 "Vidar Talyn Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
+579. "[Vidar Vort Mk I](/w/Vidar_Vort_Mk_I "Vidar Vort Mk I")" Missing GripType
+580. "[Vidar Vort Mk I](/w/Vidar_Vort_Mk_I "Vidar Vort Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
+581. "[Vidar Vort Mk II](/w/Vidar_Vort_Mk_II "Vidar Vort Mk II")" Missing GripType
+582. "[Vidar Vort Mk II](/w/Vidar_Vort_Mk_II "Vidar Vort Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
+583. "[Vidar Vort Mk III](/w/Vidar_Vort_Mk_III "Vidar Vort Mk III")" Missing GripType
+584. "[Vidar Vort Mk III](/w/Vidar_Vort_Mk_III "Vidar Vort Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
+585. "[Vidar Vort Mk IV](/w/Vidar_Vort_Mk_IV?action=edit&redlink=1 "Vidar Vort Mk IV (page does not exist)")" Missing GripType
+586. "[Vidar Vort Mk IV](/w/Vidar_Vort_Mk_IV?action=edit&redlink=1 "Vidar Vort Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
+587. "[Vinquibus (Melee)](/w/Vinquibus_(Melee) "Vinquibus (Melee)")" Block angle must be a value between 0 exclusive and 100 inclusive
+588. "[Vinquibus (Primary)](/w/Vinquibus_(Primary) "Vinquibus (Primary)")" Image should be in the form of "WeaponName.png"; current value: Vinquibus.png
+589. "[Vizier Claws](/w/Vizier_Claws?action=edit&redlink=1 "Vizier Claws (page does not exist)")" AmmoMax must be a value greater than or equal to 0
+590. "[Vizier Claws](/w/Vizier_Claws?action=edit&redlink=1 "Vizier Claws (page does not exist)")" AmmoPickup must be a value greater than or equal to 0
+591. "[Vizier Claws](/w/Vizier_Claws?action=edit&redlink=1 "Vizier Claws (page does not exist)")" Missing GripType
+592. "[Vizier Claws](/w/Vizier_Claws?action=edit&redlink=1 "Vizier Claws (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: BeastClaws.png
+593. "[Vizier Claws](/w/Vizier_Claws?action=edit&redlink=1 "Vizier Claws (page does not exist)")" Magazine must be a value above 0
+594. "[Vizier Claws](/w/Vizier_Claws?action=edit&redlink=1 "Vizier Claws (page does not exist)")" Missing reload time or reload time has to be above 0
+595. "[Vizier Claws](/w/Vizier_Claws?action=edit&redlink=1 "Vizier Claws (page does not exist)")" Missing trigger type of weapon
+596. "[Vort](/w/Vort "Vort")" Missing GripType
+597. "[Vort](/w/Vort "Vort")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
+598. "[Vort Mk I](/w/Vort_Mk_I "Vort Mk I")" Missing GripType
+599. "[Vort Mk I](/w/Vort_Mk_I "Vort Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
+600. "[Vort Mk II](/w/Vort_Mk_II "Vort Mk II")" Missing GripType
+601. "[Vort Mk II](/w/Vort_Mk_II "Vort Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
+602. "[Vort Mk III](/w/Vort_Mk_III "Vort Mk III")" Missing GripType
+603. "[Vort Mk III](/w/Vort_Mk_III "Vort Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
+604. "[Vulcax](/w/Vulcax "Vulcax")" AmmoPickup must be a value greater than or equal to 0
+605. "[Vulcax](/w/Vulcax "Vulcax")" Missing GripType
+606. "[Vulklok](/w/Vulklok "Vulklok")" AmmoPickup must be a value greater than or equal to 0
+607. "[Vulklok](/w/Vulklok "Vulklok")" Missing GripType
+608. "[War](/w/War "War")" Slide attack must be greater than 0
+609. "[War Prime](/w/War_Prime "War Prime")" Slide attack must be greater than 0
+610. "[Xoris](/w/Xoris "Xoris")" Heavy attack must be greater than 0
+611. "[Zetki Apoc Mk I](/w/Zetki_Apoc_Mk_I "Zetki Apoc Mk I")" Missing GripType
+612. "[Zetki Apoc Mk I](/w/Zetki_Apoc_Mk_I "Zetki Apoc Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
+613. "[Zetki Apoc Mk II](/w/Zetki_Apoc_Mk_II "Zetki Apoc Mk II")" Missing GripType
+614. "[Zetki Apoc Mk II](/w/Zetki_Apoc_Mk_II "Zetki Apoc Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
+615. "[Zetki Apoc Mk III](/w/Zetki_Apoc_Mk_III "Zetki Apoc Mk III")" Missing GripType
+616. "[Zetki Apoc Mk III](/w/Zetki_Apoc_Mk_III "Zetki Apoc Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
+617. "[Zetki Apoc Mk IV](/w/Zetki_Apoc_Mk_IV?action=edit&redlink=1 "Zetki Apoc Mk IV (page does not exist)")" Missing GripType
+618. "[Zetki Apoc Mk IV](/w/Zetki_Apoc_Mk_IV?action=edit&redlink=1 "Zetki Apoc Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretApoc.png
+619. "[Zetki Carcinnox Mk I](/w/Zetki_Carcinnox_Mk_I "Zetki Carcinnox Mk I")" Missing GripType
+620. "[Zetki Carcinnox Mk I](/w/Zetki_Carcinnox_Mk_I "Zetki Carcinnox Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
+621. "[Zetki Carcinnox Mk II](/w/Zetki_Carcinnox_Mk_II "Zetki Carcinnox Mk II")" Missing GripType
+622. "[Zetki Carcinnox Mk II](/w/Zetki_Carcinnox_Mk_II "Zetki Carcinnox Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
+623. "[Zetki Carcinnox Mk III](/w/Zetki_Carcinnox_Mk_III "Zetki Carcinnox Mk III")" Missing GripType
+624. "[Zetki Carcinnox Mk III](/w/Zetki_Carcinnox_Mk_III "Zetki Carcinnox Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
+625. "[Zetki Carcinnox Mk IV](/w/Zetki_Carcinnox_Mk_IV?action=edit&redlink=1 "Zetki Carcinnox Mk IV (page does not exist)")" Missing GripType
+626. "[Zetki Carcinnox Mk IV](/w/Zetki_Carcinnox_Mk_IV?action=edit&redlink=1 "Zetki Carcinnox Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretCarcinnox.png
+627. "[Zetki Cryophon Mk I](/w/Zetki_Cryophon_Mk_I "Zetki Cryophon Mk I")" Missing GripType
+628. "[Zetki Cryophon Mk I](/w/Zetki_Cryophon_Mk_I "Zetki Cryophon Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
+629. "[Zetki Cryophon Mk II](/w/Zetki_Cryophon_Mk_II "Zetki Cryophon Mk II")" Missing GripType
+630. "[Zetki Cryophon Mk II](/w/Zetki_Cryophon_Mk_II "Zetki Cryophon Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
+631. "[Zetki Cryophon Mk III](/w/Zetki_Cryophon_Mk_III "Zetki Cryophon Mk III")" Missing GripType
+632. "[Zetki Cryophon Mk III](/w/Zetki_Cryophon_Mk_III "Zetki Cryophon Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
+633. "[Zetki Cryophon Mk IV](/w/Zetki_Cryophon_Mk_IV?action=edit&redlink=1 "Zetki Cryophon Mk IV (page does not exist)")" Missing GripType
+634. "[Zetki Cryophon Mk IV](/w/Zetki_Cryophon_Mk_IV?action=edit&redlink=1 "Zetki Cryophon Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretCryophon.png
+635. "[Zetki Glazio Mk I](/w/Zetki_Glazio_Mk_I "Zetki Glazio Mk I")" Missing GripType
+636. "[Zetki Glazio Mk I](/w/Zetki_Glazio_Mk_I "Zetki Glazio Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
+637. "[Zetki Glazio Mk II](/w/Zetki_Glazio_Mk_II "Zetki Glazio Mk II")" Missing GripType
+638. "[Zetki Glazio Mk II](/w/Zetki_Glazio_Mk_II "Zetki Glazio Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
+639. "[Zetki Glazio Mk III](/w/Zetki_Glazio_Mk_III "Zetki Glazio Mk III")" Missing GripType
+640. "[Zetki Glazio Mk III](/w/Zetki_Glazio_Mk_III "Zetki Glazio Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
+641. "[Zetki Glazio Mk IV](/w/Zetki_Glazio_Mk_IV?action=edit&redlink=1 "Zetki Glazio Mk IV (page does not exist)")" Missing GripType
+642. "[Zetki Glazio Mk IV](/w/Zetki_Glazio_Mk_IV?action=edit&redlink=1 "Zetki Glazio Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretGlazio.png
+643. "[Zetki Laith Mk I](/w/Zetki_Laith_Mk_I "Zetki Laith Mk I")" Missing GripType
+644. "[Zetki Laith Mk I](/w/Zetki_Laith_Mk_I "Zetki Laith Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
+645. "[Zetki Laith Mk II](/w/Zetki_Laith_Mk_II "Zetki Laith Mk II")" Missing GripType
+646. "[Zetki Laith Mk II](/w/Zetki_Laith_Mk_II "Zetki Laith Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
+647. "[Zetki Laith Mk III](/w/Zetki_Laith_Mk_III "Zetki Laith Mk III")" Missing GripType
+648. "[Zetki Laith Mk III](/w/Zetki_Laith_Mk_III "Zetki Laith Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
+649. "[Zetki Laith Mk IV](/w/Zetki_Laith_Mk_IV?action=edit&redlink=1 "Zetki Laith Mk IV (page does not exist)")" Missing GripType
+650. "[Zetki Laith Mk IV](/w/Zetki_Laith_Mk_IV?action=edit&redlink=1 "Zetki Laith Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretLaith.png
+651. "[Zetki Photor Mk I](/w/Zetki_Photor_Mk_I "Zetki Photor Mk I")" Missing GripType
+652. "[Zetki Photor Mk I](/w/Zetki_Photor_Mk_I "Zetki Photor Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
+653. "[Zetki Photor Mk II](/w/Zetki_Photor_Mk_II "Zetki Photor Mk II")" Missing GripType
+654. "[Zetki Photor Mk II](/w/Zetki_Photor_Mk_II "Zetki Photor Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
+655. "[Zetki Photor Mk III](/w/Zetki_Photor_Mk_III "Zetki Photor Mk III")" Missing GripType
+656. "[Zetki Photor Mk III](/w/Zetki_Photor_Mk_III "Zetki Photor Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
+657. "[Zetki Photor Mk IV](/w/Zetki_Photor_Mk_IV?action=edit&redlink=1 "Zetki Photor Mk IV (page does not exist)")" Missing GripType
+658. "[Zetki Photor Mk IV](/w/Zetki_Photor_Mk_IV?action=edit&redlink=1 "Zetki Photor Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretPhotor.png
+659. "[Zetki Pulsar Mk I](/w/Zetki_Pulsar_Mk_I "Zetki Pulsar Mk I")" Missing GripType
+660. "[Zetki Pulsar Mk I](/w/Zetki_Pulsar_Mk_I "Zetki Pulsar Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
+661. "[Zetki Pulsar Mk II](/w/Zetki_Pulsar_Mk_II "Zetki Pulsar Mk II")" Missing GripType
+662. "[Zetki Pulsar Mk II](/w/Zetki_Pulsar_Mk_II "Zetki Pulsar Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
+663. "[Zetki Pulsar Mk III](/w/Zetki_Pulsar_Mk_III "Zetki Pulsar Mk III")" Missing GripType
+664. "[Zetki Pulsar Mk III](/w/Zetki_Pulsar_Mk_III "Zetki Pulsar Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
+665. "[Zetki Pulsar Mk IV](/w/Zetki_Pulsar_Mk_IV?action=edit&redlink=1 "Zetki Pulsar Mk IV (page does not exist)")" Missing GripType
+666. "[Zetki Pulsar Mk IV](/w/Zetki_Pulsar_Mk_IV?action=edit&redlink=1 "Zetki Pulsar Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretPulsar.png
+667. "[Zetki Talyn Mk I](/w/Zetki_Talyn_Mk_I "Zetki Talyn Mk I")" Missing GripType
+668. "[Zetki Talyn Mk I](/w/Zetki_Talyn_Mk_I "Zetki Talyn Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
+669. "[Zetki Talyn Mk II](/w/Zetki_Talyn_Mk_II "Zetki Talyn Mk II")" Missing GripType
+670. "[Zetki Talyn Mk II](/w/Zetki_Talyn_Mk_II "Zetki Talyn Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
+671. "[Zetki Talyn Mk III](/w/Zetki_Talyn_Mk_III "Zetki Talyn Mk III")" Missing GripType
+672. "[Zetki Talyn Mk III](/w/Zetki_Talyn_Mk_III "Zetki Talyn Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
+673. "[Zetki Talyn Mk IV](/w/Zetki_Talyn_Mk_IV?action=edit&redlink=1 "Zetki Talyn Mk IV (page does not exist)")" Missing GripType
+674. "[Zetki Talyn Mk IV](/w/Zetki_Talyn_Mk_IV?action=edit&redlink=1 "Zetki Talyn Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretTalyn.png
+675. "[Zetki Vort Mk I](/w/Zetki_Vort_Mk_I "Zetki Vort Mk I")" Missing GripType
+676. "[Zetki Vort Mk I](/w/Zetki_Vort_Mk_I "Zetki Vort Mk I")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
+677. "[Zetki Vort Mk II](/w/Zetki_Vort_Mk_II "Zetki Vort Mk II")" Missing GripType
+678. "[Zetki Vort Mk II](/w/Zetki_Vort_Mk_II "Zetki Vort Mk II")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
+679. "[Zetki Vort Mk III](/w/Zetki_Vort_Mk_III "Zetki Vort Mk III")" Missing GripType
+680. "[Zetki Vort Mk III](/w/Zetki_Vort_Mk_III "Zetki Vort Mk III")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
+681. "[Zetki Vort Mk IV](/w/Zetki_Vort_Mk_IV?action=edit&redlink=1 "Zetki Vort Mk IV (page does not exist)")" Missing GripType
+682. "[Zetki Vort Mk IV](/w/Zetki_Vort_Mk_IV?action=edit&redlink=1 "Zetki Vort Mk IV (page does not exist)")" Image should be in the form of "WeaponName.png"; current value: TurretVort.png
 
 ## Weapon Data
 
@@ -1928,7 +1421,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = false,
-		Disposition = 0.85,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.85,
 		ExilusPolarity = "Madurai",
 		Family = "AX-52",
 		GripType = "",
@@ -1998,7 +1492,8 @@ return {
 			"/Lotus/Weapons/Tenno/LongGuns/SapientPrimary/SapientPrimaryInnateUpgrade",
 			"/Lotus/Weapons/Tenno/LongGuns/SapientPrimary/SapientPrimaryRunnerInnateUpgrade"
 		},
-		Disposition = 0.65,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.65,
 		ExilusPolarity = "Madurai",
 		Family = "Acceltra",
 		GripType = "",
@@ -2066,7 +1561,8 @@ return {
 			"/Lotus/Weapons/Tenno/LongGuns/SapientPrimary/SapientPrimaryInnateUpgrade",
 			"/Lotus/Weapons/Tenno/LongGuns/SapientPrimary/SapientPrimaryRunnerInnateUpgrade"
 		},
-		Disposition = 0.55,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.55,
 		ExilusPolarity = "Madurai",
 		Family = "Acceltra",
 		GripType = "",
@@ -2151,6 +1647,7 @@ return {
 		CompatibilityTags = { "ASSAULT_AMMO", "PROJECTILE", "AOE" },
 		Conclave = false,
 		Disposition = 1.2,
+		_RetiredDisposition = 1.2,
 		ExilusPolarity = "None",
 		Family = "Aeolak",
 		GripType = "",
@@ -2241,7 +1738,8 @@ return {
 			"/Lotus/Weapons/Grineer/LongGuns/GrnFlameSpear/GunSpearInnateMod",
 			"/Lotus/Weapons/Tenno/LongGuns/TnHopliteSpear/TnHopliteGunSpearInnateMod"
 		},
-		Disposition = 1.05,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.05,
 		ExilusPolarity = "Madurai",
 		Family = "Afentis",
 		GripType = "SPEAR",
@@ -2330,7 +1828,8 @@ return {
 			"/Lotus/Weapons/Grineer/LongGuns/GrnFlameSpear/GunSpearInnateMod",
 			"/Lotus/Weapons/Tenno/LongGuns/TnHopliteSpear/TnHopliteGunSpearInnateMod"
 		},
-		Disposition = 0.65,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.65,
 		ExilusPolarity = "Madurai",
 		Family = "Afentis",
 		GripType = "SPEAR",
@@ -2430,6 +1929,7 @@ return {
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Tenno/LongGuns/GyreRifle/GyreRifleInnateUpgrade" },
 		Disposition = 1.2,
+		_RetiredDisposition = 1.2,
 		ExilusPolarity = "Madurai",
 		Family = "Alternox",
 		GripType = "",
@@ -2528,7 +2028,8 @@ return {
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO", "AOE" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Tenno/LongGuns/GyreRifle/GyreRifleInnateUpgrade" },
-		Disposition = 0.95,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.95,
 		ExilusPolarity = "Madurai",
 		Family = "Alternox",
 		GripType = "",
@@ -2613,7 +2114,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = false,
-		Disposition = 1.15,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.15,
 		ExilusPolarity = "Naramon",
 		Family = "Ambassador",
 		GripType = "",
@@ -2661,7 +2163,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "BEAM", "ASSAULT_AMMO", "AOE" },
 		Conclave = true,
-		Disposition = 0.85,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.85,
 		ExilusPolarity = "Naramon",
 		Family = "Amprex",
 		GripType = "",
@@ -2711,7 +2214,8 @@ return {
 		},
 		Class = "Shotgun",
 		Conclave = true,
-		Disposition = 0.95,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.95,
 		ExilusPolarity = "Madurai",
 		Family = "Arca Plasmor",
 		GripType = "",
@@ -2778,7 +2282,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.25,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.25,
 		ExilusPolarity = "Madurai",
 		Family = "Argonak",
 		GripType = "",
@@ -3112,7 +2617,8 @@ return {
 		CompatibilityTags = { "PROJECTILE" },
 		Conclave = true,
 		DefaultUpgrades = { "/Lotus/Weapons/Tenno/LongGuns/TnGlassShotgun/TnGlassShotgunInnateUpgrade" },
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Madurai",
 		Family = "Astilla",
 		GripType = "",
@@ -3179,6 +2685,7 @@ return {
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Tenno/LongGuns/TnGlassShotgun/TnGlassShotgunInnateUpgrade" },
 		Disposition = 1.2,
+		_RetiredDisposition = 1.2,
 		ExilusPolarity = "Madurai",
 		Family = "Astilla",
 		GripType = "",
@@ -3226,7 +2733,8 @@ return {
 		Class = "Crossbow",
 		CompatibilityTags = { "PROJECTILE", "ATTICA", "CROSSBOW" },
 		Conclave = true,
-		Disposition = 1.42,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.42,
 		ExilusPolarity = "Madurai",
 		Family = "Attica",
 		GripType = "",
@@ -3308,6 +2816,7 @@ return {
 		CompatibilityTags = { "ASSAULT_AMMO", "PROJECTILE", "AOE", "BATTERY" },
 		Conclave = false,
 		Disposition = 1.2,
+		_RetiredDisposition = 1.2,
 		ExilusPolarity = "Madurai",
 		Family = "Basmu",
 		GripType = "",
@@ -3397,7 +2906,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO" },
 		Conclave = false,
-		Disposition = 1.1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.1,
 		ExilusPolarity = "Naramon",
 		Family = "Battacor",
 		GripType = "",
@@ -3444,7 +2954,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.05,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.05,
 		ExilusPolarity = "Naramon",
 		Family = "Baza",
 		GripType = "",
@@ -3492,7 +3003,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = false,
-		Disposition = 1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1,
 		ExilusPolarity = "Naramon",
 		Family = "Baza",
 		GripType = "",
@@ -3560,7 +3072,8 @@ return {
 		},
 		Class = "Shotgun",
 		Conclave = true,
-		Disposition = 1.45,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.45,
 		ExilusPolarity = "Madurai",
 		Family = "Boar",
 		GripType = "",
@@ -3629,7 +3142,8 @@ return {
 		},
 		Class = "Shotgun",
 		Conclave = true,
-		Disposition = 1.34,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.34,
 		ExilusPolarity = "Madurai",
 		Family = "Boar",
 		GripType = "",
@@ -3697,7 +3211,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Madurai",
 		Family = "Boltor",
 		GripType = "",
@@ -3767,6 +3282,7 @@ return {
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO" },
 		Conclave = true,
 		Disposition = 1.2,
+		_RetiredDisposition = 1.2,
 		ExilusPolarity = "Naramon",
 		Family = "Boltor",
 		GripType = "",
@@ -3848,7 +3364,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.35,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.35,
 		ExilusPolarity = "Naramon",
 		Family = "Braton",
 		GripType = "",
@@ -3928,7 +3445,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.25,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.25,
 		ExilusPolarity = "Naramon",
 		Family = "Braton",
 		GripType = "",
@@ -4009,7 +3527,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Naramon",
 		Family = "Braton",
 		GripType = "",
@@ -4101,7 +3620,8 @@ return {
 		CompatibilityTags = { "PROJECTILE", "AOE", "BATTERY" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Sentients/Shedu/SheduInnateUpgrade" },
-		Disposition = 0.75,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.75,
 		ExilusPolarity = "Madurai",
 		Family = "Bubonico",
 		GripType = "ARM_GUN_ONE_HAND",
@@ -4190,7 +3710,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.45,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.45,
 		ExilusPolarity = "Naramon",
 		Family = "Burston",
 		GripType = "",
@@ -4279,7 +3800,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.35,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.35,
 		ExilusPolarity = "Naramon",
 		Family = "Burston",
 		GripType = "",
@@ -4349,7 +3871,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.45,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.45,
 		ExilusPolarity = "Naramon",
 		Family = "Buzlok",
 		GripType = "",
@@ -4411,7 +3934,8 @@ return {
 		Class = "Launcher",
 		CompatibilityTags = { "PROJECTILE", "AOE", "SINGLESHOT" },
 		Conclave = false,
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Naramon",
 		Family = "Penta",
 		GripType = "",
@@ -4499,7 +4023,8 @@ return {
 			"/Lotus/Weapons/Tenno/LongGuns/TnAlchemistShotgun/TnAlchemistShotgunInnateMod",
 			"/Lotus/Weapons/Tenno/LongGuns/TnAlchemistShotgun/TnAlchemistShotgunSignatureMod"
 		},
-		Disposition = 0.65,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.65,
 		ExilusPolarity = "Madurai",
 		Family = "Cedo",
 		GripType = "",
@@ -4588,7 +4113,8 @@ return {
 			"/Lotus/Weapons/Tenno/LongGuns/TnAlchemistShotgun/TnAlchemistShotgunInnateMod",
 			"/Lotus/Weapons/Tenno/LongGuns/TnAlchemistShotgun/TnAlchemistShotgunSignatureMod"
 		},
-		Disposition = 0.55,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.55,
 		ExilusPolarity = "Madurai",
 		Family = "Cedo",
 		GripType = "",
@@ -4654,7 +4180,8 @@ return {
 		Class = "Bow",
 		CompatibilityTags = { "PROJECTILE" },
 		Conclave = true,
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Naramon",
 		Family = "Cernos",
 		GripType = "BOW",
@@ -4722,7 +4249,8 @@ return {
 		CompatibilityTags = { "PROJECTILE" },
 		Conclave = true,
 		DefaultUpgrades = { "/Lotus/Weapons/Tenno/Bows/PrimeCernos/CernosPrimeInnateMod" },
-		Disposition = 1.25,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.25,
 		ExilusPolarity = "Naramon",
 		Family = "Cernos",
 		GripType = "BOW",
@@ -4796,7 +4324,8 @@ return {
 		Class = "Bow",
 		CompatibilityTags = { "PROJECTILE" },
 		Conclave = false,
-		Disposition = 1.25,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.25,
 		ExilusPolarity = "Naramon",
 		Family = "Cinta",
 		GripType = "BOW",
@@ -4867,7 +4396,8 @@ return {
 		Class = "Shotgun",
 		CompatibilityTags = {  },
 		Conclave = false,
-		Disposition = 0.55,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.55,
 		ExilusPolarity = "Madurai",
 		Family = "Bassocyst",
 		GripType = "",
@@ -4956,7 +4486,8 @@ return {
 		CompatibilityTags = { "PROJECTILE", "AOE", "BATTERY" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Sentients/Shedu/SheduInnateUpgrade" },
-		Disposition = 0.6,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.6,
 		ExilusPolarity = "Madurai",
 		Family = "Bubonico",
 		GripType = "ARM_GUN_ONE_HAND",
@@ -5009,7 +4540,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO", "PROJECTILE" },
 		Conclave = false,
-		Disposition = 1.0,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.0,
 		ExilusPolarity = "Naramon",
 		Family = "Hema",
 		GripType = "",
@@ -5076,7 +4608,8 @@ return {
 		Class = "Sniper Rifle",
 		CompatibilityTags = { "SNIPER_AMMO", "PROJECTILE" },
 		Conclave = false,
-		Disposition = 0.95,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.95,
 		ExilusPolarity = "Madurai",
 		Family = "Sporothrix",
 		GripType = "",
@@ -5130,7 +4663,8 @@ return {
 		CompatibilityTags = { "BEAM", "ASSAULT_AMMO" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Infested/LongGuns/InfestedRifleInnateUpgrade" },
-		Disposition = 0.9,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.9,
 		ExilusPolarity = "Naramon",
 		Family = "Synapse",
 		GripType = "",
@@ -5195,7 +4729,8 @@ return {
 		Class = "Shotgun",
 		CompatibilityTags = { "BEAM" },
 		Conclave = false,
-		Disposition = 1.46,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.46,
 		ExilusPolarity = "Naramon",
 		Family = "Convectrix",
 		GripType = "",
@@ -5279,7 +4814,8 @@ return {
 		Class = "Shotgun",
 		CompatibilityTags = { "PROJECTILE" },
 		Conclave = true,
-		Disposition = 1.15,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.15,
 		ExilusPolarity = "Madurai",
 		Family = "Corinth",
 		GripType = "",
@@ -5364,7 +4900,8 @@ return {
 		Class = "Shotgun",
 		CompatibilityTags = { "PROJECTILE" },
 		Conclave = false,
-		Disposition = 1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1,
 		ExilusPolarity = "Madurai",
 		Family = "Corinth",
 		GripType = "",
@@ -5415,7 +4952,8 @@ return {
 		Class = "Bow",
 		CompatibilityTags = { "PROJECTILE", "DAIKYU" },
 		Conclave = true,
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Naramon",
 		Family = "Daikyu",
 		GripType = "BOW",
@@ -5485,7 +5023,8 @@ return {
 		Class = "Bow",
 		CompatibilityTags = { "PROJECTILE", "DAIKYU" },
 		Conclave = true,
-		Disposition = 1.0,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.0,
 		ExilusPolarity = "Naramon",
 		Family = "Daikyu",
 		GripType = "BOW",
@@ -5551,7 +5090,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.4,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.4,
 		ExilusPolarity = "Naramon",
 		Family = "Dera",
 		GripType = "",
@@ -5619,7 +5159,8 @@ return {
 		CodexSecret = true,
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.35,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.35,
 		ExilusPolarity = "Naramon",
 		Family = "Dera",
 		GripType = "",
@@ -5692,7 +5233,8 @@ return {
 		CodexSecret = true,
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Madurai",
 		Family = "Sybaris",
 		GripType = "",
@@ -5756,7 +5298,8 @@ return {
 		Class = "Shotgun",
 		CompatibilityTags = { "PROJECTILE" },
 		Conclave = true,
-		Disposition = 1.4,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.4,
 		ExilusPolarity = "Naramon",
 		Family = "Drakgoon",
 		GripType = "",
@@ -5840,7 +5383,8 @@ return {
 		Class = "Bow",
 		CompatibilityTags = { "PROJECTILE" },
 		Conclave = true,
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Naramon",
 		Family = "Dread",
 		GripType = "BOW",
@@ -5909,7 +5453,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = false,
-		Disposition = 1.05,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.05,
 		ExilusPolarity = "Madurai",
 		Family = "EFV-5 Jupiter",
 		GripType = "",
@@ -5993,7 +5538,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "BEAM" },
 		Conclave = false,
-		Disposition = 0.8,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.8,
 		ExilusPolarity = "Naramon",
 		Family = "Enkaus",
 		GripType = "",
@@ -6074,6 +5620,7 @@ return {
 		CompatibilityTags = { "PROJECTILE" },
 		Conclave = true,
 		Disposition = 1.2,
+		_RetiredDisposition = 1.2,
 		ExilusPolarity = "Naramon",
 		Family = "Evensong",
 		GripType = "BOW",
@@ -6121,7 +5668,8 @@ return {
 		Class = "Shotgun",
 		CompatibilityTags = { "PROJECTILE", "SINGLESHOT" },
 		Conclave = false,
-		Disposition = 1.1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.1,
 		ExilusPolarity = "Madurai",
 		Family = "Exergis",
 		GripType = "",
@@ -6191,7 +5739,8 @@ return {
 		Class = "Shotgun",
 		CompatibilityTags = { "PROJECTILE" },
 		Conclave = false,
-		Disposition = 0.6,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.6,
 		ExilusPolarity = "Madurai",
 		Family = "Felarx",
 		GripType = "",
@@ -6293,7 +5842,8 @@ return {
 		CompatibilityTags = { "PROJECTILE" },
 		Conclave = true,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/LongGuns/GrnFlameSpear/GunSpearInnateMod" },
-		Disposition = 1.25,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.25,
 		ExilusPolarity = "Naramon",
 		Family = "Ferrox",
 		GripType = "SPEAR",
@@ -6341,7 +5891,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "BEAM", "ASSAULT_AMMO", "BATTERY" },
 		Conclave = true,
-		Disposition = 1.55,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.55,
 		ExilusPolarity = "Naramon",
 		Family = "Flux Rifle",
 		GripType = "",
@@ -6414,7 +5965,8 @@ return {
 		CompatibilityTags = { "ASSAULT_AMMO", "PROJECTILE", "BATTERY" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Tenno/LongGuns/TnWispRifle/TnWispRifleInnateMod" },
-		Disposition = 1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1,
 		ExilusPolarity = "Madurai",
 		Family = "Fulmin",
 		GripType = "",
@@ -6486,7 +6038,8 @@ return {
 		CompatibilityTags = { "ASSAULT_AMMO", "PROJECTILE", "BATTERY" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Tenno/LongGuns/TnWispRifle/TnWispRifleInnateMod" },
-		Disposition = 0.75,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.75,
 		ExilusPolarity = "Madurai",
 		Family = "Fulmin",
 		GripType = "",
@@ -6537,7 +6090,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "BEAM", "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Madurai",
 		Family = "Glaxion",
 		GripType = "",
@@ -6584,7 +6138,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "BEAM", "ASSAULT_AMMO" },
 		Conclave = false,
-		Disposition = 1.25,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.25,
 		ExilusPolarity = "Madurai",
 		Family = "Glaxion",
 		GripType = "",
@@ -6667,7 +6222,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.4,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.4,
 		ExilusPolarity = "Madurai",
 		Family = "Gorgon",
 		GripType = "",
@@ -6758,7 +6314,8 @@ return {
 		CodexSecret = true,
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.35,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.35,
 		ExilusPolarity = "Madurai",
 		Family = "Gorgon",
 		GripType = "",
@@ -6808,7 +6365,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = false,
-		Disposition = 0.85,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.85,
 		ExilusPolarity = "Naramon",
 		Family = "Gotva",
 		GripType = "",
@@ -6856,7 +6414,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.35,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.35,
 		ExilusPolarity = "Madurai",
 		Family = "Grakata",
 		GripType = "",
@@ -6903,7 +6462,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Madurai",
 		Family = "Grinlok",
 		GripType = "",
@@ -6971,7 +6531,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO" },
 		Conclave = false,
-		Disposition = 0.6,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.6,
 		ExilusPolarity = "Universal",
 		Family = "Haalvu",
 		GripType = "",
@@ -7046,7 +6607,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.55,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.55,
 		ExilusPolarity = "Madurai",
 		Family = "Harpak",
 		GripType = "",
@@ -7095,6 +6657,7 @@ return {
 		Class = "Shotgun",
 		Conclave = true,
 		Disposition = 1.2,
+		_RetiredDisposition = 1.2,
 		ExilusPolarity = "Naramon",
 		Family = "Hek",
 		GripType = "",
@@ -7143,7 +6706,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO", "PROJECTILE" },
 		Conclave = true,
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Naramon",
 		Family = "Hema",
 		GripType = "",
@@ -7202,7 +6766,8 @@ return {
 		},
 		Class = "Rifle",
 		Conclave = false,
-		Disposition = 1.25,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.25,
 		ExilusPolarity = "Naramon",
 		Family = "Higasa",
 		GripType = "",
@@ -7269,7 +6834,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.42,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.42,
 		ExilusPolarity = "Naramon",
 		Family = "Hind",
 		GripType = "",
@@ -7323,7 +6889,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "BEAM", "ASSAULT_AMMO", "AOE" },
 		Conclave = true,
-		Disposition = 0.7,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.7,
 		ExilusPolarity = "Naramon",
 		Family = "Ignis",
 		GripType = "",
@@ -7370,7 +6937,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "BEAM", "ASSAULT_AMMO", "AOE" },
 		Conclave = true,
-		Disposition = 0.65,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.65,
 		ExilusPolarity = "Madurai",
 		Family = "Ignis",
 		GripType = "",
@@ -7471,7 +7039,8 @@ return {
 		CompatibilityTags = { "PROJECTILE", "AOE", "IMPACTEXPLODE" },
 		Conclave = true,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/LongGuns/GrnFlameSpear/GunSpearInnateMod" },
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Naramon",
 		Family = "Javlok",
 		GripType = "SPEAR",
@@ -7518,7 +7087,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.35,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.35,
 		ExilusPolarity = "Naramon",
 		Family = "Karak",
 		GripType = "",
@@ -7567,7 +7137,8 @@ return {
 		CodexSecret = true,
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.28,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.28,
 		ExilusPolarity = "Naramon",
 		Family = "Karak",
 		GripType = "",
@@ -7634,7 +7205,8 @@ return {
 		},
 		Class = "Shotgun",
 		Conclave = false,
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Madurai",
 		Family = "Kohm",
 		GripType = "",
@@ -7702,7 +7274,8 @@ return {
 		DefaultUpgrades = {
 			"/Lotus/Weapons/Corpus/LongGuns/CrpSentAmlgSniper/CrpSentAmlgSniperConvertAmmoMod"
 		},
-		Disposition = 1.15,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.15,
 		ExilusPolarity = "Naramon",
 		Family = "Komorex",
 		GripType = "",
@@ -7814,7 +7387,8 @@ return {
 			"/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
 			"/Lotus/Weapons/Grineer/Bows/GrnBow/GrnBowInnateMod"
 		},
-		Disposition = 0.7,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.7,
 		ExilusPolarity = "Naramon",
 		Family = "Kuva Bramma",
 		GripType = "BOW",
@@ -7887,7 +7461,8 @@ return {
 			"/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
 			"/Lotus/Weapons/Grineer/LongGuns/GrnKuvaLichRifle/GrnKuvaLichRifleInnateUpgrade"
 		},
-		Disposition = 0.95,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.95,
 		ExilusPolarity = "Naramon",
 		Family = "Kuva Chakkhurr",
 		GripType = "",
@@ -7954,7 +7529,8 @@ return {
 		CompatibilityTags = { "PROJECTILE" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
-		Disposition = 1.15,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.15,
 		ExilusPolarity = "Madurai",
 		Family = "Drakgoon",
 		GripType = "",
@@ -8023,7 +7599,8 @@ return {
 		CompatibilityTags = { "SINGLESHOT" },
 		Conclave = true,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
-		Disposition = 1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1,
 		ExilusPolarity = "Naramon",
 		Family = "Hek",
 		GripType = "",
@@ -8112,7 +7689,8 @@ return {
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
-		Disposition = 1.1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.1,
 		ExilusPolarity = "Naramon",
 		Family = "Hind",
 		GripType = "",
@@ -8163,7 +7741,8 @@ return {
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
-		Disposition = 1.05,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.05,
 		ExilusPolarity = "Madurai",
 		Family = "Karak",
 		GripType = "",
@@ -8232,7 +7811,8 @@ return {
 		Class = "Shotgun",
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
-		Disposition = 0.9,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.9,
 		ExilusPolarity = "Madurai",
 		Family = "Kohm",
 		GripType = "",
@@ -8301,7 +7881,8 @@ return {
 		CompatibilityTags = { "PROJECTILE", "AOE", "SINGLESHOT" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
-		Disposition = 0.7,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.7,
 		ExilusPolarity = "Naramon",
 		Family = "Ogris",
 		GripType = "",
@@ -8373,7 +7954,8 @@ return {
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
-		Disposition = 1.1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.1,
 		ExilusPolarity = "Naramon",
 		Family = "Quartakk",
 		GripType = "",
@@ -8424,7 +8006,8 @@ return {
 		Class = "Shotgun",
 		Conclave = true,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
-		Disposition = 0.8,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.8,
 		ExilusPolarity = "Naramon",
 		Family = "Sobek",
 		GripType = "",
@@ -8490,7 +8073,8 @@ return {
 		CompatibilityTags = { "PROJECTILE", "AOE" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
-		Disposition = 0.9,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.9,
 		ExilusPolarity = "Naramon",
 		Family = "Tonkor",
 		GripType = "",
@@ -8605,7 +8189,8 @@ return {
 		CompatibilityTags = { "ASSAULT_AMMO", "PROJECTILE", "AOE", "SINGLESHOT" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
-		Disposition = 0.7,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.7,
 		ExilusPolarity = "Madurai",
 		Family = "Zarr",
 		GripType = "",
@@ -8676,7 +8261,8 @@ return {
 		Class = "Sniper Rifle",
 		CompatibilityTags = { "PROJECTILE", "SNIPER_AMMO" },
 		Conclave = true,
-		Disposition = 1.05,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.05,
 		ExilusPolarity = "Madurai",
 		Family = "Lanka",
 		GripType = "",
@@ -8769,7 +8355,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.4,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.4,
 		ExilusPolarity = "None",
 		Family = "Latron",
 		GripType = "",
@@ -8853,7 +8440,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Madurai",
 		Family = "Latron",
 		GripType = "",
@@ -8937,7 +8525,8 @@ return {
 		CodexSecret = true,
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.35,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.35,
 		ExilusPolarity = "Naramon",
 		Family = "Latron",
 		GripType = "",
@@ -9029,7 +8618,8 @@ return {
 		CompatibilityTags = { "PROJECTILE", "SNIPER_AMMO", "AOE", "SINGLESHOT", "CRPBOW" },
 		Conclave = true,
 		DefaultUpgrades = { "/Lotus/Weapons/Corpus/Bow/Longbow/CrpBowConvertAmmoMod" },
-		Disposition = 1.05,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.05,
 		ExilusPolarity = "Madurai",
 		Family = "Lenz",
 		GripType = "BOW",
@@ -9237,7 +8827,8 @@ return {
 		CompatibilityTags = { "PROJECTILE", "SNIPER_AMMO", "AOE", "MITER" },
 		Conclave = true,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/LongGuns/GrineerSawbladeGun/MiterDismemberUpgrade" },
-		Disposition = 1.5,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.5,
 		ExilusPolarity = "Madurai",
 		Family = "Miter",
 		GripType = "",
@@ -9319,7 +8910,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.35,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.35,
 		ExilusPolarity = "Naramon",
 		Family = "Braton",
 		GripType = "",
@@ -9404,7 +8996,8 @@ return {
 		Class = "Bow",
 		CompatibilityTags = { "PROJECTILE" },
 		Conclave = true,
-		Disposition = 1.45,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.45,
 		ExilusPolarity = "Naramon",
 		Family = "Paris",
 		GripType = "BOW",
@@ -9490,7 +9083,8 @@ return {
 		},
 		Class = "Shotgun",
 		Conclave = true,
-		Disposition = 1.45,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.45,
 		ExilusPolarity = "Naramon",
 		Family = "Strun",
 		GripType = "",
@@ -9574,7 +9168,8 @@ return {
 		Class = "Bow",
 		CompatibilityTags = { "PROJECTILE", "INFCERNOS" },
 		Conclave = true,
-		Disposition = 1.35,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.35,
 		ExilusPolarity = "Madurai",
 		Family = "Mutalist Cernos",
 		GripType = "BOW",
@@ -9663,7 +9258,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO" },
 		Conclave = false,
-		Disposition = 1.5,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.5,
 		ExilusPolarity = "Madurai",
 		Family = "Mutalist Quanta",
 		GripType = "",
@@ -9741,7 +9337,8 @@ return {
 			"/Lotus/Weapons/Tenno/LongGuns/GarudaCrossbow/GarudaCrossbowInnateUpgrade",
 			"/Lotus/Weapons/Tenno/LongGuns/GarudaCrossbow/GarudaCrossbowInnateUpgradeTwo"
 		},
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Naramon",
 		Family = "Nagantaka",
 		GripType = "",
@@ -9819,7 +9416,8 @@ return {
 			"/Lotus/Weapons/Tenno/LongGuns/GarudaCrossbow/GarudaCrossbowInnateUpgrade",
 			"/Lotus/Weapons/Tenno/LongGuns/GarudaCrossbow/GarudaCrossbowInnateUpgradeTwo"
 		},
-		Disposition = 1.15,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.15,
 		ExilusPolarity = "Naramon",
 		Family = "Nagantaka",
 		GripType = "",
@@ -9904,7 +9502,8 @@ return {
 		CodexSecret = true,
 		CompatibilityTags = { "PROJECTILE", "OMICRUS", "BATTERY" },
 		Conclave = false,
-		Disposition = 0.65,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.65,
 		ExilusPolarity = "Naramon",
 		Family = "Nataruk",
 		GripType = "BOW",
@@ -10030,7 +9629,8 @@ return {
 		CompatibilityTags = { "PROJECTILE", "DUELISTBOW" },
 		Conclave = true,
 		DefaultUpgrades = { "DuelistBowPassiveDescUpgrade" },
-		Disposition = 0.5,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.5,
 		ExilusPolarity = "Naramon",
 		GripType = "BOW",
 		Image = "Nunchasa.png",
@@ -10093,7 +9693,8 @@ return {
 		Class = "Launcher",
 		CompatibilityTags = { "PROJECTILE", "AOE", "SINGLESHOT" },
 		Conclave = true,
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Madurai",
 		Family = "Ogris",
 		GripType = "",
@@ -10187,7 +9788,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO", "AOE", "SINGLESHOT" },
 		Conclave = true,
-		Disposition = 1.15,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.15,
 		ExilusPolarity = "Naramon",
 		Family = "Opticor",
 		GripType = "",
@@ -10283,7 +9885,8 @@ return {
 		CodexSecret = true,
 		CompatibilityTags = { "ASSAULT_AMMO", "AOE", "SINGLESHOT" },
 		Conclave = true,
-		Disposition = 1.1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.1,
 		ExilusPolarity = "Naramon",
 		Family = "Opticor",
 		GripType = "",
@@ -10351,7 +9954,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO", "BEAM" },
 		Conclave = true,
-		Disposition = 1.4,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.4,
 		ExilusPolarity = "Madurai",
 		Family = "Panthera",
 		GripType = "",
@@ -10435,7 +10039,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO", "BEAM" },
 		Conclave = false,
-		Disposition = 1.25,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.25,
 		ExilusPolarity = "Madurai",
 		Family = "Panthera",
 		GripType = "",
@@ -10519,7 +10124,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO" },
 		Conclave = false,
-		Disposition = 1.31,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.31,
 		ExilusPolarity = "Naramon",
 		Family = "Paracyst",
 		GripType = "",
@@ -10604,7 +10210,8 @@ return {
 		Class = "Bow",
 		CompatibilityTags = { "PROJECTILE" },
 		Conclave = true,
-		Disposition = 1.4,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.4,
 		ExilusPolarity = "Madurai",
 		Family = "Paris",
 		GripType = "BOW",
@@ -10691,7 +10298,8 @@ return {
 		Class = "Bow",
 		CompatibilityTags = { "PROJECTILE" },
 		Conclave = true,
-		Disposition = 1.35,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.35,
 		ExilusPolarity = "Naramon",
 		Family = "Paris",
 		GripType = "BOW",
@@ -10757,7 +10365,8 @@ return {
 		Class = "Launcher",
 		CompatibilityTags = { "PROJECTILE", "AOE", "SINGLESHOT" },
 		Conclave = true,
-		Disposition = 1.35,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.35,
 		ExilusPolarity = "Naramon",
 		Family = "Penta",
 		GripType = "",
@@ -10807,7 +10416,8 @@ return {
 		Class = "Sniper Rifle",
 		CompatibilityTags = { "SNIPER_AMMO" },
 		Conclave = false,
-		Disposition = 1.15,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.15,
 		ExilusPolarity = "Madurai",
 		Family = "Perigale",
 		GripType = "",
@@ -10861,7 +10471,8 @@ return {
 		Class = "Sniper Rifle",
 		CompatibilityTags = { "SNIPER_AMMO" },
 		Conclave = false,
-		Disposition = 0.8,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.8,
 		ExilusPolarity = "Madurai",
 		Family = "Perigale",
 		GripType = "",
@@ -10912,7 +10523,8 @@ return {
 		Class = "Shotgun",
 		CompatibilityTags = { "BEAM" },
 		Conclave = false,
-		Disposition = 1.46,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.46,
 		ExilusPolarity = "None",
 		Family = "Phage",
 		GripType = "",
@@ -11029,7 +10641,8 @@ return {
 		CompatibilityTags = { "BEAM" },
 		Conclave = true,
 		DefaultUpgrades = { "/Lotus/Weapons/Tenno/LongGuns/RevenantShotgun/RevenantShotgunInnateMod" },
-		Disposition = 1.1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.1,
 		ExilusPolarity = "Madurai",
 		Family = "Phantasma",
 		GripType = "",
@@ -11146,7 +10759,8 @@ return {
 		CompatibilityTags = { "BEAM" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Tenno/LongGuns/RevenantShotgun/RevenantShotgunInnateMod" },
-		Disposition = 0.8,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.8,
 		ExilusPolarity = "Madurai",
 		Family = "Phantasma",
 		GripType = "",
@@ -11219,7 +10833,8 @@ return {
 			"/Lotus/Upgrades/Evolutions/Rifle/EvoRifleInstantReloadChanceOnHeadshot",
 			"/Lotus/Upgrades/Evolutions/Rifle/EvoRifleReloadSpeedFromEmpty"
 		},
-		Disposition = 0.6,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.6,
 		ExilusPolarity = "Madurai",
 		Family = "Phenmor",
 		GripType = "",
@@ -11304,7 +10919,8 @@ return {
 		CodexSecret = true,
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Naramon",
 		Family = "Gorgon",
 		GripType = "",
@@ -11354,7 +10970,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Madurai",
 		Family = "Grakata",
 		GripType = "",
@@ -11401,7 +11018,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.25,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.25,
 		ExilusPolarity = "Madurai",
 		Family = "Grinlok",
 		GripType = "",
@@ -11492,7 +11110,8 @@ return {
 		CompatibilityTags = { "PROJECTILE", "SNIPER_AMMO", "AOE", "SINGLESHOT", "CRPBOW" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Corpus/Bow/Longbow/CrpBowConvertAmmoMod" },
-		Disposition = 1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1,
 		ExilusPolarity = "Madurai",
 		Family = "Lenz",
 		GripType = "BOW",
@@ -11540,7 +11159,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.45,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.45,
 		ExilusPolarity = "Madurai",
 		Family = "Tetra",
 		GripType = "",
@@ -11627,7 +11247,8 @@ return {
 		Class = "Bow",
 		CompatibilityTags = { "PROJECTILE", "INFBOW" },
 		Conclave = false,
-		Disposition = 0.9,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.9,
 		ExilusPolarity = "Naramon",
 		Family = "Proboscis Cernos",
 		GripType = "BOW",
@@ -11676,6 +11297,7 @@ return {
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO" },
 		Conclave = false,
 		Disposition = 1.2,
+		_RetiredDisposition = 1.2,
 		ExilusPolarity = "Naramon",
 		Family = "Purgator 1",
 		GripType = "",
@@ -11773,7 +11395,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "PROJECTILE", "BEAM", "ASSAULT_AMMO" },
 		Conclave = false,
-		Disposition = 1.4,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.4,
 		ExilusPolarity = "Naramon",
 		Family = "Quanta",
 		GripType = "",
@@ -11872,7 +11495,8 @@ return {
 		CodexSecret = true,
 		CompatibilityTags = { "PROJECTILE", "BEAM", "ASSAULT_AMMO" },
 		Conclave = false,
-		Disposition = 1.4,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.4,
 		ExilusPolarity = "Naramon",
 		Family = "Quanta",
 		GripType = "",
@@ -11922,7 +11546,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.25,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.25,
 		ExilusPolarity = "Madurai",
 		Family = "Quartakk",
 		GripType = "",
@@ -11990,7 +11615,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO" },
 		Conclave = false,
-		Disposition = 1.15,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.15,
 		ExilusPolarity = "Madurai",
 		Family = "Quellor",
 		GripType = "",
@@ -12056,7 +11682,8 @@ return {
 		Class = "Bow",
 		CompatibilityTags = { "PROJECTILE" },
 		Conclave = true,
-		Disposition = 1.25,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.25,
 		ExilusPolarity = "Naramon",
 		Family = "Cernos",
 		GripType = "BOW",
@@ -12103,7 +11730,8 @@ return {
 		},
 		Class = "Shotgun",
 		Conclave = false,
-		Disposition = 1.1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.1,
 		ExilusPolarity = "Naramon",
 		Family = "Rauta",
 		GripType = "",
@@ -12148,7 +11776,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = false,
-		Disposition = 1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1,
 		ExilusPolarity = "Naramon",
 		Family = "Reconifex",
 		GripType = "",
@@ -12197,7 +11826,8 @@ return {
 		Class = "Sniper Rifle",
 		CompatibilityTags = { "SNIPER_AMMO" },
 		Conclave = true,
-		Disposition = 0.95,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.95,
 		ExilusPolarity = "Madurai",
 		Family = "Rubico",
 		GripType = "",
@@ -12247,7 +11877,8 @@ return {
 		Class = "Sniper Rifle",
 		CompatibilityTags = { "SNIPER_AMMO" },
 		Conclave = true,
-		Disposition = 0.7,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.7,
 		ExilusPolarity = "Naramon",
 		Family = "Rubico",
 		GripType = "",
@@ -12299,7 +11930,8 @@ return {
 		Class = "Shotgun",
 		CompatibilityTags = { "SINGLESHOT" },
 		Conclave = true,
-		Disposition = 1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1,
 		ExilusPolarity = "Madurai",
 		Family = "Tigris",
 		GripType = "",
@@ -12402,6 +12034,7 @@ return {
 		Conclave = true,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/LongGuns/GrnFlameSpear/GunSpearInnateMod" },
 		Disposition = 1.2,
+		_RetiredDisposition = 1.2,
 		ExilusPolarity = "Madurai",
 		Family = "Scourge",
 		GripType = "SPEAR",
@@ -12501,7 +12134,8 @@ return {
 		CompatibilityTags = { "PROJECTILE", "IMPACTEXPLODE" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/LongGuns/GrnFlameSpear/GunSpearInnateMod" },
-		Disposition = 1.1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.1,
 		ExilusPolarity = "Madurai",
 		Family = "Scourge",
 		GripType = "SPEAR",
@@ -12565,7 +12199,8 @@ return {
 		Class = "Launcher",
 		CompatibilityTags = { "PROJECTILE", "AOE", "SINGLESHOT" },
 		Conclave = true,
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Naramon",
 		Family = "Penta",
 		GripType = "",
@@ -12631,7 +12266,8 @@ return {
 		CompatibilityTags = { "ASSAULT_AMMO", "PROJECTILE", "AOE", "BATTERY" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Sentients/Shedu/SheduInnateUpgrade" },
-		Disposition = 0.75,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.75,
 		ExilusPolarity = "None",
 		Family = "Shedu",
 		GripType = "ARM_GUN_ONE_HAND",
@@ -12715,7 +12351,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO", "AOE", "PROJECTILE" },
 		Conclave = true,
-		Disposition = 1.25,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.25,
 		ExilusPolarity = "Madurai",
 		Family = "Simulor",
 		GripType = "",
@@ -12764,7 +12401,8 @@ return {
 		CodexSecret = true,
 		CompatibilityTags = { "SNIPER_AMMO" },
 		Conclave = true,
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Madurai",
 		Family = "Snipetron",
 		GripType = "",
@@ -12816,7 +12454,8 @@ return {
 		CodexSecret = true,
 		CompatibilityTags = { "SNIPER_AMMO" },
 		Conclave = true,
-		Disposition = 1.25,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.25,
 		ExilusPolarity = "Madurai",
 		Family = "Snipetron",
 		GripType = "",
@@ -12867,7 +12506,8 @@ return {
 		},
 		Class = "Shotgun",
 		Conclave = true,
-		Disposition = 1.33,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.33,
 		ExilusPolarity = "Naramon",
 		Family = "Sobek",
 		GripType = "",
@@ -12934,7 +12574,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.15,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.15,
 		ExilusPolarity = "Madurai",
 		Family = "Soma",
 		GripType = "",
@@ -13005,7 +12646,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.1,
 		ExilusPolarity = "Naramon",
 		Family = "Soma",
 		GripType = "",
@@ -13075,7 +12717,8 @@ return {
 		Class = "Sniper Rifle",
 		CompatibilityTags = { "SNIPER_AMMO", "PROJECTILE" },
 		Conclave = false,
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Madurai",
 		Family = "Sporothrix",
 		GripType = "",
@@ -13166,7 +12809,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO", "PROJECTILE", "AOE" },
 		Conclave = false,
-		Disposition = 1.05,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.05,
 		ExilusPolarity = "Naramon",
 		Family = "Stahlta",
 		GripType = "",
@@ -13215,7 +12859,8 @@ return {
 		Class = "Shotgun",
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO" },
 		Conclave = false,
-		Disposition = 1.25,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.25,
 		ExilusPolarity = "Naramon",
 		Family = "Steflos",
 		GripType = "",
@@ -13264,7 +12909,8 @@ return {
 		Class = "Shotgun",
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO" },
 		Conclave = false,
-		Disposition = 0.5,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.5,
 		ExilusPolarity = "Naramon",
 		Family = "Steflos",
 		GripType = "",
@@ -13331,7 +12977,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.1,
 		ExilusPolarity = "Naramon",
 		Family = "Stradavar",
 		GripType = "",
@@ -13397,7 +13044,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.1,
 		ExilusPolarity = "Madurai",
 		Family = "Stradavar",
 		GripType = "",
@@ -13482,7 +13130,8 @@ return {
 		},
 		Class = "Shotgun",
 		Conclave = true,
-		Disposition = 1.4,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.4,
 		ExilusPolarity = "Madurai",
 		Family = "Strun",
 		GripType = "",
@@ -13571,6 +13220,7 @@ return {
 		Class = "Shotgun",
 		Conclave = false,
 		Disposition = 1.2,
+		_RetiredDisposition = 1.2,
 		ExilusPolarity = "Madurai",
 		Family = "Strun",
 		GripType = "",
@@ -13660,7 +13310,8 @@ return {
 		Class = "Shotgun",
 		CodexSecret = true,
 		Conclave = true,
-		Disposition = 1.35,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.35,
 		ExilusPolarity = "Madurai",
 		Family = "Strun",
 		GripType = "",
@@ -13711,7 +13362,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.1,
 		ExilusPolarity = "Naramon",
 		Family = "Supra",
 		GripType = "",
@@ -13759,7 +13411,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1,
 		ExilusPolarity = "Madurai",
 		Family = "Supra",
 		GripType = "",
@@ -13831,7 +13484,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Madurai",
 		Family = "Sybaris",
 		GripType = "",
@@ -13903,6 +13557,7 @@ return {
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
 		Disposition = 1.2,
+		_RetiredDisposition = 1.2,
 		ExilusPolarity = "Naramon",
 		Family = "Sybaris",
 		GripType = "",
@@ -13954,7 +13609,8 @@ return {
 		CompatibilityTags = { "BEAM", "ASSAULT_AMMO" },
 		Conclave = true,
 		DefaultUpgrades = { "/Lotus/Weapons/Infested/LongGuns/InfestedRifleInnateUpgrade" },
-		Disposition = 1.31,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.31,
 		ExilusPolarity = "Madurai",
 		Family = "Synapse",
 		GripType = "",
@@ -14043,6 +13699,7 @@ return {
 		CompatibilityTags = { "ASSAULT_AMMO", "AOE", "PROJECTILE" },
 		Conclave = true,
 		Disposition = 1.2,
+		_RetiredDisposition = 1.2,
 		ExilusPolarity = "Madurai",
 		Family = "Simulor",
 		GripType = "",
@@ -14111,6 +13768,7 @@ return {
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO" },
 		Conclave = true,
 		Disposition = 1.2,
+		_RetiredDisposition = 1.2,
 		ExilusPolarity = "Naramon",
 		Family = "Boltor",
 		GripType = "",
@@ -14165,7 +13823,8 @@ return {
 		Class = "Shotgun",
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
-		Disposition = 0.6,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.6,
 		ExilusPolarity = "Madurai",
 		Family = "Arca Plasmor",
 		GripType = "",
@@ -14234,7 +13893,8 @@ return {
 			"/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
 			"/Lotus/Weapons/Corpus/LongGuns/CrpBriefcaseLauncher/CrpBriefcaseLauncherInnateMod"
 		},
-		Disposition = 0.65,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.65,
 		ExilusPolarity = "Naramon",
 		Family = "Tenet Envoy",
 		GripType = "",
@@ -14337,7 +13997,8 @@ return {
 			"/Lotus/Weapons/Grineer/LongGuns/GrnFlameSpear/GunSpearInnateMod",
 			"/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
 		},
-		Disposition = 1.15,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.15,
 		ExilusPolarity = "Naramon",
 		Family = "Ferrox",
 		GripType = "SPEAR",
@@ -14388,6 +14049,7 @@ return {
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
 		Disposition = 1.2,
+		_RetiredDisposition = 1.2,
 		ExilusPolarity = "Naramon",
 		Family = "Flux Rifle",
 		GripType = "",
@@ -14437,7 +14099,8 @@ return {
 		CompatibilityTags = { "BEAM", "ASSAULT_AMMO" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
-		Disposition = 0.65,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.65,
 		ExilusPolarity = "Madurai",
 		Family = "Glaxion",
 		GripType = "",
@@ -14536,7 +14199,8 @@ return {
 		CodexSecret = true,
 		CompatibilityTags = { "PROJECTILE", "BEAM", "ASSAULT_AMMO" },
 		Conclave = false,
-		Disposition = 0.85,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.85,
 		ExilusPolarity = "Naramon",
 		Family = "Quanta",
 		GripType = "",
@@ -14622,7 +14286,8 @@ return {
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod" },
-		Disposition = 1.25,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.25,
 		ExilusPolarity = "Madurai",
 		Family = "Tetra",
 		GripType = "",
@@ -14692,7 +14357,8 @@ return {
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
 		DefaultUpgrades = { "/Lotus/Weapons/Tenno/LongGuns/TnBardRifle/TnBardRifleInnateUpgrade" },
-		Disposition = 1.1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.1,
 		ExilusPolarity = "Madurai",
 		Family = "Tenora",
 		GripType = "",
@@ -14760,7 +14426,8 @@ return {
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
 		DefaultUpgrades = { "/Lotus/Weapons/Tenno/LongGuns/TnBardRifle/TnBardRifleInnateUpgrade" },
-		Disposition = 1.05,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.05,
 		ExilusPolarity = "Madurai",
 		Family = "Tenora",
 		GripType = "",
@@ -14809,7 +14476,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.5,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.5,
 		ExilusPolarity = "Madurai",
 		Family = "Tetra",
 		GripType = "",
@@ -14859,6 +14527,7 @@ return {
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = false,
 		Disposition = 1.2,
+		_RetiredDisposition = 1.2,
 		ExilusPolarity = "",
 		Family = "Thornbak",
 		GripType = "",
@@ -14907,7 +14576,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.1,
 		ExilusPolarity = "Naramon",
 		Family = "Tiberon",
 		GripType = "",
@@ -14990,7 +14660,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1,
 		ExilusPolarity = "Madurai",
 		Family = "Tiberon",
 		GripType = "",
@@ -15039,7 +14710,8 @@ return {
 		Class = "Shotgun",
 		CompatibilityTags = { "SINGLESHOT" },
 		Conclave = true,
-		Disposition = 1.1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.1,
 		ExilusPolarity = "Naramon",
 		Family = "Tigris",
 		GripType = "",
@@ -15087,7 +14759,8 @@ return {
 		Class = "Shotgun",
 		CompatibilityTags = { "SINGLESHOT" },
 		Conclave = true,
-		Disposition = 0.95,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.95,
 		ExilusPolarity = "Naramon",
 		Family = "Tigris",
 		GripType = "",
@@ -15152,7 +14825,8 @@ return {
 		Class = "Launcher",
 		CompatibilityTags = { "PROJECTILE", "AOE" },
 		Conclave = true,
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Naramon",
 		Family = "Tonkor",
 		GripType = "",
@@ -15236,7 +14910,8 @@ return {
 		Class = "Launcher",
 		CompatibilityTags = { "PROJECTILE", "SINGLESHOT", "AOE" },
 		Conclave = false,
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Naramon",
 		Family = "Torid",
 		GripType = "",
@@ -15332,7 +15007,8 @@ return {
 		CompatibilityTags = { "ASSAULT_AMMO", "PROJECTILE", "AOE" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Thanotech/ThanoRifle/ThanotechRifleWeaponInnateMod" },
-		Disposition = 0.85,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.85,
 		ExilusPolarity = "Naramon",
 		Family = "Trumna",
 		GripType = "",
@@ -15427,7 +15103,8 @@ return {
 		CompatibilityTags = { "ASSAULT_AMMO", "PROJECTILE", "AOE" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Thanotech/ThanoRifle/ThanotechRifleWeaponInnateMod" },
-		Disposition = 0.65,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.65,
 		ExilusPolarity = "Naramon",
 		Family = "Trumna",
 		GripType = "",
@@ -15479,7 +15156,8 @@ return {
 		DefaultUpgrades = {
 			"/Lotus/Weapons/Tenno/LongGuns/PrimeLightningGun/VadaryaPrimePassiveDescUpgrade"
 		},
-		Disposition = 0.8,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.8,
 		ExilusPolarity = "Naramon",
 		Family = "Vadarya Prime",
 		GripType = "",
@@ -15530,7 +15208,8 @@ return {
 		Class = "Shotgun",
 		CompatibilityTags = { "SYNDICATEMODBLOCKED", "SEMI_AUTO" },
 		Conclave = true,
-		Disposition = 1.15,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.15,
 		ExilusPolarity = "Naramon",
 		Family = "Hek",
 		GripType = "",
@@ -15633,7 +15312,8 @@ return {
 		Class = "Sniper Rifle",
 		CompatibilityTags = { "SNIPER_AMMO", "Vectis", "SINGLESHOT" },
 		Conclave = true,
-		Disposition = 1.15,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.15,
 		ExilusPolarity = "Madurai",
 		Family = "Vectis",
 		GripType = "",
@@ -15742,7 +15422,8 @@ return {
 		Class = "Sniper Rifle",
 		CompatibilityTags = { "SNIPER_AMMO", "SINGLESHOT" },
 		Conclave = true,
-		Disposition = 1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1,
 		ExilusPolarity = "Naramon",
 		Family = "Vectis",
 		GripType = "",
@@ -15796,7 +15477,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "PROJECTILE", "ASSAULT_AMMO" },
 		Conclave = true,
-		Disposition = 1.3,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.3,
 		ExilusPolarity = "Madurai",
 		Family = "Veldt",
 		GripType = "",
@@ -15843,7 +15525,8 @@ return {
 		CodexSecret = true,
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = false,
-		Disposition = 0.7,
+		Disposition = 1.2,
+		_RetiredDisposition = 0.7,
 		Family = "Vinquibus",
 		GripType = "",
 		Image = "Vinquibus.png",
@@ -15892,7 +15575,8 @@ return {
 		Class = "Sniper Rifle",
 		CompatibilityTags = { "SNIPER_AMMO" },
 		Conclave = true,
-		Disposition = 1.45,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.45,
 		ExilusPolarity = "Madurai",
 		Family = "Vulkar",
 		GripType = "",
@@ -15948,7 +15632,8 @@ return {
 		Class = "Sniper Rifle",
 		CompatibilityTags = { "SNIPER_AMMO" },
 		Conclave = true,
-		Disposition = 1.4,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.4,
 		ExilusPolarity = "Madurai",
 		Family = "Vulkar",
 		GripType = "",
@@ -16067,7 +15752,8 @@ return {
 		Class = "Launcher",
 		CompatibilityTags = { "ASSAULT_AMMO", "PROJECTILE", "AOE", "SINGLESHOT" },
 		Conclave = true,
-		Disposition = 1.15,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.15,
 		ExilusPolarity = "Madurai",
 		Family = "Zarr",
 		GripType = "",
@@ -16134,7 +15820,8 @@ return {
 		Class = "Rifle",
 		CompatibilityTags = { "ASSAULT_AMMO" },
 		Conclave = false,
-		Disposition = 1.1,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.1,
 		ExilusPolarity = "Madurai",
 		Family = "Zenith",
 		GripType = "",
@@ -16181,6 +15868,7 @@ return {
 		CompatibilityTags = { "PROJECTILE", "ZHUGE", "CROSSBOW" },
 		Conclave = true,
 		Disposition = 1.2,
+		_RetiredDisposition = 1.2,
 		ExilusPolarity = "Naramon",
 		Family = "Zhuge",
 		GripType = "",
@@ -16244,7 +15932,8 @@ return {
 		CompatibilityTags = { "PROJECTILE", "ZHUGE", "CROSSBOW" },
 		Conclave = false,
 		DefaultUpgrades = { "/Lotus/Weapons/Tenno/LongGuns/PrimeZhuge/ZhugePrimeReloadFromEmptyMod" },
-		Disposition = 1.15,
+		Disposition = 1.2,
+		_RetiredDisposition = 1.15,
 		ExilusPolarity = "Madurai",
 		Family = "Zhuge",
 		GripType = "",

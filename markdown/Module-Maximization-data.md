@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-10-21T21:29:35Z"
+wiki_timestamp: "2026-10-23T01:27:19Z"
 ---
 
 ## Contents
@@ -811,7 +811,19 @@ local Data = {
 		}
 	},
 	-- Grendel
-	['Nourish'] = {
+	['Feast']={
+		ins={
+			{name='FEAST_LEVEL', cont='Sum of eaten enemy levels:', min='0', value='1'},
+			{name='GOURMAND', cont=Tooltips.full('Gourmand', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Vomit '..Tooltips.full('Toxin', 'DamageTypes')..' damage:', {expr='STR 500 %of FEAST_LEVEL 1 - 15 / 1 + * floor'}},
+			{'Swallow range:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='0 25 COST * GOURMAND if', fmt='2dec'}},
+			{Tooltips.full('Health', 'Stats')..' cost:', {expr='200 COST * 0 GOURMAND if', fmt='2dec'}}
+		}
+	},
+	['Nourish']={
 		ins={
 			{name='HEARTY_NOURISHMENT', cont=Tooltips.full('Hearty Nourishment', 'Mods')..'?', type='checkbox'},
 			{name='NOURISH_INFUSED', cont='[[Infused]]?', type='checkbox'}
@@ -828,6 +840,88 @@ local Data = {
 			{'Explosion '..Tooltips.full('Virus', 'DamageTypes')..' stacks:', {expr='1 10 NOURISH_INFUSED if'}},
 			{'[[Status Effect]] immunity duration:', {expr='DUR 5 %of 0 HEARTY_NOURISHMENT if', suff='s/enemy', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Pulverize']={
+		ins={
+			{name='GRENDEL_STOMACH', cont='Enemies in stomach:', type='range-R', min='0', max='5', value='0'},
+			{name='CATAPULT', cont=Tooltips.full('Catapult', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Toxin', 'DamageTypes')..' damage:', {expr='STR 25 %of'}},
+			{'Collision '..Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 500 %of 1 0.6 GRENDEL_STOMACH * + *'}},
+			{'Slam '..Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 150 70 GRENDEL_STOMACH * + %of'}},
+			{'Maximum '..Tooltips.full('Health', 'Stats')..' restoration:', {expr='STR 200 %of', suff='/s'}},
+			{'Minimum '..Tooltips.full('Health', 'Stats')..' restoration:', {expr='STR 100 %of', suff='/s'}},
+			{'Collision radius:', {expr='2.5 0.5 GRENDEL_STOMACH * +', suff='m', fmt='1dec'}},
+			{'Slam radius:', {expr='RNG 5 2 GRENDEL_STOMACH * + %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Armor', 'Stats')..' Reduction:', {expr='STR 0.5 %of 1 min', fmt='%'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='3 DRAIN * 0 GRENDEL_STOMACH 0 = if', fmt='2dec'}},
+			{'Catapult '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='5 COST * 0 CATAPULT if', fmt='2dec'}}
+		}
+	},
+	['Regurgitate']={
+		ins={
+			{name='GASTRO', cont=Tooltips.full('Gastro', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Base '..Tooltips.full('Toxin', 'DamageTypes')..' or '..Tooltips.full('Gas', 'DamageTypes')..' damage:', {expr='STR 2000 %of'}},
+			{Tooltips.full('Armor', 'Stats')..' Reduction:', {expr='STR 0.75 %of 1 min', fmt='%'}},
+			{'Radius:', {expr='RNG 6 %of', suff='m', fmt='2dec'}},
+			{Tooltips.full('Gas', 'DamageTypes')..' cloud damage:', {expr='STR 250 %of 0 GASTRO if'}},
+			{Tooltips.full('Gas', 'DamageTypes')..' cloud duration:', {expr='DUR 8 %of 0 GASTRO if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	-- Harrow
+	['Condemn']={
+		outs={
+			{Tooltips.full('Shield', 'Stats')..' restoration:', {expr='STR 150 %of', suff='/enemy'}},
+			{'Duration:', {expr='DUR 6 %of', suff='s', fmt='2dec'}},
+			{'Wave travel distance:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
+			{'Wave width:', {expr='RNG 2.5 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Penance']={
+		outs={
+			{Tooltips.full('Health', 'Stats')..' restoration on cast:', {expr='STR 0.5 %of 1 min', fmt='%'}},
+			{'Damage to '..Tooltips.full('Health', 'Stats')..' conversion:', {expr='STR 0.05 %of', fmt='%'}},
+			{'Fire Rate and Attack Speed bonus:', {expr='STR 0.35 %of', fmt='%'}},
+			{'Reload Speed bonus:', {expr='STR 0.7 %of', fmt='%'}},
+			{'Base duration:', {expr='DUR 4 %of', suff='s', fmt='2dec'}},
+			{'Duration added by sacrificed '..Tooltips.full('Shield', 'Stats')..':', {expr='DUR 1.54 %of', suff='s/100 Shield', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Thurible']={
+		ins={
+			{name='THURIBLE_ENERGY', cont='Amount of Energy channeled:', min='0', value='125'},
+			{name='WARDING_THURIBLE', cont=Tooltips.full('Warding Thurible', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Energy conversion:', {name='THURIBLE_CONVERSION', expr='STR 0.15 2 EFF as% - / %of', fmt='%'}},
+			{'Energy restoration on normal kill:', {name='THURIBLE_RESTORE', expr='1 THURIBLE_ENERGY THURIBLE_CONVERSION * +', suff='/kill', fmt='2dec'}},
+			{'Energy restoration on Weak Point kill:', {expr='THURIBLE_RESTORE 4 *', suff='/Weak Point kill', fmt='2dec'}},
+			{'Buff duration:', {expr='DUR 35 %of', suff='s', fmt='2dec'}},
+			{'Buff radius:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
+			{'[[Damage Reduction]]:', {expr='STR 0.5 %of 0.9 min 0 WARDING_THURIBLE if', fmt='%'}},
+			{'Additional Energy charge when damaged:', {expr='STR 1 %of 0 WARDING_THURIBLE if', suff='/hit', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Covenant']={
+		ins={
+			{name='LASTING_COVENANT', cont=Tooltips.full('Lasting Covenant', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Initial Critical Chance bonus:', {name='COVENANT_BASE', expr='STR 0.05 %of 0.5 min', fmt='%'}},
+			{'Absorbed damage to Critical Chance conversion:', {name='COVENANT_CONVERSION', expr='STR 0.015 %of', suff='/100 damage', fmt='%'}},
+			{'Damage for 50% Critical Chance:', {expr='0.5 COVENANT_BASE - COVENANT_CONVERSION 100 / /'}},
+			{'[[Invulnerability]] duration:', {expr='DUR 6 %of', suff='s', fmt='2dec'}},
+			{'Critical Chance bonus duration:', {expr='DUR 12 %of', suff='s', fmt='2dec'}},
+			{'Critical Chance bonus duration extension:', {expr='DUR 3 %of 0 LASTING_COVENANT if', suff='s/Weak Point kill', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},
 	-- Jade

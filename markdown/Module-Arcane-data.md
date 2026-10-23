@@ -1,7 +1,7 @@
 ---
 title: "Module:Arcane/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Arcane/data"
-wiki_timestamp: "2026-09-27T16:45:14Z"
+wiki_timestamp: "2026-10-23T05:28:35Z"
 ---
 
 Database of [Arcane Enhancements](/w/Arcane_Enhancement "Arcane Enhancement").
@@ -13,7 +13,7 @@ Database of [Arcane Enhancements](/w/Arcane_Enhancement "Arcane Enhancement").
   + [2.1 Checking for required keys](#Checking_for_required_keys)
   + [2.2 Validating data types of values](#Validating_data_types_of_values)
 
-:   *Last updated: Sun, 27 Sep 2026 16:45:14 +0000 (UTC) by [User:Akzani](/w/User:Akzani?action=edit&redlink=1 "User:Akzani (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Arcane/data?diff=0))*
+:   *Last updated: Fri, 23 Oct 2026 05:28:35 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Arcane/data?diff=0))*
 
 ## Arcane Entry Schema
 
@@ -709,7 +709,7 @@ return {
 		},
 		["Arcane Pistoleer"] = {
 			CodexSecret = true,
-			Description = "On Pistol Weak Point Kill:\r\n60% chance for +102% Ammo Efficiency for 12s",
+			Description = "On Pistol Weak Point Kill:\r\n60% chance for Infinite Ammo for 12s",
 			Dissolution = 20,
 			Icon = "ArcanePistoleer64x.png",
 			Image = "ArcanePistoleer.png",
@@ -1206,7 +1206,7 @@ return {
 		},
 		["Eternal Logistics"] = {
 			CodexSecret = false,
-			Description = "On Void Sling:\r\n+72% Amp Ammo Efficiency for 8s",
+			Description = "On Void Sling:\r\n+75% Amp Ammo Efficiency for 8s",
 			Dissolution = 22,
 			Icon = "EternalLogistics64x.png",
 			Image = "EternalLogistics.png",

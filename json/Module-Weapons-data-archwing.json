@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-24T07:26:13.090Z"
+    "converted_at": "2026-10-23T07:11:37.889Z"
   },
   "_comments": "\t----------------------------------Arch-Gun--------------------------------------\n\t\t\t\t--ShotSpeed = ,\n\t----------------------------------Archmelee------------------------------------",
   "Centaur": {
@@ -54,18 +54,18 @@
     "Class": "Archgun",
     "MaxRank": 30,
     "Link": "Arbucep",
-    "GripType": "",
     "Traits": [
       "Tenno"
     ],
+    "GripType": "",
+    "Slot": "Archgun",
     "Introduced": "40",
     "Polarities": [
       "Madurai",
       "Naramon"
     ],
-    "Slot": "Archgun",
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/NokkoArchGun/NokkoArchGun",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/NokkoArchGun/NokkoArchGun",
     "ReloadStyle": "Regenerate",
     "ReloadDelay": 1,
     "Attacks": [
@@ -346,6 +346,7 @@
         "CritMultiplier": 2.9
       }
     ],
+    "_RetiredDisposition": 0.7,
     "AmmoType": "Heavy",
     "Trigger": "Auto",
     "Magazine": 36,
@@ -359,7 +360,7 @@
     "Image": "Arbucep.png",
     "Family": "Arbucep",
     "AmmoMax": 0,
-    "Disposition": 0.7,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Archwing/Primary/NokkoArchGun/NokkoArchGunInnateMod"
     ]
@@ -377,13 +378,14 @@
       "Madurai",
       "Naramon"
     ],
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeCorvas/PrimeCorvasWeapon",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeCorvas/PrimeCorvasWeapon",
     "Traits": [
       "Prime"
     ],
     "Tradable": 2,
     "Slot": "Archgun (Atmosphere)",
+    "_RetiredDisposition": 1,
     "AmmoType": "Heavy",
     "Trigger": "Charge",
     "Magazine": 20,
@@ -395,7 +397,7 @@
     "Image": "CorvasPrime.png",
     "Family": "Corvas",
     "AmmoMax": 120,
-    "Disposition": 1,
+    "Disposition": 1.2,
     "Attacks": [
       {
         "CritChance": 0.44,
@@ -469,6 +471,7 @@
       "Corpus"
     ],
     "Slot": "Archgun (Atmosphere)",
+    "_RetiredDisposition": 1.1,
     "AmmoType": "Heavy",
     "Trigger": "Semi-Auto",
     "Magazine": 40,
@@ -480,7 +483,7 @@
     "Image": "Fluctus.png",
     "Family": "Fluctus",
     "AmmoMax": 160,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "Attacks": [
       {
         "CritChance": 0.22,
@@ -556,18 +559,19 @@
     "Class": "Archgun",
     "MaxRank": 30,
     "GripType": "",
+    "ReloadStyle": "Regenerate",
     "Introduced": "29.5",
     "Polarities": [
       "Madurai"
     ],
-    "ReloadStyle": "Regenerate",
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechGrenadeLaunch/ThanoTechGrenadeLauncher",
     "Traits": [
       "Entrati"
     ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechGrenadeLaunch/ThanoTechGrenadeLauncher",
     "Tradable": 4,
     "Slot": "Archgun",
     "SellPrice": 5000,
+    "_RetiredDisposition": 1,
     "Link": "Morgha",
     "Trigger": "Auto-Burst",
     "Magazine": 100,
@@ -669,7 +673,7 @@
     "Mastery": 15,
     "Family": "Morgha",
     "AmmoMax": 0,
-    "Disposition": 1,
+    "Disposition": 1.2,
     "Image": "Morgha.png"
   },
   "Grattler": {
@@ -679,18 +683,19 @@
     "Class": "Archgun",
     "MaxRank": 30,
     "GripType": "",
+    "ReloadStyle": "Regenerate",
     "Introduced": "17.0",
     "Polarities": [
       "Madurai"
     ],
-    "ReloadStyle": "Regenerate",
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/RepurposedGrineerAntiAircraftGun/ArchGRNAAGun",
     "Traits": [
       "Grineer"
     ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/RepurposedGrineerAntiAircraftGun/ArchGRNAAGun",
     "Spool": 4,
     "Slot": "Archgun",
     "SellPrice": 5000,
+    "_RetiredDisposition": 1.1,
     "Link": "Grattler",
     "Trigger": "Auto-Spool",
     "Magazine": 30,
@@ -752,7 +757,7 @@
     "Mastery": 4,
     "Family": "Grattler",
     "AmmoMax": 0,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "Image": "Grattler.png"
   },
   "Dual Decurion (Atmosphere)": {
@@ -769,6 +774,7 @@
       "Tenno"
     ],
     "Slot": "Archgun (Atmosphere)",
+    "_RetiredDisposition": 1.3,
     "AmmoType": "Heavy",
     "Trigger": "Auto",
     "Magazine": 64,
@@ -780,7 +786,7 @@
     "Image": "DualDecurion.png",
     "Family": "Dual Decurion",
     "AmmoMax": 512,
-    "Disposition": 1.3,
+    "Disposition": 1.2,
     "Attacks": [
       {
         "CritChance": 0.28,
@@ -817,14 +823,15 @@
       "Madurai",
       "Madurai"
     ],
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/Prisma/PrismaArchHeavyPistols",
     "Mastery": 1,
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/Prisma/PrismaArchHeavyPistols",
     "Traits": [
       "Prisma",
       "Baro"
     ],
     "Slot": "Archgun (Atmosphere)",
     "SellPrice": 5000,
+    "_RetiredDisposition": 1.25,
     "AmmoType": "Heavy",
     "Trigger": "Auto",
     "Magazine": 64,
@@ -858,7 +865,7 @@
     ],
     "Family": "Dual Decurion",
     "AmmoMax": 512,
-    "Disposition": 1.25,
+    "Disposition": 1.2,
     "CodexSecret": true
   },
   "Agkuza": {
@@ -952,14 +959,15 @@
     "Polarities": [
       "Naramon"
     ],
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/RocketArtillery/ArchRocketCrossbow",
     "ReloadStyle": "Regenerate",
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/RocketArtillery/ArchRocketCrossbow",
     "Traits": [
       "Tenno",
       "Corpus"
     ],
     "Slot": "Archgun",
     "SellPrice": 5000,
+    "_RetiredDisposition": 1.1,
     "Link": "Fluctus",
     "Trigger": "Semi-Auto",
     "Magazine": 40,
@@ -1004,32 +1012,33 @@
     "Mastery": 2,
     "Family": "Fluctus",
     "AmmoMax": 0,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "Image": "Fluctus.png"
   },
   "Imperator Vandal": {
+    "ReloadDelay": 0.15,
     "ReloadDelayEmpty": 0.25,
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
     "Class": "Archgun",
     "MaxRank": 30,
-    "ReloadDelay": 0.15,
     "Traits": [
       "Tenno",
       "Vandal"
     ],
-    "GripType": "",
     "Tradable": 2,
+    "GripType": "",
+    "Spool": 16,
     "Introduced": "15.8",
     "Polarities": [
       "Madurai"
     ],
-    "Spool": 16,
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGunVandal",
     "Slot": "Archgun",
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGunVandal",
     "SellPrice": 5000,
     "ReloadStyle": "Regenerate",
     "ReloadRate": 75,
+    "_RetiredDisposition": 0.95,
     "Link": "Imperator Vandal",
     "Trigger": "Auto-Spool",
     "Magazine": 300,
@@ -1070,7 +1079,7 @@
     "Mastery": 5,
     "Family": "Imperator",
     "AmmoMax": 0,
-    "Disposition": 0.95,
+    "Disposition": 1.2,
     "CodexSecret": false
   },
   "Kuva Grattler": {
@@ -1080,23 +1089,24 @@
     "Class": "Archgun",
     "MaxRank": 40,
     "Mastery": 15,
-    "GripType": "",
     "Traits": [
       "Grineer",
       "Kuva Lich"
     ],
+    "GripType": "",
+    "Tradable": 3,
     "Introduced": "30.5",
     "Polarities": [
       "Madurai",
       "Madurai",
       "Madurai"
     ],
-    "Tradable": 3,
-    "InternalName": "/Lotus/Weapons/Grineer/KuvaLich/HeavyWeapons/Grattler/KuvaGrattler",
     "Slot": "Archgun",
+    "InternalName": "/Lotus/Weapons/Grineer/KuvaLich/HeavyWeapons/Grattler/KuvaGrattler",
     "SellPrice": 5000,
     "ReloadStyle": "Regenerate",
     "ReloadDelay": 1,
+    "_RetiredDisposition": 0.7,
     "Link": "Kuva Grattler",
     "Trigger": "Auto",
     "Magazine": 60,
@@ -1158,7 +1168,7 @@
     "IsLichWeapon": true,
     "Family": "Grattler",
     "AmmoMax": 0,
-    "Disposition": 0.7,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
     ]
@@ -1171,13 +1181,14 @@
     "MaxRank": 30,
     "GripType": "",
     "Introduced": "15.5",
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/ArchHeavyPistols",
     "ReloadStyle": "Regenerate",
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/ArchHeavyPistols",
     "Traits": [
       "Tenno"
     ],
     "Slot": "Archgun",
     "SellPrice": 5000,
+    "_RetiredDisposition": 1.3,
     "Link": "Dual Decurion",
     "Trigger": "Auto",
     "Magazine": 64,
@@ -1218,7 +1229,7 @@
     "Mastery": 1,
     "Family": "Dual Decurion",
     "AmmoMax": 0,
-    "Disposition": 1.3,
+    "Disposition": 1.2,
     "Image": "DualDecurion.png"
   },
   "Imperator Vandal (Atmosphere)": {
@@ -1226,19 +1237,20 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Rifle",
     "MaxRank": 30,
+    "Mastery": 5,
     "GripType": "",
     "_IgnoreInMasteryCount": true,
     "Introduced": "24.2",
-    "Mastery": 5,
     "Traits": [
       "Tenno",
       "Vandal"
     ],
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGunVandal",
     "Tradable": 2,
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGunVandal",
     "Spool": 16,
     "Slot": "Archgun (Atmosphere)",
     "SellPrice": 5000,
+    "_RetiredDisposition": 0.95,
     "AmmoType": "Heavy",
     "Trigger": "Auto-Spool",
     "Magazine": 300,
@@ -1272,7 +1284,7 @@
     ],
     "Family": "Imperator",
     "AmmoMax": 1200,
-    "Disposition": 0.95,
+    "Disposition": 1.2,
     "CodexSecret": false
   },
   "Prisma Veritux": {
@@ -1329,13 +1341,14 @@
     "Polarities": [
       "Naramon"
     ],
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/LaunchGrenade/ArchCannon",
     "ReloadStyle": "Regenerate",
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/LaunchGrenade/ArchCannon",
     "Traits": [
       "Tenno"
     ],
     "Slot": "Archgun",
     "SellPrice": 5000,
+    "_RetiredDisposition": 1.2,
     "Link": "Corvas",
     "Trigger": "Charge",
     "Magazine": 25,
@@ -1413,13 +1426,14 @@
     "Polarities": [
       "Madurai"
     ],
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/RepurposedGrineerAntiAircraftGun/ArchGRNAAGun",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/RepurposedGrineerAntiAircraftGun/ArchGRNAAGun",
     "Traits": [
       "Grineer"
     ],
     "Spool": 4,
     "Slot": "Archgun (Atmosphere)",
+    "_RetiredDisposition": 1.1,
     "AmmoType": "Heavy",
     "Trigger": "Auto-Spool",
     "Magazine": 30,
@@ -1431,7 +1445,7 @@
     "Image": "Grattler.png",
     "Family": "Grattler",
     "AmmoMax": 180,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "Attacks": [
       {
         "CritChance": 0.25,
@@ -1484,18 +1498,19 @@
     "Class": "Archgun",
     "MaxRank": 30,
     "GripType": "",
+    "ReloadStyle": "Regenerate",
     "Introduced": "15.0",
     "Polarities": [
       "Madurai"
     ],
-    "ReloadStyle": "Regenerate",
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGun",
     "Traits": [
       "Tenno"
     ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGun",
     "Tradable": 2,
     "Slot": "Archgun",
     "SellPrice": 5000,
+    "_RetiredDisposition": 1.1,
     "Link": "Imperator",
     "Trigger": "Auto",
     "Magazine": 200,
@@ -1536,7 +1551,7 @@
     "Mastery": 0,
     "Family": "Imperator",
     "AmmoMax": 0,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "Image": "Imperator.png"
   },
   "Corvas Prime": {
@@ -1546,20 +1561,21 @@
     "Class": "Archgun",
     "MaxRank": 30,
     "GripType": "",
+    "ReloadStyle": "Regenerate",
     "Introduced": "31.3",
     "Polarities": [
       "Madurai",
       "Madurai",
       "Naramon"
     ],
-    "ReloadStyle": "Regenerate",
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/LaunchGrenade/ArchCannon",
     "Traits": [
       "Prime"
     ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/LaunchGrenade/ArchCannon",
     "Tradable": 2,
     "Slot": "Archgun",
     "SellPrice": 5000,
+    "_RetiredDisposition": 1,
     "Link": "Corvas Prime",
     "Trigger": "Charge",
     "Magazine": 20,
@@ -1626,7 +1642,7 @@
     "Mastery": 14,
     "Family": "Corvas",
     "AmmoMax": 0,
-    "Disposition": 1,
+    "Disposition": 1.2,
     "Image": "CorvasPrime.png"
   },
   "Corvas (Atmosphere)": {
@@ -1646,6 +1662,7 @@
       "Tenno"
     ],
     "Slot": "Archgun (Atmosphere)",
+    "_RetiredDisposition": 1.2,
     "AmmoType": "Heavy",
     "Trigger": "Charge",
     "Magazine": 25,
@@ -1801,13 +1818,14 @@
     "MaxRank": 30,
     "GripType": "",
     "Introduced": "Specters of the Rail 0.0",
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchBurstGun/ArchBurstGun",
     "ReloadStyle": "Regenerate",
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchBurstGun/ArchBurstGun",
     "Traits": [
       "Tenno"
     ],
     "Slot": "Archgun",
     "SellPrice": 5000,
+    "_RetiredDisposition": 1.3,
     "Link": "Cyngas",
     "Trigger": "Auto-Burst",
     "Magazine": 30,
@@ -1850,7 +1868,7 @@
     "Mastery": 4,
     "Family": "Cyngas",
     "AmmoMax": 0,
-    "Disposition": 1.3,
+    "Disposition": 1.2,
     "Image": "Cyngas.png"
   },
   "Prisma Dual Decurions": {
@@ -1859,22 +1877,23 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Archgun",
     "MaxRank": 30,
-    "GripType": "DUAL_GUN_GUN",
     "ReloadDelay": 0.25,
+    "GripType": "DUAL_GUN_GUN",
+    "Traits": [
+      "Prisma",
+      "Baro"
+    ],
     "Introduced": "29.5.8",
     "Polarities": [
       "Madurai",
       "Madurai"
     ],
-    "Traits": [
-      "Prisma",
-      "Baro"
-    ],
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/Prisma/PrismaArchHeavyPistols",
     "Tradable": 1,
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchwingHeavyPistols/Prisma/PrismaArchHeavyPistols",
     "Slot": "Archgun",
     "SellPrice": 5000,
     "ReloadStyle": "Regenerate",
+    "_RetiredDisposition": 1.25,
     "Link": "Prisma Dual Decurions",
     "Trigger": "Auto",
     "Magazine": 64,
@@ -1915,7 +1934,7 @@
     "Mastery": 1,
     "Family": "Dual Decurion",
     "AmmoMax": 0,
-    "Disposition": 1.25,
+    "Disposition": 1.2,
     "CodexSecret": true
   },
   "Kuva Ayanga (Atmosphere)": {
@@ -1923,6 +1942,10 @@
     "_TooltipAttackDisplay": 2,
     "Class": "Launcher",
     "MaxRank": 40,
+    "Traits": [
+      "Grineer",
+      "Kuva Lich"
+    ],
     "Image": "KuvaAyanga.png",
     "GripType": "",
     "_IgnoreInMasteryCount": true,
@@ -1930,15 +1953,12 @@
     "Polarities": [
       "Naramon"
     ],
-    "Traits": [
-      "Grineer",
-      "Kuva Lich"
-    ],
-    "InternalName": "/Lotus/Weapons/Grineer/HeavyWeapons/GrnHeavyGrenadeLauncher",
     "Tradable": 3,
+    "InternalName": "/Lotus/Weapons/Grineer/HeavyWeapons/GrnHeavyGrenadeLauncher",
     "Slot": "Archgun (Atmosphere)",
     "SellPrice": 5000,
     "Link": "Kuva Ayanga",
+    "_RetiredDisposition": 0.95,
     "AmmoType": "Heavy",
     "Trigger": "Auto",
     "Magazine": 33,
@@ -1992,7 +2012,7 @@
     ],
     "Family": "Kuva Ayanga",
     "AmmoMax": 165,
-    "Disposition": 0.95,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
     ]
@@ -2057,13 +2077,14 @@
     "MaxRank": 30,
     "GripType": "",
     "Introduced": "15.2",
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/Railgun/ArchRailgun",
     "ReloadStyle": "Regenerate",
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/Railgun/ArchRailgun",
     "Traits": [
       "Tenno"
     ],
     "Slot": "Archgun",
     "SellPrice": 5000,
+    "_RetiredDisposition": 1.1,
     "Link": "Velocitus",
     "Trigger": "Charge",
     "Magazine": 10,
@@ -2121,7 +2142,7 @@
     "Mastery": 0,
     "Family": "Velocitus",
     "AmmoMax": 0,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "Image": "Velocitus.png"
   },
   "Mausolon": {
@@ -2135,13 +2156,14 @@
     "Polarities": [
       "Madurai"
     ],
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun",
     "ReloadStyle": "Regenerate",
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchLongGun/ThanoTechLongGun",
     "Traits": [
       "Entrati"
     ],
     "Slot": "Archgun",
     "SellPrice": 5000,
+    "_RetiredDisposition": 0.5,
     "Link": "Mausolon",
     "Trigger": "Auto / Semi",
     "Magazine": 300,
@@ -2253,7 +2275,7 @@
     "Mastery": 14,
     "Family": "Mausolon",
     "AmmoMax": 0,
-    "Disposition": 0.5,
+    "Disposition": 1.2,
     "Image": "Mausolon.png"
   },
   "Kuva Ayanga": {
@@ -2263,21 +2285,22 @@
     "Class": "Archgun",
     "MaxRank": 40,
     "Mastery": 13,
-    "GripType": "",
     "Traits": [
       "Grineer",
       "Kuva Lich"
     ],
+    "GripType": "",
+    "Tradable": 3,
     "Introduced": "26",
     "Polarities": [
       "Naramon"
     ],
-    "Tradable": 3,
-    "InternalName": "/Lotus/Weapons/Grineer/HeavyWeapons/GrnHeavyGrenadeLauncher",
     "Slot": "Archgun",
+    "InternalName": "/Lotus/Weapons/Grineer/HeavyWeapons/GrnHeavyGrenadeLauncher",
     "SellPrice": 5000,
     "ReloadStyle": "Regenerate",
     "ReloadDelay": 0.7,
+    "_RetiredDisposition": 0.95,
     "Link": "Kuva Ayanga",
     "Trigger": "Auto",
     "Magazine": 33,
@@ -2337,7 +2360,7 @@
     "IsLichWeapon": true,
     "Family": "Kuva Ayanga",
     "AmmoMax": 0,
-    "Disposition": 0.95,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
     ]
@@ -2356,6 +2379,7 @@
       "Tenno"
     ],
     "Slot": "Archgun (Atmosphere)",
+    "_RetiredDisposition": 1.1,
     "AmmoType": "Heavy",
     "Trigger": "Charge",
     "Magazine": 10,
@@ -2367,7 +2391,7 @@
     "Image": "Velocitus.png",
     "Family": "Velocitus",
     "AmmoMax": 60,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "Attacks": [
       {
         "CritChance": 0.3,
@@ -2429,7 +2453,6 @@
       "Madurai",
       "Naramon"
     ],
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/NokkoArchGun/NokkoArchGun",
     "Attacks": [
       {
         "CritChance": 0.1,
@@ -2708,11 +2731,13 @@
         "CritMultiplier": 2.9
       }
     ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/NokkoArchGun/NokkoArchGun",
     "Traits": [
       "Tenno"
     ],
     "Slot": "Archgun (Atmosphere)",
     "SellPrice": 5000,
+    "_RetiredDisposition": 0.7,
     "AmmoType": "Heavy",
     "Trigger": "Auto",
     "Magazine": 36,
@@ -2724,7 +2749,7 @@
     "Image": "Arbucep.png",
     "Family": "Arbucep",
     "AmmoMax": 540,
-    "Disposition": 0.7,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Archwing/Primary/NokkoArchGun/NokkoArchGunInnateMod"
     ]
@@ -2740,13 +2765,14 @@
     "Polarities": [
       "Madurai"
     ],
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGun",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/FoldingMachineGun/ArchMachineGun",
     "Traits": [
       "Tenno"
     ],
     "Tradable": 2,
     "Slot": "Archgun (Atmosphere)",
+    "_RetiredDisposition": 1.1,
     "AmmoType": "Heavy",
     "Trigger": "Auto",
     "Magazine": 200,
@@ -2758,7 +2784,7 @@
     "Image": "Imperator.png",
     "Family": "Imperator",
     "AmmoMax": 800,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "Attacks": [
       {
         "CritChance": 0.24,
@@ -2800,6 +2826,7 @@
     "SellPrice": 5000,
     "Tradable": 2,
     "Slot": "Archgun (Atmosphere)",
+    "_RetiredDisposition": 1.1,
     "AmmoType": "Heavy",
     "Trigger": "Charge",
     "Magazine": 30,
@@ -2811,7 +2838,7 @@
     "Image": "Mandonel.png",
     "Family": "Mandonel",
     "AmmoMax": 300,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "Attacks": [
       {
         "CritChance": 0.25,
@@ -2862,18 +2889,19 @@
     "Class": "Archgun",
     "MaxRank": 30,
     "GripType": "",
+    "ReloadStyle": "Regenerate",
     "Introduced": "17.5",
     "Polarities": [
       "Madurai"
     ],
-    "ReloadStyle": "Regenerate",
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchLongRifle/ArchLongRifle",
     "Traits": [
       "Tenno"
     ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchLongRifle/ArchLongRifle",
     "Spool": 11,
     "Slot": "Archgun",
     "SellPrice": 5000,
+    "_RetiredDisposition": 1.25,
     "Link": "Phaedra",
     "Trigger": "Auto-Spool",
     "Magazine": 240,
@@ -2914,7 +2942,7 @@
     "Mastery": 3,
     "Family": "Phaedra",
     "AmmoMax": 0,
-    "Disposition": 1.25,
+    "Disposition": 1.2,
     "Image": "Phaedra.png"
   },
   "Mausolon (Atmosphere)": {
@@ -2934,6 +2962,7 @@
       "Entrati"
     ],
     "Slot": "Archgun (Atmosphere)",
+    "_RetiredDisposition": 0.5,
     "AmmoType": "Heavy",
     "Trigger": "Auto / Semi",
     "Magazine": 300,
@@ -2945,7 +2974,7 @@
     "Image": "Mausolon.png",
     "Family": "Mausolon",
     "AmmoMax": 900,
-    "Disposition": 0.5,
+    "Disposition": 1.2,
     "Attacks": [
       {
         "CritChance": 0.3,
@@ -3045,13 +3074,14 @@
     "Polarities": [
       "Madurai"
     ],
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechGrenadeLaunch/ThanoTechGrenadeLauncher",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechGrenadeLaunch/ThanoTechGrenadeLauncher",
     "Traits": [
       "Entrati"
     ],
     "Tradable": 4,
     "Slot": "Archgun (Atmosphere)",
+    "_RetiredDisposition": 1,
     "AmmoType": "Heavy",
     "Trigger": "Auto-Burst",
     "Magazine": 100,
@@ -3063,7 +3093,7 @@
     "Image": "Morgha.png",
     "Family": "Morgha",
     "AmmoMax": 160,
-    "Disposition": 1,
+    "Disposition": 1.2,
     "Attacks": [
       {
         "CritChance": 0.3,
@@ -3165,13 +3195,14 @@
     "Polarities": [
       "Madurai"
     ],
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchLongRifle/ArchLongRifle",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ArchLongRifle/ArchLongRifle",
     "Traits": [
       "Tenno"
     ],
     "Spool": 11,
     "Slot": "Archgun (Atmosphere)",
+    "_RetiredDisposition": 1.25,
     "AmmoType": "Heavy",
     "Trigger": "Auto-Spool",
     "Magazine": 240,
@@ -3183,7 +3214,7 @@
     "Image": "Phaedra.png",
     "Family": "Phaedra",
     "AmmoMax": 960,
-    "Disposition": 1.25,
+    "Disposition": 1.2,
     "Attacks": [
       {
         "CritChance": 0.14,
@@ -3289,13 +3320,14 @@
     "Polarities": [
       "Madurai"
     ],
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGun",
     "Mastery": 8,
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGun",
     "Traits": [
       "Tenno"
     ],
     "Slot": "Archgun (Atmosphere)",
     "SellPrice": 5000,
+    "_RetiredDisposition": 1.05,
     "AmmoType": "Heavy",
     "Trigger": "Held",
     "Magazine": 100,
@@ -3374,7 +3406,7 @@
     ],
     "Family": "Larkspur",
     "AmmoMax": 400,
-    "Disposition": 1.05,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGunInnateMod"
     ]
@@ -3390,13 +3422,14 @@
     "Polarities": [
       "Madurai"
     ],
-    "ReloadStyle": "Regenerate",
     "Traits": [
       "Entrati"
     ],
+    "ReloadStyle": "Regenerate",
     "SellPrice": 5000,
     "Tradable": 2,
     "Slot": "Archgun",
+    "_RetiredDisposition": 1.1,
     "Link": "Mandonel",
     "Trigger": "Charge",
     "Magazine": 30,
@@ -3451,7 +3484,7 @@
     "Mastery": 10,
     "Family": "Mandonel",
     "AmmoMax": 0,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "Image": "Mandonel.png"
   },
   "Larkspur Prime": {
@@ -3460,22 +3493,23 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Archgun",
     "MaxRank": 30,
-    "GripType": "",
     "Tradable": 2,
+    "GripType": "",
+    "Traits": [
+      "Tenno"
+    ],
     "Introduced": "32.3.6",
     "Polarities": [
       "Madurai",
       "Madurai",
       "Madurai"
     ],
-    "Traits": [
-      "Tenno"
-    ],
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeLarkspur/PrimeLarkspurWeapon",
     "Slot": "Archgun",
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeLarkspur/PrimeLarkspurWeapon",
     "SellPrice": 5000,
     "ReloadStyle": "Regenerate",
     "ReloadDelay": 2.5,
+    "_RetiredDisposition": 0.8,
     "Link": "Larkspur Prime",
     "Trigger": "Held",
     "Magazine": 100,
@@ -3558,7 +3592,7 @@
     "Mastery": 8,
     "Family": "Larkspur",
     "AmmoMax": 0,
-    "Disposition": 0.8,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGunInnateMod"
     ]
@@ -3570,18 +3604,19 @@
     "Class": "Archgun",
     "MaxRank": 30,
     "GripType": "",
+    "ReloadDelay": 2.5,
     "Introduced": "24.4",
     "Polarities": [
       "Madurai"
     ],
-    "ReloadDelay": 2.5,
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGun",
     "Traits": [
       "Tenno"
     ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGun",
     "Slot": "Archgun",
     "SellPrice": 5000,
     "ReloadStyle": "Regenerate",
+    "_RetiredDisposition": 1.05,
     "Link": "Larkspur",
     "Trigger": "Held",
     "Magazine": 100,
@@ -3664,7 +3699,7 @@
     "Mastery": 8,
     "Family": "Larkspur",
     "AmmoMax": 0,
-    "Disposition": 1.05,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGunInnateMod"
     ]
@@ -3676,16 +3711,17 @@
     "Class": "Archgun",
     "MaxRank": 30,
     "GripType": "",
+    "ReloadStyle": "Regenerate",
     "Introduced": "29",
     "Polarities": {},
-    "ReloadStyle": "Regenerate",
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchGun/ThanoTechArchGun",
     "Traits": [
       "Entrati"
     ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchGun/ThanoTechArchGun",
     "Tradable": 4,
     "Slot": "Archgun",
     "SellPrice": 5000,
+    "_RetiredDisposition": 1,
     "Link": "Cortege",
     "Trigger": "Held",
     "Magazine": 100,
@@ -3758,7 +3794,7 @@
     "Mastery": 14,
     "Family": "Cortege",
     "AmmoMax": 0,
-    "Disposition": 1,
+    "Disposition": 1.2,
     "Image": "Cortege.png"
   },
   "Larkspur Prime (Atmosphere)": {
@@ -3766,6 +3802,7 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Rifle",
     "MaxRank": 30,
+    "Tradable": 2,
     "GripType": "",
     "_IgnoreInMasteryCount": true,
     "Introduced": "32.3.6",
@@ -3774,14 +3811,14 @@
       "Madurai",
       "Madurai"
     ],
-    "Tradable": 2,
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeLarkspur/PrimeLarkspurWeapon",
     "Traits": [
       "Tenno"
     ],
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/PrimeLarkspur/PrimeLarkspurWeapon",
     "Slot": "Archgun (Atmosphere)",
     "SellPrice": 5000,
     "Mastery": 8,
+    "_RetiredDisposition": 0.8,
     "AmmoType": "Heavy",
     "Trigger": "Held",
     "Magazine": 100,
@@ -3867,7 +3904,7 @@
     ],
     "Family": "Larkspur",
     "AmmoMax": 400,
-    "Disposition": 0.8,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Archwing/Primary/TnShieldframeArchGun/TnShieldFrameArchGunInnateMod"
     ]
@@ -3877,6 +3914,10 @@
     "_TooltipAttackDisplay": 2,
     "Class": "Launcher",
     "MaxRank": 40,
+    "Traits": [
+      "Grineer",
+      "Kuva Lich"
+    ],
     "Image": "KuvaGrattler.png",
     "GripType": "",
     "_IgnoreInMasteryCount": true,
@@ -3886,15 +3927,12 @@
       "Madurai",
       "Madurai"
     ],
-    "Traits": [
-      "Grineer",
-      "Kuva Lich"
-    ],
-    "InternalName": "/Lotus/Weapons/Grineer/KuvaLich/HeavyWeapons/Grattler/KuvaGrattler",
     "Tradable": 3,
+    "InternalName": "/Lotus/Weapons/Grineer/KuvaLich/HeavyWeapons/Grattler/KuvaGrattler",
     "Slot": "Archgun (Atmosphere)",
     "SellPrice": 5000,
     "Link": "Kuva Grattler",
+    "_RetiredDisposition": 0.7,
     "AmmoType": "Heavy",
     "Trigger": "Auto",
     "Magazine": 60,
@@ -3951,7 +3989,7 @@
     ],
     "Family": "Grattler",
     "AmmoMax": 320,
-    "Disposition": 0.7,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
     ]
@@ -3965,13 +4003,14 @@
     "_IgnoreInMasteryCount": true,
     "Introduced": "29",
     "Polarities": {},
-    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchGun/ThanoTechArchGun",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Archwing/Primary/ThanoTechArchGun/ThanoTechArchGun",
     "Traits": [
       "Entrati"
     ],
     "Tradable": 4,
     "Slot": "Archgun (Atmosphere)",
+    "_RetiredDisposition": 1,
     "AmmoType": "Heavy",
     "Trigger": "Held",
     "Magazine": 100,
@@ -3983,7 +4022,7 @@
     "Image": "Cortege.png",
     "Family": "Cortege",
     "AmmoMax": 300,
-    "Disposition": 1,
+    "Disposition": 1.2,
     "Attacks": [
       {
         "CritChance": 0.2,
@@ -4102,6 +4141,7 @@
       "Tenno"
     ],
     "Slot": "Archgun (Atmosphere)",
+    "_RetiredDisposition": 1.3,
     "AmmoType": "Heavy",
     "Trigger": "Burst",
     "Magazine": 30,
@@ -4113,7 +4153,7 @@
     "Image": "Cyngas.png",
     "Family": "Cyngas",
     "AmmoMax": 480,
-    "Disposition": 1.3,
+    "Disposition": 1.2,
     "Attacks": [
       {
         "CritChance": 0.2,

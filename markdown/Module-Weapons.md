@@ -1,7 +1,7 @@
 ---
 title: "Module:Weapons"
 wiki_url: "https://wiki.warframe.com/w/Module/Weapons"
-wiki_timestamp: "2026-07-10T01:17:55Z"
+wiki_timestamp: "2026-10-22T19:35:35Z"
 ---
 
 **Weapons** contains all of [WARFRAME](/w/WARFRAME "WARFRAME")'s [weapon](/w/Weapons "Weapons") data.
@@ -236,7 +236,12 @@ Quick navigation to submodules:
 :   **Returns**: Wikitext of resultant list (string)
 
 `weapons.getRivenDispositionTable(frame)` (function)
-:   Builds a disposition wikitable as seen on [Riven Mods/Weapon Dispos](/w/Riven_Mods/Weapon_Dispos "Riven Mods/Weapon Dispos").
+:   Builds a disposition wikitable, similar to what is seen on [Riven Disposition](/w/Riven_Disposition "Riven Disposition") using 'Disposition' value.
+:   **Parameter**: `frame` Frame object w/ first argument being a string weaponSlot (table)
+:   **Returns**: Wikitext of resultant wikitable (string)
+
+`weapons.getRetiredRivenDispositionTable(frame)` (function)
+:   Builds a retired disposition wikitable as seen on [Riven Disposition](/w/Riven_Disposition "Riven Disposition") using '\_RetiredDisposition' value.
 :   **Parameter**: `frame` Frame object w/ first argument being a string weaponSlot (table)
 :   **Returns**: Wikitext of resultant wikitable (string)
 
@@ -313,13 +318,13 @@ Quick navigation to submodules:
 | [Drop Tables](/w/Drop_Tables "Drop Tables") | [M:Acquisition](/w/Module:Acquisition "Module:Acquisition") ([/data](/w/Module:Acquisition/data "Module:Acquisition/data")) • [M:DropTables](/w/Module:DropTables "Module:DropTables") ([/data](/w/Module:DropTables/data "Module:DropTables/data")) • [M:Void](/w/Module:Void "Module:Void") ([/data](/w/Module:Void/data "Module:Void/data")) |
 | Vendors | [M:Baro](/w/Module:Baro "Module:Baro") ([/data](/w/Module:Baro/data "Module:Baro/data")) • [M:Vendors](/w/Module:Vendors "Module:Vendors") ([/data](/w/Module:Vendors/data "Module:Vendors/data")) |
 | Crafting | [M:Blueprints/data](/w/Module:Blueprints/data "Module:Blueprints/data") • [M:Cost](/w/Module:Cost "Module:Cost") • [M:Research](/w/Module:Research?action=edit&redlink=1 "Module:Research (page does not exist)") ([/data](/w/Module:Research/data "Module:Research/data")) • [M:Resources](/w/Module:Resources "Module:Resources") ([/data](/w/Module:Resources/data "Module:Resources/data")) |
-| Cosmetics | [M:Decorations](/w/Module:Decorations "Module:Decorations") ([/data](/w/Module:Decorations/data "Module:Decorations/data")) • [M:Cosmetics](/w/Module:Cosmetics "Module:Cosmetics") ([/data](/w/Module:Cosmetics/data "Module:Cosmetics/data")) • [M:Sigils/data](/w/Module:Sigils/data "Module:Sigils/data") • [M:TennoGen](/w/Module:TennoGen "Module:TennoGen") ([/data](/w/Module:TennoGen/data "Module:TennoGen/data")) |
+| Cosmetics | [M:Cosmetics](/w/Module:Cosmetics "Module:Cosmetics") ([/data](/w/Module:Cosmetics/data "Module:Cosmetics/data")) • [M:Decorations](/w/Module:Decorations "Module:Decorations") ([/data](/w/Module:Decorations/data "Module:Decorations/data")) • [Module:Honorias](/w/Module:Honorias "Module:Honorias") ([/data](/w/Module:Honorias/data "Module:Honorias/data")) • [M:Sigils/data](/w/Module:Sigils/data "Module:Sigils/data") • [M:TennoGen](/w/Module:TennoGen "Module:TennoGen") ([/data](/w/Module:TennoGen/data "Module:TennoGen/data")) |
 | Infoboxes | [M:Animal/infobox](/w/Module:Animal/infobox "Module:Animal/infobox") • [M:Arcane/infobox](/w/Module:Arcane/infobox "Module:Arcane/infobox") • [M:ArchModBox](/w/Module:ArchModBox "Module:ArchModBox") • [Module:Companions/infobox](/w/Module:Companions/infobox "Module:Companions/infobox") • [M:Conservation/infobox](/w/Module:Conservation/infobox "Module:Conservation/infobox") • [M:Cosmetics/infobox](/w/Module:Cosmetics/infobox "Module:Cosmetics/infobox") • [M:Enemies/infobox](/w/Module:Enemies/infobox "Module:Enemies/infobox") • [M:Missions/infobox](/w/Module:Missions/infobox "Module:Missions/infobox") • [M:Mods/infobox](/w/Module:Mods/infobox "Module:Mods/infobox") • [M:Resources/infobox](/w/Module:Resources/infobox "Module:Resources/infobox") • [M:Vehicles/infobox](/w/Module:Vehicles/infobox "Module:Vehicles/infobox") • [M:Void/page](/w/Module:Void/page "Module:Void/page") • [M:Warframes/infobox](/w/Module:Warframes/infobox "Module:Warframes/infobox") • [M:Weapons/infobox](/w/Module:Weapons/infobox "Module:Weapons/infobox") | |
 | Wiki | [Dev Wiki](https://dev.fandom.com/wiki/Fandom_Developers_Wiki) Fork | [Module:Common](/w/Module:Common "Module:Common") ([/i18n](/w/Module:Common/i18n "Module:Common/i18n")) • [M:Docbunto](/w/Module:Docbunto "Module:Docbunto") ([/cli](/w/Module:Docbunto/cli "Module:Docbunto/cli"), [/i18n](/w/Module:Docbunto/i18n "Module:Docbunto/i18n")) • [M:Entrypoint](/w/Module:Entrypoint "Module:Entrypoint") • [M:I18n](/w/Module:I18n "Module:I18n") • [M:Infobox](/w/Module:Infobox "Module:Infobox") ([/i18n](/w/Module:Infobox/i18n "Module:Infobox/i18n")) • [M:LanguageList](/w/Module:LanguageList "Module:LanguageList") • [M:Mbox](/w/Module:Mbox "Module:Mbox") ([/i18n](/w/Module:Mbox/i18n "Module:Mbox/i18n")) • [M:ModuleTest](/w/Module:ModuleTest "Module:ModuleTest") • [M:Reference](/w/Module:Reference "Module:Reference") • [M:ReleaseStatus](/w/Module:ReleaseStatus "Module:ReleaseStatus") ([/i18n](/w/Module:ReleaseStatus/i18n "Module:ReleaseStatus/i18n")) • [M:TestHarness](/w/Module:TestHarness "Module:TestHarness") ([/i18n](/w/Module:TestHarness/i18n "Module:TestHarness/i18n")) • [M:WDSButton](/w/Module:WDSButton "Module:WDSButton") ([/data](/w/Module:WDSButton/data "Module:WDSButton/data")) |
 | [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia "wikipedia:Wikipedia") Fork | [M:Arguments](/w/Module:Arguments "Module:Arguments") ([/i18n](/w/Module:Arguments/i18n "Module:Arguments/i18n")) • [M:FallbackList](/w/Module:FallbackList "Module:FallbackList") • [M:Yesno](/w/Module:Yesno "Module:Yesno") |
 | Third-Party Fork | [M:Codec](/w/Module:Codec "Module:Codec") • [M:CSV](/w/Module:CSV "Module:CSV") • [M:Date](/w/Module:Date "Module:Date") • [M:Inspect](/w/Module:Inspect "Module:Inspect") • [M:JSON](/w/Module:JSON "Module:JSON") • [M:Lexer](/w/Module:Lexer "Module:Lexer") • [M:LuaClassSystem](/w/Module:LuaClassSystem "Module:LuaClassSystem") • [M:LuaSerializer](/w/Module:LuaSerializer "Module:LuaSerializer") • [M:Navbox](/w/Module:Navbox "Module:Navbox") • [M:Navigation](/w/Module:Navigation "Module:Navigation") • [M:Unindent](/w/Module:Unindent "Module:Unindent") |
 | Wiki-Unique | [M:Database](/w/Module:Database "Module:Database") • [M:DatastoreManifest](/w/Module:DatastoreManifest "Module:DatastoreManifest") • [M:Delay](/w/Module:Delay "Module:Delay") • [M:DependencyGraph](/w/Module:DependencyGraph "Module:DependencyGraph") • [M:InfoboxBuilder](/w/Module:InfoboxBuilder "Module:InfoboxBuilder") • [M:Lua](/w/Module:Lua "Module:Lua") • [M:Map](/w/Module:Map "Module:Map") • [M:Placeholder](/w/Module:Placeholder "Module:Placeholder") • [M:RemoveCategory](/w/Module:RemoveCategory "Module:RemoveCategory") • [M:StatObject](/w/Module:StatObject "Module:StatObject") • [M:Text](/w/Module:Text "Module:Text") • [M:Tooltips](/w/Module:Tooltips "Module:Tooltips") |
-| Other | [M:Enum/data](/w/Module:Enum/data "Module:Enum/data") • [M:InternalNames](/w/Module:InternalNames "Module:InternalNames") • [M:MasteryRank](/w/Module:MasteryRank "Module:MasteryRank") • [M:Polarity](/w/Module:Polarity "Module:Polarity") • [M:Sandbox](/w/Module:Sandbox "Module:Sandbox") • [M:WarframeUsageData2020/data](/w/Module:WarframeUsageData2020/data "Module:WarframeUsageData2020/data") | |
+| Other | [M:Enum/data](/w/Module:Enum/data "Module:Enum/data") • [M:InternalNames](/w/Module:InternalNames "Module:InternalNames") • [M:MasteryRank](/w/Module:MasteryRank "Module:MasteryRank") • [M:Polarity](/w/Module:Polarity "Module:Polarity") • [M:Sandbox](/w/Module:Sandbox "Module:Sandbox") • [M:Trading](/w/Module:Trading "Module:Trading") • [M:WarframeUsageData2020/data](/w/Module:WarframeUsageData2020/data "Module:WarframeUsageData2020/data") | |
 | Archived/Deprecated | [M:Avionics](/w/Module:Avionics "Module:Avionics") ([/data](/w/Module:Avionics/data "Module:Avionics/data")) • [M:BuildRequire](/w/Module:BuildRequire "Module:BuildRequire") • [M:FormatingTool](/w/Module:FormatingTool "Module:FormatingTool") • [M:Gallery](/w/Module:Gallery "Module:Gallery") • [M:NightwaveActs](/w/Module:NightwaveActs "Module:NightwaveActs") • [M:Shared](/w/Module:Shared "Module:Shared") • [M:Syndicates/data](/w/Module:Syndicates/data "Module:Syndicates/data") • [M:TennoScript](/w/Module:TennoScript "Module:TennoScript") • [M:TranslationExamples](/w/Module:TranslationExamples "Module:TranslationExamples") • [M:VoidByReward](/w/Module:VoidByReward "Module:VoidByReward") • [M:WorldState](/w/Module:WorldState "Module:WorldState") ([/data](/w/Module:Worldstate/data "Module:Worldstate/data")) | |
 | [Bug Reports](/w/WARFRAME_Wiki:Bug_Reports "WARFRAME Wiki:Bug Reports") • [Development Guide](/w/WARFRAME_Wiki:Development_Guide "WARFRAME Wiki:Development Guide") • [Localization Guide](/w/WARFRAME_Wiki:Localization_Guide "WARFRAME Wiki:Localization Guide") ([L10n Message Data Stores](/w/WARFRAME_Wiki:L10n "WARFRAME Wiki:L10n")) • [Programming Standards](/w/WARFRAME_Wiki:Programming_Standards "WARFRAME Wiki:Programming Standards") • [Projects & Current Backlog](/w/WARFRAME_Wiki:Projects "WARFRAME Wiki:Projects") • [Updating Databases](/w/WARFRAME_Wiki:Updating_Databases "WARFRAME Wiki:Updating Databases") • [Full Module List](/w/Special:AllPages/Module: "Special:AllPages/Module:") • [Lua Reference Manual](https://www.mediawiki.org/wiki/Extension:Scribunto/Lua_reference_manual "mw:Extension:Scribunto/Lua reference manual") | | |
 
@@ -575,7 +580,24 @@ Disposition = {
 		return StatObject.default.Dispo[2](s, dispoClass)..(' (%.2fx)'):format(dispoVal)
 	end
 },
+_RetiredDisposition = {
+	function(weap)
+		local dispo = weap['_RetiredDisposition']
+		-- Returning a categorical bin value of 1, 2, 3, 4, or 5 based on where disposition value
+		-- is on the continuous scale of 0.5-1.55. If disposition value is nil then return 0
+		return dispo or 0, type(dispo)=='number' and math.floor(5* (dispo - .3 + .009 * (dispo < 1 and 1 or -1))) or 0
+	end,
+	function(s, dispoVal, dispoClass)
+		return StatObject.default.Dispo[2](s, dispoClass)..(' (%.2fx)'):format(dispoVal)
+	end
+},
 Dispo = { indexes('Disposition', 2), function(s, d)
+	if d and d == d and d > 0 then
+		return ('●'):rep(math.min(d, 5))..('○'):rep(5 - d)
+	end
+	return '×××××' -- '●○×' --> E2978F E2978B C397
+end },
+RetiredDispo = { indexes('_RetiredDisposition', 2), function(s, d)
 	if d and d == d and d > 0 then
 		return ('●'):rep(math.min(d, 5))..('○'):rep(5 - d)
 	end
@@ -1709,7 +1731,7 @@ function p.getListWithWarframes(frame)
 	return table.concat(list, '\n')
 end
 
----	Builds a disposition wikitable as seen on [[Riven Mods/Weapon Dispos]].
+---	Builds a disposition wikitable, similar to what is seen on [[Riven Disposition]] using 'Disposition' value.
 --	@function		p.getRivenDispositionTable
 --	@param			{table} frame Frame object w/ first argument being a string weaponSlot
 --	@returns		{string} Wikitext of resultant wikitable
@@ -1743,7 +1765,46 @@ function p.getRivenDispositionTable(frame)
 		table.insert(result, table.concat(col, '\n* '))
 	end
 
-	result[3] = table.concat(result[3], ']]\n! scope="col" style="text-align:center;"|[[Riven Mods#Disposition|')..']]'
+	result[3] = table.concat(result[3], ']]\n! scope="col" style="text-align:center;"|[[Riven Disposition|')..']]'
+	table.insert(result, '|}')
+	return table.concat(result, '\n')
+end
+
+---	Builds a retired disposition wikitable as seen on [[Riven Disposition]] using '_RetiredDisposition' value.
+--	@function		p.getRetiredRivenDispositionTable
+--	@param			{table} frame Frame object w/ first argument being a string weaponSlot
+--	@returns		{string} Wikitext of resultant wikitable
+function p.getRetiredRivenDispositionTable(frame)
+	local weaponSlot = frame.args[1]
+	local result = {
+		'{| class="article-table" border="0" cellpadding="1" cellspacing="1" style="width: 100%"',
+		'|-',
+		{'[[a| '},	-- Wikitable header row
+		'|-'
+	}
+
+	-- local ranges = {'○○○○○', '●○○○○', '●●○○○', '●●●○○', '●●●●○', '●●●●●'}
+	local dispo = {}
+
+	for k, weapon in pairs(WeaponData) do
+		if weapon['_RetiredDisposition'] and (weaponSlot == 'All' or weapon['Slot'] == weaponSlot) then
+			local disp = p._statFormat(weapon, nil, 'RetiredDispo')
+			dispo[disp] = dispo[disp] or {}
+			table.insert(dispo[disp], weapon)
+		end
+	end
+
+	for str, dis in Table.skpairs(dispo) do
+		table.sort(dis, function(a, b) return a['_RetiredDisposition'] > b['_RetiredDisposition'] end)
+		local col = { '| style="vertical-align:top; font-size:small" |' }
+		for _, weap in ipairs(dis) do
+			table.insert(col, p._statFormat(weap, nil, 'NameLink')..' ('..weap['_RetiredDisposition']..')')
+		end
+		table.insert(result[3], str)
+		table.insert(result, table.concat(col, '\n* '))
+	end
+
+	result[3] = table.concat(result[3], ']]\n! scope="col" style="text-align:center;"|[[Riven Disposition|')..']]'
 	table.insert(result, '|}')
 	return table.concat(result, '\n')
 end

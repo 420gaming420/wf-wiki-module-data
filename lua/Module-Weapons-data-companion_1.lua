@@ -27,7 +27,7 @@
 	},
 	Class = "Sniper Rifle",
 	Conclave = false,
-	Disposition = 0.5,
+	Disposition = 1.2,
 	ExilusPolarity = "Madurai",
 	Family = "",
 	Image = "Weapon.png",

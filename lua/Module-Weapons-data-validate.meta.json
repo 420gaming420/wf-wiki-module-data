@@ -1,7 +1,7 @@
 {
   "page": "Module:Weapons/data/validate",
-  "wiki_timestamp": "2026-06-21T03:41:35Z",
-  "extracted_at": "2026-08-31T21:22:45.899618+00:00",
+  "wiki_timestamp": "2026-10-23T02:34:01Z",
+  "extracted_at": "2026-10-23T07:11:16.470188+00:00",
   "lua_files": [
     "Module-Weapons-data-validate_0.lua",
     "Module-Weapons-data-validate_1.lua",
@@ -10,7 +10,7 @@
     "Module-Weapons-data-validate_4.lua"
   ],
   "lua_block_count": 5,
-  "file_size": 18037,
+  "file_size": 18500,
   "comment_count": 13,
   "status": "success"
 }

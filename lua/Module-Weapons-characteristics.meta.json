@@ -1,12 +1,12 @@
 {
   "page": "Module:Weapons/characteristics",
-  "wiki_timestamp": "2026-09-10T02:49:51Z",
-  "extracted_at": "2026-09-11T02:14:42.989509+00:00",
+  "wiki_timestamp": "2026-10-22T19:26:29Z",
+  "extracted_at": "2026-10-23T07:11:16.383891+00:00",
   "lua_files": [
     "Module-Weapons-characteristics_0.lua"
   ],
   "lua_block_count": 1,
-  "file_size": 10711,
-  "comment_count": 49,
+  "file_size": 10720,
+  "comment_count": 52,
   "status": "success"
 }

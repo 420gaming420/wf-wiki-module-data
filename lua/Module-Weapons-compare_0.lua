@@ -177,7 +177,7 @@ function p.buildComparison(frame, getConclave)
 	result
 		:insertCompare("[[Polarity|polarities]]", "Polarities", {"More", "Less", "Different"})
 		:insertCompare("[[Mastery Rank]] required", "Mastery")
-		:insertCompare("[[disposition]]", "Disposition")
+		-- :insertCompare("[[disposition]]", "Disposition")
 
 	local se1, se2 = weap1.SyndicateEffect, weap2.SyndicateEffect
 	if se1 and not se2 then

@@ -1,7 +1,7 @@
 ---
 title: "Module:Version/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Version/data"
-wiki_timestamp: "2026-10-15T19:00:58Z"
+wiki_timestamp: "2026-10-22T19:07:59Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Include official index links in schema like <https://www.warframe.com/patch-note
 
 Database for [Module:Version](/w/Module:Version "Module:Version"). Entries are in order by date in ascending order and are indexed by `Name` and each element in `Aliases` tables.
 
-:   *Last updated: Thu, 15 Oct 2026 19:00:58 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Version/data?diff=0))*
+:   *Last updated: Thu, 22 Oct 2026 19:07:59 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Version/data?diff=0))*
 
 ## Contents
 
@@ -660,6 +660,7 @@ Full Version List")]
 | [Hotfix 39.0.2](/w/Update_39#Hotfix_39.0.2 "Update 39") | 39.0 | H39.0.2 |  |  | ❌ | 2025-06-26 | <https://forums.warframe.com/topic/1459568-isleweaver-hotfix-3902/> | 1750970010 | <https://web.archive.org/web/20250626220903/https://forums.warframe.com/topic/1459568-isleweaver-hotfix-3902/> | 2025-06-26 |
 | [Hotfix 19.4.2.1](/w/Update_19#Hotfix_19.4.2.1 "Update 19") | 19.0 | H19.4.2.1 |  |  | ❌ | 2016-12-20 | <https://forums.warframe.com/topic/737306-the-war-within-update-1942-19421/> | 1482277076 | <https://web.archive.org/web/20211125042920/https://forums.warframe.com/topic/737306-the-war-within-update-1942-19421/> | 2021-11-25 |
 | [Update 18.4](/w/Update_18#Update_18.4 "Update 18") | 18.4 | U18.4 | Trinity Deluxe Strega Collection |  | ✔️ | 2016-01-22 | <https://forums.warframe.com/topic/597888-update-1840/> | 1453422263 | <https://web.archive.org/web/20210508075720/https://forums.warframe.com/topic/597888-update-1840/> | 2021-05-08 |
+| [Hotfix 11.1.2](/w/Update_11#Hotfix_11.1.2 "Update 11") | 11.1 | H11.1.2 |  |  | ❌ | 2013-11-29 | <https://forums.warframe.com/topic/140638-hotfix-1112/> | 1385747749 | <https://web.archive.org/web/20220129222818/https://forums.warframe.com/topic/140638-hotfix-1112/> | 2022-01-29 |
 | [Update 17.3](/w/Update_17#Update_17.3 "Update 17") | 17.3 | U17.3 | Tenno Reinforcements: Syndicate Weapons and Diriga |  | ✔️ | 2015-09-02 | <https://forums.warframe.com/topic/521781-update-1730/> | 1441227406 | <https://web.archive.org/web/20210508041801/https://forums.warframe.com/topic/521781-update-1730/> | 2021-05-08 |
 | [Hotfix 24.1.4](/w/Update_24#Hotfix_24.1.4 "Update 24") | 24.1 | H24.1.4 |  |  | ❌ | 2018-12-10 | <https://forums.warframe.com/topic/1042413-fortuna-hotfix-2414/> | 1544472554 | <https://web.archive.org/web/20201112013655/https://forums.warframe.com/topic/1042413-fortuna-hotfix-2414/> | 2020-11-12 |
 | [Hotfix 29.6.1](/w/Update_29#Hotfix_29.6.1 "Update 29") | 29.6 | H29.6.1 |  |  | ❌ | 2020-12-18 | <https://forums.warframe.com/topic/1241287-orphix-venom-hotfix-2961/> | 1608324540 | <https://web.archive.org/web/20210123122757/https://forums.warframe.com/topic/1241287-orphix-venom-hotfix-2961/> | 2021-01-23 |
@@ -676,7 +677,7 @@ Full Version List")]
 | [Hotfix 43.5.2](/w/Update_43#Hotfix_43.5.2 "Update 43") | 43.0 | H43.5.2 |  |  | ❌ | 2026-08-13 | <https://forums.warframe.com/topic/1520019-amir%E2%80%99s-shockwave-hotfix-4352/> | 1786649680 |  |  |
 | [Hotfix 27.1.1](/w/Update_27#Hotfix_27.1.1 "Update 27") | 27.1 | H27.1.1 | Oberon & Nekros Prime Vault |  | ❌ | 2020-02-11 | <https://forums.warframe.com/topic/1167915-empyrean-prime-vault-2711/> | 1581447528 | <https://web.archive.org/web/20210126193804/https://forums.warframe.com/topic/1167915-empyrean-prime-vault-2711/> | 2021-01-26 |
 | [Hotfix 27.0.12.1](/w/Update_27#Hotfix_27.0.12.1 "Update 27") | 27.0 | H27.0.12.1 |  |  | ❌ | 2020-01-23 | <https://forums.warframe.com/topic/1163746-empyrean-ivara-prime-27012-270121/> | 1579793767 | <https://web.archive.org/web/20210307154756/https://forums.warframe.com/topic/1163746-empyrean-ivara-prime-27012-270121/> | 2021-03-07 |
-| [Hotfix 11.1.2](/w/Update_11#Hotfix_11.1.2 "Update 11") | 11.1 | H11.1.2 |  |  | ❌ | 2013-11-29 | <https://forums.warframe.com/topic/140638-hotfix-1112/> | 1385747749 | <https://web.archive.org/web/20220129222818/https://forums.warframe.com/topic/140638-hotfix-1112/> | 2022-01-29 |
+| [Hotfix 44.1.3](/w/Update_44#Hotfix_44.1.3 "Update 44") | 44 | H44.1.3 |  |  | ❌ | 2026-10-22 | <https://forums.warframe.com/topic/1529796-iceblade-of-narin-the-icebind-hotfix-4413/> | 1792695857 | [PH] | [PH] |
 | [Hotfix 25.8.1](/w/Update_25#Hotfix_25.8.1 "Update 25") | 25.8 | H25.8.1 |  |  | ❌ | 2019-10-09 | <https://forums.warframe.com/topic/1133158-atlas-prime-hotfix-2581-25811/> | 1570634953 | <https://web.archive.org/web/20210116130022/https://forums.warframe.com/topic/1133158-atlas-prime-hotfix-2581-25811/> | 2021-01-16 |
 | [Hotfix 15.13.6](/w/Update_15#Hotfix_15.13.6 "Update 15") | 15.13 | H15.13.6 |  |  | ❌ | 2015-02-07 | <https://forums.warframe.com/topic/398048-hotfix-15136/> | 1423332752 | <https://web.archive.org/web/20191028155935/https://forums.warframe.com/topic/398048-hotfix-15136/> | 2019-10-28 |
 | [Hotfix 29.5.9](/w/Update_29#Hotfix_29.5.9 "Update 29") | 29.5 | H29.5.9 | Banshee & Mirage Prime Vault |  | ❌ | 2020-12-15 | <https://forums.warframe.com/topic/1240704-deimos-arcana-prime-vault-2959/> | 1608059688 | <https://web.archive.org/web/20210117011112/https://forums.warframe.com/topic/1240704-deimos-arcana-prime-vault-2959/> | 2021-01-17 |
@@ -20974,6 +20975,18 @@ local Versions = {
 		ArchiveLink = "[PH]",
 		ArchiveDate = "[PH]",
 		Timestamp = 1792103652,
+	},
+	{
+		Name = "Hotfix 44.1.3",
+		Link = "Update 44#Hotfix 44.1.3",
+		Aliases = { "44.1.3" },
+		ShortName = "H44.1.3",
+		Date = "2026-10-22",
+		Parent = "44",
+		ForumLink = "https://forums.warframe.com/topic/1529796-iceblade-of-narin-the-icebind-hotfix-4413/",
+		ArchiveLink = "[PH]",
+		ArchiveDate = "[PH]",
+		Timestamp = 1792695857,
 	},
 }
 

@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-28T08:26:15.516Z"
+    "converted_at": "2026-10-23T07:11:48.459Z"
   },
   "_comments": "",
   "Castanas": {
@@ -12,21 +12,22 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Thrown",
     "MaxRank": 30,
-    "GripType": "DUAL_GUN_GUN",
     "Mastery": 3,
+    "GripType": "DUAL_GUN_GUN",
+    "Traits": [
+      "Tenno"
+    ],
     "Introduced": "12.2",
     "Polarities": [
       "Madurai",
       "Madurai"
     ],
-    "Traits": [
-      "Tenno"
-    ],
-    "InternalName": "/Lotus/Weapons/Tenno/ThrowingWeapons/StickyBomb/StickyBombs",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/ThrowingWeapons/StickyBomb/StickyBombs",
     "SellPrice": 5000,
     "Magazine": 2,
     "Image": "Castanas.png",
+    "_RetiredDisposition": 1.4,
     "Accuracy": 100,
     "Trigger": "Active",
     "ExilusPolarity": "Naramon",
@@ -96,7 +97,7 @@
     ],
     "Family": "Castanas",
     "AmmoMax": 18,
-    "Disposition": 1.4,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Aklex": {
@@ -110,13 +111,14 @@
     ],
     "Introduced": "11.1",
     "Image": "Aklex.png",
-    "InternalName": "/Lotus/Weapons/Tenno/Akimbo/AkLexPistols",
     "Traits": [
       "Tenno"
     ],
+    "InternalName": "/Lotus/Weapons/Tenno/Akimbo/AkLexPistols",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 12,
+    "_RetiredDisposition": 1.05,
     "Accuracy": 9.8,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -150,19 +152,20 @@
     ],
     "Family": "Aklex",
     "AmmoMax": 210,
-    "Disposition": 1.05,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Kunai": {
-    "Slot": "Secondary",
+    "Mastery": 0,
+    "SellPrice": 5000,
     "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Thrown",
     "IncarnonChargeGain": 5,
-    "Mastery": 0,
     "Traits": [
       "Tenno"
     ],
+    "Slot": "Secondary",
     "GripType": "DUAL_GUN_GUN",
     "Users": [
       "Nova Specter"
@@ -172,12 +175,12 @@
       "Madurai",
       "Madurai"
     ],
-    "SellPrice": 5000,
-    "InternalName": "/Lotus/Weapons/Tenno/ThrowingWeapons/Kunai",
     "Magazine": 10,
+    "InternalName": "/Lotus/Weapons/Tenno/ThrowingWeapons/Kunai",
     "Image": "Kunai.png",
-    "IncarnonImage": "KunaiIncarnon.png",
     "MaxRank": 30,
+    "IncarnonImage": "KunaiIncarnon.png",
+    "_RetiredDisposition": 1.51,
     "Accuracy": 100,
     "Trigger": "Auto",
     "ExilusPolarity": "Naramon",
@@ -237,7 +240,7 @@
     ],
     "Family": "Kunai",
     "AmmoMax": 210,
-    "Disposition": 1.51,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Seer": {
@@ -245,20 +248,21 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "MaxRank": 30,
+    "Mastery": 0,
     "GripType": "GUN_ONE_HAND",
     "Users": [
       "Captain Vor"
     ],
     "Introduced": "9.0",
-    "Mastery": 0,
     "Traits": [
       "Grineer"
     ],
-    "InternalName": "/Lotus/Weapons/Grineer/GrineerPistol/GrnScopedPistolPlayer",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Grineer/GrineerPistol/GrnScopedPistolPlayer",
     "SellPrice": 5000,
     "Magazine": 8,
     "Image": "Seer.png",
+    "_RetiredDisposition": 1.5,
     "Accuracy": 16,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -294,7 +298,7 @@
     ],
     "Family": "Seer",
     "AmmoMax": 210,
-    "Disposition": 1.5,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Euphona Prime": {
@@ -303,23 +307,24 @@
     "Class": "Shotgun Sidearm",
     "MaxRank": 30,
     "Mastery": 14,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Prime",
       "Vaulted"
     ],
+    "GripType": "GUN_ONE_HAND",
+    "Tradable": 2,
     "Introduced": "19.11.5",
     "Polarities": [
       "Madurai",
       "Madurai",
       "Madurai"
     ],
-    "Tradable": 2,
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/AllNew1hSG/AllNew1hSG",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/AllNew1hSG/AllNew1hSG",
     "SellPrice": 5000,
     "Magazine": 5,
     "Image": "EuphonaPrime.png",
+    "_RetiredDisposition": 0.95,
     "Accuracy": 100,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -384,7 +389,7 @@
     ],
     "Family": "Euphona Prime",
     "AmmoMax": 40,
-    "Disposition": 0.95,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Sagek Prime": {
@@ -393,19 +398,20 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "Image": "SagekPrime.png",
+    "Magazine": 75,
     "Introduced": "41.0",
     "Polarities": [
       "Madurai",
       "Naramon"
     ],
-    "Magazine": 75,
-    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrnOrokinPistol/GrnOrokinPistol",
     "Traits": [
       "Prime"
     ],
+    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrnOrokinPistol/GrnOrokinPistol",
     "Tradable": 0,
     "Slot": "Secondary",
     "SellPrice": 5000,
+    "_RetiredDisposition": 0.9,
     "Accuracy": 15.33,
     "Trigger": "Auto",
     "ExilusPolarity": "Naramon",
@@ -439,7 +445,7 @@
     "Link": "Sagek Prime",
     "Mastery": 14,
     "AmmoMax": 450,
-    "Disposition": 0.9,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Bolto": {
@@ -447,20 +453,21 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "MaxRank": 30,
-    "GripType": "GUN_ONE_HAND",
     "Mastery": 7,
+    "GripType": "GUN_ONE_HAND",
+    "Traits": [
+      "Tenno"
+    ],
     "Introduced": "Vanilla",
     "Polarities": [
       "Vazarin"
     ],
-    "Traits": [
-      "Tenno"
-    ],
-    "InternalName": "/Lotus/Weapons/Tenno/Pistol/CrossBow",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/Pistol/CrossBow",
     "SellPrice": 5000,
     "Magazine": 15,
     "Image": "Bolto.png",
+    "_RetiredDisposition": 1.51,
     "Accuracy": 26.7,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Naramon",
@@ -495,7 +502,7 @@
     ],
     "Family": "Bolto",
     "AmmoMax": 210,
-    "Disposition": 1.51,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Catabolyst": {
@@ -504,20 +511,21 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "Magazine": 31,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Infested"
     ],
+    "GripType": "GUN_ONE_HAND",
+    "Slot": "Secondary",
     "Introduced": "29.5",
     "Polarities": [
       "Madurai"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Infested/Pistols/InfBeamPistol/InfBeamPistol",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Infested/Pistols/InfBeamPistol/InfBeamPistol",
     "Link": "Catabolyst",
     "AmmoType": "Secondary",
     "Mastery": 11,
+    "_RetiredDisposition": 1.2,
     "Accuracy": 6.3,
     "Trigger": "Held",
     "ExilusPolarity": "Madurai",
@@ -650,22 +658,23 @@
     "Class": "Thrown",
     "MaxRank": 40,
     "Magazine": 8,
-    "GripType": "DUAL_GUN_GUN",
     "Traits": [
       "Infested",
       "Technocyte Coda"
     ],
+    "GripType": "DUAL_GUN_GUN",
+    "Slot": "Secondary",
     "Introduced": "38.5",
     "Polarities": [
       "Madurai",
       "Madurai"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaPox",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaPox",
     "Link": "Coda Pox",
     "Image": "CodaPox.png",
     "Mastery": 17,
+    "_RetiredDisposition": 1.05,
     "Accuracy": 100,
     "Trigger": "Auto",
     "ExilusPolarity": "Naramon",
@@ -724,7 +733,7 @@
     ],
     "Family": "Pox",
     "AmmoMax": 40,
-    "Disposition": 1.05,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Spira": {
@@ -732,21 +741,22 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Thrown",
     "MaxRank": 30,
-    "GripType": "DUAL_GUN_GUN",
     "Mastery": 8,
+    "GripType": "DUAL_GUN_GUN",
+    "Traits": [
+      "Tenno"
+    ],
     "Introduced": "17.4.5",
     "Polarities": [
       "Madurai",
       "Madurai"
     ],
-    "Traits": [
-      "Tenno"
-    ],
-    "InternalName": "/Lotus/Weapons/Tenno/ThrowingWeapons/LiDagger/LiDagger",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/ThrowingWeapons/LiDagger/LiDagger",
     "SellPrice": 5000,
     "Magazine": 10,
     "Image": "Spira.png",
+    "_RetiredDisposition": 1.35,
     "Accuracy": 100,
     "Trigger": "Auto",
     "ExilusPolarity": "Madurai",
@@ -783,7 +793,7 @@
     ],
     "Family": "Spira",
     "AmmoMax": 210,
-    "Disposition": 1.35,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Staticor": {
@@ -791,20 +801,21 @@
     "_TooltipAttackDisplay": 4,
     "Class": "Thrown",
     "MaxRank": 30,
-    "GripType": "GUN_ONE_HAND",
     "Mastery": 10,
+    "GripType": "GUN_ONE_HAND",
+    "Traits": [
+      "Corpus"
+    ],
     "Introduced": "18.4.7",
     "Polarities": [
       "Naramon"
     ],
-    "Traits": [
-      "Corpus"
-    ],
-    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CrpElectroMag/CrpElectroMag",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CrpElectroMag/CrpElectroMag",
     "SellPrice": 5000,
     "Magazine": 48,
     "Image": "Staticor.png",
+    "_RetiredDisposition": 0.9,
     "Accuracy": 16.7,
     "Trigger": "Charge",
     "ExilusPolarity": "Madurai",
@@ -902,7 +913,7 @@
     ],
     "Family": "Staticor",
     "AmmoMax": 288,
-    "Disposition": 0.9,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Dex Pixia": {
@@ -969,28 +980,29 @@
     "AmmoType": "Secondary"
   },
   "Vasto Prime": {
+    "MaxRank": 30,
     "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "IncarnonChargeGain": 3,
-    "MaxRank": 30,
     "Traits": [
       "Prime",
       "Vaulted"
     ],
-    "GripType": "GUN_ONE_HAND",
     "Tradable": 2,
+    "GripType": "GUN_ONE_HAND",
+    "Slot": "Secondary",
     "Introduced": "15.7",
     "Polarities": [
       "Madurai",
       "Madurai"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeVasto/PrimeVastoPistol",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeVasto/PrimeVastoPistol",
     "Magazine": 6,
-    "IncarnonImage": "VastoPrimeIncarnon.png",
     "Image": "VastoPrime.png",
+    "IncarnonImage": "VastoPrimeIncarnon.png",
+    "_RetiredDisposition": 1.35,
     "Accuracy": 16,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Naramon",
@@ -1055,7 +1067,7 @@
     ],
     "Family": "Vasto",
     "AmmoMax": 210,
-    "Disposition": 1.35,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Bronco": {
@@ -1064,18 +1076,19 @@
     "Class": "Shotgun Sidearm",
     "IncarnonChargeGain": 0.5,
     "Mastery": 0,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Tenno"
     ],
-    "Introduced": "Vanilla",
+    "GripType": "GUN_ONE_HAND",
     "Slot": "Secondary",
+    "Introduced": "Vanilla",
     "SellPrice": 5000,
-    "InternalName": "/Lotus/Weapons/Tenno/Pistol/HandShotGun",
     "Magazine": 2,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistol/HandShotGun",
     "Image": "Bronco.png",
-    "IncarnonImage": "BroncoIncarnon.png",
     "MaxRank": 30,
+    "IncarnonImage": "BroncoIncarnon.png",
+    "_RetiredDisposition": 1.45,
     "Accuracy": 3.7,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -1144,7 +1157,7 @@
     ],
     "Family": "Bronco",
     "AmmoMax": 210,
-    "Disposition": 1.45,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Pyrana Prime": {
@@ -1153,22 +1166,23 @@
     "Class": "Shotgun Sidearm",
     "MaxRank": 30,
     "Mastery": 13,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Prime",
       "Vaulted"
     ],
+    "GripType": "GUN_ONE_HAND",
+    "Tradable": 2,
     "Introduced": "23.0.3",
     "Polarities": [
       "Madurai",
       "Madurai"
     ],
-    "Tradable": 2,
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimePyrana/PrimePyranaPistol",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimePyrana/PrimePyranaPistol",
     "SellPrice": 5000,
     "Magazine": 12,
     "Image": "PyranaPrime.png",
+    "_RetiredDisposition": 0.65,
     "Accuracy": 6.1,
     "Trigger": "Auto",
     "ExilusPolarity": "Naramon",
@@ -1209,20 +1223,21 @@
     ],
     "Family": "Pyrana",
     "AmmoMax": 210,
-    "Disposition": 0.65,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Akarius Prime": {
-    "Tradable": 2,
+    "Magazine": 8,
+    "Slot": "Secondary",
     "Conclave": false,
     "_TooltipAttackDisplay": 2,
     "Class": "Dual Pistols",
     "MaxRank": 30,
-    "Magazine": 8,
     "Traits": [
       "Tenno",
       "Prime"
     ],
+    "Tradable": 2,
     "GripType": "DUAL_GUN_GUN",
     "Users": {},
     "Introduced": "35.0.9",
@@ -1231,12 +1246,12 @@
       "Naramon",
       "Madurai"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeAkarius/PrimeAkariusWeapon",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeAkarius/PrimeAkariusWeapon",
     "Link": "Akarius Prime",
     "AmmoType": "Secondary",
     "Mastery": 14,
+    "_RetiredDisposition": 0.65,
     "Accuracy": 26.7,
     "Trigger": "Burst",
     "ExilusPolarity": "Madurai",
@@ -1296,7 +1311,7 @@
     ],
     "Family": "Akarius",
     "AmmoMax": 24,
-    "Disposition": 0.65,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Pistols/SapientPistol/SapientPistolInnateUpgrade",
       "/Lotus/Weapons/Tenno/Pistols/SapientPistol/SapientPistoRunnerInnateUpgrade"
@@ -1309,11 +1324,12 @@
     "MaxRank": 30,
     "GripType": "DUAL_GUN_GUN",
     "Introduced": "Vanilla",
-    "InternalName": "/Lotus/Weapons/Tenno/Akimbo/AkimboPistol",
     "Image": "Aklato.png",
+    "InternalName": "/Lotus/Weapons/Tenno/Akimbo/AkimboPistol",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 30,
+    "_RetiredDisposition": 1.52,
     "Accuracy": 11.1,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -1347,32 +1363,33 @@
     ],
     "Family": "Aklato",
     "AmmoMax": 210,
-    "Disposition": 1.52,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Zylok Prime": {
+    "MaxRank": 30,
     "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "IncarnonChargeGain": 1,
-    "MaxRank": 30,
     "Traits": [
       "Prime",
       "Tenno"
     ],
-    "GripType": "GUN_ONE_HAND",
     "Tradable": 2,
+    "GripType": "GUN_ONE_HAND",
+    "Slot": "Secondary",
     "Introduced": "34",
     "Polarities": [
       "Naramon",
       "Madurai"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeZylok/ZylokPrimePistol",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeZylok/ZylokPrimePistol",
     "Magazine": 12,
-    "IncarnonImage": "ZylokPrimeIncarnon.png",
     "Image": "ZylokPrime.png",
+    "IncarnonImage": "ZylokPrimeIncarnon.png",
+    "_RetiredDisposition": 0.95,
     "Accuracy": 23.5,
     "Trigger": "Duplex",
     "ExilusPolarity": "Madurai",
@@ -1449,7 +1466,7 @@
     ],
     "Family": "Zylok",
     "AmmoMax": 210,
-    "Disposition": 0.95,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Quatz": {
@@ -1458,14 +1475,15 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "GripType": "GUN_ONE_HAND",
-    "Introduced": "25.4.0",
     "Magazine": 72,
+    "Introduced": "25.4.0",
     "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrnAmphisPistol/GrnAmphisPistol",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrnAmphisPistol/GrnAmphisPistol",
     "Link": "Quatz",
     "AmmoType": "Secondary",
     "Mastery": 9,
+    "_RetiredDisposition": 1.2,
     "Accuracy": 40,
     "Trigger": "Auto / Burst",
     "ExilusPolarity": "Madurai",
@@ -1540,20 +1558,21 @@
     "Class": "Dual Pistols",
     "MaxRank": 30,
     "Mastery": 11,
-    "GripType": "DUAL_GUN_GUN",
     "Traits": [
       "Grineer"
     ],
+    "GripType": "DUAL_GUN_GUN",
+    "Tradable": 1,
     "Introduced": "23.4.2",
     "Polarities": [
       "Madurai"
     ],
-    "Tradable": 1,
-    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrineerBulbousSMG/Prisma/PrismaTwinGremlinsWeapon",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrineerBulbousSMG/Prisma/PrismaTwinGremlinsWeapon",
     "SellPrice": 5000,
     "Magazine": 70,
     "Image": "PrismaTwinGremlins.png",
+    "_RetiredDisposition": 1.15,
     "Accuracy": 36.4,
     "Trigger": "Auto",
     "ExilusPolarity": "Naramon",
@@ -1589,7 +1608,7 @@
     ],
     "Family": "Twin Gremlins",
     "AmmoMax": 600,
-    "Disposition": 1.15,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Sepulcrum": {
@@ -1598,18 +1617,19 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "Magazine": 90,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Entrati"
     ],
+    "GripType": "GUN_ONE_HAND",
+    "Slot": "Secondary",
     "Introduced": "29",
     "Polarities": {},
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Thanotech/ThanoPistol/ThanotechPistol",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Thanotech/ThanoPistol/ThanotechPistol",
     "Link": "Sepulcrum",
     "AmmoType": "Secondary",
     "Mastery": 14,
+    "_RetiredDisposition": 1.1,
     "Accuracy": 22.2,
     "Trigger": "Burst",
     "ExilusPolarity": "Madurai",
@@ -1718,7 +1738,7 @@
     ],
     "Family": "Sepulcrum",
     "AmmoMax": 180,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Thanotech/ThanoPistol/ThanotechPistolWeaponInnateMod"
     ]
@@ -1728,6 +1748,9 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Dual Pistols",
     "MaxRank": 30,
+    "Traits": [
+      "Prime"
+    ],
     "Image": "AfurisPrime.png",
     "GripType": "DUAL_GUN_GUN",
     "Users": {},
@@ -1737,14 +1760,12 @@
       "Madurai",
       "Madurai"
     ],
-    "Traits": [
-      "Prime"
-    ],
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeAfuris/PrimeAFurisWeapon",
     "Tradable": 2,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeAfuris/PrimeAFurisWeapon",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 80,
+    "_RetiredDisposition": 1.1,
     "Accuracy": 28.6,
     "Trigger": "Auto",
     "ExilusPolarity": "Naramon",
@@ -1778,7 +1799,7 @@
     ],
     "Family": "Afuris",
     "AmmoMax": 400,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Dual Cestra": {
@@ -1786,6 +1807,9 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Dual Pistols",
     "MaxRank": 30,
+    "Traits": [
+      "Corpus"
+    ],
     "Mastery": 7,
     "GripType": "DUAL_GUN_GUN",
     "Users": [
@@ -1796,14 +1820,12 @@
     "Polarities": [
       "Madurai"
     ],
-    "Traits": [
-      "Corpus"
-    ],
-    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CorpusMinigun/DualCorpusMinigun",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CorpusMinigun/DualCorpusMinigun",
     "SellPrice": 5000,
     "Magazine": 120,
     "Image": "DualCestra.png",
+    "_RetiredDisposition": 1.35,
     "Accuracy": 20,
     "Trigger": "Auto",
     "ExilusPolarity": "Naramon",
@@ -1838,7 +1860,7 @@
     ],
     "Family": "Dual Cestra",
     "AmmoMax": 480,
-    "Disposition": 1.35,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Dex Pixia Prime": {
@@ -1909,16 +1931,17 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "GripType": "GUN_ONE_HAND",
-    "Introduced": "8.0",
     "Mastery": 7,
+    "Introduced": "8.0",
     "Traits": [
       "Grineer"
     ],
-    "InternalName": "/Lotus/Weapons/ClanTech/Bio/AcidDartPistol",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/ClanTech/Bio/AcidDartPistol",
     "SellPrice": 2500,
     "Magazine": 15,
     "Image": "Acrid.png",
+    "_RetiredDisposition": 1.33,
     "Accuracy": 100,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -1955,7 +1978,7 @@
     ],
     "Family": "Acrid",
     "AmmoMax": 210,
-    "Disposition": 1.33,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Pandero Prime": {
@@ -1964,21 +1987,22 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "Mastery": 14,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Prime",
       "Vaulted"
     ],
+    "GripType": "GUN_ONE_HAND",
+    "Tradable": 2,
     "Introduced": "29.9",
     "Polarities": [
       "Madurai"
     ],
-    "Tradable": 2,
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimePandero/PanderoPrimeWeapon",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimePandero/PanderoPrimeWeapon",
     "SellPrice": 5000,
     "Link": "Pandero Prime",
     "AmmoType": "Secondary",
+    "_RetiredDisposition": 1.1,
     "Accuracy": 16,
     "Trigger": "Semi-Auto / Mag Burst",
     "ExilusPolarity": "Madurai",
@@ -2035,22 +2059,23 @@
     ],
     "Family": "Pandero",
     "AmmoMax": 210,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Pistols/TnBardPistol/TnBardPistolInnateUpgrade"
     ]
   },
   "Telos Akbolto": {
-    "Tradable": 1,
+    "Mastery": 11,
+    "SyndicateEffect": "Truth",
     "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Dual Pistols",
     "MaxRank": 30,
-    "Mastery": 11,
     "Traits": [
       "Syndicate",
       "Arbiters of Hexis"
     ],
+    "Tradable": 1,
     "GripType": "DUAL_GUN_GUN",
     "Users": [
       "Arbiters of Hexis Operatives"
@@ -2060,12 +2085,12 @@
       "Vazarin",
       "Naramon"
     ],
-    "SyndicateEffect": "Truth",
-    "InternalName": "/Lotus/Weapons/Syndicates/ArbitersOfHexis/Pistols/AHAkbolto",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Syndicates/ArbitersOfHexis/Pistols/AHAkbolto",
     "SellPrice": 5000,
     "Magazine": 30,
     "Image": "TelosAkbolto.png",
+    "_RetiredDisposition": 1.25,
     "Accuracy": 26.7,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -2100,33 +2125,34 @@
     ],
     "Family": "Akbolto",
     "AmmoMax": 210,
-    "Disposition": 1.25,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Kuva Brakk": {
+    "Traits": [
+      "Grineer",
+      "Kuva Lich"
+    ],
     "Link": "Kuva Brakk",
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
     "Class": "Shotgun Sidearm",
     "MaxRank": 40,
-    "Traits": [
-      "Grineer",
-      "Kuva Lich"
-    ],
     "Tradable": 3,
-    "GripType": "GUN_ONE_HAND",
     "Slot": "Secondary",
+    "GripType": "GUN_ONE_HAND",
+    "SellPrice": 5000,
     "Introduced": "26",
     "Polarities": [
       "Naramon",
       "Madurai"
     ],
-    "SellPrice": 5000,
-    "InternalName": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Brakk/KuvaBrakk",
     "IsLichWeapon": true,
+    "InternalName": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Brakk/KuvaBrakk",
     "AmmoType": "Secondary",
     "Mastery": 13,
     "Magazine": 11,
+    "_RetiredDisposition": 0.95,
     "Accuracy": 7.7,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Naramon",
@@ -2167,33 +2193,34 @@
     ],
     "Family": "Brakk",
     "AmmoMax": 210,
-    "Disposition": 0.95,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
     ]
   },
   "Tenet Diplos": {
+    "Magazine": 92,
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
     "Class": "Dual Pistols",
     "MaxRank": 40,
-    "Magazine": 92,
     "Traits": [
       "Corpus",
       "Tenet"
     ],
-    "GripType": "DUAL_GUN_GUN",
     "Tradable": 3,
+    "GripType": "DUAL_GUN_GUN",
+    "Slot": "Secondary",
     "Introduced": "30.5",
     "Polarities": [
       "Madurai"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CrpBriefcaseAkimbo/CrpBriefcaseAkimboPistol",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CrpBriefcaseAkimbo/CrpBriefcaseAkimboPistol",
     "IsLichWeapon": true,
     "AmmoType": "Secondary",
     "Mastery": 16,
+    "_RetiredDisposition": 0.75,
     "Accuracy": 100,
     "Trigger": "Auto / Burst",
     "ExilusPolarity": "Madurai",
@@ -2254,34 +2281,35 @@
     ],
     "Family": "Tenet Diplos",
     "AmmoMax": 460,
-    "Disposition": 0.75,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
       "/Lotus/Weapons/Corpus/Pistols/CrpBriefcaseAkimbo/CrpBriefcaseAkimboInnateMod"
     ]
   },
   "Onos": {
+    "Magazine": 20,
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "IncarnonChargeGain": 30,
-    "Magazine": 20,
     "Traits": [
       "Entrati",
       "Incarnon"
     ],
-    "GripType": "GUN_ONE_HAND",
     "Slot": "Secondary",
+    "GripType": "GUN_ONE_HAND",
+    "SellPrice": 5000,
     "Introduced": "35.5",
     "Polarities": [
       "Madurai"
     ],
-    "SellPrice": 5000,
-    "InternalName": "/Lotus/Weapons/Thanotech/EntratiWristGun/EntratiWristGunWeapon",
     "Link": "Onos",
+    "InternalName": "/Lotus/Weapons/Thanotech/EntratiWristGun/EntratiWristGunWeapon",
     "AmmoType": "Secondary",
     "MaxRank": 30,
     "Mastery": 14,
+    "_RetiredDisposition": 0.85,
     "Accuracy": 40,
     "Trigger": "Auto",
     "ExilusPolarity": "Naramon",
@@ -2380,7 +2408,7 @@
     ],
     "Family": "Onos",
     "AmmoMax": 210,
-    "Disposition": 0.85,
+    "Disposition": 1.2,
     "CodexSecret": false
   },
   "Akjagara": {
@@ -2389,18 +2417,19 @@
     "Class": "Dual Pistols",
     "MaxRank": 30,
     "GripType": "DUAL_GUN_GUN",
+    "Image": "Akjagara.png",
     "Introduced": "15.13",
     "Polarities": [
       "Naramon"
     ],
-    "Image": "Akjagara.png",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/TigrisRedeemerSetPistol/TnoBladedPistols",
     "Traits": [
       "Tenno"
     ],
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/TigrisRedeemerSetPistol/TnoBladedPistols",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 36,
+    "_RetiredDisposition": 1.1,
     "Accuracy": 15.4,
     "Trigger": "Burst",
     "ExilusPolarity": "Naramon",
@@ -2436,30 +2465,31 @@
     ],
     "Family": "Akjagara",
     "AmmoMax": 210,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Atomos": {
+    "Mastery": 5,
     "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "IncarnonChargeGain": 1,
-    "Mastery": 5,
     "Traits": [
       "Grineer"
     ],
-    "GripType": "GUN_ONE_HAND",
     "Slot": "Secondary",
+    "GripType": "GUN_ONE_HAND",
+    "SellPrice": 5000,
     "Introduced": "16.5",
     "Polarities": [
       "Vazarin"
     ],
-    "SellPrice": 5000,
-    "InternalName": "/Lotus/Weapons/Grineer/Pistols/HeatGun/GrnHeatGun",
     "Magazine": 70,
+    "InternalName": "/Lotus/Weapons/Grineer/Pistols/HeatGun/GrnHeatGun",
     "Image": "Atomos.png",
-    "IncarnonImage": "AtomosIncarnon.png",
     "MaxRank": 30,
+    "IncarnonImage": "AtomosIncarnon.png",
+    "_RetiredDisposition": 0.95,
     "Accuracy": 12.5,
     "Trigger": "Held",
     "ExilusPolarity": "Madurai",
@@ -2537,7 +2567,7 @@
     ],
     "Family": "Atomos",
     "AmmoMax": 350,
-    "Disposition": 0.95,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Glory": {
@@ -2622,6 +2652,7 @@
     "_TooltipAttackDisplay": 3,
     "Class": "Pistol",
     "MaxRank": 30,
+    "Image": "Zymos.png",
     "GripType": "GUN_ONE_HAND",
     "Users": [
       "Zealot Proselytizer"
@@ -2631,14 +2662,14 @@
       "Madurai",
       "Naramon"
     ],
-    "Image": "Zymos.png",
-    "InternalName": "/Lotus/Weapons/Infested/Pistols/InfUzi/InfUziWeapon",
     "Traits": [
       "Infested"
     ],
+    "InternalName": "/Lotus/Weapons/Infested/Pistols/InfUzi/InfUziWeapon",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 17,
+    "_RetiredDisposition": 1.2,
     "Accuracy": 9.8,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Naramon",
@@ -2772,6 +2803,9 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "MaxRank": 30,
+    "Traits": [
+      "Scaldra"
+    ],
     "Mastery": 14,
     "GripType": "GUN_ONE_HAND",
     "Users": [
@@ -2782,14 +2816,12 @@
       "Madurai",
       "Vazarin"
     ],
-    "Traits": [
-      "Scaldra"
-    ],
-    "InternalName": "/Lotus/Weapons/Lasria/LasGooPistol/LasGooPistolPlayerWeapon",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Lasria/LasGooPistol/LasGooPistolPlayerWeapon",
     "SellPrice": 2500,
     "Magazine": 15,
     "Image": "EFV-8Mars.png",
+    "_RetiredDisposition": 1.05,
     "Accuracy": 100,
     "Trigger": "Semi-Auto / Charge",
     "ExilusPolarity": "Naramon",
@@ -2869,7 +2901,7 @@
     ],
     "Family": "EFV-8 Mars",
     "AmmoMax": 210,
-    "Disposition": 1.05,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Nukor": {
@@ -2877,20 +2909,21 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "MaxRank": 30,
+    "Mastery": 4,
     "GripType": "GUN_ONE_HAND",
     "Users": [
       "Nightwatch Seeker"
     ],
     "Introduced": "14.5",
-    "Mastery": 4,
     "Traits": [
       "Grineer"
     ],
-    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrineerMicrowavegun/GrnMicrowavePistol",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrineerMicrowavegun/GrnMicrowavePistol",
     "SellPrice": 5000,
     "Magazine": 50,
     "Image": "Nukor.png",
+    "_RetiredDisposition": 1.45,
     "Accuracy": 100,
     "Trigger": "Held",
     "ExilusPolarity": "Madurai",
@@ -2924,7 +2957,7 @@
     ],
     "Family": "Nukor",
     "AmmoMax": 210,
-    "Disposition": 1.45,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Akvasto": {
@@ -2938,13 +2971,14 @@
     ],
     "Introduced": "9.7",
     "Image": "Akvasto.png",
-    "InternalName": "/Lotus/Weapons/Tenno/Akimbo/DualVastos",
     "Traits": [
       "Tenno"
     ],
+    "InternalName": "/Lotus/Weapons/Tenno/Akimbo/DualVastos",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 12,
+    "_RetiredDisposition": 1.25,
     "Accuracy": 11.1,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -2978,7 +3012,7 @@
     ],
     "Family": "Akvasto",
     "AmmoMax": 210,
-    "Disposition": 1.25,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Akbolto Prime": {
@@ -2987,11 +3021,12 @@
     "Class": "Dual Pistols",
     "MaxRank": 30,
     "Mastery": 13,
-    "GripType": "DUAL_GUN_GUN",
     "Traits": [
       "Prime",
       "Vaulted"
     ],
+    "GripType": "DUAL_GUN_GUN",
+    "Tradable": 2,
     "Introduced": "22.7",
     "Polarities": [
       "Naramon",
@@ -2999,12 +3034,12 @@
       "Madurai",
       "Madurai"
     ],
-    "Tradable": 2,
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeAkbolto/PrimeAkBoltoWeapon",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeAkbolto/PrimeAkBoltoWeapon",
     "SellPrice": 5000,
     "Magazine": 40,
     "Image": "AkboltoPrime.png",
+    "_RetiredDisposition": 1.2,
     "Accuracy": 26.7,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Naramon",
@@ -3048,21 +3083,22 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Dual Pistols",
     "MaxRank": 30,
-    "GripType": "DUAL_GUN_GUN",
     "Image": "AkstilettoPrime.png",
+    "GripType": "DUAL_GUN_GUN",
+    "Traits": [
+      "Prime"
+    ],
     "Introduced": "18.12",
     "Polarities": [
       "Naramon",
       "Madurai"
     ],
-    "Traits": [
-      "Prime"
-    ],
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeAkstiletto/PrimeAkstiletto",
     "Tradable": 2,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeAkstiletto/PrimeAkstiletto",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 40,
+    "_RetiredDisposition": 0.85,
     "Accuracy": 23.5,
     "Trigger": "Auto",
     "ExilusPolarity": "Madurai",
@@ -3096,7 +3132,7 @@
     ],
     "Family": "Akstiletto",
     "AmmoMax": 400,
-    "Disposition": 0.85,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Akbolto": {
@@ -3104,20 +3140,21 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Dual Pistols",
     "MaxRank": 30,
-    "GripType": "DUAL_GUN_GUN",
     "Mastery": 8,
+    "GripType": "DUAL_GUN_GUN",
+    "Traits": [
+      "Tenno"
+    ],
     "Introduced": "6.0",
     "Polarities": [
       "Vazarin"
     ],
-    "Traits": [
-      "Tenno"
-    ],
-    "InternalName": "/Lotus/Weapons/Tenno/Akimbo/AkimboBolto",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/Akimbo/AkimboBolto",
     "SellPrice": 5000,
     "Magazine": 30,
     "Image": "Akbolto.png",
+    "_RetiredDisposition": 1.3,
     "Accuracy": 26.7,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Naramon",
@@ -3152,7 +3189,7 @@
     ],
     "Family": "Akbolto",
     "AmmoMax": 210,
-    "Disposition": 1.3,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Spira Prime": {
@@ -3161,22 +3198,23 @@
     "Class": "Thrown",
     "MaxRank": 30,
     "Mastery": 10,
-    "GripType": "DUAL_GUN_GUN",
     "Traits": [
       "Prime",
       "Vaulted"
     ],
+    "GripType": "DUAL_GUN_GUN",
+    "Tradable": 2,
     "Introduced": "18.4.12",
     "Polarities": [
       "Madurai",
       "Madurai"
     ],
-    "Tradable": 2,
-    "InternalName": "/Lotus/Weapons/Tenno/ThrowingWeapons/PrimeLiDagger/PrimeLiDagger",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/ThrowingWeapons/PrimeLiDagger/PrimeLiDagger",
     "SellPrice": 5000,
     "Magazine": 12,
     "Image": "SpiraPrime.png",
+    "_RetiredDisposition": 1.25,
     "Accuracy": 100,
     "Trigger": "Auto",
     "ExilusPolarity": "Madurai",
@@ -3213,7 +3251,7 @@
     ],
     "Family": "Spira",
     "AmmoMax": 210,
-    "Disposition": 1.25,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Twin Vipers": {
@@ -3222,18 +3260,19 @@
     "Class": "Dual Pistols",
     "MaxRank": 30,
     "GripType": "DUAL_GUN_GUN",
+    "Image": "TwinVipers.png",
     "Introduced": "7.7.3",
     "Polarities": [
       "Naramon"
     ],
-    "Image": "TwinVipers.png",
-    "InternalName": "/Lotus/Weapons/Tenno/Akimbo/AkimboViperPistols",
     "Traits": [
       "Grineer"
     ],
+    "InternalName": "/Lotus/Weapons/Tenno/Akimbo/AkimboViperPistols",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 28,
+    "_RetiredDisposition": 1.45,
     "Accuracy": 15.4,
     "Trigger": "Auto",
     "ExilusPolarity": "Madurai",
@@ -3267,7 +3306,7 @@
     ],
     "Family": "Twin Vipers",
     "AmmoMax": 420,
-    "Disposition": 1.45,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Akbronco Prime": {
@@ -3276,22 +3315,23 @@
     "Class": "Dual Shotguns",
     "MaxRank": 30,
     "Mastery": 10,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Prime",
       "Never Vaulted"
     ],
+    "GripType": "GUN_ONE_HAND",
+    "Tradable": 2,
     "Introduced": "12.4",
     "Polarities": [
       "Madurai",
       "Madurai"
     ],
-    "Tradable": 2,
-    "InternalName": "/Lotus/Weapons/Tenno/Akimbo/PrimeAkimboShotGun",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/Akimbo/PrimeAkimboShotGun",
     "SellPrice": 5000,
     "Magazine": 8,
     "Image": "AkbroncoPrime.png",
+    "_RetiredDisposition": 1.3,
     "Accuracy": 3.7,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Naramon",
@@ -3332,32 +3372,33 @@
     ],
     "Family": "Akbronco",
     "AmmoMax": 210,
-    "Disposition": 1.3,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Kuva Nukor": {
-    "Tradable": 3,
+    "Link": "Kuva Nukor",
+    "Slot": "Secondary",
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "MaxRank": 40,
-    "Link": "Kuva Nukor",
     "Traits": [
       "Grineer",
       "Kuva Lich"
     ],
+    "Tradable": 3,
     "GripType": "GUN_ONE_HAND",
     "Users": [
       "Kuva Lich"
     ],
     "Introduced": "27.1",
-    "Slot": "Secondary",
     "SellPrice": 5000,
-    "InternalName": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Nukor/KuvaNukor",
     "IsLichWeapon": true,
+    "InternalName": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Nukor/KuvaNukor",
     "AmmoType": "Secondary",
     "Mastery": 13,
     "Magazine": 77,
+    "_RetiredDisposition": 0.5,
     "Accuracy": 100,
     "Trigger": "Held",
     "ExilusPolarity": "Madurai",
@@ -3391,7 +3432,7 @@
     ],
     "Family": "Nukor",
     "AmmoMax": 210,
-    "Disposition": 0.5,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
     ]
@@ -3402,17 +3443,18 @@
     "Class": "Dual Pistols",
     "MaxRank": 30,
     "GripType": "DUAL_GUN_GUN",
-    "Introduced": "19.8.1",
     "Image": "AklexPrime.png",
+    "Introduced": "19.8.1",
     "Traits": [
       "Prime",
       "Baro"
     ],
-    "InternalName": "/Lotus/Weapons/Tenno/Akimbo/AkLexPrimePistols",
     "Tradable": 2,
+    "InternalName": "/Lotus/Weapons/Tenno/Akimbo/AkLexPrimePistols",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 16,
+    "_RetiredDisposition": 0.95,
     "Accuracy": 9.8,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -3446,7 +3488,7 @@
     ],
     "Family": "Aklex",
     "AmmoMax": 210,
-    "Disposition": 0.95,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Kulstar": {
@@ -3454,6 +3496,9 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "MaxRank": 30,
+    "Traits": [
+      "Grineer"
+    ],
     "Mastery": 5,
     "GripType": "GUN_ONE_HAND",
     "Users": [
@@ -3463,14 +3508,12 @@
     "Polarities": [
       "Vazarin"
     ],
-    "Traits": [
-      "Grineer"
-    ],
-    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrnTorpedoPistol/GrnTorpedoPistol",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrnTorpedoPistol/GrnTorpedoPistol",
     "SellPrice": 5000,
     "Magazine": 3,
     "Image": "Kulstar.png",
+    "_RetiredDisposition": 1.3,
     "Accuracy": 26.7,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Naramon",
@@ -3568,7 +3611,7 @@
     ],
     "Family": "Kulstar",
     "AmmoMax": 15,
-    "Disposition": 1.3,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Pandero": {
@@ -3577,16 +3620,17 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "GripType": "GUN_ONE_HAND",
-    "Introduced": "20",
     "Mastery": 8,
+    "Introduced": "20",
     "Traits": [
       "Tenno"
     ],
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/TnBardPistol/TnBardPistolGun",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/TnBardPistol/TnBardPistolGun",
     "SellPrice": 5000,
     "Link": "Pandero",
     "AmmoType": "Secondary",
+    "_RetiredDisposition": 1.2,
     "Accuracy": 16,
     "Trigger": "Semi-Auto / Mag Burst",
     "ExilusPolarity": "Madurai",
@@ -3657,22 +3701,23 @@
     "Class": "Thrown",
     "MaxRank": 30,
     "Mastery": 4,
-    "GripType": "DUAL_GUN_GUN",
     "Traits": [
       "Prime",
       "Never Vaulted"
     ],
+    "GripType": "DUAL_GUN_GUN",
+    "Tradable": 2,
     "Introduced": "14.8",
     "Polarities": [
       "Madurai",
       "Madurai"
     ],
-    "Tradable": 2,
-    "InternalName": "/Lotus/Weapons/Tenno/ThrowingWeapons/PrimeThrowingStar/PrimeHikou",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/ThrowingWeapons/PrimeThrowingStar/PrimeHikou",
     "SellPrice": 5000,
     "Magazine": 26,
     "Image": "HikouPrime.png",
+    "_RetiredDisposition": 1.25,
     "Accuracy": 100,
     "Trigger": "Auto",
     "ExilusPolarity": "Naramon",
@@ -3709,7 +3754,7 @@
     ],
     "Family": "Hikou",
     "AmmoMax": 210,
-    "Disposition": 1.25,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Akbronco": {
@@ -3717,20 +3762,21 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Dual Shotguns",
     "MaxRank": 30,
-    "GripType": "GUN_ONE_HAND",
     "Mastery": 2,
+    "GripType": "GUN_ONE_HAND",
+    "Traits": [
+      "Tenno"
+    ],
     "Introduced": "8.0",
     "Polarities": [
       "Madurai"
     ],
-    "Traits": [
-      "Tenno"
-    ],
-    "InternalName": "/Lotus/Weapons/Tenno/Akimbo/AkimboShotGun",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/Akimbo/AkimboShotGun",
     "SellPrice": 5000,
     "Magazine": 4,
     "Image": "Akbronco.png",
+    "_RetiredDisposition": 1.35,
     "Accuracy": 3.7,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -3771,7 +3817,7 @@
     ],
     "Family": "Akbronco",
     "AmmoMax": 210,
-    "Disposition": 1.35,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Akmagnus Prime": {
@@ -3779,22 +3825,23 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Dual Pistols",
     "MaxRank": 30,
-    "GripType": "DUAL_GUN_GUN",
     "Image": "AkmagnusPrime.png",
+    "GripType": "DUAL_GUN_GUN",
+    "Traits": [
+      "Prime",
+      "Baro"
+    ],
     "Introduced": "36.0.7",
     "Polarities": [
       "Madurai",
       "Vazarin"
     ],
-    "Traits": [
-      "Prime",
-      "Baro"
-    ],
-    "InternalName": "/Lotus/Weapons/Tenno/Akimbo/DualMagnusPrime",
     "Tradable": 2,
+    "InternalName": "/Lotus/Weapons/Tenno/Akimbo/DualMagnusPrime",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 16,
+    "_RetiredDisposition": 1.1,
     "Accuracy": 11.1,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -3828,7 +3875,7 @@
     ],
     "Family": "Akmagnus",
     "AmmoMax": 210,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Hystrix Prime": {
@@ -3837,21 +3884,22 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "Mastery": 12,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Prime"
     ],
+    "GripType": "GUN_ONE_HAND",
+    "Tradable": 2,
     "Introduced": "31.7",
     "Polarities": [
       "Madurai",
       "Madurai"
     ],
-    "Tradable": 2,
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeHystrix/PrimeHystrixWeapon",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeHystrix/PrimeHystrixWeapon",
     "SellPrice": 5000,
     "Link": "Hystrix Prime",
     "AmmoType": "Secondary",
+    "_RetiredDisposition": 1.05,
     "Accuracy": 14.3,
     "Trigger": "Auto",
     "ExilusPolarity": "Naramon",
@@ -3960,7 +4008,7 @@
     ],
     "Family": "Hystrix",
     "AmmoMax": 320,
-    "Disposition": 1.05,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Pistols/QuillDartgun/QuillDartgunInnateUpgrade"
     ]
@@ -3971,16 +4019,17 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "GripType": "GUN_ONE_HAND",
-    "Introduced": "24",
     "Mastery": 8,
+    "Introduced": "24",
     "Traits": [
       "Corpus"
     ],
-    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CrpSentExperimentPistol/CrpSentExperimentPistol",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CrpSentExperimentPistol/CrpSentExperimentPistol",
     "SellPrice": 5000,
     "Magazine": 60,
     "Image": "Ocucor.png",
+    "_RetiredDisposition": 1.2,
     "Accuracy": 100,
     "Trigger": "Held",
     "ExilusPolarity": "Madurai",
@@ -4024,20 +4073,21 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Dual Pistols",
     "MaxRank": 30,
-    "GripType": "DUAL_GUN_GUN",
     "AmmoType": "Secondary",
+    "GripType": "DUAL_GUN_GUN",
+    "Traits": [
+      "Tenno"
+    ],
     "Introduced": "44.0",
     "Polarities": [
       "Vazarin"
     ],
-    "Traits": [
-      "Tenno"
-    ],
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/DuelistPistols/DuelistPistols",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/DuelistPistols/DuelistPistols",
     "SellPrice": 5000,
     "Magazine": 8,
     "Image": "Aksondol.png",
+    "_RetiredDisposition": 0.5,
     "Accuracy": 23.5,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Naramon",
@@ -4074,21 +4124,22 @@
     ],
     "Mastery": 14,
     "AmmoMax": 210,
-    "Disposition": 0.5,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "DuelistPistolsPassiveDescUpgrade"
     ]
   },
   "Angstrum": {
-    "Slot": "Secondary",
+    "Mastery": 4,
+    "SellPrice": 5000,
     "Conclave": true,
     "_TooltipAttackDisplay": 2,
     "Class": "Pistol",
     "IncarnonChargeGain": 40,
-    "Mastery": 4,
     "Traits": [
       "Corpus"
     ],
+    "Slot": "Secondary",
     "GripType": "GUN_ONE_HAND",
     "Users": [
       "Comba",
@@ -4100,12 +4151,12 @@
     "Polarities": [
       "Vazarin"
     ],
-    "SellPrice": 5000,
-    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CrpHandRL/CorpusHandRocketLauncher",
     "Magazine": 3,
+    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CrpHandRL/CorpusHandRocketLauncher",
     "Image": "Angstrum.png",
-    "IncarnonImage": "AngstrumIncarnon.png",
     "MaxRank": 30,
+    "IncarnonImage": "AngstrumIncarnon.png",
+    "_RetiredDisposition": 1.35,
     "Accuracy": 26.7,
     "Trigger": "Charge",
     "ExilusPolarity": "None",
@@ -4187,21 +4238,22 @@
     ],
     "Family": "Angstrum",
     "AmmoMax": 18,
-    "Disposition": 1.35,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Secura Dual Cestra": {
-    "Mastery": 10,
-    "SyndicateEffect": "Sequence",
-    "Conclave": true,
-    "_TooltipAttackDisplay": 1,
-    "Class": "Dual Pistols",
-    "MaxRank": 30,
     "Traits": [
       "Syndicate",
       "Perrin Sequence"
     ],
+    "Spool": 5,
+    "Mastery": 10,
+    "Conclave": true,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Dual Pistols",
+    "MaxRank": 30,
     "Tradable": 1,
+    "SyndicateEffect": "Sequence",
     "GripType": "DUAL_GUN_GUN",
     "Users": [
       "The Perrin Sequence Operatives"
@@ -4211,12 +4263,12 @@
       "Madurai",
       "Naramon"
     ],
-    "Spool": 5,
-    "InternalName": "/Lotus/Weapons/Syndicates/PerrinSequence/Pistols/PSDualCestra",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Syndicates/PerrinSequence/Pistols/PSDualCestra",
     "SellPrice": 5000,
     "Magazine": 120,
     "Image": "SecuraDualCestra.png",
+    "_RetiredDisposition": 1.3,
     "Accuracy": 20,
     "Trigger": "Auto-Spool",
     "ExilusPolarity": "Naramon",
@@ -4251,7 +4303,7 @@
     ],
     "Family": "Dual Cestra",
     "AmmoMax": 480,
-    "Disposition": 1.3,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Athodai": {
@@ -4260,20 +4312,21 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "Mastery": 10,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Tenno"
     ],
+    "GripType": "GUN_ONE_HAND",
+    "Tradable": 2,
     "Introduced": "28.2.1",
     "Polarities": [
       "Madurai"
     ],
-    "Tradable": 2,
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/TnJetTurbine/TnJetTurbinePistolWeapon",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/TnJetTurbine/TnJetTurbinePistolWeapon",
     "SellPrice": 2500,
     "Magazine": 24,
     "Image": "Athodai.png",
+    "_RetiredDisposition": 1.05,
     "AmmoType": "Secondary",
     "Trigger": "Auto / Mag Burst",
     "ExilusPolarity": "Naramon",
@@ -4331,33 +4384,34 @@
     ],
     "Family": "Athodai",
     "AmmoMax": 48,
-    "Disposition": 1.05,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Pistols/TnJetTurbine/TnTurbineInnateMod"
     ]
   },
   "Sicarus Prime": {
+    "MaxRank": 30,
     "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "IncarnonChargeGain": 10,
-    "MaxRank": 30,
     "Traits": [
       "Prime",
       "Vaulted"
     ],
-    "GripType": "GUN_ONE_HAND",
     "Tradable": 2,
+    "GripType": "GUN_ONE_HAND",
+    "Slot": "Secondary",
     "Introduced": "11.0",
     "Polarities": [
       "Madurai"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeSicarus/PrimeSicarusPistol",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeSicarus/PrimeSicarusPistol",
     "Magazine": 24,
-    "IncarnonImage": "SicarusPrimeIncarnon.png",
     "Image": "SicarusPrime.png",
+    "IncarnonImage": "SicarusPrimeIncarnon.png",
+    "_RetiredDisposition": 1.15,
     "Accuracy": 25,
     "Trigger": "Burst",
     "ExilusPolarity": "Naramon",
@@ -4417,32 +4471,33 @@
     ],
     "Family": "Sicarus",
     "AmmoMax": 210,
-    "Disposition": 1.15,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Prisma Angstrum": {
+    "Traits": [
+      "Prisma",
+      "Baro"
+    ],
     "Mastery": 8,
     "Conclave": true,
     "_TooltipAttackDisplay": 2,
     "Class": "Pistol",
     "IncarnonChargeGain": 40,
-    "Traits": [
-      "Prisma",
-      "Baro"
-    ],
     "Tradable": 1,
-    "GripType": "GUN_ONE_HAND",
     "Slot": "Secondary",
+    "GripType": "GUN_ONE_HAND",
+    "SellPrice": 5000,
     "Introduced": "21.7",
     "Polarities": [
       "Vazarin"
     ],
-    "SellPrice": 5000,
-    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CrpHandRL/PrismaAngstrum",
     "Magazine": 3,
+    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CrpHandRL/PrismaAngstrum",
     "Image": "PrismaAngstrum.png",
-    "IncarnonImage": "PrismaAngstrumIncarnon.png",
     "MaxRank": 30,
+    "IncarnonImage": "PrismaAngstrumIncarnon.png",
+    "_RetiredDisposition": 1.3,
     "Accuracy": 26.7,
     "Trigger": "Charge",
     "ExilusPolarity": "None",
@@ -4524,7 +4579,7 @@
     ],
     "Family": "Angstrum",
     "AmmoMax": 18,
-    "Disposition": 1.3,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Hikou": {
@@ -4532,6 +4587,9 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Thrown",
     "MaxRank": 30,
+    "Traits": [
+      "Tenno"
+    ],
     "Mastery": 2,
     "GripType": "DUAL_GUN_GUN",
     "Users": [
@@ -4542,14 +4600,12 @@
       "Madurai",
       "Madurai"
     ],
-    "Traits": [
-      "Tenno"
-    ],
-    "InternalName": "/Lotus/Weapons/Tenno/ThrowingWeapons/TennoStars",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/ThrowingWeapons/TennoStars",
     "SellPrice": 5000,
     "Magazine": 20,
     "Image": "Hikou.png",
+    "_RetiredDisposition": 1.3,
     "Accuracy": 100,
     "Trigger": "Auto",
     "ExilusPolarity": "Naramon",
@@ -4586,7 +4642,7 @@
     ],
     "Family": "Hikou",
     "AmmoMax": 210,
-    "Disposition": 1.3,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Akzani": {
@@ -4595,18 +4651,19 @@
     "Class": "Dual Pistols",
     "MaxRank": 30,
     "GripType": "DUAL_GUN_GUN",
+    "Image": "Akzani.png",
     "Introduced": "14.0",
     "Polarities": [
       "Naramon"
     ],
-    "Image": "Akzani.png",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/HarlequinGun/HarlequinPistols",
     "Traits": [
       "Tenno"
     ],
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/HarlequinGun/HarlequinPistols",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 100,
+    "_RetiredDisposition": 1.52,
     "Accuracy": 16.7,
     "Trigger": "Auto",
     "ExilusPolarity": "Madurai",
@@ -4640,34 +4697,35 @@
     ],
     "Family": "Akzani",
     "AmmoMax": 400,
-    "Disposition": 1.52,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Ballistica Prime": {
+    "Traits": [
+      "Prime",
+      "Vaulted"
+    ],
     "Mastery": 14,
     "Conclave": true,
     "_TooltipAttackDisplay": 2,
     "Class": "Crossbow",
     "IncarnonChargeGain": 1.5,
-    "Traits": [
-      "Prime",
-      "Vaulted"
-    ],
     "Tradable": 2,
-    "GripType": "GUN_ONE_HAND",
     "Slot": "Secondary",
+    "GripType": "GUN_ONE_HAND",
+    "SellPrice": 5000,
     "Introduced": "21.6",
     "Polarities": [
       "Naramon",
       "Madurai",
       "Madurai"
     ],
-    "SellPrice": 5000,
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeBallistica/PrimeBallistica",
     "Magazine": 32,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeBallistica/PrimeBallistica",
     "Image": "BallisticaPrime.png",
-    "IncarnonImage": "BallisticaPrimeIncarnon.png",
     "MaxRank": 30,
+    "IncarnonImage": "BallisticaPrimeIncarnon.png",
+    "_RetiredDisposition": 1.2,
     "Accuracy": 4,
     "Trigger": "Charge",
     "ExilusPolarity": "Naramon",
@@ -4756,21 +4814,22 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Thrown",
     "MaxRank": 30,
-    "GripType": "DUAL_GUN_GUN",
     "Mastery": 10,
+    "GripType": "DUAL_GUN_GUN",
+    "Traits": [
+      "Tenno"
+    ],
     "Introduced": "36",
     "Polarities": [
       "Madurai",
       "Madurai"
     ],
-    "Traits": [
-      "Tenno"
-    ],
-    "InternalName": "/Lotus/Weapons/Tenno/ThrowingWeapons/TnChoirframeKunai/TnChoirframeKunai",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/ThrowingWeapons/TnChoirframeKunai/TnChoirframeKunai",
     "SellPrice": 5000,
     "Magazine": 6,
     "Image": "Cantare.png",
+    "_RetiredDisposition": 1.05,
     "Accuracy": 100,
     "Trigger": "Auto",
     "ExilusPolarity": "Madurai",
@@ -4806,7 +4865,7 @@
     ],
     "Family": "Cantare",
     "AmmoMax": 0,
-    "Disposition": 1.05,
+    "Disposition": 1.2,
     "AmmoType": "None"
   },
   "Brakk": {
@@ -4814,21 +4873,22 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Shotgun Sidearm",
     "MaxRank": 30,
-    "GripType": "GUN_ONE_HAND",
     "Mastery": 6,
+    "GripType": "GUN_ONE_HAND",
+    "Traits": [
+      "Grineer"
+    ],
     "Introduced": "10.6",
     "Polarities": [
       "Naramon",
       "Madurai"
     ],
-    "Traits": [
-      "Grineer"
-    ],
-    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrineerHandShotgun/GrineerHandCannon",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrineerHandShotgun/GrineerHandCannon",
     "SellPrice": 5000,
     "Magazine": 5,
     "Image": "Brakk.png",
+    "_RetiredDisposition": 1.25,
     "Accuracy": 7.7,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Naramon",
@@ -4870,32 +4930,33 @@
     ],
     "Family": "Brakk",
     "AmmoMax": 210,
-    "Disposition": 1.25,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Cycron": {
+    "Mastery": 8,
     "ReloadRate": 40,
     "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "MaxRank": 30,
-    "Mastery": 8,
     "Traits": [
       "Corpus"
     ],
-    "GripType": "GUN_ONE_HAND",
     "Slot": "Secondary",
+    "GripType": "GUN_ONE_HAND",
+    "SellPrice": 5000,
     "Introduced": "20.3",
     "Polarities": [
       "Naramon",
       "Naramon"
     ],
-    "SellPrice": 5000,
-    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CrpChargeGun/CrpChargeGun",
     "ReloadStyle": "Regenerate",
+    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CrpChargeGun/CrpChargeGun",
     "ReloadDelay": 1,
     "Magazine": 40,
     "Image": "Cycron.png",
+    "_RetiredDisposition": 1.2,
     "Accuracy": 100,
     "Trigger": "Held",
     "ExilusPolarity": "Naramon",
@@ -4945,13 +5006,14 @@
       "Madurai",
       "Naramon"
     ],
-    "InternalName": "/Lotus/Weapons/Tenno/Grimoire/TnGrimoire",
     "Link": "Grimoire",
+    "InternalName": "/Lotus/Weapons/Tenno/Grimoire/TnGrimoire",
     "Traits": [
       "Entrati"
     ],
     "Slot": "Secondary",
     "Mastery": 10,
+    "_RetiredDisposition": 0.6,
     "Accuracy": 100,
     "Trigger": "Auto",
     "ExilusPolarity": "None",
@@ -4966,7 +5028,7 @@
     "Image": "Grimoire.png",
     "Family": "Grimoire",
     "AmmoMax": 0,
-    "Disposition": 0.6,
+    "Disposition": 1.2,
     "Attacks": [
       {
         "CritChance": 0.2,
@@ -5063,21 +5125,22 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "Mastery": 8,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Tenno"
     ],
+    "GripType": "GUN_ONE_HAND",
+    "Tradable": 2,
     "Introduced": "28",
     "Polarities": [
       "Madurai",
       "Madurai"
     ],
-    "Tradable": 2,
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/TnOdaliskSmg/TnOdaliskSmgPistol",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/TnOdaliskSmg/TnOdaliskSmgPistol",
     "SellPrice": 5000,
     "Link": "Velox",
     "AmmoType": "Secondary",
+    "_RetiredDisposition": 1.25,
     "Accuracy": 25,
     "Trigger": "Auto",
     "ExilusPolarity": "Madurai",
@@ -5112,7 +5175,7 @@
     ],
     "Family": "Velox",
     "AmmoMax": 434,
-    "Disposition": 1.25,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Pistols/TnOdaliskSmg/TnOdaliskAmmoEfficiencyMod",
       "/Lotus/Weapons/Tenno/Pistols/TnOdaliskSmg/TnOdaliskAmmoEfficiencySignatureMod",
@@ -5124,6 +5187,7 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Shotgun Sidearm",
     "MaxRank": 30,
+    "Mastery": 6,
     "GripType": "GUN_ONE_HAND",
     "Users": [
       "Detron Crewman",
@@ -5133,15 +5197,15 @@
       "Jad Teran"
     ],
     "Introduced": "11.5.5",
-    "Mastery": 6,
     "Traits": [
       "Corpus"
     ],
-    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CorpusHandShotgun/CorpusHandCannon",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CorpusHandShotgun/CorpusHandCannon",
     "SellPrice": 5000,
     "Magazine": 5,
     "Image": "Detron.png",
+    "_RetiredDisposition": 1.15,
     "Accuracy": 7.1,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -5183,7 +5247,7 @@
     ],
     "Family": "Detron",
     "AmmoMax": 210,
-    "Disposition": 1.15,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Coda Tysis": {
@@ -5192,21 +5256,22 @@
     "Class": "Pistol",
     "MaxRank": 40,
     "Magazine": 18,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Infested",
       "Technocyte Coda"
     ],
+    "GripType": "GUN_ONE_HAND",
+    "Slot": "Secondary",
     "Introduced": "38.5",
     "Polarities": [
       "Vazarin"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaTysis",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaTysis",
     "Link": "Coda Tysis",
     "Image": "CodaTysis.png",
     "Mastery": 17,
+    "_RetiredDisposition": 1,
     "Accuracy": 100,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -5259,7 +5324,7 @@
     ],
     "Family": "Tysis",
     "AmmoMax": 210,
-    "Disposition": 1,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Regulators": {
@@ -5327,22 +5392,23 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Dual Pistols",
     "MaxRank": 30,
-    "GripType": "DUAL_GUN_GUN",
     "Image": "AkvastoPrime.png",
+    "GripType": "DUAL_GUN_GUN",
+    "Traits": [
+      "Prime",
+      "Baro"
+    ],
     "Introduced": "24.0.6",
     "Polarities": [
       "Madurai",
       "Madurai"
     ],
-    "Traits": [
-      "Prime",
-      "Baro"
-    ],
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeVasto/AkPrimeVasto/AkPrimeVastoPistol",
     "Tradable": 2,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeVasto/AkPrimeVasto/AkPrimeVastoPistol",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 12,
+    "_RetiredDisposition": 1.2,
     "Accuracy": 16,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -5385,18 +5451,19 @@
     "Class": "Dual Pistols",
     "MaxRank": 30,
     "GripType": "DUAL_GUN_GUN",
+    "Image": "Akstiletto.png",
     "Introduced": "12.0",
     "Polarities": [
       "Naramon"
     ],
-    "Image": "Akstiletto.png",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/TennoUzi/TennoUzi",
     "Traits": [
       "Tenno"
     ],
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/TennoUzi/TennoUzi",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 28,
+    "_RetiredDisposition": 0.95,
     "Accuracy": 23.5,
     "Trigger": "Auto",
     "ExilusPolarity": "Madurai",
@@ -5430,47 +5497,51 @@
     ],
     "Family": "Akstiletto",
     "AmmoMax": 210,
-    "Disposition": 0.95,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Synoid Gammacor": {
-    "Traits": [
-      "Syndicate",
-      "Cephalon Suda"
-    ],
-    "Slot": "Secondary",
-    "Mastery": 7,
-    "Conclave": true,
-    "_TooltipAttackDisplay": 1,
-    "Class": "Pistol",
     "IncarnonChargeGain": 1,
-    "Tradable": 1,
-    "SyndicateEffect": "Entropy",
     "GripType": "GUN_ONE_HAND",
-    "Users": [
-      "Cephalon Suda Operatives"
-    ],
     "Introduced": "15.5",
     "Polarities": [
       "Vazarin",
       "Naramon"
     ],
-    "SellPrice": 5000,
     "InternalName": "/Lotus/Weapons/Syndicates/CephalonSuda/Pistols/CSSynoidGammacor",
-    "Magazine": 80,
-    "Image": "SynoidGammacor.png",
-    "IncarnonImage": "SynoidGammacorIncarnon.png",
-    "MaxRank": 30,
+    "_RetiredDisposition": 1.1,
     "Accuracy": 100,
-    "Trigger": "Held",
     "ExilusPolarity": "Madurai",
+    "Family": "Gammacor",
+    "AmmoMax": 400,
+    "Disposition": 1.2,
+    "Conclave": true,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Pistol",
+    "Image": "SynoidGammacor.png",
+    "Users": [
+      "Cephalon Suda Operatives"
+    ],
+    "Slot": "Secondary",
+    "SyndicateEffect": "Entropy",
+    "IncarnonImage": "SynoidGammacorIncarnon.png",
+    "Tradable": 1,
+    "Traits": [
+      "Syndicate",
+      "Cephalon Suda"
+    ],
+    "Trigger": "Held",
+    "SellPrice": 5000,
     "CompatibilityTags": [
       "BEAM"
     ],
     "Reload": 1.8,
     "AmmoPickup": 40,
-    "Link": "Synoid Gammacor",
+    "MaxRank": 30,
     "Name": "Synoid Gammacor",
+    "Magazine": 80,
+    "Mastery": 7,
+    "Link": "Synoid Gammacor",
     "Attacks": [
       {
         "CritChance": 0.2,
@@ -5543,9 +5614,6 @@
         "CritMultiplier": 2
       }
     ],
-    "Family": "Gammacor",
-    "AmmoMax": 400,
-    "Disposition": 1.1,
     "AmmoType": "Secondary"
   },
   "Velox Prime": {
@@ -5554,22 +5622,23 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "Mastery": 13,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Tenno"
     ],
+    "GripType": "GUN_ONE_HAND",
+    "Tradable": 2,
     "Introduced": "35.5.9",
     "Polarities": [
       "Madurai",
       "Madurai",
       "Naramon"
     ],
-    "Tradable": 2,
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeVelox/PrimeVeloxPistol",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeVelox/PrimeVeloxPistol",
     "SellPrice": 5000,
     "Link": "Velox Prime",
     "AmmoType": "Secondary",
+    "_RetiredDisposition": 0.85,
     "Accuracy": 25,
     "Trigger": "Auto",
     "ExilusPolarity": "Madurai",
@@ -5604,7 +5673,7 @@
     ],
     "Family": "Velox",
     "AmmoMax": 520,
-    "Disposition": 0.85,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Pistols/TnOdaliskSmg/TnOdaliskAmmoEfficiencyMod",
       "/Lotus/Weapons/Tenno/Pistols/TnOdaliskSmg/TnOdaliskAmmoEfficiencySignatureMod",
@@ -5612,14 +5681,15 @@
     ]
   },
   "Kohmak": {
+    "Spool": 4,
     "Conclave": true,
     "_TooltipAttackDisplay": 2,
     "Class": "Shotgun Sidearm",
     "MaxRank": 30,
+    "Mastery": 5,
     "Traits": [
       "Grineer"
     ],
-    "Mastery": 5,
     "GripType": "GUN_ONE_HAND",
     "Users": [
       "Tusk Heavy Gunner"
@@ -5628,12 +5698,12 @@
     "Polarities": [
       "Vazarin"
     ],
-    "Spool": 4,
-    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrnKohmPistol/GrnKohmPistol",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrnKohmPistol/GrnKohmPistol",
     "SellPrice": 5000,
     "Magazine": 40,
     "Image": "Kohmak.png",
+    "_RetiredDisposition": 1.35,
     "Accuracy": 8,
     "Trigger": "Auto-Spool",
     "ExilusPolarity": "Naramon",
@@ -5701,18 +5771,19 @@
     ],
     "Family": "Kohmak",
     "AmmoMax": 210,
-    "Disposition": 1.35,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Akarius": {
+    "Slot": "Secondary",
     "Conclave": false,
     "_TooltipAttackDisplay": 2,
     "Class": "Dual Pistols",
     "MaxRank": 30,
+    "Magazine": 10,
     "Traits": [
       "Tenno"
     ],
-    "Magazine": 10,
     "GripType": "DUAL_GUN_GUN",
     "Users": {},
     "Introduced": "25.7",
@@ -5720,12 +5791,12 @@
       "Naramon",
       "Naramon"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/SapientPistol/SapientPistol",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/SapientPistol/SapientPistol",
     "Link": "Akarius",
     "AmmoType": "Secondary",
     "Mastery": 8,
+    "_RetiredDisposition": 1.05,
     "Accuracy": 26.7,
     "Trigger": "Burst",
     "ExilusPolarity": "Madurai",
@@ -5785,7 +5856,7 @@
     ],
     "Family": "Akarius",
     "AmmoMax": 20,
-    "Disposition": 1.05,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Pistols/SapientPistol/SapientPistolInnateUpgrade",
       "/Lotus/Weapons/Tenno/Pistols/SapientPistol/SapientPistoRunnerInnateUpgrade"
@@ -5797,20 +5868,21 @@
     "Class": "Pistol",
     "IncarnonChargeGain": 3,
     "MaxRank": 30,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Tenno"
     ],
+    "GripType": "GUN_ONE_HAND",
+    "Slot": "Secondary",
     "Introduced": "9.3",
     "Polarities": [
       "Madurai"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistol/RevolverPistol",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistol/RevolverPistol",
     "Magazine": 6,
-    "IncarnonImage": "VastoIncarnon.png",
     "Image": "Vasto.png",
+    "IncarnonImage": "VastoIncarnon.png",
+    "_RetiredDisposition": 1.4,
     "Accuracy": 16,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Naramon",
@@ -5875,7 +5947,7 @@
     ],
     "Family": "Vasto",
     "AmmoMax": 210,
-    "Disposition": 1.4,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Akjagara Prime": {
@@ -5883,22 +5955,23 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Dual Pistols",
     "MaxRank": 30,
-    "GripType": "DUAL_GUN_GUN",
     "Image": "AkjagaraPrime.png",
+    "GripType": "DUAL_GUN_GUN",
+    "Traits": [
+      "Prime",
+      "Vaulted"
+    ],
     "Introduced": "24.2.2",
     "Polarities": [
       "Madurai",
       "Madurai"
     ],
-    "Traits": [
-      "Prime",
-      "Vaulted"
-    ],
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeAkjagara/AkJagaraPrime",
     "Tradable": 2,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeAkjagara/AkJagaraPrime",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 40,
+    "_RetiredDisposition": 1,
     "Accuracy": 33.33,
     "Trigger": "Burst",
     "ExilusPolarity": "Naramon",
@@ -5934,7 +6007,7 @@
     ],
     "Family": "Akjagara",
     "AmmoMax": 320,
-    "Disposition": 1,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Balefire Charger": {
@@ -6056,6 +6129,7 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Dual Pistols",
     "MaxRank": 30,
+    "Image": "TwinGrakatas.png",
     "GripType": "DUAL_GUN_GUN",
     "Users": [
       "Clem"
@@ -6064,14 +6138,14 @@
     "Polarities": [
       "Naramon"
     ],
-    "Image": "TwinGrakatas.png",
-    "InternalName": "/Lotus/Weapons/Grineer/LongGuns/GrineerAssaultRifle/TwinGrakatas",
     "Traits": [
       "Grineer"
     ],
+    "InternalName": "/Lotus/Weapons/Grineer/LongGuns/GrineerAssaultRifle/TwinGrakatas",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 120,
+    "_RetiredDisposition": 1.2,
     "Accuracy": 28.6,
     "Trigger": "Auto",
     "ExilusPolarity": "Madurai",
@@ -6109,27 +6183,28 @@
     "AmmoType": "Secondary"
   },
   "Mk1-Kunai": {
+    "Mastery": 0,
     "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Thrown",
     "IncarnonChargeGain": 5,
-    "Mastery": 0,
     "Traits": [
       "Tenno"
     ],
-    "GripType": "DUAL_GUN_GUN",
     "Slot": "Secondary",
+    "GripType": "DUAL_GUN_GUN",
+    "SellPrice": 2500,
     "Introduced": "14.0",
     "Polarities": [
       "Madurai",
       "Madurai"
     ],
-    "SellPrice": 2500,
-    "InternalName": "/Lotus/Weapons/MK1Series/MK1Kunai",
     "Magazine": 10,
+    "InternalName": "/Lotus/Weapons/MK1Series/MK1Kunai",
     "Image": "Kunai.png",
-    "IncarnonImage": "KunaiIncarnon.png",
     "MaxRank": 30,
+    "IncarnonImage": "KunaiIncarnon.png",
+    "_RetiredDisposition": 1.51,
     "Accuracy": 100,
     "Trigger": "Auto",
     "ExilusPolarity": "Naramon",
@@ -6189,7 +6264,7 @@
     ],
     "Family": "Kunai",
     "AmmoMax": 210,
-    "Disposition": 1.51,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Epitaph Prime": {
@@ -6198,19 +6273,20 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "Magazine": 1,
-    "GripType": "GUN_ONE_HAND",
     "Tradable": 2,
+    "GripType": "GUN_ONE_HAND",
+    "Slot": "Secondary",
     "Introduced": "36.1",
     "Polarities": [
       "Madurai",
       "Madurai"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeEpitaph/PrimeEpitaphSidearmWeapon",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeEpitaph/PrimeEpitaphSidearmWeapon",
     "Link": "Epitaph Prime",
     "AmmoType": "Secondary",
     "Mastery": 14,
+    "_RetiredDisposition": 0.55,
     "Accuracy": 80,
     "Trigger": "Semi / Charge",
     "ExilusPolarity": "Naramon",
@@ -6304,7 +6380,7 @@
     ],
     "Family": "Epitaph",
     "AmmoMax": 40,
-    "Disposition": 0.55,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Pistols/TnWraitheSidearm/TnWraitheSidearmInnateUpgrade"
     ]
@@ -6315,20 +6391,21 @@
     "Class": "Dual Shotguns",
     "MaxRank": 30,
     "Mastery": 10,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Grineer"
     ],
+    "GripType": "GUN_ONE_HAND",
+    "Spool": 11,
     "Introduced": "16.0",
     "Polarities": [
       "Vazarin"
     ],
-    "Spool": 11,
-    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrnDWUniques/GrnTwinKohmaks",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrnDWUniques/GrnTwinKohmaks",
     "SellPrice": 5000,
     "Magazine": 80,
     "Image": "TwinKohmak.png",
+    "_RetiredDisposition": 1.25,
     "Accuracy": 5.7,
     "Trigger": "Auto-Spool",
     "ExilusPolarity": "Naramon",
@@ -6395,7 +6472,7 @@
     ],
     "Family": "Twin Kohmak",
     "AmmoMax": 240,
-    "Disposition": 1.25,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Viper Wraith": {
@@ -6404,22 +6481,23 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "Mastery": 4,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Grineer",
       "Wraith",
       "Baro"
     ],
+    "GripType": "GUN_ONE_HAND",
+    "Tradable": 1,
     "Introduced": "22.8.4",
     "Polarities": [
       "Naramon"
     ],
-    "Tradable": 1,
-    "InternalName": "/Lotus/Weapons/Grineer/Pistols/WraithSingleViper/WraithSingleViper",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Grineer/Pistols/WraithSingleViper/WraithSingleViper",
     "SellPrice": 5000,
     "Link": "Viper Wraith",
     "AmmoType": "Secondary",
+    "_RetiredDisposition": 1.4,
     "Accuracy": 28.6,
     "Trigger": "Auto",
     "ExilusPolarity": "Naramon",
@@ -6453,7 +6531,7 @@
     ],
     "Family": "Viper",
     "AmmoMax": 420,
-    "Disposition": 1.4,
+    "Disposition": 1.2,
     "CodexSecret": true
   },
   "Afuris": {
@@ -6461,6 +6539,7 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Dual Pistols",
     "MaxRank": 30,
+    "Image": "Afuris.png",
     "GripType": "DUAL_GUN_GUN",
     "Users": [
       "Valkyr Specter"
@@ -6469,14 +6548,14 @@
     "Polarities": [
       "Naramon"
     ],
-    "Image": "Afuris.png",
-    "InternalName": "/Lotus/Weapons/Tenno/Akimbo/AkimboAutoPistols",
     "Traits": [
       "Tenno"
     ],
+    "InternalName": "/Lotus/Weapons/Tenno/Akimbo/AkimboAutoPistols",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 70,
+    "_RetiredDisposition": 1.45,
     "Accuracy": 15.4,
     "Trigger": "Auto",
     "ExilusPolarity": "Naramon",
@@ -6510,7 +6589,7 @@
     ],
     "Family": "Afuris",
     "AmmoMax": 240,
-    "Disposition": 1.45,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Kuva Kraken": {
@@ -6519,19 +6598,20 @@
     "Class": "Pistol",
     "MaxRank": 40,
     "Magazine": 21,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Grineer",
       "Kuva Lich"
     ],
-    "Introduced": "26",
+    "GripType": "GUN_ONE_HAND",
     "Tradable": 3,
+    "Introduced": "26",
     "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Kraken/KuvaKraken",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Kraken/KuvaKraken",
     "IsLichWeapon": true,
     "AmmoType": "Secondary",
     "Mastery": 15,
+    "_RetiredDisposition": 1.1,
     "Accuracy": 16,
     "Trigger": "Burst / Mag Burst",
     "ExilusPolarity": "Madurai",
@@ -6593,34 +6673,35 @@
     ],
     "Family": "Kraken",
     "AmmoMax": 210,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
     ]
   },
   "Laetum": {
+    "Traits": [
+      "Zariman",
+      "Incarnon"
+    ],
     "Magazine": 12,
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "IncarnonChargeGain": 18,
-    "Traits": [
-      "Zariman",
-      "Incarnon"
-    ],
     "Tradable": 2,
-    "GripType": "GUN_ONE_HAND",
     "Slot": "Secondary",
+    "GripType": "GUN_ONE_HAND",
+    "SellPrice": 5000,
     "Introduced": "31.5",
     "Polarities": [
       "Madurai"
     ],
-    "SellPrice": 5000,
-    "InternalName": "/Lotus/Weapons/Tenno/Zariman/Pistols/HeavyPistol/ZarimanHeavyPistol",
     "Link": "Laetum",
+    "InternalName": "/Lotus/Weapons/Tenno/Zariman/Pistols/HeavyPistol/ZarimanHeavyPistol",
     "AmmoType": "Secondary",
     "MaxRank": 30,
     "Mastery": 14,
+    "_RetiredDisposition": 0.5,
     "Accuracy": 16,
     "Trigger": "Semi / Auto",
     "ExilusPolarity": "Naramon",
@@ -6699,7 +6780,7 @@
     ],
     "Family": "Laetum",
     "AmmoMax": 210,
-    "Disposition": 0.5,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Upgrades/Evolutions/Pistol/EvoPistolAmmoEfficiencyOnHeadshot",
       "/Lotus/Upgrades/Evolutions/Pistol/EvoPistolDamageOnNoCritAndNoProcHit",
@@ -6712,22 +6793,23 @@
     "Class": "Dual Pistols",
     "MaxRank": 30,
     "Image": "AksomatiPrime.png",
-    "GripType": "DUAL_GUN_GUN",
     "Traits": [
       "Prime"
     ],
+    "GripType": "DUAL_GUN_GUN",
+    "Tradable": 2,
     "Introduced": "27.0.4",
     "Polarities": [
       "Naramon",
       "Madurai",
       "Madurai"
     ],
-    "Tradable": 2,
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeAksomati/PrimeAksomati",
     "Spool": 11,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeAksomati/PrimeAksomati",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 80,
+    "_RetiredDisposition": 1.1,
     "Accuracy": 12.5,
     "Trigger": "Auto-Spool",
     "ExilusPolarity": "Naramon",
@@ -6761,7 +6843,7 @@
     ],
     "Family": "Aksomati",
     "AmmoMax": 880,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Kompressa": {
@@ -6770,20 +6852,21 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "Magazine": 12,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Tenno"
     ],
+    "GripType": "GUN_ONE_HAND",
+    "Slot": "Secondary",
     "Introduced": "30.5",
     "Polarities": [
       "Vazarin"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/TnYareliPistol/TnYareliPistolWeapon",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/TnYareliPistol/TnYareliPistolWeapon",
     "Link": "Kompressa",
     "AmmoType": "Secondary",
     "Mastery": 8,
+    "_RetiredDisposition": 1.15,
     "Accuracy": 3.8,
     "Trigger": "Auto",
     "ExilusPolarity": "Madurai",
@@ -6841,7 +6924,7 @@
     ],
     "Family": "Kompressa",
     "AmmoMax": 144,
-    "Disposition": 1.15,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Pistols/TnYareliPistol/TnYareliPistolInnateUpgrade"
     ]
@@ -6852,20 +6935,21 @@
     "Class": "Pistol",
     "IncarnonChargeGain": 14,
     "MaxRank": 30,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Tenno"
     ],
+    "GripType": "GUN_ONE_HAND",
+    "Slot": "Secondary",
     "Introduced": "14.0",
     "Polarities": [
       "Naramon"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/MK1Series/MK1Furis",
     "SellPrice": 2500,
+    "InternalName": "/Lotus/Weapons/MK1Series/MK1Furis",
     "Magazine": 35,
-    "IncarnonImage": "FurisIncarnon.png",
     "Image": "Furis.png",
+    "IncarnonImage": "FurisIncarnon.png",
+    "_RetiredDisposition": 1.4,
     "Accuracy": 22.2,
     "Trigger": "Auto",
     "ExilusPolarity": "Naramon",
@@ -6926,7 +7010,7 @@
     ],
     "Family": "Furis",
     "AmmoMax": 210,
-    "Disposition": 1.4,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Scyotid": {
@@ -6934,18 +7018,19 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Thrown",
     "MaxRank": 30,
-    "GripType": "DUAL_GUN_GUN",
     "Mastery": 12,
+    "GripType": "DUAL_GUN_GUN",
+    "Tradable": 0,
     "Introduced": "39",
     "Polarities": [
       "Naramon"
     ],
-    "Tradable": 0,
-    "InternalName": "/Lotus/Weapons/Tenno/ThrowingWeapons/TnOraxiaFlechette/TnOraxiaFlechette",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/ThrowingWeapons/TnOraxiaFlechette/TnOraxiaFlechette",
     "SellPrice": 5000,
     "Magazine": 40,
     "Image": "Scyotid.png",
+    "_RetiredDisposition": 0.75,
     "Accuracy": 100,
     "Trigger": "Auto / Semi",
     "ExilusPolarity": "Naramon",
@@ -7000,7 +7085,7 @@
     ],
     "Family": "Scyotid",
     "AmmoMax": 320,
-    "Disposition": 0.75,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Sonicor": {
@@ -7008,6 +7093,9 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "MaxRank": 30,
+    "Traits": [
+      "Corpus"
+    ],
     "Mastery": 2,
     "GripType": "GUN_ONE_HAND",
     "Users": [
@@ -7017,14 +7105,12 @@
     "Polarities": [
       "Vazarin"
     ],
-    "Traits": [
-      "Corpus"
-    ],
-    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CrpAirPistol/CrpAirPistolArray",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CrpAirPistol/CrpAirPistolArray",
     "SellPrice": 5000,
     "Magazine": 15,
     "Image": "Sonicor.png",
+    "_RetiredDisposition": 1.15,
     "Accuracy": 100,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Naramon",
@@ -7088,31 +7174,32 @@
     ],
     "Family": "Sonicor",
     "AmmoMax": 150,
-    "Disposition": 1.15,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Kompressa Prime": {
+    "Magazine": 12,
     "Conclave": false,
     "_TooltipAttackDisplay": 2,
     "Class": "Pistol",
     "MaxRank": 30,
-    "Magazine": 12,
     "Traits": [
       "Tenno"
     ],
-    "GripType": "GUN_ONE_HAND",
     "Tradable": 2,
+    "GripType": "GUN_ONE_HAND",
+    "Slot": "Secondary",
     "Introduced": "38.6",
     "Polarities": [
       "Vazarin",
       "Naramon"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeKompressa/PrimeKompressa",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeKompressa/PrimeKompressa",
     "Link": "Kompressa_Prime",
     "AmmoType": "Secondary",
     "Mastery": 13,
+    "_RetiredDisposition": 0.6,
     "Accuracy": 3.8,
     "Trigger": "Auto",
     "ExilusPolarity": "Madurai",
@@ -7170,7 +7257,7 @@
     ],
     "Family": "Kompressa",
     "AmmoMax": 144,
-    "Disposition": 0.6,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Pistols/TnYareliPistol/TnYareliPistolInnateUpgrade"
     ]
@@ -7180,20 +7267,21 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "MaxRank": 30,
-    "GripType": "GUN_ONE_HAND",
     "Mastery": 9,
+    "GripType": "GUN_ONE_HAND",
+    "Traits": [
+      "Infested"
+    ],
     "Introduced": "10.0",
     "Polarities": [
       "Naramon"
     ],
-    "Traits": [
-      "Infested"
-    ],
-    "InternalName": "/Lotus/Weapons/Infested/Pistols/InfestedPistol",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Infested/Pistols/InfestedPistol",
     "SellPrice": 5000,
     "Magazine": 33,
     "Image": "Embolist.png",
+    "_RetiredDisposition": 1.4,
     "Accuracy": 100,
     "Trigger": "Held",
     "ExilusPolarity": "Naramon",
@@ -7228,7 +7316,7 @@
     ],
     "Family": "Embolist",
     "AmmoMax": 210,
-    "Disposition": 1.4,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Zylok": {
@@ -7237,18 +7325,19 @@
     "Class": "Pistol",
     "IncarnonChargeGain": 1,
     "MaxRank": 30,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Tenno"
     ],
-    "Introduced": "23.6",
+    "GripType": "GUN_ONE_HAND",
     "Tradable": 1,
+    "Introduced": "23.6",
     "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/ConclaveLeverPistol/ConclaveLeverPistol",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/ConclaveLeverPistol/ConclaveLeverPistol",
     "Magazine": 8,
-    "IncarnonImage": "ZylokIncarnon.png",
     "Image": "Zylok.png",
+    "IncarnonImage": "ZylokIncarnon.png",
+    "_RetiredDisposition": 1.25,
     "Accuracy": 23.5,
     "Trigger": "Duplex",
     "ExilusPolarity": "Madurai",
@@ -7325,7 +7414,7 @@
     ],
     "Family": "Zylok",
     "AmmoMax": 210,
-    "Disposition": 1.25,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Zakti Prime": {
@@ -7334,22 +7423,23 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "Mastery": 14,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Prime"
     ],
+    "GripType": "GUN_ONE_HAND",
+    "Tradable": 2,
     "Introduced": "29.3",
     "Polarities": [
       "Naramon",
       "Naramon",
       "Madurai"
     ],
-    "Tradable": 2,
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeZakti/PrimeZaktiPistol",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeZakti/PrimeZaktiPistol",
     "SellPrice": 5000,
     "Magazine": 8,
     "Image": "ZaktiPrime.png",
+    "_RetiredDisposition": 1.1,
     "Accuracy": 26.7,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -7411,7 +7501,7 @@
     ],
     "Family": "Zakti",
     "AmmoMax": 210,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Zakti": {
@@ -7419,21 +7509,22 @@
     "_TooltipAttackDisplay": 2,
     "Class": "Pistol",
     "MaxRank": 30,
-    "GripType": "GUN_ONE_HAND",
     "Mastery": 10,
+    "GripType": "GUN_ONE_HAND",
+    "Traits": [
+      "Tenno"
+    ],
     "Introduced": "21.1",
     "Polarities": [
       "Naramon",
       "Naramon"
     ],
-    "Traits": [
-      "Tenno"
-    ],
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/TnGuandoPistol/TnGuandoPistolGun",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/TnGuandoPistol/TnGuandoPistolGun",
     "SellPrice": 5000,
     "Magazine": 3,
     "Image": "Zakti.png",
+    "_RetiredDisposition": 1.25,
     "Accuracy": 26.7,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -7495,7 +7586,7 @@
     ],
     "Family": "Zakti",
     "AmmoMax": 210,
-    "Disposition": 1.25,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Hystrix": {
@@ -7503,20 +7594,21 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "MaxRank": 30,
-    "GripType": "GUN_ONE_HAND",
     "Mastery": 7,
+    "GripType": "GUN_ONE_HAND",
+    "Traits": [
+      "Tenno"
+    ],
     "Introduced": "22.18",
     "Polarities": [
       "Madurai"
     ],
-    "Traits": [
-      "Tenno"
-    ],
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/QuillDartgun/QuillDartGunWeapon",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/QuillDartgun/QuillDartGunWeapon",
     "SellPrice": 5000,
     "Link": "Hystrix",
     "AmmoType": "Secondary",
+    "_RetiredDisposition": 1.2,
     "Accuracy": 14.3,
     "Trigger": "Auto",
     "ExilusPolarity": "Naramon",
@@ -7635,6 +7727,7 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "MaxRank": 30,
+    "Image": "Viper.png",
     "GripType": "GUN_ONE_HAND",
     "Users": [
       "Shield Lancer",
@@ -7644,14 +7737,14 @@
     "Polarities": [
       "Naramon"
     ],
-    "Image": "Viper.png",
-    "InternalName": "/Lotus/Weapons/Grineer/GrineerPistol/GrineerLightPistol",
     "Traits": [
       "Grineer"
     ],
+    "InternalName": "/Lotus/Weapons/Grineer/GrineerPistol/GrineerLightPistol",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 14,
+    "_RetiredDisposition": 1.45,
     "Accuracy": 15.4,
     "Trigger": "Auto",
     "ExilusPolarity": "Naramon",
@@ -7685,7 +7778,7 @@
     ],
     "Family": "Viper",
     "AmmoMax": 420,
-    "Disposition": 1.45,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Vesper 77": {
@@ -7693,6 +7786,7 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "MaxRank": 30,
+    "Traits": {},
     "Image": "Vesper77.png",
     "GripType": "GUN_ONE_HAND",
     "Users": [
@@ -7704,12 +7798,12 @@
       "Madurai",
       "Naramon"
     ],
-    "Traits": {},
-    "InternalName": "/Lotus/Weapons/Lasria/LasSilencedPistol/LasSilencedPistolWeapon",
     "Tradable": 4,
+    "InternalName": "/Lotus/Weapons/Lasria/LasSilencedPistol/LasSilencedPistolWeapon",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 8,
+    "_RetiredDisposition": 0.8,
     "Accuracy": 16,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "",
@@ -7742,19 +7836,20 @@
     ],
     "Family": "Vesper 77",
     "AmmoMax": 210,
-    "Disposition": 0.8,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Vaykor Marelok": {
+    "Tradable": 1,
     "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "MaxRank": 30,
+    "Image": "VaykorMarelok.png",
     "Traits": [
       "Syndicate",
       "Steel Meridian"
     ],
-    "Image": "VaykorMarelok.png",
     "GripType": "GUN_ONE_HAND",
     "Users": [
       "Steel Meridian Operatives"
@@ -7764,12 +7859,12 @@
       "Madurai",
       "Vazarin"
     ],
-    "Tradable": 1,
-    "InternalName": "/Lotus/Weapons/Syndicates/SteelMeridian/Pistols/SMMarelok",
     "SyndicateEffect": "Justice",
+    "InternalName": "/Lotus/Weapons/Syndicates/SteelMeridian/Pistols/SMMarelok",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 10,
+    "_RetiredDisposition": 1.1,
     "Accuracy": 10,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -7803,7 +7898,7 @@
     ],
     "Family": "Marelok",
     "AmmoMax": 210,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Fusilai": {
@@ -7812,20 +7907,21 @@
     "Class": "Thrown",
     "MaxRank": 30,
     "Magazine": 6,
-    "GripType": "DUAL_GUN_GUN",
     "Traits": [
       "Tenno"
     ],
+    "GripType": "DUAL_GUN_GUN",
+    "Slot": "Secondary",
     "Introduced": "22",
     "Polarities": [
       "Madurai"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Tenno/ThrowingWeapons/GlassKunai/GlassKunaiWeapon",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/ThrowingWeapons/GlassKunai/GlassKunaiWeapon",
     "Link": "Fusilai",
     "AmmoType": "Secondary",
     "Mastery": 7,
+    "_RetiredDisposition": 1.35,
     "Accuracy": 100,
     "Trigger": "Auto / Semi",
     "ExilusPolarity": "Madurai",
@@ -7882,7 +7978,7 @@
     ],
     "Family": "Fusilai",
     "AmmoMax": 72,
-    "Disposition": 1.35,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/ThrowingWeapons/GlassKunai/GlassKunaiInnateUpgrade"
     ]
@@ -7893,16 +7989,17 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "GripType": "GUN_ONE_HAND",
-    "Introduced": "11.7",
     "Mastery": 9,
+    "Introduced": "11.7",
     "Traits": [
       "Infested"
     ],
-    "InternalName": "/Lotus/Weapons/Infested/Pistols/InfestedDartPistol/InfestedDartPistol",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Infested/Pistols/InfestedDartPistol/InfestedDartPistol",
     "SellPrice": 5000,
     "Magazine": 11,
     "Image": "Tysis.png",
+    "_RetiredDisposition": 1.45,
     "Accuracy": 100,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -7955,31 +8052,32 @@
     ],
     "Family": "Tysis",
     "AmmoMax": 210,
-    "Disposition": 1.45,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Dual Toxocyst": {
+    "Mastery": 11,
     "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Dual Pistols",
     "IncarnonChargeGain": 30,
-    "Mastery": 11,
     "Traits": [
       "Infested"
     ],
-    "GripType": "DUAL_GUN_GUN",
     "Slot": "Secondary",
+    "GripType": "DUAL_GUN_GUN",
+    "SellPrice": 5000,
     "Introduced": "18.5",
     "Polarities": [
       "Madurai",
       "Naramon"
     ],
-    "SellPrice": 5000,
-    "InternalName": "/Lotus/Weapons/Infested/Pistols/InfVomitGun/InfVomitGunWep",
     "Link": "Dual Toxocyst",
+    "InternalName": "/Lotus/Weapons/Infested/Pistols/InfVomitGun/InfVomitGunWep",
     "AmmoType": "Secondary",
-    "IncarnonImage": "DualToxocystIncarnon.png",
     "MaxRank": 30,
+    "IncarnonImage": "DualToxocystIncarnon.png",
+    "_RetiredDisposition": 1.35,
     "Accuracy": 16,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Naramon",
@@ -8036,31 +8134,32 @@
     ],
     "Family": "Dual Toxocyst",
     "AmmoMax": 72,
-    "Disposition": 1.35,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Infested/Pistols/InfVomitGun/FireRateOnHeadshotPistolMod"
     ]
   },
   "Bronco Prime": {
+    "Mastery": 4,
     "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Shotgun Sidearm",
     "IncarnonChargeGain": 0.5,
-    "Mastery": 4,
     "Traits": [
       "Prime",
       "Never Vaulted"
     ],
-    "GripType": "GUN_ONE_HAND",
     "Tradable": 2,
-    "Introduced": "9.0",
+    "GripType": "GUN_ONE_HAND",
     "Slot": "Secondary",
+    "Introduced": "9.0",
     "SellPrice": 5000,
-    "InternalName": "/Lotus/Weapons/Tenno/Pistol/BroncoPrime",
     "Magazine": 4,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistol/BroncoPrime",
     "Image": "BroncoPrime.png",
-    "IncarnonImage": "BroncoPrimeIncarnon.png",
     "MaxRank": 30,
+    "IncarnonImage": "BroncoPrimeIncarnon.png",
+    "_RetiredDisposition": 1.4,
     "Accuracy": 3.7,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -8129,7 +8228,7 @@
     ],
     "Family": "Bronco",
     "AmmoMax": 210,
-    "Disposition": 1.4,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Furis": {
@@ -8138,20 +8237,21 @@
     "Class": "Pistol",
     "IncarnonChargeGain": 14,
     "MaxRank": 30,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Tenno"
     ],
+    "GripType": "GUN_ONE_HAND",
+    "Slot": "Secondary",
     "Introduced": "Vanilla",
     "Polarities": [
       "Naramon"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistol/AutoPistol",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistol/AutoPistol",
     "Magazine": 35,
-    "IncarnonImage": "FurisIncarnon.png",
     "Image": "Furis.png",
+    "IncarnonImage": "FurisIncarnon.png",
+    "_RetiredDisposition": 1.35,
     "Accuracy": 22.2,
     "Trigger": "Auto",
     "ExilusPolarity": "Madurai",
@@ -8212,7 +8312,7 @@
     ],
     "Family": "Furis",
     "AmmoMax": 210,
-    "Disposition": 1.35,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Twin Vipers Wraith": {
@@ -8221,22 +8321,23 @@
     "Class": "Dual Pistols",
     "MaxRank": 30,
     "Mastery": 7,
-    "GripType": "DUAL_GUN_GUN",
     "Traits": [
       "Wraith",
       "Invasion Reward",
       "Grineer"
     ],
+    "GripType": "DUAL_GUN_GUN",
+    "Tradable": 2,
     "Introduced": "11.5",
     "Polarities": [
       "Naramon"
     ],
-    "Tradable": 2,
-    "InternalName": "/Lotus/Weapons/Grineer/Pistols/WraithTwinVipers/WraithTwinVipers",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Grineer/Pistols/WraithTwinVipers/WraithTwinVipers",
     "SellPrice": 5000,
     "Link": "Twin Vipers Wraith",
     "AmmoType": "Secondary",
+    "_RetiredDisposition": 1.41,
     "Accuracy": 11.1,
     "Trigger": "Auto",
     "ExilusPolarity": "Madurai",
@@ -8270,7 +8371,7 @@
     ],
     "Family": "Twin Vipers",
     "AmmoMax": 440,
-    "Disposition": 1.41,
+    "Disposition": 1.2,
     "CodexSecret": true
   },
   "Lato": {
@@ -8278,18 +8379,19 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "IncarnonChargeGain": 4,
-    "GripType": "GUN_ONE_HAND",
     "MaxRank": 30,
-    "Introduced": "Vanilla",
+    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Tenno"
     ],
+    "Introduced": "Vanilla",
     "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistol/Pistol",
     "SellPrice": 2500,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistol/Pistol",
     "Magazine": 15,
-    "IncarnonImage": "LatoIncarnon.png",
     "Image": "Lato.png",
+    "IncarnonImage": "LatoIncarnon.png",
+    "_RetiredDisposition": 1.4,
     "Accuracy": 18.2,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -8346,47 +8448,51 @@
     ],
     "Family": "Lato",
     "AmmoMax": 210,
-    "Disposition": 1.4,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Rakta Ballistica": {
-    "Traits": [
-      "Syndicate",
-      "Red Veil"
-    ],
-    "Slot": "Secondary",
-    "Mastery": 6,
-    "Conclave": true,
-    "_TooltipAttackDisplay": 2,
-    "Class": "Crossbow",
     "IncarnonChargeGain": 1.5,
-    "Tradable": 1,
-    "SyndicateEffect": "Blight",
     "GripType": "GUN_ONE_HAND",
-    "Users": [
-      "Red Veil Operatives"
-    ],
     "Introduced": "15.5",
     "Polarities": [
       "Vazarin",
       "Madurai"
     ],
-    "SellPrice": 5000,
     "InternalName": "/Lotus/Weapons/Syndicates/RedVeil/Pistols/RVBallistica",
-    "Magazine": 20,
-    "Image": "RaktaBallistica.png",
-    "IncarnonImage": "RaktaBallisticaIncarnon.png",
-    "MaxRank": 30,
+    "_RetiredDisposition": 1.2,
     "Accuracy": 4,
-    "Trigger": "Burst / Charge",
     "ExilusPolarity": "Naramon",
+    "Family": "Ballistica",
+    "AmmoMax": 210,
+    "Disposition": 1.2,
+    "Conclave": true,
+    "_TooltipAttackDisplay": 2,
+    "Class": "Crossbow",
+    "Image": "RaktaBallistica.png",
+    "Users": [
+      "Red Veil Operatives"
+    ],
+    "Slot": "Secondary",
+    "SyndicateEffect": "Blight",
+    "IncarnonImage": "RaktaBallisticaIncarnon.png",
+    "Tradable": 1,
+    "Traits": [
+      "Syndicate",
+      "Red Veil"
+    ],
+    "Trigger": "Burst / Charge",
+    "SellPrice": 5000,
     "CompatibilityTags": [
       "PROJECTILE"
     ],
     "Reload": 2,
     "AmmoPickup": 40,
-    "Link": "Rakta Ballistica",
+    "MaxRank": 30,
     "Name": "Rakta Ballistica",
+    "Magazine": 20,
+    "Mastery": 6,
+    "Link": "Rakta Ballistica",
     "Attacks": [
       {
         "CritChance": 0.05,
@@ -8460,9 +8566,6 @@
         }
       }
     ],
-    "Family": "Ballistica",
-    "AmmoMax": 210,
-    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Magnus": {
@@ -8470,6 +8573,7 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "MaxRank": 30,
+    "Image": "Magnus.png",
     "GripType": "GUN_ONE_HAND",
     "Users": [
       "Volt Specter",
@@ -8479,14 +8583,14 @@
     "Polarities": [
       "Madurai"
     ],
-    "Image": "Magnus.png",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/Magnum/Magnum",
     "Traits": [
       "Tenno"
     ],
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/Magnum/Magnum",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 8,
+    "_RetiredDisposition": 1.53,
     "Accuracy": 16,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Naramon",
@@ -8520,7 +8624,7 @@
     ],
     "Family": "Magnus",
     "AmmoMax": 210,
-    "Disposition": 1.53,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Twin Rogga": {
@@ -8528,6 +8632,9 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Dual Shotguns",
     "MaxRank": 30,
+    "Traits": [
+      "Grineer"
+    ],
     "Mastery": 9,
     "GripType": "GUN_ONE_HAND",
     "Users": [
@@ -8538,14 +8645,12 @@
       "Naramon",
       "Madurai"
     ],
-    "Traits": [
-      "Grineer"
-    ],
-    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrnQueenGuardDualPistol/GrnQueenGuardDualPistols",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrnQueenGuardDualPistol/GrnQueenGuardDualPistols",
     "SellPrice": 5000,
     "Magazine": 2,
     "Image": "TwinRogga.png",
+    "_RetiredDisposition": 1.3,
     "Accuracy": 8,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -8586,7 +8691,7 @@
     ],
     "Family": "Twin Rogga",
     "AmmoMax": 120,
-    "Disposition": 1.3,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Twin Gremlins": {
@@ -8594,20 +8699,21 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Dual Pistols",
     "MaxRank": 30,
-    "GripType": "DUAL_GUN_GUN",
     "Mastery": 5,
+    "GripType": "DUAL_GUN_GUN",
+    "Traits": [
+      "Grineer"
+    ],
     "Introduced": "9.5",
     "Polarities": [
       "Madurai"
     ],
-    "Traits": [
-      "Grineer"
-    ],
-    "InternalName": "/Lotus/Weapons/Grineer/GrineerPistol/GrineerAkimboPistol",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Grineer/GrineerPistol/GrineerAkimboPistol",
     "SellPrice": 5000,
     "Magazine": 30,
     "Image": "TwinGremlins.png",
+    "_RetiredDisposition": 1.2,
     "Accuracy": 16.7,
     "Trigger": "Auto",
     "ExilusPolarity": "Naramon",
@@ -8652,19 +8758,20 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "Mastery": 10,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Corpus",
       "Vandal"
     ],
+    "GripType": "GUN_ONE_HAND",
+    "Tradable": 2,
     "Introduced": "25.0",
     "Polarities": {},
-    "Tradable": 2,
-    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CorpusModularPistol/Vandal/CrpLaserPistolVandal",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CorpusModularPistol/Vandal/CrpLaserPistolVandal",
     "SellPrice": 5000,
     "Magazine": 80,
     "Image": "SpectraVandal.png",
+    "_RetiredDisposition": 1.45,
     "Accuracy": 100,
     "Trigger": "Held",
     "ExilusPolarity": "Madurai",
@@ -8699,7 +8806,7 @@
     ],
     "Family": "Spectra",
     "AmmoMax": 400,
-    "Disposition": 1.45,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Tenet Plinx": {
@@ -8711,11 +8818,12 @@
       "Madurai"
     ],
     "InternalName": "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBEPlinx/CrpBEPlinxWeapon",
+    "_RetiredDisposition": 0.8,
     "Accuracy": 50,
     "ExilusPolarity": "Madurai",
     "Family": "Plinx",
     "AmmoMax": 0,
-    "Disposition": 0.8,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
     ],
@@ -8823,26 +8931,27 @@
     "AmmoType": "None"
   },
   "Tenet Detron": {
+    "Traits": [
+      "Corpus",
+      "Tenet"
+    ],
     "Link": "Tenet Detron",
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
     "Class": "Shotgun Sidearm",
     "MaxRank": 40,
-    "Traits": [
-      "Corpus",
-      "Tenet"
-    ],
     "Tradable": 3,
-    "GripType": "GUN_ONE_HAND",
     "Slot": "Secondary",
+    "GripType": "GUN_ONE_HAND",
+    "SellPrice": 5000,
     "Introduced": "30.5",
     "Polarities": {},
-    "SellPrice": 5000,
-    "InternalName": "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBEDetron/CrpBEDetron",
     "IsLichWeapon": true,
+    "InternalName": "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBEDetron/CrpBEDetron",
     "AmmoType": "Secondary",
     "Mastery": 16,
     "Magazine": 6,
+    "_RetiredDisposition": 1,
     "Accuracy": 20,
     "Trigger": "Semi-Auto / Mag Burst",
     "ExilusPolarity": "Madurai",
@@ -8908,7 +9017,7 @@
     ],
     "Family": "Detron",
     "AmmoMax": 210,
-    "Disposition": 1,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
     ]
@@ -9032,21 +9141,22 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Dual Pistols",
     "MaxRank": 40,
-    "GripType": "DUAL_GUN_GUN",
     "Mastery": 17,
-    "Introduced": "38.5",
-    "Polarities": [
-      "Naramon"
-    ],
+    "GripType": "DUAL_GUN_GUN",
     "Traits": [
       "Infested",
       "Technocyte Coda"
     ],
-    "InternalName": "/Lotus/Weapons/Infested/InfestedLich/Pistols/1999InfSporePistol/1999InfSporePistolWeapon",
+    "Introduced": "38.5",
+    "Polarities": [
+      "Naramon"
+    ],
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Infested/InfestedLich/Pistols/1999InfSporePistol/1999InfSporePistolWeapon",
     "SellPrice": 5000,
     "Link": "Dual Coda Torxica",
     "Image": "DualCodaTorxica.png",
+    "_RetiredDisposition": 0.55,
     "Accuracy": 100,
     "Trigger": "Auto",
     "ExilusPolarity": "Madurai",
@@ -9078,20 +9188,21 @@
     ],
     "Family": "Dual Torxica",
     "AmmoMax": 480,
-    "Disposition": 0.55,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Sancti Castanas": {
-    "Tradable": 1,
+    "Mastery": 10,
+    "SyndicateEffect": "Purity",
     "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Thrown",
     "MaxRank": 30,
-    "Mastery": 10,
     "Traits": [
       "Syndicate",
       "New Loka"
     ],
+    "Tradable": 1,
     "GripType": "DUAL_GUN_GUN",
     "Users": [
       "New Loka Operatives"
@@ -9102,12 +9213,12 @@
       "Madurai",
       "Vazarin"
     ],
-    "SyndicateEffect": "Purity",
-    "InternalName": "/Lotus/Weapons/Syndicates/NewLoka/Pistols/NLCastanas",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Syndicates/NewLoka/Pistols/NLCastanas",
     "SellPrice": 5000,
     "Magazine": 2,
     "Image": "SanctiCastanas.png",
+    "_RetiredDisposition": 1.35,
     "Accuracy": 100,
     "Trigger": "Active",
     "ExilusPolarity": "Naramon",
@@ -9177,7 +9288,7 @@
     ],
     "Family": "Castanas",
     "AmmoMax": 18,
-    "Disposition": 1.35,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Dex Furis": {
@@ -9186,18 +9297,19 @@
     "Class": "Dual Pistols",
     "MaxRank": 30,
     "GripType": "DUAL_GUN_GUN",
+    "Image": "DexFuris.png",
     "Introduced": "12.6",
     "Polarities": [
       "Naramon"
     ],
-    "Image": "DexFuris.png",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/DexFuris/DexFuris",
     "Traits": [
       "Tenno"
     ],
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/DexFuris/DexFuris",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 100,
+    "_RetiredDisposition": 1.39,
     "Accuracy": 15.4,
     "Trigger": "Auto",
     "ExilusPolarity": "Naramon",
@@ -9231,7 +9343,7 @@
     ],
     "Family": "Afuris",
     "AmmoMax": 400,
-    "Disposition": 1.39,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Tenet Cycron": {
@@ -9243,11 +9355,12 @@
       "Naramon"
     ],
     "InternalName": "/Lotus/Weapons/Corpus/BoardExec/Secondary/CrpBECycron/CrpBECycron",
+    "_RetiredDisposition": 0.7,
     "Accuracy": 100,
     "ExilusPolarity": "Naramon",
     "Family": "Cycron",
     "AmmoMax": 0,
-    "Disposition": 0.7,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
     ],
@@ -9305,21 +9418,22 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "MaxRank": 30,
-    "GripType": "GUN_ONE_HAND",
     "Image": "Riot-848.png",
-    "Introduced": "38.5",
-    "Polarities": [
-      "Madurai"
-    ],
+    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Tenno",
       "Entrati"
     ],
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/1999EntHybridPistolWeapon/1999EntHybridPistolWeapon",
+    "Introduced": "38.5",
+    "Polarities": [
+      "Madurai"
+    ],
     "Tradable": 0,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/1999EntHybridPistolWeapon/1999EntHybridPistolWeapon",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 16,
+    "_RetiredDisposition": 1,
     "Accuracy": 23.53,
     "Trigger": "Auto",
     "ExilusPolarity": "",
@@ -9372,29 +9486,30 @@
     ],
     "Family": "Riot-848",
     "AmmoMax": 0,
-    "Disposition": 1,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Kuva Seer": {
+    "Link": "Kuva Seer",
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "MaxRank": 40,
-    "Link": "Kuva Seer",
     "Traits": [
       "Grineer",
       "Kuva Lich"
     ],
-    "GripType": "GUN_ONE_HAND",
     "Tradable": 3,
-    "Introduced": "26",
+    "GripType": "GUN_ONE_HAND",
     "Slot": "Secondary",
+    "Introduced": "26",
     "SellPrice": 5000,
-    "InternalName": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Seer/KuvaSeer",
     "IsLichWeapon": true,
+    "InternalName": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Seer/KuvaSeer",
     "AmmoType": "Secondary",
     "Mastery": 15,
     "Magazine": 9,
+    "_RetiredDisposition": 1.1,
     "Accuracy": 16,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -9452,7 +9567,7 @@
     ],
     "Family": "Seer",
     "AmmoMax": 27,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
     ]
@@ -9462,21 +9577,22 @@
     "_TooltipAttackDisplay": 2,
     "Class": "Thrown",
     "MaxRank": 30,
-    "GripType": "DUAL_GUN_GUN",
     "Mastery": 8,
+    "GripType": "DUAL_GUN_GUN",
+    "Traits": [
+      "Tenno"
+    ],
     "Introduced": "18.0",
     "Polarities": [
       "Madurai",
       "Madurai"
     ],
-    "Traits": [
-      "Tenno"
-    ],
-    "InternalName": "/Lotus/Weapons/Tenno/ThrowingWeapons/U18ThrowingKnives/U18throwingknives",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/ThrowingWeapons/U18ThrowingKnives/U18throwingknives",
     "SellPrice": 5000,
     "Magazine": 4,
     "Image": "Talons.png",
+    "_RetiredDisposition": 1.44,
     "Accuracy": 100,
     "Trigger": "Active",
     "ExilusPolarity": "Madurai",
@@ -9548,18 +9664,19 @@
     ],
     "Family": "Talons",
     "AmmoMax": 12,
-    "Disposition": 1.44,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Stug": {
+    "Slot": "Secondary",
     "Conclave": true,
     "_TooltipAttackDisplay": 2,
     "Class": "Pistol",
     "MaxRank": 30,
+    "Mastery": 2,
     "Traits": [
       "Grineer"
     ],
-    "Mastery": 2,
     "GripType": "GUN_ONE_HAND",
     "Users": [
       "Artificer"
@@ -9568,12 +9685,12 @@
     "Polarities": [
       "Vazarin"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrineerCrossbow/GrineerGooGun",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrineerCrossbow/GrineerGooGun",
     "Magazine": 20,
-    "IncarnonImage": "StugIncarnon.png",
     "Image": "Stug.png",
+    "IncarnonImage": "StugIncarnon.png",
+    "_RetiredDisposition": 1.48,
     "Accuracy": 100,
     "Trigger": "Auto / Charge",
     "ExilusPolarity": "Madurai",
@@ -9704,7 +9821,7 @@
     ],
     "Family": "Stug",
     "AmmoMax": 210,
-    "Disposition": 1.48,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Akmagnus": {
@@ -9715,13 +9832,14 @@
     "GripType": "DUAL_GUN_GUN",
     "Introduced": "11.9",
     "Image": "Akmagnus.png",
-    "InternalName": "/Lotus/Weapons/Tenno/Akimbo/DualMagnus",
     "Traits": [
       "Tenno"
     ],
+    "InternalName": "/Lotus/Weapons/Tenno/Akimbo/DualMagnus",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 16,
+    "_RetiredDisposition": 1.35,
     "Accuracy": 11.1,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -9755,31 +9873,32 @@
     ],
     "Family": "Akmagnus",
     "AmmoMax": 210,
-    "Disposition": 1.35,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Kuva Twin Stubbas": {
+    "Magazine": 114,
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
     "Class": "Dual Pistols",
     "MaxRank": 40,
-    "Magazine": 114,
     "Traits": [
       "Grineer",
       "Kuva Lich"
     ],
-    "GripType": "DUAL_GUN_GUN",
     "Tradable": 3,
+    "GripType": "DUAL_GUN_GUN",
+    "Slot": "Secondary",
     "Introduced": "26",
     "Polarities": [
       "Madurai"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Stubba/KuvaStubba",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Grineer/KuvaLich/Secondaries/Stubba/KuvaStubba",
     "IsLichWeapon": true,
     "AmmoType": "Secondary",
     "Mastery": 13,
+    "_RetiredDisposition": 1,
     "Accuracy": 36.4,
     "Trigger": "Auto",
     "ExilusPolarity": "Madurai",
@@ -9813,7 +9932,7 @@
     ],
     "Family": "Kuva Twin Stubbas",
     "AmmoMax": 684,
-    "Disposition": 1,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod"
     ]
@@ -9826,13 +9945,14 @@
     "GripType": "GUN_ONE_HAND",
     "Introduced": "22",
     "Image": "Stubba.png",
-    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrnUzi/GrnUziWeapon",
     "Traits": [
       "Grineer"
     ],
+    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrnUzi/GrnUziWeapon",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 57,
+    "_RetiredDisposition": 1.35,
     "Accuracy": 16,
     "Trigger": "Auto",
     "ExilusPolarity": "Madurai",
@@ -9866,33 +9986,34 @@
     ],
     "Family": "Stubba",
     "AmmoMax": 399,
-    "Disposition": 1.35,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Tenet Spirex": {
+    "Traits": [
+      "Corpus",
+      "Tenet"
+    ],
     "Link": "Tenet Spirex",
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "MaxRank": 40,
-    "Traits": [
-      "Corpus",
-      "Tenet"
-    ],
     "Tradable": 3,
-    "GripType": "GUN_ONE_HAND",
     "Slot": "Secondary",
+    "GripType": "GUN_ONE_HAND",
+    "SellPrice": 5000,
     "Introduced": "30.5",
     "Polarities": [
       "Madurai",
       "Madurai"
     ],
-    "SellPrice": 5000,
-    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CrpIgniterPistol/CrpIgniterPistol",
     "IsLichWeapon": true,
+    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CrpIgniterPistol/CrpIgniterPistol",
     "AmmoType": "Secondary",
     "Mastery": 14,
     "Magazine": 8,
+    "_RetiredDisposition": 1.05,
     "Accuracy": 12.5,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "None",
@@ -9954,7 +10075,7 @@
     ],
     "Family": "Tenet Spirex",
     "AmmoMax": 80,
-    "Disposition": 1.05,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Grineer/KuvaLich/Upgrades/InnateDamageRandomMod",
       "/Lotus/Weapons/Corpus/Pistols/CrpIgniterPistol/CrpIgniterPistolInnateMod"
@@ -9965,21 +10086,22 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Thrown",
     "MaxRank": 30,
-    "GripType": "DUAL_GUN_GUN",
     "Mastery": 9,
+    "GripType": "DUAL_GUN_GUN",
+    "Traits": [
+      "Infested"
+    ],
     "Introduced": "Update: The Silver Grove",
     "Polarities": [
       "Madurai",
       "Madurai"
     ],
-    "Traits": [
-      "Infested"
-    ],
-    "InternalName": "/Lotus/Weapons/Infested/Pistols/InfProximityStars/InfProximityStars",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Infested/Pistols/InfProximityStars/InfProximityStars",
     "SellPrice": 5000,
     "Magazine": 4,
     "Image": "Pox.png",
+    "_RetiredDisposition": 1.2,
     "Accuracy": 100,
     "Trigger": "Auto",
     "ExilusPolarity": "Naramon",
@@ -10042,14 +10164,15 @@
     "AmmoType": "Secondary"
   },
   "Lex": {
+    "Slot": "Secondary",
     "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "IncarnonChargeGain": 2,
+    "MaxRank": 30,
     "Traits": [
       "Tenno"
     ],
-    "MaxRank": 30,
     "GripType": "GUN_ONE_HAND",
     "Users": [
       "Maroo"
@@ -10058,12 +10181,12 @@
     "Polarities": [
       "Madurai"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistol/HeavyPistol",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistol/HeavyPistol",
     "Magazine": 6,
-    "IncarnonImage": "LexIncarnon.png",
     "Image": "Lex.png",
+    "IncarnonImage": "LexIncarnon.png",
+    "_RetiredDisposition": 1.25,
     "Accuracy": 16,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Naramon",
@@ -10120,7 +10243,7 @@
     ],
     "Family": "Lex",
     "AmmoMax": 210,
-    "Disposition": 1.25,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Regulators Prime": {
@@ -10188,6 +10311,10 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "MaxRank": 30,
+    "Traits": [
+      "Corpus",
+      "Sentient"
+    ],
     "Mastery": 8,
     "GripType": "GUN_ONE_HAND",
     "Users": [
@@ -10195,15 +10322,12 @@
     ],
     "Introduced": "25.0",
     "Polarities": {},
-    "Traits": [
-      "Corpus",
-      "Sentient"
-    ],
-    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CrpSentAmalgPistol/CrpSentAmalgPistol",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CrpSentAmalgPistol/CrpSentAmalgPistol",
     "SellPrice": 5000,
     "Magazine": 11,
     "Image": "Cyanex.png",
+    "_RetiredDisposition": 1,
     "Accuracy": 1.8,
     "Trigger": "Auto / Mag Burst",
     "ExilusPolarity": "Madurai",
@@ -10284,7 +10408,7 @@
     ],
     "Family": "Cyanex",
     "AmmoMax": 210,
-    "Disposition": 1,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Spectra": {
@@ -10293,16 +10417,17 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "GripType": "GUN_ONE_HAND",
-    "Introduced": "9.0",
     "Mastery": 4,
+    "Introduced": "9.0",
     "Traits": [
       "Corpus"
     ],
-    "InternalName": "/Lotus/Weapons/ClanTech/Energy/CrpLaserPistol",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/ClanTech/Energy/CrpLaserPistol",
     "SellPrice": 5000,
     "Magazine": 60,
     "Image": "Spectra.png",
+    "_RetiredDisposition": 1.49,
     "Accuracy": 100,
     "Trigger": "Held",
     "ExilusPolarity": "Madurai",
@@ -10337,7 +10462,7 @@
     ],
     "Family": "Spectra",
     "AmmoMax": 360,
-    "Disposition": 1.49,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Sicarus": {
@@ -10346,20 +10471,21 @@
     "Class": "Pistol",
     "IncarnonChargeGain": 10,
     "MaxRank": 30,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Tenno"
     ],
+    "GripType": "GUN_ONE_HAND",
+    "Slot": "Secondary",
     "Introduced": "Vanilla",
     "Polarities": [
       "Madurai"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistol/BurstPistol",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistol/BurstPistol",
     "Magazine": 15,
-    "IncarnonImage": "SicarusIncarnon.png",
     "Image": "Sicarus.png",
+    "IncarnonImage": "SicarusIncarnon.png",
+    "_RetiredDisposition": 1.2,
     "Accuracy": 20,
     "Trigger": "Burst",
     "ExilusPolarity": "Naramon",
@@ -10433,13 +10559,14 @@
       "Naramon",
       "Madurai"
     ],
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/SundialGun/SundialPistol",
     "Image": "Azima.png",
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/SundialGun/SundialPistol",
     "Traits": [
       "Tenno"
     ],
     "Slot": "Secondary",
     "Magazine": 75,
+    "_RetiredDisposition": 1.25,
     "Accuracy": 22.2,
     "Trigger": "Auto",
     "ExilusPolarity": "Madurai",
@@ -10488,7 +10615,7 @@
     ],
     "Family": "Azima",
     "AmmoMax": 525,
-    "Disposition": 1.25,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Kraken": {
@@ -10503,13 +10630,14 @@
     ],
     "Introduced": "6.3",
     "Image": "Kraken.png",
-    "InternalName": "/Lotus/Weapons/Grineer/GrineerPistol/GrnHeavyPistol",
     "Traits": [
       "Grineer"
     ],
+    "InternalName": "/Lotus/Weapons/Grineer/GrineerPistol/GrnHeavyPistol",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 14,
+    "_RetiredDisposition": 1.53,
     "Accuracy": 16,
     "Trigger": "Burst",
     "ExilusPolarity": "Madurai",
@@ -10545,31 +10673,32 @@
     ],
     "Family": "Kraken",
     "AmmoMax": 210,
-    "Disposition": 1.53,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Coda Catabolyst": {
+    "Link": "Coda Catabolyst",
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "MaxRank": 40,
-    "Link": "Coda Catabolyst",
     "Traits": [
       "Infested",
       "Technocyte Coda"
     ],
-    "GripType": "GUN_ONE_HAND",
     "Slot": "Secondary",
+    "GripType": "GUN_ONE_HAND",
+    "SellPrice": 5000,
     "Introduced": "38.5",
     "Polarities": [
       "Madurai"
     ],
-    "SellPrice": 5000,
-    "InternalName": "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaCatabolyst",
     "IsLichWeapon": true,
+    "InternalName": "/Lotus/Weapons/Infested/InfestedLich/Pistols/CodaCatabolyst",
     "AmmoType": "Secondary",
     "Mastery": 17,
     "Magazine": 37,
+    "_RetiredDisposition": 0.7,
     "Accuracy": 6.3,
     "Trigger": "Held",
     "ExilusPolarity": "Madurai",
@@ -10691,7 +10820,7 @@
     ],
     "Family": "Catabolyst",
     "AmmoMax": 155,
-    "Disposition": 0.7,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Infested/Pistols/InfBeamPistol/InfBeamPistolReloadFromEmptyMod"
     ]
@@ -10780,6 +10909,7 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "MaxRank": 30,
+    "Image": "Marelok.png",
     "GripType": "GUN_ONE_HAND",
     "Users": [
       "Shik Tal",
@@ -10789,14 +10919,14 @@
     "Polarities": [
       "Madurai"
     ],
-    "Image": "Marelok.png",
-    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrineerLeverActionPistol/GLAPistol",
     "Traits": [
       "Grineer"
     ],
+    "InternalName": "/Lotus/Weapons/Grineer/Pistols/GrineerLeverActionPistol/GLAPistol",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 6,
+    "_RetiredDisposition": 1.2,
     "Accuracy": 10,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Naramon",
@@ -10838,20 +10968,21 @@
     "_TooltipAttackDisplay": 1,
     "Class": "Dual Pistols",
     "MaxRank": 30,
-    "GripType": "DUAL_GUN_GUN",
     "Image": "Aksomati.png",
+    "GripType": "DUAL_GUN_GUN",
+    "Traits": [
+      "Tenno"
+    ],
     "Introduced": "16.3",
     "Polarities": [
       "Naramon"
     ],
-    "Traits": [
-      "Tenno"
-    ],
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/SomaSidearm/AkimboSomaPistols",
     "Spool": 6,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/SomaSidearm/AkimboSomaPistols",
     "Slot": "Secondary",
     "SellPrice": 5000,
     "Magazine": 70,
+    "_RetiredDisposition": 1.25,
     "Accuracy": 15.4,
     "Trigger": "Auto-Spool",
     "ExilusPolarity": "Naramon",
@@ -10885,7 +11016,7 @@
     ],
     "Family": "Aksomati",
     "AmmoMax": 420,
-    "Disposition": 1.25,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Mara Detron": {
@@ -10894,18 +11025,19 @@
     "Class": "Shotgun Sidearm",
     "MaxRank": 30,
     "Magazine": 8,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Corpus"
     ],
-    "Introduced": "15.6.3",
+    "GripType": "GUN_ONE_HAND",
     "Tradable": 1,
+    "Introduced": "15.6.3",
     "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/VoidTrader/VTDetron",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/VoidTrader/VTDetron",
     "Link": "Mara Detron",
     "AmmoType": "Secondary",
     "Mastery": 9,
+    "_RetiredDisposition": 1.15,
     "Accuracy": 13.3,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -10946,7 +11078,7 @@
     ],
     "Family": "Detron",
     "AmmoMax": 210,
-    "Disposition": 1.15,
+    "Disposition": 1.2,
     "CodexSecret": true
   },
   "Magnus Prime": {
@@ -10955,20 +11087,21 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "Mastery": 14,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Prime"
     ],
+    "GripType": "GUN_ONE_HAND",
+    "Tradable": 2,
     "Introduced": "30.7",
     "Polarities": [
       "Madurai"
     ],
-    "Tradable": 2,
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeMagnus/PrimeMagnusWeapon",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeMagnus/PrimeMagnusWeapon",
     "SellPrice": 5000,
     "Link": "Magnus Prime",
     "AmmoType": "Secondary",
+    "_RetiredDisposition": 1.25,
     "Accuracy": 16,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Naramon",
@@ -11002,33 +11135,34 @@
     ],
     "Family": "Magnus",
     "AmmoMax": 160,
-    "Disposition": 1.25,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Pistols/PrimeMagnus/PrimeMagnusInnateUpgrade"
     ]
   },
   "Lex Prime": {
+    "MaxRank": 30,
     "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "IncarnonChargeGain": 2,
-    "MaxRank": 30,
     "Traits": [
       "Prime",
       "Never Vaulted"
     ],
-    "GripType": "GUN_ONE_HAND",
     "Tradable": 2,
+    "GripType": "GUN_ONE_HAND",
+    "Slot": "Secondary",
     "Introduced": "13.0",
     "Polarities": [
       "Madurai"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeLex/PrimeLex",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeLex/PrimeLex",
     "Magazine": 8,
-    "IncarnonImage": "LexPrimeIncarnon.png",
     "Image": "LexPrime.png",
+    "IncarnonImage": "LexPrimeIncarnon.png",
+    "_RetiredDisposition": 1.2,
     "Accuracy": 16,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Naramon",
@@ -11098,30 +11232,31 @@
     "AmmoType": "Secondary"
   },
   "Arca Scisco": {
+    "_TooltipAttackDisplay": 1,
     "Conclave": true,
     "SniperComboReset": 2,
     "Class": "Pistol",
     "MaxRank": 30,
-    "_TooltipAttackDisplay": 1,
-    "Link": "Arca Scisco",
-    "GripType": "GUN_ONE_HAND",
+    "AmmoType": "Secondary",
     "Mastery": 10,
+    "GripType": "GUN_ONE_HAND",
+    "Traits": [
+      "Corpus"
+    ],
     "Introduced": "21.7",
     "Polarities": [
       "Madurai",
       "Madurai"
     ],
-    "Traits": [
-      "Corpus"
-    ],
-    "InternalName": "/Lotus/Weapons/Corpus/Pistols/SniperPistol/CrpScopeGun",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Corpus/Pistols/SniperPistol/CrpScopeGun",
     "SellPrice": 5000,
+    "Link": "Arca Scisco",
     "Zoom": [
       "2.0x",
       "4.0x"
     ],
-    "AmmoType": "Secondary",
+    "_RetiredDisposition": 1.1,
     "Accuracy": 32,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Naramon",
@@ -11154,7 +11289,7 @@
     ],
     "Family": "Arca Scisco",
     "AmmoMax": 288,
-    "Disposition": 1.1,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Corpus/Pistols/SniperPistol/ScopeGunInnateMod"
     ]
@@ -11164,22 +11299,23 @@
     "_TooltipAttackDisplay": 2,
     "Class": "Thrown",
     "MaxRank": 30,
-    "GripType": "DUAL_GUN_GUN",
     "Mastery": 11,
+    "GripType": "DUAL_GUN_GUN",
+    "Traits": [
+      "Grineer"
+    ],
     "Introduced": "32",
     "Polarities": [
       "Madurai",
       "Madurai",
       "Madurai"
     ],
-    "Traits": [
-      "Grineer"
-    ],
-    "InternalName": "/Lotus/Weapons/Grineer/ThrowingWeapons/GrnVorStickyBomb/GrnVorStickyBomb",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Grineer/ThrowingWeapons/GrnVorStickyBomb/GrnVorStickyBomb",
     "SellPrice": 5000,
     "Magazine": 2,
     "Image": "Aegrit.png",
+    "_RetiredDisposition": 1,
     "Accuracy": 100,
     "Trigger": "Active",
     "ExilusPolarity": "Naramon",
@@ -11239,7 +11375,7 @@
     ],
     "Family": "Aegrit",
     "AmmoMax": 4,
-    "Disposition": 1,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Plinx": {
@@ -11249,18 +11385,19 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "Mastery": 6,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Corpus"
     ],
-    "Introduced": "24.2",
+    "GripType": "GUN_ONE_HAND",
     "Slot": "Secondary",
+    "Introduced": "24.2",
     "SellPrice": 5000,
-    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CrpSonificBlastor/CrpBlastorWeapon",
     "ReloadStyle": "Regenerate",
+    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CrpSonificBlastor/CrpBlastorWeapon",
     "ReloadDelay": 0.8,
     "Magazine": 10,
     "Image": "Plinx.png",
+    "_RetiredDisposition": 1.2,
     "Accuracy": 50,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -11300,27 +11437,28 @@
     "AmmoType": "None"
   },
   "Lato Vandal": {
+    "MaxRank": 30,
     "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "IncarnonChargeGain": 4,
-    "MaxRank": 30,
     "Traits": [
       "Tenno",
       "Vandal"
     ],
-    "GripType": "GUN_ONE_HAND",
     "Tradable": 2,
+    "GripType": "GUN_ONE_HAND",
+    "Slot": "Secondary",
     "Introduced": "7.0",
     "Polarities": [
       "Madurai"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistol/LatoVandal",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistol/LatoVandal",
     "Magazine": 15,
-    "IncarnonImage": "LatoVandalIncarnon.png",
     "Image": "LatoVandal.png",
+    "IncarnonImage": "LatoVandalIncarnon.png",
+    "_RetiredDisposition": 1.35,
     "Accuracy": 23,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -11377,7 +11515,7 @@
     ],
     "Family": "Lato",
     "AmmoMax": 210,
-    "Disposition": 1.35,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Athodai Prime": {
@@ -11386,23 +11524,24 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "Mastery": 14,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Tenno",
       "Prime"
     ],
+    "GripType": "GUN_ONE_HAND",
+    "Tradable": 2,
     "Introduced": "43",
     "Polarities": [
       "Madurai",
       "Madurai",
       "Madurai"
     ],
-    "Tradable": 2,
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeAthodai/PrimeAthodaiPistolWeapon",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeAthodai/PrimeAthodaiPistolWeapon",
     "SellPrice": 2500,
     "Magazine": 24,
     "Image": "AthodaiPrime.png",
+    "_RetiredDisposition": 0.65,
     "AmmoType": "Secondary",
     "Trigger": "Auto / Mag Burst",
     "ExilusPolarity": "Naramon",
@@ -11460,21 +11599,22 @@
     ],
     "Family": "Athodai",
     "AmmoMax": 72,
-    "Disposition": 0.65,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Pistols/PrimeAthodai/PrimeAthodaiInnateMod"
     ]
   },
   "Despair": {
-    "Slot": "Secondary",
+    "Mastery": 4,
+    "SellPrice": 5000,
     "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Thrown",
     "IncarnonChargeGain": 5,
-    "Mastery": 4,
     "Traits": [
       "Stalker"
     ],
+    "Slot": "Secondary",
     "GripType": "DUAL_GUN_GUN",
     "Users": [
       "Stalker"
@@ -11484,12 +11624,12 @@
       "Madurai",
       "Madurai"
     ],
-    "SellPrice": 5000,
-    "InternalName": "/Lotus/Weapons/Tenno/ThrowingWeapons/StalkerKunai",
     "Magazine": 10,
+    "InternalName": "/Lotus/Weapons/Tenno/ThrowingWeapons/StalkerKunai",
     "Image": "Despair.png",
-    "IncarnonImage": "DespairIncarnon.png",
     "MaxRank": 30,
+    "IncarnonImage": "DespairIncarnon.png",
+    "_RetiredDisposition": 1.3,
     "Accuracy": 100,
     "Trigger": "Auto",
     "ExilusPolarity": "Naramon",
@@ -11572,32 +11712,33 @@
     ],
     "Family": "Despair",
     "AmmoMax": 210,
-    "Disposition": 1.3,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Knell Prime": {
+    "Magazine": 1,
     "Conclave": false,
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "MaxRank": 30,
-    "Magazine": 1,
     "Traits": [
       "Tenno",
       "Prime"
     ],
-    "GripType": "GUN_ONE_HAND",
     "Tradable": 2,
+    "GripType": "GUN_ONE_HAND",
+    "Slot": "Secondary",
     "Introduced": "31",
     "Polarities": [
       "Madurai",
       "Madurai"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeKnell/PrimeKnellWeapon",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/PrimeKnell/PrimeKnellWeapon",
     "Link": "Knell Prime",
     "AmmoType": "Secondary",
     "Mastery": 14,
+    "_RetiredDisposition": 0.85,
     "Accuracy": 32,
     "Trigger": "Auto",
     "ExilusPolarity": "Madurai",
@@ -11633,7 +11774,7 @@
     ],
     "Family": "Knell",
     "AmmoMax": 20,
-    "Disposition": 0.85,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Pistols/TnPriestPistolScope/TnPriestPistolInnateMod",
       "/Lotus/Weapons/Tenno/Pistols/TnPriestPistolScope/TnPriestPistolInnateModB",
@@ -11646,18 +11787,19 @@
     "Class": "Pistol",
     "IncarnonChargeGain": 10,
     "Mastery": 4,
-    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Corpus"
     ],
-    "Introduced": "11.0",
+    "GripType": "GUN_ONE_HAND",
     "Slot": "Secondary",
+    "Introduced": "11.0",
     "SellPrice": 5000,
-    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CorpusMinigun/CorpusMinigun",
     "Magazine": 60,
+    "InternalName": "/Lotus/Weapons/Corpus/Pistols/CorpusMinigun/CorpusMinigun",
     "Image": "Cestra.png",
-    "IncarnonImage": "CestraIncarnon.png",
     "MaxRank": 30,
+    "IncarnonImage": "CestraIncarnon.png",
+    "_RetiredDisposition": 1.52,
     "Accuracy": 33.33,
     "Trigger": "Auto",
     "ExilusPolarity": "Madurai",
@@ -11713,7 +11855,7 @@
     ],
     "Family": "Cestra",
     "AmmoMax": 420,
-    "Disposition": 1.52,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Knell": {
@@ -11722,18 +11864,19 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "_TooltipAttackDisplay": 1,
-    "GripType": "GUN_ONE_HAND",
     "Magazine": 1,
-    "Introduced": "21.0",
+    "GripType": "GUN_ONE_HAND",
     "Traits": [
       "Tenno"
     ],
+    "Introduced": "21.0",
     "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/TnPriestPistolScope/TnPriestPistolWeapon",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/TnPriestPistolScope/TnPriestPistolWeapon",
     "Link": "Knell",
     "AmmoType": "Secondary",
     "Mastery": 10,
+    "_RetiredDisposition": 1.25,
     "Accuracy": 32,
     "Trigger": "Auto",
     "ExilusPolarity": "Madurai",
@@ -11769,7 +11912,7 @@
     ],
     "Family": "Knell",
     "AmmoMax": 10,
-    "Disposition": 1.25,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Pistols/TnPriestPistolScope/TnPriestPistolInnateMod",
       "/Lotus/Weapons/Tenno/Pistols/TnPriestPistolScope/TnPriestPistolInnateModB",
@@ -11777,26 +11920,27 @@
     ]
   },
   "Gammacor": {
+    "Mastery": 2,
     "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "IncarnonChargeGain": 1,
-    "Mastery": 2,
     "Traits": [
       "Cephalon"
     ],
-    "GripType": "GUN_ONE_HAND",
     "Slot": "Secondary",
+    "GripType": "GUN_ONE_HAND",
+    "SellPrice": 5000,
     "Introduced": "15.5",
     "Polarities": [
       "Vazarin"
     ],
-    "SellPrice": 5000,
-    "InternalName": "/Lotus/Weapons/Syndicates/CephalonSuda/Pistols/CSDroidArray",
     "Magazine": 60,
+    "InternalName": "/Lotus/Weapons/Syndicates/CephalonSuda/Pistols/CSDroidArray",
     "Image": "Gammacor.png",
-    "IncarnonImage": "GammacorIncarnon.png",
     "MaxRank": 30,
+    "IncarnonImage": "GammacorIncarnon.png",
+    "_RetiredDisposition": 1.15,
     "Accuracy": 100,
     "Trigger": "Held",
     "ExilusPolarity": "Madurai",
@@ -11881,33 +12025,34 @@
     ],
     "Family": "Gammacor",
     "AmmoMax": 240,
-    "Disposition": 1.15,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Lato Prime": {
+    "Mastery": 14,
     "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Pistol",
     "IncarnonChargeGain": 4,
-    "Mastery": 14,
     "Traits": [
       "Prime",
       "Vaulted",
       "Founder"
     ],
-    "GripType": "GUN_ONE_HAND",
     "Slot": "Secondary",
+    "GripType": "GUN_ONE_HAND",
+    "SellPrice": 2500,
     "Introduced": "5.0",
     "Polarities": [
       "Madurai",
       "Naramon"
     ],
-    "SellPrice": 2500,
-    "InternalName": "/Lotus/Weapons/Tenno/Pistol/LatoPrime",
     "Link": "Lato Prime",
+    "InternalName": "/Lotus/Weapons/Tenno/Pistol/LatoPrime",
     "AmmoType": "Secondary",
-    "IncarnonImage": "LatoPrimeIncarnon.png",
     "MaxRank": 30,
+    "IncarnonImage": "LatoPrimeIncarnon.png",
+    "_RetiredDisposition": 1.35,
     "Accuracy": 18.2,
     "Trigger": "Semi-Auto",
     "ExilusPolarity": "Madurai",
@@ -11964,7 +12109,7 @@
     ],
     "Family": "Lato",
     "AmmoMax": 210,
-    "Disposition": 1.35,
+    "Disposition": 1.2,
     "CodexSecret": true
   },
   "Pyrana": {
@@ -11973,16 +12118,17 @@
     "Class": "Shotgun Sidearm",
     "MaxRank": 30,
     "GripType": "GUN_ONE_HAND",
-    "Introduced": "13.6",
     "Mastery": 12,
+    "Introduced": "13.6",
     "Traits": [
       "Tenno"
     ],
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/SawnOffShotgun/TennoHandShotgun",
     "Slot": "Secondary",
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/SawnOffShotgun/TennoHandShotgun",
     "SellPrice": 5000,
     "Magazine": 10,
     "Image": "Pyrana.png",
+    "_RetiredDisposition": 0.95,
     "Accuracy": 5,
     "Trigger": "Auto",
     "ExilusPolarity": "Madurai",
@@ -12023,30 +12169,31 @@
     ],
     "Family": "Pyrana",
     "AmmoMax": 210,
-    "Disposition": 0.95,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Ballistica": {
+    "Mastery": 2,
     "Conclave": true,
     "_TooltipAttackDisplay": 2,
     "Class": "Crossbow",
     "IncarnonChargeGain": 1.5,
-    "Mastery": 2,
     "Traits": [
       "Tenno"
     ],
-    "GripType": "GUN_ONE_HAND",
     "Slot": "Secondary",
+    "GripType": "GUN_ONE_HAND",
+    "SellPrice": 5000,
     "Introduced": "10.4",
     "Polarities": [
       "Vazarin"
     ],
-    "SellPrice": 5000,
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/AutomaticHandCrossbow/AutoCrossBow",
     "Magazine": 16,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/AutomaticHandCrossbow/AutoCrossBow",
     "Image": "Ballistica.png",
-    "IncarnonImage": "BallisticaIncarnon.png",
     "MaxRank": 30,
+    "IncarnonImage": "BallisticaIncarnon.png",
+    "_RetiredDisposition": 1.25,
     "Accuracy": 4,
     "Trigger": "Burst / Charge",
     "ExilusPolarity": "Madurai",
@@ -12130,7 +12277,7 @@
     ],
     "Family": "Ballistica",
     "AmmoMax": 210,
-    "Disposition": 1.25,
+    "Disposition": 1.2,
     "AmmoType": "Secondary"
   },
   "Epitaph": {
@@ -12139,19 +12286,20 @@
     "Class": "Pistol",
     "MaxRank": 30,
     "Magazine": 1,
-    "GripType": "GUN_ONE_HAND",
     "Tradable": 2,
+    "GripType": "GUN_ONE_HAND",
+    "Slot": "Secondary",
     "Introduced": "30",
     "Polarities": [
       "Madurai",
       "Madurai"
     ],
-    "Slot": "Secondary",
-    "InternalName": "/Lotus/Weapons/Tenno/Pistols/TnWraitheSidearm/TnWraitheSidearmWeapon",
     "SellPrice": 5000,
+    "InternalName": "/Lotus/Weapons/Tenno/Pistols/TnWraitheSidearm/TnWraitheSidearmWeapon",
     "Link": "Epitaph",
     "AmmoType": "Secondary",
     "Mastery": 8,
+    "_RetiredDisposition": 0.6,
     "Accuracy": 80,
     "Trigger": "Semi / Charge",
     "ExilusPolarity": "Naramon",
@@ -12244,7 +12392,7 @@
     ],
     "Family": "Epitaph",
     "AmmoMax": 40,
-    "Disposition": 0.6,
+    "Disposition": 1.2,
     "DefaultUpgrades": [
       "/Lotus/Weapons/Tenno/Pistols/TnWraitheSidearm/TnWraitheSidearmInnateUpgrade"
     ]

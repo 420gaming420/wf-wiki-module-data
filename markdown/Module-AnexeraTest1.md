@@ -1,7 +1,7 @@
 ---
 title: "Module:AnexeraTest1"
 wiki_url: "https://wiki.warframe.com/w/Module/AnexeraTest1"
-wiki_timestamp: "2026-10-19T14:58:18Z"
+wiki_timestamp: "2026-10-22T17:59:07Z"
 ---
 
 *Documentation for this module may be created at [Module:AnexeraTest1/doc](/w/Module:AnexeraTest1/doc?action=edit&redlink=1 "Module:AnexeraTest1/doc (page does not exist)")*
@@ -530,10 +530,132 @@ function p.buildOfferings(frame)
 	return result
 end
 
-function p.printArgs(frame)
-	for k, v in pairs(frame.args) do
-		mw.logObject(v, k)
+local warframes = mw.loadData([[Module:Warframes/data]])
+local modularWeapons = mw.loadData([[Module:Weapons/data/modular]])
+local companions = mw.loadData([[Module:Companions/data]]).Companions
+local archwingWeapons = mw.loadData([[Module:Weapons/data/archwing]])
+
+local function _filterEntry(k, v, t)
+	if not v._IgnoreEntry and not v._IgnoreInMasteryCount then
+		if not t then return true end
+
+		for i=1, #t, 2 do
+			local result = v[t[i]] == t[i+1]
+			if result then return result end
+		end
 	end
+end
+
+local function getTooltipsModule(entry)
+	if entry.Slot then return 'Weapons' end
+	if entry.Abilities then return 'Warframes' end
+	if entry.Category == 'Sentinels' or entry.Category == 'Pets' then return 'Companions' end
+end
+
+local data = {
+	Warframe	= { entries = warframes.Warframes },
+	Primary		= { entries = mw.loadData([[Module:Weapons/data/primary]]) },
+	Secondary	= { entries = mw.loadData([[Module:Weapons/data/secondary]]) },
+	Melee		= { entries = mw.loadData([[Module:Weapons/data/melee]]) },
+
+	Kitgun		= { entries = modularWeapons, conditions = {'Class','Pistol'} },
+	Zaw			= { entries = modularWeapons, conditions = {'Slot','Melee'} },
+	Amp			= { entries = modularWeapons, conditions = {'Class','Amp'} },
+
+	Sentinel	= { entries = companions, conditions = {'Category','Sentinels'} },
+	MOA			= { entries = companions, conditions = {'Type','MOA'} },
+	Hound		= { entries = companions, conditions = {'Type','Hound'} },
+	Beast		= { entries = companions, conditions = {'Type','Kubrow', 'Type','Kavat', 'Type','Predasite', 'Type','Vulpaphyla'} },
+
+	-- non-robotic companion weapons are all ignored already for mastery counting
+	Robotic		= { entries = mw.loadData([[Module:Weapons/data/companion]]) },
+
+	Archwing	= { entries = warframes.Archwings },
+	Archgun		= { entries = archwingWeapons, conditions = {'Class','Archgun'}},
+	Archmelee	= { entries = archwingWeapons, conditions = {'Class','Archmelee'}},
+	Necramech	= { entries = warframes.Necramechs },
+
+	Railjack	= { entries = { Plexus = {} } },
+	["K-Drive"]	= { entries = {
+		["Bad Baby"]	= {},
+		Feverspine		= {},
+		Flatbelly		= {},
+		Needlenose		= {},
+		Runway			= {}
+	}}
+}
+
+data["Founders"]	= { entries = {
+	["Excalibur Prime"]	= data.Warframe.entries["Excalibur Prime"],
+	["Lato Prime"]		= data.Secondary.entries["Lato Prime"],
+	["Skana Prime"]		= data.Melee.entries["Skana Prime"]
+}}
+data["FoundersCN"]	= { entries = {
+	["Excalibur Umbra Prime"] = { Abilities = '' }
+}}
+
+function p.buildRankedChecklist(frame)
+	local args			= frame.args
+	local entryType		= args.entryType
+	local template		= args.template
+	local tableID		= args.tableID or entryType
+	local subheading	= args.subheading or "[[" .. tableID .. "]]"
+	local doublePoints = args.doublePoints
+
+	local checklist = {}
+	local listMap = {}
+	local header = ([=[
+| class="dataTable" |
+
+==%s==
+{| class="listtable sortable lighttable store-table mw-collapsible stickyHeader" data-tableid="%s Mastery Rank Checklist"
+|+ %s Checklist
+! Item !! Mastery
+]=]):format(entryType, tableID, subheading)
+
+	local rowTemplate = [=[
+|- data-rowid="%s"
+| %s [%d]
+| data-store-currency="Mastery Point" data-store-value="%d" data-sort-value="%d" class="sell-col" | %s
+]=]
+
+	local typeData = data[entryType]
+	local founders = data['Founders'].entries
+	for Name, entry in pairs(typeData.entries) do
+		if entryType == 'Founders' or
+			(not founders[Name] and _filterEntry(Name, entry, typeData.conditions))
+		then
+			local tooltipsModule = template or getTooltipsModule(entry)
+			local rank = entry.MaxRank or 30
+			local points = rank * 100
+			if doublePoints or tooltipsModule == 'Warframes' or tooltipsModule == 'Companions' then
+				points = points * 2
+			end
+
+			local display = Name:sub(1, (Name:find(' (', 1, true) or 0) - 1)
+			local item
+			if not tooltipsModule then
+				item = '[['.. Name ..']]'
+			elseif Name == display then
+				item = Tooltip.full(Name, tooltipsModule)
+			else
+				item = Tooltip.full({ Name, tooltipsModule, r = display })
+			end
+
+			local row = rowTemplate:format(display, item, rank, points, points, Lang:formatNum(points))
+			table.insert(checklist, Name)
+			listMap[Name] = row
+		end
+	end
+
+	table.sort(checklist)
+	for i=1, #checklist do
+		checklist[i] = listMap[checklist[i]]
+	end
+
+	return header .. table.concat(checklist) .. '|}
+
+\n'
 end
 
 p.__main = Entrypoint(p);

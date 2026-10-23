@@ -199,9 +199,9 @@ function p.advantages(frame)
 			atts.ReloadSpeed = "reload speed"
 			atts.Accuracy = "accuracy"
 		end
-		if slot ~= 'Archgun (Atmosphere)' and slot ~= 'Archmelee' and weapon.Class ~= 'Exalted Weapon' then
-			atts.Disposition = "disposition"
-		end
+		-- if slot ~= 'Archgun (Atmosphere)' and slot ~= 'Archmelee' and weapon.Class ~= 'Exalted Weapon' then
+		-- 	atts.Disposition = "disposition"
+		-- end
 		
 		stats = {}
 		

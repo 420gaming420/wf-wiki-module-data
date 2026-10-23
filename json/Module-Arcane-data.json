@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-28T08:25:57.973Z"
+    "converted_at": "2026-10-23T07:11:26.468Z"
   },
   "_comments": "\t\t\t--IncompatibilityTags = {  },\n\t\t\t--UpgradeTypes = {  }\n\t\t\t--IncompatibilityTags = { \"OPERATOR_SUIT\" },\n\t\t\t--UpgradeTypes = { \"\" }\n\t\t\t--IncompatibilityTags = { \"\" },",
   "Arcanes": {
@@ -933,7 +933,7 @@
     },
     "Arcane Pistoleer": {
       "Type": "Warframe",
-      "Description": "On Pistol Weak Point Kill:\r\n60% chance for +102% Ammo Efficiency for 12s",
+      "Description": "On Pistol Weak Point Kill:\r\n60% chance for Infinite Ammo for 12s",
       "Link": "Arcane Pistoleer",
       "Rarity": "Rare",
       "UpgradeTypes": [
@@ -1423,7 +1423,7 @@
     },
     "Eternal Logistics": {
       "Type": "Amp",
-      "Description": "On Void Sling:\r\n+72% Amp Ammo Efficiency for 8s",
+      "Description": "On Void Sling:\r\n+75% Amp Ammo Efficiency for 8s",
       "Link": "Eternal Logistics",
       "Rarity": "Rare",
       "UpgradeTypes": [

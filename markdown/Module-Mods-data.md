@@ -1,12 +1,12 @@
 ---
 title: "Module:Mods/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Mods/data"
-wiki_timestamp: "2026-10-15T02:05:31Z"
+wiki_timestamp: "2026-10-22T20:38:37Z"
 ---
 
 Database for all [Mods](/w/Mod "Mod") in [WARFRAME](/w/WARFRAME "WARFRAME") (with the exception of unveiled [Riven Mods](/w/Riven_Mods "Riven Mods")). Preferably put new mods in the correct alphabetical order, but it is not necessary.
 
-:   *Last updated: Thu, 15 Oct 2026 02:05:31 +0000 (UTC) by [User:ArbitraryMary](/w/User:ArbitraryMary "User:ArbitraryMary") ([change log](https://wiki.warframe.com/w/Module:Mods/data?diff=0))*
+:   *Last updated: Thu, 22 Oct 2026 20:38:37 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Mods/data?diff=0))*
 
 ## Contents
 
@@ -100,6 +100,8 @@ There are three main collections that store mod data:
 
 [[edit](/w/Module:Mods/data/doc?action=edit&section=T-3 "Edit Section using Source Editor:
 Mod Images")]
+
+:   *For an in-depth image styling guide, see [WARFRAME Wiki:Media Policy/Mod Images](/w/WARFRAME_Wiki:Media_Policy/Mod_Images "WARFRAME Wiki:Media Policy/Mod Images").*
 
 Mod images without border styling, image filter, and description text can be sourced from [Public Export](/w/Public_Export "Public Export"). However, full mod images are NOT provided by Digital Extremes since they are generated within the engine (presumably they are modularly built to support different localizations and styling).[[1]](#cite_note-1)[[2]](#cite_note-2) There are two ways to source full mod images:
 
@@ -1382,7 +1384,7 @@ local modData = {
 		},
 		["Acid Shells"] = {
 			BaseDrain = 4,
-			Description = "Enemies explode on death, dealing 450 Corrosive Damage (+45% Enemy Max Health) in a 15m radius.",
+			Description = "Enemies explode on death, dealing 450 Corrosive Damage (+45% Enemy Max Health) in a 10m radius.",
 			Image = "AcidShellsMod.png",
 			IncompatibilityTags = { "POWER_WEAPON" },
 			InternalName = "/Lotus/Upgrades/Mods/Shotgun/Event/ProjectNightwatch/SobekNightwatchMod",
@@ -4183,7 +4185,7 @@ local modData = {
 		["Brain Storm"] = {
 			BaseDrain = 10,
 			Conclave = true,
-			Description = "On Headshot:\r\n+100% Ammo Efficiency for 0.5s",
+			Description = "On Headshot:\r\n40% chance for Infinite Ammo for 2s",
 			Image = "BrainStormMod.png",
 			IncompatibilityTags = { "AOE" },
 			InternalName = "/Lotus/Upgrades/Mods/PvPMods/Rifle/GrakataUnlimitedAmmo",
@@ -8232,7 +8234,7 @@ local modData = {
 		},
 		["Entropy Detonation"] = {
 			BaseDrain = 4,
-			Description = "Lethal ground attacks cause enemies to explode dealing +1,000\r\n(+20% Enemy Max Health) Blast Damage\r\nin a +10m radius.\r\n+1 'Entropy'",
+			Description = "Lethal ground attacks cause enemies to explode dealing +1,000\r\n(+20% Enemy Max Health) Blast Damage\r\nin a 10m radius.\r\n+1 'Entropy'",
 			Image = "EntropyDetonationMod.png",
 			InternalName = "/Lotus/Upgrades/Mods/Syndicate/ObexMod",
 			Introduced = "20.4",
@@ -25349,7 +25351,7 @@ local modData = {
 			BaseDrain = 10,
 			CodexSecret = false,
 			Conclave = true,
-			Description = "On Headshot:\r\n+100% Ammo Efficiency for 2s",
+			Description = "On Headshot:\r\n40% chance for Infinite Ammo for 2s",
 			Icon = "SkullShots.png",
 			Image = "SkullShotsMod.png",
 			InternalName = "/Lotus/Upgrades/Mods/PvPMods/Pistol/ViperUnlimitedAmmo",

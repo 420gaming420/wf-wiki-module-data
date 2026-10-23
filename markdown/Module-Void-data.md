@@ -1,7 +1,7 @@
 ---
 title: "Module:Void/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Void/data"
-wiki_timestamp: "2026-10-16T04:47:16Z"
+wiki_timestamp: "2026-10-23T01:40:14Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -16,7 +16,7 @@ Note that no drop chances are stored here since all relics of the same refinemen
 
 Also the place to update if a Prime part's [![](/images/thumb/OrokinDucats.png/32px-OrokinDucats.png?23930)](/w/Orokin_Ducats "Orokin Ducats") [Orokin Ducats](/w/Orokin_Ducats "Orokin Ducats") trade-in value is an anomaly for their rarity. See [#Prime Item Ducat Sell Price](#Prime_Item_Ducat_Sell_Price).
 
-:   *Last updated: Fri, 16 Oct 2026 04:47:16 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Void/data?diff=0))*
+:   *Last updated: Fri, 23 Oct 2026 01:40:14 +0000 (UTC) by [User:SkeletalGamerPrime](/w/User:SkeletalGamerPrime?action=edit&redlink=1 "User:SkeletalGamerPrime (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Void/data?diff=0))*
 
 ## Contents
 
@@ -2092,6 +2092,43 @@ RelicData = {
 		},
 		Introduced = "44.0",
 		Name = "Axi C12",
+		Tier = "Axi",
+	},
+	["Axi C13"] = {
+		Drops = {
+			{
+				Item = "Bronco Prime",
+				Part = "Barrel",
+				Rarity = "Common",
+			},
+			{
+				Item = "Sarofang Prime",
+				Part = "Handle",
+				Rarity = "Common",
+			},
+			{
+				Item = "Forma",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
+				Item = "Braton Prime",
+				Part = "Receiver",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Voruna Prime",
+				Part = "Chassis Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Caliban Prime",
+				Part = "Neuroptics Blueprint",
+				Rarity = "Rare",
+			},
+		},
+		Introduced = "44.1.3",
+		Name = "Axi C13",
 		Tier = "Axi",
 	},
 	["Axi D1"] = {

@@ -629,7 +629,7 @@ return {
 		},
 		["Arcane Pistoleer"] = {
 			CodexSecret = true,
-			Description = "On Pistol Weak Point Kill:\r\n60% chance for +102% Ammo Efficiency for 12s",
+			Description = "On Pistol Weak Point Kill:\r\n60% chance for Infinite Ammo for 12s",
 			Dissolution = 20,
 			Icon = "ArcanePistoleer64x.png",
 			Image = "ArcanePistoleer.png",
@@ -1126,7 +1126,7 @@ return {
 		},
 		["Eternal Logistics"] = {
 			CodexSecret = false,
-			Description = "On Void Sling:\r\n+72% Amp Ammo Efficiency for 8s",
+			Description = "On Void Sling:\r\n+75% Amp Ammo Efficiency for 8s",
 			Dissolution = 22,
 			Icon = "EternalLogistics64x.png",
 			Image = "EternalLogistics.png",

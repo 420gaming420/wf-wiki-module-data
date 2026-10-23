@@ -242,7 +242,24 @@ Disposition = {
 		return StatObject.default.Dispo[2](s, dispoClass)..(' (%.2fx)'):format(dispoVal)
 	end
 },
+_RetiredDisposition = {
+	function(weap)
+		local dispo = weap['_RetiredDisposition']
+		-- Returning a categorical bin value of 1, 2, 3, 4, or 5 based on where disposition value
+		-- is on the continuous scale of 0.5-1.55. If disposition value is nil then return 0
+		return dispo or 0, type(dispo)=='number' and math.floor(5* (dispo - .3 + .009 * (dispo < 1 and 1 or -1))) or 0
+	end,
+	function(s, dispoVal, dispoClass)
+		return StatObject.default.Dispo[2](s, dispoClass)..(' (%.2fx)'):format(dispoVal)
+	end
+},
 Dispo = { indexes('Disposition', 2), function(s, d)
+	if d and d == d and d > 0 then
+		return ('●'):rep(math.min(d, 5))..('○'):rep(5 - d)
+	end
+	return '×××××' -- '●○×' --> E2978F E2978B C397
+end },
+RetiredDispo = { indexes('_RetiredDisposition', 2), function(s, d)
 	if d and d == d and d > 0 then
 		return ('●'):rep(math.min(d, 5))..('○'):rep(5 - d)
 	end
@@ -1365,7 +1382,7 @@ function p.getListWithWarframes(frame)
 	return table.concat(list, '\n')
 end
 
----	Builds a disposition wikitable as seen on [[Riven Mods/Weapon Dispos]].
+---	Builds a disposition wikitable, similar to what is seen on [[Riven Disposition]] using 'Disposition' value.
 --	@function		p.getRivenDispositionTable
 --	@param			{table} frame Frame object w/ first argument being a string weaponSlot
 --	@returns		{string} Wikitext of resultant wikitable
@@ -1399,7 +1416,46 @@ function p.getRivenDispositionTable(frame)
 		table.insert(result, table.concat(col, '\n* '))
 	end
 
-	result[3] = table.concat(result[3], ']]\n! scope="col" style="text-align:center;"|[[Riven Mods#Disposition|')..']]'
+	result[3] = table.concat(result[3], ']]\n! scope="col" style="text-align:center;"|[[Riven Disposition|')..']]'
+	table.insert(result, '|}')
+	return table.concat(result, '\n')
+end
+
+---	Builds a retired disposition wikitable as seen on [[Riven Disposition]] using '_RetiredDisposition' value.
+--	@function		p.getRetiredRivenDispositionTable
+--	@param			{table} frame Frame object w/ first argument being a string weaponSlot
+--	@returns		{string} Wikitext of resultant wikitable
+function p.getRetiredRivenDispositionTable(frame)
+	local weaponSlot = frame.args[1]
+	local result = {
+		'{| class="article-table" border="0" cellpadding="1" cellspacing="1" style="width: 100%"',
+		'|-',
+		{'[[a| '},	-- Wikitable header row
+		'|-'
+	}
+
+	-- local ranges = {'○○○○○', '●○○○○', '●●○○○', '●●●○○', '●●●●○', '●●●●●'}
+	local dispo = {}
+
+	for k, weapon in pairs(WeaponData) do
+		if weapon['_RetiredDisposition'] and (weaponSlot == 'All' or weapon['Slot'] == weaponSlot) then
+			local disp = p._statFormat(weapon, nil, 'RetiredDispo')
+			dispo[disp] = dispo[disp] or {}
+			table.insert(dispo[disp], weapon)
+		end
+	end
+
+	for str, dis in Table.skpairs(dispo) do
+		table.sort(dis, function(a, b) return a['_RetiredDisposition'] > b['_RetiredDisposition'] end)
+		local col = { '| style="vertical-align:top; font-size:small" |' }
+		for _, weap in ipairs(dis) do
+			table.insert(col, p._statFormat(weap, nil, 'NameLink')..' ('..weap['_RetiredDisposition']..')')
+		end
+		table.insert(result[3], str)
+		table.insert(result, table.concat(col, '\n* '))
+	end
+
+	result[3] = table.concat(result[3], ']]\n! scope="col" style="text-align:center;"|[[Riven Disposition|')..']]'
 	table.insert(result, '|}')
 	return table.concat(result, '\n')
 end

@@ -21,6 +21,9 @@ p._REQUIRED_MELEE_STATS = {
 	['FollowThrough'] = function(v)
 		return (v ~= nil and v > 0 and v <= 1), (v ~= nil and v > 0 and v <= 1) and 'Valid FollowThrough' or 'Follow through must be a value between 0 exclusive and 1 exclusive'
 	end,
+	['GripType'] = function(v, entry)
+		return (v ~= nil), (v ~= nil and entry.Slot == 'Melee') and 'Valid GripType' or 'Missing GripType'
+	end,
 	['HeavyAttack'] = function(v)
 		return (v ~= nil and v > 0), (v ~= nil and v > 0) and 'Valid HeavyAttack' or 'Heavy attack must be greater than 0'
 	end,
@@ -88,6 +91,9 @@ p._REQUIRED_GUN_STATS = {
 	-- ['ExilusPolarity'] = function(v)
 	-- 	return (v ~= nil), (v ~= nil) and 'Valid ExilusPolarity' or 'Missing Exilus Polarity'
 	-- end,
+	['GripType'] = function(v, entry)
+		return (v ~= nil), (v ~= nil and (entry.Slot == 'Primary' or entry.Slot == 'Secondary')) and 'Valid GripType' or 'Missing GripType'
+	end,
 	['Image'] = function(v, entry)
 		local pass = (v ~= nil and v == (entry.Name:gsub('%s', ''))..'.png')
 		return pass, pass and 'Valid Image' or
@@ -220,6 +226,7 @@ local DATA_TYPE_MAP = {
 	Falloff = 'table',
 	FireRate = 'number',
 	ForcedProcs = 'table',
+	IncarnonCharges = 'number',
 	InternalName = 'string',
 	IsLichWeapon = 'boolean',
 	IsSilent = 'boolean',
@@ -244,8 +251,12 @@ local DATA_TYPE_MAP = {
 	CompatibilityTags = 'table',
 	Conclave = 'boolean',
 	Disposition = 'number',
+	_RetiredDisposition = 'number',
 	ExilusPolarity = 'string',
 	Family = 'string',
+	GripType = 'string',
+	IncarnonChargeGain = 'number',
+	IncarnonDuration = 'number',
 	IncarnonImage = 'string',
 	Image = 'string',
 	Introduced = 'string',

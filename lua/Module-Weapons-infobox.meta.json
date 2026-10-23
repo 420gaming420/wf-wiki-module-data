@@ -1,12 +1,12 @@
 {
   "page": "Module:Weapons/infobox",
-  "wiki_timestamp": "2026-09-10T02:49:48Z",
-  "extracted_at": "2026-09-11T02:14:42.992101+00:00",
+  "wiki_timestamp": "2026-10-22T19:23:59Z",
+  "extracted_at": "2026-10-23T07:11:16.473149+00:00",
   "lua_files": [
     "Module-Weapons-infobox_0.lua"
   ],
   "lua_block_count": 1,
-  "file_size": 14998,
-  "comment_count": 32,
+  "file_size": 15001,
+  "comment_count": 33,
   "status": "success"
 }
