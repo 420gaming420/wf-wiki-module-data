@@ -33877,7 +33877,7 @@ return {
 			Cost = {
 				Capacity = 25,
 				Time = 0,
-				Credits = 100,
+				Credits = 500,
 				Resources = {
 					{ Count = 1, Name = "Neurodes" },
 					{ Count = 400, Name = "Rubedo" },
@@ -33893,7 +33893,7 @@ return {
 			Cost = {
 				Capacity = 25,
 				Time = 0,
-				Credits = 100,
+				Credits = 500,
 				Resources = {
 					{ Count = 1, Name = "Neurodes" },
 					{ Count = 400, Name = "Rubedo" },
@@ -33909,7 +33909,7 @@ return {
 			Cost = {
 				Capacity = 25,
 				Time = 0,
-				Credits = 100,
+				Credits = 500,
 				Resources = {
 					{ Count = 1, Name = "Neurodes" },
 					{ Count = 400, Name = "Rubedo" },
@@ -33925,7 +33925,7 @@ return {
 			Cost = {
 				Capacity = 25,
 				Time = 0,
-				Credits = 100,
+				Credits = 500,
 				Resources = {
 					{ Count = 1, Name = "Neurodes" },
 					{ Count = 400, Name = "Rubedo" },

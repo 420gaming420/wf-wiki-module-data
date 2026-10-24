@@ -2132,6 +2132,72 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
 		}
 	},
+	-- Wisp
+	['Reservoirs']={
+		ins={
+			{name='FUSED_RESERVOIR', cont=Tooltips.full('Fused Reservoir', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Mote buff duration:', {expr='DUR 30 %of', suff='s', fmt='2dec'}},
+			{'Reservoir radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
+			{'Vitality Mote maxmimum '..Tooltips.full('Health', 'Stats')..' bonus:', {expr='STR 300 %of'}},
+			{'Vitality Mote '..Tooltips.full('Health', 'Stats')..' restoration:', {expr='STR 30 %of', suff='/s'}},
+			{'Haste Mote [[Movement Speed]] bonus:', {expr='STR 0.2 %of', fmt='%'}},
+			{'Haste Mote [[Attack Speed]] bonus:', {expr='STR 0.2 %of', fmt='%'}},
+			{'Haste Mote [[Fire Rate]] bonus:', {expr='STR 0.3 %of', fmt='%'}},
+			{'Shock Mote '..Tooltips.full('Electricity', 'DamageTypes')..' damage:', {expr='STR 10 %of'}},
+			{'Shock Mote radius:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {name='RESERVOIRS_COST', expr='25 COST *', fmt='2dec'}},
+			{'Fused Reservoir '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='200 RESERVOIRS_COST %of 0 FUSED_RESERVOIR if', fmt='2dec'}}
+		}
+	},
+	['Wil-O-Wisp']={
+		outs={
+			{'Duration:', {expr='DUR 4 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='35 COST *', fmt='2dec'}}
+		}
+	},
+	['Breach Surge']={
+		ins={
+			{name='BREACH_SURGE_RESERVOIRS', cont='Cast on '..Tooltips.full('Reservoirs', 'Ability')..'?', type='checkbox'},
+			{name='CRITICAL_SURGE', cont=Tooltips.full('Critical Surge', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Damage multiplier:', {expr='STR 2 %of', fmt='2dec'}},
+			{Tooltips.full('Confusion', 'DamageTypes')..' Status Chance:', {expr='STR 0.2 %of', fmt='%'}},
+			{Tooltips.full('Blind', 'DamageTypes')..' duration:', {expr='DUR 16 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 18 %of 2 1 BREACH_SURGE_RESERVOIRS if *', suff='m', fmt='1dec'}},
+			{'Primary [[Critical Chance]] bonus:', {expr='STR 0.1 %of 0 BREACH_SURGE_RESERVOIRS CRITICAL_SURGE and if', suff='/m', fmt='%'}},
+			{'Primary Critical Chance bonus duration:', {expr='DUR 9 %of 0 BREACH_SURGE_RESERVOIRS CRITICAL_SURGE and if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST * 0.5 1 BREACH_SURGE_RESERVOIRS CRITICAL_SURGE and if *', fmt='2dec'}}
+		}
+	},
+	['Sol Gate']={
+		ins={
+			{name='SOL_GATE_BOOSTED', cont='Boosted?', type='checkbox'},
+			{name='SOL_GATE_VITALITY', cont='Has Vitality Mote?', type='checkbox'},
+			{name='SOL_GATE_SHOCK', cont='Has Shock Mote?', type='checkbox'},
+			{name='CATACLYSMIC_GATE', cont=Tooltips.full('Cataclysmic Gate', 'Mods')..'?', type='checkbox'},
+		},
+		outs={
+			{'Beam base '..Tooltips.full('Heat', 'DamageTypes')..' or '..Tooltips.full('Radiation', 'DamageTypes')..' damage:',
+				{
+					name='SOL_GATE_BASE_DMG',
+					expr=[[STR 1500 750 SOL_GATE_BOOSTED if %of
+					1 0.25 0 SOL_GATE_VITALITY if
+					0.25 0 SOL_GATE_SHOCK if + + *]],
+					suff='/0.5s'
+				}
+			},
+			{'Beam maxmimum damage:', {expr='1000 SOL_GATE_BASE_DMG %of', suff='/0.5s'}},
+			{'Cataclysmic Gate blast '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 5000 %of 0 CATACLYSMIC_GATE if'}},
+			{'Cataclysmic Gate lingering damage:', {expr='STR 500 %of 1 0.25 0 SOL_GATE_VITALITY SOL_GATE_SHOCK or if + * 0 CATACLYSMIC_GATE if', suff='/0.5s'}},
+			{'Cataclysmic Gate duration:', {expr='DUR 10 %of 0 CATACLYSMIC_GATE if', suff='s', fmt='2dec'}},
+			{'Cataclysmic Gate radius:', {expr='RNG 10 %of 0 CATACLYSMIC_GATE if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='0 24 12 SOL_GATE_BOOSTED if DRAIN * CATACLYSMIC_GATE if', fmt='2dec'}}
+		}
+	},
 	-- Zephyr
 	['Tail Wind']={
 		ins={

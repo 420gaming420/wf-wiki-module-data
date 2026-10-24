@@ -1,13 +1,13 @@
 {
   "page": "Module:Localization",
-  "wiki_timestamp": "2026-09-10T02:49:57Z",
-  "extracted_at": "2026-09-11T02:14:42.929412+00:00",
+  "wiki_timestamp": "2026-10-23T16:41:18Z",
+  "extracted_at": "2026-10-24T07:00:35.357094+00:00",
   "lua_files": [
     "Module-Localization_0.lua",
     "Module-Localization_1.lua"
   ],
   "lua_block_count": 2,
-  "file_size": 2555,
-  "comment_count": 20,
+  "file_size": 2982,
+  "comment_count": 22,
   "status": "success"
 }

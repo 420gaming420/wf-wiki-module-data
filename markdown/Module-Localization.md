@@ -1,7 +1,7 @@
 ---
 title: "Module:Localization"
 wiki_url: "https://wiki.warframe.com/w/Module/Localization"
-wiki_timestamp: "2026-09-10T02:49:57Z"
+wiki_timestamp: "2026-10-23T16:41:18Z"
 ---
 
 **Localization** retrieves and stores [WARFRAME](/w/WARFRAME "WARFRAME")'s localized messages as found in [Public Export](/w/Public_Export "Public Export").
@@ -255,7 +255,7 @@ WARFRAME's localization messages are in the form of a file path, usually startin
 | [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia "wikipedia:Wikipedia") Fork | [M:Arguments](/w/Module:Arguments "Module:Arguments") ([/i18n](/w/Module:Arguments/i18n "Module:Arguments/i18n")) • [M:FallbackList](/w/Module:FallbackList "Module:FallbackList") • [M:Yesno](/w/Module:Yesno "Module:Yesno") |
 | Third-Party Fork | [M:Codec](/w/Module:Codec "Module:Codec") • [M:CSV](/w/Module:CSV "Module:CSV") • [M:Date](/w/Module:Date "Module:Date") • [M:Inspect](/w/Module:Inspect "Module:Inspect") • [M:JSON](/w/Module:JSON "Module:JSON") • [M:Lexer](/w/Module:Lexer "Module:Lexer") • [M:LuaClassSystem](/w/Module:LuaClassSystem "Module:LuaClassSystem") • [M:LuaSerializer](/w/Module:LuaSerializer "Module:LuaSerializer") • [M:Navbox](/w/Module:Navbox "Module:Navbox") • [M:Navigation](/w/Module:Navigation "Module:Navigation") • [M:Unindent](/w/Module:Unindent "Module:Unindent") |
 | Wiki-Unique | [M:Database](/w/Module:Database "Module:Database") • [M:DatastoreManifest](/w/Module:DatastoreManifest "Module:DatastoreManifest") • [M:Delay](/w/Module:Delay "Module:Delay") • [M:DependencyGraph](/w/Module:DependencyGraph "Module:DependencyGraph") • [M:InfoboxBuilder](/w/Module:InfoboxBuilder "Module:InfoboxBuilder") • [M:Lua](/w/Module:Lua "Module:Lua") • [M:Map](/w/Module:Map "Module:Map") • [M:Placeholder](/w/Module:Placeholder "Module:Placeholder") • [M:RemoveCategory](/w/Module:RemoveCategory "Module:RemoveCategory") • [M:StatObject](/w/Module:StatObject "Module:StatObject") • [M:Text](/w/Module:Text "Module:Text") • [M:Tooltips](/w/Module:Tooltips "Module:Tooltips") |
-| Other | [M:Enum/data](/w/Module:Enum/data "Module:Enum/data") • [M:InternalNames](/w/Module:InternalNames "Module:InternalNames") • [M:MasteryRank](/w/Module:MasteryRank "Module:MasteryRank") • [M:Polarity](/w/Module:Polarity "Module:Polarity") • [M:Sandbox](/w/Module:Sandbox "Module:Sandbox") • [M:WarframeUsageData2020/data](/w/Module:WarframeUsageData2020/data "Module:WarframeUsageData2020/data") | |
+| Other | [M:Enum/data](/w/Module:Enum/data "Module:Enum/data") • [M:InternalNames](/w/Module:InternalNames "Module:InternalNames") • [M:MasteryRank](/w/Module:MasteryRank "Module:MasteryRank") • [M:Polarity](/w/Module:Polarity "Module:Polarity") • [M:Sandbox](/w/Module:Sandbox "Module:Sandbox") • [M:Trading](/w/Module:Trading "Module:Trading") • [M:WarframeUsageData2020/data](/w/Module:WarframeUsageData2020/data "Module:WarframeUsageData2020/data") | |
 | Archived/Deprecated | [M:Avionics](/w/Module:Avionics "Module:Avionics") ([/data](/w/Module:Avionics/data "Module:Avionics/data")) • [M:BuildRequire](/w/Module:BuildRequire "Module:BuildRequire") • [M:FormatingTool](/w/Module:FormatingTool "Module:FormatingTool") • [M:Gallery](/w/Module:Gallery "Module:Gallery") • [M:NightwaveActs](/w/Module:NightwaveActs "Module:NightwaveActs") • [M:Shared](/w/Module:Shared "Module:Shared") • [M:Syndicates/data](/w/Module:Syndicates/data "Module:Syndicates/data") • [M:TennoScript](/w/Module:TennoScript "Module:TennoScript") • [M:TranslationExamples](/w/Module:TranslationExamples "Module:TranslationExamples") • [M:VoidByReward](/w/Module:VoidByReward "Module:VoidByReward") • [M:WorldState](/w/Module:WorldState "Module:WorldState") ([/data](/w/Module:Worldstate/data "Module:Worldstate/data")) | |
 | [Bug Reports](/w/WARFRAME_Wiki:Bug_Reports "WARFRAME Wiki:Bug Reports") • [Development Guide](/w/WARFRAME_Wiki:Development_Guide "WARFRAME Wiki:Development Guide") • [Localization Guide](/w/WARFRAME_Wiki:Localization_Guide "WARFRAME Wiki:Localization Guide") ([L10n Message Data Stores](/w/WARFRAME_Wiki:L10n "WARFRAME Wiki:L10n")) • [Programming Standards](/w/WARFRAME_Wiki:Programming_Standards "WARFRAME Wiki:Programming Standards") • [Projects & Current Backlog](/w/WARFRAME_Wiki:Projects "WARFRAME Wiki:Projects") • [Updating Databases](/w/WARFRAME_Wiki:Updating_Databases "WARFRAME Wiki:Updating Databases") • [Full Module List](/w/Special:AllPages/Module: "Special:AllPages/Module:") • [Lua Reference Manual](https://www.mediawiki.org/wiki/Extension:Scribunto/Lua_reference_manual "mw:Extension:Scribunto/Lua reference manual") | | |
 
@@ -275,6 +275,7 @@ WARFRAME's localization messages are in the form of a file path, usually startin
 --	
 
 local p = {}
+local TextIcons = require([[Module:TextIcons]])
 
 local SUPPORTED_FILES = {
 	["Suits.json"] = true,
@@ -299,16 +300,36 @@ end
 function p._getLocaleStringByPath(locale, pathName)
 	local localizedStr = nil
 	for fileName, _ in pairs(SUPPORTED_FILES) do
-		-- Need to encode b/c sometimes item descriptions have special markup that may intefere with wikitext parser (e.g. Warframe passives)
-		localizedStr = mw.text.encode(p._getLocalizationMessages(fileName, pathName)[locale])
-		localizedStr = localizedStr:gsub("|", "|")	-- mw.text.encode doesn't apply to vertical bars
-		if localizedStr ~= nil then
+		local messages = p._getLocalizationMessages(fileName, pathName)
+		if messages and messages[locale] then
+			local text = messages[locale]
+			local tokens = {}
+
+			-- Preserve markup as tokens while encoding.
+			text = text:gsub("<[%w_]+>", function(token)
+				tokens[#tokens + 1] = token
+				return "BeginToken" .. #tokens .. "End"
+			end)
+
+			-- Need to encode b/c sometimes item descriptions have special markup that may intefere with wikitext parser (e.g. Warframe passives)
+			text = mw.text.encode(text)
+			text = text:gsub("|", "|")
+
+			-- Restore tokens.
+			text = text:gsub("BeginToken(%d+)End", function(index)
+				return tokens[tonumber(index)]
+			end)
+
+			localizedStr = TextIcons.getIcon(text, {class = "icon"})
+
 			break
 		end
 	end
+
 	if localizedStr == nil then
-		return error('M:Localization._getLocaleStringByPath(): Cannot find associated ' .. locale .. ' locale string for "' .. pathName '".')	
+		return error('M:Localization._getLocaleStringByPath(): Cannot find associated ' .. locale .. ' locale string for "' .. pathName '".')
 	end
+
 	return localizedStr
 end
 

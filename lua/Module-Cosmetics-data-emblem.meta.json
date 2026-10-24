@@ -1,12 +1,12 @@
 {
   "page": "Module:Cosmetics/data/emblem",
-  "wiki_timestamp": "2026-10-16T07:48:42Z",
-  "extracted_at": "2026-10-17T06:44:21.109246+00:00",
+  "wiki_timestamp": "2026-10-24T00:17:57Z",
+  "extracted_at": "2026-10-24T07:00:34.396469+00:00",
   "lua_files": [
     "Module-Cosmetics-data-emblem_0.lua"
   ],
   "lua_block_count": 1,
-  "file_size": 52803,
+  "file_size": 52802,
   "comment_count": 0,
   "status": "success"
 }

@@ -513,7 +513,7 @@ return {
         CodexSecret = false,
         Description = "Stand apart from the crowd with this Ki'Teer original.",
         ExcludeFromCodex = false,
-        Image = "Ki'Teer Sekhara.png",
+        Image = "Ki'TeerSekhara.png",
         InternalName = "/Lotus/Upgrades/Skins/Clan/BaroQuantumBadgeItem",
         Link = "Ki'Teer Sekhara",
         Name = "Ki'Teer Sekhara",

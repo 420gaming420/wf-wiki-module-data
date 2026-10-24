@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/emblem"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/emblem"
-wiki_timestamp: "2026-10-16T07:48:42Z"
+wiki_timestamp: "2026-10-24T00:17:57Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/emblem/doc](/w/Module:Cosmetics/data/emblem/doc?action=edit&redlink=1 "Module:Cosmetics/data/emblem/doc (page does not exist)")*
@@ -522,7 +522,7 @@ return {
         CodexSecret = false,
         Description = "Stand apart from the crowd with this Ki'Teer original.",
         ExcludeFromCodex = false,
-        Image = "Ki'Teer Sekhara.png",
+        Image = "Ki'TeerSekhara.png",
         InternalName = "/Lotus/Upgrades/Skins/Clan/BaroQuantumBadgeItem",
         Link = "Ki'Teer Sekhara",
         Name = "Ki'Teer Sekhara",

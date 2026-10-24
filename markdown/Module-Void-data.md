@@ -1,7 +1,7 @@
 ---
 title: "Module:Void/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Void/data"
-wiki_timestamp: "2026-10-23T01:40:14Z"
+wiki_timestamp: "2026-10-23T21:41:46Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -16,7 +16,7 @@ Note that no drop chances are stored here since all relics of the same refinemen
 
 Also the place to update if a Prime part's [![](/images/thumb/OrokinDucats.png/32px-OrokinDucats.png?23930)](/w/Orokin_Ducats "Orokin Ducats") [Orokin Ducats](/w/Orokin_Ducats "Orokin Ducats") trade-in value is an anomaly for their rarity. See [#Prime Item Ducat Sell Price](#Prime_Item_Ducat_Sell_Price).
 
-:   *Last updated: Fri, 23 Oct 2026 01:40:14 +0000 (UTC) by [User:SkeletalGamerPrime](/w/User:SkeletalGamerPrime?action=edit&redlink=1 "User:SkeletalGamerPrime (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Void/data?diff=0))*
+:   *Last updated: Fri, 23 Oct 2026 21:41:46 +0000 (UTC) by [User:SkeletalGamerPrime](/w/User:SkeletalGamerPrime?action=edit&redlink=1 "User:SkeletalGamerPrime (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Void/data?diff=0))*
 
 ## Contents
 
@@ -164,7 +164,7 @@ Editors do not need to add [![](/images/thumb/OrokinDucats.png/32px-OrokinDucats
 * If an item part is a common and uncommon drop in different relics, it is worth 25 Ducats instead
 * If an item part is a common and rare drop in different relics, it is worth 25 Ducats instead
 
-If there is item that deviates from this rule, please update the `DUCAT_EXCEPTIONS` table.
+If there is an item that deviates from this rule, please update the `DUCAT_EXCEPTIONS` table.
 
 ### Creating New Void Relic Pages
 
@@ -332,6 +332,7 @@ local DUCAT_EXCEPTIONS = {
 		["Panthera Prime"] = { Receiver = 100 },
 		["Fang Prime"] = { Blueprint = 15 },
 		["Limbo Prime"] = { ["Neuroptics Blueprint"] = 100 },
+		["Caliban Prime"] = { ["Neuroptics Blueprint"] = 100 },
 		["Exilus Weapon Adapter"] = { Blueprint = 0 },
 		["Riven Sliver"] = { [""] = 0 },
 		["Kuva"] = { [""] = 0 },

@@ -1,7 +1,7 @@
 ---
 title: "Module:Decorations/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Decorations/data"
-wiki_timestamp: "2025-08-21T09:28:18Z"
+wiki_timestamp: "2026-10-24T01:21:22Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -16,7 +16,8 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s [Decorations](/w/Decorations "D
 
 ## Decoration Entry Schema
 
-[[edit source](/w/Module:Decorations/data/doc?action=edit&section=T-1 "Edit section's source code: Decoration Entry Schema")]
+[[edit](/w/Module:Decorations/data/doc?action=edit&section=T-1 "Edit Section using Source Editor:
+Decoration Entry Schema")]
 
 ```lua
 	["Decoration Name"] = {
@@ -48,7 +49,8 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s [Decorations](/w/Decorations "D
 
 ### Cost Subtable Schema
 
-[[edit source](/w/Module:Decorations/data/doc?action=edit&section=T-2 "Edit section's source code: Cost Subtable Schema")]
+[[edit](/w/Module:Decorations/data/doc?action=edit&section=T-2 "Edit Section using Source Editor:
+Cost Subtable Schema")]
 
 ```lua
 		Cost = {
@@ -73,7 +75,8 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s [Decorations](/w/Decorations "D
 
 ## Data
 
-[[edit source](/w/Module:Decorations/data/doc?action=edit&section=T-3 "Edit section's source code: Data")]
+[[edit](/w/Module:Decorations/data/doc?action=edit&section=T-3 "Edit Section using Source Editor:
+Data")]
 
 ---
 
@@ -33956,7 +33959,7 @@ return {
 			Cost = {
 				Capacity = 25,
 				Time = 0,
-				Credits = 100,
+				Credits = 500,
 				Resources = {
 					{ Count = 1, Name = "Neurodes" },
 					{ Count = 400, Name = "Rubedo" },
@@ -33972,7 +33975,7 @@ return {
 			Cost = {
 				Capacity = 25,
 				Time = 0,
-				Credits = 100,
+				Credits = 500,
 				Resources = {
 					{ Count = 1, Name = "Neurodes" },
 					{ Count = 400, Name = "Rubedo" },
@@ -33988,7 +33991,7 @@ return {
 			Cost = {
 				Capacity = 25,
 				Time = 0,
-				Credits = 100,
+				Credits = 500,
 				Resources = {
 					{ Count = 1, Name = "Neurodes" },
 					{ Count = 400, Name = "Rubedo" },
@@ -34004,7 +34007,7 @@ return {
 			Cost = {
 				Capacity = 25,
 				Time = 0,
-				Credits = 100,
+				Credits = 500,
 				Resources = {
 					{ Count = 1, Name = "Neurodes" },
 					{ Count = 400, Name = "Rubedo" },

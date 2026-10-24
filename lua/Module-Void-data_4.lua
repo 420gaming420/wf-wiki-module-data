@@ -32,6 +32,7 @@ local DUCAT_EXCEPTIONS = {
 		["Panthera Prime"] = { Receiver = 100 },
 		["Fang Prime"] = { Blueprint = 15 },
 		["Limbo Prime"] = { ["Neuroptics Blueprint"] = 100 },
+		["Caliban Prime"] = { ["Neuroptics Blueprint"] = 100 },
 		["Exilus Weapon Adapter"] = { Blueprint = 0 },
 		["Riven Sliver"] = { [""] = 0 },
 		["Kuva"] = { [""] = 0 },

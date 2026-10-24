@@ -1,7 +1,7 @@
 ---
 title: "Module:Tooltips/tip"
 wiki_url: "https://wiki.warframe.com/w/Module/Tooltips/tip"
-wiki_timestamp: "2026-10-16T19:37:26Z"
+wiki_timestamp: "2026-10-24T01:44:26Z"
 ---
 
 **Tooltips/tip** builds the tooltip box of a tooltip. CSS stylesheet for tooltips can be found on [MediaWiki:Gadget-Tooltips.css](/w/MediaWiki:Gadget-Tooltips.css "MediaWiki:Gadget-Tooltips.css").
@@ -47,9 +47,9 @@ Submodule of [Module:Tooltips](/w/Module:Tooltips "Module:Tooltips"). Not meant 
 
 ---
 
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| |  | | --- | | 2 | |  | | Vectis | |  | | |  |  | | --- | --- | | Slot Primary | Trigger Semi-Auto | | |  | | |  |  |  |  | | --- | --- | --- | --- | | Normal Attack | | | | | 90 | 78.75 | 56.25 | | 225 (40% ) | | | | | |  | | |  |  | | --- | --- | | Crit 25% | 2x | Status 30% | | Fire Rate 1.5 | Multishot 1 | | Reload 1 s | Ammo 1 / 72 | | |  | | |  |  | | --- | --- | | Disposition ●●●●○ (1.15x) | | | Polarities | | | Exilus Pol | | | Bonus - | | | |
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| |  | | --- | | 2 | |  | | Vectis | |  | | |  |  | | --- | --- | | Slot Primary | Trigger Semi-Auto | | |  | | |  |  |  |  | | --- | --- | --- | --- | | Normal Attack | | | | | 90 | 78.75 | 56.25 | | 225 (40% ) | | | | | |  | | |  |  | | --- | --- | | Crit 25% | 2x | Status 30% | | Fire Rate 1.5 | Multishot 1 | | Reload 1 s | Ammo 1 / 72 | | |  | | |  |  | | --- | --- | | Polarities | | | Exilus Pol | | | Bonus - | | | |
 
 ---
 
@@ -908,8 +908,6 @@ Weapons = function(name, slot)
 |-
 | style="text-align:center;" colspan=2 |%s %s
 |-
-| style="text-align:center;" colspan=2 |%s %s
-|-
 |}
 |}
 
@@ -930,7 +928,7 @@ Weapons = function(name, slot)
 			vals[2][1][1], vals[2][1][2], vals[2][2][1], vals[2][2][2], -- Crit chance, crit multi, status chance
 			vals[3][1][1], vals[3][1][2], vals[3][2][1], vals[3][2][2], -- Fire Rate/Multishot; Atk. Speed/Slide Atk.
 			vals[4][1][1], vals[4][1][2], vals[4][2][1], vals[4][2][2], -- Reload/Ammo max; Range/Followthru
-			'Disposition', statFormat('Disposition'), -- Disposition
+			-- 'Disposition', statFormat('Disposition'), -- Disposition
 			'Polarities', Polarity._pols(Weapon['Polarities'], true), -- Polarities
 			statRead('IsMelee') and 'Stance Pol' or 'Exilus Pol', getStanceExilusPolarity(),
 			'Bonus', (

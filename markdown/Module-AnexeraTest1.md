@@ -1,7 +1,7 @@
 ---
 title: "Module:AnexeraTest1"
 wiki_url: "https://wiki.warframe.com/w/Module/AnexeraTest1"
-wiki_timestamp: "2026-10-22T17:59:07Z"
+wiki_timestamp: "2026-10-23T15:41:38Z"
 ---
 
 *Documentation for this module may be created at [Module:AnexeraTest1/doc](/w/Module:AnexeraTest1/doc?action=edit&redlink=1 "Module:AnexeraTest1/doc (page does not exist)")*
@@ -104,8 +104,13 @@ local function formatDataList(list, mode, caption, id)
 		elseif mode == 'collapsible' then
 			local collapsibleId = id or 'collapsibleList'
 			return string.format(
-				'%s ▼  
-%s',
+				'
+
+%s ▼
+
+%s
+
+',
 				collapsibleId, displayLabel, collapsibleId, table.concat(list, '  
 ', startIndex)
 			)

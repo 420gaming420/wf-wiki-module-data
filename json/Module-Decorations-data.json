@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:56:03.266Z"
+    "converted_at": "2026-10-24T07:00:48.672Z"
   },
   "_comments": "",
   "Trophies": {
@@ -2363,7 +2363,7 @@
           }
         ],
         "Time": 0,
-        "Credits": 100
+        "Credits": 500
       }
     },
     "Ostron Trader Woman (Standing)": {
@@ -2391,7 +2391,7 @@
           }
         ],
         "Time": 0,
-        "Credits": 100
+        "Credits": 500
       }
     },
     "Solaris Hazard Worker (Standing)": {
@@ -2447,7 +2447,7 @@
           }
         ],
         "Time": 0,
-        "Credits": 100
+        "Credits": 500
       }
     },
     "Solaris Rig Jockey (Seated)": {
@@ -2503,7 +2503,7 @@
           }
         ],
         "Time": 0,
-        "Credits": 100
+        "Credits": 500
       }
     }
   },

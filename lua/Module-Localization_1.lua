@@ -8,6 +8,7 @@
 --	
 
 local p = {}
+local TextIcons = require([[Module:TextIcons]])
 
 local SUPPORTED_FILES = {
 	["Suits.json"] = true,
@@ -32,16 +33,36 @@ end
 function p._getLocaleStringByPath(locale, pathName)
 	local localizedStr = nil
 	for fileName, _ in pairs(SUPPORTED_FILES) do
-		-- Need to encode b/c sometimes item descriptions have special markup that may intefere with wikitext parser (e.g. Warframe passives)
-		localizedStr = mw.text.encode(p._getLocalizationMessages(fileName, pathName)[locale])
-		localizedStr = localizedStr:gsub("|", "&#124;")	-- mw.text.encode doesn't apply to vertical bars
-		if localizedStr ~= nil then
+		local messages = p._getLocalizationMessages(fileName, pathName)
+		if messages and messages[locale] then
+			local text = messages[locale]
+			local tokens = {}
+
+			-- Preserve markup as tokens while encoding.
+			text = text:gsub("<[%w_]+>", function(token)
+				tokens[#tokens + 1] = token
+				return "BeginToken" .. #tokens .. "End"
+			end)
+
+			-- Need to encode b/c sometimes item descriptions have special markup that may intefere with wikitext parser (e.g. Warframe passives)
+			text = mw.text.encode(text)
+			text = text:gsub("|", "&#124;")
+
+			-- Restore tokens.
+			text = text:gsub("BeginToken(%d+)End", function(index)
+				return tokens[tonumber(index)]
+			end)
+
+			localizedStr = TextIcons.getIcon(text, {class = "icon"})
+
 			break
 		end
 	end
+
 	if localizedStr == nil then
-		return error('M:Localization._getLocaleStringByPath(): Cannot find associated ' .. locale .. ' locale string for "' .. pathName '".')	
+		return error('M:Localization._getLocaleStringByPath(): Cannot find associated ' .. locale .. ' locale string for "' .. pathName '".')
 	end
+
 	return localizedStr
 end
 

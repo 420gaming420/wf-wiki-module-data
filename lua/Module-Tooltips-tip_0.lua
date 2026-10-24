@@ -608,8 +608,6 @@ Weapons = function(name, slot)
 |-
 | style="text-align:center;" colspan=2 |<span class="tt-link-text">%s</span>&nbsp;%s
 |-
-| style="text-align:center;" colspan=2 |<span class="tt-link-text">%s</span>&nbsp;%s
-|-
 |}
 |}
 </div>
@@ -629,7 +627,7 @@ Weapons = function(name, slot)
 			vals[2][1][1], vals[2][1][2], vals[2][2][1], vals[2][2][2], -- Crit chance, crit multi, status chance
 			vals[3][1][1], vals[3][1][2], vals[3][2][1], vals[3][2][2], -- Fire Rate/Multishot; Atk. Speed/Slide Atk.
 			vals[4][1][1], vals[4][1][2], vals[4][2][1], vals[4][2][2], -- Reload/Ammo max; Range/Followthru
-			'Disposition', statFormat('Disposition'), -- Disposition
+			-- 'Disposition', statFormat('Disposition'), -- Disposition
 			'Polarities', Polarity._pols(Weapon['Polarities'], true), -- Polarities
 			statRead('IsMelee') and 'Stance Pol' or 'Exilus Pol', getStanceExilusPolarity(),
 			'Bonus', (

@@ -1,3 +1,4 @@
+
 local startTime = os.clock()
 local p = {}
 
@@ -94,7 +95,7 @@ local function formatDataList(list, mode, caption, id)
 		elseif mode == 'collapsible' then
 			local collapsibleId = id or 'collapsibleList'
 			return string.format(
-				'<span class="mw-customtoggle-%s">%s ▼</span><span class="mw-collapsible mw-collapsed" id="mw-customcollapsible-%s"><br />%s</span>',
+				'<div class="mw-customtoggle-%s">%s ▼</div><div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-%s">%s</div>',
 				collapsibleId, displayLabel, collapsibleId, table.concat(list, '<br />', startIndex)
 			)
 		end

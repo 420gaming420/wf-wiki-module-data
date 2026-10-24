@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/userdata"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/userdata"
-wiki_timestamp: "2026-10-16T13:29:20Z"
+wiki_timestamp: "2026-10-23T13:52:40Z"
 ---
 
 ## Users Data Schema
@@ -562,6 +562,7 @@ return {
 				"Eskhatos Ki'Teer Chest Guard",
 				"Eskhatos Ki'Teer Shoulder Guards",
 				"Eskhatos Ki'Teer Knee Guards",
+				"Eskhatos Pauldrons",
 				"Etheria Chest Plate",
 				"Etheria Leg Plates",
 				"Etheria Shoulder Plates",
@@ -2131,6 +2132,7 @@ return {
 				"Emissary Emblem",
 				"Epoch Operation Vessel Emblem",
 				"Erznung Emblem",
+				"Eskhatos Sekhara",
 				"Eyes of Blight Emblem",
 				"False Profit Emblem",
 				"Frightening Flock Emblem",
