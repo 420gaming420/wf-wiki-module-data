@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization"
-wiki_timestamp: "2026-10-21T22:43:30Z"
+wiki_timestamp: "2026-10-24T15:38:51Z"
 ---
 
 **Maximization** creates a stat maximization calculator for Warframe abilities.
@@ -220,7 +220,7 @@ for _, name in ipairs(names) do
 	if data and data.post then
 		table.insert(posttexts, '
 
-'..data.post..'
+'..tooltipsub(data.post)..'
 
 ');
 	end

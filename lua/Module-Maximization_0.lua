@@ -130,7 +130,7 @@ for _, name in ipairs(names) do
 		..Tooltips.full(name, 'Ability')..'\n|-\n'..table.concat(block, '\n')..'\n|}');
 
 	if data and data.post then
-		table.insert(posttexts, '<div style="width: 100%">'..data.post..'</div>');
+		table.insert(posttexts, '<div style="width: 100%">'..tooltipsub(data.post)..'</div>');
 	end
 	if not data then
 		table.insert(posttexts, '<div style="width: 100%">'.."''Help create a maximization calculator for "

@@ -1,12 +1,12 @@
 {
   "page": "Module:Weapons/comptable",
-  "wiki_timestamp": "2026-07-10T01:26:39Z",
-  "extracted_at": "2026-08-31T21:22:45.687111+00:00",
+  "wiki_timestamp": "2026-10-24T10:11:17Z",
+  "extracted_at": "2026-10-25T07:24:19.710703+00:00",
   "lua_files": [
     "Module-Weapons-comptable_0.lua"
   ],
   "lua_block_count": 1,
-  "file_size": 24658,
-  "comment_count": 79,
+  "file_size": 24664,
+  "comment_count": 80,
   "status": "success"
 }

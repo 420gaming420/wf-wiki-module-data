@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-10-23T21:18:03Z"
+wiki_timestamp: "2026-10-24T15:45:41Z"
 ---
 
 ## Contents
@@ -923,6 +923,55 @@ local Data = {
 			{'Critical Chance bonus duration extension:', {expr='DUR 3 %of 0 LASTING_COVENANT if', suff='s/Weak Point kill', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
+	},
+	-- Inaros
+	['Desiccation']={
+		outs={
+			{'Initial '..Tooltips.full('True', 'DamageTypes')..' damage:', {expr='STR 150 %of'}},
+			{Tooltips.full('True', 'DamageTypes')..' damage over time:', {name='DESICCATION_DOT', expr='STR 8 %of', suff='/s'}},
+			{Tooltips.full('Health', 'Stats')..' restoration:', {expr='25 DESICCATION_DOT %of', suff='/s/enemy'}},
+			{Tooltips.full('Blind', 'DamageTypes')..' duration:', {expr='DUR 8 %of', suff='s', fmt='2dec'}},
+			{'Range:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		},
+		post="Calculations for Swarm Kavats from "..Tooltips.full("Desiccation's Curse", "Mods").." can be found in the "..Tooltips.full("Scarab Swarm", "Ability").." calculator."
+	},
+	['Sandstorm']={
+		ins={
+			{name='ELEMENTAL_SANDSTORM', cont=Tooltips.full('Elemental Sandstorm', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 125 %of', suff='/0.25s'}},
+			{Tooltips.full('Health', 'Stats')..' restoration:', {expr='STR 50 %of', suff='/0.5s/enemy'}},
+			{'Duration:', {expr='DUR 4 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 50 0 ELEMENTAL_SANDSTORM if + 7.5 %of', suff='m', fmt='1dec'}},
+			{'Melee [[Damage Type]]s [[Status Chance]]:', {expr='STR 1 %of 0 ELEMENTAL_SANDSTORM if', fmt='%'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Scarab Shell']={
+		ins={
+			{name='INAROS_HEALTH', cont='Current maximum '..Tooltips.full('Health', 'Stats')..':', min='1', value='2310'},
+			{name='NEGATION_ARMOR', cont=Tooltips.full('Negation Armor', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Armor', 'Stats')..' bonus:', {expr='STR 350 %of'}},
+			{'Negation Armor '..Tooltips.full('Bleed', 'DamageTypes')..' damage:', {expr='20 INAROS_HEALTH %of 0 NEGATION_ARMOR if', suff='/tick'}}
+		},
+	},
+	['Scarab Swarm']={
+		ins={
+			{name='INAROS_HEALTH', cont='Current maximum '..Tooltips.full('Health', 'Stats')..':', min='1', value='2310'},
+			{name='SWARM_KAVAT_LEVEL', cont='Swarm Kavat level:', min='1', value='1'}
+		},
+		outs={
+			{Tooltips.full('Corrosive', 'DamageTypes')..' damage:', {expr='20 INAROS_HEALTH %of', suff='/0.5s'}},
+			{'Swarm duration:', {expr='DUR 15 %of', suff='s', fmt='2dec'}},
+			{'Cast range:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
+			{'Spread range:', {expr='RNG 12 %of', suff='m', fmt='1dec'}},
+			{'Swarm Kavat '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='SWARM_KAVAT_LEVEL 1 - 1.55 ^ 0.015 * 1 + 350 *'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		},
 	},
 	-- Jade
 	["Light's Judgment"]={

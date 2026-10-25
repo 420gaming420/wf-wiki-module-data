@@ -1,7 +1,7 @@
 ---
 title: "Module:Weapons/comptable"
 wiki_url: "https://wiki.warframe.com/w/Module/Weapons/comptable"
-wiki_timestamp: "2026-07-10T01:26:39Z"
+wiki_timestamp: "2026-10-24T10:11:17Z"
 ---
 
 Weapon comparison table builders as seen on [Weapon Comparison](/w/Weapon_Comparison "Weapon Comparison") and [Projectile Speed](/w/Projectile_Speed "Projectile Speed").
@@ -292,7 +292,7 @@ Max]]")
 		:insert("MinSpread", "Min. Spread")
 		:insert("MaxSpread", "Max. Spread")
 		:insert("Range", "Range")
-		:insert("Disposition", "[[Riven Mods#Disposition|Dispo]]")
+		-- :insert("Disposition", "[[Riven Mods#Disposition|Dispo]]")
 		:insert("NoiseLevel", "[[Noise Level|Noise]]")
 		:insert("Mastery", "[[Mastery Rank|MR]]")
 		:insert("IntroducedDate", "Introduced")
@@ -410,7 +410,7 @@ Element")
 		:insert("AvgDmgWithAnimSpeedMulti", "Avg Dmg ×  
 Atk Spd")
 		:insert("StatusChance", "[[Status Chance|Status]]")
-		:insert("Disposition", "[[Riven Mods#Disposition|Dispo]]")
+		-- :insert("Disposition", "[[Riven Mods#Disposition|Dispo]]")
 		:insert("FollowThrough", "[[Melee#Follow Through|Follow  
 Through]]")
 		:insert("BlockAngle", "[[Blocking|Block  
