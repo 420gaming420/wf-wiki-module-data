@@ -3429,13 +3429,13 @@ return {
 				--{ "Vanguard E1 Relic", "Relic", 1, Limit = 100 },
 				--{ "Vanguard M1 Relic", "Relic", 1, Limit = 100 },
 				--{ "Vanguard P1 Relic", "Relic", 1, Limit = 100 },
-				-- Banshee/Mirage
-				{ "Lith K5 Relic", "Relic", 1 },
-				{ "Lith M7 Relic", "Relic", 1 },
-				{ "Meso E5 Relic", "Relic", 1 },
-				{ "Neo B6 Relic", "Relic", 1 },
-				{ "Axi H5 Relic", "Relic", 1 },
-				{ "Axi A12 Relic", "Relic", 1 },
+				-- Ivara/Protea
+				{ "Lith B12 Relic", "Relic", 1 },
+				{ "Meso I3 Relic", "Relic", 1 },
+				{ "Meso V16 Relic", "Relic", 1 },
+				{ "Neo P11 Relic", "Relic", 1 },
+				{ "Neo O4 Relic", "Relic", 1 },
+				{ "Axi A23 Relic", "Relic", 1 },
 				-- Evergreen Items
 				{ "Burston Prime", "Weapon", { ["Regal Aya"] = 2 } },
 				{ "Braton Prime", "Weapon", { ["Regal Aya"] = 1 } },

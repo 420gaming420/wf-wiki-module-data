@@ -1,16 +1,17 @@
 ---
 title: "Module:Vendors/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Vendors/data"
-wiki_timestamp: "2026-09-04T02:51:17Z"
+wiki_timestamp: "2026-10-25T17:20:17Z"
 ---
 
 Database of NPC vendor offerings. Items sold through the [Market](/w/Market "Market") not included.
 
-:   *Last updated: Fri, 04 Sep 2026 02:51:17 +0000 (UTC) by [User:Kazzarin](/w/User:Kazzarin "User:Kazzarin") ([change log](https://wiki.warframe.com/w/Module:Vendors/data?diff=0))*
+:   *Last updated: Sun, 25 Oct 2026 17:20:17 +0000 (UTC) by [User:Nelsei](/w/User:Nelsei "User:Nelsei") ([change log](https://wiki.warframe.com/w/Module:Vendors/data?diff=0))*
 
 ## General Offerings Schema
 
-[[edit source](/w/Module:Vendors/data/doc?action=edit&section=T-1 "Edit section's source code: General Offerings Schema")]
+[[edit](/w/Module:Vendors/data/doc?action=edit&section=T-1 "Edit Section using Source Editor:
+General Offerings Schema")]
 
 ```lua
 			{
@@ -41,7 +42,8 @@ Database of NPC vendor offerings. Items sold through the [Market](/w/Market "Mar
 
 ## Vendor Entry Schema
 
-[[edit source](/w/Module:Vendors/data/doc?action=edit&section=T-2 "Edit section's source code: Vendor Entry Schema")]
+[[edit](/w/Module:Vendors/data/doc?action=edit&section=T-2 "Edit Section using Source Editor:
+Vendor Entry Schema")]
 
 | Key/Column Name | Data Type | Required? | Explanation/Description | Example(s) |
 | --- | --- | --- | --- | --- |
@@ -54,7 +56,8 @@ Database of NPC vendor offerings. Items sold through the [Market](/w/Market "Mar
 
 ## Vendor Data
 
-[[edit source](/w/Module:Vendors/data/doc?action=edit&section=T-3 "Edit section's source code: Vendor Data")]
+[[edit](/w/Module:Vendors/data/doc?action=edit&section=T-3 "Edit Section using Source Editor:
+Vendor Data")]
 
 ---
 
@@ -3489,13 +3492,13 @@ return {
 				--{ "Vanguard E1 Relic", "Relic", 1, Limit = 100 },
 				--{ "Vanguard M1 Relic", "Relic", 1, Limit = 100 },
 				--{ "Vanguard P1 Relic", "Relic", 1, Limit = 100 },
-				-- Banshee/Mirage
-				{ "Lith K5 Relic", "Relic", 1 },
-				{ "Lith M7 Relic", "Relic", 1 },
-				{ "Meso E5 Relic", "Relic", 1 },
-				{ "Neo B6 Relic", "Relic", 1 },
-				{ "Axi H5 Relic", "Relic", 1 },
-				{ "Axi A12 Relic", "Relic", 1 },
+				-- Ivara/Protea
+				{ "Lith B12 Relic", "Relic", 1 },
+				{ "Meso I3 Relic", "Relic", 1 },
+				{ "Meso V16 Relic", "Relic", 1 },
+				{ "Neo P11 Relic", "Relic", 1 },
+				{ "Neo O4 Relic", "Relic", 1 },
+				{ "Axi A23 Relic", "Relic", 1 },
 				-- Evergreen Items
 				{ "Burston Prime", "Weapon", { ["Regal Aya"] = 2 } },
 				{ "Braton Prime", "Weapon", { ["Regal Aya"] = 1 } },

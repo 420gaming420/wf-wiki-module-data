@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-10-24T15:45:41Z"
+wiki_timestamp: "2026-10-25T17:55:25Z"
 ---
 
 ## Contents
@@ -2301,6 +2301,61 @@ local Data = {
 			{'Duration:', {expr='DUR 10 %of', suff='s'}},
 			{'Radius:', {expr='RNG 15 %of', suff='m'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
+		}
+	},
+	-- Volt
+	['Shock']={
+		ins={
+			{name='VOLT_PASSIVE', cont='[[Volt/Abilities/Passive|Static Discharge]]:', min='0', max='1000', value='0'},
+			{name='SHOCK_TROOPER', cont=Tooltips.full('Shock Trooper', 'Mods')..'?', type='checkbox'},
+		},
+		outs={
+			{Tooltips.full('Electricity', 'DamageTypes')..' damage:', {expr='STR 200 %of VOLT_PASSIVE +'}},
+			{'Chain range:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Electricity', 'DamageTypes')..' damage bonus:', {expr='STR 1 %of 0 SHOCK_TROOPER if', fmt='%'}},
+			{Tooltips.full('Electricity', 'DamageTypes')..' damage bonus duration:', {expr='DUR 40 %of 0 SHOCK_TROOPER if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Electricity', 'DamageTypes')..' damage bonus radius:', {expr='RNG 15 %of 0 SHOCK_TROOPER if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='15 COST *', fmt='2dec'}}
+		}
+	},
+	['Speed']={
+		ins={
+			{name='SHOCKING_SPEED', cont=Tooltips.full('Shocking Speed', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'[[Movement Speed]] bonus to user and NPCs:', {expr='STR 0.75 %of', fmt='%'}},
+			{'[[Movement Speed]] bonus to other players:', {expr='STR 0.75 %of 1.5 min', fmt='%'}},
+			{'[[Reload Speed]] bonus:', {expr='STR 0.25 %of', fmt='%'}},
+			{'Duration:', {expr='DUR 12 %of', suff='s', fmt='2dec'}},
+			{'Buff radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Electricity', 'DamageTypes')..' damage:', {expr='STR 300 %of 0 SHOCKING_SPEED if'}},
+			{Tooltips.full('Electricity', 'DamageTypes')..' damage radius:', {expr='RNG 3 %of 0 SHOCKING_SPEED if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Electric Shield']={
+		ins={
+			{name='RECHARGE_BARRIER', cont=Tooltips.full('Recharge Barrier', 'Mods')..'?', type='checkbox'},
+			{name='TRANSISTOR_SHIELD', cont=Tooltips.full('Transistor Shield', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Duration:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Shield', 'Stats')..' restoration:', {expr='STR 0.35 %of 0 RECHARGE_BARRIER if', fmt='%'}},
+			{'Blocked damage to [[Volt/Abilities/Passive|Static Discharge]] conversion:', {expr='STR 3 %of 0 TRANSISTOR_SHIELD if', fmt='%'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Discharge']={
+		ins={
+			{name='CAPACITANCE', cont=Tooltips.full('Capacitance', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Electricity', 'DamageTypes')..' damage:', {expr='STR 1200 %of', suff='/s'}},
+			{'Stun duration:', {name='DISCHARGE_DUR', expr='DISCHARGE_FALLOFF DUR 6 %of %of', suff='s', fmt='2dec'}},
+			{'Shockwave radius:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
+			{'Arc radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
+			{'Damage to Shield conversion:', {expr='STR 0.03 %of 0 CAPACITANCE if', fmt='%'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},
 	-- Wisp
