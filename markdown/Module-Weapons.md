@@ -1,7 +1,7 @@
 ---
 title: "Module:Weapons"
 wiki_url: "https://wiki.warframe.com/w/Module/Weapons"
-wiki_timestamp: "2026-10-22T19:35:35Z"
+wiki_timestamp: "2026-10-26T19:58:51Z"
 ---
 
 **Weapons** contains all of [WARFRAME](/w/WARFRAME "WARFRAME")'s [weapon](/w/Weapons "Weapons") data.
@@ -218,7 +218,7 @@ Quick navigation to submodules:
 :   **Returns**: Wikitext of resultant wikitable (string)
 
 `weapons._shortLinkList(Weapon, tooltip)` (function)
-:   Builds a list of weapons, with variants being next to base weapon name inside parentheses (e. g. [![](/images/thumb/Braton.png/32px-Braton.png?95621)](/w/Braton "Braton") [Braton](/w/Braton "Braton") (**[Tooltip](/w/Module:Tooltips "Module:Tooltips") error: "[MK1-Braton](/w/MK1-Braton "MK1-Braton")" wasn't found in [Module:Weapons/data](/w/Module:Weapons/data "Module:Weapons/data")**, [![](/images/thumb/BratonPrime.png/32px-BratonPrime.png?c49e4)](/w/Braton_Prime "Braton Prime") [Prime](/w/Braton_Prime "Braton Prime"))).
+:   Builds a list of weapons, with variants being next to base weapon name inside parentheses (e. g. [![](/images/thumb/Braton.png/32px-Braton.png?95621)](/w/Braton "Braton") [Braton](/w/Braton "Braton") ([![](/images/thumb/Braton.png/32px-Braton.png?95621)](/w/Mk1-Braton "Mk1-Braton") [Mk1](/w/Mk1-Braton "Mk1-Braton"), [![](/images/thumb/BratonPrime.png/32px-BratonPrime.png?c49e4)](/w/Braton_Prime "Braton Prime") [Prime](/w/Braton_Prime "Braton Prime"))).
 :   **Parameters**:
 
     * `Weapon` Weapon table (table)
@@ -1653,7 +1653,7 @@ local function variantOf(weap)
 end
 
 ---	Builds a list of weapons, with variants being next to base weapon name inside parentheses
---	(e.g. {{Weapon|Braton}} ({{Weapon|MK1-Braton|MK1}}, {{Weapon|Braton Prime|Prime}})).
+--	(e.g. {{Weapon|Braton}} ({{Weapon|Mk1-Braton|Mk1}}, {{Weapon|Braton Prime|Prime}})).
 --	@function		p._shortLinkList
 --	@param			{table} Weapon Weapon table
 --	@param			{boolean} tooltip If true, adds weapon tooltips, false otherwise; defaults to false

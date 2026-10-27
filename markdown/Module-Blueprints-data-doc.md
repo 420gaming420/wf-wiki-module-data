@@ -1,7 +1,7 @@
 ---
 title: "Module:Blueprints/data/doc"
 wiki_url: "https://wiki.warframe.com/w/Module/Blueprints/data/doc"
-wiki_timestamp: "2026-08-03T22:27:25Z"
+wiki_timestamp: "2026-10-27T01:07:45Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Database for blueprint recipes. Includes crafting requirements for [Railjack](/w
 
 Costs for Dojo [Decorations](/w/Decorations "Decorations") can be found in [Module:Decorations/data](/w/Module:Decorations/data "Module:Decorations/data") instead.
 
-:   *Last updated: Mon, 03 Aug 2026 22:27:25 +0000 (UTC) by [User:~2026-HamsterBcozofCorrupted39482](/w/User:~2026-HamsterBcozofCorrupted39482?action=edit&redlink=1 "User:~2026-HamsterBcozofCorrupted39482 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Blueprints/data/doc?diff=0))*
+:   *Last updated: Tue, 27 Oct 2026 01:07:34 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Blueprints/data/doc?diff=0))*
 
 ## Contents
 
@@ -28,7 +28,8 @@ Costs for Dojo [Decorations](/w/Decorations "Decorations") can be found in [Modu
 
 ## Blueprint Entry Schema
 
-[[edit source](/w/Module:Blueprints/data/doc?action=edit&section=1 "Edit section's source code: Blueprint Entry Schema")]
+[[edit](/w/Module:Blueprints/data/doc?action=edit&section=1 "Edit Section using Source Editor:
+Blueprint Entry Schema")]
 
 ```lua
 	["Item Name"] = {
@@ -65,13 +66,15 @@ Costs for Dojo [Decorations](/w/Decorations "Decorations") can be found in [Modu
 
 ## Templates
 
-[[edit source](/w/Module:Blueprints/data/doc?action=edit&section=2 "Edit section's source code: Templates")]
+[[edit](/w/Module:Blueprints/data/doc?action=edit&section=2 "Edit Section using Source Editor:
+Templates")]
 
 For copying and pasting:
 
 ### Generic Item
 
-[[edit source](/w/Module:Blueprints/data/doc?action=edit&section=3 "Edit section's source code: Generic Item")]
+[[edit](/w/Module:Blueprints/data/doc?action=edit&section=3 "Edit Section using Source Editor:
+Generic Item")]
 
 ```lua
 		["Item Name"] = {
@@ -91,7 +94,8 @@ For copying and pasting:
 
 ### New Warframe
 
-[[edit source](/w/Module:Blueprints/data/doc?action=edit&section=4 "Edit section's source code: New Warframe")]
+[[edit](/w/Module:Blueprints/data/doc?action=edit&section=4 "Edit Section using Source Editor:
+New Warframe")]
 
 ```lua
 		Warframe = {
@@ -156,7 +160,8 @@ For copying and pasting:
 
 ### New Prime Warframe
 
-[[edit source](/w/Module:Blueprints/data/doc?action=edit&section=5 "Edit section's source code: New Prime Warframe")]
+[[edit](/w/Module:Blueprints/data/doc?action=edit&section=5 "Edit Section using Source Editor:
+New Prime Warframe")]
 
 ```lua
 		["Warframe Prime"] = {
@@ -219,7 +224,8 @@ For copying and pasting:
 
 ## Collections
 
-[[edit source](/w/Module:Blueprints/data/doc?action=edit&section=6 "Edit section's source code: Collections")]
+[[edit](/w/Module:Blueprints/data/doc?action=edit&section=6 "Edit Section using Source Editor:
+Collections")]
 
 Data store has two collections:
 
@@ -228,5 +234,6 @@ Data store has two collections:
 
 ## Data
 
-[[edit source](/w/Module:Blueprints/data/doc?action=edit&section=7 "Edit section's source code: Data")]
+[[edit](/w/Module:Blueprints/data/doc?action=edit&section=7 "Edit Section using Source Editor:
+Data")]
 

@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-10-25T17:55:25Z"
+wiki_timestamp: "2026-10-26T23:35:06Z"
 ---
 
 ## Contents
@@ -158,12 +158,7 @@ local GenericIns = {
 };
 
 -- this contains mappings for what we couldn't pull from preexisting modules
-local AbilitySets = {
-	Helminth={
-		'Empower', 'Infested Mobility', "Master's Summons", 'Rebuild Shields', 'Perspicacity', 'Energized Munitions', 'Marked For Death',
-		'Expedite Suffering', 'Parasitic Armor', 'Hideous Resistance', 'Voracious Metastasis', 'Sickening Pulse', 'Golden Instinct',
-	},
-};
+local AbilitySets = {};
 
 local Data = {
 	AbilitySets = AbilitySets,
@@ -349,6 +344,46 @@ local Data = {
 			{'Radius:', {expr='RNG 20 %of', suff='m'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 75 GASEOUS_QUAKE if COST *', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='16 DRAIN * 1.2 GASEOUS_QUAKE_DURATION ^ * 0 GASEOUS_QUAKE if', fmt='2dec'}}
+		}
+	},
+	-- Bonewidow
+	['Meathook']={
+		outs={
+			{'% enemy health as '..Tooltips.full('Impact', 'DamageTypes')..' damage per second:', {expr='STR 20 %of', suff='%/s'}},
+			{'% lifesteal conversion rate of health drain:', {expr='STR 40 %of', suff='%'}},
+			{'% enemy health as '..Tooltips.full('Impact', 'DamageTypes')..' explosion damage:', {expr='STR 50 %of', suff='%'}},
+			{'Explosion radius:', {expr='RNG 17 %of', suff='m'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}},
+		}
+	},
+	['Shield Maiden']={
+		ins={
+			{name='ABSORBED_DAMAGE', cont='Absorbed damage'},
+			{name='BASE_ARMOR', cont='Base '..Tooltips.full('Armor', 'Stats'), default='480'},
+			{name='ARMOR_BONUSES', cont='% '..Tooltips.full('Armor', 'Stats')..' bonuses', suff='%'},
+			{name='SHIELD_MAIDEN_ARMOR_MULTIPLIER', cont='Armor multiplier', value='2.5', suff='x'},
+		},
+		outs={
+			{'Shield Maiden base health:', {name='SHIELD_MAIDEN_BASE_HEALTH', expr='STR 2000 %of'}},
+			{'Shield Maiden modified health:', {name='SHIELD_MAIDEN_BASE_HEALTH SHIELD_MAIDEN_ARMOR_MULTIPLIER BASE_ARMOR 1 ARMOR_BONUSES + * * + STR %of * ABSORBED_DAMAGE +'}},
+			{'Reflected damage multiplier:', {expr='STR 2 %of', suff='x', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}},
+			{"Maiden's Kiss "..Tooltips.full('Energy', 'Stats')..' cost (shield bash):', {expr='15 COST *'}},
+		}
+	},
+	['Firing Line']={
+		outs={
+			{Tooltips.full('Lifted', 'DamageTypes')..' duration:', {expr='DUR 5 %of', suff='s'}},
+			{'Range:', {expr='RNG 25 %of', suff='m'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}},
+		}
+	},
+	['Exalted Ironbride']={
+		outs={
+			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 1500 %of'}},
+			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 1500 %of'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='2.5 DRAIN *', suff='/s', fmt='2dec'}},
 		}
 	},
 	-- Caliban
@@ -1779,6 +1814,38 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
 		}
 	},
+	-- Odonata
+	['Energy Shell']={
+		outs={
+			{'Duration:', {expr='DUR 22 %of', suff='s'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+		}
+	},
+	['Disarray']={
+		outs={
+			{'Duration:', {expr='DUR 8 %of', suff='s'}},
+			{'Range ([[Archwing]] missions):', {expr='RNG 180 %of', suff='m'}},
+			{'Range ([[Landscape]] missions):', {expr='RNG 18 %of', suff='m'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+		}
+	},
+	['Seeking Fire']={
+		outs={
+			{'Number of missile volleys:', {expr='STR 8 %of'}},
+			{'Tracking range ([[Archwing]] missions):', {expr='RNG 480 %of', suff='m'}},
+			{'Tracking range ([[Landscape]] missions):', {expr='RNG 48 %of', suff='m'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
+		}
+	},
+	['Repel']={
+		outs={
+			{Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 1500 %of'}},
+			{Tooltips.full('Disarmed', 'DamageTypes')..' and stun duration:', {expr='DUR 11 %of', suff='s'}},
+			{'Radius ([[Archwing]] missions):', {expr='RNG 140 %of', suff='m'}},
+			{'Radius ([[Landscape]] missions):', {expr='RNG 14 %of', suff='m'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+		}
+	},
 	-- Oraxia
 	["Mercy's Kiss"]={
 		outs={
@@ -2303,6 +2370,43 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
 		}
 	},
+	-- Voidrig
+	['Necraweb']={
+		outs={
+			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 2000 %of'}},
+			{'Duration:', {expr='DUR 20 %of', suff='s'}},
+			{'Slow field radius:', {expr='RNG 20 %of', suff='m'}},
+			{'Mid-air explosion radius:', {expr='RNG 25 %of', suff='m'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+		}
+	},
+	['Storm Shroud']={
+		ins={
+			{name='ABSORBED_DAMAGE', cont='Absorbed damage'},
+		},
+		outs={
+			{'Health buffer base health:', {name='STORM_SHROUD_BASE_HEALTH', expr='STR 1200 %of'}},
+			{'Damage absorption multiplier:', {name='DAMAGE_ABSORPTION_MULTIPLIER', expr='STR 2 %of', suff='x', fmt='2dec'}},
+			{'Health buffer modified health:', {expr='STORM_SHROUD_BASE_HEALTH ABSORBED_DAMAGE DAMAGE_ABSORPTION_MULTIPLIER * +'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+		}
+	},
+	['Gravemines']={
+		outs={
+			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 200 %of'}},
+			{'Number of mines:', {expr='DUR 24 %of'}},
+			{'Mine scattering range:', {expr='RNG 8 %of', suff='m'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
+		}
+	},
+	['Guard Mode']={
+		outs={
+			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
+			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', suff='/s', fmt='2dec'}}
+		}
+	},
 	-- Volt
 	['Shock']={
 		ins={
@@ -2562,6 +2666,83 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
+	-- Railjack
+	['Blackout Pulse']={
+		outs={
+			{Tooltips.full('Electricity', 'DamageTypes')..' damage:', {expr='STR 600 %of', suff='/pulse'}},
+			{'Base radius:', {expr='RNG 150 %of', suff='m', fmt='1dec'}},
+			{'Manual detonation radius:', {expr='RNG 200 %of', suff='m'}},
+			{'Base '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Countermeasures']={
+		outs={
+			{'Flare lifetime:', {name='COUNTERMEASURES_DUR', expr='DUR 10 %of', suff='s', fmt='2dec'}},
+			{'Total flare travel distance:', {expr='70 COUNTERMEASURES_DUR *', suff='m'}},
+			{'Base '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='5 COST *', fmt='2dec'}}
+		}
+	},
+	['Munitions Vortex']={
+		outs={
+			{'Vortex duration:', {expr='DUR 8 %of', suff='s', fmt='2dec'}},
+			{'Vortex radius:', {expr='RNG 70 %of', suff='m', fmt='1dec'}},
+			{'Base '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Particle Ram']={
+		outs={
+			{'Minimum '..Tooltips.full('Radiation', 'DamageTypes').. ' damage:', {expr='STR 1000 %of'}},
+			{'Maximum '..Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='STR 2000 %of'}},
+			{'Launched ram lifetime:', {expr='DUR 6 %of', suff='s', fmt='2dec'}},
+			{'Base '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		}
+	},
+	['Shatter Burst']={
+		outs={
+			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 6000 %of', suff='/explosion'}},
+			{'Barrage duration:', {name='SHATTER_BURST_DUR', expr='DUR 5 %of', suff='s', fmt='2dec'}},
+			{'Barrage radius:', {expr='RNG 200 %of', suff='m', fmt='1dec'}},
+			{'Explosion radius:', {expr='RNG 120 %of', suff='m', fmt='1dec'}},
+			{'Total explosion count:', {expr='10 SHATTER_BURST_DUR *'}},
+			{'Base '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		}
+	},
+	['Tether']={
+		outs={
+			{'[[Damage Vulnerability]]:', {expr='STR 0.5 %of', fmt='%'}},
+			{'Death explosion '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 2000 %of'}},
+			{'Duration:', {expr='DUR 15 %of', suff='s', fmt='2dec'}},
+			{'Tether radius:', {expr='RNG 120 %of', suff='m', fmt='1dec'}},
+			{'Death explosion radius:', {expr='RNG 80 %of', suff='m', fmt='1dec'}},
+			{'Base '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		}
+	},
+	['Phoenix Blaze']={
+		outs={
+			{'Trail '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 200 %of', suff='/s'}},
+			{'Speed bonus:', {expr='STR 0.2 %of', fmt='%'}},
+			{'[[Damage Reduction]]:', {expr='STR 0.4 %of', fmt='%'}},
+			{'Base explosion '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 100 %of'}},
+			{'Turret '..Tooltips.full('Heat', 'DamageTypes')..' damage bonus:', {expr='STR 0.6 %of', fmt='%'}},
+			{'Explosion radius:', {expr='RNG 250 %of', suff='m', fmt='1dec'}},
+			{'Base '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', fmt='2dec'}}
+		}
+	},
+	['Seeker Volley']={
+		outs={
+			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 3000 %of', suff='/missile'}},
+			{'Base '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='200 COST *', fmt='2dec'}}
+		}
+	},
+	['Void Hole']={
+		outs={
+			{Tooltips.full('Cold', 'DamageTypes')..' damage:', {expr='STR 200 %of', suff='/s'}},
+			{'Duration:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 100 %of', suff='m', fmt='1dec'}},
+			{'Base '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='200 COST *', fmt='2dec'}}
+		}
+	}
 };
 return Data;
 ```

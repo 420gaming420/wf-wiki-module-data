@@ -1,7 +1,7 @@
 {
   "page": "Module:Blueprints/data/doc",
-  "wiki_timestamp": "2026-08-03T22:27:25Z",
-  "extracted_at": "2026-08-31T21:22:43.559697+00:00",
+  "wiki_timestamp": "2026-10-27T01:07:45Z",
+  "extracted_at": "2026-10-27T07:30:16.647081+00:00",
   "lua_files": [
     "Module-Blueprints-data-doc_0.lua",
     "Module-Blueprints-data-doc_1.lua",

@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization"
-wiki_timestamp: "2026-10-26T07:29:38Z"
+wiki_timestamp: "2026-10-26T21:00:43Z"
 ---
 
 **Maximization** creates a stat maximization calculator for Warframe abilities.
@@ -47,13 +47,13 @@ wiki_timestamp: "2026-10-26T07:29:38Z"
 :   **Parameter**: `Frame` object with Warframe names as the arguments (table)
 :   **Returns**: Wikitable with the CSS classes and HTML data attributes for the calculator (string)
 
-`p.HelminthAbilities()` (function)
+`maximization.HelminthAbilities()` (function)
 :   Creates a maximization calculator for Helminth ability set by calling `p. ability_set`.
 :   **Returns**: Wikitable with the CSS classes and HTML data attributes for the calculator (string)
 
-`p.any(Frame)` (function)
-:   Creates a maximization calculator for one or more abilities by resolving any names (TODO in what way??) and calling `p. ability`.
-:   **Parameter**: `Frame` object with any names as the arguments, or empty invoke from a template (table)
+`maximization.any(frame)` (function)
+:   Creates a maximization calculator for abilities either listed in the args or in lists (such as warframes) named in the args, omitting duplicates.
+:   **Parameter**: `frame` Frame object with any names as the arguments, or empty invoke from a template (table)
 :   **Returns**: Wikitable with the CSS classes and HTML data attributes for the calculator (string)
 
 ---
@@ -148,7 +148,7 @@ end
 --  @param			{table} Frame object with ability names as the arguments
 --  @return			{string} Wikitable with the CSS classes and HTML data attributes for the calculator
 function p.ability(...)
-	local names = (...).args or {...};
+	local names = (...).args or (...)[1] and (...) or {...};
 	local single = not names[2]; -- if invoked >1 names, will put ability-specific ins under ability output blocks instead of the generic input block
 	local colspan = single and '' or 'colspan=2 ';
 
@@ -300,7 +300,7 @@ function p.ability_set(...)
 			for __, ability in ipairs(data) do table.insert(ability_names, ability); end
 		else 
 			return '[[Module:Maximization|Maximization]] error: warframe abilities mapping for "'
-			..tostring(name)..'" was not found in [[Module:Maximization/data#L-38|AbilitySets]].[[Category:Pages with script errors]][[Category:Pages with maximization errors]]';
+			..tostring(name)..'" was not found in [[Module:Maximization/data#:~:text=AbilitySets|AbilitySets]].[[Category:Pages with script errors]][[Category:Pages with maximization errors]]';
 		end
 	end
 	return p.ability(ability_names);
@@ -309,46 +309,30 @@ p.WarframeAbilities = p.ability_set;
 
 --- Creates a maximization calculator for Helminth ability set by calling @{p.ability_set}.
 --  @function		p.HelminthAbilities
---  @alias			p.HelminthAbilities
 --  @return			{string} Wikitable with the CSS classes and HTML data attributes for the calculator
 function p.HelminthAbilities() return p.ability_set('Helminth') end
 
---- Creates a maximization calculator for one or more abilities by resolving any names (TODO in what way??) and calling @{p.ability}.
+--- Creates a maximization calculator for abilities either listed in the args or in lists (such as warframes) named in the args, omitting duplicates.
 --  @function		p.any
---  @alias			p.any
---  @param			{table} Frame object with any names as the arguments, or empty invoke from a template
+--  @param			{table} frame Frame object with any names as the arguments, or empty invoke from a template
 --  @return			{string} Wikitable with the CSS classes and HTML data attributes for the calculator
 function p.any(frame)
-	local identifiers = frame.args;
-	if not frame.args[1] then identifiers = frame:getParent().args end -- get template invokes
-	local ability_names = {};
-	ability_names.args = ability_names;
-	local isInserted = {};
-	
-	for _, name in ipairs(identifiers) do
-		local data = AbilityData.Warframe[name]
-		or MaxData.AbilitySets[name]; -- add more namespaces in the future if necessary, this must resolve all possible calculator names
-		if data then
-			for __, ability in ipairs(data) do 
-				if not isInserted[ability] then
-					table.insert(ability_names, ability);
-					isInserted[ability] = true;
-				end
-			end
-		else 
-			data = MaxData[name];
-			if data then 
-				if not isInserted[name] then
-					table.insert(ability_names, name);
-					isInserted[name] = true;
-				end
-			else 
-				return '[[Module:Maximization|Maximization]] error: calculator names mapping for "'
-				..tostring(name)..'" was not found in [[Module:Maximization/data#L-38|AbilitySets]].[[Category:Pages with script errors]][[Category:Pages with maximization errors]]';
+	local args = frame.args or frame
+	if not args[1] or args[1] == '' then args = frame:getParent().args end -- get template invokes
+	local namelist = {}
+	local nameset = {}
+	for _, ident in ipairs(args) do
+		local data = AbilityData.Warframe[ident]
+			or MaxData.AbilitySets[ident]
+			or { ident }
+		for __, name in ipairs(data) do
+			if not nameset[name] then
+				table.insert(namelist, name)
+				nameset[name] = true
 			end
 		end
 	end
-	return p.ability(ability_names);
+	return p.ability{args=namelist}
 end
 
 -- TODO: Warframe stats

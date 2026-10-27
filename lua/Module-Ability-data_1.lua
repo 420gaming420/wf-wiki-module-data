@@ -466,6 +466,19 @@ local AbilityData = {
 			Key = 2,
 			Powersuit = "Amesha" 
 		},
+		["Blackout Pulse"] = {
+			Name = "Blackout Pulse",
+			CardImage = "BlackoutPulseMod.png",
+			Preview = "BlackoutPulsePreview.webm",
+			PreviewFallback = "BlackoutPulsePreview.jpg",
+			Cost = 50,
+			Description = "Electro-Magnetic Pulse that damages enemies and disables them temporarily.",
+			Icon = "BlackoutPulse.png",
+			InternalName = "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipEMPAbilityCard",
+			Introduced = "29.10",
+			Key = 1,
+			Powersuit = "Railjack"
+		},
 		["Blade Storm"] = {
 			Name = "Blade Storm",
 			Augments = { "Rising Storm" },
@@ -841,6 +854,19 @@ local AbilityData = {
 			Introduced = "15.7.2",
 			Key = 3,
 			Powersuit = "Itzal" 
+		},
+		["Countermeasures"] = {
+			Name = "Countermeasures",
+			CardImage = "CountermeasuresMod.png",
+			Preview = "CountermeasuresPreview.webm",
+			PreviewFallback = "CountermeasuresPreview.jpg",
+			Cost = 5,
+			Description = "Flares that distract enemy guided projectiles.",
+			Icon = "Countermeasures.png",
+			InternalName = "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipFlaresAbilityCard",
+			Introduced = "29.10",
+			Key = 1,
+			Powersuit = "Railjack"
 		},
 		["Covenant"] = {
 			Name = "Covenant",
@@ -2388,6 +2414,19 @@ local AbilityData = {
 			Powersuit = "Saryn",
 			Subsumable = true
 		},
+		["Munitions Vortex"] = {
+			Name = "Munitions Vortex",
+			CardImage = "MunitionsVortexMod.png",
+			Preview = "MunitionsVortexPreview.webm",
+			PreviewFallback = "MunitionsVortexPreview.jpg",
+			Cost = 50,
+			Description = "Vortex that absorbs incoming fire and detonates, releasing damage.",
+			Icon = "MunitionsVortex.png",
+			InternalName = "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttractorAbilityCard",
+			Introduced = "29.10",
+			Key = 1,
+			Powersuit = "Railjack"
+		},
 		["Naraemagi"] = {
 			Name = "Naraemagi",
 			CardImage = "Naraemagi(xWhite).png",
@@ -2640,6 +2679,19 @@ local AbilityData = {
 			Introduced = "19.5",
 			Key = 3,
 			Powersuit = "Nidus" 
+		},
+		["Particle Ram"] = {
+			Name = "Particle Ram",
+			CardImage = "ParticleRamMod.png",
+			Preview = "ParticleRamPreview.webm",
+			PreviewFallback = "ParticleRamPreview.jpg",
+			Cost = 100,
+			Description = "Railjack Ram that deals damage to anything it touches when moving forward.",
+			Icon = "ParticleRam.png",
+			InternalName = "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipRamAbilityCard",
+			Introduced = "29.10",
+			Key = 2,
+			Powersuit = "Railjack"
 		},
 		["Peacemaker"] = {
 			Name = "Peacemaker",
@@ -3528,6 +3580,19 @@ local AbilityData = {
 			Key = 1,
 			Powersuit = "Cyte-09" 
 		},
+		["Seeker Volley"] = {
+			Name = "Seeker Volley",
+			CardImage = "SeekerVolleyMod.png",
+			Preview = "SeekerVolleyPreview.webm",
+			PreviewFallback = "SeekerVolleyPreview.jpg",
+			Cost = 200,
+			Description = "Fires a volley of homing missiles.",
+			Icon = "SeekerVolley.png",
+			InternalName = "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipAttackAbilityCard",
+			Introduced = "29.10",
+			Key = 3,
+			Powersuit = "Railjack"
+		},
 		["Seeking Fire"] = {
 			Name = "Seeking Fire",
 			CardImage = "SeekingFire.png",
@@ -3624,6 +3689,19 @@ local AbilityData = {
 			Introduced = "10",
 			Key = 4,
 			Powersuit = "Nekros" 
+		},
+		["Shatter Burst"] = {
+			Name = "Shatter Burst",
+			CardImage = "ShatterBurstMod.png",
+			Preview = "ShatterBurstPreview.webm",
+			PreviewFallback = "ShatterBurstPreview.jpg",
+			Cost = 100,
+			Description = "Delivers a barrage of explosions across a large area.",
+			Icon = "ShatterBurst.png",
+			InternalName = "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipThumperAbilityCard",
+			Introduced = "29.10",
+			Key = 2,
+			Powersuit = "Railjack"
 		},
 		["Shatter Shield"] = {
 			Name = "Shatter Shield",
@@ -4333,6 +4411,19 @@ local AbilityData = {
 			Powersuit = "Vauban",
 			Subsumable = true
 		},
+		["Tether"] = {
+			Name = "Tether",
+			CardImage = "TetherMod.png",
+			Preview = "TetherPreview.webm",
+			PreviewFallback = "TetherPreview.jpg",
+			Cost = 100,
+			Description = "Ensnares enemies, increasing vulnerability to Railjack weaponry.",
+			Icon = "Tether.png",
+			InternalName = "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipTetherAbilityCard",
+			Introduced = "29.10",
+			Key = 2,
+			Powersuit = "Railjack"
+		},
 		["Tharros Strike"] = {
 			Name = "Tharros Strike",
 			Augments = { "Tharros Lethality" },
@@ -4609,6 +4700,19 @@ local AbilityData = {
 			Introduced = "19.5",
 			Key = 1,
 			Powersuit = "Nidus" 
+		},
+		["Void Hole"] = {
+			Name = "Void Hole",
+			CardImage = "VoidHoleMod.png",
+			Preview = "VoidHolePreview.webm",
+			PreviewFallback = "VoidHolePreview.jpg",
+			Cost = 200,
+			Description = "A black hole that draws in enemies, dealing damage.",
+			Icon = "VoidHole.png",
+			InternalName = "/Lotus/Upgrades/Mods/Railjack/Abilities/CrewShipBlackHoleAbilityCard",
+			Introduced = "29.10",
+			Key = 3,
+			Powersuit = "Railjack"
 		},
 		["Voracious Metastasis"] = {
 			Name = "Voracious Metastasis",

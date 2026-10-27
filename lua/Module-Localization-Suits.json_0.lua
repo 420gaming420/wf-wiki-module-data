@@ -9247,7 +9247,7 @@
 		"uk": "Істерика",
 		"zh": "狂化爆发"
 	},
-	"/Lotus/Language/Suits/LavoPassiveAbility": {
+	"/Lotus/Language/Suits/LavosPassiveAbility": {
 		"de": "Energiekugeln und universelle Kugeln verleihen Lavos für |DURATION| s Status-Immunität.\r\n\r\nHalte jede Fähigkeit, um die nächste Anwendung mit zusätzlichem elementaren Schaden und Status zu erfüllen.",
 		"en": "Energy and Universal Orbs give Lavos status immunity for |DURATION|s.\r\n\r\nHold any ability to imbue the next cast with additional Elemental Damage and Status.",
 		"es": "Los orbes de energía y los orbes universales dan inmunidad de estado a Lavos durante |DURATION|s.\r\n\r\nMantén pulsada cualquier habilidad para imbuir el siguiente lanzamiento con daño elemental y estado adicionales.",

@@ -2602,7 +2602,7 @@ return {
 			Conclave = false,
 			Description = "Narin descends in swirling eddies, her blade keen and deadly as an icy wind. She wields ice to defend as deftly as her swift rapier strikes.",
 			Energy = 200,
-			EnergyRank30 = 290,
+			EnergyRank30 = 300,
 			FullImages = { { TabName = "Full Body", Image = "Narin.png" } },
 			Health = 270,
 			Helmet = "NarinHelmet.png",

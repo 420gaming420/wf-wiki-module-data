@@ -1304,7 +1304,7 @@ local function variantOf(weap)
 end
 
 ---	Builds a list of weapons, with variants being next to base weapon name inside parentheses
---	(e.g. {{Weapon|Braton}} ({{Weapon|MK1-Braton|MK1}}, {{Weapon|Braton Prime|Prime}})).
+--	(e.g. {{Weapon|Braton}} ({{Weapon|Mk1-Braton|Mk1}}, {{Weapon|Braton Prime|Prime}})).
 --	@function		p._shortLinkList
 --	@param			{table} Weapon Weapon table
 --	@param			{boolean} tooltip If true, adds weapon tooltips, false otherwise; defaults to false
