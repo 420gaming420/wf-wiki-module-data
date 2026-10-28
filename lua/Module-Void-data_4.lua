@@ -4682,18 +4682,18 @@ RelicData = {
 				Rarity = "Common",
 			},
 			{
-				Item = "Ballistica Prime",
-				Part = "Upper Limb",
-				Rarity = "Uncommon",
-			},
-			{
-				Item = "Nautilus Prime",
-				Part = "Carapace",
+				Item = "Bronco Prime",
+				Part = "Barrel",
 				Rarity = "Uncommon",
 			},
 			{
 				Item = "Nami Skyla Prime",
 				Part = "Blade",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Nautilus Prime",
+				Part = "Cerebrum",
 				Rarity = "Rare",
 			},
 		},

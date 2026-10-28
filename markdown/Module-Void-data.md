@@ -1,7 +1,7 @@
 ---
 title: "Module:Void/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Void/data"
-wiki_timestamp: "2026-10-23T21:41:46Z"
+wiki_timestamp: "2026-10-27T20:26:19Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -16,7 +16,7 @@ Note that no drop chances are stored here since all relics of the same refinemen
 
 Also the place to update if a Prime part's [![](/images/thumb/OrokinDucats.png/32px-OrokinDucats.png?23930)](/w/Orokin_Ducats "Orokin Ducats") [Orokin Ducats](/w/Orokin_Ducats "Orokin Ducats") trade-in value is an anomaly for their rarity. See [#Prime Item Ducat Sell Price](#Prime_Item_Ducat_Sell_Price).
 
-:   *Last updated: Fri, 23 Oct 2026 21:41:46 +0000 (UTC) by [User:SkeletalGamerPrime](/w/User:SkeletalGamerPrime?action=edit&redlink=1 "User:SkeletalGamerPrime (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Void/data?diff=0))*
+:   *Last updated: Tue, 27 Oct 2026 20:26:19 +0000 (UTC) by [User:SkeletalGamerPrime](/w/User:SkeletalGamerPrime?action=edit&redlink=1 "User:SkeletalGamerPrime (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Void/data?diff=0))*
 
 ## Contents
 
@@ -4982,18 +4982,18 @@ RelicData = {
 				Rarity = "Common",
 			},
 			{
-				Item = "Ballistica Prime",
-				Part = "Upper Limb",
-				Rarity = "Uncommon",
-			},
-			{
-				Item = "Nautilus Prime",
-				Part = "Carapace",
+				Item = "Bronco Prime",
+				Part = "Barrel",
 				Rarity = "Uncommon",
 			},
 			{
 				Item = "Nami Skyla Prime",
 				Part = "Blade",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Nautilus Prime",
+				Part = "Cerebrum",
 				Rarity = "Rare",
 			},
 		},

@@ -1,7 +1,7 @@
 ---
 title: "Module:Version/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Version/data"
-wiki_timestamp: "2026-10-22T19:07:59Z"
+wiki_timestamp: "2026-10-27T20:59:04Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Include official index links in schema like <https://www.warframe.com/patch-note
 
 Database for [Module:Version](/w/Module:Version "Module:Version"). Entries are in order by date in ascending order and are indexed by `Name` and each element in `Aliases` tables.
 
-:   *Last updated: Thu, 22 Oct 2026 19:07:59 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Version/data?diff=0))*
+:   *Last updated: Tue, 27 Oct 2026 20:59:04 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Version/data?diff=0))*
 
 ## Contents
 
@@ -317,6 +317,7 @@ Full Version List")]
 | [Hotfix 35.0.11](/w/Update_35#Hotfix_35.0.11 "Update 35") | 35.0 | H35.0.11 |  |  | ❌ | 2024-01-24 | <https://forums.warframe.com/topic/1382055-whispers-in-the-walls-hotfix-35011/> | 1706110500 | <https://web.archive.org/web/20240124154024/https://forums.warframe.com/topic/1382055-whispers-in-the-walls-hotfix-35011/> | 2024-01-24 |
 | [Update 40.0](/w/Update_40#Update_40.0 "Update 40") | 40.0 | U40 | The Vallis Undermind |  | ✔️ | 2025-10-15 | <https://forums.warframe.com/topic/1470920-update-40-the-vallis-undermind/> | 1760540652 | <http://web.archive.org/web/20251015/https000000://forums.warframe.com/topic/1470920-update-40-the-vallis-undermind/> | 2025-10-15 |
 | [Hotfix 18.6.3](/w/Update_18#Hotfix_18.6.3 "Update 18") | 18.6 | H18.6.3 | TennoGen Round 3 |  | ❌ | 2016-03-23 | <https://forums.warframe.com/topic/629210-hotfix-1863/> | 1458766812 | <https://web.archive.org/web/20210508203623/https://forums.warframe.com/topic/629210-hotfix-1863/> | 2021-05-08 |
+| [Hotfix 44.1.4](/w/Update_44#Hotfix_44.1.4 "Update 44") | 44 | H44.1.4 |  |  | ❌ | 2026-10-27 | <https://forums.warframe.com/topic/1530579-iceblade-of-narin-the-icebind-hotfix-4414/> | 1793127916 | [PH] | [PH] |
 | [Hotfix 31.1.5](/w/Update_31#Hotfix_31.1.5 "Update 31") | 31.0 | H31.1.5 |  |  | ❌ | 2022-02-17 | <https://forums.warframe.com/topic/1300776-echoes-of-war-banshee-mirage-prime-vault-hotfix-3115/> | 1645131408 | <https://web.archive.org/web/20220217212845/https://forums.warframe.com/topic/1300776-echoes-of-war-banshee-mirage-prime-vault-hotfix-3115/> | 2022-02-17 |
 | [Update 10.2](/w/Update_10#Update_10.2 "Update 10") | 10.2 | U10.2 | Tenno Reinforcements: Galatine |  | ✔️ | 2013-09-27 | <https://forums.warframe.com/topic/113787-update-1020/> | 1380311548 | <https://web.archive.org/web/20220129224752/https://forums.warframe.com/topic/113787-update-1020/> | 2022-01-29 |
 | [Hotfix: The Silver Grove 4.1](/w/Update_19#Hotfix:_The_Silver_Grove_4.1 "Update 19") | 18.17 | H18.17.4.1 |  |  | ❌ | 2016-09-29 | <https://forums.warframe.com/topic/703921-the-silver-grove-u441/> | 1475177488 | <https://web.archive.org/web/20191028153837/https://forums.warframe.com/topic/703921-the-silver-grove-u441/> | 2019-10-28 |
@@ -20987,6 +20988,18 @@ local Versions = {
 		ArchiveLink = "[PH]",
 		ArchiveDate = "[PH]",
 		Timestamp = 1792695857,
+	},
+	{
+		Name = "Hotfix 44.1.4",
+		Link = "Update 44#Hotfix 44.1.4",
+		Aliases = { "44.1.4" },
+		ShortName = "H44.1.4",
+		Date = "2026-10-27",
+		Parent = "44",
+		ForumLink = "https://forums.warframe.com/topic/1530579-iceblade-of-narin-the-icebind-hotfix-4414/",
+		ArchiveLink = "[PH]",
+		ArchiveDate = "[PH]",
+		Timestamp = 1793127916,
 	},
 }
 
