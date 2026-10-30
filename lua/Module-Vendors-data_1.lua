@@ -3429,13 +3429,13 @@ return {
 				--{ "Vanguard E1 Relic", "Relic", 1, Limit = 100 },
 				--{ "Vanguard M1 Relic", "Relic", 1, Limit = 100 },
 				--{ "Vanguard P1 Relic", "Relic", 1, Limit = 100 },
-				-- Ivara/Protea
-				{ "Lith B12 Relic", "Relic", 1 },
-				{ "Meso I3 Relic", "Relic", 1 },
-				{ "Meso V16 Relic", "Relic", 1 },
-				{ "Neo P11 Relic", "Relic", 1 },
-				{ "Neo O4 Relic", "Relic", 1 },
-				{ "Axi A23 Relic", "Relic", 1 },
+				-- Nidus/Saryn
+				{ "Lith S17 Relic", "Relic", 1 },
+				{ "Meso S15 Relic", "Relic", 1 },
+				{ "Meso M5 Relic", "Relic", 1 },
+				{ "Neo N19 Relic", "Relic", 1 },
+				{ "Neo S19 Relic", "Relic", 1 },
+				{ "Axi N12 Relic", "Relic", 1 },
 				-- Evergreen Items
 				{ "Burston Prime", "Weapon", { ["Regal Aya"] = 2 } },
 				{ "Braton Prime", "Weapon", { ["Regal Aya"] = 1 } },

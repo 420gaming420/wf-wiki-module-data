@@ -3929,6 +3929,17 @@ return {
         Name = "Ogris Rocket Launcher Skin",
         Type = "Weapon Skin"
     },
+    ["Volatile Ogris Skin"] = {
+        CodexSecret = false,
+        Description = "The first generation Ogris was infamous for detonating its operators. A spectacle Vay Hek was most fond of watching. Fortunately, this skin has had safety protocols enabled.",
+        ExcludeFromCodex = false,
+        Image = "VolatileOgrisSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/Events/OgrisOldSchool",
+        Introduced = "38.5.1.1",
+        Link = "Volatile Ogris Skin",
+        Name = "Volatile Ogris Skin",
+        Type = "Weapon Skin"
+    },
     ["Okina Day of the Dead Skin"] = {
         CodexSecret = false,
         Description = "Dance across the border between life and death with this skin for the Okina.",

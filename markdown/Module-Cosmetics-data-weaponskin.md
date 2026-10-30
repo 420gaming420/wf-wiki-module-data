@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/weaponskin"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/weaponskin"
-wiki_timestamp: "2026-10-18T09:13:52Z"
+wiki_timestamp: "2026-10-30T03:03:01Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/weaponskin/doc](/w/Module:Cosmetics/data/weaponskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/weaponskin/doc (page does not exist)")*
@@ -3935,6 +3935,17 @@ return {
         Introduced = "29.5.7",
         Link = "Ogris Rocket Launcher Skin",
         Name = "Ogris Rocket Launcher Skin",
+        Type = "Weapon Skin"
+    },
+    ["Volatile Ogris Skin"] = {
+        CodexSecret = false,
+        Description = "The first generation Ogris was infamous for detonating its operators. A spectacle Vay Hek was most fond of watching. Fortunately, this skin has had safety protocols enabled.",
+        ExcludeFromCodex = false,
+        Image = "VolatileOgrisSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/Events/OgrisOldSchool",
+        Introduced = "38.5.1.1",
+        Link = "Volatile Ogris Skin",
+        Name = "Volatile Ogris Skin",
         Type = "Weapon Skin"
     },
     ["Okina Day of the Dead Skin"] = {
