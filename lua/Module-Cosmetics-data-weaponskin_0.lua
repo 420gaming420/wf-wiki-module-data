@@ -1761,6 +1761,7 @@ return {
         ExcludeFromCodex = false,
         Image = "EskhatosMausolonSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Necramech/MechWeapon/EvilBaroMausolonSkin",
+        Introduced = "44.1.4",
         Link = "Eskhatos Mausolon Skin",
         Name = "Eskhatos Mausolon Skin",
         Type = "Weapon Skin"

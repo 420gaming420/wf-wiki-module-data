@@ -2406,6 +2406,61 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='0 24 12 SOL_GATE_BOOSTED if DRAIN * CATACLYSMIC_GATE if', fmt='2dec'}}
 		}
 	},
+	-- Xaku
+	["Xata's Whisper"]={
+		outs={
+			{Tooltips.full('Void', 'DamageTypes')..' [[Extra Hit]]:', {expr='STR 0.26 %of', fmt='%'}},
+			{'Duration:', {expr='DUR 35 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Grasp of Lohk']={
+		ins={
+			{name='GRASP_OF_LOHK_LEVEL', cont='Enemy Level:', min='1', value='1'},
+			{name='VAMPIRIC_GRASP', cont=Tooltips.full('Vampiric Grasp', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Void', 'DamageTypes')..' damage:', {expr='GRASP_OF_LOHK_LEVEL STR 50 %of *'}},
+			{'Duration:', {expr='DUR 12 %of', suff='s', fmt='2dec'}},
+			{'Maximum weapons:', {expr='RNG 6 %of floor'}},
+			{'Grab range:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{'Targeting range:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Health', 'Stats')..' restored:', {expr='STR 25 %of 0 VAMPIRIC_GRASP if', suff='/hit'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['The Lost']={
+		ins={
+			{name='THE_RELENTLESS_LOST_STACKS', cont='Stacks of '..Tooltips.full('The Relentless Lost', 'Mods')..':', min='0', max='3', value='0'},
+			{name='GRASP_OF_LOHK_WEAPONS', cont='Number of '..Tooltips.full('Grasp of Lohk', 'Ability')..' weapons:', min='0', value='0'}
+		},
+		outs={
+			{'Accuse maximum targets:', {expr='STR 35 THE_RELENTLESS_LOST_STACKS * + 8 %of floor'}},
+			{'Accuse duration:', {expr='DUR 16 %of', suff='s', fmt='2dec'}},
+			{'Accuse radius:', {expr='RNG 11 %of', suff='m', fmt='1dec'}},
+			{'Gaze Defense Reduction:', {expr='STR 35 THE_RELENTLESS_LOST_STACKS * + 0.5 %of 1 min', fmt='%'}},
+			{'Gaze duration:', {expr='DUR 14 %of', suff='s', fmt='2dec'}},
+			{'Gaze cast range:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{'Gaze aura radius:', {expr='RNG 12 %of', suff='m', fmt='1dec'}},
+			{'Deny '..Tooltips.full('Void', 'DamageTypes')..' damage:', {expr='GRASP_OF_LOHK_WEAPONS 1 + STR 35 THE_RELENTLESS_LOST_STACKS * + 4000 %of *'}},
+			{'Deny stasis duration:', {expr='DUR 14 %of', suff='s', fmt='2dec'}},
+			{'Deny range:', {expr='RNG 40 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 15 THE_RELENTLESS_LOST_STACKS * + 175 min as% - 50 *', fmt='2dec'}}
+		}
+	},
+	['The Vast Untime']={
+		ins={
+			{name='UNTIME_RIFT', cont=Tooltips.full('Untime Rift', 'Mods')..'?', type='checkbox'},
+		},
+		outs={
+			{Tooltips.full('Void', 'DamageTypes')..' damage:', {expr='STR 1200 %of'}},
+			{Tooltips.full('Slow', 'DamageTypes')..':', {expr='STR 0.25 %of 0.95 min', fmt='%'}},
+			{'Duration:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{'Blast radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{'Rift radius:', {expr='RNG 15 %of 0 UNTIME_RIFT if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		}
+	},
 	-- Zephyr
 	['Tail Wind']={
 		ins={

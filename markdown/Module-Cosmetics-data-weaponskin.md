@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/weaponskin"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/weaponskin"
-wiki_timestamp: "2026-10-30T03:03:01Z"
+wiki_timestamp: "2026-10-30T13:25:37Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/weaponskin/doc](/w/Module:Cosmetics/data/weaponskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/weaponskin/doc (page does not exist)")*
@@ -1769,6 +1769,7 @@ return {
         ExcludeFromCodex = false,
         Image = "EskhatosMausolonSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Necramech/MechWeapon/EvilBaroMausolonSkin",
+        Introduced = "44.1.4",
         Link = "Eskhatos Mausolon Skin",
         Name = "Eskhatos Mausolon Skin",
         Type = "Weapon Skin"

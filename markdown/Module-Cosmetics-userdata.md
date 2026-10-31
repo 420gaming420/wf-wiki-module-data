@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/userdata"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/userdata"
-wiki_timestamp: "2026-10-23T13:52:40Z"
+wiki_timestamp: "2026-10-30T13:23:29Z"
 ---
 
 ## Users Data Schema
@@ -2251,6 +2251,7 @@ return {
 				"Eidolon Ephemera",
 				"Embracer Ephemera",
 				"Eros Wings Ephemera",
+				"Eskhatos Infinitas Ephemera",
 				"Eskhatos Ki'Teer Ephemera",
 				"Fae Path Ephemera",
 				"Festering Ephemera",
@@ -4273,6 +4274,7 @@ return {
 	Mausolon = {
 		Equipments = {
 			Skin = {
+				"Eskhatos Mausolon Skin",
 				"Mausolon Supulchrax Skin",
 			},
 		},

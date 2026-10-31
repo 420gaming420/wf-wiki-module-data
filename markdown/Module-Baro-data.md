@@ -1,12 +1,12 @@
 ---
 title: "Module:Baro/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Baro/data"
-wiki_timestamp: "2026-10-23T13:03:15Z"
+wiki_timestamp: "2026-10-30T13:05:28Z"
 ---
 
 Database contents initially seeded based on wikitables in [Baro\_Ki'Teer/Trades](/w/Baro_Ki%27Teer/Trades "Baro Ki'Teer/Trades") and [Baro\_Ki'Teer/ConsoleTrades](/w/Baro_Ki%27Teer/ConsoleTrades "Baro Ki'Teer/ConsoleTrades"). For full history see, [User:Anexera](/w/User:Anexera "User:Anexera")'s [Google Sheets](https://docs.google.com/spreadsheets/d/1cdT7M2qbOhZ01AQT2RaH8_6VL1yww4BHkTRtLzqZ7_g/edit#gid=632835097). See [Module:Baro/data/visits](/w/Module:Baro/data/visits "Module:Baro/data/visits") for Baro's historical visits.
 
-:   *Last updated: Fri, 23 Oct 2026 13:03:15 +0000 (UTC) by [User:Anexera](/w/User:Anexera "User:Anexera") ([change log](https://wiki.warframe.com/w/Module:Baro/data?diff=0))*
+:   *Last updated: Fri, 30 Oct 2026 13:05:28 +0000 (UTC) by [User:Anexera](/w/User:Anexera "User:Anexera") ([change log](https://wiki.warframe.com/w/Module:Baro/data?diff=0))*
 
 ## Contents
 
@@ -336,7 +336,8 @@ return {
 				"2024-12-27",
 				"2025-04-11",
 				"2025-10-03",
-				"2025-12-26"
+				"2025-12-26",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2016-01-22",
@@ -1087,7 +1088,8 @@ return {
 				"2026-03-20",
 				"2026-04-17",
 				"2026-06-26",
-				"2026-10-02"
+				"2026-10-02",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2017-01-27",
@@ -1446,7 +1448,8 @@ return {
 			OfferingDates = {
 				"2024-11-01",
 				"2025-10-03",
-				"2026-01-09"
+				"2026-01-09",
+				"2026-10-30"
 			},
 			TennoConOfferingDates = {
 				"2025-07-19",
@@ -1654,7 +1657,8 @@ return {
 				"2025-04-18",
 				"2025-05-16",
 				"2026-01-09",
-				"2026-07-24"
+				"2026-07-24",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2016-03-11",
@@ -1869,7 +1873,8 @@ return {
 				"2025-01-24",
 				"2026-04-03",
 				"2026-04-10",
-				"2026-08-21"
+				"2026-08-21",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2016-02-26",
@@ -1922,7 +1927,8 @@ return {
 				"2025-02-21",
 				"2025-10-03",
 				"2025-12-26",
-				"2026-06-26"
+				"2026-06-26",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2020-10-09",
@@ -2358,7 +2364,8 @@ return {
 				"2025-10-24",
 				"2025-10-31",
 				"2026-10-16",
-				"2026-10-23"
+				"2026-10-23",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2015-10-30",
@@ -2753,7 +2760,8 @@ return {
 				"2025-04-18",
 				"2025-05-16",
 				"2026-04-03",
-				"2026-04-10"
+				"2026-04-10",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2019-08-16",
@@ -3177,7 +3185,8 @@ return {
 				"2025-10-24",
 				"2025-10-31",
 				"2026-10-16",
-				"2026-10-23"
+				"2026-10-23",
+				"2026-10-30"
 			},
 			TennoConOfferingDates = {
 				"2020-07-11",
@@ -3478,7 +3487,8 @@ return {
 				"2025-01-10",
 				"2025-06-13",
 				"2025-12-26",
-				"2026-02-20"
+				"2026-02-20",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2021-12-17",
@@ -3615,7 +3625,8 @@ return {
 				"2024-08-23",
 				"2025-05-30",
 				"2025-11-07",
-				"2026-05-15"
+				"2026-05-15",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2014-12-12",
@@ -3665,9 +3676,22 @@ return {
 				"2025-10-31",
 				"2025-11-07",
 				"2026-10-16",
-				"2026-10-23"
+				"2026-10-23",
+				"2026-10-30"
 			},
 			Type = "Cosmetic (Weapon Skin)"
+		},
+		["Eskhatos Infinitas Ephemera"] = {
+			CreditCost = 98002,
+			DucatCost = 88,
+			Image = "EskhatosInfinitasEphemera.png",
+			IsSeasonal = true,
+			Link = "Eskhatos Infinitas Ephemera",
+			Name = "Eskhatos Infinitas Ephemera",
+			OfferingDates = {
+				"2026-10-30"
+			},
+			Type = "Cosmetic (Ephemera)"
 		},
 		["Eskhatos Ki'Teer Chest Guard"] = {
 			CreditCost = 294000,
@@ -3680,7 +3704,8 @@ return {
 				"2025-10-31",
 				"2025-11-07",
 				"2026-10-16",
-				"2026-10-23"
+				"2026-10-23",
+				"2026-10-30"
 			},
 			Type = "Cosmetic (Armor)"
 		},
@@ -3697,7 +3722,8 @@ return {
 				"2025-10-31",
 				"2025-11-07",
 				"2026-10-16",
-				"2026-10-23"
+				"2026-10-23",
+				"2026-10-30"
 			},
 			Type = "Cosmetic (Ephemera)"
 		},
@@ -3710,7 +3736,8 @@ return {
 			Name = "Eskhatos Ki'Teer Floof",
 			OfferingDates = {
 				"2026-10-16",
-				"2026-10-23"
+				"2026-10-23",
+				"2026-10-30"
 			},
 			Type = "Decoration"
 		},
@@ -3723,7 +3750,8 @@ return {
 			Name = "Eskhatos Ki'Teer Glyph",
 			OfferingDates = {
 				"2026-10-16",
-				"2026-10-23"
+				"2026-10-23",
+				"2026-10-30"
 			},
 			Type = "Glyph"
 		},
@@ -3737,7 +3765,8 @@ return {
 				"2025-10-31",
 				"2025-11-07",
 				"2026-10-16",
-				"2026-10-23"
+				"2026-10-23",
+				"2026-10-30"
 			},
 			Type = "Cosmetic (Armor)"
 		},
@@ -3753,9 +3782,22 @@ return {
 				"2025-10-31",
 				"2025-11-07",
 				"2026-10-16",
-				"2026-10-23"
+				"2026-10-23",
+				"2026-10-30"
 			},
 			Type = "Cosmetic (Armor)"
+		},
+		["Eskhatos Mausolon Skin"] = {
+			CreditCost = 341876,
+			DucatCost = 134,
+			Image = "EskhatosMausolonSkin.png",
+			IsSeasonal = true,
+			Link = "Eskhatos Mausolon Skin",
+			Name = "Eskhatos Mausolon Skin",
+			OfferingDates = {
+				"2026-10-30"
+			},
+			Type = "Cosmetic (Weapon Skin)"
 		},
 		["Eskhatos Necraloid Sigil"] = {
 			CreditCost = 61000,
@@ -3767,7 +3809,8 @@ return {
 			OfferingDates = {
 				"2025-11-07",
 				"2026-10-16",
-				"2026-10-23"
+				"2026-10-23",
+				"2026-10-30"
 			},
 			Type = "Cosmetic (Sigil)"
 		},
@@ -3780,7 +3823,8 @@ return {
 			Name = "Eskhatos Necramech Skin",
 			OfferingDates = {
 				"2026-10-16",
-				"2026-10-23"
+				"2026-10-23",
+				"2026-10-30"
 			},
 			Type = "Cosmetic (Necramech)"
 		},
@@ -3788,10 +3832,12 @@ return {
 			CreditCost = 303303,
 			DucatCost = 303,
 			Image = "EskhatosPauldrons.png",
+			IsSeasonal = true,
 			Link = "Eskhatos Pauldrons",
 			Name = "Eskhatos Pauldrons",
 			OfferingDates = {
-				"2026-10-23"
+				"2026-10-23",
+				"2026-10-30"
 			},
 			Type = "Cosmetic (Armor)"
 		},
@@ -3799,10 +3845,12 @@ return {
 			CreditCost = 336801,
 			DucatCost = 172,
 			Image = "EskhatosSekhara.png",
+			IsSeasonal = true,
 			Link = "Emblems#Baro Ki'Teer Emblems",
 			Name = "Eskhatos Sekhara",
 			OfferingDates = {
-				"2026-10-23"
+				"2026-10-23",
+				"2026-10-30"
 			},
 			Type = "Cosmetic (Emblem)"
 		},
@@ -3815,7 +3863,8 @@ return {
 			Name = "Eskhatos Sugatra",
 			OfferingDates = {
 				"2026-10-16",
-				"2026-10-23"
+				"2026-10-23",
+				"2026-10-30"
 			},
 			Type = "Cosmetic (Weapon)"
 		},
@@ -3971,7 +4020,8 @@ return {
 				"2024-05-17",
 				"2024-12-13",
 				"2025-08-22",
-				"2026-05-29"
+				"2026-05-29",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2015-09-18",
@@ -4992,7 +5042,8 @@ return {
 			Link = "Orbiter Decorations#Domestik Drone",
 			Name = "Hellshell Domestik Drone",
 			OfferingDates = {
-				"2026-02-06"
+				"2026-02-06",
+				"2026-10-30"
 			},
 			TennoConOfferingDates = {
 				"2026-07-11"
@@ -5268,7 +5319,8 @@ return {
 				"2025-10-24",
 				"2025-10-31",
 				"2026-10-16",
-				"2026-10-23"
+				"2026-10-23",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2019-10-11",
@@ -5571,7 +5623,8 @@ return {
 				"2025-07-11",
 				"2025-11-14",
 				"2026-02-06",
-				"2026-06-12"
+				"2026-06-12",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2015-04-17",
@@ -6209,7 +6262,8 @@ return {
 				"2025-08-22",
 				"2026-02-20",
 				"2026-05-01",
-				"2026-07-10"
+				"2026-07-10",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2018-06-15",
@@ -7701,7 +7755,8 @@ return {
 				"2025-07-11",
 				"2025-11-28",
 				"2026-04-17",
-				"2026-06-26"
+				"2026-06-26",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2016-09-09",
@@ -7998,7 +8053,8 @@ return {
 				"2025-10-03",
 				"2025-10-31",
 				"2026-02-06",
-				"2026-06-12"
+				"2026-06-12",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2016-04-08",
@@ -8179,7 +8235,8 @@ return {
 				"2024-08-23",
 				"2025-05-30",
 				"2025-11-07",
-				"2026-05-15"
+				"2026-05-15",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2014-12-26",
@@ -8254,7 +8311,8 @@ return {
 				"2024-08-23",
 				"2025-05-30",
 				"2025-11-07",
-				"2026-05-15"
+				"2026-05-15",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2015-01-09",
@@ -9499,7 +9557,8 @@ return {
 				"2025-05-16",
 				"2025-08-22",
 				"2025-12-12",
-				"2026-06-26"
+				"2026-06-26",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2014-12-12",
@@ -9720,7 +9779,8 @@ return {
 				"2025-09-05",
 				"2026-02-06",
 				"2026-04-03",
-				"2026-04-10"
+				"2026-04-10",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2019-05-17",
@@ -9947,7 +10007,8 @@ return {
 			OfferingDates = {
 				"2025-11-07",
 				"2026-10-16",
-				"2026-10-23"
+				"2026-10-23",
+				"2026-10-30"
 			},
 			Type = "Decoration"
 		},
@@ -10470,7 +10531,8 @@ return {
 				"2024-06-28",
 				"2025-05-30",
 				"2026-01-23",
-				"2026-04-17"
+				"2026-04-17",
+				"2026-10-30"
 			},
 			TennoConOfferingDates = {
 				"2023-08-26",
@@ -10525,7 +10587,8 @@ return {
 				"2025-04-25",
 				"2025-09-19",
 				"2025-10-17",
-				"2026-04-17"
+				"2026-04-17",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2018-04-06",
@@ -10886,7 +10949,8 @@ return {
 				"2025-04-25",
 				"2025-08-08",
 				"2026-02-06",
-				"2026-03-20"
+				"2026-03-20",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2019-11-22",
@@ -11038,7 +11102,8 @@ return {
 			OfferingDates = {
 				"2025-11-07",
 				"2026-10-16",
-				"2026-10-23"
+				"2026-10-23",
+				"2026-10-30"
 			},
 			Type = "Mod (Warframe)"
 		},
@@ -11065,7 +11130,8 @@ return {
 				"2023-11-03",
 				"2024-07-12",
 				"2025-04-04",
-				"2026-03-06"
+				"2026-03-06",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2016-11-04",
@@ -11798,7 +11864,8 @@ return {
 			Link = "Primed Combustion Rounds",
 			Name = "Primed Combustion Rounds",
 			OfferingDates = {
-				"2026-05-15"
+				"2026-05-15",
+				"2026-10-30"
 			},
 			TennoConOfferingDates = {
 				"2026-07-11"
@@ -12381,7 +12448,8 @@ return {
 				"2025-05-02",
 				"2025-08-08",
 				"2025-11-28",
-				"2026-06-12"
+				"2026-06-12",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2020-12-04",
@@ -12779,7 +12847,8 @@ return {
 				"2025-01-10",
 				"2025-09-19",
 				"2025-10-24",
-				"2026-05-15"
+				"2026-05-15",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2019-08-16",
@@ -13859,7 +13928,8 @@ return {
 				"2025-10-31",
 				"2026-04-03",
 				"2026-04-10",
-				"2026-08-07"
+				"2026-08-07",
+				"2026-10-30"
 			},
 			TennoConOfferingDates = {
 				"2025-07-19",
@@ -14005,7 +14075,8 @@ return {
 			OfferingDates = {
 				"2025-12-26",
 				"2026-03-06",
-				"2026-07-10"
+				"2026-07-10",
+				"2026-10-30"
 			},
 			TennoConOfferingDates = {
 				"2026-07-11"
@@ -15806,7 +15877,8 @@ return {
 				"2025-04-11",
 				"2025-08-08",
 				"2025-11-28",
-				"2026-05-29"
+				"2026-05-29",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2017-05-05",
@@ -15857,7 +15929,8 @@ return {
 				"2025-08-22",
 				"2025-12-26",
 				"2026-02-20",
-				"2026-06-12"
+				"2026-06-12",
+				"2026-10-30"
 			},
 			TennoConOfferingDates = {
 				"2023-08-26",
@@ -17127,7 +17200,8 @@ return {
 				"2025-03-07",
 				"2025-09-05",
 				"2026-01-23",
-				"2026-03-20"
+				"2026-03-20",
+				"2026-10-30"
 			},
 			TennoConOfferingDates = {
 				"2023-08-26",
@@ -17315,7 +17389,8 @@ return {
 				"2024-08-23",
 				"2025-05-30",
 				"2025-11-07",
-				"2026-05-15"
+				"2026-05-15",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2014-12-26",
@@ -17390,7 +17465,8 @@ return {
 				"2024-08-23",
 				"2025-05-30",
 				"2025-11-07",
-				"2026-05-15"
+				"2026-05-15",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2015-01-09",
@@ -18147,7 +18223,8 @@ return {
 				"2025-10-31",
 				"2025-11-07",
 				"2026-10-16",
-				"2026-10-23"
+				"2026-10-23",
+				"2026-10-30"
 			},
 			Type = "Cosmetic (Weapon Skin)"
 		},
@@ -18511,7 +18588,8 @@ return {
 				"2023-11-03",
 				"2024-05-31",
 				"2025-11-07",
-				"2026-06-12"
+				"2026-06-12",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2016-03-11",
@@ -18745,7 +18823,8 @@ return {
 				"2024-01-26",
 				"2024-10-18",
 				"2024-12-13",
-				"2025-11-28"
+				"2025-11-28",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2018-09-21",
@@ -19108,7 +19187,8 @@ return {
 				"2024-04-05",
 				"2025-09-19",
 				"2025-11-28",
-				"2026-07-10"
+				"2026-07-10",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2017-09-22",
@@ -19213,7 +19293,8 @@ return {
 				"2025-07-25",
 				"2025-12-26",
 				"2026-04-03",
-				"2026-04-10"
+				"2026-04-10",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2018-11-30",
@@ -20120,7 +20201,8 @@ return {
 				"2025-10-24",
 				"2025-10-31",
 				"2026-10-16",
-				"2026-10-23"
+				"2026-10-23",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2016-10-21",
@@ -20212,7 +20294,8 @@ return {
 				"2025-04-11",
 				"2025-09-19",
 				"2025-11-14",
-				"2026-07-24"
+				"2026-07-24",
+				"2026-10-30"
 			},
 			PcOfferingDates = {
 				"2016-08-26",

@@ -1,14 +1,14 @@
 {
   "page": "Module:Maximization/data",
-  "wiki_timestamp": "2026-10-26T23:35:06Z",
-  "extracted_at": "2026-10-27T07:30:16.701293+00:00",
+  "wiki_timestamp": "2026-10-31T00:50:03Z",
+  "extracted_at": "2026-10-31T08:09:07.876895+00:00",
   "lua_files": [
     "Module-Maximization-data_0.lua",
     "Module-Maximization-data_1.lua",
     "Module-Maximization-data_2.lua"
   ],
   "lua_block_count": 3,
-  "file_size": 137794,
-  "comment_count": 49,
+  "file_size": 140682,
+  "comment_count": 50,
   "status": "success"
 }

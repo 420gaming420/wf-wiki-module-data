@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-10-24T07:00:45.931Z"
+    "converted_at": "2026-10-31T08:09:15.828Z"
   },
   "_comments": "",
   "Ambassador": {
@@ -388,6 +388,7 @@
     "Type": "Weapons",
     "Equipments": {
       "Skin": [
+        "Eskhatos Mausolon Skin",
         "Mausolon Supulchrax Skin"
       ]
     }
@@ -6703,6 +6704,7 @@
         "Eidolon Ephemera",
         "Embracer Ephemera",
         "Eros Wings Ephemera",
+        "Eskhatos Infinitas Ephemera",
         "Eskhatos Ki'Teer Ephemera",
         "Fae Path Ephemera",
         "Festering Ephemera",

@@ -2165,6 +2165,7 @@ return {
 				"Eidolon Ephemera",
 				"Embracer Ephemera",
 				"Eros Wings Ephemera",
+				"Eskhatos Infinitas Ephemera",
 				"Eskhatos Ki'Teer Ephemera",
 				"Fae Path Ephemera",
 				"Festering Ephemera",
@@ -4187,6 +4188,7 @@ return {
 	Mausolon = {
 		Equipments = {
 			Skin = {
+				"Eskhatos Mausolon Skin",
 				"Mausolon Supulchrax Skin",
 			},
 		},
