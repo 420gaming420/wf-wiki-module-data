@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data/doc"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data/doc"
-wiki_timestamp: "2026-10-21T22:52:09Z"
+wiki_timestamp: "2026-10-31T19:59:13Z"
 ---
 
 ## Contents
@@ -34,8 +34,9 @@ Ability Entry Schema")]
 
 [Module:Maximization](/w/Module:Maximization "Module:Maximization") constructs the overall HTML structure (using wikitext), currently it's a table with prebuilt Warframe stat inputs.
 
-All input/output object fields turn into `data-*` attributes for [MediaWiki:Gadget-MathVM](/w/MediaWiki:Gadget-MathVM "MediaWiki:Gadget-MathVM") (click to see the spec), except `cont` and `suff`.  
-`(!) Caution`: all field values must be strings (e.g. `min='0'`).
+All input/output object fields turn into `data-*` attributes for [MediaWiki:Gadget-MathVM](/w/MediaWiki:Gadget-MathVM "MediaWiki:Gadget-MathVM") (click to see the spec), except `cont` and `suff`.
+
+:   `(!) Caution`All field values must be strings (e.g. `min='0'`).
 
 Ability Object
 

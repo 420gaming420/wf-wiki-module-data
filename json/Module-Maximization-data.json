@@ -4,9 +4,9 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-10-31T08:09:18.463Z"
+    "converted_at": "2026-11-01T08:54:39.649Z"
   },
-  "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins\n-- this contains mappings for what we couldn't pull from preexisting modules\n\t-- Ash\n\t-- Atlas\n\t-- Banshee\n\t-- Bonewidow\n\t-- Caliban\n\t-- Citrine\n\t-- Ember\n\t-- Equinox\n\t-- Follie\n\t-- Frost\n\t-- Gara\n\t-- Garuda\n\t-- Grendel\n\t-- Harrow\n\t-- Inaros\n\t-- Jade\n\t\t\t-- Epsilon represents the 1 frame delay\n\t-- Khora\n\t-- Koumei\n\t-- Lavos\n\t-- Limbo\n\t-- Mirage\n\t-- Narin\n\t-- Nekros\n\t-- Nezha\n\t-- Nidus\n\t-- Nokko\n\t-- Nova\n\t-- Nyx\n\t-- Oberon\n\t-- Octavia\n\t-- Odonata\n\t-- Oraxia\n\t-- Protea\n\t-- Qorvex\n\t-- Rhino\n\t-- Sevagoth\n\t-- Sevagoth's Shadow\n\t-- Sirius & Orion\n\t-- Trinity\n\t-- Uriel\n\t-- Voidrig\n\t-- Volt\n\t-- Wisp\n\t-- Xaku\n\t-- Zephyr\n\t-- Helminth\n\t-- Railjack",
+  "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins\n-- this contains mappings for what we couldn't pull from preexisting modules\n\t-- Ash\n\t-- Atlas\n\t-- Banshee\n\t-- Bonewidow\n\t-- Caliban\n\t-- Citrine\n\t-- Ember\n\t-- Equinox\n\t-- Follie\n\t-- Frost\n\t-- Gara\n\t-- Garuda\n\t-- Gauss\n\t-- Grendel\n\t-- Harrow\n\t-- Inaros\n\t-- Jade\n\t\t\t-- Epsilon represents the 1 frame delay\n\t-- Khora\n\t-- Koumei\n\t-- Lavos\n\t-- Limbo\n\t-- Mirage\n\t-- Narin\n\t-- Nekros\n\t-- Nezha\n\t-- Nidus\n\t-- Nokko\n\t-- Nova\n\t-- Nyx\n\t-- Oberon\n\t-- Octavia\n\t-- Odonata\n\t-- Oraxia\n\t-- Protea\n\t-- Qorvex\n\t-- Rhino\n\t-- Sevagoth\n\t-- Sevagoth's Shadow\n\t-- Sirius & Orion\n\t-- Trinity\n\t-- Uriel\n\t-- Voidrig\n\t-- Volt\n\t-- Wisp\n\t-- Xaku\n\t-- Zephyr\n\t-- Helminth\n\t-- Railjack",
   "Glory on High": {
     "outs": [
       [
@@ -991,56 +991,102 @@
       }
     ]
   },
-  "Temporal Anchor": {
+  "Thermal Sunder": {
     "outs": [
       [
-        "Percentage of damage recorded:",
+        "{{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
         {
-          "expr": "STR 100 0 PROTEA_PASSIVE if + 25 %of",
-          "suff": "%"
+          "expr": "STR 150 50 GAUSS_BATTERY THERMAL_SUNDER_INFUSED if 750 150 - %of + %of"
         }
       ],
       [
-        "Duration:",
+        "{{#invoke:Tooltip|full|Heat|DamageTypes}} damage:",
         {
-          "expr": "DUR 8 %of",
+          "expr": "STR 300 50 GAUSS_BATTERY THERMAL_SUNDER_INFUSED if 1500 300 - %of + %of\n\t\t\t\t\t2 1 GAUSS_BATTERY 80 &gt; if *"
+        }
+      ],
+      [
+        "Area duration:",
+        {
+          "expr": "DUR 15 %of",
           "suff": "s",
           "fmt": "2dec"
         }
       ],
       [
-        "Implosion radius:",
+        "Status duration:",
         {
-          "expr": "RNG 15 %of",
+          "expr": "DUR 4 50 GAUSS_BATTERY THERMAL_SUNDER_INFUSED if\t8 4\t- %of +",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Initial radius:",
+        {
+          "expr": "RNG 12 %of",
           "suff": "m",
           "fmt": "1dec"
         }
       ],
       [
-        "Temporal Erosion {{#invoke:Tooltip|full|Armor|Stats}} reduction:",
+        "Final radius:",
         {
-          "expr": "STR 100 0 PROTEA_PASSIVE if + 10 %of 0 TEMPORAL_EROSION if",
-          "suff": "%"
+          "expr": "RNG 6 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Blast|DamageTypes}} area {{#invoke:Tooltip|full|Armor|Stats}} reduction:",
+        {
+          "expr": "50 GAUSS_BATTERY THERMAL_SUNDER_INFUSED if 5 * 400 - 0 100 clamp",
+          "suff": "%",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Elemental damage bonus:",
+        {
+          "expr": "STR 75 %of 0 THERMAL_TRANSFER if",
+          "suff": "%",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Elemental damage bonus duration:",
+        {
+          "expr": "DUR 30 %of 0 THERMAL_TRANSFER if",
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "100 COST *",
+          "expr": "50 COST *",
           "fmt": "2dec"
         }
       ]
     ],
     "ins": [
       {
-        "type": "checkbox",
-        "name": "PROTEA_PASSIVE",
-        "cont": "[[Protea/Abilities/Passive|Passive]] active?"
+        "min": "0",
+        "type": "range-R",
+        "name": "GAUSS_BATTERY",
+        "max": "100",
+        "value": "0",
+        "cont": "Battery level:"
       },
       {
         "type": "checkbox",
-        "name": "TEMPORAL_EROSION",
-        "cont": "{{#invoke:Tooltip|full|Temporal Erosion|Mods}}?"
+        "name": "THERMAL_TRANSFER",
+        "cont": "{{#invoke:Tooltip|full|Thermal Transfer|Mods}}?"
+      },
+      {
+        "type": "checkbox",
+        "name": "THERMAL_SUNDER_INFUSED",
+        "cont": "[[Infused]]?"
       }
     ]
   },
@@ -1319,8 +1365,9 @@
       [
         "Melee [[Damage Type]]s [[Status Chance]]:",
         {
-          "expr": "STR 1 %of 0 ELEMENTAL_SANDSTORM if",
-          "fmt": "%"
+          "expr": "STR 100 %of 0 ELEMENTAL_SANDSTORM if",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -1376,8 +1423,9 @@
       [
         "Damage to Shield conversion:",
         {
-          "expr": "STR 0.03 %of 0 CAPACITANCE if",
-          "fmt": "%"
+          "expr": "STR 3 %of 0 CAPACITANCE if",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -1544,8 +1592,9 @@
       [
         "{{#invoke:Tooltip|full|Armor|Stats}} Reduction:",
         {
-          "expr": "STR 0.5 %of 1 min",
-          "fmt": "%"
+          "expr": "STR 50 %of 100 min",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -1861,8 +1910,9 @@
       [
         "{{#invoke:Tooltip|full|Armor|Stats}} Reduction:",
         {
-          "expr": "STR 0.75 %of 1 min",
-          "fmt": "%"
+          "expr": "STR 75 %of 100 min",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -2379,15 +2429,16 @@
       [
         "Energy conversion:",
         {
-          "expr": "STR 0.15 2 EFF as% - / %of",
+          "expr": "STR 15 2 EFF as% - / %of",
+          "fmt": "2dec",
           "name": "THURIBLE_CONVERSION",
-          "fmt": "%"
+          "suff": "%"
         }
       ],
       [
         "Energy restoration on normal kill:",
         {
-          "expr": "1 THURIBLE_ENERGY THURIBLE_CONVERSION * +",
+          "expr": "1 THURIBLE_ENERGY THURIBLE_CONVERSION %of +",
           "fmt": "2dec",
           "name": "THURIBLE_RESTORE",
           "suff": "/kill"
@@ -2420,8 +2471,9 @@
       [
         "[[Damage Reduction]]:",
         {
-          "expr": "STR 0.5 %of 0.9 min 0 WARDING_THURIBLE if",
-          "fmt": "%"
+          "expr": "STR 50 %of 90 min 0 WARDING_THURIBLE if",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -2466,8 +2518,9 @@
       [
         "{{#invoke:Tooltip|full|Confusion|DamageTypes}} Status Chance:",
         {
-          "expr": "STR 0.2 %of",
-          "fmt": "%"
+          "expr": "STR 20 %of",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -2489,9 +2542,9 @@
       [
         "Primary [[Critical Chance]] bonus:",
         {
-          "expr": "STR 0.1 %of 0 BREACH_SURGE_RESERVOIRS CRITICAL_SURGE and if",
-          "suff": "/m",
-          "fmt": "%"
+          "expr": "STR 10 %of 0 BREACH_SURGE_RESERVOIRS CRITICAL_SURGE and if",
+          "suff": "%/m",
+          "fmt": "2dec"
         }
       ],
       [
@@ -2540,8 +2593,9 @@
       [
         "{{#invoke:Tooltip|full|Armor|Stats}} reduction:",
         {
-          "expr": "STR 0.6 %of 1 min",
-          "fmt": "%"
+          "expr": "STR 60 %of 100 min",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -2571,9 +2625,10 @@
       [
         "Armor to Overguard conversion rate:",
         {
-          "expr": "STR 0.2 %of 0 ICY_AVALANCHE if",
+          "expr": "STR 20 %of 0 ICY_AVALANCHE if",
+          "fmt": "2dec",
           "name": "ICY_AVALANCHE_CONVERSION",
-          "fmt": "%"
+          "suff": "%"
         }
       ],
       [
@@ -3221,8 +3276,9 @@
       [
         "{{#invoke:Tooltip|full|Viral|DamageTypes}} [[Weapon Damage]] bonus:",
         {
-          "expr": "STR 0.45 0.75 NOURISH_INFUSED if %of",
-          "fmt": "%"
+          "expr": "STR 45 75 NOURISH_INFUSED if %of",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -3235,8 +3291,9 @@
       [
         "Digestion damage:",
         {
-          "expr": "0 STR 0.2 %of NOURISH_INFUSED if",
-          "fmt": "%"
+          "expr": "0 STR 20 %of NOURISH_INFUSED if",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -3302,6 +3359,133 @@
         "name": "NOURISH_INFUSED",
         "cont": "[[Infused]]?"
       }
+    ]
+  },
+  "Void Hole": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
+        {
+          "expr": "STR 200 %of",
+          "suff": "/s"
+        }
+      ],
+      [
+        "Duration:",
+        {
+          "expr": "DUR 20 %of",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Radius:",
+        {
+          "expr": "RNG 100 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Base {{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "200 COST *",
+          "fmt": "2dec"
+        }
+      ]
+    ]
+  },
+  "Seeking Fire": {
+    "outs": [
+      [
+        "Number of missile volleys:",
+        {
+          "expr": "STR 8 %of"
+        }
+      ],
+      [
+        "Tracking range ([[Archwing]] missions):",
+        {
+          "expr": "RNG 480 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "Tracking range ([[Landscape]] missions):",
+        {
+          "expr": "RNG 48 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "75 COST *"
+        }
+      ]
+    ]
+  },
+  "Phoenix Blaze": {
+    "outs": [
+      [
+        "Trail {{#invoke:Tooltip|full|Heat|DamageTypes}} damage:",
+        {
+          "expr": "STR 200 %of",
+          "suff": "/s"
+        }
+      ],
+      [
+        "Speed bonus:",
+        {
+          "expr": "STR 20 %of",
+          "suff": "%",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "[[Damage Reduction]]:",
+        {
+          "expr": "STR 40 %of",
+          "suff": "%",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Base explosion {{#invoke:Tooltip|full|Heat|DamageTypes}} damage:",
+        {
+          "expr": "STR 100 %of"
+        }
+      ],
+      [
+        "Turret {{#invoke:Tooltip|full|Heat|DamageTypes}} damage bonus:",
+        {
+          "expr": "STR 60 %of",
+          "suff": "%",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Explosion radius:",
+        {
+          "expr": "RNG 250 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Base {{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "100 COST *",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
+        {
+          "expr": "5 DRAIN *",
+          "fmt": "2dec"
+        }
+      ]
     ]
   },
   "Metamorphosis": {
@@ -3371,6 +3555,55 @@
         "name": "DUALITY",
         "cont": "{{#invoke:Tooltip|full|Duality|Mods}}?"
       }
+    ]
+  },
+  "Tether": {
+    "outs": [
+      [
+        "[[Damage Vulnerability]]:",
+        {
+          "expr": "STR 50 %of",
+          "suff": "%",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Death explosion {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        {
+          "expr": "STR 2000 %of"
+        }
+      ],
+      [
+        "Duration:",
+        {
+          "expr": "DUR 15 %of",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Tether radius:",
+        {
+          "expr": "RNG 120 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Death explosion radius:",
+        {
+          "expr": "RNG 80 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Base {{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "100 COST *",
+          "fmt": "2dec"
+        }
+      ]
     ]
   },
   "Blazing Chakram": {
@@ -3465,22 +3698,25 @@
       [
         "Haste Mote [[Movement Speed]] bonus:",
         {
-          "expr": "STR 0.2 %of",
-          "fmt": "%"
+          "expr": "STR 20 %of",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
         "Haste Mote [[Attack Speed]] bonus:",
         {
-          "expr": "STR 0.2 %of",
-          "fmt": "%"
+          "expr": "STR 20 %of",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
         "Haste Mote [[Fire Rate]] bonus:",
         {
-          "expr": "STR 0.3 %of",
-          "fmt": "%"
+          "expr": "STR 30 %of",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -3521,75 +3757,92 @@
       }
     ]
   },
-  "Void Hole": {
+  "Particle Ram": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Cold|DamageTypes}} damage:",
+        "Minimum {{#invoke:Tooltip|full|Radiation|DamageTypes}} damage:",
         {
-          "expr": "STR 200 %of",
-          "suff": "/s"
+          "expr": "STR 1000 %of"
         }
       ],
       [
-        "Duration:",
+        "Maximum {{#invoke:Tooltip|full|Radiation|DamageTypes}} damage:",
         {
-          "expr": "DUR 20 %of",
+          "expr": "STR 2000 %of"
+        }
+      ],
+      [
+        "Launched ram lifetime:",
+        {
+          "expr": "DUR 6 %of",
           "suff": "s",
           "fmt": "2dec"
         }
       ],
       [
-        "Radius:",
-        {
-          "expr": "RNG 100 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
         "Base {{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "200 COST *",
+          "expr": "100 COST *",
           "fmt": "2dec"
         }
       ]
     ]
   },
-  "Repel": {
+  "Kinetic Plating": {
     "outs": [
+      {
+        "1": "Minimum Damage Reduction:",
+        "2": {
+          "expr": "STR 20 %of 50 min",
+          "fmt": "2dec",
+          "name": "KINETIC_PLATING_DR_MIN",
+          "suff": "%"
+        },
+        "style": "display:none"
+      },
+      {
+        "1": "Maximum Damage Reduction:",
+        "2": {
+          "expr": "STR 100 %of 100 min",
+          "fmt": "2dec",
+          "name": "KINETIC_PLATING_DR_MAX",
+          "suff": "%"
+        },
+        "style": "display:none"
+      },
       [
-        "{{#invoke:Tooltip|full|Impact|DamageTypes}} damage:",
+        "[[Damage Reduction]]:",
         {
-          "expr": "STR 1500 %of"
+          "expr": "KINETIC_PLATING_DR_MIN GAUSS_BATTERY KINETIC_PLATING_DR_MAX KINETIC_PLATING_DR_MIN - %of +",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Disarmed|DamageTypes}} and stun duration:",
+        "Duration:",
         {
-          "expr": "DUR 11 %of",
-          "suff": "s"
-        }
-      ],
-      [
-        "Radius ([[Archwing]] missions):",
-        {
-          "expr": "RNG 140 %of",
-          "suff": "m"
-        }
-      ],
-      [
-        "Radius ([[Landscape]] missions):",
-        {
-          "expr": "RNG 14 %of",
-          "suff": "m"
+          "expr": "DUR 30 %of",
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "100 COST *"
+          "expr": "50 COST *",
+          "fmt": "2dec"
         }
       ]
+    ],
+    "ins": [
+      {
+        "min": "0",
+        "type": "range-R",
+        "name": "GAUSS_BATTERY",
+        "max": "100",
+        "value": "0",
+        "cont": "Battery level:"
+      }
     ]
   },
   "Sonic Boom": {
@@ -3655,46 +3908,20 @@
       }
     ]
   },
-  "Phoenix Blaze": {
+  "Munitions Vortex": {
     "outs": [
       [
-        "Trail {{#invoke:Tooltip|full|Heat|DamageTypes}} damage:",
+        "Vortex duration:",
         {
-          "expr": "STR 200 %of",
-          "suff": "/s"
+          "expr": "DUR 8 %of",
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
-        "Speed bonus:",
+        "Vortex radius:",
         {
-          "expr": "STR 0.2 %of",
-          "fmt": "%"
-        }
-      ],
-      [
-        "[[Damage Reduction]]:",
-        {
-          "expr": "STR 0.4 %of",
-          "fmt": "%"
-        }
-      ],
-      [
-        "Base explosion {{#invoke:Tooltip|full|Heat|DamageTypes}} damage:",
-        {
-          "expr": "STR 100 %of"
-        }
-      ],
-      [
-        "Turret {{#invoke:Tooltip|full|Heat|DamageTypes}} damage bonus:",
-        {
-          "expr": "STR 0.6 %of",
-          "fmt": "%"
-        }
-      ],
-      [
-        "Explosion radius:",
-        {
-          "expr": "RNG 250 %of",
+          "expr": "RNG 70 %of",
           "suff": "m",
           "fmt": "1dec"
         }
@@ -3702,14 +3929,7 @@
       [
         "Base {{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "100 COST *",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
-        {
-          "expr": "5 DRAIN *",
+          "expr": "50 COST *",
           "fmt": "2dec"
         }
       ]
@@ -3859,49 +4079,34 @@
       ]
     ]
   },
-  "Tether": {
+  "Blackout Pulse": {
     "outs": [
       [
-        "[[Damage Vulnerability]]:",
+        "{{#invoke:Tooltip|full|Electricity|DamageTypes}} damage:",
         {
-          "expr": "STR 0.5 %of",
-          "fmt": "%"
+          "expr": "STR 600 %of",
+          "suff": "/pulse"
         }
       ],
       [
-        "Death explosion {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        "Base radius:",
         {
-          "expr": "STR 2000 %of"
-        }
-      ],
-      [
-        "Duration:",
-        {
-          "expr": "DUR 15 %of",
-          "suff": "s",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "Tether radius:",
-        {
-          "expr": "RNG 120 %of",
+          "expr": "RNG 150 %of",
           "suff": "m",
           "fmt": "1dec"
         }
       ],
       [
-        "Death explosion radius:",
+        "Manual detonation radius:",
         {
-          "expr": "RNG 80 %of",
-          "suff": "m",
-          "fmt": "1dec"
+          "expr": "RNG 200 %of",
+          "suff": "m"
         }
       ],
       [
         "Base {{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "100 COST *",
+          "expr": "50 COST *",
           "fmt": "2dec"
         }
       ]
@@ -4076,32 +4281,34 @@
       }
     ]
   },
-  "Particle Ram": {
+  "Infested Mobility": {
     "outs": [
       [
-        "Minimum {{#invoke:Tooltip|full|Radiation|DamageTypes}} damage:",
+        "[[Sprint Speed]] bonus:",
         {
-          "expr": "STR 1000 %of"
+          "expr": "STR 60 %of",
+          "suff": "%"
         }
       ],
       [
-        "Maximum {{#invoke:Tooltip|full|Radiation|DamageTypes}} damage:",
+        "[[Parkour Velocity]] bonus:",
         {
-          "expr": "STR 2000 %of"
+          "expr": "STR 30 %of",
+          "suff": "%"
         }
       ],
       [
-        "Launched ram lifetime:",
+        "Duration:",
         {
-          "expr": "DUR 6 %of",
+          "expr": "DUR 8 %of",
           "suff": "s",
           "fmt": "2dec"
         }
       ],
       [
-        "Base {{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "100 COST *",
+          "expr": "50 COST *",
           "fmt": "2dec"
         }
       ]
@@ -4178,29 +4385,33 @@
       [
         "{{#invoke:Tooltip|full|Health|Stats}} restoration on cast:",
         {
-          "expr": "STR 0.5 %of 1 min",
-          "fmt": "%"
+          "expr": "STR 50 %of 100 min",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
         "Damage to {{#invoke:Tooltip|full|Health|Stats}} conversion:",
         {
-          "expr": "STR 0.05 %of",
-          "fmt": "%"
+          "expr": "STR 5 %of",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
         "Fire Rate and Attack Speed bonus:",
         {
-          "expr": "STR 0.35 %of",
-          "fmt": "%"
+          "expr": "STR 35 %of",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
         "Reload Speed bonus:",
         {
-          "expr": "STR 0.7 %of",
-          "fmt": "%"
+          "expr": "STR 70 %of",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -4257,26 +4468,36 @@
       }
     ]
   },
-  "Munitions Vortex": {
+  "Sickening Pulse": {
     "outs": [
       [
-        "Vortex duration:",
+        "Pulse duration:",
         {
-          "expr": "DUR 8 %of",
-          "suff": "s",
-          "fmt": "2dec"
+          "expr": "DUR 2 %of",
+          "fmt": "2dec",
+          "name": "SICKENING_PULSE_DUR",
+          "suff": "s"
         }
       ],
       [
-        "Vortex radius:",
+        "Initial pulse radius:",
         {
-          "expr": "RNG 70 %of",
+          "expr": "RNG 8 %of",
+          "fmt": "1dec",
+          "name": "SICKENING_PULSE_RNG",
+          "suff": "m"
+        }
+      ],
+      [
+        "Total pulse radius:",
+        {
+          "expr": "SICKENING_PULSE_RNG 20 SICKENING_PULSE_DUR * +",
           "suff": "m",
           "fmt": "1dec"
         }
       ],
       [
-        "Base {{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
           "expr": "50 COST *",
           "fmt": "2dec"
@@ -4284,34 +4505,26 @@
       ]
     ]
   },
-  "Blackout Pulse": {
+  "Voracious Metastasis": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Electricity|DamageTypes}} damage:",
+        "{{#invoke:Tooltip|full|Health|Stats}} restoration:",
         {
-          "expr": "STR 600 %of",
-          "suff": "/pulse"
+          "expr": "STR 500 %of"
         }
       ],
       [
-        "Base radius:",
+        "{{#invoke:Tooltip|full|Energy|Stats}} restoration to allies:",
         {
-          "expr": "RNG 150 %of",
-          "suff": "m",
-          "fmt": "1dec"
+          "expr": "VORACIOUS_METASTASIS_COST",
+          "fmt": "2dec"
         }
       ],
       [
-        "Manual detonation radius:",
-        {
-          "expr": "RNG 200 %of",
-          "suff": "m"
-        }
-      ],
-      [
-        "Base {{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
           "expr": "50 COST *",
+          "name": "VORACIOUS_METASTASIS_COST",
           "fmt": "2dec"
         }
       ]
@@ -4377,68 +4590,39 @@
       }
     ]
   },
-  "Expedite Suffering": {
+  "Reroot": {
     "outs": [
       [
-        "Damage multiplier:",
+        "{{#invoke:Tooltip|full|Health|Stats}} or {{#invoke:Tooltip|full|Shield|Stats}} restoration over time:",
         {
-          "expr": "STR 1 %of",
-          "fmt": "2dec"
+          "expr": "STR 10 %of",
+          "suff": "/s"
         }
       ],
       [
-        "Radius:",
+        "{{#invoke:Tooltip|full|Health|Stats}} or {{#invoke:Tooltip|full|Shield|Stats}} restoration from orbs:",
         {
-          "expr": "RNG 12 %of",
-          "suff": "m",
-          "fmt": "1dec"
+          "expr": "STR 80 %of"
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        "Duration:",
         {
-          "expr": "50 COST *",
-          "fmt": "2dec"
-        }
-      ]
-    ]
-  },
-  "Ophanim Eyes": {
-    "outs": [
-      [
-        "{{#invoke:Tooltip|full|Heat|DamageTypes}} damage:",
-        {
-          "expr": "STR 50 %of 1.5 1 JUDGMENT_DEBUFF if *"
-        }
-      ],
-      [
-        "Defense reduction:",
-        {
-          "expr": "STR 5 %of",
-          "name": "OPHANIM_EYES_STRIP",
-          "suff": "%/hit"
-        }
-      ],
-      [
-        "Base duration:",
-        {
-          "expr": "DUR 30 %of",
+          "expr": "DUR 10 %of",
           "suff": "s",
           "fmt": "2dec"
         }
       ],
       [
-        "Time until full defense strip:",
+        "Sprodling {{#invoke:Tooltip|full|Toxin|DamageTypes}} damage:",
         {
-          "expr": "50 OPHANIM_EYES_STRIP /",
-          "suff": "s",
-          "fmt": "2dec"
+          "expr": "STR 250 %of 0 REROOT_RAMPAGE if"
         }
       ],
       [
-        "Range:",
+        "Sprodling damage radius:",
         {
-          "expr": "RNG 20 %of",
+          "expr": "RNG 8 %of 0 REROOT_RAMPAGE if",
           "suff": "m",
           "fmt": "1dec"
         }
@@ -4454,8 +4638,84 @@
     "ins": [
       {
         "type": "checkbox",
-        "name": "JUDGMENT_DEBUFF",
-        "cont": "Enemy has [[Jade/Abilities/Passive|Judgment]]?"
+        "name": "REROOT_RAMPAGE",
+        "cont": "{{#invoke:Tooltip|full|Reroot Rampage|Mods}}?"
+      }
+    ]
+  },
+  "Redline": {
+    "outs": [
+      [
+        "Bolt {{#invoke:Tooltip|full|Impact|DamageTypes}} and {{#invoke:Tooltip|full|Puncture|DamageTypes}} damage:",
+        {
+          "expr": "STR 400 %of"
+        }
+      ],
+      [
+        "Duration:",
+        {
+          "expr": "DUR 30 %of",
+          "fmt": "2dec",
+          "name": "REDLINE_DUR",
+          "suff": "s"
+        }
+      ],
+      [
+        "Minimum time to 100% Redline:",
+        {
+          "expr": "REDLINE_DUR 3 /",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "[[Fire Rate]] bonus:",
+        {
+          "expr": "DUR 15 GAUSS_BATTERY 75 15 - %of + %of",
+          "suff": "%",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "[[Attack Speed]] bonus:",
+        {
+          "expr": "DUR 8 GAUSS_BATTERY 40 8 - %of + %of",
+          "suff": "%",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "[[Reload Speed]] bonus:",
+        {
+          "expr": "DUR 10 GAUSS_BATTERY 50 10 - %of + %of",
+          "suff": "%",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "[[Casting Speed]] bonus:",
+        {
+          "expr": "DUR 10 GAUSS_BATTERY 50 10 - %of + %of",
+          "suff": "%",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "100 COST *",
+          "fmt": "2dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "min": "0",
+        "type": "range-R",
+        "name": "GAUSS_BATTERY",
+        "max": "100",
+        "value": "0",
+        "cont": "Battery level:"
       }
     ]
   },
@@ -4464,8 +4724,9 @@
       [
         "{{#invoke:Tooltip|full|Void|DamageTypes}} [[Extra Hit]]:",
         {
-          "expr": "STR 0.26 %of",
-          "fmt": "%"
+          "expr": "STR 26 %of",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -4485,38 +4746,27 @@
       ]
     ]
   },
-  "Sickening Pulse": {
+  "Parasitic Armor": {
     "outs": [
       [
-        "Pulse duration:",
+        "{{#invoke:Tooltip|full|Shield|Stats}} to {{#invoke:Tooltip|full|Armor|Stats}} conversion:",
         {
-          "expr": "DUR 2 %of",
-          "fmt": "2dec",
-          "name": "SICKENING_PULSE_DUR",
-          "suff": "s"
+          "expr": "STR 100 %of",
+          "suff": "%"
         }
       ],
       [
-        "Initial pulse radius:",
+        "Duration:",
         {
-          "expr": "RNG 8 %of",
-          "fmt": "1dec",
-          "name": "SICKENING_PULSE_RNG",
-          "suff": "m"
-        }
-      ],
-      [
-        "Total pulse radius:",
-        {
-          "expr": "SICKENING_PULSE_RNG 20 SICKENING_PULSE_DUR * +",
-          "suff": "m",
-          "fmt": "1dec"
+          "expr": "DUR 25 %of",
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *",
+          "expr": "25 COST *",
           "fmt": "2dec"
         }
       ]
@@ -4554,62 +4804,41 @@
       }
     ]
   },
-  "Voracious Metastasis": {
+  "Expedite Suffering": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Health|Stats}} restoration:",
+        "Damage multiplier:",
         {
-          "expr": "STR 500 %of"
+          "expr": "STR 1 %of",
+          "fmt": "2dec"
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Energy|Stats}} restoration to allies:",
+        "Radius:",
         {
-          "expr": "VORACIOUS_METASTASIS_COST",
-          "fmt": "2dec"
+          "expr": "RNG 12 %of",
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
           "expr": "50 COST *",
-          "name": "VORACIOUS_METASTASIS_COST",
           "fmt": "2dec"
         }
       ]
     ]
   },
-  "Wormhole": {
+  "Rebuild Shields": {
     "outs": [
-      [
-        "Range:",
-        {
-          "expr": "RNG 50 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "[[Movement Speed]] bonus duration:",
-        {
-          "expr": "DUR 7 %of 0 ESCAPE_VELOCITY if",
-          "suff": "s",
-          "fmt": "1dec"
-        }
-      ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "75 COST *"
+          "expr": "50 COST *",
+          "fmt": "2dec"
         }
       ]
-    ],
-    "ins": [
-      {
-        "type": "checkbox",
-        "name": "ESCAPE_VELOCITY",
-        "cont": "{{#invoke:Tooltip|full|Escape Velocity|Mods}}?"
-      }
     ]
   },
   "Hall of Mirrors": {
@@ -4652,62 +4881,6 @@
       }
     ]
   },
-  "Parasitic Armor": {
-    "outs": [
-      [
-        "{{#invoke:Tooltip|full|Shield|Stats}} to {{#invoke:Tooltip|full|Armor|Stats}} conversion:",
-        {
-          "expr": "STR 100 %of",
-          "suff": "%"
-        }
-      ],
-      [
-        "Duration:",
-        {
-          "expr": "DUR 25 %of",
-          "suff": "s",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "25 COST *",
-          "fmt": "2dec"
-        }
-      ]
-    ]
-  },
-  "Golden Instinct": {
-    "outs": [
-      [
-        "Radius:",
-        {
-          "expr": "RNG 200 %of",
-          "suff": "m",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "50 COST *",
-          "fmt": "2dec"
-        }
-      ]
-    ]
-  },
-  "Rebuild Shields": {
-    "outs": [
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "50 COST *",
-          "fmt": "2dec"
-        }
-      ]
-    ]
-  },
   "Preserving Shell": {
     "outs": [
       [
@@ -4746,27 +4919,13 @@
       ]
     ]
   },
-  "Infested Mobility": {
+  "Golden Instinct": {
     "outs": [
       [
-        "[[Sprint Speed]] bonus:",
+        "Radius:",
         {
-          "expr": "STR 60 %of",
-          "suff": "%"
-        }
-      ],
-      [
-        "[[Parkour Velocity]] bonus:",
-        {
-          "expr": "STR 30 %of",
-          "suff": "%"
-        }
-      ],
-      [
-        "Duration:",
-        {
-          "expr": "DUR 8 %of",
-          "suff": "s",
+          "expr": "RNG 200 %of",
+          "suff": "m",
           "fmt": "2dec"
         }
       ],
@@ -4790,6 +4949,163 @@
       ]
     ]
   },
+  "Rhino Stomp": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        {
+          "expr": "STR 800 %of"
+        }
+      ],
+      [
+        "Duration:",
+        {
+          "expr": "DUR 8 %of",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Radius:",
+        {
+          "expr": "RNG 25 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "100 COST *",
+          "fmt": "2dec"
+        }
+      ]
+    ]
+  },
+  "Turbulence": {
+    "outs": [
+      [
+        "Duration:",
+        {
+          "expr": "DUR 20 %of",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Radius:",
+        {
+          "expr": "RNG 6 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "[[Movement Speed]] bonus:",
+        {
+          "expr": "STR 40 %of 0 JET_STREAM if",
+          "suff": "%"
+        }
+      ],
+      [
+        "[[Projectile Speed]] bonus:",
+        {
+          "expr": "STR 100 %of 0 JET_STREAM if",
+          "suff": "%"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "75 COST *",
+          "fmt": "2dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "JET_STREAM",
+        "cont": "{{#invoke:Tooltip|full|Jet Stream|Mods}}?"
+      }
+    ]
+  },
+  "Parasitic Link": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Ability Strength|Stats}} multiplier:",
+        {
+          "expr": "STR 0.25 %of 1 +",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Damage multiplier:",
+        {
+          "expr": "STR 0.25 %of 1 +",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Damage redirection:",
+        {
+          "expr": "STR 50 %of 90 min",
+          "suff": "%"
+        }
+      ],
+      [
+        "Duration:",
+        {
+          "expr": "DUR 60 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Ally maximum range:",
+        {
+          "expr": "RNG 40 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Enemy maximum range:",
+        {
+          "expr": "RNG 20 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Health bonus:",
+        {
+          "expr": "STR 4 MUTATION_STACKS * %of 0 PARASITIC_VITALITY if",
+          "suff": "%"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "25 COST *"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "min": "0",
+        "type": "range-R",
+        "name": "MUTATION_STACKS",
+        "max": "500",
+        "default": "0",
+        "cont": "Mutation Stacks:"
+      },
+      {
+        "type": "checkbox",
+        "name": "PARASITIC_VITALITY",
+        "cont": "{{#invoke:Tooltip|full|Parasitic Vitality|Mods}}?"
+      }
+    ]
+  },
   "Self Portrait": {
     "outs": [
       [
@@ -4801,17 +5117,18 @@
       [
         "Maximum [[Damage Reduction]]:",
         {
-          "expr": "STR 0.5 %of 0.75 0.9 SELF_PORTRAIT_INFUSED if min",
+          "expr": "STR 50 %of 75 90 SELF_PORTRAIT_INFUSED if min",
+          "fmt": "2dec",
           "name": "SELF_PORTRAIT_DR",
-          "fmt": "%"
+          "suff": "%"
         }
       ],
       [
         "Damage Reduction increase:",
         {
-          "expr": "SELF_PORTRAIT_DR 0.1 - 15 /",
-          "suff": "/kill",
-          "fmt": "%"
+          "expr": "SELF_PORTRAIT_DR 10 - 15 /",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -4878,35 +5195,86 @@
       }
     ]
   },
-  "Disarray": {
+  "Tail Wind": {
     "outs": [
       [
-        "Duration:",
+        "Dash {{#invoke:Tooltip|full|Slash|DamageTypes}} damage:",
         {
-          "expr": "DUR 8 %of",
-          "suff": "s"
+          "expr": "TARGET_FIXATION_BONUS 100 + STR 750 %of %of"
         }
       ],
       [
-        "Range ([[Archwing]] missions):",
+        "Dive bomb {{#invoke:Tooltip|full|Impact|DamageTypes}} damage:",
         {
-          "expr": "RNG 180 %of",
-          "suff": "m"
+          "expr": "TARGET_FIXATION_BONUS 100 + STR 4500 %of 0.2 TAIL_WIND_HEIGHT * 1 max * %of"
         }
       ],
       [
-        "Range ([[Landscape]] missions):",
+        "Dash speed:",
         {
-          "expr": "RNG 18 %of",
-          "suff": "m"
+          "expr": "DUR 30 %of",
+          "suff": "m/s",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Initial dive bomb speed:",
+        {
+          "expr": "DUR 5 %of",
+          "suff": "m/s",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Dash contact radius:",
+        {
+          "expr": "RNG 2 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Dive bomb radius:",
+        {
+          "expr": "RNG 7 %of",
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *"
+          "expr": "12.5 25 ZEPHYR_AIRBORNE if COST *",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Hover {{#invoke:Tooltip|full|Energy|Stats}} drain:",
+        {
+          "expr": "5 COST *",
+          "fmt": "2dec"
         }
       ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "ZEPHYR_AIRBORNE",
+        "cont": "Airborne?"
+      },
+      {
+        "min": "0",
+        "value": "0",
+        "name": "TAIL_WIND_HEIGHT",
+        "cont": "Dive bomb height (meters):"
+      },
+      {
+        "min": "0",
+        "name": "TARGET_FIXATION_BONUS",
+        "value": "0",
+        "step": "100",
+        "cont": "{{#invoke:Tooltip|full|Target Fixation|Mods}} damage bonus:"
+      }
     ]
   },
   "Freeze": {
@@ -4941,8 +5309,9 @@
       [
         "{{#invoke:Tooltip|full|Cold|DamageTypes}} damage bonus:",
         {
-          "expr": "STR 1 %of 0 FREEZE_FORCE if",
-          "fmt": "%"
+          "expr": "STR 100 %of 0 FREEZE_FORCE if",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -5068,51 +5437,36 @@
       }
     ]
   },
-  "Turbulence": {
+  "Wormhole": {
     "outs": [
       [
-        "Duration:",
+        "Range:",
         {
-          "expr": "DUR 20 %of",
-          "suff": "s",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "Radius:",
-        {
-          "expr": "RNG 6 %of",
+          "expr": "RNG 50 %of",
           "suff": "m",
           "fmt": "1dec"
         }
       ],
       [
-        "[[Movement Speed]] bonus:",
+        "[[Movement Speed]] bonus duration:",
         {
-          "expr": "STR 40 %of 0 JET_STREAM if",
-          "suff": "%"
-        }
-      ],
-      [
-        "[[Projectile Speed]] bonus:",
-        {
-          "expr": "STR 100 %of 0 JET_STREAM if",
-          "suff": "%"
+          "expr": "DUR 7 %of 0 ESCAPE_VELOCITY if",
+          "suff": "s",
+          "fmt": "1dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "75 COST *",
-          "fmt": "2dec"
+          "expr": "75 COST *"
         }
       ]
     ],
     "ins": [
       {
         "type": "checkbox",
-        "name": "JET_STREAM",
-        "cont": "{{#invoke:Tooltip|full|Jet Stream|Mods}}?"
+        "name": "ESCAPE_VELOCITY",
+        "cont": "{{#invoke:Tooltip|full|Escape Velocity|Mods}}?"
       }
     ]
   },
@@ -5268,9 +5622,9 @@
       [
         "Scuttler Health drain:",
         {
-          "expr": "1 SCUTTLER_DUR /",
-          "suff": "/s",
-          "fmt": "%"
+          "expr": "100 SCUTTLER_DUR /",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -5326,196 +5680,6 @@
       }
     ]
   },
-  "Reroot": {
-    "outs": [
-      [
-        "{{#invoke:Tooltip|full|Health|Stats}} or {{#invoke:Tooltip|full|Shield|Stats}} restoration over time:",
-        {
-          "expr": "STR 10 %of",
-          "suff": "/s"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Health|Stats}} or {{#invoke:Tooltip|full|Shield|Stats}} restoration from orbs:",
-        {
-          "expr": "STR 80 %of"
-        }
-      ],
-      [
-        "Duration:",
-        {
-          "expr": "DUR 10 %of",
-          "suff": "s",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "Sprodling {{#invoke:Tooltip|full|Toxin|DamageTypes}} damage:",
-        {
-          "expr": "STR 250 %of 0 REROOT_RAMPAGE if"
-        }
-      ],
-      [
-        "Sprodling damage radius:",
-        {
-          "expr": "RNG 8 %of 0 REROOT_RAMPAGE if",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "50 COST *",
-          "fmt": "2dec"
-        }
-      ]
-    ],
-    "ins": [
-      {
-        "type": "checkbox",
-        "name": "REROOT_RAMPAGE",
-        "cont": "{{#invoke:Tooltip|full|Reroot Rampage|Mods}}?"
-      }
-    ]
-  },
-  "Tail Wind": {
-    "outs": [
-      [
-        "Dash {{#invoke:Tooltip|full|Slash|DamageTypes}} damage:",
-        {
-          "expr": "TARGET_FIXATION_BONUS 100 + STR 750 %of %of"
-        }
-      ],
-      [
-        "Dive bomb {{#invoke:Tooltip|full|Impact|DamageTypes}} damage:",
-        {
-          "expr": "TARGET_FIXATION_BONUS 100 + STR 4500 %of 0.2 TAIL_WIND_HEIGHT * 1 max * %of"
-        }
-      ],
-      [
-        "Dash speed:",
-        {
-          "expr": "DUR 30 %of",
-          "suff": "m/s",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "Initial dive bomb speed:",
-        {
-          "expr": "DUR 5 %of",
-          "suff": "m/s",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "Dash contact radius:",
-        {
-          "expr": "RNG 2 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "Dive bomb radius:",
-        {
-          "expr": "RNG 7 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "12.5 25 ZEPHYR_AIRBORNE if COST *",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "Hover {{#invoke:Tooltip|full|Energy|Stats}} drain:",
-        {
-          "expr": "5 COST *",
-          "fmt": "2dec"
-        }
-      ]
-    ],
-    "ins": [
-      {
-        "type": "checkbox",
-        "name": "ZEPHYR_AIRBORNE",
-        "cont": "Airborne?"
-      },
-      {
-        "min": "0",
-        "value": "0",
-        "name": "TAIL_WIND_HEIGHT",
-        "cont": "Dive bomb height (meters):"
-      },
-      {
-        "min": "0",
-        "name": "TARGET_FIXATION_BONUS",
-        "value": "0",
-        "step": "100",
-        "cont": "{{#invoke:Tooltip|full|Target Fixation|Mods}} damage bonus:"
-      }
-    ]
-  },
-  "Molecular Prime": {
-    "outs": [
-      [
-        "Slow or speed:",
-        {
-          "expr": "STR 50 %of 75 min",
-          "suff": "%",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
-        {
-          "expr": "STR 800 %of"
-        }
-      ],
-      [
-        "Wave duration:",
-        {
-          "expr": "DUR 6 %of",
-          "name": "MOLECULAR_PRIME_WAVE_DUR",
-          "suff": "s"
-        }
-      ],
-      [
-        "Priming duration:",
-        {
-          "expr": "DUR 30 %of",
-          "suff": "s"
-        }
-      ],
-      [
-        "Explosion radius:",
-        {
-          "expr": "RNG 10 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "Maximum wave range:",
-        {
-          "expr": "MOLECULAR_PRIME_WAVE_DUR 5 * 5 +",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "100 COST *"
-        }
-      ]
-    ]
-  },
   "Blood Altar": {
     "outs": [
       [
@@ -5556,66 +5720,6 @@
           "fmt": "2dec"
         }
       ]
-    ]
-  },
-  "Antimatter Drop": {
-    "outs": [
-      [
-        "Base explosion {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
-        {
-          "name": "ANTIMATTER_DROP_BASE_DMG",
-          "expr": "STR 200 %of"
-        }
-      ],
-      [
-        "Absorb damage multiplier:",
-        {
-          "expr": "STR 8 %of",
-          "name": "ANTIMATTER_DROP_MULT",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "Maximum explosion {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
-        {
-          "expr": "ANTIMATTER_DROP_MULT 25000 * ANTIMATTER_DROP_BASE_DMG +"
-        }
-      ],
-      [
-        "Contact {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
-        {
-          "expr": "STR 10 %of"
-        }
-      ],
-      [
-        "Explosion radius:",
-        {
-          "expr": "RNG 15 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "Antimatter Absorb radius:",
-        {
-          "expr": "RNG 5 %of 0 ANTIMATTER_ABSORB if",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "50 COST *"
-        }
-      ]
-    ],
-    "ins": [
-      {
-        "type": "checkbox",
-        "name": "ANTIMATTER_ABSORB",
-        "cont": "{{#invoke:Tooltip|full|Antimatter Absorb|Mods}}?"
-      }
     ]
   },
   "Grasp of Lohk": {
@@ -5769,6 +5873,129 @@
       }
     ]
   },
+  "Mach Rush": {
+    "outs": [
+      [
+        "Shockwave {{#invoke:Tooltip|full|Impact|DamageTypes}} damage:",
+        {
+          "expr": "STR 800 %of"
+        }
+      ],
+      [
+        "Enemy contact radius:",
+        {
+          "expr": "RNG 4 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Shockwave radius:",
+        {
+          "expr": "RNG 10 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Vortex radius:",
+        {
+          "expr": "RNG 8 %of 0 MACH_CRASH if",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "15 COST * 2 1 GAUSS_BATTERY 80 &gt; if /",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
+        {
+          "expr": "12.5 DRAIN * 2 1 GAUSS_BATTERY 80 &gt; if /",
+          "fmt": "2dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "min": "0",
+        "type": "range-R",
+        "name": "GAUSS_BATTERY",
+        "max": "100",
+        "value": "0",
+        "cont": "Battery level:"
+      },
+      {
+        "type": "checkbox",
+        "name": "MACH_CRASH",
+        "cont": "{{#invoke:Tooltip|full|Mach Crash|Mods}}?"
+      }
+    ]
+  },
+  "Antimatter Drop": {
+    "outs": [
+      [
+        "Base explosion {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        {
+          "name": "ANTIMATTER_DROP_BASE_DMG",
+          "expr": "STR 200 %of"
+        }
+      ],
+      [
+        "Absorb damage multiplier:",
+        {
+          "expr": "STR 8 %of",
+          "name": "ANTIMATTER_DROP_MULT",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Maximum explosion {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        {
+          "expr": "ANTIMATTER_DROP_MULT 25000 * ANTIMATTER_DROP_BASE_DMG +"
+        }
+      ],
+      [
+        "Contact {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        {
+          "expr": "STR 10 %of"
+        }
+      ],
+      [
+        "Explosion radius:",
+        {
+          "expr": "RNG 15 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Antimatter Absorb radius:",
+        {
+          "expr": "RNG 5 %of 0 ANTIMATTER_ABSORB if",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "50 COST *"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "ANTIMATTER_ABSORB",
+        "cont": "{{#invoke:Tooltip|full|Antimatter Absorb|Mods}}?"
+      }
+    ]
+  },
   "Wil-O-Wisp": {
     "outs": [
       [
@@ -5882,6 +6109,141 @@
       }
     ]
   },
+  "Speed": {
+    "outs": [
+      [
+        "[[Movement Speed]] bonus to user and NPCs:",
+        {
+          "expr": "STR 75 %of",
+          "suff": "%",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "[[Movement Speed]] bonus to other players:",
+        {
+          "expr": "STR 75 %of 150 min",
+          "suff": "%",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "[[Reload Speed]] bonus:",
+        {
+          "expr": "STR 25 %of",
+          "suff": "%",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Duration:",
+        {
+          "expr": "DUR 12 %of",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Buff radius:",
+        {
+          "expr": "RNG 25 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Electricity|DamageTypes}} damage:",
+        {
+          "expr": "STR 300 %of 0 SHOCKING_SPEED if"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Electricity|DamageTypes}} damage radius:",
+        {
+          "expr": "RNG 3 %of 0 SHOCKING_SPEED if",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "25 COST *",
+          "fmt": "2dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "SHOCKING_SPEED",
+        "cont": "{{#invoke:Tooltip|full|Shocking Speed|Mods}}?"
+      }
+    ]
+  },
+  "Shock": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Electricity|DamageTypes}} damage:",
+        {
+          "expr": "STR 200 %of VOLT_PASSIVE +"
+        }
+      ],
+      [
+        "Chain range:",
+        {
+          "expr": "RNG 15 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Electricity|DamageTypes}} damage bonus:",
+        {
+          "expr": "STR 100 %of 0 SHOCK_TROOPER if",
+          "suff": "%",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Electricity|DamageTypes}} damage bonus duration:",
+        {
+          "expr": "DUR 40 %of 0 SHOCK_TROOPER if",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Electricity|DamageTypes}} damage bonus radius:",
+        {
+          "expr": "RNG 15 %of 0 SHOCK_TROOPER if",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "15 COST *",
+          "fmt": "2dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "min": "0",
+        "name": "VOLT_PASSIVE",
+        "max": "1000",
+        "value": "0",
+        "cont": "[[Volt/Abilities/Passive|Static Discharge]]:"
+      },
+      {
+        "type": "checkbox",
+        "name": "SHOCK_TROOPER",
+        "cont": "{{#invoke:Tooltip|full|Shock Trooper|Mods}}?"
+      }
+    ]
+  },
   "Splinter Storm": {
     "outs": [
       [
@@ -5957,135 +6319,63 @@
       }
     ]
   },
-  "Speed": {
+  "Guard Mode": {
     "outs": [
       [
-        "[[Movement Speed]] bonus to user and NPCs:",
+        "{{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
         {
-          "expr": "STR 0.75 %of",
-          "fmt": "%"
+          "expr": "STR 500 %of"
         }
       ],
       [
-        "[[Movement Speed]] bonus to other players:",
+        "{{#invoke:Tooltip|full|Heat|DamageTypes}} damage:",
         {
-          "expr": "STR 0.75 %of 1.5 min",
-          "fmt": "%"
-        }
-      ],
-      [
-        "[[Reload Speed]] bonus:",
-        {
-          "expr": "STR 0.25 %of",
-          "fmt": "%"
-        }
-      ],
-      [
-        "Duration:",
-        {
-          "expr": "DUR 12 %of",
-          "suff": "s",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "Buff radius:",
-        {
-          "expr": "RNG 25 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Electricity|DamageTypes}} damage:",
-        {
-          "expr": "STR 300 %of 0 SHOCKING_SPEED if"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Electricity|DamageTypes}} damage radius:",
-        {
-          "expr": "RNG 3 %of 0 SHOCKING_SPEED if",
-          "suff": "m",
-          "fmt": "1dec"
+          "expr": "STR 500 %of"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *",
+          "expr": "50 COST *"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
+        {
+          "expr": "5 DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
-    ],
-    "ins": [
-      {
-        "type": "checkbox",
-        "name": "SHOCKING_SPEED",
-        "cont": "{{#invoke:Tooltip|full|Shocking Speed|Mods}}?"
-      }
     ]
   },
-  "Shock": {
+  "Gravemines": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Electricity|DamageTypes}} damage:",
+        "{{#invoke:Tooltip|full|Heat|DamageTypes}} damage:",
         {
-          "expr": "STR 200 %of VOLT_PASSIVE +"
+          "expr": "STR 200 %of"
         }
       ],
       [
-        "Chain range:",
+        "Number of mines:",
         {
-          "expr": "RNG 15 %of",
-          "suff": "m",
-          "fmt": "1dec"
+          "expr": "DUR 24 %of"
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Electricity|DamageTypes}} damage bonus:",
+        "Mine scattering range:",
         {
-          "expr": "STR 1 %of 0 SHOCK_TROOPER if",
-          "fmt": "%"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Electricity|DamageTypes}} damage bonus duration:",
-        {
-          "expr": "DUR 40 %of 0 SHOCK_TROOPER if",
-          "suff": "s",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Electricity|DamageTypes}} damage bonus radius:",
-        {
-          "expr": "RNG 15 %of 0 SHOCK_TROOPER if",
-          "suff": "m",
-          "fmt": "1dec"
+          "expr": "RNG 8 %of",
+          "suff": "m"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "15 COST *",
-          "fmt": "2dec"
+          "expr": "75 COST *"
         }
       ]
-    ],
-    "ins": [
-      {
-        "min": "0",
-        "name": "VOLT_PASSIVE",
-        "max": "1000",
-        "value": "0",
-        "cont": "[[Volt/Abilities/Passive|Static Discharge]]:"
-      },
-      {
-        "type": "checkbox",
-        "name": "SHOCK_TROOPER",
-        "cont": "{{#invoke:Tooltip|full|Shock Trooper|Mods}}?"
-      }
     ]
   },
   "Shattered Lash": {
@@ -6226,18 +6516,28 @@
       }
     ]
   },
-  "Guard Mode": {
+  "Storm Shroud": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        "Health buffer base health:",
         {
-          "expr": "STR 500 %of"
+          "name": "STORM_SHROUD_BASE_HEALTH",
+          "expr": "STR 1200 %of"
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Heat|DamageTypes}} damage:",
+        "Damage absorption multiplier:",
         {
-          "expr": "STR 500 %of"
+          "expr": "STR 2 %of",
+          "fmt": "2dec",
+          "name": "DAMAGE_ABSORPTION_MULTIPLIER",
+          "suff": "x"
+        }
+      ],
+      [
+        "Health buffer modified health:",
+        {
+          "expr": "STORM_SHROUD_BASE_HEALTH ABSORBED_DAMAGE DAMAGE_ABSORPTION_MULTIPLIER * +"
         }
       ],
       [
@@ -6245,42 +6545,28 @@
         {
           "expr": "50 COST *"
         }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
-        {
-          "expr": "5 DRAIN *",
-          "suff": "/s",
-          "fmt": "2dec"
-        }
       ]
+    ],
+    "ins": [
+      {
+        "name": "ABSORBED_DAMAGE",
+        "cont": "Absorbed damage"
+      }
     ]
   },
-  "Gravemines": {
+  "Energy Shell": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Heat|DamageTypes}} damage:",
+        "Duration:",
         {
-          "expr": "STR 200 %of"
-        }
-      ],
-      [
-        "Number of mines:",
-        {
-          "expr": "DUR 24 %of"
-        }
-      ],
-      [
-        "Mine scattering range:",
-        {
-          "expr": "RNG 8 %of",
-          "suff": "m"
+          "expr": "DUR 22 %of",
+          "suff": "s"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "75 COST *"
+          "expr": "25 COST *"
         }
       ]
     ]
@@ -6324,41 +6610,48 @@
       ]
     ]
   },
-  "Storm Shroud": {
+  "Jade Stars": {
     "outs": [
       [
-        "Health buffer base health:",
+        "{{#invoke:Tooltip|full|Heat|DamageTypes}} damage:",
         {
-          "name": "STORM_SHROUD_BASE_HEALTH",
-          "expr": "STR 1200 %of"
+          "expr": "STR 500 %of"
         }
       ],
       [
-        "Damage absorption multiplier:",
+        "Status chance:",
         {
-          "expr": "STR 2 %of",
-          "fmt": "2dec",
-          "name": "DAMAGE_ABSORPTION_MULTIPLIER",
-          "suff": "x"
+          "expr": "STR 100 %of",
+          "suff": "%"
         }
       ],
       [
-        "Health buffer modified health:",
+        "Buff duration",
         {
-          "expr": "STORM_SHROUD_BASE_HEALTH ABSORBED_DAMAGE DAMAGE_ABSORPTION_MULTIPLIER * +"
+          "expr": "DUR 35 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Explosion radius",
+        {
+          "expr": "RNG 4 %of",
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *"
+          "expr": "2 EFF 45 0 SWITCH if + 175 min 100 / - 50 *"
         }
       ]
     ],
     "ins": [
       {
-        "name": "ABSORBED_DAMAGE",
-        "cont": "Absorbed damage"
+        "type": "checkbox",
+        "name": "SWITCH",
+        "cont": "[[Sirius_%26_Orion/Abilities/Passive#Switching|Switching]] passive?"
       }
     ]
   },
@@ -6498,151 +6791,6 @@
       ]
     ]
   },
-  "Gravitic Slash": {
-    "outs": [
-      [
-        "{{#invoke:Tooltip|full|Slash|DamageTypes}} damage:",
-        {
-          "expr": "STR 1500 %of"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Armor|Stats}}/{{#invoke:Tooltip|full|Shield|Stats}} reduction:",
-        {
-          "expr": "STR 50 %of",
-          "suff": "%"
-        }
-      ],
-      [
-        "Status chance:",
-        {
-          "expr": "STR 100 %of",
-          "suff": "%"
-        }
-      ],
-      [
-        "Radius",
-        {
-          "expr": "RNG 8 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "2 EFF 45 0 SWITCH if + 175 min 100 / - 15 *"
-        }
-      ]
-    ],
-    "ins": [
-      {
-        "type": "checkbox",
-        "name": "SWITCH",
-        "cont": "[[Sirius_%26_Orion/Abilities/Passive#Switching|Switching]] passive?"
-      }
-    ]
-  },
-  "Scarab Swarm": {
-    "outs": [
-      [
-        "{{#invoke:Tooltip|full|Corrosive|DamageTypes}} damage:",
-        {
-          "expr": "20 INAROS_HEALTH %of",
-          "suff": "/0.5s"
-        }
-      ],
-      [
-        "Swarm duration:",
-        {
-          "expr": "DUR 15 %of",
-          "suff": "s",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "Cast range:",
-        {
-          "expr": "RNG 30 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "Spread range:",
-        {
-          "expr": "RNG 12 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "Swarm Kavat {{#invoke:Tooltip|full|Slash|DamageTypes}} damage:",
-        {
-          "expr": "SWARM_KAVAT_LEVEL 1 - 1.55 ^ 0.015 * 1 + 350 *"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "100 COST *",
-          "fmt": "2dec"
-        }
-      ]
-    ],
-    "ins": [
-      {
-        "min": "1",
-        "value": "2310",
-        "name": "INAROS_HEALTH",
-        "cont": "Current maximum {{#invoke:Tooltip|full|Health|Stats}}:"
-      },
-      {
-        "min": "1",
-        "value": "1",
-        "name": "SWARM_KAVAT_LEVEL",
-        "cont": "Swarm Kavat level:"
-      }
-    ]
-  },
-  "Iron Skin": {
-    "outs": [
-      [
-        "Base {{#invoke:Tooltip|full|Overguard|DamageTypes}}:",
-        {
-          "expr": "STR 1200 2.5 RHINO_ARMOR * + %of"
-        }
-      ],
-      [
-        "Iron Shrapnel radius:",
-        {
-          "expr": "RNG 8 %of 0 IRON_SHRAPNEL if",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "50 COST *",
-          "fmt": "2dec"
-        }
-      ]
-    ],
-    "ins": [
-      {
-        "min": "0",
-        "value": "240",
-        "name": "RHINO_ARMOR",
-        "cont": "Current {{#invoke:Tooltip|full|Armor|Stats}}:"
-      },
-      {
-        "type": "checkbox",
-        "name": "IRON_SHRAPNEL",
-        "cont": "{{#invoke:Tooltip|full|Iron Shrapnel|Mods}}?"
-      }
-    ]
-  },
   "Infernalis": {
     "outs": [
       [
@@ -6755,6 +6903,156 @@
       }
     ]
   },
+  "Scarab Swarm": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Corrosive|DamageTypes}} damage:",
+        {
+          "expr": "20 INAROS_HEALTH %of",
+          "suff": "/0.5s"
+        }
+      ],
+      [
+        "Swarm duration:",
+        {
+          "expr": "DUR 15 %of",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Cast range:",
+        {
+          "expr": "RNG 30 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Spread range:",
+        {
+          "expr": "RNG 12 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Swarm Kavat {{#invoke:Tooltip|full|Slash|DamageTypes}} damage:",
+        {
+          "expr": "SWARM_KAVAT_LEVEL 1 - 1.55 ^ 0.015 * 1 + 350 *"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "100 COST *",
+          "fmt": "2dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "min": "1",
+        "value": "2310",
+        "name": "INAROS_HEALTH",
+        "cont": "Current maximum {{#invoke:Tooltip|full|Health|Stats}}:"
+      },
+      {
+        "min": "1",
+        "value": "1",
+        "name": "SWARM_KAVAT_LEVEL",
+        "cont": "Swarm Kavat level:"
+      }
+    ]
+  },
+  "Condemn": {
+    "outs": [
+      [
+        "{{#invoke:Tooltip|full|Shield|Stats}} restoration:",
+        {
+          "expr": "STR 150 %of",
+          "suff": "/enemy"
+        }
+      ],
+      [
+        "Duration:",
+        {
+          "expr": "DUR 6 %of",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Wave travel distance:",
+        {
+          "expr": "RNG 20 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Wave width:",
+        {
+          "expr": "RNG 2.5 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "25 COST *",
+          "fmt": "2dec"
+        }
+      ]
+    ]
+  },
+  "Celestial Clash": {
+    "outs": [
+      [
+        "Average {{#invoke:Tooltip|full|Heat|DamageTypes}} or {{#invoke:Tooltip|full|Slash|DamageTypes}} damage:",
+        {
+          "expr": "STR 10000 %of CONSTELLATION 1.5 * 1 + * 0.5 CONSTELLATION * 1 + *"
+        }
+      ],
+      [
+        "[[Critical Chance]]:",
+        {
+          "expr": "50 CONSTELLATION *",
+          "suff": "%"
+        }
+      ],
+      [
+        "Radius:",
+        {
+          "expr": "RNG 26 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "2 EFF 45 0 SWITCH if + 175 min 100 / - 100 *"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "min": "0",
+        "type": "range-R",
+        "name": "CONSTELLATION",
+        "max": "7",
+        "default": "0",
+        "cont": "[[Sirius_%26_Orion/Abilities/Passive#Constellation Stars|Constellation Stars]] combo:"
+      },
+      {
+        "type": "checkbox",
+        "name": "SWITCH",
+        "cont": "[[Sirius_%26_Orion/Abilities/Passive#Switching|Switching]] passive?"
+      }
+    ]
+  },
   "Ophidian Bite": {
     "outs": [
       [
@@ -6801,43 +7099,83 @@
       }
     ]
   },
-  "Mallet": {
+  "Disometric Guard": {
     "outs": [
       [
-        "Damage multiplier:",
+        "{{#invoke:Tooltip|full|Radiation|DamageTypes}} damage:",
         {
-          "expr": "STR 2.5 %of",
-          "fmt": "2dec"
+          "expr": "STR 500 %of"
         }
       ],
       [
-        "Stored damage decay:",
+        "Stacks gained on cast:",
         {
-          "expr": "PERCUSSION_COUNT mulin",
-          "suff": "/beat",
-          "fmt": "2%"
+          "expr": "STR 5 %of floor"
+        }
+      ],
+      [
+        "Maximum stack count:",
+        {
+          "expr": "STR 10 %of floor"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "75 COST *",
+          "fmt": "2dec"
+        }
+      ]
+    ]
+  },
+  "Light's Sanctuary": {
+    "outs": [
+      [
+        "Initial {{#invoke:Tooltip|full|Health|Stats}} restored:",
+        {
+          "expr": "STR 25 %of",
+          "suff": "/s"
+        }
+      ],
+      [
+        "Final {{#invoke:Tooltip|full|Health|Stats}} restored:",
+        {
+          "expr": "STR 55 %of",
+          "suff": "/s"
+        }
+      ],
+      [
+        "Initial Damage Reduction:",
+        {
+          "expr": "STR 15 %of",
+          "suff": "%"
+        }
+      ],
+      [
+        "Final Damage Reduction:",
+        {
+          "expr": "STR 45 %of 75 min",
+          "suff": "%"
         }
       ],
       [
         "Duration:",
         {
-          "expr": "DUR 20 %of",
-          "suff": "s"
+          "expr": "DUR 30 %of"
         }
       ],
       [
-        "Base radius:",
+        "Initial radius:",
         {
-          "expr": "80 100 PARTITIONED_MALLET if RNG 10 %of %of",
-          "fmt": "1dec",
-          "name": "MALLET_BASE_RADIUS",
-          "suff": "m"
+          "expr": "RNG 5 %of",
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Amp|Ability}} radius:",
+        "Final radius:",
         {
-          "expr": "2 MALLET_BASE_RADIUS *",
+          "expr": "RNG 10 %of",
           "suff": "m",
           "fmt": "1dec"
         }
@@ -6845,64 +7183,11 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "2 EFF 45 0 SWITCH if + 175 min 100 / - 50 *"
         }
       ]
     ],
     "ins": [
-      {
-        "min": "1",
-        "name": "PERCUSSION_COUNT",
-        "max": "64",
-        "value": "26",
-        "cont": "Number of Percussive beats:"
-      },
-      {
-        "type": "checkbox",
-        "name": "PARTITIONED_MALLET",
-        "cont": "{{#invoke:Tooltip|full|Partitioned Mallet|Mods}}?"
-      }
-    ]
-  },
-  "Celestial Clash": {
-    "outs": [
-      [
-        "Average {{#invoke:Tooltip|full|Heat|DamageTypes}} or {{#invoke:Tooltip|full|Slash|DamageTypes}} damage:",
-        {
-          "expr": "STR 10000 %of CONSTELLATION 1.5 * 1 + * 0.5 CONSTELLATION * 1 + *"
-        }
-      ],
-      [
-        "[[Critical Chance]]:",
-        {
-          "expr": "50 CONSTELLATION *",
-          "suff": "%"
-        }
-      ],
-      [
-        "Radius:",
-        {
-          "expr": "RNG 26 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "2 EFF 45 0 SWITCH if + 175 min 100 / - 100 *"
-        }
-      ]
-    ],
-    "ins": [
-      {
-        "min": "0",
-        "type": "range-R",
-        "name": "CONSTELLATION",
-        "max": "7",
-        "default": "0",
-        "cont": "[[Sirius_%26_Orion/Abilities/Passive#Constellation Stars|Constellation Stars]] combo:"
-      },
       {
         "type": "checkbox",
         "name": "SWITCH",
@@ -6995,54 +7280,32 @@
       }
     ]
   },
-  "Light's Sanctuary": {
+  "Gravitic Slash": {
     "outs": [
       [
-        "Initial {{#invoke:Tooltip|full|Health|Stats}} restored:",
+        "{{#invoke:Tooltip|full|Slash|DamageTypes}} damage:",
         {
-          "expr": "STR 25 %of",
-          "suff": "/s"
+          "expr": "STR 1500 %of"
         }
       ],
       [
-        "Final {{#invoke:Tooltip|full|Health|Stats}} restored:",
+        "{{#invoke:Tooltip|full|Armor|Stats}}/{{#invoke:Tooltip|full|Shield|Stats}} reduction:",
         {
-          "expr": "STR 55 %of",
-          "suff": "/s"
-        }
-      ],
-      [
-        "Initial Damage Reduction:",
-        {
-          "expr": "STR 15 %of",
+          "expr": "STR 50 %of",
           "suff": "%"
         }
       ],
       [
-        "Final Damage Reduction:",
+        "Status chance:",
         {
-          "expr": "STR 45 %of 75 min",
+          "expr": "STR 100 %of",
           "suff": "%"
         }
       ],
       [
-        "Duration:",
+        "Radius",
         {
-          "expr": "DUR 30 %of"
-        }
-      ],
-      [
-        "Initial radius:",
-        {
-          "expr": "RNG 5 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "Final radius:",
-        {
-          "expr": "RNG 10 %of",
+          "expr": "RNG 8 %of",
           "suff": "m",
           "fmt": "1dec"
         }
@@ -7050,7 +7313,7 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "2 EFF 45 0 SWITCH if + 175 min 100 / - 50 *"
+          "expr": "2 EFF 45 0 SWITCH if + 175 min 100 / - 15 *"
         }
       ]
     ],
@@ -7186,32 +7449,41 @@
       }
     ]
   },
-  "Jade Stars": {
+  "Silken Stride": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Heat|DamageTypes}} damage:",
+        "{{#invoke:Tooltip|full|Health|Stats}} multiplier:",
+        {
+          "expr": "STR 2 %of",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Toxin|DamageTypes}} [[Extra Hit]]:",
+        {
+          "expr": "STR 40 %of 2 1 WALL_LATCHING if *",
+          "suff": "%",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Toxin|DamageTypes}} burst damage:",
         {
           "expr": "STR 500 %of"
         }
       ],
       [
-        "Status chance:",
+        "Burst radius:",
         {
-          "expr": "STR 100 %of",
-          "suff": "%"
+          "expr": "RNG 5 %of",
+          "suff": "m",
+          "fmt": "2dec"
         }
       ],
       [
-        "Buff duration",
+        "Silken Thread range:",
         {
-          "expr": "DUR 35 %of",
-          "suff": "s"
-        }
-      ],
-      [
-        "Explosion radius",
-        {
-          "expr": "RNG 4 %of",
+          "expr": "RNG 75 %of",
           "suff": "m",
           "fmt": "1dec"
         }
@@ -7219,15 +7491,23 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "2 EFF 45 0 SWITCH if + 175 min 100 / - 50 *"
+          "expr": "25 COST *",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
+        {
+          "expr": "5 DRAIN *",
+          "fmt": "2dec"
         }
       ]
     ],
     "ins": [
       {
         "type": "checkbox",
-        "name": "SWITCH",
-        "cont": "[[Sirius_%26_Orion/Abilities/Passive#Switching|Switching]] passive?"
+        "name": "WALL_LATCHING",
+        "cont": "[[Wall Latch]]ing?"
       }
     ]
   },
@@ -7593,33 +7873,68 @@
       ]
     ]
   },
-  "Disometric Guard": {
+  "Sow": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Radiation|DamageTypes}} damage:",
+        "{{#invoke:Tooltip|full|True|DamageTypes}} damage:",
         {
-          "expr": "STR 500 %of"
+          "expr": "STR 250 %of STR 50 %of 100 / 1 + 1 REAP_DMG_VULN if *",
+          "suff": "/s"
         }
       ],
       [
-        "Stacks gained on cast:",
+        "{{#invoke:Tooltip|full|True|DamageTypes}} / {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
         {
-          "expr": "STR 5 %of floor"
+          "expr": "25 STR 50 %of 100 / 1 + 1 REAP_DMG_VULN if * 0 SOW_AND_REAP if",
+          "suff": "% of current health"
         }
       ],
       [
-        "Maximum stack count:",
+        "Duration:",
         {
-          "expr": "STR 10 %of floor"
+          "expr": "DUR 10 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Radius:",
+        {
+          "expr": "RNG 16 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Spread radius",
+        {
+          "expr": "RNG 15 %of 0 DARK_PROPAGATION if",
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "75 COST *",
-          "fmt": "2dec"
+          "expr": "50 COST *"
         }
       ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "REAP_DMG_VULN",
+        "cont": "{{#invoke:Tooltip|full|Reap|Ability}}'s debuff?"
+      },
+      {
+        "type": "checkbox",
+        "name": "SOW_AND_REAP",
+        "cont": "Sow&Reap?"
+      },
+      {
+        "type": "checkbox",
+        "name": "DARK_PROPAGATION",
+        "cont": "{{#invoke:Tooltip|full|Dark Propagation|Mods}}?"
+      }
     ]
   },
   "Fusion Strike": {
@@ -7761,82 +8076,20 @@
       ]
     ]
   },
-  "Sow": {
+  "Roar": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|True|DamageTypes}} damage:",
+        "[[Faction Damage Bonus]]:",
         {
-          "expr": "STR 250 %of STR 50 %of 100 / 1 + 1 REAP_DMG_VULN if *",
-          "suff": "/s"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|True|DamageTypes}} / {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
-        {
-          "expr": "25 STR 50 %of 100 / 1 + 1 REAP_DMG_VULN if * 0 SOW_AND_REAP if",
-          "suff": "% of current health"
+          "expr": "STR 30 50 ROAR_INFUSED if %of",
+          "suff": "%",
+          "fmt": "1dec"
         }
       ],
       [
         "Duration:",
         {
-          "expr": "DUR 10 %of",
-          "suff": "s"
-        }
-      ],
-      [
-        "Radius:",
-        {
-          "expr": "RNG 16 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "Spread radius",
-        {
-          "expr": "RNG 15 %of 0 DARK_PROPAGATION if",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "50 COST *"
-        }
-      ]
-    ],
-    "ins": [
-      {
-        "type": "checkbox",
-        "name": "REAP_DMG_VULN",
-        "cont": "{{#invoke:Tooltip|full|Reap|Ability}}'s debuff?"
-      },
-      {
-        "type": "checkbox",
-        "name": "SOW_AND_REAP",
-        "cont": "Sow&Reap?"
-      },
-      {
-        "type": "checkbox",
-        "name": "DARK_PROPAGATION",
-        "cont": "{{#invoke:Tooltip|full|Dark Propagation|Mods}}?"
-      }
-    ]
-  },
-  "Rhino Stomp": {
-    "outs": [
-      [
-        "{{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
-        {
-          "expr": "STR 800 %of"
-        }
-      ],
-      [
-        "Duration:",
-        {
-          "expr": "DUR 8 %of",
+          "expr": "DUR 30 %of",
           "suff": "s",
           "fmt": "2dec"
         }
@@ -7844,7 +8097,52 @@
       [
         "Radius:",
         {
-          "expr": "RNG 25 %of",
+          "expr": "RNG 40 0 PIERCING_ROAR if + 25 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Weakened|DamageTypes}} duration:",
+        {
+          "expr": "DUR 1 %of 10 * 0 PIERCING_ROAR if",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "75 COST *",
+          "fmt": "2dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "PIERCING_ROAR",
+        "cont": "{{#invoke:Tooltip|full|Piercing Roar|Mods}}?"
+      },
+      {
+        "type": "checkbox",
+        "name": "ROAR_INFUSED",
+        "cont": "[[Infused]]?"
+      }
+    ]
+  },
+  "Iron Skin": {
+    "outs": [
+      [
+        "Base {{#invoke:Tooltip|full|Overguard|DamageTypes}}:",
+        {
+          "expr": "STR 1200 2.5 RHINO_ARMOR * + %of"
+        }
+      ],
+      [
+        "Iron Shrapnel radius:",
+        {
+          "expr": "RNG 8 %of 0 IRON_SHRAPNEL if",
           "suff": "m",
           "fmt": "1dec"
         }
@@ -7852,10 +8150,23 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "100 COST *",
+          "expr": "50 COST *",
           "fmt": "2dec"
         }
       ]
+    ],
+    "ins": [
+      {
+        "min": "0",
+        "value": "240",
+        "name": "RHINO_ARMOR",
+        "cont": "Current {{#invoke:Tooltip|full|Armor|Stats}}:"
+      },
+      {
+        "type": "checkbox",
+        "name": "IRON_SHRAPNEL",
+        "cont": "{{#invoke:Tooltip|full|Iron Shrapnel|Mods}}?"
+      }
     ]
   },
   "Mercy's Kiss": {
@@ -7869,15 +8180,17 @@
       [
         "[[Health Orb]] chance on kill:",
         {
-          "expr": "STR 2 %of",
-          "fmt": "%"
+          "expr": "STR 200 %of",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
         "[[Energy Orb]] chance on kill:",
         {
-          "expr": "STR 0.5 %of",
-          "fmt": "%"
+          "expr": "STR 50 %of",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -7965,36 +8278,56 @@
       }
     ]
   },
-  "Roar": {
+  "Rhino Charge": {
     "outs": [
       [
-        "[[Faction Damage Bonus]]:",
+        "{{#invoke:Tooltip|full|Impact|DamageTypes}} damage:",
         {
-          "expr": "STR 30 50 ROAR_INFUSED if %of",
-          "suff": "%",
-          "fmt": "1dec"
+          "name": "RHINO_CHARGE_BASE_DMG",
+          "expr": "STR 650 %of 2 RHINO_CHARGE_NUMBER 1 - ^ *"
         }
       ],
       [
-        "Duration:",
+        "{{#invoke:Tooltip|full|Impact|DamageTypes}} damage to enemies in{{#invoke:Tooltip|full|Rhino Stomp|Ability}}:",
         {
-          "expr": "DUR 30 %of",
+          "expr": "RHINO_CHARGE_BASE_DMG 2 *"
+        }
+      ],
+      [
+        "Combo window duration:",
+        {
+          "expr": "DUR 1 %of",
           "suff": "s",
           "fmt": "2dec"
         }
       ],
       [
-        "Radius:",
+        "Charge distance:",
         {
-          "expr": "RNG 40 0 PIERCING_ROAR if + 25 %of",
+          "expr": "RNG 12 %of RHINO_CHARGE_NUMBER 1 - 0.25 * 1 + *",
           "suff": "m",
           "fmt": "1dec"
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Weakened|DamageTypes}} duration:",
+        "Impact radius:",
         {
-          "expr": "DUR 1 %of 10 * 0 PIERCING_ROAR if",
+          "expr": "RNG 2 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Armor|Stats}} bonus:",
+        {
+          "expr": "STR 50 %of 0 IRONCLAD_CHARGE if",
+          "suff": "%/hit"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Armor|Stats}} bonus duration:",
+        {
+          "expr": "DUR 10 %of 0 IRONCLAD_CHARGE if",
           "suff": "s",
           "fmt": "2dec"
         }
@@ -8002,21 +8335,24 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "75 COST *",
+          "expr": "25 COST * 2 RHINO_CHARGE_NUMBER 1 - addin ^ *",
           "fmt": "2dec"
         }
       ]
     ],
     "ins": [
       {
-        "type": "checkbox",
-        "name": "PIERCING_ROAR",
-        "cont": "{{#invoke:Tooltip|full|Piercing Roar|Mods}}?"
+        "min": "1",
+        "type": "range-R",
+        "name": "RHINO_CHARGE_NUMBER",
+        "max": "3",
+        "value": "1",
+        "cont": "Charge number:"
       },
       {
         "type": "checkbox",
-        "name": "ROAR_INFUSED",
-        "cont": "[[Infused]]?"
+        "name": "IRONCLAD_CHARGE",
+        "cont": "{{#invoke:Tooltip|full|Ironclad Charge|Mods}}?"
       }
     ]
   },
@@ -8214,81 +8550,56 @@
       ]
     ]
   },
-  "Rhino Charge": {
+  "Temporal Anchor": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Impact|DamageTypes}} damage:",
+        "Percentage of damage recorded:",
         {
-          "name": "RHINO_CHARGE_BASE_DMG",
-          "expr": "STR 650 %of 2 RHINO_CHARGE_NUMBER 1 - ^ *"
+          "expr": "STR 100 0 PROTEA_PASSIVE if + 25 %of",
+          "suff": "%"
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Impact|DamageTypes}} damage to enemies in{{#invoke:Tooltip|full|Rhino Stomp|Ability}}:",
+        "Duration:",
         {
-          "expr": "RHINO_CHARGE_BASE_DMG 2 *"
-        }
-      ],
-      [
-        "Combo window duration:",
-        {
-          "expr": "DUR 1 %of",
+          "expr": "DUR 8 %of",
           "suff": "s",
           "fmt": "2dec"
         }
       ],
       [
-        "Charge distance:",
+        "Implosion radius:",
         {
-          "expr": "RNG 12 %of RHINO_CHARGE_NUMBER 1 - 0.25 * 1 + *",
+          "expr": "RNG 15 %of",
           "suff": "m",
           "fmt": "1dec"
         }
       ],
       [
-        "Impact radius:",
+        "Temporal Erosion {{#invoke:Tooltip|full|Armor|Stats}} reduction:",
         {
-          "expr": "RNG 2 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Armor|Stats}} bonus:",
-        {
-          "expr": "STR 50 %of 0 IRONCLAD_CHARGE if",
-          "suff": "%/hit"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Armor|Stats}} bonus duration:",
-        {
-          "expr": "DUR 10 %of 0 IRONCLAD_CHARGE if",
-          "suff": "s",
-          "fmt": "2dec"
+          "expr": "STR 100 0 PROTEA_PASSIVE if + 10 %of 0 TEMPORAL_EROSION if",
+          "suff": "%"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST * 2 RHINO_CHARGE_NUMBER 1 - addin ^ *",
+          "expr": "100 COST *",
           "fmt": "2dec"
         }
       ]
     ],
     "ins": [
       {
-        "min": "1",
-        "type": "range-R",
-        "name": "RHINO_CHARGE_NUMBER",
-        "max": "3",
-        "value": "1",
-        "cont": "Charge number:"
+        "type": "checkbox",
+        "name": "PROTEA_PASSIVE",
+        "cont": "[[Protea/Abilities/Passive|Passive]] active?"
       },
       {
         "type": "checkbox",
-        "name": "IRONCLAD_CHARGE",
-        "cont": "{{#invoke:Tooltip|full|Ironclad Charge|Mods}}?"
+        "name": "TEMPORAL_EROSION",
+        "cont": "{{#invoke:Tooltip|full|Temporal Erosion|Mods}}?"
       }
     ]
   },
@@ -8316,55 +8627,42 @@
       ]
     ]
   },
-  "Silken Stride": {
+  "Webbed Embrace": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Health|Stats}} multiplier:",
+        "{{#invoke:Tooltip|full|Toxin|DamageTypes}} damage:",
         {
-          "expr": "STR 2 %of",
+          "expr": "STR 250 %of"
+        }
+      ],
+      [
+        "[[Damage Vulnerability]]:",
+        {
+          "expr": "STR 50 %of",
+          "suff": "%",
           "fmt": "2dec"
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Toxin|DamageTypes}} [[Extra Hit]]:",
+        "Duration:",
         {
-          "expr": "STR 0.4 %of 2 1 WALL_LATCHING if *",
-          "fmt": "%"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Toxin|DamageTypes}} burst damage:",
-        {
-          "expr": "STR 500 %of"
-        }
-      ],
-      [
-        "Burst radius:",
-        {
-          "expr": "RNG 5 %of",
-          "suff": "m",
+          "expr": "DUR 25 %of",
+          "suff": "s",
           "fmt": "2dec"
         }
       ],
       [
-        "Silken Thread range:",
+        "Radius:",
         {
-          "expr": "RNG 75 %of",
+          "expr": "RNG 6.67 10 WEBBED_EMBRACE_INFUSED if %of",
           "suff": "m",
-          "fmt": "1dec"
+          "fmt": "2dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
-        {
-          "expr": "5 DRAIN *",
+          "expr": "50 COST *",
           "fmt": "2dec"
         }
       ]
@@ -8372,8 +8670,8 @@
     "ins": [
       {
         "type": "checkbox",
-        "name": "WALL_LATCHING",
-        "cont": "[[Wall Latch]]ing?"
+        "name": "WEBBED_EMBRACE_INFUSED",
+        "cont": "[[Infused]]?"
       }
     ]
   },
@@ -8415,51 +8713,41 @@
       }
     ]
   },
-  "Webbed Embrace": {
+  "Repel": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Toxin|DamageTypes}} damage:",
+        "{{#invoke:Tooltip|full|Impact|DamageTypes}} damage:",
         {
-          "expr": "STR 250 %of"
+          "expr": "STR 1500 %of"
         }
       ],
       [
-        "[[Damage Vulnerability]]:",
+        "{{#invoke:Tooltip|full|Disarmed|DamageTypes}} and stun duration:",
         {
-          "expr": "STR 0.5 %of",
-          "fmt": "%"
+          "expr": "DUR 11 %of",
+          "suff": "s"
         }
       ],
       [
-        "Duration:",
+        "Radius ([[Archwing]] missions):",
         {
-          "expr": "DUR 25 %of",
-          "suff": "s",
-          "fmt": "2dec"
+          "expr": "RNG 140 %of",
+          "suff": "m"
         }
       ],
       [
-        "Radius:",
+        "Radius ([[Landscape]] missions):",
         {
-          "expr": "RNG 6.67 10 WEBBED_EMBRACE_INFUSED if %of",
-          "suff": "m",
-          "fmt": "2dec"
+          "expr": "RNG 14 %of",
+          "suff": "m"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *",
-          "fmt": "2dec"
+          "expr": "100 COST *"
         }
       ]
-    ],
-    "ins": [
-      {
-        "type": "checkbox",
-        "name": "WEBBED_EMBRACE_INFUSED",
-        "cont": "[[Infused]]?"
-      }
     ]
   },
   "Shadows of the Dead": {
@@ -8550,32 +8838,33 @@
       ]
     ]
   },
-  "Seeking Fire": {
+  "Disarray": {
     "outs": [
       [
-        "Number of missile volleys:",
+        "Duration:",
         {
-          "expr": "STR 8 %of"
+          "expr": "DUR 8 %of",
+          "suff": "s"
         }
       ],
       [
-        "Tracking range ([[Archwing]] missions):",
+        "Range ([[Archwing]] missions):",
         {
-          "expr": "RNG 480 %of",
+          "expr": "RNG 180 %of",
           "suff": "m"
         }
       ],
       [
-        "Tracking range ([[Landscape]] missions):",
+        "Range ([[Landscape]] missions):",
         {
-          "expr": "RNG 48 %of",
+          "expr": "RNG 18 %of",
           "suff": "m"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "75 COST *"
+          "expr": "50 COST *"
         }
       ]
     ]
@@ -8665,13 +8954,45 @@
       }
     ]
   },
-  "Energy Shell": {
+  "Mallet": {
     "outs": [
+      [
+        "Damage multiplier:",
+        {
+          "expr": "STR 2.5 %of",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Stored damage decay:",
+        {
+          "expr": "PERCUSSION_COUNT mulin",
+          "suff": "/beat",
+          "fmt": "2%"
+        }
+      ],
       [
         "Duration:",
         {
-          "expr": "DUR 22 %of",
+          "expr": "DUR 20 %of",
           "suff": "s"
+        }
+      ],
+      [
+        "Base radius:",
+        {
+          "expr": "80 100 PARTITIONED_MALLET if RNG 10 %of %of",
+          "fmt": "1dec",
+          "name": "MALLET_BASE_RADIUS",
+          "suff": "m"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Amp|Ability}} radius:",
+        {
+          "expr": "2 MALLET_BASE_RADIUS *",
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
@@ -8680,6 +9001,20 @@
           "expr": "25 COST *"
         }
       ]
+    ],
+    "ins": [
+      {
+        "min": "1",
+        "name": "PERCUSSION_COUNT",
+        "max": "64",
+        "value": "26",
+        "cont": "Number of Percussive beats:"
+      },
+      {
+        "type": "checkbox",
+        "name": "PARTITIONED_MALLET",
+        "cont": "{{#invoke:Tooltip|full|Partitioned Mallet|Mods}}?"
+      }
     ]
   },
   "Link": {
@@ -8746,8 +9081,9 @@
       [
         "Defense reduction:",
         {
-          "expr": "STR 0.5 %of 1 min",
-          "fmt": "%"
+          "expr": "STR 50 %of 100 min",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -8828,37 +9164,38 @@
       }
     ]
   },
-  "Condemn": {
+  "Mind Control": {
     "outs": [
       [
-        "{{#invoke:Tooltip|full|Shield|Stats}} restoration:",
+        "Initial damage bonus:",
         {
-          "expr": "STR 150 %of",
-          "suff": "/enemy"
+          "expr": "STR 1000 %of 0 MIND_FREAK if 750 +",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
         "Duration:",
         {
-          "expr": "DUR 6 %of",
+          "expr": "DUR 60 %of",
           "suff": "s",
           "fmt": "2dec"
         }
       ],
       [
-        "Wave travel distance:",
+        "Targeting range:",
         {
-          "expr": "RNG 20 %of",
+          "expr": "RNG 60 %of",
           "suff": "m",
           "fmt": "1dec"
         }
       ],
       [
-        "Wave width:",
+        "Movement Speed and Attack Speed bonus:",
         {
-          "expr": "RNG 2.5 %of",
-          "suff": "m",
-          "fmt": "1dec"
+          "expr": "STR 25 %of 0 MIND_FREAK if",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -8868,129 +9205,12 @@
           "fmt": "2dec"
         }
       ]
-    ]
-  },
-  "Spectrorage": {
-    "outs": [
-      [
-        "Mirror break {{#invoke:Tooltip|full|Impact|DamageTypes}}, {{#invoke:Tooltip|full|Puncture|DamageTypes}} and {{#invoke:Tooltip|full|Slash|DamageTypes}} damage:",
-        {
-          "name": "SPECTRORAGE_MIRROR_DMG",
-          "expr": "STR 800 %of"
-        }
-      ],
-      [
-        "Damage added to {{#invoke:Tooltip|full|Splinter Storm|Ability}}:",
-        {
-          "expr": "SPECTRORAGE_MIRROR_DMG 2 /"
-        }
-      ],
-      [
-        "Carousel collapse {{#invoke:Tooltip|full|Impact|DamageTypes}}, {{#invoke:Tooltip|full|Puncture|DamageTypes}} and {{#invoke:Tooltip|full|Slash|DamageTypes}} damage:",
-        {
-          "expr": "STR 1500 %of"
-        }
-      ],
-      [
-        "Duration:",
-        {
-          "expr": "DUR 22 %of",
-          "suff": "s",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "Maximum mirror count:",
-        {
-          "name": "SPECTRORAGE_MIRROR_COUNT",
-          "expr": "RNG 12 %of floor"
-        }
-      ],
-      [
-        "Minimum mirror count:",
-        {
-          "expr": "SPECTRORAGE_MIRROR_COUNT 2 //"
-        }
-      ],
-      [
-        "Charm radius:",
-        {
-          "expr": "RNG 4 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "75 COST *",
-          "fmt": "2dec"
-        }
-      ]
-    ]
-  },
-  "Covenant": {
-    "outs": [
-      [
-        "Initial Critical Chance bonus:",
-        {
-          "expr": "STR 0.05 %of 0.5 min",
-          "name": "COVENANT_BASE",
-          "fmt": "%"
-        }
-      ],
-      [
-        "Absorbed damage to Critical Chance conversion:",
-        {
-          "expr": "STR 0.015 %of",
-          "fmt": "%",
-          "name": "COVENANT_CONVERSION",
-          "suff": "/100 damage"
-        }
-      ],
-      [
-        "Damage for 50% Critical Chance:",
-        {
-          "expr": "0.5 COVENANT_BASE - COVENANT_CONVERSION 100 / /"
-        }
-      ],
-      [
-        "[[Invulnerability]] duration:",
-        {
-          "expr": "DUR 6 %of",
-          "suff": "s",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "Critical Chance bonus duration:",
-        {
-          "expr": "DUR 12 %of",
-          "suff": "s",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "Critical Chance bonus duration extension:",
-        {
-          "expr": "DUR 3 %of 0 LASTING_COVENANT if",
-          "suff": "s/Weak Point kill",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "100 COST *",
-          "fmt": "2dec"
-        }
-      ]
     ],
     "ins": [
       {
         "type": "checkbox",
-        "name": "LASTING_COVENANT",
-        "cont": "{{#invoke:Tooltip|full|Lasting Covenant|Mods}}?"
+        "name": "MIND_FREAK",
+        "cont": "{{#invoke:Tooltip|full|Mind Freak|Mods}}?"
       }
     ]
   },
@@ -9070,6 +9290,72 @@
       }
     ]
   },
+  "Covenant": {
+    "outs": [
+      [
+        "Initial Critical Chance bonus:",
+        {
+          "expr": "STR 5 %of 50 min",
+          "fmt": "2dec",
+          "name": "COVENANT_BASE",
+          "suff": "%"
+        }
+      ],
+      [
+        "Absorbed damage to Critical Chance conversion:",
+        {
+          "expr": "STR 1.5 %of",
+          "fmt": "2dec",
+          "name": "COVENANT_CONVERSION",
+          "suff": "%/100 damage"
+        }
+      ],
+      [
+        "Damage for 50% Critical Chance:",
+        {
+          "expr": "50 COVENANT_BASE - COVENANT_CONVERSION 100 / /"
+        }
+      ],
+      [
+        "[[Invulnerability]] duration:",
+        {
+          "expr": "DUR 6 %of",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Critical Chance bonus duration:",
+        {
+          "expr": "DUR 12 %of",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Critical Chance bonus duration extension:",
+        {
+          "expr": "DUR 3 %of 0 LASTING_COVENANT if",
+          "suff": "s/Weak Point kill",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "100 COST *",
+          "fmt": "2dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "LASTING_COVENANT",
+        "cont": "{{#invoke:Tooltip|full|Lasting Covenant|Mods}}?"
+      }
+    ]
+  },
   "Chaos": {
     "outs": [
       [
@@ -9111,6 +9397,65 @@
         "name": "CHAOS_SHPERE",
         "cont": "{{#invoke:Tooltip|full|Chaos Sphere|Mods}}?"
       }
+    ]
+  },
+  "Spectrorage": {
+    "outs": [
+      [
+        "Mirror break {{#invoke:Tooltip|full|Impact|DamageTypes}}, {{#invoke:Tooltip|full|Puncture|DamageTypes}} and {{#invoke:Tooltip|full|Slash|DamageTypes}} damage:",
+        {
+          "name": "SPECTRORAGE_MIRROR_DMG",
+          "expr": "STR 800 %of"
+        }
+      ],
+      [
+        "Damage added to {{#invoke:Tooltip|full|Splinter Storm|Ability}}:",
+        {
+          "expr": "SPECTRORAGE_MIRROR_DMG 2 /"
+        }
+      ],
+      [
+        "Carousel collapse {{#invoke:Tooltip|full|Impact|DamageTypes}}, {{#invoke:Tooltip|full|Puncture|DamageTypes}} and {{#invoke:Tooltip|full|Slash|DamageTypes}} damage:",
+        {
+          "expr": "STR 1500 %of"
+        }
+      ],
+      [
+        "Duration:",
+        {
+          "expr": "DUR 22 %of",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Maximum mirror count:",
+        {
+          "name": "SPECTRORAGE_MIRROR_COUNT",
+          "expr": "RNG 12 %of floor"
+        }
+      ],
+      [
+        "Minimum mirror count:",
+        {
+          "expr": "SPECTRORAGE_MIRROR_COUNT 2 //"
+        }
+      ],
+      [
+        "Charm radius:",
+        {
+          "expr": "RNG 4 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "75 COST *",
+          "fmt": "2dec"
+        }
+      ]
     ]
   },
   "Smite": {
@@ -9193,52 +9538,59 @@
       }
     ]
   },
-  "Mind Control": {
+  "Molecular Prime": {
     "outs": [
       [
-        "Initial damage bonus:",
+        "Slow or speed:",
         {
-          "expr": "STR 10 %of 0 MIND_FREAK if 7.5 +",
-          "fmt": "%"
+          "expr": "STR 50 %of 75 min",
+          "suff": "%",
+          "fmt": "1dec"
         }
       ],
       [
-        "Duration:",
+        "{{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
         {
-          "expr": "DUR 60 %of",
-          "suff": "s",
-          "fmt": "2dec"
+          "expr": "STR 800 %of"
         }
       ],
       [
-        "Targeting range:",
+        "Wave duration:",
         {
-          "expr": "RNG 60 %of",
+          "expr": "DUR 6 %of",
+          "name": "MOLECULAR_PRIME_WAVE_DUR",
+          "suff": "s"
+        }
+      ],
+      [
+        "Priming duration:",
+        {
+          "expr": "DUR 30 %of",
+          "suff": "s"
+        }
+      ],
+      [
+        "Explosion radius:",
+        {
+          "expr": "RNG 10 %of",
           "suff": "m",
           "fmt": "1dec"
         }
       ],
       [
-        "Movement Speed and Attack Speed bonus:",
+        "Maximum wave range:",
         {
-          "expr": "STR 0.25 %of 0 MIND_FREAK if",
-          "fmt": "%"
+          "expr": "MOLECULAR_PRIME_WAVE_DUR 5 * 5 +",
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *",
-          "fmt": "2dec"
+          "expr": "100 COST *"
         }
       ]
-    ],
-    "ins": [
-      {
-        "type": "checkbox",
-        "name": "MIND_FREAK",
-        "cont": "{{#invoke:Tooltip|full|Mind Freak|Mods}}?"
-      }
     ]
   },
   "The Vast Untime": {
@@ -9252,8 +9604,9 @@
       [
         "{{#invoke:Tooltip|full|Slow|DamageTypes}}:",
         {
-          "expr": "STR 0.25 %of 0.95 min",
-          "fmt": "%"
+          "expr": "STR 25 %of 95 min",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -9397,137 +9750,8 @@
       ]
     ]
   },
-  "Parasitic Link": {
+  "Omikuji": {
     "outs": [
-      [
-        "{{#invoke:Tooltip|full|Ability Strength|Stats}} multiplier:",
-        {
-          "expr": "STR 0.25 %of 1 +",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "Damage multiplier:",
-        {
-          "expr": "STR 0.25 %of 1 +",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "Damage redirection:",
-        {
-          "expr": "STR 50 %of 90 min",
-          "suff": "%"
-        }
-      ],
-      [
-        "Duration:",
-        {
-          "expr": "DUR 60 %of",
-          "suff": "s"
-        }
-      ],
-      [
-        "Ally maximum range:",
-        {
-          "expr": "RNG 40 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "Enemy maximum range:",
-        {
-          "expr": "RNG 20 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "Health bonus:",
-        {
-          "expr": "STR 4 MUTATION_STACKS * %of 0 PARASITIC_VITALITY if",
-          "suff": "%"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "25 COST *"
-        }
-      ]
-    ],
-    "ins": [
-      {
-        "min": "0",
-        "type": "range-R",
-        "name": "MUTATION_STACKS",
-        "max": "500",
-        "default": "0",
-        "cont": "Mutation Stacks:"
-      },
-      {
-        "type": "checkbox",
-        "name": "PARASITIC_VITALITY",
-        "cont": "{{#invoke:Tooltip|full|Parasitic Vitality|Mods}}?"
-      }
-    ]
-  },
-  "Omamori": {
-    "outs": [
-      [
-        "Damage to healing conversion multiplier:",
-        {
-          "expr": "STR 1 %of",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "75 COST *",
-          "fmt": "2dec"
-        }
-      ]
-    ]
-  },
-  "Snow Globe": {
-    "outs": [
-      [
-        "Health added by Armor:",
-        {
-          "name": "SNOW_GLOBE_ARMOR",
-          "expr": "STR 5 %of FROST_ARMOR *"
-        }
-      ],
-      [
-        "Health before damage absorption:",
-        {
-          "expr": "STR 3500 %of SNOW_GLOBE_ARMOR +"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Cold|DamageTypes}} damage on break:",
-        {
-          "expr": "STR 150 %of"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Freeze|DamageTypes}} duration:",
-        {
-          "expr": "DUR 10 %of",
-          "suff": "s",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "Radius:",
-        {
-          "expr": "RNG 2.25 5 COLD_FRONT if %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
@@ -9535,19 +9759,6 @@
           "fmt": "2dec"
         }
       ]
-    ],
-    "ins": [
-      {
-        "min": "0",
-        "value": "310",
-        "name": "FROST_ARMOR",
-        "cont": "Current {{#invoke:Tooltip|full|Armor|Stats}}:"
-      },
-      {
-        "type": "checkbox",
-        "name": "COLD_FRONT",
-        "cont": "{{#invoke:Tooltip|full|Cold Front|Mods}}?"
-      }
     ]
   },
   "Fire Walker": {
@@ -9612,6 +9823,65 @@
       }
     ]
   },
+  "Snow Globe": {
+    "outs": [
+      [
+        "Health added by Armor:",
+        {
+          "name": "SNOW_GLOBE_ARMOR",
+          "expr": "STR 5 %of FROST_ARMOR *"
+        }
+      ],
+      [
+        "Health before damage absorption:",
+        {
+          "expr": "STR 3500 %of SNOW_GLOBE_ARMOR +"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Cold|DamageTypes}} damage on break:",
+        {
+          "expr": "STR 150 %of"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Freeze|DamageTypes}} duration:",
+        {
+          "expr": "DUR 10 %of",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Radius:",
+        {
+          "expr": "RNG 2.25 5 COLD_FRONT if %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "50 COST *",
+          "fmt": "2dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "min": "0",
+        "value": "310",
+        "name": "FROST_ARMOR",
+        "cont": "Current {{#invoke:Tooltip|full|Armor|Stats}}:"
+      },
+      {
+        "type": "checkbox",
+        "name": "COLD_FRONT",
+        "cont": "{{#invoke:Tooltip|full|Cold Front|Mods}}?"
+      }
+    ]
+  },
   "Terrify": {
     "outs": [
       [
@@ -9663,63 +9933,6 @@
         "type": "checkbox",
         "name": "CREEPING_TERRIFY",
         "cont": "{{#invoke:Tooltip|full|Creeping Terrify|Mods}}?"
-      }
-    ]
-  },
-  "Tectonics": {
-    "outs": [
-      [
-        "Bulwark health:",
-        {
-          "expr": "ATLAS_ARMOR 5 * 1500 + STR %of ABSORBED_DAMAGE +"
-        }
-      ],
-      [
-        "Bulwark inflicted{{#invoke:Tooltip|full|Slash|DamageTypes}} damage multiplier:",
-        {
-          "expr": "STR 1 %of",
-          "suff": "%",
-          "fmt": "2sig"
-        }
-      ],
-      [
-        "Boulder rolling {{#invoke:Tooltip|full|Impact|DamageTypes}} damage:",
-        {
-          "expr": "STR 600 %of"
-        }
-      ],
-      [
-        "Boulder explosion {{#invoke:Tooltip|full|Puncture|DamageTypes}} damage:",
-        {
-          "expr": "STR 500 %of"
-        }
-      ],
-      [
-        "Boulder explosion radius:",
-        {
-          "expr": "RNG 5 %of",
-          "suff": "m"
-        }
-      ],
-      [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
-        {
-          "expr": "50 COST *"
-        }
-      ]
-    ],
-    "ins": [
-      {
-        "min": "0",
-        "default": "475",
-        "name": "ATLAS_ARMOR",
-        "cont": "Atlas' {{#invoke:Tooltip|full|Armor|Stats}}:"
-      },
-      {
-        "min": "0",
-        "default": "0",
-        "name": "ABSORBED_DAMAGE",
-        "cont": "Absorbed damage:"
       }
     ]
   },
@@ -9802,40 +10015,61 @@
       }
     ]
   },
-  "Venari": {
+  "Tectonics": {
     "outs": [
       [
-        "Passive [[Movement Speed]] bonus:",
+        "Bulwark health:",
         {
-          "expr": "STR 15 %of",
-          "suff": "%"
+          "expr": "ATLAS_ARMOR 5 * 1500 + STR %of ABSORBED_DAMAGE +"
         }
       ],
       [
-        "Snare {{#invoke:Tooltip|full|Slash|DamageTypes}} damage:",
+        "Bulwark inflicted{{#invoke:Tooltip|full|Slash|DamageTypes}} damage multiplier:",
         {
-          "expr": "STR 350 %of"
+          "expr": "STR 1 %of",
+          "suff": "%",
+          "fmt": "2sig"
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Health|Stats}} restoration:",
+        "Boulder rolling {{#invoke:Tooltip|full|Impact|DamageTypes}} damage:",
         {
-          "expr": "STR 50 %of",
-          "suff": "/s"
+          "expr": "STR 600 %of"
         }
       ],
       [
-        "Mark {{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        "Boulder explosion {{#invoke:Tooltip|full|Puncture|DamageTypes}} damage:",
         {
-          "expr": "25 COST *"
+          "expr": "STR 500 %of"
         }
       ],
       [
-        "Maximum revive {{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        "Boulder explosion radius:",
+        {
+          "expr": "RNG 5 %of",
+          "suff": "m"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
           "expr": "50 COST *"
         }
       ]
+    ],
+    "ins": [
+      {
+        "min": "0",
+        "default": "475",
+        "name": "ATLAS_ARMOR",
+        "cont": "Atlas' {{#invoke:Tooltip|full|Armor|Stats}}:"
+      },
+      {
+        "min": "0",
+        "default": "0",
+        "name": "ABSORBED_DAMAGE",
+        "cont": "Absorbed damage:"
+      }
     ]
   },
   "Eclipse": {
@@ -9888,6 +10122,120 @@
         "type": "checkbox",
         "name": "ECLIPSE_INFUSED",
         "cont": "[[Infused]]?"
+      }
+    ]
+  },
+  "Venari": {
+    "outs": [
+      [
+        "Passive [[Movement Speed]] bonus:",
+        {
+          "expr": "STR 15 %of",
+          "suff": "%"
+        }
+      ],
+      [
+        "Snare {{#invoke:Tooltip|full|Slash|DamageTypes}} damage:",
+        {
+          "expr": "STR 350 %of"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Health|Stats}} restoration:",
+        {
+          "expr": "STR 50 %of",
+          "suff": "/s"
+        }
+      ],
+      [
+        "Mark {{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "25 COST *"
+        }
+      ],
+      [
+        "Maximum revive {{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "50 COST *"
+        }
+      ]
+    ]
+  },
+  "Sleight of Hand": {
+    "outs": [
+      [
+        "Light jewel {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        {
+          "expr": "STR 200 %of"
+        }
+      ],
+      [
+        "Pickup explosion damage:",
+        {
+          "expr": "STR 1000 200 EXPLOSIVE_LEGERDEMAIN if %of"
+        }
+      ],
+      [
+        "Booby trap duration:",
+        {
+          "expr": "DUR 18 %of",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Dark jewel {{#invoke:Tooltip|full|Blind|DamageTypes}} duration:",
+        {
+          "expr": "DUR 5 %of",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Booby trap radius:",
+        {
+          "expr": "RNG 40 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Jewel charm radius:",
+        {
+          "expr": "RNG 12 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Jewel explosion radius:",
+        {
+          "expr": "RNG 8 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Pickup explosion radius:",
+        {
+          "expr": "RNG 20 8 EXPLOSIVE_LEGERDEMAIN if %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "50 COST *",
+          "fmt": "2dec"
+        }
+      ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "EXPLOSIVE_LEGERDEMAIN",
+        "cont": "{{#invoke:Tooltip|full|Explosive Legerdemain|Mods}}?"
       }
     ]
   },
@@ -9991,82 +10339,21 @@
       }
     ]
   },
-  "Sleight of Hand": {
+  "Stasis": {
     "outs": [
       [
-        "Light jewel {{#invoke:Tooltip|full|Blast|DamageTypes}} damage:",
+        "Duration:",
         {
-          "expr": "STR 200 %of"
-        }
-      ],
-      [
-        "Pickup explosion damage:",
-        {
-          "expr": "STR 1000 200 EXPLOSIVE_LEGERDEMAIN if %of"
-        }
-      ],
-      [
-        "Booby trap duration:",
-        {
-          "expr": "DUR 18 %of",
-          "suff": "s",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "Dark jewel {{#invoke:Tooltip|full|Blind|DamageTypes}} duration:",
-        {
-          "expr": "DUR 5 %of",
-          "suff": "s",
-          "fmt": "2dec"
-        }
-      ],
-      [
-        "Booby trap radius:",
-        {
-          "expr": "RNG 40 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "Jewel charm radius:",
-        {
-          "expr": "RNG 12 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "Jewel explosion radius:",
-        {
-          "expr": "RNG 8 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "Pickup explosion radius:",
-        {
-          "expr": "RNG 20 8 EXPLOSIVE_LEGERDEMAIN if %of",
-          "suff": "m",
-          "fmt": "1dec"
+          "expr": "DUR 15 %of",
+          "suff": "s"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *",
-          "fmt": "2dec"
+          "expr": "50 COST *"
         }
       ]
-    ],
-    "ins": [
-      {
-        "type": "checkbox",
-        "name": "EXPLOSIVE_LEGERDEMAIN",
-        "cont": "{{#invoke:Tooltip|full|Explosive Legerdemain|Mods}}?"
-      }
     ]
   },
   "Rumblers": {
@@ -10186,21 +10473,61 @@
       }
     ]
   },
-  "Stasis": {
+  "Catalyze": {
     "outs": [
       [
-        "Duration:",
+        "{{#invoke:Tooltip|full|Heat|DamageTypes}} damage:",
         {
-          "expr": "DUR 15 %of",
-          "suff": "s"
+          "expr": "STR 2000 %of"
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        "Imbued elemental damage:",
         {
-          "expr": "50 COST *"
+          "expr": "STR 2000 %of"
+        }
+      ],
+      [
+        "Damage multiplier:",
+        {
+          "expr": "2 CATALYZE_PROC_COUNT ^"
+        }
+      ],
+      [
+        "Total damage:",
+        {
+          "expr": "STR 2000 %of 2 1 CATALYZE_IMBUED if * 2 CATALYZE_PROC_COUNT ^ *"
+        }
+      ],
+      [
+        "Probe travel distance:",
+        {
+          "expr": "RNG 25 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
+      [
+        "Probe travel speed:",
+        {
+          "expr": "RNG 8.33 %of",
+          "suff": "m/s",
+          "fmt": "2dec"
         }
       ]
+    ],
+    "ins": [
+      {
+        "min": "0",
+        "value": "0",
+        "name": "CATALYZE_PROC_COUNT",
+        "cont": "Number of [[Status Effect]]s on target:"
+      },
+      {
+        "type": "checkbox",
+        "name": "CATALYZE_IMBUED",
+        "cont": "Imbued?"
+      }
     ]
   },
   "Petrify": {
@@ -10279,63 +10606,6 @@
       ]
     ]
   },
-  "Catalyze": {
-    "outs": [
-      [
-        "{{#invoke:Tooltip|full|Heat|DamageTypes}} damage:",
-        {
-          "expr": "STR 2000 %of"
-        }
-      ],
-      [
-        "Imbued elemental damage:",
-        {
-          "expr": "STR 2000 %of"
-        }
-      ],
-      [
-        "Damage multiplier:",
-        {
-          "expr": "2 CATALYZE_PROC_COUNT ^"
-        }
-      ],
-      [
-        "Total damage:",
-        {
-          "expr": "STR 2000 %of 2 1 CATALYZE_IMBUED if * 2 CATALYZE_PROC_COUNT ^ *"
-        }
-      ],
-      [
-        "Probe travel distance:",
-        {
-          "expr": "RNG 25 %of",
-          "suff": "m",
-          "fmt": "1dec"
-        }
-      ],
-      [
-        "Probe travel speed:",
-        {
-          "expr": "RNG 8.33 %of",
-          "suff": "m/s",
-          "fmt": "2dec"
-        }
-      ]
-    ],
-    "ins": [
-      {
-        "min": "0",
-        "value": "0",
-        "name": "CATALYZE_PROC_COUNT",
-        "cont": "Number of [[Status Effect]]s on target:"
-      },
-      {
-        "type": "checkbox",
-        "name": "CATALYZE_IMBUED",
-        "cont": "Imbued?"
-      }
-    ]
-  },
   "Transmutation Probe": {
     "outs": [
       [
@@ -10383,7 +10653,6 @@
       }
     ]
   },
-  "AbilitySets": {},
   "Vial Rush": {
     "outs": [
       [
@@ -10426,6 +10695,25 @@
           "expr": "RNG 9 %of",
           "suff": "m",
           "fmt": "1dec"
+        }
+      ]
+    ]
+  },
+  "AbilitySets": {},
+  "Omamori": {
+    "outs": [
+      [
+        "Damage to healing conversion multiplier:",
+        {
+          "expr": "STR 1 %of",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
+        {
+          "expr": "75 COST *",
+          "fmt": "2dec"
         }
       ]
     ]
@@ -10592,8 +10880,46 @@
       }
     ]
   },
-  "Omikuji": {
+  "Ophanim Eyes": {
     "outs": [
+      [
+        "{{#invoke:Tooltip|full|Heat|DamageTypes}} damage:",
+        {
+          "expr": "STR 50 %of 1.5 1 JUDGMENT_DEBUFF if *"
+        }
+      ],
+      [
+        "Defense reduction:",
+        {
+          "expr": "STR 5 %of",
+          "name": "OPHANIM_EYES_STRIP",
+          "suff": "%/hit"
+        }
+      ],
+      [
+        "Base duration:",
+        {
+          "expr": "DUR 30 %of",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Time until full defense strip:",
+        {
+          "expr": "50 OPHANIM_EYES_STRIP /",
+          "suff": "s",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "Range:",
+        {
+          "expr": "RNG 20 %of",
+          "suff": "m",
+          "fmt": "1dec"
+        }
+      ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
@@ -10601,6 +10927,13 @@
           "fmt": "2dec"
         }
       ]
+    ],
+    "ins": [
+      {
+        "type": "checkbox",
+        "name": "JUDGMENT_DEBUFF",
+        "cont": "Enemy has [[Jade/Abilities/Passive|Judgment]]?"
+      }
     ]
   },
   "Renewal": {
@@ -10702,8 +11035,9 @@
       [
         "Gaze Defense Reduction:",
         {
-          "expr": "STR 35 THE_RELENTLESS_LOST_STACKS * + 0.5 %of 1 min",
-          "fmt": "%"
+          "expr": "STR 35 THE_RELENTLESS_LOST_STACKS * + 50 %of 100 min",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -10826,15 +11160,17 @@
       [
         "Defense Reduction:",
         {
-          "expr": "STR 0.8 %of 1 min",
-          "fmt": "%"
+          "expr": "STR 80 %of 100 min",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Slow|DamageTypes}} to {{#invoke:Tooltip|full|Infested|Factions}}:",
         {
-          "expr": "STR 0.2 %of",
-          "fmt": "%"
+          "expr": "STR 20 %of",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -10923,15 +11259,17 @@
       [
         "{{#invoke:Tooltip|full|Shield|Stats}} restoration:",
         {
-          "expr": "STR 0.35 %of 0 RECHARGE_BARRIER if",
-          "fmt": "%"
+          "expr": "STR 35 %of 0 RECHARGE_BARRIER if",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
         "Blocked damage to [[Volt/Abilities/Passive|Static Discharge]] conversion:",
         {
-          "expr": "STR 3 %of 0 TRANSISTOR_SHIELD if",
-          "fmt": "%"
+          "expr": "STR 300 %of 0 TRANSISTOR_SHIELD if",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
