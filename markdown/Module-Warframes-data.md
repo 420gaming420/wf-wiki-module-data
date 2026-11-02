@@ -1,7 +1,7 @@
 ---
 title: "Module:Warframes/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Warframes/data"
-wiki_timestamp: "2026-10-26T21:33:40Z"
+wiki_timestamp: "2026-11-01T13:23:06Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes [Warframes](/w/Warframes "Warframes"), [Necramechs](/w/Necramech "Necramech"), [Archwings](/w/Archwing "Archwing"), and [Operators](/w/Operator "Operator").
@@ -13,7 +13,7 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes
 * [3 Data Sources](#Data_Sources)
 * [4 Warframe/Avatar Data](#Warframe/Avatar_Data)
 
-:   *Last updated: Mon, 26 Oct 2026 21:33:40 +0000 (UTC) by [User:~2026-SeniorRedTiny59551](/w/User:~2026-SeniorRedTiny59551?action=edit&redlink=1 "User:~2026-SeniorRedTiny59551 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Warframes/data?diff=0))*
+:   *Last updated: Sun, 01 Nov 2026 13:23:06 +0000 (UTC) by [User:WarpFactor](/w/User:WarpFactor "User:WarpFactor") ([change log](https://wiki.warframe.com/w/Module:Warframes/data?diff=0))*
 
 ## Warframe/Avatar Data Schema
 
@@ -678,7 +678,7 @@ return {
 			SquadPortrait = "BryskoLargePortrait.png",
 			-- Subsumed = "Balefire",
 			-- Tactical = "Balefire",
-			Themes = "Chimera Sentient, Detective Noir",
+			Themes = "Chimera Sentient, Detective Noir, Houndmaster",
 			Type = "Warframe" ,
 			_IgnoreEntry = true 
 		},

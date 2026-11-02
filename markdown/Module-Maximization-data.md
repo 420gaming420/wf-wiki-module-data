@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-10-31T20:16:51Z"
+wiki_timestamp: "2026-11-01T15:18:43Z"
 ---
 
 ## Contents
@@ -483,6 +483,59 @@ local Data = {
 			{'Range:', {expr='RNG 30 %of', suff='m'}},
 			{'Recrystalize radius:', {expr='RNG 16 %of 0 RECRYSTALIZE if', suff='m'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+		}
+	},
+	-- Dante
+	['Noctua']={
+		ins={
+			{name='WEAPON_DMG_MOD', cont='[[Weapon Damage]] modifier:', type='number', default='100'},
+			{name='ELEMENT_DMG_MOD', cont='[[Elemental damage]] modifier:', type='number', default='0'},
+			{name='FACTION_DMG_MOD', cont='[[Faction damage]] modifier:', type='number', default='100'},
+			{name='NOCTUA_SWARM', cont=Tooltips.full('Noctua Swarm', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Primary fire '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {name='NOCTUA_BASE_DMG', expr='FACTION_DMG_MOD WEAPON_DMG_MOD STR 250 %of %of %of'}},
+			{'Primary fire elemental damage:', {name='NOCTUA_ELEMENT_DMG', expr='ELEMENT_DMG_MOD NOCTUA_BASE_DMG %of'}},
+			{'Primary fire total damage:', {expr='NOCTUA_BASE_DMG NOCTUA_ELEMENT_DMG +'}},
+			{'Alternate fire '..Tooltips.full('Radiation', 'DamageTypes')..' damage:', {name='NOCTUA_ALT_BASE_DMG', expr='FACTION_DMG_MOD WEAPON_DMG_MOD STR 2750 %of %of %of'}},
+			{'Alternate fire elemental damage:', {name='NOCTUA_ALT_ELEMENT_DMG', expr='ELEMENT_DMG_MOD NOCTUA_ALT_BASE_DMG %of'}},
+			{'Alternate fire total damage:', {expr='NOCTUA_ALT_BASE_DMG NOCTUA_ALT_ELEMENT_DMG +'}},
+			{'Swarm '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 500 %of 0 NOCTUA_SWARM if', suff='/s'}},
+			{'Swarm duration:', {expr='DUR 15 %of 0 NOCTUA_SWARM if', suff='s', fmt='2dec'}},
+			{'Swarm buff radius:', {expr='RNG 25 %of 0 NOCTUA_SWARM if', suff='m', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='5 COST *', fmt='2dec'}},
+			{'Attack '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 COST *', fmt='2dec'}}
+		},
+	},
+	['Light Verse']={
+		outs={
+			{Tooltips.full('Overguard', 'DamageTypes')..':', {expr='STR 350 %of'}},
+			{Tooltips.full('Overguard', 'DamageTypes')..' cap:', {expr='STR 15000 %of'}},
+			{Tooltips.full('Health', 'Stats')..' restoration:', {expr='STR 20 %of', suff='%', fmt='2dec'}},
+			{'Radius:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Dark Verse']={
+		outs={
+			{Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 1250 %of'}},
+			{'Range:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Final Verse']={
+		outs={
+			{'Triumph '..Tooltips.full('Overguard', 'DamageTypes')..' on cast:', {expr='STR 3000 %of'}},
+			{'Triumph '..Tooltips.full('Overguard', 'DamageTypes')..' on kill/assist:', {expr='STR 100 %of', suff='/2s'}},
+			{Tooltips.full('Overguard', 'DamageTypes')..' cap:', {expr='STR 15000 %of'}},
+			{'Tragedy '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 6500 %of'}},
+			{'Tragedy Status Effect damage multiplier:', {expr='STR 3 %of', fmt='2dec'}},
+			{'Pageflight'..Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 300 %of'}},
+			{'Pageflight Status Chance and Status Damage vulnerability:', {expr='STR 50 %of', suff='%', fmt='2dec'}},
+			{'Pageflight debuff duration:', {expr='DUR 30 %of', suff='s', fmt='2dec'}},
+			{'Triumph, Wordwarden and Pageflight duration:', {expr='DUR 45 %of', suff='s', fmt='2dec'}},
+			{'Triumph, Tragedy and Wordwarden radius:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
 	-- Ember
@@ -2162,6 +2215,74 @@ local Data = {
 			{'Duration:', {expr='DUR 8 %of', suff='s', fmt='2dec'}},
 			{'Radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		}
+	},
+	-- Saryn
+	['Spores']={
+		ins={
+			{name='REVEALING_SPORES', cont=Tooltips.full('Revealing Spores', 'Mods')..'?', type='checkbox'},
+			{name='VENOM_DOSE', cont=Tooltips.full('Venom Dose', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Initial '..Tooltips.full('Corrosive', 'DamageTypes')..' damage:', {expr='STR 10 %of'}},
+			{'Damage growth:', {expr='STR 2 %of', suff='/enemy'}},
+			{Tooltips.full('Corrosion', 'DamageTypes')..' Status Chance:',
+				{expr='STR 50 %of', suff='%', fmt='2dec'}
+			},
+			{'Instant decay:', {expr='20 10 STR 100 - %of - 5 max', suff='%', fmt='2dec'}},
+			{'Decay over time:', {expr='10 5 DUR 100 - %of - 5 max', suff='%/0.5s', fmt='2dec'}},
+			{'Cast range:', {expr='RNG 60 %of', suff='m', fmt='1dec'}},
+			{'Spread radius:', {expr='RNG 16 %of', suff='m', fmt='1dec'}},
+			{'Infected enemy detection radius:',
+				{expr='RNG 40 %of 0 REVEALING_SPORES if', suff='m', fmt='1dec'}
+			},
+			{'Venom Dose '..Tooltips.full('Corrosive', 'DamageTypes')..' bonus:',
+				{expr='STR 100 %of 0 VENOM_DOSE if', suff='%', fmt='2dec'}
+			},
+			{'Venom Dose duration:', {expr='DUR 40 %of 0 VENOM_DOSE if', suff='s', fmt='2dec'}},
+			{'Venom Dose buff radius:', {expr='RNG 15 %of 0 VENOM_DOSE if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {name='SPORES_COST', expr='25 COST *', fmt='2dec'}},
+			{'Recast '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='SPORES_COST 2 /', fmt='2dec'}}
+		}
+	},
+	['Molt']={
+		ins={
+			{name='REGENERATIVE_MOLT', cont=Tooltips.full('Regenerative Molt', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Decoy base Health:', {expr='STR 500 %of'}},
+			{'Explosion '..Tooltips.full('Toxin', 'DamageTypes')..' damage:', {expr='STR 400 %of'}},
+			{'[[Movement Speed]] bonus:', {expr='STR 50 %of', suff='%', fmt='2dec'}},
+			{'Decoy duration:', {expr='DUR 40 %of', suff='s', fmt='2dec'}},
+			{'Movement Speed bonus duration:', {expr='DUR 5 %of', suff='s', fmt='2dec'}},
+			{'Decoy explosion radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Health', 'Stats')..' restoration:', {expr='STR 500 %of 0 REGENERATIVE_MOLT if', suff='/10s'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Toxic Lash']={
+		ins={
+			{name='TOXIC_LASH_MELEE', cont='Using Melee?', type='checkbox'},
+			{name='CONTAGION_CLOUD', cont=Tooltips.full('Contagion Cloud', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Toxin', 'DamageTypes')..' [[Extra Hit]]:', {expr='STR 30 %of 2 1 TOXIC_LASH_MELEE if *', suff='%', fmt='2dec'}},
+			{'Duration:', {expr='DUR 45 %of', suff='s', fmt='2dec'}},
+			{'Cloud '..Tooltips.full('Toxin', 'DamageTypes')..' damage:', {expr='STR 300 %of 2 1 TOXIC_LASH_MELEE if * 0 CONTAGION_CLOUD if', suff='/s'}},
+			{'Cloud duration:', {expr='DUR 12 %of 0 CONTAGION_CLOUD if', suff='s', fmt='2dec'}},
+			{'Cloud radius:', {expr='RNG 5 %of 0 CONTAGION_CLOUD if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Miasma']={
+		ins={
+			{name='MIASMA_SPORES', cont='Enemy affected by '..Tooltips.full('Spores', 'Ability')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Viral', 'DamageTypes')..' damage:', {expr='STR 150 %of 4 1 MIASMA_SPORES if *', suff='/s'}},
+			{'Duration:', {expr='DUR 6 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
 		}
 	},
 	-- Sevagoth

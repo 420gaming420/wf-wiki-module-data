@@ -1,12 +1,12 @@
 ---
 title: "Module:Mods/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Mods/data"
-wiki_timestamp: "2026-10-22T20:38:37Z"
+wiki_timestamp: "2026-11-01T23:35:48Z"
 ---
 
 Database for all [Mods](/w/Mod "Mod") in [WARFRAME](/w/WARFRAME "WARFRAME") (with the exception of unveiled [Riven Mods](/w/Riven_Mods "Riven Mods")). Preferably put new mods in the correct alphabetical order, but it is not necessary.
 
-:   *Last updated: Thu, 22 Oct 2026 20:38:37 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Mods/data?diff=0))*
+:   *Last updated: Sun, 01 Nov 2026 23:35:48 +0000 (UTC) by [User:Cephalon Scientia](/w/User:Cephalon_Scientia "User:Cephalon Scientia") ([change log](https://wiki.warframe.com/w/Module:Mods/data?diff=0))*
 
 ## Contents
 
@@ -22800,7 +22800,7 @@ local modData = {
 			Name = "Resilient Focus",
 			Polarity = "Vazarin",
 			Rarity = "Rare",
-			Tradable = true,
+			Tradable = false,
 			Transmutable = false,
 			Type = "Warframe",
 			_IgnoreEntry = true 

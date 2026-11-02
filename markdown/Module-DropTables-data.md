@@ -1,7 +1,7 @@
 ---
 title: "Module:DropTables/data"
 wiki_url: "https://wiki.warframe.com/w/Module/DropTables/data"
-wiki_timestamp: "2026-10-24T02:43:31Z"
+wiki_timestamp: "2026-11-01T22:09:28Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -19,7 +19,7 @@ Manually updated fork of the public [Drop Tables](/w/Drop_Tables "Drop Tables") 
 
 See [Module:DropTables](/w/Module:DropTables "Module:DropTables") to see what various things this is being used for right now.
 
-:   *Last updated: Sat, 24 Oct 2026 02:43:31 +0000 (UTC) by [User:Lambda1053](/w/User:Lambda1053?action=edit&redlink=1 "User:Lambda1053 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:DropTables/data?diff=0))*
+:   *Last updated: Sun, 01 Nov 2026 22:09:28 +0000 (UTC) by [User:Notaghost Underscore](/w/User:Notaghost_Underscore?action=edit&redlink=1 "User:Notaghost Underscore (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:DropTables/data?diff=0))*
 
 ## Contents
 
@@ -21816,20 +21816,20 @@ local DropData = {
 				},
 				C = {
 					{ "Meso Y2", "Relic", 9.68 },
-					{ "Meso V15", "Relic", 9.68 },
-					{ "Meso X1", "Relic", 9.68 },
+					{ "Meso K9", "Relic", 9.68 },
+					{ "Meso V17", "Relic", 9.68 },
 					{ "Meso D8", "Relic", 9.68 },
 					{ "Meso V13", "Relic", 9.68 },
 					{ "Meso A12", "Relic", 9.68 },
-					{ "Meso L5", "Relic", 9.68 },
-					{ "Meso K8", "Relic", 9.68 },
+					{ "Meso D9", "Relic", 9.68 },
+					{ "Meso C11", "Relic", 9.68 },
 					{ "Neo C7", "Relic", 3.2199999999999998 },
 					{ "Neo A16", "Relic", 3.2199999999999998 },
-					{ "Neo Y1", "Relic", 3.2199999999999998 },
-					{ "Neo T11", "Relic", 3.2199999999999998 },
-					{ "Neo V12", "Relic", 3.2199999999999998 },
-					{ "Neo C8", "Relic", 3.2199999999999998 },
-					{ "Neo C9", "Relic", 3.2199999999999998 },
+					{ "Neo Y2", "Relic", 3.2199999999999998 },
+					{ "Neo C11", "Relic", 3.2199999999999998 },
+					{ "Neo K10", "Relic", 3.2199999999999998 },
+					{ "Neo V13", "Relic", 3.2199999999999998 },
+					{ "Neo C10", "Relic", 3.2199999999999998 },
 				},
 			},
 			Tier = "Kuva Fortress",

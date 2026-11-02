@@ -556,7 +556,7 @@ return {
 			SquadPortrait = "BryskoLargePortrait.png",
 			-- Subsumed = "Balefire",
 			-- Tactical = "Balefire",
-			Themes = "Chimera Sentient, Detective Noir",
+			Themes = "Chimera Sentient, Detective Noir, Houndmaster",
 			Type = "Warframe" ,
 			_IgnoreEntry = true 
 		},
