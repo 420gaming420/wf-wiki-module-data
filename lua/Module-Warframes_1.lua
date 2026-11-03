@@ -107,6 +107,7 @@ Overshield = function(wf)
 	end
 	return 1200
 end,
+Playstyle = '',
 Polarities = { nil, StatObject.meta.passes(Polarity._pols) },
 Portrait = { 'Panel.png', '[[File:%s|link=]]' },
 Progenitor = 'True',
@@ -654,6 +655,35 @@ function p.getProgenitorTable()
 	table.insert(result, '|}\n<small>*Note that the [[Prime]]d or Umbra version of a Warframe share the same element</small>')
 	
 	return table.concat(result, '\n')
+end
+---Return the playstyle of a warframes with the tied icons 
+-- @function get.Playstyle 
+-- @return {string}  containing the Warframe's Playstyle icons and names.
+function p.getPlaystyle(frame)
+    local warframe = WarframeData.Warframes[frame.args[1]]
+    if not warframe then return '' end
+
+    local playstyleMap = {
+        ['Crowd Control'] = 'WarframeCC256.png',
+        ['Damage'] = 'WarframeDamage256.png',
+        ['Stealth'] = 'WarframeStealth256.png',
+        ['Support'] = 'WarframeSupport256.png',
+        ['Survival'] = 'WarframeSurvival256.png'
+    }
+
+    local playstyle = {}
+
+    for _, ps in ipairs(warframe.Playstyle or {}) do
+        local icon = playstyleMap[ps]
+
+        if icon then
+            table.insert(playstyle, '[[File:' .. icon .. '|class=icon light-invert]] ' .. ps)
+        else
+            table.insert(playstyle, ps)
+        end
+    end
+
+    return table.concat(playstyle, '<br/>')
 end
 
 return p

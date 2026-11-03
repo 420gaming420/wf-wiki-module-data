@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-10-23T07:11:37.889Z"
+    "converted_at": "2026-11-03T09:11:31.442Z"
   },
   "_comments": "\t----------------------------------Arch-Gun--------------------------------------\n\t\t\t\t--ShotSpeed = ,\n\t----------------------------------Archmelee------------------------------------",
   "Centaur": {
@@ -4028,8 +4028,9 @@
         "CritChance": 0.2,
         "StatusChance": 0.4,
         "FireRate": 12,
-        "IsSilent": false,
         "MinSpread": 10,
+        "IsSilent": false,
+        "Range": 28,
         "AmmoCost": 0.5,
         "Multishot": 1,
         "MaxSpread": 14,

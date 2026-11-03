@@ -1,7 +1,7 @@
 ---
 title: "Module:Weapons/data/primary"
 wiki_url: "https://wiki.warframe.com/w/Module/Weapons/data/primary"
-wiki_timestamp: "2026-10-22T19:14:41Z"
+wiki_timestamp: "2026-11-02T17:26:18Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s [Primary Weapons](/w/Primary_Weapon "Primary Weapon").
@@ -54,7 +54,7 @@ Thanks, you're awesome!
 * [11 Weapon Data](#Weapon_Data)
 * [12 References](#References)
 
-:   *Last updated: Thu, 22 Oct 2026 19:14:41 +0000 (UTC) by [User:Twilight053](/w/User:Twilight053 "User:Twilight053") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/primary?diff=0))*
+:   *Last updated: Mon, 02 Nov 2026 17:26:18 +0000 (UTC) by [User:ArbitraryMary](/w/User:ArbitraryMary "User:ArbitraryMary") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/primary?diff=0))*
 
 ## Horizontal Partitions (and where to update data)
 
@@ -5578,7 +5578,7 @@ return {
 				MinSpread = 0,
 				Multishot = 1,
 				PunchThrough = 0,
-				ShotSpeed = 85,
+				ShotSpeed = 95,
 				ShotType = "Projectile",
 				StatusChance = 0.38,
 				Trigger = "Semi-Auto"
@@ -5595,7 +5595,7 @@ return {
 				IsSilent = true,
 				Multishot = 1,
 				PunchThrough = 0,
-				ShotSpeed = 100,
+				ShotSpeed = 110,
 				ShotType = "Projectile",
 				StatusChance = 0.38,
 				Trigger = "Charge"

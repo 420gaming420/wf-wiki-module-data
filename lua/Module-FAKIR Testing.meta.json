@@ -1,0 +1,12 @@
+{
+  "page": "Module:FAKIR Testing",
+  "wiki_timestamp": "2026-11-03T03:01:11Z",
+  "extracted_at": "2026-11-03T09:11:22.934002+00:00",
+  "lua_files": [
+    "Module-FAKIR Testing_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 24255,
+  "comment_count": 114,
+  "status": "success"
+}

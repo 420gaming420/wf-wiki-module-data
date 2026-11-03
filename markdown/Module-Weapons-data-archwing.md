@@ -1,7 +1,7 @@
 ---
 title: "Module:Weapons/data/archwing"
 wiki_url: "https://wiki.warframe.com/w/Module/Weapons/data/archwing"
-wiki_timestamp: "2026-10-22T19:15:53Z"
+wiki_timestamp: "2026-11-02T17:29:59Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s [Archwing](/w/Archwing "Archwing") [weapons](/w/Weapons "Weapons").
@@ -54,7 +54,7 @@ Thanks, you're awesome!
 * [11 Weapon Data](#Weapon_Data)
 * [12 References](#References)
 
-:   *Last updated: Thu, 22 Oct 2026 19:15:53 +0000 (UTC) by [User:Twilight053](/w/User:Twilight053 "User:Twilight053") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/archwing?diff=0))*
+:   *Last updated: Mon, 02 Nov 2026 17:29:59 +0000 (UTC) by [User:ArbitraryMary](/w/User:ArbitraryMary "User:ArbitraryMary") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/archwing?diff=0))*
 
 ## Horizontal Partitions (and where to update data)
 
@@ -2049,6 +2049,7 @@ return {
 				MinSpread = 10,
 				Multishot = 1,
 				PunchThrough = 0,
+				Range = 28,
 				ShotType = "Hit-Scan",
 				StatusChance = 0.4
 			},

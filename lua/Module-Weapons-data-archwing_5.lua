@@ -654,6 +654,7 @@ return {
 				MinSpread = 10,
 				Multishot = 1,
 				PunchThrough = 0,
+				Range = 28,
 				ShotType = "Hit-Scan",
 				StatusChance = 0.4
 			},

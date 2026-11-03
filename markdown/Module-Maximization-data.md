@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-11-01T15:18:43Z"
+wiki_timestamp: "2026-11-02T14:41:07Z"
 ---
 
 ## Contents
@@ -434,6 +434,74 @@ local Data = {
 			{'Enemy detonation radius:', {expr='RNG 2 %of', suff='m', fmt='1dec'}},
 			{'Explosion and fallout radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+		}
+	},
+	-- Chroma
+	['Spectral Scream']={
+		ins={
+			{name='AFTERBURN', cont=Tooltips.full('Afterburn', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Elemental damage:', {expr='STR 400 %of', suff='/s'}},
+			{'Breath length:', {expr='RNG as% 1 3 / ^ 10 *', suff='m', fmt='1dec'}},
+			{'Damage accumulation:', {expr='STR 100 %of 0 AFTERBURN if', suff='/s'}},
+			{'Maximum Afterburn damage:', {expr='STR 500 %of 0 AFTERBURN if'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='10 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='3 DRAIN *', fmt='2dec'}}
+		}
+	},
+	['Elemental Ward']={
+		outs={
+			{Tooltips.full('Heat', 'DamageTypes')..' aura damage:', {expr='STR 100 %of', suff='/s'}},
+			{Tooltips.full('Heat', 'DamageTypes')..' aura '..Tooltips.full('Health', 'Stats')..' bonus:', {expr='STR 55 %of', suff='%', fmt='2dec'}},
+			{Tooltips.full('Cold', 'DamageTypes')..' aura [[Damage Reflection]] multiplier:', {expr='STR 3 %of', fmt='2dec'}},
+			{Tooltips.full('Cold', 'DamageTypes')..' aura '..Tooltips.full('Armor', 'Stats')..' bonus:', {expr='STR 145 %of', suff='%', fmt='2dec'}},
+			{Tooltips.full('Electricity', 'DamageTypes')..' aura Damage Reflection multiplier:', {expr='STR 10 %of', fmt='2dec'}},
+			{Tooltips.full('Electricity', 'DamageTypes')..' aura minimum damage:', {expr='STR 200 %of'}},
+			{Tooltips.full('Electricity', 'DamageTypes')..' aura '..Tooltips.full('Shield', 'Stats')..' bonus:', {expr='STR 30 %of', suff='%', fmt='2dec'}},
+			{Tooltips.full('Electricity', 'DamageTypes')..' aura Damage Reflection range:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Toxin', 'DamageTypes')..' aura Status Chance:', {expr='STR 50 %of 100 min', suff='%', fmt='2dec'}},
+			{Tooltips.full('Toxin', 'DamageTypes')..' aura Holster damage bonus:', {expr='STR 35 %of', suff='%', fmt='2dec'}},
+			{Tooltips.full('Toxin', 'DamageTypes')..' aura Holster damage bonus duration:', {expr='DUR 3 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Toxin', 'DamageTypes')..' aura Reload Speed bonus:', {expr='DUR 35 %of', suff='%', fmt='2dec'}},
+			{'Damage Reflection Status Chance:', {expr='STR 25 %of', suff='%', fmt='2dec'}},
+			{'Duration:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{'Aura radius:', {expr='RNG 12 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Vex Armor']={
+		ins={
+			{name='GUARDIAN_ARMOR', cont=Tooltips.full('Guardian Armor', 'Mods')..'?', type='checkbox'},
+			{name='VEXING_RETALIATION', cont=Tooltips.full('Vexing Retaliation', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Scorn gained from damage:', {expr='STR 0.875 %of', suff='%/'..Tooltips.full('Shield', 'Stats'), fmt='3dec'}},
+			{'Scorn gained from kills:', {expr='STR 15 %of', suff='%/melee kill', fmt='2dec'}},
+			{'Scorn maxmimum '..Tooltips.full('Armor', 'Stats')..' bonus:', {expr='STR 350 %of', suff='%', fmt='2dec'}},
+			{'Fury gained from damage:', {expr='STR 2.75 %of', suff='%/'..Tooltips.full('Health', 'Stats'), fmt='3dec'}},
+			{'Fury gained from kills:', {expr='STR 15 %of', suff='%/gun kill', fmt='2dec'}},
+			{'Fury gained from Weak Point kills:', {expr='STR 30 %of', suff='%/gun Weak Point kill', fmt='2dec'}},
+			{'Fury maxmimum [[Weapon Damage]] bonus:', {expr='STR 275 %of', suff='%', fmt='2dec'}},
+			{'Duration:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{'Buff radius:', {expr='RNG 18 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Health', 'Stats')..' restoration:', {expr='STR 5 %of 0 GUARDIAN_ARMOR if', suff='%/3s', fmt='2dec'}},
+			{'Duration extension:', {expr='DUR 1 %of 0 GUARDIAN_ARMOR if', suff='s/kill', fmt='2dec'}},
+			{'Retaliation radius:', {expr='RNG 9 %of 0 VEXING_RETALIATION if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Effigy']={
+		ins={
+			{name='GUIDED_EFFIGY', cont=Tooltips.full('Guided Effigy', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Effigy Health:', {name='EFFIGY_HEALTH', expr='STR 8000 %of'}},
+			{'Elemental damage:', {expr='STR 400 %of', suff='/0.2s'}},
+			{'Movement damage:', {expr='STR 4000 %of 0 GUIDED_EFFIGY if', suff='/s'}},
+			{Tooltips.full('Energy', 'Stats')..' restoration:', {expr='5 COST * 0 GUIDED_EFFIGY if', suff='/movement hit', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='10 DRAIN *', fmt='2dec'}}
 		}
 	},
 	-- Citrine
@@ -2675,6 +2743,59 @@ local Data = {
 			{'Shockwave radius:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
 			{'Arc radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
 			{'Damage to Shield conversion:', {expr='STR 3 %of 0 CAPACITANCE if', suff='%', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		}
+	},
+	-- Voruna
+	['Shroud of Dynar']={
+		ins={
+			{name='PREY_OF_DYNAR', cont=Tooltips.full('Prey of Dynar', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Melee Critical Damage bonus:', {expr='STR 2 %of', fmt='2dec'}},
+			{'[[Invisibility]] duration:', {expr='DUR 14 %of', suff='s', fmt='2dec'}},
+			{'Melee bonuses duration extension:', {expr='DUR 5 %of', suff='s', fmt='2dec'}},
+			{'Prey of Dynar [[Damage Vulnerability]]:', {expr='STR 50 %of 0 PREY_OF_DYNAR if', suff='%', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Fangs of Raksh']={
+		ins={
+			{name='PREY_OF_DYNAR', cont='Enemy targeted by '..Tooltips.full('Prey of Dynar', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 250 %of'}},
+			{'Targeting range:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
+			{'Spread radius:', {expr='RNG 7 %of 2.5 1 PREY_OF_DYNAR if *', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	["Lycath's Hunt"]={
+		ins={
+			{name='LYCATHS_HUNT_INFUSED', cont='[[Infused]]?', type='checkbox'}
+		},
+		outs={
+			{'Orb chance:', {expr='50 100 LYCATHS_HUNT_INFUSED if', suff='%/kill'}},
+			{'Duration:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
+			{'Duration extension:', {expr='DUR 5 %of', suff='s/kill', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	["Ulfrun's Descent"]={
+		ins={
+			{name='ULFRUNS_DESCENT_KILLS', cont='Number of prior direct kills:', min='0', max='5', value='0'},
+			{name='ULFRUNS_DESCENT_STATUS', cont='Enemy has a Status Effect?', type='checkbox'},
+			{name='ULFRUNS_ENDURANCE', cont=Tooltips.full("Ulfrun's Endurance", 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Direct '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 5000 %of 1 2 ULFRUNS_DESCENT_KILLS * + * 2 1 ULFRUNS_DESCENT_STATUS if *'}},
+			{'Radial '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 1000 %of 2 1 ULFRUNS_DESCENT_STATUS if *', suff='/s'}},
+			{'Critical Chance:', {expr='20 5 ULFRUNS_DESCENT_KILLS * + 42.5 min', suff='%', fmt='2dec'}},
+			{'Critical Damage:', {expr='1.5 0.1 ULFRUNS_DESCENT_KILLS * + 1.95 min', fmt='2dec'}},
+			{'Radial damage duration:', {expr='DUR 4 %of', suff='s', fmt='2dec'}},
+			{'Targeting range:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
+			{'Radial damage radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
+			{'Charge restoration radius:', {expr='RNG 20 %of 0 ULFRUNS_ENDURANCE if', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},

@@ -1,4 +1,7 @@
 ---	'''Localization''' retrieves and stores [[WARFRAME]]'s localized messages as found in [[Public Export]].<br/>
+--
+--	On this Wiki, Localization is used in:
+--  * {{t|AutoLocalizationTable}}
 --	
 --	@module		localization
 --	@alias		p
@@ -104,9 +107,14 @@ local function resolvePassivePlaceholders(text, pathName)
 	-- Extract numeric values from Warframes/data in order of appearance.
 	local passiveText = warframe.Passive
 
-	-- Accounting for the "09" throwing off Cyte-09's entry.
+	-- Accounting for the "09" and "50" throwing off Cyte-09's and S&O's entries.
+	-- TODO: Come up with more solid approach to dealing with descriptions containing extraneous numerical values
 	if frameName == "Cyte-09" then
 		passiveText = passiveText:gsub("Cyte%-09", "")
+	end
+	
+	if frameName == "SiriusOrion" then
+		passiveText = passiveText:gsub("50% energy", "")
 	end
 
 	for number in passiveText:gmatch("%d+%.?%d*") do

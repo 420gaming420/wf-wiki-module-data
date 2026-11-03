@@ -1,10 +1,13 @@
 ---
 title: "Module:Localization"
 wiki_url: "https://wiki.warframe.com/w/Module/Localization"
-wiki_timestamp: "2026-10-27T01:04:10Z"
+wiki_timestamp: "2026-11-03T06:59:06Z"
 ---
 
-**Localization** retrieves and stores [WARFRAME](/w/WARFRAME "WARFRAME")'s localized messages as found in [Public Export](/w/Public_Export "Public Export").
+**Localization** retrieves and stores [WARFRAME](/w/WARFRAME "WARFRAME")'s localized messages as found in [Public Export](/w/Public_Export "Public Export").   
+ On this Wiki, Localization is used in:
+
+* {{[AutoLocalizationTable](/w/Template:AutoLocalizationTable "Template:AutoLocalizationTable")}}
 
 ## Contents
 
@@ -266,6 +269,9 @@ WARFRAME's localization messages are in the form of a file path, usually startin
 ```lua
 ---	'''Localization''' retrieves and stores [[WARFRAME]]'s localized messages as found in [[Public Export]].  
 
+--
+--	On this Wiki, Localization is used in:
+--  * {{t|AutoLocalizationTable}}
 --	
 --	@module		localization
 --	@alias		p
@@ -371,9 +377,14 @@ local function resolvePassivePlaceholders(text, pathName)
 	-- Extract numeric values from Warframes/data in order of appearance.
 	local passiveText = warframe.Passive
 
-	-- Accounting for the "09" throwing off Cyte-09's entry.
+	-- Accounting for the "09" and "50" throwing off Cyte-09's and S&O's entries.
+	-- TODO: Come up with more solid approach to dealing with descriptions containing extraneous numerical values
 	if frameName == "Cyte-09" then
 		passiveText = passiveText:gsub("Cyte%-09", "")
+	end
+	
+	if frameName == "SiriusOrion" then
+		passiveText = passiveText:gsub("50% energy", "")
 	end
 
 	for number in passiveText:gmatch("%d+%.?%d*") do

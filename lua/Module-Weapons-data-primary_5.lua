@@ -4184,7 +4184,7 @@ return {
 				MinSpread = 0,
 				Multishot = 1,
 				PunchThrough = 0,
-				ShotSpeed = 85,
+				ShotSpeed = 95,
 				ShotType = "Projectile",
 				StatusChance = 0.38,
 				Trigger = "Semi-Auto"
@@ -4201,7 +4201,7 @@ return {
 				IsSilent = true,
 				Multishot = 1,
 				PunchThrough = 0,
-				ShotSpeed = 100,
+				ShotSpeed = 110,
 				ShotType = "Projectile",
 				StatusChance = 0.38,
 				Trigger = "Charge"
