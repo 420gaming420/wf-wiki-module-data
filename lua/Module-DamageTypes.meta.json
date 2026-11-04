@@ -1,12 +1,12 @@
 {
   "page": "Module:DamageTypes",
-  "wiki_timestamp": "2026-09-10T02:49:41Z",
-  "extracted_at": "2026-09-11T02:14:42.876395+00:00",
+  "wiki_timestamp": "2026-11-03T18:51:03Z",
+  "extracted_at": "2026-11-04T08:47:20.169141+00:00",
   "lua_files": [
     "Module-DamageTypes_0.lua"
   ],
   "lua_block_count": 1,
-  "file_size": 7013,
+  "file_size": 7025,
   "comment_count": 37,
   "status": "success"
 }

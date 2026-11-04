@@ -1,7 +1,7 @@
 ---
 title: "Module:DamageTypes"
 wiki_url: "https://wiki.warframe.com/w/Module/DamageTypes"
-wiki_timestamp: "2026-09-10T02:49:41Z"
+wiki_timestamp: "2026-11-03T18:51:03Z"
 ---
 
 **DamageTypes** contains all the damage types used in [WARFRAME](/w/WARFRAME "WARFRAME"), their health/armor class advantages, and status effects.
@@ -240,6 +240,20 @@ Against T:AbilityU10.3 background
 | 2 | 6 | 8 |
 | 3 | 8 | 9 |
 
+**Maximization**
+
+| Inputs |
+| --- |
+| [Strength](/w/Ability_Strength "Ability Strength"): |
+| [Duration](/w/Ability_Duration "Ability Duration"): |
+| [Range](/w/Ability_Range "Ability Range"): |
+| [Efficiency](/w/Ability_Efficiency "Ability Efficiency"): |
+
+| [Slash Dash](/w/Slash_Dash "Slash Dash") | |
+| --- | --- |
+
+*Help create a maximization calculator for [![](/images/thumb/SlashDashIcon%28xWhite%29.png/32px-SlashDashIcon%28xWhite%29.png?d1c9a)](/w/Slash_Dash "Slash Dash") [Slash Dash](/w/Slash_Dash "Slash Dash") and its augments by adding data to [Module:Maximization/data](/w/Module:Maximization/data "Module:Maximization/data").*
+
 [![Expand/Collapse](/images/Expand%28xWhite%29.svg?c1073)](#Slash_Dash "Expand/Collapse")
 
 Against `emodtable` table header background
@@ -337,7 +351,7 @@ Against T:Codex background
 | [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia "wikipedia:Wikipedia") Fork | [M:Arguments](/w/Module:Arguments "Module:Arguments") ([/i18n](/w/Module:Arguments/i18n "Module:Arguments/i18n")) • [M:FallbackList](/w/Module:FallbackList "Module:FallbackList") • [M:Yesno](/w/Module:Yesno "Module:Yesno") |
 | Third-Party Fork | [M:Codec](/w/Module:Codec "Module:Codec") • [M:CSV](/w/Module:CSV "Module:CSV") • [M:Date](/w/Module:Date "Module:Date") • [M:Inspect](/w/Module:Inspect "Module:Inspect") • [M:JSON](/w/Module:JSON "Module:JSON") • [M:Lexer](/w/Module:Lexer "Module:Lexer") • [M:LuaClassSystem](/w/Module:LuaClassSystem "Module:LuaClassSystem") • [M:LuaSerializer](/w/Module:LuaSerializer "Module:LuaSerializer") • [M:Navbox](/w/Module:Navbox "Module:Navbox") • [M:Navigation](/w/Module:Navigation "Module:Navigation") • [M:Unindent](/w/Module:Unindent "Module:Unindent") |
 | Wiki-Unique | [M:Database](/w/Module:Database "Module:Database") • [M:DatastoreManifest](/w/Module:DatastoreManifest "Module:DatastoreManifest") • [M:Delay](/w/Module:Delay "Module:Delay") • [M:DependencyGraph](/w/Module:DependencyGraph "Module:DependencyGraph") • [M:InfoboxBuilder](/w/Module:InfoboxBuilder "Module:InfoboxBuilder") • [M:Lua](/w/Module:Lua "Module:Lua") • [M:Map](/w/Module:Map "Module:Map") • [M:Placeholder](/w/Module:Placeholder "Module:Placeholder") • [M:RemoveCategory](/w/Module:RemoveCategory "Module:RemoveCategory") • [M:StatObject](/w/Module:StatObject "Module:StatObject") • [M:Text](/w/Module:Text "Module:Text") • [M:Tooltips](/w/Module:Tooltips "Module:Tooltips") |
-| Other | [M:Enum/data](/w/Module:Enum/data "Module:Enum/data") • [M:InternalNames](/w/Module:InternalNames "Module:InternalNames") • [M:MasteryRank](/w/Module:MasteryRank "Module:MasteryRank") • [M:Polarity](/w/Module:Polarity "Module:Polarity") • [M:Sandbox](/w/Module:Sandbox "Module:Sandbox") • [M:WarframeUsageData2020/data](/w/Module:WarframeUsageData2020/data "Module:WarframeUsageData2020/data") | |
+| Other | [M:Enum/data](/w/Module:Enum/data "Module:Enum/data") • [M:InternalNames](/w/Module:InternalNames "Module:InternalNames") • [M:MasteryRank](/w/Module:MasteryRank "Module:MasteryRank") • [M:Polarity](/w/Module:Polarity "Module:Polarity") • [M:Sandbox](/w/Module:Sandbox "Module:Sandbox") • [M:Trading](/w/Module:Trading "Module:Trading") • [M:WarframeUsageData2020/data](/w/Module:WarframeUsageData2020/data "Module:WarframeUsageData2020/data") | |
 | Archived/Deprecated | [M:Avionics](/w/Module:Avionics "Module:Avionics") ([/data](/w/Module:Avionics/data "Module:Avionics/data")) • [M:BuildRequire](/w/Module:BuildRequire "Module:BuildRequire") • [M:FormatingTool](/w/Module:FormatingTool "Module:FormatingTool") • [M:Gallery](/w/Module:Gallery "Module:Gallery") • [M:NightwaveActs](/w/Module:NightwaveActs "Module:NightwaveActs") • [M:Shared](/w/Module:Shared "Module:Shared") • [M:Syndicates/data](/w/Module:Syndicates/data "Module:Syndicates/data") • [M:TennoScript](/w/Module:TennoScript "Module:TennoScript") • [M:TranslationExamples](/w/Module:TranslationExamples "Module:TranslationExamples") • [M:VoidByReward](/w/Module:VoidByReward "Module:VoidByReward") • [M:WorldState](/w/Module:WorldState "Module:WorldState") ([/data](/w/Module:Worldstate/data "Module:Worldstate/data")) | |
 | [Bug Reports](/w/WARFRAME_Wiki:Bug_Reports "WARFRAME Wiki:Bug Reports") • [Development Guide](/w/WARFRAME_Wiki:Development_Guide "WARFRAME Wiki:Development Guide") • [Localization Guide](/w/WARFRAME_Wiki:Localization_Guide "WARFRAME Wiki:Localization Guide") ([L10n Message Data Stores](/w/WARFRAME_Wiki:L10n "WARFRAME Wiki:L10n")) • [Programming Standards](/w/WARFRAME_Wiki:Programming_Standards "WARFRAME Wiki:Programming Standards") • [Projects & Current Backlog](/w/WARFRAME_Wiki:Projects "WARFRAME Wiki:Projects") • [Updating Databases](/w/WARFRAME_Wiki:Updating_Databases "WARFRAME Wiki:Updating Databases") • [Full Module List](/w/Special:AllPages/Module: "Special:AllPages/Module:") • [Lua Reference Manual](https://www.mediawiki.org/wiki/Extension:Scribunto/Lua_reference_manual "mw:Extension:Scribunto/Lua reference manual") | | |
 
@@ -451,7 +465,7 @@ function p.healthTable(frame)
     local htb = DamageData["Health"][ht]
     local htt = DamageData["total"][ht] or {}
     local body = {
-([=[{| class="healthtable wikitable" align="right" style="width:33.333%%; text-align:center; font-family:'Roboto';"
+([=[{| class="healthtable wikitable" style="width:33.333%%; float:right; clear:right; text-align:center; font-family:'Roboto';"
 ! border="1" colspan="2" style="border-style: solid; border-color: #000000; background-color: #000000;" | [[Damage/%s|%s]]
 ]=]):format(ht, ht),
         insert = table.insert

@@ -1349,6 +1349,67 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
 		}
 	},
+	-- Mag
+	['Pull']={
+		ins={
+			{name='PULL_INFUSED', cont='[[Infused]]?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Magnetic', 'DamageTypes')..' damage:', {expr='STR 300 %of'}},
+			{'Range:', {expr='RNG 12.5 25 PULL_INFUSED if %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Magnetize']={
+		ins={
+			{name='MAGNETIZED_DISCHARGE', cont=Tooltips.full('Magnetized Discharge', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Base '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 300 %of'}},
+			{'[[Damage Vulnerability]]:', {expr='STR 2 %of', fmt='2dec'}},
+			{'Magnetic pull strength:', {expr='STR 4 %of', fmt='2dec'}},
+			{'Reflected damage accumulation:', {expr='STR 25 %of', suff='/s'}},
+			{'Reflected damage from '..Tooltips.full('Polarize', 'Ability')..' shards:', {expr='STR 500 %of', suff='/shard'}},
+			{'Reflected damage multiplier:', {expr='STR 2 %of', fmt='2dec'}},
+			{'Duration:', {expr='DUR 15 %of', suff='s', fmt='2dec'}},
+			{'Explosion range:', {expr='RNG 45 0 MAGNETIZED_DISCHARGE if + 15 %of', suff='m', fmt='1dec'}},
+			{'Enemy field radius:', {expr='RNG 45 0 MAGNETIZED_DISCHARGE if + 4 %of', suff='m', fmt='1dec'}},
+			{'[[Disarm]] chance:', {expr='STR 50 %of 100 min 0 MAGNETIZED_DISCHARGE if', suff='%', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Polarize']={
+		ins={
+			{name='COUNTER_PULSE', cont=Tooltips.full('Counter Pulse', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('True', 'DamageTypes')..' damage and '..Tooltips.full('Armor', 'Stats')..' reduction:', {expr='STR 400 %of'}},
+			{'Defense Reduction to '..Tooltips.full('Magnetic', 'DamageTypes')..' conversion:', {expr='STR 250 %of', suff='%', fmt='2dec'}},
+			{Tooltips.full('Shield', 'Stats')..' restoration:', {expr='STR 400 %of'}},
+			{'Minimum shard '..Tooltips.full('Puncture', 'DamageTypes')..' and '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 50 %of'}},
+			{'Pulse duration:', {expr='DUR 5 %of', suff='s', fmt='2dec'}},
+			{'Pulse initial radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
+			{'Pulse maximum radius:', {expr='RNG 8 %of 5.9 DUR 5 %of * +', suff='m', fmt='1dec'}},
+			{'Minimum '..Tooltips.full('Magnetic', 'DamageTypes')..' damage radius:', {expr='RNG 4 %of', suff='m', fmt='1dec'}},
+			{'Maximum '..Tooltips.full('Magnetic', 'DamageTypes')..' damage radius:', {expr='RNG 4 %of DUR 16.4 %of +', suff='m', fmt='1dec'}},
+			{'Counter Pulse duration:', {expr='DUR 4 %of 0 COUNTER_PULSE if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Crush']={
+		ins={
+			{name='FRACTURING_CRUSH', cont=Tooltips.full('Fracturing Crush', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Total '..Tooltips.full('Magnetic', 'DamageTypes')..' damage:', {expr='STR 1500 %of'}},
+			{'Total '..Tooltips.full('Magnetic', 'DamageTypes')..' damage to '..Tooltips.full('Magnetize', 'Ability')..' targets:', {expr='STR 3000 %of'}},
+			{Tooltips.full('Shield', 'Stats')..' restoration:', {expr='STR 25 %of 75 min', suff='/hit'}},
+			{'Radius:', {expr='RNG 18 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Armor', 'Stats')..' reduction:', {expr='STR 75 %of 100 min 0 FRACTURING_CRUSH if', suff='%', fmt='2dec'}},
+			{'Immobilization duration:', {expr='DUR 7 %of 0 FRACTURING_CRUSH if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		}
+	},
 	-- Mirage
 	['Hall of Mirrors']={
 		ins={
@@ -2630,7 +2691,7 @@ local Data = {
 		},
 		outs={
 			{'Melee Critical Damage bonus:', {expr='STR 2 %of', fmt='2dec'}},
-			{'[[Invisibility]] duration:', {expr='DUR 14 %of', suff='s', fmt='2dec'}},
+			{'[[Invisible|Invisibility]] duration:', {expr='DUR 14 %of', suff='s', fmt='2dec'}},
 			{'Melee bonuses duration extension:', {expr='DUR 5 %of', suff='s', fmt='2dec'}},
 			{'Prey of Dynar [[Damage Vulnerability]]:', {expr='STR 50 %of 0 PREY_OF_DYNAR if', suff='%', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}

@@ -103,7 +103,7 @@ function p.healthTable(frame)
     local htb = DamageData["Health"][ht]
     local htt = DamageData["total"][ht] or {}
     local body = {
-([=[{| class="healthtable wikitable" align="right" style="width:33.333%%; text-align:center; font-family:'Roboto';"
+([=[{| class="healthtable wikitable" style="width:33.333%%; float:right; clear:right; text-align:center; font-family:'Roboto';"
 ! border="1" colspan="2" style="border-style: solid; border-color: #000000; background-color: #000000;" | [[Damage/%s|<span style="color: #FFFFFF;">%s</span>]]
 ]=]):format(ht, ht),
         insert = table.insert
