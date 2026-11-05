@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-11-03T20:53:00Z"
+wiki_timestamp: "2026-11-04T15:02:58Z"
 ---
 
 ## Contents
@@ -1175,6 +1175,57 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},
+	-- Hydroid
+	['Tempest Barrage']={
+		ins={
+			{name='VIRAL_TEMPEST', cont=Tooltips.full('Viral Tempest', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Corrosive', 'DamageTypes')..' damage:', {expr='STR 300 %of'}},
+			{'Duration:', {expr='DUR 10 %of', suff='s', fmt='2dec'}},
+			{'Explosion radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Virus', 'DamageTypes')..' Status Chance:', {expr='STR 100 %of 0 VIRAL_TEMPEST if', suff='%', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Tidal Surge']={
+		ins={
+			{name='TIDAL_IMPUNITY', cont=Tooltips.full('Tidal Impunity', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Corrosive', 'DamageTypes')..' damage:', {expr='STR 300 %of'}},
+			{'Contact radius:', {expr='RNG 6 %of', suff='m', fmt='1dec'}},
+			{'[[Status Immunity]] duration:', {expr='DUR 12 %of 0 TIDAL_IMPUNITY if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='15 50 TIDAL_IMPUNITY if COST *', fmt='2dec'}}
+		}
+	},
+	['Plunder']={
+		ins={
+			{name='ROUSING_PLUNDER', cont=Tooltips.full('Rousing Plunder', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Armor', 'Stats')..' from enemies:', {expr='STR 40 %of', suff='/enemy'}},
+			{Tooltips.full('Armor', 'Stats')..' from '..Tooltips.full('Corrosion', 'DamageTypes')..' stacks:', {expr='STR 40 %of', suff='/stack'}},
+			{Tooltips.full('Armor', 'Stats')..' bonus cap:', {expr='STR 750 %of 375 0 ROUSING_PLUNDER if +'}},
+			{Tooltips.full('Corrosive', 'DamageTypes')..' damage from enemies:', {expr='STR 10 %of', suff='%/enemy', fmt='2dec'}},
+			{Tooltips.full('Corrosive', 'DamageTypes')..' damage from '..Tooltips.full('Corrosion', 'DamageTypes')..' stacks:', {expr='STR 10 %of', suff='%/stack', fmt='2dec'}},
+			{Tooltips.full('Corrosive', 'DamageTypes')..' damage bonus cap:', {expr='STR 200 %of 100 0 ROUSING_PLUNDER if +', suff='%', fmt='2dec'}},
+			{'Duration:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{'Range:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Health', 'Stats')..' restoration from enemies:', {expr='STR 50 %of 0 ROUSING_PLUNDER if', suff='/enemy'}},
+			{Tooltips.full('Health', 'Stats')..' restoration from '..Tooltips.full('Corrosion', 'DamageTypes')..' stacks:', {expr='STR 50 %of 0 ROUSING_PLUNDER if', suff='/stack'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Tentacle Swarm']={
+		outs={
+			{Tooltips.full('Corrosive', 'DamageTypes')..' damage:', {expr='STR 200 %of', suff='/s'}},
+			{Tooltips.full('True', 'DamageTypes')..' damage on targets with '..Tooltips.full('Overguard', 'DamageTypes')..':', {expr='STR 200 %of'}},
+			{'Duration:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		}
+	},
 	-- Inaros
 	['Desiccation']={
 		outs={
@@ -1531,6 +1582,62 @@ local Data = {
 			{Tooltips.full('Armor', 'Stats')..' reduction:', {expr='STR 75 %of 100 min 0 FRACTURING_CRUSH if', suff='%', fmt='2dec'}},
 			{'Immobilization duration:', {expr='DUR 7 %of 0 FRACTURING_CRUSH if', suff='s', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		}
+	},
+	-- Mesa
+	['Ballistic Battery']={
+		ins={
+			{name='BALLISTIC_BULLSEYE', cont=Tooltips.full('Ballistic Bullseye', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Gun damage to stored damage conversion:', {expr='STR 70 %of', suff='%', fmt='2dec'}},
+			{'Maximum damage conversion:', {expr='STR 140 %of', suff='/instance'}},
+			{'Maximum stored damage:', {expr='STR 5000 %of'}},
+			{'Maximum final [[Critical Chance]] bonus:', {expr='STR 50 %of 0 BALLISTIC_BULLSEYE if', suff='%', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Shooting Gallery']={
+		ins={
+			{name='SQUAD_SIZE', cont='Number of players in [[Squad]]:', min='1', max='8', value='1'},
+			{name='MUZZLE_FLASH', cont=Tooltips.full('Muzzle Flash', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Weapon Damage bonus:', {expr='STR 25 %of', suff='%', fmt='2dec'}},
+			{'Duration on user:', {name='SHOOTING_GALLERY_DUR', expr='DUR 30 %of', suff='s', fmt='2dec'}},
+			{'Duration on allies:', {expr='SHOOTING_GALLERY_DUR SQUAD_SIZE 1 - 1 max / 0 SQUAD_SIZE 1 > if', suff='s', fmt='2dec'}},
+			{'[[Disarm#Jam|Jam]] range:', {expr='RNG 16 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Blind', 'DamageTypes')..' duration:', {expr='DUR 6 %of 0 MUZZLE_FLASH if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Blind', 'DamageTypes')..' radius:', {expr='RNG 12 %of 0 MUZZLE_FLASH if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Shatter Shield']={
+		ins={
+			{name='STAGGERING_SHIELD', cont=Tooltips.full('Staggering Shield', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Ranged [[Damage Reduction]]:', {expr='STR 80 %of 95 min', suff='%', fmt='2dec'}},
+			{'Duration:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{'Reflection range:', {expr='RNG 11 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Stagger', 'DamageTypes')..' chance:', {expr='STR 50 %of 100 min 0 STAGGERING_SHIELD if', suff='%', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Peacemaker']={
+		ins={
+			{name='WEAPON_DMG_MOD', cont='[[Weapon Damage]] modifier:', type='number', default='100'},
+			{name='ELEMENT_DMG_MOD', cont='[[Elemental damage]] modifier:', type='number', default='0'},
+			{name='FACTION_DMG_MOD', cont='[[Faction damage]] modifier:', type='number', default='100'},
+			{name='PEACEMAKER_BURSTS', cont='Number of prior bursts:', min='0', value='0'}
+		},
+		outs={
+			{'Regulators base damage:', {name='PEACEMAKER_BASE_DMG', expr='FACTION_DMG_MOD WEAPON_DMG_MOD STR 150 %of + %of PEACEMAKER_BURSTS 20 min 20 / 150 * 100 + %of'}},
+			{'Regulators elemental damage:', {name='PEACEMAKER_ELEMENT_DMG', expr='ELEMENT_DMG_MOD PEACEMAKER_BASE_DMG %of'}},
+			{'Regulators total damage:', {expr='PEACEMAKER_BASE_DMG PEACEMAKER_ELEMENT_DMG +'}},
+			{'Minimum Field of View:', {expr='RNG as% sqrt 15 PI * 180 / tan * atan 180 * PI /', suff='°', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='15 DRAIN *', fmt='2dec'}}
 		}
 	},
 	-- Mirage
