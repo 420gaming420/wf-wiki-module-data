@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-11-05T09:10:22.596Z"
+    "converted_at": "2026-11-07T08:31:27.770Z"
   },
   "_comments": "\t\t-- Update 42: The Shadowgrapher\n\t\t-- Update 43: Jade Shadows: Constellations\n\t\t\t-- InternalName = \"/Lotus/Types/Game/MissionDecks/JadeShadowsConstellationsRewards/JS2KuvaWytchRewardsExtra\",\n\t\t--Update 44.1: Iceblade of Narin: The Icebind\n-- TODO: This data should just be in the data by default instead of generated since we\n-- will eventually bump into issues with weapons that share similar suffixes. For example,\n-- if DE releases a weapon named Dorma, then it will conflict with Forma entries.\n-- Any reward names that start with these strings are not found in Missions tables\n-- Only include weapons with parts (i.e. 'Broken War' and 'Twin Kohmak' can be safely omitted)\n\t-- ['roken War'] = true,\t-- Broken War parts is dropped by enemies\n\t-- ['win Kohmak'] = true,\t-- Twin Kohmak\n\t-- or sk:find'^Eidolon'",
   "Rewards": {
@@ -107760,6 +107760,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -107839,6 +107840,14 @@
             ]
           ],
           "Link": "Thrax Centurion",
+          "Pigments": [
+            [
+              "Harmony Green Pigment",
+              "Resource",
+              100,
+              5
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -107863,6 +107872,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -107942,6 +107952,14 @@
             ]
           ],
           "Link": "Thrax Legatus",
+          "Pigments": [
+            [
+              "Veldt Yellow Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -107966,6 +107984,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -108045,6 +108064,14 @@
             ]
           ],
           "Link": "Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Pinion",
@@ -108069,6 +108096,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -108148,6 +108176,14 @@
             ]
           ],
           "Link": "Ravenous Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Quill",
@@ -125172,6 +125208,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -125251,6 +125288,14 @@
             ]
           ],
           "Link": "Thrax Centurion",
+          "Pigments": [
+            [
+              "Harmony Green Pigment",
+              "Resource",
+              100,
+              5
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -125275,6 +125320,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -125354,6 +125400,14 @@
             ]
           ],
           "Link": "Thrax Legatus",
+          "Pigments": [
+            [
+              "Veldt Yellow Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -125378,6 +125432,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -125457,6 +125512,14 @@
             ]
           ],
           "Link": "Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Pinion",
@@ -125481,6 +125544,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -125560,6 +125624,14 @@
             ]
           ],
           "Link": "Ravenous Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Quill",
@@ -127403,6 +127475,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -127482,6 +127555,14 @@
             ]
           ],
           "Link": "Thrax Centurion",
+          "Pigments": [
+            [
+              "Harmony Green Pigment",
+              "Resource",
+              100,
+              5
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -127506,6 +127587,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -127585,6 +127667,14 @@
             ]
           ],
           "Link": "Thrax Legatus",
+          "Pigments": [
+            [
+              "Veldt Yellow Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -127609,6 +127699,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -127688,6 +127779,14 @@
             ]
           ],
           "Link": "Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Pinion",
@@ -127712,6 +127811,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -127791,6 +127891,14 @@
             ]
           ],
           "Link": "Ravenous Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Quill",
@@ -146129,6 +146237,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -146208,6 +146317,14 @@
             ]
           ],
           "Link": "Thrax Centurion",
+          "Pigments": [
+            [
+              "Harmony Green Pigment",
+              "Resource",
+              100,
+              5
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -146232,6 +146349,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -146311,6 +146429,14 @@
             ]
           ],
           "Link": "Thrax Legatus",
+          "Pigments": [
+            [
+              "Veldt Yellow Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -146335,6 +146461,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -146414,6 +146541,14 @@
             ]
           ],
           "Link": "Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Pinion",
@@ -146438,6 +146573,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -146517,6 +146653,14 @@
             ]
           ],
           "Link": "Ravenous Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Quill",
@@ -165923,6 +166067,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -166002,6 +166147,14 @@
             ]
           ],
           "Link": "Thrax Centurion",
+          "Pigments": [
+            [
+              "Harmony Green Pigment",
+              "Resource",
+              100,
+              5
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -166026,6 +166179,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -166105,6 +166259,14 @@
             ]
           ],
           "Link": "Thrax Legatus",
+          "Pigments": [
+            [
+              "Veldt Yellow Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -166129,6 +166291,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -166208,6 +166371,14 @@
             ]
           ],
           "Link": "Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Pinion",
@@ -166232,6 +166403,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -166311,6 +166483,14 @@
             ]
           ],
           "Link": "Ravenous Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Quill",
@@ -197856,6 +198036,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -197935,6 +198116,14 @@
             ]
           ],
           "Link": "Thrax Centurion",
+          "Pigments": [
+            [
+              "Harmony Green Pigment",
+              "Resource",
+              100,
+              5
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -197959,6 +198148,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -198038,6 +198228,14 @@
             ]
           ],
           "Link": "Thrax Legatus",
+          "Pigments": [
+            [
+              "Veldt Yellow Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -198062,6 +198260,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -198141,6 +198340,14 @@
             ]
           ],
           "Link": "Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Pinion",
@@ -198165,6 +198372,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -198244,6 +198452,14 @@
             ]
           ],
           "Link": "Ravenous Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Quill",
@@ -217303,6 +217519,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -217382,6 +217599,14 @@
             ]
           ],
           "Link": "Thrax Centurion",
+          "Pigments": [
+            [
+              "Harmony Green Pigment",
+              "Resource",
+              100,
+              5
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -217406,6 +217631,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -217485,6 +217711,14 @@
             ]
           ],
           "Link": "Thrax Legatus",
+          "Pigments": [
+            [
+              "Veldt Yellow Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -217509,6 +217743,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -217588,6 +217823,14 @@
             ]
           ],
           "Link": "Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Pinion",
@@ -217612,6 +217855,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -217691,6 +217935,14 @@
             ]
           ],
           "Link": "Ravenous Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Quill",
@@ -217717,6 +217969,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -217796,6 +218049,14 @@
             ]
           ],
           "Link": "Thrax Centurion",
+          "Pigments": [
+            [
+              "Harmony Green Pigment",
+              "Resource",
+              100,
+              5
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -217820,6 +218081,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -217899,6 +218161,14 @@
             ]
           ],
           "Link": "Thrax Legatus",
+          "Pigments": [
+            [
+              "Veldt Yellow Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -217923,6 +218193,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -218002,6 +218273,14 @@
             ]
           ],
           "Link": "Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Pinion",
@@ -218026,6 +218305,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -218105,6 +218385,14 @@
             ]
           ],
           "Link": "Ravenous Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Quill",
@@ -218131,6 +218419,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -218210,6 +218499,14 @@
             ]
           ],
           "Link": "Thrax Centurion",
+          "Pigments": [
+            [
+              "Harmony Green Pigment",
+              "Resource",
+              100,
+              5
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -218234,6 +218531,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -218313,6 +218611,14 @@
             ]
           ],
           "Link": "Thrax Legatus",
+          "Pigments": [
+            [
+              "Veldt Yellow Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -218337,6 +218643,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -218416,6 +218723,14 @@
             ]
           ],
           "Link": "Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Pinion",
@@ -218440,6 +218755,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -218519,6 +218835,14 @@
             ]
           ],
           "Link": "Ravenous Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Quill",
@@ -219186,6 +219510,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -219265,6 +219590,14 @@
             ]
           ],
           "Link": "Thrax Centurion",
+          "Pigments": [
+            [
+              "Harmony Green Pigment",
+              "Resource",
+              100,
+              5
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -219289,6 +219622,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -219368,6 +219702,14 @@
             ]
           ],
           "Link": "Thrax Legatus",
+          "Pigments": [
+            [
+              "Veldt Yellow Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -219392,6 +219734,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -219471,6 +219814,14 @@
             ]
           ],
           "Link": "Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Pinion",
@@ -219495,6 +219846,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -219574,6 +219926,14 @@
             ]
           ],
           "Link": "Ravenous Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Quill",
@@ -219600,6 +219960,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -219679,6 +220040,14 @@
             ]
           ],
           "Link": "Thrax Centurion",
+          "Pigments": [
+            [
+              "Harmony Green Pigment",
+              "Resource",
+              100,
+              5
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -219703,6 +220072,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -219782,6 +220152,14 @@
             ]
           ],
           "Link": "Thrax Legatus",
+          "Pigments": [
+            [
+              "Veldt Yellow Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -219806,6 +220184,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -219885,6 +220264,14 @@
             ]
           ],
           "Link": "Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Pinion",
@@ -219909,6 +220296,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -219988,6 +220376,14 @@
             ]
           ],
           "Link": "Ravenous Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Quill",
@@ -222589,6 +222985,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -222668,6 +223065,14 @@
             ]
           ],
           "Link": "Thrax Centurion",
+          "Pigments": [
+            [
+              "Harmony Green Pigment",
+              "Resource",
+              100,
+              5
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -222692,6 +223097,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -222771,6 +223177,14 @@
             ]
           ],
           "Link": "Thrax Legatus",
+          "Pigments": [
+            [
+              "Veldt Yellow Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -222795,6 +223209,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -222874,6 +223289,14 @@
             ]
           ],
           "Link": "Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Pinion",
@@ -222898,6 +223321,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -222977,6 +223401,14 @@
             ]
           ],
           "Link": "Ravenous Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Quill",
@@ -223003,6 +223435,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -223082,6 +223515,14 @@
             ]
           ],
           "Link": "Thrax Centurion",
+          "Pigments": [
+            [
+              "Harmony Green Pigment",
+              "Resource",
+              100,
+              5
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -223106,6 +223547,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -223185,6 +223627,14 @@
             ]
           ],
           "Link": "Thrax Legatus",
+          "Pigments": [
+            [
+              "Veldt Yellow Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -223209,6 +223659,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -223288,6 +223739,14 @@
             ]
           ],
           "Link": "Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Pinion",
@@ -223312,6 +223771,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -223391,6 +223851,14 @@
             ]
           ],
           "Link": "Ravenous Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Quill",
@@ -225547,6 +226015,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -225626,6 +226095,14 @@
             ]
           ],
           "Link": "Thrax Centurion",
+          "Pigments": [
+            [
+              "Harmony Green Pigment",
+              "Resource",
+              100,
+              5
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -225650,6 +226127,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -225729,6 +226207,14 @@
             ]
           ],
           "Link": "Thrax Legatus",
+          "Pigments": [
+            [
+              "Veldt Yellow Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -225753,6 +226239,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -225832,6 +226319,14 @@
             ]
           ],
           "Link": "Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Pinion",
@@ -225856,6 +226351,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -225935,6 +226431,14 @@
             ]
           ],
           "Link": "Ravenous Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Quill",
@@ -239010,6 +239514,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -239089,6 +239594,14 @@
             ]
           ],
           "Link": "Thrax Centurion",
+          "Pigments": [
+            [
+              "Harmony Green Pigment",
+              "Resource",
+              100,
+              5
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -239113,6 +239626,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -239192,6 +239706,14 @@
             ]
           ],
           "Link": "Thrax Legatus",
+          "Pigments": [
+            [
+              "Veldt Yellow Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Thrax Plasm",
@@ -239216,6 +239738,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -239295,6 +239818,14 @@
             ]
           ],
           "Link": "Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Pinion",
@@ -239319,6 +239850,7 @@
           6.67
         ],
         "Source": {
+          "PigmentChance": 100,
           "ResourceChance": 100,
           "Mods": [
             [
@@ -239398,6 +239930,14 @@
             ]
           ],
           "Link": "Ravenous Void Angel",
+          "Pigments": [
+            [
+              "False Orange Pigment",
+              "Resource",
+              100,
+              1
+            ]
+          ],
           "Resources": [
             [
               "Voidplume Quill",
@@ -361211,6 +361751,7 @@
       ]
     },
     "Thrax Centurion": {
+      "PigmentChance": 100,
       "ResourceChance": 100,
       "Mods": [
         [
@@ -361290,6 +361831,14 @@
         ]
       ],
       "Link": "Thrax Centurion",
+      "Pigments": [
+        [
+          "Harmony Green Pigment",
+          "Resource",
+          100,
+          5
+        ]
+      ],
       "Resources": [
         [
           "Thrax Plasm",
@@ -362048,6 +362597,7 @@
       "Name": "Scorpion"
     },
     "Thrax Legatus": {
+      "PigmentChance": 100,
       "ResourceChance": 100,
       "Mods": [
         [
@@ -362127,6 +362677,14 @@
         ]
       ],
       "Link": "Thrax Legatus",
+      "Pigments": [
+        [
+          "Veldt Yellow Pigment",
+          "Resource",
+          100,
+          1
+        ]
+      ],
       "Resources": [
         [
           "Thrax Plasm",
@@ -376418,6 +376976,7 @@
       ]
     },
     "Void Angel": {
+      "PigmentChance": 100,
       "ResourceChance": 100,
       "Mods": [
         [
@@ -376497,6 +377056,14 @@
         ]
       ],
       "Link": "Void Angel",
+      "Pigments": [
+        [
+          "False Orange Pigment",
+          "Resource",
+          100,
+          1
+        ]
+      ],
       "Resources": [
         [
           "Voidplume Pinion",
@@ -388859,6 +389426,7 @@
       "Name": "Vay Hek Terra Frame"
     },
     "Ravenous Void Angel": {
+      "PigmentChance": 100,
       "ResourceChance": 100,
       "Mods": [
         [
@@ -388938,6 +389506,14 @@
         ]
       ],
       "Link": "Ravenous Void Angel",
+      "Pigments": [
+        [
+          "False Orange Pigment",
+          "Resource",
+          100,
+          1
+        ]
+      ],
       "Resources": [
         [
           "Voidplume Quill",
@@ -389700,7 +390276,7 @@
           "Boiler Red Pigment",
           "Resource",
           100,
-          2
+          1
         ]
       ],
       "PigmentChance": 100

@@ -1,12 +1,12 @@
 ---
 title: "Module:Baro/data/typeConfigs"
 wiki_url: "https://wiki.warframe.com/w/Module/Baro/data/typeConfigs"
-wiki_timestamp: "2026-06-03T15:56:28Z"
+wiki_timestamp: "2026-11-06T17:46:12Z"
 ---
 
 Configuration file for categorizing and formatting item names in [Module:Baro](/w/Module:Baro "Module:Baro").
 
-:   *Last updated: Wed, 03 Jun 2026 15:56:28 +0000 (UTC) by [User:Anexera](/w/User:Anexera "User:Anexera") ([change log](https://wiki.warframe.com/w/Module:Baro/data/typeConfigs?diff=0))*
+:   *Last updated: Fri, 06 Nov 2026 17:46:12 +0000 (UTC) by [User:Anexera](/w/User:Anexera "User:Anexera") ([change log](https://wiki.warframe.com/w/Module:Baro/data/typeConfigs?diff=0))*
 
 ## Contents
 
@@ -16,7 +16,8 @@ Configuration file for categorizing and formatting item names in [Module:Baro](/
 
 ## Notes
 
-[[edit source](/w/Module:Baro/data/typeConfigs/doc?action=edit&section=T-1 "Edit section's source code: Notes")]
+[[edit](/w/Module:Baro/data/typeConfigs/doc?action=edit&section=T-1 "Edit Section using Source Editor:
+Notes")]
 
 * **Consistency**: Keys (e.g., "Booster", "Primed Mod (Warframe)") must exactly match the `Type` field in [Module:Baro/data](/w/Module:Baro/data "Module:Baro/data") (case-sensitive).
 * **GalleryCategory**: Determines which tab the item appears in [Baro Ki'Teer/Current PC Items](/w/Baro_Ki%27Teer/Current_PC_Items "Baro Ki'Teer/Current PC Items").
@@ -25,7 +26,8 @@ Configuration file for categorizing and formatting item names in [Module:Baro](/
 
 ## Config Schema
 
-[[edit source](/w/Module:Baro/data/typeConfigs/doc?action=edit&section=T-2 "Edit section's source code: Config Schema")]
+[[edit](/w/Module:Baro/data/typeConfigs/doc?action=edit&section=T-2 "Edit Section using Source Editor:
+Config Schema")]
 
 ```lua
 	["Item Type"] = {
@@ -43,7 +45,8 @@ Configuration file for categorizing and formatting item names in [Module:Baro](/
 
 ## Configuration Data
 
-[[edit source](/w/Module:Baro/data/typeConfigs/doc?action=edit&section=T-3 "Edit section's source code: Configuration Data")]
+[[edit](/w/Module:Baro/data/typeConfigs/doc?action=edit&section=T-3 "Edit Section using Source Editor:
+Configuration Data")]
 
 ---
 
@@ -110,6 +113,7 @@ return {
 
 	-- Appearance (Specialized)
 	["Cosmetic (Operator)"] = { GalleryCategory = "Appearance", HistoryCategory = "Cosmetic (Operator)" },
+	["Cosmetic (Parazon)"] = { GalleryCategory = "Appearance", HistoryCategory = "Cosmetic (Weapon)" },
 	["Cosmetic (Warframe Skin)"] = { GalleryCategory = "Appearance", HistoryCategory = "Cosmetic (Warframe)" },
 	["Cosmetic (Weapon)"] = { GalleryCategory = "Appearance", HistoryCategory = "Cosmetic (Weapon)" },
 	["Cosmetic (Weapon Skin)"] = { GalleryCategory = "Appearance", HistoryCategory = "Cosmetic (Weapon)" },

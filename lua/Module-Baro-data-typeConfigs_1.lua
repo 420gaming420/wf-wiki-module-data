@@ -60,6 +60,7 @@ return {
 
 	-- Appearance (Specialized)
 	["Cosmetic (Operator)"] = { GalleryCategory = "Appearance", HistoryCategory = "Cosmetic (Operator)" },
+	["Cosmetic (Parazon)"] = { GalleryCategory = "Appearance", HistoryCategory = "Cosmetic (Weapon)" },
 	["Cosmetic (Warframe Skin)"] = { GalleryCategory = "Appearance", HistoryCategory = "Cosmetic (Warframe)" },
 	["Cosmetic (Weapon)"] = { GalleryCategory = "Appearance", HistoryCategory = "Cosmetic (Weapon)" },
 	["Cosmetic (Weapon Skin)"] = { GalleryCategory = "Appearance", HistoryCategory = "Cosmetic (Weapon)" },

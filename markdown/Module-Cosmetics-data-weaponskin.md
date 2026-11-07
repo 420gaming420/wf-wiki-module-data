@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/weaponskin"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/weaponskin"
-wiki_timestamp: "2026-10-30T13:25:37Z"
+wiki_timestamp: "2026-11-06T09:06:40Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/weaponskin/doc](/w/Module:Cosmetics/data/weaponskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/weaponskin/doc (page does not exist)")*
@@ -6206,6 +6206,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Promo/Twitch/TwitchRubicoSkin",
         Link = "Verv Rubico Skin",
         Name = "Verv Rubico Skin",
+        Type = "Weapon Skin"
+    },
+    ["Viktor's Rapier Skin"] = {
+        CodexSecret = false,
+        Description = "Commissioned by Lieutenant Viktor Vodyanoi for his personal use, this elegant officer's weapon incorporates Sol and Lua motifs.",
+        ExcludeFromCodex = false,
+        Image = "Viktor'sRapierSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/Weapons/Rapier/LasOcelotRapierSkin",
+        Link = "Viktor's Rapier Skin",
+        Name = "Viktor's Rapier Skin",
         Type = "Weapon Skin"
     },
     ["Viper Conclave Skin"] = {

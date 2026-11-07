@@ -6200,6 +6200,16 @@ return {
         Name = "Verv Rubico Skin",
         Type = "Weapon Skin"
     },
+    ["Viktor's Rapier Skin"] = {
+        CodexSecret = false,
+        Description = "Commissioned by Lieutenant Viktor Vodyanoi for his personal use, this elegant officer's weapon incorporates Sol and Lua motifs.",
+        ExcludeFromCodex = false,
+        Image = "Viktor'sRapierSkin.png",
+        InternalName = "/Lotus/Upgrades/Skins/Weapons/Rapier/LasOcelotRapierSkin",
+        Link = "Viktor's Rapier Skin",
+        Name = "Viktor's Rapier Skin",
+        Type = "Weapon Skin"
+    },
     ["Viper Conclave Skin"] = {
         CodexSecret = false,
         Description = "Bow to the Conclave with this weapon skin.",

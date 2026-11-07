@@ -818,7 +818,7 @@ local DamageTypes = {
 			DarkModeColor = "#d5d5d5",
 			Icon = "StunIcon_b.png",
 			InternalName = "PT_STUNNED",
-			Link = "Stagger",
+			Link = "Stun",
 			Name = "Stun",
 			Status = { "Stuns the enemy, interrupting many actions for a time" }
 		},

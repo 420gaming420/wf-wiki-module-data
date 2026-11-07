@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:53:40.888Z"
+    "converted_at": "2026-11-07T08:31:17.991Z"
   },
   "_comments": "\t-- Weapons\n\t-- Mods\n\t-- Appearance (Universal)\n\t-- Appearance (Vehicles)\n\t-- Appearance (Companions)\n\t-- Appearance (Specialized)\n\t-- Miscellaneous",
   "Cosmetic (Orbiter)": {
@@ -32,6 +32,10 @@
     "HistoryCategory": "Companion",
     "GalleryCategory": "Miscellaneous"
   },
+  "Decoration": {
+    "HistoryCategory": "Decoration",
+    "GalleryCategory": "Miscellaneous"
+  },
   "Cosmetic (Emblem)": {
     "HistoryCategory": "Cosmetic",
     "GalleryCategory": "Appearance"
@@ -56,11 +60,11 @@
     "HistoryCategory": "Mod",
     "GalleryCategory": "Mods"
   },
-  "Decoration": {
-    "HistoryCategory": "Decoration",
+  "Somachord": {
+    "HistoryCategory": "Misc",
     "GalleryCategory": "Miscellaneous"
   },
-  "Somachord": {
+  "Quest": {
     "HistoryCategory": "Misc",
     "GalleryCategory": "Miscellaneous"
   },
@@ -68,11 +72,11 @@
     "HistoryCategory": "Mod",
     "GalleryCategory": "Mods"
   },
-  "Quest": {
+  "Mission Locator": {
     "HistoryCategory": "Misc",
     "GalleryCategory": "Miscellaneous"
   },
-  "Mission Locator": {
+  "Lootbox": {
     "HistoryCategory": "Misc",
     "GalleryCategory": "Miscellaneous"
   },
@@ -81,7 +85,7 @@
     "HistoryCategory": "Weapon",
     "TooltipModule": "Weapons"
   },
-  "Lootbox": {
+  "Glyph": {
     "HistoryCategory": "Misc",
     "GalleryCategory": "Miscellaneous"
   },
@@ -93,7 +97,7 @@
     "HistoryCategory": "Mod",
     "GalleryCategory": "Mods"
   },
-  "Glyph": {
+  "Captura Scene": {
     "HistoryCategory": "Misc",
     "GalleryCategory": "Miscellaneous"
   },
@@ -101,17 +105,17 @@
     "HistoryCategory": "Cosmetic (Companion)",
     "GalleryCategory": "Appearance"
   },
-  "Color Palette": {
-    "HistoryCategory": "Misc",
-    "GalleryCategory": "Miscellaneous"
+  "Cosmetic (Armor)": {
+    "HistoryCategory": "Cosmetic",
+    "GalleryCategory": "Appearance"
   },
   "Cosmetic (Railjack)": {
     "HistoryCategory": "Cosmetic (Vehicle)",
     "GalleryCategory": "Appearance"
   },
-  "Cosmetic (Armor)": {
-    "HistoryCategory": "Cosmetic",
-    "GalleryCategory": "Appearance"
+  "Color Palette": {
+    "HistoryCategory": "Misc",
+    "GalleryCategory": "Miscellaneous"
   },
   "Weapon": {
     "GalleryCategory": "Weapons",
@@ -130,9 +134,9 @@
     "HistoryCategory": "Misc",
     "GalleryCategory": "Miscellaneous"
   },
-  "Captura Scene": {
-    "HistoryCategory": "Misc",
-    "GalleryCategory": "Miscellaneous"
+  "Cosmetic (K-Drive)": {
+    "HistoryCategory": "Cosmetic (Vehicle)",
+    "GalleryCategory": "Appearance"
   },
   "Cosmetic (Kaithe)": {
     "HistoryCategory": "Cosmetic (Vehicle)",
@@ -142,21 +146,21 @@
     "HistoryCategory": "Mod",
     "GalleryCategory": "Mods"
   },
-  "Cosmetic (K-Drive)": {
+  "Cosmetic (Landing Craft)": {
     "HistoryCategory": "Cosmetic (Vehicle)",
-    "GalleryCategory": "Appearance"
+    "GalleryCategory": "Miscellaneous"
   },
   "Primed Mod (Rifle)": {
     "HistoryCategory": "Mod",
     "GalleryCategory": "Mods"
   },
-  "Cosmetic (Landing Craft)": {
-    "HistoryCategory": "Cosmetic (Vehicle)",
-    "GalleryCategory": "Miscellaneous"
-  },
   "Cosmetic (Sentinel)": {
     "HistoryCategory": "Cosmetic (Companion)",
     "GalleryCategory": "Appearance"
+  },
+  "Mod (Stance)": {
+    "HistoryCategory": "Mod",
+    "GalleryCategory": "Mods"
   },
   "Cosmetic (Ephemera)": {
     "HistoryCategory": "Cosmetic",
@@ -166,16 +170,16 @@
     "HistoryCategory": "Mod",
     "GalleryCategory": "Mods"
   },
-  "Mod (Stance)": {
-    "HistoryCategory": "Mod",
-    "GalleryCategory": "Mods"
+  "Cosmetic (Atomicycle)": {
+    "HistoryCategory": "Cosmetic (Vehicle)",
+    "GalleryCategory": "Appearance"
   },
   "Cosmetic (Necramech)": {
     "HistoryCategory": "Cosmetic (Vehicle)",
     "GalleryCategory": "Appearance"
   },
-  "Cosmetic (Atomicycle)": {
-    "HistoryCategory": "Cosmetic (Vehicle)",
+  "Cosmetic (Parazon)": {
+    "HistoryCategory": "Cosmetic (Weapon)",
     "GalleryCategory": "Appearance"
   },
   "Primed Mod (Warframe)": {

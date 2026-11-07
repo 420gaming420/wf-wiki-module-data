@@ -1,7 +1,7 @@
 ---
 title: "Module:DamageTypes/data"
 wiki_url: "https://wiki.warframe.com/w/Module/DamageTypes/data"
-wiki_timestamp: "2026-10-01T14:59:13Z"
+wiki_timestamp: "2026-11-06T09:37:20Z"
 ---
 
 ## Contents
@@ -1211,7 +1211,7 @@ local DamageTypes = {
 			DarkModeColor = "#d5d5d5",
 			Icon = "StunIcon_b.png",
 			InternalName = "PT_STUNNED",
-			Link = "Stagger",
+			Link = "Stun",
 			Name = "Stun",
 			Status = { "Stuns the enemy, interrupting many actions for a time" }
 		},

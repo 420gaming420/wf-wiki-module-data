@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-11-01T08:54:36.963Z"
+    "converted_at": "2026-11-07T08:31:20.730Z"
   },
   "_comments": "",
   "Protokol 95 Pistol Skin": {
@@ -45,6 +45,16 @@
     "Link": "Polearm Phorcys Skin",
     "Name": "Polearm Phorcys Skin",
     "InternalName": "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Polearms/SWPhorcysPolearmSkin",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Viktor's Rapier Skin": {
+    "Type": "Weapon Skin",
+    "Image": "Viktor'sRapierSkin.png",
+    "Description": "Commissioned by Lieutenant Viktor Vodyanoi for his personal use, this elegant officer's weapon incorporates Sol and Lua motifs.",
+    "Link": "Viktor's Rapier Skin",
+    "Name": "Viktor's Rapier Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/Weapons/Rapier/LasOcelotRapierSkin",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },

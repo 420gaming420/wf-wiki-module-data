@@ -1,7 +1,7 @@
 ---
 title: "Module:DropTables/data"
 wiki_url: "https://wiki.warframe.com/w/Module/DropTables/data"
-wiki_timestamp: "2026-11-04T22:46:19Z"
+wiki_timestamp: "2026-11-06T21:40:08Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -19,7 +19,7 @@ Manually updated fork of the public [Drop Tables](/w/Drop_Tables "Drop Tables") 
 
 See [Module:DropTables](/w/Module:DropTables "Module:DropTables") to see what various things this is being used for right now.
 
-:   *Last updated: Wed, 04 Nov 2026 22:46:19 +0000 (UTC) by [User:JonathanTL96](/w/User:JonathanTL96?action=edit&redlink=1 "User:JonathanTL96 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:DropTables/data?diff=0))*
+:   *Last updated: Fri, 06 Nov 2026 21:40:08 +0000 (UTC) by [User:Tawksihk](/w/User:Tawksihk?action=edit&redlink=1 "User:Tawksihk (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:DropTables/data?diff=0))*
 
 ## Contents
 
@@ -10047,7 +10047,7 @@ local DropData = {
 			},
 			Name = "Phorid",
 			PigmentChance = 100,
-			Pigments = { { "Boiler Red Pigment", "Resource", 100, 2 } },
+			Pigments = { { "Boiler Red Pigment", "Resource", 100, 1 } },
 			ResourceChance = 100,
 			Resources = { { "Region Resource", "Resource", 97.42 }, { "Orokin Cell", "Resource", 2.58 } },
 			SigilChance = 100,
@@ -10407,6 +10407,8 @@ local DropData = {
 				{ "Molt Efficiency", "Arcane", 6.67 } 
 			},
 			Name = "Ravenous Void Angel",
+			PigmentChance = 100,
+			Pigments = { { "False Orange Pigment", "Resource", 100, 1 } },
 			ResourceChance = 100,
 			Resources = { { "Voidplume Quill", "Resource", 100, 1 } } 
 		},
@@ -13173,6 +13175,8 @@ local DropData = {
 				{ "Molt Efficiency", "Arcane", 6.67 } 
 			},
 			Name = "Thrax Centurion",
+			PigmentChance = 100,
+			Pigments = { { "Harmony Green Pigment", "Resource", 100, 5 } },
 			ResourceChance = 100,
 			Resources = { { "Thrax Plasm", "Resource", 100, 6 } } 
 		},
@@ -13197,6 +13201,8 @@ local DropData = {
 				{ "Molt Efficiency", "Arcane", 6.67 } 
 			},
 			Name = "Thrax Legatus",
+			PigmentChance = 100,
+			Pigments = { { "Veldt Yellow Pigment", "Resource", 100, 1 } },
 			ResourceChance = 100,
 			Resources = { { "Thrax Plasm", "Resource", 100, 6 } } 
 		},
@@ -14291,6 +14297,8 @@ local DropData = {
 				{ "Molt Efficiency", "Arcane", 6.67 } 
 			},
 			Name = "Void Angel",
+			PigmentChance = 100,
+			Pigments = { { "False Orange Pigment", "Resource", 100, 1 } },
 			ResourceChance = 100,
 			Resources = { { "Voidplume Pinion", "Resource", 100, 1 } } 
 		},

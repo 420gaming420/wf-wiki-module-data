@@ -9576,7 +9576,7 @@ local DropData = {
 			},
 			Name = "Phorid",
 			PigmentChance = 100,
-			Pigments = { { "Boiler Red Pigment", "Resource", 100, 2 } },
+			Pigments = { { "Boiler Red Pigment", "Resource", 100, 1 } },
 			ResourceChance = 100,
 			Resources = { { "Region Resource", "Resource", 97.42 }, { "Orokin Cell", "Resource", 2.58 } },
 			SigilChance = 100,
@@ -9936,6 +9936,8 @@ local DropData = {
 				{ "Molt Efficiency", "Arcane", 6.67 } 
 			},
 			Name = "Ravenous Void Angel",
+			PigmentChance = 100,
+			Pigments = { { "False Orange Pigment", "Resource", 100, 1 } },
 			ResourceChance = 100,
 			Resources = { { "Voidplume Quill", "Resource", 100, 1 } } 
 		},
@@ -12702,6 +12704,8 @@ local DropData = {
 				{ "Molt Efficiency", "Arcane", 6.67 } 
 			},
 			Name = "Thrax Centurion",
+			PigmentChance = 100,
+			Pigments = { { "Harmony Green Pigment", "Resource", 100, 5 } },
 			ResourceChance = 100,
 			Resources = { { "Thrax Plasm", "Resource", 100, 6 } } 
 		},
@@ -12726,6 +12730,8 @@ local DropData = {
 				{ "Molt Efficiency", "Arcane", 6.67 } 
 			},
 			Name = "Thrax Legatus",
+			PigmentChance = 100,
+			Pigments = { { "Veldt Yellow Pigment", "Resource", 100, 1 } },
 			ResourceChance = 100,
 			Resources = { { "Thrax Plasm", "Resource", 100, 6 } } 
 		},
@@ -13820,6 +13826,8 @@ local DropData = {
 				{ "Molt Efficiency", "Arcane", 6.67 } 
 			},
 			Name = "Void Angel",
+			PigmentChance = 100,
+			Pigments = { { "False Orange Pigment", "Resource", 100, 1 } },
 			ResourceChance = 100,
 			Resources = { { "Voidplume Pinion", "Resource", 100, 1 } } 
 		},
