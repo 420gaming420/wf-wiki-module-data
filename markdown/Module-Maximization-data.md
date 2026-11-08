@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-11-04T15:02:58Z"
+wiki_timestamp: "2026-11-07T14:47:49Z"
 ---
 
 ## Contents
@@ -1425,6 +1425,54 @@ local Data = {
 			{Tooltips.full('Puncture', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
 			{'Duration:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
 			{'Radius:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		}
+	},
+	-- Kullervo
+	['Wrathful Advance']={
+		ins={
+			{name='WRATHFUL_ADVANCE_INFUSED', cont='[[Infused]]?', type='checkbox'}
+		},
+		outs={
+			{'Final Melee Critical Chance bonus:', {expr='STR 100 200 WRATHFUL_ADVANCE_INFUSED if %of', suff='%', fmt='2dec'}},
+			{'Duration:', {expr='DUR 10 %of', suff='s', fmt='2dec'}},
+			{'Targeting range:', {expr='RNG 12.5 25 WRATHFUL_ADVANCE_INFUSED if %of', suff='m', fmt='1dec'}},
+			{'Teleport range:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Recompense']={
+		ins={
+			{name='VOLATILE_RECOMPENSE', cont=Tooltips.full('Volatile Recompense', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
+			{Tooltips.full('Health', 'Stats')..' restoration or '..Tooltips.full('Overguard', 'DamageTypes')..' gain:', {expr='STR 325 %of', suff='/hit'}},
+			{'Damage from missed daggers:', {expr='STR 35 %of', suff='/dagger'}},
+			{Tooltips.full('Overguard', 'DamageTypes')..' cap:', {expr='STR 10000 %of'}},
+			{'Duration:', {expr='DUR 25 %of 5 VOLATILE_RECOMPENSE if', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 1000 %of'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Collective Curse']={
+		outs={
+			{'Damage shared:', {expr='STR 50 %of 100 min', suff='%', fmt='2dec'}},
+			{'Duration:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{'Wave range:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Storm of Ukko']={
+		ins={
+			{name='WRATH_OF_UKKO', cont=Tooltips.full('Wrath of Ukko', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 1250 %of', suff='/0.5s'}},
+			{'Duration:', {expr='DUR 15 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
+			{'Duration extension:', {expr='DUR 6 %of 0 WRATH_OF_UKKO if', suff='s', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},

@@ -1005,7 +1005,7 @@ return {
 			},
 			{
 				AttackIndex = 6,
-				AttackName = "Concentrated Arrow Uncharged Headshot Explosion",
+				AttackName = "Concentrated Arrow Charged Headshot Explosion",
 				AttackParentIndex = 5,
 				ChargeTime = 1,
 				CritChance = 0.5,
