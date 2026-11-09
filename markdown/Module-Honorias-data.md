@@ -1,12 +1,12 @@
 ---
 title: "Module:Honorias/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Honorias/data"
-wiki_timestamp: "2026-10-18T12:07:30Z"
+wiki_timestamp: "2026-11-08T17:51:48Z"
 ---
 
 Database for all [Honorias](/w/Honoria "Honoria") in [WARFRAME](/w/WARFRAME "WARFRAME"). Preferably put new honorias in the correct alphabetical order, but it is not necessary.
 
-:   *Last updated: Sun, 18 Oct 2026 12:07:30 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
+:   *Last updated: Sun, 08 Nov 2026 17:51:48 +0000 (UTC) by [User:Sparrows413](/w/User:Sparrows413 "User:Sparrows413") ([change log](https://wiki.warframe.com/w/Module:Honorias/data?diff=0))*
 
 ## Contents
 
@@ -75,9 +75,10 @@ All data types are valid in Module:Honorias/data!
 Validating data types of values
 ```
 
-**p.validateFieldValues(frame): There are a total of 1 value errors**
+**p.validateFieldValues(frame): There are a total of 2 value errors**
 
-1. "[The Moon Killer](/w/The_Moon_Killer?action=edit&redlink=1 "The Moon Killer (page does not exist)")" contains invalid tag `Praghasa` in Tags table
+1. "[The Haunted](/w/The_Haunted?action=edit&redlink=1 "The Haunted (page does not exist)")" contains invalid tag `Baro Ki'Teer` in Tags table
+2. "[The Moon Killer](/w/The_Moon_Killer?action=edit&redlink=1 "The Moon Killer (page does not exist)")" contains invalid tag `Praghasa` in Tags table
 
 ## References
 
@@ -2526,6 +2527,17 @@ local honoriaData = {
 		ExcludeFromCodex = true,
 		Tags = { "Praghasa", "Event" },
 	},
+	["The Haunted"] = {
+		Name = "The Haunted",
+		Link = "The Haunted",
+		Description = "{{text||Acquired from [[Baro Ki'Teer]] during [[Naberus|Nights of Naberus]].|hover=Sent via inbox message after Naberus Ki'Teer's final 2026 visit.}}",
+		Position = "Suffix",
+		Introduced = "44.1.4.1", -- exist since 44 but was available since 44.1.4.1
+		InternalName = "/Lotus/Types/Items/Titles/EvilBaroTitle",
+		CodexSecret = false,
+		ExcludeFromCodex = true,
+		Tags = { "Baro Ki'Teer", "Miscellaneous" },
+	},
 	--["Conquera"] = {
 	--	_IgnoreEntry = true,
 	--	Name = "Conquera",
@@ -2534,18 +2546,6 @@ local honoriaData = {
 	--	Position = "?",
 	--	Introduced = "44", -- currently, 44 is is the version where is was added to the PE
 	--	InternalName = "/Lotus/Types/Items/Titles/ConqueraTitle",
-	--	CodexSecret = false,
-	--	ExcludeFromCodex = true,
-	--	Tags = { "Hidden" },
-	--},
-	--["The Haunted"] = {
-	--	_IgnoreEntry = true,
-	--	Name = "The Haunted",
-	--	Link = "The Haunted",
-	--	Description = "?",
-	--	Position = "?",
-	--	Introduced = "44",-- currently, 44 is is the version where is was added to the PE
-	--	InternalName = "/Lotus/Types/Items/Titles/EvilBaroTitle",
 	--	CodexSecret = false,
 	--	ExcludeFromCodex = true,
 	--	Tags = { "Hidden" },

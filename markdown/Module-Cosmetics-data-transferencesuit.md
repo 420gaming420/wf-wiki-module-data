@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/transferencesuit"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/transferencesuit"
-wiki_timestamp: "2026-08-13T19:08:15Z"
+wiki_timestamp: "2026-11-09T09:00:21Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/transferencesuit/doc](/w/Module:Cosmetics/data/transferencesuit/doc?action=edit&redlink=1 "Module:Cosmetics/data/transferencesuit/doc (page does not exist)")*
@@ -1712,7 +1712,7 @@ return {
         CodexSecret = false,
         Description = "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
         ExcludeFromCodex = false,
-        Image = "SuitAdultPrimeE.png",
+        Image = "NecraPrimeCuirass(Drifter).png",
         InternalName = "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitAdultPrimeE",
         Link = "Necra Prime Cuirass (Drifter)",
         Name = "Necra Prime Cuirass (Drifter)",
@@ -1722,7 +1722,7 @@ return {
         CodexSecret = false,
         Description = "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
         ExcludeFromCodex = false,
-        Image = "SuitPrimeE.png",
+        Image = "NecraPrimeCuirass(Operator).png",
         InternalName = "/Lotus/Upgrades/Skins/Operator/BodySuits/BodySuitPrimeE",
         Link = "Necra Prime Cuirass (Operator)",
         Name = "Necra Prime Cuirass (Operator)",
@@ -1732,7 +1732,7 @@ return {
         CodexSecret = false,
         Description = "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
         ExcludeFromCodex = false,
-        Image = "LeggingsAdultPrimeE.png",
+        Image = "NecraPrimeGreaves(Drifter).png",
         InternalName = "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsAdultPrimeE",
         Link = "Necra Prime Greaves (Drifter)",
         Name = "Necra Prime Greaves (Drifter)",
@@ -1742,7 +1742,7 @@ return {
         CodexSecret = false,
         Description = "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
         ExcludeFromCodex = false,
-        Image = "LeggingsPrimeE.png",
+        Image = "NecraPrimeGreaves(Operator).png",
         InternalName = "/Lotus/Upgrades/Skins/Operator/Leggings/LeggingsPrimeE",
         Link = "Necra Prime Greaves (Operator)",
         Name = "Necra Prime Greaves (Operator)",
@@ -1752,7 +1752,7 @@ return {
         CodexSecret = false,
         Description = "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
         ExcludeFromCodex = false,
-        Image = "HoodAdultPrimeE.png",
+        Image = "NecraPrimeHood(Drifter).png",
         InternalName = "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultPrimeE",
         Link = "Necra Prime Hood (Drifter)",
         Name = "Necra Prime Hood (Drifter)",
@@ -1762,7 +1762,7 @@ return {
         CodexSecret = false,
         Description = "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
         ExcludeFromCodex = false,
-        Image = "HoodPrimeE.png",
+        Image = "NecraPrimeHood(Operator).png",
         InternalName = "/Lotus/Upgrades/Skins/Operator/Hoods/HoodPrimeE",
         Link = "Necra Prime Hood (Operator)",
         Name = "Necra Prime Hood (Operator)",
@@ -1772,7 +1772,7 @@ return {
         CodexSecret = false,
         Description = "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
         ExcludeFromCodex = false,
-        Image = "SleevesAdultPrimeE.png",
+        Image = "NecraPrimePauldrons(Drifter).png",
         InternalName = "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesAdultPrimeE",
         Link = "Necra Prime Pauldrons (Drifter)",
         Name = "Necra Prime Pauldrons (Drifter)",
@@ -1782,7 +1782,7 @@ return {
         CodexSecret = false,
         Description = "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
         ExcludeFromCodex = false,
-        Image = "SleevesPrimeE.png",
+        Image = "NecraPrimePauldrons(Operator).png",
         InternalName = "/Lotus/Upgrades/Skins/Operator/Sleeves/SleevesPrimeE",
         Link = "Necra Prime Pauldrons (Operator)",
         Name = "Necra Prime Pauldrons (Operator)",
@@ -1792,7 +1792,7 @@ return {
         CodexSecret = false,
         Description = "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
         ExcludeFromCodex = false,
-        Image = "HoodAdultPrimeEChina.png",
+        Image = "NecraPrimeVitalisHood(Drifter).png",
         InternalName = "/Lotus/Upgrades/Skins/Operator/Hoods/HoodAdultPrimeEChina",
         Link = "Necra Prime Vitalis Hood (Drifter)",
         Name = "Necra Prime Vitalis Hood (Drifter)",
@@ -1802,7 +1802,7 @@ return {
         CodexSecret = false,
         Description = "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
         ExcludeFromCodex = false,
-        Image = "HoodPrimeEChina.png",
+        Image = "NecraPrimeVitalisHood(Operator).png",
         InternalName = "/Lotus/Upgrades/Skins/Operator/Hoods/HoodPrimeEChina",
         Link = "Necra Prime Vitalis Hood (Operator)",
         Name = "Necra Prime Vitalis Hood (Operator)",

@@ -2432,6 +2432,17 @@ local honoriaData = {
 		ExcludeFromCodex = true,
 		Tags = { "Praghasa", "Event" },
 	},
+	["The Haunted"] = {
+		Name = "The Haunted",
+		Link = "The Haunted",
+		Description = "{{text||Acquired from [[Baro Ki'Teer]] during [[Naberus|Nights of Naberus]].|hover=Sent via inbox message after Naberus Ki'Teer's final 2026 visit.}}",
+		Position = "Suffix",
+		Introduced = "44.1.4.1", -- exist since 44 but was available since 44.1.4.1
+		InternalName = "/Lotus/Types/Items/Titles/EvilBaroTitle",
+		CodexSecret = false,
+		ExcludeFromCodex = true,
+		Tags = { "Baro Ki'Teer", "Miscellaneous" },
+	},
 	--["Conquera"] = {
 	--	_IgnoreEntry = true,
 	--	Name = "Conquera",
@@ -2440,18 +2451,6 @@ local honoriaData = {
 	--	Position = "?",
 	--	Introduced = "44", -- currently, 44 is is the version where is was added to the PE
 	--	InternalName = "/Lotus/Types/Items/Titles/ConqueraTitle",
-	--	CodexSecret = false,
-	--	ExcludeFromCodex = true,
-	--	Tags = { "Hidden" },
-	--},
-	--["The Haunted"] = {
-	--	_IgnoreEntry = true,
-	--	Name = "The Haunted",
-	--	Link = "The Haunted",
-	--	Description = "?",
-	--	Position = "?",
-	--	Introduced = "44",-- currently, 44 is is the version where is was added to the PE
-	--	InternalName = "/Lotus/Types/Items/Titles/EvilBaroTitle",
 	--	CodexSecret = false,
 	--	ExcludeFromCodex = true,
 	--	Tags = { "Hidden" },

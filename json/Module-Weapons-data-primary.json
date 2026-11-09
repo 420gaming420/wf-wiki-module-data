@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-11-08T08:44:37.950Z"
+    "converted_at": "2026-11-09T09:23:51.216Z"
   },
   "_comments": "\t\t--Users = { },",
   "Tenet Tetra": {
@@ -11107,7 +11107,7 @@
         "Multishot": 1,
         "IsSilent": true,
         "AttackIndex": 6,
-        "AttackName": "Concentrated Arrow Uncharged Headshot Explosion",
+        "AttackName": "Concentrated Arrow Charged Headshot Explosion",
         "PunchThrough": 0,
         "ShotType": "AoE",
         "Damage": {

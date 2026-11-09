@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:55:35.886Z"
+    "converted_at": "2026-11-09T09:23:42.941Z"
   },
   "_comments": "",
   "Mag Mask": {
@@ -269,7 +269,7 @@
   },
   "Necra Prime Cuirass (Drifter)": {
     "Type": "Body Suit",
-    "Image": "SuitAdultPrimeE.png",
+    "Image": "NecraPrimeCuirass(Drifter).png",
     "Description": "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
     "Link": "Necra Prime Cuirass (Drifter)",
     "Name": "Necra Prime Cuirass (Drifter)",
@@ -789,7 +789,7 @@
   },
   "Necra Prime Hood (Operator)": {
     "Type": "Hood",
-    "Image": "HoodPrimeE.png",
+    "Image": "NecraPrimeHood(Operator).png",
     "Description": "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
     "Link": "Necra Prime Hood (Operator)",
     "Name": "Necra Prime Hood (Operator)",
@@ -929,7 +929,7 @@
   },
   "Necra Prime Vitalis Hood (Drifter)": {
     "Type": "Hood",
-    "Image": "HoodAdultPrimeEChina.png",
+    "Image": "NecraPrimeVitalisHood(Drifter).png",
     "Description": "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
     "Link": "Necra Prime Vitalis Hood (Drifter)",
     "Name": "Necra Prime Vitalis Hood (Drifter)",
@@ -979,7 +979,7 @@
   },
   "Necra Prime Pauldrons (Drifter)": {
     "Type": "Sleeves",
-    "Image": "SleevesAdultPrimeE.png",
+    "Image": "NecraPrimePauldrons(Drifter).png",
     "Description": "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
     "Link": "Necra Prime Pauldrons (Drifter)",
     "Name": "Necra Prime Pauldrons (Drifter)",
@@ -1079,7 +1079,7 @@
   },
   "Necra Prime Hood (Drifter)": {
     "Type": "Hood",
-    "Image": "HoodAdultPrimeE.png",
+    "Image": "NecraPrimeHood(Drifter).png",
     "Description": "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
     "Link": "Necra Prime Hood (Drifter)",
     "Name": "Necra Prime Hood (Drifter)",
@@ -1299,7 +1299,7 @@
   },
   "Necra Prime Greaves (Drifter)": {
     "Type": "Leggings",
-    "Image": "LeggingsAdultPrimeE.png",
+    "Image": "NecraPrimeGreaves(Drifter).png",
     "Description": "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
     "Link": "Necra Prime Greaves (Drifter)",
     "Name": "Necra Prime Greaves (Drifter)",
@@ -1789,7 +1789,7 @@
   },
   "Necra Prime Pauldrons (Operator)": {
     "Type": "Sleeves",
-    "Image": "SleevesPrimeE.png",
+    "Image": "NecraPrimePauldrons(Operator).png",
     "Description": "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
     "Link": "Necra Prime Pauldrons (Operator)",
     "Name": "Necra Prime Pauldrons (Operator)",
@@ -1999,7 +1999,7 @@
   },
   "Necra Prime Cuirass (Operator)": {
     "Type": "Body Suit",
-    "Image": "SuitPrimeE.png",
+    "Image": "NecraPrimeCuirass(Operator).png",
     "Description": "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
     "Link": "Necra Prime Cuirass (Operator)",
     "Name": "Necra Prime Cuirass (Operator)",
@@ -2029,7 +2029,7 @@
   },
   "Necra Prime Greaves (Operator)": {
     "Type": "Leggings",
-    "Image": "LeggingsPrimeE.png",
+    "Image": "NecraPrimeGreaves(Operator).png",
     "Description": "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
     "Link": "Necra Prime Greaves (Operator)",
     "Name": "Necra Prime Greaves (Operator)",
@@ -2709,7 +2709,7 @@
   },
   "Necra Prime Vitalis Hood (Operator)": {
     "Type": "Hood",
-    "Image": "HoodPrimeEChina.png",
+    "Image": "NecraPrimeVitalisHood(Operator).png",
     "Description": "Necrotic accents define this testament to the Entrati family’s aesthetic. Perhaps there’s a lesson in how those who gaze into the Void find beauty in the fusion of luxury and oblivion.",
     "Link": "Necra Prime Vitalis Hood (Operator)",
     "Name": "Necra Prime Vitalis Hood (Operator)",

@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-11-07T14:47:49Z"
+wiki_timestamp: "2026-11-09T01:59:37Z"
 ---
 
 ## Contents
@@ -734,6 +734,78 @@ local Data = {
 			{'Radius:', {expr='RNG 18 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='3.5 DRAIN *', fmt='2dec'}}
+		}
+	},
+	-- Excalibur
+	['Slash Dash']={
+		ins={
+			{name='COMBO_MULT', cont='[[Combo multiplier]]:', type='range-R', min='1', max='13', value='1'},
+			{name='PURGING_SLASH', cont=Tooltips.full('Purging Slash', 'Mods')..'?', type='checkbox'},
+			{name='SURGING_DASH', cont=Tooltips.full('Surging Dash', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Exalted Blade', 'Weapons')..' damage multiplier:', {expr='100 25 COMBO_MULT 1 - * +', suff='%', fmt='2dec'}},
+			{'Targeting range:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
+			{'Chain range:', {expr='RNG 7 %of', suff='m', fmt='1dec'}},
+			{'Untargeted dash velocity:', {expr='RNG 36 %of', suff='m/s', fmt='1dec'}},
+			{'Combo gain:', {expr='1 STR 8 %of 0 SURGING_DASH if + floor', suff='/hit'}},
+			{'Debuffs removed:', {expr='STR 4 %of 0 PURGING_SLASH if floor'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Radial Blind']={
+		ins={
+			{name='RADIANT_FINISH', cont=Tooltips.full('Radiant Finish', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Blind', 'DamageTypes')..' duration:', {expr='DUR 15 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{'[[Finisher damage]] vulnerability:', {expr='STR 300 %of 0 RADIANT_FINISH if', suff='%', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Radial Javelin']={
+		ins={
+			{name='FURIOUS_JAVELIN', cont=Tooltips.full('Furious Javelin', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Impact', 'DamageTypes')..', '..Tooltips.full('Puncture', 'DamageTypes')..' and '..Tooltips.full('Slash', 'DamageTypes')..' damage:',
+				{expr='STR 1000 %of'}
+			},
+			{'Radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{'Melee Damage bonus:', {expr='STR 15 %of 0 FURIOUS_JAVELIN if', suff='%/hit', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Exalted Blade']={
+		ins={
+			{name='MELEE_DMG_MOD', cont='[[Melee damage]] modifier:', type='number', default='100'},
+			{name='ELEMENT_DMG_MOD', cont='[[Elemental damage]] modifier:', type='number', default='0'},
+			{name='FACTION_DMG_MOD', cont='[[Faction damage]] modifier:', type='number', default='100'},
+			{name='CHROMATIC_BLADE', cont=Tooltips.full('Chromatic Blade', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Normal Attack base damage:', {name='EXALTED_BLADE_BASE_DMG', expr='FACTION_DMG_MOD MELEE_DMG_MOD STR 250 %of %of %of'}, style='display:none'},
+			{'Normal Attack elemental damage:', {name='EXALTED_BLADE_ELEMENTAL_DMG', expr='ELEMENT_DMG_MOD EXALTED_BLADE_BASE_DMG %of'}, style='display:none'},
+			{Tooltips.full('Exalted Blade', 'Weapons')..' Normal Attack damage:', {expr='EXALTED_BLADE_BASE_DMG EXALTED_BLADE_ELEMENTAL_DMG +'}},
+			{Tooltips.full('Blind', 'DamageTypes')..' duration:', {expr='DUR 6 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Blind', 'DamageTypes')..' radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Status Chance', 'Stats')..' bonus:', {expr='STR 300 %of 0 CHROMATIC_BLADE if', suff='%', fmt='2dec'}},
+			{'Cast '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+			{'Blind '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='2.5 DRAIN *', fmt='2dec'}}
+		}
+	},
+	-- Excalibur Umbra
+	['Radial Howl']={
+		ins={
+			{name='RADIANT_FINISH', cont=Tooltips.full('Radiant Finish', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Blind', 'DamageTypes')..' duration:', {expr='DUR 15 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{'[[Finisher damage]] vulnerability:', {expr='STR 300 %of 0 RADIANT_FINISH if', suff='%', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
 	-- Follie
@@ -2870,6 +2942,69 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
 		}
 	},
+	-- Valkyr
+	['Rip Line']={
+		ins={
+			{name='RIP_LINE_COMBO', cont='Number of prior combo casts:', min='0', max='2', value='0'},
+			{name='SWING_LINE', cont=Tooltips.full('Swing Line', 'Mods')..' active?', type='checkbox'},
+		},
+		outs={
+			{Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 600 %of 2 RIP_LINE_COMBO ^ *'}},
+			{'Combo window:', {expr='DUR 1 %of', suff='s', fmt='2dec'}},
+			{'Cast range:', {expr='RNG 75 %of', suff='m', fmt='1dec'}},
+			{'Pull radius:', {expr='RNG 9 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='0 25 COST * 1 2 RIP_LINE_COMBO ^ / * SWING_LINE if', fmt='2dec'}}
+		}
+	},
+	['Warcry']={
+		ins={
+			{name='ETERNAL_WAR', cont=Tooltips.full('Eternal War', 'Mods')..'?', type='checkbox'},
+			{name='WARCRY_INFUSED', cont='[[Infused]]?', type='checkbox'},
+			{name='HYSTERIA', cont=Tooltips.full('Hysteria', 'Ability')..' active?', type='checkbox'}
+		},
+		outs={
+			{'[[Attack Speed]] bonus:', {expr='STR 30 50 WARCRY_INFUSED if %of', suff='%', fmt='2dec'}},
+			{Tooltips.full('Armor', 'Stats')..' bonus:', {expr='STR 50 %of 3 1 HYSTERIA if *', suff='%', fmt='2dec'}},
+			{'Duration:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
+			{'Duration extension:', {expr='DUR 2 %of 0 ETERNAL_WAR if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Paralysis']={
+		ins={
+			{name='PROLONGED_PARALYSIS', cont=Tooltips.full('Prolonged Paralysis', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 400 %of'}},
+			{Tooltips.full('Slow', 'DamageTypes')..':', {expr='STR 30 %of 75 min', suff='%', fmt='2dec'}},
+			{'Melee [[Damage Vulnerability]]:', {expr='STR 50 %of', suff='%', fmt='2dec'}},
+			{'Stun duration:', {expr='STR 5 %of 0 PROLONGED_PARALYSIS if 3 +', suff='s', fmt='2dec'}},
+			{'Slow and Damage Vulnerability duration:', {expr='DUR 15 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Hysteria']={
+		ins={
+			{name='MELEE_DMG_MOD', cont='[[Melee damage]] modifier:', type='number', default='100'},
+			{name='ELEMENT_DMG_MOD', cont='[[Elemental damage]] modifier:', type='number', default='0'},
+			{name='FACTION_DMG_MOD', cont='[[Faction damage]] modifier:', type='number', default='100'},
+			{name='VALKYR_RAGE', cont='[[Valkyr/Abilities/Passive|Rage]] percentage:', type='range-R', min='0', max='300', value='0'},
+			{name='ENRAGED', cont=Tooltips.full('Enraged', 'Mods')..'?', type='checkbox'},
+			{name='HYSTERICAL_ASSAULT', cont=Tooltips.full('Hysterical Assault', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Valkyr Talons', 'Weapons')..' Normal Attack damage:', {name='HYSTERIA_BASE_DMG', expr='FACTION_DMG_MOD MELEE_DMG_MOD VALKYR_RAGE 350 0 ENRAGED if + + STR 250 %of %of %of'}},
+			{'Normal Attack elemental damage:', {name='HYSTERIA_ELEMENT_DMG', expr='ELEMENT_DMG_MOD HYSTERIA_BASE_DMG %of'}},
+			{'Normal Attack total damage:', {expr='HYSTERIA_BASE_DMG HYSTERIA_ELEMENT_DMG +'}},
+			{Tooltips.full('Health', 'Stats')..' restoration:', {expr='STR 100 %of', suff='/hit'}},
+			{'Duration:', {expr='DUR 15 %of Inf ENRAGED if', suff='s', fmt='2dec'}},
+			{'Leap range:', {expr='RNG 50 %of 0 HYSTERICAL_ASSAULT if', suff='m', fmt='1dec'}},
+			{'[[Sprint Speed]] and [[Parkour Velocity]] bonus duration:', {expr='DUR 5 %of 0 HYSTERICAL_ASSAULT if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 25 ENRAGED if COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='0 5 DRAIN * ENRAGED if', fmt='2dec'}}
+		}
+	},
 	-- Voidrig
 	['Necraweb']={
 		outs={
@@ -3134,6 +3269,56 @@ local Data = {
 			{'Blast radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
 			{'Rift radius:', {expr='RNG 15 %of 0 UNTIME_RIFT if', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		}
+	},
+	-- Yareli
+	['Sea Snares']={
+		outs={
+			{Tooltips.full('Cold', 'DamageTypes')..' damage:', {expr='STR 250 %of', suff='/s'}},
+			{'Damage increase:', {expr='STR 125 %of', suff='/s'}},
+			{'[[Damage Vulnerability]]:', {expr='STR 100 %of', suff='%', fmt='2dec'}},
+			{'Ensnare duration:', {expr='DUR 12 %of', suff='s', fmt='2dec'}},
+			{'Seek range:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Merulina']={
+		ins={
+			{name='LOYAL_MERULINA', cont=Tooltips.full('Loyal Merulina', 'Mods')..'?', type='checkbox'},
+			{name='MERULINA_GUARDIAN', cont=Tooltips.full('Merulina Guardian', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Base Health:', {expr='STR 7500 %of'}},
+			{'Loyal Merulina Snares cooldown:', {expr='2 COST * 0 LOYAL_MERULINA if', suff='s', fmt='2dec'}},
+			{'Merulina Guardian Health restoration:', {expr='STR 25 %of 100 min 0 MERULINA_GUARDIAN if', suff='%', fmt='2dec'}},
+			{'Merulina Guardian buff duration:', {expr='DUR 20 %of 0 MERULINA_GUARDIAN if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		},
+		post='For '..Tooltips.full('Loyal Merulina', 'Mods').."'s Sea Snares, use the "..Tooltips.full('Sea Snares', 'Ability')..' calculator.'
+	},
+	['Aquablades']={
+		ins={
+			{name='SURGING_BLADES', cont=Tooltips.full('Surging Blades', 'Mods')..'?', type='checkbox'},
+			{name='SURGING_BLADES_HITS', cont='Number of '..Tooltips.full('Surging Blades', 'Mods')..' hits:', min='0', value='0'},
+			{name='MERULINA', cont=Tooltips.full('Merulina', 'Ability')..' active?', type='checkbox'}
+		},
+		outs={
+			{'Orbiting '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {name='AQUABLADES_DMG', expr='STR 750 %of'}},
+			{'Throw '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='AQUABLADES_DMG 100 10 SURGING_BLADES_HITS * + %of 0 SURGING_BLADES if'}},
+			{'Duration:', {expr='DUR 45 %of', suff='s', fmt='2dec'}},
+			{'Cast '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}},
+			{'Throw '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='0 15 COST * MERULINA SURGING_BLADES not or if', fmt='2dec'}}
+		}
+	},
+	['Riptide']={
+		outs={
+			{'Vortex '..Tooltips.full('Cold', 'DamageTypes')..' damage:', {expr='STR 500 %of', suff='/0.45s'}},
+			{'Base explosion '..Tooltips.full('Cold', 'DamageTypes')..' damage:', {expr='STR 2500 %of'}},
+			{'Explosion damage increase:', {expr='STR 1250 %of', suff='/enemy'}},
+			{'Duration:', {expr='DUR 10 %of', suff='s', fmt='2dec'}},
+			{'Cast range:', {expr='RNG 40 %of', suff='m', fmt='1dec'}},
+			{'Explosion and maximum pull radius:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}},
 		}
 	},
 	-- Zephyr

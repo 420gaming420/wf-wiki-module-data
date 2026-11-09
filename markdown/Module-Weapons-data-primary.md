@@ -1,7 +1,7 @@
 ---
 title: "Module:Weapons/data/primary"
 wiki_url: "https://wiki.warframe.com/w/Module/Weapons/data/primary"
-wiki_timestamp: "2026-11-07T21:17:24Z"
+wiki_timestamp: "2026-11-08T16:17:23Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s [Primary Weapons](/w/Primary_Weapon "Primary Weapon").
@@ -54,7 +54,7 @@ Thanks, you're awesome!
 * [11 Weapon Data](#Weapon_Data)
 * [12 References](#References)
 
-:   *Last updated: Sat, 07 Nov 2026 21:17:24 +0000 (UTC) by [User:Scythelive](/w/User:Scythelive?action=edit&redlink=1 "User:Scythelive (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/primary?diff=0))*
+:   *Last updated: Sun, 08 Nov 2026 16:17:23 +0000 (UTC) by [User:Scythelive](/w/User:Scythelive?action=edit&redlink=1 "User:Scythelive (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/primary?diff=0))*
 
 ## Horizontal Partitions (and where to update data)
 
@@ -2533,7 +2533,7 @@ return {
 			},
 			{
 				AttackIndex = 6,
-				AttackName = "Concentrated Arrow Uncharged Headshot Explosion",
+				AttackName = "Concentrated Arrow Charged Headshot Explosion",
 				AttackParentIndex = 5,
 				ChargeTime = 1,
 				CritChance = 0.5,
