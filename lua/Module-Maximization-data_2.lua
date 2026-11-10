@@ -224,6 +224,59 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='16 DRAIN * 1.2 GASEOUS_QUAKE_DURATION ^ * 0 GASEOUS_QUAKE if', fmt='2dec'}}
 		}
 	},
+	-- Baruuk
+	['Elude']={
+		ins={
+			{name='ELUSIVE_RETRIBUTION', cont=Tooltips.full('Elusive Retribution', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Angle:', {expr='RNG 180 %of 360 min', suff='°'}},
+			{'Melee '..Tooltips.full('Critical Chance', 'Stats')..' and [[Attack Speed]] bonus:', {expr='STR 30 %of 0 ELUSIVE_RETRIBUTION if', suff='%/6 stacks', fmt='2dec'}},
+			{'Elusive Retribution duration:', {expr='DUR 6 %of 0 ELUSIVE_RETRIBUTION if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='2.5 DRAIN *', fmt='2dec'}}
+		}
+	},
+	['Lull']={
+		ins={
+			{name='ENDLESS_LULLABY', cont=Tooltips.full('Endless Lullaby', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Wave duration:', {expr='DUR 50 0 ENDLESS_LULLABY if + 5 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Sleep', 'DamageTypes')..' duration:', {expr='DUR 50 0 ENDLESS_LULLABY if + 20 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Desolate Hands']={
+		ins={
+			{name='ELUDE', cont=Tooltips.full('Elude', 'Ability')..' active?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 250 %of'}},
+			{'Dagger count:', {name='DESOLATE_HANDS_COUNT', expr='STR 8 %of floor'}},
+			{'Maximum ally dagger count:', {expr='DESOLATE_HANDS_COUNT 2 //'}},
+			{'Maximum '..Tooltips.full('Damage Reduction', 'Stats')..':', {expr='DESOLATE_HANDS_COUNT 10 * 90 min', suff='%', fmt='2dec'}},
+			{'Seek range:', {expr='RNG 6 %of 2 1 ELUDE if *', suff='m', fmt='1dec'}},
+			{'Explosion radius:', {expr='RNG 3 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Serene Storm']={
+		ins={
+			{name='MELEE_DMG_MOD', cont='[[Melee damage]] modifier:', type='number', default='100'},
+			{name='ELEMENT_DMG_MOD', cont='[[Elemental damage]] modifier:', type='number', default='0'},
+			{name='FACTION_DMG_MOD', cont='[[Faction damage]] modifier:', type='number', default='100'},
+			{name='REACTIVE_STORM', cont=Tooltips.full('Reactive Storm', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Normal Attack base damage:', {name='DESERT_WIND_BASE_DMG', expr='FACTION_DMG_MOD MELEE_DMG_MOD STR 250 %of %of %of'}, style='display:none'},
+			{'Normal Attack elemental damage:', {name='DESERT_WIND_ELEMENTAL_DMG', expr='ELEMENT_DMG_MOD DESERT_WIND_BASE_DMG %of'}, style='display:none'},
+			{Tooltips.full('Desert Wind', 'Weapons')..' Normal Attack damage:', {expr='DESERT_WIND_BASE_DMG DESERT_WIND_ELEMENTAL_DMG +'}},
+			{Tooltips.full('Damage Reduction', 'Stats')..':', {expr='STR 25 %of 40 min', suff='%', fmt='2dec'}},
+			{Tooltips.full('Status Chance', 'Stats')..' bonus:', {expr='STR 250 %of 0 REACTIVE_STORM if', suff='%', fmt='2dec'}}
+		}
+	},
 	-- Bonewidow
 	['Meathook']={
 		outs={
@@ -428,6 +481,91 @@ local Data = {
 			{'Range:', {expr='RNG 30 %of', suff='m'}},
 			{'Recrystalize radius:', {expr='RNG 16 %of 0 RECRYSTALIZE if', suff='m'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+		}
+	},
+	-- Cyte-09
+	['Seek']={
+		outs={
+			{'[[Weak Point]] damage vulnerability:', {expr='STR 75 %of', suff='%', fmt='2dec'}},
+			{'Antenna lifetime:', {expr='DUR 35 %of', suff='s', fmt='2dec'}},
+			{'Scan duration:', {expr='DUR 5 %of', suff='s', fmt='2dec'}},
+			{'Scan range:', {expr='RNG 60 %of', suff='m', fmt='1dec'}},
+			{'Body [[Punch Through]] bonus:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Resupply']={
+		outs={
+			{'Gun elemental [[Extra Hit]]:', {expr='STR 25 %of', suff='%', fmt='2dec'}},
+			{'[[Sniper Rifle]] elemental Extra Hit:', {expr='STR 50 %of', suff='%', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Evade']={
+		ins={
+			{name='EVADE_INFUSED', cont='[[Infused]]?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Health', 'Stats')..' restoration:', {expr='STR 100 %of', suff='/kill'}},
+			{'Initial duration:', {expr='DUR 10 %of', suff='s', fmt='2dec'}},
+			{'Maximum duration:', {expr='DUR 15 30 EVADE_INFUSED if %of', suff='s', fmt='2dec'}},
+			{'Duration extension:', {expr='DUR 2 %of', suff='s/Weak Point kill', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Neutralize']={
+		ins={
+			{name='WEAPON_DMG_MOD', cont='[[Weapon Damage]] modifier:', type='number', default='100'},
+			{name='ELEMENT_DMG_MOD', cont='[[Elemental damage]] modifier:', type='number', default='0'},
+			{name='FACTION_DMG_MOD', cont='[[Faction damage]] modifier:', type='number', default='100'}
+		},
+		outs={
+			{'Damage multiplier:', {name='NEUTRALIZER_MULT', expr='FACTION_DMG_MOD WEAPON_DMG_MOD STR 125 %of 100 - + %of 0 max'}, style='display:none'},
+			{Tooltips.full('Neutralizer', 'Weapons')..' Primary Fire damage:', {expr='NEUTRALIZER_MULT 255 %of dupe ELEMENT_DMG_MOD %of +'}},
+			{'Alternate Fire damage:', {expr='NEUTRALIZER_MULT 20 %of dupe ELEMENT_DMG_MOD %of +'}},
+			{'[[Ricochet]] range:', {expr='RNG 10 %of', suff='m', fmt='2dec'}},
+			{'Cast '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='5 COST *', fmt='2dec'}},
+			{'Primary Fire '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='10 COST *', fmt='2dec'}},
+			{'Alternate Fire '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='20 COST *', fmt='2dec'}}
+		}
+	},
+	-- Dagath
+	['Wyrd Scythes']={
+		outs={
+			{'Spin '..Tooltips.full('Viral', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
+			{'Throw '..Tooltips.full('Viral', 'DamageTypes')..' damage:', {expr='STR 1000 %of'}},
+			{Tooltips.full('Slow', 'DamageTypes')..':', {expr='STR 35 %of 95 min', suff='%', fmt='2dec'}},
+			{Tooltips.full('Slow', 'DamageTypes')..' duration:', {expr='DUR 5 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Doom', 'Ability')..' spread radius:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Doom']={
+		outs={
+			{Tooltips.full('Viral', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
+			{'Damage to Phantom Wrath conversion:', {expr='STR 35 %of 100 min', suff='%', fmt='2dec'}},
+			{'Duration:', {expr='DUR 15 %of', suff='s', fmt='2dec'}},
+			{'Range:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Grave Spirit']={
+		ins={
+			{name='DOOMED', cont='Target affected by '..Tooltips.full('Doom', 'Ability')..'?', type='checkbox'}
+		},
+		outs={
+			{'Weapon [[Critical Damage]] bonus:', {expr='STR 50 %of 2 1 DOOMED if *', suff='%', fmt='2dec'}},
+			{'Spectral Form duration:', {expr='DUR 10 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	["Rakhali's Cavalry"]={
+		outs={
+			{Tooltips.full('Viral', 'DamageTypes')..' damage:', {expr='STR 30000 %of', suff='/0.15s'}},
+			{'Defense Reduction to Doomed enemies:', {expr='STR 35 %of 100 min', suff='%/0.15s', fmt='2dec'}},
+			{'Charge duration:', {name='RAKHALIS_CAVALRY_DUR', expr='DUR 3 %of', suff='s', fmt='2dec'}},
+			{'Charge length:', {expr='RAKHALIS_CAVALRY_DUR 15 *', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},
 	-- Dante

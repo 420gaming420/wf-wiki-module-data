@@ -1,7 +1,7 @@
 ---
 title: "Module:Warframes/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Warframes/data"
-wiki_timestamp: "2026-11-01T13:23:06Z"
+wiki_timestamp: "2026-11-10T01:27:04Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes [Warframes](/w/Warframes "Warframes"), [Necramechs](/w/Necramech "Necramech"), [Archwings](/w/Archwing "Archwing"), and [Operators](/w/Operator "Operator").
@@ -13,7 +13,7 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes
 * [3 Data Sources](#Data_Sources)
 * [4 Warframe/Avatar Data](#Warframe/Avatar_Data)
 
-:   *Last updated: Sun, 01 Nov 2026 13:23:06 +0000 (UTC) by [User:WarpFactor](/w/User:WarpFactor "User:WarpFactor") ([change log](https://wiki.warframe.com/w/Module:Warframes/data?diff=0))*
+:   *Last updated: Tue, 10 Nov 2026 01:27:04 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Warframes/data?diff=0))*
 
 ## Warframe/Avatar Data Schema
 
@@ -678,7 +678,7 @@ return {
 			SquadPortrait = "BryskoLargePortrait.png",
 			-- Subsumed = "Balefire",
 			-- Tactical = "Balefire",
-			Themes = "Chimera Sentient, Detective Noir, Houndmaster",
+			Themes = "Chimera Sentient, Detective Noir, Gambler, Houndmaster",
 			Type = "Warframe" ,
 			_IgnoreEntry = true 
 		},
