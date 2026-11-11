@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/lotusskin"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/lotusskin"
-wiki_timestamp: "2026-07-16T07:07:00Z"
+wiki_timestamp: "2026-11-11T08:10:12Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/lotusskin/doc](/w/Module:Cosmetics/data/lotusskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/lotusskin/doc (page does not exist)")*
@@ -62,7 +62,7 @@ return {
         CodexSecret = true,
         Description = "A vampiric look for Lotus to wear during the ancient festival of death and mischief.",
         ExcludeFromCodex = false,
-        Image = "HalloweenLotusSkin.png",
+        Image = "NaberusLotusSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Lotus/HalloweenLotusSkin",
         Link = "Naberus Lotus",
         Name = "Naberus Lotus",

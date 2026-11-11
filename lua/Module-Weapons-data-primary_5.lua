@@ -3234,7 +3234,6 @@ return {
 		Slot = "Primary",
 		SniperComboMin = 1,
 		SniperComboReset = 2,
-		Tradable = 2,
 		Traits = { "Infested", "Technocyte Coda" },
 		Trigger = "Semi-Auto",
 		Zoom = { "2.7x Zoom (+50% Headshot Damage)" },

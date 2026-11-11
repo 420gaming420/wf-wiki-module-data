@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-11-09T18:33:26Z"
+wiki_timestamp: "2026-11-10T16:37:29Z"
 ---
 
 ## Contents
@@ -1334,6 +1334,70 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
+	-- Gyre
+	['Arcsphere']={
+		ins={
+			{name='GYRE_PASSIVE', cont='Ability '..Tooltips.full('Critical Chance', 'Stats')..':', min='0', max='300', value='0'},
+			{name='ARCSPHERE_ENHANCED', cont='Deployment hit 3 enemies?', type='checkbox'},
+			{name='CONDUCTIVE_SPHERE', cont=Tooltips.full('Conductive Sphere', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Average damage multiplier:', {name='GYRE_MULT', expr='1 GYRE_PASSIVE as% +'}, style='display:none'},
+			{'Deployment average '..Tooltips.full('Electricity', 'DamageTypes')..' damage:', {expr='STR 2000 %of GYRE_MULT *'}},
+			{'Field average '..Tooltips.full('Electricity', 'DamageTypes')..' damage:', {expr='STR 250 %of 2 1 ARCSPHERE_ENHANCED if * GYRE_MULT *', suff='/s'}},
+			{'Field duration:', {expr='DUR 10 %of', suff='s', fmt='2dec'}},
+			{'Deployment damage radius:', {expr='RNG 4 %of', suff='m', fmt='1dec'}},
+			{'Field radius:', {expr='RNG 7 %of', suff='m', fmt='1dec'}},
+			{'[[Buffing Field]] '..Tooltips.full('Electricity', 'DamageTypes')..' damage and [[Status Damage]]:', {expr='STR 75 %of 0 CONDUCTIVE_SPHERE if', suff='%', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Coil Horizon']={
+		ins={
+			{name='GYRE_PASSIVE', cont='Ability '..Tooltips.full('Critical Chance', 'Stats')..':', min='0', max='300', value='0'},
+			{name='COIL_HORIZON_INFUSED', cont='[[Infused]]?', type='checkbox'},
+			{name='COIL_RECHARGE', cont=Tooltips.full('Coil Recharge', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Average damage multiplier:', {name='GYRE_MULT', expr='1 GYRE_PASSIVE as% +'}, style='display:none'},
+			{'Contact average '..Tooltips.full('Electricity', 'DamageTypes')..' damage:', {expr='STR 1500 %of 1 GYRE_MULT COIL_HORIZON_INFUSED if *', suff='/s'}},
+			{'Implosion average '..Tooltips.full('Electricity', 'DamageTypes')..' damage:', {expr='STR 1250 %of 1 GYRE_MULT COIL_HORIZON_INFUSED if *'}},
+			{'Implosion radius:', {expr='RNG 12 %of', suff='m', fmt='1dec'}},
+			{'Discharge average '..Tooltips.full('Electricity', 'DamageTypes')..' damage:', {expr='STR 500 %of 0 COIL_RECHARGE if 1 GYRE_MULT COIL_HORIZON_INFUSED if *'}},
+			{'Pre-implosion sphere lifetime:', {expr='DUR 20 %of 2 COIL_RECHARGE if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Cathode Grace']={
+		outs={
+			{'Weapon '..Tooltips.full('Critical Chance', 'Stats')..' bonus:', {expr='STR 50 %of', suff='%', fmt='2dec'}},
+			{'Ability '..Tooltips.full('Critical Chance', 'Stats')..' bonus:', {expr='STR 50 %of 300 min', suff='%', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' restoration:', {expr='STR 1.5 %of', suff='/s', fmt='2dec'}},
+			{'Duration:', {expr='DUR 8 %of 60 min', suff='s', fmt='2dec'}},
+			{'Duration extension:', {expr='DUR 3 %of', suff='s/kill', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Rotorswell']={
+		ins={
+			{name='GYRE_PASSIVE', cont='Ability '..Tooltips.full('Critical Chance', 'Stats')..':', min='0', max='300', value='0'},
+			{name='CATHODE_CURRENT', cont=Tooltips.full('Cathode Current', 'Mods')..'?', type='checkbox'},
+			{name='REVERSE_ROTORSWELL', cont=Tooltips.full('Reverse Rotorswell', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Average damage multiplier:', {name='GYRE_MULT', expr='1 GYRE_PASSIVE as% +'}, style='display:none'},
+			{'Field average '..Tooltips.full('Electricity', 'DamageTypes')..' damage:', {expr='STR 250 %of GYRE_MULT *', suff='/s'}},
+			{'Discharge average '..Tooltips.full('Electricity', 'DamageTypes')..' damage on Critical Hit:', {name='ROTORSWELL_DISCHARGE_DMG', expr='STR 500 %of GYRE_MULT *'}},
+			{'Duration:', {expr='DUR 22 %of', suff='s', fmt='2dec'}},
+			{'Field radius:', {expr='RNG 4 %of', suff='m', fmt='1dec'}},
+			{'Discharge chain range:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
+			{'Discharge average '..Tooltips.full('Electricity', 'DamageTypes')..' damage on kill:', {expr='200 ROTORSWELL_DISCHARGE_DMG %of 0 CATHODE_CURRENT if'}},
+			{'Duration extension:', {expr='DUR 3 %of 0 CATHODE_CURRENT if', suff='s/kill', fmt='2dec'}},
+			{Tooltips.full('Damage Reduction', 'Stats')..' and redirection percentage:', {expr='STR 35 %of 75 min 0 REVERSE_ROTORSWELL if', suff='%', fmt='2dec'}},
+			{'Redirection '..Tooltips.full('Electricity', 'DamageTypes')..' Status Chance:', {expr='STR 10 %of 0 REVERSE_ROTORSWELL if', suff='%', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		}
+	},
 	-- Harrow
 	['Condemn']={
 		outs={
@@ -1376,13 +1440,81 @@ local Data = {
 			{name='LASTING_COVENANT', cont=Tooltips.full('Lasting Covenant', 'Mods')..'?', type='checkbox'}
 		},
 		outs={
-			{'Initial Critical Chance bonus:', {name='COVENANT_BASE', expr='STR 5 %of 50 min', suff='%', fmt='2dec'}},
-			{'Absorbed damage to Critical Chance conversion:', {name='COVENANT_CONVERSION', expr='STR 1.5 %of', suff='%/100 damage', fmt='2dec'}},
-			{'Damage for 50% Critical Chance:', {expr='50 COVENANT_BASE - COVENANT_CONVERSION 100 / /'}},
+			{'Base final Critical Chance bonus:', {name='COVENANT_BASE', expr='STR 5 %of 50 min', suff='%', fmt='2dec'}},
+			{'Absorbed damage to final Critical Chance conversion:', {name='COVENANT_CONVERSION', expr='STR 1.5 %of', suff='%/100 damage', fmt='2dec'}},
+			{'Damage for 50% final Critical Chance:', {expr='50 COVENANT_BASE - COVENANT_CONVERSION 100 / /'}},
 			{'[[Invulnerability]] duration:', {expr='DUR 6 %of', suff='s', fmt='2dec'}},
 			{'Critical Chance bonus duration:', {expr='DUR 12 %of', suff='s', fmt='2dec'}},
 			{'Critical Chance bonus duration extension:', {expr='DUR 3 %of 0 LASTING_COVENANT if', suff='s/Weak Point kill', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		}
+	},
+	-- Hildryn
+	['Balefire']={
+		ins={
+			{name='WEAPON_DMG_MOD', cont='[[Weapon Damage]] modifier:', type='number', default='100'},
+			{name='ELEMENT_DMG_MOD', cont='[[Elemental damage]] modifier:', type='number', default='0'},
+			{name='FACTION_DMG_MOD', cont='[[Faction damage]] modifier:', type='number', default='100'},
+			{name='BLAST_RADIUS_MOD', cont='[[Blast Radius]] modifier:', default='0'},
+			{name='BALEFIRE_SURGE', cont=Tooltips.full('Balefire Surge', 'Mods')..'?', type='checkbox'},
+			{name='AEGIS_GALE', cont=Tooltips.full('Aegis Gale', 'Mods')..'?', type='checkbox'},
+			{name='HILDRYN_SHIELDS', cont='Current maximum '..Tooltips.full('Shield', 'Stats')..':', min='0', value='1780'}
+		},
+		outs={
+			{'Damage multiplier:', {name='BALEFIRE_DMG_MULT', expr='FACTION_DMG_MOD WEAPON_DMG_MOD %of'}, style='display:none'},
+			{Tooltips.full('Balefire Charger', 'Weapons')..' Quick Shot damage:', {expr='BALEFIRE_DMG_MULT STR 500 %of %of dupe ELEMENT_DMG_MOD %of +'}},
+			{'Charged Shot damage:', {expr='BALEFIRE_DMG_MULT STR 1500 %of %of dupe ELEMENT_DMG_MOD %of +'}},
+			{'Alternate Fire damage:', {expr='BALEFIRE_DMG_MULT STR STR 15 %of HILDRYN_SHIELDS %of 500 + %of %of dupe ELEMENT_DMG_MOD %of + 0 AEGIS_GALE if', suff='/shot'}},
+			{'Blast radius:', {expr='100 BLAST_RADIUS_MOD + RNG 3 %of %of', suff='m', fmt='1dec'}},
+			{'Charged Shot '..Tooltips.full('Shield', 'Stats')..' restoration:', {expr='STR 250 %of 0 BALEFIRE_SURGE if'}},
+			{'Nullifier destruction '..Tooltips.full('Shield', 'Stats')..' restoration:', {expr='STR 750 %of 0 BALEFIRE_SURGE if'}},
+			{'Cast '..Tooltips.full('Shield', 'Stats')..' cost:', {expr='50 COST *'}},
+			{'Minimum '..Tooltips.full('Shield', 'Stats')..' cost:', {expr='100 COST *', suff='/shot'}},
+			{'Maximum '..Tooltips.full('Shield', 'Stats')..' cost:', {expr='200 COST *', suff='/shot'}}
+		}
+	},
+	['Pillage']={
+		ins={
+			{name='PILLAGE_INFUSED', cont='[[Infused]]?', type='checkbox'},
+			{name='BLAZING_PILLAGE', cont=Tooltips.full('Blazing Pillage', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Defense Reduction:', {expr='STR 25 %of 100 min', suff='%', fmt='2dec'}},
+			{'Wave duration:', {name='PILLAGE_DUR', expr='DUR 2 %of', suff='s', fmt='2dec'}},
+			{'Wave initial radius:', {name='PILLAGE_RNG', expr='RNG 8 %of', suff='m', fmt='1dec'}},
+			{'Maximum wave radius:', {expr='PILLAGE_RNG 20 PILLAGE_DUR * +', suff='m', fmt='1dec'}},
+			{Tooltips.full('Heat', 'DamageTypes')..' damage to '..Tooltips.full('Haven', 'Ability')..' targets:', {expr='STR 200 %of 0 BLAZING_PILLAGE if'}},
+			{'Additional '..Tooltips.full('Shield', 'Stats')..' restoration:', {expr='STR 50 %of 0 BLAZING_PILLAGE if', suff='/'..Tooltips.full('Haven', 'Ability')..' target'}},
+			{Tooltips.full('Shield', 'Stats')..' cost:', {expr='0 150 COST * PILLAGE_INFUSED if'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST * 0 PILLAGE_INFUSED if', fmt='2dec'}}
+		}
+	},
+	['Haven']={
+		ins={
+			{name='OVERSHIELD', cont='[[Overshield]]s active?', type='checkbox'}
+		},
+		outs={
+			{'Ally '..Tooltips.full('Shield', 'Stats')..' bonus:', {expr='STR 500 %of'}},
+			{Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='STR 200 %of 2 1 OVERSHIELD if *', suff='/s'}},
+			{'Ally Shield Recharge Rate bonus:', {expr='DUR 80 %of', suff='%', fmt='2dec'}},
+			{'Radius:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{'Cast '..Tooltips.full('Shield', 'Stats')..' cost:', {expr='250 COST *'}},
+			{'Ally '..Tooltips.full('Shield', 'Stats')..' drain:', {expr='5 DRAIN *', suff='/ally'}},
+			{'Enemy '..Tooltips.full('Shield', 'Stats')..' drain:', {expr='25 DRAIN *', suff='/enemy'}}
+		}
+	},
+	['Aegis Storm']={
+		ins={
+			{name='AEGIS_STORM_ALTITUDE', cont='Current altitude in meters:', min='0', value='0'}
+		},
+		outs={
+			{'Field '..Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='0 AEGIS_STORM_ALTITUDE 25 * 50 + STR 200 %of %of AEGIS_STORM_ALTITUDE 10 > if', suff='/s'}},
+			{'Landing '..Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
+			{'Radius:', {expr='0 AEGIS_STORM_ALTITUDE -7 * 100 + RNG 15 %of %of AEGIS_STORM_ALTITUDE 10 > if', suff='m', fmt='1dec'}},
+			{'Cast '..Tooltips.full('Shield', 'Stats')..' cost:', {expr='100 COST *'}},
+			{Tooltips.full('Shield', 'Stats')..' drain:', {expr='25 DRAIN *'}},
+			{'Enemy '..Tooltips.full('Shield', 'Stats')..' drain:', {expr='25 DRAIN *', suff='/enemy'}},
+			{'Dodge '..Tooltips.full('Shield', 'Stats')..' cost:', {expr='50 COST *'}}
 		}
 	},
 	-- Hydroid

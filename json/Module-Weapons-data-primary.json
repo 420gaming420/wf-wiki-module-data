@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-11-09T09:23:51.216Z"
+    "converted_at": "2026-11-11T09:00:32.943Z"
   },
   "_comments": "\t\t--Users = { },",
   "Tenet Tetra": {
@@ -4679,47 +4679,43 @@
     ]
   },
   "Coda Sporothrix": {
+    "_TooltipAttackDisplay": 1,
+    "Mastery": 17,
+    "Magazine": 11,
+    "Conclave": false,
+    "SniperComboReset": 2,
+    "Class": "Sniper Rifle",
     "MaxRank": 40,
+    "Traits": [
+      "Infested",
+      "Technocyte Coda"
+    ],
+    "SellPrice": 7500,
     "GripType": "",
+    "Slot": "Primary",
     "Introduced": "38.5",
     "Polarities": [
       "Vazarin"
     ],
     "SniperComboMin": 1,
     "InternalName": "/Lotus/Weapons/Infested/InfestedLich/LongGuns/CodaSporothrix",
+    "Link": "Coda Sporothrix",
+    "Image": "CodaSporothrix.png",
     "Zoom": [
       "2.7x Zoom (+50% Headshot Damage)"
     ],
     "_RetiredDisposition": 0.95,
     "Accuracy": 100,
-    "ExilusPolarity": "Madurai",
-    "Family": "Sporothrix",
-    "AmmoMax": 45,
-    "Disposition": 1.2,
-    "Conclave": false,
-    "SniperComboReset": 2,
-    "Class": "Sniper Rifle",
-    "Image": "CodaSporothrix.png",
-    "_TooltipAttackDisplay": 1,
-    "Slot": "Primary",
-    "Tradable": 2,
-    "Traits": [
-      "Infested",
-      "Technocyte Coda"
-    ],
     "Trigger": "Semi-Auto",
-    "SellPrice": 7500,
+    "ExilusPolarity": "Madurai",
     "CompatibilityTags": [
       "SNIPER_AMMO",
       "PROJECTILE"
     ],
     "Reload": 2.5,
     "AmmoPickup": 15,
-    "Link": "Coda Sporothrix",
-    "Name": "Coda Sporothrix",
-    "Magazine": 11,
-    "Mastery": 17,
     "IsLichWeapon": true,
+    "Name": "Coda Sporothrix",
     "Attacks": [
       {
         "CritChance": 0.05,
@@ -4773,6 +4769,9 @@
         "CritMultiplier": 3
       }
     ],
+    "Family": "Sporothrix",
+    "AmmoMax": 45,
+    "Disposition": 1.2,
     "AmmoType": "Primary"
   },
   "Karak Wraith": {

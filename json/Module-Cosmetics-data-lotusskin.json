@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:54:58.041Z"
+    "converted_at": "2026-11-11T09:00:27.580Z"
   },
   "_comments": "",
   "Lotus Radiant": {
@@ -19,7 +19,7 @@
   },
   "Naberus Lotus": {
     "Type": "Lotus Skin",
-    "Image": "HalloweenLotusSkin.png",
+    "Image": "NaberusLotusSkin.png",
     "Description": "A vampiric look for Lotus to wear during the ancient festival of death and mischief.",
     "Link": "Naberus Lotus",
     "Name": "Naberus Lotus",

@@ -1,7 +1,7 @@
 ---
 title: "Module:Weapons/data/primary"
 wiki_url: "https://wiki.warframe.com/w/Module/Weapons/data/primary"
-wiki_timestamp: "2026-11-08T16:17:23Z"
+wiki_timestamp: "2026-11-10T15:17:23Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s [Primary Weapons](/w/Primary_Weapon "Primary Weapon").
@@ -54,7 +54,7 @@ Thanks, you're awesome!
 * [11 Weapon Data](#Weapon_Data)
 * [12 References](#References)
 
-:   *Last updated: Sun, 08 Nov 2026 16:17:23 +0000 (UTC) by [User:Scythelive](/w/User:Scythelive?action=edit&redlink=1 "User:Scythelive (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/primary?diff=0))*
+:   *Last updated: Tue, 10 Nov 2026 15:17:23 +0000 (UTC) by [User:ArbitraryMary](/w/User:ArbitraryMary "User:ArbitraryMary") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/primary?diff=0))*
 
 ## Horizontal Partitions (and where to update data)
 
@@ -4628,7 +4628,6 @@ return {
 		Slot = "Primary",
 		SniperComboMin = 1,
 		SniperComboReset = 2,
-		Tradable = 2,
 		Traits = { "Infested", "Technocyte Coda" },
 		Trigger = "Semi-Auto",
 		Zoom = { "2.7x Zoom (+50% Headshot Damage)" },

@@ -7629,7 +7629,7 @@ RelicData = {
 			{
 				Item = "Acceltra Prime",
 				Part = "Receiver",
-				Rarity = 'Uncommon',
+				Rarity = "Uncommon",
 			},
 			{
 				Item = "Zylok Prime",

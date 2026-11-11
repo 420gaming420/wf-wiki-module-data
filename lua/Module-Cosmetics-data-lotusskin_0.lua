@@ -53,7 +53,7 @@ return {
         CodexSecret = true,
         Description = "A vampiric look for Lotus to wear during the ancient festival of death and mischief.",
         ExcludeFromCodex = false,
-        Image = "HalloweenLotusSkin.png",
+        Image = "NaberusLotusSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Lotus/HalloweenLotusSkin",
         Link = "Naberus Lotus",
         Name = "Naberus Lotus",
