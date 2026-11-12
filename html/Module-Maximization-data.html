@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Module:Maximization/data - WARFRAME Wiki</title>
-<script>(function(){var className="client-js";var cookie=document.cookie.match(/(?:^|; )wgmwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"aedf027e3f7101bf60494aec545d565d","wgCanonicalNamespace":"Module","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":828,"wgPageName":"Module:Maximization/data","wgTitle":"Maximization/data","wgCurRevisionId":2823886,"wgRevisionId":2823886,"wgArticleId":1531239,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"Scribunto","wgRelevantPageName":"Module:Maximization/data","wgRelevantArticleId":1531239,"wgTempUserName":null,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":["rollback"],"simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgCiteReferencePreviewsActive":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":0,"wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["brands","architecture","bitness","fullVersionList","mobile","model","platform","platformVersion"]};
+<script>(function(){var className="client-js";var cookie=document.cookie.match(/(?:^|; )wgmwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"05709d6dc4bff1feaf4c88a9429083ab","wgCanonicalNamespace":"Module","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":828,"wgPageName":"Module:Maximization/data","wgTitle":"Maximization/data","wgCurRevisionId":2824005,"wgRevisionId":2824005,"wgArticleId":1531239,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"Scribunto","wgRelevantPageName":"Module:Maximization/data","wgRelevantArticleId":1531239,"wgTempUserName":null,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":["rollback"],"simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgCiteReferencePreviewsActive":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":0,"wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["brands","architecture","bitness","fullVersionList","mobile","model","platform","platformVersion"]};
 RLSTATE={"ext.gadget.charinsert-styles":"ready","site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","ext.pygments":"ready","skins.vector.styles.legacy":"ready","skins.vector.search.codex.styles":"ready","jquery.tablesorter.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.embedVideo.styles":"ready"};RLPAGEMODULES=["ext.pygments.view","site","mediawiki.page.ready","jquery.tablesorter","mediawiki.toc","skins.vector.legacy.js","mmv.bootstrap","ext.gadget.countdown","ext.gadget.NightwaveActs","ext.gadget.CycleClock","ext.gadget.enemyinfoboxslider","ext.gadget.enemyinfoboxslider-dev","ext.gadget.calculator","ext.gadget.maximization","ext.gadget.RelicTable","ext.gadget.Tooltips","ext.gadget.maps","ext.gadget.Mbox","ext.gadget.CollapseExpandButtons","ext.gadget.fixedWidthToggle","ext.gadget.lightmode","ext.gadget.checkboxList","ext.gadget.highlightTable","ext.gadget.autosort","ext.gadget.MathVM","ext.gadget.contributions","ext.gadget.profileTags","ext.gadget.charinsert","ext.gadget.I18n","ext.gadget.topLangLinks","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.embedVideo.overlay","ext.checkUser.clientHints","ext.popups"];</script>
 <script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
 }];});});</script>
@@ -248,6 +248,48 @@ local AbilitySets = {};
 
 local Data = {
 	AbilitySets = AbilitySets,
+	-- Amesha
+	['Watchful Swarm']={
+		outs={
+			{'Number of drones:', {expr='STR 15 %of', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Benevolent Decoy']={
+		ins={
+			{name='LANDSCAPE_RANGES', cont='Show [[Landscape]] ranges?', type='checkbox'}
+		},
+		outs={
+			{'Damage to Healing conversion:', {expr='STR 150 %of', suff='%', fmt='2dec'}},
+			{'Initial duration:', {name='BENEVOLENT_DECOY_DUR', expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{'Maximum duration:', {expr='BENEVOLENT_DECOY_DUR 3 *', suff='s', fmt='2dec'}},
+			{'Beacon radius:', {expr='RNG 8 80 LANDSCAPE_RANGES if %of', suff='m', fmt='1dec'}},
+			{'Healing pulse radius:', {expr='RNG 10 100 LANDSCAPE_RANGES if %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Warding Grace']={
+		ins={
+			{name='LANDSCAPE_RANGES', cont='Show [[Landscape]] ranges?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Slow', 'DamageTypes')..':', {expr='STR 50 %of 80 min', suff='%', fmt='2dec'}},
+			{'Radius:', {expr='RNG 40 400 LANDSCAPE_RANGES if %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='10 DRAIN *', fmt='2dec'}}
+		}
+	},
+	['Vengeful Rush']={
+		ins={
+			{name='LANDSCAPE_RANGES', cont='Show [[Landscape]] ranges?', type='checkbox'}
+		},
+		outs={
+			{'Damage to '..Tooltips.full('Energy', 'Stats')..' conversion:', {expr='STR 100 %of', suff='%', fmt='2dec'}},
+			{'Duration:', {expr='DUR 30 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 40 400 LANDSCAPE_RANGES if %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		}
+	},
 	-- Ash
 	['Shuriken']={
 		ins={
@@ -827,6 +869,54 @@ local Data = {
 			{'Triumph, Wordwarden and Pageflight duration:', {expr='DUR 45 %of', suff='s', fmt='2dec'}},
 			{'Triumph, Tragedy and Wordwarden radius:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	-- Elytron
+	['Bloomer']={
+		ins={
+			{name='LANDSCAPE_RANGES', cont='Show [[Landscape]] ranges?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 1000 %of'}},
+			{'Radius:', {expr='RNG 24 240 LANDSCAPE_RANGES if %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Core Vent']={
+		ins={
+			{name='AFTERBURNER', cont=Tooltips.full('Afterburner', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Vent duration:', {expr='DUR 9 %of', suff='s', fmt='2dec'}},
+			{'Trail duration:', {expr='DUR 16 %of', suff='s', fmt='2dec'}},
+			{'Ignited trail '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 500 %of 0 AFTERBURNER if', suff='/s'}},
+			{'Trail ignition duration:', {expr='DUR 12 %of 0 AFTERBURNER if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Thumper']={
+		ins={
+			{name='LANDSCAPE_RANGES', cont='Show [[Landscape]] ranges?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 500 %of', suff='/explosion'}},
+			{'Explosion frequency:', {name='THUMPER_FREQUENCY', expr='DUR 3 %of', suff='/s', fmt='1dec'}},
+			{'Storm duration:', {name='THUMPER_DUR', expr='DUR 45 %of', suff='s', fmt='2dec'}},
+			{'Explosion count:', {expr='THUMPER_DUR THUMPER_FREQUENCY * floor'}},
+			{'Storm radius:', {expr='RNG 18 180 LANDSCAPE_RANGES if %of', suff='m', fmt='1dec'}},
+			{'Explosion radius:', {expr='RNG 8 80 LANDSCAPE_RANGES if %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Warhead']={
+		ins={
+			{name='LANDSCAPE_RANGES', cont='Show [[Landscape]] ranges?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 1750 %of'}},
+			{'Explosion radius:', {expr='RNG 24 240 LANDSCAPE_RANGES if %of', suff='m', fmt='1dec'}},
+			{'Maximum travel distance:', {expr='400 1600 LANDSCAPE_RANGES if', suff='m'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},
 	-- Ember
@@ -1702,6 +1792,118 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		},
 	},
+	-- Itzal
+	['Arch Line']={
+		ins={
+			{name='ARCH_LINE_COMBO', cont='Number of prior combo casts:', min='0', max='2', value='0'},
+			{name='LANDSCAPE_RANGES', cont='Show [[Landscape]] ranges?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 600 %of 2 ARCH_LINE_COMBO ^ *'}},
+			{'Combo window:', {expr='DUR 1 %of', suff='s', fmt='2dec'}},
+			{'Range:', {expr='RNG 30 300 LANDSCAPE_RANGES if %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST * 1 2 ARCH_LINE_COMBO ^ / *', fmt='2dec'}}
+		}
+	},
+	['Penumbra']={
+		ins={
+			{name='LANDSCAPE_RANGES', cont='Show [[Landscape]] ranges?', type='checkbox'}
+		},
+		outs={
+			{'Radius:', {expr='RNG 7.6 76 LANDSCAPE_RANGES if %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='15 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', fmt='2dec'}}
+		}
+	},
+	['Cosmic Crush']={
+		ins={
+			{name='COLD_SNAP', cont=Tooltips.full('Cold Snap', 'Mods')..'?', type='checkbox'},
+			{name='LANDSCAPE_RANGES', cont='Show [[Landscape]] ranges?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 1500 %of'}},
+			{'Radius:', {expr='RNG 14 140 LANDSCAPE_RANGES if %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Freeze', 'DamageTypes')..' duration:', {expr='DUR 5 %of 0 COLD_SNAP if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Fighter Escort']={
+		ins={
+			{name='LANDSCAPE_RANGES', cont='Show [[Landscape]] ranges?', type='checkbox'}
+		},
+		outs={
+			{'Drone expiration '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 2500 %of'}},
+			{'Duration:', {expr='DUR 30 %of', suff='s', fmt='2dec'}},
+			{'Explosion radius:', {expr='RNG 16 160 LANDSCAPE_RANGES if %of', suff='m', fmt='1dec'}},
+			{'Beam range:', {expr='RNG 8 80 LANDSCAPE_RANGES if %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		}
+	},
+	-- Ivara
+	['Quiver']={
+		ins={
+			{name='EMPOWERED_QUIVER', cont=Tooltips.full('Empowered Quiver', 'Mods')..'?', type='checkbox'},
+			{name='POWER_OF_THREE', cont=Tooltips.full('Power of Three', 'Mods')..'?', type='checkbox'},
+			{name='QUIVER_INFUSED', cont='[[Infused]]?', type='checkbox'}
+		},
+		outs={
+			{'Cloak duration:', {expr='DUR 12 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Sleep', 'DamageTypes')..' duration:', {expr='0 DUR 10 %of QUIVER_INFUSED if', suff='s', fmt='2dec'}},
+			{'Cloak radius:', {expr='RNG 2.5 %of', suff='m', fmt='1dec'}},
+			{'Noise radius:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
+			{'Sleep radius:', {expr='0 RNG 6 %of QUIVER_INFUSED if', suff='m', fmt='1dec'}},
+			{'Cloak Status Effect resistance:', {expr='STR 100 %of 100 min 0 EMPOWERED_QUIVER if', suff='%', fmt='2dec'}},
+			{'Dashwire [[Critical Damage]] bonus:', {expr='STR 100 %of 0 EMPOWERED_QUIVER QUIVER_INFUSED not and if', suff='%', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='45 25 POWER_OF_THREE if COST *', fmt='2dec'}}
+		}
+	},
+	['Navigator']={
+		ins={
+			{name='PIERCING_NAVIGATOR', cont=Tooltips.full('Piercing Navigator', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Maximum damage multiplier:', {expr='STR 500 %of', suff='%', fmt='2dec'}},
+			{'Damage multiplier growth:', {expr='100 DUR /', suff='%/s', fmt='2dec'}},
+			{'[[Punch Through]] bonus:', {expr='RNG 3 %of 0 PIERCING_NAVIGATOR if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+			{'Initial '..Tooltips.full('Energy', 'Stats')..' drain:', {expr='3 DRAIN *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain growth:', {expr='2 DRAIN *', suff='/s', fmt='2dec'}},
+			{'Maximum '..Tooltips.full('Energy', 'Stats')..' drain:', {expr='50 DRAIN *', fmt='2dec'}}
+		}
+	},
+	['Prowl']={
+		ins={
+			{name='INFILTRATE', cont=Tooltips.full('Infiltrate', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Headshot damage bonus:', {expr='STR 40 %of', suff='%', fmt='2dec'}},
+			{'Loot chance:', {expr='STR 100 %of 100 min', suff='%', fmt='2dec'}},
+			{'Steal time:', {expr='2.5 DUR as% /', suff='s', fmt='2dec'}},
+			{'Steal range:', {expr='RNG 4 %of', suff='m', fmt='1dec'}},
+			{'Movement Speed multiplier:', {expr='50 100 STR 25 %of + 100 INFILTRATE if %of', suff='%', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+			{'Passive '..Tooltips.full('Energy', 'Stats')..' drain:', {expr='1 DRAIN *', fmt='2dec'}},
+			{'Moving '..Tooltips.full('Energy', 'Stats')..' drain:', {expr='3 DRAIN *', fmt='2dec'}},
+			{'Melee '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 COST *', suff='/hit', fmt='2dec'}},
+			{'Damage '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='10 COST *', suff='/hit', fmt='2dec'}}
+		}
+	},
+	['Artemis Bow']={
+		ins={
+			{name='WEAPON_DMG_MOD', cont='[[Weapon Damage]] modifier:', type='number', default='100'},
+			{name='ELEMENT_DMG_MOD', cont='[[Elemental damage]] modifier:', type='number', default='0'},
+			{name='FACTION_DMG_MOD', cont='[[Faction damage]] modifier:', type='number', default='100'},
+			{name='BLAST_RADIUS_MOD', cont='[[Blast Radius]] modifier:', default='0'},
+			{name='CONCENTRATED_ARROW', cont=Tooltips.full('Concentrated Arrow', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Damage multiplier:', {name='ARTEMIS_DMG_MULT', expr='FACTION_DMG_MOD WEAPON_DMG_MOD %of'}, style='display:none'},
+			{Tooltips.full('Artemis Bow', 'Weapons')..' damage:', {expr='ARTEMIS_DMG_MULT STR 240 %of %of dupe ELEMENT_DMG_MOD %of +'}},
+			{'Blast radius:', {expr='RNG BLAST_RADIUS_MOD + 7 %of 0 CONCENTRATED_ARROW if', suff='m', fmt='1dec'}},
+			{'Cast '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}},
+			{'Shot '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='15 COST *', suff='/shot', fmt='2dec'}}
+		}
+	},
 	-- Jade
 	["Light's Judgment"]={
 		ins={
@@ -1996,6 +2198,51 @@ local Data = {
 			{'Minimum radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
 			{'Shrinking rate:', {expr='2 CATACLYSM_INITIAL_RADIUS * 3 CATACLYSM_BASE_DURATION * CATACLYSMIC_CONTINUUM_DURATION + /', suff='m/s', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+		}
+	},
+	-- Loki
+	['Decoy']={
+		ins={
+			{name='DAMAGE_DECOY', cont=Tooltips.full('Damage Decoy', 'Mods')..'?', type='checkbox'},
+			{name='DECEPTIVE_BOND', cont=Tooltips.full('Deceptive Bond', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Health and Shield absorption:', {expr='STR 15 %of', suff='%', fmt='2dec'}},
+			{'Decoy lifetime:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{'Absorption radius:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{'Damage Decoy reflection:', {expr='STR 350 %of 0 DAMAGE_DECOY if', suff='%', fmt='2dec'}},
+			{'Deceptive Bond redirection:', {expr='STR 50 %of 100 min 0 DECEPTIVE_BOND if', suff='%', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Invisibility']={
+		outs={
+			{'Duration:', {expr='DUR 12 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Switch Teleport']={
+		ins={
+			{name='SAFEGUARD_SWITCH', cont=Tooltips.full('Safeguard Switch', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Movement Speed bonus:', {expr='STR 50 %of', suff='%', fmt='2dec'}},
+			{'Movement Speed bonus duration:', {expr='DUR 5 %of', suff='s', fmt='2dec'}},
+			{'Range:', {expr='RNG 75 %of', suff='m', fmt='1dec'}},
+			{'[[Invulnerability]] to self:', {expr='DUR 3 %of 0 SAFEGUARD_SWITCH if', suff='s', fmt='2dec'}},
+			{'[[Invulnerability]] to ally:', {expr='DUR 6 %of 0 SAFEGUARD_SWITCH if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Radial Disarm']={
+		ins={
+			{name='IRRADIATING_DISARM', cont=Tooltips.full('Irradiating Disarm', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
+			{'Radius:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Confusion', 'DamageTypes')..' duration:', {expr='DUR 9 %of 0 IRRADIATING_DISARM if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},
 	-- Mag
@@ -2675,34 +2922,45 @@ local Data = {
 	},
 	-- Odonata
 	['Energy Shell']={
+		ins={
+			{name='ENERGY_FIELD', cont=Tooltips.full('Energy Field', 'Mods')..'?', type='checkbox'},
+			{name='LANDSCAPE_RANGES', cont='Show [[Landscape]] ranges?', type='checkbox'}
+		},
 		outs={
-			{'Duration:', {expr='DUR 22 %of', suff='s'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+			{'Duration:', {expr='DUR 22 %of', suff='s', fmt='2dec'}},
+			{'Energy Field radius:', {expr='RNG 14 140 LANDSCAPE_RANGES if %of 0 ENERGY_FIELD if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
 		}
 	},
 	['Disarray']={
+		ins={
+			{name='LANDSCAPE_RANGES', cont='Show [[Landscape]] ranges?', type='checkbox'}
+		},
 		outs={
-			{'Duration:', {expr='DUR 8 %of', suff='s'}},
-			{'Range ([[Archwing]] missions):', {expr='RNG 180 %of', suff='m'}},
-			{'Range ([[Landscape]] missions):', {expr='RNG 18 %of', suff='m'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+			{'Duration:', {expr='DUR 8 %of', suff='s', fmt='2dec'}},
+			{'Range:', {expr='RNG 18 180 LANDSCAPE_RANGES if %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
 	['Seeking Fire']={
+		ins={
+			{name='LANDSCAPE_RANGES', cont='Show [[Landscape]] ranges?', type='checkbox'}
+		},
 		outs={
-			{'Number of missile volleys:', {expr='STR 8 %of'}},
-			{'Tracking range ([[Archwing]] missions):', {expr='RNG 480 %of', suff='m'}},
-			{'Tracking range ([[Landscape]] missions):', {expr='RNG 48 %of', suff='m'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
+			{'Number of missile volleys:', {expr='STR 8 %of floor'}},
+			{'Tracking range:', {expr='RNG 48 480 LANDSCAPE_RANGES if %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
 		}
 	},
 	['Repel']={
+		ins={
+			{name='LANDSCAPE_RANGES', cont='Show [[Landscape]] ranges?', type='checkbox'}
+		},
 		outs={
 			{Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 1500 %of'}},
-			{Tooltips.full('Disarmed', 'DamageTypes')..' and stun duration:', {expr='DUR 11 %of', suff='s'}},
-			{'Radius ([[Archwing]] missions):', {expr='RNG 140 %of', suff='m'}},
-			{'Radius ([[Landscape]] missions):', {expr='RNG 14 %of', suff='m'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+			{Tooltips.full('Disarmed', 'DamageTypes')..' and stun duration:', {expr='DUR 11 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 14 140 LANDSCAPE_RANGES if %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},
 	-- Oraxia
@@ -2877,6 +3135,60 @@ local Data = {
 			{'Explosion radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 100 FUSED_CRUCIBLE if COST *', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='20 FUSED_CRUCIBLE_DURATION 0.5 * + DRAIN * 0 FUSED_CRUCIBLE if', fmt='2dec'}}
+		}
+	},
+	-- Revenant
+	['Enthrall']={
+		ins={
+			{name='ENTHRALL_STUN', cont='Target stunned by '..Tooltips.full('Mesmer Skin', 'Ability')..'?', type='checkbox'},
+			{name='THRALL_PACT', cont=Tooltips.full('Thrall Pact', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Pillar '..Tooltips.full('Impact', 'DamageTypes')..', '..Tooltips.full('Puncture', 'DamageTypes')..' and '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 1000 %of', suff='/s'}},
+			{'Projectile '..Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 1000 %of'}},
+			{'Thrall duration:', {expr='DUR 30 %of', suff='s', fmt='2dec'}},
+			{'Pillar duration:', {expr='DUR 10 %of', suff='s', fmt='2dec'}},
+			{'Cast range:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{'Pillar radius:', {expr='RNG 2 %of', suff='m', fmt='1dec'}},
+			{'Projectile seek range:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
+			{'Primary [[Weapon Damage]] bonus:', {expr='STR 25 %of 0 THRALL_PACT if', suff='%/Thrall', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='0 25 COST * ENTHRALL_STUN if', fmt='2dec'}}
+		}
+	},
+	['Mesmer Skin']={
+		ins={
+			{name='MESMER_SHIELD', cont=Tooltips.full('Mesmer Shield', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Charges:', {expr='STR 50 0 MESMER_SHIELD if + 6 %of', fmt='1dec'}},
+			{'Stun duration:', {expr='DUR 5 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Reave']={
+		ins={
+			{name='REAVE_THRALL', cont='Target is [[Enthrall]]ed ?', type='checkbox'},
+			{name='BLINDING_REAVE', cont=Tooltips.full('Blinding Reave', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Health', 'Stats')..' and '..Tooltips.full('Shield', 'Stats')..' steal:', {expr='STR 40 8 REAVE_THRALL if %of 100 min', suff='%', fmt='2dec'}},
+			{'Duration:', {name='REAVE_DUR', expr='DUR 1 %of', suff='s', fmt='2dec'}},
+			{'Width:', {expr='RNG 40 0 BLINDING_REAVE if + 6 %of', suff='m', fmt='1dec'}},
+			{'Travel distance:', {expr='25 REAVE_DUR *', suff='m', fmt='1dec'}},
+			{Tooltips.full('Blind', 'DamageTypes')..' duration:', {expr='DUR 10 %of 0 BLINDING_REAVE if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Danse Macabre']={
+		ins={
+			{name='DANSE_MACABRE_BOOSTED', cont='Boosted?', type='checkbox'}
+		},
+		outs={
+			{'Base elemental damage:', {expr='STR 1250 %of 2 1 DANSE_MACABRE_BOOSTED if *', suff='/s'}},
+			{'Beam thickness:', {expr='RNG 0.1 %of 2 1 DANSE_MACABRE_BOOSTED if *', suff='m', fmt='2dec'}},
+			{'Status Chance:', {expr='40 20 DANSE_MACABRE_BOOSTED if', suff='%'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='40 20 DANSE_MACABRE_BOOSTED if DRAIN *', fmt='2dec'}}
 		}
 	},
 	-- Rhino
@@ -3177,6 +3489,205 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 100 *'}}
 		}
 	},
+	-- Stalker
+	['Teleport (Stalker)']={
+		outs={
+			{Tooltips.full('Finisher', 'DamageTypes')..' damage bonus:', {expr='STR 200 %of', suff='%', fmt='2dec'}},
+			{'Range:', {expr='RNG 60 %of', suff='m', fmt='1dec'}},
+			{'[[Parkour Velocity]] bonus duration:', {expr='DUR 12 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+		}
+	},
+	['Marked']={
+		outs={
+			{'Damage percentage:', {expr='STR 100 %of 150 min', suff='%', fmt='2dec'}},
+			{'Cast range:', {expr='RNG 60 %of', suff='m', fmt='1dec'}},
+			{'Explosion range:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Smoke Screen (Stalker)']={
+		outs={
+			{'Duration:', {expr='DUR 12 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Stagger', 'DamageTypes')..' radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Punishment']={
+		outs={
+			{'Damage to retaliation conversion:', {expr='STR 750 %of', suff='%', fmt='2dec'}},
+			{'[[Invulnerability]] duration:', {expr='DUR 2 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		}
+	},
+	-- Styanax
+	['Axios Javelin']={
+		ins={
+			{name='AXIOS_JAVELINEERS', cont=Tooltips.full('Axios Javelineers', 'Mods')..' and direct hit?', type='checkbox'}
+		},
+		outs={
+			{'Direct '..Tooltips.full('Puncture', 'DamageTypes')..' damage:', {expr='STR 1250 %of'}},
+			{'Radial '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 1250 %of'}},
+			{'Pin duration:', {expr='DUR 8 %of', suff='s', fmt='2dec'}},
+			{'Vortex duration:', {expr='2 DUR 5 %of 0 AXIOS_JAVELINEERS if +', suff='s', fmt='2dec'}},
+			{'Javelin range:', {expr='RNG 50 %of', suff='m', fmt='1dec'}},
+			{'Explosion radius:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='15 COST *', fmt='2dec'}}
+		}
+	},
+	['Tharros Strike']={
+		ins={
+			{name='THARROS_LETHALITY', cont=Tooltips.full('Tharros Lethality', 'Mods')..'?', type='checkbox'},
+			{name='SPEARGUN', cont='Using [[Speargun]]?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 1000 %of'}},
+			{Tooltips.full('Health', 'Stats')..' restoration:', {expr='STR 100 %of', suff='/hit'}},
+			{'Defense Reduction:', {expr='STR 50 %of 100 min', suff='%', fmt='2dec'}},
+			{'Range:', {expr='RNG 9 %of', suff='m', fmt='1dec'}},
+			{'[[Critical Damage]] vulnerability:', {expr='STR 100 %of 2 1 SPEARGUN if * 0 THARROS_LETHALITY if', suff='%', fmt='2dec'}},
+			{'Tharros Lethality duration:', {expr='DUR 10 %of 0 THARROS_LETHALITY if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Rally Point']={
+		outs={
+			{Tooltips.full('Shield', 'Stats')..' restoration:', {expr='STR 50 %of', suff='/kill'}},
+			{Tooltips.full('Energy', 'Stats')..' restoration:', {expr='STR 3 %of', suff='/s', fmt='1dec'}},
+			{'Duration:', {expr='DUR 30 %of', suff='s', fmt='2dec'}},
+			{'Buff radius:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Final Stand']={
+		ins={
+			{name='INTREPID_STAND', cont=Tooltips.full('Intrepid Stand', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Direct '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 1500 %of'}},
+			{'Radial '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 1500 %of'}},
+			{'Javelin count:', {expr='DUR 30 %of floor'}},
+			{'Explosion range:', {expr='RNG 6 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Overguard', 'DamageTypes')..' to self:', {expr='STR 60 %of 0 INTREPID_STAND if', suff='/hit'}},
+			{Tooltips.full('Overguard', 'DamageTypes')..' to allies:', {expr='STR 30 %of 0 INTREPID_STAND if', suff='/hit'}},
+			{Tooltips.full('Overguard', 'DamageTypes')..' cap:', {expr='STR 15000 %of 0 INTREPID_STAND if'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
+		}
+	},
+	-- Temple
+	['Pyrotechnics']={
+		ins={
+			{name='TEMPLE_PASSIVE', cont='[[Temple/Abilities/Passive|Backbeat]] cast?', type='checkbox'}
+		},
+		outs={
+			{'Cost modifier:', {name='TEMPLE_COST', expr='2 EFF 50 0 TEMPLE_PASSIVE if + 175 min 100 / -'}, style='display:none'},
+			{Tooltips.full('Impact', 'DamageTypes')..', '..Tooltips.full('Puncture', 'DamageTypes')..' and '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {name='PYROTECHNICS_DMG', expr='STR 1000 %of', suff='/pillar'}},
+			{Tooltips.full('Ignite', 'DamageTypes')..' damage:', {expr='0.5 PYROTECHNICS_DMG *', suff='/tick'}},
+			{'Pillar count:', {expr='STR 5 %of 2 1 TEMPLE_PASSIVE if * round'}},
+			{'Cast range:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 TEMPLE_COST *', fmt='2dec'}}
+		}
+	},
+	['Overdrive']={
+		ins={
+			{name='TEMPLE_PASSIVE', cont='[[Temple/Abilities/Passive|Backbeat]] cast?', type='checkbox'}
+		},
+		outs={
+			{'Cost modifier:', {name='TEMPLE_COST', expr='2 EFF 50 0 TEMPLE_PASSIVE if + 175 min 100 / -'}, style='display:none'},
+			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 750 %of'}},
+			{'Final [[Critical Chance]] vulnerability:', {expr='STR 25 %of 2 1 TEMPLE_PASSIVE if *', suff='%', fmt='2dec'}},
+			{'Vulnerability duration:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
+			{'Range:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 TEMPLE_COST *', fmt='2dec'}}
+		}
+	},
+	["Ripper's Wail"]={
+		ins={
+			{name='TEMPLE_PASSIVE', cont='[[Temple/Abilities/Passive|Backbeat]] cast?', type='checkbox'}
+		},
+		outs={
+			{'Cost modifier:', {name='TEMPLE_COST', expr='2 EFF 50 0 TEMPLE_PASSIVE if + 175 min 100 / -'}, style='display:none'},
+			{'Weapon '..Tooltips.full('Heat', 'DamageTypes')..' damage bonus:', {expr='STR 75 %of', suff='%', fmt='2dec'}},
+			{Tooltips.full('Health', 'Stats')..' and '..Tooltips.full('Shield', 'Stats')..' restoration:', {expr='STR 150 %of', suff='%/3s', fmt='2dec'}},
+			{'Damage bonus duration:', {expr='DUR 30 %of', suff='s', fmt='2dec'}},
+			{'Damage bonus duration extension:', {expr='DUR 6 %of', suff='s', fmt='2dec'}},
+			{'[[Invulnerability]] duration:', {expr='7 3 TEMPLE_PASSIVE if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 TEMPLE_COST *', fmt='2dec'}}
+		}
+	},
+	['Exalted Solo']={
+		ins={
+			{name='WEAPON_DMG_MOD', cont='[[Weapon Damage]] modifier:', type='number', default='100'},
+			{name='ELEMENT_DMG_MOD', cont='[[Elemental damage]] modifier:', type='number', default='0'},
+			{name='FACTION_DMG_MOD', cont='[[Faction damage]] modifier:', type='number', default='100'},
+			{name='TEMPLE_PASSIVE', cont='[[Temple/Abilities/Passive|Backbeat]] cast?', type='checkbox'}
+		},
+		outs={
+			{'Damage multiplier:', {name='LIZZIE_MULT', expr='FACTION_DMG_MOD WEAPON_DMG_MOD STR 125 %of 100 - + %of 0 max'}, style='display:none'},
+			{Tooltips.full('Lizzie', 'Weapons')..' Primary Fire damage:', {expr='LIZZIE_MULT 85 %of dupe ELEMENT_DMG_MOD %of +'}},
+			{'Sound wave damage:', {expr='LIZZIE_MULT 100 %of dupe ELEMENT_DMG_MOD %of +'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='0 75 COST * TEMPLE_PASSIVE if', fmt='2dec'}}
+		}
+	},
+	-- Titania
+	['Spellbind']={
+		ins={
+			{name='SPELLBOUND_HARVEST', cont=Tooltips.full('Spellbound Harvest', 'Mods')..' equipped and active?', type='checkbox'}
+		},
+		outs={
+			{'Duration:', {expr='DUR 16 %of', suff='s', fmt='2dec'}},
+			{'Cast range:', {expr='RNG 40 0 SPELLBOUND_HARVEST if + 50 %of', suff='m', fmt='1dec'}},
+			{'Effect radius:', {expr='RNG 40 0 SPELLBOUND_HARVEST if + 5 %of', suff='m', fmt='1dec'}},
+			{'Spellbound Harvest '..Tooltips.full('Energy', 'Stats')..' restoration:', {expr='STR 50 %of 0 SPELLBOUND_HARVEST if', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Tribute']={
+		outs={
+			{Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
+			{'Damage debuff duration:', {expr='DUR 12 %of', suff='s', fmt='2dec'}},
+			{'Cast range:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Lantern']={
+		ins={
+			{name='BEGUILING_LANTERN', cont=Tooltips.full('Beguiling Lantern', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Passive '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 350 %of', suff='/s'}},
+			{'Explosion '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 2500 %of'}},
+			{'Duration:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{'Cast range:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{'Charm radius:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
+			{'Explosion radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
+			{'Passive damage radius:', {expr='RNG 2.5 %of', suff='m', fmt='1dec'}},
+			{'[[Damage Vulnerability]] to charmed enemies:', {expr='STR 100 %of 0 BEGUILING_LANTERN if', suff='%', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
+		}
+	},
+	['Razorwing']={
+		ins={
+			{name='PIXIA_WEAPON_DMG_MOD', cont=Tooltips.full('Dex Pixia', 'Weapons')..' [[Weapon Damage]] modifier:', type='number', default='100'},
+			{name='PIXIA_ELEMENT_DMG_MOD', cont=Tooltips.full('Dex Pixia', 'Weapons')..' [[Elemental damage]] modifier:', type='number', default='0'},
+			{name='PIXIA_FACTION_DMG_MOD', cont=Tooltips.full('Dex Pixia', 'Weapons')..' [[Faction damage]] modifier:', type='number', default='100'},
+			{name='DIWATA_MELEE_DMG_MOD', cont=Tooltips.full('Diwata', 'Weapons')..' [[Melee Damage]] modifier:', type='number', default='100'},
+			{name='DIWATA_ELEMENT_DMG_MOD', cont=Tooltips.full('Diwata', 'Weapons')..' [[Elemental damage]] modifier:', type='number', default='0'},
+			{name='DIWATA_FACTION_DMG_MOD', cont=Tooltips.full('Diwata', 'Weapons')..' [[Faction damage]] modifier:', type='number', default='100'},
+			{name='RAZORWING_BLITZ', cont=Tooltips.full('Razorwing Blitz', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Dex Pixia damage multiplier:', {name='PIXIA_DMG_MULT', expr='PIXIA_FACTION_DMG_MOD PIXIA_WEAPON_DMG_MOD %of'}, style='display:none'},
+			{'Diwata damage multiplier:', {name='DIWATA_DMG_MULT', expr='DIWATA_FACTION_DMG_MOD DIWATA_MELEE_DMG_MOD %of'}, style='display:none'},
+			{Tooltips.full('Dex Pixia', 'Weapons')..' damage:', {expr='PIXIA_DMG_MULT STR 160 %of %of dupe PIXIA_ELEMENT_DMG_MOD %of +'}},
+			{Tooltips.full('Diwata', 'Weapons')..' damage:', {expr='DIWATA_DMG_MULT STR 200 %of %of dupe DIWATA_ELEMENT_DMG_MOD %of +'}},
+			{'Razorfly damage:', {expr='STR 80 %of'}},
+			{'Razorwing Blitz bonus:', {name='RAZORWING_BLITZ_BONUSES', expr='STR 25 %of 0 RAZORWING_BLITZ if', suff='%/stack', fmt='2dec'}},
+			{'Razorwing Blitz maximum bonuses:', {expr='RAZORWING_BLITZ_BONUSES 4 *', suff='%/4 stacks', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', fmt='2dec'}}
+		}
+	},
 	-- Trinity
 	['Well of Life']={
 		ins={
@@ -3358,6 +3869,77 @@ local Data = {
 			{'[[Sprint Speed]] and [[Parkour Velocity]] bonus duration:', {expr='DUR 5 %of 0 HYSTERICAL_ASSAULT if', suff='s', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 25 ENRAGED if COST *', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='0 5 DRAIN * ENRAGED if', fmt='2dec'}}
+		}
+	},
+	-- Vauban
+	['Tesla Nervos']={
+		ins={
+			{name='VAUBAN_PASSIVE', cont=Tooltips.full('Vauban', 'Warframes').."'s [[Vauban/Abilities/Passive|Passive]]?", type='checkbox'},
+			{name='TESLA_BANK', cont=Tooltips.full('Tesla Bank', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Deployment '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 15 %of 1.25 1 VAUBAN_PASSIVE if *'}},
+			{'Latch '..Tooltips.full('Electricity', 'DamageTypes')..' damage:', {expr='STR 25 %of 1.25 1 VAUBAN_PASSIVE if *', suff='/s'}},
+			{'Discharge '..Tooltips.full('Electricity', 'DamageTypes')..' damage:', {expr='STR 150 %of 1.25 1 VAUBAN_PASSIVE if *', suff='/s'}},
+			{Tooltips.full('Electricity', 'DamageTypes')..' Status Chance:', {expr='STR 50 %of', suff='%', fmt='2dec'}},
+			{'Number of discharges:', {expr='DUR 10 %of floor'}},
+			{'Discharge radius:', {expr='RNG 6 %of', suff='m', fmt='1dec'}},
+			{'Tesla Bank radius:', {expr='RNG 8 %of 0 TESLA_BANK if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Minelayer']={
+		ins={
+			{name='VAUBAN_PASSIVE', cont=Tooltips.full('Vauban', 'Warframes').."'s [[Vauban/Abilities/Passive|Passive]]?", type='checkbox'},
+			{name='ENEMY_LEVEL', cont='Enemy level:', min='1', value='1'}
+		},
+		outs={
+			{'Deployment '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 15 %of 1.25 1 VAUBAN_PASSIVE if *'}},
+			{'Tether '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 250 %of 1.25 1 VAUBAN_PASSIVE if *'}},
+			{'Flechette '..Tooltips.full('Puncture', 'DamageTypes')..' damage:', {expr='STR 300 %of ENEMY_LEVEL 10 / ceil * 1.25 1 VAUBAN_PASSIVE if *'}},
+			{'Vector-Overdrive speed:', {expr='STR 25 %of', suff='m/s', fmt='1dec'}},
+			{'Vector-Overdrive [[Movement Speed]] bonus:', {expr='STR 25 %of', suff='%', fmt='2dec'}},
+			{'Vector-Overdrive [[Weapon Damage]] bonus:', {expr='STR 25 %of', suff='%', fmt='2dec'}},
+			{'Duration:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{'Tether range:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Photon Strike']={
+		ins={
+			{name='VAUBAN_PASSIVE', cont=Tooltips.full('Vauban', 'Warframes').."'s [[Vauban/Abilities/Passive|Passive]]?", type='checkbox'},
+			{name='ENEMY_LEVEL', cont='Enemy level:', min='1', value='1'},
+			{name='PHOTON_STRIKE_OVERGUARD', cont='Enemy has '..Tooltips.full('Overguard', 'DamageTypes')..'?', type='checkbox'},
+			{name='PHOTON_REPEATER', cont=Tooltips.full('Photon Repeater', 'Mods')..' active?', type='checkbox'}
+		},
+		outs={
+			{'Deployment '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 15 %of 1.25 1 VAUBAN_PASSIVE if *'}},
+			{'Artillery '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 2500 %of ENEMY_LEVEL 10 / ceil * 1.25 1 VAUBAN_PASSIVE if * 2 1 PHOTON_STRIKE_OVERGUARD if * 3 1 PHOTON_REPEATER if *'}},
+			{'Explosion radius:', {expr='RNG 7 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='0 50 COST * PHOTON_REPEATER if', fmt='2dec'}}
+		}
+	},
+	['Bastille']={
+		ins={
+			{name='VAUBAN_PASSIVE', cont=Tooltips.full('Vauban', 'Warframes').."'s [[Vauban/Abilities/Passive|Passive]]?", type='checkbox'},
+			{name='ENDURING_BASTILLE', cont=Tooltips.full('Enduring Bastille', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Deployment '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 15 %of 1.25 1 VAUBAN_PASSIVE if *'}},
+			{Tooltips.full('Armor', 'Stats')..' reduction:', {expr='STR 10 %of', suff='%/s', fmt='2dec'}},
+			{Tooltips.full('Armor', 'Stats')..' bonus rate:', {expr='STR 4 %of', suff='/0.2s/enemy'}},
+			{Tooltips.full('Armor', 'Stats')..' bonus rate from armored enemies:', {expr='STR 8 %of', suff='/0.2s/armored enemy'}},
+			{'Vortex '..Tooltips.full('Magnetic', 'DamageTypes')..' damage:', {expr='STR 12.5 %of', suff='/0.25s'}},
+			{'Vortex '..Tooltips.full('Magnetic', 'DamageTypes')..' Status Chance:', {expr='STR 40 %of', suff='%', fmt='2dec'}},
+			{'Initial Bastille and Vortex duration:', {name='BASTILLE_DUR', expr='DUR 15 %of', suff='s', fmt='2dec'}},
+			{'Automatic Vortex duration:', {expr='DUR 3 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Armor', 'Stats')..' bonus duration:', {expr='DUR 10 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
+			{'Bastille duration extension:', {expr='DUR 2 %of 0 ENDURING_BASTILLE if', suff='s/kill', fmt='2dec'}},
+			{'Maximum Bastille duration:', {expr='BASTILLE_DUR 2 1 ENDURING_BASTILLE if *', suff='s', fmt='2dec'}},
+			{'Vortex duration extension:', {expr='BASTILLE_DUR 70 %of 0 ENDURING_BASTILLE if', suff='s/Vortex', fmt='2dec'}},
+			{'Maximum Vortex duration:', {expr='BASTILLE_DUR 10 1 ENDURING_BASTILLE if *', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},
 	-- Voidrig
@@ -3571,6 +4153,64 @@ local Data = {
 			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='0 24 12 SOL_GATE_BOOSTED if DRAIN * CATACLYSMIC_GATE if', fmt='2dec'}}
 		}
 	},
+	-- Wukong
+	['Celestial Twin']={
+		ins={
+			{name='CELESTIAL_STOMP', cont=Tooltips.full('Celestial Stomp', 'Mods')..'?', type='checkbox'}
+			
+		},
+		outs={
+			{'Twin '..Tooltips.full('Health', 'Stats')..' and '..Tooltips.full('Shield', 'Stats')..' multiplier:', {expr='STR 2 %of', fmt='2dec'}},
+			{'Stomp radius:', {expr='RNG 20 %of 0 CELESTIAL_STOMP if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+		}
+	},
+	['Cloud Walker']={
+		ins={
+			{name='ENVELOPING_CLOUD', cont=Tooltips.full('Enveloping Cloud', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{Tooltips.full('Health', 'Stats')..' restoration:', {expr='STR 1 %of', suff='%/m', fmt='2dec'}},
+			{'Cloud duration:', {expr='DUR 2 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Stun', 'DamageTypes')..' radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
+			{'[[Invisible|Invisibility]] duration:', {expr='DUR 14 %of 0 ENVELOPING_CLOUD if', suff='s', fmt='2dec'}},
+			{'Invisibility radius:', {expr='RNG 4 %of 0 ENVELOPING_CLOUD if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
+		}
+	},
+	['Defy']={
+		ins={
+			{name='DEFY_INFUSED', cont='[[Infused]]?', type='checkbox'}
+		},
+		outs={
+			{'Damage to retaliation conversion:', {expr='STR 750 %of', suff='%', fmt='2dec'}},
+			{'Damage to '..Tooltips.full('Armor', 'Stats')..' conversion:', {name='DEFY_ARMOR', expr='STR 150 %of', suff='%', fmt='2dec'}},
+			{'Damage for maximum Armor bonus:', {expr='750 1500 DEFY_INFUSED if DEFY_ARMOR as% /'}},
+			{'[[Invulnerability]] duration:', {expr='DUR 2 %of', suff='s', fmt='2dec'}},
+			{'Armor bonus duration:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{'Retaliation radius:', {expr='RNG 12 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
+		}
+	},
+	['Primal Fury']={
+		ins={
+			{name='MELEE_DMG_MOD', cont='[[Melee damage]] modifier:', type='number', default='100'},
+			{name='ELEMENT_DMG_MOD', cont='[[Elemental damage]] modifier:', type='number', default='0'},
+			{name='FACTION_DMG_MOD', cont='[[Faction damage]] modifier:', type='number', default='100'},
+			{name='MELEE_RANGE_MOD', cont='[[Melee range]] modifier:', type='number', default='0'},
+			{name='COMBO_MULT', cont='[[Combo multiplier]]:', type='range-R', min='1', max='12', value='1'},
+			{name='PRIMAL_RAGE', cont=Tooltips.full('Primal Rage', 'Mods')..'?', type='checkbox'}
+		},
+		outs={
+			{'Damage multiplier:', {name='IRON_STAFF_DMG_MULT', expr='FACTION_DMG_MOD MELEE_DMG_MOD %of'}, style='display:none'},
+			{Tooltips.full('Iron Staff', 'Weapons')..' Normal Attack damage:', {expr='IRON_STAFF_DMG_MULT STR 300 %of %of dupe ELEMENT_DMG_MOD %of +'}},
+			{'Melee range:', {expr='3.5 MELEE_RANGE_MOD 0.5 COMBO_MULT 1 - * + +', suff='m', fmt='1dec'}},
+			{'[[Critical Chance]] bonus:', {expr='STR 15 %of 0 PRIMAL_RAGE if', suff='%/kill', fmt='2dec'}},
+			{'Primal Rage decay rate:', {expr='1 DUR as% / 0 PRIMAL_RAGE if', suff='%/s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='10 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', fmt='2dec'}}
+		}
+	},
 	-- Xaku
 	["Xata's Whisper"]={
 		outs={
@@ -3767,7 +4407,7 @@ local Data = {
 	},
 	['Marked For Death']={
 		outs={
-			{'Damage percentage:', {expr='STR 75 %of 150 min', suff='%'}},
+			{'Damage percentage:', {expr='STR 75 %of 150 min', suff='%', fmt='2dec'}},
 			{'Cast range:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
 			{'Explosion range:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
@@ -3896,13 +4536,13 @@ return Data;
 </pre>
 <!-- 
 NewPP limit report
-Parsed by mediawiki‐db4fbd497‐tkskw
-Cached time: 20261110164723
+Parsed by mediawiki‐7ccc959988‐5vm4q
+Cached time: 20261112092904
 Cache expiry: 172800
 Reduced expiry: false
 Complications: [show‐toc]
-CPU time usage: 0.034 seconds
-Real time usage: 0.036 seconds
+CPU time usage: 0.041 seconds
+Real time usage: 0.042 seconds
 Preprocessor visited node count: 372/1000000
 Revision size: 39/8388608 bytes
 Post‐expand include size: 23145/8388608 bytes
@@ -3912,21 +4552,21 @@ Expensive parser function count: 2/500
 Unstrip recursion depth: 0/20
 Unstrip post‐expand size: 5460/5000000 bytes
 Bucket time usage: 0.000/10 seconds
-Lua time usage: 0.011/10.000 seconds
+Lua time usage: 0.015/10.000 seconds
 Lua memory usage: 2311494/367001600 bytes
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%   19.716      1 Module:Maximization/data/doc
-100.00%   19.716      1 -total
- 34.99%    6.898      8 Template:Stat
- 21.41%    4.221      2 Template:WF
- 19.52%    3.849      4 Template:A
- 13.87%    2.735      4 Template:D
-  2.89%    0.570      1 Template:Callout
+100.00%   24.876      1 Module:Maximization/data/doc
+100.00%   24.876      1 -total
+ 29.17%    7.256      8 Template:Stat
+ 24.65%    6.133      2 Template:WF
+ 20.59%    5.122      4 Template:A
+ 14.81%    3.684      4 Template:D
+  3.56%    0.885      1 Template:Callout
 -->
 </div>
-<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://wiki.warframe.com/w/Module:Maximization/data?oldid=2823886">https://wiki.warframe.com/w/Module:Maximization/data?oldid=2823886</a>"</div></div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://wiki.warframe.com/w/Module:Maximization/data?oldid=2824005">https://wiki.warframe.com/w/Module:Maximization/data?oldid=2824005</a>"</div></div>
 		<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>
 	</div>
 </div>
@@ -4163,9 +4803,9 @@ Transclusion expansion time report (%,ms,calls,template)
 		
 		<ul class="vector-menu-content-list">
 			
-			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Module:Maximization/data" title="List of all wiki pages that link here. [j]" accesskey="j"><span>What Links Here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Module:Maximization/data" rel="nofollow" title="Recent changes in pages linked from this page. [k]" accesskey="k"><span>Related Changes</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page. [p]" accesskey="p"><span>Printable Version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Module:Maximization/data?oldid=2823886" title="Permanent link to this revision of this page."><span>Permanent Link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Module:Maximization/data?action=info" title="More information about this page."><span>Page Information</span></a></li>
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Module:Maximization/data" title="List of all wiki pages that link here. [j]" accesskey="j"><span>What Links Here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Module:Maximization/data" rel="nofollow" title="Recent changes in pages linked from this page. [k]" accesskey="k"><span>Related Changes</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page. [p]" accesskey="p"><span>Printable Version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Module:Maximization/data?oldid=2824005" title="Permanent link to this revision of this page."><span>Permanent Link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Module:Maximization/data?action=info" title="More information about this page."><span>Page Information</span></a></li>
 		</ul>
-		<div class="after-portlet after-portlet-tb">            <a href="/hp/1794329243" style="display: none;"></a></div>
+		<div class="after-portlet after-portlet-tb">            <a href="/hp/1794475744" style="display: none;"></a></div>
 	</div>
 </nav>
 
@@ -4176,7 +4816,7 @@ Transclusion expansion time report (%,ms,calls,template)
 
 <footer id="footer" class="mw-footer" >
 	<ul id="footer-info">
-	<li id="footer-info-lastmod"> This page was last edited on 10 November 2026, at 16:37.</li>
+	<li id="footer-info-lastmod"> This page was last edited on 12 November 2026, at 00:18.</li>
 	<li id="footer-info-copyright">Content on this site is licensed under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>; <a class="text" href="https://meta.weirdgloop.org/w/Licensing">additional terms may apply</a>.</li>
 </ul>
 
@@ -4201,7 +4841,7 @@ Transclusion expansion time report (%,ms,calls,template)
 		
 	</ul>
 </div>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-db4fbd497-tkskw","wgBackendResponseTime":72,"wgPageParseReport":{"limitreport":{"cputime":"0.034","walltime":"0.036","ppvisitednodes":{"value":372,"limit":1000000},"revisionsize":{"value":39,"limit":8388608},"postexpandincludesize":{"value":23145,"limit":8388608},"templateargumentsize":{"value":254,"limit":8388608},"expansiondepth":{"value":6,"limit":100},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":5460,"limit":5000000},"timingprofile":["100.00%   19.716      1 Module:Maximization/data/doc","100.00%   19.716      1 -total"," 34.99%    6.898      8 Template:Stat"," 21.41%    4.221      2 Template:WF"," 19.52%    3.849      4 Template:A"," 13.87%    2.735      4 Template:D","  2.89%    0.570      1 Template:Callout"]},"bucket":{"limitreport-run-time":{"value":"0.000","limit":"10"}},"scribunto":{"limitreport-timeusage":{"value":"0.011","limit":"10.000"},"limitreport-memusage":{"value":2311494,"limit":367001600}},"cachereport":{"origin":"mediawiki-db4fbd497-tkskw","timestamp":"20261110164723","ttl":172800,"transientcontent":false}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-7ccc959988-5vm4q","wgBackendResponseTime":79,"wgPageParseReport":{"limitreport":{"cputime":"0.041","walltime":"0.042","ppvisitednodes":{"value":372,"limit":1000000},"revisionsize":{"value":39,"limit":8388608},"postexpandincludesize":{"value":23145,"limit":8388608},"templateargumentsize":{"value":254,"limit":8388608},"expansiondepth":{"value":6,"limit":100},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":5460,"limit":5000000},"timingprofile":["100.00%   24.876      1 Module:Maximization/data/doc","100.00%   24.876      1 -total"," 29.17%    7.256      8 Template:Stat"," 24.65%    6.133      2 Template:WF"," 20.59%    5.122      4 Template:A"," 14.81%    3.684      4 Template:D","  3.56%    0.885      1 Template:Callout"]},"bucket":{"limitreport-run-time":{"value":"0.000","limit":"10"}},"scribunto":{"limitreport-timeusage":{"value":"0.015","limit":"10.000"},"limitreport-memusage":{"value":2311494,"limit":367001600}},"cachereport":{"origin":"mediawiki-7ccc959988-5vm4q","timestamp":"20261112092904","ttl":172800,"transientcontent":false}}});});</script>
 
 <script>
 ( () => {
@@ -4212,7 +4852,7 @@ Transclusion expansion time report (%,ms,calls,template)
             'Content-Type': 'application/json',
         },
         body: JSON.stringify( {
-            ray: "a58c1b255e43990a",
+            ray: "a594829a8f5d19ff",
             time: performance.now() - initTime,
             ...p,
         } ),
