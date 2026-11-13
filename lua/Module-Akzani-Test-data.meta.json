@@ -1,0 +1,12 @@
+{
+  "page": "Module:Akzani/Test/data",
+  "wiki_timestamp": "2026-11-13T01:47:06Z",
+  "extracted_at": "2026-11-13T09:15:16.499400+00:00",
+  "lua_files": [
+    "Module-Akzani-Test-data_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 1745,
+  "comment_count": 5,
+  "status": "success"
+}

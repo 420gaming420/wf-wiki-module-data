@@ -4,9 +4,9 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-10-27T07:30:21.099Z"
+    "converted_at": "2026-11-13T09:15:20.967Z"
   },
-  "_comments": "-- CTRL + F \"Warframe Name\" to immediately go to the location of that \n-- Warframe/Necramech/Helminth's abilities\n-- Note that [\"Warframe\"] subtable indexes ability by the Warframe they belong to\n-- You can define alternate cost ( ex shields , health , mutation etc using CostType = , its defined in Module:Ability/infobox)\n\t\t\t--Augments = { \"\" },\n\t\t\t-- Weapon = {\"Dex Pixia\", \"Diwata\"}\n\t\t\t-- Weapon = \"Exalted Blade\"\n    -- v.Name, v.Link = v.Name or k, v.Link or k",
+  "_comments": "-- CTRL + F \"Warframe Name\" to immediately go to the location of that \n-- Warframe/Necramech/Helminth's abilities\n-- Note that [\"Warframe\"] subtable indexes ability by the Warframe they belong to\n-- You can define alternate cost ( ex shields , health , mutation etc using CostType = , its defined in Module:Ability/infobox)\n\t\t\t--Augments = { \"\" },\n\t\t\t-- Weapon = {\"Dex Pixia\", \"Diwata\"}\n\t\t\t-- Weapon = \"Exalted Blade\"\n--AbilityData.Powersuit = AbilityData[\"Warframe\"] -- TODO does this impact memory use behind mw.loadData? TODO rename all uses in other modules\n-- make lists of abilities for each Powersuit, sorted by Key if applicable\n    -- v.Name, v.Link = v.Name or k, v.Link or k -- unrelated\n            --mw.log('Module:Ability/data: canceling keyed table for', v.Powersuit, k)\n-- Collapse any gaps for powersuits whose abilities are keyed but not continuously\n        --local hadgap\n            --if not hadgap then hadgap=true; mw.log('Module:Ability/data: collapsing gaps for', k); mw.logObject(t) end\n        --if hadgap then mw.logObject(t) end",
   "Archived": {
     "Accelerant": {
       "Description": "Stun nearby enemies with strong accelerant. Increases all fire damage dealt.",
@@ -171,57 +171,57 @@
   },
   "Warframe": {
     "Odonata": [
-      "Disarray",
-      "Repel",
       "Energy Shell",
-      "Seeking Fire"
+      "Disarray",
+      "Seeking Fire",
+      "Repel"
     ],
     "Zephyr": [
-      "Tornado",
-      "Turbulence",
       "Tail Wind",
-      "Airburst"
+      "Airburst",
+      "Turbulence",
+      "Tornado"
     ],
     "Gauss": [
+      "Mach Rush",
       "Kinetic Plating",
       "Thermal Sunder",
-      "Redline",
-      "Mach Rush"
+      "Redline"
     ],
     "Limbo": [
-      "Rift Surge",
-      "Cataclysm",
+      "Banish",
       "Stasis",
-      "Banish"
+      "Rift Surge",
+      "Cataclysm"
     ],
     "Mirage": [
       "Hall of Mirrors",
-      "Eclipse",
       "Sleight of Hand",
+      "Eclipse",
       "Prism"
     ],
     "Atlas": [
-      "Petrify",
-      "Tectonics",
       "Landslide",
+      "Tectonics",
+      "Petrify",
       "Rumblers"
     ],
     "Hydroid": [
-      "Plunder",
-      "Tentacle Swarm",
+      "Tempest Barrage",
       "Tidal Surge",
-      "Tempest Barrage"
+      "Plunder",
+      "Tentacle Swarm"
     ],
     "Chroma": [
+      "Spectral Scream",
       "Elemental Ward",
-      "Effigy",
       "Vex Armor",
-      "Spectral Scream"
+      "Effigy"
     ],
     "Excalibur": [
-      "Radial Javelin",
-      "Radial Blind",
       "Slash Dash",
+      "Radial Blind",
+      "Radial Javelin",
       "Exalted Blade"
     ],
     "Kaithe": [
@@ -229,13 +229,14 @@
       "Steadfast Dismount"
     ],
     "Mesa": [
-      "Peacemaker",
-      "Shatter Shield",
       "Ballistic Battery",
-      "Shooting Gallery"
+      "Shooting Gallery",
+      "Shatter Shield",
+      "Peacemaker"
     ],
     "Drifter": [
       "Restorative",
+      true,
       "Summon Kaithe",
       "Guiding Hand",
       "Target Radar",
@@ -245,179 +246,180 @@
       "Restorative (Duviri)"
     ],
     "Equinox": [
-      "Mend & Maim",
       "Metamorphosis",
+      "Rest & Rage",
       "Pacify & Provoke",
-      "Rest & Rage"
+      "Mend & Maim"
     ],
     "Sirius & Orion": [
       "Celestial Clash"
     ],
     "Cyte-09": [
-      "Resupply",
-      "Neutralize",
       "Seek",
-      "Evade"
+      "Resupply",
+      "Evade",
+      "Neutralize"
     ],
     "Frost": [
       "Freeze",
+      "Ice Wave",
       "Snow Globe",
-      "Avalanche",
-      "Ice Wave"
+      "Avalanche"
     ],
     "Trinity": [
-      "Blessing",
-      "Link",
+      "Well of Life",
       "Energy Vampire",
-      "Well of Life"
+      "Link",
+      "Blessing"
     ],
     "Caliban": [
       "Razor Gyre",
-      "Fusion Strike",
       "Sentient Wrath",
-      "Lethal Progeny"
+      "Lethal Progeny",
+      "Fusion Strike"
     ],
     "Gyre": [
+      "Arcsphere",
       "Coil Horizon",
       "Cathode Grace",
-      "Arcsphere",
       "Rotorswell"
     ],
     "Dagath": [
-      "Grave Spirit",
       "Wyrd Scythes",
-      "Rakhali's Cavalry",
-      "Doom"
+      "Doom",
+      "Grave Spirit",
+      "Rakhali's Cavalry"
     ],
     "Banshee": [
       "Sonic Boom",
-      "Sound Quake",
       "Sonar",
-      "Silence"
+      "Silence",
+      "Sound Quake"
     ],
     "Khora": [
       "Whipclaw",
+      "Ensnare",
       "Venari",
-      "Strangledome",
-      "Ensnare"
+      "Strangledome"
     ],
     "Koumei": [
       "Kumihimo",
+      "Omikuji",
       "Omamori",
-      "Bunraku",
-      "Omikuji"
+      "Bunraku"
     ],
     "Octavia": [
-      "Resonator",
       "Mallet",
-      "Amp",
-      "Metronome"
+      "Resonator",
+      "Metronome",
+      "Amp"
     ],
     "Follie": [
-      "Self Portrait",
-      "Plein Air",
+      "Forced Perspective",
       "Shadowgraph",
-      "Forced Perspective"
+      "Self Portrait",
+      "Plein Air"
     ],
     "Volt": [
-      "Speed",
-      "Discharge",
       "Shock",
-      "Electric Shield"
+      "Speed",
+      "Electric Shield",
+      "Discharge"
     ],
     "Valkyr": [
       "Rip Line",
+      "Warcry",
       "Paralysis",
-      "Hysteria",
-      "Warcry"
+      "Hysteria"
     ],
     "Ember": [
       "Fireball",
-      "Inferno",
       "Immolation",
-      "Fire Blast"
+      "Fire Blast",
+      "Inferno"
     ],
     "Saryn": [
+      "Spores",
       "Molt",
-      "Miasma",
       "Toxic Lash",
-      "Spores"
+      "Miasma"
     ],
     "Revenant": [
-      "Danse Macabre",
       "Enthrall",
       "Mesmer Skin",
-      "Reave"
+      "Reave",
+      "Danse Macabre"
     ],
     "Jade": [
-      "Glory on High",
-      "Ophanim Eyes",
       "Light's Judgment",
-      "Symphony of Mercy"
+      "Symphony of Mercy",
+      "Ophanim Eyes",
+      "Glory on High"
     ],
     "Inaros": [
-      "Scarab Swarm",
       "Desiccation",
+      "Sandstorm",
       "Scarab Shell",
-      "Sandstorm"
+      "Scarab Swarm"
     ],
     "Atomicycle": [
-      "Atomi-Barrage",
       "Atomi-Boost",
-      "Atomi-Bomb",
-      "Atomi-Shadow"
+      "Atomi-Barrage",
+      "Atomi-Shadow",
+      "Atomi-Bomb"
     ],
     "Gara": [
       "Shattered Lash",
-      "Mass Vitrify",
+      "Splinter Storm",
       "Spectrorage",
-      "Splinter Storm"
+      "Mass Vitrify"
     ],
     "Garuda": [
-      "Seeking Talons",
-      "Bloodletting",
       "Dread Mirror",
-      "Blood Altar"
+      "Blood Altar",
+      "Bloodletting",
+      "Seeking Talons"
     ],
     "Nekros": [
-      "Desecrate",
       "Soul Punch",
       "Terrify",
+      "Desecrate",
       "Shadows of the Dead"
     ],
     "Loki": [
       "Decoy",
-      "Radial Disarm",
+      "Invisibility",
       "Switch Teleport",
-      "Invisibility"
+      "Radial Disarm"
     ],
     "Itzal": [
-      "Cosmic Crush",
-      "Fighter Escort",
       "Arch Line",
-      "Penumbra"
+      "Penumbra",
+      "Cosmic Crush",
+      "Fighter Escort"
     ],
     "Xaku": [
-      "Grasp of Lohk",
       "Xata's Whisper",
-      "The Vast Untime",
-      "The Lost"
+      "Grasp of Lohk",
+      "The Lost",
+      "The Vast Untime"
     ],
     "Nezha": [
-      "Warding Halo",
-      "Divine Spears",
+      "Fire Walker",
       "Blazing Chakram",
-      "Fire Walker"
+      "Warding Halo",
+      "Divine Spears"
     ],
     "Mag": [
-      "Crush",
-      "Magnetize",
       "Pull",
-      "Polarize"
+      "Magnetize",
+      "Polarize",
+      "Crush"
     ],
     "Railjack": [
       "Munitions Vortex",
       "Shatter Burst",
+      true,
       "Tether",
       "Phoenix Blaze",
       "Countermeasures",
@@ -427,55 +429,55 @@
       "Blackout Pulse"
     ],
     "Nyx": [
-      "Absorb",
-      "Psychic Bolts",
       "Mind Control",
-      "Chaos"
+      "Psychic Bolts",
+      "Chaos",
+      "Absorb"
     ],
     "Operator": [
-      "Transference",
-      "Energy Pulse"
+      "Energy Pulse",
+      "Transference"
     ],
     "Lavos": [
+      "Ophidian Bite",
       "Vial Rush",
-      "Catalyze",
       "Transmutation Probe",
-      "Ophidian Bite"
+      "Catalyze"
     ],
     "Uriel": [
       "Infernalis",
-      "Brimstone",
+      "Remedium",
       "Demonium",
-      "Remedium"
+      "Brimstone"
     ],
     "Wisp": [
-      "Breach Surge",
-      "Wil-O-Wisp",
       "Reservoirs",
+      "Wil-O-Wisp",
+      "Breach Surge",
       "Sol Gate"
     ],
     "Citrine": [
       "Fractured Blast",
+      "Preserving Shell",
       "Prismatic Gem",
-      "Crystallize",
-      "Preserving Shell"
+      "Crystallize"
     ],
     "Temple": [
+      "Pyrotechnics",
       "Overdrive",
-      "Exalted Solo",
       "Ripper's Wail",
-      "Pyrotechnics"
+      "Exalted Solo"
     ],
     "Protea": [
-      "Temporal Anchor",
-      "Dispensary",
       "Grenade Fan",
-      "Blaze Artillery"
+      "Blaze Artillery",
+      "Dispensary",
+      "Temporal Anchor"
     ],
     "Nidus": [
-      "Parasitic Link",
       "Virulence",
       "Larva",
+      "Parasitic Link",
       "Ravenous"
     ],
     "Orion": [
@@ -484,14 +486,14 @@
       "Event Horizon"
     ],
     "Styanax": [
-      "Rally Point",
-      "Final Stand",
       "Axios Javelin",
-      "Tharros Strike"
+      "Tharros Strike",
+      "Rally Point",
+      "Final Stand"
     ],
     "Grendel": [
-      "Nourish",
       "Feast",
+      "Nourish",
       "Pulverize",
       "Regurgitate"
     ],
@@ -503,44 +505,45 @@
     ],
     "Sevagoth": [
       "Reap",
-      "Exalted Shadow",
       "Sow",
-      "Gloom"
+      "Gloom",
+      "Exalted Shadow"
     ],
     "Stalker": [
-      "Punishment",
       "Teleport (Stalker)",
+      "Marked",
       "Smoke Screen (Stalker)",
-      "Marked"
+      "Punishment"
     ],
     "Narin": [
-      "Nurinarim",
-      "Naraemagi",
       "Neote",
-      "Hakchum"
+      "Naraemagi",
+      "Hakchum",
+      "Nurinarim"
     ],
     "Nova": [
-      "Molecular Prime",
+      "Null Star",
       "Antimatter Drop",
       "Wormhole",
-      "Null Star"
+      "Molecular Prime"
     ],
     "Amesha": [
-      "Benevolent Decoy",
       "Watchful Swarm",
+      "Benevolent Decoy",
       "Warding Grace",
       "Vengeful Rush"
     ],
     "Oberon": [
-      "Renewal",
+      "Smite",
       "Hallowed Ground",
-      "Reckoning",
-      "Smite"
+      "Renewal",
+      "Reckoning"
     ],
     "Excalibur Umbra": [
       "Radial Howl"
     ],
     "Helminth": [
+      true,
       "Perspicacity",
       "Rebuild Shields",
       "Expedite Suffering",
@@ -556,123 +559,124 @@
       "Master's Summons"
     ],
     "Sirius": [
-      "Light's Sanctuary",
       "Coronal Ejection",
-      "Jade Stars"
+      "Jade Stars",
+      "Light's Sanctuary"
     ],
     "Ivara": [
-      "Artemis Bow",
-      "Prowl",
       "Quiver",
-      "Navigator"
+      "Navigator",
+      "Prowl",
+      "Artemis Bow"
     ],
     "Dante": [
-      "Final Verse",
       "Noctua",
+      "Light Verse",
       "Dark Verse",
-      "Light Verse"
+      "Final Verse"
     ],
     "Sevagoth's Shadow": [
       "Embrace",
-      "Reunite",
+      "Consume",
       "Death's Harvest",
-      "Consume"
+      "Reunite"
     ],
     "Wukong": [
-      "Defy",
       "Celestial Twin",
-      "Primal Fury",
-      "Cloud Walker"
+      "Cloud Walker",
+      "Defy",
+      "Primal Fury"
     ],
     "Elytron": [
+      "Bloomer",
       "Core Vent",
-      "Warhead",
       "Thumper",
-      "Bloomer"
+      "Warhead"
     ],
     "Baruuk": [
-      "Desolate Hands",
-      "Serene Storm",
+      "Elude",
       "Lull",
-      "Elude"
+      "Desolate Hands",
+      "Serene Storm"
     ],
     "Titania": [
-      "Lantern",
+      "Spellbind",
       "Tribute",
-      "Razorwing",
-      "Spellbind"
+      "Lantern",
+      "Razorwing"
     ],
     "Rhino": [
       "Rhino Charge",
       "Iron Skin",
-      "Rhino Stomp",
-      "Roar"
+      "Roar",
+      "Rhino Stomp"
     ],
     "Voruna": [
       "Shroud of Dynar",
-      "Ulfrun's Descent",
+      "Fangs of Raksh",
       "Lycath's Hunt",
-      "Fangs of Raksh"
+      "Ulfrun's Descent"
     ],
     "Hildryn": [
-      "Aegis Storm",
+      "Balefire",
       "Pillage",
       "Haven",
-      "Balefire"
+      "Aegis Storm"
     ],
     "Bonewidow": [
-      "Exalted Ironbride",
+      true,
       "Maiden's Kiss",
+      "Exalted Ironbride",
       "Firing Line",
       "Shield Maiden",
       "Meathook"
     ],
     "Qorvex": [
-      "Crucible Blast",
       "Chyrinka Pillar",
+      "Containment Wall",
       "Disometric Guard",
-      "Containment Wall"
+      "Crucible Blast"
     ],
     "Nokko": [
-      "Sporespring",
-      "Brightbonnet",
       "Stinkbrain",
-      "Reroot"
+      "Brightbonnet",
+      "Reroot",
+      "Sporespring"
     ],
     "Ash": [
-      "Blade Storm",
       "Shuriken",
+      "Smoke Screen",
       "Teleport",
-      "Smoke Screen"
+      "Blade Storm"
     ],
     "Oraxia": [
+      "Mercy's Kiss",
       "Webbed Embrace",
       "Widow's Brood",
-      "Silken Stride",
-      "Mercy's Kiss"
+      "Silken Stride"
     ],
     "Harrow": [
+      "Condemn",
       "Penance",
-      "Covenant",
       "Thurible",
-      "Condemn"
+      "Covenant"
     ],
     "Vauban": [
+      "Tesla Nervos",
       "Minelayer",
       "Photon Strike",
-      "Bastille",
-      "Tesla Nervos"
+      "Bastille"
     ],
     "Yareli": [
-      "Aquablades",
-      "Merulina",
       "Sea Snares",
+      "Merulina",
+      "Aquablades",
       "Riptide"
     ],
     "Kullervo": [
-      "Collective Curse",
       "Wrathful Advance",
       "Recompense",
+      "Collective Curse",
       "Storm of Ukko"
     ]
   },

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Module:Maximization/data - WARFRAME Wiki</title>
-<script>(function(){var className="client-js";var cookie=document.cookie.match(/(?:^|; )wgmwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"05709d6dc4bff1feaf4c88a9429083ab","wgCanonicalNamespace":"Module","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":828,"wgPageName":"Module:Maximization/data","wgTitle":"Maximization/data","wgCurRevisionId":2824005,"wgRevisionId":2824005,"wgArticleId":1531239,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"Scribunto","wgRelevantPageName":"Module:Maximization/data","wgRelevantArticleId":1531239,"wgTempUserName":null,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":["rollback"],"simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgCiteReferencePreviewsActive":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":0,"wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["brands","architecture","bitness","fullVersionList","mobile","model","platform","platformVersion"]};
+<script>(function(){var className="client-js";var cookie=document.cookie.match(/(?:^|; )wgmwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"18eec507ecbcb5030a923bd81fe666ee","wgCanonicalNamespace":"Module","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":828,"wgPageName":"Module:Maximization/data","wgTitle":"Maximization/data","wgCurRevisionId":2824055,"wgRevisionId":2824055,"wgArticleId":1531239,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"Scribunto","wgRelevantPageName":"Module:Maximization/data","wgRelevantArticleId":1531239,"wgTempUserName":null,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":["rollback"],"simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgCiteReferencePreviewsActive":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":0,"wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["brands","architecture","bitness","fullVersionList","mobile","model","platform","platformVersion"]};
 RLSTATE={"ext.gadget.charinsert-styles":"ready","site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","ext.pygments":"ready","skins.vector.styles.legacy":"ready","skins.vector.search.codex.styles":"ready","jquery.tablesorter.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.embedVideo.styles":"ready"};RLPAGEMODULES=["ext.pygments.view","site","mediawiki.page.ready","jquery.tablesorter","mediawiki.toc","skins.vector.legacy.js","mmv.bootstrap","ext.gadget.countdown","ext.gadget.NightwaveActs","ext.gadget.CycleClock","ext.gadget.enemyinfoboxslider","ext.gadget.enemyinfoboxslider-dev","ext.gadget.calculator","ext.gadget.maximization","ext.gadget.RelicTable","ext.gadget.Tooltips","ext.gadget.maps","ext.gadget.Mbox","ext.gadget.CollapseExpandButtons","ext.gadget.fixedWidthToggle","ext.gadget.lightmode","ext.gadget.checkboxList","ext.gadget.highlightTable","ext.gadget.autosort","ext.gadget.MathVM","ext.gadget.contributions","ext.gadget.profileTags","ext.gadget.charinsert","ext.gadget.I18n","ext.gadget.topLangLinks","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.embedVideo.overlay","ext.checkUser.clientHints","ext.popups"];</script>
 <script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
 }];});});</script>
@@ -530,41 +530,44 @@ local Data = {
 	-- Bonewidow
 	['Meathook']={
 		outs={
-			{'% enemy health as '..Tooltips.full('Impact', 'DamageTypes')..' damage per second:', {expr='STR 20 %of', suff='%/s'}},
-			{'% lifesteal conversion rate of health drain:', {expr='STR 40 %of', suff='%'}},
-			{'% enemy health as '..Tooltips.full('Impact', 'DamageTypes')..' explosion damage:', {expr='STR 50 %of', suff='%'}},
-			{'Explosion radius:', {expr='RNG 17 %of', suff='m'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}},
+			{'Skewer '..Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 20 %of', suff='% of max Health/s', fmt='2dec'}},
+			{'Skewer damage to '..Tooltips.full('Health', 'Stats')..' conversion:', {expr='STR 40 %of', suff='%', fmt='2dec'}},
+			{'Explosion '..Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 50 %of', suff='% of max Health', fmt='2dec'}},
+			{'Explosion radius:', {expr='RNG 17 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
 		}
 	},
 	['Shield Maiden']={
 		ins={
-			{name='ABSORBED_DAMAGE', cont='Absorbed damage'},
-			{name='BASE_ARMOR', cont='Base '..Tooltips.full('Armor', 'Stats'), default='480'},
-			{name='ARMOR_BONUSES', cont='% '..Tooltips.full('Armor', 'Stats')..' bonuses', suff='%'},
-			{name='SHIELD_MAIDEN_ARMOR_MULTIPLIER', cont='Armor multiplier', value='2.5', suff='x'},
+			{name='ABSORBED_DAMAGE', cont='Absorbed damage:', min='0', value='0'},
+			{name='BONEWIDOW_ARMOR', cont='Current '..Tooltips.full('Armor', 'Stats')..':', min='0', value='480'}
 		},
 		outs={
 			{'Shield Maiden base health:', {name='SHIELD_MAIDEN_BASE_HEALTH', expr='STR 2000 %of'}},
-			{'Shield Maiden modified health:', {name='SHIELD_MAIDEN_BASE_HEALTH SHIELD_MAIDEN_ARMOR_MULTIPLIER BASE_ARMOR 1 ARMOR_BONUSES + * * + STR %of * ABSORBED_DAMAGE +'}},
+			{'Shield Maiden modified health:', {expr='SHIELD_MAIDEN_BASE_HEALTH STR 2.5 BONEWIDOW_ARMOR * %of ABSORBED_DAMAGE + +'}},
 			{'Reflected damage multiplier:', {expr='STR 2 %of', suff='x', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}},
-			{"Maiden's Kiss "..Tooltips.full('Energy', 'Stats')..' cost (shield bash):', {expr='15 COST *'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+			{"Maiden's Kiss "..Tooltips.full('Energy', 'Stats')..' cost:', {expr='15 COST *', fmt='2dec'}},
 		}
 	},
 	['Firing Line']={
 		outs={
-			{Tooltips.full('Lifted', 'DamageTypes')..' duration:', {expr='DUR 5 %of', suff='s'}},
-			{'Range:', {expr='RNG 25 %of', suff='m'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}},
+			{Tooltips.full('Lifted', 'DamageTypes')..' duration:', {expr='DUR 5 %of', suff='s', fmt='2dec'}},
+			{'Range:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}},
 		}
 	},
 	['Exalted Ironbride']={
+		ins={
+			{name='MELEE_DMG_MOD', cont='[[Melee damage]] modifier:', type='number', default='100'},
+			{name='ELEMENT_DMG_MOD', cont='[[Elemental damage]] modifier:', type='number', default='0'},
+			{name='FACTION_DMG_MOD', cont='[[Faction damage]] modifier:', type='number', default='100'}
+		},
 		outs={
-			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 1500 %of'}},
-			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 1500 %of'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='2.5 DRAIN *', suff='/s', fmt='2dec'}},
+			{'Damage multiplier:', {name='IRONBRIDE_DMG_MULT', expr='FACTION_DMG_MOD MELEE_DMG_MOD STR %of %of'}, style='display:none'},
+			{Tooltips.full('Ironbride', 'Weapons')..' Normal Attack damage:', {expr='IRONBRIDE_DMG_MULT 1500 %of dupe ELEMENT_DMG_MOD %of +'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='2.5 DRAIN *', suff='/s', fmt='2dec'}}
 		}
 	},
 	-- Caliban
@@ -3946,36 +3949,41 @@ local Data = {
 	['Necraweb']={
 		outs={
 			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 2000 %of'}},
-			{'Duration:', {expr='DUR 20 %of', suff='s'}},
-			{'Slow field radius:', {expr='RNG 20 %of', suff='m'}},
-			{'Mid-air explosion radius:', {expr='RNG 25 %of', suff='m'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+			{'Slow field duration:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
+			{'Slow field radius:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
+			{'Mid-air explosion radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
 		}
 	},
 	['Storm Shroud']={
 		ins={
-			{name='ABSORBED_DAMAGE', cont='Absorbed damage'},
+			{name='ABSORBED_DAMAGE', cont='Absorbed damage:', min='0', value='0'},
 		},
 		outs={
 			{'Health buffer base health:', {name='STORM_SHROUD_BASE_HEALTH', expr='STR 1200 %of'}},
 			{'Damage absorption multiplier:', {name='DAMAGE_ABSORPTION_MULTIPLIER', expr='STR 2 %of', suff='x', fmt='2dec'}},
 			{'Health buffer modified health:', {expr='STORM_SHROUD_BASE_HEALTH ABSORBED_DAMAGE DAMAGE_ABSORPTION_MULTIPLIER * +'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
 	['Gravemines']={
 		outs={
 			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 200 %of'}},
-			{'Number of mines:', {expr='DUR 24 %of'}},
-			{'Mine scattering range:', {expr='RNG 8 %of', suff='m'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
+			{'Number of mines:', {expr='DUR 24 %of', fmt='1dec'}},
+			{'Mine scattering range:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
 		}
 	},
 	['Guard Mode']={
+		ins={
+			{name='WEAPON_DMG_MOD', cont='[[Weapon Damage]] modifier:', type='number', default='100'},
+			{name='ELEMENT_DMG_MOD', cont='[[Elemental damage]] modifier:', type='number', default='0'},
+			{name='FACTION_DMG_MOD', cont='[[Faction damage]] modifier:', type='number', default='100'}
+		},
 		outs={
-			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
-			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}},
+			{Tooltips.full('Arquebex', 'Weapons')..' radial damage:', {expr='FACTION_DMG_MOD WEAPON_DMG_MOD 12000 %of %of dupe ELEMENT_DMG_MOD %of +'}},
+			{Tooltips.full('Blast', 'DamageTypes')..' and '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', suff='/s', fmt='2dec'}}
 		}
 	},
@@ -4536,13 +4544,13 @@ return Data;
 </pre>
 <!-- 
 NewPP limit report
-Parsed by mediawiki‐7ccc959988‐5vm4q
-Cached time: 20261112092904
+Parsed by mediawiki‐7ccc959988‐jwfjf
+Cached time: 20261113054800
 Cache expiry: 172800
 Reduced expiry: false
 Complications: [show‐toc]
-CPU time usage: 0.041 seconds
-Real time usage: 0.042 seconds
+CPU time usage: 0.037 seconds
+Real time usage: 0.099 seconds
 Preprocessor visited node count: 372/1000000
 Revision size: 39/8388608 bytes
 Post‐expand include size: 23145/8388608 bytes
@@ -4552,21 +4560,21 @@ Expensive parser function count: 2/500
 Unstrip recursion depth: 0/20
 Unstrip post‐expand size: 5460/5000000 bytes
 Bucket time usage: 0.000/10 seconds
-Lua time usage: 0.015/10.000 seconds
-Lua memory usage: 2311494/367001600 bytes
+Lua time usage: 0.011/10.000 seconds
+Lua memory usage: 2316946/367001600 bytes
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%   24.876      1 Module:Maximization/data/doc
-100.00%   24.876      1 -total
- 29.17%    7.256      8 Template:Stat
- 24.65%    6.133      2 Template:WF
- 20.59%    5.122      4 Template:A
- 14.81%    3.684      4 Template:D
-  3.56%    0.885      1 Template:Callout
+100.00%   81.444      1 Module:Maximization/data/doc
+100.00%   81.444      1 -total
+  9.64%    7.853      8 Template:Stat
+  5.55%    4.519      4 Template:A
+  5.54%    4.513      2 Template:WF
+  3.40%    2.771      4 Template:D
+  1.28%    1.045      1 Template:Callout
 -->
 </div>
-<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://wiki.warframe.com/w/Module:Maximization/data?oldid=2824005">https://wiki.warframe.com/w/Module:Maximization/data?oldid=2824005</a>"</div></div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://wiki.warframe.com/w/Module:Maximization/data?oldid=2824055">https://wiki.warframe.com/w/Module:Maximization/data?oldid=2824055</a>"</div></div>
 		<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>
 	</div>
 </div>
@@ -4803,9 +4811,9 @@ Transclusion expansion time report (%,ms,calls,template)
 		
 		<ul class="vector-menu-content-list">
 			
-			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Module:Maximization/data" title="List of all wiki pages that link here. [j]" accesskey="j"><span>What Links Here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Module:Maximization/data" rel="nofollow" title="Recent changes in pages linked from this page. [k]" accesskey="k"><span>Related Changes</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page. [p]" accesskey="p"><span>Printable Version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Module:Maximization/data?oldid=2824005" title="Permanent link to this revision of this page."><span>Permanent Link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Module:Maximization/data?action=info" title="More information about this page."><span>Page Information</span></a></li>
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Module:Maximization/data" title="List of all wiki pages that link here. [j]" accesskey="j"><span>What Links Here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Module:Maximization/data" rel="nofollow" title="Recent changes in pages linked from this page. [k]" accesskey="k"><span>Related Changes</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page. [p]" accesskey="p"><span>Printable Version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Module:Maximization/data?oldid=2824055" title="Permanent link to this revision of this page."><span>Permanent Link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Module:Maximization/data?action=info" title="More information about this page."><span>Page Information</span></a></li>
 		</ul>
-		<div class="after-portlet after-portlet-tb">            <a href="/hp/1794475744" style="display: none;"></a></div>
+		<div class="after-portlet after-portlet-tb">            <a href="/hp/1794548880" style="display: none;"></a></div>
 	</div>
 </nav>
 
@@ -4816,7 +4824,7 @@ Transclusion expansion time report (%,ms,calls,template)
 
 <footer id="footer" class="mw-footer" >
 	<ul id="footer-info">
-	<li id="footer-info-lastmod"> This page was last edited on 12 November 2026, at 00:18.</li>
+	<li id="footer-info-lastmod"> This page was last edited on 12 November 2026, at 15:47.</li>
 	<li id="footer-info-copyright">Content on this site is licensed under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>; <a class="text" href="https://meta.weirdgloop.org/w/Licensing">additional terms may apply</a>.</li>
 </ul>
 
@@ -4841,7 +4849,7 @@ Transclusion expansion time report (%,ms,calls,template)
 		
 	</ul>
 </div>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-7ccc959988-5vm4q","wgBackendResponseTime":79,"wgPageParseReport":{"limitreport":{"cputime":"0.041","walltime":"0.042","ppvisitednodes":{"value":372,"limit":1000000},"revisionsize":{"value":39,"limit":8388608},"postexpandincludesize":{"value":23145,"limit":8388608},"templateargumentsize":{"value":254,"limit":8388608},"expansiondepth":{"value":6,"limit":100},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":5460,"limit":5000000},"timingprofile":["100.00%   24.876      1 Module:Maximization/data/doc","100.00%   24.876      1 -total"," 29.17%    7.256      8 Template:Stat"," 24.65%    6.133      2 Template:WF"," 20.59%    5.122      4 Template:A"," 14.81%    3.684      4 Template:D","  3.56%    0.885      1 Template:Callout"]},"bucket":{"limitreport-run-time":{"value":"0.000","limit":"10"}},"scribunto":{"limitreport-timeusage":{"value":"0.015","limit":"10.000"},"limitreport-memusage":{"value":2311494,"limit":367001600}},"cachereport":{"origin":"mediawiki-7ccc959988-5vm4q","timestamp":"20261112092904","ttl":172800,"transientcontent":false}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-7ccc959988-jwfjf","wgBackendResponseTime":138,"wgPageParseReport":{"limitreport":{"cputime":"0.037","walltime":"0.099","ppvisitednodes":{"value":372,"limit":1000000},"revisionsize":{"value":39,"limit":8388608},"postexpandincludesize":{"value":23145,"limit":8388608},"templateargumentsize":{"value":254,"limit":8388608},"expansiondepth":{"value":6,"limit":100},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":5460,"limit":5000000},"timingprofile":["100.00%   81.444      1 Module:Maximization/data/doc","100.00%   81.444      1 -total","  9.64%    7.853      8 Template:Stat","  5.55%    4.519      4 Template:A","  5.54%    4.513      2 Template:WF","  3.40%    2.771      4 Template:D","  1.28%    1.045      1 Template:Callout"]},"bucket":{"limitreport-run-time":{"value":"0.000","limit":"10"}},"scribunto":{"limitreport-timeusage":{"value":"0.011","limit":"10.000"},"limitreport-memusage":{"value":2316946,"limit":367001600}},"cachereport":{"origin":"mediawiki-7ccc959988-jwfjf","timestamp":"20261113054800","ttl":172800,"transientcontent":false}}});});</script>
 
 <script>
 ( () => {
@@ -4852,7 +4860,7 @@ Transclusion expansion time report (%,ms,calls,template)
             'Content-Type': 'application/json',
         },
         body: JSON.stringify( {
-            ray: "a594829a8f5d19ff",
+            ray: "a59cabc13fa05be5",
             time: performance.now() - initTime,
             ...p,
         } ),

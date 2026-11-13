@@ -322,41 +322,44 @@ local Data = {
 	-- Bonewidow
 	['Meathook']={
 		outs={
-			{'% enemy health as '..Tooltips.full('Impact', 'DamageTypes')..' damage per second:', {expr='STR 20 %of', suff='%/s'}},
-			{'% lifesteal conversion rate of health drain:', {expr='STR 40 %of', suff='%'}},
-			{'% enemy health as '..Tooltips.full('Impact', 'DamageTypes')..' explosion damage:', {expr='STR 50 %of', suff='%'}},
-			{'Explosion radius:', {expr='RNG 17 %of', suff='m'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}},
+			{'Skewer '..Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 20 %of', suff='% of max Health/s', fmt='2dec'}},
+			{'Skewer damage to '..Tooltips.full('Health', 'Stats')..' conversion:', {expr='STR 40 %of', suff='%', fmt='2dec'}},
+			{'Explosion '..Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 50 %of', suff='% of max Health', fmt='2dec'}},
+			{'Explosion radius:', {expr='RNG 17 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
 		}
 	},
 	['Shield Maiden']={
 		ins={
-			{name='ABSORBED_DAMAGE', cont='Absorbed damage'},
-			{name='BASE_ARMOR', cont='Base '..Tooltips.full('Armor', 'Stats'), default='480'},
-			{name='ARMOR_BONUSES', cont='% '..Tooltips.full('Armor', 'Stats')..' bonuses', suff='%'},
-			{name='SHIELD_MAIDEN_ARMOR_MULTIPLIER', cont='Armor multiplier', value='2.5', suff='x'},
+			{name='ABSORBED_DAMAGE', cont='Absorbed damage:', min='0', value='0'},
+			{name='BONEWIDOW_ARMOR', cont='Current '..Tooltips.full('Armor', 'Stats')..':', min='0', value='480'}
 		},
 		outs={
 			{'Shield Maiden base health:', {name='SHIELD_MAIDEN_BASE_HEALTH', expr='STR 2000 %of'}},
-			{'Shield Maiden modified health:', {name='SHIELD_MAIDEN_BASE_HEALTH SHIELD_MAIDEN_ARMOR_MULTIPLIER BASE_ARMOR 1 ARMOR_BONUSES + * * + STR %of * ABSORBED_DAMAGE +'}},
+			{'Shield Maiden modified health:', {expr='SHIELD_MAIDEN_BASE_HEALTH STR 2.5 BONEWIDOW_ARMOR * %of ABSORBED_DAMAGE + +'}},
 			{'Reflected damage multiplier:', {expr='STR 2 %of', suff='x', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}},
-			{"Maiden's Kiss "..Tooltips.full('Energy', 'Stats')..' cost (shield bash):', {expr='15 COST *'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+			{"Maiden's Kiss "..Tooltips.full('Energy', 'Stats')..' cost:', {expr='15 COST *', fmt='2dec'}},
 		}
 	},
 	['Firing Line']={
 		outs={
-			{Tooltips.full('Lifted', 'DamageTypes')..' duration:', {expr='DUR 5 %of', suff='s'}},
-			{'Range:', {expr='RNG 25 %of', suff='m'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}},
+			{Tooltips.full('Lifted', 'DamageTypes')..' duration:', {expr='DUR 5 %of', suff='s', fmt='2dec'}},
+			{'Range:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}},
 		}
 	},
 	['Exalted Ironbride']={
+		ins={
+			{name='MELEE_DMG_MOD', cont='[[Melee damage]] modifier:', type='number', default='100'},
+			{name='ELEMENT_DMG_MOD', cont='[[Elemental damage]] modifier:', type='number', default='0'},
+			{name='FACTION_DMG_MOD', cont='[[Faction damage]] modifier:', type='number', default='100'}
+		},
 		outs={
-			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 1500 %of'}},
-			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 1500 %of'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='2.5 DRAIN *', suff='/s', fmt='2dec'}},
+			{'Damage multiplier:', {name='IRONBRIDE_DMG_MULT', expr='FACTION_DMG_MOD MELEE_DMG_MOD STR %of %of'}, style='display:none'},
+			{Tooltips.full('Ironbride', 'Weapons')..' Normal Attack damage:', {expr='IRONBRIDE_DMG_MULT 1500 %of dupe ELEMENT_DMG_MOD %of +'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='2.5 DRAIN *', suff='/s', fmt='2dec'}}
 		}
 	},
 	-- Caliban
@@ -3738,36 +3741,41 @@ local Data = {
 	['Necraweb']={
 		outs={
 			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 2000 %of'}},
-			{'Duration:', {expr='DUR 20 %of', suff='s'}},
-			{'Slow field radius:', {expr='RNG 20 %of', suff='m'}},
-			{'Mid-air explosion radius:', {expr='RNG 25 %of', suff='m'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+			{'Slow field duration:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
+			{'Slow field radius:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
+			{'Mid-air explosion radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
 		}
 	},
 	['Storm Shroud']={
 		ins={
-			{name='ABSORBED_DAMAGE', cont='Absorbed damage'},
+			{name='ABSORBED_DAMAGE', cont='Absorbed damage:', min='0', value='0'},
 		},
 		outs={
 			{'Health buffer base health:', {name='STORM_SHROUD_BASE_HEALTH', expr='STR 1200 %of'}},
 			{'Damage absorption multiplier:', {name='DAMAGE_ABSORPTION_MULTIPLIER', expr='STR 2 %of', suff='x', fmt='2dec'}},
 			{'Health buffer modified health:', {expr='STORM_SHROUD_BASE_HEALTH ABSORBED_DAMAGE DAMAGE_ABSORPTION_MULTIPLIER * +'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
 	['Gravemines']={
 		outs={
 			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 200 %of'}},
-			{'Number of mines:', {expr='DUR 24 %of'}},
-			{'Mine scattering range:', {expr='RNG 8 %of', suff='m'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
+			{'Number of mines:', {expr='DUR 24 %of', fmt='1dec'}},
+			{'Mine scattering range:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
 		}
 	},
 	['Guard Mode']={
+		ins={
+			{name='WEAPON_DMG_MOD', cont='[[Weapon Damage]] modifier:', type='number', default='100'},
+			{name='ELEMENT_DMG_MOD', cont='[[Elemental damage]] modifier:', type='number', default='0'},
+			{name='FACTION_DMG_MOD', cont='[[Faction damage]] modifier:', type='number', default='100'}
+		},
 		outs={
-			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
-			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}},
+			{Tooltips.full('Arquebex', 'Weapons')..' radial damage:', {expr='FACTION_DMG_MOD WEAPON_DMG_MOD 12000 %of %of dupe ELEMENT_DMG_MOD %of +'}},
+			{Tooltips.full('Blast', 'DamageTypes')..' and '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', suff='/s', fmt='2dec'}}
 		}
 	},

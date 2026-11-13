@@ -1,7 +1,7 @@
 ---
 title: "Module:Ability/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Ability/data"
-wiki_timestamp: "2026-10-26T15:44:02Z"
+wiki_timestamp: "2026-11-13T05:06:35Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Add [Railjack](/w/Railjack "Railjack") abilities like [Phoenix Blaze](/w/Phoenix
 
 Database of abilities in [WARFRAME](/w/WARFRAME "WARFRAME").
 
-:   *Last updated: Mon, 26 Oct 2026 15:44:02 +0000 (UTC) by [User:GG320](/w/User:GG320 "User:GG320") ([change log](https://wiki.warframe.com/w/Module:Ability/data?diff=0))*
+:   *Last updated: Fri, 13 Nov 2026 05:06:35 +0000 (UTC) by [User:Gigamicro](/w/User:Gigamicro "User:Gigamicro") ([change log](https://wiki.warframe.com/w/Module:Ability/data?diff=0))*
 
 ## Contents
 
@@ -5003,11 +5003,44 @@ Dante must compose two other Verses before his Final Verse.\r\n\r\nPAGEFLIGHT: A
 	},
 	["Warframe"] = {},
 }
+--AbilityData.Powersuit = AbilityData["Warframe"] -- TODO does this impact memory use behind mw.loadData? TODO rename all uses in other modules
 
+-- make lists of abilities for each Powersuit, sorted by Key if applicable
 for k,v in pairs(AbilityData["Ability"]) do
-    if not AbilityData["Warframe"][v.Powersuit] then AbilityData["Warframe"][v.Powersuit]={} end
-    table.insert(AbilityData["Warframe"][v.Powersuit],k)
-    -- v.Name, v.Link = v.Name or k, v.Link or k
+    -- v.Name, v.Link = v.Name or k, v.Link or k -- unrelated
+    local t = AbilityData["Warframe"][v.Powersuit]
+    if not t then t={keyed=true}; AbilityData["Warframe"][v.Powersuit]=t end
+    if t.keyed then -- insert keyed abilities by their key number
+        if v.Key and type(v.Key)=='number' and not t[v.Key] then
+            t[v.Key] = k
+        else -- put them in a new table in order, and stop paying attention to Key
+            --mw.log('Module:Ability/data: canceling keyed table for', v.Powersuit, k)
+            local new_t = {}
+            for _,oldv in pairs(t) do table.insert(new_t, oldv) end
+            t = new_t
+            AbilityData["Warframe"][v.Powersuit]=t
+            table.insert(t,k)
+        end
+    else
+        table.insert(t,k)
+    end
+end
+-- Collapse any gaps for powersuits whose abilities are keyed but not continuously
+for k, t in pairs(AbilityData["Warframe"]) do
+    if t.keyed then
+        t.keyed = nil
+        --local hadgap
+        local i = #t -- least integer >0 for which t[#] but not t[#+1]
+        while true do
+            local nk, nv = next(t, i>0 and i or nil)
+            if not nk then break end -- end of table
+            --if not hadgap then hadgap=true; mw.log('Module:Ability/data: collapsing gaps for', k); mw.logObject(t) end
+            i = i + 1
+            t[i] = nv
+            t[nk] = nil
+        end
+        --if hadgap then mw.logObject(t) end
+    end
 end
 
 return AbilityData

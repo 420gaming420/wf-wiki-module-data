@@ -417,6 +417,18 @@ local DamageTypes = {
 			Name = "Big Stagger",
 			Status = { "Longer stagger effect" }
 		},
+		Countered = {
+			Color = "#5d5d5d",
+			CSSBackgroundColorClass = "var(--dt-default-background-color)",
+			CSSBorderColorClass = "var(--dt-default-border-color)",
+			CSSTextColorClass = "var(--dt-default-text-color)",
+			DarkModeColor = "#d5d5d5",
+			Icon = "UnidentifiedItem.png",
+			InternalName = "PT_COUNTERED",
+			Link = "Countered",
+			Name = "Countered",
+			Status = { "(Duviri) Opens enemy up to a counter-finisher" }
+		},
 		Blind = {
 			Color = "#5d5d5d",
 			CSSBackgroundColorClass = "var(--dt-default-background-color)",
@@ -691,6 +703,7 @@ local DamageTypes = {
 			Name = "Microwave",
 			Status = { "Enlarged body parts" }
 		},
+		-- Unclear what this actually does, as Parry uses PT_STUNNED and Duviri parries use PT_COUNTERED
 		Parried = {
 			Color = "#5d5d5d",
 			CSSBackgroundColorClass = "var(--dt-default-background-color)",
@@ -701,7 +714,7 @@ local DamageTypes = {
 			InternalName = "PT_PARRIED",
 			Link = "Parry",
 			Name = "Parried",
-			Status = { "Opens enemy up to a counter-finisher" }
+			Status = { "Unknown effect" }
 		},
 		["PT_VOID"] = {
 			Color = "#ff0000",
@@ -713,7 +726,7 @@ local DamageTypes = {
 			InternalName = "PT_VOID",
 			Link = "WARFRAME Wiki",
 			Name = "PT_VOID",
-			Status = { "Unknown; may be old version of bullet attractor (PT_RADIANT)" }
+			Status = { "Resets Sentient adaptations" }
 		},
 		Ragdoll = {
 			Color = "#5d5d5d",
@@ -820,7 +833,7 @@ local DamageTypes = {
 			InternalName = "PT_STUNNED",
 			Link = "Stun",
 			Name = "Stun",
-			Status = { "Stuns the enemy, interrupting many actions for a time" }
+			Status = { "Briefly opens enemy up to a finisher" }
 		},
 		Tear = {
 			Color = "#7a5254",

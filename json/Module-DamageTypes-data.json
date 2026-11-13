@@ -4,9 +4,9 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-11-07T08:31:23.366Z"
+    "converted_at": "2026-11-13T09:15:23.601Z"
   },
-  "_comments": "\t\t--- Depreciated health/armor types as of U36; keeping to preserve links and template calls on wiki\n\t\t-- Unsure if PT_GLUE is associated with \"Slow\"\n--[==[creation script:\n--health type patch creation:\n\t\t\t--error(v[1])\n--[= =[\n\t\t\t--put patch script here\n\t\t\t\t--\t  total\t  [valname][other one]   +-val\n\t--HSL to RGB converter\n\t--mostly by u:gigamicro\n\t--C and m from https://www.rapidtables.com/convert/color/hsl-to-rgb.html\n\t--where the horizontal axis is H, _ is m, ‾ is C+m, and /\\ are linterps\n\t--r ‾\\__/‾\n\t--g /‾‾\\__\n\t--b __/‾‾\\\n\t--hex\n\t--t.Positives, t.Negatives, t.Bypass = t.Positives[1] and t.Positives, t.Negatives[1] and t.Negatives, t.Bypass[1] and t.Bypass -- empty lists -> nil\n--]==]",
+  "_comments": "\t\t--- Depreciated health/armor types as of U36; keeping to preserve links and template calls on wiki\n\t\t-- Unclear what this actually does, as Parry uses PT_STUNNED and Duviri parries use PT_COUNTERED\n\t\t-- Unsure if PT_GLUE is associated with \"Slow\"\n--[==[creation script:\n--health type patch creation:\n\t\t\t--error(v[1])\n--[= =[\n\t\t\t--put patch script here\n\t\t\t\t--\t  total\t  [valname][other one]   +-val\n\t--HSL to RGB converter\n\t--mostly by u:gigamicro\n\t--C and m from https://www.rapidtables.com/convert/color/hsl-to-rgb.html\n\t--where the horizontal axis is H, _ is m, ‾ is C+m, and /\\ are linterps\n\t--r ‾\\__/‾\n\t--g /‾‾\\__\n\t--b __/‾‾\\\n\t--hex\n\t--t.Positives, t.Negatives, t.Bypass = t.Positives[1] and t.Positives, t.Negatives[1] and t.Negatives, t.Bypass[1] and t.Bypass -- empty lists -> nil\n--]==]",
   "Notes": [
     "Does not affect Bosses.",
     "Does not affect Rollers, Regulators, Latchers or Ospreys.",
@@ -1198,7 +1198,7 @@
       "CSSTextColorClass": "var(--dt-default-text-color)",
       "Name": "Parried",
       "Status": [
-        "Opens enemy up to a counter-finisher"
+        "Unknown effect"
       ],
       "InternalName": "PT_PARRIED",
       "Icon": "UnidentifiedItem.png",
@@ -1242,7 +1242,7 @@
       "CSSTextColorClass": "var(--dt-default-text-color)",
       "Name": "PT_VOID",
       "Status": [
-        "Unknown; may be old version of bullet attractor (PT_RADIANT)"
+        "Resets Sentient adaptations"
       ],
       "InternalName": "PT_VOID",
       "Icon": "UnidentifiedItem.png",
@@ -1538,6 +1538,23 @@
       "Icon": "WebbedEmbraceIcon(xWhite).png",
       "CSSBorderColorClass": "var(--dt-default-border-color)"
     },
+    "Bullet Attractor": {
+      "GlyphImage": "EssentialVoidGlyph.png",
+      "Link": "Damage/Void Damage",
+      "Color": "#085e50",
+      "Status": [
+        "Spawn a bullet attraction field on target"
+      ],
+      "DarkModeColor": "#15c8ab",
+      "CSSBackgroundColorClass": "var(--dt-void-background-color)",
+      "Name": "Bullet Attractor",
+      "CSSTextColorClass": "var(--dt-void-text-color)",
+      "InternalName": "PT_RADIANT",
+      "ColorBackground": "#c3dfd9",
+      "CSSBorderColorClass": "var(--dt-void-border-color)",
+      "Icon": "DmgVoidSmall64.png",
+      "ColorBorder": "#1c8d76"
+    },
     "Intoxicate": {
       "GlyphImage": "ToxinModBundleIcon.png",
       "Link": "Damage/Toxin Damage#Railjack",
@@ -1557,22 +1574,19 @@
       "Icon": "DmgToxinSmall64.png",
       "IsRailjack": true
     },
-    "Bullet Attractor": {
-      "GlyphImage": "EssentialVoidGlyph.png",
-      "Link": "Damage/Void Damage",
-      "Color": "#085e50",
+    "Countered": {
+      "Link": "Countered",
+      "Color": "#5d5d5d",
+      "DarkModeColor": "#d5d5d5",
+      "CSSBackgroundColorClass": "var(--dt-default-background-color)",
+      "CSSTextColorClass": "var(--dt-default-text-color)",
+      "Name": "Countered",
       "Status": [
-        "Spawn a bullet attraction field on target"
+        "(Duviri) Opens enemy up to a counter-finisher"
       ],
-      "DarkModeColor": "#15c8ab",
-      "CSSBackgroundColorClass": "var(--dt-void-background-color)",
-      "Name": "Bullet Attractor",
-      "CSSTextColorClass": "var(--dt-void-text-color)",
-      "InternalName": "PT_RADIANT",
-      "ColorBackground": "#c3dfd9",
-      "CSSBorderColorClass": "var(--dt-void-border-color)",
-      "Icon": "DmgVoidSmall64.png",
-      "ColorBorder": "#1c8d76"
+      "InternalName": "PT_COUNTERED",
+      "Icon": "UnidentifiedItem.png",
+      "CSSBorderColorClass": "var(--dt-default-border-color)"
     },
     "Confusion": {
       "GlyphImage": "EssentialRadiationGlyph.png",
@@ -1621,7 +1635,7 @@
       "CSSTextColorClass": "var(--dt-default-text-color)",
       "Name": "Stun",
       "Status": [
-        "Stuns the enemy, interrupting many actions for a time"
+        "Briefly opens enemy up to a finisher"
       ],
       "InternalName": "PT_STUNNED",
       "Icon": "StunIcon_b.png",
