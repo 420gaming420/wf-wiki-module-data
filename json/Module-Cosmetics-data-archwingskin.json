@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:54:09.208Z"
+    "converted_at": "2026-11-14T08:45:19.442Z"
   },
   "_comments": "",
   "Elytron Skin": {
@@ -99,7 +99,7 @@
   },
   "Exo-Sac Archwing Skin": {
     "Type": "Archwing Skin",
-    "Image": "GrendelSkin.png",
+    "Image": "Exo-SacArchwingSkin.png",
     "Description": "This alternative look for any Archwing is modeled on the exo-sac levitators that the glutton Karissh used to support his additional grafted-on stomachs.",
     "Link": "Exo-Sac Archwing Skin",
     "Name": "Exo-Sac Archwing Skin",

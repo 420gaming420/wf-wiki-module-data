@@ -1,12 +1,12 @@
 ---
 title: "Module:Baro/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Baro/data"
-wiki_timestamp: "2026-11-06T17:08:53Z"
+wiki_timestamp: "2026-11-13T14:02:57Z"
 ---
 
 Database contents initially seeded based on wikitables in [Baro\_Ki'Teer/Trades](/w/Baro_Ki%27Teer/Trades "Baro Ki'Teer/Trades") and [Baro\_Ki'Teer/ConsoleTrades](/w/Baro_Ki%27Teer/ConsoleTrades "Baro Ki'Teer/ConsoleTrades"). For full history see, [User:Anexera](/w/User:Anexera "User:Anexera")'s [Google Sheets](https://docs.google.com/spreadsheets/d/1cdT7M2qbOhZ01AQT2RaH8_6VL1yww4BHkTRtLzqZ7_g/edit#gid=632835097). See [Module:Baro/data/visits](/w/Module:Baro/data/visits "Module:Baro/data/visits") for Baro's historical visits.
 
-:   *Last updated: Fri, 06 Nov 2026 17:08:53 +0000 (UTC) by [User:Anexera](/w/User:Anexera "User:Anexera") ([change log](https://wiki.warframe.com/w/Module:Baro/data?diff=0))*
+:   *Last updated: Fri, 13 Nov 2026 14:02:57 +0000 (UTC) by [User:Anexera](/w/User:Anexera "User:Anexera") ([change log](https://wiki.warframe.com/w/Module:Baro/data?diff=0))*
 
 ## Contents
 
@@ -406,7 +406,8 @@ return {
 				"2025-03-07",
 				"2025-04-04",
 				"2025-10-03",
-				"2025-11-14"
+				"2025-11-14",
+				"2026-11-13"
 			},
 			PcOfferingDates = {
 				"2020-01-03",
@@ -760,7 +761,8 @@ return {
 				"2024-12-13",
 				"2025-05-16",
 				"2025-10-31",
-				"2026-05-15"
+				"2026-05-15",
+				"2026-11-13"
 			},
 			TennoConOfferingDates = {
 				"2025-07-19",
@@ -935,7 +937,8 @@ return {
 				"2023-10-06",
 				"2024-09-06",
 				"2025-06-27",
-				"2026-05-01"
+				"2026-05-01",
+				"2026-11-13"
 			},
 			PcOfferingDates = {
 				"2019-10-25",
@@ -1212,7 +1215,8 @@ return {
 				"2026-07-10",
 				"2026-08-07",
 				"2026-08-21",
-				"2026-09-04"
+				"2026-09-04",
+				"2026-11-13"
 			},
 			TennoConOfferingDates = {
 				"2024-07-26",
@@ -3939,7 +3943,8 @@ return {
 				"2025-08-22",
 				"2026-01-23",
 				"2026-04-03",
-				"2026-04-10"
+				"2026-04-10",
+				"2026-11-13"
 			},
 			PcOfferingDates = {
 				"2022-06-17"
@@ -4227,7 +4232,8 @@ return {
 				"2024-07-12",
 				"2025-12-26",
 				"2026-02-20",
-				"2026-07-10"
+				"2026-07-10",
+				"2026-11-13"
 			},
 			PcOfferingDates = {
 				"2016-02-26",
@@ -4749,7 +4755,8 @@ return {
 			Name = "Guimao Glyph",
 			OfferingDates = {
 				"2026-02-20",
-				"2026-03-06"
+				"2026-03-06",
+				"2026-11-13"
 			},
 			Type = "Glyph"
 		},
@@ -6595,7 +6602,8 @@ return {
 				"2026-02-20",
 				"2026-05-15",
 				"2026-08-07",
-				"2026-09-04"
+				"2026-09-04",
+				"2026-11-13"
 			},
 			PcOfferingDates = {
 				"2016-09-09",
@@ -7649,7 +7657,8 @@ return {
 				"2025-04-25",
 				"2025-05-02",
 				"2025-12-26",
-				"2026-03-06"
+				"2026-03-06",
+				"2026-11-13"
 			},
 			PcOfferingDates = {
 				"2016-05-20",
@@ -9301,7 +9310,8 @@ return {
 				"2026-04-03",
 				"2026-04-10",
 				"2026-08-07",
-				"2026-08-21"
+				"2026-08-21",
+				"2026-11-13"
 			},
 			PcOfferingDates = {
 				"2015-07-24",
@@ -9708,7 +9718,8 @@ return {
 				"2026-04-10",
 				"2026-06-12",
 				"2026-08-21",
-				"2026-10-16"
+				"2026-10-16",
+				"2026-11-13"
 			},
 			TennoConOfferingDates = {
 				"2023-08-26",
@@ -9737,7 +9748,8 @@ return {
 				"2026-04-10",
 				"2026-06-12",
 				"2026-08-21",
-				"2026-10-23"
+				"2026-10-23",
+				"2026-11-13"
 			},
 			TennoConOfferingDates = {
 				"2023-08-26",
@@ -9766,7 +9778,8 @@ return {
 				"2026-04-10",
 				"2026-06-12",
 				"2026-08-21",
-				"2026-10-02"
+				"2026-10-02",
+				"2026-11-13"
 			},
 			TennoConOfferingDates = {
 				"2023-08-26",
@@ -9795,7 +9808,8 @@ return {
 				"2026-04-10",
 				"2026-06-12",
 				"2026-08-21",
-				"2026-10-16"
+				"2026-10-16",
+				"2026-11-13"
 			},
 			TennoConOfferingDates = {
 				"2023-08-26",
@@ -10044,7 +10058,8 @@ return {
 			Link = "Glyph#Baro Ki'Teer Glyphs",
 			Name = "Murmur Glyph",
 			OfferingDates = {
-				"2026-03-06"
+				"2026-03-06",
+				"2026-11-13"
 			},
 			TennoConOfferingDates = {
 				"2026-07-11"
@@ -10074,7 +10089,8 @@ return {
 			Link = "Orbiter Decorations#Floofs",
 			Name = "Necraloid Floof",
 			OfferingDates = {
-				"2026-04-17"
+				"2026-04-17",
+				"2026-11-13"
 			},
 			TennoConOfferingDates = {
 				"2026-07-11"
@@ -10409,7 +10425,8 @@ return {
 				"2024-05-31",
 				"2025-03-07",
 				"2025-12-26",
-				"2026-03-20"
+				"2026-03-20",
+				"2026-11-13"
 			},
 			TennoConOfferingDates = {
 				"2023-08-26",
@@ -10510,7 +10527,8 @@ return {
 				"2025-04-18",
 				"2025-05-02",
 				"2025-12-26",
-				"2026-02-20"
+				"2026-02-20",
+				"2026-11-13"
 			},
 			TennoConOfferingDates = {
 				"2024-07-20",
@@ -10817,6 +10835,17 @@ return {
 				"2021-07-17"
 			},
 			Type = "Consumable"
+		},
+		["Orokin Glyph"] = {
+			CreditCost = 75000,
+			DucatCost = 60,
+			Image = "OrokinGlyph.png",
+			Link = "Glyph#Baro Ki'Teer Glyphs",
+			Name = "Orokin Glyph",
+			OfferingDates = {
+				"2026-11-13"
+			},
+			Type = "Glyph"
 		},
 		["Orokin Tower Extraction Scene"] = {
 			ConsoleOfferingDates = {
@@ -11399,7 +11428,8 @@ return {
 				"2026-05-01",
 				"2026-07-10",
 				"2026-09-04",
-				"2026-11-06"
+				"2026-11-06",
+				"2026-11-13"
 			},
 			PcOfferingDates = {
 				"2016-01-08",
@@ -11522,7 +11552,8 @@ return {
 				"2024-11-29",
 				"2026-03-20",
 				"2026-08-07",
-				"2026-09-04"
+				"2026-09-04",
+				"2026-11-13"
 			},
 			PcOfferingDates = {
 				"2016-01-08",
@@ -12043,7 +12074,8 @@ return {
 			OfferingDates = {
 				"2025-05-02",
 				"2025-12-12",
-				"2026-08-21"
+				"2026-08-21",
+				"2026-11-13"
 			},
 			TennoConOfferingDates = {
 				"2025-07-19",
@@ -12569,7 +12601,8 @@ return {
 				"2026-04-03",
 				"2026-04-10",
 				"2026-08-07",
-				"2026-09-04"
+				"2026-09-04",
+				"2026-11-13"
 			},
 			PcOfferingDates = {
 				"2014-12-26",
@@ -12751,7 +12784,8 @@ return {
 				"2024-11-15",
 				"2025-09-19",
 				"2025-10-24",
-				"2026-06-26"
+				"2026-06-26",
+				"2026-11-13"
 			},
 			PcOfferingDates = {
 				"2015-01-09",
@@ -13461,7 +13495,8 @@ return {
 				"2025-11-28",
 				"2026-04-03",
 				"2026-04-10",
-				"2026-09-04"
+				"2026-09-04",
+				"2026-11-13"
 			},
 			TennoConOfferingDates = {
 				"2024-07-20",
@@ -14016,7 +14051,8 @@ return {
 				"2025-09-05",
 				"2025-12-26",
 				"2026-03-06",
-				"2026-07-10"
+				"2026-07-10",
+				"2026-11-13"
 			},
 			TennoConOfferingDates = {
 				"2025-07-19",
@@ -14097,7 +14133,8 @@ return {
 				"2025-10-31",
 				"2026-01-23",
 				"2026-04-17",
-				"2026-09-04"
+				"2026-09-04",
+				"2026-11-13"
 			},
 			PcOfferingDates = {
 				"2015-10-30",
@@ -14917,7 +14954,8 @@ return {
 				"2025-08-08",
 				"2025-12-26",
 				"2026-03-20",
-				"2026-07-10"
+				"2026-07-10",
+				"2026-11-13"
 			},
 			PcOfferingDates = {
 				"2015-06-12",
@@ -16794,7 +16832,8 @@ return {
 				"2024-11-01",
 				"2026-03-06",
 				"2026-08-07",
-				"2026-08-21"
+				"2026-08-21",
+				"2026-11-13"
 			},
 			PcOfferingDates = {
 				"2016-02-26",
@@ -17318,7 +17357,8 @@ return {
 				"2025-02-07",
 				"2025-10-17",
 				"2026-02-06",
-				"2026-05-01"
+				"2026-05-01",
+				"2026-11-13"
 			},
 			PcOfferingDates = {
 				"2022-04-08"
@@ -17354,7 +17394,8 @@ return {
 				"2025-02-21",
 				"2025-05-30",
 				"2025-11-07",
-				"2026-06-12"
+				"2026-06-12",
+				"2026-11-13"
 			},
 			PcOfferingDates = {
 				"2022-03-25",
@@ -18600,7 +18641,8 @@ return {
 				"2025-10-17",
 				"2025-12-26",
 				"2026-03-06",
-				"2026-07-10"
+				"2026-07-10",
+				"2026-11-13"
 			},
 			PcOfferingDates = {
 				"2018-04-20",
@@ -19169,7 +19211,8 @@ return {
 			OfferingDates = {
 				"2025-04-18",
 				"2025-10-24",
-				"2026-05-01"
+				"2026-05-01",
+				"2026-11-13"
 			},
 			TennoConOfferingDates = {
 				"2025-07-19",
@@ -19987,7 +20030,8 @@ return {
 				"2024-06-28",
 				"2025-03-21",
 				"2025-12-26",
-				"2026-02-20"
+				"2026-02-20",
+				"2026-11-13"
 			},
 			PcOfferingDates = {
 				"2021-08-13",
@@ -20413,7 +20457,8 @@ return {
 			Link = "Xoris Elixis Skin",
 			Name = "Xoris Elixis Skin",
 			OfferingDates = {
-				"2026-05-01"
+				"2026-05-01",
+				"2026-11-13"
 			},
 			TennoConOfferingDates = {
 				"2026-07-11"

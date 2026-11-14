@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/emblem"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/emblem"
-wiki_timestamp: "2026-10-24T00:17:57Z"
+wiki_timestamp: "2026-11-13T20:03:38Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/emblem/doc](/w/Module:Cosmetics/data/emblem/doc?action=edit&redlink=1 "Module:Cosmetics/data/emblem/doc (page does not exist)")*
@@ -276,6 +276,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Clan/CYDuowanMediaBadge",
         Link = "DUOWAN EMBLEM",
         Name = "DUOWAN EMBLEM",
+        Type = "Emblem"
+    },
+    ["Eight Claw Emblem"] = {
+        CodexSecret = false,
+        Description = "Show your dedication to Operation: Eight Claw with this emblem.",
+        ExcludeFromCodex = false,
+        Image = "EightClawEmblem(ExWhite).png",
+        InternalName = "/Lotus/Upgrades/Skins/Clan/EightClawEventBadgeItem",
+        Link = "Eight Claw Emblem",
+        Name = "Eight Claw Emblem",
         Type = "Emblem"
     },
     ["Emblem of the Hunt"] = {

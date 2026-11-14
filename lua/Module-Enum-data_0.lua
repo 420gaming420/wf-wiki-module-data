@@ -228,6 +228,40 @@ return {
 		["SLIDE"] = 5,	-- While sliding
 		["CROUCH"] = 6,	-- While crouching (used by Lie In Wait mod)
 	},
+	-- Status Effects
+	ProcType = {
+		["PT_KNOCKBACK"] = 0, -- Impact
+		["PT_FRAILTY"] = 1, -- Puncture
+		["PT_BLEEDING"] = 2, -- Slash
+		["PT_IMMOLATION"] = 3, -- Heat
+		["PT_CHILLED"] = 4, -- Cold
+		["PT_ELECTROCUTION"] = 5, -- Electricity
+		["PT_POISONED"] = 6, -- Toxin
+		["PT_FLASHBANG"] = 7, -- Blast
+		["PT_RAD_TOX"] = 8, -- Radiation
+		["PT_ASPHYXIATION"] = 9, -- Gas
+		["PT_MAGNETIZED"] = 10, -- Magnetic
+		["PT_INFECTED"] = 11, -- Viral
+		["PT_CAUSTIC_BURN"] = 12, -- Corrosive
+		["PT_RADIANT"] = 13, -- Void
+		["PT_SENTIENT"] = 14, -- Tau
+		["PT_MICROWAVE_BURN"] = 15,
+		["PT_STAGGERED"] = 16,
+		["PT_BIG_STAGGER"] = 17,
+		["PT_STUNNED"] = 18,
+		["PT_KNOCKED_DOWN"] = 19,
+		["PT_RAGDOLL"] = 20,
+		["PT_PARRIED"] = 21,
+		["PT_DISARMED"] = 22,
+		["PT_SILENCED"] = 23,
+		["PT_ROOTS"] = 24, -- Impair
+		["PT_VOID"] = 25,
+		["PT_GLUE"] = 26, -- Slow
+		["PT_SLEEP"] = 27,
+		["PT_LIFT_HIT"] = 28, -- Lifted
+		["PT_COUNTERED"] = 29,
+		["MAX_ProcType"] = 30,
+	},
 	PVP = {
 		["INVALID"] = 0,
 		["PVE_ONLY"] = 1,
@@ -239,6 +273,43 @@ return {
 		["UNCOMMON"] = 1,
 		["RARE"] = 2,
 		["LEGENDARY"] = 3,
+	},
+	--- Mix of D2.0 Health/Armor/Shield Types and current D3.0 Faction Resistances
+	ResistanceKey = {
+		["RK_NONE"] = 0,
+		["RK_FLESH"] = 1,
+		["RK_CLONED_FLESH"] = 2,
+		["RK_INFESTED_FLESH"] = 3,
+		["RK_TENNO_FLESH"] = 4,
+		["RK_ROBOTIC"] = 5,
+		["RK_MACHINERY"] = 6,
+		["RK_INFESTED"] = 7,
+		["RK_FOSSILIZED"] = 8,
+		["RK_FRACTURE"] = 9,
+		["RK_ARMOR"] = 10,
+		["RK_HULKING_ARMOR"] = 11,
+		["RK_INFESTED_ARMOUR"] = 12,
+		["RK_TENNO_ARMOR"] = 13,
+		["RK_SHIELD"] = 14,
+		["RK_HEAVY_SHIELD"] = 15,
+		["RK_TENNO_SHIELD"] = 16,
+		["RK_OVERGUARD"] = 17,
+		["RK_DISABLE_FACTION"] = 18,
+		["RK_NEUTRAL"] = 19,
+		["RK_GRINEER_FACTION"] = 20,
+		["RK_INFESTED_FACTION"] = 21,
+		["RK_CORPUS_FACTION"] = 22,
+		["RK_MITW_FACTION"] = 23, -- Murmur
+		["RK_SENTIENT_FACTION"] = 24,
+		["RK_OROKIN_FACTION"] = 25,
+		["RK_NARMER_FACTION"] = 26,
+		["RK_ZARIMAN_FACTION"] = 27,
+		["RK_LASRIA_FACTION"] = 28, -- Scaldra
+		["RK_GRINEER_KUVA_FACTION"] = 29,
+		["RK_INFESTED_DEIMOS_FACTION"] = 30,
+		["RK_CORPUS_AMALGAM_FACTION"] = 31,
+		["RK_PROTOINFESTED_FACTION"] = 32, -- Techrot
+		["RK_OROKIN_EMPIRE_FACTION"] = 33, -- Anarchs
 	},
 	RoundingMode = {
 		["RM_ROUND"] = 0,

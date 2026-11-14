@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/weaponskin"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/weaponskin"
-wiki_timestamp: "2026-11-06T09:06:40Z"
+wiki_timestamp: "2026-11-13T22:56:50Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/weaponskin/doc](/w/Module:Cosmetics/data/weaponskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/weaponskin/doc (page does not exist)")*
@@ -5074,7 +5074,7 @@ return {
         CodexSecret = false,
         Description = "Give the Operator Amp the rugged look of the Drifter's Sirocco pistol.",
         ExcludeFromCodex = true,
-        Image = "SiroccoAmpSkin.png",
+        Image = "Sirocco.png",
         InternalName = "/Lotus/Upgrades/Skins/Operator/Amp/DrifterAmpSkin",
         Link = "Sirocco Amp Skin",
         Name = "Sirocco Amp Skin",

@@ -4,9 +4,42 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:57:31.403Z"
+    "converted_at": "2026-11-14T08:45:44.826Z"
   },
-  "_comments": "\t-- Linking game model bones to appropriate locations \n\t-- Used in Modular system\n\t-- For modular Kitguns\n\t-- For mod base drain and max rank\n\t-- Stance combos\n\t-- Likely for weapon rigging\n\t-- See https://wiki.warframe.com/w/Public_Export\n\t-- Extrapolated from https://wiki.warframe.com/w/Public_Export#ExportRegions_Nodes_Schema\n\t-- and https://wiki.warframe.com/w/World_State#Mission_Type\n\t\t-- Unknown\n\t\t-- Pursuit\n\t\t-- Don't know where these go\n\t-- Calculating upgrade bonuses\n\t-- For modular weapon system\n\t-- Avatar animation state\n\t-- Player trading flags",
+  "_comments": "\t-- Linking game model bones to appropriate locations \n\t-- Used in Modular system\n\t-- For modular Kitguns\n\t-- For mod base drain and max rank\n\t-- Stance combos\n\t-- Likely for weapon rigging\n\t-- See https://wiki.warframe.com/w/Public_Export\n\t-- Extrapolated from https://wiki.warframe.com/w/Public_Export#ExportRegions_Nodes_Schema\n\t-- and https://wiki.warframe.com/w/World_State#Mission_Type\n\t\t-- Unknown\n\t\t-- Pursuit\n\t\t-- Don't know where these go\n\t-- Calculating upgrade bonuses\n\t-- For modular weapon system\n\t-- Avatar animation state\n\t-- Status Effects\n\t--- Mix of D2.0 Health/Armor/Shield Types and current D3.0 Faction Resistances\n\t-- Player trading flags",
+  "ProcType": {
+    "MAX_ProcType": 30,
+    "PT_PARRIED": 21,
+    "PT_FRAILTY": 1,
+    "PT_SILENCED": 23,
+    "PT_COUNTERED": 29,
+    "PT_RAGDOLL": 20,
+    "PT_CAUSTIC_BURN": 12,
+    "PT_MICROWAVE_BURN": 15,
+    "PT_IMMOLATION": 3,
+    "PT_STUNNED": 18,
+    "PT_RAD_TOX": 8,
+    "PT_KNOCKBACK": 0,
+    "PT_FLASHBANG": 7,
+    "PT_STAGGERED": 16,
+    "PT_KNOCKED_DOWN": 19,
+    "PT_BIG_STAGGER": 17,
+    "PT_GLUE": 26,
+    "PT_VOID": 25,
+    "PT_INFECTED": 11,
+    "PT_BLEEDING": 2,
+    "PT_DISARMED": 22,
+    "PT_SLEEP": 27,
+    "PT_CHILLED": 4,
+    "PT_POISONED": 6,
+    "PT_RADIANT": 13,
+    "PT_MAGNETIZED": 10,
+    "PT_SENTIENT": 14,
+    "PT_ELECTROCUTION": 5,
+    "PT_LIFT_HIT": 28,
+    "PT_ROOTS": 24,
+    "PT_ASPHYXIATION": 9
+  },
   "InventorySlot": {
     "SLOT_7": 6,
     "SLOT_9": 8,
@@ -40,6 +73,9 @@
     "LWPT_HILT_WEIGHT": 2,
     "LWPT_MOA_LEG": 9
   },
+  "TransferenceSupport": {
+    "TS_OPERATOR_ONLY": 0
+  },
   "GripType": {
     "DUAL_GUN_GUN": 2,
     "MELEE_ONE_HAND": 0,
@@ -51,8 +87,9 @@
   "Shooting": {
     "ST_EXPONENTIAL": 0
   },
-  "TransferenceSupport": {
-    "TS_OPERATOR_ONLY": 0
+  "TradeCapability": {
+    "RO_ALWAYS": 1,
+    "RO_NEVER": 0
   },
   "ArtifactPolarity": {
     "AP_UMBRA": 8,
@@ -100,9 +137,8 @@
     "MS_AKIMBO_DAGGER": 4,
     "MS_AKIMBO_SHORT_SWORD": 1
   },
-  "TradeCapability": {
-    "RO_ALWAYS": 1,
-    "RO_NEVER": 0
+  "StackMode": {
+    "SM_DECAY": 0
   },
   "DamageType": {
     "DT_HEALTH_DRAIN": 17,
@@ -165,8 +201,9 @@
     "QA_LOW": 0,
     "QA_HIGH": 2
   },
-  "StackMode": {
-    "SM_DECAY": 0
+  "RoundingMode": {
+    "RM_CEILING": 1,
+    "RM_ROUND": 0
   },
   "MissionType": {
     "MT_ARENA": 22,
@@ -198,9 +235,11 @@
     "MT_MOBILE_DEFENSE": 9,
     "MT_RETRIEVAL": 14
   },
-  "RoundingMode": {
-    "RM_CEILING": 1,
-    "RM_ROUND": 0
+  "PVP": {
+    "UNIVERSAL": 3,
+    "INVALID": 0,
+    "PVP_ONLY": 2,
+    "PVE_ONLY": 1
   },
   "BarrelType": {
     "BT_AUTO_HITSCAN": 0,
@@ -212,11 +251,41 @@
     "LEGENDARY": 3,
     "RARE": 2
   },
-  "PVP": {
-    "UNIVERSAL": 3,
-    "INVALID": 0,
-    "PVP_ONLY": 2,
-    "PVE_ONLY": 1
+  "ResistanceKey": {
+    "RK_SENTIENT_FACTION": 24,
+    "RK_INFESTED_ARMOUR": 12,
+    "RK_CORPUS_AMALGAM_FACTION": 31,
+    "RK_FRACTURE": 9,
+    "RK_INFESTED": 7,
+    "RK_ROBOTIC": 5,
+    "RK_OVERGUARD": 17,
+    "RK_INFESTED_DEIMOS_FACTION": 30,
+    "RK_NARMER_FACTION": 26,
+    "RK_PROTOINFESTED_FACTION": 32,
+    "RK_TENNO_FLESH": 4,
+    "RK_FLESH": 1,
+    "RK_HULKING_ARMOR": 11,
+    "RK_MITW_FACTION": 23,
+    "RK_NEUTRAL": 19,
+    "RK_CLONED_FLESH": 2,
+    "RK_SHIELD": 14,
+    "RK_FOSSILIZED": 8,
+    "RK_MACHINERY": 6,
+    "RK_ZARIMAN_FACTION": 27,
+    "RK_TENNO_ARMOR": 13,
+    "RK_INFESTED_FLESH": 3,
+    "RK_OROKIN_EMPIRE_FACTION": 33,
+    "RK_GRINEER_KUVA_FACTION": 29,
+    "RK_LASRIA_FACTION": 28,
+    "RK_ARMOR": 10,
+    "RK_CORPUS_FACTION": 22,
+    "RK_INFESTED_FACTION": 21,
+    "RK_DISABLE_FACTION": 18,
+    "RK_GRINEER_FACTION": 20,
+    "RK_NONE": 0,
+    "RK_TENNO_SHIELD": 16,
+    "RK_HEAVY_SHIELD": 15,
+    "RK_OROKIN_FACTION": 25
   },
   "ArtifactSlot": {
     "ARCANE": 4,

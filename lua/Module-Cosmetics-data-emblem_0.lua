@@ -269,6 +269,16 @@ return {
         Name = "DUOWAN EMBLEM",
         Type = "Emblem"
     },
+    ["Eight Claw Emblem"] = {
+        CodexSecret = false,
+        Description = "Show your dedication to Operation: Eight Claw with this emblem.",
+        ExcludeFromCodex = false,
+        Image = "EightClawEmblem(ExWhite).png",
+        InternalName = "/Lotus/Upgrades/Skins/Clan/EightClawEventBadgeItem",
+        Link = "Eight Claw Emblem",
+        Name = "Eight Claw Emblem",
+        Type = "Emblem"
+    },
     ["Emblem of the Hunt"] = {
         CodexSecret = false,
         Description = "An emblem awarded to the Tenno who hunted down Alad V.",

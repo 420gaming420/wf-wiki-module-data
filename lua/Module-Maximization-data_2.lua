@@ -154,66 +154,113 @@ local Data = {
 			{name='PATH_OF_STATUES', cont=Tooltips.full('Path of Statues', 'Mods')..'?', type='checkbox'}
 		}),
 		outs={
-			{Tooltips.full('Impact', 'DamageTypes')..' damage:', {name='BASE_DMG', expr=[[
-				FACTION_DMG_MOD MELEE_DMG_MOD STR 100 0 RUBBLE_HEAP if + 350 %of %of %of COMBO_MULT *
-			]]}},
-			{'Elemental damage:', {name='ELEMENT_DMG', expr='ELEMENT_DMG_MOD BASE_DMG %of'}},
-			{'Total damage:', {name='TOTAL_DMG', expr='BASE_DMG ELEMENT_DMG +'}},
-			{'Range:', {expr='12 24 RUBBLE_HEAP if', suff='m'}},
-			{'Punch radius:', {expr='RNG 4 2 6 3 8 PUNCH_NUMBER 3 v_match:= %of', suff='m'}},
-			{'Path duration:', {name='PATH_DUR', expr='DUR 12 %of 0 PATH_OF_STATUES if ', suff='s'}},
-			{'Petrify duration:', {expr='PATH_DUR 2 /', suff='s'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 0 { 1 2 2 3 4 PUNCH_NUMBER 3 v_match:= / COST } RUBBLE_HEAP if run *'}},
+			{'Damage multiplier:',
+				{
+					name='LANDSLIDE_DMG_MULT',
+					expr=[[COMBO_MULT FACTION_DMG_MOD MELEE_DMG_MOD
+						STR 100 0 RUBBLE_HEAP if + %of %of *
+						]]
+				},
+				style='display:none'
+			},
+			{Tooltips.full('Landslide Fists', 'Weapons')..' damage:',
+				{expr='LANDSLIDE_DMG_MULT 350 %of dupe ELEMENT_DMG_MOD %of +'}
+			},
+			{'Cast range:', {expr='24 12 RUBBLE_HEAP if', suff='m', fmt='1dec'}},
+			{'Punch radius:', {expr='RNG 2 2 PUNCH_NUMBER * + %of', suff='m', fmt='1dec'}},
+			{'Path duration:',
+				{name='PATH_DUR', expr='DUR 12 %of 0 PATH_OF_STATUES if', suff='s', fmt='2dec'}
+			},
+			{'Petrify duration:', {expr='PATH_DUR 2 /', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:',
+				{expr='0 25 COST * 1 2 PUNCH_NUMBER 1 - ^ / * RUBBLE_HEAP if', fmt='2dec'}
+			},
 		}
 	},
 	['Tectonics']={
 		ins={
 			{name='ATLAS_ARMOR', cont="Atlas' "..Tooltips.full('Armor', 'Stats')..':', default='475', min='0'},
 			{name='ABSORBED_DAMAGE', cont='Absorbed damage:', min='0', default='0'},
+			{name='TECTONIC_FRACTURE', cont=Tooltips.full('Tectonic Fracture', 'Mods')..'?', type='checkbox'}
 		},
 		outs={
 			{'Bulwark health:', {expr='ATLAS_ARMOR 5 * 1500 + STR %of ABSORBED_DAMAGE +'}},
-			{'Bulwark inflicted'..Tooltips.full('Slash', 'DamageTypes')..' damage multiplier:', {expr='STR 1 %of', suff='%', fmt='2sig'}},
-			{'Boulder rolling '..Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 600 %of'}},
-			{'Boulder explosion '..Tooltips.full('Puncture', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
-			{'Boulder explosion radius:', {expr='RNG 5 %of', suff='m'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}},
+			{'Bulwark inflicted '..Tooltips.full('Slash', 'DamageTypes')..' damage multiplier:',
+				{expr='STR 100 %of', suff='%', fmt='2dec'}
+			},
+			{'Boulder rolling '..Tooltips.full('Impact', 'DamageTypes')..' damage:',
+				{expr='0 STR 600 %of TECTONIC_FRACTURE if'}
+			},
+			{'Boulder explosion '..Tooltips.full('Puncture', 'DamageTypes')..' damage:',
+				{expr='0 STR 500 %of TECTONIC_FRACTURE if'}
+			},
+			{'Boulder explosion radius:',
+				{expr='0 RNG 5 %of TECTONIC_FRACTURE if', suff='m', fmt='1dec'}
+			},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}},
 		}
 	},
 	['Petrify']={
 		ins={
-			{name='ORE_GAZE_AUGMENT', cont=Tooltips.full('Ore Gaze', 'Mods')..'?', type='checkbox'}
+			{name='ORE_GAZE', cont=Tooltips.full('Ore Gaze', 'Mods')..'?', type='checkbox'}
 		},
 		outs={
-			{'Rumbler health restored:', {expr='STR 100 %of', suff='%'}},
-			{'Petrify duration:', {expr='DUR 20 %of', suff='s'}},
-			{'Targeting cone range:', {expr='RNG 14 %of', suff='m'}},
-			{'Chance to drop additional loot when killed:', {expr='STR 25 %of 0 ORE_GAZE_AUGMENT if', suff='%'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}},
+			{'Rumbler health restored:', {expr='STR 100 %of 100 min', suff='%', fmt='2dec'}},
+			{'Petrify duration:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
+			{'Targeting cone range:', {expr='RNG 14 %of', suff='m', fmt='1dec'}},
+			{'Chance to drop additional loot when killed:',
+				{expr='STR 25 %of 100 min 0 ORE_GAZE if', suff='%', fmt='2dec'}
+			},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}},
 		}
 	},
 	['Rumblers']={
 		ins={
-			{name='PERCENT_HEALTH_BONUS', cont='Percent health bonus:', default='0'},
-			{name='FLAT_HEALTH_BONUS', cont='Flat health bonus:', default='0'},
-			{name='PERCENT_SHIELD_BONUS', cont='Percent shield bonus:', default='0'},
-			{name='PERCENT_ARMOR_BONUS', cont='Percent armor bonus:', default='0'},
-			{name='FLAT_ARMOR_BONUS', cont='Flat armor bonus:', default='0'},
+			{name='PERCENT_HEALTH_BONUS', cont='Health % bonus:', default='0'},
+			{name='FLAT_HEALTH_BONUS', cont='Flat Health bonus:', default='0'},
+			{name='PERCENT_SHIELD_BONUS', cont='Shield % bonus:', default='0'},
+			{name='PERCENT_ARMOR_BONUS', cont='Armor % bonus:', default='0'},
+			{name='FLAT_ARMOR_BONUS', cont='Flat Armor bonus:', default='0'},
+			{name='TITANIC_RUMBLER', cont=Tooltips.full('Titanic Rumbler', 'Mods')..'?', type='checkbox'}
 		},
 		outs={
-			{'Base health:', {name='RUMBLERS_BASE_HEALTH', expr='STR 1200 %of'}},
-			{'Total health:', {name='RUMBLERS_TOTAL_HEALTH', expr='RUMBLERS_BASE_HEALTH 1 STR + PERCENT_HEALTH_BONUS + PERCENT_SHIELD_BONUS + * 100 1 PERCENT_HEALTH_BONUS + * + FLAT_HEALTH_BONUS + 100 1 PERCENT_SHIELD_BONUS + * +'}},
-			{'Base armor:', {name='RUMBLERS_BASE_ARMOR', expr='STR 500 %of'}},
-			{'Total armor:', {name='RUMBLERS_TOTAL_ARMOR', expr='RUMBLERS_BASE_ARMOR 1 STR + PERCENT_ARMOR_BONUS + * FLAT_ARMOR_BONUS +'}},
-			{'Effective health:', {expr='RUMBLERS_TOTAL_ARMOR 300 + 300 / RUMBLERS_TOTAL_HEALTH *'}},
-			{'Melee '..Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 2000 %of'}},
-			{'Rock throw '..Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
-			{'Rock radius', {expr='RNG 6 %of', suff='m'}},
-			{'Self destruct '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 1250 %of'}},
-			{'Self destruct radius', {expr='RNG 6 %of', suff='m'}},
-			{'Duration:', {expr='DUR 45 %of', suff='s'}},
-			{'Speed multiplier:', {expr='RNG 1 %of 0.5 max 1.5 min', suff='x'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}},
+			{'Total Health:',
+				{
+					name='RUMBLERS_TOTAL_HEALTH',
+					expr=[[
+						1200
+						STR PERCENT_HEALTH_BONUS PERCENT_SHIELD_BONUS + + %of
+						100 1 PERCENT_HEALTH_BONUS as% + * FLAT_HEALTH_BONUS + +
+						100 1 PERCENT_SHIELD_BONUS as% + * +
+						3 1 TITANIC_RUMBLER if *
+						]]
+				}
+			},
+			{'Total Armor:',
+				{
+					name='RUMBLERS_TOTAL_ARMOR',
+					expr=[[
+						500 STR PERCENT_ARMOR_BONUS + %of FLAT_ARMOR_BONUS +
+						]]
+				}
+			},
+			{'Effective Health:',
+				{expr='RUMBLERS_TOTAL_ARMOR 300 + 300 / RUMBLERS_TOTAL_HEALTH *'}
+			},
+			{'Melee '..Tooltips.full('Impact', 'DamageTypes')..' damage:',
+				{expr='STR 2000 %of 4 1 TITANIC_RUMBLER if *'}
+			},
+			{'Rock throw '..Tooltips.full('Impact', 'DamageTypes')..' damage:',
+				{expr='STR 500 %of 4 1 TITANIC_RUMBLER if *'}
+			},
+			{'Self destruct '..Tooltips.full('Blast', 'DamageTypes')..' damage:',
+				{expr='STR 1250 %of'}
+			},
+			{'Duration:', {expr='DUR 45 %of', suff='s', fmt='2dec'}},
+			{'Rock radius', {expr='RNG 6 %of', suff='m', fmt='1dec'}},
+			{'Self destruct radius', {expr='RNG 6 %of', suff='m', fmt='1dec'}},
+			{'Speed multiplier:', {expr='RNG 1 %of 0.5 1.5 clamp', suff='x', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}},
 		}
 	},
 	-- Banshee

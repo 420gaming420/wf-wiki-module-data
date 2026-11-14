@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/warframeskin"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/warframeskin"
-wiki_timestamp: "2026-09-28T19:17:29Z"
+wiki_timestamp: "2026-11-13T21:47:56Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/warframeskin/doc](/w/Module:Cosmetics/data/warframeskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/warframeskin/doc (page does not exist)")*
@@ -14,6 +14,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "AmirGeminiSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Volt/WF1999VoltSkin",
+		Introduced = "38",
 		Link = "Amir Gemini Skin",
 		Name = "Amir Gemini Skin",
 		Type = "Skin"
@@ -24,6 +25,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "AoiGeminiSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Mag/WF1999MagSkin",
+		Introduced = "38",
 		Link = "Aoi Gemini Skin",
 		Name = "Aoi Gemini Skin",
 		Type = "Skin"
@@ -34,6 +36,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ArthurGeminiSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Excalibur/ExcaliburLasriaSkin",
+		Introduced = "38",
 		Link = "Arthur Gemini Skin",
 		Name = "Arthur Gemini Skin",
 		Type = "Skin"
@@ -44,6 +47,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "AshBaiHuSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Ninja/SWBaihuSkin",
+		Introduced = "19.11",
 		Link = "Ash Bai Hu Skin",
 		Name = "Ash Bai Hu Skin",
 		Type = "Skin"
@@ -54,6 +58,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "AshIchneumonSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Ninja/SWIchneumonSkin",
+		Introduced = "29.3.1",
 		Link = "Ash Ichneumon Skin",
 		Name = "Ash Ichneumon Skin",
 		Type = "Skin"
@@ -64,6 +69,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "AshImmortalSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Ninja/AshAlternateSkin",
+		Introduced = "11",
 		Link = "Ash Immortal Skin",
 		Name = "Ash Immortal Skin",
 		Type = "Skin"
@@ -74,6 +80,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "AshKogaSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Ninja/NinjaDeluxeSuit",
+		Introduced = "19.1",
 		Link = "Ash Koga Skin",
 		Name = "Ash Koga Skin",
 		Type = "Skin"
@@ -84,6 +91,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "AshPrime_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Ninja/AshPrimeSkin",
+		Introduced = "16.11",
 		Link = "Ash Prime Skin",
 		Name = "Ash Prime Skin",
 		Type = "Skin"
@@ -94,6 +102,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "AshRyugaSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Ninja/SWRyugaSkin",
+		Introduced = "25.7.7",
 		Link = "Ash Ryuga Skin",
 		Name = "Ash Ryuga Skin",
 		Type = "Skin"
@@ -104,6 +113,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "AshShroudSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Ninja/AshDeluxeSkin",
+		Introduced = "27.5",
 		Link = "Ash Shroud Skin",
 		Name = "Ash Shroud Skin",
 		Type = "Skin"
@@ -114,6 +124,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Ash_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Ninja/NinjaSkin",
+		Introduced = "Vanilla",
 		Link = "Ash Skin",
 		Name = "Ash Skin",
 		Type = "Skin"
@@ -124,6 +135,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "AshTsukuyomiSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Ninja/SWTsukuyomiSkin",
+		Introduced = "21.5",
 		Link = "Ash Tsukuyomi Skin",
 		Name = "Ash Tsukuyomi Skin",
 		Type = "Skin"
@@ -134,6 +146,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "AtlasBladeoftheLotusSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Brawler/SWAtlasBotLSkin",
+		Introduced = "30.2",
 		Link = "Atlas Blade of the Lotus Skin",
 		Name = "Atlas Blade of the Lotus Skin",
 		Type = "Skin"
@@ -144,6 +157,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "AtlasGraxxSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Brawler/SWAtlasGraxxSkin",
+		Introduced = "22.9",
 		Link = "Atlas Graxx Skin",
 		Name = "Atlas Graxx Skin",
 		Type = "Skin"
@@ -154,6 +168,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "AtlasKarstSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Brawler/AtlasDeluxeSkin",
+		Introduced = "24.7",
 		Link = "Atlas Karst Skin",
 		Name = "Atlas Karst Skin",
 		Type = "Skin"
@@ -164,6 +179,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "AtlasMonolithSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Brawler/SWMonolithSkin",
+		Introduced = "21.5",
 		Link = "Atlas Monolith Skin",
 		Name = "Atlas Monolith Skin",
 		Type = "Skin"
@@ -174,6 +190,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "AtlasPrime_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Brawler/AtlasPrimeSkin",
+		Introduced = "25.8",
 		Link = "Atlas Prime Skin",
 		Name = "Atlas Prime Skin",
 		Type = "Skin"
@@ -184,6 +201,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Atlas_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Brawler/BrawlerSkin",
+		Introduced = "17.5",
 		Link = "Atlas Skin",
 		Name = "Atlas Skin",
 		Type = "Skin"
@@ -194,6 +212,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "BansheeBladeoftheLotusSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Decree/SWBansheeBotLSkin",
+		Introduced = "23.1",
 		Link = "Banshee Blade of the Lotus Skin",
 		Name = "Banshee Blade of the Lotus Skin",
 		Type = "Skin"
@@ -204,6 +223,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "BansheeImmortalSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Decree/BansheeAlternateSkin",
+		Introduced = "11",
 		Link = "Banshee Immortal Skin",
 		Name = "Banshee Immortal Skin",
 		Type = "Skin"
@@ -214,6 +234,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "BansheePrime_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Decree/BansheePrimeSkin",
+		Introduced = "19.11.5",
 		Link = "Banshee Prime Skin",
 		Name = "Banshee Prime Skin",
 		Type = "Skin"
@@ -224,6 +245,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Banshee_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Decree/BansheeSkin",
+		Introduced = "7",
 		Link = "Banshee Skin",
 		Name = "Banshee Skin",
 		Type = "Skin"
@@ -234,6 +256,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "BansheeSonoritySkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Decree/SWSonoritySkin",
+		Introduced = "22.13",
 		Link = "Banshee Sonority Skin",
 		Name = "Banshee Sonority Skin",
 		Type = "Skin"
@@ -244,6 +267,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "BansheeSopranaSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Decree/BansheeDeluxeSuit",
+		Introduced = "18.9",
 		Link = "Banshee Soprana Skin",
 		Name = "Banshee Soprana Skin",
 		Type = "Skin"
@@ -254,6 +278,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "BansheeThrenodiaSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Decree/BansheeDeluxeBSkin",
+		Introduced = "44",
 		Link = "Banshee Threnodia Skin",
 		Name = "Banshee Threnodia Skin",
 		Type = "Skin",
@@ -264,6 +289,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "BansheeVoidshellSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Decree/BansheeVoidShellSkin",
+		Introduced = "35.5",
 		Link = "Banshee Voidshell Skin",
 		Name = "Banshee Voidshell Skin",
 		Type = "Skin"
@@ -274,6 +300,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "BaruukBedouinSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Pacifist/SWBedouinSkin",
+		Introduced = "27.3.8",
 		Link = "Baruuk Bedouin Skin",
 		Name = "Baruuk Bedouin Skin",
 		Type = "Skin"
@@ -284,6 +311,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "BaruukBladeoftheLotusSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Pacifist/SWBaruukBotLSkin",
+		Introduced = "30.2",
 		Link = "Baruuk Blade of the Lotus Skin",
 		Name = "Baruuk Blade of the Lotus Skin",
 		Type = "Skin"
@@ -294,6 +322,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "BaruukDoanSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Pacifist/BaruukDeluxeSkin",
+		Introduced = "33",
 		Link = "Baruuk Doan Skin",
 		Name = "Baruuk Doan Skin",
 		Type = "Skin"
@@ -304,6 +333,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "BaruukGraxxSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Pacifist/SWBaruukGraxxSkin",
+		Introduced = "25.7.7",
 		Link = "Baruuk Graxx Skin",
 		Name = "Baruuk Graxx Skin",
 		Type = "Skin"
@@ -314,6 +344,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "BaruukImmortalSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Pacifist/BaruukImmortalSkin",
+		Introduced = "32.0.2",
 		Link = "Baruuk Immortal Skin",
 		Name = "Baruuk Immortal Skin",
 		Type = "Skin"
@@ -324,6 +355,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "BaruukPeacemakerSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Pacifist/SWBaruukPeacemakerSkin",
+		Introduced = "35.6",
 		Link = "Baruuk Peacemaker Skin",
 		Name = "Baruuk Peacemaker Skin",
 		Type = "Skin"
@@ -334,6 +366,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "BaruukPrime_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Pacifist/BaruukPrimeSkin",
+		Introduced = "32.2.5",
 		Link = "Baruuk Prime Skin",
 		Name = "Baruuk Prime Skin",
 		Type = "Skin"
@@ -344,6 +377,7 @@ return {
      	ExcludeFromCodex = true,
      	Image = "BaruukShaoshiSkin.png",
      	InternalName = "/Lotus/Upgrades/Skins/Pacifist/BaruukDeluxeIISkin",
+     	Introduced = "43.5",
      	Link = "Baruuk Shaoshi Skin",
      	Name = "Baruuk Shaoshi Skin",
      	Type = "Skin"
@@ -354,6 +388,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "BaruukShiraanSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Pacifist/SWShiraanSkin",
+		Introduced = "30.1",
 		Link = "Baruuk Shiraan Skin",
 		Name = "Baruuk Shiraan Skin",
 		Type = "Skin"
@@ -364,6 +399,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Baruuk_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Pacifist/PacifistSkin",
+		Introduced = "24.2",
 		Link = "Baruuk Skin",
 		Name = "Baruuk Skin",
 		Type = "Skin"
@@ -374,6 +410,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "BaruukZamariuSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Pacifist/SWBaruukZamariuSkin",
+		Introduced = "30.2",
 		Link = "Baruuk Zamariu Skin",
 		Name = "Baruuk Zamariu Skin",
 		Type = "Skin"
@@ -394,6 +431,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "CalibanOrfeoSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Sentient/CalibanDeluxeSkin",
+		Introduced = "37.0",
 		Link = "Caliban Orfeo Skin",
 		Name = "Caliban Orfeo Skin",
 		Type = "Skin"
@@ -404,6 +442,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "CalibanPrime_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Sentient/CalibanPrimeSkin",
+		Introduced = "39.1",
 		Link = "Caliban Prime Skin",
 		Name = "Caliban Prime Skin",
 		Type = "Skin"
@@ -414,6 +453,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Caliban_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Sentient/SentientSkin",
+		Introduced = "31",
 		Link = "Caliban Skin",
 		Name = "Caliban Skin",
 		Type = "Skin"
@@ -424,6 +464,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ChromaDrevniSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Dragon/SWRFiveChromaDrevniSkin",
+		Introduced = "The Index Preview",
 		Link = "Chroma Drevni Skin",
 		Name = "Chroma Drevni Skin",
 		Type = "Skin"
@@ -434,6 +475,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ChromaDynastySkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Dragon/ChromaDeluxeSkin",
+		Introduced = "20.1",
 		Link = "Chroma Dynasty Skin",
 		Name = "Chroma Dynasty Skin",
 		Type = "Skin"
@@ -444,6 +486,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ChromaGraxxSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Dragon/SWGraxxChromaSkin",
+		Introduced = "22.19",
 		Link = "Chroma Graxx Skin",
 		Name = "Chroma Graxx Skin",
 		Type = "Skin"
@@ -454,6 +497,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "ChromaImmortalSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Dragon/ChromaAlternateSkin",
+		Introduced = "29.0.5",
 		Link = "Chroma Immortal Skin",
 		Name = "Chroma Immortal Skin",
 		Type = "Skin"
@@ -464,6 +508,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ChromaMorkaiSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Dragon/SWMorkaiSkin",
+		Introduced = "24.1",
 		Link = "Chroma Morkai Skin",
 		Name = "Chroma Morkai Skin",
 		Type = "Skin"
@@ -474,6 +519,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "ChromaPrime_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Dragon/ChromaPrimeSkin",
+		Introduced = "23.9",
 		Link = "Chroma Prime Skin",
 		Name = "Chroma Prime Skin",
 		Type = "Skin"
@@ -484,6 +530,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Chroma_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Dragon/ChromaSkin",
+		Introduced = "16",
 		Link = "Chroma Skin",
 		Name = "Chroma Skin",
 		Type = "Skin"
@@ -494,6 +541,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ChromaThyrusSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Dragon/SWThyrusSkin",
+		Introduced = "22.19",
 		Link = "Chroma Thyrus Skin",
 		Name = "Chroma Thyrus Skin",
 		Type = "Skin"
@@ -504,6 +552,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ChromaVojnikSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Dragon/SWRSixChromaVojnikSkin",
+		Introduced = "19.4",
 		Link = "Chroma Vojnik Skin",
 		Name = "Chroma Vojnik Skin",
 		Type = "Skin"
@@ -514,6 +563,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ChromaZunlongSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Dragon/ChromaLNYSkin",
+		Introduced = "35.0.11",
 		Link = "Chroma Zunlong Skin",
 		Name = "Chroma Zunlong Skin",
 		Type = "Skin"
@@ -524,6 +574,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "CitrineAphroditaSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Geode/CitrineDeluxeSkin",
+		Introduced = "39",
 		Link = "Citrine Aphrodita Skin",
 		Name = "Citrine Aphrodita Skin",
 		Type = "Skin"
@@ -534,6 +585,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "CitrinePrime_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Geode/CitrinePrimeSkin",
+		Introduced = "44",
 		Link = "Citrine Prime Skin",
 		Name = "Citrine Prime Skin",
 		Type = "Skin"
@@ -544,6 +596,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Citrine_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Geode/GeodeSkin",
+		Introduced = "32.3",
 		Link = "Citrine Skin",
 		Name = "Citrine Skin",
 		Type = "Skin"
@@ -554,6 +607,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Cyte-09_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Frumentarius/FrumentariusSkin",
+		Introduced = "38",
 		Link = "Cyte-09 Skin",
 		Name = "Cyte-09 Skin",
 		Type = "Skin"
@@ -564,6 +618,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Dagath_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Dagath/DagathSkin",
+		Introduced = "34",
 		Link = "Dagath Skin",
 		Name = "Dagath Skin",
 		Type = "Skin"
@@ -574,6 +629,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "DagathImmortalSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Dagath/DagathImmortalSkin",
+		Introduced = "43.5.4",
 		Link = "Dagath Immortal Skin",
 		Name = "Dagath Immortal Skin",
 		Type = "Skin"
@@ -584,6 +640,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "DagathYfariSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Dagath/DagathDeluxeLNYSkin",
+		Introduced = "41.1",
 		Link = "Dagath Yfari Skin",
 		Name = "Dagath Yfari Skin",
 		Type = "Skin"
@@ -594,6 +651,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Dante_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Pagemaster/PagemasterSkin",
+		Introduced = "35.5",
 		Link = "Dante Skin",
 		Name = "Dante Skin",
 		Type = "Skin"
@@ -615,6 +673,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "EleanorGeminiSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Jade/WF1999NyxSkin",
+		Introduced = "38",
 		Link = "Eleanor Gemini Skin",
 		Name = "Eleanor Gemini Skin",
 		Type = "Skin"
@@ -625,6 +684,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "EmberGraxxSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Ember/SWRSixEmberGraxxSkin",
+		Introduced = "19.4",
 		Link = "Ember Graxx Skin",
 		Name = "Ember Graxx Skin",
 		Type = "Skin"
@@ -635,6 +695,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "EmberHeirloomSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Ember/EmberHeirloomSkin",
+		Introduced = "36.0.5",
 		Link = "Ember Heirloom Skin",
 		Name = "Ember Heirloom Skin",
 		Type = "Skin"
@@ -645,6 +706,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "EmberIgnitionSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Ember/SWIgnitionSkin",
+		Introduced = "20.5",
 		Link = "Ember Ignition Skin",
 		Name = "Ember Ignition Skin",
 		Type = "Skin"
@@ -655,6 +717,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "EmberImmortalSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Ember/EmberAlternateSkin",
+		Introduced = "12.3",
 		Link = "Ember Immortal Skin",
 		Name = "Ember Immortal Skin",
 		Type = "Skin"
@@ -665,6 +728,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "EmberMagestySkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Ember/SWMagestySkin",
+		Introduced = "20.5",
 		Link = "Ember Magesty Skin",
 		Name = "Ember Magesty Skin",
 		Type = "Skin"
@@ -675,6 +739,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "EmberPrime_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Ember/EmberPrimeSkin",
+		Introduced = "11",
 		Link = "Ember Prime Skin",
 		Name = "Ember Prime Skin",
 		Type = "Skin"
@@ -685,6 +750,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "EmberPyraxisSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Ember/EmberDeluxeIISkin",
+		Introduced = "30.5",
 		Link = "Ember Pyraxis Skin",
 		Name = "Ember Pyraxis Skin",
 		Type = "Skin"
@@ -695,6 +761,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Ember_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Ember/EmberSkin",
+		Introduced = "Vanilla",
 		Link = "Ember Skin",
 		Name = "Ember Skin",
 		Type = "Skin"
@@ -705,6 +772,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "EmberTechnopyreSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Ember/SWTechnopyreSkin",
+		Introduced = "37",
 		Link = "Ember Technopyre Skin",
 		Name = "Ember Technopyre Skin",
 		Type = "Skin"
@@ -715,6 +783,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "EmberVermillionSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Ember/EmberDeluxeSkin",
+		Introduced = "22.2",
 		Link = "Ember Vermillion Skin",
 		Name = "Ember Vermillion Skin",
 		Type = "Skin"
@@ -725,6 +794,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "EmberVoidshellSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Ember/EmberVoidshellSkin",
+		Introduced = "32.3",
 		Link = "Ember Voidshell Skin",
 		Name = "Ember Voidshell Skin",
 		Type = "Skin"
@@ -735,6 +805,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "EquinoxAntonymSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/YinYang/EquinoxDeluxeSkin",
+		Introduced = "26.1",
 		Link = "Equinox Antonym Skin",
 		Name = "Equinox Antonym Skin",
 		Type = "Skin"
@@ -745,6 +816,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "EquinoxDivisaSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Anima/SWDivisaSkin",
+		Introduced = "24.1",
 		Link = "Equinox Divisa Skin",
 		Name = "Equinox Divisa Skin",
 		Type = "Skin"
@@ -755,6 +827,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "EquinoxInsomniaSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Anima/SWInsomniaSkin",
+		Introduced = "21.5",
 		Link = "Equinox Insomnia Skin",
 		Name = "Equinox Insomnia Skin",
 		Type = "Skin"
@@ -765,6 +838,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "EquinoxMegaeraSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Anima/SWMegaeraSkin",
+		Introduced = "24.1",
 		Link = "Equinox Megaera Skin",
 		Name = "Equinox Megaera Skin",
 		Type = "Skin"
@@ -775,6 +849,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "EquinoxPrime_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/YinYang/EquinoxPrimeSkin",
+		Introduced = "24.5.8",
 		Link = "Equinox Prime Skin",
 		Name = "Equinox Prime Skin",
 		Type = "Skin"
@@ -785,6 +860,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Equinox_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/YinYang/YinYangSkin",
+		Introduced = "17",
 		Link = "Equinox Skin",
 		Name = "Equinox Skin",
 		Type = "Skin"
@@ -795,6 +871,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ExcaliburAlabasterSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Excalibur/ExcaliburPrimeAlabasterSkin",
+		Introduced = "11",
 		Link = "Excalibur Alabaster Skin",
 		Name = "Excalibur Alabaster Skin",
 		Type = "Skin"
@@ -805,6 +882,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "ExcaliburAmethystSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Excalibur/DiscordExcalibur",
+		Introduced = "24.2.4",
 		Link = "Excalibur Amethyst Skin",
 		Name = "Excalibur Amethyst Skin",
 		Type = "Skin"
@@ -815,6 +893,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ExcaliburApexSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Excalibur/SWRFourExcaliburApexSkin",
+		Introduced = "The Silver Grove 1.0",
 		Link = "Excalibur Apex Skin",
 		Name = "Excalibur Apex Skin",
 		Type = "Skin"
@@ -825,6 +904,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ExcaliburBladeoftheLotusSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Excalibur/SWExcaliburBotLSkin",
+		Introduced = "29.3.1",
 		Link = "Excalibur Blade of the Lotus Skin",
 		Name = "Excalibur Blade of the Lotus Skin",
 		Type = "Skin"
@@ -835,6 +915,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ExcaliburCadutoSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Excalibur/SWRFourExcaliburCadutoSkin",
+		Introduced = "The Silver Grove 1.0",
 		Link = "Excalibur Caduto Skin",
 		Name = "Excalibur Caduto Skin",
 		Type = "Skin"
@@ -845,6 +926,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ExcaliburCorpraSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Excalibur/SWCorpraSkin",
+		Introduced = "22.11",
 		Link = "Excalibur Corpra Skin",
 		Name = "Excalibur Corpra Skin",
 		Type = "Skin"
@@ -855,6 +937,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ExcaliburDexSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Excalibur/ExcaliburDexSkin",
+		Introduced = "22.15.1",
 		Link = "Excalibur Dex Skin",
 		Name = "Excalibur Dex Skin",
 		Type = "Skin"
@@ -865,16 +948,18 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ExcaliburExaltationSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Excalibur/SWExaltationSkin",
+		Introduced = "23.1",
 		Link = "Excalibur Exaltation Skin",
 		Name = "Excalibur Exaltation Skin",
 		Type = "Skin"
 	},
 	["Excalibur Graxx Skin"] = {
 		CodexSecret = false,
-		Description = "A unique skin for the Excalibur Warframe, designed by Faven.\r\n\r\nComes with a bonus helmet.",
+		Description = "A unique skin for the Excalibur Warframe, designed by Faven.",
 		ExcludeFromCodex = false,
 		Image = "ExcaliburGraxxSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Excalibur/SWRFourExcaliburGraxxSkin",
+		Introduced = "The Silver Grove 1.0",
 		Link = "Excalibur Graxx Skin",
 		Name = "Excalibur Graxx Skin",
 		Type = "Skin"
@@ -885,6 +970,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ExcaliburImmortalSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Excalibur/ExcaliburAlternateSkin",
+		Introduced = "11",
 		Link = "Excalibur Immortal Skin",
 		Name = "Excalibur Immortal Skin",
 		Type = "Skin"
@@ -895,6 +981,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ExcaliburIonSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Excalibur/SWIonExcaliburSkin",
+		Introduced = "24.5",
 		Link = "Excalibur Ion Skin",
 		Name = "Excalibur Ion Skin",
 		Type = "Skin"
@@ -905,6 +992,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ExcaliburJadeSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Promo/Microsoft/ExcaliburXBoneSkin",
+		Introduced = "15.11.1",
 		Link = "Excalibur Jade Skin",
 		Name = "Excalibur Jade Skin",
 		Type = "Skin"
@@ -915,6 +1003,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "ExcaliburObsidianSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Sony/ExcaliburPSPlusSkin",
+		Introduced = "15.5.5",
 		Link = "Excalibur Obsidian Skin",
 		Name = "Excalibur Obsidian Skin",
 		Type = "Skin"
@@ -925,6 +1014,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "ExcaliburObsidianAzuraSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Excalibur/ObsidianExcaliburSkinB",
+		Introduced = "The Vacuum Within 3",
 		Link = "Excalibur Obsidian Azura Skin",
 		Name = "Excalibur Obsidian Azura Skin",
 		Type = "Skin"
@@ -935,6 +1025,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "ExcaliburOnyxSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/SteamEsteem/EsteemExcalibur",
+		Introduced = "21.0.6",
 		Link = "Excalibur Onyx Skin",
 		Name = "Excalibur Onyx Skin",
 		Type = "Skin"
@@ -945,6 +1036,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ExcaliburOpalSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Excalibur/NintendoExcalibur",
+		Introduced = "24.4.4.1",
 		Link = "Excalibur Opal Skin",
 		Name = "Excalibur Opal Skin",
 		Type = "Skin"
@@ -955,6 +1047,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "ExcaliburPrime_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Excalibur/ExcaliburPrimeSkin",
+		Introduced = "5",
 		Link = "Excalibur Prime Skin",
 		Name = "Excalibur Prime Skin",
 		Type = "Skin"
@@ -965,6 +1058,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ExcaliburPrismaSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/VoidTrader/VTExcaliburSkin",
+		Introduced = "16.9",
 		Link = "Excalibur Prisma Skin",
 		Name = "Excalibur Prisma Skin",
 		Type = "Skin"
@@ -985,6 +1079,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ExcaliburProto-ArmorSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Excalibur/ExcaliburProtoSuit",
+		Introduced = "12.6",
 		Link = "Excalibur Proto-Armor Skin",
 		Name = "Excalibur Proto-Armor Skin",
 		Type = "Skin"
@@ -995,6 +1090,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ExcaliburRoninSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Excalibur/SWRoninSkin",
+		Introduced = "23.1",
 		Link = "Excalibur Ronin Skin",
 		Name = "Excalibur Ronin Skin",
 		Type = "Skin"
@@ -1005,6 +1101,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ExcaliburSentientSlayerSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Excalibur/SWRThreeSentientSlayerSkin",
+		Introduced = "18.6.3",
 		Link = "Excalibur Sentient Slayer Skin",
 		Name = "Excalibur Sentient Slayer Skin",
 		Type = "Skin"
@@ -1015,6 +1112,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Excalibur_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Excalibur/ExcaliburSkin",
+		Introduced = "Vanilla",
 		Link = "Excalibur Skin",
 		Name = "Excalibur Skin",
 		Type = "Skin"
@@ -1025,6 +1123,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "ExcaliburUmbra_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Umbra/UmbraSkin",
+		Introduced = "23",
 		Link = "Excalibur Umbra Skin",
 		Name = "Excalibur Umbra Skin",
 		Type = "Skin"
@@ -1035,6 +1134,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ExcaliburVespulaSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Excalibur/SWROneExcaliburSkin",
+		Introduced = "17.12",
 		Link = "Excalibur Vespula Skin",
 		Name = "Excalibur Vespula Skin",
 		Type = "Skin"
@@ -1045,6 +1145,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ExcaliburVoidshellSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Excalibur/ExcaliburVeilBreakerSkin",
+		Introduced = "32",
 		Link = "Excalibur Voidshell Skin",
 		Name = "Excalibur Voidshell Skin",
 		Type = "Skin"
@@ -1055,6 +1156,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "ExcaliburZatoSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Excalibur/ExcaliburDeluxeSkin",
+		Introduced = "27",
 		Link = "Excalibur Zato Skin",
 		Name = "Excalibur Zato Skin",
 		Type = "Skin"
@@ -1065,6 +1167,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "FlareGeminiSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Temple/WF1999TempleSkin",
+		Introduced = "38.5",
 		Link = "Flare Gemini Skin",
 		Name = "Flare Gemini Skin",
 		Type = "Skin"
@@ -1075,6 +1178,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Follie_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Inkblot/InkblotSkin",
+		Introduced = "42",
 		Link = "Follie Skin",
 		Name = "Follie Skin",
 		Type = "Skin"
@@ -1085,6 +1189,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "FrostEmperorSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Frost/SWRSixFrostEmperorSkin",
+		Introduced = "19.4",
 		Link = "Frost Emperor Skin",
 		Name = "Frost Emperor Skin",
 		Type = "Skin"
@@ -1095,6 +1200,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "FrostFestiveSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Frost/FrostXmasSkin",
+		Introduced = "15.5.5",
 		Link = "Frost Festive Skin",
 		Name = "Frost Festive Skin",
 		Type = "Skin"
@@ -1105,6 +1211,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "FrostGrostSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Frost/SWRThreeFrostGrostSkin",
+		Introduced = "18.13",
 		Link = "Frost Grost Skin",
 		Name = "Frost Grost Skin",
 		Type = "Skin"
@@ -1115,6 +1222,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "FrostHailstormSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Frost/SWRThreeFrostHailstormSkin",
+		Introduced = "18.13",
 		Link = "Frost Hailstorm Skin",
 		Name = "Frost Hailstorm Skin",
 		Type = "Skin"
@@ -1125,6 +1233,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "FrostHarkaSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Frost/FrostDeluxeSuit",
+		Introduced = "19.6",
 		Link = "Frost Harka Skin",
 		Name = "Frost Harka Skin",
 		Type = "Skin"
@@ -1135,6 +1244,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "FrostHeirloomSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Frost/FrostHeirloomSkin",
+		Introduced = "33.6.6",
 		Link = "Frost Heirloom Skin",
 		Name = "Frost Heirloom Skin",
 		Type = "Skin"
@@ -1145,6 +1255,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "FrostHisameSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Frost/SWHisameSkin",
+		Introduced = "25.7.7",
 		Link = "Frost Hisame Skin",
 		Name = "Frost Hisame Skin",
 		Type = "Skin"
@@ -1155,6 +1266,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "FrostImmortalSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Frost/FrostAlternateSkin",
+		Introduced = "11",
 		Link = "Frost Immortal Skin",
 		Name = "Frost Immortal Skin",
 		Type = "Skin"
@@ -1165,6 +1277,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "FrostIonSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Frost/SWIonFrostSkin",
+		Introduced = "25.1",
 		Link = "Frost Ion Skin",
 		Name = "Frost Ion Skin",
 		Type = "Skin"
@@ -1175,6 +1288,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "FrostOpalSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Frost/NintendoFrost",
+		Introduced = "27.2.2",
 		Link = "Frost Opal Skin",
 		Name = "Frost Opal Skin",
 		Type = "Skin"
@@ -1185,6 +1299,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "FrostPrime_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Frost/FrostPrimeSkin",
+		Introduced = "7.10",
 		Link = "Frost Prime Skin",
 		Name = "Frost Prime Skin",
 		Type = "Skin"
@@ -1195,6 +1310,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Frost_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Frost/FrostSkin",
+		Introduced = "6",
 		Link = "Frost Skin",
 		Name = "Frost Skin",
 		Type = "Skin"
@@ -1205,6 +1321,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "FrostStrigidSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Frost/SWFrostStrigidSkin",
+		Introduced = "30.2",
 		Link = "Frost Strigid Skin",
 		Name = "Frost Strigid Skin",
 		Type = "Skin"
@@ -1215,6 +1332,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "FrostVoidshellSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Frost/FrostVoidShellSkin",
+		Introduced = "32.2",
 		Link = "Frost Voidshell Skin",
 		Name = "Frost Voidshell Skin",
 		Type = "Skin"
@@ -1225,6 +1343,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "FrostVojnikSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Frost/SWRThreeFrostVojnikSkin",
+		Introduced = "18.13",
 		Link = "Frost Vojnik Skin",
 		Name = "Frost Vojnik Skin",
 		Type = "Skin"
@@ -1235,6 +1354,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "GaraImmortalSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Glass/GaraAlternateSkin",
+		Introduced = "31.1.2",
 		Link = "Gara Immortal Skin",
 		Name = "Gara Immortal Skin",
 		Type = "Skin"
@@ -1245,6 +1365,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "GaraKaleidaSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Glass/GlassDeluxeSkin",
+		Introduced = "29.5",
 		Link = "Gara Kaleida Skin",
 		Name = "Gara Kaleida Skin",
 		Type = "Skin"
@@ -1255,6 +1376,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "GaraPrime_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Glass/GaraPrimeSkin",
+		Introduced = "30.3",
 		Link = "Gara Prime Skin",
 		Name = "Gara Prime Skin",
 		Type = "Skin"
@@ -1265,6 +1387,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Gara_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Glass/GlassSkin",
+		Introduced = "22",
 		Link = "Gara Skin",
 		Name = "Gara Skin",
 		Type = "Skin"
@@ -1275,6 +1398,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "GaraZamariuSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Glass/SWZamariuSkin",
+		Introduced = "24.1",
 		Link = "Gara Zamariu Skin",
 		Name = "Gara Zamariu Skin",
 		Type = "Skin"
@@ -1285,6 +1409,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "GarudaHinsaSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Garuda/GarudaDeluxeSkin",
+		Introduced = "28",
 		Link = "Garuda Hinsa Skin",
 		Name = "Garuda Hinsa Skin",
 		Type = "Skin"
@@ -1295,6 +1420,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "GarudaHinsaTalonsSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Garuda/GarudaDeluxeClawsSkin",
+		Introduced = "28",
 		Link = "Garuda Hinsa Talons Skin",
 		Name = "Garuda Hinsa Talons Skin",
 		Type = "Skin"
@@ -1305,6 +1431,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "GarudaPrime_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Garuda/GarudaPrimeSkin",
+		Introduced = "31.3",
 		Link = "Garuda Prime Skin",
 		Name = "Garuda Prime Skin",
 		Type = "Skin"
@@ -1315,6 +1442,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Garuda_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Garuda/GarudaSkin",
+		Introduced = "24",
 		Link = "Garuda Skin",
 		Name = "Garuda Skin",
 		Type = "Skin"
@@ -1325,6 +1453,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "GarudaSuccessorSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Garuda/SWSuccessorSkin",
+		Introduced = "24.5",
 		Link = "Garuda Successor Skin",
 		Name = "Garuda Successor Skin",
 		Type = "Skin"
@@ -1335,6 +1464,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "GarudaTengushinSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Garuda/SWGarudaTengushinSkin",
+		Introduced = "29.3.1",
 		Link = "Garuda Tengushin Skin",
 		Name = "Garuda Tengushin Skin",
 		Type = "Skin"
@@ -1345,6 +1475,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "GarudaTiamatSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Garuda/SWTiamatSkin",
+		Introduced = "27.3.8",
 		Link = "Garuda Tiamat Skin",
 		Name = "Garuda Tiamat Skin",
 		Type = "Skin"
@@ -1355,6 +1486,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "GaussAgitoSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Runner/SWGaussAgitoSkin",
+		Introduced = "29.2.1",
 		Link = "Gauss Agito Skin",
 		Name = "Gauss Agito Skin",
 		Type = "Skin"
@@ -1365,6 +1497,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "GaussGraxxSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Runner/SWGaussGraxxSkin",
+		Introduced = "29.2.1",
 		Link = "Gauss Graxx Skin",
 		Name = "Gauss Graxx Skin",
 		Type = "Skin"
@@ -1375,6 +1508,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "GaussKresnikSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Runner/GaussDeluxeSkin",
+		Introduced = "33.5",
 		Link = "Gauss Kresnik Skin",
 		Name = "Gauss Kresnik Skin",
 		Type = "Skin"
@@ -1385,6 +1519,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "GaussMotoSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Runner/GaussDeluxeIISkin",
+		Introduced = "42",
 		Link = "Gauss Moto Skin",
 		Name = "Gauss Moto Skin",
 		Type = "Skin"
@@ -1395,6 +1530,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "GaussNitrolystSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Runner/SWGaussNitrolystSkin",
+		Introduced = "33",
 		Link = "Gauss Nitrolyst Skin",
 		Name = "Gauss Nitrolyst Skin",
 		Type = "Skin"
@@ -1405,6 +1541,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "GaussPrime_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Runner/GaussPrimeSkin",
+		Introduced = "35.0.9",
 		Link = "Gauss Prime Skin",
 		Name = "Gauss Prime Skin",
 		Type = "Skin"
@@ -1415,6 +1552,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Gauss_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Runner/RunnerSkin",
+		Introduced = "25.7",
 		Link = "Gauss Skin",
 		Name = "Gauss Skin",
 		Type = "Skin"
@@ -1425,6 +1563,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "GrendelMolochSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Devourer/SWMolochSkin",
+		Introduced = "30.1",
 		Link = "Grendel Moloch Skin",
 		Name = "Grendel Moloch Skin",
 		Type = "Skin"
@@ -1435,6 +1574,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "GrendelNianSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Devourer/GrendelDeluxeSkin",
+		Introduced = "31.1.3",
 		Link = "Grendel Nian Skin",
 		Name = "Grendel Nian Skin",
 		Type = "Skin"
@@ -1445,6 +1585,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "GrendelPrime_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Devourer/GrendelPrimeSkin",
+		Introduced = "34",
 		Link = "Grendel Prime Skin",
 		Name = "Grendel Prime Skin",
 		Type = "Skin"
@@ -1455,6 +1596,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Grendel_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Devourer/DevourerSkin",
+		Introduced = "26",
 		Link = "Grendel Skin",
 		Name = "Grendel Skin",
 		Type = "Skin"
@@ -1465,6 +1607,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "GrendelTurbisSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Devourer/GrendelDeluxeIISkin",
+		Introduced = "42",
 		Link = "Grendel Turbis Skin",
 		Name = "Grendel Turbis Skin",
 		Type = "Skin"
@@ -1475,6 +1618,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "GrendelVoidshellSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Devourer/GrendelVoidshellSkin",
+		Introduced = "32.2",
 		Link = "Grendel Voidshell Skin",
 		Name = "Grendel Voidshell Skin",
 		Type = "Skin"
@@ -1485,6 +1629,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "GyreKuvaelMonarchSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Gyre/SWGyreKuvealMonarchSkin",
+		Introduced = "35.6",
 		Link = "Gyre Kuvael Monarch Skin",
 		Name = "Gyre Kuvael Monarch Skin",
 		Type = "Skin"
@@ -1495,6 +1640,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "GyrePrime_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Gyre/GyrePrimeSkin",
+		Introduced = "41",
 		Link = "Gyre Prime Skin",
 		Name = "Gyre Prime Skin",
 		Type = "Skin"
@@ -1505,6 +1651,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Gyre_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Gyre/GyreSkin",
+		Introduced = "31.5",
 		Link = "Gyre Skin",
 		Name = "Gyre Skin",
 		Type = "Skin"
@@ -1515,6 +1662,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "GyreVortengeistSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Gyre/GyreDeluxeSkin",
+		Introduced = "38.5",
 		Link = "Gyre Vortengeist Skin",
 		Name = "Gyre Vortengeist Skin",
 		Type = "Skin"
@@ -1525,6 +1673,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "HarrowAlgalystSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Priest/SWAlgalystSkin",
+		Introduced = "31.1",
 		Link = "Harrow Algalyst Skin",
 		Name = "Harrow Algalyst Skin",
 		Type = "Skin"
@@ -1535,6 +1684,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "HarrowGraxxSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Priest/SWGraxxHarrowSkin",
+		Introduced = "22.11",
 		Link = "Harrow Graxx Skin",
 		Name = "Harrow Graxx Skin",
 		Type = "Skin"
@@ -1545,6 +1695,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "HarrowPrime_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Priest/HarrowPrimeSkin",
+		Introduced = "31",
 		Link = "Harrow Prime Skin",
 		Name = "Harrow Prime Skin",
 		Type = "Skin"
@@ -1555,6 +1706,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "HarrowProfitasSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Priest/SWProfitasHarrowSkin",
+		Introduced = "43.5",
 		Link = "Harrow Profitas Skin",
 		Name = "Harrow Profitas Skin",
 		Type = "Skin"
@@ -1565,6 +1717,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Harrow_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Priest/PriestSkin",
+		Introduced = "21",
 		Link = "Harrow Skin",
 		Name = "Harrow Skin",
 		Type = "Skin"
@@ -1575,6 +1728,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "HarrowReliquarySkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Priest/HarrowDeluxeSuit",
+		Introduced = "25.7",
 		Link = "Harrow Reliquary Skin",
 		Name = "Harrow Reliquary Skin",
 		Type = "Skin"
@@ -1585,6 +1739,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "HarrowVelesSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Priest/SWVelesSkin",
+		Introduced = "25.7.7",
 		Link = "Harrow Veles Skin",
 		Name = "Harrow Veles Skin",
 		Type = "Skin"
@@ -1595,6 +1750,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "HildrynEinheriSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/IronFrame/ShieldDeluxeBodySkin",
+		Introduced = "31.1",
 		Link = "Hildryn Einheri Skin",
 		Name = "Hildryn Einheri Skin",
 		Type = "Skin"
@@ -1605,6 +1761,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "HildrynPrime_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/IronFrame/HildrynPrimeSkin",
+		Introduced = "32.3.6",
 		Link = "Hildryn Prime Skin",
 		Name = "Hildryn Prime Skin",
 		Type = "Skin"
@@ -1615,6 +1772,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "HildrynSigrunSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/IronFrame/SWHildrynSigrunSkin",
+		Introduced = "29.2.1",
 		Link = "Hildryn Sigrun Skin",
 		Name = "Hildryn Sigrun Skin",
 		Type = "Skin"
@@ -1625,6 +1783,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Hildryn_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/IronFrame/IronFrameSkin",
+		Introduced = "24.4",
 		Link = "Hildryn Skin",
 		Name = "Hildryn Skin",
 		Type = "Skin"
@@ -1635,6 +1794,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "HydroidGraxxSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Pirate/SWGraxxHydroidSkin",
+		Introduced = "21.5",
 		Link = "Hydroid Graxx Skin",
 		Name = "Hydroid Graxx Skin",
 		Type = "Skin"
@@ -1645,6 +1805,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "HydroidImmortalSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Pirate/HydroidAlternateSkin",
+		Introduced = "20.2.4",
 		Link = "Hydroid Immortal Skin",
 		Name = "Hydroid Immortal Skin",
 		Type = "Skin"
@@ -1655,6 +1816,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "HydroidPoseidonSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Hydroid/SWPoseidonSkin",
+		Introduced = "22.9",
 		Link = "Hydroid Poseidon Skin",
 		Name = "Hydroid Poseidon Skin",
 		Type = "Skin"
@@ -1665,6 +1827,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "HydroidPrime_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Hydroid/HydroidPrimeSkin",
+		Introduced = "21.6",
 		Link = "Hydroid Prime Skin",
 		Name = "Hydroid Prime Skin",
 		Type = "Skin"
@@ -1675,6 +1838,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "HydroidRakkamSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Hydroid/HydroidDeluxeSuit",
+		Introduced = "29",
 		Link = "Hydroid Rakkam Skin",
 		Name = "Hydroid Rakkam Skin",
 		Type = "Skin"
@@ -1685,6 +1849,7 @@ return {
 		ExcludeFromCodex = true,
 		Image = "Hydroid_Thumb.png",
 		InternalName = "/Lotus/Upgrades/Skins/Hydroid/HydroidSkin",
+		Introduced = "13",
 		Link = "Hydroid Skin",
 		Name = "Hydroid Skin",
 		Type = "Skin"
@@ -1875,6 +2040,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "KayaGeminiSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/AntiMatter/WF1999NovaSkin",
+		Introduced = "38.5",
 		Link = "Kaya Gemini Skin",
 		Name = "Kaya Gemini Skin",
 		Type = "Skin"
@@ -2035,6 +2201,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "LettieGeminiSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Trinity/WF1999TrinitySkin",
+		Introduced = "38",
 		Link = "Lettie Gemini Skin",
 		Name = "Lettie Gemini Skin",
 		Type = "Skin"
@@ -2245,6 +2412,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "LyonGeminiSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Priest/HarrowGeminiSkin",
+		Introduced = "41",
 		Link = "Lyon Gemini Skin",
 		Name = "Lyon Gemini Skin",
 		Type = "Skin"
@@ -2405,6 +2573,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "MarieGeminiSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Wisp/WF1999WispSkin",
+		Introduced = "41",
 		Link = "Marie Gemini Skin",
 		Name = "Marie Gemini Skin",
 		Type = "Skin"
@@ -2595,6 +2764,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "MinervaGeminiSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Saryn/WF1999SarynSkin",
+		Introduced = "38.5",
 		Link = "Minerva Gemini Skin",
 		Name = "Minerva Gemini Skin",
 		Type = "Skin"
@@ -3505,6 +3675,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "QuincyGeminiSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Frumentarius/WF1999FrumentariusSkin",
+		Introduced = "38",
 		Link = "Quincy Gemini Skin",
 		Name = "Quincy Gemini Skin",
 		Type = "Skin"
@@ -3745,6 +3916,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "RoatheGeminiSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/DemonFrame/GeminiDemonFrameSkin",
+		Introduced = "41",
 		Link = "Roathe Gemini Skin",
 		Name = "Roathe Gemini Skin",
 		Type = "Skin"
@@ -4437,6 +4609,7 @@ return {
 		ExcludeFromCodex = false,
 		Image = "VelimirGeminiSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Frost/WF1999FrostSkin",
+		Introduced = "38.5",
 		Link = "Velimir Gemini Skin",
 		Name = "Velimir Gemini Skin",
 		Type = "Skin"
@@ -4894,7 +5067,7 @@ return {
 	},
 	["Xaku Raya Skin"] = {
 		CodexSecret = false,
-		Description = "The light of the lost shines with shared purpose from the depths of Xaku Raya",
+		Description = "The light of the lost shines with shared purpose from the depths of Xaku Raya.",
 		ExcludeFromCodex = true,
 		Image = "XakuRayaSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/BrokenFrame/XakuCosmosSkin",

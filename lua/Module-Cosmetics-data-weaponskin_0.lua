@@ -5066,7 +5066,7 @@ return {
         CodexSecret = false,
         Description = "Give the Operator Amp the rugged look of the Drifter's Sirocco pistol.",
         ExcludeFromCodex = true,
-        Image = "SiroccoAmpSkin.png",
+        Image = "Sirocco.png",
         InternalName = "/Lotus/Upgrades/Skins/Operator/Amp/DrifterAmpSkin",
         Link = "Sirocco Amp Skin",
         Name = "Sirocco Amp Skin",

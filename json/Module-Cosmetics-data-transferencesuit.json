@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-11-09T09:23:42.941Z"
+    "converted_at": "2026-11-14T08:45:24.707Z"
   },
   "_comments": "",
   "Mag Mask": {
@@ -149,7 +149,7 @@
   },
   "Operator Feldune Suit": {
     "Type": "Body Suit",
-    "Image": "BodySuitArabic.png",
+    "Image": "OperatorFelduneSuit.png",
     "Description": "Ready yourself for the heat of battle. Fitted for the Drifter and the Operator.",
     "Link": "Operator Feldune Suit",
     "Name": "Operator Feldune Suit",
@@ -189,7 +189,7 @@
   },
   "Drifter Feldune Suit": {
     "Type": "Body Suit",
-    "Image": "BodySuitAdultArabic.png",
+    "Image": "DrifterFelduneSuit.png",
     "Description": "Ready yourself for the heat of battle. Fitted for the Drifter and the Operator.",
     "Link": "Drifter Feldune Suit",
     "Name": "Drifter Feldune Suit",
@@ -219,7 +219,7 @@
   },
   "Operator Feldune Apparel": {
     "Type": "Waistband",
-    "Image": "ArabicHip.png",
+    "Image": "OperatorFelduneApparel.png",
     "Description": "Ready yourself for the heat of battle. Fitted for the Drifter and the Operator.",
     "Link": "Operator Feldune Apparel",
     "Name": "Operator Feldune Apparel",
@@ -359,7 +359,7 @@
   },
   "Operator Keeler Pants": {
     "Type": "Leggings",
-    "Image": "Outfit2ALegs.png",
+    "Image": "OperatorKeelerPants.png",
     "Description": "Nora Night recovered this suit from Saturn’s Keeler Gap. The durable material lined with rebreather tubing shows it was designed with depressurization in mind.",
     "Link": "Operator Keeler Pants",
     "Name": "Operator Keeler Pants",
@@ -389,7 +389,7 @@
   },
   "Operator Loneryder Hood": {
     "Type": "Hood",
-    "Image": "HoodOutfit1A.png",
+    "Image": "OperatorLoneryderHood.png",
     "Description": "Look sharp after miles on the dusty trail. Fitted for the Drifter and the Operator.",
     "Link": "Operator Loneryder Hood",
     "Name": "Operator Loneryder Hood",
@@ -399,7 +399,7 @@
   },
   "Drifter Orizu Sleeves": {
     "Type": "Sleeves",
-    "Image": "SleevesAdultOutfit3A.png",
+    "Image": "DrifterOrizuSleeves.png",
     "Description": "Invite longevity and protection with a look inspired by the origami crane. Fitted for the Drifter and the Operator.",
     "Link": "Drifter Orizu Sleeves",
     "Name": "Drifter Orizu Sleeves",
@@ -459,7 +459,7 @@
   },
   "Drifter Feldune Hood": {
     "Type": "Hood",
-    "Image": "HoodAdultArabic.png",
+    "Image": "DrifterFelduneHood.png",
     "Description": "Ready yourself for the heat of battle. Fitted for the Drifter and the Operator.",
     "Link": "Drifter Feldune Hood",
     "Name": "Drifter Feldune Hood",
@@ -609,7 +609,7 @@
   },
   "Operator Loneryder Sleeves": {
     "Type": "Sleeves",
-    "Image": "Outfit1AArms.png",
+    "Image": "OperatorLoneryderSleeves.png",
     "Description": "Look sharp after miles on the dusty trail. Fitted for the Drifter and the Operator.",
     "Link": "Operator Loneryder Sleeves",
     "Name": "Operator Loneryder Sleeves",
@@ -619,7 +619,7 @@
   },
   "Drifter Keeler Pants": {
     "Type": "Leggings",
-    "Image": "LeggingsAdultDrifterB.png",
+    "Image": "DrifterKeelerPants.png",
     "Description": "Nora Night recovered this suit from Saturn’s Keeler Gap. The durable material lined with rebreather tubing shows it was designed with depressurization in mind.",
     "Link": "Drifter Keeler Pants",
     "Name": "Drifter Keeler Pants",
@@ -699,7 +699,7 @@
   },
   "Operator Feldune Pants": {
     "Type": "Leggings",
-    "Image": "ArabicLegs.png",
+    "Image": "OperatorFeldunePants.png",
     "Description": "Ready yourself for the heat of battle. Fitted for the Drifter and the Operator.",
     "Link": "Operator Feldune Pants",
     "Name": "Operator Feldune Pants",
@@ -779,7 +779,7 @@
   },
   "Drifter Loneryder Hood": {
     "Type": "Hood",
-    "Image": "HoodAdultOutfit1A.png",
+    "Image": "DrifterLoneryderHood.png",
     "Description": "Look sharp after miles on the dusty trail. Fitted for the Drifter and the Operator.",
     "Link": "Drifter Loneryder Hood",
     "Name": "Drifter Loneryder Hood",
@@ -999,7 +999,7 @@
   },
   "Drifter Keeler Hood": {
     "Type": "Hood",
-    "Image": "HoodAdultDrifterB.png",
+    "Image": "DrifterKeelerHood.png",
     "Description": "Nora Night recovered this suit from Saturn’s Keeler Gap. The durable material lined with rebreather tubing shows it was designed with depressurization in mind.",
     "Link": "Drifter Keeler Hood",
     "Name": "Drifter Keeler Hood",
@@ -1009,7 +1009,7 @@
   },
   "Drifter Loneryder Pants": {
     "Type": "Leggings",
-    "Image": "LeggingsAdultOutfit1A.png",
+    "Image": "DrifterLoneryderPants.png",
     "Description": "Look sharp after miles on the dusty trail. Fitted for the Drifter and the Operator.",
     "Link": "Drifter Loneryder Pants",
     "Name": "Drifter Loneryder Pants",
@@ -1049,7 +1049,7 @@
   },
   "Drifter Orizu Suit": {
     "Type": "Body Suit",
-    "Image": "BodySuitAdultOutfit3A.png",
+    "Image": "DrifterOrizuSuit",
     "Description": "Invite longevity and protection with a look inspired by the origami crane. Fitted for the Drifter and the Operator.",
     "Link": "Drifter Orizu Suit",
     "Name": "Drifter Orizu Suit",
@@ -1089,7 +1089,7 @@
   },
   "Drifter Orizu Pants": {
     "Type": "Leggings",
-    "Image": "LeggingsAdultOutfit3A.png",
+    "Image": "DrifterOrizuPants.png",
     "Description": "Invite longevity and protection with a look inspired by the origami crane. Fitted for the Drifter and the Operator.",
     "Link": "Drifter Orizu Pants",
     "Name": "Drifter Orizu Pants",
@@ -1159,7 +1159,7 @@
   },
   "Drifter Feldune Gear": {
     "Type": "Waistband",
-    "Image": "SkirtAdultArabic.png",
+    "Image": "DrifterFelduneGear.png",
     "Description": "Ready yourself for the heat of battle. Fitted for the Drifter and the Operator.",
     "Link": "Drifter Feldune Gear",
     "Name": "Drifter Feldune Gear",
@@ -1229,7 +1229,7 @@
   },
   "Drifter Keeler Suit": {
     "Type": "Body Suit",
-    "Image": "BodySuitAdultDrifterB.png",
+    "Image": "DrifterKeelerSuit.png",
     "Description": "Nora Night recovered this suit from Saturn’s Keeler Gap. The durable material lined with rebreather tubing shows it was designed with depressurization in mind.",
     "Link": "Drifter Keeler Suit",
     "Name": "Drifter Keeler Suit",
@@ -1269,7 +1269,7 @@
   },
   "Drifter Feldune Pants": {
     "Type": "Leggings",
-    "Image": "LeggingsAdultArabic.png",
+    "Image": "DrifterFeldunePants.png",
     "Description": "Ready yourself for the heat of battle. Fitted for the Drifter and the Operator.",
     "Link": "Drifter Feldune Pants",
     "Name": "Drifter Feldune Pants",
@@ -1359,7 +1359,7 @@
   },
   "Drifter Loneryder Suit": {
     "Type": "Body Suit",
-    "Image": "BodySuitAdultOutfit1A.png",
+    "Image": "DrifterLoneryderSuit.png",
     "Description": "Look sharp after miles on the dusty trail. Fitted for the Drifter and the Operator.",
     "Link": "Drifter Loneryder Suit",
     "Name": "Drifter Loneryder Suit",
@@ -1609,7 +1609,7 @@
   },
   "Operator Loneryder Pants": {
     "Type": "Leggings",
-    "Image": "Outfit1ALegs.png",
+    "Image": "OperatorLoneryderPants.png",
     "Description": "Look sharp after miles on the dusty trail. Fitted for the Drifter and the Operator.",
     "Link": "Operator Loneryder Pants",
     "Name": "Operator Loneryder Pants",
@@ -1659,7 +1659,7 @@
   },
   "Drifter Orizu Hood": {
     "Type": "Hood",
-    "Image": "HoodAdultOutfit3A.png",
+    "Image": "DrifterOrizuHood.png",
     "Description": "Invite longevity and protection with a look inspired by the origami crane. Fitted for the Drifter and the Operator.",
     "Link": "Drifter Orizu Hood",
     "Name": "Drifter Orizu Hood",
@@ -1679,7 +1679,7 @@
   },
   "Drifter Feldune Sleeves": {
     "Type": "Sleeves",
-    "Image": "SleevesAdultArabic.png",
+    "Image": "DrifterFelduneSleeves.png",
     "Description": "Ready yourself for the heat of battle. Fitted for the Drifter and the Operator.",
     "Link": "Drifter Feldune Sleeves",
     "Name": "Drifter Feldune Sleeves",
@@ -1759,7 +1759,7 @@
   },
   "Drifter Keeler Sleeves": {
     "Type": "Sleeves",
-    "Image": "SleevesAdultDrifterB.png",
+    "Image": "DrifterKeelerSleeves.png",
     "Description": "Nora Night recovered this suit from Saturn’s Keeler Gap. The durable material lined with rebreather tubing shows it was designed with depressurization in mind.",
     "Link": "Drifter Keeler Sleeves",
     "Name": "Drifter Keeler Sleeves",
@@ -1979,7 +1979,7 @@
   },
   "Operator Keeler Hood": {
     "Type": "Hood",
-    "Image": "HoodOutfit2A.png",
+    "Image": "OperatorKeelerHood.png",
     "Description": "Nora Night recovered this suit from Saturn’s Keeler Gap. The durable material lined with rebreather tubing shows it was designed with depressurization in mind.",
     "Link": "Operator Keeler Hood",
     "Name": "Operator Keeler Hood",
@@ -2179,7 +2179,7 @@
   },
   "Operator Loneryder Suit": {
     "Type": "Body Suit",
-    "Image": "Outfit1ABody.png",
+    "Image": "OperatorLoneryderSuit.png",
     "Description": "Look sharp after miles on the dusty trail. Fitted for the Drifter and the Operator.",
     "Link": "Operator Loneryder Suit",
     "Name": "Operator Loneryder Suit",
@@ -2569,7 +2569,7 @@
   },
   "Operator Keeler Sleeves": {
     "Type": "Sleeves",
-    "Image": "Outfit2AArms.png",
+    "Image": "OperatorKeelerSleeves.png",
     "Description": "Nora Night recovered this suit from Saturn’s Keeler Gap. The durable material lined with rebreather tubing shows it was designed with depressurization in mind.",
     "Link": "Operator Keeler Sleeves",
     "Name": "Operator Keeler Sleeves",
@@ -2599,7 +2599,7 @@
   },
   "Operator Feldune Hood": {
     "Type": "Hood",
-    "Image": "HoodArabic.png",
+    "Image": "OperatorFelduneHood.png",
     "Description": "Ready yourself for the heat of battle. Fitted for the Drifter and the Operator.",
     "Link": "Operator Feldune Hood",
     "Name": "Operator Feldune Hood",
@@ -2789,7 +2789,7 @@
   },
   "Drifter Loneryder Sleeves": {
     "Type": "Sleeves",
-    "Image": "SleevesAdultOutfit1A.png",
+    "Image": "DrifterLoneryderSleeves.png",
     "Description": "Look sharp after miles on the dusty trail. Fitted for the Drifter and the Operator.",
     "Link": "Drifter Loneryder Sleeves",
     "Name": "Drifter Loneryder Sleeves",
@@ -2809,7 +2809,7 @@
   },
   "Operator Keeler Suit": {
     "Type": "Body Suit",
-    "Image": "Outfit2ABody.png",
+    "Image": "OperatorKeelerSuit.png",
     "Description": "Nora Night recovered this suit from Saturn’s Keeler Gap. The durable material lined with rebreather tubing shows it was designed with depressurization in mind.",
     "Link": "Operator Keeler Suit",
     "Name": "Operator Keeler Suit",
@@ -2909,7 +2909,7 @@
   },
   "Operator Feldune Sleeves": {
     "Type": "Sleeves",
-    "Image": "SleevesArabic.png",
+    "Image": "OperatorFelduneSleeves.png",
     "Description": "Ready yourself for the heat of battle. Fitted for the Drifter and the Operator.",
     "Link": "Operator Feldune Sleeves",
     "Name": "Operator Feldune Sleeves",

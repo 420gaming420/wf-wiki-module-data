@@ -1,7 +1,7 @@
 ---
 title: "Module:Enemies/data/unaffiliated"
 wiki_url: "https://wiki.warframe.com/w/Module/Enemies/data/unaffiliated"
-wiki_timestamp: "2026-08-19T15:02:24Z"
+wiki_timestamp: "2026-11-14T06:09:02Z"
 ---
 
 Data for [![](/images/thumb/IconWild%28xWhite%29.png/32px-IconWild%28xWhite%29.png?e17ff)](/w/Wild "Wild") [Wild](/w/Wild "Wild") affiliated enemy units. Please also update [Module:Conservation/data](/w/Module:Conservation/data "Module:Conservation/data") with data specific to [Conservation](/w/Conservation "Conservation") for animals.
@@ -1132,7 +1132,7 @@ return {
 			Description = "Feral Kavat",
 			Faction = "Neutral",
 			Image = "FeralCatbrow.png",
-			InternalName = "",
+			InternalName = "/Lotus/Types/NeutralCreatures/Catbrow/CatbrowAgent",
 			Introduced = "18.5",
 			Link = "Feral Kavat",
 			Name = "Kavat",

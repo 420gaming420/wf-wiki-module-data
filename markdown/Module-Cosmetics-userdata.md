@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/userdata"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/userdata"
-wiki_timestamp: "2026-10-30T13:23:29Z"
+wiki_timestamp: "2026-11-13T23:41:36Z"
 ---
 
 ## Users Data Schema
@@ -229,8 +229,8 @@ return {
 	Amp = {
 		Equipments = {
 			Skin = {
-				"Sirocco Amp Skin",
-				"Vacis Amp Skin",
+				--"Sirocco Amp Skin",
+				--"Vacis Amp Skin",
 			},
 		},
 		Type = "Weapons",

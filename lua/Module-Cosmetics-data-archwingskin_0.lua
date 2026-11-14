@@ -33,7 +33,7 @@ return {
         CodexSecret = false,
         Description = "This alternative look for any Archwing is modeled on the exo-sac levitators that the glutton Karissh used to support his additional grafted-on stomachs.",
         ExcludeFromCodex = true,
-        Image = "GrendelSkin.png",
+        Image = "Exo-SacArchwingSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Archwing/GrendelArchwingSkin",
         Link = "Exo-Sac Archwing Skin",
         Name = "Exo-Sac Archwing Skin",

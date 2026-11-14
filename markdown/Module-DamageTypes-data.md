@@ -1,7 +1,7 @@
 ---
 title: "Module:DamageTypes/data"
 wiki_url: "https://wiki.warframe.com/w/Module/DamageTypes/data"
-wiki_timestamp: "2026-11-12T19:19:57Z"
+wiki_timestamp: "2026-11-13T17:59:41Z"
 ---
 
 ## Contents
@@ -506,7 +506,7 @@ local DamageTypes = {
 			DarkModeColor = "#c6cadb",
 			Faction = { "Grineer", "Corpus", "Infested", "The Murmur" },
 			Icon = "Overguard.png",
-			InternalName = "",
+			InternalName = "RK_OVERGUARD",
 			Introduced = "31.5",
 			Link = "Overguard",
 			Name = "Overguard",

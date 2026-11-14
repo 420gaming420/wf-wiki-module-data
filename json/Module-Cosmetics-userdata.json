@@ -4,9 +4,9 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-10-31T08:09:15.828Z"
+    "converted_at": "2026-11-14T08:45:35.365Z"
   },
-  "_comments": "",
+  "_comments": "\t\t\t\t--\"Sirocco Amp Skin\",\n\t\t\t\t--\"Vacis Amp Skin\",",
   "Ambassador": {
     "Type": "Weapons",
     "Equipments": {
@@ -1685,10 +1685,7 @@
   "Amp": {
     "Type": "Weapons",
     "Equipments": {
-      "Skin": [
-        "Sirocco Amp Skin",
-        "Vacis Amp Skin"
-      ]
+      "Skin": {}
     }
   },
   "Penta": {

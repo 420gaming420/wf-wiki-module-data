@@ -2769,6 +2769,16 @@ return {
         Name = "Lavos Helmet",
         Type = "Helmet"
     },
+    ["Lavos Khymia Helmet"] = {
+        CodexSecret = false,
+        Description = "Lavos Khymia's signature helmet.",
+        ExcludeFromCodex = false,
+        Image = "LavosKhymiaHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Alchemist/AlchemistDeluxeHelmet",
+        Link = "Lavos Khymia Helmet",
+        Name = "Lavos Khymia Helmet",
+        Type = "Helmet"
+    },
     ["Lavos Kuvael Alchemist Helmet"] = {
         CodexSecret = false,
         Description = "A helmet for the Lavos Warframe, designed by Erneix.",
@@ -3858,6 +3868,16 @@ return {
         Link = "Nidus Voidshell Helmet",
         Name = "Nidus Voidshell Helmet",
         Type = "Helmet"
+    },
+    ["Nokko Helmet"] = {
+     	CodexSecret = false,
+     	Description = "The standard issue helmet for the Nokko Warframe.",
+     	ExcludeFrlmCodex = true,
+     	Image = "NokkoHelmet.png",
+     	InternalName = "/Lotus/Upgrades/Skins/Nokko/NokkoHelmet",
+     	Link = "Nokko Helmet", 
+     	Name = "Nokko Helmet", 
+     	Type = "Helmet"
     },
     ["Nokko Mycorrhiza Helmet"] = {
      	CodexSecret = false,
@@ -6149,6 +6169,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/MonkeyKing/WukongPrimeHelmet",
         Link = "Wukong Prime Helmet",
         Name = "Wukong Prime Helmet",
+        Type = "Helmet"
+    },
+    ["Wukong Qitian Helmet"] = {
+        CodexSecret = false,
+        Description = "Wukong Qitian's signature helmet.",
+        ExcludeFromCodex = false,
+        Image = "WukongQitianHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/MonkeyKing/WukongDeluxeBHelmet",
+        Link = "Wukong Qitian Helmet",
+        Name = "Wukong Qitian Helmet",
         Type = "Helmet"
     },
     ["Wukong Samadhi Helmet"] = {

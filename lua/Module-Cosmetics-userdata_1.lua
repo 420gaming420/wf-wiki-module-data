@@ -143,8 +143,8 @@ return {
 	Amp = {
 		Equipments = {
 			Skin = {
-				"Sirocco Amp Skin",
-				"Vacis Amp Skin",
+				--"Sirocco Amp Skin",
+				--"Vacis Amp Skin",
 			},
 		},
 		Type = "Weapons",

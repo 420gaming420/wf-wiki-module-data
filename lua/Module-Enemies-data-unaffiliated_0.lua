@@ -1121,7 +1121,7 @@ return {
 			Description = "Feral Kavat",
 			Faction = "Neutral",
 			Image = "FeralCatbrow.png",
-			InternalName = "",
+			InternalName = "/Lotus/Types/NeutralCreatures/Catbrow/CatbrowAgent",
 			Introduced = "18.5",
 			Link = "Feral Kavat",
 			Name = "Kavat",

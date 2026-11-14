@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-11-07T08:31:20.730Z"
+    "converted_at": "2026-11-14T08:45:32.734Z"
   },
   "_comments": "",
   "Protokol 95 Pistol Skin": {
@@ -4113,7 +4113,7 @@
   },
   "Sirocco Amp Skin": {
     "Type": "Weapon Skin",
-    "Image": "SiroccoAmpSkin.png",
+    "Image": "Sirocco.png",
     "Description": "Give the Operator Amp the rugged look of the Drifter's Sirocco pistol.",
     "Link": "Sirocco Amp Skin",
     "Name": "Sirocco Amp Skin",
