@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-11-14T08:45:47.467Z"
+    "converted_at": "2026-11-15T08:57:21.413Z"
   },
   "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins\n-- this contains mappings for what we couldn't pull from preexisting modules\n\t-- Amesha\n\t-- Ash\n\t-- Atlas\n\t-- Banshee\n\t-- Baruuk\n\t-- Bonewidow\n\t-- Caliban\n\t-- Chroma\n\t-- Citrine\n\t-- Cyte-09\n\t-- Dagath\n\t-- Dante\n\t-- Elytron\n\t-- Ember\n\t-- Equinox\n\t-- Excalibur\n\t-- Excalibur Umbra\n\t-- Follie\n\t-- Frost\n\t-- Gara\n\t-- Garuda\n\t-- Gauss\n\t-- Grendel\n\t-- Gyre\n\t-- Harrow\n\t-- Hildryn\n\t-- Hydroid\n\t-- Inaros\n\t-- Itzal\n\t-- Ivara\n\t-- Jade\n\t\t\t-- Epsilon represents the 1 frame delay\n\t-- Khora\n\t-- Koumei\n\t-- Kullervo\n\t-- Lavos\n\t-- Limbo\n\t-- Loki\n\t-- Mag\n\t-- Mesa\n\t-- Mirage\n\t-- Narin\n\t-- Nekros\n\t-- Nezha\n\t-- Nidus\n\t-- Nokko\n\t-- Nova\n\t-- Nyx\n\t-- Oberon\n\t-- Octavia\n\t-- Odonata\n\t-- Oraxia\n\t-- Protea\n\t-- Qorvex\n\t-- Revenant\n\t-- Rhino\n\t-- Saryn\n\t-- Sevagoth\n\t-- Sevagoth's Shadow\n\t-- Sirius & Orion\n\t-- Stalker\n\t-- Styanax\n\t-- Temple\n\t-- Titania\n\t-- Trinity\n\t-- Uriel\n\t-- Valkyr\n\t-- Vauban\n\t-- Voidrig\n\t-- Volt\n\t-- Voruna\n\t-- Wisp\n\t-- Wukong\n\t-- Xaku\n\t-- Yareli\n\t-- Zephyr\n\t-- Helminth\n\t-- Railjack",
   "Glory on High": {
@@ -230,42 +230,30 @@
       [
         "{{#invoke:Tooltip|full|Heat|DamageTypes}} damage on cast:",
         {
-          "name": "INFERNALIS_CAST_BASE_DMG",
           "expr": "STR 1500 %of"
-        }
-      ],
-      [
-        "Cast {{#invoke:Tooltip|full|Ignite|DamageTypes}} damage:",
-        {
-          "expr": "0.5 INFERNALIS_CAST_BASE_DMG *"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Heat|DamageTypes}} aura damage:",
         {
           "expr": "STR 250 %of",
-          "name": "INFERNALIS_AURA_BASE_DMG",
           "suff": "/s"
-        }
-      ],
-      [
-        "Aura {{#invoke:Tooltip|full|Ignite|DamageTypes}} damage:",
-        {
-          "expr": "0.5 INFERNALIS_AURA_BASE_DMG *"
         }
       ],
       [
         "Duration:",
         {
           "expr": "DUR 35 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "Aura radius:",
         {
           "expr": "RNG 2 %of",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
@@ -279,21 +267,24 @@
         "Catenach chain {{#invoke:Tooltip|full|Slow|DamageTypes}}:",
         {
           "expr": "STR 50 %of 95 min",
-          "suff": "%"
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
         "Catenach chain duration:",
         {
           "expr": "DUR 10 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "Catenach chain range:",
         {
           "expr": "RNG 6 %of",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
@@ -305,27 +296,22 @@
       [
         "Infernum {{#invoke:Tooltip|full|Heat|DamageTypes}} radial damage:",
         {
-          "name": "INFERNALIS_INFERNUM_RADIAL_DMG",
           "expr": "STR 1500 %of 0 INFERNUM if"
-        }
-      ],
-      [
-        "Infernum {{#invoke:Tooltip|full|Ignite|DamageTypes}} damage:",
-        {
-          "expr": "0.5 INFERNALIS_INFERNUM_RADIAL_DMG *"
         }
       ],
       [
         "Infernum empowerment duration:",
         {
           "expr": "DUR 5 %of 0 INFERNUM if",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "25 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -2918,7 +2904,7 @@
         "Negation Armor {{#invoke:Tooltip|full|Bleed|DamageTypes}} damage:",
         {
           "expr": "20 INAROS_HEALTH %of 0 NEGATION_ARMOR if",
-          "suff": "/tick"
+          "suff": "/s"
         }
       ]
     ],
@@ -8492,7 +8478,7 @@
         "{{#invoke:Tooltip|full|Ignite|DamageTypes}} damage:",
         {
           "expr": "0.5 PYROTECHNICS_DMG *",
-          "suff": "/tick"
+          "suff": "/s"
         }
       ],
       [
@@ -9826,7 +9812,7 @@
         "Hallowed Reckoning {{#invoke:Tooltip|full|Radiation|DamageTypes}} damage:",
         {
           "expr": "STR 300 %of 0 HALLOWED_RECKONING if",
-          "suff": "/tick"
+          "suff": "/s"
         }
       ],
       [
@@ -12579,47 +12565,37 @@
         {
           "expr": "STR 750 %of",
           "name": "BRIMSTONE_BASE_DMG",
-          "suff": "/tick"
-        }
-      ],
-      [
-        "Initial {{#invoke:Tooltip|full|Ignite|DamageTypes}} damage:",
-        {
-          "expr": "0.5 BRIMSTONE_BASE_DMG *"
+          "suff": "/0.25s"
         }
       ],
       [
         "Maximum {{#invoke:Tooltip|full|Heat|DamageTypes}} damage:",
         {
           "expr": "10 BRIMSTONE_BASE_DMG *",
-          "name": "BRIMSTONE_MAX_DMG",
-          "suff": "/tick"
-        }
-      ],
-      [
-        "Maximum {{#invoke:Tooltip|full|Ignite|DamageTypes}} damage:",
-        {
-          "expr": "0.5 BRIMSTONE_MAX_DMG *"
+          "suff": "/0.25s"
         }
       ],
       [
         "Duration:",
         {
           "expr": "DUR 10 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "Radius:",
         {
           "expr": "RNG 15 %of",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "75 COST *"
+          "expr": "75 COST *",
+          "fmt": "2dec"
         }
       ]
     ]
@@ -12636,41 +12612,47 @@
         "[[Damage Vulnerability]]:",
         {
           "expr": "STR 50 %of",
-          "suff": "%"
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
         "Duration:",
         {
           "expr": "DUR 5 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "Explosion radius:",
         {
           "expr": "RNG 6 %of",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
-        "Vythelas Rune [[Fire Rate]] bonus:",
+        "Vythelas Rune {{#invoke:Tooltip|full|Fire Rate|Stats}} bonus:",
         {
           "expr": "STR 30 %of",
-          "suff": "%"
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
-        "Vythelas Rune {{#invoke:Tooltip|full|Heat|DamageTypes}} damage bonus:",
+        "Vythelas Rune {{#invoke:Tooltip|full|Heat|DamageTypes}} [[Extra Hit]]:",
         {
           "expr": "STR 30 %of",
-          "suff": "%"
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "75 COST *"
+          "expr": "75 COST *",
+          "fmt": "2dec"
         }
       ]
     ]
@@ -13873,6 +13855,7 @@
         "Self healing percentage:",
         {
           "expr": "STR 35 50 REMEDIUM_INFUSED if %of",
+          "fmt": "2dec",
           "name": "REMEDIUM_HEALING",
           "suff": "%"
         }
@@ -13880,70 +13863,68 @@
       [
         "Self healing total:",
         {
-          "expr": "REMEDIUM_HEALING REMEDIUM_MAX_HEALTH %of"
+          "expr": "REMEDIUM_HEALING URIEL_HEALTH %of"
         }
       ],
       [
         "Gulphagor latch damage:",
         {
           "expr": "0 STR 750 %of REMEDIUM_INFUSED if",
-          "suff": "/tick"
+          "suff": "/0.25s"
         }
       ],
       [
         "Latched target [[Health Orb]] drop chance:",
         {
           "expr": "0 STR 300 %of REMEDIUM_INFUSED if",
-          "suff": "%"
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
         "Latched target [[Energy Orb]] drop chance:",
         {
           "expr": "0 STR 100 %of REMEDIUM_INFUSED if",
-          "suff": "%"
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
         "Gulphagor {{#invoke:Tooltip|full|Heat|DamageTypes}} field damage:",
         {
           "expr": "0 STR 200 %of REMEDIUM_INFUSED if",
-          "name": "GULPHAGOR_FIELD_DMG",
-          "suff": "/tick"
-        }
-      ],
-      [
-        "Gulphagor {{#invoke:Tooltip|full|Ignite|DamageTypes}} damage:",
-        {
-          "expr": "0.5 GULPHAGOR_FIELD_DMG *"
+          "suff": "/0.5s"
         }
       ],
       [
         "Gulphagor field duration:",
         {
           "expr": "0 DUR 10 %of REMEDIUM_INFUSED if",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "Gulphagor field radius:",
         {
           "expr": "0 RNG 4 %of REMEDIUM_INFUSED if",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *"
+          "expr": "50 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
     "ins": [
       {
         "default": "666",
-        "name": "REMEDIUM_MAX_HEALTH",
-        "cont": "Maximum {{#invoke:Tooltip|full|Health|Stats}}"
+        "name": "URIEL_HEALTH",
+        "cont": "Current maximum {{#invoke:Tooltip|full|Health|Stats}}:"
       },
       {
         "type": "checkbox",

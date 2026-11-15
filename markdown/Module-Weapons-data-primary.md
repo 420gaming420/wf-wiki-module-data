@@ -1,7 +1,7 @@
 ---
 title: "Module:Weapons/data/primary"
 wiki_url: "https://wiki.warframe.com/w/Module/Weapons/data/primary"
-wiki_timestamp: "2026-11-10T15:17:23Z"
+wiki_timestamp: "2026-11-14T12:42:25Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s [Primary Weapons](/w/Primary_Weapon "Primary Weapon").
@@ -54,7 +54,7 @@ Thanks, you're awesome!
 * [11 Weapon Data](#Weapon_Data)
 * [12 References](#References)
 
-:   *Last updated: Tue, 10 Nov 2026 15:17:23 +0000 (UTC) by [User:ArbitraryMary](/w/User:ArbitraryMary "User:ArbitraryMary") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/primary?diff=0))*
+:   *Last updated: Sat, 14 Nov 2026 12:42:25 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Weapons/data/primary?diff=0))*
 
 ## Horizontal Partitions (and where to update data)
 
@@ -3888,7 +3888,7 @@ return {
 		SellPrice = 7500,
 		Slot = "Primary",
 		Traits = { "Grineer" },
-		Trigger = "Auto",
+		Trigger = "Auto / Semi",
 		Users = { "Harkonar" }
 	},
 	["Carmine Penta"] = {

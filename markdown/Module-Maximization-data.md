@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-11-13T15:31:41Z"
+wiki_timestamp: "2026-11-14T15:15:03Z"
 ---
 
 ## Contents
@@ -1740,7 +1740,7 @@ local Data = {
 		},
 		outs={
 			{Tooltips.full('Armor', 'Stats')..' bonus:', {expr='STR 350 %of'}},
-			{'Negation Armor '..Tooltips.full('Bleed', 'DamageTypes')..' damage:', {expr='20 INAROS_HEALTH %of 0 NEGATION_ARMOR if', suff='/tick'}}
+			{'Negation Armor '..Tooltips.full('Bleed', 'DamageTypes')..' damage:', {expr='20 INAROS_HEALTH %of 0 NEGATION_ARMOR if', suff='/s'}}
 		},
 	},
 	['Scarab Swarm']={
@@ -2828,7 +2828,7 @@ local Data = {
 			{'Added '..Tooltips.full('Armor', 'Stats')..' bonus:', {expr='STR 5 %of', suff='/'..Tooltips.full('Confusion', 'DamageTypes')..' stack'}},
 			{Tooltips.full('Armor', 'Stats')..' bonus duration:', {expr='DUR 30 %of', suff='s'}},
 			{'Radius:', {expr='RNG 40 0 HALLOWED_RECKONING if + 15 %of', suff='m', fmt='1dec'}},
-			{'Hallowed Reckoning '..Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='STR 300 %of 0 HALLOWED_RECKONING if', suff='/tick'}},
+			{'Hallowed Reckoning '..Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='STR 300 %of 0 HALLOWED_RECKONING if', suff='/s'}},
 			{'Hallowed Reckoning '..Tooltips.full('Armor', 'Stats')..' bonus:', {expr='STR 250 %of 0 HALLOWED_RECKONING if'}},
 			{'Hallowed Reckoning radius:', {expr='RNG 40 + 3 %of 0 HALLOWED_RECKONING if', suff='m', fmt='1dec'}},
 			{'Hallowed Reckoning area duration:', {expr='DUR 10 %of 0 HALLOWED_RECKONING if', suff='s'}},
@@ -3547,7 +3547,7 @@ local Data = {
 		outs={
 			{'Cost modifier:', {name='TEMPLE_COST', expr='2 EFF 50 0 TEMPLE_PASSIVE if + 175 min 100 / -'}, style='display:none'},
 			{Tooltips.full('Impact', 'DamageTypes')..', '..Tooltips.full('Puncture', 'DamageTypes')..' and '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {name='PYROTECHNICS_DMG', expr='STR 1000 %of', suff='/pillar'}},
-			{Tooltips.full('Ignite', 'DamageTypes')..' damage:', {expr='0.5 PYROTECHNICS_DMG *', suff='/tick'}},
+			{Tooltips.full('Ignite', 'DamageTypes')..' damage:', {expr='0.5 PYROTECHNICS_DMG *', suff='/s'}},
 			{'Pillar count:', {expr='STR 5 %of 2 1 TEMPLE_PASSIVE if * round'}},
 			{'Cast range:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 TEMPLE_COST *', fmt='2dec'}}
@@ -3716,61 +3716,55 @@ local Data = {
 			{name='INFERNUM', cont=Tooltips.full('Infernum', 'Mods')..'?', type='checkbox'}
 		},
 		outs={
-			{Tooltips.full('Heat', 'DamageTypes')..' damage on cast:', {name='INFERNALIS_CAST_BASE_DMG', expr='STR 1500 %of'}},
-			{'Cast '..Tooltips.full('Ignite', 'DamageTypes')..' damage:', {expr='0.5 INFERNALIS_CAST_BASE_DMG *'}},
-			{Tooltips.full('Heat', 'DamageTypes')..' aura damage:', {name='INFERNALIS_AURA_BASE_DMG', expr='STR 250 %of', suff='/s'}},
-			{'Aura '..Tooltips.full('Ignite', 'DamageTypes')..' damage:', {expr='0.5 INFERNALIS_AURA_BASE_DMG *'}},
-			{'Duration:', {expr='DUR 35 %of', suff='s'}},
-			{'Aura radius:', {expr='RNG 2 %of', suff='m'}},
+			{Tooltips.full('Heat', 'DamageTypes')..' damage on cast:', {expr='STR 1500 %of'}},
+			{Tooltips.full('Heat', 'DamageTypes')..' aura damage:', {expr='STR 250 %of', suff='/s'}},
+			{'Duration:', {expr='DUR 35 %of', suff='s', fmt='2dec'}},
+			{'Aura radius:', {expr='RNG 2 %of', suff='m', fmt='1dec'}},
 			{'Catenach chain damage:', {expr='STR 100 %of', suff='/s'}},
-			{'Catenach chain '..Tooltips.full('Slow', 'DamageTypes')..':', {expr='STR 50 %of 95 min', suff='%'}},
-			{'Catenach chain duration:', {expr='DUR 10 %of', suff='s'}},
-			{'Catenach chain range:', {expr='RNG 6 %of', suff='m'}},
+			{'Catenach chain '..Tooltips.full('Slow', 'DamageTypes')..':', {expr='STR 50 %of 95 min', suff='%', fmt='2dec'}},
+			{'Catenach chain duration:', {expr='DUR 10 %of', suff='s', fmt='2dec'}},
+			{'Catenach chain range:', {expr='RNG 6 %of', suff='m', fmt='1dec'}},
 			{'Infernum '..Tooltips.full('Heat', 'DamageTypes')..' contact damage:', {expr='STR 1500 %of 0 INFERNUM if'}},
-			{'Infernum '..Tooltips.full('Heat', 'DamageTypes')..' radial damage:', {name='INFERNALIS_INFERNUM_RADIAL_DMG', expr='STR 1500 %of 0 INFERNUM if'}},
-			{'Infernum '..Tooltips.full('Ignite', 'DamageTypes')..' damage:', {expr='0.5 INFERNALIS_INFERNUM_RADIAL_DMG *'}},
-			{'Infernum empowerment duration:', {expr='DUR 5 %of 0 INFERNUM if', suff='s'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+			{'Infernum '..Tooltips.full('Heat', 'DamageTypes')..' radial damage:', {expr='STR 1500 %of 0 INFERNUM if'}},
+			{'Infernum empowerment duration:', {expr='DUR 5 %of 0 INFERNUM if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
 		}
 	},
 	['Remedium']={
 		ins={
-			{name='REMEDIUM_MAX_HEALTH', cont='Maximum '..Tooltips.full('Health', 'Stats'), default='666'},
+			{name='URIEL_HEALTH', cont='Current maximum '..Tooltips.full('Health', 'Stats')..':', default='666'},
 			{name='REMEDIUM_INFUSED', cont='[[Infused]]?', type='checkbox'}
 		},
 		outs={
-			{'Self healing percentage:', {name='REMEDIUM_HEALING', expr='STR 35 50 REMEDIUM_INFUSED if %of', suff='%'}},
-			{'Self healing total:', {expr='REMEDIUM_HEALING REMEDIUM_MAX_HEALTH %of'}},
-			{'Gulphagor latch damage:', {expr='0 STR 750 %of REMEDIUM_INFUSED if', suff='/tick'}},
-			{'Latched target [[Health Orb]] drop chance:', {expr='0 STR 300 %of REMEDIUM_INFUSED if', suff='%'}},
-			{'Latched target [[Energy Orb]] drop chance:', {expr='0 STR 100 %of REMEDIUM_INFUSED if', suff='%'}},
-			{'Gulphagor '..Tooltips.full('Heat', 'DamageTypes')..' field damage:', {name='GULPHAGOR_FIELD_DMG', expr='0 STR 200 %of REMEDIUM_INFUSED if', suff='/tick'}},
-			{'Gulphagor '..Tooltips.full('Ignite', 'DamageTypes')..' damage:', {expr='0.5 GULPHAGOR_FIELD_DMG *'}},
-			{'Gulphagor field duration:', {expr='0 DUR 10 %of REMEDIUM_INFUSED if', suff='s'}},
-			{'Gulphagor field radius:', {expr='0 RNG 4 %of REMEDIUM_INFUSED if', suff='m'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+			{'Self healing percentage:', {name='REMEDIUM_HEALING', expr='STR 35 50 REMEDIUM_INFUSED if %of', suff='%', fmt='2dec'}},
+			{'Self healing total:', {expr='REMEDIUM_HEALING URIEL_HEALTH %of'}},
+			{'Gulphagor latch damage:', {expr='0 STR 750 %of REMEDIUM_INFUSED if', suff='/0.25s'}},
+			{'Latched target [[Health Orb]] drop chance:', {expr='0 STR 300 %of REMEDIUM_INFUSED if', suff='%', fmt='2dec'}},
+			{'Latched target [[Energy Orb]] drop chance:', {expr='0 STR 100 %of REMEDIUM_INFUSED if', suff='%', fmt='2dec'}},
+			{'Gulphagor '..Tooltips.full('Heat', 'DamageTypes')..' field damage:', {expr='0 STR 200 %of REMEDIUM_INFUSED if', suff='/0.5s'}},
+			{'Gulphagor field duration:', {expr='0 DUR 10 %of REMEDIUM_INFUSED if', suff='s', fmt='2dec'}},
+			{'Gulphagor field radius:', {expr='0 RNG 4 %of REMEDIUM_INFUSED if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
 	['Demonium']={
 		outs={
 			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 250 %of'}},
-			{'[[Damage Vulnerability]]:', {expr='STR 50 %of', suff='%'}},
-			{'Duration:', {expr='DUR 5 %of', suff='s'}},
-			{'Explosion radius:', {expr='RNG 6 %of', suff='m'}},
-			{'Vythelas Rune [[Fire Rate]] bonus:', {expr='STR 30 %of', suff='%'}},
-			{'Vythelas Rune '..Tooltips.full('Heat', 'DamageTypes')..' damage bonus:', {expr='STR 30 %of', suff='%'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
+			{'[[Damage Vulnerability]]:', {expr='STR 50 %of', suff='%', fmt='2dec'}},
+			{'Duration:', {expr='DUR 5 %of', suff='s', fmt='2dec'}},
+			{'Explosion radius:', {expr='RNG 6 %of', suff='m', fmt='1dec'}},
+			{'Vythelas Rune '..Tooltips.full('Fire Rate', 'Stats')..' bonus:', {expr='STR 30 %of', suff='%', fmt='2dec'}},
+			{'Vythelas Rune '..Tooltips.full('Heat', 'DamageTypes')..' [[Extra Hit]]:', {expr='STR 30 %of', suff='%', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
 		}
 	},
 	['Brimstone']={
 		outs={
-			{'Initial '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {name='BRIMSTONE_BASE_DMG', expr='STR 750 %of', suff='/tick'}},
-			{'Initial '..Tooltips.full('Ignite', 'DamageTypes')..' damage:', {expr='0.5 BRIMSTONE_BASE_DMG *'}},
-			{'Maximum '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {name='BRIMSTONE_MAX_DMG', expr='10 BRIMSTONE_BASE_DMG *', suff='/tick'}},
-			{'Maximum '..Tooltips.full('Ignite', 'DamageTypes')..' damage:', {expr='0.5 BRIMSTONE_MAX_DMG *'}},
-			{'Duration:', {expr='DUR 10 %of', suff='s'}},
-			{'Radius:', {expr='RNG 15 %of', suff='m'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
+			{'Initial '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {name='BRIMSTONE_BASE_DMG', expr='STR 750 %of', suff='/0.25s'}},
+			{'Maximum '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='10 BRIMSTONE_BASE_DMG *', suff='/0.25s'}},
+			{'Duration:', {expr='DUR 10 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
 		}
 	},
 	-- Valkyr

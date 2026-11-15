@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-11-11T09:00:32.943Z"
+    "converted_at": "2026-11-15T08:57:24.049Z"
   },
   "_comments": "\t\t--Users = { },",
   "Tenet Tetra": {
@@ -3895,7 +3895,7 @@
     "Image": "Buzlok.png",
     "_RetiredDisposition": 1.45,
     "Accuracy": 16.7,
-    "Trigger": "Auto",
+    "Trigger": "Auto / Semi",
     "ExilusPolarity": "Naramon",
     "CompatibilityTags": [
       "PROJECTILE",

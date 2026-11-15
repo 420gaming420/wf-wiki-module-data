@@ -2494,7 +2494,7 @@ return {
 		SellPrice = 7500,
 		Slot = "Primary",
 		Traits = { "Grineer" },
-		Trigger = "Auto",
+		Trigger = "Auto / Semi",
 		Users = { "Harkonar" }
 	},
 	["Carmine Penta"] = {

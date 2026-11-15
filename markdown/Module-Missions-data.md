@@ -1,7 +1,7 @@
 ---
 title: "Module:Missions/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Missions/data"
-wiki_timestamp: "2026-10-13T22:41:02Z"
+wiki_timestamp: "2026-11-15T00:35:57Z"
 ---
 
 [![](/images/thumb/Photo-4.png/60px-Photo-4.png?13cbd)](/w/Lotus "Lotus")
@@ -14,7 +14,7 @@ Some junctions have moved around. Reflect on node progression changes. E.g. Plut
 
 Database of [Star Chart](/w/Star_Chart "Star Chart") mission nodes.
 
-:   *Last updated: Tue, 13 Oct 2026 22:41:02 +0000 (UTC) by [User:Sparrows413](/w/User:Sparrows413 "User:Sparrows413") ([change log](https://wiki.warframe.com/w/Module:Missions/data?diff=0))*
+:   *Last updated: Sun, 15 Nov 2026 00:35:57 +0000 (UTC) by [User:Sparrows413](/w/User:Sparrows413 "User:Sparrows413") ([change log](https://wiki.warframe.com/w/Module:Missions/data?diff=0))*
 
 ## Contents
 
@@ -1341,7 +1341,7 @@ local MissionData = {
 		{ Name = "The Duviri Experience", Link = "The Duviri Experience", Planet = "Duviri", Type = "Free Roam", Quotes = "Duviri/Quotes", Tileset = "Duviri", Enemy = "Duviri", MinLevel = 20, MaxLevel = 20, DropTableAlias = "TheDuviriExperience", MasteryExp = 0, InternalName = "SolNode236", IsHidden = true, Introduced = "33", Requirements = "Must have [[The Duviri Paradox]] completed to access", IsTracked = true, CreditReward = 0 },
 		{ Name = "The Lone Story (Duviri)", Link = "The Lone Story", Planet = "Duviri", Type = "Free Roam", Quotes = "Duviri/Quotes", Tileset = "Duviri", Enemy = "Duviri", MinLevel = 20, MaxLevel = 20, DropTableAlias = "TheDuviriExperience", MasteryExp = 0, InternalName = "SolNode237", IsHidden = true, Introduced = "33", Requirements = "Must have [[The Duviri Paradox]] completed to access", IsTracked = true, CreditReward = 0 },
 		{ Name = "The Circuit", Link = "The Circuit", Planet = "Duviri", Type = "Free Roam", Quotes = "The Circuit/Quotes", Tileset = "Duviri", Enemy = "Duviri", MinLevel = 20, MaxLevel = 20, DropTableAlias = "TheCircuit", MasteryExp = 0, InternalName = "SolNode238", IsHidden = true, Introduced = "33", Requirements = "Must have [[The Duviri Paradox]] completed to access", IsTracked = true, CreditReward = 0 },
-		{ Name = "Isleweaver", Link = "Isleweaver", Planet = "Duviri", Type = "Free Roam", Quotes = "Isleweaver/Quotes", Tileset = "Duviri", Enemy = "The Murmur", MinLevel = 60, MaxLevel = 62, DropTableAlias = "Isleweaver", Pic = "MurmurIcon.png", MasteryExp = 0, InternalName = "SolNode236", IsHidden = true, Introduced = "39", Requirements = "Must have [[The Hex]] completed to access", IsTracked = true, CreditReward = 0 },
+		{ Name = "Isleweaver", Link = "Isleweaver", Planet = "Duviri", Image = "IsleweaverMission.png", Type = "Free Roam", Quotes = "Isleweaver/Quotes", Tileset = "Duviri", Enemy = "The Murmur", MinLevel = 60, MaxLevel = 62, DropTableAlias = "Isleweaver", Pic = "MurmurIcon.png", MasteryExp = 0, InternalName = "SolNode236", IsHidden = true, Introduced = "39", Requirements = "Must have [[The Hex]] completed to access", IsTracked = true, CreditReward = 0 },
 		
 		-- 1999
 		{ Name = "Köbinn West", Link = "Köbinn West", Planet = "Höllvania", Type = "Legacyte Harvest", Quotes = "Legacyte Harvest/Quotes", Tileset = "Höllvania", Enemy = "Techrot", MinLevel = 65, MaxLevel = 70, DropTableAlias = "1999LegacyteHarvest", MasteryExp = 0, InternalName = "SolNode850", Introduced = "38", Requirements = "Must have [[The Hex (Quest)]] completed to access", IsTracked = true },
