@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-11-15T08:57:21.413Z"
+    "converted_at": "2026-11-17T10:23:14.840Z"
   },
   "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins\n-- this contains mappings for what we couldn't pull from preexisting modules\n\t-- Amesha\n\t-- Ash\n\t-- Atlas\n\t-- Banshee\n\t-- Baruuk\n\t-- Bonewidow\n\t-- Caliban\n\t-- Chroma\n\t-- Citrine\n\t-- Cyte-09\n\t-- Dagath\n\t-- Dante\n\t-- Elytron\n\t-- Ember\n\t-- Equinox\n\t-- Excalibur\n\t-- Excalibur Umbra\n\t-- Follie\n\t-- Frost\n\t-- Gara\n\t-- Garuda\n\t-- Gauss\n\t-- Grendel\n\t-- Gyre\n\t-- Harrow\n\t-- Hildryn\n\t-- Hydroid\n\t-- Inaros\n\t-- Itzal\n\t-- Ivara\n\t-- Jade\n\t\t\t-- Epsilon represents the 1 frame delay\n\t-- Khora\n\t-- Koumei\n\t-- Kullervo\n\t-- Lavos\n\t-- Limbo\n\t-- Loki\n\t-- Mag\n\t-- Mesa\n\t-- Mirage\n\t-- Narin\n\t-- Nekros\n\t-- Nezha\n\t-- Nidus\n\t-- Nokko\n\t-- Nova\n\t-- Nyx\n\t-- Oberon\n\t-- Octavia\n\t-- Odonata\n\t-- Oraxia\n\t-- Protea\n\t-- Qorvex\n\t-- Revenant\n\t-- Rhino\n\t-- Saryn\n\t-- Sevagoth\n\t-- Sevagoth's Shadow\n\t-- Sirius & Orion\n\t-- Stalker\n\t-- Styanax\n\t-- Temple\n\t-- Titania\n\t-- Trinity\n\t-- Uriel\n\t-- Valkyr\n\t-- Vauban\n\t-- Voidrig\n\t-- Volt\n\t-- Voruna\n\t-- Wisp\n\t-- Wukong\n\t-- Xaku\n\t-- Yareli\n\t-- Zephyr\n\t-- Helminth\n\t-- Railjack",
   "Glory on High": {
@@ -98,6 +98,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "5 DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -841,6 +842,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "40 20 DANSE_MACABRE_BOOSTED if DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -1090,14 +1092,15 @@
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Heat|DamageTypes}} damage bonus:",
+        "Fireball Frenzy {{#invoke:Tooltip|full|Heat|DamageTypes}} damage bonus:",
         {
           "expr": "STR 100 %of 0 FIREBALL_FRENZY if",
-          "suff": "%"
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Heat|DamageTypes}} damage bonus duration:",
+        "Fireball Frenzy duration:",
         {
           "expr": "DUR 40 %of 0 FIREBALL_FRENZY if",
           "suff": "s",
@@ -1105,7 +1108,7 @@
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Heat|DamageTypes}} damage bonus radius:",
+        "Fireball Frenzy radius:",
         {
           "expr": "RNG 15 %of 0 FIREBALL_FRENZY if",
           "suff": "m",
@@ -1170,6 +1173,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "3.5 DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -1278,6 +1282,7 @@
         "Minimum {{#invoke:Tooltip|full|Armor|Stats}} reduction:",
         {
           "expr": "STR 75 %of 75 min STR 50 %of 50 min FIRE_BLAST_INFUSED if",
+          "fmt": "2dec",
           "name": "FIRE_BLAST_MIN_STRIP",
           "suff": "%"
         }
@@ -1286,6 +1291,7 @@
         "Maximum {{#invoke:Tooltip|full|Armor|Stats}} reduction:",
         {
           "expr": "FIRE_BLAST_MIN_STRIP STR 100 %of 100 min FIRE_BLAST_INFUSED if",
+          "fmt": "2dec",
           "name": "FIRE_BLAST_MAX_STRIP",
           "suff": "%"
         }
@@ -1293,8 +1299,9 @@
       [
         "Current {{#invoke:Tooltip|full|Armor|Stats}} reduction:",
         {
-          "expr": "FIRE_BLAST_MIN_STRIP IMMOLATION_LEVEL 100 + FIRE_BLAST_MIN_STRIP %of FIRE_BLAST_INFUSED if",
-          "suff": "%"
+          "expr": "\t\t\t\t\t\tFIRE_BLAST_MIN_STRIP\n\t\t\t\t\t\tIMMOLATION_LEVEL 100 + FIRE_BLAST_MIN_STRIP %of\n\t\t\t\t\t\tFIRE_BLAST_INFUSED if\n\t\t\t\t\t\t",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -1308,7 +1315,7 @@
       [
         "{{#invoke:Tooltip|full|Health|Stats}} restored:",
         {
-          "expr": "50 IMMOLATION_LEVEL FIRE_BLAST_INFUSED if 100 + 25 %of 0 HEALING_FLAME if",
+          "expr": "50 IMMOLATION_LEVEL FIRE_BLAST_INFUSED if 100 + STR 25 %of %of 0 HEALING_FLAME if",
           "suff": "/hit"
         }
       ],
@@ -2078,6 +2085,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "20 FUSED_CRUCIBLE_DURATION 0.5 * + DRAIN * 0 FUSED_CRUCIBLE if",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -2230,6 +2238,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "15 DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -2290,6 +2299,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "10 DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -2880,6 +2890,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "2.5 DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -4598,6 +4609,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "10 DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -4668,6 +4680,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "5 DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -5549,14 +5562,14 @@
         "Ally {{#invoke:Tooltip|full|Shield|Stats}} drain:",
         {
           "expr": "5 DRAIN *",
-          "suff": "/ally"
+          "suff": "/s/ally"
         }
       ],
       [
         "Enemy {{#invoke:Tooltip|full|Shield|Stats}} drain:",
         {
           "expr": "25 DRAIN *",
-          "suff": "/enemy"
+          "suff": "/s/enemy"
         }
       ]
     ],
@@ -6258,6 +6271,7 @@
         "Passive {{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "1 DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ],
@@ -6265,6 +6279,7 @@
         "Moving {{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "3 DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ],
@@ -6880,6 +6895,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "3.5 DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -7374,6 +7390,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "5 DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -7694,34 +7711,38 @@
   "Immolation": {
     "outs": [
       [
-        "Minimum [[Damage Reduction]]:",
+        "Minimum {{#invoke:Tooltip|full|Damage Reduction|Stats}} :",
         {
           "expr": "STR 40 %of 50 min",
+          "fmt": "2dec",
           "name": "IMMOLATION_MIN_DR",
           "suff": "%"
         }
       ],
       [
-        "Maximum Damage Reduction:",
+        "Maximum {{#invoke:Tooltip|full|Damage Reduction|Stats}} :",
         {
           "expr": "STR 85 %of 90 min",
+          "fmt": "2dec",
           "name": "IMMOLATION_MAX_DR",
           "suff": "%"
         }
       ],
       [
-        "Current Damage Reduction:",
+        "Current {{#invoke:Tooltip|full|Damage Reduction|Stats}} :",
         {
           "expr": "IMMOLATION_LEVEL IMMOLATION_MAX_DR * 100 IMMOLATION_LEVEL - IMMOLATION_MIN_DR * + as%",
+          "fmt": "2dec",
           "name": "IMMOLATION_CURR_DR",
           "suff": "%"
         }
       ],
       [
-        "Shared Damage Reduction:",
+        "Shared {{#invoke:Tooltip|full|Damage Reduction|Stats}} :",
         {
           "expr": "50 IMMOLATION_CURR_DR %of 0 IMMOLATED_RADIANCE if",
-          "suff": "%"
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -7735,6 +7756,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "IMMOLATION_TIME 0.4 DRAIN * *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -7746,7 +7768,7 @@
         "name": "IMMOLATION_LEVEL",
         "max": "100",
         "value": "0",
-        "cont": "Immolation level:"
+        "cont": "{{#invoke:Tooltip|full|Immolation|Ability}} level:"
       },
       {
         "min": "0",
@@ -7841,6 +7863,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "16 DRAIN * 1.2 GASEOUS_QUAKE_DURATION ^ * 0 GASEOUS_QUAKE if",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -8429,6 +8452,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "3 DRAIN * 0 GRENDEL_STOMACH 0 = if",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ],
@@ -8761,6 +8785,7 @@
         "Minimum {{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "3 DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ],
@@ -8768,6 +8793,7 @@
         "Maximum {{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "5 DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -10297,6 +10323,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "5 DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -10450,6 +10477,7 @@
         "Initial {{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "3 DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ],
@@ -10457,7 +10485,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain growth:",
         {
           "expr": "2 DRAIN *",
-          "suff": "/s",
+          "suff": "/s²",
           "fmt": "2dec"
         }
       ],
@@ -10465,6 +10493,7 @@
         "Maximum {{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "50 DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -11591,6 +11620,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "0 24 12 SOL_GATE_BOOSTED if DRAIN * CATACLYSMIC_GATE if",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -12282,6 +12312,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "0 5 DRAIN * ENRAGED if",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -12700,6 +12731,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "12.5 DRAIN * 2 1 GAUSS_BATTERY 80 &gt; if /",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -13267,6 +13299,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "5 DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -15648,6 +15681,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "6.5 DRAIN * 0 ASSIMILATE if",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -15897,6 +15931,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "3 DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -16365,6 +16400,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "2.5 DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -16641,6 +16677,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "5 10 PRISM_LUNAR if DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -17377,6 +17414,7 @@
         "{{#invoke:Tooltip|full|Energy|Stats}} drain:",
         {
           "expr": "5 DRAIN *",
+          "suff": "/s",
           "fmt": "2dec"
         }
       ]
@@ -17577,14 +17615,15 @@
       [
         "{{#invoke:Tooltip|full|Shield|Stats}} drain:",
         {
-          "expr": "25 DRAIN *"
+          "expr": "25 DRAIN *",
+          "suff": "/s"
         }
       ],
       [
         "Enemy {{#invoke:Tooltip|full|Shield|Stats}} drain:",
         {
           "expr": "25 DRAIN *",
-          "suff": "/enemy"
+          "suff": "/s/enemy"
         }
       ],
       [

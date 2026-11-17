@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Module:Maximization/data - WARFRAME Wiki</title>
-<script>(function(){var className="client-js";var cookie=document.cookie.match(/(?:^|; )wgmwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"842e8bffcc764175f4c5c6ff76009575","wgCanonicalNamespace":"Module","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":828,"wgPageName":"Module:Maximization/data","wgTitle":"Maximization/data","wgCurRevisionId":2824286,"wgRevisionId":2824286,"wgArticleId":1531239,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"Scribunto","wgRelevantPageName":"Module:Maximization/data","wgRelevantArticleId":1531239,"wgTempUserName":null,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":["rollback"],"simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgCiteReferencePreviewsActive":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":0,"wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["brands","architecture","bitness","fullVersionList","mobile","model","platform","platformVersion"]};
+<script>(function(){var className="client-js";var cookie=document.cookie.match(/(?:^|; )wgmwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"7bcca950f74355bcec90238ea4ebab05","wgCanonicalNamespace":"Module","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":828,"wgPageName":"Module:Maximization/data","wgTitle":"Maximization/data","wgCurRevisionId":2824584,"wgRevisionId":2824584,"wgArticleId":1531239,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"Scribunto","wgRelevantPageName":"Module:Maximization/data","wgRelevantArticleId":1531239,"wgTempUserName":null,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":["rollback"],"simpleBatchUploadMaxFilesPerBatch":{"*":1000},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgCiteReferencePreviewsActive":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":false,"watchlist":false,"tagline":false},"wgPopupsFlags":0,"wgEditSubmitButtonLabelPublish":false,"wgCheckUserClientHintsHeadersJsApi":["brands","architecture","bitness","fullVersionList","mobile","model","platform","platformVersion"]};
 RLSTATE={"ext.gadget.charinsert-styles":"ready","site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","ext.pygments":"ready","skins.vector.styles.legacy":"ready","skins.vector.search.codex.styles":"ready","jquery.tablesorter.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.embedVideo.styles":"ready"};RLPAGEMODULES=["ext.pygments.view","site","mediawiki.page.ready","jquery.tablesorter","mediawiki.toc","skins.vector.legacy.js","mmv.bootstrap","ext.gadget.countdown","ext.gadget.NightwaveActs","ext.gadget.CycleClock","ext.gadget.enemyinfoboxslider","ext.gadget.enemyinfoboxslider-dev","ext.gadget.calculator","ext.gadget.maximization","ext.gadget.RelicTable","ext.gadget.Tooltips","ext.gadget.maps","ext.gadget.Mbox","ext.gadget.CollapseExpandButtons","ext.gadget.fixedWidthToggle","ext.gadget.lightmode","ext.gadget.checkboxList","ext.gadget.highlightTable","ext.gadget.autosort","ext.gadget.MathVM","ext.gadget.contributions","ext.gadget.profileTags","ext.gadget.charinsert","ext.gadget.I18n","ext.gadget.topLangLinks","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.embedVideo.overlay","ext.checkUser.clientHints","ext.popups"];</script>
 <script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
 }];});});</script>
@@ -276,7 +276,7 @@ local Data = {
 			{Tooltips.full('Slow', 'DamageTypes')..':', {expr='STR 50 %of 80 min', suff='%', fmt='2dec'}},
 			{'Radius:', {expr='RNG 40 400 LANDSCAPE_RANGES if %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='10 DRAIN *', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='10 DRAIN *', suff='/s', fmt='2dec'}}
 		}
 	},
 	['Vengeful Rush']={
@@ -518,7 +518,7 @@ local Data = {
 			{'Zone duration:', {expr='DUR 6.25 25 GASEOUS_QUAKE if %of', suff='s'}},
 			{'Radius:', {expr='RNG 20 %of', suff='m'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 75 GASEOUS_QUAKE if COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='16 DRAIN * 1.2 GASEOUS_QUAKE_DURATION ^ * 0 GASEOUS_QUAKE if', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='16 DRAIN * 1.2 GASEOUS_QUAKE_DURATION ^ * 0 GASEOUS_QUAKE if', suff='/s', fmt='2dec'}}
 		}
 	},
 	-- Baruuk
@@ -531,7 +531,7 @@ local Data = {
 			{'Melee '..Tooltips.full('Critical Chance', 'Stats')..' and [[Attack Speed]] bonus:', {expr='STR 30 %of 0 ELUSIVE_RETRIBUTION if', suff='%/6 stacks', fmt='2dec'}},
 			{'Elusive Retribution duration:', {expr='DUR 6 %of 0 ELUSIVE_RETRIBUTION if', suff='s', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='2.5 DRAIN *', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='2.5 DRAIN *', suff='/s', fmt='2dec'}}
 		}
 	},
 	['Lull']={
@@ -677,7 +677,7 @@ local Data = {
 			{'Damage accumulation:', {expr='STR 100 %of 0 AFTERBURN if', suff='/s'}},
 			{'Maximum Afterburn damage:', {expr='STR 500 %of 0 AFTERBURN if'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='10 COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='3 DRAIN *', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='3 DRAIN *', suff='/s', fmt='2dec'}}
 		}
 	},
 	['Elemental Ward']={
@@ -731,7 +731,7 @@ local Data = {
 			{'Movement damage:', {expr='STR 4000 %of 0 GUIDED_EFFIGY if', suff='/s'}},
 			{Tooltips.full('Energy', 'Stats')..' restoration:', {expr='5 COST * 0 GUIDED_EFFIGY if', suff='/movement hit', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='10 DRAIN *', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='10 DRAIN *', suff='/s', fmt='2dec'}}
 		}
 	},
 	-- Citrine
@@ -976,31 +976,50 @@ local Data = {
 			{name='FIREBALL_FRENZY', cont=Tooltips.full('Fireball Frenzy', 'Mods')..'?', type='checkbox'}
 		},
 		outs={
-			{'Direct '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 400 FIREBALL_COMBO 1 + * %of'}},
-			{'Radial '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 150 FIREBALL_COMBO 1 + * %of'}},
+			{'Direct '..Tooltips.full('Heat', 'DamageTypes')..' damage:',
+				{expr='STR 400 FIREBALL_COMBO 1 + * %of'}
+			},
+			{'Radial '..Tooltips.full('Heat', 'DamageTypes')..' damage:',
+				{expr='STR 150 FIREBALL_COMBO 1 + * %of'}
+			},
 			{'Combo window:', {expr='DUR 1.5 %of', suff='s', fmt='2dec'}},
 			{'Damage radius:', {expr='RNG 3 %of', suff='m', fmt='1dec'}},
-			{Tooltips.full('Heat', 'DamageTypes')..' damage bonus:', {expr='STR 100 %of 0 FIREBALL_FRENZY if', suff='%'}},
-			{Tooltips.full('Heat', 'DamageTypes')..' damage bonus duration:', {expr='DUR 40 %of 0 FIREBALL_FRENZY if', suff='s', fmt='2dec'}},
-			{Tooltips.full('Heat', 'DamageTypes')..' damage bonus radius:', {expr='RNG 15 %of 0 FIREBALL_FRENZY if', suff='m', fmt='1dec'}},
+			{'Fireball Frenzy '..Tooltips.full('Heat', 'DamageTypes')..' damage bonus:',
+				{expr='STR 100 %of 0 FIREBALL_FRENZY if', suff='%', fmt='2dec'}
+			},
+			{'Fireball Frenzy duration:', {expr='DUR 40 %of 0 FIREBALL_FRENZY if', suff='s', fmt='2dec'}},
+			{'Fireball Frenzy radius:', {expr='RNG 15 %of 0 FIREBALL_FRENZY if', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
 		}
 	},
 	['Immolation']={
 		ins={
-			{name='IMMOLATION_LEVEL', cont='Immolation level:', type='range-R', min='0', max='100', value='0'},
+			{name='IMMOLATION_LEVEL', cont=Tooltips.full('Immolation', 'Ability')..' level:', type='range-R', min='0', max='100', value='0'},
 			{name='IMMOLATION_TIME', cont='Seconds spent at maximum Immolation:', min='0', value='0'},
 			{name='IMMOLATED_RADIANCE', cont=Tooltips.full('Immolated Radiance', 'Mods')..'?', type='checkbox'}
 		},
 		outs={
-			{'Minimum [[Damage Reduction]]:', {name='IMMOLATION_MIN_DR', expr='STR 40 %of 50 min', suff='%'}},
-			{'Maximum Damage Reduction:', {name='IMMOLATION_MAX_DR', expr='STR 85 %of 90 min', suff='%'}},
-			{'Current Damage Reduction:',
-				{name='IMMOLATION_CURR_DR', expr='IMMOLATION_LEVEL IMMOLATION_MAX_DR * 100 IMMOLATION_LEVEL - IMMOLATION_MIN_DR * + as%', suff='%'}
+			{'Minimum '..Tooltips.full('Damage Reduction', 'Stats')..' :',
+				{name='IMMOLATION_MIN_DR', expr='STR 40 %of 50 min', suff='%', fmt='2dec'}
 			},
-			{'Shared Damage Reduction:', {expr='50 IMMOLATION_CURR_DR %of 0 IMMOLATED_RADIANCE if', suff='%'}},
+			{'Maximum '..Tooltips.full('Damage Reduction', 'Stats')..' :',
+				{name='IMMOLATION_MAX_DR', expr='STR 85 %of 90 min', suff='%', fmt='2dec'}
+			},
+			{'Current '..Tooltips.full('Damage Reduction', 'Stats')..' :',
+				{
+					name='IMMOLATION_CURR_DR',
+					expr='IMMOLATION_LEVEL IMMOLATION_MAX_DR * 100 IMMOLATION_LEVEL - IMMOLATION_MIN_DR * + as%',
+					suff='%',
+					fmt='2dec'
+				}
+			},
+			{'Shared '..Tooltips.full('Damage Reduction', 'Stats')..' :',
+				{expr='50 IMMOLATION_CURR_DR %of 0 IMMOLATED_RADIANCE if', suff='%', fmt='2dec'}
+			},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='IMMOLATION_TIME 0.4 DRAIN * *', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:',
+				{expr='IMMOLATION_TIME 0.4 DRAIN * *', suff='/s', fmt='2dec'}
+			}
 		}
 	},
 	['Fire Blast']={
@@ -1013,18 +1032,45 @@ local Data = {
 		outs={
 			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 200 %of'}},
 			{'Minimum '..Tooltips.full('Armor', 'Stats')..' reduction:',
-				{name='FIRE_BLAST_MIN_STRIP', expr='STR 75 %of 75 min STR 50 %of 50 min FIRE_BLAST_INFUSED if', suff='%'}
+				{
+					name='FIRE_BLAST_MIN_STRIP',
+					expr='STR 75 %of 75 min STR 50 %of 50 min FIRE_BLAST_INFUSED if',
+					suff='%',
+					fmt='2dec'
+				}
 			},
 			{'Maximum '..Tooltips.full('Armor', 'Stats')..' reduction:',
-				{name='FIRE_BLAST_MAX_STRIP', expr='FIRE_BLAST_MIN_STRIP STR 100 %of 100 min FIRE_BLAST_INFUSED if', suff='%'}
+				{
+					name='FIRE_BLAST_MAX_STRIP',
+					expr='FIRE_BLAST_MIN_STRIP STR 100 %of 100 min FIRE_BLAST_INFUSED if',
+					suff='%',
+					fmt='2dec'
+				}
 			},
 			{'Current '..Tooltips.full('Armor', 'Stats')..' reduction:',
-				{expr='FIRE_BLAST_MIN_STRIP IMMOLATION_LEVEL 100 + FIRE_BLAST_MIN_STRIP %of FIRE_BLAST_INFUSED if', suff='%'}
+				{
+					expr=[[
+						FIRE_BLAST_MIN_STRIP
+						IMMOLATION_LEVEL 100 + FIRE_BLAST_MIN_STRIP %of
+						FIRE_BLAST_INFUSED if
+						]],
+					suff='%',
+					fmt='2dec'
+				}
 			},
 			{'Radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
-			{Tooltips.full('Health', 'Stats')..' restored:', {expr='50 IMMOLATION_LEVEL FIRE_BLAST_INFUSED if 100 + 25 %of 0 HEALING_FLAME if', suff='/hit'}},
-			{Tooltips.full('Overguard', 'DamageTypes')..' cap:', {expr='STR 10000 %of 0 HEALING_FLAME FIRE_BLAST_INFUSED not and if'}},
-			{'[[Status Effect]] immunity duration:', {expr='DUR 4 %of 0 PURIFYING_FLAMES if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Health', 'Stats')..' restored:',
+				{
+					expr='50 IMMOLATION_LEVEL FIRE_BLAST_INFUSED if 100 + STR 25 %of %of 0 HEALING_FLAME if',
+					suff='/hit'
+				}
+			},
+			{Tooltips.full('Overguard', 'DamageTypes')..' cap:',
+				{expr='STR 10000 %of 0 HEALING_FLAME FIRE_BLAST_INFUSED not and if'}
+			},
+			{'[[Status Effect]] immunity duration:',
+				{expr='DUR 4 %of 0 PURIFYING_FLAMES if', suff='s', fmt='2dec'}
+			},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
 		}
 	},
@@ -1037,10 +1083,14 @@ local Data = {
 			{Tooltips.full('Impact', 'DamageTypes')..' and '..Tooltips.full('Heat', 'DamageTypes')..' contact damage:',
 				{expr='STR 2500 %of'}
 			},
-			{Tooltips.full('Heat', 'DamageTypes')..' ring damage:', {expr='IMMOLATION_LEVEL 100 + STR 350 %of %of'}},
+			{Tooltips.full('Heat', 'DamageTypes')..' ring damage:',
+				{expr='IMMOLATION_LEVEL 100 + STR 350 %of %of'}
+			},
 			{'Duration:', {expr='DUR 15 %of', suff='s', fmt='2dec'}},
 			{'Targeting radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='10 COST * INFERNO_TARGETS 10 min *', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:',
+				{expr='10 COST * INFERNO_TARGETS 10 min *', fmt='2dec'}
+			}
 		}
 	},
 	-- Equinox
@@ -1096,7 +1146,7 @@ local Data = {
 			{'Maim '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 150 %of'}},
 			{'Radius:', {expr='RNG 18 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='3.5 DRAIN *', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='3.5 DRAIN *', suff='/s', fmt='2dec'}}
 		}
 	},
 	-- Excalibur
@@ -1156,7 +1206,7 @@ local Data = {
 			{Tooltips.full('Status Chance', 'Stats')..' bonus:', {expr='STR 300 %of 0 CHROMATIC_BLADE if', suff='%', fmt='2dec'}},
 			{'Cast '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
 			{'Blind '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='2.5 DRAIN *', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='2.5 DRAIN *', suff='/s', fmt='2dec'}}
 		}
 	},
 	-- Excalibur Umbra
@@ -1353,8 +1403,8 @@ local Data = {
 			{'Ring expansion rate:', {name='MASS_VITRIFY_SPEED', expr='RNG 3 %of', suff='m/s', fmt='1dec'}},
 			{'Explosion radius:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}},
-			{'Minimum '..Tooltips.full('Energy', 'Stats')..' drain:', {expr='3 DRAIN *', fmt='2dec'}},
-			{'Maximum '..Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', fmt='2dec'}}
+			{'Minimum '..Tooltips.full('Energy', 'Stats')..' drain:', {expr='3 DRAIN *', suff='/s', fmt='2dec'}},
+			{'Maximum '..Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', suff='/s', fmt='2dec'}}
 		}
 	},
 	-- Garuda
@@ -1414,7 +1464,7 @@ local Data = {
 			{'Shockwave radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
 			{'Vortex radius:', {expr='RNG 8 %of 0 MACH_CRASH if', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='15 COST * 2 1 GAUSS_BATTERY 80 &amp;gt; if /', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='12.5 DRAIN * 2 1 GAUSS_BATTERY 80 &amp;gt; if /', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='12.5 DRAIN * 2 1 GAUSS_BATTERY 80 &amp;gt; if /', suff='/s', fmt='2dec'}}
 		}
 	},
 	['Kinetic Plating']={
@@ -1542,7 +1592,7 @@ local Data = {
 			{'Collision radius:', {expr='2.5 0.5 GRENDEL_STOMACH * +', suff='m', fmt='1dec'}},
 			{'Slam radius:', {expr='RNG 5 2 GRENDEL_STOMACH * + %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Armor', 'Stats')..' Reduction:', {expr='STR 50 %of 100 min', suff='%', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='3 DRAIN * 0 GRENDEL_STOMACH 0 = if', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='3 DRAIN * 0 GRENDEL_STOMACH 0 = if', suff='/s', fmt='2dec'}},
 			{'Catapult '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='5 COST * 0 CATAPULT if', fmt='2dec'}}
 		}
 	},
@@ -1724,8 +1774,8 @@ local Data = {
 			{'Ally Shield Recharge Rate bonus:', {expr='DUR 80 %of', suff='%', fmt='2dec'}},
 			{'Radius:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
 			{'Cast '..Tooltips.full('Shield', 'Stats')..' cost:', {expr='250 COST *'}},
-			{'Ally '..Tooltips.full('Shield', 'Stats')..' drain:', {expr='5 DRAIN *', suff='/ally'}},
-			{'Enemy '..Tooltips.full('Shield', 'Stats')..' drain:', {expr='25 DRAIN *', suff='/enemy'}}
+			{'Ally '..Tooltips.full('Shield', 'Stats')..' drain:', {expr='5 DRAIN *', suff='/s/ally'}},
+			{'Enemy '..Tooltips.full('Shield', 'Stats')..' drain:', {expr='25 DRAIN *', suff='/s/enemy'}}
 		}
 	},
 	['Aegis Storm']={
@@ -1737,8 +1787,8 @@ local Data = {
 			{'Landing '..Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
 			{'Radius:', {expr='0 AEGIS_STORM_ALTITUDE -7 * 100 + RNG 15 %of %of AEGIS_STORM_ALTITUDE 10 &amp;gt; if', suff='m', fmt='1dec'}},
 			{'Cast '..Tooltips.full('Shield', 'Stats')..' cost:', {expr='100 COST *'}},
-			{Tooltips.full('Shield', 'Stats')..' drain:', {expr='25 DRAIN *'}},
-			{'Enemy '..Tooltips.full('Shield', 'Stats')..' drain:', {expr='25 DRAIN *', suff='/enemy'}},
+			{Tooltips.full('Shield', 'Stats')..' drain:', {expr='25 DRAIN *', suff='/s'}},
+			{'Enemy '..Tooltips.full('Shield', 'Stats')..' drain:', {expr='25 DRAIN *', suff='/s/enemy'}},
 			{'Dodge '..Tooltips.full('Shield', 'Stats')..' cost:', {expr='50 COST *'}}
 		}
 	},
@@ -1862,7 +1912,7 @@ local Data = {
 		outs={
 			{'Radius:', {expr='RNG 7.6 76 LANDSCAPE_RANGES if %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='15 COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', suff='/s', fmt='2dec'}}
 		}
 	},
 	['Cosmic Crush']={
@@ -1916,9 +1966,9 @@ local Data = {
 			{'Damage multiplier growth:', {expr='100 DUR /', suff='%/s', fmt='2dec'}},
 			{'[[Punch Through]] bonus:', {expr='RNG 3 %of 0 PIERCING_NAVIGATOR if', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
-			{'Initial '..Tooltips.full('Energy', 'Stats')..' drain:', {expr='3 DRAIN *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain growth:', {expr='2 DRAIN *', suff='/s', fmt='2dec'}},
-			{'Maximum '..Tooltips.full('Energy', 'Stats')..' drain:', {expr='50 DRAIN *', fmt='2dec'}}
+			{'Initial '..Tooltips.full('Energy', 'Stats')..' drain:', {expr='3 DRAIN *', suff='/s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' drain growth:', {expr='2 DRAIN *', suff='/s²', fmt='2dec'}},
+			{'Maximum '..Tooltips.full('Energy', 'Stats')..' drain:', {expr='50 DRAIN *', suff='/s', fmt='2dec'}}
 		}
 	},
 	['Prowl']={
@@ -1932,8 +1982,8 @@ local Data = {
 			{'Steal range:', {expr='RNG 4 %of', suff='m', fmt='1dec'}},
 			{'Movement Speed multiplier:', {expr='50 100 STR 25 %of + 100 INFILTRATE if %of', suff='%', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
-			{'Passive '..Tooltips.full('Energy', 'Stats')..' drain:', {expr='1 DRAIN *', fmt='2dec'}},
-			{'Moving '..Tooltips.full('Energy', 'Stats')..' drain:', {expr='3 DRAIN *', fmt='2dec'}},
+			{'Passive '..Tooltips.full('Energy', 'Stats')..' drain:', {expr='1 DRAIN *', suff='/s', fmt='2dec'}},
+			{'Moving '..Tooltips.full('Energy', 'Stats')..' drain:', {expr='3 DRAIN *', suff='/s', fmt='2dec'}},
 			{'Melee '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 COST *', suff='/hit', fmt='2dec'}},
 			{'Damage '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='10 COST *', suff='/hit', fmt='2dec'}}
 		}
@@ -2019,7 +2069,7 @@ local Data = {
 			{'Empowered detonation radius:', {expr='RNG 6 %of', suff='m', fmt='1dec'}},
 			{'Cast '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
 			{'Detonation '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', suff='/s', fmt='2dec'}}
 		}
 	},
 	-- Khora
@@ -2409,7 +2459,7 @@ local Data = {
 			{'Regulators total damage:', {expr='PEACEMAKER_BASE_DMG PEACEMAKER_ELEMENT_DMG +'}},
 			{'Minimum Field of View:', {expr='RNG as% sqrt 15 PI * 180 / tan * atan 180 * PI /', suff='°', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='15 DRAIN *', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='15 DRAIN *', suff='/s', fmt='2dec'}}
 		}
 	},
 	-- Mirage
@@ -2467,7 +2517,7 @@ local Data = {
 			{'Laser targeting range:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Blind', 'DamageTypes')..' radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 50 PRISM_LUNAR if COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 10 PRISM_LUNAR if DRAIN *', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 10 PRISM_LUNAR if DRAIN *', suff='/s', fmt='2dec'}}
 		}
 	},
 	-- Narin
@@ -2852,7 +2902,7 @@ local Data = {
 			{'Damage for 400% Weapon Damage bonus:', {expr='4 ABSORB_CONVERSION sqrt / 2 ^'}},
 			{'Damage for 50m radius:', {expr='50 ABSORB_RNG - 50 * 5 sqrt / 2 ^'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='6.5 DRAIN * 0 ASSIMILATE if', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='6.5 DRAIN * 0 ASSIMILATE if', suff='/s', fmt='2dec'}}
 		}
 	},
 	-- Oberon
@@ -2898,7 +2948,7 @@ local Data = {
 			{'[[Bleedout]] reduction:', {expr='DUR 45 %of 90 min', suff='%'}},
 			{Tooltips.full('Health', 'Stats')..' restored on Phoenix Renewal:', {expr='STR 50 %of 100 min 0 PHOENIX_RENEWAL if', suff='%'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='3.5 DRAIN *', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='3.5 DRAIN *', suff='/s', fmt='2dec'}}
 		}
 	},
 	['Reckoning']={
@@ -3065,7 +3115,7 @@ local Data = {
 			{'Burst radius:', {expr='RNG 5 %of', suff='m', fmt='2dec'}},
 			{'Silken Thread range:', {expr='RNG 75 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', suff='/s', fmt='2dec'}}
 		}
 	},
 	-- Protea
@@ -3184,7 +3234,7 @@ local Data = {
 			{'Beam length:', {expr='RNG 40 %of', suff='m', fmt='1dec'}},
 			{'Explosion radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 100 FUSED_CRUCIBLE if COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='20 FUSED_CRUCIBLE_DURATION 0.5 * + DRAIN * 0 FUSED_CRUCIBLE if', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='20 FUSED_CRUCIBLE_DURATION 0.5 * + DRAIN * 0 FUSED_CRUCIBLE if', suff='/s', fmt='2dec'}}
 		}
 	},
 	-- Revenant
@@ -3238,7 +3288,7 @@ local Data = {
 			{'Beam thickness:', {expr='RNG 0.1 %of 2 1 DANSE_MACABRE_BOOSTED if *', suff='m', fmt='2dec'}},
 			{'Status Chance:', {expr='40 20 DANSE_MACABRE_BOOSTED if', suff='%'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='40 20 DANSE_MACABRE_BOOSTED if DRAIN *', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='40 20 DANSE_MACABRE_BOOSTED if DRAIN *', suff='/s', fmt='2dec'}}
 		}
 	},
 	-- Rhino
@@ -3735,7 +3785,7 @@ local Data = {
 			{'Razorwing Blitz bonus:', {name='RAZORWING_BLITZ_BONUSES', expr='STR 25 %of 0 RAZORWING_BLITZ if', suff='%/stack', fmt='2dec'}},
 			{'Razorwing Blitz maximum bonuses:', {expr='RAZORWING_BLITZ_BONUSES 4 *', suff='%/4 stacks', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', suff='/s', fmt='2dec'}}
 		}
 	},
 	-- Trinity
@@ -3912,7 +3962,7 @@ local Data = {
 			{'Leap range:', {expr='RNG 50 %of 0 HYSTERICAL_ASSAULT if', suff='m', fmt='1dec'}},
 			{'[[Sprint Speed]] and [[Parkour Velocity]] bonus duration:', {expr='DUR 5 %of 0 HYSTERICAL_ASSAULT if', suff='s', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 25 ENRAGED if COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='0 5 DRAIN * ENRAGED if', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='0 5 DRAIN * ENRAGED if', suff='/s', fmt='2dec'}}
 		}
 	},
 	-- Vauban
@@ -4199,7 +4249,7 @@ local Data = {
 			{'Cataclysmic Gate duration:', {expr='DUR 10 %of 0 CATACLYSMIC_GATE if', suff='s', fmt='2dec'}},
 			{'Cataclysmic Gate radius:', {expr='RNG 10 %of 0 CATACLYSMIC_GATE if', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='0 24 12 SOL_GATE_BOOSTED if DRAIN * CATACLYSMIC_GATE if', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='0 24 12 SOL_GATE_BOOSTED if DRAIN * CATACLYSMIC_GATE if', suff='/s', fmt='2dec'}}
 		}
 	},
 	-- Wukong
@@ -4257,7 +4307,7 @@ local Data = {
 			{'[[Critical Chance]] bonus:', {expr='STR 15 %of 0 PRIMAL_RAGE if', suff='%/kill', fmt='2dec'}},
 			{'Primal Rage decay rate:', {expr='1 DUR as% / 0 PRIMAL_RAGE if', suff='%/s', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='10 COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', suff='/s', fmt='2dec'}}
 		}
 	},
 	-- Xaku
@@ -4563,7 +4613,7 @@ local Data = {
 			{'Turret '..Tooltips.full('Heat', 'DamageTypes')..' damage bonus:', {expr='STR 60 %of', suff='%', fmt='2dec'}},
 			{'Explosion radius:', {expr='RNG 250 %of', suff='m', fmt='1dec'}},
 			{'Base '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', suff='/s', fmt='2dec'}}
 		}
 	},
 	['Seeker Volley']={
@@ -4585,13 +4635,13 @@ return Data;
 </pre>
 <!-- 
 NewPP limit report
-Parsed by mediawiki‐7ccc959988‐5vm4q
-Cached time: 20261114234433
+Parsed by mediawiki‐7ccc959988‐ss5kb
+Cached time: 20261116153322
 Cache expiry: 172800
 Reduced expiry: false
 Complications: [show‐toc]
-CPU time usage: 0.045 seconds
-Real time usage: 0.110 seconds
+CPU time usage: 0.048 seconds
+Real time usage: 0.050 seconds
 Preprocessor visited node count: 372/1000000
 Revision size: 39/8388608 bytes
 Post‐expand include size: 23145/8388608 bytes
@@ -4601,21 +4651,21 @@ Expensive parser function count: 2/500
 Unstrip recursion depth: 0/20
 Unstrip post‐expand size: 5460/5000000 bytes
 Bucket time usage: 0.000/10 seconds
-Lua time usage: 0.011/10.000 seconds
+Lua time usage: 0.014/10.000 seconds
 Lua memory usage: 2317023/367001600 bytes
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%   85.330      1 Module:Maximization/data/doc
-100.00%   85.330      1 -total
-  8.69%    7.414      8 Template:Stat
-  4.84%    4.132      4 Template:A
-  4.64%    3.961      2 Template:WF
-  2.91%    2.484      4 Template:D
-  2.86%    2.443      1 Template:Callout
+100.00%   25.970      1 Module:Maximization/data/doc
+100.00%   25.970      1 -total
+ 40.00%   10.389      8 Template:Stat
+ 22.31%    5.794      2 Template:WF
+ 15.39%    3.998      4 Template:A
+  9.78%    2.540      4 Template:D
+  4.06%    1.053      1 Template:Callout
 -->
 </div>
-<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://wiki.warframe.com/w/Module:Maximization/data?oldid=2824286">https://wiki.warframe.com/w/Module:Maximization/data?oldid=2824286</a>"</div></div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://wiki.warframe.com/w/Module:Maximization/data?oldid=2824584">https://wiki.warframe.com/w/Module:Maximization/data?oldid=2824584</a>"</div></div>
 		<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>
 	</div>
 </div>
@@ -4852,9 +4902,9 @@ Transclusion expansion time report (%,ms,calls,template)
 		
 		<ul class="vector-menu-content-list">
 			
-			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Module:Maximization/data" title="List of all wiki pages that link here. [j]" accesskey="j"><span>What Links Here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Module:Maximization/data" rel="nofollow" title="Recent changes in pages linked from this page. [k]" accesskey="k"><span>Related Changes</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page. [p]" accesskey="p"><span>Printable Version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Module:Maximization/data?oldid=2824286" title="Permanent link to this revision of this page."><span>Permanent Link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Module:Maximization/data?action=info" title="More information about this page."><span>Page Information</span></a></li>
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/w/Special:WhatLinksHere/Module:Maximization/data" title="List of all wiki pages that link here. [j]" accesskey="j"><span>What Links Here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/w/Special:RecentChangesLinked/Module:Maximization/data" rel="nofollow" title="Recent changes in pages linked from this page. [k]" accesskey="k"><span>Related Changes</span></a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page. [p]" accesskey="p"><span>Printable Version</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/Module:Maximization/data?oldid=2824584" title="Permanent link to this revision of this page."><span>Permanent Link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/Module:Maximization/data?action=info" title="More information about this page."><span>Page Information</span></a></li>
 		</ul>
-		<div class="after-portlet after-portlet-tb">            <a href="/hp/1794699873" style="display: none;"></a></div>
+		<div class="after-portlet after-portlet-tb">            <a href="/hp/1794843202" style="display: none;"></a></div>
 	</div>
 </nav>
 
@@ -4865,7 +4915,7 @@ Transclusion expansion time report (%,ms,calls,template)
 
 <footer id="footer" class="mw-footer" >
 	<ul id="footer-info">
-	<li id="footer-info-lastmod"> This page was last edited on 14 November 2026, at 15:15.</li>
+	<li id="footer-info-lastmod"> This page was last edited on 16 November 2026, at 15:31.</li>
 	<li id="footer-info-copyright">Content on this site is licensed under <a class="external" rel="nofollow" href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>; <a class="text" href="https://meta.weirdgloop.org/w/Licensing">additional terms may apply</a>.</li>
 </ul>
 
@@ -4890,7 +4940,7 @@ Transclusion expansion time report (%,ms,calls,template)
 		
 	</ul>
 </div>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-7ccc959988-5vm4q","wgBackendResponseTime":158,"wgPageParseReport":{"limitreport":{"cputime":"0.045","walltime":"0.110","ppvisitednodes":{"value":372,"limit":1000000},"revisionsize":{"value":39,"limit":8388608},"postexpandincludesize":{"value":23145,"limit":8388608},"templateargumentsize":{"value":254,"limit":8388608},"expansiondepth":{"value":6,"limit":100},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":5460,"limit":5000000},"timingprofile":["100.00%   85.330      1 Module:Maximization/data/doc","100.00%   85.330      1 -total","  8.69%    7.414      8 Template:Stat","  4.84%    4.132      4 Template:A","  4.64%    3.961      2 Template:WF","  2.91%    2.484      4 Template:D","  2.86%    2.443      1 Template:Callout"]},"bucket":{"limitreport-run-time":{"value":"0.000","limit":"10"}},"scribunto":{"limitreport-timeusage":{"value":"0.011","limit":"10.000"},"limitreport-memusage":{"value":2317023,"limit":367001600}},"cachereport":{"origin":"mediawiki-7ccc959988-5vm4q","timestamp":"20261114234433","ttl":172800,"transientcontent":false}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mediawiki-7ccc959988-ss5kb","wgBackendResponseTime":99,"wgPageParseReport":{"limitreport":{"cputime":"0.048","walltime":"0.050","ppvisitednodes":{"value":372,"limit":1000000},"revisionsize":{"value":39,"limit":8388608},"postexpandincludesize":{"value":23145,"limit":8388608},"templateargumentsize":{"value":254,"limit":8388608},"expansiondepth":{"value":6,"limit":100},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":5460,"limit":5000000},"timingprofile":["100.00%   25.970      1 Module:Maximization/data/doc","100.00%   25.970      1 -total"," 40.00%   10.389      8 Template:Stat"," 22.31%    5.794      2 Template:WF"," 15.39%    3.998      4 Template:A","  9.78%    2.540      4 Template:D","  4.06%    1.053      1 Template:Callout"]},"bucket":{"limitreport-run-time":{"value":"0.000","limit":"10"}},"scribunto":{"limitreport-timeusage":{"value":"0.014","limit":"10.000"},"limitreport-memusage":{"value":2317023,"limit":367001600}},"cachereport":{"origin":"mediawiki-7ccc959988-ss5kb","timestamp":"20261116153322","ttl":172800,"transientcontent":false}}});});</script>
 
 <script>
 ( () => {
@@ -4901,7 +4951,7 @@ Transclusion expansion time report (%,ms,calls,template)
             'Content-Type': 'application/json',
         },
         body: JSON.stringify( {
-            ray: "a5ad0c0aedf51ee8",
+            ray: "a5be049be8e1debd",
             time: performance.now() - initTime,
             ...p,
         } ),
