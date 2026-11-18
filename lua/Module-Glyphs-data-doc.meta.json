@@ -1,0 +1,12 @@
+{
+  "page": "Module:Glyphs/data/doc",
+  "wiki_timestamp": "2026-11-18T06:28:20Z",
+  "extracted_at": "2026-11-18T09:54:14.187642+00:00",
+  "lua_files": [
+    "Module-Glyphs-data-doc_0.lua"
+  ],
+  "lua_block_count": 1,
+  "file_size": 245,
+  "comment_count": 0,
+  "status": "success"
+}

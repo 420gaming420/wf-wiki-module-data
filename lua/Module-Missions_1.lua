@@ -329,7 +329,7 @@ local function FewMissionsBy(B, M)
 			{'25', '[[Tile Set]]', cell = function(this, mission)
 				return '\n||['..'['..mission.Tileset..']]'
 			end},
-			{'5', 'Mastery Point', cell = function(this, mission)
+			{'5', 'Mastery Points', cell = function(this, mission)
 				return '\n|data-store-value="'..mission.MasteryExp..'" data-store-currency="Mastery Point"'
 				..' class="sell-col" data-sort-value="'..mission.MasteryExp..'"|'..mission.MasteryExp
 			end},
@@ -702,7 +702,7 @@ function p.all_mastery(frame)
 			return "[["..mission.Link.."|"..mission.Name.."]]"
 		end},
 		{'data-sort-type="number"|Mastery', cell = function(this, mission)
-				return 'data-store-value="'..mission.MasteryExp..'" data-store-currency="Mastery Point"'
+				return 'data-store-value="'..mission.MasteryExp..'" data-store-currency="Mastery Points"'
 				..' class="sell-col" data-sort-value="'..mission.MasteryExp..'"|'..mission.MasteryExp
 		end},
 		tableclass = 'lighttable store-table '..(frame.args.tableclass or ''),
