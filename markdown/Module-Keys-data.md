@@ -1,16 +1,17 @@
 ---
 title: "Module:Keys/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Keys/data"
-wiki_timestamp: "2026-06-21T23:30:15Z"
+wiki_timestamp: "2026-11-18T16:38:03Z"
 ---
 
 Database for [Quests](/w/Quest "Quest") and [Keys](/w/Keys "Keys"). See ExportKeys file on [Public Export](/w/Public_Export "Public Export") for initial data seeding.
 
-:   *Last updated: Sun, 21 Jun 2026 23:30:15 +0000 (UTC) by [User:Kazzarin](/w/User:Kazzarin "User:Kazzarin") ([change log](https://wiki.warframe.com/w/Module:Keys/data?diff=0))*
+:   *Last updated: Wed, 18 Nov 2026 16:38:03 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Keys/data?diff=0))*
 
 ## Quest Entry Schema
 
-[[edit source](/w/Module:Keys/data/doc?action=edit&section=T-1 "Edit section's source code: Quest Entry Schema")]
+[[edit](/w/Module:Keys/data/doc?action=edit&section=T-1 "Edit Section using Source Editor:
+Quest Entry Schema")]
 
 ```lua
 {
@@ -634,6 +635,45 @@ return {
 		NextQuest = "",
 		PreviousQuest = "Jade Shadows",
 	    Replayable = false,
+		Type = "Main Quest",
+	},
+	["Lua"] = {
+		CodexSecret = false,
+		Description = "Find the Lotus in the Dark Refractory and seek her out within her memories.",
+		Image = "LuaQuest.png",
+		InternalName = "/Lotus/Types/Keys/TauPrologue/TauPrologueKeyChainA",
+		Introduced = "44.1.2",
+		Link = "Lua (Quest)",
+		Name = "Lua",
+		NextQuest = "Vessel",
+		PreviousQuest = "The Old Peace",
+		Replayable = true,
+		Type = "Main Quest",
+	},
+	["Vessel"] = {
+		CodexSecret = false,
+		Description = "The Vessel has awoken. Praghasa has returned. Deploy to the surface of Eris... fuel is required.",
+		Image = "PrologueToTau.png", -- Same image in Codex
+		InternalName = "/Lotus/Types/Keys/TauPrologue/TauPrologueKeyChainB",
+		Introduced = "44.1.2",
+		Link = "Vessel (Quest)",
+		Name = "Vessel",
+		NextQuest = "Eris Mortem",
+		PreviousQuest = "Lua",
+		Replayable = true,
+		Type = "Main Quest",
+	},
+	["Eris Mortem"] = {
+		CodexSecret = false,
+		Description = "Praghasa feasts.",
+		Image = "ErisMortem.png",
+		InternalName = "/Lotus/Types/Keys/TauPrologue/TauPrologueKeyChainC",
+		Introduced = "44.1.4.1",
+		Link = "Eris Mortem",
+		Name = "Eris Mortem",
+		NextQuest = "",
+		PreviousQuest = "Vessel",
+		Replayable = true,
 		Type = "Main Quest",
 	},
 	["Corpus Void Key"] = {

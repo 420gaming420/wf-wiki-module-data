@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-30T18:58:14.498Z"
+    "converted_at": "2026-11-19T10:00:39.225Z"
   },
   "_comments": "",
   "The Deadlock Protocol": {
@@ -123,6 +123,36 @@
     "InternalName": "/Lotus/Types/Keys/RevenantQuest/RevenantQuestKeyChain",
     "CodexSecret": false
   },
+  "Grendel Chassis Locator": {
+    "Type": "Mission",
+    "Image": "GrendelChassisLocator.png",
+    "Description": "Reveals sites on Europa likely to contain Grendel part blueprints.",
+    "Introduced": "26",
+    "Tradable": true,
+    "Name": "Grendel Chassis Locator",
+    "InternalName": "/Lotus/Types/Keys/GrendelKeyA",
+    "Link": "Grendel Chassis Locator"
+  },
+  "Grendel Systems Locator": {
+    "Type": "Mission",
+    "Image": "GrendelSystemsLocator.png",
+    "Description": "Reveals sites on Europa likely to contain Grendel part blueprints.",
+    "Introduced": "26",
+    "Tradable": true,
+    "Name": "Grendel Systems Locator",
+    "InternalName": "/Lotus/Types/Keys/GrendelKeyC",
+    "Link": "Grendel Systems Locator"
+  },
+  "Simulacrum Access Key": {
+    "Type": "Mission",
+    "Image": "SimulacrumAccessKey.png",
+    "Description": "Grants access to the Simulacrum.\r\n\r\nIn the Simulacrum you can face mimeographs of enemies you have fully researched with the Codex.",
+    "Introduced": "16",
+    "Tradable": false,
+    "Name": "Simulacrum Access Key",
+    "InternalName": "/Lotus/Types/Items/MiscItems/DangerRoomKey",
+    "Link": "Simulacrum"
+  },
   "The Limbo Theorem": {
     "Type": "Optional Quest",
     "Description": "The Limbo Theorem quest cannot be completed without an Archwing\r\n\r\nPiece together the Limbo Theorem to uncover its source",
@@ -184,25 +214,15 @@
     "InternalName": "/Lotus/Types/Keys/WraithQuest/WraithQuestKeyChain",
     "CodexSecret": false
   },
-  "Grendel Chassis Locator": {
+  "Baro Void-Signal": {
     "Type": "Mission",
-    "Image": "GrendelChassisLocator.png",
-    "Description": "Reveals sites on Europa likely to contain Grendel part blueprints.",
-    "Introduced": "26",
+    "Image": "BaroVoid-Signal.png",
+    "Description": "Unlock a mission with this device.\r\n\r\nBaro Ki'Teer can home in on Inaros Prime anywhere in the Void. Ideal for following the God King to riches!",
+    "Introduced": "28.2",
     "Tradable": true,
-    "Name": "Grendel Chassis Locator",
-    "InternalName": "/Lotus/Types/Keys/GrendelKeyA",
-    "Link": "Grendel Chassis Locator"
-  },
-  "Grendel Systems Locator": {
-    "Type": "Mission",
-    "Image": "GrendelSystemsLocator.png",
-    "Description": "Reveals sites on Europa likely to contain Grendel part blueprints.",
-    "Introduced": "26",
-    "Tradable": true,
-    "Name": "Grendel Systems Locator",
-    "InternalName": "/Lotus/Types/Keys/GrendelKeyC",
-    "Link": "Grendel Systems Locator"
+    "Name": "Baro Void-Signal",
+    "InternalName": "/Lotus/Types/Keys/WeeklyMissions/BaroWeeklyMission",
+    "Link": "Baro Void-Signal"
   },
   "Abyssal Beacon": {
     "Type": "Mission",
@@ -213,6 +233,20 @@
     "Name": "Abyssal Beacon",
     "InternalName": "/Lotus/StoreItems/Types/Keys/SyndicateCacheHuntBaseKeyItem",
     "Link": "Abyssal Beacon"
+  },
+  "Once Awake": {
+    "Type": "Main Quest",
+    "Description": "Intercepted Grineer communications reveal that Grineer have been experimenting with some sort of bio weapon. You must investigate.",
+    "Link": "Once Awake",
+    "Replayable": true,
+    "PreviousQuest": "Vox Solaris",
+    "Image": "OnceAwake.png",
+    "Name": "Once Awake",
+    "Introduced": "15.2",
+    "NextQuest": "Heart of Deimos",
+    "ParentInternalName": "",
+    "InternalName": "/Lotus/Types/Keys/InfestedIntroQuest/InfestedIntroQuestKeyChain",
+    "CodexSecret": false
   },
   "Jade Shadows": {
     "Type": "Main Quest",
@@ -251,15 +285,17 @@
     "InternalName": "/Lotus/Types/Keys/GolemQuest/GolemQuestKeyChainItem",
     "CodexSecret": false
   },
-  "Baro Void-Signal": {
+  "Mutalist Alad V Assassinate (Sortie)": {
     "Type": "Mission",
-    "Image": "BaroVoid-Signal.png",
-    "Description": "Unlock a mission with this device.\r\n\r\nBaro Ki'Teer can home in on Inaros Prime anywhere in the Void. Ideal for following the God King to riches!",
-    "Introduced": "28.2",
-    "Tradable": true,
-    "Name": "Baro Void-Signal",
-    "InternalName": "/Lotus/Types/Keys/WeeklyMissions/BaroWeeklyMission",
-    "Link": "Baro Void-Signal"
+    "Description": "Put an end to Alad V and his Mutalist experiments",
+    "Link": "Mutalist Alad V Assassinate",
+    "ExcludeFromCodex": true,
+    "Image": "PatientZero.png",
+    "Name": "Mutalist Alad V Assassinate (Sortie)",
+    "Introduced": "15.5",
+    "ParentInternalName": "/Lotus/Types/Keys/InfestedAladVQuest/AssassinateInfestedAladVKey",
+    "InternalName": "/Lotus/Types/Keys/SortieBossKeyInfestedAladV",
+    "CodexSecret": true
   },
   "Grendel Neuroptics Locator": {
     "Type": "Mission",
@@ -295,41 +331,42 @@
     "InternalName": "/Lotus/Types/Keys/IndexQuest/IndexQuestKeyChain",
     "CodexSecret": false
   },
-  "Once Awake": {
-    "Type": "Main Quest",
-    "Description": "Intercepted Grineer communications reveal that Grineer have been experimenting with some sort of bio weapon. You must investigate.",
-    "Link": "Once Awake",
-    "Replayable": true,
-    "PreviousQuest": "Vox Solaris",
-    "Image": "OnceAwake.png",
-    "Name": "Once Awake",
-    "Introduced": "15.2",
-    "NextQuest": "Heart of Deimos",
-    "ParentInternalName": "",
-    "InternalName": "/Lotus/Types/Keys/InfestedIntroQuest/InfestedIntroQuestKeyChain",
-    "CodexSecret": false
-  },
-  "Mutalist Alad V Assassinate (Sortie)": {
+  "Clan Key": {
     "Type": "Mission",
-    "Description": "Put an end to Alad V and his Mutalist experiments",
-    "Link": "Mutalist Alad V Assassinate",
-    "ExcludeFromCodex": true,
-    "Image": "PatientZero.png",
-    "Name": "Mutalist Alad V Assassinate (Sortie)",
-    "Introduced": "15.5",
-    "ParentInternalName": "/Lotus/Types/Keys/InfestedAladVQuest/AssassinateInfestedAladVKey",
-    "InternalName": "/Lotus/Types/Keys/SortieBossKeyInfestedAladV",
+    "Description": "Unlocks access to your Clan's Dojo",
+    "Link": "Clan Key",
+    "Image": "ClanKey.png",
+    "Name": "Clan Key",
+    "Introduced": "8",
+    "ParentInternalName": "/Lotus/Types/Game/KeyItem",
+    "InternalName": "/Lotus/Types/Keys/DojoKey",
     "CodexSecret": true
   },
-  "Simulacrum Access Key": {
-    "Type": "Mission",
-    "Image": "SimulacrumAccessKey.png",
-    "Description": "Grants access to the Simulacrum.\r\n\r\nIn the Simulacrum you can face mimeographs of enemies you have fully researched with the Codex.",
-    "Introduced": "16",
-    "Tradable": false,
-    "Name": "Simulacrum Access Key",
-    "InternalName": "/Lotus/Types/Items/MiscItems/DangerRoomKey",
-    "Link": "Simulacrum"
+  "Eris Mortem": {
+    "Type": "Main Quest",
+    "Description": "Praghasa feasts.",
+    "Link": "Eris Mortem",
+    "Replayable": true,
+    "Image": "ErisMortem.png",
+    "Name": "Eris Mortem",
+    "Introduced": "44.1.4.1",
+    "NextQuest": "",
+    "PreviousQuest": "Vessel",
+    "InternalName": "/Lotus/Types/Keys/TauPrologue/TauPrologueKeyChainC",
+    "CodexSecret": false
+  },
+  "Vessel": {
+    "Type": "Main Quest",
+    "Description": "The Vessel has awoken. Praghasa has returned. Deploy to the surface of Eris... fuel is required.",
+    "Link": "Vessel (Quest)",
+    "Replayable": true,
+    "Image": "PrologueToTau.png",
+    "Name": "Vessel",
+    "Introduced": "44.1.2",
+    "NextQuest": "Eris Mortem",
+    "PreviousQuest": "Lua",
+    "InternalName": "/Lotus/Types/Keys/TauPrologue/TauPrologueKeyChainB",
+    "CodexSecret": false
   },
   "The Silver Grove": {
     "Type": "Optional Quest",
@@ -381,16 +418,18 @@
     "InternalName": "/Lotus/Types/Keys/SpyQuestKeyChain/SpyQuestKeyChain",
     "CodexSecret": false
   },
-  "Clan Key": {
-    "Type": "Mission",
-    "Description": "Unlocks access to your Clan's Dojo",
-    "Link": "Clan Key",
-    "Image": "ClanKey.png",
-    "Name": "Clan Key",
-    "Introduced": "8",
-    "ParentInternalName": "/Lotus/Types/Game/KeyItem",
-    "InternalName": "/Lotus/Types/Keys/DojoKey",
-    "CodexSecret": true
+  "Lua": {
+    "Type": "Main Quest",
+    "Description": "Find the Lotus in the Dark Refractory and seek her out within her memories.",
+    "Link": "Lua (Quest)",
+    "Replayable": true,
+    "Image": "LuaQuest.png",
+    "Name": "Lua",
+    "Introduced": "44.1.2",
+    "NextQuest": "Vessel",
+    "PreviousQuest": "The Old Peace",
+    "InternalName": "/Lotus/Types/Keys/TauPrologue/TauPrologueKeyChainA",
+    "CodexSecret": false
   },
   "Vor's Prize": {
     "Type": "Main Quest",
