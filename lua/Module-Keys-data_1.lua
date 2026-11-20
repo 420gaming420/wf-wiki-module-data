@@ -462,7 +462,7 @@ return {
 	    InternalName = "/Lotus/Types/Keys/YareliQuest/YareliQuestKeyChain",
 	    Name = "The Waverider",
 	    Link = "The Waverider",
-	    Image = "TheWaverider.jpg",
+	    Image = "TheWaverider.png",
 	    Introduced = "30.5",
 	    Type = "Optional Quest",
 	    PreviousQuest = "Vox Solaris",

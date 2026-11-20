@@ -1,12 +1,12 @@
 ---
 title: "Module:Keys/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Keys/data"
-wiki_timestamp: "2026-11-18T16:38:03Z"
+wiki_timestamp: "2026-11-19T17:23:59Z"
 ---
 
 Database for [Quests](/w/Quest "Quest") and [Keys](/w/Keys "Keys"). See ExportKeys file on [Public Export](/w/Public_Export "Public Export") for initial data seeding.
 
-:   *Last updated: Wed, 18 Nov 2026 16:38:03 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Keys/data?diff=0))*
+:   *Last updated: Thu, 19 Nov 2026 17:23:59 +0000 (UTC) by [User:Sparrows413](/w/User:Sparrows413 "User:Sparrows413") ([change log](https://wiki.warframe.com/w/Module:Keys/data?diff=0))*
 
 ## Quest Entry Schema
 
@@ -511,7 +511,7 @@ return {
 	    InternalName = "/Lotus/Types/Keys/YareliQuest/YareliQuestKeyChain",
 	    Name = "The Waverider",
 	    Link = "The Waverider",
-	    Image = "TheWaverider.jpg",
+	    Image = "TheWaverider.png",
 	    Introduced = "30.5",
 	    Type = "Optional Quest",
 	    PreviousQuest = "Vox Solaris",
