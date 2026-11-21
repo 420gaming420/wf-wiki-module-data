@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-10-23T07:11:26.468Z"
+    "converted_at": "2026-11-21T09:23:24.424Z"
   },
   "_comments": "\t\t\t--IncompatibilityTags = {  },\n\t\t\t--UpgradeTypes = {  }\n\t\t\t--IncompatibilityTags = { \"OPERATOR_SUIT\" },\n\t\t\t--UpgradeTypes = { \"\" }\n\t\t\t--IncompatibilityTags = { \"\" },",
   "Arcanes": {
@@ -1862,7 +1862,7 @@
       "Description": "Gain 30% Melee Damage for every 200 current Shields, up to 420%. Bonus halved for Overshields.",
       "Link": "Melee Retaliation",
       "MaxRank": 5,
-      "Rarity": "Common",
+      "Rarity": "Uncommon",
       "IsRefreshable": true,
       "Image": "MeleeRetaliation.png",
       "Name": "Melee Retaliation",
@@ -1877,7 +1877,7 @@
       "Description": "On Melee Kill: +210 Armor for 10s",
       "Link": "Melee Fortification",
       "MaxRank": 5,
-      "Rarity": "Common",
+      "Rarity": "Uncommon",
       "IsRefreshable": true,
       "Image": "MeleeFortification.png",
       "Name": "Melee Fortification",

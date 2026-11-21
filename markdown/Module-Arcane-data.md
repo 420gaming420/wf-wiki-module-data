@@ -1,7 +1,7 @@
 ---
 title: "Module:Arcane/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Arcane/data"
-wiki_timestamp: "2026-10-23T05:28:35Z"
+wiki_timestamp: "2026-11-21T02:03:16Z"
 ---
 
 Database of [Arcane Enhancements](/w/Arcane_Enhancement "Arcane Enhancement").
@@ -13,7 +13,7 @@ Database of [Arcane Enhancements](/w/Arcane_Enhancement "Arcane Enhancement").
   + [2.1 Checking for required keys](#Checking_for_required_keys)
   + [2.2 Validating data types of values](#Validating_data_types_of_values)
 
-:   *Last updated: Fri, 23 Oct 2026 05:28:35 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Arcane/data?diff=0))*
+:   *Last updated: Sat, 21 Nov 2026 02:03:16 +0000 (UTC) by [User:~2026-BackToSecretCorrupted64993](/w/User:~2026-BackToSecretCorrupted64993?action=edit&redlink=1 "User:~2026-BackToSecretCorrupted64993 (page does not exist)") ([change log](https://wiki.warframe.com/w/Module:Arcane/data?diff=0))*
 
 ## Arcane Entry Schema
 
@@ -1826,7 +1826,7 @@ return {
 			Link = "Melee Fortification",
 			MaxRank = 5,
 			Name = "Melee Fortification",
-			Rarity = "Common",
+			Rarity = "Uncommon",
 			Type = "Melee",
 		},
 		["Melee Influence"] = {
@@ -1856,7 +1856,7 @@ return {
 			Link = "Melee Retaliation",
 			MaxRank = 5,
 			Name = "Melee Retaliation",
-			Rarity = "Common",
+			Rarity = "Uncommon",
 			Type = "Melee",
 		},
 		["Melee Vortex"] = {

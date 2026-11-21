@@ -1746,7 +1746,7 @@ return {
 			Link = "Melee Fortification",
 			MaxRank = 5,
 			Name = "Melee Fortification",
-			Rarity = "Common",
+			Rarity = "Uncommon",
 			Type = "Melee",
 		},
 		["Melee Influence"] = {
@@ -1776,7 +1776,7 @@ return {
 			Link = "Melee Retaliation",
 			MaxRank = 5,
 			Name = "Melee Retaliation",
-			Rarity = "Common",
+			Rarity = "Uncommon",
 			Type = "Melee",
 		},
 		["Melee Vortex"] = {
