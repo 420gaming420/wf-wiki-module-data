@@ -532,21 +532,33 @@ local Data = {
 			{name='FRACTURED_BLAST_INFUSED', cont='[[Infused]]?', type='checkbox'}
 		},
 		outs={
-			{Tooltips.full('Impact', 'DamageTypes')..' and '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {name='FRACTURED_BLAST_BASE_DMG', expr='STR 250 500 FRACTURED_BLAST_INFUSED if %of'}},
+			{Tooltips.full('Impact', 'DamageTypes')..' and '..Tooltips.full('Slash', 'DamageTypes')..' damage:',
+				{name='FRACTURED_BLAST_BASE_DMG', expr='STR 250 500 FRACTURED_BLAST_INFUSED if %of'}
+			},
 			{Tooltips.full('Bleed', 'DamageTypes')..' damage:', {expr='0.35 FRACTURED_BLAST_BASE_DMG *'}},
-			{'[[Health Orb]] drop chance:', {expr='STR 25 50 FRACTURED_BLAST_INFUSED if %of', suff='%'}},
-			{'[[Energy Orb]] drop chance:', {expr='STR 10 20 FRACTURED_BLAST_INFUSED if %of', suff='%'}},
+			{'[[Health Orb]] drop chance:',
+				{expr='STR 25 50 FRACTURED_BLAST_INFUSED if %of', suff='%', fmt='2dec'}
+			},
+			{'[[Energy Orb]] drop chance:',
+				{expr='STR 10 20 FRACTURED_BLAST_INFUSED if %of', suff='%', fmt='2dec'}
+			},
 			{'Range:', {expr='RNG 14 %of', suff='m'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
 		}
 	},
 	['Preserving Shell']={
 		outs={
-			{'Initial damage reduction:', {expr='STR 40 %of 90 min', suff='%'}},
-			{'Damage reduction per kill:', {expr='STR 3 %of', suff='%/kill'}},
-			{'Damage reduction per assist:', {expr='STR 1 %of', suff='%/assist'}},
-			{'Duration:', {expr='DUR 25 %of', suff='s'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+			{'Initial'..Tooltips.full('Damage Reduction', 'Stats')..':',
+				{expr='STR 40 %of 90 min', suff='%', fmt='2dec'}
+			},
+			{Tooltips.full('Damage Reduction', 'Stats')..' increase on kill:',
+				{expr='STR 3 %of', suff='%/kill', fmt='2dec'}
+			},
+			{Tooltips.full('Damage Reduction', 'Stats')..' increase on assist:',
+				{expr='STR 1 %of', suff='%/assist', fmt='2dec'}
+			},
+			{'Duration:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
 	['Prismatic Gem']={
@@ -554,13 +566,19 @@ local Data = {
 			{name='PRISMATIC_COMPANION', cont=Tooltips.full('Prismatic Companion', 'Mods')..'?', type='checkbox'}
 		},
 		outs={
-			{Tooltips.full('Heat', 'DamageTypes')..', '..Tooltips.full('Cold', 'DamageTypes')..', '..Tooltips.full('Electricity', 'DamageTypes')..' and '..Tooltips.full('Toxin', 'DamageTypes')..' damage:', {name='PRISMATIC_GEM_BASE_DMG', expr='STR 1000 %of'}},
-			{Tooltips.full('Ignite', 'DamageTypes')..', '..Tooltips.full('Tesla Chain', 'DamageTypes')..' and '..Tooltips.full('Poison', 'DamageTypes')..' damage:', {expr='0.5 PRISMATIC_GEM_BASE_DMG *'}},
-			{'[[Status Chance]] bonus:', {expr='STR 100 %of', suff='%'}},
-			{'[[Status Duration]] bonus:', {expr='DUR 50 0 PRISMATIC_COMPANION if + 100 %of', suff='%'}},
-			{'Duration:', {expr='DUR 50 0 PRISMATIC_COMPANION if + 30 %of', suff='s'}},
-			{'Radius:', {expr='RNG 15 %of', suff='m'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
+			{Tooltips.full('Heat', 'DamageTypes')..', '..Tooltips.full('Cold', 'DamageTypes')..', '..Tooltips.full('Electricity', 'DamageTypes')..' and '..Tooltips.full('Toxin', 'DamageTypes')..' damage:',
+				{name='PRISMATIC_GEM_BASE_DMG', expr='STR 1000 %of'}
+			},
+			{Tooltips.full('Ignite', 'DamageTypes')..', '..Tooltips.full('Tesla Chain', 'DamageTypes')..' and '..Tooltips.full('Poison', 'DamageTypes')..' damage:',
+				{expr='0.5 PRISMATIC_GEM_BASE_DMG *'}
+			},
+			{'[[Status Chance]] bonus:', {expr='STR 100 %of', suff='%', fmt='2dec'}},
+			{'[[Status Duration]] bonus:',
+				{expr='DUR 50 0 PRISMATIC_COMPANION if + 100 %of', suff='%', fmt='2dec'}
+			},
+			{'Duration:', {expr='DUR 50 0 PRISMATIC_COMPANION if + 30 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
 		}
 	},
 	['Crystallize']={
@@ -569,10 +587,10 @@ local Data = {
 		},
 		outs={
 			{Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
-			{'Duration:', {expr='DUR 8 %of', suff='s'}},
-			{'Range:', {expr='RNG 30 %of', suff='m'}},
-			{'Recrystalize radius:', {expr='RNG 16 %of 0 RECRYSTALIZE if', suff='m'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+			{'Duration:', {expr='DUR 8 %of', suff='s', fmt='2dec'}},
+			{'Range:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
+			{'Recrystalize radius:', {expr='RNG 16 %of 0 RECRYSTALIZE if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},
 	-- Cyte-09
@@ -615,7 +633,7 @@ local Data = {
 			{'Damage multiplier:', {name='NEUTRALIZER_MULT', expr='FACTION_DMG_MOD WEAPON_DMG_MOD STR 125 %of 100 - + %of 0 max'}, style='display:none'},
 			{Tooltips.full('Neutralizer', 'Weapons')..' Primary Fire damage:', {expr='NEUTRALIZER_MULT 255 %of dupe ELEMENT_DMG_MOD %of +'}},
 			{'Alternate Fire damage:', {expr='NEUTRALIZER_MULT 20 %of dupe ELEMENT_DMG_MOD %of +'}},
-			{'[[Ricochet]] range:', {expr='RNG 10 %of', suff='m', fmt='2dec'}},
+			{'[[Ricochet]] range:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
 			{'Cast '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='5 COST *', fmt='2dec'}},
 			{'Primary Fire '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='10 COST *', fmt='2dec'}},
 			{'Alternate Fire '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='20 COST *', fmt='2dec'}}
@@ -677,7 +695,7 @@ local Data = {
 			{'Alternate fire total damage:', {expr='NOCTUA_ALT_BASE_DMG NOCTUA_ALT_ELEMENT_DMG +'}},
 			{'Swarm '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 500 %of 0 NOCTUA_SWARM if', suff='/s'}},
 			{'Swarm duration:', {expr='DUR 15 %of 0 NOCTUA_SWARM if', suff='s', fmt='2dec'}},
-			{'Swarm buff radius:', {expr='RNG 25 %of 0 NOCTUA_SWARM if', suff='m', fmt='2dec'}},
+			{'Swarm buff radius:', {expr='RNG 25 %of 0 NOCTUA_SWARM if', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='5 COST *', fmt='2dec'}},
 			{'Attack '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 COST *', fmt='2dec'}}
 		},
@@ -1035,8 +1053,17 @@ local Data = {
 		},
 		outs={
 			{Tooltips.full('Corrosive', 'DamageTypes')..' damage:', {expr='STR 550 %of'}},
-			{'Maximum [[Damage Reduction]]:', {name='SELF_PORTRAIT_DR', expr='STR 50 %of 75 90 SELF_PORTRAIT_INFUSED if min', suff='%', fmt='2dec'}},
-			{'Damage Reduction increase:', {expr='SELF_PORTRAIT_DR 10 - 15 /', suff='/kill', suff='%', fmt='2dec'}},
+			{'Maximum '..Tooltips.full('Damage Reduction', 'Stats')..':',
+				{
+					name='SELF_PORTRAIT_DR',
+					expr='STR 50 %of 75 90 SELF_PORTRAIT_INFUSED if min',
+					suff='%',
+					fmt='2dec'
+				}
+			},
+			{Tooltips.full('Damage Reduction', 'Stats')..' increase:',
+				{expr='SELF_PORTRAIT_DR 10 - 15 /', suff='/kill', suff='%', fmt='2dec'}
+			},
 			{'Base duration:', {expr='DUR 30 %of', suff='s', fmt='2dec'}},
 			{'Maximum duration:', {expr='DUR 60 %of', suff='s', fmt='2dec'}},
 			{'Duration increase:', {expr='DUR 3 %of', suff='s/kill', fmt='2dec'}},
@@ -1069,7 +1096,7 @@ local Data = {
 			{'Radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Cold', 'DamageTypes')..' damage bonus:', {expr='STR 100 %of 0 FREEZE_FORCE if', suff='%', fmt='2dec'}},
 			{'Freeze Force duration:', {expr='DUR 40 %of 0 FREEZE_FORCE if', suff='s', fmt='2dec'}},
-			{'Freeze Force radius:', {expr='RNG 15 %of 0 FREEZE_FORCE if', suff='m', fmt='2dec'}},
+			{'Freeze Force radius:', {expr='RNG 15 %of 0 FREEZE_FORCE if', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
 		}
 	},
@@ -1148,12 +1175,16 @@ local Data = {
 			{'Base '..Tooltips.full('Impact', 'DamageTypes')..', '..Tooltips.full('Puncture', 'DamageTypes')..' and '..Tooltips.full('Slash', 'DamageTypes')..' damage:',
 				{expr='STR 200 %of'}
 			},
-			{'[[Damage Reduction]]:', {expr='STR 70 %of 90 min', suff='%'}},
-			{'[[Damage Vulnerability]]:', {expr='STR 35 %of', suff='%'}},
+			{Tooltips.full('Damage Reduction', 'Stats')..':',
+				{expr='STR 70 %of 90 min', suff='%', fmt='2dec'}
+			},
+			{'[[Damage Vulnerability]]:', {expr='STR 35 %of', suff='%', fmt='2dec'}},
 			{'Duration:', {expr='DUR 22 %of', suff='s', fmt='2dec'}},
 			{'Cast range:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
 			{'Storm radius:', {expr='RNG 2.5 %of', suff='m', fmt='1dec'}},
-			{Tooltips.full('Health', 'Stats')..' restoration:', {expr='STR 15 %of SPLINTER_STORM_TARGETS * 0 MENDING_SPLINTERS if', suff='/s'}},
+			{Tooltips.full('Health', 'Stats')..' restoration:',
+				{expr='STR 15 %of SPLINTER_STORM_TARGETS * 0 MENDING_SPLINTERS if', suff='/s'}
+			},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
@@ -1247,7 +1278,7 @@ local Data = {
 	-- Gauss
 	['Mach Rush']={
 		ins={
-			{name='GAUSS_BATTERY', cont='Battery level:', type='range-R', min='0', max='100', value='0'},
+			{name='GAUSS_BATTERY', cont='[[Gauss/Abilities/Passive|Battery]] level:', type='range-R', min='0', max='100', value='0'},
 			{name='MACH_CRASH', cont=Tooltips.full('Mach Crash', 'Mods')..'?', type='checkbox'}
 		},
 		outs={
@@ -1261,19 +1292,19 @@ local Data = {
 	},
 	['Kinetic Plating']={
 		ins={
-			{name='GAUSS_BATTERY', cont='Battery level:', type='range-R', min='0', max='100', value='0'}
+			{name='GAUSS_BATTERY', cont='[[Gauss/Abilities/Passive|Battery]] level:', type='range-R', min='0', max='100', value='0'}
 		},
 		outs={
 			{'Minimum Damage Reduction:', {name='KINETIC_PLATING_DR_MIN', expr='STR 20 %of 50 min', suff='%', fmt='2dec'}, style='display:none'},
 			{'Maximum Damage Reduction:', {name='KINETIC_PLATING_DR_MAX', expr='STR 100 %of 100 min', suff='%', fmt='2dec'}, style='display:none'},
-			{'[[Damage Reduction]]:', {expr='KINETIC_PLATING_DR_MIN GAUSS_BATTERY KINETIC_PLATING_DR_MAX KINETIC_PLATING_DR_MIN - %of +', suff='%', fmt='2dec'}},
+			{'Kinetic '..Tooltips.full('Damage Reduction', 'Stats')..':', {expr='KINETIC_PLATING_DR_MIN GAUSS_BATTERY KINETIC_PLATING_DR_MAX KINETIC_PLATING_DR_MIN - %of +', suff='%', fmt='2dec'}},
 			{'Duration:', {expr='DUR 30 %of', suff='s', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
 	['Thermal Sunder']={
 		ins={
-			{name='GAUSS_BATTERY', cont='Battery level:', type='range-R', min='0', max='100', value='0'},
+			{name='GAUSS_BATTERY', cont='[[Gauss/Abilities/Passive|Battery]] level:', type='range-R', min='0', max='100', value='0'},
 			{name='THERMAL_TRANSFER', cont=Tooltips.full('Thermal Transfer', 'Mods')..'?', type='checkbox'},
 			{name='THERMAL_SUNDER_INFUSED', cont='[[Infused]]?', type='checkbox'}
 		},
@@ -1288,7 +1319,7 @@ local Data = {
 			{'Area duration:', {expr='DUR 15 %of', suff='s', fmt='2dec'}},
 			{'Status duration:',
 				{
-					expr=[[DUR 4 50 GAUSS_BATTERY THERMAL_SUNDER_INFUSED if	8 4	- %of +]],
+					expr='DUR 4 50 GAUSS_BATTERY THERMAL_SUNDER_INFUSED if 8 4 - %of +',
 					suff='s',
 					fmt='2dec'
 				}
@@ -1298,20 +1329,25 @@ local Data = {
 			{Tooltips.full('Blast', 'DamageTypes')..' area '..Tooltips.full('Armor', 'Stats')..' reduction:',
 				{expr='50 GAUSS_BATTERY THERMAL_SUNDER_INFUSED if 5 * 400 - 0 100 clamp', suff='%', fmt='2dec'}
 			},
-			{'Elemental damage bonus:', {expr='STR 75 %of 0 THERMAL_TRANSFER if', suff='%', fmt='2dec'}},
-			{'Elemental damage bonus duration:', {expr='DUR 30 %of 0 THERMAL_TRANSFER if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Heat', 'DamageTypes')..' or '..Tooltips.full('Cold', 'DamageTypes')..' damage bonus:',
+				{name='THERMAL_TRANSER_STR', expr='STR 75 %of 0 THERMAL_TRANSFER if', suff='%', fmt='2dec'}
+			},
+			{Tooltips.full('Blast', 'DamageTypes')..' damage bonus:',
+				{expr='THERMAL_TRANSER_STR 2 *', suff='%', fmt='2dec'}
+			},
+			{'Thermal Transfer duration:', {expr='DUR 30 %of 0 THERMAL_TRANSFER if', suff='s', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
 	['Redline']={
 		ins={
-			{name='GAUSS_BATTERY', cont='Battery level:', type='range-R', min='0', max='100', value='0'},
+			{name='GAUSS_BATTERY', cont='[[Gauss/Abilities/Passive|Battery]] level:', type='range-R', min='0', max='100', value='0'},
 		},
 		outs={
 			{'Bolt '..Tooltips.full('Impact', 'DamageTypes')..' and '..Tooltips.full('Puncture', 'DamageTypes')..' damage:', {expr='STR 400 %of'}},
 			{'Duration:', {name='REDLINE_DUR', expr='DUR 30 %of', suff='s', fmt='2dec'}},
 			{'Minimum time to 100% Redline:', {expr='REDLINE_DUR 3 /', suff='s', fmt='2dec'}},
-			{'[[Fire Rate]] bonus:',
+			{Tooltips.full('Fire Rate', 'Stats')..' bonus:',
 				{
 					expr=[[DUR 15 GAUSS_BATTERY 75 15 - %of + %of]],
 					suff='%', fmt='2dec'
@@ -1395,7 +1431,7 @@ local Data = {
 		outs={
 			{'Base '..Tooltips.full('Toxin', 'DamageTypes')..' or '..Tooltips.full('Gas', 'DamageTypes')..' damage:', {expr='STR 2000 %of'}},
 			{Tooltips.full('Armor', 'Stats')..' Reduction:', {expr='STR 75 %of 100 min', suff='%', fmt='2dec'}},
-			{'Radius:', {expr='RNG 6 %of', suff='m', fmt='2dec'}},
+			{'Radius:', {expr='RNG 6 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Gas', 'DamageTypes')..' cloud damage:', {expr='STR 250 %of 0 GASTRO if'}},
 			{Tooltips.full('Gas', 'DamageTypes')..' cloud duration:', {expr='DUR 8 %of 0 GASTRO if', suff='s', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
@@ -1492,13 +1528,28 @@ local Data = {
 			{name='WARDING_THURIBLE', cont=Tooltips.full('Warding Thurible', 'Mods')..'?', type='checkbox'}
 		},
 		outs={
-			{'Energy conversion:', {name='THURIBLE_CONVERSION', expr='STR 15 2 EFF as% - / %of', suff='%', fmt='2dec'}},
-			{'Energy restoration on normal kill:', {name='THURIBLE_RESTORE', expr='1 THURIBLE_ENERGY THURIBLE_CONVERSION %of +', suff='/kill', fmt='2dec'}},
-			{'Energy restoration on Weak Point kill:', {expr='THURIBLE_RESTORE 4 *', suff='/Weak Point kill', fmt='2dec'}},
+			{'Energy conversion:',
+				{name='THURIBLE_CONVERSION', expr='STR 15 2 EFF as% - / %of', suff='%', fmt='2dec'}
+			},
+			{'Energy restoration on normal kill:',
+				{
+					name='THURIBLE_RESTORE',
+					expr='1 THURIBLE_ENERGY THURIBLE_CONVERSION %of +',
+					suff='/kill',
+					fmt='2dec'
+				}
+			},
+			{'Energy restoration on Weak Point kill:',
+				{expr='THURIBLE_RESTORE 4 *', suff='/Weak Point kill', fmt='2dec'}
+			},
 			{'Buff duration:', {expr='DUR 35 %of', suff='s', fmt='2dec'}},
 			{'Buff radius:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
-			{'[[Damage Reduction]]:', {expr='STR 50 %of 90 min 0 WARDING_THURIBLE if', suff='%', fmt='2dec'}},
-			{'Additional Energy charge when damaged:', {expr='STR 1 %of 0 WARDING_THURIBLE if', suff='/hit', fmt='2dec'}},
+			{Tooltips.full('Damage Reduction', 'Stats')..':',
+				{expr='STR 50 %of 90 min 0 WARDING_THURIBLE if', suff='%', fmt='2dec'}
+			},
+			{'Additional Energy charge when damaged:',
+				{expr='STR 1 %of 0 WARDING_THURIBLE if', suff='/hit', fmt='2dec'}
+			},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
 		}
 	},
@@ -1507,12 +1558,20 @@ local Data = {
 			{name='LASTING_COVENANT', cont=Tooltips.full('Lasting Covenant', 'Mods')..'?', type='checkbox'}
 		},
 		outs={
-			{'Base final Critical Chance bonus:', {name='COVENANT_BASE', expr='STR 5 %of 50 min', suff='%', fmt='2dec'}},
-			{'Absorbed damage to final Critical Chance conversion:', {name='COVENANT_CONVERSION', expr='STR 1.5 %of', suff='%/100 damage', fmt='2dec'}},
-			{'Damage for 50% final Critical Chance:', {expr='50 COVENANT_BASE - COVENANT_CONVERSION 100 / /'}},
+			{'Base final Critical Chance bonus:',
+				{name='COVENANT_BASE', expr='STR 5 %of 50 min', suff='%', fmt='2dec'}
+			},
+			{'Absorbed damage to final Critical Chance conversion:',
+				{name='COVENANT_CONVERSION', expr='STR 1.5 %of', suff='%/100 damage', fmt='2dec'}
+			},
+			{'Damage for 50% final Critical Chance:',
+				{expr='50 COVENANT_BASE - COVENANT_CONVERSION 100 / /'}
+			},
 			{'[[Invulnerability]] duration:', {expr='DUR 6 %of', suff='s', fmt='2dec'}},
 			{'Critical Chance bonus duration:', {expr='DUR 12 %of', suff='s', fmt='2dec'}},
-			{'Critical Chance bonus duration extension:', {expr='DUR 3 %of 0 LASTING_COVENANT if', suff='s/Weak Point kill', fmt='2dec'}},
+			{'Critical Chance bonus duration extension:',
+				{expr='DUR 3 %of 0 LASTING_COVENANT if', suff='s/Weak Point kill', fmt='2dec'}
+			},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},
@@ -1855,7 +1914,7 @@ local Data = {
 			{'Detonation base '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {name='GLORY_DETONATION_BASE_DMG', expr='FACTION_DMG_MOD STR 1500 %of %of'}},
 			{'Detonation elemental damage:', {name='GLORY_DETONATION_ELEMENT_DMG', expr='ELEMENT_DMG_MOD GLORY_DETONATION_BASE_DMG %of'}},
 			{'Detonation total damage:', {expr='GLORY_DETONATION_BASE_DMG GLORY_DETONATION_ELEMENT_DMG + 1.5 1 JUDGMENT_DEBUFF if *'}},
-			{'[[Damage Reduction]]:', {expr='STR 35 %of 50 min', suff='%'}},
+			{Tooltips.full('Damage Reduction', 'Stats')..':', {expr='STR 35 %of 50 min', suff='%'}},
 			{'Glory blast radius:', {expr='RNG BLAST_RADIUS_MOD + 2 %of', suff='m', fmt='1dec'}},
 			{'Detonation radius:', {expr='RNG 4 %of', suff='m', fmt='1dec'}},
 			{'Empowered detonation radius:', {expr='RNG 6 %of', suff='m', fmt='1dec'}},
@@ -2231,7 +2290,7 @@ local Data = {
 			{name='STAGGERING_SHIELD', cont=Tooltips.full('Staggering Shield', 'Mods')..'?', type='checkbox'}
 		},
 		outs={
-			{'Ranged [[Damage Reduction]]:', {expr='STR 80 %of 95 min', suff='%', fmt='2dec'}},
+			{'Ranged '..Tooltips.full('Damage Reduction', 'Stats')..':', {expr='STR 80 %of 95 min', suff='%', fmt='2dec'}},
 			{'Duration:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
 			{'Reflection range:', {expr='RNG 11 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Stagger', 'DamageTypes')..' chance:', {expr='STR 50 %of 100 min 0 STAGGERING_SHIELD if', suff='%', fmt='2dec'}},
@@ -2289,7 +2348,7 @@ local Data = {
 		},
 		outs={
 			{'[[Weapon Damage]] multiplier:', {expr='STR 30 200 ECLIPSE_INFUSED if %of', suff='%'}},
-			{'[[Damage Reduction]]:', {expr='STR 75 %of 75 90 ECLIPSE_INFUSED if min', suff='%'}},
+			{Tooltips.full('Damage Reduction', 'Stats')..':', {expr='STR 75 %of 75 90 ECLIPSE_INFUSED if min', suff='%'}},
 			{'Duration:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
 			{'Buff radius:', {expr='RNG 15 %of 0 TOTAL_ECLIPSE if', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
@@ -2892,7 +2951,7 @@ local Data = {
 			{'Maximum Scuttler lifetime:', {name='SCUTTLER_DUR', expr='DUR 45 %of', suff='s', fmt='2dec'}},
 			{'Dart targeting range:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
 			{'Oversurge '..Tooltips.full('Electricity', 'DamageTypes')..' damage:', {expr='STR 2000 %of 0 BROODS_OVERSURGE if'}},
-			{'Oversurge radius:', {expr='RNG 5 %of 0 BROODS_OVERSURGE if', suff='m', fmt='2dec'}},
+			{'Oversurge radius:', {expr='RNG 5 %of 0 BROODS_OVERSURGE if', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
@@ -2904,7 +2963,7 @@ local Data = {
 			{Tooltips.full('Health', 'Stats')..' multiplier:', {expr='STR 2 %of', fmt='2dec'}},
 			{Tooltips.full('Toxin', 'DamageTypes')..' [[Extra Hit]]:', {expr='STR 40 %of 2 1 WALL_LATCHING if *', suff='%', fmt='2dec'}},
 			{Tooltips.full('Toxin', 'DamageTypes')..' burst damage:', {expr='STR 500 %of'}},
-			{'Burst radius:', {expr='RNG 5 %of', suff='m', fmt='2dec'}},
+			{'Burst radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
 			{'Silken Thread range:', {expr='RNG 75 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='5 DRAIN *', suff='/s', fmt='2dec'}}
@@ -3090,12 +3149,16 @@ local Data = {
 			{name='IRONCLAD_CHARGE', cont=Tooltips.full('Ironclad Charge', 'Mods')..'?', type='checkbox'}
 		},
 		outs={
-			{Tooltips.full('Impact', 'DamageTypes')..' damage:', {name='RHINO_CHARGE_BASE_DMG', expr='STR 650 %of 2 RHINO_CHARGE_NUMBER 1 - ^ *'}},
-			{Tooltips.full('Impact', 'DamageTypes')..' damage to enemies in'..Tooltips.full('Rhino Stomp', 'Ability')..':', {expr='RHINO_CHARGE_BASE_DMG 2 *'}},
+			{Tooltips.full('Impact', 'DamageTypes')..' damage:',
+				{name='RHINO_CHARGE_BASE_DMG', expr='STR 650 %of 2 RHINO_CHARGE_NUMBER 1 - ^ *'}
+			},
+			{Tooltips.full('Impact', 'DamageTypes')..' damage to enemies in '..Tooltips.full('Rhino Stomp', 'Ability')..':',
+				{expr='RHINO_CHARGE_BASE_DMG 2 *'}
+			},
 			{'Combo window duration:', {expr='DUR 1 %of', suff='s', fmt='2dec'}},
 			{'Charge distance:', {expr='RNG 12 %of RHINO_CHARGE_NUMBER 1 - 0.25 * 1 + *', suff='m', fmt='1dec'}},
 			{'Impact radius:', {expr='RNG 2 %of', suff='m', fmt='1dec'}},
-			{Tooltips.full('Armor', 'Stats')..' bonus:', {expr='STR 50 %of 0 IRONCLAD_CHARGE if', suff='%/hit'}},
+			{Tooltips.full('Armor', 'Stats')..' bonus:', {expr='STR 50 %of 0 IRONCLAD_CHARGE if', suff='%/hit', fmt='2dec'}},
 			{Tooltips.full('Armor', 'Stats')..' bonus duration:', {expr='DUR 10 %of 0 IRONCLAD_CHARGE if', suff='s', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST * 2 RHINO_CHARGE_NUMBER 1 - addin ^ *', fmt='2dec'}}
 		}
@@ -3295,61 +3358,65 @@ local Data = {
 	-- Sirius & Orion
 	['Coronal Ejection']={
 		ins={
-			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive#Switching|Switching]] passive?', type='checkbox'},
+			{name='SWITCH', cont='[[Sirius & Orion/Abilities/Passive#Switching|Switching]] passive?', type='checkbox'},
 		},
 		outs={
 			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 1500 %of'}},
-			{'Status chance:', {expr='STR 100 %of', suff='%'}},
-			{'Radius', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
+			{'Status chance:', {expr='STR 100 %of', suff='%', fmt='2dec'}},
+			{'Vacuum radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 15 *'}}
 		}
 	},
 	['Gravitic Slash']={
 		ins={
-			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive#Switching|Switching]] passive?', type='checkbox'},
+			{name='SWITCH', cont='[[Sirius & Orion/Abilities/Passive#Switching|Switching]] passive?', type='checkbox'},
 		},
 		outs={
 			{Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 1500 %of'}},
-			{Tooltips.full('Armor', 'Stats')..'/'..Tooltips.full('Shield', 'Stats')..' reduction:', {expr='STR 50 %of', suff='%'}},
-			{'Status chance:', {expr='STR 100 %of', suff='%'}},
-			{'Radius', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
+			{'Defense Reduction:', {expr='STR 50 %of', suff='%', fmt='2dec'}},
+			{'Status chance:', {expr='STR 100 %of', suff='%', fmt='2dec'}},
+			{'Range:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 15 *'}}
 		}
 	},
 	['Jade Stars']={
 		ins={
-			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive#Switching|Switching]] passive?', type='checkbox'},
+			{name='SWITCH', cont='[[Sirius & Orion/Abilities/Passive#Switching|Switching]] passive?', type='checkbox'},
 		},
 		outs={
 			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
-			{'Status chance:', {expr='STR 100 %of', suff='%'}},
-			{'Buff duration', {expr='DUR 35 %of', suff='s'}},
-			{'Explosion radius', {expr='RNG 4 %of', suff='m', fmt='1dec'}},
+			{'Status chance:', {expr='STR 100 %of', suff='%', fmt='2dec'}},
+			{'Duration:', {expr='DUR 35 %of', suff='s', fmt='2dec'}},
+			{'Explosion radius:', {expr='RNG 4 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 50 *'}}
 		}
 	},
 	['Astral Shell']={
 		ins={
-			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive#Switching|Switching]] passive?', type='checkbox'},
+			{name='SWITCH', cont='[[Sirius & Orion/Abilities/Passive#Switching|Switching]] passive?', type='checkbox'},
 		},
 		outs={
-			{'Decoy\'s '..Tooltips.full('Blast', 'DamageTypes')..':', {expr='STR 200 %of'}},
-			{'Buff Duration:', {expr='DUR 35 %of', suff='s'}},
-			{'Decoy Duration:', {expr='DUR 5 %of', suff='s'}},
-			{'Explosion radius:', {expr='RNG 5 %of'}},
+			{'Decoy '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 200 %of'}},
+			{'Buff duration:', {expr='DUR 35 %of', suff='s', fmt='2dec'}},
+			{'Decoy duration:', {expr='DUR 5 %of', suff='s', fmt='2dec'}},
+			{'Explosion radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 50 *'}}
 		}
 	},
-	['Light\'s Sanctuary']={
+	["Light's Sanctuary"]={
 		ins={
-			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive#Switching|Switching]] passive?', type='checkbox'},
+			{name='SWITCH', cont='[[Sirius & Orion/Abilities/Passive#Switching|Switching]] passive?', type='checkbox'},
 		},
 		outs={
 			{'Initial '..Tooltips.full('Health', 'Stats')..' restored:', {expr='STR 25 %of', suff='/s'}},
 			{'Final '..Tooltips.full('Health', 'Stats')..' restored:', {expr='STR 55 %of', suff='/s'}},
-			{'Initial '..[[Damage Reduction]]..':', {expr='STR 15 %of', suff='%'}},
-			{'Final '..[[Damage Reduction]]..':', {expr='STR 45 %of 75 min', suff='%'}},
-			{'Duration:', {expr='DUR 30 %of'}},
+			{'Initial '..Tooltips.full('Damage Reduction', 'Stats')..':',
+				{expr='STR 15 %of', suff='%', fmt='2dec'}
+			},
+			{'Final '..Tooltips.full('Damage Reduction', 'Stats')..':',
+				{expr='STR 45 %of 75 min', suff='%', fmt='2dec'}
+			},
+			{'Duration:', {expr='DUR 30 %of', suff='s', fmt='2dec'}},
 			{'Initial radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
 			{'Final radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 50 *'}}
@@ -3357,7 +3424,7 @@ local Data = {
 	},
 	['Event Horizon']={
 		ins={
-			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive#Switching|Switching]] passive?', type='checkbox'},
+			{name='SWITCH', cont='[[Sirius & Orion/Abilities/Passive#Switching|Switching]] passive?', type='checkbox'},
 		},
 		outs={
 			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 750 %of'}},
@@ -3369,14 +3436,14 @@ local Data = {
 	},
 	['Celestial Clash']={
 		ins={
-			{name='CONSTELLATION', cont='[[Sirius_%26_Orion/Abilities/Passive#Constellation Stars|Constellation Stars]] combo:', 
+			{name='CONSTELLATION', cont='[[Sirius & Orion/Abilities/Passive#Constellation Stars|Constellation Stars]] combo:', 
 				type='range-R', min='0', max='7', default='0'},
-			{name='SWITCH', cont='[[Sirius_%26_Orion/Abilities/Passive#Switching|Switching]] passive?', type='checkbox'},
+			{name='SWITCH', cont='[[Sirius & Orion/Abilities/Passive#Switching|Switching]] passive?', type='checkbox'},
 		},
 		outs={
 			{'Average '..Tooltips.full('Heat', 'DamageTypes')..' or '.. Tooltips.full('Slash', 'DamageTypes')..' damage:', 
 				{expr='STR 10000 %of CONSTELLATION 1.5 * 1 + * 0.5 CONSTELLATION * 1 + *'}},
-			{'[[Critical Chance]]:', {expr='50 CONSTELLATION *', suff='%'}},
+			{'[[Critical Chance]]:', {expr='50 CONSTELLATION *', suff='%', fmt='2dec'}},
 			{'Radius:', {expr='RNG 26 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='2 EFF 45 0 SWITCH if + 175 min 100 / - 100 *'}}
 		}
@@ -3631,7 +3698,7 @@ local Data = {
 		},
 		outs={
 			{Tooltips.full('Health', 'Stats')..' and '..Tooltips.full('Shield', 'Stats')..' restoration:', {expr='STR 80 %of 100 min', suff='%'}},
-			{'[[Damage Reduction]]:', {expr='STR 50 %of 75 min', suff='%'}},
+			{Tooltips.full('Damage Reduction', 'Stats')..':', {expr='STR 50 %of 75 min', suff='%'}},
 			{'Damage Reduction duration:', {expr='DUR 15 %of', suff='s', fmt='2dec'}},
 			{'[[Critical Chance]] bonus duration:', {expr='DUR 30 %of 0 CHAMPIONS_BLESSING if', suff='s', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
@@ -4341,7 +4408,7 @@ local Data = {
 	},
 	['Golden Instinct']={
 		outs={
-			{'Radius:', {expr='RNG 200 %of', suff='m', fmt='2dec'}},
+			{'Radius:', {expr='RNG 200 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
@@ -4400,7 +4467,7 @@ local Data = {
 		outs={
 			{'Trail '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 200 %of', suff='/s'}},
 			{'Speed bonus:', {expr='STR 20 %of', suff='%', fmt='2dec'}},
-			{'[[Damage Reduction]]:', {expr='STR 40 %of', suff='%', fmt='2dec'}},
+			{Tooltips.full('Damage Reduction', 'Stats')..':', {expr='STR 40 %of', suff='%', fmt='2dec'}},
 			{'Base explosion '..Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 100 %of'}},
 			{'Turret '..Tooltips.full('Heat', 'DamageTypes')..' damage bonus:', {expr='STR 60 %of', suff='%', fmt='2dec'}},
 			{'Explosion radius:', {expr='RNG 250 %of', suff='m', fmt='1dec'}},
