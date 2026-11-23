@@ -33,7 +33,6 @@ function p.buildSkinGallery(frame)
 
     local result = {}
     local galleryLineTemplate = "%s|link=%s|alt=%s image|[[%s|%s]]"
-    table.insert(result, itemName.."-specific skins")
     table.insert(result, "<gallery>")
     for _, skinName in ipairs(skins) do
     	local skinObject = CosmeticData["Cosmetics"][skinName]

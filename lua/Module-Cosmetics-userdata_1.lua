@@ -6,6 +6,7 @@ return {
 				"Acceltra Caduceus Skin",
 				"Acceltra Day of the Dead Skin",
 				"Acceltra Lunaeus Skin",
+				"Acceltra Nitros Skin",
 				"Acceltra Solstice Skin",
 			},
 		},
@@ -124,6 +125,17 @@ return {
 		},
 		Type = "Weapons",
 	},
+	Alternox = {
+		Equipments = {
+			Skin = {
+				"Thrambulus Alternox Skin"
+			}
+		},
+		Variants = {
+			"Alternox Prime",
+		},
+		Type = "Weapons",
+	},
 	Ambassador = {
 		Equipments = {
 			Skin = {
@@ -144,6 +156,7 @@ return {
 		Equipments = {
 			Skin = {
 				--"Sirocco Amp Skin",
+				--"Tempera Amp Skin",
 				--"Vacis Amp Skin",
 			},
 		},
@@ -1138,8 +1151,9 @@ return {
 			Skin = {
 				"Bow Dryad Skin",
 				"Causta Bow Skin",
-				"Oscira Bow Skin",
 				"Elfame Bow Skin",
+				"Oscira Bow Skin",
+				"Tau Dax Bow Skin",
 			},
 		},
 		Type = "Weapon Class",
@@ -1184,6 +1198,17 @@ return {
 			},
 		},
 		Type = "Weapons",
+	},
+	Bubonico = {
+		Equipments = {
+			Skin = {
+				"Bubonico Daybreak Skin"
+			}
+		},
+		Variants = {
+			"Coda Bubonico",
+		},
+		Type = "Weapons"
 	},
 	Burston = {
 		Equipments = {
@@ -1622,6 +1647,15 @@ return {
 			},
 		},
 		Type = "Companion",
+	},
+	["Dragon Nikana"] = {
+		Equipments = {
+			Skin = {
+				"Dragon Nikana Conclave Skin",
+				"Dragon Nikana Day of the Dead Skin",
+			},
+		},
+		Type = "Weapons"
 	},
 	Drakgoon = {
 		Equipments = {
@@ -2575,14 +2609,17 @@ return {
 		},
 		Type = "Weapons",
 	},
-	Galaxion = {
+	Glaxion = {
 		Equipments = {
 			Skin = {
+				"Glaxion Day of the Dead Skin",
+				"Glaxion Festive Skin",
+				"Glaxion Polar Skin",
 				"Niveus Glaxion Skin",
 			},
 		},
 		Variants = {
-			"Tenet Galaxion",
+			"Tenet Glaxion",
 		},
 		Type = "Weapons",
 	},
@@ -2653,6 +2690,17 @@ return {
 			"Garuda Prime",
 		},
 		Type = "Warframe",
+	},
+	["Garuda Talons"] = {
+		Equipments = {
+			Skin = {
+				"Vena's Talons"
+			}
+		},
+		Variants = {
+			"Garuda Prime Talons"
+		},
+		Type = "Weapons"
 	},
 	Gauss = {
 		Equipments = {
@@ -2773,6 +2821,7 @@ return {
 		Equipments = {
 			Skin = {
 				"Grattler Obsidian Skin",
+				"Tau Dax Grattler Skin",
 			},
 		},
 		Variants = {
@@ -2922,6 +2971,7 @@ return {
 				"Hammers Palatine Skin",
 				"Motherwrench Hammer Skin",
 				"Renok Hammer Skin",
+				"Tau Dax Hammer Skin",
 			},
 		},
 		Type = "Weapon Class",
@@ -3007,9 +3057,19 @@ return {
 				"Heavy Blade Obanakk Skin",
 				"Heavy Blade Suprema Skin",
 				"Heavy Blade Tengoken Skin",
+				"Iltis Heavy Blade Skin",
 				"Mortier Heavy Blade Skin",
+				"Serrabilis Heavy Blade Skin",
 				"Vaenn Heavy Blade Skin",
 			},
+		},
+		Type = "Weapon Class",
+	},
+	["Heavy Scythe"] = {
+		Equipments = {
+			Skin = {
+				"Rubillon Heavy Scythe Skin"
+			}
 		},
 		Type = "Weapon Class",
 	},
@@ -3127,6 +3187,8 @@ return {
 		Equipments = {
 			Skin = {
 				"Clavatus Ignis Skin",
+				"Flamethrower Plazm Skin",
+				"Freedom Flamethrower Skin",
 				"Ignis Day of the Dead Skin",
 				"Ignis Solstice Skin",
 				"Ignis Towsun Skin",
@@ -4759,6 +4821,7 @@ return {
 				"Ogris Lunaeus Skin",
 				"Ogris Nightwatch Skin",
 				"Ogris Rocket Launcher Skin",
+				"Volatile Ogris Skin",
 			},
 		},
 		Variants = {
@@ -5397,6 +5460,7 @@ return {
 			Skin = {
 				"Capstan Pistol Skin",
 				"De Nas Pistol Skin",
+				"Elixis Latron Pistol Skin",
 				"Nusku Pistol Skin",
 				"Oscira Pistol Skin",
 				"Perla Pistol Skin",
@@ -5437,6 +5501,7 @@ return {
 				"Polearm Skopos Skin",
 				"Polearm Ulcerated Skin",
 				"Rashasi Polearm Skin",
+				"Reshantur Cult Spear Skin",
 				"Tequihua Polearm Skin",
 			},
 		},
@@ -5525,6 +5590,7 @@ return {
 		},
 		Variants = {
 			"Quanta Vandal",
+			"Tenet Quanta",
 		},
 		Type = "Weapons",
 	},
@@ -5577,10 +5643,12 @@ return {
 			},
 			Skin = {
 				"Nefertym Rapier Skin",
+				"Neote Rapier Skin",
 				"Rapier Arashi Skin",
 				"Rapier Ferita Skin",
 				"Rapier Ni'duhl Skin",
 				"Rapier Tributaker Skin",
+				"Viktor's Rapier Skin",
 			},
 		},
 		Type = "Weapon Class",
@@ -5706,6 +5774,7 @@ return {
 				"Justice Rifle Skin",
 				"Oscira Rifle Skin",
 				"Soaktron Rifle Skin",
+				"Tau Dax Rifle Skin",
 			},
 		},
 		Type = "Weapon Class",
@@ -6009,6 +6078,7 @@ return {
 		Equipments = {
 			Skin = {
 				"Hecaton Shotgun Skin",
+				"Veneum Shotgun Skin",
 				"Zobov Shotgun Skin",
 			},
 		},
@@ -6114,7 +6184,7 @@ return {
 		},
 		Type = "Weapons",
 	},
-	Sniper = {
+	["Sniper Rifle"] = {
 		Equipments = {
 			Skin = {
 				"Alamos Sniper Skin",
@@ -6180,6 +6250,7 @@ return {
 			},
 			Skin = {
 				"Harmatt Sparring Skin",
+				"Piacle Sparring Skin",
 				"Tecton Sparring Skin",
 			},
 		},
@@ -6232,6 +6303,7 @@ return {
 				"Oscira Staff Skin",
 				"SINGLE STAFF SKIN",
 				"Staves Volu Skin",
+				"Tau Dax Staff Skin",
 			},
 		},
 		Type = "Weapon Class",
@@ -6367,6 +6439,14 @@ return {
 			},
 		},
 		Type = "Attachment",
+	},
+	["Sun & Moon"] = {
+		Equipments = {
+			Skin = {
+				"Tiandi Sun & Moon Skin",
+			}
+		},
+		Type = "Weapons",
 	},
 	Supra = {
 		Equipments = {
@@ -6785,6 +6865,7 @@ return {
 				"Oscira Thrown Weapon Skin",
 				"Protokol Hira Thrown Weapon Skin",
 				"Tarock Thrown Weapon Skin",
+				"Tau Dax Thrown Weapon Skin",
 			},
 		},
 		Type = "Weapon Class",
@@ -7365,8 +7446,9 @@ return {
 	Warfan = {
 		Equipments = {
 			Skin = {
-				"Verta Warfan Skin",
+				"Akomeogi Warfan Skin",
 				"Gallistrix Warfan Skin",
+				"Verta Warfan Skin",
 			},
 		},
 		Type = "Weapon Class",

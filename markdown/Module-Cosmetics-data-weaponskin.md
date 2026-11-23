@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/weaponskin"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/weaponskin"
-wiki_timestamp: "2026-11-13T22:56:50Z"
+wiki_timestamp: "2026-11-23T02:59:29Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/weaponskin/doc](/w/Module:Cosmetics/data/weaponskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/weaponskin/doc (page does not exist)")*
@@ -15,6 +15,7 @@ return {
         Image = "AcceltraCaduceusSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Runner/DeluxeAcceltraSkin",
         Link = "Acceltra Caduceus Skin",
+        ItemCompatibility = "Acceltra",
         Name = "Acceltra Caduceus Skin",
         Type = "Weapon Skin"
     },
@@ -26,6 +27,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Promo/Seasonal/Halloween2023DOTDAcceltraSkin",
         Introduced = "34.0",
         Link = "Acceltra Day of the Dead Skin",
+        ItemCompatibility = "Acceltra",
         Name = "Acceltra Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -37,6 +39,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/LunarNewYear/Lunar2020AcceltraSkin",
         Introduced = "29.0",
         Link = "Acceltra Lunaeus Skin",
+        ItemCompatibility = "Acceltra",
         Name = "Acceltra Lunaeus Skin",
         Type = "Weapon Skin"
     },
@@ -47,6 +50,7 @@ return {
         Image = "AcceltraNitrosSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Runner/AcceltraDeluxe2Skin",
         Link = "Acceltra Nitros Skin",
+        ItemCompatibility = "Acceltra",
         Name = "Acceltra Nitros Skin",
         Type = "Weapon Skin"
     },
@@ -57,6 +61,7 @@ return {
         Image = "AcceltraSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/WinterSolstice/SolsticeAcceltraSkin",
         Link = "Acceltra Solstice Skin",
+        ItemCompatibility = "Acceltra",
         Name = "Acceltra Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -67,6 +72,7 @@ return {
         Image = "Ack&BruntConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Melee/PvPAckBrunt",
         Link = "Ack & Brunt Conclave Skin",
+        ItemCompatibility = "Ack & Brunt",
         Name = "Ack & Brunt Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -78,6 +84,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenRegorAxeShield",
         Introduced = "17.9",
         Link = "Ack & Brunt Day of the Dead Skin",
+        ItemCompatibility = "Ack & Brunt",
         Name = "Ack & Brunt Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -89,6 +96,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/GrineerUrban/AckBruntGrineerUrbanCamo",
         Introduced = "17.1",
         Link = "Ack & Brunt Nightwatch Skin",
+        ItemCompatibility = "Ack & Brunt",
         Name = "Ack & Brunt Nightwatch Skin",
         Type = "Weapon Skin"
     },
@@ -99,6 +107,7 @@ return {
         Image = "AerospriDexPixiaSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Fairy/TitaniaDeluxeIIArchwingPistolsSkin",
         Link = "Aerospri Dex Pixia Skin",
+        ItemCompatibility = "Dex Pixia",
         Name = "Aerospri Dex Pixia Skin",
         Type = "Weapon Skin"
     },
@@ -110,6 +119,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/GrineerForest/GrineerForestAfuris",
         Introduced = "11.5",
         Link = "Afuris Forest-Camo Skin",
+        ItemCompatibility = "Afuris",
         Name = "Afuris Forest-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -120,6 +130,7 @@ return {
         Image = "AfurisVervSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Twitch/Twitch2021AfurisSkin",
         Link = "Afuris Verv Skin",
+        ItemCompatibility = "Afuris",
         Name = "Afuris Verv Skin",
         Type = "Weapon Skin"
     },
@@ -131,6 +142,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/BrassAndGold/BrassAndGoldAkbolto",
         Introduced = "16.8",
         Link = "Akbolto Ormolu Skin",
+        ItemCompatibility = "Akbolto",
         Name = "Akbolto Ormolu Skin",
         Type = "Weapon Skin"
     },
@@ -141,6 +153,7 @@ return {
         Image = "AkjagaraIridosSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Twitch/AkjagaraIridosSkin",
         Link = "Akjagara Iridos Skin",
+        ItemCompatibility = "Akjagara",
         Name = "Akjagara Iridos Skin",
         Type = "Weapon Skin"
     },
@@ -151,6 +164,7 @@ return {
         Image = "AklatoConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Pistols/PvPAklato",
         Link = "Aklato Conclave Skin",
+        ItemCompatibility = "Aklato",
         Name = "Aklato Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -162,6 +176,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenAklato",
         Introduced = "10.5",
         Link = "Aklato Day of the Dead Skin",
+        ItemCompatibility = "Aklato",
         Name = "Aklato Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -173,6 +188,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Kintsukuroi/KintsukuroiAklato",
         Introduced = "19.10",
         Link = "Aklato Kintsugi Skin",
+        ItemCompatibility = "Aklato",
         Name = "Aklato Kintsugi Skin",
         Type = "Weapon Skin"
     },
@@ -184,6 +200,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Starry/StarryAklato",
         Introduced = "19.10",
         Link = "Aklato Nocturne Skin",
+        ItemCompatibility = "Aklato",
         Name = "Aklato Nocturne Skin",
         Type = "Weapon Skin"
     },
@@ -194,6 +211,7 @@ return {
         Image = "AklatoOpalSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Nintendo/NintendoAklatoSkin",
         Link = "Aklato Opal Skin",
+        ItemCompatibility = "Aklato",
         Name = "Aklato Opal Skin",
         Type = "Weapon Skin"
     },
@@ -204,6 +222,7 @@ return {
         Image = "AklexConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Pistols/PvPAkLex",
         Link = "Aklex Conclave Skin",
+        ItemCompatibility = "Aklex",
         Name = "Aklex Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -214,6 +233,7 @@ return {
         Image = "AkmagnusDakilaSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Contests/Pistols/AkmagnusDakila",
         Link = "Akmagnus Dakila Skin",
+        ItemCompatibility = "Akmagnus",
         Name = "Akmagnus Dakila Skin",
         Type = "Weapon Skin"
     },
@@ -224,6 +244,7 @@ return {
         Image = "AkmagnusHivelightSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Contests/Pistols/AkmagnusHiveLight",
         Link = "Akmagnus Hivelight Skin",
+        ItemCompatibility = "Akmagnus",
         Name = "Akmagnus Hivelight Skin",
         Type = "Weapon Skin"
     },
@@ -234,6 +255,7 @@ return {
         Image = "AkmagnusObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/ObsidianAkmagnus",
         Link = "Akmagnus Obsidian Skin",
+        ItemCompatibility = "Akmagnus",
         Name = "Akmagnus Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -245,6 +267,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Ornate/TekeluAkmagnusSkin",
         Introduced = "25.4.1",
         Link = "Akmagnus Tekelu Skin",
+        ItemCompatibility = "Akmagnus",
         Name = "Akmagnus Tekelu Skin",
         Type = "Weapon Skin"
     },
@@ -256,6 +279,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Koumei/KoumeiWarfanSkin",
         Introduced = "42",
         Link = "Akomeogi Warfan Skin",
+        ItemCompatibility = "Warfan",
         Name = "Akomeogi Warfan Skin",
         Type = "Weapon Skin"
     },
@@ -266,6 +290,7 @@ return {
         Image = "AkstilettoConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Pistols/PvPAkstiletto",
         Link = "Akstiletto Conclave Skin",
+        ItemCompatibility = "Akstiletto",
         Name = "Akstiletto Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -277,6 +302,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Ornate/TekeluAkstilettoSkin",
         Introduced = "25.4.1",
         Link = "Akstiletto Tekelu Skin",
+        ItemCompatibility = "Akstiletto",
         Name = "Akstiletto Tekelu Skin",
         Type = "Weapon Skin"
     },
@@ -287,6 +313,7 @@ return {
         Image = "AkvastoConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Pistols/PvPAkvasto",
         Link = "Akvasto Conclave Skin",
+        ItemCompatibility = "Akvasto",
         Name = "Akvasto Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -298,6 +325,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenAkvasto",
         Introduced = "15.0.5",
         Link = "Akvasto Day of the Dead Skin",
+        ItemCompatibility = "Akvasto",
         Name = "Akvasto Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -309,6 +337,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/GrineerForest/GrineerForestDualVastos",
         Introduced = "11.5",
         Link = "Akvasto Forest-Camo Skin",
+        ItemCompatibility = "Akvasto",
         Name = "Akvasto Forest-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -319,6 +348,7 @@ return {
         Image = "AkvastoPhasedSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Void/AkvastosVoidSkin",
         Link = "Akvasto Phased Skin",
+        ItemCompatibility = "Akvasto",
         Name = "Akvasto Phased Skin",
         Type = "Weapon Skin"
     },
@@ -330,6 +360,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Ornate/TekeluAkvastoSkin",
         Introduced = "25.4.1",
         Link = "Akvasto Tekelu Skin",
+        ItemCompatibility = "Akvasto",
         Name = "Akvasto Tekelu Skin",
         Type = "Weapon Skin"
     },
@@ -340,6 +371,7 @@ return {
         Image = "AlamosSniperSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Deluxe/NovaDeluxeIISniperSkin",
         Link = "Alamos Sniper Skin",
+        ItemCompatibility = "Sniper Rifle",
         Name = "Alamos Sniper Skin",
         Type = "Weapon Skin"
     },
@@ -350,6 +382,7 @@ return {
         Image = "AmbassadorTenetSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/CrpArSniper/CrpArSniperLichSkin",
         Link = "Ambassador Tenet Skin",
+        ItemCompatibility = "Ambassador",
         Name = "Ambassador Tenet Skin",
         Type = "Weapon Skin"
     },
@@ -361,6 +394,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenAmprex",
         Introduced = "15.0.5",
         Link = "Amprex Day of the Dead Skin",
+        ItemCompatibility = "Amprex",
         Name = "Amprex Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -372,6 +406,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/EliteAlerts/EliteAlertAmprex",
         Introduced = "24.8",
         Link = "Amprex Telos Skin",
+        ItemCompatibility = "Amprex",
         Name = "Amprex Telos Skin",
         Type = "Weapon Skin"
     },
@@ -382,6 +417,7 @@ return {
         Image = "AngstrumConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Pistols/PvPAngstrum",
         Link = "Angstrum Conclave Skin",
+        ItemCompatibility = "Angstrum",
         Name = "Angstrum Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -393,6 +429,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenAngstrum",
         Introduced = "17.9",
         Link = "Angstrum Day of the Dead Skin",
+        ItemCompatibility = "Angstrum",
         Name = "Angstrum Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -403,6 +440,7 @@ return {
         Image = "AnkyrosPhasedSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Void/AnkyrosVoidSkin",
         Link = "Ankyros Phased Skin",
+        ItemCompatibility = "Ankyros",
         Name = "Ankyros Phased Skin",
         Type = "Weapon Skin"
     },
@@ -413,6 +451,7 @@ return {
         Image = "AnkyrosProminenceSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Twitch/TwitchAnkyros",
         Link = "Ankyros Prominence Skin",
+        ItemCompatibility = "Ankyros",
         Name = "Ankyros Prominence Skin",
         Type = "Weapon Skin"
     },
@@ -423,6 +462,7 @@ return {
         Image = "AnpuStaffSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/VoidTrader/BaroInarosPolearmSkin",
         Link = "Anpu Staff Skin",
+        ItemCompatibility = "Staff",
         Name = "Anpu Staff Skin",
         Type = "Weapon Skin"
     },
@@ -433,6 +473,7 @@ return {
         Image = "ArcaPlasmorSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Seasonal/TennobaumArcaPlasmorSkin",
         Link = "Arca Plasmor Solstice Skin",
+        ItemCompatibility = "Arca Plasmor",
         Name = "Arca Plasmor Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -444,6 +485,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Nightwave/CosmosArcaTitronSkin",
         Introduced = "38.6",
         Link = "Arca Titron Raya Skin",
+        ItemCompatibility = "Arca Titron",
         Name = "Arca Titron Raya Skin",
         Type = "Weapon Skin"
     },
@@ -454,6 +496,7 @@ return {
         Image = "ArcataRivSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Lunaro/ArcataSkinA",
         Link = "Arcata Riv Skin",
+        ItemCompatibility = "Arcata",
         Name = "Arcata Riv Skin",
         Type = "Weapon Skin"
     },
@@ -464,6 +507,7 @@ return {
         Image = "AscensionSpeargunSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/LongGuns/CorpusSpearGunSkin",
         Link = "Ascension Speargun Skin",
+        ItemCompatibility = "Speargun",
         Name = "Ascension Speargun Skin",
         Type = "Weapon Skin"
     },
@@ -474,6 +518,7 @@ return {
         Image = "AstreosSwordAndShieldSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/YinYang/EquinoxDeluxeSwordShieldSkin",
         Link = "Astreos Sword and Shield Skin",
+        ItemCompatibility = "Sword and Shield",
         Name = "Astreos Sword and Shield Skin",
         Type = "Weapon Skin"
     },
@@ -485,6 +530,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/DOTD2025AtomosSkin",
         Introduced = "40.0",
         Link = "Atomos Day of the Dead Skin",
+        ItemCompatibility = "Atomos",
         Name = "Atomos Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -495,6 +541,7 @@ return {
         Image = "AtomosSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Seasonal/TennobaumAtomosSkin",
         Link = "Atomos Solstice Skin",
+        ItemCompatibility = "Atomos",
         Name = "Atomos Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -506,6 +553,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/EliteAlerts/EliteAlertAtomos",
         Introduced = "24.8",
         Link = "Atomos Telos Skin",
+        ItemCompatibility = "Atomos",
         Name = "Atomos Telos Skin",
         Type = "Weapon Skin"
     },
@@ -517,6 +565,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Camo/DesertAtteraxSkin",
         Introduced = "24.3",
         Link = "Atterax Desert-Camo Skin",
+        ItemCompatibility = "Atterax",
         Name = "Atterax Desert-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -528,6 +577,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/EliteAlerts/EliteAlertAtterax",
         Introduced = "24.8",
         Link = "Atterax Telos Skin",
+        ItemCompatibility = "Atterax",
         Name = "Atterax Telos Skin",
         Type = "Weapon Skin"
     },
@@ -538,6 +588,7 @@ return {
         Image = "AtticaObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/ObsidianAttica",
         Link = "Attica Obsidian Skin",
+        ItemCompatibility = "Attica",
         Name = "Attica Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -548,6 +599,7 @@ return {
         Image = "AvexSniperSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/LongGuns/VenkraSniperSkin",
         Link = "Avex Sniper Skin",
+        ItemCompatibility = "Sniper Rifle",
         Name = "Avex Sniper Skin",
         Type = "Weapon Skin"
     },
@@ -559,6 +611,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/GrineerForest/GrineerForestBallistica",
         Introduced = "11.5",
         Link = "Ballistica Forest-Camo Skin",
+        ItemCompatibility = "Ballistica",
         Name = "Ballistica Forest-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -570,6 +623,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Ornate/OrnateBallistica",
         Introduced = "SotR 1.0",
         Link = "Ballistica Tekelu Skin",
+        ItemCompatibility = "Ballistica",
         Name = "Ballistica Tekelu Skin",
         Type = "Weapon Skin"
     },
@@ -581,6 +635,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenBasmu",
         Introduced = "29.2.4",
         Link = "Basmu Day of the Dead Skin",
+        ItemCompatibility = "Basmu",
         Name = "Basmu Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -592,6 +647,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Ornate/TekeluBazaSkin",
         Introduced = "25.4.1",
         Link = "Baza Tekelu Skin",
+        ItemCompatibility = "Baza",
         Name = "Baza Tekelu Skin",
         Type = "Weapon Skin"
     },
@@ -603,6 +659,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/CaliberChicks/AshGeminiCaliberChicksRifleSkin",
         Introduced = "43",
         Link = "Bladeswarm Braton Skin",
+        ItemCompatibility = "Braton",
         Name = "Bladeswarm Braton Skin",
         Type = "Weapon Skin"
     },
@@ -614,6 +671,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Daggers/AshGeminiDaggerSkin",
         Introduced = "43",
         Link = "Bladeswarm Karyst Skin",
+        ItemCompatibility = "Karyst",
         Name = "Bladeswarm Karyst Skin",
         Type = "Weapon Skin"
     },
@@ -625,6 +683,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Throwable/AshGeminiKunaiSkin",
         Introduced = "43",
         Link = "Bladeswarm Kunai Skin",
+        ItemCompatibility = "Kunai",
         Name = "Bladeswarm Kunai Skin",
         Type = "Weapon Skin"
     },
@@ -636,6 +695,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Weapons/LongGuns/AshGeminiVectisSkin",
         Introduced = "43",
         Link = "Bladeswarm Vectis Skin",
+        ItemCompatibility = "Vectis",
         Name = "Bladeswarm Vectis Skin",
         Type = "Weapon Skin"
     },
@@ -646,6 +706,7 @@ return {
         Image = "BlodgardHeavyBladeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/IronFrame/HildrynDeluxeAxeSkin",
         Link = "Blodgard Heavy Blade Skin",
+        ItemCompatibility = "Heavy Blade",
         Name = "Blodgard Heavy Blade Skin",
         Type = "Weapon Skin"
     },
@@ -657,6 +718,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Pistols/GarudaGeminiBallisticaSkin",
         Introduced = "43",
         Link = "Bloodfrenzy Ballistica Skin",
+        ItemCompatibility = "Ballistica",
         Name = "Bloodfrenzy Ballistica Skin",
         Type = "Weapon Skin"
     },
@@ -668,6 +730,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Weapons/LongGuns/GarudaGeminiNagantakaSkin",
         Introduced = "43",
         Link = "Bloodfrenzy Nagantaka Skin",
+        ItemCompatibility = "Nagantaka",
         Name = "Bloodfrenzy Nagantaka Skin",
         Type = "Weapon Skin"
     },
@@ -679,6 +742,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Claws/GarudaGeminiClawsSkin",
         Introduced = "43",
         Link = "Bloodfrenzy Venka Skin",
+        ItemCompatibility = "Venka",
         Name = "Bloodfrenzy Venka Skin",
         Type = "Weapon Skin"
     },
@@ -690,6 +754,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Kintsukuroi/KintsukuroiStaff",
         Introduced = "19.10",
         Link = "Bo Kintsugi Skin",
+        ItemCompatibility = "Bo",
         Name = "Bo Kintsugi Skin",
         Type = "Weapon Skin"
     },
@@ -701,6 +766,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Starry/StarryStaff",
         Introduced = "19.10",
         Link = "Bo Nocturne Skin",
+        ItemCompatibility = "Bo",
         Name = "Bo Nocturne Skin",
         Type = "Weapon Skin"
     },
@@ -712,6 +778,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/VoidTrader/VTBoarExilis",
         Introduced = "43.0.6",
         Link = "Boar Elixis Skin",
+        ItemCompatibility = "Boar",
         Name = "Boar Elixis Skin",
         Type = "Weapon Skin"
     },
@@ -722,6 +789,7 @@ return {
         Image = "BoarPhosphorSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/VoidTrader/VTBoar",
         Link = "Boar Phosphor Skin",
+        ItemCompatibility = "Boar",
         Name = "Boar Phosphor Skin",
         Type = "Weapon Skin"
     },
@@ -733,6 +801,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/BrassAndGold/BrassAndGoldBolto",
         Introduced = "16.8",
         Link = "Bolto Ormolu Skin",
+        ItemCompatibility = "Bolto",
         Name = "Bolto Ormolu Skin",
         Type = "Weapon Skin"
     },
@@ -744,6 +813,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Deluxe/OctaviaDeluxeBoltor",
         Introduced = "38.0.7",
         Link = "Boltor Bravura Skin",
+        ItemCompatibility = "Boltor",
         Name = "Boltor Bravura Skin",
         Type = "Weapon Skin"
     },
@@ -755,6 +825,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenBoltor",
         Introduced = "17.9",
         Link = "Boltor Day of the Dead Skin",
+        ItemCompatibility = "Boltor",
         Name = "Boltor Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -766,6 +837,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/GrineerForest/GrineerForestBoltor",
         Introduced = "11.5",
         Link = "Boltor Forest-Camo Skin",
+        ItemCompatibility = "Boltor",
         Name = "Boltor Forest-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -776,6 +848,7 @@ return {
         Image = "BoltorLunaeusSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/LunarNewYear/LNY2025BoltorSkin",
         Link = "Boltor Lunaeus Skin",
+        ItemCompatibility = "Boltor",
         Name = "Boltor Lunaeus Skin",
         Type = "Weapon Skin"
     },
@@ -786,6 +859,7 @@ return {
         Image = "BoltorObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/ObsidianBoltor",
         Link = "Boltor Obsidian Skin",
+        ItemCompatibility = "Boltor",
         Name = "Boltor Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -796,6 +870,7 @@ return {
         Image = "BoltorSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Seasonal/TennobaumBoltor",
         Link = "Boltor Solstice Skin",
+        ItemCompatibility = "Boltor",
         Name = "Boltor Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -806,6 +881,7 @@ return {
         Image = "BowDryadSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Deluxe/OberonDeluxeParis",
         Link = "Bow Dryad Skin",
+        ItemCompatibility = "Bow",
         Name = "Bow Dryad Skin",
         Type = "Weapon Skin"
     },
@@ -817,6 +893,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Nightwatch/NightwatchBrakk",
         Introduced = "Hotfix: The Silver Grove 4",
         Link = "Brakk Nightwatch Skin",
+        ItemCompatibility = "Brakk",
         Name = "Brakk Nightwatch Skin",
         Type = "Weapon Skin"
     },
@@ -827,6 +904,7 @@ return {
         Image = "BratonConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/LongGuns/PvPBraton",
         Link = "Braton Conclave Skin",
+        ItemCompatibility = "Braton",
         Name = "Braton Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -838,6 +916,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenBraton",
         Introduced = "10.5",
         Link = "Braton Day of the Dead Skin",
+        ItemCompatibility = "Braton",
         Name = "Braton Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -849,6 +928,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/GrineerForest/GrineerForestBraton",
         Introduced = "11.5",
         Link = "Braton Forest-Camo Skin",
+        ItemCompatibility = "Braton",
         Name = "Braton Forest-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -860,6 +940,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Kintsukuroi/KintsukuroiBraton",
         Introduced = "19.10",
         Link = "Braton Kintsugi Skin",
+        ItemCompatibility = "Braton",
         Name = "Braton Kintsugi Skin",
         Type = "Weapon Skin"
     },
@@ -871,6 +952,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Starry/StarryBraton",
         Introduced = "19.10",
         Link = "Braton Nocturne Skin",
+        ItemCompatibility = "Braton",
         Name = "Braton Nocturne Skin",
         Type = "Weapon Skin"
     },
@@ -881,6 +963,7 @@ return {
         Image = "BratonObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/PS4Braton",
         Link = "Braton Obsidian Skin",
+        ItemCompatibility = "Braton",
         Name = "Braton Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -892,6 +975,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Dazzle/BratonDazzleCamo",
         Introduced = "13",
         Link = "Braton Shock-Camo Skin",
+        ItemCompatibility = "Braton",
         Name = "Braton Shock-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -902,6 +986,7 @@ return {
         Image = "BrokenWarSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Seasonal/TennobaumBrokenWar",
         Link = "Broken War Solstice Skin",
+        ItemCompatibility = "Broken War",
         Name = "Broken War Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -913,6 +998,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Nightwave/CosmosBurstonSkin",
         Introduced = "38.6",
         Link = "Burston Raya Skin",
+        ItemCompatibility = "Burston",
         Name = "Burston Raya Skin",
         Type = "Weapon Skin"
     },
@@ -923,6 +1009,7 @@ return {
         Image = "BurstonSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/LongGuns/SolsticeBurston",
         Link = "Burston Solstice Skin",
+        ItemCompatibility = "Burston",
         Name = "Burston Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -934,6 +1021,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenBuzlok",
         Introduced = "15.0.5",
         Link = "Buzlok Day of the Dead Skin",
+        ItemCompatibility = "Buzlok",
         Name = "Buzlok Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -944,6 +1032,7 @@ return {
         Image = "CantareSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Seasonal/TennobaumCantare",
         Link = "Cantare Solstice Skin",
+        ItemCompatibility = "Cantare",
         Name = "Cantare Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -954,6 +1043,7 @@ return {
         Image = "CapstanPistolSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Tennocon2020Skins/DeimosSupporterPistolSkin",
         Link = "Capstan Pistol Skin",
+        ItemCompatibility = "Pistol",
         Name = "Capstan Pistol Skin",
         Type = "Weapon Skin"
     },
@@ -964,6 +1054,7 @@ return {
         Image = "CarcinusSpeargunSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Hydroid/HydroidDeluxeSpearGunSkin",
         Link = "Carcinus Speargun Skin",
+        ItemCompatibility = "Speargun",
         Name = "Carcinus Speargun Skin",
         Type = "Weapon Skin"
     },
@@ -974,6 +1065,7 @@ return {
         Image = "CassowarJadeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Microsoft/JadeCassowarSkin",
         Link = "Cassowar Jade Skin",
+        ItemCompatibility = "Cassowar",
         Name = "Cassowar Jade Skin",
         Type = "Weapon Skin"
     },
@@ -984,6 +1076,7 @@ return {
         Image = "CattarilArrowSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Arrows/AlternateArrowA",
         Link = "Cattaril Arrow Skin",
+        ItemCompatibility = "Arrow",
         Name = "Cattaril Arrow Skin",
         Type = "Weapon Skin"
     },
@@ -994,6 +1087,7 @@ return {
         Image = "CaustaBowSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Deluxe/AshDeluxeIIBowSkin",
         Link = "Causta Bow Skin",
+        ItemCompatibility = "Bow",
         Name = "Causta Bow Skin",
         Type = "Weapon Skin"
     },
@@ -1005,6 +1099,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Nightwave/DaybreakCedoSkin",
         Introduced = "35.6",
         Link = "Cedo Daybreak Skin",
+        ItemCompatibility = "Cedo",
         Name = "Cedo Daybreak Skin",
         Type = "Weapon Skin"
     },
@@ -1016,6 +1111,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/LunarNewYear/Lunar2023CedoSkin",
         Introduced = "32.2.9",
         Link = "Cedo Lunaeus Skin",
+        ItemCompatibility = "Cedo",
         Name = "Cedo Lunaeus Skin",
         Type = "Weapon Skin"
     },
@@ -1026,6 +1122,7 @@ return {
         Image = "CeramicaTonfaSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Tonfa/CeramicTonfaSkin",
         Link = "Ceramica Tonfa Skin",
+        ItemCompatibility = "Tonfa",
         Name = "Ceramica Tonfa Skin",
         Type = "Weapon Skin"
     },
@@ -1037,6 +1134,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/LunarNewYear/Lunar2023CernosSkin",
         Introduced = "32.2.9",
         Link = "Cernos Lunaeus Skin",
+        ItemCompatibility = "Cernos",
         Name = "Cernos Lunaeus Skin",
         Type = "Weapon Skin"
     },
@@ -1048,6 +1146,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Dazzle/CestraDazzleCamo",
         Introduced = "13",
         Link = "Cestra Shock-Camo Skin",
+        ItemCompatibility = "Cestra",
         Name = "Cestra Shock-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -1058,6 +1157,7 @@ return {
         Image = "CirripedEpitaphSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Wraith/SevagothDlxWeaponSkin",
         Link = "Cirriped Epitaph Skin",
+        ItemCompatibility = "Epitaph",
         Name = "Cirriped Epitaph Skin",
         Type = "Weapon Skin"
     },
@@ -1068,6 +1168,7 @@ return {
         Image = "ClavatusHeavyBladeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/LunarNewYear/Lunar2022HeavyBladeSkin",
         Link = "Clavatus Heavy Blade Skin",
+        ItemCompatibility = "Heavy Blade",
         Name = "Clavatus Heavy Blade Skin",
         Type = "Weapon Skin"
     },
@@ -1079,6 +1180,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/LunarNewYear/Lunar2022IgnisSkin",
         Introduced = "31.1.3",
         Link = "Clavatus Ignis Skin",
+        ItemCompatibility = "Ignis",
         Name = "Clavatus Ignis Skin",
         Type = "Weapon Skin"
     },
@@ -1090,6 +1192,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/LunarNewYear/Lunar2022Zarr",
         Introduced = "31.1.3",
         Link = "Clavatus Zarr Skin",
+        ItemCompatibility = "Zarr",
         Name = "Clavatus Zarr Skin",
         Type = "Weapon Skin"
     },
@@ -1100,6 +1203,7 @@ return {
         Image = "CorinthObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/ObsidianCorinth",
         Link = "Corinth Obsidian Skin",
+        ItemCompatibility = "Corinth",
         Name = "Corinth Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -1110,6 +1214,7 @@ return {
         Image = "CorinthOpalSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/TnHeavyShotgun/NintendoTnHeavyShotgunSkin",
         Link = "Corinth Opal Skin",
+        ItemCompatibility = "Corinth",
         Name = "Corinth Opal Skin",
         Type = "Weapon Skin"
     },
@@ -1120,6 +1225,7 @@ return {
         Image = "CorinthSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/WinterSolstice/SolsticeCorinthSkin",
         Link = "Corinth Solstice Skin",
+        ItemCompatibility = "Corinth",
         Name = "Corinth Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -1130,6 +1236,7 @@ return {
         Image = "CortegeSupulchraxSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Necramech/MechWeapon/MechEventCortegeSkin",
         Link = "Cortege Supulchrax Skin",
+        ItemCompatibility = "Cortege",
         Name = "Cortege Supulchrax Skin",
         Type = "Weapon Skin"
     },
@@ -1141,6 +1248,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Promo/Seasonal/Halloween2023DOTDCorvasSkin",
         Introduced = "34.0",
         Link = "Corvas Day of the Dead Skin",
+        ItemCompatibility = "Corvas",
         Name = "Corvas Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -1152,6 +1260,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Promo/Seasonal/Halloween2023DOTDCycron",
         Introduced = "34.0",
         Link = "Cycron Day of the Dead Skin",
+        ItemCompatibility = "Cycron",
         Name = "Cycron Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -1162,6 +1271,7 @@ return {
         Image = "CycronSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Seasonal/TennobaumCycronSkin",
         Link = "Cycron Solstice Skin",
+        ItemCompatibility = "Cycron",
         Name = "Cycron Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -1172,6 +1282,7 @@ return {
         Image = "DaecretTonkorSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Deluxe/ProteaDeluxeSkinTonkor",
         Link = "Daecret Tonkor Skin",
+        ItemCompatibility = "Tonkor",
         Name = "Daecret Tonkor Skin",
         Type = "Weapon Skin"
     },
@@ -1182,6 +1293,7 @@ return {
         Image = "DaggerCrubbakSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Dagger/SWCrubbakDaggerSkin",
         Link = "Dagger Crubbak Skin",
+        ItemCompatibility = "Dagger",
         Name = "Dagger Crubbak Skin",
         Type = "Weapon Skin"
     },
@@ -1192,6 +1304,7 @@ return {
         Image = "DaikyuConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Bows/PvPDaikyu",
         Link = "Daikyu Conclave Skin",
+        ItemCompatibility = "Daikyu",
         Name = "Daikyu Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -1203,6 +1316,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenDaikyu",
         Introduced = "RN",
         Link = "Daikyu Day of the Dead Skin",
+        ItemCompatibility = "Daikyu",
         Name = "Daikyu Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -1214,6 +1328,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/BrassAndGold/BrassAndGoldDaikyu",
         Introduced = "16.8",
         Link = "Daikyu Ormolu Skin",
+        ItemCompatibility = "Daikyu",
         Name = "Daikyu Ormolu Skin",
         Type = "Weapon Skin"
     },
@@ -1224,6 +1339,7 @@ return {
         Image = "DaliBallisticaSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Archer/IvaraDeluxeBallisticaSkin",
         Link = "Dali Ballistica Skin",
+        ItemCompatibility = "Ballistica",
         Name = "Dali Ballistica Skin",
         Type = "Weapon Skin"
     },
@@ -1235,6 +1351,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenDarkDagger",
         Introduced = "RN",
         Link = "Dark Dagger Day of the Dead Skin",
+        ItemCompatibility = "Dark Dagger",
         Name = "Dark Dagger Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -1246,6 +1363,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenDarkSplitSword",
         Introduced = "RN",
         Link = "Dark Split-Sword Day of the Dead Skin",
+        ItemCompatibility = "Dark Split-Sword",
         Name = "Dark Split-Sword Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -1256,6 +1374,7 @@ return {
         Image = "DarkSplit-SwordDulusSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/PCGamer/PCGamerDarkSwordDaggerHybridSkin",
         Link = "Dark Split-Sword Dulus Skin",
+        ItemCompatibility = "Dark Split-Sword",
         Name = "Dark Split-Sword Dulus Skin",
         Type = "Weapon Skin"
     },
@@ -1267,6 +1386,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/VoidTrader/VTHalloweenDarkSword",
         Introduced = "17.9.2",
         Link = "Dark Sword Day of the Dead Skin",
+        ItemCompatibility = "Dark Sword",
         Name = "Dark Sword Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -1277,6 +1397,7 @@ return {
         Image = "DeNasPistolSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/VoidTrader/AshLeverianLiosPistol",
         Link = "De Nas Pistol Skin",
+        ItemCompatibility = "Pistol",
         Name = "De Nas Pistol Skin",
         Type = "Weapon Skin"
     },
@@ -1287,6 +1408,7 @@ return {
         Image = "DeimosClawSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Infestation/NidusDeluxeClawsSkin",
         Link = "Deimos Claw Skin",
+        ItemCompatibility = "Claws",
         Name = "Deimos Claw Skin",
         Type = "Weapon Skin"
     },
@@ -1297,6 +1419,7 @@ return {
         Image = "DendriteGunbladeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Fairy/TitaniaDeluxeGunbladeSkin",
         Link = "Dendrite Gunblade Skin",
+        ItemCompatibility = "Gunblade",
         Name = "Dendrite Gunblade Skin",
         Type = "Weapon Skin"
     },
@@ -1308,6 +1431,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Dazzle/DeraDazzleCamo",
         Introduced = "13",
         Link = "Dera Shock-Camo Skin",
+        ItemCompatibility = "Dera",
         Name = "Dera Shock-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -1319,6 +1443,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/GrineerForest/GrineerForestDethcube",
         Introduced = "11.5",
         Link = "Dethcube Forest-Camo Skin",
+        ItemCompatibility = "Dethcube",
         Name = "Dethcube Forest-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -1330,6 +1455,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Dazzle/DetronDazzleCamo",
         Introduced = "13",
         Link = "Detron Shock-Camo Skin",
+        ItemCompatibility = "Detron",
         Name = "Detron Shock-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -1340,6 +1466,7 @@ return {
         Image = "DexDakraJadeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Microsoft/JadeDexDakra",
         Link = "Dex Dakra Jade Skin",
+        ItemCompatibility = "Dex Dakra",
         Name = "Dex Dakra Jade Skin",
         Type = "Weapon Skin"
     },
@@ -1350,6 +1477,7 @@ return {
         Image = "DexDakraObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/DexTheSecond/ObsidianDexDakra",
         Link = "Dex Dakra Obsidian Skin",
+        ItemCompatibility = "Dex Dakra",
         Name = "Dex Dakra Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -1360,6 +1488,7 @@ return {
         Image = "DexDakraOpalSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/DexTheSecond/NintendoDexDakra",
         Link = "Dex Dakra Opal Skin",
+        ItemCompatibility = "Dex Dakra",
         Name = "Dex Dakra Opal Skin",
         Type = "Weapon Skin"
     },
@@ -1370,6 +1499,7 @@ return {
         Image = "DexFurisJadeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Microsoft/JadeDexFuris",
         Link = "Dex Furis Jade Skin",
+        ItemCompatibility = "Dex Furis",
         Name = "Dex Furis Jade Skin",
         Type = "Weapon Skin"
     },
@@ -1380,6 +1510,7 @@ return {
         Image = "DexFurisObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/ObsidianDexFuris",
         Link = "Dex Furis Obsidian Skin",
+        ItemCompatibility = "Dex Furis",
         Name = "Dex Furis Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -1390,6 +1521,7 @@ return {
         Image = "DexPixiaHawkmothSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Fairy/TitaniaDeluxeArchwingPistolsSkin",
         Link = "Dex Pixia Hawkmoth Skin",
+        ItemCompatibility = "Dex Pixia",
         Name = "Dex Pixia Hawkmoth Skin",
         Type = "Weapon Skin"
     },
@@ -1400,6 +1532,7 @@ return {
         Image = "DiodeHammerSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Volt/VoltDeluxeMaceSkin",
         Link = "Diode Hammer Skin",
+        ItemCompatibility = "Hammer",
         Name = "Diode Hammer Skin",
         Type = "Weapon Skin"
     },
@@ -1410,6 +1543,7 @@ return {
         Image = "DiwataMotSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Fairy/TitaniaDeluxeArchwingSwordSkin",
         Link = "Diwata Mot Skin",
+        ItemCompatibility = "Diwata",
         Name = "Diwata Mot Skin",
         Type = "Weapon Skin"
     },
@@ -1420,6 +1554,7 @@ return {
         Image = "DragonNikanaConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Melee/PvPDragonNikana",
         Link = "Dragon Nikana Conclave Skin",
+        ItemCompatibility = "Dragon Nikana",
         Name = "Dragon Nikana Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -1431,6 +1566,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenDragonNikana",
         Introduced = "17.9",
         Link = "Dragon Nikana Day of the Dead Skin",
+        ItemCompatibility = "Dragon Nikana",
         Name = "Dragon Nikana Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -1441,6 +1577,7 @@ return {
         Image = "DrakgoonBronzeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/ChangYou/CYRubedoDrakgoonCamo",
         Link = "Drakgoon Bronze Skin",
+        ItemCompatibility = "Drakgoon",
         Name = "Drakgoon Bronze Skin",
         Type = "Weapon Skin"
     },
@@ -1452,6 +1589,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Weapons/UnrealTournament/DrakgoonFlakCannonSkin",
         Introduced = "29.5.7",
         Link = "Drakgoon Flak Cannon Skin",
+        ItemCompatibility = "Drakgoon",
         Name = "Drakgoon Flak Cannon Skin",
         Type = "Weapon Skin"
     },
@@ -1462,6 +1600,7 @@ return {
         Image = "DrakgoonRubedoPlatedSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/ReferralSeriesTwo/RubedoDrakgoonCamo",
         Link = "Drakgoon Rubedo Plated Skin",
+        ItemCompatibility = "Drakgoon",
         Name = "Drakgoon Rubedo Plated Skin",
         Type = "Weapon Skin"
     },
@@ -1473,6 +1612,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenDread",
         Introduced = "25.8",
         Link = "Dread Day of the Dead Skin",
+        ItemCompatibility = "Dread",
         Name = "Dread Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -1483,6 +1623,7 @@ return {
         Image = "DreyricFistSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Berserker/ValkyrDeluxeFistSkin",
         Link = "Dreyric Fist Skin",
+        ItemCompatibility = "Fist",
         Name = "Dreyric Fist Skin",
         Type = "Weapon Skin"
     },
@@ -1494,6 +1635,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Dazzle/DualCestraDazzleCamo",
         Introduced = "13",
         Link = "Dual Cestra Shock-Camo Skin",
+        ItemCompatibility = "Dual Cestra",
         Name = "Dual Cestra Shock-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -1505,6 +1647,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Nightwatch/NightwatchDualCleavers",
         Introduced = "Hotfix: The Silver Grove 4",
         Link = "Dual Cleavers Nightwatch Skin",
+        ItemCompatibility = "Dual Cleavers",
         Name = "Dual Cleavers Nightwatch Skin",
         Type = "Weapon Skin"
     },
@@ -1516,6 +1659,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/GrineerForest/GrineerForestDualHeatSwords",
         Introduced = "11.5",
         Link = "Dual Heat Swords Forest-Camo Skin",
+        ItemCompatibility = "Dual Heat Swords",
         Name = "Dual Heat Swords Forest-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -1526,6 +1670,7 @@ return {
         Image = "DualHeatSwordsJadeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Microsoft/JadeDualHeatSwords",
         Link = "Dual Heat Swords Jade Skin",
+        ItemCompatibility = "Dual Heat Swords",
         Name = "Dual Heat Swords Jade Skin",
         Type = "Weapon Skin"
     },
@@ -1536,6 +1681,7 @@ return {
         Image = "DualKamasJadeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Microsoft/JadeDualKamas",
         Link = "Dual Kamas Jade Skin",
+        ItemCompatibility = "Dual Kamas",
         Name = "Dual Kamas Jade Skin",
         Type = "Weapon Skin"
     },
@@ -1546,6 +1692,7 @@ return {
         Image = "DualKeresSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Seasonal/TennobaumDualKeresSkin",
         Link = "Dual Keres Solstice Skin",
+        ItemCompatibility = "Dual Keres",
         Name = "Dual Keres Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -1556,6 +1703,7 @@ return {
         Image = "DualSkanaConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Melee/PvPDualSkana",
         Link = "Dual Skana Conclave Skin",
+        ItemCompatibility = "Dual Skana",
         Name = "Dual Skana Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -1566,6 +1714,7 @@ return {
         Image = "DualSkanaInfestedSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Swords/DualSkanaInfestedSkin",
         Link = "Dual Skana Infested Skin",
+        ItemCompatibility = "Dual Skana",
         Name = "Dual Skana Infested Skin",
         Type = "Weapon Skin"
     },
@@ -1576,6 +1725,7 @@ return {
         Image = "DualSwordLemnasSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/DualSword/DualRibbonKamasSkin",
         Link = "Dual Sword Lemnas Skin",
+        ItemCompatibility = "Dual Swords",
         Name = "Dual Sword Lemnas Skin",
         Type = "Weapon Skin"
     },
@@ -1586,6 +1736,7 @@ return {
         Image = "DualSwordsCyskisSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Axe/SarynDeluxeSickle",
         Link = "Dual Swords Cyskis Skin",
+        ItemCompatibility = "Dual Swords",
         Name = "Dual Swords Cyskis Skin",
         Type = "Weapon Skin"
     },
@@ -1596,6 +1747,7 @@ return {
         Image = "DualSwordsFrystaSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Deluxe/FrostDeluxeDualSword",
         Link = "Dual Swords Frysta Skin",
+        ItemCompatibility = "Dual Swords",
         Name = "Dual Swords Frysta Skin",
         Type = "Weapon Skin"
     },
@@ -1606,6 +1758,7 @@ return {
         Image = "DualSwordsLunaeusSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/LunarNewYear/LNYHookSword",
         Link = "Dual Swords Lunaeus Skin",
+        ItemCompatibility = "Dual Swords",
         Name = "Dual Swords Lunaeus Skin",
         Type = "Weapon Skin"
     },
@@ -1616,6 +1769,7 @@ return {
         Image = "DualSwordsNari&ValiSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Deluxe/LokiDeluxeDualKamas",
         Link = "Dual Swords Nari & Vali Skin",
+        ItemCompatibility = "Dual Swords",
         Name = "Dual Swords Nari & Vali Skin",
         Type = "Weapon Skin"
     },
@@ -1626,6 +1780,7 @@ return {
         Image = "DualSwordsStavikaSkin.png",
         InternalName = "/Lotus/Weapons/Tenno/Melee/AxeML/StavikaDualSwordSkin",
         Link = "Dual Swords Stavika Skin",
+        ItemCompatibility = "Dual Swords",
         Name = "Dual Swords Stavika Skin",
         Type = "Weapon Skin"
     },
@@ -1636,6 +1791,7 @@ return {
         Image = "DualZorenCombustionSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Contests/Melee/DualZorenCombustion",
         Link = "Dual Zoren Combustion Skin",
+        ItemCompatibility = "Dual Zoren",
         Name = "Dual Zoren Combustion Skin",
         Type = "Weapon Skin"
     },
@@ -1646,6 +1802,7 @@ return {
         Image = "DualZorenDagger-AxeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/DualAxe/DaggerAxe",
         Link = "Dual Zoren Dagger-Axe Skin",
+        ItemCompatibility = "Dual Zoren",
         Name = "Dual Zoren Dagger-Axe Skin",
         Type = "Weapon Skin"
     },
@@ -1657,6 +1814,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenDualZoren",
         Introduced = "10.5",
         Link = "Dual Zoren Day of the Dead Skin",
+        ItemCompatibility = "Dual Zoren",
         Name = "Dual Zoren Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -1668,6 +1826,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/GrineerForest/GrineerForestDualZoren",
         Introduced = "11.5",
         Link = "Dual Zoren Forest-Camo Skin",
+        ItemCompatibility = "Dual Zoren",
         Name = "Dual Zoren Forest-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -1678,6 +1837,7 @@ return {
         Image = "DualZorenKuberusSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Contests/Melee/DualZorenKuberus",
         Link = "Dual Zoren Kuberus Skin",
+        ItemCompatibility = "Dual Zoren",
         Name = "Dual Zoren Kuberus Skin",
         Type = "Weapon Skin"
     },
@@ -1688,6 +1848,7 @@ return {
         Image = "EinheriBalefireChargerSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/IronFrame/ShieldDeluxeBlastSkin",
         Link = "Einheri Balefire Charger Skin",
+        ItemCompatibility = "Balefire Charger",
         Name = "Einheri Balefire Charger Skin",
         Type = "Weapon Skin"
     },
@@ -1698,6 +1859,7 @@ return {
         Image = "EklypsaStaffSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Staff/SWEklypsaStaffSkin",
         Link = "Eklypsa Staff Skin",
+        ItemCompatibility = "Staff",
         Name = "Eklypsa Staff Skin",
         Type = "Weapon Skin"
     },
@@ -1708,6 +1870,7 @@ return {
         Image = "ElfameBowSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Deluxe/CalibanDeluxeBowSkin",
         Link = "Elfame Bow Skin",
+        ItemCompatibility = "Bow",
         Name = "Elfame Bow Skin",
         Type = "Weapon Skin"
     },
@@ -1718,6 +1881,7 @@ return {
         Image = "ElixisLatronPistolSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/VoidTrader/ElixisLatronPistol",
         Link = "Elixis Latron Pistol Skin",
+        ItemCompatibility = "Pistol",
         Name = "Elixis Latron Pistol Skin",
         Type = "Weapon Skin"
     },
@@ -1728,6 +1892,7 @@ return {
         Image = "EnlightenedHateSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Scythes/JadelightHate",
         Link = "Enlightened Hate Skin",
+        ItemCompatibility = "Hate",
         Name = "Enlightened Hate Skin",
         Type = "Weapon Skin"
     },
@@ -1739,6 +1904,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Nightwave/CosmosEpitaphSkin",
         Introduced = "38.6",
         Link = "Epitaph Raya Skin",
+        ItemCompatibility = "Epitaph",
         Name = "Epitaph Raya Skin",
         Type = "Weapon Skin"
     },
@@ -1749,6 +1915,7 @@ return {
         Image = "ErosArrowSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/ValentinesDay/ValentinesArrow",
         Link = "Eros Arrow Skin",
+        ItemCompatibility = "Arrow",
         Name = "Eros Arrow Skin",
         Type = "Weapon Skin"
     },
@@ -1760,6 +1927,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Grimoire/GrimoireEvilBaroSkin",
         Introduced = "40.0.4",
         Link = "Eskhatos Grimoire Skin",
+        ItemCompatibility = "Grimoire",
         Name = "Eskhatos Grimoire Skin",
         Type = "Weapon Skin"
     },
@@ -1771,6 +1939,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Necramech/MechWeapon/EvilBaroMausolonSkin",
         Introduced = "44.1.4",
         Link = "Eskhatos Mausolon Skin",
+        ItemCompatibility = "Mausolon",
         Name = "Eskhatos Mausolon Skin",
         Type = "Weapon Skin"
     },
@@ -1781,6 +1950,7 @@ return {
         Image = "EukarClawSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Nightwave/InfHeavyClawsSkin",
         Link = "Eukar Claw Skin",
+        ItemCompatibility = "Claws",
         Name = "Eukar Claw Skin",
         Type = "Weapon Skin"
     },
@@ -1792,6 +1962,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Dazzle/ShockExergisSkin",
         Introduced = "25.4.3",
         Link = "Exergis Shock-Camo Skin",
+        ItemCompatibility = "Exergis",
         Name = "Exergis Shock-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -1803,6 +1974,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Dazzle/ShockFalcorSkin",
         Introduced = "25.4.3",
         Link = "Falcor Shock-Camo Skin",
+        ItemCompatibility = "Falcor",
         Name = "Falcor Shock-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -1813,6 +1985,7 @@ return {
         Image = "FlamethrowerPlazmSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Ember/EmberDeluxeIIFlamethrowerSkin",
         Link = "Flamethrower Plazm Skin",
+        ItemCompatibility = "Ignis",
         Name = "Flamethrower Plazm Skin",
         Type = "Weapon Skin"
     },
@@ -1823,6 +1996,7 @@ return {
         Image = "FluctusRahkSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Events/ArchRocketCrossbowGrineer",
         Link = "Fluctus Rahk Skin",
+        ItemCompatibility = "Fluctus",
         Name = "Fluctus Rahk Skin",
         Type = "Weapon Skin"
     },
@@ -1834,6 +2008,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Dazzle/FluxRifleDazzleCamo",
         Introduced = "13",
         Link = "Flux Rifle Shock-Camo Skin",
+        ItemCompatibility = "Flux Rifle",
         Name = "Flux Rifle Shock-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -1844,6 +2019,7 @@ return {
         Image = "FragorBrokkSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Hammer/GrnHammer",
         Link = "Fragor Brokk Skin",
+        ItemCompatibility = "Fragor",
         Name = "Fragor Brokk Skin",
         Type = "Weapon Skin"
     },
@@ -1854,6 +2030,7 @@ return {
         Image = "FragorJadeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Microsoft/JadeFragor",
         Link = "Fragor Jade Skin",
+        ItemCompatibility = "Fragor",
         Name = "Fragor Jade Skin",
         Type = "Weapon Skin"
     },
@@ -1864,6 +2041,7 @@ return {
         Image = "FragorOpalSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Hammers/NintendoFragor",
         Link = "Fragor Opal Skin",
+        ItemCompatibility = "Fragor",
         Name = "Fragor Opal Skin",
         Type = "Weapon Skin"
     },
@@ -1874,6 +2052,7 @@ return {
         Image = "FragorTekeluSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Ornate/TekeluFragorSkin",
         Link = "Fragor Tekelu Skin",
+        ItemCompatibility = "Fragor",
         Name = "Fragor Tekelu Skin",
         Type = "Weapon Skin"
     },
@@ -1884,6 +2063,7 @@ return {
         Image = "FreedomFlamethrowerSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/CaliberChicks/CaliberChicksIgnisSkin",
         Link = "Freedom Flamethrower Skin",
+        ItemCompatibility = "Ignis",
         Name = "Freedom Flamethrower Skin",
         Type = "Weapon Skin"
     },
@@ -1894,6 +2074,7 @@ return {
         Image = "FulminSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Seasonal/TennobaumFulminSkin",
         Link = "Fulmin Solstice Skin",
+        ItemCompatibility = "Fulmin",
         Name = "Fulmin Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -1904,6 +2085,7 @@ return {
         Image = "FuraxConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Melee/PvPFurax",
         Link = "Furax Conclave Skin",
+        ItemCompatibility = "Furax",
         Name = "Furax Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -1915,6 +2097,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/GrineerForest/GrineerForestFuris",
         Introduced = "11.5",
         Link = "Furis Forest-Camo Skin",
+        ItemCompatibility = "Furis",
         Name = "Furis Forest-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -1925,6 +2108,7 @@ return {
         Image = "FurisVervSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Twitch/Twitch2021FurisSkin",
         Link = "Furis Verv Skin",
+        ItemCompatibility = "Furis",
         Name = "Furis Verv Skin",
         Type = "Weapon Skin"
     },
@@ -1935,6 +2119,7 @@ return {
         Image = "GafornSwordandShieldSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Duviri/DuviriSwordTowerShieldSkin",
         Link = "Gaforn Sword and Shield Skin",
+        ItemCompatibility = "Sword and Shield",
         Name = "Gaforn Sword and Shield Skin",
         Type = "Weapon Skin"
     },
@@ -1945,6 +2130,7 @@ return {
         Image = "GALATINEBRONZESKIN.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/ChangYou/CYRubedoGalatineCamo",
         Link = "GALATINE BRONZE SKIN",
+        ItemCompatibility = "Galatine",
         Name = "GALATINE BRONZE SKIN",
         Type = "Weapon Skin"
     },
@@ -1955,6 +2141,7 @@ return {
         Image = "GalatineClaymireSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Swords/GalatineClaymireSkin",
         Link = "Galatine Claymire Skin",
+        ItemCompatibility = "Galatine",
         Name = "Galatine Claymire Skin",
         Type = "Weapon Skin"
     },
@@ -1966,6 +2153,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenGalatine",
         Introduced = "17.9",
         Link = "Galatine Day of the Dead Skin",
+        ItemCompatibility = "Galatine",
         Name = "Galatine Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -1976,6 +2164,7 @@ return {
         Image = "GalatineMagestySkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/GreatSwords/SWMagestyGalatineSkin",
         Link = "Galatine Magesty Skin",
+        ItemCompatibility = "Galatine",
         Name = "Galatine Magesty Skin",
         Type = "Weapon Skin"
     },
@@ -1986,6 +2175,7 @@ return {
         Image = "GalatineObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/ObsidianGalatine",
         Link = "Galatine Obsidian Skin",
+        ItemCompatibility = "Galatine",
         Name = "Galatine Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -1996,6 +2186,7 @@ return {
         Image = "GalatineRubedoPlatedSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/ReferralSeriesTwo/RubedoGalatineCamo",
         Link = "Galatine Rubedo Plated Skin",
+        ItemCompatibility = "Galatine",
         Name = "Galatine Rubedo Plated Skin",
         Type = "Weapon Skin"
     },
@@ -2006,6 +2197,7 @@ return {
         Image = "GalatineSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/WinterSolstice/SolsticeGalatineSkin",
         Link = "Galatine Solstice Skin",
+        ItemCompatibility = "Galatine",
         Name = "Galatine Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -2017,6 +2209,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Ornate/OrnateGalatine",
         Introduced = "SotR 1.0",
         Link = "Galatine Tekelu Skin",
+        ItemCompatibility = "Galatine",
         Name = "Galatine Tekelu Skin",
         Type = "Weapon Skin"
     },
@@ -2028,6 +2221,7 @@ return {
 	    InternalName = "/Lotus/Upgrades/Skins/Pagemaster/PagemasterDeluxeWarfanSkin",
 	    Introduced = "43",
 	    Link = "Gallistrix Warfan Skin",
+	    ItemCompatibility = "Warfan",
 	    Name = "Gallistrix Warfan Skin",
 	    Type = "Weapon Skin"
 	},
@@ -2039,6 +2233,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Promo/Seasonal/Halloween2023DOTDGammacorSkin",
         Introduced = "30.8",
         Link = "Gammacor Day of the Dead Skin",
+        ItemCompatibility = "Gammacor",
         Name = "Gammacor Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -2050,6 +2245,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Promo/Seasonal/Halloween2023SOULGammacorSkin",
         Introduced = "34.0",
         Link = "Gammacor Day of the Dead Skin II",
+        ItemCompatibility = "Gammacor",
         Name = "Gammacor Day of the Dead Skin II",
         Type = "Weapon Skin"
     },
@@ -2060,6 +2256,7 @@ return {
         Image = "GammacorSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/WinterSolstice/WinterSolsticeGammacorSkin",
         Link = "Gammacor Solstice Skin",
+        ItemCompatibility = "Gammacor",
         Name = "Gammacor Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -2070,6 +2267,7 @@ return {
         Image = "GlaiveBoomieSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SolarisUnited/SUVentkidsBoomerang",
         Link = "Glaive Boomie Skin",
+        ItemCompatibility = "Glaive (Weapon Type)",
         Name = "Glaive Boomie Skin",
         Type = "Weapon Skin"
     },
@@ -2080,6 +2278,7 @@ return {
         Image = "GlaiveConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Melee/PvPGlaive",
         Link = "Glaive Conclave Skin",
+        ItemCompatibility = "Glaive",
         Name = "Glaive Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -2091,6 +2290,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenGlaive",
         Introduced = "10.5",
         Link = "Glaive Day of the Dead Skin",
+        ItemCompatibility = "Glaive",
         Name = "Glaive Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -2102,6 +2302,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Nightwave/DayBreakGlaiveSkin",
         Introduced = "35.6",
         Link = "Glaive Daybreak Skin",
+        ItemCompatibility = "Glaive",
         Name = "Glaive Daybreak Skin",
         Type = "Weapon Skin"
     },
@@ -2112,6 +2313,7 @@ return {
         Image = "GlaiveObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/ObsidianGlaive",
         Link = "Glaive Obsidian Skin",
+        ItemCompatibility = "Glaive",
         Name = "Glaive Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -2122,6 +2324,7 @@ return {
         Image = "GlaiveProtoSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Warframe/ProtoGlaive",
         Link = "Glaive Proto Skin",
+        ItemCompatibility = "Glaive (Weapon Type)",
         Name = "Glaive Proto Skin",
         Type = "Weapon Skin"
     },
@@ -2133,6 +2336,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Ornate/TekeluGlaiveSkin",
         Introduced = "25.4.1",
         Link = "Glaive Tekelu Skin",
+        ItemCompatibility = "Glaive",
         Name = "Glaive Tekelu Skin",
         Type = "Weapon Skin"
     },
@@ -2144,6 +2348,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenGlaxion",
         Introduced = "15.0.5",
         Link = "Glaxion Day of the Dead Skin",
+        ItemCompatibility = "Glaxion",
         Name = "Glaxion Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -2154,6 +2359,7 @@ return {
         Image = "GlaxionFestiveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Festivities/XmasGlaxion",
         Link = "Glaxion Festive Skin",
+        ItemCompatibility = "Glaxion",
         Name = "Glaxion Festive Skin",
         Type = "Weapon Skin"
     },
@@ -2164,6 +2370,7 @@ return {
         Image = "GlaxionPolarSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Events/GlaxionPolar",
         Link = "Glaxion Polar Skin",
+        ItemCompatibility = "Glaxion",
         Name = "Glaxion Polar Skin",
         Type = "Weapon Skin"
     },
@@ -2174,6 +2381,7 @@ return {
         Image = "GorgonConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/LongGuns/PvPGorgon",
         Link = "Gorgon Conclave Skin",
+        ItemCompatibility = "Gorgon",
         Name = "Gorgon Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -2185,6 +2393,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenGorgon",
         Introduced = "10.5",
         Link = "Gorgon Day of the Dead Skin",
+        ItemCompatibility = "Gorgon",
         Name = "Gorgon Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -2196,6 +2405,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Camo/GorgonCamo",
         Introduced = "9.5",
         Link = "Gorgon Desert-Camo Skin",
+        ItemCompatibility = "Gorgon",
         Name = "Gorgon Desert-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -2206,6 +2416,7 @@ return {
         Image = "GorgonObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/ObsidianGorgon",
         Link = "Gorgon Obsidian Skin",
+        ItemCompatibility = "Gorgon",
         Name = "Gorgon Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -2217,6 +2428,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/SummerSolstice/SummerSolsticeGorgon",
         Introduced = "23.0.7",
         Link = "Gorgon Towsun Skin",
+        ItemCompatibility = "Gorgon",
         Name = "Gorgon Towsun Skin",
         Type = "Weapon Skin"
     },
@@ -2228,6 +2440,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenGrakata",
         Introduced = "RN",
         Link = "Grakata Day of the Dead Skin",
+        ItemCompatibility = "Grakata",
         Name = "Grakata Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -2239,6 +2452,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Camo/GrakataCamo",
         Introduced = "9.5",
         Link = "Grakata Desert-Camo Skin",
+        ItemCompatibility = "Grakata",
         Name = "Grakata Desert-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -2249,6 +2463,7 @@ return {
         Image = "GrakataJadeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Microsoft/JadeGrakata",
         Link = "Grakata Jade Skin",
+        ItemCompatibility = "Grakata",
         Name = "Grakata Jade Skin",
         Type = "Weapon Skin"
     },
@@ -2260,6 +2475,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/SummerSolstice/SummerSolsticeGrakata",
         Introduced = "21.0.2",
         Link = "Grakata Towsun Skin",
+        ItemCompatibility = "Grakata",
         Name = "Grakata Towsun Skin",
         Type = "Weapon Skin"
     },
@@ -2271,6 +2487,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenGram",
         Introduced = "29.2.4",
         Link = "Gram Day of the Dead Skin",
+        ItemCompatibility = "Gram",
         Name = "Gram Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -2281,6 +2498,7 @@ return {
         Image = "GramSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Seasonal/TennobaumGramSkin",
         Link = "Gram Solstice Skin",
+        ItemCompatibility = "Gram",
         Name = "Gram Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -2291,6 +2509,7 @@ return {
         Image = "GrattlerObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/ObsidianGrattler",
         Link = "Grattler Obsidian Skin",
+        ItemCompatibility = "Grattler",
         Name = "Grattler Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -2302,6 +2521,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenTwinGremlins",
         Introduced = "10.5",
         Link = "Gremlins Day of the Dead Skin",
+        ItemCompatibility = "Twin Gremlins",
         Name = "Gremlins Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -2313,6 +2533,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Camo/GrnAkimboPistolsCamo",
         Introduced = "9.5",
         Link = "Gremlins Desert-Camo Skin",
+        ItemCompatibility = "Twin Gremlins",
         Name = "Gremlins Desert-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -2324,6 +2545,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Grimoire/Halloween2024GrimoireSkin",
         Introduced = "37.0",
         Link = "Grimoire Day of the Dead Skin",
+        ItemCompatibility = "Grimoire",
         Name = "Grimoire Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -2334,6 +2556,7 @@ return {
         Image = "GrinlokConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/LongGuns/PvPGrinlok",
         Link = "Grinlok Conclave Skin",
+        ItemCompatibility = "Grinlok",
         Name = "Grinlok Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -2345,6 +2568,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenGrinlok",
         Introduced = "15.0.5",
         Link = "Grinlok Day of the Dead Skin",
+        ItemCompatibility = "Grinlok",
         Name = "Grinlok Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -2356,6 +2580,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Camo/DesertGrinlokSkin",
         Introduced = "24.3",
         Link = "Grinlok Desert-Camo Skin",
+        ItemCompatibility = "Grinlok",
         Name = "Grinlok Desert-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -2367,6 +2592,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Harkonar/HarkonarGLARifle",
         Introduced = "19.12",
         Link = "Grinlok Harkonar Skin",
+        ItemCompatibility = "Grinlok",
         Name = "Grinlok Harkonar Skin",
         Type = "Weapon Skin"
     },
@@ -2378,6 +2604,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Nightwatch/NightwatchGrinlok",
         Introduced = "Hotfix: The Silver Grove 4",
         Link = "Grinlok Nightwatch Skin",
+        ItemCompatibility = "Grinlok",
         Name = "Grinlok Nightwatch Skin",
         Type = "Weapon Skin"
     },
@@ -2388,6 +2615,7 @@ return {
         Image = "GuandaoOpalSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Guandao/NintendoGaundaoSkin",
         Link = "Guandao Opal Skin",
+        ItemCompatibility = "Guandao",
         Name = "Guandao Opal Skin",
         Type = "Weapon Skin"
     },
@@ -2398,6 +2626,7 @@ return {
         Image = "GuandaoSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/WinterSolstice/SolsticeGaundaoSkin",
         Link = "Guandao Solstice Skin",
+        ItemCompatibility = "Guandao",
         Name = "Guandao Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -2409,6 +2638,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/CephWepSkins/CephGaundaoSkin",
         Introduced = "27.5",
         Link = "Guandao Synoid Skin",
+        ItemCompatibility = "Guandao",
         Name = "Guandao Synoid Skin",
         Type = "Weapon Skin"
     },
@@ -2420,6 +2650,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Ornate/TekeluGunsenSkin",
         Introduced = "25.4.1",
         Link = "Gunsen Tekelu Skin",
+        ItemCompatibility = "Gunsen",
         Name = "Gunsen Tekelu Skin",
         Type = "Weapon Skin"
     },
@@ -2430,6 +2661,7 @@ return {
         Image = "HammerAxonnakSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Hammer/SWAxonnakHammerSkin",
         Link = "Hammer Axonnak Skin",
+        ItemCompatibility = "Hammer",
         Name = "Hammer Axonnak Skin",
         Type = "Weapon Skin"
     },
@@ -2440,6 +2672,7 @@ return {
         Image = "HammerOgunSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Polearms/SWJatKittagOgunSkin",
         Link = "Hammer Ogun Skin",
+        ItemCompatibility = "Hammer",
         Name = "Hammer Ogun Skin",
         Type = "Weapon Skin"
     },
@@ -2450,6 +2683,7 @@ return {
         Image = "HammersPalatineSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Hammer/RhinoDeluxeHammer",
         Link = "Hammers Palatine Skin",
+        ItemCompatibility = "Hammer",
         Name = "Hammers Palatine Skin",
         Type = "Weapon Skin"
     },
@@ -2460,6 +2694,7 @@ return {
         Image = "HarmattSparringSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Pacifist/BaruukDeluxeSparring",
         Link = "Harmatt Sparring Skin",
+        ItemCompatibility = "Sparring",
         Name = "Harmatt Sparring Skin",
         Type = "Weapon Skin"
     },
@@ -2470,6 +2705,7 @@ return {
         Image = "HarrowSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Priest/PriestSkin",
         Link = "Harrow Skin",
+        ItemCompatibility = "Harrow",
         Name = "Harrow Skin",
         Type = "Weapon Skin"
     },
@@ -2481,6 +2717,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/Halloween2024DOTDHateSkin",
         Introduced = "37.0",
         Link = "Hate Day of the Dead Skin",
+        ItemCompatibility = "Hate",
         Name = "Hate Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -2491,6 +2728,7 @@ return {
         Image = "HawthDiwataSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Fairy/TitaniaDeluxeIIArchwingSwordSkin",
         Link = "Hawth Diwata Skin",
+        ItemCompatibility = "Diwata",
         Name = "Hawth Diwata Skin",
         Type = "Weapon Skin"
     },
@@ -2502,6 +2740,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/GrineerForest/GrineerForestHeatDagger",
         Introduced = "11.5",
         Link = "Heat Dagger Forest-Camo Skin",
+        ItemCompatibility = "Heat Dagger",
         Name = "Heat Dagger Forest-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -2512,6 +2751,7 @@ return {
         Image = "HeatDaggerJadeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Microsoft/JadeHeatDagger",
         Link = "Heat Dagger Jade Skin",
+        ItemCompatibility = "Heat Dagger",
         Name = "Heat Dagger Jade Skin",
         Type = "Weapon Skin"
     },
@@ -2523,6 +2763,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/GrineerForest/GrineerForestHeatSword",
         Introduced = "11.5",
         Link = "Heat Sword Forest-Camo Skin",
+        ItemCompatibility = "Heat Sword",
         Name = "Heat Sword Forest-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -2533,6 +2774,7 @@ return {
         Image = "HeatSwordJadeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Microsoft/JadeHeatSword",
         Link = "Heat Sword Jade Skin",
+        ItemCompatibility = "Heat Sword",
         Name = "Heat Sword Jade Skin",
         Type = "Weapon Skin"
     },
@@ -2543,6 +2785,7 @@ return {
         Image = "HeavyBladeArashiSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/GreatSwords/SWArashiGreatswordSkin",
         Link = "Heavy Blade Arashi Skin",
+        ItemCompatibility = "Heavy Blade",
         Name = "Heavy Blade Arashi Skin",
         Type = "Weapon Skin"
     },
@@ -2553,6 +2796,7 @@ return {
         Image = "HeavyBladeDogmaSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/GreatSwords/SWDogmaHeavyBladeSkin",
         Link = "Heavy Blade Dogma Skin",
+        ItemCompatibility = "Heavy Blade",
         Name = "Heavy Blade Dogma Skin",
         Type = "Weapon Skin"
     },
@@ -2563,6 +2807,7 @@ return {
         Image = "HeavyBladeDominionSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Deluxe/ChromaDeluxeSword",
         Link = "Heavy Blade Dominion Skin",
+        ItemCompatibility = "Heavy Blade",
         Name = "Heavy Blade Dominion Skin",
         Type = "Weapon Skin"
     },
@@ -2573,6 +2818,7 @@ return {
         Image = "HeavyBladeGrimstoneCleaverSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/GreatSword/SWGrimstoneCleaver",
         Link = "Heavy Blade Grimstone Cleaver Skin",
+        ItemCompatibility = "Heavy Blade",
         Name = "Heavy Blade Grimstone Cleaver Skin",
         Type = "Weapon Skin"
     },
@@ -2583,6 +2829,7 @@ return {
         Image = "HeavyBladeIonSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/GreatSwords/SWIonGreatswordSkin",
         Link = "Heavy Blade Ion Skin",
+        ItemCompatibility = "Heavy Blade",
         Name = "Heavy Blade Ion Skin",
         Type = "Weapon Skin"
     },
@@ -2593,6 +2840,7 @@ return {
         Image = "HeavyBladeKarv'rSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/GreatSwords/SWKarvrGreatswordSkin",
         Link = "Heavy Blade Karv'r Skin",
+        ItemCompatibility = "Heavy Blade",
         Name = "Heavy Blade Karv'r Skin",
         Type = "Weapon Skin"
     },
@@ -2603,6 +2851,7 @@ return {
         Image = "HeavyBladeKilzorathSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/GreatSwords/SWKilzorathGreatswordSkin",
         Link = "Heavy Blade Kilzorath Skin",
+        ItemCompatibility = "Heavy Blade",
         Name = "Heavy Blade Kilzorath Skin",
         Type = "Weapon Skin"
     },
@@ -2613,6 +2862,7 @@ return {
         Image = "HeavyBladeKuvaelXimitotixSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/GreatSwords/SWKuvaelXimitotixHeavyBladeSkin",
         Link = "Heavy Blade Kuvael Ximitotix Skin",
+        ItemCompatibility = "Heavy Blade",
         Name = "Heavy Blade Kuvael Ximitotix Skin",
         Type = "Weapon Skin"
     },
@@ -2623,6 +2873,7 @@ return {
         Image = "HeavyBladeMithraSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/GreatSwords/SWMithraGreatswordSkin",
         Link = "Heavy Blade Mithra Skin",
+        ItemCompatibility = "Heavy Blade",
         Name = "Heavy Blade Mithra Skin",
         Type = "Weapon Skin"
     },
@@ -2633,6 +2884,7 @@ return {
         Image = "HeavyBladeMizarSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/GreatSwords/SWMizarGreatswordSkin",
         Link = "Heavy Blade Mizar Skin",
+        ItemCompatibility = "Heavy Blade",
         Name = "Heavy Blade Mizar Skin",
         Type = "Weapon Skin"
     },
@@ -2643,6 +2895,7 @@ return {
         Image = "HeavyBladeObanakkSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/GreatSword/SWObanakk",
         Link = "Heavy Blade Obanakk Skin",
+        ItemCompatibility = "Heavy Blade",
         Name = "Heavy Blade Obanakk Skin",
         Type = "Weapon Skin"
     },
@@ -2653,6 +2906,7 @@ return {
         Image = "HeavyBladeSupremaSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/GreatSwords/SWSupremaGreatswordSkin",
         Link = "Heavy Blade Suprema Skin",
+        ItemCompatibility = "Heavy Blade",
         Name = "Heavy Blade Suprema Skin",
         Type = "Weapon Skin"
     },
@@ -2663,6 +2917,7 @@ return {
         Image = "HeavyBladeTengokenSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/GreatSwords/SWTengokenGreatswordSkin",
         Link = "Heavy Blade Tengoken Skin",
+        ItemCompatibility = "Heavy Blade",
         Name = "Heavy Blade Tengoken Skin",
         Type = "Weapon Skin"
     },
@@ -2673,6 +2928,7 @@ return {
         Image = "HecatonShotgunSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Deluxe/NyxDeluxeShotgunSkin",
         Link = "Hecaton Shotgun Skin",
+        ItemCompatibility = "Shotgun",
         Name = "Hecaton Shotgun Skin",
         Type = "Weapon Skin"
     },
@@ -2684,6 +2940,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Camo/DesertHekSkin",
         Introduced = "24.3",
         Link = "Hek Desert-Camo Skin",
+        ItemCompatibility = "Hek",
         Name = "Hek Desert-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -2694,6 +2951,7 @@ return {
         Image = "HekObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/ObsidianHek",
         Link = "Hek Obsidian Skin",
+        ItemCompatibility = "Hek",
         Name = "Hek Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -2704,6 +2962,7 @@ return {
         Image = "HeliocorSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Hammer/SolsticeHeliocor",
         Link = "Heliocor Solstice Skin",
+        ItemCompatibility = "Heliocor",
         Name = "Heliocor Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -2715,6 +2974,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/LunarNewYear/CNY2025ScytheSkin",
         Introduced = "38.0.7",
         Link = "Hespar Lunaeus Skin",
+        ItemCompatibility = "Hespar",
         Name = "Hespar Lunaeus Skin",
         Type = "Weapon Skin"
     },
@@ -2725,6 +2985,7 @@ return {
         Image = "HeurisPolearmSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Nightwave/CephPolearmSkin",
         Link = "Heuris Polearm Skin",
+        ItemCompatibility = "Polearm",
         Name = "Heuris Polearm Skin",
         Type = "Weapon Skin"
     },
@@ -2735,6 +2996,7 @@ return {
         Image = "IahgamesBratonSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/IAHGames/IAHGamesBratonSkin",
         Link = "Iahgames Braton",
+        ItemCompatibility = "Braton",
         Name = "Iahgames Braton",
         Type = "Weapon Skin"
     },
@@ -2746,6 +3008,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/Halloween2024DOTDIgnisSkin",
         Introduced = "37.0",
         Link = "Ignis Day of the Dead Skin",
+        ItemCompatibility = "Ignis",
         Name = "Ignis Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -2756,6 +3019,7 @@ return {
         Image = "IgnisSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/WinterSolstice/SolsticeIgnisSkin",
         Link = "Ignis Solstice Skin",
+        ItemCompatibility = "Ignis",
         Name = "Ignis Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -2767,6 +3031,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/SummerSolstice/SummerIgnisSkin",
         Introduced = "25.2.2",
         Link = "Ignis Towsun Skin",
+        ItemCompatibility = "Ignis",
         Name = "Ignis Towsun Skin",
         Type = "Weapon Skin"
     },
@@ -2777,6 +3042,7 @@ return {
     	Image = "IltisHeavyBladeSkin.png",
     	InternalName = "/Lotus/Upgrades/Skins/Werewolf/VorunaDeluxeAxeSkin",
     	Link = "Iltis Heavy Blade Skin",
+    	ItemCompatibility = "Heavy Blade",
     	Name = "Iltis Heavy Blade Skin",
     	Type = "Weapon Skin",
     },
@@ -2787,6 +3053,7 @@ return {
         Image = "ImpaktorFistSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Berserker/SWImpaktorFistsSkin",
         Link = "Impaktor Fist Skin",
+        ItemCompatibility = "Fist",
         Name = "Impaktor Fist Skin",
         Type = "Weapon Skin"
     },
@@ -2798,6 +3065,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenImperator",
         Introduced = "17.9",
         Link = "Imperator Day of the Dead Skin",
+        ItemCompatibility = "Imperator",
         Name = "Imperator Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -2809,6 +3077,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Ornate/OrnateImperator",
         Introduced = "SotR 1.0",
         Link = "Imperator Tekelu Skin",
+        ItemCompatibility = "Imperator",
         Name = "Imperator Tekelu Skin",
         Type = "Weapon Skin"
     },
@@ -2819,6 +3088,7 @@ return {
         Image = "IvaraObsidianArtemisBowSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Archer/ObsidianIvaraExaltedBowSkin",
         Link = "Ivara Obsidian Artemis Bow Skin",
+        ItemCompatibility = "Artemis Bow",
         Name = "Ivara Obsidian Artemis Bow Skin",
         Type = "Weapon Skin"
     },
@@ -2829,6 +3099,7 @@ return {
         Image = "IvaraSkathiArtemisBowSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Deluxe/IvaraDeluxeBowSkin",
         Link = "Ivara Skathi Artemis Bow Skin",
+        ItemCompatibility = "Artemis Bow",
         Name = "Ivara Skathi Artemis Bow Skin",
         Type = "Weapon Skin"
     },
@@ -2839,6 +3110,7 @@ return {
         Image = "JatKittagConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Melee/PvPJatKittag",
         Link = "Jat Kittag Conclave Skin",
+        ItemCompatibility = "Jat Kittag",
         Name = "Jat Kittag Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -2850,6 +3122,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenJatKittag",
         Introduced = "15.0.5",
         Link = "Jat Kittag Day of the Dead Skin",
+        ItemCompatibility = "Jat Kittag",
         Name = "Jat Kittag Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -2861,6 +3134,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Nightwatch/NightwatchJatKittag",
         Introduced = "Hotfix: The Silver Grove 4",
         Link = "Jat Kittag Nightwatch Skin",
+        ItemCompatibility = "Jat Kittag",
         Name = "Jat Kittag Nightwatch Skin",
         Type = "Weapon Skin"
     },
@@ -2871,6 +3145,7 @@ return {
         Image = "JatKittagNoxiousHammerSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Polearms/JatKittagNoxiousHammerSkin",
         Link = "Jat Kittag Noxious Hammer Skin",
+        ItemCompatibility = "Jat Kittag",
         Name = "Jat Kittag Noxious Hammer Skin",
         Type = "Weapon Skin"
     },
@@ -2882,6 +3157,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Harkonar/HarkonarGrnFlameSpear",
         Introduced = "19.12",
         Link = "Javlok Harkonar Skin",
+        ItemCompatibility = "Javlok",
         Name = "Javlok Harkonar Skin",
         Type = "Weapon Skin"
     },
@@ -2892,6 +3168,7 @@ return {
         Image = "JusticeRifleSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/CaliberChicks/CaliberChicksBratonSkin",
         Link = "Justice Rifle Skin",
+        ItemCompatibility = "Rifle",
         Name = "Justice Rifle Skin",
         Type = "Weapon Skin"
     },
@@ -2902,6 +3179,7 @@ return {
         Image = "KamaJadeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Microsoft/JadeKama",
         Link = "Kama Jade Skin",
+        ItemCompatibility = "Kama",
         Name = "Kama Jade Skin",
         Type = "Weapon Skin"
     },
@@ -2912,6 +3190,7 @@ return {
         Image = "KarakConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/LongGuns/PvPKarak",
         Link = "Karak Conclave Skin",
+        ItemCompatibility = "Karak",
         Name = "Karak Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -2923,6 +3202,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Camo/DesertKarakSkin",
         Introduced = "24.3",
         Link = "Karak Desert-Camo Skin",
+        ItemCompatibility = "Karak",
         Name = "Karak Desert-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -2934,6 +3214,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/SummerSolstice/SummerSolsticeKesheg",
         Introduced = "20.7.3",
         Link = "Kesheg Towsun Skin",
+        ItemCompatibility = "Kesheg",
         Name = "Kesheg Towsun Skin",
         Type = "Weapon Skin"
     },
@@ -2944,6 +3225,7 @@ return {
         Image = "Ki'TeerArrowSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/VoidTrader/BaroArrow",
         Link = "Ki'Teer Arrow Skin",
+        ItemCompatibility = "Arrow",
         Name = "Ki'Teer Arrow Skin",
         Type = "Weapon Skin"
     },
@@ -2954,6 +3236,7 @@ return {
         Image = "KludgekilMacheteSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Machete/GrnGunStockClubSkin",
         Link = "Kludgekil Machete Skin",
+        ItemCompatibility = "Machete",
         Name = "Kludgekil Machete Skin",
         Type = "Weapon Skin"
     },
@@ -2965,6 +3248,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Harkonar/HarkonarGrnSpark",
         Introduced = "19.12",
         Link = "Kohm Harkonar Skin",
+        ItemCompatibility = "Kohm",
         Name = "Kohm Harkonar Skin",
         Type = "Weapon Skin"
     },
@@ -2975,6 +3259,7 @@ return {
         Image = "KrakenConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Pistols/PvPKraken",
         Link = "Kraken Conclave Skin",
+        ItemCompatibility = "Kraken",
         Name = "Kraken Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -2986,6 +3271,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Camo/KrackenCamo",
         Introduced = "9.5",
         Link = "Kraken Desert-Camo Skin",
+        ItemCompatibility = "Kraken",
         Name = "Kraken Desert-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -2996,6 +3282,7 @@ return {
         Image = "KronenAritSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Tonfa/SWRThreeKronenAritSkin",
         Link = "Kronen Arit Skin",
+        ItemCompatibility = "Kronen",
         Name = "Kronen Arit Skin",
         Type = "Weapon Skin"
     },
@@ -3006,6 +3293,7 @@ return {
         Image = "KronenConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Melee/PvPKronen",
         Link = "Kronen Conclave Skin",
+        ItemCompatibility = "Kronen",
         Name = "Kronen Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -3017,6 +3305,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenKronen",
         Introduced = "15.0.5",
         Link = "Kronen Day of the Dead Skin",
+        ItemCompatibility = "Kronen",
         Name = "Kronen Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -3027,6 +3316,7 @@ return {
         Image = "KronenIridosSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Tonfa/KronenTwitchSkin",
         Link = "Kronen Iridos Skin",
+        ItemCompatibility = "Kronen",
         Name = "Kronen Iridos Skin",
         Type = "Weapon Skin"
     },
@@ -3038,6 +3328,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenKunai",
         Introduced = "17.9",
         Link = "Kunai Day of the Dead Skin",
+        ItemCompatibility = "Kunai",
         Name = "Kunai Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -3049,6 +3340,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Kintsukuroi/KintsukuroiKunai",
         Introduced = "19.10",
         Link = "Kunai Kintsugi Skin",
+        ItemCompatibility = "Kunai",
         Name = "Kunai Kintsugi Skin",
         Type = "Weapon Skin"
     },
@@ -3060,6 +3352,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Starry/StarryKunai",
         Introduced = "19.10",
         Link = "Kunai Nocturne Skin",
+        ItemCompatibility = "Kunai",
         Name = "Kunai Nocturne Skin",
         Type = "Weapon Skin"
     },
@@ -3070,6 +3363,7 @@ return {
         Image = "KyndrynGunbladeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Redeemer/TnSpikeGunbladeSkin",
         Link = "Kyndryn Gunblade Skin",
+        ItemCompatibility = "Gunblade",
         Name = "Kyndryn Gunblade Skin",
         Type = "Weapon Skin"
     },
@@ -3080,6 +3374,7 @@ return {
         Image = "LaceraScornSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Events/AcolyteStalkerMios",
         Link = "Lacera Scorn Skin",
+        ItemCompatibility = "Lacera",
         Name = "Lacera Scorn Skin",
         Type = "Weapon Skin"
     },
@@ -3091,6 +3386,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Dazzle/LankaDazzleCamo",
         Introduced = "13",
         Link = "Lanka Shock-Camo Skin",
+        ItemCompatibility = "Lanka",
         Name = "Lanka Shock-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -3101,6 +3397,7 @@ return {
         Image = "LatoConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Pistols/PvPLato",
         Link = "Lato Conclave Skin",
+        ItemCompatibility = "Lato",
         Name = "Lato Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -3112,6 +3409,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenLato",
         Introduced = "10.5",
         Link = "Lato Day of the Dead Skin",
+        ItemCompatibility = "Lato",
         Name = "Lato Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -3123,6 +3421,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Kintsukuroi/KintsukuroiLato",
         Introduced = "19.10",
         Link = "Lato Kintsugi Skin",
+        ItemCompatibility = "Lato",
         Name = "Lato Kintsugi Skin",
         Type = "Weapon Skin"
     },
@@ -3134,6 +3433,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Starry/StarryLato",
         Introduced = "19.10",
         Link = "Lato Nocturne Skin",
+        ItemCompatibility = "Lato",
         Name = "Lato Nocturne Skin",
         Type = "Weapon Skin"
     },
@@ -3144,6 +3444,7 @@ return {
         Image = "LatoObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/PS4Lato",
         Link = "Lato Obsidian Skin",
+        ItemCompatibility = "Lato",
         Name = "Lato Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -3154,6 +3455,7 @@ return {
         Image = "LatoOpalSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Nintendo/NintendoSemiAutoSkin",
         Link = "Lato Opal Skin",
+        ItemCompatibility = "Lato",
         Name = "Lato Opal Skin",
         Type = "Weapon Skin"
     },
@@ -3164,6 +3466,7 @@ return {
         Image = "LatronConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/LongGuns/PvPLatron",
         Link = "Latron Conclave Skin",
+        ItemCompatibility = "Latron",
         Name = "Latron Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -3174,6 +3477,7 @@ return {
         Image = "LatronJadeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Microsoft/JadeLatron",
         Link = "Latron Jade Skin",
+        ItemCompatibility = "Latron",
         Name = "Latron Jade Skin",
         Type = "Weapon Skin"
     },
@@ -3184,6 +3488,7 @@ return {
         Image = "LatronSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/WinterSolstice/WinterSolsticeLatron",
         Link = "Latron Solstice Skin",
+        ItemCompatibility = "Latron",
         Name = "Latron Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -3195,6 +3500,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Dazzle/LectaDazzleCamo",
         Introduced = "13",
         Link = "Lecta Shock-Camo Skin",
+        ItemCompatibility = "Lecta",
         Name = "Lecta Shock-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -3205,6 +3511,7 @@ return {
         Image = "LemnasStaffSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Staff/TnRibbonStaffSkin",
         Link = "Lemnas Staff Skin",
+        ItemCompatibility = "Staff",
         Name = "Lemnas Staff Skin",
         Type = "Weapon Skin"
     },
@@ -3215,6 +3522,7 @@ return {
         Image = "LenzSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/WinterSolstice/SolsticeLenzSkin",
         Link = "Lenz Solstice Skin",
+        ItemCompatibility = "Lenz",
         Name = "Lenz Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -3225,6 +3533,7 @@ return {
         Image = "LexConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Pistols/PvPLex",
         Link = "Lex Conclave Skin",
+        ItemCompatibility = "Lex",
         Name = "Lex Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -3235,6 +3544,7 @@ return {
         Image = "LexOnyxSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamEsteem/EsteemLex",
         Link = "Lex Onyx Skin",
+        ItemCompatibility = "Lex",
         Name = "Lex Onyx Skin",
         Type = "Weapon Skin"
     },
@@ -3245,6 +3555,7 @@ return {
         Image = "LongswordAritSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Swords/SWAritSkanaSkin",
         Link = "Longsword Arit Skin",
+        ItemCompatibility = "Sword",
         Name = "Longsword Arit Skin",
         Type = "Weapon Skin"
     },
@@ -3255,6 +3566,7 @@ return {
         Image = "LongswordDeroSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Swords/SWDeroSwordSkin",
         Link = "Longsword Dero Skin",
+        ItemCompatibility = "Sword",
         Name = "Longsword Dero Skin",
         Type = "Weapon Skin"
     },
@@ -3265,6 +3577,7 @@ return {
         Image = "LongswordEisenSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Swords/SWEisenSwordSkin",
         Link = "Longsword Eisen Skin",
+        ItemCompatibility = "Sword",
         Name = "Longsword Eisen Skin",
         Type = "Weapon Skin"
     },
@@ -3275,6 +3588,7 @@ return {
         Image = "LongswordEzrielSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Tennogen/SWEzrielSwordSkin",
         Link = "Longsword Ezriel Skin",
+        ItemCompatibility = "Sword",
         Name = "Longsword Ezriel Skin",
         Type = "Weapon Skin"
     },
@@ -3285,6 +3599,7 @@ return {
         Image = "LongswordFrystaSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Deluxe/FrostDeluxeSword",
         Link = "Longsword Frysta Skin",
+        ItemCompatibility = "Sword",
         Name = "Longsword Frysta Skin",
         Type = "Weapon Skin"
     },
@@ -3295,6 +3610,7 @@ return {
         Image = "LongswordInsidiaSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Swords/SWInsidiaSwordSkin",
         Link = "Longsword Insidia Skin",
+        ItemCompatibility = "Sword",
         Name = "Longsword Insidia Skin",
         Type = "Weapon Skin"
     },
@@ -3305,6 +3621,7 @@ return {
         Image = "LongswordIonSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Swords/SWIonSwordSkin",
         Link = "Longsword Ion Skin",
+        ItemCompatibility = "Sword",
         Name = "Longsword Ion Skin",
         Type = "Weapon Skin"
     },
@@ -3315,6 +3632,7 @@ return {
         Image = "LongswordKopeshSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sandman/InarosDeluxeSword",
         Link = "Longsword Kopesh Skin",
+        ItemCompatibility = "Sword",
         Name = "Longsword Kopesh Skin",
         Type = "Weapon Skin"
     },
@@ -3325,6 +3643,7 @@ return {
         Image = "LongswordTengushenSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Swords/SWTengushenSwordSkin",
         Link = "Longsword Tengushen Skin",
+        ItemCompatibility = "Sword",
         Name = "Longsword Tengushen Skin",
         Type = "Weapon Skin"
     },
@@ -3336,6 +3655,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Promo/WeGame/WeGameMacheteSkin",
         Introduced = "29.0",
         Link = "Lunaeus Machete Skin",
+        ItemCompatibility = "Lunaeus",
         Name = "Lunaeus Machete Skin",
         Type = "Weapon Skin"
     },
@@ -3346,6 +3666,7 @@ return {
         Image = "MacheteKutherSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Machetes/SWKutherMachete",
         Link = "Machete Kuther Skin",
+        ItemCompatibility = "Machete",
         Name = "Machete Kuther Skin",
         Type = "Weapon Skin"
     },
@@ -3357,6 +3678,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Nightwatch/NightwatchMachete",
         Introduced = "Hotfix: The Silver Grove 4",
         Link = "Machete Nightwatch Skin",
+        ItemCompatibility = "Machete",
         Name = "Machete Nightwatch Skin",
         Type = "Weapon Skin"
     },
@@ -3367,6 +3689,7 @@ return {
         Image = "MacheteSyachidSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/VoidTrader/BaroScytheMacheteSkin",
         Link = "Machete Syachid Skin",
+        ItemCompatibility = "Machete",
         Name = "Machete Syachid Skin",
         Type = "Weapon Skin"
     },
@@ -3377,6 +3700,7 @@ return {
         Image = "MacheteUdjyat'sSerpentSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Machetes/SWUdjyatMachete",
         Link = "Machete Udjyat's Serpent Skin",
+        ItemCompatibility = "Machete",
         Name = "Machete Udjyat's Serpent Skin",
         Type = "Weapon Skin"
     },
@@ -3387,6 +3711,7 @@ return {
         Image = "MagnusDakilaSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Contests/Pistols/MagnusDakila",
         Link = "Magnus Dakila Skin",
+        ItemCompatibility = "Magnus",
         Name = "Magnus Dakila Skin",
         Type = "Weapon Skin"
     },
@@ -3397,6 +3722,7 @@ return {
         Image = "MagnusHivelightSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Contests/Pistols/MagnusHiveLight",
         Link = "Magnus Hivelight Skin",
+        ItemCompatibility = "Magnus",
         Name = "Magnus Hivelight Skin",
         Type = "Weapon Skin"
     },
@@ -3407,6 +3733,7 @@ return {
         Image = "MagnusObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/ObsidianMagnus",
         Link = "Magnus Obsidian Skin",
+        ItemCompatibility = "Magnus",
         Name = "Magnus Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -3418,6 +3745,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Ornate/TekeluMagnusSkin",
         Introduced = "25.4.1",
         Link = "Magnus Tekelu Skin",
+        ItemCompatibility = "Magnus",
         Name = "Magnus Tekelu Skin",
         Type = "Weapon Skin"
     },
@@ -3428,6 +3756,7 @@ return {
         Image = "MandonelChythedraSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/ConcreteFrame/QorvexDeluxeArchGunSkin",
         Link = "Mandonel Chythedra Skin",
+        ItemCompatibility = "Mandonel",
         Name = "Mandonel Chythedra Skin",
         Type = "Weapon Skin"
     },
@@ -3438,6 +3767,7 @@ return {
         Image = "MarelokConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Pistols/PvPMarelok",
         Link = "Marelok Conclave Skin",
+        ItemCompatibility = "Marelok",
         Name = "Marelok Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -3449,6 +3779,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenMarelok",
         Introduced = "15.0.5",
         Link = "Marelok Day of the Dead Skin",
+        ItemCompatibility = "Marelok",
         Name = "Marelok Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -3460,6 +3791,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Camo/DesertMarelokSkin",
         Introduced = "24.3",
         Link = "Marelok Desert-Camo Skin",
+        ItemCompatibility = "Marelok",
         Name = "Marelok Desert-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -3471,6 +3803,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Harkonar/HarkonarGLAPistol",
         Introduced = "19.12",
         Link = "Marelok Harkonar Skin",
+        ItemCompatibility = "Marelok",
         Name = "Marelok Harkonar Skin",
         Type = "Weapon Skin"
     },
@@ -3482,6 +3815,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Nightwatch/NightwatchMarelok",
         Introduced = "Hotfix: The Silver Grove 4",
         Link = "Marelok Nightwatch Skin",
+        ItemCompatibility = "Marelok",
         Name = "Marelok Nightwatch Skin",
         Type = "Weapon Skin"
     },
@@ -3492,6 +3826,7 @@ return {
         Image = "MarutaTonfaSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Mag/MagDeluxeTonfaSkin",
         Link = "Maruta Tonfa Skin",
+        ItemCompatibility = "Tonfa",
         Name = "Maruta Tonfa Skin",
         Type = "Weapon Skin"
     },
@@ -3502,6 +3837,7 @@ return {
         Image = "MausolonSupulchraxSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Necramech/MechWeapon/MechEventMausolonSkin",
         Link = "Mausolon Supulchrax Skin",
+        ItemCompatibility = "Mausolon",
         Name = "Mausolon Supulchrax Skin",
         Type = "Weapon Skin"
     },
@@ -3512,6 +3848,7 @@ return {
         Image = "MeerArrowSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Arrows/AlternateArrowC",
         Link = "Meer Arrow Skin",
+        ItemCompatibility = "Arrow",
         Name = "Meer Arrow Skin",
         Type = "Weapon Skin"
     },
@@ -3522,6 +3859,7 @@ return {
         Image = "MeteorWhipSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Deluxe/WukongDeluxeWhipSkin",
         Link = "Meteor Whip Skin",
+        ItemCompatibility = "Whip",
         Name = "Meteor Whip Skin",
         Type = "Weapon Skin"
     },
@@ -3532,6 +3870,7 @@ return {
         Image = "MonitivusThrownWeaponSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Deluxe/ProteaDeluxeThrowingSkin",
         Link = "Monitivus Thrown Weapon Skin",
+        ItemCompatibility = "Thrown",
         Name = "Monitivus Thrown Weapon Skin",
         Type = "Weapon Skin"
     },
@@ -3542,6 +3881,7 @@ return {
         Image = "MorghaSupulchraxSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Necramech/MechWeapon/MechEventMorghaSkin",
         Link = "Morgha Supulchrax Skin",
+        ItemCompatibility = "Morgha",
         Name = "Morgha Supulchrax Skin",
         Type = "Weapon Skin"
     },
@@ -3552,6 +3892,7 @@ return {
         Image = "MortierHeavyBladeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Trapper/VaubanDeluxeAxe",
         Link = "Mortier Heavy Blade Skin",
+        ItemCompatibility = "Heavy Blade",
         Name = "Mortier Heavy Blade Skin",
         Type = "Weapon Skin"
     },
@@ -3562,6 +3903,7 @@ return {
         Image = "MotherwrenchHammerSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Hammers/SolarisHammerSkinA",
         Link = "Motherwrench Hammer Skin",
+        ItemCompatibility = "Hammer",
         Name = "Motherwrench Hammer Skin",
         Type = "Weapon Skin"
     },
@@ -3573,6 +3915,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/LunarNewYear/Lunar2023NagantakaSkin",
         Introduced = "32.2.9",
         Link = "Nagantaka Lunaeus Skin",
+        ItemCompatibility = "Nagantaka",
         Name = "Nagantaka Lunaeus Skin",
         Type = "Weapon Skin"
     },
@@ -3583,6 +3926,7 @@ return {
         Image = "NecratechTomeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Grimoire/GrimoireSciFiSkin",
         Link = "Necratech Tome Skin",
+        ItemCompatibility = "Tome",
         Name = "Necratech Tome Skin",
         Type = "Weapon Skin"
     },
@@ -3593,6 +3937,7 @@ return {
         Image = "NefertymRapierSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Rapier/TnLotusRapierSkin",
         Link = "Nefertym Rapier Skin",
+        ItemCompatibility = "Rapier",
         Name = "Nefertym Rapier Skin",
         Type = "Weapon Skin"
     },
@@ -3603,6 +3948,7 @@ return {
         Image = "NeoteRapierSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Rapier/IcebladeRapierSkin",
         Link = "Neote Rapier Skin",
+        ItemCompatibility = "Rapier",
         Name = "Neote Rapier Skin",
         Type = "Weapon Skin"
     },
@@ -3613,6 +3959,7 @@ return {
         Image = "NidoblastKompressaSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Yareli/KompressaDeluxeSkin",
         Link = "Nidoblast Kompressa Skin",
+        ItemCompatibility = "Kompressa",
         Name = "Nidoblast Kompressa Skin",
         Type = "Weapon Skin"
     },
@@ -3623,6 +3970,7 @@ return {
         Image = "NikanaConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Melee/PvPNikana",
         Link = "Nikana Conclave Skin",
+        ItemCompatibility = "Nikana",
         Name = "Nikana Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -3633,6 +3981,7 @@ return {
         Image = "NikanaDaxSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Katana/UmbraDaxNikana",
         Link = "Nikana Dax Skin",
+        ItemCompatibility = "Nikana",
         Name = "Nikana Dax Skin",
         Type = "Weapon Skin"
     },
@@ -3644,6 +3993,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenNikana",
         Introduced = "17.9",
         Link = "Nikana Day of the Dead Skin",
+        ItemCompatibility = "Nikana",
         Name = "Nikana Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -3655,6 +4005,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/VoidTrader/ElixisNikana",
         Introduced = "34.0.2",
         Link = "Nikana Elixis Skin",
+        ItemCompatibility = "Nikana",
         Name = "Nikana Elixis Skin",
         Type = "Weapon Skin"
     },
@@ -3665,6 +4016,7 @@ return {
         Image = "NikanaGeminiSurt-FormSheath.png",
         InternalName = "/Lotus/Upgrades/Skins/KatanaSheaths/DragonKatanaSheathLightning",
         Link = "Nikana Gemini Surt-Form Sheath",
+        ItemCompatibility = "Nikana",
         Name = "Nikana Gemini Surt-Form Sheath",
         Type = "Weapon Skin"
     },
@@ -3675,6 +4027,7 @@ return {
         Image = "NikanaGeminiYmir-FormSheath.png",
         InternalName = "/Lotus/Upgrades/Skins/KatanaSheaths/KatanaSheathLightning",
         Link = "Nikana Gemini Ymir-Form Sheath",
+        ItemCompatibility = "Nikana",
         Name = "Nikana Gemini Ymir-Form Sheath",
         Type = "Weapon Skin"
     },
@@ -3685,6 +4038,7 @@ return {
         Image = "NikanaKhatuunSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Katana/SWKhatuunKatanaSkin",
         Link = "Nikana Khatuun Skin",
+        ItemCompatibility = "Nikana",
         Name = "Nikana Khatuun Skin",
         Type = "Weapon Skin"
     },
@@ -3695,6 +4049,7 @@ return {
         Image = "NikanaKrtrimaSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Katana/SWKrtrimaKatanaSkin",
         Link = "Nikana Krtrima Skin",
+        ItemCompatibility = "Nikana",
         Name = "Nikana Krtrima Skin",
         Type = "Weapon Skin"
     },
@@ -3705,6 +4060,7 @@ return {
         Image = "NikanaMinosSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Katana/SWMinosKatanaSkin",
         Link = "Nikana Minos Skin",
+        ItemCompatibility = "Nikana",
         Name = "Nikana Minos Skin",
         Type = "Weapon Skin"
     },
@@ -3715,6 +4071,7 @@ return {
         Image = "NikanaMithraSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Katana/SWMithraKatanaSkin",
         Link = "Nikana Mithra Skin",
+        ItemCompatibility = "Nikana",
         Name = "Nikana Mithra Skin",
         Type = "Weapon Skin"
     },
@@ -3725,6 +4082,7 @@ return {
         Image = "NikanaObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/ObsidianNikana",
         Link = "Nikana Obsidian Skin",
+        ItemCompatibility = "Nikana",
         Name = "Nikana Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -3735,6 +4093,7 @@ return {
         Image = "NikanaRyuSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Katana/AshNikana",
         Link = "Nikana Ryu Skin",
+        ItemCompatibility = "Nikana",
         Name = "Nikana Ryu Skin",
         Type = "Weapon Skin"
     },
@@ -3745,6 +4104,7 @@ return {
         Image = "NikanaShinigamiSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Katana/SWShinigamiKatanaSkin",
         Link = "Nikana Shinigami Skin",
+        ItemCompatibility = "Nikana",
         Name = "Nikana Shinigami Skin",
         Type = "Weapon Skin"
     },
@@ -3756,6 +4116,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Ornate/TekeluNikanaSkin",
         Introduced = "25.4.1",
         Link = "Nikana Tekelu Skin",
+        ItemCompatibility = "Nikana",
         Name = "Nikana Tekelu Skin",
         Type = "Weapon Skin"
     },
@@ -3766,6 +4127,7 @@ return {
         Image = "NikanaUndercutterSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Katana/SWUndercutterKatanaSkin",
         Link = "Nikana Undercutter Skin",
+        ItemCompatibility = "Nikana",
         Name = "Nikana Undercutter Skin",
         Type = "Weapon Skin"
     },
@@ -3776,6 +4138,7 @@ return {
         Image = "NikanaUngulataSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Katana/UngulataKatana",
         Link = "Nikana Ungulata Skin",
+        ItemCompatibility = "Nikana",
         Name = "Nikana Ungulata Skin",
         Type = "Weapon Skin"
     },
@@ -3786,6 +4149,7 @@ return {
         Image = "NinurtaClawSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Claws/SWNinurtaClawsSkin",
         Link = "Ninurta Claw Skin",
+        ItemCompatibility = "Claws",
         Name = "Ninurta Claw Skin",
         Type = "Weapon Skin"
     },
@@ -3797,6 +4161,7 @@ return {
 	    InternalName = "/Lotus/Upgrades/Skins/Weapons/Grimoire/PagemasterDeluxeGrimoireSkin",
 	    Introduced = "43",
 	    Link = "Noctua Lophos",
+	    ItemCompatibility = "Noctua",
 	    Name = "Noctua Lophos",
 	    Type = "Weapon Skin"
 	},
@@ -3808,6 +4173,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenNukor",
         Introduced = "15.0.5",
         Link = "Nukor Day of the Dead Skin",
+        ItemCompatibility = "Nukor",
         Name = "Nukor Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -3819,6 +4185,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Nightwave/DaybreakNukorSkin",
         Introduced = "35.6",
         Link = "Nukor Daybreak Skin",
+        ItemCompatibility = "Nukor",
         Name = "Nukor Daybreak Skin",
         Type = "Weapon Skin"
     },
@@ -3830,6 +4197,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/LunarNewYear/LNY2024Nukor",
         Introduced = "35.0.11",
         Link = "Nukor Lunaeus Skin",
+        ItemCompatibility = "Nukor",
         Name = "Nukor Lunaeus Skin",
         Type = "Weapon Skin"
     },
@@ -3841,6 +4209,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/GrineerUrban/NukorGrineerUrbanCamo",
         Introduced = "17.1",
         Link = "Nukor Nightwatch Skin",
+        ItemCompatibility = "Nukor",
         Name = "Nukor Nightwatch Skin",
         Type = "Weapon Skin"
     },
@@ -3851,6 +4220,7 @@ return {
         Image = "NuskuDualPistolSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Ember/EmberDeluxeDualPistolSkin",
         Link = "Nusku Dual Pistol Skin",
+        ItemCompatibility = "Dual Pistols",
         Name = "Nusku Dual Pistol Skin",
         Type = "Weapon Skin"
     },
@@ -3861,6 +4231,7 @@ return {
         Image = "NuskuPistolSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Ember/EmberDeluxePistolSkin",
         Link = "Nusku Pistol Skin",
+        ItemCompatibility = "Pistol",
         Name = "Nusku Pistol Skin",
         Type = "Weapon Skin"
     },
@@ -3871,6 +4242,7 @@ return {
         Image = "NvidiaBratonSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Nvidia/NvidiaBratonSkin",
         Link = "Nvidia Braton",
+        ItemCompatibility = "Braton",
         Name = "Nvidia Braton",
         Type = "Weapon Skin"
     },
@@ -3882,6 +4254,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Dazzle/ObexDazzleCamo",
         Introduced = "13",
         Link = "Obex Shock-Camo Skin",
+        ItemCompatibility = "Obex",
         Name = "Obex Shock-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -3892,6 +4265,7 @@ return {
         Image = "OcucorSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Seasonal/TennobaumOcucor",
         Link = "Ocucor Solstice Skin",
+        ItemCompatibility = "Ocucor",
         Name = "Ocucor Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -3902,6 +4276,7 @@ return {
         Image = "OgrisIridosSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Twitch/OgrisTwitchSkin",
         Link = "Ogris Iridos Skin",
+        ItemCompatibility = "Ogris",
         Name = "Ogris Iridos Skin",
         Type = "Weapon Skin"
     },
@@ -3913,6 +4288,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/LunarNewYear/LNY2024Ogris",
         Introduced = "35.0.11",
         Link = "Ogris Lunaeus Skin",
+        ItemCompatibility = "Ogris",
         Name = "Ogris Lunaeus Skin",
         Type = "Weapon Skin"
     },
@@ -3924,6 +4300,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/GrineerUrban/OgrisGrineerUrbanCamo",
         Introduced = "17.1",
         Link = "Ogris Nightwatch Skin",
+        ItemCompatibility = "Ogris",
         Name = "Ogris Nightwatch Skin",
         Type = "Weapon Skin"
     },
@@ -3935,6 +4312,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Weapons/UnrealTournament/OgrisRocketLauncherSkin",
         Introduced = "29.5.7",
         Link = "Ogris Rocket Launcher Skin",
+        ItemCompatibility = "Ogris",
         Name = "Ogris Rocket Launcher Skin",
         Type = "Weapon Skin"
     },
@@ -3946,6 +4324,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Events/OgrisOldSchool",
         Introduced = "38.5.1.1",
         Link = "Volatile Ogris Skin",
+        ItemCompatibility = "Ogris",
         Name = "Volatile Ogris Skin",
         Type = "Weapon Skin"
     },
@@ -3957,6 +4336,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/DOTD2025OkinaSkin",
         Introduced = "40.0",
         Link = "Okina Day of the Dead Skin",
+        ItemCompatibility = "Okina",
         Name = "Okina Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -3967,6 +4347,7 @@ return {
         Image = "OkinaObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/PS5OkinaSkin",
         Link = "Okina Obsidian Skin",
+        ItemCompatibility = "Okina",
         Name = "Okina Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -3977,6 +4358,7 @@ return {
         Image = "OkuNikanaSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Katana/ExcaliburDeluxeNikana",
         Link = "Oku Nikana Skin",
+        ItemCompatibility = "Nikana",
         Name = "Oku Nikana Skin",
         Type = "Weapon Skin"
     },
@@ -3987,6 +4369,7 @@ return {
         Image = "OpticorConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/LongGuns/PvPOpticor",
         Link = "Opticor Conclave Skin",
+        ItemCompatibility = "Opticor",
         Name = "Opticor Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -3998,6 +4381,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenOpticor",
         Introduced = "17.9",
         Link = "Opticor Day of the Dead Skin",
+        ItemCompatibility = "Opticor",
         Name = "Opticor Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -4009,6 +4393,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/VoidTrader/ElixisOpticor",
         Introduced = "22.20.2",
         Link = "Opticor Elixis Skin",
+        ItemCompatibility = "Opticor",
         Name = "Opticor Elixis Skin",
         Type = "Weapon Skin"
     },
@@ -4019,6 +4404,7 @@ return {
         Image = "OpticorMithraSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Primary/Opticor/SWMithraOpticorSkin",
         Link = "Opticor Mithra Skin",
+        ItemCompatibility = "Opticor",
         Name = "Opticor Mithra Skin",
         Type = "Weapon Skin"
     },
@@ -4030,6 +4416,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Dazzle/OpticorDazzleCamo",
         Introduced = "13",
         Link = "Opticor Shock-Camo Skin",
+        ItemCompatibility = "Opticor",
         Name = "Opticor Shock-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -4040,6 +4427,7 @@ return {
         Image = "OrisonTwo-HandedNikanaSkin.png",
         InternalName = "/Lotus/Weapons/Tenno/Melee/Swords/TnRevenantDeluxe2HKatana/TnRevenantDeluxe2HKatanaSkin",
         Link = "Orison Two-Handed Nikana Skin",
+        ItemCompatibility = "Two-Handed Nikana",
         Name = "Orison Two-Handed Nikana Skin",
         Type = "Weapon Skin"
     },
@@ -4051,6 +4439,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenOrthos",
         Introduced = "10.5",
         Link = "Orthos Day of the Dead Skin",
+        ItemCompatibility = "Orthos",
         Name = "Orthos Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -4062,6 +4451,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/GrineerForest/GrineerForestOrthos",
         Introduced = "11.5",
         Link = "Orthos Forest-Camo Skin",
+        ItemCompatibility = "Orthos",
         Name = "Orthos Forest-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -4073,6 +4463,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/LunarNewYear/Lunar2020OrthosSkin",
         Introduced = "29.0",
         Link = "Orthos Lunaeus Skin",
+        ItemCompatibility = "Orthos",
         Name = "Orthos Lunaeus Skin",
         Type = "Weapon Skin"
     },
@@ -4083,6 +4474,7 @@ return {
         Image = "OrthosMagestySkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Polearms/OrthosMagestySkin",
         Link = "Orthos Magesty Skin",
+        ItemCompatibility = "Orthos",
         Name = "Orthos Magesty Skin",
         Type = "Weapon Skin"
     },
@@ -4093,6 +4485,7 @@ return {
         Image = "OrthosOnyxSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamEsteem/EsteemOrthos",
         Link = "Orthos Onyx Skin",
+        ItemCompatibility = "Orthos",
         Name = "Orthos Onyx Skin",
         Type = "Weapon Skin"
     },
@@ -4103,6 +4496,7 @@ return {
         Image = "OrthosPhasedSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Events/BlackoutOrthos",
         Link = "Orthos Phased Skin",
+        ItemCompatibility = "Orthos",
         Name = "Orthos Phased Skin",
         Type = "Weapon Skin"
     },
@@ -4114,6 +4508,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Ornate/OrnateOrthos",
         Introduced = "SotR 1.0",
         Link = "Orthos Tekelu Skin",
+        ItemCompatibility = "Orthos",
         Name = "Orthos Tekelu Skin",
         Type = "Weapon Skin"
     },
@@ -4124,6 +4519,7 @@ return {
         Image = "OrviusDaxSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Umbra/UmbraDaxGlaive",
         Link = "Orvius Dax Skin",
+        ItemCompatibility = "Orvius",
         Name = "Orvius Dax Skin",
         Type = "Weapon Skin"
     },
@@ -4134,6 +4530,7 @@ return {
         Image = "OsciraBowSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/NewPlayerXP/NewPlayerXPParisSkin",
         Link = "Oscira Bow Skin",
+        ItemCompatibility = "Bow",
         Name = "Oscira Bow Skin",
         Type = "Weapon Skin"
     },
@@ -4144,6 +4541,7 @@ return {
         Image = "OsciraLongswordSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/NewPlayerXP/NewPlayerXPSkanaSkin",
         Link = "Oscira Longsword Skin",
+        ItemCompatibility = "Sword",
         Name = "Oscira Longsword Skin",
         Type = "Weapon Skin"
     },
@@ -4154,6 +4552,7 @@ return {
         Image = "OsciraPistolSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/NewPlayerXP/NewPlayerXPLatoSkin",
         Link = "Oscira Pistol Skin",
+        ItemCompatibility = "Pistol",
         Name = "Oscira Pistol Skin",
         Type = "Weapon Skin"
     },
@@ -4164,6 +4563,7 @@ return {
         Image = "OsciraRifleSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/NewPlayerXP/NewPlayerXPBratonSkin",
         Link = "Oscira Rifle Skin",
+        ItemCompatibility = "Rifle",
         Name = "Oscira Rifle Skin",
         Type = "Weapon Skin"
     },
@@ -4174,6 +4574,7 @@ return {
         Image = "OsciraStaffSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/NewPlayerXP/NewPlayerXPBoSkin",
         Link = "Oscira Staff Skin",
+        ItemCompatibility = "Staff",
         Name = "Oscira Staff Skin",
         Type = "Weapon Skin"
     },
@@ -4184,6 +4585,7 @@ return {
         Image = "OsciraThrownWeaponSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/NewPlayerXP/NewPlayerXPKunaiSkin",
         Link = "Oscira Thrown Weapon Skin",
+        ItemCompatibility = "Thrown",
         Name = "Oscira Thrown Weapon Skin",
         Type = "Weapon Skin"
     },
@@ -4194,6 +4596,7 @@ return {
         Image = "PanderoCeramicaSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Pistols/CeramicPistolSkin",
         Link = "Pandero Ceramica Skin",
+        ItemCompatibility = "Pandero",
         Name = "Pandero Ceramica Skin",
         Type = "Weapon Skin"
     },
@@ -4205,6 +4608,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Ornate/TekeluPantheraSkin",
         Introduced = "25.4.1",
         Link = "Panthera Tekelu Skin",
+        ItemCompatibility = "Panthera",
         Name = "Panthera Tekelu Skin",
         Type = "Weapon Skin"
     },
@@ -4216,6 +4620,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/VoidTrader/ElixisBallasSword",
         Introduced = "26.0.8.1",
         Link = "Paracesis Elixis Skin",
+        ItemCompatibility = "Paracesis",
         Name = "Paracesis Elixis Skin",
         Type = "Weapon Skin"
     },
@@ -4226,6 +4631,7 @@ return {
         Image = "ParacesisJadeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/GreatSword/XB1BallasSword",
         Link = "Paracesis Jade Skin",
+        ItemCompatibility = "Paracesis",
         Name = "Paracesis Jade Skin",
         Type = "Weapon Skin"
     },
@@ -4236,6 +4642,7 @@ return {
         Image = "ParacesisObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/GreatSword/PS4BallasSword",
         Link = "Paracesis Obsidian Skin",
+        ItemCompatibility = "Paracesis",
         Name = "Paracesis Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -4246,6 +4653,7 @@ return {
         Image = "ParacesisOpalSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/GreatSword/SWIBallasSword",
         Link = "Paracesis Opal Skin",
+        ItemCompatibility = "Paracesis",
         Name = "Paracesis Opal Skin",
         Type = "Weapon Skin"
     },
@@ -4256,6 +4664,7 @@ return {
         Image = "ParacystZebraSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Events/InfQuantaInfestedAladV",
         Link = "Paracyst Zebra Skin",
+        ItemCompatibility = "Paracyst",
         Name = "Paracyst Zebra Skin",
         Type = "Weapon Skin"
     },
@@ -4266,6 +4675,7 @@ return {
         Image = "ParisAbraSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Warframe/PromoParis",
         Link = "Paris Abra Skin",
+        ItemCompatibility = "Paris",
         Name = "Paris Abra Skin",
         Type = "Weapon Skin"
     },
@@ -4277,6 +4687,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenParis",
         Introduced = "10.5",
         Link = "Paris Day of the Dead Skin",
+        ItemCompatibility = "Paris",
         Name = "Paris Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -4288,6 +4699,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/GrineerForest/GrineerForestParis",
         Introduced = "11.5",
         Link = "Paris Forest-Camo Skin",
+        ItemCompatibility = "Paris",
         Name = "Paris Forest-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -4299,6 +4711,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Kintsukuroi/KintsukuroiParis",
         Introduced = "19.10",
         Link = "Paris Kintsugi Skin",
+        ItemCompatibility = "Paris",
         Name = "Paris Kintsugi Skin",
         Type = "Weapon Skin"
     },
@@ -4310,6 +4723,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Starry/StarryParis",
         Introduced = "19.10",
         Link = "Paris Nocturne Skin",
+        ItemCompatibility = "Paris",
         Name = "Paris Nocturne Skin",
         Type = "Weapon Skin"
     },
@@ -4320,6 +4734,7 @@ return {
         Image = "ParisSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Seasonal/TennobaumParis",
         Link = "Paris Solstice Skin",
+        ItemCompatibility = "Paris",
         Name = "Paris Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -4330,6 +4745,7 @@ return {
         Image = "PennantObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/ObsidianPennant",
         Link = "Pennant Obsidian Skin",
+        ItemCompatibility = "Pennant",
         Name = "Pennant Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -4341,6 +4757,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Dazzle/PentaDazzleCamo",
         Introduced = "13",
         Link = "Penta Shock-Camo Skin",
+        ItemCompatibility = "Penta",
         Name = "Penta Shock-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -4351,6 +4768,7 @@ return {
         Image = "PentaVervSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Twitch/TwitchPentaSkin",
         Link = "Penta Verv Skin",
+        ItemCompatibility = "Penta",
         Name = "Penta Verv Skin",
         Type = "Weapon Skin"
     },
@@ -4361,6 +4779,7 @@ return {
         Image = "PerlaDualPistolSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Cowgirl/MesaDeluxeDualPistolSkin",
         Link = "Perla Dual Pistol Skin",
+        ItemCompatibility = "Dual Pistols",
         Name = "Perla Dual Pistol Skin",
         Type = "Weapon Skin"
     },
@@ -4371,6 +4790,7 @@ return {
         Image = "PerlaPistolSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Cowgirl/MesaDeluxePistolSkin",
         Link = "Perla Pistol Skin",
+        ItemCompatibility = "Pistol",
         Name = "Perla Pistol Skin",
         Type = "Weapon Skin"
     },
@@ -4381,6 +4801,7 @@ return {
     	Image = "PiacleSparringSkin.png",
     	InternalName = "/Lotus/Upgrades/Skins/PaxDuviricus/KullervoDeluxeSparringSkin",
     	Link = "Piacle Sparring Skin",
+    	ItemCompatibility = "Sparring",
     	Name = "Piacle Sparring Skin",
     	Type = "Weapon Skin",
     },
@@ -4392,6 +4813,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Dazzle/ShockPlinxSkin",
         Introduced = "25.4.3",
         Link = "Plinx Shock-Camo Skin",
+        ItemCompatibility = "Plinx",
         Name = "Plinx Shock-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -4402,6 +4824,7 @@ return {
         Image = "PolearmAphriaSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Polearms/SWAphriaPolearmSkin",
         Link = "Polearm Aphria Skin",
+        ItemCompatibility = "Polearm",
         Name = "Polearm Aphria Skin",
         Type = "Weapon Skin"
     },
@@ -4412,6 +4835,7 @@ return {
         Image = "PolearmDivaSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Polearms/SWDivaPolearmSkin",
         Link = "Polearm Diva Skin",
+        ItemCompatibility = "Polearm",
         Name = "Polearm Diva Skin",
         Type = "Weapon Skin"
     },
@@ -4422,6 +4846,7 @@ return {
         Image = "PolearmIonSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Polearms/SWIonPolearmSkin",
         Link = "Polearm Ion Skin",
+        ItemCompatibility = "Polearm",
         Name = "Polearm Ion Skin",
         Type = "Weapon Skin"
     },
@@ -4432,6 +4857,7 @@ return {
         Image = "PolearmJotunheimSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Polearms/SWJotunheimPolearmSkin",
         Link = "Polearm Jotunheim Skin",
+        ItemCompatibility = "Polearm",
         Name = "Polearm Jotunheim Skin",
         Type = "Weapon Skin"
     },
@@ -4442,6 +4868,7 @@ return {
         Image = "PolearmKalynexSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Polearms/SWKalynexPolearmSkin",
         Link = "Polearm Kalynex Skin",
+        ItemCompatibility = "Polearm",
         Name = "Polearm Kalynex Skin",
         Type = "Weapon Skin"
     },
@@ -4452,6 +4879,7 @@ return {
         Image = "PolearmLahnssSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Polearms/SWLahnssPolearmSkin",
         Link = "Polearm Lahnss Skin",
+        ItemCompatibility = "Polearm",
         Name = "Polearm Lahnss Skin",
         Type = "Weapon Skin"
     },
@@ -4462,6 +4890,7 @@ return {
         Image = "PolearmLympharisSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Polearms/SWLympharisPolearmSkin",
         Link = "Polearm Lympharis Skin",
+        ItemCompatibility = "Polearm",
         Name = "Polearm Lympharis Skin",
         Type = "Weapon Skin"
     },
@@ -4472,6 +4901,7 @@ return {
         Image = "PolearmOsirisSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Polearm/SWOsirisPolearm",
         Link = "Polearm Osiris Skin",
+        ItemCompatibility = "Polearm",
         Name = "Polearm Osiris Skin",
         Type = "Weapon Skin"
     },
@@ -4482,6 +4912,7 @@ return {
         Image = "PolearmPhorcysSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Polearms/SWPhorcysPolearmSkin",
         Link = "Polearm Phorcys Skin",
+        ItemCompatibility = "Polearm",
         Name = "Polearm Phorcys Skin",
         Type = "Weapon Skin"
     },
@@ -4492,6 +4923,7 @@ return {
         Image = "PolearmSkoposSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Polearm/SWSkoposPolearm",
         Link = "Polearm Skopos Skin",
+        ItemCompatibility = "Polearm",
         Name = "Polearm Skopos Skin",
         Type = "Weapon Skin"
     },
@@ -4502,6 +4934,7 @@ return {
         Image = "PolearmUlceratedSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Polearm/SWUlceratedPolearm",
         Link = "Polearm Ulcerated Skin",
+        ItemCompatibility = "Polearm",
         Name = "Polearm Ulcerated Skin",
         Type = "Weapon Skin"
     },
@@ -4512,6 +4945,7 @@ return {
         Image = "PrismaArrow.png",
         InternalName = "/Lotus/Upgrades/Skins/VoidTrader/PrismaArrow",
         Link = "Prisma Arrows",
+        ItemCompatibility = "Arrow",
         Name = "Prisma Arrows",
         Type = "Weapon Skin"
     },
@@ -4522,6 +4956,7 @@ return {
         Image = "PrivolvFulminSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Deluxe/WispDeluxeFulminSkin",
         Link = "Privolv Fulmin Skin",
+        ItemCompatibility = "Fulmin",
         Name = "Privolv Fulmin Skin",
         Type = "Weapon Skin"
     },
@@ -4531,7 +4966,9 @@ return {
         ExcludeFromCodex = false,
         Image = "Protokol95PistolSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/DSPistols/LexHammer",
+        Introduced = "32.2",
         Link = "Protokol 95 Pistol Skin",
+        ItemCompatibility = "Pistol",
         Name = "Protokol 95 Pistol Skin",
         Type = "Weapon Skin"
     },
@@ -4542,6 +4979,7 @@ return {
         Image = "ProtokolHiraThrownWeaponSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Throwable/TennoCon2024NinjaStarSkin",
         Link = "Protokol Hira Thrown Weapon Skin",
+        ItemCompatibility = "Thrown",
         Name = "Protokol Hira Thrown Weapon Skin",
         Type = "Weapon Skin"
     },
@@ -4551,7 +4989,9 @@ return {
         ExcludeFromCodex = false,
         Image = "ProtokolLongswordSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Swords/LasriaSkanaSwordSkin",
+        Introduced = "37.0.7",
         Link = "Protokol Longsword Skin",
+        ItemCompatibility = "Sword",
         Name = "Protokol Longsword Skin",
         Type = "Weapon Skin"
     },
@@ -4561,7 +5001,9 @@ return {
         ExcludeFromCodex = false,
         Image = "ProtokolSpectrePistolSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/DSPistols/BroncoSpectre",
+        Introduced = "32.2",
         Link = "Protokol Spectre Pistol Skin",
+        ItemCompatibility = "Pistol",
         Name = "Protokol Spectre Pistol Skin",
         Type = "Weapon Skin"
     },
@@ -4571,7 +5013,9 @@ return {
         ExcludeFromCodex = false,
         Image = "ProtokolTeknaPistolSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/DSPistols/LatoTekna",
+        Introduced = "32.2",
         Link = "Protokol Tekna Pistol Skin",
+        ItemCompatibility = "Pistol",
         Name = "Protokol Tekna Pistol Skin",
         Type = "Weapon Skin"
     },
@@ -4581,7 +5025,9 @@ return {
         ExcludeFromCodex = false,
         Image = "ProtokolVekeskPistolSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/DSPistols/FurisVekesk",
+        Introduced = "32.2",
         Link = "Protokol Vekesk Pistol Skin",
+        ItemCompatibility = "Pistol",
         Name = "Protokol Vekesk Pistol Skin",
         Type = "Weapon Skin"
     },
@@ -4593,6 +5039,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Dazzle/ProvaDazzleCamo",
         Introduced = "13",
         Link = "Prova Shock-Camo Skin",
+        ItemCompatibility = "Prova",
         Name = "Prova Shock-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -4603,6 +5050,7 @@ return {
         Image = "PyranaIridosSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Twitch/PyranaTwitchSkin",
         Link = "Pyrana Iridos Skin",
+        ItemCompatibility = "Pyrana",
         Name = "Pyrana Iridos Skin",
         Type = "Weapon Skin"
     },
@@ -4614,6 +5062,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/LunarNewYear/Lunar2020PyranaSkin",
         Introduced = "29.0",
         Link = "Pyrana Lunaeus Skin",
+        ItemCompatibility = "Pyrana",
         Name = "Pyrana Lunaeus Skin",
         Type = "Weapon Skin"
     },
@@ -4625,6 +5074,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/CephWepSkins/CephPyranaSkin",
         Introduced = "27.5",
         Link = "Pyrana Synoid Skin",
+        ItemCompatibility = "Pyrana",
         Name = "Pyrana Synoid Skin",
         Type = "Weapon Skin"
     },
@@ -4635,6 +5085,7 @@ return {
         Image = "QuantaAufeisSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/VoidTrader/VTQuanta",
         Link = "Quanta Aufeis Skin",
+        ItemCompatibility = "Quanta",
         Name = "Quanta Aufeis Skin",
         Type = "Weapon Skin"
     },
@@ -4645,6 +5096,7 @@ return {
         Image = "QuantaObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/ObsidianQuanta",
         Link = "Quanta Obsidian Skin",
+        ItemCompatibility = "Quanta",
         Name = "Quanta Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -4656,6 +5108,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/SummerSolstice/SummerSolsticeQuartakk",
         Introduced = "23.0.4",
         Link = "Quartakk Towsun Skin",
+        ItemCompatibility = "Quartakk",
         Name = "Quartakk Towsun Skin",
         Type = "Weapon Skin"
     },
@@ -4666,6 +5119,7 @@ return {
         Image = "QuassusSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/WinterSolstice/SolsticeQuassusSkin",
         Link = "Quassus Solstice Skin",
+        ItemCompatibility = "Quassus",
         Name = "Quassus Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -4676,6 +5130,7 @@ return {
         Image = "RapierArashiSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Rapier/SWArashiRapierSkin",
         Link = "Rapier Arashi Skin",
+        ItemCompatibility = "Rapier",
         Name = "Rapier Arashi Skin",
         Type = "Weapon Skin"
     },
@@ -4686,6 +5141,7 @@ return {
         Image = "RapierFeritaSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Rapier/SWFeritaRapierSkin",
         Link = "Rapier Ferita Skin",
+        ItemCompatibility = "Rapier",
         Name = "Rapier Ferita Skin",
         Type = "Weapon Skin"
     },
@@ -4696,6 +5152,7 @@ return {
         Image = "RapierNi'duhlSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Rapier/SWNiDuhlRapierSkin",
         Link = "Rapier Ni'duhl Skin",
+        ItemCompatibility = "Rapier",
         Name = "Rapier Ni'duhl Skin",
         Type = "Weapon Skin"
     },
@@ -4706,6 +5163,7 @@ return {
         Image = "RapierTributakerSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Rapier/CrpRapierSkin",
         Link = "Rapier Tributaker Skin",
+        ItemCompatibility = "Rapier",
         Name = "Rapier Tributaker Skin",
         Type = "Weapon Skin"
     },
@@ -4716,6 +5174,7 @@ return {
         Image = "RashasiPolearmSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Deluxe/NovaDeluxePolearm",
         Link = "Rashasi Polearm Skin",
+        ItemCompatibility = "Polearm",
         Name = "Rashasi Polearm Skin",
         Type = "Weapon Skin"
     },
@@ -4727,6 +5186,7 @@ return {
      	InternalName = "/Lotus/Upgrades/Skins/Pacifist/BaruukDeluxeIIMaceShield",
      	Introduced = "43.5",
      	Link = "Rathan Sword & Shield Skin",
+     	ItemCompatibility = "Sword and Shield",
      	Name = "Rathan Sword & Shield Skin",
      	Type = "Weapon Skin"
     },
@@ -4737,6 +5197,7 @@ return {
         Image = "RavurexGunbladeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Redeemer/RedeemerTNWNarmerSkin",
         Link = "Ravurex Gunblade Skin",
+        ItemCompatibility = "Gunblade",
         Name = "Ravurex Gunblade Skin",
         Type = "Weapon Skin"
     },
@@ -4747,6 +5208,7 @@ return {
         Image = "RedeemerAbyssoSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Redeemer/RedeemerRelayWaterSkin",
         Link = "Redeemer Abysso Skin",
+        ItemCompatibility = "Redeemer",
         Name = "Redeemer Abysso Skin",
         Type = "Weapon Skin"
     },
@@ -4758,6 +5220,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/VoidTrader/VTRedeemerSkin",
         Introduced = "17.12.1",
         Link = "Redeemer Elixis Skin",
+        ItemCompatibility = "Redeemer",
         Name = "Redeemer Elixis Skin",
         Type = "Weapon Skin"
     },
@@ -4768,6 +5231,7 @@ return {
         Image = "RedeemerPyrusSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Redeemer/RedeemerRelayFireSkin",
         Link = "Redeemer Pyrus Skin",
+        ItemCompatibility = "Redeemer",
         Name = "Redeemer Pyrus Skin",
         Type = "Weapon Skin"
     },
@@ -4779,6 +5243,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Ornate/TekeluRedeemerSkin",
         Introduced = "25.4.1",
         Link = "Redeemer Tekelu Skin",
+        ItemCompatibility = "Redeemer",
         Name = "Redeemer Tekelu Skin",
         Type = "Weapon Skin"
     },
@@ -4789,6 +5254,7 @@ return {
         Image = "RenokHammerSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Hammer/SpragHammerSkin",
         Link = "Renok Hammer Skin",
+        ItemCompatibility = "Hammer",
         Name = "Renok Hammer Skin",
         Type = "Weapon Skin"
     },
@@ -4799,6 +5265,7 @@ return {
         Image = "RenuntioSpeargunSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/LongGuns/HarrowDeluxeSpearGun",
         Link = "Renuntio Speargun Skin",
+        ItemCompatibility = "Speargun",
         Name = "Renuntio Speargun Skin",
         Type = "Weapon Skin"
     },
@@ -4809,6 +5276,7 @@ return {
         Image = "RephraxLongswordSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Glass/GaraDeluxeSword",
         Link = "Rephrax Longsword Skin",
+        ItemCompatibility = "Sword",
         Name = "Rephrax Longsword Skin",
         Type = "Weapon Skin"
     },
@@ -4819,6 +5287,7 @@ return {
         Image = "ReshanturCultSpearSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Leverian/NezhaLeverian/NezhaLeverianPolearm",
         Link = "Reshantur Cult Spear Skin",
+        ItemCompatibility = "Polearm",
         Name = "Reshantur Cult Spear Skin",
         Type = "Weapon Skin"
     },
@@ -4829,6 +5298,7 @@ return {
         Image = "RingersSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Festivities/JingleKnuckles",
         Link = "Ringers Skin",
+        ItemCompatibility = "Fist",
         Name = "Ringers Skin",
         Type = "Weapon Skin"
     },
@@ -4839,6 +5309,7 @@ return {
         Image = "RixtyMOLAklato.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/RixtyMOL/RixtyMOLAklatoSkin",
         Link = "RixtyMOL Aklato",
+        ItemCompatibility = "Aklato",
         Name = "RixtyMOL Aklato",
         Type = "Weapon Skin"
     },
@@ -4850,6 +5321,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/CephWepSkins/CephRubicoSkin",
         Introduced = "27.5",
         Link = "Rubico Synoid Skin",
+        ItemCompatibility = "Rubico",
         Name = "Rubico Synoid Skin",
         Type = "Weapon Skin"
     },
@@ -4860,6 +5332,7 @@ return {
         Image = "RubillonHeavyScytheSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Geode/CitrineDeluxeExaltedScytheSkin",
         Link = "Rubillon Heavy Scythe Skin",
+        ItemCompatibility = "Heavy Scythe",
         Name = "Rubillon Heavy Scythe Skin",
         Type = "Weapon Skin"
     },
@@ -4871,6 +5344,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenSarpa",
         Introduced = "RN",
         Link = "Sarpa Day of the Dead Skin",
+        ItemCompatibility = "Sarpa",
         Name = "Sarpa Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -4881,6 +5355,7 @@ return {
         Image = "ScindoCombustionSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Contests/Melee/ScindoCombustion",
         Link = "Scindo Combustion Skin",
+        ItemCompatibility = "Scindo",
         Name = "Scindo Combustion Skin",
         Type = "Weapon Skin"
     },
@@ -4891,6 +5366,7 @@ return {
         Image = "ScindoDagger-AxeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Axe/DaggerAxe",
         Link = "Scindo Dagger-Axe Skin",
+        ItemCompatibility = "Scindo",
         Name = "Scindo Dagger-Axe Skin",
         Type = "Weapon Skin"
     },
@@ -4902,6 +5378,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenScindo",
         Introduced = "10.5",
         Link = "Scindo Day of the Dead Skin",
+        ItemCompatibility = "Scindo",
         Name = "Scindo Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -4913,6 +5390,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/GrineerForest/GrineerForestScindo",
         Introduced = "11.5",
         Link = "Scindo Forest-Camo Skin",
+        ItemCompatibility = "Scindo",
         Name = "Scindo Forest-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -4923,6 +5401,7 @@ return {
         Image = "ScindoKuberusSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Contests/Melee/ScindoKuberus",
         Link = "Scindo Kuberus Skin",
+        ItemCompatibility = "Scindo",
         Name = "Scindo Kuberus Skin",
         Type = "Weapon Skin"
     },
@@ -4933,6 +5412,7 @@ return {
         Image = "ScindoManticoreSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/HeavyAxe/GrnAxe",
         Link = "Scindo Manticore Skin",
+        ItemCompatibility = "Scindo",
         Name = "Scindo Manticore Skin",
         Type = "Weapon Skin"
     },
@@ -4943,6 +5423,7 @@ return {
         Image = "ScindoSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Axe/SolsticeScindo",
         Link = "Scindo Solstice Skin",
+        ItemCompatibility = "Scindo",
         Name = "Scindo Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -4953,6 +5434,7 @@ return {
         Image = "ScoliacObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/ObsidianScoliac",
         Link = "Scoliac Obsidian Skin",
+        ItemCompatibility = "Scoliac",
         Name = "Scoliac Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -4963,6 +5445,7 @@ return {
         Image = "SeigheScytheSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Scythes/CalibanDlxScytheSkin",
         Link = "Seighe Scythe Skin",
+        ItemCompatibility = "Scythe",
         Name = "Seighe Scythe Skin",
         Type = "Weapon Skin"
     },
@@ -4973,6 +5456,7 @@ return {
         Image = "SerrabilisHeavyBladeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Deluxe/MasseterDeluxeGreatswordSkin",
         Link = "Serrabilis Heavy Blade Skin",
+        ItemCompatibility = "Heavy Blade",
         Name = "Serrabilis Heavy Blade Skin",
         Type = "Weapon Skin"
     },
@@ -4983,6 +5467,7 @@ return {
         Image = "SerroObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/ObsidianSerro",
         Link = "Serro Obsidian Skin",
+        ItemCompatibility = "Serro",
         Name = "Serro Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -4993,6 +5478,7 @@ return {
         Image = "ShadowClawsPrime.png",
         InternalName = "/Lotus/Upgrades/Skins/Wraith/SevagothPrimeShadowClawsSkin",
         Link = "Shadow Claws Prime",
+        ItemCompatibility = "Shadow Claws Prime",
         Name = "Shadow Claws Prime",
         Type = "Weapon Skin"
     },
@@ -5004,6 +5490,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/DOTD2025SheduSkin",
         Introduced = "40.0",
         Link = "Shedu Day of the Dead Skin",
+        ItemCompatibility = "Shedu",
         Name = "Shedu Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -5014,6 +5501,7 @@ return {
         Image = "SilicaiFistSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Fists/SWSilicaiFistsSkin",
         Link = "Silicai Fist Skin",
+        ItemCompatibility = "Fist",
         Name = "Silicai Fist Skin",
         Type = "Weapon Skin"
     },
@@ -5025,6 +5513,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenSilvaAndAegis",
         Introduced = "RN",
         Link = "Silva & Aegis Day of the Dead Skin",
+        ItemCompatibility = "Silva & Aegis",
         Name = "Silva & Aegis Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -5036,6 +5525,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/VoidTrader/EvilBaroSilvaAndAegis",
         Introduced = "40.0.5",
         Link = "Silva & Aegis Eskhatos Skin",
+        ItemCompatibility = "Silva & Aegis",
         Name = "Silva & Aegis Eskhatos Skin",
         Type = "Weapon Skin"
     },
@@ -5046,6 +5536,7 @@ return {
         Image = "Silva&AegisObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/ObsidianSilvaAndAegis",
         Link = "Silva & Aegis Obsidian Skin",
+        ItemCompatibility = "Silva & Aegis",
         Name = "Silva & Aegis Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -5057,6 +5548,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenSimulor",
         Introduced = "RN",
         Link = "Simulor Day of the Dead Skin",
+        ItemCompatibility = "Simulor",
         Name = "Simulor Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -5067,6 +5559,7 @@ return {
         Image = "SINGLESTAFFSKIN.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/ChangYou/CYSingleStaffSkin",
         Link = "SINGLE STAFF SKIN",
+        ItemCompatibility = "Staff",
         Name = "SINGLE STAFF SKIN",
         Type = "Weapon Skin"
     },
@@ -5077,6 +5570,7 @@ return {
         Image = "Sirocco.png",
         InternalName = "/Lotus/Upgrades/Skins/Operator/Amp/DrifterAmpSkin",
         Link = "Sirocco Amp Skin",
+        ItemCompatibility = "Amp",
         Name = "Sirocco Amp Skin",
         Type = "Weapon Skin"
     },
@@ -5087,6 +5581,7 @@ return {
         Image = "SkanaConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Melee/PvPSkana",
         Link = "Skana Conclave Skin",
+        ItemCompatibility = "Skana",
         Name = "Skana Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -5098,6 +5593,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenSkana",
         Introduced = "17.9",
         Link = "Skana Day of the Dead Skin",
+        ItemCompatibility = "Skana",
         Name = "Skana Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -5108,6 +5604,7 @@ return {
         Image = "SkanaInfestedSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Swords/SkanaInfestedSkin",
         Link = "Skana Infested Skin",
+        ItemCompatibility = "Skana",
         Name = "Skana Infested Skin",
         Type = "Weapon Skin"
     },
@@ -5119,6 +5616,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Kintsukuroi/KintsukuroiSkana",
         Introduced = "19.10",
         Link = "Skana Kintsugi Skin",
+        ItemCompatibility = "Skana",
         Name = "Skana Kintsugi Skin",
         Type = "Weapon Skin"
     },
@@ -5130,6 +5628,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Starry/StarrySkana",
         Introduced = "19.10",
         Link = "Skana Nocturne Skin",
+        ItemCompatibility = "Skana",
         Name = "Skana Nocturne Skin",
         Type = "Weapon Skin"
     },
@@ -5140,6 +5639,7 @@ return {
         Image = "SkanaObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/PS4Skana",
         Link = "Skana Obsidian Skin",
+        ItemCompatibility = "Skana",
         Name = "Skana Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -5151,6 +5651,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Promo/Seasonal/Halloween2023DOTDSkiajatiSkin",
         Introduced = "34.0",
         Link = "Skiajati Day of the Dead Skin",
+        ItemCompatibility = "Skiajati",
         Name = "Skiajati Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -5161,6 +5662,7 @@ return {
         Image = "SkiajatiSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/WinterSolstice/SolsticeSkiajatiSkin",
         Link = "Skiajati Solstice Skin",
+        ItemCompatibility = "Skiajati",
         Name = "Skiajati Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -5172,6 +5674,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Dazzle/SnipetronDazzleCamo",
         Introduced = "13",
         Link = "Snipetron Shock-Camo Skin",
+        ItemCompatibility = "Snipetron",
         Name = "Snipetron Shock-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -5182,6 +5685,7 @@ return {
         Image = "SoaktronRifleSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Rifle/SoaktronRifleSkin",
         Link = "Soaktron Rifle Skin",
+        ItemCompatibility = "Rifle",
         Name = "Soaktron Rifle Skin",
         Type = "Weapon Skin"
     },
@@ -5193,6 +5697,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenSobek",
         Introduced = "10.5",
         Link = "Sobek Day of the Dead Skin",
+        ItemCompatibility = "Sobek",
         Name = "Sobek Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -5204,6 +5709,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Camo/SobekCamo",
         Introduced = "9.5",
         Link = "Sobek Desert-Camo Skin",
+        ItemCompatibility = "Sobek",
         Name = "Sobek Desert-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -5214,6 +5720,7 @@ return {
         Image = "SomaConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/LongGuns/PvPSoma",
         Link = "Soma Conclave Skin",
+        ItemCompatibility = "Soma",
         Name = "Soma Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -5225,6 +5732,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenSoma",
         Introduced = "10.5",
         Link = "Soma Day of the Dead Skin",
+        ItemCompatibility = "Soma",
         Name = "Soma Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -5236,6 +5744,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/Halloween2024DOTDSomaSkin",
         Introduced = "37.0",
         Link = "Soma Day of the Dead Skin II",
+        ItemCompatibility = "Soma",
         Name = "Soma Day of the Dead Skin II",
         Type = "Weapon Skin"
     },
@@ -5247,6 +5756,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/GrineerForest/GrineerForestSoma",
         Introduced = "11.5",
         Link = "Soma Forest-Camo Skin",
+        ItemCompatibility = "Soma",
         Name = "Soma Forest-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -5257,6 +5767,7 @@ return {
         Image = "SomaHuntsmanSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Miscellaneous/HuntsmanSoma",
         Link = "Soma Huntsman Skin",
+        ItemCompatibility = "Soma",
         Name = "Soma Huntsman Skin",
         Type = "Weapon Skin"
     },
@@ -5267,6 +5778,7 @@ return {
         Image = "SonicorClionaSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Deluxe/BansheeDeluxeSonicor",
         Link = "Sonicor Cliona Skin",
+        ItemCompatibility = "Sonicor",
         Name = "Sonicor Cliona Skin",
         Type = "Weapon Skin"
     },
@@ -5278,6 +5790,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenSonicor",
         Introduced = "RN",
         Link = "Sonicor Day of the Dead Skin",
+        ItemCompatibility = "Sonicor",
         Name = "Sonicor Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -5289,6 +5802,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/VoidTrader/ElixisSonicor",
         Introduced = "22.11.2",
         Link = "Sonicor Elixis Skin",
+        ItemCompatibility = "Sonicor",
         Name = "Sonicor Elixis Skin",
         Type = "Weapon Skin"
     },
@@ -5299,6 +5813,7 @@ return {
         Image = "SonicorFestiveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Festivities/XmasSonicor",
         Link = "Sonicor Festive Skin",
+        ItemCompatibility = "Sonicor",
         Name = "Sonicor Festive Skin",
         Type = "Weapon Skin"
     },
@@ -5309,6 +5824,7 @@ return {
         Image = "SonicorObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/ObsidianSonicor",
         Link = "Sonicor Obsidian Skin",
+        ItemCompatibility = "Sonicor",
         Name = "Sonicor Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -5319,6 +5835,7 @@ return {
         Image = "SpearmintScytheSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Seasonal/CandyCaneEtherReaperSkin",
         Link = "Spearmint Scythe Skin",
+        ItemCompatibility = "Scythe",
         Name = "Spearmint Scythe Skin",
         Type = "Weapon Skin"
     },
@@ -5330,6 +5847,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Dazzle/SpectraDazzleCamo",
         Introduced = "13",
         Link = "Spectra Shock-Camo Skin",
+        ItemCompatibility = "Spectra",
         Name = "Spectra Shock-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -5341,6 +5859,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenSpira",
         Introduced = "RN",
         Link = "Spira Day of the Dead Skin",
+        ItemCompatibility = "Spira",
         Name = "Spira Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -5351,6 +5870,7 @@ return {
         Image = "SpiraObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/ObsidianSpira",
         Link = "Spira Obsidian Skin",
+        ItemCompatibility = "Spira",
         Name = "Spira Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -5362,6 +5882,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Weapons/UnrealTournament/StahltaShockRifleSkin",
         Introduced = "29.5.7",
         Link = "Stahlta Shock Rifle Skin",
+        ItemCompatibility = "Stahlta",
         Name = "Stahlta Shock Rifle Skin",
         Type = "Weapon Skin"
     },
@@ -5372,6 +5893,7 @@ return {
         Image = "StavesVoluSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Staff/TrinityDeluxeBo",
         Link = "Staves Volu Skin",
+        ItemCompatibility = "Staff",
         Name = "Staves Volu Skin",
         Type = "Weapon Skin"
     },
@@ -5383,6 +5905,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenStradavar",
         Introduced = "RN",
         Link = "Stradavar Day of the Dead Skin",
+        ItemCompatibility = "Stradavar",
         Name = "Stradavar Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -5394,6 +5917,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Ornate/TekeluStradavarSkin",
         Introduced = "25.4.1",
         Link = "Stradavar Tekelu Skin",
+        ItemCompatibility = "Stradavar",
         Name = "Stradavar Tekelu Skin",
         Type = "Weapon Skin"
     },
@@ -5404,6 +5928,7 @@ return {
         Image = "StratusPistolSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Pistols/BillowingPistolSkin",
         Link = "Stratus Pistol Skin",
+        ItemCompatibility = "Pistol",
         Name = "Stratus Pistol Skin",
         Type = "Weapon Skin"
     },
@@ -5414,6 +5939,7 @@ return {
         Image = "StrunConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/LongGuns/PvPStrun",
         Link = "Strun Conclave Skin",
+        ItemCompatibility = "Strun",
         Name = "Strun Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -5425,6 +5951,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/SummerSolstice/SummerSolsticeStubba",
         Introduced = "23.0.4",
         Link = "Stubba Towsun Skin",
+        ItemCompatibility = "Stubba",
         Name = "Stubba Towsun Skin",
         Type = "Weapon Skin"
     },
@@ -5436,6 +5963,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Dazzle/SupraDazzleCamo",
         Introduced = "13",
         Link = "Supra Shock-Camo Skin",
+        ItemCompatibility = "Supra",
         Name = "Supra Shock-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -5446,6 +5974,7 @@ return {
         Image = "SwordAndShieldDanausSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Deluxe/OberonDeluxeAckBrunt",
         Link = "Sword and Shield Danaus Skin",
+        ItemCompatibility = "Sword and Shield",
         Name = "Sword and Shield Danaus Skin",
         Type = "Weapon Skin"
     },
@@ -5456,6 +5985,7 @@ return {
         Image = "SybarisConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/LongGuns/PvPSybaris",
         Link = "Sybaris Conclave Skin",
+        ItemCompatibility = "Sybaris",
         Name = "Sybaris Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -5466,6 +5996,7 @@ return {
         Image = "SybarisOverloadSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Tennogen/SWROneSybaris",
         Link = "Sybaris Overload Skin",
+        ItemCompatibility = "Sybaris",
         Name = "Sybaris Overload Skin",
         Type = "Weapon Skin"
     },
@@ -5476,6 +6007,7 @@ return {
         Image = "SylusArrowSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Arrows/AlternateArrowB",
         Link = "Sylus Arrow Skin",
+        ItemCompatibility = "Arrow",
         Name = "Sylus Arrow Skin",
         Type = "Weapon Skin"
     },
@@ -5486,6 +6018,7 @@ return {
         Image = "TannukaiLongswordSkin.png",
         InternalName = "/Lotus/Weapons/Tenno/Melee/Swords/TnShinaiSword/TnShinaiSwordSkin",
         Link = "Tannukai Longsword Skin",
+        ItemCompatibility = "Sword",
         Name = "Tannukai Longsword Skin",
         Type = "Weapon Skin"
     },
@@ -5496,6 +6029,7 @@ return {
         Image = "TarockThrownWeaponSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Deluxe/LimboDeluxeCardSkin",
         Link = "Tarock Thrown Weapon Skin",
+        ItemCompatibility = "Thrown",
         Name = "Tarock Thrown Weapon Skin",
         Type = "Weapon Skin"
     },
@@ -5506,6 +6040,7 @@ return {
         Image = "TatsuSolsticeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/WinterSolstice/SolsticeTatsuSkin",
         Link = "Tatsu Solstice Skin",
+        ItemCompatibility = "Tatsu",
         Name = "Tatsu Solstice Skin",
         Type = "Weapon Skin"
     },
@@ -5516,6 +6051,7 @@ return {
         Image = "TauDaxBowSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Dax/DaxBowSkin",
         Link = "Tau Dax Bow Skin",
+        ItemCompatibility = "Bow",
         Name = "Tau Dax Bow Skin",
         Type = "Weapon Skin"
     },
@@ -5526,6 +6062,7 @@ return {
         Image = "TauDaxHammerSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Hammer/DaxHammerSkin",
         Link = "Tau Dax Hammer Skin",
+        ItemCompatibility = "Hammer",
         Name = "Tau Dax Hammer Skin",
         Type = "Weapon Skin"
     },
@@ -5536,6 +6073,7 @@ return {
         Image = "TauDaxGrattlerSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Dax/DaxArchgunSkin",
         Link = "Tau Dax Grattler Skin",
+        ItemCompatibility = "Grattler",
         Name = "Tau Dax Grattler Skin",
         Type = "Weapon Skin"
     },
@@ -5546,6 +6084,7 @@ return {
         Image = "TauDaxNikanaSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Dax/DaxKatanaSkin",
         Link = "Tau Dax Nikana Skin",
+        ItemCompatibility = "Nikana",
         Name = "Tau Dax Nikana Skin",
         Type = "Weapon Skin"
     },
@@ -5556,6 +6095,7 @@ return {
         Image = "TauDaxRifleSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Dax/DaxLeverRifleSkin",
         Link = "Tau Dax Rifle Skin",
+        ItemCompatibility = "Rifle",
         Name = "Tau Dax Rifle Skin",
         Type = "Weapon Skin"
     },
@@ -5566,6 +6106,7 @@ return {
         Image = "TauDaxStaffSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Dax/DaxMageStaffSkin",
         Link = "Tau Dax Staff Skin",
+        ItemCompatibility = "Staff",
         Name = "Tau Dax Staff Skin",
         Type = "Weapon Skin"
     },
@@ -5576,6 +6117,7 @@ return {
         Image = "TauDaxThrownWeaponSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Dax/DaxKunaiSkin",
         Link = "Tau Dax Thrown Weapon Skin",
+        ItemCompatibility = "Thrown",
         Name = "Tau Dax Thrown Weapon Skin",
         Type = "Weapon Skin"
     },
@@ -5586,6 +6128,7 @@ return {
 		Image = "TectonSparringSkin.png",
 		InternalName = "/Lotus/Upgrades/Skins/Deluxe/AtlasDeluxeSparring",
 		Link = "Tecton Sparring Skin",
+		ItemCompatibility = "Sparring",
 		Name = "Tecton Sparring Skin",
 		Type = "Weapon Skin"
 	},
@@ -5596,6 +6139,7 @@ return {
         Image = "TemperaAmpSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Operator/Amp/InkSiroccoAmpSkin",
         Link = "Tempera Amp Skin",
+        ItemCompatibility = "Amp",
         Name = "Tempera Amp Skin",
         Type = "Weapon Skin"
     },
@@ -5606,6 +6150,7 @@ return {
         Image = "TengDaggerSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Nezha/NezhaDeluxeDaggerSkin",
         Link = "Teng Dagger Skin",
+        ItemCompatibility = "Dagger",
         Name = "Teng Dagger Skin",
         Type = "Weapon Skin"
     },
@@ -5616,6 +6161,7 @@ return {
         Image = "TengDualDaggerSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Nezha/NezhaDeluxeDualDaggerSkin",
         Link = "Teng Dual Dagger Skin",
+        ItemCompatibility = "Dual Daggers",
         Name = "Teng Dual Dagger Skin",
         Type = "Weapon Skin"
     },
@@ -5626,6 +6172,7 @@ return {
         Image = "TequihuaPolearmSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Deluxe/StyanaxDeluxeSpearSkin",
         Link = "Tequihua Polearm Skin",
+        ItemCompatibility = "Polearm",
         Name = "Tequihua Polearm Skin",
         Type = "Weapon Skin"
     },
@@ -5637,6 +6184,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Dazzle/TetraDazzleCamo",
         Introduced = "13",
         Link = "Tetra Shock-Camo Skin",
+        ItemCompatibility = "Tetra",
         Name = "Tetra Shock-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -5647,6 +6195,7 @@ return {
         Image = "ThrambulusAlternoxSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Gyre/AlternoxDeluxeSkin",
         Link = "Thrambulus Alternox Skin",
+        ItemCompatibility = "Alternox",
         Name = "Thrambulus Alternox Skin",
         Type = "Weapon Skin"
     },
@@ -5657,6 +6206,7 @@ return {
         Image = "ThanatosScytheSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Necro/NekrosDeluxeScytheSkin",
         Link = "Thanatos Scythe Skin",
+        ItemCompatibility = "Scythe",
         Name = "Thanatos Scythe Skin",
         Type = "Weapon Skin"
     },
@@ -5667,6 +6217,7 @@ return {
         Image = "ThelyphonWhipSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Tennocon2020Skins/DeimosSupporterWhipSkin",
         Link = "Thelyphon Whip Skin",
+        ItemCompatibility = "Whip",
         Name = "Thelyphon Whip Skin",
         Type = "Weapon Skin"
     },
@@ -5677,6 +6228,7 @@ return {
     	Image = "TiandiNikanaSkin.png",
     	InternalName = "/Lotus/Upgrades/Skins/Deluxe/WukongDeluxeBKatanaSkin",
     	Link = "Tiandi Nikana Skin",
+    	ItemCompatibility = "Nikana",
     	Name = "Tiandi Nikana Skin",
     	Type = "Weapon Skin",
     },
@@ -5687,6 +6239,7 @@ return {
     	Image = "TiandiSun&MoonSkin.png",
     	InternalName = "/Lotus/Upgrades/Skins/Deluxe/WukongDeluxeBDualKatanaSkin",
     	Link = "Tiandi Sun & Moon Skin",
+    	ItemCompatibility = "Sun & Moon",
     	Name = "Tiandi Sun & Moon Skin",
     	Type = "Weapon Skin",
     },
@@ -5698,6 +6251,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/VoidTrader/ElixisTiberon",
         Introduced = "28.2.0",
         Link = "Tiberon Elixis Skin",
+        ItemCompatibility = "Tiberon",
         Name = "Tiberon Elixis Skin",
         Type = "Weapon Skin"
     },
@@ -5708,6 +6262,7 @@ return {
         Image = "TiberonObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/PS5TiberonSkin",
         Link = "Tiberon Obsidian Skin",
+        ItemCompatibility = "Tiberon",
         Name = "Tiberon Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -5719,6 +6274,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/VoidTrader/ElixisTigris",
         Introduced = "24.1.2.1",
         Link = "Tigris Elixis Skin",
+        ItemCompatibility = "Tigris",
         Name = "Tigris Elixis Skin",
         Type = "Weapon Skin"
     },
@@ -5729,6 +6285,7 @@ return {
         Image = "TigrisOnyxSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamEsteem/EsteemTigris",
         Link = "Tigris Onyx Skin",
+        ItemCompatibility = "Tigris",
         Name = "Tigris Onyx Skin",
         Type = "Weapon Skin"
     },
@@ -5739,6 +6296,7 @@ return {
         Image = "TigrisPhasedSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Void/TigrisVoidSkin",
         Link = "Tigris Phased Skin",
+        ItemCompatibility = "Tigris",
         Name = "Tigris Phased Skin",
         Type = "Weapon Skin"
     },
@@ -5749,6 +6307,7 @@ return {
         Image = "TigrisProminenceSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Twitch/TigrisTwitchSkin",
         Link = "Tigris Prominence Skin",
+        ItemCompatibility = "Tigris",
         Name = "Tigris Prominence Skin",
         Type = "Weapon Skin"
     },
@@ -5760,6 +6319,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Ornate/OrnateTigris",
         Introduced = "SotR 1.0",
         Link = "Tigris Tekelu Skin",
+        ItemCompatibility = "Tigris",
         Name = "Tigris Tekelu Skin",
         Type = "Weapon Skin"
     },
@@ -5770,6 +6330,7 @@ return {
         Image = "TipedoConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Melee/PvPTipedo",
         Link = "Tipedo Conclave Skin",
+        ItemCompatibility = "Tipedo",
         Name = "Tipedo Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -5781,6 +6342,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/BrassAndGold/BrassAndGoldTipedo",
         Introduced = "16.8",
         Link = "Tipedo Ormolu Skin",
+        ItemCompatibility = "Tipedo",
         Name = "Tipedo Ormolu Skin",
         Type = "Weapon Skin"
     },
@@ -5791,6 +6353,7 @@ return {
         Image = "TonfaBa'gethSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Tonfa/SWBaGethTonfaSkin",
         Link = "Tonfa Ba'geth Skin",
+        ItemCompatibility = "Tonfa",
         Name = "Tonfa Ba'geth Skin",
         Type = "Weapon Skin"
     },
@@ -5801,6 +6364,7 @@ return {
         Image = "TonfaHadesSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Tonfa/SWHadesTonfaSkin",
         Link = "Tonfa Hades Skin",
+        ItemCompatibility = "Tonfa",
         Name = "Tonfa Hades Skin",
         Type = "Weapon Skin"
     },
@@ -5811,6 +6375,7 @@ return {
         Image = "TonfaYamexSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Tonfa/SWYamexTonfaSkin",
         Link = "Tonfa Yamex Skin",
+        ItemCompatibility = "Tonfa",
         Name = "Tonfa Yamex Skin",
         Type = "Weapon Skin"
     },
@@ -5821,6 +6386,7 @@ return {
         Image = "TonkorConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/LongGuns/PvPTonkor",
         Link = "Tonkor Conclave Skin",
+        ItemCompatibility = "Tonkor",
         Name = "Tonkor Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -5832,6 +6398,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenTonkor",
         Introduced = "RN",
         Link = "Tonkor Day of the Dead Skin",
+        ItemCompatibility = "Tonkor",
         Name = "Tonkor Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -5843,6 +6410,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Camo/DesertTonkorSkin",
         Introduced = "24.3",
         Link = "Tonkor Desert-Camo Skin",
+        ItemCompatibility = "Tonkor",
         Name = "Tonkor Desert-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -5853,6 +6421,7 @@ return {
         Image = "TonkorJadeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Microsoft/JadeTonkor",
         Link = "Tonkor Jade Skin",
+        ItemCompatibility = "Tonkor",
         Name = "Tonkor Jade Skin",
         Type = "Weapon Skin"
     },
@@ -5864,6 +6433,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Nightwatch/NightwatchTonkor",
         Introduced = "Hotfix: The Silver Grove 4",
         Link = "Tonkor Nightwatch Skin",
+        ItemCompatibility = "Tonkor",
         Name = "Tonkor Nightwatch Skin",
         Type = "Weapon Skin"
     },
@@ -5874,6 +6444,7 @@ return {
         Image = "TraciensGlaiveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Deluxe/ProteaDeluxeGlaiveSkin",
         Link = "Traciens Glaive Skin",
+        ItemCompatibility = "Glaive (Weapon Type)",
         Name = "Traciens Glaive Skin",
         Type = "Weapon Skin"
     },
@@ -5885,6 +6456,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenTwinGrakatas",
         Introduced = "RN",
         Link = "Twin Grakatas Day of the Dead Skin",
+        ItemCompatibility = "Twin Grakatas",
         Name = "Twin Grakatas Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -5895,6 +6467,7 @@ return {
         Image = "TwinGrakatasJadeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Microsoft/JadeTwinGrakatas",
         Link = "Twin Grakatas Jade Skin",
+        ItemCompatibility = "Twin Grakatas",
         Name = "Twin Grakatas Jade Skin",
         Type = "Weapon Skin"
     },
@@ -5905,6 +6478,7 @@ return {
         Image = "TwinGrakatasOpalSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/GrineerAssaultRifle/NintendoGrineerAssaultRifleSkin",
         Link = "Twin Grakatas Opal Skin",
+        ItemCompatibility = "Twin Grakatas",
         Name = "Twin Grakatas Opal Skin",
         Type = "Weapon Skin"
     },
@@ -5916,6 +6490,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/SummerSolstice/SummerSolsticeTwinGrakatas",
         Introduced = "21.0.2",
         Link = "Twin Grakatas Towsun Skin",
+        ItemCompatibility = "Twin Grakatas",
         Name = "Twin Grakatas Towsun Skin",
         Type = "Weapon Skin"
     },
@@ -5927,6 +6502,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/SummerSolstice/SummerSolsticeTwinRogga",
         Introduced = "20.7.3",
         Link = "Twin Rogga Towsun Skin",
+        ItemCompatibility = "Twin Rogga",
         Name = "Twin Rogga Towsun Skin",
         Type = "Weapon Skin"
     },
@@ -5937,6 +6513,7 @@ return {
         Image = "TwinVipersConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Pistols/PvPTwinVipers",
         Link = "Twin Vipers Conclave Skin",
+        ItemCompatibility = "Twin Vipers",
         Name = "Twin Vipers Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -5948,6 +6525,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Camo/AkimboViperCamo",
         Introduced = "9.5",
         Link = "Twin Vipers Desert-Camo Skin",
+        ItemCompatibility = "Twin Vipers",
         Name = "Twin Vipers Desert-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -5958,6 +6536,7 @@ return {
         Image = "TwinVipersObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/ObsidianTwinVipers",
         Link = "Twin Vipers Obsidian Skin",
+        ItemCompatibility = "Twin Vipers",
         Name = "Twin Vipers Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -5968,6 +6547,7 @@ return {
         Image = "TwinVipersRubedoPlatedSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/ReferralSeriesTwo/RubedoAkimboViperCamo",
         Link = "Twin Vipers Rubedo Plated Skin",
+        ItemCompatibility = "Twin Vipers",
         Name = "Twin Vipers Rubedo Plated Skin",
         Type = "Weapon Skin"
     },
@@ -5978,6 +6558,7 @@ return {
         Image = "Two-HandedNikanaArashiSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/TwoHandKatana/SWArashiTwoHandedKatanaSkin",
         Link = "Two-Handed Nikana Arashi Skin",
+        ItemCompatibility = "Two-Handed Nikana",
         Name = "Two-Handed Nikana Arashi Skin",
         Type = "Weapon Skin"
     },
@@ -5988,6 +6569,7 @@ return {
         Image = "Two-HandedNikanaDogmaSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/TwoHandKatana/SWDogma",
         Link = "Two-Handed Nikana Dogma Skin",
+        ItemCompatibility = "Two-Handed Nikana",
         Name = "Two-Handed Nikana Dogma Skin",
         Type = "Weapon Skin"
     },
@@ -5998,6 +6580,7 @@ return {
         Image = "Two-HandedNikanaKsaraSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/TwoHandKatana/SWKsaraTwoHandedKatanaSkin",
         Link = "Two-Handed Nikana Ksara Skin",
+        ItemCompatibility = "Two-Handed Nikana",
         Name = "Two-Handed Nikana Ksara Skin",
         Type = "Weapon Skin"
     },
@@ -6008,6 +6591,7 @@ return {
         Image = "Two-HandedNikanaMalignaSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Nightwave/InfTwoHandedKatanaSkin",
         Link = "Two-Handed Nikana Maligna Skin",
+        ItemCompatibility = "Two-Handed Nikana",
         Name = "Two-Handed Nikana Maligna Skin",
         Type = "Weapon Skin"
     },
@@ -6018,6 +6602,7 @@ return {
         Image = "VacisAmpSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Operator/Amp/EntratiAmpSkin",
         Link = "Vacis Amp Skin",
+        ItemCompatibility = "Amp",
         Name = "Vacis Amp Skin",
         Type = "Weapon Skin"
     },
@@ -6028,6 +6613,7 @@ return {
         Image = "VaennHeavyBladeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PaxDuviricus/KullervoTwoHandedSwordSkin",
         Link = "Vaenn Heavy Blade Skin",
+        ItemCompatibility = "Heavy Blade",
         Name = "Vaenn Heavy Blade Skin",
         Type = "Weapon Skin"
     },
@@ -6038,6 +6624,7 @@ return {
         Image = "VastoConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Pistols/PvPVasto",
         Link = "Vasto Conclave Skin",
+        ItemCompatibility = "Vasto",
         Name = "Vasto Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -6049,6 +6636,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenVasto",
         Introduced = "15.0.5",
         Link = "Vasto Day of the Dead Skin",
+        ItemCompatibility = "Vasto",
         Name = "Vasto Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -6060,6 +6648,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/GrineerForest/GrineerForestVasto",
         Introduced = "11.5",
         Link = "Vasto Forest-Camo Skin",
+        ItemCompatibility = "Vasto",
         Name = "Vasto Forest-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -6070,6 +6659,7 @@ return {
         Image = "VastoPhasedSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Void/VastoVoidSkin",
         Link = "Vasto Phased Skin",
+        ItemCompatibility = "Vasto",
         Name = "Vasto Phased Skin",
         Type = "Weapon Skin"
     },
@@ -6081,6 +6671,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Ornate/TekeluVastoSkin",
         Introduced = "25.4.1",
         Link = "Vasto Tekelu Skin",
+        ItemCompatibility = "Vasto",
         Name = "Vasto Tekelu Skin",
         Type = "Weapon Skin"
     },
@@ -6092,6 +6683,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/GrineerForest/GrineerForestVectis",
         Introduced = "11.5",
         Link = "Vectis Forest-Camo Skin",
+        ItemCompatibility = "Vectis",
         Name = "Vectis Forest-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -6102,6 +6694,7 @@ return {
         Image = "VectisSharpshooterSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Contests/LongGuns/VectisSharpshooter",
         Link = "Vectis Sharpshooter Skin",
+        ItemCompatibility = "Vectis",
         Name = "Vectis Sharpshooter Skin",
         Type = "Weapon Skin"
     },
@@ -6112,6 +6705,7 @@ return {
         Image = "VectisSilfererSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Contests/LongGuns/VectisSilferer",
         Link = "Vectis Silferer Skin",
+        ItemCompatibility = "Vectis",
         Name = "Vectis Silferer Skin",
         Type = "Weapon Skin"
     },
@@ -6123,6 +6717,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Ornate/OrnateVectis",
         Introduced = "SotR 1.0",
         Link = "Vectis Tekelu Skin",
+        ItemCompatibility = "Vectis",
         Name = "Vectis Tekelu Skin",
         Type = "Weapon Skin"
     },
@@ -6133,6 +6728,7 @@ return {
         Image = "Vena'sTalons.png",
         InternalName = "/Lotus/Upgrades/Skins/Garuda/GarudaGeminiSkin",
         Link = "Vena Gemini Skin",
+        ItemCompatibility = "Garuda Talons",
         Name = "Vena Gemini Skin",
         Type = "Weapon Skin"
     },
@@ -6143,6 +6739,7 @@ return {
     	Image = "VeneumShotgunSkin.png",
     	InternalName = "/Lotus/Upgrades/Skins/Deluxe/AlchemistDeluxeShotgunSkin",
     	Link = "Veneum Shotgun Skin",
+    	ItemCompatibility = "Shotgun",
     	Name = "Veneum Shotgun Skin",
     	Type = "Weapon Skin",
     },
@@ -6153,6 +6750,7 @@ return {
         Image = "VeratriaBladeAndWhipSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Khora/KhoraDeluxeWhipBladeSkin",
         Link = "Veratria Blade And Whip Skin",
+        ItemCompatibility = "Blade and Whip",
         Name = "Veratria Blade And Whip Skin",
         Type = "Weapon Skin"
     },
@@ -6164,6 +6762,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Halloween/HalloweenArchSword",
         Introduced = "17.9",
         Link = "Veritux Day of the Dead Skin",
+        ItemCompatibility = "Veritux",
         Name = "Veritux Day of the Dead Skin",
         Type = "Weapon Skin"
     },
@@ -6175,6 +6774,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Ornate/OrnateArchSword",
         Introduced = "SotR 1.0",
         Link = "Veritux Tekelu Skin",
+        ItemCompatibility = "Veritux",
         Name = "Veritux Tekelu Skin",
         Type = "Weapon Skin"
     },
@@ -6185,6 +6785,7 @@ return {
         Image = "VertaWarfanSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Garuda/GarudaDeluxeWarfanSkin",
         Link = "Verta Warfan Skin",
+        ItemCompatibility = "Warfan",
         Name = "Verta Warfan Skin",
         Type = "Weapon Skin"
     },
@@ -6195,6 +6796,7 @@ return {
         Image = "VervRedeemerSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Redeemer/RedeemerTwitchSkin",
         Link = "Verv Redeemer Skin",
+        ItemCompatibility = "Redeemer",
         Name = "Verv Redeemer Skin",
         Type = "Weapon Skin"
     },
@@ -6205,6 +6807,7 @@ return {
         Image = "VervRubicoSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Promo/Twitch/TwitchRubicoSkin",
         Link = "Verv Rubico Skin",
+        ItemCompatibility = "Rubico",
         Name = "Verv Rubico Skin",
         Type = "Weapon Skin"
     },
@@ -6215,6 +6818,7 @@ return {
         Image = "Viktor'sRapierSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Rapier/LasOcelotRapierSkin",
         Link = "Viktor's Rapier Skin",
+        ItemCompatibility = "Rapier",
         Name = "Viktor's Rapier Skin",
         Type = "Weapon Skin"
     },
@@ -6225,6 +6829,7 @@ return {
         Image = "ViperConclaveSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/PvP/Pistols/PvPViper",
         Link = "Viper Conclave Skin",
+        ItemCompatibility = "Viper",
         Name = "Viper Conclave Skin",
         Type = "Weapon Skin"
     },
@@ -6236,6 +6841,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Camo/ViperCamo",
         Introduced = "9.5",
         Link = "Viper Desert-Camo Skin",
+        ItemCompatibility = "Viper",
         Name = "Viper Desert-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -6246,6 +6852,7 @@ return {
         Image = "ViperObsidianSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Sony/ObsidianViper",
         Link = "Viper Obsidian Skin",
+        ItemCompatibility = "Viper",
         Name = "Viper Obsidian Skin",
         Type = "Weapon Skin"
     },
@@ -6255,7 +6862,9 @@ return {
         ExcludeFromCodex = false,
         Image = "ViperRubedoPlatedSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/ReferralSeriesTwo/RubedoViperCamo",
+        Introduced = "13.8.2",
         Link = "Viper Rubedo Plated Skin",
+        ItemCompatibility = "Viper",
         Name = "Viper Rubedo Plated Skin",
         Type = "Weapon Skin"
     },
@@ -6265,7 +6874,9 @@ return {
         ExcludeFromCodex = false,
         Image = "VitreumTomeSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Grimoire/GrimoireFantasySkin",
+        Introduced = "35",
         Link = "Vitreum Tome Skin",
+        ItemCompatibility = "Tome",
         Name = "Vitreum Tome Skin",
         Type = "Weapon Skin"
     },
@@ -6277,6 +6888,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Camo/VulkarCamo",
         Introduced = "9.5",
         Link = "Vulkar Desert-Camo Skin",
+        ItemCompatibility = "Vulkar",
         Name = "Vulkar Desert-Camo Skin",
         Type = "Weapon Skin"
     },
@@ -6286,7 +6898,9 @@ return {
         ExcludeFromCodex = false,
         Image = "WhipWuushSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Whip/SWWuushWhipSkin",
+        Introduced = "25.7.7",
         Link = "Whip Wuush Skin",
+        ItemCompatibility = "Whip",
         Name = "Whip Wuush Skin",
         Type = "Weapon Skin"
     },
@@ -6298,6 +6912,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Glaives/XorisExilisSkin",
         Introduced = "42.0.8",
         Link = "Xoris Elixis Skin",
+        ItemCompatibility = "Xoris",
         Name = "Xoris Elixis Skin",
         Type = "Weapon Skin"
     },
@@ -6309,6 +6924,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/SummerSolstice/SummerSolsticeZarr",
         Introduced = "20.7.3",
         Link = "Zarr Towsun Skin",
+        ItemCompatibility = "Zarr",
         Name = "Zarr Towsun Skin",
         Type = "Weapon Skin"
     },
@@ -6318,7 +6934,9 @@ return {
         ExcludeFromCodex = false,
         Image = "ZastraDualDaggerSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/DualDaggers/TnMilitaryDualDaggerSkin",
+        Introduced = "23.10",
         Link = "Zastra Dual Dagger Skin",
+        ItemCompatibility = "Dual Daggers",
         Name = "Zastra Dual Dagger Skin",
         Type = "Weapon Skin"
     },
@@ -6328,7 +6946,9 @@ return {
         ExcludeFromCodex = false,
         Image = "ZobovShotgunSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Tennocon2020Skins/DeimosSupporterShotgunSkin",
+        Introduced = "29",
         Link = "Zobov Shotgun Skin",
+        ItemCompatibility = "Shotgun",
         Name = "Zobov Shotgun Skin",
         Type = "Weapon Skin"
     },
@@ -6338,7 +6958,9 @@ return {
         ExcludeFromCodex = false,
         Image = "ZundiDualPistolSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Pistols/TnSubmachinegunDualPistolSkin",
+        Introduced = "27",
         Link = "Zundi Dual Pistol Skin",
+        ItemCompatibility = "Dual Pistols",
         Name = "Zundi Dual Pistol Skin",
         Type = "Weapon Skin"
     },
@@ -6348,7 +6970,9 @@ return {
         ExcludeFromCodex = false,
         Image = "ZundiPistolSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Pistols/TnSubmachinegunPistolSkin",
+        Introduced = "27",
         Link = "Zundi Pistol Skin",
+        ItemCompatibility = "Pistol",
         Name = "Zundi Pistol Skin",
         Type = "Weapon Skin"
     },
@@ -6360,6 +6984,7 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Weapons/Pistols/ZylokExilisSkin",
         Introduced = "44.0.3",
         Link = "Zylok Elixis Skin",
+        ItemCompatibility = "Zylok",
         Name = "Zylok Elixis Skin",
         Type = "Weapon Skin"
     },
