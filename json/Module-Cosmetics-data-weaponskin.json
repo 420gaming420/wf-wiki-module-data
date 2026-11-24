@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-11-23T10:28:52.584Z"
+    "converted_at": "2026-11-24T12:10:30.578Z"
   },
   "_comments": "",
   "Protokol 95 Pistol Skin": {
@@ -1263,17 +1263,6 @@
     "Image": "MacheteUdjyat'sSerpentSkin.png",
     "Name": "Machete Udjyat's Serpent Skin",
     "InternalName": "/Lotus/Upgrades/Skins/SteamWorkshop/Melee/Machetes/SWUdjyatMachete",
-    "CodexSecret": false
-  },
-  "Astreos Sword And Shield Skin": {
-    "Type": "Weapon Skin",
-    "Description": "Husband and wife, dawn and dusk. A signature Sword and Shield skin for Equinox.",
-    "Link": "Astreos Sword and Shield Skin",
-    "ItemCompatibility": "Sword and Shield",
-    "ExcludeFromCodex": false,
-    "Image": "AstreosSwordAndShieldSkin.png",
-    "Name": "Astreos Sword and Shield Skin",
-    "InternalName": "/Lotus/Upgrades/Skins/YinYang/EquinoxDeluxeSwordShieldSkin",
     "CodexSecret": false
   },
   "Freedom Flamethrower Skin": {
@@ -3315,6 +3304,17 @@
     "InternalName": "/Lotus/Upgrades/Skins/Promo/Microsoft/JadeFragor",
     "CodexSecret": false
   },
+  "Astreos Sword and Shield Skin": {
+    "Type": "Weapon Skin",
+    "Description": "Husband and wife, dawn and dusk. A signature Sword and Shield skin for Equinox.",
+    "Link": "Astreos Sword and Shield Skin",
+    "ItemCompatibility": "Sword and Shield",
+    "ExcludeFromCodex": false,
+    "Image": "AstreosSwordAndShieldSkin.png",
+    "Name": "Astreos Sword and Shield Skin",
+    "InternalName": "/Lotus/Upgrades/Skins/YinYang/EquinoxDeluxeSwordShieldSkin",
+    "CodexSecret": false
+  },
   "Braton Conclave Skin": {
     "Type": "Weapon Skin",
     "Description": "Bow to the Conclave with this weapon skin.",
@@ -4055,14 +4055,14 @@
     "InternalName": "/Lotus/Upgrades/Skins/Sony/PS5TiberonSkin",
     "CodexSecret": false
   },
-  "Veratria Blade And Whip Skin": {
+  "Veratria Blade and Whip Skin": {
     "Type": "Weapon Skin",
     "Description": "Tangle your target in a thorny vine with this deceptively floral weapon skin.",
-    "Link": "Veratria Blade And Whip Skin",
+    "Link": "Veratria Blade and Whip Skin",
     "ItemCompatibility": "Blade and Whip",
     "ExcludeFromCodex": false,
     "Image": "VeratriaBladeAndWhipSkin.png",
-    "Name": "Veratria Blade And Whip Skin",
+    "Name": "Veratria Blade and Whip Skin",
     "InternalName": "/Lotus/Upgrades/Skins/Khora/KhoraDeluxeWhipBladeSkin",
     "CodexSecret": false
   },

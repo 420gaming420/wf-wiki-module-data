@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/userdata/doc"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/userdata/doc"
-wiki_timestamp: "2026-11-23T02:02:32Z"
+wiki_timestamp: "2026-11-24T02:17:27Z"
 ---
 
 **Users** collection maps items to the cosmetics they can equip in the respective cosmetic slot.
@@ -56,7 +56,7 @@ Supported cosmetic equipment slots
 | --- | --- |
 | Animation Set | [Warframe](/w/Warframe "Warframe"), [Operator](/w/Operator "Operator"), [Drifter](/w/Drifter "Drifter") |
 | Auxiliary | Warframe |
-| Armor | Warframe |
+| Armor | Warframe, [Kubrow](/w/Kubrow "Kubrow"), [Kavat](/w/Kavat "Kavat") |
 | Beard | Drifter |
 | Body Suit | Operator |
 | Chamfron | [Kaithe](/w/Kaithe "Kaithe") |

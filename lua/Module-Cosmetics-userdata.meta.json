@@ -1,13 +1,13 @@
 {
   "page": "Module:Cosmetics/userdata",
-  "wiki_timestamp": "2026-11-23T03:03:24Z",
-  "extracted_at": "2026-11-23T10:28:45.024917+00:00",
+  "wiki_timestamp": "2026-11-24T02:39:53Z",
+  "extracted_at": "2026-11-24T12:10:18.255246+00:00",
   "lua_files": [
     "Module-Cosmetics-userdata_0.lua",
     "Module-Cosmetics-userdata_1.lua"
   ],
   "lua_block_count": 2,
-  "file_size": 160429,
+  "file_size": 160235,
   "comment_count": 3,
   "status": "success"
 }

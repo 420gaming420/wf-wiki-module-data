@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-09-30T08:12:14.021Z"
+    "converted_at": "2026-11-24T12:10:27.929Z"
   },
   "_comments": "",
   "Tammpet Sugatra": {
@@ -37,6 +37,16 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
+  "Zato Sugatra": {
+    "Type": "Sugatra",
+    "Image": "ZatoSugatra.png",
+    "Description": "This meditation-bead Sugatra is a signature adornment of Excalibur Zato.",
+    "Link": "Zato Sugatra",
+    "Name": "Zato Sugatra",
+    "InternalName": "/Lotus/Upgrades/Skins/Excalibur/ExcaliburDeluxeSugatra",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
   "Obsidian Monast Sugatra": {
     "Type": "Sugatra",
     "Image": "ObsidianMonastSugatra.png",
@@ -45,6 +55,16 @@
     "Name": "Obsidian Monast Sugatra",
     "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/Obsidian2SugatraMeleeDangle",
     "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Vala Prime Sugatra": {
+    "Type": "Sugatra",
+    "Image": "ValaPrimeSugatra.png",
+    "Description": "A prized relic from the Orokin era. These ornaments decorated the weapons of their military vanguard.",
+    "Link": "Vala Prime Sugatra",
+    "Name": "Vala Prime Sugatra",
+    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/ValaPrimeMeleeDangle",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Naviga Prime Sugatra": {
@@ -57,24 +77,24 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Zato Sugatra": {
+  "Melia Sugatra": {
     "Type": "Sugatra",
-    "Image": "ZatoSugatra.png",
-    "Description": "This meditation-bead Sugatra is a signature adornment of Excalibur Zato.",
-    "Link": "Zato Sugatra",
-    "Name": "Zato Sugatra",
-    "InternalName": "/Lotus/Upgrades/Skins/Excalibur/ExcaliburDeluxeSugatra",
-    "ExcludeFromCodex": false,
+    "Image": "MeliaSugatra.png",
+    "Description": "This dazzling floral form can conceal darker intentions.",
+    "Link": "Melia Sugatra",
+    "Name": "Melia Sugatra",
+    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/SarynDeluxeMeleeDangle",
+    "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Vala Prime Sugatra": {
+  "Nikana Prime Sugatra": {
     "Type": "Sugatra",
-    "Image": "ValaPrimeSugatra.png",
-    "Description": "A prized relic from the Orokin era. These ornaments decorated the weapons of their military vanguard.",
-    "Link": "Vala Prime Sugatra",
-    "Name": "Vala Prime Sugatra",
-    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/ValaPrimeMeleeDangle",
-    "ExcludeFromCodex": false,
+    "Image": "NikanaPrimeSugatra.png",
+    "Description": "An ornamental sugatra unique to the Nikana Prime.",
+    "Link": "Nikana Prime Sugatra",
+    "Name": "Nikana Prime Sugatra",
+    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/NikanaPrimeMeleeDangle",
+    "ExcludeFromCodex": true,
     "CodexSecret": false
   },
   "Marquis Sugatra": {
@@ -107,13 +127,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Keratose Sugatra": {
+  "Tentacyst": {
     "Type": "Sugatra",
-    "Image": "KeratoseSugatra.png",
-    "Description": "This Infested sugatra is a benign cellular growth self-protected by chitinous plates.",
-    "Link": "Keratose Sugatra",
-    "Name": "Keratose Sugatra",
-    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/InfShellSugatraMeleeDangle",
+    "Image": "Tentacyst.png",
+    "Description": "A disgusting little nib of flesh to infest the hilt of any Melee Weapon.",
+    "Link": "Tentacyst",
+    "Name": "Tentacyst",
+    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/EmbolistMeleeDangle",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -127,26 +147,6 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Opal Marteddu Sugatra": {
-    "Type": "Sugatra",
-    "Image": "OpalMartedduSugatra.png",
-    "Description": "An exclusive, hammer-like Sugatra.",
-    "Link": "Opal Marteddu Sugatra",
-    "Name": "Opal Marteddu Sugatra",
-    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/SugatraNintendo",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Tentacyst": {
-    "Type": "Sugatra",
-    "Image": "Tentacyst.png",
-    "Description": "A disgusting little nib of flesh to infest the hilt of any Melee Weapon.",
-    "Link": "Tentacyst",
-    "Name": "Tentacyst",
-    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/EmbolistMeleeDangle",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "TennoCon 2022 Sugatra": {
     "Type": "Sugatra",
     "Image": "TennoCon2022Sugatra.png",
@@ -157,14 +157,34 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Lunar Renewal Carp Sugatra": {
+  "Pataga Sugatra": {
     "Type": "Sugatra",
-    "Image": "LunarRenewalCarpSugatra.png",
-    "Description": "A weapon decoration in the form of two circling carp.",
-    "Link": "Lunar Renewal Carp Sugatra",
-    "Name": "Lunar Renewal Carp Sugatra",
-    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/LNYCarpSugatra",
+    "Image": "PatagaSugatra.png",
+    "Description": "This sugatra is favoured by Tenno participating in the Conclave, as it is a symbol of unity and conviction.",
+    "Link": "Pataga Sugatra",
+    "Name": "Pataga Sugatra",
+    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/TennoMeleeDangle",
     "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Suraka Sugatra": {
+    "Type": "Sugatra",
+    "Image": "SurakaSugatra.png",
+    "Description": "Expressing the martial finesse and skill of its master, the Suraka Sugatra uses an ancient Tenno ceremonial design.",
+    "Link": "Suraka Sugatra",
+    "Name": "Suraka Sugatra",
+    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/LotusPointMeleeDangle",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Sporavyre Sugatra": {
+    "Type": "Sugatra",
+    "Image": "SporavyreSugatra.png",
+    "Description": "A docile Sentient entity that can be used as a weapon decoration.",
+    "Link": "Sporavyre Sugatra",
+    "Name": "Sporavyre Sugatra",
+    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/SentSugatraNewWarDangle",
+    "ExcludeFromCodex": true,
     "CodexSecret": false
   },
   "Eskhatos Sugatra": {
@@ -177,13 +197,13 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Suraka Sugatra": {
+  "Spektaka Prime Sugatra": {
     "Type": "Sugatra",
-    "Image": "SurakaSugatra.png",
-    "Description": "Expressing the martial finesse and skill of its master, the Suraka Sugatra uses an ancient Tenno ceremonial design.",
-    "Link": "Suraka Sugatra",
-    "Name": "Suraka Sugatra",
-    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/LotusPointMeleeDangle",
+    "Image": "SpektakaPrimeSugatra.png",
+    "Description": "See and be seen with this captivating Sugatra.",
+    "Link": "Spektaka Prime Sugatra",
+    "Name": "Spektaka Prime Sugatra",
+    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/TwitchPrimeMeleeDangle",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -207,36 +227,6 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Sporavyre Sugatra": {
-    "Type": "Sugatra",
-    "Image": "SporavyreSugatra.png",
-    "Description": "A docile Sentient entity that can be used as a weapon decoration.",
-    "Link": "Sporavyre Sugatra",
-    "Name": "Sporavyre Sugatra",
-    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/SentSugatraNewWarDangle",
-    "ExcludeFromCodex": true,
-    "CodexSecret": false
-  },
-  "Spektaka Prime Sugatra": {
-    "Type": "Sugatra",
-    "Image": "SpektakaPrimeSugatra.png",
-    "Description": "See and be seen with this captivating Sugatra.",
-    "Link": "Spektaka Prime Sugatra",
-    "Name": "Spektaka Prime Sugatra",
-    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/TwitchPrimeMeleeDangle",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
-  "Boolean Sugatra": {
-    "Type": "Sugatra",
-    "Image": "BooleanSugatra.png",
-    "Description": "A Cephalon inspired Sugatra.",
-    "Link": "Boolean Sugatra",
-    "Name": "Boolean Sugatra",
-    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/CephalonSugatraDangle",
-    "ExcludeFromCodex": false,
-    "CodexSecret": false
-  },
   "Sigma Series Sugatra": {
     "Type": "Sugatra",
     "Image": "SigmaSeriesSugatra.png",
@@ -255,6 +245,36 @@
     "Name": "Sardin Prime Sugatra",
     "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/PrimeDangleEMeleeDangle",
     "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Boolean Sugatra": {
+    "Type": "Sugatra",
+    "Image": "BooleanSugatra.png",
+    "Description": "A Cephalon inspired Sugatra.",
+    "Link": "Boolean Sugatra",
+    "Name": "Boolean Sugatra",
+    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/CephalonSugatraDangle",
+    "ExcludeFromCodex": false,
+    "CodexSecret": false
+  },
+  "Eminence Sugatra": {
+    "Type": "Sugatra",
+    "Image": "EminenceSugatra.png",
+    "Description": "The signature sugatra of Chroma Dynasty and his mighty Dominion blade.",
+    "Link": "Eminence Sugatra",
+    "Name": "Eminence Sugatra",
+    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/ChromaDeluxeMeleeDangle",
+    "ExcludeFromCodex": true,
+    "CodexSecret": false
+  },
+  "Quaro Sugatra": {
+    "Type": "Sugatra",
+    "Image": "QuaroSugatra.png",
+    "Description": "A token of Corpus ingenuity.",
+    "Link": "Quaro Sugatra",
+    "Name": "Quaro Sugatra",
+    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/CorpusMeleeDangle",
+    "ExcludeFromCodex": true,
     "CodexSecret": false
   },
   "Kuva Cord": {
@@ -277,24 +297,24 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Oscira Sugatra": {
+  "Pyra Sugatra": {
     "Type": "Sugatra",
-    "Image": "OsciraSugatra.png",
-    "Description": "This Sugatra catches the eye with its pale blue lights and metallic surfaces.",
-    "Link": "Oscira Sugatra",
-    "Name": "Oscira Sugatra",
-    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/TnSugatraNewPlayerXpMeleeDangle",
+    "Image": "PyraSugatra.png",
+    "Description": "During the height of the Old War, Tenno raiders used these flaming sugatras to intimidate and distract enemies.",
+    "Link": "Pyra Sugatra",
+    "Name": "Pyra Sugatra",
+    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/FireMeleeDangle",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Eminence Sugatra": {
+  "Atomicycle Key Sugatra": {
     "Type": "Sugatra",
-    "Image": "EminenceSugatra.png",
-    "Description": "The signature sugatra of Chroma Dynasty and his mighty Dominion blade.",
-    "Link": "Eminence Sugatra",
-    "Name": "Eminence Sugatra",
-    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/ChromaDeluxeMeleeDangle",
-    "ExcludeFromCodex": true,
+    "Image": "AtomicycleKeySugatra.png",
+    "Description": "Never lose your keys again with this convenient sugatra.",
+    "Link": "Atomicycle Key Sugatra",
+    "Name": "Atomicycle Key Sugatra",
+    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/AtomicycleKeychainMeleeDangle",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Cordmade Sugatra": {
@@ -327,23 +347,23 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Quaro Sugatra": {
+  "Ki'Teer Sugatra": {
     "Type": "Sugatra",
-    "Image": "QuaroSugatra.png",
-    "Description": "A token of Corpus ingenuity.",
-    "Link": "Quaro Sugatra",
-    "Name": "Quaro Sugatra",
-    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/CorpusMeleeDangle",
+    "Image": "Ki'TeerSugatra.png",
+    "Description": "The finest Sugatra for your finest weapon.",
+    "Link": "Ki'Teer Sugatra",
+    "Name": "Ki'Teer Sugatra",
+    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/BaroMeleeDangle",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Pyra Sugatra": {
+  "Pazza Sugatra": {
     "Type": "Sugatra",
-    "Image": "PyraSugatra.png",
-    "Description": "During the height of the Old War, Tenno raiders used these flaming sugatras to intimidate and distract enemies.",
-    "Link": "Pyra Sugatra",
-    "Name": "Pyra Sugatra",
-    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/FireMeleeDangle",
+    "Image": "PazzaSugatra.png",
+    "Description": "Expressing the martial finesse and skill of its master, the Pazza Sugatra is based on a Corpus design.",
+    "Link": "Pazza Sugatra",
+    "Name": "Pazza Sugatra",
+    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/ChainTridentMeleeDangle",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -367,13 +387,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Pazza Sugatra": {
+  "Oscira Sugatra": {
     "Type": "Sugatra",
-    "Image": "PazzaSugatra.png",
-    "Description": "Expressing the martial finesse and skill of its master, the Pazza Sugatra is based on a Corpus design.",
-    "Link": "Pazza Sugatra",
-    "Name": "Pazza Sugatra",
-    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/ChainTridentMeleeDangle",
+    "Image": "OsciraSugatra.png",
+    "Description": "This Sugatra catches the eye with its pale blue lights and metallic surfaces.",
+    "Link": "Oscira Sugatra",
+    "Name": "Oscira Sugatra",
+    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/TnSugatraNewPlayerXpMeleeDangle",
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
@@ -387,14 +407,14 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Pataga Sugatra": {
+  "Opal Marteddu Sugatra": {
     "Type": "Sugatra",
-    "Image": "PatagaSugatra.png",
-    "Description": "This sugatra is favoured by Tenno participating in the Conclave, as it is a symbol of unity and conviction.",
-    "Link": "Pataga Sugatra",
-    "Name": "Pataga Sugatra",
-    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/TennoMeleeDangle",
-    "ExcludeFromCodex": false,
+    "Image": "OpalMartedduSugatra.png",
+    "Description": "An exclusive, hammer-like Sugatra.",
+    "Link": "Opal Marteddu Sugatra",
+    "Name": "Opal Marteddu Sugatra",
+    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/SugatraNintendo",
+    "ExcludeFromCodex": true,
     "CodexSecret": false
   },
   "Interga Sugatra": {
@@ -457,14 +477,14 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Nikana Prime Sugatra": {
+  "Lunar Renewal Carp Sugatra": {
     "Type": "Sugatra",
-    "Image": "NikanaPrimeSugatra.png",
-    "Description": "An ornamental sugatra unique to the Nikana Prime.",
-    "Link": "Nikana Prime Sugatra",
-    "Name": "Nikana Prime Sugatra",
-    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/NikanaPrimeMeleeDangle",
-    "ExcludeFromCodex": true,
+    "Image": "LunarRenewalCarpSugatra.png",
+    "Description": "A weapon decoration in the form of two circling carp.",
+    "Link": "Lunar Renewal Carp Sugatra",
+    "Name": "Lunar Renewal Carp Sugatra",
+    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/LNYCarpSugatra",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Caggro Sugatra": {
@@ -477,13 +497,13 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Melia Sugatra": {
+  "Jack o'Naut Keychain Sugatra": {
     "Type": "Sugatra",
-    "Image": "MeliaSugatra.png",
-    "Description": "This dazzling floral form can conceal darker intentions.",
-    "Link": "Melia Sugatra",
-    "Name": "Melia Sugatra",
-    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/SarynDeluxeMeleeDangle",
+    "Image": "JackO'NautKeychainSugatra.png",
+    "Description": "A hallowed nightmare of a sugatra.",
+    "Link": "Jack o'Naut Keychain Sugatra",
+    "Name": "Jack o'Naut Keychain Sugatra",
+    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/PumpkinMeleeDangle",
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
@@ -497,14 +517,14 @@
     "ExcludeFromCodex": false,
     "CodexSecret": false
   },
-  "Ki'Teer Sugatra": {
+  "Keratose Sugatra": {
     "Type": "Sugatra",
-    "Image": "Ki'TeerSugatra.png",
-    "Description": "The finest Sugatra for your finest weapon.",
-    "Link": "Ki'Teer Sugatra",
-    "Name": "Ki'Teer Sugatra",
-    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/BaroMeleeDangle",
-    "ExcludeFromCodex": true,
+    "Image": "KeratoseSugatra.png",
+    "Description": "This Infested sugatra is a benign cellular growth self-protected by chitinous plates.",
+    "Link": "Keratose Sugatra",
+    "Name": "Keratose Sugatra",
+    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/InfShellSugatraMeleeDangle",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Lunaeus Knot Sugatra": {
@@ -527,14 +547,14 @@
     "ExcludeFromCodex": true,
     "CodexSecret": false
   },
-  "Jack o'Naut Keychain Sugatra": {
+  "Drippy Keychain Sugatra": {
     "Type": "Sugatra",
-    "Image": "JackO'NautKeychainSugatra.png",
-    "Description": "A hallowed nightmare of a sugatra.",
-    "Link": "Jack o'Naut Keychain Sugatra",
-    "Name": "Jack o'Naut Keychain Sugatra",
-    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/PumpkinMeleeDangle",
-    "ExcludeFromCodex": true,
+    "Image": "DrippyKeychainSugatra.png",
+    "Description": "Show off your drip with this drippy Drippy sugatra.",
+    "Link": "Drippy Keychain Sugatra",
+    "Name": "Drippy Keychain Sugatra",
+    "InternalName": "/Lotus/Upgrades/Skins/MeleeDangles/DrippyKeychainMeleeDangle",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Daman Prime Sugatra": {

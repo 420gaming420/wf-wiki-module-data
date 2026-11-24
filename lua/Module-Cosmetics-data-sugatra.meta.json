@@ -1,12 +1,12 @@
 {
   "page": "Module:Cosmetics/data/sugatra",
-  "wiki_timestamp": "2026-09-29T11:01:40Z",
-  "extracted_at": "2026-09-30T08:11:53.541109+00:00",
+  "wiki_timestamp": "2026-11-23T18:57:43Z",
+  "extracted_at": "2026-11-24T12:10:18.233802+00:00",
   "lua_files": [
     "Module-Cosmetics-data-sugatra_0.lua"
   ],
   "lua_block_count": 1,
-  "file_size": 23693,
+  "file_size": 24546,
   "comment_count": 0,
   "status": "success"
 }

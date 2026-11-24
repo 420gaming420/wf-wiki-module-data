@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-11-23T10:28:55.224Z"
+    "converted_at": "2026-11-24T12:10:33.216Z"
   },
   "_comments": "\t\t\t\t--\"Sirocco Amp Skin\",\n\t\t\t\t--\"Tempera Amp Skin\",\n\t\t\t\t--\"Vacis Amp Skin\",",
   "Heavy Scythe": {
@@ -16,7 +16,7 @@
     }
   },
   "Ambassador": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Ambassador Tenet Skin"
@@ -46,7 +46,7 @@
     "Variants": [
       "Aklex Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Kunai": {
     "Equipments": {
@@ -60,7 +60,7 @@
     "Variants": [
       "Mk1-Kunai"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Redeemer": {
     "Equipments": {
@@ -75,10 +75,10 @@
     "Variants": [
       "Redeemer Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Amprex": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Amprex Day of the Dead Skin",
@@ -114,7 +114,7 @@
     "Variants": [
       "Artemis Bow Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Dex Pixia": {
     "Equipments": {
@@ -126,10 +126,10 @@
     "Variants": [
       "Dex Pixia Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Basmu": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Basmu Day of the Dead Skin"
@@ -157,10 +157,10 @@
       "Latron Prime",
       "Latron Wraith"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Dark Split-Sword": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Dark Split-Sword Day of the Dead Skin",
@@ -170,7 +170,7 @@
     }
   },
   "Dragon Nikana": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Dragon Nikana Conclave Skin",
@@ -179,7 +179,7 @@
     }
   },
   "Aklato": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Aklato Conclave Skin",
@@ -192,7 +192,7 @@
     }
   },
   "Atterax": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Atterax Desert-Camo Skin",
@@ -201,7 +201,7 @@
     }
   },
   "Mausolon": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Eskhatos Mausolon Skin",
@@ -246,7 +246,7 @@
       "Ballistica Prime",
       "Rakta Ballistica"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Oberon": {
     "Equipments": {
@@ -298,10 +298,10 @@
     "Variants": [
       "Lex Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Nepheri": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Niveus Nepheri Skin"
@@ -342,7 +342,7 @@
     "Type": "Warframe"
   },
   "Ack & Brunt": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Ack & Brunt Conclave Skin",
@@ -361,7 +361,7 @@
     "Variants": [
       "Synoid Gammacor"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Grinlok": {
     "Equipments": {
@@ -376,10 +376,10 @@
     "Variants": [
       "Prisma Grinlok"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Dual Skana": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Dual Skana Conclave Skin",
@@ -397,7 +397,7 @@
     "Variants": [
       "Cedo Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Shade": {
     "Equipments": {
@@ -414,7 +414,7 @@
     "Type": "Companion"
   },
   "Buzlok": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Buzlok Day of the Dead Skin"
@@ -493,7 +493,7 @@
     }
   },
   "Arcata": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Arcata Riv Skin"
@@ -509,7 +509,7 @@
     "Variants": [
       "Ceti Lacera"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Furax": {
     "Equipments": {
@@ -521,7 +521,7 @@
       "Furax Wraith",
       "Mk1-Furax"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Akvasto": {
     "Equipments": {
@@ -536,7 +536,7 @@
     "Variants": [
       "Akvasto Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Mag": {
     "Equipments": {
@@ -605,7 +605,7 @@
       "Paris Prime",
       "Mk1-Paris"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Silva & Aegis": {
     "Equipments": {
@@ -618,10 +618,10 @@
     "Variants": [
       "Silva & Aegis Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Serro": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Serro Obsidian Skin"
@@ -743,7 +743,7 @@
     "Variants": [
       "Galatine Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Nidus": {
     "Equipments": {
@@ -802,7 +802,7 @@
     "Variants": [
       "Kronen Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Alternox": {
     "Equipments": {
@@ -813,7 +813,7 @@
     "Variants": [
       "Alternox Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "K-Drive": {
     "Type": "Vehicle",
@@ -888,10 +888,10 @@
       "Gorgon Wraith",
       "Prisma Gorgon"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Attica": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Attica Obsidian Skin"
@@ -913,7 +913,7 @@
       "Machete Wraith",
       "Prisma Machete"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Predasite": {
     "Type": "Beast",
@@ -932,10 +932,10 @@
     "Variants": [
       "Venka Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Jat Kittag": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Jat Kittag Conclave Skin",
@@ -957,7 +957,7 @@
     }
   },
   "Shadow Claws": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Sevagoth Glaukus Shadow Claws",
@@ -976,7 +976,7 @@
     "Variants": [
       "Daikyu Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Ash": {
     "Equipments": {
@@ -1018,7 +1018,7 @@
     "Type": "Warframe"
   },
   "Ocucor": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Ocucor Solstice Skin"
@@ -1203,7 +1203,7 @@
       "Quanta Vandal",
       "Tenet Quanta"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Angstrum": {
     "Equipments": {
@@ -1215,10 +1215,10 @@
     "Variants": [
       "Prisma Angstrum"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Parazon": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Eskhatos Parazon Skin",
@@ -1236,7 +1236,7 @@
     "Variants": [
       "Nagantaka Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Soma": {
     "Equipments": {
@@ -1251,7 +1251,7 @@
     "Variants": [
       "Soma Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Zephyr": {
     "Equipments": {
@@ -1318,10 +1318,10 @@
     "Variants": [
       "Gram Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Cantare": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Cantare Solstice Skin"
@@ -1337,7 +1337,7 @@
     "Variants": [
       "Kuva Brakk"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Veritux": {
     "Equipments": {
@@ -1349,7 +1349,7 @@
     "Variants": [
       "Prisma Veritux"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Archwing": {
     "Type": "Vehicle",
@@ -1369,7 +1369,7 @@
     "Variants": [
       "Prova Vandal"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Pistol": {
     "Type": "Weapon Class",
@@ -1400,7 +1400,7 @@
       "Mara Detron",
       "Tenet Detron"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Chroma": {
     "Equipments": {
@@ -1449,7 +1449,7 @@
     "Variants": [
       "Regulators Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Marelok": {
     "Equipments": {
@@ -1464,7 +1464,7 @@
     "Variants": [
       "Vaykor Marelok"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Akstiletto": {
     "Equipments": {
@@ -1476,7 +1476,7 @@
     "Variants": [
       "Akstiletto Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Imperator": {
     "Equipments": {
@@ -1488,7 +1488,7 @@
     "Variants": [
       "Imperator Vandal"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Bo": {
     "Equipments": {
@@ -1501,10 +1501,10 @@
       "Bo Prime",
       "Mk1-Bo"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Exergis": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Exergis Shock-Camo Skin"
@@ -1512,7 +1512,7 @@
     }
   },
   "Amp": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": {}
     }
@@ -1528,7 +1528,7 @@
       "Secura Penta",
       "Carmine Penta"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Frost": {
     "Equipments": {
@@ -1601,7 +1601,7 @@
     "Variants": [
       "Kuva Drakgoon"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Glaive (Weapon Type)": {
     "Type": "Weapon Class",
@@ -1627,7 +1627,7 @@
     "Variants": [
       "Afuris Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Dagath": {
     "Type": "Warframe",
@@ -1655,7 +1655,7 @@
     }
   },
   "Nunchaku": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Holster": [
         "Nunchaku Hip Holster",
@@ -1720,7 +1720,7 @@
     "Variants": [
       "Kuva Tonkor"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Khora": {
     "Equipments": {
@@ -1817,7 +1817,7 @@
     }
   },
   "Paracesis": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Paracesis Elixis Skin",
@@ -1903,7 +1903,7 @@
     }
   },
   "Sonicor": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Sonicor Cliona Skin",
@@ -1953,7 +1953,7 @@
     }
   },
   "Heat Sword": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Heat Sword Forest-Camo Skin",
@@ -2035,7 +2035,7 @@
     "Type": "Warframe"
   },
   "Furis": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Furis Forest-Camo Skin",
@@ -2095,7 +2095,7 @@
     "Variants": [
       "Secura Lecta"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Diriga": {
     "Type": "Companion",
@@ -2109,7 +2109,7 @@
     }
   },
   "Fluctus": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Fluctus Rahk Skin"
@@ -2123,7 +2123,7 @@
         "Veratria Blade and Whip Skin"
       ],
       "Holster": [
-        "Blade And Whip Standard Holster"
+        "Blade and Whip Standard Holster"
       ]
     }
   },
@@ -2137,7 +2137,7 @@
     "Variants": [
       "Fulmin Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Opticor": {
     "Equipments": {
@@ -2152,7 +2152,7 @@
     "Variants": [
       "Opticor Vandal"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Okina": {
     "Equipments": {
@@ -2164,7 +2164,7 @@
     "Variants": [
       "Okina Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Protea": {
     "Equipments": {
@@ -2205,7 +2205,7 @@
       "Glaxion Vandal",
       "Tenet Glaxion"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Fist": {
     "Type": "Weapon Class",
@@ -2230,7 +2230,7 @@
     "Variants": [
       "Supra Vandal"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Spectra": {
     "Equipments": {
@@ -2241,7 +2241,7 @@
     "Variants": [
       "Spectra Vandal"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Claws": {
     "Type": "Weapon Class",
@@ -2276,7 +2276,7 @@
       ]
     },
     "Variants": {},
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Merulina": {
     "Equipments": {
@@ -2301,7 +2301,7 @@
     "Variants": [
       "Rakta Dark Dagger"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Dera": {
     "Equipments": {
@@ -2312,10 +2312,10 @@
     "Variants": [
       "Dera Vandal"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Cestra": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Cestra Shock-Camo Skin"
@@ -2335,7 +2335,7 @@
     "Variants": [
       "Acceltra Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Gunblade": {
     "Type": "Weapon Class",
@@ -2364,7 +2364,7 @@
     "Variants": [
       "Pyrana Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Epitaph": {
     "Equipments": {
@@ -2376,7 +2376,7 @@
     "Variants": [
       "Epitaph Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Gunsen": {
     "Equipments": {
@@ -2387,7 +2387,7 @@
     "Variants": [
       "Gunsen Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Stradavar": {
     "Equipments": {
@@ -2399,7 +2399,7 @@
     "Variants": [
       "Stradavar Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Karyst": {
     "Equipments": {
@@ -2410,7 +2410,7 @@
     "Variants": [
       "Karyst Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Ignis": {
     "Equipments": {
@@ -2426,7 +2426,7 @@
     "Variants": [
       "Ignis Wraith"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Zarr": {
     "Equipments": {
@@ -2438,7 +2438,7 @@
     "Variants": [
       "Kuva Zarr"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Boltor": {
     "Equipments": {
@@ -2455,7 +2455,7 @@
       "Boltor Prime",
       "Telos Boltor"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Mirage": {
     "Equipments": {
@@ -2497,7 +2497,7 @@
     "Type": "Warframe"
   },
   "Shedu": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Shedu Day of the Dead Skin"
@@ -2505,7 +2505,7 @@
     }
   },
   "Bolto": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Bolto Ormolu Skin"
@@ -2522,7 +2522,7 @@
     "Variants": [
       "Rubico Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Zylok": {
     "Equipments": {
@@ -2533,7 +2533,7 @@
     "Variants": [
       "Zylok Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Karak": {
     "Equipments": {
@@ -2546,7 +2546,7 @@
       "Karak Wraith",
       "Kuva Karak"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Simulor": {
     "Equipments": {
@@ -2557,7 +2557,7 @@
     "Variants": [
       "Synoid Simulor"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Corvas": {
     "Equipments": {
@@ -2568,7 +2568,7 @@
     "Variants": [
       "Corvas Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Voidshell": {
     "Type": "Texture",
@@ -2655,7 +2655,7 @@
     "Variants": [
       "Kuva Hek"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Nikana": {
     "Equipments": {
@@ -2669,7 +2669,7 @@
     "Variants": [
       "Nikana Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Amesha": {
     "Type": "Archwing",
@@ -2688,7 +2688,7 @@
     "Variants": [
       "Quassus Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Dual Keres": {
     "Equipments": {
@@ -2699,7 +2699,7 @@
     "Variants": [
       "Dual Keres Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Helminth Charger": {
     "Type": "Companion",
@@ -2752,7 +2752,7 @@
     "Variants": [
       "Secura Dual Cestra"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Vulpaphyla": {
     "Type": "Beast",
@@ -2853,7 +2853,7 @@
     "Variants": [
       "Diwata Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Akjagara": {
     "Equipments": {
@@ -2864,7 +2864,7 @@
     "Variants": [
       "Akjagara Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Inaros": {
     "Equipments": {
@@ -2893,7 +2893,7 @@
     "Type": "Warframe"
   },
   "Atomos": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Atomos Solstice Skin",
@@ -2931,7 +2931,7 @@
     "Variants": [
       "Ankyros Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Xaku": {
     "Equipments": {
@@ -2988,7 +2988,7 @@
       ]
     },
     "Variants": {},
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Wyrm": {
     "Equipments": {
@@ -3105,7 +3105,7 @@
     "Variants": [
       "Prisma Obex"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Scindo": {
     "Equipments": {
@@ -3128,7 +3128,7 @@
     "Variants": [
       "Scindo Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Vulkar": {
     "Equipments": {
@@ -3139,7 +3139,7 @@
     "Variants": [
       "Vulkar Wraith"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Voruna": {
     "Equipments": {
@@ -3306,7 +3306,7 @@
       "Telos Akbolto",
       "Akbolto Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Kohm": {
     "Equipments": {
@@ -3317,7 +3317,7 @@
     "Variants": [
       "Kuva Kohm"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Styanax": {
     "Equipments": {
@@ -3373,7 +3373,7 @@
     "Type": "Warframe"
   },
   "Heat Dagger": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Heat Dagger Forest-Camo Skin",
@@ -3416,10 +3416,10 @@
     "Variants": [
       "Vasto Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Dex Dakra": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Dex Dakra Jade Skin",
@@ -3429,7 +3429,7 @@
     }
   },
   "Dark Sword": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Dark Sword Day of the Dead Skin",
@@ -3449,7 +3449,7 @@
     "Variants": [
       "Twin Vipers Wraith"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Rapier": {
     "Type": "Weapon Class",
@@ -3922,7 +3922,7 @@
     }
   },
   "Twin Rogga": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Twin Rogga Towsun Skin"
@@ -3938,7 +3938,7 @@
     "Variants": [
       "Baza Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Cernos": {
     "Equipments": {
@@ -3950,7 +3950,7 @@
       "Cernos Prime",
       "Rakta Cernos"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Arca Plasmor": {
     "Equipments": {
@@ -3961,7 +3961,7 @@
     "Variants": [
       "Tenet Arca Plasmor"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Saryn": {
     "Equipments": {
@@ -4018,7 +4018,7 @@
     "Variants": [
       "Pandero Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Trinity": {
     "Equipments": {
@@ -4121,7 +4121,7 @@
     "Variants": [
       "Corinth Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Tipedo": {
     "Equipments": {
@@ -4133,7 +4133,7 @@
     "Variants": [
       "Tipedo Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Tigris": {
     "Equipments": {
@@ -4149,7 +4149,7 @@
       "Tigris Prime",
       "Sancti Tigris"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Skaut": {
     "Type": "Landing Craft",
@@ -4160,7 +4160,7 @@
     }
   },
   "Cortege": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Cortege Supulchrax Skin"
@@ -4189,7 +4189,7 @@
       "Prisma Tetra",
       "Tenet Tetra"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Temple": {
     "Type": "Warframe",
@@ -4222,7 +4222,7 @@
     "Variants": [
       "Tatsu Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Sybaris": {
     "Equipments": {
@@ -4235,7 +4235,7 @@
       "Sybaris Prime",
       "Dex Sybaris"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Dual Swords": {
     "Type": "Weapon Class",
@@ -4256,7 +4256,7 @@
     }
   },
   "Paracyst": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Paracyst Zebra Skin"
@@ -4570,12 +4570,12 @@
       "Skin": [
         "Astreos Sword and Shield Skin",
         "Gaforn Sword and Shield Skin",
-        "Sword And Shield Danaus Skin"
+        "Sword and Shield Danaus Skin"
       ],
       "Holster": [
-        "Sword And Shield High Draw",
-        "Sword And Shield Low Draw",
-        "Sword And Shield Standard Draw"
+        "Sword and Shield High Draw",
+        "Sword and Shield Low Draw",
+        "Sword and Shield Standard Draw"
       ]
     }
   },
@@ -4591,7 +4591,7 @@
     "Variants": [
       "Viper Wraith"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Ogris": {
     "Equipments": {
@@ -4606,10 +4606,10 @@
     "Variants": [
       "Kuva Ogris"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Sun & Moon": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Tiandi Sun & Moon Skin"
@@ -4617,7 +4617,7 @@
     }
   },
   "Stubba": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Stubba Towsun Skin"
@@ -4635,7 +4635,7 @@
       "Strun Wraith",
       "Mk1-Strun"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Two-Handed Nikana": {
     "Type": "Weapon Class",
@@ -4742,7 +4742,7 @@
     "Variants": [
       "Spira Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Orthos": {
     "Equipments": {
@@ -4759,7 +4759,7 @@
     "Variants": [
       "Orthos Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Speargun": {
     "Type": "Weapon Class",
@@ -4782,7 +4782,7 @@
     "Variants": [
       "Guandao Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Atlas": {
     "Equipments": {
@@ -4822,7 +4822,7 @@
     "Variants": [
       "Kuva Sobek"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Heliocor": {
     "Equipments": {
@@ -4833,7 +4833,7 @@
     "Variants": [
       "Synoid Heliocor"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Grimoire": {
     "Equipments": {
@@ -4848,7 +4848,7 @@
     "Variants": [
       "Noctua"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Rhino": {
     "Equipments": {
@@ -4918,7 +4918,7 @@
     }
   },
   "Skiajati": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Skiajati Day of the Dead Skin",
@@ -4936,7 +4936,7 @@
     "Variants": [
       "Tiberon Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Excalibur": {
     "Equipments": {
@@ -5038,7 +5038,7 @@
       "Prisma Skana",
       "Skana Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Kaithe": {
     "Type": "Vehicle",
@@ -5166,7 +5166,7 @@
     }
   },
   "Scoliac": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Scoliac Obsidian Skin"
@@ -5174,7 +5174,7 @@
     }
   },
   "Kama": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Kama Jade Skin"
@@ -5237,7 +5237,7 @@
     }
   },
   "Stahlta": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Stahlta Shock Rifle Skin"
@@ -5291,7 +5291,7 @@
       "Braton Vandal",
       "Mk1-Braton"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Balefire Charger": {
     "Equipments": {
@@ -5302,10 +5302,10 @@
     "Variants": [
       "Balefire Charger Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Twin Grakatas": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Twin Grakatas Day of the Dead Skin",
@@ -5366,7 +5366,7 @@
     "Variants": [
       "Snipetron Vandal"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Magnus": {
     "Equipments": {
@@ -5380,7 +5380,7 @@
     "Variants": [
       "Magnus Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Lotus": {
     "Type": "Avatar",
@@ -5397,7 +5397,7 @@
     }
   },
   "Quellor": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Niveus Quellor Skin"
@@ -5413,7 +5413,7 @@
     "Variants": [
       "Kuva Quartakk"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Gyre": {
     "Equipments": {
@@ -5467,7 +5467,7 @@
     "Variants": [
       "Glaive Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Polearm": {
     "Type": "Weapon Class",
@@ -5492,7 +5492,7 @@
     }
   },
   "Dual Daggers": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Teng Dual Dagger Skin",
@@ -5505,7 +5505,7 @@
     }
   },
   "Pennant": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Pennant Obsidian Skin"
@@ -5564,10 +5564,10 @@
     "Variants": [
       "Dual Kamas Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Parallax": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Parallax Albodix Skin",
@@ -5587,10 +5587,10 @@
     "Variants": [
       "Panthera Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Falcor": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Falcor Shock-Camo Skin"
@@ -5738,7 +5738,7 @@
     }
   },
   "Kesheg": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Kesheg Towsun Skin"
@@ -5749,7 +5749,7 @@
     }
   },
   "Orvius": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Orvius Dax Skin",
@@ -5766,10 +5766,10 @@
     "Variants": [
       "Garuda Prime Talons"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Lanka": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Lanka Shock-Camo Skin"
@@ -5918,7 +5918,7 @@
     "Variants": [
       "Kuva Nukor"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Grattler": {
     "Equipments": {
@@ -5930,7 +5930,7 @@
     "Variants": [
       "Kuva Grattler"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Dual Pistols": {
     "Type": "Weapon Class",
@@ -5943,7 +5943,7 @@
     }
   },
   "Morgha": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Morgha Supulchrax Skin"
@@ -5962,7 +5962,7 @@
     "Variants": [
       "Fragor Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Djinn": {
     "Type": "Companion",
@@ -6020,10 +6020,10 @@
       "Lato Prime",
       "Lato Vandal"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Sarpa": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Sarpa Day of the Dead Skin"
@@ -6076,7 +6076,7 @@
     "Type": "Warframe"
   },
   "Hespar": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Hespar Lunaeus Skin"
@@ -6133,7 +6133,7 @@
     "Type": "Warframe"
   },
   "Hate": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Enlightened Hate Skin",
@@ -6282,10 +6282,10 @@
     "Variants": [
       "Prisma Lenz"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Dex Furis": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Dex Furis Jade Skin",
@@ -6312,7 +6312,7 @@
     }
   },
   "Javlok": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Javlok Harkonar Skin"
@@ -6332,7 +6332,7 @@
     "Variants": [
       "Dual Zoren Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Harrow": {
     "Equipments": {
@@ -6374,7 +6374,7 @@
     "Variants": [
       "Kompressa Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Akmagnus": {
     "Equipments": {
@@ -6388,7 +6388,7 @@
     "Variants": [
       "Akmagnus Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Liset": {
     "Type": "Landing Craft",
@@ -6712,7 +6712,7 @@
     "Variants": [
       "Kuva Kraken"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Bubonico": {
     "Equipments": {
@@ -6723,7 +6723,7 @@
     "Variants": [
       "Coda Bubonico"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Heavy Blade": {
     "Type": "Weapon Class",
@@ -6768,7 +6768,7 @@
     "Variants": [
       "Prisma Grakata"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Flux Rifle": {
     "Equipments": {
@@ -6779,7 +6779,7 @@
     "Variants": [
       "Tenet Flux Rifle"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Vectis": {
     "Equipments": {
@@ -6794,7 +6794,7 @@
     "Variants": [
       "Vectis Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Emblem": {
     "Type": "Attachment",
@@ -7345,7 +7345,7 @@
     }
   },
   "Cassowar": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Cassowar Jade Skin"
@@ -7353,7 +7353,7 @@
     }
   },
   "Dual Heat Swords": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Dual Heat Swords Forest-Camo Skin",
@@ -7370,7 +7370,7 @@
     "Variants": [
       "Tenet Plinx"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Dual Cleavers": {
     "Equipments": {
@@ -7381,7 +7381,7 @@
     "Variants": [
       "Prisma Dual Cleavers"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Drifter": {
     "Type": "Avatar",
@@ -7585,7 +7585,7 @@
     }
   },
   "Dread": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Dread Day of the Dead Skin"
@@ -7602,7 +7602,7 @@
     "Variants": [
       "Boar Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Nokko": {
     "Type": "Warframe",
@@ -7644,7 +7644,7 @@
     "Variants": [
       "Tenet Cycron"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Twin Gremlins": {
     "Equipments": {
@@ -7656,7 +7656,7 @@
     "Variants": [
       "Prisma Twin Gremlins"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Burston": {
     "Equipments": {
@@ -7668,7 +7668,7 @@
     "Variants": [
       "Burston Prime"
     ],
-    "Type": "Weapons"
+    "Type": "Weapon"
   },
   "Elytron": {
     "Type": "Archwing",
@@ -7679,7 +7679,7 @@
     }
   },
   "Broken War": {
-    "Type": "Weapons",
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Broken War Solstice Skin"

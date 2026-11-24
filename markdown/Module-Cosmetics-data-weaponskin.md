@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/weaponskin"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/weaponskin"
-wiki_timestamp: "2026-11-23T02:59:29Z"
+wiki_timestamp: "2026-11-23T14:22:55Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/weaponskin/doc](/w/Module:Cosmetics/data/weaponskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/weaponskin/doc (page does not exist)")*
@@ -511,7 +511,7 @@ return {
         Name = "Ascension Speargun Skin",
         Type = "Weapon Skin"
     },
-    ["Astreos Sword And Shield Skin"] = {
+    ["Astreos Sword and Shield Skin"] = {
         CodexSecret = false,
         Description = "Husband and wife, dawn and dusk. A signature Sword and Shield skin for Equinox.",
         ExcludeFromCodex = false,
@@ -6743,15 +6743,15 @@ return {
     	Name = "Veneum Shotgun Skin",
     	Type = "Weapon Skin",
     },
-    ["Veratria Blade And Whip Skin"] = {
+    ["Veratria Blade and Whip Skin"] = {
         CodexSecret = false,
         Description = "Tangle your target in a thorny vine with this deceptively floral weapon skin.",
         ExcludeFromCodex = false,
         Image = "VeratriaBladeAndWhipSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Khora/KhoraDeluxeWhipBladeSkin",
-        Link = "Veratria Blade And Whip Skin",
+        Link = "Veratria Blade and Whip Skin",
         ItemCompatibility = "Blade and Whip",
-        Name = "Veratria Blade And Whip Skin",
+        Name = "Veratria Blade and Whip Skin",
         Type = "Weapon Skin"
     },
     ["Veritux Day of the Dead Skin"] = {

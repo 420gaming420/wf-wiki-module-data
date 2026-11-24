@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/userdata"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/userdata"
-wiki_timestamp: "2026-11-23T03:03:24Z"
+wiki_timestamp: "2026-11-24T02:39:53Z"
 ---
 
 **Users** collection maps items to the cosmetics they can equip in the respective cosmetic slot.
@@ -56,7 +56,7 @@ Supported cosmetic equipment slots
 | --- | --- |
 | Animation Set | [Warframe](/w/Warframe "Warframe"), [Operator](/w/Operator "Operator"), [Drifter](/w/Drifter "Drifter") |
 | Auxiliary | Warframe |
-| Armor | Warframe |
+| Armor | Warframe, [Kubrow](/w/Kubrow "Kubrow"), [Kavat](/w/Kavat "Kavat") |
 | Beard | Drifter |
 | Body Suit | Operator |
 | Chamfron | [Kaithe](/w/Kaithe "Kaithe") |
@@ -106,7 +106,7 @@ return {
 		Variants = {
 			"Acceltra Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Ack & Brunt"] = {
 		Equipments = {
@@ -116,7 +116,7 @@ return {
 				"Ack & Brunt Nightwatch Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Afuris = {
 		Equipments = {
@@ -128,7 +128,7 @@ return {
 		Variants = {
 			"Afuris Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Akbolto = {
 		Equipments = {
@@ -140,7 +140,7 @@ return {
 			"Telos Akbolto",
 			"Akbolto Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Akjagara = {
 		Equipments = {
@@ -151,7 +151,7 @@ return {
 		Variants = {
 			"Akjagara Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Aklato = {
 		Equipments = {
@@ -164,7 +164,7 @@ return {
 				"RixtyMOL Aklato",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Aklex = {
 		Equipments = {
@@ -175,7 +175,7 @@ return {
 		Variants = {
 			"Aklex Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Akmagnus = {
 		Equipments = {
@@ -189,7 +189,7 @@ return {
 		Variants = {
 			"Akmagnus Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Akstiletto = {
 		Equipments = {
@@ -201,7 +201,7 @@ return {
 		Variants = {
 			"Akstiletto Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Akvasto = {
 		Equipments = {
@@ -216,7 +216,7 @@ return {
 		Variants = {
 			"Akvasto Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Alternox = {
 		Equipments = {
@@ -227,7 +227,7 @@ return {
 		Variants = {
 			"Alternox Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Ambassador = {
 		Equipments = {
@@ -235,7 +235,7 @@ return {
 				"Ambassador Tenet Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Amesha = {
 		Equipments = {
@@ -253,7 +253,7 @@ return {
 				--"Vacis Amp Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Amprex = {
 		Equipments = {
@@ -262,7 +262,7 @@ return {
 				"Amprex Telos Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Angstrum = {
 		Equipments = {
@@ -274,7 +274,7 @@ return {
 		Variants = {
 			"Prisma Angstrum",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Animation Set"] = {
 		Equipments = {
@@ -443,7 +443,7 @@ return {
 		Variants = {
 			"Ankyros Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Arca Plasmor"] = {
 		Equipments = {
@@ -454,7 +454,7 @@ return {
 		Variants = {
 			"Tenet Arca Plasmor",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Arca Titron"] = {
 		Equipments = {
@@ -465,7 +465,7 @@ return {
 		Variants = {
 		
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Arcata = {
 		Equipments = {
@@ -473,7 +473,7 @@ return {
 				"Arcata Riv Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Archwing = {
 		Equipments = {
@@ -925,7 +925,7 @@ return {
 		Variants = {
 			"Artemis Bow Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Ash = {
 		Equipments = {
@@ -1029,7 +1029,7 @@ return {
 				"Atomos Day of the Dead Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Atterax = {
 		Equipments = {
@@ -1038,7 +1038,7 @@ return {
 				"Atterax Telos Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Attica = {
 		Equipments = {
@@ -1046,7 +1046,7 @@ return {
 				"Attica Obsidian Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Balefire Charger"] = {
 		Equipments = {
@@ -1057,7 +1057,7 @@ return {
 		Variants = {
 			"Balefire Charger Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Ballistica = {
 		Equipments = {
@@ -1072,7 +1072,7 @@ return {
 			"Ballistica Prime",
 			"Rakta Ballistica",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Banshee = {
 		Equipments = {
@@ -1154,7 +1154,7 @@ return {
 				"Basmu Day of the Dead Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Baza = {
 		Equipments = {
@@ -1165,12 +1165,12 @@ return {
 		Variants = {
 			"Baza Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Blade and Whip"] = {
 		Equipments = {
 			Holster = {
-				"Blade And Whip Standard Holster",
+				"Blade and Whip Standard Holster",
 			},
 			Skin = {
 				"Veratria Blade and Whip Skin",
@@ -1189,7 +1189,7 @@ return {
 			"Bo Prime",
 			"Mk1-Bo",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Boar = {
 		Equipments = {
@@ -1201,7 +1201,7 @@ return {
 		Variants = {
 			"Boar Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Bolto = {
 		Equipments = {
@@ -1209,7 +1209,7 @@ return {
 				"Bolto Ormolu Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Boltor = {
 		Equipments = {
@@ -1226,7 +1226,7 @@ return {
 			"Boltor Prime",
 			"Telos Boltor",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Bonewidow = {
 		Equipments = {
@@ -1260,7 +1260,7 @@ return {
 		Variants = {
 			"Kuva Brakk",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Braton = {
 		Equipments = {
@@ -1282,7 +1282,7 @@ return {
 			"Braton Vandal",
 			"Mk1-Braton"
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Broken War"] = {
 		Equipments = {
@@ -1290,7 +1290,7 @@ return {
 				"Broken War Solstice Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Bubonico = {
 		Equipments = {
@@ -1301,7 +1301,7 @@ return {
 		Variants = {
 			"Coda Bubonico",
 		},
-		Type = "Weapons"
+		Type = "Weapon"
 	},
 	Burston = {
 		Equipments = {
@@ -1313,7 +1313,7 @@ return {
 		Variants = {
 			"Burston Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Buzlok = {
 		Equipments = {
@@ -1321,7 +1321,7 @@ return {
 				"Buzlok Day of the Dead Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Caliban = {
 		Equipments = {
@@ -1353,7 +1353,7 @@ return {
 				"Cantare Solstice Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Carrier = {
 		Equipments = {
@@ -1375,7 +1375,7 @@ return {
 				"Cassowar Jade Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Cedo = {
 		Equipments = {
@@ -1387,7 +1387,7 @@ return {
 		Variants = {
 			"Cedo Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Cernos = {
 		Equipments = {
@@ -1399,7 +1399,7 @@ return {
 			"Cernos Prime",
 			"Rakta Cernos"
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Cestra = {
 		Equipments = {
@@ -1407,7 +1407,7 @@ return {
 				"Cestra Shock-Camo Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Chroma = {
 		Equipments = {
@@ -1490,7 +1490,7 @@ return {
 		Variants = {
 			"Corinth Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Cortege = {
 		Equipments = {
@@ -1498,7 +1498,7 @@ return {
 				"Cortege Supulchrax Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Corvas = {
 		Equipments = {
@@ -1509,7 +1509,7 @@ return {
 		Variants = {
 			"Corvas Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Cycron = {
 		Equipments = {
@@ -1521,7 +1521,7 @@ return {
 		Variants = {
 			"Tenet Cycron",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Cyte-09"] = {
 		Equipments = {
@@ -1587,7 +1587,7 @@ return {
 				"Daikyu Ormolu Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 		Variants = {
 			"Daikyu Prime",
 		},
@@ -1619,7 +1619,7 @@ return {
 		Variants = {
 			"Rakta Dark Dagger",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Dark Split-Sword"] = {
 		Equipments = {
@@ -1629,7 +1629,7 @@ return {
 				"Niveus Dark Split-Sword Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Dark Sword"] = {
 		Equipments = {
@@ -1638,7 +1638,7 @@ return {
 				"Niveus Dark Sword Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Dera = {
 		Equipments = {
@@ -1649,7 +1649,7 @@ return {
 		Variants = {
 			"Dera Vandal",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Dethcube = {
 		Equipments = {
@@ -1676,7 +1676,7 @@ return {
 			"Mara Detron",
 			"Tenet Detron",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Dex Dakra"] = {
 		Equipments = {
@@ -1686,7 +1686,7 @@ return {
 				"Dex Dakra Opal Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Dex Furis"] = {
 		Equipments = {
@@ -1695,7 +1695,7 @@ return {
 				"Dex Furis Obsidian Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Dex Pixia"] = {
 		Equipments = {
@@ -1707,7 +1707,7 @@ return {
 		Variants = {
 			"Dex Pixia Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Diriga = {
 		Equipments = {
@@ -1730,7 +1730,7 @@ return {
 		Variants = {
 			"Diwata Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Djinn = {
 		Equipments = {
@@ -1748,7 +1748,7 @@ return {
 				"Dragon Nikana Day of the Dead Skin",
 			},
 		},
-		Type = "Weapons"
+		Type = "Weapon"
 	},
 	Drakgoon = {
 		Equipments = {
@@ -1761,7 +1761,7 @@ return {
 		Variants = {
 			"Kuva Drakgoon",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Dread = {
 		Equipments = {
@@ -1769,7 +1769,7 @@ return {
 				"Dread Day of the Dead Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Drifter = {
 		Equipments = {
@@ -1981,7 +1981,7 @@ return {
 		Variants = {
 			"Secura Dual Cestra",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Dual Cleavers"] = {
 		Equipments = {
@@ -1992,7 +1992,7 @@ return {
 		Variants = {
 			"Prisma Dual Cleavers",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Dual Daggers"] = {
 		Equipments = {
@@ -2005,7 +2005,7 @@ return {
 				"Zastra Dual Dagger Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Dual Heat Swords"] = {
 		Equipments = {
@@ -2014,7 +2014,7 @@ return {
 				"Dual Heat Swords Jade Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Dual Kamas"] = {
 		Equipments = {
@@ -2025,7 +2025,7 @@ return {
 		Variants = {
 			"Dual Kamas Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Dual Keres"] = {
 		Equipments = {
@@ -2036,7 +2036,7 @@ return {
 		Variants = {
 			"Dual Keres Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Dual Pistols"] = {
 		Equipments = {
@@ -2055,7 +2055,7 @@ return {
 				"Dual Skana Infested Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Dual Swords"] = {
 		Equipments = {
@@ -2088,7 +2088,7 @@ return {
 		Variants = {
 			"Dual Zoren Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Elytron = {
 		Equipments = {
@@ -2393,7 +2393,7 @@ return {
 		Variants = {
 			"Epitaph Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Equinox = {
 		Equipments = {
@@ -2513,7 +2513,7 @@ return {
 				"Exergis Shock-Camo Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Falcor = {
 		Equipments = {
@@ -2521,7 +2521,7 @@ return {
 				"Falcor Shock-Camo Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Fist = {
 		Equipments = {
@@ -2552,7 +2552,7 @@ return {
 				"Fluctus Rahk Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Flux Rifle"] = {
 		Equipments = {
@@ -2563,7 +2563,7 @@ return {
 		Variants = {
 			"Tenet Flux Rifle",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Follie = {
 		Equipments = {
@@ -2589,7 +2589,7 @@ return {
 		Variants = {
 			"Fragor Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Frost = {
 		Equipments = {
@@ -2661,7 +2661,7 @@ return {
 		Variants = {
 			"Fulmin Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Furax = {
 		Equipments = {
@@ -2673,7 +2673,7 @@ return {
 			"Furax Wraith",
 			"Mk1-Furax"
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Furis = {
 		Equipments = {
@@ -2682,7 +2682,7 @@ return {
 				"Furis Verv Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Galatine = {
 		Equipments = {
@@ -2700,7 +2700,7 @@ return {
 		Variants = {
 			"Galatine Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Glaxion = {
 		Equipments = {
@@ -2714,7 +2714,7 @@ return {
 		Variants = {
 			"Tenet Glaxion",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Gammacor = {
 		Equipments = {
@@ -2726,7 +2726,7 @@ return {
 		Variants = {
 			"Synoid Gammacor",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Gara = {
 		Equipments = {
@@ -2793,7 +2793,7 @@ return {
 		Variants = {
 			"Garuda Prime Talons"
 		},
-		Type = "Weapons"
+		Type = "Weapon"
 	},
 	Gauss = {
 		Equipments = {
@@ -2852,7 +2852,7 @@ return {
 		Variants = {
 			"Glaive Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Glaxion = {
 		Equipments = {
@@ -2866,7 +2866,7 @@ return {
 			"Glaxion Vandal",
 			"Tenet Glaxion"
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Gorgon = {
 		Equipments = {
@@ -2882,7 +2882,7 @@ return {
 			"Gorgon Wraith",
 			"Prisma Gorgon"
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Grakata = {
 		Equipments = {
@@ -2896,7 +2896,7 @@ return {
 		Variants = {
 			"Prisma Grakata",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Gram = {
 		Equipments = {
@@ -2908,7 +2908,7 @@ return {
 		Variants = {
 			"Gram Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Grattler = {
 		Equipments = {
@@ -2920,7 +2920,7 @@ return {
 		Variants = {
 			"Kuva Grattler",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Grendel = {
 		Equipments = {
@@ -2960,7 +2960,7 @@ return {
 		Variants = {
 			"Noctua",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Grinlok = {
 		Equipments = {
@@ -2975,7 +2975,7 @@ return {
 		Variants = {
 			"Prisma Grinlok",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Guandao = {
 		Equipments = {
@@ -2988,7 +2988,7 @@ return {
 		Variants = {
 			"Guandao Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Gunblade = {
 		Equipments = {
@@ -3015,7 +3015,7 @@ return {
 		Variants = {
 			"Gunsen Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Gyre = {
 		Equipments = {
@@ -3107,7 +3107,7 @@ return {
 				"Hate Day of the Dead Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Heat Dagger"] = {
 		Equipments = {
@@ -3116,7 +3116,7 @@ return {
 				"Heat Dagger Jade Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Heat Sword"] = {
 		Equipments = {
@@ -3125,7 +3125,7 @@ return {
 				"Heat Sword Jade Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Heavy Blade"] = {
 		Equipments = {
@@ -3176,7 +3176,7 @@ return {
 		Variants = {
 			"Kuva Hek",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Heliocor = {
 		Equipments = {
@@ -3187,7 +3187,7 @@ return {
 		Variants = {
 			"Synoid Heliocor",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Helios = {
 		Equipments = {
@@ -3218,7 +3218,7 @@ return {
 				"Hespar Lunaeus Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Hildryn = {
 		Equipments = {
@@ -3290,7 +3290,7 @@ return {
 		Variants = {
 			"Ignis Wraith",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Imperator = {
 		Equipments = {
@@ -3302,7 +3302,7 @@ return {
 		Variants = {
 			"Imperator Vandal",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Inaros = {
 		Equipments = {
@@ -3402,7 +3402,7 @@ return {
 				"Jat Kittag Noxious Hammer Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Javlok = {
 		Equipments = {
@@ -3410,7 +3410,7 @@ return {
 				"Javlok Harkonar Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Kahl-175"] = {
 		Equipments = {
@@ -3503,7 +3503,7 @@ return {
 				"Kama Jade Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Karak = {
 		Equipments = {
@@ -3516,7 +3516,7 @@ return {
 			"Karak Wraith",
 			"Kuva Karak"
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Karyst = {
 		Equipments = {
@@ -3527,7 +3527,7 @@ return {
 		Variants = {
 			"Karyst Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Kavat = {
 		Equipments = {
@@ -3695,7 +3695,7 @@ return {
 				"Kesheg Towsun Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Khora = {
 		Equipments = {
@@ -3737,7 +3737,7 @@ return {
 		Variants = {
 			"Kuva Kohm",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Kompressa = {
 		Equipments = {
@@ -3748,7 +3748,7 @@ return {
 		Variants = {
 			"Kompressa Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Koumei = {
 		Equipments = {
@@ -3772,7 +3772,7 @@ return {
 		Variants = {
 			"Kuva Kraken",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Kronen = {
 		Equipments = {
@@ -3786,7 +3786,7 @@ return {
 		Variants = {
 			"Kronen Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Kubrow = {
 		Equipments = {
@@ -3958,7 +3958,7 @@ return {
 		Variants = {
 			"Mk1-Kunai",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Lacera = {
 		Equipments = {
@@ -3969,7 +3969,7 @@ return {
 		Variants = {
 			"Ceti Lacera",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Landing Craft"] = {
 		Equipments = {
@@ -4000,7 +4000,7 @@ return {
 				"Lanka Shock-Camo Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Lato = {
 		Equipments = {
@@ -4017,7 +4017,7 @@ return {
 			"Lato Prime",
 			"Lato Vandal"
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Latron = {
 		Equipments = {
@@ -4031,7 +4031,7 @@ return {
 			"Latron Prime",
 			"Latron Wraith"
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Lavos = {
 		Equipments = {
@@ -4073,7 +4073,7 @@ return {
 		Variants = {
 			"Secura Lecta",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Lenz = {
 		Equipments = {
@@ -4084,7 +4084,7 @@ return {
 		Variants = {
 			"Prisma Lenz",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Lex = {
 		Equipments = {
@@ -4096,7 +4096,7 @@ return {
 		Variants = {
 			"Lex Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Limbo = {
 		Equipments = {
@@ -4239,7 +4239,7 @@ return {
 			"Machete Wraith",
 			"Prisma Machete",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Mag = {
 		Equipments = {
@@ -4305,7 +4305,7 @@ return {
 		Variants = {
 			"Magnus Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Mantis = {
 		Equipments = {
@@ -4338,7 +4338,7 @@ return {
 		Variants = {
 			"Vaykor Marelok",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Mausolon = {
 		Equipments = {
@@ -4347,7 +4347,7 @@ return {
 				"Mausolon Supulchrax Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Merulina = {
 		Equipments = {
@@ -4461,7 +4461,7 @@ return {
 				"Morgha Supulchrax Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Nagantaka = {
 		Equipments = {
@@ -4473,7 +4473,7 @@ return {
 		Variants = {
 			"Nagantaka Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Narin = {
 		Equipments = {
@@ -4560,7 +4560,7 @@ return {
 				"Niveus Nepheri Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Nezha = {
 		Equipments = {
@@ -4640,7 +4640,7 @@ return {
 		Variants = {
 			"Nikana Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Nikana (Weapon Type)"] = {
 		Equipments = {
@@ -4746,7 +4746,7 @@ return {
 		Variants = {
 			"Kuva Nukor",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Nunchaku = {
 		Equipments = {
@@ -4756,7 +4756,7 @@ return {
 				"Nunchaku Standard Holster",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Nyx = {
 		Equipments = {
@@ -4850,7 +4850,7 @@ return {
 		Variants = {
 			"Prisma Obex",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Octavia = {
 		Equipments = {
@@ -4891,7 +4891,7 @@ return {
 				"Ocucor Solstice Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Odonata = {
 		Equipments = {
@@ -4920,7 +4920,7 @@ return {
 		Variants = {
 			"Kuva Ogris",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Okina = {
 		Equipments = {
@@ -4932,7 +4932,7 @@ return {
 		Variants = {
 			"Okina Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Operator = {
 		Equipments = {
@@ -5399,7 +5399,7 @@ return {
 		Variants = {
 			"Opticor Vandal",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Oraxia = {
 		Equipments = {
@@ -5428,7 +5428,7 @@ return {
 		Variants = {
 			"Orthos Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Orvius = {
 		Equipments = {
@@ -5437,7 +5437,7 @@ return {
 				"Niveus Orvius Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Oxylus = {
 		Equipments = {
@@ -5456,7 +5456,7 @@ return {
 		Variants = {
 			"Pandero Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Panthera = {
 		Equipments = {
@@ -5467,7 +5467,7 @@ return {
 		Variants = {
 			"Panthera Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Paracesis = {
 		Equipments = {
@@ -5479,7 +5479,7 @@ return {
 				"Niveus Paracesis Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Paracyst = {
 		Equipments = {
@@ -5487,7 +5487,7 @@ return {
 				"Paracyst Zebra Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Parallax = {
 		Equipments = {
@@ -5499,7 +5499,7 @@ return {
 				"Parallax Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Parazon = {
 		Equipments = {
@@ -5508,7 +5508,7 @@ return {
 				"Sigma Series Parazon Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Paris = {
 		Equipments = {
@@ -5525,7 +5525,7 @@ return {
 			"Paris Prime",
 			"Mk1-Paris"
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Pennant = {
 		Equipments = {
@@ -5533,7 +5533,7 @@ return {
 				"Pennant Obsidian Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Penta = {
 		Equipments = {
@@ -5546,7 +5546,7 @@ return {
 			"Secura Penta",
 			"Carmine Penta"
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Pistol = {
 		Equipments = {
@@ -5576,7 +5576,7 @@ return {
 		Variants = {
 			"Tenet Plinx",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Polearm = {
 		Equipments = {
@@ -5644,7 +5644,7 @@ return {
 		Variants = {
 			"Prova Vandal",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Pyrana = {
 		Equipments = {
@@ -5657,7 +5657,7 @@ return {
 		Variants = {
 			"Pyrana Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Qorvex = {
 		Equipments = {
@@ -5685,7 +5685,7 @@ return {
 			"Quanta Vandal",
 			"Tenet Quanta",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Quartakk = {
 		Equipments = {
@@ -5696,7 +5696,7 @@ return {
 		Variants = {
 			"Kuva Quartakk",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Quassus = {
 		Equipments = {
@@ -5707,7 +5707,7 @@ return {
 		Variants = {
 			"Quassus Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Quellor = {
 		Equipments = {
@@ -5715,7 +5715,7 @@ return {
 				"Niveus Quellor Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Railjack = {
 		Equipments = {
@@ -5759,7 +5759,7 @@ return {
 		Variants = {
 			"Redeemer Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Regulators = {
 		Equipments = {
@@ -5771,7 +5771,7 @@ return {
 		Variants = {
 			"Regulators Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Revenant = {
 		Equipments = {
@@ -5882,7 +5882,7 @@ return {
 		Variants = {
 			"Rubico Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Sarpa = {
 		Equipments = {
@@ -5890,7 +5890,7 @@ return {
 				"Sarpa Day of the Dead Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Saryn = {
 		Equipments = {
@@ -5974,7 +5974,7 @@ return {
 		Variants = {
 			"Scindo Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Scoliac = {
 		Equipments = {
@@ -5982,7 +5982,7 @@ return {
 				"Scoliac Obsidian Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Scythe = {
 		Equipments = {
@@ -6099,7 +6099,7 @@ return {
 				"Serro Obsidian Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Sevagoth = {
 		Equipments = {
@@ -6157,7 +6157,7 @@ return {
 				"Shadow Claws Prime",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Shedu = {
 		Equipments = {
@@ -6165,7 +6165,7 @@ return {
 				"Shedu Day of the Dead Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Shotgun = {
 		Equipments = {
@@ -6230,7 +6230,7 @@ return {
 		Variants = {
 			"Silva & Aegis Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Simulor = {
 		Equipments = {
@@ -6241,7 +6241,7 @@ return {
 		Variants = {
 			"Synoid Simulor",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Skana = {
 		Equipments = {
@@ -6258,7 +6258,7 @@ return {
 			"Prisma Skana",
 			"Skana Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Skaut = {
 		Equipments = {
@@ -6275,7 +6275,7 @@ return {
 				"Skiajati Solstice Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Sniper Rifle"] = {
 		Equipments = {
@@ -6295,7 +6295,7 @@ return {
 		Variants = {
 			"Snipetron Vandal",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Sobek = {
 		Equipments = {
@@ -6307,7 +6307,7 @@ return {
 		Variants = {
 			"Kuva Sobek",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Soma = {
 		Equipments = {
@@ -6322,7 +6322,7 @@ return {
 		Variants = {
 			"Soma Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Sonicor = {
 		Equipments = {
@@ -6334,7 +6334,7 @@ return {
 				"Sonicor Obsidian Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Sparring = {
 		Equipments = {
@@ -6368,7 +6368,7 @@ return {
 		Variants = {
 			"Spectra Vandal",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Spira = {
 		Equipments = {
@@ -6380,7 +6380,7 @@ return {
 		Variants = {
 			"Spira Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Staff = {
 		Equipments = {
@@ -6407,7 +6407,7 @@ return {
 				"Stahlta Shock Rifle Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Stradavar = {
 		Equipments = {
@@ -6419,7 +6419,7 @@ return {
 		Variants = {
 			"Stradavar Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Strun = {
 		Equipments = {
@@ -6432,7 +6432,7 @@ return {
 			"Strun Wraith",
 			"Mk1-Strun"
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Stubba = {
 		Equipments = {
@@ -6440,7 +6440,7 @@ return {
 				"Stubba Towsun Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Styanax = {
 		Equipments = {
@@ -6539,7 +6539,7 @@ return {
 				"Tiandi Sun & Moon Skin",
 			}
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Supra = {
 		Equipments = {
@@ -6550,7 +6550,7 @@ return {
 		Variants = {
 			"Supra Vandal",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Sword = {
 		Equipments = {
@@ -6580,14 +6580,14 @@ return {
 	["Sword and Shield"] = {
 		Equipments = {
 			Holster = {
-				"Sword And Shield High Draw",
-				"Sword And Shield Low Draw",
-				"Sword And Shield Standard Draw",
+				"Sword and Shield High Draw",
+				"Sword and Shield Low Draw",
+				"Sword and Shield Standard Draw",
 			},
 			Skin = {
 				"Astreos Sword and Shield Skin",
 				"Gaforn Sword and Shield Skin",
-				"Sword And Shield Danaus Skin",
+				"Sword and Shield Danaus Skin",
 			},
 		},
 		Type = "Weapon Class",
@@ -6904,7 +6904,7 @@ return {
 			"Sybaris Prime",
 			"Dex Sybaris"
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Tatsu = {
 		Equipments = {
@@ -6915,7 +6915,7 @@ return {
 		Variants = {
 			"Tatsu Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Taxon = {
 		Equipments = {
@@ -6949,7 +6949,7 @@ return {
 			"Prisma Tetra",
 			"Tenet Tetra"
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Thrown = {
 		Equipments = {
@@ -6973,7 +6973,7 @@ return {
 		Variants = {
 			"Tiberon Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Tigris = {
 		Equipments = {
@@ -6989,7 +6989,7 @@ return {
 			"Tigris Prime",
 			"Sancti Tigris"
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Tipedo = {
 		Equipments = {
@@ -7001,7 +7001,7 @@ return {
 		Variants = {
 			"Tipedo Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Titania = {
 		Equipments = {
@@ -7076,7 +7076,7 @@ return {
 		Variants = {
 			"Kuva Tonkor",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Trinity = {
 		Equipments = {
@@ -7119,7 +7119,7 @@ return {
 				"Twin Grakatas Towsun Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Twin Gremlins"] = {
 		Equipments = {
@@ -7131,7 +7131,7 @@ return {
 		Variants = {
 			"Prisma Twin Gremlins",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Twin Rogga"] = {
 		Equipments = {
@@ -7139,7 +7139,7 @@ return {
 				"Twin Rogga Towsun Skin",
 			},
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Twin Vipers"] = {
 		Equipments = {
@@ -7153,7 +7153,7 @@ return {
 		Variants = {
 			"Twin Vipers Wraith",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	["Two-Handed Nikana"] = {
 		Equipments = {
@@ -7243,7 +7243,7 @@ return {
 		Variants = {
 			"Vasto Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Vauban = {
 		Equipments = {
@@ -7291,7 +7291,7 @@ return {
 		Variants = {
 			"Vectis Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Venari = {
 		Equipments = {
@@ -7315,7 +7315,7 @@ return {
 		Variants = {
 			"Venka Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Veritux = {
 		Equipments = {
@@ -7327,7 +7327,7 @@ return {
 		Variants = {
 			"Prisma Veritux",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Viper = {
 		Equipments = {
@@ -7341,7 +7341,7 @@ return {
 		Variants = {
 			"Viper Wraith",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Voidrig = {
 		Equipments = {
@@ -7526,7 +7526,7 @@ return {
 		Variants = {
 			"Vulkar Wraith",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Vulpaphyla = {
 		Equipments = {
@@ -7716,7 +7716,7 @@ return {
 		Variants = {
 			
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Yareli = {
 		Equipments = {
@@ -7748,7 +7748,7 @@ return {
 		Variants = {
 			"Kuva Zarr",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 	Zephyr = {
 		Equipments = {
@@ -7792,7 +7792,7 @@ return {
 		Variants = {
 			"Zylok Prime",
 		},
-		Type = "Weapons",
+		Type = "Weapon",
 	},
 }
 ```

@@ -39,6 +39,16 @@ return {
         Name = "Aroka Prime Sugatra",
         Type = "Sugatra"
     },
+    ["Atomicycle Key Sugatra"] = {
+        CodexSecret = false,
+        Description = "Never lose your keys again with this convenient sugatra.",
+        ExcludeFromCodex = false,
+        Image = "AtomicycleKeySugatra.png",
+        InternalName = "/Lotus/Upgrades/Skins/MeleeDangles/AtomicycleKeychainMeleeDangle",
+        Link = "Atomicycle Key Sugatra",
+        Name = "Atomicycle Key Sugatra",
+        Type = "Sugatra"
+    },
     ["Baochun Sugatra"] = {
         CodexSecret = false,
         Description = "In this Sugatra, the graceful embrace of two birds is a symbolic expression of renewal.",
@@ -137,6 +147,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/MeleeDangles/PolearmFriendlyMeleeDangle",
         Link = "Daman Sugatra",
         Name = "Daman Sugatra",
+        Type = "Sugatra"
+    },
+    ["Drippy Keychain Sugatra"] = {
+        CodexSecret = false,
+        Description = "Show off your drip with this drippy Drippy sugatra.",
+        ExcludeFromCodex = false,
+        Image = "DrippyKeychainSugatra.png",
+        InternalName = "/Lotus/Upgrades/Skins/MeleeDangles/DrippyKeychainMeleeDangle",
+        Link = "Drippy Keychain Sugatra",
+        Name = "Drippy Keychain Sugatra",
         Type = "Sugatra"
     },
     ["Eminence Sugatra"] = {

@@ -503,7 +503,7 @@ return {
         Name = "Ascension Speargun Skin",
         Type = "Weapon Skin"
     },
-    ["Astreos Sword And Shield Skin"] = {
+    ["Astreos Sword and Shield Skin"] = {
         CodexSecret = false,
         Description = "Husband and wife, dawn and dusk. A signature Sword and Shield skin for Equinox.",
         ExcludeFromCodex = false,
@@ -6735,15 +6735,15 @@ return {
     	Name = "Veneum Shotgun Skin",
     	Type = "Weapon Skin",
     },
-    ["Veratria Blade And Whip Skin"] = {
+    ["Veratria Blade and Whip Skin"] = {
         CodexSecret = false,
         Description = "Tangle your target in a thorny vine with this deceptively floral weapon skin.",
         ExcludeFromCodex = false,
         Image = "VeratriaBladeAndWhipSkin.png",
         InternalName = "/Lotus/Upgrades/Skins/Khora/KhoraDeluxeWhipBladeSkin",
-        Link = "Veratria Blade And Whip Skin",
+        Link = "Veratria Blade and Whip Skin",
         ItemCompatibility = "Blade and Whip",
-        Name = "Veratria Blade And Whip Skin",
+        Name = "Veratria Blade and Whip Skin",
         Type = "Weapon Skin"
     },
     ["Veritux Day of the Dead Skin"] = {

@@ -24,10 +24,22 @@ local CosmeticData = Delay.require([[Module:Cosmetics/data]])
 
 function p.buildSkinGallery(frame)
     local itemName = frame.args["name"] or ""
+    local itemType = CosmeticData["Users"][itemName] and CosmeticData["Users"][itemName]["Type"] or nil
     local skins = CosmeticData["Users"][itemName] and 
-    		CosmeticData["Users"][itemName]["Equipments"]["Skin"] or nil;
-
-    if not skins then
+    		CosmeticData["Users"][itemName]["Equipments"]["Skin"] or {};
+	
+	-- Adding shared skins compatible with the weapon's class
+	if itemType == "Weapon" then
+		local weaponClass = WeaponData[itemName]["Class"]
+		local classSkins = CosmeticData["Users"][weaponClass] and 
+				CosmeticData["Users"][weaponClass]["Equipments"]["Skin"] or {}
+		-- table merge
+		for _, skinName in ipairs(classSkins) do
+		    table.insert(skins, skinName)
+		end
+	end
+	
+    if next(skins) == nil then
         return "No skins found for item: " .. itemName
     end
 

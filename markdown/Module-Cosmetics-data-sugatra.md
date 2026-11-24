@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/sugatra"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/sugatra"
-wiki_timestamp: "2026-09-29T11:01:40Z"
+wiki_timestamp: "2026-11-23T18:57:43Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/sugatra/doc](/w/Module:Cosmetics/data/sugatra/doc?action=edit&redlink=1 "Module:Cosmetics/data/sugatra/doc (page does not exist)")*
@@ -46,6 +46,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/MeleeDangles/SurakaPrimeDangle",
         Link = "Aroka Prime Sugatra",
         Name = "Aroka Prime Sugatra",
+        Type = "Sugatra"
+    },
+    ["Atomicycle Key Sugatra"] = {
+        CodexSecret = false,
+        Description = "Never lose your keys again with this convenient sugatra.",
+        ExcludeFromCodex = false,
+        Image = "AtomicycleKeySugatra.png",
+        InternalName = "/Lotus/Upgrades/Skins/MeleeDangles/AtomicycleKeychainMeleeDangle",
+        Link = "Atomicycle Key Sugatra",
+        Name = "Atomicycle Key Sugatra",
         Type = "Sugatra"
     },
     ["Baochun Sugatra"] = {
@@ -146,6 +156,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/MeleeDangles/PolearmFriendlyMeleeDangle",
         Link = "Daman Sugatra",
         Name = "Daman Sugatra",
+        Type = "Sugatra"
+    },
+    ["Drippy Keychain Sugatra"] = {
+        CodexSecret = false,
+        Description = "Show off your drip with this drippy Drippy sugatra.",
+        ExcludeFromCodex = false,
+        Image = "DrippyKeychainSugatra.png",
+        InternalName = "/Lotus/Upgrades/Skins/MeleeDangles/DrippyKeychainMeleeDangle",
+        Link = "Drippy Keychain Sugatra",
+        Name = "Drippy Keychain Sugatra",
         Type = "Sugatra"
     },
     ["Eminence Sugatra"] = {
