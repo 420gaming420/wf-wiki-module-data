@@ -1,7 +1,7 @@
 ---
 title: "Module:Maximization/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Maximization/data"
-wiki_timestamp: "2026-11-21T16:55:49Z"
+wiki_timestamp: "2026-11-24T14:16:30Z"
 ---
 
 ## Contents
@@ -214,12 +214,16 @@ local Data = {
 			{name='SEEKING_SHURIKEN', cont=Tooltips.full('Seeking Shuriken', 'Mods')..'?', type='checkbox'},
 		},
 		outs={
-			{Tooltips.full('Slash', 'DamageTypes')..' damage:' ,                                    {name='SHURIKEN_BASE_DMG', expr='STR 750 %of HEAD_MULT * SHURIKENS *'}},
-			{Tooltips.full('Bleed', 'DamageTypes')..' DoT:', {name='BLEED', expr='43.75 35 ASH if SHURIKEN_BASE_DMG %of', suff='/s'}},
-			{'Total damage:',                                    {expr='BLEED 9 6 ASH if * SHURIKEN_BASE_DMG +'}},
-			{'Armor reduction:',                                 {expr='STR 70 %of SEEKING_SHURIKEN *', suff='%'}},
-			{'Armor reduction duration:',                        {expr='DUR 8 %of SEEKING_SHURIKEN *', suff='s'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:',                   {expr='25 COST *'}},
+			{Tooltips.full('Slash', 'DamageTypes')..' damage:',
+				{name='SHURIKEN_BASE_DMG', expr='STR 750 %of HEAD_MULT * SHURIKENS *'}
+			},
+			{Tooltips.full('Bleed', 'DamageTypes')..' damage:',
+				{name='BLEED', expr='43.75 35 ASH if SHURIKEN_BASE_DMG %of', suff='/s'}
+			},
+			{'Total damage:', {expr='BLEED 9 6 ASH if * SHURIKEN_BASE_DMG +'}},
+			{'Armor reduction:', {expr='STR 70 %of 100 min 0 SEEKING_SHURIKEN if', suff='%', fmt='2dec'}},
+			{'Armor reduction duration:', {expr='DUR 8 %of 0 SEEKING_SHURIKEN if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
 		}
 	},
 	['Smoke Screen']={
@@ -228,13 +232,15 @@ local Data = {
 			{name='SMOKE_SHADOW', cont=Tooltips.full('Smoke Shadow', 'Mods')..'?', type='checkbox'},
 		},
 		outs={
-			{'Duration:', {expr='DUR 12 %of', suff='s'}},
-			{'Extension on [[Finisher]] kills:', {expr='DUR 5 %of TELEPORT_RUSH *', suff='s'}},
-			{'Radius:', {expr='RNG 10 %of', suff='m'}},
-			{'Critical Chance bonus:', {expr='150 0 SMOKE_SHADOW if', suff='%'}},
-			{'Smoke Shadow duration:', {expr='DUR 12 %of 0 SMOKE_SHADOW if', suff='s'}},
-			{'Smoke Shadow radius:', {expr='RNG 15 %of 0 SMOKE_SHADOW if', suff='m'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='35 COST *'}},
+			{'Duration:', {expr='DUR 12 %of', suff='s', fmt='2dec'}},
+			{'Duration extension on [[Finisher]] kill:',
+				{expr='DUR 5 %of TELEPORT_RUSH *', suff='s', fmt='2dec'}
+			},
+			{'Radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
+			{'Critical Chance bonus:', {expr='150 0 SMOKE_SHADOW if', suff='%', fmt='2dec'}},
+			{'Smoke Shadow duration:', {expr='DUR 12 %of 0 SMOKE_SHADOW if', suff='s', fmt='2dec'}},
+			{'Smoke Shadow radius:', {expr='RNG 15 %of 0 SMOKE_SHADOW if', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='35 COST *', fmt='2dec'}},
 		}
 	},
 	['Teleport']={
@@ -242,11 +248,14 @@ local Data = {
 			{name='TELEPORT_RUSH', cont=Tooltips.full('Teleport Rush', 'Mods')..'?', type='checkbox'},
 		},
 		outs={
-			{Tooltips.full('Finisher', 'DamageTypes')..' damage bonus:', {expr='STR 200 %of', suff='%'}},
-			{'Range:', {expr='RNG 60 %of', suff='m'}},
-			{'[[Parkour Velocity]] bonus:', {expr='30 0 TELEPORT_RUSH if', suff='%'}},
-			{'Teleport Rush duration:', {expr='DUR 12 %of 0 TELEPORT_RUSH if', suff='s'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}},
+			{Tooltips.full('Finisher', 'DamageTypes')..' damage bonus:',
+				{expr='STR 200 %of', suff='%', fmt='2dec'}
+			},
+			{'Range:', {expr='RNG 60 %of', suff='m', fmt='1dec'}},
+			{'[[Parkour Velocity]] bonus:', {expr='30 0 TELEPORT_RUSH if', suff='%', fmt='2dec'}},
+			{'Teleport Rush duration:', {expr='DUR 12 %of 0 TELEPORT_RUSH if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {name='TELEPORT_COST', expr='25 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' restoration on kill:', {expr='TELEPORT_COST 2 /', fmt='2dec'}}
 		},
 	},
 	['Blade Storm']={
@@ -263,7 +272,7 @@ local Data = {
 			{Tooltips.full('Bleed', 'DamageTypes')..' DoT:', {name='BLEED_DMG', expr='FACTION_DMG_MOD 43.75 BLADE_STORM_BASE_DMG %of %of', suff='/s'}},
 			{'Elemental damage:', {name='ELEMENT_DMG', expr='ELEMENT_DMG_MOD BLADE_STORM_BASE_DMG %of'}},
 			{'Total damage:', {name='TOTAL_DMG', expr='BLADE_STORM_BASE_DMG ELEMENT_DMG + BLEED_DMG 9 * +'}},
-			{'Range:', {expr='RNG 50 %of', suff='m'}},
+			{'Range:', {expr='RNG 50 %of', suff='m', fmt='1dec'}},
 			{'Combo:', {expr='STR 4 %of RISING_STORM * 3 +', suff='/attack'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='12 COST * 2 1 IS_INVISIBLE if /', suff='/enemy'}},
 		}
@@ -393,22 +402,28 @@ local Data = {
 		},
 		outs={
 			{Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 250 %of'}},
-			{Tooltips.full('Armor', 'Stats')..' reduction:', {expr='STR 70 %of 100 min', suff='%'}},
+			{Tooltips.full('Armor', 'Stats')..' reduction:',
+				{expr='STR 70 %of 100 min', suff='%', fmt='2dec'}
+			},
 			{'Push Force:', {expr='STR 5 %of'}},
-			{'Range:', {expr='RNG 15 %of', suff='m'}},
-			{'Sonic Siphon '..Tooltips.full('Armor', 'Stats')..' bonus:', {expr='STR 50 %of 0 SONIC_SIPHON if 1500 min', suff='/hit'}},
-			{'Hits required for 1500 '..Tooltips.full('Armor', 'Stats')..':', {expr='30 STR as% / ceil 0 SONIC_SIPHON if'}},
-			{'Sonic Siphon duration:', {expr='DUR 20 %of', suff='s'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+			{'Range:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
+			{'Sonic Siphon '..Tooltips.full('Armor', 'Stats')..' bonus:',
+				{expr='STR 50 %of 0 SONIC_SIPHON if 1500 min', suff='/hit'}
+			},
+			{'Hits required for 1500 '..Tooltips.full('Armor', 'Stats')..':',
+				{expr='30 STR as% / ceil 1 max 0 SONIC_SIPHON if'}
+			},
+			{'Sonic Siphon duration:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
 		}
 	},
 	['Sonar']={
 		outs={
 			{'Damage multiplier:', {expr='STR 5 %of', fmt='2dec'}},
-			{'Duration:', {expr='DUR 30 %of', suff='s'}},
+			{'Duration:', {expr='DUR 30 %of', suff='s', fmt='2dec'}},
 			{'Radius:', {name='SONAR_RADIUS', expr='RNG 35 %of', suff='m', fmt='1dec'}},
-			{'Time to fully propagate:', {expr='SONAR_RADIUS 20 /', suff='s', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+			{'Time to fully propagate:', {expr='SONAR_RADIUS 20 /', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
 	['Silence']={
@@ -416,10 +431,10 @@ local Data = {
 			{name='SAVAGE_SILENCE', cont=Tooltips.full('Savage Silence', 'Mods')..'?', type='checkbox'}
 		},
 		outs={
-			{'Duration:', {expr='DUR 30 %of', suff='s'}},
-			{'Radius:', {expr='RNG 20 %of', suff='m'}},
-			{'[[Finisher damage]] modifier:', {expr='STR 300 %of 0 SAVAGE_SILENCE if', suff='%'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
+			{'Duration:', {expr='DUR 30 %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
+			{'[[Finisher damage]] bonus:', {expr='STR 300 %of 0 SAVAGE_SILENCE if', suff='%', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
 		}
 	},
 	['Sound Quake']={
@@ -428,12 +443,19 @@ local Data = {
 			{name='GASEOUS_QUAKE_DURATION', cont='Seconds spent channeling Gaseous Quake:', min='0', default='0'}
 		},
 		outs={
-			{Tooltips.full('Blast', 'DamageTypes')..' or '..Tooltips.full('Gas', 'DamageTypes')..' damage:', {name='SOUND_QUAKE_BASE_DMG', expr='STR 200 %of 2.75 GASEOUS_QUAKE_DURATION 10 min ^ 1 GASEOUS_QUAKE if *'}},
+			{Tooltips.full('Blast', 'DamageTypes')..' or '..Tooltips.full('Gas', 'DamageTypes')..' damage:',
+				{
+					name='SOUND_QUAKE_BASE_DMG',
+					expr='STR 200 %of 2.75 GASEOUS_QUAKE_DURATION 10 min ^ 1 GASEOUS_QUAKE if *'
+				}
+			},
 			{Tooltips.full('Gas Cloud', 'DamageTypes')..' damage:', {expr='0.5 SOUND_QUAKE_BASE_DMG * 0 GASEOUS_QUAKE if'}},
-			{'Zone duration:', {expr='DUR 6.25 25 GASEOUS_QUAKE if %of', suff='s'}},
-			{'Radius:', {expr='RNG 20 %of', suff='m'}},
+			{'Zone duration:', {expr='DUR 6.25 25 GASEOUS_QUAKE if %of', suff='s', fmt='2dec'}},
+			{'Radius:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 75 GASEOUS_QUAKE if COST *', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='16 DRAIN * 1.2 GASEOUS_QUAKE_DURATION ^ * 0 GASEOUS_QUAKE if', suff='/s', fmt='2dec'}}
+			{Tooltips.full('Energy', 'Stats')..' drain:',
+				{expr='16 DRAIN * 1.2 GASEOUS_QUAKE_DURATION ^ * 0 GASEOUS_QUAKE if', suff='/s', fmt='2dec'}
+			}
 		}
 	},
 	-- Baruuk
@@ -543,18 +565,18 @@ local Data = {
 			{'Healing:', {expr='STR 30 %of', suff='/enemy'}},
 			{'Damage radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Lethal Progeny', 'Ability')..' Ortholyst '..Tooltips.full('Electricity', 'DamageTypes')..' and [[Fire Rate]] bonus:', {expr='STR 70 %of 0 RAZOR_MORTAR if', suff='%'}},
-			{'Razor Mortar duration:', {expr='DUR 6 %of 0 RAZOR_MORTAR if', suff='s'}},
+			{'Razor Mortar duration:', {expr='DUR 6 %of 0 RAZOR_MORTAR if', suff='s', fmt='2dec'}},
 			{'Razor Mortar radius:', {expr='RNG 5 %of 0 RAZOR_MORTAR if', suff='m', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}},
-			{Tooltips.full('Energy', 'Stats')..' restoration:', {expr='25 COST * 4 /', suff='/enemy', fmt='1dec'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' restoration:', {expr='25 COST * 4 /', suff='/enemy', fmt='2dec'}}
 		}
 	},
 	['Sentient Wrath']={
 		outs={
 			{Tooltips.full('Tau', 'DamageTypes')..' damage:', {expr='STR 2000 %of'}},
-			{'[[Damage Vulnerability]]:', {expr='STR 35 %of', suff='%'}},
+			{'[[Damage Vulnerability]]:', {expr='STR 35 %of', suff='%', fmt='2dec'}},
 			{'Radius:', {expr='RNG 22 %of', suff='m', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
 	['Lethal Progeny']={
@@ -563,22 +585,23 @@ local Data = {
 			{'Damage multiplier:', {name='LETHAL_PROGENY_DMG_MULT', expr='STR 2.5 %of', fmt='2dec'}},
 			{'Health multiplier:', {expr='STR 2 %of', fmt='2dec'}},
 			{Tooltips.full('Shield', 'Stats')..' restoration:', {expr='STR 25 %of', suff='/s/Summon'}},
-			{'Duration:', {expr='DUR 45 %of', suff='s'}},
+			{'Duration:', {expr='DUR 45 %of', suff='s', fmt='2dec'}},
 			{Tooltips.full('Shield', 'Stats')..' restoration range:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		},
+		post="For the base stats of Lethal Progeny's summons, use the calculators that can be found in the [[Conculyst]], [[Ortholyst]], [[Summulyst]] and [[Choralyst]] pages."
 	},
 	['Fusion Strike']={
 		outs={
 			{'Laser '..Tooltips.full('Tau', 'DamageTypes')..' damage:', {expr='STR 15000 %of', suff='/s'}},
 			{'Enemy detonation '..Tooltips.full('Tau', 'DamageTypes')..' damage:', {expr='STR 5000 %of'}},
 			{'Convergence '..Tooltips.full('Tau', 'DamageTypes')..' damage:', {expr='STR 750 %of'}},
-			{'Defense reduction:', {expr='STR 50 %of 100 min', suff='%'}},
-			{'Duration:', {expr='DUR 15 %of', suff='s'}},
+			{'Defense reduction:', {expr='STR 50 %of 100 min', suff='%', fmt='2dec'}},
+			{'Duration:', {expr='DUR 15 %of', suff='s', fmt='2dec'}},
 			{'Laser length:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
 			{'Enemy detonation radius:', {expr='RNG 2 %of', suff='m', fmt='1dec'}},
 			{'Explosion and fallout radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},
 	-- Chroma
@@ -665,7 +688,7 @@ local Data = {
 			{'[[Energy Orb]] drop chance:',
 				{expr='STR 10 20 FRACTURED_BLAST_INFUSED if %of', suff='%', fmt='2dec'}
 			},
-			{'Range:', {expr='RNG 14 %of', suff='m'}},
+			{'Range:', {expr='RNG 14 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
 		}
 	},
@@ -898,7 +921,7 @@ local Data = {
 		outs={
 			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 1750 %of'}},
 			{'Explosion radius:', {expr='RNG 24 240 LANDSCAPE_RANGES if %of', suff='m', fmt='1dec'}},
-			{'Maximum travel distance:', {expr='400 1600 LANDSCAPE_RANGES if', suff='m'}},
+			{'Maximum travel distance:', {expr='400 1600 LANDSCAPE_RANGES if', suff='m', fmt='1dec'}},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},
@@ -1636,12 +1659,18 @@ local Data = {
 	},
 	['Penance']={
 		outs={
-			{Tooltips.full('Health', 'Stats')..' restoration on cast:', {expr='STR 50 %of 100 min', suff='%', fmt='2dec'}},
-			{'Damage to '..Tooltips.full('Health', 'Stats')..' conversion:', {expr='STR 5 %of', suff='%', fmt='2dec'}},
+			{Tooltips.full('Health', 'Stats')..' restoration on cast:',
+				{expr='STR 50 %of 100 min', suff='%', fmt='2dec'}
+			},
+			{'Damage to '..Tooltips.full('Health', 'Stats')..' conversion:',
+				{expr='STR 5 %of', suff='%', fmt='2dec'}
+			},
 			{'Fire Rate and Attack Speed bonus:', {expr='STR 35 %of', suff='%', fmt='2dec'}},
 			{'Reload Speed bonus:', {expr='STR 70 %of', suff='%', fmt='2dec'}},
 			{'Base duration:', {expr='DUR 4 %of', suff='s', fmt='2dec'}},
-			{'Duration added by sacrificed '..Tooltips.full('Shield', 'Stats')..':', {expr='DUR 1.54 %of', suff='s/100 Shield', fmt='2dec'}},
+			{'Duration added by sacrificed '..Tooltips.full('Shield', 'Stats')..':',
+				{expr='DUR 1.54 %of', suff='s/100 Shield', fmt='2dec'}
+			},
 			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
@@ -1763,7 +1792,7 @@ local Data = {
 			{'Cast '..Tooltips.full('Shield', 'Stats')..' cost:', {expr='100 COST *'}},
 			{Tooltips.full('Shield', 'Stats')..' drain:', {expr='25 DRAIN *', suff='/s'}},
 			{'Enemy '..Tooltips.full('Shield', 'Stats')..' drain:', {expr='25 DRAIN *', suff='/s/enemy'}},
-			{'Dodge '..Tooltips.full('Shield', 'Stats')..' cost:', {expr='50 COST *'}}
+			{'Dodge '..Tooltips.full('Shield', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
 	-- Hydroid
@@ -2064,16 +2093,16 @@ local Data = {
 			{'Total damage:', {name='TOTAL_DMG', expr='BASE_DMG ELEMENT_DMG +'}},
 			{'Whip length:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
 			{'Whipcrack radius:', {expr='RNG 5 %of 10 min MELEE_RANGE_MOD +', suff='m', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
 		}
 	},
 	['Ensnare']={
 		outs={
-			{'Duration:', {expr='DUR 15 %of', suff='s'}},
+			{'Duration:', {expr='DUR 15 %of', suff='s', fmt='2dec'}},
 			{'Propagation delay:', {expr='0.5 DUR as% /', suff='s', fmt='2dec'}},
 			{'Cast range:', {expr='RNG 30 %of', suff='m', fmt='1dec'}},
 			{'Propagation radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		},
 	},
 	['Venari']={
@@ -2081,8 +2110,8 @@ local Data = {
 			{'Passive [[Movement Speed]] bonus:', {expr='STR 15 %of', suff='%'}},
 			{'Snare '..Tooltips.full('Slash', 'DamageTypes')..' damage:', {expr='STR 350 %of'}},
 			{Tooltips.full('Health', 'Stats')..' restoration:', {expr='STR 50 %of', suff='/s'}},
-			{'Mark '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}},
-			{'Maximum revive '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+			{'Mark '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
+			{'Maximum revive '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
 	['Strangledome']={
@@ -2090,10 +2119,10 @@ local Data = {
 			{Tooltips.full('Impact', 'DamageTypes')..', '..Tooltips.full('Puncture', 'DamageTypes')..' and '..Tooltips.full('Slash', 'DamageTypes')..' damage:',
 				{expr='STR 250 %of'}
 			},
-			{'Duration:', {expr='DUR 20 %of', suff='s'}},
+			{'Duration:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
 			{'Dome radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
 			{'Grab radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},
 	-- Koumei
@@ -2235,16 +2264,16 @@ local Data = {
 		},
 		outs={
 			{Tooltips.full('Impact', 'DamageTypes')..' damage:', {expr='STR 250 %of'}},
-			{'Duration:', {expr='DUR 25 %of', suff='s'}},
+			{'Duration:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
 			{'Range:', {expr='RNG 35 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Health', 'Stats')..' restored:', {expr='STR 25 %of 0 RIFT_HAVEN if', suff='%/s'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
 		}
 	},
 	['Stasis']={
 		outs={
-			{'Duration:', {expr='DUR 15 %of', suff='s'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+			{'Duration:', {expr='DUR 15 %of', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
 	['Rift Surge']={
@@ -2252,13 +2281,13 @@ local Data = {
 			{name='RIFT_TORRENT', cont=Tooltips.full('Rift Torrent', 'Mods')..'?', type='checkbox'}
 		},
 		outs={
-			{'Surge duration:', {expr='DUR 25 %of', suff='s'}},
-			{'Banish duration:', {expr='DUR 18 %of', suff='s'}},
+			{'Surge duration:', {expr='DUR 25 %of', suff='s', fmt='2dec'}},
+			{'Banish duration:', {expr='DUR 18 %of', suff='s', fmt='2dec'}},
 			{'Cast radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
 			{'Surge transfer radius:', {expr='RNG 25 %of', suff='m', fmt='1dec'}},
 			{'Banish radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
 			{'Rift Torrent damage bonus:', {expr='STR 30 %of 0 RIFT_TORRENT if', suff='%/enemy'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
 	['Cataclysm']={
@@ -2267,11 +2296,11 @@ local Data = {
 		},
 		outs={
 			{'Base '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 500 %of'}},
-			{'Base duration:', {name='CATACLYSM_BASE_DURATION', expr='DUR 30 %of', suff='s'}},
+			{'Base duration:', {name='CATACLYSM_BASE_DURATION', expr='DUR 30 %of', suff='s', fmt='2dec'}},
 			{'Initial radius:', {name='CATACLYSM_INITIAL_RADIUS', expr='RNG 16 %of', suff='m', fmt='1dec'}},
 			{'Minimum radius:', {expr='RNG 5 %of', suff='m', fmt='1dec'}},
 			{'Shrinking rate:', {expr='2 CATACLYSM_INITIAL_RADIUS * 3 CATACLYSM_BASE_DURATION * CATACLYSMIC_CONTINUUM_DURATION + /', suff='m/s', fmt='2dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},
 	-- Loki
@@ -2499,8 +2528,8 @@ local Data = {
 		outs={
 			{Tooltips.full('Cold', 'DamageTypes')..' damage:' , {name='BASE_NEOTE_DMG', expr='STR 400 %of', suff='/hit'}},
 			{'Total '..Tooltips.full('Cold', 'DamageTypes')..' damage:', {expr='BASE_NEOTE_DMG 5 *'}},
-			{'Range:', {expr='RNG 12 %of', suff='m'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}},
+			{'Range:', {expr='RNG 12 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
 		}
 	},
 	['Naraemagi']={
@@ -2509,8 +2538,8 @@ local Data = {
 		},
 		outs={
 			{Tooltips.full('Shield', 'Stats')..' or '..Tooltips.full('Overguard', 'DamageTypes')..':', {expr='STR 75 %of NUM_COLD_STATUS_ABSORBED *', suff='/'..Tooltips.full('Cold', 'DamageTypes')..' proc'}},
-			{'Radius:', {expr='RNG 14 %of', suff='m'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}},
+			{'Radius:', {expr='RNG 14 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}},
 		}
 	},
 	['Hakchum']={
@@ -2518,9 +2547,9 @@ local Data = {
 			{Tooltips.full('Cold', 'DamageTypes')..' Landing damage:' , {expr='STR 1000 %of'}},
 			{Tooltips.full('Cold', 'DamageTypes')..' DoT:' , {expr='STR 100 %of', suff='/s'}},
 			{Tooltips.full('Cold', 'DamageTypes')..' Damage Vulnerability:' , {expr='STR 150 %of', suff='%'}},
-			{'Ice storm duration:', {expr='DUR 10 %of', suff='s'}},
-			{'Ice storm radius:', {expr='RNG 10 %of', suff='m'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}},
+			{'Ice storm duration:', {expr='DUR 10 %of', suff='s', fmt='2dec'}},
+			{'Ice storm radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}},
 		}
 	},
 	['Nurinarim']={
@@ -2532,12 +2561,12 @@ local Data = {
 			{'Ice aura '..Tooltips.full('Cold', 'DamageTypes')..' damage:' , {expr='STR 500 %of', suff='/s'}},
 			{'Icy Slash'..Tooltips.full('Cold', 'DamageTypes')..'  damage:' , {expr='STR 20000 %of 2 1 ENEMY_IS_MARKED if *'}},
 			{'Frozen enemy explosion '..Tooltips.full('Cold', 'DamageTypes')..' damage:' , {expr='STR 10000 %of 2 1 ENEMY_IS_MARKED if *'}},
-			{'Max duration:', {expr='DUR 15 %of', suff='s'}},
-			{'Ice aura radius:', {expr='RNG 8 %of', suff='m'}},
-			{'Frozen enemy explosion radius:', {expr='RNG 10 %of', suff='m'}},
+			{'Max duration:', {expr='DUR 15 %of', suff='s', fmt='2dec'}},
+			{'Ice aura radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
+			{'Frozen enemy explosion radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Shield', 'Stats')..' stripped:', {expr='5 COLD_STATUS_COUNT *', suff='%'}},
 			{Tooltips.full('Armor', 'Stats')..' stripped:', {expr='5 COLD_STATUS_COUNT *', suff='%'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}},
 		}
 	},
 	-- Nekros
@@ -2658,12 +2687,12 @@ local Data = {
 		outs={
 			{Tooltips.full('Puncture', 'DamageTypes')..' contact damage:', {expr='STR 200 %of 1 MUTATION_STACKS + *'}},
 			{Tooltips.full('Viral', 'DamageTypes')..' lingering damage:', {expr='STR 100 %of 1 MUTATION_STACKS + *'}},
-			{'Lingering field duration:', {expr='DUR 5 %of', suff='s'}},
+			{'Lingering field duration:', {expr='DUR 5 %of', suff='s', fmt='2dec'}},
 			{'Length:', {expr='RNG 16 %of', suff='m', fmt='1dec'}},
 			{'Primary Weapon Critical Chance bonus:', {expr='STR 200 %of 0 TEEMING_VIRULENCE if', suff='%'}},
-			{'Teeming Virulence duration:', {expr='DUR 15 %of 0 TEEMING_VIRULENCE if', suff='s'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {name='VIRULENCE_COST', expr='40 COST *'}},
-			{Tooltips.full('Energy', 'Stats')..' restored:', {expr='VIRULENCE_COST 4 /', suff='/hit'}}
+			{'Teeming Virulence duration:', {expr='DUR 15 %of 0 TEEMING_VIRULENCE if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {name='VIRULENCE_COST', expr='40 COST *', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' restoration:', {expr='VIRULENCE_COST 4 /', suff='/hit'}}
 		}
 	},
 	['Larva']={
@@ -2673,12 +2702,12 @@ local Data = {
 		},
 		outs={
 			{'Mutation Stack chance:', {expr='0 STR 50 %of LARVA_INFUSED if 100 min', suff='%'}},
-			{'Duration:', {expr='DUR 7 %of', suff='s'}},
+			{'Duration:', {expr='DUR 7 %of', suff='s', fmt='2dec'}},
 			{'Grab radius:', {expr='RNG 8 12 LARVA_INFUSED if %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Toxin', 'DamageTypes')..' damage:', {name='LARVA_BURST_BASE_DMG', expr='STR 600 %of 0 LARVA_BURST if', suff='/enemy'}},
 			{Tooltips.full('Poison', 'DamageTypes')..' damage:', {expr='0.5 LARVA_BURST_BASE_DMG *', suff='/enemy'}},
 			{'Larva Burst radius:', {expr='RNG 8 %of 0 LARVA_BURST if', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
 		}
 	},
 	['Parasitic Link']={
@@ -2690,11 +2719,11 @@ local Data = {
 			{Tooltips.full('Ability Strength', 'Stats')..' multiplier:', {expr='STR 0.25 %of 1 +', fmt='2dec'}},
 			{'Damage multiplier:', {expr='STR 0.25 %of 1 +', fmt='2dec'}},
 			{'Damage redirection:', {expr='STR 50 %of 90 min', suff='%'}},
-			{'Duration:', {expr='DUR 60 %of', suff='s'}},
+			{'Duration:', {expr='DUR 60 %of', suff='s', fmt='2dec'}},
 			{'Ally maximum range:', {expr='RNG 40 %of', suff='m', fmt='1dec'}},
 			{'Enemy maximum range:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
 			{'Health bonus:', {expr='STR 4 MUTATION_STACKS * %of 0 PARASITIC_VITALITY if', suff='%'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
 		}
 	},
 	['Ravenous']={
@@ -2704,7 +2733,7 @@ local Data = {
 		},
 		outs={
 			{Tooltips.full('Health', 'Stats')..' regeneration:', {expr='STR 75 %of', suff='/s'}},
-			{'Duration:', {expr='DUR 40 %of', suff='s'}},
+			{'Duration:', {expr='DUR 40 %of', suff='s', fmt='2dec'}},
 			{'Field radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
 			{'Maggot '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 150 %of 1 MUTATION_STACKS + *'}},
 			{'Maggot '..Tooltips.full('Toxin', 'DamageTypes')..' damage:', {expr='10 1 MUTATION_STACKS + *'}},
@@ -2781,7 +2810,7 @@ local Data = {
 			{'Targeting radius', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Heat', 'DamageTypes')..' damage:', {expr='STR 240 %of 0 NEUTRON_STAR if'}},
 			{Tooltips.full('Heat', 'DamageTypes')..' damage radius:', {expr='RNG 8 %of 0 NEUTRON_STAR if', suff='m', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
 		}
 	},
 	['Antimatter Drop']={
@@ -2795,7 +2824,7 @@ local Data = {
 			{'Contact '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 10 %of'}},
 			{'Explosion radius:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
 			{'Antimatter Absorb radius:', {expr='RNG 5 %of 0 ANTIMATTER_ABSORB if', suff='m', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
 	['Wormhole']={
@@ -2805,18 +2834,18 @@ local Data = {
 		outs={
 			{'Range:', {expr='RNG 50 %of', suff='m', fmt='1dec'}},
 			{'[[Movement Speed]] bonus duration:', {expr='DUR 7 %of 0 ESCAPE_VELOCITY if', suff='s', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
 		}
 	},
 	['Molecular Prime']={
 		outs={
 			{'Slow or speed:', {expr='STR 50 %of 75 min', suff='%', fmt='1dec'}},
 			{Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='STR 800 %of'}},
-			{'Wave duration:', {name='MOLECULAR_PRIME_WAVE_DUR', expr='DUR 6 %of', suff='s'}},
-			{'Priming duration:', {expr='DUR 30 %of', suff='s'}},
+			{'Wave duration:', {name='MOLECULAR_PRIME_WAVE_DUR', expr='DUR 6 %of', suff='s', fmt='2dec'}},
+			{'Priming duration:', {expr='DUR 30 %of', suff='s', fmt='2dec'}},
 			{'Explosion radius:', {expr='RNG 10 %of', suff='m', fmt='1dec'}},
 			{'Maximum wave range:', {expr='MOLECULAR_PRIME_WAVE_DUR 5 * 5 +', suff='m', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},
 	-- Nyx
@@ -2892,9 +2921,9 @@ local Data = {
 			{'Cast range:', {expr='RNG 50 %of', suff='m', fmt='1dec'}},
 			{'AoE radius:', {expr='RNG 6 %of', suff='m', fmt='1dec'}},
 			{'Smite Infusion '..Tooltips.full('Radiation', 'DamageTypes')..' damage bonus:', {expr='STR 100 %of 0 SMITE_INFUSION if', suff='%'}},
-			{'Smite Infusion duration:', {expr='DUR 40 %of 0 SMITE_INFUSION if', suff='s'}},
+			{'Smite Infusion duration:', {expr='DUR 40 %of 0 SMITE_INFUSION if', suff='s', fmt='2dec'}},
 			{'Smite Infusion radius:', {expr='RNG 15 %of 0 SMITE_INFUSION if', suff='m', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
 		}
 	},
 	['Hallowed Ground']={
@@ -2903,10 +2932,10 @@ local Data = {
 		},
 		outs={
 			{Tooltips.full('Radiation', 'DamageTypes')..' damage:', {name='HALLOWED_GROUND_BASE_DMG', expr='STR 100 %of'}},
-			{'Duration:', {name='HALLOWED_GROUND_DURATION', expr='DUR 200 0 HALLOWED_ERUPTION if + 20 %of', suff='s'}},
+			{'Duration:', {name='HALLOWED_GROUND_DURATION', expr='DUR 200 0 HALLOWED_ERUPTION if + 20 %of', suff='s', fmt='2dec'}},
 			{'Radius:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
 			{'Maximum Hallowed Eruption '..Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='HALLOWED_GROUND_BASE_DMG HALLOWED_GROUND_DURATION * 0 HALLOWED_ERUPTION if'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
 	['Renewal']={
@@ -2935,14 +2964,14 @@ local Data = {
 			{'Added '..Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='STR 750 %of', suff='/'..Tooltips.full('Confusion', 'DamageTypes')..' stack'}},
 			{'Base '..Tooltips.full('Armor', 'Stats')..' bonus:', {expr='STR 10 %of', suff='/enemy'}},
 			{'Added '..Tooltips.full('Armor', 'Stats')..' bonus:', {expr='STR 5 %of', suff='/'..Tooltips.full('Confusion', 'DamageTypes')..' stack'}},
-			{Tooltips.full('Armor', 'Stats')..' bonus duration:', {expr='DUR 30 %of', suff='s'}},
+			{Tooltips.full('Armor', 'Stats')..' bonus duration:', {expr='DUR 30 %of', suff='s', fmt='2dec'}},
 			{'Radius:', {expr='RNG 40 0 HALLOWED_RECKONING if + 15 %of', suff='m', fmt='1dec'}},
 			{'Hallowed Reckoning '..Tooltips.full('Radiation', 'DamageTypes')..' damage:', {expr='STR 300 %of 0 HALLOWED_RECKONING if', suff='/s'}},
 			{'Hallowed Reckoning '..Tooltips.full('Armor', 'Stats')..' bonus:', {expr='STR 250 %of 0 HALLOWED_RECKONING if'}},
 			{'Hallowed Reckoning radius:', {expr='RNG 40 + 3 %of 0 HALLOWED_RECKONING if', suff='m', fmt='1dec'}},
-			{'Hallowed Reckoning area duration:', {expr='DUR 10 %of 0 HALLOWED_RECKONING if', suff='s'}},
-			{'Hallowed Reckoning '..Tooltips.full('Armor', 'Stats')..' bonus duration:', {expr='DUR 3 %of 0 HALLOWED_RECKONING if', suff='s'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+			{'Hallowed Reckoning area duration:', {expr='DUR 10 %of 0 HALLOWED_RECKONING if', suff='s', fmt='2dec'}},
+			{'Hallowed Reckoning '..Tooltips.full('Armor', 'Stats')..' bonus duration:', {expr='DUR 3 %of 0 HALLOWED_RECKONING if', suff='s', fmt='2dec'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},
 	-- Octavia
@@ -2954,10 +2983,10 @@ local Data = {
 		outs={
 			{'Damage multiplier:', {expr='STR 2.5 %of', fmt='2dec'}},
 			{'Stored damage decay:', {expr='PERCUSSION_COUNT mulin', suff='/beat', fmt='2%'}},
-			{'Duration:', {expr='DUR 20 %of', suff='s'}},
+			{'Duration:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
 			{'Base radius:', {name='MALLET_BASE_RADIUS', expr='80 100 PARTITIONED_MALLET if RNG 10 %of %of', suff='m', fmt='1dec'}},
 			{Tooltips.full('Amp', 'Ability')..' radius:', {expr='2 MALLET_BASE_RADIUS *', suff='m', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
 		}
 	},
 	['Resonator']={
@@ -2967,10 +2996,10 @@ local Data = {
 		outs={
 			{Tooltips.full('Blast', 'DamageTypes')..' damage per loop:', {name='RESONATOR_FULL_DMG', expr='STR 125 %of', suff='/loop/enemy'}},
 			{Tooltips.full('Blast', 'DamageTypes')..' damage per beat:', {expr='RESONATOR_FULL_DMG BASS_COUNT /', suff='/beat/enemy'}},
-			{'Duration:', {expr='DUR 20 %of', suff='s'}},
+			{'Duration:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
 			{'Minimum range:', {expr='RNG 6 %of', suff='m', fmt='1dec'}},
 			{'Maximum range:', {expr='RNG 15 %of', suff='m', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
 	['Metronome']={
@@ -2979,19 +3008,19 @@ local Data = {
 			{'Vivace [[Movement Speed]] bonus:', {expr='STR 30 %of', suff='%'}},
 			{'Opera [[Multishot]] bonus:', {expr='STR 30 %of', suff='%'}},
 			{'Forte [[Melee Damage]] bonus:', {expr='STR 30 %of', suff='%'}},
-			{'Metronome duration:', {expr='DUR 20 %of', suff='s'}},
-			{'Vivace, Opera, Forte and Nocturne duration:', {expr='DUR 15 %of', suff='s'}},
+			{'Metronome duration:', {expr='DUR 20 %of', suff='s', fmt='2dec'}},
+			{'Vivace, Opera, Forte and Nocturne duration:', {expr='DUR 15 %of', suff='s', fmt='2dec'}},
 			{'Radius:', {expr='RNG 12 %of', suff='m', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
 		}
 	},
 	['Amp']={
 		outs={
 			{'Minimum weapon damage bonus:', {expr='STR 25 %of', suff='%'}},
 			{'Maximum weapon damage bonus:', {expr='STR 125 %of', suff='%'}},
-			{'Duration:', {expr='DUR 30 %of', suff='s'}},
+			{'Duration:', {expr='DUR 30 %of', suff='s', fmt='2dec'}},
 			{'Radius:', {expr='RNG 14 %of', suff='m', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='100 COST *', fmt='2dec'}}
 		}
 	},
 	-- Odonata
@@ -3402,7 +3431,7 @@ local Data = {
 			{'Shadow flight duration:', {expr='DUR 6 %of', suff='s', fmt='1dec'}},
 			{'Shadow debuff radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
 			{'Shadow flight speed:', {expr='10 2 1 HOLD_CAST if * 1.5 1 AIMING if *', suff='m/s'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
 		}
 	},
 	['Sow']={
@@ -3414,10 +3443,10 @@ local Data = {
 		outs={
 			{Tooltips.full('True', 'DamageTypes')..' damage:', {expr='STR 250 %of STR 50 %of 100 / 1 + 1 REAP_DMG_VULN if *', suff='/s'}},
 			{Tooltips.full('True', 'DamageTypes')..' / '..Tooltips.full('Blast', 'DamageTypes')..' damage:', {expr='25 STR 50 %of 100 / 1 + 1 REAP_DMG_VULN if * 0 SOW_AND_REAP if', suff='% of current health'}},
-			{'Duration:', {expr='DUR 10 %of', suff='s'}},
+			{'Duration:', {expr='DUR 10 %of', suff='s', fmt='2dec'}},
 			{'Radius:', {expr='RNG 16 %of', suff='m', fmt='1dec'}},
 			{'Spread radius', {expr='RNG 15 %of 0 DARK_PROPAGATION if', suff='m', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
 	['Gloom']={
@@ -3432,7 +3461,7 @@ local Data = {
 			{'Growth Rate:', {expr='DUR 2 %of RNG 1 %of *', suff='m/s', fmt='1dec'}},
 			{'Time to reach Max Radius', {expr='6 1 DUR %of /', suff='s', fmt='1dec'}},
 			{'Life Steal:', {expr='STR 5 %of', suff='%'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *'}},
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}},
 			{Tooltips.full('Energy', 'Stats')..' drain:', {expr='0.75 DRAIN * ENEMY_COUNT *', suff='/s', fmt='2dec'}}
 		}
 	},
@@ -3458,24 +3487,24 @@ local Data = {
 	-- Sevagoth's Shadow
 	['Embrace']={
 		outs={
-			{'Grab Duration:', {expr='DUR 8 %of', suff='s'}},
+			{'Grab Duration:', {expr='DUR 8 %of', suff='s', fmt='2dec'}},
 			{'Grab Radius:', {expr='RNG 20 %of', suff='m', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
 		}
 	},
 	['Consume']={
 		outs={
 			{Tooltips.full('Health', 'Stats').. ' restored:', {expr='STR 0.25 %of STR 2500 %of *'}},
 			{'Targeting distance:', {expr='RNG 14 %of', suff='m', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='25 COST *', fmt='2dec'}}
 		}
 	},
 	['Death\'s Harvest']={
 		outs={
 			{'[[Damage Vulnerability]]:', {expr='STR 50 %of', suff='%', fmt='2dec'}},
-			{'Debuff duration:', {expr='DUR 10 %of', suff='s'}},
+			{'Debuff duration:', {expr='DUR 10 %of', suff='s', fmt='2dec'}},
 			{'Debuff radius:', {expr='RNG 8 %of', suff='m', fmt='1dec'}},
-			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *'}}
+			{Tooltips.full('Energy', 'Stats')..' cost:', {expr='75 COST *', fmt='2dec'}}
 		}
 	},
 	-- Sirius & Orion
@@ -4540,14 +4569,14 @@ local Data = {
 		outs={
 			{Tooltips.full('Electricity', 'DamageTypes')..' damage:', {expr='STR 600 %of', suff='/pulse'}},
 			{'Base radius:', {expr='RNG 150 %of', suff='m', fmt='1dec'}},
-			{'Manual detonation radius:', {expr='RNG 200 %of', suff='m'}},
+			{'Manual detonation radius:', {expr='RNG 200 %of', suff='m', fmt='1dec'}},
 			{'Base '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='50 COST *', fmt='2dec'}}
 		}
 	},
 	['Countermeasures']={
 		outs={
 			{'Flare lifetime:', {name='COUNTERMEASURES_DUR', expr='DUR 10 %of', suff='s', fmt='2dec'}},
-			{'Total flare travel distance:', {expr='70 COUNTERMEASURES_DUR *', suff='m'}},
+			{'Total flare travel distance:', {expr='70 COUNTERMEASURES_DUR *', suff='m', fmt='1dec'}},
 			{'Base '..Tooltips.full('Energy', 'Stats')..' cost:', {expr='5 COST *', fmt='2dec'}}
 		}
 	},

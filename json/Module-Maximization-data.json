@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-11-22T09:30:29.078Z"
+    "converted_at": "2026-11-25T10:59:50.103Z"
   },
   "_comments": "--- takes multiple tables and returns a combined one, used to merge GenericIns with specific ability ins\n-- this contains mappings for what we couldn't pull from preexisting modules\n\t-- Amesha\n\t-- Ash\n\t-- Atlas\n\t-- Banshee\n\t-- Baruuk\n\t-- Bonewidow\n\t-- Caliban\n\t-- Chroma\n\t-- Citrine\n\t-- Cyte-09\n\t-- Dagath\n\t-- Dante\n\t-- Elytron\n\t-- Ember\n\t-- Equinox\n\t-- Excalibur\n\t-- Excalibur Umbra\n\t-- Follie\n\t-- Frost\n\t-- Gara\n\t-- Garuda\n\t-- Gauss\n\t-- Grendel\n\t-- Gyre\n\t-- Harrow\n\t-- Hildryn\n\t-- Hydroid\n\t-- Inaros\n\t-- Itzal\n\t-- Ivara\n\t-- Jade\n\t\t\t-- Epsilon represents the 1 frame delay\n\t-- Khora\n\t-- Koumei\n\t-- Kullervo\n\t-- Lavos\n\t-- Limbo\n\t-- Loki\n\t-- Mag\n\t-- Mesa\n\t-- Mirage\n\t-- Narin\n\t-- Nekros\n\t-- Nezha\n\t-- Nidus\n\t-- Nokko\n\t-- Nova\n\t-- Nyx\n\t-- Oberon\n\t-- Octavia\n\t-- Odonata\n\t-- Oraxia\n\t-- Protea\n\t-- Qorvex\n\t-- Revenant\n\t-- Rhino\n\t-- Saryn\n\t-- Sevagoth\n\t-- Sevagoth's Shadow\n\t-- Sirius & Orion\n\t-- Stalker\n\t-- Styanax\n\t-- Temple\n\t-- Titania\n\t-- Trinity\n\t-- Uriel\n\t-- Valkyr\n\t-- Vauban\n\t-- Voidrig\n\t-- Volt\n\t-- Voruna\n\t-- Wisp\n\t-- Wukong\n\t-- Xaku\n\t-- Yareli\n\t-- Zephyr\n\t-- Helminth\n\t-- Railjack",
   "Glory on High": {
@@ -917,6 +917,7 @@
         "Base duration:",
         {
           "expr": "DUR 30 %of",
+          "fmt": "2dec",
           "name": "CATACLYSM_BASE_DURATION",
           "suff": "s"
         }
@@ -949,7 +950,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "100 COST *"
+          "expr": "100 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -1547,7 +1549,8 @@
         "Razor Mortar duration:",
         {
           "expr": "DUR 6 %of 0 RAZOR_MORTAR if",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
@@ -1561,7 +1564,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "25 COST *",
+          "fmt": "2dec"
         }
       ],
       [
@@ -1569,7 +1573,7 @@
         {
           "expr": "25 COST * 4 /",
           "suff": "/enemy",
-          "fmt": "1dec"
+          "fmt": "2dec"
         }
       ]
     ],
@@ -1685,7 +1689,8 @@
         "Range:",
         {
           "expr": "RNG 50 %of",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
@@ -1758,7 +1763,7 @@
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Bleed|DamageTypes}} DoT:",
+        "{{#invoke:Tooltip|full|Bleed|DamageTypes}} damage:",
         {
           "expr": "43.75 35 ASH if SHURIKEN_BASE_DMG %of",
           "name": "BLEED",
@@ -1774,21 +1779,24 @@
       [
         "Armor reduction:",
         {
-          "expr": "STR 70 %of SEEKING_SHURIKEN *",
-          "suff": "%"
+          "expr": "STR 70 %of 100 min 0 SEEKING_SHURIKEN if",
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
         "Armor reduction duration:",
         {
-          "expr": "DUR 8 %of SEEKING_SHURIKEN *",
-          "suff": "s"
+          "expr": "DUR 8 %of 0 SEEKING_SHURIKEN if",
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "25 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -3373,6 +3381,7 @@
     ]
   },
   "Lethal Progeny": {
+    "post": "For the base stats of Lethal Progeny's summons, use the calculators that can be found in the [[Conculyst]], [[Ortholyst]], [[Summulyst]] and [[Choralyst]] pages.",
     "outs": [
       [
         "Level at Rank 30:",
@@ -3407,7 +3416,8 @@
         "Duration:",
         {
           "expr": "DUR 45 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
@@ -3421,7 +3431,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *"
+          "expr": "50 COST *",
+          "fmt": "2dec"
         }
       ]
     ]
@@ -3447,7 +3458,8 @@
         "Duration:",
         {
           "expr": "DUR 20 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
@@ -3470,7 +3482,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "25 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -4054,7 +4067,8 @@
         "Maximum travel distance:",
         {
           "expr": "400 1600 LANDSCAPE_RANGES if",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
@@ -4237,7 +4251,8 @@
         "Grab Duration:",
         {
           "expr": "DUR 8 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
@@ -4251,7 +4266,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "25 COST *",
+          "fmt": "2dec"
         }
       ]
     ]
@@ -4777,48 +4793,55 @@
         "Duration:",
         {
           "expr": "DUR 12 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
-        "Extension on [[Finisher]] kills:",
+        "Duration extension on [[Finisher]] kill:",
         {
           "expr": "DUR 5 %of TELEPORT_RUSH *",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "Radius:",
         {
           "expr": "RNG 10 %of",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
         "Critical Chance bonus:",
         {
           "expr": "150 0 SMOKE_SHADOW if",
-          "suff": "%"
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
         "Smoke Shadow duration:",
         {
           "expr": "DUR 12 %of 0 SMOKE_SHADOW if",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "Smoke Shadow radius:",
         {
           "expr": "RNG 15 %of 0 SMOKE_SHADOW if",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "35 COST *"
+          "expr": "35 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -4889,7 +4912,8 @@
         "Duration:",
         {
           "expr": "DUR 30 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
@@ -4903,7 +4927,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "100 COST *"
+          "expr": "100 COST *",
+          "fmt": "2dec"
         }
       ]
     ]
@@ -5490,14 +5515,16 @@
         "Defense reduction:",
         {
           "expr": "STR 50 %of 100 min",
-          "suff": "%"
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
         "Duration:",
         {
           "expr": "DUR 15 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
@@ -5527,7 +5554,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "100 COST *"
+          "expr": "100 COST *",
+          "fmt": "2dec"
         }
       ]
     ]
@@ -5909,27 +5937,31 @@
         "Duration:",
         {
           "expr": "DUR 30 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "Radius:",
         {
           "expr": "RNG 20 %of",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
-        "[[Finisher damage]] modifier:",
+        "[[Finisher damage]] bonus:",
         {
           "expr": "STR 300 %of 0 SAVAGE_SILENCE if",
-          "suff": "%"
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "75 COST *"
+          "expr": "75 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -6670,7 +6702,8 @@
         "[[Damage Vulnerability]]:",
         {
           "expr": "STR 35 %of",
-          "suff": "%"
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -6684,7 +6717,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *"
+          "expr": "50 COST *",
+          "fmt": "2dec"
         }
       ]
     ]
@@ -6732,7 +6766,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "25 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -6796,7 +6831,8 @@
         "Lingering field duration:",
         {
           "expr": "DUR 5 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
@@ -6818,18 +6854,20 @@
         "Teeming Virulence duration:",
         {
           "expr": "DUR 15 %of 0 TEEMING_VIRULENCE if",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
+          "expr": "40 COST *",
           "name": "VIRULENCE_COST",
-          "expr": "40 COST *"
+          "fmt": "2dec"
         }
       ],
       [
-        "{{#invoke:Tooltip|full|Energy|Stats}} restored:",
+        "{{#invoke:Tooltip|full|Energy|Stats}} restoration:",
         {
           "expr": "VIRULENCE_COST 4 /",
           "suff": "/hit"
@@ -7153,13 +7191,15 @@
         "Duration:",
         {
           "expr": "DUR 15 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *"
+          "expr": "50 COST *",
+          "fmt": "2dec"
         }
       ]
     ]
@@ -7535,7 +7575,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "25 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -7854,14 +7895,16 @@
         "Zone duration:",
         {
           "expr": "DUR 6.25 25 GASEOUS_QUAKE if %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "Radius:",
         {
           "expr": "RNG 20 %of",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
@@ -7973,7 +8016,8 @@
         "Duration:",
         {
           "expr": "DUR 30 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
@@ -7990,13 +8034,14 @@
         {
           "expr": "SONAR_RADIUS 20 /",
           "suff": "s",
-          "fmt": "1dec"
+          "fmt": "2dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *"
+          "expr": "50 COST *",
+          "fmt": "2dec"
         }
       ]
     ]
@@ -8016,7 +8061,8 @@
         "Total flare travel distance:",
         {
           "expr": "70 COUNTERMEASURES_DUR *",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
@@ -8852,7 +8898,8 @@
         "Duration:",
         {
           "expr": "DUR 60 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
@@ -8881,7 +8928,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "25 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -9209,6 +9257,7 @@
         "Duration:",
         {
           "expr": "DUR 200 0 HALLOWED_ERUPTION if + 20 %of",
+          "fmt": "2dec",
           "name": "HALLOWED_GROUND_DURATION",
           "suff": "s"
         }
@@ -9230,7 +9279,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *"
+          "expr": "50 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -9277,7 +9327,8 @@
         "Range:",
         {
           "expr": "RNG 14 %of",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
@@ -9728,7 +9779,8 @@
         "Manual detonation radius:",
         {
           "expr": "RNG 200 %of",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
@@ -9842,7 +9894,8 @@
         "{{#invoke:Tooltip|full|Armor|Stats}} bonus duration:",
         {
           "expr": "DUR 30 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
@@ -9878,20 +9931,23 @@
         "Hallowed Reckoning area duration:",
         {
           "expr": "DUR 10 %of 0 HALLOWED_RECKONING if",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "Hallowed Reckoning {{#invoke:Tooltip|full|Armor|Stats}} bonus duration:",
         {
           "expr": "DUR 3 %of 0 HALLOWED_RECKONING if",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "100 COST *"
+          "expr": "100 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -10104,21 +10160,24 @@
         "Max duration:",
         {
           "expr": "DUR 15 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "Ice aura radius:",
         {
           "expr": "RNG 8 %of",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
         "Frozen enemy explosion radius:",
         {
           "expr": "RNG 10 %of",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
@@ -10138,7 +10197,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "25 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -10537,7 +10597,8 @@
         "{{#invoke:Tooltip|full|Armor|Stats}} reduction:",
         {
           "expr": "STR 70 %of 100 min",
-          "suff": "%"
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
@@ -10550,7 +10611,8 @@
         "Range:",
         {
           "expr": "RNG 15 %of",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
@@ -10563,20 +10625,22 @@
       [
         "Hits required for 1500 {{#invoke:Tooltip|full|Armor|Stats}}:",
         {
-          "expr": "30 STR as% / ceil 0 SONIC_SIPHON if"
+          "expr": "30 STR as% / ceil 1 max 0 SONIC_SIPHON if"
         }
       ],
       [
         "Sonic Siphon duration:",
         {
           "expr": "DUR 20 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "25 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -11461,13 +11525,15 @@
         "Radius:",
         {
           "expr": "RNG 14 %of",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *"
+          "expr": "50 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -12219,7 +12285,8 @@
         "Duration:",
         {
           "expr": "DUR 7 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
@@ -12255,7 +12322,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "25 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -12386,34 +12454,47 @@
         "{{#invoke:Tooltip|full|Finisher|DamageTypes}} damage bonus:",
         {
           "expr": "STR 200 %of",
-          "suff": "%"
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
         "Range:",
         {
           "expr": "RNG 60 %of",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
         "[[Parkour Velocity]] bonus:",
         {
           "expr": "30 0 TELEPORT_RUSH if",
-          "suff": "%"
+          "suff": "%",
+          "fmt": "2dec"
         }
       ],
       [
         "Teleport Rush duration:",
         {
           "expr": "DUR 12 %of 0 TELEPORT_RUSH if",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "25 COST *",
+          "name": "TELEPORT_COST",
+          "fmt": "2dec"
+        }
+      ],
+      [
+        "{{#invoke:Tooltip|full|Energy|Stats}} restoration on kill:",
+        {
+          "expr": "TELEPORT_COST 2 /",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -12464,13 +12545,15 @@
         "Range:",
         {
           "expr": "RNG 12 %of",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "25 COST *",
+          "fmt": "2dec"
         }
       ]
     ]
@@ -12824,7 +12907,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *"
+          "expr": "50 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -12850,7 +12934,8 @@
         "Debuff duration:",
         {
           "expr": "DUR 10 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
@@ -12864,7 +12949,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "75 COST *"
+          "expr": "75 COST *",
+          "fmt": "2dec"
         }
       ]
     ]
@@ -12970,7 +13056,8 @@
         "Duration:",
         {
           "expr": "DUR 10 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
@@ -12992,7 +13079,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *"
+          "expr": "50 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -13566,20 +13654,23 @@
         "Ice storm duration:",
         {
           "expr": "DUR 10 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "Ice storm radius:",
         {
           "expr": "RNG 10 %of",
-          "suff": "m"
+          "suff": "m",
+          "fmt": "1dec"
         }
       ],
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "75 COST *"
+          "expr": "75 COST *",
+          "fmt": "2dec"
         }
       ]
     ]
@@ -13640,7 +13731,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "75 COST *"
+          "expr": "75 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -14155,7 +14247,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "25 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -14681,7 +14774,8 @@
         "Duration:",
         {
           "expr": "DUR 20 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
@@ -14703,7 +14797,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "100 COST *"
+          "expr": "100 COST *",
+          "fmt": "2dec"
         }
       ]
     ]
@@ -14915,7 +15010,8 @@
         "Duration:",
         {
           "expr": "DUR 40 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
@@ -15167,14 +15263,16 @@
         "Metronome duration:",
         {
           "expr": "DUR 20 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "Vivace, Opera, Forte and Nocturne duration:",
         {
           "expr": "DUR 15 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
@@ -15188,7 +15286,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "75 COST *"
+          "expr": "75 COST *",
+          "fmt": "2dec"
         }
       ]
     ]
@@ -15285,7 +15384,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "25 COST *",
+          "fmt": "2dec"
         }
       ]
     ]
@@ -15534,7 +15634,8 @@
         "Duration:",
         {
           "expr": "DUR 20 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
@@ -15556,7 +15657,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *"
+          "expr": "50 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -15631,7 +15733,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *"
+          "expr": "50 COST *",
+          "fmt": "2dec"
         }
       ],
       [
@@ -15840,7 +15943,8 @@
         "Duration:",
         {
           "expr": "DUR 25 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
@@ -15861,7 +15965,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "25 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -15893,6 +15998,7 @@
         "Wave duration:",
         {
           "expr": "DUR 6 %of",
+          "fmt": "2dec",
           "name": "MOLECULAR_PRIME_WAVE_DUR",
           "suff": "s"
         }
@@ -15901,7 +16007,8 @@
         "Priming duration:",
         {
           "expr": "DUR 30 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
@@ -15923,7 +16030,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "100 COST *"
+          "expr": "100 COST *",
+          "fmt": "2dec"
         }
       ]
     ]
@@ -16193,7 +16301,8 @@
         "Smite Infusion duration:",
         {
           "expr": "DUR 40 %of 0 SMITE_INFUSION if",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
@@ -16207,7 +16316,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "25 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -16810,14 +16920,16 @@
         "Surge duration:",
         {
           "expr": "DUR 25 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
         "Banish duration:",
         {
           "expr": "DUR 18 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
@@ -16854,7 +16966,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *"
+          "expr": "50 COST *",
+          "fmt": "2dec"
         }
       ]
     ],
@@ -16995,13 +17108,15 @@
       [
         "Mark {{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "25 COST *"
+          "expr": "25 COST *",
+          "fmt": "2dec"
         }
       ],
       [
         "Maximum revive {{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *"
+          "expr": "50 COST *",
+          "fmt": "2dec"
         }
       ]
     ]
@@ -17058,7 +17173,8 @@
         "Duration:",
         {
           "expr": "DUR 15 %of",
-          "suff": "s"
+          "suff": "s",
+          "fmt": "2dec"
         }
       ],
       [
@@ -17088,7 +17204,8 @@
       [
         "{{#invoke:Tooltip|full|Energy|Stats}} cost:",
         {
-          "expr": "50 COST *"
+          "expr": "50 COST *",
+          "fmt": "2dec"
         }
       ]
     ]
@@ -17672,7 +17789,8 @@
       [
         "Dodge {{#invoke:Tooltip|full|Shield|Stats}} cost:",
         {
-          "expr": "50 COST *"
+          "expr": "50 COST *",
+          "fmt": "2dec"
         }
       ]
     ],

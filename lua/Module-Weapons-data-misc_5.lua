@@ -1,4 +1,31 @@
 return {
+	Arcata = {
+		Attacks = {
+			{
+				AttackName = "Normal Attack",
+				Damage = {
+					Impact = 7.6,
+					Puncture = 47.9,
+					Slash = 7.6
+				},
+				FireRate = 1.1,
+				CritChance = 0,
+				CritMultiplier = 0,
+			}
+		},
+		Class = "Unique",
+		Conclave = true,
+		Image = "Arcata.png",
+		Introduced = "Update: Lunaro",
+		Link = "Arcata",
+		Name = "Arcata",
+		Slot = "Melee",
+		Traits = {
+			"Tenno",
+		},
+		_IgnoreInMasteryCount = true,
+		_TooltipAttackDisplay = 1,
+	},
 	---------------------------------Emplacements-----------------------------------
 	Rampart = {
 		Attacks = {

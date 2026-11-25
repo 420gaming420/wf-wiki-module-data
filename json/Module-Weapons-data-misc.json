@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-08-31T21:33:35.321Z"
+    "converted_at": "2026-11-25T10:59:52.742Z"
   },
   "_comments": "\t---------------------------------Emplacements-----------------------------------\n\t-------------------------------------Gear---------------------------------------\n\t-----------------------------------Nech-Melee-----------------------------------\n\t------------------------------------Unique--------------------------------------\n\t---------------------------------Vehicles---------------------------------------",
   "Lob Blobs": {
@@ -284,48 +284,32 @@
     "InternalName": "/Lotus/Types/Restoratives/Consumable/SpearFishingSpear",
     "Link": "Lanzo"
   },
-  "Dargyn": {
-    "ReloadRate": 41.7,
-    "Conclave": false,
+  "Arcata": {
+    "Conclave": true,
     "_TooltipAttackDisplay": 1,
     "Class": "Unique",
-    "Image": "GrnSkiffMissile.png",
-    "Users": [
-      "Dargyn Pilot"
-    ],
-    "Introduced": "22.12",
-    "ReloadStyle": "Regenerate",
-    "Link": "Dargyn",
-    "Trigger": "Auto",
-    "Magazine": 75,
-    "Reload": 1.8,
     "Attacks": [
       {
         "CritChance": 0,
-        "ShotType": "Projectile",
-        "FireRate": 9.03,
-        "Multishot": 1,
-        "ShotSpeed": 300,
-        "IsSilent": false,
         "AttackName": "Normal Attack",
-        "PunchThrough": 0,
-        "StatusChance": 0,
         "CritMultiplier": 0,
+        "FireRate": 1.1,
         "Damage": {
-          "Puncture": 150,
-          "Slash": 150,
-          "Impact": 150
+          "Puncture": 47.9,
+          "Slash": 7.6,
+          "Impact": 7.6
         }
       }
     ],
-    "Name": "Dargyn",
+    "Image": "Arcata.png",
+    "Name": "Arcata",
+    "Introduced": "Update: Lunaro",
     "_IgnoreInMasteryCount": true,
     "Traits": [
-      "Grineer"
+      "Tenno"
     ],
-    "AmmoMax": null,
-    "Slot": "Vehicle",
-    "ReloadDelay": 0
+    "Slot": "Melee",
+    "Link": "Arcata"
   },
   "Noodletron": {
     "_TooltipAttackDisplay": 1,
@@ -466,6 +450,49 @@
     "Slot": "Gear",
     "InternalName": "/Lotus/Types/Restoratives/Consumable/RobofishSpearB",
     "Link": "Shockprod"
+  },
+  "Dargyn": {
+    "ReloadRate": 41.7,
+    "Conclave": false,
+    "_TooltipAttackDisplay": 1,
+    "Class": "Unique",
+    "Image": "GrnSkiffMissile.png",
+    "Users": [
+      "Dargyn Pilot"
+    ],
+    "Introduced": "22.12",
+    "ReloadStyle": "Regenerate",
+    "Link": "Dargyn",
+    "Trigger": "Auto",
+    "Magazine": 75,
+    "Reload": 1.8,
+    "Attacks": [
+      {
+        "CritChance": 0,
+        "ShotType": "Projectile",
+        "FireRate": 9.03,
+        "Multishot": 1,
+        "ShotSpeed": 300,
+        "IsSilent": false,
+        "AttackName": "Normal Attack",
+        "PunchThrough": 0,
+        "StatusChance": 0,
+        "CritMultiplier": 0,
+        "Damage": {
+          "Puncture": 150,
+          "Slash": 150,
+          "Impact": 150
+        }
+      }
+    ],
+    "Name": "Dargyn",
+    "_IgnoreInMasteryCount": true,
+    "Traits": [
+      "Grineer"
+    ],
+    "AmmoMax": null,
+    "Slot": "Vehicle",
+    "ReloadDelay": 0
   },
   "Unarmed": {
     "HeavySlamAttack": 0,
