@@ -1,7 +1,7 @@
 ---
 title: "Module:Enemies/data/grineer"
 wiki_url: "https://wiki.warframe.com/w/Module/Enemies/data/grineer"
-wiki_timestamp: "2026-08-19T14:46:16Z"
+wiki_timestamp: "2026-11-26T18:10:46Z"
 ---
 
 *Documentation for this module may be created at [Module:Enemies/data/grineer/doc](/w/Module:Enemies/data/grineer/doc?action=edit&redlink=1 "Module:Enemies/data/grineer/doc (page does not exist)")*
