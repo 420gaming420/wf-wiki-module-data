@@ -314,13 +314,16 @@ CosmeticsData["Zephyr Prime"] = CosmeticsData["Zephyr"]
 for user, entry in pairs(CosmeticsData.Users) do
 	for _, part in pairs(entry.Equipments) do
 		for _, name in ipairs(part) do
-			if CosmeticsData.Cosmetics[name] == nil then
-				CosmeticsData.Cosmetics[name] = {}
+			local cosmetic = CosmeticsData.Cosmetics[name]
+			if cosmetic then
+				cosmetic.Users = cosmetic.Users or {}
+				local userData = {
+					Type = entry.Type, -- Type used for Tooltips. e.g. { "Ash", "Warframe" }
+					Name = user,
+					Variants =  entry.Variants and entry.Variants[1] and entry.Variants or nil
+				}
+				cosmetic.Users[#cosmetic.Users + 1] = userData
 			end
-			if CosmeticsData.Cosmetics[name]["Users"] == nil then
-				CosmeticsData.Cosmetics[name]["Users"] = {}
-			end
-			table.insert(CosmeticsData.Cosmetics[name]["Users"], {user, entry.Type}) -- Type used for Tooltips. e.g. { "Ash", "Warframe" }
 		end
 	end
 end

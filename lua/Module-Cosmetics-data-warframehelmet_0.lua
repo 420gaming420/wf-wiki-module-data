@@ -4510,6 +4510,16 @@ return {
         Name = "Protea Helmet",
         Type = "Helmet"
     },
+    ["Protea Immortal Helmet"] = {
+        CodexSecret = false,
+        Description = "The Immortal Helmet for the Protea Warframe.",
+        ExcludeFromCodex = false,
+        Image = "ProteImmortalHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Odalisk/ProteaImmortalHelmet",
+        Link = "Protea Immortal Helmet",
+        Name = "Protea Immortal Helmet",
+        Type = "Helmet"
+    },
     ["Protea Kollapsar Helmet"] = {
         CodexSecret = false,
         Description = "A helmet for the Protea Warframe, designed by led2012.",

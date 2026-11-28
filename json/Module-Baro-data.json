@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-11-14T08:45:16.756Z"
+    "converted_at": "2026-11-28T09:57:28.345Z"
   },
   "_comments": "-- Notes:\n--\t* Console offerings are typically 3 visits (6 weeks) behind PC offerings; this note will be useful in validating this data\n--\t* On TennoCon, all previous offerings are made available; these dates are not noted and these visits are irregular in length (over 48 hours)\n--\t\t* See https://wiki.warframe.com/wiki/TennoCon for historical documentation\n--\t* Baro's first appearance was on 2014-12-12; from here one can calculate the Fridays in which Baro visits occur\n--\t* Baro skips 2019-07-13 appearance due to TennoCon 2019; this visit was moved to 2019-07-19 as per https://forums.warframe.com/topic/1109278-all-platforms-baro-kiteer-regular-schedule-resumes-july-19/",
   "ExtraItems": {
@@ -539,7 +539,8 @@
         "2026-02-06",
         "2026-04-03",
         "2026-04-10",
-        "2026-08-21"
+        "2026-08-21",
+        "2026-11-27"
       ]
     },
     "Entrati Eye Glyph": {
@@ -633,7 +634,8 @@
         "2026-03-20",
         "2026-05-29",
         "2026-08-07",
-        "2026-09-18"
+        "2026-09-18",
+        "2026-11-27"
       ]
     },
     "Primed Point Blank": {
@@ -1559,6 +1561,17 @@
         "2026-09-04"
       ]
     },
+    "Zylok Elixis Skin": {
+      "CreditCost": 420000,
+      "Name": "Zylok Elixis Skin",
+      "Link": "Zylok Elixis Skin",
+      "DucatCost": 300,
+      "Type": "Cosmetic (Weapon Skin)",
+      "OfferingDates": [
+        "2026-10-02"
+      ],
+      "Image": "ZylokElixisSkin.png"
+    },
     "Deimos Jugulus Prex": {
       "CreditCost": 100000,
       "Link": "Orbiter Decorations#Prex",
@@ -1647,16 +1660,58 @@
       ],
       "Name": "In Mah Belly Glyph"
     },
-    "Zylok Elixis Skin": {
-      "CreditCost": 420000,
-      "Name": "Zylok Elixis Skin",
-      "Link": "Zylok Elixis Skin",
-      "DucatCost": 300,
-      "Type": "Cosmetic (Weapon Skin)",
-      "OfferingDates": [
-        "2026-10-02"
+    "Zylok": {
+      "CreditCost": 200000,
+      "Link": "Zylok",
+      "DucatCost": 500,
+      "ConsoleOfferingDates": [
+        "2019-09-13",
+        "2019-10-11",
+        "2020-02-14",
+        "2020-06-19",
+        "2020-10-23",
+        "2021-03-12",
+        "2021-07-30",
+        "2021-12-03",
+        "2022-04-22"
       ],
-      "Image": "ZylokElixisSkin.png"
+      "Image": "Zylok.png",
+      "Name": "Zylok",
+      "Type": "Weapon",
+      "PcOfferingDates": [
+        "2019-08-30",
+        "2020-01-03",
+        "2020-05-08",
+        "2020-09-11",
+        "2021-01-29",
+        "2021-06-18",
+        "2021-10-22",
+        "2022-03-11"
+      ],
+      "TennoConOfferingDates": [
+        "2020-07-11",
+        "2020-08-01",
+        "2021-07-17",
+        "2022-07-16",
+        "2023-08-26",
+        "2024-07-20",
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2022-10-07",
+        "2023-03-24",
+        "2023-08-11",
+        "2024-01-26",
+        "2024-07-26",
+        "2024-12-27",
+        "2025-05-02",
+        "2025-09-19",
+        "2025-10-24",
+        "2026-06-26",
+        "2026-07-24",
+        "2026-11-06"
+      ]
     },
     "Left Eos Prime Shoulder Plates": {
       "CreditCost": 75000,
@@ -1750,35 +1805,51 @@
       ],
       "Image": "Ava-ClemCommunityGlyph.png"
     },
-    "Zylok": {
-      "CreditCost": 200000,
-      "Link": "Zylok",
-      "DucatCost": 500,
+    "Zephyr Immortal Skin": {
+      "CreditCost": 100000,
+      "Link": "Zephyr Immortal Skin",
+      "DucatCost": 550,
       "ConsoleOfferingDates": [
-        "2019-09-13",
-        "2019-10-11",
-        "2020-02-14",
-        "2020-06-19",
-        "2020-10-23",
-        "2021-03-12",
-        "2021-07-30",
-        "2021-12-03",
-        "2022-04-22"
+        "2017-06-30",
+        "2017-11-03",
+        "2018-03-23",
+        "2018-07-13",
+        "2018-11-02",
+        "2019-03-08",
+        "2019-07-19",
+        "2019-12-20",
+        "2020-04-10",
+        "2020-08-28",
+        "2020-12-18",
+        "2021-05-21",
+        "2021-10-08",
+        "2022-01-28",
+        "2022-05-20"
       ],
-      "Image": "Zylok.png",
-      "Name": "Zylok",
-      "Type": "Weapon",
+      "Image": "ZephyrImmortalSkin.png",
+      "Name": "Zephyr Immortal Skin",
+      "Type": "Cosmetic (Warframe Skin)",
       "PcOfferingDates": [
-        "2019-08-30",
-        "2020-01-03",
-        "2020-05-08",
-        "2020-09-11",
-        "2021-01-29",
-        "2021-06-18",
-        "2021-10-22",
-        "2022-03-11"
+        "2017-05-19",
+        "2017-09-22",
+        "2018-02-09",
+        "2018-06-01",
+        "2018-09-21",
+        "2019-01-25",
+        "2019-05-31",
+        "2019-11-08",
+        "2020-02-28",
+        "2020-07-17",
+        "2020-11-06",
+        "2021-04-09",
+        "2021-08-27",
+        "2021-12-17",
+        "2022-04-08"
       ],
       "TennoConOfferingDates": [
+        "2017-07-08",
+        "2018-07-07",
+        "2019-07-06",
         "2020-07-11",
         "2020-08-01",
         "2021-07-17",
@@ -1789,18 +1860,15 @@
         "2026-07-11"
       ],
       "OfferingDates": [
-        "2022-10-07",
-        "2023-03-24",
-        "2023-08-11",
-        "2024-01-26",
+        "2022-11-04",
+        "2023-05-19",
+        "2023-12-01",
         "2024-07-26",
-        "2024-12-27",
-        "2025-05-02",
-        "2025-09-19",
-        "2025-10-24",
-        "2026-06-26",
-        "2026-07-24",
-        "2026-11-06"
+        "2025-02-07",
+        "2025-07-25",
+        "2025-12-26",
+        "2026-03-06",
+        "2026-10-23"
       ]
     },
     "Domus Syandana": {
@@ -1994,72 +2062,6 @@
         "2026-09-18"
       ]
     },
-    "Zephyr Immortal Skin": {
-      "CreditCost": 100000,
-      "Link": "Zephyr Immortal Skin",
-      "DucatCost": 550,
-      "ConsoleOfferingDates": [
-        "2017-06-30",
-        "2017-11-03",
-        "2018-03-23",
-        "2018-07-13",
-        "2018-11-02",
-        "2019-03-08",
-        "2019-07-19",
-        "2019-12-20",
-        "2020-04-10",
-        "2020-08-28",
-        "2020-12-18",
-        "2021-05-21",
-        "2021-10-08",
-        "2022-01-28",
-        "2022-05-20"
-      ],
-      "Image": "ZephyrImmortalSkin.png",
-      "Name": "Zephyr Immortal Skin",
-      "Type": "Cosmetic (Warframe Skin)",
-      "PcOfferingDates": [
-        "2017-05-19",
-        "2017-09-22",
-        "2018-02-09",
-        "2018-06-01",
-        "2018-09-21",
-        "2019-01-25",
-        "2019-05-31",
-        "2019-11-08",
-        "2020-02-28",
-        "2020-07-17",
-        "2020-11-06",
-        "2021-04-09",
-        "2021-08-27",
-        "2021-12-17",
-        "2022-04-08"
-      ],
-      "TennoConOfferingDates": [
-        "2017-07-08",
-        "2018-07-07",
-        "2019-07-06",
-        "2020-07-11",
-        "2020-08-01",
-        "2021-07-17",
-        "2022-07-16",
-        "2023-08-26",
-        "2024-07-20",
-        "2025-07-19",
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2022-11-04",
-        "2023-05-19",
-        "2023-12-01",
-        "2024-07-26",
-        "2025-02-07",
-        "2025-07-25",
-        "2025-12-26",
-        "2026-03-06",
-        "2026-10-23"
-      ]
-    },
     "Zanuka Hunter Beacon": {
       "CreditCost": 125000,
       "Link": "Death Mark#Assassin Death Marks",
@@ -2187,6 +2189,51 @@
         "2026-06-12"
       ]
     },
+    "Tiberon Elixis Skin": {
+      "CreditCost": 275000,
+      "Link": "Tiberon Elixis Skin",
+      "DucatCost": 315,
+      "ConsoleOfferingDates": [
+        "2020-08-28",
+        "2021-01-29",
+        "2021-07-02",
+        "2021-11-05",
+        "2022-01-28",
+        "2022-07-01"
+      ],
+      "Image": "TiberonElixisSkin.png",
+      "Name": "Tiberon Elixis Skin",
+      "Type": "Cosmetic (Weapon Skin)",
+      "PcOfferingDates": [
+        "2020-07-17",
+        "2020-12-18",
+        "2021-05-21",
+        "2021-09-24",
+        "2021-12-17",
+        "2022-05-20"
+      ],
+      "TennoConOfferingDates": [
+        "2020-08-01",
+        "2021-07-17",
+        "2022-07-16",
+        "2023-08-26",
+        "2024-07-20",
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2022-11-04",
+        "2023-04-21",
+        "2023-11-17",
+        "2024-04-05",
+        "2024-10-04",
+        "2025-04-25",
+        "2025-05-02",
+        "2025-10-03",
+        "2025-10-24",
+        "2026-05-29"
+      ]
+    },
     "Transmuter Operator Hood": {
       "CreditCost": 450000,
       "Link": "Operator/Customization#Head",
@@ -2222,74 +2269,8 @@
         "2026-03-06",
         "2026-05-15",
         "2026-07-24",
-        "2026-09-04"
-      ]
-    },
-    "Twin Grakatas Towsun Skin": {
-      "CreditCost": 300000,
-      "Link": "Twin Grakatas Towsun Skin",
-      "DucatCost": 300,
-      "ConsoleOfferingDates": [
-        "2017-08-25",
-        "2018-01-12",
-        "2018-02-09",
-        "2018-03-09",
-        "2018-07-27",
-        "2018-12-28",
-        "2019-05-17",
-        "2019-09-13",
-        "2020-01-03",
-        "2020-05-22",
-        "2020-10-09",
-        "2021-02-12",
-        "2021-06-18",
-        "2021-10-08",
-        "2022-01-14",
-        "2022-05-20"
-      ],
-      "Image": "TwinGrakatasTowsunSkin.png",
-      "Name": "Twin Grakatas Towsun Skin",
-      "Type": "Cosmetic (Weapon Skin)",
-      "PcOfferingDates": [
-        "2017-11-17",
-        "2017-12-15",
-        "2018-01-26",
-        "2018-06-15",
-        "2018-11-16",
-        "2019-04-05",
-        "2019-08-16",
-        "2019-11-22",
-        "2020-04-10",
-        "2020-08-28",
-        "2021-01-01",
-        "2021-05-07",
-        "2021-08-27",
-        "2021-12-03",
-        "2022-04-08"
-      ],
-      "TennoConOfferingDates": [
-        "2018-07-07",
-        "2019-07-06",
-        "2020-07-11",
-        "2020-08-01",
-        "2021-07-17",
-        "2024-07-20",
-        "2025-07-19",
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2017-06-30",
-        "2022-09-23",
-        "2023-01-27",
-        "2023-06-16",
-        "2023-11-03",
-        "2024-03-22",
-        "2024-09-06",
-        "2025-02-21",
-        "2025-05-16",
-        "2025-08-08",
-        "2026-01-09",
-        "2026-10-02"
+        "2026-09-04",
+        "2026-11-27"
       ]
     },
     "Xoris Elixis Skin": {
@@ -2306,6 +2287,79 @@
         "2026-11-13"
       ],
       "Image": "XorisElixisSkin.png"
+    },
+    "Xiphos Prisma Skin": {
+      "CreditCost": 400000,
+      "Link": "Xiphos#Skins",
+      "DucatCost": 220,
+      "ConsoleOfferingDates": [
+        "2016-10-21",
+        "2017-01-13",
+        "2017-05-19",
+        "2017-09-22",
+        "2018-06-29",
+        "2018-11-02",
+        "2019-03-08",
+        "2019-06-28",
+        "2019-11-08",
+        "2020-03-27",
+        "2020-08-28",
+        "2021-01-15",
+        "2021-05-21",
+        "2021-11-05",
+        "2022-02-25",
+        "2022-07-01"
+      ],
+      "Image": "XiphosPrismaSkin.png",
+      "Name": "Xiphos Prisma Skin",
+      "Type": "Cosmetic (Landing Craft)",
+      "PcOfferingDates": [
+        "2016-08-26",
+        "2016-12-02",
+        "2017-04-07",
+        "2017-08-11",
+        "2018-05-18",
+        "2018-09-21",
+        "2019-01-25",
+        "2019-05-17",
+        "2019-09-27",
+        "2020-02-14",
+        "2020-07-17",
+        "2020-12-04",
+        "2021-04-09",
+        "2021-09-24",
+        "2022-01-14",
+        "2022-05-20"
+      ],
+      "TennoConOfferingDates": [
+        "2017-07-08",
+        "2018-07-07",
+        "2019-07-06",
+        "2020-07-11",
+        "2020-08-01",
+        "2021-07-17",
+        "2022-07-16",
+        "2023-08-26",
+        "2024-07-20",
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2017-12-29",
+        "2022-10-07",
+        "2023-02-10",
+        "2023-06-02",
+        "2023-10-06",
+        "2024-06-14",
+        "2024-10-18",
+        "2024-11-15",
+        "2024-12-27",
+        "2025-04-11",
+        "2025-09-19",
+        "2025-11-14",
+        "2026-07-24",
+        "2026-10-30"
+      ]
     },
     "Mahd Luxxum Ornament": {
       "CreditCost": 100000,
@@ -2425,7 +2479,8 @@
         "2025-07-25",
         "2025-11-28",
         "2026-08-07",
-        "2026-08-21"
+        "2026-08-21",
+        "2026-11-27"
       ]
     },
     "Lunar Renewal Dragon Emblem": {
@@ -2666,53 +2721,30 @@
         "2026-10-02"
       ]
     },
-    "Xiphos Prisma Skin": {
-      "CreditCost": 400000,
-      "Link": "Xiphos#Skins",
-      "DucatCost": 220,
+    "Parazon Poster": {
+      "CreditCost": 125000,
+      "Link": "Orbiter Decorations#Posters",
+      "DucatCost": 100,
       "ConsoleOfferingDates": [
-        "2016-10-21",
-        "2017-01-13",
-        "2017-05-19",
-        "2017-09-22",
-        "2018-06-29",
-        "2018-11-02",
-        "2019-03-08",
-        "2019-06-28",
-        "2019-11-08",
-        "2020-03-27",
-        "2020-08-28",
-        "2021-01-15",
-        "2021-05-21",
-        "2021-11-05",
-        "2022-02-25",
-        "2022-07-01"
-      ],
-      "Image": "XiphosPrismaSkin.png",
-      "Name": "Xiphos Prisma Skin",
-      "Type": "Cosmetic (Landing Craft)",
-      "PcOfferingDates": [
-        "2016-08-26",
-        "2016-12-02",
-        "2017-04-07",
-        "2017-08-11",
-        "2018-05-18",
-        "2018-09-21",
-        "2019-01-25",
-        "2019-05-17",
-        "2019-09-27",
         "2020-02-14",
-        "2020-07-17",
-        "2020-12-04",
+        "2020-06-19",
+        "2020-11-20",
         "2021-04-09",
-        "2021-09-24",
-        "2022-01-14",
-        "2022-05-20"
+        "2021-09-10",
+        "2022-03-11"
+      ],
+      "Image": "ParazonPoster.png",
+      "Name": "Parazon Poster",
+      "Type": "Decoration",
+      "PcOfferingDates": [
+        "2020-01-03",
+        "2020-05-08",
+        "2020-10-09",
+        "2021-02-26",
+        "2021-07-30",
+        "2022-01-28"
       ],
       "TennoConOfferingDates": [
-        "2017-07-08",
-        "2018-07-07",
-        "2019-07-06",
         "2020-07-11",
         "2020-08-01",
         "2021-07-17",
@@ -2723,20 +2755,13 @@
         "2026-07-11"
       ],
       "OfferingDates": [
-        "2017-12-29",
-        "2022-10-07",
-        "2023-02-10",
-        "2023-06-02",
-        "2023-10-06",
-        "2024-06-14",
-        "2024-10-18",
-        "2024-11-15",
+        "2022-09-23",
+        "2023-07-14",
+        "2024-04-05",
         "2024-12-27",
-        "2025-04-11",
-        "2025-09-19",
-        "2025-11-14",
-        "2026-07-24",
-        "2026-10-30"
+        "2025-05-02",
+        "2026-04-17",
+        "2026-11-06"
       ]
     },
     "Eskhatos Ki'Teer Glyph": {
@@ -2783,49 +2808,6 @@
         "2026-11-13"
       ],
       "Image": "Masker'sTheodoliteCrewsuitLeggings.png"
-    },
-    "Parazon Poster": {
-      "CreditCost": 125000,
-      "Link": "Orbiter Decorations#Posters",
-      "DucatCost": 100,
-      "ConsoleOfferingDates": [
-        "2020-02-14",
-        "2020-06-19",
-        "2020-11-20",
-        "2021-04-09",
-        "2021-09-10",
-        "2022-03-11"
-      ],
-      "Image": "ParazonPoster.png",
-      "Name": "Parazon Poster",
-      "Type": "Decoration",
-      "PcOfferingDates": [
-        "2020-01-03",
-        "2020-05-08",
-        "2020-10-09",
-        "2021-02-26",
-        "2021-07-30",
-        "2022-01-28"
-      ],
-      "TennoConOfferingDates": [
-        "2020-07-11",
-        "2020-08-01",
-        "2021-07-17",
-        "2022-07-16",
-        "2023-08-26",
-        "2024-07-20",
-        "2025-07-19",
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2022-09-23",
-        "2023-07-14",
-        "2024-04-05",
-        "2024-12-27",
-        "2025-05-02",
-        "2026-04-17",
-        "2026-11-06"
-      ]
     },
     "Wysar Day of the Dead Kavat Armor": {
       "CreditCost": 175000,
@@ -2888,20 +2870,6 @@
       ],
       "Name": "Wysar Day of the Dead Kavat Armor"
     },
-    "Boar Elixis Skin": {
-      "Type": "Cosmetic (Weapon Skin)",
-      "CreditCost": 300000,
-      "Name": "Boar Elixis Skin",
-      "Link": "Boar Elixis Skin",
-      "DucatCost": 330,
-      "TennoConOfferingDates": [
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2026-07-10"
-      ],
-      "Image": "BoarElixisSkin.png"
-    },
     "Wisp Immortal Skin": {
       "Type": "Cosmetic (Warframe Skin)",
       "CreditCost": 100000,
@@ -2923,9 +2891,62 @@
         "2025-05-02",
         "2025-10-03",
         "2025-10-24",
-        "2026-05-15"
+        "2026-05-15",
+        "2026-11-27"
       ],
       "Image": "WispImmortalSkin.png"
+    },
+    "Boar Elixis Skin": {
+      "Type": "Cosmetic (Weapon Skin)",
+      "CreditCost": 300000,
+      "Name": "Boar Elixis Skin",
+      "Link": "Boar Elixis Skin",
+      "DucatCost": 330,
+      "TennoConOfferingDates": [
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2026-07-10"
+      ],
+      "Image": "BoarElixisSkin.png"
+    },
+    "Wintercress Syandana": {
+      "CreditCost": 275000,
+      "Link": "Wintercress Syandana",
+      "DucatCost": 325,
+      "ConsoleOfferingDates": [
+        "2022-02-11"
+      ],
+      "Image": "WintercressSyandana.png",
+      "IsSeasonal": true,
+      "Type": "Cosmetic (Syandana)",
+      "TennoConOfferingDates": [
+        "2021-07-17",
+        "2024-07-20",
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "PcOfferingDates": [
+        "2021-12-31"
+      ],
+      "OfferingDates": [
+        "2022-07-29",
+        "2022-08-12",
+        "2022-08-26",
+        "2022-12-02",
+        "2022-12-16",
+        "2022-12-30",
+        "2023-12-01",
+        "2023-12-15",
+        "2023-12-29",
+        "2024-11-29",
+        "2024-12-13",
+        "2024-12-27",
+        "2025-11-28",
+        "2025-12-12",
+        "2025-12-26"
+      ],
+      "Name": "Wintercress Syandana"
     },
     "Prisma Yamako Syandana": {
       "CreditCost": 250000,
@@ -3010,43 +3031,23 @@
         "2026-10-16"
       ]
     },
-    "Wintercress Syandana": {
-      "CreditCost": 275000,
-      "Link": "Wintercress Syandana",
-      "DucatCost": 325,
-      "ConsoleOfferingDates": [
-        "2022-02-11"
-      ],
-      "Image": "WintercressSyandana.png",
-      "IsSeasonal": true,
-      "Type": "Cosmetic (Syandana)",
+    "Whispers in the Walls Login Music": {
+      "Type": "Somachord",
+      "CreditCost": 170000,
+      "Name": "Whispers in the Walls Login Music",
+      "Link": "Somachord",
+      "DucatCost": 165,
       "TennoConOfferingDates": [
-        "2021-07-17",
-        "2024-07-20",
         "2025-07-19",
         "2026-07-11"
       ],
-      "PcOfferingDates": [
-        "2021-12-31"
-      ],
       "OfferingDates": [
-        "2022-07-29",
-        "2022-08-12",
-        "2022-08-26",
-        "2022-12-02",
-        "2022-12-16",
-        "2022-12-30",
-        "2023-12-01",
-        "2023-12-15",
-        "2023-12-29",
-        "2024-11-29",
         "2024-12-13",
-        "2024-12-27",
-        "2025-11-28",
-        "2025-12-12",
-        "2025-12-26"
+        "2025-05-30",
+        "2025-11-07",
+        "2026-07-10"
       ],
-      "Name": "Wintercress Syandana"
+      "Image": "WhispersInTheWallsLoginMusic.png"
     },
     "Deimos Flagellocanth Prex": {
       "CreditCost": 100000,
@@ -3129,23 +3130,33 @@
         "2026-10-16"
       ]
     },
-    "Whispers in the Walls Login Music": {
-      "Type": "Somachord",
-      "CreditCost": 170000,
-      "Name": "Whispers in the Walls Login Music",
-      "Link": "Somachord",
-      "DucatCost": 165,
+    "Weaver Fighter Decoration": {
+      "CreditCost": 100000,
+      "Link": "Orbiter Decorations#Fighters",
+      "DucatCost": 100,
+      "ConsoleOfferingDates": [
+        "2022-07-01"
+      ],
+      "Image": "TaroWeaver.png",
+      "Name": "Weaver Fighter Decoration",
+      "Type": "Decoration",
+      "PcOfferingDates": [
+        "2022-05-20"
+      ],
       "TennoConOfferingDates": [
+        "2022-07-16",
+        "2023-08-26",
+        "2024-07-20",
         "2025-07-19",
         "2026-07-11"
       ],
       "OfferingDates": [
-        "2024-12-13",
-        "2025-05-30",
-        "2025-11-07",
-        "2026-07-10"
-      ],
-      "Image": "WhispersInTheWallsLoginMusic.png"
+        "2023-04-21",
+        "2024-01-26",
+        "2024-11-15",
+        "2025-09-05",
+        "2026-08-21"
+      ]
     },
     "De Nas Pistol Skin": {
       "CreditCost": 300000,
@@ -3204,20 +3215,54 @@
       ],
       "Image": "Ki'TeerReverenceEphemera.png"
     },
-    "Weaver Fighter Decoration": {
-      "CreditCost": 100000,
-      "Link": "Orbiter Decorations#Fighters",
-      "DucatCost": 100,
+    "Vulkar Wraith": {
+      "CreditCost": 300000,
+      "Link": "Vulkar Wraith",
+      "DucatCost": 450,
       "ConsoleOfferingDates": [
-        "2022-07-01"
+        "2017-05-05",
+        "2017-10-06",
+        "2018-02-23",
+        "2018-06-29",
+        "2018-11-30",
+        "2019-03-08",
+        "2019-06-28",
+        "2019-11-08",
+        "2020-02-14",
+        "2020-06-05",
+        "2020-10-09",
+        "2021-03-12",
+        "2021-06-18",
+        "2022-01-14",
+        "2022-06-03"
       ],
-      "Image": "TaroWeaver.png",
-      "Name": "Weaver Fighter Decoration",
-      "Type": "Decoration",
+      "Image": "VulkarWraith.png",
+      "Name": "Vulkar Wraith",
+      "Type": "Weapon",
       "PcOfferingDates": [
-        "2022-05-20"
+        "2017-03-24",
+        "2017-08-25",
+        "2018-01-12",
+        "2018-05-18",
+        "2018-10-19",
+        "2019-01-25",
+        "2019-05-17",
+        "2019-09-27",
+        "2020-01-03",
+        "2020-04-24",
+        "2020-08-28",
+        "2021-01-29",
+        "2021-05-07",
+        "2021-12-03",
+        "2022-04-22"
       ],
       "TennoConOfferingDates": [
+        "2017-07-08",
+        "2018-07-07",
+        "2019-07-06",
+        "2020-07-11",
+        "2020-08-01",
+        "2021-07-17",
         "2022-07-16",
         "2023-08-26",
         "2024-07-20",
@@ -3225,11 +3270,16 @@
         "2026-07-11"
       ],
       "OfferingDates": [
-        "2023-04-21",
-        "2024-01-26",
-        "2024-11-15",
-        "2025-09-05",
-        "2026-08-21"
+        "2022-10-07",
+        "2023-02-24",
+        "2023-07-28",
+        "2024-05-31",
+        "2024-12-27",
+        "2025-05-16",
+        "2025-08-22",
+        "2025-12-12",
+        "2026-05-15",
+        "2026-10-02"
       ]
     },
     "Ki'Teer Solo Earpiece": {
@@ -3307,73 +3357,6 @@
         "2026-10-30"
       ]
     },
-    "Vulkar Wraith": {
-      "CreditCost": 300000,
-      "Link": "Vulkar Wraith",
-      "DucatCost": 450,
-      "ConsoleOfferingDates": [
-        "2017-05-05",
-        "2017-10-06",
-        "2018-02-23",
-        "2018-06-29",
-        "2018-11-30",
-        "2019-03-08",
-        "2019-06-28",
-        "2019-11-08",
-        "2020-02-14",
-        "2020-06-05",
-        "2020-10-09",
-        "2021-03-12",
-        "2021-06-18",
-        "2022-01-14",
-        "2022-06-03"
-      ],
-      "Image": "VulkarWraith.png",
-      "Name": "Vulkar Wraith",
-      "Type": "Weapon",
-      "PcOfferingDates": [
-        "2017-03-24",
-        "2017-08-25",
-        "2018-01-12",
-        "2018-05-18",
-        "2018-10-19",
-        "2019-01-25",
-        "2019-05-17",
-        "2019-09-27",
-        "2020-01-03",
-        "2020-04-24",
-        "2020-08-28",
-        "2021-01-29",
-        "2021-05-07",
-        "2021-12-03",
-        "2022-04-22"
-      ],
-      "TennoConOfferingDates": [
-        "2017-07-08",
-        "2018-07-07",
-        "2019-07-06",
-        "2020-07-11",
-        "2020-08-01",
-        "2021-07-17",
-        "2022-07-16",
-        "2023-08-26",
-        "2024-07-20",
-        "2025-07-19",
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2022-10-07",
-        "2023-02-24",
-        "2023-07-28",
-        "2024-05-31",
-        "2024-12-27",
-        "2025-05-16",
-        "2025-08-22",
-        "2025-12-12",
-        "2026-05-15",
-        "2026-10-02"
-      ]
-    },
     "Voruna in Action Glyph": {
       "Type": "Glyph",
       "CreditCost": 60000,
@@ -3390,6 +3373,49 @@
         "2026-05-29"
       ],
       "Image": "VorunaInActionGlyph.png"
+    },
+    "Vome-Fass Glyph": {
+      "CreditCost": 50000,
+      "Link": "Glyph#Baro Ki'Teer Glyphs",
+      "DucatCost": 80,
+      "ConsoleOfferingDates": [
+        "2021-02-12",
+        "2021-07-02",
+        "2021-09-24",
+        "2021-12-31",
+        "2022-04-22"
+      ],
+      "Image": "Vome-FassGlyph.png",
+      "Name": "Vome-Fass Glyph",
+      "Type": "Glyph",
+      "PcOfferingDates": [
+        "2021-01-01",
+        "2021-05-21",
+        "2021-08-13",
+        "2021-11-19",
+        "2022-03-11",
+        "2022-07-01"
+      ],
+      "TennoConOfferingDates": [
+        "2021-07-17",
+        "2022-07-16",
+        "2023-08-26",
+        "2024-07-20",
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2022-07-29",
+        "2022-08-12",
+        "2022-08-26",
+        "2023-02-10",
+        "2023-08-25",
+        "2024-01-12",
+        "2024-08-09",
+        "2025-03-07",
+        "2025-10-24",
+        "2026-06-26"
+      ]
     },
     "Volatile Ogris Skin": {
       "Type": "Cosmetic (Weapon Skin)",
@@ -3487,102 +3513,55 @@
         "2026-10-23"
       ]
     },
-    "Vome-Fass Glyph": {
-      "CreditCost": 50000,
-      "Link": "Glyph#Baro Ki'Teer Glyphs",
-      "DucatCost": 80,
-      "ConsoleOfferingDates": [
-        "2021-02-12",
-        "2021-07-02",
-        "2021-09-24",
-        "2021-12-31",
-        "2022-04-22"
-      ],
-      "Image": "Vome-FassGlyph.png",
-      "Name": "Vome-Fass Glyph",
-      "Type": "Glyph",
-      "PcOfferingDates": [
-        "2021-01-01",
-        "2021-05-21",
-        "2021-08-13",
-        "2021-11-19",
-        "2022-03-11",
-        "2022-07-01"
-      ],
-      "TennoConOfferingDates": [
-        "2021-07-17",
-        "2022-07-16",
-        "2023-08-26",
-        "2024-07-20",
-        "2025-07-19",
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2022-07-29",
-        "2022-08-12",
-        "2022-08-26",
-        "2023-02-10",
-        "2023-08-25",
-        "2024-01-12",
-        "2024-08-09",
-        "2025-03-07",
-        "2025-10-24",
-        "2026-06-26"
-      ]
-    },
-    "Right Prisma Daedalus Knee Plates": {
+    "Right Eos Prime Shoulder Plates": {
       "CreditCost": 75000,
-      "Link": "Right Prisma Daedalus Knee Plates",
-      "DucatCost": 65,
+      "Link": "Right Eos Prime Shoulder Plates",
+      "DucatCost": 50,
       "ConsoleOfferingDates": [
-        "2015-07-24",
-        "2015-11-27",
-        "2016-06-17",
-        "2016-10-21",
-        "2017-02-24",
-        "2017-07-14",
-        "2017-11-17",
-        "2018-03-23",
-        "2018-07-13",
-        "2018-11-02",
-        "2019-02-08",
-        "2019-05-31",
-        "2019-09-27",
-        "2020-01-03",
-        "2020-01-17",
-        "2020-05-22",
-        "2020-09-25",
-        "2021-01-29",
-        "2021-06-04",
-        "2021-10-22",
-        "2022-03-11"
-      ],
-      "Image": "LeftPrismaDaedalusShinGuard.png",
-      "Name": "Right Prisma Daedalus Knee Plates",
-      "Type": "Cosmetic (Armor)",
-      "PcOfferingDates": [
         "2015-05-15",
-        "2015-09-18",
-        "2016-04-22",
-        "2016-08-26",
-        "2017-01-13",
-        "2017-06-02",
-        "2017-10-06",
-        "2018-02-09",
-        "2018-06-01",
-        "2018-09-21",
-        "2018-12-28",
-        "2019-04-19",
-        "2019-08-02",
-        "2019-11-22",
-        "2019-12-06",
-        "2020-04-10",
-        "2020-08-14",
-        "2020-12-18",
+        "2016-04-07",
+        "2016-09-09",
+        "2016-12-16",
+        "2017-04-21",
+        "2017-09-08",
+        "2018-01-26",
+        "2018-05-18",
+        "2018-09-07",
+        "2018-12-14",
+        "2019-04-05",
+        "2019-07-19",
+        "2019-11-08",
+        "2020-03-27",
+        "2020-07-31",
+        "2020-12-04",
+        "2021-01-29",
         "2021-04-23",
         "2021-09-10",
-        "2022-01-28",
-        "2022-07-15"
+        "2022-06-03"
+      ],
+      "Image": "EosPrimeShoulderPlates.png",
+      "Name": "Right Eos Prime Shoulder Plates",
+      "Type": "Cosmetic (Armor)",
+      "PcOfferingDates": [
+        "2014-12-26",
+        "2016-02-12",
+        "2016-07-15",
+        "2016-11-04",
+        "2017-03-10",
+        "2017-07-28",
+        "2017-12-01",
+        "2018-04-06",
+        "2018-07-27",
+        "2018-11-02",
+        "2019-02-22",
+        "2019-05-31",
+        "2019-09-27",
+        "2020-02-14",
+        "2020-06-19",
+        "2020-10-23",
+        "2021-03-12",
+        "2021-07-30",
+        "2022-04-22"
       ],
       "TennoConOfferingDates": [
         "2017-07-08",
@@ -3598,18 +3577,56 @@
         "2026-07-11"
       ],
       "OfferingDates": [
-        "2022-07-29",
-        "2022-08-12",
-        "2022-08-26",
-        "2023-02-10",
-        "2023-07-14",
-        "2023-12-15",
-        "2024-06-28",
-        "2024-12-27",
-        "2025-04-11",
-        "2025-09-05",
-        "2026-03-20",
-        "2026-10-02"
+        "2015-03-06",
+        "2022-10-07",
+        "2023-04-07",
+        "2023-09-08",
+        "2024-03-08",
+        "2024-08-23",
+        "2025-05-30",
+        "2025-11-07",
+        "2026-05-15",
+        "2026-10-30"
+      ]
+    },
+    "Primed Smite Orokin": {
+      "CreditCost": 140000,
+      "Link": "Primed Smite Orokin",
+      "DucatCost": 350,
+      "ConsoleOfferingDates": [
+        "2020-01-31",
+        "2020-08-28",
+        "2021-03-12",
+        "2021-09-24"
+      ],
+      "Image": "PrimedSmiteOrokinMod.png",
+      "Name": "Primed Smite Orokin",
+      "Type": "Primed Mod (Melee)",
+      "PcOfferingDates": [
+        "2019-12-20",
+        "2020-07-17",
+        "2021-01-29",
+        "2021-08-13"
+      ],
+      "TennoConOfferingDates": [
+        "2020-07-11",
+        "2020-08-01",
+        "2021-07-17",
+        "2022-07-16",
+        "2023-08-26",
+        "2024-07-20",
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2022-11-18",
+        "2023-07-28",
+        "2024-01-26",
+        "2024-08-23",
+        "2025-05-16",
+        "2026-01-09",
+        "2026-08-21",
+        "2026-11-27"
       ]
     },
     "Noggle Statue - Baro Ki'Teer": {
@@ -3764,45 +3781,6 @@
         "2026-08-21"
       ]
     },
-    "Primed Smite Orokin": {
-      "CreditCost": 140000,
-      "Link": "Primed Smite Orokin",
-      "DucatCost": 350,
-      "ConsoleOfferingDates": [
-        "2020-01-31",
-        "2020-08-28",
-        "2021-03-12",
-        "2021-09-24"
-      ],
-      "Image": "PrimedSmiteOrokinMod.png",
-      "Name": "Primed Smite Orokin",
-      "Type": "Primed Mod (Melee)",
-      "PcOfferingDates": [
-        "2019-12-20",
-        "2020-07-17",
-        "2021-01-29",
-        "2021-08-13"
-      ],
-      "TennoConOfferingDates": [
-        "2020-07-11",
-        "2020-08-01",
-        "2021-07-17",
-        "2022-07-16",
-        "2023-08-26",
-        "2024-07-20",
-        "2025-07-19",
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2022-11-18",
-        "2023-07-28",
-        "2024-01-26",
-        "2024-08-23",
-        "2025-05-16",
-        "2026-01-09",
-        "2026-08-21"
-      ]
-    },
     "Void Trader": {
       "Type": "Color Palette",
       "CreditCost": 250000,
@@ -3828,42 +3806,6 @@
         "2026-04-10"
       ],
       "Image": "VoidTrader.png"
-    },
-    "Prisma Lotus Flame Sigil": {
-      "Type": "Cosmetic (Sigil)",
-      "CreditCost": 60000,
-      "Name": "Prisma Lotus Flame Sigil",
-      "Link": "Sigils#Baro Ki'Teer Sigils",
-      "DucatCost": 55,
-      "TennoConOfferingDates": [
-        "2025-07-19",
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2024-08-09",
-        "2024-12-27",
-        "2025-04-11",
-        "2026-01-09"
-      ],
-      "Image": "PrismaLotusFlameSigil.png"
-    },
-    "Empyrean Login Music": {
-      "Type": "Somachord",
-      "CreditCost": 155000,
-      "Name": "Empyrean Login Music",
-      "Link": "Somachord",
-      "DucatCost": 160,
-      "TennoConOfferingDates": [
-        "2025-07-19",
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2024-11-15",
-        "2025-05-16",
-        "2025-10-31",
-        "2026-05-29"
-      ],
-      "Image": "EmpyreanLoginMusic.png"
     },
     "Reshantur Cult Syandana": {
       "CreditCost": 350000,
@@ -3902,6 +3844,59 @@
         "2026-06-12",
         "2026-11-13"
       ]
+    },
+    "Prisma Lotus Flame Sigil": {
+      "Type": "Cosmetic (Sigil)",
+      "CreditCost": 60000,
+      "Name": "Prisma Lotus Flame Sigil",
+      "Link": "Sigils#Baro Ki'Teer Sigils",
+      "DucatCost": 55,
+      "TennoConOfferingDates": [
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2024-08-09",
+        "2024-12-27",
+        "2025-04-11",
+        "2026-01-09"
+      ],
+      "Image": "PrismaLotusFlameSigil.png"
+    },
+    "Empyrean Login Music": {
+      "Type": "Somachord",
+      "CreditCost": 155000,
+      "Name": "Empyrean Login Music",
+      "Link": "Somachord",
+      "DucatCost": 160,
+      "TennoConOfferingDates": [
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2024-11-15",
+        "2025-05-16",
+        "2025-10-31",
+        "2026-05-29"
+      ],
+      "Image": "EmpyreanLoginMusic.png"
+    },
+    "Void Angel Glyph": {
+      "Type": "Glyph",
+      "CreditCost": 50000,
+      "Name": "Void Angel Glyph",
+      "Link": "Glyph#Baro Ki'Teer Glyphs",
+      "DucatCost": 80,
+      "TennoConOfferingDates": [
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2024-11-29",
+        "2025-06-27",
+        "2026-04-17"
+      ],
+      "Image": "VoidAngelGlyph.png"
     },
     "Eskhatos Ki'Teer Chest Guard": {
       "CreditCost": 294000,
@@ -4028,23 +4023,6 @@
         "2026-09-04"
       ]
     },
-    "Void Angel Glyph": {
-      "Type": "Glyph",
-      "CreditCost": 50000,
-      "Name": "Void Angel Glyph",
-      "Link": "Glyph#Baro Ki'Teer Glyphs",
-      "DucatCost": 80,
-      "TennoConOfferingDates": [
-        "2025-07-19",
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2024-11-29",
-        "2025-06-27",
-        "2026-04-17"
-      ],
-      "Image": "VoidAngelGlyph.png"
-    },
     "Viper Wraith": {
       "CreditCost": 75000,
       "Link": "Viper Wraith",
@@ -4110,6 +4088,48 @@
         "2026-01-09",
         "2026-06-12",
         "2026-10-23"
+      ]
+    },
+    "Vez Luxxum Ornament": {
+      "CreditCost": 100000,
+      "Link": "Orbiter Decorations#Luxxum Ornaments",
+      "DucatCost": 100,
+      "ConsoleOfferingDates": [
+        "2020-01-17",
+        "2020-05-22",
+        "2020-10-23",
+        "2021-02-26",
+        "2021-08-13",
+        "2022-06-17"
+      ],
+      "Image": "VezLuxxumOrnament.png",
+      "Name": "Vez Luxxum Ornament",
+      "Type": "Decoration",
+      "PcOfferingDates": [
+        "2019-12-06",
+        "2020-04-10",
+        "2020-09-11",
+        "2021-01-15",
+        "2021-07-02",
+        "2022-05-06"
+      ],
+      "TennoConOfferingDates": [
+        "2020-07-11",
+        "2020-08-01",
+        "2021-07-17",
+        "2022-07-16",
+        "2023-08-26",
+        "2024-07-20",
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2023-02-10",
+        "2023-09-08",
+        "2024-06-14",
+        "2025-03-21",
+        "2025-12-26",
+        "2026-05-15"
       ]
     },
     "Ki'Teer Atmos Mask": {
@@ -4187,47 +4207,20 @@
         "2026-11-06"
       ]
     },
-    "Vez Luxxum Ornament": {
-      "CreditCost": 100000,
-      "Link": "Orbiter Decorations#Luxxum Ornaments",
-      "DucatCost": 100,
-      "ConsoleOfferingDates": [
-        "2020-01-17",
-        "2020-05-22",
-        "2020-10-23",
-        "2021-02-26",
-        "2021-08-13",
-        "2022-06-17"
-      ],
-      "Image": "VezLuxxumOrnament.png",
-      "Name": "Vez Luxxum Ornament",
+    "Verminia Cosplay Community Display": {
       "Type": "Decoration",
-      "PcOfferingDates": [
-        "2019-12-06",
-        "2020-04-10",
-        "2020-09-11",
-        "2021-01-15",
-        "2021-07-02",
-        "2022-05-06"
-      ],
+      "CreditCost": 2026,
+      "Name": "Verminia Cosplay Community Display",
+      "Link": "Orbiter Decorations#Displays",
+      "DucatCost": 20,
       "TennoConOfferingDates": [
-        "2020-07-11",
-        "2020-08-01",
-        "2021-07-17",
-        "2022-07-16",
-        "2023-08-26",
-        "2024-07-20",
-        "2025-07-19",
         "2026-07-11"
       ],
       "OfferingDates": [
-        "2023-02-10",
-        "2023-09-08",
-        "2024-06-14",
-        "2025-03-21",
-        "2025-12-26",
-        "2026-05-15"
-      ]
+        "2026-07-24",
+        "2026-09-04"
+      ],
+      "Image": "VerminiaCosplayCommunityDisplay.png"
     },
     "Primed Cleanse Corpus": {
       "CreditCost": 140000,
@@ -4360,21 +4353,6 @@
         "2026-11-13"
       ]
     },
-    "Verminia Cosplay Community Display": {
-      "Type": "Decoration",
-      "CreditCost": 2026,
-      "Name": "Verminia Cosplay Community Display",
-      "Link": "Orbiter Decorations#Displays",
-      "DucatCost": 20,
-      "TennoConOfferingDates": [
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2026-07-24",
-        "2026-09-04"
-      ],
-      "Image": "VerminiaCosplayCommunityDisplay.png"
-    },
     "Vermillion Storm": {
       "CreditCost": 175000,
       "Link": "Vermillion Storm",
@@ -4444,30 +4422,6 @@
         "2026-11-06"
       ]
     },
-    "Baruuk Immortal Skin": {
-      "Type": "Cosmetic (Warframe Skin)",
-      "CreditCost": 100000,
-      "Name": "Baruuk Immortal Skin",
-      "Link": "Baruuk Immortal Skin",
-      "DucatCost": 550,
-      "TennoConOfferingDates": [
-        "2023-08-26",
-        "2024-07-20",
-        "2025-07-19",
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2022-09-09",
-        "2023-03-24",
-        "2023-10-20",
-        "2024-07-12",
-        "2025-01-10",
-        "2025-06-27",
-        "2025-12-12",
-        "2026-09-04"
-      ],
-      "Image": "BaruukImmortalSkin.png"
-    },
     "Prisma Uru Syandana": {
       "CreditCost": 275000,
       "Link": "Prisma Uru Syandana",
@@ -4534,6 +4488,44 @@
         "2026-10-23"
       ]
     },
+    "Baruuk Immortal Skin": {
+      "Type": "Cosmetic (Warframe Skin)",
+      "CreditCost": 100000,
+      "Name": "Baruuk Immortal Skin",
+      "Link": "Baruuk Immortal Skin",
+      "DucatCost": 550,
+      "TennoConOfferingDates": [
+        "2023-08-26",
+        "2024-07-20",
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2022-09-09",
+        "2023-03-24",
+        "2023-10-20",
+        "2024-07-12",
+        "2025-01-10",
+        "2025-06-27",
+        "2025-12-12",
+        "2026-09-04"
+      ],
+      "Image": "BaruukImmortalSkin.png"
+    },
+    "Veilbreaker Login Music": {
+      "Type": "Somachord",
+      "CreditCost": 150000,
+      "Name": "Veilbreaker Login Music",
+      "Link": "Somachord",
+      "DucatCost": 150,
+      "TennoConOfferingDates": [
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2026-05-29"
+      ],
+      "Image": "VeilbreakerLoginMusic.png"
+    },
     "Paracesis Elixis Skin": {
       "CreditCost": 350000,
       "Link": "Paracesis Elixis Skin",
@@ -4587,19 +4579,45 @@
         "2026-10-30"
       ]
     },
-    "Veilbreaker Login Music": {
-      "Type": "Somachord",
-      "CreditCost": 150000,
-      "Name": "Veilbreaker Login Music",
-      "Link": "Somachord",
-      "DucatCost": 150,
+    "Vastilok": {
+      "CreditCost": 325000,
+      "Link": "Vastilok",
+      "DucatCost": 550,
+      "ConsoleOfferingDates": [
+        "2021-11-19",
+        "2022-04-22"
+      ],
+      "Image": "Vastilok.png",
+      "Name": "Vastilok",
+      "Type": "Weapon",
+      "PcOfferingDates": [
+        "2021-10-08",
+        "2022-03-11"
+      ],
       "TennoConOfferingDates": [
+        "2022-07-16",
+        "2023-08-26",
+        "2024-07-20",
+        "2025-07-19",
         "2026-07-11"
       ],
       "OfferingDates": [
-        "2026-05-29"
-      ],
-      "Image": "VeilbreakerLoginMusic.png"
+        "2022-07-29",
+        "2022-08-12",
+        "2022-08-26",
+        "2022-12-16",
+        "2023-05-19",
+        "2023-11-17",
+        "2024-04-19",
+        "2024-08-09",
+        "2025-01-10",
+        "2025-05-16",
+        "2025-09-05",
+        "2025-12-26",
+        "2026-02-20",
+        "2026-07-10",
+        "2026-11-06"
+      ]
     },
     "Harkonar Wraith Leg Armor": {
       "CreditCost": 150000,
@@ -4652,7 +4670,8 @@
         "2025-01-10",
         "2025-06-13",
         "2025-11-14",
-        "2026-06-12"
+        "2026-06-12",
+        "2026-11-27"
       ]
     },
     "Harkonar Wraith Chest Armor": {
@@ -4706,47 +4725,75 @@
         "2025-01-10",
         "2025-06-13",
         "2025-11-14",
-        "2026-06-12"
+        "2026-06-12",
+        "2026-11-27"
       ]
     },
-    "Vastilok": {
-      "CreditCost": 325000,
-      "Link": "Vastilok",
-      "DucatCost": 550,
+    "Twin Grakatas Towsun Skin": {
+      "CreditCost": 300000,
+      "Link": "Twin Grakatas Towsun Skin",
+      "DucatCost": 300,
       "ConsoleOfferingDates": [
-        "2021-11-19",
-        "2022-04-22"
-      ],
-      "Image": "Vastilok.png",
-      "Name": "Vastilok",
-      "Type": "Weapon",
-      "PcOfferingDates": [
+        "2017-08-25",
+        "2018-01-12",
+        "2018-02-09",
+        "2018-03-09",
+        "2018-07-27",
+        "2018-12-28",
+        "2019-05-17",
+        "2019-09-13",
+        "2020-01-03",
+        "2020-05-22",
+        "2020-10-09",
+        "2021-02-12",
+        "2021-06-18",
         "2021-10-08",
-        "2022-03-11"
+        "2022-01-14",
+        "2022-05-20"
+      ],
+      "Image": "TwinGrakatasTowsunSkin.png",
+      "Name": "Twin Grakatas Towsun Skin",
+      "Type": "Cosmetic (Weapon Skin)",
+      "PcOfferingDates": [
+        "2017-11-17",
+        "2017-12-15",
+        "2018-01-26",
+        "2018-06-15",
+        "2018-11-16",
+        "2019-04-05",
+        "2019-08-16",
+        "2019-11-22",
+        "2020-04-10",
+        "2020-08-28",
+        "2021-01-01",
+        "2021-05-07",
+        "2021-08-27",
+        "2021-12-03",
+        "2022-04-08"
       ],
       "TennoConOfferingDates": [
-        "2022-07-16",
-        "2023-08-26",
+        "2018-07-07",
+        "2019-07-06",
+        "2020-07-11",
+        "2020-08-01",
+        "2021-07-17",
         "2024-07-20",
         "2025-07-19",
         "2026-07-11"
       ],
       "OfferingDates": [
-        "2022-07-29",
-        "2022-08-12",
-        "2022-08-26",
-        "2022-12-16",
-        "2023-05-19",
-        "2023-11-17",
-        "2024-04-19",
-        "2024-08-09",
-        "2025-01-10",
+        "2017-06-30",
+        "2022-09-23",
+        "2023-01-27",
+        "2023-06-16",
+        "2023-11-03",
+        "2024-03-22",
+        "2024-09-06",
+        "2025-02-21",
         "2025-05-16",
-        "2025-09-05",
-        "2025-12-26",
-        "2026-02-20",
-        "2026-07-10",
-        "2026-11-06"
+        "2025-08-08",
+        "2026-01-09",
+        "2026-10-02"
       ]
     },
     "Yisi Glyph": {
@@ -4757,35 +4804,50 @@
       "DucatCost": 55,
       "OfferingDates": [
         "2026-02-20",
-        "2026-03-06"
+        "2026-03-06",
+        "2026-11-27"
       ],
       "Name": "Yisi Glyph",
       "Image": "YisiGlyph.png"
     },
-    "Tiberon Elixis Skin": {
-      "CreditCost": 275000,
-      "Link": "Tiberon Elixis Skin",
-      "DucatCost": 315,
+    "Thermite Rounds": {
+      "CreditCost": 150000,
+      "Link": "Thermite Rounds",
+      "DucatCost": 300,
       "ConsoleOfferingDates": [
-        "2020-08-28",
+        "2017-11-03",
+        "2018-03-23",
+        "2018-07-27",
+        "2018-12-14",
+        "2019-04-05",
+        "2019-08-02",
+        "2019-11-22",
+        "2020-05-08",
+        "2020-12-04",
         "2021-01-29",
-        "2021-07-02",
-        "2021-11-05",
-        "2022-01-28",
-        "2022-07-01"
+        "2021-06-18",
+        "2022-01-14"
       ],
-      "Image": "TiberonElixisSkin.png",
-      "Name": "Tiberon Elixis Skin",
-      "Type": "Cosmetic (Weapon Skin)",
+      "Image": "ThermiteRoundsMod.png",
+      "Name": "Thermite Rounds",
+      "Type": "Mod (Rifle)",
       "PcOfferingDates": [
-        "2020-07-17",
-        "2020-12-18",
-        "2021-05-21",
-        "2021-09-24",
-        "2021-12-17",
-        "2022-05-20"
+        "2017-09-22",
+        "2018-02-09",
+        "2018-06-15",
+        "2018-11-02",
+        "2019-02-22",
+        "2019-06-14",
+        "2019-10-11",
+        "2020-03-27",
+        "2020-10-23",
+        "2021-05-07",
+        "2021-12-03"
       ],
       "TennoConOfferingDates": [
+        "2018-07-07",
+        "2019-07-06",
+        "2020-07-11",
         "2020-08-01",
         "2021-07-17",
         "2022-07-16",
@@ -4796,15 +4858,11 @@
       ],
       "OfferingDates": [
         "2022-11-04",
-        "2023-04-21",
-        "2023-11-17",
         "2024-04-05",
-        "2024-10-04",
-        "2025-04-25",
-        "2025-05-02",
-        "2025-10-03",
-        "2025-10-24",
-        "2026-05-29"
+        "2025-09-19",
+        "2025-11-28",
+        "2026-07-10",
+        "2026-10-30"
       ]
     },
     "Scimitar Cydonia Skin": {
@@ -4882,60 +4940,32 @@
       ],
       "Image": "JaviEvolutionScrawling.png"
     },
-    "Thermite Rounds": {
-      "CreditCost": 150000,
-      "Link": "Thermite Rounds",
-      "DucatCost": 300,
-      "ConsoleOfferingDates": [
-        "2017-11-03",
-        "2018-03-23",
-        "2018-07-27",
-        "2018-12-14",
-        "2019-04-05",
-        "2019-08-02",
-        "2019-11-22",
-        "2020-05-08",
-        "2020-12-04",
-        "2021-01-29",
-        "2021-06-18",
-        "2022-01-14"
-      ],
-      "Image": "ThermiteRoundsMod.png",
-      "Name": "Thermite Rounds",
-      "Type": "Mod (Rifle)",
-      "PcOfferingDates": [
-        "2017-09-22",
-        "2018-02-09",
-        "2018-06-15",
-        "2018-11-02",
-        "2019-02-22",
-        "2019-06-14",
-        "2019-10-11",
-        "2020-03-27",
-        "2020-10-23",
-        "2021-05-07",
-        "2021-12-03"
-      ],
+    "The Stranger's Hood": {
+      "Type": "Cosmetic (Operator)",
+      "CreditCost": 500000,
+      "Name": "The Stranger's Hood",
+      "Link": "Operator/Customization#Head",
+      "DucatCost": 550,
       "TennoConOfferingDates": [
-        "2018-07-07",
-        "2019-07-06",
-        "2020-07-11",
-        "2020-08-01",
-        "2021-07-17",
-        "2022-07-16",
         "2023-08-26",
         "2024-07-20",
         "2025-07-19",
         "2026-07-11"
       ],
       "OfferingDates": [
-        "2022-11-04",
-        "2024-04-05",
+        "2023-08-25",
+        "2023-12-29",
+        "2024-06-14",
+        "2024-11-29",
+        "2025-05-16",
         "2025-09-19",
-        "2025-11-28",
-        "2026-07-10",
-        "2026-10-30"
-      ]
+        "2025-10-24",
+        "2026-01-23",
+        "2026-03-20",
+        "2026-06-12",
+        "2026-10-02"
+      ],
+      "Image": "TheStranger'sHood(Operator).png"
     },
     "Prisma Latron Leg Plate": {
       "CreditCost": 175000,
@@ -4986,33 +5016,6 @@
         "2026-01-09",
         "2026-07-10"
       ]
-    },
-    "The Stranger's Hood": {
-      "Type": "Cosmetic (Operator)",
-      "CreditCost": 500000,
-      "Name": "The Stranger's Hood",
-      "Link": "Operator/Customization#Head",
-      "DucatCost": 550,
-      "TennoConOfferingDates": [
-        "2023-08-26",
-        "2024-07-20",
-        "2025-07-19",
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2023-08-25",
-        "2023-12-29",
-        "2024-06-14",
-        "2024-11-29",
-        "2025-05-16",
-        "2025-09-19",
-        "2025-10-24",
-        "2026-01-23",
-        "2026-03-20",
-        "2026-06-12",
-        "2026-10-02"
-      ],
-      "Image": "TheStranger'sHood(Operator).png"
     },
     "Rhapsody in Blue": {
       "CreditCost": 100000,
@@ -5077,21 +5080,6 @@
       ],
       "Image": "TheOldBloodLoginMusic.png"
     },
-    "Eskhatos Sugatra": {
-      "Type": "Cosmetic (Weapon)",
-      "CreditCost": 209066,
-      "IsSeasonal": true,
-      "Link": "Eskhatos Sugatra",
-      "DucatCost": 181,
-      "OfferingDates": [
-        "2026-10-16",
-        "2026-10-23",
-        "2026-10-30",
-        "2026-11-06"
-      ],
-      "Name": "Eskhatos Sugatra",
-      "Image": "EskhatosSugatra.png"
-    },
     "The New War Login Music": {
       "Type": "Somachord",
       "CreditCost": 160000,
@@ -5108,6 +5096,21 @@
         "2026-09-04"
       ],
       "Image": "TheNewWarLoginMusic.png"
+    },
+    "Eskhatos Sugatra": {
+      "Type": "Cosmetic (Weapon)",
+      "CreditCost": 209066,
+      "IsSeasonal": true,
+      "Link": "Eskhatos Sugatra",
+      "DucatCost": 181,
+      "OfferingDates": [
+        "2026-10-16",
+        "2026-10-23",
+        "2026-10-30",
+        "2026-11-06"
+      ],
+      "Name": "Eskhatos Sugatra",
+      "Image": "EskhatosSugatra.png"
     },
     "Prisma Daedalus Chest Plate": {
       "CreditCost": 100000,
@@ -5226,53 +5229,6 @@
         "2026-03-20"
       ]
     },
-    "Harpi Fighter Decoration": {
-      "CreditCost": 100000,
-      "Link": "Orbiter Decorations#Fighters",
-      "DucatCost": 100,
-      "ConsoleOfferingDates": [
-        "2022-07-15"
-      ],
-      "Image": "TaroHarpi.png",
-      "Name": "Harpi Fighter Decoration",
-      "Type": "Decoration",
-      "PcOfferingDates": [
-        "2022-06-03"
-      ],
-      "TennoConOfferingDates": [
-        "2022-07-16",
-        "2023-08-26",
-        "2024-07-20",
-        "2025-07-19",
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2023-04-07",
-        "2024-01-12",
-        "2024-09-20",
-        "2025-04-18",
-        "2025-05-02",
-        "2026-04-03",
-        "2026-04-10",
-        "2026-10-23"
-      ]
-    },
-    "Primed Ammo Chain": {
-      "Type": "Primed Mod (Archgun)",
-      "CreditCost": 210000,
-      "Name": "Primed Ammo Chain",
-      "Link": "Primed Ammo Chain",
-      "DucatCost": 390,
-      "TennoConOfferingDates": [
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2026-02-20",
-        "2026-08-21",
-        "2026-11-06"
-      ],
-      "Image": "PrimedAmmoChainMod.png"
-    },
     "Glaxion Vandal": {
       "CreditCost": 250000,
       "Link": "Glaxion Vandal",
@@ -5320,24 +5276,52 @@
         "2026-09-18"
       ]
     },
-    "Abyss of Dagath Login Music": {
-      "Type": "Somachord",
-      "CreditCost": 155000,
-      "Name": "Abyss of Dagath Login Music",
-      "Link": "Somachord",
-      "DucatCost": 150,
+    "Harpi Fighter Decoration": {
+      "CreditCost": 100000,
+      "Link": "Orbiter Decorations#Fighters",
+      "DucatCost": 100,
+      "ConsoleOfferingDates": [
+        "2022-07-15"
+      ],
+      "Image": "TaroHarpi.png",
+      "Name": "Harpi Fighter Decoration",
+      "Type": "Decoration",
+      "PcOfferingDates": [
+        "2022-06-03"
+      ],
       "TennoConOfferingDates": [
+        "2022-07-16",
+        "2023-08-26",
+        "2024-07-20",
         "2025-07-19",
         "2026-07-11"
       ],
       "OfferingDates": [
-        "2024-10-18",
-        "2025-05-30",
-        "2025-12-26",
-        "2026-02-20",
-        "2026-09-18"
+        "2023-04-07",
+        "2024-01-12",
+        "2024-09-20",
+        "2025-04-18",
+        "2025-05-02",
+        "2026-04-03",
+        "2026-04-10",
+        "2026-10-23"
+      ]
+    },
+    "Primed Ammo Chain": {
+      "Type": "Primed Mod (Archgun)",
+      "CreditCost": 210000,
+      "Name": "Primed Ammo Chain",
+      "Link": "Primed Ammo Chain",
+      "DucatCost": 390,
+      "TennoConOfferingDates": [
+        "2026-07-11"
       ],
-      "Image": "AbyssOfDagathLoginMusic.png"
+      "OfferingDates": [
+        "2026-02-20",
+        "2026-08-21",
+        "2026-11-06"
+      ],
+      "Image": "PrimedAmmoChainMod.png"
     },
     "Tempo Royale": {
       "CreditCost": 175000,
@@ -5408,6 +5392,25 @@
         "2026-04-17",
         "2026-10-02"
       ]
+    },
+    "Abyss of Dagath Login Music": {
+      "Type": "Somachord",
+      "CreditCost": 155000,
+      "Name": "Abyss of Dagath Login Music",
+      "Link": "Somachord",
+      "DucatCost": 150,
+      "TennoConOfferingDates": [
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2024-10-18",
+        "2025-05-30",
+        "2025-12-26",
+        "2026-02-20",
+        "2026-09-18"
+      ],
+      "Image": "AbyssOfDagathLoginMusic.png"
     },
     "Machete Wraith": {
       "CreditCost": 250000,
@@ -5490,6 +5493,23 @@
         "2026-11-13"
       ]
     },
+    "Techrot Glyph": {
+      "Type": "Glyph",
+      "CreditCost": 1901,
+      "Name": "Techrot Glyph",
+      "Link": "Glyph#Baro Ki'Teer Glyphs",
+      "DucatCost": 98,
+      "TennoConOfferingDates": [
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2025-07-11",
+        "2025-12-26",
+        "2026-03-20"
+      ],
+      "Image": "TechrotGlyph.png"
+    },
     "Eminence": {
       "CreditCost": 220000,
       "Link": "Color Picker Extension#Eminence",
@@ -5549,22 +5569,62 @@
         "2026-03-06"
       ]
     },
-    "Techrot Glyph": {
-      "Type": "Glyph",
-      "CreditCost": 1901,
-      "Name": "Techrot Glyph",
-      "Link": "Glyph#Baro Ki'Teer Glyphs",
-      "DucatCost": 98,
+    "Taxon Desert-Camo Skin": {
+      "CreditCost": 150000,
+      "Link": "Taxon/Cosmetics",
+      "DucatCost": 200,
+      "ConsoleOfferingDates": [
+        "2018-11-02",
+        "2019-02-08",
+        "2019-06-28",
+        "2019-11-22",
+        "2020-03-13",
+        "2020-07-31",
+        "2020-11-06",
+        "2021-02-26",
+        "2021-07-16",
+        "2021-12-31",
+        "2022-04-08"
+      ],
+      "Image": "TaxonDesert-CamoSkin.png",
+      "Name": "Taxon Desert-Camo Skin",
+      "Type": "Cosmetic (Sentinel)",
+      "PcOfferingDates": [
+        "2018-09-21",
+        "2018-12-28",
+        "2019-05-17",
+        "2019-10-11",
+        "2020-01-31",
+        "2020-06-19",
+        "2020-09-25",
+        "2021-01-15",
+        "2021-06-04",
+        "2021-11-19",
+        "2022-02-25"
+      ],
       "TennoConOfferingDates": [
+        "2019-07-06",
+        "2020-07-11",
+        "2020-08-01",
+        "2021-07-17",
+        "2022-07-16",
+        "2023-08-26",
+        "2024-07-20",
         "2025-07-19",
         "2026-07-11"
       ],
       "OfferingDates": [
-        "2025-07-11",
-        "2025-12-26",
-        "2026-03-20"
-      ],
-      "Image": "TechrotGlyph.png"
+        "2022-07-29",
+        "2022-08-12",
+        "2022-08-26",
+        "2022-11-18",
+        "2023-06-30",
+        "2024-01-26",
+        "2024-10-18",
+        "2024-12-13",
+        "2025-11-28",
+        "2026-10-30"
+      ]
     },
     "Nexus Fur Pattern": {
       "CreditCost": 300000,
@@ -5860,63 +5920,6 @@
         "2026-10-23"
       ]
     },
-    "Taxon Desert-Camo Skin": {
-      "CreditCost": 150000,
-      "Link": "Taxon/Cosmetics",
-      "DucatCost": 200,
-      "ConsoleOfferingDates": [
-        "2018-11-02",
-        "2019-02-08",
-        "2019-06-28",
-        "2019-11-22",
-        "2020-03-13",
-        "2020-07-31",
-        "2020-11-06",
-        "2021-02-26",
-        "2021-07-16",
-        "2021-12-31",
-        "2022-04-08"
-      ],
-      "Image": "TaxonDesert-CamoSkin.png",
-      "Name": "Taxon Desert-Camo Skin",
-      "Type": "Cosmetic (Sentinel)",
-      "PcOfferingDates": [
-        "2018-09-21",
-        "2018-12-28",
-        "2019-05-17",
-        "2019-10-11",
-        "2020-01-31",
-        "2020-06-19",
-        "2020-09-25",
-        "2021-01-15",
-        "2021-06-04",
-        "2021-11-19",
-        "2022-02-25"
-      ],
-      "TennoConOfferingDates": [
-        "2019-07-06",
-        "2020-07-11",
-        "2020-08-01",
-        "2021-07-17",
-        "2022-07-16",
-        "2023-08-26",
-        "2024-07-20",
-        "2025-07-19",
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2022-07-29",
-        "2022-08-12",
-        "2022-08-26",
-        "2022-11-18",
-        "2023-06-30",
-        "2024-01-26",
-        "2024-10-18",
-        "2024-12-13",
-        "2025-11-28",
-        "2026-10-30"
-      ]
-    },
     "Prisma Koi Sentinel Tail": {
       "CreditCost": 200000,
       "Link": "Sentinel Cosmetics#Attachments",
@@ -5998,22 +6001,6 @@
         "2026-10-02"
       ]
     },
-    "Flare Varleon & Lizzie Poster Display": {
-      "Type": "Decoration",
-      "CreditCost": 125000,
-      "Name": "Flare Varleon & Lizzie Poster Display",
-      "Link": "Orbiter Decorations#Displays",
-      "DucatCost": 90,
-      "TennoConOfferingDates": [
-        "2025-07-19",
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2025-10-17",
-        "2026-08-21"
-      ],
-      "Image": "FlareVarleon&LizziePosterDisplay.png"
-    },
     "Full Contact": {
       "CreditCost": 220000,
       "Link": "Full Contact",
@@ -6075,6 +6062,76 @@
         "2026-02-20",
         "2026-07-10",
         "2026-11-13"
+      ]
+    },
+    "Flare Varleon & Lizzie Poster Display": {
+      "Type": "Decoration",
+      "CreditCost": 125000,
+      "Name": "Flare Varleon & Lizzie Poster Display",
+      "Link": "Orbiter Decorations#Displays",
+      "DucatCost": 90,
+      "TennoConOfferingDates": [
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2025-10-17",
+        "2026-08-21"
+      ],
+      "Image": "FlareVarleon&LizziePosterDisplay.png"
+    },
+    "Scorch": {
+      "CreditCost": 150000,
+      "Link": "Scorch (Mod)",
+      "DucatCost": 300,
+      "ConsoleOfferingDates": [
+        "2017-11-17",
+        "2018-03-23",
+        "2018-07-27",
+        "2018-12-14",
+        "2019-04-05",
+        "2019-08-02",
+        "2019-11-22",
+        "2020-05-22",
+        "2021-01-01",
+        "2021-07-02",
+        "2022-03-25"
+      ],
+      "Image": "ScorchMod.png",
+      "Name": "Scorch",
+      "Type": "Mod (Pistol)",
+      "PcOfferingDates": [
+        "2017-10-06",
+        "2018-02-09",
+        "2018-06-15",
+        "2018-11-02",
+        "2019-02-22",
+        "2019-06-14",
+        "2019-10-11",
+        "2020-04-10",
+        "2020-11-20",
+        "2021-05-21",
+        "2022-02-11"
+      ],
+      "TennoConOfferingDates": [
+        "2018-07-07",
+        "2019-07-06",
+        "2020-07-11",
+        "2020-08-01",
+        "2021-07-17",
+        "2022-07-16",
+        "2023-08-26",
+        "2024-07-20",
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2023-05-05",
+        "2024-08-09",
+        "2026-02-20",
+        "2026-07-24",
+        "2026-09-18",
+        "2026-11-27"
       ]
     },
     "Primed Cleanse Orokin": {
@@ -6184,70 +6241,6 @@
         "2026-10-16"
       ]
     },
-    "Scoria Diadem": {
-      "Type": "Cosmetic (Operator)",
-      "CreditCost": 300000,
-      "Name": "Scoria Diadem",
-      "Link": "Operator/Customization#Facial",
-      "DucatCost": 550,
-      "TennoConOfferingDates": [
-        "2023-08-26",
-        "2024-07-20",
-        "2025-07-19",
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2023-07-14",
-        "2023-12-01",
-        "2024-04-05",
-        "2024-10-04",
-        "2025-03-07",
-        "2025-07-25",
-        "2025-12-12",
-        "2026-04-17",
-        "2026-07-10",
-        "2026-11-06"
-      ],
-      "Image": "ScoriaDiadem.png"
-    },
-    "Opticor Vandal": {
-      "CreditCost": 550000,
-      "Link": "Opticor Vandal",
-      "DucatCost": 650,
-      "ConsoleOfferingDates": [
-        "2021-08-13",
-        "2021-12-17",
-        "2022-05-06"
-      ],
-      "Image": "OpticorVandal.png",
-      "Name": "Opticor Vandal",
-      "Type": "Weapon",
-      "PcOfferingDates": [
-        "2021-07-02",
-        "2021-11-05",
-        "2022-03-25"
-      ],
-      "TennoConOfferingDates": [
-        "2021-07-17",
-        "2022-07-16",
-        "2023-08-26",
-        "2024-07-20",
-        "2025-07-19",
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2022-09-09",
-        "2023-03-10",
-        "2023-09-08",
-        "2024-05-03",
-        "2024-11-01",
-        "2025-03-07",
-        "2025-07-11",
-        "2025-11-07",
-        "2026-04-17",
-        "2026-09-04"
-      ]
-    },
     "Lunar Renewal Ox Sigil": {
       "CreditCost": 45000,
       "Link": "Sigils#Baro Ki'Teer Sigils",
@@ -6287,6 +6280,76 @@
       ],
       "Name": "Lunar Renewal Ox Sigil"
     },
+    "Opticor Vandal": {
+      "CreditCost": 550000,
+      "Link": "Opticor Vandal",
+      "DucatCost": 650,
+      "ConsoleOfferingDates": [
+        "2021-08-13",
+        "2021-12-17",
+        "2022-05-06"
+      ],
+      "Image": "OpticorVandal.png",
+      "Name": "Opticor Vandal",
+      "Type": "Weapon",
+      "PcOfferingDates": [
+        "2021-07-02",
+        "2021-11-05",
+        "2022-03-25"
+      ],
+      "TennoConOfferingDates": [
+        "2021-07-17",
+        "2022-07-16",
+        "2023-08-26",
+        "2024-07-20",
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2022-09-09",
+        "2023-03-10",
+        "2023-09-08",
+        "2024-05-03",
+        "2024-11-01",
+        "2025-03-07",
+        "2025-07-11",
+        "2025-11-07",
+        "2026-04-17",
+        "2026-09-04"
+      ]
+    },
+    "Taktis Fighter Decoration": {
+      "CreditCost": 100000,
+      "Link": "Orbiter Decorations#Fighters",
+      "DucatCost": 100,
+      "ConsoleOfferingDates": [
+        "2022-02-25"
+      ],
+      "Image": "KosmaTaktis.png",
+      "Name": "Taktis Fighter Decoration",
+      "Type": "Decoration",
+      "PcOfferingDates": [
+        "2022-01-14",
+        "2022-07-15"
+      ],
+      "TennoConOfferingDates": [
+        "2022-07-16",
+        "2023-08-26",
+        "2024-07-20",
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2022-07-29",
+        "2022-08-12",
+        "2022-08-26",
+        "2023-04-07",
+        "2023-12-15",
+        "2024-09-20",
+        "2025-09-05",
+        "2026-06-12"
+      ]
+    },
     "Giving Snake Glyph": {
       "Type": "Glyph",
       "CreditCost": 45000,
@@ -6295,7 +6358,8 @@
       "DucatCost": 55,
       "OfferingDates": [
         "2026-02-20",
-        "2026-03-06"
+        "2026-03-06",
+        "2026-11-27"
       ],
       "Name": "Giving Snake Glyph",
       "Image": "GivingSnakeGlyph.png"
@@ -6505,39 +6569,8 @@
         "2025-10-24",
         "2026-03-20",
         "2026-08-07",
-        "2026-09-04"
-      ]
-    },
-    "Taktis Fighter Decoration": {
-      "CreditCost": 100000,
-      "Link": "Orbiter Decorations#Fighters",
-      "DucatCost": 100,
-      "ConsoleOfferingDates": [
-        "2022-02-25"
-      ],
-      "Image": "KosmaTaktis.png",
-      "Name": "Taktis Fighter Decoration",
-      "Type": "Decoration",
-      "PcOfferingDates": [
-        "2022-01-14",
-        "2022-07-15"
-      ],
-      "TennoConOfferingDates": [
-        "2022-07-16",
-        "2023-08-26",
-        "2024-07-20",
-        "2025-07-19",
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2022-07-29",
-        "2022-08-12",
-        "2022-08-26",
-        "2023-04-07",
-        "2023-12-15",
-        "2024-09-20",
-        "2025-09-05",
-        "2026-06-12"
+        "2026-09-04",
+        "2026-11-27"
       ]
     },
     "Primed Dual Rounds": {
@@ -6558,132 +6591,10 @@
         "2025-07-25",
         "2025-11-14",
         "2026-05-15",
-        "2026-10-02"
+        "2026-10-02",
+        "2026-11-27"
       ],
       "Image": "PrimedDualRoundsMod.png"
-    },
-    "Astral Twilight": {
-      "CreditCost": 175000,
-      "Link": "Astral Twilight",
-      "DucatCost": 385,
-      "ConsoleOfferingDates": [
-        "2015-12-11",
-        "2016-03-25",
-        "2016-07-01",
-        "2016-11-04",
-        "2017-03-10",
-        "2017-06-02",
-        "2017-10-20",
-        "2018-03-09",
-        "2018-08-10",
-        "2018-12-28",
-        "2019-05-03",
-        "2019-09-27",
-        "2020-01-03",
-        "2020-07-17",
-        "2020-12-18",
-        "2021-06-18"
-      ],
-      "Image": "AstralTwilightMod.png",
-      "Name": "Astral Twilight",
-      "Type": "Mod (Stance)",
-      "PcOfferingDates": [
-        "2015-10-02",
-        "2016-05-06",
-        "2016-09-23",
-        "2016-10-07",
-        "2017-01-27",
-        "2017-04-21",
-        "2017-09-08",
-        "2018-01-26",
-        "2018-06-29",
-        "2018-11-16",
-        "2019-03-22",
-        "2019-08-02",
-        "2019-11-22",
-        "2020-06-05",
-        "2020-11-06",
-        "2021-05-07"
-      ],
-      "TennoConOfferingDates": [
-        "2017-07-08",
-        "2018-07-07",
-        "2019-07-06",
-        "2020-07-11",
-        "2020-08-01",
-        "2021-07-17",
-        "2022-07-16",
-        "2023-08-26",
-        "2024-07-20",
-        "2025-07-19",
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2022-09-09",
-        "2023-11-03",
-        "2025-03-07",
-        "2026-04-17",
-        "2026-10-02"
-      ]
-    },
-    "5 x Corrupted Heavy Gunner Specter": {
-      "CreditCost": 40000,
-      "Link": "Specter#Miscellaneous Specters",
-      "DucatCost": 100,
-      "ConsoleOfferingDates": [
-        "2018-06-15",
-        "2018-10-19",
-        "2019-02-08",
-        "2019-06-28",
-        "2019-09-13",
-        "2020-01-17",
-        "2020-05-22",
-        "2020-09-25",
-        "2021-01-15",
-        "2021-02-12",
-        "2021-06-18",
-        "2021-10-22",
-        "2022-04-22"
-      ],
-      "Image": "CorruptedHeavyGunnerSpecter.png",
-      "Name": "5 x Corrupted Heavy Gunner Specter",
-      "Type": "Consumable",
-      "PcOfferingDates": [
-        "2018-05-04",
-        "2018-09-07",
-        "2018-12-28",
-        "2019-05-17",
-        "2019-08-16",
-        "2019-12-06",
-        "2020-04-10",
-        "2020-08-14",
-        "2020-12-04",
-        "2021-01-01",
-        "2021-05-07",
-        "2021-09-10",
-        "2022-03-11"
-      ],
-      "TennoConOfferingDates": [
-        "2018-07-07",
-        "2019-07-06",
-        "2020-07-11",
-        "2020-08-01",
-        "2021-07-17",
-        "2022-07-16",
-        "2023-08-26",
-        "2024-07-20",
-        "2025-07-19",
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2023-01-27",
-        "2023-10-06",
-        "2024-06-14",
-        "2024-12-27",
-        "2025-05-02",
-        "2025-10-24",
-        "2026-05-01"
-      ]
     },
     "Supra Vandal": {
       "CreditCost": 275000,
@@ -6747,49 +6658,48 @@
         "2026-11-13"
       ]
     },
-    "Ki'Teer Sekhara": {
-      "CreditCost": 200000,
-      "Link": "Emblems#Baro Ki'Teer Emblems",
-      "DucatCost": 400,
+    "Astral Twilight": {
+      "CreditCost": 175000,
+      "Link": "Astral Twilight",
+      "DucatCost": 385,
       "ConsoleOfferingDates": [
-        "2016-10-07",
-        "2016-12-16",
-        "2017-06-16",
-        "2017-11-17",
-        "2018-04-06",
-        "2018-07-27",
-        "2018-11-16",
-        "2019-02-22",
-        "2019-05-31",
-        "2019-10-11",
-        "2020-02-14",
-        "2020-07-03",
-        "2020-10-09",
-        "2021-02-26",
-        "2021-07-30",
-        "2022-01-14"
-      ],
-      "Image": "Ki'TeerSekhara.png",
-      "Name": "Ki'Teer Sekhara",
-      "Type": "Cosmetic (Emblem)",
-      "PcOfferingDates": [
-        "2016-08-12",
+        "2015-12-11",
+        "2016-03-25",
+        "2016-07-01",
         "2016-11-04",
-        "2017-05-05",
-        "2017-10-06",
-        "2018-02-23",
-        "2018-06-15",
-        "2018-10-05",
-        "2019-01-11",
-        "2019-04-19",
-        "2019-08-30",
+        "2017-03-10",
+        "2017-06-02",
+        "2017-10-20",
+        "2018-03-09",
+        "2018-08-10",
+        "2018-12-28",
+        "2019-05-03",
+        "2019-09-27",
         "2020-01-03",
-        "2020-05-22",
-        "2020-08-28",
-        "2021-01-15",
-        "2021-06-18",
-        "2021-12-03",
-        "2022-07-01"
+        "2020-07-17",
+        "2020-12-18",
+        "2021-06-18"
+      ],
+      "Image": "AstralTwilightMod.png",
+      "Name": "Astral Twilight",
+      "Type": "Mod (Stance)",
+      "PcOfferingDates": [
+        "2015-10-02",
+        "2016-05-06",
+        "2016-09-23",
+        "2016-10-07",
+        "2017-01-27",
+        "2017-04-21",
+        "2017-09-08",
+        "2018-01-26",
+        "2018-06-29",
+        "2018-11-16",
+        "2019-03-22",
+        "2019-08-02",
+        "2019-11-22",
+        "2020-06-05",
+        "2020-11-06",
+        "2021-05-07"
       ],
       "TennoConOfferingDates": [
         "2017-07-08",
@@ -6805,14 +6715,72 @@
         "2026-07-11"
       ],
       "OfferingDates": [
-        "2022-07-29",
-        "2022-08-12",
-        "2022-08-26",
-        "2023-04-21",
-        "2023-12-29",
-        "2024-09-06",
-        "2025-04-25",
-        "2026-05-29"
+        "2022-09-09",
+        "2023-11-03",
+        "2025-03-07",
+        "2026-04-17",
+        "2026-10-02",
+        "2026-11-27"
+      ]
+    },
+    "5 x Corrupted Heavy Gunner Specter": {
+      "CreditCost": 40000,
+      "Link": "Specter#Miscellaneous Specters",
+      "DucatCost": 100,
+      "ConsoleOfferingDates": [
+        "2018-06-15",
+        "2018-10-19",
+        "2019-02-08",
+        "2019-06-28",
+        "2019-09-13",
+        "2020-01-17",
+        "2020-05-22",
+        "2020-09-25",
+        "2021-01-15",
+        "2021-02-12",
+        "2021-06-18",
+        "2021-10-22",
+        "2022-04-22"
+      ],
+      "Image": "CorruptedHeavyGunnerSpecter.png",
+      "Name": "5 x Corrupted Heavy Gunner Specter",
+      "Type": "Consumable",
+      "PcOfferingDates": [
+        "2018-05-04",
+        "2018-09-07",
+        "2018-12-28",
+        "2019-05-17",
+        "2019-08-16",
+        "2019-12-06",
+        "2020-04-10",
+        "2020-08-14",
+        "2020-12-04",
+        "2021-01-01",
+        "2021-05-07",
+        "2021-09-10",
+        "2022-03-11"
+      ],
+      "TennoConOfferingDates": [
+        "2018-07-07",
+        "2019-07-06",
+        "2020-07-11",
+        "2020-08-01",
+        "2021-07-17",
+        "2022-07-16",
+        "2023-08-26",
+        "2024-07-20",
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2023-01-27",
+        "2023-10-06",
+        "2024-06-14",
+        "2024-12-27",
+        "2025-05-02",
+        "2025-10-24",
+        "2026-05-01",
+        "2026-11-27"
       ]
     },
     "Stalker Beacon": {
@@ -6906,19 +6874,73 @@
         "2026-10-02"
       ]
     },
-    "Feasting Hamster Glyph": {
-      "Type": "Glyph",
-      "CreditCost": 45000,
-      "IsSeasonal": true,
-      "Link": "Glyph#Lunar New Year",
-      "DucatCost": 55,
-      "OfferingDates": [
-        "2026-02-20",
-        "2026-03-06",
-        "2026-11-06"
+    "Ki'Teer Sekhara": {
+      "CreditCost": 200000,
+      "Link": "Emblems#Baro Ki'Teer Emblems",
+      "DucatCost": 400,
+      "ConsoleOfferingDates": [
+        "2016-10-07",
+        "2016-12-16",
+        "2017-06-16",
+        "2017-11-17",
+        "2018-04-06",
+        "2018-07-27",
+        "2018-11-16",
+        "2019-02-22",
+        "2019-05-31",
+        "2019-10-11",
+        "2020-02-14",
+        "2020-07-03",
+        "2020-10-09",
+        "2021-02-26",
+        "2021-07-30",
+        "2022-01-14"
       ],
-      "Name": "Feasting Hamster Glyph",
-      "Image": "FeastingHamsterGlyph.png"
+      "Image": "Ki'TeerSekhara.png",
+      "Name": "Ki'Teer Sekhara",
+      "Type": "Cosmetic (Emblem)",
+      "PcOfferingDates": [
+        "2016-08-12",
+        "2016-11-04",
+        "2017-05-05",
+        "2017-10-06",
+        "2018-02-23",
+        "2018-06-15",
+        "2018-10-05",
+        "2019-01-11",
+        "2019-04-19",
+        "2019-08-30",
+        "2020-01-03",
+        "2020-05-22",
+        "2020-08-28",
+        "2021-01-15",
+        "2021-06-18",
+        "2021-12-03",
+        "2022-07-01"
+      ],
+      "TennoConOfferingDates": [
+        "2017-07-08",
+        "2018-07-07",
+        "2019-07-06",
+        "2020-07-11",
+        "2020-08-01",
+        "2021-07-17",
+        "2022-07-16",
+        "2023-08-26",
+        "2024-07-20",
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2022-07-29",
+        "2022-08-12",
+        "2022-08-26",
+        "2023-04-21",
+        "2023-12-29",
+        "2024-09-06",
+        "2025-04-25",
+        "2026-05-29"
+      ]
     },
     "Split Flights": {
       "CreditCost": 200000,
@@ -6960,6 +6982,89 @@
         "2025-03-07",
         "2025-11-07",
         "2026-06-12",
+        "2026-11-06"
+      ]
+    },
+    "Feasting Hamster Glyph": {
+      "Type": "Glyph",
+      "CreditCost": 45000,
+      "IsSeasonal": true,
+      "Link": "Glyph#Lunar New Year",
+      "DucatCost": 55,
+      "OfferingDates": [
+        "2026-02-20",
+        "2026-03-06",
+        "2026-11-06"
+      ],
+      "Name": "Feasting Hamster Glyph",
+      "Image": "FeastingHamsterGlyph.png"
+    },
+    "Sonicor Elixis Skin": {
+      "CreditCost": 175000,
+      "Link": "Sonicor Elixis Skin",
+      "DucatCost": 380,
+      "ConsoleOfferingDates": [
+        "2018-03-23",
+        "2018-07-27",
+        "2018-12-14",
+        "2019-04-05",
+        "2019-08-02",
+        "2019-08-30",
+        "2019-11-08",
+        "2019-12-06",
+        "2020-04-10",
+        "2020-08-28",
+        "2021-01-15",
+        "2021-07-02",
+        "2021-11-05",
+        "2022-02-11",
+        "2022-05-20"
+      ],
+      "Image": "SonicorElixisSkin.png",
+      "Name": "Sonicor Elixis Skin",
+      "Type": "Cosmetic (Weapon Skin)",
+      "PcOfferingDates": [
+        "2018-02-09",
+        "2018-06-15",
+        "2018-11-02",
+        "2019-02-22",
+        "2019-06-14",
+        "2019-07-19",
+        "2019-09-27",
+        "2019-10-25",
+        "2020-02-28",
+        "2020-07-17",
+        "2020-12-04",
+        "2021-05-21",
+        "2021-09-24",
+        "2021-12-31",
+        "2022-04-08"
+      ],
+      "TennoConOfferingDates": [
+        "2018-07-07",
+        "2019-07-06",
+        "2020-07-11",
+        "2020-08-01",
+        "2021-07-17",
+        "2022-07-16",
+        "2023-08-26",
+        "2024-07-20",
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2022-09-09",
+        "2023-02-10",
+        "2023-07-14",
+        "2023-12-15",
+        "2024-05-17",
+        "2024-10-18",
+        "2024-11-29",
+        "2025-03-21",
+        "2025-04-25",
+        "2025-09-05",
+        "2026-01-23",
+        "2026-04-17",
         "2026-11-06"
       ]
     },
@@ -7033,75 +7138,6 @@
         "2026-05-01"
       ]
     },
-    "Sonicor Elixis Skin": {
-      "CreditCost": 175000,
-      "Link": "Sonicor Elixis Skin",
-      "DucatCost": 380,
-      "ConsoleOfferingDates": [
-        "2018-03-23",
-        "2018-07-27",
-        "2018-12-14",
-        "2019-04-05",
-        "2019-08-02",
-        "2019-08-30",
-        "2019-11-08",
-        "2019-12-06",
-        "2020-04-10",
-        "2020-08-28",
-        "2021-01-15",
-        "2021-07-02",
-        "2021-11-05",
-        "2022-02-11",
-        "2022-05-20"
-      ],
-      "Image": "SonicorElixisSkin.png",
-      "Name": "Sonicor Elixis Skin",
-      "Type": "Cosmetic (Weapon Skin)",
-      "PcOfferingDates": [
-        "2018-02-09",
-        "2018-06-15",
-        "2018-11-02",
-        "2019-02-22",
-        "2019-06-14",
-        "2019-07-19",
-        "2019-09-27",
-        "2019-10-25",
-        "2020-02-28",
-        "2020-07-17",
-        "2020-12-04",
-        "2021-05-21",
-        "2021-09-24",
-        "2021-12-31",
-        "2022-04-08"
-      ],
-      "TennoConOfferingDates": [
-        "2018-07-07",
-        "2019-07-06",
-        "2020-07-11",
-        "2020-08-01",
-        "2021-07-17",
-        "2022-07-16",
-        "2023-08-26",
-        "2024-07-20",
-        "2025-07-19",
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2022-09-09",
-        "2023-02-10",
-        "2023-07-14",
-        "2023-12-15",
-        "2024-05-17",
-        "2024-10-18",
-        "2024-11-29",
-        "2025-03-21",
-        "2025-04-25",
-        "2025-09-05",
-        "2026-01-23",
-        "2026-04-17",
-        "2026-11-06"
-      ]
-    },
     "Elixis Latron Chest Plate": {
       "Type": "Cosmetic (Armor)",
       "CreditCost": 200000,
@@ -7118,6 +7154,21 @@
       ],
       "IsDiscontinued": true,
       "Image": "ElixisLatronChestPlate.png"
+    },
+    "Singing Lotus Community Glyph": {
+      "Type": "Glyph",
+      "CreditCost": 2026,
+      "Name": "Singing Lotus Community Glyph",
+      "Link": "Glyph#Baro Ki'Teer Glyphs",
+      "DucatCost": 20,
+      "TennoConOfferingDates": [
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2026-07-24",
+        "2026-09-04"
+      ],
+      "Image": "SingingLotusCommunityGlyph.png"
     },
     "Opticor Elixis Skin": {
       "CreditCost": 250000,
@@ -7183,21 +7234,6 @@
         "2026-07-10"
       ]
     },
-    "Singing Lotus Community Glyph": {
-      "Type": "Glyph",
-      "CreditCost": 2026,
-      "Name": "Singing Lotus Community Glyph",
-      "Link": "Glyph#Baro Ki'Teer Glyphs",
-      "DucatCost": 20,
-      "TennoConOfferingDates": [
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2026-07-24",
-        "2026-09-04"
-      ],
-      "Image": "SingingLotusCommunityGlyph.png"
-    },
     "Sima Luxxum Ornament": {
       "CreditCost": 100000,
       "Link": "Orbiter Decorations#Luxxum Ornaments",
@@ -7241,6 +7277,23 @@
         "2026-06-26"
       ]
     },
+    "Silva & Aegis Eskhatos Skin": {
+      "Type": "Cosmetic (Weapon Skin)",
+      "CreditCost": 298000,
+      "IsSeasonal": true,
+      "Link": "Silva & Aegis Eskhatos Skin",
+      "DucatCost": 132,
+      "OfferingDates": [
+        "2025-10-31",
+        "2025-11-07",
+        "2026-10-16",
+        "2026-10-23",
+        "2026-10-30",
+        "2026-11-06"
+      ],
+      "Name": "Silva & Aegis Eskhatos Skin",
+      "Image": "Silva&AegisEskhatosSkin.png"
+    },
     "Condrix Sigil": {
       "Type": "Cosmetic (Sigil)",
       "CreditCost": 45000,
@@ -7260,23 +7313,6 @@
         "2026-09-04"
       ],
       "Image": "CondrixSigil.png"
-    },
-    "Silva & Aegis Eskhatos Skin": {
-      "Type": "Cosmetic (Weapon Skin)",
-      "CreditCost": 298000,
-      "IsSeasonal": true,
-      "Link": "Silva & Aegis Eskhatos Skin",
-      "DucatCost": 132,
-      "OfferingDates": [
-        "2025-10-31",
-        "2025-11-07",
-        "2026-10-16",
-        "2026-10-23",
-        "2026-10-30",
-        "2026-11-06"
-      ],
-      "Name": "Silva & Aegis Eskhatos Skin",
-      "Image": "Silva&AegisEskhatosSkin.png"
     },
     "Prisma Lotus Bloom Sigil": {
       "Type": "Cosmetic (Sigil)",
@@ -7325,6 +7361,32 @@
         "2025-11-07",
         "2026-10-16"
       ]
+    },
+    "Scoria Diadem": {
+      "Type": "Cosmetic (Operator)",
+      "CreditCost": 300000,
+      "Name": "Scoria Diadem",
+      "Link": "Operator/Customization#Facial",
+      "DucatCost": 550,
+      "TennoConOfferingDates": [
+        "2023-08-26",
+        "2024-07-20",
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2023-07-14",
+        "2023-12-01",
+        "2024-04-05",
+        "2024-10-04",
+        "2025-03-07",
+        "2025-07-25",
+        "2025-12-12",
+        "2026-04-17",
+        "2026-07-10",
+        "2026-11-06"
+      ],
+      "Image": "ScoriaDiadem.png"
     },
     "Gara Immortal Skin": {
       "CreditCost": 100000,
@@ -7782,43 +7844,56 @@
         "2025-07-25",
         "2025-10-24",
         "2026-03-20",
-        "2026-09-04"
+        "2026-09-04",
+        "2026-11-27"
       ]
     },
-    "Scorch": {
-      "CreditCost": 150000,
-      "Link": "Scorch (Mod)",
-      "DucatCost": 300,
+    "Scimitar Prisma Skin": {
+      "CreditCost": 450000,
+      "Link": "Scimitar#Skins",
+      "DucatCost": 210,
       "ConsoleOfferingDates": [
-        "2017-11-17",
-        "2018-03-23",
-        "2018-07-27",
-        "2018-12-14",
-        "2019-04-05",
-        "2019-08-02",
-        "2019-11-22",
-        "2020-05-22",
-        "2021-01-01",
-        "2021-07-02",
-        "2022-03-25"
-      ],
-      "Image": "ScorchMod.png",
-      "Name": "Scorch",
-      "Type": "Mod (Pistol)",
-      "PcOfferingDates": [
+        "2016-09-23",
+        "2016-10-07",
+        "2017-01-27",
+        "2017-06-02",
         "2017-10-06",
-        "2018-02-09",
+        "2018-02-23",
+        "2018-07-27",
+        "2018-11-16",
+        "2019-03-22",
+        "2019-08-02",
+        "2020-02-14",
+        "2020-06-05",
+        "2020-11-06",
+        "2021-04-23",
+        "2021-10-08",
+        "2022-01-28",
+        "2022-06-03"
+      ],
+      "Image": "ScimitarPrismaSkin.png",
+      "Name": "Scimitar Prisma Skin",
+      "Type": "Cosmetic (Landing Craft)",
+      "PcOfferingDates": [
+        "2016-07-29",
+        "2016-12-16",
+        "2017-04-21",
+        "2017-08-25",
+        "2018-01-12",
         "2018-06-15",
-        "2018-11-02",
-        "2019-02-22",
+        "2018-10-05",
+        "2019-02-08",
         "2019-06-14",
-        "2019-10-11",
-        "2020-04-10",
-        "2020-11-20",
-        "2021-05-21",
-        "2022-02-11"
+        "2020-01-03",
+        "2020-04-24",
+        "2020-09-25",
+        "2021-03-12",
+        "2021-08-27",
+        "2021-12-17",
+        "2022-04-22"
       ],
       "TennoConOfferingDates": [
+        "2017-07-08",
         "2018-07-07",
         "2019-07-06",
         "2020-07-11",
@@ -7831,11 +7906,19 @@
         "2026-07-11"
       ],
       "OfferingDates": [
-        "2023-05-05",
-        "2024-08-09",
-        "2026-02-20",
-        "2026-07-24",
-        "2026-09-18"
+        "2022-10-07",
+        "2023-01-13",
+        "2023-04-21",
+        "2023-08-11",
+        "2023-12-29",
+        "2024-05-17",
+        "2024-09-20",
+        "2024-12-27",
+        "2025-03-21",
+        "2025-04-11",
+        "2025-09-19",
+        "2025-10-31",
+        "2026-06-12"
       ]
     },
     "Ki'Teer Presence": {
@@ -8135,79 +8218,6 @@
       ],
       "Image": "BobbleheadTheNewWarTeshin.png"
     },
-    "Scimitar Prisma Skin": {
-      "CreditCost": 450000,
-      "Link": "Scimitar#Skins",
-      "DucatCost": 210,
-      "ConsoleOfferingDates": [
-        "2016-09-23",
-        "2016-10-07",
-        "2017-01-27",
-        "2017-06-02",
-        "2017-10-06",
-        "2018-02-23",
-        "2018-07-27",
-        "2018-11-16",
-        "2019-03-22",
-        "2019-08-02",
-        "2020-02-14",
-        "2020-06-05",
-        "2020-11-06",
-        "2021-04-23",
-        "2021-10-08",
-        "2022-01-28",
-        "2022-06-03"
-      ],
-      "Image": "ScimitarPrismaSkin.png",
-      "Name": "Scimitar Prisma Skin",
-      "Type": "Cosmetic (Landing Craft)",
-      "PcOfferingDates": [
-        "2016-07-29",
-        "2016-12-16",
-        "2017-04-21",
-        "2017-08-25",
-        "2018-01-12",
-        "2018-06-15",
-        "2018-10-05",
-        "2019-02-08",
-        "2019-06-14",
-        "2020-01-03",
-        "2020-04-24",
-        "2020-09-25",
-        "2021-03-12",
-        "2021-08-27",
-        "2021-12-17",
-        "2022-04-22"
-      ],
-      "TennoConOfferingDates": [
-        "2017-07-08",
-        "2018-07-07",
-        "2019-07-06",
-        "2020-07-11",
-        "2020-08-01",
-        "2021-07-17",
-        "2022-07-16",
-        "2023-08-26",
-        "2024-07-20",
-        "2025-07-19",
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2022-10-07",
-        "2023-01-13",
-        "2023-04-21",
-        "2023-08-11",
-        "2023-12-29",
-        "2024-05-17",
-        "2024-09-20",
-        "2024-12-27",
-        "2025-03-21",
-        "2025-04-11",
-        "2025-09-19",
-        "2025-10-31",
-        "2026-06-12"
-      ]
-    },
     "Scattering Inferno": {
       "CreditCost": 150000,
       "Link": "Scattering Inferno",
@@ -8260,6 +8270,23 @@
         "2026-05-15",
         "2026-10-02"
       ]
+    },
+    "Scaldra Glyph": {
+      "Type": "Glyph",
+      "CreditCost": 1906,
+      "Name": "Scaldra Glyph",
+      "Link": "Glyph#Baro Ki'Teer Glyphs",
+      "DucatCost": 93,
+      "TennoConOfferingDates": [
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2025-05-16",
+        "2025-11-28",
+        "2026-09-18"
+      ],
+      "Image": "ScaldraGlyph.png"
     },
     "Ki'Teer Sentinel Tail": {
       "CreditCost": 250000,
@@ -8336,22 +8363,84 @@
         "2026-11-06"
       ]
     },
-    "Scaldra Glyph": {
-      "Type": "Glyph",
-      "CreditCost": 1906,
-      "Name": "Scaldra Glyph",
-      "Link": "Glyph#Baro Ki'Teer Glyphs",
-      "DucatCost": 93,
+    "Right Prisma Edo Shoulder Plates": {
+      "CreditCost": 55000,
+      "Link": "Right Prisma Edo Shoulder Plates",
+      "DucatCost": 100,
+      "ConsoleOfferingDates": [
+        "2016-02-26",
+        "2016-07-15",
+        "2016-12-30",
+        "2017-03-24",
+        "2017-08-11",
+        "2017-12-15",
+        "2018-04-20",
+        "2018-08-10",
+        "2018-11-30",
+        "2019-02-22",
+        "2019-06-14",
+        "2019-10-11",
+        "2020-02-14",
+        "2020-06-19",
+        "2020-10-23",
+        "2021-03-26",
+        "2021-08-13",
+        "2022-03-25"
+      ],
+      "Image": "LeftPrismaEdoShoulderPlates.png",
+      "Name": "Right Prisma Edo Shoulder Plates",
+      "Type": "Cosmetic (Armor)",
+      "PcOfferingDates": [
+        "2015-12-11",
+        "2016-05-20",
+        "2016-10-07",
+        "2017-02-10",
+        "2017-06-30",
+        "2017-11-03",
+        "2018-03-09",
+        "2018-06-29",
+        "2018-10-19",
+        "2019-01-11",
+        "2019-05-03",
+        "2019-08-30",
+        "2020-01-03",
+        "2020-05-08",
+        "2020-09-11",
+        "2021-02-12",
+        "2021-07-02",
+        "2022-02-11",
+        "2022-07-01"
+      ],
       "TennoConOfferingDates": [
+        "2017-07-08",
+        "2018-07-07",
+        "2019-07-06",
+        "2020-07-11",
+        "2020-08-01",
+        "2021-07-17",
+        "2022-07-16",
+        "2023-08-26",
+        "2024-07-20",
         "2025-07-19",
         "2026-07-11"
       ],
       "OfferingDates": [
-        "2025-05-16",
-        "2025-11-28",
-        "2026-09-18"
-      ],
-      "Image": "ScaldraGlyph.png"
+        "2022-07-29",
+        "2022-08-12",
+        "2022-08-26",
+        "2023-01-27",
+        "2023-06-30",
+        "2024-05-03",
+        "2024-10-18",
+        "2024-12-27",
+        "2025-04-04",
+        "2025-04-11",
+        "2025-08-08",
+        "2026-01-23",
+        "2026-03-06",
+        "2026-08-07",
+        "2026-09-04"
+      ]
     },
     "Primed Expel Grineer": {
       "CreditCost": 140000,
@@ -8706,85 +8795,6 @@
         "2026-08-21"
       ]
     },
-    "Right Prisma Edo Shoulder Plates": {
-      "CreditCost": 55000,
-      "Link": "Right Prisma Edo Shoulder Plates",
-      "DucatCost": 100,
-      "ConsoleOfferingDates": [
-        "2016-02-26",
-        "2016-07-15",
-        "2016-12-30",
-        "2017-03-24",
-        "2017-08-11",
-        "2017-12-15",
-        "2018-04-20",
-        "2018-08-10",
-        "2018-11-30",
-        "2019-02-22",
-        "2019-06-14",
-        "2019-10-11",
-        "2020-02-14",
-        "2020-06-19",
-        "2020-10-23",
-        "2021-03-26",
-        "2021-08-13",
-        "2022-03-25"
-      ],
-      "Image": "LeftPrismaEdoShoulderPlates.png",
-      "Name": "Right Prisma Edo Shoulder Plates",
-      "Type": "Cosmetic (Armor)",
-      "PcOfferingDates": [
-        "2015-12-11",
-        "2016-05-20",
-        "2016-10-07",
-        "2017-02-10",
-        "2017-06-30",
-        "2017-11-03",
-        "2018-03-09",
-        "2018-06-29",
-        "2018-10-19",
-        "2019-01-11",
-        "2019-05-03",
-        "2019-08-30",
-        "2020-01-03",
-        "2020-05-08",
-        "2020-09-11",
-        "2021-02-12",
-        "2021-07-02",
-        "2022-02-11",
-        "2022-07-01"
-      ],
-      "TennoConOfferingDates": [
-        "2017-07-08",
-        "2018-07-07",
-        "2019-07-06",
-        "2020-07-11",
-        "2020-08-01",
-        "2021-07-17",
-        "2022-07-16",
-        "2023-08-26",
-        "2024-07-20",
-        "2025-07-19",
-        "2026-07-11"
-      ],
-      "OfferingDates": [
-        "2022-07-29",
-        "2022-08-12",
-        "2022-08-26",
-        "2023-01-27",
-        "2023-06-30",
-        "2024-05-03",
-        "2024-10-18",
-        "2024-12-27",
-        "2025-04-04",
-        "2025-04-11",
-        "2025-08-08",
-        "2026-01-23",
-        "2026-03-06",
-        "2026-08-07",
-        "2026-09-04"
-      ]
-    },
     "Right Prisma Daedalus Shoulder Guard": {
       "CreditCost": 75000,
       "Link": "Right Prisma Daedalus Shoulder Guard",
@@ -8822,6 +8832,88 @@
         "2016-04-22",
         "2016-08-26",
         "2016-12-30",
+        "2017-06-02",
+        "2017-10-06",
+        "2018-02-09",
+        "2018-06-01",
+        "2018-09-21",
+        "2018-12-28",
+        "2019-04-19",
+        "2019-08-02",
+        "2019-11-22",
+        "2019-12-06",
+        "2020-04-10",
+        "2020-08-14",
+        "2020-12-18",
+        "2021-04-23",
+        "2021-09-10",
+        "2022-01-28",
+        "2022-07-15"
+      ],
+      "TennoConOfferingDates": [
+        "2017-07-08",
+        "2018-07-07",
+        "2019-07-06",
+        "2020-07-11",
+        "2020-08-01",
+        "2021-07-17",
+        "2022-07-16",
+        "2023-08-26",
+        "2024-07-20",
+        "2025-07-19",
+        "2026-07-11"
+      ],
+      "OfferingDates": [
+        "2022-07-29",
+        "2022-08-12",
+        "2022-08-26",
+        "2023-02-10",
+        "2023-07-14",
+        "2023-12-15",
+        "2024-06-28",
+        "2024-12-27",
+        "2025-04-11",
+        "2025-09-05",
+        "2026-03-20",
+        "2026-10-02"
+      ]
+    },
+    "Right Prisma Daedalus Knee Plates": {
+      "CreditCost": 75000,
+      "Link": "Right Prisma Daedalus Knee Plates",
+      "DucatCost": 65,
+      "ConsoleOfferingDates": [
+        "2015-07-24",
+        "2015-11-27",
+        "2016-06-17",
+        "2016-10-21",
+        "2017-02-24",
+        "2017-07-14",
+        "2017-11-17",
+        "2018-03-23",
+        "2018-07-13",
+        "2018-11-02",
+        "2019-02-08",
+        "2019-05-31",
+        "2019-09-27",
+        "2020-01-03",
+        "2020-01-17",
+        "2020-05-22",
+        "2020-09-25",
+        "2021-01-29",
+        "2021-06-04",
+        "2021-10-22",
+        "2022-03-11"
+      ],
+      "Image": "LeftPrismaDaedalusShinGuard.png",
+      "Name": "Right Prisma Daedalus Knee Plates",
+      "Type": "Cosmetic (Armor)",
+      "PcOfferingDates": [
+        "2015-05-15",
+        "2015-09-18",
+        "2016-04-22",
+        "2016-08-26",
+        "2017-01-13",
         "2017-06-02",
         "2017-10-06",
         "2018-02-09",
@@ -8920,85 +9012,30 @@
         "2024-03-22",
         "2025-02-21",
         "2025-06-13",
-        "2026-05-01"
+        "2026-05-01",
+        "2026-11-27"
       ],
       "Image": "DomestikDaisDrone.png"
     },
-    "Right Eos Prime Shoulder Plates": {
-      "CreditCost": 75000,
-      "Link": "Right Eos Prime Shoulder Plates",
-      "DucatCost": 50,
-      "ConsoleOfferingDates": [
-        "2015-05-15",
-        "2016-04-07",
-        "2016-09-09",
-        "2016-12-16",
-        "2017-04-21",
-        "2017-09-08",
-        "2018-01-26",
-        "2018-05-18",
-        "2018-09-07",
-        "2018-12-14",
-        "2019-04-05",
-        "2019-07-19",
-        "2019-11-08",
-        "2020-03-27",
-        "2020-07-31",
-        "2020-12-04",
-        "2021-01-29",
-        "2021-04-23",
-        "2021-09-10",
-        "2022-06-03"
-      ],
-      "Image": "EosPrimeShoulderPlates.png",
-      "Name": "Right Eos Prime Shoulder Plates",
-      "Type": "Cosmetic (Armor)",
-      "PcOfferingDates": [
-        "2014-12-26",
-        "2016-02-12",
-        "2016-07-15",
-        "2016-11-04",
-        "2017-03-10",
-        "2017-07-28",
-        "2017-12-01",
-        "2018-04-06",
-        "2018-07-27",
-        "2018-11-02",
-        "2019-02-22",
-        "2019-05-31",
-        "2019-09-27",
-        "2020-02-14",
-        "2020-06-19",
-        "2020-10-23",
-        "2021-03-12",
-        "2021-07-30",
-        "2022-04-22"
-      ],
+    "Rhino Palatine Sigil": {
+      "Type": "Cosmetic (Sigil)",
+      "CreditCost": 55000,
+      "Name": "Rhino Palatine Sigil",
+      "Link": "Sigils#Event Sigils",
+      "DucatCost": 45,
       "TennoConOfferingDates": [
-        "2017-07-08",
-        "2018-07-07",
-        "2019-07-06",
-        "2020-07-11",
-        "2020-08-01",
-        "2021-07-17",
-        "2022-07-16",
-        "2023-08-26",
         "2024-07-20",
         "2025-07-19",
         "2026-07-11"
       ],
       "OfferingDates": [
-        "2015-03-06",
-        "2022-10-07",
-        "2023-04-07",
-        "2023-09-08",
         "2024-03-08",
-        "2024-08-23",
-        "2025-05-30",
-        "2025-11-07",
-        "2026-05-15",
-        "2026-10-30"
-      ]
+        "2024-11-29",
+        "2025-07-25",
+        "2026-08-07",
+        "2026-09-18"
+      ],
+      "Image": "RhinoPalatineSigil(SxWhite).png"
     },
     "Axi A2 Relic": {
       "CreditCost": 45000,
@@ -9193,25 +9230,16 @@
         "2026-11-06"
       ]
     },
-    "Rhino Palatine Sigil": {
-      "Type": "Cosmetic (Sigil)",
-      "CreditCost": 55000,
-      "Name": "Rhino Palatine Sigil",
-      "Link": "Sigils#Event Sigils",
-      "DucatCost": 45,
-      "TennoConOfferingDates": [
-        "2024-07-20",
-        "2025-07-19",
-        "2026-07-11"
-      ],
+    "Protea Immortal Skin": {
+      "CreditCost": 100000,
+      "Name": "Protea Immortal Skin",
+      "Link": "Protea Immortal Skin",
+      "DucatCost": 550,
+      "Type": "Cosmetic (Warframe Skin)",
       "OfferingDates": [
-        "2024-03-08",
-        "2024-11-29",
-        "2025-07-25",
-        "2026-08-07",
-        "2026-09-18"
+        "2026-11-27"
       ],
-      "Image": "RhinoPalatineSigil(SxWhite).png"
+      "Image": "ProteaImmortalSkin.png"
     },
     "Ki'Teer Foros Chest Plate": {
       "CreditCost": 200000,
@@ -11125,7 +11153,8 @@
         "2025-04-04",
         "2025-04-25",
         "2025-12-26",
-        "2026-02-20"
+        "2026-02-20",
+        "2026-11-27"
       ],
       "Image": "Ki'TeerLuxPedestal.png"
     },
@@ -11621,7 +11650,8 @@
         "2024-12-27",
         "2025-03-07",
         "2025-04-11",
-        "2025-12-12"
+        "2025-12-12",
+        "2026-11-27"
       ]
     },
     "Garv & Latrox Poster": {
@@ -12061,7 +12091,8 @@
         "2023-11-03",
         "2024-08-23",
         "2025-05-30",
-        "2026-03-20"
+        "2026-03-20",
+        "2026-11-27"
       ],
       "Image": "ClatharcPlanter.png"
     },
@@ -13408,7 +13439,8 @@
         "2025-04-18",
         "2025-10-17",
         "2026-01-09",
-        "2026-06-26"
+        "2026-06-26",
+        "2026-11-27"
       ]
     },
     "Primed Tactical Pump": {
@@ -13483,7 +13515,8 @@
         "2024-02-09",
         "2024-11-15",
         "2025-08-22",
-        "2026-05-29"
+        "2026-05-29",
+        "2026-11-27"
       ],
       "Image": "AgedClaretOfDenas.png"
     },
@@ -13514,7 +13547,8 @@
         "2024-10-04",
         "2025-05-30",
         "2025-11-14",
-        "2026-07-10"
+        "2026-07-10",
+        "2026-11-27"
       ]
     },
     "Jade Immortal Skin": {
@@ -13917,7 +13951,8 @@
         "2025-08-08",
         "2026-04-03",
         "2026-04-10",
-        "2026-09-18"
+        "2026-09-18",
+        "2026-11-27"
       ]
     },
     "Primed Smite Grineer": {
@@ -14646,7 +14681,8 @@
         "2024-08-23",
         "2025-05-02",
         "2025-11-07",
-        "2026-05-29"
+        "2026-05-29",
+        "2026-11-27"
       ]
     },
     "Orokin Tower Extraction Scene": {
@@ -15204,7 +15240,8 @@
         "2025-06-27",
         "2025-12-12",
         "2026-05-29",
-        "2026-10-16"
+        "2026-10-16",
+        "2026-11-27"
       ]
     },
     "Primed Fast Hands": {
@@ -15543,7 +15580,8 @@
         "2023-09-22",
         "2024-12-13",
         "2026-03-20",
-        "2026-10-02"
+        "2026-10-02",
+        "2026-11-27"
       ]
     },
     "Elixis Latron Leg Plate": {
@@ -15925,7 +15963,8 @@
         "2025-04-25",
         "2025-09-19",
         "2025-10-24",
-        "2026-05-15"
+        "2026-05-15",
+        "2026-11-27"
       ],
       "Image": "NikanaElixisSkin.png"
     },
@@ -16053,7 +16092,8 @@
         "2025-01-10",
         "2025-06-13",
         "2025-11-14",
-        "2026-06-12"
+        "2026-06-12",
+        "2026-11-27"
       ]
     },
     "Primed Continuity": {
@@ -16129,7 +16169,8 @@
         "2025-03-21",
         "2025-10-17",
         "2026-01-09",
-        "2026-07-10"
+        "2026-07-10",
+        "2026-11-27"
       ]
     },
     "Primed Cleanse The Murmur": {
@@ -16568,7 +16609,8 @@
         "2023-12-15",
         "2024-08-23",
         "2025-06-13",
-        "2026-05-01"
+        "2026-05-01",
+        "2026-11-27"
       ],
       "Image": "Karishh'sDinnerware.png"
     },
@@ -16689,7 +16731,8 @@
         "2025-06-27",
         "2026-01-23",
         "2026-03-06",
-        "2026-09-04"
+        "2026-09-04",
+        "2026-11-27"
       ],
       "Image": "PeculiarAudienceMod.png"
     },
@@ -17166,7 +17209,8 @@
         "2025-01-10",
         "2025-06-13",
         "2025-11-14",
-        "2026-06-12"
+        "2026-06-12",
+        "2026-11-27"
       ]
     },
     "Noggle Statue - The New War Veso-R": {
@@ -17794,7 +17838,8 @@
         "2025-04-04",
         "2025-09-19",
         "2025-10-17",
-        "2026-05-15"
+        "2026-05-15",
+        "2026-11-27"
       ]
     },
     "Masker's Theodolite Crewsuit Hood": {
@@ -17872,7 +17917,8 @@
         "2026-08-07",
         "2026-08-21",
         "2026-09-04",
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-27"
       ],
       "Image": "AxiRelicIntact.png"
     },
@@ -19278,7 +19324,8 @@
         "2024-06-28",
         "2025-04-25",
         "2025-05-16",
-        "2026-02-20"
+        "2026-02-20",
+        "2026-11-27"
       ]
     },
     "Ki'Teer Greth Chest Plate": {

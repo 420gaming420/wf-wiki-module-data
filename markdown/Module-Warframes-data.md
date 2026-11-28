@@ -1,7 +1,7 @@
 ---
 title: "Module:Warframes/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Warframes/data"
-wiki_timestamp: "2026-11-10T01:27:04Z"
+wiki_timestamp: "2026-11-28T05:50:23Z"
 ---
 
 Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes [Warframes](/w/Warframes "Warframes"), [Necramechs](/w/Necramech "Necramech"), [Archwings](/w/Archwing "Archwing"), and [Operators](/w/Operator "Operator").
@@ -13,7 +13,7 @@ Database of [WARFRAME](/w/WARFRAME "WARFRAME")'s playable avatars which includes
 * [3 Data Sources](#Data_Sources)
 * [4 Warframe/Avatar Data](#Warframe/Avatar_Data)
 
-:   *Last updated: Tue, 10 Nov 2026 01:27:04 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Warframes/data?diff=0))*
+:   *Last updated: Sat, 28 Nov 2026 05:50:23 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Warframes/data?diff=0))*
 
 ## Warframe/Avatar Data Schema
 
@@ -646,7 +646,7 @@ return {
 		},
 		-- Please edit the entry below with the correct info once we know more about --
 		Brysko = {
-			Abilities = { "Brysko ability 1","Brysko ability 2","Brysko ability 3","Brysko ability 4" },
+			Abilities = { "Deadman's Hand","Takedown","Blood Gambit","Corecracker" },
 			Armor = 0,
 			AugmentShop = {},
 			-- AuraPolarity = "Naramon",
@@ -662,7 +662,7 @@ return {
 			Image = "Brysko_Thumb.png",
 			InitialEnergy = 0,
 			InternalName = "",
-			Introduced = "TBA",
+			--Introduced = "45.0",
 			Link = "Brysko",
 			MaxRank = 30,
 			Name = "Brysko",
@@ -2290,6 +2290,44 @@ return {
 			ShieldRank30 = 0,
 			Sprint = 1.1,
 			SquadPortrait = "KullervoLargePortrait.png",
+			Subsumed = "Wrathful Advance",
+			Tactical = "Storm of Ukko",
+			Themes = "Betrayal, Criminal, Daggered Dax, Knife Block",
+			Type = "Warframe"
+		},
+		["Kullervo Prime"] = {
+			Abilities = { "Wrathful Advance", "Recompense", "Collective Curse", "Storm of Ukko" },
+			--Armor = 550,
+			--ArmorRank30 = 650,
+			AugmentShop = { "New Loka", "Steel Meridian" },
+			--AuraPolarity = "Naramon",
+			CodexSecret = false,
+			Conclave = false,
+			Description = "",
+			--Energy = 175,
+			FullImages = { { TabName = "Full Body", Image = "KullervoPrime.png" } },
+			--Health = 1005,
+			--HealthRank30 = 1205,
+			Helmet = "KullervoPrimeHelmet.png",
+			Image = "KullervoPrime_Thumb.png",
+			--InitialEnergy = 150,
+			InternalName = "/Lotus/Powersuits/PaxDuviricus/KullervoPrime",
+			--Introduced = "45.0",
+			Link = "Kullervo/Prime",
+			MaxRank = 30,
+			Name = "Kullervo Prime",
+			Passive = "Kullervo boasts +75% Heavy Attack Efficiency and +100% Heavy Attack Wind Up Speed on all melee weapons.",
+			Playstyle = { "Damage" },
+			--Polarities = { "Madurai", "Madurai" },
+			Portrait = "KullervoPrime_Thumb.png",
+			Progenitor = "Heat",
+			Mastery = 0,
+			SellPrice = 25000,
+			Sex = "Male",
+			Shield = 0,
+			ShieldRank30 = 0,
+			--Sprint = 1.1,
+			SquadPortrait = "KullervoPrimeLargePortrait.png",
 			Subsumed = "Wrathful Advance",
 			Tactical = "Storm of Ukko",
 			Themes = "Betrayal, Criminal, Daggered Dax, Knife Block",

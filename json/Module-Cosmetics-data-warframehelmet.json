@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-11-14T08:45:27.348Z"
+    "converted_at": "2026-11-28T09:57:34.680Z"
   },
   "_comments": "",
   "Hildryn Sigrun Helmet": {
@@ -2966,6 +2966,16 @@
     "Name": "Arcane Thrak Helmet",
     "Tradable": true,
     "InternalName": "/Lotus/Upgrades/Skins/Rhino/RhinoHelmetAlt",
+    "CodexSecret": false
+  },
+  "Protea Immortal Helmet": {
+    "Type": "Helmet",
+    "Image": "ProteImmortalHelmet.png",
+    "Description": "The Immortal Helmet for the Protea Warframe.",
+    "Link": "Protea Immortal Helmet",
+    "Name": "Protea Immortal Helmet",
+    "InternalName": "/Lotus/Upgrades/Skins/Odalisk/ProteaImmortalHelmet",
+    "ExcludeFromCodex": false,
     "CodexSecret": false
   },
   "Arcane Aurora Helmet": {

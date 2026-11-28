@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/warframehelmet"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/warframehelmet"
-wiki_timestamp: "2026-11-13T20:17:02Z"
+wiki_timestamp: "2026-11-27T14:13:25Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/warframehelmet/doc](/w/Module:Cosmetics/data/warframehelmet/doc?action=edit&redlink=1 "Module:Cosmetics/data/warframehelmet/doc (page does not exist)")*
@@ -4516,6 +4516,16 @@ return {
         InternalName = "/Lotus/Upgrades/Skins/Odalisk/OdaliskHelmet",
         Link = "Protea Helmet",
         Name = "Protea Helmet",
+        Type = "Helmet"
+    },
+    ["Protea Immortal Helmet"] = {
+        CodexSecret = false,
+        Description = "The Immortal Helmet for the Protea Warframe.",
+        ExcludeFromCodex = false,
+        Image = "ProteImmortalHelmet.png",
+        InternalName = "/Lotus/Upgrades/Skins/Odalisk/ProteaImmortalHelmet",
+        Link = "Protea Immortal Helmet",
+        Name = "Protea Immortal Helmet",
         Type = "Helmet"
     },
     ["Protea Kollapsar Helmet"] = {

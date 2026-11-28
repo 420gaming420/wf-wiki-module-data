@@ -4,9 +4,9 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-11-10T09:27:02.728Z"
+    "converted_at": "2026-11-28T09:57:47.903Z"
   },
-  "_comments": "\t\t-- Please edit the entry below with the correct info once we know more about --\n\t\t\t-- AuraPolarity = \"Naramon\",\n\t\t\t-- ExilusPolarity = \"Naramon\",\n\t\t\t-- Subsumed = \"Balefire\",\n\t\t\t-- Tactical = \"Balefire\",\n\t\t    -- Subsumed = \"Jade Stars\",\n\t\t    -- Tactical = \"Light's Sanctuary\",",
+  "_comments": "\t\t-- Please edit the entry below with the correct info once we know more about --\n\t\t\t-- AuraPolarity = \"Naramon\",\n\t\t\t-- ExilusPolarity = \"Naramon\",\n\t\t\t--Introduced = \"45.0\",\n\t\t\t-- Subsumed = \"Balefire\",\n\t\t\t-- Tactical = \"Balefire\",\n\t\t\t--Armor = 550,\n\t\t\t--ArmorRank30 = 650,\n\t\t\t--AuraPolarity = \"Naramon\",\n\t\t\t--Energy = 175,\n\t\t\t--Health = 1005,\n\t\t\t--HealthRank30 = 1205,\n\t\t\t--InitialEnergy = 150,\n\t\t\t--Polarities = { \"Madurai\", \"Madurai\" },\n\t\t\t--Sprint = 1.1,\n\t\t    -- Subsumed = \"Jade Stars\",\n\t\t    -- Tactical = \"Light's Sanctuary\",",
   "Archwings": {
     "Amesha": {
       "Sprint": 1.1,
@@ -570,61 +570,6 @@
       "Energy": 200,
       "Name": "Yareli"
     },
-    "Styanax Prime": {
-      "MaxRank": 30,
-      "Themes": "Astyanax, Hoplite, Peltast, Shield & Spear Paradox",
-      "Tactical": "Rally Point",
-      "Passive": "Styanax's critical chance increases with his shields and doubles for spearguns.",
-      "Introduced": "43",
-      "Polarities": [
-        "Vazarin",
-        "Naramon",
-        "Naramon"
-      ],
-      "FullImages": [
-        {
-          "TabName": "Full Body",
-          "Image": "StyanaxPrime.png"
-        }
-      ],
-      "InternalName": "/Lotus/Powersuits/Hoplite/StyanaxPrime",
-      "Type": "Warframe",
-      "Link": "Styanax/Prime",
-      "Health": 270,
-      "Playstyle": [
-        "Damage",
-        "Support"
-      ],
-      "CodexSecret": false,
-      "Sprint": 1,
-      "Description": "Shield of the innocent. Spear of justice. Styanax Prime holds the line in defiance of tyranny.",
-      "Conclave": false,
-      "Helmet": "StyanaxPrimeHelmet.png",
-      "Image": "StyanaxPrime_Thumb.png",
-      "AugmentShop": [
-        "Arbiters of Hexis",
-        "New Loka"
-      ],
-      "Armor": 265,
-      "Progenitor": "Cold",
-      "SquadPortrait": "StyanaxPrimeLargePortrait.png",
-      "Vaulted": false,
-      "Shield": 925,
-      "InitialEnergy": 75,
-      "SellPrice": 25000,
-      "AuraPolarity": "Naramon",
-      "Abilities": [
-        "Axios Javelin",
-        "Tharros Strike",
-        "Rally Point",
-        "Final Stand"
-      ],
-      "Sex": "Male",
-      "Mastery": 0,
-      "Portrait": "StyanaxPrime_Thumb.png",
-      "Energy": 215,
-      "Name": "Styanax Prime"
-    },
     "Yareli Prime": {
       "EnergyRank30": 315,
       "MaxRank": 30,
@@ -684,6 +629,104 @@
       "Portrait": "YareliPrime_Thumb.png",
       "Energy": 215,
       "Name": "Yareli Prime"
+    },
+    "Styanax Prime": {
+      "MaxRank": 30,
+      "Themes": "Astyanax, Hoplite, Peltast, Shield & Spear Paradox",
+      "Tactical": "Rally Point",
+      "Passive": "Styanax's critical chance increases with his shields and doubles for spearguns.",
+      "Introduced": "43",
+      "Polarities": [
+        "Vazarin",
+        "Naramon",
+        "Naramon"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "StyanaxPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/Hoplite/StyanaxPrime",
+      "Type": "Warframe",
+      "Link": "Styanax/Prime",
+      "Health": 270,
+      "Playstyle": [
+        "Damage",
+        "Support"
+      ],
+      "CodexSecret": false,
+      "Sprint": 1,
+      "Description": "Shield of the innocent. Spear of justice. Styanax Prime holds the line in defiance of tyranny.",
+      "Conclave": false,
+      "Helmet": "StyanaxPrimeHelmet.png",
+      "Image": "StyanaxPrime_Thumb.png",
+      "AugmentShop": [
+        "Arbiters of Hexis",
+        "New Loka"
+      ],
+      "Armor": 265,
+      "Progenitor": "Cold",
+      "SquadPortrait": "StyanaxPrimeLargePortrait.png",
+      "Vaulted": false,
+      "Shield": 925,
+      "InitialEnergy": 75,
+      "SellPrice": 25000,
+      "AuraPolarity": "Naramon",
+      "Abilities": [
+        "Axios Javelin",
+        "Tharros Strike",
+        "Rally Point",
+        "Final Stand"
+      ],
+      "Sex": "Male",
+      "Mastery": 0,
+      "Portrait": "StyanaxPrime_Thumb.png",
+      "Energy": 215,
+      "Name": "Styanax Prime"
+    },
+    "Kullervo Prime": {
+      "Description": "",
+      "Conclave": false,
+      "Helmet": "KullervoPrimeHelmet.png",
+      "ShieldRank30": 0,
+      "MaxRank": 30,
+      "Themes": "Betrayal, Criminal, Daggered Dax, Knife Block",
+      "Tactical": "Storm of Ukko",
+      "Image": "KullervoPrime_Thumb.png",
+      "AugmentShop": [
+        "New Loka",
+        "Steel Meridian"
+      ],
+      "FullImages": [
+        {
+          "TabName": "Full Body",
+          "Image": "KullervoPrime.png"
+        }
+      ],
+      "InternalName": "/Lotus/Powersuits/PaxDuviricus/KullervoPrime",
+      "Progenitor": "Heat",
+      "SquadPortrait": "KullervoPrimeLargePortrait.png",
+      "Link": "Kullervo/Prime",
+      "Type": "Warframe",
+      "SellPrice": 25000,
+      "Shield": 0,
+      "Portrait": "KullervoPrime_Thumb.png",
+      "Subsumed": "Wrathful Advance",
+      "Mastery": 0,
+      "Abilities": [
+        "Wrathful Advance",
+        "Recompense",
+        "Collective Curse",
+        "Storm of Ukko"
+      ],
+      "Sex": "Male",
+      "Playstyle": [
+        "Damage"
+      ],
+      "Passive": "Kullervo boasts +75% Heavy Attack Efficiency and +100% Heavy Attack Wind Up Speed on all melee weapons.",
+      "Name": "Kullervo Prime",
+      "CodexSecret": false
     },
     "Caliban Prime": {
       "MaxRank": 30,
@@ -6008,10 +6051,9 @@
       "Helmet": "BryskoHelmet.png",
       "MaxRank": 30,
       "Themes": "Chimera Sentient, Detective Noir, Gambler, Houndmaster",
-      "_IgnoreEntry": true,
       "Image": "Brysko_Thumb.png",
       "AugmentShop": {},
-      "Introduced": "TBA",
+      "_IgnoreEntry": true,
       "Armor": 0,
       "FullImages": [
         {
@@ -6032,10 +6074,10 @@
       "Polarities": {},
       "Name": "Brysko",
       "Abilities": [
-        "Brysko ability 1",
-        "Brysko ability 2",
-        "Brysko ability 3",
-        "Brysko ability 4"
+        "Deadman's Hand",
+        "Takedown",
+        "Blood Gambit",
+        "Corecracker"
       ],
       "Sex": "Male",
       "Playstyle": {},

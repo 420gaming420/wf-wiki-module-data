@@ -45,6 +45,7 @@ local DUCAT_EXCEPTIONS = {
 		["Ris"] = { [""] = 0 },
 		["Netra"] = { [""] = 0 },
 		["Khra"] = { [""] = 0 },
+		["Nautilus Prime"] = {["Blueprint"] = 100 },
 	}
 
 local RelicData = {}
@@ -1303,28 +1304,29 @@ RelicData = {
 	["Axi B10"] = {
 		Drops = {
 			{
+				Item = "Burston Prime",
+				Part = "Stock",
+				Rarity = "Common",
+			},
+			{
 				Item = "Forma",
 				Part = "Blueprint",
 				Rarity = "Common",
 			},
 			{
 				Item = "Nautilus Prime",
-				Part = "Blueprint",
+				Part = "Carapace",
 				Rarity = "Common",
 			},
+
 			{
 				Item = "Burston Prime",
-				Part = "Blueprint",
-				Rarity = "Common",
-			},
-			{
-				Item = "Sevagoth Prime",
-				Part = "Systems Blueprint",
+				Part = "Barrel",
 				Rarity = "Uncommon",
 			},
 			{
-				Item = "Epitaph Prime",
-				Part = "Barrel",
+				Item = "Nami Skyla Prime",
+				Part = "Handle",
 				Rarity = "Uncommon",
 			},
 			{
@@ -4667,6 +4669,11 @@ RelicData = {
 	["Axi N14"] = {
 		Drops = {
 			{
+				Item = "Bronco Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
 				Item = "Forma",
 				Part = "Blueprint",
 				Rarity = "Common",
@@ -4674,11 +4681,6 @@ RelicData = {
 			{
 				Item = "Hydroid Prime",
 				Part = "Chassis Blueprint",
-				Rarity = "Common",
-			},
-			{
-				Item = "Bronco Prime",
-				Part = "Blueprint",
 				Rarity = "Common",
 			},
 			{
@@ -13978,33 +13980,33 @@ RelicData = {
 	["Lith S20"] = {
 		Drops = {
 			{
+				Item = "Ballistica Prime",
+				Part = "Lower Limb",
+				Rarity = "Common",
+			},
+			{
+				Item = "Bronco Prime",
+				Part = "Receiver",
+				Rarity = "Common",
+			},
+			{
 				Item = "Forma",
 				Part = "Blueprint",
 				Rarity = "Common",
 			},
 			{
-				Item = "Ballistica Prime",
-				Part = "Receiver",
-				Rarity = "Common",
-			},
-			{
-				Item = "Burston Prime",
-				Part = "Receiver",
-				Rarity = "Common",
-			},
-			{
-				Item = "Bronco Prime",
+				Item = "Epitaph Prime",
 				Part = "Barrel",
-				Rarity = "Uncommon",
-			},
-			{
-				Item = "Hydroid Prime",
-				Part = "Blueprint",
 				Rarity = "Uncommon",
 			},
 			{
 				Item = "Sevagoth Prime",
 				Part = "Blueprint",
+				Rarity = "Uncommon",
+			},
+			{
+				Item = "Sevagoth Prime",
+				Part = "Chassis",
 				Rarity = "Rare",
 			},
 		},
@@ -17223,23 +17225,23 @@ RelicData = {
 				Rarity = "Common",
 			},
 			{
+				Item = "Nami Skyla Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
 				Item = "Sevagoth Prime",
 				Part = "Neuroptics Blueprint",
 				Rarity = "Common",
 			},
 			{
-				Item = "Bronco Prime",
-				Part = "Receiver",
-				Rarity = "Common",
-			},
-			{
 				Item = "Hydroid Prime",
-				Part = "Neuroptics Blueprint",
+				Part = "Blueprint",
 				Rarity = "Uncommon",
 			},
 			{
-				Item = "Ballistica Prime",
-				Part = "Lower Limb",
+				Item = "Nautilus Prime",
+				Part = "Systems",
 				Rarity = "Uncommon",
 			},
 			{
@@ -25345,28 +25347,28 @@ RelicData = {
 	["Neo H5"] = {
 		Drops = {
 			{
+				Item = "Burston Prime",
+				Part = "Receiver",
+				Rarity = "Common",
+			},
+			{
+				Item = "Epitaph Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
 				Item = "Forma",
 				Part = "Blueprint",
 				Rarity = "Common",
 			},
 			{
-				Item = "Burston Prime",
-				Part = "Stock",
-				Rarity = "Common",
-			},
-			{
-				Item = "Nami Skyla Prime",
-				Part = "Handle",
-				Rarity = "Common",
-			},
-			{
-				Item = "Nautilus Prime",
-				Part = "Systems",
+				Item = "Ballistica Prime",
+				Part = "String",
 				Rarity = "Uncommon",
 			},
 			{
-				Item = "Sevagoth Prime",
-				Part = "Chassis Blueprint",
+				Item = "Ballistica Prime",
+				Part = "Upper Limb",
 				Rarity = "Uncommon",
 			},
 			{
@@ -27180,33 +27182,33 @@ RelicData = {
 	["Neo N25"] = {
 		Drops = {
 			{
+				Item = "Burston Prime",
+				Part = "Blueprint",
+				Rarity = "Common",
+			},
+			{
 				Item = "Forma",
 				Part = "Blueprint",
 				Rarity = "Common",
 			},
 			{
-				Item = "Epitaph Prime",
-				Part = "Blueprint",
+				Item = "Sevagoth Prime",
+				Part = "Systems Blueprint",
 				Rarity = "Common",
 			},
 			{
 				Item = "Ballistica Prime",
-				Part = "String",
-				Rarity = "Common",
-			},
-			{
-				Item = "Burston Prime",
-				Part = "Barrel",
+				Part = "Receiver",
 				Rarity = "Uncommon",
 			},
 			{
-				Item = "Nami Skyla Prime",
-				Part = "Blueprint",
+				Item = "Hydroid Prime",
+				Part = "Neuroptics Blueprint",
 				Rarity = "Uncommon",
 			},
 			{
 				Item = "Nautilus Prime",
-				Part = "Cerebrum",
+				Part = "Blueprint",
 				Rarity = "Rare",
 			},
 		},

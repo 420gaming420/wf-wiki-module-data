@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-11-11T09:00:30.238Z"
+    "converted_at": "2026-11-28T09:57:45.269Z"
   },
   "_comments": "-- When a relic is vaulted, it cannot be obtained through in-game missions.\n-- In other words, they do not appear in any mission drop tables. When a relic\n-- is vaulted, that means at least one item part that drops from that relic is\n-- also vaulted. An item part is defined as being vaulted when all the relics\n-- that it can be dropped from are vaulted.\n-- Normally, relics that have been vaulted will not be unvaulted in the future.\n-- Exceptions are:n\n-- * 2016, 2019, and 2020 Frost & Ember Prime Vault with Lith G1, Meso F2, Neo S5, and Axi E1\n-- * 2018, 2019, and 2021 Nyx & Rhino Prime Vault Lith B4, Meso N6, Neo R1, and Axi S3\n-- * Baro relics Neo O1, Axi A2, Axi A5, Axi M5, Axi V8\n-- Exceptions to the ducat prices due to distribution of rarities, probably if\n-- at least 2/3 of drop rarities are a single type, then the ducat value will be basedv\n-- on that type; TODO: figure out a pattern in which DE decides these exceptions\n-- Nikana Prime Blueprint is an interesting edge case at 25 ducats with 2 rare, 1 uncommon, and 3 common drops\n-- contains item part drops by relic the 'inverse' of RelicData or a different \n-- view of the same dataset in RelicData contains relic appearances by item part\n-- Some notes on relationship of database entities from point of view of relational databases:\n-- A Void Relic has multiple prime item parts that it can drop\n-- A prime part can drop from multiple Void Relics \n-- > Thus the relationship between Relic and Part is many-to-many\n-- A Primed item is made up of multiple prime parts\n-- A specific prime part is associated with a single Primed item\n-- > Thus the relationship between Item and Part is one-to-many\n-- |Relic|\n-- *FullName (string)\n-- *Part (string)\n-- Name (string)\n-- Tier (string)\n-- Introduced (string)\n-- Vaulted (string)\n-- |Item|\n-- *Name (string)\n-- Part (string)\n-- IsVaulted (boolean)\n-- |Part|\n-- *Item (string)\n-- *Relic (string)\n-- Rarity (string)\n-- DucatCost (number)\n--- Returns a table with an item part's drop rarity in all relics that it is dropped in.\n--  @function\t   getItemRarities\n--  @param\t\t  {table} primeData Table with item and part names mapped to their relics drops\n--\t\t\t\t\t\t\t\t\tto add DucatValue key to\n--  @param\t\t  {string} itemName Prime item name\n--  @param\t\t  {string} partName Part name\n--  @return\t\t {table} A map that lists an item part's rarities (e.g. { Rare = true } or { Common = true, Uncommon = true })\n--- Gets the ducat value of a Prime part or blueprint.\n--  @function\t  getDucatValue\n--\t\t\t\t\t\t  to add DucatValue key to\n--  @param\t\t{string} itemName Prime item name\n--  @param\t\t{string} partName Part name\n--  @return\t  {number} The ducat value of that Prime part/blueprint\n\t-- Rare parts are worth 100 ducats\n\t-- Uncommon parts are worth 45 ducats\n\t-- Common parts are worth 15 ducats\n\t-- If an item part is a uncommon and rare drop in different relics, it is worth 65 ducats\n\t-- If an item part is a common and uncommon drop in different relics, it is worth 25 ducats\n\t-- If an item part is a common and rare drop in different relics, it is worth 25 ducsts\n--- Adding \"DucatValue\" key; ducat price of a prime part is based on their rarity\n--  of their drops in relics\n--  @function\t  addDucatValueKey\n--  @param\t\t{table} primeData Table with item and part names mapped to their relics drops\n--- Adding \"Vaulted\" key; an item is vaulted if all its parts (including Blueprint) \n--  are vaulted, meaning that all the relics that it is dropped from are vaulted.\n--  @function\t  addVaultedKey\n--\t\t\t\t\t\t  to add Vaulted key to\n\t\t-- First assume item is vaulted until we can find a relic that is not vaulted\n\t\t-- to disprove this assumption\n\t\t\t\t-- If we find at least one relic that is not vaulted,\n\t\t\t\t-- then that means that item part, thus the whole item, is not vaulted\n\t\t\t-- Some optimization once we already find an unvaulted relic\n\t-- Looping through all relics and their drops\n\t\t\t-- Initiating an item entry\n\t\t\t-- Adding a part table to item entry\n\t\t\t-- Insert the name of relic that an item part is dropped in",
   "PrimeData": {
@@ -330,26 +330,26 @@
       "IsVaulted": true,
       "Parts": {
         "Handle": {
-          "DucatValue": 25,
+          "DucatValue": 45,
           "Drops": {
             "Meso S7": "Uncommon",
             "Meso D3": "Uncommon",
-            "Neo H5": "Common",
+            "Axi B10": "Uncommon",
             "Lith C2": "Uncommon",
             "Lith H1": "Uncommon",
             "Neo H3": "Uncommon"
           }
         },
         "Blueprint": {
-          "DucatValue": 25,
+          "DucatValue": 15,
           "Drops": {
             "Axi L2": "Common",
             "Axi L3": "Common",
             "Meso C3": "Common",
             "Axi V7": "Common",
+            "Meso E8": "Common",
             "Lith Z2": "Common",
-            "Neo A6": "Common",
-            "Neo N25": "Uncommon"
+            "Neo A6": "Common"
           }
         },
         "Blade": {
@@ -2779,13 +2779,23 @@
     "Nautilus Prime": {
       "IsVaulted": true,
       "Parts": {
+        "Blueprint": {
+          "DucatValue": 100,
+          "Drops": {
+            "Neo N25": "Rare",
+            "Meso N17": "Rare",
+            "Neo N24": "Rare",
+            "Lith N18": "Rare",
+            "Lith N17": "Rare"
+          }
+        },
         "Systems": {
           "DucatValue": 45,
           "Drops": {
             "Meso V11": "Uncommon",
             "Lith Q2": "Uncommon",
             "Neo T10": "Uncommon",
-            "Neo H5": "Uncommon",
+            "Meso E8": "Uncommon",
             "Meso A10": "Uncommon",
             "Axi S16": "Uncommon",
             "Lith Q1": "Uncommon"
@@ -2797,31 +2807,21 @@
             "Neo P10": "Common",
             "Lith Y1": "Common",
             "Lith A7": "Common",
+            "Axi B10": "Common",
             "Axi V13": "Common",
             "Neo W2": "Common",
             "Lith L7": "Common",
             "Neo G7": "Common"
           }
         },
-        "Blueprint": {
-          "DucatValue": 25,
-          "Drops": {
-            "Lith N17": "Rare",
-            "Meso N17": "Rare",
-            "Axi B10": "Common",
-            "Neo N24": "Rare",
-            "Lith N18": "Rare"
-          }
-        },
         "Cerebrum": {
           "DucatValue": 100,
           "Drops": {
-            "Neo N25": "Rare",
+            "Lith N19": "Rare",
             "Axi N14": "Rare",
             "Lith N15": "Rare",
             "Axi N13": "Rare",
-            "Lith N16": "Rare",
-            "Lith N19": "Rare"
+            "Lith N16": "Rare"
           }
         }
       }
@@ -3908,26 +3908,26 @@
       "IsVaulted": true,
       "Parts": {
         "String": {
-          "DucatValue": 25,
+          "DucatValue": 45,
           "Drops": {
-            "Meso G1": "Uncommon",
+            "Meso R1": "Uncommon",
             "Axi A4": "Uncommon",
-            "Neo N25": "Common",
-            "Neo A6": "Uncommon",
-            "Meso R1": "Uncommon"
+            "Neo H5": "Uncommon",
+            "Meso G1": "Uncommon",
+            "Neo A6": "Uncommon"
           }
         },
         "Lower Limb": {
-          "DucatValue": 25,
+          "DucatValue": 15,
           "Drops": {
             "Meso A1": "Common",
             "Lith O1": "Common",
             "Meso M3": "Common",
             "Axi V6": "Common",
-            "Meso E8": "Uncommon",
+            "Neo H3": "Common",
             "Neo B5": "Common",
             "Axi K5": "Common",
-            "Neo H3": "Common"
+            "Lith S20": "Common"
           }
         },
         "Upper Limb": {
@@ -3935,6 +3935,7 @@
           "Drops": {
             "Neo N10": "Uncommon",
             "Lith T1": "Uncommon",
+            "Neo H5": "Uncommon",
             "Lith V5": "Uncommon",
             "Axi M3": "Uncommon",
             "Meso S8": "Uncommon"
@@ -3952,15 +3953,15 @@
           }
         },
         "Receiver": {
-          "DucatValue": 25,
+          "DucatValue": 45,
           "Drops": {
+            "Neo N25": "Uncommon",
             "Meso P1": "Uncommon",
             "Neo H2": "Uncommon",
             "Lith R1": "Uncommon",
             "Neo S7": "Uncommon",
             "Neo L1": "Uncommon",
-            "Lith P2": "Uncommon",
-            "Lith S20": "Common"
+            "Lith P2": "Uncommon"
           }
         }
       }
@@ -4934,53 +4935,41 @@
         }
       }
     },
-    "Nidus Prime": {
+    "Volnus Prime": {
       "IsVaulted": true,
       "Parts": {
-        "Chassis Blueprint": {
+        "Handle": {
           "DucatValue": 100,
           "Drops": {
-            "Axi N12": "Rare",
-            "Neo N18": "Rare",
-            "Meso N14": "Rare",
-            "Lith N7": "Rare",
-            "Meso N13": "Rare",
-            "Lith N12": "Rare"
-          }
-        },
-        "Systems Blueprint": {
-          "DucatValue": 15,
-          "Drops": {
-            "Meso A3": "Common",
-            "Neo C2": "Common",
-            "Meso P9": "Common",
-            "Meso D7": "Common",
-            "Neo A8": "Common",
-            "Meso B5": "Common",
-            "Neo N19": "Common",
-            "Meso H2": "Common"
+            "Meso V7": "Rare",
+            "Neo V10": "Rare",
+            "Axi V11": "Rare"
           }
         },
         "Blueprint": {
-          "DucatValue": 45,
+          "DucatValue": 15,
           "Drops": {
-            "Lith K10": "Uncommon",
-            "Lith R2": "Uncommon",
-            "Lith T9": "Uncommon",
-            "Lith S17": "Uncommon",
-            "Meso R5": "Uncommon",
-            "Axi A14": "Uncommon",
-            "Meso P8": "Uncommon",
-            "Meso N12": "Uncommon"
+            "Lith S11": "Common",
+            "Lith H7": "Common",
+            "Lith H6": "Common",
+            "Neo D5": "Common",
+            "Meso Z4": "Common",
+            "Axi A14": "Common",
+            "Lith G5": "Common",
+            "Neo P5": "Common"
           }
         },
-        "Neuroptics Blueprint": {
-          "DucatValue": 65,
+        "Head": {
+          "DucatValue": 45,
           "Drops": {
-            "Neo N16": "Rare",
-            "Axi N9": "Rare",
-            "Neo S19": "Uncommon",
-            "Axi N10": "Rare"
+            "Meso B5": "Uncommon",
+            "Lith P6": "Uncommon",
+            "Axi B5": "Uncommon",
+            "Axi K9": "Uncommon",
+            "Axi I1": "Uncommon",
+            "Axi C8": "Uncommon",
+            "Axi C7": "Uncommon",
+            "Lith Z3": "Uncommon"
           }
         }
       }
@@ -5029,45 +5018,70 @@
         }
       }
     },
-    "Kronen Prime": {
-      "IsVaulted": true,
+    "Cernos Prime": {
+      "IsVaulted": false,
       "Parts": {
-        "Handle": {
-          "DucatValue": 45,
+        "String": {
+          "DucatValue": 25,
           "Drops": {
-            "Meso A1": "Uncommon",
-            "Axi G3": "Uncommon",
-            "Meso D3": "Uncommon",
-            "Meso B2": "Uncommon",
-            "Lith T6": "Uncommon",
-            "Axi L5": "Uncommon",
-            "Neo S11": "Uncommon",
-            "Neo B4": "Uncommon"
+            "Axi K2": "Uncommon",
+            "Axi A3": "Uncommon",
+            "Neo A1": "Uncommon",
+            "Meso O1": "Uncommon",
+            "Meso S6": "Uncommon",
+            "Meso N8": "Uncommon",
+            "Lith B3": "Uncommon",
+            "Axi V10": "Common"
+          }
+        },
+        "Lower Limb": {
+          "DucatValue": 100,
+          "Drops": {
+            "Axi C2": "Rare",
+            "Meso C3": "Rare",
+            "Lith C5": "Rare",
+            "Lith C2": "Rare",
+            "Lith C7": "Rare",
+            "Axi C1": "Rare"
+          }
+        },
+        "Upper Limb": {
+          "DucatValue": 15,
+          "Drops": {
+            "Meso N11": "Common",
+            "Meso K1": "Common",
+            "Meso O2": "Common",
+            "Lith V3": "Common",
+            "Neo N6": "Common",
+            "Meso S7": "Common",
+            "Meso N8": "Common",
+            "Axi N4": "Common",
+            "Meso C2": "Common"
           }
         },
         "Blueprint": {
-          "DucatValue": 15,
+          "DucatValue": 45,
           "Drops": {
-            "Neo Z4": "Common",
-            "Axi L3": "Common",
-            "Neo Z8": "Common",
-            "Axi H3": "Common",
-            "Meso N7": "Common",
-            "Neo L1": "Common",
-            "Neo A2": "Common",
-            "Neo C1": "Common"
+            "Lith Z1": "Uncommon",
+            "Lith A2": "Uncommon",
+            "Axi B1": "Uncommon",
+            "Neo V9": "Uncommon",
+            "Neo V7": "Uncommon",
+            "Axi V4": "Uncommon",
+            "Neo S13": "Uncommon"
           }
         },
-        "Blade": {
-          "DucatValue": 100,
+        "Grip": {
+          "DucatValue": 15,
           "Drops": {
-            "Axi K2": "Rare",
-            "Axi K5": "Rare",
-            "Axi K3": "Rare",
-            "Neo K3": "Rare",
-            "Meso K2": "Rare",
-            "Lith K3": "Rare",
-            "Axi K4": "Rare"
+            "Meso V5": "Common",
+            "Lith V6": "Common",
+            "Neo V4": "Common",
+            "Axi K3": "Common",
+            "Axi S8": "Common",
+            "Axi H3": "Common",
+            "Axi S5": "Common",
+            "Neo V6": "Common"
           }
         }
       }
@@ -5831,6 +5845,7 @@
             "Meso P4": "Common",
             "Meso C5": "Common",
             "Neo Z9": "Common",
+            "Neo N25": "Common",
             "Meso C7": "Common",
             "Axi T3": "Common",
             "Meso K8": "Common",
@@ -5838,28 +5853,27 @@
             "Neo K9": "Common",
             "Axi K8": "Common",
             "Neo S6": "Common",
-            "Axi G7": "Common",
             "Axi G9": "Common",
-            "Lith T1": "Common",
+            "Axi G7": "Common",
             "Axi K11": "Common",
+            "Lith T1": "Common",
+            "Lith O1": "Common",
             "Axi R4": "Common",
-            "Neo L4": "Common",
             "Lith S10": "Common",
-            "Neo A6": "Common",
             "Lith A10": "Common",
-            "Axi T11": "Common",
+            "Neo A6": "Common",
             "Meso I2": "Common",
             "Neo N23": "Common",
             "Meso C6": "Common",
             "Axi C8": "Common",
             "Axi L5": "Common",
-            "Axi B10": "Common",
+            "Axi T11": "Common",
             "Axi B8": "Common",
             "Axi M6": "Common",
             "Axi S19": "Common",
             "Axi B7": "Common",
             "Axi S6": "Common",
-            "Lith O1": "Common",
+            "Neo L4": "Common",
             "Lith B3": "Common",
             "Axi A22": "Common",
             "Lith D6": "Common",
@@ -5877,7 +5891,6 @@
             "Lith F3": "Uncommon",
             "Lith T6": "Uncommon",
             "Axi G4": "Uncommon",
-            "Neo N25": "Uncommon",
             "Meso G2": "Uncommon",
             "Axi T1": "Uncommon",
             "Neo B1": "Uncommon",
@@ -5894,17 +5907,18 @@
             "Lith M10": "Uncommon",
             "Lith P3": "Uncommon",
             "Lith S13": "Uncommon",
-            "Lith N12": "Uncommon",
+            "Axi B10": "Uncommon",
+            "Neo W2": "Uncommon",
             "Neo P5": "Uncommon",
-            "Axi T2": "Uncommon",
             "Axi H3": "Uncommon",
             "Lith R1": "Uncommon",
+            "Axi T2": "Uncommon",
             "Axi V13": "Uncommon",
             "Meso S13": "Uncommon",
             "Neo B9": "Uncommon",
             "Lith G8": "Uncommon",
-            "Neo W2": "Uncommon",
-            "Lith S14": "Uncommon"
+            "Lith S14": "Uncommon",
+            "Lith N12": "Uncommon"
           }
         },
         "Receiver": {
@@ -5920,7 +5934,7 @@
             "Lith H10": "Common",
             "Meso B7": "Common",
             "Meso L1": "Common",
-            "Lith C4": "Common",
+            "Neo G3": "Common",
             "Meso T1": "Common",
             "Lith L6": "Common",
             "Meso A8": "Common",
@@ -5932,12 +5946,12 @@
             "Neo E2": "Common",
             "Lith G10": "Common",
             "Lith S5": "Common",
-            "Lith A12": "Common",
-            "Lith S20": "Common",
-            "Meso B10": "Common",
+            "Lith A4": "Common",
             "Axi G2": "Common",
+            "Meso B10": "Common",
+            "Neo H5": "Common",
             "Lith V10": "Common",
-            "Neo E3": "Common",
+            "Lith C4": "Common",
             "Meso H3": "Common",
             "Lith C8": "Common",
             "Lith P6": "Common",
@@ -5946,7 +5960,7 @@
             "Neo H1": "Common",
             "Lith T9": "Common",
             "Neo Q1": "Common",
-            "Neo G3": "Common",
+            "Neo E3": "Common",
             "Axi A11": "Common",
             "Meso P7": "Common",
             "Lith G12": "Common",
@@ -5954,7 +5968,7 @@
             "Neo B9": "Common",
             "Neo P11": "Common",
             "Neo S3": "Common",
-            "Lith A4": "Common"
+            "Lith A12": "Common"
           }
         },
         "Stock": {
@@ -5966,12 +5980,12 @@
             "Lith V1": "Common",
             "Neo M2": "Common",
             "Lith S9": "Common",
-            "Lith Q2": "Common",
+            "Lith K1": "Common",
             "Lith N9": "Common",
             "Lith M5": "Common",
             "Neo Z4": "Common",
             "Meso S5": "Common",
-            "Lith S18": "Common",
+            "Neo Z5": "Common",
             "Meso T7": "Common",
             "Meso T8": "Common",
             "Neo C5": "Common",
@@ -5982,29 +5996,29 @@
             "Axi O3": "Common",
             "Lith R3": "Common",
             "Neo B4": "Common",
-            "Neo P5": "Common",
-            "Lith W4": "Common",
+            "Lith D3": "Common",
+            "Lith S18": "Common",
             "Neo T6": "Common",
             "Lith G6": "Common",
-            "Neo H5": "Common",
+            "Meso N3": "Common",
             "Neo G5": "Common",
             "Neo A10": "Common",
-            "Meso N3": "Common",
             "Meso G6": "Common",
             "Neo N16": "Common",
             "Meso S14": "Common",
+            "Lith B8": "Common",
+            "Axi B10": "Common",
             "Axi A23": "Common",
-            "Lith D3": "Common",
             "Lith T10": "Common",
             "Neo Y2": "Common",
-            "Lith K1": "Common",
+            "Neo P5": "Common",
             "Meso A3": "Common",
-            "Neo Z5": "Common",
+            "Lith Q2": "Common",
             "Meso C3": "Common",
             "Meso G7": "Common",
             "Meso O5": "Common",
-            "Lith B8": "Common",
             "Axi T13": "Common",
+            "Lith W4": "Common",
             "Neo V6": "Common"
           }
         }
@@ -6149,9 +6163,8 @@
             "Lith P9": "Uncommon",
             "Axi W3": "Uncommon",
             "Meso L4": "Uncommon",
-            "Neo V1": "Uncommon",
             "Neo G9": "Uncommon",
-            "Lith S20": "Uncommon",
+            "Neo V1": "Uncommon",
             "Meso R3": "Uncommon",
             "Axi S10": "Uncommon",
             "Lith T10": "Uncommon",
@@ -6232,7 +6245,6 @@
             "Neo M3": "Common",
             "Meso P1": "Common",
             "Meso P15": "Common",
-            "Meso E8": "Common",
             "Neo N24": "Common",
             "Meso E3": "Common",
             "Meso S8": "Common",
@@ -6242,8 +6254,9 @@
             "Lith L7": "Common",
             "Neo G9": "Common",
             "Neo N6": "Common",
-            "Lith A8": "Common",
             "Axi W1": "Common",
+            "Lith A8": "Common",
+            "Lith S20": "Common",
             "Meso C8": "Common",
             "Neo V4": "Common",
             "Meso V13": "Common",
@@ -6504,52 +6517,53 @@
         }
       }
     },
-    "Wisp Prime": {
+    "Nidus Prime": {
       "IsVaulted": true,
       "Parts": {
         "Chassis Blueprint": {
-          "DucatValue": 65,
-          "Drops": {
-            "Neo W1": "Rare",
-            "Lith W4": "Rare",
-            "Meso W5": "Rare",
-            "Lith W3": "Rare",
-            "Neo H4": "Uncommon"
-          }
-        },
-        "Blueprint": {
           "DucatValue": 100,
           "Drops": {
-            "Meso W4": "Rare",
-            "Axi W3": "Rare",
-            "Neo W2": "Rare",
-            "Meso W3": "Rare",
-            "Axi W4": "Rare"
+            "Axi N12": "Rare",
+            "Neo N18": "Rare",
+            "Meso N14": "Rare",
+            "Lith N7": "Rare",
+            "Meso N13": "Rare",
+            "Lith N12": "Rare"
           }
         },
         "Systems Blueprint": {
           "DucatValue": 15,
           "Drops": {
-            "Neo D7": "Common",
-            "Meso T7": "Common",
-            "Lith N15": "Common",
-            "Meso G7": "Common",
-            "Axi A17": "Common",
-            "Axi B7": "Common",
-            "Meso G10": "Common",
-            "Lith Q1": "Common"
+            "Meso A3": "Common",
+            "Neo C2": "Common",
+            "Meso P9": "Common",
+            "Meso D7": "Common",
+            "Neo A8": "Common",
+            "Meso B5": "Common",
+            "Neo N19": "Common",
+            "Meso H2": "Common"
+          }
+        },
+        "Blueprint": {
+          "DucatValue": 45,
+          "Drops": {
+            "Lith K10": "Uncommon",
+            "Lith R2": "Uncommon",
+            "Lith T9": "Uncommon",
+            "Lith S17": "Uncommon",
+            "Meso R5": "Uncommon",
+            "Axi A14": "Uncommon",
+            "Meso P8": "Uncommon",
+            "Meso N12": "Uncommon"
           }
         },
         "Neuroptics Blueprint": {
-          "DucatValue": 45,
+          "DucatValue": 65,
           "Drops": {
-            "Lith L6": "Uncommon",
-            "Lith A7": "Uncommon",
-            "Meso K6": "Uncommon",
-            "Lith G13": "Uncommon",
-            "Axi F2": "Uncommon",
-            "Neo K6": "Uncommon",
-            "Neo A13": "Uncommon"
+            "Neo N16": "Rare",
+            "Axi N9": "Rare",
+            "Neo S19": "Uncommon",
+            "Axi N10": "Rare"
           }
         }
       }
@@ -6702,51 +6716,52 @@
         }
       }
     },
-    "Corinth Prime": {
+    "Wisp Prime": {
       "IsVaulted": true,
       "Parts": {
-        "Stock": {
-          "DucatValue": 100,
+        "Chassis Blueprint": {
+          "DucatValue": 65,
           "Drops": {
-            "Meso C6": "Rare",
-            "Axi C8": "Rare",
-            "Lith C9": "Rare",
-            "Lith C6": "Rare"
-          }
-        },
-        "Barrel": {
-          "DucatValue": 100,
-          "Drops": {
-            "Axi C6": "Rare",
-            "Axi C7": "Rare",
-            "Meso C10": "Rare",
-            "Meso C5": "Rare",
-            "Axi C5": "Rare"
+            "Neo W1": "Rare",
+            "Lith W4": "Rare",
+            "Meso W5": "Rare",
+            "Lith W3": "Rare",
+            "Neo H4": "Uncommon"
           }
         },
         "Blueprint": {
-          "DucatValue": 15,
+          "DucatValue": 100,
           "Drops": {
-            "Meso I1": "Common",
-            "Axi T4": "Common",
-            "Meso A6": "Common",
-            "Neo N18": "Common",
-            "Neo E2": "Common",
-            "Lith T5": "Common",
-            "Meso S10": "Common",
-            "Lith A4": "Common"
+            "Meso W4": "Rare",
+            "Axi W3": "Rare",
+            "Neo W2": "Rare",
+            "Meso W3": "Rare",
+            "Axi W4": "Rare"
           }
         },
-        "Receiver": {
+        "Systems Blueprint": {
+          "DucatValue": 15,
+          "Drops": {
+            "Neo D7": "Common",
+            "Meso T7": "Common",
+            "Lith N15": "Common",
+            "Meso G7": "Common",
+            "Axi A17": "Common",
+            "Axi B7": "Common",
+            "Meso G10": "Common",
+            "Lith Q1": "Common"
+          }
+        },
+        "Neuroptics Blueprint": {
           "DucatValue": 45,
           "Drops": {
-            "Neo T5": "Uncommon",
-            "Lith G11": "Uncommon",
-            "Meso P4": "Uncommon",
-            "Axi T7": "Uncommon",
-            "Axi P4": "Uncommon",
-            "Lith D3": "Uncommon",
-            "Neo R4": "Uncommon"
+            "Lith L6": "Uncommon",
+            "Lith A7": "Uncommon",
+            "Meso K6": "Uncommon",
+            "Lith G13": "Uncommon",
+            "Axi F2": "Uncommon",
+            "Neo K6": "Uncommon",
+            "Neo A13": "Uncommon"
           }
         }
       }
@@ -7168,34 +7183,21 @@
       "IsVaulted": true,
       "Parts": {
         "Chassis Blueprint": {
-          "DucatValue": 65,
+          "DucatValue": 100,
           "Drops": {
-            "Axi S18": "Rare",
             "Neo S20": "Rare",
-            "Neo H5": "Uncommon",
             "Lith S16": "Rare",
+            "Axi S18": "Rare",
             "Axi S17": "Rare"
           }
         },
-        "Blueprint": {
-          "DucatValue": 65,
-          "Drops": {
-            "Axi Y3": "Uncommon",
-            "Axi Z2": "Uncommon",
-            "Lith S20": "Rare",
-            "Meso V12": "Uncommon",
-            "Neo A13": "Uncommon",
-            "Lith L7": "Uncommon",
-            "Lith Z4": "Uncommon"
-          }
-        },
         "Systems Blueprint": {
-          "DucatValue": 25,
+          "DucatValue": 15,
           "Drops": {
+            "Neo N25": "Common",
             "Lith D7": "Common",
-            "Lith C12": "Common",
             "Lith E2": "Common",
-            "Axi B10": "Uncommon",
+            "Lith C12": "Common",
             "Meso G8": "Common",
             "Lith C14": "Common",
             "Lith M10": "Common",
@@ -7214,6 +7216,24 @@
             "Neo T9": "Common",
             "Neo K9": "Common",
             "Meso A7": "Common"
+          }
+        },
+        "Blueprint": {
+          "DucatValue": 45,
+          "Drops": {
+            "Axi Y3": "Uncommon",
+            "Axi Z2": "Uncommon",
+            "Lith S20": "Uncommon",
+            "Meso V12": "Uncommon",
+            "Neo A13": "Uncommon",
+            "Lith L7": "Uncommon",
+            "Lith Z4": "Uncommon"
+          }
+        },
+        "Chassis": {
+          "DucatValue": 100,
+          "Drops": {
+            "Lith S20": "Rare"
           }
         }
       }
@@ -7493,43 +7513,207 @@
         }
       }
     },
-    "Epitaph Prime": {
-      "IsVaulted": true,
+    "Paris Prime": {
+      "IsVaulted": false,
       "Parts": {
-        "Barrel": {
-          "DucatValue": 45,
+        "String": {
+          "DucatValue": 15,
           "Drops": {
-            "Neo P9": "Uncommon",
-            "Axi P8": "Uncommon",
-            "Lith Q2": "Uncommon",
-            "Axi B10": "Uncommon",
-            "Neo V11": "Uncommon",
-            "Lith W4": "Uncommon",
-            "Axi Y2": "Uncommon"
+            "Neo A5": "Common",
+            "Neo N21": "Common",
+            "Neo M1": "Common",
+            "Lith H4": "Common",
+            "Meso S10": "Common",
+            "Meso A7": "Common",
+            "Neo V3": "Common",
+            "Neo Z6": "Common",
+            "Meso H6": "Common",
+            "Meso N12": "Common",
+            "Neo Z4": "Common",
+            "Meso E6": "Common",
+            "Neo N3": "Common",
+            "Neo B1": "Common",
+            "Neo N8": "Common",
+            "Axi S20": "Common",
+            "Axi N12": "Common",
+            "Meso M3": "Common",
+            "Lith S3": "Common",
+            "Meso Z6": "Common",
+            "Axi T6": "Common",
+            "Meso S2": "Common",
+            "Neo V13": "Common",
+            "Meso K2": "Common",
+            "Neo N4": "Common",
+            "Axi O2": "Common",
+            "Lith Q3": "Common",
+            "Axi S18": "Common",
+            "Lith H9": "Common",
+            "Neo D9": "Common",
+            "Meso N9": "Common",
+            "Neo P9": "Common",
+            "Neo V5": "Common",
+            "Meso B8": "Common",
+            "Lith S1": "Common",
+            "Meso M2": "Common",
+            "Neo A12": "Common",
+            "Lith H3": "Common",
+            "Lith K10": "Common"
           }
         },
-        "Receiver": {
-          "DucatValue": 100,
+        "Lower Limb": {
+          "DucatValue": 15,
           "Drops": {
-            "Lith E2": "Rare",
-            "Meso E8": "Rare",
-            "Meso E6": "Rare",
-            "Meso E7": "Rare",
-            "Neo E4": "Rare"
+            "Lith T5": "Common",
+            "Meso O1": "Common",
+            "Axi D6": "Common",
+            "Lith V2": "Common",
+            "Lith Z3": "Common",
+            "Axi S12": "Common",
+            "Lith A13": "Common",
+            "Neo E4": "Common",
+            "Neo P1": "Common",
+            "Axi H7": "Common",
+            "Axi A18": "Common",
+            "Axi T8": "Common",
+            "Lith C4": "Common",
+            "Meso P9": "Common",
+            "Axi B4": "Common",
+            "Lith A11": "Common",
+            "Lith K7": "Common",
+            "Lith V3": "Common",
+            "Neo S2": "Common",
+            "Lith S17": "Common",
+            "Meso D2": "Common",
+            "Meso L5": "Common",
+            "Axi B5": "Common",
+            "Meso C9": "Common",
+            "Lith G14": "Common",
+            "Meso T3": "Common",
+            "Lith V1": "Common",
+            "Axi B3": "Common",
+            "Meso O2": "Common",
+            "Lith T4": "Common",
+            "Lith B2": "Common",
+            "Meso T2": "Common",
+            "Meso F1": "Common",
+            "Axi T3": "Common",
+            "Meso G8": "Common",
+            "Neo S17": "Common",
+            "Neo D3": "Common"
+          }
+        },
+        "Upper Limb": {
+          "DucatValue": 25,
+          "Drops": {
+            "Lith L5": "Common",
+            "Meso S1": "Uncommon",
+            "Axi S11": "Uncommon",
+            "Lith G3": "Common",
+            "Lith V2": "Uncommon",
+            "Lith V1": "Common",
+            "Lith N2": "Common",
+            "Meso B9": "Uncommon",
+            "Meso H2": "Uncommon",
+            "Meso B4": "Common",
+            "Lith N14": "Uncommon",
+            "Meso A11": "Common",
+            "Meso I1": "Common",
+            "Axi N3": "Common",
+            "Axi Y1": "Uncommon",
+            "Lith T12": "Common",
+            "Meso T1": "Uncommon",
+            "Lith F2": "Common",
+            "Axi D5": "Common",
+            "Neo S12": "Common",
+            "Neo S2": "Uncommon",
+            "Lith C9": "Common",
+            "Lith K3": "Common",
+            "Axi H4": "Common",
+            "Neo O3": "Common",
+            "Meso T5": "Common",
+            "Meso R1": "Common",
+            "Meso P10": "Uncommon",
+            "Meso D9": "Common",
+            "Neo C4": "Uncommon",
+            "Neo D5": "Common",
+            "Lith N19": "Common",
+            "Neo N19": "Uncommon",
+            "Meso L3": "Common",
+            "Neo C9": "Common",
+            "Neo N17": "Common",
+            "Neo P4": "Common",
+            "Neo P7": "Common",
+            "Axi H6": "Common",
+            "Lith C2": "Common",
+            "Meso V10": "Uncommon",
+            "Meso N4": "Common"
           }
         },
         "Blueprint": {
           "DucatValue": 15,
           "Drops": {
-            "Axi Y3": "Common",
-            "Lith D7": "Common",
-            "Axi F3": "Common",
-            "Axi O6": "Common",
-            "Meso K7": "Common",
-            "Axi C11": "Common",
-            "Neo N25": "Common",
+            "Axi K9": "Common",
+            "Meso S1": "Common",
+            "Neo S19": "Common",
+            "Axi K7": "Common",
+            "Axi S17": "Common",
+            "Meso H5": "Common",
+            "Neo N15": "Common",
+            "Lith M4": "Common",
+            "Neo V12": "Common",
+            "Neo V11": "Common",
+            "Axi V4": "Common",
+            "Neo N22": "Common",
+            "Meso C11": "Common",
+            "Meso V2": "Common",
+            "Lith S4": "Common",
+            "Axi O1": "Common",
+            "Axi E2": "Common",
+            "Lith F1": "Common",
+            "Axi A14": "Common",
+            "Lith H1": "Common",
+            "Meso G5": "Common",
+            "Meso H1": "Common",
+            "Meso D6": "Common",
+            "Axi G1": "Common",
+            "Axi K3": "Common",
+            "Axi K4": "Common",
+            "Lith M3": "Common",
             "Axi A19": "Common",
-            "Axi C10": "Common"
+            "Meso S11": "Common",
+            "Neo Z1": "Common",
+            "Meso E4": "Common",
+            "Neo G10": "Common",
+            "Axi L6": "Common",
+            "Neo C6": "Common"
+          }
+        },
+        "Grip": {
+          "DucatValue": 45,
+          "Drops": {
+            "Neo R2": "Uncommon",
+            "Neo R3": "Uncommon",
+            "Axi G15": "Uncommon",
+            "Meso X1": "Uncommon",
+            "Lith S1": "Uncommon",
+            "Meso G6": "Uncommon",
+            "Lith A10": "Uncommon",
+            "Meso S15": "Uncommon",
+            "Neo G1": "Uncommon",
+            "Neo N23": "Uncommon",
+            "Meso S7": "Uncommon",
+            "Neo K4": "Uncommon",
+            "Meso B6": "Uncommon",
+            "Neo G4": "Uncommon",
+            "Lith S16": "Uncommon",
+            "Meso F5": "Uncommon",
+            "Lith K6": "Uncommon",
+            "Meso S2": "Uncommon",
+            "Meso V17": "Uncommon",
+            "Neo C3": "Uncommon",
+            "Lith S7": "Uncommon",
+            "Axi A10": "Uncommon",
+            "Meso T4": "Uncommon"
           }
         }
       }
@@ -7800,207 +7984,45 @@
         }
       }
     },
-    "Paris Prime": {
-      "IsVaulted": false,
+    "Kronen Prime": {
+      "IsVaulted": true,
       "Parts": {
-        "String": {
-          "DucatValue": 15,
+        "Handle": {
+          "DucatValue": 45,
           "Drops": {
-            "Neo A5": "Common",
-            "Neo N21": "Common",
-            "Neo M1": "Common",
-            "Lith H4": "Common",
-            "Meso S10": "Common",
-            "Meso A7": "Common",
-            "Neo V3": "Common",
-            "Neo Z6": "Common",
-            "Meso H6": "Common",
-            "Meso N12": "Common",
-            "Neo Z4": "Common",
-            "Meso E6": "Common",
-            "Neo N3": "Common",
-            "Neo B1": "Common",
-            "Neo N8": "Common",
-            "Axi S20": "Common",
-            "Axi N12": "Common",
-            "Meso M3": "Common",
-            "Lith S3": "Common",
-            "Meso Z6": "Common",
-            "Axi T6": "Common",
-            "Meso S2": "Common",
-            "Neo V13": "Common",
-            "Meso K2": "Common",
-            "Neo N4": "Common",
-            "Axi O2": "Common",
-            "Lith Q3": "Common",
-            "Axi S18": "Common",
-            "Lith H9": "Common",
-            "Neo D9": "Common",
-            "Meso N9": "Common",
-            "Neo P9": "Common",
-            "Neo V5": "Common",
-            "Meso B8": "Common",
-            "Lith S1": "Common",
-            "Meso M2": "Common",
-            "Neo A12": "Common",
-            "Lith H3": "Common",
-            "Lith K10": "Common"
-          }
-        },
-        "Lower Limb": {
-          "DucatValue": 15,
-          "Drops": {
-            "Lith T5": "Common",
-            "Meso O1": "Common",
-            "Axi D6": "Common",
-            "Lith V2": "Common",
-            "Lith Z3": "Common",
-            "Axi S12": "Common",
-            "Lith A13": "Common",
-            "Neo E4": "Common",
-            "Neo P1": "Common",
-            "Axi H7": "Common",
-            "Axi A18": "Common",
-            "Axi T8": "Common",
-            "Lith C4": "Common",
-            "Meso P9": "Common",
-            "Axi B4": "Common",
-            "Lith A11": "Common",
-            "Lith K7": "Common",
-            "Lith V3": "Common",
-            "Neo S2": "Common",
-            "Lith S17": "Common",
-            "Meso D2": "Common",
-            "Meso L5": "Common",
-            "Axi B5": "Common",
-            "Meso C9": "Common",
-            "Lith G14": "Common",
-            "Meso T3": "Common",
-            "Lith V1": "Common",
-            "Axi B3": "Common",
-            "Meso O2": "Common",
-            "Lith T4": "Common",
-            "Lith B2": "Common",
-            "Meso T2": "Common",
-            "Meso F1": "Common",
-            "Axi T3": "Common",
-            "Meso G8": "Common",
-            "Neo S17": "Common",
-            "Neo D3": "Common"
-          }
-        },
-        "Upper Limb": {
-          "DucatValue": 25,
-          "Drops": {
-            "Lith L5": "Common",
-            "Meso S1": "Uncommon",
-            "Axi S11": "Uncommon",
-            "Lith G3": "Common",
-            "Lith V2": "Uncommon",
-            "Lith V1": "Common",
-            "Lith N2": "Common",
-            "Meso B9": "Uncommon",
-            "Meso H2": "Uncommon",
-            "Meso B4": "Common",
-            "Lith N14": "Uncommon",
-            "Meso A11": "Common",
-            "Meso I1": "Common",
-            "Axi N3": "Common",
-            "Axi Y1": "Uncommon",
-            "Lith T12": "Common",
-            "Meso T1": "Uncommon",
-            "Lith F2": "Common",
-            "Axi D5": "Common",
-            "Neo S12": "Common",
-            "Neo S2": "Uncommon",
-            "Lith C9": "Common",
-            "Lith K3": "Common",
-            "Axi H4": "Common",
-            "Neo O3": "Common",
-            "Meso T5": "Common",
-            "Meso R1": "Common",
-            "Meso P10": "Uncommon",
-            "Meso D9": "Common",
-            "Neo C4": "Uncommon",
-            "Neo D5": "Common",
-            "Lith N19": "Common",
-            "Neo N19": "Uncommon",
-            "Meso L3": "Common",
-            "Neo C9": "Common",
-            "Neo N17": "Common",
-            "Neo P4": "Common",
-            "Neo P7": "Common",
-            "Axi H6": "Common",
-            "Lith C2": "Common",
-            "Meso V10": "Uncommon",
-            "Meso N4": "Common"
+            "Meso A1": "Uncommon",
+            "Axi G3": "Uncommon",
+            "Meso D3": "Uncommon",
+            "Meso B2": "Uncommon",
+            "Lith T6": "Uncommon",
+            "Axi L5": "Uncommon",
+            "Neo S11": "Uncommon",
+            "Neo B4": "Uncommon"
           }
         },
         "Blueprint": {
           "DucatValue": 15,
           "Drops": {
-            "Axi K9": "Common",
-            "Meso S1": "Common",
-            "Neo S19": "Common",
-            "Axi K7": "Common",
-            "Axi S17": "Common",
-            "Meso H5": "Common",
-            "Neo N15": "Common",
-            "Lith M4": "Common",
-            "Neo V12": "Common",
-            "Neo V11": "Common",
-            "Axi V4": "Common",
-            "Neo N22": "Common",
-            "Meso C11": "Common",
-            "Meso V2": "Common",
-            "Lith S4": "Common",
-            "Axi O1": "Common",
-            "Axi E2": "Common",
-            "Lith F1": "Common",
-            "Axi A14": "Common",
-            "Lith H1": "Common",
-            "Meso G5": "Common",
-            "Meso H1": "Common",
-            "Meso D6": "Common",
-            "Axi G1": "Common",
-            "Axi K3": "Common",
-            "Axi K4": "Common",
-            "Lith M3": "Common",
-            "Axi A19": "Common",
-            "Meso S11": "Common",
-            "Neo Z1": "Common",
-            "Meso E4": "Common",
-            "Neo G10": "Common",
-            "Axi L6": "Common",
-            "Neo C6": "Common"
+            "Neo Z4": "Common",
+            "Axi L3": "Common",
+            "Neo Z8": "Common",
+            "Axi H3": "Common",
+            "Meso N7": "Common",
+            "Neo L1": "Common",
+            "Neo A2": "Common",
+            "Neo C1": "Common"
           }
         },
-        "Grip": {
-          "DucatValue": 45,
+        "Blade": {
+          "DucatValue": 100,
           "Drops": {
-            "Neo R2": "Uncommon",
-            "Neo R3": "Uncommon",
-            "Axi G15": "Uncommon",
-            "Meso X1": "Uncommon",
-            "Lith S1": "Uncommon",
-            "Meso G6": "Uncommon",
-            "Lith A10": "Uncommon",
-            "Meso S15": "Uncommon",
-            "Neo G1": "Uncommon",
-            "Neo N23": "Uncommon",
-            "Meso S7": "Uncommon",
-            "Neo K4": "Uncommon",
-            "Meso B6": "Uncommon",
-            "Neo G4": "Uncommon",
-            "Lith S16": "Uncommon",
-            "Meso F5": "Uncommon",
-            "Lith K6": "Uncommon",
-            "Meso S2": "Uncommon",
-            "Meso V17": "Uncommon",
-            "Neo C3": "Uncommon",
-            "Lith S7": "Uncommon",
-            "Axi A10": "Uncommon",
-            "Meso T4": "Uncommon"
+            "Axi K2": "Rare",
+            "Axi K5": "Rare",
+            "Axi K3": "Rare",
+            "Neo K3": "Rare",
+            "Meso K2": "Rare",
+            "Lith K3": "Rare",
+            "Axi K4": "Rare"
           }
         }
       }
@@ -8045,70 +8067,51 @@
         }
       }
     },
-    "Cernos Prime": {
-      "IsVaulted": false,
+    "Corinth Prime": {
+      "IsVaulted": true,
       "Parts": {
-        "String": {
-          "DucatValue": 25,
-          "Drops": {
-            "Axi K2": "Uncommon",
-            "Axi A3": "Uncommon",
-            "Neo A1": "Uncommon",
-            "Meso O1": "Uncommon",
-            "Meso S6": "Uncommon",
-            "Meso N8": "Uncommon",
-            "Lith B3": "Uncommon",
-            "Axi V10": "Common"
-          }
-        },
-        "Lower Limb": {
+        "Stock": {
           "DucatValue": 100,
           "Drops": {
-            "Axi C2": "Rare",
-            "Meso C3": "Rare",
-            "Lith C5": "Rare",
-            "Lith C2": "Rare",
-            "Lith C7": "Rare",
-            "Axi C1": "Rare"
+            "Meso C6": "Rare",
+            "Axi C8": "Rare",
+            "Lith C9": "Rare",
+            "Lith C6": "Rare"
           }
         },
-        "Upper Limb": {
-          "DucatValue": 15,
+        "Barrel": {
+          "DucatValue": 100,
           "Drops": {
-            "Meso N11": "Common",
-            "Meso K1": "Common",
-            "Meso O2": "Common",
-            "Lith V3": "Common",
-            "Neo N6": "Common",
-            "Meso S7": "Common",
-            "Meso N8": "Common",
-            "Axi N4": "Common",
-            "Meso C2": "Common"
+            "Axi C6": "Rare",
+            "Axi C7": "Rare",
+            "Meso C10": "Rare",
+            "Meso C5": "Rare",
+            "Axi C5": "Rare"
           }
         },
         "Blueprint": {
-          "DucatValue": 45,
-          "Drops": {
-            "Lith Z1": "Uncommon",
-            "Lith A2": "Uncommon",
-            "Axi B1": "Uncommon",
-            "Neo V9": "Uncommon",
-            "Neo V7": "Uncommon",
-            "Axi V4": "Uncommon",
-            "Neo S13": "Uncommon"
-          }
-        },
-        "Grip": {
           "DucatValue": 15,
           "Drops": {
-            "Meso V5": "Common",
-            "Lith V6": "Common",
-            "Neo V4": "Common",
-            "Axi K3": "Common",
-            "Axi S8": "Common",
-            "Axi H3": "Common",
-            "Axi S5": "Common",
-            "Neo V6": "Common"
+            "Meso I1": "Common",
+            "Axi T4": "Common",
+            "Meso A6": "Common",
+            "Neo N18": "Common",
+            "Neo E2": "Common",
+            "Lith T5": "Common",
+            "Meso S10": "Common",
+            "Lith A4": "Common"
+          }
+        },
+        "Receiver": {
+          "DucatValue": 45,
+          "Drops": {
+            "Neo T5": "Uncommon",
+            "Lith G11": "Uncommon",
+            "Meso P4": "Uncommon",
+            "Axi T7": "Uncommon",
+            "Axi P4": "Uncommon",
+            "Lith D3": "Uncommon",
+            "Neo R4": "Uncommon"
           }
         }
       }
@@ -8226,45 +8229,6 @@
           "Drops": {
             "Requiem Eterna": "Common",
             "Requiem I": "Uncommon"
-          }
-        }
-      }
-    },
-    "Volnus Prime": {
-      "IsVaulted": true,
-      "Parts": {
-        "Handle": {
-          "DucatValue": 100,
-          "Drops": {
-            "Meso V7": "Rare",
-            "Neo V10": "Rare",
-            "Axi V11": "Rare"
-          }
-        },
-        "Blueprint": {
-          "DucatValue": 15,
-          "Drops": {
-            "Lith S11": "Common",
-            "Lith H7": "Common",
-            "Lith H6": "Common",
-            "Neo D5": "Common",
-            "Meso Z4": "Common",
-            "Axi A14": "Common",
-            "Lith G5": "Common",
-            "Neo P5": "Common"
-          }
-        },
-        "Head": {
-          "DucatValue": 45,
-          "Drops": {
-            "Meso B5": "Uncommon",
-            "Lith P6": "Uncommon",
-            "Axi B5": "Uncommon",
-            "Axi K9": "Uncommon",
-            "Axi I1": "Uncommon",
-            "Axi C8": "Uncommon",
-            "Axi C7": "Uncommon",
-            "Lith Z3": "Uncommon"
           }
         }
       }
@@ -8421,6 +8385,57 @@
         }
       }
     },
+    "Hydroid Prime": {
+      "IsVaulted": true,
+      "Parts": {
+        "Chassis Blueprint": {
+          "DucatValue": 15,
+          "Drops": {
+            "Axi C4": "Common",
+            "Meso H1": "Common",
+            "Lith R1": "Common",
+            "Axi C3": "Common",
+            "Neo S8": "Common",
+            "Neo B4": "Common",
+            "Neo S11": "Common",
+            "Axi N14": "Common",
+            "Neo N8": "Common"
+          }
+        },
+        "Systems Blueprint": {
+          "DucatValue": 100,
+          "Drops": {
+            "Neo H2": "Rare",
+            "Axi H3": "Rare",
+            "Neo H5": "Rare",
+            "Axi H4": "Rare",
+            "Neo H3": "Rare",
+            "Neo H1": "Rare"
+          }
+        },
+        "Blueprint": {
+          "DucatValue": 45,
+          "Drops": {
+            "Meso B2": "Uncommon",
+            "Axi K5": "Uncommon",
+            "Meso E8": "Uncommon",
+            "Meso N5": "Uncommon",
+            "Meso Z2": "Uncommon",
+            "Neo A6": "Uncommon"
+          }
+        },
+        "Neuroptics Blueprint": {
+          "DucatValue": 45,
+          "Drops": {
+            "Neo N25": "Uncommon",
+            "Axi A3": "Uncommon",
+            "Axi N4": "Uncommon",
+            "Axi M3": "Uncommon",
+            "Neo G1": "Uncommon"
+          }
+        }
+      }
+    },
     "Atlas Prime": {
       "IsVaulted": true,
       "Parts": {
@@ -8472,53 +8487,43 @@
         }
       }
     },
-    "Hydroid Prime": {
+    "Epitaph Prime": {
       "IsVaulted": true,
       "Parts": {
-        "Chassis Blueprint": {
-          "DucatValue": 15,
+        "Barrel": {
+          "DucatValue": 45,
           "Drops": {
-            "Axi C4": "Common",
-            "Meso H1": "Common",
-            "Lith R1": "Common",
-            "Axi C3": "Common",
-            "Neo S8": "Common",
-            "Neo B4": "Common",
-            "Neo S11": "Common",
-            "Axi N14": "Common",
-            "Neo N8": "Common"
+            "Neo P9": "Uncommon",
+            "Axi P8": "Uncommon",
+            "Lith Q2": "Uncommon",
+            "Lith W4": "Uncommon",
+            "Lith S20": "Uncommon",
+            "Neo V11": "Uncommon",
+            "Axi Y2": "Uncommon"
+          }
+        },
+        "Receiver": {
+          "DucatValue": 100,
+          "Drops": {
+            "Lith E2": "Rare",
+            "Meso E8": "Rare",
+            "Meso E6": "Rare",
+            "Meso E7": "Rare",
+            "Neo E4": "Rare"
           }
         },
         "Blueprint": {
-          "DucatValue": 45,
+          "DucatValue": 15,
           "Drops": {
-            "Neo A6": "Uncommon",
-            "Lith S20": "Uncommon",
-            "Axi K5": "Uncommon",
-            "Meso N5": "Uncommon",
-            "Meso Z2": "Uncommon",
-            "Meso B2": "Uncommon"
-          }
-        },
-        "Systems Blueprint": {
-          "DucatValue": 100,
-          "Drops": {
-            "Neo H2": "Rare",
-            "Axi H3": "Rare",
-            "Neo H5": "Rare",
-            "Axi H4": "Rare",
-            "Neo H3": "Rare",
-            "Neo H1": "Rare"
-          }
-        },
-        "Neuroptics Blueprint": {
-          "DucatValue": 45,
-          "Drops": {
-            "Axi A3": "Uncommon",
-            "Meso E8": "Uncommon",
-            "Axi N4": "Uncommon",
-            "Axi M3": "Uncommon",
-            "Neo G1": "Uncommon"
+            "Axi Y3": "Common",
+            "Lith D7": "Common",
+            "Axi F3": "Common",
+            "Axi O6": "Common",
+            "Meso K7": "Common",
+            "Axi C11": "Common",
+            "Neo H5": "Common",
+            "Axi A19": "Common",
+            "Axi C10": "Common"
           }
         }
       }
@@ -9834,28 +9839,28 @@
       "Name": "Neo H5",
       "Drops": [
         {
+          "Part": "Receiver",
+          "Item": "Burston Prime",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "Blueprint",
+          "Item": "Epitaph Prime",
+          "Rarity": "Common"
+        },
+        {
           "Part": "Blueprint",
           "Item": "Forma",
           "Rarity": "Common"
         },
         {
-          "Part": "Stock",
-          "Item": "Burston Prime",
-          "Rarity": "Common"
-        },
-        {
-          "Part": "Handle",
-          "Item": "Nami Skyla Prime",
-          "Rarity": "Common"
-        },
-        {
-          "Part": "Systems",
-          "Item": "Nautilus Prime",
+          "Part": "String",
+          "Item": "Ballistica Prime",
           "Rarity": "Uncommon"
         },
         {
-          "Part": "Chassis Blueprint",
-          "Item": "Sevagoth Prime",
+          "Part": "Upper Limb",
+          "Item": "Ballistica Prime",
           "Rarity": "Uncommon"
         },
         {
@@ -10063,28 +10068,28 @@
       "Name": "Axi B10",
       "Drops": [
         {
+          "Part": "Stock",
+          "Item": "Burston Prime",
+          "Rarity": "Common"
+        },
+        {
           "Part": "Blueprint",
           "Item": "Forma",
           "Rarity": "Common"
         },
         {
-          "Part": "Blueprint",
+          "Part": "Carapace",
           "Item": "Nautilus Prime",
           "Rarity": "Common"
         },
         {
-          "Part": "Blueprint",
+          "Part": "Barrel",
           "Item": "Burston Prime",
-          "Rarity": "Common"
-        },
-        {
-          "Part": "Systems Blueprint",
-          "Item": "Sevagoth Prime",
           "Rarity": "Uncommon"
         },
         {
-          "Part": "Barrel",
-          "Item": "Epitaph Prime",
+          "Part": "Handle",
+          "Item": "Nami Skyla Prime",
           "Rarity": "Uncommon"
         },
         {
@@ -11217,23 +11222,23 @@
           "Rarity": "Common"
         },
         {
+          "Part": "Blueprint",
+          "Item": "Nami Skyla Prime",
+          "Rarity": "Common"
+        },
+        {
           "Part": "Neuroptics Blueprint",
           "Item": "Sevagoth Prime",
           "Rarity": "Common"
         },
         {
-          "Part": "Receiver",
-          "Item": "Bronco Prime",
-          "Rarity": "Common"
-        },
-        {
-          "Part": "Neuroptics Blueprint",
+          "Part": "Blueprint",
           "Item": "Hydroid Prime",
           "Rarity": "Uncommon"
         },
         {
-          "Part": "Lower Limb",
-          "Item": "Ballistica Prime",
+          "Part": "Systems",
+          "Item": "Nautilus Prime",
           "Rarity": "Uncommon"
         },
         {
@@ -13424,17 +13429,17 @@
       "Drops": [
         {
           "Part": "Blueprint",
+          "Item": "Bronco Prime",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "Blueprint",
           "Item": "Forma",
           "Rarity": "Common"
         },
         {
           "Part": "Chassis Blueprint",
           "Item": "Hydroid Prime",
-          "Rarity": "Common"
-        },
-        {
-          "Part": "Blueprint",
-          "Item": "Bronco Prime",
           "Rarity": "Common"
         },
         {
@@ -16709,31 +16714,31 @@
       "Drops": [
         {
           "Part": "Blueprint",
+          "Item": "Burston Prime",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "Blueprint",
           "Item": "Forma",
           "Rarity": "Common"
         },
         {
-          "Part": "Blueprint",
-          "Item": "Epitaph Prime",
+          "Part": "Systems Blueprint",
+          "Item": "Sevagoth Prime",
           "Rarity": "Common"
         },
         {
-          "Part": "String",
+          "Part": "Receiver",
           "Item": "Ballistica Prime",
-          "Rarity": "Common"
+          "Rarity": "Uncommon"
         },
         {
-          "Part": "Barrel",
-          "Item": "Burston Prime",
+          "Part": "Neuroptics Blueprint",
+          "Item": "Hydroid Prime",
           "Rarity": "Uncommon"
         },
         {
           "Part": "Blueprint",
-          "Item": "Nami Skyla Prime",
-          "Rarity": "Uncommon"
-        },
-        {
-          "Part": "Cerebrum",
           "Item": "Nautilus Prime",
           "Rarity": "Rare"
         }
@@ -36304,32 +36309,32 @@
       "Name": "Lith S20",
       "Drops": [
         {
-          "Part": "Blueprint",
-          "Item": "Forma",
-          "Rarity": "Common"
-        },
-        {
-          "Part": "Receiver",
+          "Part": "Lower Limb",
           "Item": "Ballistica Prime",
           "Rarity": "Common"
         },
         {
           "Part": "Receiver",
-          "Item": "Burston Prime",
+          "Item": "Bronco Prime",
+          "Rarity": "Common"
+        },
+        {
+          "Part": "Blueprint",
+          "Item": "Forma",
           "Rarity": "Common"
         },
         {
           "Part": "Barrel",
-          "Item": "Bronco Prime",
+          "Item": "Epitaph Prime",
           "Rarity": "Uncommon"
         },
         {
           "Part": "Blueprint",
-          "Item": "Hydroid Prime",
+          "Item": "Sevagoth Prime",
           "Rarity": "Uncommon"
         },
         {
-          "Part": "Blueprint",
+          "Part": "Chassis",
           "Item": "Sevagoth Prime",
           "Rarity": "Rare"
         }

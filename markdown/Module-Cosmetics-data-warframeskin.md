@@ -1,7 +1,7 @@
 ---
 title: "Module:Cosmetics/data/warframeskin"
 wiki_url: "https://wiki.warframe.com/w/Module/Cosmetics/data/warframeskin"
-wiki_timestamp: "2026-11-13T21:47:56Z"
+wiki_timestamp: "2026-11-27T14:11:35Z"
 ---
 
 *Documentation for this module may be created at [Module:Cosmetics/data/warframeskin/doc](/w/Module:Cosmetics/data/warframeskin/doc?action=edit&redlink=1 "Module:Cosmetics/data/warframeskin/doc (page does not exist)")*
@@ -3597,6 +3597,16 @@ return {
 		InternalName = "/Lotus/Upgrades/Skins/Odalisk/ProteaDeluxeSkin",
 		Link = "Protea Caladrius Skin",
 		Name = "Protea Caladrius Skin",
+		Type = "Skin"
+	},
+	["Protea Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal skin for the Protea Warframe.",
+		ExcludeFromCodex = true,
+		Image = "ProteaImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Odalisk/ProteaImmortalSkin",
+		Link = "Protea Immortal Skin",
+		Name = "Protea Immortal Skin",
 		Type = "Skin"
 	},
 	["Protea Kollapsar Skin"] = {

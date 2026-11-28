@@ -369,9 +369,6 @@ return {
 				"Arca Titron Raya Skin",
 			},
 		},
-		Variants = {
-		
-		},
 		Type = "Weapon",
 	},
 	Arcata = {
@@ -3488,7 +3485,6 @@ return {
 				"Dreg Red",
 				"Embolist Blue",
 				"Executioner Grey (Kavat)",
-				"Executioner Grey (Kavat)",
 				"Farbreeze Green",
 				"Flesh Brown",
 				"Gallium Ash",
@@ -3496,7 +3492,6 @@ return {
 				"Harkonar Orange",
 				"Hexis Black",
 				"Horizon Pink",
-				"Hyacinth Blue (Kavat)",
 				"Hyacinth Blue (Kavat)",
 				"Ignis Red",
 				"Loka Brown",
@@ -3517,7 +3512,6 @@ return {
 				"Origin Black",
 				"Paskan Crimson",
 				"Prime Gold",
-				"Regor Green (Kavat)",
 				"Regor Green (Kavat)",
 				"Root Black",
 				"Rose Red",
@@ -3830,7 +3824,6 @@ return {
 			},
 			Skin = {
 				"Helminth Charger Metus Skin",
-				"Reshantur Cult Spear Skin",
 			},
 		},
 		Type = "Beast",
@@ -5520,6 +5513,7 @@ return {
 			Helmet = {
 				"Protea Caladrius Helmet",
 				"Protea Helmet",
+				"Protea Immortal Helmet",
 				"Protea Kollapsar Helmet",
 				"Protea Mavv Helmet",
 				"Protea Prime Chronorum Helmet",
@@ -5530,6 +5524,7 @@ return {
 			},
 			Skin = {
 				"Protea Caladrius Skin",
+				"Protea Immortal Skin",
 				"Protea Kollapsar Skin",
 				"Protea Prime Skin",
 				"Protea Skin",
@@ -7619,9 +7614,6 @@ return {
 			Skin = {
 				"Xoris Elixis Skin",
 			},
-		},
-		Variants = {
-			
 		},
 		Type = "Weapon",
 	},

@@ -4,7 +4,7 @@
     "license": "CC BY-NC-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
     "converter_repo": "https://github.com/420gaming420/wf-wiki-module-scripts",
-    "converted_at": "2026-11-24T12:10:33.216Z"
+    "converted_at": "2026-11-28T09:57:39.950Z"
   },
   "_comments": "\t\t\t\t--\"Sirocco Amp Skin\",\n\t\t\t\t--\"Tempera Amp Skin\",\n\t\t\t\t--\"Vacis Amp Skin\",",
   "Heavy Scythe": {
@@ -2171,6 +2171,7 @@
       "Helmet": [
         "Protea Caladrius Helmet",
         "Protea Helmet",
+        "Protea Immortal Helmet",
         "Protea Kollapsar Helmet",
         "Protea Mavv Helmet",
         "Protea Prime Chronorum Helmet",
@@ -2181,6 +2182,7 @@
       ],
       "Skin": [
         "Protea Caladrius Skin",
+        "Protea Immortal Skin",
         "Protea Kollapsar Skin",
         "Protea Prime Skin",
         "Protea Skin",
@@ -2270,13 +2272,12 @@
     }
   },
   "Arca Titron": {
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Arca Titron Raya Skin"
       ]
-    },
-    "Variants": {},
-    "Type": "Weapon"
+    }
   },
   "Merulina": {
     "Equipments": {
@@ -2982,13 +2983,12 @@
     "Type": "Warframe"
   },
   "Xoris": {
+    "Type": "Weapon",
     "Equipments": {
       "Skin": [
         "Xoris Elixis Skin"
       ]
-    },
-    "Variants": {},
-    "Type": "Weapon"
+    }
   },
   "Wyrm": {
     "Equipments": {
@@ -5705,8 +5705,7 @@
         "Underbrush Kubrow Pattern"
       ],
       "Skin": [
-        "Helminth Charger Metus Skin",
-        "Reshantur Cult Spear Skin"
+        "Helminth Charger Metus Skin"
       ],
       "Armor": [
         "Amphatz Kubrow Armor",
@@ -6205,7 +6204,6 @@
         "Dreg Red",
         "Embolist Blue",
         "Executioner Grey (Kavat)",
-        "Executioner Grey (Kavat)",
         "Farbreeze Green",
         "Flesh Brown",
         "Gallium Ash",
@@ -6213,7 +6211,6 @@
         "Harkonar Orange",
         "Hexis Black",
         "Horizon Pink",
-        "Hyacinth Blue (Kavat)",
         "Hyacinth Blue (Kavat)",
         "Ignis Red",
         "Loka Brown",
@@ -6234,7 +6231,6 @@
         "Origin Black",
         "Paskan Crimson",
         "Prime Gold",
-        "Regor Green (Kavat)",
         "Regor Green (Kavat)",
         "Root Black",
         "Rose Red",

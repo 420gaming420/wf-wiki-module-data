@@ -3591,6 +3591,16 @@ return {
 		Name = "Protea Caladrius Skin",
 		Type = "Skin"
 	},
+	["Protea Immortal Skin"] = {
+		CodexSecret = false,
+		Description = "The Immortal skin for the Protea Warframe.",
+		ExcludeFromCodex = true,
+		Image = "ProteaImmortalSkin.png",
+		InternalName = "/Lotus/Upgrades/Skins/Odalisk/ProteaImmortalSkin",
+		Link = "Protea Immortal Skin",
+		Name = "Protea Immortal Skin",
+		Type = "Skin"
+	},
 	["Protea Kollapsar Skin"] = {
 		CodexSecret = false,
 		Description = "A unique skin for the Protea Warframe, designed by led2012.",

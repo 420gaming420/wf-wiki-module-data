@@ -1,12 +1,12 @@
 {
   "page": "Module:Cosmetics/data/warframehelmet",
-  "wiki_timestamp": "2026-11-13T20:17:02Z",
-  "extracted_at": "2026-11-14T08:45:11.159548+00:00",
+  "wiki_timestamp": "2026-11-27T14:13:25Z",
+  "extracted_at": "2026-11-28T09:57:17.820386+00:00",
   "lua_files": [
     "Module-Cosmetics-data-warframehelmet_0.lua"
   ],
   "lua_block_count": 1,
-  "file_size": 258061,
+  "file_size": 258462,
   "comment_count": 0,
   "status": "success"
 }

@@ -1,7 +1,7 @@
 ---
 title: "Module:Weapons/ppdata/doc"
 wiki_url: "https://wiki.warframe.com/w/Module/Weapons/ppdata/doc"
-wiki_timestamp: "2026-06-21T02:43:27Z"
+wiki_timestamp: "2026-11-28T02:42:12Z"
 ---
 
 Preprocessed version of [Module:Weapons/data](/w/Module:Weapons/data "Module:Weapons/data") in the form of a [lookup table](https://en.wikipedia.org/wiki/Lookup_table "wikipedia:Lookup table"). Contains top three values of a particular stat (e.g. crit chance) per weapon class (e.g. Arch-guns) and the weapons that have those values as well as the stat values that are boundaries for the following percentiles:
@@ -22,7 +22,7 @@ To update the database seeder script, go to [Module:Weapons/preprocess](/w/Modul
 
 See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME Wiki:Stat Comparison") for the design document on this topic.
 
-:   *Last updated: Sun, 21 Jun 2026 02:43:27 +0000 (UTC) by [User:Cephalon Scientia](/w/User:Cephalon_Scientia "User:Cephalon Scientia") ([change log](https://wiki.warframe.com/w/Module:Weapons/ppdata/doc?diff=0))*
+:   *Last updated: Sat, 28 Nov 2026 02:42:10 +0000 (UTC) by [User:Cephalon Scientia](/w/User:Cephalon_Scientia "User:Cephalon Scientia") ([change log](https://wiki.warframe.com/w/Module:Weapons/ppdata/doc?diff=0))*
 
 ## Contents
 
@@ -324,15 +324,18 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Computed Values In Human-Readable Format
 
-[[edit source](/w/Module:Weapons/ppdata/doc?action=edit&section=1 "Edit section's source code: Computed Values In Human-Readable Format")]
+[[edit](/w/Module:Weapons/ppdata/doc?action=edit&section=1 "Edit Section using Source Editor:
+Computed Values In Human-Readable Format")]
 
 # Archmelee
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-1 "Edit section's source code: Archmelee")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-1 "Edit Section using Source Editor:
+Archmelee")]
 
 ## Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-2 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-2 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -409,27 +412,29 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 # Melee
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-3 "Edit section's source code: Melee")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-3 "Edit Section using Source Editor:
+Melee")]
 
 ## Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-4 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-4 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `AvgCritCount` | 0.32 | 0.26 | 0.238 | 0.2 | 0.2 | 0.15 | 0.1 |
-| `AvgDmgWithAnimSpeedMulti` | 375 | 327.2112 | 279.880704 | 255.66368 | 239.4875 | 206.695962 | 169.7982 |
-| `AvgProcCount` | 0.36 | 0.3 | 0.28 | 0.25 | 0.236 | 0.2 | 0.15 |
+| `AvgCritCount` | 0.32 | 0.26 | 0.24 | 0.2 | 0.2 | 0.15 | 0.1 |
+| `AvgDmgWithAnimSpeedMulti` | 375 | 328.0073625 | 280.2816 | 255.67439 | 239.64045 | 207.335781 | 170.31885 |
+| `AvgProcCount` | 0.36 | 0.3 | 0.28 | 0.25 | 0.2305 | 0.2 | 0.15 |
 | `BlockAngle` | 65 | 60 | 55 | 55 | 55 | 55 | 50 |
-| `CritChance` | 0.32 | 0.26 | 0.238 | 0.2 | 0.2 | 0.15 | 0.1 |
+| `CritChance` | 0.32 | 0.26 | 0.24 | 0.2 | 0.2 | 0.15 | 0.1 |
 | `CritMultiplier` | 2.6 | 2.3 | 2 | 2 | 2 | 2 | 1.8 |
-| `Disposition` | 1.432 | 1.35 | 1.25 | 1.2 | 1.1 | 0.95 | 0.66 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.17 | 1.08 | 1 | 1 | 1 | 0.917 | 0.833 |
 | `FollowThrough` | 0.9 | 0.7 | 0.6 | 0.6 | 0.6 | 0.5 | 0.5 |
-| `MeleeRange` | 3 | 2.8 | 2.5 | 2.5 | 2.5 | 2.346 | 1.7 |
+| `MeleeRange` | 3 | 2.8 | 2.5 | 2.5 | 2.5 | 2.373 | 1.7 |
 | `Multishot` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| `StatusChance` | 0.352 | 0.3 | 0.278 | 0.25 | 0.236 | 0.2 | 0.15 |
-| `TotalDamage` | 284.2 | 250 | 220 | 210 | 198 | 174.4 | 140 |
+| `StatusChance` | 0.351 | 0.3 | 0.274 | 0.25 | 0.2305 | 0.2 | 0.15 |
+| `TotalDamage` | 284.1 | 250 | 220 | 210 | 198 | 174.7 | 140 |
 
 **Top 3**
 
@@ -437,7 +442,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Valkyr Talons, Valkyr Prime Talons (0.5)
 * Second place is Vinquibus (Melee), Fragor Prime (0.4)
-* Third place is Tenet Exec, Shadow Claws, Shadow Claws Prime, Heliocor (0.38)
+* Third place is Shadow Claws Prime, Tenet Exec, Shadow Claws, Heliocor (0.38)
 
 `AvgDmgWithAnimSpeedMulti`:
 
@@ -453,15 +458,15 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Shattered Lash Prime, Ghoulsaw, Diwata, Venato, Tenet Grigori, Tenet Agendus, Shattered Lash, Landslide Fists, Shadow Clones, Shadow Clones Prime, Whipclaw Prime, Diwata Prime, Landslide Fists Prime, Kuva Ghoulsaw, Whipclaw (90)
+* First place is Shattered Lash, Ghoulsaw, Diwata, Venato, Tenet Grigori, Tenet Agendus, Shattered Lash Prime, Landslide Fists, Shadow Clones, Shadow Clones Prime, Whipclaw Prime, Diwata Prime, Landslide Fists Prime, Kuva Ghoulsaw, Whipclaw (90)
 * Second place is Sigma & Octantis, Ack & Brunt, Cobra & Crane Prime, Silva & Aegis Prime, Tak & Lug, Silva & Aegis, Cobra & Crane, Argo & Vel (70)
-* Third place is Wrath, Thalys, Corufell, Pride, Iron Staff Prime, Iron Staff, Hespar (65)
+* Third place is Wrath, Pride, Thalys, Corufell, Corufell Prime, Iron Staff Prime, Iron Staff, Hespar (65)
 
 `CritChance`:
 
 * First place is Valkyr Talons, Valkyr Prime Talons (0.5)
 * Second place is Vinquibus (Melee), Fragor Prime (0.4)
-* Third place is Tenet Exec, Shadow Claws, Shadow Claws Prime, Heliocor (0.38)
+* Third place is Shadow Claws Prime, Tenet Exec, Shadow Claws, Heliocor (0.38)
 
 `CritMultiplier`:
 
@@ -471,9 +476,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Amphis, Ankyros (1.5)
-* Second place is Ether Daggers (1.49)
-* Third place is Dual Skana, Dark Sword, Plasma Sword, Heat Sword, Cronus (1.48)
+* First place is Dakra Prime, Gunsen, Endura, Karyst, Dorrclave, Mios, Destreza Prime, Mk1-Bo, Zenistar, Redeemer, Garuda Prime Talons, Reaper Prime, Wrath, Wolf Sledge, Sigma & Octantis, Scindo, Pride, Vericres, War Prime, War, Volnus Prime, Volnus, Prova Vandal, Tekko Prime, Kogake Prime, Vinquibus (Melee), Nikana, Dragon Nikana, Sarofang, Sheev, Coda Hirudo, Atterax, Pangolin Sword, Prisma Skana, Venka, Dual Ichor, Quassus, Korrudo, Dual Keres, Sun & Moon, Tenet Livia, Ghoulsaw, Tonbo, Vaykor Sydon, Nepheri, Kronen Prime, Vastilok, Ack & Brunt, Amphis, Dual Skana, Nami Solo, Dex Nikana, Stropha, Tonkkatt, Twin Krohkur, Prisma Obex, Skana Prime, Venato, Kestrel Prime, Coda Caustacyst, Pupacyst, Secura Lecta, Ankyros, Azothane, Guandao Prime, Tenet Grigori, Lacera, Cobra & Crane Prime, Furax, Skana, Ankyros Prime, Tenet Exec, Silva & Aegis Prime, Tenet Agendus, Telos Boltace, Dual Zoren Prime, Sarofang Prime, Dual Kamas Prime, Keratinos, Tatsu Prime, Ceramic Dagger, Cadus, Tatsu, Harmony, Coda Mire, Ruvox, Heat Dagger, Gazal Machete, Galatine Prime, Ether Daggers, Dex Dakra, Dark Sword, Tak & Lug, Synoid Heliocor, Sydon, Syam, Ripkas, Spinnerex, Slaytra, Broken Scepter, Orthos Prime, Skiajati, Prisma Dual Cleavers, Kreska, Jat Kittag, Twin Basolk, Silva & Aegis, Sibear, Coda Motovore, Cobra & Crane, Verdilac, Vitrica, Shaku, Prisma Ohma, Pulmonars, Fang Prime, Thalys, Krohkur, Serro, Tipedo, Argo & Vel, Scoliac, Arum Spinosa, Scindo Prime, Masseter Prime, Sancti Magistar, Gram, Sampotes, Orthos, Rumblejack, Innodem, Kestrel, Bo Prime, Heliocor, Dark Split-Sword (Heavy Blade), Masseter, Fragor Prime, Karyst Prime, Ekhein, Redeemer Prime, Xoris, Ohma, Quassus Prime, Glaive Prime, Bo, Corufell, Ninkondi Prime, Furax Wraith, Anku, Tipedo Prime, Ceti Lacera, Dual Viciss, Dark Split-Sword (Dual Swords), Prova, Pangolin Prime, Prisma Machete, Dual Keres Prime, Praedos, Caustacyst, Glaive, Plasma Sword, Fang, Pennant, Pathocyst, Nikana Prime, Dual Kamas, Corufell Prime, Paracesis, Ether Reaper, Venka Prime, Kesheg, Orvius, Amanata, Edun, Okina, Rakta Dark Dagger, Obex, Kogake, Dual Cleavers, Ninkondi, Heat Sword, Halikar Wraith, Nami Skyla Prime, Fragor, Nami Skyla, Mk1-Furax, Mire, Sarpa, Lecta, Magistar, Lesion, Machete, Machete Wraith, Boltace, Hirudo, Gram Prime, Kronen, Dual Zoren, Korumm, Tekko, Kama, Destreza, Jaw Sword, Galvacord, Kuva Shildeg, Hespar, Okina Prime, Halikar, Garuda Talons, Guandao, Kuva Ghoulsaw, Arca Titron, Venato Prime, Gunsen Prime, Jat Kusar, Galatine, Dark Dagger, Cassowar, Falcor, Galariak Prime, Ether Sword, Hate, Cerata, Dual Heat Swords, Dual Ether, Cronus, Coda Pathocyst, Dual Raza, Broken War (1.2)
 
 `FireRate`:
 
@@ -483,19 +486,19 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Exalted Umbra Blade, Desert Wind Prime, Ghoulsaw, Valkyr Talons, Valkyr Prime Talons, Diwata, Shadow Claws, Shadow Claws Prime, Diwata Prime, Desert Wind, Iron Staff Prime, Exalted Blade, Iron Staff, Kuva Ghoulsaw, Exalted Prime Blade (1)
-* Second place is Karyst, Tekko Prime, Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Ankyros, Furax, Ankyros Prime, Ceramic Dagger, Ruvox, Heat Dagger, Sheev, Innodem, Karyst Prime, Rumblejack, Furax Wraith, Rakta Dark Dagger, Kogake, Obex, Mk1-Furax, Hirudo, Tekko, Dark Dagger (0.9)
-* Third place is Garuda Prime Talons, Venka, Nepheri, Ether Daggers, Ripkas, Fang Prime, Okina, Fang, Venka Prime, Keratinos, Okina Prime, Garuda Talons (0.8)
+* First place is Exalted Umbra Blade, Desert Wind Prime, Ghoulsaw, Valkyr Talons, Valkyr Prime Talons, Diwata, Shadow Claws Prime, Shadow Claws, Diwata Prime, Desert Wind, Iron Staff Prime, Exalted Blade, Iron Staff, Kuva Ghoulsaw, Exalted Prime Blade (1)
+* Second place is Karyst, Tekko Prime, Kogake Prime, Sheev, Coda Hirudo, Korrudo, Prisma Obex, Ankyros, Furax, Ankyros Prime, Ceramic Dagger, Ruvox, Heat Dagger, Rumblejack, Innodem, Karyst Prime, Furax Wraith, Rakta Dark Dagger, Obex, Kogake, Mk1-Furax, Hirudo, Tekko, Dark Dagger (0.9)
+* Third place is Garuda Prime Talons, Venka, Nepheri, Keratinos, Ether Daggers, Ripkas, Fang Prime, Fang, Venka Prime, Okina, Okina Prime, Garuda Talons (0.8)
 
 `MeleeRange`:
 
 * First place is Shadow Clones, Shadow Clones Prime (50)
-* Second place is Shattered Lash Prime, Shattered Lash (12)
+* Second place is Shattered Lash, Shattered Lash Prime (12)
 * Third place is Whipclaw Prime, Whipclaw (10)
 
 `Multishot`:
 
-* First place is Dakra Prime, Gunsen, Endura, Karyst, Dorrclave, Mios, Destreza Prime, Mk1-Bo, Redeemer, Garuda Prime Talons, Zenistar, Redeemer Prime, Wrath, Sigma & Octantis, Scindo, Wolf Sledge, Prisma Machete, Vericres, Exalted Umbra Blade, War Prime, War, Volnus Prime, Prova Vandal, Volnus, Tekko Prime, Kogake Prime, Shattered Lash Prime, Nikana, Dragon Nikana, Sarofang, Vinquibus (Melee), Desert Wind Prime, Coda Hirudo, Atterax, Sibear, Prisma Skana, Paracesis, Dual Ichor, Quassus, Korrudo, Dual Keres, Sun & Moon, Tenet Livia, Venka, Ghoulsaw, Skiajati, Nepheri, Kronen Prime, Vaykor Sydon, Ack & Brunt, Amphis, Vastilok, Valkyr Talons, Dual Skana, Nami Solo, Dex Nikana, Stropha, Tonkkatt, Valkyr Prime Talons, Prisma Obex, Diwata, Twin Krohkur, Venato, Kestrel Prime, Coda Caustacyst, Tonbo, Quassus Prime, Ankyros, Azothane, Serro, Guandao Prime, Pupacyst, Lacera, Cobra & Crane Prime, Furax, Skana, Ankyros Prime, Tenet Grigori, Silva & Aegis Prime, Tenet Exec, Tenet Agendus, Dual Zoren Prime, Sarofang Prime, Dual Kamas Prime, Telos Boltace, Korumm, Ceramic Dagger, Cadus, Tatsu Prime, Harmony, Coda Mire, Ruvox, Heat Dagger, Gazal Machete, Galatine Prime, Ether Daggers, Dex Dakra, Dark Sword, Tatsu, Tak & Lug, Synoid Heliocor, Sydon, Ripkas, Syam, Spinnerex, Broken Scepter, Orthos Prime, Slaytra, Prisma Dual Cleavers, Kreska, Jat Kittag, Twin Basolk, Skana Prime, Shadow Claws, Silva & Aegis, Coda Motovore, Cobra & Crane, Verdilac, Sheev, Vitrica, Shattered Lash, Shaku, Prova, Fang Prime, Thalys, Krohkur, Shadow Claws Prime, Tipedo, Argo & Vel, Secura Lecta, Arum Spinosa, Scoliac, Scindo Prime, Mire, Gram, Sancti Magistar, Orthos, Sampotes, Innodem, Kestrel, Bo Prime, Heliocor, Dark Split-Sword (Heavy Blade), Masseter, Fragor Prime, Karyst Prime, Ekhein, Rumblejack, Xoris, Reaper Prime, Okina, Landslide Fists, Glaive Prime, Bo, Corufell, Ninkondi Prime, Furax Wraith, Anku, Tipedo Prime, Ceti Lacera, Shadow Clones, Dual Viciss, Dark Split-Sword (Dual Swords), Pulmonars, Shadow Clones Prime, Pangolin Prime, Prisma Ohma, Dual Keres Prime, Whipclaw Prime, Pride, Caustacyst, Glaive, Praedos, Fang, Plasma Sword, Pennant, Diwata Prime, Nikana Prime, Dual Kamas, Kama, Pathocyst, Ether Reaper, Venka Prime, Kesheg, Pangolin Sword, Amanata, Orvius, Edun, Rakta Dark Dagger, Ohma, Kogake, Dual Cleavers, Obex, Heat Sword, Halikar Wraith, Ninkondi, Fragor, Nami Skyla Prime, Nami Skyla, Mk1-Furax, Sarpa, Lecta, Masseter Prime, Desert Wind, Magistar, Machete, Machete Wraith, Lesion, Landslide Fists Prime, Boltace, Hirudo, Iron Staff Prime, Gram Prime, Dual Zoren, Kronen, Tekko, Exalted Blade, Keratinos, Destreza, Jaw Sword, Galvacord, Kuva Shildeg, Iron Staff, Hespar, Okina Prime, Halikar, Garuda Talons, Guandao, Kuva Ghoulsaw, Arca Titron, Venato Prime, Gunsen Prime, Jat Kusar, Galatine, Dark Dagger, Cassowar, Falcor, Galariak Prime, Whipclaw, Exalted Prime Blade, Ether Sword, Hate, Cerata, Dual Heat Swords, Dual Ether, Cronus, Coda Pathocyst, Dual Raza, Broken War (1)
+* First place is Dakra Prime, Gunsen, Endura, Karyst, Dorrclave, Mios, Destreza Prime, Mk1-Bo, Zenistar, Redeemer, Garuda Prime Talons, Reaper Prime, Wrath, Wolf Sledge, Sigma & Octantis, Scindo, Pride, Exalted Umbra Blade, Vericres, War Prime, War, Volnus Prime, Volnus, Prova Vandal, Shattered Lash, Tekko Prime, Kogake Prime, Vinquibus (Melee), Nikana, Dragon Nikana, Sarofang, Sheev, Desert Wind Prime, Coda Hirudo, Atterax, Pangolin Sword, Prisma Skana, Venka, Dual Ichor, Quassus, Korrudo, Dual Keres, Sun & Moon, Tenet Livia, Ghoulsaw, Tonbo, Vaykor Sydon, Nepheri, Kronen Prime, Vastilok, Ack & Brunt, Amphis, Valkyr Talons, Valkyr Prime Talons, Dual Skana, Nami Solo, Dex Nikana, Stropha, Tonkkatt, Twin Krohkur, Prisma Obex, Diwata, Skana Prime, Venato, Kestrel Prime, Coda Caustacyst, Pupacyst, Secura Lecta, Ankyros, Azothane, Shadow Claws Prime, Guandao Prime, Tenet Grigori, Lacera, Cobra & Crane Prime, Furax, Skana, Ankyros Prime, Tenet Exec, Silva & Aegis Prime, Tenet Agendus, Telos Boltace, Dual Zoren Prime, Sarofang Prime, Dual Kamas Prime, Keratinos, Tatsu Prime, Ceramic Dagger, Cadus, Tatsu, Harmony, Coda Mire, Ruvox, Heat Dagger, Gazal Machete, Galatine Prime, Ether Daggers, Dex Dakra, Dark Sword, Tak & Lug, Synoid Heliocor, Sydon, Syam, Ripkas, Spinnerex, Slaytra, Broken Scepter, Orthos Prime, Skiajati, Prisma Dual Cleavers, Kreska, Jat Kittag, Twin Basolk, Silva & Aegis, Shadow Claws, Sibear, Coda Motovore, Cobra & Crane, Verdilac, Shattered Lash Prime, Vitrica, Shaku, Prisma Ohma, Pulmonars, Fang Prime, Thalys, Krohkur, Serro, Tipedo, Argo & Vel, Scoliac, Arum Spinosa, Scindo Prime, Masseter Prime, Sancti Magistar, Gram, Sampotes, Orthos, Rumblejack, Innodem, Kestrel, Bo Prime, Heliocor, Dark Split-Sword (Heavy Blade), Masseter, Fragor Prime, Karyst Prime, Ekhein, Redeemer Prime, Xoris, Ohma, Quassus Prime, Landslide Fists, Glaive Prime, Bo, Corufell, Ninkondi Prime, Furax Wraith, Anku, Tipedo Prime, Ceti Lacera, Shadow Clones, Dual Viciss, Dark Split-Sword (Dual Swords), Prova, Shadow Clones Prime, Pangolin Prime, Prisma Machete, Dual Keres Prime, Whipclaw Prime, Praedos, Caustacyst, Glaive, Plasma Sword, Fang, Pennant, Pathocyst, Diwata Prime, Nikana Prime, Dual Kamas, Corufell Prime, Paracesis, Ether Reaper, Venka Prime, Kesheg, Orvius, Amanata, Edun, Okina, Rakta Dark Dagger, Obex, Kogake, Dual Cleavers, Ninkondi, Heat Sword, Halikar Wraith, Nami Skyla Prime, Fragor, Nami Skyla, Mk1-Furax, Mire, Sarpa, Lecta, Magistar, Desert Wind, Lesion, Machete, Machete Wraith, Landslide Fists Prime, Iron Staff Prime, Boltace, Hirudo, Gram Prime, Kronen, Dual Zoren, Korumm, Tekko, Exalted Blade, Kama, Destreza, Jaw Sword, Galvacord, Kuva Shildeg, Iron Staff, Hespar, Okina Prime, Halikar, Garuda Talons, Guandao, Kuva Ghoulsaw, Arca Titron, Venato Prime, Gunsen Prime, Jat Kusar, Galatine, Dark Dagger, Cassowar, Falcor, Galariak Prime, Whipclaw, Exalted Prime Blade, Ether Sword, Hate, Cerata, Dual Heat Swords, Dual Ether, Cronus, Coda Pathocyst, Dual Raza, Broken War (1)
 
 `StatusChance`:
 
@@ -506,28 +509,29 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `TotalDamage`:
 
 * First place is Shadow Clones, Shadow Clones Prime (1500)
-* Second place is Shattered Lash Prime, Shattered Lash (400)
+* Second place is Shattered Lash, Shattered Lash Prime (400)
 * Third place is Innodem, Arca Titron (360)
 
 ## Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-5 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-5 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `AvgCritCount` | 0.32 | 0.27 | 0.24 | 0.21 | 0.2 | 0.15 | 0.1 |
-| `AvgDmgWithAnimSpeedMulti` | 750 | 621 | 511.3192 | 478.975 | 447.19 | 391.6 | 276.33795 |
-| `AvgProcCount` | 1.4 | 1.16 | 1.1 | 1.1 | 1.1 | 1.1 | 1.1 |
+| `AvgCritCount` | 0.32 | 0.2775 | 0.24 | 0.21 | 0.2 | 0.15 | 0.1 |
+| `AvgDmgWithAnimSpeedMulti` | 755.4 | 623.25 | 511.34368 | 478.975 | 448.1305 | 391.6791313 | 276.33795 |
+| `AvgProcCount` | 1.4 | 1.1575 | 1.1 | 1.1 | 1.1 | 1.1 | 1.1 |
 | `BlockAngle` | 60 | 60 | 55 | 55 | 55 | 55 | 50 |
-| `CritChance` | 0.32 | 0.26 | 0.23 | 0.2 | 0.2 | 0.15 | 0.1 |
+| `CritChance` | 0.32 | 0.26 | 0.236 | 0.2 | 0.2 | 0.15 | 0.1 |
 | `CritMultiplier` | 2.6 | 2.4 | 2.1 | 2 | 2 | 2 | 1.8 |
-| `Disposition` | 1.44 | 1.35 | 1.25 | 1.2 | 1.15 | 1 | 0.7 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.17 | 1.08 | 1 | 1 | 1 | 0.917 | 0.833 |
 | `FollowThrough` | 0.9 | 0.7 | 0.6 | 0.6 | 0.6 | 0.6 | 0.5 |
-| `MeleeRange` | 3 | 2.8 | 2.5 | 2.5 | 2.5 | 2.3 | 1.7 |
+| `MeleeRange` | 3 | 2.8 | 2.5 | 2.5 | 2.5 | 2.303 | 1.7 |
 | `Multishot` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | `StatusChance` | 0.33 | 0.2 | 0.1 | 0.1 | 0.1 | 0.1 | 0.1 |
-| `TotalDamage` | 592 | 492 | 420 | 396 | 360 | 300 | 240 |
+| `TotalDamage` | 599.2 | 495 | 420 | 396 | 360 | 302.4 | 240 |
 
 **Top 3**
 
@@ -551,15 +555,15 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Shattered Lash Prime, Ghoulsaw, Venato, Tenet Grigori, Tenet Agendus, Shattered Lash, Kuva Ghoulsaw (90)
+* First place is Shattered Lash, Ghoulsaw, Venato, Tenet Grigori, Tenet Agendus, Shattered Lash Prime, Kuva Ghoulsaw (90)
 * Second place is Sigma & Octantis, Ack & Brunt, Cobra & Crane Prime, Silva & Aegis Prime, Tak & Lug, Silva & Aegis, Cobra & Crane, Argo & Vel (70)
-* Third place is Wrath, Thalys, Corufell, Pride, Iron Staff Prime, Iron Staff, Hespar (65)
+* Third place is Wrath, Pride, Thalys, Corufell, Corufell Prime, Iron Staff Prime, Iron Staff, Hespar (65)
 
 `CritChance`:
 
 * First place is Valkyr Talons, Valkyr Prime Talons (0.5)
 * Second place is Vinquibus (Melee), Fragor Prime (0.4)
-* Third place is Tenet Exec, Shadow Claws, Shadow Claws Prime, Heliocor (0.38)
+* Third place is Shadow Claws Prime, Tenet Exec, Shadow Claws, Heliocor (0.38)
 
 `CritMultiplier`:
 
@@ -569,38 +573,36 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Amphis, Ankyros (1.5)
-* Second place is Ether Daggers (1.49)
-* Third place is Dual Skana, Dark Sword, Plasma Sword, Heat Sword, Cronus (1.48)
+* First place is Dakra Prime, Gunsen, Endura, Karyst, Dorrclave, Mios, Destreza Prime, Mk1-Bo, Zenistar, Redeemer, Garuda Prime Talons, Reaper Prime, Wrath, Wolf Sledge, Sigma & Octantis, Scindo, Pride, Vericres, War Prime, War, Volnus Prime, Volnus, Prova Vandal, Tekko Prime, Kogake Prime, Vinquibus (Melee), Nikana, Dragon Nikana, Sarofang, Sheev, Coda Hirudo, Atterax, Pangolin Sword, Prisma Skana, Venka, Dual Ichor, Quassus, Korrudo, Dual Keres, Sun & Moon, Tenet Livia, Ghoulsaw, Tonbo, Vaykor Sydon, Nepheri, Kronen Prime, Vastilok, Ack & Brunt, Amphis, Dual Skana, Nami Solo, Dex Nikana, Stropha, Tonkkatt, Twin Krohkur, Prisma Obex, Skana Prime, Venato, Kestrel Prime, Coda Caustacyst, Pupacyst, Secura Lecta, Ankyros, Azothane, Guandao Prime, Tenet Grigori, Lacera, Cobra & Crane Prime, Furax, Skana, Ankyros Prime, Tenet Exec, Silva & Aegis Prime, Tenet Agendus, Telos Boltace, Dual Zoren Prime, Sarofang Prime, Dual Kamas Prime, Keratinos, Tatsu Prime, Ceramic Dagger, Cadus, Tatsu, Harmony, Coda Mire, Ruvox, Heat Dagger, Gazal Machete, Galatine Prime, Ether Daggers, Dex Dakra, Dark Sword, Tak & Lug, Synoid Heliocor, Sydon, Syam, Ripkas, Spinnerex, Slaytra, Broken Scepter, Orthos Prime, Skiajati, Prisma Dual Cleavers, Kreska, Jat Kittag, Twin Basolk, Silva & Aegis, Sibear, Coda Motovore, Cobra & Crane, Verdilac, Vitrica, Shaku, Prisma Ohma, Pulmonars, Fang Prime, Thalys, Krohkur, Serro, Tipedo, Argo & Vel, Scoliac, Arum Spinosa, Scindo Prime, Masseter Prime, Sancti Magistar, Gram, Sampotes, Orthos, Rumblejack, Innodem, Kestrel, Bo Prime, Heliocor, Dark Split-Sword (Heavy Blade), Masseter, Fragor Prime, Karyst Prime, Ekhein, Redeemer Prime, Xoris, Ohma, Quassus Prime, Glaive Prime, Bo, Corufell, Ninkondi Prime, Furax Wraith, Anku, Tipedo Prime, Ceti Lacera, Dual Viciss, Dark Split-Sword (Dual Swords), Prova, Pangolin Prime, Prisma Machete, Dual Keres Prime, Praedos, Caustacyst, Glaive, Plasma Sword, Fang, Pennant, Pathocyst, Nikana Prime, Dual Kamas, Corufell Prime, Paracesis, Ether Reaper, Venka Prime, Kesheg, Orvius, Amanata, Edun, Okina, Rakta Dark Dagger, Obex, Kogake, Dual Cleavers, Ninkondi, Heat Sword, Halikar Wraith, Nami Skyla Prime, Fragor, Nami Skyla, Mk1-Furax, Mire, Sarpa, Lecta, Magistar, Lesion, Machete, Machete Wraith, Boltace, Hirudo, Gram Prime, Kronen, Dual Zoren, Korumm, Tekko, Kama, Destreza, Jaw Sword, Galvacord, Kuva Shildeg, Hespar, Okina Prime, Halikar, Garuda Talons, Guandao, Kuva Ghoulsaw, Arca Titron, Venato Prime, Gunsen Prime, Jat Kusar, Galatine, Dark Dagger, Cassowar, Falcor, Galariak Prime, Ether Sword, Hate, Cerata, Dual Heat Swords, Dual Ether, Cronus, Coda Pathocyst, Dual Raza, Broken War (1.2)
 
 `FireRate`:
 
 * First place is Sarpa (3.33)
-* Second place is Quassus, Quassus Prime, Arum Spinosa (2)
+* Second place is Quassus, Arum Spinosa, Quassus Prime (2)
 * Third place is Valkyr Talons, Valkyr Prime Talons (1.5)
 
 `FollowThrough`:
 
-* First place is Exalted Umbra Blade, Desert Wind Prime, Ghoulsaw, Valkyr Talons, Valkyr Prime Talons, Shadow Claws, Shadow Claws Prime, Desert Wind, Iron Staff Prime, Exalted Blade, Iron Staff, Kuva Ghoulsaw, Exalted Prime Blade (1)
-* Second place is Karyst, Tekko Prime, Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Ankyros, Furax, Ankyros Prime, Ceramic Dagger, Ruvox, Heat Dagger, Sheev, Innodem, Karyst Prime, Rumblejack, Furax Wraith, Rakta Dark Dagger, Kogake, Obex, Mk1-Furax, Hirudo, Tekko, Dark Dagger (0.9)
-* Third place is Garuda Prime Talons, Venka, Nepheri, Ether Daggers, Ripkas, Fang Prime, Okina, Fang, Venka Prime, Keratinos, Okina Prime, Garuda Talons (0.8)
+* First place is Exalted Umbra Blade, Desert Wind Prime, Ghoulsaw, Valkyr Talons, Valkyr Prime Talons, Shadow Claws Prime, Shadow Claws, Desert Wind, Iron Staff Prime, Exalted Blade, Iron Staff, Kuva Ghoulsaw, Exalted Prime Blade (1)
+* Second place is Karyst, Tekko Prime, Kogake Prime, Sheev, Coda Hirudo, Korrudo, Prisma Obex, Ankyros, Furax, Ankyros Prime, Ceramic Dagger, Ruvox, Heat Dagger, Rumblejack, Innodem, Karyst Prime, Furax Wraith, Rakta Dark Dagger, Obex, Kogake, Mk1-Furax, Hirudo, Tekko, Dark Dagger (0.9)
+* Third place is Garuda Prime Talons, Venka, Nepheri, Keratinos, Ether Daggers, Ripkas, Fang Prime, Fang, Venka Prime, Okina, Okina Prime, Garuda Talons (0.8)
 
 `MeleeRange`:
 
-* First place is Shattered Lash Prime, Shattered Lash (12)
+* First place is Shattered Lash, Shattered Lash Prime (12)
 * Second place is Iron Staff Prime, Iron Staff (3.5)
 * Third place is War Prime, War, Azothane (3.2)
 
 `Multishot`:
 
-* First place is Quassus Prime, Arum Spinosa (18)
+* First place is Arum Spinosa, Quassus Prime (18)
 * Second place is Quassus (12)
 * Third place is Redeemer, Redeemer Prime (10)
 
 `StatusChance`:
 
 * First place is Jat Kittag (1)
-* Second place is Cobra & Crane Prime, Korumm, Cobra & Crane, Pulmonars (0.5)
+* Second place is Cobra & Crane Prime, Cobra & Crane, Pulmonars, Korumm (0.5)
 * Third place is Lacera, Ceti Lacera (0.45)
 
 `TotalDamage`:
@@ -611,23 +613,24 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-6 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-6 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `AvgCritCount` | 0.32 | 0.26 | 0.24 | 0.21 | 0.2 | 0.15 | 0.1 |
-| `AvgDmgWithAnimSpeedMulti` | 1106.3676 | 904.471596 | 747.8447382 | 697.1592 | 666.13851 | 586.5 | 400.6611 |
+| `AvgDmgWithAnimSpeedMulti` | 1105.7982 | 902.953494 | 747.2842146 | 698.6304 | 666.836055 | 586.95 | 401.62905 |
 | `AvgProcCount` | 1.3 | 1.1 | 1.1 | 1.1 | 1.1 | 1.1 | 1.1 |
 | `BlockAngle` | 60 | 60 | 55 | 55 | 55 | 55 | 50 |
 | `CritChance` | 0.32 | 0.26 | 0.24 | 0.21 | 0.2 | 0.15 | 0.1 |
-| `CritMultiplier` | 2.6 | 2.4 | 2.1 | 2 | 2 | 2 | 1.77 |
-| `Disposition` | 1.44 | 1.35 | 1.25 | 1.2 | 1.15 | 1 | 0.75 |
+| `CritMultiplier` | 2.6 | 2.4 | 2.1 | 2 | 2 | 2 | 1.785 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.17 | 1.08 | 1 | 1 | 1 | 0.917 | 0.833 |
 | `FollowThrough` | 0.9 | 0.7 | 0.6 | 0.6 | 0.6 | 0.6 | 0.5 |
 | `MeleeRange` | 3 | 2.8 | 2.5 | 2.5 | 2.5 | 2.3 | 1.7 |
 | `Multishot` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| `StatusChance` | 0.312 | 0.14 | 0.1 | 0.1 | 0.1 | 0.1 | 0.1 |
-| `TotalDamage` | 823.2 | 720 | 600 | 564 | 531.3 | 450 | 360 |
+| `StatusChance` | 0.311 | 0.14 | 0.1 | 0.1 | 0.1 | 0.1 | 0.1 |
+| `TotalDamage` | 821.1 | 720 | 600 | 564 | 529.65 | 450 | 360 |
 
 **Top 3**
 
@@ -653,13 +656,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Ghoulsaw, Venato, Tenet Grigori, Tenet Agendus, Kuva Ghoulsaw (90)
 * Second place is Sigma & Octantis, Ack & Brunt, Cobra & Crane Prime, Silva & Aegis Prime, Tak & Lug, Silva & Aegis, Cobra & Crane, Argo & Vel (70)
-* Third place is Wrath, Thalys, Corufell, Pride, Iron Staff Prime, Iron Staff, Hespar (65)
+* Third place is Wrath, Pride, Thalys, Corufell, Corufell Prime, Iron Staff Prime, Iron Staff, Hespar (65)
 
 `CritChance`:
 
 * First place is Valkyr Talons, Valkyr Prime Talons (0.5)
 * Second place is Vinquibus (Melee), Fragor Prime (0.4)
-* Third place is Tenet Exec, Shadow Claws, Shadow Claws Prime, Heliocor (0.38)
+* Third place is Shadow Claws Prime, Tenet Exec, Shadow Claws, Heliocor (0.38)
 
 `CritMultiplier`:
 
@@ -669,21 +672,19 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Amphis, Ankyros (1.5)
-* Second place is Ether Daggers (1.49)
-* Third place is Dual Skana, Dark Sword, Plasma Sword, Heat Sword, Cronus (1.48)
+* First place is Dakra Prime, Gunsen, Endura, Karyst, Dorrclave, Mios, Destreza Prime, Mk1-Bo, Zenistar, Redeemer, Garuda Prime Talons, Reaper Prime, Wrath, Wolf Sledge, Sigma & Octantis, Scindo, Pride, Vericres, War Prime, War, Volnus Prime, Volnus, Prova Vandal, Tekko Prime, Kogake Prime, Vinquibus (Melee), Nikana, Dragon Nikana, Sarofang, Sheev, Coda Hirudo, Atterax, Pangolin Sword, Prisma Skana, Venka, Dual Ichor, Quassus, Korrudo, Dual Keres, Sun & Moon, Tenet Livia, Ghoulsaw, Tonbo, Vaykor Sydon, Nepheri, Kronen Prime, Vastilok, Ack & Brunt, Amphis, Dual Skana, Nami Solo, Dex Nikana, Stropha, Tonkkatt, Twin Krohkur, Prisma Obex, Skana Prime, Venato, Kestrel Prime, Coda Caustacyst, Pupacyst, Secura Lecta, Ankyros, Azothane, Guandao Prime, Tenet Grigori, Lacera, Cobra & Crane Prime, Furax, Skana, Ankyros Prime, Tenet Exec, Silva & Aegis Prime, Tenet Agendus, Telos Boltace, Dual Zoren Prime, Sarofang Prime, Dual Kamas Prime, Keratinos, Tatsu Prime, Ceramic Dagger, Cadus, Tatsu, Harmony, Coda Mire, Ruvox, Heat Dagger, Gazal Machete, Galatine Prime, Ether Daggers, Dex Dakra, Dark Sword, Tak & Lug, Synoid Heliocor, Sydon, Syam, Ripkas, Spinnerex, Slaytra, Broken Scepter, Orthos Prime, Skiajati, Prisma Dual Cleavers, Kreska, Jat Kittag, Twin Basolk, Silva & Aegis, Sibear, Coda Motovore, Cobra & Crane, Verdilac, Vitrica, Shaku, Prisma Ohma, Pulmonars, Fang Prime, Thalys, Krohkur, Serro, Tipedo, Argo & Vel, Scoliac, Arum Spinosa, Scindo Prime, Masseter Prime, Sancti Magistar, Gram, Sampotes, Orthos, Rumblejack, Innodem, Kestrel, Bo Prime, Heliocor, Dark Split-Sword (Heavy Blade), Masseter, Fragor Prime, Karyst Prime, Ekhein, Redeemer Prime, Xoris, Ohma, Quassus Prime, Glaive Prime, Bo, Corufell, Ninkondi Prime, Furax Wraith, Anku, Tipedo Prime, Ceti Lacera, Dual Viciss, Dark Split-Sword (Dual Swords), Prova, Pangolin Prime, Prisma Machete, Dual Keres Prime, Praedos, Caustacyst, Glaive, Plasma Sword, Fang, Pennant, Pathocyst, Nikana Prime, Dual Kamas, Corufell Prime, Paracesis, Ether Reaper, Venka Prime, Kesheg, Orvius, Amanata, Edun, Okina, Rakta Dark Dagger, Obex, Kogake, Dual Cleavers, Ninkondi, Heat Sword, Halikar Wraith, Nami Skyla Prime, Fragor, Nami Skyla, Mk1-Furax, Mire, Sarpa, Lecta, Magistar, Lesion, Machete, Machete Wraith, Boltace, Hirudo, Gram Prime, Kronen, Dual Zoren, Korumm, Tekko, Kama, Destreza, Jaw Sword, Galvacord, Kuva Shildeg, Hespar, Okina Prime, Halikar, Garuda Talons, Guandao, Kuva Ghoulsaw, Arca Titron, Venato Prime, Gunsen Prime, Jat Kusar, Galatine, Dark Dagger, Cassowar, Falcor, Galariak Prime, Ether Sword, Hate, Cerata, Dual Heat Swords, Dual Ether, Cronus, Coda Pathocyst, Dual Raza, Broken War (1.2)
 
 `FireRate`:
 
-* First place is Quassus, Quassus Prime, Arum Spinosa (2)
+* First place is Quassus, Arum Spinosa, Quassus Prime (2)
 * Second place is Valkyr Talons, Valkyr Prime Talons (1.5)
 * Third place is Spinnerex (1.36)
 
 `FollowThrough`:
 
-* First place is Exalted Umbra Blade, Desert Wind Prime, Ghoulsaw, Valkyr Talons, Valkyr Prime Talons, Shadow Claws, Shadow Claws Prime, Desert Wind, Iron Staff Prime, Exalted Blade, Iron Staff, Kuva Ghoulsaw, Exalted Prime Blade (1)
-* Second place is Karyst, Tekko Prime, Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Ankyros, Furax, Ankyros Prime, Ceramic Dagger, Ruvox, Heat Dagger, Sheev, Innodem, Karyst Prime, Rumblejack, Furax Wraith, Rakta Dark Dagger, Kogake, Obex, Mk1-Furax, Hirudo, Tekko, Dark Dagger (0.9)
-* Third place is Garuda Prime Talons, Venka, Nepheri, Ether Daggers, Ripkas, Fang Prime, Okina, Fang, Venka Prime, Keratinos, Okina Prime, Garuda Talons (0.8)
+* First place is Exalted Umbra Blade, Desert Wind Prime, Ghoulsaw, Valkyr Talons, Valkyr Prime Talons, Shadow Claws Prime, Shadow Claws, Desert Wind, Iron Staff Prime, Exalted Blade, Iron Staff, Kuva Ghoulsaw, Exalted Prime Blade (1)
+* Second place is Karyst, Tekko Prime, Kogake Prime, Sheev, Coda Hirudo, Korrudo, Prisma Obex, Ankyros, Furax, Ankyros Prime, Ceramic Dagger, Ruvox, Heat Dagger, Rumblejack, Innodem, Karyst Prime, Furax Wraith, Rakta Dark Dagger, Obex, Kogake, Mk1-Furax, Hirudo, Tekko, Dark Dagger (0.9)
+* Third place is Garuda Prime Talons, Venka, Nepheri, Keratinos, Ether Daggers, Ripkas, Fang Prime, Fang, Venka Prime, Okina, Okina Prime, Garuda Talons (0.8)
 
 `MeleeRange`:
 
@@ -693,9 +694,9 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Quassus Prime, Arum Spinosa (9)
+* First place is Arum Spinosa, Quassus Prime (9)
 * Second place is Quassus (6)
-* Third place is Dakra Prime, Gunsen, Endura, Karyst, Dorrclave, Mios, Destreza Prime, Mk1-Bo, Redeemer, Garuda Prime Talons, Zenistar, Redeemer Prime, Wrath, Sigma & Octantis, Scindo, Wolf Sledge, Prisma Machete, Vericres, Exalted Umbra Blade, War Prime, War, Volnus Prime, Prova Vandal, Volnus, Tekko Prime, Kogake Prime, Nikana, Dragon Nikana, Sarofang, Vinquibus (Melee), Desert Wind Prime, Coda Hirudo, Atterax, Sibear, Prisma Skana, Paracesis, Dual Ichor, Korrudo, Dual Keres, Sun & Moon, Tenet Livia, Venka, Ghoulsaw, Skiajati, Nepheri, Kronen Prime, Vaykor Sydon, Ack & Brunt, Amphis, Vastilok, Valkyr Talons, Dual Skana, Nami Solo, Dex Nikana, Stropha, Tonkkatt, Valkyr Prime Talons, Prisma Obex, Twin Krohkur, Venato, Kestrel Prime, Coda Caustacyst, Tonbo, Ankyros, Azothane, Serro, Guandao Prime, Pupacyst, Lacera, Cobra & Crane Prime, Furax, Skana, Ankyros Prime, Tenet Grigori, Silva & Aegis Prime, Tenet Exec, Tenet Agendus, Dual Zoren Prime, Sarofang Prime, Dual Kamas Prime, Telos Boltace, Korumm, Ceramic Dagger, Cadus, Tatsu Prime, Harmony, Coda Mire, Ruvox, Heat Dagger, Gazal Machete, Galatine Prime, Ether Daggers, Dex Dakra, Dark Sword, Tatsu, Tak & Lug, Synoid Heliocor, Sydon, Ripkas, Syam, Spinnerex, Broken Scepter, Orthos Prime, Slaytra, Prisma Dual Cleavers, Kreska, Jat Kittag, Twin Basolk, Skana Prime, Shadow Claws, Silva & Aegis, Coda Motovore, Cobra & Crane, Verdilac, Sheev, Vitrica, Shaku, Prova, Fang Prime, Thalys, Krohkur, Shadow Claws Prime, Tipedo, Argo & Vel, Secura Lecta, Scoliac, Scindo Prime, Mire, Gram, Sancti Magistar, Orthos, Sampotes, Innodem, Kestrel, Bo Prime, Heliocor, Dark Split-Sword (Heavy Blade), Masseter, Fragor Prime, Karyst Prime, Ekhein, Rumblejack, Xoris, Reaper Prime, Okina, Glaive Prime, Bo, Corufell, Ninkondi Prime, Furax Wraith, Anku, Tipedo Prime, Ceti Lacera, Dual Viciss, Dark Split-Sword (Dual Swords), Pulmonars, Pangolin Prime, Prisma Ohma, Dual Keres Prime, Pride, Caustacyst, Glaive, Praedos, Fang, Plasma Sword, Pennant, Nikana Prime, Dual Kamas, Kama, Pathocyst, Ether Reaper, Venka Prime, Kesheg, Pangolin Sword, Amanata, Orvius, Edun, Rakta Dark Dagger, Ohma, Kogake, Dual Cleavers, Obex, Heat Sword, Halikar Wraith, Ninkondi, Fragor, Nami Skyla Prime, Nami Skyla, Mk1-Furax, Sarpa, Lecta, Masseter Prime, Desert Wind, Magistar, Machete, Machete Wraith, Lesion, Boltace, Hirudo, Iron Staff Prime, Gram Prime, Dual Zoren, Kronen, Tekko, Exalted Blade, Keratinos, Destreza, Jaw Sword, Galvacord, Kuva Shildeg, Iron Staff, Hespar, Okina Prime, Halikar, Garuda Talons, Guandao, Kuva Ghoulsaw, Arca Titron, Venato Prime, Gunsen Prime, Jat Kusar, Galatine, Dark Dagger, Cassowar, Falcor, Galariak Prime, Exalted Prime Blade, Ether Sword, Hate, Cerata, Dual Heat Swords, Dual Ether, Cronus, Coda Pathocyst, Dual Raza, Broken War (1)
+* Third place is Dakra Prime, Gunsen, Endura, Karyst, Dorrclave, Mios, Destreza Prime, Mk1-Bo, Zenistar, Redeemer, Garuda Prime Talons, Reaper Prime, Wrath, Wolf Sledge, Sigma & Octantis, Scindo, Pride, Exalted Umbra Blade, Vericres, War Prime, War, Volnus Prime, Volnus, Prova Vandal, Tekko Prime, Kogake Prime, Vinquibus (Melee), Nikana, Dragon Nikana, Sarofang, Sheev, Desert Wind Prime, Coda Hirudo, Atterax, Pangolin Sword, Prisma Skana, Venka, Dual Ichor, Korrudo, Dual Keres, Sun & Moon, Tenet Livia, Ghoulsaw, Tonbo, Vaykor Sydon, Nepheri, Kronen Prime, Vastilok, Ack & Brunt, Amphis, Valkyr Talons, Valkyr Prime Talons, Dual Skana, Nami Solo, Dex Nikana, Stropha, Tonkkatt, Twin Krohkur, Prisma Obex, Skana Prime, Venato, Kestrel Prime, Coda Caustacyst, Pupacyst, Secura Lecta, Ankyros, Azothane, Shadow Claws Prime, Guandao Prime, Tenet Grigori, Lacera, Cobra & Crane Prime, Furax, Skana, Ankyros Prime, Tenet Exec, Silva & Aegis Prime, Tenet Agendus, Telos Boltace, Dual Zoren Prime, Sarofang Prime, Dual Kamas Prime, Keratinos, Tatsu Prime, Ceramic Dagger, Cadus, Tatsu, Harmony, Coda Mire, Ruvox, Heat Dagger, Gazal Machete, Galatine Prime, Ether Daggers, Dex Dakra, Dark Sword, Tak & Lug, Synoid Heliocor, Sydon, Syam, Ripkas, Spinnerex, Slaytra, Broken Scepter, Orthos Prime, Skiajati, Prisma Dual Cleavers, Kreska, Jat Kittag, Twin Basolk, Silva & Aegis, Shadow Claws, Sibear, Coda Motovore, Cobra & Crane, Verdilac, Vitrica, Shaku, Prisma Ohma, Pulmonars, Fang Prime, Thalys, Krohkur, Serro, Tipedo, Argo & Vel, Scoliac, Scindo Prime, Masseter Prime, Sancti Magistar, Gram, Sampotes, Orthos, Rumblejack, Innodem, Kestrel, Bo Prime, Heliocor, Dark Split-Sword (Heavy Blade), Masseter, Fragor Prime, Karyst Prime, Ekhein, Redeemer Prime, Xoris, Ohma, Glaive Prime, Bo, Corufell, Ninkondi Prime, Furax Wraith, Anku, Tipedo Prime, Ceti Lacera, Dual Viciss, Dark Split-Sword (Dual Swords), Prova, Pangolin Prime, Prisma Machete, Dual Keres Prime, Praedos, Caustacyst, Glaive, Plasma Sword, Fang, Pennant, Pathocyst, Nikana Prime, Dual Kamas, Corufell Prime, Paracesis, Ether Reaper, Venka Prime, Kesheg, Orvius, Amanata, Edun, Okina, Rakta Dark Dagger, Obex, Kogake, Dual Cleavers, Ninkondi, Heat Sword, Halikar Wraith, Nami Skyla Prime, Fragor, Nami Skyla, Mk1-Furax, Mire, Sarpa, Lecta, Magistar, Desert Wind, Lesion, Machete, Machete Wraith, Iron Staff Prime, Boltace, Hirudo, Gram Prime, Kronen, Dual Zoren, Korumm, Tekko, Exalted Blade, Kama, Destreza, Jaw Sword, Galvacord, Kuva Shildeg, Iron Staff, Hespar, Okina Prime, Halikar, Garuda Talons, Guandao, Kuva Ghoulsaw, Arca Titron, Venato Prime, Gunsen Prime, Jat Kusar, Galatine, Dark Dagger, Cassowar, Falcor, Galariak Prime, Exalted Prime Blade, Ether Sword, Hate, Cerata, Dual Heat Swords, Dual Ether, Cronus, Coda Pathocyst, Dual Raza, Broken War (1)
 
 `StatusChance`:
 
@@ -711,23 +712,24 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-7 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-7 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `AvgCritCount` | 0.3 | 0.24 | 0.22 | 0.21 | 0.2 | 0.174 | 0.12 |
-| `AvgDmgWithAnimSpeedMulti` | 1070.9703198 | 953.12 | 772.7838336 | 716.316 | 675.6018 | 621.4677 | 493.20264 |
-| `AvgProcCount` | 1.908 | 1.3 | 1.1 | 1.1 | 1.1 | 1.1 | 1.1 |
-| `BlockAngle` | 68 | 55 | 55 | 55 | 55 | 55 | 50 |
-| `CritChance` | 0.3 | 0.24 | 0.22 | 0.21 | 0.2 | 0.174 | 0.12 |
+| `AvgCritCount` | 0.3 | 0.255 | 0.22 | 0.21 | 0.2 | 0.18 | 0.12 |
+| `AvgDmgWithAnimSpeedMulti` | 1070.648749125 | 973.303835 | 805.194 | 732.885 | 682.89078 | 627.11925 | 495.0519 |
+| `AvgProcCount` | 1.84 | 1.275 | 1.1 | 1.1 | 1.1 | 1.1 | 1.1 |
+| `BlockAngle` | 67.5 | 58.75 | 55 | 55 | 55 | 55 | 50 |
+| `CritChance` | 0.3 | 0.255 | 0.22 | 0.21 | 0.2 | 0.18 | 0.12 |
 | `CritMultiplier` | 2.5 | 2.4 | 2.2 | 2.2 | 2.1 | 2 | 2 |
-| `Disposition` | 1.35 | 1.25 | 1.15 | 1.1 | 1.09 | 0.9 | 0.7 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.17 | 1.08 | 1 | 1 | 1 | 0.917 | 0.833 |
-| `FollowThrough` | 0.76 | 0.7 | 0.7 | 0.7 | 0.6 | 0.6 | 0.5 |
-| `MeleeRange` | 3 | 2.6 | 2.5 | 2 | 1.88 | 1.7 | 1.25 |
+| `FollowThrough` | 0.75 | 0.7 | 0.7 | 0.7 | 0.6 | 0.6 | 0.5 |
+| `MeleeRange` | 3 | 2.6 | 2.5 | 2 | 1.925 | 1.7 | 1.25 |
 | `Multishot` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| `StatusChance` | 0.36 | 0.3 | 0.1 | 0.1 | 0.1 | 0.1 | 0.1 |
-| `TotalDamage` | 800.4 | 684 | 630 | 594.6 | 564 | 464 | 375.2 |
+| `StatusChance` | 0.36 | 0.275 | 0.1 | 0.1 | 0.1 | 0.1 | 0.1 |
+| `TotalDamage` | 798 | 681.75 | 630 | 597.75 | 574 | 470 | 377 |
 
 **Top 3**
 
@@ -753,7 +755,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Tenet Grigori, Tenet Agendus (90)
 * Second place is Sigma & Octantis, Ack & Brunt, Argo & Vel (70)
-* Third place is Corufell (65)
+* Third place is Corufell, Corufell Prime (65)
 
 `CritChance`:
 
@@ -765,35 +767,33 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Vinquibus (Melee) (3.2)
 * Second place is Edun, Okina Prime (2.6)
-* Third place is Quassus Prime, Verdilac, Hate (2.5)
+* Third place is Verdilac, Quassus Prime, Corufell Prime, Hate (2.5)
 
 `Disposition`:
 
-* First place is Kestrel (1.45)
-* Second place is Halikar (1.44)
-* Third place is Ceramic Dagger (1.43)
+* First place is Zenistar, Redeemer, Wolf Sledge, Sigma & Octantis, Vinquibus (Melee), Quassus, Nepheri, Vastilok, Ack & Brunt, Stropha, Kestrel Prime, Coda Caustacyst, Tenet Grigori, Tenet Agendus, Telos Boltace, Tatsu Prime, Ceramic Dagger, Tatsu, Syam, Verdilac, Vitrica, Argo & Vel, Arum Spinosa, Innodem, Kestrel, Redeemer Prime, Xoris, Quassus Prime, Glaive Prime, Corufell, Caustacyst, Glaive, Pathocyst, Corufell Prime, Orvius, Edun, Okina, Halikar Wraith, Sarpa, Korumm, Okina Prime, Halikar, Falcor, Hate, Cerata, Coda Pathocyst (1.2)
 
 `FireRate`:
 
 * First place is Glaive Prime (1.25)
 * Second place is Tatsu Prime, Xoris, Halikar Wraith, Okina Prime, Halikar (1.17)
-* Third place is Sigma & Octantis, Tenet Grigori, Telos Boltace, Arum Spinosa, Kestrel, Okina (1.08)
+* Third place is Corufell Prime (1.0833334)
 
 `FollowThrough`:
 
 * First place is Ceramic Dagger, Innodem (0.9)
 * Second place is Nepheri, Okina, Okina Prime (0.8)
-* Third place is Quassus, Kestrel Prime, Quassus Prime, Tatsu Prime, Tatsu, Syam, Arum Spinosa, Kestrel, Xoris, Glaive Prime, Glaive, Pathocyst, Orvius, Halikar Wraith, Halikar, Falcor, Cerata, Coda Pathocyst (0.7)
+* Third place is Quassus, Kestrel Prime, Tatsu Prime, Tatsu, Syam, Arum Spinosa, Kestrel, Xoris, Quassus Prime, Glaive Prime, Glaive, Pathocyst, Orvius, Halikar Wraith, Halikar, Falcor, Cerata, Coda Pathocyst (0.7)
 
 `MeleeRange`:
 
 * First place is Wolf Sledge (3.1)
 * Second place is Vinquibus (Melee), Tatsu Prime, Tatsu, Verdilac, Edun (3)
-* Third place is Coda Caustacyst, Korumm, Vitrica, Caustacyst (2.9)
+* Third place is Coda Caustacyst, Vitrica, Caustacyst, Korumm (2.9)
 
 `Multishot`:
 
-* First place is Redeemer, Zenistar, Redeemer Prime, Sigma & Octantis, Wolf Sledge, Vinquibus (Melee), Quassus, Nepheri, Ack & Brunt, Vastilok, Stropha, Kestrel Prime, Coda Caustacyst, Quassus Prime, Tenet Grigori, Tenet Agendus, Telos Boltace, Korumm, Ceramic Dagger, Tatsu Prime, Tatsu, Syam, Verdilac, Vitrica, Argo & Vel, Arum Spinosa, Innodem, Kestrel, Xoris, Okina, Glaive Prime, Corufell, Caustacyst, Glaive, Pathocyst, Orvius, Edun, Halikar Wraith, Sarpa, Okina Prime, Halikar, Falcor, Hate, Cerata, Coda Pathocyst (1)
+* First place is Zenistar, Redeemer, Wolf Sledge, Sigma & Octantis, Vinquibus (Melee), Quassus, Nepheri, Vastilok, Ack & Brunt, Stropha, Kestrel Prime, Coda Caustacyst, Tenet Grigori, Tenet Agendus, Telos Boltace, Tatsu Prime, Ceramic Dagger, Tatsu, Syam, Verdilac, Vitrica, Argo & Vel, Arum Spinosa, Innodem, Kestrel, Redeemer Prime, Xoris, Quassus Prime, Glaive Prime, Corufell, Caustacyst, Glaive, Pathocyst, Corufell Prime, Orvius, Edun, Okina, Halikar Wraith, Sarpa, Korumm, Okina Prime, Halikar, Falcor, Hate, Cerata, Coda Pathocyst (1)
 
 `StatusChance`:
 
@@ -809,7 +809,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 5
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-8 "Edit section's source code: Attack Index 5")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-8 "Edit Section using Source Editor:
+Attack Index 5")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -819,7 +820,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 61 | 55 | 55 | 55 | 55 | 55 | 50 |
 | `CritChance` | 0.322 | 0.295 | 0.228 | 0.21225 | 0.21 | 0.184 | 0.147 |
 | `CritMultiplier` | 2.51 | 2.5 | 2.4 | 2.3 | 2.205 | 2 | 2 |
-| `Disposition` | 1.403 | 1.3 | 1.25 | 1.16125 | 1.15 | 1.04 | 0.7175 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.08 | 1 | 1 | 0.935675 | 0.833 | 0.833 | 0.833 |
 | `FollowThrough` | 0.71 | 0.7 | 0.7 | 0.7 | 0.7 | 0.6 | 0.6 |
 | `MeleeRange` | 3 | 2.575 | 2.08 | 1.7 | 1.7 | 1.3 | 1.25 |
@@ -851,7 +852,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Sigma & Octantis, Ack & Brunt, Argo & Vel (70)
 * Second place is Coda Caustacyst, Caustacyst, Hate (60)
-* Third place is Zenistar, Quassus, Kestrel Prime, Quassus Prime, Syam, Arum Spinosa, Kestrel, Xoris, Glaive Prime, Glaive, Pathocyst, Orvius, Edun, Halikar Wraith, Halikar, Falcor, Cerata, Coda Pathocyst (55)
+* Third place is Zenistar, Quassus, Kestrel Prime, Syam, Arum Spinosa, Kestrel, Xoris, Quassus Prime, Glaive Prime, Glaive, Pathocyst, Orvius, Edun, Halikar Wraith, Halikar, Falcor, Cerata, Coda Pathocyst (55)
 
 `CritChance`:
 
@@ -862,14 +863,12 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `CritMultiplier`:
 
 * First place is Vinquibus (Melee), Edun, Okina Prime (2.6)
-* Second place is Quassus Prime, Verdilac, Pathocyst, Halikar Wraith, Hate, Coda Pathocyst (2.5)
+* Second place is Verdilac, Quassus Prime, Pathocyst, Halikar Wraith, Hate, Coda Pathocyst (2.5)
 * Third place is Argo & Vel, Xoris, Glaive Prime, Orvius (2.4)
 
 `Disposition`:
 
-* First place is Kestrel (1.45)
-* Second place is Halikar (1.44)
-* Third place is Ceramic Dagger (1.43)
+* First place is Zenistar, Wolf Sledge, Sigma & Octantis, Vinquibus (Melee), Quassus, Ack & Brunt, Kestrel Prime, Coda Caustacyst, Ceramic Dagger, Syam, Verdilac, Argo & Vel, Arum Spinosa, Kestrel, Xoris, Quassus Prime, Glaive Prime, Caustacyst, Glaive, Pathocyst, Orvius, Edun, Okina, Halikar Wraith, Okina Prime, Halikar, Falcor, Hate, Cerata, Coda Pathocyst (1.2)
 
 `FireRate`:
 
@@ -881,7 +880,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Ceramic Dagger (0.9)
 * Second place is Okina, Okina Prime (0.8)
-* Third place is Quassus, Kestrel Prime, Quassus Prime, Syam, Arum Spinosa, Kestrel, Xoris, Glaive Prime, Glaive, Pathocyst, Orvius, Halikar Wraith, Halikar, Falcor, Cerata, Coda Pathocyst (0.7)
+* Third place is Quassus, Kestrel Prime, Syam, Arum Spinosa, Kestrel, Xoris, Quassus Prime, Glaive Prime, Glaive, Pathocyst, Orvius, Halikar Wraith, Halikar, Falcor, Cerata, Coda Pathocyst (0.7)
 
 `MeleeRange`:
 
@@ -891,7 +890,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Zenistar, Sigma & Octantis, Wolf Sledge, Vinquibus (Melee), Quassus, Ack & Brunt, Kestrel Prime, Coda Caustacyst, Quassus Prime, Ceramic Dagger, Syam, Verdilac, Argo & Vel, Arum Spinosa, Kestrel, Xoris, Okina, Glaive Prime, Caustacyst, Glaive, Pathocyst, Orvius, Edun, Halikar Wraith, Okina Prime, Halikar, Falcor, Hate, Cerata, Coda Pathocyst (1)
+* First place is Zenistar, Wolf Sledge, Sigma & Octantis, Vinquibus (Melee), Quassus, Ack & Brunt, Kestrel Prime, Coda Caustacyst, Ceramic Dagger, Syam, Verdilac, Argo & Vel, Arum Spinosa, Kestrel, Xoris, Quassus Prime, Glaive Prime, Caustacyst, Glaive, Pathocyst, Orvius, Edun, Okina, Halikar Wraith, Okina Prime, Halikar, Falcor, Hate, Cerata, Coda Pathocyst (1)
 
 `StatusChance`:
 
@@ -907,7 +906,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 6
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-9 "Edit section's source code: Attack Index 6")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-9 "Edit Section using Source Editor:
+Attack Index 6")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -917,7 +917,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.24 | 0.22 | 0.21 | 0.21 | 0.21 | 0.169 | 0.159 |
 | `CritMultiplier` | 2.5 | 2.4 | 2.38 | 2.3 | 2.285 | 2.2 | 2 |
-| `Disposition` | 1.413 | 1.3 | 1.29 | 1.25 | 1.2425 | 1.11 | 0.6975 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 0.833 | 0.833 | 0.833 | 0.833 | 0.833 | 0.833 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.695 |
 | `MeleeRange` | 2.21 | 1.3 | 1.3 | 1.29125 | 1.25 | 1.245 | 1.2 |
@@ -964,9 +964,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kestrel (1.45)
-* Second place is Halikar (1.44)
-* Third place is Orvius (1.35)
+* First place is Zenistar, Wolf Sledge, Kestrel Prime, Kestrel, Xoris, Glaive Prime, Glaive, Pathocyst, Orvius, Halikar Wraith, Halikar, Falcor, Cerata, Coda Pathocyst (1.2)
 
 `FireRate`:
 
@@ -1004,7 +1002,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 7
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-10 "Edit section's source code: Attack Index 7")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-10 "Edit Section using Source Editor:
+Attack Index 7")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1014,7 +1013,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.24 | 0.22 | 0.212 | 0.21 | 0.21 | 0.19 | 0.156 |
 | `CritMultiplier` | 2.5 | 2.4 | 2.4 | 2.33 | 2.3 | 2.2 | 2.16 |
-| `Disposition` | 1.422 | 1.3 | 1.3 | 1.265 | 1.22 | 0.99 | 0.69 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 0.9666 | 0.833 | 0.833 | 0.833 | 0.833 | 0.833 | 0.833 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 1.3 | 1.3 | 1.3 | 1.265 | 1.25 | 1.23 | 1.2 |
@@ -1060,9 +1059,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kestrel (1.45)
-* Second place is Halikar (1.44)
-* Third place is Orvius (1.35)
+* First place is Zenistar, Kestrel Prime, Kestrel, Xoris, Glaive Prime, Glaive, Pathocyst, Orvius, Halikar Wraith, Halikar, Falcor, Cerata, Coda Pathocyst (1.2)
 
 `FireRate`:
 
@@ -1099,7 +1096,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 8
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-11 "Edit section's source code: Attack Index 8")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-11 "Edit Section using Source Editor:
+Attack Index 8")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1109,7 +1107,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.2 | 0.2 | 0.196 | 0.1855 | 0.169 | 0.15 | 0.12 |
 | `CritMultiplier` | 2.39 | 2.225 | 2.16 | 2.0775 | 2 | 2 | 2 |
-| `Disposition` | 1.431 | 1.3125 | 1.3 | 1.28875 | 1.2475 | 0.885 | 0.6825 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.242 | 1.17 | 1.134 | 1.062 | 1 | 0.8831 | 0.72095 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 1.3 | 1.3 | 1.28 | 1.25 | 1.25 | 1.215 | 1.2 |
@@ -1155,9 +1153,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kestrel (1.45)
-* Second place is Halikar (1.44)
-* Third place is Orvius (1.35)
+* First place is Kestrel Prime, Kestrel, Xoris, Glaive Prime, Glaive, Pathocyst, Orvius, Halikar Wraith, Halikar, Falcor, Cerata, Coda Pathocyst (1.2)
 
 `FireRate`:
 
@@ -1193,7 +1189,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 9
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-12 "Edit section's source code: Attack Index 9")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-12 "Edit Section using Source Editor:
+Attack Index 9")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1203,7 +1200,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.2 | 0.1925 | 0.176 | 0.1655 | 0.15 | 0.129 | 0.113 |
 | `CritMultiplier` | 2.39 | 2.15 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.431 | 1.3125 | 1.3 | 1.28875 | 1.2475 | 0.885 | 0.6825 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.242 | 1.17 | 1.134 | 1.062 | 1 | 0.8831 | 0.72095 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 1.3 | 1.3 | 1.28 | 1.25 | 1.25 | 1.215 | 1.2 |
@@ -1249,9 +1246,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kestrel (1.45)
-* Second place is Halikar (1.44)
-* Third place is Orvius (1.35)
+* First place is Kestrel Prime, Kestrel, Xoris, Glaive Prime, Glaive, Pathocyst, Orvius, Halikar Wraith, Halikar, Falcor, Cerata, Coda Pathocyst (1.2)
 
 `FireRate`:
 
@@ -1287,7 +1282,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 10
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-13 "Edit section's source code: Attack Index 10")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-13 "Edit Section using Source Editor:
+Attack Index 10")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1297,7 +1293,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.18 | 0.18 | 0.18 | 0.18 | 0.18 | 0.18 | 0.18 |
 | `CritMultiplier` | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.35 | 1.35 | 1.35 | 1.35 | 1.35 | 1.35 | 1.35 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 0.75 | 0.75 | 0.75 | 0.75 | 0.75 | 0.75 | 0.75 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 1.3 | 1.3 | 1.3 | 1.3 | 1.3 | 1.3 | 1.3 |
@@ -1333,7 +1329,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Orvius (1.35)
+* First place is Orvius (1.2)
 
 `FireRate`:
 
@@ -1361,15 +1357,18 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## By Weapon Class
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-14 "Edit section's source code: By Weapon Class")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-14 "Edit Section using Source Editor:
+By Weapon Class")]
 
 ### Blade and Whip
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-15 "Edit section's source code: Blade and Whip")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-15 "Edit Section using Source Editor:
+Blade and Whip")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-16 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-16 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1379,7 +1378,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 60 | 60 | 60 | 60 | 60 | 60 | 60 |
 | `CritChance` | 0.314 | 0.26 | 0.224 | 0.206 | 0.198 | 0.192 | 0.134 |
 | `CritMultiplier` | 2.38 | 2.2 | 2.08 | 2.02 | 2 | 2 | 2 |
-| `Disposition` | 1.306 | 1.3 | 1.24 | 1.21 | 1.2 | 1.2 | 1.16 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.08 | 1.08 | 0.9822 | 0.9333 | 0.9002 | 0.8498 | 0.833 |
 | `FollowThrough` | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 |
 | `MeleeRange` | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.46 |
@@ -1425,9 +1424,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Lacera (1.31)
-* Second place is Mios (1.3)
-* Third place is Ceti Lacera, Jat Kusar (1.2)
+* First place is Dorrclave, Mios, Lacera, Ceti Lacera, Jat Kusar (1.2)
 
 `FireRate`:
 
@@ -1462,7 +1459,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-17 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-17 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1472,7 +1470,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 60 | 60 | 60 | 60 | 60 | 60 | 60 |
 | `CritChance` | 0.314 | 0.26 | 0.224 | 0.206 | 0.198 | 0.192 | 0.134 |
 | `CritMultiplier` | 2.46 | 2.4 | 2.16 | 2.04 | 2 | 2 | 2 |
-| `Disposition` | 1.306 | 1.3 | 1.24 | 1.21 | 1.2 | 1.2 | 1.16 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.08 | 1.08 | 0.9822 | 0.9333 | 0.9002 | 0.8498 | 0.833 |
 | `FollowThrough` | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 |
 | `MeleeRange` | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.46 |
@@ -1518,9 +1516,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Lacera (1.31)
-* Second place is Mios (1.3)
-* Third place is Ceti Lacera, Jat Kusar (1.2)
+* First place is Dorrclave, Mios, Lacera, Ceti Lacera, Jat Kusar (1.2)
 
 `FireRate`:
 
@@ -1555,7 +1551,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-18 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-18 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1565,7 +1562,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 60 | 60 | 60 | 60 | 60 | 60 | 60 |
 | `CritChance` | 0.314 | 0.26 | 0.224 | 0.206 | 0.198 | 0.192 | 0.134 |
 | `CritMultiplier` | 2.38 | 2.2 | 2.08 | 2.02 | 2 | 2 | 2 |
-| `Disposition` | 1.306 | 1.3 | 1.24 | 1.21 | 1.2 | 1.2 | 1.16 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.08 | 1.08 | 0.9822 | 0.9333 | 0.9002 | 0.8498 | 0.833 |
 | `FollowThrough` | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 |
 | `MeleeRange` | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.46 |
@@ -1611,9 +1608,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Lacera (1.31)
-* Second place is Mios (1.3)
-* Third place is Ceti Lacera, Jat Kusar (1.2)
+* First place is Dorrclave, Mios, Lacera, Ceti Lacera, Jat Kusar (1.2)
 
 `FireRate`:
 
@@ -1648,11 +1643,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Claws
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-19 "Edit section's source code: Claws")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-19 "Edit Section using Source Editor:
+Claws")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-20 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-20 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1662,7 +1659,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 60 | 58.75 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.335 | 0.29 | 0.2 | 0.2 | 0.2 | 0.175 | 0.145 |
 | `CritMultiplier` | 2.35 | 2.075 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.2 | 1.0875 | 1.05 | 0.975 | 0.9 | 0.425 | 0 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.025 | 1 | 1 | 1 | 1 | 0.9585 | 0.9085 |
 | `FollowThrough` | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 |
 | `MeleeRange` | 2.2 | 2.1 | 1.8 | 1.78125 | 1.7625 | 1.75 | 1.7375 |
@@ -1693,7 +1690,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `BlockAngle`:
 
 * First place is Garuda Prime Talons, Garuda Talons (60)
-* Second place is Venka, Ripkas, Venka Prime, Keratinos (55)
+* Second place is Venka, Keratinos, Ripkas, Venka Prime (55)
 
 `CritChance`:
 
@@ -1709,9 +1706,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Ripkas (1.3)
-* Second place is Venka (1.1)
-* Third place is Keratinos (1.05)
+* First place is Garuda Prime Talons, Venka, Keratinos, Ripkas, Venka Prime, Garuda Talons (1.2)
 
 `FireRate`:
 
@@ -1721,7 +1716,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Garuda Prime Talons, Venka, Ripkas, Venka Prime, Keratinos, Garuda Talons (0.8)
+* First place is Garuda Prime Talons, Venka, Keratinos, Ripkas, Venka Prime, Garuda Talons (0.8)
 
 `MeleeRange`:
 
@@ -1731,7 +1726,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Garuda Prime Talons, Venka, Ripkas, Venka Prime, Keratinos, Garuda Talons (1)
+* First place is Garuda Prime Talons, Venka, Keratinos, Ripkas, Venka Prime, Garuda Talons (1)
 
 `StatusChance`:
 
@@ -1747,7 +1742,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-21 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-21 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1757,7 +1753,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 60 | 58.75 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.335 | 0.29 | 0.2 | 0.2 | 0.2 | 0.175 | 0.145 |
 | `CritMultiplier` | 2.35 | 2.075 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.2 | 1.0875 | 1.05 | 0.975 | 0.9 | 0.425 | 0 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.025 | 1 | 1 | 1 | 1 | 0.9585 | 0.896 |
 | `FollowThrough` | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 |
 | `MeleeRange` | 2.2 | 2.1 | 1.8 | 1.78125 | 1.7625 | 1.75 | 1.7375 |
@@ -1782,12 +1778,12 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `AvgProcCount`:
 
 * First place is Garuda Prime Talons, Garuda Talons (1.3)
-* Second place is Venka, Ripkas, Venka Prime, Keratinos (1.1)
+* Second place is Venka, Keratinos, Ripkas, Venka Prime (1.1)
 
 `BlockAngle`:
 
 * First place is Garuda Prime Talons, Garuda Talons (60)
-* Second place is Venka, Ripkas, Venka Prime, Keratinos (55)
+* Second place is Venka, Keratinos, Ripkas, Venka Prime (55)
 
 `CritChance`:
 
@@ -1803,9 +1799,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Ripkas (1.3)
-* Second place is Venka (1.1)
-* Third place is Keratinos (1.05)
+* First place is Garuda Prime Talons, Venka, Keratinos, Ripkas, Venka Prime, Garuda Talons (1.2)
 
 `FireRate`:
 
@@ -1815,7 +1809,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Garuda Prime Talons, Venka, Ripkas, Venka Prime, Keratinos, Garuda Talons (0.8)
+* First place is Garuda Prime Talons, Venka, Keratinos, Ripkas, Venka Prime, Garuda Talons (0.8)
 
 `MeleeRange`:
 
@@ -1825,12 +1819,12 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Garuda Prime Talons, Venka, Ripkas, Venka Prime, Keratinos, Garuda Talons (1)
+* First place is Garuda Prime Talons, Venka, Keratinos, Ripkas, Venka Prime, Garuda Talons (1)
 
 `StatusChance`:
 
 * First place is Garuda Prime Talons, Garuda Talons (0.3)
-* Second place is Venka, Ripkas, Venka Prime, Keratinos (0.1)
+* Second place is Venka, Keratinos, Ripkas, Venka Prime (0.1)
 
 `TotalDamage`:
 
@@ -1840,7 +1834,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-22 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-22 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1850,7 +1845,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 60 | 58.75 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.335 | 0.29 | 0.2 | 0.2 | 0.2 | 0.175 | 0.145 |
 | `CritMultiplier` | 2.35 | 2.075 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.2 | 1.0875 | 1.05 | 0.975 | 0.9 | 0.425 | 0 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.025 | 1 | 1 | 1 | 1 | 0.9585 | 0.896 |
 | `FollowThrough` | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 |
 | `MeleeRange` | 2.2 | 2.1 | 1.8 | 1.78125 | 1.7625 | 1.75 | 1.7375 |
@@ -1874,13 +1869,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `AvgProcCount`:
 
-* First place is Venka, Ripkas, Venka Prime, Keratinos (1.1)
+* First place is Venka, Keratinos, Ripkas, Venka Prime (1.1)
 * Second place is Garuda Prime Talons, Garuda Talons (0.1)
 
 `BlockAngle`:
 
 * First place is Garuda Prime Talons, Garuda Talons (60)
-* Second place is Venka, Ripkas, Venka Prime, Keratinos (55)
+* Second place is Venka, Keratinos, Ripkas, Venka Prime (55)
 
 `CritChance`:
 
@@ -1896,9 +1891,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Ripkas (1.3)
-* Second place is Venka (1.1)
-* Third place is Keratinos (1.05)
+* First place is Garuda Prime Talons, Venka, Keratinos, Ripkas, Venka Prime, Garuda Talons (1.2)
 
 `FireRate`:
 
@@ -1908,7 +1901,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Garuda Prime Talons, Venka, Ripkas, Venka Prime, Keratinos, Garuda Talons (0.8)
+* First place is Garuda Prime Talons, Venka, Keratinos, Ripkas, Venka Prime, Garuda Talons (0.8)
 
 `MeleeRange`:
 
@@ -1918,11 +1911,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Garuda Prime Talons, Venka, Ripkas, Venka Prime, Keratinos, Garuda Talons (1)
+* First place is Garuda Prime Talons, Venka, Keratinos, Ripkas, Venka Prime, Garuda Talons (1)
 
 `StatusChance`:
 
-* First place is Garuda Prime Talons, Venka, Ripkas, Venka Prime, Keratinos, Garuda Talons (0.1)
+* First place is Garuda Prime Talons, Venka, Keratinos, Ripkas, Venka Prime, Garuda Talons (0.1)
 
 `TotalDamage`:
 
@@ -1932,11 +1925,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Dagger
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-23 "Edit section's source code: Dagger")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-23 "Edit Section using Source Editor:
+Dagger")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-24 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-24 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -1946,7 +1941,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 50 | 45 | 45 | 45 | 45 | 45 | 45 |
 | `CritChance` | 0.224 | 0.14 | 0.13 | 0.13 | 0.126 | 0.108 | 0.1 |
 | `CritMultiplier` | 2.12 | 2 | 1.96 | 1.84 | 1.8 | 1.68 | 1.52 |
-| `Disposition` | 1.432 | 1.35 | 1.32 | 1.23 | 1.18 | 1.12 | 1.02 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 0.917 | 0.75 | 0.75 | 0.75 | 0.702 | 0.6676 |
 | `FollowThrough` | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 |
 | `MeleeRange` | 1.88 | 1.8 | 1.79 | 1.76 | 1.75 | 1.75 | 1.75 |
@@ -1977,7 +1972,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `BlockAngle`:
 
 * First place is Innodem, Karyst Prime (50)
-* Second place is Karyst, Ceramic Dagger, Heat Dagger, Sheev, Rumblejack, Rakta Dark Dagger, Dark Dagger (45)
+* Second place is Karyst, Sheev, Ceramic Dagger, Heat Dagger, Rumblejack, Rakta Dark Dagger, Dark Dagger (45)
 
 `CritChance`:
 
@@ -1993,9 +1988,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Heat Dagger (1.44)
-* Second place is Ceramic Dagger (1.43)
-* Third place is Karyst, Sheev (1.35)
+* First place is Karyst, Sheev, Ceramic Dagger, Heat Dagger, Rumblejack, Innodem, Karyst Prime, Rakta Dark Dagger, Dark Dagger (1.2)
 
 `FireRate`:
 
@@ -2005,17 +1998,17 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Karyst, Ceramic Dagger, Heat Dagger, Sheev, Innodem, Karyst Prime, Rumblejack, Rakta Dark Dagger, Dark Dagger (0.9)
+* First place is Karyst, Sheev, Ceramic Dagger, Heat Dagger, Rumblejack, Innodem, Karyst Prime, Rakta Dark Dagger, Dark Dagger (0.9)
 
 `MeleeRange`:
 
 * First place is Karyst Prime (2.2)
-* Second place is Ceramic Dagger, Innodem, Rumblejack (1.8)
+* Second place is Ceramic Dagger, Rumblejack, Innodem (1.8)
 * Third place is Karyst, Heat Dagger, Rakta Dark Dagger, Dark Dagger (1.75)
 
 `Multishot`:
 
-* First place is Karyst, Ceramic Dagger, Heat Dagger, Sheev, Innodem, Karyst Prime, Rumblejack, Rakta Dark Dagger, Dark Dagger (1)
+* First place is Karyst, Sheev, Ceramic Dagger, Heat Dagger, Rumblejack, Innodem, Karyst Prime, Rakta Dark Dagger, Dark Dagger (1)
 
 `StatusChance`:
 
@@ -2031,7 +2024,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-25 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-25 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -2041,7 +2035,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 50 | 45 | 45 | 45 | 45 | 45 | 45 |
 | `CritChance` | 0.224 | 0.14 | 0.138 | 0.132 | 0.126 | 0.108 | 0.1 |
 | `CritMultiplier` | 2.12 | 2 | 1.96 | 1.84 | 1.8 | 1.68 | 1.52 |
-| `Disposition` | 1.432 | 1.35 | 1.32 | 1.23 | 1.18 | 1.12 | 1.02 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 0.917 | 0.75 | 0.75 | 0.75 | 0.7002 | 0.667 |
 | `FollowThrough` | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 |
 | `MeleeRange` | 1.88 | 1.8 | 1.79 | 1.76 | 1.75 | 1.75 | 1.75 |
@@ -2072,7 +2066,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `BlockAngle`:
 
 * First place is Innodem, Karyst Prime (50)
-* Second place is Karyst, Ceramic Dagger, Heat Dagger, Sheev, Rumblejack, Rakta Dark Dagger, Dark Dagger (45)
+* Second place is Karyst, Sheev, Ceramic Dagger, Heat Dagger, Rumblejack, Rakta Dark Dagger, Dark Dagger (45)
 
 `CritChance`:
 
@@ -2088,9 +2082,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Heat Dagger (1.44)
-* Second place is Ceramic Dagger (1.43)
-* Third place is Karyst, Sheev (1.35)
+* First place is Karyst, Sheev, Ceramic Dagger, Heat Dagger, Rumblejack, Innodem, Karyst Prime, Rakta Dark Dagger, Dark Dagger (1.2)
 
 `FireRate`:
 
@@ -2100,17 +2092,17 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Karyst, Ceramic Dagger, Heat Dagger, Sheev, Innodem, Karyst Prime, Rumblejack, Rakta Dark Dagger, Dark Dagger (0.9)
+* First place is Karyst, Sheev, Ceramic Dagger, Heat Dagger, Rumblejack, Innodem, Karyst Prime, Rakta Dark Dagger, Dark Dagger (0.9)
 
 `MeleeRange`:
 
 * First place is Karyst Prime (2.2)
-* Second place is Ceramic Dagger, Innodem, Rumblejack (1.8)
+* Second place is Ceramic Dagger, Rumblejack, Innodem (1.8)
 * Third place is Karyst, Heat Dagger, Rakta Dark Dagger, Dark Dagger (1.75)
 
 `Multishot`:
 
-* First place is Karyst, Ceramic Dagger, Heat Dagger, Sheev, Innodem, Karyst Prime, Rumblejack, Rakta Dark Dagger, Dark Dagger (1)
+* First place is Karyst, Sheev, Ceramic Dagger, Heat Dagger, Rumblejack, Innodem, Karyst Prime, Rakta Dark Dagger, Dark Dagger (1)
 
 `StatusChance`:
 
@@ -2126,7 +2118,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-26 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-26 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -2136,7 +2129,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 50 | 45 | 45 | 45 | 45 | 45 | 45 |
 | `CritChance` | 0.224 | 0.14 | 0.138 | 0.132 | 0.126 | 0.108 | 0.1 |
 | `CritMultiplier` | 2.12 | 2 | 1.96 | 1.84 | 1.8 | 1.68 | 1.52 |
-| `Disposition` | 1.432 | 1.35 | 1.32 | 1.23 | 1.18 | 1.12 | 1.02 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 0.917 | 0.75 | 0.75 | 0.75 | 0.7002 | 0.667 |
 | `FollowThrough` | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 |
 | `MeleeRange` | 1.88 | 1.8 | 1.79 | 1.76 | 1.75 | 1.75 | 1.75 |
@@ -2167,7 +2160,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `BlockAngle`:
 
 * First place is Innodem, Karyst Prime (50)
-* Second place is Karyst, Ceramic Dagger, Heat Dagger, Sheev, Rumblejack, Rakta Dark Dagger, Dark Dagger (45)
+* Second place is Karyst, Sheev, Ceramic Dagger, Heat Dagger, Rumblejack, Rakta Dark Dagger, Dark Dagger (45)
 
 `CritChance`:
 
@@ -2183,9 +2176,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Heat Dagger (1.44)
-* Second place is Ceramic Dagger (1.43)
-* Third place is Karyst, Sheev (1.35)
+* First place is Karyst, Sheev, Ceramic Dagger, Heat Dagger, Rumblejack, Innodem, Karyst Prime, Rakta Dark Dagger, Dark Dagger (1.2)
 
 `FireRate`:
 
@@ -2195,17 +2186,17 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Karyst, Ceramic Dagger, Heat Dagger, Sheev, Innodem, Karyst Prime, Rumblejack, Rakta Dark Dagger, Dark Dagger (0.9)
+* First place is Karyst, Sheev, Ceramic Dagger, Heat Dagger, Rumblejack, Innodem, Karyst Prime, Rakta Dark Dagger, Dark Dagger (0.9)
 
 `MeleeRange`:
 
 * First place is Karyst Prime (2.2)
-* Second place is Ceramic Dagger, Innodem, Rumblejack (1.8)
+* Second place is Ceramic Dagger, Rumblejack, Innodem (1.8)
 * Third place is Karyst, Heat Dagger, Rakta Dark Dagger, Dark Dagger (1.75)
 
 `Multishot`:
 
-* First place is Karyst, Ceramic Dagger, Heat Dagger, Sheev, Innodem, Karyst Prime, Rumblejack, Rakta Dark Dagger, Dark Dagger (1)
+* First place is Karyst, Sheev, Ceramic Dagger, Heat Dagger, Rumblejack, Innodem, Karyst Prime, Rakta Dark Dagger, Dark Dagger (1)
 
 `StatusChance`:
 
@@ -2221,7 +2212,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-27 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-27 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -2231,7 +2223,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 49.5 | 48.75 | 48 | 47.625 | 47.25 | 46.5 | 45.75 |
 | `CritChance` | 0.208 | 0.19 | 0.172 | 0.163 | 0.154 | 0.136 | 0.118 |
 | `CritMultiplier` | 1.95 | 1.875 | 1.8 | 1.7625 | 1.725 | 1.65 | 1.575 |
-| `Disposition` | 1.352 | 1.235 | 1.118 | 1.0595 | 1.001 | 0.884 | 0.767 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 0.975 | 0.9375 | 0.9 | 0.88125 | 0.8625 | 0.825 | 0.7875 |
 | `FollowThrough` | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 |
 | `MeleeRange` | 1.8 | 1.8 | 1.8 | 1.8 | 1.8 | 1.8 | 1.8 |
@@ -2272,8 +2264,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Ceramic Dagger (1.43)
-* Second place is Innodem (0.65)
+* First place is Ceramic Dagger, Innodem (1.2)
 
 `FireRate`:
 
@@ -2303,7 +2294,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 5
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-28 "Edit section's source code: Attack Index 5")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-28 "Edit Section using Source Editor:
+Attack Index 5")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -2313,7 +2305,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 45 | 45 | 45 | 45 | 45 | 45 | 45 |
 | `CritChance` | 0.1 | 0.1 | 0.1 | 0.1 | 0.1 | 0.1 | 0.1 |
 | `CritMultiplier` | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.43 | 1.43 | 1.43 | 1.43 | 1.43 | 1.43 | 1.43 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | `FollowThrough` | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 |
 | `MeleeRange` | 1.8 | 1.8 | 1.8 | 1.8 | 1.8 | 1.8 | 1.8 |
@@ -2349,7 +2341,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Ceramic Dagger (1.43)
+* First place is Ceramic Dagger (1.2)
 
 `FireRate`:
 
@@ -2377,11 +2369,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Dual Daggers
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-29 "Edit section's source code: Dual Daggers")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-29 "Edit Section using Source Editor:
+Dual Daggers")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-30 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-30 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -2391,7 +2385,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 50 | 50 | 50 | 50 | 50 | 50 | 50 |
 | `CritChance` | 0.28 | 0.2475 | 0.21 | 0.19125 | 0.1725 | 0.13 | 0.095 |
 | `CritMultiplier` | 2.6 | 2.525 | 2.3 | 2.1875 | 2.075 | 1.9 | 1.725 |
-| `Disposition` | 1.445 | 1.39 | 1.36 | 1.3375 | 1.315 | 1.15 | 0.925 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.125 | 1.06 | 1 | 1 | 1 | 0.9585 | 0.896 |
 | `FollowThrough` | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 |
 | `MeleeRange` | 1.825 | 1.75 | 1.75 | 1.73125 | 1.7125 | 1.7 | 1.6875 |
@@ -2421,7 +2415,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Nepheri, Ether Daggers, Fang Prime, Okina, Fang, Okina Prime (50)
+* First place is Nepheri, Ether Daggers, Fang Prime, Fang, Okina, Okina Prime (50)
 
 `CritChance`:
 
@@ -2437,9 +2431,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Ether Daggers (1.49)
-* Second place is Okina (1.4)
-* Third place is Fang (1.36)
+* First place is Nepheri, Ether Daggers, Fang Prime, Fang, Okina, Okina Prime (1.2)
 
 `FireRate`:
 
@@ -2449,7 +2441,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Nepheri, Ether Daggers, Fang Prime, Okina, Fang, Okina Prime (0.8)
+* First place is Nepheri, Ether Daggers, Fang Prime, Fang, Okina, Okina Prime (0.8)
 
 `MeleeRange`:
 
@@ -2459,7 +2451,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Nepheri, Ether Daggers, Fang Prime, Okina, Fang, Okina Prime (1)
+* First place is Nepheri, Ether Daggers, Fang Prime, Fang, Okina, Okina Prime (1)
 
 `StatusChance`:
 
@@ -2475,7 +2467,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-31 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-31 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -2485,7 +2478,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 50 | 50 | 50 | 50 | 50 | 50 | 50 |
 | `CritChance` | 0.28 | 0.2475 | 0.21 | 0.19125 | 0.1725 | 0.13 | 0.095 |
 | `CritMultiplier` | 2.6 | 2.525 | 2.3 | 2.1875 | 2.075 | 1.9 | 1.725 |
-| `Disposition` | 1.445 | 1.39 | 1.36 | 1.3375 | 1.315 | 1.15 | 0.925 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.125 | 1.06 | 1 | 1 | 1 | 0.9585 | 0.896 |
 | `FollowThrough` | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 |
 | `MeleeRange` | 1.825 | 1.75 | 1.75 | 1.73125 | 1.7125 | 1.7 | 1.6875 |
@@ -2515,7 +2508,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Nepheri, Ether Daggers, Fang Prime, Okina, Fang, Okina Prime (50)
+* First place is Nepheri, Ether Daggers, Fang Prime, Fang, Okina, Okina Prime (50)
 
 `CritChance`:
 
@@ -2531,9 +2524,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Ether Daggers (1.49)
-* Second place is Okina (1.4)
-* Third place is Fang (1.36)
+* First place is Nepheri, Ether Daggers, Fang Prime, Fang, Okina, Okina Prime (1.2)
 
 `FireRate`:
 
@@ -2543,7 +2534,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Nepheri, Ether Daggers, Fang Prime, Okina, Fang, Okina Prime (0.8)
+* First place is Nepheri, Ether Daggers, Fang Prime, Fang, Okina, Okina Prime (0.8)
 
 `MeleeRange`:
 
@@ -2553,7 +2544,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Nepheri, Ether Daggers, Fang Prime, Okina, Fang, Okina Prime (1)
+* First place is Nepheri, Ether Daggers, Fang Prime, Fang, Okina, Okina Prime (1)
 
 `StatusChance`:
 
@@ -2569,7 +2560,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-32 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-32 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -2579,7 +2571,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 50 | 50 | 50 | 50 | 50 | 50 | 50 |
 | `CritChance` | 0.28 | 0.2475 | 0.21 | 0.19125 | 0.1725 | 0.13 | 0.095 |
 | `CritMultiplier` | 2.6 | 2.525 | 2.3 | 2.1875 | 2.075 | 1.9 | 1.725 |
-| `Disposition` | 1.445 | 1.39 | 1.36 | 1.3375 | 1.315 | 1.15 | 0.925 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.125 | 1.06 | 1 | 1 | 1 | 0.9585 | 0.896 |
 | `FollowThrough` | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 |
 | `MeleeRange` | 1.825 | 1.75 | 1.75 | 1.73125 | 1.7125 | 1.7 | 1.6875 |
@@ -2609,7 +2601,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Nepheri, Ether Daggers, Fang Prime, Okina, Fang, Okina Prime (50)
+* First place is Nepheri, Ether Daggers, Fang Prime, Fang, Okina, Okina Prime (50)
 
 `CritChance`:
 
@@ -2625,9 +2617,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Ether Daggers (1.49)
-* Second place is Okina (1.4)
-* Third place is Fang (1.36)
+* First place is Nepheri, Ether Daggers, Fang Prime, Fang, Okina, Okina Prime (1.2)
 
 `FireRate`:
 
@@ -2637,7 +2627,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Nepheri, Ether Daggers, Fang Prime, Okina, Fang, Okina Prime (0.8)
+* First place is Nepheri, Ether Daggers, Fang Prime, Fang, Okina, Okina Prime (0.8)
 
 `MeleeRange`:
 
@@ -2647,7 +2637,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Nepheri, Ether Daggers, Fang Prime, Okina, Fang, Okina Prime (1)
+* First place is Nepheri, Ether Daggers, Fang Prime, Fang, Okina, Okina Prime (1)
 
 `StatusChance`:
 
@@ -2663,7 +2653,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-33 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-33 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -2673,7 +2664,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 50 | 50 | 50 | 50 | 50 | 50 | 50 |
 | `CritChance` | 0.282 | 0.255 | 0.228 | 0.2145 | 0.205 | 0.19 | 0.175 |
 | `CritMultiplier` | 2.54 | 2.45 | 2.36 | 2.315 | 2.27 | 2.18 | 2.09 |
-| `Disposition` | 1.32 | 1.2 | 1.08 | 1.02 | 0.97 | 0.88 | 0.79 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.152 | 1.125 | 1.098 | 1.0845 | 1.072 | 1.048 | 1.024 |
 | `FollowThrough` | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 |
 | `MeleeRange` | 1.86 | 1.8 | 1.74 | 1.71 | 1.7 | 1.7 | 1.7 |
@@ -2717,9 +2708,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Okina (1.4)
-* Second place is Nepheri (1)
-* Third place is Okina Prime (0.7)
+* First place is Nepheri, Okina, Okina Prime (1.2)
 
 `FireRate`:
 
@@ -2752,7 +2741,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 5
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-34 "Edit section's source code: Attack Index 5")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-34 "Edit Section using Source Editor:
+Attack Index 5")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -2762,7 +2752,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 50 | 50 | 50 | 50 | 50 | 50 | 50 |
 | `CritChance` | 0.286 | 0.265 | 0.244 | 0.2335 | 0.223 | 0.202 | 0.181 |
 | `CritMultiplier` | 2.54 | 2.45 | 2.36 | 2.315 | 2.27 | 2.18 | 2.09 |
-| `Disposition` | 1.33 | 1.225 | 1.12 | 1.0675 | 1.015 | 0.91 | 0.805 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.161 | 1.1475 | 1.134 | 1.12725 | 1.1205 | 1.107 | 1.0935 |
 | `FollowThrough` | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 |
 | `MeleeRange` | 1.7 | 1.7 | 1.7 | 1.7 | 1.7 | 1.7 | 1.7 |
@@ -2802,8 +2792,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Okina (1.4)
-* Second place is Okina Prime (0.7)
+* First place is Okina, Okina Prime (1.2)
 
 `FireRate`:
 
@@ -2833,11 +2822,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Dual Swords
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-35 "Edit section's source code: Dual Swords")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-35 "Edit Section using Source Editor:
+Dual Swords")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-36 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-36 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -2847,7 +2838,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 60 | 60 | 60 | 60 | 60 | 60 | 60 |
 | `CritChance` | 0.282 | 0.25 | 0.25 | 0.22975 | 0.211 | 0.181 | 0.0925 |
 | `CritMultiplier` | 3 | 3 | 2.54 | 2.0975 | 2 | 2 | 1.5 |
-| `Disposition` | 1.441 | 1.3625 | 1.3 | 1.29875 | 1.25 | 1.17 | 0.985 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.25 | 1.17 | 1.116 | 1 | 1 | 0.917 | 0.9119 |
 | `FollowThrough` | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 |
 | `MeleeRange` | 2.5 | 2.5 | 2.5 | 2.4 | 2.4 | 2.4 | 2.3 |
@@ -2893,9 +2884,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Dual Skana (1.48)
-* Second place is Dual Ether (1.45)
-* Third place is Dual Zoren, Dual Heat Swords (1.44)
+* First place is Dual Ichor, Dual Keres, Dual Skana, Twin Krohkur, Dual Zoren Prime, Dual Kamas Prime, Dex Dakra, Prisma Dual Cleavers, Twin Basolk, Dual Viciss, Dark Split-Sword (Dual Swords), Dual Keres Prime, Dual Kamas, Dual Cleavers, Nami Skyla Prime, Nami Skyla, Dual Zoren, Dual Heat Swords, Dual Ether, Dual Raza (1.2)
 
 `FireRate`:
 
@@ -2931,7 +2920,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-37 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-37 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -2941,7 +2931,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 60 | 60 | 60 | 60 | 60 | 60 | 60 |
 | `CritChance` | 0.282 | 0.25 | 0.25 | 0.22975 | 0.211 | 0.181 | 0.0925 |
 | `CritMultiplier` | 3 | 3 | 2.54 | 2.0975 | 2 | 2 | 1.5 |
-| `Disposition` | 1.441 | 1.3625 | 1.3 | 1.29875 | 1.25 | 1.17 | 0.985 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.25 | 1.17 | 1.116 | 1 | 1 | 0.917 | 0.9044 |
 | `FollowThrough` | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 |
 | `MeleeRange` | 2.5 | 2.5 | 2.5 | 2.4 | 2.4 | 2.4 | 2.3 |
@@ -2987,9 +2977,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Dual Skana (1.48)
-* Second place is Dual Ether (1.45)
-* Third place is Dual Zoren, Dual Heat Swords (1.44)
+* First place is Dual Ichor, Dual Keres, Dual Skana, Twin Krohkur, Dual Zoren Prime, Dual Kamas Prime, Dex Dakra, Prisma Dual Cleavers, Twin Basolk, Dual Viciss, Dark Split-Sword (Dual Swords), Dual Keres Prime, Dual Kamas, Dual Cleavers, Nami Skyla Prime, Nami Skyla, Dual Zoren, Dual Heat Swords, Dual Ether, Dual Raza (1.2)
 
 `FireRate`:
 
@@ -3025,7 +3013,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-38 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-38 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -3035,7 +3024,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 60 | 60 | 60 | 60 | 60 | 60 | 60 |
 | `CritChance` | 0.282 | 0.25 | 0.25 | 0.22975 | 0.211 | 0.181 | 0.0925 |
 | `CritMultiplier` | 3 | 3 | 2.54 | 2.1975 | 2.055 | 2 | 1.5 |
-| `Disposition` | 1.441 | 1.3625 | 1.3 | 1.29875 | 1.25 | 1.17 | 0.985 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.25 | 1.17 | 1.116 | 1 | 1 | 0.917 | 0.9044 |
 | `FollowThrough` | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 |
 | `MeleeRange` | 2.5 | 2.5 | 2.5 | 2.4 | 2.4 | 2.4 | 2.3 |
@@ -3081,9 +3070,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Dual Skana (1.48)
-* Second place is Dual Ether (1.45)
-* Third place is Dual Zoren, Dual Heat Swords (1.44)
+* First place is Dual Ichor, Dual Keres, Dual Skana, Twin Krohkur, Dual Zoren Prime, Dual Kamas Prime, Dex Dakra, Prisma Dual Cleavers, Twin Basolk, Dual Viciss, Dark Split-Sword (Dual Swords), Dual Keres Prime, Dual Kamas, Dual Cleavers, Nami Skyla Prime, Nami Skyla, Dual Zoren, Dual Heat Swords, Dual Ether, Dual Raza (1.2)
 
 `FireRate`:
 
@@ -3119,11 +3106,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Fist
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-39 "Edit section's source code: Fist")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-39 "Edit Section using Source Editor:
+Fist")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-40 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-40 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -3133,7 +3122,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 50 | 50 | 50 | 50 | 50 | 50 | 50 |
 | `CritChance` | 0.3 | 0.3 | 0.284 | 0.2735 | 0.263 | 0.251 | 0.2025 |
 | `CritMultiplier` | 2.49 | 2.4 | 2.32 | 2.2675 | 2.215 | 2.02 | 2 |
-| `Disposition` | 1.465 | 1.45 | 1.41 | 1.3935 | 1.383 | 1.308 | 1.1575 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.194 | 1.1025 | 1.016 | 1 | 1 | 1 | 1 |
 | `FollowThrough` | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 |
 | `MeleeRange` | 1.28 | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 |
@@ -3179,9 +3168,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Ankyros (1.5)
-* Second place is Ankyros Prime, Mk1-Furax (1.45)
-* Third place is Tekko (1.4)
+* First place is Tekko Prime, Ankyros, Furax, Ankyros Prime, Ruvox, Furax Wraith, Mk1-Furax, Tekko (1.2)
 
 `FireRate`:
 
@@ -3216,7 +3203,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-41 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-41 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -3226,7 +3214,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 50 | 50 | 50 | 50 | 50 | 50 | 50 |
 | `CritChance` | 0.3 | 0.3 | 0.284 | 0.2735 | 0.263 | 0.251 | 0.2025 |
 | `CritMultiplier` | 2.49 | 2.4 | 2.32 | 2.2675 | 2.215 | 2.02 | 2 |
-| `Disposition` | 1.465 | 1.45 | 1.41 | 1.3935 | 1.383 | 1.308 | 1.1575 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.194 | 1.1025 | 1.016 | 1 | 1 | 1 | 1 |
 | `FollowThrough` | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 |
 | `MeleeRange` | 1.28 | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 |
@@ -3270,9 +3258,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Ankyros (1.5)
-* Second place is Ankyros Prime, Mk1-Furax (1.45)
-* Third place is Tekko (1.4)
+* First place is Tekko Prime, Ankyros, Furax, Ankyros Prime, Ruvox, Furax Wraith, Mk1-Furax, Tekko (1.2)
 
 `FireRate`:
 
@@ -3305,7 +3291,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-42 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-42 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -3315,7 +3302,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 50 | 50 | 50 | 50 | 50 | 50 | 50 |
 | `CritChance` | 0.3 | 0.3 | 0.284 | 0.2735 | 0.263 | 0.251 | 0.2025 |
 | `CritMultiplier` | 2.4 | 2.325 | 2.3 | 2.2675 | 2.215 | 2.02 | 2 |
-| `Disposition` | 1.465 | 1.45 | 1.41 | 1.3935 | 1.383 | 1.308 | 1.1575 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.194 | 1.1025 | 1.016 | 1 | 1 | 1 | 1 |
 | `FollowThrough` | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 |
 | `MeleeRange` | 1.28 | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 |
@@ -3359,9 +3346,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Ankyros (1.5)
-* Second place is Ankyros Prime, Mk1-Furax (1.45)
-* Third place is Tekko (1.4)
+* First place is Tekko Prime, Ankyros, Furax, Ankyros Prime, Ruvox, Furax Wraith, Mk1-Furax, Tekko (1.2)
 
 `FireRate`:
 
@@ -3394,11 +3379,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Glaive
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-43 "Edit section's source code: Glaive")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-43 "Edit Section using Source Editor:
+Glaive")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-44 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-44 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -3408,7 +3395,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.2 | 0.2 | 0.186 | 0.17775 | 0.169 | 0.15 | 0.12 |
 | `CritMultiplier` | 2.3 | 2.225 | 2.06 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.431 | 1.3125 | 1.3 | 1.28875 | 1.2475 | 0.885 | 0.6825 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.242 | 1.17 | 1.134 | 1.062 | 1 | 0.8831 | 0.72095 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 1.3 | 1.3 | 1.28 | 1.25 | 1.25 | 1.215 | 1.2 |
@@ -3454,9 +3441,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kestrel (1.45)
-* Second place is Halikar (1.44)
-* Third place is Orvius (1.35)
+* First place is Kestrel Prime, Kestrel, Xoris, Glaive Prime, Glaive, Pathocyst, Orvius, Halikar Wraith, Halikar, Falcor, Cerata, Coda Pathocyst (1.2)
 
 `FireRate`:
 
@@ -3492,7 +3477,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-45 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-45 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -3502,7 +3488,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.22 | 0.2125 | 0.2 | 0.19775 | 0.19 | 0.176 | 0.14 |
 | `CritMultiplier` | 2.39 | 2.3 | 2.2 | 2.1775 | 2.1 | 2.1 | 2.1 |
-| `Disposition` | 1.431 | 1.3125 | 1.3 | 1.28875 | 1.2475 | 0.885 | 0.6825 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.17 | 1.17 | 1.048 | 1 | 1 | 0.8831 | 0.72095 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 1.3 | 1.3 | 1.28 | 1.25 | 1.25 | 1.215 | 1.2 |
@@ -3548,9 +3534,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kestrel (1.45)
-* Second place is Halikar (1.44)
-* Third place is Orvius (1.35)
+* First place is Kestrel Prime, Kestrel, Xoris, Glaive Prime, Glaive, Pathocyst, Orvius, Halikar Wraith, Halikar, Falcor, Cerata, Coda Pathocyst (1.2)
 
 `FireRate`:
 
@@ -3586,7 +3570,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-46 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-46 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -3596,7 +3581,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.22 | 0.2125 | 0.2 | 0.19775 | 0.19 | 0.176 | 0.14 |
 | `CritMultiplier` | 2.39 | 2.3 | 2.2 | 2.1775 | 2.1 | 2.1 | 2.1 |
-| `Disposition` | 1.431 | 1.3125 | 1.3 | 1.28875 | 1.2475 | 0.885 | 0.6825 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.17 | 1.17 | 1.048 | 1 | 1 | 0.8831 | 0.72095 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 1.3 | 1.3 | 1.28 | 1.25 | 1.25 | 1.215 | 1.2 |
@@ -3642,9 +3627,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kestrel (1.45)
-* Second place is Halikar (1.44)
-* Third place is Orvius (1.35)
+* First place is Kestrel Prime, Kestrel, Xoris, Glaive Prime, Glaive, Pathocyst, Orvius, Halikar Wraith, Halikar, Falcor, Cerata, Coda Pathocyst (1.2)
 
 `FireRate`:
 
@@ -3680,7 +3663,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-47 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-47 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -3690,7 +3674,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.209 | 0.2 | 0.19 | 0.1855 | 0.1685 | 0.14 | 0.12 |
 | `CritMultiplier` | 2.39 | 2.3 | 2.2 | 2.1775 | 2.1 | 2.1 | 2.1 |
-| `Disposition` | 1.431 | 1.3125 | 1.3 | 1.28875 | 1.2475 | 0.885 | 0.6825 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.17 | 1.17 | 1.048 | 1 | 1 | 0.8831 | 0.72095 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 1.3 | 1.3 | 1.28 | 1.25 | 1.25 | 1.215 | 1.2 |
@@ -3736,9 +3720,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kestrel (1.45)
-* Second place is Halikar (1.44)
-* Third place is Orvius (1.35)
+* First place is Kestrel Prime, Kestrel, Xoris, Glaive Prime, Glaive, Pathocyst, Orvius, Halikar Wraith, Halikar, Falcor, Cerata, Coda Pathocyst (1.2)
 
 `FireRate`:
 
@@ -3774,7 +3756,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 5
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-48 "Edit section's source code: Attack Index 5")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-48 "Edit Section using Source Editor:
+Attack Index 5")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -3784,7 +3767,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.24 | 0.225 | 0.216 | 0.21 | 0.21 | 0.21 | 0.16 |
 | `CritMultiplier` | 2.5 | 2.425 | 2.4 | 2.3775 | 2.3 | 2.23 | 2.2 |
-| `Disposition` | 1.431 | 1.3125 | 1.3 | 1.28875 | 1.2475 | 0.885 | 0.6825 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 0.833 | 0.833 | 0.833 | 0.833 | 0.833 | 0.833 | 0.833 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 1.3 | 1.3 | 1.28 | 1.25 | 1.25 | 1.215 | 1.2 |
@@ -3830,9 +3813,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kestrel (1.45)
-* Second place is Halikar (1.44)
-* Third place is Orvius (1.35)
+* First place is Kestrel Prime, Kestrel, Xoris, Glaive Prime, Glaive, Pathocyst, Orvius, Halikar Wraith, Halikar, Falcor, Cerata, Coda Pathocyst (1.2)
 
 `FireRate`:
 
@@ -3867,7 +3848,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 6
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-49 "Edit section's source code: Attack Index 6")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-49 "Edit Section using Source Editor:
+Attack Index 6")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -3877,7 +3859,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.24 | 0.225 | 0.216 | 0.21 | 0.21 | 0.21 | 0.16 |
 | `CritMultiplier` | 2.5 | 2.425 | 2.4 | 2.3775 | 2.3 | 2.23 | 2.2 |
-| `Disposition` | 1.431 | 1.3125 | 1.3 | 1.28875 | 1.2475 | 0.885 | 0.6825 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 0.9833 | 0.833 | 0.833 | 0.833 | 0.833 | 0.833 | 0.833 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 1.3 | 1.3 | 1.28 | 1.25 | 1.25 | 1.215 | 1.2 |
@@ -3923,9 +3905,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kestrel (1.45)
-* Second place is Halikar (1.44)
-* Third place is Orvius (1.35)
+* First place is Kestrel Prime, Kestrel, Xoris, Glaive Prime, Glaive, Pathocyst, Orvius, Halikar Wraith, Halikar, Falcor, Cerata, Coda Pathocyst (1.2)
 
 `FireRate`:
 
@@ -3961,7 +3941,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 7
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-50 "Edit section's source code: Attack Index 7")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-50 "Edit Section using Source Editor:
+Attack Index 7")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -3971,7 +3952,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.24 | 0.225 | 0.216 | 0.21 | 0.21 | 0.21 | 0.16 |
 | `CritMultiplier` | 2.5 | 2.425 | 2.4 | 2.3775 | 2.3 | 2.23 | 2.2 |
-| `Disposition` | 1.431 | 1.3125 | 1.3 | 1.28875 | 1.2475 | 0.885 | 0.6825 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 0.9833 | 0.833 | 0.833 | 0.833 | 0.833 | 0.833 | 0.833 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 1.3 | 1.3 | 1.28 | 1.25 | 1.25 | 1.215 | 1.2 |
@@ -4017,9 +3998,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kestrel (1.45)
-* Second place is Halikar (1.44)
-* Third place is Orvius (1.35)
+* First place is Kestrel Prime, Kestrel, Xoris, Glaive Prime, Glaive, Pathocyst, Orvius, Halikar Wraith, Halikar, Falcor, Cerata, Coda Pathocyst (1.2)
 
 `FireRate`:
 
@@ -4055,7 +4034,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 8
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-51 "Edit section's source code: Attack Index 8")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-51 "Edit Section using Source Editor:
+Attack Index 8")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -4065,7 +4045,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.2 | 0.2 | 0.196 | 0.1855 | 0.169 | 0.15 | 0.12 |
 | `CritMultiplier` | 2.39 | 2.225 | 2.16 | 2.0775 | 2 | 2 | 2 |
-| `Disposition` | 1.431 | 1.3125 | 1.3 | 1.28875 | 1.2475 | 0.885 | 0.6825 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.242 | 1.17 | 1.134 | 1.062 | 1 | 0.8831 | 0.72095 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 1.3 | 1.3 | 1.28 | 1.25 | 1.25 | 1.215 | 1.2 |
@@ -4111,9 +4091,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kestrel (1.45)
-* Second place is Halikar (1.44)
-* Third place is Orvius (1.35)
+* First place is Kestrel Prime, Kestrel, Xoris, Glaive Prime, Glaive, Pathocyst, Orvius, Halikar Wraith, Halikar, Falcor, Cerata, Coda Pathocyst (1.2)
 
 `FireRate`:
 
@@ -4149,7 +4127,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 9
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-52 "Edit section's source code: Attack Index 9")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-52 "Edit Section using Source Editor:
+Attack Index 9")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -4159,7 +4138,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.2 | 0.1925 | 0.176 | 0.1655 | 0.15 | 0.129 | 0.113 |
 | `CritMultiplier` | 2.39 | 2.15 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.431 | 1.3125 | 1.3 | 1.28875 | 1.2475 | 0.885 | 0.6825 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.242 | 1.17 | 1.134 | 1.062 | 1 | 0.8831 | 0.72095 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 1.3 | 1.3 | 1.28 | 1.25 | 1.25 | 1.215 | 1.2 |
@@ -4205,9 +4184,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kestrel (1.45)
-* Second place is Halikar (1.44)
-* Third place is Orvius (1.35)
+* First place is Kestrel Prime, Kestrel, Xoris, Glaive Prime, Glaive, Pathocyst, Orvius, Halikar Wraith, Halikar, Falcor, Cerata, Coda Pathocyst (1.2)
 
 `FireRate`:
 
@@ -4243,7 +4220,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 10
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-53 "Edit section's source code: Attack Index 10")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-53 "Edit Section using Source Editor:
+Attack Index 10")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -4253,7 +4231,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.18 | 0.18 | 0.18 | 0.18 | 0.18 | 0.18 | 0.18 |
 | `CritMultiplier` | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.35 | 1.35 | 1.35 | 1.35 | 1.35 | 1.35 | 1.35 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 0.75 | 0.75 | 0.75 | 0.75 | 0.75 | 0.75 | 0.75 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 1.3 | 1.3 | 1.3 | 1.3 | 1.3 | 1.3 | 1.3 |
@@ -4289,7 +4267,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Orvius (1.35)
+* First place is Orvius (1.2)
 
 `FireRate`:
 
@@ -4317,11 +4295,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Gunblade
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-54 "Edit section's source code: Gunblade")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-54 "Edit Section using Source Editor:
+Gunblade")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-55 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-55 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -4331,7 +4311,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 49 | 46 | 45 | 45 | 45 |
 | `CritChance` | 0.276 | 0.24 | 0.21 | 0.195 | 0.18 | 0.15 | 0.124 |
 | `CritMultiplier` | 2.32 | 2.2 | 2.08 | 2.02 | 1.96 | 1.84 | 1.76 |
-| `Disposition` | 1.14 | 1.05 | 0.96 | 0.915 | 0.85 | 0.7 | 0.65 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 1 | 1 | 1 | 0.9834 | 0.9336 | 0.8834 |
 | `FollowThrough` | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 |
 | `MeleeRange` | 2 | 2 | 2 | 2 | 2 | 2 | 1.6 |
@@ -4378,9 +4358,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Sarpa (1.2)
-* Second place is Redeemer (1.05)
-* Third place is Vastilok (0.9)
+* First place is Redeemer, Vastilok, Stropha, Redeemer Prime, Sarpa (1.2)
 
 `FireRate`:
 
@@ -4390,16 +4368,16 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Redeemer, Redeemer Prime, Vastilok, Stropha, Sarpa (0.5)
+* First place is Redeemer, Vastilok, Stropha, Redeemer Prime, Sarpa (0.5)
 
 `MeleeRange`:
 
-* First place is Redeemer, Redeemer Prime, Stropha, Sarpa (2)
+* First place is Redeemer, Stropha, Redeemer Prime, Sarpa (2)
 * Second place is Vastilok (1)
 
 `Multishot`:
 
-* First place is Redeemer, Redeemer Prime, Vastilok, Stropha, Sarpa (1)
+* First place is Redeemer, Vastilok, Stropha, Redeemer Prime, Sarpa (1)
 
 `StatusChance`:
 
@@ -4415,7 +4393,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-56 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-56 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -4425,7 +4404,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 49 | 46 | 45 | 45 | 45 |
 | `CritChance` | 0.276 | 0.24 | 0.21 | 0.195 | 0.18 | 0.15 | 0.124 |
 | `CritMultiplier` | 2.32 | 2.2 | 2.08 | 2.02 | 1.96 | 1.84 | 1.76 |
-| `Disposition` | 1.14 | 1.05 | 0.96 | 0.915 | 0.85 | 0.7 | 0.65 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 2.398 | 1 | 1 | 1 | 1 | 1 | 0.9668 |
 | `FollowThrough` | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 |
 | `MeleeRange` | 2 | 2 | 2 | 2 | 2 | 2 | 1.6 |
@@ -4472,9 +4451,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Sarpa (1.2)
-* Second place is Redeemer (1.05)
-* Third place is Vastilok (0.9)
+* First place is Redeemer, Vastilok, Stropha, Redeemer Prime, Sarpa (1.2)
 
 `FireRate`:
 
@@ -4484,11 +4461,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Redeemer, Redeemer Prime, Vastilok, Stropha, Sarpa (0.5)
+* First place is Redeemer, Vastilok, Stropha, Redeemer Prime, Sarpa (0.5)
 
 `MeleeRange`:
 
-* First place is Redeemer, Redeemer Prime, Stropha, Sarpa (2)
+* First place is Redeemer, Stropha, Redeemer Prime, Sarpa (2)
 * Second place is Vastilok (1)
 
 `Multishot`:
@@ -4511,7 +4488,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-57 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-57 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -4521,7 +4499,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 49 | 46 | 45 | 45 | 45 |
 | `CritChance` | 0.276 | 0.24 | 0.21 | 0.195 | 0.18 | 0.15 | 0.124 |
 | `CritMultiplier` | 2.32 | 2.2 | 2.08 | 2.02 | 1.96 | 1.84 | 1.76 |
-| `Disposition` | 1.14 | 1.05 | 0.96 | 0.915 | 0.85 | 0.7 | 0.65 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 1 | 1 | 1 | 0.9834 | 0.9336 | 0.8834 |
 | `FollowThrough` | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 |
 | `MeleeRange` | 2 | 2 | 2 | 2 | 2 | 2 | 1.6 |
@@ -4567,9 +4545,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Sarpa (1.2)
-* Second place is Redeemer (1.05)
-* Third place is Vastilok (0.9)
+* First place is Redeemer, Vastilok, Stropha, Redeemer Prime, Sarpa (1.2)
 
 `FireRate`:
 
@@ -4579,16 +4555,16 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Redeemer, Redeemer Prime, Vastilok, Stropha, Sarpa (0.5)
+* First place is Redeemer, Vastilok, Stropha, Redeemer Prime, Sarpa (0.5)
 
 `MeleeRange`:
 
-* First place is Redeemer, Redeemer Prime, Stropha, Sarpa (2)
+* First place is Redeemer, Stropha, Redeemer Prime, Sarpa (2)
 * Second place is Vastilok (1)
 
 `Multishot`:
 
-* First place is Redeemer, Redeemer Prime, Vastilok, Stropha, Sarpa (1)
+* First place is Redeemer, Vastilok, Stropha, Redeemer Prime, Sarpa (1)
 
 `StatusChance`:
 
@@ -4603,7 +4579,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-58 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-58 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -4613,7 +4590,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 49 | 46 | 45 | 45 | 45 |
 | `CritChance` | 0.276 | 0.24 | 0.21 | 0.195 | 0.18 | 0.15 | 0.124 |
 | `CritMultiplier` | 2.32 | 2.2 | 2.08 | 2.02 | 1.96 | 1.84 | 1.76 |
-| `Disposition` | 1.14 | 1.05 | 0.96 | 0.915 | 0.85 | 0.7 | 0.65 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 1 | 1 | 1 | 0.9834 | 0.9336 | 0.8834 |
 | `FollowThrough` | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 |
 | `MeleeRange` | 2 | 2 | 2 | 2 | 2 | 2 | 1.6 |
@@ -4637,7 +4614,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `AvgProcCount`:
 
-* First place is Redeemer, Redeemer Prime, Vastilok, Stropha, Sarpa (1.1)
+* First place is Redeemer, Vastilok, Stropha, Redeemer Prime, Sarpa (1.1)
 
 `BlockAngle`:
 
@@ -4658,9 +4635,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Sarpa (1.2)
-* Second place is Redeemer (1.05)
-* Third place is Vastilok (0.9)
+* First place is Redeemer, Vastilok, Stropha, Redeemer Prime, Sarpa (1.2)
 
 `FireRate`:
 
@@ -4670,20 +4645,20 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Redeemer, Redeemer Prime, Vastilok, Stropha, Sarpa (0.5)
+* First place is Redeemer, Vastilok, Stropha, Redeemer Prime, Sarpa (0.5)
 
 `MeleeRange`:
 
-* First place is Redeemer, Redeemer Prime, Stropha, Sarpa (2)
+* First place is Redeemer, Stropha, Redeemer Prime, Sarpa (2)
 * Second place is Vastilok (1)
 
 `Multishot`:
 
-* First place is Redeemer, Redeemer Prime, Vastilok, Stropha, Sarpa (1)
+* First place is Redeemer, Vastilok, Stropha, Redeemer Prime, Sarpa (1)
 
 `StatusChance`:
 
-* First place is Redeemer, Redeemer Prime, Vastilok, Stropha, Sarpa (0.1)
+* First place is Redeemer, Vastilok, Stropha, Redeemer Prime, Sarpa (0.1)
 
 `TotalDamage`:
 
@@ -4693,11 +4668,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Hammer
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-59 "Edit section's source code: Hammer")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-59 "Edit Section using Source Editor:
+Hammer")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-60 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-60 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -4707,7 +4684,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 50 | 50 | 50 | 50 | 50 | 50 | 50 |
 | `CritChance` | 0.345 | 0.3 | 0.25 | 0.235 | 0.2 | 0.19 | 0.1625 |
 | `CritMultiplier` | 2.6 | 2.325 | 2 | 2 | 2 | 2 | 1.925 |
-| `Disposition` | 1.35 | 1.35 | 1.3 | 1.29375 | 1.25 | 1.2 | 1.0125 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.14 | 1 | 1 | 0.989625 | 0.896 | 0.833 | 0.80825 |
 | `FollowThrough` | 0.5 | 0.4 | 0.4 | 0.4 | 0.4 | 0.4 | 0.4 |
 | `MeleeRange` | 2.95 | 2.825 | 2.6 | 2.6 | 2.6 | 2.5 | 2.5 |
@@ -4737,7 +4714,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Wolf Sledge, Volnus Prime, Volnus, Sibear, Synoid Heliocor, Jat Kittag, Coda Motovore, Sancti Magistar, Sampotes, Heliocor, Fragor Prime, Ekhein, Fragor, Magistar, Kuva Shildeg, Arca Titron (50)
+* First place is Wolf Sledge, Volnus Prime, Volnus, Synoid Heliocor, Jat Kittag, Sibear, Coda Motovore, Sancti Magistar, Sampotes, Heliocor, Fragor Prime, Ekhein, Fragor, Magistar, Kuva Shildeg, Arca Titron (50)
 
 `CritChance`:
 
@@ -4753,20 +4730,18 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Volnus (1.4)
-* Second place is Sibear, Synoid Heliocor, Jat Kittag, Heliocor, Magistar (1.35)
-* Third place is Volnus Prime, Arca Titron (1.3)
+* First place is Wolf Sledge, Volnus Prime, Volnus, Synoid Heliocor, Jat Kittag, Sibear, Coda Motovore, Sancti Magistar, Sampotes, Heliocor, Fragor Prime, Ekhein, Fragor, Magistar, Kuva Shildeg, Arca Titron (1.2)
 
 `FireRate`:
 
 * First place is Volnus Prime, Volnus (1.2)
 * Second place is Synoid Heliocor (1.08)
-* Third place is Wolf Sledge, Sibear, Jat Kittag, Coda Motovore, Sancti Magistar (1)
+* Third place is Wolf Sledge, Jat Kittag, Sibear, Coda Motovore, Sancti Magistar (1)
 
 `FollowThrough`:
 
 * First place is Volnus Prime, Volnus (0.6)
-* Second place is Wolf Sledge, Sibear, Synoid Heliocor, Jat Kittag, Coda Motovore, Sancti Magistar, Sampotes, Heliocor, Fragor Prime, Ekhein, Fragor, Magistar, Kuva Shildeg, Arca Titron (0.4)
+* Second place is Wolf Sledge, Synoid Heliocor, Jat Kittag, Sibear, Coda Motovore, Sancti Magistar, Sampotes, Heliocor, Fragor Prime, Ekhein, Fragor, Magistar, Kuva Shildeg, Arca Titron (0.4)
 
 `MeleeRange`:
 
@@ -4776,7 +4751,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Wolf Sledge, Volnus Prime, Volnus, Sibear, Synoid Heliocor, Jat Kittag, Coda Motovore, Sancti Magistar, Sampotes, Heliocor, Fragor Prime, Ekhein, Fragor, Magistar, Kuva Shildeg, Arca Titron (1)
+* First place is Wolf Sledge, Volnus Prime, Volnus, Synoid Heliocor, Jat Kittag, Sibear, Coda Motovore, Sancti Magistar, Sampotes, Heliocor, Fragor Prime, Ekhein, Fragor, Magistar, Kuva Shildeg, Arca Titron (1)
 
 `StatusChance`:
 
@@ -4792,7 +4767,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-61 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-61 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -4802,7 +4778,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 50 | 50 | 50 | 50 | 50 | 50 | 50 |
 | `CritChance` | 0.345 | 0.3 | 0.25 | 0.235 | 0.2 | 0.195 | 0.165 |
 | `CritMultiplier` | 2.6 | 2.325 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.35 | 1.35 | 1.3 | 1.29375 | 1.25 | 1.2 | 1.0125 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.14 | 1 | 1 | 0.989625 | 0.896 | 0.833 | 0.80825 |
 | `FollowThrough` | 0.5 | 0.4 | 0.4 | 0.4 | 0.4 | 0.4 | 0.4 |
 | `MeleeRange` | 2.95 | 2.825 | 2.6 | 2.6 | 2.6 | 2.5 | 2.5 |
@@ -4832,7 +4808,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Wolf Sledge, Volnus Prime, Volnus, Sibear, Synoid Heliocor, Jat Kittag, Coda Motovore, Sancti Magistar, Sampotes, Heliocor, Fragor Prime, Ekhein, Fragor, Magistar, Kuva Shildeg, Arca Titron (50)
+* First place is Wolf Sledge, Volnus Prime, Volnus, Synoid Heliocor, Jat Kittag, Sibear, Coda Motovore, Sancti Magistar, Sampotes, Heliocor, Fragor Prime, Ekhein, Fragor, Magistar, Kuva Shildeg, Arca Titron (50)
 
 `CritChance`:
 
@@ -4848,20 +4824,18 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Volnus (1.4)
-* Second place is Sibear, Synoid Heliocor, Jat Kittag, Heliocor, Magistar (1.35)
-* Third place is Volnus Prime, Arca Titron (1.3)
+* First place is Wolf Sledge, Volnus Prime, Volnus, Synoid Heliocor, Jat Kittag, Sibear, Coda Motovore, Sancti Magistar, Sampotes, Heliocor, Fragor Prime, Ekhein, Fragor, Magistar, Kuva Shildeg, Arca Titron (1.2)
 
 `FireRate`:
 
 * First place is Volnus Prime, Volnus (1.2)
 * Second place is Synoid Heliocor (1.08)
-* Third place is Wolf Sledge, Sibear, Jat Kittag, Coda Motovore, Sancti Magistar (1)
+* Third place is Wolf Sledge, Jat Kittag, Sibear, Coda Motovore, Sancti Magistar (1)
 
 `FollowThrough`:
 
 * First place is Volnus Prime, Volnus (0.6)
-* Second place is Wolf Sledge, Sibear, Synoid Heliocor, Jat Kittag, Coda Motovore, Sancti Magistar, Sampotes, Heliocor, Fragor Prime, Ekhein, Fragor, Magistar, Kuva Shildeg, Arca Titron (0.4)
+* Second place is Wolf Sledge, Synoid Heliocor, Jat Kittag, Sibear, Coda Motovore, Sancti Magistar, Sampotes, Heliocor, Fragor Prime, Ekhein, Fragor, Magistar, Kuva Shildeg, Arca Titron (0.4)
 
 `MeleeRange`:
 
@@ -4871,7 +4845,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Wolf Sledge, Volnus Prime, Volnus, Sibear, Synoid Heliocor, Jat Kittag, Coda Motovore, Sancti Magistar, Sampotes, Heliocor, Fragor Prime, Ekhein, Fragor, Magistar, Kuva Shildeg, Arca Titron (1)
+* First place is Wolf Sledge, Volnus Prime, Volnus, Synoid Heliocor, Jat Kittag, Sibear, Coda Motovore, Sancti Magistar, Sampotes, Heliocor, Fragor Prime, Ekhein, Fragor, Magistar, Kuva Shildeg, Arca Titron (1)
 
 `StatusChance`:
 
@@ -4887,7 +4861,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-62 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-62 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -4897,7 +4872,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 50 | 50 | 50 | 50 | 50 | 50 | 50 |
 | `CritChance` | 0.345 | 0.3 | 0.25 | 0.235 | 0.2 | 0.195 | 0.165 |
 | `CritMultiplier` | 2.6 | 2.325 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.35 | 1.35 | 1.3 | 1.29375 | 1.25 | 1.2 | 1.0125 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.14 | 1 | 1 | 0.989625 | 0.896 | 0.833 | 0.80825 |
 | `FollowThrough` | 0.5 | 0.4 | 0.4 | 0.4 | 0.4 | 0.4 | 0.4 |
 | `MeleeRange` | 2.95 | 2.825 | 2.6 | 2.6 | 2.6 | 2.5 | 2.5 |
@@ -4927,7 +4902,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Wolf Sledge, Volnus Prime, Volnus, Sibear, Synoid Heliocor, Jat Kittag, Coda Motovore, Sancti Magistar, Sampotes, Heliocor, Fragor Prime, Ekhein, Fragor, Magistar, Kuva Shildeg, Arca Titron (50)
+* First place is Wolf Sledge, Volnus Prime, Volnus, Synoid Heliocor, Jat Kittag, Sibear, Coda Motovore, Sancti Magistar, Sampotes, Heliocor, Fragor Prime, Ekhein, Fragor, Magistar, Kuva Shildeg, Arca Titron (50)
 
 `CritChance`:
 
@@ -4943,20 +4918,18 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Volnus (1.4)
-* Second place is Sibear, Synoid Heliocor, Jat Kittag, Heliocor, Magistar (1.35)
-* Third place is Volnus Prime, Arca Titron (1.3)
+* First place is Wolf Sledge, Volnus Prime, Volnus, Synoid Heliocor, Jat Kittag, Sibear, Coda Motovore, Sancti Magistar, Sampotes, Heliocor, Fragor Prime, Ekhein, Fragor, Magistar, Kuva Shildeg, Arca Titron (1.2)
 
 `FireRate`:
 
 * First place is Volnus Prime, Volnus (1.2)
 * Second place is Synoid Heliocor (1.08)
-* Third place is Wolf Sledge, Sibear, Jat Kittag, Coda Motovore, Sancti Magistar (1)
+* Third place is Wolf Sledge, Jat Kittag, Sibear, Coda Motovore, Sancti Magistar (1)
 
 `FollowThrough`:
 
 * First place is Volnus Prime, Volnus (0.6)
-* Second place is Wolf Sledge, Sibear, Synoid Heliocor, Jat Kittag, Coda Motovore, Sancti Magistar, Sampotes, Heliocor, Fragor Prime, Ekhein, Fragor, Magistar, Kuva Shildeg, Arca Titron (0.4)
+* Second place is Wolf Sledge, Synoid Heliocor, Jat Kittag, Sibear, Coda Motovore, Sancti Magistar, Sampotes, Heliocor, Fragor Prime, Ekhein, Fragor, Magistar, Kuva Shildeg, Arca Titron (0.4)
 
 `MeleeRange`:
 
@@ -4966,7 +4939,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Wolf Sledge, Volnus Prime, Volnus, Sibear, Synoid Heliocor, Jat Kittag, Coda Motovore, Sancti Magistar, Sampotes, Heliocor, Fragor Prime, Ekhein, Fragor, Magistar, Kuva Shildeg, Arca Titron (1)
+* First place is Wolf Sledge, Volnus Prime, Volnus, Synoid Heliocor, Jat Kittag, Sibear, Coda Motovore, Sancti Magistar, Sampotes, Heliocor, Fragor Prime, Ekhein, Fragor, Magistar, Kuva Shildeg, Arca Titron (1)
 
 `StatusChance`:
 
@@ -4982,7 +4955,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-63 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-63 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -4992,7 +4966,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 50 | 50 | 50 | 50 | 50 | 50 | 50 |
 | `CritChance` | 0.19 | 0.19 | 0.19 | 0.19 | 0.19 | 0.19 | 0.19 |
 | `CritMultiplier` | 2.1 | 2.1 | 2.1 | 2.1 | 2.1 | 2.1 | 2.1 |
-| `Disposition` | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | `FollowThrough` | 0.4 | 0.4 | 0.4 | 0.4 | 0.4 | 0.4 | 0.4 |
 | `MeleeRange` | 3.1 | 3.1 | 3.1 | 3.1 | 3.1 | 3.1 | 3.1 |
@@ -5028,7 +5002,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Wolf Sledge (1.25)
+* First place is Wolf Sledge (1.2)
 
 `FireRate`:
 
@@ -5056,7 +5030,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 5
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-64 "Edit section's source code: Attack Index 5")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-64 "Edit Section using Source Editor:
+Attack Index 5")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -5066,7 +5041,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 50 | 50 | 50 | 50 | 50 | 50 | 50 |
 | `CritChance` | 0.17 | 0.17 | 0.17 | 0.17 | 0.17 | 0.17 | 0.17 |
 | `CritMultiplier` | 1.9 | 1.9 | 1.9 | 1.9 | 1.9 | 1.9 | 1.9 |
-| `Disposition` | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | `FollowThrough` | 0.4 | 0.4 | 0.4 | 0.4 | 0.4 | 0.4 | 0.4 |
 | `MeleeRange` | 3.1 | 3.1 | 3.1 | 3.1 | 3.1 | 3.1 | 3.1 |
@@ -5102,7 +5077,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Wolf Sledge (1.25)
+* First place is Wolf Sledge (1.2)
 
 `FireRate`:
 
@@ -5130,7 +5105,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 6
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-65 "Edit section's source code: Attack Index 6")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-65 "Edit Section using Source Editor:
+Attack Index 6")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -5140,7 +5116,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 50 | 50 | 50 | 50 | 50 | 50 | 50 |
 | `CritChance` | 0.17 | 0.17 | 0.17 | 0.17 | 0.17 | 0.17 | 0.17 |
 | `CritMultiplier` | 1.9 | 1.9 | 1.9 | 1.9 | 1.9 | 1.9 | 1.9 |
-| `Disposition` | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | `FollowThrough` | 0.4 | 0.4 | 0.4 | 0.4 | 0.4 | 0.4 | 0.4 |
 | `MeleeRange` | 3.1 | 3.1 | 3.1 | 3.1 | 3.1 | 3.1 | 3.1 |
@@ -5176,7 +5152,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Wolf Sledge (1.25)
+* First place is Wolf Sledge (1.2)
 
 `FireRate`:
 
@@ -5204,11 +5180,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Heavy Blade
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-66 "Edit section's source code: Heavy Blade")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-66 "Edit Section using Source Editor:
+Heavy Blade")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-67 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-67 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -5218,7 +5196,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.314 | 0.26 | 0.26 | 0.26 | 0.244 | 0.19 | 0.15 |
 | `CritMultiplier` | 2.76 | 2.6 | 2.36 | 2.24 | 2.04 | 2 | 2 |
-| `Disposition` | 1.32 | 1.25 | 1.1 | 1.07 | 1.05 | 0.88 | 0.69 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.1178 | 1 | 0.9868 | 0.9568 | 0.9236 | 0.917 | 0.8666 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 3.08 | 2.9 | 2.9 | 2.9 | 2.82 | 2.78 | 2.6 |
@@ -5249,7 +5227,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `BlockAngle`:
 
 * First place is Vitrica (60)
-* Second place is Zenistar, Scindo, War Prime, War, Sarofang, Paracesis, Tenet Exec, Sarofang Prime, Galatine Prime, Scindo Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Masseter Prime, Gram Prime, Galatine (55)
+* Second place is Zenistar, Scindo, War Prime, War, Sarofang, Tenet Exec, Sarofang Prime, Galatine Prime, Scindo Prime, Masseter Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Paracesis, Gram Prime, Galatine (55)
 
 `CritChance`:
 
@@ -5265,9 +5243,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Gram (1.44)
-* Second place is Scindo (1.35)
-* Third place is Scindo Prime, Dark Split-Sword (Heavy Blade) (1.3)
+* First place is Zenistar, Scindo, War Prime, War, Sarofang, Tenet Exec, Sarofang Prime, Galatine Prime, Vitrica, Scindo Prime, Masseter Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Paracesis, Gram Prime, Galatine (1.2)
 
 `FireRate`:
 
@@ -5277,17 +5253,17 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Zenistar, Scindo, War Prime, War, Sarofang, Paracesis, Tenet Exec, Sarofang Prime, Galatine Prime, Vitrica, Scindo Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Masseter Prime, Gram Prime, Galatine (0.6)
+* First place is Zenistar, Scindo, War Prime, War, Sarofang, Tenet Exec, Sarofang Prime, Galatine Prime, Vitrica, Scindo Prime, Masseter Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Paracesis, Gram Prime, Galatine (0.6)
 
 `MeleeRange`:
 
 * First place is War Prime, War (3.2)
 * Second place is Galatine Prime, Galatine (3)
-* Third place is Paracesis, Vitrica, Masseter, Masseter Prime, Gram Prime (2.9)
+* Third place is Vitrica, Masseter Prime, Masseter, Paracesis, Gram Prime (2.9)
 
 `Multishot`:
 
-* First place is Zenistar, Scindo, War Prime, War, Sarofang, Paracesis, Tenet Exec, Sarofang Prime, Galatine Prime, Vitrica, Scindo Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Masseter Prime, Gram Prime, Galatine (1)
+* First place is Zenistar, Scindo, War Prime, War, Sarofang, Tenet Exec, Sarofang Prime, Galatine Prime, Vitrica, Scindo Prime, Masseter Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Paracesis, Gram Prime, Galatine (1)
 
 `StatusChance`:
 
@@ -5303,7 +5279,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-68 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-68 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -5313,7 +5290,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.314 | 0.26 | 0.26 | 0.26 | 0.244 | 0.19 | 0.15 |
 | `CritMultiplier` | 2.76 | 2.6 | 2.36 | 2.24 | 2.04 | 2 | 2 |
-| `Disposition` | 1.32 | 1.25 | 1.1 | 1.07 | 1.05 | 0.88 | 0.69 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.116 | 1 | 0.9868 | 0.9568 | 0.9236 | 0.917 | 0.8666 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 3.08 | 2.9 | 2.9 | 2.9 | 2.82 | 2.78 | 2.6 |
@@ -5338,13 +5315,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `AvgProcCount`:
 
 * First place is Paracesis (1.12)
-* Second place is Scindo, War Prime, War, Sarofang, Tenet Exec, Sarofang Prime, Galatine Prime, Scindo Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Masseter Prime, Gram Prime, Galatine (1.1)
+* Second place is Scindo, War Prime, War, Sarofang, Tenet Exec, Sarofang Prime, Galatine Prime, Scindo Prime, Masseter Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Gram Prime, Galatine (1.1)
 * Third place is Vitrica (0.33)
 
 `BlockAngle`:
 
 * First place is Vitrica (60)
-* Second place is Zenistar, Scindo, War Prime, War, Sarofang, Paracesis, Tenet Exec, Sarofang Prime, Galatine Prime, Scindo Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Masseter Prime, Gram Prime, Galatine (55)
+* Second place is Zenistar, Scindo, War Prime, War, Sarofang, Tenet Exec, Sarofang Prime, Galatine Prime, Scindo Prime, Masseter Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Paracesis, Gram Prime, Galatine (55)
 
 `CritChance`:
 
@@ -5360,9 +5337,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Gram (1.44)
-* Second place is Scindo (1.35)
-* Third place is Scindo Prime, Dark Split-Sword (Heavy Blade) (1.3)
+* First place is Zenistar, Scindo, War Prime, War, Sarofang, Tenet Exec, Sarofang Prime, Galatine Prime, Vitrica, Scindo Prime, Masseter Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Paracesis, Gram Prime, Galatine (1.2)
 
 `FireRate`:
 
@@ -5372,17 +5347,17 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Zenistar, Scindo, War Prime, War, Sarofang, Paracesis, Tenet Exec, Sarofang Prime, Galatine Prime, Vitrica, Scindo Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Masseter Prime, Gram Prime, Galatine (0.6)
+* First place is Zenistar, Scindo, War Prime, War, Sarofang, Tenet Exec, Sarofang Prime, Galatine Prime, Vitrica, Scindo Prime, Masseter Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Paracesis, Gram Prime, Galatine (0.6)
 
 `MeleeRange`:
 
 * First place is War Prime, War (3.2)
 * Second place is Galatine Prime, Galatine (3)
-* Third place is Paracesis, Vitrica, Masseter, Masseter Prime, Gram Prime (2.9)
+* Third place is Vitrica, Masseter Prime, Masseter, Paracesis, Gram Prime (2.9)
 
 `Multishot`:
 
-* First place is Zenistar, Scindo, War Prime, War, Sarofang, Paracesis, Tenet Exec, Sarofang Prime, Galatine Prime, Vitrica, Scindo Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Masseter Prime, Gram Prime, Galatine (1)
+* First place is Zenistar, Scindo, War Prime, War, Sarofang, Tenet Exec, Sarofang Prime, Galatine Prime, Vitrica, Scindo Prime, Masseter Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Paracesis, Gram Prime, Galatine (1)
 
 `StatusChance`:
 
@@ -5398,7 +5373,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-69 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-69 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -5408,7 +5384,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.314 | 0.26 | 0.26 | 0.26 | 0.244 | 0.19 | 0.15 |
 | `CritMultiplier` | 2.76 | 2.6 | 2.36 | 2.24 | 2.04 | 2 | 2 |
-| `Disposition` | 1.32 | 1.25 | 1.1 | 1.07 | 1.05 | 0.88 | 0.69 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.116 | 1 | 0.9868 | 0.9568 | 0.9236 | 0.917 | 0.9122 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 3.08 | 2.9 | 2.9 | 2.9 | 2.82 | 2.78 | 2.6 |
@@ -5433,13 +5409,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `AvgProcCount`:
 
 * First place is Vitrica (1.5)
-* Second place is Scindo, War Prime, War, Sarofang, Paracesis, Sarofang Prime, Galatine Prime, Scindo Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Masseter Prime, Gram Prime, Galatine (1.1)
+* Second place is Scindo, War Prime, War, Sarofang, Sarofang Prime, Galatine Prime, Scindo Prime, Masseter Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Paracesis, Gram Prime, Galatine (1.1)
 * Third place is Tenet Exec (1)
 
 `BlockAngle`:
 
 * First place is Vitrica (60)
-* Second place is Zenistar, Scindo, War Prime, War, Sarofang, Paracesis, Tenet Exec, Sarofang Prime, Galatine Prime, Scindo Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Masseter Prime, Gram Prime, Galatine (55)
+* Second place is Zenistar, Scindo, War Prime, War, Sarofang, Tenet Exec, Sarofang Prime, Galatine Prime, Scindo Prime, Masseter Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Paracesis, Gram Prime, Galatine (55)
 
 `CritChance`:
 
@@ -5455,9 +5431,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Gram (1.44)
-* Second place is Scindo (1.35)
-* Third place is Scindo Prime, Dark Split-Sword (Heavy Blade) (1.3)
+* First place is Zenistar, Scindo, War Prime, War, Sarofang, Tenet Exec, Sarofang Prime, Galatine Prime, Vitrica, Scindo Prime, Masseter Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Paracesis, Gram Prime, Galatine (1.2)
 
 `FireRate`:
 
@@ -5467,23 +5441,23 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Zenistar, Scindo, War Prime, War, Sarofang, Paracesis, Tenet Exec, Sarofang Prime, Galatine Prime, Vitrica, Scindo Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Masseter Prime, Gram Prime, Galatine (0.6)
+* First place is Zenistar, Scindo, War Prime, War, Sarofang, Tenet Exec, Sarofang Prime, Galatine Prime, Vitrica, Scindo Prime, Masseter Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Paracesis, Gram Prime, Galatine (0.6)
 
 `MeleeRange`:
 
 * First place is War Prime, War (3.2)
 * Second place is Galatine Prime, Galatine (3)
-* Third place is Paracesis, Vitrica, Masseter, Masseter Prime, Gram Prime (2.9)
+* Third place is Vitrica, Masseter Prime, Masseter, Paracesis, Gram Prime (2.9)
 
 `Multishot`:
 
-* First place is Zenistar, Scindo, War Prime, War, Sarofang, Paracesis, Tenet Exec, Sarofang Prime, Galatine Prime, Vitrica, Scindo Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Masseter Prime, Gram Prime, Galatine (1)
+* First place is Zenistar, Scindo, War Prime, War, Sarofang, Tenet Exec, Sarofang Prime, Galatine Prime, Vitrica, Scindo Prime, Masseter Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Paracesis, Gram Prime, Galatine (1)
 
 `StatusChance`:
 
 * First place is Vitrica (0.5)
 * Second place is Zenistar (0.15)
-* Third place is Scindo, War Prime, War, Sarofang, Paracesis, Sarofang Prime, Galatine Prime, Scindo Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Masseter Prime, Gram Prime, Galatine (0.1)
+* Third place is Scindo, War Prime, War, Sarofang, Sarofang Prime, Galatine Prime, Scindo Prime, Masseter Prime, Gram, Dark Split-Sword (Heavy Blade), Masseter, Paracesis, Gram Prime, Galatine (0.1)
 
 `TotalDamage`:
 
@@ -5493,7 +5467,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-70 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-70 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -5503,7 +5478,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 59.5 | 58.75 | 58 | 57.625 | 57.25 | 56.5 | 55.75 |
 | `CritChance` | 0.217 | 0.1975 | 0.178 | 0.16825 | 0.1585 | 0.139 | 0.1195 |
 | `CritMultiplier` | 2.27 | 2.225 | 2.18 | 2.1575 | 2.135 | 2.09 | 2.045 |
-| `Disposition` | 1.145 | 1.1375 | 1.13 | 1.12625 | 1.1225 | 1.115 | 1.1075 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 0.9014 | 0.89 | 0.8786 | 0.8729 | 0.8672 | 0.8558 | 0.8444 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 2.87 | 2.825 | 2.78 | 2.7575 | 2.735 | 2.69 | 2.645 |
@@ -5545,8 +5520,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Zenistar (1.15)
-* Second place is Vitrica (1.1)
+* First place is Zenistar, Vitrica (1.2)
 
 `FireRate`:
 
@@ -5578,7 +5552,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 5
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-71 "Edit section's source code: Attack Index 5")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-71 "Edit Section using Source Editor:
+Attack Index 5")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -5588,7 +5563,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.1 | 0.1 | 0.1 | 0.1 | 0.1 | 0.1 | 0.1 |
 | `CritMultiplier` | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.15 | 1.15 | 1.15 | 1.15 | 1.15 | 1.15 | 1.15 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 2.6 | 2.6 | 2.6 | 2.6 | 2.6 | 2.6 | 2.6 |
@@ -5624,7 +5599,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Zenistar (1.15)
+* First place is Zenistar (1.2)
 
 `FireRate`:
 
@@ -5652,7 +5627,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 6
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-72 "Edit section's source code: Attack Index 6")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-72 "Edit Section using Source Editor:
+Attack Index 6")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -5662,7 +5638,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.1 | 0.1 | 0.1 | 0.1 | 0.1 | 0.1 | 0.1 |
 | `CritMultiplier` | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.15 | 1.15 | 1.15 | 1.15 | 1.15 | 1.15 | 1.15 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 0.833 | 0.833 | 0.833 | 0.833 | 0.833 | 0.833 | 0.833 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 2.6 | 2.6 | 2.6 | 2.6 | 2.6 | 2.6 | 2.6 |
@@ -5698,7 +5674,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Zenistar (1.15)
+* First place is Zenistar (1.2)
 
 `FireRate`:
 
@@ -5726,7 +5702,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 7
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-73 "Edit section's source code: Attack Index 7")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-73 "Edit Section using Source Editor:
+Attack Index 7")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -5736,7 +5713,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.1 | 0.1 | 0.1 | 0.1 | 0.1 | 0.1 | 0.1 |
 | `CritMultiplier` | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.15 | 1.15 | 1.15 | 1.15 | 1.15 | 1.15 | 1.15 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 0.833 | 0.833 | 0.833 | 0.833 | 0.833 | 0.833 | 0.833 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 2.6 | 2.6 | 2.6 | 2.6 | 2.6 | 2.6 | 2.6 |
@@ -5772,7 +5749,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Zenistar (1.15)
+* First place is Zenistar (1.2)
 
 `FireRate`:
 
@@ -5800,11 +5777,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Machete
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-74 "Edit section's source code: Machete")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-74 "Edit Section using Source Editor:
+Machete")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-75 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-75 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -5814,7 +5793,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.192 | 0.15 | 0.144 | 0.14 | 0.14 | 0.134 | 0.107 |
 | `CritMultiplier` | 2.01 | 2 | 2 | 2 | 2 | 1.9 | 1.835 |
-| `Disposition` | 1.452 | 1.445 | 1.412 | 1.4 | 1.4 | 1.385 | 1.35 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.089 | 1 | 1 | 1 | 1 | 0.917 | 0.917 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 2.51 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.435 |
@@ -5828,7 +5807,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Slaytra (0.21)
 * Second place is Machete Wraith (0.19)
-* Third place is Prisma Machete, Nami Solo (0.15)
+* Third place is Nami Solo, Prisma Machete (0.15)
 
 `AvgDmgWithAnimSpeedMulti`:
 
@@ -5844,25 +5823,23 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Prisma Machete, Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Prova, Kama, Machete, Machete Wraith (55)
+* First place is Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Prova, Prisma Machete, Machete, Machete Wraith, Kama (55)
 
 `CritChance`:
 
 * First place is Slaytra (0.21)
 * Second place is Machete Wraith (0.19)
-* Third place is Prisma Machete, Nami Solo (0.15)
+* Third place is Nami Solo, Prisma Machete (0.15)
 
 `CritMultiplier`:
 
 * First place is Machete Wraith (2.1)
 * Second place is Prova Vandal, Nami Solo, Gazal Machete, Kreska, Prova (2)
-* Third place is Prisma Machete, Slaytra (1.9)
+* Third place is Slaytra, Prisma Machete (1.9)
 
 `Disposition`:
 
-* First place is Kama (1.47)
-* Second place is Prisma Machete, Machete (1.45)
-* Third place is Nami Solo (1.43)
+* First place is Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Prova, Prisma Machete, Machete, Machete Wraith, Kama (1.2)
 
 `FireRate`:
 
@@ -5872,17 +5849,17 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Prisma Machete, Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Prova, Kama, Machete, Machete Wraith (0.7)
+* First place is Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Prova, Prisma Machete, Machete, Machete Wraith, Kama (0.7)
 
 `MeleeRange`:
 
 * First place is Gazal Machete (2.6)
-* Second place is Prisma Machete, Prova Vandal, Nami Solo, Slaytra, Prova, Machete, Machete Wraith (2.5)
+* Second place is Prova Vandal, Nami Solo, Slaytra, Prova, Prisma Machete, Machete, Machete Wraith (2.5)
 * Third place is Kreska, Kama (2.4)
 
 `Multishot`:
 
-* First place is Prisma Machete, Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Prova, Kama, Machete, Machete Wraith (1)
+* First place is Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Prova, Prisma Machete, Machete, Machete Wraith, Kama (1)
 
 `StatusChance`:
 
@@ -5898,7 +5875,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-76 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-76 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -5908,7 +5886,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.192 | 0.18 | 0.144 | 0.14 | 0.14 | 0.134 | 0.107 |
 | `CritMultiplier` | 2.01 | 2 | 2 | 2 | 2 | 1.9 | 1.835 |
-| `Disposition` | 1.452 | 1.445 | 1.412 | 1.4 | 1.4 | 1.385 | 1.35 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.089 | 1 | 1 | 1 | 1 | 0.917 | 0.917 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 2.51 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.435 |
@@ -5938,7 +5916,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Prisma Machete, Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Prova, Kama, Machete, Machete Wraith (55)
+* First place is Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Prova, Prisma Machete, Machete, Machete Wraith, Kama (55)
 
 `CritChance`:
 
@@ -5950,13 +5928,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Machete Wraith (2.1)
 * Second place is Prova Vandal, Nami Solo, Gazal Machete, Kreska, Prova (2)
-* Third place is Prisma Machete, Slaytra (1.9)
+* Third place is Slaytra, Prisma Machete (1.9)
 
 `Disposition`:
 
-* First place is Kama (1.47)
-* Second place is Prisma Machete, Machete (1.45)
-* Third place is Nami Solo (1.43)
+* First place is Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Prova, Prisma Machete, Machete, Machete Wraith, Kama (1.2)
 
 `FireRate`:
 
@@ -5966,23 +5942,23 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Prisma Machete, Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Prova, Kama, Machete, Machete Wraith (0.7)
+* First place is Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Prova, Prisma Machete, Machete, Machete Wraith, Kama (0.7)
 
 `MeleeRange`:
 
 * First place is Gazal Machete (2.6)
-* Second place is Prisma Machete, Prova Vandal, Nami Solo, Slaytra, Prova, Machete, Machete Wraith (2.5)
+* Second place is Prova Vandal, Nami Solo, Slaytra, Prova, Prisma Machete, Machete, Machete Wraith (2.5)
 * Third place is Kreska, Kama (2.4)
 
 `Multishot`:
 
-* First place is Prisma Machete, Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Prova, Kama, Machete, Machete Wraith (1)
+* First place is Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Prova, Prisma Machete, Machete, Machete Wraith, Kama (1)
 
 `StatusChance`:
 
 * First place is Kreska (0.22)
 * Second place is Prova (0.16)
-* Third place is Prisma Machete, Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kama, Machete, Machete Wraith (0.1)
+* Third place is Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Prisma Machete, Machete, Machete Wraith, Kama (0.1)
 
 `TotalDamage`:
 
@@ -5992,7 +5968,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-77 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-77 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -6002,7 +5979,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.192 | 0.18 | 0.144 | 0.14 | 0.14 | 0.134 | 0.107 |
 | `CritMultiplier` | 2.01 | 2 | 2 | 2 | 2 | 1.9 | 1.835 |
-| `Disposition` | 1.452 | 1.445 | 1.412 | 1.4 | 1.4 | 1.385 | 1.35 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.089 | 1 | 1 | 1 | 1 | 0.917 | 0.917 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 2.51 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.435 |
@@ -6027,12 +6004,12 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `AvgProcCount`:
 
 * First place is Prova (1.16)
-* Second place is Prisma Machete, Nami Solo, Gazal Machete, Slaytra, Kreska, Kama, Machete, Machete Wraith (1.1)
+* Second place is Nami Solo, Gazal Machete, Slaytra, Kreska, Prisma Machete, Machete, Machete Wraith, Kama (1.1)
 * Third place is Prova Vandal (0.1)
 
 `BlockAngle`:
 
-* First place is Prisma Machete, Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Prova, Kama, Machete, Machete Wraith (55)
+* First place is Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Prova, Prisma Machete, Machete, Machete Wraith, Kama (55)
 
 `CritChance`:
 
@@ -6044,13 +6021,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Machete Wraith (2.1)
 * Second place is Prova Vandal, Nami Solo, Gazal Machete, Kreska, Prova (2)
-* Third place is Prisma Machete, Slaytra (1.9)
+* Third place is Slaytra, Prisma Machete (1.9)
 
 `Disposition`:
 
-* First place is Kama (1.47)
-* Second place is Prisma Machete, Machete (1.45)
-* Third place is Nami Solo (1.43)
+* First place is Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Prova, Prisma Machete, Machete, Machete Wraith, Kama (1.2)
 
 `FireRate`:
 
@@ -6060,22 +6035,22 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Prisma Machete, Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Prova, Kama, Machete, Machete Wraith (0.7)
+* First place is Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Prova, Prisma Machete, Machete, Machete Wraith, Kama (0.7)
 
 `MeleeRange`:
 
 * First place is Gazal Machete (2.6)
-* Second place is Prisma Machete, Prova Vandal, Nami Solo, Slaytra, Prova, Machete, Machete Wraith (2.5)
+* Second place is Prova Vandal, Nami Solo, Slaytra, Prova, Prisma Machete, Machete, Machete Wraith (2.5)
 * Third place is Kreska, Kama (2.4)
 
 `Multishot`:
 
-* First place is Prisma Machete, Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Prova, Kama, Machete, Machete Wraith (1)
+* First place is Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Prova, Prisma Machete, Machete, Machete Wraith, Kama (1)
 
 `StatusChance`:
 
 * First place is Prova (0.16)
-* Second place is Prisma Machete, Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Kama, Machete, Machete Wraith (0.1)
+* Second place is Prova Vandal, Nami Solo, Gazal Machete, Slaytra, Kreska, Prisma Machete, Machete, Machete Wraith, Kama (0.1)
 
 `TotalDamage`:
 
@@ -6085,11 +6060,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Nikana
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-78 "Edit section's source code: Nikana")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-78 "Edit Section using Source Editor:
+Nikana")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-79 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-79 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -6099,7 +6076,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.26 | 0.235 | 0.22 | 0.22 | 0.22 | 0.205 | 0.1825 |
 | `CritMultiplier` | 2.5 | 2.325 | 2.1 | 2.0625 | 2.025 | 2 | 2 |
-| `Disposition` | 1.125 | 1.0625 | 0.95 | 0.93125 | 0.9125 | 0.825 | 0.7125 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.125 | 1.06 | 1 | 1 | 1 | 1 | 0.97925 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 2.6 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 |
@@ -6129,7 +6106,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Nikana, Dragon Nikana, Skiajati, Dex Nikana, Syam, Nikana Prime (55)
+* First place is Nikana, Dragon Nikana, Dex Nikana, Syam, Skiajati, Nikana Prime (55)
 
 `CritChance`:
 
@@ -6145,9 +6122,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Dragon Nikana (1.15)
-* Second place is Dex Nikana (1.1)
-* Third place is Nikana (0.95)
+* First place is Nikana, Dragon Nikana, Dex Nikana, Syam, Skiajati, Nikana Prime (1.2)
 
 `FireRate`:
 
@@ -6157,7 +6132,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Nikana, Dragon Nikana, Skiajati, Dex Nikana, Syam, Nikana Prime (0.7)
+* First place is Nikana, Dragon Nikana, Dex Nikana, Syam, Skiajati, Nikana Prime (0.7)
 
 `MeleeRange`:
 
@@ -6166,7 +6141,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Nikana, Dragon Nikana, Skiajati, Dex Nikana, Syam, Nikana Prime (1)
+* First place is Nikana, Dragon Nikana, Dex Nikana, Syam, Skiajati, Nikana Prime (1)
 
 `StatusChance`:
 
@@ -6182,7 +6157,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-80 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-80 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -6192,7 +6168,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.26 | 0.235 | 0.22 | 0.22 | 0.22 | 0.205 | 0.1825 |
 | `CritMultiplier` | 2.5 | 2.325 | 2.1 | 2.0625 | 2.025 | 2 | 2 |
-| `Disposition` | 1.125 | 1.0625 | 0.95 | 0.93125 | 0.9125 | 0.825 | 0.7125 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.125 | 1.06 | 1 | 1 | 1 | 1 | 0.97925 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 2.6 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 |
@@ -6217,11 +6193,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `AvgProcCount`:
 
 * First place is Syam (1.34)
-* Second place is Nikana, Dragon Nikana, Skiajati, Dex Nikana, Nikana Prime (1.1)
+* Second place is Nikana, Dragon Nikana, Dex Nikana, Skiajati, Nikana Prime (1.1)
 
 `BlockAngle`:
 
-* First place is Nikana, Dragon Nikana, Skiajati, Dex Nikana, Syam, Nikana Prime (55)
+* First place is Nikana, Dragon Nikana, Dex Nikana, Syam, Skiajati, Nikana Prime (55)
 
 `CritChance`:
 
@@ -6237,9 +6213,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Dragon Nikana (1.15)
-* Second place is Dex Nikana (1.1)
-* Third place is Nikana (0.95)
+* First place is Nikana, Dragon Nikana, Dex Nikana, Syam, Skiajati, Nikana Prime (1.2)
 
 `FireRate`:
 
@@ -6249,7 +6223,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Nikana, Dragon Nikana, Skiajati, Dex Nikana, Syam, Nikana Prime (0.7)
+* First place is Nikana, Dragon Nikana, Dex Nikana, Syam, Skiajati, Nikana Prime (0.7)
 
 `MeleeRange`:
 
@@ -6258,12 +6232,12 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Nikana, Dragon Nikana, Skiajati, Dex Nikana, Syam, Nikana Prime (1)
+* First place is Nikana, Dragon Nikana, Dex Nikana, Syam, Skiajati, Nikana Prime (1)
 
 `StatusChance`:
 
 * First place is Syam (0.34)
-* Second place is Nikana, Dragon Nikana, Skiajati, Dex Nikana, Nikana Prime (0.1)
+* Second place is Nikana, Dragon Nikana, Dex Nikana, Skiajati, Nikana Prime (0.1)
 
 `TotalDamage`:
 
@@ -6273,7 +6247,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-81 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-81 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -6283,7 +6258,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.26 | 0.235 | 0.22 | 0.22 | 0.22 | 0.205 | 0.1825 |
 | `CritMultiplier` | 2.5 | 2.325 | 2.1 | 2.0625 | 2.025 | 2 | 2 |
-| `Disposition` | 1.125 | 1.0625 | 0.95 | 0.93125 | 0.9125 | 0.825 | 0.7125 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.125 | 1.06 | 1 | 1 | 1 | 1 | 0.97925 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 2.6 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 |
@@ -6307,12 +6282,12 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `AvgProcCount`:
 
-* First place is Nikana, Dragon Nikana, Skiajati, Dex Nikana, Nikana Prime (1.1)
+* First place is Nikana, Dragon Nikana, Dex Nikana, Skiajati, Nikana Prime (1.1)
 * Second place is Syam (0.34)
 
 `BlockAngle`:
 
-* First place is Nikana, Dragon Nikana, Skiajati, Dex Nikana, Syam, Nikana Prime (55)
+* First place is Nikana, Dragon Nikana, Dex Nikana, Syam, Skiajati, Nikana Prime (55)
 
 `CritChance`:
 
@@ -6328,9 +6303,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Dragon Nikana (1.15)
-* Second place is Dex Nikana (1.1)
-* Third place is Nikana (0.95)
+* First place is Nikana, Dragon Nikana, Dex Nikana, Syam, Skiajati, Nikana Prime (1.2)
 
 `FireRate`:
 
@@ -6340,7 +6313,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Nikana, Dragon Nikana, Skiajati, Dex Nikana, Syam, Nikana Prime (0.7)
+* First place is Nikana, Dragon Nikana, Dex Nikana, Syam, Skiajati, Nikana Prime (0.7)
 
 `MeleeRange`:
 
@@ -6349,12 +6322,12 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Nikana, Dragon Nikana, Skiajati, Dex Nikana, Syam, Nikana Prime (1)
+* First place is Nikana, Dragon Nikana, Dex Nikana, Syam, Skiajati, Nikana Prime (1)
 
 `StatusChance`:
 
 * First place is Syam (0.34)
-* Second place is Nikana, Dragon Nikana, Skiajati, Dex Nikana, Nikana Prime (0.1)
+* Second place is Nikana, Dragon Nikana, Dex Nikana, Skiajati, Nikana Prime (0.1)
 
 `TotalDamage`:
 
@@ -6364,7 +6337,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-82 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-82 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -6374,7 +6348,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.22 | 0.22 | 0.22 | 0.22 | 0.22 | 0.22 | 0.22 |
 | `CritMultiplier` | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 0.75 | 0.75 | 0.75 | 0.75 | 0.75 | 0.75 | 0.75 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 |
@@ -6410,7 +6384,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Syam (0.75)
+* First place is Syam (1.2)
 
 `FireRate`:
 
@@ -6438,7 +6412,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 5
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-83 "Edit section's source code: Attack Index 5")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-83 "Edit Section using Source Editor:
+Attack Index 5")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -6448,7 +6423,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.2 | 0.2 | 0.2 | 0.2 | 0.2 | 0.2 | 0.2 |
 | `CritMultiplier` | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 0.75 | 0.75 | 0.75 | 0.75 | 0.75 | 0.75 | 0.75 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 |
@@ -6484,7 +6459,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Syam (0.75)
+* First place is Syam (1.2)
 
 `FireRate`:
 
@@ -6512,11 +6487,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Polearm
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-84 "Edit section's source code: Polearm")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-84 "Edit Section using Source Editor:
+Polearm")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-85 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-85 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -6526,7 +6503,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.304 | 0.24 | 0.222 | 0.197 | 0.162 | 0.106 | 0.062 |
 | `CritMultiplier` | 2.5 | 2.3 | 2.2 | 2.07 | 2 | 2 | 1.5 |
-| `Disposition` | 1.368 | 1.35 | 1.32 | 1.2025 | 1.115 | 1.01 | 0.85 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.134 | 1 | 1 | 1 | 1 | 0.917 | 0.8414 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 3 | 3 | 3 | 3 | 3 | 2.9 | 2.9 |
@@ -6556,7 +6533,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Vaykor Sydon, Tonbo, Serro, Guandao Prime, Pupacyst, Korumm, Sydon, Orthos Prime, Orthos, Kesheg, Amanata, Edun, Lesion, Guandao, Cassowar (55)
+* First place is Tonbo, Vaykor Sydon, Pupacyst, Guandao Prime, Sydon, Orthos Prime, Serro, Orthos, Kesheg, Amanata, Edun, Lesion, Korumm, Guandao, Cassowar (55)
 
 `CritChance`:
 
@@ -6572,29 +6549,27 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Tonbo, Serro (1.38)
-* Second place is Pupacyst, Sydon, Kesheg, Cassowar (1.35)
-* Third place is Vaykor Sydon (1.3)
+* First place is Tonbo, Vaykor Sydon, Pupacyst, Guandao Prime, Sydon, Orthos Prime, Serro, Orthos, Kesheg, Amanata, Edun, Lesion, Korumm, Guandao, Cassowar (1.2)
 
 `FireRate`:
 
 * First place is Orthos Prime, Cassowar (1.17)
 * Second place is Vaykor Sydon (1.08)
-* Third place is Tonbo, Guandao Prime, Korumm, Amanata, Edun, Lesion (1)
+* Third place is Tonbo, Guandao Prime, Amanata, Edun, Lesion, Korumm (1)
 
 `FollowThrough`:
 
-* First place is Vaykor Sydon, Tonbo, Serro, Guandao Prime, Pupacyst, Korumm, Sydon, Orthos Prime, Orthos, Kesheg, Amanata, Edun, Lesion, Guandao, Cassowar (0.6)
+* First place is Tonbo, Vaykor Sydon, Pupacyst, Guandao Prime, Sydon, Orthos Prime, Serro, Orthos, Kesheg, Amanata, Edun, Lesion, Korumm, Guandao, Cassowar (0.6)
 
 `MeleeRange`:
 
-* First place is Tonbo, Serro, Guandao Prime, Orthos Prime, Orthos, Amanata, Edun, Guandao, Cassowar (3)
-* Second place is Vaykor Sydon, Korumm, Sydon, Kesheg (2.9)
+* First place is Tonbo, Guandao Prime, Orthos Prime, Serro, Orthos, Amanata, Edun, Guandao, Cassowar (3)
+* Second place is Vaykor Sydon, Sydon, Kesheg, Korumm (2.9)
 * Third place is Pupacyst, Lesion (2.7)
 
 `Multishot`:
 
-* First place is Vaykor Sydon, Tonbo, Serro, Guandao Prime, Pupacyst, Korumm, Sydon, Orthos Prime, Orthos, Kesheg, Amanata, Edun, Lesion, Guandao, Cassowar (1)
+* First place is Tonbo, Vaykor Sydon, Pupacyst, Guandao Prime, Sydon, Orthos Prime, Serro, Orthos, Kesheg, Amanata, Edun, Lesion, Korumm, Guandao, Cassowar (1)
 
 `StatusChance`:
 
@@ -6610,7 +6585,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-86 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-86 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -6620,7 +6596,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.292 | 0.24 | 0.198 | 0.164 | 0.136 | 0.084 | 0.06 |
 | `CritMultiplier` | 2.5 | 2.3 | 2.08 | 2 | 2 | 1.6 | 1.5 |
-| `Disposition` | 1.368 | 1.35 | 1.32 | 1.2025 | 1.115 | 1.01 | 0.85 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.134 | 1 | 1 | 1 | 1 | 0.917 | 0.8414 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 3 | 3 | 3 | 3 | 3 | 2.9 | 2.9 |
@@ -6650,7 +6626,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Vaykor Sydon, Tonbo, Serro, Guandao Prime, Pupacyst, Korumm, Sydon, Orthos Prime, Orthos, Kesheg, Amanata, Edun, Lesion, Guandao, Cassowar (55)
+* First place is Tonbo, Vaykor Sydon, Pupacyst, Guandao Prime, Sydon, Orthos Prime, Serro, Orthos, Kesheg, Amanata, Edun, Lesion, Korumm, Guandao, Cassowar (55)
 
 `CritChance`:
 
@@ -6666,29 +6642,27 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Tonbo, Serro (1.38)
-* Second place is Pupacyst, Sydon, Kesheg, Cassowar (1.35)
-* Third place is Vaykor Sydon (1.3)
+* First place is Tonbo, Vaykor Sydon, Pupacyst, Guandao Prime, Sydon, Orthos Prime, Serro, Orthos, Kesheg, Amanata, Edun, Lesion, Korumm, Guandao, Cassowar (1.2)
 
 `FireRate`:
 
 * First place is Orthos Prime, Cassowar (1.17)
 * Second place is Vaykor Sydon (1.08)
-* Third place is Tonbo, Guandao Prime, Korumm, Amanata, Edun, Lesion (1)
+* Third place is Tonbo, Guandao Prime, Amanata, Edun, Lesion, Korumm (1)
 
 `FollowThrough`:
 
-* First place is Vaykor Sydon, Tonbo, Serro, Guandao Prime, Pupacyst, Korumm, Sydon, Orthos Prime, Orthos, Kesheg, Amanata, Edun, Lesion, Guandao, Cassowar (0.6)
+* First place is Tonbo, Vaykor Sydon, Pupacyst, Guandao Prime, Sydon, Orthos Prime, Serro, Orthos, Kesheg, Amanata, Edun, Lesion, Korumm, Guandao, Cassowar (0.6)
 
 `MeleeRange`:
 
-* First place is Tonbo, Serro, Guandao Prime, Orthos Prime, Orthos, Amanata, Edun, Guandao, Cassowar (3)
-* Second place is Vaykor Sydon, Korumm, Sydon, Kesheg (2.9)
+* First place is Tonbo, Guandao Prime, Orthos Prime, Serro, Orthos, Amanata, Edun, Guandao, Cassowar (3)
+* Second place is Vaykor Sydon, Sydon, Kesheg, Korumm (2.9)
 * Third place is Pupacyst, Lesion (2.7)
 
 `Multishot`:
 
-* First place is Vaykor Sydon, Tonbo, Serro, Guandao Prime, Pupacyst, Korumm, Sydon, Orthos Prime, Orthos, Kesheg, Amanata, Edun, Lesion, Guandao, Cassowar (1)
+* First place is Tonbo, Vaykor Sydon, Pupacyst, Guandao Prime, Sydon, Orthos Prime, Serro, Orthos, Kesheg, Amanata, Edun, Lesion, Korumm, Guandao, Cassowar (1)
 
 `StatusChance`:
 
@@ -6704,7 +6678,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-87 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-87 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -6714,7 +6689,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.292 | 0.24 | 0.222 | 0.197 | 0.162 | 0.106 | 0.062 |
 | `CritMultiplier` | 2.5 | 2.3 | 2.2 | 2.07 | 2 | 2 | 1.5 |
-| `Disposition` | 1.368 | 1.35 | 1.32 | 1.2025 | 1.115 | 1.01 | 0.85 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.134 | 1 | 1 | 1 | 1 | 0.917 | 0.8414 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 3 | 3 | 3 | 3 | 3 | 2.9 | 2.9 |
@@ -6740,11 +6715,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Pupacyst (1.37)
 * Second place is Edun (1.2)
-* Third place is Vaykor Sydon, Tonbo, Serro, Guandao Prime, Korumm, Sydon, Orthos Prime, Orthos, Kesheg, Amanata, Lesion, Guandao, Cassowar (1.1)
+* Third place is Tonbo, Vaykor Sydon, Guandao Prime, Sydon, Orthos Prime, Serro, Orthos, Kesheg, Amanata, Lesion, Korumm, Guandao, Cassowar (1.1)
 
 `BlockAngle`:
 
-* First place is Vaykor Sydon, Tonbo, Serro, Guandao Prime, Pupacyst, Korumm, Sydon, Orthos Prime, Orthos, Kesheg, Amanata, Edun, Lesion, Guandao, Cassowar (55)
+* First place is Tonbo, Vaykor Sydon, Pupacyst, Guandao Prime, Sydon, Orthos Prime, Serro, Orthos, Kesheg, Amanata, Edun, Lesion, Korumm, Guandao, Cassowar (55)
 
 `CritChance`:
 
@@ -6760,35 +6735,33 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Tonbo, Serro (1.38)
-* Second place is Pupacyst, Sydon, Kesheg, Cassowar (1.35)
-* Third place is Vaykor Sydon (1.3)
+* First place is Tonbo, Vaykor Sydon, Pupacyst, Guandao Prime, Sydon, Orthos Prime, Serro, Orthos, Kesheg, Amanata, Edun, Lesion, Korumm, Guandao, Cassowar (1.2)
 
 `FireRate`:
 
 * First place is Orthos Prime, Cassowar (1.17)
 * Second place is Vaykor Sydon (1.08)
-* Third place is Tonbo, Guandao Prime, Korumm, Amanata, Edun, Lesion (1)
+* Third place is Tonbo, Guandao Prime, Amanata, Edun, Lesion, Korumm (1)
 
 `FollowThrough`:
 
-* First place is Vaykor Sydon, Tonbo, Serro, Guandao Prime, Pupacyst, Korumm, Sydon, Orthos Prime, Orthos, Kesheg, Amanata, Edun, Lesion, Guandao, Cassowar (0.6)
+* First place is Tonbo, Vaykor Sydon, Pupacyst, Guandao Prime, Sydon, Orthos Prime, Serro, Orthos, Kesheg, Amanata, Edun, Lesion, Korumm, Guandao, Cassowar (0.6)
 
 `MeleeRange`:
 
-* First place is Tonbo, Serro, Guandao Prime, Orthos Prime, Orthos, Amanata, Edun, Guandao, Cassowar (3)
-* Second place is Vaykor Sydon, Korumm, Sydon, Kesheg (2.9)
+* First place is Tonbo, Guandao Prime, Orthos Prime, Serro, Orthos, Amanata, Edun, Guandao, Cassowar (3)
+* Second place is Vaykor Sydon, Sydon, Kesheg, Korumm (2.9)
 * Third place is Pupacyst, Lesion (2.7)
 
 `Multishot`:
 
-* First place is Vaykor Sydon, Tonbo, Serro, Guandao Prime, Pupacyst, Korumm, Sydon, Orthos Prime, Orthos, Kesheg, Amanata, Edun, Lesion, Guandao, Cassowar (1)
+* First place is Tonbo, Vaykor Sydon, Pupacyst, Guandao Prime, Sydon, Orthos Prime, Serro, Orthos, Kesheg, Amanata, Edun, Lesion, Korumm, Guandao, Cassowar (1)
 
 `StatusChance`:
 
 * First place is Pupacyst (0.37)
 * Second place is Edun (0.2)
-* Third place is Vaykor Sydon, Tonbo, Serro, Guandao Prime, Korumm, Sydon, Orthos Prime, Orthos, Kesheg, Amanata, Lesion, Guandao, Cassowar (0.1)
+* Third place is Tonbo, Vaykor Sydon, Guandao Prime, Sydon, Orthos Prime, Serro, Orthos, Kesheg, Amanata, Lesion, Korumm, Guandao, Cassowar (0.1)
 
 `TotalDamage`:
 
@@ -6798,7 +6771,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-88 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-88 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -6808,7 +6782,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.33 | 0.315 | 0.3 | 0.2925 | 0.285 | 0.27 | 0.255 |
 | `CritMultiplier` | 2.56 | 2.5 | 2.44 | 2.41 | 2.38 | 2.32 | 2.26 |
-| `Disposition` | 1.145 | 1.1375 | 1.13 | 1.12625 | 1.1225 | 1.115 | 1.1075 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 2.99 | 2.975 | 2.96 | 2.9525 | 2.945 | 2.93 | 2.915 |
@@ -6830,11 +6804,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `AvgProcCount`:
 
-* First place is Korumm, Edun (1.1)
+* First place is Edun, Korumm (1.1)
 
 `BlockAngle`:
 
-* First place is Korumm, Edun (55)
+* First place is Edun, Korumm (55)
 
 `CritChance`:
 
@@ -6848,16 +6822,15 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Edun (1.15)
-* Second place is Korumm (1.1)
+* First place is Edun, Korumm (1.2)
 
 `FireRate`:
 
-* First place is Korumm, Edun (1)
+* First place is Edun, Korumm (1)
 
 `FollowThrough`:
 
-* First place is Korumm, Edun (0.6)
+* First place is Edun, Korumm (0.6)
 
 `MeleeRange`:
 
@@ -6866,11 +6839,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Korumm, Edun (1)
+* First place is Edun, Korumm (1)
 
 `StatusChance`:
 
-* First place is Korumm, Edun (0.1)
+* First place is Edun, Korumm (0.1)
 
 `TotalDamage`:
 
@@ -6879,7 +6852,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 5
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-89 "Edit section's source code: Attack Index 5")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-89 "Edit Section using Source Editor:
+Attack Index 5")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -6889,7 +6863,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.34 | 0.34 | 0.34 | 0.34 | 0.34 | 0.34 | 0.34 |
 | `CritMultiplier` | 2.6 | 2.6 | 2.6 | 2.6 | 2.6 | 2.6 | 2.6 |
-| `Disposition` | 1.15 | 1.15 | 1.15 | 1.15 | 1.15 | 1.15 | 1.15 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
@@ -6925,7 +6899,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Edun (1.15)
+* First place is Edun (1.2)
 
 `FireRate`:
 
@@ -6953,11 +6927,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Scythe
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-90 "Edit section's source code: Scythe")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-90 "Edit Section using Source Editor:
+Scythe")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-91 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-91 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -6967,7 +6943,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 90 | 60 | 60 | 60 | 60 | 60 | 60 |
 | `CritChance` | 0.34 | 0.285 | 0.24 | 0.21 | 0.2 | 0.2 | 0.19 |
 | `CritMultiplier` | 2.5 | 2.4 | 2.3 | 2.225 | 2.15 | 2 | 2 |
-| `Disposition` | 1.45 | 1.3 | 1.1 | 0.9875 | 0.9 | 0.8 | 0.7 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.083 | 1.0815 | 1.08 | 1.08 | 1.08 | 1.08 | 1 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 2.9 | 2.8 | 2.8 | 2.8 | 2.8 | 2.7 | 2.65 |
@@ -6998,7 +6974,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `BlockAngle`:
 
 * First place is Venato, Tenet Grigori (90)
-* Second place is Coda Caustacyst, Harmony, Reaper Prime, Anku, Caustacyst, Ether Reaper, Venato Prime, Galariak Prime, Hate (60)
+* Second place is Reaper Prime, Coda Caustacyst, Harmony, Anku, Caustacyst, Ether Reaper, Venato Prime, Galariak Prime, Hate (60)
 
 `CritChance`:
 
@@ -7014,19 +6990,17 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Anku (1.46)
-* Second place is Ether Reaper (1.45)
-* Third place is Venato, Caustacyst (1.3)
+* First place is Reaper Prime, Venato, Coda Caustacyst, Tenet Grigori, Harmony, Anku, Caustacyst, Ether Reaper, Venato Prime, Galariak Prime, Hate (1.2)
 
 `FireRate`:
 
 * First place is Venato Prime (1.166)
 * Second place is Harmony, Galariak Prime (1.083)
-* Third place is Venato, Tenet Grigori, Reaper Prime, Anku, Ether Reaper (1.08)
+* Third place is Reaper Prime, Venato, Tenet Grigori, Anku, Ether Reaper (1.08)
 
 `FollowThrough`:
 
-* First place is Venato, Coda Caustacyst, Tenet Grigori, Harmony, Reaper Prime, Anku, Caustacyst, Ether Reaper, Venato Prime, Galariak Prime, Hate (0.6)
+* First place is Reaper Prime, Venato, Coda Caustacyst, Tenet Grigori, Harmony, Anku, Caustacyst, Ether Reaper, Venato Prime, Galariak Prime, Hate (0.6)
 
 `MeleeRange`:
 
@@ -7036,7 +7010,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Venato, Coda Caustacyst, Tenet Grigori, Harmony, Reaper Prime, Anku, Caustacyst, Ether Reaper, Venato Prime, Galariak Prime, Hate (1)
+* First place is Reaper Prime, Venato, Coda Caustacyst, Tenet Grigori, Harmony, Anku, Caustacyst, Ether Reaper, Venato Prime, Galariak Prime, Hate (1)
 
 `StatusChance`:
 
@@ -7052,7 +7026,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-92 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-92 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -7062,7 +7037,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 90 | 60 | 60 | 60 | 60 | 60 | 60 |
 | `CritChance` | 0.34 | 0.285 | 0.24 | 0.21 | 0.2 | 0.2 | 0.14 |
 | `CritMultiplier` | 2.5 | 2.4 | 2.2 | 2.125 | 2.05 | 2 | 2 |
-| `Disposition` | 1.45 | 1.3 | 1.1 | 0.9875 | 0.9 | 0.8 | 0.7 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.083 | 1.08 | 1.08 | 1.08 | 1.08 | 1 | 1 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 2.9 | 2.8 | 2.8 | 2.8 | 2.8 | 2.7 | 2.65 |
@@ -7088,12 +7063,12 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Coda Caustacyst (1.41)
 * Second place is Caustacyst (1.37)
-* Third place is Venato, Harmony, Reaper Prime, Anku, Ether Reaper, Venato Prime, Galariak Prime (1.1)
+* Third place is Reaper Prime, Venato, Harmony, Anku, Ether Reaper, Venato Prime, Galariak Prime (1.1)
 
 `BlockAngle`:
 
 * First place is Venato, Tenet Grigori (90)
-* Second place is Coda Caustacyst, Harmony, Reaper Prime, Anku, Caustacyst, Ether Reaper, Venato Prime, Galariak Prime, Hate (60)
+* Second place is Reaper Prime, Coda Caustacyst, Harmony, Anku, Caustacyst, Ether Reaper, Venato Prime, Galariak Prime, Hate (60)
 
 `CritChance`:
 
@@ -7109,19 +7084,17 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Anku (1.46)
-* Second place is Ether Reaper (1.45)
-* Third place is Venato, Caustacyst (1.3)
+* First place is Reaper Prime, Venato, Coda Caustacyst, Tenet Grigori, Harmony, Anku, Caustacyst, Ether Reaper, Venato Prime, Galariak Prime, Hate (1.2)
 
 `FireRate`:
 
 * First place is Venato Prime (1.166)
 * Second place is Galariak Prime (1.083)
-* Third place is Venato, Harmony, Reaper Prime, Anku, Ether Reaper (1.08)
+* Third place is Reaper Prime, Venato, Harmony, Anku, Ether Reaper (1.08)
 
 `FollowThrough`:
 
-* First place is Venato, Coda Caustacyst, Tenet Grigori, Harmony, Reaper Prime, Anku, Caustacyst, Ether Reaper, Venato Prime, Galariak Prime, Hate (0.6)
+* First place is Reaper Prime, Venato, Coda Caustacyst, Tenet Grigori, Harmony, Anku, Caustacyst, Ether Reaper, Venato Prime, Galariak Prime, Hate (0.6)
 
 `MeleeRange`:
 
@@ -7131,7 +7104,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Venato, Coda Caustacyst, Tenet Grigori, Harmony, Reaper Prime, Anku, Caustacyst, Ether Reaper, Venato Prime, Galariak Prime, Hate (1)
+* First place is Reaper Prime, Venato, Coda Caustacyst, Tenet Grigori, Harmony, Anku, Caustacyst, Ether Reaper, Venato Prime, Galariak Prime, Hate (1)
 
 `StatusChance`:
 
@@ -7147,7 +7120,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-93 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-93 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -7157,7 +7131,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 90 | 60 | 60 | 60 | 60 | 60 | 60 |
 | `CritChance` | 0.34 | 0.285 | 0.24 | 0.21 | 0.2 | 0.2 | 0.095 |
 | `CritMultiplier` | 2.5 | 2.4 | 2.2 | 2.125 | 2.05 | 2 | 1.3 |
-| `Disposition` | 1.45 | 1.3 | 1.1 | 0.9875 | 0.9 | 0.8 | 0.7 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.083 | 1.08 | 1.08 | 1.08 | 1.08 | 1.08 | 1 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 2.9 | 2.8 | 2.8 | 2.8 | 2.8 | 2.7 | 2.65 |
@@ -7183,12 +7157,12 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Coda Caustacyst (2)
 * Second place is Caustacyst (1.5)
-* Third place is Venato, Tenet Grigori, Harmony, Reaper Prime, Anku, Ether Reaper, Venato Prime, Galariak Prime (1.1)
+* Third place is Reaper Prime, Venato, Tenet Grigori, Harmony, Anku, Ether Reaper, Venato Prime, Galariak Prime (1.1)
 
 `BlockAngle`:
 
 * First place is Venato, Tenet Grigori (90)
-* Second place is Coda Caustacyst, Harmony, Reaper Prime, Anku, Caustacyst, Ether Reaper, Venato Prime, Galariak Prime, Hate (60)
+* Second place is Reaper Prime, Coda Caustacyst, Harmony, Anku, Caustacyst, Ether Reaper, Venato Prime, Galariak Prime, Hate (60)
 
 `CritChance`:
 
@@ -7204,19 +7178,17 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Anku (1.46)
-* Second place is Ether Reaper (1.45)
-* Third place is Venato, Caustacyst (1.3)
+* First place is Reaper Prime, Venato, Coda Caustacyst, Tenet Grigori, Harmony, Anku, Caustacyst, Ether Reaper, Venato Prime, Galariak Prime, Hate (1.2)
 
 `FireRate`:
 
 * First place is Venato Prime (1.166)
 * Second place is Galariak Prime (1.083)
-* Third place is Venato, Tenet Grigori, Harmony, Reaper Prime, Anku, Ether Reaper (1.08)
+* Third place is Reaper Prime, Venato, Tenet Grigori, Harmony, Anku, Ether Reaper (1.08)
 
 `FollowThrough`:
 
-* First place is Venato, Coda Caustacyst, Tenet Grigori, Harmony, Reaper Prime, Anku, Caustacyst, Ether Reaper, Venato Prime, Galariak Prime, Hate (0.6)
+* First place is Reaper Prime, Venato, Coda Caustacyst, Tenet Grigori, Harmony, Anku, Caustacyst, Ether Reaper, Venato Prime, Galariak Prime, Hate (0.6)
 
 `MeleeRange`:
 
@@ -7226,7 +7198,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Venato, Coda Caustacyst, Tenet Grigori, Harmony, Reaper Prime, Anku, Caustacyst, Ether Reaper, Venato Prime, Galariak Prime, Hate (1)
+* First place is Reaper Prime, Venato, Coda Caustacyst, Tenet Grigori, Harmony, Anku, Caustacyst, Ether Reaper, Venato Prime, Galariak Prime, Hate (1)
 
 `StatusChance`:
 
@@ -7242,7 +7214,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-94 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-94 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -7252,7 +7225,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 81 | 67.5 | 60 | 60 | 60 | 60 | 60 |
 | `CritChance` | 0.282 | 0.255 | 0.23 | 0.21875 | 0.2075 | 0.18 | 0.135 |
 | `CritMultiplier` | 2.44 | 2.35 | 2.24 | 2.1725 | 2.105 | 1.96 | 1.78 |
-| `Disposition` | 1.24 | 1.15 | 1.07 | 1.03625 | 1.0025 | 0.94 | 0.895 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.056 | 1.02 | 1 | 1 | 1 | 0.9917 | 0.95435 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 2.9 | 2.9 | 2.88 | 2.8575 | 2.835 | 2.77 | 2.635 |
@@ -7297,9 +7270,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Caustacyst (1.3)
-* Second place is Hate (1.1)
-* Third place is Tenet Grigori (0.95)
+* First place is Coda Caustacyst, Tenet Grigori, Caustacyst, Hate (1.2)
 
 `FireRate`:
 
@@ -7333,7 +7304,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 5
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-95 "Edit section's source code: Attack Index 5")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-95 "Edit Section using Source Editor:
+Attack Index 5")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -7343,7 +7315,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 60 | 60 | 60 | 60 | 60 | 60 | 60 |
 | `CritChance` | 0.278 | 0.245 | 0.212 | 0.1955 | 0.18 | 0.15 | 0.12 |
 | `CritMultiplier` | 2.46 | 2.4 | 2.34 | 2.31 | 2.27 | 2.18 | 2.09 |
-| `Disposition` | 1.26 | 1.2 | 1.14 | 1.11 | 1.075 | 1 | 0.925 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 1 | 1 | 1 | 0.9917 | 0.9668 | 0.9419 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 2.9 | 2.9 | 2.9 | 2.9 | 2.89 | 2.86 | 2.83 |
@@ -7387,9 +7359,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Caustacyst (1.3)
-* Second place is Hate (1.1)
-* Third place is Coda Caustacyst (0.85)
+* First place is Coda Caustacyst, Caustacyst, Hate (1.2)
 
 `FireRate`:
 
@@ -7421,11 +7391,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Sparring
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-96 "Edit section's source code: Sparring")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-96 "Edit Section using Source Editor:
+Sparring")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-97 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-97 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -7435,7 +7407,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 50 | 50 | 50 | 50 | 50 | 50 | 50 |
 | `CritChance` | 0.322 | 0.305 | 0.28 | 0.2575 | 0.25 | 0.24 | 0.196 |
 | `CritMultiplier` | 3.04 | 2.75 | 2.3 | 2.075 | 2 | 2 | 1.98 |
-| `Disposition` | 1.424 | 1.375 | 1.33 | 1.3075 | 1.285 | 1.23 | 1.11 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.132 | 1 | 1 | 1 | 0.9751 | 0.917 | 0.9086 |
 | `FollowThrough` | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 |
 | `MeleeRange` | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 |
@@ -7465,7 +7437,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Kogake, Obex, Hirudo (50)
+* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Obex, Kogake, Hirudo (50)
 
 `CritChance`:
 
@@ -7481,9 +7453,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kogake (1.46)
-* Second place is Kogake Prime (1.4)
-* Third place is Korrudo (1.35)
+* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Obex, Kogake, Hirudo (1.2)
 
 `FireRate`:
 
@@ -7493,15 +7463,15 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Kogake, Obex, Hirudo (0.9)
+* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Obex, Kogake, Hirudo (0.9)
 
 `MeleeRange`:
 
-* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Kogake, Obex, Hirudo (1.25)
+* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Obex, Kogake, Hirudo (1.25)
 
 `Multishot`:
 
-* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Kogake, Obex, Hirudo (1)
+* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Obex, Kogake, Hirudo (1)
 
 `StatusChance`:
 
@@ -7517,7 +7487,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-98 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-98 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -7527,7 +7498,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 50 | 50 | 50 | 50 | 50 | 50 | 50 |
 | `CritChance` | 0.322 | 0.305 | 0.28 | 0.2575 | 0.25 | 0.24 | 0.196 |
 | `CritMultiplier` | 3.04 | 2.75 | 2.3 | 2.075 | 2 | 2 | 1.98 |
-| `Disposition` | 1.424 | 1.375 | 1.33 | 1.3075 | 1.285 | 1.23 | 1.11 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.132 | 1 | 1 | 1 | 0.9751 | 0.917 | 0.9086 |
 | `FollowThrough` | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 |
 | `MeleeRange` | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 |
@@ -7551,11 +7522,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `AvgProcCount`:
 
-* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Kogake, Obex, Hirudo (1.1)
+* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Obex, Kogake, Hirudo (1.1)
 
 `BlockAngle`:
 
-* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Kogake, Obex, Hirudo (50)
+* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Obex, Kogake, Hirudo (50)
 
 `CritChance`:
 
@@ -7571,9 +7542,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kogake (1.46)
-* Second place is Kogake Prime (1.4)
-* Third place is Korrudo (1.35)
+* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Obex, Kogake, Hirudo (1.2)
 
 `FireRate`:
 
@@ -7583,19 +7552,19 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Kogake, Obex, Hirudo (0.9)
+* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Obex, Kogake, Hirudo (0.9)
 
 `MeleeRange`:
 
-* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Kogake, Obex, Hirudo (1.25)
+* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Obex, Kogake, Hirudo (1.25)
 
 `Multishot`:
 
-* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Kogake, Obex, Hirudo (1)
+* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Obex, Kogake, Hirudo (1)
 
 `StatusChance`:
 
-* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Kogake, Obex, Hirudo (0.1)
+* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Obex, Kogake, Hirudo (0.1)
 
 `TotalDamage`:
 
@@ -7605,7 +7574,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-99 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-99 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -7615,7 +7585,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 50 | 50 | 50 | 50 | 50 | 50 | 50 |
 | `CritChance` | 0.322 | 0.305 | 0.28 | 0.2575 | 0.25 | 0.24 | 0.196 |
 | `CritMultiplier` | 3.04 | 2.75 | 2.3 | 2.075 | 2 | 2 | 1.98 |
-| `Disposition` | 1.424 | 1.375 | 1.33 | 1.3075 | 1.285 | 1.23 | 1.11 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.132 | 1 | 1 | 1 | 0.9751 | 0.917 | 0.9086 |
 | `FollowThrough` | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 |
 | `MeleeRange` | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 |
@@ -7639,11 +7609,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `AvgProcCount`:
 
-* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Kogake, Obex, Hirudo (1.1)
+* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Obex, Kogake, Hirudo (1.1)
 
 `BlockAngle`:
 
-* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Kogake, Obex, Hirudo (50)
+* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Obex, Kogake, Hirudo (50)
 
 `CritChance`:
 
@@ -7659,9 +7629,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kogake (1.46)
-* Second place is Kogake Prime (1.4)
-* Third place is Korrudo (1.35)
+* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Obex, Kogake, Hirudo (1.2)
 
 `FireRate`:
 
@@ -7671,19 +7639,19 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Kogake, Obex, Hirudo (0.9)
+* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Obex, Kogake, Hirudo (0.9)
 
 `MeleeRange`:
 
-* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Kogake, Obex, Hirudo (1.25)
+* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Obex, Kogake, Hirudo (1.25)
 
 `Multishot`:
 
-* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Kogake, Obex, Hirudo (1)
+* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Obex, Kogake, Hirudo (1)
 
 `StatusChance`:
 
-* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Kogake, Obex, Hirudo (0.1)
+* First place is Kogake Prime, Coda Hirudo, Korrudo, Prisma Obex, Obex, Kogake, Hirudo (0.1)
 
 `TotalDamage`:
 
@@ -7693,11 +7661,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Staff
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-100 "Edit section's source code: Staff")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-100 "Edit Section using Source Editor:
+Staff")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-101 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-101 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -7707,7 +7677,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 60 | 60 | 60 | 60 | 60 | 60 | 60 |
 | `CritChance` | 0.24 | 0.21 | 0.16 | 0.1435 | 0.133 | 0.1255 | 0.10125 |
 | `CritMultiplier` | 2.46 | 2.1 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.43 | 1.4 | 1.36 | 1.35 | 1.35 | 1.314 | 1.291 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.274 | 1.25 | 1.186 | 1.14075 | 1.0935 | 1.008 | 1 |
 | `FollowThrough` | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 |
 | `MeleeRange` | 3 | 3 | 3 | 3 | 3 | 3 | 2.905 |
@@ -7753,9 +7723,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Amphis (1.5)
-* Second place is Mk1-Bo, Broken Scepter (1.4)
-* Third place is Bo Prime, Bo (1.35)
+* First place is Mk1-Bo, Amphis, Cadus, Broken Scepter, Tipedo, Bo Prime, Bo, Tipedo Prime (1.2)
 
 `FireRate`:
 
@@ -7791,7 +7759,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-102 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-102 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -7801,7 +7770,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 60 | 60 | 60 | 60 | 60 | 60 | 60 |
 | `CritChance` | 0.24 | 0.21 | 0.16 | 0.1435 | 0.133 | 0.1255 | 0.10125 |
 | `CritMultiplier` | 2.46 | 2.1 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.43 | 1.4 | 1.36 | 1.35 | 1.35 | 1.314 | 1.291 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.274 | 1.25 | 1.186 | 1.14075 | 1.0935 | 1.008 | 1 |
 | `FollowThrough` | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 |
 | `MeleeRange` | 3 | 3 | 3 | 3 | 3 | 3 | 2.905 |
@@ -7845,9 +7814,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Amphis (1.5)
-* Second place is Mk1-Bo, Broken Scepter (1.4)
-* Third place is Bo Prime, Bo (1.35)
+* First place is Mk1-Bo, Amphis, Cadus, Broken Scepter, Tipedo, Bo Prime, Bo, Tipedo Prime (1.2)
 
 `FireRate`:
 
@@ -7881,7 +7848,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-103 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-103 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -7891,7 +7859,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 60 | 60 | 60 | 60 | 60 | 60 | 60 |
 | `CritChance` | 0.24 | 0.24 | 0.208 | 0.18375 | 0.1575 | 0.1275 | 0.10125 |
 | `CritMultiplier` | 2.46 | 2.1 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.43 | 1.4 | 1.36 | 1.35 | 1.35 | 1.314 | 1.291 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.274 | 1.25 | 1.186 | 1.14075 | 1.0935 | 1.008 | 1 |
 | `FollowThrough` | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 |
 | `MeleeRange` | 3 | 3 | 3 | 3 | 3 | 3 | 2.905 |
@@ -7935,9 +7903,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Amphis (1.5)
-* Second place is Mk1-Bo, Broken Scepter (1.4)
-* Third place is Bo Prime, Bo (1.35)
+* First place is Mk1-Bo, Amphis, Cadus, Broken Scepter, Tipedo, Bo Prime, Bo, Tipedo Prime (1.2)
 
 `FireRate`:
 
@@ -7971,11 +7937,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Sword
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-104 "Edit section's source code: Sword")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-104 "Edit Section using Source Editor:
+Sword")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-105 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-105 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -7985,7 +7953,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.32 | 0.265 | 0.18 | 0.17 | 0.0975 | 0.08 | 0.0525 |
 | `CritMultiplier` | 2.4 | 2.225 | 2.2 | 1.9375 | 1.5 | 1.5 | 1.5 |
-| `Disposition` | 1.48 | 1.4725 | 1.4 | 1.34375 | 1.3 | 1.2 | 1.1125 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.04 | 1 | 1 | 0.917 | 0.917 | 0.917 | 0.833 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 2.6 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 |
@@ -8015,7 +7983,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Dakra Prime, Prisma Skana, Skana, Coda Mire, Dark Sword, Krohkur, Mire, Plasma Sword, Pangolin Sword, Heat Sword, Jaw Sword, Ether Sword, Cronus, Broken War (55)
+* First place is Dakra Prime, Pangolin Sword, Prisma Skana, Skana, Coda Mire, Dark Sword, Krohkur, Plasma Sword, Heat Sword, Mire, Jaw Sword, Ether Sword, Cronus, Broken War (55)
 * Second place is Skana Prime, Pangolin Prime (50)
 
 `CritChance`:
@@ -8032,9 +8000,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Dark Sword, Plasma Sword, Heat Sword, Cronus (1.48)
-* Second place is Pangolin Sword (1.47)
-* Third place is Ether Sword (1.44)
+* First place is Dakra Prime, Pangolin Sword, Prisma Skana, Skana Prime, Skana, Coda Mire, Dark Sword, Krohkur, Pangolin Prime, Plasma Sword, Heat Sword, Mire, Jaw Sword, Ether Sword, Cronus, Broken War (1.2)
 
 `FireRate`:
 
@@ -8044,16 +8010,16 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Dakra Prime, Prisma Skana, Skana, Coda Mire, Dark Sword, Skana Prime, Krohkur, Mire, Pangolin Prime, Plasma Sword, Pangolin Sword, Heat Sword, Jaw Sword, Ether Sword, Cronus, Broken War (0.6)
+* First place is Dakra Prime, Pangolin Sword, Prisma Skana, Skana Prime, Skana, Coda Mire, Dark Sword, Krohkur, Pangolin Prime, Plasma Sword, Heat Sword, Mire, Jaw Sword, Ether Sword, Cronus, Broken War (0.6)
 
 `MeleeRange`:
 
 * First place is Coda Mire, Mire (2.7)
-* Second place is Dakra Prime, Prisma Skana, Skana, Dark Sword, Skana Prime, Krohkur, Pangolin Prime, Plasma Sword, Pangolin Sword, Heat Sword, Jaw Sword, Ether Sword, Cronus, Broken War (2.5)
+* Second place is Dakra Prime, Pangolin Sword, Prisma Skana, Skana Prime, Skana, Dark Sword, Krohkur, Pangolin Prime, Plasma Sword, Heat Sword, Jaw Sword, Ether Sword, Cronus, Broken War (2.5)
 
 `Multishot`:
 
-* First place is Dakra Prime, Prisma Skana, Skana, Coda Mire, Dark Sword, Skana Prime, Krohkur, Mire, Pangolin Prime, Plasma Sword, Pangolin Sword, Heat Sword, Jaw Sword, Ether Sword, Cronus, Broken War (1)
+* First place is Dakra Prime, Pangolin Sword, Prisma Skana, Skana Prime, Skana, Coda Mire, Dark Sword, Krohkur, Pangolin Prime, Plasma Sword, Heat Sword, Mire, Jaw Sword, Ether Sword, Cronus, Broken War (1)
 
 `StatusChance`:
 
@@ -8069,7 +8035,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-106 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-106 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8079,7 +8046,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.32 | 0.265 | 0.18 | 0.17 | 0.0975 | 0.08 | 0.0525 |
 | `CritMultiplier` | 2.4 | 2.225 | 2.2 | 1.9375 | 1.5 | 1.5 | 1.5 |
-| `Disposition` | 1.48 | 1.4725 | 1.4 | 1.34375 | 1.3 | 1.2 | 1.1125 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.04 | 1 | 1 | 0.917 | 0.917 | 0.917 | 0.833 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 2.6 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 |
@@ -8105,11 +8072,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Coda Mire, Mire (2.31)
 * Second place is Heat Sword (2.2)
-* Third place is Pangolin Prime, Plasma Sword, Pangolin Sword, Ether Sword (2.1)
+* Third place is Pangolin Sword, Pangolin Prime, Plasma Sword, Ether Sword (2.1)
 
 `BlockAngle`:
 
-* First place is Dakra Prime, Prisma Skana, Skana, Coda Mire, Dark Sword, Krohkur, Mire, Plasma Sword, Pangolin Sword, Heat Sword, Jaw Sword, Ether Sword, Cronus, Broken War (55)
+* First place is Dakra Prime, Pangolin Sword, Prisma Skana, Skana, Coda Mire, Dark Sword, Krohkur, Plasma Sword, Heat Sword, Mire, Jaw Sword, Ether Sword, Cronus, Broken War (55)
 * Second place is Skana Prime, Pangolin Prime (50)
 
 `CritChance`:
@@ -8126,28 +8093,26 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Dark Sword, Plasma Sword, Heat Sword, Cronus (1.48)
-* Second place is Pangolin Sword (1.47)
-* Third place is Ether Sword (1.44)
+* First place is Dakra Prime, Pangolin Sword, Prisma Skana, Skana Prime, Skana, Coda Mire, Dark Sword, Krohkur, Pangolin Prime, Plasma Sword, Heat Sword, Mire, Jaw Sword, Ether Sword, Cronus, Broken War (1.2)
 
 `FireRate`:
 
 * First place is Coda Mire, Mire (1.08)
 * Second place is Dakra Prime, Prisma Skana, Skana Prime, Ether Sword, Broken War (1)
-* Third place is Pangolin Prime, Pangolin Sword, Heat Sword, Jaw Sword, Cronus (0.917)
+* Third place is Pangolin Sword, Pangolin Prime, Heat Sword, Jaw Sword, Cronus (0.917)
 
 `FollowThrough`:
 
-* First place is Dakra Prime, Prisma Skana, Skana, Coda Mire, Dark Sword, Skana Prime, Krohkur, Mire, Pangolin Prime, Plasma Sword, Pangolin Sword, Heat Sword, Jaw Sword, Ether Sword, Cronus, Broken War (0.6)
+* First place is Dakra Prime, Pangolin Sword, Prisma Skana, Skana Prime, Skana, Coda Mire, Dark Sword, Krohkur, Pangolin Prime, Plasma Sword, Heat Sword, Mire, Jaw Sword, Ether Sword, Cronus, Broken War (0.6)
 
 `MeleeRange`:
 
 * First place is Coda Mire, Mire (2.7)
-* Second place is Dakra Prime, Prisma Skana, Skana, Dark Sword, Skana Prime, Krohkur, Pangolin Prime, Plasma Sword, Pangolin Sword, Heat Sword, Jaw Sword, Ether Sword, Cronus, Broken War (2.5)
+* Second place is Dakra Prime, Pangolin Sword, Prisma Skana, Skana Prime, Skana, Dark Sword, Krohkur, Pangolin Prime, Plasma Sword, Heat Sword, Jaw Sword, Ether Sword, Cronus, Broken War (2.5)
 
 `Multishot`:
 
-* First place is Dakra Prime, Prisma Skana, Skana, Coda Mire, Dark Sword, Skana Prime, Krohkur, Mire, Pangolin Prime, Plasma Sword, Pangolin Sword, Heat Sword, Jaw Sword, Ether Sword, Cronus, Broken War (1)
+* First place is Dakra Prime, Pangolin Sword, Prisma Skana, Skana Prime, Skana, Coda Mire, Dark Sword, Krohkur, Pangolin Prime, Plasma Sword, Heat Sword, Mire, Jaw Sword, Ether Sword, Cronus, Broken War (1)
 
 `StatusChance`:
 
@@ -8163,7 +8128,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-107 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-107 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8173,7 +8139,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.32 | 0.265 | 0.18 | 0.17 | 0.0975 | 0.08 | 0.0525 |
 | `CritMultiplier` | 2.4 | 2.225 | 2.2 | 1.9375 | 1.5 | 1.5 | 1.5 |
-| `Disposition` | 1.48 | 1.4725 | 1.4 | 1.34375 | 1.3 | 1.2 | 1.1125 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.04 | 1 | 1 | 0.917 | 0.917 | 0.917 | 0.833 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 2.6 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 |
@@ -8203,7 +8169,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Dakra Prime, Prisma Skana, Skana, Coda Mire, Dark Sword, Krohkur, Mire, Plasma Sword, Pangolin Sword, Heat Sword, Jaw Sword, Ether Sword, Cronus, Broken War (55)
+* First place is Dakra Prime, Pangolin Sword, Prisma Skana, Skana, Coda Mire, Dark Sword, Krohkur, Plasma Sword, Heat Sword, Mire, Jaw Sword, Ether Sword, Cronus, Broken War (55)
 * Second place is Skana Prime, Pangolin Prime (50)
 
 `CritChance`:
@@ -8220,28 +8186,26 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Dark Sword, Plasma Sword, Heat Sword, Cronus (1.48)
-* Second place is Pangolin Sword (1.47)
-* Third place is Ether Sword (1.44)
+* First place is Dakra Prime, Pangolin Sword, Prisma Skana, Skana Prime, Skana, Coda Mire, Dark Sword, Krohkur, Pangolin Prime, Plasma Sword, Heat Sword, Mire, Jaw Sword, Ether Sword, Cronus, Broken War (1.2)
 
 `FireRate`:
 
 * First place is Coda Mire, Mire (1.08)
 * Second place is Dakra Prime, Prisma Skana, Skana Prime, Ether Sword, Broken War (1)
-* Third place is Pangolin Prime, Pangolin Sword, Heat Sword, Jaw Sword, Cronus (0.917)
+* Third place is Pangolin Sword, Pangolin Prime, Heat Sword, Jaw Sword, Cronus (0.917)
 
 `FollowThrough`:
 
-* First place is Dakra Prime, Prisma Skana, Skana, Coda Mire, Dark Sword, Skana Prime, Krohkur, Mire, Pangolin Prime, Plasma Sword, Pangolin Sword, Heat Sword, Jaw Sword, Ether Sword, Cronus, Broken War (0.6)
+* First place is Dakra Prime, Pangolin Sword, Prisma Skana, Skana Prime, Skana, Coda Mire, Dark Sword, Krohkur, Pangolin Prime, Plasma Sword, Heat Sword, Mire, Jaw Sword, Ether Sword, Cronus, Broken War (0.6)
 
 `MeleeRange`:
 
 * First place is Coda Mire, Mire (2.7)
-* Second place is Dakra Prime, Prisma Skana, Skana, Dark Sword, Skana Prime, Krohkur, Pangolin Prime, Plasma Sword, Pangolin Sword, Heat Sword, Jaw Sword, Ether Sword, Cronus, Broken War (2.5)
+* Second place is Dakra Prime, Pangolin Sword, Prisma Skana, Skana Prime, Skana, Dark Sword, Krohkur, Pangolin Prime, Plasma Sword, Heat Sword, Jaw Sword, Ether Sword, Cronus, Broken War (2.5)
 
 `Multishot`:
 
-* First place is Dakra Prime, Prisma Skana, Skana, Coda Mire, Dark Sword, Skana Prime, Krohkur, Mire, Pangolin Prime, Plasma Sword, Pangolin Sword, Heat Sword, Jaw Sword, Ether Sword, Cronus, Broken War (1)
+* First place is Dakra Prime, Pangolin Sword, Prisma Skana, Skana Prime, Skana, Coda Mire, Dark Sword, Krohkur, Pangolin Prime, Plasma Sword, Heat Sword, Mire, Jaw Sword, Ether Sword, Cronus, Broken War (1)
 
 `StatusChance`:
 
@@ -8257,11 +8221,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Sword and Shield
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-108 "Edit section's source code: Sword and Shield")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-108 "Edit Section using Source Editor:
+Sword and Shield")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-109 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-109 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8271,7 +8237,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 74 | 70 | 70 | 70 | 70 | 70 | 70 |
 | `CritChance` | 0.288 | 0.25 | 0.234 | 0.216 | 0.206 | 0.188 | 0.156 |
 | `CritMultiplier` | 2.24 | 2 | 2 | 2 | 2 | 1.94 | 1.58 |
-| `Disposition` | 1.35 | 1.2 | 1.15 | 1.15 | 1.13 | 1.07 | 0.97 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.016 | 1 | 0.9834 | 0.9336 | 0.917 | 0.8666 | 0.8066 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 2.6 | 2.6 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 |
@@ -8318,9 +8284,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Ack & Brunt, Cobra & Crane (1.35)
-* Second place is Cobra & Crane Prime (1.2)
-* Third place is Silva & Aegis, Argo & Vel (1.15)
+* First place is Sigma & Octantis, Ack & Brunt, Cobra & Crane Prime, Silva & Aegis Prime, Tenet Agendus, Tak & Lug, Silva & Aegis, Cobra & Crane, Argo & Vel (1.2)
 
 `FireRate`:
 
@@ -8355,7 +8319,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-110 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-110 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8365,7 +8330,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 74 | 70 | 70 | 70 | 70 | 70 | 70 |
 | `CritChance` | 0.288 | 0.25 | 0.234 | 0.216 | 0.198 | 0.162 | 0.134 |
 | `CritMultiplier` | 2.24 | 2 | 2 | 2 | 2 | 1.94 | 1.58 |
-| `Disposition` | 1.35 | 1.2 | 1.15 | 1.15 | 1.13 | 1.07 | 0.97 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.016 | 1 | 0.9834 | 0.9336 | 0.917 | 0.8666 | 0.8066 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 2.6 | 2.6 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 |
@@ -8412,9 +8377,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Ack & Brunt, Cobra & Crane (1.35)
-* Second place is Cobra & Crane Prime (1.2)
-* Third place is Silva & Aegis, Argo & Vel (1.15)
+* First place is Sigma & Octantis, Ack & Brunt, Cobra & Crane Prime, Silva & Aegis Prime, Tenet Agendus, Tak & Lug, Silva & Aegis, Cobra & Crane, Argo & Vel (1.2)
 
 `FireRate`:
 
@@ -8449,7 +8412,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-111 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-111 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8459,7 +8423,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 74 | 70 | 70 | 70 | 70 | 70 | 70 |
 | `CritChance` | 0.288 | 0.25 | 0.234 | 0.216 | 0.198 | 0.162 | 0.134 |
 | `CritMultiplier` | 2.24 | 2 | 2 | 2 | 2 | 1.94 | 1.58 |
-| `Disposition` | 1.35 | 1.2 | 1.15 | 1.15 | 1.13 | 1.07 | 0.97 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.08 | 1 | 0.9834 | 0.9336 | 0.917 | 0.8666 | 0.8066 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 2.6 | 2.6 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 |
@@ -8506,9 +8470,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Ack & Brunt, Cobra & Crane (1.35)
-* Second place is Cobra & Crane Prime (1.2)
-* Third place is Silva & Aegis, Argo & Vel (1.15)
+* First place is Sigma & Octantis, Ack & Brunt, Cobra & Crane Prime, Silva & Aegis Prime, Tenet Agendus, Tak & Lug, Silva & Aegis, Cobra & Crane, Argo & Vel (1.2)
 
 `FireRate`:
 
@@ -8543,7 +8505,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-112 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-112 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8553,7 +8516,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 84 | 75 | 70 | 70 | 70 | 70 | 70 |
 | `CritChance` | 0.308 | 0.29 | 0.272 | 0.263 | 0.254 | 0.236 | 0.218 |
 | `CritMultiplier` | 2.34 | 2.25 | 2.16 | 2.115 | 2.07 | 2 | 2 |
-| `Disposition` | 1.29 | 1.2 | 1.14 | 1.12875 | 1.1175 | 1.08 | 0.99 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.0311 | 0.95775 | 0.9002 | 0.8813 | 0.8624 | 0.8297 | 0.81485 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 2.57 | 2.525 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 |
@@ -8599,9 +8562,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Ack & Brunt (1.35)
-* Second place is Argo & Vel (1.15)
-* Third place is Sigma & Octantis (1.1)
+* First place is Sigma & Octantis, Ack & Brunt, Tenet Agendus, Argo & Vel (1.2)
 
 `FireRate`:
 
@@ -8635,7 +8596,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 5
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-113 "Edit section's source code: Attack Index 5")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-113 "Edit Section using Source Editor:
+Attack Index 5")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8645,7 +8607,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 70 | 70 | 70 | 70 | 70 | 70 | 70 |
 | `CritChance` | 0.312 | 0.3 | 0.288 | 0.282 | 0.272 | 0.248 | 0.224 |
 | `CritMultiplier` | 2.36 | 2.3 | 2.24 | 2.21 | 2.18 | 2.12 | 2.06 |
-| `Disposition` | 1.31 | 1.25 | 1.19 | 1.16 | 1.145 | 1.13 | 1.115 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.0306 | 0.9565 | 0.8824 | 0.84535 | 0.8297 | 0.8198 | 0.8099 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 |
@@ -8689,9 +8651,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Ack & Brunt (1.35)
-* Second place is Argo & Vel (1.15)
-* Third place is Sigma & Octantis (1.1)
+* First place is Sigma & Octantis, Ack & Brunt, Argo & Vel (1.2)
 
 `FireRate`:
 
@@ -8723,11 +8683,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Tonfa
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-114 "Edit section's source code: Tonfa")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-114 "Edit Section using Source Editor:
+Tonfa")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-115 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-115 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8737,7 +8699,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 60 | 60 | 60 | 60 | 60 | 60 | 60 |
 | `CritChance` | 0.251 | 0.2225 | 0.204 | 0.2 | 0.2 | 0.155 | 0.1025 |
 | `CritMultiplier` | 2.13 | 2.025 | 2 | 2 | 2 | 2 | 1.525 |
-| `Disposition` | 1.304 | 1.25 | 1.13 | 1.05125 | 0.9725 | 0.86 | 0.7075 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.17 | 1.104975 | 1.08066 | 1.08 | 1.08 | 1.008 | 0.92115 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 |
@@ -8767,7 +8729,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Praedos, Ohma, Boltace, Kronen (60)
+* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Ohma, Praedos, Boltace, Kronen (60)
 
 `CritChance`:
 
@@ -8779,13 +8741,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Prisma Ohma (2.2)
 * Second place is Tonkkatt (2.1)
-* Third place is Kronen Prime, Telos Boltace, Praedos, Ohma (2)
+* Third place is Kronen Prime, Telos Boltace, Ohma, Praedos (2)
 
 `Disposition`:
 
-* First place is Kronen (1.43)
-* Second place is Ohma, Boltace (1.25)
-* Third place is Telos Boltace (1.1)
+* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Ohma, Praedos, Boltace, Kronen (1.2)
 
 `FireRate`:
 
@@ -8795,15 +8755,15 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Praedos, Ohma, Boltace, Kronen (0.6)
+* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Ohma, Praedos, Boltace, Kronen (0.6)
 
 `MeleeRange`:
 
-* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Praedos, Ohma, Boltace, Kronen (2.5)
+* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Ohma, Praedos, Boltace, Kronen (2.5)
 
 `Multishot`:
 
-* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Praedos, Ohma, Boltace, Kronen (1)
+* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Ohma, Praedos, Boltace, Kronen (1)
 
 `StatusChance`:
 
@@ -8819,7 +8779,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-116 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-116 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8829,7 +8790,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 60 | 60 | 60 | 60 | 60 | 60 | 60 |
 | `CritChance` | 0.251 | 0.2225 | 0.204 | 0.2 | 0.2 | 0.155 | 0.1025 |
 | `CritMultiplier` | 2.13 | 2.025 | 2 | 2 | 2 | 2 | 1.525 |
-| `Disposition` | 1.304 | 1.25 | 1.13 | 1.05125 | 0.9725 | 0.86 | 0.7075 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.17 | 1.1025 | 1.08 | 1.08 | 1.08 | 1.008 | 0.92115 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 |
@@ -8859,7 +8820,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Praedos, Ohma, Boltace, Kronen (60)
+* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Ohma, Praedos, Boltace, Kronen (60)
 
 `CritChance`:
 
@@ -8871,13 +8832,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Prisma Ohma (2.2)
 * Second place is Tonkkatt (2.1)
-* Third place is Kronen Prime, Telos Boltace, Praedos, Ohma (2)
+* Third place is Kronen Prime, Telos Boltace, Ohma, Praedos (2)
 
 `Disposition`:
 
-* First place is Kronen (1.43)
-* Second place is Ohma, Boltace (1.25)
-* Third place is Telos Boltace (1.1)
+* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Ohma, Praedos, Boltace, Kronen (1.2)
 
 `FireRate`:
 
@@ -8887,15 +8846,15 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Praedos, Ohma, Boltace, Kronen (0.6)
+* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Ohma, Praedos, Boltace, Kronen (0.6)
 
 `MeleeRange`:
 
-* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Praedos, Ohma, Boltace, Kronen (2.5)
+* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Ohma, Praedos, Boltace, Kronen (2.5)
 
 `Multishot`:
 
-* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Praedos, Ohma, Boltace, Kronen (1)
+* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Ohma, Praedos, Boltace, Kronen (1)
 
 `StatusChance`:
 
@@ -8911,7 +8870,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-117 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-117 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -8921,7 +8881,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 60 | 60 | 60 | 60 | 60 | 60 | 60 |
 | `CritChance` | 0.251 | 0.2225 | 0.204 | 0.2 | 0.2 | 0.155 | 0.1025 |
 | `CritMultiplier` | 2.13 | 2.025 | 2 | 2 | 2 | 2 | 1.525 |
-| `Disposition` | 1.304 | 1.25 | 1.13 | 1.05125 | 0.9725 | 0.86 | 0.7075 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.17 | 1.1025 | 1.08 | 1.08 | 1.08 | 1.008 | 0.92115 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 |
@@ -8950,7 +8910,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Praedos, Ohma, Boltace, Kronen (60)
+* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Ohma, Praedos, Boltace, Kronen (60)
 
 `CritChance`:
 
@@ -8962,13 +8922,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Prisma Ohma (2.2)
 * Second place is Tonkkatt (2.1)
-* Third place is Kronen Prime, Telos Boltace, Praedos, Ohma (2)
+* Third place is Kronen Prime, Telos Boltace, Ohma, Praedos (2)
 
 `Disposition`:
 
-* First place is Kronen (1.43)
-* Second place is Ohma, Boltace (1.25)
-* Third place is Telos Boltace (1.1)
+* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Ohma, Praedos, Boltace, Kronen (1.2)
 
 `FireRate`:
 
@@ -8978,15 +8936,15 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Praedos, Ohma, Boltace, Kronen (0.6)
+* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Ohma, Praedos, Boltace, Kronen (0.6)
 
 `MeleeRange`:
 
-* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Praedos, Ohma, Boltace, Kronen (2.5)
+* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Ohma, Praedos, Boltace, Kronen (2.5)
 
 `Multishot`:
 
-* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Praedos, Ohma, Boltace, Kronen (1)
+* First place is Kronen Prime, Tonkkatt, Telos Boltace, Prisma Ohma, Ohma, Praedos, Boltace, Kronen (1)
 
 `StatusChance`:
 
@@ -9001,7 +8959,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-118 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-118 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -9011,7 +8970,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 60 | 60 | 60 | 60 | 60 | 60 | 60 |
 | `CritChance` | 0.2 | 0.2 | 0.2 | 0.2 | 0.2 | 0.2 | 0.2 |
 | `CritMultiplier` | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.1 | 1.1 | 1.1 | 1.1 | 1.1 | 1.1 | 1.1 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.08 | 1.08 | 1.08 | 1.08 | 1.08 | 1.08 | 1.08 |
 | `FollowThrough` | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 | 0.6 |
 | `MeleeRange` | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 |
@@ -9047,7 +9006,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Telos Boltace (1.1)
+* First place is Telos Boltace (1.2)
 
 `FireRate`:
 
@@ -9075,11 +9034,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Two-Handed Nikana
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-119 "Edit section's source code: Two-Handed Nikana")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-119 "Edit Section using Source Editor:
+Two-Handed Nikana")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-120 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-120 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -9089,7 +9050,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.332 | 0.32 | 0.296 | 0.284 | 0.268 | 0.232 | 0.196 |
 | `CritMultiplier` | 2.76 | 2.4 | 2.4 | 2.4 | 2.36 | 2.24 | 2.12 |
-| `Disposition` | 1.08 | 1.05 | 0.99 | 0.96 | 0.95 | 0.95 | 0.93 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.17 | 1.17 | 1.116 | 1.089 | 1.064 | 1.016 | 0.9668 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 3.12 | 3 | 3 | 3 | 3 | 3 | 2.8 |
@@ -9135,9 +9096,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Azothane (1.1)
-* Second place is Tatsu (1.05)
-* Third place is Tenet Livia, Pennant (0.95)
+* First place is Tenet Livia, Azothane, Tatsu Prime, Tatsu, Pennant (1.2)
 
 `FireRate`:
 
@@ -9173,7 +9132,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-121 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-121 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -9183,7 +9143,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.332 | 0.32 | 0.296 | 0.284 | 0.246 | 0.144 | 0.11 |
 | `CritMultiplier` | 2.76 | 2.4 | 2.28 | 2.22 | 2.14 | 1.96 | 1.9 |
-| `Disposition` | 1.08 | 1.05 | 0.99 | 0.96 | 0.95 | 0.95 | 0.93 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.17 | 1.17 | 1.116 | 1.089 | 1.064 | 1.016 | 0.9668 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 3.12 | 3 | 3 | 3 | 3 | 3 | 2.8 |
@@ -9228,9 +9188,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Azothane (1.1)
-* Second place is Tatsu (1.05)
-* Third place is Tenet Livia, Pennant (0.95)
+* First place is Tenet Livia, Azothane, Tatsu Prime, Tatsu, Pennant (1.2)
 
 `FireRate`:
 
@@ -9265,7 +9223,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-122 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-122 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -9275,7 +9234,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.332 | 0.32 | 0.296 | 0.284 | 0.268 | 0.232 | 0.196 |
 | `CritMultiplier` | 2.76 | 2.4 | 2.4 | 2.4 | 2.36 | 2.24 | 2.12 |
-| `Disposition` | 1.08 | 1.05 | 0.99 | 0.96 | 0.95 | 0.95 | 0.93 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.17 | 1.17 | 1.116 | 1.089 | 1.064 | 1.016 | 0.9668 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 3.12 | 3 | 3 | 3 | 3 | 3 | 2.8 |
@@ -9319,9 +9278,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Azothane (1.1)
-* Second place is Tatsu (1.05)
-* Third place is Tenet Livia, Pennant (0.95)
+* First place is Tenet Livia, Azothane, Tatsu Prime, Tatsu, Pennant (1.2)
 
 `FireRate`:
 
@@ -9355,7 +9312,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-123 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-123 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -9365,7 +9323,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.214 | 0.205 | 0.196 | 0.1915 | 0.187 | 0.178 | 0.169 |
 | `CritMultiplier` | 2.36 | 2.3 | 2.24 | 2.21 | 2.18 | 2.12 | 2.06 |
-| `Disposition` | 1.035 | 1.0125 | 0.99 | 0.97875 | 0.9675 | 0.945 | 0.9225 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.153 | 1.1275 | 1.102 | 1.08925 | 1.0765 | 1.051 | 1.0255 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
@@ -9405,8 +9363,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Tatsu (1.05)
-* Second place is Tatsu Prime (0.9)
+* First place is Tatsu Prime, Tatsu (1.2)
 
 `FireRate`:
 
@@ -9436,11 +9393,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Warfan
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-124 "Edit section's source code: Warfan")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-124 "Edit Section using Source Editor:
+Warfan")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-125 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-125 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -9450,7 +9409,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.325 | 0.28 | 0.22 | 0.2125 | 0.205 | 0.18 | 0.1425 |
 | `CritMultiplier` | 2.25 | 2 | 2 | 2 | 2 | 2 | 1.975 |
-| `Disposition` | 1.3 | 1.225 | 1.15 | 1.15 | 1.15 | 1.075 | 0.975 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.17 | 1.1475 | 1.08 | 1.05 | 1.02 | 0.9165 | 0.833 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 1.85 | 1.775 | 1.7 | 1.7 | 1.7 | 1.7 | 1.7 |
@@ -9480,7 +9439,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Gunsen, Vericres, Quassus, Quassus Prime, Arum Spinosa, Gunsen Prime (55)
+* First place is Gunsen, Vericres, Quassus, Arum Spinosa, Quassus Prime, Gunsen Prime (55)
 
 `CritChance`:
 
@@ -9496,9 +9455,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Gunsen (1.35)
-* Second place is Arum Spinosa (1.25)
-* Third place is Vericres, Quassus (1.15)
+* First place is Gunsen, Vericres, Quassus, Arum Spinosa, Quassus Prime, Gunsen Prime (1.2)
 
 `FireRate`:
 
@@ -9508,17 +9465,17 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Gunsen, Vericres, Quassus, Quassus Prime, Arum Spinosa, Gunsen Prime (0.7)
+* First place is Gunsen, Vericres, Quassus, Arum Spinosa, Quassus Prime, Gunsen Prime (0.7)
 
 `MeleeRange`:
 
 * First place is Gunsen Prime (1.9)
 * Second place is Vericres (1.8)
-* Third place is Gunsen, Quassus, Quassus Prime, Arum Spinosa (1.7)
+* Third place is Gunsen, Quassus, Arum Spinosa, Quassus Prime (1.7)
 
 `Multishot`:
 
-* First place is Gunsen, Vericres, Quassus, Quassus Prime, Arum Spinosa, Gunsen Prime (1)
+* First place is Gunsen, Vericres, Quassus, Arum Spinosa, Quassus Prime, Gunsen Prime (1)
 
 `StatusChance`:
 
@@ -9534,7 +9491,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-126 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-126 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -9544,7 +9502,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.325 | 0.28 | 0.22 | 0.2125 | 0.205 | 0.18 | 0.1425 |
 | `CritMultiplier` | 2.25 | 2 | 2 | 2 | 2 | 2 | 1.925 |
-| `Disposition` | 1.3 | 1.225 | 1.15 | 1.15 | 1.15 | 1.075 | 0.975 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 2 | 2 | 2 | 1.68875 | 1.3775 | 1.17 | 1.1275 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 1.85 | 1.775 | 1.7 | 1.7 | 1.7 | 1.7 | 1.7 |
@@ -9574,7 +9532,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Gunsen, Vericres, Quassus, Quassus Prime, Arum Spinosa, Gunsen Prime (55)
+* First place is Gunsen, Vericres, Quassus, Arum Spinosa, Quassus Prime, Gunsen Prime (55)
 
 `CritChance`:
 
@@ -9590,29 +9548,27 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Gunsen (1.35)
-* Second place is Arum Spinosa (1.25)
-* Third place is Vericres, Quassus (1.15)
+* First place is Gunsen, Vericres, Quassus, Arum Spinosa, Quassus Prime, Gunsen Prime (1.2)
 
 `FireRate`:
 
-* First place is Quassus, Quassus Prime, Arum Spinosa (2)
+* First place is Quassus, Arum Spinosa, Quassus Prime (2)
 * Second place is Gunsen, Gunsen Prime (1.17)
 * Third place is Vericres (1)
 
 `FollowThrough`:
 
-* First place is Gunsen, Vericres, Quassus, Quassus Prime, Arum Spinosa, Gunsen Prime (0.7)
+* First place is Gunsen, Vericres, Quassus, Arum Spinosa, Quassus Prime, Gunsen Prime (0.7)
 
 `MeleeRange`:
 
 * First place is Gunsen Prime (1.9)
 * Second place is Vericres (1.8)
-* Third place is Gunsen, Quassus, Quassus Prime, Arum Spinosa (1.7)
+* Third place is Gunsen, Quassus, Arum Spinosa, Quassus Prime (1.7)
 
 `Multishot`:
 
-* First place is Quassus Prime, Arum Spinosa (18)
+* First place is Arum Spinosa, Quassus Prime (18)
 * Second place is Quassus (12)
 * Third place is Gunsen, Vericres, Gunsen Prime (1)
 
@@ -9630,7 +9586,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-127 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-127 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -9640,7 +9597,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.325 | 0.28 | 0.22 | 0.2125 | 0.205 | 0.18 | 0.1425 |
 | `CritMultiplier` | 2.25 | 2 | 2 | 2 | 2 | 2 | 1.925 |
-| `Disposition` | 1.3 | 1.225 | 1.15 | 1.15 | 1.15 | 1.075 | 0.975 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 2 | 2 | 2 | 1.68875 | 1.3775 | 1.17 | 1.1275 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 1.85 | 1.775 | 1.7 | 1.7 | 1.7 | 1.7 | 1.7 |
@@ -9670,7 +9627,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Gunsen, Vericres, Quassus, Quassus Prime, Arum Spinosa, Gunsen Prime (55)
+* First place is Gunsen, Vericres, Quassus, Arum Spinosa, Quassus Prime, Gunsen Prime (55)
 
 `CritChance`:
 
@@ -9686,29 +9643,27 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Gunsen (1.35)
-* Second place is Arum Spinosa (1.25)
-* Third place is Vericres, Quassus (1.15)
+* First place is Gunsen, Vericres, Quassus, Arum Spinosa, Quassus Prime, Gunsen Prime (1.2)
 
 `FireRate`:
 
-* First place is Quassus, Quassus Prime, Arum Spinosa (2)
+* First place is Quassus, Arum Spinosa, Quassus Prime (2)
 * Second place is Gunsen, Gunsen Prime (1.17)
 * Third place is Vericres (1)
 
 `FollowThrough`:
 
-* First place is Gunsen, Vericres, Quassus, Quassus Prime, Arum Spinosa, Gunsen Prime (0.7)
+* First place is Gunsen, Vericres, Quassus, Arum Spinosa, Quassus Prime, Gunsen Prime (0.7)
 
 `MeleeRange`:
 
 * First place is Gunsen Prime (1.9)
 * Second place is Vericres (1.8)
-* Third place is Gunsen, Quassus, Quassus Prime, Arum Spinosa (1.7)
+* Third place is Gunsen, Quassus, Arum Spinosa, Quassus Prime (1.7)
 
 `Multishot`:
 
-* First place is Quassus Prime, Arum Spinosa (9)
+* First place is Arum Spinosa, Quassus Prime (9)
 * Second place is Quassus (6)
 * Third place is Gunsen, Vericres, Gunsen Prime (1)
 
@@ -9726,7 +9681,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-128 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-128 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -9736,7 +9692,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.34 | 0.325 | 0.31 | 0.3025 | 0.279 | 0.216 | 0.153 |
 | `CritMultiplier` | 2.4 | 2.25 | 2.1 | 2.025 | 1.99 | 1.96 | 1.93 |
-| `Disposition` | 1.23 | 1.2 | 1.17 | 1.155 | 1.125 | 1.05 | 0.975 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.0306 | 0.9565 | 0.8824 | 0.84535 | 0.833 | 0.833 | 0.833 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 1.7 | 1.7 | 1.7 | 1.7 | 1.7 | 1.7 | 1.7 |
@@ -9760,11 +9716,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `AvgProcCount`:
 
-* First place is Quassus, Quassus Prime, Arum Spinosa (1.1)
+* First place is Quassus, Arum Spinosa, Quassus Prime (1.1)
 
 `BlockAngle`:
 
-* First place is Quassus, Quassus Prime, Arum Spinosa (55)
+* First place is Quassus, Arum Spinosa, Quassus Prime (55)
 
 `CritChance`:
 
@@ -9780,9 +9736,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Arum Spinosa (1.25)
-* Second place is Quassus (1.15)
-* Third place is Quassus Prime (0.9)
+* First place is Quassus, Arum Spinosa, Quassus Prime (1.2)
 
 `FireRate`:
 
@@ -9791,19 +9745,19 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Quassus, Quassus Prime, Arum Spinosa (0.7)
+* First place is Quassus, Arum Spinosa, Quassus Prime (0.7)
 
 `MeleeRange`:
 
-* First place is Quassus, Quassus Prime, Arum Spinosa (1.7)
+* First place is Quassus, Arum Spinosa, Quassus Prime (1.7)
 
 `Multishot`:
 
-* First place is Quassus, Quassus Prime, Arum Spinosa (1)
+* First place is Quassus, Arum Spinosa, Quassus Prime (1)
 
 `StatusChance`:
 
-* First place is Quassus, Quassus Prime, Arum Spinosa (0.1)
+* First place is Quassus, Arum Spinosa, Quassus Prime (0.1)
 
 `TotalDamage`:
 
@@ -9813,7 +9767,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 5
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-129 "Edit section's source code: Attack Index 5")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-129 "Edit Section using Source Editor:
+Attack Index 5")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -9823,7 +9778,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 55 | 55 | 55 | 55 | 55 | 55 | 55 |
 | `CritChance` | 0.34 | 0.325 | 0.31 | 0.3025 | 0.279 | 0.216 | 0.153 |
 | `CritMultiplier` | 2.4 | 2.25 | 2.1 | 2.025 | 1.99 | 1.96 | 1.93 |
-| `Disposition` | 1.23 | 1.2 | 1.17 | 1.155 | 1.125 | 1.05 | 0.975 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.0306 | 0.9565 | 0.8824 | 0.84535 | 0.833 | 0.833 | 0.833 |
 | `FollowThrough` | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 |
 | `MeleeRange` | 1.7 | 1.7 | 1.7 | 1.7 | 1.7 | 1.7 | 1.7 |
@@ -9852,7 +9807,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `BlockAngle`:
 
-* First place is Quassus, Quassus Prime, Arum Spinosa (55)
+* First place is Quassus, Arum Spinosa, Quassus Prime (55)
 
 `CritChance`:
 
@@ -9868,9 +9823,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Arum Spinosa (1.25)
-* Second place is Quassus (1.15)
-* Third place is Quassus Prime (0.9)
+* First place is Quassus, Arum Spinosa, Quassus Prime (1.2)
 
 `FireRate`:
 
@@ -9879,15 +9832,15 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Quassus, Quassus Prime, Arum Spinosa (0.7)
+* First place is Quassus, Arum Spinosa, Quassus Prime (0.7)
 
 `MeleeRange`:
 
-* First place is Quassus, Quassus Prime, Arum Spinosa (1.7)
+* First place is Quassus, Arum Spinosa, Quassus Prime (1.7)
 
 `Multishot`:
 
-* First place is Quassus, Quassus Prime, Arum Spinosa (1)
+* First place is Quassus, Arum Spinosa, Quassus Prime (1)
 
 `StatusChance`:
 
@@ -9902,11 +9855,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Whip
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-130 "Edit section's source code: Whip")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-130 "Edit Section using Source Editor:
+Whip")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-131 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-131 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -9916,7 +9871,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 51 | 45 | 45 | 45 | 45 | 45 | 45 |
 | `CritChance` | 0.27 | 0.205 | 0.156 | 0.1515 | 0.144 | 0.128 | 0.113 |
 | `CritMultiplier` | 2.7 | 2.45 | 2.16 | 1.89 | 1.71 | 1.5 | 1.5 |
-| `Disposition` | 1.32 | 1.275 | 1.23 | 1.2075 | 1.185 | 1.14 | 1.065 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.294 | 1.25 | 1.15 | 1.0375 | 1 | 0.9834 | 0.9003 |
 | `FollowThrough` | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 |
 | `MeleeRange` | 3 | 2.85 | 2.62 | 2.53 | 2.5 | 2.5 | 2.5 |
@@ -9947,7 +9902,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `BlockAngle`:
 
 * First place is Spinnerex (60)
-* Second place is Atterax, Verdilac, Secura Lecta, Scoliac, Lecta, Galvacord (45)
+* Second place is Atterax, Secura Lecta, Verdilac, Scoliac, Lecta, Galvacord (45)
 
 `CritChance`:
 
@@ -9963,9 +9918,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Galvacord (1.35)
-* Second place is Scoliac (1.3)
-* Third place is Lecta (1.25)
+* First place is Atterax, Secura Lecta, Spinnerex, Verdilac, Scoliac, Lecta, Galvacord (1.2)
 
 `FireRate`:
 
@@ -9975,7 +9928,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Atterax, Spinnerex, Verdilac, Secura Lecta, Scoliac, Lecta, Galvacord (0.5)
+* First place is Atterax, Secura Lecta, Spinnerex, Verdilac, Scoliac, Lecta, Galvacord (0.5)
 
 `MeleeRange`:
 
@@ -9985,7 +9938,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Atterax, Spinnerex, Verdilac, Secura Lecta, Scoliac, Lecta, Galvacord (1)
+* First place is Atterax, Secura Lecta, Spinnerex, Verdilac, Scoliac, Lecta, Galvacord (1)
 
 `StatusChance`:
 
@@ -10001,7 +9954,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-132 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-132 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -10011,7 +9965,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 51 | 45 | 45 | 45 | 45 | 45 | 45 |
 | `CritChance` | 0.27 | 0.205 | 0.156 | 0.1515 | 0.144 | 0.128 | 0.113 |
 | `CritMultiplier` | 2.7 | 2.45 | 2.16 | 1.89 | 1.71 | 1.5 | 1.5 |
-| `Disposition` | 1.32 | 1.275 | 1.23 | 1.2075 | 1.185 | 1.14 | 1.065 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.294 | 1.25 | 1.15 | 1.0375 | 1 | 0.9834 | 0.9003 |
 | `FollowThrough` | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 |
 | `MeleeRange` | 3 | 2.85 | 2.62 | 2.53 | 2.5 | 2.5 | 2.5 |
@@ -10042,7 +9996,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `BlockAngle`:
 
 * First place is Spinnerex (60)
-* Second place is Atterax, Verdilac, Secura Lecta, Scoliac, Lecta, Galvacord (45)
+* Second place is Atterax, Secura Lecta, Verdilac, Scoliac, Lecta, Galvacord (45)
 
 `CritChance`:
 
@@ -10058,9 +10012,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Galvacord (1.35)
-* Second place is Scoliac (1.3)
-* Third place is Lecta (1.25)
+* First place is Atterax, Secura Lecta, Spinnerex, Verdilac, Scoliac, Lecta, Galvacord (1.2)
 
 `FireRate`:
 
@@ -10070,7 +10022,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Atterax, Spinnerex, Verdilac, Secura Lecta, Scoliac, Lecta, Galvacord (0.5)
+* First place is Atterax, Secura Lecta, Spinnerex, Verdilac, Scoliac, Lecta, Galvacord (0.5)
 
 `MeleeRange`:
 
@@ -10080,7 +10032,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Atterax, Spinnerex, Verdilac, Secura Lecta, Scoliac, Lecta, Galvacord (1)
+* First place is Atterax, Secura Lecta, Spinnerex, Verdilac, Scoliac, Lecta, Galvacord (1)
 
 `StatusChance`:
 
@@ -10096,7 +10048,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-133 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-133 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -10106,7 +10059,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 51 | 45 | 45 | 45 | 45 | 45 | 45 |
 | `CritChance` | 0.27 | 0.205 | 0.156 | 0.1515 | 0.144 | 0.128 | 0.113 |
 | `CritMultiplier` | 2.7 | 2.45 | 2.16 | 1.89 | 1.71 | 1.5 | 1.5 |
-| `Disposition` | 1.32 | 1.275 | 1.23 | 1.2075 | 1.185 | 1.14 | 1.065 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.294 | 1.25 | 1.15 | 1.0375 | 1 | 0.9834 | 0.9003 |
 | `FollowThrough` | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 |
 | `MeleeRange` | 3 | 2.85 | 2.62 | 2.53 | 2.5 | 2.5 | 2.5 |
@@ -10136,7 +10089,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `BlockAngle`:
 
 * First place is Spinnerex (60)
-* Second place is Atterax, Verdilac, Secura Lecta, Scoliac, Lecta, Galvacord (45)
+* Second place is Atterax, Secura Lecta, Verdilac, Scoliac, Lecta, Galvacord (45)
 
 `CritChance`:
 
@@ -10152,9 +10105,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Galvacord (1.35)
-* Second place is Scoliac (1.3)
-* Third place is Lecta (1.25)
+* First place is Atterax, Secura Lecta, Spinnerex, Verdilac, Scoliac, Lecta, Galvacord (1.2)
 
 `FireRate`:
 
@@ -10164,7 +10115,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FollowThrough`:
 
-* First place is Atterax, Spinnerex, Verdilac, Secura Lecta, Scoliac, Lecta, Galvacord (0.5)
+* First place is Atterax, Secura Lecta, Spinnerex, Verdilac, Scoliac, Lecta, Galvacord (0.5)
 
 `MeleeRange`:
 
@@ -10174,7 +10125,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Atterax, Spinnerex, Verdilac, Secura Lecta, Scoliac, Lecta, Galvacord (1)
+* First place is Atterax, Secura Lecta, Spinnerex, Verdilac, Scoliac, Lecta, Galvacord (1)
 
 `StatusChance`:
 
@@ -10189,7 +10140,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-134 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-134 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -10199,7 +10151,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 45 | 45 | 45 | 45 | 45 | 45 | 45 |
 | `CritChance` | 0.3 | 0.3 | 0.3 | 0.3 | 0.3 | 0.3 | 0.3 |
 | `CritMultiplier` | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 |
-| `Disposition` | 1.1 | 1.1 | 1.1 | 1.1 | 1.1 | 1.1 | 1.1 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | `FollowThrough` | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 |
 | `MeleeRange` | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
@@ -10235,7 +10187,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Verdilac (1.1)
+* First place is Verdilac (1.2)
 
 `FireRate`:
 
@@ -10263,7 +10215,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 5
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-135 "Edit section's source code: Attack Index 5")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-135 "Edit Section using Source Editor:
+Attack Index 5")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -10273,7 +10226,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BlockAngle` | 45 | 45 | 45 | 45 | 45 | 45 | 45 |
 | `CritChance` | 0.3 | 0.3 | 0.3 | 0.3 | 0.3 | 0.3 | 0.3 |
 | `CritMultiplier` | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 |
-| `Disposition` | 1.1 | 1.1 | 1.1 | 1.1 | 1.1 | 1.1 | 1.1 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | `FollowThrough` | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 | 0.5 |
 | `MeleeRange` | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
@@ -10309,7 +10262,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Verdilac (1.1)
+* First place is Verdilac (1.2)
 
 `FireRate`:
 
@@ -10337,11 +10290,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 # Robotic
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-136 "Edit section's source code: Robotic")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-136 "Edit Section using Source Editor:
+Robotic")]
 
 ## Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-137 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-137 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -10354,7 +10309,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 330 | 225.75 | 212.8 | 152.04875 | 84.1835 | 40.03125 | 28.75 |
 | `CritChance` | 0.2 | 0.17 | 0.14 | 0.1 | 0.1 | 0.05 | 0.025 |
 | `CritMultiplier` | 2.3 | 2.15 | 2 | 2 | 2 | 1.75 | 1.5 |
-| `Disposition` | 1.45 | 1.315 | 1.25 | 1.2475 | 1.21 | 1 | 1 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 300 | 300 | 300 | 300 | 300 | 300 | 300 |
 | `FireRate` | 12 | 8.33 | 3.33 | 2 | 1.5 | 1.33 | 1 |
 | `MagDmg` | 2952 | 2257.5 | 1593.24 | 1447.5 | 1035 | 960 | 410 |
@@ -10420,9 +10375,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Deth Machine Rifle, Deth Machine Rifle Prime (1.455)
-* Second place is Burst Laser, Burst Laser Prime, Prisma Burst Laser (1.45)
-* Third place is Stinger (1.315)
+* First place is Vulklok, Deconstructor, Deconstructor Prime, Helstrum, Laser Rifle, Prime Laser Rifle, Burst Laser, Verglas Prime, Burst Laser Prime, Cryotra, Artax, Sweeper, Vulcax, Stinger, Multron, Verglas, Deth Machine Rifle, Deth Machine Rifle Prime, Tazicor, Sweeper Prime, Prisma Burst Laser (1.2)
 
 `FalloffEnd`:
 
@@ -10483,7 +10436,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-138 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-138 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -10496,7 +10450,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 242.68 | 192.85 | 121.07333333333 | 62.768333333333 | 36.783333333333 | 20.2375 | 14.4375 |
 | `CritChance` | 0.17 | 0.125 | 0.08 | 0.0575 | 0.0425 | 0.02 | 0 |
 | `CritMultiplier` | 2.2 | 1.875 | 1.65 | 1.5375 | 1.5 | 1.4 | 1 |
-| `Disposition` | 1.276 | 1.25 | 1.15 | 1.0375 | 1 | 1 | 1 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 4.7 | 4.25 | 3.8 | 3.575 | 3.3 | 2.7 | 2.1 |
 | `FireRate` | 1.798 | 1.33 | 1.198 | 1.0495 | 1 | 1 | 0.925 |
 | `MagDmg` | 1560 | 870 | 606 | 410.25 | 280.5 | 116.9 | 64.125 |
@@ -10562,9 +10516,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Stinger (1.315)
-* Second place is Deconstructor, Deconstructor Prime (1.25)
-* Third place is Helstrum, Cryotra, Vulcax, Multron (1)
+* First place is Deconstructor, Deconstructor Prime, Helstrum, Cryotra, Vulcax, Stinger, Multron (1.2)
 
 `FalloffEnd`:
 
@@ -10626,7 +10578,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-139 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-139 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -10639,7 +10592,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 208.81 | 202.825 | 196.84 | 193.8475 | 190.855 | 184.87 | 178.885 |
 | `CritChance` | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | `CritMultiplier` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| `Disposition` | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 | 1.25 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.33 | 1.33 | 1.33 | 1.33 | 1.33 | 1.33 | 1.33 |
 | `MagDmg` | 942 | 915 | 888 | 874.5 | 861 | 834 | 807 |
 | `Magazine` | 6 | 6 | 6 | 6 | 6 | 6 | 6 |
@@ -10687,7 +10640,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Deconstructor, Deconstructor Prime (1.25)
+* First place is Deconstructor, Deconstructor Prime (1.2)
 
 `FireRate`:
 
@@ -10730,37 +10683,39 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 # Primary
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-140 "Edit section's source code: Primary")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-140 "Edit Section using Source Editor:
+Primary")]
 
 ## Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-141 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-141 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `Accuracy` | 100 | 100 | 33.492 | 28.6 | 25 | 16.7 | 13.3 |
-| `AmmoMax` | 800 | 540 | 540 | 240 | 120 | 72 | 30 |
-| `AmmoPickup` | 80 | 80 | 80 | 40 | 18.6 | 15 | 6.65 |
-| `AvgCritCount` | 0.8 | 0.34 | 0.28 | 0.25 | 0.24 | 0.181 | 0.12 |
-| `AvgProcCount` | 1.25 | 0.69507725 | 0.34 | 0.3 | 0.26 | 0.2 | 0.15 |
-| `AvgShotDmg` | 761.6504 | 316.5615 | 191.3088 | 124.510125 | 105.4004 | 61.6384 | 33.83565 |
-| `BaseDps` | 1009.8 | 532.8 | 374.76 | 338.337 | 312.29 | 266.656 | 193.14 |
-| `BurstDps` | 1280.4225 | 745.14 | 512.5674 | 456.44 | 412.180035 | 347.42743 | 236.09502 |
+| `Accuracy` | 100 | 100 | 38.72 | 28.6 | 25.36 | 16.7 | 13.3 |
+| `AmmoMax` | 800 | 540 | 540 | 219 | 120 | 72 | 30 |
+| `AmmoPickup` | 80 | 80 | 80 | 40 | 15.55 | 15 | 7.55 |
+| `AvgCritCount` | 0.8 | 0.34 | 0.28 | 0.25 | 0.24 | 0.18 | 0.12 |
+| `AvgProcCount` | 1.25 | 0.66522575 | 0.334 | 0.3 | 0.2655 | 0.2 | 0.15 |
+| `AvgShotDmg` | 755.2168 | 327.98 | 192.6 | 126.8826 | 106.0472 | 61.8688 | 33.95055 |
+| `BaseDps` | 1026 | 537.83333333333 | 375.24 | 341.50483333333 | 312.311 | 266.72 | 197.82 |
+| `BurstDps` | 1344.2688 | 769.374 | 514.9822 | 466.2279375 | 414.66 | 348.79201 | 236.19834 |
 | `CritChance` | 0.34 | 0.28 | 0.24 | 0.22 | 0.2 | 0.15 | 0.1 |
 | `CritMultiplier` | 2.8 | 2.4 | 2.2 | 2.1 | 2 | 2 | 1.9 |
-| `Disposition` | 1.4 | 1.3 | 1.25 | 1.2 | 1.15 | 1 | 0.75 |
-| `FalloffEnd` | 600 | 600 | 56.8 | 42.65 | 36 | 27.6 | 24.5 |
-| `FalloffRate` | 400 | 400 | 42.4 | 33.733333333333 | 29.379368133573 | 20.905930353989 | 17.804272829837 |
-| `FireRate` | 12 | 9.33 | 5 | 4.17 | 3.33 | 2.152 | 1.128 |
-| `LifetimeDmg` | 113074.14 | 67200 | 43809.792 | 34086.009375 | 29481.6 | 19708.8 | 7191.194 |
-| `MagDmg` | 11959.4496 | 6525.5 | 3931.8 | 3149.2244 | 2638.272 | 1869.21 | 611.77125 |
-| `Magazine` | 100 | 60 | 42 | 27.425 | 20 | 9 | 4 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
+| `FalloffEnd` | 600 | 600 | 53.6 | 41 | 36 | 26.2 | 24.05 |
+| `FalloffRate` | 400 | 400 | 40.8 | 33.0625 | 28.241543045124 | 21.043786884096 | 18.164707737769 |
+| `FireRate` | 12 | 9.04 | 5 | 4.153 | 3.33 | 2.116 | 1.07 |
+| `LifetimeDmg` | 112481.38 | 67200 | 43035.096 | 33831.796875 | 29120.16 | 19881.6 | 7380.398 |
+| `MagDmg` | 11956.2752 | 6553.5 | 3957.6 | 3156.0508 | 2635.584 | 1863.282 | 584.13 |
+| `Magazine` | 100 | 60 | 40.8 | 26.475 | 20 | 9 | 3.85 |
 | `Multishot` | 6 | 1 | 1 | 1 | 1 | 1 | 1 |
-| `ReloadSpeed` | 1.1372549019608 | 0.55555555555556 | 0.5 | 0.5 | 0.48095238095238 | 0.4 | 0.33333333333333 |
-| `ShotsPerMag` | 154.4 | 63.75 | 40 | 27.425 | 20 | 9 | 4 |
-| `StatusChance` | 0.37 | 0.3 | 0.25 | 0.222 | 0.2 | 0.16 | 0.1 |
-| `SustainedDps` | 866.84302149178 | 535.8366519174 | 367.05454545455 | 333.59352623625 | 302.70175609756 | 235.43183673469 | 149.50588235294 |
-| `TotalDamage` | 472.5 | 219.25 | 100 | 80 | 60.65 | 35.1 | 27 |
+| `ReloadSpeed` | 1.2268907563025 | 0.55555555555556 | 0.5 | 0.5 | 0.47857142857143 | 0.4 | 0.33333333333333 |
+| `ShotsPerMag` | 152.8 | 61.25 | 40 | 26.475 | 20 | 9 | 3.85 |
+| `StatusChance` | 0.37 | 0.3 | 0.25 | 0.2258 | 0.2 | 0.16 | 0.1 |
+| `SustainedDps` | 882.27321081681 | 540.75 | 370.56 | 335.70724242496 | 305.60634146341 | 237.4106122449 | 150.19893048128 |
+| `TotalDamage` | 484.5 | 225 | 100 | 80.95 | 61.55 | 35.7 | 27 |
 
 **Top 3**
 
@@ -10778,7 +10733,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `AmmoPickup`:
 
-* First place is Ambassador, Stradavar, Zhuge, Battacor, Boltor, Phenmor, Karak, Latron, EFV-5 Jupiter, Quartakk, Stradavar Prime, Tenora, Boltor Prime, Grinlok, Braton Vandal, Burston, Buzlok, Dera Vandal, Quellor, Burston Prime, Karak Wraith, Argonak, Gorgon, Baza, Hind, Dex Sybaris, Quanta, Tiberon Prime, Paracyst, Prisma Grakata, Nagantaka, Zenith, Soma, Panthera Prime, Coda Synapse, Tenet Flux Rifle, Veldt, Gotva Prime, Nagantaka Prime, Phage, Vadarya Prime, Panthera, Tiberon, Higasa, Sybaris, Tetra, Synapse, Tenora Prime, Braton, Tenet Quanta, Braton Prime, Tenet Glaxion, Thornbak, Telos Boltor, Sybaris Prime, Kuva Karak, Supra Vandal, Soma Prime, Grakata, Mk1-Braton, Reconifex, Quanta Vandal, Prisma Gorgon, Kuva Hind, Baza Prime, Glaxion, Neutralizer, Mutalist Quanta, Supra, Latron Wraith, Prisma Grinlok, Lizzie, Kuva Quartakk, Latron Prime, Prisma Tetra, Gorgon Wraith, Dera, Glaxion Vandal, Harpak, Convectrix, AX-52, Attica (80)
+* First place is Ambassador, Stradavar, Zhuge, Battacor, Boltor, Phenmor, Karak, Latron, EFV-5 Jupiter, Quartakk, Stradavar Prime, Tenora, Boltor Prime, Grinlok, Braton Vandal, Burston, Buzlok, Dera Vandal, Quellor, Burston Prime, Karak Wraith, Argonak, Gorgon, Baza, Hind, Dex Sybaris, Zenith, Quanta, Tiberon Prime, Paracyst, Prisma Grakata, Nagantaka, Soma, Veldt, Panthera Prime, Coda Synapse, Tenet Flux Rifle, Gotva Prime, Vadarya Prime, Nagantaka Prime, Phage, Panthera, Tiberon, Higasa, Supra Vandal, Tetra, Tenora Prime, Synapse, Tenet Quanta, Braton, Tenet Glaxion, Braton Prime, Thornbak, Telos Boltor, Sybaris Prime, Sybaris, Kuva Karak, Soma Prime, Grakata, Mk1-Braton, Reconifex, Quanta Vandal, Prisma Gorgon, Kuva Hind, Baza Prime, Glaxion, Neutralizer, Mutalist Quanta, Supra, Latron Wraith, Prisma Grinlok, Lizzie, Kuva Quartakk, Latron Prime, Prisma Tetra, Gorgon Wraith, Dera, Glaxion Vandal, Harpak, Convectrix, AX-52, Attica (80)
 * Second place is Trumna Prime, Amprex, Zhuge Prime, Trumna, Scourge Prime, Scourge, Javlok (60)
 * Third place is Tenet Tetra, Ignis, Miter, Acceltra Prime, Kohm, Alternox, Astilla Prime, Boar Prime, Alternox Prime, Kuva Kohm, Aeolak, Ignis Wraith, Stahlta, Astilla, Opticor, Opticor Vandal, Boar, Acceltra (40)
 
@@ -10826,9 +10781,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Flux Rifle, Harpak (1.55)
-* Second place is Miter, Tetra, Mutalist Quanta (1.5)
-* Third place is Phage, Convectrix (1.46)
+* First place is Tenet Tetra, Ambassador, Phantasma, Trumna Prime, Stradavar, Prisma Lenz, Ignis, Zhuge, Kuva Bramma, Zarr, Battacor, Boltor, Phenmor, Amprex, Shedu, Fulmin Prime, Afentis, Karak, Simulor, Basmu, Latron, Hek, Afentis Prime, EFV-5 Jupiter, Cinta, Quartakk, Flux Rifle, Paris Prime, Stradavar Prime, Tenora, Kuva Ogris, Corinth Prime, Nunchasa, Boltor Prime, Grinlok, Hema, Cedo, Braton Vandal, Burston, Buzlok, Miter, Ferrox, Haalvu, Dera Vandal, Quellor, Burston Prime, Acceltra Prime, Coda Sporothrix, Karak Wraith, Rubico Prime, Kuva Zarr, Coda Bassocyst, Kohm, Kuva Tonkor, Argonak, Rakta Cernos, Alternox, Astilla Prime, Gorgon, Baza, Cernos Prime, Arca Plasmor, Hind, Corinth, Boar Prime, Carmine Penta, Dex Sybaris, Zhuge Prime, Cedo Prime, Purgator 1, Zenith, Quanta, Tiberon Prime, Paracyst, Prisma Grakata, Vinquibus (Primary), Nagantaka, Ogris, Strun, Vulkar, Soma, Synoid Simulor, Veldt, Panthera Prime, Coda Synapse, Tenet Flux Rifle, Alternox Prime, Vectis Prime, Gotva Prime, Tenet Envoy, Vaykor Hek, Vadarya Prime, Nagantaka Prime, Phage, Trumna, Panthera, Tiberon, Torid, Higasa, Supra Vandal, Coda Hema, Tigris, Cernos, Tetra, Tenora Prime, Synapse, Exergis, Kuva Sobek, Tenet Quanta, Braton, Tenet Glaxion, Braton Prime, Kuva Kohm, Thornbak, Drakgoon, Telos Boltor, Aeolak, Sybaris Prime, Enkaus, Sybaris, Ignis Wraith, Kuva Karak, Tonkor, Komorex, Strun Wraith, Strun Prime, Vulkar Wraith, Steflos Prime, Steflos, Stahlta, Sporothrix, Soma Prime, Sobek, Snipetron Vandal, Rauta, Lanka, Snipetron, Mutalist Cernos, Evensong, Felarx, Secura Penta, Scourge Prime, Perigale Prime, Grakata, Astilla, Scourge, Sancti Tigris, Mk1-Braton, Rubico, Reconifex, Quanta Vandal, Proboscis Cernos, Kuva Drakgoon, Prisma Gorgon, Mk1-Paris, Daikyu Prime, Phantasma Prime, Fulmin, Opticor, Perigale, Kuva Hind, Javlok, Baza Prime, Penta, Paris, Glaxion, Opticor Vandal, Nataruk, Mutalist Quanta, Supra, Latron Wraith, Prisma Grinlok, Lenz, Kuva Hek, Kuva Quartakk, Bubonico, Tenet Ferrox, Latron Prime, Prisma Tetra, Vectis, Mk1-Strun, Gorgon Wraith, Dera, Kuva Chakkhurr, Glaxion Vandal, Coda Bubonico, Dread, Harpak, Boar, Daikyu, Convectrix, Acceltra, AX-52, Tigris Prime, Tenet Arca Plasmor, Attica (1.2)
 
 `FalloffEnd`:
 
@@ -10868,7 +10821,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Strun Prime, Strun (12)
+* First place is Strun, Strun Prime (12)
 * Second place is Drakgoon, Strun Wraith, Kuva Drakgoon, Mk1-Strun (10)
 * Third place is Boar Prime, Rauta, Boar, Tigris Prime (8)
 
@@ -10876,7 +10829,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Phantasma, Phantasma Prime (2)
 * Second place is Mk1-Paris (1.8181818181818)
-* Third place is Prisma Lenz, Kuva Bramma, Cinta, Rakta Cernos, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Daikyu Prime, Nataruk, Lenz, Daikyu (1.6666666666667)
+* Third place is Prisma Lenz, Kuva Bramma, Cinta, Nunchasa, Rakta Cernos, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Daikyu Prime, Nataruk, Lenz, Daikyu (1.6666666666667)
 
 `ShotsPerMag`:
 
@@ -10904,33 +10857,34 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-142 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-142 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `Accuracy` | 100 | 100 | 100 | 39.49975 | 28.6 | 18.38 | 15.62 |
-| `AmmoMax` | 568 | 540 | 400 | 200 | 120 | 72 | 18.8 |
-| `AmmoPickup` | 80 | 80 | 60 | 40 | 15.5 | 15 | 4 |
-| `AvgCritCount` | 0.672 | 0.36 | 0.3 | 0.2745 | 0.25 | 0.184 | 0.09 |
-| `AvgProcCount` | 1.374 | 1.075 | 0.498 | 0.324555 | 0.3 | 0.25 | 0.18 |
-| `AvgShotDmg` | 1388.8 | 536 | 292.128 | 178.848 | 125.75 | 86.304 | 40.434 |
-| `BaseDps` | 1324.84 | 710.83333333333 | 448.26666666667 | 395.80897058824 | 280.44 | 199.955 | 86.53275 |
-| `BurstDps` | 1506.02632 | 873.9584 | 556.57424 | 492.78 | 410 | 277.245 | 114.9023925 |
-| `CritChance` | 0.4 | 0.305 | 0.26 | 0.25 | 0.211 | 0.16 | 0.0855 |
-| `CritMultiplier` | 3 | 2.85 | 2.4 | 2.245 | 2.11 | 2 | 2 |
-| `Disposition` | 1.4 | 1.3 | 1.25 | 1.2 | 1.15 | 1.05 | 0.735 |
+| `Accuracy` | 100 | 100 | 100 | 40 | 28.6 | 18.92 | 15.98 |
+| `AmmoMax` | 564 | 540 | 400 | 200 | 120 | 72 | 19.4 |
+| `AmmoPickup` | 80 | 80 | 60 | 40 | 15 | 15 | 4 |
+| `AvgCritCount` | 0.666 | 0.36 | 0.3 | 0.27975 | 0.25 | 0.187 | 0.09 |
+| `AvgProcCount` | 1.372 | 1.0625 | 0.494 | 0.3297525 | 0.3 | 0.25 | 0.18 |
+| `AvgShotDmg` | 1444.06 | 560.5 | 296.72 | 179.184 | 129.125 | 87.672 | 41.127 |
+| `BaseDps` | 1346.3333333333 | 730 | 449.06666666667 | 398.115 | 288.425 | 199.97 | 86.8635 |
+| `BurstDps` | 1505.51316 | 878.3376 | 561.83132 | 503.49 | 410 | 277.27875 | 116.57433375 |
+| `CritChance` | 0.4 | 0.3125 | 0.26 | 0.25 | 0.2155 | 0.16 | 0.08775 |
+| `CritMultiplier` | 3 | 2.925 | 2.4 | 2.2975 | 2.155 | 2 | 2 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 18.4 | 7.2 | 5.9 | 4.66 | 4 | 2.72 | 1.7 |
 | `FalloffRate` | 15.117234675945 | 11 | 10 | 10 | 9.82625 | 8.65 | 8 |
-| `FireRate` | 7.88338 | 4.67 | 3.202 | 2.5 | 2 | 1.3497 | 1 |
-| `LifetimeDmg` | 125643.76 | 56335.116 | 38640 | 30069 | 19327.7 | 11509.572 | 3045.28 |
-| `MagDmg` | 13040 | 6134.4 | 3840 | 2635 | 1915.75 | 894.875 | 462.0125 |
-| `Magazine` | 91.2 | 60 | 40 | 24 | 16 | 8 | 1.7 |
+| `FireRate` | 7.86672 | 4.67 | 3.17 | 2.5 | 2 | 1.333 | 1 |
+| `LifetimeDmg` | 125415.104 | 57054 | 38688 | 30409.6 | 19848.28 | 11722.1088 | 3076.864 |
+| `MagDmg` | 13008 | 6048 | 3744 | 2616 | 1895.4 | 895.55 | 463.91 |
+| `Magazine` | 90.6 | 60 | 40 | 23.925 | 15.55 | 8 | 1 |
 | `Multishot` | 3 | 1 | 1 | 1 | 1 | 1 | 1 |
-| `ReloadSpeed` | 1.5769230769231 | 0.55555555555556 | 0.5 | 0.5 | 0.5 | 0.4 | 0.33333333333333 |
-| `ShotsPerMag` | 70 | 45 | 16 | 11 | 9.75 | 5.5 | 1 |
-| `StatusChance` | 0.474 | 0.33 | 0.3 | 0.27 | 0.241 | 0.2 | 0.1 |
-| `SustainedDps` | 900.414372477 | 608.31442307692 | 420 | 345.67189951837 | 255.12425447316 | 165.180521054 | 74.666341027975 |
-| `TotalDamage` | 676.6 | 365 | 148.8 | 100 | 100 | 55.8 | 27 |
+| `ReloadSpeed` | 1.6666666666667 | 0.56349206349206 | 0.5 | 0.5 | 0.5 | 0.4 | 0.33333333333333 |
+| `ShotsPerMag` | 69 | 45 | 16 | 11 | 9.2 | 5 | 1 |
+| `StatusChance` | 0.472 | 0.3325 | 0.3 | 0.27 | 0.2455 | 0.2 | 0.1 |
+| `SustainedDps` | 900.3314979816 | 612.95 | 425.18181818182 | 351.25929800619 | 258.87957026713 | 166.59105344222 | 75.310761029375 |
+| `TotalDamage` | 688.3 | 372.5 | 150 | 100 | 100 | 56.4 | 28.5 |
 
 **Top 3**
 
@@ -10938,7 +10892,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Trumna Prime, Braton Vandal, Trumna, Braton, Braton Prime, Mk1-Braton (200)
 * Second place is EFV-5 Jupiter (133.33)
-* Third place is Ambassador, Phantasma, Zarr, Battacor, Artemis Bow, Afentis, Afentis Prime, Cinta, Kuva Ogris, Miter, Haalvu, Dera Vandal, Coda Sporothrix, Kuva Zarr, Coda Bassocyst, Kuva Tonkor, Boar Prime, Carmine Penta, Ogris, Strun Prime, Tenet Envoy, Panthera, Higasa, Torid, Tenet Quanta, Aeolak, Artemis Bow Prime, Tonkor, Strun Wraith, Strun, Sporothrix, Lanka, Secura Penta, Scourge Prime, Scourge, Phantasma Prime, Opticor, Javlok, Penta, Opticor Vandal, Mutalist Quanta, Bubonico, Latron Prime, Mk1-Strun, Dera, Kuva Chakkhurr, Coda Bubonico, Harpak, Boar (100)
+* Third place is Ambassador, Phantasma, Zarr, Battacor, Artemis Bow, Afentis, Afentis Prime, Cinta, Kuva Ogris, Nunchasa, Miter, Haalvu, Dera Vandal, Coda Sporothrix, Kuva Zarr, Coda Bassocyst, Kuva Tonkor, Boar Prime, Carmine Penta, Ogris, Strun, Tenet Envoy, Panthera, Torid, Higasa, Tenet Quanta, Aeolak, Artemis Bow Prime, Tonkor, Strun Wraith, Strun Prime, Sporothrix, Lanka, Secura Penta, Scourge Prime, Scourge, Phantasma Prime, Opticor, Javlok, Penta, Opticor Vandal, Mutalist Quanta, Bubonico, Latron Prime, Mk1-Strun, Dera, Kuva Chakkhurr, Coda Bubonico, Harpak, Boar (100)
 
 `AmmoMax`:
 
@@ -10948,7 +10902,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `AmmoPickup`:
 
-* First place is Ambassador, Stradavar, Battacor, Boltor, Phenmor, Latron, EFV-5 Jupiter, Stradavar Prime, Tenora, Boltor Prime, Braton Vandal, Burston, Buzlok, Dera Vandal, Quellor, Burston Prime, Argonak, Gorgon, Hind, Dex Sybaris, Quanta, Tiberon Prime, Paracyst, Nagantaka, Zenith, Soma, Panthera Prime, Nagantaka Prime, Panthera, Higasa, Sybaris, Tenora Prime, Braton, Tenet Quanta, Braton Prime, Telos Boltor, Sybaris Prime, Soma Prime, Mk1-Braton, Quanta Vandal, Prisma Gorgon, Kuva Hind, Neutralizer, Mutalist Quanta, Latron Wraith, Lizzie, Kuva Quartakk, Latron Prime, Gorgon Wraith, Dera, Harpak, Convectrix (80)
+* First place is Ambassador, Stradavar, Battacor, Boltor, Phenmor, Latron, EFV-5 Jupiter, Stradavar Prime, Tenora, Boltor Prime, Braton Vandal, Burston, Buzlok, Dera Vandal, Quellor, Burston Prime, Argonak, Gorgon, Hind, Dex Sybaris, Zenith, Quanta, Tiberon Prime, Paracyst, Nagantaka, Soma, Panthera Prime, Nagantaka Prime, Panthera, Higasa, Tenora Prime, Tenet Quanta, Braton, Braton Prime, Telos Boltor, Sybaris Prime, Sybaris, Soma Prime, Mk1-Braton, Quanta Vandal, Prisma Gorgon, Kuva Hind, Neutralizer, Mutalist Quanta, Latron Wraith, Lizzie, Kuva Quartakk, Latron Prime, Gorgon Wraith, Dera, Harpak, Convectrix (80)
 * Second place is Trumna Prime, Zhuge Prime, Trumna, Scourge Prime, Scourge, Javlok (60)
 * Third place is Tenet Tetra, Miter, Acceltra Prime, Kohm, Alternox, Astilla Prime, Boar Prime, Alternox Prime, Kuva Kohm, Aeolak, Stahlta, Astilla, Opticor, Opticor Vandal, Boar, Acceltra (40)
 
@@ -10991,14 +10945,12 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `CritMultiplier`:
 
 * First place is Bubonico, Coda Bubonico (3.5)
-* Second place is Tiberon Prime, Strun Prime, Strun Wraith, Soma Prime, Latron Wraith, Latron Prime (3.4)
+* Second place is Tiberon Prime, Strun Wraith, Strun Prime, Soma Prime, Latron Wraith, Latron Prime (3.4)
 * Third place is Braton Vandal, Telos Boltor (3.2)
 
 `Disposition`:
 
-* First place is Harpak (1.55)
-* Second place is Miter, Mutalist Quanta (1.5)
-* Third place is Convectrix (1.46)
+* First place is Tenet Tetra, Ambassador, Phantasma, Trumna Prime, Stradavar, Prisma Lenz, Kuva Bramma, Zarr, Battacor, Boltor, Phenmor, Shedu, Fulmin Prime, Afentis, Simulor, Basmu, Latron, Afentis Prime, EFV-5 Jupiter, Cinta, Paris Prime, Stradavar Prime, Tenora, Kuva Ogris, Corinth Prime, Nunchasa, Boltor Prime, Cedo, Braton Vandal, Burston, Buzlok, Miter, Ferrox, Haalvu, Dera Vandal, Quellor, Burston Prime, Acceltra Prime, Coda Sporothrix, Kuva Zarr, Coda Bassocyst, Kohm, Kuva Tonkor, Argonak, Rakta Cernos, Alternox, Astilla Prime, Gorgon, Cernos Prime, Hind, Corinth, Boar Prime, Carmine Penta, Dex Sybaris, Zhuge Prime, Cedo Prime, Zenith, Quanta, Tiberon Prime, Paracyst, Nagantaka, Ogris, Strun, Soma, Synoid Simulor, Panthera Prime, Alternox Prime, Vectis Prime, Tenet Envoy, Nagantaka Prime, Trumna, Panthera, Torid, Higasa, Cernos, Tenora Prime, Tenet Quanta, Braton, Braton Prime, Kuva Kohm, Drakgoon, Telos Boltor, Aeolak, Sybaris Prime, Enkaus, Sybaris, Tonkor, Komorex, Strun Wraith, Strun Prime, Stahlta, Sporothrix, Soma Prime, Lanka, Mutalist Cernos, Evensong, Felarx, Secura Penta, Scourge Prime, Astilla, Scourge, Mk1-Braton, Quanta Vandal, Proboscis Cernos, Kuva Drakgoon, Prisma Gorgon, Mk1-Paris, Daikyu Prime, Phantasma Prime, Fulmin, Opticor, Kuva Hind, Javlok, Penta, Paris, Opticor Vandal, Nataruk, Mutalist Quanta, Latron Wraith, Lenz, Kuva Hek, Kuva Quartakk, Bubonico, Tenet Ferrox, Latron Prime, Vectis, Mk1-Strun, Gorgon Wraith, Dera, Kuva Chakkhurr, Coda Bubonico, Dread, Harpak, Boar, Convectrix, Acceltra (1.2)
 
 `FalloffEnd`:
 
@@ -11046,7 +10998,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Phantasma, Phantasma Prime (2)
 * Second place is Mk1-Paris (1.8181818181818)
-* Third place is Prisma Lenz, Kuva Bramma, Cinta, Rakta Cernos, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Daikyu Prime, Nataruk, Lenz (1.6666666666667)
+* Third place is Prisma Lenz, Kuva Bramma, Cinta, Nunchasa, Rakta Cernos, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Daikyu Prime, Nataruk, Lenz (1.6666666666667)
 
 `ShotsPerMag`:
 
@@ -11074,7 +11026,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-143 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-143 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -11088,7 +11041,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 1326.6666666667 | 924.344 | 644 | 603.496 | 515.911719 | 295.344 | 148.19 |
 | `CritChance` | 0.464 | 0.35 | 0.274 | 0.2485 | 0.2 | 0.142 | 0.04 |
 | `CritMultiplier` | 3.36 | 3 | 2.54 | 2.4 | 2.13 | 2 | 1.9 |
-| `Disposition` | 1.4 | 1.33 | 1.25 | 1.2 | 1.15 | 1.05 | 0.705 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 7.2 | 6.7 | 5.4 | 5 | 4.72 | 4 | 3 |
 | `FalloffRate` | 30 | 20 | 16 | 14 | 13 | 10.285714285714 | 9 |
 | `FireRate` | 5.534 | 3.35 | 2 | 1.47495 | 1.218 | 1 | 1 |
@@ -11118,7 +11071,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `AmmoPickup`:
 
-* First place is Ambassador, Battacor, Latron, Braton Vandal, Burston, Burston Prime, Gorgon, Quanta, Tiberon Prime, Paracyst, Panthera Prime, Braton, Tenet Quanta, Braton Prime, Mk1-Braton, Quanta Vandal, Prisma Gorgon, Kuva Hind, Mutalist Quanta, Latron Wraith, Lizzie, Latron Prime, Gorgon Wraith (80)
+* First place is Ambassador, Battacor, Latron, Braton Vandal, Burston, Burston Prime, Gorgon, Quanta, Tiberon Prime, Paracyst, Panthera Prime, Tenet Quanta, Braton, Braton Prime, Mk1-Braton, Quanta Vandal, Prisma Gorgon, Kuva Hind, Mutalist Quanta, Latron Wraith, Lizzie, Latron Prime, Gorgon Wraith (80)
 * Second place is Trumna Prime, Trumna, Scourge Prime, Scourge, Javlok (60)
 * Third place is Tenet Tetra, Miter, Alternox, Alternox Prime, Aeolak, Stahlta, Opticor, Opticor Vandal (40)
 
@@ -11162,13 +11115,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Basmu (4.8)
 * Second place is Bubonico, Coda Bubonico (3.5)
-* Third place is Paris Prime, Strun Prime, Strun Wraith, Latron Wraith, Latron Prime (3.4)
+* Third place is Paris Prime, Strun Wraith, Strun Prime, Latron Wraith, Latron Prime (3.4)
 
 `Disposition`:
 
-* First place is Miter, Mutalist Quanta (1.5)
-* Second place is Burston, Mk1-Paris, Mk1-Strun (1.45)
-* Third place is Latron, Gorgon, Quanta, Strun, Quanta Vandal, Paris (1.4)
+* First place is Tenet Tetra, Ambassador, Phantasma, Trumna Prime, Prisma Lenz, Kuva Bramma, Zarr, Battacor, Afentis, Simulor, Basmu, Latron, Afentis Prime, Cinta, Paris Prime, Corinth Prime, Cedo, Braton Vandal, Burston, Miter, Ferrox, Burston Prime, Kuva Zarr, Alternox, Gorgon, Corinth, Cedo Prime, Quanta, Tiberon Prime, Paracyst, Strun, Synoid Simulor, Panthera Prime, Alternox Prime, Vectis Prime, Trumna, Torid, Tenet Quanta, Braton, Braton Prime, Aeolak, Enkaus, Strun Wraith, Strun Prime, Stahlta, Mutalist Cernos, Evensong, Scourge Prime, Scourge, Mk1-Braton, Quanta Vandal, Proboscis Cernos, Prisma Gorgon, Mk1-Paris, Phantasma Prime, Opticor, Kuva Hind, Javlok, Paris, Opticor Vandal, Nataruk, Mutalist Quanta, Latron Wraith, Lenz, Bubonico, Tenet Ferrox, Latron Prime, Vectis, Mk1-Strun, Gorgon Wraith, Coda Bubonico, Dread (1.2)
 
 `FalloffEnd`:
 
@@ -11180,7 +11131,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Gorgon, Prisma Gorgon, Gorgon Wraith (50)
 * Second place is Braton Vandal, Braton, Braton Prime, Mk1-Braton (30)
-* Third place is Latron, Strun Prime, Strun Wraith, Strun, Latron Wraith, Latron Prime, Mk1-Strun (20)
+* Third place is Latron, Strun, Strun Wraith, Strun Prime, Latron Wraith, Latron Prime, Mk1-Strun (20)
 
 `FireRate`:
 
@@ -11244,7 +11195,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-144 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-144 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -11258,7 +11210,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 2401.597 | 629.92 | 576.15 | 363.618 | 264.2 | 113.4 | 57.063125 |
 | `CritChance` | 0.35 | 0.25 | 0.2 | 0.15625 | 0.1125 | 0.045 | 0.03 |
 | `CritMultiplier` | 2.55 | 2.4 | 2 | 2 | 2 | 2 | 1.5 |
-| `Disposition` | 1.35 | 1.1875 | 1.15 | 1.10625 | 1.1 | 0.8 | 0.65 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 7 | 6 | 6 | 6 | 6 | 4.6 | 3 |
 | `FalloffRate` | 15 | 15 | 11.666666666667 | 10.5 | 10 | 10 | 7.5333333333333 |
 | `FireRate` | 4 | 2.1275 | 1.67 | 1.330375 | 1.33 | 1 | 1 |
@@ -11336,9 +11288,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Miter (1.5)
-* Second place is Quanta, Quanta Vandal (1.4)
-* Third place is Javlok (1.3)
+* First place is Phantasma, Trumna Prime, Kuva Bramma, Zarr, Miter, Ferrox, Kuva Zarr, Alternox, Quanta, Synoid Simulor, Alternox Prime, Vectis Prime, Trumna, Tenet Quanta, Scourge Prime, Scourge, Quanta Vandal, Phantasma Prime, Opticor, Javlok, Opticor Vandal, Tenet Ferrox, Vectis (1.2)
 
 `FalloffEnd`:
 
@@ -11414,7 +11364,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 5
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-145 "Edit section's source code: Attack Index 5")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-145 "Edit Section using Source Editor:
+Attack Index 5")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -11428,7 +11379,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 2824.488 | 1656.215 | 527.77 | 431.9425 | 400 | 327.308 | 36.54 |
 | `CritChance` | 0.5 | 0.435 | 0.29 | 0.2 | 0.164 | 0.126 | 0.03 |
 | `CritMultiplier` | 2.5 | 2.25 | 2 | 2 | 2 | 1.9 | 1.5 |
-| `Disposition` | 1.12 | 0.95 | 0.76 | 0.715 | 0.49 | 0 | 0 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 0.84 | 0 | 0 |
 | `FalloffEnd` | 40 | 40 | 40 | 40 | 40 | 40 | 40 |
 | `FalloffRate` | 20.408163265306 | 20.408163265306 | 20.408163265306 | 20.408163265306 | 20.408163265306 | 20.408163265306 | 20.408163265306 |
 | `FireRate` | 3.932 | 2.585 | 2.102 | 2.0255 | 2 | 1.8 | 1 |
@@ -11506,9 +11457,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Zarr (1.15)
-* Second place is Phantasma (1.1)
-* Third place is Phantasma Prime (0.8)
+* First place is Phantasma, Zarr, Kuva Zarr, Phantasma Prime (1.2)
 
 `FalloffEnd`:
 
@@ -11579,7 +11528,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 6
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-146 "Edit section's source code: Attack Index 6")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-146 "Edit Section using Source Editor:
+Attack Index 6")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -11690,55 +11640,59 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## By Weapon Class
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-147 "Edit section's source code: By Weapon Class")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-147 "Edit Section using Source Editor:
+By Weapon Class")]
 
 ### Bow
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-148 "Edit section's source code: Bow")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-148 "Edit Section using Source Editor:
+Bow")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-149 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-149 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `Accuracy` | 16.7 | 16.7 | 16.7 | 16.7 | 16.7 | 16.7 | 16.7 |
-| `AmmoMax` | 72 | 72 | 72 | 72 | 72 | 49.6 | 6.4 |
-| `AmmoPickup` | 15 | 15 | 15 | 15 | 15 | 8.2 | 1 |
-| `AvgCritCount` | 0.5 | 0.45 | 0.356 | 0.35 | 0.342 | 0.29 | 0.2 |
-| `AvgProcCount` | 1.364 | 1.05 | 0.466 | 0.4 | 0.316 | 0.2 | 0.162 |
-| `AvgShotDmg` | 558 | 422.5 | 350.46 | 304.8462 | 268.1154 | 248.75 | 172.9 |
-| `BaseDps` | 750 | 541.66666666667 | 411.4358974359 | 361.66666666667 | 321.66666666667 | 254.94505494505 | 221.45454545455 |
-| `BurstDps` | 915.2 | 704.16666666667 | 555.43846153846 | 469.9 | 425.07847619048 | 370.28571428571 | 291.09090909091 |
-| `CritChance` | 0.5 | 0.4 | 0.35 | 0.35 | 0.342 | 0.29 | 0.2 |
-| `CritMultiplier` | 2.28 | 2 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.37 | 1.3 | 1.28 | 1.25 | 1.25 | 1.04 | 0.9 |
-| `FireRate` | 1 | 1 | 1 | 1 | 1 | 1 | 0.8002 |
-| `LifetimeDmg` | 36846 | 27199.8 | 18977.08 | 18582.88 | 17447 | 9228.0704 | 1523.6064 |
-| `MagDmg` | 558 | 422.5 | 350.46 | 304.8462 | 268.1154 | 248.75 | 172.9 |
+| `AmmoMax` | 72 | 72 | 72 | 72 | 72 | 51 | 6.55 |
+| `AmmoPickup` | 15 | 15 | 15 | 15 | 15 | 10.5 | 1 |
+| `AvgCritCount` | 0.5 | 0.4375 | 0.352 | 0.34925 | 0.333 | 0.3 | 0.2 |
+| `AvgProcCount` | 1.348 | 1.0125 | 0.442 | 0.3755 | 0.313 | 0.201 | 0.1665 |
+| `AvgShotDmg` | 580.94 | 497.125 | 380.9584 | 315.699525 | 284.12505 | 252.64 | 181.675 |
+| `BaseDps` | 750 | 604.16666666667 | 432.69230769231 | 387.91666666667 | 332.91666666667 | 262.59523809524 | 226.09090909091 |
+| `BurstDps` | 946.2 | 828.54166666667 | 596.71528205128 | 521.39375 | 428.22183333333 | 374.8630952381 | 298.31818181818 |
+| `CritChance` | 0.5 | 0.39 | 0.35 | 0.34925 | 0.333 | 0.3 | 0.2 |
+| `CritMultiplier` | 2.4 | 2.075 | 2 | 2 | 2 | 2 | 2 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
+| `FireRate` | 1 | 1 | 1 | 1 | 1 | 1 | 0.85015 |
+| `LifetimeDmg` | 35869.5 | 28954.35 | 19874.25 | 18828.16 | 17980.8125 | 11340.55 | 1735.8588 |
+| `MagDmg` | 580.94 | 497.125 | 380.9584 | 315.699525 | 284.12505 | 252.64 | 181.675 |
 | `Magazine` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | `Multishot` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | `ReloadSpeed` | 1.6666666666667 | 1.6666666666667 | 1.6666666666667 | 1.6666666666667 | 1.6666666666667 | 1.6666666666667 | 1.5384615384615 |
 | `ShotsPerMag` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| `StatusChance` | 0.472 | 0.38 | 0.3 | 0.246 | 0.202 | 0.176 | 0.15 |
-| `SustainedDps` | 483.1352 | 257.23468075989 | 227.20896503497 | 209.29602272727 | 168.85625 | 148.05698529412 | 108.29521016618 |
-| `TotalDamage` | 450 | 325 | 259.6 | 217 | 193 | 177.6 | 133 |
+| `StatusChance` | 0.469 | 0.365 | 0.3 | 0.29325 | 0.2065 | 0.182 | 0.15 |
+| `SustainedDps` | 513.74166666667 | 262.35554518997 | 232.24096135717 | 223.75291193182 | 185.4078125 | 148.76470588235 | 112.73655913978 |
+| `TotalDamage` | 450 | 362.5 | 276.6 | 232.75 | 199.75 | 180.7 | 139.75 |
 
 **Top 3**
 
 `Accuracy`:
 
-* First place is Prisma Lenz, Kuva Bramma, Cinta, Paris Prime, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Mk1-Paris, Daikyu Prime, Paris, Nataruk, Lenz, Dread, Daikyu (16.7)
+* First place is Nunchasa (100)
+* Second place is Prisma Lenz, Kuva Bramma, Cinta, Paris Prime, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Mk1-Paris, Daikyu Prime, Paris, Nataruk, Lenz, Dread, Daikyu (16.7)
 
 `AmmoMax`:
 
 * First place is Paris Prime, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Mk1-Paris, Daikyu Prime, Paris, Dread, Daikyu (72)
 * Second place is Cinta (60)
-* Third place is Prisma Lenz (8)
+* Third place is Nunchasa (50)
 
 `AmmoPickup`:
 
-* First place is Paris Prime, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Mk1-Paris, Daikyu Prime, Paris, Dread, Daikyu (15)
+* First place is Paris Prime, Nunchasa, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Mk1-Paris, Daikyu Prime, Paris, Dread, Daikyu (15)
 * Second place is Cinta (10)
 * Third place is Prisma Lenz, Kuva Bramma, Proboscis Cernos, Lenz (1)
 
@@ -11758,19 +11712,19 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Daikyu (938)
 * Second place is Daikyu Prime (585)
-* Third place is Cinta (540)
+* Third place is Nunchasa (579.2)
 
 `BaseDps`:
 
 * First place is Daikyu (1166.6666666667)
 * Second place is Cinta, Nataruk (750)
-* Third place is Daikyu Prime (625)
+* Third place is Nunchasa (666.66666666667)
 
 `BurstDps`:
 
 * First place is Daikyu Prime (975)
-* Second place is Daikyu (938)
-* Third place is Cinta (900)
+* Second place is Nunchasa (965.33333333333)
+* Third place is Daikyu (938)
 
 `CritChance`:
 
@@ -11781,18 +11735,16 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `CritMultiplier`:
 
 * First place is Prisma Lenz (2.8)
-* Second place is Daikyu Prime (2.4)
+* Second place is Nunchasa, Daikyu Prime (2.4)
 * Third place is Evensong (2.2)
 
 `Disposition`:
 
-* First place is Mk1-Paris (1.45)
-* Second place is Paris (1.4)
-* Third place is Paris Prime, Mutalist Cernos (1.35)
+* First place is Prisma Lenz, Kuva Bramma, Cinta, Paris Prime, Nunchasa, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Mk1-Paris, Daikyu Prime, Paris, Nataruk, Lenz, Dread, Daikyu (1.2)
 
 `FireRate`:
 
-* First place is Prisma Lenz, Paris Prime, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Mk1-Paris, Daikyu Prime, Paris, Lenz, Dread, Daikyu (1)
+* First place is Prisma Lenz, Paris Prime, Nunchasa, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Mk1-Paris, Daikyu Prime, Paris, Lenz, Dread, Daikyu (1)
 * Second place is Kuva Bramma, Cinta, Nataruk (0.667)
 
 `LifetimeDmg`:
@@ -11805,26 +11757,26 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Daikyu (938)
 * Second place is Daikyu Prime (585)
-* Third place is Cinta (540)
+* Third place is Nunchasa (579.2)
 
 `Magazine`:
 
-* First place is Prisma Lenz, Kuva Bramma, Cinta, Paris Prime, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Mk1-Paris, Daikyu Prime, Paris, Nataruk, Lenz, Dread, Daikyu (1)
+* First place is Prisma Lenz, Kuva Bramma, Cinta, Paris Prime, Nunchasa, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Mk1-Paris, Daikyu Prime, Paris, Nataruk, Lenz, Dread, Daikyu (1)
 
 `Multishot`:
 
 * First place is Cernos Prime (3)
-* Second place is Prisma Lenz, Kuva Bramma, Cinta, Paris Prime, Rakta Cernos, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Mk1-Paris, Daikyu Prime, Paris, Nataruk, Lenz, Dread, Daikyu (1)
+* Second place is Prisma Lenz, Kuva Bramma, Cinta, Paris Prime, Nunchasa, Rakta Cernos, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Mk1-Paris, Daikyu Prime, Paris, Nataruk, Lenz, Dread, Daikyu (1)
 
 `ReloadSpeed`:
 
 * First place is Mk1-Paris (1.8181818181818)
-* Second place is Prisma Lenz, Kuva Bramma, Cinta, Rakta Cernos, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Daikyu Prime, Nataruk, Lenz, Daikyu (1.6666666666667)
+* Second place is Prisma Lenz, Kuva Bramma, Cinta, Nunchasa, Rakta Cernos, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Daikyu Prime, Nataruk, Lenz, Daikyu (1.6666666666667)
 * Third place is Cernos Prime, Paris (1.5384615384615)
 
 `ShotsPerMag`:
 
-* First place is Prisma Lenz, Kuva Bramma, Cinta, Paris Prime, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Mk1-Paris, Daikyu Prime, Paris, Nataruk, Lenz, Dread, Daikyu (1)
+* First place is Prisma Lenz, Kuva Bramma, Cinta, Paris Prime, Nunchasa, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Mk1-Paris, Daikyu Prime, Paris, Nataruk, Lenz, Dread, Daikyu (1)
 
 `StatusChance`:
 
@@ -11836,58 +11788,59 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Daikyu Prime (688.23529411765)
 * Second place is Daikyu (586.25)
-* Third place is Kuva Bramma (414.392)
+* Third place is Nunchasa (482.66666666667)
 
 `TotalDamage`:
 
 * First place is Daikyu (700)
 * Second place is Cinta, Nataruk (450)
-* Third place is Daikyu Prime (375)
+* Third place is Nunchasa (400)
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-150 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-150 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `Accuracy` | 16.7 | 16.7 | 16.7 | 16.7 | 16.7 | 16.7 | 16.7 |
-| `AmmoMax` | 72 | 72 | 72 | 72 | 72 | 34 | 6.25 |
-| `AmmoPickup` | 15 | 15 | 15 | 15 | 15 | 5.5 | 1 |
-| `AvgCritCount` | 0.5 | 0.5 | 0.4 | 0.36 | 0.3575 | 0.325 | 0.2625 |
-| `AvgProcCount` | 1.295 | 0.9375 | 0.49 | 0.3725 | 0.2925 | 0.2 | 0.1575 |
-| `AvgShotDmg` | 1408 | 851.4 | 634.5 | 521.35 | 513.6 | 443.75 | 146.5025 |
-| `BaseDps` | 1365.8333333333 | 949.42307692308 | 783.33333333333 | 677.08333333333 | 603.57142857143 | 486.15384615385 | 217.04545454545 |
-| `BurstDps` | 1305 | 1079.7403846154 | 861.33333333333 | 780.81845238095 | 739.28571428571 | 591.81818181818 | 237.92023809524 |
-| `CritChance` | 0.5 | 0.4625 | 0.36 | 0.35875 | 0.35 | 0.325 | 0.2625 |
-| `CritMultiplier` | 2.6 | 2.2 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.375 | 1.3125 | 1.25 | 1.25 | 1.2375 | 1.025 | 0.9 |
-| `FireRate` | 1 | 1 | 1 | 1 | 1 | 1 | 0.75025 |
-| `LifetimeDmg` | 69167.8 | 46601.375 | 37726.4 | 36495.4375 | 33406.625 | 16491.172 | 934.02 |
-| `MagDmg` | 1408 | 851.4 | 634.5 | 521.35 | 513.6 | 443.75 | 146.5025 |
+| `Accuracy` | 50.02 | 16.7 | 16.7 | 16.7 | 16.7 | 16.7 | 16.7 |
+| `AmmoMax` | 72 | 72 | 72 | 72 | 72 | 41.6 | 6.4 |
+| `AmmoPickup` | 15 | 15 | 15 | 15 | 15 | 8.2 | 1 |
+| `AvgCritCount` | 0.5 | 0.5 | 0.384 | 0.36 | 0.36 | 0.34 | 0.27 |
+| `AvgProcCount` | 1.268 | 0.9 | 0.446 | 0.368 | 0.328 | 0.2 | 0.162 |
+| `AvgShotDmg` | 1552 | 1170 | 643.8 | 567 | 517.84 | 460.4 | 177.002 |
+| `BaseDps` | 1439 | 1250 | 813.33333333333 | 723.33333333333 | 643.33333333333 | 489.84615384615 | 257.27272727273 |
+| `BurstDps` | 1278 | 1146.4615384615 | 894.93333333333 | 816.03333333333 | 753.7380952381 | 620.72727272727 | 298.66952380952 |
+| `CritChance` | 0.5 | 0.45 | 0.36 | 0.36 | 0.352 | 0.34 | 0.27 |
+| `CritMultiplier` | 2.88 | 2.2 | 2.06 | 2 | 2 | 2 | 2 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
+| `FireRate` | 1 | 1 | 1 | 1 | 1 | 1 | 0.8002 |
+| `LifetimeDmg` | 84525.6 | 47450 | 37954.16 | 37165.76 | 34894 | 19692.6688 | 1035.216 |
+| `MagDmg` | 1552 | 1170 | 643.8 | 567 | 517.84 | 460.4 | 177.002 |
 | `Magazine` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | `Multishot` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | `ReloadSpeed` | 1.6666666666667 | 1.6666666666667 | 1.6666666666667 | 1.6666666666667 | 1.6666666666667 | 1.6666666666667 | 1.5384615384615 |
 | `ShotsPerMag` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| `StatusChance` | 0.495 | 0.3925 | 0.3 | 0.20875 | 0.2 | 0.17 | 0.15 |
-| `SustainedDps` | 823.23529411765 | 674.24107142857 | 469.81818181818 | 434.20454545455 | 426.47727272727 | 361.42512077295 | 126.38470695971 |
-| `TotalDamage` | 819.5 | 601.5 | 470 | 406.25 | 375 | 328 | 125 |
+| `StatusChance` | 0.494 | 0.38 | 0.312 | 0.246 | 0.202 | 0.176 | 0.15 |
+| `SustainedDps` | 851.42857142857 | 731.25 | 576.72727272727 | 448.92727272727 | 429.90909090909 | 361.61352657005 | 158.06014652015 |
+| `TotalDamage` | 863.4 | 750 | 488 | 434 | 386 | 332.8 | 146 |
 
 **Top 3**
 
 `Accuracy`:
 
-* First place is Cinta (100)
+* First place is Cinta, Nunchasa (100)
 * Second place is Prisma Lenz, Kuva Bramma, Paris Prime, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Mk1-Paris, Daikyu Prime, Paris, Nataruk, Lenz, Dread (16.7)
 
 `AmmoMax`:
 
 * First place is Paris Prime, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Mk1-Paris, Daikyu Prime, Paris, Dread (72)
 * Second place is Cinta (60)
-* Third place is Prisma Lenz (8)
+* Third place is Nunchasa (50)
 
 `AmmoPickup`:
 
-* First place is Paris Prime, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Mk1-Paris, Daikyu Prime, Paris, Dread (15)
+* First place is Paris Prime, Nunchasa, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Mk1-Paris, Daikyu Prime, Paris, Dread (15)
 * Second place is Cinta (10)
 * Third place is Prisma Lenz, Kuva Bramma, Proboscis Cernos, Lenz (1)
 
@@ -11906,14 +11859,14 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `AvgShotDmg`:
 
 * First place is Kuva Bramma (1859.224)
-* Second place is Nataruk (1440)
-* Third place is Cinta (1376)
+* Second place is Nunchasa (1720)
+* Third place is Nataruk (1440)
 
 `BaseDps`:
 
-* First place is Nataruk (1500)
-* Second place is Kuva Bramma (1398.3333333333)
-* Third place is Cinta (1333.3333333333)
+* First place is Nunchasa (1666.6666666667)
+* Second place is Nataruk (1500)
+* Third place is Kuva Bramma (1398.3333333333)
 
 `BurstDps`:
 
@@ -11929,51 +11882,49 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `CritMultiplier`:
 
-* First place is Cinta (3)
+* First place is Cinta, Nunchasa (3)
 * Second place is Prisma Lenz (2.8)
 * Third place is Daikyu Prime (2.4)
 
 `Disposition`:
 
-* First place is Mk1-Paris (1.45)
-* Second place is Paris (1.4)
-* Third place is Paris Prime, Mutalist Cernos (1.35)
+* First place is Prisma Lenz, Kuva Bramma, Cinta, Paris Prime, Nunchasa, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Mk1-Paris, Daikyu Prime, Paris, Nataruk, Lenz, Dread (1.2)
 
 `FireRate`:
 
-* First place is Prisma Lenz, Paris Prime, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Mk1-Paris, Daikyu Prime, Paris, Lenz, Dread (1)
+* First place is Prisma Lenz, Paris Prime, Nunchasa, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Mk1-Paris, Daikyu Prime, Paris, Lenz, Dread (1)
 * Second place is Kuva Bramma, Cinta, Nataruk (0.667)
 
 `LifetimeDmg`:
 
-* First place is Daikyu Prime (85410)
-* Second place is Cinta (83936)
-* Third place is Cernos Prime (54399.6)
+* First place is Nunchasa (87720)
+* Second place is Daikyu Prime (85410)
+* Third place is Cinta (83936)
 
 `MagDmg`:
 
 * First place is Kuva Bramma (1859.224)
-* Second place is Nataruk (1440)
-* Third place is Cinta (1376)
+* Second place is Nunchasa (1720)
+* Third place is Nataruk (1440)
 
 `Magazine`:
 
-* First place is Prisma Lenz, Kuva Bramma, Cinta, Paris Prime, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Mk1-Paris, Daikyu Prime, Paris, Nataruk, Lenz, Dread (1)
+* First place is Prisma Lenz, Kuva Bramma, Cinta, Paris Prime, Nunchasa, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Mk1-Paris, Daikyu Prime, Paris, Nataruk, Lenz, Dread (1)
 
 `Multishot`:
 
 * First place is Cernos Prime (3)
-* Second place is Prisma Lenz, Kuva Bramma, Cinta, Paris Prime, Rakta Cernos, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Mk1-Paris, Daikyu Prime, Paris, Nataruk, Lenz, Dread (1)
+* Second place is Prisma Lenz, Kuva Bramma, Cinta, Paris Prime, Nunchasa, Rakta Cernos, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Mk1-Paris, Daikyu Prime, Paris, Nataruk, Lenz, Dread (1)
 
 `ReloadSpeed`:
 
 * First place is Mk1-Paris (1.8181818181818)
-* Second place is Prisma Lenz, Kuva Bramma, Cinta, Rakta Cernos, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Daikyu Prime, Nataruk, Lenz (1.6666666666667)
+* Second place is Prisma Lenz, Kuva Bramma, Cinta, Nunchasa, Rakta Cernos, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Daikyu Prime, Nataruk, Lenz (1.6666666666667)
 * Third place is Cernos Prime, Paris (1.5384615384615)
 
 `ShotsPerMag`:
 
-* First place is Prisma Lenz, Kuva Bramma, Cinta, Paris Prime, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Mk1-Paris, Daikyu Prime, Paris, Nataruk, Lenz, Dread (1)
+* First place is Prisma Lenz, Kuva Bramma, Cinta, Paris Prime, Nunchasa, Rakta Cernos, Cernos Prime, Cernos, Mutalist Cernos, Evensong, Proboscis Cernos, Mk1-Paris, Daikyu Prime, Paris, Nataruk, Lenz, Dread (1)
 
 `StatusChance`:
 
@@ -11985,17 +11936,18 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Kuva Bramma (1859.224)
 * Second place is Nataruk (900)
-* Third place is Rakta Cernos (746.47058823529)
+* Third place is Nunchasa (819.04761904762)
 
 `TotalDamage`:
 
-* First place is Nataruk (900)
-* Second place is Kuva Bramma (839)
-* Third place is Cinta (800)
+* First place is Nunchasa (1000)
+* Second place is Nataruk (900)
+* Third place is Kuva Bramma (839)
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-151 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-151 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -12009,7 +11961,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 1513.8144285714 | 1236.25 | 1099.7142857143 | 987.75 | 818.03571428571 | 678.21428571429 | 409.773 |
 | `CritChance` | 0.5 | 0.5 | 0.46 | 0.4 | 0.3975 | 0.28 | 0.1825 |
 | `CritMultiplier` | 3 | 3 | 2.64 | 2.355 | 2.195 | 2.03 | 2 |
-| `Disposition` | 1.395 | 1.35 | 1.28 | 1.23875 | 1.1925 | 1.015 | 0.8125 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 1 | 1 | 1 | 1 | 1 | 0.88345 |
 | `LifetimeDmg` | 60239.6 | 47540 | 29346 | 13879.275 | 12447.7756 | 7409.8536 | 1850.0328 |
 | `MagDmg` | 1379.8 | 1085.64175 | 925.2 | 821.7 | 796 | 594 | 279.9888 |
@@ -12084,9 +12036,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Mk1-Paris (1.45)
-* Second place is Paris (1.4)
-* Third place is Paris Prime, Mutalist Cernos (1.35)
+* First place is Prisma Lenz, Kuva Bramma, Cinta, Paris Prime, Mutalist Cernos, Evensong, Proboscis Cernos, Mk1-Paris, Paris, Nataruk, Lenz, Dread (1.2)
 
 `FireRate`:
 
@@ -12145,7 +12095,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-152 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-152 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -12159,7 +12110,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 631.56 | 631.56 | 631.56 | 631.56 | 631.56 | 631.56 | 631.56 |
 | `CritChance` | 0.35 | 0.35 | 0.35 | 0.35 | 0.35 | 0.35 | 0.35 |
 | `CritMultiplier` | 2.1 | 2.1 | 2.1 | 2.1 | 2.1 | 2.1 | 2.1 |
-| `Disposition` | 0.65 | 0.65 | 0.65 | 0.65 | 0.65 | 0.65 | 0.65 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | `LifetimeDmg` | 2273.616 | 2273.616 | 2273.616 | 2273.616 | 2273.616 | 2273.616 | 2273.616 |
 | `MagDmg` | 378.936 | 378.936 | 378.936 | 378.936 | 378.936 | 378.936 | 378.936 |
@@ -12215,7 +12166,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kuva Bramma (0.65)
+* First place is Kuva Bramma (1.2)
 
 `FireRate`:
 
@@ -12259,11 +12210,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Crossbow
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-153 "Edit section's source code: Crossbow")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-153 "Edit Section using Source Editor:
+Crossbow")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-154 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-154 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -12277,7 +12230,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 543.9975 | 500.4 | 485.1675 | 477.55125 | 468.09 | 447.3225 | 402.84 |
 | `CritChance` | 0.256 | 0.25 | 0.25 | 0.25 | 0.24 | 0.21 | 0.18 |
 | `CritMultiplier` | 2.72 | 2.3 | 2.3 | 2.3 | 2.24 | 2.06 | 2 |
-| `Disposition` | 1.372 | 1.3 | 1.24 | 1.21 | 1.19 | 1.16 | 1.15 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 4.968 | 4.17 | 3.87 | 3.72 | 3.436 | 2.734 | 2.5 |
 | `LifetimeDmg` | 117506.883 | 104312.745 | 82045.098 | 70911.2745 | 67200 | 67200 | 47880 |
 | `MagDmg` | 2472.885 | 2400 | 2400 | 2400 | 2298 | 1992 | 1818.018 |
@@ -12349,9 +12302,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Attica (1.42)
-* Second place is Nagantaka (1.3)
-* Third place is Zhuge (1.2)
+* First place is Zhuge, Zhuge Prime, Nagantaka, Nagantaka Prime, Attica (1.2)
 
 `FireRate`:
 
@@ -12413,7 +12364,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-155 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-155 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -12427,7 +12379,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 263.43727272727 | 242.79318181818 | 222.14909090909 | 211.82704545455 | 203.38147727273 | 188.36681818182 | 173.35215909091 |
 | `CritChance` | 0.258 | 0.255 | 0.252 | 0.2505 | 0.24 | 0.21 | 0.18 |
 | `CritMultiplier` | 2.3 | 2.3 | 2.3 | 2.3 | 2.27 | 2.18 | 2.09 |
-| `Disposition` | 1.27 | 1.225 | 1.18 | 1.1575 | 1.15 | 1.15 | 1.15 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 5.4 | 5.25 | 5.1 | 5.025 | 5 | 5 | 5 |
 | `LifetimeDmg` | 1299229.121 | 1164073.715 | 1028918.309 | 961340.606 | 846445.2345 | 569336.823 | 292228.4115 |
 | `MagDmg` | 25267.061 | 21563.315 | 17859.569 | 16007.696 | 14002.5645 | 9839.043 | 5675.5215 |
@@ -12497,8 +12449,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Nagantaka (1.3)
-* Second place is Zhuge Prime, Nagantaka Prime (1.15)
+* First place is Zhuge Prime, Nagantaka, Nagantaka Prime (1.2)
 
 `FireRate`:
 
@@ -12557,11 +12508,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Launcher
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-156 "Edit section's source code: Launcher")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-156 "Edit Section using Source Editor:
+Launcher")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-157 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-157 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -12575,7 +12528,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 237.105 | 199.9083 | 182.4 | 169.125 | 154.18766666667 | 85.126 | 67.142417647059 |
 | `CritChance` | 0.298 | 0.265 | 0.25 | 0.232 | 0.169 | 0.115 | 0.0965 |
 | `CritMultiplier` | 2.5 | 2.5 | 2.42 | 2.2325 | 2 | 2 | 2 |
-| `Disposition` | 1.3 | 1.3 | 1.3 | 1.26625 | 1.15 | 0.975 | 0.7 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 3.123 | 2.3025 | 1.868 | 1.63175 | 1.5 | 1.5 | 1.325 |
 | `LifetimeDmg` | 7283.532 | 4572.54 | 3798 | 3282.609375 | 3168.28125 | 2231.25 | 1669.80625 |
 | `MagDmg` | 1750.596 | 702.375 | 565 | 544.375 | 519.375 | 222.6348 | 125.06575 |
@@ -12649,9 +12602,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Penta (1.35)
-* Second place is Carmine Penta, Ogris, Torid, Tonkor, Secura Penta (1.3)
-* Third place is Zarr, Purgator 1 (1.15)
+* First place is Zarr, Kuva Ogris, Kuva Zarr, Kuva Tonkor, Carmine Penta, Purgator 1, Ogris, Tenet Envoy, Torid, Tonkor, Secura Penta, Penta (1.2)
 
 `FireRate`:
 
@@ -12713,7 +12664,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-158 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-158 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -12727,7 +12679,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 1797.192 | 1136.5687466667 | 1039.5 | 968.625 | 850.5 | 525.73529411765 | 375.886875 |
 | `CritChance` | 0.28 | 0.255 | 0.25 | 0.19 | 0.16 | 0.1 | 0.095 |
 | `CritMultiplier` | 2.5 | 2.5 | 2.5 | 2.125 | 2 | 2 | 2 |
-| `Disposition` | 1.3 | 1.3 | 1.3 | 1.3 | 1.225 | 0.9 | 0.7 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 3.17 | 2.435 | 2 | 1.7525 | 1.585 | 1.5 | 1 |
 | `LifetimeDmg` | 35586.048 | 23478.125 | 15750 | 15042 | 14321.1875 | 13230 | 10803.14 |
 | `MagDmg` | 7403 | 3722.192 | 3150 | 2772 | 2285.5 | 1563.68 | 776.3125 |
@@ -12801,9 +12753,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Penta (1.35)
-* Second place is Carmine Penta, Ogris, Torid, Tonkor, Secura Penta (1.3)
-* Third place is Zarr (1.15)
+* First place is Zarr, Kuva Ogris, Kuva Zarr, Kuva Tonkor, Carmine Penta, Ogris, Tenet Envoy, Torid, Tonkor, Secura Penta, Penta (1.2)
 
 `FireRate`:
 
@@ -12865,7 +12815,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-159 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-159 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -12879,7 +12830,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 568.1436 | 435.651 | 303.1584 | 236.9121 | 210.6315 | 198.036 | 185.4405 |
 | `CritChance` | 0.282 | 0.27 | 0.258 | 0.252 | 0.24 | 0.21 | 0.18 |
 | `CritMultiplier` | 2.98 | 2.8 | 2.62 | 2.53 | 2.45 | 2.3 | 2.15 |
-| `Disposition` | 1.27 | 1.225 | 1.18 | 1.1575 | 1.105 | 0.97 | 0.835 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 6.834 | 5.085 | 3.336 | 2.4615 | 2.12 | 1.97 | 1.82 |
 | `LifetimeDmg` | 6283.167 | 5927.1675 | 5571.168 | 5393.16825 | 4899.4515 | 3596.301 | 2293.1505 |
 | `MagDmg` | 478.059 | 452.6475 | 427.236 | 414.53025 | 400.3155 | 370.377 | 340.4385 |
@@ -12953,9 +12904,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Torid (1.3)
-* Second place is Zarr (1.15)
-* Third place is Kuva Zarr (0.7)
+* First place is Zarr, Kuva Zarr, Torid (1.2)
 
 `FireRate`:
 
@@ -13017,7 +12966,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-160 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-160 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -13031,7 +12981,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 702.105 | 681.1125 | 660.12 | 649.62375 | 639.1275 | 618.135 | 597.1425 |
 | `CritChance` | 0.24 | 0.225 | 0.21 | 0.2025 | 0.195 | 0.18 | 0.165 |
 | `CritMultiplier` | 2.45 | 2.375 | 2.3 | 2.2625 | 2.225 | 2.15 | 2.075 |
-| `Disposition` | 1.105 | 1.0375 | 0.97 | 0.93625 | 0.9025 | 0.835 | 0.7675 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 2.12 | 2.045 | 1.97 | 1.9325 | 1.895 | 1.82 | 1.745 |
 | `LifetimeDmg` | 19891.5 | 17126.25 | 14361 | 12978.375 | 11595.75 | 8830.5 | 6065.25 |
 | `MagDmg` | 1588.5 | 1496.25 | 1404 | 1357.875 | 1311.75 | 1219.5 | 1127.25 |
@@ -13096,8 +13046,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Zarr (1.15)
-* Second place is Kuva Zarr (0.7)
+* First place is Zarr, Kuva Zarr (1.2)
 
 `FireRate`:
 
@@ -13151,7 +13100,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 5
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-161 "Edit section's source code: Attack Index 5")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-161 "Edit Section using Source Editor:
+Attack Index 5")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -13165,7 +13115,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 2980.748 | 2933.87 | 2886.992 | 2863.553 | 2840.114 | 2793.236 | 2746.358 |
 | `CritChance` | 0.35 | 0.32 | 0.29 | 0.275 | 0.26 | 0.23 | 0.2 |
 | `CritMultiplier` | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 |
-| `Disposition` | 1.105 | 1.0375 | 0.97 | 0.93625 | 0.9025 | 0.835 | 0.7675 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 2.917 | 2.7925 | 2.668 | 2.60575 | 2.5435 | 2.419 | 2.2945 |
 | `LifetimeDmg` | 58170.8 | 50549 | 42927.2 | 39116.3 | 35305.4 | 27683.6 | 20061.8 |
 | `MagDmg` | 5899.2 | 5418 | 4936.8 | 4696.2 | 4455.6 | 3974.4 | 3493.2 |
@@ -13230,8 +13180,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Zarr (1.15)
-* Second place is Kuva Zarr (0.7)
+* First place is Zarr, Kuva Zarr (1.2)
 
 `FireRate`:
 
@@ -13284,15 +13233,18 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### By Trigger Type
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-162 "Edit section's source code: By Trigger Type")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-162 "Edit Section using Source Editor:
+By Trigger Type")]
 
 ##### Semi-Auto
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-163 "Edit section's source code: Semi-Auto")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-163 "Edit Section using Source Editor:
+Semi-Auto")]
 
 ###### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-164 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-164 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -13306,7 +13258,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 800.6658 | 205.6 | 140.00133333333 | 103.44033333333 | 85.066933333333 | 68.637952941176 | 59.835213235294 |
 | `CritChance` | 0.304 | 0.275 | 0.25 | 0.25 | 0.226 | 0.166 | 0.144 |
 | `CritMultiplier` | 2.5 | 2.5 | 2.5 | 2.5 | 2.44 | 2.24 | 2 |
-| `Disposition` | 1.3 | 1.225 | 1.15 | 1.15 | 1.075 | 0.86 | 0.7 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 3.17 | 2.67 | 1.97 | 1.745 | 1.619 | 1.5 | 1.5 |
 | `LifetimeDmg` | 17195.6188 | 5859.14 | 3824.718 | 3353.83575 | 2830.8 | 1801.3 | 1037.088 |
 | `MagDmg` | 4289.6748 | 562.5 | 386.5056 | 202.5744 | 139.9488 | 130.129 | 102.225 |
@@ -13380,9 +13332,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Torid, Tonkor (1.3)
-* Second place is Zarr, Purgator 1 (1.15)
-* Third place is Kuva Tonkor (0.9)
+* First place is Zarr, Kuva Ogris, Kuva Zarr, Kuva Tonkor, Purgator 1, Torid, Tonkor (1.2)
 
 `FireRate`:
 
@@ -13444,7 +13394,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-165 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-165 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -13458,7 +13409,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 2505.047 | 1608.5073333333 | 1042.4533333333 | 848.68406862745 | 654.91480392157 | 446.25452205882 | 286.5803125 |
 | `CritChance` | 0.275 | 0.25 | 0.25 | 0.22 | 0.19 | 0.16 | 0.135 |
 | `CritMultiplier` | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.25 | 2 |
-| `Disposition` | 1.3 | 1.2625 | 1.15 | 1.05625 | 0.9625 | 0.8 | 0.7 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 3.17 | 2.92 | 2.17 | 1.9825 | 1.795 | 1.585 | 1.375 |
 | `LifetimeDmg` | 38090.165 | 24481.1875 | 14806 | 14442.390625 | 14078.78125 | 12908.8275 | 9733.46 |
 | `MagDmg` | 5498.692 | 3086.708 | 1563.68 | 1312.45625 | 1061.2325 | 776.3125 | 551.65625 |
@@ -13531,9 +13482,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Torid, Tonkor (1.3)
-* Second place is Zarr (1.15)
-* Third place is Kuva Tonkor (0.9)
+* First place is Zarr, Kuva Ogris, Kuva Zarr, Kuva Tonkor, Torid, Tonkor (1.2)
 
 `FireRate`:
 
@@ -13595,7 +13544,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-166 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-166 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -13609,7 +13559,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 568.1436 | 435.651 | 303.1584 | 236.9121 | 210.6315 | 198.036 | 185.4405 |
 | `CritChance` | 0.282 | 0.27 | 0.258 | 0.252 | 0.24 | 0.21 | 0.18 |
 | `CritMultiplier` | 2.98 | 2.8 | 2.62 | 2.53 | 2.45 | 2.3 | 2.15 |
-| `Disposition` | 1.27 | 1.225 | 1.18 | 1.1575 | 1.105 | 0.97 | 0.835 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 6.834 | 5.085 | 3.336 | 2.4615 | 2.12 | 1.97 | 1.82 |
 | `LifetimeDmg` | 6283.167 | 5927.1675 | 5571.168 | 5393.16825 | 4899.4515 | 3596.301 | 2293.1505 |
 | `MagDmg` | 478.059 | 452.6475 | 427.236 | 414.53025 | 400.3155 | 370.377 | 340.4385 |
@@ -13683,9 +13633,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Torid (1.3)
-* Second place is Zarr (1.15)
-* Third place is Kuva Zarr (0.7)
+* First place is Zarr, Kuva Zarr, Torid (1.2)
 
 `FireRate`:
 
@@ -13747,7 +13695,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-167 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-167 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -13761,7 +13710,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 702.105 | 681.1125 | 660.12 | 649.62375 | 639.1275 | 618.135 | 597.1425 |
 | `CritChance` | 0.24 | 0.225 | 0.21 | 0.2025 | 0.195 | 0.18 | 0.165 |
 | `CritMultiplier` | 2.45 | 2.375 | 2.3 | 2.2625 | 2.225 | 2.15 | 2.075 |
-| `Disposition` | 1.105 | 1.0375 | 0.97 | 0.93625 | 0.9025 | 0.835 | 0.7675 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 2.12 | 2.045 | 1.97 | 1.9325 | 1.895 | 1.82 | 1.745 |
 | `LifetimeDmg` | 19891.5 | 17126.25 | 14361 | 12978.375 | 11595.75 | 8830.5 | 6065.25 |
 | `MagDmg` | 1588.5 | 1496.25 | 1404 | 1357.875 | 1311.75 | 1219.5 | 1127.25 |
@@ -13826,8 +13775,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Zarr (1.15)
-* Second place is Kuva Zarr (0.7)
+* First place is Zarr, Kuva Zarr (1.2)
 
 `FireRate`:
 
@@ -13881,7 +13829,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 5
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-168 "Edit section's source code: Attack Index 5")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-168 "Edit Section using Source Editor:
+Attack Index 5")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -13895,7 +13844,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 2980.748 | 2933.87 | 2886.992 | 2863.553 | 2840.114 | 2793.236 | 2746.358 |
 | `CritChance` | 0.35 | 0.32 | 0.29 | 0.275 | 0.26 | 0.23 | 0.2 |
 | `CritMultiplier` | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 | 2.5 |
-| `Disposition` | 1.105 | 1.0375 | 0.97 | 0.93625 | 0.9025 | 0.835 | 0.7675 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 2.917 | 2.7925 | 2.668 | 2.60575 | 2.5435 | 2.419 | 2.2945 |
 | `LifetimeDmg` | 58170.8 | 50549 | 42927.2 | 39116.3 | 35305.4 | 27683.6 | 20061.8 |
 | `MagDmg` | 5899.2 | 5418 | 4936.8 | 4696.2 | 4455.6 | 3974.4 | 3493.2 |
@@ -13960,8 +13909,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Zarr (1.15)
-* Second place is Kuva Zarr (0.7)
+* First place is Zarr, Kuva Zarr (1.2)
 
 `FireRate`:
 
@@ -14014,11 +13962,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Rifle
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-169 "Edit section's source code: Rifle")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-169 "Edit Section using Source Editor:
+Rifle")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-170 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-170 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -14032,7 +13982,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 612.48 | 495.69 | 416.0832 | 398.289 | 374.4 | 333 | 256.872 |
 | `CritChance` | 0.31 | 0.26 | 0.24 | 0.21 | 0.2 | 0.14 | 0.1 |
 | `CritMultiplier` | 2.8 | 2.4 | 2.3 | 2.2 | 2 | 2 | 1.8 |
-| `Disposition` | 1.4 | 1.3 | 1.25 | 1.2 | 1.15 | 1.05 | 0.85 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 57.4 | 53.5 | 49.6 | 47.65 | 45.7 | 41.8 | 37.9 |
 | `FalloffRate` | 56.4 | 51 | 45.6 | 42.9 | 40.2 | 34.8 | 29.4 |
 | `FireRate` | 13.33 | 12 | 10 | 8.54 | 7.08 | 5 | 3.33 |
@@ -14062,7 +14012,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `AmmoPickup`:
 
-* First place is Ambassador, Stradavar, Battacor, Boltor, Phenmor, Karak, Latron, EFV-5 Jupiter, Quartakk, Stradavar Prime, Tenora, Boltor Prime, Grinlok, Braton Vandal, Burston, Buzlok, Dera Vandal, Quellor, Burston Prime, Karak Wraith, Argonak, Gorgon, Baza, Hind, Dex Sybaris, Quanta, Tiberon Prime, Paracyst, Prisma Grakata, Zenith, Soma, Panthera Prime, Coda Synapse, Tenet Flux Rifle, Veldt, Gotva Prime, Panthera, Tiberon, Higasa, Sybaris, Tetra, Synapse, Tenora Prime, Braton, Tenet Quanta, Braton Prime, Tenet Glaxion, Thornbak, Telos Boltor, Sybaris Prime, Kuva Karak, Supra Vandal, Soma Prime, Grakata, Mk1-Braton, Reconifex, Quanta Vandal, Prisma Gorgon, Kuva Hind, Baza Prime, Glaxion, Mutalist Quanta, Supra, Latron Wraith, Prisma Grinlok, Kuva Quartakk, Latron Prime, Prisma Tetra, Gorgon Wraith, Dera, Glaxion Vandal, Harpak, AX-52 (80)
+* First place is Ambassador, Stradavar, Battacor, Boltor, Phenmor, Karak, Latron, EFV-5 Jupiter, Quartakk, Stradavar Prime, Tenora, Boltor Prime, Grinlok, Braton Vandal, Burston, Buzlok, Dera Vandal, Quellor, Burston Prime, Karak Wraith, Argonak, Gorgon, Baza, Hind, Dex Sybaris, Zenith, Quanta, Tiberon Prime, Paracyst, Prisma Grakata, Soma, Veldt, Panthera Prime, Coda Synapse, Tenet Flux Rifle, Gotva Prime, Panthera, Tiberon, Higasa, Supra Vandal, Tetra, Tenora Prime, Synapse, Tenet Quanta, Braton, Tenet Glaxion, Braton Prime, Thornbak, Telos Boltor, Sybaris Prime, Sybaris, Kuva Karak, Soma Prime, Grakata, Mk1-Braton, Reconifex, Quanta Vandal, Prisma Gorgon, Kuva Hind, Baza Prime, Glaxion, Mutalist Quanta, Supra, Latron Wraith, Prisma Grinlok, Kuva Quartakk, Latron Prime, Prisma Tetra, Gorgon Wraith, Dera, Glaxion Vandal, Harpak, AX-52 (80)
 * Second place is Trumna Prime, Amprex, Trumna (60)
 * Third place is Tenet Tetra, Ignis, Miter, Acceltra Prime, Alternox, Alternox Prime, Aeolak, Ignis Wraith, Stahlta, Opticor, Opticor Vandal, Acceltra (40)
 
@@ -14110,9 +14060,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Flux Rifle, Harpak (1.55)
-* Second place is Miter, Tetra, Mutalist Quanta (1.5)
-* Third place is Burston, Buzlok, Prisma Tetra (1.45)
+* First place is Tenet Tetra, Ambassador, Trumna Prime, Stradavar, Ignis, Battacor, Boltor, Phenmor, Amprex, Shedu, Fulmin Prime, Karak, Simulor, Basmu, Latron, EFV-5 Jupiter, Quartakk, Flux Rifle, Stradavar Prime, Tenora, Boltor Prime, Grinlok, Hema, Braton Vandal, Burston, Buzlok, Miter, Haalvu, Dera Vandal, Quellor, Burston Prime, Acceltra Prime, Karak Wraith, Argonak, Alternox, Gorgon, Baza, Hind, Dex Sybaris, Zenith, Quanta, Tiberon Prime, Paracyst, Prisma Grakata, Vinquibus (Primary), Soma, Synoid Simulor, Veldt, Panthera Prime, Coda Synapse, Tenet Flux Rifle, Alternox Prime, Gotva Prime, Trumna, Panthera, Tiberon, Higasa, Supra Vandal, Coda Hema, Tetra, Tenora Prime, Synapse, Tenet Quanta, Braton, Tenet Glaxion, Braton Prime, Thornbak, Telos Boltor, Aeolak, Sybaris Prime, Enkaus, Sybaris, Ignis Wraith, Kuva Karak, Stahlta, Soma Prime, Grakata, Mk1-Braton, Reconifex, Quanta Vandal, Prisma Gorgon, Fulmin, Opticor, Kuva Hind, Baza Prime, Glaxion, Opticor Vandal, Mutalist Quanta, Supra, Latron Wraith, Prisma Grinlok, Kuva Quartakk, Latron Prime, Prisma Tetra, Gorgon Wraith, Dera, Kuva Chakkhurr, Glaxion Vandal, Harpak, Acceltra, AX-52 (1.2)
 
 `FalloffEnd`:
 
@@ -14151,7 +14099,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `Multishot`:
 
 * First place is Quanta, Tenet Quanta, Quanta Vandal (2)
-* Second place is Tenet Tetra, Ambassador, Trumna Prime, Stradavar, Ignis, Battacor, Boltor, Phenmor, Amprex, Shedu, Fulmin Prime, Karak, Simulor, Basmu, Latron, EFV-5 Jupiter, Quartakk, Flux Rifle, Stradavar Prime, Tenora, Boltor Prime, Grinlok, Hema, Braton Vandal, Burston, Buzlok, Miter, Haalvu, Dera Vandal, Quellor, Burston Prime, Acceltra Prime, Karak Wraith, Argonak, Alternox, Gorgon, Baza, Hind, Dex Sybaris, Tiberon Prime, Paracyst, Prisma Grakata, Vinquibus (Primary), Zenith, Soma, Synoid Simulor, Panthera Prime, Coda Synapse, Tenet Flux Rifle, Alternox Prime, Veldt, Gotva Prime, Panthera, Tiberon, Trumna, Higasa, Sybaris, Coda Hema, Tetra, Synapse, Tenora Prime, Braton, Braton Prime, Tenet Glaxion, Thornbak, Aeolak, Telos Boltor, Enkaus, Sybaris Prime, Ignis Wraith, Kuva Karak, Supra Vandal, Stahlta, Soma Prime, Grakata, Mk1-Braton, Reconifex, Prisma Gorgon, Fulmin, Opticor, Kuva Hind, Baza Prime, Glaxion, Opticor Vandal, Mutalist Quanta, Supra, Latron Wraith, Prisma Grinlok, Kuva Quartakk, Latron Prime, Prisma Tetra, Gorgon Wraith, Dera, Kuva Chakkhurr, Glaxion Vandal, Harpak, Acceltra, AX-52 (1)
+* Second place is Tenet Tetra, Ambassador, Trumna Prime, Stradavar, Ignis, Battacor, Boltor, Phenmor, Amprex, Shedu, Fulmin Prime, Karak, Simulor, Basmu, Latron, EFV-5 Jupiter, Quartakk, Flux Rifle, Stradavar Prime, Tenora, Boltor Prime, Grinlok, Hema, Braton Vandal, Burston, Buzlok, Miter, Haalvu, Dera Vandal, Quellor, Burston Prime, Acceltra Prime, Karak Wraith, Argonak, Alternox, Gorgon, Baza, Hind, Dex Sybaris, Zenith, Tiberon Prime, Paracyst, Prisma Grakata, Vinquibus (Primary), Soma, Synoid Simulor, Veldt, Panthera Prime, Coda Synapse, Tenet Flux Rifle, Alternox Prime, Gotva Prime, Trumna, Panthera, Tiberon, Higasa, Supra Vandal, Coda Hema, Tetra, Tenora Prime, Synapse, Braton, Tenet Glaxion, Braton Prime, Thornbak, Telos Boltor, Aeolak, Sybaris Prime, Enkaus, Sybaris, Ignis Wraith, Kuva Karak, Stahlta, Soma Prime, Grakata, Mk1-Braton, Reconifex, Prisma Gorgon, Fulmin, Opticor, Kuva Hind, Baza Prime, Glaxion, Opticor Vandal, Mutalist Quanta, Supra, Latron Wraith, Prisma Grinlok, Kuva Quartakk, Latron Prime, Prisma Tetra, Gorgon Wraith, Dera, Kuva Chakkhurr, Glaxion Vandal, Harpak, Acceltra, AX-52 (1)
 
 `ReloadSpeed`:
 
@@ -14185,7 +14133,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-171 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-171 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -14199,7 +14148,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 1190.99744 | 677.8125 | 513.1904 | 473.497875 | 406.26 | 301.8688 | 167.769 |
 | `CritChance` | 0.386 | 0.3025 | 0.28 | 0.25 | 0.24 | 0.2 | 0.1 |
 | `CritMultiplier` | 3 | 3 | 2.8 | 2.4 | 2.3 | 2 | 2 |
-| `Disposition` | 1.4 | 1.35 | 1.25 | 1.2 | 1.1575 | 1.1 | 0.855 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 18.6 | 6.45 | 4.68 | 4 | 3.615 | 1.73 | 1.6 |
 | `FalloffRate` | 14.5569311325 | 10.916666666667 | 10.533333333333 | 10 | 9.95 | 8.45 | 7.9833333333333 |
 | `FireRate` | 10.63 | 5.1675 | 4 | 3.33 | 3.33 | 2 | 1.5 |
@@ -14229,7 +14178,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `AmmoPickup`:
 
-* First place is Ambassador, Stradavar, Battacor, Boltor, Phenmor, Latron, EFV-5 Jupiter, Stradavar Prime, Tenora, Boltor Prime, Braton Vandal, Burston, Buzlok, Dera Vandal, Quellor, Burston Prime, Argonak, Gorgon, Hind, Dex Sybaris, Quanta, Tiberon Prime, Paracyst, Zenith, Soma, Panthera Prime, Panthera, Higasa, Sybaris, Tenora Prime, Braton, Tenet Quanta, Braton Prime, Telos Boltor, Sybaris Prime, Soma Prime, Mk1-Braton, Quanta Vandal, Prisma Gorgon, Kuva Hind, Mutalist Quanta, Latron Wraith, Kuva Quartakk, Latron Prime, Gorgon Wraith, Dera, Harpak (80)
+* First place is Ambassador, Stradavar, Battacor, Boltor, Phenmor, Latron, EFV-5 Jupiter, Stradavar Prime, Tenora, Boltor Prime, Braton Vandal, Burston, Buzlok, Dera Vandal, Quellor, Burston Prime, Argonak, Gorgon, Hind, Dex Sybaris, Zenith, Quanta, Tiberon Prime, Paracyst, Soma, Panthera Prime, Panthera, Higasa, Tenora Prime, Tenet Quanta, Braton, Braton Prime, Telos Boltor, Sybaris Prime, Sybaris, Soma Prime, Mk1-Braton, Quanta Vandal, Prisma Gorgon, Kuva Hind, Mutalist Quanta, Latron Wraith, Kuva Quartakk, Latron Prime, Gorgon Wraith, Dera, Harpak (80)
 * Second place is Trumna Prime, Trumna (60)
 * Third place is Tenet Tetra, Miter, Acceltra Prime, Alternox, Alternox Prime, Aeolak, Stahlta, Opticor, Opticor Vandal, Acceltra (40)
 
@@ -14273,13 +14222,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Tiberon Prime, Soma Prime, Latron Wraith, Latron Prime (3.4)
 * Second place is Braton Vandal, Telos Boltor (3.2)
-* Third place is Battacor, Latron, Tenora, Boltor Prime, Burston, Dera Vandal, Burston Prime, Acceltra Prime, Dex Sybaris, Soma, Sybaris, Tenora Prime, Braton, Braton Prime, Sybaris Prime, Stahlta, Dera (3)
+* Third place is Battacor, Latron, Tenora, Boltor Prime, Burston, Dera Vandal, Burston Prime, Acceltra Prime, Dex Sybaris, Soma, Tenora Prime, Braton, Braton Prime, Sybaris Prime, Sybaris, Stahlta, Dera (3)
 
 `Disposition`:
 
-* First place is Harpak (1.55)
-* Second place is Miter, Mutalist Quanta (1.5)
-* Third place is Burston, Buzlok (1.45)
+* First place is Tenet Tetra, Ambassador, Trumna Prime, Stradavar, Battacor, Boltor, Phenmor, Shedu, Fulmin Prime, Simulor, Basmu, Latron, EFV-5 Jupiter, Stradavar Prime, Tenora, Boltor Prime, Braton Vandal, Burston, Buzlok, Miter, Haalvu, Dera Vandal, Quellor, Burston Prime, Acceltra Prime, Argonak, Alternox, Gorgon, Hind, Dex Sybaris, Zenith, Quanta, Tiberon Prime, Paracyst, Soma, Synoid Simulor, Panthera Prime, Alternox Prime, Trumna, Panthera, Higasa, Tenora Prime, Tenet Quanta, Braton, Braton Prime, Telos Boltor, Aeolak, Sybaris Prime, Enkaus, Sybaris, Stahlta, Soma Prime, Mk1-Braton, Quanta Vandal, Prisma Gorgon, Fulmin, Opticor, Kuva Hind, Opticor Vandal, Mutalist Quanta, Latron Wraith, Kuva Quartakk, Latron Prime, Gorgon Wraith, Dera, Kuva Chakkhurr, Harpak, Acceltra (1.2)
 
 `FalloffEnd`:
 
@@ -14355,7 +14302,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-172 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-172 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -14369,7 +14317,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 1272.17595 | 922.9428 | 650 | 615 | 556.38835 | 360 | 203.756 |
 | `CritChance` | 0.38 | 0.3 | 0.26 | 0.21 | 0.2 | 0.16 | 0.05 |
 | `CritMultiplier` | 3.25 | 3 | 2.6 | 2.4 | 2.3 | 2 | 1.825 |
-| `Disposition` | 1.4 | 1.35 | 1.3 | 1.25 | 1.2375 | 1.15 | 1.0125 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 7.1 | 5.75 | 5 | 4.475 | 4 | 3 | 2 |
 | `FalloffRate` | 48 | 30 | 20 | 16.1 | 13.633333333333 | 10.085714285714 | 8.545 |
 | `FireRate` | 10 | 5 | 3.67 | 3.33 | 2.75 | 1.33 | 1 |
@@ -14399,7 +14347,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `AmmoPickup`:
 
-* First place is Ambassador, Battacor, Latron, Braton Vandal, Burston, Burston Prime, Gorgon, Quanta, Tiberon Prime, Paracyst, Panthera Prime, Braton, Tenet Quanta, Braton Prime, Mk1-Braton, Quanta Vandal, Prisma Gorgon, Kuva Hind, Mutalist Quanta, Latron Wraith, Latron Prime, Gorgon Wraith (80)
+* First place is Ambassador, Battacor, Latron, Braton Vandal, Burston, Burston Prime, Gorgon, Quanta, Tiberon Prime, Paracyst, Panthera Prime, Tenet Quanta, Braton, Braton Prime, Mk1-Braton, Quanta Vandal, Prisma Gorgon, Kuva Hind, Mutalist Quanta, Latron Wraith, Latron Prime, Gorgon Wraith (80)
 * Second place is Trumna Prime, Trumna (60)
 * Third place is Tenet Tetra, Miter, Alternox, Alternox Prime, Aeolak, Stahlta, Opticor, Opticor Vandal (40)
 
@@ -14447,9 +14395,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Miter, Mutalist Quanta (1.5)
-* Second place is Burston (1.45)
-* Third place is Latron, Gorgon, Quanta, Quanta Vandal (1.4)
+* First place is Tenet Tetra, Ambassador, Trumna Prime, Battacor, Simulor, Basmu, Latron, Braton Vandal, Burston, Miter, Burston Prime, Alternox, Gorgon, Quanta, Tiberon Prime, Paracyst, Synoid Simulor, Panthera Prime, Alternox Prime, Trumna, Tenet Quanta, Braton, Braton Prime, Aeolak, Enkaus, Stahlta, Mk1-Braton, Quanta Vandal, Prisma Gorgon, Opticor, Kuva Hind, Opticor Vandal, Mutalist Quanta, Latron Wraith, Latron Prime, Gorgon Wraith (1.2)
 
 `FalloffEnd`:
 
@@ -14490,7 +14436,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `Multishot`:
 
 * First place is Basmu (2)
-* Second place is Tenet Tetra, Ambassador, Trumna Prime, Battacor, Simulor, Latron, Braton Vandal, Burston, Miter, Burston Prime, Alternox, Gorgon, Quanta, Tiberon Prime, Paracyst, Synoid Simulor, Panthera Prime, Alternox Prime, Trumna, Braton, Tenet Quanta, Braton Prime, Aeolak, Enkaus, Stahlta, Mk1-Braton, Quanta Vandal, Prisma Gorgon, Opticor, Kuva Hind, Opticor Vandal, Mutalist Quanta, Latron Wraith, Latron Prime, Gorgon Wraith (1)
+* Second place is Tenet Tetra, Ambassador, Trumna Prime, Battacor, Simulor, Latron, Braton Vandal, Burston, Miter, Burston Prime, Alternox, Gorgon, Quanta, Tiberon Prime, Paracyst, Synoid Simulor, Panthera Prime, Alternox Prime, Trumna, Tenet Quanta, Braton, Braton Prime, Aeolak, Enkaus, Stahlta, Mk1-Braton, Quanta Vandal, Prisma Gorgon, Opticor, Kuva Hind, Opticor Vandal, Mutalist Quanta, Latron Wraith, Latron Prime, Gorgon Wraith (1)
 
 `ReloadSpeed`:
 
@@ -14524,7 +14470,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-173 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-173 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -14538,7 +14485,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 2460 | 2401.597 | 2037.56 | 801.098 | 332.872 | 260 | 171.4 |
 | `CritChance` | 0.38 | 0.22 | 0.2 | 0.0875 | 0.05 | 0.05 | 0.02 |
 | `CritMultiplier` | 2.6 | 2.45 | 2.4 | 2.1 | 2 | 1.5 | 1.5 |
-| `Disposition` | 1.4 | 1.3 | 1.15 | 1.15 | 1.125 | 0.85 | 0.775 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 6 | 6 | 6 | 6 | 6 | 6 | 4.8 |
 | `FalloffRate` | 15 | 15 | 13 | 10.75 | 10 | 10 | 9.7666666666667 |
 | `FireRate` | 4 | 4 | 3.33 | 2.3325 | 1.665 | 1.33 | 1 |
@@ -14616,9 +14563,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Miter (1.5)
-* Second place is Quanta, Quanta Vandal (1.4)
-* Third place is Synoid Simulor (1.2)
+* First place is Trumna Prime, Miter, Alternox, Quanta, Synoid Simulor, Alternox Prime, Trumna, Tenet Quanta, Quanta Vandal, Opticor, Opticor Vandal (1.2)
 
 `FalloffEnd`:
 
@@ -14692,41 +14637,44 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### By Trigger Type
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-174 "Edit section's source code: By Trigger Type")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-174 "Edit Section using Source Editor:
+By Trigger Type")]
 
 ##### Auto
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-175 "Edit section's source code: Auto")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-175 "Edit Section using Source Editor:
+Auto")]
 
 ###### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-176 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-176 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `Accuracy` | 100 | 80 | 37.332 | 28.6 | 28.6 | 27.88 | 22.97 |
-| `AmmoMax` | 904 | 675 | 540 | 540 | 540 | 540 | 495.6 |
-| `AmmoPickup` | 80 | 80 | 80 | 80 | 80 | 80 | 76 |
-| `AvgCritCount` | 0.288 | 0.255 | 0.242 | 0.23 | 0.188 | 0.12 | 0.089 |
-| `AvgProcCount` | 0.322 | 0.26 | 0.226 | 0.21 | 0.2 | 0.16 | 0.14 |
-| `AvgShotDmg` | 65.664 | 48.8152 | 41.4128 | 40.11 | 34.889 | 31.213 | 24.896 |
-| `BaseDps` | 423.6 | 360.885 | 334.48 | 328.2675 | 307.97 | 266.72 | 218.219 |
-| `BurstDps` | 598.917 | 509.7875 | 434.59953 | 407.615105 | 394.8606 | 343.82748 | 235.25625 |
-| `CritChance` | 0.288 | 0.255 | 0.242 | 0.23 | 0.188 | 0.12 | 0.089 |
-| `CritMultiplier` | 2.88 | 2.5 | 2.28 | 2.065 | 2 | 2 | 1.6 |
-| `Disposition` | 1.42 | 1.35 | 1.3 | 1.2695 | 1.2 | 1.04 | 0.84 |
+| `Accuracy` | 100 | 80 | 40 | 29.19125 | 28.6 | 28.6 | 23.5 |
+| `AmmoMax` | 920 | 712.5 | 540 | 540 | 540 | 540 | 429 |
+| `AmmoPickup` | 80 | 80 | 80 | 80 | 80 | 80 | 70 |
+| `AvgCritCount` | 0.29 | 0.2575 | 0.25 | 0.23 | 0.17 | 0.12 | 0.0875 |
+| `AvgProcCount` | 0.325 | 0.26 | 0.23 | 0.21125 | 0.2 | 0.16 | 0.14 |
+| `AvgShotDmg` | 57.66 | 45.92655 | 40.832 | 39.375 | 34.6775 | 30.8725 | 24.8 |
+| `BaseDps` | 424.5 | 354.6075 | 333.25 | 325.66875 | 289.925 | 266.72 | 217.4225 |
+| `BurstDps` | 601.1775 | 506.72 | 416.0832 | 405.8376125 | 390.9645 | 329.079675 | 233.765625 |
+| `CritChance` | 0.29 | 0.2575 | 0.25 | 0.23 | 0.17 | 0.12 | 0.0875 |
+| `CritMultiplier` | 2.9 | 2.5 | 2.1 | 2.0125 | 2 | 2 | 1.6 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 57.4 | 53.5 | 49.6 | 47.65 | 45.7 | 41.8 | 37.9 |
 | `FalloffRate` | 56.4 | 51 | 45.6 | 42.9 | 40.2 | 34.8 | 29.4 |
-| `FireRate` | 16.67 | 12.5 | 11.502 | 10.8125 | 10 | 8.75 | 7.458 |
-| `LifetimeDmg` | 38032.08 | 27482.672 | 23856 | 21957.9 | 20643.84 | 17059.08 | 11088.198 |
-| `MagDmg` | 4380.936 | 3159.464 | 2591.808 | 2372.59 | 2093.34 | 1595.52 | 1108.16 |
-| `Magazine` | 120 | 72.5 | 60 | 60 | 60 | 49.6 | 44.5 |
+| `FireRate` | 16.67 | 12.75 | 11.67 | 11.25 | 10 | 9.04 | 7.5 |
+| `LifetimeDmg` | 31357.15 | 26743.5 | 23100 | 21198.75 | 20505.6 | 16736.925 | 11014.245 |
+| `MagDmg` | 4366.92 | 3053.4 | 2508 | 2218.975 | 2080.65 | 1558.8 | 1085.6 |
+| `Magazine` | 120 | 73.75 | 60 | 60 | 60 | 49 | 43.75 |
 | `Multishot` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| `ReloadSpeed` | 0.74857142857143 | 0.56349206349206 | 0.5 | 0.5 | 0.5 | 0.5 | 0.41666666666667 |
-| `ShotsPerMag` | 120 | 72.5 | 60 | 60 | 60 | 49.6 | 44.5 |
-| `StatusChance` | 0.282 | 0.245 | 0.21 | 0.2 | 0.187 | 0.16 | 0.136 |
-| `SustainedDps` | 464.76146938776 | 367.40909090909 | 324.48690403742 | 309.99526959419 | 293.226245534 | 240.83787369028 | 170.37782429003 |
-| `TotalDamage` | 44.8 | 36.5 | 32.6 | 31.65 | 30 | 24.8 | 17.8 |
+| `ReloadSpeed` | 0.75714285714286 | 0.56746031746032 | 0.5 | 0.5 | 0.5 | 0.5 | 0.41666666666667 |
+| `ShotsPerMag` | 120 | 73.75 | 60 | 60 | 60 | 49 | 43.75 |
+| `StatusChance` | 0.285 | 0.2475 | 0.21 | 0.2 | 0.1825 | 0.16 | 0.13 |
+| `SustainedDps` | 470.63183673469 | 366.93333333333 | 318.68710826302 | 297.58026239035 | 291.59682333825 | 240.31250600788 | 168.99592024169 |
+| `TotalDamage` | 42 | 35 | 32 | 31.125 | 30 | 24.5 | 17.5 |
 
 **Top 3**
 
@@ -14744,7 +14692,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `AmmoPickup`:
 
-* First place is Boltor, Karak, Boltor Prime, Braton Vandal, Buzlok, Dera Vandal, Karak Wraith, Baza, Prisma Grakata, Tenet Flux Rifle, Gotva Prime, Tetra, Braton, Braton Prime, Telos Boltor, Kuva Karak, Grakata, Mk1-Braton, Reconifex, Baza Prime, Prisma Tetra, Dera, AX-52 (80)
+* First place is Boltor, Karak, Boltor Prime, Braton Vandal, Dera Vandal, Karak Wraith, Baza, Prisma Grakata, Tenet Flux Rifle, Gotva Prime, Tetra, Braton, Braton Prime, Telos Boltor, Kuva Karak, Grakata, Mk1-Braton, Reconifex, Baza Prime, Prisma Tetra, Dera, AX-52 (80)
 * Second place is Acceltra Prime, Acceltra (40)
 
 `AvgCritCount`:
@@ -14762,8 +14710,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `AvgShotDmg`:
 
 * First place is Shedu (90.525)
-* Second place is Buzlok (80.7)
-* Third place is Acceltra Prime (73.92)
+* Second place is Acceltra Prime (73.92)
+* Third place is Reconifex (60.16)
 
 `BaseDps`:
 
@@ -14787,13 +14735,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Acceltra Prime, Baza, Baza Prime (3)
 * Second place is Reconifex, Acceltra (2.8)
-* Third place is Buzlok, Haalvu, Prisma Grakata, Gotva Prime (2.5)
+* Third place is Haalvu, Prisma Grakata, Gotva Prime (2.5)
 
 `Disposition`:
 
-* First place is Tetra (1.5)
-* Second place is Buzlok, Prisma Tetra (1.45)
-* Third place is Dera (1.4)
+* First place is Boltor, Shedu, Karak, Boltor Prime, Braton Vandal, Haalvu, Dera Vandal, Acceltra Prime, Karak Wraith, Baza, Prisma Grakata, Tenet Flux Rifle, Gotva Prime, Tetra, Braton, Braton Prime, Telos Boltor, Kuva Karak, Grakata, Mk1-Braton, Reconifex, Baza Prime, Prisma Tetra, Dera, Acceltra, AX-52 (1.2)
 
 `FalloffEnd`:
 
@@ -14815,7 +14761,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Reconifex (72192)
 * Second place is Tenet Flux Rifle (53898.24)
-* Third place is Buzlok (47613)
+* Third place is AX-52 (31644.8)
 
 `MagDmg`:
 
@@ -14831,7 +14777,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Boltor, Shedu, Karak, Boltor Prime, Braton Vandal, Buzlok, Haalvu, Dera Vandal, Acceltra Prime, Karak Wraith, Baza, Prisma Grakata, Tenet Flux Rifle, Gotva Prime, Tetra, Braton, Braton Prime, Telos Boltor, Kuva Karak, Grakata, Mk1-Braton, Reconifex, Baza Prime, Prisma Tetra, Dera, Acceltra, AX-52 (1)
+* First place is Boltor, Shedu, Karak, Boltor Prime, Braton Vandal, Haalvu, Dera Vandal, Acceltra Prime, Karak Wraith, Baza, Prisma Grakata, Tenet Flux Rifle, Gotva Prime, Tetra, Braton, Braton Prime, Telos Boltor, Kuva Karak, Grakata, Mk1-Braton, Reconifex, Baza Prime, Prisma Tetra, Dera, Acceltra, AX-52 (1)
 
 `ReloadSpeed`:
 
@@ -14860,38 +14806,39 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `TotalDamage`:
 
 * First place is Shedu (71)
-* Second place is Buzlok (60)
-* Third place is Boltor Prime (46)
+* Second place is Boltor Prime (46)
+* Third place is Acceltra Prime (44)
 
 ###### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-177 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-177 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `Accuracy` | 200 | 175 | 100 | 87.505 | 27.835 | 22.82 | 10 |
-| `AmmoMax` | 547 | 540 | 540 | 540 | 540 | 495.6 | 91.2 |
-| `AmmoPickup` | 80 | 80 | 80 | 80 | 80 | 76 | 38 |
-| `AvgCritCount` | 0.702 | 0.37 | 0.316 | 0.3 | 0.3 | 0.247 | 0.2 |
-| `AvgProcCount` | 0.31407 | 0.287475 | 0.252 | 0.22 | 0.214 | 0.174 | 0.098 |
-| `AvgShotDmg` | 368.442 | 111.73125 | 107.328 | 103.494 | 87.684 | 77.9264 | 61.6376 |
-| `BaseDps` | 716 | 597.35 | 504 | 406.0575 | 382.8975 | 250 | 212.625 |
-| `BurstDps` | 1162.00448 | 935.4 | 792.7104 | 621.438615 | 544.71213 | 392 | 271.822875 |
-| `CritChance` | 0.354 | 0.315 | 0.3 | 0.29125 | 0.2485 | 0.22 | 0.2 |
-| `CritMultiplier` | 3.14 | 3 | 3 | 3 | 2.97 | 2.76 | 2.085 |
-| `Disposition` | 1.385 | 1.35 | 1.3 | 1.29125 | 1.2425 | 1.155 | 0.645 |
+| `Accuracy` | 200 | 200 | 100 | 100 | 57.16 | 23.5 | 10 |
+| `AmmoMax` | 548 | 540 | 540 | 540 | 540 | 362.4 | 76.8 |
+| `AmmoPickup` | 80 | 80 | 80 | 80 | 80 | 64 | 32 |
+| `AvgCritCount` | 0.708 | 0.38 | 0.324 | 0.306 | 0.3 | 0.28 | 0.216 |
+| `AvgProcCount` | 0.31608 | 0.29 | 0.26398 | 0.232 | 0.22 | 0.18 | 0.116 |
+| `AvgShotDmg` | 404.028 | 112 | 108.201 | 106.848 | 96.048 | 79.552 | 68.2752 |
+| `BaseDps` | 724 | 619.8 | 528.4 | 444 | 401.34 | 282.13 | 243.5 |
+| `BurstDps` | 1169.33632 | 950.4 | 843.7824 | 694.1664 | 588.40668 | 443.968 | 311.4625 |
+| `CritChance` | 0.356 | 0.32 | 0.3 | 0.3 | 0.27 | 0.232 | 0.216 |
+| `CritMultiplier` | 3.16 | 3 | 3 | 3 | 3 | 2.8 | 2.34 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 6.28 | 5.8 | 5.32 | 5.08 | 4.9 | 4.6 | 4.3 |
 | `FalloffRate` | 10.8 | 10.5 | 10.2 | 10.05 | 9.8 | 9.2 | 8.6 |
-| `FireRate` | 11.799 | 10.2475 | 9.134 | 5.55275 | 5 | 4.453 | 2 |
-| `LifetimeDmg` | 217274.4 | 70637.4 | 60508.8 | 45330 | 34563.264 | 10044.6336 | 7582.1 |
-| `MagDmg` | 17871.84 | 8272 | 6308.28 | 5670.711 | 4208.832 | 3572.8512 | 993.68775 |
-| `Magazine` | 85.5 | 60 | 60 | 58.25 | 50 | 48 | 45 |
+| `FireRate` | 11.866 | 10.33 | 10 | 6.969 | 5.268 | 4.868 | 2.4 |
+| `LifetimeDmg` | 237513.6 | 71604 | 64696.32 | 51940.8 | 41760 | 11713.536 | 9566.0288 |
+| `MagDmg` | 19042.56 | 8400 | 6692.48 | 6094.98 | 4951.152 | 3744 | 2863.8336 |
+| `Magazine` | 87 | 60 | 60 | 60 | 54 | 48 | 45 |
 | `Multishot` | 3 | 1 | 1 | 1 | 1 | 1 | 1 |
-| `ReloadSpeed` | 0.7475 | 0.56746031746032 | 0.54444444444444 | 0.5 | 0.5 | 0.46027131782946 | 0.4150641025641 |
-| `ShotsPerMag` | 85.5 | 60 | 60 | 58.25 | 50 | 48 | 45 |
-| `StatusChance` | 0.281 | 0.22 | 0.196 | 0.18 | 0.171 | 0.10603 | 0.091635 |
-| `SustainedDps` | 877.24122935396 | 790.05322047894 | 596.36578461538 | 553.26453009445 | 536.16760157722 | 321.97402597403 | 151.91327538568 |
-| `TotalDamage` | 257.1 | 71.5 | 64 | 58.775 | 52.55 | 49.4 | 32.9 |
+| `ReloadSpeed` | 0.765 | 0.57142857142857 | 0.55555555555556 | 0.51666666666667 | 0.5 | 0.48604651162791 | 0.41666666666667 |
+| `ShotsPerMag` | 87 | 60 | 60 | 60 | 54 | 48 | 45 |
+| `StatusChance` | 0.284 | 0.22 | 0.204 | 0.186 | 0.18 | 0.11468 | 0.09866 |
+| `SustainedDps` | 878.16081956931 | 830.80429397192 | 618.97538461538 | 570.35716923077 | 549.65210318097 | 418.32211252583 | 250.18005657709 |
+| `TotalDamage` | 281.4 | 72 | 66 | 61.5 | 55.8 | 50 | 42 |
 
 **Top 3**
 
@@ -14905,11 +14852,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Braton Prime (600)
 * Second place is Braton Vandal (550)
-* Third place is Boltor, Boltor Prime, Buzlok, Dera Vandal, Braton, Telos Boltor, Mk1-Braton, Dera (540)
+* Third place is Boltor, Boltor Prime, Dera Vandal, Braton, Telos Boltor, Mk1-Braton, Dera (540)
 
 `AmmoPickup`:
 
-* First place is Boltor, Boltor Prime, Braton Vandal, Buzlok, Dera Vandal, Braton, Braton Prime, Telos Boltor, Mk1-Braton, Dera (80)
+* First place is Boltor, Boltor Prime, Braton Vandal, Dera Vandal, Braton, Braton Prime, Telos Boltor, Mk1-Braton, Dera (80)
 * Second place is Acceltra Prime, Acceltra (40)
 
 `AvgCritCount`:
@@ -14956,9 +14903,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Buzlok (1.45)
-* Second place is Dera (1.4)
-* Third place is Dera Vandal, Braton, Mk1-Braton (1.35)
+* First place is Boltor, Shedu, Boltor Prime, Braton Vandal, Haalvu, Dera Vandal, Acceltra Prime, Braton, Braton Prime, Telos Boltor, Mk1-Braton, Dera, Acceltra (1.2)
 
 `FalloffEnd`:
 
@@ -14999,7 +14944,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `Multishot`:
 
 * First place is Boltor, Boltor Prime, Telos Boltor (3)
-* Second place is Shedu, Braton Vandal, Buzlok, Haalvu, Dera Vandal, Acceltra Prime, Braton, Braton Prime, Mk1-Braton, Dera, Acceltra (1)
+* Second place is Shedu, Braton Vandal, Haalvu, Dera Vandal, Acceltra Prime, Braton, Braton Prime, Mk1-Braton, Dera, Acceltra (1)
 
 `ReloadSpeed`:
 
@@ -15033,7 +14978,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-178 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-178 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -15047,7 +14993,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 611.72334 | 576.74835 | 525.85424 | 490.457735 | 455.06123 | 392 | 356 |
 | `CritChance` | 0.356 | 0.32 | 0.3 | 0.3 | 0.3 | 0.29 | 0.245 |
 | `CritMultiplier` | 3.14 | 3.05 | 3 | 3 | 3 | 2.94 | 2.67 |
-| `Disposition` | 1.35 | 1.35 | 1.34 | 1.32875 | 1.3175 | 1.295 | 1.2725 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
 | `FalloffRate` | 30 | 30 | 30 | 30 | 30 | 30 | 30 |
 | `FireRate` | 5.469 | 5.1675 | 5 | 5 | 5 | 4.967 | 4.8185 |
@@ -15123,9 +15069,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Braton, Mk1-Braton (1.35)
-* Second place is Braton Vandal (1.3)
-* Third place is Braton Prime (1.25)
+* First place is Braton Vandal, Braton, Braton Prime, Mk1-Braton (1.2)
 
 `FalloffEnd`:
 
@@ -15195,11 +15139,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ##### Auto-Spool
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-179 "Edit section's source code: Auto-Spool")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-179 "Edit Section using Source Editor:
+Auto-Spool")]
 
 ###### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-180 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-180 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -15213,7 +15159,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 560.8 | 500.50745 | 435.20808 | 415.1754075 | 387.667245 | 328.85 | 288 |
 | `CritChance` | 0.3 | 0.3 | 0.248 | 0.1895 | 0.167 | 0.158 | 0.147 |
 | `CritMultiplier` | 3 | 2.65 | 2.18 | 2.045 | 1.97 | 1.88 | 1.77 |
-| `Disposition` | 1.37 | 1.325 | 1.24 | 1.1725 | 1.135 | 1.1 | 1.09 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 15 | 14.585 | 13.834 | 13.456 | 13.081 | 12.5 | 12.5 |
 | `LifetimeDmg` | 68407.04 | 42964.8 | 30550.14 | 30391.4475 | 26996.985 | 18777.75 | 16608.675 |
 | `MagDmg` | 10302.72 | 5865.6 | 3838.56 | 3836.94 | 3512.895 | 2694.69 | 2389.125 |
@@ -15287,9 +15233,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Gorgon (1.4)
-* Second place is Gorgon Wraith (1.35)
-* Third place is Prisma Gorgon (1.3)
+* First place is Gorgon, Soma, Supra Vandal, Soma Prime, Prisma Gorgon, Supra, Gorgon Wraith (1.2)
 
 `FireRate`:
 
@@ -15350,7 +15294,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-181 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-181 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -15364,7 +15309,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 964.992 | 537.6 | 305.715 | 189.7725 | 144.549255 | 124.82202 | 110.565245 |
 | `CritChance` | 0.246 | 0.21 | 0.198 | 0.192 | 0.172 | 0.118 | 0.1 |
 | `CritMultiplier` | 3.24 | 3 | 2.58 | 2.37 | 2.26 | 2.14 | 2.02 |
-| `Disposition` | 1.38 | 1.35 | 1.32 | 1.305 | 1.27 | 1.18 | 1.13 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 7 | 7 | 3.5002 | 1.7503 | 1.1336 | 1.0334 | 0.9332 |
 | `LifetimeDmg` | 166981.5 | 149613.75 | 118208.7 | 102506.175 | 92799 | 79380 | 64605 |
 | `MagDmg` | 26867.7 | 13601.25 | 12735.9 | 12303.225 | 11867.4 | 10992.6 | 9492.6 |
@@ -15438,9 +15383,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Gorgon (1.4)
-* Second place is Gorgon Wraith (1.35)
-* Third place is Prisma Gorgon (1.3)
+* First place is Gorgon, Soma, Soma Prime, Prisma Gorgon, Gorgon Wraith (1.2)
 
 `FireRate`:
 
@@ -15502,7 +15445,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-182 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-182 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -15516,7 +15460,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 1064.25552 | 1005.19095 | 946.12638 | 916.594095 | 890.357775 | 841.1811 | 792.004425 |
 | `CritChance` | 0.258 | 0.24 | 0.222 | 0.213 | 0.208 | 0.202 | 0.196 |
 | `CritMultiplier` | 2.26 | 2.2 | 2.14 | 2.11 | 2.08 | 2.02 | 1.96 |
-| `Disposition` | 1.39 | 1.375 | 1.36 | 1.3525 | 1.345 | 1.33 | 1.315 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1.1336 | 1.0835 | 1.0334 | 1.00835 | 0.9833 | 0.9332 | 0.8831 |
 | `LifetimeDmg` | 905834.1 | 902777.25 | 899720.4 | 898191.975 | 864094.5 | 763330.5 | 662566.5 |
 | `MagDmg` | 107108.7 | 97545.75 | 87982.8 | 83201.325 | 81472.5 | 81067.5 | 80662.5 |
@@ -15590,9 +15534,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Gorgon (1.4)
-* Second place is Gorgon Wraith (1.35)
-* Third place is Prisma Gorgon (1.3)
+* First place is Gorgon, Prisma Gorgon, Gorgon Wraith (1.2)
 
 `FireRate`:
 
@@ -15650,11 +15592,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ##### Burst
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-183 "Edit section's source code: Burst")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-183 "Edit Section using Source Editor:
+Burst")]
 
 ###### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-184 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-184 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -15668,7 +15612,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 425.077376 | 380.952 | 336.33 | 333.8325 | 320.7516 | 277.4616 | 168.01646464646 |
 | `CritChance` | 0.31 | 0.26 | 0.24 | 0.21 | 0.196 | 0.142 | 0.102 |
 | `CritMultiplier` | 2.32 | 2.3 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.302 | 1.3 | 1.29 | 1.26 | 1.23 | 1.14 | 1.1 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 7.002 | 6 | 5.264 | 5.066 | 4.332 | 3.33 | 3.33 |
 | `LifetimeDmg` | 147669.7376 | 112185 | 108525.472 | 104101.888 | 88734.5344 | 66362.1184 | 31182.9696 |
 | `MagDmg` | 20953.2288 | 9390.6 | 6419.9552 | 6077.8208 | 5738.8416 | 4906.176 | 3183.2 |
@@ -15691,11 +15635,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `AmmoMax`:
 
 * First place is Quartakk (840)
-* Second place is Dex Sybaris, Paracyst, Tiberon, Sybaris, Thornbak, Sybaris Prime (540)
+* Second place is Dex Sybaris, Paracyst, Tiberon, Thornbak, Sybaris Prime, Sybaris (540)
 
 `AmmoPickup`:
 
-* First place is Quartakk, Dex Sybaris, Paracyst, Tiberon, Sybaris, Thornbak, Sybaris Prime (80)
+* First place is Quartakk, Dex Sybaris, Paracyst, Tiberon, Thornbak, Sybaris Prime, Sybaris (80)
 
 `AvgCritCount`:
 
@@ -15737,13 +15681,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Tiberon (2.4)
 * Second place is Quartakk, Coda Hema (2.3)
-* Third place is Hema, Dex Sybaris, Paracyst, Sybaris, Sybaris Prime (2)
+* Third place is Hema, Dex Sybaris, Paracyst, Sybaris Prime, Sybaris (2)
 
 `Disposition`:
 
-* First place is Paracyst (1.31)
-* Second place is Hema, Dex Sybaris, Sybaris (1.3)
-* Third place is Quartakk (1.25)
+* First place is Quartakk, Hema, Dex Sybaris, Paracyst, Tiberon, Coda Hema, Thornbak, Sybaris Prime, Sybaris (1.2)
 
 `FireRate`:
 
@@ -15771,7 +15713,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Quartakk, Hema, Dex Sybaris, Paracyst, Tiberon, Sybaris, Coda Hema, Thornbak, Sybaris Prime (1)
+* First place is Quartakk, Hema, Dex Sybaris, Paracyst, Tiberon, Coda Hema, Thornbak, Sybaris Prime, Sybaris (1)
 
 `ReloadSpeed`:
 
@@ -15805,7 +15747,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-185 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-185 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -15819,7 +15762,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 538.0614 | 520.9785 | 492.35871683168 | 470.83827326733 | 449.31782970297 | 380.25742574257 | 220.12871287129 |
 | `CritChance` | 0.285 | 0.2625 | 0.24 | 0.22875 | 0.2175 | 0.18 | 0.09 |
 | `CritMultiplier` | 3 | 3 | 3 | 3 | 3 | 2.8 | 1.9 |
-| `Disposition` | 1.307 | 1.3025 | 1.3 | 1.3 | 1.3 | 1.29 | 1.245 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 4.499 | 3.7475 | 3.33 | 3.33 | 3.33 | 3.33 | 3.33 |
 | `LifetimeDmg` | 360833.28 | 347683.2 | 327742.08 | 313527.12 | 299312.16 | 250380 | 129690 |
 | `MagDmg` | 11820.48 | 9751.2 | 7889.28 | 7087.92 | 6286.56 | 4626 | 2763 |
@@ -15841,11 +15784,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `AmmoMax`:
 
-* First place is Dex Sybaris, Paracyst, Sybaris, Sybaris Prime (540)
+* First place is Dex Sybaris, Paracyst, Sybaris Prime, Sybaris (540)
 
 `AmmoPickup`:
 
-* First place is Dex Sybaris, Paracyst, Sybaris, Sybaris Prime (80)
+* First place is Dex Sybaris, Paracyst, Sybaris Prime, Sybaris (80)
 
 `AvgCritCount`:
 
@@ -15885,19 +15828,17 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `CritMultiplier`:
 
-* First place is Dex Sybaris, Sybaris, Sybaris Prime (3)
+* First place is Dex Sybaris, Sybaris Prime, Sybaris (3)
 * Second place is Paracyst (1)
 
 `Disposition`:
 
-* First place is Paracyst (1.31)
-* Second place is Dex Sybaris, Sybaris (1.3)
-* Third place is Sybaris Prime (1.2)
+* First place is Dex Sybaris, Paracyst, Sybaris Prime, Sybaris (1.2)
 
 `FireRate`:
 
 * First place is Paracyst (5)
-* Second place is Dex Sybaris, Sybaris, Sybaris Prime (3.33)
+* Second place is Dex Sybaris, Sybaris Prime, Sybaris (3.33)
 
 `LifetimeDmg`:
 
@@ -15919,12 +15860,12 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Dex Sybaris, Paracyst, Sybaris, Sybaris Prime (1)
+* First place is Dex Sybaris, Paracyst, Sybaris Prime, Sybaris (1)
 
 `ReloadSpeed`:
 
 * First place is Dex Sybaris (0.66666666666667)
-* Second place is Paracyst, Sybaris, Sybaris Prime (0.5)
+* Second place is Paracyst, Sybaris Prime, Sybaris (0.5)
 
 `ShotsPerMag`:
 
@@ -15951,7 +15892,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-186 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-186 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -15964,7 +15906,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 15 | 15 | 15 | 15 | 15 | 15 | 15 |
 | `CritChance` | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | `CritMultiplier` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| `Disposition` | 1.31 | 1.31 | 1.31 | 1.31 | 1.31 | 1.31 | 1.31 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | `LifetimeDmg` | 9000 | 9000 | 9000 | 9000 | 9000 | 9000 | 9000 |
 | `MagDmg` | 900 | 900 | 900 | 900 | 900 | 900 | 900 |
@@ -16012,7 +15954,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Paracyst (1.31)
+* First place is Paracyst (1.2)
 
 `FireRate`:
 
@@ -16056,11 +15998,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ##### Held
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-187 "Edit section's source code: Held")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-187 "Edit Section using Source Editor:
+Held")]
 
 ###### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-188 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-188 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -16074,7 +16018,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 815.3088 | 399.12 | 390.4512 | 371.6448 | 359.7856 | 342.736 | 301.824 |
 | `CritChance` | 0.392 | 0.32 | 0.194 | 0.176 | 0.158 | 0.122 | 0.102 |
 | `CritMultiplier` | 2.7 | 2.5 | 2.2 | 2.2 | 2.12 | 2 | 2 |
-| `Disposition` | 1.358 | 1.3 | 1.18 | 0.97 | 0.88 | 0.76 | 0.66 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 12 | 12 | 12 | 12 | 12 | 12 | 8.8 |
 | `LifetimeDmg` | 93165.7728 | 59508 | 47959.04 | 45685.76 | 43187.68 | 37314.88 | 24610.4 |
 | `MagDmg` | 13227.664 | 10989 | 9820.7808 | 7414.1952 | 6403.04 | 5229.68 | 4525.52 |
@@ -16149,9 +16093,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Flux Rifle (1.55)
-* Second place is Synapse (1.31)
-* Third place is Glaxion (1.3)
+* First place is Ignis, Amprex, Flux Rifle, Coda Synapse, Synapse, Tenet Glaxion, Ignis Wraith, Glaxion, Glaxion Vandal (1.2)
 
 `FireRate`:
 
@@ -16212,11 +16154,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ##### Semi-Auto
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-189 "Edit section's source code: Semi-Auto")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-189 "Edit Section using Source Editor:
+Semi-Auto")]
 
 ###### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-190 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-190 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -16230,7 +16174,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 900.5616 | 593.7111 | 468.84776 | 449.16945575 | 439.6216535 | 419.438651 | 384.3024475 |
 | `CritChance` | 0.43 | 0.295 | 0.228 | 0.22 | 0.22 | 0.211 | 0.153 |
 | `CritMultiplier` | 2.99 | 2.825 | 2.8 | 2.7025 | 2.545 | 2.32 | 2.205 |
-| `Disposition` | 1.365 | 1.3125 | 1.3 | 1.3 | 1.3 | 1.255 | 0.965 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 4.419 | 4.17 | 3.77 | 3.02 | 1.97 | 1.67 | 1.5085 |
 | `LifetimeDmg` | 132062.9904 | 83738.19375 | 66886.84 | 65816.784 | 65236.512 | 51969.564 | 45562.974 |
 | `MagDmg` | 6476.32 | 5624.40475 | 3464.9826 | 2666.532375 | 2196.08775 | 1902.3075 | 1391.208 |
@@ -16306,9 +16250,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Latron (1.4)
-* Second place is Latron Wraith (1.35)
-* Third place is Grinlok, Veldt, Latron Prime (1.3)
+* First place is Latron, Grinlok, Vinquibus (Primary), Veldt, Latron Wraith, Prisma Grinlok, Latron Prime, Kuva Chakkhurr (1.2)
 
 `FireRate`:
 
@@ -16370,7 +16312,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-191 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-191 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -16384,7 +16327,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 379.1216 | 355.466 | 339.34176 | 335.98674 | 332.63172 | 321.97752 | 297.51876 |
 | `CritChance` | 0.494 | 0.485 | 0.472 | 0.463 | 0.454 | 0.428 | 0.374 |
 | `CritMultiplier` | 3.4 | 3.4 | 3.32 | 3.23 | 3.14 | 2.93 | 2.615 |
-| `Disposition` | 1.385 | 1.3625 | 1.34 | 1.32875 | 1.3175 | 1.265 | 1.1075 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 3.568 | 3.415 | 3.33 | 3.33 | 3.33 | 3.114 | 2.142 |
 | `LifetimeDmg` | 58918.8 | 57720 | 54745.2 | 52147.8 | 49550.4 | 42805.944 | 30637.692 |
 | `MagDmg` | 2638.968 | 1980.06 | 1599.6 | 1583.4 | 1567.2 | 1510.8 | 1370.4 |
@@ -16457,9 +16400,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Latron (1.4)
-* Second place is Latron Wraith (1.35)
-* Third place is Latron Prime (1.3)
+* First place is Latron, Latron Wraith, Latron Prime, Kuva Chakkhurr (1.2)
 
 `FireRate`:
 
@@ -16517,7 +16458,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-192 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-192 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -16531,7 +16473,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 924.76256 | 874.1456 | 823.52864 | 798.22016 | 754.4952 | 648.6288 | 542.7624 |
 | `CritChance` | 0.472 | 0.46 | 0.448 | 0.442 | 0.428 | 0.392 | 0.356 |
 | `CritMultiplier` | 3.4 | 3.4 | 3.4 | 3.4 | 3.36 | 3.24 | 3.12 |
-| `Disposition` | 1.39 | 1.375 | 1.36 | 1.3525 | 1.345 | 1.33 | 1.315 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 3.602 | 3.5 | 3.398 | 3.347 | 3.33 | 3.33 | 3.33 |
 | `LifetimeDmg` | 151688.16 | 139593.6 | 127499.04 | 121451.76 | 114774 | 100788 | 86802 |
 | `MagDmg` | 4099.68 | 3772.8 | 3445.92 | 3282.48 | 3102 | 2724 | 2346 |
@@ -16600,9 +16542,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Latron (1.4)
-* Second place is Latron Wraith (1.35)
-* Third place is Latron Prime (1.3)
+* First place is Latron, Latron Wraith, Latron Prime (1.2)
 
 `FireRate`:
 
@@ -16657,43 +16597,45 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Shotgun
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-193 "Edit section's source code: Shotgun")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-193 "Edit Section using Source Editor:
+Shotgun")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-194 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-194 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `Accuracy` | 70 | 25 | 9.1 | 9.1 | 9.1 | 8 | 5 |
-| `AmmoMax` | 478 | 200 | 120 | 120 | 120 | 120 | 54 |
+| `Accuracy` | 100 | 25 | 9.1 | 9.1 | 9.1 | 8.109 | 5 |
+| `AmmoMax` | 441 | 183.75 | 120 | 120 | 120 | 120 | 48.65 |
 | `AmmoPickup` | 40 | 15 | 15 | 15 | 15 | 15 | 15 |
-| `AvgCritCount` | 1.8 | 1.61 | 0.9 | 0.8 | 0.71 | 0.448 | 0.198 |
-| `AvgProcCount` | 1.332 | 1.05 | 0.9 | 0.84 | 0.80232 | 0.64624 | 0.456 |
-| `AvgShotDmg` | 1406.108 | 834.624 | 641.90168 | 482.2512 | 394.8 | 285.4912 | 94.374 |
-| `BaseDps` | 2123.136 | 1321.53 | 1010.7 | 962.25 | 889.072 | 746.784 | 425.2 |
-| `BurstDps` | 2719.8 | 1839.292416 | 1377.8352 | 1213.092 | 1133.1984 | 882.3296 | 505.8148 |
-| `CritChance` | 0.25 | 0.22 | 0.19 | 0.18 | 0.162 | 0.11 | 0.088 |
-| `CritMultiplier` | 2.4 | 2.3 | 2.1 | 2 | 2 | 2 | 1.72 |
-| `Disposition` | 1.42 | 1.3 | 1.18 | 1.145 | 1.1 | 0.95 | 0.69 |
-| `FalloffEnd` | 60 | 41 | 36 | 30 | 27 | 25 | 20 |
-| `FalloffRate` | 44 | 32.916666666667 | 26.998650067497 | 25.528822808723 | 20.763250806218 | 20 | 14.259519899914 |
-| `FireRate` | 7.998 | 4.17 | 3.33 | 3 | 2.5 | 2.064 | 1.17 |
-| `LifetimeDmg` | 156936.28608 | 108501.12 | 71738.016 | 67034.158 | 58665.1776 | 44531.168 | 24977.4 |
-| `MagDmg` | 15174.464 | 8346.24 | 6264 | 4892.99808 | 4560.896 | 3333.6 | 2229.612 |
-| `Magazine` | 52 | 24 | 18.4 | 11 | 10.2 | 6.8 | 4 |
-| `Multishot` | 10 | 8 | 7 | 6 | 6 | 4.8 | 1 |
-| `ReloadSpeed` | 0.64166666666667 | 0.5 | 0.5 | 0.47402597402597 | 0.43671497584541 | 0.36902356902357 | 0.26810810810811 |
-| `ShotsPerMag` | 80 | 24 | 20 | 15.6 | 10.2 | 6.8 | 4 |
-| `StatusChance` | 0.382 | 0.222 | 0.1592 | 0.1317 | 0.114 | 0.09232 | 0.0612 |
-| `SustainedDps` | 1257.2856870755 | 1067.7966101695 | 905.60695443902 | 821.17994747899 | 726.71279775173 | 595.07306448419 | 333.52504234314 |
-| `TotalDamage` | 1044 | 609 | 475 | 381.5 | 320 | 215.2 | 90 |
+| `AvgCritCount` | 1.8 | 1.54 | 0.9 | 0.8 | 0.686 | 0.336 | 0.1855 |
+| `AvgProcCount` | 1.332 | 1.0275 | 0.9 | 0.84 | 0.78276 | 0.63203 | 0.382 |
+| `AvgShotDmg` | 1393.206 | 833.868 | 627.55336 | 525.1175 | 408.975 | 300.4626 | 95.508 |
+| `BaseDps` | 2117.352 | 1329.3825 | 1026 | 978.4375 | 920.734 | 751 | 427.15 |
+| `BurstDps` | 2717.1 | 1817.229312 | 1410.17065 | 1231.799375 | 1160.0148 | 891.3138 | 508.07035 |
+| `CritChance` | 0.25 | 0.2175 | 0.19 | 0.18 | 0.1665 | 0.11 | 0.091 |
+| `CritMultiplier` | 2.4 | 2.275 | 2.12 | 2 | 2 | 2 | 1.765 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
+| `FalloffEnd` | 59.2 | 41 | 33.6 | 30 | 25.95 | 25 | 20 |
+| `FalloffRate` | 43.6 | 32.708333333333 | 26.957439756025 | 25.956296679425 | 20.977270127874 | 20 | 14.314997263273 |
+| `FireRate` | 7.331 | 4.085 | 3.33 | 3 | 2.5 | 2.089 | 1.17 |
+| `LifetimeDmg` | 155550.83376 | 106628.34 | 71652.672 | 65027.4635 | 57237.8568 | 42053.616 | 25201.05 |
+| `MagDmg` | 15089.648 | 8344.664 | 6834.432 | 5045.3184 | 4731.392 | 3458.4 | 2249.709 |
+| `Magazine` | 49 | 23 | 16.8 | 11.425 | 10.65 | 7.1 | 4 |
+| `Multishot` | 10 | 7.75 | 7 | 6 | 6 | 4.1 | 1 |
+| `ReloadSpeed` | 0.6375 | 0.5 | 0.5 | 0.46374458874459 | 0.43478260869565 | 0.37037037037037 | 0.26864864864865 |
+| `ShotsPerMag` | 70 | 23.5 | 20 | 13.7 | 10.65 | 7.1 | 4 |
+| `StatusChance` | 0.379 | 0.2655 | 0.1632 | 0.135975 | 0.117375 | 0.0937529 | 0.06165 |
+| `SustainedDps` | 1249.3928367352 | 1079.6491525424 | 924.7776788222 | 840.4275 | 727.93808802022 | 604.1927820895 | 344.7249820023 |
+| `TotalDamage` | 1043 | 606.75 | 489 | 391.375 | 320 | 224.6 | 90 |
 
 **Top 3**
 
 `Accuracy`:
 
-* First place is Phantasma, Coda Bassocyst, Steflos, Phantasma Prime (100)
+* First place is Phantasma, Coda Bassocyst, Steflos Prime, Steflos, Phantasma Prime (100)
 * Second place is Phage, Convectrix (50)
 * Third place is Astilla Prime, Astilla, Bubonico, Coda Bubonico (25)
 
@@ -16707,7 +16649,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Phage, Convectrix (80)
 * Second place is Kohm, Astilla Prime, Boar Prime, Kuva Kohm, Astilla, Boar (40)
-* Third place is Phantasma, Hek, Corinth Prime, Cedo, Coda Bassocyst, Arca Plasmor, Corinth, Cedo Prime, Strun Prime, Vaykor Hek, Tigris, Exergis, Kuva Sobek, Drakgoon, Strun Wraith, Strun, Steflos, Sobek, Rauta, Felarx, Sancti Tigris, Kuva Drakgoon, Phantasma Prime, Kuva Hek, Mk1-Strun, Tigris Prime, Tenet Arca Plasmor (15)
+* Third place is Phantasma, Hek, Corinth Prime, Cedo, Coda Bassocyst, Arca Plasmor, Corinth, Cedo Prime, Strun, Vaykor Hek, Tigris, Exergis, Kuva Sobek, Drakgoon, Strun Wraith, Strun Prime, Steflos Prime, Steflos, Sobek, Rauta, Felarx, Sancti Tigris, Kuva Drakgoon, Phantasma Prime, Kuva Hek, Mk1-Strun, Tigris Prime, Tenet Arca Plasmor (15)
 
 `AvgCritCount`:
 
@@ -16749,13 +16691,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Corinth Prime, Corinth (2.8)
 * Second place is Cedo, Cedo Prime, Convectrix (2.4)
-* Third place is Kohm, Kuva Kohm, Kuva Sobek, Bubonico, Coda Bubonico (2.3)
+* Third place is Kohm, Kuva Sobek, Kuva Kohm, Bubonico, Coda Bubonico (2.3)
 
 `Disposition`:
 
-* First place is Phage, Convectrix (1.46)
-* Second place is Mk1-Strun, Boar (1.45)
-* Third place is Drakgoon, Strun (1.4)
+* First place is Phantasma, Hek, Corinth Prime, Cedo, Coda Bassocyst, Kohm, Astilla Prime, Arca Plasmor, Corinth, Boar Prime, Cedo Prime, Strun, Vaykor Hek, Phage, Tigris, Exergis, Kuva Sobek, Kuva Kohm, Drakgoon, Strun Wraith, Strun Prime, Steflos Prime, Steflos, Sobek, Rauta, Felarx, Astilla, Sancti Tigris, Kuva Drakgoon, Phantasma Prime, Kuva Hek, Bubonico, Mk1-Strun, Coda Bubonico, Boar, Convectrix, Tigris Prime, Tenet Arca Plasmor (1.2)
 
 `FalloffEnd`:
 
@@ -16795,7 +16735,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Strun Prime, Strun (12)
+* First place is Strun, Strun Prime (12)
 * Second place is Drakgoon, Strun Wraith, Kuva Drakgoon, Mk1-Strun (10)
 * Third place is Boar Prime, Rauta, Boar, Tigris Prime (8)
 
@@ -16831,7 +16771,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-195 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-195 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -16845,7 +16786,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 2855.073888 | 1321.25 | 524.16 | 366.68 | 316.8192 | 114.65728 | 21.467934782609 |
 | `CritChance` | 0.44 | 0.21 | 0.188 | 0.18 | 0.1635 | 0.0725 | 0.0345 |
 | `CritMultiplier` | 3.4 | 2.85 | 2.3 | 2.2075 | 2.135 | 1.9 | 1.6 |
-| `Disposition` | 1.435 | 1.3425 | 1.2 | 1.15375 | 1.1175 | 0.89 | 0.6225 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 28.4 | 26 | 25.4 | 25.1 | 20.48 | 6.92 | 2.4 |
 | `FalloffRate` | 18.923785095887 | 15.166835187058 | 14.73340074149 | 14.516683518706 | 13.155555555556 | 9.2888888888889 | 8 |
 | `FireRate` | 7.35 | 4.33 | 3.33 | 2.56225 | 2 | 1.653 | 1.17 |
@@ -16863,7 +16804,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Accuracy`:
 
-* First place is Phantasma, Coda Bassocyst, Boar Prime, Strun Prime, Strun Wraith, Strun, Phantasma Prime, Bubonico, Mk1-Strun, Coda Bubonico, Boar (100)
+* First place is Phantasma, Coda Bassocyst, Boar Prime, Strun, Strun Wraith, Strun Prime, Phantasma Prime, Bubonico, Mk1-Strun, Coda Bubonico, Boar (100)
 * Second place is Cedo, Cedo Prime (80)
 * Third place is Convectrix (50)
 
@@ -16877,7 +16818,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Convectrix (80)
 * Second place is Kohm, Astilla Prime, Boar Prime, Kuva Kohm, Astilla, Boar (40)
-* Third place is Phantasma, Corinth Prime, Cedo, Coda Bassocyst, Corinth, Cedo Prime, Strun Prime, Drakgoon, Strun Wraith, Strun, Felarx, Kuva Drakgoon, Phantasma Prime, Kuva Hek, Mk1-Strun (15)
+* Third place is Phantasma, Corinth Prime, Cedo, Coda Bassocyst, Corinth, Cedo Prime, Strun, Drakgoon, Strun Wraith, Strun Prime, Felarx, Kuva Drakgoon, Phantasma Prime, Kuva Hek, Mk1-Strun (15)
 
 `AvgCritCount`:
 
@@ -16918,14 +16859,12 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `CritMultiplier`:
 
 * First place is Bubonico, Coda Bubonico (3.5)
-* Second place is Strun Prime, Strun Wraith (3.4)
+* Second place is Strun Wraith, Strun Prime (3.4)
 * Third place is Felarx, Mk1-Strun (3)
 
 `Disposition`:
 
-* First place is Convectrix (1.46)
-* Second place is Mk1-Strun, Boar (1.45)
-* Third place is Drakgoon, Strun (1.4)
+* First place is Phantasma, Corinth Prime, Cedo, Coda Bassocyst, Kohm, Astilla Prime, Corinth, Boar Prime, Cedo Prime, Strun, Kuva Kohm, Drakgoon, Strun Wraith, Strun Prime, Felarx, Astilla, Kuva Drakgoon, Phantasma Prime, Kuva Hek, Bubonico, Mk1-Strun, Coda Bubonico, Boar, Convectrix (1.2)
 
 `FalloffEnd`:
 
@@ -17001,7 +16940,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-196 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-196 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -17015,7 +16955,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 1062.16 | 884.9785 | 572.7893 | 510.39674075 | 478.153104 | 213.713 | 100.1735 |
 | `CritChance` | 0.476 | 0.44 | 0.08 | 0.04775 | 0.04 | 0.033 | 0.03 |
 | `CritMultiplier` | 3.49 | 3.4 | 2.92 | 2.62 | 1.98 | 1.6 | 1.5 |
-| `Disposition` | 1.395 | 1.2375 | 1.13 | 1.0775 | 0.99 | 0.765 | 0.615 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 9.16 | 7 | 6 | 5.73 | 4.8 | 4.24 | 4 |
 | `FalloffRate` | 20 | 20 | 16.4 | 14 | 14 | 10.755555555556 | 9.8955555555556 |
 | `FireRate` | 3.283 | 2.125 | 2 | 2 | 1.975 | 1.269 | 1 |
@@ -17045,7 +16985,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `AmmoPickup`:
 
-* First place is Phantasma, Corinth Prime, Cedo, Corinth, Cedo Prime, Strun Prime, Strun Wraith, Strun, Phantasma Prime, Mk1-Strun (15)
+* First place is Phantasma, Corinth Prime, Cedo, Corinth, Cedo Prime, Strun, Strun Wraith, Strun Prime, Phantasma Prime, Mk1-Strun (15)
 
 `AvgCritCount`:
 
@@ -17086,14 +17026,12 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `CritMultiplier`:
 
 * First place is Bubonico, Coda Bubonico (3.5)
-* Second place is Strun Prime, Strun Wraith (3.4)
+* Second place is Strun Wraith, Strun Prime (3.4)
 * Third place is Mk1-Strun (3)
 
 `Disposition`:
 
-* First place is Mk1-Strun (1.45)
-* Second place is Strun (1.4)
-* Third place is Strun Wraith (1.35)
+* First place is Phantasma, Corinth Prime, Cedo, Corinth, Cedo Prime, Strun, Strun Wraith, Strun Prime, Phantasma Prime, Bubonico, Mk1-Strun, Coda Bubonico (1.2)
 
 `FalloffEnd`:
 
@@ -17103,7 +17041,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FalloffRate`:
 
-* First place is Strun Prime, Strun Wraith, Strun, Mk1-Strun (20)
+* First place is Strun, Strun Wraith, Strun Prime, Mk1-Strun (20)
 * Second place is Bubonico, Coda Bubonico (14)
 * Third place is Corinth Prime (10.888888888889)
 
@@ -17111,7 +17049,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Bubonico, Coda Bubonico (3.37)
 * Second place is Strun Prime (2.5)
-* Third place is Phantasma, Strun Wraith, Strun, Phantasma Prime (2)
+* Third place is Phantasma, Strun, Strun Wraith, Phantasma Prime (2)
 
 `LifetimeDmg`:
 
@@ -17133,7 +17071,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Phantasma, Corinth Prime, Cedo, Corinth, Cedo Prime, Strun Prime, Strun Wraith, Strun, Phantasma Prime, Bubonico, Mk1-Strun, Coda Bubonico (1)
+* First place is Phantasma, Corinth Prime, Cedo, Corinth, Cedo Prime, Strun, Strun Wraith, Strun Prime, Phantasma Prime, Bubonico, Mk1-Strun, Coda Bubonico (1)
 
 `ReloadSpeed`:
 
@@ -17145,7 +17083,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Coda Bubonico (12)
 * Second place is Phantasma, Phantasma Prime (11)
-* Third place is Strun Prime, Strun Wraith (10)
+* Third place is Strun Wraith, Strun Prime (10)
 
 `StatusChance`:
 
@@ -17163,11 +17101,12 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Corinth Prime (2200)
 * Second place is Corinth (404)
-* Third place is Strun Prime, Strun Wraith (200)
+* Third place is Strun Wraith, Strun Prime (200)
 
 #### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-197 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-197 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -17181,7 +17120,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 30.45 | 30.45 | 30.45 | 30.45 | 30.45 | 30.45 | 30.45 |
 | `CritChance` | 0.03 | 0.03 | 0.03 | 0.03 | 0.03 | 0.03 | 0.03 |
 | `CritMultiplier` | 1.5 | 1.5 | 1.5 | 1.5 | 1.5 | 1.5 | 1.5 |
-| `Disposition` | 1.07 | 1.025 | 0.98 | 0.9575 | 0.935 | 0.89 | 0.845 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
 | `LifetimeDmg` | 5107.9875 | 4982.38125 | 4856.775 | 4793.971875 | 4731.16875 | 4605.5625 | 4479.95625 |
 | `MagDmg` | 167.475 | 167.475 | 167.475 | 167.475 | 167.475 | 167.475 | 167.475 |
@@ -17238,8 +17177,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Phantasma (1.1)
-* Second place is Phantasma Prime (0.8)
+* First place is Phantasma, Phantasma Prime (1.2)
 
 `FireRate`:
 
@@ -17284,7 +17222,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 5
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-198 "Edit section's source code: Attack Index 5")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-198 "Edit Section using Source Editor:
+Attack Index 5")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -17298,7 +17237,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 36.54 | 36.54 | 36.54 | 36.54 | 36.54 | 36.54 | 36.54 |
 | `CritChance` | 0.03 | 0.03 | 0.03 | 0.03 | 0.03 | 0.03 | 0.03 |
 | `CritMultiplier` | 1.5 | 1.5 | 1.5 | 1.5 | 1.5 | 1.5 | 1.5 |
-| `Disposition` | 1.07 | 1.025 | 0.98 | 0.9575 | 0.935 | 0.89 | 0.845 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
 | `LifetimeDmg` | 6129.585 | 5978.8575 | 5828.13 | 5752.76625 | 5677.4025 | 5526.675 | 5375.9475 |
 | `MagDmg` | 200.97 | 200.97 | 200.97 | 200.97 | 200.97 | 200.97 | 200.97 |
@@ -17355,8 +17294,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Phantasma (1.1)
-* Second place is Phantasma Prime (0.8)
+* First place is Phantasma, Phantasma Prime (1.2)
 
 `FireRate`:
 
@@ -17401,15 +17339,18 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### By Trigger Type
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-199 "Edit section's source code: By Trigger Type")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-199 "Edit Section using Source Editor:
+By Trigger Type")]
 
 ##### Auto
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-200 "Edit section's source code: Auto")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-200 "Edit Section using Source Editor:
+Auto")]
 
 ###### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-201 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-201 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -17423,7 +17364,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 1839.49 | 1531.7325 | 971.25 | 896.01225 | 820.7745 | 642.7265 | 473.496325 |
 | `CritChance` | 0.21 | 0.2 | 0.17 | 0.1625 | 0.155 | 0.13 | 0.1075 |
 | `CritMultiplier` | 2.15 | 2 | 2 | 1.9625 | 1.925 | 1.9 | 1.8 |
-| `Disposition` | 1.395 | 1.3375 | 1.33 | 1.31875 | 1.3075 | 1.25 | 1.1 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 80 | 55 | 40 | 36.25 | 32.5 | 27.5 | 25 |
 | `FalloffRate` | 60 | 37.804370447451 | 31.217481789802 | 27.010926118626 | 22.804370447451 | 20 | 17.5 |
 | `FireRate` | 4.5 | 4.33 | 4.33 | 4.27 | 4.21 | 3.335 | 2.5 |
@@ -17500,9 +17441,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Boar (1.45)
-* Second place is Boar Prime (1.34)
-* Third place is Sobek (1.33)
+* First place is Astilla Prime, Boar Prime, Kuva Sobek, Sobek, Astilla, Boar (1.2)
 
 `FalloffEnd`:
 
@@ -17578,7 +17517,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-202 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-202 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -17592,7 +17532,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 684.2699 | 629.51705 | 538.79904 | 470.96181 | 403.12458 | 285 | 228.3 |
 | `CritChance` | 0.207 | 0.2025 | 0.196 | 0.1915 | 0.187 | 0.179 | 0.1745 |
 | `CritMultiplier` | 2.11 | 1.975 | 1.9 | 1.9 | 1.9 | 1.89 | 1.845 |
-| `Disposition` | 1.417 | 1.3675 | 1.332 | 1.323 | 1.314 | 1.29 | 1.245 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 2.4 | 2.4 | 2.4 | 2.4 | 2.4 | 2.4 | 2.4 |
 | `FalloffRate` | 8 | 8 | 8 | 8 | 8 | 8 | 8 |
 | `FireRate` | 7.85 | 7.625 | 6.866 | 6.15275 | 5.4395 | 4.33 | 4.33 |
@@ -17666,9 +17606,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Boar (1.45)
-* Second place is Boar Prime (1.34)
-* Third place is Astilla (1.3)
+* First place is Astilla Prime, Boar Prime, Astilla, Boar (1.2)
 
 `FalloffEnd`:
 
@@ -17738,55 +17676,57 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ##### Semi-Auto
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-203 "Edit section's source code: Semi-Auto")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-203 "Edit Section using Source Editor:
+Semi-Auto")]
 
 ###### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-204 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-204 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `Accuracy` | 66.16 | 9.1 | 9.1 | 9.1 | 9.1 | 9.092 | 4.27 |
-| `AmmoMax` | 120 | 120 | 120 | 120 | 120 | 100.8 | 47.3 |
+| `Accuracy` | 100 | 10.675 | 9.1 | 9.1 | 9.1 | 9.095 | 4.675 |
+| `AmmoMax` | 120 | 120 | 120 | 120 | 120 | 73 | 41.75 |
 | `AmmoPickup` | 15 | 15 | 15 | 15 | 15 | 15 | 15 |
-| `AvgCritCount` | 1.8 | 1.775 | 1.184 | 0.8025 | 0.715 | 0.288 | 0.22 |
-| `AvgProcCount` | 1.316 | 1.02 | 0.85264 | 0.76699 | 0.749 | 0.6 | 0.414 |
-| `AvgShotDmg` | 1536.63488 | 1161.6616 | 832.8096 | 831.6 | 724.92 | 593.25 | 385.024 |
-| `BaseDps` | 1473.612 | 1075.875 | 976 | 950.484 | 866.008 | 761.36 | 669 |
-| `BurstDps` | 2377.1420064 | 1661.406208 | 1230.87 | 1193.1668 | 1139.1576 | 987.3576 | 788.5045 |
-| `CritChance` | 0.28 | 0.235 | 0.22 | 0.194 | 0.18 | 0.108 | 0.0755 |
-| `CritMultiplier` | 2.56 | 2.2 | 2.14 | 2.035 | 2 | 2 | 1.64 |
-| `Disposition` | 1.38 | 1.225 | 1.17 | 1.15 | 1.115 | 1.02 | 0.955 |
-| `FalloffEnd` | 56.8 | 36 | 32.4 | 30 | 26.5 | 25 | 20 |
-| `FalloffRate` | 36.638695329874 | 32.916666666667 | 28.758736267147 | 27.325052033042 | 22.418427694461 | 18.492753623188 | 12.74992500375 |
-| `FireRate` | 3.198 | 2.75 | 2.302 | 2.17 | 2.107 | 1.22 | 1.107 |
-| `LifetimeDmg` | 145515.72608 | 116424 | 93800.448 | 81561.408 | 75997.696 | 64907.6 | 39370.95 |
-| `MagDmg` | 15913.28 | 7569.12 | 5030.21568 | 4870.89248 | 4598.784 | 4208.32 | 1911.75 |
-| `Magazine` | 16.8 | 10 | 10 | 8.7 | 6.6 | 5.2 | 4 |
-| `Multishot` | 11.2 | 9 | 7 | 7 | 6.3 | 3.6 | 1 |
-| `ReloadSpeed` | 0.58552631578947 | 0.47222222222222 | 0.42391304347826 | 0.40583333333333 | 0.37 | 0.33333333333333 | 0.26666666666667 |
-| `ShotsPerMag` | 16.8 | 10 | 10 | 8.7 | 6.6 | 5.2 | 4 |
-| `StatusChance` | 0.352 | 0.25 | 0.1252 | 0.12 | 0.1109 | 0.0934 | 0.06067 |
-| `SustainedDps` | 1239.2533657781 | 1082.7761627354 | 917.2714840388 | 770.21863260063 | 703.92774193548 | 607.34239871138 | 543.51926605505 |
-| `TotalDamage` | 947.2 | 704 | 603.6 | 561 | 540 | 525 | 328 |
+| `AvgCritCount` | 1.8 | 1.7625 | 0.9 | 0.74375 | 0.645 | 0.23 | 0.19 |
+| `AvgProcCount` | 1.31 | 0.99 | 0.8004 | 0.749 | 0.71175 | 0.57 | 0.37 |
+| `AvgShotDmg` | 1527.7824 | 1132.0308 | 831.6 | 812.55 | 673.4625 | 580.59 | 401.92 |
+| `BaseDps` | 1507.5 | 1184.82 | 1000 | 958.17 | 917.02 | 763.4 | 682.5 |
+| `BurstDps` | 2309.076672 | 1773.103104 | 1253.175 | 1211.609 | 1165.974 | 1008.936 | 804.07375 |
+| `CritChance` | 0.275 | 0.2325 | 0.22 | 0.18 | 0.18 | 0.12 | 0.07625 |
+| `CritMultiplier` | 2.5 | 2.2 | 2.2 | 2.0875 | 2 | 2 | 1.7 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
+| `FalloffEnd` | 56 | 36 | 30 | 29.375 | 25 | 24.5 | 20 |
+| `FalloffRate` | 36.532246108228 | 32.708333333333 | 27.931227111911 | 26.82381880906 | 24.313868812219 | 19.057971014493 | 13.124812509375 |
+| `FireRate` | 3.165 | 3 | 2.5 | 2.17 | 2.1475 | 1.295 | 1.1175 |
+| `LifetimeDmg` | 144046.0384 | 116424 | 84000 | 79489.28 | 73534.5 | 51992 | 30816.855 |
+| `MagDmg` | 15733.6 | 7339.68 | 5250 | 4881.2312 | 4769.28 | 4283.8 | 1978.125 |
+| `Magazine` | 16 | 10.5 | 10 | 9.75 | 7.5 | 5.5 | 4 |
+| `Multishot` | 11 | 8.5 | 7 | 6.875 | 6 | 2 | 1 |
+| `ReloadSpeed` | 0.57565789473684 | 0.45833333333333 | 0.41666666666667 | 0.41458333333333 | 0.38928571428571 | 0.33333333333333 | 0.26666666666667 |
+| `ShotsPerMag` | 16 | 10.5 | 10 | 9.75 | 7.5 | 5.5 | 4 |
+| `StatusChance` | 0.35 | 0.28 | 0.133 | 0.12 | 0.11675 | 0.0985 | 0.061675 |
+| `SustainedDps` | 1222.9060099433 | 1095.2389288253 | 973.51360263809 | 858.70787182415 | 708.61935483871 | 616.79124857701 | 548.13149847095 |
+| `TotalDamage` | 924 | 676 | 600 | 540 | 536.25 | 502.5 | 340 |
 
 **Top 3**
 
 `Accuracy`:
 
-* First place is Coda Bassocyst, Steflos (100)
+* First place is Coda Bassocyst, Steflos Prime, Steflos (100)
 * Second place is Exergis (15.4)
-* Third place is Hek, Corinth Prime, Arca Plasmor, Corinth, Strun Prime, Vaykor Hek, Tenet Arca Plasmor (9.1)
+* Third place is Hek, Corinth Prime, Arca Plasmor, Corinth, Vaykor Hek, Strun Prime, Tenet Arca Plasmor (9.1)
 
 `AmmoMax`:
 
 * First place is Corinth (135)
-* Second place is Hek, Corinth Prime, Strun Prime, Vaykor Hek, Strun Wraith, Strun, Rauta, Kuva Hek, Mk1-Strun (120)
+* Second place is Hek, Corinth Prime, Strun, Vaykor Hek, Strun Wraith, Strun Prime, Rauta, Kuva Hek, Mk1-Strun (120)
 * Third place is Coda Bassocyst (96)
 
 `AmmoPickup`:
 
-* First place is Hek, Corinth Prime, Coda Bassocyst, Arca Plasmor, Corinth, Strun Prime, Vaykor Hek, Exergis, Strun Wraith, Strun, Steflos, Rauta, Kuva Hek, Mk1-Strun, Tenet Arca Plasmor (15)
+* First place is Hek, Corinth Prime, Coda Bassocyst, Arca Plasmor, Corinth, Strun, Vaykor Hek, Exergis, Strun Wraith, Strun Prime, Steflos Prime, Steflos, Rauta, Kuva Hek, Mk1-Strun, Tenet Arca Plasmor (15)
 
 `AvgCritCount`:
 
@@ -17810,7 +17750,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Strun Prime (2157.84)
 * Second place is Vaykor Hek (1575)
-* Third place is Kuva Hek (1321.53)
+* Third place is Steflos Prime (1440)
 
 `BurstDps`:
 
@@ -17827,14 +17767,12 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `CritMultiplier`:
 
 * First place is Corinth Prime, Corinth (2.8)
-* Second place is Coda Bassocyst, Strun Prime, Strun Wraith, Steflos (2.2)
+* Second place is Coda Bassocyst, Strun Wraith, Strun Prime, Steflos Prime, Steflos (2.2)
 * Third place is Kuva Hek (2.1)
 
 `Disposition`:
 
-* First place is Mk1-Strun (1.45)
-* Second place is Strun (1.4)
-* Third place is Strun Wraith (1.35)
+* First place is Hek, Corinth Prime, Coda Bassocyst, Arca Plasmor, Corinth, Strun, Vaykor Hek, Exergis, Strun Wraith, Strun Prime, Steflos Prime, Steflos, Rauta, Kuva Hek, Mk1-Strun, Tenet Arca Plasmor (1.2)
 
 `FalloffEnd`:
 
@@ -17850,9 +17788,9 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `FireRate`:
 
-* First place is Strun Prime, Exergis (3.33)
-* Second place is Vaykor Hek, Steflos (3)
-* Third place is Strun Wraith, Strun (2.5)
+* First place is Exergis, Strun Prime (3.33)
+* Second place is Vaykor Hek, Steflos Prime, Steflos (3)
+* Third place is Strun, Strun Wraith (2.5)
 
 `LifetimeDmg`:
 
@@ -17870,11 +17808,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Coda Bassocyst (24)
 * Second place is Corinth Prime (20)
-* Third place is Steflos (12)
+* Third place is Steflos Prime, Steflos (12)
 
 `Multishot`:
 
-* First place is Strun Prime, Strun (12)
+* First place is Strun, Strun Prime (12)
 * Second place is Strun Wraith, Mk1-Strun (10)
 * Third place is Rauta (8)
 
@@ -17888,7 +17826,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Coda Bassocyst (24)
 * Second place is Corinth Prime (20)
-* Third place is Steflos (12)
+* Third place is Steflos Prime, Steflos (12)
 
 `StatusChance`:
 
@@ -17910,7 +17848,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-205 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-205 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -17924,7 +17863,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 5771.831904 | 1831.980144 | 482.64 | 432.92 | 374.96 | 289.64 | 127.9176 |
 | `CritChance` | 0.504 | 0.45 | 0.44 | 0.37175 | 0.2615 | 0.185 | 0.047 |
 | `CritMultiplier` | 3.4 | 3.1 | 2.84 | 2.605 | 2.29 | 2.11 | 1.625 |
-| `Disposition` | 1.415 | 1.3625 | 1.23 | 1.18375 | 1.1575 | 1.015 | 1 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 30 | 30 | 30 | 30 | 30 | 30 | 30 |
 | `FalloffRate` | 15.166835187058 | 15.166835187058 | 15.166835187058 | 15.166835187058 | 15.166835187058 | 15.166835187058 | 15.166835187058 |
 | `FireRate` | 2.15 | 2 | 1.736 | 1.61475 | 1.5255 | 1.203 | 1.17 |
@@ -17942,19 +17881,19 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Accuracy`:
 
-* First place is Coda Bassocyst, Strun Prime, Strun Wraith, Strun, Mk1-Strun (100)
+* First place is Coda Bassocyst, Strun, Strun Wraith, Strun Prime, Mk1-Strun (100)
 * Second place is Corinth Prime, Corinth (9.1)
 * Third place is Kuva Hek (9.09)
 
 `AmmoMax`:
 
 * First place is Corinth (135)
-* Second place is Corinth Prime, Strun Prime, Strun Wraith, Strun, Kuva Hek, Mk1-Strun (120)
+* Second place is Corinth Prime, Strun, Strun Wraith, Strun Prime, Kuva Hek, Mk1-Strun (120)
 * Third place is Coda Bassocyst (96)
 
 `AmmoPickup`:
 
-* First place is Corinth Prime, Coda Bassocyst, Corinth, Strun Prime, Strun Wraith, Strun, Kuva Hek, Mk1-Strun (15)
+* First place is Corinth Prime, Coda Bassocyst, Corinth, Strun, Strun Wraith, Strun Prime, Kuva Hek, Mk1-Strun (15)
 
 `AvgCritCount`:
 
@@ -17994,15 +17933,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `CritMultiplier`:
 
-* First place is Strun Prime, Strun Wraith (3.4)
+* First place is Strun Wraith, Strun Prime (3.4)
 * Second place is Mk1-Strun (3)
 * Third place is Strun (2.8)
 
 `Disposition`:
 
-* First place is Mk1-Strun (1.45)
-* Second place is Strun (1.4)
-* Third place is Strun Wraith (1.35)
+* First place is Corinth Prime, Coda Bassocyst, Corinth, Strun, Strun Wraith, Strun Prime, Kuva Hek, Mk1-Strun (1.2)
 
 `FalloffEnd`:
 
@@ -18015,7 +17952,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `FireRate`:
 
 * First place is Strun Prime (2.5)
-* Second place is Strun Wraith, Strun (2)
+* Second place is Strun, Strun Wraith (2)
 * Third place is Coda Bassocyst (1.67)
 
 `LifetimeDmg`:
@@ -18034,13 +17971,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Coda Bassocyst (24)
 * Second place is Corinth Prime (20)
-* Third place is Strun Prime, Strun Wraith (10)
+* Third place is Strun Wraith, Strun Prime (10)
 
 `Multishot`:
 
 * First place is Kuva Hek (28)
 * Second place is Coda Bassocyst (6)
-* Third place is Corinth Prime, Corinth, Strun Prime, Strun Wraith, Strun, Mk1-Strun (1)
+* Third place is Corinth Prime, Corinth, Strun, Strun Wraith, Strun Prime, Mk1-Strun (1)
 
 `ReloadSpeed`:
 
@@ -18051,7 +17988,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `ShotsPerMag`:
 
 * First place is Coda Bassocyst (24)
-* Second place is Strun Prime, Strun Wraith (10)
+* Second place is Strun Wraith, Strun Prime (10)
 * Third place is Strun, Mk1-Strun (6)
 
 `StatusChance`:
@@ -18070,11 +18007,12 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Kuva Hek (2436)
 * Second place is Coda Bassocyst (1818)
-* Third place is Corinth Prime, Corinth, Strun Prime, Strun Wraith, Strun, Mk1-Strun (100)
+* Third place is Corinth Prime, Corinth, Strun, Strun Wraith, Strun Prime, Mk1-Strun (100)
 
 ###### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-206 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-206 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -18088,7 +18026,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 1289.3088 | 1041.4 | 937.6 | 814.48 | 691.36 | 546.65216 | 454.66824 |
 | `CritChance` | 0.52 | 0.47 | 0.44 | 0.44 | 0.44 | 0.24 | 0.04 |
 | `CritMultiplier` | 3.4 | 3.3 | 3 | 2.925 | 2.85 | 2.2 | 1.6 |
-| `Disposition` | 1.425 | 1.3875 | 1.35 | 1.29375 | 1.2375 | 1.175 | 1.1125 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 9.6 | 8.05 | 4 | 4 | 4 | 4 | 4 |
 | `FalloffRate` | 20 | 20 | 20 | 20 | 20 | 15.444444444444 | 10.777777777778 |
 | `FireRate` | 2.25 | 2 | 2 | 1.8125 | 1.625 | 1.335 | 1.04425 |
@@ -18113,11 +18051,11 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `AmmoMax`:
 
 * First place is Corinth (135)
-* Second place is Corinth Prime, Strun Prime, Strun Wraith, Strun, Mk1-Strun (120)
+* Second place is Corinth Prime, Strun, Strun Wraith, Strun Prime, Mk1-Strun (120)
 
 `AmmoPickup`:
 
-* First place is Corinth Prime, Corinth, Strun Prime, Strun Wraith, Strun, Mk1-Strun (15)
+* First place is Corinth Prime, Corinth, Strun, Strun Wraith, Strun Prime, Mk1-Strun (15)
 
 `AvgCritCount`:
 
@@ -18157,32 +18095,30 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `CritMultiplier`:
 
-* First place is Strun Prime, Strun Wraith (3.4)
+* First place is Strun Wraith, Strun Prime (3.4)
 * Second place is Mk1-Strun (3)
 * Third place is Strun (2.8)
 
 `Disposition`:
 
-* First place is Mk1-Strun (1.45)
-* Second place is Strun (1.4)
-* Third place is Strun Wraith (1.35)
+* First place is Corinth Prime, Corinth, Strun, Strun Wraith, Strun Prime, Mk1-Strun (1.2)
 
 `FalloffEnd`:
 
 * First place is Corinth Prime (9.8)
 * Second place is Corinth (9.4)
-* Third place is Strun Prime, Strun Wraith, Strun, Mk1-Strun (4)
+* Third place is Strun, Strun Wraith, Strun Prime, Mk1-Strun (4)
 
 `FalloffRate`:
 
-* First place is Strun Prime, Strun Wraith, Strun, Mk1-Strun (20)
+* First place is Strun, Strun Wraith, Strun Prime, Mk1-Strun (20)
 * Second place is Corinth Prime (10.888888888889)
 * Third place is Corinth (10.444444444444)
 
 `FireRate`:
 
 * First place is Strun Prime (2.5)
-* Second place is Strun Wraith, Strun (2)
+* Second place is Strun, Strun Wraith (2)
 * Third place is Mk1-Strun (1.5)
 
 `LifetimeDmg`:
@@ -18200,12 +18136,12 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `Magazine`:
 
 * First place is Corinth Prime (20)
-* Second place is Strun Prime, Strun Wraith (10)
+* Second place is Strun Wraith, Strun Prime (10)
 * Third place is Strun, Mk1-Strun (6)
 
 `Multishot`:
 
-* First place is Corinth Prime, Corinth, Strun Prime, Strun Wraith, Strun, Mk1-Strun (1)
+* First place is Corinth Prime, Corinth, Strun, Strun Wraith, Strun Prime, Mk1-Strun (1)
 
 `ReloadSpeed`:
 
@@ -18215,7 +18151,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `ShotsPerMag`:
 
-* First place is Strun Prime, Strun Wraith (10)
+* First place is Strun Wraith, Strun Prime (10)
 * Second place is Strun, Mk1-Strun (6)
 * Third place is Corinth Prime, Corinth (5)
 
@@ -18235,15 +18171,17 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Corinth Prime (2200)
 * Second place is Corinth (404)
-* Third place is Strun Prime, Strun Wraith (200)
+* Third place is Strun Wraith, Strun Prime (200)
 
 ### Sniper Rifle
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-207 "Edit section's source code: Sniper Rifle")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-207 "Edit Section using Source Editor:
+Sniper Rifle")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-208 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-208 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -18257,7 +18195,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 1209.76064 | 843.14666666667 | 706.41425090909 | 668.25801 | 595.812 | 520.8832 | 422.4112 |
 | `CritChance` | 0.356 | 0.3 | 0.288 | 0.28 | 0.259 | 0.2 | 0.164 |
 | `CritMultiplier` | 3 | 2.9 | 2.6 | 2.275 | 2.03 | 2 | 2 |
-| `Disposition` | 1.36 | 1.275 | 1.15 | 1.15 | 1.08 | 0.96 | 0.77 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 600 | 600 | 600 | 600 | 600 | 600 | 600 |
 | `FalloffRate` | 1170 | 400 | 400 | 400 | 400 | 400 | 400 |
 | `FireRate` | 3.409 | 2.67 | 2 | 2 | 2 | 1.983 | 1.8135 |
@@ -18335,9 +18273,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Vulkar (1.45)
-* Second place is Vulkar Wraith (1.4)
-* Third place is Sporothrix, Snipetron (1.3)
+* First place is Coda Sporothrix, Rubico Prime, Vulkar, Vectis Prime, Vadarya Prime, Komorex, Vulkar Wraith, Sporothrix, Snipetron Vandal, Lanka, Snipetron, Perigale Prime, Rubico, Perigale, Vectis (1.2)
 
 `FalloffEnd`:
 
@@ -18408,7 +18344,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-209 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-209 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -18422,7 +18359,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 498.0825 | 332.84625 | 311.64 | 252.7494 | 193.8588 | 115.5645 | 59.21045 |
 | `CritChance` | 0.325 | 0.2875 | 0.25 | 0.21625 | 0.1825 | 0.105 | 0.04 |
 | `CritMultiplier` | 3 | 3 | 3 | 2.8125 | 2.625 | 2.3 | 2.075 |
-| `Disposition` | 1.225 | 1.15 | 1.15 | 1.1125 | 1.075 | 1.025 | 0.9875 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 3.28 | 2.8 | 2.32 | 2.08 | 1.97 | 1.88 | 1.79 |
 | `FalloffRate` | 19.4 | 18.5 | 17.6 | 17.15 | 16.2 | 13.8 | 11.4 |
 | `FireRate` | 3.732 | 1.83 | 1.83 | 1.83 | 1.7306 | 1.4324 | 1.333 |
@@ -18498,9 +18435,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Sporothrix (1.3)
-* Second place is Komorex, Vectis (1.15)
-* Third place is Lanka (1.05)
+* First place is Coda Sporothrix, Vectis Prime, Komorex, Sporothrix, Lanka, Vectis (1.2)
 
 `FalloffEnd`:
 
@@ -18574,7 +18509,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-210 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-210 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -18588,7 +18524,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 306.6485 | 256.74875 | 206.849 | 181.899125 | 156.94925 | 107.0495 | 57.14975 |
 | `CritChance` | 0.345 | 0.3375 | 0.33 | 0.32625 | 0.3225 | 0.315 | 0.3075 |
 | `CritMultiplier` | 2.95 | 2.875 | 2.8 | 2.7625 | 2.725 | 2.65 | 2.575 |
-| `Disposition` | 1.135 | 1.1125 | 1.09 | 1.07875 | 1.0675 | 1.045 | 1.0225 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 6.7 | 6.7 | 6.7 | 6.7 | 6.7 | 6.7 | 6.7 |
 | `FireRate` | 1.3327 | 1.33225 | 1.3318 | 1.331575 | 1.33135 | 1.3309 | 1.33045 |
 | `LifetimeDmg` | 17035.925 | 14284.8125 | 11533.7 | 10158.14375 | 8782.5875 | 6031.475 | 3280.3625 |
@@ -18651,8 +18587,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Vectis (1.15)
-* Second place is Vectis Prime (1)
+* First place is Vectis Prime, Vectis (1.2)
 
 `FalloffEnd`:
 
@@ -18708,7 +18643,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-211 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-211 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -18722,7 +18658,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 51.71225 | 44.301875 | 36.8915 | 33.1863125 | 29.481125 | 22.07075 | 14.660375 |
 | `CritChance` | 0.345 | 0.3375 | 0.33 | 0.32625 | 0.3225 | 0.315 | 0.3075 |
 | `CritMultiplier` | 2.95 | 2.875 | 2.8 | 2.7625 | 2.725 | 2.65 | 2.575 |
-| `Disposition` | 1.135 | 1.1125 | 1.09 | 1.07875 | 1.0675 | 1.045 | 1.0225 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 0.15 | 0.15 | 0.15 | 0.15 | 0.15 | 0.15 | 0.15 |
 | `FireRate` | 1.3327 | 1.33225 | 1.3318 | 1.331575 | 1.33135 | 1.3309 | 1.33045 |
 | `LifetimeDmg` | 2883.425 | 2491.0625 | 2098.7 | 1902.51875 | 1706.3375 | 1313.975 | 921.6125 |
@@ -18785,8 +18721,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Vectis (1.15)
-* Second place is Vectis Prime (1)
+* First place is Vectis Prime, Vectis (1.2)
 
 `FalloffEnd`:
 
@@ -18842,15 +18777,18 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### By Trigger Type
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-212 "Edit section's source code: By Trigger Type")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-212 "Edit Section using Source Editor:
+By Trigger Type")]
 
 ##### Semi-Auto
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-213 "Edit section's source code: Semi-Auto")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-213 "Edit Section using Source Editor:
+Semi-Auto")]
 
 ###### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-214 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-214 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -18864,7 +18802,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 1211.0208 | 988.4152 | 692.5086 | 664.52715 | 612.78 | 512 | 409.5 |
 | `CritChance` | 0.3 | 0.3 | 0.28 | 0.2575 | 0.225 | 0.2 | 0.105 |
 | `CritMultiplier` | 3 | 3 | 2.1 | 2.025 | 2 | 2 | 2 |
-| `Disposition` | 1.4 | 1.3 | 1.25 | 1.175 | 1.15 | 1 | 0.95 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 600 | 600 | 600 | 600 | 600 | 600 | 600 |
 | `FalloffRate` | 400 | 400 | 400 | 400 | 400 | 400 | 400 |
 | `FireRate` | 3.67 | 2.67 | 2 | 2 | 2 | 1.83 | 1.665 |
@@ -18940,9 +18878,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Vulkar (1.45)
-* Second place is Vulkar Wraith (1.4)
-* Third place is Sporothrix, Snipetron (1.3)
+* First place is Coda Sporothrix, Rubico Prime, Vulkar, Vectis Prime, Komorex, Vulkar Wraith, Sporothrix, Snipetron Vandal, Snipetron, Rubico, Vectis (1.2)
 
 `FalloffEnd`:
 
@@ -19012,7 +18948,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-215 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-215 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -19026,7 +18963,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 328.605 | 311.64 | 217.41504 | 170.30256 | 138.98484 | 92.14416 | 48.81836 |
 | `CritChance` | 0.33 | 0.3 | 0.216 | 0.174 | 0.138 | 0.072 | 0.034 |
 | `CritMultiplier` | 3 | 3 | 3 | 3 | 2.9 | 2.6 | 2.34 |
-| `Disposition` | 1.24 | 1.15 | 1.15 | 1.15 | 1.12 | 1.03 | 0.98 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 3.28 | 2.8 | 2.32 | 2.08 | 1.97 | 1.88 | 1.79 |
 | `FalloffRate` | 19.4 | 18.5 | 17.6 | 17.15 | 16.2 | 13.8 | 11.4 |
 | `FireRate` | 3.732 | 1.83 | 1.83 | 1.83 | 1.7306 | 1.4324 | 1.333 |
@@ -19102,9 +19039,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Sporothrix (1.3)
-* Second place is Komorex, Vectis (1.15)
-* Third place is Vectis Prime (1)
+* First place is Coda Sporothrix, Vectis Prime, Komorex, Sporothrix, Vectis (1.2)
 
 `FalloffEnd`:
 
@@ -19178,7 +19113,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-216 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-216 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -19192,7 +19128,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 306.6485 | 256.74875 | 206.849 | 181.899125 | 156.94925 | 107.0495 | 57.14975 |
 | `CritChance` | 0.345 | 0.3375 | 0.33 | 0.32625 | 0.3225 | 0.315 | 0.3075 |
 | `CritMultiplier` | 2.95 | 2.875 | 2.8 | 2.7625 | 2.725 | 2.65 | 2.575 |
-| `Disposition` | 1.135 | 1.1125 | 1.09 | 1.07875 | 1.0675 | 1.045 | 1.0225 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 6.7 | 6.7 | 6.7 | 6.7 | 6.7 | 6.7 | 6.7 |
 | `FireRate` | 1.3327 | 1.33225 | 1.3318 | 1.331575 | 1.33135 | 1.3309 | 1.33045 |
 | `LifetimeDmg` | 17035.925 | 14284.8125 | 11533.7 | 10158.14375 | 8782.5875 | 6031.475 | 3280.3625 |
@@ -19255,8 +19191,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Vectis (1.15)
-* Second place is Vectis Prime (1)
+* First place is Vectis Prime, Vectis (1.2)
 
 `FalloffEnd`:
 
@@ -19312,7 +19247,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-217 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-217 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -19326,7 +19262,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 51.71225 | 44.301875 | 36.8915 | 33.1863125 | 29.481125 | 22.07075 | 14.660375 |
 | `CritChance` | 0.345 | 0.3375 | 0.33 | 0.32625 | 0.3225 | 0.315 | 0.3075 |
 | `CritMultiplier` | 2.95 | 2.875 | 2.8 | 2.7625 | 2.725 | 2.65 | 2.575 |
-| `Disposition` | 1.135 | 1.1125 | 1.09 | 1.07875 | 1.0675 | 1.045 | 1.0225 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 0.15 | 0.15 | 0.15 | 0.15 | 0.15 | 0.15 | 0.15 |
 | `FireRate` | 1.3327 | 1.33225 | 1.3318 | 1.331575 | 1.33135 | 1.3309 | 1.33045 |
 | `LifetimeDmg` | 2883.425 | 2491.0625 | 2098.7 | 1902.51875 | 1706.3375 | 1313.975 | 921.6125 |
@@ -19389,8 +19325,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Vectis (1.15)
-* Second place is Vectis Prime (1)
+* First place is Vectis Prime, Vectis (1.2)
 
 `FalloffEnd`:
 
@@ -19446,11 +19381,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Speargun
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-218 "Edit section's source code: Speargun")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-218 "Edit Section using Source Editor:
+Speargun")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-219 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-219 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -19464,7 +19401,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 977.7768 | 686.494 | 477.97824 | 296.42376 | 235.62192 | 225.7218 | 180.82106 |
 | `CritChance` | 0.328 | 0.29 | 0.26 | 0.26 | 0.242 | 0.18 | 0.092 |
 | `CritMultiplier` | 2.88 | 2.7 | 2.44 | 2.26 | 2.14 | 2 | 1.95 |
-| `Disposition` | 1.27 | 1.225 | 1.18 | 1.1575 | 1.135 | 1.09 | 0.995 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 2.934 | 2.67 | 2.67 | 2.67 | 2.268 | 1.2306 | 0.833 |
 | `LifetimeDmg` | 62210.4 | 47938 | 33100.8 | 30739.2 | 26056.8 | 14480.64 | 4288 |
 | `MagDmg` | 7610.4 | 4518 | 3243.2 | 2931.8 | 2325.2 | 1148.16 | 1072 |
@@ -19539,9 +19476,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Javlok (1.3)
-* Second place is Ferrox (1.25)
-* Third place is Scourge (1.2)
+* First place is Afentis, Afentis Prime, Ferrox, Scourge Prime, Scourge, Javlok, Tenet Ferrox (1.2)
 
 `FireRate`:
 
@@ -19603,7 +19538,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-220 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-220 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -19617,7 +19553,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 1019.99184 | 676.9184 | 459.95904 | 437.95296 | 364.31472 | 202.9304 | 173.42985 |
 | `CritChance` | 0.328 | 0.29 | 0.26 | 0.26 | 0.242 | 0.18 | 0.092 |
 | `CritMultiplier` | 2.88 | 2.7 | 2.44 | 2.26 | 2.14 | 2 | 1.95 |
-| `Disposition` | 1.27 | 1.225 | 1.18 | 1.1575 | 1.135 | 1.09 | 0.995 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 2.934 | 2.67 | 2.67 | 2.67 | 2.268 | 1.2306 | 0.833 |
 | `LifetimeDmg` | 24833.28 | 23126.4 | 21219.84 | 19820.16 | 18748.32 | 17227.52 | 16447.44 |
 | `MagDmg` | 4897.92 | 3712 | 2991.36 | 2727.84 | 2514.6 | 2092.8 | 1504.8 |
@@ -19692,9 +19628,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Javlok (1.3)
-* Second place is Ferrox (1.25)
-* Third place is Scourge (1.2)
+* First place is Afentis, Afentis Prime, Ferrox, Scourge Prime, Scourge, Javlok, Tenet Ferrox (1.2)
 
 `FireRate`:
 
@@ -19756,7 +19690,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-221 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-221 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -19770,7 +19705,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 780 | 430 | 204 | 186 | 172.8 | 141.44 | 80.08 |
 | `CritChance` | 0.34 | 0.25 | 0.16 | 0.115 | 0.082 | 0.04 | 0.04 |
 | `CritMultiplier` | 3 | 2.5 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.27 | 1.225 | 1.18 | 1.1575 | 1.135 | 1.09 | 0.995 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | `LifetimeDmg` | 57664 | 32760 | 23184 | 17676 | 14160 | 10188.8 | 9557.6 |
 | `MagDmg` | 7264 | 5100 | 3400 | 2770 | 2291.2 | 1547.2 | 1024 |
@@ -19844,9 +19779,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Javlok (1.3)
-* Second place is Ferrox (1.25)
-* Third place is Scourge (1.2)
+* First place is Afentis, Afentis Prime, Ferrox, Scourge Prime, Scourge, Javlok, Tenet Ferrox (1.2)
 
 `FireRate`:
 
@@ -19906,7 +19839,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-222 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-222 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -19920,7 +19854,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 265.92 | 124.8 | 96.72 | 82.68 | 74.5 | 64 | 59.18 |
 | `CritChance` | 0.16 | 0.1 | 0.064 | 0.046 | 0.04 | 0.04 | 0.04 |
 | `CritMultiplier` | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
-| `Disposition` | 1.28 | 1.25 | 1.22 | 1.205 | 1.19 | 1.16 | 1.13 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 1 | 1 | 1 | 1 | 0.9 | 0.6 | 0.5 |
 | `LifetimeDmg` | 45676.8 | 29952 | 26500.8 | 24775.2 | 22792 | 18568 | 15787.2 |
 | `MagDmg` | 3963.2 | 2420 | 2340.8 | 2301.2 | 2262.4 | 2185.6 | 1920 |
@@ -19992,9 +19926,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Javlok (1.3)
-* Second place is Ferrox (1.25)
-* Third place is Scourge (1.2)
+* First place is Ferrox, Scourge Prime, Scourge, Javlok, Tenet Ferrox (1.2)
 
 `FireRate`:
 
@@ -20055,11 +19987,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 # Archgun (Atmosphere)
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-223 "Edit section's source code: Archgun (Atmosphere)")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-223 "Edit Section using Source Editor:
+Archgun (Atmosphere)")]
 
 ## Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-224 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-224 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -20209,7 +20143,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-225 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-225 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -20363,7 +20298,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-226 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-226 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -20515,7 +20451,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-227 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-227 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -20662,7 +20599,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 5
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-228 "Edit section's source code: Attack Index 5")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-228 "Edit Section using Source Editor:
+Attack Index 5")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -20776,7 +20714,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 6
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-229 "Edit section's source code: Attack Index 6")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-229 "Edit Section using Source Editor:
+Attack Index 6")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -20890,7 +20829,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 7
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-230 "Edit section's source code: Attack Index 7")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-230 "Edit Section using Source Editor:
+Attack Index 7")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -21004,7 +20944,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 8
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-231 "Edit section's source code: Attack Index 8")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-231 "Edit Section using Source Editor:
+Attack Index 8")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -21118,7 +21059,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 9
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-232 "Edit section's source code: Attack Index 9")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-232 "Edit Section using Source Editor:
+Attack Index 9")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -21232,7 +21174,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 10
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-233 "Edit section's source code: Attack Index 10")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-233 "Edit Section using Source Editor:
+Attack Index 10")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -21346,7 +21289,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 11
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-234 "Edit section's source code: Attack Index 11")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-234 "Edit Section using Source Editor:
+Attack Index 11")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -21460,7 +21404,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 12
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-235 "Edit section's source code: Attack Index 12")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-235 "Edit Section using Source Editor:
+Attack Index 12")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -21574,37 +21519,39 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 # Secondary
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-236 "Edit section's source code: Secondary")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-236 "Edit Section using Source Editor:
+Secondary")]
 
 ## Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-237 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-237 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `Accuracy` | 100 | 100 | 27.46 | 25 | 22.2 | 16 | 11.1 |
+| `Accuracy` | 100 | 100 | 26.7 | 25 | 22.2 | 16 | 11.1 |
 | `AmmoMax` | 420 | 210 | 210 | 210 | 210 | 210 | 20 |
-| `AmmoPickup` | 40 | 40 | 40 | 40 | 40 | 20 | 6.3 |
-| `AvgCritCount` | 0.42 | 0.265 | 0.22 | 0.2 | 0.163 | 0.132 | 0.06 |
-| `AvgProcCount` | 0.97788 | 0.345 | 0.28 | 0.26 | 0.22 | 0.152 | 0.1 |
-| `AvgShotDmg` | 308.472 | 176 | 111.328 | 98.36725 | 75.704 | 40.9456 | 26.6256 |
-| `BaseDps` | 740 | 400 | 315.2 | 279.06 | 252 | 209.904 | 150 |
-| `BurstDps` | 1026.08 | 517.9322 | 428.1795 | 353.4759 | 314.644 | 248.5295936 | 169.633208 |
-| `CritChance` | 0.3 | 0.24 | 0.2 | 0.1785 | 0.16 | 0.11 | 0.06 |
+| `AmmoPickup` | 40 | 40 | 40 | 40 | 40 | 20 | 6.75 |
+| `AvgCritCount` | 0.42 | 0.2625 | 0.22 | 0.2 | 0.1675 | 0.135 | 0.06 |
+| `AvgProcCount` | 0.97485 | 0.3425 | 0.28 | 0.26 | 0.22 | 0.155 | 0.1 |
+| `AvgShotDmg` | 308.31 | 176 | 112 | 99.56875 | 76.1 | 41.116 | 26.628 |
+| `BaseDps` | 740 | 400.125 | 320 | 279.75 | 252 | 209.94 | 150 |
+| `BurstDps` | 1026.08 | 518.9832 | 430.08 | 355.91625 | 316.03 | 249.536696 | 170.95802 |
+| `CritChance` | 0.3 | 0.24 | 0.2 | 0.18 | 0.16 | 0.11 | 0.06 |
 | `CritMultiplier` | 2.8 | 2.2 | 2 | 2 | 2 | 1.9 | 1.6 |
-| `Disposition` | 1.45 | 1.35 | 1.25 | 1.2 | 1.15 | 1.05 | 0.8 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 30 | 22.5 | 20 | 19.075 | 18.35 | 13 | 3.27 |
 | `FalloffRate` | 23.84 | 17.360977371208 | 13.721646426833 | 12.175689408921 | 11.129166666667 | 9.5911256073115 | 9 |
-| `FireRate` | 12.5 | 8 | 5 | 4.9505 | 4 | 3.33 | 2 |
-| `LifetimeDmg` | 60907.42224 | 31140.816 | 21580.896 | 18250.44 | 14642.2272 | 9763.875 | 5152.35 |
-| `MagDmg` | 3706.88 | 2393.28 | 1866.24 | 1606.128 | 1346.4 | 860.688 | 526.66 |
-| `Magazine` | 75 | 40 | 20 | 16 | 12 | 8 | 4.1 |
-| `Multishot` | 3.2 | 1 | 1 | 1 | 1 | 1 | 1 |
-| `ReloadSpeed` | 1.0333333333333 | 0.90909090909091 | 0.71428571428571 | 0.625 | 0.55555555555556 | 0.5 | 0.41710992907801 |
+| `FireRate` | 12.5 | 8 | 5 | 4.79375 | 4 | 3.33 | 2 |
+| `LifetimeDmg` | 60836.48256 | 31329.024 | 21705.024 | 18353.76 | 15138.5088 | 9895.5 | 5174.4 |
+| `MagDmg` | 3705.6 | 2388.21 | 1856.64 | 1582.302 | 1362.6 | 862.632 | 529.465 |
+| `Magazine` | 75 | 40 | 20 | 16 | 12 | 8 | 4.25 |
+| `Multishot` | 3 | 1 | 1 | 1 | 1 | 1 | 1 |
+| `ReloadSpeed` | 1.0222222222222 | 0.90909090909091 | 0.71428571428571 | 0.625 | 0.55555555555556 | 0.5 | 0.41666666666667 |
 | `ShotsPerMag` | 80 | 40 | 20 | 16 | 12 | 8 | 5 |
-| `StatusChance` | 0.35 | 0.28 | 0.22 | 0.2 | 0.18 | 0.12 | 0.08 |
-| `SustainedDps` | 562.98882897262 | 357.45855762906 | 286.10055865922 | 253.6582776132 | 228.86266666667 | 183.73874649792 | 128.3632797732 |
-| `TotalDamage` | 246 | 145 | 75 | 60 | 49.3 | 30 | 22 |
+| `StatusChance` | 0.35 | 0.28 | 0.22 | 0.20375 | 0.18 | 0.12 | 0.08 |
+| `SustainedDps` | 561.88270349484 | 356.89411764706 | 289.40223463687 | 253.81584426576 | 229.45066666667 | 183.90426237116 | 128.37725702382 |
+| `TotalDamage` | 245 | 142.5 | 75 | 60 | 49.75 | 30 | 22 |
 
 **Top 3**
 
@@ -21623,7 +21570,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `AmmoPickup`:
 
 * First place is Scyotid (80)
-* Second place is Sagek Prime, Zylok Prime, EFV-8 Mars, Twin Grakatas, Vesper 77, Dual Coda Torxica, Lex Prime (60)
+* Second place is Sagek Prime, Zylok Prime, EFV-8 Mars, Aksondol, Twin Grakatas, Vesper 77, Dual Coda Torxica, Lex Prime (60)
 * Third place is Aklex, Kunai, Seer, Bolto, Spira, Vasto Prime, Aklato, Quatz, Prisma Twin Gremlins, Afuris Prime, Dual Cestra, Acrid, Pandero Prime, Telos Akbolto, Tenet Diplos, Onos, Akjagara, Zymos, Akvasto, Akbolto Prime, Akstiletto Prime, Akbolto, Spira Prime, Twin Vipers, Aklex Prime, Pandero, Hikou Prime, Akmagnus Prime, Hystrix Prime, Ocucor, Secura Dual Cestra, Athodai, Sicarus Prime, Hikou, Akzani, Ballistica Prime, Velox, Coda Tysis, Akvasto Prime, Akstiletto, Synoid Gammacor, Velox Prime, Vasto, Akjagara Prime, Mk1-Kunai, Viper Wraith, Afuris, Kuva Kraken, Laetum, Aksomati Prime, Mk1-Furis, Embolist, Hystrix, Viper, Vaykor Marelok, Fusilai, Tysis, Dual Toxocyst, Furis, Twin Vipers Wraith, Lato, Rakta Ballistica, Magnus, Twin Gremlins, Spectra Vandal, Dex Furis, Stug, Akmagnus, Kuva Twin Stubbas, Stubba, Tenet Spirex, Lex, Spectra, Sicarus, Azima, Kraken, Marelok, Aksomati, Magnus Prime, Arca Scisco, Lato Vandal, Athodai Prime, Despair, Knell Prime, Cestra, Knell, Gammacor, Lato Prime, Ballistica (40)
 
 `AvgCritCount`:
@@ -21670,9 +21617,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Magnus, Kraken (1.53)
-* Second place is Aklato, Akzani, Cestra (1.52)
-* Third place is Kunai, Bolto, Mk1-Kunai (1.51)
+* First place is Castanas, Aklex, Kunai, Seer, Euphona Prime, Sagek Prime, Bolto, Catabolyst, Coda Pox, Spira, Staticor, Vasto Prime, Bronco, Pyrana Prime, Akarius Prime, Aklato, Zylok Prime, Quatz, Prisma Twin Gremlins, Sepulcrum, Afuris Prime, Dual Cestra, Acrid, Pandero Prime, Telos Akbolto, Kuva Brakk, Tenet Diplos, Onos, Akjagara, Atomos, Zymos, EFV-8 Mars, Nukor, Akvasto, Akbolto Prime, Akstiletto Prime, Akbolto, Spira Prime, Twin Vipers, Akbronco Prime, Kuva Nukor, Aklex Prime, Kulstar, Pandero, Hikou Prime, Akbronco, Akmagnus Prime, Hystrix Prime, Ocucor, Aksondol, Angstrum, Secura Dual Cestra, Athodai, Sicarus Prime, Prisma Angstrum, Hikou, Akzani, Ballistica Prime, Cantare, Brakk, Cycron, Grimoire, Velox, Detron, Coda Tysis, Akvasto Prime, Akstiletto, Synoid Gammacor, Velox Prime, Kohmak, Akarius, Vasto, Akjagara Prime, Twin Grakatas, Mk1-Kunai, Epitaph Prime, Twin Kohmak, Viper Wraith, Afuris, Kuva Kraken, Laetum, Aksomati Prime, Kompressa, Mk1-Furis, Scyotid, Sonicor, Kompressa Prime, Embolist, Zylok, Zakti Prime, Zakti, Hystrix, Viper, Vesper 77, Vaykor Marelok, Fusilai, Tysis, Dual Toxocyst, Bronco Prime, Furis, Twin Vipers Wraith, Lato, Rakta Ballistica, Magnus, Twin Rogga, Twin Gremlins, Spectra Vandal, Tenet Plinx, Tenet Detron, Dual Coda Torxica, Sancti Castanas, Dex Furis, Tenet Cycron, Riot-848, Kuva Seer, Talons, Stug, Akmagnus, Kuva Twin Stubbas, Stubba, Tenet Spirex, Pox, Lex, Cyanex, Spectra, Sicarus, Azima, Kraken, Coda Catabolyst, Marelok, Aksomati, Mara Detron, Magnus Prime, Lex Prime, Arca Scisco, Aegrit, Plinx, Lato Vandal, Athodai Prime, Despair, Knell Prime, Cestra, Knell, Gammacor, Lato Prime, Pyrana, Ballistica, Epitaph (1.2)
 
 `FalloffEnd`:
 
@@ -21748,7 +21693,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-238 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-238 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -21762,7 +21708,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 1366.8 | 870 | 586.29312 | 532 | 430.192 | 288 | 101.8625 |
 | `CritChance` | 0.3 | 0.26 | 0.2 | 0.2 | 0.18 | 0.11 | 0.06 |
 | `CritMultiplier` | 3 | 2.8 | 2.2 | 2.2 | 2 | 2 | 1.6 |
-| `Disposition` | 1.4 | 1.35 | 1.2 | 1.2 | 1.1 | 1 | 0.7 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 29.2 | 16 | 4.64 | 3.685 | 3.6 | 2.82 | 2.165 |
 | `FalloffRate` | 25.498315184406 | 14.400576023041 | 11.841448131817 | 11.039285714286 | 9.9875 | 9 | 7.1075493964529 |
 | `FireRate` | 7 | 4.17 | 3.33 | 3.33 | 2.5 | 1.67 | 1 |
@@ -21840,9 +21786,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Cestra (1.52)
-* Second place is Kunai, Mk1-Kunai (1.51)
-* Third place is Stug (1.48)
+* First place is Castanas, Kunai, Euphona Prime, Catabolyst, Coda Pox, Staticor, Vasto Prime, Bronco, Akarius Prime, Zylok Prime, Quatz, Sepulcrum, Pandero Prime, Tenet Diplos, Onos, Atomos, Zymos, EFV-8 Mars, Kulstar, Pandero, Hystrix Prime, Angstrum, Athodai, Sicarus Prime, Prisma Angstrum, Ballistica Prime, Grimoire, Coda Tysis, Synoid Gammacor, Kohmak, Akarius, Vasto, Mk1-Kunai, Epitaph Prime, Twin Kohmak, Kuva Kraken, Laetum, Kompressa, Mk1-Furis, Scyotid, Sonicor, Kompressa Prime, Zylok, Zakti Prime, Zakti, Hystrix, Fusilai, Tysis, Dual Toxocyst, Bronco Prime, Furis, Lato, Rakta Ballistica, Tenet Plinx, Tenet Detron, Sancti Castanas, Riot-848, Kuva Seer, Talons, Stug, Tenet Spirex, Pox, Lex, Cyanex, Sicarus, Azima, Coda Catabolyst, Lex Prime, Aegrit, Lato Vandal, Athodai Prime, Despair, Cestra, Gammacor, Lato Prime, Ballistica, Epitaph (1.2)
 
 `FalloffEnd`:
 
@@ -21918,7 +21862,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-239 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-239 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -21932,7 +21877,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 2669.38425 | 1264.8576375 | 828 | 723.132 | 436.1549 | 377.2545 | 214.348 |
 | `CritChance` | 0.308 | 0.26 | 0.208 | 0.2 | 0.181 | 0.14 | 0.0605 |
 | `CritMultiplier` | 3 | 2.475 | 2.2 | 2.2 | 2.2 | 2 | 1.8 |
-| `Disposition` | 1.3 | 1.2 | 1.17 | 1.1 | 1.0025 | 0.87 | 0.6 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 7.94 | 6 | 5 | 5 | 4.2 | 3 | 3 |
 | `FalloffRate` | 16.666666666667 | 13.75 | 10.4 | 10 | 10 | 10 | 6.3875 |
 | `FireRate` | 7 | 5.6675 | 3.33 | 3.07425 | 1.7625 | 1 | 1 |
@@ -22010,9 +21955,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Stug (1.48)
-* Second place is Angstrum (1.35)
-* Third place is Kulstar, Prisma Angstrum, Despair (1.3)
+* First place is Catabolyst, Staticor, Zylok Prime, Sepulcrum, Onos, Atomos, Zymos, EFV-8 Mars, Kulstar, Hystrix Prime, Angstrum, Prisma Angstrum, Ballistica Prime, Grimoire, Synoid Gammacor, Epitaph Prime, Laetum, Zylok, Hystrix, Rakta Ballistica, Tenet Plinx, Stug, Cyanex, Coda Catabolyst, Despair, Gammacor, Ballistica, Epitaph (1.2)
 
 `FalloffEnd`:
 
@@ -22087,7 +22030,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-240 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-240 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -22101,7 +22045,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 920 | 674.85 | 430.192 | 350.98 | 312.288 | 219.78 | 202.60905 |
 | `CritChance` | 0.38 | 0.31 | 0.28 | 0.25 | 0.22 | 0.17 | 0.145 |
 | `CritMultiplier` | 3 | 2.9 | 2.3 | 2.3 | 2.25 | 2.2 | 2.1 |
-| `Disposition` | 1.3 | 1.2 | 1.2 | 1.125 | 1.05 | 0.9 | 0.725 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 7.8 | 5.475 | 3.9 | 3.5625 | 3.225 | 3 | 2.325 |
 | `FalloffRate` | 12.833333333333 | 10.5 | 10 | 9.90625 | 9.8125 | 8.625 | 5.875 |
 | `FireRate` | 12 | 7 | 4 | 3.625 | 2.75 | 1.33 | 1 |
@@ -22179,9 +22123,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Stug (1.48)
-* Second place is Kulstar (1.3)
-* Third place is Catabolyst, Zymos, Hystrix (1.2)
+* First place is Catabolyst, Staticor, Sepulcrum, Onos, Zymos, Kulstar, Hystrix Prime, Grimoire, Hystrix, Stug, Coda Catabolyst (1.2)
 
 `FalloffEnd`:
 
@@ -22257,7 +22199,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Attack Index 5
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-241 "Edit section's source code: Attack Index 5")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-241 "Edit Section using Source Editor:
+Attack Index 5")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -22271,7 +22214,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 53580.69864 | 43615.1898 | 31029.05022 | 23098.0862175 | 15167.122215 | 2639.06039 | 1779.530195 |
 | `CritChance` | 0.31 | 0.31 | 0.278 | 0.242 | 0.206 | 0.14 | 0.095 |
 | `CritMultiplier` | 2.9 | 2.9 | 2.78 | 2.645 | 2.51 | 2.27 | 2.135 |
-| `Disposition` | 1.396 | 1.27 | 1.2 | 1.2 | 1.2 | 1.145 | 0.8975 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 6.4 | 5.5 | 4.66 | 4.2775 | 3.895 | 3.12 | 2.31 |
 | `FalloffRate` | 13.4 | 12.5 | 11.6 | 11.15 | 10.9 | 10.6 | 10.3 |
 | `FireRate` | 12 | 12 | 10.4 | 8.6 | 6.8 | 3.733 | 2.5315 |
@@ -22348,9 +22291,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Stug (1.48)
-* Second place is Catabolyst, Zymos (1.2)
-* Third place is Coda Catabolyst (0.65)
+* First place is Catabolyst, Zymos, Stug, Coda Catabolyst (1.2)
 
 `FalloffEnd`:
 
@@ -22426,39 +22367,42 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## By Weapon Class
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-242 "Edit section's source code: By Weapon Class")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-242 "Edit Section using Source Editor:
+By Weapon Class")]
 
 ### Dual Pistols
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-243 "Edit section's source code: Dual Pistols")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-243 "Edit Section using Source Editor:
+Dual Pistols")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-244 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-244 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `Accuracy` | 35.786 | 26.7 | 23.5 | 19.34 | 16.28 | 15.4 | 11.1 |
-| `AmmoMax` | 576 | 440 | 400 | 304 | 210 | 210 | 210 |
+| `Accuracy` | 35.479 | 26.7 | 23.5 | 20 | 16.595 | 15.4 | 11.1 |
+| `AmmoMax` | 564 | 435 | 400 | 266 | 210 | 210 | 210 |
 | `AmmoPickup` | 40 | 40 | 40 | 40 | 40 | 40 | 40 |
-| `AvgCritCount` | 0.274 | 0.23 | 0.192 | 0.18 | 0.16 | 0.15 | 0.092 |
-| `AvgProcCount` | 0.318 | 0.28 | 0.28 | 0.228 | 0.208 | 0.14 | 0.108 |
-| `AvgShotDmg` | 146.6896 | 101.52 | 76.7232 | 61.75136 | 42.12 | 30.4768 | 25.596 |
-| `BaseDps` | 445 | 350 | 299.76 | 286.4 | 270.304 | 245.6136 | 204.32 |
-| `BurstDps` | 592.24 | 500.625 | 385.7936 | 364.352 | 343.84176 | 293.788848 | 243.392 |
-| `CritChance` | 0.25 | 0.23 | 0.192 | 0.18 | 0.16 | 0.15 | 0.092 |
-| `CritMultiplier` | 2.78 | 2.2 | 2 | 2 | 2 | 1.96 | 1.8 |
-| `Disposition` | 1.442 | 1.35 | 1.25 | 1.2 | 1.17 | 1.05 | 0.95 |
-| `FireRate` | 20 | 12.5 | 9.736 | 6.864 | 5.268 | 5 | 3.5996 |
-| `LifetimeDmg` | 35256.62976 | 28416 | 18844.8 | 18702.336 | 18163.2 | 10333.44 | 7466.8928 |
-| `MagDmg` | 3693.824 | 2747.52 | 2351.7184 | 1904.768 | 1840.32 | 1452.112 | 1213.1775 |
-| `Magazine` | 118.8 | 80 | 46 | 40 | 32.4 | 28 | 12 |
+| `AvgCritCount` | 0.271 | 0.2375 | 0.198 | 0.18 | 0.16 | 0.15 | 0.098 |
+| `AvgProcCount` | 0.317 | 0.28 | 0.274 | 0.22325 | 0.217 | 0.14 | 0.1095 |
+| `AvgShotDmg` | 153.4176 | 106.38 | 77.9328 | 66.87008 | 42.93 | 30.6352 | 26.379 |
+| `BaseDps` | 476.25 | 362.225 | 299.94 | 290.093 | 270.646 | 248.4204 | 205.13 |
+| `BurstDps` | 613.5957184 | 503.94375 | 392.3744 | 368.765 | 350.34444 | 294.127272 | 245.708 |
+| `CritChance` | 0.25 | 0.2375 | 0.198 | 0.18 | 0.16 | 0.15 | 0.098 |
+| `CritMultiplier` | 2.77 | 2.35 | 2 | 2 | 2 | 1.99 | 1.8 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
+| `FireRate` | 20 | 12.5 | 9.502 | 6.351 | 5 | 5 | 3.65015 |
+| `LifetimeDmg` | 39750.5808 | 31060.02 | 18949.2 | 18783.144 | 18202.8 | 10359.36 | 7584.4352 |
+| `MagDmg` | 3692.416 | 2663.84 | 2336.31 | 1885.312 | 1809.384 | 1465.528 | 1216.974375 |
+| `Magazine` | 118.2 | 80 | 40 | 40 | 30 | 26.8 | 12 |
 | `Multishot` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| `ReloadSpeed` | 0.89393939393939 | 0.71428571428571 | 0.5 | 0.5 | 0.43528850739151 | 0.37891737891738 | 0.33333333333333 |
-| `ShotsPerMag` | 111.2 | 80 | 44 | 40 | 32.4 | 28 | 12 |
-| `StatusChance` | 0.308 | 0.28 | 0.256 | 0.22 | 0.188 | 0.14 | 0.108 |
-| `SustainedDps` | 404.59811076239 | 317.47368421053 | 281.88916030534 | 260.14164873934 | 248.64846270067 | 196.14930091185 | 167.21564824847 |
-| `TotalDamage` | 98 | 68 | 40.8 | 36.792 | 31.2 | 26.6 | 19.6 |
+| `ReloadSpeed` | 0.88636363636364 | 0.71428571428571 | 0.5 | 0.5 | 0.42863665418683 | 0.38319088319088 | 0.33333333333333 |
+| `ShotsPerMag` | 109.8 | 77.5 | 40 | 40 | 30 | 26.8 | 12 |
+| `StatusChance` | 0.307 | 0.28 | 0.246 | 0.22 | 0.197 | 0.14 | 0.1095 |
+| `SustainedDps` | 397.15626013279 | 319.31977010292 | 284.22229007634 | 262.46571428571 | 252.36643222193 | 196.5096656535 | 167.81738037198 |
+| `TotalDamage` | 106.4 | 69.5 | 43.2 | 37.31825 | 34.8 | 26.9 | 19.9 |
 
 **Top 3**
 
@@ -22476,7 +22420,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `AmmoPickup`:
 
-* First place is Twin Grakatas, Dual Coda Torxica (60)
+* First place is Aksondol, Twin Grakatas, Dual Coda Torxica (60)
 * Second place is Aklex, Aklato, Prisma Twin Gremlins, Afuris Prime, Dual Cestra, Telos Akbolto, Tenet Diplos, Akjagara, Akvasto, Akbolto Prime, Akstiletto Prime, Akbolto, Twin Vipers, Aklex Prime, Akmagnus Prime, Secura Dual Cestra, Akzani, Akvasto Prime, Akstiletto, Akjagara Prime, Afuris, Aksomati Prime, Dual Toxocyst, Twin Vipers Wraith, Twin Gremlins, Dex Furis, Akmagnus, Kuva Twin Stubbas, Aksomati (40)
 * Third place is Akarius Prime (6)
 
@@ -22494,21 +22438,21 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `AvgShotDmg`:
 
-* First place is Aklex Prime (187.5)
-* Second place is Akarius Prime (160.48)
-* Third place is Aklex (156)
+* First place is Aksondol (193.76)
+* Second place is Aklex Prime (187.5)
+* Third place is Akarius Prime (160.48)
 
 `BaseDps`:
 
-* First place is Akmagnus Prime (555.66)
-* Second place is Akmagnus (490)
-* Third place is Dual Cestra (487.5)
+* First place is Aksondol (560)
+* Second place is Akmagnus Prime (555.66)
+* Third place is Akmagnus (490)
 
 `BurstDps`:
 
 * First place is Akmagnus Prime (835.71264)
-* Second place is Dual Coda Torxica (648)
-* Third place is Tenet Diplos (620.365312)
+* Second place is Aksondol (775.04)
+* Third place is Dual Coda Torxica (648)
 
 `CritChance`:
 
@@ -22524,9 +22468,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Aklato, Akzani (1.52)
-* Second place is Twin Vipers, Afuris (1.45)
-* Third place is Twin Vipers Wraith (1.41)
+* First place is Aklex, Akarius Prime, Aklato, Prisma Twin Gremlins, Afuris Prime, Dual Cestra, Telos Akbolto, Tenet Diplos, Akjagara, Akvasto, Akbolto Prime, Akstiletto Prime, Akbolto, Twin Vipers, Aklex Prime, Akmagnus Prime, Aksondol, Secura Dual Cestra, Akzani, Akvasto Prime, Akstiletto, Akarius, Akjagara Prime, Twin Grakatas, Afuris, Aksomati Prime, Dual Toxocyst, Twin Vipers Wraith, Twin Gremlins, Dual Coda Torxica, Dex Furis, Akmagnus, Kuva Twin Stubbas, Aksomati (1.2)
 
 `FireRate`:
 
@@ -22538,7 +22480,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Dual Coda Torxica (69120)
 * Second place is Aklex Prime (42375)
-* Third place is Kuva Twin Stubbas (41609.6352)
+* Third place is Aksondol (42239.68)
 
 `MagDmg`:
 
@@ -22555,7 +22497,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `Multishot`:
 
 * First place is Twin Grakatas (2)
-* Second place is Aklex, Akarius Prime, Aklato, Prisma Twin Gremlins, Afuris Prime, Dual Cestra, Telos Akbolto, Tenet Diplos, Akjagara, Akvasto, Akbolto Prime, Akstiletto Prime, Akbolto, Twin Vipers, Aklex Prime, Akmagnus Prime, Secura Dual Cestra, Akzani, Akvasto Prime, Akstiletto, Akarius, Akjagara Prime, Afuris, Aksomati Prime, Dual Toxocyst, Twin Vipers Wraith, Twin Gremlins, Dual Coda Torxica, Dex Furis, Akmagnus, Kuva Twin Stubbas, Aksomati (1)
+* Second place is Aklex, Akarius Prime, Aklato, Prisma Twin Gremlins, Afuris Prime, Dual Cestra, Telos Akbolto, Tenet Diplos, Akjagara, Akvasto, Akbolto Prime, Akstiletto Prime, Akbolto, Twin Vipers, Aklex Prime, Akmagnus Prime, Aksondol, Secura Dual Cestra, Akzani, Akvasto Prime, Akstiletto, Akarius, Akjagara Prime, Afuris, Aksomati Prime, Dual Toxocyst, Twin Vipers Wraith, Twin Gremlins, Dual Coda Torxica, Dex Furis, Akmagnus, Kuva Twin Stubbas, Aksomati (1)
 
 `ReloadSpeed`:
 
@@ -22584,12 +22526,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `TotalDamage`:
 
 * First place is Aklex Prime (150)
-* Second place is Aklex (130)
-* Third place is Akvasto Prime (110)
+* Second place is Aksondol (140)
+* Third place is Aklex (130)
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-245 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-245 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -22603,7 +22546,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 2112.137966 | 1976.634605 | 1603.433968 | 1268.272852 | 933.111736 | 376.99036 | 220.57198 |
 | `CritChance` | 0.306 | 0.225 | 0.166 | 0.15025 | 0.1345 | 0.105 | 0.0825 |
 | `CritMultiplier` | 2.76 | 2.4 | 2.16 | 2.115 | 2.07 | 1.98 | 1.89 |
-| `Disposition` | 1.26 | 1.125 | 0.99 | 0.9225 | 0.855 | 0.74 | 0.695 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 4.449 | 4.3725 | 4.1974 | 4.048225 | 3.89905 | 3.4003 | 2.20015 |
 | `LifetimeDmg` | 34811.792 | 29369.96 | 24618.65472 | 22674.58128 | 20730.50784 | 16704.35424 | 12195.17712 |
 | `MagDmg` | 9361.616 | 8989.16 | 7616.00512 | 6303.99088 | 4991.97664 | 2765.75904 | 1931.87952 |
@@ -22679,9 +22622,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Dual Toxocyst (1.35)
-* Second place is Akarius (1.05)
-* Third place is Tenet Diplos (0.75)
+* First place is Akarius Prime, Tenet Diplos, Akarius, Dual Toxocyst (1.2)
 
 `FireRate`:
 
@@ -22743,15 +22684,18 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### By Trigger Type
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-246 "Edit section's source code: By Trigger Type")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-246 "Edit Section using Source Editor:
+By Trigger Type")]
 
 ##### Auto
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-247 "Edit section's source code: Auto")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-247 "Edit Section using Source Editor:
+Auto")]
 
 ###### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-248 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-248 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -22765,7 +22709,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 559.65 | 517.3305 | 440.9 | 374.865 | 358.128 | 292.576887 | 273.045 |
 | `CritChance` | 0.244 | 0.22 | 0.176 | 0.15825 | 0.15 | 0.149 | 0.136 |
 | `CritMultiplier` | 2.28 | 2 | 2 | 2 | 1.985 | 1.89 | 1.595 |
-| `Disposition` | 1.45 | 1.405 | 1.32 | 1.2 | 1.1925 | 1.09 | 0.945 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 23.5 | 20 | 17.5 | 12.5 | 12.125 | 9.883 | 7.026 |
 | `LifetimeDmg` | 35677.13364 | 18661.5 | 15824.64 | 13742.64 | 10170.873 | 9026.72 | 7584.4352 |
 | `MagDmg` | 5130.65952 | 2379.9075 | 1801.2 | 1700.55 | 1628.1 | 1350.49275 | 894.8912 |
@@ -22840,9 +22784,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Akzani (1.52)
-* Second place is Twin Vipers, Afuris (1.45)
-* Third place is Twin Vipers Wraith (1.41)
+* First place is Prisma Twin Gremlins, Afuris Prime, Dual Cestra, Akstiletto Prime, Twin Vipers, Akzani, Akstiletto, Twin Grakatas, Afuris, Twin Vipers Wraith, Twin Gremlins, Dual Coda Torxica, Dex Furis, Kuva Twin Stubbas (1.2)
 
 `FireRate`:
 
@@ -22905,52 +22847,55 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ##### Semi-Auto
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-249 "Edit section's source code: Semi-Auto")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-249 "Edit Section using Source Editor:
+Semi-Auto")]
 
 ###### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-250 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-250 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `Accuracy` | 26.7 | 21.35 | 16 | 12.325 | 11.1 | 11.1 | 10.45 |
+| `Accuracy` | 26.7 | 24.3 | 16 | 14.8975 | 11.1 | 11.1 | 10.645 |
 | `AmmoMax` | 210 | 210 | 210 | 210 | 210 | 210 | 210 |
 | `AmmoPickup` | 40 | 40 | 40 | 40 | 40 | 40 | 40 |
-| `AvgCritCount` | 0.28 | 0.235 | 0.22 | 0.205 | 0.18 | 0.16 | 0.115 |
-| `AvgProcCount` | 0.29 | 0.265 | 0.22 | 0.22 | 0.18 | 0.12 | 0.08 |
-| `AvgShotDmg` | 156 | 145.636 | 119.56 | 106.03 | 90.31 | 78.75 | 75.424 |
-| `BaseDps` | 490 | 383.4 | 350 | 312.275 | 293.85 | 220 | 202.7 |
-| `BurstDps` | 597.8 | 489.8727 | 395.5 | 370.795 | 357.536 | 338.0616 | 231.24 |
-| `CritChance` | 0.28 | 0.235 | 0.22 | 0.205 | 0.18 | 0.16 | 0.115 |
-| `CritMultiplier` | 2.8 | 2.4 | 2 | 2 | 2 | 2 | 1.9 |
-| `Disposition` | 1.35 | 1.325 | 1.25 | 1.25 | 1.225 | 1.2 | 1.075 |
-| `FireRate` | 5 | 5 | 5 | 4.625 | 3.915 | 3.33 | 2.125 |
-| `LifetimeDmg` | 34632 | 32625.976 | 27020.56 | 23658.22 | 20760.72 | 18800.64 | 14248 |
-| `MagDmg` | 2900.48 | 2365.636 | 2350.08 | 2022.24 | 1892.48 | 1726.56 | 1257.12 |
-| `Magazine` | 30 | 30 | 16 | 16 | 16 | 12 | 12 |
+| `AvgCritCount` | 0.277 | 0.2425 | 0.22 | 0.2155 | 0.198 | 0.16 | 0.1195 |
+| `AvgProcCount` | 0.289 | 0.2575 | 0.22 | 0.22 | 0.216 | 0.126 | 0.086 |
+| `AvgShotDmg` | 184.35 | 149.544 | 134.152 | 115.501 | 100.399 | 78.855 | 76.2976 |
+| `BaseDps` | 549.094 | 422.875 | 359.78 | 338.6825 | 299.115 | 240.4 | 203.51 |
+| `BurstDps` | 757.316 | 524.91875 | 445.67224 | 388.0885 | 362.0576 | 342.39672 | 235.812 |
+| `CritChance` | 0.277 | 0.2425 | 0.22 | 0.2155 | 0.198 | 0.16 | 0.1195 |
+| `CritMultiplier` | 2.78 | 2.45 | 2.24 | 2 | 2 | 2 | 1.93 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
+| `FireRate` | 5 | 5 | 4.8 | 4.3875 | 3.9665 | 3.33 | 2.2885 |
+| `LifetimeDmg` | 41478.912 | 33640.944 | 29973.04 | 26011.858 | 22359.768 | 18855.648 | 15412 |
+| `MagDmg` | 2847.732 | 2361.954 | 2175.232 | 1903.744 | 1864.728 | 1603.024 | 1268.784 |
+| `Magazine` | 30 | 30 | 16 | 16 | 15.8 | 12 | 12 |
 | `Multishot` | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
-| `ReloadSpeed` | 0.71428571428571 | 0.5625 | 0.42553191489362 | 0.4188829787234 | 0.40064102564103 | 0.35714285714286 | 0.33333333333333 |
-| `ShotsPerMag` | 30 | 30 | 16 | 16 | 16 | 12 | 12 |
-| `StatusChance` | 0.29 | 0.265 | 0.22 | 0.22 | 0.18 | 0.12 | 0.08 |
-| `SustainedDps` | 345.0633057256 | 322.74528265552 | 298.9 | 297.19375 | 275.11537769784 | 234.11468144044 | 165.48694316436 |
-| `TotalDamage` | 130 | 104 | 98 | 92 | 82.5 | 70 | 54 |
+| `ReloadSpeed` | 0.70535714285714 | 0.53125 | 0.42198581560284 | 0.40945512820513 | 0.38461538461538 | 0.36538461538462 | 0.33333333333333 |
+| `ShotsPerMag` | 30 | 30 | 16 | 16 | 15.8 | 12 | 12 |
+| `StatusChance` | 0.289 | 0.2575 | 0.22 | 0.22 | 0.216 | 0.126 | 0.086 |
+| `SustainedDps` | 344.25436645739 | 334.4517248248 | 306.68774193548 | 298.388125 | 294.47403776978 | 239.96200362702 | 168.84731182796 |
+| `TotalDamage` | 139 | 115 | 98 | 96.2 | 89.25 | 71.5 | 57 |
 
 **Top 3**
 
 `Accuracy`:
 
 * First place is Telos Akbolto, Akbolto Prime, Akbolto (26.7)
-* Second place is Akvasto Prime, Dual Toxocyst (16)
-* Third place is Aklato, Akvasto, Akmagnus Prime, Akmagnus (11.1)
+* Second place is Aksondol (23.5)
+* Third place is Akvasto Prime, Dual Toxocyst (16)
 
 `AmmoMax`:
 
-* First place is Aklex, Aklato, Telos Akbolto, Akvasto, Akbolto Prime, Akbolto, Aklex Prime, Akmagnus Prime, Akvasto Prime, Akmagnus (210)
+* First place is Aklex, Aklato, Telos Akbolto, Akvasto, Akbolto Prime, Akbolto, Aklex Prime, Akmagnus Prime, Aksondol, Akvasto Prime, Akmagnus (210)
 * Second place is Dual Toxocyst (72)
 
 `AmmoPickup`:
 
-* First place is Aklex, Aklato, Telos Akbolto, Akvasto, Akbolto Prime, Akbolto, Aklex Prime, Akmagnus Prime, Akvasto Prime, Dual Toxocyst, Akmagnus (40)
+* First place is Aksondol (60)
+* Second place is Aklex, Aklato, Telos Akbolto, Akvasto, Akbolto Prime, Akbolto, Aklex Prime, Akmagnus Prime, Akvasto Prime, Dual Toxocyst, Akmagnus (40)
 
 `AvgCritCount`:
 
@@ -22966,21 +22911,21 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `AvgShotDmg`:
 
-* First place is Aklex Prime (187.5)
-* Second place is Aklex (156)
-* Third place is Akmagnus Prime (147.392)
+* First place is Aksondol (193.76)
+* Second place is Aklex Prime (187.5)
+* Third place is Aklex (156)
 
 `BaseDps`:
 
-* First place is Akmagnus Prime (555.66)
-* Second place is Akmagnus (490)
-* Third place is Aklex Prime (400.5)
+* First place is Aksondol (560)
+* Second place is Akmagnus Prime (555.66)
+* Third place is Akmagnus (490)
 
 `BurstDps`:
 
 * First place is Akmagnus Prime (835.71264)
-* Second place is Akmagnus (597.8)
-* Third place is Aklex Prime (500.625)
+* Second place is Aksondol (775.04)
+* Third place is Akmagnus (597.8)
 
 `CritChance`:
 
@@ -22991,14 +22936,12 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `CritMultiplier`:
 
 * First place is Akbolto Prime, Akmagnus Prime (2.8)
-* Second place is Akbolto, Akvasto Prime (2.4)
-* Third place is Aklex, Telos Akbolto, Aklex Prime, Dual Toxocyst, Akmagnus (2)
+* Second place is Aksondol (2.6)
+* Third place is Akbolto, Akvasto Prime (2.4)
 
 `Disposition`:
 
-* First place is Aklato (1.52)
-* Second place is Dual Toxocyst, Akmagnus (1.35)
-* Third place is Akbolto (1.3)
+* First place is Aklex, Aklato, Telos Akbolto, Akvasto, Akbolto Prime, Akbolto, Aklex Prime, Akmagnus Prime, Aksondol, Akvasto Prime, Dual Toxocyst, Akmagnus (1.2)
 
 `FireRate`:
 
@@ -23009,8 +22952,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 `LifetimeDmg`:
 
 * First place is Aklex Prime (42375)
-* Second place is Aklex (34632)
-* Third place is Akmagnus Prime (33310.592)
+* Second place is Aksondol (42239.68)
+* Third place is Aklex (34632)
 
 `MagDmg`:
 
@@ -23026,7 +22969,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Multishot`:
 
-* First place is Aklex, Aklato, Telos Akbolto, Akvasto, Akbolto Prime, Akbolto, Aklex Prime, Akmagnus Prime, Akvasto Prime, Dual Toxocyst, Akmagnus (1)
+* First place is Aklex, Aklato, Telos Akbolto, Akvasto, Akbolto Prime, Akbolto, Aklex Prime, Akmagnus Prime, Aksondol, Akvasto Prime, Dual Toxocyst, Akmagnus (1)
 
 `ReloadSpeed`:
 
@@ -23050,17 +22993,18 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 * First place is Akmagnus Prime (419.48181202158)
 * Second place is Akvasto Prime (345.0633057256)
-* Third place is Aklex Prime (333.61099541858)
+* Third place is Aksondol (336.97391304348)
 
 `TotalDamage`:
 
 * First place is Aklex Prime (150)
-* Second place is Aklex (130)
-* Third place is Akvasto Prime (110)
+* Second place is Aksondol (140)
+* Third place is Aklex (130)
 
 ###### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-251 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-251 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -23074,7 +23018,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 411.75 | 411.75 | 411.75 | 411.75 | 411.75 | 411.75 | 411.75 |
 | `CritChance` | 0.11 | 0.11 | 0.11 | 0.11 | 0.11 | 0.11 | 0.11 |
 | `CritMultiplier` | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
-| `Disposition` | 1.35 | 1.35 | 1.35 | 1.35 | 1.35 | 1.35 | 1.35 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 4.5 | 4.5 | 4.5 | 4.5 | 4.5 | 4.5 | 4.5 |
 | `LifetimeDmg` | 7686 | 7686 | 7686 | 7686 | 7686 | 7686 | 7686 |
 | `MagDmg` | 1098 | 1098 | 1098 | 1098 | 1098 | 1098 | 1098 |
@@ -23130,7 +23074,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Dual Toxocyst (1.35)
+* First place is Dual Toxocyst (1.2)
 
 `FireRate`:
 
@@ -23174,11 +23118,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Pistol
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-252 "Edit section's source code: Pistol")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-252 "Edit Section using Source Editor:
+Pistol")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-253 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-253 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -23192,7 +23138,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 614.050128 | 463.81875 | 345.6 | 313.0185 | 279.986 | 232.78 | 147.414375 |
 | `CritChance` | 0.3 | 0.25 | 0.2 | 0.18425 | 0.16 | 0.121 | 0.0555 |
 | `CritMultiplier` | 2.8 | 2.3 | 2 | 2 | 2 | 1.8 | 1.555 |
-| `Disposition` | 1.45 | 1.35 | 1.25 | 1.2 | 1.1825 | 1.1 | 0.8275 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 19.7 | 19.25 | 19 | 19 | 19 | 17.3 | 9.65 |
 | `FalloffRate` | 19.858464300859 | 13.644720694546 | 10.192640913261 | 10.192640913261 | 10.192640913261 | 9.3733768219346 | 5.6866884109673 |
 | `FireRate` | 12 | 8.33 | 5 | 5 | 4 | 2.533 | 2 |
@@ -23270,9 +23216,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Magnus, Kraken (1.53)
-* Second place is Cestra (1.52)
-* Third place is Bolto (1.51)
+* First place is Seer, Sagek Prime, Bolto, Catabolyst, Vasto Prime, Zylok Prime, Quatz, Sepulcrum, Acrid, Pandero Prime, Onos, Atomos, Zymos, EFV-8 Mars, Nukor, Kuva Nukor, Kulstar, Pandero, Hystrix Prime, Ocucor, Angstrum, Athodai, Sicarus Prime, Prisma Angstrum, Cycron, Velox, Coda Tysis, Synoid Gammacor, Velox Prime, Vasto, Epitaph Prime, Viper Wraith, Kuva Kraken, Laetum, Kompressa, Mk1-Furis, Sonicor, Kompressa Prime, Embolist, Zylok, Zakti Prime, Zakti, Hystrix, Viper, Vesper 77, Vaykor Marelok, Tysis, Furis, Lato, Magnus, Spectra Vandal, Tenet Plinx, Tenet Cycron, Riot-848, Kuva Seer, Stug, Stubba, Tenet Spirex, Lex, Cyanex, Spectra, Sicarus, Azima, Kraken, Coda Catabolyst, Marelok, Magnus Prime, Lex Prime, Arca Scisco, Plinx, Lato Vandal, Athodai Prime, Knell Prime, Cestra, Knell, Gammacor, Lato Prime, Epitaph (1.2)
 
 `FalloffEnd`:
 
@@ -23347,7 +23291,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-254 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-254 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -23361,7 +23306,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 1118.208 | 711.87408 | 562.688 | 485.952 | 418.49568 | 204 | 108.17365 |
 | `CritChance` | 0.3 | 0.275 | 0.22 | 0.2 | 0.19 | 0.16 | 0.08 |
 | `CritMultiplier` | 3 | 2.9 | 2.4 | 2.3 | 2.2 | 2 | 1.8 |
-| `Disposition` | 1.4 | 1.275 | 1.2 | 1.1625 | 1.125 | 1.05 | 0.85 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 20.8 | 9.95 | 3.6 | 3.545 | 3.32 | 2.34 | 1.57 |
 | `FalloffRate` | 19.531652141111 | 14 | 11.6 | 10.4 | 9.8 | 8.8 | 5.1666666666667 |
 | `FireRate` | 12 | 5 | 4 | 3.3725 | 2.5 | 1.83 | 1 |
@@ -23439,9 +23384,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Cestra (1.52)
-* Second place is Stug (1.48)
-* Third place is Tysis (1.45)
+* First place is Catabolyst, Vasto Prime, Zylok Prime, Quatz, Sepulcrum, Pandero Prime, Onos, Atomos, Zymos, EFV-8 Mars, Kulstar, Pandero, Hystrix Prime, Angstrum, Athodai, Sicarus Prime, Prisma Angstrum, Coda Tysis, Synoid Gammacor, Vasto, Epitaph Prime, Kuva Kraken, Laetum, Kompressa, Mk1-Furis, Sonicor, Kompressa Prime, Zylok, Zakti Prime, Zakti, Hystrix, Tysis, Furis, Lato, Tenet Plinx, Riot-848, Kuva Seer, Stug, Tenet Spirex, Lex, Cyanex, Sicarus, Azima, Coda Catabolyst, Lex Prime, Lato Vandal, Athodai Prime, Cestra, Gammacor, Lato Prime, Epitaph (1.2)
 
 `FalloffEnd`:
 
@@ -23517,7 +23460,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-255 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-255 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -23531,7 +23475,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 2627.79825 | 997.35 | 844.368 | 720.348 | 483.8581 | 351.091776 | 209.532 |
 | `CritChance` | 0.37 | 0.26 | 0.212 | 0.2 | 0.18 | 0.143 | 0.0845 |
 | `CritMultiplier` | 3 | 2.775 | 2.26 | 2.2 | 2.2 | 2 | 1.8 |
-| `Disposition` | 1.3 | 1.2 | 1.13 | 1.1 | 1.0225 | 0.915 | 0.6725 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 7.97 | 6 | 5.8 | 5 | 5 | 3.27 | 2.95 |
 | `FalloffRate` | 16.166666666667 | 12.125 | 10 | 10 | 10 | 9.9875 | 5.8875 |
 | `FireRate` | 7 | 6.375 | 4.402 | 2.05 | 1.6125 | 1.099 | 1 |
@@ -23609,9 +23553,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Stug (1.48)
-* Second place is Angstrum (1.35)
-* Third place is Kulstar, Prisma Angstrum (1.3)
+* First place is Catabolyst, Zylok Prime, Sepulcrum, Onos, Atomos, Zymos, EFV-8 Mars, Kulstar, Hystrix Prime, Angstrum, Prisma Angstrum, Synoid Gammacor, Epitaph Prime, Laetum, Zylok, Hystrix, Tenet Plinx, Stug, Cyanex, Coda Catabolyst, Gammacor, Epitaph (1.2)
 
 `FalloffEnd`:
 
@@ -23686,7 +23628,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-256 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-256 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -23700,7 +23643,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 937.35808 | 844.8 | 489.9584 | 445.1336 | 387.9456 | 261.6984 | 211.7544 |
 | `CritChance` | 0.38 | 0.31 | 0.304 | 0.286 | 0.264 | 0.198 | 0.154 |
 | `CritMultiplier` | 3.04 | 2.9 | 2.78 | 2.42 | 2.3 | 2.24 | 2.2 |
-| `Disposition` | 1.336 | 1.2 | 1.2 | 1.2 | 1.16 | 1.04 | 0.84 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 3.63 | 3.225 | 3 | 3 | 3 | 2.73 | 1.515 |
 | `FalloffRate` | 13.5 | 11.25 | 9.95 | 9.89375 | 9.8375 | 8.875 | 4.9375 |
 | `FireRate` | 12 | 7 | 6.4 | 4.6 | 3.2 | 1.598 | 1.066 |
@@ -23778,9 +23721,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Stug (1.48)
-* Second place is Kulstar (1.3)
-* Third place is Catabolyst, Zymos, Hystrix (1.2)
+* First place is Catabolyst, Sepulcrum, Onos, Zymos, Kulstar, Hystrix Prime, Hystrix, Stug, Coda Catabolyst (1.2)
 
 `FalloffEnd`:
 
@@ -23856,7 +23797,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 5
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-257 "Edit section's source code: Attack Index 5")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-257 "Edit Section using Source Editor:
+Attack Index 5")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -23870,7 +23812,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 53580.69864 | 43615.1898 | 31029.05022 | 23098.0862175 | 15167.122215 | 2639.06039 | 1779.530195 |
 | `CritChance` | 0.31 | 0.31 | 0.278 | 0.242 | 0.206 | 0.14 | 0.095 |
 | `CritMultiplier` | 2.9 | 2.9 | 2.78 | 2.645 | 2.51 | 2.27 | 2.135 |
-| `Disposition` | 1.396 | 1.27 | 1.2 | 1.2 | 1.2 | 1.145 | 0.8975 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 6.4 | 5.5 | 4.66 | 4.2775 | 3.895 | 3.12 | 2.31 |
 | `FalloffRate` | 13.4 | 12.5 | 11.6 | 11.15 | 10.9 | 10.6 | 10.3 |
 | `FireRate` | 12 | 12 | 10.4 | 8.6 | 6.8 | 3.733 | 2.5315 |
@@ -23947,9 +23889,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Stug (1.48)
-* Second place is Catabolyst, Zymos (1.2)
-* Third place is Coda Catabolyst (0.65)
+* First place is Catabolyst, Zymos, Stug, Coda Catabolyst (1.2)
 
 `FalloffEnd`:
 
@@ -24025,15 +23965,18 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### By Trigger Type
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-258 "Edit section's source code: By Trigger Type")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-258 "Edit Section using Source Editor:
+By Trigger Type")]
 
 ##### Auto
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-259 "Edit section's source code: Auto")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-259 "Edit Section using Source Editor:
+Auto")]
 
 ###### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-260 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-260 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -24047,7 +23990,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 431.93104 | 381.384 | 271.83952 | 250.62046275 | 229.331908 | 134.4 | 99.662475 |
 | `CritChance` | 0.286 | 0.255 | 0.206 | 0.18775 | 0.16 | 0.141 | 0.06 |
 | `CritMultiplier` | 2.2 | 2.15 | 2 | 2 | 2 | 1.81 | 1.71 |
-| `Disposition` | 1.415 | 1.35 | 1.25 | 1.24625 | 1.1825 | 1 | 0.8275 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 14.566 | 11.7475 | 8.664 | 8.30525 | 7.65 | 6.397 | 3.6985 |
 | `LifetimeDmg` | 19189.5648 | 17515.062 | 13373.7984 | 12666.444 | 8902.0925 | 5159.7 | 1631.7348 |
 | `MagDmg` | 2384.8569 | 1718.664 | 1109.8688 | 741.3714 | 644.9625 | 273.105 | 212.7972 |
@@ -24123,9 +24066,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Cestra (1.52)
-* Second place is Viper (1.45)
-* Third place is Viper Wraith, Mk1-Furis (1.4)
+* First place is Sagek Prime, Onos, Hystrix Prime, Velox, Velox Prime, Viper Wraith, Kompressa, Mk1-Furis, Kompressa Prime, Hystrix, Viper, Furis, Riot-848, Stubba, Azima, Knell Prime, Cestra, Knell (1.2)
 
 `FireRate`:
 
@@ -24188,7 +24129,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-261 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-261 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -24202,7 +24144,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 1102.08 | 825.28704 | 676.659264 | 644.805608 | 590.328464 | 481.7232 | 384.9832 |
 | `CritChance` | 0.302 | 0.26 | 0.248 | 0.229 | 0.202 | 0.16 | 0.147 |
 | `CritMultiplier` | 3.04 | 2.8 | 2.2 | 2.2 | 2.2 | 1.94 | 1.8 |
-| `Disposition` | 1.412 | 1.325 | 1.22 | 1.18625 | 1.1525 | 1 | 0.87 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 12 | 9.5 | 7.4 | 7 | 7 | 5.668 | 3.33 |
 | `LifetimeDmg` | 40609.2 | 31150.08 | 23375.9232 | 20630.1816 | 20583.4608 | 14361.384 | 3272.8104 |
 | `MagDmg` | 5715.6 | 2827.656 | 2263.9104 | 1808.8512 | 1062.8736 | 935.6032 | 711.272 |
@@ -24277,9 +24219,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Cestra (1.52)
-* Second place is Mk1-Furis (1.4)
-* Third place is Furis (1.35)
+* First place is Onos, Hystrix Prime, Kompressa, Mk1-Furis, Kompressa Prime, Hystrix, Furis, Riot-848, Azima, Cestra (1.2)
 
 `FireRate`:
 
@@ -24342,7 +24282,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-262 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-262 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -24356,7 +24297,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 893.8784 | 719.996 | 546.1136 | 459.1724 | 423.2368 | 402.3712 | 381.5056 |
 | `CritChance` | 0.36 | 0.33 | 0.3 | 0.285 | 0.276 | 0.264 | 0.252 |
 | `CritMultiplier` | 3 | 2.7 | 2.4 | 2.25 | 2.2 | 2.2 | 2.2 |
-| `Disposition` | 1.16 | 1.1 | 1.04 | 1.01 | 0.98 | 0.92 | 0.86 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 7 | 7 | 7 | 7 | 6.325 | 4.3 | 2.275 |
 | `LifetimeDmg` | 19981.5168 | 18979.968 | 17978.4192 | 17477.6448 | 15579.648 | 10386.432 | 5193.216 |
 | `MagDmg` | 951.5008 | 903.808 | 856.1152 | 832.2688 | 741.888 | 494.592 | 247.296 |
@@ -24427,9 +24368,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Hystrix (1.2)
-* Second place is Hystrix Prime (1)
-* Third place is Onos (0.8)
+* First place is Onos, Hystrix Prime, Hystrix (1.2)
 
 `FireRate`:
 
@@ -24484,7 +24423,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-263 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-263 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -24498,7 +24438,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 489.9584 | 467.546 | 445.1336 | 433.9274 | 419.6304 | 387.9456 | 356.2608 |
 | `CritChance` | 0.36 | 0.33 | 0.3 | 0.285 | 0.276 | 0.264 | 0.252 |
 | `CritMultiplier` | 3 | 2.7 | 2.4 | 2.25 | 2.2 | 2.2 | 2.2 |
-| `Disposition` | 1.16 | 1.1 | 1.04 | 1.01 | 0.98 | 0.92 | 0.86 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 7 | 7 | 7 | 7 | 6.325 | 4.3 | 2.275 |
 | `LifetimeDmg` | 375736.2432 | 242578.608 | 109420.9728 | 42842.1552 | 20142.2592 | 18621.3888 | 17100.5184 |
 | `MagDmg` | 32510.2592 | 20687.648 | 8865.0368 | 2953.7312 | 959.1552 | 886.7328 | 814.3104 |
@@ -24569,9 +24509,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Hystrix (1.2)
-* Second place is Hystrix Prime (1)
-* Third place is Onos (0.8)
+* First place is Onos, Hystrix Prime, Hystrix (1.2)
 
 `FireRate`:
 
@@ -24630,11 +24568,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ##### Held
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-264 "Edit section's source code: Held")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-264 "Edit Section using Source Editor:
+Held")]
 
 ###### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-265 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-265 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -24648,7 +24588,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 713.136 | 430.08 | 305.3568 | 302.4288 | 291.48 | 252.312 | 232.6976 |
 | `CritChance` | 0.2 | 0.16 | 0.142 | 0.126 | 0.114 | 0.098 | 0.062 |
 | `CritMultiplier` | 3.78 | 2.9 | 2 | 2 | 1.88 | 1.8 | 1.78 |
-| `Disposition` | 1.45 | 1.4 | 1.2 | 1.2 | 1.17 | 1.04 | 0.69 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 19 | 19 | 19 | 19 | 19 | 19 | 19 |
 | `FalloffRate` | 10.192640913261 | 10.192640913261 | 10.192640913261 | 10.192640913261 | 10.192640913261 | 10.192640913261 | 10.192640913261 |
 | `FireRate` | 12 | 12 | 12 | 12 | 12 | 11.2 | 9.6 |
@@ -24725,9 +24665,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Spectra (1.49)
-* Second place is Nukor, Spectra Vandal (1.45)
-* Third place is Embolist (1.4)
+* First place is Catabolyst, Atomos, Nukor, Kuva Nukor, Ocucor, Cycron, Synoid Gammacor, Embolist, Spectra Vandal, Tenet Cycron, Spectra, Coda Catabolyst, Gammacor (1.2)
 
 `FalloffEnd`:
 
@@ -24797,7 +24735,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-266 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-266 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -24811,7 +24750,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 541.21344 | 204 | 177.3528 | 164.0292 | 151.6704 | 127.9176 | 107.584 |
 | `CritChance` | 0.192 | 0.18 | 0.156 | 0.144 | 0.134 | 0.116 | 0.11 |
 | `CritMultiplier` | 2.96 | 2.9 | 2.9 | 2.9 | 2.72 | 2.18 | 1.92 |
-| `Disposition` | 1.18 | 1.15 | 1.12 | 1.105 | 1.07 | 0.98 | 0.83 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 12 | 12 | 5.7 | 2.55 | 1.4 | 1.1 | 1 |
 | `LifetimeDmg` | 57408 | 57120 | 38860.8 | 29731.2 | 23801.67168 | 15142.68672 | 8343.26064 |
 | `MagDmg` | 9568 | 9520 | 7010.56 | 5755.84 | 4742.46048 | 2957.04192 | 1582.04904 |
@@ -24885,9 +24824,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Catabolyst (1.2)
-* Second place is Gammacor (1.15)
-* Third place is Synoid Gammacor (1.1)
+* First place is Catabolyst, Atomos, Synoid Gammacor, Coda Catabolyst, Gammacor (1.2)
 
 `FireRate`:
 
@@ -24950,7 +24887,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-267 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-267 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -24964,7 +24902,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 4269.99456 | 2945.124 | 1754.0496 | 1158.5124 | 951.6 | 926.4 | 844.368 |
 | `CritChance` | 0.192 | 0.18 | 0.156 | 0.144 | 0.134 | 0.116 | 0.11 |
 | `CritMultiplier` | 2.96 | 2.9 | 2.9 | 2.9 | 2.72 | 2.18 | 1.92 |
-| `Disposition` | 1.18 | 1.15 | 1.12 | 1.105 | 1.07 | 0.98 | 0.83 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 12 | 12 | 5.7 | 2.55 | 1.4 | 1.1 | 1 |
 | `LifetimeDmg` | 379296 | 257040 | 234921.6 | 223862.4 | 192631.17312 | 109996.69248 | 67730.88816 |
 | `MagDmg` | 63694.08 | 44035.2 | 43318.08 | 42959.52 | 37449.83232 | 21279.32928 | 12576.79176 |
@@ -25039,9 +24977,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Catabolyst (1.2)
-* Second place is Gammacor (1.15)
-* Third place is Synoid Gammacor (1.1)
+* First place is Catabolyst, Atomos, Synoid Gammacor, Coda Catabolyst, Gammacor (1.2)
 
 `FireRate`:
 
@@ -25104,7 +25040,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-268 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-268 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -25118,7 +25055,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 927.08616 | 807.5298 | 687.97344 | 628.19526 | 568.41708 | 448.86072 | 329.30436 |
 | `CritChance` | 0.31 | 0.31 | 0.31 | 0.31 | 0.31 | 0.31 | 0.31 |
 | `CritMultiplier` | 2.9 | 2.9 | 2.9 | 2.9 | 2.9 | 2.9 | 2.9 |
-| `Disposition` | 1.145 | 1.0625 | 0.98 | 0.93875 | 0.8975 | 0.815 | 0.7325 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 12 | 12 | 12 | 12 | 12 | 12 | 12 |
 | `LifetimeDmg` | 14822.89116 | 12894.2583 | 10965.62544 | 10001.30901 | 9036.99258 | 7108.35972 | 5179.72686 |
 | `MagDmg` | 2848.02826 | 2463.66505 | 2079.30184 | 1887.120235 | 1694.93863 | 1310.57542 | 926.21221 |
@@ -25179,8 +25116,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Catabolyst (1.2)
-* Second place is Coda Catabolyst (0.65)
+* First place is Catabolyst, Coda Catabolyst (1.2)
 
 `FireRate`:
 
@@ -25231,7 +25167,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 5
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-269 "Edit section's source code: Attack Index 5")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-269 "Edit Section using Source Editor:
+Attack Index 5")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -25245,7 +25182,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 58009.81368 | 54687.9774 | 51366.14112 | 49705.22298 | 48044.30484 | 44722.46856 | 41400.63228 |
 | `CritChance` | 0.31 | 0.31 | 0.31 | 0.31 | 0.31 | 0.31 | 0.31 |
 | `CritMultiplier` | 2.9 | 2.9 | 2.9 | 2.9 | 2.9 | 2.9 | 2.9 |
-| `Disposition` | 1.145 | 1.0625 | 0.98 | 0.93875 | 0.8975 | 0.815 | 0.7325 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 12 | 12 | 12 | 12 | 12 | 12 | 12 |
 | `LifetimeDmg` | 926253.07908 | 870247.7889 | 814242.49872 | 786239.85363 | 758237.20854 | 702231.91836 | 646226.62818 |
 | `MagDmg` | 176959.65238 | 163861.41415 | 150763.17592 | 144214.056805 | 137664.93769 | 124566.69946 | 111468.46123 |
@@ -25306,8 +25243,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Catabolyst (1.2)
-* Second place is Coda Catabolyst (0.65)
+* First place is Catabolyst, Coda Catabolyst (1.2)
 
 `FireRate`:
 
@@ -25358,11 +25294,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ##### Semi-Auto
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-270 "Edit section's source code: Semi-Auto")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-270 "Edit Section using Source Editor:
+Semi-Auto")]
 
 ###### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-271 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-271 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -25376,7 +25314,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 564.18432 | 462 | 344 | 317.445 | 273.31554 | 216.41025 | 166.26 |
 | `CritChance` | 0.27 | 0.235 | 0.2 | 0.2 | 0.1725 | 0.115 | 0.05 |
 | `CritMultiplier` | 2.6 | 2.4 | 2 | 2 | 2 | 1.8 | 1.5 |
-| `Disposition` | 1.475 | 1.35 | 1.3 | 1.25 | 1.2125 | 1.175 | 1.1 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 20 | 20 | 20 | 20 | 20 | 20 | 20 |
 | `FalloffRate` | 24.000960038402 | 24.000960038402 | 24.000960038402 | 24.000960038402 | 24.000960038402 | 24.000960038402 | 24.000960038402 |
 | `FireRate` | 5 | 4.62525 | 3.33 | 2.5 | 2.5 | 2.08 | 2 |
@@ -25454,9 +25392,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Magnus (1.53)
-* Second place is Bolto (1.51)
-* Third place is Seer (1.5)
+* First place is Seer, Bolto, Vasto Prime, Acrid, Zymos, Kulstar, Coda Tysis, Vasto, Sonicor, Zakti Prime, Zakti, Vesper 77, Vaykor Marelok, Tysis, Lato, Magnus, Kuva Seer, Tenet Spirex, Lex, Marelok, Magnus Prime, Lex Prime, Arca Scisco, Plinx, Lato Vandal, Lato Prime (1.2)
 
 `FalloffEnd`:
 
@@ -25526,7 +25462,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-272 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-272 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -25540,7 +25477,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 1242.504 | 1034.08 | 562.688 | 551.6 | 500.69984 | 366.082 | 73.1633625 |
 | `CritChance` | 0.345 | 0.3 | 0.26 | 0.205 | 0.1675 | 0.115 | 0.0575 |
 | `CritMultiplier` | 3.1 | 3 | 2.6 | 2.3875 | 2.3 | 2 | 1.825 |
-| `Disposition` | 1.4 | 1.35 | 1.3 | 1.25 | 1.2375 | 1.175 | 1.1 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 32 | 18 | 3.88 | 3.82 | 3.68 | 3.38 | 2.5 |
 | `FalloffRate` | 19.531652141111 | 16.39163635729 | 14.139271583646 | 11.784817895912 | 10.7 | 9.95 | 9.5416666666667 |
 | `FireRate` | 4.5 | 3.625 | 2.5 | 2.47875 | 2.2475 | 1.29 | 0.67 |
@@ -25618,9 +25555,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Tysis (1.45)
-* Second place is Vasto, Lato (1.4)
-* Third place is Vasto Prime, Lato Vandal, Lato Prime (1.35)
+* First place is Vasto Prime, Zymos, Kulstar, Coda Tysis, Vasto, Sonicor, Zakti Prime, Zakti, Tysis, Lato, Kuva Seer, Tenet Spirex, Lex, Lex Prime, Lato Vandal, Lato Prime (1.2)
 
 `FalloffEnd`:
 
@@ -25696,7 +25631,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-273 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-273 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -25710,7 +25646,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 1269.834165 | 1149.7701375 | 1029.70611 | 969.67409625 | 909.6420825 | 789.578055 | 669.5140275 |
 | `CritChance` | 0.158 | 0.14 | 0.122 | 0.113 | 0.104 | 0.086 | 0.068 |
 | `CritMultiplier` | 2.3 | 2.3 | 2.3 | 2.3 | 2.3 | 2.3 | 2.3 |
-| `Disposition` | 1.29 | 1.275 | 1.26 | 1.2525 | 1.245 | 1.23 | 1.215 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 3.3 | 3.3 | 3.3 | 3.3 | 3.3 | 3.3 | 3.3 |
 | `FalloffRate` | 11 | 11 | 11 | 11 | 11 | 11 | 11 |
 | `FireRate` | 1.933 | 1.8325 | 1.732 | 1.68175 | 1.6315 | 1.531 | 1.4305 |
@@ -25777,8 +25713,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kulstar (1.3)
-* Second place is Zymos (1.2)
+* First place is Zymos, Kulstar (1.2)
 
 `FalloffEnd`:
 
@@ -25840,7 +25775,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-274 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-274 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -25854,7 +25790,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 217.34901 | 213.702525 | 210.05604 | 208.2327975 | 206.409555 | 202.76307 | 199.116585 |
 | `CritChance` | 0.158 | 0.14 | 0.122 | 0.113 | 0.104 | 0.086 | 0.068 |
 | `CritMultiplier` | 2.3 | 2.3 | 2.3 | 2.3 | 2.3 | 2.3 | 2.3 |
-| `Disposition` | 1.29 | 1.275 | 1.26 | 1.2525 | 1.245 | 1.23 | 1.215 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 3.9 | 3.9 | 3.9 | 3.9 | 3.9 | 3.9 | 3.9 |
 | `FalloffRate` | 9.75 | 9.75 | 9.75 | 9.75 | 9.75 | 9.75 | 9.75 |
 | `FireRate` | 1.933 | 1.8325 | 1.732 | 1.68175 | 1.6315 | 1.531 | 1.4305 |
@@ -25921,8 +25857,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kulstar (1.3)
-* Second place is Zymos (1.2)
+* First place is Zymos, Kulstar (1.2)
 
 `FalloffEnd`:
 
@@ -25984,7 +25919,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 5
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-275 "Edit section's source code: Attack Index 5")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-275 "Edit Section using Source Editor:
+Attack Index 5")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -26108,11 +26044,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Shotgun Sidearm
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-276 "Edit section's source code: Shotgun Sidearm")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-276 "Edit Section using Source Editor:
+Shotgun Sidearm")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-277 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-277 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -26126,7 +26064,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 1548 | 1434.063 | 1246.56 | 1239 | 1203.24 | 969.696 | 828.9615 |
 | `CritChance` | 0.29 | 0.22 | 0.18 | 0.1725 | 0.14 | 0.08 | 0.06 |
 | `CritMultiplier` | 2.2 | 2 | 2 | 2 | 2 | 2 | 1.75 |
-| `Disposition` | 1.4 | 1.3 | 1.15 | 1.15 | 1.075 | 0.95 | 0.95 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 37.6 | 30 | 26.4 | 23.45 | 22.1 | 21.4 | 18.7 |
 | `FalloffRate` | 30.049788755281 | 21.956056647876 | 19.249690636601 | 17.263741774996 | 14.638380677259 | 13.729051864777 | 11.02759009009 |
 | `FireRate` | 5 | 4.17 | 4 | 4 | 3.665 | 3.33 | 2.415 |
@@ -26202,9 +26140,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Bronco (1.45)
-* Second place is Bronco Prime (1.4)
-* Third place is Kohmak (1.35)
+* First place is Euphona Prime, Bronco, Pyrana Prime, Kuva Brakk, Brakk, Detron, Kohmak, Bronco Prime, Tenet Detron, Mara Detron, Pyrana (1.2)
 
 `FalloffEnd`:
 
@@ -26280,7 +26216,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-278 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-278 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -26294,7 +26231,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 1244.2368 | 1090.992 | 1025.4528 | 992.6832 | 951.908 | 862.352 | 715.1 |
 | `CritChance` | 0.224 | 0.2 | 0.188 | 0.182 | 0.166 | 0.124 | 0.074 |
 | `CritMultiplier` | 3.12 | 3 | 2.4 | 2.1 | 2 | 2 | 2 |
-| `Disposition` | 1.43 | 1.4 | 1.37 | 1.355 | 1.28 | 1.07 | 0.98 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 45.6 | 36 | 31.2 | 28.8 | 27.2 | 24.8 | 19.2 |
 | `FalloffRate` | 63.58348557392 | 32.211882605583 | 28.283469815836 | 26.319263420962 | 23.411737569411 | 16.653366409633 | 11.068021114533 |
 | `FireRate` | 4.2 | 3 | 2.7 | 2.55 | 2.4 | 2.1 | 1.8 |
@@ -26370,9 +26307,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Bronco (1.45)
-* Second place is Bronco Prime (1.4)
-* Third place is Kohmak (1.35)
+* First place is Euphona Prime, Bronco, Kohmak, Bronco Prime, Tenet Detron (1.2)
 
 `FalloffEnd`:
 
@@ -26447,15 +26382,18 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### By Trigger Type
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-279 "Edit section's source code: By Trigger Type")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-279 "Edit Section using Source Editor:
+By Trigger Type")]
 
 ##### Semi-Auto
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-280 "Edit section's source code: Semi-Auto")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-280 "Edit Section using Source Editor:
+Semi-Auto")]
 
 ###### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-281 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-281 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -26469,7 +26407,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 1547.442 | 1396.815 | 1215.936 | 1181.484 | 1109.9088 | 965.9664 | 926.6307 |
 | `CritChance` | 0.294 | 0.23 | 0.134 | 0.0935 | 0.074 | 0.06 | 0.058 |
 | `CritMultiplier` | 2.2 | 2 | 2 | 2 | 2 | 1.9 | 1.5 |
-| `Disposition` | 1.42 | 1.325 | 1.21 | 1.165 | 1.15 | 1.11 | 0.95 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 26 | 22 | 22 | 21.25 | 20.5 | 19 | 17 |
 | `FalloffRate` | 20.366666666667 | 17.360977371208 | 14.443909484834 | 13.588254238832 | 12.73259899283 | 11.289414414414 | 10.145833333333 |
 | `FireRate` | 5 | 4.585 | 4.102 | 4.0255 | 3.799 | 3.33 | 3.147 |
@@ -26544,9 +26482,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Bronco (1.45)
-* Second place is Bronco Prime (1.4)
-* Third place is Brakk (1.25)
+* First place is Euphona Prime, Bronco, Kuva Brakk, Brakk, Detron, Bronco Prime, Mara Detron (1.2)
 
 `FalloffEnd`:
 
@@ -26622,7 +26558,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-282 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-282 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -26636,7 +26573,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 1295.3184 | 1218.696 | 1142.0736 | 1103.7624 | 1035.7928 | 870.1952 | 704.5976 |
 | `CritChance` | 0.232 | 0.22 | 0.208 | 0.202 | 0.182 | 0.128 | 0.074 |
 | `CritMultiplier` | 3.16 | 3.1 | 3.04 | 3.01 | 2.9 | 2.6 | 2.3 |
-| `Disposition` | 1.44 | 1.425 | 1.41 | 1.4025 | 1.355 | 1.22 | 1.085 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 34.4 | 32 | 29.6 | 28.4 | 26.4 | 21.6 | 16.8 |
 | `FalloffRate` | 30.902411675667 | 28.938205280794 | 26.97399888592 | 25.991895688483 | 23.70499403558 | 17.82639227431 | 11.94779051304 |
 | `FireRate` | 2.9 | 2.75 | 2.6 | 2.525 | 2.4 | 2.1 | 1.8 |
@@ -26710,9 +26647,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Bronco (1.45)
-* Second place is Bronco Prime (1.4)
-* Third place is Euphona Prime (0.95)
+* First place is Euphona Prime, Bronco, Bronco Prime (1.2)
 
 `FalloffEnd`:
 
@@ -26786,11 +26721,13 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ### Thrown
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-283 "Edit section's source code: Thrown")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-283 "Edit Section using Source Editor:
+Thrown")]
 
 #### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-284 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-284 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -26804,7 +26741,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 529.4592 | 353.646 | 261.097404 | 233.169948 | 213.336 | 179.414016 | 148.129056 |
 | `CritChance` | 0.3 | 0.24 | 0.204 | 0.168 | 0.144 | 0.08 | 0.054 |
 | `CritMultiplier` | 2.28 | 2 | 2 | 2 | 2 | 1.78 | 1.6 |
-| `Disposition` | 1.468 | 1.35 | 1.33 | 1.3 | 1.26 | 1.17 | 1 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 3.92 | 3.8 | 3.68 | 3.62 | 3.6 | 3.6 | 3.6 |
 | `FalloffRate` | 9 | 9 | 9 | 9 | 8.9 | 8.6 | 8.3 |
 | `FireRate` | 4.432 | 3.33 | 3.33 | 3.33 | 3.33 | 2.764 | 2.208 |
@@ -26881,9 +26818,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kunai, Mk1-Kunai (1.51)
-* Second place is Talons (1.44)
-* Third place is Castanas (1.4)
+* First place is Castanas, Kunai, Coda Pox, Spira, Staticor, Spira Prime, Hikou Prime, Hikou, Cantare, Mk1-Kunai, Scyotid, Fusilai, Sancti Castanas, Talons, Pox, Aegrit, Despair (1.2)
 
 `FalloffEnd`:
 
@@ -26956,7 +26891,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-285 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-285 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -26970,7 +26906,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 1216.449 | 669.4965 | 336.7593 | 312.9228 | 307 | 213.95232 | 68.2112 |
 | `CritChance` | 0.294 | 0.225 | 0.164 | 0.131 | 0.099 | 0.08 | 0.023 |
 | `CritMultiplier` | 2.38 | 2.05 | 2 | 2 | 2 | 2 | 1.5 |
-| `Disposition` | 1.503 | 1.41 | 1.35 | 1.33875 | 1.295 | 1.06 | 0.965 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 6 | 3.8 | 3.6 | 3.6 | 3.36 | 2.74 | 2.49 |
 | `FalloffRate` | 11.314285714286 | 9 | 9 | 9 | 8.8 | 8.2 | 8 |
 | `FireRate` | 3.33 | 3.33 | 3.33 | 3.25575 | 2.95 | 1.72 | 1.325 |
@@ -27048,9 +26984,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kunai, Mk1-Kunai (1.51)
-* Second place is Talons (1.44)
-* Third place is Castanas (1.4)
+* First place is Castanas, Kunai, Coda Pox, Staticor, Mk1-Kunai, Scyotid, Fusilai, Sancti Castanas, Talons, Pox, Aegrit, Despair (1.2)
 
 `FalloffEnd`:
 
@@ -27126,7 +27060,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-286 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-286 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -27140,7 +27075,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 696.3392 | 588.848 | 481.3568 | 427.6112 | 373.8656 | 266.3744 | 158.8832 |
 | `CritChance` | 0.284 | 0.26 | 0.236 | 0.224 | 0.212 | 0.188 | 0.164 |
 | `CritMultiplier` | 2.92 | 2.8 | 2.68 | 2.62 | 2.56 | 2.44 | 2.32 |
-| `Disposition` | 1.26 | 1.2 | 1.14 | 1.11 | 1.08 | 1.02 | 0.96 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 4 | 4 | 4 | 4 | 4 | 4 | 4 |
 | `FalloffRate` | 20 | 20 | 20 | 20 | 20 | 20 | 20 |
 | `FireRate` | 3.45 | 3.375 | 3.3 | 3.2625 | 3.225 | 3.15 | 3.075 |
@@ -27208,8 +27143,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Despair (1.3)
-* Second place is Staticor (0.9)
+* First place is Staticor, Despair (1.2)
 
 `FalloffEnd`:
 
@@ -27270,7 +27204,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### Attack Index 4
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-287 "Edit section's source code: Attack Index 4")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-287 "Edit Section using Source Editor:
+Attack Index 4")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -27284,7 +27219,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 123.808 | 123.808 | 123.808 | 123.808 | 123.808 | 123.808 | 123.808 |
 | `CritChance` | 0.14 | 0.14 | 0.14 | 0.14 | 0.14 | 0.14 | 0.14 |
 | `CritMultiplier` | 2.2 | 2.2 | 2.2 | 2.2 | 2.2 | 2.2 | 2.2 |
-| `Disposition` | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 | 0.9 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FalloffEnd` | 9.6 | 9.6 | 9.6 | 9.6 | 9.6 | 9.6 | 9.6 |
 | `FalloffRate` | 10.666666666667 | 10.666666666667 | 10.666666666667 | 10.666666666667 | 10.666666666667 | 10.666666666667 | 10.666666666667 |
 | `FireRate` | 3.5 | 3.5 | 3.5 | 3.5 | 3.5 | 3.5 | 3.5 |
@@ -27342,7 +27277,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Staticor (0.9)
+* First place is Staticor (1.2)
 
 `FalloffEnd`:
 
@@ -27394,15 +27329,18 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 #### By Trigger Type
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-288 "Edit section's source code: By Trigger Type")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-288 "Edit Section using Source Editor:
+By Trigger Type")]
 
 ##### Auto
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-289 "Edit section's source code: Auto")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-289 "Edit Section using Source Editor:
+Auto")]
 
 ###### Attack Index 1
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-290 "Edit section's source code: Attack Index 1")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-290 "Edit Section using Source Editor:
+Attack Index 1")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -27416,7 +27354,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 323.0766 | 254.86356 | 214.99056 | 209.845364 | 205.338632 | 172.467248 | 147.095424 |
 | `CritChance` | 0.3 | 0.175 | 0.124 | 0.0945 | 0.081 | 0.057 | 0.0435 |
 | `CritMultiplier` | 2.28 | 2 | 2 | 2 | 2 | 1.74 | 1.6 |
-| `Disposition` | 1.51 | 1.3375 | 1.3 | 1.28625 | 1.2525 | 1.235 | 1.1025 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 5.914 | 3.33 | 3.33 | 3.33 | 3.33 | 3.081 | 2.227 |
 | `LifetimeDmg` | 21526 | 13140.16 | 9786.304 | 9147.5472 | 8920.6176 | 5705.728 | 2443.608 |
 | `MagDmg` | 1074.6 | 932.816 | 697.712 | 636.782 | 635.756 | 517.36 | 441.728 |
@@ -27489,9 +27427,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kunai, Mk1-Kunai (1.51)
-* Second place is Spira (1.35)
-* Third place is Hikou, Despair (1.3)
+* First place is Kunai, Coda Pox, Spira, Spira Prime, Hikou Prime, Hikou, Cantare, Mk1-Kunai, Pox, Despair (1.2)
 
 `FireRate`:
 
@@ -27553,7 +27489,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 2
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-291 "Edit section's source code: Attack Index 2")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-291 "Edit Section using Source Editor:
+Attack Index 2")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -27567,7 +27504,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 303.8112 | 288 | 224.53056 | 192.79584 | 158.31808 | 86.61952 | 45.712 |
 | `CritChance` | 0.252 | 0.18 | 0.156 | 0.144 | 0.132 | 0.108 | 0.064 |
 | `CritMultiplier` | 2.68 | 2.2 | 2.08 | 2.02 | 2 | 2 | 2 |
-| `Disposition` | 1.51 | 1.51 | 1.384 | 1.321 | 1.28 | 1.22 | 1.12 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 3.33 | 3.33 | 3.132 | 3.033 | 2.6 | 1.4 | 1 |
 | `LifetimeDmg` | 20979.2 | 20768 | 15530.24 | 12911.36 | 10232.832 | 4816.128 | 2000.256 |
 | `MagDmg` | 953.6 | 944 | 705.92 | 586.88 | 538.112 | 510.848 | 333.376 |
@@ -27641,9 +27578,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Kunai, Mk1-Kunai (1.51)
-* Second place is Despair (1.3)
-* Third place is Pox (1.2)
+* First place is Kunai, Coda Pox, Mk1-Kunai, Pox, Despair (1.2)
 
 `FireRate`:
 
@@ -27705,7 +27640,8 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ###### Attack Index 3
 
-[[edit source](/w/Module:Weapons/preprocess?action=edit&section=T-292 "Edit section's source code: Attack Index 3")]
+[[edit](/w/Module:Weapons/preprocess?action=edit&section=T-292 "Edit Section using Source Editor:
+Attack Index 3")]
 
 | Percentiles | 0.9 | 0.75 | 0.6 | 0.525 | 0.45 | 0.3 | 0.15 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -27719,7 +27655,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 | `BurstDps` | 768 | 768 | 768 | 768 | 768 | 768 | 768 |
 | `CritChance` | 0.3 | 0.3 | 0.3 | 0.3 | 0.3 | 0.3 | 0.3 |
 | `CritMultiplier` | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
-| `Disposition` | 1.3 | 1.3 | 1.3 | 1.3 | 1.3 | 1.3 | 1.3 |
+| `Disposition` | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 | 1.2 |
 | `FireRate` | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
 | `LifetimeDmg` | 56320 | 56320 | 56320 | 56320 | 56320 | 56320 | 56320 |
 | `MagDmg` | 2560 | 2560 | 2560 | 2560 | 2560 | 2560 | 2560 |
@@ -27775,7 +27711,7 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 `Disposition`:
 
-* First place is Despair (1.3)
+* First place is Despair (1.2)
 
 `FireRate`:
 
@@ -27819,11 +27755,12 @@ See [WARFRAME Wiki:Stat Comparison](/w/WARFRAME_Wiki:Stat_Comparison "WARFRAME W
 
 ## Generated Data for Copypasta
 
-[[edit source](/w/Module:Weapons/ppdata/doc?action=edit&section=2 "Edit section's source code: Generated Data for Copypasta")]
+[[edit](/w/Module:Weapons/ppdata/doc?action=edit&section=2 "Edit Section using Source Editor:
+Generated Data for Copypasta")]
 
 If you want to update the values that are used for stat comparison/rankings copy/paste the below Lua code into M:Weapons/ppdata. Please do this every time a new weapon is released or when a major balance change occurs.
 
-View Data to copy into M:Weapons/ppdata List▾▾
+▾Data to copy into M:Weapons/ppdata▾
 
 ```lua
 return {
@@ -32664,7 +32601,7 @@ return {
 					["AvgCritCount"] = {
 						0.32,
 						0.26,
-						0.238,
+						0.24,
 						0.2,
 						0.2,
 						0.15,
@@ -32672,19 +32609,19 @@ return {
 					},
 					["AvgDmgWithAnimSpeedMulti"] = {
 						375,
-						327.2112,
-						279.880704,
-						255.66368,
-						239.4875,
-						206.695962,
-						169.7982,
+						328.0073625,
+						280.2816,
+						255.67439,
+						239.64045,
+						207.335781,
+						170.31885,
 					},
 					["AvgProcCount"] = {
 						0.36,
 						0.3,
 						0.28,
 						0.25,
-						0.236,
+						0.2305,
 						0.2,
 						0.15,
 					},
@@ -32700,7 +32637,7 @@ return {
 					["CritChance"] = {
 						0.32,
 						0.26,
-						0.238,
+						0.24,
 						0.2,
 						0.2,
 						0.15,
@@ -32716,13 +32653,13 @@ return {
 						1.8,
 					},
 					["Disposition"] = {
-						1.432,
-						1.35,
-						1.25,
 						1.2,
-						1.1,
-						0.95,
-						0.66,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
 					},
 					["FireRate"] = {
 						1.17,
@@ -32748,7 +32685,7 @@ return {
 						2.5,
 						2.5,
 						2.5,
-						2.346,
+						2.373,
 						1.7,
 					},
 					["Multishot"] = {
@@ -32761,30 +32698,30 @@ return {
 						1,
 					},
 					["StatusChance"] = {
-						0.352,
+						0.351,
 						0.3,
-						0.278,
+						0.274,
 						0.25,
-						0.236,
+						0.2305,
 						0.2,
 						0.15,
 					},
 					["TotalDamage"] = {
-						284.2,
+						284.1,
 						250,
 						220,
 						210,
 						198,
-						174.4,
+						174.7,
 						140,
 					},
 				},
 				["Top3"] = {
 					["AvgCritCount"] = {
 						[0.38] = {
+							"Shadow Claws Prime",
 							"Tenet Exec",
 							"Shadow Claws",
-							"Shadow Claws Prime",
 							"Heliocor",
 							["Place"] = "Third",
 						},
@@ -32832,9 +32769,10 @@ return {
 					["BlockAngle"] = {
 						[65] = {
 							"Wrath",
+							"Pride",
 							"Thalys",
 							"Corufell",
-							"Pride",
+							"Corufell Prime",
 							"Iron Staff Prime",
 							"Iron Staff",
 							"Hespar",
@@ -32852,13 +32790,13 @@ return {
 							["Place"] = "Second",
 						},
 						[90] = {
-							"Shattered Lash Prime",
+							"Shattered Lash",
 							"Ghoulsaw",
 							"Diwata",
 							"Venato",
 							"Tenet Grigori",
 							"Tenet Agendus",
-							"Shattered Lash",
+							"Shattered Lash Prime",
 							"Landslide Fists",
 							"Shadow Clones",
 							"Shadow Clones Prime",
@@ -32872,9 +32810,9 @@ return {
 					},
 					["CritChance"] = {
 						[0.38] = {
+							"Shadow Claws Prime",
 							"Tenet Exec",
 							"Shadow Claws",
-							"Shadow Claws Prime",
 							"Heliocor",
 							["Place"] = "Third",
 						},
@@ -32916,21 +32854,236 @@ return {
 						},
 					},
 					["Disposition"] = {
-						[1.48] = {
-							"Dual Skana",
-							"Dark Sword",
-							"Plasma Sword",
-							"Heat Sword",
-							"Cronus",
-							["Place"] = "Third",
-						},
-						[1.49] = {
-							"Ether Daggers",
-							["Place"] = "Second",
-						},
-						[1.5] = {
+						[1.2] = {
+							"Dakra Prime",
+							"Gunsen",
+							"Endura",
+							"Karyst",
+							"Dorrclave",
+							"Mios",
+							"Destreza Prime",
+							"Mk1-Bo",
+							"Zenistar",
+							"Redeemer",
+							"Garuda Prime Talons",
+							"Reaper Prime",
+							"Wrath",
+							"Wolf Sledge",
+							"Sigma & Octantis",
+							"Scindo",
+							"Pride",
+							"Vericres",
+							"War Prime",
+							"War",
+							"Volnus Prime",
+							"Volnus",
+							"Prova Vandal",
+							"Tekko Prime",
+							"Kogake Prime",
+							"Vinquibus (Melee)",
+							"Nikana",
+							"Dragon Nikana",
+							"Sarofang",
+							"Sheev",
+							"Coda Hirudo",
+							"Atterax",
+							"Pangolin Sword",
+							"Prisma Skana",
+							"Venka",
+							"Dual Ichor",
+							"Quassus",
+							"Korrudo",
+							"Dual Keres",
+							"Sun & Moon",
+							"Tenet Livia",
+							"Ghoulsaw",
+							"Tonbo",
+							"Vaykor Sydon",
+							"Nepheri",
+							"Kronen Prime",
+							"Vastilok",
+							"Ack & Brunt",
 							"Amphis",
+							"Dual Skana",
+							"Nami Solo",
+							"Dex Nikana",
+							"Stropha",
+							"Tonkkatt",
+							"Twin Krohkur",
+							"Prisma Obex",
+							"Skana Prime",
+							"Venato",
+							"Kestrel Prime",
+							"Coda Caustacyst",
+							"Pupacyst",
+							"Secura Lecta",
 							"Ankyros",
+							"Azothane",
+							"Guandao Prime",
+							"Tenet Grigori",
+							"Lacera",
+							"Cobra & Crane Prime",
+							"Furax",
+							"Skana",
+							"Ankyros Prime",
+							"Tenet Exec",
+							"Silva & Aegis Prime",
+							"Tenet Agendus",
+							"Telos Boltace",
+							"Dual Zoren Prime",
+							"Sarofang Prime",
+							"Dual Kamas Prime",
+							"Keratinos",
+							"Tatsu Prime",
+							"Ceramic Dagger",
+							"Cadus",
+							"Tatsu",
+							"Harmony",
+							"Coda Mire",
+							"Ruvox",
+							"Heat Dagger",
+							"Gazal Machete",
+							"Galatine Prime",
+							"Ether Daggers",
+							"Dex Dakra",
+							"Dark Sword",
+							"Tak & Lug",
+							"Synoid Heliocor",
+							"Sydon",
+							"Syam",
+							"Ripkas",
+							"Spinnerex",
+							"Slaytra",
+							"Broken Scepter",
+							"Orthos Prime",
+							"Skiajati",
+							"Prisma Dual Cleavers",
+							"Kreska",
+							"Jat Kittag",
+							"Twin Basolk",
+							"Silva & Aegis",
+							"Sibear",
+							"Coda Motovore",
+							"Cobra & Crane",
+							"Verdilac",
+							"Vitrica",
+							"Shaku",
+							"Prisma Ohma",
+							"Pulmonars",
+							"Fang Prime",
+							"Thalys",
+							"Krohkur",
+							"Serro",
+							"Tipedo",
+							"Argo & Vel",
+							"Scoliac",
+							"Arum Spinosa",
+							"Scindo Prime",
+							"Masseter Prime",
+							"Sancti Magistar",
+							"Gram",
+							"Sampotes",
+							"Orthos",
+							"Rumblejack",
+							"Innodem",
+							"Kestrel",
+							"Bo Prime",
+							"Heliocor",
+							"Dark Split-Sword (Heavy Blade)",
+							"Masseter",
+							"Fragor Prime",
+							"Karyst Prime",
+							"Ekhein",
+							"Redeemer Prime",
+							"Xoris",
+							"Ohma",
+							"Quassus Prime",
+							"Glaive Prime",
+							"Bo",
+							"Corufell",
+							"Ninkondi Prime",
+							"Furax Wraith",
+							"Anku",
+							"Tipedo Prime",
+							"Ceti Lacera",
+							"Dual Viciss",
+							"Dark Split-Sword (Dual Swords)",
+							"Prova",
+							"Pangolin Prime",
+							"Prisma Machete",
+							"Dual Keres Prime",
+							"Praedos",
+							"Caustacyst",
+							"Glaive",
+							"Plasma Sword",
+							"Fang",
+							"Pennant",
+							"Pathocyst",
+							"Nikana Prime",
+							"Dual Kamas",
+							"Corufell Prime",
+							"Paracesis",
+							"Ether Reaper",
+							"Venka Prime",
+							"Kesheg",
+							"Orvius",
+							"Amanata",
+							"Edun",
+							"Okina",
+							"Rakta Dark Dagger",
+							"Obex",
+							"Kogake",
+							"Dual Cleavers",
+							"Ninkondi",
+							"Heat Sword",
+							"Halikar Wraith",
+							"Nami Skyla Prime",
+							"Fragor",
+							"Nami Skyla",
+							"Mk1-Furax",
+							"Mire",
+							"Sarpa",
+							"Lecta",
+							"Magistar",
+							"Lesion",
+							"Machete",
+							"Machete Wraith",
+							"Boltace",
+							"Hirudo",
+							"Gram Prime",
+							"Kronen",
+							"Dual Zoren",
+							"Korumm",
+							"Tekko",
+							"Kama",
+							"Destreza",
+							"Jaw Sword",
+							"Galvacord",
+							"Kuva Shildeg",
+							"Hespar",
+							"Okina Prime",
+							"Halikar",
+							"Garuda Talons",
+							"Guandao",
+							"Kuva Ghoulsaw",
+							"Arca Titron",
+							"Venato Prime",
+							"Gunsen Prime",
+							"Jat Kusar",
+							"Galatine",
+							"Dark Dagger",
+							"Cassowar",
+							"Falcor",
+							"Galariak Prime",
+							"Ether Sword",
+							"Hate",
+							"Cerata",
+							"Dual Heat Swords",
+							"Dual Ether",
+							"Cronus",
+							"Coda Pathocyst",
+							"Dual Raza",
+							"Broken War",
 							["Place"] = "First",
 						},
 					},
@@ -32959,8 +33112,8 @@ return {
 							"Valkyr Talons",
 							"Valkyr Prime Talons",
 							"Diwata",
-							"Shadow Claws",
 							"Shadow Claws Prime",
+							"Shadow Claws",
 							"Diwata Prime",
 							"Desert Wind",
 							"Iron Staff Prime",
@@ -32974,13 +33127,13 @@ return {
 							"Garuda Prime Talons",
 							"Venka",
 							"Nepheri",
+							"Keratinos",
 							"Ether Daggers",
 							"Ripkas",
 							"Fang Prime",
-							"Okina",
 							"Fang",
 							"Venka Prime",
-							"Keratinos",
+							"Okina",
 							"Okina Prime",
 							"Garuda Talons",
 							["Place"] = "Third",
@@ -32989,6 +33142,7 @@ return {
 							"Karyst",
 							"Tekko Prime",
 							"Kogake Prime",
+							"Sheev",
 							"Coda Hirudo",
 							"Korrudo",
 							"Prisma Obex",
@@ -32998,14 +33152,13 @@ return {
 							"Ceramic Dagger",
 							"Ruvox",
 							"Heat Dagger",
-							"Sheev",
+							"Rumblejack",
 							"Innodem",
 							"Karyst Prime",
-							"Rumblejack",
 							"Furax Wraith",
 							"Rakta Dark Dagger",
-							"Kogake",
 							"Obex",
+							"Kogake",
 							"Mk1-Furax",
 							"Hirudo",
 							"Tekko",
@@ -33020,8 +33173,8 @@ return {
 							["Place"] = "Third",
 						},
 						[12] = {
-							"Shattered Lash Prime",
 							"Shattered Lash",
+							"Shattered Lash Prime",
 							["Place"] = "Second",
 						},
 						[50] = {
@@ -33040,87 +33193,88 @@ return {
 							"Mios",
 							"Destreza Prime",
 							"Mk1-Bo",
+							"Zenistar",
 							"Redeemer",
 							"Garuda Prime Talons",
-							"Zenistar",
-							"Redeemer Prime",
+							"Reaper Prime",
 							"Wrath",
+							"Wolf Sledge",
 							"Sigma & Octantis",
 							"Scindo",
-							"Wolf Sledge",
-							"Prisma Machete",
-							"Vericres",
+							"Pride",
 							"Exalted Umbra Blade",
+							"Vericres",
 							"War Prime",
 							"War",
 							"Volnus Prime",
-							"Prova Vandal",
 							"Volnus",
+							"Prova Vandal",
+							"Shattered Lash",
 							"Tekko Prime",
 							"Kogake Prime",
-							"Shattered Lash Prime",
+							"Vinquibus (Melee)",
 							"Nikana",
 							"Dragon Nikana",
 							"Sarofang",
-							"Vinquibus (Melee)",
+							"Sheev",
 							"Desert Wind Prime",
 							"Coda Hirudo",
 							"Atterax",
-							"Sibear",
+							"Pangolin Sword",
 							"Prisma Skana",
-							"Paracesis",
+							"Venka",
 							"Dual Ichor",
 							"Quassus",
 							"Korrudo",
 							"Dual Keres",
 							"Sun & Moon",
 							"Tenet Livia",
-							"Venka",
 							"Ghoulsaw",
-							"Skiajati",
+							"Tonbo",
+							"Vaykor Sydon",
 							"Nepheri",
 							"Kronen Prime",
-							"Vaykor Sydon",
+							"Vastilok",
 							"Ack & Brunt",
 							"Amphis",
-							"Vastilok",
 							"Valkyr Talons",
+							"Valkyr Prime Talons",
 							"Dual Skana",
 							"Nami Solo",
 							"Dex Nikana",
 							"Stropha",
 							"Tonkkatt",
-							"Valkyr Prime Talons",
+							"Twin Krohkur",
 							"Prisma Obex",
 							"Diwata",
-							"Twin Krohkur",
+							"Skana Prime",
 							"Venato",
 							"Kestrel Prime",
 							"Coda Caustacyst",
-							"Tonbo",
-							"Quassus Prime",
+							"Pupacyst",
+							"Secura Lecta",
 							"Ankyros",
 							"Azothane",
-							"Serro",
+							"Shadow Claws Prime",
 							"Guandao Prime",
-							"Pupacyst",
+							"Tenet Grigori",
 							"Lacera",
 							"Cobra & Crane Prime",
 							"Furax",
 							"Skana",
 							"Ankyros Prime",
-							"Tenet Grigori",
-							"Silva & Aegis Prime",
 							"Tenet Exec",
+							"Silva & Aegis Prime",
 							"Tenet Agendus",
+							"Telos Boltace",
 							"Dual Zoren Prime",
 							"Sarofang Prime",
 							"Dual Kamas Prime",
-							"Telos Boltace",
-							"Korumm",
+							"Keratinos",
+							"Tatsu Prime",
 							"Ceramic Dagger",
 							"Cadus",
-							"Tatsu Prime",
+							"Tatsu",
 							"Harmony",
 							"Coda Mire",
 							"Ruvox",
@@ -33130,46 +33284,46 @@ return {
 							"Ether Daggers",
 							"Dex Dakra",
 							"Dark Sword",
-							"Tatsu",
 							"Tak & Lug",
 							"Synoid Heliocor",
 							"Sydon",
-							"Ripkas",
 							"Syam",
+							"Ripkas",
 							"Spinnerex",
+							"Slaytra",
 							"Broken Scepter",
 							"Orthos Prime",
-							"Slaytra",
+							"Skiajati",
 							"Prisma Dual Cleavers",
 							"Kreska",
 							"Jat Kittag",
 							"Twin Basolk",
-							"Skana Prime",
-							"Shadow Claws",
 							"Silva & Aegis",
+							"Shadow Claws",
+							"Sibear",
 							"Coda Motovore",
 							"Cobra & Crane",
 							"Verdilac",
-							"Sheev",
+							"Shattered Lash Prime",
 							"Vitrica",
-							"Shattered Lash",
 							"Shaku",
-							"Prova",
+							"Prisma Ohma",
+							"Pulmonars",
 							"Fang Prime",
 							"Thalys",
 							"Krohkur",
-							"Shadow Claws Prime",
+							"Serro",
 							"Tipedo",
 							"Argo & Vel",
-							"Secura Lecta",
-							"Arum Spinosa",
 							"Scoliac",
+							"Arum Spinosa",
 							"Scindo Prime",
-							"Mire",
-							"Gram",
+							"Masseter Prime",
 							"Sancti Magistar",
-							"Orthos",
+							"Gram",
 							"Sampotes",
+							"Orthos",
+							"Rumblejack",
 							"Innodem",
 							"Kestrel",
 							"Bo Prime",
@@ -33179,10 +33333,10 @@ return {
 							"Fragor Prime",
 							"Karyst Prime",
 							"Ekhein",
-							"Rumblejack",
+							"Redeemer Prime",
 							"Xoris",
-							"Reaper Prime",
-							"Okina",
+							"Ohma",
+							"Quassus Prime",
 							"Landslide Fists",
 							"Glaive Prime",
 							"Bo",
@@ -33195,61 +33349,61 @@ return {
 							"Shadow Clones",
 							"Dual Viciss",
 							"Dark Split-Sword (Dual Swords)",
-							"Pulmonars",
+							"Prova",
 							"Shadow Clones Prime",
 							"Pangolin Prime",
-							"Prisma Ohma",
+							"Prisma Machete",
 							"Dual Keres Prime",
 							"Whipclaw Prime",
-							"Pride",
+							"Praedos",
 							"Caustacyst",
 							"Glaive",
-							"Praedos",
-							"Fang",
 							"Plasma Sword",
+							"Fang",
 							"Pennant",
+							"Pathocyst",
 							"Diwata Prime",
 							"Nikana Prime",
 							"Dual Kamas",
-							"Kama",
-							"Pathocyst",
+							"Corufell Prime",
+							"Paracesis",
 							"Ether Reaper",
 							"Venka Prime",
 							"Kesheg",
-							"Pangolin Sword",
-							"Amanata",
 							"Orvius",
+							"Amanata",
 							"Edun",
+							"Okina",
 							"Rakta Dark Dagger",
-							"Ohma",
+							"Obex",
 							"Kogake",
 							"Dual Cleavers",
-							"Obex",
+							"Ninkondi",
 							"Heat Sword",
 							"Halikar Wraith",
-							"Ninkondi",
-							"Fragor",
 							"Nami Skyla Prime",
+							"Fragor",
 							"Nami Skyla",
 							"Mk1-Furax",
+							"Mire",
 							"Sarpa",
 							"Lecta",
-							"Masseter Prime",
-							"Desert Wind",
 							"Magistar",
+							"Desert Wind",
+							"Lesion",
 							"Machete",
 							"Machete Wraith",
-							"Lesion",
 							"Landslide Fists Prime",
+							"Iron Staff Prime",
 							"Boltace",
 							"Hirudo",
-							"Iron Staff Prime",
 							"Gram Prime",
-							"Dual Zoren",
 							"Kronen",
+							"Dual Zoren",
+							"Korumm",
 							"Tekko",
 							"Exalted Blade",
-							"Keratinos",
+							"Kama",
 							"Destreza",
 							"Jaw Sword",
 							"Galvacord",
@@ -33312,8 +33466,8 @@ return {
 							["Place"] = "Third",
 						},
 						[400] = {
-							"Shattered Lash Prime",
 							"Shattered Lash",
+							"Shattered Lash Prime",
 							["Place"] = "Second",
 						},
 						[1500] = {
@@ -33328,7 +33482,7 @@ return {
 				["Percentiles"] = {
 					["AvgCritCount"] = {
 						0.32,
-						0.27,
+						0.2775,
 						0.24,
 						0.21,
 						0.2,
@@ -33336,17 +33490,17 @@ return {
 						0.1,
 					},
 					["AvgDmgWithAnimSpeedMulti"] = {
-						750,
-						621,
-						511.3192,
+						755.4,
+						623.25,
+						511.34368,
 						478.975,
-						447.19,
-						391.6,
+						448.1305,
+						391.6791313,
 						276.33795,
 					},
 					["AvgProcCount"] = {
 						1.4,
-						1.16,
+						1.1575,
 						1.1,
 						1.1,
 						1.1,
@@ -33365,7 +33519,7 @@ return {
 					["CritChance"] = {
 						0.32,
 						0.26,
-						0.23,
+						0.236,
 						0.2,
 						0.2,
 						0.15,
@@ -33381,13 +33535,13 @@ return {
 						1.8,
 					},
 					["Disposition"] = {
-						1.44,
-						1.35,
-						1.25,
 						1.2,
-						1.15,
-						1,
-						0.7,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
 					},
 					["FireRate"] = {
 						1.17,
@@ -33413,7 +33567,7 @@ return {
 						2.5,
 						2.5,
 						2.5,
-						2.3,
+						2.303,
 						1.7,
 					},
 					["Multishot"] = {
@@ -33435,12 +33589,12 @@ return {
 						0.1,
 					},
 					["TotalDamage"] = {
-						592,
-						492,
+						599.2,
+						495,
 						420,
 						396,
 						360,
-						300,
+						302.4,
 						240,
 					},
 				},
@@ -33490,9 +33644,10 @@ return {
 					["BlockAngle"] = {
 						[65] = {
 							"Wrath",
+							"Pride",
 							"Thalys",
 							"Corufell",
-							"Pride",
+							"Corufell Prime",
 							"Iron Staff Prime",
 							"Iron Staff",
 							"Hespar",
@@ -33510,21 +33665,21 @@ return {
 							["Place"] = "Second",
 						},
 						[90] = {
-							"Shattered Lash Prime",
+							"Shattered Lash",
 							"Ghoulsaw",
 							"Venato",
 							"Tenet Grigori",
 							"Tenet Agendus",
-							"Shattered Lash",
+							"Shattered Lash Prime",
 							"Kuva Ghoulsaw",
 							["Place"] = "First",
 						},
 					},
 					["CritChance"] = {
 						[0.38] = {
+							"Shadow Claws Prime",
 							"Tenet Exec",
 							"Shadow Claws",
-							"Shadow Claws Prime",
 							"Heliocor",
 							["Place"] = "Third",
 						},
@@ -33566,21 +33721,236 @@ return {
 						},
 					},
 					["Disposition"] = {
-						[1.48] = {
-							"Dual Skana",
-							"Dark Sword",
-							"Plasma Sword",
-							"Heat Sword",
-							"Cronus",
-							["Place"] = "Third",
-						},
-						[1.49] = {
-							"Ether Daggers",
-							["Place"] = "Second",
-						},
-						[1.5] = {
+						[1.2] = {
+							"Dakra Prime",
+							"Gunsen",
+							"Endura",
+							"Karyst",
+							"Dorrclave",
+							"Mios",
+							"Destreza Prime",
+							"Mk1-Bo",
+							"Zenistar",
+							"Redeemer",
+							"Garuda Prime Talons",
+							"Reaper Prime",
+							"Wrath",
+							"Wolf Sledge",
+							"Sigma & Octantis",
+							"Scindo",
+							"Pride",
+							"Vericres",
+							"War Prime",
+							"War",
+							"Volnus Prime",
+							"Volnus",
+							"Prova Vandal",
+							"Tekko Prime",
+							"Kogake Prime",
+							"Vinquibus (Melee)",
+							"Nikana",
+							"Dragon Nikana",
+							"Sarofang",
+							"Sheev",
+							"Coda Hirudo",
+							"Atterax",
+							"Pangolin Sword",
+							"Prisma Skana",
+							"Venka",
+							"Dual Ichor",
+							"Quassus",
+							"Korrudo",
+							"Dual Keres",
+							"Sun & Moon",
+							"Tenet Livia",
+							"Ghoulsaw",
+							"Tonbo",
+							"Vaykor Sydon",
+							"Nepheri",
+							"Kronen Prime",
+							"Vastilok",
+							"Ack & Brunt",
 							"Amphis",
+							"Dual Skana",
+							"Nami Solo",
+							"Dex Nikana",
+							"Stropha",
+							"Tonkkatt",
+							"Twin Krohkur",
+							"Prisma Obex",
+							"Skana Prime",
+							"Venato",
+							"Kestrel Prime",
+							"Coda Caustacyst",
+							"Pupacyst",
+							"Secura Lecta",
 							"Ankyros",
+							"Azothane",
+							"Guandao Prime",
+							"Tenet Grigori",
+							"Lacera",
+							"Cobra & Crane Prime",
+							"Furax",
+							"Skana",
+							"Ankyros Prime",
+							"Tenet Exec",
+							"Silva & Aegis Prime",
+							"Tenet Agendus",
+							"Telos Boltace",
+							"Dual Zoren Prime",
+							"Sarofang Prime",
+							"Dual Kamas Prime",
+							"Keratinos",
+							"Tatsu Prime",
+							"Ceramic Dagger",
+							"Cadus",
+							"Tatsu",
+							"Harmony",
+							"Coda Mire",
+							"Ruvox",
+							"Heat Dagger",
+							"Gazal Machete",
+							"Galatine Prime",
+							"Ether Daggers",
+							"Dex Dakra",
+							"Dark Sword",
+							"Tak & Lug",
+							"Synoid Heliocor",
+							"Sydon",
+							"Syam",
+							"Ripkas",
+							"Spinnerex",
+							"Slaytra",
+							"Broken Scepter",
+							"Orthos Prime",
+							"Skiajati",
+							"Prisma Dual Cleavers",
+							"Kreska",
+							"Jat Kittag",
+							"Twin Basolk",
+							"Silva & Aegis",
+							"Sibear",
+							"Coda Motovore",
+							"Cobra & Crane",
+							"Verdilac",
+							"Vitrica",
+							"Shaku",
+							"Prisma Ohma",
+							"Pulmonars",
+							"Fang Prime",
+							"Thalys",
+							"Krohkur",
+							"Serro",
+							"Tipedo",
+							"Argo & Vel",
+							"Scoliac",
+							"Arum Spinosa",
+							"Scindo Prime",
+							"Masseter Prime",
+							"Sancti Magistar",
+							"Gram",
+							"Sampotes",
+							"Orthos",
+							"Rumblejack",
+							"Innodem",
+							"Kestrel",
+							"Bo Prime",
+							"Heliocor",
+							"Dark Split-Sword (Heavy Blade)",
+							"Masseter",
+							"Fragor Prime",
+							"Karyst Prime",
+							"Ekhein",
+							"Redeemer Prime",
+							"Xoris",
+							"Ohma",
+							"Quassus Prime",
+							"Glaive Prime",
+							"Bo",
+							"Corufell",
+							"Ninkondi Prime",
+							"Furax Wraith",
+							"Anku",
+							"Tipedo Prime",
+							"Ceti Lacera",
+							"Dual Viciss",
+							"Dark Split-Sword (Dual Swords)",
+							"Prova",
+							"Pangolin Prime",
+							"Prisma Machete",
+							"Dual Keres Prime",
+							"Praedos",
+							"Caustacyst",
+							"Glaive",
+							"Plasma Sword",
+							"Fang",
+							"Pennant",
+							"Pathocyst",
+							"Nikana Prime",
+							"Dual Kamas",
+							"Corufell Prime",
+							"Paracesis",
+							"Ether Reaper",
+							"Venka Prime",
+							"Kesheg",
+							"Orvius",
+							"Amanata",
+							"Edun",
+							"Okina",
+							"Rakta Dark Dagger",
+							"Obex",
+							"Kogake",
+							"Dual Cleavers",
+							"Ninkondi",
+							"Heat Sword",
+							"Halikar Wraith",
+							"Nami Skyla Prime",
+							"Fragor",
+							"Nami Skyla",
+							"Mk1-Furax",
+							"Mire",
+							"Sarpa",
+							"Lecta",
+							"Magistar",
+							"Lesion",
+							"Machete",
+							"Machete Wraith",
+							"Boltace",
+							"Hirudo",
+							"Gram Prime",
+							"Kronen",
+							"Dual Zoren",
+							"Korumm",
+							"Tekko",
+							"Kama",
+							"Destreza",
+							"Jaw Sword",
+							"Galvacord",
+							"Kuva Shildeg",
+							"Hespar",
+							"Okina Prime",
+							"Halikar",
+							"Garuda Talons",
+							"Guandao",
+							"Kuva Ghoulsaw",
+							"Arca Titron",
+							"Venato Prime",
+							"Gunsen Prime",
+							"Jat Kusar",
+							"Galatine",
+							"Dark Dagger",
+							"Cassowar",
+							"Falcor",
+							"Galariak Prime",
+							"Ether Sword",
+							"Hate",
+							"Cerata",
+							"Dual Heat Swords",
+							"Dual Ether",
+							"Cronus",
+							"Coda Pathocyst",
+							"Dual Raza",
+							"Broken War",
 							["Place"] = "First",
 						},
 					},
@@ -33592,8 +33962,8 @@ return {
 						},
 						[2] = {
 							"Quassus",
-							"Quassus Prime",
 							"Arum Spinosa",
+							"Quassus Prime",
 							["Place"] = "Second",
 						},
 						[3.33] = {
@@ -33608,8 +33978,8 @@ return {
 							"Ghoulsaw",
 							"Valkyr Talons",
 							"Valkyr Prime Talons",
-							"Shadow Claws",
 							"Shadow Claws Prime",
+							"Shadow Claws",
 							"Desert Wind",
 							"Iron Staff Prime",
 							"Exalted Blade",
@@ -33622,13 +33992,13 @@ return {
 							"Garuda Prime Talons",
 							"Venka",
 							"Nepheri",
+							"Keratinos",
 							"Ether Daggers",
 							"Ripkas",
 							"Fang Prime",
-							"Okina",
 							"Fang",
 							"Venka Prime",
-							"Keratinos",
+							"Okina",
 							"Okina Prime",
 							"Garuda Talons",
 							["Place"] = "Third",
@@ -33637,6 +34007,7 @@ return {
 							"Karyst",
 							"Tekko Prime",
 							"Kogake Prime",
+							"Sheev",
 							"Coda Hirudo",
 							"Korrudo",
 							"Prisma Obex",
@@ -33646,14 +34017,13 @@ return {
 							"Ceramic Dagger",
 							"Ruvox",
 							"Heat Dagger",
-							"Sheev",
+							"Rumblejack",
 							"Innodem",
 							"Karyst Prime",
-							"Rumblejack",
 							"Furax Wraith",
 							"Rakta Dark Dagger",
-							"Kogake",
 							"Obex",
+							"Kogake",
 							"Mk1-Furax",
 							"Hirudo",
 							"Tekko",
@@ -33674,8 +34044,8 @@ return {
 							["Place"] = "Second",
 						},
 						[12] = {
-							"Shattered Lash Prime",
 							"Shattered Lash",
+							"Shattered Lash Prime",
 							["Place"] = "First",
 						},
 					},
@@ -33690,8 +34060,8 @@ return {
 							["Place"] = "Second",
 						},
 						[18] = {
-							"Quassus Prime",
 							"Arum Spinosa",
+							"Quassus Prime",
 							["Place"] = "First",
 						},
 					},
@@ -33707,9 +34077,9 @@ return {
 						},
 						[0.5] = {
 							"Cobra & Crane Prime",
-							"Korumm",
 							"Cobra & Crane",
 							"Pulmonars",
+							"Korumm",
 							["Place"] = "Second",
 						},
 					},
@@ -33741,13 +34111,13 @@ return {
 						0.1,
 					},
 					["AvgDmgWithAnimSpeedMulti"] = {
-						1106.3676,
-						904.471596,
-						747.8447382,
-						697.1592,
-						666.13851,
-						586.5,
-						400.6611,
+						1105.7982,
+						902.953494,
+						747.2842146,
+						698.6304,
+						666.836055,
+						586.95,
+						401.62905,
 					},
 					["AvgProcCount"] = {
 						1.3,
@@ -33783,16 +34153,16 @@ return {
 						2,
 						2,
 						2,
-						1.77,
+						1.785,
 					},
 					["Disposition"] = {
-						1.44,
-						1.35,
-						1.25,
 						1.2,
-						1.15,
-						1,
-						0.75,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
 					},
 					["FireRate"] = {
 						1.17,
@@ -33831,7 +34201,7 @@ return {
 						1,
 					},
 					["StatusChance"] = {
-						0.312,
+						0.311,
 						0.14,
 						0.1,
 						0.1,
@@ -33840,11 +34210,11 @@ return {
 						0.1,
 					},
 					["TotalDamage"] = {
-						823.2,
+						821.1,
 						720,
 						600,
 						564,
-						531.3,
+						529.65,
 						450,
 						360,
 					},
@@ -33895,9 +34265,10 @@ return {
 					["BlockAngle"] = {
 						[65] = {
 							"Wrath",
+							"Pride",
 							"Thalys",
 							"Corufell",
-							"Pride",
+							"Corufell Prime",
 							"Iron Staff Prime",
 							"Iron Staff",
 							"Hespar",
@@ -33925,9 +34296,9 @@ return {
 					},
 					["CritChance"] = {
 						[0.38] = {
+							"Shadow Claws Prime",
 							"Tenet Exec",
 							"Shadow Claws",
-							"Shadow Claws Prime",
 							"Heliocor",
 							["Place"] = "Third",
 						},
@@ -33969,21 +34340,236 @@ return {
 						},
 					},
 					["Disposition"] = {
-						[1.48] = {
-							"Dual Skana",
-							"Dark Sword",
-							"Plasma Sword",
-							"Heat Sword",
-							"Cronus",
-							["Place"] = "Third",
-						},
-						[1.49] = {
-							"Ether Daggers",
-							["Place"] = "Second",
-						},
-						[1.5] = {
+						[1.2] = {
+							"Dakra Prime",
+							"Gunsen",
+							"Endura",
+							"Karyst",
+							"Dorrclave",
+							"Mios",
+							"Destreza Prime",
+							"Mk1-Bo",
+							"Zenistar",
+							"Redeemer",
+							"Garuda Prime Talons",
+							"Reaper Prime",
+							"Wrath",
+							"Wolf Sledge",
+							"Sigma & Octantis",
+							"Scindo",
+							"Pride",
+							"Vericres",
+							"War Prime",
+							"War",
+							"Volnus Prime",
+							"Volnus",
+							"Prova Vandal",
+							"Tekko Prime",
+							"Kogake Prime",
+							"Vinquibus (Melee)",
+							"Nikana",
+							"Dragon Nikana",
+							"Sarofang",
+							"Sheev",
+							"Coda Hirudo",
+							"Atterax",
+							"Pangolin Sword",
+							"Prisma Skana",
+							"Venka",
+							"Dual Ichor",
+							"Quassus",
+							"Korrudo",
+							"Dual Keres",
+							"Sun & Moon",
+							"Tenet Livia",
+							"Ghoulsaw",
+							"Tonbo",
+							"Vaykor Sydon",
+							"Nepheri",
+							"Kronen Prime",
+							"Vastilok",
+							"Ack & Brunt",
 							"Amphis",
+							"Dual Skana",
+							"Nami Solo",
+							"Dex Nikana",
+							"Stropha",
+							"Tonkkatt",
+							"Twin Krohkur",
+							"Prisma Obex",
+							"Skana Prime",
+							"Venato",
+							"Kestrel Prime",
+							"Coda Caustacyst",
+							"Pupacyst",
+							"Secura Lecta",
 							"Ankyros",
+							"Azothane",
+							"Guandao Prime",
+							"Tenet Grigori",
+							"Lacera",
+							"Cobra & Crane Prime",
+							"Furax",
+							"Skana",
+							"Ankyros Prime",
+							"Tenet Exec",
+							"Silva & Aegis Prime",
+							"Tenet Agendus",
+							"Telos Boltace",
+							"Dual Zoren Prime",
+							"Sarofang Prime",
+							"Dual Kamas Prime",
+							"Keratinos",
+							"Tatsu Prime",
+							"Ceramic Dagger",
+							"Cadus",
+							"Tatsu",
+							"Harmony",
+							"Coda Mire",
+							"Ruvox",
+							"Heat Dagger",
+							"Gazal Machete",
+							"Galatine Prime",
+							"Ether Daggers",
+							"Dex Dakra",
+							"Dark Sword",
+							"Tak & Lug",
+							"Synoid Heliocor",
+							"Sydon",
+							"Syam",
+							"Ripkas",
+							"Spinnerex",
+							"Slaytra",
+							"Broken Scepter",
+							"Orthos Prime",
+							"Skiajati",
+							"Prisma Dual Cleavers",
+							"Kreska",
+							"Jat Kittag",
+							"Twin Basolk",
+							"Silva & Aegis",
+							"Sibear",
+							"Coda Motovore",
+							"Cobra & Crane",
+							"Verdilac",
+							"Vitrica",
+							"Shaku",
+							"Prisma Ohma",
+							"Pulmonars",
+							"Fang Prime",
+							"Thalys",
+							"Krohkur",
+							"Serro",
+							"Tipedo",
+							"Argo & Vel",
+							"Scoliac",
+							"Arum Spinosa",
+							"Scindo Prime",
+							"Masseter Prime",
+							"Sancti Magistar",
+							"Gram",
+							"Sampotes",
+							"Orthos",
+							"Rumblejack",
+							"Innodem",
+							"Kestrel",
+							"Bo Prime",
+							"Heliocor",
+							"Dark Split-Sword (Heavy Blade)",
+							"Masseter",
+							"Fragor Prime",
+							"Karyst Prime",
+							"Ekhein",
+							"Redeemer Prime",
+							"Xoris",
+							"Ohma",
+							"Quassus Prime",
+							"Glaive Prime",
+							"Bo",
+							"Corufell",
+							"Ninkondi Prime",
+							"Furax Wraith",
+							"Anku",
+							"Tipedo Prime",
+							"Ceti Lacera",
+							"Dual Viciss",
+							"Dark Split-Sword (Dual Swords)",
+							"Prova",
+							"Pangolin Prime",
+							"Prisma Machete",
+							"Dual Keres Prime",
+							"Praedos",
+							"Caustacyst",
+							"Glaive",
+							"Plasma Sword",
+							"Fang",
+							"Pennant",
+							"Pathocyst",
+							"Nikana Prime",
+							"Dual Kamas",
+							"Corufell Prime",
+							"Paracesis",
+							"Ether Reaper",
+							"Venka Prime",
+							"Kesheg",
+							"Orvius",
+							"Amanata",
+							"Edun",
+							"Okina",
+							"Rakta Dark Dagger",
+							"Obex",
+							"Kogake",
+							"Dual Cleavers",
+							"Ninkondi",
+							"Heat Sword",
+							"Halikar Wraith",
+							"Nami Skyla Prime",
+							"Fragor",
+							"Nami Skyla",
+							"Mk1-Furax",
+							"Mire",
+							"Sarpa",
+							"Lecta",
+							"Magistar",
+							"Lesion",
+							"Machete",
+							"Machete Wraith",
+							"Boltace",
+							"Hirudo",
+							"Gram Prime",
+							"Kronen",
+							"Dual Zoren",
+							"Korumm",
+							"Tekko",
+							"Kama",
+							"Destreza",
+							"Jaw Sword",
+							"Galvacord",
+							"Kuva Shildeg",
+							"Hespar",
+							"Okina Prime",
+							"Halikar",
+							"Garuda Talons",
+							"Guandao",
+							"Kuva Ghoulsaw",
+							"Arca Titron",
+							"Venato Prime",
+							"Gunsen Prime",
+							"Jat Kusar",
+							"Galatine",
+							"Dark Dagger",
+							"Cassowar",
+							"Falcor",
+							"Galariak Prime",
+							"Ether Sword",
+							"Hate",
+							"Cerata",
+							"Dual Heat Swords",
+							"Dual Ether",
+							"Cronus",
+							"Coda Pathocyst",
+							"Dual Raza",
+							"Broken War",
 							["Place"] = "First",
 						},
 					},
@@ -33999,8 +34585,8 @@ return {
 						},
 						[2] = {
 							"Quassus",
-							"Quassus Prime",
 							"Arum Spinosa",
+							"Quassus Prime",
 							["Place"] = "First",
 						},
 					},
@@ -34011,8 +34597,8 @@ return {
 							"Ghoulsaw",
 							"Valkyr Talons",
 							"Valkyr Prime Talons",
-							"Shadow Claws",
 							"Shadow Claws Prime",
+							"Shadow Claws",
 							"Desert Wind",
 							"Iron Staff Prime",
 							"Exalted Blade",
@@ -34025,13 +34611,13 @@ return {
 							"Garuda Prime Talons",
 							"Venka",
 							"Nepheri",
+							"Keratinos",
 							"Ether Daggers",
 							"Ripkas",
 							"Fang Prime",
-							"Okina",
 							"Fang",
 							"Venka Prime",
-							"Keratinos",
+							"Okina",
 							"Okina Prime",
 							"Garuda Talons",
 							["Place"] = "Third",
@@ -34040,6 +34626,7 @@ return {
 							"Karyst",
 							"Tekko Prime",
 							"Kogake Prime",
+							"Sheev",
 							"Coda Hirudo",
 							"Korrudo",
 							"Prisma Obex",
@@ -34049,14 +34636,13 @@ return {
 							"Ceramic Dagger",
 							"Ruvox",
 							"Heat Dagger",
-							"Sheev",
+							"Rumblejack",
 							"Innodem",
 							"Karyst Prime",
-							"Rumblejack",
 							"Furax Wraith",
 							"Rakta Dark Dagger",
-							"Kogake",
 							"Obex",
+							"Kogake",
 							"Mk1-Furax",
 							"Hirudo",
 							"Tekko",
@@ -34091,83 +34677,85 @@ return {
 							"Mios",
 							"Destreza Prime",
 							"Mk1-Bo",
+							"Zenistar",
 							"Redeemer",
 							"Garuda Prime Talons",
-							"Zenistar",
-							"Redeemer Prime",
+							"Reaper Prime",
 							"Wrath",
+							"Wolf Sledge",
 							"Sigma & Octantis",
 							"Scindo",
-							"Wolf Sledge",
-							"Prisma Machete",
-							"Vericres",
+							"Pride",
 							"Exalted Umbra Blade",
+							"Vericres",
 							"War Prime",
 							"War",
 							"Volnus Prime",
-							"Prova Vandal",
 							"Volnus",
+							"Prova Vandal",
 							"Tekko Prime",
 							"Kogake Prime",
+							"Vinquibus (Melee)",
 							"Nikana",
 							"Dragon Nikana",
 							"Sarofang",
-							"Vinquibus (Melee)",
+							"Sheev",
 							"Desert Wind Prime",
 							"Coda Hirudo",
 							"Atterax",
-							"Sibear",
+							"Pangolin Sword",
 							"Prisma Skana",
-							"Paracesis",
+							"Venka",
 							"Dual Ichor",
 							"Korrudo",
 							"Dual Keres",
 							"Sun & Moon",
 							"Tenet Livia",
-							"Venka",
 							"Ghoulsaw",
-							"Skiajati",
+							"Tonbo",
+							"Vaykor Sydon",
 							"Nepheri",
 							"Kronen Prime",
-							"Vaykor Sydon",
+							"Vastilok",
 							"Ack & Brunt",
 							"Amphis",
-							"Vastilok",
 							"Valkyr Talons",
+							"Valkyr Prime Talons",
 							"Dual Skana",
 							"Nami Solo",
 							"Dex Nikana",
 							"Stropha",
 							"Tonkkatt",
-							"Valkyr Prime Talons",
-							"Prisma Obex",
 							"Twin Krohkur",
+							"Prisma Obex",
+							"Skana Prime",
 							"Venato",
 							"Kestrel Prime",
 							"Coda Caustacyst",
-							"Tonbo",
+							"Pupacyst",
+							"Secura Lecta",
 							"Ankyros",
 							"Azothane",
-							"Serro",
+							"Shadow Claws Prime",
 							"Guandao Prime",
-							"Pupacyst",
+							"Tenet Grigori",
 							"Lacera",
 							"Cobra & Crane Prime",
 							"Furax",
 							"Skana",
 							"Ankyros Prime",
-							"Tenet Grigori",
-							"Silva & Aegis Prime",
 							"Tenet Exec",
+							"Silva & Aegis Prime",
 							"Tenet Agendus",
+							"Telos Boltace",
 							"Dual Zoren Prime",
 							"Sarofang Prime",
 							"Dual Kamas Prime",
-							"Telos Boltace",
-							"Korumm",
+							"Keratinos",
+							"Tatsu Prime",
 							"Ceramic Dagger",
 							"Cadus",
-							"Tatsu Prime",
+							"Tatsu",
 							"Harmony",
 							"Coda Mire",
 							"Ruvox",
@@ -34177,44 +34765,44 @@ return {
 							"Ether Daggers",
 							"Dex Dakra",
 							"Dark Sword",
-							"Tatsu",
 							"Tak & Lug",
 							"Synoid Heliocor",
 							"Sydon",
-							"Ripkas",
 							"Syam",
+							"Ripkas",
 							"Spinnerex",
+							"Slaytra",
 							"Broken Scepter",
 							"Orthos Prime",
-							"Slaytra",
+							"Skiajati",
 							"Prisma Dual Cleavers",
 							"Kreska",
 							"Jat Kittag",
 							"Twin Basolk",
-							"Skana Prime",
-							"Shadow Claws",
 							"Silva & Aegis",
+							"Shadow Claws",
+							"Sibear",
 							"Coda Motovore",
 							"Cobra & Crane",
 							"Verdilac",
-							"Sheev",
 							"Vitrica",
 							"Shaku",
-							"Prova",
+							"Prisma Ohma",
+							"Pulmonars",
 							"Fang Prime",
 							"Thalys",
 							"Krohkur",
-							"Shadow Claws Prime",
+							"Serro",
 							"Tipedo",
 							"Argo & Vel",
-							"Secura Lecta",
 							"Scoliac",
 							"Scindo Prime",
-							"Mire",
-							"Gram",
+							"Masseter Prime",
 							"Sancti Magistar",
-							"Orthos",
+							"Gram",
 							"Sampotes",
+							"Orthos",
+							"Rumblejack",
 							"Innodem",
 							"Kestrel",
 							"Bo Prime",
@@ -34224,10 +34812,9 @@ return {
 							"Fragor Prime",
 							"Karyst Prime",
 							"Ekhein",
-							"Rumblejack",
+							"Redeemer Prime",
 							"Xoris",
-							"Reaper Prime",
-							"Okina",
+							"Ohma",
 							"Glaive Prime",
 							"Bo",
 							"Corufell",
@@ -34238,57 +34825,57 @@ return {
 							"Ceti Lacera",
 							"Dual Viciss",
 							"Dark Split-Sword (Dual Swords)",
-							"Pulmonars",
+							"Prova",
 							"Pangolin Prime",
-							"Prisma Ohma",
+							"Prisma Machete",
 							"Dual Keres Prime",
-							"Pride",
+							"Praedos",
 							"Caustacyst",
 							"Glaive",
-							"Praedos",
-							"Fang",
 							"Plasma Sword",
+							"Fang",
 							"Pennant",
+							"Pathocyst",
 							"Nikana Prime",
 							"Dual Kamas",
-							"Kama",
-							"Pathocyst",
+							"Corufell Prime",
+							"Paracesis",
 							"Ether Reaper",
 							"Venka Prime",
 							"Kesheg",
-							"Pangolin Sword",
-							"Amanata",
 							"Orvius",
+							"Amanata",
 							"Edun",
+							"Okina",
 							"Rakta Dark Dagger",
-							"Ohma",
+							"Obex",
 							"Kogake",
 							"Dual Cleavers",
-							"Obex",
+							"Ninkondi",
 							"Heat Sword",
 							"Halikar Wraith",
-							"Ninkondi",
-							"Fragor",
 							"Nami Skyla Prime",
+							"Fragor",
 							"Nami Skyla",
 							"Mk1-Furax",
+							"Mire",
 							"Sarpa",
 							"Lecta",
-							"Masseter Prime",
-							"Desert Wind",
 							"Magistar",
+							"Desert Wind",
+							"Lesion",
 							"Machete",
 							"Machete Wraith",
-							"Lesion",
+							"Iron Staff Prime",
 							"Boltace",
 							"Hirudo",
-							"Iron Staff Prime",
 							"Gram Prime",
-							"Dual Zoren",
 							"Kronen",
+							"Dual Zoren",
+							"Korumm",
 							"Tekko",
 							"Exalted Blade",
-							"Keratinos",
+							"Kama",
 							"Destreza",
 							"Jaw Sword",
 							"Galvacord",
@@ -34326,8 +34913,8 @@ return {
 							["Place"] = "Second",
 						},
 						[9] = {
-							"Quassus Prime",
 							"Arum Spinosa",
+							"Quassus Prime",
 							["Place"] = "First",
 						},
 					},
@@ -34370,25 +34957,25 @@ return {
 				["Percentiles"] = {
 					["AvgCritCount"] = {
 						0.3,
-						0.24,
+						0.255,
 						0.22,
 						0.21,
 						0.2,
-						0.174,
+						0.18,
 						0.12,
 					},
 					["AvgDmgWithAnimSpeedMulti"] = {
-						1070.9703198,
-						953.12,
-						772.7838336,
-						716.316,
-						675.6018,
-						621.4677,
-						493.20264,
+						1070.648749125,
+						973.303835,
+						805.194,
+						732.885,
+						682.89078,
+						627.11925,
+						495.0519,
 					},
 					["AvgProcCount"] = {
-						1.908,
-						1.3,
+						1.84,
+						1.275,
 						1.1,
 						1.1,
 						1.1,
@@ -34396,8 +34983,8 @@ return {
 						1.1,
 					},
 					["BlockAngle"] = {
-						68,
-						55,
+						67.5,
+						58.75,
 						55,
 						55,
 						55,
@@ -34406,11 +34993,11 @@ return {
 					},
 					["CritChance"] = {
 						0.3,
-						0.24,
+						0.255,
 						0.22,
 						0.21,
 						0.2,
-						0.174,
+						0.18,
 						0.12,
 					},
 					["CritMultiplier"] = {
@@ -34423,13 +35010,13 @@ return {
 						2,
 					},
 					["Disposition"] = {
-						1.35,
-						1.25,
-						1.15,
-						1.1,
-						1.09,
-						0.9,
-						0.7,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
 					},
 					["FireRate"] = {
 						1.17,
@@ -34441,7 +35028,7 @@ return {
 						0.833,
 					},
 					["FollowThrough"] = {
-						0.76,
+						0.75,
 						0.7,
 						0.7,
 						0.7,
@@ -34454,7 +35041,7 @@ return {
 						2.6,
 						2.5,
 						2,
-						1.88,
+						1.925,
 						1.7,
 						1.25,
 					},
@@ -34469,7 +35056,7 @@ return {
 					},
 					["StatusChance"] = {
 						0.36,
-						0.3,
+						0.275,
 						0.1,
 						0.1,
 						0.1,
@@ -34477,13 +35064,13 @@ return {
 						0.1,
 					},
 					["TotalDamage"] = {
-						800.4,
-						684,
+						798,
+						681.75,
 						630,
-						594.6,
-						564,
-						464,
-						375.2,
+						597.75,
+						574,
+						470,
+						377,
 					},
 				},
 				["Top3"] = {
@@ -34532,6 +35119,7 @@ return {
 					["BlockAngle"] = {
 						[65] = {
 							"Corufell",
+							"Corufell Prime",
 							["Place"] = "Third",
 						},
 						[70] = {
@@ -34562,8 +35150,9 @@ return {
 					},
 					["CritMultiplier"] = {
 						[2.5] = {
-							"Quassus Prime",
 							"Verdilac",
+							"Quassus Prime",
+							"Corufell Prime",
 							"Hate",
 							["Place"] = "Third",
 						},
@@ -34578,27 +35167,59 @@ return {
 						},
 					},
 					["Disposition"] = {
-						[1.43] = {
+						[1.2] = {
+							"Zenistar",
+							"Redeemer",
+							"Wolf Sledge",
+							"Sigma & Octantis",
+							"Vinquibus (Melee)",
+							"Quassus",
+							"Nepheri",
+							"Vastilok",
+							"Ack & Brunt",
+							"Stropha",
+							"Kestrel Prime",
+							"Coda Caustacyst",
+							"Tenet Grigori",
+							"Tenet Agendus",
+							"Telos Boltace",
+							"Tatsu Prime",
 							"Ceramic Dagger",
-							["Place"] = "Third",
-						},
-						[1.44] = {
-							"Halikar",
-							["Place"] = "Second",
-						},
-						[1.45] = {
+							"Tatsu",
+							"Syam",
+							"Verdilac",
+							"Vitrica",
+							"Argo & Vel",
+							"Arum Spinosa",
+							"Innodem",
 							"Kestrel",
+							"Redeemer Prime",
+							"Xoris",
+							"Quassus Prime",
+							"Glaive Prime",
+							"Corufell",
+							"Caustacyst",
+							"Glaive",
+							"Pathocyst",
+							"Corufell Prime",
+							"Orvius",
+							"Edun",
+							"Okina",
+							"Halikar Wraith",
+							"Sarpa",
+							"Korumm",
+							"Okina Prime",
+							"Halikar",
+							"Falcor",
+							"Hate",
+							"Cerata",
+							"Coda Pathocyst",
 							["Place"] = "First",
 						},
 					},
 					["FireRate"] = {
-						[1.08] = {
-							"Sigma & Octantis",
-							"Tenet Grigori",
-							"Telos Boltace",
-							"Arum Spinosa",
-							"Kestrel",
-							"Okina",
+						[1.0833334] = {
+							"Corufell Prime",
 							["Place"] = "Third",
 						},
 						[1.17] = {
@@ -34618,13 +35239,13 @@ return {
 						[0.7] = {
 							"Quassus",
 							"Kestrel Prime",
-							"Quassus Prime",
 							"Tatsu Prime",
 							"Tatsu",
 							"Syam",
 							"Arum Spinosa",
 							"Kestrel",
 							"Xoris",
+							"Quassus Prime",
 							"Glaive Prime",
 							"Glaive",
 							"Pathocyst",
@@ -34651,9 +35272,9 @@ return {
 					["MeleeRange"] = {
 						[2.9] = {
 							"Coda Caustacyst",
-							"Korumm",
 							"Vitrica",
 							"Caustacyst",
+							"Korumm",
 							["Place"] = "Third",
 						},
 						[3] = {
@@ -34671,26 +35292,23 @@ return {
 					},
 					["Multishot"] = {
 						{
-							"Redeemer",
 							"Zenistar",
-							"Redeemer Prime",
-							"Sigma & Octantis",
+							"Redeemer",
 							"Wolf Sledge",
+							"Sigma & Octantis",
 							"Vinquibus (Melee)",
 							"Quassus",
 							"Nepheri",
-							"Ack & Brunt",
 							"Vastilok",
+							"Ack & Brunt",
 							"Stropha",
 							"Kestrel Prime",
 							"Coda Caustacyst",
-							"Quassus Prime",
 							"Tenet Grigori",
 							"Tenet Agendus",
 							"Telos Boltace",
-							"Korumm",
-							"Ceramic Dagger",
 							"Tatsu Prime",
+							"Ceramic Dagger",
 							"Tatsu",
 							"Syam",
 							"Verdilac",
@@ -34699,17 +35317,21 @@ return {
 							"Arum Spinosa",
 							"Innodem",
 							"Kestrel",
+							"Redeemer Prime",
 							"Xoris",
-							"Okina",
+							"Quassus Prime",
 							"Glaive Prime",
 							"Corufell",
 							"Caustacyst",
 							"Glaive",
 							"Pathocyst",
+							"Corufell Prime",
 							"Orvius",
 							"Edun",
+							"Okina",
 							"Halikar Wraith",
 							"Sarpa",
+							"Korumm",
 							"Okina Prime",
 							"Halikar",
 							"Falcor",
@@ -34807,13 +35429,13 @@ return {
 						2,
 					},
 					["Disposition"] = {
-						1.403,
-						1.3,
-						1.25,
-						1.16125,
-						1.15,
-						1.04,
-						0.7175,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
 					},
 					["FireRate"] = {
 						1.08,
@@ -34920,11 +35542,11 @@ return {
 							"Zenistar",
 							"Quassus",
 							"Kestrel Prime",
-							"Quassus Prime",
 							"Syam",
 							"Arum Spinosa",
 							"Kestrel",
 							"Xoris",
+							"Quassus Prime",
 							"Glaive Prime",
 							"Glaive",
 							"Pathocyst",
@@ -34974,8 +35596,8 @@ return {
 							["Place"] = "Third",
 						},
 						[2.5] = {
-							"Quassus Prime",
 							"Verdilac",
+							"Quassus Prime",
 							"Pathocyst",
 							"Halikar Wraith",
 							"Hate",
@@ -34990,16 +35612,37 @@ return {
 						},
 					},
 					["Disposition"] = {
-						[1.43] = {
+						[1.2] = {
+							"Zenistar",
+							"Wolf Sledge",
+							"Sigma & Octantis",
+							"Vinquibus (Melee)",
+							"Quassus",
+							"Ack & Brunt",
+							"Kestrel Prime",
+							"Coda Caustacyst",
 							"Ceramic Dagger",
-							["Place"] = "Third",
-						},
-						[1.44] = {
-							"Halikar",
-							["Place"] = "Second",
-						},
-						[1.45] = {
+							"Syam",
+							"Verdilac",
+							"Argo & Vel",
+							"Arum Spinosa",
 							"Kestrel",
+							"Xoris",
+							"Quassus Prime",
+							"Glaive Prime",
+							"Caustacyst",
+							"Glaive",
+							"Pathocyst",
+							"Orvius",
+							"Edun",
+							"Okina",
+							"Halikar Wraith",
+							"Okina Prime",
+							"Halikar",
+							"Falcor",
+							"Hate",
+							"Cerata",
+							"Coda Pathocyst",
 							["Place"] = "First",
 						},
 					},
@@ -35023,11 +35666,11 @@ return {
 						[0.7] = {
 							"Quassus",
 							"Kestrel Prime",
-							"Quassus Prime",
 							"Syam",
 							"Arum Spinosa",
 							"Kestrel",
 							"Xoris",
+							"Quassus Prime",
 							"Glaive Prime",
 							"Glaive",
 							"Pathocyst",
@@ -35069,14 +35712,13 @@ return {
 					["Multishot"] = {
 						{
 							"Zenistar",
-							"Sigma & Octantis",
 							"Wolf Sledge",
+							"Sigma & Octantis",
 							"Vinquibus (Melee)",
 							"Quassus",
 							"Ack & Brunt",
 							"Kestrel Prime",
 							"Coda Caustacyst",
-							"Quassus Prime",
 							"Ceramic Dagger",
 							"Syam",
 							"Verdilac",
@@ -35084,13 +35726,14 @@ return {
 							"Arum Spinosa",
 							"Kestrel",
 							"Xoris",
-							"Okina",
+							"Quassus Prime",
 							"Glaive Prime",
 							"Caustacyst",
 							"Glaive",
 							"Pathocyst",
 							"Orvius",
 							"Edun",
+							"Okina",
 							"Halikar Wraith",
 							"Okina Prime",
 							"Halikar",
@@ -35188,13 +35831,13 @@ return {
 						2,
 					},
 					["Disposition"] = {
-						1.413,
-						1.3,
-						1.29,
-						1.25,
-						1.2425,
-						1.11,
-						0.6975,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
 					},
 					["FireRate"] = {
 						1,
@@ -35355,16 +35998,21 @@ return {
 						},
 					},
 					["Disposition"] = {
-						[1.35] = {
-							"Orvius",
-							["Place"] = "Third",
-						},
-						[1.44] = {
-							"Halikar",
-							["Place"] = "Second",
-						},
-						[1.45] = {
+						[1.2] = {
+							"Zenistar",
+							"Wolf Sledge",
+							"Kestrel Prime",
 							"Kestrel",
+							"Xoris",
+							"Glaive Prime",
+							"Glaive",
+							"Pathocyst",
+							"Orvius",
+							"Halikar Wraith",
+							"Halikar",
+							"Falcor",
+							"Cerata",
+							"Coda Pathocyst",
 							["Place"] = "First",
 						},
 					},
@@ -35543,13 +36191,13 @@ return {
 						2.16,
 					},
 					["Disposition"] = {
-						1.422,
-						1.3,
-						1.3,
-						1.265,
-						1.22,
-						0.99,
-						0.69,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
 					},
 					["FireRate"] = {
 						0.9666,
@@ -35705,16 +36353,20 @@ return {
 						},
 					},
 					["Disposition"] = {
-						[1.35] = {
-							"Orvius",
-							["Place"] = "Third",
-						},
-						[1.44] = {
-							"Halikar",
-							["Place"] = "Second",
-						},
-						[1.45] = {
+						[1.2] = {
+							"Zenistar",
+							"Kestrel Prime",
 							"Kestrel",
+							"Xoris",
+							"Glaive Prime",
+							"Glaive",
+							"Pathocyst",
+							"Orvius",
+							"Halikar Wraith",
+							"Halikar",
+							"Falcor",
+							"Cerata",
+							"Coda Pathocyst",
 							["Place"] = "First",
 						},
 					},
@@ -35889,13 +36541,13 @@ return {
 						2,
 					},
 					["Disposition"] = {
-						1.431,
-						1.3125,
-						1.3,
-						1.28875,
-						1.2475,
-						0.885,
-						0.6825,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
 					},
 					["FireRate"] = {
 						1.242,
@@ -36050,16 +36702,19 @@ return {
 						},
 					},
 					["Disposition"] = {
-						[1.35] = {
-							"Orvius",
-							["Place"] = "Third",
-						},
-						[1.44] = {
-							"Halikar",
-							["Place"] = "Second",
-						},
-						[1.45] = {
+						[1.2] = {
+							"Kestrel Prime",
 							"Kestrel",
+							"Xoris",
+							"Glaive Prime",
+							"Glaive",
+							"Pathocyst",
+							"Orvius",
+							"Halikar Wraith",
+							"Halikar",
+							"Falcor",
+							"Cerata",
+							"Coda Pathocyst",
 							["Place"] = "First",
 						},
 					},
@@ -36224,13 +36879,13 @@ return {
 						2,
 					},
 					["Disposition"] = {
-						1.431,
-						1.3125,
-						1.3,
-						1.28875,
-						1.2475,
-						0.885,
-						0.6825,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
 					},
 					["FireRate"] = {
 						1.242,
@@ -36381,16 +37036,19 @@ return {
 						},
 					},
 					["Disposition"] = {
-						[1.35] = {
-							"Orvius",
-							["Place"] = "Third",
-						},
-						[1.44] = {
-							"Halikar",
-							["Place"] = "Second",
-						},
-						[1.45] = {
+						[1.2] = {
+							"Kestrel Prime",
 							"Kestrel",
+							"Xoris",
+							"Glaive Prime",
+							"Glaive",
+							"Pathocyst",
+							"Orvius",
+							"Halikar Wraith",
+							"Halikar",
+							"Falcor",
+							"Cerata",
+							"Coda Pathocyst",
 							["Place"] = "First",
 						},
 					},
@@ -36557,13 +37215,13 @@ return {
 						2,
 					},
 					["Disposition"] = {
-						1.35,
-						1.35,
-						1.35,
-						1.35,
-						1.35,
-						1.35,
-						1.35,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
 					},
 					["FireRate"] = {
 						0.75,
@@ -36658,7 +37316,7 @@ return {
 						},
 					},
 					["Disposition"] = {
-						[1.35] = {
+						[1.2] = {
 							"Orvius",
 							["Place"] = "First",
 						},
@@ -36762,13 +37420,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.306,
-								1.3,
-								1.24,
-								1.21,
 								1.2,
 								1.2,
-								1.16,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.08,
@@ -36910,16 +37568,11 @@ return {
 							},
 							["Disposition"] = {
 								[1.2] = {
+									"Dorrclave",
+									"Mios",
+									"Lacera",
 									"Ceti Lacera",
 									"Jat Kusar",
-									["Place"] = "Third",
-								},
-								[1.3] = {
-									"Mios",
-									["Place"] = "Second",
-								},
-								[1.31] = {
-									"Lacera",
 									["Place"] = "First",
 								},
 							},
@@ -37060,13 +37713,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.306,
-								1.3,
-								1.24,
-								1.21,
 								1.2,
 								1.2,
-								1.16,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.08,
@@ -37209,16 +37862,11 @@ return {
 							},
 							["Disposition"] = {
 								[1.2] = {
+									"Dorrclave",
+									"Mios",
+									"Lacera",
 									"Ceti Lacera",
 									"Jat Kusar",
-									["Place"] = "Third",
-								},
-								[1.3] = {
-									"Mios",
-									["Place"] = "Second",
-								},
-								[1.31] = {
-									"Lacera",
 									["Place"] = "First",
 								},
 							},
@@ -37360,13 +38008,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.306,
-								1.3,
-								1.24,
-								1.21,
 								1.2,
 								1.2,
-								1.16,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.08,
@@ -37509,16 +38157,11 @@ return {
 							},
 							["Disposition"] = {
 								[1.2] = {
+									"Dorrclave",
+									"Mios",
+									"Lacera",
 									"Ceti Lacera",
 									"Jat Kusar",
-									["Place"] = "Third",
-								},
-								[1.3] = {
-									"Mios",
-									["Place"] = "Second",
-								},
-								[1.31] = {
-									"Lacera",
 									["Place"] = "First",
 								},
 							},
@@ -37665,12 +38308,12 @@ return {
 							},
 							["Disposition"] = {
 								1.2,
-								1.0875,
-								1.05,
-								0.975,
-								0.9,
-								0.425,
-								0,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.025,
@@ -37775,9 +38418,9 @@ return {
 							["BlockAngle"] = {
 								[55] = {
 									"Venka",
+									"Keratinos",
 									"Ripkas",
 									"Venka Prime",
-									"Keratinos",
 									["Place"] = "Second",
 								},
 								[60] = {
@@ -37819,16 +38462,13 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.05] = {
-									"Keratinos",
-									["Place"] = "Third",
-								},
-								[1.1] = {
+								[1.2] = {
+									"Garuda Prime Talons",
 									"Venka",
-									["Place"] = "Second",
-								},
-								[1.3] = {
+									"Keratinos",
 									"Ripkas",
+									"Venka Prime",
+									"Garuda Talons",
 									["Place"] = "First",
 								},
 							},
@@ -37852,9 +38492,9 @@ return {
 								[0.8] = {
 									"Garuda Prime Talons",
 									"Venka",
+									"Keratinos",
 									"Ripkas",
 									"Venka Prime",
-									"Keratinos",
 									"Garuda Talons",
 									["Place"] = "First",
 								},
@@ -37879,9 +38519,9 @@ return {
 								{
 									"Garuda Prime Talons",
 									"Venka",
+									"Keratinos",
 									"Ripkas",
 									"Venka Prime",
-									"Keratinos",
 									"Garuda Talons",
 									["Place"] = "First",
 								},
@@ -37975,12 +38615,12 @@ return {
 							},
 							["Disposition"] = {
 								1.2,
-								1.0875,
-								1.05,
-								0.975,
-								0.9,
-								0.425,
-								0,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.025,
@@ -38070,9 +38710,9 @@ return {
 							["AvgProcCount"] = {
 								[1.1] = {
 									"Venka",
+									"Keratinos",
 									"Ripkas",
 									"Venka Prime",
-									"Keratinos",
 									["Place"] = "Second",
 								},
 								[1.3] = {
@@ -38084,9 +38724,9 @@ return {
 							["BlockAngle"] = {
 								[55] = {
 									"Venka",
+									"Keratinos",
 									"Ripkas",
 									"Venka Prime",
-									"Keratinos",
 									["Place"] = "Second",
 								},
 								[60] = {
@@ -38128,16 +38768,13 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.05] = {
-									"Keratinos",
-									["Place"] = "Third",
-								},
-								[1.1] = {
+								[1.2] = {
+									"Garuda Prime Talons",
 									"Venka",
-									["Place"] = "Second",
-								},
-								[1.3] = {
+									"Keratinos",
 									"Ripkas",
+									"Venka Prime",
+									"Garuda Talons",
 									["Place"] = "First",
 								},
 							},
@@ -38161,9 +38798,9 @@ return {
 								[0.8] = {
 									"Garuda Prime Talons",
 									"Venka",
+									"Keratinos",
 									"Ripkas",
 									"Venka Prime",
-									"Keratinos",
 									"Garuda Talons",
 									["Place"] = "First",
 								},
@@ -38188,9 +38825,9 @@ return {
 								{
 									"Garuda Prime Talons",
 									"Venka",
+									"Keratinos",
 									"Ripkas",
 									"Venka Prime",
-									"Keratinos",
 									"Garuda Talons",
 									["Place"] = "First",
 								},
@@ -38198,9 +38835,9 @@ return {
 							["StatusChance"] = {
 								[0.1] = {
 									"Venka",
+									"Keratinos",
 									"Ripkas",
 									"Venka Prime",
-									"Keratinos",
 									["Place"] = "Second",
 								},
 								[0.3] = {
@@ -38283,12 +38920,12 @@ return {
 							},
 							["Disposition"] = {
 								1.2,
-								1.0875,
-								1.05,
-								0.975,
-								0.9,
-								0.425,
-								0,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.025,
@@ -38383,18 +39020,18 @@ return {
 								},
 								[1.1] = {
 									"Venka",
+									"Keratinos",
 									"Ripkas",
 									"Venka Prime",
-									"Keratinos",
 									["Place"] = "First",
 								},
 							},
 							["BlockAngle"] = {
 								[55] = {
 									"Venka",
+									"Keratinos",
 									"Ripkas",
 									"Venka Prime",
-									"Keratinos",
 									["Place"] = "Second",
 								},
 								[60] = {
@@ -38436,16 +39073,13 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.05] = {
-									"Keratinos",
-									["Place"] = "Third",
-								},
-								[1.1] = {
+								[1.2] = {
+									"Garuda Prime Talons",
 									"Venka",
-									["Place"] = "Second",
-								},
-								[1.3] = {
+									"Keratinos",
 									"Ripkas",
+									"Venka Prime",
+									"Garuda Talons",
 									["Place"] = "First",
 								},
 							},
@@ -38469,9 +39103,9 @@ return {
 								[0.8] = {
 									"Garuda Prime Talons",
 									"Venka",
+									"Keratinos",
 									"Ripkas",
 									"Venka Prime",
-									"Keratinos",
 									"Garuda Talons",
 									["Place"] = "First",
 								},
@@ -38496,9 +39130,9 @@ return {
 								{
 									"Garuda Prime Talons",
 									"Venka",
+									"Keratinos",
 									"Ripkas",
 									"Venka Prime",
-									"Keratinos",
 									"Garuda Talons",
 									["Place"] = "First",
 								},
@@ -38507,9 +39141,9 @@ return {
 								[0.1] = {
 									"Garuda Prime Talons",
 									"Venka",
+									"Keratinos",
 									"Ripkas",
 									"Venka Prime",
-									"Keratinos",
 									"Garuda Talons",
 									["Place"] = "First",
 								},
@@ -38591,13 +39225,13 @@ return {
 								1.52,
 							},
 							["Disposition"] = {
-								1.432,
-								1.35,
-								1.32,
-								1.23,
-								1.18,
-								1.12,
-								1.02,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -38701,9 +39335,9 @@ return {
 							["BlockAngle"] = {
 								[45] = {
 									"Karyst",
+									"Sheev",
 									"Ceramic Dagger",
 									"Heat Dagger",
-									"Sheev",
 									"Rumblejack",
 									"Rakta Dark Dagger",
 									"Dark Dagger",
@@ -38745,17 +39379,16 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
+								[1.2] = {
 									"Karyst",
 									"Sheev",
-									["Place"] = "Third",
-								},
-								[1.43] = {
 									"Ceramic Dagger",
-									["Place"] = "Second",
-								},
-								[1.44] = {
 									"Heat Dagger",
+									"Rumblejack",
+									"Innodem",
+									"Karyst Prime",
+									"Rakta Dark Dagger",
+									"Dark Dagger",
 									["Place"] = "First",
 								},
 							},
@@ -38779,12 +39412,12 @@ return {
 							["FollowThrough"] = {
 								[0.9] = {
 									"Karyst",
+									"Sheev",
 									"Ceramic Dagger",
 									"Heat Dagger",
-									"Sheev",
+									"Rumblejack",
 									"Innodem",
 									"Karyst Prime",
-									"Rumblejack",
 									"Rakta Dark Dagger",
 									"Dark Dagger",
 									["Place"] = "First",
@@ -38800,8 +39433,8 @@ return {
 								},
 								[1.8] = {
 									"Ceramic Dagger",
-									"Innodem",
 									"Rumblejack",
+									"Innodem",
 									["Place"] = "Second",
 								},
 								[2.2] = {
@@ -38812,12 +39445,12 @@ return {
 							["Multishot"] = {
 								{
 									"Karyst",
+									"Sheev",
 									"Ceramic Dagger",
 									"Heat Dagger",
-									"Sheev",
+									"Rumblejack",
 									"Innodem",
 									"Karyst Prime",
-									"Rumblejack",
 									"Rakta Dark Dagger",
 									"Dark Dagger",
 									["Place"] = "First",
@@ -38911,13 +39544,13 @@ return {
 								1.52,
 							},
 							["Disposition"] = {
-								1.432,
-								1.35,
-								1.32,
-								1.23,
-								1.18,
-								1.12,
-								1.02,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -39021,9 +39654,9 @@ return {
 							["BlockAngle"] = {
 								[45] = {
 									"Karyst",
+									"Sheev",
 									"Ceramic Dagger",
 									"Heat Dagger",
-									"Sheev",
 									"Rumblejack",
 									"Rakta Dark Dagger",
 									"Dark Dagger",
@@ -39066,17 +39699,16 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
+								[1.2] = {
 									"Karyst",
 									"Sheev",
-									["Place"] = "Third",
-								},
-								[1.43] = {
 									"Ceramic Dagger",
-									["Place"] = "Second",
-								},
-								[1.44] = {
 									"Heat Dagger",
+									"Rumblejack",
+									"Innodem",
+									"Karyst Prime",
+									"Rakta Dark Dagger",
+									"Dark Dagger",
 									["Place"] = "First",
 								},
 							},
@@ -39100,12 +39732,12 @@ return {
 							["FollowThrough"] = {
 								[0.9] = {
 									"Karyst",
+									"Sheev",
 									"Ceramic Dagger",
 									"Heat Dagger",
-									"Sheev",
+									"Rumblejack",
 									"Innodem",
 									"Karyst Prime",
-									"Rumblejack",
 									"Rakta Dark Dagger",
 									"Dark Dagger",
 									["Place"] = "First",
@@ -39121,8 +39753,8 @@ return {
 								},
 								[1.8] = {
 									"Ceramic Dagger",
-									"Innodem",
 									"Rumblejack",
+									"Innodem",
 									["Place"] = "Second",
 								},
 								[2.2] = {
@@ -39133,12 +39765,12 @@ return {
 							["Multishot"] = {
 								{
 									"Karyst",
+									"Sheev",
 									"Ceramic Dagger",
 									"Heat Dagger",
-									"Sheev",
+									"Rumblejack",
 									"Innodem",
 									"Karyst Prime",
-									"Rumblejack",
 									"Rakta Dark Dagger",
 									"Dark Dagger",
 									["Place"] = "First",
@@ -39231,13 +39863,13 @@ return {
 								1.52,
 							},
 							["Disposition"] = {
-								1.432,
-								1.35,
-								1.32,
-								1.23,
-								1.18,
-								1.12,
-								1.02,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -39342,9 +39974,9 @@ return {
 							["BlockAngle"] = {
 								[45] = {
 									"Karyst",
+									"Sheev",
 									"Ceramic Dagger",
 									"Heat Dagger",
-									"Sheev",
 									"Rumblejack",
 									"Rakta Dark Dagger",
 									"Dark Dagger",
@@ -39387,17 +40019,16 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
+								[1.2] = {
 									"Karyst",
 									"Sheev",
-									["Place"] = "Third",
-								},
-								[1.43] = {
 									"Ceramic Dagger",
-									["Place"] = "Second",
-								},
-								[1.44] = {
 									"Heat Dagger",
+									"Rumblejack",
+									"Innodem",
+									"Karyst Prime",
+									"Rakta Dark Dagger",
+									"Dark Dagger",
 									["Place"] = "First",
 								},
 							},
@@ -39421,12 +40052,12 @@ return {
 							["FollowThrough"] = {
 								[0.9] = {
 									"Karyst",
+									"Sheev",
 									"Ceramic Dagger",
 									"Heat Dagger",
-									"Sheev",
+									"Rumblejack",
 									"Innodem",
 									"Karyst Prime",
-									"Rumblejack",
 									"Rakta Dark Dagger",
 									"Dark Dagger",
 									["Place"] = "First",
@@ -39442,8 +40073,8 @@ return {
 								},
 								[1.8] = {
 									"Ceramic Dagger",
-									"Innodem",
 									"Rumblejack",
+									"Innodem",
 									["Place"] = "Second",
 								},
 								[2.2] = {
@@ -39454,12 +40085,12 @@ return {
 							["Multishot"] = {
 								{
 									"Karyst",
+									"Sheev",
 									"Ceramic Dagger",
 									"Heat Dagger",
-									"Sheev",
+									"Rumblejack",
 									"Innodem",
 									"Karyst Prime",
-									"Rumblejack",
 									"Rakta Dark Dagger",
 									"Dark Dagger",
 									["Place"] = "First",
@@ -39553,13 +40184,13 @@ return {
 								1.575,
 							},
 							["Disposition"] = {
-								1.352,
-								1.235,
-								1.118,
-								1.0595,
-								1.001,
-								0.884,
-								0.767,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								0.975,
@@ -39675,12 +40306,9 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.65] = {
-									"Innodem",
-									["Place"] = "Second",
-								},
-								[1.43] = {
+								[1.2] = {
 									"Ceramic Dagger",
+									"Innodem",
 									["Place"] = "First",
 								},
 							},
@@ -39791,13 +40419,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.43,
-								1.43,
-								1.43,
-								1.43,
-								1.43,
-								1.43,
-								1.43,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -39892,7 +40520,7 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.43] = {
+								[1.2] = {
 									"Ceramic Dagger",
 									["Place"] = "First",
 								},
@@ -39996,13 +40624,13 @@ return {
 								1.725,
 							},
 							["Disposition"] = {
-								1.445,
-								1.39,
-								1.36,
-								1.3375,
-								1.315,
-								1.15,
-								0.925,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.125,
@@ -40107,8 +40735,8 @@ return {
 									"Nepheri",
 									"Ether Daggers",
 									"Fang Prime",
-									"Okina",
 									"Fang",
+									"Okina",
 									"Okina Prime",
 									["Place"] = "First",
 								},
@@ -40143,16 +40771,13 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.36] = {
-									"Fang",
-									["Place"] = "Third",
-								},
-								[1.4] = {
-									"Okina",
-									["Place"] = "Second",
-								},
-								[1.49] = {
+								[1.2] = {
+									"Nepheri",
 									"Ether Daggers",
+									"Fang Prime",
+									"Fang",
+									"Okina",
+									"Okina Prime",
 									["Place"] = "First",
 								},
 							},
@@ -40176,8 +40801,8 @@ return {
 									"Nepheri",
 									"Ether Daggers",
 									"Fang Prime",
-									"Okina",
 									"Fang",
+									"Okina",
 									"Okina Prime",
 									["Place"] = "First",
 								},
@@ -40203,8 +40828,8 @@ return {
 									"Nepheri",
 									"Ether Daggers",
 									"Fang Prime",
-									"Okina",
 									"Fang",
+									"Okina",
 									"Okina Prime",
 									["Place"] = "First",
 								},
@@ -40296,13 +40921,13 @@ return {
 								1.725,
 							},
 							["Disposition"] = {
-								1.445,
-								1.39,
-								1.36,
-								1.3375,
-								1.315,
-								1.15,
-								0.925,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.125,
@@ -40409,8 +41034,8 @@ return {
 									"Nepheri",
 									"Ether Daggers",
 									"Fang Prime",
-									"Okina",
 									"Fang",
+									"Okina",
 									"Okina Prime",
 									["Place"] = "First",
 								},
@@ -40445,16 +41070,13 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.36] = {
-									"Fang",
-									["Place"] = "Third",
-								},
-								[1.4] = {
-									"Okina",
-									["Place"] = "Second",
-								},
-								[1.49] = {
+								[1.2] = {
+									"Nepheri",
 									"Ether Daggers",
+									"Fang Prime",
+									"Fang",
+									"Okina",
+									"Okina Prime",
 									["Place"] = "First",
 								},
 							},
@@ -40478,8 +41100,8 @@ return {
 									"Nepheri",
 									"Ether Daggers",
 									"Fang Prime",
-									"Okina",
 									"Fang",
+									"Okina",
 									"Okina Prime",
 									["Place"] = "First",
 								},
@@ -40505,8 +41127,8 @@ return {
 									"Nepheri",
 									"Ether Daggers",
 									"Fang Prime",
-									"Okina",
 									"Fang",
+									"Okina",
 									"Okina Prime",
 									["Place"] = "First",
 								},
@@ -40598,13 +41220,13 @@ return {
 								1.725,
 							},
 							["Disposition"] = {
-								1.445,
-								1.39,
-								1.36,
-								1.3375,
-								1.315,
-								1.15,
-								0.925,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.125,
@@ -40712,8 +41334,8 @@ return {
 									"Nepheri",
 									"Ether Daggers",
 									"Fang Prime",
-									"Okina",
 									"Fang",
+									"Okina",
 									"Okina Prime",
 									["Place"] = "First",
 								},
@@ -40748,16 +41370,13 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.36] = {
-									"Fang",
-									["Place"] = "Third",
-								},
-								[1.4] = {
-									"Okina",
-									["Place"] = "Second",
-								},
-								[1.49] = {
+								[1.2] = {
+									"Nepheri",
 									"Ether Daggers",
+									"Fang Prime",
+									"Fang",
+									"Okina",
+									"Okina Prime",
 									["Place"] = "First",
 								},
 							},
@@ -40781,8 +41400,8 @@ return {
 									"Nepheri",
 									"Ether Daggers",
 									"Fang Prime",
-									"Okina",
 									"Fang",
+									"Okina",
 									"Okina Prime",
 									["Place"] = "First",
 								},
@@ -40808,8 +41427,8 @@ return {
 									"Nepheri",
 									"Ether Daggers",
 									"Fang Prime",
-									"Okina",
 									"Fang",
+									"Okina",
 									"Okina Prime",
 									["Place"] = "First",
 								},
@@ -40904,13 +41523,13 @@ return {
 								2.09,
 							},
 							["Disposition"] = {
-								1.32,
 								1.2,
-								1.08,
-								1.02,
-								0.97,
-								0.88,
-								0.79,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.152,
@@ -41041,16 +41660,10 @@ return {
 								},
 							},
 							["Disposition"] = {
-								{
+								[1.2] = {
 									"Nepheri",
-									["Place"] = "Second",
-								},
-								[0.7] = {
-									"Okina Prime",
-									["Place"] = "Third",
-								},
-								[1.4] = {
 									"Okina",
+									"Okina Prime",
 									["Place"] = "First",
 								},
 							},
@@ -41176,13 +41789,13 @@ return {
 								2.09,
 							},
 							["Disposition"] = {
-								1.33,
-								1.225,
-								1.12,
-								1.0675,
-								1.015,
-								0.91,
-								0.805,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.161,
@@ -41295,12 +41908,9 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.7] = {
-									"Okina Prime",
-									["Place"] = "Second",
-								},
-								[1.4] = {
+								[1.2] = {
 									"Okina",
+									"Okina Prime",
 									["Place"] = "First",
 								},
 							},
@@ -41415,13 +42025,13 @@ return {
 								1.5,
 							},
 							["Disposition"] = {
-								1.441,
-								1.3625,
-								1.3,
-								1.29875,
-								1.25,
-								1.17,
-								0.985,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.25,
@@ -41580,17 +42190,27 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.44] = {
+								[1.2] = {
+									"Dual Ichor",
+									"Dual Keres",
+									"Dual Skana",
+									"Twin Krohkur",
+									"Dual Zoren Prime",
+									"Dual Kamas Prime",
+									"Dex Dakra",
+									"Prisma Dual Cleavers",
+									"Twin Basolk",
+									"Dual Viciss",
+									"Dark Split-Sword (Dual Swords)",
+									"Dual Keres Prime",
+									"Dual Kamas",
+									"Dual Cleavers",
+									"Nami Skyla Prime",
+									"Nami Skyla",
 									"Dual Zoren",
 									"Dual Heat Swords",
-									["Place"] = "Third",
-								},
-								[1.45] = {
 									"Dual Ether",
-									["Place"] = "Second",
-								},
-								[1.48] = {
-									"Dual Skana",
+									"Dual Raza",
 									["Place"] = "First",
 								},
 							},
@@ -41779,13 +42399,13 @@ return {
 								1.5,
 							},
 							["Disposition"] = {
-								1.441,
-								1.3625,
-								1.3,
-								1.29875,
-								1.25,
-								1.17,
-								0.985,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.25,
@@ -41944,17 +42564,27 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.44] = {
+								[1.2] = {
+									"Dual Ichor",
+									"Dual Keres",
+									"Dual Skana",
+									"Twin Krohkur",
+									"Dual Zoren Prime",
+									"Dual Kamas Prime",
+									"Dex Dakra",
+									"Prisma Dual Cleavers",
+									"Twin Basolk",
+									"Dual Viciss",
+									"Dark Split-Sword (Dual Swords)",
+									"Dual Keres Prime",
+									"Dual Kamas",
+									"Dual Cleavers",
+									"Nami Skyla Prime",
+									"Nami Skyla",
 									"Dual Zoren",
 									"Dual Heat Swords",
-									["Place"] = "Third",
-								},
-								[1.45] = {
 									"Dual Ether",
-									["Place"] = "Second",
-								},
-								[1.48] = {
-									"Dual Skana",
+									"Dual Raza",
 									["Place"] = "First",
 								},
 							},
@@ -42143,13 +42773,13 @@ return {
 								1.5,
 							},
 							["Disposition"] = {
-								1.441,
-								1.3625,
-								1.3,
-								1.29875,
-								1.25,
-								1.17,
-								0.985,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.25,
@@ -42325,17 +42955,27 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.44] = {
+								[1.2] = {
+									"Dual Ichor",
+									"Dual Keres",
+									"Dual Skana",
+									"Twin Krohkur",
+									"Dual Zoren Prime",
+									"Dual Kamas Prime",
+									"Dex Dakra",
+									"Prisma Dual Cleavers",
+									"Twin Basolk",
+									"Dual Viciss",
+									"Dark Split-Sword (Dual Swords)",
+									"Dual Keres Prime",
+									"Dual Kamas",
+									"Dual Cleavers",
+									"Nami Skyla Prime",
+									"Nami Skyla",
 									"Dual Zoren",
 									"Dual Heat Swords",
-									["Place"] = "Third",
-								},
-								[1.45] = {
 									"Dual Ether",
-									["Place"] = "Second",
-								},
-								[1.48] = {
-									"Dual Skana",
+									"Dual Raza",
 									["Place"] = "First",
 								},
 							},
@@ -42545,13 +43185,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.465,
-								1.45,
-								1.41,
-								1.3935,
-								1.383,
-								1.308,
-								1.1575,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.194,
@@ -42698,17 +43338,15 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.4] = {
-									"Tekko",
-									["Place"] = "Third",
-								},
-								[1.45] = {
-									"Ankyros Prime",
-									"Mk1-Furax",
-									["Place"] = "Second",
-								},
-								[1.5] = {
+								[1.2] = {
+									"Tekko Prime",
 									"Ankyros",
+									"Furax",
+									"Ankyros Prime",
+									"Ruvox",
+									"Furax Wraith",
+									"Mk1-Furax",
+									"Tekko",
 									["Place"] = "First",
 								},
 							},
@@ -42855,13 +43493,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.465,
-								1.45,
-								1.41,
-								1.3935,
-								1.383,
-								1.308,
-								1.1575,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.194,
@@ -43007,17 +43645,15 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.4] = {
-									"Tekko",
-									["Place"] = "Third",
-								},
-								[1.45] = {
-									"Ankyros Prime",
-									"Mk1-Furax",
-									["Place"] = "Second",
-								},
-								[1.5] = {
+								[1.2] = {
+									"Tekko Prime",
 									"Ankyros",
+									"Furax",
+									"Ankyros Prime",
+									"Ruvox",
+									"Furax Wraith",
+									"Mk1-Furax",
+									"Tekko",
 									["Place"] = "First",
 								},
 							},
@@ -43163,13 +43799,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.465,
-								1.45,
-								1.41,
-								1.3935,
-								1.383,
-								1.308,
-								1.1575,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.194,
@@ -43316,17 +43952,15 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.4] = {
-									"Tekko",
-									["Place"] = "Third",
-								},
-								[1.45] = {
-									"Ankyros Prime",
-									"Mk1-Furax",
-									["Place"] = "Second",
-								},
-								[1.5] = {
+								[1.2] = {
+									"Tekko Prime",
 									"Ankyros",
+									"Furax",
+									"Ankyros Prime",
+									"Ruvox",
+									"Furax Wraith",
+									"Mk1-Furax",
+									"Tekko",
 									["Place"] = "First",
 								},
 							},
@@ -43476,13 +44110,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.431,
-								1.3125,
-								1.3,
-								1.28875,
-								1.2475,
-								0.885,
-								0.6825,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.242,
@@ -43634,16 +44268,19 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
-									"Orvius",
-									["Place"] = "Third",
-								},
-								[1.44] = {
-									"Halikar",
-									["Place"] = "Second",
-								},
-								[1.45] = {
+								[1.2] = {
+									"Kestrel Prime",
 									"Kestrel",
+									"Xoris",
+									"Glaive Prime",
+									"Glaive",
+									"Pathocyst",
+									"Orvius",
+									"Halikar Wraith",
+									"Halikar",
+									"Falcor",
+									"Cerata",
+									"Coda Pathocyst",
 									["Place"] = "First",
 								},
 							},
@@ -43808,13 +44445,13 @@ return {
 								2.1,
 							},
 							["Disposition"] = {
-								1.431,
-								1.3125,
-								1.3,
-								1.28875,
-								1.2475,
-								0.885,
-								0.6825,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.17,
@@ -43965,16 +44602,19 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
-									"Orvius",
-									["Place"] = "Third",
-								},
-								[1.44] = {
-									"Halikar",
-									["Place"] = "Second",
-								},
-								[1.45] = {
+								[1.2] = {
+									"Kestrel Prime",
 									"Kestrel",
+									"Xoris",
+									"Glaive Prime",
+									"Glaive",
+									"Pathocyst",
+									"Orvius",
+									"Halikar Wraith",
+									"Halikar",
+									"Falcor",
+									"Cerata",
+									"Coda Pathocyst",
 									["Place"] = "First",
 								},
 							},
@@ -44138,13 +44778,13 @@ return {
 								2.1,
 							},
 							["Disposition"] = {
-								1.431,
-								1.3125,
-								1.3,
-								1.28875,
-								1.2475,
-								0.885,
-								0.6825,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.17,
@@ -44295,16 +44935,19 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
-									"Orvius",
-									["Place"] = "Third",
-								},
-								[1.44] = {
-									"Halikar",
-									["Place"] = "Second",
-								},
-								[1.45] = {
+								[1.2] = {
+									"Kestrel Prime",
 									"Kestrel",
+									"Xoris",
+									"Glaive Prime",
+									"Glaive",
+									"Pathocyst",
+									"Orvius",
+									"Halikar Wraith",
+									"Halikar",
+									"Falcor",
+									"Cerata",
+									"Coda Pathocyst",
 									["Place"] = "First",
 								},
 							},
@@ -44468,13 +45111,13 @@ return {
 								2.1,
 							},
 							["Disposition"] = {
-								1.431,
-								1.3125,
-								1.3,
-								1.28875,
-								1.2475,
-								0.885,
-								0.6825,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.17,
@@ -44625,16 +45268,19 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
-									"Orvius",
-									["Place"] = "Third",
-								},
-								[1.44] = {
-									"Halikar",
-									["Place"] = "Second",
-								},
-								[1.45] = {
+								[1.2] = {
+									"Kestrel Prime",
 									"Kestrel",
+									"Xoris",
+									"Glaive Prime",
+									"Glaive",
+									"Pathocyst",
+									"Orvius",
+									"Halikar Wraith",
+									"Halikar",
+									"Falcor",
+									"Cerata",
+									"Coda Pathocyst",
 									["Place"] = "First",
 								},
 							},
@@ -44798,13 +45444,13 @@ return {
 								2.2,
 							},
 							["Disposition"] = {
-								1.431,
-								1.3125,
-								1.3,
-								1.28875,
-								1.2475,
-								0.885,
-								0.6825,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								0.833,
@@ -44960,16 +45606,19 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
-									"Orvius",
-									["Place"] = "Third",
-								},
-								[1.44] = {
-									"Halikar",
-									["Place"] = "Second",
-								},
-								[1.45] = {
+								[1.2] = {
+									"Kestrel Prime",
 									"Kestrel",
+									"Xoris",
+									"Glaive Prime",
+									"Glaive",
+									"Pathocyst",
+									"Orvius",
+									"Halikar Wraith",
+									"Halikar",
+									"Falcor",
+									"Cerata",
+									"Coda Pathocyst",
 									["Place"] = "First",
 								},
 							},
@@ -45137,13 +45786,13 @@ return {
 								2.2,
 							},
 							["Disposition"] = {
-								1.431,
-								1.3125,
-								1.3,
-								1.28875,
-								1.2475,
-								0.885,
-								0.6825,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								0.9833,
@@ -45299,16 +45948,19 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
-									"Orvius",
-									["Place"] = "Third",
-								},
-								[1.44] = {
-									"Halikar",
-									["Place"] = "Second",
-								},
-								[1.45] = {
+								[1.2] = {
+									"Kestrel Prime",
 									"Kestrel",
+									"Xoris",
+									"Glaive Prime",
+									"Glaive",
+									"Pathocyst",
+									"Orvius",
+									"Halikar Wraith",
+									"Halikar",
+									"Falcor",
+									"Cerata",
+									"Coda Pathocyst",
 									["Place"] = "First",
 								},
 							},
@@ -45479,13 +46131,13 @@ return {
 								2.2,
 							},
 							["Disposition"] = {
-								1.431,
-								1.3125,
-								1.3,
-								1.28875,
-								1.2475,
-								0.885,
-								0.6825,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								0.9833,
@@ -45640,16 +46292,19 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
-									"Orvius",
-									["Place"] = "Third",
-								},
-								[1.44] = {
-									"Halikar",
-									["Place"] = "Second",
-								},
-								[1.45] = {
+								[1.2] = {
+									"Kestrel Prime",
 									"Kestrel",
+									"Xoris",
+									"Glaive Prime",
+									"Glaive",
+									"Pathocyst",
+									"Orvius",
+									"Halikar Wraith",
+									"Halikar",
+									"Falcor",
+									"Cerata",
+									"Coda Pathocyst",
 									["Place"] = "First",
 								},
 							},
@@ -45820,13 +46475,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.431,
-								1.3125,
-								1.3,
-								1.28875,
-								1.2475,
-								0.885,
-								0.6825,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.242,
@@ -45981,16 +46636,19 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
-									"Orvius",
-									["Place"] = "Third",
-								},
-								[1.44] = {
-									"Halikar",
-									["Place"] = "Second",
-								},
-								[1.45] = {
+								[1.2] = {
+									"Kestrel Prime",
 									"Kestrel",
+									"Xoris",
+									"Glaive Prime",
+									"Glaive",
+									"Pathocyst",
+									"Orvius",
+									"Halikar Wraith",
+									"Halikar",
+									"Falcor",
+									"Cerata",
+									"Coda Pathocyst",
 									["Place"] = "First",
 								},
 							},
@@ -46155,13 +46813,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.431,
-								1.3125,
-								1.3,
-								1.28875,
-								1.2475,
-								0.885,
-								0.6825,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.242,
@@ -46312,16 +46970,19 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
-									"Orvius",
-									["Place"] = "Third",
-								},
-								[1.44] = {
-									"Halikar",
-									["Place"] = "Second",
-								},
-								[1.45] = {
+								[1.2] = {
+									"Kestrel Prime",
 									"Kestrel",
+									"Xoris",
+									"Glaive Prime",
+									"Glaive",
+									"Pathocyst",
+									"Orvius",
+									"Halikar Wraith",
+									"Halikar",
+									"Falcor",
+									"Cerata",
+									"Coda Pathocyst",
 									["Place"] = "First",
 								},
 							},
@@ -46488,13 +47149,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.35,
-								1.35,
-								1.35,
-								1.35,
-								1.35,
-								1.35,
-								1.35,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								0.75,
@@ -46589,7 +47250,7 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
+								[1.2] = {
 									"Orvius",
 									["Place"] = "First",
 								},
@@ -46693,13 +47354,13 @@ return {
 								1.76,
 							},
 							["Disposition"] = {
-								1.14,
-								1.05,
-								0.96,
-								0.915,
-								0.85,
-								0.7,
-								0.65,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -46841,15 +47502,11 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.9] = {
-									"Vastilok",
-									["Place"] = "Third",
-								},
-								[1.05] = {
-									"Redeemer",
-									["Place"] = "Second",
-								},
 								[1.2] = {
+									"Redeemer",
+									"Vastilok",
+									"Stropha",
+									"Redeemer Prime",
 									"Sarpa",
 									["Place"] = "First",
 								},
@@ -46873,9 +47530,9 @@ return {
 							["FollowThrough"] = {
 								[0.5] = {
 									"Redeemer",
-									"Redeemer Prime",
 									"Vastilok",
 									"Stropha",
+									"Redeemer Prime",
 									"Sarpa",
 									["Place"] = "First",
 								},
@@ -46887,8 +47544,8 @@ return {
 								},
 								{
 									"Redeemer",
-									"Redeemer Prime",
 									"Stropha",
+									"Redeemer Prime",
 									"Sarpa",
 									["Place"] = "First",
 								},
@@ -46896,9 +47553,9 @@ return {
 							["Multishot"] = {
 								{
 									"Redeemer",
-									"Redeemer Prime",
 									"Vastilok",
 									"Stropha",
+									"Redeemer Prime",
 									"Sarpa",
 									["Place"] = "First",
 								},
@@ -46990,13 +47647,13 @@ return {
 								1.76,
 							},
 							["Disposition"] = {
-								1.14,
-								1.05,
-								0.96,
-								0.915,
-								0.85,
-								0.7,
-								0.65,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								2.398,
@@ -47138,15 +47795,11 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.9] = {
-									"Vastilok",
-									["Place"] = "Third",
-								},
-								[1.05] = {
-									"Redeemer",
-									["Place"] = "Second",
-								},
 								[1.2] = {
+									"Redeemer",
+									"Vastilok",
+									"Stropha",
+									"Redeemer Prime",
 									"Sarpa",
 									["Place"] = "First",
 								},
@@ -47170,9 +47823,9 @@ return {
 							["FollowThrough"] = {
 								[0.5] = {
 									"Redeemer",
-									"Redeemer Prime",
 									"Vastilok",
 									"Stropha",
+									"Redeemer Prime",
 									"Sarpa",
 									["Place"] = "First",
 								},
@@ -47184,8 +47837,8 @@ return {
 								},
 								{
 									"Redeemer",
-									"Redeemer Prime",
 									"Stropha",
+									"Redeemer Prime",
 									"Sarpa",
 									["Place"] = "First",
 								},
@@ -47293,13 +47946,13 @@ return {
 								1.76,
 							},
 							["Disposition"] = {
-								1.14,
-								1.05,
-								0.96,
-								0.915,
-								0.85,
-								0.7,
-								0.65,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -47440,15 +48093,11 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.9] = {
-									"Vastilok",
-									["Place"] = "Third",
-								},
-								[1.05] = {
-									"Redeemer",
-									["Place"] = "Second",
-								},
 								[1.2] = {
+									"Redeemer",
+									"Vastilok",
+									"Stropha",
+									"Redeemer Prime",
 									"Sarpa",
 									["Place"] = "First",
 								},
@@ -47472,9 +48121,9 @@ return {
 							["FollowThrough"] = {
 								[0.5] = {
 									"Redeemer",
-									"Redeemer Prime",
 									"Vastilok",
 									"Stropha",
+									"Redeemer Prime",
 									"Sarpa",
 									["Place"] = "First",
 								},
@@ -47486,8 +48135,8 @@ return {
 								},
 								{
 									"Redeemer",
-									"Redeemer Prime",
 									"Stropha",
+									"Redeemer Prime",
 									"Sarpa",
 									["Place"] = "First",
 								},
@@ -47495,9 +48144,9 @@ return {
 							["Multishot"] = {
 								{
 									"Redeemer",
-									"Redeemer Prime",
 									"Vastilok",
 									"Stropha",
+									"Redeemer Prime",
 									"Sarpa",
 									["Place"] = "First",
 								},
@@ -47588,13 +48237,13 @@ return {
 								1.76,
 							},
 							["Disposition"] = {
-								1.14,
-								1.05,
-								0.96,
-								0.915,
-								0.85,
-								0.7,
-								0.65,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -47683,9 +48332,9 @@ return {
 							["AvgProcCount"] = {
 								[1.1] = {
 									"Redeemer",
-									"Redeemer Prime",
 									"Vastilok",
 									"Stropha",
+									"Redeemer Prime",
 									"Sarpa",
 									["Place"] = "First",
 								},
@@ -47732,15 +48381,11 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.9] = {
-									"Vastilok",
-									["Place"] = "Third",
-								},
-								[1.05] = {
-									"Redeemer",
-									["Place"] = "Second",
-								},
 								[1.2] = {
+									"Redeemer",
+									"Vastilok",
+									"Stropha",
+									"Redeemer Prime",
 									"Sarpa",
 									["Place"] = "First",
 								},
@@ -47764,9 +48409,9 @@ return {
 							["FollowThrough"] = {
 								[0.5] = {
 									"Redeemer",
-									"Redeemer Prime",
 									"Vastilok",
 									"Stropha",
+									"Redeemer Prime",
 									"Sarpa",
 									["Place"] = "First",
 								},
@@ -47778,8 +48423,8 @@ return {
 								},
 								{
 									"Redeemer",
-									"Redeemer Prime",
 									"Stropha",
+									"Redeemer Prime",
 									"Sarpa",
 									["Place"] = "First",
 								},
@@ -47787,9 +48432,9 @@ return {
 							["Multishot"] = {
 								{
 									"Redeemer",
-									"Redeemer Prime",
 									"Vastilok",
 									"Stropha",
+									"Redeemer Prime",
 									"Sarpa",
 									["Place"] = "First",
 								},
@@ -47797,9 +48442,9 @@ return {
 							["StatusChance"] = {
 								[0.1] = {
 									"Redeemer",
-									"Redeemer Prime",
 									"Vastilok",
 									"Stropha",
+									"Redeemer Prime",
 									"Sarpa",
 									["Place"] = "First",
 								},
@@ -47881,13 +48526,13 @@ return {
 								1.925,
 							},
 							["Disposition"] = {
-								1.35,
-								1.35,
-								1.3,
-								1.29375,
-								1.25,
 								1.2,
-								1.0125,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.14,
@@ -47992,9 +48637,9 @@ return {
 									"Wolf Sledge",
 									"Volnus Prime",
 									"Volnus",
-									"Sibear",
 									"Synoid Heliocor",
 									"Jat Kittag",
+									"Sibear",
 									"Coda Motovore",
 									"Sancti Magistar",
 									"Sampotes",
@@ -48037,29 +48682,31 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.3] = {
+								[1.2] = {
+									"Wolf Sledge",
 									"Volnus Prime",
-									"Arca Titron",
-									["Place"] = "Third",
-								},
-								[1.35] = {
-									"Sibear",
+									"Volnus",
 									"Synoid Heliocor",
 									"Jat Kittag",
+									"Sibear",
+									"Coda Motovore",
+									"Sancti Magistar",
+									"Sampotes",
 									"Heliocor",
+									"Fragor Prime",
+									"Ekhein",
+									"Fragor",
 									"Magistar",
-									["Place"] = "Second",
-								},
-								[1.4] = {
-									"Volnus",
+									"Kuva Shildeg",
+									"Arca Titron",
 									["Place"] = "First",
 								},
 							},
 							["FireRate"] = {
 								{
 									"Wolf Sledge",
-									"Sibear",
 									"Jat Kittag",
+									"Sibear",
 									"Coda Motovore",
 									"Sancti Magistar",
 									["Place"] = "Third",
@@ -48077,9 +48724,9 @@ return {
 							["FollowThrough"] = {
 								[0.4] = {
 									"Wolf Sledge",
-									"Sibear",
 									"Synoid Heliocor",
 									"Jat Kittag",
+									"Sibear",
 									"Coda Motovore",
 									"Sancti Magistar",
 									"Sampotes",
@@ -48118,9 +48765,9 @@ return {
 									"Wolf Sledge",
 									"Volnus Prime",
 									"Volnus",
-									"Sibear",
 									"Synoid Heliocor",
 									"Jat Kittag",
+									"Sibear",
 									"Coda Motovore",
 									"Sancti Magistar",
 									"Sampotes",
@@ -48222,13 +48869,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.35,
-								1.35,
-								1.3,
-								1.29375,
-								1.25,
 								1.2,
-								1.0125,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.14,
@@ -48333,9 +48980,9 @@ return {
 									"Wolf Sledge",
 									"Volnus Prime",
 									"Volnus",
-									"Sibear",
 									"Synoid Heliocor",
 									"Jat Kittag",
+									"Sibear",
 									"Coda Motovore",
 									"Sancti Magistar",
 									"Sampotes",
@@ -48378,29 +49025,31 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.3] = {
+								[1.2] = {
+									"Wolf Sledge",
 									"Volnus Prime",
-									"Arca Titron",
-									["Place"] = "Third",
-								},
-								[1.35] = {
-									"Sibear",
+									"Volnus",
 									"Synoid Heliocor",
 									"Jat Kittag",
+									"Sibear",
+									"Coda Motovore",
+									"Sancti Magistar",
+									"Sampotes",
 									"Heliocor",
+									"Fragor Prime",
+									"Ekhein",
+									"Fragor",
 									"Magistar",
-									["Place"] = "Second",
-								},
-								[1.4] = {
-									"Volnus",
+									"Kuva Shildeg",
+									"Arca Titron",
 									["Place"] = "First",
 								},
 							},
 							["FireRate"] = {
 								{
 									"Wolf Sledge",
-									"Sibear",
 									"Jat Kittag",
+									"Sibear",
 									"Coda Motovore",
 									"Sancti Magistar",
 									["Place"] = "Third",
@@ -48418,9 +49067,9 @@ return {
 							["FollowThrough"] = {
 								[0.4] = {
 									"Wolf Sledge",
-									"Sibear",
 									"Synoid Heliocor",
 									"Jat Kittag",
+									"Sibear",
 									"Coda Motovore",
 									"Sancti Magistar",
 									"Sampotes",
@@ -48459,9 +49108,9 @@ return {
 									"Wolf Sledge",
 									"Volnus Prime",
 									"Volnus",
-									"Sibear",
 									"Synoid Heliocor",
 									"Jat Kittag",
+									"Sibear",
 									"Coda Motovore",
 									"Sancti Magistar",
 									"Sampotes",
@@ -48562,13 +49211,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.35,
-								1.35,
-								1.3,
-								1.29375,
-								1.25,
 								1.2,
-								1.0125,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.14,
@@ -48675,9 +49324,9 @@ return {
 									"Wolf Sledge",
 									"Volnus Prime",
 									"Volnus",
-									"Sibear",
 									"Synoid Heliocor",
 									"Jat Kittag",
+									"Sibear",
 									"Coda Motovore",
 									"Sancti Magistar",
 									"Sampotes",
@@ -48720,29 +49369,31 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.3] = {
+								[1.2] = {
+									"Wolf Sledge",
 									"Volnus Prime",
-									"Arca Titron",
-									["Place"] = "Third",
-								},
-								[1.35] = {
-									"Sibear",
+									"Volnus",
 									"Synoid Heliocor",
 									"Jat Kittag",
+									"Sibear",
+									"Coda Motovore",
+									"Sancti Magistar",
+									"Sampotes",
 									"Heliocor",
+									"Fragor Prime",
+									"Ekhein",
+									"Fragor",
 									"Magistar",
-									["Place"] = "Second",
-								},
-								[1.4] = {
-									"Volnus",
+									"Kuva Shildeg",
+									"Arca Titron",
 									["Place"] = "First",
 								},
 							},
 							["FireRate"] = {
 								{
 									"Wolf Sledge",
-									"Sibear",
 									"Jat Kittag",
+									"Sibear",
 									"Coda Motovore",
 									"Sancti Magistar",
 									["Place"] = "Third",
@@ -48760,9 +49411,9 @@ return {
 							["FollowThrough"] = {
 								[0.4] = {
 									"Wolf Sledge",
-									"Sibear",
 									"Synoid Heliocor",
 									"Jat Kittag",
+									"Sibear",
 									"Coda Motovore",
 									"Sancti Magistar",
 									"Sampotes",
@@ -48801,9 +49452,9 @@ return {
 									"Wolf Sledge",
 									"Volnus Prime",
 									"Volnus",
-									"Sibear",
 									"Synoid Heliocor",
 									"Jat Kittag",
+									"Sibear",
 									"Coda Motovore",
 									"Sancti Magistar",
 									"Sampotes",
@@ -48905,13 +49556,13 @@ return {
 								2.1,
 							},
 							["Disposition"] = {
-								1.25,
-								1.25,
-								1.25,
-								1.25,
-								1.25,
-								1.25,
-								1.25,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -49006,7 +49657,7 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.25] = {
+								[1.2] = {
 									"Wolf Sledge",
 									["Place"] = "First",
 								},
@@ -49106,13 +49757,13 @@ return {
 								1.9,
 							},
 							["Disposition"] = {
-								1.25,
-								1.25,
-								1.25,
-								1.25,
-								1.25,
-								1.25,
-								1.25,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -49207,7 +49858,7 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.25] = {
+								[1.2] = {
 									"Wolf Sledge",
 									["Place"] = "First",
 								},
@@ -49307,13 +49958,13 @@ return {
 								1.9,
 							},
 							["Disposition"] = {
-								1.25,
-								1.25,
-								1.25,
-								1.25,
-								1.25,
-								1.25,
-								1.25,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -49408,7 +50059,7 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.25] = {
+								[1.2] = {
 									"Wolf Sledge",
 									["Place"] = "First",
 								},
@@ -49512,13 +50163,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.32,
-								1.25,
-								1.1,
-								1.07,
-								1.05,
-								0.88,
-								0.69,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.1178,
@@ -49625,15 +50276,15 @@ return {
 									"War Prime",
 									"War",
 									"Sarofang",
-									"Paracesis",
 									"Tenet Exec",
 									"Sarofang Prime",
 									"Galatine Prime",
 									"Scindo Prime",
+									"Masseter Prime",
 									"Gram",
 									"Dark Split-Sword (Heavy Blade)",
 									"Masseter",
-									"Masseter Prime",
+									"Paracesis",
 									"Gram Prime",
 									"Galatine",
 									["Place"] = "Second",
@@ -49674,17 +50325,24 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.3] = {
-									"Scindo Prime",
-									"Dark Split-Sword (Heavy Blade)",
-									["Place"] = "Third",
-								},
-								[1.35] = {
+								[1.2] = {
+									"Zenistar",
 									"Scindo",
-									["Place"] = "Second",
-								},
-								[1.44] = {
+									"War Prime",
+									"War",
+									"Sarofang",
+									"Tenet Exec",
+									"Sarofang Prime",
+									"Galatine Prime",
+									"Vitrica",
+									"Scindo Prime",
+									"Masseter Prime",
 									"Gram",
+									"Dark Split-Sword (Heavy Blade)",
+									"Masseter",
+									"Paracesis",
+									"Gram Prime",
+									"Galatine",
 									["Place"] = "First",
 								},
 							},
@@ -49713,16 +50371,16 @@ return {
 									"War Prime",
 									"War",
 									"Sarofang",
-									"Paracesis",
 									"Tenet Exec",
 									"Sarofang Prime",
 									"Galatine Prime",
 									"Vitrica",
 									"Scindo Prime",
+									"Masseter Prime",
 									"Gram",
 									"Dark Split-Sword (Heavy Blade)",
 									"Masseter",
-									"Masseter Prime",
+									"Paracesis",
 									"Gram Prime",
 									"Galatine",
 									["Place"] = "First",
@@ -49730,10 +50388,10 @@ return {
 							},
 							["MeleeRange"] = {
 								[2.9] = {
-									"Paracesis",
 									"Vitrica",
-									"Masseter",
 									"Masseter Prime",
+									"Masseter",
+									"Paracesis",
 									"Gram Prime",
 									["Place"] = "Third",
 								},
@@ -49755,16 +50413,16 @@ return {
 									"War Prime",
 									"War",
 									"Sarofang",
-									"Paracesis",
 									"Tenet Exec",
 									"Sarofang Prime",
 									"Galatine Prime",
 									"Vitrica",
 									"Scindo Prime",
+									"Masseter Prime",
 									"Gram",
 									"Dark Split-Sword (Heavy Blade)",
 									"Masseter",
-									"Masseter Prime",
+									"Paracesis",
 									"Gram Prime",
 									"Galatine",
 									["Place"] = "First",
@@ -49858,13 +50516,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.32,
-								1.25,
-								1.1,
-								1.07,
-								1.05,
-								0.88,
-								0.69,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.116,
@@ -49964,10 +50622,10 @@ return {
 									"Sarofang Prime",
 									"Galatine Prime",
 									"Scindo Prime",
+									"Masseter Prime",
 									"Gram",
 									"Dark Split-Sword (Heavy Blade)",
 									"Masseter",
-									"Masseter Prime",
 									"Gram Prime",
 									"Galatine",
 									["Place"] = "Second",
@@ -49984,15 +50642,15 @@ return {
 									"War Prime",
 									"War",
 									"Sarofang",
-									"Paracesis",
 									"Tenet Exec",
 									"Sarofang Prime",
 									"Galatine Prime",
 									"Scindo Prime",
+									"Masseter Prime",
 									"Gram",
 									"Dark Split-Sword (Heavy Blade)",
 									"Masseter",
-									"Masseter Prime",
+									"Paracesis",
 									"Gram Prime",
 									"Galatine",
 									["Place"] = "Second",
@@ -50033,17 +50691,24 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.3] = {
-									"Scindo Prime",
-									"Dark Split-Sword (Heavy Blade)",
-									["Place"] = "Third",
-								},
-								[1.35] = {
+								[1.2] = {
+									"Zenistar",
 									"Scindo",
-									["Place"] = "Second",
-								},
-								[1.44] = {
+									"War Prime",
+									"War",
+									"Sarofang",
+									"Tenet Exec",
+									"Sarofang Prime",
+									"Galatine Prime",
+									"Vitrica",
+									"Scindo Prime",
+									"Masseter Prime",
 									"Gram",
+									"Dark Split-Sword (Heavy Blade)",
+									"Masseter",
+									"Paracesis",
+									"Gram Prime",
+									"Galatine",
 									["Place"] = "First",
 								},
 							},
@@ -50072,16 +50737,16 @@ return {
 									"War Prime",
 									"War",
 									"Sarofang",
-									"Paracesis",
 									"Tenet Exec",
 									"Sarofang Prime",
 									"Galatine Prime",
 									"Vitrica",
 									"Scindo Prime",
+									"Masseter Prime",
 									"Gram",
 									"Dark Split-Sword (Heavy Blade)",
 									"Masseter",
-									"Masseter Prime",
+									"Paracesis",
 									"Gram Prime",
 									"Galatine",
 									["Place"] = "First",
@@ -50089,10 +50754,10 @@ return {
 							},
 							["MeleeRange"] = {
 								[2.9] = {
-									"Paracesis",
 									"Vitrica",
-									"Masseter",
 									"Masseter Prime",
+									"Masseter",
+									"Paracesis",
 									"Gram Prime",
 									["Place"] = "Third",
 								},
@@ -50114,16 +50779,16 @@ return {
 									"War Prime",
 									"War",
 									"Sarofang",
-									"Paracesis",
 									"Tenet Exec",
 									"Sarofang Prime",
 									"Galatine Prime",
 									"Vitrica",
 									"Scindo Prime",
+									"Masseter Prime",
 									"Gram",
 									"Dark Split-Sword (Heavy Blade)",
 									"Masseter",
-									"Masseter Prime",
+									"Paracesis",
 									"Gram Prime",
 									"Galatine",
 									["Place"] = "First",
@@ -50216,13 +50881,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.32,
-								1.25,
-								1.1,
-								1.07,
-								1.05,
-								0.88,
-								0.69,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.116,
@@ -50318,14 +50983,14 @@ return {
 									"War Prime",
 									"War",
 									"Sarofang",
-									"Paracesis",
 									"Sarofang Prime",
 									"Galatine Prime",
 									"Scindo Prime",
+									"Masseter Prime",
 									"Gram",
 									"Dark Split-Sword (Heavy Blade)",
 									"Masseter",
-									"Masseter Prime",
+									"Paracesis",
 									"Gram Prime",
 									"Galatine",
 									["Place"] = "Second",
@@ -50342,15 +51007,15 @@ return {
 									"War Prime",
 									"War",
 									"Sarofang",
-									"Paracesis",
 									"Tenet Exec",
 									"Sarofang Prime",
 									"Galatine Prime",
 									"Scindo Prime",
+									"Masseter Prime",
 									"Gram",
 									"Dark Split-Sword (Heavy Blade)",
 									"Masseter",
-									"Masseter Prime",
+									"Paracesis",
 									"Gram Prime",
 									"Galatine",
 									["Place"] = "Second",
@@ -50391,17 +51056,24 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.3] = {
-									"Scindo Prime",
-									"Dark Split-Sword (Heavy Blade)",
-									["Place"] = "Third",
-								},
-								[1.35] = {
+								[1.2] = {
+									"Zenistar",
 									"Scindo",
-									["Place"] = "Second",
-								},
-								[1.44] = {
+									"War Prime",
+									"War",
+									"Sarofang",
+									"Tenet Exec",
+									"Sarofang Prime",
+									"Galatine Prime",
+									"Vitrica",
+									"Scindo Prime",
+									"Masseter Prime",
 									"Gram",
+									"Dark Split-Sword (Heavy Blade)",
+									"Masseter",
+									"Paracesis",
+									"Gram Prime",
+									"Galatine",
 									["Place"] = "First",
 								},
 							},
@@ -50430,16 +51102,16 @@ return {
 									"War Prime",
 									"War",
 									"Sarofang",
-									"Paracesis",
 									"Tenet Exec",
 									"Sarofang Prime",
 									"Galatine Prime",
 									"Vitrica",
 									"Scindo Prime",
+									"Masseter Prime",
 									"Gram",
 									"Dark Split-Sword (Heavy Blade)",
 									"Masseter",
-									"Masseter Prime",
+									"Paracesis",
 									"Gram Prime",
 									"Galatine",
 									["Place"] = "First",
@@ -50447,10 +51119,10 @@ return {
 							},
 							["MeleeRange"] = {
 								[2.9] = {
-									"Paracesis",
 									"Vitrica",
-									"Masseter",
 									"Masseter Prime",
+									"Masseter",
+									"Paracesis",
 									"Gram Prime",
 									["Place"] = "Third",
 								},
@@ -50472,16 +51144,16 @@ return {
 									"War Prime",
 									"War",
 									"Sarofang",
-									"Paracesis",
 									"Tenet Exec",
 									"Sarofang Prime",
 									"Galatine Prime",
 									"Vitrica",
 									"Scindo Prime",
+									"Masseter Prime",
 									"Gram",
 									"Dark Split-Sword (Heavy Blade)",
 									"Masseter",
-									"Masseter Prime",
+									"Paracesis",
 									"Gram Prime",
 									"Galatine",
 									["Place"] = "First",
@@ -50493,14 +51165,14 @@ return {
 									"War Prime",
 									"War",
 									"Sarofang",
-									"Paracesis",
 									"Sarofang Prime",
 									"Galatine Prime",
 									"Scindo Prime",
+									"Masseter Prime",
 									"Gram",
 									"Dark Split-Sword (Heavy Blade)",
 									"Masseter",
-									"Masseter Prime",
+									"Paracesis",
 									"Gram Prime",
 									"Galatine",
 									["Place"] = "Third",
@@ -50587,13 +51259,13 @@ return {
 								2.045,
 							},
 							["Disposition"] = {
-								1.145,
-								1.1375,
-								1.13,
-								1.12625,
-								1.1225,
-								1.115,
-								1.1075,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								0.9014,
@@ -50712,12 +51384,9 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.1] = {
-									"Vitrica",
-									["Place"] = "Second",
-								},
-								[1.15] = {
+								[1.2] = {
 									"Zenistar",
+									"Vitrica",
 									["Place"] = "First",
 								},
 							},
@@ -50834,13 +51503,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.15,
-								1.15,
-								1.15,
-								1.15,
-								1.15,
-								1.15,
-								1.15,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.2,
@@ -50935,7 +51604,7 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.15] = {
+								[1.2] = {
 									"Zenistar",
 									["Place"] = "First",
 								},
@@ -51035,13 +51704,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.15,
-								1.15,
-								1.15,
-								1.15,
-								1.15,
-								1.15,
-								1.15,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								0.833,
@@ -51136,7 +51805,7 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.15] = {
+								[1.2] = {
 									"Zenistar",
 									["Place"] = "First",
 								},
@@ -51236,13 +51905,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.15,
-								1.15,
-								1.15,
-								1.15,
-								1.15,
-								1.15,
-								1.15,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								0.833,
@@ -51337,7 +52006,7 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.15] = {
+								[1.2] = {
 									"Zenistar",
 									["Place"] = "First",
 								},
@@ -51441,13 +52110,13 @@ return {
 								1.835,
 							},
 							["Disposition"] = {
-								1.452,
-								1.445,
-								1.412,
-								1.4,
-								1.4,
-								1.385,
-								1.35,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.089,
@@ -51507,8 +52176,8 @@ return {
 						["Top3"] = {
 							["AvgCritCount"] = {
 								[0.15] = {
-									"Prisma Machete",
 									"Nami Solo",
+									"Prisma Machete",
 									["Place"] = "Third",
 								},
 								[0.19] = {
@@ -51550,23 +52219,23 @@ return {
 							},
 							["BlockAngle"] = {
 								[55] = {
-									"Prisma Machete",
 									"Prova Vandal",
 									"Nami Solo",
 									"Gazal Machete",
 									"Slaytra",
 									"Kreska",
 									"Prova",
-									"Kama",
+									"Prisma Machete",
 									"Machete",
 									"Machete Wraith",
+									"Kama",
 									["Place"] = "First",
 								},
 							},
 							["CritChance"] = {
 								[0.15] = {
-									"Prisma Machete",
 									"Nami Solo",
+									"Prisma Machete",
 									["Place"] = "Third",
 								},
 								[0.19] = {
@@ -51580,8 +52249,8 @@ return {
 							},
 							["CritMultiplier"] = {
 								[1.9] = {
-									"Prisma Machete",
 									"Slaytra",
+									"Prisma Machete",
 									["Place"] = "Third",
 								},
 								[2] = {
@@ -51598,16 +52267,16 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.43] = {
+								[1.2] = {
+									"Prova Vandal",
 									"Nami Solo",
-									["Place"] = "Third",
-								},
-								[1.45] = {
+									"Gazal Machete",
+									"Slaytra",
+									"Kreska",
+									"Prova",
 									"Prisma Machete",
 									"Machete",
-									["Place"] = "Second",
-								},
-								[1.47] = {
+									"Machete Wraith",
 									"Kama",
 									["Place"] = "First",
 								},
@@ -51631,16 +52300,16 @@ return {
 							},
 							["FollowThrough"] = {
 								[0.7] = {
-									"Prisma Machete",
 									"Prova Vandal",
 									"Nami Solo",
 									"Gazal Machete",
 									"Slaytra",
 									"Kreska",
 									"Prova",
-									"Kama",
+									"Prisma Machete",
 									"Machete",
 									"Machete Wraith",
+									"Kama",
 									["Place"] = "First",
 								},
 							},
@@ -51651,11 +52320,11 @@ return {
 									["Place"] = "Third",
 								},
 								[2.5] = {
-									"Prisma Machete",
 									"Prova Vandal",
 									"Nami Solo",
 									"Slaytra",
 									"Prova",
+									"Prisma Machete",
 									"Machete",
 									"Machete Wraith",
 									["Place"] = "Second",
@@ -51667,16 +52336,16 @@ return {
 							},
 							["Multishot"] = {
 								{
-									"Prisma Machete",
 									"Prova Vandal",
 									"Nami Solo",
 									"Gazal Machete",
 									"Slaytra",
 									"Kreska",
 									"Prova",
-									"Kama",
+									"Prisma Machete",
 									"Machete",
 									"Machete Wraith",
+									"Kama",
 									["Place"] = "First",
 								},
 							},
@@ -51767,13 +52436,13 @@ return {
 								1.835,
 							},
 							["Disposition"] = {
-								1.452,
-								1.445,
-								1.412,
-								1.4,
-								1.4,
-								1.385,
-								1.35,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.089,
@@ -51876,16 +52545,16 @@ return {
 							},
 							["BlockAngle"] = {
 								[55] = {
-									"Prisma Machete",
 									"Prova Vandal",
 									"Nami Solo",
 									"Gazal Machete",
 									"Slaytra",
 									"Kreska",
 									"Prova",
-									"Kama",
+									"Prisma Machete",
 									"Machete",
 									"Machete Wraith",
+									"Kama",
 									["Place"] = "First",
 								},
 							},
@@ -51906,8 +52575,8 @@ return {
 							},
 							["CritMultiplier"] = {
 								[1.9] = {
-									"Prisma Machete",
 									"Slaytra",
+									"Prisma Machete",
 									["Place"] = "Third",
 								},
 								[2] = {
@@ -51924,16 +52593,16 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.43] = {
+								[1.2] = {
+									"Prova Vandal",
 									"Nami Solo",
-									["Place"] = "Third",
-								},
-								[1.45] = {
+									"Gazal Machete",
+									"Slaytra",
+									"Kreska",
+									"Prova",
 									"Prisma Machete",
 									"Machete",
-									["Place"] = "Second",
-								},
-								[1.47] = {
+									"Machete Wraith",
 									"Kama",
 									["Place"] = "First",
 								},
@@ -51957,16 +52626,16 @@ return {
 							},
 							["FollowThrough"] = {
 								[0.7] = {
-									"Prisma Machete",
 									"Prova Vandal",
 									"Nami Solo",
 									"Gazal Machete",
 									"Slaytra",
 									"Kreska",
 									"Prova",
-									"Kama",
+									"Prisma Machete",
 									"Machete",
 									"Machete Wraith",
+									"Kama",
 									["Place"] = "First",
 								},
 							},
@@ -51977,11 +52646,11 @@ return {
 									["Place"] = "Third",
 								},
 								[2.5] = {
-									"Prisma Machete",
 									"Prova Vandal",
 									"Nami Solo",
 									"Slaytra",
 									"Prova",
+									"Prisma Machete",
 									"Machete",
 									"Machete Wraith",
 									["Place"] = "Second",
@@ -51993,29 +52662,29 @@ return {
 							},
 							["Multishot"] = {
 								{
-									"Prisma Machete",
 									"Prova Vandal",
 									"Nami Solo",
 									"Gazal Machete",
 									"Slaytra",
 									"Kreska",
 									"Prova",
-									"Kama",
+									"Prisma Machete",
 									"Machete",
 									"Machete Wraith",
+									"Kama",
 									["Place"] = "First",
 								},
 							},
 							["StatusChance"] = {
 								[0.1] = {
-									"Prisma Machete",
 									"Prova Vandal",
 									"Nami Solo",
 									"Gazal Machete",
 									"Slaytra",
-									"Kama",
+									"Prisma Machete",
 									"Machete",
 									"Machete Wraith",
+									"Kama",
 									["Place"] = "Third",
 								},
 								[0.16] = {
@@ -52100,13 +52769,13 @@ return {
 								1.835,
 							},
 							["Disposition"] = {
-								1.452,
-								1.445,
-								1.412,
-								1.4,
-								1.4,
-								1.385,
-								1.35,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.089,
@@ -52199,14 +52868,14 @@ return {
 									["Place"] = "Third",
 								},
 								[1.1] = {
-									"Prisma Machete",
 									"Nami Solo",
 									"Gazal Machete",
 									"Slaytra",
 									"Kreska",
-									"Kama",
+									"Prisma Machete",
 									"Machete",
 									"Machete Wraith",
+									"Kama",
 									["Place"] = "Second",
 								},
 								[1.16] = {
@@ -52216,16 +52885,16 @@ return {
 							},
 							["BlockAngle"] = {
 								[55] = {
-									"Prisma Machete",
 									"Prova Vandal",
 									"Nami Solo",
 									"Gazal Machete",
 									"Slaytra",
 									"Kreska",
 									"Prova",
-									"Kama",
+									"Prisma Machete",
 									"Machete",
 									"Machete Wraith",
+									"Kama",
 									["Place"] = "First",
 								},
 							},
@@ -52246,8 +52915,8 @@ return {
 							},
 							["CritMultiplier"] = {
 								[1.9] = {
-									"Prisma Machete",
 									"Slaytra",
+									"Prisma Machete",
 									["Place"] = "Third",
 								},
 								[2] = {
@@ -52264,16 +52933,16 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.43] = {
+								[1.2] = {
+									"Prova Vandal",
 									"Nami Solo",
-									["Place"] = "Third",
-								},
-								[1.45] = {
+									"Gazal Machete",
+									"Slaytra",
+									"Kreska",
+									"Prova",
 									"Prisma Machete",
 									"Machete",
-									["Place"] = "Second",
-								},
-								[1.47] = {
+									"Machete Wraith",
 									"Kama",
 									["Place"] = "First",
 								},
@@ -52297,16 +52966,16 @@ return {
 							},
 							["FollowThrough"] = {
 								[0.7] = {
-									"Prisma Machete",
 									"Prova Vandal",
 									"Nami Solo",
 									"Gazal Machete",
 									"Slaytra",
 									"Kreska",
 									"Prova",
-									"Kama",
+									"Prisma Machete",
 									"Machete",
 									"Machete Wraith",
+									"Kama",
 									["Place"] = "First",
 								},
 							},
@@ -52317,11 +52986,11 @@ return {
 									["Place"] = "Third",
 								},
 								[2.5] = {
-									"Prisma Machete",
 									"Prova Vandal",
 									"Nami Solo",
 									"Slaytra",
 									"Prova",
+									"Prisma Machete",
 									"Machete",
 									"Machete Wraith",
 									["Place"] = "Second",
@@ -52333,30 +53002,30 @@ return {
 							},
 							["Multishot"] = {
 								{
-									"Prisma Machete",
 									"Prova Vandal",
 									"Nami Solo",
 									"Gazal Machete",
 									"Slaytra",
 									"Kreska",
 									"Prova",
-									"Kama",
+									"Prisma Machete",
 									"Machete",
 									"Machete Wraith",
+									"Kama",
 									["Place"] = "First",
 								},
 							},
 							["StatusChance"] = {
 								[0.1] = {
-									"Prisma Machete",
 									"Prova Vandal",
 									"Nami Solo",
 									"Gazal Machete",
 									"Slaytra",
 									"Kreska",
-									"Kama",
+									"Prisma Machete",
 									"Machete",
 									"Machete Wraith",
+									"Kama",
 									["Place"] = "Second",
 								},
 								[0.16] = {
@@ -52441,13 +53110,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.125,
-								1.0625,
-								0.95,
-								0.93125,
-								0.9125,
-								0.825,
-								0.7125,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.125,
@@ -52552,9 +53221,9 @@ return {
 								[55] = {
 									"Nikana",
 									"Dragon Nikana",
-									"Skiajati",
 									"Dex Nikana",
 									"Syam",
+									"Skiajati",
 									"Nikana Prime",
 									["Place"] = "First",
 								},
@@ -52589,16 +53258,13 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.95] = {
+								[1.2] = {
 									"Nikana",
-									["Place"] = "Third",
-								},
-								[1.1] = {
-									"Dex Nikana",
-									["Place"] = "Second",
-								},
-								[1.15] = {
 									"Dragon Nikana",
+									"Dex Nikana",
+									"Syam",
+									"Skiajati",
+									"Nikana Prime",
 									["Place"] = "First",
 								},
 							},
@@ -52622,9 +53288,9 @@ return {
 								[0.7] = {
 									"Nikana",
 									"Dragon Nikana",
-									"Skiajati",
 									"Dex Nikana",
 									"Syam",
+									"Skiajati",
 									"Nikana Prime",
 									["Place"] = "First",
 								},
@@ -52647,9 +53313,9 @@ return {
 								{
 									"Nikana",
 									"Dragon Nikana",
-									"Skiajati",
 									"Dex Nikana",
 									"Syam",
+									"Skiajati",
 									"Nikana Prime",
 									["Place"] = "First",
 								},
@@ -52741,13 +53407,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.125,
-								1.0625,
-								0.95,
-								0.93125,
-								0.9125,
-								0.825,
-								0.7125,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.125,
@@ -52838,8 +53504,8 @@ return {
 								[1.1] = {
 									"Nikana",
 									"Dragon Nikana",
-									"Skiajati",
 									"Dex Nikana",
+									"Skiajati",
 									"Nikana Prime",
 									["Place"] = "Second",
 								},
@@ -52852,9 +53518,9 @@ return {
 								[55] = {
 									"Nikana",
 									"Dragon Nikana",
-									"Skiajati",
 									"Dex Nikana",
 									"Syam",
+									"Skiajati",
 									"Nikana Prime",
 									["Place"] = "First",
 								},
@@ -52889,16 +53555,13 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.95] = {
+								[1.2] = {
 									"Nikana",
-									["Place"] = "Third",
-								},
-								[1.1] = {
-									"Dex Nikana",
-									["Place"] = "Second",
-								},
-								[1.15] = {
 									"Dragon Nikana",
+									"Dex Nikana",
+									"Syam",
+									"Skiajati",
+									"Nikana Prime",
 									["Place"] = "First",
 								},
 							},
@@ -52922,9 +53585,9 @@ return {
 								[0.7] = {
 									"Nikana",
 									"Dragon Nikana",
-									"Skiajati",
 									"Dex Nikana",
 									"Syam",
+									"Skiajati",
 									"Nikana Prime",
 									["Place"] = "First",
 								},
@@ -52947,9 +53610,9 @@ return {
 								{
 									"Nikana",
 									"Dragon Nikana",
-									"Skiajati",
 									"Dex Nikana",
 									"Syam",
+									"Skiajati",
 									"Nikana Prime",
 									["Place"] = "First",
 								},
@@ -52958,8 +53621,8 @@ return {
 								[0.1] = {
 									"Nikana",
 									"Dragon Nikana",
-									"Skiajati",
 									"Dex Nikana",
+									"Skiajati",
 									"Nikana Prime",
 									["Place"] = "Second",
 								},
@@ -53041,13 +53704,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.125,
-								1.0625,
-								0.95,
-								0.93125,
-								0.9125,
-								0.825,
-								0.7125,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.125,
@@ -53142,8 +53805,8 @@ return {
 								[1.1] = {
 									"Nikana",
 									"Dragon Nikana",
-									"Skiajati",
 									"Dex Nikana",
+									"Skiajati",
 									"Nikana Prime",
 									["Place"] = "First",
 								},
@@ -53152,9 +53815,9 @@ return {
 								[55] = {
 									"Nikana",
 									"Dragon Nikana",
-									"Skiajati",
 									"Dex Nikana",
 									"Syam",
+									"Skiajati",
 									"Nikana Prime",
 									["Place"] = "First",
 								},
@@ -53189,16 +53852,13 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.95] = {
+								[1.2] = {
 									"Nikana",
-									["Place"] = "Third",
-								},
-								[1.1] = {
-									"Dex Nikana",
-									["Place"] = "Second",
-								},
-								[1.15] = {
 									"Dragon Nikana",
+									"Dex Nikana",
+									"Syam",
+									"Skiajati",
+									"Nikana Prime",
 									["Place"] = "First",
 								},
 							},
@@ -53222,9 +53882,9 @@ return {
 								[0.7] = {
 									"Nikana",
 									"Dragon Nikana",
-									"Skiajati",
 									"Dex Nikana",
 									"Syam",
+									"Skiajati",
 									"Nikana Prime",
 									["Place"] = "First",
 								},
@@ -53247,9 +53907,9 @@ return {
 								{
 									"Nikana",
 									"Dragon Nikana",
-									"Skiajati",
 									"Dex Nikana",
 									"Syam",
+									"Skiajati",
 									"Nikana Prime",
 									["Place"] = "First",
 								},
@@ -53258,8 +53918,8 @@ return {
 								[0.1] = {
 									"Nikana",
 									"Dragon Nikana",
-									"Skiajati",
 									"Dex Nikana",
+									"Skiajati",
 									"Nikana Prime",
 									["Place"] = "Second",
 								},
@@ -53341,13 +54001,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								0.75,
-								0.75,
-								0.75,
-								0.75,
-								0.75,
-								0.75,
-								0.75,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -53442,7 +54102,7 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.75] = {
+								[1.2] = {
 									"Syam",
 									["Place"] = "First",
 								},
@@ -53542,13 +54202,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								0.75,
-								0.75,
-								0.75,
-								0.75,
-								0.75,
-								0.75,
-								0.75,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -53643,7 +54303,7 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.75] = {
+								[1.2] = {
 									"Syam",
 									["Place"] = "First",
 								},
@@ -53747,13 +54407,13 @@ return {
 								1.5,
 							},
 							["Disposition"] = {
-								1.368,
-								1.35,
-								1.32,
-								1.2025,
-								1.115,
-								1.01,
-								0.85,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.134,
@@ -53855,19 +54515,19 @@ return {
 							},
 							["BlockAngle"] = {
 								[55] = {
-									"Vaykor Sydon",
 									"Tonbo",
-									"Serro",
-									"Guandao Prime",
+									"Vaykor Sydon",
 									"Pupacyst",
-									"Korumm",
+									"Guandao Prime",
 									"Sydon",
 									"Orthos Prime",
+									"Serro",
 									"Orthos",
 									"Kesheg",
 									"Amanata",
 									"Edun",
 									"Lesion",
+									"Korumm",
 									"Guandao",
 									"Cassowar",
 									["Place"] = "First",
@@ -53903,20 +54563,22 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.3] = {
-									"Vaykor Sydon",
-									["Place"] = "Third",
-								},
-								[1.35] = {
-									"Pupacyst",
-									"Sydon",
-									"Kesheg",
-									"Cassowar",
-									["Place"] = "Second",
-								},
-								[1.38] = {
+								[1.2] = {
 									"Tonbo",
+									"Vaykor Sydon",
+									"Pupacyst",
+									"Guandao Prime",
+									"Sydon",
+									"Orthos Prime",
 									"Serro",
+									"Orthos",
+									"Kesheg",
+									"Amanata",
+									"Edun",
+									"Lesion",
+									"Korumm",
+									"Guandao",
+									"Cassowar",
 									["Place"] = "First",
 								},
 							},
@@ -53924,10 +54586,10 @@ return {
 								{
 									"Tonbo",
 									"Guandao Prime",
-									"Korumm",
 									"Amanata",
 									"Edun",
 									"Lesion",
+									"Korumm",
 									["Place"] = "Third",
 								},
 								[1.08] = {
@@ -53942,19 +54604,19 @@ return {
 							},
 							["FollowThrough"] = {
 								[0.6] = {
-									"Vaykor Sydon",
 									"Tonbo",
-									"Serro",
-									"Guandao Prime",
+									"Vaykor Sydon",
 									"Pupacyst",
-									"Korumm",
+									"Guandao Prime",
 									"Sydon",
 									"Orthos Prime",
+									"Serro",
 									"Orthos",
 									"Kesheg",
 									"Amanata",
 									"Edun",
 									"Lesion",
+									"Korumm",
 									"Guandao",
 									"Cassowar",
 									["Place"] = "First",
@@ -53968,16 +54630,16 @@ return {
 								},
 								[2.9] = {
 									"Vaykor Sydon",
-									"Korumm",
 									"Sydon",
 									"Kesheg",
+									"Korumm",
 									["Place"] = "Second",
 								},
 								[3] = {
 									"Tonbo",
-									"Serro",
 									"Guandao Prime",
 									"Orthos Prime",
+									"Serro",
 									"Orthos",
 									"Amanata",
 									"Edun",
@@ -53988,19 +54650,19 @@ return {
 							},
 							["Multishot"] = {
 								{
-									"Vaykor Sydon",
 									"Tonbo",
-									"Serro",
-									"Guandao Prime",
+									"Vaykor Sydon",
 									"Pupacyst",
-									"Korumm",
+									"Guandao Prime",
 									"Sydon",
 									"Orthos Prime",
+									"Serro",
 									"Orthos",
 									"Kesheg",
 									"Amanata",
 									"Edun",
 									"Lesion",
+									"Korumm",
 									"Guandao",
 									"Cassowar",
 									["Place"] = "First",
@@ -54093,13 +54755,13 @@ return {
 								1.5,
 							},
 							["Disposition"] = {
-								1.368,
-								1.35,
-								1.32,
-								1.2025,
-								1.115,
-								1.01,
-								0.85,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.134,
@@ -54201,19 +54863,19 @@ return {
 							},
 							["BlockAngle"] = {
 								[55] = {
-									"Vaykor Sydon",
 									"Tonbo",
-									"Serro",
-									"Guandao Prime",
+									"Vaykor Sydon",
 									"Pupacyst",
-									"Korumm",
+									"Guandao Prime",
 									"Sydon",
 									"Orthos Prime",
+									"Serro",
 									"Orthos",
 									"Kesheg",
 									"Amanata",
 									"Edun",
 									"Lesion",
+									"Korumm",
 									"Guandao",
 									"Cassowar",
 									["Place"] = "First",
@@ -54249,20 +54911,22 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.3] = {
-									"Vaykor Sydon",
-									["Place"] = "Third",
-								},
-								[1.35] = {
-									"Pupacyst",
-									"Sydon",
-									"Kesheg",
-									"Cassowar",
-									["Place"] = "Second",
-								},
-								[1.38] = {
+								[1.2] = {
 									"Tonbo",
+									"Vaykor Sydon",
+									"Pupacyst",
+									"Guandao Prime",
+									"Sydon",
+									"Orthos Prime",
 									"Serro",
+									"Orthos",
+									"Kesheg",
+									"Amanata",
+									"Edun",
+									"Lesion",
+									"Korumm",
+									"Guandao",
+									"Cassowar",
 									["Place"] = "First",
 								},
 							},
@@ -54270,10 +54934,10 @@ return {
 								{
 									"Tonbo",
 									"Guandao Prime",
-									"Korumm",
 									"Amanata",
 									"Edun",
 									"Lesion",
+									"Korumm",
 									["Place"] = "Third",
 								},
 								[1.08] = {
@@ -54288,19 +54952,19 @@ return {
 							},
 							["FollowThrough"] = {
 								[0.6] = {
-									"Vaykor Sydon",
 									"Tonbo",
-									"Serro",
-									"Guandao Prime",
+									"Vaykor Sydon",
 									"Pupacyst",
-									"Korumm",
+									"Guandao Prime",
 									"Sydon",
 									"Orthos Prime",
+									"Serro",
 									"Orthos",
 									"Kesheg",
 									"Amanata",
 									"Edun",
 									"Lesion",
+									"Korumm",
 									"Guandao",
 									"Cassowar",
 									["Place"] = "First",
@@ -54314,16 +54978,16 @@ return {
 								},
 								[2.9] = {
 									"Vaykor Sydon",
-									"Korumm",
 									"Sydon",
 									"Kesheg",
+									"Korumm",
 									["Place"] = "Second",
 								},
 								[3] = {
 									"Tonbo",
-									"Serro",
 									"Guandao Prime",
 									"Orthos Prime",
+									"Serro",
 									"Orthos",
 									"Amanata",
 									"Edun",
@@ -54334,19 +54998,19 @@ return {
 							},
 							["Multishot"] = {
 								{
-									"Vaykor Sydon",
 									"Tonbo",
-									"Serro",
-									"Guandao Prime",
+									"Vaykor Sydon",
 									"Pupacyst",
-									"Korumm",
+									"Guandao Prime",
 									"Sydon",
 									"Orthos Prime",
+									"Serro",
 									"Orthos",
 									"Kesheg",
 									"Amanata",
 									"Edun",
 									"Lesion",
+									"Korumm",
 									"Guandao",
 									"Cassowar",
 									["Place"] = "First",
@@ -54439,13 +55103,13 @@ return {
 								1.5,
 							},
 							["Disposition"] = {
-								1.368,
-								1.35,
-								1.32,
-								1.2025,
-								1.115,
-								1.01,
-								0.85,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.134,
@@ -54533,17 +55197,17 @@ return {
 							},
 							["AvgProcCount"] = {
 								[1.1] = {
-									"Vaykor Sydon",
 									"Tonbo",
-									"Serro",
+									"Vaykor Sydon",
 									"Guandao Prime",
-									"Korumm",
 									"Sydon",
 									"Orthos Prime",
+									"Serro",
 									"Orthos",
 									"Kesheg",
 									"Amanata",
 									"Lesion",
+									"Korumm",
 									"Guandao",
 									"Cassowar",
 									["Place"] = "Third",
@@ -54559,19 +55223,19 @@ return {
 							},
 							["BlockAngle"] = {
 								[55] = {
-									"Vaykor Sydon",
 									"Tonbo",
-									"Serro",
-									"Guandao Prime",
+									"Vaykor Sydon",
 									"Pupacyst",
-									"Korumm",
+									"Guandao Prime",
 									"Sydon",
 									"Orthos Prime",
+									"Serro",
 									"Orthos",
 									"Kesheg",
 									"Amanata",
 									"Edun",
 									"Lesion",
+									"Korumm",
 									"Guandao",
 									"Cassowar",
 									["Place"] = "First",
@@ -54607,20 +55271,22 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.3] = {
-									"Vaykor Sydon",
-									["Place"] = "Third",
-								},
-								[1.35] = {
-									"Pupacyst",
-									"Sydon",
-									"Kesheg",
-									"Cassowar",
-									["Place"] = "Second",
-								},
-								[1.38] = {
+								[1.2] = {
 									"Tonbo",
+									"Vaykor Sydon",
+									"Pupacyst",
+									"Guandao Prime",
+									"Sydon",
+									"Orthos Prime",
 									"Serro",
+									"Orthos",
+									"Kesheg",
+									"Amanata",
+									"Edun",
+									"Lesion",
+									"Korumm",
+									"Guandao",
+									"Cassowar",
 									["Place"] = "First",
 								},
 							},
@@ -54628,10 +55294,10 @@ return {
 								{
 									"Tonbo",
 									"Guandao Prime",
-									"Korumm",
 									"Amanata",
 									"Edun",
 									"Lesion",
+									"Korumm",
 									["Place"] = "Third",
 								},
 								[1.08] = {
@@ -54646,19 +55312,19 @@ return {
 							},
 							["FollowThrough"] = {
 								[0.6] = {
-									"Vaykor Sydon",
 									"Tonbo",
-									"Serro",
-									"Guandao Prime",
+									"Vaykor Sydon",
 									"Pupacyst",
-									"Korumm",
+									"Guandao Prime",
 									"Sydon",
 									"Orthos Prime",
+									"Serro",
 									"Orthos",
 									"Kesheg",
 									"Amanata",
 									"Edun",
 									"Lesion",
+									"Korumm",
 									"Guandao",
 									"Cassowar",
 									["Place"] = "First",
@@ -54672,16 +55338,16 @@ return {
 								},
 								[2.9] = {
 									"Vaykor Sydon",
-									"Korumm",
 									"Sydon",
 									"Kesheg",
+									"Korumm",
 									["Place"] = "Second",
 								},
 								[3] = {
 									"Tonbo",
-									"Serro",
 									"Guandao Prime",
 									"Orthos Prime",
+									"Serro",
 									"Orthos",
 									"Amanata",
 									"Edun",
@@ -54692,19 +55358,19 @@ return {
 							},
 							["Multishot"] = {
 								{
-									"Vaykor Sydon",
 									"Tonbo",
-									"Serro",
-									"Guandao Prime",
+									"Vaykor Sydon",
 									"Pupacyst",
-									"Korumm",
+									"Guandao Prime",
 									"Sydon",
 									"Orthos Prime",
+									"Serro",
 									"Orthos",
 									"Kesheg",
 									"Amanata",
 									"Edun",
 									"Lesion",
+									"Korumm",
 									"Guandao",
 									"Cassowar",
 									["Place"] = "First",
@@ -54712,17 +55378,17 @@ return {
 							},
 							["StatusChance"] = {
 								[0.1] = {
-									"Vaykor Sydon",
 									"Tonbo",
-									"Serro",
+									"Vaykor Sydon",
 									"Guandao Prime",
-									"Korumm",
 									"Sydon",
 									"Orthos Prime",
+									"Serro",
 									"Orthos",
 									"Kesheg",
 									"Amanata",
 									"Lesion",
+									"Korumm",
 									"Guandao",
 									"Cassowar",
 									["Place"] = "Third",
@@ -54809,13 +55475,13 @@ return {
 								2.26,
 							},
 							["Disposition"] = {
-								1.145,
-								1.1375,
-								1.13,
-								1.12625,
-								1.1225,
-								1.115,
-								1.1075,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -54895,15 +55561,15 @@ return {
 							},
 							["AvgProcCount"] = {
 								[1.1] = {
-									"Korumm",
 									"Edun",
+									"Korumm",
 									["Place"] = "First",
 								},
 							},
 							["BlockAngle"] = {
 								[55] = {
-									"Korumm",
 									"Edun",
+									"Korumm",
 									["Place"] = "First",
 								},
 							},
@@ -54928,26 +55594,23 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.1] = {
-									"Korumm",
-									["Place"] = "Second",
-								},
-								[1.15] = {
+								[1.2] = {
 									"Edun",
+									"Korumm",
 									["Place"] = "First",
 								},
 							},
 							["FireRate"] = {
 								{
-									"Korumm",
 									"Edun",
+									"Korumm",
 									["Place"] = "First",
 								},
 							},
 							["FollowThrough"] = {
 								[0.6] = {
-									"Korumm",
 									"Edun",
+									"Korumm",
 									["Place"] = "First",
 								},
 							},
@@ -54963,15 +55626,15 @@ return {
 							},
 							["Multishot"] = {
 								{
-									"Korumm",
 									"Edun",
+									"Korumm",
 									["Place"] = "First",
 								},
 							},
 							["StatusChance"] = {
 								[0.1] = {
-									"Korumm",
 									"Edun",
+									"Korumm",
 									["Place"] = "First",
 								},
 							},
@@ -55044,13 +55707,13 @@ return {
 								2.6,
 							},
 							["Disposition"] = {
-								1.15,
-								1.15,
-								1.15,
-								1.15,
-								1.15,
-								1.15,
-								1.15,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -55145,7 +55808,7 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.15] = {
+								[1.2] = {
 									"Edun",
 									["Place"] = "First",
 								},
@@ -55249,13 +55912,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.45,
-								1.3,
-								1.1,
-								0.9875,
-								0.9,
-								0.8,
-								0.7,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.083,
@@ -55357,9 +56020,9 @@ return {
 							},
 							["BlockAngle"] = {
 								[60] = {
+									"Reaper Prime",
 									"Coda Caustacyst",
 									"Harmony",
-									"Reaper Prime",
 									"Anku",
 									"Caustacyst",
 									"Ether Reaper",
@@ -55406,25 +56069,26 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.3] = {
+								[1.2] = {
+									"Reaper Prime",
 									"Venato",
-									"Caustacyst",
-									["Place"] = "Third",
-								},
-								[1.45] = {
-									"Ether Reaper",
-									["Place"] = "Second",
-								},
-								[1.46] = {
+									"Coda Caustacyst",
+									"Tenet Grigori",
+									"Harmony",
 									"Anku",
+									"Caustacyst",
+									"Ether Reaper",
+									"Venato Prime",
+									"Galariak Prime",
+									"Hate",
 									["Place"] = "First",
 								},
 							},
 							["FireRate"] = {
 								[1.08] = {
+									"Reaper Prime",
 									"Venato",
 									"Tenet Grigori",
-									"Reaper Prime",
 									"Anku",
 									"Ether Reaper",
 									["Place"] = "Third",
@@ -55441,11 +56105,11 @@ return {
 							},
 							["FollowThrough"] = {
 								[0.6] = {
+									"Reaper Prime",
 									"Venato",
 									"Coda Caustacyst",
 									"Tenet Grigori",
 									"Harmony",
-									"Reaper Prime",
 									"Anku",
 									"Caustacyst",
 									"Ether Reaper",
@@ -55477,11 +56141,11 @@ return {
 							},
 							["Multishot"] = {
 								{
+									"Reaper Prime",
 									"Venato",
 									"Coda Caustacyst",
 									"Tenet Grigori",
 									"Harmony",
-									"Reaper Prime",
 									"Anku",
 									"Caustacyst",
 									"Ether Reaper",
@@ -55578,13 +56242,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.45,
-								1.3,
-								1.1,
-								0.9875,
-								0.9,
-								0.8,
-								0.7,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.083,
@@ -55672,9 +56336,9 @@ return {
 							},
 							["AvgProcCount"] = {
 								[1.1] = {
+									"Reaper Prime",
 									"Venato",
 									"Harmony",
-									"Reaper Prime",
 									"Anku",
 									"Ether Reaper",
 									"Venato Prime",
@@ -55692,9 +56356,9 @@ return {
 							},
 							["BlockAngle"] = {
 								[60] = {
+									"Reaper Prime",
 									"Coda Caustacyst",
 									"Harmony",
-									"Reaper Prime",
 									"Anku",
 									"Caustacyst",
 									"Ether Reaper",
@@ -55740,25 +56404,26 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.3] = {
+								[1.2] = {
+									"Reaper Prime",
 									"Venato",
-									"Caustacyst",
-									["Place"] = "Third",
-								},
-								[1.45] = {
-									"Ether Reaper",
-									["Place"] = "Second",
-								},
-								[1.46] = {
+									"Coda Caustacyst",
+									"Tenet Grigori",
+									"Harmony",
 									"Anku",
+									"Caustacyst",
+									"Ether Reaper",
+									"Venato Prime",
+									"Galariak Prime",
+									"Hate",
 									["Place"] = "First",
 								},
 							},
 							["FireRate"] = {
 								[1.08] = {
+									"Reaper Prime",
 									"Venato",
 									"Harmony",
-									"Reaper Prime",
 									"Anku",
 									"Ether Reaper",
 									["Place"] = "Third",
@@ -55774,11 +56439,11 @@ return {
 							},
 							["FollowThrough"] = {
 								[0.6] = {
+									"Reaper Prime",
 									"Venato",
 									"Coda Caustacyst",
 									"Tenet Grigori",
 									"Harmony",
-									"Reaper Prime",
 									"Anku",
 									"Caustacyst",
 									"Ether Reaper",
@@ -55810,11 +56475,11 @@ return {
 							},
 							["Multishot"] = {
 								{
+									"Reaper Prime",
 									"Venato",
 									"Coda Caustacyst",
 									"Tenet Grigori",
 									"Harmony",
-									"Reaper Prime",
 									"Anku",
 									"Caustacyst",
 									"Ether Reaper",
@@ -55911,13 +56576,13 @@ return {
 								1.3,
 							},
 							["Disposition"] = {
-								1.45,
-								1.3,
-								1.1,
-								0.9875,
-								0.9,
-								0.8,
-								0.7,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.083,
@@ -56005,10 +56670,10 @@ return {
 							},
 							["AvgProcCount"] = {
 								[1.1] = {
+									"Reaper Prime",
 									"Venato",
 									"Tenet Grigori",
 									"Harmony",
-									"Reaper Prime",
 									"Anku",
 									"Ether Reaper",
 									"Venato Prime",
@@ -56026,9 +56691,9 @@ return {
 							},
 							["BlockAngle"] = {
 								[60] = {
+									"Reaper Prime",
 									"Coda Caustacyst",
 									"Harmony",
-									"Reaper Prime",
 									"Anku",
 									"Caustacyst",
 									"Ether Reaper",
@@ -56074,26 +56739,27 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.3] = {
+								[1.2] = {
+									"Reaper Prime",
 									"Venato",
-									"Caustacyst",
-									["Place"] = "Third",
-								},
-								[1.45] = {
-									"Ether Reaper",
-									["Place"] = "Second",
-								},
-								[1.46] = {
+									"Coda Caustacyst",
+									"Tenet Grigori",
+									"Harmony",
 									"Anku",
+									"Caustacyst",
+									"Ether Reaper",
+									"Venato Prime",
+									"Galariak Prime",
+									"Hate",
 									["Place"] = "First",
 								},
 							},
 							["FireRate"] = {
 								[1.08] = {
+									"Reaper Prime",
 									"Venato",
 									"Tenet Grigori",
 									"Harmony",
-									"Reaper Prime",
 									"Anku",
 									"Ether Reaper",
 									["Place"] = "Third",
@@ -56109,11 +56775,11 @@ return {
 							},
 							["FollowThrough"] = {
 								[0.6] = {
+									"Reaper Prime",
 									"Venato",
 									"Coda Caustacyst",
 									"Tenet Grigori",
 									"Harmony",
-									"Reaper Prime",
 									"Anku",
 									"Caustacyst",
 									"Ether Reaper",
@@ -56145,11 +56811,11 @@ return {
 							},
 							["Multishot"] = {
 								{
+									"Reaper Prime",
 									"Venato",
 									"Coda Caustacyst",
 									"Tenet Grigori",
 									"Harmony",
-									"Reaper Prime",
 									"Anku",
 									"Caustacyst",
 									"Ether Reaper",
@@ -56246,13 +56912,13 @@ return {
 								1.78,
 							},
 							["Disposition"] = {
-								1.24,
-								1.15,
-								1.07,
-								1.03625,
-								1.0025,
-								0.94,
-								0.895,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.056,
@@ -56388,16 +57054,11 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.95] = {
+								[1.2] = {
+									"Coda Caustacyst",
 									"Tenet Grigori",
-									["Place"] = "Third",
-								},
-								[1.1] = {
-									"Hate",
-									["Place"] = "Second",
-								},
-								[1.3] = {
 									"Caustacyst",
+									"Hate",
 									["Place"] = "First",
 								},
 							},
@@ -56531,13 +57192,13 @@ return {
 								2.09,
 							},
 							["Disposition"] = {
-								1.26,
 								1.2,
-								1.14,
-								1.11,
-								1.075,
-								1,
-								0.925,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -56668,16 +57329,10 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.85] = {
+								[1.2] = {
 									"Coda Caustacyst",
-									["Place"] = "Third",
-								},
-								[1.1] = {
-									"Hate",
-									["Place"] = "Second",
-								},
-								[1.3] = {
 									"Caustacyst",
+									"Hate",
 									["Place"] = "First",
 								},
 							},
@@ -56804,13 +57459,13 @@ return {
 								1.98,
 							},
 							["Disposition"] = {
-								1.424,
-								1.375,
-								1.33,
-								1.3075,
-								1.285,
-								1.23,
-								1.11,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.132,
@@ -56916,8 +57571,8 @@ return {
 									"Coda Hirudo",
 									"Korrudo",
 									"Prisma Obex",
-									"Kogake",
 									"Obex",
+									"Kogake",
 									"Hirudo",
 									["Place"] = "First",
 								},
@@ -56951,16 +57606,14 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
-									"Korrudo",
-									["Place"] = "Third",
-								},
-								[1.4] = {
+								[1.2] = {
 									"Kogake Prime",
-									["Place"] = "Second",
-								},
-								[1.46] = {
+									"Coda Hirudo",
+									"Korrudo",
+									"Prisma Obex",
+									"Obex",
 									"Kogake",
+									"Hirudo",
 									["Place"] = "First",
 								},
 							},
@@ -56987,8 +57640,8 @@ return {
 									"Coda Hirudo",
 									"Korrudo",
 									"Prisma Obex",
-									"Kogake",
 									"Obex",
+									"Kogake",
 									"Hirudo",
 									["Place"] = "First",
 								},
@@ -56999,8 +57652,8 @@ return {
 									"Coda Hirudo",
 									"Korrudo",
 									"Prisma Obex",
-									"Kogake",
 									"Obex",
+									"Kogake",
 									"Hirudo",
 									["Place"] = "First",
 								},
@@ -57011,8 +57664,8 @@ return {
 									"Coda Hirudo",
 									"Korrudo",
 									"Prisma Obex",
-									"Kogake",
 									"Obex",
+									"Kogake",
 									"Hirudo",
 									["Place"] = "First",
 								},
@@ -57104,13 +57757,13 @@ return {
 								1.98,
 							},
 							["Disposition"] = {
-								1.424,
-								1.375,
-								1.33,
-								1.3075,
-								1.285,
-								1.23,
-								1.11,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.132,
@@ -57202,8 +57855,8 @@ return {
 									"Coda Hirudo",
 									"Korrudo",
 									"Prisma Obex",
-									"Kogake",
 									"Obex",
+									"Kogake",
 									"Hirudo",
 									["Place"] = "First",
 								},
@@ -57214,8 +57867,8 @@ return {
 									"Coda Hirudo",
 									"Korrudo",
 									"Prisma Obex",
-									"Kogake",
 									"Obex",
+									"Kogake",
 									"Hirudo",
 									["Place"] = "First",
 								},
@@ -57249,16 +57902,14 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
-									"Korrudo",
-									["Place"] = "Third",
-								},
-								[1.4] = {
+								[1.2] = {
 									"Kogake Prime",
-									["Place"] = "Second",
-								},
-								[1.46] = {
+									"Coda Hirudo",
+									"Korrudo",
+									"Prisma Obex",
+									"Obex",
 									"Kogake",
+									"Hirudo",
 									["Place"] = "First",
 								},
 							},
@@ -57285,8 +57936,8 @@ return {
 									"Coda Hirudo",
 									"Korrudo",
 									"Prisma Obex",
-									"Kogake",
 									"Obex",
+									"Kogake",
 									"Hirudo",
 									["Place"] = "First",
 								},
@@ -57297,8 +57948,8 @@ return {
 									"Coda Hirudo",
 									"Korrudo",
 									"Prisma Obex",
-									"Kogake",
 									"Obex",
+									"Kogake",
 									"Hirudo",
 									["Place"] = "First",
 								},
@@ -57309,8 +57960,8 @@ return {
 									"Coda Hirudo",
 									"Korrudo",
 									"Prisma Obex",
-									"Kogake",
 									"Obex",
+									"Kogake",
 									"Hirudo",
 									["Place"] = "First",
 								},
@@ -57321,8 +57972,8 @@ return {
 									"Coda Hirudo",
 									"Korrudo",
 									"Prisma Obex",
-									"Kogake",
 									"Obex",
+									"Kogake",
 									"Hirudo",
 									["Place"] = "First",
 								},
@@ -57400,13 +58051,13 @@ return {
 								1.98,
 							},
 							["Disposition"] = {
-								1.424,
-								1.375,
-								1.33,
-								1.3075,
-								1.285,
-								1.23,
-								1.11,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.132,
@@ -57498,8 +58149,8 @@ return {
 									"Coda Hirudo",
 									"Korrudo",
 									"Prisma Obex",
-									"Kogake",
 									"Obex",
+									"Kogake",
 									"Hirudo",
 									["Place"] = "First",
 								},
@@ -57510,8 +58161,8 @@ return {
 									"Coda Hirudo",
 									"Korrudo",
 									"Prisma Obex",
-									"Kogake",
 									"Obex",
+									"Kogake",
 									"Hirudo",
 									["Place"] = "First",
 								},
@@ -57545,16 +58196,14 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
-									"Korrudo",
-									["Place"] = "Third",
-								},
-								[1.4] = {
+								[1.2] = {
 									"Kogake Prime",
-									["Place"] = "Second",
-								},
-								[1.46] = {
+									"Coda Hirudo",
+									"Korrudo",
+									"Prisma Obex",
+									"Obex",
 									"Kogake",
+									"Hirudo",
 									["Place"] = "First",
 								},
 							},
@@ -57581,8 +58230,8 @@ return {
 									"Coda Hirudo",
 									"Korrudo",
 									"Prisma Obex",
-									"Kogake",
 									"Obex",
+									"Kogake",
 									"Hirudo",
 									["Place"] = "First",
 								},
@@ -57593,8 +58242,8 @@ return {
 									"Coda Hirudo",
 									"Korrudo",
 									"Prisma Obex",
-									"Kogake",
 									"Obex",
+									"Kogake",
 									"Hirudo",
 									["Place"] = "First",
 								},
@@ -57605,8 +58254,8 @@ return {
 									"Coda Hirudo",
 									"Korrudo",
 									"Prisma Obex",
-									"Kogake",
 									"Obex",
+									"Kogake",
 									"Hirudo",
 									["Place"] = "First",
 								},
@@ -57617,8 +58266,8 @@ return {
 									"Coda Hirudo",
 									"Korrudo",
 									"Prisma Obex",
-									"Kogake",
 									"Obex",
+									"Kogake",
 									"Hirudo",
 									["Place"] = "First",
 								},
@@ -57700,13 +58349,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.43,
-								1.4,
-								1.36,
-								1.35,
-								1.35,
-								1.314,
-								1.291,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.274,
@@ -57854,18 +58503,15 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
+								[1.2] = {
+									"Mk1-Bo",
+									"Amphis",
+									"Cadus",
+									"Broken Scepter",
+									"Tipedo",
 									"Bo Prime",
 									"Bo",
-									["Place"] = "Third",
-								},
-								[1.4] = {
-									"Mk1-Bo",
-									"Broken Scepter",
-									["Place"] = "Second",
-								},
-								[1.5] = {
-									"Amphis",
+									"Tipedo Prime",
 									["Place"] = "First",
 								},
 							},
@@ -58016,13 +58662,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.43,
-								1.4,
-								1.36,
-								1.35,
-								1.35,
-								1.314,
-								1.291,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.274,
@@ -58169,18 +58815,15 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
+								[1.2] = {
+									"Mk1-Bo",
+									"Amphis",
+									"Cadus",
+									"Broken Scepter",
+									"Tipedo",
 									"Bo Prime",
 									"Bo",
-									["Place"] = "Third",
-								},
-								[1.4] = {
-									"Mk1-Bo",
-									"Broken Scepter",
-									["Place"] = "Second",
-								},
-								[1.5] = {
-									"Amphis",
+									"Tipedo Prime",
 									["Place"] = "First",
 								},
 							},
@@ -58330,13 +58973,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.43,
-								1.4,
-								1.36,
-								1.35,
-								1.35,
-								1.314,
-								1.291,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.274,
@@ -58486,18 +59129,15 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
+								[1.2] = {
+									"Mk1-Bo",
+									"Amphis",
+									"Cadus",
+									"Broken Scepter",
+									"Tipedo",
 									"Bo Prime",
 									"Bo",
-									["Place"] = "Third",
-								},
-								[1.4] = {
-									"Mk1-Bo",
-									"Broken Scepter",
-									["Place"] = "Second",
-								},
-								[1.5] = {
-									"Amphis",
+									"Tipedo Prime",
 									["Place"] = "First",
 								},
 							},
@@ -58651,13 +59291,13 @@ return {
 								1.5,
 							},
 							["Disposition"] = {
-								1.48,
-								1.4725,
-								1.4,
-								1.34375,
-								1.3,
 								1.2,
-								1.1125,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.04,
@@ -58766,15 +59406,15 @@ return {
 								},
 								[55] = {
 									"Dakra Prime",
+									"Pangolin Sword",
 									"Prisma Skana",
 									"Skana",
 									"Coda Mire",
 									"Dark Sword",
 									"Krohkur",
-									"Mire",
 									"Plasma Sword",
-									"Pangolin Sword",
 									"Heat Sword",
+									"Mire",
 									"Jaw Sword",
 									"Ether Sword",
 									"Cronus",
@@ -58812,19 +59452,23 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.44] = {
-									"Ether Sword",
-									["Place"] = "Third",
-								},
-								[1.47] = {
+								[1.2] = {
+									"Dakra Prime",
 									"Pangolin Sword",
-									["Place"] = "Second",
-								},
-								[1.48] = {
+									"Prisma Skana",
+									"Skana Prime",
+									"Skana",
+									"Coda Mire",
 									"Dark Sword",
+									"Krohkur",
+									"Pangolin Prime",
 									"Plasma Sword",
 									"Heat Sword",
+									"Mire",
+									"Jaw Sword",
+									"Ether Sword",
 									"Cronus",
+									"Broken War",
 									["Place"] = "First",
 								},
 							},
@@ -58849,17 +59493,17 @@ return {
 							["FollowThrough"] = {
 								[0.6] = {
 									"Dakra Prime",
+									"Pangolin Sword",
 									"Prisma Skana",
+									"Skana Prime",
 									"Skana",
 									"Coda Mire",
 									"Dark Sword",
-									"Skana Prime",
 									"Krohkur",
-									"Mire",
 									"Pangolin Prime",
 									"Plasma Sword",
-									"Pangolin Sword",
 									"Heat Sword",
+									"Mire",
 									"Jaw Sword",
 									"Ether Sword",
 									"Cronus",
@@ -58870,14 +59514,14 @@ return {
 							["MeleeRange"] = {
 								[2.5] = {
 									"Dakra Prime",
+									"Pangolin Sword",
 									"Prisma Skana",
+									"Skana Prime",
 									"Skana",
 									"Dark Sword",
-									"Skana Prime",
 									"Krohkur",
 									"Pangolin Prime",
 									"Plasma Sword",
-									"Pangolin Sword",
 									"Heat Sword",
 									"Jaw Sword",
 									"Ether Sword",
@@ -58894,17 +59538,17 @@ return {
 							["Multishot"] = {
 								{
 									"Dakra Prime",
+									"Pangolin Sword",
 									"Prisma Skana",
+									"Skana Prime",
 									"Skana",
 									"Coda Mire",
 									"Dark Sword",
-									"Skana Prime",
 									"Krohkur",
-									"Mire",
 									"Pangolin Prime",
 									"Plasma Sword",
-									"Pangolin Sword",
 									"Heat Sword",
+									"Mire",
 									"Jaw Sword",
 									"Ether Sword",
 									"Cronus",
@@ -59000,13 +59644,13 @@ return {
 								1.5,
 							},
 							["Disposition"] = {
-								1.48,
-								1.4725,
-								1.4,
-								1.34375,
-								1.3,
 								1.2,
-								1.1125,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.04,
@@ -59094,9 +59738,9 @@ return {
 							},
 							["AvgProcCount"] = {
 								[2.1] = {
+									"Pangolin Sword",
 									"Pangolin Prime",
 									"Plasma Sword",
-									"Pangolin Sword",
 									"Ether Sword",
 									["Place"] = "Third",
 								},
@@ -59118,15 +59762,15 @@ return {
 								},
 								[55] = {
 									"Dakra Prime",
+									"Pangolin Sword",
 									"Prisma Skana",
 									"Skana",
 									"Coda Mire",
 									"Dark Sword",
 									"Krohkur",
-									"Mire",
 									"Plasma Sword",
-									"Pangolin Sword",
 									"Heat Sword",
+									"Mire",
 									"Jaw Sword",
 									"Ether Sword",
 									"Cronus",
@@ -59164,19 +59808,23 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.44] = {
-									"Ether Sword",
-									["Place"] = "Third",
-								},
-								[1.47] = {
+								[1.2] = {
+									"Dakra Prime",
 									"Pangolin Sword",
-									["Place"] = "Second",
-								},
-								[1.48] = {
+									"Prisma Skana",
+									"Skana Prime",
+									"Skana",
+									"Coda Mire",
 									"Dark Sword",
+									"Krohkur",
+									"Pangolin Prime",
 									"Plasma Sword",
 									"Heat Sword",
+									"Mire",
+									"Jaw Sword",
+									"Ether Sword",
 									"Cronus",
+									"Broken War",
 									["Place"] = "First",
 								},
 							},
@@ -59190,8 +59838,8 @@ return {
 									["Place"] = "Second",
 								},
 								[0.917] = {
-									"Pangolin Prime",
 									"Pangolin Sword",
+									"Pangolin Prime",
 									"Heat Sword",
 									"Jaw Sword",
 									"Cronus",
@@ -59206,17 +59854,17 @@ return {
 							["FollowThrough"] = {
 								[0.6] = {
 									"Dakra Prime",
+									"Pangolin Sword",
 									"Prisma Skana",
+									"Skana Prime",
 									"Skana",
 									"Coda Mire",
 									"Dark Sword",
-									"Skana Prime",
 									"Krohkur",
-									"Mire",
 									"Pangolin Prime",
 									"Plasma Sword",
-									"Pangolin Sword",
 									"Heat Sword",
+									"Mire",
 									"Jaw Sword",
 									"Ether Sword",
 									"Cronus",
@@ -59227,14 +59875,14 @@ return {
 							["MeleeRange"] = {
 								[2.5] = {
 									"Dakra Prime",
+									"Pangolin Sword",
 									"Prisma Skana",
+									"Skana Prime",
 									"Skana",
 									"Dark Sword",
-									"Skana Prime",
 									"Krohkur",
 									"Pangolin Prime",
 									"Plasma Sword",
-									"Pangolin Sword",
 									"Heat Sword",
 									"Jaw Sword",
 									"Ether Sword",
@@ -59251,17 +59899,17 @@ return {
 							["Multishot"] = {
 								{
 									"Dakra Prime",
+									"Pangolin Sword",
 									"Prisma Skana",
+									"Skana Prime",
 									"Skana",
 									"Coda Mire",
 									"Dark Sword",
-									"Skana Prime",
 									"Krohkur",
-									"Mire",
 									"Pangolin Prime",
 									"Plasma Sword",
-									"Pangolin Sword",
 									"Heat Sword",
+									"Mire",
 									"Jaw Sword",
 									"Ether Sword",
 									"Cronus",
@@ -59357,13 +60005,13 @@ return {
 								1.5,
 							},
 							["Disposition"] = {
-								1.48,
-								1.4725,
-								1.4,
-								1.34375,
-								1.3,
 								1.2,
-								1.1125,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.04,
@@ -59472,15 +60120,15 @@ return {
 								},
 								[55] = {
 									"Dakra Prime",
+									"Pangolin Sword",
 									"Prisma Skana",
 									"Skana",
 									"Coda Mire",
 									"Dark Sword",
 									"Krohkur",
-									"Mire",
 									"Plasma Sword",
-									"Pangolin Sword",
 									"Heat Sword",
+									"Mire",
 									"Jaw Sword",
 									"Ether Sword",
 									"Cronus",
@@ -59518,19 +60166,23 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.44] = {
-									"Ether Sword",
-									["Place"] = "Third",
-								},
-								[1.47] = {
+								[1.2] = {
+									"Dakra Prime",
 									"Pangolin Sword",
-									["Place"] = "Second",
-								},
-								[1.48] = {
+									"Prisma Skana",
+									"Skana Prime",
+									"Skana",
+									"Coda Mire",
 									"Dark Sword",
+									"Krohkur",
+									"Pangolin Prime",
 									"Plasma Sword",
 									"Heat Sword",
+									"Mire",
+									"Jaw Sword",
+									"Ether Sword",
 									"Cronus",
+									"Broken War",
 									["Place"] = "First",
 								},
 							},
@@ -59544,8 +60196,8 @@ return {
 									["Place"] = "Second",
 								},
 								[0.917] = {
-									"Pangolin Prime",
 									"Pangolin Sword",
+									"Pangolin Prime",
 									"Heat Sword",
 									"Jaw Sword",
 									"Cronus",
@@ -59560,17 +60212,17 @@ return {
 							["FollowThrough"] = {
 								[0.6] = {
 									"Dakra Prime",
+									"Pangolin Sword",
 									"Prisma Skana",
+									"Skana Prime",
 									"Skana",
 									"Coda Mire",
 									"Dark Sword",
-									"Skana Prime",
 									"Krohkur",
-									"Mire",
 									"Pangolin Prime",
 									"Plasma Sword",
-									"Pangolin Sword",
 									"Heat Sword",
+									"Mire",
 									"Jaw Sword",
 									"Ether Sword",
 									"Cronus",
@@ -59581,14 +60233,14 @@ return {
 							["MeleeRange"] = {
 								[2.5] = {
 									"Dakra Prime",
+									"Pangolin Sword",
 									"Prisma Skana",
+									"Skana Prime",
 									"Skana",
 									"Dark Sword",
-									"Skana Prime",
 									"Krohkur",
 									"Pangolin Prime",
 									"Plasma Sword",
-									"Pangolin Sword",
 									"Heat Sword",
 									"Jaw Sword",
 									"Ether Sword",
@@ -59605,17 +60257,17 @@ return {
 							["Multishot"] = {
 								{
 									"Dakra Prime",
+									"Pangolin Sword",
 									"Prisma Skana",
+									"Skana Prime",
 									"Skana",
 									"Coda Mire",
 									"Dark Sword",
-									"Skana Prime",
 									"Krohkur",
-									"Mire",
 									"Pangolin Prime",
 									"Plasma Sword",
-									"Pangolin Sword",
 									"Heat Sword",
+									"Mire",
 									"Jaw Sword",
 									"Ether Sword",
 									"Cronus",
@@ -59715,13 +60367,13 @@ return {
 								1.58,
 							},
 							["Disposition"] = {
-								1.35,
 								1.2,
-								1.15,
-								1.15,
-								1.13,
-								1.07,
-								0.97,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.016,
@@ -59870,18 +60522,16 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.15] = {
-									"Silva & Aegis",
-									"Argo & Vel",
-									["Place"] = "Third",
-								},
 								[1.2] = {
-									"Cobra & Crane Prime",
-									["Place"] = "Second",
-								},
-								[1.35] = {
+									"Sigma & Octantis",
 									"Ack & Brunt",
+									"Cobra & Crane Prime",
+									"Silva & Aegis Prime",
+									"Tenet Agendus",
+									"Tak & Lug",
+									"Silva & Aegis",
 									"Cobra & Crane",
+									"Argo & Vel",
 									["Place"] = "First",
 								},
 							},
@@ -60035,13 +60685,13 @@ return {
 								1.58,
 							},
 							["Disposition"] = {
-								1.35,
 								1.2,
-								1.15,
-								1.15,
-								1.13,
-								1.07,
-								0.97,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.016,
@@ -60191,18 +60841,16 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.15] = {
-									"Silva & Aegis",
-									"Argo & Vel",
-									["Place"] = "Third",
-								},
 								[1.2] = {
-									"Cobra & Crane Prime",
-									["Place"] = "Second",
-								},
-								[1.35] = {
+									"Sigma & Octantis",
 									"Ack & Brunt",
+									"Cobra & Crane Prime",
+									"Silva & Aegis Prime",
+									"Tenet Agendus",
+									"Tak & Lug",
+									"Silva & Aegis",
 									"Cobra & Crane",
+									"Argo & Vel",
 									["Place"] = "First",
 								},
 							},
@@ -60356,13 +61004,13 @@ return {
 								1.58,
 							},
 							["Disposition"] = {
-								1.35,
 								1.2,
-								1.15,
-								1.15,
-								1.13,
-								1.07,
-								0.97,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.08,
@@ -60515,18 +61163,16 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.15] = {
-									"Silva & Aegis",
-									"Argo & Vel",
-									["Place"] = "Third",
-								},
 								[1.2] = {
-									"Cobra & Crane Prime",
-									["Place"] = "Second",
-								},
-								[1.35] = {
+									"Sigma & Octantis",
 									"Ack & Brunt",
+									"Cobra & Crane Prime",
+									"Silva & Aegis Prime",
+									"Tenet Agendus",
+									"Tak & Lug",
+									"Silva & Aegis",
 									"Cobra & Crane",
+									"Argo & Vel",
 									["Place"] = "First",
 								},
 							},
@@ -60679,13 +61325,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.29,
 								1.2,
-								1.14,
-								1.12875,
-								1.1175,
-								1.08,
-								0.99,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.0311,
@@ -60825,16 +61471,11 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.1] = {
+								[1.2] = {
 									"Sigma & Octantis",
-									["Place"] = "Third",
-								},
-								[1.15] = {
-									"Argo & Vel",
-									["Place"] = "Second",
-								},
-								[1.35] = {
 									"Ack & Brunt",
+									"Tenet Agendus",
+									"Argo & Vel",
 									["Place"] = "First",
 								},
 							},
@@ -60967,13 +61608,13 @@ return {
 								2.06,
 							},
 							["Disposition"] = {
-								1.31,
-								1.25,
-								1.19,
-								1.16,
-								1.145,
-								1.13,
-								1.115,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.0306,
@@ -61104,16 +61745,10 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.1] = {
+								[1.2] = {
 									"Sigma & Octantis",
-									["Place"] = "Third",
-								},
-								[1.15] = {
-									"Argo & Vel",
-									["Place"] = "Second",
-								},
-								[1.35] = {
 									"Ack & Brunt",
+									"Argo & Vel",
 									["Place"] = "First",
 								},
 							},
@@ -61240,13 +61875,13 @@ return {
 								1.525,
 							},
 							["Disposition"] = {
-								1.304,
-								1.25,
-								1.13,
-								1.05125,
-								0.9725,
-								0.86,
-								0.7075,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.17,
@@ -61352,8 +61987,8 @@ return {
 									"Tonkkatt",
 									"Telos Boltace",
 									"Prisma Ohma",
-									"Praedos",
 									"Ohma",
+									"Praedos",
 									"Boltace",
 									"Kronen",
 									["Place"] = "First",
@@ -61377,8 +62012,8 @@ return {
 								[2] = {
 									"Kronen Prime",
 									"Telos Boltace",
-									"Praedos",
 									"Ohma",
+									"Praedos",
 									["Place"] = "Third",
 								},
 								[2.1] = {
@@ -61391,16 +62026,14 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.1] = {
+								[1.2] = {
+									"Kronen Prime",
+									"Tonkkatt",
 									"Telos Boltace",
-									["Place"] = "Third",
-								},
-								[1.25] = {
+									"Prisma Ohma",
 									"Ohma",
+									"Praedos",
 									"Boltace",
-									["Place"] = "Second",
-								},
-								[1.43] = {
 									"Kronen",
 									["Place"] = "First",
 								},
@@ -61427,8 +62060,8 @@ return {
 									"Tonkkatt",
 									"Telos Boltace",
 									"Prisma Ohma",
-									"Praedos",
 									"Ohma",
+									"Praedos",
 									"Boltace",
 									"Kronen",
 									["Place"] = "First",
@@ -61440,8 +62073,8 @@ return {
 									"Tonkkatt",
 									"Telos Boltace",
 									"Prisma Ohma",
-									"Praedos",
 									"Ohma",
+									"Praedos",
 									"Boltace",
 									"Kronen",
 									["Place"] = "First",
@@ -61453,8 +62086,8 @@ return {
 									"Tonkkatt",
 									"Telos Boltace",
 									"Prisma Ohma",
-									"Praedos",
 									"Ohma",
+									"Praedos",
 									"Boltace",
 									"Kronen",
 									["Place"] = "First",
@@ -61547,13 +62180,13 @@ return {
 								1.525,
 							},
 							["Disposition"] = {
-								1.304,
-								1.25,
-								1.13,
-								1.05125,
-								0.9725,
-								0.86,
-								0.7075,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.17,
@@ -61664,8 +62297,8 @@ return {
 									"Tonkkatt",
 									"Telos Boltace",
 									"Prisma Ohma",
-									"Praedos",
 									"Ohma",
+									"Praedos",
 									"Boltace",
 									"Kronen",
 									["Place"] = "First",
@@ -61689,8 +62322,8 @@ return {
 								[2] = {
 									"Kronen Prime",
 									"Telos Boltace",
-									"Praedos",
 									"Ohma",
+									"Praedos",
 									["Place"] = "Third",
 								},
 								[2.1] = {
@@ -61703,16 +62336,14 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.1] = {
+								[1.2] = {
+									"Kronen Prime",
+									"Tonkkatt",
 									"Telos Boltace",
-									["Place"] = "Third",
-								},
-								[1.25] = {
+									"Prisma Ohma",
 									"Ohma",
+									"Praedos",
 									"Boltace",
-									["Place"] = "Second",
-								},
-								[1.43] = {
 									"Kronen",
 									["Place"] = "First",
 								},
@@ -61740,8 +62371,8 @@ return {
 									"Tonkkatt",
 									"Telos Boltace",
 									"Prisma Ohma",
-									"Praedos",
 									"Ohma",
+									"Praedos",
 									"Boltace",
 									"Kronen",
 									["Place"] = "First",
@@ -61753,8 +62384,8 @@ return {
 									"Tonkkatt",
 									"Telos Boltace",
 									"Prisma Ohma",
-									"Praedos",
 									"Ohma",
+									"Praedos",
 									"Boltace",
 									"Kronen",
 									["Place"] = "First",
@@ -61766,8 +62397,8 @@ return {
 									"Tonkkatt",
 									"Telos Boltace",
 									"Prisma Ohma",
-									"Praedos",
 									"Ohma",
+									"Praedos",
 									"Boltace",
 									"Kronen",
 									["Place"] = "First",
@@ -61865,13 +62496,13 @@ return {
 								1.525,
 							},
 							["Disposition"] = {
-								1.304,
-								1.25,
-								1.13,
-								1.05125,
-								0.9725,
-								0.86,
-								0.7075,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.17,
@@ -61979,8 +62610,8 @@ return {
 									"Tonkkatt",
 									"Telos Boltace",
 									"Prisma Ohma",
-									"Praedos",
 									"Ohma",
+									"Praedos",
 									"Boltace",
 									"Kronen",
 									["Place"] = "First",
@@ -62004,8 +62635,8 @@ return {
 								[2] = {
 									"Kronen Prime",
 									"Telos Boltace",
-									"Praedos",
 									"Ohma",
+									"Praedos",
 									["Place"] = "Third",
 								},
 								[2.1] = {
@@ -62018,16 +62649,14 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.1] = {
+								[1.2] = {
+									"Kronen Prime",
+									"Tonkkatt",
 									"Telos Boltace",
-									["Place"] = "Third",
-								},
-								[1.25] = {
+									"Prisma Ohma",
 									"Ohma",
+									"Praedos",
 									"Boltace",
-									["Place"] = "Second",
-								},
-								[1.43] = {
 									"Kronen",
 									["Place"] = "First",
 								},
@@ -62055,8 +62684,8 @@ return {
 									"Tonkkatt",
 									"Telos Boltace",
 									"Prisma Ohma",
-									"Praedos",
 									"Ohma",
+									"Praedos",
 									"Boltace",
 									"Kronen",
 									["Place"] = "First",
@@ -62068,8 +62697,8 @@ return {
 									"Tonkkatt",
 									"Telos Boltace",
 									"Prisma Ohma",
-									"Praedos",
 									"Ohma",
+									"Praedos",
 									"Boltace",
 									"Kronen",
 									["Place"] = "First",
@@ -62081,8 +62710,8 @@ return {
 									"Tonkkatt",
 									"Telos Boltace",
 									"Prisma Ohma",
-									"Praedos",
 									"Ohma",
+									"Praedos",
 									"Boltace",
 									"Kronen",
 									["Place"] = "First",
@@ -62177,13 +62806,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.1,
-								1.1,
-								1.1,
-								1.1,
-								1.1,
-								1.1,
-								1.1,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.08,
@@ -62278,7 +62907,7 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.1] = {
+								[1.2] = {
 									"Telos Boltace",
 									["Place"] = "First",
 								},
@@ -62382,13 +63011,13 @@ return {
 								2.12,
 							},
 							["Disposition"] = {
-								1.08,
-								1.05,
-								0.99,
-								0.96,
-								0.95,
-								0.95,
-								0.93,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.17,
@@ -62529,17 +63158,12 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.95] = {
+								[1.2] = {
 									"Tenet Livia",
-									"Pennant",
-									["Place"] = "Third",
-								},
-								[1.05] = {
-									"Tatsu",
-									["Place"] = "Second",
-								},
-								[1.1] = {
 									"Azothane",
+									"Tatsu Prime",
+									"Tatsu",
+									"Pennant",
 									["Place"] = "First",
 								},
 							},
@@ -62682,13 +63306,13 @@ return {
 								1.9,
 							},
 							["Disposition"] = {
-								1.08,
-								1.05,
-								0.99,
-								0.96,
-								0.95,
-								0.95,
-								0.93,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.17,
@@ -62826,17 +63450,12 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.95] = {
+								[1.2] = {
 									"Tenet Livia",
-									"Pennant",
-									["Place"] = "Third",
-								},
-								[1.05] = {
-									"Tatsu",
-									["Place"] = "Second",
-								},
-								[1.1] = {
 									"Azothane",
+									"Tatsu Prime",
+									"Tatsu",
+									"Pennant",
 									["Place"] = "First",
 								},
 							},
@@ -62977,13 +63596,13 @@ return {
 								2.12,
 							},
 							["Disposition"] = {
-								1.08,
-								1.05,
-								0.99,
-								0.96,
-								0.95,
-								0.95,
-								0.93,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.17,
@@ -63119,17 +63738,12 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.95] = {
+								[1.2] = {
 									"Tenet Livia",
-									"Pennant",
-									["Place"] = "Third",
-								},
-								[1.05] = {
-									"Tatsu",
-									["Place"] = "Second",
-								},
-								[1.1] = {
 									"Azothane",
+									"Tatsu Prime",
+									"Tatsu",
+									"Pennant",
 									["Place"] = "First",
 								},
 							},
@@ -63267,13 +63881,13 @@ return {
 								2.06,
 							},
 							["Disposition"] = {
-								1.035,
-								1.0125,
-								0.99,
-								0.97875,
-								0.9675,
-								0.945,
-								0.9225,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.153,
@@ -63386,11 +64000,8 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.9] = {
+								[1.2] = {
 									"Tatsu Prime",
-									["Place"] = "Second",
-								},
-								[1.05] = {
 									"Tatsu",
 									["Place"] = "First",
 								},
@@ -63506,13 +64117,13 @@ return {
 								1.975,
 							},
 							["Disposition"] = {
-								1.3,
-								1.225,
-								1.15,
-								1.15,
-								1.15,
-								1.075,
-								0.975,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.17,
@@ -63617,8 +64228,8 @@ return {
 									"Gunsen",
 									"Vericres",
 									"Quassus",
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									"Gunsen Prime",
 									["Place"] = "First",
 								},
@@ -63655,17 +64266,13 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.15] = {
+								[1.2] = {
+									"Gunsen",
 									"Vericres",
 									"Quassus",
-									["Place"] = "Third",
-								},
-								[1.25] = {
 									"Arum Spinosa",
-									["Place"] = "Second",
-								},
-								[1.35] = {
-									"Gunsen",
+									"Quassus Prime",
+									"Gunsen Prime",
 									["Place"] = "First",
 								},
 							},
@@ -63689,8 +64296,8 @@ return {
 									"Gunsen",
 									"Vericres",
 									"Quassus",
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									"Gunsen Prime",
 									["Place"] = "First",
 								},
@@ -63699,8 +64306,8 @@ return {
 								[1.7] = {
 									"Gunsen",
 									"Quassus",
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									["Place"] = "Third",
 								},
 								[1.8] = {
@@ -63717,8 +64324,8 @@ return {
 									"Gunsen",
 									"Vericres",
 									"Quassus",
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									"Gunsen Prime",
 									["Place"] = "First",
 								},
@@ -63810,13 +64417,13 @@ return {
 								1.925,
 							},
 							["Disposition"] = {
-								1.3,
-								1.225,
-								1.15,
-								1.15,
-								1.15,
-								1.075,
-								0.975,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								2,
@@ -63921,8 +64528,8 @@ return {
 									"Gunsen",
 									"Vericres",
 									"Quassus",
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									"Gunsen Prime",
 									["Place"] = "First",
 								},
@@ -63959,17 +64566,13 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.15] = {
+								[1.2] = {
+									"Gunsen",
 									"Vericres",
 									"Quassus",
-									["Place"] = "Third",
-								},
-								[1.25] = {
 									"Arum Spinosa",
-									["Place"] = "Second",
-								},
-								[1.35] = {
-									"Gunsen",
+									"Quassus Prime",
+									"Gunsen Prime",
 									["Place"] = "First",
 								},
 							},
@@ -63980,8 +64583,8 @@ return {
 								},
 								{
 									"Quassus",
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									["Place"] = "First",
 								},
 								[1.17] = {
@@ -63995,8 +64598,8 @@ return {
 									"Gunsen",
 									"Vericres",
 									"Quassus",
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									"Gunsen Prime",
 									["Place"] = "First",
 								},
@@ -64005,8 +64608,8 @@ return {
 								[1.7] = {
 									"Gunsen",
 									"Quassus",
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									["Place"] = "Third",
 								},
 								[1.8] = {
@@ -64030,8 +64633,8 @@ return {
 									["Place"] = "Second",
 								},
 								[18] = {
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									["Place"] = "First",
 								},
 							},
@@ -64125,13 +64728,13 @@ return {
 								1.925,
 							},
 							["Disposition"] = {
-								1.3,
-								1.225,
-								1.15,
-								1.15,
-								1.15,
-								1.075,
-								0.975,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								2,
@@ -64236,8 +64839,8 @@ return {
 									"Gunsen",
 									"Vericres",
 									"Quassus",
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									"Gunsen Prime",
 									["Place"] = "First",
 								},
@@ -64274,17 +64877,13 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.15] = {
+								[1.2] = {
+									"Gunsen",
 									"Vericres",
 									"Quassus",
-									["Place"] = "Third",
-								},
-								[1.25] = {
 									"Arum Spinosa",
-									["Place"] = "Second",
-								},
-								[1.35] = {
-									"Gunsen",
+									"Quassus Prime",
+									"Gunsen Prime",
 									["Place"] = "First",
 								},
 							},
@@ -64295,8 +64894,8 @@ return {
 								},
 								{
 									"Quassus",
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									["Place"] = "First",
 								},
 								[1.17] = {
@@ -64310,8 +64909,8 @@ return {
 									"Gunsen",
 									"Vericres",
 									"Quassus",
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									"Gunsen Prime",
 									["Place"] = "First",
 								},
@@ -64320,8 +64919,8 @@ return {
 								[1.7] = {
 									"Gunsen",
 									"Quassus",
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									["Place"] = "Third",
 								},
 								[1.8] = {
@@ -64345,8 +64944,8 @@ return {
 									["Place"] = "Second",
 								},
 								[9] = {
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									["Place"] = "First",
 								},
 							},
@@ -64438,13 +65037,13 @@ return {
 								1.93,
 							},
 							["Disposition"] = {
-								1.23,
 								1.2,
-								1.17,
-								1.155,
-								1.125,
-								1.05,
-								0.975,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.0306,
@@ -64533,16 +65132,16 @@ return {
 							["AvgProcCount"] = {
 								[1.1] = {
 									"Quassus",
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									["Place"] = "First",
 								},
 							},
 							["BlockAngle"] = {
 								[55] = {
 									"Quassus",
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									["Place"] = "First",
 								},
 							},
@@ -64575,16 +65174,10 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.9] = {
-									"Quassus Prime",
-									["Place"] = "Third",
-								},
-								[1.15] = {
+								[1.2] = {
 									"Quassus",
-									["Place"] = "Second",
-								},
-								[1.25] = {
 									"Arum Spinosa",
+									"Quassus Prime",
 									["Place"] = "First",
 								},
 							},
@@ -64602,32 +65195,32 @@ return {
 							["FollowThrough"] = {
 								[0.7] = {
 									"Quassus",
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									["Place"] = "First",
 								},
 							},
 							["MeleeRange"] = {
 								[1.7] = {
 									"Quassus",
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									["Place"] = "First",
 								},
 							},
 							["Multishot"] = {
 								{
 									"Quassus",
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									["Place"] = "First",
 								},
 							},
 							["StatusChance"] = {
 								[0.1] = {
 									"Quassus",
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									["Place"] = "First",
 								},
 							},
@@ -64704,13 +65297,13 @@ return {
 								1.93,
 							},
 							["Disposition"] = {
-								1.23,
 								1.2,
-								1.17,
-								1.155,
-								1.125,
-								1.05,
-								0.975,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.0306,
@@ -64810,8 +65403,8 @@ return {
 							["BlockAngle"] = {
 								[55] = {
 									"Quassus",
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									["Place"] = "First",
 								},
 							},
@@ -64844,16 +65437,10 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.9] = {
-									"Quassus Prime",
-									["Place"] = "Third",
-								},
-								[1.15] = {
+								[1.2] = {
 									"Quassus",
-									["Place"] = "Second",
-								},
-								[1.25] = {
 									"Arum Spinosa",
+									"Quassus Prime",
 									["Place"] = "First",
 								},
 							},
@@ -64871,24 +65458,24 @@ return {
 							["FollowThrough"] = {
 								[0.7] = {
 									"Quassus",
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									["Place"] = "First",
 								},
 							},
 							["MeleeRange"] = {
 								[1.7] = {
 									"Quassus",
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									["Place"] = "First",
 								},
 							},
 							["Multishot"] = {
 								{
 									"Quassus",
-									"Quassus Prime",
 									"Arum Spinosa",
+									"Quassus Prime",
 									["Place"] = "First",
 								},
 							},
@@ -64980,13 +65567,13 @@ return {
 								1.5,
 							},
 							["Disposition"] = {
-								1.32,
-								1.275,
-								1.23,
-								1.2075,
-								1.185,
-								1.14,
-								1.065,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.294,
@@ -65090,8 +65677,8 @@ return {
 							["BlockAngle"] = {
 								[45] = {
 									"Atterax",
-									"Verdilac",
 									"Secura Lecta",
+									"Verdilac",
 									"Scoliac",
 									"Lecta",
 									"Galvacord",
@@ -65131,15 +65718,13 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.25] = {
-									"Lecta",
-									["Place"] = "Third",
-								},
-								[1.3] = {
+								[1.2] = {
+									"Atterax",
+									"Secura Lecta",
+									"Spinnerex",
+									"Verdilac",
 									"Scoliac",
-									["Place"] = "Second",
-								},
-								[1.35] = {
+									"Lecta",
 									"Galvacord",
 									["Place"] = "First",
 								},
@@ -65163,9 +65748,9 @@ return {
 							["FollowThrough"] = {
 								[0.5] = {
 									"Atterax",
+									"Secura Lecta",
 									"Spinnerex",
 									"Verdilac",
-									"Secura Lecta",
 									"Scoliac",
 									"Lecta",
 									"Galvacord",
@@ -65193,9 +65778,9 @@ return {
 							["Multishot"] = {
 								{
 									"Atterax",
+									"Secura Lecta",
 									"Spinnerex",
 									"Verdilac",
-									"Secura Lecta",
 									"Scoliac",
 									"Lecta",
 									"Galvacord",
@@ -65290,13 +65875,13 @@ return {
 								1.5,
 							},
 							["Disposition"] = {
-								1.32,
-								1.275,
-								1.23,
-								1.2075,
-								1.185,
-								1.14,
-								1.065,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.294,
@@ -65403,8 +65988,8 @@ return {
 							["BlockAngle"] = {
 								[45] = {
 									"Atterax",
-									"Verdilac",
 									"Secura Lecta",
+									"Verdilac",
 									"Scoliac",
 									"Lecta",
 									"Galvacord",
@@ -65444,15 +66029,13 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.25] = {
-									"Lecta",
-									["Place"] = "Third",
-								},
-								[1.3] = {
+								[1.2] = {
+									"Atterax",
+									"Secura Lecta",
+									"Spinnerex",
+									"Verdilac",
 									"Scoliac",
-									["Place"] = "Second",
-								},
-								[1.35] = {
+									"Lecta",
 									"Galvacord",
 									["Place"] = "First",
 								},
@@ -65476,9 +66059,9 @@ return {
 							["FollowThrough"] = {
 								[0.5] = {
 									"Atterax",
+									"Secura Lecta",
 									"Spinnerex",
 									"Verdilac",
-									"Secura Lecta",
 									"Scoliac",
 									"Lecta",
 									"Galvacord",
@@ -65506,9 +66089,9 @@ return {
 							["Multishot"] = {
 								{
 									"Atterax",
+									"Secura Lecta",
 									"Spinnerex",
 									"Verdilac",
-									"Secura Lecta",
 									"Scoliac",
 									"Lecta",
 									"Galvacord",
@@ -65606,13 +66189,13 @@ return {
 								1.5,
 							},
 							["Disposition"] = {
-								1.32,
-								1.275,
-								1.23,
-								1.2075,
-								1.185,
-								1.14,
-								1.065,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1.294,
@@ -65715,8 +66298,8 @@ return {
 							["BlockAngle"] = {
 								[45] = {
 									"Atterax",
-									"Verdilac",
 									"Secura Lecta",
+									"Verdilac",
 									"Scoliac",
 									"Lecta",
 									"Galvacord",
@@ -65756,15 +66339,13 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.25] = {
-									"Lecta",
-									["Place"] = "Third",
-								},
-								[1.3] = {
+								[1.2] = {
+									"Atterax",
+									"Secura Lecta",
+									"Spinnerex",
+									"Verdilac",
 									"Scoliac",
-									["Place"] = "Second",
-								},
-								[1.35] = {
+									"Lecta",
 									"Galvacord",
 									["Place"] = "First",
 								},
@@ -65788,9 +66369,9 @@ return {
 							["FollowThrough"] = {
 								[0.5] = {
 									"Atterax",
+									"Secura Lecta",
 									"Spinnerex",
 									"Verdilac",
-									"Secura Lecta",
 									"Scoliac",
 									"Lecta",
 									"Galvacord",
@@ -65818,9 +66399,9 @@ return {
 							["Multishot"] = {
 								{
 									"Atterax",
+									"Secura Lecta",
 									"Spinnerex",
 									"Verdilac",
-									"Secura Lecta",
 									"Scoliac",
 									"Lecta",
 									"Galvacord",
@@ -65914,13 +66495,13 @@ return {
 								2.5,
 							},
 							["Disposition"] = {
-								1.1,
-								1.1,
-								1.1,
-								1.1,
-								1.1,
-								1.1,
-								1.1,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -66015,7 +66596,7 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.1] = {
+								[1.2] = {
 									"Verdilac",
 									["Place"] = "First",
 								},
@@ -66115,13 +66696,13 @@ return {
 								2.5,
 							},
 							["Disposition"] = {
-								1.1,
-								1.1,
-								1.1,
-								1.1,
-								1.1,
-								1.1,
-								1.1,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -66216,7 +66797,7 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.1] = {
+								[1.2] = {
 									"Verdilac",
 									["Place"] = "First",
 								},
@@ -66270,9 +66851,9 @@ return {
 					["Accuracy"] = {
 						100,
 						100,
-						33.492,
+						38.72,
 						28.6,
-						25,
+						25.36,
 						16.7,
 						13.3,
 					},
@@ -66280,7 +66861,7 @@ return {
 						800,
 						540,
 						540,
-						240,
+						219,
 						120,
 						72,
 						30,
@@ -66290,9 +66871,9 @@ return {
 						80,
 						80,
 						40,
-						18.6,
+						15.55,
 						15,
-						6.65,
+						7.55,
 					},
 					["AvgCritCount"] = {
 						0.8,
@@ -66300,44 +66881,44 @@ return {
 						0.28,
 						0.25,
 						0.24,
-						0.181,
+						0.18,
 						0.12,
 					},
 					["AvgProcCount"] = {
 						1.25,
-						0.69507725,
-						0.34,
+						0.66522575,
+						0.334,
 						0.3,
-						0.26,
+						0.2655,
 						0.2,
 						0.15,
 					},
 					["AvgShotDmg"] = {
-						761.6504,
-						316.5615,
-						191.3088,
-						124.510125,
-						105.4004,
-						61.6384,
-						33.83565,
+						755.2168,
+						327.98,
+						192.6,
+						126.8826,
+						106.0472,
+						61.8688,
+						33.95055,
 					},
 					["BaseDps"] = {
-						1009.8,
-						532.8,
-						374.76,
-						338.337,
-						312.29,
-						266.656,
-						193.14,
+						1026,
+						537.83333333333,
+						375.24,
+						341.50483333333,
+						312.311,
+						266.72,
+						197.82,
 					},
 					["BurstDps"] = {
-						1280.4225,
-						745.14,
-						512.5674,
-						456.44,
-						412.180035,
-						347.42743,
-						236.09502,
+						1344.2688,
+						769.374,
+						514.9822,
+						466.2279375,
+						414.66,
+						348.79201,
+						236.19834,
 					},
 					["CritChance"] = {
 						0.34,
@@ -66358,67 +66939,67 @@ return {
 						1.9,
 					},
 					["Disposition"] = {
-						1.4,
-						1.3,
-						1.25,
 						1.2,
-						1.15,
-						1,
-						0.75,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
 					},
 					["FalloffEnd"] = {
 						600,
 						600,
-						56.8,
-						42.65,
+						53.6,
+						41,
 						36,
-						27.6,
-						24.5,
+						26.2,
+						24.05,
 					},
 					["FalloffRate"] = {
 						400,
 						400,
-						42.4,
-						33.733333333333,
-						29.379368133573,
-						20.905930353989,
-						17.804272829837,
+						40.8,
+						33.0625,
+						28.241543045124,
+						21.043786884096,
+						18.164707737769,
 					},
 					["FireRate"] = {
 						12,
-						9.33,
+						9.04,
 						5,
-						4.17,
+						4.153,
 						3.33,
-						2.152,
-						1.128,
+						2.116,
+						1.07,
 					},
 					["LifetimeDmg"] = {
-						113074.14,
+						112481.38,
 						67200,
-						43809.792,
-						34086.009375,
-						29481.6,
-						19708.8,
-						7191.194,
+						43035.096,
+						33831.796875,
+						29120.16,
+						19881.6,
+						7380.398,
 					},
 					["MagDmg"] = {
-						11959.4496,
-						6525.5,
-						3931.8,
-						3149.2244,
-						2638.272,
-						1869.21,
-						611.77125,
+						11956.2752,
+						6553.5,
+						3957.6,
+						3156.0508,
+						2635.584,
+						1863.282,
+						584.13,
 					},
 					["Magazine"] = {
 						100,
 						60,
-						42,
-						27.425,
+						40.8,
+						26.475,
 						20,
 						9,
-						4,
+						3.85,
 					},
 					["Multishot"] = {
 						6,
@@ -66430,48 +67011,48 @@ return {
 						1,
 					},
 					["ReloadSpeed"] = {
-						1.1372549019608,
+						1.2268907563025,
 						0.55555555555556,
 						0.5,
 						0.5,
-						0.48095238095238,
+						0.47857142857143,
 						0.4,
 						0.33333333333333,
 					},
 					["ShotsPerMag"] = {
-						154.4,
-						63.75,
+						152.8,
+						61.25,
 						40,
-						27.425,
+						26.475,
 						20,
 						9,
-						4,
+						3.85,
 					},
 					["StatusChance"] = {
 						0.37,
 						0.3,
 						0.25,
-						0.222,
+						0.2258,
 						0.2,
 						0.16,
 						0.1,
 					},
 					["SustainedDps"] = {
-						866.84302149178,
-						535.8366519174,
-						367.05454545455,
-						333.59352623625,
-						302.70175609756,
-						235.43183673469,
-						149.50588235294,
+						882.27321081681,
+						540.75,
+						370.56,
+						335.70724242496,
+						305.60634146341,
+						237.4106122449,
+						150.19893048128,
 					},
 					["TotalDamage"] = {
-						472.5,
-						219.25,
+						484.5,
+						225,
 						100,
-						80,
-						60.65,
-						35.1,
+						80.95,
+						61.55,
+						35.7,
 						27,
 					},
 				},
@@ -66567,37 +67148,37 @@ return {
 							"Baza",
 							"Hind",
 							"Dex Sybaris",
+							"Zenith",
 							"Quanta",
 							"Tiberon Prime",
 							"Paracyst",
 							"Prisma Grakata",
 							"Nagantaka",
-							"Zenith",
 							"Soma",
+							"Veldt",
 							"Panthera Prime",
 							"Coda Synapse",
 							"Tenet Flux Rifle",
-							"Veldt",
 							"Gotva Prime",
+							"Vadarya Prime",
 							"Nagantaka Prime",
 							"Phage",
-							"Vadarya Prime",
 							"Panthera",
 							"Tiberon",
 							"Higasa",
-							"Sybaris",
+							"Supra Vandal",
 							"Tetra",
-							"Synapse",
 							"Tenora Prime",
-							"Braton",
+							"Synapse",
 							"Tenet Quanta",
-							"Braton Prime",
+							"Braton",
 							"Tenet Glaxion",
+							"Braton Prime",
 							"Thornbak",
 							"Telos Boltor",
 							"Sybaris Prime",
+							"Sybaris",
 							"Kuva Karak",
-							"Supra Vandal",
 							"Soma Prime",
 							"Grakata",
 							"Mk1-Braton",
@@ -66745,20 +67326,203 @@ return {
 						},
 					},
 					["Disposition"] = {
-						[1.46] = {
-							"Phage",
-							"Convectrix",
-							["Place"] = "Third",
-						},
-						[1.5] = {
-							"Miter",
-							"Tetra",
-							"Mutalist Quanta",
-							["Place"] = "Second",
-						},
-						[1.55] = {
+						[1.2] = {
+							"Tenet Tetra",
+							"Ambassador",
+							"Phantasma",
+							"Trumna Prime",
+							"Stradavar",
+							"Prisma Lenz",
+							"Ignis",
+							"Zhuge",
+							"Kuva Bramma",
+							"Zarr",
+							"Battacor",
+							"Boltor",
+							"Phenmor",
+							"Amprex",
+							"Shedu",
+							"Fulmin Prime",
+							"Afentis",
+							"Karak",
+							"Simulor",
+							"Basmu",
+							"Latron",
+							"Hek",
+							"Afentis Prime",
+							"EFV-5 Jupiter",
+							"Cinta",
+							"Quartakk",
 							"Flux Rifle",
+							"Paris Prime",
+							"Stradavar Prime",
+							"Tenora",
+							"Kuva Ogris",
+							"Corinth Prime",
+							"Nunchasa",
+							"Boltor Prime",
+							"Grinlok",
+							"Hema",
+							"Cedo",
+							"Braton Vandal",
+							"Burston",
+							"Buzlok",
+							"Miter",
+							"Ferrox",
+							"Haalvu",
+							"Dera Vandal",
+							"Quellor",
+							"Burston Prime",
+							"Acceltra Prime",
+							"Coda Sporothrix",
+							"Karak Wraith",
+							"Rubico Prime",
+							"Kuva Zarr",
+							"Coda Bassocyst",
+							"Kohm",
+							"Kuva Tonkor",
+							"Argonak",
+							"Rakta Cernos",
+							"Alternox",
+							"Astilla Prime",
+							"Gorgon",
+							"Baza",
+							"Cernos Prime",
+							"Arca Plasmor",
+							"Hind",
+							"Corinth",
+							"Boar Prime",
+							"Carmine Penta",
+							"Dex Sybaris",
+							"Zhuge Prime",
+							"Cedo Prime",
+							"Purgator 1",
+							"Zenith",
+							"Quanta",
+							"Tiberon Prime",
+							"Paracyst",
+							"Prisma Grakata",
+							"Vinquibus (Primary)",
+							"Nagantaka",
+							"Ogris",
+							"Strun",
+							"Vulkar",
+							"Soma",
+							"Synoid Simulor",
+							"Veldt",
+							"Panthera Prime",
+							"Coda Synapse",
+							"Tenet Flux Rifle",
+							"Alternox Prime",
+							"Vectis Prime",
+							"Gotva Prime",
+							"Tenet Envoy",
+							"Vaykor Hek",
+							"Vadarya Prime",
+							"Nagantaka Prime",
+							"Phage",
+							"Trumna",
+							"Panthera",
+							"Tiberon",
+							"Torid",
+							"Higasa",
+							"Supra Vandal",
+							"Coda Hema",
+							"Tigris",
+							"Cernos",
+							"Tetra",
+							"Tenora Prime",
+							"Synapse",
+							"Exergis",
+							"Kuva Sobek",
+							"Tenet Quanta",
+							"Braton",
+							"Tenet Glaxion",
+							"Braton Prime",
+							"Kuva Kohm",
+							"Thornbak",
+							"Drakgoon",
+							"Telos Boltor",
+							"Aeolak",
+							"Sybaris Prime",
+							"Enkaus",
+							"Sybaris",
+							"Ignis Wraith",
+							"Kuva Karak",
+							"Tonkor",
+							"Komorex",
+							"Strun Wraith",
+							"Strun Prime",
+							"Vulkar Wraith",
+							"Steflos Prime",
+							"Steflos",
+							"Stahlta",
+							"Sporothrix",
+							"Soma Prime",
+							"Sobek",
+							"Snipetron Vandal",
+							"Rauta",
+							"Lanka",
+							"Snipetron",
+							"Mutalist Cernos",
+							"Evensong",
+							"Felarx",
+							"Secura Penta",
+							"Scourge Prime",
+							"Perigale Prime",
+							"Grakata",
+							"Astilla",
+							"Scourge",
+							"Sancti Tigris",
+							"Mk1-Braton",
+							"Rubico",
+							"Reconifex",
+							"Quanta Vandal",
+							"Proboscis Cernos",
+							"Kuva Drakgoon",
+							"Prisma Gorgon",
+							"Mk1-Paris",
+							"Daikyu Prime",
+							"Phantasma Prime",
+							"Fulmin",
+							"Opticor",
+							"Perigale",
+							"Kuva Hind",
+							"Javlok",
+							"Baza Prime",
+							"Penta",
+							"Paris",
+							"Glaxion",
+							"Opticor Vandal",
+							"Nataruk",
+							"Mutalist Quanta",
+							"Supra",
+							"Latron Wraith",
+							"Prisma Grinlok",
+							"Lenz",
+							"Kuva Hek",
+							"Kuva Quartakk",
+							"Bubonico",
+							"Tenet Ferrox",
+							"Latron Prime",
+							"Prisma Tetra",
+							"Vectis",
+							"Mk1-Strun",
+							"Gorgon Wraith",
+							"Dera",
+							"Kuva Chakkhurr",
+							"Glaxion Vandal",
+							"Coda Bubonico",
+							"Dread",
 							"Harpak",
+							"Boar",
+							"Daikyu",
+							"Convectrix",
+							"Acceltra",
+							"AX-52",
+							"Tigris Prime",
+							"Tenet Arca Plasmor",
+							"Attica",
 							["Place"] = "First",
 						},
 					},
@@ -66892,8 +67656,8 @@ return {
 							["Place"] = "Second",
 						},
 						[12] = {
-							"Strun Prime",
 							"Strun",
+							"Strun Prime",
 							["Place"] = "First",
 						},
 					},
@@ -66902,6 +67666,7 @@ return {
 							"Prisma Lenz",
 							"Kuva Bramma",
 							"Cinta",
+							"Nunchasa",
 							"Rakta Cernos",
 							"Cernos",
 							"Mutalist Cernos",
@@ -66990,100 +67755,100 @@ return {
 						100,
 						100,
 						100,
-						39.49975,
+						40,
 						28.6,
-						18.38,
-						15.62,
+						18.92,
+						15.98,
 					},
 					["AmmoMax"] = {
-						568,
+						564,
 						540,
 						400,
 						200,
 						120,
 						72,
-						18.8,
+						19.4,
 					},
 					["AmmoPickup"] = {
 						80,
 						80,
 						60,
 						40,
-						15.5,
+						15,
 						15,
 						4,
 					},
 					["AvgCritCount"] = {
-						0.672,
+						0.666,
 						0.36,
 						0.3,
-						0.2745,
+						0.27975,
 						0.25,
-						0.184,
+						0.187,
 						0.09,
 					},
 					["AvgProcCount"] = {
-						1.374,
-						1.075,
-						0.498,
-						0.324555,
+						1.372,
+						1.0625,
+						0.494,
+						0.3297525,
 						0.3,
 						0.25,
 						0.18,
 					},
 					["AvgShotDmg"] = {
-						1388.8,
-						536,
-						292.128,
-						178.848,
-						125.75,
-						86.304,
-						40.434,
+						1444.06,
+						560.5,
+						296.72,
+						179.184,
+						129.125,
+						87.672,
+						41.127,
 					},
 					["BaseDps"] = {
-						1324.84,
-						710.83333333333,
-						448.26666666667,
-						395.80897058824,
-						280.44,
-						199.955,
-						86.53275,
+						1346.3333333333,
+						730,
+						449.06666666667,
+						398.115,
+						288.425,
+						199.97,
+						86.8635,
 					},
 					["BurstDps"] = {
-						1506.02632,
-						873.9584,
-						556.57424,
-						492.78,
+						1505.51316,
+						878.3376,
+						561.83132,
+						503.49,
 						410,
-						277.245,
-						114.9023925,
+						277.27875,
+						116.57433375,
 					},
 					["CritChance"] = {
 						0.4,
-						0.305,
+						0.3125,
 						0.26,
 						0.25,
-						0.211,
+						0.2155,
 						0.16,
-						0.0855,
+						0.08775,
 					},
 					["CritMultiplier"] = {
 						3,
-						2.85,
+						2.925,
 						2.4,
-						2.245,
-						2.11,
+						2.2975,
+						2.155,
 						2,
 						2,
 					},
 					["Disposition"] = {
-						1.4,
-						1.3,
-						1.25,
 						1.2,
-						1.15,
-						1.05,
-						0.735,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
 					},
 					["FalloffEnd"] = {
 						18.4,
@@ -67104,40 +67869,40 @@ return {
 						8,
 					},
 					["FireRate"] = {
-						7.88338,
+						7.86672,
 						4.67,
-						3.202,
+						3.17,
 						2.5,
 						2,
-						1.3497,
+						1.333,
 						1,
 					},
 					["LifetimeDmg"] = {
-						125643.76,
-						56335.116,
-						38640,
-						30069,
-						19327.7,
-						11509.572,
-						3045.28,
+						125415.104,
+						57054,
+						38688,
+						30409.6,
+						19848.28,
+						11722.1088,
+						3076.864,
 					},
 					["MagDmg"] = {
-						13040,
-						6134.4,
-						3840,
-						2635,
-						1915.75,
-						894.875,
-						462.0125,
+						13008,
+						6048,
+						3744,
+						2616,
+						1895.4,
+						895.55,
+						463.91,
 					},
 					["Magazine"] = {
-						91.2,
+						90.6,
 						60,
 						40,
-						24,
-						16,
+						23.925,
+						15.55,
 						8,
-						1.7,
+						1,
 					},
 					["Multishot"] = {
 						3,
@@ -67149,8 +67914,8 @@ return {
 						1,
 					},
 					["ReloadSpeed"] = {
-						1.5769230769231,
-						0.55555555555556,
+						1.6666666666667,
+						0.56349206349206,
 						0.5,
 						0.5,
 						0.5,
@@ -67158,40 +67923,40 @@ return {
 						0.33333333333333,
 					},
 					["ShotsPerMag"] = {
-						70,
+						69,
 						45,
 						16,
 						11,
-						9.75,
-						5.5,
+						9.2,
+						5,
 						1,
 					},
 					["StatusChance"] = {
-						0.474,
-						0.33,
+						0.472,
+						0.3325,
 						0.3,
 						0.27,
-						0.241,
+						0.2455,
 						0.2,
 						0.1,
 					},
 					["SustainedDps"] = {
-						900.414372477,
-						608.31442307692,
-						420,
-						345.67189951837,
-						255.12425447316,
-						165.180521054,
-						74.666341027975,
+						900.3314979816,
+						612.95,
+						425.18181818182,
+						351.25929800619,
+						258.87957026713,
+						166.59105344222,
+						75.310761029375,
 					},
 					["TotalDamage"] = {
-						676.6,
-						365,
-						148.8,
+						688.3,
+						372.5,
+						150,
 						100,
 						100,
-						55.8,
-						27,
+						56.4,
+						28.5,
 					},
 				},
 				["Top3"] = {
@@ -67206,6 +67971,7 @@ return {
 							"Afentis Prime",
 							"Cinta",
 							"Kuva Ogris",
+							"Nunchasa",
 							"Miter",
 							"Haalvu",
 							"Dera Vandal",
@@ -67216,17 +67982,17 @@ return {
 							"Boar Prime",
 							"Carmine Penta",
 							"Ogris",
-							"Strun Prime",
+							"Strun",
 							"Tenet Envoy",
 							"Panthera",
-							"Higasa",
 							"Torid",
+							"Higasa",
 							"Tenet Quanta",
 							"Aeolak",
 							"Artemis Bow Prime",
 							"Tonkor",
 							"Strun Wraith",
-							"Strun",
+							"Strun Prime",
 							"Sporothrix",
 							"Lanka",
 							"Secura Penta",
@@ -67329,23 +68095,23 @@ return {
 							"Gorgon",
 							"Hind",
 							"Dex Sybaris",
+							"Zenith",
 							"Quanta",
 							"Tiberon Prime",
 							"Paracyst",
 							"Nagantaka",
-							"Zenith",
 							"Soma",
 							"Panthera Prime",
 							"Nagantaka Prime",
 							"Panthera",
 							"Higasa",
-							"Sybaris",
 							"Tenora Prime",
-							"Braton",
 							"Tenet Quanta",
+							"Braton",
 							"Braton Prime",
 							"Telos Boltor",
 							"Sybaris Prime",
+							"Sybaris",
 							"Soma Prime",
 							"Mk1-Braton",
 							"Quanta Vandal",
@@ -67461,8 +68227,8 @@ return {
 						},
 						[3.4] = {
 							"Tiberon Prime",
-							"Strun Prime",
 							"Strun Wraith",
+							"Strun Prime",
 							"Soma Prime",
 							"Latron Wraith",
 							"Latron Prime",
@@ -67475,17 +68241,143 @@ return {
 						},
 					},
 					["Disposition"] = {
-						[1.46] = {
-							"Convectrix",
-							["Place"] = "Third",
-						},
-						[1.5] = {
+						[1.2] = {
+							"Tenet Tetra",
+							"Ambassador",
+							"Phantasma",
+							"Trumna Prime",
+							"Stradavar",
+							"Prisma Lenz",
+							"Kuva Bramma",
+							"Zarr",
+							"Battacor",
+							"Boltor",
+							"Phenmor",
+							"Shedu",
+							"Fulmin Prime",
+							"Afentis",
+							"Simulor",
+							"Basmu",
+							"Latron",
+							"Afentis Prime",
+							"EFV-5 Jupiter",
+							"Cinta",
+							"Paris Prime",
+							"Stradavar Prime",
+							"Tenora",
+							"Kuva Ogris",
+							"Corinth Prime",
+							"Nunchasa",
+							"Boltor Prime",
+							"Cedo",
+							"Braton Vandal",
+							"Burston",
+							"Buzlok",
 							"Miter",
+							"Ferrox",
+							"Haalvu",
+							"Dera Vandal",
+							"Quellor",
+							"Burston Prime",
+							"Acceltra Prime",
+							"Coda Sporothrix",
+							"Kuva Zarr",
+							"Coda Bassocyst",
+							"Kohm",
+							"Kuva Tonkor",
+							"Argonak",
+							"Rakta Cernos",
+							"Alternox",
+							"Astilla Prime",
+							"Gorgon",
+							"Cernos Prime",
+							"Hind",
+							"Corinth",
+							"Boar Prime",
+							"Carmine Penta",
+							"Dex Sybaris",
+							"Zhuge Prime",
+							"Cedo Prime",
+							"Zenith",
+							"Quanta",
+							"Tiberon Prime",
+							"Paracyst",
+							"Nagantaka",
+							"Ogris",
+							"Strun",
+							"Soma",
+							"Synoid Simulor",
+							"Panthera Prime",
+							"Alternox Prime",
+							"Vectis Prime",
+							"Tenet Envoy",
+							"Nagantaka Prime",
+							"Trumna",
+							"Panthera",
+							"Torid",
+							"Higasa",
+							"Cernos",
+							"Tenora Prime",
+							"Tenet Quanta",
+							"Braton",
+							"Braton Prime",
+							"Kuva Kohm",
+							"Drakgoon",
+							"Telos Boltor",
+							"Aeolak",
+							"Sybaris Prime",
+							"Enkaus",
+							"Sybaris",
+							"Tonkor",
+							"Komorex",
+							"Strun Wraith",
+							"Strun Prime",
+							"Stahlta",
+							"Sporothrix",
+							"Soma Prime",
+							"Lanka",
+							"Mutalist Cernos",
+							"Evensong",
+							"Felarx",
+							"Secura Penta",
+							"Scourge Prime",
+							"Astilla",
+							"Scourge",
+							"Mk1-Braton",
+							"Quanta Vandal",
+							"Proboscis Cernos",
+							"Kuva Drakgoon",
+							"Prisma Gorgon",
+							"Mk1-Paris",
+							"Daikyu Prime",
+							"Phantasma Prime",
+							"Fulmin",
+							"Opticor",
+							"Kuva Hind",
+							"Javlok",
+							"Penta",
+							"Paris",
+							"Opticor Vandal",
+							"Nataruk",
 							"Mutalist Quanta",
-							["Place"] = "Second",
-						},
-						[1.55] = {
+							"Latron Wraith",
+							"Lenz",
+							"Kuva Hek",
+							"Kuva Quartakk",
+							"Bubonico",
+							"Tenet Ferrox",
+							"Latron Prime",
+							"Vectis",
+							"Mk1-Strun",
+							"Gorgon Wraith",
+							"Dera",
+							"Kuva Chakkhurr",
+							"Coda Bubonico",
+							"Dread",
 							"Harpak",
+							"Boar",
+							"Convectrix",
+							"Acceltra",
 							["Place"] = "First",
 						},
 					},
@@ -67594,6 +68486,7 @@ return {
 							"Prisma Lenz",
 							"Kuva Bramma",
 							"Cinta",
+							"Nunchasa",
 							"Rakta Cernos",
 							"Cernos",
 							"Mutalist Cernos",
@@ -67768,13 +68661,13 @@ return {
 						1.9,
 					},
 					["Disposition"] = {
-						1.4,
-						1.33,
-						1.25,
 						1.2,
-						1.15,
-						1.05,
-						0.705,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
 					},
 					["FalloffEnd"] = {
 						7.2,
@@ -67964,8 +68857,8 @@ return {
 							"Tiberon Prime",
 							"Paracyst",
 							"Panthera Prime",
-							"Braton",
 							"Tenet Quanta",
+							"Braton",
 							"Braton Prime",
 							"Mk1-Braton",
 							"Quanta Vandal",
@@ -68070,8 +68963,8 @@ return {
 					["CritMultiplier"] = {
 						[3.4] = {
 							"Paris Prime",
-							"Strun Prime",
 							"Strun Wraith",
+							"Strun Prime",
 							"Latron Wraith",
 							"Latron Prime",
 							["Place"] = "Third",
@@ -68087,24 +68980,79 @@ return {
 						},
 					},
 					["Disposition"] = {
-						[1.4] = {
+						[1.2] = {
+							"Tenet Tetra",
+							"Ambassador",
+							"Phantasma",
+							"Trumna Prime",
+							"Prisma Lenz",
+							"Kuva Bramma",
+							"Zarr",
+							"Battacor",
+							"Afentis",
+							"Simulor",
+							"Basmu",
 							"Latron",
-							"Gorgon",
-							"Quanta",
-							"Strun",
-							"Quanta Vandal",
-							"Paris",
-							["Place"] = "Third",
-						},
-						[1.45] = {
+							"Afentis Prime",
+							"Cinta",
+							"Paris Prime",
+							"Corinth Prime",
+							"Cedo",
+							"Braton Vandal",
 							"Burston",
-							"Mk1-Paris",
-							"Mk1-Strun",
-							["Place"] = "Second",
-						},
-						[1.5] = {
 							"Miter",
+							"Ferrox",
+							"Burston Prime",
+							"Kuva Zarr",
+							"Alternox",
+							"Gorgon",
+							"Corinth",
+							"Cedo Prime",
+							"Quanta",
+							"Tiberon Prime",
+							"Paracyst",
+							"Strun",
+							"Synoid Simulor",
+							"Panthera Prime",
+							"Alternox Prime",
+							"Vectis Prime",
+							"Trumna",
+							"Torid",
+							"Tenet Quanta",
+							"Braton",
+							"Braton Prime",
+							"Aeolak",
+							"Enkaus",
+							"Strun Wraith",
+							"Strun Prime",
+							"Stahlta",
+							"Mutalist Cernos",
+							"Evensong",
+							"Scourge Prime",
+							"Scourge",
+							"Mk1-Braton",
+							"Quanta Vandal",
+							"Proboscis Cernos",
+							"Prisma Gorgon",
+							"Mk1-Paris",
+							"Phantasma Prime",
+							"Opticor",
+							"Kuva Hind",
+							"Javlok",
+							"Paris",
+							"Opticor Vandal",
+							"Nataruk",
 							"Mutalist Quanta",
+							"Latron Wraith",
+							"Lenz",
+							"Bubonico",
+							"Tenet Ferrox",
+							"Latron Prime",
+							"Vectis",
+							"Mk1-Strun",
+							"Gorgon Wraith",
+							"Coda Bubonico",
+							"Dread",
 							["Place"] = "First",
 						},
 					},
@@ -68126,9 +69074,9 @@ return {
 					["FalloffRate"] = {
 						[20] = {
 							"Latron",
-							"Strun Prime",
-							"Strun Wraith",
 							"Strun",
+							"Strun Wraith",
+							"Strun Prime",
 							"Latron Wraith",
 							"Latron Prime",
 							"Mk1-Strun",
@@ -68406,13 +69354,13 @@ return {
 						1.5,
 					},
 					["Disposition"] = {
-						1.35,
-						1.1875,
-						1.15,
-						1.10625,
-						1.1,
-						0.8,
-						0.65,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
 					},
 					["FalloffEnd"] = {
 						7,
@@ -68704,17 +69652,30 @@ return {
 						},
 					},
 					["Disposition"] = {
-						[1.3] = {
-							"Javlok",
-							["Place"] = "Third",
-						},
-						[1.4] = {
-							"Quanta",
-							"Quanta Vandal",
-							["Place"] = "Second",
-						},
-						[1.5] = {
+						[1.2] = {
+							"Phantasma",
+							"Trumna Prime",
+							"Kuva Bramma",
+							"Zarr",
 							"Miter",
+							"Ferrox",
+							"Kuva Zarr",
+							"Alternox",
+							"Quanta",
+							"Synoid Simulor",
+							"Alternox Prime",
+							"Vectis Prime",
+							"Trumna",
+							"Tenet Quanta",
+							"Scourge Prime",
+							"Scourge",
+							"Quanta Vandal",
+							"Phantasma Prime",
+							"Opticor",
+							"Javlok",
+							"Opticor Vandal",
+							"Tenet Ferrox",
+							"Vectis",
 							["Place"] = "First",
 						},
 					},
@@ -69005,11 +69966,11 @@ return {
 						1.5,
 					},
 					["Disposition"] = {
-						1.12,
-						0.95,
-						0.76,
-						0.715,
-						0.49,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						0.84,
 						0,
 						0,
 					},
@@ -69276,16 +70237,11 @@ return {
 						},
 					},
 					["Disposition"] = {
-						[0.8] = {
-							"Phantasma Prime",
-							["Place"] = "Third",
-						},
-						[1.1] = {
+						[1.2] = {
 							"Phantasma",
-							["Place"] = "Second",
-						},
-						[1.15] = {
 							"Zarr",
+							"Kuva Zarr",
+							"Phantasma Prime",
 							["Place"] = "First",
 						},
 					},
@@ -69810,8 +70766,8 @@ return {
 								72,
 								72,
 								72,
-								49.6,
-								6.4,
+								51,
+								6.55,
 							},
 							["AmmoPickup"] = {
 								15,
@@ -69819,66 +70775,66 @@ return {
 								15,
 								15,
 								15,
-								8.2,
+								10.5,
 								1,
 							},
 							["AvgCritCount"] = {
 								0.5,
-								0.45,
-								0.356,
-								0.35,
-								0.342,
-								0.29,
+								0.4375,
+								0.352,
+								0.34925,
+								0.333,
+								0.3,
 								0.2,
 							},
 							["AvgProcCount"] = {
-								1.364,
-								1.05,
-								0.466,
-								0.4,
-								0.316,
-								0.2,
-								0.162,
+								1.348,
+								1.0125,
+								0.442,
+								0.3755,
+								0.313,
+								0.201,
+								0.1665,
 							},
 							["AvgShotDmg"] = {
-								558,
-								422.5,
-								350.46,
-								304.8462,
-								268.1154,
-								248.75,
-								172.9,
+								580.94,
+								497.125,
+								380.9584,
+								315.699525,
+								284.12505,
+								252.64,
+								181.675,
 							},
 							["BaseDps"] = {
 								750,
-								541.66666666667,
-								411.4358974359,
-								361.66666666667,
-								321.66666666667,
-								254.94505494505,
-								221.45454545455,
+								604.16666666667,
+								432.69230769231,
+								387.91666666667,
+								332.91666666667,
+								262.59523809524,
+								226.09090909091,
 							},
 							["BurstDps"] = {
-								915.2,
-								704.16666666667,
-								555.43846153846,
-								469.9,
-								425.07847619048,
-								370.28571428571,
-								291.09090909091,
+								946.2,
+								828.54166666667,
+								596.71528205128,
+								521.39375,
+								428.22183333333,
+								374.8630952381,
+								298.31818181818,
 							},
 							["CritChance"] = {
 								0.5,
-								0.4,
+								0.39,
 								0.35,
-								0.35,
-								0.342,
-								0.29,
+								0.34925,
+								0.333,
+								0.3,
 								0.2,
 							},
 							["CritMultiplier"] = {
-								2.28,
-								2,
+								2.4,
+								2.075,
 								2,
 								2,
 								2,
@@ -69886,13 +70842,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.37,
-								1.3,
-								1.28,
-								1.25,
-								1.25,
-								1.04,
-								0.9,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -69901,25 +70857,25 @@ return {
 								1,
 								1,
 								1,
-								0.8002,
+								0.85015,
 							},
 							["LifetimeDmg"] = {
-								36846,
-								27199.8,
-								18977.08,
-								18582.88,
-								17447,
-								9228.0704,
-								1523.6064,
+								35869.5,
+								28954.35,
+								19874.25,
+								18828.16,
+								17980.8125,
+								11340.55,
+								1735.8588,
 							},
 							["MagDmg"] = {
-								558,
-								422.5,
-								350.46,
-								304.8462,
-								268.1154,
-								248.75,
-								172.9,
+								580.94,
+								497.125,
+								380.9584,
+								315.699525,
+								284.12505,
+								252.64,
+								181.675,
 							},
 							["Magazine"] = {
 								1,
@@ -69958,31 +70914,31 @@ return {
 								1,
 							},
 							["StatusChance"] = {
-								0.472,
-								0.38,
+								0.469,
+								0.365,
 								0.3,
-								0.246,
-								0.202,
-								0.176,
+								0.29325,
+								0.2065,
+								0.182,
 								0.15,
 							},
 							["SustainedDps"] = {
-								483.1352,
-								257.23468075989,
-								227.20896503497,
-								209.29602272727,
-								168.85625,
-								148.05698529412,
-								108.29521016618,
+								513.74166666667,
+								262.35554518997,
+								232.24096135717,
+								223.75291193182,
+								185.4078125,
+								148.76470588235,
+								112.73655913978,
 							},
 							["TotalDamage"] = {
 								450,
-								325,
-								259.6,
-								217,
-								193,
-								177.6,
-								133,
+								362.5,
+								276.6,
+								232.75,
+								199.75,
+								180.7,
+								139.75,
 							},
 						},
 						["Top3"] = {
@@ -70005,12 +70961,16 @@ return {
 									"Lenz",
 									"Dread",
 									"Daikyu",
+									["Place"] = "Second",
+								},
+								[100] = {
+									"Nunchasa",
 									["Place"] = "First",
 								},
 							},
 							["AmmoMax"] = {
-								[8] = {
-									"Prisma Lenz",
+								[50] = {
+									"Nunchasa",
 									["Place"] = "Third",
 								},
 								[60] = {
@@ -70046,6 +71006,7 @@ return {
 								},
 								[15] = {
 									"Paris Prime",
+									"Nunchasa",
 									"Rakta Cernos",
 									"Cernos Prime",
 									"Cernos",
@@ -70090,8 +71051,8 @@ return {
 								},
 							},
 							["AvgShotDmg"] = {
-								[540] = {
-									"Cinta",
+								[579.2] = {
+									"Nunchasa",
 									["Place"] = "Third",
 								},
 								[585] = {
@@ -70104,8 +71065,8 @@ return {
 								},
 							},
 							["BaseDps"] = {
-								[625] = {
-									"Daikyu Prime",
+								[666.66666666667] = {
+									"Nunchasa",
 									["Place"] = "Third",
 								},
 								[750] = {
@@ -70119,12 +71080,12 @@ return {
 								},
 							},
 							["BurstDps"] = {
-								[900] = {
-									"Cinta",
-									["Place"] = "Third",
-								},
 								[938] = {
 									"Daikyu",
+									["Place"] = "Third",
+								},
+								[965.33333333333] = {
+									"Nunchasa",
 									["Place"] = "Second",
 								},
 								[975] = {
@@ -70154,6 +71115,7 @@ return {
 									["Place"] = "Third",
 								},
 								[2.4] = {
+									"Nunchasa",
 									"Daikyu Prime",
 									["Place"] = "Second",
 								},
@@ -70163,17 +71125,25 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
+								[1.2] = {
+									"Prisma Lenz",
+									"Kuva Bramma",
+									"Cinta",
 									"Paris Prime",
+									"Nunchasa",
+									"Rakta Cernos",
+									"Cernos Prime",
+									"Cernos",
 									"Mutalist Cernos",
-									["Place"] = "Third",
-								},
-								[1.4] = {
-									"Paris",
-									["Place"] = "Second",
-								},
-								[1.45] = {
+									"Evensong",
+									"Proboscis Cernos",
 									"Mk1-Paris",
+									"Daikyu Prime",
+									"Paris",
+									"Nataruk",
+									"Lenz",
+									"Dread",
+									"Daikyu",
 									["Place"] = "First",
 								},
 							},
@@ -70181,6 +71151,7 @@ return {
 								{
 									"Prisma Lenz",
 									"Paris Prime",
+									"Nunchasa",
 									"Rakta Cernos",
 									"Cernos Prime",
 									"Cernos",
@@ -70217,8 +71188,8 @@ return {
 								},
 							},
 							["MagDmg"] = {
-								[540] = {
-									"Cinta",
+								[579.2] = {
+									"Nunchasa",
 									["Place"] = "Third",
 								},
 								[585] = {
@@ -70236,6 +71207,7 @@ return {
 									"Kuva Bramma",
 									"Cinta",
 									"Paris Prime",
+									"Nunchasa",
 									"Rakta Cernos",
 									"Cernos Prime",
 									"Cernos",
@@ -70258,6 +71230,7 @@ return {
 									"Kuva Bramma",
 									"Cinta",
 									"Paris Prime",
+									"Nunchasa",
 									"Rakta Cernos",
 									"Cernos",
 									"Mutalist Cernos",
@@ -70287,6 +71260,7 @@ return {
 									"Prisma Lenz",
 									"Kuva Bramma",
 									"Cinta",
+									"Nunchasa",
 									"Rakta Cernos",
 									"Cernos",
 									"Mutalist Cernos",
@@ -70309,6 +71283,7 @@ return {
 									"Kuva Bramma",
 									"Cinta",
 									"Paris Prime",
+									"Nunchasa",
 									"Rakta Cernos",
 									"Cernos Prime",
 									"Cernos",
@@ -70340,8 +71315,8 @@ return {
 								},
 							},
 							["SustainedDps"] = {
-								[414.392] = {
-									"Kuva Bramma",
+								[482.66666666667] = {
+									"Nunchasa",
 									["Place"] = "Third",
 								},
 								[586.25] = {
@@ -70354,8 +71329,8 @@ return {
 								},
 							},
 							["TotalDamage"] = {
-								[375] = {
-									"Daikyu Prime",
+								[400] = {
+									"Nunchasa",
 									["Place"] = "Third",
 								},
 								[450] = {
@@ -70373,7 +71348,7 @@ return {
 					{
 						["Percentiles"] = {
 							["Accuracy"] = {
-								16.7,
+								50.02,
 								16.7,
 								16.7,
 								16.7,
@@ -70387,8 +71362,8 @@ return {
 								72,
 								72,
 								72,
-								34,
-								6.25,
+								41.6,
+								6.4,
 							},
 							["AmmoPickup"] = {
 								15,
@@ -70396,80 +71371,80 @@ return {
 								15,
 								15,
 								15,
-								5.5,
+								8.2,
 								1,
 							},
 							["AvgCritCount"] = {
 								0.5,
 								0.5,
-								0.4,
+								0.384,
 								0.36,
-								0.3575,
-								0.325,
-								0.2625,
+								0.36,
+								0.34,
+								0.27,
 							},
 							["AvgProcCount"] = {
-								1.295,
-								0.9375,
-								0.49,
-								0.3725,
-								0.2925,
+								1.268,
+								0.9,
+								0.446,
+								0.368,
+								0.328,
 								0.2,
-								0.1575,
+								0.162,
 							},
 							["AvgShotDmg"] = {
-								1408,
-								851.4,
-								634.5,
-								521.35,
-								513.6,
-								443.75,
-								146.5025,
+								1552,
+								1170,
+								643.8,
+								567,
+								517.84,
+								460.4,
+								177.002,
 							},
 							["BaseDps"] = {
-								1365.8333333333,
-								949.42307692308,
-								783.33333333333,
-								677.08333333333,
-								603.57142857143,
-								486.15384615385,
-								217.04545454545,
+								1439,
+								1250,
+								813.33333333333,
+								723.33333333333,
+								643.33333333333,
+								489.84615384615,
+								257.27272727273,
 							},
 							["BurstDps"] = {
-								1305,
-								1079.7403846154,
-								861.33333333333,
-								780.81845238095,
-								739.28571428571,
-								591.81818181818,
-								237.92023809524,
+								1278,
+								1146.4615384615,
+								894.93333333333,
+								816.03333333333,
+								753.7380952381,
+								620.72727272727,
+								298.66952380952,
 							},
 							["CritChance"] = {
 								0.5,
-								0.4625,
+								0.45,
 								0.36,
-								0.35875,
-								0.35,
-								0.325,
-								0.2625,
+								0.36,
+								0.352,
+								0.34,
+								0.27,
 							},
 							["CritMultiplier"] = {
-								2.6,
+								2.88,
 								2.2,
-								2,
+								2.06,
 								2,
 								2,
 								2,
 								2,
 							},
 							["Disposition"] = {
-								1.375,
-								1.3125,
-								1.25,
-								1.25,
-								1.2375,
-								1.025,
-								0.9,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -70478,25 +71453,25 @@ return {
 								1,
 								1,
 								1,
-								0.75025,
+								0.8002,
 							},
 							["LifetimeDmg"] = {
-								69167.8,
-								46601.375,
-								37726.4,
-								36495.4375,
-								33406.625,
-								16491.172,
-								934.02,
+								84525.6,
+								47450,
+								37954.16,
+								37165.76,
+								34894,
+								19692.6688,
+								1035.216,
 							},
 							["MagDmg"] = {
-								1408,
-								851.4,
-								634.5,
-								521.35,
-								513.6,
-								443.75,
-								146.5025,
+								1552,
+								1170,
+								643.8,
+								567,
+								517.84,
+								460.4,
+								177.002,
 							},
 							["Magazine"] = {
 								1,
@@ -70535,31 +71510,31 @@ return {
 								1,
 							},
 							["StatusChance"] = {
-								0.495,
-								0.3925,
-								0.3,
-								0.20875,
-								0.2,
-								0.17,
+								0.494,
+								0.38,
+								0.312,
+								0.246,
+								0.202,
+								0.176,
 								0.15,
 							},
 							["SustainedDps"] = {
-								823.23529411765,
-								674.24107142857,
-								469.81818181818,
-								434.20454545455,
-								426.47727272727,
-								361.42512077295,
-								126.38470695971,
+								851.42857142857,
+								731.25,
+								576.72727272727,
+								448.92727272727,
+								429.90909090909,
+								361.61352657005,
+								158.06014652015,
 							},
 							["TotalDamage"] = {
-								819.5,
-								601.5,
-								470,
-								406.25,
-								375,
-								328,
-								125,
+								863.4,
+								750,
+								488,
+								434,
+								386,
+								332.8,
+								146,
 							},
 						},
 						["Top3"] = {
@@ -70584,12 +71559,13 @@ return {
 								},
 								[100] = {
 									"Cinta",
+									"Nunchasa",
 									["Place"] = "First",
 								},
 							},
 							["AmmoMax"] = {
-								[8] = {
-									"Prisma Lenz",
+								[50] = {
+									"Nunchasa",
 									["Place"] = "Third",
 								},
 								[60] = {
@@ -70624,6 +71600,7 @@ return {
 								},
 								[15] = {
 									"Paris Prime",
+									"Nunchasa",
 									"Rakta Cernos",
 									"Cernos Prime",
 									"Cernos",
@@ -70668,12 +71645,12 @@ return {
 								},
 							},
 							["AvgShotDmg"] = {
-								[1376] = {
-									"Cinta",
-									["Place"] = "Third",
-								},
 								[1440] = {
 									"Nataruk",
+									["Place"] = "Third",
+								},
+								[1720] = {
+									"Nunchasa",
 									["Place"] = "Second",
 								},
 								[1859.224] = {
@@ -70682,16 +71659,16 @@ return {
 								},
 							},
 							["BaseDps"] = {
-								[1333.3333333333] = {
-									"Cinta",
-									["Place"] = "Third",
-								},
 								[1398.3333333333] = {
 									"Kuva Bramma",
-									["Place"] = "Second",
+									["Place"] = "Third",
 								},
 								[1500] = {
 									"Nataruk",
+									["Place"] = "Second",
+								},
+								[1666.6666666667] = {
+									"Nunchasa",
 									["Place"] = "First",
 								},
 							},
@@ -70737,21 +71714,29 @@ return {
 								},
 								[3] = {
 									"Cinta",
+									"Nunchasa",
 									["Place"] = "First",
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
+								[1.2] = {
+									"Prisma Lenz",
+									"Kuva Bramma",
+									"Cinta",
 									"Paris Prime",
+									"Nunchasa",
+									"Rakta Cernos",
+									"Cernos Prime",
+									"Cernos",
 									"Mutalist Cernos",
-									["Place"] = "Third",
-								},
-								[1.4] = {
-									"Paris",
-									["Place"] = "Second",
-								},
-								[1.45] = {
+									"Evensong",
+									"Proboscis Cernos",
 									"Mk1-Paris",
+									"Daikyu Prime",
+									"Paris",
+									"Nataruk",
+									"Lenz",
+									"Dread",
 									["Place"] = "First",
 								},
 							},
@@ -70759,6 +71744,7 @@ return {
 								{
 									"Prisma Lenz",
 									"Paris Prime",
+									"Nunchasa",
 									"Rakta Cernos",
 									"Cernos Prime",
 									"Cernos",
@@ -70780,26 +71766,26 @@ return {
 								},
 							},
 							["LifetimeDmg"] = {
-								[54399.6] = {
-									"Cernos Prime",
-									["Place"] = "Third",
-								},
 								[83936] = {
 									"Cinta",
-									["Place"] = "Second",
+									["Place"] = "Third",
 								},
 								[85410] = {
 									"Daikyu Prime",
+									["Place"] = "Second",
+								},
+								[87720] = {
+									"Nunchasa",
 									["Place"] = "First",
 								},
 							},
 							["MagDmg"] = {
-								[1376] = {
-									"Cinta",
-									["Place"] = "Third",
-								},
 								[1440] = {
 									"Nataruk",
+									["Place"] = "Third",
+								},
+								[1720] = {
+									"Nunchasa",
 									["Place"] = "Second",
 								},
 								[1859.224] = {
@@ -70813,6 +71799,7 @@ return {
 									"Kuva Bramma",
 									"Cinta",
 									"Paris Prime",
+									"Nunchasa",
 									"Rakta Cernos",
 									"Cernos Prime",
 									"Cernos",
@@ -70834,6 +71821,7 @@ return {
 									"Kuva Bramma",
 									"Cinta",
 									"Paris Prime",
+									"Nunchasa",
 									"Rakta Cernos",
 									"Cernos",
 									"Mutalist Cernos",
@@ -70862,6 +71850,7 @@ return {
 									"Prisma Lenz",
 									"Kuva Bramma",
 									"Cinta",
+									"Nunchasa",
 									"Rakta Cernos",
 									"Cernos",
 									"Mutalist Cernos",
@@ -70883,6 +71872,7 @@ return {
 									"Kuva Bramma",
 									"Cinta",
 									"Paris Prime",
+									"Nunchasa",
 									"Rakta Cernos",
 									"Cernos Prime",
 									"Cernos",
@@ -70914,8 +71904,8 @@ return {
 								},
 							},
 							["SustainedDps"] = {
-								[746.47058823529] = {
-									"Rakta Cernos",
+								[819.04761904762] = {
+									"Nunchasa",
 									["Place"] = "Third",
 								},
 								[900] = {
@@ -70928,16 +71918,16 @@ return {
 								},
 							},
 							["TotalDamage"] = {
-								[800] = {
-									"Cinta",
-									["Place"] = "Third",
-								},
 								[839] = {
 									"Kuva Bramma",
-									["Place"] = "Second",
+									["Place"] = "Third",
 								},
 								[900] = {
 									"Nataruk",
+									["Place"] = "Second",
+								},
+								[1000] = {
+									"Nunchasa",
 									["Place"] = "First",
 								},
 							},
@@ -71036,13 +72026,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.395,
-								1.35,
-								1.28,
-								1.23875,
-								1.1925,
-								1.015,
-								0.8125,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -71305,17 +72295,19 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
+								[1.2] = {
+									"Prisma Lenz",
+									"Kuva Bramma",
+									"Cinta",
 									"Paris Prime",
 									"Mutalist Cernos",
-									["Place"] = "Third",
-								},
-								[1.4] = {
-									"Paris",
-									["Place"] = "Second",
-								},
-								[1.45] = {
+									"Evensong",
+									"Proboscis Cernos",
 									"Mk1-Paris",
+									"Paris",
+									"Nataruk",
+									"Lenz",
+									"Dread",
 									["Place"] = "First",
 								},
 							},
@@ -71582,13 +72574,13 @@ return {
 								2.1,
 							},
 							["Disposition"] = {
-								0.65,
-								0.65,
-								0.65,
-								0.65,
-								0.65,
-								0.65,
-								0.65,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -71743,7 +72735,7 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.65] = {
+								[1.2] = {
 									"Kuva Bramma",
 									["Place"] = "First",
 								},
@@ -71907,13 +72899,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.372,
-								1.3,
-								1.24,
-								1.21,
-								1.19,
-								1.16,
-								1.15,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								4.968,
@@ -72150,13 +73142,9 @@ return {
 							["Disposition"] = {
 								[1.2] = {
 									"Zhuge",
-									["Place"] = "Third",
-								},
-								[1.3] = {
+									"Zhuge Prime",
 									"Nagantaka",
-									["Place"] = "Second",
-								},
-								[1.42] = {
+									"Nagantaka Prime",
 									"Attica",
 									["Place"] = "First",
 								},
@@ -72398,13 +73386,13 @@ return {
 								2.09,
 							},
 							["Disposition"] = {
-								1.27,
-								1.225,
-								1.18,
-								1.1575,
-								1.15,
-								1.15,
-								1.15,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								5.4,
@@ -72621,13 +73609,10 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.15] = {
+								[1.2] = {
 									"Zhuge Prime",
-									"Nagantaka Prime",
-									["Place"] = "Second",
-								},
-								[1.3] = {
 									"Nagantaka",
+									"Nagantaka Prime",
 									["Place"] = "First",
 								},
 							},
@@ -72855,13 +73840,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.3,
-								1.3,
-								1.3,
-								1.26625,
-								1.15,
-								0.975,
-								0.7,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								3.123,
@@ -73109,20 +74094,18 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.15] = {
+								[1.2] = {
 									"Zarr",
-									"Purgator 1",
-									["Place"] = "Third",
-								},
-								[1.3] = {
+									"Kuva Ogris",
+									"Kuva Zarr",
+									"Kuva Tonkor",
 									"Carmine Penta",
+									"Purgator 1",
 									"Ogris",
+									"Tenet Envoy",
 									"Torid",
 									"Tonkor",
 									"Secura Penta",
-									["Place"] = "Second",
-								},
-								[1.35] = {
 									"Penta",
 									["Place"] = "First",
 								},
@@ -73372,13 +74355,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.3,
-								1.3,
-								1.3,
-								1.3,
-								1.225,
-								0.9,
-								0.7,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								3.17,
@@ -73628,19 +74611,17 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.15] = {
+								[1.2] = {
 									"Zarr",
-									["Place"] = "Third",
-								},
-								[1.3] = {
+									"Kuva Ogris",
+									"Kuva Zarr",
+									"Kuva Tonkor",
 									"Carmine Penta",
 									"Ogris",
+									"Tenet Envoy",
 									"Torid",
 									"Tonkor",
 									"Secura Penta",
-									["Place"] = "Second",
-								},
-								[1.35] = {
 									"Penta",
 									["Place"] = "First",
 								},
@@ -73884,13 +74865,13 @@ return {
 								2.15,
 							},
 							["Disposition"] = {
-								1.27,
-								1.225,
-								1.18,
-								1.1575,
-								1.105,
-								0.97,
-								0.835,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								6.834,
@@ -74119,15 +75100,9 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.7] = {
-									"Kuva Zarr",
-									["Place"] = "Third",
-								},
-								[1.15] = {
+								[1.2] = {
 									"Zarr",
-									["Place"] = "Second",
-								},
-								[1.3] = {
+									"Kuva Zarr",
 									"Torid",
 									["Place"] = "First",
 								},
@@ -74361,13 +75336,13 @@ return {
 								2.075,
 							},
 							["Disposition"] = {
-								1.105,
-								1.0375,
-								0.97,
-								0.93625,
-								0.9025,
-								0.835,
-								0.7675,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								2.12,
@@ -74559,12 +75534,9 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.7] = {
-									"Kuva Zarr",
-									["Place"] = "Second",
-								},
-								[1.15] = {
+								[1.2] = {
 									"Zarr",
+									"Kuva Zarr",
 									["Place"] = "First",
 								},
 							},
@@ -74763,13 +75735,13 @@ return {
 								2.5,
 							},
 							["Disposition"] = {
-								1.105,
-								1.0375,
-								0.97,
-								0.93625,
-								0.9025,
-								0.835,
-								0.7675,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								2.917,
@@ -74961,12 +75933,9 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.7] = {
-									"Kuva Zarr",
-									["Place"] = "Second",
-								},
-								[1.15] = {
+								[1.2] = {
 									"Zarr",
+									"Kuva Zarr",
 									["Place"] = "First",
 								},
 							},
@@ -75166,13 +76135,13 @@ return {
 										2,
 									},
 									["Disposition"] = {
-										1.3,
-										1.225,
-										1.15,
-										1.15,
-										1.075,
-										0.86,
-										0.7,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										3.17,
@@ -75414,16 +76383,12 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[0.9] = {
-											"Kuva Tonkor",
-											["Place"] = "Third",
-										},
-										[1.15] = {
+										[1.2] = {
 											"Zarr",
+											"Kuva Ogris",
+											"Kuva Zarr",
+											"Kuva Tonkor",
 											"Purgator 1",
-											["Place"] = "Second",
-										},
-										[1.3] = {
 											"Torid",
 											"Tonkor",
 											["Place"] = "First",
@@ -75668,13 +76633,13 @@ return {
 										2,
 									},
 									["Disposition"] = {
-										1.3,
-										1.2625,
-										1.15,
-										1.05625,
-										0.9625,
-										0.8,
-										0.7,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										3.17,
@@ -75911,15 +76876,11 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[0.9] = {
-											"Kuva Tonkor",
-											["Place"] = "Third",
-										},
-										[1.15] = {
+										[1.2] = {
 											"Zarr",
-											["Place"] = "Second",
-										},
-										[1.3] = {
+											"Kuva Ogris",
+											"Kuva Zarr",
+											"Kuva Tonkor",
 											"Torid",
 											"Tonkor",
 											["Place"] = "First",
@@ -76165,13 +77126,13 @@ return {
 										2.15,
 									},
 									["Disposition"] = {
-										1.27,
-										1.225,
-										1.18,
-										1.1575,
-										1.105,
-										0.97,
-										0.835,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										6.834,
@@ -76400,15 +77361,9 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[0.7] = {
-											"Kuva Zarr",
-											["Place"] = "Third",
-										},
-										[1.15] = {
+										[1.2] = {
 											"Zarr",
-											["Place"] = "Second",
-										},
-										[1.3] = {
+											"Kuva Zarr",
 											"Torid",
 											["Place"] = "First",
 										},
@@ -76642,13 +77597,13 @@ return {
 										2.075,
 									},
 									["Disposition"] = {
-										1.105,
-										1.0375,
-										0.97,
-										0.93625,
-										0.9025,
-										0.835,
-										0.7675,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										2.12,
@@ -76840,12 +77795,9 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[0.7] = {
-											"Kuva Zarr",
-											["Place"] = "Second",
-										},
-										[1.15] = {
+										[1.2] = {
 											"Zarr",
+											"Kuva Zarr",
 											["Place"] = "First",
 										},
 									},
@@ -77044,13 +77996,13 @@ return {
 										2.5,
 									},
 									["Disposition"] = {
-										1.105,
-										1.0375,
-										0.97,
-										0.93625,
-										0.9025,
-										0.835,
-										0.7675,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										2.917,
@@ -77242,12 +78194,9 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[0.7] = {
-											"Kuva Zarr",
-											["Place"] = "Second",
-										},
-										[1.15] = {
+										[1.2] = {
 											"Zarr",
+											"Kuva Zarr",
 											["Place"] = "First",
 										},
 									},
@@ -77449,13 +78398,13 @@ return {
 								1.8,
 							},
 							["Disposition"] = {
-								1.4,
-								1.3,
-								1.25,
 								1.2,
-								1.15,
-								1.05,
-								0.85,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FalloffEnd"] = {
 								57.4,
@@ -77648,33 +78597,33 @@ return {
 									"Baza",
 									"Hind",
 									"Dex Sybaris",
+									"Zenith",
 									"Quanta",
 									"Tiberon Prime",
 									"Paracyst",
 									"Prisma Grakata",
-									"Zenith",
 									"Soma",
+									"Veldt",
 									"Panthera Prime",
 									"Coda Synapse",
 									"Tenet Flux Rifle",
-									"Veldt",
 									"Gotva Prime",
 									"Panthera",
 									"Tiberon",
 									"Higasa",
-									"Sybaris",
+									"Supra Vandal",
 									"Tetra",
-									"Synapse",
 									"Tenora Prime",
-									"Braton",
+									"Synapse",
 									"Tenet Quanta",
-									"Braton Prime",
+									"Braton",
 									"Tenet Glaxion",
+									"Braton Prime",
 									"Thornbak",
 									"Telos Boltor",
 									"Sybaris Prime",
+									"Sybaris",
 									"Kuva Karak",
-									"Supra Vandal",
 									"Soma Prime",
 									"Grakata",
 									"Mk1-Braton",
@@ -77804,21 +78753,108 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.45] = {
+								[1.2] = {
+									"Tenet Tetra",
+									"Ambassador",
+									"Trumna Prime",
+									"Stradavar",
+									"Ignis",
+									"Battacor",
+									"Boltor",
+									"Phenmor",
+									"Amprex",
+									"Shedu",
+									"Fulmin Prime",
+									"Karak",
+									"Simulor",
+									"Basmu",
+									"Latron",
+									"EFV-5 Jupiter",
+									"Quartakk",
+									"Flux Rifle",
+									"Stradavar Prime",
+									"Tenora",
+									"Boltor Prime",
+									"Grinlok",
+									"Hema",
+									"Braton Vandal",
 									"Burston",
 									"Buzlok",
-									"Prisma Tetra",
-									["Place"] = "Third",
-								},
-								[1.5] = {
 									"Miter",
+									"Haalvu",
+									"Dera Vandal",
+									"Quellor",
+									"Burston Prime",
+									"Acceltra Prime",
+									"Karak Wraith",
+									"Argonak",
+									"Alternox",
+									"Gorgon",
+									"Baza",
+									"Hind",
+									"Dex Sybaris",
+									"Zenith",
+									"Quanta",
+									"Tiberon Prime",
+									"Paracyst",
+									"Prisma Grakata",
+									"Vinquibus (Primary)",
+									"Soma",
+									"Synoid Simulor",
+									"Veldt",
+									"Panthera Prime",
+									"Coda Synapse",
+									"Tenet Flux Rifle",
+									"Alternox Prime",
+									"Gotva Prime",
+									"Trumna",
+									"Panthera",
+									"Tiberon",
+									"Higasa",
+									"Supra Vandal",
+									"Coda Hema",
 									"Tetra",
+									"Tenora Prime",
+									"Synapse",
+									"Tenet Quanta",
+									"Braton",
+									"Tenet Glaxion",
+									"Braton Prime",
+									"Thornbak",
+									"Telos Boltor",
+									"Aeolak",
+									"Sybaris Prime",
+									"Enkaus",
+									"Sybaris",
+									"Ignis Wraith",
+									"Kuva Karak",
+									"Stahlta",
+									"Soma Prime",
+									"Grakata",
+									"Mk1-Braton",
+									"Reconifex",
+									"Quanta Vandal",
+									"Prisma Gorgon",
+									"Fulmin",
+									"Opticor",
+									"Kuva Hind",
+									"Baza Prime",
+									"Glaxion",
+									"Opticor Vandal",
 									"Mutalist Quanta",
-									["Place"] = "Second",
-								},
-								[1.55] = {
-									"Flux Rifle",
+									"Supra",
+									"Latron Wraith",
+									"Prisma Grinlok",
+									"Kuva Quartakk",
+									"Latron Prime",
+									"Prisma Tetra",
+									"Gorgon Wraith",
+									"Dera",
+									"Kuva Chakkhurr",
+									"Glaxion Vandal",
 									"Harpak",
+									"Acceltra",
+									"AX-52",
 									["Place"] = "First",
 								},
 							},
@@ -77945,39 +78981,39 @@ return {
 									"Baza",
 									"Hind",
 									"Dex Sybaris",
+									"Zenith",
 									"Tiberon Prime",
 									"Paracyst",
 									"Prisma Grakata",
 									"Vinquibus (Primary)",
-									"Zenith",
 									"Soma",
 									"Synoid Simulor",
+									"Veldt",
 									"Panthera Prime",
 									"Coda Synapse",
 									"Tenet Flux Rifle",
 									"Alternox Prime",
-									"Veldt",
 									"Gotva Prime",
+									"Trumna",
 									"Panthera",
 									"Tiberon",
-									"Trumna",
 									"Higasa",
-									"Sybaris",
+									"Supra Vandal",
 									"Coda Hema",
 									"Tetra",
-									"Synapse",
 									"Tenora Prime",
+									"Synapse",
 									"Braton",
-									"Braton Prime",
 									"Tenet Glaxion",
+									"Braton Prime",
 									"Thornbak",
-									"Aeolak",
 									"Telos Boltor",
-									"Enkaus",
+									"Aeolak",
 									"Sybaris Prime",
+									"Enkaus",
+									"Sybaris",
 									"Ignis Wraith",
 									"Kuva Karak",
-									"Supra Vandal",
 									"Stahlta",
 									"Soma Prime",
 									"Grakata",
@@ -78183,13 +79219,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.4,
-								1.35,
-								1.25,
 								1.2,
-								1.1575,
-								1.1,
-								0.855,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FalloffEnd"] = {
 								18.6,
@@ -78391,21 +79427,21 @@ return {
 									"Gorgon",
 									"Hind",
 									"Dex Sybaris",
+									"Zenith",
 									"Quanta",
 									"Tiberon Prime",
 									"Paracyst",
-									"Zenith",
 									"Soma",
 									"Panthera Prime",
 									"Panthera",
 									"Higasa",
-									"Sybaris",
 									"Tenora Prime",
-									"Braton",
 									"Tenet Quanta",
+									"Braton",
 									"Braton Prime",
 									"Telos Boltor",
 									"Sybaris Prime",
+									"Sybaris",
 									"Soma Prime",
 									"Mk1-Braton",
 									"Quanta Vandal",
@@ -78518,11 +79554,11 @@ return {
 									"Acceltra Prime",
 									"Dex Sybaris",
 									"Soma",
-									"Sybaris",
 									"Tenora Prime",
 									"Braton",
 									"Braton Prime",
 									"Sybaris Prime",
+									"Sybaris",
 									"Stahlta",
 									"Dera",
 									["Place"] = "Third",
@@ -78541,18 +79577,75 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.45] = {
+								[1.2] = {
+									"Tenet Tetra",
+									"Ambassador",
+									"Trumna Prime",
+									"Stradavar",
+									"Battacor",
+									"Boltor",
+									"Phenmor",
+									"Shedu",
+									"Fulmin Prime",
+									"Simulor",
+									"Basmu",
+									"Latron",
+									"EFV-5 Jupiter",
+									"Stradavar Prime",
+									"Tenora",
+									"Boltor Prime",
+									"Braton Vandal",
 									"Burston",
 									"Buzlok",
-									["Place"] = "Third",
-								},
-								[1.5] = {
 									"Miter",
+									"Haalvu",
+									"Dera Vandal",
+									"Quellor",
+									"Burston Prime",
+									"Acceltra Prime",
+									"Argonak",
+									"Alternox",
+									"Gorgon",
+									"Hind",
+									"Dex Sybaris",
+									"Zenith",
+									"Quanta",
+									"Tiberon Prime",
+									"Paracyst",
+									"Soma",
+									"Synoid Simulor",
+									"Panthera Prime",
+									"Alternox Prime",
+									"Trumna",
+									"Panthera",
+									"Higasa",
+									"Tenora Prime",
+									"Tenet Quanta",
+									"Braton",
+									"Braton Prime",
+									"Telos Boltor",
+									"Aeolak",
+									"Sybaris Prime",
+									"Enkaus",
+									"Sybaris",
+									"Stahlta",
+									"Soma Prime",
+									"Mk1-Braton",
+									"Quanta Vandal",
+									"Prisma Gorgon",
+									"Fulmin",
+									"Opticor",
+									"Kuva Hind",
+									"Opticor Vandal",
 									"Mutalist Quanta",
-									["Place"] = "Second",
-								},
-								[1.55] = {
+									"Latron Wraith",
+									"Kuva Quartakk",
+									"Latron Prime",
+									"Gorgon Wraith",
+									"Dera",
+									"Kuva Chakkhurr",
 									"Harpak",
+									"Acceltra",
 									["Place"] = "First",
 								},
 							},
@@ -78833,13 +79926,13 @@ return {
 								1.825,
 							},
 							["Disposition"] = {
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2375,
-								1.15,
-								1.0125,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FalloffEnd"] = {
 								7.1,
@@ -79014,8 +80107,8 @@ return {
 									"Tiberon Prime",
 									"Paracyst",
 									"Panthera Prime",
-									"Braton",
 									"Tenet Quanta",
+									"Braton",
 									"Braton Prime",
 									"Mk1-Braton",
 									"Quanta Vandal",
@@ -79128,20 +80221,43 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.4] = {
+								[1.2] = {
+									"Tenet Tetra",
+									"Ambassador",
+									"Trumna Prime",
+									"Battacor",
+									"Simulor",
+									"Basmu",
 									"Latron",
+									"Braton Vandal",
+									"Burston",
+									"Miter",
+									"Burston Prime",
+									"Alternox",
 									"Gorgon",
 									"Quanta",
+									"Tiberon Prime",
+									"Paracyst",
+									"Synoid Simulor",
+									"Panthera Prime",
+									"Alternox Prime",
+									"Trumna",
+									"Tenet Quanta",
+									"Braton",
+									"Braton Prime",
+									"Aeolak",
+									"Enkaus",
+									"Stahlta",
+									"Mk1-Braton",
 									"Quanta Vandal",
-									["Place"] = "Third",
-								},
-								[1.45] = {
-									"Burston",
-									["Place"] = "Second",
-								},
-								[1.5] = {
-									"Miter",
+									"Prisma Gorgon",
+									"Opticor",
+									"Kuva Hind",
+									"Opticor Vandal",
 									"Mutalist Quanta",
+									"Latron Wraith",
+									"Latron Prime",
+									"Gorgon Wraith",
 									["Place"] = "First",
 								},
 							},
@@ -79260,8 +80376,8 @@ return {
 									"Panthera Prime",
 									"Alternox Prime",
 									"Trumna",
-									"Braton",
 									"Tenet Quanta",
+									"Braton",
 									"Braton Prime",
 									"Aeolak",
 									"Enkaus",
@@ -79455,13 +80571,13 @@ return {
 								1.5,
 							},
 							["Disposition"] = {
-								1.4,
-								1.3,
-								1.15,
-								1.15,
-								1.125,
-								0.85,
-								0.775,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FalloffEnd"] = {
 								6,
@@ -79740,16 +80856,17 @@ return {
 							},
 							["Disposition"] = {
 								[1.2] = {
-									"Synoid Simulor",
-									["Place"] = "Third",
-								},
-								[1.4] = {
-									"Quanta",
-									"Quanta Vandal",
-									["Place"] = "Second",
-								},
-								[1.5] = {
+									"Trumna Prime",
 									"Miter",
+									"Alternox",
+									"Quanta",
+									"Synoid Simulor",
+									"Alternox Prime",
+									"Trumna",
+									"Tenet Quanta",
+									"Quanta Vandal",
+									"Opticor",
+									"Opticor Vandal",
 									["Place"] = "First",
 								},
 							},
@@ -79957,20 +81074,20 @@ return {
 									["Accuracy"] = {
 										100,
 										80,
-										37.332,
+										40,
+										29.19125,
 										28.6,
 										28.6,
-										27.88,
-										22.97,
+										23.5,
 									},
 									["AmmoMax"] = {
-										904,
-										675,
+										920,
+										712.5,
 										540,
 										540,
 										540,
 										540,
-										495.6,
+										429,
 									},
 									["AmmoPickup"] = {
 										80,
@@ -79979,79 +81096,79 @@ return {
 										80,
 										80,
 										80,
-										76,
+										70,
 									},
 									["AvgCritCount"] = {
-										0.288,
-										0.255,
-										0.242,
+										0.29,
+										0.2575,
+										0.25,
 										0.23,
-										0.188,
+										0.17,
 										0.12,
-										0.089,
+										0.0875,
 									},
 									["AvgProcCount"] = {
-										0.322,
+										0.325,
 										0.26,
-										0.226,
-										0.21,
+										0.23,
+										0.21125,
 										0.2,
 										0.16,
 										0.14,
 									},
 									["AvgShotDmg"] = {
-										65.664,
-										48.8152,
-										41.4128,
-										40.11,
-										34.889,
-										31.213,
-										24.896,
+										57.66,
+										45.92655,
+										40.832,
+										39.375,
+										34.6775,
+										30.8725,
+										24.8,
 									},
 									["BaseDps"] = {
-										423.6,
-										360.885,
-										334.48,
-										328.2675,
-										307.97,
+										424.5,
+										354.6075,
+										333.25,
+										325.66875,
+										289.925,
 										266.72,
-										218.219,
+										217.4225,
 									},
 									["BurstDps"] = {
-										598.917,
-										509.7875,
-										434.59953,
-										407.615105,
-										394.8606,
-										343.82748,
-										235.25625,
+										601.1775,
+										506.72,
+										416.0832,
+										405.8376125,
+										390.9645,
+										329.079675,
+										233.765625,
 									},
 									["CritChance"] = {
-										0.288,
-										0.255,
-										0.242,
+										0.29,
+										0.2575,
+										0.25,
 										0.23,
-										0.188,
+										0.17,
 										0.12,
-										0.089,
+										0.0875,
 									},
 									["CritMultiplier"] = {
-										2.88,
+										2.9,
 										2.5,
-										2.28,
-										2.065,
+										2.1,
+										2.0125,
 										2,
 										2,
 										1.6,
 									},
 									["Disposition"] = {
-										1.42,
-										1.35,
-										1.3,
-										1.2695,
 										1.2,
-										1.04,
-										0.84,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FalloffEnd"] = {
 										57.4,
@@ -80073,39 +81190,39 @@ return {
 									},
 									["FireRate"] = {
 										16.67,
-										12.5,
-										11.502,
-										10.8125,
+										12.75,
+										11.67,
+										11.25,
 										10,
-										8.75,
-										7.458,
+										9.04,
+										7.5,
 									},
 									["LifetimeDmg"] = {
-										38032.08,
-										27482.672,
-										23856,
-										21957.9,
-										20643.84,
-										17059.08,
-										11088.198,
+										31357.15,
+										26743.5,
+										23100,
+										21198.75,
+										20505.6,
+										16736.925,
+										11014.245,
 									},
 									["MagDmg"] = {
-										4380.936,
-										3159.464,
-										2591.808,
-										2372.59,
-										2093.34,
-										1595.52,
-										1108.16,
+										4366.92,
+										3053.4,
+										2508,
+										2218.975,
+										2080.65,
+										1558.8,
+										1085.6,
 									},
 									["Magazine"] = {
 										120,
-										72.5,
+										73.75,
 										60,
 										60,
 										60,
-										49.6,
-										44.5,
+										49,
+										43.75,
 									},
 									["Multishot"] = {
 										1,
@@ -80117,8 +81234,8 @@ return {
 										1,
 									},
 									["ReloadSpeed"] = {
-										0.74857142857143,
-										0.56349206349206,
+										0.75714285714286,
+										0.56746031746032,
 										0.5,
 										0.5,
 										0.5,
@@ -80127,39 +81244,39 @@ return {
 									},
 									["ShotsPerMag"] = {
 										120,
-										72.5,
+										73.75,
 										60,
 										60,
 										60,
-										49.6,
-										44.5,
+										49,
+										43.75,
 									},
 									["StatusChance"] = {
-										0.282,
-										0.245,
+										0.285,
+										0.2475,
 										0.21,
 										0.2,
-										0.187,
+										0.1825,
 										0.16,
-										0.136,
+										0.13,
 									},
 									["SustainedDps"] = {
-										464.76146938776,
-										367.40909090909,
-										324.48690403742,
-										309.99526959419,
-										293.226245534,
-										240.83787369028,
-										170.37782429003,
+										470.63183673469,
+										366.93333333333,
+										318.68710826302,
+										297.58026239035,
+										291.59682333825,
+										240.31250600788,
+										168.99592024169,
 									},
 									["TotalDamage"] = {
-										44.8,
-										36.5,
-										32.6,
-										31.65,
+										42,
+										35,
+										32,
+										31.125,
 										30,
-										24.8,
-										17.8,
+										24.5,
+										17.5,
 									},
 								},
 								["Top3"] = {
@@ -80207,7 +81324,6 @@ return {
 											"Karak",
 											"Boltor Prime",
 											"Braton Vandal",
-											"Buzlok",
 											"Dera Vandal",
 											"Karak Wraith",
 											"Baza",
@@ -80258,12 +81374,12 @@ return {
 										},
 									},
 									["AvgShotDmg"] = {
-										[73.92] = {
-											"Acceltra Prime",
+										[60.16] = {
+											"Reconifex",
 											["Place"] = "Third",
 										},
-										[80.7] = {
-											"Buzlok",
+										[73.92] = {
+											"Acceltra Prime",
 											["Place"] = "Second",
 										},
 										[90.525] = {
@@ -80315,7 +81431,6 @@ return {
 									},
 									["CritMultiplier"] = {
 										[2.5] = {
-											"Buzlok",
 											"Haalvu",
 											"Prisma Grakata",
 											"Gotva Prime",
@@ -80334,17 +81449,33 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.4] = {
-											"Dera",
-											["Place"] = "Third",
-										},
-										[1.45] = {
-											"Buzlok",
-											"Prisma Tetra",
-											["Place"] = "Second",
-										},
-										[1.5] = {
+										[1.2] = {
+											"Boltor",
+											"Shedu",
+											"Karak",
+											"Boltor Prime",
+											"Braton Vandal",
+											"Haalvu",
+											"Dera Vandal",
+											"Acceltra Prime",
+											"Karak Wraith",
+											"Baza",
+											"Prisma Grakata",
+											"Tenet Flux Rifle",
+											"Gotva Prime",
 											"Tetra",
+											"Braton",
+											"Braton Prime",
+											"Telos Boltor",
+											"Kuva Karak",
+											"Grakata",
+											"Mk1-Braton",
+											"Reconifex",
+											"Baza Prime",
+											"Prisma Tetra",
+											"Dera",
+											"Acceltra",
+											"AX-52",
 											["Place"] = "First",
 										},
 									},
@@ -80384,8 +81515,8 @@ return {
 										},
 									},
 									["LifetimeDmg"] = {
-										[47613] = {
-											"Buzlok",
+										[31644.8] = {
+											"AX-52",
 											["Place"] = "Third",
 										},
 										[53898.24] = {
@@ -80433,7 +81564,6 @@ return {
 											"Karak",
 											"Boltor Prime",
 											"Braton Vandal",
-											"Buzlok",
 											"Haalvu",
 											"Dera Vandal",
 											"Acceltra Prime",
@@ -80516,12 +81646,12 @@ return {
 										},
 									},
 									["TotalDamage"] = {
-										[46] = {
-											"Boltor Prime",
+										[44] = {
+											"Acceltra Prime",
 											["Place"] = "Third",
 										},
-										[60] = {
-											"Buzlok",
+										[46] = {
+											"Boltor Prime",
 											["Place"] = "Second",
 										},
 										[71] = {
@@ -80535,21 +81665,21 @@ return {
 								["Percentiles"] = {
 									["Accuracy"] = {
 										200,
-										175,
+										200,
 										100,
-										87.505,
-										27.835,
-										22.82,
+										100,
+										57.16,
+										23.5,
 										10,
 									},
 									["AmmoMax"] = {
-										547,
+										548,
 										540,
 										540,
 										540,
 										540,
-										495.6,
-										91.2,
+										362.4,
+										76.8,
 									},
 									["AmmoPickup"] = {
 										80,
@@ -80557,80 +81687,80 @@ return {
 										80,
 										80,
 										80,
-										76,
-										38,
+										64,
+										32,
 									},
 									["AvgCritCount"] = {
-										0.702,
-										0.37,
-										0.316,
+										0.708,
+										0.38,
+										0.324,
+										0.306,
 										0.3,
-										0.3,
-										0.247,
-										0.2,
+										0.28,
+										0.216,
 									},
 									["AvgProcCount"] = {
-										0.31407,
-										0.287475,
-										0.252,
+										0.31608,
+										0.29,
+										0.26398,
+										0.232,
 										0.22,
-										0.214,
-										0.174,
-										0.098,
+										0.18,
+										0.116,
 									},
 									["AvgShotDmg"] = {
-										368.442,
-										111.73125,
-										107.328,
-										103.494,
-										87.684,
-										77.9264,
-										61.6376,
+										404.028,
+										112,
+										108.201,
+										106.848,
+										96.048,
+										79.552,
+										68.2752,
 									},
 									["BaseDps"] = {
-										716,
-										597.35,
-										504,
-										406.0575,
-										382.8975,
-										250,
-										212.625,
+										724,
+										619.8,
+										528.4,
+										444,
+										401.34,
+										282.13,
+										243.5,
 									},
 									["BurstDps"] = {
-										1162.00448,
-										935.4,
-										792.7104,
-										621.438615,
-										544.71213,
-										392,
-										271.822875,
+										1169.33632,
+										950.4,
+										843.7824,
+										694.1664,
+										588.40668,
+										443.968,
+										311.4625,
 									},
 									["CritChance"] = {
-										0.354,
-										0.315,
+										0.356,
+										0.32,
 										0.3,
-										0.29125,
-										0.2485,
-										0.22,
-										0.2,
+										0.3,
+										0.27,
+										0.232,
+										0.216,
 									},
 									["CritMultiplier"] = {
-										3.14,
+										3.16,
 										3,
 										3,
 										3,
-										2.97,
-										2.76,
-										2.085,
+										3,
+										2.8,
+										2.34,
 									},
 									["Disposition"] = {
-										1.385,
-										1.35,
-										1.3,
-										1.29125,
-										1.2425,
-										1.155,
-										0.645,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FalloffEnd"] = {
 										6.28,
@@ -80651,38 +81781,38 @@ return {
 										8.6,
 									},
 									["FireRate"] = {
-										11.799,
-										10.2475,
-										9.134,
-										5.55275,
-										5,
-										4.453,
-										2,
+										11.866,
+										10.33,
+										10,
+										6.969,
+										5.268,
+										4.868,
+										2.4,
 									},
 									["LifetimeDmg"] = {
-										217274.4,
-										70637.4,
-										60508.8,
-										45330,
-										34563.264,
-										10044.6336,
-										7582.1,
+										237513.6,
+										71604,
+										64696.32,
+										51940.8,
+										41760,
+										11713.536,
+										9566.0288,
 									},
 									["MagDmg"] = {
-										17871.84,
-										8272,
-										6308.28,
-										5670.711,
-										4208.832,
-										3572.8512,
-										993.68775,
+										19042.56,
+										8400,
+										6692.48,
+										6094.98,
+										4951.152,
+										3744,
+										2863.8336,
 									},
 									["Magazine"] = {
-										85.5,
+										87,
 										60,
 										60,
-										58.25,
-										50,
+										60,
+										54,
 										48,
 										45,
 									},
@@ -80696,49 +81826,49 @@ return {
 										1,
 									},
 									["ReloadSpeed"] = {
-										0.7475,
-										0.56746031746032,
-										0.54444444444444,
+										0.765,
+										0.57142857142857,
+										0.55555555555556,
+										0.51666666666667,
 										0.5,
-										0.5,
-										0.46027131782946,
-										0.4150641025641,
+										0.48604651162791,
+										0.41666666666667,
 									},
 									["ShotsPerMag"] = {
-										85.5,
+										87,
 										60,
 										60,
-										58.25,
-										50,
+										60,
+										54,
 										48,
 										45,
 									},
 									["StatusChance"] = {
-										0.281,
+										0.284,
 										0.22,
-										0.196,
+										0.204,
+										0.186,
 										0.18,
-										0.171,
-										0.10603,
-										0.091635,
+										0.11468,
+										0.09866,
 									},
 									["SustainedDps"] = {
-										877.24122935396,
-										790.05322047894,
-										596.36578461538,
-										553.26453009445,
-										536.16760157722,
-										321.97402597403,
-										151.91327538568,
+										878.16081956931,
+										830.80429397192,
+										618.97538461538,
+										570.35716923077,
+										549.65210318097,
+										418.32211252583,
+										250.18005657709,
 									},
 									["TotalDamage"] = {
-										257.1,
-										71.5,
-										64,
-										58.775,
-										52.55,
-										49.4,
-										32.9,
+										281.4,
+										72,
+										66,
+										61.5,
+										55.8,
+										50,
+										42,
 									},
 								},
 								["Top3"] = {
@@ -80765,7 +81895,6 @@ return {
 										[540] = {
 											"Boltor",
 											"Boltor Prime",
-											"Buzlok",
 											"Dera Vandal",
 											"Braton",
 											"Telos Boltor",
@@ -80792,7 +81921,6 @@ return {
 											"Boltor",
 											"Boltor Prime",
 											"Braton Vandal",
-											"Buzlok",
 											"Dera Vandal",
 											"Braton",
 											"Braton Prime",
@@ -80908,18 +82036,20 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.35] = {
+										[1.2] = {
+											"Boltor",
+											"Shedu",
+											"Boltor Prime",
+											"Braton Vandal",
+											"Haalvu",
 											"Dera Vandal",
+											"Acceltra Prime",
 											"Braton",
+											"Braton Prime",
+											"Telos Boltor",
 											"Mk1-Braton",
-											["Place"] = "Third",
-										},
-										[1.4] = {
 											"Dera",
-											["Place"] = "Second",
-										},
-										[1.45] = {
-											"Buzlok",
+											"Acceltra",
 											["Place"] = "First",
 										},
 									},
@@ -81012,7 +82142,6 @@ return {
 										{
 											"Shedu",
 											"Braton Vandal",
-											"Buzlok",
 											"Haalvu",
 											"Dera Vandal",
 											"Acceltra Prime",
@@ -81195,13 +82324,13 @@ return {
 										2.67,
 									},
 									["Disposition"] = {
-										1.35,
-										1.35,
-										1.34,
-										1.32875,
-										1.3175,
-										1.295,
-										1.2725,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FalloffEnd"] = {
 										3,
@@ -81455,16 +82584,10 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.25] = {
-											"Braton Prime",
-											["Place"] = "Third",
-										},
-										[1.3] = {
+										[1.2] = {
 											"Braton Vandal",
-											["Place"] = "Second",
-										},
-										[1.35] = {
 											"Braton",
+											"Braton Prime",
 											"Mk1-Braton",
 											["Place"] = "First",
 										},
@@ -81724,13 +82847,13 @@ return {
 										1.77,
 									},
 									["Disposition"] = {
-										1.37,
-										1.325,
-										1.24,
-										1.1725,
-										1.135,
-										1.1,
-										1.09,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										15,
@@ -81972,16 +83095,14 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.3] = {
-											"Prisma Gorgon",
-											["Place"] = "Third",
-										},
-										[1.35] = {
-											"Gorgon Wraith",
-											["Place"] = "Second",
-										},
-										[1.4] = {
+										[1.2] = {
 											"Gorgon",
+											"Soma",
+											"Supra Vandal",
+											"Soma Prime",
+											"Prisma Gorgon",
+											"Supra",
+											"Gorgon Wraith",
 											["Place"] = "First",
 										},
 									},
@@ -82222,13 +83343,13 @@ return {
 										2.02,
 									},
 									["Disposition"] = {
-										1.38,
-										1.35,
-										1.32,
-										1.305,
-										1.27,
-										1.18,
-										1.13,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										7,
@@ -82462,16 +83583,12 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.3] = {
-											"Prisma Gorgon",
-											["Place"] = "Third",
-										},
-										[1.35] = {
-											"Gorgon Wraith",
-											["Place"] = "Second",
-										},
-										[1.4] = {
+										[1.2] = {
 											"Gorgon",
+											"Soma",
+											"Soma Prime",
+											"Prisma Gorgon",
+											"Gorgon Wraith",
 											["Place"] = "First",
 										},
 									},
@@ -82709,13 +83826,13 @@ return {
 										1.96,
 									},
 									["Disposition"] = {
-										1.39,
-										1.375,
-										1.36,
-										1.3525,
-										1.345,
-										1.33,
-										1.315,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										1.1336,
@@ -82944,16 +84061,10 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.3] = {
-											"Prisma Gorgon",
-											["Place"] = "Third",
-										},
-										[1.35] = {
-											"Gorgon Wraith",
-											["Place"] = "Second",
-										},
-										[1.4] = {
+										[1.2] = {
 											"Gorgon",
+											"Prisma Gorgon",
+											"Gorgon Wraith",
 											["Place"] = "First",
 										},
 									},
@@ -83178,13 +84289,13 @@ return {
 										2,
 									},
 									["Disposition"] = {
-										1.302,
-										1.3,
-										1.29,
-										1.26,
-										1.23,
-										1.14,
-										1.1,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										7.002,
@@ -83297,9 +84408,9 @@ return {
 											"Dex Sybaris",
 											"Paracyst",
 											"Tiberon",
-											"Sybaris",
 											"Thornbak",
 											"Sybaris Prime",
+											"Sybaris",
 											["Place"] = "Second",
 										},
 										[840] = {
@@ -83313,9 +84424,9 @@ return {
 											"Dex Sybaris",
 											"Paracyst",
 											"Tiberon",
-											"Sybaris",
 											"Thornbak",
 											"Sybaris Prime",
+											"Sybaris",
 											["Place"] = "First",
 										},
 									},
@@ -83409,8 +84520,8 @@ return {
 											"Hema",
 											"Dex Sybaris",
 											"Paracyst",
-											"Sybaris",
 											"Sybaris Prime",
+											"Sybaris",
 											["Place"] = "Third",
 										},
 										[2.3] = {
@@ -83424,18 +84535,16 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.25] = {
+										[1.2] = {
 											"Quartakk",
-											["Place"] = "Third",
-										},
-										[1.3] = {
 											"Hema",
 											"Dex Sybaris",
-											"Sybaris",
-											["Place"] = "Second",
-										},
-										[1.31] = {
 											"Paracyst",
+											"Tiberon",
+											"Coda Hema",
+											"Thornbak",
+											"Sybaris Prime",
+											"Sybaris",
 											["Place"] = "First",
 										},
 									},
@@ -83503,10 +84612,10 @@ return {
 											"Dex Sybaris",
 											"Paracyst",
 											"Tiberon",
-											"Sybaris",
 											"Coda Hema",
 											"Thornbak",
 											"Sybaris Prime",
+											"Sybaris",
 											["Place"] = "First",
 										},
 									},
@@ -83677,13 +84786,13 @@ return {
 										1.9,
 									},
 									["Disposition"] = {
-										1.307,
-										1.3025,
-										1.3,
-										1.3,
-										1.3,
-										1.29,
-										1.245,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										4.499,
@@ -83796,8 +84905,8 @@ return {
 										[540] = {
 											"Dex Sybaris",
 											"Paracyst",
-											"Sybaris",
 											"Sybaris Prime",
+											"Sybaris",
 											["Place"] = "First",
 										},
 									},
@@ -83805,8 +84914,8 @@ return {
 										[80] = {
 											"Dex Sybaris",
 											"Paracyst",
-											"Sybaris",
 											"Sybaris Prime",
+											"Sybaris",
 											["Place"] = "First",
 										},
 									},
@@ -83902,31 +85011,25 @@ return {
 										},
 										[3] = {
 											"Dex Sybaris",
-											"Sybaris",
 											"Sybaris Prime",
+											"Sybaris",
 											["Place"] = "First",
 										},
 									},
 									["Disposition"] = {
 										[1.2] = {
-											"Sybaris Prime",
-											["Place"] = "Third",
-										},
-										[1.3] = {
 											"Dex Sybaris",
-											"Sybaris",
-											["Place"] = "Second",
-										},
-										[1.31] = {
 											"Paracyst",
+											"Sybaris Prime",
+											"Sybaris",
 											["Place"] = "First",
 										},
 									},
 									["FireRate"] = {
 										[3.33] = {
 											"Dex Sybaris",
-											"Sybaris",
 											"Sybaris Prime",
+											"Sybaris",
 											["Place"] = "Second",
 										},
 										[5] = {
@@ -83980,16 +85083,16 @@ return {
 										{
 											"Dex Sybaris",
 											"Paracyst",
-											"Sybaris",
 											"Sybaris Prime",
+											"Sybaris",
 											["Place"] = "First",
 										},
 									},
 									["ReloadSpeed"] = {
 										[0.5] = {
 											"Paracyst",
-											"Sybaris",
 											"Sybaris Prime",
+											"Sybaris",
 											["Place"] = "Second",
 										},
 										[0.66666666666667] = {
@@ -84137,13 +85240,13 @@ return {
 										1,
 									},
 									["Disposition"] = {
-										1.31,
-										1.31,
-										1.31,
-										1.31,
-										1.31,
-										1.31,
-										1.31,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										1,
@@ -84284,7 +85387,7 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.31] = {
+										[1.2] = {
 											"Paracyst",
 											["Place"] = "First",
 										},
@@ -84448,13 +85551,13 @@ return {
 										2,
 									},
 									["Disposition"] = {
-										1.358,
-										1.3,
-										1.18,
-										0.97,
-										0.88,
-										0.76,
-										0.66,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										12,
@@ -84700,16 +85803,16 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.3] = {
-											"Glaxion",
-											["Place"] = "Third",
-										},
-										[1.31] = {
-											"Synapse",
-											["Place"] = "Second",
-										},
-										[1.55] = {
+										[1.2] = {
+											"Ignis",
+											"Amprex",
 											"Flux Rifle",
+											"Coda Synapse",
+											"Synapse",
+											"Tenet Glaxion",
+											"Ignis Wraith",
+											"Glaxion",
+											"Glaxion Vandal",
 											["Place"] = "First",
 										},
 									},
@@ -84958,13 +86061,13 @@ return {
 										2.205,
 									},
 									["Disposition"] = {
-										1.365,
-										1.3125,
-										1.3,
-										1.3,
-										1.3,
-										1.255,
-										0.965,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										4.419,
@@ -85209,18 +86312,15 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.3] = {
-											"Grinlok",
-											"Veldt",
-											"Latron Prime",
-											["Place"] = "Third",
-										},
-										[1.35] = {
-											"Latron Wraith",
-											["Place"] = "Second",
-										},
-										[1.4] = {
+										[1.2] = {
 											"Latron",
+											"Grinlok",
+											"Vinquibus (Primary)",
+											"Veldt",
+											"Latron Wraith",
+											"Prisma Grinlok",
+											"Latron Prime",
+											"Kuva Chakkhurr",
 											["Place"] = "First",
 										},
 									},
@@ -85467,13 +86567,13 @@ return {
 										2.615,
 									},
 									["Disposition"] = {
-										1.385,
-										1.3625,
-										1.34,
-										1.32875,
-										1.3175,
-										1.265,
-										1.1075,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										3.568,
@@ -85704,16 +86804,11 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.3] = {
-											"Latron Prime",
-											["Place"] = "Third",
-										},
-										[1.35] = {
-											"Latron Wraith",
-											["Place"] = "Second",
-										},
-										[1.4] = {
+										[1.2] = {
 											"Latron",
+											"Latron Wraith",
+											"Latron Prime",
+											"Kuva Chakkhurr",
 											["Place"] = "First",
 										},
 									},
@@ -85940,13 +87035,13 @@ return {
 										3.12,
 									},
 									["Disposition"] = {
-										1.39,
-										1.375,
-										1.36,
-										1.3525,
-										1.345,
-										1.33,
-										1.315,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										3.602,
@@ -86160,16 +87255,10 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.3] = {
-											"Latron Prime",
-											["Place"] = "Third",
-										},
-										[1.35] = {
-											"Latron Wraith",
-											["Place"] = "Second",
-										},
-										[1.4] = {
+										[1.2] = {
 											"Latron",
+											"Latron Wraith",
+											"Latron Prime",
 											["Place"] = "First",
 										},
 									},
@@ -86297,22 +87386,22 @@ return {
 					{
 						["Percentiles"] = {
 							["Accuracy"] = {
-								70,
+								100,
 								25,
 								9.1,
 								9.1,
 								9.1,
-								8,
+								8.109,
 								5,
 							},
 							["AmmoMax"] = {
-								478,
-								200,
+								441,
+								183.75,
 								120,
 								120,
 								120,
 								120,
-								54,
+								48.65,
 							},
 							["AmmoPickup"] = {
 								40,
@@ -86325,182 +87414,182 @@ return {
 							},
 							["AvgCritCount"] = {
 								1.8,
-								1.61,
+								1.54,
 								0.9,
 								0.8,
-								0.71,
-								0.448,
-								0.198,
+								0.686,
+								0.336,
+								0.1855,
 							},
 							["AvgProcCount"] = {
 								1.332,
-								1.05,
+								1.0275,
 								0.9,
 								0.84,
-								0.80232,
-								0.64624,
-								0.456,
+								0.78276,
+								0.63203,
+								0.382,
 							},
 							["AvgShotDmg"] = {
-								1406.108,
-								834.624,
-								641.90168,
-								482.2512,
-								394.8,
-								285.4912,
-								94.374,
+								1393.206,
+								833.868,
+								627.55336,
+								525.1175,
+								408.975,
+								300.4626,
+								95.508,
 							},
 							["BaseDps"] = {
-								2123.136,
-								1321.53,
-								1010.7,
-								962.25,
-								889.072,
-								746.784,
-								425.2,
+								2117.352,
+								1329.3825,
+								1026,
+								978.4375,
+								920.734,
+								751,
+								427.15,
 							},
 							["BurstDps"] = {
-								2719.8,
-								1839.292416,
-								1377.8352,
-								1213.092,
-								1133.1984,
-								882.3296,
-								505.8148,
+								2717.1,
+								1817.229312,
+								1410.17065,
+								1231.799375,
+								1160.0148,
+								891.3138,
+								508.07035,
 							},
 							["CritChance"] = {
 								0.25,
-								0.22,
+								0.2175,
 								0.19,
 								0.18,
-								0.162,
+								0.1665,
 								0.11,
-								0.088,
+								0.091,
 							},
 							["CritMultiplier"] = {
 								2.4,
-								2.3,
-								2.1,
+								2.275,
+								2.12,
 								2,
 								2,
 								2,
-								1.72,
+								1.765,
 							},
 							["Disposition"] = {
-								1.42,
-								1.3,
-								1.18,
-								1.145,
-								1.1,
-								0.95,
-								0.69,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FalloffEnd"] = {
-								60,
+								59.2,
 								41,
-								36,
+								33.6,
 								30,
-								27,
+								25.95,
 								25,
 								20,
 							},
 							["FalloffRate"] = {
-								44,
-								32.916666666667,
-								26.998650067497,
-								25.528822808723,
-								20.763250806218,
+								43.6,
+								32.708333333333,
+								26.957439756025,
+								25.956296679425,
+								20.977270127874,
 								20,
-								14.259519899914,
+								14.314997263273,
 							},
 							["FireRate"] = {
-								7.998,
-								4.17,
+								7.331,
+								4.085,
 								3.33,
 								3,
 								2.5,
-								2.064,
+								2.089,
 								1.17,
 							},
 							["LifetimeDmg"] = {
-								156936.28608,
-								108501.12,
-								71738.016,
-								67034.158,
-								58665.1776,
-								44531.168,
-								24977.4,
+								155550.83376,
+								106628.34,
+								71652.672,
+								65027.4635,
+								57237.8568,
+								42053.616,
+								25201.05,
 							},
 							["MagDmg"] = {
-								15174.464,
-								8346.24,
-								6264,
-								4892.99808,
-								4560.896,
-								3333.6,
-								2229.612,
+								15089.648,
+								8344.664,
+								6834.432,
+								5045.3184,
+								4731.392,
+								3458.4,
+								2249.709,
 							},
 							["Magazine"] = {
-								52,
-								24,
-								18.4,
-								11,
-								10.2,
-								6.8,
+								49,
+								23,
+								16.8,
+								11.425,
+								10.65,
+								7.1,
 								4,
 							},
 							["Multishot"] = {
 								10,
-								8,
+								7.75,
 								7,
 								6,
 								6,
-								4.8,
+								4.1,
 								1,
 							},
 							["ReloadSpeed"] = {
-								0.64166666666667,
+								0.6375,
 								0.5,
 								0.5,
-								0.47402597402597,
-								0.43671497584541,
-								0.36902356902357,
-								0.26810810810811,
+								0.46374458874459,
+								0.43478260869565,
+								0.37037037037037,
+								0.26864864864865,
 							},
 							["ShotsPerMag"] = {
-								80,
-								24,
+								70,
+								23.5,
 								20,
-								15.6,
-								10.2,
-								6.8,
+								13.7,
+								10.65,
+								7.1,
 								4,
 							},
 							["StatusChance"] = {
-								0.382,
-								0.222,
-								0.1592,
-								0.1317,
-								0.114,
-								0.09232,
-								0.0612,
+								0.379,
+								0.2655,
+								0.1632,
+								0.135975,
+								0.117375,
+								0.0937529,
+								0.06165,
 							},
 							["SustainedDps"] = {
-								1257.2856870755,
-								1067.7966101695,
-								905.60695443902,
-								821.17994747899,
-								726.71279775173,
-								595.07306448419,
-								333.52504234314,
+								1249.3928367352,
+								1079.6491525424,
+								924.7776788222,
+								840.4275,
+								727.93808802022,
+								604.1927820895,
+								344.7249820023,
 							},
 							["TotalDamage"] = {
-								1044,
-								609,
-								475,
-								381.5,
+								1043,
+								606.75,
+								489,
+								391.375,
 								320,
-								215.2,
+								224.6,
 								90,
 							},
 						},
@@ -86521,6 +87610,7 @@ return {
 								[100] = {
 									"Phantasma",
 									"Coda Bassocyst",
+									"Steflos Prime",
 									"Steflos",
 									"Phantasma Prime",
 									["Place"] = "First",
@@ -86550,14 +87640,15 @@ return {
 									"Arca Plasmor",
 									"Corinth",
 									"Cedo Prime",
-									"Strun Prime",
+									"Strun",
 									"Vaykor Hek",
 									"Tigris",
 									"Exergis",
 									"Kuva Sobek",
 									"Drakgoon",
 									"Strun Wraith",
-									"Strun",
+									"Strun Prime",
+									"Steflos Prime",
 									"Steflos",
 									"Sobek",
 									"Rauta",
@@ -86675,8 +87766,8 @@ return {
 							["CritMultiplier"] = {
 								[2.3] = {
 									"Kohm",
-									"Kuva Kohm",
 									"Kuva Sobek",
+									"Kuva Kohm",
 									"Bubonico",
 									"Coda Bubonico",
 									["Place"] = "Third",
@@ -86694,19 +87785,45 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.4] = {
-									"Drakgoon",
+								[1.2] = {
+									"Phantasma",
+									"Hek",
+									"Corinth Prime",
+									"Cedo",
+									"Coda Bassocyst",
+									"Kohm",
+									"Astilla Prime",
+									"Arca Plasmor",
+									"Corinth",
+									"Boar Prime",
+									"Cedo Prime",
 									"Strun",
-									["Place"] = "Third",
-								},
-								[1.45] = {
-									"Mk1-Strun",
-									"Boar",
-									["Place"] = "Second",
-								},
-								[1.46] = {
+									"Vaykor Hek",
 									"Phage",
+									"Tigris",
+									"Exergis",
+									"Kuva Sobek",
+									"Kuva Kohm",
+									"Drakgoon",
+									"Strun Wraith",
+									"Strun Prime",
+									"Steflos Prime",
+									"Steflos",
+									"Sobek",
+									"Rauta",
+									"Felarx",
+									"Astilla",
+									"Sancti Tigris",
+									"Kuva Drakgoon",
+									"Phantasma Prime",
+									"Kuva Hek",
+									"Bubonico",
+									"Mk1-Strun",
+									"Coda Bubonico",
+									"Boar",
 									"Convectrix",
+									"Tigris Prime",
+									"Tenet Arca Plasmor",
 									["Place"] = "First",
 								},
 							},
@@ -86818,8 +87935,8 @@ return {
 									["Place"] = "Second",
 								},
 								[12] = {
-									"Strun Prime",
 									"Strun",
+									"Strun Prime",
 									["Place"] = "First",
 								},
 							},
@@ -86989,13 +88106,13 @@ return {
 								1.6,
 							},
 							["Disposition"] = {
-								1.435,
-								1.3425,
 								1.2,
-								1.15375,
-								1.1175,
-								0.89,
-								0.6225,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FalloffEnd"] = {
 								28.4,
@@ -87121,9 +88238,9 @@ return {
 									"Phantasma",
 									"Coda Bassocyst",
 									"Boar Prime",
-									"Strun Prime",
-									"Strun Wraith",
 									"Strun",
+									"Strun Wraith",
+									"Strun Prime",
 									"Phantasma Prime",
 									"Bubonico",
 									"Mk1-Strun",
@@ -87154,10 +88271,10 @@ return {
 									"Coda Bassocyst",
 									"Corinth",
 									"Cedo Prime",
-									"Strun Prime",
+									"Strun",
 									"Drakgoon",
 									"Strun Wraith",
-									"Strun",
+									"Strun Prime",
 									"Felarx",
 									"Kuva Drakgoon",
 									"Phantasma Prime",
@@ -87271,8 +88388,8 @@ return {
 									["Place"] = "Third",
 								},
 								[3.4] = {
-									"Strun Prime",
 									"Strun Wraith",
+									"Strun Prime",
 									["Place"] = "Second",
 								},
 								[3.5] = {
@@ -87282,17 +88399,30 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.4] = {
-									"Drakgoon",
+								[1.2] = {
+									"Phantasma",
+									"Corinth Prime",
+									"Cedo",
+									"Coda Bassocyst",
+									"Kohm",
+									"Astilla Prime",
+									"Corinth",
+									"Boar Prime",
+									"Cedo Prime",
 									"Strun",
-									["Place"] = "Third",
-								},
-								[1.45] = {
+									"Kuva Kohm",
+									"Drakgoon",
+									"Strun Wraith",
+									"Strun Prime",
+									"Felarx",
+									"Astilla",
+									"Kuva Drakgoon",
+									"Phantasma Prime",
+									"Kuva Hek",
+									"Bubonico",
 									"Mk1-Strun",
+									"Coda Bubonico",
 									"Boar",
-									["Place"] = "Second",
-								},
-								[1.46] = {
 									"Convectrix",
 									["Place"] = "First",
 								},
@@ -87565,13 +88695,13 @@ return {
 								1.5,
 							},
 							["Disposition"] = {
-								1.395,
-								1.2375,
-								1.13,
-								1.0775,
-								0.99,
-								0.765,
-								0.615,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FalloffEnd"] = {
 								9.16,
@@ -87722,9 +88852,9 @@ return {
 									"Cedo",
 									"Corinth",
 									"Cedo Prime",
-									"Strun Prime",
-									"Strun Wraith",
 									"Strun",
+									"Strun Wraith",
+									"Strun Prime",
 									"Phantasma Prime",
 									"Mk1-Strun",
 									["Place"] = "First",
@@ -87824,8 +88954,8 @@ return {
 									["Place"] = "Third",
 								},
 								[3.4] = {
-									"Strun Prime",
 									"Strun Wraith",
+									"Strun Prime",
 									["Place"] = "Second",
 								},
 								[3.5] = {
@@ -87835,16 +88965,19 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
-									"Strun Wraith",
-									["Place"] = "Third",
-								},
-								[1.4] = {
+								[1.2] = {
+									"Phantasma",
+									"Corinth Prime",
+									"Cedo",
+									"Corinth",
+									"Cedo Prime",
 									"Strun",
-									["Place"] = "Second",
-								},
-								[1.45] = {
+									"Strun Wraith",
+									"Strun Prime",
+									"Phantasma Prime",
+									"Bubonico",
 									"Mk1-Strun",
+									"Coda Bubonico",
 									["Place"] = "First",
 								},
 							},
@@ -87874,9 +89007,9 @@ return {
 									["Place"] = "Second",
 								},
 								[20] = {
-									"Strun Prime",
-									"Strun Wraith",
 									"Strun",
+									"Strun Wraith",
+									"Strun Prime",
 									"Mk1-Strun",
 									["Place"] = "First",
 								},
@@ -87884,8 +89017,8 @@ return {
 							["FireRate"] = {
 								[2] = {
 									"Phantasma",
-									"Strun Wraith",
 									"Strun",
+									"Strun Wraith",
 									"Phantasma Prime",
 									["Place"] = "Third",
 								},
@@ -87949,9 +89082,9 @@ return {
 									"Cedo",
 									"Corinth",
 									"Cedo Prime",
-									"Strun Prime",
-									"Strun Wraith",
 									"Strun",
+									"Strun Wraith",
+									"Strun Prime",
 									"Phantasma Prime",
 									"Bubonico",
 									"Mk1-Strun",
@@ -87976,8 +89109,8 @@ return {
 							},
 							["ShotsPerMag"] = {
 								[10] = {
-									"Strun Prime",
 									"Strun Wraith",
+									"Strun Prime",
 									["Place"] = "Third",
 								},
 								[11] = {
@@ -88023,8 +89156,8 @@ return {
 							},
 							["TotalDamage"] = {
 								[200] = {
-									"Strun Prime",
 									"Strun Wraith",
+									"Strun Prime",
 									["Place"] = "Third",
 								},
 								[404] = {
@@ -88131,13 +89264,13 @@ return {
 								1.5,
 							},
 							["Disposition"] = {
-								1.07,
-								1.025,
-								0.98,
-								0.9575,
-								0.935,
-								0.89,
-								0.845,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								2,
@@ -88305,12 +89438,9 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.8] = {
-									"Phantasma Prime",
-									["Place"] = "Second",
-								},
-								[1.1] = {
+								[1.2] = {
 									"Phantasma",
+									"Phantasma Prime",
 									["Place"] = "First",
 								},
 							},
@@ -88482,13 +89612,13 @@ return {
 								1.5,
 							},
 							["Disposition"] = {
-								1.07,
-								1.025,
-								0.98,
-								0.9575,
-								0.935,
-								0.89,
-								0.845,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								2,
@@ -88656,12 +89786,9 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.8] = {
-									"Phantasma Prime",
-									["Place"] = "Second",
-								},
-								[1.1] = {
+								[1.2] = {
 									"Phantasma",
+									"Phantasma Prime",
 									["Place"] = "First",
 								},
 							},
@@ -88837,13 +89964,13 @@ return {
 										1.8,
 									},
 									["Disposition"] = {
-										1.395,
-										1.3375,
-										1.33,
-										1.31875,
-										1.3075,
-										1.25,
-										1.1,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FalloffEnd"] = {
 										80,
@@ -89105,15 +90232,12 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.33] = {
-											"Sobek",
-											["Place"] = "Third",
-										},
-										[1.34] = {
+										[1.2] = {
+											"Astilla Prime",
 											"Boar Prime",
-											["Place"] = "Second",
-										},
-										[1.45] = {
+											"Kuva Sobek",
+											"Sobek",
+											"Astilla",
 											"Boar",
 											["Place"] = "First",
 										},
@@ -89393,13 +90517,13 @@ return {
 										1.845,
 									},
 									["Disposition"] = {
-										1.417,
-										1.3675,
-										1.332,
-										1.323,
-										1.314,
-										1.29,
-										1.245,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FalloffEnd"] = {
 										2.4,
@@ -89644,15 +90768,10 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.3] = {
-											"Astilla",
-											["Place"] = "Third",
-										},
-										[1.34] = {
+										[1.2] = {
+											"Astilla Prime",
 											"Boar Prime",
-											["Place"] = "Second",
-										},
-										[1.45] = {
+											"Astilla",
 											"Boar",
 											["Place"] = "First",
 										},
@@ -89819,13 +90938,13 @@ return {
 							{
 								["Percentiles"] = {
 									["Accuracy"] = {
-										66.16,
+										100,
+										10.675,
 										9.1,
 										9.1,
 										9.1,
-										9.1,
-										9.092,
-										4.27,
+										9.095,
+										4.675,
 									},
 									["AmmoMax"] = {
 										120,
@@ -89833,8 +90952,8 @@ return {
 										120,
 										120,
 										120,
-										100.8,
-										47.3,
+										73,
+										41.75,
 									},
 									["AmmoPickup"] = {
 										15,
@@ -89847,183 +90966,183 @@ return {
 									},
 									["AvgCritCount"] = {
 										1.8,
-										1.775,
-										1.184,
-										0.8025,
-										0.715,
-										0.288,
-										0.22,
+										1.7625,
+										0.9,
+										0.74375,
+										0.645,
+										0.23,
+										0.19,
 									},
 									["AvgProcCount"] = {
-										1.316,
-										1.02,
-										0.85264,
-										0.76699,
+										1.31,
+										0.99,
+										0.8004,
 										0.749,
-										0.6,
-										0.414,
+										0.71175,
+										0.57,
+										0.37,
 									},
 									["AvgShotDmg"] = {
-										1536.63488,
-										1161.6616,
-										832.8096,
+										1527.7824,
+										1132.0308,
 										831.6,
-										724.92,
-										593.25,
-										385.024,
+										812.55,
+										673.4625,
+										580.59,
+										401.92,
 									},
 									["BaseDps"] = {
-										1473.612,
-										1075.875,
-										976,
-										950.484,
-										866.008,
-										761.36,
-										669,
+										1507.5,
+										1184.82,
+										1000,
+										958.17,
+										917.02,
+										763.4,
+										682.5,
 									},
 									["BurstDps"] = {
-										2377.1420064,
-										1661.406208,
-										1230.87,
-										1193.1668,
-										1139.1576,
-										987.3576,
-										788.5045,
+										2309.076672,
+										1773.103104,
+										1253.175,
+										1211.609,
+										1165.974,
+										1008.936,
+										804.07375,
 									},
 									["CritChance"] = {
-										0.28,
-										0.235,
+										0.275,
+										0.2325,
 										0.22,
-										0.194,
 										0.18,
-										0.108,
-										0.0755,
+										0.18,
+										0.12,
+										0.07625,
 									},
 									["CritMultiplier"] = {
-										2.56,
+										2.5,
 										2.2,
-										2.14,
-										2.035,
+										2.2,
+										2.0875,
 										2,
 										2,
-										1.64,
+										1.7,
 									},
 									["Disposition"] = {
-										1.38,
-										1.225,
-										1.17,
-										1.15,
-										1.115,
-										1.02,
-										0.955,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FalloffEnd"] = {
-										56.8,
+										56,
 										36,
-										32.4,
 										30,
-										26.5,
+										29.375,
 										25,
+										24.5,
 										20,
 									},
 									["FalloffRate"] = {
-										36.638695329874,
-										32.916666666667,
-										28.758736267147,
-										27.325052033042,
-										22.418427694461,
-										18.492753623188,
-										12.74992500375,
+										36.532246108228,
+										32.708333333333,
+										27.931227111911,
+										26.82381880906,
+										24.313868812219,
+										19.057971014493,
+										13.124812509375,
 									},
 									["FireRate"] = {
-										3.198,
-										2.75,
-										2.302,
+										3.165,
+										3,
+										2.5,
 										2.17,
-										2.107,
-										1.22,
-										1.107,
+										2.1475,
+										1.295,
+										1.1175,
 									},
 									["LifetimeDmg"] = {
-										145515.72608,
+										144046.0384,
 										116424,
-										93800.448,
-										81561.408,
-										75997.696,
-										64907.6,
-										39370.95,
+										84000,
+										79489.28,
+										73534.5,
+										51992,
+										30816.855,
 									},
 									["MagDmg"] = {
-										15913.28,
-										7569.12,
-										5030.21568,
-										4870.89248,
-										4598.784,
-										4208.32,
-										1911.75,
+										15733.6,
+										7339.68,
+										5250,
+										4881.2312,
+										4769.28,
+										4283.8,
+										1978.125,
 									},
 									["Magazine"] = {
-										16.8,
+										16,
+										10.5,
 										10,
-										10,
-										8.7,
-										6.6,
-										5.2,
+										9.75,
+										7.5,
+										5.5,
 										4,
 									},
 									["Multishot"] = {
-										11.2,
-										9,
+										11,
+										8.5,
 										7,
-										7,
-										6.3,
-										3.6,
+										6.875,
+										6,
+										2,
 										1,
 									},
 									["ReloadSpeed"] = {
-										0.58552631578947,
-										0.47222222222222,
-										0.42391304347826,
-										0.40583333333333,
-										0.37,
+										0.57565789473684,
+										0.45833333333333,
+										0.41666666666667,
+										0.41458333333333,
+										0.38928571428571,
 										0.33333333333333,
 										0.26666666666667,
 									},
 									["ShotsPerMag"] = {
-										16.8,
+										16,
+										10.5,
 										10,
-										10,
-										8.7,
-										6.6,
-										5.2,
+										9.75,
+										7.5,
+										5.5,
 										4,
 									},
 									["StatusChance"] = {
-										0.352,
-										0.25,
-										0.1252,
+										0.35,
+										0.28,
+										0.133,
 										0.12,
-										0.1109,
-										0.0934,
-										0.06067,
+										0.11675,
+										0.0985,
+										0.061675,
 									},
 									["SustainedDps"] = {
-										1239.2533657781,
-										1082.7761627354,
-										917.2714840388,
-										770.21863260063,
-										703.92774193548,
-										607.34239871138,
-										543.51926605505,
+										1222.9060099433,
+										1095.2389288253,
+										973.51360263809,
+										858.70787182415,
+										708.61935483871,
+										616.79124857701,
+										548.13149847095,
 									},
 									["TotalDamage"] = {
-										947.2,
-										704,
-										603.6,
-										561,
+										924,
+										676,
+										600,
 										540,
-										525,
-										328,
+										536.25,
+										502.5,
+										340,
 									},
 								},
 								["Top3"] = {
@@ -90033,8 +91152,8 @@ return {
 											"Corinth Prime",
 											"Arca Plasmor",
 											"Corinth",
-											"Strun Prime",
 											"Vaykor Hek",
+											"Strun Prime",
 											"Tenet Arca Plasmor",
 											["Place"] = "Third",
 										},
@@ -90044,6 +91163,7 @@ return {
 										},
 										[100] = {
 											"Coda Bassocyst",
+											"Steflos Prime",
 											"Steflos",
 											["Place"] = "First",
 										},
@@ -90056,10 +91176,10 @@ return {
 										[120] = {
 											"Hek",
 											"Corinth Prime",
-											"Strun Prime",
+											"Strun",
 											"Vaykor Hek",
 											"Strun Wraith",
-											"Strun",
+											"Strun Prime",
 											"Rauta",
 											"Kuva Hek",
 											"Mk1-Strun",
@@ -90077,11 +91197,12 @@ return {
 											"Coda Bassocyst",
 											"Arca Plasmor",
 											"Corinth",
-											"Strun Prime",
+											"Strun",
 											"Vaykor Hek",
 											"Exergis",
 											"Strun Wraith",
-											"Strun",
+											"Strun Prime",
+											"Steflos Prime",
 											"Steflos",
 											"Rauta",
 											"Kuva Hek",
@@ -90135,8 +91256,8 @@ return {
 										},
 									},
 									["BaseDps"] = {
-										[1321.53] = {
-											"Kuva Hek",
+										[1440] = {
+											"Steflos Prime",
 											["Place"] = "Third",
 										},
 										[1575] = {
@@ -90184,8 +91305,9 @@ return {
 										},
 										[2.2] = {
 											"Coda Bassocyst",
-											"Strun Prime",
 											"Strun Wraith",
+											"Strun Prime",
+											"Steflos Prime",
 											"Steflos",
 											["Place"] = "Second",
 										},
@@ -90196,16 +91318,23 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.35] = {
-											"Strun Wraith",
-											["Place"] = "Third",
-										},
-										[1.4] = {
+										[1.2] = {
+											"Hek",
+											"Corinth Prime",
+											"Coda Bassocyst",
+											"Arca Plasmor",
+											"Corinth",
 											"Strun",
-											["Place"] = "Second",
-										},
-										[1.45] = {
+											"Vaykor Hek",
+											"Exergis",
+											"Strun Wraith",
+											"Strun Prime",
+											"Steflos Prime",
+											"Steflos",
+											"Rauta",
+											"Kuva Hek",
 											"Mk1-Strun",
+											"Tenet Arca Plasmor",
 											["Place"] = "First",
 										},
 									},
@@ -90242,18 +91371,19 @@ return {
 									},
 									["FireRate"] = {
 										[2.5] = {
-											"Strun Wraith",
 											"Strun",
+											"Strun Wraith",
 											["Place"] = "Third",
 										},
 										[3] = {
 											"Vaykor Hek",
+											"Steflos Prime",
 											"Steflos",
 											["Place"] = "Second",
 										},
 										[3.33] = {
-											"Strun Prime",
 											"Exergis",
+											"Strun Prime",
 											["Place"] = "First",
 										},
 									},
@@ -90287,6 +91417,7 @@ return {
 									},
 									["Magazine"] = {
 										[12] = {
+											"Steflos Prime",
 											"Steflos",
 											["Place"] = "Third",
 										},
@@ -90310,8 +91441,8 @@ return {
 											["Place"] = "Second",
 										},
 										[12] = {
-											"Strun Prime",
 											"Strun",
+											"Strun Prime",
 											["Place"] = "First",
 										},
 									},
@@ -90331,6 +91462,7 @@ return {
 									},
 									["ShotsPerMag"] = {
 										[12] = {
+											"Steflos Prime",
 											"Steflos",
 											["Place"] = "Third",
 										},
@@ -90480,13 +91612,13 @@ return {
 										1.625,
 									},
 									["Disposition"] = {
-										1.415,
-										1.3625,
-										1.23,
-										1.18375,
-										1.1575,
-										1.015,
-										1,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FalloffEnd"] = {
 										30,
@@ -90610,9 +91742,9 @@ return {
 										},
 										[100] = {
 											"Coda Bassocyst",
-											"Strun Prime",
-											"Strun Wraith",
 											"Strun",
+											"Strun Wraith",
+											"Strun Prime",
 											"Mk1-Strun",
 											["Place"] = "First",
 										},
@@ -90624,9 +91756,9 @@ return {
 										},
 										[120] = {
 											"Corinth Prime",
-											"Strun Prime",
-											"Strun Wraith",
 											"Strun",
+											"Strun Wraith",
+											"Strun Prime",
 											"Kuva Hek",
 											"Mk1-Strun",
 											["Place"] = "Second",
@@ -90641,9 +91773,9 @@ return {
 											"Corinth Prime",
 											"Coda Bassocyst",
 											"Corinth",
-											"Strun Prime",
-											"Strun Wraith",
 											"Strun",
+											"Strun Wraith",
+											"Strun Prime",
 											"Kuva Hek",
 											"Mk1-Strun",
 											["Place"] = "First",
@@ -90744,21 +91876,20 @@ return {
 											["Place"] = "Second",
 										},
 										[3.4] = {
-											"Strun Prime",
 											"Strun Wraith",
+											"Strun Prime",
 											["Place"] = "First",
 										},
 									},
 									["Disposition"] = {
-										[1.35] = {
-											"Strun Wraith",
-											["Place"] = "Third",
-										},
-										[1.4] = {
+										[1.2] = {
+											"Corinth Prime",
+											"Coda Bassocyst",
+											"Corinth",
 											"Strun",
-											["Place"] = "Second",
-										},
-										[1.45] = {
+											"Strun Wraith",
+											"Strun Prime",
+											"Kuva Hek",
 											"Mk1-Strun",
 											["Place"] = "First",
 										},
@@ -90781,8 +91912,8 @@ return {
 											["Place"] = "Third",
 										},
 										[2] = {
-											"Strun Wraith",
 											"Strun",
+											"Strun Wraith",
 											["Place"] = "Second",
 										},
 										[2.5] = {
@@ -90820,8 +91951,8 @@ return {
 									},
 									["Magazine"] = {
 										[10] = {
-											"Strun Prime",
 											"Strun Wraith",
+											"Strun Prime",
 											["Place"] = "Third",
 										},
 										[20] = {
@@ -90837,9 +91968,9 @@ return {
 										{
 											"Corinth Prime",
 											"Corinth",
-											"Strun Prime",
-											"Strun Wraith",
 											"Strun",
+											"Strun Wraith",
+											"Strun Prime",
 											"Mk1-Strun",
 											["Place"] = "Third",
 										},
@@ -90873,8 +92004,8 @@ return {
 											["Place"] = "Third",
 										},
 										[10] = {
-											"Strun Prime",
 											"Strun Wraith",
+											"Strun Prime",
 											["Place"] = "Second",
 										},
 										[24] = {
@@ -90914,9 +92045,9 @@ return {
 										[100] = {
 											"Corinth Prime",
 											"Corinth",
-											"Strun Prime",
-											"Strun Wraith",
 											"Strun",
+											"Strun Wraith",
+											"Strun Prime",
 											"Mk1-Strun",
 											["Place"] = "Third",
 										},
@@ -91024,13 +92155,13 @@ return {
 										1.6,
 									},
 									["Disposition"] = {
-										1.425,
-										1.3875,
-										1.35,
-										1.29375,
-										1.2375,
-										1.175,
-										1.1125,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FalloffEnd"] = {
 										9.6,
@@ -91162,9 +92293,9 @@ return {
 									["AmmoMax"] = {
 										[120] = {
 											"Corinth Prime",
-											"Strun Prime",
-											"Strun Wraith",
 											"Strun",
+											"Strun Wraith",
+											"Strun Prime",
 											"Mk1-Strun",
 											["Place"] = "Second",
 										},
@@ -91177,9 +92308,9 @@ return {
 										[15] = {
 											"Corinth Prime",
 											"Corinth",
-											"Strun Prime",
-											"Strun Wraith",
 											"Strun",
+											"Strun Wraith",
+											"Strun Prime",
 											"Mk1-Strun",
 											["Place"] = "First",
 										},
@@ -91281,30 +92412,27 @@ return {
 											["Place"] = "Second",
 										},
 										[3.4] = {
-											"Strun Prime",
 											"Strun Wraith",
+											"Strun Prime",
 											["Place"] = "First",
 										},
 									},
 									["Disposition"] = {
-										[1.35] = {
-											"Strun Wraith",
-											["Place"] = "Third",
-										},
-										[1.4] = {
+										[1.2] = {
+											"Corinth Prime",
+											"Corinth",
 											"Strun",
-											["Place"] = "Second",
-										},
-										[1.45] = {
+											"Strun Wraith",
+											"Strun Prime",
 											"Mk1-Strun",
 											["Place"] = "First",
 										},
 									},
 									["FalloffEnd"] = {
 										[4] = {
-											"Strun Prime",
-											"Strun Wraith",
 											"Strun",
+											"Strun Wraith",
+											"Strun Prime",
 											"Mk1-Strun",
 											["Place"] = "Third",
 										},
@@ -91327,9 +92455,9 @@ return {
 											["Place"] = "Second",
 										},
 										[20] = {
-											"Strun Prime",
-											"Strun Wraith",
 											"Strun",
+											"Strun Wraith",
+											"Strun Prime",
 											"Mk1-Strun",
 											["Place"] = "First",
 										},
@@ -91340,8 +92468,8 @@ return {
 											["Place"] = "Third",
 										},
 										[2] = {
-											"Strun Wraith",
 											"Strun",
+											"Strun Wraith",
 											["Place"] = "Second",
 										},
 										[2.5] = {
@@ -91384,8 +92512,8 @@ return {
 											["Place"] = "Third",
 										},
 										[10] = {
-											"Strun Prime",
 											"Strun Wraith",
+											"Strun Prime",
 											["Place"] = "Second",
 										},
 										[20] = {
@@ -91397,9 +92525,9 @@ return {
 										{
 											"Corinth Prime",
 											"Corinth",
-											"Strun Prime",
-											"Strun Wraith",
 											"Strun",
+											"Strun Wraith",
+											"Strun Prime",
 											"Mk1-Strun",
 											["Place"] = "First",
 										},
@@ -91431,8 +92559,8 @@ return {
 											["Place"] = "Second",
 										},
 										[10] = {
-											"Strun Prime",
 											"Strun Wraith",
+											"Strun Prime",
 											["Place"] = "First",
 										},
 									},
@@ -91466,8 +92594,8 @@ return {
 									},
 									["TotalDamage"] = {
 										[200] = {
-											"Strun Prime",
 											"Strun Wraith",
+											"Strun Prime",
 											["Place"] = "Third",
 										},
 										[404] = {
@@ -91580,13 +92708,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.36,
-								1.275,
-								1.15,
-								1.15,
-								1.08,
-								0.96,
-								0.77,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FalloffEnd"] = {
 								600,
@@ -91869,17 +92997,22 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.3] = {
-									"Sporothrix",
-									"Snipetron",
-									["Place"] = "Third",
-								},
-								[1.4] = {
-									"Vulkar Wraith",
-									["Place"] = "Second",
-								},
-								[1.45] = {
+								[1.2] = {
+									"Coda Sporothrix",
+									"Rubico Prime",
 									"Vulkar",
+									"Vectis Prime",
+									"Vadarya Prime",
+									"Komorex",
+									"Vulkar Wraith",
+									"Sporothrix",
+									"Snipetron Vandal",
+									"Lanka",
+									"Snipetron",
+									"Perigale Prime",
+									"Rubico",
+									"Perigale",
+									"Vectis",
 									["Place"] = "First",
 								},
 							},
@@ -92169,13 +93302,13 @@ return {
 								2.075,
 							},
 							["Disposition"] = {
-								1.225,
-								1.15,
-								1.15,
-								1.1125,
-								1.075,
-								1.025,
-								0.9875,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FalloffEnd"] = {
 								3.28,
@@ -92434,17 +93567,13 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.05] = {
-									"Lanka",
-									["Place"] = "Third",
-								},
-								[1.15] = {
+								[1.2] = {
+									"Coda Sporothrix",
+									"Vectis Prime",
 									"Komorex",
-									"Vectis",
-									["Place"] = "Second",
-								},
-								[1.3] = {
 									"Sporothrix",
+									"Lanka",
+									"Vectis",
 									["Place"] = "First",
 								},
 							},
@@ -92710,13 +93839,13 @@ return {
 								2.575,
 							},
 							["Disposition"] = {
-								1.135,
-								1.1125,
-								1.09,
-								1.07875,
-								1.0675,
-								1.045,
-								1.0225,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FalloffEnd"] = {
 								6.7,
@@ -92908,11 +94037,8 @@ return {
 								},
 							},
 							["Disposition"] = {
-								{
+								[1.2] = {
 									"Vectis Prime",
-									["Place"] = "Second",
-								},
-								[1.15] = {
 									"Vectis",
 									["Place"] = "First",
 								},
@@ -93113,13 +94239,13 @@ return {
 								2.575,
 							},
 							["Disposition"] = {
-								1.135,
-								1.1125,
-								1.09,
-								1.07875,
-								1.0675,
-								1.045,
-								1.0225,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FalloffEnd"] = {
 								0.15,
@@ -93311,11 +94437,8 @@ return {
 								},
 							},
 							["Disposition"] = {
-								{
+								[1.2] = {
 									"Vectis Prime",
-									["Place"] = "Second",
-								},
-								[1.15] = {
 									"Vectis",
 									["Place"] = "First",
 								},
@@ -93520,13 +94643,13 @@ return {
 										2,
 									},
 									["Disposition"] = {
-										1.4,
-										1.3,
-										1.25,
-										1.175,
-										1.15,
-										1,
-										0.95,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FalloffEnd"] = {
 										600,
@@ -93809,17 +94932,18 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.3] = {
-											"Sporothrix",
-											"Snipetron",
-											["Place"] = "Third",
-										},
-										[1.4] = {
-											"Vulkar Wraith",
-											["Place"] = "Second",
-										},
-										[1.45] = {
+										[1.2] = {
+											"Coda Sporothrix",
+											"Rubico Prime",
 											"Vulkar",
+											"Vectis Prime",
+											"Komorex",
+											"Vulkar Wraith",
+											"Sporothrix",
+											"Snipetron Vandal",
+											"Snipetron",
+											"Rubico",
+											"Vectis",
 											["Place"] = "First",
 										},
 									},
@@ -94094,13 +95218,13 @@ return {
 										2.34,
 									},
 									["Disposition"] = {
-										1.24,
-										1.15,
-										1.15,
-										1.15,
-										1.12,
-										1.03,
-										0.98,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FalloffEnd"] = {
 										3.28,
@@ -94356,17 +95480,12 @@ return {
 										},
 									},
 									["Disposition"] = {
-										{
+										[1.2] = {
+											"Coda Sporothrix",
 											"Vectis Prime",
-											["Place"] = "Third",
-										},
-										[1.15] = {
 											"Komorex",
-											"Vectis",
-											["Place"] = "Second",
-										},
-										[1.3] = {
 											"Sporothrix",
+											"Vectis",
 											["Place"] = "First",
 										},
 									},
@@ -94631,13 +95750,13 @@ return {
 										2.575,
 									},
 									["Disposition"] = {
-										1.135,
-										1.1125,
-										1.09,
-										1.07875,
-										1.0675,
-										1.045,
-										1.0225,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FalloffEnd"] = {
 										6.7,
@@ -94829,11 +95948,8 @@ return {
 										},
 									},
 									["Disposition"] = {
-										{
+										[1.2] = {
 											"Vectis Prime",
-											["Place"] = "Second",
-										},
-										[1.15] = {
 											"Vectis",
 											["Place"] = "First",
 										},
@@ -95034,13 +96150,13 @@ return {
 										2.575,
 									},
 									["Disposition"] = {
-										1.135,
-										1.1125,
-										1.09,
-										1.07875,
-										1.0675,
-										1.045,
-										1.0225,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FalloffEnd"] = {
 										0.15,
@@ -95232,11 +96348,8 @@ return {
 										},
 									},
 									["Disposition"] = {
-										{
+										[1.2] = {
 											"Vectis Prime",
-											["Place"] = "Second",
-										},
-										[1.15] = {
 											"Vectis",
 											["Place"] = "First",
 										},
@@ -95443,13 +96556,13 @@ return {
 								1.95,
 							},
 							["Disposition"] = {
-								1.27,
-								1.225,
-								1.18,
-								1.1575,
-								1.135,
-								1.09,
-								0.995,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								2.934,
@@ -95693,15 +96806,13 @@ return {
 							},
 							["Disposition"] = {
 								[1.2] = {
-									"Scourge",
-									["Place"] = "Third",
-								},
-								[1.25] = {
+									"Afentis",
+									"Afentis Prime",
 									"Ferrox",
-									["Place"] = "Second",
-								},
-								[1.3] = {
+									"Scourge Prime",
+									"Scourge",
 									"Javlok",
+									"Tenet Ferrox",
 									["Place"] = "First",
 								},
 							},
@@ -95948,13 +97059,13 @@ return {
 								1.95,
 							},
 							["Disposition"] = {
-								1.27,
-								1.225,
-								1.18,
-								1.1575,
-								1.135,
-								1.09,
-								0.995,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								2.934,
@@ -96199,15 +97310,13 @@ return {
 							},
 							["Disposition"] = {
 								[1.2] = {
-									"Scourge",
-									["Place"] = "Third",
-								},
-								[1.25] = {
+									"Afentis",
+									"Afentis Prime",
 									"Ferrox",
-									["Place"] = "Second",
-								},
-								[1.3] = {
+									"Scourge Prime",
+									"Scourge",
 									"Javlok",
+									"Tenet Ferrox",
 									["Place"] = "First",
 								},
 							},
@@ -96452,13 +97561,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.27,
-								1.225,
-								1.18,
-								1.1575,
-								1.135,
-								1.09,
-								0.995,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -96700,15 +97809,13 @@ return {
 							},
 							["Disposition"] = {
 								[1.2] = {
-									"Scourge",
-									["Place"] = "Third",
-								},
-								[1.25] = {
+									"Afentis",
+									"Afentis Prime",
 									"Ferrox",
-									["Place"] = "Second",
-								},
-								[1.3] = {
+									"Scourge Prime",
+									"Scourge",
 									"Javlok",
+									"Tenet Ferrox",
 									["Place"] = "First",
 								},
 							},
@@ -96951,13 +98058,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.28,
-								1.25,
-								1.22,
-								1.205,
-								1.19,
-								1.16,
-								1.13,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								1,
@@ -97195,15 +98302,11 @@ return {
 							},
 							["Disposition"] = {
 								[1.2] = {
-									"Scourge",
-									["Place"] = "Third",
-								},
-								[1.25] = {
 									"Ferrox",
-									["Place"] = "Second",
-								},
-								[1.3] = {
+									"Scourge Prime",
+									"Scourge",
 									"Javlok",
+									"Tenet Ferrox",
 									["Place"] = "First",
 								},
 							},
@@ -97441,13 +98544,13 @@ return {
 						1.5,
 					},
 					["Disposition"] = {
-						1.45,
-						1.315,
-						1.25,
-						1.2475,
-						1.21,
-						1,
-						1,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
 					},
 					["FalloffEnd"] = {
 						300,
@@ -97679,19 +98782,28 @@ return {
 						},
 					},
 					["Disposition"] = {
-						[1.315] = {
-							"Stinger",
-							["Place"] = "Third",
-						},
-						[1.45] = {
+						[1.2] = {
+							"Vulklok",
+							"Deconstructor",
+							"Deconstructor Prime",
+							"Helstrum",
+							"Laser Rifle",
+							"Prime Laser Rifle",
 							"Burst Laser",
+							"Verglas Prime",
 							"Burst Laser Prime",
-							"Prisma Burst Laser",
-							["Place"] = "Second",
-						},
-						[1.455] = {
+							"Cryotra",
+							"Artax",
+							"Sweeper",
+							"Vulcax",
+							"Stinger",
+							"Multron",
+							"Verglas",
 							"Deth Machine Rifle",
 							"Deth Machine Rifle Prime",
+							"Tazicor",
+							"Sweeper Prime",
+							"Prisma Burst Laser",
 							["Place"] = "First",
 						},
 					},
@@ -97943,13 +99055,13 @@ return {
 						1,
 					},
 					["Disposition"] = {
-						1.276,
-						1.25,
-						1.15,
-						1.0375,
-						1,
-						1,
-						1,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
 					},
 					["FalloffEnd"] = {
 						4.7,
@@ -98165,20 +99277,14 @@ return {
 						},
 					},
 					["Disposition"] = {
-						{
+						[1.2] = {
+							"Deconstructor",
+							"Deconstructor Prime",
 							"Helstrum",
 							"Cryotra",
 							"Vulcax",
-							"Multron",
-							["Place"] = "Third",
-						},
-						[1.25] = {
-							"Deconstructor",
-							"Deconstructor Prime",
-							["Place"] = "Second",
-						},
-						[1.315] = {
 							"Stinger",
+							"Multron",
 							["Place"] = "First",
 						},
 					},
@@ -98417,13 +99523,13 @@ return {
 						1,
 					},
 					["Disposition"] = {
-						1.25,
-						1.25,
-						1.25,
-						1.25,
-						1.25,
-						1.25,
-						1.25,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
 					},
 					["FireRate"] = {
 						1.33,
@@ -98566,7 +99672,7 @@ return {
 						},
 					},
 					["Disposition"] = {
-						[1.25] = {
+						[1.2] = {
 							"Deconstructor",
 							"Deconstructor Prime",
 							["Place"] = "First",
@@ -98655,7 +99761,7 @@ return {
 					["Accuracy"] = {
 						100,
 						100,
-						27.46,
+						26.7,
 						25,
 						22.2,
 						16,
@@ -98677,58 +99783,58 @@ return {
 						40,
 						40,
 						20,
-						6.3,
+						6.75,
 					},
 					["AvgCritCount"] = {
 						0.42,
-						0.265,
+						0.2625,
 						0.22,
 						0.2,
-						0.163,
-						0.132,
+						0.1675,
+						0.135,
 						0.06,
 					},
 					["AvgProcCount"] = {
-						0.97788,
-						0.345,
+						0.97485,
+						0.3425,
 						0.28,
 						0.26,
 						0.22,
-						0.152,
+						0.155,
 						0.1,
 					},
 					["AvgShotDmg"] = {
-						308.472,
+						308.31,
 						176,
-						111.328,
-						98.36725,
-						75.704,
-						40.9456,
-						26.6256,
+						112,
+						99.56875,
+						76.1,
+						41.116,
+						26.628,
 					},
 					["BaseDps"] = {
 						740,
-						400,
-						315.2,
-						279.06,
+						400.125,
+						320,
+						279.75,
 						252,
-						209.904,
+						209.94,
 						150,
 					},
 					["BurstDps"] = {
 						1026.08,
-						517.9322,
-						428.1795,
-						353.4759,
-						314.644,
-						248.5295936,
-						169.633208,
+						518.9832,
+						430.08,
+						355.91625,
+						316.03,
+						249.536696,
+						170.95802,
 					},
 					["CritChance"] = {
 						0.3,
 						0.24,
 						0.2,
-						0.1785,
+						0.18,
 						0.16,
 						0.11,
 						0.06,
@@ -98743,13 +99849,13 @@ return {
 						1.6,
 					},
 					["Disposition"] = {
-						1.45,
-						1.35,
-						1.25,
 						1.2,
-						1.15,
-						1.05,
-						0.8,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
 					},
 					["FalloffEnd"] = {
 						30,
@@ -98773,28 +99879,28 @@ return {
 						12.5,
 						8,
 						5,
-						4.9505,
+						4.79375,
 						4,
 						3.33,
 						2,
 					},
 					["LifetimeDmg"] = {
-						60907.42224,
-						31140.816,
-						21580.896,
-						18250.44,
-						14642.2272,
-						9763.875,
-						5152.35,
+						60836.48256,
+						31329.024,
+						21705.024,
+						18353.76,
+						15138.5088,
+						9895.5,
+						5174.4,
 					},
 					["MagDmg"] = {
-						3706.88,
-						2393.28,
-						1866.24,
-						1606.128,
-						1346.4,
-						860.688,
-						526.66,
+						3705.6,
+						2388.21,
+						1856.64,
+						1582.302,
+						1362.6,
+						862.632,
+						529.465,
 					},
 					["Magazine"] = {
 						75,
@@ -98803,10 +99909,10 @@ return {
 						16,
 						12,
 						8,
-						4.1,
+						4.25,
 					},
 					["Multishot"] = {
-						3.2,
+						3,
 						1,
 						1,
 						1,
@@ -98815,13 +99921,13 @@ return {
 						1,
 					},
 					["ReloadSpeed"] = {
-						1.0333333333333,
+						1.0222222222222,
 						0.90909090909091,
 						0.71428571428571,
 						0.625,
 						0.55555555555556,
 						0.5,
-						0.41710992907801,
+						0.41666666666667,
 					},
 					["ShotsPerMag"] = {
 						80,
@@ -98836,26 +99942,26 @@ return {
 						0.35,
 						0.28,
 						0.22,
-						0.2,
+						0.20375,
 						0.18,
 						0.12,
 						0.08,
 					},
 					["SustainedDps"] = {
-						562.98882897262,
-						357.45855762906,
-						286.10055865922,
-						253.6582776132,
-						228.86266666667,
-						183.73874649792,
-						128.3632797732,
+						561.88270349484,
+						356.89411764706,
+						289.40223463687,
+						253.81584426576,
+						229.45066666667,
+						183.90426237116,
+						128.37725702382,
 					},
 					["TotalDamage"] = {
-						246,
-						145,
+						245,
+						142.5,
 						75,
 						60,
-						49.3,
+						49.75,
 						30,
 						22,
 					},
@@ -99033,6 +100139,7 @@ return {
 							"Sagek Prime",
 							"Zylok Prime",
 							"EFV-8 Mars",
+							"Aksondol",
 							"Twin Grakatas",
 							"Vesper 77",
 							"Dual Coda Torxica",
@@ -99150,21 +100257,155 @@ return {
 						},
 					},
 					["Disposition"] = {
-						[1.51] = {
+						[1.2] = {
+							"Castanas",
+							"Aklex",
 							"Kunai",
+							"Seer",
+							"Euphona Prime",
+							"Sagek Prime",
 							"Bolto",
-							"Mk1-Kunai",
-							["Place"] = "Third",
-						},
-						[1.52] = {
+							"Catabolyst",
+							"Coda Pox",
+							"Spira",
+							"Staticor",
+							"Vasto Prime",
+							"Bronco",
+							"Pyrana Prime",
+							"Akarius Prime",
 							"Aklato",
+							"Zylok Prime",
+							"Quatz",
+							"Prisma Twin Gremlins",
+							"Sepulcrum",
+							"Afuris Prime",
+							"Dual Cestra",
+							"Acrid",
+							"Pandero Prime",
+							"Telos Akbolto",
+							"Kuva Brakk",
+							"Tenet Diplos",
+							"Onos",
+							"Akjagara",
+							"Atomos",
+							"Zymos",
+							"EFV-8 Mars",
+							"Nukor",
+							"Akvasto",
+							"Akbolto Prime",
+							"Akstiletto Prime",
+							"Akbolto",
+							"Spira Prime",
+							"Twin Vipers",
+							"Akbronco Prime",
+							"Kuva Nukor",
+							"Aklex Prime",
+							"Kulstar",
+							"Pandero",
+							"Hikou Prime",
+							"Akbronco",
+							"Akmagnus Prime",
+							"Hystrix Prime",
+							"Ocucor",
+							"Aksondol",
+							"Angstrum",
+							"Secura Dual Cestra",
+							"Athodai",
+							"Sicarus Prime",
+							"Prisma Angstrum",
+							"Hikou",
 							"Akzani",
-							"Cestra",
-							["Place"] = "Second",
-						},
-						[1.53] = {
+							"Ballistica Prime",
+							"Cantare",
+							"Brakk",
+							"Cycron",
+							"Grimoire",
+							"Velox",
+							"Detron",
+							"Coda Tysis",
+							"Akvasto Prime",
+							"Akstiletto",
+							"Synoid Gammacor",
+							"Velox Prime",
+							"Kohmak",
+							"Akarius",
+							"Vasto",
+							"Akjagara Prime",
+							"Twin Grakatas",
+							"Mk1-Kunai",
+							"Epitaph Prime",
+							"Twin Kohmak",
+							"Viper Wraith",
+							"Afuris",
+							"Kuva Kraken",
+							"Laetum",
+							"Aksomati Prime",
+							"Kompressa",
+							"Mk1-Furis",
+							"Scyotid",
+							"Sonicor",
+							"Kompressa Prime",
+							"Embolist",
+							"Zylok",
+							"Zakti Prime",
+							"Zakti",
+							"Hystrix",
+							"Viper",
+							"Vesper 77",
+							"Vaykor Marelok",
+							"Fusilai",
+							"Tysis",
+							"Dual Toxocyst",
+							"Bronco Prime",
+							"Furis",
+							"Twin Vipers Wraith",
+							"Lato",
+							"Rakta Ballistica",
 							"Magnus",
+							"Twin Rogga",
+							"Twin Gremlins",
+							"Spectra Vandal",
+							"Tenet Plinx",
+							"Tenet Detron",
+							"Dual Coda Torxica",
+							"Sancti Castanas",
+							"Dex Furis",
+							"Tenet Cycron",
+							"Riot-848",
+							"Kuva Seer",
+							"Talons",
+							"Stug",
+							"Akmagnus",
+							"Kuva Twin Stubbas",
+							"Stubba",
+							"Tenet Spirex",
+							"Pox",
+							"Lex",
+							"Cyanex",
+							"Spectra",
+							"Sicarus",
+							"Azima",
 							"Kraken",
+							"Coda Catabolyst",
+							"Marelok",
+							"Aksomati",
+							"Mara Detron",
+							"Magnus Prime",
+							"Lex Prime",
+							"Arca Scisco",
+							"Aegrit",
+							"Plinx",
+							"Lato Vandal",
+							"Athodai Prime",
+							"Despair",
+							"Knell Prime",
+							"Cestra",
+							"Knell",
+							"Gammacor",
+							"Lato Prime",
+							"Pyrana",
+							"Ballistica",
+							"Epitaph",
 							["Place"] = "First",
 						},
 					},
@@ -99455,13 +100696,13 @@ return {
 						1.6,
 					},
 					["Disposition"] = {
-						1.4,
-						1.35,
 						1.2,
 						1.2,
-						1.1,
-						1,
-						0.7,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
 					},
 					["FalloffEnd"] = {
 						29.2,
@@ -99798,17 +101039,84 @@ return {
 						},
 					},
 					["Disposition"] = {
-						[1.48] = {
-							"Stug",
-							["Place"] = "Third",
-						},
-						[1.51] = {
+						[1.2] = {
+							"Castanas",
 							"Kunai",
+							"Euphona Prime",
+							"Catabolyst",
+							"Coda Pox",
+							"Staticor",
+							"Vasto Prime",
+							"Bronco",
+							"Akarius Prime",
+							"Zylok Prime",
+							"Quatz",
+							"Sepulcrum",
+							"Pandero Prime",
+							"Tenet Diplos",
+							"Onos",
+							"Atomos",
+							"Zymos",
+							"EFV-8 Mars",
+							"Kulstar",
+							"Pandero",
+							"Hystrix Prime",
+							"Angstrum",
+							"Athodai",
+							"Sicarus Prime",
+							"Prisma Angstrum",
+							"Ballistica Prime",
+							"Grimoire",
+							"Coda Tysis",
+							"Synoid Gammacor",
+							"Kohmak",
+							"Akarius",
+							"Vasto",
 							"Mk1-Kunai",
-							["Place"] = "Second",
-						},
-						[1.52] = {
+							"Epitaph Prime",
+							"Twin Kohmak",
+							"Kuva Kraken",
+							"Laetum",
+							"Kompressa",
+							"Mk1-Furis",
+							"Scyotid",
+							"Sonicor",
+							"Kompressa Prime",
+							"Zylok",
+							"Zakti Prime",
+							"Zakti",
+							"Hystrix",
+							"Fusilai",
+							"Tysis",
+							"Dual Toxocyst",
+							"Bronco Prime",
+							"Furis",
+							"Lato",
+							"Rakta Ballistica",
+							"Tenet Plinx",
+							"Tenet Detron",
+							"Sancti Castanas",
+							"Riot-848",
+							"Kuva Seer",
+							"Talons",
+							"Stug",
+							"Tenet Spirex",
+							"Pox",
+							"Lex",
+							"Cyanex",
+							"Sicarus",
+							"Azima",
+							"Coda Catabolyst",
+							"Lex Prime",
+							"Aegrit",
+							"Lato Vandal",
+							"Athodai Prime",
+							"Despair",
 							"Cestra",
+							"Gammacor",
+							"Lato Prime",
+							"Ballistica",
+							"Epitaph",
 							["Place"] = "First",
 						},
 					},
@@ -100095,13 +101403,13 @@ return {
 						1.8,
 					},
 					["Disposition"] = {
-						1.3,
 						1.2,
-						1.17,
-						1.1,
-						1.0025,
-						0.87,
-						0.6,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
 					},
 					["FalloffEnd"] = {
 						7.94,
@@ -100397,18 +101705,35 @@ return {
 						},
 					},
 					["Disposition"] = {
-						[1.3] = {
+						[1.2] = {
+							"Catabolyst",
+							"Staticor",
+							"Zylok Prime",
+							"Sepulcrum",
+							"Onos",
+							"Atomos",
+							"Zymos",
+							"EFV-8 Mars",
 							"Kulstar",
-							"Prisma Angstrum",
-							"Despair",
-							["Place"] = "Third",
-						},
-						[1.35] = {
+							"Hystrix Prime",
 							"Angstrum",
-							["Place"] = "Second",
-						},
-						[1.48] = {
+							"Prisma Angstrum",
+							"Ballistica Prime",
+							"Grimoire",
+							"Synoid Gammacor",
+							"Epitaph Prime",
+							"Laetum",
+							"Zylok",
+							"Hystrix",
+							"Rakta Ballistica",
+							"Tenet Plinx",
 							"Stug",
+							"Cyanex",
+							"Coda Catabolyst",
+							"Despair",
+							"Gammacor",
+							"Ballistica",
+							"Epitaph",
 							["Place"] = "First",
 						},
 					},
@@ -100709,13 +102034,13 @@ return {
 						2.1,
 					},
 					["Disposition"] = {
-						1.3,
 						1.2,
 						1.2,
-						1.125,
-						1.05,
-						0.9,
-						0.725,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
 					},
 					["FalloffEnd"] = {
 						7.8,
@@ -100984,16 +102309,16 @@ return {
 					["Disposition"] = {
 						[1.2] = {
 							"Catabolyst",
+							"Staticor",
+							"Sepulcrum",
+							"Onos",
 							"Zymos",
-							"Hystrix",
-							["Place"] = "Third",
-						},
-						[1.3] = {
 							"Kulstar",
-							["Place"] = "Second",
-						},
-						[1.48] = {
+							"Hystrix Prime",
+							"Grimoire",
+							"Hystrix",
 							"Stug",
+							"Coda Catabolyst",
 							["Place"] = "First",
 						},
 					},
@@ -101271,13 +102596,13 @@ return {
 						2.135,
 					},
 					["Disposition"] = {
-						1.396,
-						1.27,
 						1.2,
 						1.2,
 						1.2,
-						1.145,
-						0.8975,
+						1.2,
+						1.2,
+						1.2,
+						1.2,
 					},
 					["FalloffEnd"] = {
 						6.4,
@@ -101532,17 +102857,11 @@ return {
 						},
 					},
 					["Disposition"] = {
-						[0.65] = {
-							"Coda Catabolyst",
-							["Place"] = "Third",
-						},
 						[1.2] = {
 							"Catabolyst",
 							"Zymos",
-							["Place"] = "Second",
-						},
-						[1.48] = {
 							"Stug",
+							"Coda Catabolyst",
 							["Place"] = "First",
 						},
 					},
@@ -101727,19 +103046,19 @@ return {
 					{
 						["Percentiles"] = {
 							["Accuracy"] = {
-								35.786,
+								35.479,
 								26.7,
 								23.5,
-								19.34,
-								16.28,
+								20,
+								16.595,
 								15.4,
 								11.1,
 							},
 							["AmmoMax"] = {
-								576,
-								440,
+								564,
+								435,
 								400,
-								304,
+								266,
 								210,
 								210,
 								210,
@@ -101754,111 +103073,111 @@ return {
 								40,
 							},
 							["AvgCritCount"] = {
-								0.274,
-								0.23,
-								0.192,
+								0.271,
+								0.2375,
+								0.198,
 								0.18,
 								0.16,
 								0.15,
-								0.092,
+								0.098,
 							},
 							["AvgProcCount"] = {
-								0.318,
+								0.317,
 								0.28,
-								0.28,
-								0.228,
-								0.208,
+								0.274,
+								0.22325,
+								0.217,
 								0.14,
-								0.108,
+								0.1095,
 							},
 							["AvgShotDmg"] = {
-								146.6896,
-								101.52,
-								76.7232,
-								61.75136,
-								42.12,
-								30.4768,
-								25.596,
+								153.4176,
+								106.38,
+								77.9328,
+								66.87008,
+								42.93,
+								30.6352,
+								26.379,
 							},
 							["BaseDps"] = {
-								445,
-								350,
-								299.76,
-								286.4,
-								270.304,
-								245.6136,
-								204.32,
+								476.25,
+								362.225,
+								299.94,
+								290.093,
+								270.646,
+								248.4204,
+								205.13,
 							},
 							["BurstDps"] = {
-								592.24,
-								500.625,
-								385.7936,
-								364.352,
-								343.84176,
-								293.788848,
-								243.392,
+								613.5957184,
+								503.94375,
+								392.3744,
+								368.765,
+								350.34444,
+								294.127272,
+								245.708,
 							},
 							["CritChance"] = {
 								0.25,
-								0.23,
-								0.192,
+								0.2375,
+								0.198,
 								0.18,
 								0.16,
 								0.15,
-								0.092,
+								0.098,
 							},
 							["CritMultiplier"] = {
-								2.78,
-								2.2,
+								2.77,
+								2.35,
 								2,
 								2,
 								2,
-								1.96,
+								1.99,
 								1.8,
 							},
 							["Disposition"] = {
-								1.442,
-								1.35,
-								1.25,
 								1.2,
-								1.17,
-								1.05,
-								0.95,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								20,
 								12.5,
-								9.736,
-								6.864,
-								5.268,
+								9.502,
+								6.351,
 								5,
-								3.5996,
+								5,
+								3.65015,
 							},
 							["LifetimeDmg"] = {
-								35256.62976,
-								28416,
-								18844.8,
-								18702.336,
-								18163.2,
-								10333.44,
-								7466.8928,
+								39750.5808,
+								31060.02,
+								18949.2,
+								18783.144,
+								18202.8,
+								10359.36,
+								7584.4352,
 							},
 							["MagDmg"] = {
-								3693.824,
-								2747.52,
-								2351.7184,
-								1904.768,
-								1840.32,
-								1452.112,
-								1213.1775,
+								3692.416,
+								2663.84,
+								2336.31,
+								1885.312,
+								1809.384,
+								1465.528,
+								1216.974375,
 							},
 							["Magazine"] = {
-								118.8,
+								118.2,
 								80,
-								46,
 								40,
-								32.4,
-								28,
+								40,
+								30,
+								26.8,
 								12,
 							},
 							["Multishot"] = {
@@ -101871,49 +103190,49 @@ return {
 								1,
 							},
 							["ReloadSpeed"] = {
-								0.89393939393939,
+								0.88636363636364,
 								0.71428571428571,
 								0.5,
 								0.5,
-								0.43528850739151,
-								0.37891737891738,
+								0.42863665418683,
+								0.38319088319088,
 								0.33333333333333,
 							},
 							["ShotsPerMag"] = {
-								111.2,
-								80,
-								44,
+								109.8,
+								77.5,
 								40,
-								32.4,
-								28,
+								40,
+								30,
+								26.8,
 								12,
 							},
 							["StatusChance"] = {
-								0.308,
+								0.307,
 								0.28,
-								0.256,
+								0.246,
 								0.22,
-								0.188,
+								0.197,
 								0.14,
-								0.108,
+								0.1095,
 							},
 							["SustainedDps"] = {
-								404.59811076239,
-								317.47368421053,
-								281.88916030534,
-								260.14164873934,
-								248.64846270067,
-								196.14930091185,
-								167.21564824847,
+								397.15626013279,
+								319.31977010292,
+								284.22229007634,
+								262.46571428571,
+								252.36643222193,
+								196.5096656535,
+								167.81738037198,
 							},
 							["TotalDamage"] = {
-								98,
-								68,
-								40.8,
-								36.792,
-								31.2,
-								26.6,
-								19.6,
+								106.4,
+								69.5,
+								43.2,
+								37.31825,
+								34.8,
+								26.9,
+								19.9,
 							},
 						},
 						["Top3"] = {
@@ -101985,6 +103304,7 @@ return {
 									["Place"] = "Second",
 								},
 								[60] = {
+									"Aksondol",
 									"Twin Grakatas",
 									"Dual Coda Torxica",
 									["Place"] = "First",
@@ -102020,40 +103340,40 @@ return {
 								},
 							},
 							["AvgShotDmg"] = {
-								[156] = {
-									"Aklex",
-									["Place"] = "Third",
-								},
 								[160.48] = {
 									"Akarius Prime",
-									["Place"] = "Second",
+									["Place"] = "Third",
 								},
 								[187.5] = {
 									"Aklex Prime",
+									["Place"] = "Second",
+								},
+								[193.76] = {
+									"Aksondol",
 									["Place"] = "First",
 								},
 							},
 							["BaseDps"] = {
-								[487.5] = {
-									"Dual Cestra",
-									["Place"] = "Third",
-								},
 								[490] = {
 									"Akmagnus",
-									["Place"] = "Second",
+									["Place"] = "Third",
 								},
 								[555.66] = {
 									"Akmagnus Prime",
+									["Place"] = "Second",
+								},
+								[560] = {
+									"Aksondol",
 									["Place"] = "First",
 								},
 							},
 							["BurstDps"] = {
-								[620.365312] = {
-									"Tenet Diplos",
-									["Place"] = "Third",
-								},
 								[648] = {
 									"Dual Coda Torxica",
+									["Place"] = "Third",
+								},
+								[775.04] = {
+									"Aksondol",
 									["Place"] = "Second",
 								},
 								[835.71264] = {
@@ -102095,18 +103415,41 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.41] = {
-									"Twin Vipers Wraith",
-									["Place"] = "Third",
-								},
-								[1.45] = {
-									"Twin Vipers",
-									"Afuris",
-									["Place"] = "Second",
-								},
-								[1.52] = {
+								[1.2] = {
+									"Aklex",
+									"Akarius Prime",
 									"Aklato",
+									"Prisma Twin Gremlins",
+									"Afuris Prime",
+									"Dual Cestra",
+									"Telos Akbolto",
+									"Tenet Diplos",
+									"Akjagara",
+									"Akvasto",
+									"Akbolto Prime",
+									"Akstiletto Prime",
+									"Akbolto",
+									"Twin Vipers",
+									"Aklex Prime",
+									"Akmagnus Prime",
+									"Aksondol",
+									"Secura Dual Cestra",
 									"Akzani",
+									"Akvasto Prime",
+									"Akstiletto",
+									"Akarius",
+									"Akjagara Prime",
+									"Twin Grakatas",
+									"Afuris",
+									"Aksomati Prime",
+									"Dual Toxocyst",
+									"Twin Vipers Wraith",
+									"Twin Gremlins",
+									"Dual Coda Torxica",
+									"Dex Furis",
+									"Akmagnus",
+									"Kuva Twin Stubbas",
+									"Aksomati",
 									["Place"] = "First",
 								},
 							},
@@ -102128,8 +103471,8 @@ return {
 								},
 							},
 							["LifetimeDmg"] = {
-								[41609.6352] = {
-									"Kuva Twin Stubbas",
+								[42239.68] = {
+									"Aksondol",
 									["Place"] = "Third",
 								},
 								[42375] = {
@@ -102189,6 +103532,7 @@ return {
 									"Twin Vipers",
 									"Aklex Prime",
 									"Akmagnus Prime",
+									"Aksondol",
 									"Secura Dual Cestra",
 									"Akzani",
 									"Akvasto Prime",
@@ -102272,12 +103616,12 @@ return {
 								},
 							},
 							["TotalDamage"] = {
-								[110] = {
-									"Akvasto Prime",
-									["Place"] = "Third",
-								},
 								[130] = {
 									"Aklex",
+									["Place"] = "Third",
+								},
+								[140] = {
+									"Aksondol",
 									["Place"] = "Second",
 								},
 								[150] = {
@@ -102380,13 +103724,13 @@ return {
 								1.89,
 							},
 							["Disposition"] = {
-								1.26,
-								1.125,
-								0.99,
-								0.9225,
-								0.855,
-								0.74,
-								0.695,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FireRate"] = {
 								4.449,
@@ -102623,15 +103967,10 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.75] = {
+								[1.2] = {
+									"Akarius Prime",
 									"Tenet Diplos",
-									["Place"] = "Third",
-								},
-								[1.05] = {
 									"Akarius",
-									["Place"] = "Second",
-								},
-								[1.35] = {
 									"Dual Toxocyst",
 									["Place"] = "First",
 								},
@@ -102870,13 +104209,13 @@ return {
 										1.595,
 									},
 									["Disposition"] = {
-										1.45,
-										1.405,
-										1.32,
 										1.2,
-										1.1925,
-										1.09,
-										0.945,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										23.5,
@@ -103130,17 +104469,21 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.41] = {
-											"Twin Vipers Wraith",
-											["Place"] = "Third",
-										},
-										[1.45] = {
+										[1.2] = {
+											"Prisma Twin Gremlins",
+											"Afuris Prime",
+											"Dual Cestra",
+											"Akstiletto Prime",
 											"Twin Vipers",
-											"Afuris",
-											["Place"] = "Second",
-										},
-										[1.52] = {
 											"Akzani",
+											"Akstiletto",
+											"Twin Grakatas",
+											"Afuris",
+											"Twin Vipers Wraith",
+											"Twin Gremlins",
+											"Dual Coda Torxica",
+											"Dex Furis",
+											"Kuva Twin Stubbas",
 											["Place"] = "First",
 										},
 									},
@@ -103310,12 +104653,12 @@ return {
 								["Percentiles"] = {
 									["Accuracy"] = {
 										26.7,
-										21.35,
+										24.3,
 										16,
-										12.325,
+										14.8975,
 										11.1,
 										11.1,
-										10.45,
+										10.645,
 									},
 									["AmmoMax"] = {
 										210,
@@ -103336,110 +104679,110 @@ return {
 										40,
 									},
 									["AvgCritCount"] = {
-										0.28,
-										0.235,
+										0.277,
+										0.2425,
 										0.22,
-										0.205,
-										0.18,
+										0.2155,
+										0.198,
 										0.16,
-										0.115,
+										0.1195,
 									},
 									["AvgProcCount"] = {
-										0.29,
-										0.265,
+										0.289,
+										0.2575,
 										0.22,
 										0.22,
-										0.18,
-										0.12,
-										0.08,
+										0.216,
+										0.126,
+										0.086,
 									},
 									["AvgShotDmg"] = {
-										156,
-										145.636,
-										119.56,
-										106.03,
-										90.31,
-										78.75,
-										75.424,
+										184.35,
+										149.544,
+										134.152,
+										115.501,
+										100.399,
+										78.855,
+										76.2976,
 									},
 									["BaseDps"] = {
-										490,
-										383.4,
-										350,
-										312.275,
-										293.85,
-										220,
-										202.7,
+										549.094,
+										422.875,
+										359.78,
+										338.6825,
+										299.115,
+										240.4,
+										203.51,
 									},
 									["BurstDps"] = {
-										597.8,
-										489.8727,
-										395.5,
-										370.795,
-										357.536,
-										338.0616,
-										231.24,
+										757.316,
+										524.91875,
+										445.67224,
+										388.0885,
+										362.0576,
+										342.39672,
+										235.812,
 									},
 									["CritChance"] = {
-										0.28,
-										0.235,
+										0.277,
+										0.2425,
 										0.22,
-										0.205,
-										0.18,
+										0.2155,
+										0.198,
 										0.16,
-										0.115,
+										0.1195,
 									},
 									["CritMultiplier"] = {
-										2.8,
-										2.4,
+										2.78,
+										2.45,
+										2.24,
 										2,
 										2,
 										2,
-										2,
-										1.9,
+										1.93,
 									},
 									["Disposition"] = {
-										1.35,
-										1.325,
-										1.25,
-										1.25,
-										1.225,
 										1.2,
-										1.075,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										5,
 										5,
-										5,
-										4.625,
-										3.915,
+										4.8,
+										4.3875,
+										3.9665,
 										3.33,
-										2.125,
+										2.2885,
 									},
 									["LifetimeDmg"] = {
-										34632,
-										32625.976,
-										27020.56,
-										23658.22,
-										20760.72,
-										18800.64,
-										14248,
+										41478.912,
+										33640.944,
+										29973.04,
+										26011.858,
+										22359.768,
+										18855.648,
+										15412,
 									},
 									["MagDmg"] = {
-										2900.48,
-										2365.636,
-										2350.08,
-										2022.24,
-										1892.48,
-										1726.56,
-										1257.12,
+										2847.732,
+										2361.954,
+										2175.232,
+										1903.744,
+										1864.728,
+										1603.024,
+										1268.784,
 									},
 									["Magazine"] = {
 										30,
 										30,
 										16,
 										16,
-										16,
+										15.8,
 										12,
 										12,
 									},
@@ -103453,12 +104796,12 @@ return {
 										1,
 									},
 									["ReloadSpeed"] = {
-										0.71428571428571,
-										0.5625,
-										0.42553191489362,
-										0.4188829787234,
-										0.40064102564103,
-										0.35714285714286,
+										0.70535714285714,
+										0.53125,
+										0.42198581560284,
+										0.40945512820513,
+										0.38461538461538,
+										0.36538461538462,
 										0.33333333333333,
 									},
 									["ShotsPerMag"] = {
@@ -103466,50 +104809,47 @@ return {
 										30,
 										16,
 										16,
-										16,
+										15.8,
 										12,
 										12,
 									},
 									["StatusChance"] = {
-										0.29,
-										0.265,
+										0.289,
+										0.2575,
 										0.22,
 										0.22,
-										0.18,
-										0.12,
-										0.08,
+										0.216,
+										0.126,
+										0.086,
 									},
 									["SustainedDps"] = {
-										345.0633057256,
-										322.74528265552,
-										298.9,
-										297.19375,
-										275.11537769784,
-										234.11468144044,
-										165.48694316436,
+										344.25436645739,
+										334.4517248248,
+										306.68774193548,
+										298.388125,
+										294.47403776978,
+										239.96200362702,
+										168.84731182796,
 									},
 									["TotalDamage"] = {
-										130,
-										104,
+										139,
+										115,
 										98,
-										92,
-										82.5,
-										70,
-										54,
+										96.2,
+										89.25,
+										71.5,
+										57,
 									},
 								},
 								["Top3"] = {
 									["Accuracy"] = {
-										[11.1] = {
-											"Aklato",
-											"Akvasto",
-											"Akmagnus Prime",
-											"Akmagnus",
-											["Place"] = "Third",
-										},
 										[16] = {
 											"Akvasto Prime",
 											"Dual Toxocyst",
+											["Place"] = "Third",
+										},
+										[23.5] = {
+											"Aksondol",
 											["Place"] = "Second",
 										},
 										[26.7] = {
@@ -103533,6 +104873,7 @@ return {
 											"Akbolto",
 											"Aklex Prime",
 											"Akmagnus Prime",
+											"Aksondol",
 											"Akvasto Prime",
 											"Akmagnus",
 											["Place"] = "First",
@@ -103551,6 +104892,10 @@ return {
 											"Akvasto Prime",
 											"Dual Toxocyst",
 											"Akmagnus",
+											["Place"] = "Second",
+										},
+										[60] = {
+											"Aksondol",
 											["Place"] = "First",
 										},
 									},
@@ -103583,40 +104928,40 @@ return {
 										},
 									},
 									["AvgShotDmg"] = {
-										[147.392] = {
-											"Akmagnus Prime",
-											["Place"] = "Third",
-										},
 										[156] = {
 											"Aklex",
-											["Place"] = "Second",
+											["Place"] = "Third",
 										},
 										[187.5] = {
 											"Aklex Prime",
+											["Place"] = "Second",
+										},
+										[193.76] = {
+											"Aksondol",
 											["Place"] = "First",
 										},
 									},
 									["BaseDps"] = {
-										[400.5] = {
-											"Aklex Prime",
-											["Place"] = "Third",
-										},
 										[490] = {
 											"Akmagnus",
-											["Place"] = "Second",
+											["Place"] = "Third",
 										},
 										[555.66] = {
 											"Akmagnus Prime",
+											["Place"] = "Second",
+										},
+										[560] = {
+											"Aksondol",
 											["Place"] = "First",
 										},
 									},
 									["BurstDps"] = {
-										[500.625] = {
-											"Aklex Prime",
-											["Place"] = "Third",
-										},
 										[597.8] = {
 											"Akmagnus",
+											["Place"] = "Third",
+										},
+										[775.04] = {
+											"Aksondol",
 											["Place"] = "Second",
 										},
 										[835.71264] = {
@@ -103639,17 +104984,13 @@ return {
 										},
 									},
 									["CritMultiplier"] = {
-										[2] = {
-											"Aklex",
-											"Telos Akbolto",
-											"Aklex Prime",
-											"Dual Toxocyst",
-											"Akmagnus",
-											["Place"] = "Third",
-										},
 										[2.4] = {
 											"Akbolto",
 											"Akvasto Prime",
+											["Place"] = "Third",
+										},
+										[2.6] = {
+											"Aksondol",
 											["Place"] = "Second",
 										},
 										[2.8] = {
@@ -103659,17 +105000,19 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.3] = {
+										[1.2] = {
+											"Aklex",
+											"Aklato",
+											"Telos Akbolto",
+											"Akvasto",
+											"Akbolto Prime",
 											"Akbolto",
-											["Place"] = "Third",
-										},
-										[1.35] = {
+											"Aklex Prime",
+											"Akmagnus Prime",
+											"Aksondol",
+											"Akvasto Prime",
 											"Dual Toxocyst",
 											"Akmagnus",
-											["Place"] = "Second",
-										},
-										[1.52] = {
-											"Aklato",
 											["Place"] = "First",
 										},
 									},
@@ -103691,12 +105034,12 @@ return {
 										},
 									},
 									["LifetimeDmg"] = {
-										[33310.592] = {
-											"Akmagnus Prime",
-											["Place"] = "Third",
-										},
 										[34632] = {
 											"Aklex",
+											["Place"] = "Third",
+										},
+										[42239.68] = {
+											"Aksondol",
 											["Place"] = "Second",
 										},
 										[42375] = {
@@ -103746,6 +105089,7 @@ return {
 											"Akbolto",
 											"Aklex Prime",
 											"Akmagnus Prime",
+											"Aksondol",
 											"Akvasto Prime",
 											"Dual Toxocyst",
 											"Akmagnus",
@@ -103799,8 +105143,8 @@ return {
 										},
 									},
 									["SustainedDps"] = {
-										[333.61099541858] = {
-											"Aklex Prime",
+										[336.97391304348] = {
+											"Aksondol",
 											["Place"] = "Third",
 										},
 										[345.0633057256] = {
@@ -103813,12 +105157,12 @@ return {
 										},
 									},
 									["TotalDamage"] = {
-										[110] = {
-											"Akvasto Prime",
-											["Place"] = "Third",
-										},
 										[130] = {
 											"Aklex",
+											["Place"] = "Third",
+										},
+										[140] = {
+											"Aksondol",
 											["Place"] = "Second",
 										},
 										[150] = {
@@ -103921,13 +105265,13 @@ return {
 										3,
 									},
 									["Disposition"] = {
-										1.35,
-										1.35,
-										1.35,
-										1.35,
-										1.35,
-										1.35,
-										1.35,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										4.5,
@@ -104082,7 +105426,7 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.35] = {
+										[1.2] = {
 											"Dual Toxocyst",
 											["Place"] = "First",
 										},
@@ -104248,13 +105592,13 @@ return {
 								1.555,
 							},
 							["Disposition"] = {
-								1.45,
-								1.35,
-								1.25,
 								1.2,
-								1.1825,
-								1.1,
-								0.8275,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FalloffEnd"] = {
 								19.7,
@@ -104596,17 +105940,85 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.51] = {
+								[1.2] = {
+									"Seer",
+									"Sagek Prime",
 									"Bolto",
-									["Place"] = "Third",
-								},
-								[1.52] = {
-									"Cestra",
-									["Place"] = "Second",
-								},
-								[1.53] = {
+									"Catabolyst",
+									"Vasto Prime",
+									"Zylok Prime",
+									"Quatz",
+									"Sepulcrum",
+									"Acrid",
+									"Pandero Prime",
+									"Onos",
+									"Atomos",
+									"Zymos",
+									"EFV-8 Mars",
+									"Nukor",
+									"Kuva Nukor",
+									"Kulstar",
+									"Pandero",
+									"Hystrix Prime",
+									"Ocucor",
+									"Angstrum",
+									"Athodai",
+									"Sicarus Prime",
+									"Prisma Angstrum",
+									"Cycron",
+									"Velox",
+									"Coda Tysis",
+									"Synoid Gammacor",
+									"Velox Prime",
+									"Vasto",
+									"Epitaph Prime",
+									"Viper Wraith",
+									"Kuva Kraken",
+									"Laetum",
+									"Kompressa",
+									"Mk1-Furis",
+									"Sonicor",
+									"Kompressa Prime",
+									"Embolist",
+									"Zylok",
+									"Zakti Prime",
+									"Zakti",
+									"Hystrix",
+									"Viper",
+									"Vesper 77",
+									"Vaykor Marelok",
+									"Tysis",
+									"Furis",
+									"Lato",
 									"Magnus",
+									"Spectra Vandal",
+									"Tenet Plinx",
+									"Tenet Cycron",
+									"Riot-848",
+									"Kuva Seer",
+									"Stug",
+									"Stubba",
+									"Tenet Spirex",
+									"Lex",
+									"Cyanex",
+									"Spectra",
+									"Sicarus",
+									"Azima",
 									"Kraken",
+									"Coda Catabolyst",
+									"Marelok",
+									"Magnus Prime",
+									"Lex Prime",
+									"Arca Scisco",
+									"Plinx",
+									"Lato Vandal",
+									"Athodai Prime",
+									"Knell Prime",
+									"Cestra",
+									"Knell",
+									"Gammacor",
+									"Lato Prime",
+									"Epitaph",
 									["Place"] = "First",
 								},
 							},
@@ -104958,13 +106370,13 @@ return {
 								1.8,
 							},
 							["Disposition"] = {
-								1.4,
-								1.275,
 								1.2,
-								1.1625,
-								1.125,
-								1.05,
-								0.85,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FalloffEnd"] = {
 								20.8,
@@ -105288,16 +106700,58 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.45] = {
+								[1.2] = {
+									"Catabolyst",
+									"Vasto Prime",
+									"Zylok Prime",
+									"Quatz",
+									"Sepulcrum",
+									"Pandero Prime",
+									"Onos",
+									"Atomos",
+									"Zymos",
+									"EFV-8 Mars",
+									"Kulstar",
+									"Pandero",
+									"Hystrix Prime",
+									"Angstrum",
+									"Athodai",
+									"Sicarus Prime",
+									"Prisma Angstrum",
+									"Coda Tysis",
+									"Synoid Gammacor",
+									"Vasto",
+									"Epitaph Prime",
+									"Kuva Kraken",
+									"Laetum",
+									"Kompressa",
+									"Mk1-Furis",
+									"Sonicor",
+									"Kompressa Prime",
+									"Zylok",
+									"Zakti Prime",
+									"Zakti",
+									"Hystrix",
 									"Tysis",
-									["Place"] = "Third",
-								},
-								[1.48] = {
+									"Furis",
+									"Lato",
+									"Tenet Plinx",
+									"Riot-848",
+									"Kuva Seer",
 									"Stug",
-									["Place"] = "Second",
-								},
-								[1.52] = {
+									"Tenet Spirex",
+									"Lex",
+									"Cyanex",
+									"Sicarus",
+									"Azima",
+									"Coda Catabolyst",
+									"Lex Prime",
+									"Lato Vandal",
+									"Athodai Prime",
 									"Cestra",
+									"Gammacor",
+									"Lato Prime",
+									"Epitaph",
 									["Place"] = "First",
 								},
 							},
@@ -105585,13 +107039,13 @@ return {
 								1.8,
 							},
 							["Disposition"] = {
-								1.3,
 								1.2,
-								1.13,
-								1.1,
-								1.0225,
-								0.915,
-								0.6725,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FalloffEnd"] = {
 								7.97,
@@ -105875,17 +107329,29 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.3] = {
+								[1.2] = {
+									"Catabolyst",
+									"Zylok Prime",
+									"Sepulcrum",
+									"Onos",
+									"Atomos",
+									"Zymos",
+									"EFV-8 Mars",
 									"Kulstar",
-									"Prisma Angstrum",
-									["Place"] = "Third",
-								},
-								[1.35] = {
+									"Hystrix Prime",
 									"Angstrum",
-									["Place"] = "Second",
-								},
-								[1.48] = {
+									"Prisma Angstrum",
+									"Synoid Gammacor",
+									"Epitaph Prime",
+									"Laetum",
+									"Zylok",
+									"Hystrix",
+									"Tenet Plinx",
 									"Stug",
+									"Cyanex",
+									"Coda Catabolyst",
+									"Gammacor",
+									"Epitaph",
 									["Place"] = "First",
 								},
 							},
@@ -106177,13 +107643,13 @@ return {
 								2.2,
 							},
 							["Disposition"] = {
-								1.336,
 								1.2,
 								1.2,
 								1.2,
-								1.16,
-								1.04,
-								0.84,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FalloffEnd"] = {
 								3.63,
@@ -106450,16 +107916,14 @@ return {
 							["Disposition"] = {
 								[1.2] = {
 									"Catabolyst",
+									"Sepulcrum",
+									"Onos",
 									"Zymos",
-									"Hystrix",
-									["Place"] = "Third",
-								},
-								[1.3] = {
 									"Kulstar",
-									["Place"] = "Second",
-								},
-								[1.48] = {
+									"Hystrix Prime",
+									"Hystrix",
 									"Stug",
+									"Coda Catabolyst",
 									["Place"] = "First",
 								},
 							},
@@ -106739,13 +108203,13 @@ return {
 								2.135,
 							},
 							["Disposition"] = {
-								1.396,
-								1.27,
 								1.2,
 								1.2,
 								1.2,
-								1.145,
-								0.8975,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FalloffEnd"] = {
 								6.4,
@@ -107000,17 +108464,11 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.65] = {
-									"Coda Catabolyst",
-									["Place"] = "Third",
-								},
 								[1.2] = {
 									"Catabolyst",
 									"Zymos",
-									["Place"] = "Second",
-								},
-								[1.48] = {
 									"Stug",
+									"Coda Catabolyst",
 									["Place"] = "First",
 								},
 							},
@@ -107285,13 +108743,13 @@ return {
 										1.71,
 									},
 									["Disposition"] = {
-										1.415,
-										1.35,
-										1.25,
-										1.24625,
-										1.1825,
-										1,
-										0.8275,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										14.566,
@@ -107550,17 +109008,25 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.4] = {
+										[1.2] = {
+											"Sagek Prime",
+											"Onos",
+											"Hystrix Prime",
+											"Velox",
+											"Velox Prime",
 											"Viper Wraith",
+											"Kompressa",
 											"Mk1-Furis",
-											["Place"] = "Third",
-										},
-										[1.45] = {
+											"Kompressa Prime",
+											"Hystrix",
 											"Viper",
-											["Place"] = "Second",
-										},
-										[1.52] = {
+											"Furis",
+											"Riot-848",
+											"Stubba",
+											"Azima",
+											"Knell Prime",
 											"Cestra",
+											"Knell",
 											["Place"] = "First",
 										},
 									},
@@ -107814,13 +109280,13 @@ return {
 										1.8,
 									},
 									["Disposition"] = {
-										1.412,
-										1.325,
-										1.22,
-										1.18625,
-										1.1525,
-										1,
-										0.87,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										12,
@@ -108064,15 +109530,16 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.35] = {
-											"Furis",
-											["Place"] = "Third",
-										},
-										[1.4] = {
+										[1.2] = {
+											"Onos",
+											"Hystrix Prime",
+											"Kompressa",
 											"Mk1-Furis",
-											["Place"] = "Second",
-										},
-										[1.52] = {
+											"Kompressa Prime",
+											"Hystrix",
+											"Furis",
+											"Riot-848",
+											"Azima",
 											"Cestra",
 											["Place"] = "First",
 										},
@@ -108321,13 +109788,13 @@ return {
 										2.2,
 									},
 									["Disposition"] = {
-										1.16,
-										1.1,
-										1.04,
-										1.01,
-										0.98,
-										0.92,
-										0.86,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										7,
@@ -108547,15 +110014,9 @@ return {
 										},
 									},
 									["Disposition"] = {
-										{
-											"Hystrix Prime",
-											["Place"] = "Second",
-										},
-										[0.8] = {
-											"Onos",
-											["Place"] = "Third",
-										},
 										[1.2] = {
+											"Onos",
+											"Hystrix Prime",
 											"Hystrix",
 											["Place"] = "First",
 										},
@@ -108764,13 +110225,13 @@ return {
 										2.2,
 									},
 									["Disposition"] = {
-										1.16,
-										1.1,
-										1.04,
-										1.01,
-										0.98,
-										0.92,
-										0.86,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										7,
@@ -108990,15 +110451,9 @@ return {
 										},
 									},
 									["Disposition"] = {
-										{
-											"Hystrix Prime",
-											["Place"] = "Second",
-										},
-										[0.8] = {
-											"Onos",
-											["Place"] = "Third",
-										},
 										[1.2] = {
+											"Onos",
+											"Hystrix Prime",
 											"Hystrix",
 											["Place"] = "First",
 										},
@@ -109227,13 +110682,13 @@ return {
 										1.78,
 									},
 									["Disposition"] = {
-										1.45,
-										1.4,
 										1.2,
 										1.2,
-										1.17,
-										1.04,
-										0.69,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FalloffEnd"] = {
 										19,
@@ -109508,17 +110963,20 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.4] = {
-											"Embolist",
-											["Place"] = "Third",
-										},
-										[1.45] = {
+										[1.2] = {
+											"Catabolyst",
+											"Atomos",
 											"Nukor",
+											"Kuva Nukor",
+											"Ocucor",
+											"Cycron",
+											"Synoid Gammacor",
+											"Embolist",
 											"Spectra Vandal",
-											["Place"] = "Second",
-										},
-										[1.49] = {
+											"Tenet Cycron",
 											"Spectra",
+											"Coda Catabolyst",
+											"Gammacor",
 											["Place"] = "First",
 										},
 									},
@@ -109790,13 +111248,13 @@ return {
 										1.92,
 									},
 									["Disposition"] = {
-										1.18,
-										1.15,
-										1.12,
-										1.105,
-										1.07,
-										0.98,
-										0.83,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										12,
@@ -110030,16 +111488,12 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.1] = {
-											"Synoid Gammacor",
-											["Place"] = "Third",
-										},
-										[1.15] = {
-											"Gammacor",
-											["Place"] = "Second",
-										},
 										[1.2] = {
 											"Catabolyst",
+											"Atomos",
+											"Synoid Gammacor",
+											"Coda Catabolyst",
+											"Gammacor",
 											["Place"] = "First",
 										},
 									},
@@ -110282,13 +111736,13 @@ return {
 										1.92,
 									},
 									["Disposition"] = {
-										1.18,
-										1.15,
-										1.12,
-										1.105,
-										1.07,
-										0.98,
-										0.83,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										12,
@@ -110525,16 +111979,12 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.1] = {
-											"Synoid Gammacor",
-											["Place"] = "Third",
-										},
-										[1.15] = {
-											"Gammacor",
-											["Place"] = "Second",
-										},
 										[1.2] = {
 											"Catabolyst",
+											"Atomos",
+											"Synoid Gammacor",
+											"Coda Catabolyst",
+											"Gammacor",
 											["Place"] = "First",
 										},
 									},
@@ -110776,13 +112226,13 @@ return {
 										2.9,
 									},
 									["Disposition"] = {
-										1.145,
-										1.0625,
-										0.98,
-										0.93875,
-										0.8975,
-										0.815,
-										0.7325,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										12,
@@ -110962,12 +112412,9 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[0.65] = {
-											"Coda Catabolyst",
-											["Place"] = "Second",
-										},
 										[1.2] = {
 											"Catabolyst",
+											"Coda Catabolyst",
 											["Place"] = "First",
 										},
 									},
@@ -111157,13 +112604,13 @@ return {
 										2.9,
 									},
 									["Disposition"] = {
-										1.145,
-										1.0625,
-										0.98,
-										0.93875,
-										0.8975,
-										0.815,
-										0.7325,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										12,
@@ -111343,12 +112790,9 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[0.65] = {
-											"Coda Catabolyst",
-											["Place"] = "Second",
-										},
 										[1.2] = {
 											"Catabolyst",
+											"Coda Catabolyst",
 											["Place"] = "First",
 										},
 									},
@@ -111542,13 +112986,13 @@ return {
 										1.5,
 									},
 									["Disposition"] = {
-										1.475,
-										1.35,
-										1.3,
-										1.25,
-										1.2125,
-										1.175,
-										1.1,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FalloffEnd"] = {
 										20,
@@ -111842,16 +113286,33 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.5] = {
+										[1.2] = {
 											"Seer",
-											["Place"] = "Third",
-										},
-										[1.51] = {
 											"Bolto",
-											["Place"] = "Second",
-										},
-										[1.53] = {
+											"Vasto Prime",
+											"Acrid",
+											"Zymos",
+											"Kulstar",
+											"Coda Tysis",
+											"Vasto",
+											"Sonicor",
+											"Zakti Prime",
+											"Zakti",
+											"Vesper 77",
+											"Vaykor Marelok",
+											"Tysis",
+											"Lato",
 											"Magnus",
+											"Kuva Seer",
+											"Tenet Spirex",
+											"Lex",
+											"Marelok",
+											"Magnus Prime",
+											"Lex Prime",
+											"Arca Scisco",
+											"Plinx",
+											"Lato Vandal",
+											"Lato Prime",
 											["Place"] = "First",
 										},
 									},
@@ -112134,13 +113595,13 @@ return {
 										1.825,
 									},
 									["Disposition"] = {
-										1.4,
-										1.35,
-										1.3,
-										1.25,
-										1.2375,
-										1.175,
-										1.1,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FalloffEnd"] = {
 										32,
@@ -112428,19 +113889,23 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.35] = {
+										[1.2] = {
 											"Vasto Prime",
+											"Zymos",
+											"Kulstar",
+											"Coda Tysis",
+											"Vasto",
+											"Sonicor",
+											"Zakti Prime",
+											"Zakti",
+											"Tysis",
+											"Lato",
+											"Kuva Seer",
+											"Tenet Spirex",
+											"Lex",
+											"Lex Prime",
 											"Lato Vandal",
 											"Lato Prime",
-											["Place"] = "Third",
-										},
-										[1.4] = {
-											"Vasto",
-											"Lato",
-											["Place"] = "Second",
-										},
-										[1.45] = {
-											"Tysis",
 											["Place"] = "First",
 										},
 									},
@@ -112730,13 +114195,13 @@ return {
 										2.3,
 									},
 									["Disposition"] = {
-										1.29,
-										1.275,
-										1.26,
-										1.2525,
-										1.245,
-										1.23,
-										1.215,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FalloffEnd"] = {
 										3.3,
@@ -112948,9 +114413,6 @@ return {
 									["Disposition"] = {
 										[1.2] = {
 											"Zymos",
-											["Place"] = "Second",
-										},
-										[1.3] = {
 											"Kulstar",
 											["Place"] = "First",
 										},
@@ -113162,13 +114624,13 @@ return {
 										2.3,
 									},
 									["Disposition"] = {
-										1.29,
-										1.275,
-										1.26,
-										1.2525,
-										1.245,
-										1.23,
-										1.215,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FalloffEnd"] = {
 										3.9,
@@ -113380,9 +114842,6 @@ return {
 									["Disposition"] = {
 										[1.2] = {
 											"Zymos",
-											["Place"] = "Second",
-										},
-										[1.3] = {
 											"Kulstar",
 											["Place"] = "First",
 										},
@@ -113951,13 +115410,13 @@ return {
 								1.75,
 							},
 							["Disposition"] = {
-								1.4,
-								1.3,
-								1.15,
-								1.15,
-								1.075,
-								0.95,
-								0.95,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FalloffEnd"] = {
 								37.6,
@@ -114226,16 +115685,18 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
-									"Kohmak",
-									["Place"] = "Third",
-								},
-								[1.4] = {
-									"Bronco Prime",
-									["Place"] = "Second",
-								},
-								[1.45] = {
+								[1.2] = {
+									"Euphona Prime",
 									"Bronco",
+									"Pyrana Prime",
+									"Kuva Brakk",
+									"Brakk",
+									"Detron",
+									"Kohmak",
+									"Bronco Prime",
+									"Tenet Detron",
+									"Mara Detron",
+									"Pyrana",
 									["Place"] = "First",
 								},
 							},
@@ -114517,13 +115978,13 @@ return {
 								2,
 							},
 							["Disposition"] = {
-								1.43,
-								1.4,
-								1.37,
-								1.355,
-								1.28,
-								1.07,
-								0.98,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FalloffEnd"] = {
 								45.6,
@@ -114777,16 +116238,12 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.35] = {
-									"Kohmak",
-									["Place"] = "Third",
-								},
-								[1.4] = {
-									"Bronco Prime",
-									["Place"] = "Second",
-								},
-								[1.45] = {
+								[1.2] = {
+									"Euphona Prime",
 									"Bronco",
+									"Kohmak",
+									"Bronco Prime",
+									"Tenet Detron",
 									["Place"] = "First",
 								},
 							},
@@ -115058,13 +116515,13 @@ return {
 										1.5,
 									},
 									["Disposition"] = {
-										1.42,
-										1.325,
-										1.21,
-										1.165,
-										1.15,
-										1.11,
-										0.95,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FalloffEnd"] = {
 										26,
@@ -115322,16 +116779,14 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.25] = {
-											"Brakk",
-											["Place"] = "Third",
-										},
-										[1.4] = {
-											"Bronco Prime",
-											["Place"] = "Second",
-										},
-										[1.45] = {
+										[1.2] = {
+											"Euphona Prime",
 											"Bronco",
+											"Kuva Brakk",
+											"Brakk",
+											"Detron",
+											"Bronco Prime",
+											"Mara Detron",
 											["Place"] = "First",
 										},
 									},
@@ -115613,13 +117068,13 @@ return {
 										2.3,
 									},
 									["Disposition"] = {
-										1.44,
-										1.425,
-										1.41,
-										1.4025,
-										1.355,
-										1.22,
-										1.085,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FalloffEnd"] = {
 										34.4,
@@ -115860,16 +117315,10 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[0.95] = {
+										[1.2] = {
 											"Euphona Prime",
-											["Place"] = "Third",
-										},
-										[1.4] = {
-											"Bronco Prime",
-											["Place"] = "Second",
-										},
-										[1.45] = {
 											"Bronco",
+											"Bronco Prime",
 											["Place"] = "First",
 										},
 									},
@@ -116136,13 +117585,13 @@ return {
 								1.6,
 							},
 							["Disposition"] = {
-								1.468,
-								1.35,
-								1.33,
-								1.3,
-								1.26,
-								1.17,
-								1,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FalloffEnd"] = {
 								3.92,
@@ -116423,17 +117872,24 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.4] = {
+								[1.2] = {
 									"Castanas",
-									["Place"] = "Third",
-								},
-								[1.44] = {
-									"Talons",
-									["Place"] = "Second",
-								},
-								[1.51] = {
 									"Kunai",
+									"Coda Pox",
+									"Spira",
+									"Staticor",
+									"Spira Prime",
+									"Hikou Prime",
+									"Hikou",
+									"Cantare",
 									"Mk1-Kunai",
+									"Scyotid",
+									"Fusilai",
+									"Sancti Castanas",
+									"Talons",
+									"Pox",
+									"Aegrit",
+									"Despair",
 									["Place"] = "First",
 								},
 							},
@@ -116710,13 +118166,13 @@ return {
 								1.5,
 							},
 							["Disposition"] = {
-								1.503,
-								1.41,
-								1.35,
-								1.33875,
-								1.295,
-								1.06,
-								0.965,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FalloffEnd"] = {
 								6,
@@ -116983,17 +118439,19 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[1.4] = {
+								[1.2] = {
 									"Castanas",
-									["Place"] = "Third",
-								},
-								[1.44] = {
-									"Talons",
-									["Place"] = "Second",
-								},
-								[1.51] = {
 									"Kunai",
+									"Coda Pox",
+									"Staticor",
 									"Mk1-Kunai",
+									"Scyotid",
+									"Fusilai",
+									"Sancti Castanas",
+									"Talons",
+									"Pox",
+									"Aegrit",
+									"Despair",
 									["Place"] = "First",
 								},
 							},
@@ -117285,13 +118743,13 @@ return {
 								2.32,
 							},
 							["Disposition"] = {
-								1.26,
 								1.2,
-								1.14,
-								1.11,
-								1.08,
-								1.02,
-								0.96,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FalloffEnd"] = {
 								4,
@@ -117504,11 +118962,8 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.9] = {
+								[1.2] = {
 									"Staticor",
-									["Place"] = "Second",
-								},
-								[1.3] = {
 									"Despair",
 									["Place"] = "First",
 								},
@@ -117717,13 +119172,13 @@ return {
 								2.2,
 							},
 							["Disposition"] = {
-								0.9,
-								0.9,
-								0.9,
-								0.9,
-								0.9,
-								0.9,
-								0.9,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
+								1.2,
 							},
 							["FalloffEnd"] = {
 								9.6,
@@ -117896,7 +119351,7 @@ return {
 								},
 							},
 							["Disposition"] = {
-								[0.9] = {
+								[1.2] = {
 									"Staticor",
 									["Place"] = "First",
 								},
@@ -118072,13 +119527,13 @@ return {
 										1.6,
 									},
 									["Disposition"] = {
-										1.51,
-										1.3375,
-										1.3,
-										1.28625,
-										1.2525,
-										1.235,
-										1.1025,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										5.914,
@@ -118328,18 +119783,17 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.3] = {
-											"Hikou",
-											"Despair",
-											["Place"] = "Third",
-										},
-										[1.35] = {
-											"Spira",
-											["Place"] = "Second",
-										},
-										[1.51] = {
+										[1.2] = {
 											"Kunai",
+											"Coda Pox",
+											"Spira",
+											"Spira Prime",
+											"Hikou Prime",
+											"Hikou",
+											"Cantare",
 											"Mk1-Kunai",
+											"Pox",
+											"Despair",
 											["Place"] = "First",
 										},
 									},
@@ -118589,13 +120043,13 @@ return {
 										2,
 									},
 									["Disposition"] = {
-										1.51,
-										1.51,
-										1.384,
-										1.321,
-										1.28,
-										1.22,
-										1.12,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										3.33,
@@ -118833,16 +120287,11 @@ return {
 									},
 									["Disposition"] = {
 										[1.2] = {
-											"Pox",
-											["Place"] = "Third",
-										},
-										[1.3] = {
-											"Despair",
-											["Place"] = "Second",
-										},
-										[1.51] = {
 											"Kunai",
+											"Coda Pox",
 											"Mk1-Kunai",
+											"Pox",
+											"Despair",
 											["Place"] = "First",
 										},
 									},
@@ -119085,13 +120534,13 @@ return {
 										3,
 									},
 									["Disposition"] = {
-										1.3,
-										1.3,
-										1.3,
-										1.3,
-										1.3,
-										1.3,
-										1.3,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
+										1.2,
 									},
 									["FireRate"] = {
 										3,
@@ -119246,7 +120695,7 @@ return {
 										},
 									},
 									["Disposition"] = {
-										[1.3] = {
+										[1.2] = {
 											"Despair",
 											["Place"] = "First",
 										},
@@ -119324,5 +120773,6 @@ return {
 
 # Data
 
-[[edit source](/w/Module:Weapons/ppdata/doc?action=edit&section=3 "Edit section's source code: Data")]
+[[edit](/w/Module:Weapons/ppdata/doc?action=edit&section=3 "Edit Section using Source Editor:
+Data")]
 

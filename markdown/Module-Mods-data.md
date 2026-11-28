@@ -1,12 +1,12 @@
 ---
 title: "Module:Mods/data"
 wiki_url: "https://wiki.warframe.com/w/Module/Mods/data"
-wiki_timestamp: "2026-11-01T23:35:48Z"
+wiki_timestamp: "2026-11-28T06:23:54Z"
 ---
 
 Database for all [Mods](/w/Mod "Mod") in [WARFRAME](/w/WARFRAME "WARFRAME") (with the exception of unveiled [Riven Mods](/w/Riven_Mods "Riven Mods")). Preferably put new mods in the correct alphabetical order, but it is not necessary.
 
-:   *Last updated: Sun, 01 Nov 2026 23:35:48 +0000 (UTC) by [User:Cephalon Scientia](/w/User:Cephalon_Scientia "User:Cephalon Scientia") ([change log](https://wiki.warframe.com/w/Module:Mods/data?diff=0))*
+:   *Last updated: Sat, 28 Nov 2026 06:23:54 +0000 (UTC) by [User:Akzani](/w/User:Akzani "User:Akzani") ([change log](https://wiki.warframe.com/w/Module:Mods/data?diff=0))*
 
 ## Contents
 
@@ -24242,6 +24242,96 @@ local modData = {
 			Tradable = true,
 			Transmutable = false,
 			Type = "Rifle" 
+		},
+		["Sensate Claws"] = {
+			BaseDrain = 4,
+			CodexSecret = false,
+			Description = "+90% Tau Damage",
+			Icon = "SensateClaws.png",
+			Image = "SensateClawsMod.png",
+			InternalName = "",
+			Introduced = "45",
+			Link = "Sensate Claws",
+			MaxRank = 5,
+			Name = "Sensate Claws",
+			Polarity = "Madurai",
+			Rarity = "Rare",
+			Tradable = true,
+			Transmutable = false,
+			Type = "Claws",
+			UpgradeTypes = { "WEAPON_PERCENT_BASE_DAMAGE_ADDED" }
+		},
+		["Sensate Rounds"] = {
+			BaseDrain = 6,
+			CodexSecret = false,
+			Description = "+90% Tau Damage",
+			Icon = "SensateRounds.png",
+			Image = "SensateRoundsMod.png",
+			InternalName = "",
+			Introduced = "45",
+			Link = "Sensate Rounds",
+			MaxRank = 5,
+			Name = "Sensate Rounds",
+			Polarity = "Naramon",
+			Rarity = "Uncommon",
+			Tradable = true,
+			Transmutable = false,
+			Type = "Rifle",
+			UpgradeTypes = { "WEAPON_PERCENT_BASE_DAMAGE_ADDED" }
+		},
+		["Sensate Shell"] = {
+			BaseDrain = 6,
+			CodexSecret = false,
+			Description = "+90% Tau Damage",
+			Icon = "SensateShell.png",
+			Image = "SensateShellMod.png",
+			InternalName = "",
+			Introduced = "45",
+			Link = "Sensate Shell",
+			MaxRank = 5,
+			Name = "Sensate Shell",
+			Polarity = "Vazarin",
+			Rarity = "Uncommon",
+			Tradable = true,
+			Transmutable = false,
+			Type = "Shotgun",
+			UpgradeTypes = { "WEAPON_PERCENT_BASE_DAMAGE_ADDED" }
+		},
+		["Sensate Shot"] = {
+			BaseDrain = 6,
+			CodexSecret = false,
+			Description = "+90% Tau Damage",
+			Icon = "SensateShot.png",
+			Image = "SensateShotMod.png",
+			InternalName = "",
+			Introduced = "45",
+			Link = "Sensate Shot",
+			MaxRank = 5,
+			Name = "Sensate Shot",
+			Polarity = "Naramon",
+			Rarity = "Uncommon",
+			Tradable = true,
+			Transmutable = false,
+			Type = "Pistol",
+			UpgradeTypes = { "WEAPON_PERCENT_BASE_DAMAGE_ADDED" }
+		},
+		["Sensate Strike"] = {
+			BaseDrain = 6,
+			CodexSecret = false,
+			Description = "+90% Tau Damage",
+			Icon = "SensateStrike.png",
+			Image = "SensateStrikeMod.png",
+			InternalName = "",
+			Introduced = "45",
+			Link = "Sensate Strike",
+			MaxRank = 5,
+			Name = "Sensate Strike",
+			Polarity = "Vazarin",
+			Rarity = "Uncommon",
+			Tradable = true,
+			Transmutable = false,
+			Type = "Melee",
+			UpgradeTypes = { "WEAPON_PERCENT_BASE_DAMAGE_ADDED" }
 		},
 		["Sentient Barrage"] = {
 			BaseDrain = 2,
